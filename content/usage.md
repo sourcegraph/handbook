@@ -6,6 +6,8 @@
 1. You look it up in the handbook.
    - If the handbook has what you need, you're done!
    - If the handbook is missing what you need or is inaccurate/outdated, ask for help (on Slack, Zoom, etc.) and ensure the handbook is updated.
+   
+Join the `#handbook` Slack channel to see proposed changes.
 
 ## Handbook guidelines
 
