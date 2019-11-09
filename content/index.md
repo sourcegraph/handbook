@@ -5,10 +5,10 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 ## Company
 
 - [Values](values.md)
-- [Communication](communication.md)
 - [Handbook usage](usage.md)
-- [Company meeting](company_meeting.md)
-- [Style guide](style_guide.md)
+- [Communication](communication/index.md)
+  - [Company meeting](communication/company_meeting.md)
+  - [Style guide](communication/style_guide.md)
 - [CEO](ceo/index.md)
 
 ## People Ops
