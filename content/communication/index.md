@@ -5,11 +5,13 @@
 These places are the source of truth for information at Sourcegraph. Information in these places is expected to be accurate and up-to-date:
 
 - [Documentation](https://docs.sourcegraph.com)
-- [about.sourcegraph.com](https://about.sourcegraph.com)
 - [sourcegraph/sourcegraph repository](https://github.com/sourcegraph/sourcegraph)
+- [sourcegraph/about repository](https://github.com/sourcegraph/sourcegraph)
+  - [about.sourcegraph.com](https://about.sourcegraph.com)
+  - [Sourcegraph handbook](index.md)
+  - [Sourcgraph blog](https://about.sourcegraph.com/blog)
 - [Project roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
-- [Sourcegraph handbook](index.md)
 - [HubSpot](https://app.hubspot.com)
 
 ### Scratchpads and ephemeral information (non-sources of truth)
@@ -43,6 +45,16 @@ The following places are not sources of truth. Treat documents and conversations
 ## [1-1 meetings](../leadership/1-1.md)
 
 See "[1-1 meetings](../leadership/1-1.md)".
+
+## Google Docs
+
+We use Google Docs for:
+
+- [RFCs](https://drive.google.com/drive/u/0/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR)
+- Collaborative editing of ephemeral documents
+
+1. Deprecate a Google Doc when its content is added to the handbook, blog, or documentation (or other [source of truth](#sources-of-truth)). This lets people know to not consult, edit, or comment on it anymore.
+   - Rename the Google Doc to `DEPRECATED - <previous doc title>`, delete all doc content, and replace it with `See <URL to new content location>.`. (See [example of deprecated Google Doc](https://docs.google.com/document/d/1M22s-WDY9lp_JOitfv48cZNjtv4x6IJVKhlHZOAIlLM/edit#heading=h.23jju0ooahdb).)
 
 ## Slack
 
