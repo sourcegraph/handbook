@@ -43,6 +43,30 @@ To be handbook-first, we need to be very diligent about maintaining the handbook
 1. New teammates can onboard more quickly by reading our handbook to understand background information and processes.
 1. When you go on vacation or to sleep, you can relax knowing that nobody will be blocked while you're not working.
 
+## Searching the handbook
+
+Search the handbook using the search box in the top navigation on https://about.sourcegraph.com/handbook.
+
+### Google Chrome
+
+If you use Google Chrome, you can add a Sourcegraph handbook search shortcut to the address bar.
+
+#### Setup
+
+1. Open Chrome settings > **Manage search engines** (or go to chrome://settings/searchEngines directly).
+1. Next to "Other search engines", press the **Add** button.
+1. In the "Add search engine" form, enter:
+   - Search engine: `Sourcegraph handbook`
+   - Keyword: `hb` (or some other shortcut of your choosing)
+   - URL with %s in place of query: https://about.sourcegraph.com/search?q=%s
+1. Press the **Add** button.
+
+#### Usage
+
+1. Focus in Chrome’s address bar (by clicking, tapping, or pressing <kbd>⌘L</kbd> on macOS or <kbd>Ctrl+L</kbd> on Linux).
+1. Type the keyword you entered previously (e.g., `hb`) then press <kbd>Tab</kbd>.
+1. Type in a query and press <kbd>Enter</kbd>.
+
 ## Why make this handbook public?
 
 Sourcegraph is an [open product, an open company, and open source](../company/open_source_open_company.md). Our company principles, strategies, and processes are all publicly documented.
