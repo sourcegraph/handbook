@@ -25,7 +25,7 @@ Welcome to Sourcegraph! As a member of the sales team, you represent us and our 
   - GitHub account setup and intro
 - [CEO](../ceo/index.md)
   - Vision
-  - Values
+  - [Values](../values.md)
   - Company pitch
   - [OKRs](https://drive.google.com/a/sourcegraph.com/open?id=17jraaOYL4yEBO6v1B9YPNk7Q0FF_kQcF3dOquQukWfw)
   - Last board deck
