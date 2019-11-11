@@ -30,7 +30,6 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
      - [All RFC documents](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) (Google Drive)
      - [How we use RFCs](engineering/rfcs/index.md)
 
-
 ## Support
 
 - [Support](support/index.md)
