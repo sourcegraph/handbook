@@ -70,7 +70,10 @@ Do:
 
 ## What makes an effective code review?
 
-[This blog post](https://medium.com/@schrockn/on-code-reviews-b1c7c94d868c) effectively explains some principals which our team values.
+Please read:
+
+- [On code reviews](https://medium.com/@schrockn/on-code-reviews-b1c7c94d868c)
+- [Code Health: Respectful Reviews == Useful Reviews](https://testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html)
 
 The code author and code reviewer have a _shared goal_ to bring the PR into a state that meets our quality standards and the needs that motivated the change.
 
