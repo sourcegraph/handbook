@@ -26,9 +26,6 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 ## Engineering
 
 - [Engineering](engineering/index.md)
-  - RFCs (requests for comment)
-     - [All RFC documents](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) (Google Drive)
-     - [How we use RFCs](engineering/rfcs/index.md)
 
 ## Support
 
