@@ -20,12 +20,13 @@ Join the `#handbook` Slack channel to see proposed changes.
 
 ### Changing or defining a process
 
-1. If you want to change a guideline or process, propose an edit to the handbook (by creating a pull request). Discuss the change on the pull request. Don't discuss or draft the changes in some other channel (Slack, Google Doc, etc.) first.
+1. If you want to change a guideline or process, propose an edit to the handbook (by creating a pull request). Discuss the change on the pull request.
+  - Don't discuss or draft the changes in some other channel (Slack, Google Doc, etc.) first. If (for example) you start discussing a proposed change on Slack and then create a PR, you'll end up with half of the discussion on Slack and the other half on the PR, which results in confusion and duplication.
 1. If someone replies to a question with a newly typed-out answer that differs from what's in the handbook, gently ask them to either follow what's in the handbook or propose an edit to the handbook.
 1. To announce a changed or newly documented process, post a link (in Slack, and elsewhere as needed) to the merged commit that contains the before-and-after changes to the handbook.
    - In your message announcing the change, just include `[Handbook/process] change:`, the commit message subject, and the link. Don't write a separate summary of the change (if you feel the need to do so, you should have used a better commit message).
    - Ensure everyone who needs to be aware of the change is made aware. If you see people do things that indicate they aren't aware, gently remind them of the change. If you don't nudge them, other people will see them doing things the wrong/old way and start to doubt the handbook's accuracy or currency.
-1. Strongly prefer creating a pull request over filing an issue on the handbook, even if you aren't able to propose the full edits you'd like to make.
+1. Strongly prefer creating a pull request over filing an issue on the handbook or mentioning it on Slack, even if you aren't able to propose the full edits you'd like to make.
 1. Follow the [style guide](communication/style_guide.md) and [documentation guidelines](documentation/index.md) when making changes to the handbook.
 
 ## Why handbook-first?
