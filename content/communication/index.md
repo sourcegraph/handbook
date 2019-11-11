@@ -53,8 +53,14 @@ We use Google Docs for:
 - [RFCs](https://drive.google.com/drive/u/0/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR)
 - Collaborative editing of ephemeral documents
 
-1. Deprecate a Google Doc when its content is added to the handbook, blog, or documentation (or other [source of truth](#sources-of-truth)). This lets people know to not consult, edit, or comment on it anymore.
-   - Rename the Google Doc to `DEPRECATED - <previous doc title>`, delete all doc content, and replace it with `See <URL to new content location>.`. (See [example of deprecated Google Doc](https://docs.google.com/document/d/1M22s-WDY9lp_JOitfv48cZNjtv4x6IJVKhlHZOAIlLM/edit#heading=h.23jju0ooahdb).)
+### Deprecating a Google Doc
+
+Deprecate a Google Doc when its content is added to the handbook, blog, or documentation (or other [source of truth](#sources-of-truth)). This lets people know to not consult, edit, or comment on it anymore.
+
+1. Rename the Google Doc to `DEPRECATED - <previous doc title>`.
+1. Delete all doc content, and replace it with `See <URL to new content location>.`.
+
+See [example of deprecated Google Doc](https://docs.google.com/document/d/1M22s-WDY9lp_JOitfv48cZNjtv4x6IJVKhlHZOAIlLM/edit#heading=h.23jju0ooahdb).
 
 ## Slack
 
