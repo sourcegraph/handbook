@@ -14,7 +14,7 @@ Run a find replace on:
 
 # $VERSION Release ($RELEASE_DATE)
 
-**Note:** All `yarn run release ...` commands should be run from `dev/release`.
+**Note:** All `yarn run release ...` commands should be run from `dev/release` in the [sourcegraph repository](https://github.com/sourcegraph/sourcegraph).
 
 ## At the start of the iteration
 
