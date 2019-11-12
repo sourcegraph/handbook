@@ -7,7 +7,6 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 - [Values](values.md)
 - [Handbook usage](usage.md)
 - [Communication](communication/index.md)
-  - [Company meeting](communication/company_meeting.md)
   - [Style guide](communication/style_guide.md)
 - [CEO](ceo/index.md)
 

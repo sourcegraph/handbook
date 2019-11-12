@@ -26,6 +26,8 @@ The following places are not sources of truth. Treat documents and conversations
 
 ## Meetings
 
+- [Company meeting](company_meeting.md) (Mondays 11:00-11:30am PST/PDT)
+
 ### Internal meetings
 
 - Always start on time, even if some participants are late. (And try not to be late.) Latecomers can watch the Zoom recording.
