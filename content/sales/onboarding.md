@@ -27,7 +27,7 @@ Welcome to Sourcegraph! As a member of the sales team, you represent us and our 
   - Vision
   - [Values](../values.md)
   - Company pitch
-  - [OKRs](https://drive.google.com/a/sourcegraph.com/open?id=17jraaOYL4yEBO6v1B9YPNk7Q0FF_kQcF3dOquQukWfw)
+  - [OKRs](../../company/okrs/index.md)
   - Last board deck
 - [Product](../product/index.md)
   - [Personas](../product/personas.md)
