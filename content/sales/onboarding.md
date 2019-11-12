@@ -20,9 +20,9 @@ Welcome to Sourcegraph! As a member of the sales team, you represent us and our 
 [Recording on 2019-11-01](https://zoom.us/recording/play/m6olRsgG3vWpZ6ZJYg1FJr1RKeAPoUnsE4lvelSrs64_N-7AZ1QTSJ0eb8WXXSXk)
 
 - [People Ops](../people-ops/index.md)
-  - Systems, employment, and benefits setup
+  - [General onboarding steps](../people-ops/onboarding/index.md#for-all-new-teammates)
   - [Sourcegraph handbook](../index.md) intro
-  - GitHub account setup and intro
+  - GitHub account setup and tutorial
 - [CEO](../ceo/index.md)
   - Vision
   - [Values](../values.md)
