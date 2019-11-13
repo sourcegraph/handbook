@@ -66,9 +66,10 @@ See [example of deprecated Google Doc](https://docs.google.com/document/d/1M22s-
 
 ## Slack
 
-We use Slack for team chat, which means ephemeral conversations. Any important decisions or changes need to be reflected in the [source of truth](#sources-of-truth).
+We use Slack for team chat, which means ephemeral conversations. To enforce this, only 90 days of Slack activity in public channels is retained. Any important decisions or changes need to be reflected in the [source of truth](#sources-of-truth).
 
-See [common channels](team_chat.md).
+- [Common channels](team_chat.md)
+- [Historical archive of Slack messages prior to 2019-11-09](https://drive.google.com/file/d/1FUbOEsMM4fWRpxymgNHZCAssOPEFDelJ/view?usp=sharing): unzip and open `sourcegraph-slack-archive-to-20191109/index.html` to view. If you consult this, please be sure to add whatever information you learn to a source of truth so we reduce our reliance on this archive.
 
 ### Avoid private messages
 
