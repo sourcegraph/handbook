@@ -21,7 +21,8 @@ If you are a new member of the engineering team, you'll most likely want to join
 
 ## Business
 
-- #go-to-market - Going to market, selling to customers
+- #marketing - [Marketing](../marketing/index.md)
+- #sales - [Sales](../sales/index.md)
 - #marketintel - Market and industry intelligence - products, funding, competition
 - #payments - Customer payment notifications
 - #hiring-active - Candidate hiring
