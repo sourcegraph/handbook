@@ -52,3 +52,4 @@ When formulating your answer, assume the audience is a new Sourcegraph teammate 
 1. What does the [Sourcegraph browser extension](https://docs.sourcegraph.com/integration/browser_extension) do?
 1. Does Sourcegraph have an API?
 1. What is the fastest way for a developer to try Sourcegraph on their organization's internal code?
+1. What is monthly active user billing? How are users counted?
