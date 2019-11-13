@@ -6,7 +6,7 @@ Some [onboarding docs](https://github.com/sourcegraph/Graphbook/tree/master/Onbo
 - [Distributed teammates (non-US-based)](https://github.com/sourcegraph/Graphbook/blob/master/Onboarding/Distributed%20teammates%20(international).md)
 - [Engineers](https://github.com/sourcegraph/Graphbook/blob/master/Onboarding/Engineers.md)
 - [SF-based teammates](https://github.com/sourcegraph/Graphbook/blob/master/Onboarding/SF%20based%20teammates.md)
-- [Sales team](../../sales/onboarding.md)
+- [Sales team](../../sales/onboarding/index.md)
 
 ## For all new teammates
 
