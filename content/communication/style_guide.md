@@ -121,7 +121,7 @@ For consistency, all examples should use the following names (as appropriate).
 
 - Repository (not "repo")
 - Organization (not "org")
-- When referring to a user's assumed corporate entity or employer, prefer calling it an "organization" (not "company" or "team")
+- When referring to a user's assumed corporate entity or employer, prefer calling it an "[organization](../sales/index.md#organization)" (not "company" or "team")
 - Email address (not "email")
 - Admin or Site admin (not "administrator" or "site administrator")
 - Documentation not docs ("docs" is OK in paths and navigation links)

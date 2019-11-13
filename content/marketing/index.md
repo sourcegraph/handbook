@@ -20,3 +20,7 @@ See job descriptions and responsibilities of roles on the Marketing team:
 - [Developer Advocate](roles.md#developer-advocate)
 - [VP Marketing](roles.md#vp-marketing)
 - [Online Marketer](roles.md#online-marketer)
+
+## Definitions
+
+See "[Marketing definitions](https://docs.google.com/document/d/1h6xQeGHpMrsUUJ63Q6KupUNzq1iOpZfZSMC6ta3pLiY/edit#heading=h.pt4ztk7qhub0)".
