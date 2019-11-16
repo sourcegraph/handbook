@@ -69,7 +69,7 @@ Here's a screen recording of the steps (written out below) for macOS:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/diZUeHZhekc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Prerequisites
+#### Prerequisites
 
 1. Download and install [GitHub Desktop](https://desktop.github.com/).
 1. Launch GitHub Desktop and sign into it using your GitHub username.
@@ -79,7 +79,7 @@ Optional:
 
 - Use [MacDown](https://macdown.uranusjr.com/) to edit and preview Markdown (`.md`) files.
 
-### Steps
+#### Steps
 
 1. In GitHub Desktop, open the `about` repository that you cloned previously.
 1. In **Current Branch**, select `master` if it's not already selected.
@@ -93,7 +93,7 @@ Optional:
 1. Press the **Create Pull Request** button.
 1. On the pull request page in your web browser, select reviewers and wait for reviews/approvals, then merge to make the changes live.
 
-### Running a local preview handbook site
+#### Running a local preview handbook site
 
 > NOTE: This is optional.
 
