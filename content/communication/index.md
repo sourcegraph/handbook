@@ -26,7 +26,7 @@ The following places are not sources of truth. Treat documents and conversations
 
 ## Meetings
 
-- [Company meeting](company_meeting.md) (Mondays 11:00-11:30am PST/PDT)
+- [Company meeting](company_meeting.md) (Mondays 10:30-11:00am PST/PDT)
 
 ### Internal meetings
 
