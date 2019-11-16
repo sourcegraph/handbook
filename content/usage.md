@@ -22,6 +22,7 @@ Join the `#handbook` Slack channel to see proposed changes.
 
 1. If you want to change a guideline or process, propose an edit to the handbook (by creating a pull request). Discuss the change on the pull request.
    - Don't discuss or draft the changes in some other channel (Slack, Google Doc, etc.) first. If (for example) you start discussing a proposed change on Slack and then create a PR, you'll end up with half of the discussion on Slack and the other half on the PR, which results in confusion and duplication.
+   - Learn [how to propose an edit the handbook](editing.md).
 1. If someone replies to a question with a newly typed-out answer that differs from what's in the handbook, gently ask them to either follow what's in the handbook or propose an edit to the handbook.
 1. To announce a changed or newly documented process, post a link (in Slack, and elsewhere as needed) to the merged commit that contains the before-and-after changes to the handbook.
    - In your message announcing the change, just include `[Handbook/process] change:`, the commit message subject, and the link. Don't write a separate summary of the change (if you feel the need to do so, you should have used a better commit message).
@@ -67,6 +68,15 @@ If you use Google Chrome, you can add a Sourcegraph handbook search shortcut to 
 1. Focus in Chrome’s address bar (by clicking, tapping, or pressing <kbd>⌘L</kbd> on macOS or <kbd>Ctrl+L</kbd> on Linux).
 1. Type the keyword you entered previously (e.g., `hb`) then press <kbd>Tab</kbd>.
 1. Type in a query and press <kbd>Enter</kbd>.
+
+## Wiki and Google Docs handbooks become stale
+
+Being [handbook-first](#why-handbook-first) requires the handbook to be up to date. It is very difficult to keep handbooks in wikis and Google Docs up to date because:
+
+1. Many handbook changes require updating references and mentions across multiple pages (e.g., changing a product usage metric's name or a dashboard's URL might require updates to 10+ pages across the product, marketing, and sales sections). In wikis and Google Docs, there is no easy way to propose a *group* of changes to multiple sections or pages. In Google Docs, for example, each edit operation is shown separately. As a result, people making and reviewing edits can easily miss other places that need to be updated.
+1. Many handbook changes are collaborative and need to be reviewed, revised, and commented on by other teammates. Wikis don't make this easy or possible, and Google Docs has very limited review and no revision capabilities.
+
+We chose Markdown files in a Git repository for the handbook because it allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing.md).
 
 ## Why make this handbook public?
 
