@@ -103,7 +103,7 @@ We use a program called [docsite](https://github.com/sourcegraph/docsite) to tur
 1. When the download is complete, open the terminal and run the following commands. (Replace `N.N.N` with the actual version number in the filename you downloaded in all of the commands below.)
 
     <pre>
-chmod +x ~/Downloads/docsite_vN.N.N_darwin_amd64`
+chmod +x ~/Downloads/docsite_vN.N.N_darwin_amd64
 cd ~/Documents/GitHub/about
 ~/Downloads/docsite_vN.N.N_darwin_amd64 serve</pre>	
     
