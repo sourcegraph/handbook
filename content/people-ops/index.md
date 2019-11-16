@@ -9,4 +9,6 @@
 
 See job descriptions and responsibilities of roles on the People Ops team:
 
-- TODO
+- TODO hello, world
+
+this is cool!
