@@ -28,7 +28,7 @@ Here's the process for getting a change published to the handbook. For detailed 
 
 ## Reviewing and approving another person's proposal
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j4U-6ehhQ-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q8tUXKU66Sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Edit a single file
 
