@@ -8,7 +8,7 @@ These places are the source of truth for information at Sourcegraph. Information
 - [sourcegraph/sourcegraph repository](https://github.com/sourcegraph/sourcegraph)
 - [sourcegraph/about repository](https://github.com/sourcegraph/sourcegraph)
   - [about.sourcegraph.com](https://about.sourcegraph.com)
-  - [Sourcegraph handbook](index.md)
+  - [Sourcegraph handbook](../index.md)
   - [Sourcgraph blog](https://about.sourcegraph.com/blog)
 - [Project roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
