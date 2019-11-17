@@ -80,6 +80,7 @@ Welcome to Sourcegraph! As a member of the sales team, you represent us and our 
 
 - Checkpoint
   - Conduct a 30-minute intro call (pitch, discovery, product walkthrough)
+  - Answer all [common customer questions](../common_customer_questions.md) in a live quiz (note: this doc will have all of the questions answered prior to anyone needing to do this quiz)
 
 
 ## Helpful links
