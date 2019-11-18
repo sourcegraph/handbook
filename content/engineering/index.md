@@ -5,6 +5,7 @@
   - [How we use RFCs](rfcs/index.md)
 - [Code reviews](code_reviews.md)
 - [Go style guide](go_style_guide.md)
+- [Commit message guidelines](commit_messages.md)
 - [Incidents](incidents.md)
 - [Releases](releases/index.md)
   - [Release issue template](releases/release_issue_template.md)
