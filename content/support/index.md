@@ -1,12 +1,14 @@
 # Support
 
-This document is for both Sourcegraph teammates providing support, and for Sourcegraph customers to understand how to request support.
+This document is to help Sourcegraph teammates provide our customers with support.
 
-## How to get support (for customers)
+## How support works for customers
 
 Sourcegraph provides a dizzying number of ways to get in contact with us — from our [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues), our [Contact Us page](https://about.sourcegraph.com/contact), email exchanges with your sales and support reps, to our social media accounts, there's no shortage of ways to get in contact. 
 
-Any and all of them will get our attention, but we only provide a support SLA on a single path: **filing a support ticket by emailing us at support@sourcegraph.com**.
+### Recommended support path and SLAs
+
+Any of the methods listed above will get our attention, but we only provide a support SLA on a single path: **filing a support ticket by emailing us at support@sourcegraph.com**.
 
 ### Support tickets vs. issues
 
@@ -20,7 +22,7 @@ Beyond the conceptual difference, there are practical reasons to prefer starting
 * You may not want to discuss your private deployment or configuration, to share your logs, etc.
 * We won't be able to measure (and improve on) our response and resolution times.
 
-## How to provide support (for Sourcegraph teammates)
+## How to provide support
 
 First, read the section above (for customers).
 
@@ -61,7 +63,7 @@ Example response:
 >Best,
 >Dan
 
-> Note: this response, like all others, should come through HubSpot's service or conversations pages, not via a personal email client. "Adding" a teammate to the thread should occur by assigning them ownership of the ticket in HubSpot and, if necessary, sharing a link to the ticket.
+This response, like all others, should come through HubSpot's service or conversations pages, not via a personal email client. "Adding" a teammate to the thread should occur by assigning them ownership of the ticket in HubSpot and, ideally, sharing a link to the ticket with them in Slack.
 
 #### Support owners
 
@@ -82,12 +84,14 @@ We strive to maintain the response and resolution times below.
 #### For customers with on-premises/self-hosted Sourcegraph instances:
 
 ||Description|Response time|Resolution time|
+|---|---|---|---|
 |Severity 1|Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment.|Within 24 hours of becoming aware of the issue|Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.|
 |Severity 2|Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.|Within one business week of becoming aware of the issue|When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update.|
 
 #### For customers with managed instances:
 
 ||Description|Response time|Resolution time|
+|---|---|---|---|
 |Severity 1|Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment.|Within 24 hours of becoming aware of the issue|Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.|
 |Severity 2|Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.|Within one business week of becoming aware of the issue|When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update.|
 
