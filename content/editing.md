@@ -77,7 +77,7 @@ Here's a screen recording of the steps (written out below) for macOS:
 
 Optional:
 
-- Use [MacDown](https://macdown.uranusjr.com/) to edit and preview Markdown (`.md`) files.
+- Use [Typora](https://www.typora.io/) to edit and preview Markdown (`.md`) files.
 
 #### Steps
 
