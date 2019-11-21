@@ -7,6 +7,7 @@
 - [Glossary](from-graphbook/glossary.md)
 - [Holidays](from-graphbook/holidays.md)
 - [Remote work](../../company/remote/index.md)
+- [Teammate philosophy](teammate_philosophy.md) 
 
 ## [Roles](roles.md)
 
