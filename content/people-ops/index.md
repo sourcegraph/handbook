@@ -2,6 +2,8 @@
 
 - [Hiring](hiring.md)
 - [Onboarding](onboarding/index.md)
+- [Compensation](compensation.md)
+- [Benefits and perks](benefits-and-perks.md)
 - [Travel](travel.md)
 - [Expense reports](expenses.md)
 - [Spending company money](spending-company-money.md)
