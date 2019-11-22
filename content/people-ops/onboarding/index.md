@@ -11,3 +11,4 @@
 > NOTE: This list is incomplete because it includes only new steps added since the creation of the Sourcegraph handbook. Eventually all of the onboarding docs above will be migrated to this Sourcegraph handbook, then this list will be complete and this note can be removed.
 
 - [ ] Set up a recurring weekly 25-minute [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
+- [ ] Complete the [git introduction](git_intro.md)
