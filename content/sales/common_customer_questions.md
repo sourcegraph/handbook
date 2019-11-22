@@ -27,6 +27,22 @@ Here is a strategy for handling this question live (for simplicity, this assumes
 
 > Yes, see repository permissions documentation (https://docs.sourcegraph.com/admin/repo/permissions).
 
+## Why should I pay for Sourcegraph and not just use the open-source version?
+
+Here's a comprehensive answer that you can trim down based on the prospective customer's specific needs. It assumes that their developers are already using Sourcegraph internally because it's extremely rare that organizations begin by using the open-source version (this question usually comes up at the end of a trial).
+
+> You're using Sourcegraph to accelerate your organization's software development. Based on the usage levels and survey results you've shared with us, Sourcegraph is living up to that promise. That means your developers are frequently going to Sourcegraph to understand your organization's code, fix critical problems, and make large-scale refactors.
+>
+> In your Sourcegraph [trial/under-10-users free tier usage], you're already seeing the value of key paid features of Sourcegraph: [emphasize the points below that are relevant to the specific customer, and remove points that are irrelevant]
+>
+> - Code navigation (go-to-definition, find-references, and other features provided by [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
+>   - Search is just the first step when your developers use Sourcegraph to answer important questions or solve problems. Once they find the code they're looking for, they usually need to know things such as "Where's this code being used?", "Who wrote this code and when was it changed?", "Where's this function defined?", "Is this function being called in production anymore, according to LightStep/Datadog/Sentry/etc. logs?", and so on. This is only possible on paid tiers.
+>   - Code reviews are faster and more effective (catching more problems earlier) when your developers have go-to-definition and find-references available during code reviews (e.g., in GitHub pull requests with the [browser extension](https://docs.sourcegraph.com/integration/browser_extension) or using our native UI integrations for [GitLab](https://docs.sourcegraph.com/integration/gitlab) and [Bitbucket Server](https://docs.sourcegraph.com/integration/bitbucket_server#native-extension)).
+> - Single sign-on (SSO) user authentication (see [docs](https://docs.sourcegraph.com/admin/auth)). This makes it so all of your developers can easily and securely access Sourcegraph with central account provisioning (e.g., ensuring you don't forget to deactivate someone's Sourcegraph account when they are no longer employed).
+> - High-scale and high-availability cluster deployment (see [docs](https://docs.sourcegraph.com/admin/install/cluster)).
+> - Technical support. Your developers already rely on Sourcegraph, and a day of reduced productivity if Sourcegraph goes down costs you far more than the price of the paid tiers.
+> - Ease and security of official builds. If you run the open-source version of Sourcegraph, you'll need to build the Docker images on your own, which requires writing and maintaining your own build scripts and tracking our release calendar. Using the official builds saves you the hassle and ensures you'll have regular updates available (and immediate updates when a critical security issue is discovered in Sourcegraph or any other related infrastructure, such as OpenSSL or PostgreSQL).
+
 ## Needs answer
 
 - What’s the recommended resource provisioning on our end for optimal search performance at scale?
@@ -53,4 +69,3 @@ Here is a strategy for handling this question live (for simplicity, this assumes
 - When should I expect Sourcegraph Automation to be available? Can I access the feature set today?
 - Why is Sourcegraph more expensive than GitHub Enterprise / Stack Overflow / Slack / Asana / JIRA licenses?
 - Can you break down your pricing fees for managed instances?
-- Why should I pay for Sourcegraph and not just use a free/open-source self-hosted instance?
