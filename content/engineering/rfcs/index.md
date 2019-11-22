@@ -16,15 +16,15 @@ Each RFC has a status that is in the title of the RFC (e.g. "RFC 1 WIP: Title").
 |-------|-------------|
 | WIP | The author is still drafting the RFC and it is not ready for review. |
 | REVIEW | The RFC is ready to be reviewed. The RFC explicitly lists whose approvals are required and a requested timeline for those approvals. |
-| APPROVED | All comment threads are resolved and the RFC has been approved by all required approvers. Just because an RFC is approved doesn't mean it will definitely be implemented (e.g. priorities may change, or new information might be discovered during implementation or code review that causes a change in plan). It is in the author's best interest to avoid suprises at code review time by ensuring the RFC has a sufficient level of detail and has approval from all relevant stakeholders. |
-| ABANDONED | There are no plans to move forward with this RFC. The particular reason is communicated in the metadata section of the RFC. For example, the RFC may have failed to get the necessary approvals, it may be been superseded by another RFC, priorities may have changed, or we may not have resources to work on this RFC in the forseeable future. |
+| APPROVED | All comment threads are resolved and the RFC has been approved by all required approvers. Just because an RFC is approved doesn't mean it will definitely be implemented (e.g. priorities may change, or new information might be discovered during implementation or code review that causes a change in the plan). It is in the author's best interest to avoid surprises at code review time by ensuring the RFC has a sufficient level of detail and has approval from all relevant stakeholders. |
+| ABANDONED | There are no plans to move forward with this RFC. The particular reason is communicated in the metadata section of the RFC. For example, the RFC may have failed to get the necessary approvals, it may be been superseded by another RFC, priorities may have changed, or we may not have resources to work on this RFC in the foreseeable future. |
 | IMPLEMENTED | This RFC has been implemented. |
 
 A prose description of the status appears in the [metadata](#RFC-structure) of an RFC.
 
 ## RFCs are sequentially numbered
 
-Each RFC is assigned a unique sequential number that appears in the title (e.g. "RFC 27: Standardizing RFCs"). This makes it easier to quickly reference specific RFCs in informal conversation (e.g. Slack, GitHub issues) and easier for readers to quickly find that document in a shared location (e.g. Google Drive). The sequential numbers also provides valuable information about the order in which RFCs were created.
+Each RFC is assigned a unique sequential number that appears in the title (e.g. "RFC 27: Standardizing RFCs"). This makes it easier to quickly reference specific RFCs in informal conversation (e.g. Slack, GitHub issues) and easier for readers to quickly find that document in a shared location (e.g. Google Drive). The sequential numbers also provide valuable information about the order in which RFCs were created.
 
 ## RFCs are Google Docs
 
@@ -72,7 +72,7 @@ Effective RFCs contain the following information:
   - The title is inlined in the Google Doc so that it is more visible and will not disappear if exported to a different format.
 - Metadata about the state of the RFC. Including but not limited to:
   - Editor: The person responsible for iterating on the content of the RFC.
-    - Generally this is the author of the Google Doc but it is possible for ownership to be transferred.
+    - Generally, this is the author of the Google Doc but it is possible for ownership to be transferred.
   - Status: A description of the current state or outcome of the RFC. Illustrative examples:
     - "Still drafting this. I expect to share this with the web team September 6."
     - "Collecting feedback. I will update the RFC on September 8 based on the feedback collected.
