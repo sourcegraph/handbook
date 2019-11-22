@@ -4,7 +4,8 @@ It is not used for patch releases. See [patch_release_issue_template.md](patch_r
 for the patch release checklist.
 
 Run a find replace on:
-- $VERSION
+- $MAJOR
+- $MINOR
 - $RELEASE_DATE
 - $FIVE_WORKING_DAYS_BEFORE_RELEASE
 - $FOUR_WORKING_DAYS_BEFORE_RELEASE
@@ -23,36 +24,31 @@ Run a find replace on:
 - [ ] Add calendar events and reminders for key dates in the release cycle: `yarn run release add-timeline-to-calendar`
 - [ ] Create the release tracking issue (i.e., this issue): `yarn run release tracking-issue:create`
 - [ ] Post link to tracking to #dev-announce: `yarn run release tracking-issue:announce`
-- [ ] Create a new test grid for MAJOR.MINOR by cloning the previous [release testing grid on Monday.com](https://sourcegraph-team.monday.com) and renaming it to "MAJOR.MINOR Release test grid".
-    - [ ] Reset all tested cells to "To test", unless the "Automated" column is marked as "Done". See [this article for how to update multiple values in Monday.com](https://support.monday.com/hc/en-us/articles/115005335049-Batch-Actions-Edit-multiple-items-in-one-click).
-    - [ ] Assign rows in the release testing grid to engineers from the team that owns the row.
 
 ## 5 working days before release ($FIVE_WORKING_DAYS_BEFORE_RELEASE)
 
 - [ ] Use `./dev/release-ping.sh` to message teammates who have open issues / PRs in the milestone and ask them to remove those that won't be done by the time that the release branch is scheduled to be created.
 - [ ] Verify that there is a draft of the blog post and that it will be ready to be merged on time.
-- [ ] Ping each team, and ask them to identify which of the optional rows that they own on the release testing grid should be tested this iteration.
-- [ ] Ping the @distribution team to determine which environments each row on the release testing grid should be tested in.
 
 ## 4 working days before release ($FOUR_WORKING_DAYS_BEFORE_RELEASE)
 
-- [ ] **HH:MM AM/PM PT** Add a new section header for this version to the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/master/CHANGELOG.md#unreleased) immediately under the `## Unreleased changes` heading and add new empty sections under `## Unreleased changes` ([example](https://github.com/sourcegraph/sourcegraph/pull/2323)).
-- [ ] Create the `MAJOR.MINOR` branch for this release off of the changelog commit that you created in the previous step.
-- [ ] Tag the first release candidate `vMAJOR.MINOR.0-rc.1`:
-    ```
-    VERSION='vMAJOR.MINOR.0-rc.1' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
-    ```
-- [ ] Send a message to #dev-announce to announce the release candidate.
+- [ ] Add a new section header for this version to [CHANGELOG.md](https://github.com/sourcegraph/sourcegraph/blob/master/CHANGELOG.md#unreleased) immediately under the `## Unreleased changes` heading. Add new empty sections under `## Unreleased changes` ([example](https://github.com/sourcegraph/sourcegraph/pull/2323)).
+- [ ] Create the `$MAJOR.$MINOR` branch for this release off of the CHANGELOG commit that you created in the previous step.
+- [ ] Tag the first release candidate: `yarn run release release-candidate:create $MAJOR.$MINOR.0-rc.1`
+- [ ] Announce the release candidate: `yarn run release release-candidate:announce $MAJOR.$MINOR.0-rc.1`
+  - [ ] In a reply to the Slack announcement, assign manual testers for each new feature in the CHANGELOG. These should NOT be authors of the feature. Instruct testers that:
+    - Testing is their highest priority.
+    - When filing issues, they should include appropriate context so that Product can decide whether
+      the issue is a release blocker (or they should directly apply the `release-blocker` label if
+      it is obvious).
+  - [ ] Open issues for creating or updating regression tests for new features. Assign to feature authors.
 - [ ] Run Sourcegraph Docker image with no previous data.
     - [ ] Run the new version of Sourcegraph.
         ```
-        CLEAN=true IMAGE=sourcegraph/server:MAJOR.MINOR.0-rc.1 ./dev/run-server-image.sh
+        CLEAN=true IMAGE=sourcegraph/server:$MAJOR.$MINOR.0-rc.1 ./dev/run-server-image.sh
         ```
     - [ ] Initialize the site by creating an admin account.
-    - [ ] Add a public repository (i.e. https://github.com/sourcegraph/sourcegraph).
-    - [ ] Add a private repository (i.e. https://github.com/sourcegraph/infrastructure).
-    - [ ] Verify that code search returns results as you expect (depending on the repositories that you added).
-    - [ ] Verify that basic code intelligence works on Go or TypeScript.
+    - [ ] Run the regression test suite against it.
 - [ ] Upgrade Sourcegraph Docker image from previous released version.
     - [ ] Run the previous version of Sourcegraph.
         ```
@@ -63,7 +59,7 @@ Run a find replace on:
     - [ ] Add a private repository (i.e. https://github.com/sourcegraph/infrastructure).
     - [ ] Stop the previous version of Sourcegraph and run the new version of Sourcegraph with the same data.
         ```
-        CLEAN=false IMAGE=sourcegraph/server:MAJOR.MINOR.0-rc.1 ./dev/run-server-image.sh
+        CLEAN=false IMAGE=sourcegraph/server:$MAJOR.$MINOR.0-rc.1 ./dev/run-server-image.sh
         ```
     - [ ] Verify that code search returns results as you expect (depending on the repositories that you added).
     - [ ] Verify that basic code intelligence works on Go or TypeScript.
@@ -74,56 +70,50 @@ Run a find replace on:
     - [ ] Verify that code search returns results as you expect (depending on the repositories that you added).
     - [ ] Verify that basic code intelligence works on Go or TypeScript.
     - [ ] Tear down this Kubernetes cluster.
-- [ ] Delete entries from section 15 (CHANGELOG) of the testing grid, or move them into permanent sections above. Add new CHANGELOG items for this release into section 15. Assign (1) the feature owner and (2) a person who did not work on the feature as the testers for each row.
-- [ ] Send a message to #dev-announce to kick off testing day.
-  - [ ] Include a link to the testing grid.
-  - [ ] Include the command to run the latest release candidate:
-    ```
-    IMAGE=sourcegraph/server:MAJOR.MINOR.0-rc.1 ./dev/run-server-image.sh
-    ```
-  - [ ] Mention that testing is the top priority, it is expected to take the whole day, and that known or suspected regressions should be tagged as release blockers. Mention that, for other issues found, high-level details like customer impact should be added to help Product determine whether it's a release blocker.
 
 ## 3 working days before release ($THREE_WORKING_DAYS_BEFORE_RELEASE)
 
-- [ ] Send a message to #dev-announce to report whether any [release blocking issues](index.md#blocking) were found.
-- [ ] Add any [release blocking issues](index.md#blocking) as checklist items here and start working to resolve them.
+- [ ] `yarn run release release-candidate:create $MAJOR.$MINOR.0-rc.2`
+- [ ] `yarn run release release-candidate:announce $MAJOR.$MINOR.0-rc.2`
+  - [ ] Note the release blocking issues, ensure someone is working to resolve each, and add them as checklist items here.
 - [ ] Review all open issues in the release milestone that aren't blocking and ask assignees to triage them to a different milestone (backlog preferred).
 
 ## As necessary
 
 - `git cherry-pick` bugfix (not feature!) commits from `master` into the release branch.
 - Aggressively revert features that may cause delays.
-- Re-test any flows that might have been impacted by commits that have been cherry picked into the release branch.
-- Tag additional release candidates.
+- Tag additional release candidates: `yarn run release release-candidate:create $MAJOR.$MINOR.0-rc.$RC`
+  - Re-run automated test suite against new release candidates.
+  - Re-test any new features or workflows that might have been impacted by commits cherry-picked into the release branch.
 
 ## 1 working day before release ($ONE_WORKING_DAY_BEFORE_RELEASE)
 
-- [ ] **HH:MM AM/PM PT** Tag the final release.
-    ```
-    VERSION='vMAJOR.MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
-    ```
-- [ ] Send a message to #dev-announce to announce the final release.
+- [ ] Tag the final release: `yarn run release release-candidate:create $MAJOR.$MINOR.0`
+- [ ] Announce the final release on #dev-announce: `yarn run release release-candidate:announce $MAJOR.$MINOR.0`
 - [ ] Verify that all changes that have been cherry picked onto the release branch have been moved to the appropriate section of the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/master/CHANGELOG.md) on `master`.
 - [ ] Wait for the final Docker images to be available at https://hub.docker.com/r/sourcegraph/server/tags.
 - [ ] In [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph):
     - [ ] Wait for Renovate to open a PR to update the image tags and merge that PR ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/199)).
-    - [ ] Create the `MAJOR.MINOR` release branch from this commit.
-    - [ ] Tag the `vMAJOR.MINOR.0` release at this commit.
+    - [ ] Create the `$MAJOR.$MINOR` release branch from this commit.
+    - [ ] Tag the `v$MAJOR.$MINOR.0` release at this commit.
         ```
-        VERSION='vMAJOR.MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
+        VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
         ```
 - [ ] Open (but do not merge) PRs that do the following:
     - [ ] Update the documented version of Sourcegraph ([example](https://github.com/sourcegraph/sourcegraph/pull/2370/commits/701780fefa5809abb16669c9fb29738ec3bb2039)).
     ```
-    find . -type f -name '*.md' -exec sed -i '' -E 's/sourcegraph\/server:[0-9\.]+/sourcegraph\/server:MAJOR.MINOR.0/g' {} +
-    # Or use ruplacer
-    ruplacer --go -t md 'sourcegraph/server:[0-9\.]+' 'sourcegraph/server:MAJOR.MINOR.0'
+    # With find on macOS:
+    find . -type f -name '*.md' -exec sed -i '' -E 's/sourcegraph\/server:[0-9\.]+/sourcegraph\/server:$MAJOR.$MINOR.0/g' {} +
+    # With find on Linux:
+    find . -type f -name '*.md' -exec sed -i -E 's/sourcegraph\/server:[0-9\.]+/sourcegraph\/server:$MAJOR.$MINOR.0/g' {} +
+    # With ruplacer:
+    ruplacer --go -t md 'sourcegraph/server:[0-9\.]+' 'sourcegraph/server:$MAJOR.$MINOR.0'
     ```
     - [ ] Update `latestReleaseKubernetesBuild` and `latestReleaseDockerServerImageBuild` ([example](https://github.com/sourcegraph/sourcegraph/pull/2370/commits/15925f2769564225e37013acb52d9d0b30e1336c)).
+    - [ ] Update versions in docs.sourcegraph.com header ([example](https://github.com/sourcegraph/sourcegraph/pull/2701/commits/386e5ecb5225ab9c8ccc9791b489160ed7c984a2))
     - [ ] [Update deploy-aws version](https://github.com/sourcegraph/deploy-sourcegraph-aws/edit/master/ec2/resources/user-data.sh#L3)
     - [ ] [Update deploy-digitalocean version ](https://github.com/sourcegraph/deploy-sourcegraph-digitalocean/edit/master/resources/user-data.sh#L3)
-    - [ ] Message @slimsag on Slack: `MAJOR.MINOR.PATCH has been released, update deploy-sourcegraph-docker as needed`
-    - [ ] Update versions in docs.sourcegraph.com header ([example](https://github.com/sourcegraph/sourcegraph/pull/2701/commits/386e5ecb5225ab9c8ccc9791b489160ed7c984a2))
+    - [ ] Message @slimsag on Slack: `$MAJOR.$MINOR.0 has been released, update deploy-sourcegraph-docker as needed`
 - [ ] Review all issues in the release milestone. Backlog things that didn't make it into the release and ping issues that still need to be done for the release (e.g. Tweets, marketing).
 - [ ] Verify that the blog post is ready to be merged.
 
