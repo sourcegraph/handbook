@@ -30,10 +30,11 @@ This quiz is not a high-stakes pass-or-fail test. Try your best, and when you re
 1. What is a microservice?
 1. What is a monorepo?
 1. What is an API?
+1. What does it mean to refactor code?
 1. What does it mean to reuse code instead of rewriting it?
 1. What does it mean to deprecate legacy code?
 1. What does it mean for code or projects to be "backend" vs. "frontend"?
-1. Which cloud providers does Sourcegraph support?
+1. Which cloud providers can Sourcegraph run on?
 1. What are the most popular programming languages?
 1. What programming languages does Sourcegraph support?
 1. What does "open source" mean?
