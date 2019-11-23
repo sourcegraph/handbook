@@ -72,7 +72,7 @@ The release captain should create a tracking issue using the [release issue temp
 | 3.8 | @lguychard | 2019-09-20 |
 | 3.9 | @tsenart| 2019-10-20 |
 | 3.10 | @beyang | 2019-11-20 |
-| 3.11 | @chrismwendt | 2019-12-20 |
+| 3.11 | @beyang | 2019-12-20 |
 | 3.12 | @uwedeportivo | 2020-01-20 |
 | 3.13 | @felixfbecker | 2020-02-20 |
 | 3.14 | @efritz | 2020-03-20 |
