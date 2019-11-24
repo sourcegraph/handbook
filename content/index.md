@@ -4,7 +4,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 ## Company
 
-- [Values](values.md)
+- [Strategy](../company/strategy.md)
 - [Handbook usage](usage.md)
 - [Communication](communication/index.md)
   - [Style guide](communication/style_guide.md)
