@@ -6,6 +6,10 @@ The Product team strives to make the following true:
 - Each teammate has the customer and product context needed (about customer problems, likely future priorities, possible solutions, etc.) to perform their work effectively.
 - The product vision and roadmap are communicated well to teammates and everyone outside Sourcegraph.
 
+## [Sourcegraph workflow](../../workflow/index.md)
+
+The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
+
 ## [Roles](roles.md)
 
 See job descriptions and responsibilities of roles on the Product team:
