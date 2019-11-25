@@ -10,6 +10,7 @@
 
 > NOTE: This list is incomplete because it includes only new steps added since the creation of the Sourcegraph handbook. Eventually all of the onboarding docs above will be migrated to this Sourcegraph handbook, then this list will be complete and this note can be removed.
 
+- [ ] Watch the [new team member intro from the CEO](https://www.youtube.com/watch?v=EVHUGZe5uts)
 - [ ] Set up a recurring weekly 25-minute [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
-- [ ] Complete the [git introduction](git_intro.md)
+- [ ] Complete the [Git introduction](git_intro.md).
 - [ ] Add yourself to the [team page](../../../company/team/index.md).
