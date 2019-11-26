@@ -9,7 +9,6 @@ Arguments:
 - $FIVE_WORKING_DAYS_BEFORE_RELEASE
 - $FOUR_WORKING_DAYS_BEFORE_RELEASE
 - $ONE_WORKING_DAY_BEFORE_RELEASE
-- $RETROSPECTIVE_DATE
 -->
 
 # $MAJOR.$MINOR Release ($RELEASE_DATE)
@@ -18,7 +17,6 @@ Arguments:
 
 ## $FIVE_WORKING_DAYS_BEFORE_RELEASE (5 work days before release): Prep for branch cut
 
-- [ ] In the [Retrospectives folder](https://drive.google.com/drive/u/0/folders/1UiNZujRgsThPFkHoWJvymlsNDsBRtn6O), copy the previous retrospective doc into the current one (which should contain placeholder text).
 - [ ] Post to [#dev-announce](https://app.slack.com/client/T02FSM7DL/C0EPTDE9L) the following message:
   ```
   :captain: *Release captain announcement:*
@@ -110,11 +108,7 @@ Cut a new release candidate daily if necessary:
 
 ### Post-release
 
-- [ ] Create a placeholder doc in the [Retrospectives folder](https://drive.google.com/drive/u/0/folders/1UiNZujRgsThPFkHoWJvymlsNDsBRtn6O)
-  for the $MAJOR.$MINOR Retrospective. Add the following text to the document:
-  ```
-  Placeholder (copy actual contents from previous retrospective after that is completed)
-  ```
+- [ ] Notify the next release captain that they are on duty for the next release. They should complete the steps in this section.
 - [ ] Update `dev/release/config.json` with the parameters for the current release.
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
   ```
@@ -127,11 +121,5 @@ Cut a new release candidate daily if necessary:
   # Post link to tracking to #dev-announce
   yarn run release tracking-issue:announce
   ```
-- [ ] Notify the next release captain that they are on duty for the next release. Include a link to this release issue template.
-
-## $RETROSPECTIVE_DATE: $MAJOR.$MINOR retrospective
-
-- [ ] Complete the retrospective
-- [ ] Copy over the retrospective to the new retrospective document (which should have a placeholder)
 - [ ] Close this issue.
 - [ ] Close the milestone.
