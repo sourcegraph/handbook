@@ -11,6 +11,7 @@
 - [Holidays](from-graphbook/holidays.md)
 - [Remote work](../../company/remote/index.md)
 - [Teammate philosophy](teammate_philosophy.md)
+- [List of team members](../../company/team/index.md)
 
 ## [Roles](roles.md)
 
