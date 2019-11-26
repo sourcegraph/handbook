@@ -24,3 +24,13 @@ If you need me to review something (such as a blog post or plan), please state:
 This is to avoid me jumping in and making low-level wording fixes when you're looking for high-level strategy input.
 
 If the document to be reviewed isn't private, please post the review request with the context above [publicly](../communication.md). Other people involved may have relevant context of their own to share.
+
+### Asking me to send an email
+
+If you want me to send an email with a specific message to someone else (e.g., a customer), you should send me an email with:
+
+- Instructions, such as "Please email this, bcc me on the outgoing email, forward me any responses, and cc me on further emails."
+- Recipient name(s) and email address(es)
+- Email subject
+- Email body (text, no HTML)
+  - Omit any niceties like "Hello" and "Sincerely". I will add those myself.
