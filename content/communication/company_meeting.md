@@ -8,13 +8,13 @@
 
 ## Agenda
 
-1.  Graph awards
-1.  Birthdays/anniversaries
-1.  "Developers!"
-1.  Inspiration of the week (message @dan to volunteer to present an inspiration)
-1.  Hiring
-1.  Sales and marketing
-1.  Product and development updates
-1.  Other announcements
-    - Also share these announcements in #general.
-1.  Q&A (questions and answers about anything company-wide)
+1. Graph awards
+1. Birthdays/anniversaries
+1. "Developers!"
+1. Inspiration of the week (message @dan to volunteer to present an inspiration)
+1. Hiring
+1. Sales and marketing
+1. Product and development updates
+1. Other announcements
+   - Also share these announcements in #general.
+1. Q&A (questions and answers about anything company-wide)
