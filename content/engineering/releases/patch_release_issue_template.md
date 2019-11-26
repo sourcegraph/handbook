@@ -10,7 +10,7 @@ Arguments:
 
 # $MAJOR.$MINOR.$PATCH Patch Release
 
-**Attention developers:** Add pending changes to this checklist, cherry-pick the relevant commits onto branch `$MAJOR.$MINOR`, and then check off the item:
+**Attention developers:** Add pending changes to this checklist, cherry-pick the relevant commits onto branch `$MAJOR.$MINOR`. **Only check off items if the relevant PR/commits have been cherry-picked into the branch**:
 
 - [ ] TODO: Add PR or commit links here
 
