@@ -29,6 +29,15 @@ Assume the reader is a busy non-native English speaker.
 - Avoid ambiguous verbs. For example, avoid using verbs like "cluster", "document", "label", "group", "admin", etc., because we commonly use those as nouns.
 - Write robust sentences that can be understood even if the reader doesn't recognize all of the words.
 
+### Avoid jargon and acronyms
+
+- Prefer plain English terms over jargon and acronyms (especially Sourcegraph-specific ones).
+  - Example: "sales", "marketing", or "sales and marketing" instead of "GTM" ("go-to-market")
+- If you use an acronym, make sure that someone can search for it in the [handbook](../index.md) and easily find the definition.
+  - Exception: acronyms that have a single obvious meaning when you Google them (such as "HTML" or "LSP")
+
+> See "[Acronyms Seriously Suck](https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764)" from Elon Musk.
+
 ### Referring to the product and features
 
 - Sourcegraph: main product, prefer using this name unless you need to be more precise
