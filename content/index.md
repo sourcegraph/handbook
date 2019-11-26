@@ -42,4 +42,4 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 ## BizOps
 
-- [Analytics](bizops/index.md)
+- [BizOps](bizops/index.md)

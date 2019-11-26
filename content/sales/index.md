@@ -135,14 +135,14 @@ Please keep the following information updated for deals. These are the the most 
 * Deal size
 * Number of engineers
 
-If a deal comes through a referral or introduction, tell [BizOps](@sourcegraph/bizops) so an adjustment can be made in the database to reflect this. 
+If a deal comes through a referral or introduction, tell [BizOps](../bizops/index.md) so an adjustment can be made in the database to reflect this. 
 
 ### When a deal is won
 1. Mark the ‘Deal Status’ as ‘Closed Won’
 1. Mark the column ‘End of contract’ with the last day of the contract. HubSpot will automatically create a renewal deal based on this date
 
 ### When a deal is lost
-1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](@sourcegrapgh/bizops) about adding one
+1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../bizops/index.md) about adding one
 1. Expand upon the reason in the longform ‘Closed Lost Reason’ field. This supports [2019-Q4 OKR 1 v](https://about.sourcegraph.com/company/okrs/2019_q4) to identify the top 3 reasons potential customers don't sign. 
 
 ### Recording outbound activity

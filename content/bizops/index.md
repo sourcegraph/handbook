@@ -1,8 +1,14 @@
-### Analytics
+# BizOps
+
+The BizOps (Business Operations) team is responsible for <!-- TODO(ericbm): add brief summary for other teammates who don't know what BizOps means -->.
+
+To reach us, mention `@ericbm` in #sales or #marketing. <!-- TODO(ericbm): or create a new channel, or whatever you prefer -->
+
+## Analytics
 
 This page describes Sourcegraph's analytics function, our data sources, and how to use our data tools.
 
-## How to submit a data request
+### How to submit a data request
 
 [Looker](https://sourcegraph.looker.com/) is a self-service tool so we encourage everyone to try finding answers within the tool. [Get started here](#using-looker) if you're not familiar with Looker, the team in the #analytics Slack channel are more than happy to answer any questions regarding Looker. 
 
@@ -14,7 +20,7 @@ This page describes Sourcegraph's analytics function, our data sources, and how 
 
 **Small asks and questions:** Post in the #analytics channel in Slack. 
 
-## Data sources
+### Data sources
 
 Here are the following sources we collect data from:
 
@@ -25,15 +31,15 @@ Here are the following sources we collect data from:
 * [Pings](https://docs.sourcegraph.com/admin/pings) from self-hosted Sourcegraph instances containing anonymous and aggregated information
 * [Custom tool to track events](https://github.com/sourcegraph/sourcegraph/issues/5486) on the Sourcegraph.com instance
 
-## Data tools
+### Data tools
 
 * [Looker](#using-looker): Business intelligence/data visualization tool
 * Google Cloud Platform: BigQuery is our data warehouse and the database Looker runs on top of
 * Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1vOyhFO90FjHe-bwnHOZeljHLuhXL2BAv)that Looker queries (by way of BigQuery).
 
-### Using Looker
+## Using Looker
 
-## Sourcegraph quick links
+### Sourcegraph quick links
 
 [All Instances](https://sourcegraph.looker.com/looks/436)<br/>
 [Specific Instance Overview](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=&Site%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D) (To select a specific company, fill the Unique Server ID field)<br/>
@@ -43,7 +49,7 @@ Folders:<br/>
 [Sales](https://sourcegraph.looker.com/folders/114)<br/>
 [Product Insights](https://sourcegraph.looker.com/folders/113)<br/>
 
-## Getting started with Looker
+### Getting started with Looker
 
 Looker enables us to explore and visualize Sourcegraph data sources. If you're a new user, here's where to get started.
 
