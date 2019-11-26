@@ -41,6 +41,6 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 - [Sales](sales/index.md)
 
-## BizOps
+## Business Operations
 
-- [BizOps](bizops/index.md)
+- [Business Operations](bizops/index.md)

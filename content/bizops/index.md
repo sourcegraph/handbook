@@ -1,9 +1,8 @@
-# BizOps
+# Business Operations
 
-The BizOps (Business Operations) team is responsible for <!-- TODO(ericbm): add brief summary for other teammates who don't know what BizOps means -->.
+The Business Operations (BizOps) team is responsible for [translating business goals (strategy) into tactical operations (execution)](https://medium.com/business-startup-development-and-more/why-your-startup-also-needs-a-bizops-team-5d2e7d436a0).
 
-To reach us, mention `@ericbm` in #sales or #marketing. <!-- TODO(ericbm): or create a new channel, or whatever you prefer -->
-
+To reach us, mention `@ericbm` in #analytics, #sales or #marketing.
 ## Analytics
 
 This page describes Sourcegraph's analytics function, our data sources, and how to use our data tools.
