@@ -1,24 +1,12 @@
 # Personas
 
+## What is a persona?
+
 > The persona is an archetype description of an imaginary but very plausible user that personifies these traits – especially their behaviors, attitudes, and goals.
 >
 > Personas help you prioritize what’s important. If you have decided to make “Mary” the target for this release, then if this feature is critical for “Mary” then put it in, if it’s for “Sam” then it’s out. As you can see, just as important as deciding who a release is for, is deciding who it is not for. It is an extremely common mistake for a product to try to please everyone and end up pleasing no one. This process can help prevent that.
 
 Source: "[Personas for Product Management](https://svpg.com/personas-for-product-management/)"
-
-### Questions:
-
-- What are these personas designed to define? Decision makers? Evangelists that bring the product to their teams? The "purchasers" or decision makers?
-- Do we want personas to define HOW the users are interacting with the product? Which features they use, what they care about?
-- Should we name them - it is common to give them personalities? E.g. Dave the DevOps Engineer
-- Other things to consider:
-    - Influence
-    - Product knowledge
-    - Likes/dislikes
-    - Goals
-    - Skills
-    - Trusts information from
-- Do we have a record of interviews with users?
 
 ## Infrastructure/Platform Engineer
 
