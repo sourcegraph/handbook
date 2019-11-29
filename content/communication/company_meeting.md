@@ -8,7 +8,8 @@
 
 ## Agenda
 
-1. Graph awards
+1. #thanks (CEO)
+   - Summary and highlights of [#thanks](team_chat.md#thanks) messages since the last company meeting, tied to our [values](../../company/values.md).
 1. Introduce any new team members starting this week
    - The manager of the team member presents a brief (~30-second) intro, stating the new team member's role, why we hired them, what their first project is, and a fun fact about them.
 1. Birthdays/anniversaries
