@@ -43,6 +43,10 @@ Here's a comprehensive answer that you can trim down based on the prospective cu
 > - Technical support. Your developers already rely on Sourcegraph, and a day of reduced productivity if Sourcegraph goes down costs you far more than the price of the paid tiers.
 > - Ease and security of official builds. If you run the open-source version of Sourcegraph, you'll need to build the Docker images on your own, which requires writing and maintaining your own build scripts and tracking our release calendar. Using the official builds saves you the hassle and ensures you'll have regular updates available (and immediate updates when a critical security issue is discovered in Sourcegraph or any other related infrastructure, such as OpenSSL or PostgreSQL).
 
+## How hard is it to set up and maintain Sourcegraph in my organization?
+
+> You can [set up Sourcegraph](https://docs.sourcegraph.com/#quickstart) and see value in 5 minutes. Most of our customers tell us Sourcegraph is one of the easiest applications to maintain, but we're happy to give a more precise estimate of the burden if you help us understand the environment in which you intend to deploy Sourcegraph. As a specific data point, one of our large customers reported that maintaining Sourcegraph for 1,000+ daily users takes ~5% of a single person's time.
+
 ## Needs answer
 
 - What’s the recommended resource provisioning on our end for optimal search performance at scale?
