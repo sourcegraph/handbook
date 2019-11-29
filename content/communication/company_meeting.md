@@ -9,6 +9,8 @@
 ## Agenda
 
 1. Graph awards
+1. Introduce any new team members starting this week
+   - The manager of the team member presents a brief (~30-second) intro, stating the new team member's role, why we hired them, what their first project is, and a fun fact about them.
 1. Birthdays/anniversaries
 1. "Developers!"
 1. Inspiration of the week (message @dan to volunteer to present an inspiration)
