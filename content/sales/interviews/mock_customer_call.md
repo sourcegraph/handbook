@@ -17,7 +17,9 @@ You choose the mock scenario:
   - We want to test your actual knowledge of a product you've previously sold and a customer type you've worked with.
   - Ideally, your choice highlights your strengths and is relevant to what you'd do at Sourcegraph.
   - **Do not** choose to sell Sourcegraph in this mock interview. This interview module is not about testing your knowledge about Sourcegraph.
-- Reserve 10 minutes at the end for a debrief where we are not in character.
+- The total length should be 40 minutes.
+  - 30 minutes is for the mock call.
+  - 10 minutes (at the end) is for a debrief where we are not in character.
 
 When you've chosen these things, send us an email to schedule the interview that includes these details. Here's an example:
 
@@ -47,9 +49,9 @@ You should send a mock follow-up email after the call (just as you would after a
 ## What we're looking for
 
 - A smart choice of the mock scenario. Choose one that you excel at and that gives us signal that you'd be successful at Sourcegraph.
+- Good discovery, presentation, and next steps.
 - Well-written email correspondence.
 - Efficient scheduling and agenda-setting.
-- On the call, a good intro and (if appropriate) discovery conversation.
 - Effective objection handling.
 - Product knowledge (of the product you've chosen for the mock scenario, not Sourcegraph).
 - Staying on time during the meeting.
