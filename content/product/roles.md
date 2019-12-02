@@ -23,7 +23,6 @@ The right mix of these 3 things depends on the team and what they're working on 
 
 No matter the chosen mix, the PM is still responsible for prioritization. For example, if the PM doesn't effectively educate the devs so they can plan and triage well, then the PM needs to step up on planning and triage (as a backstop).
 
-
 ### Responsibilities
 
 - TODO

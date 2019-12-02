@@ -2,7 +2,7 @@
 
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) (Google Drive)
-  - [How we use RFCs](rfcs/index.md)
+  - [How we use RFCs](../communication/rfcs/index.md)
 - [Code reviews](code_reviews.md)
 - [Go style guide](go_style_guide.md)
 - [Commit message guidelines](commit_messages.md)
