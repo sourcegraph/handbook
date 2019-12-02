@@ -8,7 +8,7 @@ Planning requires several artifacts for communicating. This section clarifies ho
 
 ### OKRs
 
-[OKRs](../../okrs/index.md) align teams with the company's goals for the quarter. They should be used to make prioritization decisions and help to maintain team direction and focus.
+[OKRs](../../company/okrs/index.md) align teams with the company's goals for the quarter. They should be used to make prioritization decisions and help to maintain team direction and focus.
 
 ### Project roadmap
 
@@ -33,7 +33,7 @@ Teams should work on the next thing at the top of the roadmap and should not jum
 
 ### RFCs
 
-[RFCs](../communication/rfcs/index.md) are ephemeral documents used to outline and solicit feedback on projects. They provide context around a problem that needs to be solved and are a medium for creating specifications for a project.
+[RFCs](../communication/rfcs/index.md) are documents used to outline and solicit feedback on projects. They provide context around a problem that needs to be solved and are a medium for creating specifications for a project.
 
 Generally, items in the roadmap will be big enough they require writing an RFC, though this will not always be the case. When a solution is clear, a well-detailed issue is sufficient to communicate intent, motivation, and solution.
 
