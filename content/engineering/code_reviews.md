@@ -42,13 +42,13 @@ It should be obvious to any other engineer on the team from the PR description a
 Here are some examples of reasons to skip code review that are NOT acceptable:
 
 - "I promised that I would ship this to $CUSTOMER by $DEADLINE"
-    - The customer expects the feature to work and be maintained. Code review helps ensure both of these things by increasing the quality and distributing ownership.
+  - The customer expects the feature to work and be maintained. Code review helps ensure both of these things by increasing the quality and distributing ownership.
 - "This code is experimental"
-    - Our goal is to have a code review culture such that engineers who are working on "experimental" code still find code reviews valuable and worth doing (for all the benefits mentioned in the rest of this document).
-    - All code that is in `master` has the potential to impact customers (e.g. by causing a bug) and other developers at Sourcegraph (e.g. by making it harder to refactor code). As such, it is in our interest to ensure a certain quality level on all code whether or not it is considered "experimental".
-    - Assume that we allowed "experimental" code to bypass code review. How would we know when it is no longer experimental and how would it get reviewed? Either it wouldn't get reviewed, or an engineer would have to review all the code after the fact without a nice PR diff to look at or effective way to make comments. Neither of these outcomes would meet our need of reviewing all non-experimental code.
+  - Our goal is to have a code review culture such that engineers who are working on "experimental" code still find code reviews valuable and worth doing (for all the benefits mentioned in the rest of this document).
+  - All code that is in `master` has the potential to impact customers (e.g. by causing a bug) and other developers at Sourcegraph (e.g. by making it harder to refactor code). As such, it is in our interest to ensure a certain quality level on all code whether or not it is considered "experimental".
+  - Assume that we allowed "experimental" code to bypass code review. How would we know when it is no longer experimental and how would it get reviewed? Either it wouldn't get reviewed, or an engineer would have to review all the code after the fact without a nice PR diff to look at or effective way to make comments. Neither of these outcomes would meet our need of reviewing all non-experimental code.
 - "I don't have someone to review this code"
-    - Ask for help to identify someone else on the team with whom you can share your knowledge, context, and ownership.
+  - Ask for help to identify someone else on the team with whom you can share your knowledge, context, and ownership.
 
 If we see that there are too many [PRs being merged without approval](https://github.com/pulls?page=1&q=is%3Apr+org%3Asourcegraph+is%3Amerged+review%3Anone+-author%3Aapp%2Frenovate&utf8=%E2%9C%93) that lack an appropriate reason, then we will have to consider an automated solution to enforce code reviews.
 
@@ -60,11 +60,11 @@ Do:
 
 - Prefer small PRs. If a large PR is unavoidable, try to organize it into smaller commits (with [good commit messages](commit_messages.md)) that are reviewable independently (and indicate this to the reviewer in the description).
 - Create a draft PR first and review your own diff as if you were reviewing someone else's change. This helps you empathize with your reviewer and can help catch silly mistakes before your reviewer sees them (e.g. forgetting to `git add` a file, forgetting to remove debugging code, etc.).
-- Create meaningful PR title and description that communicates **what** the PR does and **why** (the **how** is the diff). 
-    - Include links to relevant issues (e.g. "closes #1234", "helps #5678").
-    - Include a screenshot, GIF, or video if you are making user facing changes.
-    - Discuss alternative implementations that you considered but didn't pursue (and why).
-    - Describe any remaining open questions that you are seeking feedback on.
+- Create meaningful PR title and description that communicates **what** the PR does and **why** (the **how** is the diff).
+  - Include links to relevant issues (e.g. "closes #1234", "helps #5678").
+  - Include a screenshot, GIF, or video if you are making user facing changes.
+  - Discuss alternative implementations that you considered but didn't pursue (and why).
+  - Describe any remaining open questions that you are seeking feedback on.
 - Make it clear who's review(s) you are waiting for.
 - Politely remind your reviewer that you are waiting for a review if they haven't responded after one business day.
 
@@ -85,13 +85,13 @@ Do:
 - If the author were to address all of your comments faithfully and you would be content, then you should also approve to avoid the author needing to wait for a subsequent review without reason (exception: you asked for fundamental or vast/large changes and believe those will need re-review by you).
 - When you are making comments on a PR, use a tone that is kind, empathetic, collaborative, and humble. [Further reading](https://mtlynch.io/human-code-reviews-1/).
 
-    | 😕 | 🤗 | Why? |
-    |---|---|---|
-    | You misspelled "successfully" | sucessfully -> successfully | Avoid using "you" because it can make the comment feel like a personal attack instead of just a minor correction. |
-    | Move the `Foo` class to a separate file. | Can we move the `Foo` class to a separate file to avoid large files that are hard to scan? | Feedback that is framed as a request encourages collaborative conversation. Including your reason helps the author understand the motivation behind your request. |
-    | Can we simplify this with a list comprehension? | Consider simplifying with a list comprehension like this: $EXAMPLE or $LINK_TO_EXAMPLE | Providing example code (using GitHub suggestions) or a link to an example helps the author quickly understand and apply your recommended change. This is particularly helpful when the author might not be familiar with concept that you are describing. |
-    | Why didn't you $X? | What do you think about doing $X? I think it would help with $Y. | A "What" question is better than a "Why" question because the latter sounds accusatory. Either the author considered $X and decided not to, or they didn't consider it, but in either case it is frustrating to the author if the reviewer doesn't explain why they think $X should be considered. |
-    | This code is confusing. Can you clarify it? | It was hard for me to understand $X because $Y, but I haven't been able to think of a way to improve it. Do you have any ideas? | Don't declare your opinion as fact; instead, share your subjective experience and try to offer a suggestion for improvement. If you don't have a suggestion, acknowledge that to show that you empathize with the difficulty of improving this code. | 
+  | 😕                                              | 🤗                                                                                                                              | Why?                                                                                                                                                                                                                                                                                               |
+  | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | You misspelled "successfully"                   | sucessfully -> successfully                                                                                                     | Avoid using "you" because it can make the comment feel like a personal attack instead of just a minor correction.                                                                                                                                                                                  |
+  | Move the `Foo` class to a separate file.        | Can we move the `Foo` class to a separate file to avoid large files that are hard to scan?                                      | Feedback that is framed as a request encourages collaborative conversation. Including your reason helps the author understand the motivation behind your request.                                                                                                                                  |
+  | Can we simplify this with a list comprehension? | Consider simplifying with a list comprehension like this: $EXAMPLE or $LINK_TO_EXAMPLE                                          | Providing example code (using GitHub suggestions) or a link to an example helps the author quickly understand and apply your recommended change. This is particularly helpful when the author might not be familiar with concept that you are describing.                                          |
+  | Why didn't you \$X?                             | What do you think about doing $X? I think it would help with $Y.                                                                | A "What" question is better than a "Why" question because the latter sounds accusatory. Either the author considered $X and decided not to, or they didn't consider it, but in either case it is frustrating to the author if the reviewer doesn't explain why they think $X should be considered. |
+  | This code is confusing. Can you clarify it?     | It was hard for me to understand $X because $Y, but I haven't been able to think of a way to improve it. Do you have any ideas? | Don't declare your opinion as fact; instead, share your subjective experience and try to offer a suggestion for improvement. If you don't have a suggestion, acknowledge that to show that you empathize with the difficulty of improving this code.                                               |
 
 Don't:
 
@@ -108,3 +108,7 @@ If your change touches multiple parts of our codebase (e.g. Go, TypeScript), the
 GitHub will automatically assign reviewers if there is a matching entry in the [CODEOWNERS](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/.github/CODEOWNERS) file, but that doesn't necessarily mean that you need to wait for an approval from everyone. For example, if you are making a change to the search backend then you only need approval from one person on that team, not all of them.
 
 Use your best judgement and ask if you are uncertain.
+
+## When should I use a draft PR?
+
+A draft PR signals that the change is not ready for reviewed. This is useful, for example, if you want to self-review your diff before sending review requests to others. If you are looking for feedback or discussion on your change, then you should mark the PR as ready for review and communicate your intentions in the PR description.
