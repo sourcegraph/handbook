@@ -6,7 +6,7 @@
 1. You look it up in the handbook.
    - If the handbook has what you need, you're done!
    - If the handbook is missing what you need or is inaccurate/outdated, ask for help (on Slack, Zoom, etc.) and ensure the handbook is updated.
-   
+
 Join the `#handbook` Slack channel to see proposed changes.
 
 ## Handbook guidelines
@@ -22,6 +22,7 @@ Join the `#handbook` Slack channel to see proposed changes.
 
 1. If you want to change a guideline or process, propose an edit to the handbook (by creating a pull request). Discuss the change on the pull request.
    - Don't discuss or draft the changes in some other channel (Slack, Google Doc, etc.) first. If (for example) you start discussing a proposed change on Slack and then create a PR, you'll end up with half of the discussion on Slack and the other half on the PR, which results in confusion and duplication.
+   - The pull request is where you justify and describe the change; your edits to handbook content should reflect the final state that you want. For example, to propose changing the format of our company meeting, edit [company_meeting.md](communication/company_meeting.md) to be how you'd like, instead of adding a new section to that file to propose your changes. As a reviewer, keep in mind that a pull request with a definitively written edit is still just a proposal that's up for discussion.
    - Learn [how to propose an edit the handbook](editing.md).
 1. If someone replies to a question with a newly typed-out answer that differs from what's in the handbook, gently ask them to either follow what's in the handbook or propose an edit to the handbook.
 1. To announce a changed or newly documented process, post a link (in Slack, and elsewhere as needed) to the merged commit that contains the before-and-after changes to the handbook.

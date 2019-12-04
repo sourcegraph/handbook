@@ -1,6 +1,6 @@
 # Requests for comments (RFCs)
 
-We value writing down plans so that we can asynchronously communicate to and solicit feedback from our remote-first team. A good plan communicates what problem is being solved, why that problem is being prioritized now, and what the plan is to solve the identified problem.
+We value writing down plans so that we can asynchronously communicate to and solicit feedback from our [all-remote](../../../company/remote/index.md) team. A good plan communicates what problem is being solved, why that problem is being prioritized now, and what the plan is to solve the identified problem.
 
 This document describes how we operationalize written planning through our RFC process. RFC literally means "Request for Comments" and you can think about it as exactly that, no more, no less.
 
