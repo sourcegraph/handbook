@@ -12,6 +12,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [All deals (HubSpot)](https://app.hubspot.com/contacts/2762526/deals/board/view/all/)
    - [Phu's pipeline SOTU](https://docs.google.com/spreadsheets/d/1cI-uwtftjes3Im4k63oLTZiPK5c2OPO18vvND6iGESw/edit#gid=0)
 - [2019-Q4 model](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=665660264) showing forecast of net new ARR based on closed-won deals and probability-weighted active deals
+- [2020 model](https://docs.google.com/spreadsheets/d/1iyGwOocgVKfeKsXHCVM7eKBSx7PWSURnZVgaoQnimgY/edit)
 
 ## How sales works with other Sourcegraph teams
 
