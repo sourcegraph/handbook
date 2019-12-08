@@ -111,6 +111,10 @@ Sometimes there is information relevant to an RFC, but that information can't be
 
 Only Sourcegraph teammates are able to see the revision history of RFCs (because edit access is required for that). This means if sensitive information is found in the document all you need to do is remove that information. Comments that accidentally contain sensitive info can be deleted.
 
+## External contributors
+
+If you are not a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or by tweeting [@srcgraph](https://twitter.com/srcgraph)) to create a document in the [RFCs Google Drive folder](https://drive.google.com/drive/u/0/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) and give you edit access. Then you own the document from there.
+
 ## References
 
 - [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/)
