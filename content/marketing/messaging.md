@@ -74,4 +74,4 @@ See "[Common customer questions](../sales/common_customer_questions.md)".
 
 ### Sourcegraph is an application
 
-Sourcegraph is an application, not a platform, tool, product, application, etc. TODO(sqs): explain why and then update all other mentions in all other pages
+Sourcegraph is an application, not a platform, tool, product, etc. TODO(sqs): explain why TODO(adamfrankl): update all other mentions in all other pages
