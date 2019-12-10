@@ -6,6 +6,14 @@ Most questions include an example answer and explanation. The explanation is for
 
 > like this.
 
+## [What is Sourcegraph?](../marketing/messaging.md#sourcegraph-value-proposition)
+
+See "[What is Sourcegraph?](../marketing/messaging.md#sourcegraph-value-proposition)".
+
+## [What problems does Sourcegraph solve?](../marketing/messaging.md#what-problems-does-sourcegraph-solve)
+
+See "[What problems does Sourcegraph solve?](../marketing/messaging.md#what-problems-does-sourcegraph-solve)".
+
 ## How is Sourcegraph different from the built-in code search of our code host?
 
 This somewhat depends on which code host they're using. Look up the [product comparison with their code host](../../workflow/index.md#other-tools) for details.
@@ -46,6 +54,22 @@ Here's a comprehensive answer that you can trim down based on the prospective cu
 ## How hard is it to set up and maintain Sourcegraph in my organization?
 
 > You can [set up Sourcegraph](https://docs.sourcegraph.com/#quickstart) and see value in 5 minutes. Most of our customers tell us Sourcegraph is one of the easiest applications to maintain, but we're happy to give a more precise estimate of the burden if you help us understand the environment in which you intend to deploy Sourcegraph. As a specific data point, one of our large customers reported that maintaining Sourcegraph for 1,000+ daily users takes ~5% of a single person's time.
+
+## Is Sourcegraph a platform, tool, or application?
+
+Usually this question means the person has the following concerns:
+
+1. Is it hard to set up? Will it take a long time before we see value?
+   - Connotation: A "platform" is hard to set up and requires a lot of coordination among teams and systems.)
+1. Does it replace what I'm using today, or is it additive?
+   - Connotation: An organization can only have a single "platform" for developers. Anything else must either integrate with their existing platform or replace it.
+1. Does it do one thing well or many things poorly?
+   - Connotation: A "tool" does one thing well. A common failure mode of "platforms" or "applications" (which do more things) is that they don't do anything particularly well.
+1. Do people actually interact with it, or does it sit behind the scenes (like a backend database)?
+
+Here is an answer that addresses all of these concerns. You can tailor it to address the person's specific concerns.
+
+> [Sourcegraph is an application](../marketing/messaging.md#sourcegraph-is-an-a-application) that developers use primarily from their web browser for universal code search. It integrates with your existing repositories, code hosts, code review tools, editors, and other developer tools to give your developers a single place to discover and understand code and make large-scale changes. You can [set up Sourcegraph](https://docs.sourcegraph.com/#quickstart) and start seeing value in 5 minutes.
 
 ## Needs answer
 

@@ -1,5 +1,9 @@
 # Marketing
 
+- [Messaging](messaging.md)
+  - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
+  - [What problems does Sourcegraph solve?](messaging.md#what-problems-does-sourcegraph-solve)
+
 ## Team communication
 
 The marketing team holds a weekly meeting to review the topics below. [Internal notes](https://docs.google.com/document/d/1vX3vF6t8HP-7-K9giM85UKEoAhmhy-ifAvbbFDvmKwo/edit#) for each meeting should be maintained by the group (while adhering to the [company-wide communication guidelines](../communication/index.md))
