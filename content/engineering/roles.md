@@ -1,55 +1,61 @@
 # Roles on the Engineering team
 
-This page lists the roles and responsibilities of the Engineering team.
+This page lists the roles on the Engineering team and some of the responsibilites for each of the roles. 
 
 ## Software Engineer
 
+Sofware Engineers are individual contributors who build software to satisfy the needs of the business.
+
 ### Responsibilities
 
-- Write (the first pass) or update the documentation for features you create or change.
-- TODO
+- Collaborate with your direct manager to identify projects that align your skills and interests with the needs of the business.
+- Write [RFCs](rfcs/index.md) to recommend solutions to product and engineering problems.
+- Commit to a reasonable amount of work that you are going to get done for each [monthly release](releases/index.md), and then reliably get it done.
+- Create and maintain high quality code, tests, and documentation.
+- Help your teammates by empathetically [reviewing code](code_reviews.md) and [RFCs](rfcs/index.md).
+- Interview candidates and suggest improvements to our hiring process.
 
-### Tech Lead
+## Engineering Manager
 
-<!-- TODO(nicksnyder): this was taken from the old docs -->
+Engineering Managers are people managers who build teams of [Software Engineers](#software-engineer) to satisfy the needs of the business.
 
-A Software Engineer who is a Tech Lead has the following additional responsibilities.
+### Responsibilities
 
-The Tech Lead is responsible for making sure the following two statements are true:
-
-> The issues for the current release milestone describe the problem/solution.
->
-> The issues for the current release milestone are completed (closed) before the release.
-
-The following sections give more details.
-
-#### The issues for each release milestone are completed (closed) before the release.
-
-This means the tech lead needs to do 2 things:
-
-- **Estimate** at planning time what can get done in the time alotted for a release milestone.
-- **Reschedule** issues continuously into/from the milestone depending on the pace and triage
-
-It's impossible to estimate perfectly, so the tech lead needs to continuously monitor the team's progress and make adjustments accordingly.
-
-If it looks like the team won't be able to complete all planned issues by the release date, the tech lead **must** communicate this in the #product channel and follow up with a combination of:
-
-- helping unblock or accelerate the work of individual teammates
-- descoping issues in this milestone
-- deferring issues to a later milestone
-- getting help from other people on certain issues
-
-The [Product Manager](../product/roles.md#product-manager) can help here, especially with product and priority questions for descoping or deferring work.
-
-#### The issues for each release milestone describe the problem/solution.
-
-This means the tech lead needs to do 2 things:
-
-- Ensure the issues for feature work have enough information for the devs who are implementing the feature.
-- Gather information for bug reports (including documenting/automating how other people can supply the info needed to diagnose/fix the bug).
+- Collaborate with [product](../product/index.md) to maintain a [prioritized roadmap](../../direction/index.md) for the work owned by your team.
+- Commit to a set of work that will be accomplished by the team for each [monthly release](releases/index.md) and capture those commitments in a tracking issue on GitHub.
+- Conduct monthly [retrospectives](retrospectives/index.md) with your team.
+- Mentor and coach engineers through regular [1-1s](../leadership/1-1.md) to grow their careers.
+- [Review the performance](../people-ops/performance-reviews.md) of your direct reports to determine compensation.
+- Interview candidates and own making improvements to our hiring process.
+- Review applications and make final hiring decisions for candidates interested in your team.
 
 ## VP Engineering
 
 ### Responsibilities
 
-- TODO
+TODO
+
+## Switching roles
+
+Switching between an individual contributor role and a people management role (or vice versa) is a role change (not a promotion or a demotion). Each role requires a different set of skills. Generally we expect people managers to have experience doing the role of their direct reports. Role changes may involve, or be driven by, a team organization change.
+
+### Individual contributor to people manager
+
+1. The IC is interested in becoming a people manager and understands how a people manager role differs from an individual contributor role.
+2. The IC's manager agrees that the IC is a good candidate for a people manager role. Ideally the IC is already doing some parts of the job that are applicable — technical leadership, planning, mentoring. The IC's manager should collect feedback from relevant teammates.
+3. The IC's manager identifies a small initial set of people for the IC to manage (e.g. 2-3 direct reports) for 1-2 months.
+4. The IC's manager communicates to the team that this is a trial and the timeline for that trial.
+5. The IC sets up [1-1s](../leadership/1-1.md) with their new reports and the IC's manager continues their 1-1s with these reports (but may reduce the candence).
+6. Throughout the trial period the IC and the IC's manager discuss whether the trial is on track for success (and if not, what corrective actions can be taken).
+7. After the trial period is over the IC's manager decides if the trial was a success.
+  - Questions to consider:
+    - Is the IC happy in the new role?
+    - Are the IC's direct reports happy?
+    - Is the IC's manager happy? 
+  - Outcomes:
+    - If the trial was not a success then revert back to the previous state.
+    - If the trial was a success then the IC is now a people manager and we can move forward with adding more direct reports in the future.
+
+### People manager to individual contributor
+
+TODO
