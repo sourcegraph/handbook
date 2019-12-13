@@ -34,7 +34,7 @@ We review each candidate at each stage of our hiring pipeline (e.g. application,
 
 ## Sharing interview feedback
 
-We don't share specific reasons or feedback if we decide not to move forward in our hiring process with a candidate.
+We don't share specific reasons or feedback if we [decide](#decision-making-process) not to move forward in our hiring process with a candidate.
 
 It would be nice if we could give feedback like this, but we don't do this today. Why?
 
