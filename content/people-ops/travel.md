@@ -7,6 +7,7 @@ We believe that team get-togethers are invaluable for building cohesiveness in r
 The budgets for each category of travel below are non-transferable (and each of the company-wide events are as well). Each should be considered "use it, or lose it".
 
 As examples:
+
 - A teammate cannot reallocate the budget from a company-wide event to an individual trip.
 - A teammate cannot use their team budget for individual travel.
 - A teammate cannot skip the winter holiday party to get a longer stay at the Spring/Summer company-wide event.
