@@ -30,8 +30,12 @@ Example:
 
 ## Body
 
-The body should explain _what_ changed and _why_. The _how_ is the diff.
+The commit body is optional, and should explain _what_ changed and _why_ if a longer description is needed. The _how_ is the diff. When merging strive to keep the final commit body clean (see [pull requests](pull-request guidelines)).
 
 ## Pull requests
 
-[Code review](code_reviews.md) happens in PRs, which should contain a good subject and description. Since we prefer to squash merge PRs (mainly for atomic reverts), you don't necessarily need to spend effort crafting the commit messages in your branch (unless the change is larger and you have organized your change into separate commits for easier reviewability). Instead, copy your PR subject and description into your commit message at (squash) merge time.
+[Code review](code_reviews.md) happens in PRs, which should contain a good subject and description. When a PR is approved, we by default squash and merge commits. After clicking "Squash and merge", edit the body of the final commit message so that it is clean and informative. For example, delete any unnecessary and uninformative bullet points introduced by previous commits. Some guidelines:
+
+- GitHub will add your first commit message and the subject line to the squashed commit. This is often redundant. Delete the commit bullet in this case.
+- Phrases like `* add test`, `* fix test`, `* try X`, or `Update filename.md` are not useful and clutter the body. Delete these.
+- Accepting suggested changes will add a commit like `Update... Co-Authored-By...`. Delete these.
