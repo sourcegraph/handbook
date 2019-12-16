@@ -11,6 +11,7 @@
   - [Release issue template](releases/release_issue_template.md)
 - [On-call](on_call/index.md)
 - [Prometheus](prometheus.md)
+- [Security](security.md)
 
 ## [Roles and responsibilities](roles.md)
 
