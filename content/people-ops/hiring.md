@@ -15,7 +15,7 @@ We use [Google Hire](https://hire.withgoogle.com/t/sourcegraphcom/hiring/landing
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
    - There are two interviewers in each interview so that we can better detect and compensate for misunderstandings during the interview and biases in the written feedback after the interview.
    - Interviewers take written notes during the interview so there is an objective record of the interview that can be referenced when making a hiring decision.
-   - All interviewers submit written feedback independently before being able to see feedback from other interviewers.
+   - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 
 ## Decision making process
@@ -40,6 +40,10 @@ It would be nice if we could give feedback like this, but we don't do this today
 
 - The written feedback that we collect during our interview process is intended for an internal audience. We don't ask our interviewers to spend time and effort packaging their feedback in a way that can be delivered directly to candidates.
 - Adequately summarizing all interview feedback for a candidate is challenging and time consuming. We choose to spend our time focusing on delivering developmental feedback to our existing teammates.
+
+If any interviewer is asked by a candidate for interview feedback, they may respond with the following message:
+
+> I understand the desire to receive feedback from our interview process, but unfortunately we are not in a position to give it. Here is some public documentation to that effect: https://about.sourcegraph.com/handbook/people-ops/hiring#sharing-interview-feedback.
 
 ## Respecting time
 
