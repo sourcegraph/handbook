@@ -30,8 +30,6 @@ Example:
 
 ## Body
 
-The body should explain _what_ changed and _why_. The _how_ is the diff.
+The purpose of a commit body is to explain _what_ changed and _why_. The _how_ is the diff.
 
-## Pull requests
-
-[Code review](code_reviews.md) happens in PRs, which should contain a good subject and description. Since we prefer to squash merge PRs (mainly for atomic reverts), you don't necessarily need to spend effort crafting the commit messages in your branch (unless the change is larger and you have organized your change into separate commits for easier reviewability). Instead, copy your PR subject and description into your commit message at (squash) merge time.
+[Code review](code_reviews.md) happens in PRs, which should contain a good subject and description. When a PR is approved, we prefer to squash merge all commits on the PR branch into a single commit on master. After clicking "Squash and merge", edit the body of the final commit message so that it is clean and informative. The commit body should either be empty (assuming that you have a good PR description), or a brief summary of your change (which could be exactly your PR description if it is concise). It should not include unimportant details from incremental commits on the PR branch (e.g. `* add test`, `* fix test`, `* try X`, `Update filename.md`, `Co-Authored-By...`).
