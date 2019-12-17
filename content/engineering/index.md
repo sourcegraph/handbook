@@ -26,7 +26,6 @@ Each Sourcegraph engineer works on a team that has long-term ownership of a part
 - [Core services team](core-services/index.md)
 - [Distribution team](distribution/index.md)
 - [Web team](web/index.md)
-- [Automation project](automation/index.md)
 
 ## Repositories
 
