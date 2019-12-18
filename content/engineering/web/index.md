@@ -1,8 +1,14 @@
 # Web team
 
-Vision statement: Bring the power of Sourcegraph (e.g. search, code intelligence, automation) to all developers everywhere that they interact with code (e.g. command line, editors, web browser, code hosts).
-
 [Roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#heading=h.g2wq4qci7wj0)
+
+## Vision statement
+
+Bring the power of Sourcegraph (e.g. search, code intelligence, automation) to all developers everywhere that they interact with code (e.g. command line, editors, web browser, code hosts).
+
+## Tech stack
+
+TypeScript, React, RxJS, GraphQL, Go.
 
 ## Team syncs
 

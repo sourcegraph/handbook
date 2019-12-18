@@ -1,10 +1,14 @@
 # Distribution team
 
-Vision statement: Make Sourcegraph accessible to every developer and development team. Identify and satisfy long- and short-term needs of critical customers. ([Google Doc with more info](https://docs.google.com/document/d/1-RQTq1HnhvxiLWrHUssmSW3aSUqlIOfTtTg1wvKGtzc/edit?ts=5da61097#heading=h.frjbo9inynne))
-
 [Roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#heading=h.mi8zg2ql2uc6)
 
-- [How to set up a separate website maintained by Sourcegraph](separate_website.md)
+## Vision Statement
+
+Make Sourcegraph accessible to every developer and development team. Identify and satisfy long-term and short-term needs of critical customers. ([Google Doc with more info](https://docs.google.com/document/d/1-RQTq1HnhvxiLWrHUssmSW3aSUqlIOfTtTg1wvKGtzc/edit?ts=5da61097#heading=h.frjbo9inynne))
+
+## Tech stack
+
+Go, Docker, Kubernetes.
 
 ## Code host testing instances
 
@@ -39,3 +43,7 @@ Now you can switch between any added roles and your Sourcegraph AWS account usin
    - Name: `<NAME><TYPE>SharedAccessRole`, where `<NAME>` is the customer name and `<TYPE>` is `Replica` or `Managed`. (Examples: `AcmeCorpReplicaSharedAccessRole` or `AcmeCorpManagedSharedAccessRole`.)
    - Email: use any unused email address. (Example: `alice+acme-corp-replica-shared@sourcegraph.com`.)
 1. Move the account under the organization that you wish to allow this user to access https://console.aws.amazon.com/organizations/home?#/browse/ou-48vq-waaj46mo
+
+## Misc
+
+- [How to set up a separate website maintained by Sourcegraph](separate_website.md)
