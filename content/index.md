@@ -35,10 +35,10 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 ## Marketing
 
 - [Marketing](marketing/index.md)
-  - [Developer Relations](marketing/developer-relations/index.md)
   - [Messaging](marketing/messaging.md)
     - [What is Sourcegraph?](marketing/messaging.md#sourcegraph-value-proposition)
     - [What problems does Sourcegraph solve?](marketing/messaging.md#what-problems-does-sourcegraph-solve)
+- [Developer Relations](marketing/developer-relations/index.md)
 
 
 ## Sales
