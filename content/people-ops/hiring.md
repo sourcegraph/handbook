@@ -18,6 +18,14 @@ We use [Google Hire](https://hire.withgoogle.com/t/sourcegraphcom/hiring/landing
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 
+## Job descriptions
+
+Each job description lists qualifications (requirements) and nice-to-haves. If you are unsure if you meet our qualifications, please apply.
+
+We prefer to avoid listing "years of experience" as a qualification because time is only an indirect measure of what we really care about: skills and maturity.
+
+Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies.
+
 ## Decision making process
 
 We review each candidate at each stage of our hiring pipeline (e.g. application, phone screen, interviews, references) to determine if we want to move the candidate to the next stage. Here are some things that we consider:
