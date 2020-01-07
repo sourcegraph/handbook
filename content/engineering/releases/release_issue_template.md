@@ -109,7 +109,10 @@ Cut a new release candidate daily if necessary:
 ### Post-release
 
 - [ ] Notify the next release captain that they are on duty for the next release. They should complete the steps in this section.
+- [ ] Ensure you have the latest version github.com/sourcegraph/about checked out and it is located
+      at `../about` (relative to this repository).
 - [ ] Update `dev/release/config.json` with the parameters for the current release.
+- [ ] Run `yarn build` to rebuild the release script (necessary, because `config.json` is compiled in).
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
   ```
   # Add calendar events and reminders for key dates in the release cycle
