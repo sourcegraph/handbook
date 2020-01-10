@@ -22,7 +22,7 @@ The release always ships on time, even if it's missing features or bug fixes we 
 
 ### Why the 20th?
 
-We don't want to ship a release too late in December because the Sourcegraph team has a scheduled break December 24 through January 1.
+There is nothing particularly special about this date, but it does mean we wrap up a release before many teammates go on vacation during the end of December.
 
 ### Why aren't releases continuous?
 
@@ -59,30 +59,7 @@ The release captain should create a tracking issue using the [release issue temp
 
 ### Schedule
 
-| Version | Captain | Release Date |
-|---------|---------|--------------|
-| 3.0 | @nicksnyder | 2019-02-07 |
-| 3.1 | @nicksnyder | 2019-02-20 |
-| 3.2 | @nicksnyder | 2019-03-20 |
-| 3.3 | @slimsag | 2019-04-20 |
-| 3.4 | @beyang | 2019-05-20 |
-| 3.5 | @ggilmore | 2019-06-20 |
-| 3.6 | @keegancsmith | 2019-07-20 |
-| 3.7 | @attfarhan | 2019-08-20 |
-| 3.8 | @lguychard | 2019-09-20 |
-| 3.9 | @tsenart| 2019-10-20 |
-| 3.10 | @beyang | 2019-11-20 |
-| 3.11 | @beyang | 2019-12-20 |
-| 3.12 | @uwedeportivo | 2020-01-20 |
-| 3.13 | @felixfbecker | 2020-02-20 |
-| 3.14 | @efritz | 2020-03-20 |
-| 3.15 | @unknwon | 2020-04-20 |
-| 3.16 | @rvantonder | 2020-05-20 |
-| 3.17 | @hadrian-git | 2020-06-20 |
-
-Release captains may trade rotations with each other by updating this schedule.
-
-If a release captain is unexpectedly unavailable and did not arrange a replacement, the release captain's manager is responsible for identifying a new release captain.
+Release captain responsibilities are owned by the [Distribution team](../distribution/index.md).
 
 ### Release branches
 
@@ -134,7 +111,7 @@ There are only three kinds of issues that are eligible to block a release:
 
 Only the release captain can label something as release blocking.
 
-The release captain has unlimited power to make changes to the release branch to resolve release blocking issues. As soon as a release blocking issue is identified, the release captain should decide the least risky way to resolve the issue as soon as possible. A good default action is to identify and revert offending commits from the release branch. In the worst case, this could involved recreating the release branch from an earlier commit on master. Project owners can work on master to fix the issue, and if the issue is resolved in time, revert the revert and cherry-pick the fix on the release branch.
+The release captain has unlimited power to make changes to the release branch to resolve release blocking issues. As soon as a release blocking issue is identified, the release captain should decide the least risky way to resolve the issue as soon as possible. A good default action is to identify and revert offending commits from the release branch. In the worst case, this could involve recreating the release branch from an earlier commit on master. Project owners can work on master to fix the issue, and if the issue is resolved in time, revert the revert and cherry-pick the fix on the release branch.
 
 #### Non-blocking
 
