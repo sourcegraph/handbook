@@ -10,6 +10,7 @@
 - [Incidents](incidents.md)
 - [Releases](releases/index.md)
   - [Release issue template](releases/release_issue_template.md)
+- [Deployments](deployments.md)
 - [On-call](on_call/index.md)
 - [Prometheus](prometheus.md)
 - [Security](security.md)
