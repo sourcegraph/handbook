@@ -2,7 +2,7 @@
 
 - [Remote teammates (US-based)](../from-graphbook/onboarding_remote_us.md)
 - [Remote teammates (non-US-based)](../from-graphbook/onboarding_remote_non_us.md)
-- [Engineers](../from-graphbook/onboarding_engineers.md)
+- [Engineers](../../engineering/onboarding.md)
 - [SF-based teammates](../from-graphbook/onboarding_san_francisco.md)
 - [Sales team](../../sales/onboarding/index.md)
 

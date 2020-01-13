@@ -1,5 +1,6 @@
 # Engineering
 
+- [Onboarding](onboarding.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) (Google Drive)
   - [How we use RFCs](../communication/rfcs/index.md)

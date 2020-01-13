@@ -17,7 +17,7 @@ For authors:
 
 For reviewers:
 
-- Reviewing code from others increases your code literacy and empathy. You will learn new things from how your peers write code and you will be more aware of how to write code that is easier for your reviewers to understand
+- Reviewing code from others increases your code literacy and empathy. You will learn new things from how your peers write code and you will be more aware of how to write code that is easier for your reviewers to understand.
 - Reading PR descriptions increases your technical literacy and empathy. You will learn what makes a PR description effective and you will be more aware of how to write PR descriptions that are easier for your reviewers to understand.
 - Being a reviewer gives you the ability to share knowledge you have that others do not. Every person, regardless of experience level, has both something to learn and something to contribute.
 
@@ -99,6 +99,10 @@ Don't:
 - Comment on the details of the PR if you have questions or concerns about the overall direction or design. The former will distract from the latter and might be irrelevant if the PR is reworked.
 - Take longer than one business day to respond to a PR that is ready for your review (or re-review).
 - Have protracted discussions in PR comments. If it can't be settled quickly in a few review round trips, try discussing in person or on a video call because these mediums are higher bandwidth and encourage empathy. Then summarize the results in the PR discussion after the fact.
+
+## GitHub notifications
+
+Ensure that you have you [GitHub notification settings](github-notifications/index.md) configured correctly so that you are responsive to comments on PRs that you have authored and to review requests from teammates.
 
 ## Who should I get a code review from?
 
