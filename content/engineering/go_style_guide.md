@@ -20,12 +20,7 @@ pointer or document it.
 
 ## Pull requests
 
-When you have a PR that adds one new constant or other kind of declaration in a list that
-gofmt will automatically reindent, and if it changes the indentation, just add it in another
-block (separated with newlines). That way code reviewers don't have to wonder if you changed
-anything else in the block, and other people who might be working on the same code don't have
-to worry about lots of merge conflicts. Then immediately after/before merging, you can delete
-the extraneous newlines and add it in its proper place.
+Avoid unnecessary formatting changes that are unrelated to your change. If you find code that isn't formatted correctly, fix the formatting in a separate PR by running the appropriate formatter (e.g. `prettier`, `gofmt`).
 
 ## Group code blocks logically
 
