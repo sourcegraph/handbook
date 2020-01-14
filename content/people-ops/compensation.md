@@ -1,10 +1,15 @@
 # Compensation
 
-## Salary
+Our compensation plan includes three components: cash (salary and commissions), equity, and benefits/perks.
 
-We pay competitive salaries because we want teammates focused on helping Sourcegraph succeed, not worrying about paying their bills.
+We use market data from various sources (e.g. venture capital firms, 3rd-party consultants) to determine the market rate for each role and level within that role.
 
-### Currency
+To provide competitive and generous compensation (both cash and equity) to everyone on our [all remote team](../../company/remote/index.md) (regardless of location), our compensation is benchmarked against market rates in San Francisco, California ([one of the most expensive cities in the world](https://www.businessinsider.com/how-expensive-is-san-francisco-mind-blowing-facts-2019-5)).
+
+## Cash (salary and commission)
+
+We pay competitively because we want to hire the best people and we want our teammates to be focused on helping Sourcegraph succeed, not worrying about paying bills.
+
 
 We pay salaries in USD.
 
@@ -22,13 +27,6 @@ See [Benefits and perks](benefits-and-perks.md).
 
 Everyone's compensation is reviewed regularly as part of our [performance review](performance-reviews.md) process.
 
-## Benchmark
-
-We use market data from various sources (e.g. venture capital firms, 3rd-party consultants) to determine the market rate for each role and level within that role.
-
-<!-- We need to get fresh data and document our comp ranges before we can claim this
-To provide competitive and generous compensation (both salary and equity) to everyone, regardless of location, we target our initial offers to the Xth-percentile market rate in San Francisco, California ([one of the most expensive cities in the world](https://www.businessinsider.com/how-expensive-is-san-francisco-mind-blowing-facts-2019-5)). This means that when you start at Sourcegraph, your compensation will be higher than X% of people who are in the same role as you at technology companies similar in size/stage to Sourcegraph in the San Francisco Bay Area.
--->
 
 ## Ranges
 
