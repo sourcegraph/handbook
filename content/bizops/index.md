@@ -2,26 +2,29 @@
 
 The Business Operations (BizOps) team is responsible for [translating business goals (strategy) into tactical operations (execution)](https://medium.com/business-startup-development-and-more/why-your-startup-also-needs-a-bizops-team-5d2e7d436a0).
 
-To reach us, mention `@ericbm` in #analytics, #sales or #marketing.
-## Analytics
+# Analytics
 
 This page describes Sourcegraph's analytics function, our data sources, and how to use our data tools.
 
-### How to submit a data request
+To reach us, mention @ericbm in the most relevant channel (i.e. #marketing for a marketing-related question).
 
-[Looker](https://sourcegraph.looker.com/) is a self-service tool so we encourage everyone to try finding answers within the tool. [Get started here](#using-looker) if you're not familiar with Looker, the team in the #analytics Slack channel are more than happy to answer any questions regarding Looker. 
+## Submitting a data request
 
-**Projects:** Add an issue to the [analytics board](https://github.com/sourcegraph/analytics/issues) in GitHub. This is used as the analytics project board and is triaged every day. Please think through and include the following so we can effectively prioritize your request.
-- What is the deliverable going to be used for? Why do you need it? This helps the team prioritize requests. 
-- What do you want the deliverable to look like (in as much detail as possible)? For example, if you want a specific chart that illustrates some metric, it would be extremely helpful to draw the chart on paper and attach it.
-- When do you need the deliverable by? 
-- Is this request a nice-to-have or a necessity?
+**Projects:** Proposals to capture and report on new data are in [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). Provide the following data to help us understand and prioritize your request:
+- What is the purpose of the visualization?
+- Will it be frequently used, or is it only needed sporadically?
+- How does it support Sourcegraph's company and team OKRs?
+- Do you know how you want the data visualized? If you need a new graph or chart, adding a photo of a sketch on paper helps immensely.
+- When does this need to be delivered?
+- How urgent is this request?
 
-**Small asks and questions:** Post in the #analytics channel in Slack. 
+**Small asks and questions:** Post in the #analytics channel. 
 
-### Data sources
+If you need clarification or are not sure about any of the above, ask a question in the [Slack #analytics channel](https://sourcegraph.slack.com/archives/CN4FC7XT4).
 
-Here are the following sources we collect data from:
+## Data sources
+
+We collect data from the following:
 
 * Google Analytics: Website analytics for Sourcegraph marketing and docs pages (not Sourcegraph.com)
 * HubSpot: Marketing automation and CRM
@@ -31,7 +34,7 @@ Here are the following sources we collect data from:
 * [Custom tool to track events](https://github.com/sourcegraph/sourcegraph/issues/5486) on the Sourcegraph.com instance
 * [Prometheus dashboards](https://sourcegraph.com/-/debug/grafana/?orgId=1) show high-level insight into the health of a Sourcegraph instance to admins. Sourcegraph teammates can see the health of Sourcegraph.com. 
 
-### Data tools
+## Data tools
 
 * [Looker](#using-looker): Business intelligence/data visualization tool
 * Google Cloud Platform: BigQuery is our data warehouse and the database Looker runs on top of
@@ -46,26 +49,32 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 
 ## Using Looker
 
+[Looker](https://sourcegraph.looker.com/) is a self-service tool with many pre-built reports and visualizations. Read our instructions for [getting started with Lookr](#using-looker) and reach out in the #analytics Slack channel if you have any questions.
+
 ### Sourcegraph quick links
 
-[All Instances](https://sourcegraph.looker.com/looks/436)<br/>
-[Specific Instance Overview](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=&Site%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D) (To select a specific company, fill the Unique Server ID field)<br/>
+- [All Instances](https://sourcegraph.looker.com/looks/436)<br/>
+- [Specific Instance Overview](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=&Site%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D) (To select a specific company, fill the Unique Server ID field)<br/>
 
-Folders:<br/>
-[Marketing](https://sourcegraph.looker.com/folders/109)<br/>
-[Sales](https://sourcegraph.looker.com/folders/114)<br/>
-[Product Insights](https://sourcegraph.looker.com/folders/113)<br/>
+**Folders**
+
+- [Go-to-market](https://sourcegraph.looker.com/browse/boards/2)<br/>
+- [Marketing](https://sourcegraph.looker.com/folders/109)<br/>
+- [Sales](https://sourcegraph.looker.com/folders/114)<br/>
+- [Product Insights](https://sourcegraph.looker.com/folders/113)<br/>
 
 ### Getting started with Looker
 
-Looker enables us to explore and visualize Sourcegraph data sources. If you're a new user, here's where to get started.
+Looker provides tools for building and exploring custom reports and visualizations using custom fields captured from various Sourcegraph data sources. If you're a new user, here's where to get started.
 
-[Exploring data](http://www.looker.com/docs/exploring-data/exploring-data)<br/>
-[Visualizing data](http://www.looker.com/docs/exploring-data/visualizing-query-results)<br/>
-[Building dashboards](http://www.looker.com/docs/exploring-data/building-dashboards)<br/>
+- [Exploring data](http://www.looker.com/docs/exploring-data/exploring-data)
+- [Visualizing data](http://www.looker.com/docs/exploring-data/visualizing-query-results)
+- [Building dashboards](http://www.looker.com/docs/exploring-data/building-dashboards)
 
-Looker developed their own language called LookML for defining calculations and data relationships in a SQL database. The 'Explores' and other functionality you see in Looker is all based on a LookML model.  The average Sourcegraph teammate should not need to write any LookML code, but should you need or want to, here are a couple resources to get started.
+### Querying Looker data
 
-[Introduction to LookML](http://www.looker.com/docs/data-modeling/learning-lookml/what-is-lookml)<br/>
-[LookML Terms and Concepts](http://www.looker.com/docs/data-modeling/learning-lookml/lookml-terms-and-concepts)<br/>
-[Complete Looker Docs](http://www.looker.com/docs/reference)<br/>
+Looker created a query language called [LookML](https://docs.looker.com/data-modeling/learning-lookml/what-is-lookml) for defining calculations and data relationships in a SQL database. The 'Explores' and other functionality you see in Looker is all based on a LookML model.  The average Sourcegraph teammate should not need to write any LookML code, but should you need or want to, here are some resources to get started.
+
+- [Introduction to LookML](http://www.looker.com/docs/data-modeling/learning-lookml/what-is-lookml)
+- [LookML Terms and Concepts](http://www.looker.com/docs/data-modeling/learning-lookml/lookml-terms-and-concepts)
+- [Complete Looker Docs](http://www.looker.com/docs/reference)
