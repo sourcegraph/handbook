@@ -1,4 +1,5 @@
 # Teammate philosophy
+
 Sourcegraph attracts, hires, and retains the best teammates in the world. These teammates are attracted to our high-value purpose, our dedication to rewarding individuals who perform at the highest level, and our internal focus on integrity, morality, grit, and teamwork.
 
 We will:
@@ -10,8 +11,8 @@ We will:
 * Be open to tough conversations
 * Demand excellence
 
-
 We will not:
+
 * Allow disrespectful treatment
 * Knowingly place unrealistic expectations on teammates
 * Allow subpar performance
