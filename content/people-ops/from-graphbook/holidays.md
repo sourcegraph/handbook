@@ -1,17 +1,15 @@
-# Holiday schedule
+# Holidays
 
-The Company’s office is closed on the following dates: 
+We have a team that is based throughout many parts of the world and we respect everyone's local holidays. Therefore, there is no need for teammates to provide a specific enumeration of holidays by country, as holidays are explicitly covered as part of our unlimited PTO policy. 
 
-* Observed January 1st - New Years Day
+Teammates should add their respective holidays to the "Not working" calendar as far in advance as possible in order to communicate to the team that they will be unavailable for those particular dates. 
 
-* Observed 3rd Monday in January - Martin Luther King Jr. Day
+There are a few holidays that many teammates will typically observe and for those dates we will reschedule any Monday team meetings over to the following Tuesday. Those holidays include:
 
-* Observed Last Monday in May - Memorial Day
+* New Years Day - observed January 1st
 
-* Observed July 4th - Independence Day
+* Martin Luther King Jr. Day - observed 3rd Monday in January
 
-* Observed 1st Monday in September - Labor Day
+* Fourth of July - observed July 4th
 
-* Observed 4th Thursday and Friday in November - Thanksgiving and Black Friday
-
-* Observed December 24th - January 1st - Winter Break
+* Christmas Eve and Christmas - observed December 24th and 25th
