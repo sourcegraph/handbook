@@ -7,5 +7,4 @@ The [Graphbook](https://github.com/sourcegraph/Graphbook) was the precursor to t
   - [Remote teammates (non-US-based)](onboarding_remote_non_us.md)
   - [Engineers](../../engineering/onboarding.md)
   - [SF-based teammates](onboarding_san_francisco.md)
-- [Holidays](holidays.md)
 - [Glossary](glossary.md)
