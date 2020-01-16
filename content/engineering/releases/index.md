@@ -95,6 +95,18 @@ A---B---C---D---E---F---G---H---I---J---K---L (master branch)
         `---v3.0.0-rc.1---D'---v3.0.0---F'---v3.0.1---J'---v3.0.2 (3.0 release branch)
 ```
 
+#### Cherry-picking a fix onto release branch
+
+In order to cherry-pick a fix onto a release branch:
+
+1. Merge changes into `master` as a squashed commit.
+1. Get approval from the **release captain**.
+1. Checkout the release branch (e.g. `git checkout 3.12`).
+1. Make sure your local release branch is up to date (i.e. `git pull`).
+1. `git cherry-pick <commit-sha-of-squashed-commit>`
+1. `git push`
+1. Let the release captain know (either by sending a message on Slack or leaving a comment on the merged PR with the SHA of the cherry-picked commit, see [example](https://github.com/sourcegraph/sourcegraph/pull/7753#issuecomment-575134117).
+
 ### Issues
 
 How do we deal with issues that are found during the release process?
