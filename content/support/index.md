@@ -83,6 +83,8 @@ We strive to maintain the response and resolution times below.
 
 #### For customers with on-premises/self-hosted Sourcegraph instances:
 
+While Sourcegraph will strive to respond as soon as possible to every issue, we will be responsible for upholding the SLAs below during working hours (9:00a.m. to 5:00p.m.) Pacific Time, Monday through Friday.
+
 ||Description|Response time|Resolution time|
 |---|---|---|---|
 |Severity 1|Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment.|Within 24 hours of becoming aware of the issue|Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.|
