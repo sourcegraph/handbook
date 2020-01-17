@@ -3,6 +3,9 @@
 - [Messaging](messaging.md)
   - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
   - [What problems does Sourcegraph solve?](messaging.md#what-problems-does-sourcegraph-solve)
+- [Definitions](https://docs.google.com/document/d/1h6xQeGHpMrsUUJ63Q6KupUNzq1iOpZfZSMC6ta3pLiY/edit#heading=h.pt4ztk7qhub0)
+- [Marketing operations](marketing_operations.md)
+- [Developer relations](developer-relations/index.md)
 
 ## Team communication
 
@@ -12,10 +15,6 @@ The marketing team holds a weekly meeting to review the topics below. [Internal 
 1. Review of the prior week's initiatives.
 1. Plan for the coming week, and an update on monthly/quarterly initiatives.
 
-## [Developer Relations](developer-relations/index.md)
-
-See "[Developer Relations](developer-relations/index.md)".
-
 ## [Roles](roles.md)
 
 See job descriptions and responsibilities of roles on the Marketing team:
@@ -24,7 +23,3 @@ See job descriptions and responsibilities of roles on the Marketing team:
 - [Developer Advocate](roles.md#developer-advocate)
 - [VP Marketing](roles.md#vp-marketing)
 - [Online Marketer](roles.md#online-marketer)
-
-## Definitions
-
-See "[Marketing definitions](https://docs.google.com/document/d/1h6xQeGHpMrsUUJ63Q6KupUNzq1iOpZfZSMC6ta3pLiY/edit#heading=h.pt4ztk7qhub0)".
