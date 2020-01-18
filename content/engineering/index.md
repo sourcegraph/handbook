@@ -6,6 +6,7 @@
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Code reviews](code_reviews.md)
 - [Go style guide](go_style_guide.md)
+- [Testing](testing.md)
 - [Continuous releasability](continuous_releasability.md)
 - [Commit message guidelines](commit_messages.md)
 - [Incidents](incidents.md)
