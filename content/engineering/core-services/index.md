@@ -17,9 +17,11 @@ Go, Postgres, Redis, Docker, Kubernetes.
 
 ### Weekly check-ins
 
-Everyone writes a weekly check-in at the end of each Friday in the active tracking issue of the on-going iteration. These check-ins describe the work done in the previous week as well as what's to come in the next week.
+Everyone writes a weekly check-in in the active tracking issue of the on-going iteration. These check-ins describe the work done in the previous week as well as what's to come in the next week.
 
 This process helps each teammate reflect and plan each week proactively and enables other parts of the organization to have visibility into on-going progress.
+
+Appropriate times to write this check-in are end of day on Friday or beginning of day on Monday.
 
 Here's an example of a [good weekly check-in](https://github.com/sourcegraph/sourcegraph/issues/7190#issuecomment-573564817).
 
