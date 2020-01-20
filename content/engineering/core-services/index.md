@@ -1,4 +1,4 @@
-# Code services team
+# Core services team
 
 ## Vision statement
 
