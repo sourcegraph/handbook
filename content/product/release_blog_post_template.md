@@ -1,7 +1,7 @@
 ---
-title: Sourcegraph {VERSION}
+title: "Sourcegraph {VERSION}: {TITLE}"
 author: {AUTHOR}
-publishDate: 2019-MM-20T10:00-07:00
+publishDate: 2020-MM-20T10:00-07:00
 tags: [
   blog
 ]
