@@ -112,5 +112,5 @@ In the past, we have provided support on private GitHub issue trackers and priva
 ### How to find which Sourcegraph version a customer is running
 
 1. Visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436).
-1. Find the row for the customer's instance. (If you can't find it, ask in #metrics on Slack.)
+1. Find the row for the customer's instance. (If you can't find it, ask in #analytics on Slack.)
 1. Look at the version number in the row's **Latest Version** column.
