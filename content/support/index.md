@@ -107,3 +107,10 @@ Enterprise Plus and Elite customers should refer to their contracts if they have
 
 In the past, we have provided support on private GitHub issue trackers and private Slack channels. However, we often found that issues or requests went unattended or lacked follow-through. Neither of these were designed to be support ticket managers (with prioritization, stage tracking, alerting, and metrics), and both are now deprecated.
 
+## Finding customer information
+
+### How to find which Sourcegraph version a customer is running
+
+1. Visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436).
+1. Find the row for the customer's instance. (If you can't find it, ask in #metrics on Slack.)
+1. Look at the version number in the row's **Latest Version** column.
