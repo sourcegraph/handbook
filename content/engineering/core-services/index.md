@@ -75,4 +75,6 @@ Roadmap items may take more than an iteration to implement. As such please link 
 
 After the internal discussion of the team's work plan for the iteration ends, the tracking issue is ready to be *reviewed* by external stake-holders. The team manager asks for +1s from the relevant [Product Manager](../../product/roles.md#product-manager) and the [VP of Engineering](../roles.md#vp-engineering).
 
-After adjusting the work plan according to their feedback (if necessary), the team manager marks the tracking issue as final.
+After adjusting the work plan according to their feedback (if necessary), the team manager marks the tracking issue as approved in its "Status" section and labels all planned issues with a `planned/$MILESTONE` label.
+
+Because this label allows the `tracking-issue` tool to keep track of issues that are taken out of the milestone during the iteration, it should not be removed from those issues when that happens.
