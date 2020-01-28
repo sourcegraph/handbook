@@ -15,6 +15,8 @@ These places are the source of truth for information at Sourcegraph. Information
 - [Project roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [HubSpot](https://app.hubspot.com)
+- [JIRA Service Desk](https://sourcegraph.atlassian.net/jira/servicedesk/projects/SG)
+- [Looker](http://sourcegraph.looker.com/)
 
 ### Scratchpads and ephemeral information (non-sources of truth)
 
@@ -96,5 +98,4 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 ## Writing
 
 1. Always use [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) in all writing and legal documents because other formats [lead to online confusion](http://xkcd.com/1179/). Use `yyyy-mm-dd`, for example 2020-04-13, and never 04-13-2020, 13-04-2020, 2020/04/13, nor April 13, 2020. Even if you use an unambiguous alternative format, it is still harder to search for a date, sort on a date, and for other team members to know we use the ISO standard. For months use `yyyy-mm`, so 2020-01 for January 2020.
-
 

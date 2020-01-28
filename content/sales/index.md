@@ -6,6 +6,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Common questions from prospective customers](common_customer_questions.md)
 - [Sales team onboarding](onboarding/index.md)
 - [Sales interviews](interviews/index.md)
+- [Recording lead and customer emails, calls, and notes](records.md)
 
 ## Pipeline and models
 
