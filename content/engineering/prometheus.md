@@ -44,6 +44,33 @@ Example commits:
 * [pgsql: Export OpenConnections to prometheus](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@ccc69ef5cfaa6486e31a5fd1a263f3797a5320be/-/commit)
 * [builds: Track final build states in prometheus](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@bff33142f6017b9c2cc552d3c0a2cea7427208ca/-/commit)
 
+## Add or edit a rule
+
+The Prometheus lifecycle API is enabled in dev mode (when Sourcegraph is started by dev/start.sh or enterprise/dev/start.sh).
+You can edit, add, delete rules in [this directory](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/docker-images/prometheus/config) and then send
+
+```shell script
+curl -X POST http://localhost:9090/-/reload
+```
+
+to your running Prometheus in your dev Sourcegraph instance and it will reload the configs with your changes.
+
+## Find available metrics
+
+If you need to find where metrics are declared or updated you can use Sourcegraph itself to search if you have a metric name. Sometimes
+the metrics are hard to find because their name declarations are not literal strings but are concatenated instead in code from variables.
+You can try a specialized tool called `promgrep` to find them. Run the tool in the root `sourcegraph/sourcegraph` source directory.
+
+```
+$ go get github.com/sourcegraph/promgrep
+$ promgrep <some_partial_metric_name>
+```
+
+If you run it in an Emacs shell buffer or in GoLand terminal then the results are clickable and get you to the locations in code
+where the metrics are declared.
+
+Running `promgrep` without any arguments lists all declared metrics.
+
 ## Alerts
 
 See the `alert*.rules` files under
