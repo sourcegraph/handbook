@@ -6,6 +6,7 @@
 - [Definitions](https://docs.google.com/document/d/1h6xQeGHpMrsUUJ63Q6KupUNzq1iOpZfZSMC6ta3pLiY/edit#heading=h.pt4ztk7qhub0)
 - [Marketing operations](marketing_operations.md)
 - [Developer relations](developer-relations/index.md)
+- [Webinars](webinars.md)
 
 ## Team communication
 
