@@ -47,3 +47,4 @@ Now you can switch between any added roles and your Sourcegraph AWS account usin
 ## Misc
 
 - [How to set up a separate website maintained by Sourcegraph](separate_website.md)
+- [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
