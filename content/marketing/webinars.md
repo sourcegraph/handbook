@@ -23,17 +23,16 @@ Sourcegraph uses these web applications for running a webinar:
 
 ## Webinar planning tasks
 
-| time to webinar | activity | 
-| ------ | ------ | 
-| 1 - 2 months out | Identify webinar information |
-| 1 month out | Send out invitations |
-| 2 weeks out | Send out invitation #2 | 
-| 1 day - 1 week out | Send out email reminders | 
-| 1-2 weeks out | Perform a rehearsal | 
-| 1 day out | Test webinar link | 
-| 30 minutes | Final soundcheck | 
-|  |   |
-| Post webinar | Send out thank you emails with link to recorded webinar |
+ time to webinar | activity  
+ --------------- | ---------------    
+ 1 - 2 months out | Identify webinar information 
+ 1 month out | Send out invitations 
+ 2 weeks out | Send out invitation #2 
+ 1 day - 1 week out | Send out email reminders 
+ 1-2 weeks out | Perform a rehearsal 
+ 1 day out | Test webinar link 
+ 30 minutes | Final soundcheck 
+ Post webinar | Send out thank you emails with link to recorded webinar 
 
 ### Zoom setup
 Create the webinar, configuring the following:
