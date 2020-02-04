@@ -101,7 +101,7 @@ These example commands are for the `dot-com` cluster where the Sourcegraph appli
 </tr>
 
 <tr>
-  <td>Describe the properties of a pod</td>
+  <td>Describe the properties of a pod.</td>
   <td><code>kubectl --namespace=prod describe pod $POD_NAME</code></td>
 </tr>
 
@@ -122,7 +122,7 @@ These example commands are for the `dot-com` cluster where the Sourcegraph appli
 </tr>
 
 <tr>
-  <td>SSH into the VM running a pod</td>
+  <td>SSH into the VM running a pod.</td>
   <td>Find the node ID from the NODE column of <code>kubectl get pods --namespace=prod -o=wide</code>. Go to the Google Compute Engine dashboard and click the "SSH" button in the top left to get the <code>gcloud</code> command to SSH into the node.<br /><code>kubectl -n prod exec -it POD_NAME /bin/sh</code></td>
 </tr>
 
@@ -140,6 +140,13 @@ These example commands are for the `dot-com` cluster where the Sourcegraph appli
   <td>List versions in production.</td>
   <td>
 	<code>kubectl -n prod get deploy -o jsonpath='{.items[*].spec.template.spec.containers[0].image} ' | tr ' ' '\n' | sort -u</code>
+  </td>
+</tr>
+
+<tr>
+  <td>Get access to Jaeger locally.</td>
+  <td>
+	<code>kubectl port-forward svc/jaeger-query 16686</code>
   </td>
 </tr>
 
