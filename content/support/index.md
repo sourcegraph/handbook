@@ -28,7 +28,7 @@ First, read the section above (for customers).
 
 * [Support duties](#support-duties)
 * [The support process](#the-support-process)
-* [Using HubSpot](#using-hubspot)
+* [Using Jira](#using-jira)
 * [SLAs](#slas)
 * [Deprecated support channels](#deprecated-support-channels)
 
@@ -47,9 +47,9 @@ Support owners can be anybody at Sourcegraph. In some cases, the front-line supp
 
 #### Front-line support
 
-The current front-line support representative should immediately open the support email in HubSpot, determine the severity (see [SLAs](#slas) below), determine how to respond (e.g., if an answer is as simple as providing a link to our docs, or if someone else should be tagged in), and respond to the customer in HubSpot. If someone else is taking ownership, assign them in the issue, and notify them in the #customer-updates channel in Slack.
+The current front-line support representative should immediately open the support email, determine the severity (see [SLAs](#slas) below), determine how to respond (e.g., if an answer is as simple as providing a link to our docs, or if someone else should be tagged in), and respond to the customer in Jira. If someone else is taking ownership, assign them in the issue, and notify them in the #customer-updates channel in Slack. If you are unsure who should take ownership of the issue, ask in #distributioneers for anything related running the product or #web for anything related to browser extensions.
 
-The initial email response should not be delayed while waiting for input. If the rep doesn't know who to assign, they should simply acknowledge receipt of the ticket and promise to follow-up.
+The initial email response should not be delayed while waiting for input. If you don't know who to assign, simply acknowledge receipt of the ticket and promise to follow-up.
 
 Email responses should be natural, and don't need to fit any formal "voice". Respond how you'd want a support representative to respond to you.
 
@@ -63,7 +63,9 @@ Example response:
 >Best,
 >Dan
 
-This response, like all others, should come through HubSpot's service or conversations pages, not via a personal email client. "Adding" a teammate to the thread should occur by assigning them ownership of the ticket in HubSpot and, ideally, sharing a link to the ticket with them in Slack.
+This response, like all others, should come through Jira's queues pages, not via a personal email client. "Adding" a teammate to the thread should occur by assigning them ownership of the ticket in Jira and, ideally, sharing a link to the ticket with them in Slack.
+
+Make sure to follow up and check in with ticket owners to confirm their ability to solve the issue and close the ticket. Gentle and kind reminders are totally okay!
 
 #### Support owners
 
@@ -73,7 +75,7 @@ Support owner emails should be natural, and don't need to fit any formal "voice"
 
 Since each ticket can take a unique path, there is no single template at this stage. The support owner should determine up front what information to request to debug the issue to minimize the number of back-and-forths required. If, after three responses from the customer, the support owner still isn't certain about the issue, they can request a call/liveshare to debug the issue together live. In this scenario, the support owner should notify the account executive (from sales) that works with the customer.
 
-### Using HubSpot
+### Using Jira
 
 Coming soon
 
