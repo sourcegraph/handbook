@@ -140,7 +140,13 @@ Open the alert UI to click on the check URL that was failing and verify it's now
 
 ### Useful dashboards
 
-[Lightstep dashboard for endpoint latency](https://app.lightstep.com/sourcegraph-prod/dashboard/gC24vW3g?range=3600)
+Check out the [kubectl cheatsheet](../deployments.md#kubectl-cheatsheet) for how to get access to Jaeger locally.
+
+### Access pod logs in GCP console
+
+1. Go to **Kubernetes Engine > Workloads**, then search and click on the pod you're interested, e.g. `sourcegraph-frontend`.
+2. In the **Deployment details** page, there is a row called **Logs**, which has both **Container logs** and **Audit logs**.
+3. Click on the **Container logs**, then you should be redirected to the **Logs Viewer** page.
 
 ### PostgreSQL database problems
 
