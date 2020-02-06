@@ -54,7 +54,7 @@ The following are the to-do's necessary to prep for a new teammate's onboarding 
 
 - [ ] Have Officengine send them an Expensify invite.
 
-- [ ] Send GrubHub for Work invite. 
+- [ ] Send GrubHub for Work invite.
 
 # New teammate to-do's: First day
 
@@ -75,6 +75,8 @@ Welcome! We're excited to have you get started, so here is a list of the account
 - [ ] **[Slack](https://slack.com/)**: Access our team communication tool.
 
 - [ ] **[GitHub](https://github.com/sourcegraph/Graphbook)**: Access the Graphbook (employee handbook).
+
+- [ ] Confirm that the new team member is a member of our GitHub organization (which requires having/creating a GitHub account and accepting the invitation to the `sourcegraph` organization). To check, visit https://github.com/sourcegraph/about/issues/new, press **Assignees** on the right, and confirm the team member is in the list.
 
 - [ ] **[Jamf Now](https://sourcegraph.jamfcloud.com)**: Enroll your device in our MDM (ask Noemi for your access code).
 
