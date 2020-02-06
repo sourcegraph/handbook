@@ -2,6 +2,10 @@
 
 We want our teammates to be happy, healthy, and productive.
 
+## 🏡 All remote
+
+We are an [all-remote team](../../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to either work from a coworking space or setup your home office](spending-company-money.md).
+
 ## 🏖️ Vacation
 
 We have a flexible vacation policy with mandatory annual vacation time that encourages our team to recharge when they need to. Read more about our philosophy on [mandatory vacation time](https://about.sourcegraph.com/blog/why-vacation-at-tech-companies-should-be-mandatory-better-code-happier-people).
@@ -22,17 +26,17 @@ We value and support teammates at all stages of life, and provide 8 weeks of pai
 
 In addition to on-the-job training, we offer a \$1,000 yearly stipend for education assistance (e.g. classes, books, conferences, etc.).
 
-## 🍲 Meals
+## ✈️ Travel
 
-We cover meals for local teammates while they are working on behalf of the company. This includes lunch every weekday, breakfast if you arrive early, dinner if you stay late, and a variety of healthy snacks and drink options all the time.
+We have generous [company, team, and individual travel budgets](travel.md) to encourage you to connect face to face with your teammates regularly.
 
-## 🚉 Transportation
+## 🌐 Internet
 
-We allow you to expense public transportation costs to and from the office. We also allow you to expense other forms of shared transportation (e.g. Lyft Shared, uberPOOL) to/from the office if you need to arrive early or stay late.
+Your paycheck automatically includes a fixed reimbursement for \$50 of internet expenses monthly.
 
-## 📱 Mobile phone plan
+## 📱 Mobile phone
 
-Your paycheck automatically includes a fixed reimbursement for \$45 of mobile phone expenses monthly.
+Your paycheck automatically includes a fixed reimbursement for \$75 of mobile phone expenses monthly.
 
 ## 🚚 Moving
 
