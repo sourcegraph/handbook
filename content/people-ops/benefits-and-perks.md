@@ -16,7 +16,7 @@ We offer high-quality medical and dental care for all full-time employees and th
 
 ## 🏃 Wellness
 
-A healthy mind and body is imperative to doing your best work and living a healthy life. We offer an \$85 monthly stipend that can be used at your discretion.
+A healthy mind and body is imperative to doing your best work and living a healthy life. We offer an $85 monthly stipend that can be used at your discretion.
 
 ## 👪 Family friendly
 
@@ -24,7 +24,7 @@ We value and support teammates at all stages of life, and provide 8 weeks of pai
 
 ## 📚 Professional development
 
-In addition to on-the-job training, we offer a \$1,000 yearly stipend for education assistance (e.g. classes, books, conferences, etc.).
+In addition to on-the-job training, we offer a $1,000 yearly stipend for education (e.g. classes, books, conferences, etc.).
 
 ## ✈️ Travel
 
@@ -32,12 +32,12 @@ We have generous [company, team, and individual travel budgets](travel.md) to en
 
 ## 🌐 Internet
 
-Your paycheck automatically includes a fixed reimbursement for \$50 of internet expenses monthly.
+Your paycheck automatically includes a fixed reimbursement for $50 of internet expenses monthly.
 
 ## 📱 Mobile phone
 
-Your paycheck automatically includes a fixed reimbursement for \$75 of mobile phone expenses monthly.
+Your paycheck automatically includes a fixed reimbursement for $75 of mobile phone expenses monthly.
 
 ## 🚚 Moving
 
-Whether you are relocating to join us or just moving places after you have already joined, we give you a yearly \$1,000 stipend for hiring professional movers to reduce the stress associated with moving.
+Whether you are relocating to join us or just moving places after you have already joined, we give you a yearly $1,000 stipend for hiring professional movers to reduce the stress associated with moving.
