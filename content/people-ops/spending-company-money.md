@@ -7,7 +7,7 @@ We want to make sure you have what you need to be productive and happy in your r
   - For example, if you intend to work out of a coworking space most of the time, you may not need a fully equipped home office as well.
 - We have an "all-in" total budget of $1000 for desk setup, which includes all the items in the "Desk set-up expenses" section (with the exception of laptops). If you expect to significantly exceed the listed amount on any purchase, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
 - Laptops and laptop insurance are fully reimbursable outside of the $1000 "all-in" budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
-- If you spend more than $1,000 on any given item, it will be considered property of the company.
+- If you spend more than $1,000 on any given physical item, it will be considered property of the company.
 
 ## Desk set-up expenses
 
@@ -49,7 +49,7 @@ We want to make sure you have what you need to be productive and happy in your r
 
 **Coworking/office space:** $300-500/month (these are meant to be averages, and it should be dependent on the average cost of coworking spaces in your particular location, if your coworking space is significantly more than the averages listed here, please get approval from @sourcegraph/people-ops). 
 
-**Professional development (conferences, courses):** $1000/year
+**Education and professional development (conferences, courses):** $1000/year (if you want to exceed this amount, simply notify @sourcegraph/people-ops in advance to explain the situation and to receive approval).
 
 **Moving (moving, packing, shipping, etc.):** $1000/year
 
