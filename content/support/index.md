@@ -14,7 +14,7 @@ Any of the methods listed above will get our attention, but we only provide a su
 
 Because our code is open source, any user or customer can file an issue on our public issue tracker at any time (and we encourage it!). 
 
-However, we don't encourage customers with enterprise contracts to start the support process this way. In some cases, a support ticket (centered around one customer's needs or questions) will be translated into an issue (which should apply generally to the product itself). In fact, we may ask you to file an issue during the support conversation.
+However, we don't encourage customers with enterprise contracts to start the support process this way. In some cases, a support ticket (centered around one customer's needs or questions) will be translated into an issue (which should apply generally to the product itself). In fact, we may ask you to file an issue during the support conversation. Learn [how to file an issue for a customer](./filing_customer_issues.md) when necessary.
 
 Beyond the conceptual difference, there are practical reasons to prefer starting support conversations via email:
 
