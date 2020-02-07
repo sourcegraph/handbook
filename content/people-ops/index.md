@@ -14,6 +14,7 @@
 - [Teammate philosophy](teammate_philosophy.md)
 - [List of team members](../../company/team/index.md)
 - [Leaving](leaving.md)
+- [Review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles)
 
 ## [Roles](roles.md)
 
