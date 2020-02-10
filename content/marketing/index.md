@@ -4,8 +4,8 @@
   - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
   - [What problems does Sourcegraph solve?](messaging.md#what-problems-does-sourcegraph-solve)
 - [Definitions](https://docs.google.com/document/d/1h6xQeGHpMrsUUJ63Q6KupUNzq1iOpZfZSMC6ta3pLiY/edit#heading=h.pt4ztk7qhub0)
-- [Marketing operations](marketing_operations.md)
 - [Developer relations](developer-relations/index.md)
+- [Marketing operations](marketing_operations.md)
 - [Webinars](webinars.md)
 
 ## Team communication
