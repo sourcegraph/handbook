@@ -98,4 +98,9 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 ## Writing
 
 1. Always use [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) in all writing and legal documents because other formats [lead to online confusion](http://xkcd.com/1179/). Use `yyyy-mm-dd`, for example 2020-04-13, and never 04-13-2020, 13-04-2020, 2020/04/13, nor April 13, 2020. Even if you use an unambiguous alternative format, it is still harder to search for a date, sort on a date, and for other team members to know we use the ISO standard. For months use `yyyy-mm`, so 2020-01 for January 2020.
-
+1. Prefix the year with `FY` (e.g., `FY20` for fiscal year 2020) when referring to fiscal year, which starts on February 1 and ends January 31. {#fiscal-year} We use this instead of calendar years (`CY`) because Q4 ending during the December holidays makes the quarters less even and predictable.
+  - FY__ is fiscal year 20__ (e.g., `FY20` is fiscal year 2020, which means 2020-02-01 through 2021-01-31)
+  - FY__-Q1 (e.g., `FY20-Q1`) is February 1 through April 30
+  - FY__-Q2 is May 1 through July 31
+  - FY__-Q3 is August 1 through October 31
+  - FY__-Q4 is November 1 through January 31
