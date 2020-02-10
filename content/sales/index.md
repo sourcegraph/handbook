@@ -5,12 +5,9 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Pricing](https://about.sourcegraph.com/pricing)
 - [Common questions from prospective customers](common_customer_questions.md)
 - [Sales team onboarding](onboarding/index.md)
-<<<<<<< HEAD
 - [Sales interviews](interviews/index.md)
 - [Recording lead and customer emails, calls, and notes](records.md)
-=======
 - [Creating and maintaining license keys for customers](license_keys.md)
->>>>>>> Update license key instructions
 
 ## Pipeline and models
 
@@ -163,8 +160,4 @@ Categorize any outbound emails into the ‘Manual Outbound Workflow’, which se
 
 Maintaining [Server Installers to Company List](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit?usp=sharing) and [Server to Company List](https://docs.google.com/spreadsheets/d/1wo_KQIcGrNGCWYKa6iHJ7MImJ_aI7GN12E-T21Es8TU/edit?usp=sharing) spreadsheets for every new company on a trial and new customers.
 
-<<<<<<< HEAD
 These are used as join tables in Looker, and are important to connect instance data to a specific customer.
-=======
-These are used as join tables in Looker, and are important to connect instance data to a specific customer.  
->>>>>>> How to create a license key
