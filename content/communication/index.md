@@ -22,7 +22,7 @@ These places are the source of truth for information at Sourcegraph. Information
 
 The following places are not sources of truth. Treat documents and conversations in these places as "scratchpads" or documents that were true at creation time but aren't expected to be up-to-date. Any decisions or changes resulting from these places need to be reflected in a [source of truth](#sources-of-truth):
 
-- [Slack](#slack)
+- [Slack](team_chat.md)
 - [RFCs](rfcs/index.md)
 - Email
 - Zoom recordings
@@ -68,24 +68,6 @@ Deprecate a Google Doc when its content is added to the handbook, blog, or docum
 1. Delete all doc content, and replace it with `See <URL to new content location>.`.
 
 See [example of deprecated Google Doc](https://docs.google.com/document/d/1M22s-WDY9lp_JOitfv48cZNjtv4x6IJVKhlHZOAIlLM/edit#heading=h.23jju0ooahdb).
-
-## Slack
-
-We use Slack for team chat, which means ephemeral conversations. To enforce this, only 90 days of Slack activity in public channels is retained. Any important decisions or changes need to be reflected in the [source of truth](#sources-of-truth).
-
-- [Common channels](team_chat.md)
-- [Historical archive of Slack messages prior to 2019-11-09](https://drive.google.com/file/d/1FUbOEsMM4fWRpxymgNHZCAssOPEFDelJ/view?usp=sharing): unzip and open `sourcegraph-slack-archive-to-20191109/index.html` to view. If you consult this, please be sure to add whatever information you learn to a source of truth so we reduce our reliance on this archive.
-
-### Avoid private messages
-
-1. When using Slack for work-related purposes, avoid private messages. [Private messages discourage collaboration](https://blog.flowdock.com/2014/04/30/beware-of-private-conversations/). You might actually be contacting the wrong person, and they cannot easily redirect you to the right person. If the person is unavailable at the moment, it is less efficient because other people can't jump in and help. Use a public channel and mention the person or group you want to reach. This ensures it is easy for other people to chime in, involve other people if needed, and learn from whatever is discussed.
-1. If someone sends you a work-related private message, it is OK to let them know you'd like to take the conversation to a public channel, linking to this section of the handbook. The process might look something like:
-
-- In the private message: <code>Thanks for reaching out. That's a great question/idea that I think the rest of the team could benefit from. I'm going to move this to #public-channel based on [our desire to avoid private messages](#avoid-private-messages).</code>
-- In the appropriate public channel: `@person asked "question" in a DM, pulling that out here if anyone else has input.`
-- Answer the question in a thread on that channel message, allowing others to benefit.
-
-1. If you must send a work-related private message, [don't start a conversation with "Hi" or "Hey"](http://www.nohello.com/) because that interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously. If you truly need to have a synchronous communication, then start by asking for that explicitly, while mentioning the subject. For example: "I'm having trouble understanding issue XYZ. Can we talk about it quickly?".
 
 ## Video calls
 
