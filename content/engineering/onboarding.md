@@ -28,4 +28,4 @@ Welcome to Sourcegraph! This document will guide you through engineering specifi
 - Make yourself an admin on sourcegraph.com and sgdev.org by updating the database directly (this is not what a normal user would do, but doing it this way will expose you to useful knowledge). Relevant documentation:
   - [Our deployments](deployments.md)
   - [How do I access the Sourcegraph database?](https://docs.sourcegraph.com/admin/faq#how-do-i-access-the-sourcegraph-database)
-- Start working on the started tasks that your manager has assigned you.
+- Start working on the starter tasks that your manager has assigned you.
