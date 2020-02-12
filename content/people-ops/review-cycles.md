@@ -2,7 +2,7 @@
 
 ## Why we do review cycles
 
-The goal of these review cycles is to ensure that we’re providing every teammate the resources they need to continue to grow during their time at Sourcegraph, and review cycles offer a unique opportunity to give and receive valuable feedback from managers, direct reports, and peers. By having biannual 360 reviews, we aim to give everyone the feedback necessary to help them progress in their career and meet their professional goals.
+The goal of these review cycles is to ensure that we’re providing every teammate the resources they need to continue to grow during their time at Sourcegraph, and review cycles offer a unique opportunity to give and receive valuable feedback from managers, direct reports, and peers. By having semiannual 360 reviews, we aim to give everyone the feedback necessary to help them progress in their career and meet their professional goals.
 
 ## Review cycle overview
 
