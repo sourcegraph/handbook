@@ -152,6 +152,16 @@ For consistency, all examples should use the following names (as appropriate).
 - Prefer "call site" (not "callsite")
 - Prefer "tooltips" (not "tool-tips")
 
+### Currency
+
+Use shorthand suffixes for shortening numbers in the thousands ("k"), millions ("m"), billions ("b"), and above. Prefer lower case suffixes.
+
+- Good: "$100b"
+- Bad: "$100,000"
+- Bad: "$100B"
+- Bad: "$100Bn"
+- Bad: "$100 billion"
+
 ## Effectiveness over correctness
 
 This style guide isn't about "correct" and "incorrect" writing. It is about effective writing (for our target users). Of course, effectiveness involves correctness to some degree, but only correctness as judged by the audience, not as judged by an appeal to authority.
