@@ -58,7 +58,7 @@ Welcome to Sourcegraph! As a member of the sales team, you represent us and our 
   - HubSpot overview
   - Current customers and pipeline/goals overview
      - [Q4 model](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=665660264)
-     - [Past quarterly net new ARR](https://docs.google.com/presentation/d/1I2nhK_2uz0o8jiBqajzdTPHcy9Hnl9n1LROo1ZlJW-Q/edit#slide=id.g41cb4d21db_0_0)
+     - [Past quarterly IARR](https://docs.google.com/presentation/d/1I2nhK_2uz0o8jiBqajzdTPHcy9Hnl9n1LROo1ZlJW-Q/edit#slide=id.g41cb4d21db_0_0)
   - Value props and pitches for various [personas](../../product/personas.md)
   - FAQ and common objections
 
