@@ -5,7 +5,6 @@ We want to make sure you have what you need to be productive and happy in your r
 - You are free to purchase these items and expense them without asking permission as long as it's in the interest of the company. When in doubt, please contact @sourcegraph/people-ops for clarification before the purchase.
 - You likely won't need every single item on this list—please use your best judgment and buy when you need them. Remember, Sourcegraph doesn't have unlimited funds—spend this money as if it was your own.
   - For example, if you intend to work out of a coworking space most of the time, you may not need a fully equipped home office as well.
-- If you spend more than $1,000 on any given item, it will be considered property of the company.
 - We have an "all-in" total budget of $1000 for desk setup, which includes all the items in the "Desk set-up expenses" section (with the exception of laptops). If you expect to significantly exceed the listed amount on any purchase, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
 - Laptops and laptop insurance are fully reimbursable outside of the $1000 "all-in" budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
 - If you spend more than $1,000 on any given physical item, it will be considered property of the company.
