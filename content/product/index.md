@@ -37,6 +37,7 @@ There is no strict format for delivery plans. (This may change as we use them mo
 We anticipate most delivery plans will:
 
 - Have a series of steps that the developer can follow on their own without blocking on any other team member (e.g., sales or distribution). Usually this will be an email or Slack message to send to 1 or 2 specific customers with docs links, screenshots, and/or example links.
+  - Have clear ownership for each step (usually a single developer or group of developers)
 - Have hypotheses to help us learn more quickly. There are 2 kinds of hypotheses. These help us learn quickly if we've misjudged the importance or ease of a feature.
   - Example hypothesis 1: Testing whether a feature is actually important to a customer. The hypothesis is of the form `Within X days, Alice ____` (e.g., "Within 3 days, Alice replies to the email and uses the feature").
   - Example hypothesis 2: Testing whether a feature works as expected. The hypothesis is of the form `Alice is able to ____` (e.g., "Alice is able to perform an interactive-mode search").
