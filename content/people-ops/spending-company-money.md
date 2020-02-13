@@ -1,25 +1,22 @@
 # Spending company money
 
-We want to make sure you have what you need to be productive and happy in your role at Sourcegraph, so we've come up with a few guidelines to help you when you have work-related expenses. Below you'll find a list of some typical purchases that would be reimbursed for, as well as a few things to keep in mind when expensing purchases:
+We want to make sure you have what you need to be productive and happy in your role at Sourcegraph, so we've come up with a few guidelines to help you when you have work-related expenses. Below you'll find a list of some typical purchases that you would be reimbursed for, as well as a few things to keep in mind when expensing purchases:
 
 - You are free to purchase these items and expense them without asking permission as long as it's in the interest of the company. When in doubt, please contact @sourcegraph/people-ops for clarification before the purchase.
 - You likely won't need every single item on this list—please use your best judgment and buy when you need them. Remember, Sourcegraph doesn't have unlimited funds—spend this money as if it was your own.
   - For example, if you intend to work out of a coworking space most of the time, you may not need a fully equipped home office as well.
+- If you spend more than $1,000 on any given item, it will be considered property of the company.
 - We have an "all-in" total budget of $1000 for desk setup, which includes all the items in the "Desk set-up expenses" section (with the exception of laptops). If you expect to significantly exceed the listed amount on any purchase, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
 - Laptops and laptop insurance are fully reimbursable outside of the $1000 "all-in" budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
 - If you spend more than $1,000 on any given physical item, it will be considered property of the company.
 
-## Desk set-up expenses
+### Full-time teammates
+- We have an "all-in" total budget of $1000 for desk setup, which includes all the items in the "Desk set-up" section. If you expect to significantly exceed the listed amount on any purchase, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
 
-**Laptop (engineers):**
+### Interns
+The budget for interns is $500 and includes only the electronic items in the "Desk set-up" section.
 
-- [16" MacBook Pro, 2.4 GHz (5 GHz turbo) 8‑core (upgrade), 32 GB (upgrade), 1 TB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-1tb-2.3ghz-8-core-processor#)
-- Any other laptop that is of equal or lesser value than the pre-approved laptop.
-
-**Laptop (non-engineers):** 
-
-- [13" MacBook Pro, 2.4 GHz 4-core, 8 GB, 256 GB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-256gb-2.4ghz-quad-core-processor-with-turbo-boost-up-to-4.1ghz#). If you need to update any specs, please reach out to @sourcegraph/people-ops's for approval. 
-- Any other laptop that is of equal or lesser value than the pre-approved laptop.
+## Desk set-up
 
 **Monitor**
 
@@ -38,6 +35,19 @@ We want to make sure you have what you need to be productive and happy in your r
 **Desk** 
 
 **Ergonomic chair**
+
+## Laptops
+Laptops and laptop insurance are fully reimbursable outside of the $1000 all-in budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
+
+**Laptop (engineers):**
+
+- [16" MacBook Pro, 2.4 GHz (5 GHz turbo) 8‑core (upgrade), 32 GB (upgrade), 1 TB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-1tb-2.3ghz-8-core-processor#)
+- Any other laptop that is of equal or lesser value than the pre-approved laptop.
+
+**Laptop (non-engineers):** 
+
+- [13" MacBook Pro, 2.4 GHz 4-core, 8 GB, 256 GB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-256gb-2.4ghz-quad-core-processor-with-turbo-boost-up-to-4.1ghz#). If you need to update any specs, please reach out to @sourcegraph/people-ops's for approval. 
+- Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 ## Recurring expenses
 
