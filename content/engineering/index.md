@@ -15,6 +15,7 @@
 - [Deployments](deployments.md)
 - [On-call](on_call/index.md)
 - [Prometheus](prometheus.md)
+- [Adding ping data](adding_ping_data.md)
 
 ## [Roles and responsibilities](roles.md)
 
