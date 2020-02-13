@@ -39,6 +39,8 @@ A customer is an organization with a Sourcegraph subscription contract that has 
 
 ## Stages
 
+See also the [MQL (marketing-qualified lead) definition](../marketing/index.md#mql).
+
 ### Prospect
 
 > ~5% probability of winning
@@ -58,14 +60,14 @@ The **Prospect** stage is for leads where **ALL** of the following are true:
 
 > ~10% probability of winning
 
-The **Lead** stage is for leads where **ALL** of the following are true:
+The **Lead** stage is for leads that are sales qualified (i.e., SQLs), which means **ALL** of the following are true:
 
 1. After vetting/qualifying, we have sufficient info to believe they may fit our criteria to be a customer, and Sales should continue to pursue.
    - Note that Sales is responsible for reviewing the prospects that come through our automated channels. If there are prospects you connect with yourself and believe they are a lead, please send an email to intro the contact to Sales.
 1. The potential deal size >= $22,800 ARR
    - Take their total # of developers company-wide and multiply it by $19, and then multiply it by 12 months
    - Rationale for the $19 is because it’s the lower number of our 2 pricing models and allows for a conservative ARR estimate, accounting for the customer potentially opting for the discounted plan
-      - As a rule of thumb, this equates to 100 developers in their company!
+      - As a rule of thumb, this equates to 100 developers in their company
       - As we wouldn’t yet have their exact developer figure at this point, we must take the best guess with the info provided online (LinkedIn), or from conversations with a Prospect
       - If they don’t meet this criteria, we could discuss internally on whether Sourcegraph would benefit from having this company as a customer (e.g., reputable logo, we want to support a non-profit org’s mission, we can partner with them in multiple ways, etc.).
 1. We *have* reached out to them requesting a call/meeting to introduce Sourcegraph’s offering, but the call/meeting has *not* occurred yet (i.e. it is still upcoming on the calendar, or they have not yet responded with agreement for the call/meeting).
