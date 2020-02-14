@@ -14,6 +14,7 @@ These places are the source of truth for information at Sourcegraph. Information
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
 - [Project roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
+- [productboard](https://sourcegraph.productboard.com/)
 - [HubSpot](https://app.hubspot.com)
 - [JIRA Service Desk](https://sourcegraph.atlassian.net/jira/servicedesk/projects/SG)
 - [Looker](http://sourcegraph.looker.com/)

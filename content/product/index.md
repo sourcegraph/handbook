@@ -74,6 +74,10 @@ When this feature is deployed to Sourcegraph.com, enable it in global settings. 
 
 We expect a reply in 3 days (or else we'll follow up nicely once). We expect Alice to ask David to upgrade sooner so they can try this out, and we expect Alice to use this within 2 days of it being available on their instance.
 
+## [Tracking user feedback](user_feedback.md)
+
+See "[Tracking user feedback](user_feedback.md)".
+
 ## Product planning is continuous
 
 See "[Planning](planning.md)".
