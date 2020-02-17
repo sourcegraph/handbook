@@ -1,20 +1,24 @@
 # People Ops
 
+## Team
+- [Teammate philosophy](teammate_philosophy.md)
+- [List of team members](../../company/team/index.md)
+
+## Teammate experience
+- [All-remote work](../../company/remote/index.md)
 - [Hiring](hiring.md)
 - [Onboarding](onboarding/index.md)
+- [Performance review cycles](review-cycles.md)
+- [Leaving](leaving.md)
+
+## Benefits
 - [Compensation](compensation.md)
 - [Benefits and perks](benefits-and-perks.md)
 - [Travel](travel.md)
+- [Covered expenses](spending-company-money.md) (aka "Spending company money")
 - [Expense reports](expenses.md)
-- [Spending company money](spending-company-money.md)
-- [Glossary](from-graphbook/glossary.md)
 - [Vacation/FTO](https://github.com/sourcegraph/Graphbook/blob/master/Holidays,%20FTO,%20and%20leaves%20of%20absence/Vacation%20and%20FTO.md)
 - [Holidays](holidays.md)
-- [All-remote work](../../company/remote/index.md)
-- [Teammate philosophy](teammate_philosophy.md)
-- [List of team members](../../company/team/index.md)
-- [Leaving](leaving.md)
-- [Review cycles](review-cycles.md)
 
 ## [Roles](roles.md)
 
