@@ -150,6 +150,13 @@ These example commands are for the `dot-com` cluster where the Sourcegraph appli
   </td>
 </tr>
 
+<tr>
+  <td>Get access to debug server locally.</td>
+  <td>
+	<code>kubectl port-forward $(kubectl get po --no-headers -l app=repo-updater | cut -d ' ' -f 1) 6060</code>
+  </td>
+</tr>
+
 </table>
 
 ## Backups
