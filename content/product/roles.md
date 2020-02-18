@@ -4,26 +4,31 @@ This page lists the roles and responsibilities of the Product team.
 
 ## Product Manager
 
-<!-- TODO(christinaforney): this was taken from the old docs -->
+[We're hiring!](https://github.com/sourcegraph/careers/blob/master/job-descriptions/product-manager.md)
 
-The product manager is responsible for prioritization, which means ensuring the following is true:
-
-> The issues for each release milestone are the most important things to work on.
-
-This is a broader sense of the term "prioritization" that means the product manager must do 3 things:
-
-- **Educate** teams so they can prioritize on their own.
-- **Plan** with each team the set of issues to work on for each release.
-- **Backstop:** triage unprioritized/misprioritized issues and file unfiled issues.
-
-The right mix of these 3 things depends on the team and what they're working on (and should be agreed on with the team). For example:
-
-- For some teams, the PM will educate and plan by meeting with the team once at the start of a release, and will have a very limited backstop role in between. The devs will be the first responders for triaging issues and will kick off the planning meeting with a well prioritized set of issues to work on.
-- For other teams, the PM will be the first to respond to and prioritize issues that are filed on the team.
-
-No matter the chosen mix, the PM is still responsible for prioritization. For example, if the PM doesn't effectively educate the devs so they can plan and triage well, then the PM needs to step up on planning and triage (as a backstop).
+You work with engineering, sales, marketing, and design to plan, ship, and grow usage and engagement in specific areas of our product. As an early member of our product team, you have significant product ownership and communicate directly with our users to drive continuous improvement.
 
 ### Responsibilities
 
-- TODO
+- Own an area of the product, and drive and inform its product roadmap.
+- Collaborate with engineers and designers to plan and build the solutions to customer problems.
+- Gather customer feedback to validate priorities, improve documentation, and define product requirements.
+- Be transparent in your internal and external communication. Sourcegraph is open source, so most discussions are public or in channels where you communicate directly with our customers.
 - Ensure our documentation is accurate and up-to-date for all features we ship.
+- Be a passionate advocate for a delightful user experience.
+
+## Product Designer
+
+[We're hiring!](https://github.com/sourcegraph/careers/blob/master/job-descriptions/ux-designer.md)
+
+You work collaboratively with product and engineering to create a highly functional and beautiful experience that delights a technical audience. You will help us build the design team and shape the design culture at Sourcegraph.
+
+### Responsibilities
+
+- Contribute to the overall strategy and decision-making about Sourcegraph’s features.
+- Drive continual progress towards a cohesive, delightful experience for a technical audience through iterative improvements.
+- Have the autonomy to facilitate conversations, solve problems, and execute the designs.
+- Pull together insights to propose a variety of solutions, then collaborate with product and engineering to determine the best solutions to problems.
+- Use prototyping and usability testing to inform and validate designs.
+- Collaborate directly with customers to inform strategy and design decisions.
+- Publish blog posts and give conference talks about your work at Sourcegraph.

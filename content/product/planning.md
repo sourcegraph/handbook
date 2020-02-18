@@ -43,8 +43,10 @@ Tracking issues are GitHub issues that encapsulate the planned work for an itera
 
 Teams should aggressively prioritize work for the iteration so that expectations can be set accordingly with users waiting for features or bug fixes. If work is carried over for multiple iterations it is an indication that the priority of that item is not actually as high as believed, or that the team is trying to do too many things in an iteration. Engineering can lean on Product for help with prioritization.
 
-## Prioritizing bug fixes and small tasks
+### [Delivery plans](delivery_plans.md)
 
-Bugs and issues from customers come up regularly and need to be prioritized. Many of these tasks are quick (< 1 day) and should be prioritized within the iteration. Larger tasks should be added to the project roadmap. Customer issues should include context about how important that customer is, and how important this particular issue is to the customer so that teams can effectively prioritize. The goal is not to have the engineering teams jump at every customer request, but to thoughtfully triage them when compared to the rest of the work they have slated. If there is any ambiguity in importance, the PM can be consulted to help make prioritization decisions.
+See [delivery plans](delivery_plans.md).
 
-Each team may decide how they would like to keep track of the backlog of issues, whether that is in a kanban board, google doc, etc. Similarly, teams can decide how they would like to allocate resources to this, whether it is having one person working down the backlog each week, or assigning a set of issues to be accomplished within an iteration.
+### [Prioritizing](prioritizing.md)
+
+See [prioritizing](prioritizing.md).
