@@ -45,11 +45,15 @@ We collect data from the following:
 
 Every underlying data source (not chart!) is assumed to always be up-to-date unless noted otherwise.
 
-* HubSpot data: Every week on Sunday night or Monday morning, BizOps triggers [scripts](https://github.com/sourcegraph/analytics/tree/master/HubSpot%20ETL) that retrieve data from HubSpot and upload it to BigQuery. This does mean that currently our HubSpot data in Looker is not updated during the week. If you have a particular reason you'd like it to be updated during the week, mention @ericbm in the #analytics channel in Slack. 
+#### HubSpot
+
+Every Sunday night or Monday morning, [BizOps scripts](https://github.com/sourcegraph/analytics/tree/master/HubSpot%20ETL) are triggered to retrieve data from HubSpot and upload it to BigQuery. As a result, HubSpot data in Looker is updated weekly, not daily.  If you need the latest data during the week, mention @ericbm in the #analytics channel in Slack.
+
+[Lead-generation](https://docs.google.com/spreadsheets/d/16S3xlcY7DmpcfKZYD-3VHUsaPLiYHyisu8cD_gZpv0Q/edit#gid=0) from HubSpot is triggered by Zapier and is always up-to-date. [Marketing operations](../marketing/marketing_operations.md#maintaining-data-pipelines) has more information on lead-gen events. 
 
 ## Using Looker
 
-[Looker](https://sourcegraph.looker.com/) is a self-service tool with many pre-built reports and visualizations. Read our instructions for [getting started with Lookr](#using-looker) and reach out in the #analytics Slack channel if you have any questions.
+[Looker](https://sourcegraph.looker.com/) is a self-service tool with many pre-built reports and visualizations. Read our instructions for [getting started with Looker](#using-looker) and reach out in the #analytics Slack channel if you have any questions.
 
 ### Sourcegraph quick links
 

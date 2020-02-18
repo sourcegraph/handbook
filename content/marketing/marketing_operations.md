@@ -26,3 +26,7 @@ The parameters that our HubSpot workflows support are `utm_campaign`, `utm_sourc
 | First source              | utm\_source              | stackoverflow         | Referring site                                                                                            |
 | First converting date     | utm\_date                | 2020\-01\-01          | Date at which the user submitted the form                                                                 |
 | gclid                     | gclid                    | TeSter\-123           | Google Click ID that syncs data between Google Ads and Analytics\. Only a contact’s first gclid is stored |
+
+## Maintaining data pipelines
+
+All major lead generation-related events (demo requests, webinars attended, created instances) are copied to a [Google Sheet](https://docs.google.com/spreadsheets/d/16S3xlcY7DmpcfKZYD-3VHUsaPLiYHyisu8cD_gZpv0Q/edit#gid=0) by way of Zapier. This requires all events to funnel to a [data pipeline HubSpot list](https://app.hubspot.com/contacts/2762526/lists?folderId=454) so the Zapier event can be triggered.
