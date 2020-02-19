@@ -94,6 +94,6 @@ Here is an answer that addresses all of these concerns. You can tailor it to add
 - Do you support negative regex look arounds?
 - Can Sourcegraph search within our code review comments?
 - Does Sourcegraph have a Slack integration for notifications from Saved Searches?
-- When should I expect Sourcegraph Automation to be available? Can I access the feature set today?
+- When should I expect Sourcegraph code change management campaigns to be available? Can I access the feature set today?
 - Why is Sourcegraph more expensive than GitHub Enterprise / Stack Overflow / Slack / Asana / JIRA licenses?
 - Can you break down your pricing fees for managed instances?

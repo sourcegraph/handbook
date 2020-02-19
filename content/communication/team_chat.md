@@ -58,7 +58,7 @@ We have many Slack channels. You don't have to join them all, but here is a good
 
 #### Engineering teams
 
-- #a8n - All things automation.
+- #campaigns - All things related to code change management campaigns.
 - #code-intel - All things code intelligence.
 - #core-services - Repository management, authentication, stability -- you name it.
 - #distribution - Everything from how Sourcegraph is packaged and delivered to customers, to ensuring it works well for them).

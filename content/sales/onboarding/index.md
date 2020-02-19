@@ -40,7 +40,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 - Read/watch
   - Entire [about.sourcegraph.com](https://about.sourcegraph.com) site
   - Sourcegraph [glossary](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/docs/glossary.md)
-  - [Videos of Automation](https://about.sourcegraph.com/product/automation), currently in private beta
+  - [Videos of campaigns](https://about.sourcegraph.com/product/code-change-management), currently in private beta
   - Case studies: [Yelp](https://engineeringblog.yelp.com/2019/11/winning-the-hackathon-with-sourcegraph.html), [Quantcast](https://about.sourcegraph.com/case-studies/quantcast/) and [Thorn](https://about.sourcegraph.com/case-studies/we-are-thorn/)
   - Latest Sourcegraph release blog post (on our [blog](https://about.sourcegraph.com/blog))
 
