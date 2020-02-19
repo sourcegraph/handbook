@@ -3,7 +3,9 @@
 The following information describes the planning and execution of a Sourcegraph webinar. 
 
 ## Webinar information
+
 All webinars will require the following details for planning:
+
 - Title
 - Date/Time
 - Short Description
@@ -14,7 +16,8 @@ All webinars will require the following details for planning:
 - Audience
 
 Sourcegraph uses these web applications for running a webinar:
-- Zoom 
+
+- Zoom:
   *  Manage registration landing page and attendance
   * Run and record the webinar
 - Hubspot
@@ -35,14 +38,18 @@ Sourcegraph uses these web applications for running a webinar:
  Post webinar | Send out thank you emails with link to recorded webinar 
 
 ### Zoom setup
+
 Create the webinar, configuring the following:
+
 - Set the schedule, host and details
 - Registration landing page form
 - Thanks for registering email which includes the webinar link
 
 ### Hubspot setup
+
 The following Hubspot emails will be created to promote the webinar:
-- Invitation which include the link to the Zoom registration landing page 
+
+- Invitation which includes the link to the Zoom registration landing page 
 - Reminder email T-3 day which includes the Zoom webinar link
 - Reminder email T-1 day which includes the Zoom webinar link
 - Reminder email T-1 hour which includes the Zoom webinar link
@@ -50,8 +57,9 @@ The following Hubspot emails will be created to promote the webinar:
 Since this is a [lead-generation activity](marketing_operations.md#maintaining-data-pipelines), we need to track it in our [HubSpot event log](https://docs.google.com/spreadsheets/d/16S3xlcY7DmpcfKZYD-3VHUsaPLiYHyisu8cD_gZpv0Q/edit?usp=drive_web&ouid=117507720010549543900). Add the HubSpot registration list to the `Webinar Registration` list and the attendees list to the `Webinar Attendee` list. Contact BizOps in the #marketing or #analytics channels. NOTE: This has not been implemented yet in HubSpot and Zapier yet.
 
 Post webinar, Sourcegraph will send followup emails:
+
 - Attendee thank you email with link to rewatch
-- Registered but an attendee email with link to watch
+- Registered, but non-attendee email with link to watch
 
 ### Hubspot webinar nomenclature
 
