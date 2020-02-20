@@ -71,6 +71,18 @@ Here is an answer that addresses all of these concerns. You can tailor it to add
 
 > [Sourcegraph is an application](../marketing/messaging.md#sourcegraph-is-an-a-application) that developers use primarily from their web browser for universal code search. It integrates with your existing repositories, code hosts, code review tools, editors, and other developer tools to give your developers a single place to discover and understand code and make large-scale changes. You can [set up Sourcegraph](https://docs.sourcegraph.com/#quickstart) and start seeing value in 5 minutes.
 
+## What's the difference between Sourcegraph and Elasticsearch?
+
+[Elastic](https://www.elastic.co/) is an enterprise software company that produces [Elasticsearch](https://www.elastic.co/elasticsearch), which is a low-level search engine that other applications can use to provide search functionality. Elasticsearch is not an end-user application; it must be integrated into another application. Because it has a generally good reputation for general-purpose search, many end-user applications that rely on Elasticsearch for search make that fact public (even though it's not necessary or common for applications to tell users all the other underlying technologies they use).
+
+The built-in (non-universal) code search functionality of many code hosts (including GitHub, GitLab, and Bitbucket Server) uses Elasticsearch under the hood.
+
+> Unlike Elasticsearch, Sourcegraph is a universal code search application that you can use directly. Sourcegraph connects directly to all of your code hosts, syncs and indexes repositories, and gives you an easy, powerful search and code navigation UI.
+>
+> Elasticsearch is not an end-user product. It's an underlying backend service that provides low-level indexing and query APIs to your own applications, but you need to build the UI, syncing, analysis, deployment, etc., yourself. It's also built for general purpose document search, not code search.
+>
+> We initially considered having Sourcegraph use Elasticsearch under the hood. But we decided to build our own search that is optimized for code, because code is a very special kind of data with meaningful structure, history, and (of course) punctuation and special characters that Elasticsearch was not built to handle.
+
 ## Needs answer
 
 - What’s the recommended resource provisioning on our end for optimal search performance at scale?
