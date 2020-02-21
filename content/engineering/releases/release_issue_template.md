@@ -14,6 +14,7 @@ Arguments:
 # $MAJOR.$MINOR Release ($RELEASE_DATE)
 
 **Note:** All `yarn run release ...` commands should be run from folder `dev/release`.
+**Note:** All `yarn run test ...` commands should be run from folder `web`.
 
 ## $FIVE_WORKING_DAYS_BEFORE_RELEASE (5 work days before release): Prep for branch cut
 
@@ -44,9 +45,12 @@ Arguments:
   yarn run release release-candidate:dev-announce $MAJOR.$MINOR.0-rc.1
   ```
 - [ ] Run regression tests:
+  - [ ] Follow [README.md](https://github.com/sourcegraph/sourcegraph/blob/master/web/src/regression/README.md) to set up your e2e environment. 
+        Run the tests from the `web` directory. A more complete set of env vars can be found in this
+        [1password](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/gm5dfflq6sfclmotneuayfdj5q) entry.
   - [ ] New Sourcegraph Docker container:
-    - Run the initializer: `E2E_INIT=true SOURCEGRAPH_BASE_URL=http://localhost:7080 yarn run test-regression -t 'Initialize new Sourcegraph instance'`
-    - Run the regression test suite: `SOURCEGRAPH_BASE_URL=http://localhost:7080 yarn run test-regression`
+    - Run the initializer: `E2E_INIT=true SOURCEGRAPH_BASE_URL=http://localhost:7080 yarn run test:regression -t 'Initialize new Sourcegraph instance'`
+    - Run the regression test suite: `SOURCEGRAPH_BASE_URL=http://localhost:7080 yarn run test:regression`
   - [ ] Upgrade from previous release:
     - Run the initializer on a Docker container running the last patch version of the previous major/minor release.
     - Upgrade and run the regression test suite.
