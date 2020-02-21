@@ -9,7 +9,7 @@ We receive tons of feature requests and bug reports, more than we can handle. Th
 - [Create a GitHub issue](https://github.com/sourcegraph/sourcegraph/issues/new/choose).
   - Include as much detail as possible about the issue.
   - Provide context around urgency and priority.
-  - Link to the customer (if applicable) in HubSpot.
+  - Link to the customer (if applicable) in HubSpot (see [below](#customer-requests)).
   - Add the team label on the issue for the team that should be responsible for it.
 - Share with the team in any of the following ways:
   - Post link to the issue in Slack and ask the team to prioritize the issue in the next team sync (or let them know it is a P0 that should be handled immediately).
@@ -21,3 +21,15 @@ We receive tons of feature requests and bug reports, more than we can handle. Th
 Bugs and issues from customers come up regularly and need to be prioritized. Many of these tasks are quick (< 1 day) and should be prioritized within the iteration. Larger tasks should be added to the project roadmap. Customer issues should include context about how important that customer is, and how important this particular issue is to the customer so that teams can effectively prioritize. The goal is not to have the engineering teams jump at every customer request, but to thoughtfully triage them when compared to the rest of the work they have slated. If there is any ambiguity in importance, the PM can be consulted to help make prioritization decisions.
 
 Each team may decide how they would like to keep track of the backlog of issues, whether that is in a kanban board, google doc, etc. Similarly, teams can decide how they would like to allocate resources to this, whether it is having one person working down the backlog each week, or assigning a set of issues to be accomplished within an iteration.
+
+## Customer requests
+
+Customer issues should reference the link to the company in HubSpot. **Note that the URL should never be hidden in a markdown link (such as `[company name](https://app.hubspot.com/contacts/XXXXXXX/company/XXXXXXX)`) as GitHub issue search doesn't search the full markdown, only the rendered text.**
+
+Please make sure the URL looks like `https://app.hubspot.com/contacts/XXXXXXX/**company**/XXXXXXX`. If the link ends in `/**deal**/XXXXXXX` or `/**ticket**/XXXXXXX` searches for the company's id won't return the comprehensive set of issues.
+
+### Finding all requests from a given customer
+
+Visit the company's page on HubSpot, copy the unique identifier at the end of the URL, and search in GitHub. All issues filed on behalf of the company will appear.
+
+> NOTE: Pro tip: use the [HubSpot Sourcegraph extension](https://sourcegraph.com/extensions/sourcegraph/hubspot) for autocompleting names and adding customer names to your view!
