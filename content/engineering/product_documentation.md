@@ -1,6 +1,8 @@
-# Sourcegraph documentation guidelines
+# Product documentation
 
-## Contributing to documentation
+These guidelines are for contributing documentation to the [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/doc). See [editing the handbook](../editing.md) for how to contribute handbook content.
+
+## Contributing
 
 Whenever a feature is changed, updated, introduced, or deprecated, the pull request introducing these changes must be accompanied by the documentation (either updating existing ones or creating new ones).
 

@@ -7,6 +7,7 @@
 - [Code reviews](code_reviews.md)
 - [Go style guide](go_style_guide.md)
 - [Testing](testing.md)
+- [Product documentation](product_documentation.md)
 - [Continuous releasability](continuous_releasability.md)
 - [Commit message guidelines](commit_messages.md)
 - [Incidents](incidents.md)
