@@ -162,3 +162,25 @@ These example commands are for the `dot-com` cluster where the Sourcegraph appli
 ## Backups
 
 Snapshots of all Kubernetes resources are taken periodically and pushed to https://github.com/sourcegraph/kube-backup/.
+
+## Building Docker images for a specific branch
+
+If you need to build Docker images on Buildkite for testing purposes, e.g. you
+have a PR with a fix and want to deploy that fix to a test instance, you can
+push the branch to the special `docker-images-patch` and
+`docker-images-patch-notest` branches.
+
+Example: you want to build a new Docker image for `frontend` and `gitserver`
+based on the branch `my_fix`.
+
+```
+git push origin my_fix:docker-images-patch-notest/frontend
+git push origin my_fix:docker-images-patch-notest/gitserver
+```
+
+This will trigger two builds on Buildkite for these branches:
+
+* https://buildkite.com/sourcegraph/sourcegraph/builds?branch=docker-images-patch-notest%2Ffrontend
+* https://buildkite.com/sourcegraph/sourcegraph/builds?branch=docker-images-patch-notest%2Fgitserver
+
+And the end of the build you can find the name of the newly built Docker image.
