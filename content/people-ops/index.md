@@ -32,4 +32,4 @@ See job descriptions and responsibilities of roles on the People Ops team:
 
 **Address:** Covo Coworking: 981 Mission St, San Francisco, CA 94103
 
-**Phone Number:** (650) 318-3480
+**Phone Number:** (650) 273-5591
