@@ -43,7 +43,7 @@ Assume the reader is a busy non-native English speaker.
 - Sourcegraph: main product, prefer using this name unless you need to be more precise
   - Self-hosted Sourcegraph instance: only if clarification between the Sourcegraph.com instance, managed instances, and on-premises instances is required
   - Managed Sourcegraph instance: only if clarification between the Sourcegraph.com instance, self-hosted instances, and managed instances is required
-  - Sourcegraph.com: the public instance of Sourcegraph for open-source code at https://sourcegraph.com
+  - Sourcegraph.com: the public instance of Sourcegraph for open source code at https://sourcegraph.com
   - Sourcegraph integrations: the general term for our integrations
     - Sourcegraph['s] Phabricator integration
     - Sourcegraph['s] GitHub integration
@@ -51,7 +51,7 @@ Assume the reader is a busy non-native English speaker.
       - Sourcegraph['s] Chrome extension
       - Sourcegraph['s] Firefox add-on
 
-When referring to the build result of the open-source repository, use the name Sourcegraph OSS.
+When referring to the build result of the open source repository, use the name Sourcegraph OSS.
 
 You don't need to use the full name of the product each time you refer to it, but don't use a shortened name that could be confused with an official name. For example:
 
@@ -130,6 +130,7 @@ For consistency, all examples should use the following names (as appropriate).
 
 ### Specific terms in prose
 
+- Open source (not "open-source"), [favoring common usage](https://github.com/sourcegraph/about/issues/508#issuecomment-588600005) over grammatical correctness
 - Repository (not "repo")
 - Organization (not "org")
 - When referring to a user's assumed corporate entity or employer, prefer calling it an "[organization](../sales/index.md#organization)" (not "company" or "team")

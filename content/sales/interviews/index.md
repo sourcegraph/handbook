@@ -16,6 +16,6 @@
 - Do you do your own prospecting?
 - Do you currently or have you ever sold with a...
   - Free trial or a proof-of-concept?
-  - Freemium or open-source tier?
+  - Freemium or open source tier?
 - Have you worked remotely?
 - If this ended up being the right fit on both sides, how soon would you be able to make a move?

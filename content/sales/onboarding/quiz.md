@@ -44,7 +44,7 @@ This quiz is not a high-stakes pass-or-fail test. Try your best, and when you re
 1. Does Sourcegraph respect repository permissions defined on the code host?
 1. Does Sourcegraph need access to my organization's code to work?
 1. Can a single developer in an organization set up Sourcegraph, or do they usually need approval from their manager and/or legal?
-1. What is the difference between the open-source version of Sourcegraph and the paid tiers of Sourcegraph?
+1. What is the difference between the open source version of Sourcegraph and the paid tiers of Sourcegraph?
 1. At what point do organizations need to start paying to use Sourcegraph?
 1. What is the difference between Sourcegraph.com and self-managed instances of Sourcegraph?
 1. Can an organization use Sourcegraph.com with their private code?

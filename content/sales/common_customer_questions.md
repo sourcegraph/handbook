@@ -35,9 +35,9 @@ Here is a strategy for handling this question live (for simplicity, this assumes
 
 > Yes, see repository permissions documentation (https://docs.sourcegraph.com/admin/repo/permissions).
 
-## Why should I pay for Sourcegraph and not just use the open-source version?
+## Why should I pay for Sourcegraph and not just use the open source version?
 
-Here's a comprehensive answer that you can trim down based on the prospective customer's specific needs. It assumes that their developers are already using Sourcegraph internally because it's extremely rare that organizations begin by using the open-source version (this question usually comes up at the end of a trial).
+Here's a comprehensive answer that you can trim down based on the prospective customer's specific needs. It assumes that their developers are already using Sourcegraph internally because it's extremely rare that organizations begin by using the open source version (this question usually comes up at the end of a trial).
 
 > You're using Sourcegraph to accelerate your organization's software development. Based on the usage levels and survey results you've shared with us, Sourcegraph is living up to that promise. That means your developers are frequently going to Sourcegraph to understand your organization's code, fix critical problems, and make large-scale refactors.
 >
@@ -49,7 +49,7 @@ Here's a comprehensive answer that you can trim down based on the prospective cu
 > - Single sign-on (SSO) user authentication (see [docs](https://docs.sourcegraph.com/admin/auth)). This makes it so all of your developers can easily and securely access Sourcegraph with central account provisioning (e.g., ensuring you don't forget to deactivate someone's Sourcegraph account when they are no longer employed).
 > - High-scale and high-availability cluster deployment (see [docs](https://docs.sourcegraph.com/admin/install/cluster)).
 > - Technical support. Your developers already rely on Sourcegraph, and a day of reduced productivity if Sourcegraph goes down costs you far more than the price of the paid tiers.
-> - Ease and security of official builds. If you run the open-source version of Sourcegraph, you'll need to build the Docker images on your own, which requires writing and maintaining your own build scripts and tracking our release calendar. Using the official builds saves you the hassle and ensures you'll have regular updates available (and immediate updates when a critical security issue is discovered in Sourcegraph or any other related infrastructure, such as OpenSSL or PostgreSQL).
+> - Ease and security of official builds. If you run the open source version of Sourcegraph, you'll need to build the Docker images on your own, which requires writing and maintaining your own build scripts and tracking our release calendar. Using the official builds saves you the hassle and ensures you'll have regular updates available (and immediate updates when a critical security issue is discovered in Sourcegraph or any other related infrastructure, such as OpenSSL or PostgreSQL).
 
 ## How hard is it to set up and maintain Sourcegraph in my organization?
 
