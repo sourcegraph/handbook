@@ -88,6 +88,62 @@ The other clusters are deployed and rolled back in the same way as sourcegraph.c
 	```
 	kubectl get pods --all-namespaces
 	```
+ 
+ ## How to start a test cluster in our "Sourcegraph Auxiliary' project on GCP
+ 
+- Go to [Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server)
+- Click create a cluster.
+- Give it a name (a good convention is to prefix with your username).
+- Keep the defaults zonal and us-central1.
+- Set the default pool to 3 nodes.
+- Change machine type to n1-standard-16.
+- Click "Create Cluster".
+- When cluster is ready, click connect and copy/paste the command and execute it (it looks something 
+  like `gcloud container clusters get-credentials ....`). Now kubectl is acting on this cluster.
+- Give yourself admin superpowers by executing: 
+
+```shell
+kubectl create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gcloud config get-value account)
+```
+
+- Add a storage class by saving these contents
+
+```yaml
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: sourcegraph
+  labels:
+    deploy: sourcegraph-storage
+provisioner: kubernetes.io/gce-pd
+parameters:
+  type: pd-ssd # This configures SSDs (recommended).
+```
+into a file 'sourcegraph.Storageclass.yaml' and executing
+
+```shell script
+kubectl apply -f sourcegraph.Storageclass.yaml
+```
+
+- cd to your clone of [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph) and follow the remaining
+steps of the [installation](https://github.com/sourcegraph/deploy-sourcegraph/blob/master/docs/install.md).
+
+```shell script
+./kubectl-apply-all.sh
+```
+
+> Recommendation: [k9s](https://github.com/derailed/k9s) is a nice command-line GUI tool for common kubectl operations.
+> It shows the state of your cluster and offers keyboard short-cuts for all the common kubectl commands.
+
+- Once all the pods are running you can port-forward the frontend (or any other services you are interested in)
+
+```shell script
+kubectl port-forward svc/sourcegraph-frontend 3080:30080 
+```  
+
+Please delete your test cluster when you are done testing by going to
+[Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server) and pressing the
+appropriate delete button.
 
 ## kubectl cheatsheet
 
