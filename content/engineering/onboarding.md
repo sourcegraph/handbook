@@ -5,7 +5,8 @@ Welcome to Sourcegraph! This document will guide you through engineering specifi
 ## Manager checklist
 
 - Grant access to necessary services.
-  - [Sourcegraph organization on GitHub](https://github.com/sourcegraph/people)
+  - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
+  - [LSIF organization on GitHub](https://github.com/orgs/lsif/people) (optional; recommended for Code Intelligence team members)
   - [Buildkite](https://buildkite.com/organizations/sourcegraph/users/new)
   - Google Cloud Platform ([prod](https://console.cloud.google.com/iam-admin/iam?project=sourcegraph-dev), [test](https://console.cloud.google.com/iam-admin/iam?project=sourcegraph-server))
   - [Opsgenie](https://sourcegraph.app.opsgenie.com/settings/users/)
