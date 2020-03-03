@@ -31,7 +31,9 @@ You will be asked the following questions:
 4. Open a PR to change [the schema](https://github.com/sourcegraph/analytics/tree/master/BigQuery%20Schemas) with Business Operations (EricB and Dan) as approvers. Keep in mind:
 	- Check the data types sent in the JSON match up with the BigQuery schema (e.g. a JSON '1' will not match up with a BigQuery integer). 
 	- Every field in the BigQuery schema should not be non-nullable (i.e. `"mode": "NULLABLE"` and `"mode": "REPEATED"` are acceptable). There will be instances on the older Sourcegraph versions that will not be sending new data fields, and this will cause pings to fail.
-
+5. Test the new schema
+ 	- Delete the [test table](https://bigquery.cloud.google.com/table/telligentsourcegraph:sourcegraph_analytics.update_checks_test?pli=1) (`$DATASET.$TABLE_test`) and create a new table, with the same name so it doesn't break Pub/Sub, with the update schema (commands are below). 
+	- [Publish a message](https://console.cloud.google.com/cloudpubsub/topic/detail/server-update-checks-test?project=telligentsourcegraph) to Pub/Sub, which will go through [Dataflow](https://console.cloud.google.com/dataflow/jobs/us-central1/2020-02-28_09_44_54-15810172927534693373?project=telligentsourcegraph&organizationId=1006954638239) to the BigQuery test table. Make a query to the target table to see if it worked. There may be a short period after the schema change that causes a message to dead-letter, so it may be helpful to also check the [error records table](https://bigquery.cloud.google.com/table/telligentsourcegraph:sourcegraph_analytics.update_checks_test_error_records?pli=1).
 
 ## Changing the BigQuery schema
 
@@ -42,4 +44,3 @@ Commands:
 To update the schema: 
 1. Run the update schema command on a test table.
 2. Once the test is complete, run the update schema command on the production table. 
-
