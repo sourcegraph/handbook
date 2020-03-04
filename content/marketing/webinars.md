@@ -17,11 +17,12 @@ All webinars will require the following details for planning:
 
 Sourcegraph uses these web applications for running a webinar:
 
-- Zoom:
-  *  Manage registration landing page and attendance
+- GotoWebinar:
+  * Manage registration and attendance
+  * Invitation email and reminders with webinar link and details
   * Run and record the webinar
 - Hubspot
-  * Send out email invitations and reminders
+  * Set up landing page for registration
   * Manage invitation lists and store registration/attendance activities
 
 ## Webinar planning tasks
@@ -37,7 +38,7 @@ Sourcegraph uses these web applications for running a webinar:
  30 minutes | Final soundcheck 
  Post webinar | Send out thank you emails with link to recorded webinar 
 
-### Zoom setup
+### GotoWebinar setup
 
 Create the webinar, configuring the following:
 
