@@ -89,7 +89,7 @@ The other clusters are deployed and rolled back in the same way as sourcegraph.c
 	kubectl get pods --all-namespaces
 	```
  
- ## How to start a test cluster in our "Sourcegraph Auxiliary' project on GCP
+## How to start a test cluster in our "Sourcegraph Auxiliary' project on GCP
  
 - Go to [Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server)
 - Click create a cluster.
@@ -121,14 +121,14 @@ parameters:
 ```
 into a file 'sourcegraph.Storageclass.yaml' and executing
 
-```shell script
+```shell
 kubectl apply -f sourcegraph.Storageclass.yaml
 ```
 
 - cd to your clone of [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph) and follow the remaining
 steps of the [installation](https://github.com/sourcegraph/deploy-sourcegraph/blob/master/docs/install.md).
 
-```shell script
+```shell
 ./kubectl-apply-all.sh
 ```
 
@@ -137,7 +137,7 @@ steps of the [installation](https://github.com/sourcegraph/deploy-sourcegraph/bl
 
 - Once all the pods are running you can port-forward the frontend (or any other services you are interested in)
 
-```shell script
+```shell
 kubectl port-forward svc/sourcegraph-frontend 3080:30080 
 ```  
 
