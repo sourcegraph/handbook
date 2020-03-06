@@ -119,6 +119,7 @@ provisioner: kubernetes.io/gce-pd
 parameters:
   type: pd-ssd # This configures SSDs (recommended).
 ```
+
 into a file 'sourcegraph.Storageclass.yaml' and executing
 
 ```shell
@@ -139,7 +140,7 @@ steps of the [installation](https://github.com/sourcegraph/deploy-sourcegraph/bl
 
 ```shell
 kubectl port-forward svc/sourcegraph-frontend 3080:30080 
-```  
+```
 
 Please delete your test cluster when you are done testing by going to
 [Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server) and pressing the
