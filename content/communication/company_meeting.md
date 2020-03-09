@@ -15,8 +15,9 @@
 1. Birthdays/anniversaries
 1. "Developers!"
 1. Inspiration of the week (message @dan to volunteer to present an inspiration)
-1. Hiring
 1. Sales and marketing
+1. People Ops
+1. Hiring
 1. Product and development updates
   - Each engineering team owns a slide that _summarizes_ relevant progress  in the last week to the rest of the company.
     - The engineering manager for each team is ultimately responsible for their team's slide, but they may delegate this responsibility to other teammates on any given week.
