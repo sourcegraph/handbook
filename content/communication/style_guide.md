@@ -148,7 +148,7 @@ For consistency, all examples should use the following names (as appropriate).
 - macOS (not any of: OS X, OSX, MacOS, MacOSX, etc.)
 - Capitalize as shown (in prose): Docker, Bitbucket, GitLab, GitHub, React, Git, JavaScript, TypeScript (all according to the intent of the creator)
 - Prefer "go to definition" (not "jump to definition", "jump-to-def", or "j2d")
-- Prefer regexp ("not regex" or "regular expressions")
+- Prefer regexp (not "regex" or "regular expressions")
 - Prefer "code host" (not "codehost")
 - Prefer "call site" (not "callsite")
 - Prefer "tooltips" (not "tool-tips")
