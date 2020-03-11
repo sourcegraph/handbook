@@ -7,6 +7,7 @@
 - [Developer relations](developer-relations/index.md)
 - [Marketing operations](marketing_operations.md)
 - [Webinars](webinars.md)
+- [Editing blog posts](editing_blog_posts.md)
 
 ## Team communication
 
