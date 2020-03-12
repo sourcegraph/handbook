@@ -38,6 +38,7 @@ A marketing qualified lead (MQL) is any of:
 
 - A person who fills out a demo request form
 - A person who fills out a free trial form
+- A person who registers for a Sourcegraph event (including online events)
 - A person who fills out a form requesting to speak with a Sourcegraph representative
 - A person who sets up a new Sourcegraph instance
 
