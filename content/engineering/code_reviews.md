@@ -27,6 +27,15 @@ For the team:
 - Code reviews increase the overall consistency of our codebase by spreading knowledge of best practices and eliminating anti-patterns.
 - Code reviews distribute domain expertise, code knowledge, and ownership across the team so development can continue when people are unavailable (e.g. vacation).
 
+## Review cycles
+
+Once a change is ready for review it may go through a few review cycles, in general it'll look something like this:
+
+1. Ready for review
+1. Reviewers leave feedback
+1. Author addresses feedback, ensuring they have marked each comment as resolved. This can be relaxed if a comment was just a suggestion or a small nit. The goal is to communicate to the reviewer what has changed since they last reviewed.
+1. Author leaves a comment letting the reviewers know it is ready for another pass. Back to step 1.
+
 ## When is a code review not required?
 
 We do not technically prevent PRs from being merged before being explicitly approved because there exist PRs that are appropriate to merge without waiting for a review.
