@@ -28,7 +28,7 @@ We collect data from the following:
 
 * Google Analytics: Website analytics for Sourcegraph marketing and docs pages (not Sourcegraph.com)
 * HubSpot: Marketing automation and CRM
-* Apollo: Email marketing automation
+* MixMax: Email marketing automation (Apollo is not used in production, but still retains data)
 * Sourcegraph.com Site-admin pages: customer subscriptions and license keys
 * [Pings](https://docs.sourcegraph.com/admin/pings) from self-hosted Sourcegraph instances containing anonymous and aggregated information
 * [Custom tool to track events](https://github.com/sourcegraph/sourcegraph/issues/5486) on the Sourcegraph.com instance
