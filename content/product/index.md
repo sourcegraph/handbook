@@ -17,6 +17,7 @@ See job descriptions and responsibilities of roles on the Product team:
 
 - The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
 - [Personas](personas.md)
+- [Looker dashboard](https://sourcegraph.looker.com/browse/boards/5)
 
 ## Product planning
 

@@ -7,6 +7,7 @@
 - [Developer relations](developer-relations/index.md)
 - [Marketing operations](marketing_operations.md)
 - [Webinars](webinars.md)
+- [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
 - [Editing blog posts](editing_blog_posts.md)
 
 ## Team communication
