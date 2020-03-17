@@ -43,4 +43,9 @@ Commands:
 
 To update the schema: 
 1. Run the update schema command on a test table.
-2. Once the test is complete, run the update schema command on the production table. 
+2. Once the test is complete, run the update schema command on the production table.
+
+## Changing the BigQuery scheduled queries
+
+Part 1: Add the fields you'd like to bring into BigQuery/Looker to the [instances scheduled queries 1 and 2](https://bigquery.cloud.google.com/scheduledqueries/telligentsourcegraph). 
+Part 2: If day-over-day (or similar) data is necessary, create a new table/scheduled query. For example, daily active users needs a [separate table](https://bigquery.cloud.google.com/table/telligentsourcegraph:sourcegraph_analytics.server_daily_usage) and [scheduled query](https://bigquery.cloud.google.com/scheduledqueries/telligentsourcegraph/location/us/runs/5c51773a-0000-2fc8-bf1f-089e08266748).
