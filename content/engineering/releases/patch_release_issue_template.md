@@ -12,7 +12,10 @@ Arguments:
 
 **Attention developers:** Add pending changes to this checklist, cherry-pick the relevant commits onto branch `$MAJOR.$MINOR`. **Only check off items if the relevant PR/commits have been cherry-picked into the branch**:
 
-- [ ] TODO: Add PR or commit links here
+- [ ] TODO: Add PR or commit links here.
+    ```
+    git log v$MAJOR.$MINOR.$(($PATCH-1))...$MAJOR.$MINOR --pretty=format:'- %H %s'
+    ```
 
 ## Release sourcegraph/server
 
