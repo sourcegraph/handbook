@@ -23,7 +23,7 @@ This process helps each teammate reflect and plan each week proactively and enab
 
 Appropriate times to write this check-in are end of day on Friday or beginning of day on Monday.
 
-Here's an example of a [good weekly check-in](https://github.com/sourcegraph/sourcegraph/issues/7190#issuecomment-573564817).
+Here's an example of a [good weekly check-in](https://github.com/sourcegraph/sourcegraph/issues/7190#issuecomment-573564817). A benefit of weekly check-ins is they make writing your performance self-review easier. Be brief and focus on the high level. Be more detailed when there is interesting information on wins/progress (eg a graph of performance being improved). Avoid status updates which are just commit logs.
 
 ### Monthly planning
 
