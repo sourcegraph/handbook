@@ -25,6 +25,10 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
   - [Direction](../direction/index.md)
   - [Personas](product/personas.md)
 
+## Design
+
+- [Design](design/index.md)
+
 ## Engineering
 
 - [Engineering](engineering/index.md)
