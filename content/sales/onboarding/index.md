@@ -77,6 +77,8 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 
 ## Week 2
 
+- Mock calls
+  - Schedule internal mock calls to practice discovery questiions and use cases
 - Checkpoint
   - Complete a 5-minute live product demo
 
