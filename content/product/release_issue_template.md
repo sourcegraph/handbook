@@ -1,12 +1,8 @@
 <!--
-This template is used for tracking developer relations activities for our monthly major/minor release of Sourcegraph.
+This template is used for tracking blog post activities for our monthly major/minor release of Sourcegraph.
 -->
 
-# MAJOR.MINOR Release: DevRel tasks
-
-<!-- 
-  Once created, link the blog post pull request, email, and tweet for this release.
--->
+# MAJOR.MINOR Release: Release blog post tasks
 
 - [ ] [Release blog post](#)
 - [ ] [Release email](#)
@@ -16,11 +12,10 @@ This template is used for tracking developer relations activities for our monthl
 
 - [ ] Create draft blog post Google doc in [Sourcegraph shared](https://drive.google.com/drive/u/0/folders/0B3lEU2lM-l9gUk5sNmRSMVFHVFU)
   - [ ] View each [team's release deliverables](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+milestone%3A{MAJOR}.{MINOR}+label%3Aroadmap) to generate the outline of the blog post
-  - [ ] Share link to blog post doc in #progress Slack channel, asking Team leads to review
-
+  - [ ] Share link to blog post doc in #dev-chat Slack channel, asking Team leads to review
 - [ ] Create draft tweet
 - [ ] Create draft email
-- [ ] Link to the blog post, email and tweet <!-- empty links are the top of the issue template>
+- [ ] Link to the blog post, email and tweet
 
 ### Create calendar events
 
@@ -32,18 +27,21 @@ Add events to the shared Release Schedule calendar in Google and invite team@sou
 
 ## In the first week
 
-- [ ] Confirm with each team that the planned deliverables are still on track to be announced in the blog post.
 - [ ] Fill out each section based on the deliverables to first draft quality
 - [ ] Think about what media (e.g. screenshot, screencast) will accompany the section content
 
 ## In the second week
 
 - [ ] Remove `motd` previous release promotion from [Sourcegraph.com global settings](https://sourcegraph.com/site-admin/global-settings)
-- [ ] Post the blog post draft to #dev-announce: `The blog post draft for <VERSION> is ready, please review your parts are accurate and provide feedback by <DATE>: <link>
+- [ ] Confirm with each team that the planned deliverables are still on track to be announced in the blog post.
+
+## 10 working days before release
+
+- [ ] Post the blog post draft to #dev-announce: `The blog post draft for <VERSION> is ready, please review your parts are accurate and provide feedback by <DATE>: <link>`
 - [ ] Tweet written
 - [ ] Email written
-- [ ] Write a warning at the top of the Google doc: `The blog post has been finalized and moved to Markdown, further changes here will not be reflected. Contact @ryan-blunden for suggestions.`
-- [ ] Export blog post from Google docs to Markdown and create a new branch and draft pull request in [sourcegraph/about](https://github.com/sourcegraph/about/), using the [release blog post template](../../product/release_blog_post_template.md)
+- [ ] Write a warning at the top of the Google doc: `The blog post has been finalized and moved to Markdown, further changes here will not be reflected. Contact @christinaforney for suggestions.`
+- [ ] Export blog post from Google docs to Markdown and create a new branch and draft pull request in [sourcegraph/about](https://github.com/sourcegraph/about/), using the [release blog post template](./release_blog_post_template.md)
 - [ ] Send blog post, and email to [copy editor](https://docs.google.com/spreadsheets/d/1UUSSWrS8aKsLEg7M3Qdzw9s0GLJCI1eCrSJI06Qofb0/edit#gid=0_)
 
 ## 5 working days before release
@@ -63,7 +61,7 @@ Add events to the shared Release Schedule calendar in Google and invite team@sou
 - [ ] Publish blog post once the final release is cut, and docs version change is deployed
 - [ ] Publish tweet:
   - [ ] Pin new release tweet
-  - [ ] Confirm with Product if tweet will be promoted
+  - [ ] Confirm with Marketing if tweet will be promoted
 - [ ] Send email in HubSpot
 - [ ] Create new `notice` in [Sourcegraph.com global settings](https://sourcegraph.com/site-admin/global-settings)
    ```
