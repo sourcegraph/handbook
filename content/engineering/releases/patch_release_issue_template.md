@@ -14,12 +14,12 @@ Arguments:
 
 - [ ] TODO: Add PR or commit links here.
     ```
-    git log v$MAJOR.$MINOR.$(($PATCH-1))...$MAJOR.$MINOR --pretty=format:'- %H %s'
+    git log v$MAJOR.$MINOR.$(($PATCH-1))...$MAJOR.$MINOR --pretty=format:'- [ ] %H %s' --reverse
     ```
 
 ## Release sourcegraph/server
 
-- [ ] Push the branch `$MAJOR.$MINOR` with your cherry-picked commit(s) and make sure CI passes.
+- [ ] Push the branch [`$MAJOR.$MINOR`](https://github.com/sourcegraph/sourcegraph/tree/$MAJOR.$MINOR) with your cherry-picked commit(s) and make sure CI passes.
 - [ ] Push a release candidate tag:
     ```
     git checkout '$MAJOR.$MINOR'
@@ -31,12 +31,23 @@ Arguments:
     git tag -a 'v$MAJOR.$MINOR.$PATCH' -m 'v$MAJOR.$MINOR.$PATCH' && git push origin 'v$MAJOR.$MINOR.$PATCH'
     ```
 - [ ] Wait for the final Docker images to be available at https://hub.docker.com/r/sourcegraph/server/tags.
+- [ ] Run the old and new images at least three times to make sure it starts:
+    ```
+    # 1. Answer YES to delete /tmp/sourcegraph with the old image
+    IMAGE=sourcegraph/server:$MAJOR.$MINOR ./dev/run-server-image.sh
+    
+    # 2. Answer NO to delete /tmp/sourcegraph with the new image
+    IMAGE=sourcegraph/server:$MAJOR.$MINOR.$PATCH ./dev/run-server-image.sh
+    
+    # 3. Answer YES to delete /tmp/sourcegraph with the new image
+    IMAGE=sourcegraph/server:$MAJOR.$MINOR.$PATCH ./dev/run-server-image.sh
+    ```
 
 ## Release Kubernetes deployment
 
 In [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph):
 
-- [ ] Wait for Renovate to open a PR to update the image tags and merge that PR ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/199)).
+- [ ] Wait for Renovate to open a PR to update the image tags and merge that PR ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/199) and Renovate could merge it automatically).
 - [ ] Cherry-pick the image tag update commits from `master` onto `$MAJOR.$MINOR` branch. Then push the release tag:
     ```
     git checkout $MAJOR.$MINOR
