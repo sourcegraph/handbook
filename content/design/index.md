@@ -20,11 +20,11 @@ Our internal resources are open, and the design team will welcome any feedback. 
 
 As the procut design team is still small and not able to address every problem efficiently, we have tried to simplify Jakob Nielsen's 10 general principles for interaction design. These principles are often referenced, and by referencing them yourself you can make better user experience decisions.
 
-- Make sure the user is always appropriately informed.
-- Use familiar language.
-- Follow real-world conventions when ordering things.
-- Make sure exits are available.
-- Follow platform conventions, search online to check established UX patterns.
+- Make sure the user is always appropriately informed
+- Use familiar language
+- Follow real-world conventions when ordering things
+- Make sure exits are available
+- Follow platform conventions, search online to check established UX patterns
 
 If you would like to dig a little deeper [here is a link to the article](https://www.nngroup.com/articles/ten-usability-heuristics/), each section is accompanied by a short video and/or a more in depth article.
 
