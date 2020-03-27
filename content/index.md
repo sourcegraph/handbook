@@ -46,7 +46,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 - [Definitions](https://docs.google.com/document/d/1h6xQeGHpMrsUUJ63Q6KupUNzq1iOpZfZSMC6ta3pLiY/edit#heading=h.pt4ztk7qhub0)
 - [Developer relations](marketing/developer-relations/index.md)
 - [Marketing operations](marketing/marketing_operations.md)
-- [Webinars](marketing/webinars.md)
+- [Livestream events](marketing/livestream.md)
 - [Editing blog posts](marketing/editing_blog_posts.md)
 
 

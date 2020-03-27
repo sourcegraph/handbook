@@ -6,7 +6,7 @@
 - [Definitions](https://docs.google.com/document/d/1h6xQeGHpMrsUUJ63Q6KupUNzq1iOpZfZSMC6ta3pLiY/edit#heading=h.pt4ztk7qhub0)
 - [Developer relations](developer-relations/index.md)
 - [Marketing operations](marketing_operations.md)
-- [Webinars](webinars.md)
+- [Livstream events](livestream.md)
 - [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
 - [Editing blog posts](editing_blog_posts.md)
 
