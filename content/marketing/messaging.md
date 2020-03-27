@@ -78,8 +78,6 @@ Universal Code Search meets these requirements, and all users have to do is sear
 
 By solving some of the most pressing challenges in today’s fast-moving, intricately connected software organizations, Universal Code Search is the right technology for the era of Big Code.
 
--->
-
 ## Company overview
 
 Sourcegraph is a company that creates software to help every organization build software with the quality and efficiency of today's elite technology companies.
