@@ -47,7 +47,6 @@ The following places are not sources of truth. Treat documents and conversations
 - Join meetings early or on time.
 - End meetings on time.
 - Be patient for external folks who are running late to our meetings.
-
   - For customers, prospects, and users, wait on the line for at least 10 minutes (and send them a friendly reminder after 3-5 minutes).
 
 ## [1-1 meetings](../leadership/1-1.md)
