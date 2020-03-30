@@ -35,7 +35,7 @@ The following places are not sources of truth. Treat documents and conversations
 
 ### Internal meetings
 
-- Always start on time, even if some participants are late. (And try not to be late.) Latecomers can watch the Zoom recording.
+- Always start on time, even if some participants are late. (And try not to be late.) Latecomers can watch the Zoom recording to see what they missed.
   - Don't punish the people who arrived on time by waiting for people or repeating what was already said.
   - If the meeting's leader is not present at the precise start time (and hasn't proactively mentioned they are late), everyone should leave the call and switch to other work. This is a nudge to respect others' time and to not be late to meetings you lead.
 - Always end on time (or early).
