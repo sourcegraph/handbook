@@ -41,6 +41,25 @@ The following places are not sources of truth. Treat documents and conversations
 - Always end on time (or early).
   - If there's more to discuss, handle it asynchronously or schedule a new meeting with the appropriate participants.
   - A meeting that would run over is a nudge that the meeting's agenda or duration was wrong, or that the meeting was led ineffectively.
+- When creating the Google Calendar event:
+  - Add a [Zoom video call](#video-calls).
+  - Enable "Guest permissions: Modify event" so that other people can easily reschedule the meeting if needed.
+- Add a Google Doc link to the event description for taking notes during the meeting.
+  - If the meeting is recurring, use the same Google Doc for all meetings.
+
+#### Structured meetings
+
+You may try this approach for more effective meetings. The goals are to surface more topics to discuss (instead of just whatever topics people remember during the meeting) and spend more time on informed discussion (instead of conveying information, which is usually better done in writing).
+
+This assumes that currently the meeting has a Google Doc with notes that people sometimes write in advance and sometimes don't. This is better than nothing, but we can do even better.
+
+1. Everyone uses the first 5-15 minutes of the meeting to write down what they would like to communicate (e.g., updates on their progress, topics they would like to discuss, problems they've encountered, etc.). Then the rest is discussing and deciding in order.
+   - Use this for a few weeks, and then...
+1. Everyone writes down their items *before* the meeting. A topic that isn't written down can't be discussed. Spend the first 5 minutes of the meeting reading what other people wrote down, then discussing and deciding in order.
+   - Use this for a few weeks, and then...
+1. Everyone writes down their items by a certain time before the meeting (e.g., 12 hours before). Everyone reviews what other people wrote before the meeting starts. Only people who have commented on an item can make further comments on the topic during the discussion.
+
+> This idea is from [The Great CEO Within](https://www.amazon.com/Great-CEO-Within-Tactical-Building-ebook/dp/B07ZLGQZYC) (Chapter 12) by [@mattmochary](https://twitter.com/mattmochary).
 
 ### External meetings
 
@@ -55,10 +74,11 @@ See "[1-1 meetings](../leadership/1-1.md)".
 
 ## Google Docs
 
-We use Google Docs for:
-
-- [RFCs](rfcs/index.md)
-- Collaborative editing of ephemeral documents
+1. We use Google Docs for:
+   - [RFCs](rfcs/index.md)
+   - Collaborative editing of ephemeral documents
+1. The [Sourcegraph shared](https://drive.google.com/drive/u/0/folders/0B3lEU2lM-l9gUk5sNmRSMVFHVFU) folder on Google Drive is visible and editable by all Sourcegraph team members.
+   - To share a doc with team members, move it to this folder.
 
 ### Deprecating a Google Doc
 
@@ -76,6 +96,8 @@ If you need to deprecate just part of a Google Doc, replace the deprecated porti
 Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) for all video calls because it seems to have the best connectivity and compatibility.
 
 1. Google Calendar has a [Zoom plugin](https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle?hl=en-US) where you can easily add a Zoom link for a video call to the invite.
+1. Be sure to include the Zoom dial-in for team members who need to join by phone. (If you use the Zoom plugin linked above, this is automatic.)
+1. In your [Zoom settings](https://zoom.us/profile/setting), enable "Join before host". (It is enabled by default in our Zoom organization account, but you may have overridden it previously.) This lets the meeting get started even if you aren't there.
 1. Set Zoom meetings to be recorded to the cloud so that you and other teammates can refer back to them later.
    - If any participant doesn't feel comfortable with the meeting being recorded, it is fine to not record it.
 
