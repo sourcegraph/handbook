@@ -12,9 +12,8 @@ The Sales team represents us and our values to customers, bringing back dollars 
 ## Pipeline, data, and models
 
 - [All deals (HubSpot)](https://app.hubspot.com/contacts/2762526/deals/board/view/all/)
-- [Deals sheet](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=0)
-- [FY20-Q1 forecast](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1656440710)
-- [FY20 plan](https://docs.google.com/spreadsheets/d/1hOd5OSLv7_e-OHR-CwB478gycc1ioAMKximH9sH8oF4/edit#gid=1071026049)
+- [Transactions](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=0)
+- [FY20 plan](https://docs.google.com/spreadsheets/d/15FVyPrA9O3LtSwJ6mpbgyr7BWKJjWwUnWnw5lM7CItA/edit#gid=1071026049)
 - [Looker dashboard](https://sourcegraph.looker.com/browse/boards/2)
 
 ## How sales works with other Sourcegraph teams
