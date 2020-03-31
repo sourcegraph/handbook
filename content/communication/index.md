@@ -62,12 +62,14 @@ We use Google Docs for:
 
 ### Deprecating a Google Doc
 
-Deprecate a Google Doc when its content is added to the handbook, blog, or documentation (or other [source of truth](#sources-of-truth)). This lets people know to not consult, edit, or comment on it anymore.
+Deprecate a Google Doc when all of its content is added to the handbook, blog, or documentation (or other [source of truth](#sources-of-truth)). This lets people know to not consult, edit, or comment on it anymore.
 
 1. Rename the Google Doc to `DEPRECATED - <previous doc title>`.
 1. Delete all doc content, and replace it with `See <URL to new content location>.`.
 
 See [example of deprecated Google Doc](https://docs.google.com/document/d/1M22s-WDY9lp_JOitfv48cZNjtv4x6IJVKhlHZOAIlLM/edit#heading=h.23jju0ooahdb).
+
+If you need to deprecate just part of a Google Doc, replace the deprecated portion with `DEPRECATED: See <URL to new content location>`.
 
 ## Video calls
 
