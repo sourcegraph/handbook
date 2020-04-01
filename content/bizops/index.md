@@ -11,6 +11,7 @@ To reach us, mention @ericbm in the most relevant channel (i.e. #marketing for a
 ## Submitting a data request
 
 **Projects:** Proposals to capture and report on new data are in [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). Provide the following data to help us understand and prioritize your request:
+
 - What is the purpose of the visualization?
 - Will it be frequently used, or is it only needed sporadically?
 - How does it support Sourcegraph's company and team OKRs?
