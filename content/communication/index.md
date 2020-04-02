@@ -12,6 +12,7 @@ These places are the source of truth for information at Sourcegraph. Information
   - [about.sourcegraph.com](https://about.sourcegraph.com)
   - [Sourcegraph handbook](../index.md)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
+- [Decisions](decisions.md)
 - [Project roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [productboard](https://sourcegraph.productboard.com/)
@@ -21,7 +22,7 @@ These places are the source of truth for information at Sourcegraph. Information
 
 ### Scratchpads and ephemeral information (non-sources of truth)
 
-The following places are not sources of truth. Treat documents and conversations in these places as "scratchpads" or documents that were true at creation time but aren't expected to be up-to-date. Any decisions or changes resulting from these places need to be reflected in a [source of truth](#sources-of-truth):
+The following places are not sources of truth. Treat documents and conversations in these places as "scratchpads" or documents that were true at creation time but aren't expected to be up-to-date. Any changes resulting from these places need to be reflected in a [source of truth](#sources-of-truth):
 
 - [Slack](team_chat.md)
 - [RFCs](rfcs/index.md)
@@ -79,6 +80,7 @@ See "[1-1 meetings](../leadership/1-1.md)".
    - Collaborative editing of ephemeral documents
 1. The [Sourcegraph shared](https://drive.google.com/drive/u/0/folders/0B3lEU2lM-l9gUk5sNmRSMVFHVFU) folder on Google Drive is visible and editable by all Sourcegraph team members.
    - To share a doc with team members, move it to this folder.
+1. The [Decisions](decisions.md) Google Sheet.
 
 ### Deprecating a Google Doc
 
