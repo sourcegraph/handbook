@@ -12,7 +12,7 @@ All livestream events will require the following details for planning:
 - Speaker Name
 - Speaker Bio
 - Speaker Headshot
-- Livestram Link from Zoom or GotoWebinar
+- Livestream Link from Zoom or GotoWebinar
 - Audience
 
 Sourcegraph uses these web applications for running a livestream event:
