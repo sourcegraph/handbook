@@ -77,6 +77,8 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 
 ## Week 2
 
+- Sourcegraph pitch
+  - Schedule time with various team members (a Distribution Engineer, someone in Marketing, and Quinn) to hear their pitch.
 - Mock calls
   - Schedule internal mock calls to practice discovery questiions and use cases
 - Checkpoint
