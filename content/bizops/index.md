@@ -35,6 +35,8 @@ We collect data from the following:
 * [Custom tool to track events](https://github.com/sourcegraph/sourcegraph/issues/5486) on the Sourcegraph.com instance
 * [Prometheus dashboards](https://sourcegraph.com/-/debug/grafana/?orgId=1) show high-level insight into the health of a Sourcegraph instance to admins. Sourcegraph teammates can see the health of Sourcegraph.com. 
 
+We have [written policies about how we handle customer information](customer_data_policy.md). 
+
 ## Data tools
 
 * [Looker](#using-looker): Business intelligence/data visualization tool
