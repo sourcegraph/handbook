@@ -105,7 +105,7 @@ In order to cherry-pick a fix onto a release branch:
 1. Make sure your local release branch is up to date (i.e. `git pull`).
 1. `git cherry-pick <commit-sha-of-squashed-commit>`
 1. `git push`
-1. Let the release captain know (either by sending a message on Slack or leaving a comment on the merged PR with the SHA of the cherry-picked commit, see [example](https://github.com/sourcegraph/sourcegraph/pull/7753#issuecomment-575134117).
+1. Let the release captain know (either by sending a message on Slack or leaving a comment on the merged PR with the SHA of the cherry-picked commit, see [example](https://github.com/sourcegraph/sourcegraph/pull/7753#issuecomment-575134117)).
 
 ### Issues
 
