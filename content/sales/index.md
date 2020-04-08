@@ -167,10 +167,7 @@ If a deal comes through a referral or introduction, tell [BizOps](../bizops/inde
 
 ### Recording outbound activity
 
-Categorize any outbound emails into the ‘Manual Outbound Workflow’, which sets their ‘First Touchpoint’ as ‘Outbound’ and adds an event. To do this:
-1. Select all contacts in the ‘Contacts’
-1. Click the ‘More’ dropdown → ‘Enroll in Workflow’
-1. Enroll in ‘Manual Outbound Workflow’
+TBD on connecting Zoominfo and HubSpot
 
 ### Maintaining customer spreadsheets
 
