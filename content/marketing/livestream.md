@@ -24,6 +24,10 @@ Sourcegraph uses these web applications for running a livestream event:
 - Hubspot
   * Set up landing page for registration
   * Manage invitation lists and store registration/attendance activities
+  
+## Sourcegraph code of conduct for livestream events
+
+Sourcegraph livestream events are open to the public. We are committed to providing a friendly, safe, and welcoming environment for all.  Please read our [Sourcegraph Community Code of Conduct](https://about.sourcegraph.com/community/code_of_conduct).
 
 ## Livestream planning tasks
 
@@ -59,10 +63,12 @@ Zoom required meeting configuration
 - Add Alternative Hosts
 
 Zoom advanced configuration during broadcast, under 'Advanced Sharing Options'
+
 - Enable "One participant can share at a time"
 - Enable "Only Host" under "Who can share?"
 
 Zoom account management > account settings
+
 - Disable "File Transfer"
 - Disable "Allow Removed Participants to Rejoin"
 
