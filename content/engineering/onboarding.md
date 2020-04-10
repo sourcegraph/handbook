@@ -18,6 +18,7 @@ Welcome to Sourcegraph! This document will guide you through engineering specifi
 
 ## Engineer checklist
 
+- [Complete general onboarding](../people-ops/onboarding.md#for-all-new-teammates)
 - [Configure your GitHub notifications.](github-notifications/index.md)
 - Message each person on your immediate team to setup a time to meet them. Some things you might want to learn:
   - What brought them to Sourcegraph?
