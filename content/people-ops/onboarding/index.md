@@ -14,3 +14,4 @@
 - [ ] Set up a recurring weekly 25-minute [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
 - [ ] Complete the [Git introduction](git_intro.md).
 - [ ] Add yourself to the [team page](../../../company/team/index.md).
+- [ ] It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
