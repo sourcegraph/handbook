@@ -1,4 +1,4 @@
-# Customer Data Policy
+# Customer data policy
 How Sourcegraph handles customer information.
 
 
