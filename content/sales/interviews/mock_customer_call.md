@@ -1,4 +1,4 @@
-# Mock customer call
+# Mock customer pitch
 
 This sales interview module lets you demonstrate how you run customer calls effectively.
 
@@ -12,11 +12,10 @@ You choose the mock scenario:
 - You choose the company and product you're selling.
 - You choose the prospective customer and persona for us to impersonate.
   - In most cases, we'll have enough general knowledge to be able to impersonate this persona effectively. If we can't, we'll tell you, and you can give us a different assignment.
-- You choose the type of call and what stage we (the mock prospective customer) are at in the buying process.
 - Make these choices based on a company, product, and prospective customer that you are familiar with.
-  - We want to test your actual knowledge of a product you've previously sold and a customer type you've worked with.
+  - We want to test your actual knowledge of a product you've previously sold and your communication style, strategy, and choices.
   - Ideally, your choice highlights your strengths and is relevant to what you'd do at Sourcegraph.
-  - **Do not** choose to sell Sourcegraph in this mock interview. This interview module is not about testing your knowledge about Sourcegraph.
+  - **Do not** choose to sell Sourcegraph in this mock pitch. This interview module is not about testing your knowledge about Sourcegraph.
 - The total length should be 40 minutes.
   - 30 minutes is for the mock call.
   - 10 minutes (at the end) is for a debrief where we are not in character.
