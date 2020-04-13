@@ -37,7 +37,7 @@ Here are the best places to talk to us:
 - Utilise the design channel
 - Tag @design-team or cc one of the team
 
-## Internal Resources
+## Internal resources
 
 Our internal resources are open, and the design team will welcome any feedback. Hesitating to leave feedback can block discussion, and stretch out time between brainstorming and action.
 
