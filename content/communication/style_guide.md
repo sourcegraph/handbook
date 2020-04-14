@@ -41,15 +41,15 @@ Assume the reader is a busy non-native English speaker.
 ### Referring to the product and features
 
 - Sourcegraph: main product, prefer using this name unless you need to be more precise
-  - Self-hosted Sourcegraph instance: only if clarification between the Sourcegraph.com instance, managed instances, and on-premises instances is required
-  - Managed Sourcegraph instance: only if clarification between the Sourcegraph.com instance, self-hosted instances, and managed instances is required
-  - Sourcegraph.com: the public instance of Sourcegraph for open source code at https://sourcegraph.com
-  - Sourcegraph integrations: the general term for our integrations
-    - Sourcegraph['s] Phabricator integration
-    - Sourcegraph['s] GitHub integration
-    - Sourcegraph['s] browser extensions
-      - Sourcegraph['s] Chrome extension
-      - Sourcegraph['s] Firefox add-on
+- Self-hosted Sourcegraph instance: only if clarification between the Sourcegraph.com instance, managed instances, and on-premises instances is required
+- Managed Sourcegraph instance: only if clarification between the Sourcegraph.com instance, self-hosted instances, and managed instances is required
+- Sourcegraph.com (note the capital `S`): the public instance of Sourcegraph for open source code at https://sourcegraph.com
+- Sourcegraph integrations: the general term for our integrations
+  - Sourcegraph['s] Phabricator integration
+  - Sourcegraph['s] GitHub integration
+  - Sourcegraph['s] browser extensions
+    - Sourcegraph['s] Chrome extension
+    - Sourcegraph['s] Firefox add-on
 
 When referring to the build result of the open source repository, use the name Sourcegraph OSS.
 
