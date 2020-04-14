@@ -89,7 +89,8 @@ Cut a new release candidate daily if necessary:
   be removed).
 - [ ] Wait for the release Docker images to be available at https://hub.docker.com/r/sourcegraph/server/tags.
 - [ ] Cut the Kubernetes cluster release in [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph):
-    - [ ] Wait for Renovate to open a PR to update the image tags and merge that PR into `master` ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/199)).
+    - [ ] Wait for Renovate to open a PR named **"Update Sourcegraph Docker images"** and merge that PR ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/199) and note Renovate may have merged it automatically).
+    - [ ] Wait for Renovate to open a PR named **"Update Sourcegraph Prometheus / Grafana Docker images"** and merge that PR (note Renovate may have merged it automatically).
     - [ ] Create the `$MAJOR.$MINOR` release branch from this commit.
       ```
       VERSION='$MAJOR.$MINOR' bash -c 'git fetch origin && git checkout origin/master && git branch $VERSION && git checkout $VERSION && git push -u origin $VERSION'
