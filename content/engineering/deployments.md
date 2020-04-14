@@ -235,8 +235,6 @@ git push origin my_fix:docker-images-patch-notest/frontend
 git push origin my_fix:docker-images-patch-notest/gitserver
 ```
 
-For images under the `docker-images/` directory in the main repo, use e.g. `docker-images:grafana` instead of `grafana`.
-
 This will trigger two builds on Buildkite for these branches:
 
 * https://buildkite.com/sourcegraph/sourcegraph/builds?branch=docker-images-patch-notest%2Ffrontend
