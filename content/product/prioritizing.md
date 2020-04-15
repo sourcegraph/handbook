@@ -6,7 +6,7 @@ We receive tons of feature requests and bug reports, more than we can handle. Th
 
 ## How do I get something prioritized by our product team?
 
-- [Create a GitHub issue](https://github.com/sourcegraph/sourcegraph/issues/new/choose).
+- [Create a GitHub issue](https://github.com/sourcegraph/sourcegraph/issues/new/choose) OR [write an RFC](../communication/rfcs/index.md).
   - Include as much detail as possible about the issue.
   - Provide context around urgency and priority.
   - Link to the customer (if applicable) in HubSpot (see [below](#customer-requests)).
@@ -15,6 +15,10 @@ We receive tons of feature requests and bug reports, more than we can handle. Th
   - Post link to the issue in Slack and ask the team to prioritize the issue in the next team sync (or let them know it is a P0 that should be handled immediately).
   - Send to the Product Manager to prioritize with the team.
   - Add the item in suggestion mode to [the roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#) in your best guess at relative priority. The team or PM will accept or update the priority of the item.
+
+### Engineering prototyping
+
+Sometimes there is a general product area that the CEO/CTO/Product Manager/CE/Sales seem interested in, and a developer is passionate/inspired/excited about it and wants to work on prototyping in that area. The developer has total freedom for a couple months to work on it part-time as long as they make progress in prototyping with the Sales and CE teams and are showing progress to customers regularly. The sole test will be, if we ask the Sales/CE teams "is $DEVELOPER's prototype/project drawing interest in customer calls and is $DEVELOPER iterating on it well in response to feedback?"
 
 ## Prioritizing bug fixes and small tasks
 
