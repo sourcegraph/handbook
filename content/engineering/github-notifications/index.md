@@ -1,6 +1,6 @@
 # GitHub notifications
 
-It is important to configure your notifications correctly so that you receive and read notifications that are important (e.g. someone makes a comment on one of your PRs, someone adds you as a reviewer to a PR) without being overwhemled by notifications that don't involve you. This document describes some options.
+It is important to configure your notifications correctly so that you receive and read notifications that are important (e.g. someone makes a comment on one of your PRs, someone adds you as a reviewer to a PR) without being overwhelmed by notifications that don't involve you. This document describes some options.
 
 GitHub notification settings are configured here: https://github.com/settings/notifications.
 
@@ -25,7 +25,7 @@ This option will send you the firehose of notifications for all of the repositor
 1. So that you can search your email to find conversations that are not involved in.
 2. So that if you are added to an existing conversation in a PR or issue, you will have the complete conversation in your email already.
 
-If you enable email notifications for watched repositories then you will want to setup some email filters (otherwise your email inbox will be overwhelemed and important things will get buried). You should _not_ attempt to read every issue and PR that doesn't involve you.
+If you enable email notifications for watched repositories then you will want to setup some email filters (otherwise your email inbox will be overwhelmed and important things will get buried). You should _not_ attempt to read every issue and PR that doesn't involve you.
 
 ### Gmail filters
 

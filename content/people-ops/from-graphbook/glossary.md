@@ -39,7 +39,7 @@ A service like GitHub, GitLab, or Bitbucket which provides storage and remote ac
 ### Version Control
 A system that tracks changes to a document or project over time in an orderly and systematic way.
 
-This is similar to how a Google Doc allows you to review a document’s history (see what changes occured, who made which changes, etc.) Version control provides the ability to “time travel” and restore previous versions of the document in case something went wrong with one of the changes. 
+This is similar to how a Google Doc allows you to review a document’s history (see what changes occurred, who made which changes, etc.) Version control provides the ability to “time travel” and restore previous versions of the document in case something went wrong with one of the changes. 
 
 ### Git
 A version control system, developed for the maintenance of code with particularly strong support or simultaneous efforts by many developers.

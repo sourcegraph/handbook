@@ -1,10 +1,10 @@
 # Roles on the Engineering team
 
-This page lists the roles on the Engineering team and some of the responsibilites for each of the roles.
+This page lists the roles on the Engineering team and some of the responsibilities for each of the roles.
 
 ## Software Engineer
 
-Sofware Engineers are individual contributors who build software to satisfy the needs of the business.
+Software Engineers are individual contributors who build software to satisfy the needs of the business.
 
 ### Responsibilities
 

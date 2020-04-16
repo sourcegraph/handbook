@@ -6,7 +6,7 @@ Design execution documents are where design projects live, tracking the process 
 
 A design execution document is a place where design is executed. Research will be organised, and discussion concerning design artifacts can take place and be documented here.
 
-The [template](https://docs.google.com/document/d/12qT1U_ogBBY1ED6XlG-3MnbeOzCuYrnvoU7inpUMtPM/edit#) for design execution documents is loose, to accomodate varying design needs, and changes to process. 
+The [template](https://docs.google.com/document/d/12qT1U_ogBBY1ED6XlG-3MnbeOzCuYrnvoU7inpUMtPM/edit#) for design execution documents is loose, to accommodate varying design needs, and changes to process. 
 
 All DE documents should serve 3 goals:
 

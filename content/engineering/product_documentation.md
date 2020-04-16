@@ -6,7 +6,7 @@ These guidelines are for contributing documentation to the [sourcegraph reposito
 
 Whenever a feature is changed, updated, introduced, or deprecated, the pull request introducing these changes must be accompanied by the documentation (either updating existing ones or creating new ones).
 
-The developer who made the code change is also [responsible](../../handbook/engineering/roles.md#software-enginer) for writing the initial documentation for new features and updating the documentation for changes to existing features. At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
+The developer who made the code change is also [responsible](../../handbook/engineering/roles.md#software-engineer) for writing the initial documentation for new features and updating the documentation for changes to existing features. At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
 
 It's the [responsibility of the Product Manager](../../handbook/product/roles.md#product-manager) to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
 
