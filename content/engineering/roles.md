@@ -15,6 +15,28 @@ Software Engineers are individual contributors who build software to satisfy the
 - Help your teammates by empathetically [reviewing code](code_reviews.md) and [RFCs](../communication/rfcs/index.md).
 - Interview candidates and suggest improvements to our hiring process.
 
+## Project Lead
+
+Project Leads are Software Engineers that lead a specific project team to achieve its goals. They are torch carriers that champion a project. This role is an additional set of responsibilities that any engineer may take on once they demonstrate the necessary skills.
+
+While Project Leads need to have strong technical skills, they are not necessarily the most technically experienced engineer on the team. People and organizational skills are as important as technical know-how, so that Project Leads can effectively coordinate and align with others.
+
+Some teams with more experienced members may need less guidance in certain areas and may even share responsibilities of this role across the team.
+
+### Responsibilities
+
+- Directly contribute through code, RFCs or PR reviews for a minimum of roughly 50% of their time.
+- Collaborate with [product](../product/index.md) to maintain a [prioritized roadmap](../../direction/index.md) for the work owned by their team as well as quarterly [OKRs](../../company/okrs/index.md)
+- Plan and commit to a set of work that will be accomplished by the team for each [monthly release](releases/index.md) and capture those commitments in a tracking issue on GitHub.
+- Help keep the team focused on their goals while keeping them aware of the higher level picture.
+- Identify blockers or productivity issues and work with the team to address them.
+- Run weekly team sync meetings.
+- Communicate progress to stakeholders and other parts of the company (e.g. at company meeting).
+- Conduct monthly [retrospectives](../../retrospectives/index.md) with their team.
+- Scale themselves out by organizing and delegating work to other teammates.
+- Mentor and coach other teammates with timely feedback as appropriate in order to uphold team values and help them grow.
+- Collaborate with Engineering Managers to ensure team mates have everything they need to succeed and deliver on the goals of the team.
+
 ## Engineering Manager
 
 Engineering Managers are people managers who build teams of [Software Engineers](#software-engineer) to satisfy the needs of the business.
