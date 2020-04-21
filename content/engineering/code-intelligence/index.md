@@ -16,6 +16,11 @@ The Code Intelligence team builds tools and services that provide contextual inf
 
 - Robust, extensible, and scalable infrastructure to index code across all languages, keep those indexes up-to-date, and efficiently resolve code intelligence queries against all indexed code.
 
+## Contact
+
+- #code-intel channel or @codeintel in Slack.
+- [team/code-intelligence](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-intelligence) label in GitHub.
+
 ## Tech stack
 
 Most of the Code Intelligence tools and infrastructure are implemented in Go and TypeScript. Precise code indexers are written in a variety of languages, as needed.  We use Postgres and SQLite for data storage.

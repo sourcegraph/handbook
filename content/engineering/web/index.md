@@ -6,6 +6,11 @@
 
 Bring the power of Sourcegraph (e.g. search, code intelligence, campaigns) to all developers everywhere that they interact with code (e.g. command line, editors, web browser, code hosts).
 
+## Contact
+
+- #web channel or @web-team in Slack.
+- [team/web](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/web) label and [@sourcegraph/web](https://github.com/orgs/sourcegraph/teams/web) team on GitHub.
+
 ## Tech stack
 
 TypeScript, React, RxJS, GraphQL, Go.

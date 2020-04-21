@@ -4,6 +4,11 @@
 
 Sourcegraph operations are fast (e.g. search), instances scale to 80k repositories, private code is secure and respects ACLs for every authorization provider, and the product settings are easy to set up and understand for our largest customers.
 
+## Contact
+
+- #core-services channel or @core in Slack.
+- [team/core-services](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/core-services) label in GitHub.
+
 ## Tech stack
 
 Go, Postgres, Redis, Docker, Kubernetes.

@@ -6,6 +6,11 @@
 
 Make Sourcegraph accessible to every developer and development team. Identify and satisfy long-term and short-term needs of critical customers. ([Google Doc with more info](https://docs.google.com/document/d/1-RQTq1HnhvxiLWrHUssmSW3aSUqlIOfTtTg1wvKGtzc/edit?ts=5da61097#heading=h.frjbo9inynne))
 
+## Contact
+
+- #distributioneers channel or @distribution in Slack.
+- [team/distribution](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/distribution) label in GitHub.
+
 ## Tech stack
 
 Go, Docker, Kubernetes.
