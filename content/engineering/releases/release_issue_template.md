@@ -110,6 +110,7 @@ Cut a new release candidate daily if necessary:
 ## $RELEASE_DATE by 10am: Release
 
 - [ ] Merge the release-publishing PRs created previously.
+- [ ] Cherry pick the release-publishing PR from sourcegraph/sourcegraph@master into the release branch.
 - [ ] Merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)).
 
 ### Post-release
