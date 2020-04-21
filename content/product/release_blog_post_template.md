@@ -12,19 +12,16 @@ published: false
 
 # Release blog post template
 
-<!-- CONTENT TEMPLATES --
-
-Vimeo embed
-
+<!-- VIDEO TEMPLATE --
 <p class="container">
   <div style="padding:56.25% 0 0 0;position:relative;">
-    <iframe src="https://player.vimeo.com/video/{ID}?color=0CB6F4&amp;title=0&amp;byline=" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    <iframe src="https://www.youtube.com/embed/{VIDEO_ID}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
   </div>
-  <p style="text-align: center"><a href="https://vimeo.com/{ID}" target="_blank">View on Vimeo</a></p>
+  <p style="text-align: center"><a href="https://youtu.be/{VIDEO_ID}" target="_blank">View on YouTube</a></p>
 </p>
 -->
 
-Sourcegraph is the standard developer platform for code search and navigation at many of the largest and most advanced technology companies. With Sourcegraph, every company has access to the same kind of tools that Google and Facebook developers use every day.
+Explore, navigate, and better understand all code, everywhere, faster with Sourcegraph Universal Code Search. Uber, Lyft, Yelp, and other enterprises rely on Sourcegraph to improve developer productivity and manage large-scale code changes.
 
 <div style="padding-left: 2rem">
 
@@ -40,6 +37,15 @@ Sourcegraph couldn't be what it is without the community.
 </div>
 
 **Deploy or upgrade:** [Local](https://docs.sourcegraph.com/#quickstart-guide) | [AWS](https://github.com/sourcegraph/deploy-sourcegraph-aws) | [DigitalOcean](https://marketplace.digitalocean.com/apps/sourcegraph?action=deploy&refcode=48dfb3ccb51c) | [Kubernetes cluster](https://github.com/sourcegraph/deploy-sourcegraph)
+
+<div class="alert alert-info">
+  <p>
+    <strong>LEARN MORE:</strong><br />
+    <a href="https://info.sourcegraph.com/{URL_PATH}?utm_source=blog">
+      Online meetup: Sourcegraph {VERSION} - {DATE} at 10AM PDT
+    </a>
+  </p>
+</div>
 
 ## New feature
 

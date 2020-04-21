@@ -8,7 +8,7 @@ This template is used for tracking blog post activities for our monthly major/mi
 - [ ] [Release email](#)
 - [ ] [Release tweet](#)
 
-## At the start of the month (YYYY-MM-01)
+## At the start of the month (20YY-MM-01)
 
 - [ ] Create draft blog post Google doc in [Sourcegraph shared](https://drive.google.com/drive/u/0/folders/0B3lEU2lM-l9gUk5sNmRSMVFHVFU)
   - [ ] View each [team's release deliverables](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+milestone%3A{MAJOR}.{MINOR}+label%3Aroadmap) to generate the outline of the blog post
@@ -67,7 +67,7 @@ Add events to the shared Release Schedule calendar in Google and invite team@sou
    ```
    "notices": [
      {
-       "message": "Sourcegraph {VERSION} is now available! Check out the [{VERSION} release blog post](https://about.sourcegraph.com/blog/sourcegraph-{VERSION}) for more details.",
+       "message": "Sourcegraph {VERSION} is now available! Check out the [{VERSION} release blog post](https://about.sourcegraph.com/blog/sourcegraph-{VERSION}?utm_source=search) for more details.",
        "location": "top",
        "dismissible": true
      }
