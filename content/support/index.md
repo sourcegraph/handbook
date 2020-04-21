@@ -129,3 +129,5 @@ In the past, we have provided support on private GitHub issue trackers and priva
 5. Your signature should now look something like this:
 
 ![image](https://user-images.githubusercontent.com/3173176/79911829-e450e180-83d5-11ea-9b9b-9c1cc1056740.png)
+
+6. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
