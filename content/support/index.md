@@ -116,3 +116,16 @@ In the past, we have provided support on private GitHub issue trackers and priva
 1. Visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436).
 1. Find the row for the customer's instance. (If you can't find it, ask in #analytics on Slack.)
 1. Look at the version number in the row's **Latest Version** column.
+
+## Getting nice email signatures
+
+1. In Gmail **Settings** > **General** scroll down to signature:
+
+![image](https://user-images.githubusercontent.com/3173176/79911585-73112e80-83d5-11ea-85b3-929c20de72d6.png)
+
+2. Make the first line your name in bold
+3. Make the second line your title
+4. Choose **Insert image** and then **Web Address (URL)** and enter https://storage.googleapis.com/sourcegraph-assets/sourcegraph-logo.png then choose **Medium** size after it has been entered.
+5. Your signature should now look something like this:
+
+![image](https://user-images.githubusercontent.com/3173176/79911829-e450e180-83d5-11ea-9b9b-9c1cc1056740.png)
