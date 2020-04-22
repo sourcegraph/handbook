@@ -18,7 +18,6 @@
 - [Prometheus](prometheus.md)
 - [Adding ping data](adding_ping_data.md)
 - [Adding buildkite secrets](adding_buildkite_secrets.md)
-- [Campaigns](campaigns.md)
 
 ## [Roles and responsibilities](roles.md)
 
@@ -27,12 +26,7 @@
 
 ## Teams
 
-Each Sourcegraph engineer works on a team that has long-term ownership of a part of our product and codebase. See the [project roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#) for what each team is working on.
-
-- [Code intelligence team](code-intelligence/index.md)
-- [Core services team](core-services/index.md)
-- [Distribution team](distribution/index.md)
-- [Web team](web/index.md)
+[How engineering is organized](organization.md).
 
 ## Repositories
 
