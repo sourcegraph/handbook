@@ -19,6 +19,14 @@
 - [Adding ping data](adding_ping_data.md)
 - [Adding buildkite secrets](adding_buildkite_secrets.md)
 
+## Ownership of technical decisions
+
+The default owner of any technical decision is the person or team that owns the work implied by the decision. 
+
+If ownership is unclear, ask "Do we have a designated owner for X?" in an appropriate Slack channel and @mention appropriate managers.
+
+If there is a dispute about ownership, then perform a [clean escalation](../communication/clean_escalation.md) to determine an owner.
+
 ## [Roles and responsibilities](roles.md)
 
 - [VP Engineering](roles.md#vp-engineering)

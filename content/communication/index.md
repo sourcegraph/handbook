@@ -112,3 +112,8 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
   - FY__-Q2 is May 1 through July 31
   - FY__-Q3 is August 1 through October 31
   - FY__-Q4 is November 1 through January 31
+
+## Handling conflict
+
+- [Conflict resolution](conflict_resolution.md)
+- [Clean escalation](clean_escalation.md)
