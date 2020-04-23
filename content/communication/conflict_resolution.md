@@ -34,7 +34,7 @@ If you are unable to resolve the conflict directly with the other person, then p
 
 ## Building a shared understanding
 
-Building a shared understanding is a useful way to prevent and resolve conflicts. It is also a pre-requisite for a [clean escalation](clean_escalation.md).
+Building a shared understanding is a useful way to prevent and resolve conflicts. It is also a prerequisite for a [clean escalation](clean_escalation.md).
 
 You have a shared understanding with another person if:
 
