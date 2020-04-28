@@ -2,9 +2,15 @@
 
 [Roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#heading=h.g2wq4qci7wj0)
 
-## Vision statement
+## Vision
 
-Bring the power of Sourcegraph (e.g. search, code intelligence, campaigns) to all developers everywhere that they interact with code (e.g. command line, editors, web browser, code hosts).
+**Code host integrations** are a breeze to set up, and add compelling value when reading or reviewing code. Enabling native code host integrations for all users is a no-brainer for site admins.
+
+**Sourcegraph extensions** empower users to integrate Sourcegraph with any third-party service providing useful information about code (code coverage, exception tracking, tracing, code quality). They are consistently supported across all code host integrations and the Sourcegraph UI.
+
+Through extensions, Sourcegraph surfaces high-level [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
+
+The **Sourcegraph UI** is clean, cohesive, stable and responsive.
 
 ## Contact
 
