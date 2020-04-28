@@ -15,23 +15,18 @@ Bring the power of Sourcegraph (e.g. search, code intelligence, campaigns) to al
 
 TypeScript, React, RxJS, GraphQL, Go.
 
+### Weekly check-ins
+
+Everyone writes a weekly check-in in the active tracking issue of the on-going iteration. These check-ins describe the work done in the previous week as well as what's to come in the next week.
+
+This process helps each teammate reflect and plan each week proactively and enables other parts of the organization to have visibility into on-going progress.
+
+Appropriate times to write this check-in are end of day on Friday or beginning of day on Monday.
+
 ## Team syncs
 
 The web team holds weekly syncs.
 
 The meeting notes of web team syncs can be found [in this doc](https://docs.google.com/document/u/1/d/1IUsjbtYdGiAHvRUB1yf4eqnynin9WsxFR2zFCMm78jw/edit#).
 
-## Team sync preparation
-
-Before web team syncs:
-
-- Teammates should write down in the meeting notes document a brief status update stating what they have achieved since the last sync, and what they plan on working on next. Example:
-  ```
-  Loïc:
-  - Last:
-      - Reduced UI for GitLab integration
-      - Bugs: hover overlay position, exceptions on MRs
-  - Next:
-      - https://github.com/sourcegraph/sourcegraph/issues/6520
-  ```
-- Teammates and stakeholders (such as the product manager or the VP of Engineering) should write down under "Discussion items" in the meeting notes document anything that they'd like to bring up for discussion with the whole team.
+Before web team syncs, teammates and stakeholders should write down under "Discussion items" in the meeting notes document anything that they'd like to bring up for discussion with the whole team.
