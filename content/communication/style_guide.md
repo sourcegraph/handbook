@@ -17,6 +17,9 @@ The goal of this style guide is to help us all achieve these goals when writing.
 - Use the most popular US English spelling and phrasing.
 - Prefer the serial comma in lists, except where ambiguity would be introduced by including it.
 - No spaces between two terms separated by a slash ("a/b", not "a / b").
+- Placing a comma after "e.g." and "i.e." is neither required nor forbidden. Both of these are OK:
+  - I like fruit (e.g. apples, bananas, oranges)
+  - I like fruit (e.g., apples, bananas, oranges)
 
 ### Clarity
 
