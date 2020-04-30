@@ -55,3 +55,4 @@ Now you can switch between any added roles and your Sourcegraph AWS account usin
 - [How to replay a metrics dump from a customer](use_metrics_dump.md)
 - [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
 - [How to test the Gitlab native integration locally](gitlab_native_local.md)
+- [How to make updates to global settings and configuration on sourcegraph.com](update_sourcegraph_website.md)
