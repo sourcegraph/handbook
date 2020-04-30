@@ -32,4 +32,5 @@ Here is how our team is organized:
 - [Code intelligence](code-intelligence/index.md)
 - [Core services](core-services/index.md)
 - [Search](search/index.md)
+- [Security](security/index.md)
 - [Web](web/index.md)
