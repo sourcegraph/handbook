@@ -2,6 +2,26 @@
 
 The Business Operations (BizOps) team is responsible for [translating business goals (strategy) into tactical operations (execution)](https://medium.com/business-startup-development-and-more/why-your-startup-also-needs-a-bizops-team-5d2e7d436a0).
 
+- [Finance](#finance-and-reporting)
+- [Analytics](#analytics)
+
+# Finance and reporting
+
+## Sources of truth
+- [Financial statements](https://www.dropbox.com/home/Finance/Financial%20reports)
+- Metrics
+	- [Quarterly](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=774643452&range=A36) and [monthly](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=774643452&range=A120) IARR
+	- [ARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=508166254)
+	- [Bookings](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=0)
+	- [Net ARR churn](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=774643452&range=A39)
+- [Pro-forma financials](https://docs.google.com/spreadsheets/d/1EkZ7O69-2jbgtacoFDrY8L6rP73Hlqp_syyVCnmGAFA/edit#gid=498016854) (including IARR goals, hiring plans and cost model)
+- [Weighted quarterly sales projections](https://sourcegraph.looker.com/looks/614)
+- [Board deck calculations](https://docs.google.com/spreadsheets/d/1iI1J40Pw5o9hDqhx658BQ9QeoFlm-OU8NfbeRY16l8Q/edit#gid=0)
+
+## Billing
+
+Each month, [expansion and MAU amounts are calculated](https://docs.google.com/spreadsheets/d/1tRcz3bNOho1TyWvrYSv37RIYcQs7I0i05-5eKwLq8TI/edit#gid=0) and sent as invoices through Xero. 
+
 # Analytics
 
 This page describes Sourcegraph's analytics function, our data sources, and how to use our data tools.
