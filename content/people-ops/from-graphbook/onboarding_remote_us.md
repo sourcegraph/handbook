@@ -1,4 +1,4 @@
-# Onboarding prep for US based teammates
+# Onboarding US based teammates
 
 Below are the to-do's required for new teammate onboarding.
 
