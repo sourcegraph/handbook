@@ -18,6 +18,8 @@ Welcome to Sourcegraph! This document will guide you through engineering specifi
 
 ## Engineer checklist
 
+As you are completing these tasks, you may notice documentation, processes, or code that is broken or out of date. Your first priority is to fix these things. **Act like you own the onboarding experirence of the next engineer that we hire**.
+
 - [Complete general onboarding](../people-ops/onboarding.md#for-all-new-teammates)
 - [Configure your GitHub notifications.](github-notifications/index.md)
 - Message each person on your immediate team to setup a time to meet them. Some things you might want to learn:
