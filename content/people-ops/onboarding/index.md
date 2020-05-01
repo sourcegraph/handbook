@@ -14,3 +14,4 @@
 - [ ] Complete the [Git introduction](git_intro.md).
 - [ ] Add yourself to the [team page](../../../company/team/index.md).
 - [ ] It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
+- [ ] [Add your working hours to Google Calendar](https://calendar.google.com/calendar/r/settings) so your teammates know when it is safe to add meetings to your calendar.
