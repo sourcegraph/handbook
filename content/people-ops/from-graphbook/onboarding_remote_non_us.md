@@ -1,44 +1,27 @@
-# Onboarding prep for internationally distributed teammates
+# Onboarding prep for teammates based outside of U.S.
 
-The following are the to-do's necessary to prep for a new teammate's onboarding ahead of their first day.
+Below are the to-do's required for new teammate onboarding.
 
-## Dan to-do's
+## People Ops to-do's (prior to start date)
 
-- [ ] Alert Officengine of new hire.
+- [ ] Alert Officengine of new hire (their start date, location, and email) and have them send Expensify and Veem invites.
 
-- [ ] Set up Gusto account (if applicable).
 
-- [ ] Fill out I-9 paperwork (if applicable).
-.
-- [ ] Fill out E-Verify (if applicable).
-
-- [ ] Send Looker invite (if applicable).
-
-- [ ] Send HubSpot invite (if applicable).
-
-## Noemi to-do's
-
-- [ ] Send new teammate welcome email– ask them to bring their I9 docs on first day if onsite (if not, request for them to mail to HQ), ask for computer preference, birthday, shirt size, mailing address, and a picture of themselves.
-
-- [ ] Order computer, keyboard, mouse, and noise cancelling headphones.
+- [ ] Send welcome email with Sourcegraph welcome letter (template in Google Docs– contains set-up instructions).
 
 - [ ] Send Fiverr artist the new teammate's picture to create their caricature.
 
-- [ ] Confirm we have proper onboarding swag (Patagonia jacket, 2 shirts, notebooks, water bottle).
-
 - [ ] Ship them onboarding swag.
-
-- [ ] Assign them a buddy (consult their manager).
-
-- [ ] Create first day schedule.
 
 - [ ] Create Gmail account and add to appropriate email groups (team@sourcegraph.com, etc.).
 
+- [ ] Add their birthday and start/Sourcegraph anniversary date to the "Sourcegraph office" calendar.
+
 - [ ] Share team calendars ("Sourcegraph office" and "Not working").
 
-- [ ] Add them to recurring team meeting + demos calendar invite.
+- [ ] Add them to recurring team calendar invites (team meeting, Friday get-together).
 
-- [ ] Add their birthday and start/Sourcegraph anniversary date to the "Sourcegraph office" calendar.
+- [ ] Pair them up with a buddy (consult their manager).
 
 - [ ] Create Slack account.
 
@@ -48,25 +31,21 @@ The following are the to-do's necessary to prep for a new teammate's onboarding 
 
 - [ ] Add a welcome slide to the Monday team meeting's slide deck.
 
-- [ ] Print Sourcegraph welcome letter (template in Google Docs– contains set-up instructions, first day schedule, Teammate Bingo).
+## People Ops to-do's (first day)
+ - [ ] Confirm that the new team member is a member of our GitHub organization (which requires having/creating a GitHub account and accepting the invitation to the `sourcegraph` organization). To check, visit https://github.com/sourcegraph/about/issues/new, press **Assignees** on the right, and confirm the team member is in the list.
 
-- [ ] Have Officengine send them an Expensify invite.
+ - [ ] Send JamfNow enrollment instructions.
 
-- [ ] Have Officengine send them a Veem invite for international payments.
+# New teammate to-do's: First week
 
-- [ ] Send JamfNow enrollment instructions.
-
-# New teammate to-do's: First day
-
-Welcome! We're excited to have you get started, so here is a list of the accounts that you will need to get started. You will receive invites for HR and general setup from Noemi and Dan. If you are missing any of the following accounts, please let them know :)
+Welcome! We're excited to have you get started, so here is a list of the accounts that you will need to get started. You will receive invites for HR and general setup from Noemi. If you are missing any of the following accounts, please her them know :)
 
 ## HR setup
 
-- [ ] **[Gusto](https://gusto.com/)**: Check out your benefits, pay, or tax forms.
+- [ ] **[Veem](https://veem.com/)**: Submit monthly invoices.
 
-- [ ] **[Expensify](https://www.expensify.com/signin):** Upload any work related expenses for reimbursement.
+- [ ] **[Expensify](https://www.expensify.com/signin):** Submit receipts for any work related expenses for reimbursement. Expensify will be linked to your Sourcegraph email. 
 
-- [ ] **[Human Interest](https://humaninterest.com/):** Check on your 401k.
 
 ## General setup
 
@@ -74,12 +53,9 @@ Welcome! We're excited to have you get started, so here is a list of the account
 
 - [ ] **[Slack](https://slack.com/)**: Access our team communication tool.
 
-- [ ] **[GitHub](https://github.com/sourcegraph/Graphbook)**: Access the Graphbook (employee handbook).
-
-- [ ] Confirm that the new team member is a member of our GitHub organization (which requires having/creating a GitHub account and accepting the invitation to the `sourcegraph` organization). To check, visit https://github.com/sourcegraph/about/issues/new, press **Assignees** on the right, and confirm the team member is in the list.
-
-- [ ] **[Jamf Now](https://sourcegraph.jamfcloud.com)**: Enroll your device in our MDM (ask Noemi for your access code).
+- [ ] **[GitHub](https://github.com/sourcegraph/Graphbook)**: Access the handbook.
 
 - [ ] **[Lattice](https://sourcegraph.latticehq.com/)**: Access our teammate feedback cycles (takes place every quarter– Noemi will send out details).
 
 - [ ] **[1Password](https://1password.com/)**: Access shared team passwords and store your own passwords.
+
