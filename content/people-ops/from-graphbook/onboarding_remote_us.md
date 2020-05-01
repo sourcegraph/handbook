@@ -1,6 +1,6 @@
 # Onboarding prep for US based teammates
 
-The following are the to-do's necessary to prep for a new teammate's onboarding ahead of their first day.
+Below are the to-do's required for new teammate onboarding.
 
 ## People Ops to-do's (prior to start date)
 
