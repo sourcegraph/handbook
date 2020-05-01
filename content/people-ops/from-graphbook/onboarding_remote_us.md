@@ -8,9 +8,7 @@ Below are the to-do's required for new teammate onboarding.
 
 - [ ] Have Officengine send new hire an Expensify invite.
 
-- [ ] Send new teammate welcome email with welcome letter and onboard prep.
-
-- [ ] Send Sourcegraph welcome letter (template in Google Docs– contains set-up instructions)
+- [ ] Send welcome email with Sourcegraph welcome letter (template in Google Docs– contains set-up instructions).
 
 - [ ] Send Fiverr artist the new teammate's picture to create their caricature.
 
