@@ -8,7 +8,7 @@ Below are the to-do's required for new teammate onboarding.
 
 - [ ] Have Officengine send new hire an Expensify invite.
 
-- [ ] Send new teammate welcome email– ask them to bring their I9 docs on first day if onsite (if not, request for them to mail to HQ), ask for computer preference, birthday, shirt size, mailing address, and a picture of themselves.
+- [ ] Send new teammate welcome email with welcome letter and onboard prep.
 
 - [ ] Send Sourcegraph welcome letter (template in Google Docs– contains set-up instructions)
 
