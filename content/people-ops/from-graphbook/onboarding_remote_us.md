@@ -36,7 +36,9 @@ The following are the to-do's necessary to prep for a new teammate's onboarding 
 
 ## People Ops to-do's (first day)
  - [ ] Confirm that the new team member is a member of our GitHub organization (which requires having/creating a GitHub account and accepting the invitation to the `sourcegraph` organization). To check, visit https://github.com/sourcegraph/about/issues/new, press **Assignees** on the right, and confirm the team member is in the list.
+
  - [ ] Fill out I-9 forms and E-verify within first 3 days of start date.
+
  - [ ] Send JamfNow enrollment instructions.
 
 # New teammate to-do's: First week
