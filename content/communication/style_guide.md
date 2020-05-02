@@ -130,6 +130,7 @@ For consistency, all examples should use the following names (as appropriate).
 
 - Treat all supported platforms equally. For example, don't give instructions for Chrome or GitHub in a way that implies they are the "default".
 - Prefer linking to a 3rd-party tool's existing documentation over explaining it in our own documentation (because our explanation can easily become outdated).
+- Prefer the `https` (not `http`) URL scheme (`https://example.com` not `http://example.com`). The only exception is if the site actually doesn't support HTTPS.
 
 ### Specific terms in prose
 
