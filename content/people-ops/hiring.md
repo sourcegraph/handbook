@@ -40,6 +40,10 @@ We review each candidate at each stage of our hiring pipeline (e.g. application,
     - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
     - What makes us excited about hiring this candidate?
 
+## [Interview process](interview_process.md)
+
+See [interview process](interview_process.md).
+
 ## Sharing interview feedback
 
 We don't share specific reasons or feedback if we [decide](#decision-making-process) not to move forward in our hiring process with a candidate.
