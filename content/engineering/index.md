@@ -5,7 +5,9 @@
   - [All RFC documents](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) (Google Drive)
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Code reviews](code_reviews.md)
-- [Go style guide](go_style_guide.md)
+- Programming guides
+  - [Go](languages/go.md)
+  - [TypeScript](languages/typescript.md)
 - [Testing](testing.md)
 - [Product documentation](product_documentation.md)
 - [Continuous releasability](continuous_releasability.md)
@@ -21,7 +23,7 @@
 
 ## Ownership of technical decisions
 
-The default owner of any technical decision is the person or team that owns the work implied by the decision. 
+The default owner of any technical decision is the person or team that owns the work implied by the decision.
 
 If ownership is unclear, ask "Do we have a designated owner for X?" in an appropriate Slack channel and @mention appropriate managers.
 
