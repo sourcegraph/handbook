@@ -86,6 +86,7 @@ Effective RFCs contain the following information:
 - **Background:** A sufficient, but minimal, amount of context necessary to frame the rest of the RFC. The content should be indisputable facts, not opinions or arguments. The facts should support the chosen definition of the problem and the constraints in the next section.
 - **Problem:** A description of the problem that this RFC is trying to address, the constraints that this RFC trying to satisfy, and why this problem is worth solving now.
 - **Proposed solution (optional):** A description of HOW to solve the problem. It is ok to omit this section if you just want to define a problem. This can be useful if you want help thinking of solutions or want to handoff ownership of this problem to someone else.
+- **Definition of success:** How do we know if this project was successful? Are there any metrics we need to start tracking? Link to the delivery plan for customer oriented features.
 
 The precise format is not as important as the content itself. Ultimately RFCs are a tool to communicate and gather feedback, so optimize for that.
 
