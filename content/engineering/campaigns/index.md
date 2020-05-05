@@ -1,4 +1,4 @@
-# Campaigns
+# Campaigns team
 
 User-facing documentation: https://docs.sourcegraph.com/user/campaigns
 Developer documentation: https://docs.sourcegraph.com/dev/campaigns_development
