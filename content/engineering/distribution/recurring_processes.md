@@ -132,7 +132,7 @@ sync](https://docs.google.com/document/d/1g9gb_i-Q6QXifISiS1urZ2gcfO2Pz-VHYqurW_
 communicates progress updates and priority/planning changes between Distribution and the broader
 Engineering/Product organization. Since it mostly covers what was already discussed in the interanl sync, it is entirely optional for Distribution team members to join.
 
-## Bi-weekly updates
+### Bi-weekly updates
 
 Every Wed @ 3pm and Fri @ 1pm you will be reminded in the #distributioneers Slack channel to post an update that communicates any progress you've made since your last update, any unexpected things that came up and took up your time, and what you are working on currently.
 
