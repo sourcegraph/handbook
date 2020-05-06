@@ -130,17 +130,21 @@ discussing with the entire Distribution team.
 The [external
 sync](https://docs.google.com/document/d/1g9gb_i-Q6QXifISiS1urZ2gcfO2Pz-VHYqurW_94My4/edit)
 communicates progress updates and priority/planning changes between Distribution and the broader
-Engineering/Product organization.
+Engineering/Product organization. Since it mostly covers what was already discussed in the interanl sync, it is entirely optional for Distribution team members to join.
 
-## Daily
+## Bi-weekly updates
 
-Post a daily update to the #distributioneers Slack channel that communicates what took up your time
-in the past day and, if relevant, what you plan to work on next.
-
-Example:
+Every Wed @ 3pm and Fri @ 1pm you will be reminded in the #distributioneers Slack channel to post an update that communicates any progress you've made since your last update, any unexpected things that came up and took up your time, and what you are working on currently.
 
 > **Update:**
 >
 > * Helped $CUSTOMER with search scaling questions.
 > * Made some progress on updating the regression test suite.
 > * Opened a PR to update Jaeger tracing behavior (https://github.com/sourcegraph/sourcegraph/pull/9330)
+
+We use bi-weekly updates because:
+
+- Daily updates are too frequent, tedious to write out, and tedious for others outside the Distribution team to read.
+- Weekly updates make it easy to forget what you did at the start of the week.
+- It encourages posting updates frequently, but just focusing on the high-level / key points of interest that you recall over the past few days.
+- Unlike daily updates, it does not give an impression that others want an hour-by-hour account of what you did or that you should include insignificant topics.
