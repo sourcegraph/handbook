@@ -23,7 +23,7 @@ TypeScript, React, RxJS, GraphQL, Go.
 
 ### Weekly check-ins
 
-Everyone writes a weekly check-in in the active tracking issue of the on-going iteration. These check-ins describe the work done in the previous week as well as what's to come in the next week.
+Everyone writes a weekly check-in in the active [tracking issue](../tracking_issues.md) of the on-going iteration. These check-ins describe the work done in the previous week as well as what's to come in the next week.
 
 This process helps each teammate reflect and plan each week proactively and enables other parts of the organization to have visibility into on-going progress.
 

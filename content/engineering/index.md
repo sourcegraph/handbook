@@ -4,6 +4,7 @@
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) (Google Drive)
   - [How we use RFCs](../communication/rfcs/index.md)
+- [Tracking issues](tracking_issues.md)
 - [Code reviews](code_reviews.md)
 - Programming guides
   - [Go](languages/go.md)

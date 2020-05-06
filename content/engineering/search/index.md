@@ -15,7 +15,7 @@ The search team has divided the responsibilities of a [Project Lead](../roles.md
 
 [Keegan](https://github.com/keegancsmith) owns technical responsibilities:
 
-- Planing and committing to a set of work that will be accomplished by the team for each monthly release and capture those commitments in a tracking issue on GitHub.
+- Planing and committing to a set of work that will be accomplished by the team for each monthly release and capture those commitments in a [tracking issue](../tracking_issues.md) on GitHub.
 - Collaborating with product to maintain a prioritized roadmap for the work owned by their team as well as quarterly OKRs.
 - Identifying blockers or productivity issues and work with the team to address them.
 

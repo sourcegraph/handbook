@@ -27,7 +27,7 @@ Some teams with more experienced members may need less guidance in certain areas
 
 - Directly contribute through code, RFCs or PR reviews for a minimum of roughly 50% of their time.
 - Collaborate with [product](../product/index.md) to maintain a [prioritized roadmap](../../direction/index.md) for the work owned by their team as well as quarterly [OKRs](../../company/okrs/index.md)
-- Plan and commit to a set of work that will be accomplished by the team for each [monthly release](releases/index.md) and capture those commitments in a tracking issue on GitHub.
+- Plan and commit to a set of work that will be accomplished by the team for each [monthly release](releases/index.md) and capture those commitments in a [tracking issue](tracking_issues.md) on GitHub.
 - Help keep the team focused on their goals while keeping them aware of the higher level picture.
 - Identify blockers or productivity issues and work with the team to address them.
 - Run weekly team sync meetings.
@@ -44,7 +44,7 @@ Engineering Managers are people managers who build teams of [Software Engineers]
 ### Responsibilities
 
 - Collaborate with [product](../product/index.md) to maintain a [prioritized roadmap](../../direction/index.md) for the work owned by your team.
-- Commit to a set of work that will be accomplished by the team for each [monthly release](releases/index.md) and capture those commitments in a tracking issue on GitHub.
+- Commit to a set of work that will be accomplished by the team for each [monthly release](releases/index.md) and capture those commitments in a [tracking issue](tracking_issues.md) on GitHub.
 - Conduct monthly [retrospectives](../../retrospectives/index.md) with your team.
 - Mentor and coach engineers through regular [1-1s](../leadership/1-1.md) to grow their careers.
 - [Review the performance](../people-ops/review-cycles.md) of your direct reports to determine compensation.

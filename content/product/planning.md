@@ -37,11 +37,9 @@ Teams should work on the next thing at the top of the roadmap and should not jum
 
 Generally, items in the roadmap will be big enough they require writing an RFC, though this will not always be the case. When a solution is clear, a well-detailed issue is sufficient to communicate intent, motivation, and solution.
 
-### Tracking issues
+### [Tracking issues](../engineering/tracking_issues.md)
 
-Tracking issues are GitHub issues that encapsulate the planned work for an iteration. Tracking issues are a great place to keep track of the smaller issues and bugs that come up and the team intends to work on. See [Prioritizing bug fixes and small tasks](#prioritizing-bug-fixes-and-small-tasks) for guidance on triaging incoming requests.
-
-Teams should aggressively prioritize work for the iteration so that expectations can be set accordingly with users waiting for features or bug fixes. If work is carried over for multiple iterations it is an indication that the priority of that item is not actually as high as believed, or that the team is trying to do too many things in an iteration. Engineering can lean on Product for help with prioritization.
+See [tracking issues](../engineering/tracking_issues.md)
 
 ### [Delivery plans](delivery_plans.md)
 

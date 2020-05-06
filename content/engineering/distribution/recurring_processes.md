@@ -40,7 +40,7 @@ our quarterly OKRs.
 
 **Input:** Existing issues and new proposals in line with our OKRs.
 
-**Output:** A tracking issue that lists all engineering items of work we plan to accomplish this
+**Output:** A [tracking issue](../tracking_issues.md) that lists all engineering items of work we plan to accomplish this
 iteration.
 
 **Process:** The [project lead](../roles.md#project-lead) drives iteration planning, and follows
