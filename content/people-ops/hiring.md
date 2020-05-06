@@ -4,7 +4,6 @@
 
 The source-of-truth for our open positions is [our careers repository](https://github.com/sourcegraph/careers).
 
-We use [Google Hire](https://hire.withgoogle.com/t/sourcegraphcom/hiring/landing/active) for our applicant tracking system (ATS). Google Hire is [being discontinued September 1, 2020](https://support.google.com/hire/answer/9460306) so we are in the process of evaluating alternatives.
 
 ## Values and practices
 
