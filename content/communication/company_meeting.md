@@ -67,4 +67,4 @@ Company meeting is an effective way to:
 1. Next to the correct item (Topic: `Company meeting`), press `Share...`.
 1. In the dialog, select `Share this recording: Publicly` and ensure `Password protection` is on.
 1. Press `Copy sharing information to clipboard`.
-1. Paste in #general on Slack.
+1. Paste in #general on Slack as a reply to the thread that originally linked the slides for company meeting.
