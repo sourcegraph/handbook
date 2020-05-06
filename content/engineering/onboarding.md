@@ -6,6 +6,7 @@ Welcome to Sourcegraph! This document will guide you through engineering specifi
 
 - Grant access to necessary services.
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
+    - Invite to relevant GitHub teams, including [@sourcegraph/everyone](https://github.com/orgs/sourcegraph/teams/everyone).
   - [LSIF organization on GitHub](https://github.com/orgs/lsif/people) (optional; recommended for Code Intelligence team members)
   - [Buildkite](https://buildkite.com/organizations/sourcegraph/users/new)
   - Google Cloud Platform ([prod](https://console.cloud.google.com/iam-admin/iam?project=sourcegraph-dev), [test](https://console.cloud.google.com/iam-admin/iam?project=sourcegraph-server))
