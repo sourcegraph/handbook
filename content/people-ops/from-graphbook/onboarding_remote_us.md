@@ -16,6 +16,8 @@ Below are the to-do's required for new teammate onboarding.
 
 - [ ] Create Gmail account and add to appropriate email groups (team@sourcegraph.com, etc.).
 
+- [ ] Send invite to Google Drive folder: [Sourcegraph shared](https://drive.google.com/drive/folders/0B3lEU2lM-l9gUk5sNmRSMVFHVFU?usp=sharing)
+
 - [ ] Add their birthday and start/Sourcegraph anniversary date to the "Sourcegraph office" calendar.
 
 - [ ] Share team calendars ("Sourcegraph office" and "Not working").
