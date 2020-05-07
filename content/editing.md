@@ -12,6 +12,7 @@ We don't expect everyone on the team to figure this out on their own. Other team
 - [Teammates who have already made a handbook change](https://sourcegraph.com/github.com/sourcegraph/about/-/stats/contributors?path=handbook%2F) can help.
 - Ask in #handbook: `Who can screen-share with me to help me make an edit to the handbook?`
 - Don't be afraid of breaking anything! It is very easy for any engineer on the team to roll back to the previous version of the handbook if you make a mistake.
+- Join @sqs for "Open time for handbook help" on the 2nd Monday of every month at 1:30pm PDT.
 
 ## Overview
 
