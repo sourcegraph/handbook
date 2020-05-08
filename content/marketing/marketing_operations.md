@@ -9,9 +9,12 @@ All URLs used on external sites should contain UTM parameters for lead attributi
 HubSpot automatically captures the parameter as long as the URL parameter name matches the HubSpot field name.
 
 The forms that support UTM are:
-- Request a demo form
+
+- Registration for a livestream
+- Request a demo or enterprise trial 
+- Request a PDF
 - Request code change management demo
-- Contact us form
+- Contact us
 - In-product request (enterprise) trial 
 
 The parameters that our HubSpot workflows support are `utm_campaign`, `utm_source` and `utm_medium`. Tag @ericbm in #marketing if more parameters are needed. 
@@ -29,7 +32,7 @@ The parameters that our HubSpot workflows support are `utm_campaign`, `utm_sourc
 
 ## Maintaining data pipelines
 
-All major lead generation-related events (demo requests, webinars attended, created instances) are copied to a [Google Sheet](https://docs.google.com/spreadsheets/d/16S3xlcY7DmpcfKZYD-3VHUsaPLiYHyisu8cD_gZpv0Q/edit#gid=0) by way of Zapier. This requires all events to funnel to a [data pipeline HubSpot list](https://app.hubspot.com/contacts/2762526/lists?folderId=454) so the Zapier event can be triggered.
+All major lead generation-related events (demo requests, livestream registrations, created instances) are copied to a [Google Sheet](https://docs.google.com/spreadsheets/d/16S3xlcY7DmpcfKZYD-3VHUsaPLiYHyisu8cD_gZpv0Q/edit#gid=0) by way of Zapier. This requires all events to funnel to a [data pipeline HubSpot list](https://app.hubspot.com/contacts/2762526/lists?folderId=454) so the Zapier event can be triggered.
 
 ## CCPA/GDPR compliance
 
