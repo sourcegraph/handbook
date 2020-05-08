@@ -12,6 +12,4 @@ You will be removed from the team if we observe a pattern of behavior that doesn
 
 If, after thoughtful deliberation, we decide to remove you from the team, then your manager and a representative from [People Ops](index.md) will meet with you over video chat (we are an all remote team) as soon as possible to tell you that today is your last day. The decision will be final and it will be based on the feedback that has already been delivered to you, so we will not discuss or rehash the reasons. We will offer you a generous amount of money so that you don't have to worry about paying bills as you look for your next job if and when you accept an agreement to not take legal action (and other standard departure terms) because we would rather give money to you and your family than to lawyers.
 
-Here is a sample script:
-
-> Hi $TEAMMATE, I have $PEOPLEOPS with me ($PEOPLEOPS says "Hi"). I want to get straight to the point: your performance at Sourcegraph hasn't met our expectations so we have decided to remove you from the team and today will be your last day. I know this is tough news to receive but we want to help make this transition as easy as possible so we are going to give you $X to help pay the bills while you are looking for your next job. $PEOPLEOPS will talk you through the remaining logistics.
+Hiring managers please see [here](https://docs.google.com/document/d/1pFoQY5VKAM8H-Q69Xc_SIXU_oNUiuHowwSnn2oPZqwA/edit?ts=5e99ea90) for additional information on teammate departures.
