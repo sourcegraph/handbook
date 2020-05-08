@@ -2,19 +2,19 @@
 
 We maintain multiple deployments of Sourcegraph:
 
-- sourcegraph.com is our production deployment for open source code.
+- [sourcegraph.com](https://sourcegraph.com) is our production deployment for open source code.
   - [dot-com cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/dot-com?project=sourcegraph-dev)
     ```
     gcloud container clusters get-credentials dot-com --zone us-central1-f --project sourcegraph-dev
     ```
   - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
-- sourcegraph.sgdev.org is our private deployment of Sourcegraph that contains our private code.
+- [sourcegraph.sgdev.org](https://sourcegraph.sgdev.org) is our private deployment of Sourcegraph that contains our private code.
   - [dogfood cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-a/dogfood?project=sourcegraph-dev)
     ```
     gcloud container clusters get-credentials dogfood --zone us-central1-a --project sourcegraph-dev
     ```
   - [Kubernetes configuration](https://github.com/sourcegraph/infrastructure/tree/master/kubernetes/dogfood)
-- k8s.sgdev.org is a dogfood deployment that replicates the scale of our largest customers.
+- [k8s.sgdev.org](https://k8s.sgdev.org) is a dogfood deployment that replicates the scale of our largest customers.
   - [dogfood-full-k8s cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-a/dogfood-full-k8s?project=sourcegraph-dev)
     ```
     gcloud container clusters get-credentials dogfood-full-k8s --zone us-central1-a --project sourcegraph-dev

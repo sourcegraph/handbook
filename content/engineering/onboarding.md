@@ -31,6 +31,9 @@ As you are completing these tasks, you may notice documentation, processes, or c
 - Read through the rest of the engineering handbook to learn more about how we operate.
 - Setup your [local development environment](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md#step-1-install-dependencies). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next engineer that we hire doesn't run into the same problem).
 - Make yourself an admin on sourcegraph.com and sgdev.org by updating the database directly (this is not what a normal user would do, but doing it this way will expose you to useful knowledge). Relevant documentation:
+  - Make sure you have an account on our deployments ([sourcegraph.com](https://sourcegraph.com), [sourcegraph.sgdev.org](https://sourcegraph.sgdev.org), [k8s.sgdev.org](https://k8s.sgdev.org)) before editing the database.
   - [Our deployments](deployments.md)
   - [How do I access the Sourcegraph database?](https://docs.sourcegraph.com/admin/faq#how-do-i-access-the-sourcegraph-database)
+  - PostgreSQL Hint: Consider using a [transaction](https://www.postgresql.org/docs/current/tutorial-transactions.html) so that you can ROLLBACK your actions in case of a mistake
 - Start working on the starter tasks that your manager has assigned you.
+`
