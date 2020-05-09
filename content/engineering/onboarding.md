@@ -36,4 +36,3 @@ As you are completing these tasks, you may notice documentation, processes, or c
   - [How do I access the Sourcegraph database?](https://docs.sourcegraph.com/admin/faq#how-do-i-access-the-sourcegraph-database)
   - PostgreSQL Hint: Consider using a [transaction](https://www.postgresql.org/docs/current/tutorial-transactions.html) so that you can ROLLBACK your actions in case of a mistake
 - Start working on the starter tasks that your manager has assigned you.
-`
