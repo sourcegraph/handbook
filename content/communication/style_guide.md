@@ -63,7 +63,7 @@ You don't need to use the full name of the product each time you refer to it, bu
 - Bad: "Use the Phabricator Integration to..." (the capital "I" makes it into a proper noun, which implies it's a separate product from "Sourcegraph Phabricator integration")
 - Bad: "Want to use this in your code review tool? Use [Sourcegraph for Phabricator](#_) or [Sourcegraph for GitHub](#_)." (This implies that "Sourcegraph for Phabricator" and "Sourcegraph for GitHub" are official product names.
 
-Only use "our" (as in "our GitHub integration") in discussion threads or informal documents; in documentation or marketing material, depending on the context, use "the" or "Sourcegraph".
+Only use "we" and "our" (as in "our GitHub integration") in informal documents. In documentation or marketing material, depending on the context, just avoid it, or use "the" or "Sourcegraph". {#our}
 
 ## Conventions
 
