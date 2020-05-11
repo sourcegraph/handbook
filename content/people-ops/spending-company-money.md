@@ -38,7 +38,7 @@ The budget for interns is $500 and includes only the electronic items in the "De
 **Camera** for people who present externally to clients and prospects
 
 ## Laptops
-Laptops and laptop insurance are fully reimbursable outside of the $1000 all-in budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
+Once your contract is signed, you will need to purchase and expense your Sourcegraph laptop. Laptops and laptop insurance are fully reimbursable outside of the $1000 all-in budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
 
 **Laptop (engineers):**
 
