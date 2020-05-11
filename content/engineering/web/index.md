@@ -21,13 +21,9 @@ The **Sourcegraph UI** is clean, cohesive, stable and responsive.
 
 TypeScript, React, RxJS, GraphQL, Go.
 
-### Weekly check-ins
+## Processes
 
-Everyone writes a weekly check-in in the active [tracking issue](../tracking_issues.md) of the on-going iteration. These check-ins describe the work done in the previous week as well as what's to come in the next week.
-
-This process helps each teammate reflect and plan each week proactively and enables other parts of the organization to have visibility into on-going progress.
-
-Appropriate times to write this check-in are end of day on Friday or beginning of day on Monday.
+We do [weekly check-ins](../tracking_issues.md#using-a-tracking-issue-for-progress-check-ins) (between Friday EOD and Monday 5am PT) and [planning](../tracking_issues.md#planning-a-milestone-with-a-tracking-issue) with [tracking issues](../tracking_issues.md).
 
 ## Team syncs
 
