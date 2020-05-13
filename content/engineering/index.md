@@ -21,6 +21,7 @@
 - [Prometheus](prometheus.md)
 - [Adding ping data](adding_ping_data.md)
 - [Adding buildkite secrets](adding_buildkite_secrets.md)
+- [External contributions](external_contributions.md)
 
 ## Ownership of technical decisions
 
