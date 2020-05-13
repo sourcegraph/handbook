@@ -74,7 +74,7 @@ Do:
   - Include a screenshot, GIF, or video if you are making user facing changes.
   - Discuss alternative implementations that you considered but didn't pursue (and why).
   - Describe any remaining open questions that you are seeking feedback on.
-- Make it clear who's review(s) you are waiting for.
+- Make it clear whose review(s) you are waiting for.
 - Politely remind your reviewer that you are waiting for a review if they haven't responded after one business day.
 - If you need to work on your PR after a first round of reviews, try not to force push commits that erase the latest reviewed commit or any commit prior to that. This makes it easy for reviewers to pick up where they left off in the previous round.
 
