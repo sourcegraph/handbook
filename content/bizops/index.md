@@ -50,6 +50,7 @@ We collect data from the following:
 * Google Analytics: Website analytics for Sourcegraph marketing and docs pages (not Sourcegraph.com)
 * HubSpot: Marketing automation and CRM
 * MixMax: Email marketing automation (Apollo is not used in production, but still retains data)
+* ZoomInfo:  Data enrichment of account and contact information
 * Sourcegraph.com Site-admin pages: customer subscriptions and license keys
 * [Pings](https://docs.sourcegraph.com/admin/pings) from self-hosted Sourcegraph instances containing anonymous and aggregated information. There are [specific guidelines](../engineering/adding_ping_data.md) that must be followed for teams to add ping data. 
 * [Custom tool to track events](https://github.com/sourcegraph/sourcegraph/issues/5486) on the Sourcegraph.com instance
@@ -61,7 +62,7 @@ We have [written policies about how we handle customer information](customer_dat
 
 * [Looker](#using-looker): Business intelligence/data visualization tool
 * Google Cloud Platform: BigQuery is our data warehouse and the database Looker runs on top of
-* Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1vOyhFO90FjHe-bwnHOZeljHLuhXL2BAv)that Looker queries (by way of BigQuery).
+* Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1vOyhFO90FjHe-bwnHOZeljHLuhXL2BAv) that Looker queries (by way of BigQuery).
 * BizOps builds ad-hoc tools to analyze data for various reasons. The projects are in the [Google Drive Analytics folder](https://drive.google.com/drive/folders/13b2PJqiQzjLMrM2ZAjlsax0fT_DQlxFm) and the source code is available in the [analytics repo](https://github.com/sourcegraph/analytics).
 
 ### Data pipelines
