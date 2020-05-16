@@ -14,6 +14,7 @@ See [the monitoring developer guide](monitoring.md) for information on how to de
   - [Why can't I create a dashboard in the WYSIWYG Grafana editor?](#faq-why-cant-i-create-a-dashboard-in-the-wysiwyg-grafana-editor)
   - [Why can't I create a graph/panel with more than 5 cardinality (labels)?](#faq-why-cant-i-create-a-graph-panel-with-more-than-5-cardinality-labels)
   - [Why can't I have all information expanded by default on the dashboard?](#faq-why-cant-i-have-all-information-expanded-by-default-on-the-dashboard)
+- [Next steps](#next-steps)
 
 ## The five pillars of monitoring
 
@@ -183,3 +184,7 @@ Than it is for us to say:
 If it can't fit on a normal laptop screen, it should generally be hidden!
 
 Additionally, admins will still see your metric if something is going wrong by nature of the fact that we enforce "there must be a defined alert per metric we are displaying." By hiding it, we're just being honest that most people aren't going to see it and making sure the most important information is front-and-center!
+
+## Next steps
+
+Continue reading: [Sourcegraph monitoring developer guide](monitoring.md)
