@@ -127,8 +127,16 @@ It's best if you also add some Markdown documentation with your best guess of wh
 
 Once you save the file, `doc/admin/observability/alert_solutions.md` will automatically be regenerated and you can even preview your changes at [http://localhost:5080/admin/observability/alert_solutions](http://localhost:5080/admin/observability/alert_solutions).
 
+## Additional reading
+
+- [How Sourcegraph's high-level alerting metrics work](https://docs.sourcegraph.com/admin/observability/metrics_guide)
+- [The difference between Warning and Critical alerts](https://docs.sourcegraph.com/admin/observability/alerting_custom_consumption#the-difference-between-critical-and-warning-alerts)
+- [How some organizations query our high-level alerts for integration with their own systems](https://docs.sourcegraph.com/admin/observability/alerting_custom_consumption)
+- [Admin documentation for observability](https://docs.sourcegraph.com/admin/observability)
+
 ## Next steps
 
 - Look at the monitoring for one of our services: [monitoring/symbols.go](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/monitoring/symbols.go)
 - Check out [the API documentation for `Observable`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/monitoring/generator.go#L106-194)
 - Send a PR and tag `@slimsag` or `@distribution` for review!
+

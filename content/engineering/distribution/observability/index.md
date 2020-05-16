@@ -2,8 +2,19 @@
 
 **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 
-We use three tools primarily to observe (monitor and debug) Sourcegraph:
+Observability includes:
 
-- [Monitoring](monitoring.md) 
-- Logging (developer docs coming soon, for now see [admin docs](https://docs.sourcegraph.com/admin/observability))
-- Distributed tracing (developer docs coming soon, for now see [admin docs](https://docs.sourcegraph.com/admin/observability))
+- Monitoring - how you know _when something is wrong_, which includes:
+  - Dashboards & metrics
+  - Alerting
+  - Health checks
+- Debugging - how you debug _what is wrong_, which includes:
+  - Distributed tracing
+  - Logging
+
+## Developer guides
+
+- [Monitoring developer guide](monitoring.md)
+    - [The five pillars of monitoring](monitoring_pillars.md)
+- Distributed tracing developer guide (coming soon)
+- Logging developer guide (coming soon)

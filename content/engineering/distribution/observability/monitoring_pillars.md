@@ -74,11 +74,13 @@ Consider "when the metric I am monitoring is bad, where do I want the site admin
 
 In other words, you should add the metric you are monitoring to an existing service's dashboard.
 
+This also allows our [high-level alerting metrics](https://docs.sourcegraph.com/admin/observability/metrics_guide), which are generated from the same observables that each dashboard is generated from, to describe the health of Sourcegraph per-service (instead of per-service + topic like "HTTP").
+
 ### FAQ: I have a purely information metric, I don't want to define an alert for it. How do I do that?
 
 This violates the second pillar of monitoring at Sourcegraph:
 
-> 2. Adding a graph/panel that visualizes a metric, without defining an associated alert, is forbidden.
+> Adding a graph/panel that visualizes a metric, without defining an associated alert, is forbidden.
 
 #### Why this is bad
 
@@ -89,6 +91,8 @@ By saying "I do not want to define an alert" what we are actually doing is shyin
 Our monitoring infrastructure _forces_ you to declare at least a _Warning_ alert. It's OK if this is flaky, or even if it fires when something is not wrong.
 
 The point is _you have to give a best-guess at what a bad or good value looks like because you are the only one who can answer that question._ Otherwise, the information you are 'monitoring' cannot be interpreted by anyone else and is inherently useless to anyone except you: it should not exist in a dashboard then.
+
+See also ["the difference between Warning and Critical alerts"](https://docs.sourcegraph.com/admin/observability/alerting_custom_consumption#the-difference-between-critical-and-warning-alerts) for how we communicate this to site admins.
 
 #### What you should do instead
 
