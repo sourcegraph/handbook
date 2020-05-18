@@ -69,3 +69,9 @@ Company meeting is an effective way to:
 1. Ensure `Password protection` is on.
 1. Press `Copy sharing information to clipboard`.
 1. Paste in #general on Slack as a reply to the thread that originally linked the slides for company meeting.
+
+## Presenters who can't attend
+
+Mention people on the slide with something like the following:
+
+> +whoever@sourcegraph.com: FYI this company meeting is on US Memorial Day, so I am assuming you will not be attending. Please write notes that someone can read, or record a video of yourself presenting, and send to me by Sunday 3pm PDT.
