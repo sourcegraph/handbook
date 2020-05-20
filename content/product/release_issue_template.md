@@ -47,6 +47,7 @@ Add events to the shared Release Schedule calendar in Google and invite team@sou
 ## 5 working days before release
 
 - [ ] Start producing screenshots, diagrams, and screencasts for each blog post section
+- [ ] Request release image for the blog post in #marketing
 
 ## 3 working days before release
 
@@ -63,7 +64,7 @@ Add events to the shared Release Schedule calendar in Google and invite team@sou
   - [ ] Pin new release tweet
   - [ ] Confirm with Marketing if tweet will be promoted
 - [ ] Send email in HubSpot
-- [ ] Create new `notice` in [Sourcegraph.com global settings](https://sourcegraph.com/site-admin/global-settings)
+- [ ] Create new `notice` on Sourcegraph.com by creating a pull request to modify the global settings (`sourcegraph-frontend.ConfigMap.yaml`) in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com).
    ```
    "notices": [
      {
