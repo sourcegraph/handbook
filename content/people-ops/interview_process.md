@@ -15,11 +15,11 @@ We want to mimimize the bias in our hiring process, so we will try to avoid sche
 
 ## Scheduling
 
-We do not try to schedule all interviews for a candidate on a single day. There are a few reasons for this:
+We are flexible when it comes to scheduling interviews because we are all-remote and we don't need to schedule all interviews back-to-back (unlike typical onsite interviews at other companies).
 
-- It isn't a good candidate experience to have a lot of back-to back-interviews. We try to avoid more than 2 hours of consecutive interviews for a candidate.
-- Even if we wanted to schedule back-to-back interviews, it is generally very difficult to do so given our worldwide team.
-- If interview feedback from a first set of interviews is sufficiently negative, we can cancel remaining scheduled interviews to save ourselves and the candidate time.
+- We try to schedule interviews as soon as possible given the availability of the candidate and our interviewers.
+- We try to avoid more than 2 hours of consecutive interviews for a candidate.
+- If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save ourselves and the candidate time.
 
 ## Writing feedback
 
@@ -58,7 +58,7 @@ The hiring manager runs the debrief. The group spends the first 5 minutes of the
 | Sentiment                                | Outcome                                                                                                                             |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Not enough excitement or serious doubts. | End interview process by not making an offer.                                                                                       |
-| Sufficient excitement but some doubts.   | Move forward with a followup call where the hiring manager directly asks questions that would either validate or dispel all doubts. |
+| Interest in moving forward, but we are missing some signal. | Move forward with a followup call where the hiring manager asks direct and specific questions to gather the missing signal. |
 | Sufficient excitement and no doubts.     | Move forward with an offer.                                                                                                         |
 
 Candidate feedback will not be shared with anyone that didn't participate in the interview panel.
