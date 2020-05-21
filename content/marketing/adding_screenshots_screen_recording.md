@@ -36,7 +36,7 @@ Nice workflow, great screenshot annotations (also does basic GIF and video recor
 - If needed, use screenshot annotations to further contextualize visual elements
 - Consider adding a caption below the image for additional context and information
 - Export as a PNG if the color palette is limited, else JPEG compression at 70-80% quality
-- The total file size should be less than 100Kb (faster loading time = better UX). If larger, it should be uploaded to [sourcegraph-assets](https://console.cloud.google.com/storage/browser/sourcegraph-assets/docs/images/?project=sourcegraph-de&folder=true&organizationId=true) on Google Cloud storage and linked to
+- The total file size should be less than 100Kb (faster loading time = better UX). If larger, it should be uploaded to [sourcegraph-assets](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true) on Google Cloud storage and linked to
 
 ## Adding a screen recording (screencast)
 
@@ -93,6 +93,11 @@ But to get you started, here are some essential tips:
 <!-- todo(ryan): Move Podcasting guide to handbook-->
 More tips and recommendations are in our [podcasting guide](https://docs.google.com/document/d/1pHvSvLCjFiVoKZF3l27EBsCLjBNFTY6k_TEMAqSqiZ4) and you can also reach out to Ryan Blunden who would love to chat about all things voice-overs and audio, including who can provide voice-over coaching and mixing services.
 
+### Recording your voiceover
+
+- If using ScreenFlow 9, you can record audio using the narration feature which can be accessed from the menu bar: **Insert** > **Narration**
+- Use your phone to record your voice-over, then import the audio file into ScreenFlow (produces a better sounding result than using your laptop microphone)
+
 ## Adding start/end screens to videos
 
 We don't typically use these but that doesn't mean anything should stop you. Reach out in the `#marketing` channel if you need any graphics designed for your video.
@@ -108,7 +113,7 @@ Provided your image is less than 100Kb, it can be added to the same repository t
 Before you go to upload your video, ensure someone from the marketing team has added you as an owner for the Sourcegraph brand account (shown below) as we want all Sourcegraph videos to be owned by the brand account.
 
 <div class="text-center">
-  <img src="https://storage.cloud.google.com/sourcegraph-assets/handbook/make-sourcegraph-brand-owner.gif" class="drop-shadow"/>
+  <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/make-sourcegraph-brand-owner.gif" class="drop-shadow"/>
 </div>
 
 <br/>
@@ -116,7 +121,7 @@ Once you’ve been added as an owner, switch to the Sourcegraph user account.
 <br/>
 
 <div class="text-center">
-  <img src="https://storage.cloud.google.com/sourcegraph-assets/handbook/youtube-switch-account.gif"class="drop-shadow"/>
+  <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/youtube-switch-account.gif"class="drop-shadow"/>
 </div>
 
 Export your video in 16:9 ratio (should probably be 720p), then [upload your video to YouTube](https://studio.youtube.com/channel/UCOy2N25-AHqE43XupT9mwZQ):
