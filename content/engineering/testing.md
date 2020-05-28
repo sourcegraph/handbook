@@ -91,9 +91,7 @@ We use [Percy](https://percy.io/) to detect visual changes in Sourcegraph featur
 
 ## Conventions
 
-- **Naming tests in Go code.** We strive to follow these conventions when naming Go test functions:
-  - General rule: avoid using `_` immediately after `Test`. Instead, if testing a function like `fooBar`, the test is called `TestFooBar` and not `Test_fooBar`. 
-  - Using underscores to separate function names and types, [for example](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/golang/go%24%40go1.14.3+func+Test.*_&patternType=regexp&case=yes), is fine. 
+- **Naming tests in Go code.** We strive to follow the same naming convention for Go test functions as described for [naming example functions in the Go testing package](https://golang.org/pkg/testing/#hdr-Examples).
 
 ## Other
 
