@@ -26,3 +26,22 @@ All of the above sources of feedback (with the exception of HubSpot forms) requi
 - **Slack integration:** Hover on a message containing feedback, select the more actions menu (three vertical dots), and then choose 'Push to productboard'.
 - **[browser extension](https://chrome.google.com/webstore/detail/productboard-make-product/mlpbdkpkicfkhgagnoamdcimmhdkakni?hl=en):** Use the browser extension for quick entry from a web page, or to just simply enter information when you think of it.
 - **[forwarding email address](mailto:inbox-hkpsum5melnwcauyjvztbtsq@inbound.productboard.com):** You can forward email threads, or write notes as emails to push information to productboard.
+
+## Email lists
+
+We have a few different email lists that are used to send us feedback.
+
+### hi@sourcegraph.com
+
+- **Purpose:** This email list is used as the reply-to for our release emails, and is a general way for people to reach out and get in touch.
+- **Owner:** The product team owns replying to all incoming emails, and routing them as appropriate to Support, Sales, Hiring, etc.
+
+### feedback@sourcegraph.com
+
+- **Purpose:** This email list is used to request feedback from inside of Sourcegraph, and to give to customers to reach our product team with their feedback directly.
+- **Owner:** The product team owns replying to all emails, and triaging all feedback delivered.
+
+### support@sourcegraph.com
+
+- **Purpose:** This email list is for customers to request help and creates tickets in JIRA for our Customer Engineering team.
+- **Owner:** The Customer Engineering team is responsible for all support issues and will pull in as needed engineering teams or product to help answer questions.
