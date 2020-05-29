@@ -77,6 +77,7 @@ Go, Docker, Kubernetes
 
 * [Recurring processes](./recurring_processes.md)
 * [Internal infrastructure](./internal_infrastructure.md)
+* [Tools](./tools/index.md)
 * Tutorials
   * [Observability developer guide](observability/index.md)
   * [How to set up a separate website maintained by Sourcegraph](separate_website.md)
