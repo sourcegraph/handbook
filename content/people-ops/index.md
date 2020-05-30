@@ -27,6 +27,10 @@ See job descriptions and responsibilities of roles on the People Ops team:
 
 - TODO
 
+## Code of conduct
+
+- [Anti-corruption/anti-bribery](anti-corruption.md)
+
 ## General office information
 
 ### Business address and contact information
