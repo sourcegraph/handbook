@@ -191,3 +191,7 @@ Consider the common case of using "setup" as a verb, as in "To setup the cluster
 To dispute a guideline in this style guide, argue based on effectiveness, not correctness.
 
 For further reading, see [linguistic prescription on Wikipedia](https://en.wikipedia.org/wiki/Linguistic_prescription).
+
+## Other good style guides
+
+- [Monzo's Tone of Voice](https://monzo.com/tone-of-voice/)
