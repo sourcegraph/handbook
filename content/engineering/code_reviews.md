@@ -36,6 +36,8 @@ Once a change is ready for review it may go through a few review cycles, in gene
 1. Author addresses feedback, ensuring they have marked each comment as resolved. This can be relaxed if a comment was just a suggestion or a small nit. The goal is to communicate to the reviewer what has changed since they last reviewed.
 1. Author leaves a comment letting the reviewers know it is ready for another pass. Back to step 1.
 
+Use your best judgement when deciding if another review cycle is needed. If your PR has been approved and the only changes you've made are ones that the approver would expect: accepting a suggestion around a name, or fleshing out some documentation, or something else that is low risk and you're comfortable with, you may choose to avoid another cycle and merge. However, you can always ask for more feedback if you're not totally comfortable.
+
 ## When is a code review not required?
 
 We do not technically prevent PRs from being merged before being explicitly approved because there exist PRs that are appropriate to merge without waiting for a review.
