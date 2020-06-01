@@ -11,7 +11,7 @@ The Product team strives to make the following true:
 See job descriptions and responsibilities of roles on the Product team:
 
 - [Product Manager](roles.md#product-manager) ([We're hiring!](https://github.com/sourcegraph/careers/blob/master/job-descriptions/product-manager.md))
-- [Product Designer](roles.md#product-designer) ([We're hiring!](https://github.com/sourcegraph/careers/blob/master/job-descriptions/ux-designer.md))
+- [Product Designer](roles.md#product-designer)
 
 ## Resources
 

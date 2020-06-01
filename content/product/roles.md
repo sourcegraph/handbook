@@ -19,8 +19,6 @@ You work with engineering, sales, marketing, and design to plan, ship, and grow 
 
 ## Product Designer
 
-[We're hiring!](https://github.com/sourcegraph/careers/blob/master/job-descriptions/ux-designer.md)
-
 You work collaboratively with product and engineering to create a highly functional and beautiful experience that delights a technical audience. You will help us build the design team and shape the design culture at Sourcegraph.
 
 ### Responsibilities
