@@ -1,6 +1,6 @@
 # Resources report tool [![Resources Report](https://github.com/sourcegraph/sourcegraph/workflows/Resources%20Report/badge.svg)](https://github.com/sourcegraph/sourcegraph/actions?query=workflow%3A%22Resources+Report%22)
 
-This tool reports on the status of various resources in AWS and GCP accounts. It runs on a regular basis as a GitHub Action and sends the results to the `#distributioneers` channel on a regular basis as a Google spreadsheet as a Slack message. The report can be accessed directly [here](https://docs.google.com/spreadsheets/d/1_bHvFXBVvtg3jOgq6fPuHFO0NlASW7SEJ3ip1bMuWJw/) as well, and the source code (and documentation on configuring the tool) is available [here](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/resources-report).
+This tool reports on the status of various resources in AWS and GCP accounts. It runs on a regular basis as a GitHub Action and sends the results to the `#distributioneers` channel on a regular basis as a Google spreadsheet linked via a Slack message. The report can be accessed directly [here](https://docs.google.com/spreadsheets/d/1_bHvFXBVvtg3jOgq6fPuHFO0NlASW7SEJ3ip1bMuWJw/) as well, and the source code (and documentation on configuring the tool) is available [here](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/resources-report).
 
 ## Using the report
 
