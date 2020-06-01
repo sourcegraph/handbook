@@ -8,6 +8,8 @@ The Product team strives to make the following true:
 
 ## [Roles](roles.md)
 
+[Onboarding to the product team](./onboarding/index.md)
+
 See job descriptions and responsibilities of roles on the Product team:
 
 - [Product Manager](roles.md#product-manager) ([We're hiring!](https://github.com/sourcegraph/careers/blob/master/job-descriptions/product-manager.md))
@@ -17,7 +19,9 @@ See job descriptions and responsibilities of roles on the Product team:
 
 - The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
 - [Personas](personas.md)
-- [Looker dashboard](https://sourcegraph.looker.com/browse/boards/5)
+- [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
+- [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
+- [Productboard](https://sourcegraph.productboard.com/)
 
 ## Product planning
 
