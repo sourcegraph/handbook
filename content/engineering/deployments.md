@@ -299,18 +299,24 @@ In order to mimic the same workflow that we tell our customers to follow:
     - If there are any merge conflicts in this step, you may `git checkout master && git rev-parse HEAD && git reset --hard upstream/master && git push -f origin master` which should always be 100% safe to do.
 1. `git checkout release && git checkout -B merge_upstream` to create a branch where you will perform the merge.
 1. `git merge upstream/master` to merge `deploy-sourcegraph@master` into `merge_upstream`
-    - This will give you conflicts which you should address manually.
-    - **Before you commit**, ensure the commit message indicates which files had conflicts for reviewers to look at.
+    - This will give you conflicts which you should address manually:
+      - On docker image tags conflicts (`image:`), choose the `insiders` tag to allow renovate to deploy new builds.
+      - On script conflicts (`create-new-cluster.sh`, `kubectl-apply-all.sh`, etc.), look for comments like `This is a custom script for dot-com` that indicate you should choose the current state over incoming changes.
+    - If new services have been added (these generally show up as created files in `base/`), make sure that:
+      - `namespace: prod` is applied to all new resource metadata.
     - Use `kubectl apply --dry-run --validate --recursive -f base/` to validate your work.
-    - When resolving conflicts to docker image tags choose the `insiders` tag to allow renovate to deploy new builds.
+    - **Before you commit**, ensure the commit message indicates which files had conflicts for reviewers to look at.
+      - Using the default merge commit message, you can copy or uncomment the lines following `Conflicts`.
 1. Send a PR to this repository for merging `merge_upstream` into `release`.
 1. Reviewers should review:
     - The conflicting files.
     - If there are any risks associated with merging that should be watched out for / addressed, 
       such as [documented manual migrations](https://docs.sourcegraph.com/admin/updates/kubernetes)
       that will need to be performed as part of merging the PR.
-1. If there are any manual migrations needed, coordinate with the distribution team and apply those first.      
+1. If there are any manual migrations needed, coordinate with the distribution team and apply those first. 
+    - For example, new services that require elevated permissions might not be deployed by Buildkite - this must be done manually.
 1. Once approved, **squash merge your PR so it can be easily reverted if needed**.
+    - In general, it might be a good idea to avoid doing this at the end of a PDT workday - if something goes wrong, it is easier to get help if other people are around.
 1. Watch CI, which will deploy the change automatically.
 1. Check the deployment is healthy afterwards (`kubectl get pods` should show all healthy, searching should work).
 
