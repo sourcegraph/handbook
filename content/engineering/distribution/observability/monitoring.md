@@ -140,9 +140,13 @@ kubectl port-forward svc/prometheus 30090:30090
 Then make one of the following changes to the Grafana development datasources:
 
 * `url: http://host.docker.internal:30090` in [`dev/all/prometheus`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@master/-/blob/dev/grafana/all/prometheus.yaml) (non-Linux)
-* `url: http://127.0.0.1:9090` in [`dev/linux/prometheus`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@master/-/blob/dev/grafana/linux/prometheus.yaml) (Linux)
+* `url: http://127.0.0.1:30090` in [`dev/linux/prometheus`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@master/-/blob/dev/grafana/linux/prometheus.yaml) (Linux)
 
-and rerun `./dev/start.sh` or `./enterprise/dev/start.sh`. If you want to avoid spinning up in the entire Sourcegraph stack and just want to look at Grafana, you can also use `./dev/grafana.sh`.
+and rerun `./dev/start.sh` or `./enterprise/dev/start.sh`. If you want to avoid spinning up in the entire Sourcegraph stack and just want to look at Grafana, you can also use `./dev/grafana.sh`. If you use `./dev/grafana.sh`, you can skip the datasource change above and just use the following port-forward to take the place of the normal development Prometheus instance:
+
+```sh
+kubectl port-forward svc/prometheus 9090:30090 -n prod
+```
 
 ## Additional reading
 
