@@ -35,3 +35,18 @@ When I write an AWS Lambda function I want to focus on which requests it receive
 When I deploy a static site on Netlify I want to focus on my site — its content and design — and not think about where it's deployed, how to get new SSL certificates, how to install dependencies to run the static site generator on a server, how to preview the site in a pull request.
 
 When I create a campaign to make large-scale code changes I want to _focus on the specific change I want to make across all of the code at my organization_. I don't want to worry about all of the overhead associated with execution, code hosts, and management of all things listed above.
+
+## Members
+
+- [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him) ([project lead](../roles.md#project-lead))
+- [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
+- [Erik Seliger](../../../company/team/index.md#erik-seliger)
+
+## Hiring status
+
+_Updated 2020-06-02_
+
+We are hiring for these roles:
+
+- +1 [Engineering Manager - Product](https://github.com/sourcegraph/careers/blob/master/job-descriptions/engineering-manager-product.md)
+- +1 [Software Engineer - Frontend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md)

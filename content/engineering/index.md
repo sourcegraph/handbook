@@ -39,7 +39,17 @@ If there is a dispute about ownership, then perform a [clean escalation](../comm
 
 ## Teams
 
-[How engineering is organized](organization.md).
+Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission.
+
+- [Distribution](distribution/index.md)
+- [Campaigns](campaigns/index.md)
+- [Cloud](cloud/index.md)
+- [Code intelligence](code-intelligence/index.md)
+- [Search](search/index.md)
+- [Security](security/index.md)
+- [Web](web/index.md)
+
+The leader of each team is responsible for ensuring appropriate cross-team collaboration happens when shared infrastructure needs to change.
 
 ## Repositories
 

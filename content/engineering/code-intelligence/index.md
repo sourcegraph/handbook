@@ -42,3 +42,18 @@ Prior to the weekly sync meeting, each team member should:
 3. Update the current release [tracking issue](../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
 
 We track most of our work using [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
+
+## Members
+
+- [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) ([engineering manager](../roles.md#engineering-manager))
+- [Eric Fritz](../../../company/team/index.md#eric-fritz) 
+- [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
+
+## Hiring status
+
+_Updated 2020-06-02_
+
+We are hiring for these roles:
+
+- +2 [Software Engineer - Code intelligence](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-code-intelligence.md)
+- +1 [Engineering Manager - Product](https://github.com/sourcegraph/careers/blob/master/job-descriptions/engineering-manager-product.md)

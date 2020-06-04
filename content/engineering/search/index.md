@@ -25,3 +25,17 @@ The search team has divided the responsibilities of a [Project Lead](../roles.md
 - Preparing and delegating delivery of the team slide for weekly meetings.
 - Conducting monthly retrospectives with the team.
 - Communicating progress to stakeholders and other parts of the company.
+
+## Members
+
+- [Loïc Guychard](../../../company/team/index.md#loic-guychard) (will transition to [engineering manager](../roles.md#engineering-manager) by 2020-07-01)
+- [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith) (dividing his time between this team and [cloud](../cloud/index.md))
+- [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
+- [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
+- [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
+
+## Hiring status
+
+_Updated 2020-06-02_
+
+TODO: need to discuss hiring needs for this team.

@@ -85,3 +85,19 @@ Go, Docker, Kubernetes
   * [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
   * [How to test the Gitlab native integration locally](gitlab_native_local.md)
   * [How to make updates to global settings and configuration on sourcegraph.com](update_sourcegraph_website.md)
+
+## Members
+
+- [G. P.](https://hire.lever.co/search/5f3b284f-04ce-4bdc-86ba-f9eed6a0ae9e) ([engineering manager](../roles.md#engineering-manager)) estimated start date in June.
+- [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) ([project lead](../roles.md#project-lead))
+- [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
+- [Uwe Hoffmann](../../../company/team/index.md#uwe-hoffmann)
+- [Dave Try](../../../company/team/index.md#dave-try)
+- [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
+- [Robert Lin](../../../company/team/index.md#robert-lin) (2020 intern)
+
+## Hiring status
+
+_Updated 2020-06-02_
+
+The team has doubled in size recently so it isn't a high priority to grow this team further, but we are always open to hiring exceptional people. [Apply here](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-distribution.md).
