@@ -41,8 +41,11 @@ An inquiry is a person who has requested information from Sourcegraph for the fi
 
 A marketing qualified lead (MQL) is any of:
 
-- A person who fills out a demo request form AND self-reports an engineering team of >100 or has a title containing `Director`, `Manager`, `VP`, `Vice President`, `Senior`, `Sr`, 	`Head`, `Lead`, `CTO` or `Chief Technology Offier`
-- A person who sets up a new Sourcegraph instance with a business email (personal email domains and .edu addresses do not qualify)
+- A person who submits a demo or contact form AND has >= 200 engineers
+- A person who sets up a new Sourcegraph instance AND >= 2,000 employees
+- A person downloads an eBook or white paper AND has >= 500 engineers and/or >= 2,000 employees
+
+[Specific email domains](https://app.hubspot.com/property-settings/2762526/properties?action=edit&property=inbound_scoring_qualification&search=inbou&type=0-1) are excluded.
 
 ### [SQL](../sales/index.md#lead) (sales-qualified lead)
 
