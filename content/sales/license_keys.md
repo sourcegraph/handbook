@@ -42,3 +42,7 @@ Unfortunately, once a license key is created, it will be valid to use until it e
 If a customer has already accessed and copied the key, there is nothing we can do. As a result, try to minimize the duration and user count on keys to only that which is actually necessary. As an example, if you want to create an "unlimited" license for a company that has 100 employees, don't create a key that allows 999,999,999 to achieve that. This minimizes any risks of the key becoming exposed. Instead, create one that is close to the acutal total, as we can always [create a new, larger key](#how-to-create-a-license-key-for-a-renewal-or-upgrade) for them in the future.
 
 However, if you make a mistake while creating a key, and haven't yet sent it to the user, it's easy to hide it. Users can only ever see the latest key on their subscription. So just re-follow the steps above (from the "Click **Generate new license key manually**" step onwards) and they will never be able to see the incorrect key.
+
+## Viewing current license keys
+
+All license keys can be found in a [complete list](https://sourcegraph.looker.com/looks/635) or in the individual [instance views](https://sourcegraph.looker.com/dashboards/94).
