@@ -4,7 +4,6 @@
 
 The source-of-truth for our open positions is [our careers repository](https://github.com/sourcegraph/careers).
 
-
 ## Values and practices
 
 1. We want our hiring process to access all potential qualified candidates.
@@ -58,4 +57,4 @@ If any interviewer is asked by a candidate for interview feedback, they may resp
 
 ## Respecting time
 
-Interviewing requires time and effort, both for us and for candidates. If we determine that we won't be moving forward in our hiring process before a candidate has completed all interviews, then we will cancel the remaining interviews to be respectful of both the candidate's and interviewers' time.
+Interviewing requires time and effort, both for us and for candidates. The hiring manager is responsible for monitoring feedback during the interview phase, and if it becomes obvious that we won't be moving forward with a candidate, then the hiring manager should cancel any remaining interviews to be respectful of both the candidate's and interviewers' time.
