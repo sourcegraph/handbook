@@ -320,3 +320,43 @@ In order to mimic the same workflow that we tell our customers to follow:
 1. Watch CI, which will deploy the change automatically.
 1. Check the deployment is healthy afterwards (`kubectl get pods` should show all healthy, searching should work).
 
+### Troubleshooting out of sync updates on Pulumi
+
+If out of sync changes occur on the dogfood cluster or a pod is failing, Pulumi can end up in an interrupted state and the `pulumi-refresh.sh` build step will not pass on buildkite. If this occurs, follow these steps to fix edit the deployment directly and remediate the issues that are failing the build step:
+
+1. From your local clone of the dogfood repo, run:
+```
+pulumi stack export > stack.json
+```
+
+2. In the file search for the `pending_operations` block and verify the pending operation is the same as that failing in the buildkite logs. 
+
+buildkite.log
+```bash
+error: the current deployment has 1 resource(s) with pending operations:
+  * urn:pulumi:ds-dog-k8s-dev::sg-deploy-k8s-helper::kubernetes:yaml:ConfigGroup$kubernetes:yaml:ConfigFile$kubernetes:apps/v1:Deployment::prometheus, interrupted while updating
+```
+
+stack.json
+```bash
+"pending_operations": [
+  {
+      "resource": {
+          "urn": "urn:pulumi:ds-dog-k8s-dev::sg-deploy-k8s-helper::kubernetes:yaml:ConfigGroup$kubernetes:yaml:ConfigFile$kubernetes:apps/v1:Deployment::prometheus",
+      ...
+      },
+      "type": "updating"
+  }
+]
+```
+
+3. Edit the `stack.json` file and remove the resource in question.
+
+4. Import the stack by running:
+```
+pulumi stack import --file stack.json
+```
+
+5. Trigger the build again from buildkite and ensure all build steps pass.
+
+For more information see the Pulumi [documentation](https://www.pulumi.com/docs/troubleshooting/#editing-your-deployment)
