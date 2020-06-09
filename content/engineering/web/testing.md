@@ -68,7 +68,7 @@ This means when a layer below is changed or breaks, the tests for the layers abo
 It also means that the test doesn't just need to pass stubs for the immediate dependencies of the unit, but also for the dependencies of every unit beneath it in the call tree.
 This directly means that if the interface of any unit beneath it changes, the tests of all units above it need to change too, violating goal (4).
 
-![Nested call tree diagram](./nested_call_tree.svg)
+<img alt="Nested call tree diagram" src="./nested_call_tree.svg" width="100%" />
 
 In this simplified example call graph, to test unit B, we need to provide stubs for all the dependencies of C and D in addition to those of B itself.
 If the interface of those dependencies for C or D change, we now need to update all unit tests of B in addition to those of C or D.
@@ -79,7 +79,7 @@ Instead, strive to write functions that take only the data they need and return 
 The top level takes care of composing these functions.
 This way each function can be tested individually with minimal stubbing effort and minimal chance of violating goals (3) and (4).
 
-![Flat call tree diagram](./flat_call_tree.svg)
+<img alt="Flat call tree diagram" src="./flat_call_tree.svg" width="100%" />
 
 In the updated example call graph, to test any of the units B-G, we now only need to pass stubs for their own respective dependencies.
 If any of their interfaces change, it will only affect the unit tests of direct dependents.
