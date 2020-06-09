@@ -24,7 +24,7 @@ We do not tolerate flaky tests of any kind. Any engineer that sees a flaky test 
 
 If the build or test infrastructure itself is flaky, then [open an issue](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/distribution) and notify the [distribution team](distribution/index.md#contact).
 
-## Testing pyramid 
+## Testing pyramid
 
 ![Testing pyramid](testing-pyramid.svg)
 
@@ -95,4 +95,5 @@ We use [Percy](https://percy.io/) to detect visual changes in Sourcegraph featur
 
 ## Other
 
-[Documentation for running tests in sourcegraph/sourcegraph](https://sourcegraph.sgdev.org/sourcegraph/sourcegraph/-/blob/doc/dev/testing.md).
+- [Documentation for running tests in sourcegraph/sourcegraph](https://docs.sourcegraph.com/dev/testing)
+- [Web-specific testing guide](./web/testing.md)
