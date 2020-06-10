@@ -83,6 +83,10 @@ The built-in (non-universal) code search functionality of many code hosts (inclu
 >
 > We initially considered having Sourcegraph use Elasticsearch under the hood. But we decided to build our own search that is optimized for code, because code is a very special kind of data with meaningful structure, history, and (of course) punctuation and special characters that Elasticsearch was not built to handle.
 
+## Can users sign in via LDAP?
+
+> Usually companies with LDAP have Okta, OneLogin, or some other SSO and prefer sign-in through that, using our [user authentication support](https://docs.sourcegraph.com/admin/auth). If someone insists on LDAP, you can point them to [@beyang's comment on issue #618](https://github.com/sourcegraph/sourcegraph/issues/618#issuecomment-438778854) or ask them those questions directly.
+
 ## Needs answer
 
 - What’s the recommended resource provisioning on our end for optimal search performance at scale?
