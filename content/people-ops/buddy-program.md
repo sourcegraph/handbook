@@ -29,8 +29,11 @@ An onboarding buddy is essentially a new teammate’s first friend– someone to
 
 - Month 3: 1x a month for 25 min.
 
+People Ops will set up a recurring invite for buddies to meet.
 
 ## Buddy selection
 - Can be on the same team or on a different team.
+
+- Will ideally have been at Sourcegraph for at least 3 months. 
 
 - Will ideally be on the same timezone so they can be easily accessible.
