@@ -23,7 +23,7 @@ The Code Intelligence team builds tools and services that provide contextual inf
 
 ## Tech stack
 
-Most of the Code Intelligence tools and infrastructure are implemented in Go and TypeScript. Precise code indexers are written in a variety of languages, as needed.  We use Postgres and SQLite for data storage.
+Precise code intelligence-specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use SQLite databases to store data specific to a particular LSIF index and Postgres to store all other data.
 
 ## Team documentation & planning
 
