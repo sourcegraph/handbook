@@ -29,10 +29,6 @@ Company culture is a product of the many actions we take every day as individual
 * You will work with others who have personal opinions or beliefs that differ from your own. Strive to overcome these differences to find common cause.
 * There are often exceptions to the rule. Use your best judgment in all situations.
 
-## Recruiting
-
-Our recruiting pipeline consists of both inbound and outbound candidates. If we believe there is a talented set of individuals who are not applying to our team, we will initiate outbound efforts to reach them. We believe there is value in reaching out to candidates who are not directly connected to the social graph of our team today.
-
 ## Onboarding
 
 Every new hire is paired with an "onboarding buddy" teammate who has been with the team for some time. This buddy is there to help support the new teammate as they come up to speed. In addition, we believe that helping a new hire integrate into the team is the highest priority for the team.

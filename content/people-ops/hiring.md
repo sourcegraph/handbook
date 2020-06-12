@@ -1,13 +1,10 @@
 # Hiring
 
-## Tools
-
-The source-of-truth for our open positions is [our careers repository](https://github.com/sourcegraph/careers).
-
 ## Values and practices
 
 1. We want our hiring process to access all potential qualified candidates.
    - We proactively promote our open positions to many different groups, communities, and networks.
+   - If we believe there is a talented set of individuals who are not applying to our team, we will initiate outbound efforts to reach them. We believe there is value in reaching out to candidates who are not directly connected to the social graph of our team today.
 2. We want our hiring process to be fair to all candidates.
    - Our job descriptions use inclusive language.
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
@@ -15,6 +12,18 @@ The source-of-truth for our open positions is [our careers repository](https://g
    - Interviewers take written notes during the interview so there is an objective record of the interview that can be referenced when making a hiring decision.
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
+
+## Open positions
+
+The source-of-truth for our open positions is [our careers repository](https://github.com/sourcegraph/careers).
+
+We cross-post our open positions to the following locations:
+
+- [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
+- ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md)
+- [RemoteWoman](https://remotewoman.com/)
+
+We welcome suggestions for more places that we can post!
 
 ## Job descriptions
 
@@ -37,6 +46,10 @@ We review each candidate at each stage of our hiring pipeline (e.g. application,
     - Does this candidate have the skills and experience that we are looking for?
     - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
     - What makes us excited about hiring this candidate?
+
+## Hiring flow
+
+For any members of a hiring team, please see [this folder](https://drive.google.com/drive/u/0/folders/1tJAroT8Z1sPnWkETSbe2mFFaD5_g7Q_E) for a breakdown of each team's hiring process. The documents will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
 
 ## [Interview process](interview_process.md)
 

@@ -7,7 +7,6 @@
 ## Teammate experience
 - [All-remote work](../../company/remote/index.md)
 - [Hiring](hiring.md)
-- [Hiring flow](hiring-flow.md)
 - [Onboarding](onboarding/index.md)
 - [Performance review cycles](review-cycles.md)
 - [Leaving](leaving.md)
