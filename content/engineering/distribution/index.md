@@ -34,7 +34,7 @@ Distribution team members may also be involved in other areas of Sourcegraph not
         - Cloud-specific setup docs (AWS/Google Cloud)
         - Deployment setup & upgrade docs
         - **Primary owners:** @uwe, @geoffrey
-        - **Related code**: [deploy-sourcegraph repository](https://github.com/sourcegraph/deploy-sourcegraph), [cluster installation docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/admin/install/cluster.md) 
+        - **Related code**: [deploy-sourcegraph repository](https://github.com/sourcegraph/deploy-sourcegraph), [cluster installation docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/admin/install/cluster.md)
     - **Docker Compose & pure-docker installation & upgrade experience**
         - Docker-compose YAML & associated tooling
         - Pure-docker shell scripts & upgrade docs
@@ -93,7 +93,6 @@ Go, Docker, Kubernetes
 - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
 - [Uwe Hoffmann](../../../company/team/index.md#uwe-hoffmann)
 - [Dave Try](../../../company/team/index.md#dave-try)
-- [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
 - [Robert Lin](../../../company/team/index.md#robert-lin) (2020 intern)
 
 ## Hiring status

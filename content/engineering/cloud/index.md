@@ -21,6 +21,7 @@ We do [weekly check-ins](../tracking_issues.md#using-a-tracking-issue-for-progre
 - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith) (dividing his time between this team and [search](../search/index.md))
 - [Joe Chen](../../../company/team/index.md#joe-chen)
 - [Ryan Slade](../../../company/team/index.md#ryan-slade)
+- [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
 - [S. H.](https://hire.withgoogle.com/t/sourcegraphcom/hiring/candidates/P_AAAAAADAAC5PmuMMFoUSu3/P_AAAAAADAAC5KUwmkNJrovt) starting in July
 
 ## Hiring status
