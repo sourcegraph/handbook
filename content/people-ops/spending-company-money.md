@@ -37,8 +37,8 @@ The budget for interns is $750 and includes only the electronic items in the "De
 
 **Camera** for people who present externally to clients and prospects
 
-## Laptops
-Once your contract is signed, you will need to purchase and expense your Sourcegraph laptop. Laptops and laptop insurance are fully reimbursable outside of the $1500 all-in budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
+## Computers
+Once your contract is signed, you will need to purchase and expense your Sourcegraph computer. Computers and laptop insurance are fully reimbursable outside of the $1500 all-in budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
 
 **Laptop (engineers):**
 
@@ -49,6 +49,10 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 - [13" MacBook Pro, 2.4 GHz 4-core, 8 GB, 256 GB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-256gb-2.4ghz-quad-core-processor-with-turbo-boost-up-to-4.1ghz#). If you need to update any specs, please reach out to @sourcegraph/people-ops's for approval. 
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
+
+**Other computer**
+
+- If you want something different (such as a desktop computer), that is obviously fine. If it's more expensive than the laptops listed above, please check with @sourcegraph/people-ops first.
 
 ## Recurring expenses
 
