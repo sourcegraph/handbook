@@ -13,7 +13,9 @@ This document describes how to develop Sourcegraph's monitoring:
 - [How easy is it to add monitoring?](#how-easy-is-it-to-add-monitoring)
   - [(optional) configure panel options](#optional-configure-panel-options)
   - [(optional) add solution documentation](#optional-add-solution-documentation)
-- [Connecting Grafana to a remote Prometheus instance](#connecting-grafana-to-a-remote-prometheus-instance)
+- [Grafana](#grafana)
+  - [Connecting Grafana to a remote Prometheus instance](#connecting-grafana-to-a-remote-prometheus-instance)
+  - [Upgrading Grafana](#upgrading-grafana)
 - [Additional reading](#additional-reading)
 - [Next steps](#next-steps)
 
@@ -129,7 +131,11 @@ It's best if you also add some Markdown documentation with your best guess of wh
 
 Once you save the file, `doc/admin/observability/alert_solutions.md` will automatically be regenerated and you can even preview your changes at [http://localhost:5080/admin/observability/alert_solutions](http://localhost:5080/admin/observability/alert_solutions).
 
-## Connecting Grafana to a remote Prometheus instance
+## Grafana
+
+Sourcegraph uses a custom Grafana image, [`sourcegraph/grafana`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/grafana).
+
+### Connecting Grafana to a remote Prometheus instance
 
 You may wish to connect Grafana to a remote Prometheus instance, like Sourcegraph.com, to show more real data than is available on your dev server. You may do so by getting `kubectl` connected to a Sourcegraph cluster and then port-forwarding via:
 
@@ -142,11 +148,25 @@ Then make one of the following changes to the Grafana development datasources:
 * `url: http://host.docker.internal:30090` in [`dev/all/prometheus`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@master/-/blob/dev/grafana/all/prometheus.yaml) (non-Linux)
 * `url: http://127.0.0.1:30090` in [`dev/linux/prometheus`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@master/-/blob/dev/grafana/linux/prometheus.yaml) (Linux)
 
-and rerun `./dev/start.sh` or `./enterprise/dev/start.sh`. If you want to avoid spinning up in the entire Sourcegraph stack and just want to look at Grafana, you can also use `./dev/grafana.sh`. If you use `./dev/grafana.sh`, you can skip the datasource change above and just use the following port-forward to take the place of the normal development Prometheus instance:
+and rerun `./dev/start.sh` or `./enterprise/dev/start.sh`.
+
+If you want to avoid spinning up in the entire Sourcegraph stack and just want to look at Grafana, you can also use `./dev/grafana.sh`. You can skip the datasource change above and just use the following port-forward to take the place of the normal development Prometheus instance and run a standalone Grafana instance:
 
 ```sh
+DISABLE_SOURCEGRAPH_CONFIG=true ./dev/grafana.sh
 kubectl port-forward svc/prometheus 9090:30090 -n prod
 ```
+
+### Upgrading Grafana
+
+When upgrading our version of Grafana (declared in the [`sourcegraph/grafana` Dockerfile](https://github.com/sourcegraph/sourcegraph/blob/master/docker-images/grafana/Dockerfile)), make sure to:
+
+* Bump the version declared in the `sourcegraph/grafana` Dockerfile
+* Verify that no changes were made to the Grafana alerts format by comparing the [`site.schema.json` `GrafanaNotifier*`](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:site.schema.json+GrafanaNotifier&patternType=literal) schema with Grafana's alert provisioning documentation:
+  * [disk format for provisioning alerts](https://grafana.com/docs/grafana/v6.7/administration/provisioning/#alert-notification-channels) - these fields map to what should be allowable in the JSON schema
+  * [what each field accepts](https://grafana.com/docs/grafana/v6.7/alerting/notifications) - this documents the datatype of each field and what they do
+* Update [all links to Grafana documentation](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/*+grafana.com/docs/grafana&patternType=literal) to point to the correct version of Grafana
+* Run `dev/start.sh` and verify that all generated Grafana dashboards still render correctly
 
 ## Additional reading
 
