@@ -10,6 +10,7 @@
   - [Go](languages/go.md)
   - [TypeScript](languages/typescript.md)
 - [Testing](testing.md)
+- [Continuous integration](continuous_integration.md)
 - [Product documentation](product_documentation.md)
 - [Continuous releasability](continuous_releasability.md)
 - [Commit message guidelines](commit_messages.md)
