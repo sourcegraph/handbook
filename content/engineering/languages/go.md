@@ -143,3 +143,7 @@ total := add([]Vector(a, b, c))...)
 If we revisit the recommended organization, we can also see the usage of new lines. Newlines are something we kind of pepper in our code without really thinking about it. However, they can be really powerful signals. I recommend that you treat them like paragraph breaks -- if you don’t use any at all, your reader is lost. If you use them too much, your message is fragmented. They can help guide the user to where the logical components are.
 
 Be intentional with them!
+
+## Testing
+
+See guidelines for [testing Go code](./testing_go_code.md).

@@ -96,4 +96,5 @@ We use [Percy](https://percy.io/) to detect visual changes in Sourcegraph featur
 ## Other
 
 - [Documentation for running tests in sourcegraph/sourcegraph](https://docs.sourcegraph.com/dev/testing)
+- [Go-specific testing guide](./languages/testing_go_code.md)
 - [Web-specific testing guide](./web/testing.md)
