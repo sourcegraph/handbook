@@ -165,6 +165,18 @@ alias dbpod='kubectl get pods --namespace=prod | grep pgsql | cut -d " " -f 1'
 alias proddb='kubectl exec -it --namespace=prod $(dbpod) -- psql -U sg -P pager=off';
 ```
 
+##### Reauthenticate kubectl
+
+If you see the following when running `kubectl` commands:
+
+> Unable to connect to the server: x509: certificate signed by unknown authority
+
+Run:
+
+```
+gcloud container clusters get-credentials dot-com --zone us-central1-f --project sourcegraph-dev
+```
+
 ##### Check load average
 
 ```bash
