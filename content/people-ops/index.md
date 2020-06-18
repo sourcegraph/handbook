@@ -19,7 +19,7 @@
 - [Expense reports](expenses.md)
 - [Vacation/FTO](https://github.com/sourcegraph/Graphbook/blob/master/Holidays,%20FTO,%20and%20leaves%20of%20absence/Vacation%20and%20FTO.md)
 - [Holidays](holidays.md)
-- [Charities](charities.md)
+- [Donations](donations.md)
 
 ## [Roles](roles.md)
 

@@ -1,4 +1,4 @@
-# Charities
+# Donations
 
 If you are an employee based in the United States, you can set up recurring contributions to charity organizations through [Gusto](https://manage.gusto.com/giving). This makes applying tax credits each year simple as the W-2 form sent by Gusto will include your total charitable donations (Box 14 -- Other).
 
