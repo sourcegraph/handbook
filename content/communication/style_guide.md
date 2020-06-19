@@ -14,6 +14,7 @@ The goal of this style guide is to help us all achieve these goals when writing.
 - Render proper nouns as their creators prefer ("GitHub" not "Github").
 - Remove unnecessary words.
 - Punctuation goes outside of quotation marks, except in marketing when displaying a quote.
+- Punctuation goes outside of links ("Hello, [world](#dummy)." not "Hello, [world.](#dummy)").
 - Use the most popular US English spelling and phrasing.
 - Prefer the serial comma in lists, except where ambiguity would be introduced by including it.
 - No spaces between two terms separated by a slash ("a/b", not "a / b").
@@ -89,6 +90,8 @@ Refer to product features as normal, generic nouns.
 
 ### Links
 
+#### Use descriptive link labels
+
 The text of a link should be a short and specific description of what you'll see/do when you click.
 
 For example:
@@ -115,13 +118,14 @@ Never use any of the following as link text:
 - instructions
 - these instructions
 
+
 ### Instructions, references, and citations
 
 Render references to UI text in bold. Match the actual case of the UI text in other products even if it violates our style guide.
 
 > Click **Add user**.
 
-> In the \*_Single Sign On Url_ field, ...
+> In the _Single Sign On Url_ field, ...
 
 Refer to and cite other documents by quoting and linking their title. The quotation marks are not linked, and the period goes outside the quotes.
 
