@@ -58,16 +58,6 @@ We have many Slack channels. You don't have to join them all, but here is a good
 
 ### Engineering
 
-#### Engineering teams
-
-- #campaigns - All things related to code change management campaigns.
-- #code-intel - All things code intelligence.
-- #core-services - Repository management, authentication, stability -- you name it.
-- #distribution - Everything from how Sourcegraph is packaged and delivered to customers, to ensuring it works well for them).
-- #web - The webapp and browser extension, search UI/UX.
-
-#### Engineering general
-
 All engineers should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
 - #dev-announce - Things that affect a majority of the dev team in some way (e.g. site or buildkite is down, we will have expected downtime, etc.). *You should read every message in here, and messages you post to it should have a high signal-noise ratio.*
@@ -75,3 +65,5 @@ All engineers should join the following channels (feel free to adjust your notif
 - #dev-ops - discussing incidents and any other ops-related work
 - #buildkite - see notifications about Buildkite / CI failures.
 - #opsgenie - where pager notifications get sent to Slack
+
+You should also join channels mentioned in [your team's documentation](../engineering/index.md#teams)
