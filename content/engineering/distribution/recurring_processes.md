@@ -1,5 +1,16 @@
 # Recurring processes
 
+- [Quarterly](#quarterly)
+  - [OKRs](#okrs)
+- [Monthly](#monthly)
+  - [Milestone planning](#milestone-planning)
+  - [Retrospective](#retrospective)
+- [Weekly](#weekly)
+  - [Company meeting](#company-meeting)
+  - [Weekly Distribution team sync](#weekly-distribution-team-sync)
+  - [Bi-weekly async updates](#bi-weekly-async-updates)
+  - [Distribution management sync](#distribution-management-sync)
+
 ## Quarterly
 
 ### OKRs
@@ -118,33 +129,83 @@ come prepared to talk about the following:
 
 ## Weekly
 
-### Internal sync
+### Company meeting
 
-The [internal
-sync](https://docs.google.com/document/d/1otP6F8qfm2yNOW1hjTszkkuiYF1MGp31s5ATeA76ij4/edit) serves
-to share updates, sync on immediate plans and priorities, and discuss any topics that need
-discussing with the entire Distribution team.
+As with everyone at Sourcegraph, we join the [weekly company meeting](https://about.sourcegraph.com/handbook/communication/company_meeting) on Mondays @ 10:30am PST (when timezone permits, watching the recording otherwise).
 
-### External sync
+### Weekly Distribution team sync
 
-The [external
-sync](https://docs.google.com/document/d/1g9gb_i-Q6QXifISiS1urZ2gcfO2Pz-VHYqurW_94My4/edit)
-communicates progress updates and priority/planning changes between Distribution and the broader
-Engineering/Product organization. Since it mostly covers what was already discussed in the interanl sync, it is entirely optional for Distribution team members to join.
+Mon @ 2pm PST we hold an [internal
+team sync](https://docs.google.com/document/d/1otP6F8qfm2yNOW1hjTszkkuiYF1MGp31s5ATeA76ij4/edit) via Zoom. It usually does not involve product managers or higher ups. The goal is to:
 
-### Bi-weekly updates
+- Think about the problems we're solving by briefly going over what everyone is working on
+- Revisit our quarterly OKRs and think about how we are tracking towards them when useful
+- Identify and address any topics & issues that warrant further discussion
+- Act as an opportunity / space for anyone to call out concerns, questions, etc. that they may have or suggest things we could be doing better, etc.
+- Serve as a space for others outside our team that work closely with us (e.g. people working on Cloud infrastructure) to interact with us face-to-face.
 
-Every Wed @ 3pm and Fri @ 1pm you will be reminded in the #distributioneers Slack channel to post an update that communicates any progress you've made since your last update, any unexpected things that came up and took up your time, and what you are working on currently.
+On the Mon. following the [20th (release day)](https://about.sourcegraph.com/handbook/engineering/releases), this meeting is used to kick-off asynchronous project planning for the next release.
+
+These meetings are recorded (posted automatically to the #distributioneers Slack channel) so that anyone whose timezone does not permit can participate after the fact.
+
+### Bi-weekly async updates
+
+#### Wednesday update
+
+Wed, before EOD (local time): distribution members are expected to post an update in Slack communicating:
+
+1. What you have worked on since your last update
+2. What you are working on now
+3. Anything you feel uneasy about, think is at risk of not being completed, etc.
+
+**Example:**
 
 > **Update:**
 >
 > * Helped $CUSTOMER with search scaling questions.
-> * Made some progress on updating the regression test suite.
-> * Opened a PR to update Jaeger tracing behavior (https://github.com/sourcegraph/sourcegraph/pull/9330)
+> * Made some progress on updating the regression test suite, more work to do.
+> * Opened a PR for that nasty bug (https://github.com/sourcegraph/sourcegraph/pull/9330)
+> * https://github.com/sourcegraph/sourcegraph/pull/9331 turned out much harder than I thought, it may slip this release
+> * I am now focused on https://github.com/sourcegraph/sourcegraph/issues/10419
 
-We use bi-weekly updates because:
+The goal of this update is to ensure we're discussing things as a team, asking for help when appropriate, reflecting on our progress, and giving others the opportunity to provide help and guidance.
 
-- Daily updates are too frequent, tedious to write out, and tedious for others outside the Distribution team to read.
-- Weekly updates make it easy to forget what you did at the start of the week.
-- It encourages posting updates frequently, but just focusing on the high-level / key points of interest that you recall over the past few days.
-- Unlike daily updates, it does not give an impression that others want an hour-by-hour account of what you did or that you should include insignificant topics.
+#### Friday update
+
+Fri, before EOD (local time): distribution members are expected to post an update with the following to [our monthly tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fdistribution+label%3Atracking+Distribution):
+
+- What you've worked on **this week**
+- What you plan to focus on **next week**
+- Anything that you think may not get finished in time for the release
+
+**Example:**
+
+> This week:
+>
+> * Lots of progress on regression test suite, more to do.
+> * That nasty bug is fixed (https://github.com/sourcegraph/sourcegraph/pull/9330)
+> * https://github.com/sourcegraph/sourcegraph/pull/9331 turned out much harder than we thought and it may slip this release
+> * Next week: Will finish up the above + start working on automating releases
+
+The goal of this update is to communicate to _the broader Sourcegraph team_ what we're working on, what progress we've made, and anything that is at risk at a high-level.
+
+#### Why bi-weekly & asynchronous updates?
+
+We use asynchronous updates via Slack and GitHub instead of face-to-face video call stand-ups because it allows:
+
+- You to write your update and consume other's updates at your own pace.
+- Others to opt-out of conversations they may not have stake in easily (topics worth discussing with the entire team can be brought up at the weekly team sync.)
+
+We use a bi-weekly update frequency because:
+
+- Daily updates are too frequent, tedious to write out, tedious to consume, and give the impression that someone wants an hour-by-hour account of work (we do not).
+- Weekly updates make it easy to forget what you did at the start of the week, forget to ask for help, and make it hard for others to offer help in a timely fashion.
+- Bi-weekly updates encourage posting updates and gathering feedback regularly, while still focusing on just the high-level key points of interest.
+
+We want to respect autonomy and view updates as a tool to help remind team members to collaborate together, ask for help, and perform self-reflection about whether your current focus is right or not.
+
+### Distribution management sync
+
+The [distribution management sync](https://docs.google.com/document/d/1g9gb_i-Q6QXifISiS1urZ2gcfO2Pz-VHYqurW_94My4/edit) is a quick sync for the Distribution manager and project lead to communicate the team's overall status to the VP of engineering and Product. These are usually high-level progress updates re-hashing what has already been discussed in prior updates, etc. and answering questions/concerns or priority/planning changes between Distribution and the broader Engineering / Product organization.
+
+These are usually brief and just a re-hash of what has already been discussed elsewhere, so most Distribution team members do not join this meeting. That said, for transparency all members are invited and anyone is free to join and participate or just listen in if they like.
