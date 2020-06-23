@@ -47,9 +47,8 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 - [Developer relations](marketing/developer-relations/index.md)
 - [Marketing operations](marketing/marketing_operations.md)
 - [Livestream events](marketing/livestream.md)
-- [Editing blog posts](marketing/editing_blog_posts.md)
-- [Adding screenshots and screen recordings (GIFs and videos)](marketing/adding_screenshots_screen_recording.md)
-
+- [Online content](marketing/content.md)
+  - [Website style guide](marketing/website_style_guide.md)
 
 ## Sales
 
