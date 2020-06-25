@@ -32,10 +32,9 @@ The search team has divided the responsibilities of a [Project Lead](../roles.md
 - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith) (dividing his time between this team and [cloud](../cloud/index.md))
 - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
 - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
-- [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
 
 ## Hiring status
 
-_Updated 2020-06-02_
+_Updated 2020-06-25_
 
-TODO: need to discuss hiring needs for this team.
+- +1 [Software Engineer - Backend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-backend.md)

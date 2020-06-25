@@ -22,14 +22,15 @@ We do [weekly check-ins](../tracking_issues.md#using-a-tracking-issue-for-progre
 - [Joe Chen](../../../company/team/index.md#joe-chen)
 - [Ryan Slade](../../../company/team/index.md#ryan-slade)
 - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
+- [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
 - [S. H.](https://hire.withgoogle.com/t/sourcegraphcom/hiring/candidates/P_AAAAAADAAC5PmuMMFoUSu3/P_AAAAAADAAC5KUwmkNJrovt) starting in July
 
 ## Hiring status
 
-_Updated 2020-06-02_
+_Updated 2020-06-25_
 
 We are hiring for these roles:
 
-- +2 [Software Engineer - Backend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-backend.md)
+- +1 [Software Engineer - Backend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-backend.md)
 - +1 [Software Engineer - Frontend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md)
 - +1 [Software Engineer - Security](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-security.md)
