@@ -51,7 +51,7 @@ These are the standard labels you can use to refine how each work item in the tr
 - **debt**: Technical debt issues will be displayed with the 🧶emoji.
 - **estimate/\$Nd**: A rough day level estimate of the task will be displayed alongside the emojis and summed up to a total workload in days that is displayed next to the teammate's GitHub handle.
 
-Apart from these standard labels, you can display any label inline (e.g. `perf`) by explicitly allowing it. This is done by adding a `<!-- LABEL: $YOUR_LABEL_NAME -->` comment to the tracking issue body outside the `<!-- BEGIN WORK-->` and `<-- END WORK -->` section which is reserved for the generated work loads.
+Apart from these standard labels, you can display any label inline (e.g. `perf`) by explicitly allowing it. This is done by adding a `<!-- LABEL: $YOUR_LABEL_NAME -->` comment to the tracking issue body outside the `<!-- BEGIN WORK-->` and `<!-- END WORK -->` section which is reserved for the generated work loads.
 
 #### Pull requests
 
