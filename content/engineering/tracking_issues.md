@@ -6,7 +6,7 @@
 1. [Creating a tracking issue](#creating-a-tracking-issue)
 1. [Populating and maintaining a tracking issue](#populating-and-maintaining-a-tracking-issue)
 1. [Planning a milestone with a tracking issue](#planning-a-milestone-with-a-tracking-issue)
-1. [Using a tracking issue for progress check-ins](#using-a-tracking-issue-for-progress-check-ins)
+1. [Progress updates](#progress-updates)
 1. [Contributing to the tracking issue tool](#contributing-to-the-tracking-issue-tool)
 
 ## What is a tracking issue?
@@ -61,11 +61,12 @@ Pull requests, if labeled and milestoned correctly, will show up in their author
 
 Planning a team's milestone happens in the last week of the previous milestone.
 
-1. [Open a new tracking issue](#creating-a-tracking-issue) with the appropriate `team/$TEAM` label and the right milestone.
+1. [Open a new tracking issue](#creating-a-tracking-issue) with `WIP` in the title, add the appropriate `team/$TEAM` label, and add it to the right milestone.
 1. Ask all members of the team through appropriate channels to create or assign issues to this milestone. When possible, issues should be estimated with the appropriate `estimate/$DAYS` label.
 1. Once everyone's ready, have the tracking issue review by relevant parties (e.g. product team,).
 1. Make adjustments to the planned work with the team based on the feedback from the review.
 1. Add the `planned/$MILESTONE` label to all planned issues. This is used to track what work was originally planned, even if it gets deprioritized during the milestone.
+1. Remove `WIP` from the title.
 
 All planned work items are meant to be finished in the iteration. If this doesn't happen, it is either due to unknown unknowns or lack of estimating accuracy. While we cannot work on the former, we can on the latter — over time, we aim to estimate better.
 
@@ -79,13 +80,20 @@ Despite estimation having a bad reputation in some circles, we find it valuable 
 
 Roadmap items may take more than an iteration to implement. As such please link to an issue which is scoped to this iteration. If it isn't clear how to break down a larger item in a scope increment, a **spike** of one or two days could be appropriate to determine such scope and then create the resulting issues for the iteration — it's fine to update the tracking issue with the results of a spike during the iteration.
 
-## Using a tracking issue for progress check-ins
+## Progress updates
 
-A tracking issue can be used as a central communication hub for the progress being done around whatever is being tracked.
+Each engineer is responsible for posting a weekly update on Friday to tracking issues where they have assigned work (most engineers only have work on a single tracking issue associated with the team they are one). The update should communicate progress made, pain points, a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
 
-To that end, those working on a tracking issue write high level periodic summaries of their progress for interested parties and other stakeholders to follow along without being exposed to too much detail. These summaries are written as comments on the tracking issue.
+- Good: "Last week I made progress on implementing RFC 123, but was blocked by X. X was due to Y. This week I'll continue to and hopefully implement RFC 123 completely, plan to be ready for review by Thurs. I am on track to finish my planned work this iteration."
+- Not good: "PRs: #123, #456, #789"
 
-You can see an example of such a summary [here](https://github.com/sourcegraph/sourcegraph/issues/9910#issuecomment-616405856).
+Each engineering manager (or project lead for projects that don't have a dedicated manager) is responsible for posting a weekly update on Monday.
+
+- Give an update on how the team is tracking toward their work plan and their OKRs.
+- Highlight any important things that got done done (as in "shipped").
+- Call out work that has been added or removed from the plan and explain why.
+- Call out things that aren't on track and what is being done to get them on track.
+- Call out things that are slowing the team down.
 
 ## Contributing to the tracking issue tool
 
