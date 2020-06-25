@@ -9,6 +9,7 @@
 - Programming guides
   - [Go](languages/go.md)
   - [TypeScript](languages/typescript.md)
+  - [Terraform](languages/terraform.md)
 - [Testing](testing.md)
 - [Continuous integration](continuous_integration.md)
 - [Product documentation](product_documentation.md)
