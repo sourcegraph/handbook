@@ -50,7 +50,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 
 [Recording of marketing and sales on 2019-11-04](https://zoom.us/recording/share/rGJPF_xL7GvD5Sp8dMK4JM__SQQ2koOIhPfvtNcqO8iwIumekTziMw)
 
-- [Support/Customer Success](../../support/index.md)
+- [Customer Engineering](../../ce/index.md) ([Support](../../ce/support.md) + Customer Success)
   - Prepare you to handle incoming support requests for a 2-week rotation
   - Looker dashboard overview
 - [Marketing](../../marketing/index.md)

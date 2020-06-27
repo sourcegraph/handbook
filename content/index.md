@@ -33,9 +33,10 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 - [Engineering](engineering/index.md)
 
-## Support
+## Customer Engineering
 
-- [Support](support/index.md)
+- [Customer engineering](ce/index.md)
+  - [Support](ce/support.md)
 
 ## Marketing
 

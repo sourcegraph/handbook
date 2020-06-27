@@ -18,9 +18,9 @@ The Sales team represents us and our values to customers, bringing back dollars 
 
 ## How sales works with other Sourcegraph teams
 
-### [Customer support](../support/index.md)
+### [Customer engineering](../ce/support.md) (for customer support)
 
-- [How to request support (for customers)](../support/index.md#how-to-get-support-for-customers)
+- [How to request support (for customers)](../ce/support.md#how-to-get-support-for-customers)
 
 ## Definitions
 
