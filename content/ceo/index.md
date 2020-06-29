@@ -56,3 +56,12 @@ How the interview will usually go:
    - "I want to leave time at the end for any questions you have. Would you prefer to cover your questions now, or at the end?"
      - I don't like putting candidates on the spot for questions ("Do you have any questions for me right now?"), so I tell them in advance that they will have time for questions and give them the option (but not requirement) to ask immediately.
      - Most candidates do have thoughtful questions. If you are nervous because you aren't sure what to ask, then just ask to discuss topics that you care about, even if they aren't questions per se. I do want to see you engaging in the interview and don't want it to be 1-way.
+
+#### Questions about Sourcegraph
+
+I am happy to share internal financial metrics about the health of our business and other similar information to help candidates understand the opportunity here. Here are some questions candidates frequently ask:
+
+1. What is the company's current revenue growth rate? What are the future plans for growth?
+1. What are the company's exit plans? We intend to remain an independent company and IPO because we are the leader in a big market.
+
+See "[Sharing company financials](../people-ops/hiring.md#sharing-company-financials)" for more.
