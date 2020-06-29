@@ -23,6 +23,10 @@ See job descriptions and responsibilities of roles on the Product team:
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
 
+## [Design](design/index.md)
+
+- [Design process](design/design-process.md)
+
 ## Product planning
 
 - [Planning](planning.md) - how we do planning and the artifacts we use to plan.

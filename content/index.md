@@ -20,14 +20,9 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 ## Product
 
+- [Direction (2020 product strategy)](../direction/index.md)
 - [Product](product/index.md)
-  - [Sourcegraph workflow](../workflow/index.md)
-  - [Direction](../direction/index.md)
-  - [Personas](product/personas.md)
-
-## Design
-
-- [Design](design/index.md)
+- [Design](product/design/index.md)
 
 ## Engineering
 
