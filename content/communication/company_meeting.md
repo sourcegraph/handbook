@@ -53,7 +53,7 @@ Company meeting is an effective way to:
 1. Hiring: Open roles we're hiring for, offers extended/accepted/rejected
 1. What's new in the [handbook](../index.md)
 1. Anything else that team members need to communicate
-   - Just add a slide and write what you'll say in the speaker notes.
+   - Just add a slide (awesome, useful, and quick) and write what you'll say in the speaker notes. Get @sqs's approval 72 hours before company meeting.
 1. Q&A about anything Sourcegraph-related
    - [Submit a question anonymously](https://docs.google.com/forms/d/e/1FAIpQLSeiyIU67N_0m3xNBV-pONnVAGuBPsKQ_w-ZxtS-g8ZLWX--Ew/viewform?usp=sf_link)
 
