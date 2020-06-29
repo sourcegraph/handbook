@@ -84,8 +84,10 @@ Roadmap items may take more than an iteration to implement. As such please link 
 
 Each engineer is responsible for posting a weekly update on Friday to tracking issues where they have assigned work (most engineers only have work on a single tracking issue associated with the team they are one). The update should communicate progress made, pain points, a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
 
-- Good: "Last week I made progress on implementing RFC 123, but was blocked by X. X was due to Y. This week I'll continue to and hopefully implement RFC 123 completely, plan to be ready for review by Thurs. I am on track to finish my planned work this iteration."
-- Not good: "PRs: #123, #456, #789"
+- Good: "Last week I made progress on adding support for X (RFC 123), but was blocked by Y. Y was due to Z. I am continuing to work on this and expect to have this ready for review by Thursday. I am on track to finish my planned work this iteration." There are a lot of good examples in these tracking issues:
+    - https://github.com/sourcegraph/sourcegraph/issues/11523
+    - https://github.com/sourcegraph/sourcegraph/issues/11494
+- Not as good: "Worked on #111, #444, and RFC 123"
 
 Each engineering manager (or project lead for projects that don't have a dedicated manager) is responsible for posting a weekly update on Monday.
 
