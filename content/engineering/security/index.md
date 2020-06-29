@@ -10,6 +10,13 @@ Make Sourcegraph secure by design.
 - #security channel Slack.
 - [@sourcegraph/security](https://github.com/orgs/sourcegraph/teams/security) on GitHub.
 
+## Responsibilities
+
+- Proactively improve the security of our application and infrastructure.
+- Implement automated security scanning of our codebase and infrastructrure, and resolve issues.
+    - https://github.com/sourcegraph/sourcegraph/security/code-scanning
+- [Respond to security vulnerability reports](#how-we-respond-to-security-vulnerability-reports)
+
 ## How to report a security vulnerability
 
 If you think that you have found a security issue, please email us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>. We will reply to reports within 1 business day to acknowledge that we received them and will strive to send you regular updates on our progress until the issue is resolved. You may request an update by replying to the existing email thread. We will read, but may not respond to low quality or spammy reports (e.g. those produced by automated tooling).
