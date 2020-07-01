@@ -40,6 +40,17 @@ If there is a dispute about ownership, then perform a [clean escalation](../comm
 - [VP Engineering](roles.md#vp-engineering)
 - [Software Engineer](roles.md#software-engineer)
 
+## Innovation time
+
+We love it when engineers have ideas for things they want to improve, even if they don't align with our existing iteration plans or [OKRs](../../company/okrs/index.md). We want to create time and space for engineers to work on these ideas without negatively impacting our team goals and planned work.
+
+If you have an idea for something you want to work on, then you have a few options:
+
+1. **Just do it** if you can timebox the effort (e.g., 1-2 days) such that it won't impact your ability to deliver on existing plans.
+2. If working on your idea would require a non-trivial amount of time or would impact your ability to deliver on existing plans, then have a discussion with your manager to come up with a feasible plan (e.g., explicitly schedule time to work on your idea during the next iteration).
+
+In any case, you should report the results of your work in [progress updates](tracking_issues.md#progress-updates) just like any other work.
+
 ## Teams
 
 Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission.
