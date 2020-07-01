@@ -1,4 +1,5 @@
 
+
 # Sourcegraph style guide
 
 
@@ -43,7 +44,8 @@ For further reading, see [linguistic prescription on Wikipedia](https://en.wikip
 
 - If you use an acronym, please make sure it's spelled out at first use and therefore searchable. Example: Point of View (POV)
   - Exception: acronyms that have a single obvious meaning when you search them (such as "HTML" or "LSP")
-  > See "[Acronyms Seriously Suck](https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764)" from Elon Musk.
+
+        > See "[Acronyms Seriously Suck](https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764)" from Elon Musk.
 
 
 
@@ -159,16 +161,19 @@ Never use any of the following as link text:
 ### Instructions, references, and citations
 
 - Use bold when referring to buttons
-> Click **Add user**.
+
+    >  Click **Add user**.
+
 - In documentation, use bold and a symbol, such as a bracket (> ), to display menu option selections or sequences of user interface clicks. For example, **File > Print** indicates that a user selects the Print option from the File menu.
 - Never highlight a sentence in boldface text.
 - Never directly reference the item (button, menu), just reference the label.
 - Match the actual case of the UI text in other products even if it violates our style guide.
- > In the _Single Sign On Url_ field, ...
+
+    > In the _Single Sign On Url_ field, ...
 
 - Refer to and cite other documents by quoting and linking their title. The quotation marks are not linked, and the period goes outside the quotes.
 
- > For more information, see "[Monitoring and tracing](#_)".
+    > For more information, see "[Monitoring and tracing](#_)".
 
 ### Examples
 
@@ -215,18 +220,18 @@ Use shorthand suffixes for shortening numbers in the thousands ("k"), millions (
 | Use this       | Not this  | Why?        |
 |-----------------|------------------|--------------|
 |**A**   |   |   |
-|admin or site admin | "administrator" or "site administrator"| more conversational, per Quinn|
+|admin or site admin | "administrator" or "site administrator"| More conversational, per Quinn|
 |alerts   |   |Sourcegraph sends an alert to a notifier that sends a notification to the user. If we're talking about what the product does, it's alerting. If we're talking about what the user experiences, it's notifier/notifying.    |
 |**C**  |   |   |
-|call site  | callsite  |per Quinn   |
-|code host   | codehost  |per Quinn   |
+|call site  | callsite  |Per Quinn   |
+|code host   | codehost  |Per Quinn   |
 |configuration   | config       | "config" is OK in paths and navigation links|
-|custom search pages|   |custom search pages allow users to quickly search within a set of curated repositories, with data and interesting searches shared on that page. For example, “use this custom search page for Python 2-to-3 migration code”. When possible, use the more specific names **Search scope page**  a more specific name for a custom search page that describes search pages at /search/scope/SCOPENAME, or **project search page**, a more specific name for a custom search page that describes pages for projects. For example, the Kubernetes project search page to search across all Kubernetes code.|
+|custom search pages|   |Custom search pages allow users to quickly search within a set of curated repositories, with data and interesting searches shared on that page. For example, “use this custom search page for Python 2-to-3 migration code”. When possible, use the more specific names **Search scope page**  a more specific name for a custom search page that describes search pages at /search/scope/SCOPENAME, or **project search page**, a more specific name for a custom search page that describes pages for projects. For example, the Kubernetes project search page to search across all Kubernetes code.|
 |**D**   |   |   |
 |documentation  |docs  |"docs" is OK in paths and navigation links. Also, be clear on whether you mean code documentation, or product documentation. |
-|email address   |email   |the two are both nouns, meaning different things.   |
+|email address   |email   |The two are both nouns, meaning different things.   |
 |**F**   |   |   |
-|field    |   |refers to the first part in the key:value pair   |
+|field    |   |Refers to the first part in the key:value pair   |
 |filter|   |Filter describes a parameter that can be added to a query to narrow down search results. A filter is always a parameter, but a parameter may not be a filter.   |
 |**G**   |   |   |
 |Go   |Golang   |   |
@@ -238,19 +243,19 @@ Use shorthand suffixes for shortening numbers in the thousands ("k"), millions (
 |**O**   |   |   |
 |OpenID Connect   |OIDC   |   |
 |[organization](../sales/index.md#organization)   |"company" or "team" or "org"   |   |
-|open source   |"open-source", "Open Source"   |[favoring common usage](https://github.com/sourcegraph/about/issues/508#issuecomment-588600005)   |
+|open source   |"open-source", "Open Source"   |[Favoring common usage](https://github.com/sourcegraph/about/issues/508#issuecomment-588600005)   |
 |**P**   |   |   |
-|Parameter|   |Parameter describes a key:value pair to filter behavior or change search behavior.   |
-|PostgreSQL   |Postgres, postgres, PgSQL, Postgresql, PostGres,   |proper name   |
+|parameter|   |Parameter describes a key:value pair to filter behavior or change search behavior.   |
+|PostgreSQL   |Postgres, postgres, PgSQL, Postgresql, PostGres,   |Proper name   |
 |**R**   |   |   |
-|regex   |"regexp" or "regular expressions"   |this is to avoid confusion with RegExp in Javascript, and to avoid conflation with "exp" in Warcraft and other MMORPGs (this is relevant as we onboard younger users whose gaming experience is significant. If they're used to "exp" being experience, they will have to pause for a moment to context-swtich, thus creating confusion, even temporarily, which isn't a good look.|
-|Repository   |repo   |   |
+|regex   |"regexp" or "regular expressions"   |This is to avoid confusion with RegExp in Javascript, and to avoid conflation with "exp" in Warcraft and other MMORPGs. This is relevant as we onboard younger users whose gaming experience is significant. If they're used to "exp" being experience, they will have to pause for a moment to context-swtich, thus creating confusion, even temporarily, which isn't a good look.|
+|repository   |repo   |   |
 |**S**   |   |   |
-|Saved searches |   |Saved searches describe complete searches that are used without needing to add more filters or expressions.   |
-|Search expression   |   |Search expression describes a valid piece of a search that can be suggested and combined with other expressions to drill down on results.|
-|Search scope  | version context  |Used to describe drilling down in a pre-configured scope of repositories across the entire Sourcegraph instance (this persists for navigation and usage outside of the query bar search).  |
+|saved searches |   |Saved searches describe complete searches that are used without needing to add more filters or expressions.   |
+|search expression   |   |Search expression describes a valid piece of a search that can be suggested and combined with other expressions to drill down on results.|
+|search scope  | version context  |Used to describe drilling down in a pre-configured scope of repositories across the entire Sourcegraph instance (this persists for navigation and usage outside of the query bar search).  |
 |set up (v)/setup (n)   |   |Setup is a noun, set up is a verb ([see notaverb.com/setup](http://notaverb.com/setup), although see [note on descriptivism](#effectiveness-over-correctness))   |
-|sign in   |log in   |[Because it's a better UX choice](https://ux.stackexchange.com/questions/1080/using-sign-in-vs-using-log-in). Also remember that "login" is a noun, "log in" is a verb   |
+|sign in   |log in   |[Because it's a better UX choice](https://ux.stackexchange.com/questions/1080/using-sign-in-vs-using-log-in). |
 |Sourcegraph   |"sourcegraph", "SourceGraph", or "sg"   |   |
 |**T**   |   |   |
 |tooltips   |tool-tips  |   |
