@@ -164,9 +164,11 @@ Never use any of the following as link text:
 - Never highlight a sentence in boldface text.
 - Never directly reference the item (button, menu), just reference the label.
 - Match the actual case of the UI text in other products even if it violates our style guide.
-> In the _Single Sign On Url_ field, ...
+ > In the _Single Sign On Url_ field, ...
+ 
 - Refer to and cite other documents by quoting and linking their title. The quotation marks are not linked, and the period goes outside the quotes.
-> For more information, see "[Monitoring and tracing](#_)".
+
+ > For more information, see "[Monitoring and tracing](#_)".
 
 ### Examples
 
