@@ -43,7 +43,7 @@ For further reading, see [linguistic prescription on Wikipedia](https://en.wikip
 
 - If you use an acronym, please make sure it's spelled out at first use and therefore searchable. Example: Point of View (POV)
   - Exception: acronyms that have a single obvious meaning when you search them (such as "HTML" or "LSP")
-> See "[Acronyms Seriously Suck](https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764)" from Elon Musk.
+  > See "[Acronyms Seriously Suck](https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764)" from Elon Musk.
 
 
 
@@ -165,7 +165,7 @@ Never use any of the following as link text:
 - Never directly reference the item (button, menu), just reference the label.
 - Match the actual case of the UI text in other products even if it violates our style guide.
  > In the _Single Sign On Url_ field, ...
- 
+
 - Refer to and cite other documents by quoting and linking their title. The quotation marks are not linked, and the period goes outside the quotes.
 
  > For more information, see "[Monitoring and tracing](#_)".
