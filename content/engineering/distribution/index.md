@@ -88,7 +88,7 @@ Go, Docker, Kubernetes
 
 ## Members
 
-- [G. P.](https://hire.lever.co/search/5f3b284f-04ce-4bdc-86ba-f9eed6a0ae9e) ([engineering manager](../roles.md#engineering-manager)) estimated start date in June.
+- [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) ([engineering manager](../roles.md#engineering-manager)).
 - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) ([project lead](../roles.md#project-lead))
 - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
 - [Uwe Hoffmann](../../../company/team/index.md#uwe-hoffmann)
