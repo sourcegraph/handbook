@@ -1,31 +1,6 @@
 
 # Sourcegraph style guide
 
-<!-- TOC titleSize:2 tabSpaces:2 depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 skip:0 title:1 charForUnorderedList:* -->
-## Table of Contents
-* [Sourcegraph style guide](#sourcegraph-style-guide)
-  * [Style, tone, and voice](#style-tone-and-voice)
-    * [Effectiveness over correctness](#effectiveness-over-correctness)
-    * [Clarity](#clarity)
-    * [Jargon and acronyms](#jargon-and-acronyms)
-  * [General](#general)
-    * [Sentence case](#sentence-case)
-    * [Capitalization](#capitalization)
-    * [Latinisms](#latinisms)
-    * [Punctuation](#punctuation)
-  * [Referring to the product and features](#referring-to-the-product-and-features)
-      * [Features](#features)
-  * [Conventions](#conventions)
-    * [UX](#ux)
-    * [Links](#links)
-      * [Use descriptive link labels](#use-descriptive-link-labels)
-    * [Instructions, references, and citations](#instructions-references-and-citations)
-    * [Examples](#examples)
-    * [Technical](#technical)
-    * [Currency](#currency)
-  * [Other good style guides and references](#other-good-style-guides-and-references)
-  * [Specific term usage guidelines](#specific-term-usage-guidelines)
-<!-- /TOC -->
 
 ## Style, tone, and voice
 
@@ -94,7 +69,7 @@ Latinisms (_e.g., i.e., v., etc., via_) are not used in simplified English. Say 
   -   Parentheses go outside if it's a complete sentence inside the parentheses (see [Grammar Girl's explanation](https://www.quickanddirtytips.com/education/grammar/periods-and-parentheses).)
   -   Footnotes go outside, because they're not part of the sentence.
 
-  _Note Bene_: if Sourcegraph ever chooses to localize outside of American English, these rules all change.
+    _Note Bene_: if Sourcegraph ever chooses to localize outside of American English, these rules all change.
 - Punctuation goes outside of links ("Hello, [world](#dummy)." not "Hello, [world.](#dummy)").
 - Use the most popular US English spelling and phrasing.
 - Prefer the serial comma in lists, except where ambiguity would be introduced by including it.
