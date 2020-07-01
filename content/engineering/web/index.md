@@ -4,13 +4,23 @@
 
 ## Vision
 
-**Code host integrations** are a breeze to set up, and add compelling value when reading or reviewing code. Enabling native code host integrations for all users is a no-brainer for site admins.
+**The web team is a transitional team**, designed to be split into the following mission teams:
 
-**Sourcegraph extensions** empower users to integrate Sourcegraph with any third-party service providing useful information about code (code coverage, exception tracking, tracing, code quality). They are consistently supported across all code host integrations and the Sourcegraph UI.
+- [Web infrastructure](../web-infrastructure/index.md)
+- [Extensibility](../extensibility/index.md)
+- [Code host integrations](../code-host-integrations/index.md)
 
-Through extensions, Sourcegraph surfaces high-level [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
+Its mission today is closest to that of the [web infrastructure](../web-infrastructure/index.md) team.
 
-The **Sourcegraph UI** is clean, cohesive, stable and responsive.
+We are working on hiring for these teams, so that we can achieve our desired team structure.
+
+## Focus
+
+Each iteration, the web team splits its focus as follows:
+- ~30-40% quick wins: these are small but impactful tasks. They may come from product, design, analytics, customer engineering, or be technical debt / engineering investment tasks.
+- ~60-70% focused goal: we'll agree on a single, focused goal that we can work on as a team. Depending on priorities, this may be a product goal, or an engineering investment.
+
+The web team's current focus is documented in the tracking issue for the current milestone.
 
 ## Contact
 
@@ -39,12 +49,3 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 - [Felix Becker](../../../company/team/index.md#felix-becker)
 - [Simon Korzunov](../../../company/team/index.md#simon-korzunov)
 - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-
-## Hiring status
-
-_Updated 2020-06-02_
-
-We are looking to hire for these roles:
-
-- Hire engineering manager for this team (TODO: need to write job description), so Loïc can focus on [search](../search/index.md).
-- +2 [Software Engineer - Frontend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md)
