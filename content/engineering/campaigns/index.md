@@ -4,13 +4,21 @@ User-facing documentation: https://docs.sourcegraph.com/user/campaigns
 
 Developer documentation: https://docs.sourcegraph.com/dev/campaigns_development
 
+### New, work-in-progress UX
+
+We're working on a new flow and a new way for people to create campaigns based on the beta feedback. See [#10921](https://github.com/sourcegraph/sourcegraph/pull/10921) and the following new doc pages (which are "pre-written" prior to being implemented to get us all on the same page about the changes we'll be making):
+
+- [Campaigns main doc page](https://docs.sourcegraph.com/@campaigns-new-flow/user/campaigns)
+- [Hello World Campaign guide](https://docs.sourcegraph.com/@campaigns-new-flow/user/campaigns/hello_world_campaign)
+- [Campaigns design doc](https://docs.sourcegraph.com/@campaigns-new-flow/dev/campaigns_design)
+
 ## Vision
 
 **Find code that needs to be changed and change it by running code**.
 
 ## Mission
 
-Users can focus on changing their code because Campaigns provides the plumbing:
+Users can focus on changing their code because campaigns provides the plumbing:
 
 * Finding the correct repositories in which to run code
 * Fetching the newest version of each repository
@@ -28,7 +36,7 @@ Users provide the code to make the change, we provide the plumbing to turn it in
 
 ## Analogies
 
-Netlify and AWS Lambda solve difficult, repeatable problems for developers, removing overhead and enabling them to focus on the problems they are solving. In that regard, Campaigns are to large-scale code changes what Netlify is to static site generation and AWS Lambda is to handling HTTP requests.
+Netlify and AWS Lambda solve difficult, repeatable problems for developers, removing overhead and enabling them to focus on the problems they are solving. In that regard, campaigns are to large-scale code changes what Netlify is to static site generation and AWS Lambda is to handling HTTP requests.
 
 When I write an AWS Lambda function I want to focus on which requests it receives and what response to send out. I don't want to worry about which server to run it on, how to scale it, secure it, add logging, keep track of its usage.
 

@@ -46,7 +46,7 @@ We track most of our work using [issues on the Sourcegraph main repository](http
 ## Members
 
 - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) ([engineering manager](../roles.md#engineering-manager))
-- [Eric Fritz](../../../company/team/index.md#eric-fritz) 
+- [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him) ([project lead](../roles.md#project-lead))
 - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
 
 ## Hiring status
