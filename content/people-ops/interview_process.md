@@ -51,7 +51,7 @@ Once interviews are over, the hiring manager may choose to cancel a debrief if t
 
 ### Format
 
-The hiring manager runs the debrief. The group spends the first 5 minutes of the debrief reading the written feedback from everyone else. The hiring manager should then drive the debrief discussion by asking specific questions that they prepared in advance (e.g, "I see you flagged a concern about X. Did reading feedback from other interviewers address your concern?").
+The debrief calendar invite will include a link to a Google Doc that contains all the feedback (due to a limitation in Lever permissions). Everyone should pre-read all of the feedback before the debrief begins. The hiring manager drives the debrief discussion by asking specific questions that they prepared in advance (e.g, "I see you flagged a concern about X. Did reading feedback from other interviewers address your concern?").
 
 ### Outcome
 
