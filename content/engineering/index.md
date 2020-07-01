@@ -65,6 +65,10 @@ Our engineering organization is divided into mission based teams that contain th
 
 The leader of each team is responsible for ensuring appropriate cross-team collaboration happens when shared infrastructure needs to change.
 
+### Transferring teams
+
+Start a discussion with your manager if you are interested to switch teams. Your manager will chat with you to understand what you want and then propose next steps. Team transfers need to be approved by the [VP of Engineering](roles.md#vp-engineering).
+
 ## Repositories
 
 Sourcegraph has a lot of repositories!
