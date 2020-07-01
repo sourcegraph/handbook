@@ -1,6 +1,6 @@
 # Code host integrations team
 
-**The code host integrations team does not yet exist**. It is a team we want to create & grow. Responsibilities of the code host integrations team are currently owned by the [../web/index.md](web team).
+**The code host integrations team does not yet exist**. It is a team we want to create & grow. Responsibilities of the code host integrations team are currently owned by the [web team](../web/index.md).
 
 ## Vision
 

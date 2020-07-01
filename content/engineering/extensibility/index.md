@@ -1,6 +1,6 @@
 # Extensibility team
 
-**The extensibility team does not yet exist**. It is a team we want to create & grow. Responsibilities of the extensibility team are currently owned by the [../web/index.md](web team).
+**The extensibility team does not yet exist**. It is a team we want to create & grow. Responsibilities of the extensibility team are currently owned by the [web team](../web/index.md).
 
 ## Vision
 

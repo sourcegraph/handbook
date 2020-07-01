@@ -1,6 +1,6 @@
 # Web infrastructure team
 
-**The web infrastructure team does not yet exist**. It is a team we want to create & grow. Responsibilities of the web infrastructure team are currently owned by the [../web/index.md](web team).
+**The web infrastructure team does not yet exist**. It is a team we want to create & grow. Responsibilities of the web infrastructure team are currently owned by the [web team](../web/index.md).
 
 ## Vision
 
