@@ -8,63 +8,56 @@ This template is used for tracking blog post activities for our monthly major/mi
 - [ ] [Release email](#)
 - [ ] [Release tweet](#)
 
-## At the start of the month (20YY-MM-01)
+## What do we want from developers
 
-- [ ] Create draft blog post Google doc in [Sourcegraph shared](https://drive.google.com/drive/u/0/folders/0B3lEU2lM-l9gUk5sNmRSMVFHVFU)
-  - [ ] View each [team's release deliverables](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+milestone%3A{MAJOR}.{MINOR}+label%3Aroadmap) to generate the outline of the blog post
-  - [ ] Share link to blog post doc in #dev-chat Slack channel, asking Team leads to review
-- [ ] Create draft tweet
-- [ ] Create draft email
-- [ ] Link to the blog post, email and tweet
+- Week following the previous release: Minimum of 1 paragraph (4 sentences) explaining what you are building and why it is cool for developers
+- Week before the release: Screenshare video (max 5 min, shorter is better) demonstrating this video
+  - Introduce yourself as the person who built the feature, and why you were excited to work on it
+  - Use cover image to video with title, release number, your name, team, and your avatar
+  - The marketing and product team are here to help you! They can review your script, do a test run, whatever you need 🤩
+  - (optional) Auxiliary blog posts are great if you want to share more details about your work than a few paragraphs.
+- After the release: Promote your work (where you feel comfortable). For example:
+  - Twitter
+  - HN
+  - Lobsters
+  - LinkedIn
+  - Reddit
+- Sourcegraph will also promote your feature and share your posts
 
-### Create calendar events
+## Timeline
 
-Add events to the shared Release Schedule calendar in Google and invite team@sourcegraph.com:
-
-- [ ] Blog post draft ready for review (5 days before release)
-- [ ] Final blog post changes/suggestions must be submitted (3 days before the release)
-- [ ] Blog post / tweets go live (the specific date we plan to do this, often not the 20th when it is a Friday).
-
-## In the first week
-
-- [ ] Fill out each section based on the deliverables to first draft quality
-- [ ] Think about what media (e.g. screenshot, screencast) will accompany the section content
-
-## In the second week
-
-- [ ] Remove `motd` previous release promotion from [Sourcegraph.com global settings](https://sourcegraph.com/site-admin/global-settings)
-- [ ] Confirm with each team that the planned deliverables are still on track to be announced in the blog post.
-
-## 10 working days before release
-
-- [ ] Post the blog post draft to #dev-announce: `The blog post draft for <VERSION> is ready, please review your parts are accurate and provide feedback by <DATE>: <link>`
-- [ ] Tweet written
-- [ ] Email written
-- [ ] Write a warning at the top of the Google doc: `The blog post has been finalized and moved to Markdown, further changes here will not be reflected. Contact @christinaforney for suggestions.`
-- [ ] Export blog post from Google docs to Markdown and create a new branch and draft pull request in [sourcegraph/about](https://github.com/sourcegraph/about/), using the [release blog post template](./release_blog_post_template.md)
-- [ ] Send blog post, and email to [copy editor](https://docs.google.com/spreadsheets/d/1UUSSWrS8aKsLEg7M3Qdzw9s0GLJCI1eCrSJI06Qofb0/edit#gid=0_)
-
-## 5 working days before release
-
-- [ ] Start producing screenshots, diagrams, and screencasts for each blog post section
-- [ ] Request release image for the blog post in #marketing
-
-## 3 working days before release
-
-- [ ] Check for any last minute release changes that affect the blog post, e.g. last minute feature removal
-- [ ] Finalize screenshots, diagrams, and screencasts
-- [ ] Blog post approved
-- [ ] Email approved
-- [ ] Tweet approved
-
-## Day of release
-
-- [ ] Publish blog post once the final release is cut, and docs version change is deployed
-- [ ] Publish tweet:
-  - [ ] Pin new release tweet
-  - [ ] Confirm with Marketing if tweet will be promoted
-- [ ] Send email in HubSpot
-- [ ] Create new `notice` on Sourcegraph.com by creating a pull request to modify the global settings (`sourcegraph-frontend.ConfigMap.yaml`) in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com).
+- Week following the previous release
+  - [ ] Product: Collect info/RFCs from the developers
+  - [ ] Product: Make sure what is written is accurate for what is planned for the release
+- 1st of the month
+  - [ ] Product: Hand off content to Marketing
+  - [ ] Marketing: Craft off a narrative for the release
+- 5th of the month
+  - [ ] Marketing: Share blog post for review as a Google doc
+   - Marketing team - post to #marketing
+   - Product – post to #product and tag @christina and @pooja
+   - Engineering - post to #dev-announce tagging engineers involved creating features: The blog post draft for VERSION is ready. @DEV1, @DEV2 and @DEV3, please review your parts are accurate and provide feedback by DATE: link
+   - Executive - post to #leadership-chat
+  [ ] Remove `motd` previous release promotion from [Sourcegraph.com global settings](https://sourcegraph.com/site-admin/global-settings)
+- 10th of the month
+  - [ ] Marketing receives feedback from Product, Engineering, and Executive
+  - [ ] Marketing makes edits and drafts as .md file in GitHub in [about/blogposts/2020/](https://github.com/sourcegraph/about/tree/master/blogposts/2020) folder
+   - Write a warning at the top of the Google doc: The blog post has been finalized and moved to Markdown, further changes here will not be reflected. Contact @MARKETING for suggestions.
+- Branch cut (5 business days before 20th)
+  - [ ] Marketing receives sign off for copy from Product, Engineering, and Executive
+  - [ ] Marketing: Blog post finalized
+  - [ ] Transposed into email and social media
+- 18th of the month
+  - [ ] Marketing: confirm with Product and Engineering for any last minute release changes that might affect the blog post, e.g. last minute feature removal
+- Release day (20th of the month) at 10 AM PST
+  - [ ] Marketing: Publish blog post
+- Announcement day (either release day or 1st business day after) at 10 AM PST
+  - [ ] Marketing: Send email
+  - [ ] Marketing: Send tweet
+  - [ ] Marketing: Post to other social media (Facebook, LinkedIn)
+  - [ ] Marketing: Share links to blog posts, tweet, and other social in #dev-announce Slack channel  
+  - [ ] Marketing: Engineers post their promotions about their work
+  - [ ] Product: Create new `notice` on Sourcegraph.com by creating a pull request to modify the global settings (`sourcegraph-frontend.ConfigMap.yaml`) in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com).
    ```
    "notices": [
      {
@@ -74,5 +67,3 @@ Add events to the shared Release Schedule calendar in Google and invite team@sou
      }
    ]
    ```
-- [ ] Use tweet or email content for post on the [LinkedIn Sourcegraph company page](https://www.linkedin.com/company/sourcegraph/)
-- [ ] Put notification in #dev-rel Slack channel with links to blog post and tweet
