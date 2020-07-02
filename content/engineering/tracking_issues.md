@@ -82,20 +82,14 @@ Roadmap items may take more than an iteration to implement. As such please link 
 
 ## Progress updates
 
-Each engineer is responsible for posting a weekly update on Friday to tracking issues where they have assigned work (most engineers only have work on a single tracking issue associated with the team they are one). The update should communicate progress made, pain points, a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
+Each engineer is responsible for posting a weekly update on Friday to tracking issues where they have assigned work (most engineers only have work on a single tracking issue associated with the team they are one). The update should be in prose and communicate progress made, pain points, a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
 
 - Good: "Last week I made progress on adding support for X (RFC 123), but was blocked by Y. Y was due to Z. I am continuing to work on this and expect to have this ready for review by Thursday. I am on track to finish my planned work this iteration." There are a lot of good examples in these tracking issues:
     - https://github.com/sourcegraph/sourcegraph/issues/11523
     - https://github.com/sourcegraph/sourcegraph/issues/11494
 - Not as good: "Worked on #111, #444, and RFC 123"
 
-Each engineering manager (or project lead for projects that don't have a dedicated manager) is responsible for posting a weekly update on Monday.
-
-- Give an update on how the team is tracking toward their work plan and their OKRs.
-- Highlight any important things that got done done (as in "shipped").
-- Call out work that has been added or removed from the plan and explain why.
-- Call out things that aren't on track and what is being done to get them on track.
-- Call out things that are slowing the team down.
+Each engineering manager (or project lead for projects that don't have a dedicated manager) is responsible for posting a weekly update on Monday. This update should be in prose, and should capture your individual progress as well as any team context that isn't obvious from the individual updates from others on the team (e.g., important team decisions, outcomes, pain points, changes to planned work). You should assume that anyone who reads your update will have read the previous individual updates, so no need to repeat anything.
 
 ## Contributing to the tracking issue tool
 
