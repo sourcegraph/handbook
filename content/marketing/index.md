@@ -21,6 +21,16 @@ The marketing team holds a weekly meeting to review the topics below. [Internal 
 1. Review of the prior week's initiatives.
 1. Plan for the coming week, and an update on monthly/quarterly initiatives.
 
+## Principles of Marketing to Developers
+
+No Puffery
+
+When a restaurant claims they have the best hambugers in town, you don't really think some independent party has evaluated all the burgers and selected this place. You think they are proud of their burgers, and don't hold it against them. But when a dev tools vendor claims they have the best something, devs are skeptical. Who says? What was the criteria? Can I repeat the test myself? Making unsupported claims just pisses devs off. So we we make a claim, we'll have some evidence or proof points, usually a customer testimonial or a case study, with someone who has given us permission to use their name.
+
+Show Value Before the Ask
+
+Asking devs to fill out a form is an ask. Even a one field form. For every marketing program, we will show value before we make an ask. Content will be ungated. Products can be tied. After we have shown value, by use of the product or access to our data and content, we can ask devs to fill out a form in order to improve their experience. For example, devs can try Sourcegraph Cloud without an account. After they use it, they can create a free account in order to improve their results by customization or saved queries. Or, they have ungated access to our papers, but if they sign up to join the Sourcegraph community we will email them once a month with similar high quality info.
+
 ## [Roles](roles.md)
 
 See job descriptions and responsibilities of roles on the Marketing team:
