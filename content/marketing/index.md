@@ -25,7 +25,7 @@ The marketing team holds a weekly meeting to review the topics below. [Internal 
 
 No Puffery
 
-When a restaurant claims they have the best hambugers in town, you don't really think some independent party has evaluated all the burgers and selected this place. You think they are proud of their burgers, and don't hold it against them. But when a dev tools vendor claims they have the best something, devs are skeptical. Who says? What was the criteria? Can I repeat the test myself? Making unsupported claims just pisses devs off. So we we make a claim, we'll have some evidence or proof points, usually a customer testimonial or a case study, with someone who has given us permission to use their name.
+When a restaurant claims they have the best hambugers in town, you don't really think some independent party has evaluated all the burgers and selected this place. You think they are proud of their burgers, and don't hold it against them. But when a dev tools vendor claims they have the best something, devs are skeptical. Who says? What was the criteria? Can I repeat the test myself? Making unsupported claims just pisses devs off. So before we make a claim, we'll have some evidence or proof points, usually a customer testimonial or a case study, with someone who has given us permission to use their name.
 
 Show Value Before the Ask
 
