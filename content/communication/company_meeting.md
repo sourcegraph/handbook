@@ -43,11 +43,11 @@ Company meeting is an effective way to:
 1. Inspiration of the week (message @dan to volunteer to present an inspiration)
 1. [#thanks](team_chat.md#thanks) summary
 1. [OKRs](../../company/okrs/index.md) progress
-1. **Alternating focus** (note: these are guidelines only, and @sqs will decide what each company meeting is in advance and will tag people with at least 2 working days' notice)
-   1. CEO (1x/month): company pitch, vision, "are we on track?", open Q&A
-   1. Marketing, sales, customer engineering (1x/month): what's working, what's not, biggest customer pains/wins
-   1. Product release (1x/month, closest meeting to the [20th](../engineering/releases/index.md#releases-are-monthly)): what will ship in the release
-   1. Product preview (1x/month, first meeting after the [20th](../engineering/releases/index.md#releases-are-monthly)): what we're planning to build and ship in the next release
+1. **Possible focuses** (note: these are guidelines only, and @sqs will decide what each company meeting is in advance and will tag people with at least 2 working days' notice)
+   1. CEO: company pitch, vision, "are we on track?", open Q&A
+   1. Marketing, sales, customer engineering: what's working, what's not, biggest customer pains/wins
+   1. Product release (usually the closest meeting to the [20th](../engineering/releases/index.md#releases-are-monthly)): what will ship in the release
+   1. Product preview (usually the meeting after the [20th](../engineering/releases/index.md#releases-are-monthly)): what we're planning to build and ship in the next release
 1. All customer [bookings](../sales/index.md#booking) and churn since the previous company meeting
 1. New and expansion pipeline: include full table, discuss only significant changes since the previous company meeting
 1. Hiring: Open roles we're hiring for, offers extended/accepted/rejected
