@@ -58,27 +58,10 @@ We collect data from the following:
 * [Prometheus dashboards](https://sourcegraph.com/-/debug/grafana/?orgId=1) show high-level insight into the health of a Sourcegraph instance to admins. Sourcegraph teammates can see the health of Sourcegraph.com. 
 
 We have [written policies about how we handle customer information](customer_data_policy.md). 
-
-## Debugging pings
-
-Options for debugging ping abnormalities. Refer to [life of a ping](https://docs.sourcegraph.com/dev/architecture/life-of-a-ping) for the steps in the ping process.
-
-1. BigQuery: Query the [update_checks error records](https://console.cloud.google.com/bigquery?sq=839055276916:62219ea9d95d4a49880e661318f419ba) and/or [check the latest pings received](https://console.cloud.google.com/bigquery?sq=839055276916:3c6a5282e66a4f0fac1b958305d7b197) based on installer email admin. 
-1. Dataflow: Review [Dataflow](https://console.cloud.google.com/dataflow/jobs/us-central1/2020-02-05_10_31_47-13247700157778222556?project=telligentsourcegraph&organizationId=1006954638239): WriteSuccessfulRecords should be full of throughputs and the Failed/Error jobs should be empty of throughputs. 
-1. Stackdriver (log viewer): [Check the frontend logs](https://console.cloud.google.com/logs/viewer?project=sourcegraph-dev&minLogLevel=0&expandAll=false&customFacets=&limitCustomFacetWidth=true&interval=PT1H&resource=k8s_container%2Fcluster_name%2Fdot-com%2Fnamespace_name%2Fprod%2Fcontainer_name%2Ffrontend), which contain all pings that come through Sourcegraph.com. Use the following the advanced filters to find the pings you're interested in.
-1. Test on a Sourcegraph dev instance to make sure the pings are being sent properly
-
-```
-resource.type="k8s_container"
-resource.labels="dot-com"
-resource.labels.cluster_name="prod"
-resource.labels.container_name="frontend"
-"[COMPANY]" AND "updatecheck"
-```
 	
 ## Data tools
 
-* [Looker](#using-looker): Business intelligence/data visualization tool
+* [Looker](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md): Business intelligence/data visualization tool
 * Google Cloud Platform: BigQuery is our data warehouse and the database Looker runs on top of
 * Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1vOyhFO90FjHe-bwnHOZeljHLuhXL2BAv) that Looker queries (by way of BigQuery).
 * BizOps builds ad-hoc tools to analyze data for various reasons. The projects are in the [Google Drive Analytics folder](https://drive.google.com/drive/folders/13b2PJqiQzjLMrM2ZAjlsax0fT_DQlxFm) and the source code is available in the [analytics repo](https://github.com/sourcegraph/analytics).
@@ -89,40 +72,15 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 
 #### HubSpot
 
-Every Sunday night or Monday morning, [BizOps scripts](https://github.com/sourcegraph/analytics/tree/master/HubSpot%20ETL) are triggered to retrieve data from HubSpot and upload it to BigQuery. As a result, HubSpot data in Looker is updated weekly, not daily.  If you need the latest data during the week, mention @ericbm in the #analytics channel in Slack.
+[The HubSpot data pipeline](https://github.com/sourcegraph/analytics/tree/master/HubSpot%20ETL) is updated once per day (in the afternoon PST).  If you need the latest data at any time, post in the #analytics channel in Slack and the BizOps team can run the pipeline manually. 
 
 [Lead-generation](https://docs.google.com/spreadsheets/d/16S3xlcY7DmpcfKZYD-3VHUsaPLiYHyisu8cD_gZpv0Q/edit#gid=0) from HubSpot is triggered by Zapier and is always up-to-date. [Marketing operations](../marketing/marketing_operations.md#maintaining-data-pipelines) has more information on lead-gen events. 
 
 ## Using Looker
 
-[Looker](https://sourcegraph.looker.com/) is a self-service tool with many pre-built reports and visualizations. Read our instructions for [getting started with Looker](#using-looker) and reach out in the #analytics Slack channel if you have any questions.
+[Looker](https://sourcegraph.looker.com/) is a self-service tool with many pre-built reports and visualizations. The [onboarding doc](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md) is located in Looker. Reach out in the #analytics Slack channel if you have any questions, we're happy to help!
 
-### Sourcegraph quick links
-
-- [All Instances](https://sourcegraph.looker.com/looks/436)<br/>
-- [Specific Instance Overview](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=&Site%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D) (To select a specific company, fill the Unique Server ID field)<br/>
-
-**Looker boards**
-
-- [Go-to-market](https://sourcegraph.looker.com/browse/boards/2)<br/>
-- [Product/engineering](https://sourcegraph.looker.com/browse/boards/5)<br/>
-
-These two boards will contain 99% of what you're looking in Looker. We recommend adding them to your account (this will pop-up on the top of the page if you haven't already added them) to simplify your Looker navigation. If what you're looking for is not on these boards, you can [explore the folders](https://sourcegraph.looker.com/folders/home). 
-
-### Getting started with Looker
-
-Looker provides tools for building and exploring custom reports and visualizations using custom fields captured from various Sourcegraph data sources. If you're a new user, here's where to get started.
-
-To simplify navigation within Looker, adding the [go-to-market](https://sourcegraph.looker.com/browse/boards/2) and [product/engineering](https://sourcegraph.looker.com/browse/boards/5) boards to your list (the button under the board title). 
-
-- [Exploring data](http://www.looker.com/docs/exploring-data/exploring-data)
-- [Visualizing data](http://www.looker.com/docs/exploring-data/visualizing-query-results)
-- [Building dashboards](http://www.looker.com/docs/exploring-data/building-dashboards)
-
-### Querying Looker data
-
-Looker created a query language called [LookML](https://docs.looker.com/data-modeling/learning-lookml/what-is-lookml) for defining calculations and data relationships in a SQL database. The 'Explores' and other functionality you see in Looker is all based on a LookML model.  The average Sourcegraph teammate should not need to write any LookML code, but should you need or want to, here are some resources to get started.
-
-- [Introduction to LookML](http://www.looker.com/docs/data-modeling/learning-lookml/what-is-lookml)
-- [LookML Terms and Concepts](http://www.looker.com/docs/data-modeling/learning-lookml/lookml-terms-and-concepts)
-- [Complete Looker Docs](http://www.looker.com/docs/reference)
+### Quick links
+* [Go-to-market board](https://sourcegraph.looker.com/browse/boards/2)
+* [Product/engineering board](https://sourcegraph.looker.com/browse/boards/5)
+* [All instances](https://sourcegraph.looker.com/looks/436)

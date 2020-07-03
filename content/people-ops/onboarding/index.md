@@ -17,4 +17,5 @@
 - [ ] Add yourself to the [team page](../../../company/team/index.md).
 - [ ] Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
 - [ ] It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
+- [ ] Go through the [analytics onboarding](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md). This onboarding is within Looker, so if you don't have an account you can ask for access in #analytics. 
 - [ ] [Add your working hours to Google Calendar](https://calendar.google.com/calendar/r/settings) so your teammates know when it is safe to add meetings to your calendar.
