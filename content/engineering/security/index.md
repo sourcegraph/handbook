@@ -16,6 +16,8 @@ Make Sourcegraph secure by design.
 - Implement automated security scanning of our codebase and infrastructrure, and resolve issues.
     - https://github.com/sourcegraph/sourcegraph/security/code-scanning
 - [Respond to security vulnerability reports](#how-we-respond-to-security-vulnerability-reports)
+- Investigate, respond to, and resolve vulnerabilities.
+    - https://github.com/sourcegraph/security-issues
 
 ## How to report a security vulnerability
 
