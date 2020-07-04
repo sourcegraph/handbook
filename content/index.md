@@ -53,6 +53,6 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 ## Business Operations
 
 - [Business Operations](bizops/index.md)
-  - [Finance](bizops/index/md.#finance-and-reporting) 
+  - [Finance](bizops/index.md#finance-and-reporting)
   - [Analytics](bizops/index.md#analytics)
   - [Adding, changing and debugging pings](engineering/adding_ping_data.md)
