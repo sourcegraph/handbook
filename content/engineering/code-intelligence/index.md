@@ -45,15 +45,15 @@ We track most of our work using [issues on the Sourcegraph main repository](http
 
 ## Members
 
-- [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) ([engineering manager](../roles.md#engineering-manager))
+- [A. D.](../../../company/team/index.md#todo) ([engineering manager](../roles.md#engineering-manager)) starting 2020-07-13 ([Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) is the manager until then)
 - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him) ([project lead](../roles.md#project-lead))
 - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
+- [N. S-C.](../../../company/team/index.md#todo) starting 2020-08-17
 
 ## Hiring status
 
-_Updated 2020-06-02_
+_Updated 2020-07-06_
 
 We are hiring for these roles:
 
-- +2 [Software Engineer - Code intelligence](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-code-intelligence.md)
-- +1 [Engineering Manager - Product](https://github.com/sourcegraph/careers/blob/master/job-descriptions/engineering-manager-product.md)
+- +1 [Software Engineer - Code intelligence](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-code-intelligence.md)
