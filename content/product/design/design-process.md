@@ -32,27 +32,25 @@ While asynchronous communication is a core attribute of remote work, key moments
       - As our users are developers, Sourcegraph developers make great interview subjects. However, we need to acknowledge that they do have biases about features and this research must be augmented
   - Interview external users
       - Where the project requires and time permits, conduct research with these users to inform your designs
-  - Placeholder:
-      - Additional research methods
   - Customer requests and support tickets
       - Our users are passionate and provide excellent feedback. Each project should utilize our collections of this feedback in [Productboard](https://sourcegraph.productboard.com/)
   - Analogous designs
   - Competitive designs
-  - Findings publishing and review
-      - Findings should be recorded in google docs and announced in the corresponding team channel or #product on Slack
-          - Research documents should contain a clear summary of findings and charts of supporting data are helpful.
-      - If the size of the project requires, a review meeting should be held to discuss key findings.
+  - Usability tests
+    - When updating existing product features, first conduct usability tests to inform redesign decisions
   - Process
       - A GitHub issue should be created to track the work
       - Research is conducted according to requirements
-      - Publish research to Google Drive
-      - Announce research in Slack
-      - Schedule and conduct a presentation meeting with stakeholders
-      - Stakeholders will approve the GitHub issue indicating the designs are ready for the next phase
+      - Findings publishing and review
+        - Findings should be detailed in a Google doc and announced in the corresponding team channel or #product on Slack
+        - Findings should contain a clear summary, links to resources and supporting data
+        - Conduct a synchronous review meeting with key stakeholders based on the size of project or importance of findings
+      - Schedule and conduct a presentation meeting with stakeholders where necessary
   - Tools
       - Google Docs
       - Google Forms for polls
       - UserTesting.com
+      - Maze.design
 - Wireframes
   - Wireframes should utilize the Sourcegraph Figma component system
   - Wireframes should generally utilize realistic data and text for each element. In cases where many elements are required, ‘lorem epsum’ placeholder text will suffice if the initial or prominent elements are real data.
