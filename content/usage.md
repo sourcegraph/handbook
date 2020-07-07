@@ -66,9 +66,19 @@ If you use Google Chrome, you can add a Sourcegraph handbook search shortcut to 
    - URL with %s in place of query: https://about.sourcegraph.com/search?q=%s
 1. Press the **Add** button.
 
+### Firefox 
+
+If you use Firefox, you can add a Sourcegraph handbook search shortcut to the address bar
+
+#### Setup 
+[__reference__](https://superuser.com/questions/7327/how-to-add-a-custom-search-engine-to-firefox/7336#7336)
+1. Right click the search bar on https://about.sourcegraph.com/handbook 
+2. Choose "Add a keyword for this Search"
+3. Enter a keyword that you would like to use (e.g. `hb`)
+
 #### Usage
 
-1. Focus in Chrome’s address bar (by clicking, tapping, or pressing <kbd>⌘L</kbd> on macOS or <kbd>Ctrl+L</kbd> on Linux).
+1. Focus in Chrome’s or Firefox's address bar (by clicking, tapping, or pressing <kbd>⌘L</kbd> on macOS or <kbd>Ctrl+L</kbd> on Linux).
 1. Type the keyword you entered previously (e.g., `hb`) then press <kbd>Tab</kbd>.
 1. Type in a query and press <kbd>Enter</kbd>.
 
