@@ -64,6 +64,7 @@ While asynchronous communication is a core attribute of remote work, key moments
       - Schedule and conduct a presentation meeting
       - Stakeholders will approve the GitHub issue indicating the designs are ready for the next phase
   - Checklist
+      - Ensure designs meet Jacob Nielsen's [ten usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
       - Has the change’s effect on the CLI been considered?
           - Does the language in the UI map to the language in the CLI?
       - Enterprise / Cloud
@@ -98,12 +99,20 @@ While asynchronous communication is a core attribute of remote work, key moments
         - Interactive mode / plain text mode
   - Process
       - A GitHub issue should be created to track the work
-      - Wireframes are produced in Figma
-      - Wireframes will be announced in Slack and linked in the GitHub issue well before they are complete for review
-      - Schedule and conduct a research presentation meeting
+      - Designs are produced in Figma
+      - Designs will be announced in Slack and linked in the GitHub issue well before they are complete for review
+      - Ensure designs meet the visual design checklist:
+        - Ensure spacing is consistent and matches the 8pt grid system
+        - Ensure text, colors and other sytles match existing styles, if possible. 
+          - Introduce new text styles only if really necessary.
+          - If adding new styles, ensure that they meet the accessibility standards and add them to the design system 
+        - Review designs for accessability:
+          - Color blind check
+          - Contrast check should meet AA standard for small text
+      - Schedule and conduct a design presentation meeting if the size of the project requires
       - Receive signoff from stakeholders
       - If components were created in the visual design process, when the designs are signed off on, those components will be moved to the Sourcegraph component system
-      - Prepare redlines or an Interaction delivery writeup for the engineers. Consider the following:
+      - Prepare redlines or an interaction delivery writeup for the engineers. Consider the following:
           - Margin and padding
           - Animation
           - Links and hover states
