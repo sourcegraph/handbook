@@ -6,6 +6,7 @@
 
 ## Teammate experience
 - [All-remote work](../../company/remote/index.md)
+- [Interview process](interview_process.md)
 - [Hiring](hiring.md)
 - [Onboarding](onboarding/index.md)
 - [Performance review cycles](review-cycles.md)
