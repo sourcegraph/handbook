@@ -31,6 +31,11 @@ Show Value Before the Ask
 
 Asking devs to fill out a form is an ask. Even a one field form. For every marketing program, we will show value before we make an ask. Content will be ungated. Products can be tied. After we have shown value, by use of the product or access to our data and content, we can ask devs to fill out a form in order to improve their experience. For example, devs can try Sourcegraph Cloud without an account. After they use it, they can create a free account in order to improve their results by customization or saved queries. Or, they have ungated access to our papers, but if they sign up to join the Sourcegraph community we will email them once a month with similar high quality info.
 
+Learn More
+
+The most compelling call to action (c2a, in marketing jargon) for developer is usually Learn More. Developers are always looking to learn--that's probably why they are on our site. Devs are professional learners, always looking to improve their skills about technology, or about their business area. If your offer is compelling, always offe devs a path to Learn More.
+
+
 ## [Roles](roles.md)
 
 See job descriptions and responsibilities of roles on the Marketing team:
