@@ -116,6 +116,8 @@ While asynchronous communication is a core attribute of remote work, key moments
           - Margin and padding
           - Animation
           - Links and hover states
+      - Describe expected behavior of layout for tablet and moble screensizes
+        - Due to the low number of mobile and table visitors (< 3%) design comps for these sizes are generally not required 
       - Schedule a meeting with engineers to discuss the interaction
   - Tools
       - Figma
