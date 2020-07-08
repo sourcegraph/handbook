@@ -10,6 +10,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 - [Communication](communication/index.md)
   - [Style guide](communication/style_guide.md)
 - [Team](../company/team/index.md)
+- [OKRs](../company/okrs/index.md)
 - [CEO](ceo/index.md)
 
 ## People Ops
