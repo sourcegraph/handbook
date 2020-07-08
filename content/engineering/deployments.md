@@ -360,3 +360,22 @@ pulumi stack import --file stack.json
 5. Trigger the build again from buildkite and ensure all build steps pass.
 
 For more information see the Pulumi [documentation](https://www.pulumi.com/docs/troubleshooting/#editing-your-deployment)
+
+## Scaling Kubernetes Clusters
+
+To scale the number of nodes in a cluster run the following command:
+```bash
+gcloud container clusters resize $CLUSTER_NAME --zone $ZONE --num-nodes $NUM_NODES
+```
+
+For example, you may have a cluster not being actively used but want to preserve it for later use. You can scale the cluster to zero by running:
+```bash
+gcloud container cluster resize dev-cluster --zone us-central1-f --num-nodes 0
+```
+
+When the cluster is ready for use again, simply run the same command with the number of nodes required:
+```bash
+gcloud container cluster resize dev-cluster --zone us-central1-f --num-nodes 3
+```
+
+For more informatino see the [GKE documentation](https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster).
