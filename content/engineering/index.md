@@ -26,6 +26,7 @@
 - [Adding and debugging ping data](adding_ping_data.md)
 - [Adding buildkite secrets](adding_buildkite_secrets.md)
 - [External contributions](external_contributions.md)
+- [2021 Organizational Plan](2021_org.md)
 
 ## Ownership of technical decisions
 

@@ -23,14 +23,12 @@ We do [weekly check-ins](../tracking_issues.md#using-a-tracking-issue-for-progre
 - [Ryan Slade](../../../company/team/index.md#ryan-slade)
 - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
 - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
-- [S. H.](https://hire.withgoogle.com/t/sourcegraphcom/hiring/candidates/P_AAAAAADAAC5PmuMMFoUSu3/P_AAAAAADAAC5KUwmkNJrovt) starting in July
+- [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him) leads the [Security team](../security/index.md) and is currently embedded in this team.
 
 ## Hiring status
 
-_Updated 2020-06-25_
+_Updated 2020-07-03_
 
 We are hiring for these roles:
 
 - +1 [Software Engineer - Backend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-backend.md)
-- +1 [Software Engineer - Frontend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md)
-- +1 [Software Engineer - Security](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-security.md)
