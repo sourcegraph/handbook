@@ -45,6 +45,8 @@ All positive feedback with no strongly positive feedback is usually not sufficie
 
 We conduct debriefs after a candidate finishes interviews. The debrief should be added to the calendar at the same time we invite the candidate to interviews.
 
+Should the hiring manager decide to not utilize the debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate's Lever profile stating the reason and/or context for the decision. This provides a sense of closure for those who interviewed the candidate.
+
 ### Canceling
 
 Once interviews are over, the hiring manager may choose to cancel a debrief if the submitted feedback makes it obvious that we won't be moving forward with an offer AND if the outcome doesn't raise any questions from the hiring manager about the interview panels or hiring process (e.g., was there misalignment about the role the candidate was interviewing for, was there conflicting feedback worth discussing, could we have filtered out this candidate earlier in the process).  
