@@ -1,6 +1,6 @@
 # Communication
 
-We're an [all-remote](../../company/remote/index.md) company, with teammates from all around the world and (soon) no primary office. To make this work, we need to be deliberate about how we communicate.
+We're an [all-remote](../../company/remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
 ## Sources of truth
 

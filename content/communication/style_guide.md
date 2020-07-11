@@ -101,7 +101,7 @@ You don't need to use the full name of the product each time you refer to it, bu
 
 - Bad: "Use the Sourcegraph Phabricator integration to get Sourcegraph features in code review" (sounds repetitive and stilted)
 - Bad: "Use the Phabricator Integration to..." (the capital "I" makes it into a proper noun, which implies it's a separate product from "Sourcegraph Phabricator integration")
-- Bad: "Want to use this in your code review tool? Use [Sourcegraph for Phabricator](#_) or [Sourcegraph for GitHub](#_)." (This implies that "Sourcegraph for Phabricator" and "Sourcegraph for GitHub" are official product names.
+- Bad: "Want to use this in your code review tool? Use [Sourcegraph for Phabricator](#_) or [Sourcegraph for GitHub](#_)." (This implies that "Sourcegraph for Phabricator" and "Sourcegraph for GitHub" are official product names.)
 
 Only use _we_ and _our_ (as in "our GitHub integration") in informal documents. In documentation or marketing material, depending on the context, just avoid it, or use "the" or "Sourcegraph". {#our}
 
@@ -118,7 +118,7 @@ Refer to product features as normal, generic nouns.
 - Refer to the natural noun of the product feature directly. Avoid `the ___ feature`.
   - Good: Campaigns are available.
   - Bad: The campaigns feature is available.
-- Qualify feature names with `Sourcegraph $FEATURE` (and capitalize the feature name) only on marketing pages and only when needed (never in product documentation, in-product text, etc.).
+- Qualify feature names with `Sourcegraph $FEATURE` (and capitalize the feature name) only on marketing pages and only when needed (never in product documentation, in-product text).
 
 ## Conventions
 
@@ -160,12 +160,12 @@ Never use any of the following as link text:
 
 ### Instructions, references, and citations
 
-- Use bold when referring to buttons
+- Use bold when referring to buttons.
 
     >  Click **Add user**.
 
 - In documentation, use bold and a symbol, such as a bracket (> ), to display menu option selections or sequences of user interface clicks. For example, **File > Print** indicates that a user selects the Print option from the File menu.
-- Never highlight a sentence in boldface text.
+- Never highlight a sentence in boldface font.
 - Never directly reference the item (button, menu), just reference the label.
 - Match the actual case of the UI text in other products even if it violates our style guide.
 
@@ -182,10 +182,10 @@ Never use any of the following as link text:
 
 For consistency, all examples should use the following names (as appropriate).
 
-- People: Alice, Bob, Carol, David, Elizabeth, etc. (alphabetical first names)
-- Usernames: `alice`, `bob`, etc.
+- People: Alice, Bob, Carol, David, Elizabeth (alphabetical first names)
+- Usernames: `alice`, `bob`
 - Hostnames: example.com and subdomains of example.com (avoid using real names such as `mycompany.com`)
-- Email addresses: alice@example.com, bob@example.com, etc.
+- Email addresses: alice@example.com, bob@example.com
 - URLs: https://sourcegraph.example.com (assume HTTPS)
 - Organizations: ABC Organization (`abc-org`)
 
@@ -222,11 +222,13 @@ Use shorthand suffixes for shortening numbers in the thousands ("k"), millions (
 |**A**   |   |   |
 |admin or site admin | "administrator" or "site administrator"| More conversational, per Quinn|
 |alerts   |   |Sourcegraph sends an alert to a notifier that sends a notification to the user. If we're talking about what the product does, it's alerting. If we're talking about what the user experiences, it's notifier/notifying.    |
+|**B**   |   |   |
+|Big code   |   | both capitalized  |
 |**C**  |   |   |
 |call site  | callsite  |Per Quinn   |
 |code host   | codehost  |Per Quinn   |
 |configuration   | config       | "config" is OK in paths and navigation links|
-|custom search pages|   |Custom search pages allow users to quickly search within a set of curated repositories, with data and interesting searches shared on that page. For example, “use this custom search page for Python 2-to-3 migration code”. When possible, use the more specific names **Search scope page**  a more specific name for a custom search page that describes search pages at /search/scope/SCOPENAME, or **project search page**, a more specific name for a custom search page that describes pages for projects. For example, the Kubernetes project search page to search across all Kubernetes code.|
+|custom search pages|   |Custom search pages allow users to quickly search within a set of curated repositories, with data and interesting searches shared on that page. For example, “use this custom search page for Python 2-to-3 migration code”. When possible, use the more specific names **Search scope page**, a more specific name for a custom search page that describes search pages at /search/scope/SCOPENAME, or **project search page**, a more specific name for a custom search page that describes pages for projects. For example, the Kubernetes project search page to search across all Kubernetes code.|
 |**D**   |   |   |
 |documentation  |docs  |"docs" is OK in paths and navigation links. Also, be clear on whether you mean code documentation, or product documentation. |
 |email address   |email   |The two are both nouns, meaning different things.   |
