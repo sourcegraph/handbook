@@ -34,13 +34,15 @@ You'll find we have a strong base to work from, but we are in the early stages o
     - Download [Figma](https://www.figma.com)
     - Set nudge to 8px in preferences > nudge amount
     - Install Figma plugins:
-      - [Data lab](https://www.figma.com/community/plugin/740286071386014712/Data-Lab) - populates layers with data. This helps us provide more accurate designs and avoid tedious text generation
-          - [Data for design](https://drive.google.com/drive/folders/1Xw7t1rIWRTg3cJ1_v-A40FGKCLE9m9Pg?usp=sharing)
+       - [Data lab](https://www.figma.com/community/plugin/740286071386014712/Data-Lab) - populates layers with data. This helps us provide more accurate designs and avoid tedious text generation
+       - [Data for design](https://drive.google.com/drive/folders/1Xw7t1rIWRTg3cJ1_v-A40FGKCLE9m9Pg?usp=sharing)
        - [Lorem Ipsum](https://www.figma.com/community/plugin/736000994034548392/Lorem-ipsum) - simple text generator
+       - [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker) - handy tool to check if your designs meet accessibility standards
        - Suggest plugins to help make us more efficent!
      - Install the font SF PRO, which can be found in the [drive type folder](https://drive.google.com/drive/folders/15NibaPYH4F0L_isvKHsYTFpwquv6DnRs)
      - Review the [component library](https://www.figma.com/file/BkY8Ak997QauG0Iu2EqArv/Sourcegraph-Components?node-id=0%3A1&viewport=4848%2C895%2C0.5811631679534912)
      - Review the [style guide](https://www.figma.com/file/Y4JDvoFnCmY1JIQIWdiOJh/styleguide__components?node-id=0%3A1&viewport=153%2C791%2C0.0701417475938797) which we are transitioning to the component library
+    - Review the [Project Tools](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/Project-Tools?node-id=0%3A1)
     - Take a moment to add some inspiring design to a Figma styleboard
    - UserTesting.com
      - Get a tour of UserTesting.com
