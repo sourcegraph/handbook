@@ -16,7 +16,7 @@ While asynchronous communication is a core attribute of remote work, key moments
 
 ## Process segments
 
-#### Ideation
+- Ideation
   - This is generally represented by a kickoff meeting with interested parties. Kickoff meetings should generally include representatives of the following parties:
       - The product manager
       - Developers working on the project
@@ -27,7 +27,7 @@ While asynchronous communication is a core attribute of remote work, key moments
   - Tools
       - We are experimenting with [miro.com](https://miro.com/) as an ideation tool
       - Figma.com can be used to generate mood boards
-#### Research
+- Research
   - Interview internal users
       - As our users are developers, Sourcegraph developers make great interview subjects. However, we need to acknowledge that they do have biases about features and this research must be augmented
   - Interview external users
@@ -51,7 +51,7 @@ While asynchronous communication is a core attribute of remote work, key moments
       - Google Forms for polls
       - UserTesting.com
       - Maze.design
-#### Wireframes
+- Wireframes
   - Wireframes should utilize the Sourcegraph Figma component system
   - Wireframes should generally utilize realistic data and text for each element. In cases where many elements are required, ‘lorem epsum’ placeholder text will suffice if the initial or prominent elements are real data.
   - Process
@@ -74,7 +74,7 @@ While asynchronous communication is a core attribute of remote work, key moments
       - TBD - add a standard UX checklist
   - Tools
       - Figma
-#### Testing
+- Testing
   - Process
       - A GitHub issue should be created to track the work
       - Testing is conducted according to requirements
@@ -84,7 +84,7 @@ While asynchronous communication is a core attribute of remote work, key moments
   - Tools
       - Maze.design
       - UserTesting.org
-#### Visual design
+- Visual design
   - Visual design should utilize the Sourcegraph’s Figma based component system
   - Dark compositions will be created for each major design
   - If new components are required, components will be created in the file itself, not the component system
@@ -121,39 +121,15 @@ While asynchronous communication is a core attribute of remote work, key moments
       - Schedule a meeting with engineers to discuss the interaction
   - Tools
       - Figma
-#### Metrics collection:
+- Metrics collection:
   - In the RFC process, the definition of success will include items which can be measured and evaluated
   - Involve the business operations team in determining what metrics to track and how they are tracked
   - Work with engineers to add the required eventLog tracking
   - Tools
       - Looker
       - Google analytics
-#### Refinement
+- Refinement
   - Designers will review metrics and determine if their designs are meeting objectives set for them.
   - If areas for improvement are found, tickets will be created to document the change required to improve the issue
-  
-## Working with design files
-To provide consistency in design files handling, follow the rules listed below:
-
-#### File location
-All files should be created under the Sourcegraph organization in Figma. It is important to not work on Sourcegraph projects in the private files as designs should be accessible to all Team Members.
-
-#### Naming convention
-- All the files containing current project work must follow this naming structure:
-
-RFC or GitHub issue number + RCF or GitHub issue title + stage (Draft, Open to review, Final review or Approved).
-
-- Keep the stage updated as you progress with your work. 
-
-#### Project Tools
-Use [Project Tools](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/Project-Tools?node-id=0%3A1) to provide more information about the project directly in the Figma file. It will help all the visitors connect files to the related RFC or GitHub issue and understand better all the details about the design.
-
-- Project Card - displays basic information about project ex. reviewers, RFC and GitHub issue links, deadlines etc. It should be created for every file.
-
-- Project Introduction - necessary when sharing your prototype with the Team. It should contain details about the target audience and project goals, to provide good context before starting the review.
-
-- Final Page - placed at the end of the prototype. It shows additional notes on the solution, points out the most important pages in the prototype and describes what feedback the designer is looking for. It also instructs reviewers on how to leave comments.
-
-#### File structure
-Pages are a great way to divide the content into smaller chunks and lower the complexity of your design files. You can use them to group work from different stages of the project or categorize deliverables. Try to place your latest designs on the Pages at the top of the list.
+ 
 
