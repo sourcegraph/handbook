@@ -53,7 +53,10 @@ Web traffic is measured by analyzing two metrics: [all users](https://www.lovesd
 
 ### Inquiry
 
-An inquiry is a person who has requested information from Sourcegraph for the first time and has provided Sourcegraph with at least an email address. This may be online via a web form, or in person, for example, at a conference. Someone may become an inquiry and a [MQL](#mql) at the same time, or may take years between converting from an inquiry to a [MQL](#mql).
+An inquiry is a person who has requested information from Sourcegraph for the first time and has provided Sourcegraph with at least an email address. This may be online via a web form, or in person, for example, at a conference. Someone may become an inquiry and a [MQL](#mql) at the same time, or may take months between converting from an inquiry to a [MQL](#mql).
+
+### Interesting inquiry
+Any inquiry that works for a company with > $10M in revenue, or specifies that there are 200+ software engineers at their company will be highlighted as 'interesting'.
 
 ### MQL
 
