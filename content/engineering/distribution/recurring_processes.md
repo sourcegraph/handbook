@@ -166,9 +166,9 @@ On the Mon. following the [20th (release day)](https://about.sourcegraph.com/han
 
 These meetings are recorded (posted automatically to the #distributioneers Slack channel) so that anyone whose timezone does not permit can participate after the fact.
 
-### Bi-weekly async updates
+### Weekly updates
 
-#### Wednesday update
+#### Wednesday Slack update
 
 Wed, before EOD (local time): distribution members are expected to post an update in Slack communicating:
 
@@ -188,7 +188,7 @@ Wed, before EOD (local time): distribution members are expected to post an updat
 
 The goal of this update is to ensure we're discussing things as a team, asking for help when appropriate, reflecting on our progress, and giving others the opportunity to provide help and guidance.
 
-#### Friday update
+#### Friday GitHub update
 
 Fri, before EOD (local time): distribution members are expected to post an update with the following to [our monthly tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fdistribution+label%3Atracking+Distribution):
 
@@ -207,17 +207,17 @@ Fri, before EOD (local time): distribution members are expected to post an updat
 
 The goal of this update is to communicate to _the broader Sourcegraph team_ what we're working on, what progress we've made, and anything that is at risk at a high-level.
 
-#### Why bi-weekly & asynchronous updates?
+#### Why weekly & asynchronous updates?
 
 We use asynchronous updates via Slack and GitHub instead of face-to-face video call stand-ups because it allows:
 
 - You to write your update and consume other's updates at your own pace.
 - Others to opt-out of conversations they may not have stake in easily (topics worth discussing with the entire team can be brought up at the weekly team sync.)
 
-We use a bi-weekly update frequency because:
+We send updates twice a week because:
 
 - Daily updates are too frequent, tedious to write out, tedious to consume, and give the impression that someone wants an hour-by-hour account of work (we do not).
-- Weekly updates make it easy to forget what you did at the start of the week, forget to ask for help, and make it hard for others to offer help in a timely fashion.
-- Bi-weekly updates encourage posting updates and gathering feedback regularly, while still focusing on just the high-level key points of interest.
+- A single weekly update make it easy to forget what you did at the start of the week, forget to ask for help, and make it hard for others to offer help in a timely fashion.
+- Two updates a week encourage posting updates and gathering feedback regularly, while still focusing on just the high-level key points of interest.
 
 We want to respect autonomy and view updates as a tool to help remind team members to collaborate together, ask for help, and perform self-reflection about whether your current focus is right or not.
