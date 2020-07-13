@@ -38,7 +38,7 @@ Company meeting is an effective way to:
 ## Agenda
 
 1. Introduce any new team members starting this week
-   - The manager of the team member presents a brief (~30-second) intro, stating the new team member's role, why we hired them, and what their first project is  (if known). Then the manager should pass it off to the new team member to say hello and share a fun fact about themselves.
+   - The manager of the team member (or, if someone else knows them better, then that person if appropriate) presents a brief (~30-second) intro, stating the new team member's role, why we hired them, and what their first project is (if known). Then the person should pass it off to the new team member to say hello and share a fun fact about themselves.
 1. Birthdays/anniversaries
 1. Inspiration of the week (message @dan to volunteer to present an inspiration)
 1. [#thanks](team_chat.md#thanks) summary
