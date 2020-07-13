@@ -42,7 +42,7 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Laptop (engineers):**
 
-- [16" MacBook Pro, 2.4 GHz (5 GHz turbo) 8‑core (upgrade), 64 GB (upgrade), 1 TB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-1tb-2.3ghz-8-core-processor#)
+- [16" MacBook Pro, 2.4 GHz (5 GHz turbo) 8‑core (upgrade), 64 GB (upgrade), 1 TB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-2.3ghz-8-core-processor-1tb#)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 **Laptop (non-engineers):** 
