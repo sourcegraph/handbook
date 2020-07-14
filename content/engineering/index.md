@@ -26,7 +26,6 @@
 - [Adding and debugging ping data](adding_ping_data.md)
 - [Adding buildkite secrets](adding_buildkite_secrets.md)
 - [External contributions](external_contributions.md)
-- [2021 Organizational Plan](2021_org.md)
 
 ## Ownership of technical decisions
 
@@ -67,6 +66,8 @@ Our engineering organization is divided into mission based teams that contain th
 - [Web](web/index.md)
 
 The leader of each team is responsible for ensuring appropriate cross-team collaboration happens when shared infrastructure needs to change.
+
+[2021 Organizational Plan](2021_org.md)
 
 ### Transferring teams
 

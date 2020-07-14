@@ -46,15 +46,15 @@ When I create a campaign to make large-scale code changes I want to _focus on th
 
 ## Members
 
+- [C. P.](../../../company/team/index.md#todo) ([engineering manager](../roles.md#engineering-manager)) starting 2020-08-03.
 - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him) ([project lead](../roles.md#project-lead))
 - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
 - [Erik Seliger](../../../company/team/index.md#erik-seliger)
 
 ## Hiring status
 
-_Updated 2020-06-02_
+_Updated 2020-07-13_
 
 We are hiring for these roles:
 
-- +1 [Engineering Manager - Product](https://github.com/sourcegraph/careers/blob/master/job-descriptions/engineering-manager-product.md)
 - +1 [Software Engineer - Frontend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md)

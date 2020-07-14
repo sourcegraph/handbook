@@ -45,7 +45,7 @@ We track most of our work using [issues on the Sourcegraph main repository](http
 
 ## Members
 
-- [A. D.](../../../company/team/index.md#todo) ([engineering manager](../roles.md#engineering-manager)) starting 2020-07-13 ([Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) is the manager until then)
+- [Aida DeWitt](../../../company/team/index.md#todo) ([engineering manager](../roles.md#engineering-manager)) starting 2020-07-13 ([Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) is the manager until then)
 - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him) ([project lead](../roles.md#project-lead))
 - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
 - [N. S-C.](../../../company/team/index.md#todo) starting 2020-08-17
