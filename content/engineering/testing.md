@@ -82,7 +82,9 @@ Examples:
 
 ### Visual testing
 
-We use [Percy](https://percy.io/) to detect visual changes in Sourcegraph features. You may need permissions to update screenshots if your feature introduces visual changes. Post a message in #dev-chat that you need access to Percy, and someone will add you to our organization (you will also receive an invitation via e-mail). Make sure you are logged in with your GitHub credentials.
+We use [Percy](https://percy.io/) to detect visual changes in Sourcegraph features. You may need permissions to update screenshots if your feature introduces visual changes. Post a message in #dev-chat that you need access to Percy, and someone will add you to our organization (you will also receive an invitation via e-mail). _Do not_ create an account on Percy before receiving the invitation: as Percy has been acquired by BrowserStack, if you create an account outside of the invitation flow, you will end up with a BrowserStack account that cannot be added to a Percy organization.
+
+Once you've been invited to the Sourcegraph organization and created a Percy account, you should then link it to your GitHub account.
 
 ## Ownership
 
