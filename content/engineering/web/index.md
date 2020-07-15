@@ -1,7 +1,5 @@
 # Web team
 
-[Roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#heading=h.g2wq4qci7wj0)
-
 ## Vision
 
 **The web team is a transitional team**, designed to be split into the following mission teams:
