@@ -33,7 +33,7 @@ The below headers are roughly the teams at Sourcegraph. Everyone should feel emp
 
 ### [Engineering](engineering/index.md)
 
-<!-- When updating the engineering team list below, please also update engineering/index.md and company/team/org_chart.md. -->
+<!-- When updating the engineering team list below, please also update company/team/org_chart.md. -->
 
 - [Engineering](engineering/index.md)
   - [Distribution](engineering/distribution/index.md)

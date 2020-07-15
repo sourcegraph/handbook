@@ -53,19 +53,9 @@ In any case, you should report the results of your work in [progress updates](tr
 
 ## Teams
 
-Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission.
+[**List of engineering teams**](../../company/team/org_chart.md#engineering)
 
-<!-- When updating the engineering team list below, please also update handbook/index.md and company/team/org_chart.md. -->
-
-- [Distribution](distribution/index.md)
-- [Campaigns](campaigns/index.md)
-- [Cloud](cloud/index.md)
-- [Code intelligence](code-intelligence/index.md)
-- [Search](search/index.md)
-- [Security](security/index.md)
-- [Web](web/index.md)
-
-The leader of each team is responsible for ensuring appropriate cross-team collaboration happens when shared infrastructure needs to change.
+Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission. The leader of each team is responsible for ensuring appropriate cross-team collaboration happens when shared infrastructure needs to change.
 
 [2021 Organizational Plan](2021_org.md)
 
