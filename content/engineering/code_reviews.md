@@ -123,6 +123,8 @@ If your change touches multiple parts of our codebase (e.g. Go, TypeScript), the
 
 GitHub will automatically assign reviewers if there is a matching entry in the [CODEOWNERS](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/.github/CODEOWNERS) file, but that doesn't necessarily mean that you need to wait for an approval from everyone. For example, if you are making a change to the search backend then you only need approval from one person on that team, not all of them.
 
+For small changes across few files assign to the team and request a review.
+
 Use your best judgement and ask if you are uncertain.
 
 ## When should I use a draft PR?
