@@ -10,6 +10,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 - [Communication](communication/index.md)
   - [Style guide](communication/style_guide.md)
 - [Team](../company/team/index.md)
+  - [Org chart](../company/team/org_chart.md)
 - [OKRs](../company/okrs/index.md)
 - [CEO](ceo/index.md)
 
@@ -32,7 +33,7 @@ The below headers are roughly the teams at Sourcegraph. Everyone should feel emp
 
 ### [Engineering](engineering/index.md)
 
-<!-- When updating the engineering team list below, please also update in engineering/index.md -->
+<!-- When updating the engineering team list below, please also update engineering/index.md and company/team/org_chart.md. -->
 
 - [Engineering](engineering/index.md)
   - [Distribution](engineering/distribution/index.md)

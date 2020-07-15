@@ -55,7 +55,7 @@ In any case, you should report the results of your work in [progress updates](tr
 
 Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission.
 
-<!-- When updating the engineering team list below, please also update on the handbook root handbook/index.md -->
+<!-- When updating the engineering team list below, please also update handbook/index.md and company/team/org_chart.md. -->
 
 - [Distribution](distribution/index.md)
 - [Campaigns](campaigns/index.md)
