@@ -51,4 +51,5 @@ When we receive [a report of a security vulnerability](#how-to-report-a-security
 
 ## Members
 
-TODO
+- [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him) ([engineering manager](../roles.md#engineering-manager)).
+- [E. S.](../../../company/team/index.md#todo) starting 2020-07-20.
