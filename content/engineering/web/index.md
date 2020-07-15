@@ -17,6 +17,7 @@ We are working on hiring for these teams, so that we can achieve our desired tea
 ## Focus
 
 Each iteration, the web team splits its focus as follows:
+
 - ~30-40% quick wins: these are small but impactful tasks. They may come from product, design, analytics, customer engineering, or be technical debt / engineering investment tasks.
 - ~60-70% focused goal: we'll agree on a single, focused goal that we can work on as a team. Depending on priorities, this may be a product goal, or an engineering investment.
 
@@ -50,3 +51,4 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 - [Simon Korzunov](../../../company/team/index.md#simon-korzunov)
 - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
 - [T. K.](../../../company/team/index.md#todo) starting 2020-07-20.
+- [J. P.](../../../company/team/index.md#todo) starting 2020-08-03.
