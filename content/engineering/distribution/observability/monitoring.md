@@ -16,6 +16,9 @@ This document describes how to develop Sourcegraph's monitoring:
 - [Grafana](#grafana)
   - [Connecting Grafana to a remote Prometheus instance](#connecting-grafana-to-a-remote-prometheus-instance)
   - [Upgrading Grafana](#upgrading-grafana)
+- [Prometheus and Alertmanager](#prometheus-and-alertmanager)
+  - [Prometheus wrapper](#prometheus-wrapper)
+  - [Upgrading Prometheus or Alertmanager](#upgrading-prometheus-or-alertmanager)
 - [Additional reading](#additional-reading)
 - [Next steps](#next-steps)
 
@@ -42,7 +45,8 @@ Monitoring is just one piece of Sourcegraph's observability. See the [observabil
 We use [Prometheus](https://prometheus.io) for:
 
 - Collecting high-level, and low-cardinality, metrics from our services.
-- Defining alerting rules (we do not use [Prometheus's Alertmanager](https://prometheus.io/docs/alerting/alertmanager/) but instead define alerts as a single Prometheus metric, more on this later.)
+- Defining alerting rules (we define alerts both as a single Prometheus metric and as Prometheus alert rules, more on this later).
+  - Alerts can be [consumed programmatically](https://docs.sourcegraph.com/admin/observability/alerting_custom_consumption) or processed by [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/), which is [bundled into `sourcegraph/prometheus`](#prometheus-and-alertmanager).
 
 We use [Grafana](https://grafana.com) for:
 
@@ -84,7 +88,7 @@ There are some steps involved, but it's easy and the development process is quit
 6. Open that service's monitoring definition (e.g. `monitoring/frontend.go`, `monitoring/git_server.go`) in your editor.
 7. Declare your [`Observable`](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40master+file:%5Emonitoring/+type+Observable&patternType=literal) by adding it to [an existing `Row` in the file](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@64aa473/-/blob/monitoring/frontend.go#L12-43), or by adding a new [`Row`](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40master+file:%5Emonitoring/+type+Row&patternType=literal) or [`Group`](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40master+file:%5Emonitoring/+type+Group&patternType=literal) entirely. Here's an example `Observable` to get you started:
 
-```
+```go
 {
     Name:        "99th_percentile_search_request_duration",
     Description: "99th percentile successful search request duration over 5m",
@@ -133,7 +137,7 @@ Once you save the file, `doc/admin/observability/alert_solutions.md` will automa
 
 ## Grafana
 
-Sourcegraph uses a custom Grafana image, [`sourcegraph/grafana`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/grafana).
+Sourcegraph uses a custom Grafana image, [`sourcegraph/grafana`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/grafana), which contains minor changes from the vanilla Grafana image.
 
 ### Connecting Grafana to a remote Prometheus instance
 
@@ -153,20 +157,42 @@ and rerun `./dev/start.sh` or `./enterprise/dev/start.sh`.
 If you want to avoid spinning up in the entire Sourcegraph stack and just want to look at Grafana, you can also use `./dev/grafana.sh`. You can skip the datasource change above and just use the following port-forward to take the place of the normal development Prometheus instance and run a standalone Grafana instance:
 
 ```sh
-DISABLE_SOURCEGRAPH_CONFIG=true ./dev/grafana.sh
 kubectl port-forward svc/prometheus 9090:30090 -n prod
+./dev/grafana.sh
 ```
 
 ### Upgrading Grafana
 
-When upgrading our version of Grafana (declared in the [`sourcegraph/grafana` Dockerfile](https://github.com/sourcegraph/sourcegraph/blob/master/docker-images/grafana/Dockerfile)), make sure to:
+To upgrade Grafana, make the appropriate version change to the [`sourcegraph/grafana` Dockerfile](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40master+FROM+grafana/grafana:.*&patternType=regexp) and make sure to:
 
-* Bump the version declared in the `sourcegraph/grafana` Dockerfile
-* Verify that no changes were made to the Grafana alerts format by comparing the [`site.schema.json` `GrafanaNotifier*`](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:site.schema.json+GrafanaNotifier&patternType=literal) schema with Grafana's alert provisioning documentation:
-  * [disk format for provisioning alerts](https://grafana.com/docs/grafana/v6.7/administration/provisioning/#alert-notification-channels) - these fields map to what should be allowable in the JSON schema
-  * [what each field accepts](https://grafana.com/docs/grafana/v6.7/alerting/notifications) - this documents the datatype of each field and what they do
-* Update [all links to Grafana documentation](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/*+grafana.com/docs/grafana&patternType=literal) to point to the correct version of Grafana
 * Run `dev/start.sh` and verify that all generated Grafana dashboards still render correctly
+
+## Prometheus and Alertmanager
+
+Sourcegraph uses a custom Prometheus image, [`sourcegraph/prometheus`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/prometheus), that bundles:
+
+* [Prometheus](https://prometheus.io), which consumes metrics from Sourcegraph services
+* [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/), which handles alerts from Prometheus
+* [prom-wrapper](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/prometheus/cmd/prom-wrapper), which subscribes to updates in [site configuration](https://docs.sourcegraph.com/admin/config/site_config) and propagates relevant settings to Alertmanager configuration.
+
+### Prometheus wrapper
+
+The [prom-wrapper](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/prometheus/cmd/prom-wrapper):
+
+* Handles starting up Prometheus and Alertmanager
+* Applies updates to site configuration by [generating a diff and applying changes](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:docker-images/prometheus+type:symbol+Change+OR+Diff&patternType=literal)
+  * Most notably, this includes [configuring notifiers and silences](https://docs.sourcegraph.com/admin/observability/alerting) for Sourcegraph alerts
+* [Exposes endpoints for configuration issues, alerts summary statuses, and reverse-proxies Prometheus and Alertmanager](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:docker-images/prometheus+PathPrefix%28:%5Bpath%5D%29.Handler%28:%5Bhandler%5D%29&patternType=structural)
+
+### Upgrading Prometheus or Alertmanager
+
+To upgrade Prometheus or Alertmanager, make the appropriate version and sum changes to the [`sourcegraph/prometheus` Dockerfile](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40master+%28FROM+prom/prometheus:%29.*+OR+%28FROM+prom/alertmanager:%29.*&patternType=regexp) and make sure to:
+
+* Upgrade the [Alertmanager and Prometheus Go client dependencies](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40master+file:go.mod+alertmanager+OR+prometheus/client_golang&patternType=literal), and make sure everything still builds
+* Run `dev/start.sh` and verify that:
+  * all generated Grafana dashboards still render (`localhost:3370`)
+  * all Prometheus rules are evaluated (`localhost:9090/rules`)
+  * Alertmanager starts up correctly (`localhost:9090/alertmanager/#/status`) and can be configured via `observability.alerts`
 
 ## Additional reading
 
