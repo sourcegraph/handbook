@@ -28,6 +28,7 @@ The following places are not sources of truth. Treat documents and conversations
 - [RFCs](rfcs/index.md)
 - Email
 - Zoom recordings
+- Meeting notes
 - All other Google Docs/Sheets/Slides
 
 ## Meetings
