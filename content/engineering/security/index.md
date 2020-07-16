@@ -18,6 +18,10 @@ Make Sourcegraph secure by design.
 - [Respond to security vulnerability reports](#how-we-respond-to-security-vulnerability-reports)
 - Investigate, respond to, and resolve vulnerabilities.
     - https://github.com/sourcegraph/security-issues
+    
+## Roadmap
+
+Please see [this document](https://docs.google.com/document/d/1HhYfnkC17yCPqqw91H1QAF7q8toOOiNtoOOw06hqrNQ/)
 
 ## How to report a security vulnerability
 
