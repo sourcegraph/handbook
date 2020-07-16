@@ -12,6 +12,7 @@
 - [Performance review cycles](review-cycles.md)
 - [United States visa sponsorship](visa-sponsorship.md)
 - [Leaving](leaving.md)
+- Hackathons: We don't have any company-wide hackathons planned. If you want to do one for your team, just propose it and find the right time. (See related "[Innovation time](../engineering/index.md#innovation-time)" for engineering, which could apply to any team if you think it would be good.)
 
 ## Benefits
 - [Compensation](compensation.md)
