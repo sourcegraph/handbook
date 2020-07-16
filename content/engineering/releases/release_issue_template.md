@@ -99,11 +99,13 @@ Cut a new release candidate daily if necessary:
         ```
         VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
         ```
+- [ ] Release Docker Compose by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-docker/blob/master/RELEASING.md)
 - [ ] Open (but do not merge) PRs that publish the new release:
   ```
   # Run this in the main sourcegraph repository in the `dev/release` directory on `master` branch:
   yarn run release release:publish $MAJOR.$MINOR.0
   ```
+- [ ] Create (but do not merge) a PR to update https://docs.sourcegraph.com/admin/updates/kubernetes indicating the steps required to upgrade.
 - [ ] Review [all issues in the release milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Asourcegraph+milestone%3A$MAJOR.$MINOR). Backlog things that didn't make it into the release and ping issues that still need to be done for the release (e.g. Tweets, marketing).
 - [ ] Verify the blog post is ready to be merged.
 

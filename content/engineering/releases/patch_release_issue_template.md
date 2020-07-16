@@ -59,12 +59,17 @@ In [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph):
     git push origin v$MAJOR.$MINOR.$PATCH
     ```
 
+## Release Docker Compose
+
+- [ ] Release Docker Compose by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-docker/blob/master/RELEASING.md)
+
 ## Update the docs
 
 - [ ] Open and merge PRs that publish the release (the PRs created by this command must be merged manually):
   ```
   yarn run release release:publish $MAJOR.$MINOR.$PATCH
   ```
+- [ ] Add an entry to https://docs.sourcegraph.com/admin/updates/kubernetes indicating the steps required to upgrade.
 - [ ] Cherry pick the release-publishing PR from sourcegraph/sourcegraph@master into the release branch.  
 - [ ] Create a new section for the patch version in the changelog. Verify that all changes that have been cherry picked onto the release branch have been moved to this section of the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/master/CHANGELOG.md) on `master`.
 - [ ] Post a reply in the #dev-announce thread to say that the release is complete.
