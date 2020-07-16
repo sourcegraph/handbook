@@ -1,25 +1,13 @@
 # Web team
 
-## Vision
+The web team owns all work related to our web application and browser extensions that isn't already owned by one of the other mission based teams.
 
-**The web team is a transitional team**, designed to be split into the following mission teams:
-
-- [Web infrastructure](../web-infrastructure/index.md)
-- [Extensibility](../extensibility/index.md)
-- [Code host integrations](../code-host-integrations/index.md)
-
-Its mission today is closest to that of the [web infrastructure](../web-infrastructure/index.md) team.
-
-We are working on hiring for these teams, so that we can achieve our desired team structure.
-
-## Focus
-
-Each iteration, the web team splits its focus as follows:
+This is a large ownership area, so the team creates a focused plan each iteration:
 
 - ~30-40% quick wins: these are small but impactful tasks. They may come from product, design, analytics, customer engineering, or be technical debt / engineering investment tasks.
 - ~60-70% focused goal: we'll agree on a single, focused goal that we can work on as a team. Depending on priorities, this may be a product goal, or an engineering investment.
 
-The web team's current focus is documented in the tracking issue for the current milestone.
+The web team's current focus is documented in [the tracking issue for the current milestone](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+label%3Atracking+label%3Ateam%2Fweb+is%3Aopen).
 
 ## Contact
 
@@ -50,3 +38,13 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
 - [T. K.](../../../company/team/index.md#todo) starting 2020-07-20.
 - [J. P.](../../../company/team/index.md#todo) starting 2020-08-03.
+
+## Growth plan
+
+We are growing the web team by hiring [frontend engineers](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md). When this team gets big enough, we expect to split it into two teams with the following ownership areas:
+
+- Web infrastructure
+    - The **Sourcegraph web application and codebase** is clean, cohesive, stable and performant. It's easy for all teammates to onboard and contribute to the web application.
+- Extensions and integrations
+    - **Sourcegraph extensions** empower users to integrate Sourcegraph with any third-party service providing useful information about code (code coverage, exception tracking, tracing, code quality). They are consistently supported across all code host integrations and the Sourcegraph UI. Through extensions, Sourcegraph surfaces high-level [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
+    - The **browser extension** and code host **native integrations** are a breeze to set up, and add compelling value when reading or reviewing code. Enabling native code host integrations for all users is a no-brainer for site admins.
