@@ -55,7 +55,7 @@ The release captain should create a tracking issue using the [release issue temp
 
 - [Release issue template](release_issue_template.md)
 - [Patch release issue template](patch_release_issue_template.md)
-- [Release blog post issue template](../../product/release_issue_template.md)
+- [Release blog post issue template](../../product/product_management/release_issue_template.md)
 
 ### Schedule
 

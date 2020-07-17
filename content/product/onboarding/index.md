@@ -2,26 +2,35 @@
 
 Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company.
 
-## Checklist
+## Manager checklist
 
-- [ ] Get to know our team and learn about Sourcegraph (company and product)
-- [ ] Finish [general onboarding tasks](../../people-ops/onboarding/index.md#for-all-new-teammates)
-  - [ ] Set up your email filters, especially for GitHub and feedback
+- Grant access to necessary services.
+  - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
+  - Invite to GitHub teams, including [@sourcegraph/everyone](https://github.com/orgs/sourcegraph/teams/everyone)
+  - Figma
+  - Productboard
+  - UserTesting.com
+- Schedule a recurring [1-1](../../leadership/1-1.md).
+
+## Product team member checklist
+
+- Get to know our team and learn about Sourcegraph (company and product)
+- Finish [general onboarding tasks](../../people-ops/onboarding/index.md#for-all-new-teammates)
+  - Set up your email filters, especially for GitHub and feedback
 - Get to know the product
-  - [ ] Complete of the [Engineering onboarding tasks](../../engineering/onboarding/index.md). Almost all of these are relevant to you.
+  - Complete of the [Engineering onboarding tasks](../../engineering/onboarding/index.md). Almost all of these are relevant to you.
     - You will need to run Sourcegraph locally to test/validate work that engineering is doing, to provide early/often feedback.
-  - [ ] Review [product resources](../index.md#resources)
-  - [ ] [Products](https://about.sourcegraph.com/product)
+  - Review [product resources](../index.md#resources)
+  - [Products](https://about.sourcegraph.com/product)
 - Get to know our customers
-  - [ ] Reach out to the Sales/CE teams and ask to be added to as many customer calls as you can this week.
+  - Reach out to the Sales/CE teams and ask to be added to as many customer calls as you can this week.
   - Feedback
-    - [ ] [HubSpot](https://app.hubspot.com/forms/2762526/a86bbac5-576d-4ca0-86c1-0c60837c3eab/submissions)
-    - [ ] [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)
+    - [HubSpot](https://app.hubspot.com/forms/2762526/a86bbac5-576d-4ca0-86c1-0c60837c3eab/submissions)
+    - [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)
 - Understand our goals
-  - [ ] [Sourcegraph master plan](../../../company/strategy.md)
-  - [ ] [Sourcegraph direction (1 year plan)](../../../direction/index.md)
-  - [ ] [OKRs](../../../company/okrs/index.md)
-
+  - [Sourcegraph master plan](../../../company/strategy.md)
+  - [Sourcegraph direction (1 year plan)](../../../direction/index.md)
+  - [OKRs](../../../company/okrs/index.md)
 
 ## Product designer onboarding
 
@@ -49,7 +58,7 @@ You'll find we have a strong base to work from, but we are in the early stages o
       - Review a few [usability studies](https://drive.google.com/drive/folders/1qZEWiKSXIvtF8oEp5jGeUQdFcjd2KtVy?usp=sharing) to get an idea of how you will use the product
       - As you learn the product, create a GitHub issue proposiing a usability study you would like to conduct and tag it with 'UX'
     - Suggest a tool you love on Slack in #design!
-- Set up your [local development environment](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md#step-1-install-dependencies) 
+- Set up your [local development environment](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md#step-1-install-dependencies)
   - You'll use this environment to review the UX of builds and to gain access to unreleased features 
   - Storybook houses our React component library
     - From the root of your local environment run storybook: `yarn storybook` to see how our designs transformed into React components
