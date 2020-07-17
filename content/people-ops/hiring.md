@@ -5,13 +5,16 @@
 1. We want our hiring process to access all potential qualified candidates.
    - We proactively promote our open positions to many different groups, communities, and networks.
    - If we believe there is a talented set of individuals who are not applying to our team, we will initiate outbound efforts to reach them. We believe there is value in reaching out to candidates who are not directly connected to the social graph of our team today.
-2. We want our hiring process to be fair to all candidates.
+1. We want our hiring process to be fair to all candidates.
    - Our job descriptions use inclusive language.
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
    - There are two interviewers in each interview so that we can better detect and compensate for misunderstandings during the interview and biases in the written feedback after the interview.
    - Interviewers take written notes during the interview so there is an objective record of the interview that can be referenced when making a hiring decision.
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
+1. Hiring managers own the hiring process for their team.
+    - Hiring managers are encouraged to experiment to learn how to improve their hiring process.
+    - The handbook is kept up-to-date with our learnings and current norms.
 
 ## Open positions
 

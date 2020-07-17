@@ -1,6 +1,25 @@
 # Interview process
 
-We document our [interview process](https://github.com/sourcegraph/interviews) for each role.
+## Interview documentation
+
+The documentation for each interview should:
+
+1. Define what the interviewer should be trying to measure and what "good" looks like.
+2. Provide questions that the interviewer can ask to get a good signal on the things that they need to measure.
+
+[Here is a good example](../engineering/hiring/engineering-leadership.md).
+
+Interviewers are not required to linearly ask every single question in the interview documentation; it is not a script.
+
+- If an interviewer gets the desired signal after asking only one our of three questions on a topic, then they may decide to skip the remaining two questions and move on to another topic in the interview.
+- If the candidate brings up an experience or topic that is relevant to another section of the interview, the interviewer may choose to use that as a natual segue to that topic even if it is out of order from the interview documentation.
+
+The best kind of interview is one where the candidate feels like it was an organic conversation and the interviewer got all the signal they were looking for.
+
+We would like to move as much information as possbile about our interviews to our public handbook, including the interview questions themselves. This will allow motivated candidates to prepare their best answers to our questions. This work will be done by, and at the discretion of, individual hiring managers for the processes that they own.
+
+- [Engineering hiring documentation](../engineering/hiring/index.md).
+- [Private hiring documentation](https://github.com/sourcegraph/interviews).
 
 ## Interviewers
 
