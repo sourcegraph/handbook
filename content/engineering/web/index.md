@@ -36,7 +36,7 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 - [Felix Becker](../../../company/team/index.md#felix-becker)
 - [Simon Korzunov](../../../company/team/index.md#simon-korzunov)
 - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-- [T. K.](../../../company/team/index.md#todo) starting 2020-07-20.
+- [T. K.](../../../company/team/index.md#todo) starting 2020-07-27.
 - [J. P.](../../../company/team/index.md#todo) starting 2020-08-03.
 
 ## Growth plan
