@@ -1,7 +1,5 @@
 # Code intelligence team
 
-[Roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#heading=h.dimwsc9ccmwq)
-
 ## Vision
 
 Code intelligence is as good or better than an IDE in the browser for all code hosts and all languages, including cross-repository definitions and references.
@@ -45,7 +43,7 @@ We track most of our work using [issues on the Sourcegraph main repository](http
 
 ## Members
 
-- [Aida DeWitt](../../../company/team/index.md#todo) ([engineering manager](../roles.md#engineering-manager)) starting 2020-07-13 ([Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) is the manager until then)
+- [Aida DeWitt](../../../company/team/index.md#aida-dewitt-sheher) ([engineering manager](../roles.md#engineering-manager))
 - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him) ([project lead](../roles.md#project-lead))
 - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
 - [N. S-C.](../../../company/team/index.md#todo) starting 2020-08-17
