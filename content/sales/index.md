@@ -171,7 +171,7 @@ If a deal comes through a referral or introduction, tell [BizOps](../bizops/inde
 
 ### When a deal is lost
 1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../bizops/index.md) about adding one
-1. Expand upon the reason in the longform ‘Closed Lost Reason’ field. This supports [2019-Q4 OKR 1 v](https://about.sourcegraph.com/company/okrs/2019_q4) to identify the top 3 reasons potential customers don't sign.
+1. Expand upon the reason in the longform ‘Closed Lost Reason’ field. This supports [2019-Q4 OKR 1 v](../../company/goals/2019_q4.md) to identify the top 3 reasons potential customers don't sign.
 
 ### Recording outbound activity
 

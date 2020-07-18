@@ -6,9 +6,9 @@ Planning is a continuous process of negotiation between product and engineering.
 
 Planning requires several artifacts for communicating. This section clarifies how each artifact is used in the planning process.
 
-### OKRs
+### Goals
 
-[OKRs](../../company/okrs/index.md) align teams with the company's goals for the quarter. They should be used to make prioritization decisions and help to maintain team direction and focus.
+[Goals](../../company/goals/index.md) align teams with the company's goals. They should be used to make prioritization decisions and help to maintain team direction and focus.
 
 ### Project roadmap
 

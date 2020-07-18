@@ -31,7 +31,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - Vision
   - [Values](../../../company/values.md)
   - Company pitch
-  - [OKRs](../../../company/okrs/index.md)
+  - [Goals](../../../company/goals/index.md)
   - Last board deck
 - [Product](../../product/index.md)
   - [Personas](../../product/personas.md)

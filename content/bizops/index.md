@@ -35,7 +35,7 @@ To reach us, mention @ericbm in the most relevant channel (i.e. #marketing for a
 
 - What is the purpose of the visualization?
 - Will it be frequently used, or is it only needed sporadically?
-- How does it support Sourcegraph's company and team OKRs?
+- How does it support [Sourcegraph's company and team goals](../../company/goals/index.md)?
 - Do you know how you want the data visualized? If you need a new graph or chart, adding a photo of a sketch on paper helps immensely.
 - When does this need to be delivered?
 - How urgent is this request?

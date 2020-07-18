@@ -18,7 +18,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Ask for any help needed along the way in the #dev-chat channel
   - Update our docs where necessary
 - Participate in (or be scheduled for) the following training sessions:
-  - OKRs (@dan, 30 minutes)
+  - Goals (@dan, 30 minutes)
   - CE systems and processes (@dan, 30 minutes)
   - Product introduction (@christina, 1 hour)
   - Sourcegraph demo (@dan, 30 minutes)
@@ -38,7 +38,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Vision
   - [Values](../../company/values.md)
   - Company pitch
-  - [OKRs](../../company/okrs/index.md)
+  - [Goals](../../company/goals/index.md)
   - Last board deck or video
 - [Product](../product/index.md)
   - [Personas](../product/personas.md)

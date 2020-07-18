@@ -1,7 +1,5 @@
 # Recurring processes
 
-- [Quarterly](#quarterly)
-  - [OKRs](#okrs)
 - [Monthly](#monthly)
   - [Milestone planning](#milestone-planning)
   - [Retrospective](#retrospective)
@@ -11,45 +9,20 @@
   - [Bi-weekly async updates](#bi-weekly-async-updates)
   - [Distribution management sync](#distribution-management-sync)
 
-## Quarterly
+<!--
 
-### OKRs
+TODO(nick): Add process for setting, reviewing, and updating goals, and for making them per-team and not just company-wide.
 
-Every quarter, we set OKRs to set our focus and align our goals with those of the company.
-
-**Input:** Existing issues and new ideas proposed by any member of the Sourcegraph organization.
-
-**Output:** OKRs and issues filed and assigned to Backlog milestone for each thing that is covered by
-the OKRs.
-
-**Process:** The [engineering manager](../roles.md#engineering-manager) drives OKR planning, and follows these steps:
-
-1. Gather context:
-   1. Last quarter's OKRs
-   1. Issue backlog
-   1. Any goals, proposals, or priorities not yet represented in the issue backlog. Write down your own and
-      solicit from teammates.
-1. Filter out any items that are not priorities this quarter, and group the remaining items into
-   themes.
-1. From the themes, define the objectives and key results.
-1. Propose these OKRs to the Distribution team for 1 round of feedback.
-1. Add these to the company OKRs document. Solicit feedback from VP Engineering. Respond to feedback
-   and iterate.
-
-#### Updating the OKRs mid-quarter
-
-This is generally discouraged, but may be necessary if real priorities shift (update objective) or a
-better way to measure emerges (update key results). Updates should be signed off by the VP of
-Engineering.
+-->
 
 ## Monthly
 
 ### Milestone planning
 
 Every (monthly) iteration, we determine what work we plan to do to bring us closer to accomplishing
-our quarterly OKRs.
+our goals.
 
-**Input:** Existing issues and new proposals in line with our OKRs.
+**Input:** Existing issues and new proposals in line with our goals.
 
 **Output:** A [tracking issue](../tracking_issues.md) that lists all engineering items of work we plan to accomplish this iteration.
 
@@ -76,13 +49,12 @@ yield the latter.
 **Pruning phase (day 2):** The idea here is to take the list of proposed issues and winnow it down to a
 feasible set of work with clear lines of ownership.
 
-1. Consult the quarterly OKRs and use these to do a preliminary pass through the tracking issue,
-   assigning issues to the Backlog that do not fulfill the OKRs.<br>
-   1. If an issue is important but doesn't satisfy the OKRs, weigh the cost of not prioritizing the
-      issue with the cost of updating the OKRs mid-quarter.
+1. Consult the [goals](../../../company/goals/index.md) and use these to do a preliminary pass through the tracking issue,
+   assigning issues to the Backlog that do not fulfill the goals.<br>
+   1. If an issue is important but doesn't satisfy the goals, consider if the goal needs to be changed.
 1. Ask everyone to go through the issues in the current milestone assigned to them. If the amount of
    work exceeds what they think is feasible, prune the lowest priority issues (using their best
-   judgment) by unassigning themselves, but keeping the issue in the milestone. Use the OKRs as a
+   judgment) by unassigning themselves, but keeping the issue in the milestone. Use the goals as a
    guidepost for prioritization.
 1. In a meeting (budget an hour), go through the tracking issue as a team.
    1. Prior to the meeting, the project lead should estimate how long each discussion item should
@@ -90,7 +62,7 @@ feasible set of work with clear lines of ownership.
       1-1 to clarify, align, and build consensus prior to the meeting. A good rule of thumb to shoot
       for is that the team is 70-80% aligned on who's working on what by the time the meeting takes
       place.
-   1. Revisit the Quarterly OKRs.
+   1. Revisit the goals. Are they still the right goals?
    1. During the meeting, everyone should say 1-2 sentences about each issue assigned to them to
       convey useful context to the rest of the team. Issues that have no useful context to share can
       be skipped.
@@ -98,9 +70,9 @@ feasible set of work with clear lines of ownership.
       it to the Backlog.
 1. If there are any remaining uncertainties following the meeting, the project lead should follow up
    1-1 to finalize the tracking issue.
-1. If the quarterly OKRs need to be updated, propose an update and obtain approval from the VP of
-   Engineering. It may make sense to block work on issues out of line with the existing OKRs until
-   the approval to update the OKRs is received.
+1. If the goals need to be updated, propose an update and obtain approval from the VP of
+   Engineering. It may make sense to block work on issues out of line with the existing goals until
+   the approval to update the goals is received.
 
 **Note on agency and responsibility:**
 
@@ -156,7 +128,7 @@ Mon @ 11am PST we hold an [internal
 team sync](https://docs.google.com/document/d/1otP6F8qfm2yNOW1hjTszkkuiYF1MGp31s5ATeA76ij4/edit) via Zoom. The goal is to:
 
 - Think about the problems we're solving by briefly going over what everyone is working on
-- Revisit our quarterly OKRs and think about how we are tracking towards them when useful
+- Revisit our goals and think about how we are tracking towards them when useful (and consider if they are still the right goals)
 - Identify and address any topics & issues that warrant further discussion
 - Act as an opportunity / space for anyone to call out concerns, questions, etc. that they may have or suggest things we could be doing better, etc.
 - Serve as a space for others outside our team that work closely with us (e.g. people working on Cloud infrastructure) to interact with us face-to-face.

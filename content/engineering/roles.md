@@ -10,7 +10,7 @@ Software engineers build our product and infrastructure.
 
 - Commit to a reasonable amount of work that you are going to get done for each [monthly release](releases/index.md), and then reliably get it done.
 - Post weekly updates about your progress on the [monthly release tracking issue](tracking_issues.md) for your team.
-- Ensure that your work is directly contributing to [our OKRs](../../company/okrs/index.md).
+- Ensure that your work is directly contributing to [our goals](../../company/goals/index.md).
 - Write [RFCs](../communication/rfcs/index.md) to recommend solutions to product and engineering problems.
 - Create and maintain high quality code, tests, and documentation.
 - Support your teammates by reviewing their [code](code_reviews.md) and [RFCs](../communication/rfcs/index.md).
@@ -27,7 +27,7 @@ Some teams with more experienced members may need less guidance in certain areas
 ### Responsibilities
 
 - Directly contribute through code, RFCs or PR reviews for a minimum of roughly 50% of their time.
-- Ensure that the team has a roadmap that documents how it is going to achieve its [OKRs](../../company/okrs/index.md).
+- Ensure that the team has a roadmap that documents how it is going to achieve its [goals](../../company/goals/index.md).
 - Ensure the the team's [tracking issue](tracking_issues.md) captures the work that each teammate has committed to for each [monthly release](releases/index.md) and post a [weekly progress update](tracking_issues.md#progress-updates).
 - Help keep the team focused on their goals while keeping them aware of the higher level picture.
 - Identify blockers or productivity issues and work with the team to address them.
@@ -46,7 +46,7 @@ Engineering managers lead, grow, and develop teams of software engineers.
 
 Build an exceptional team that achieves results.
 
-- Ensure that the team has a roadmap that documents how it is going to achieve its [OKRs](../../company/okrs/index.md).
+- Ensure that the team has a roadmap that documents how it is going to achieve its [goals](../../company/goals/index.md).
 - Ensure the the team's [tracking issue](tracking_issues.md) captures the work that each teammate has committed to for each [monthly release](releases/index.md) and post a [weekly progress update](tracking_issues.md#progress-updates).
 - Conduct monthly [retrospectives](../../retrospectives/index.md) with the team.
 - Conduct regular [1-1s](../leadership/1-1.md).

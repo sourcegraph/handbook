@@ -30,7 +30,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 - Understand our goals
   - [Sourcegraph master plan](../../../company/strategy.md)
   - [Sourcegraph direction (1 year plan)](../../../direction/index.md)
-  - [OKRs](../../../company/okrs/index.md)
+  - [Goals](../../../company/goals/index.md)
 
 ## Product designer onboarding
 
