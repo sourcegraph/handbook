@@ -2,9 +2,13 @@
 
 The cloud team owns all work that is necessary to build, secure, scale, and operate our multi-tenant hosted version of Sourcegraph for customers that do not want to deploy Sourcegraph on-premise.
 
+## Goals
+
+1. Any user or organization can use Sourcegraph Cloud with both the private and public code that they care about in a secure way.
+
 ## Contact
 
-- #cloud-dev channel or @cloud in Slack
+- #cloud channel or @cloud-team in Slack
 - [team/cloud](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/cloud) label in GitHub.
 
 ## Resources
