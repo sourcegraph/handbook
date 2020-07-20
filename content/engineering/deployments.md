@@ -3,9 +3,9 @@
 We maintain multiple deployments of Sourcegraph:
 
 - [sourcegraph.com](https://sourcegraph.com) is our production deployment for open source code.
-  - [dot-com cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/dot-com?project=sourcegraph-dev)
+  - [dot-com cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud?project=sourcegraph-dev)
     ```
-    gcloud container clusters get-credentials dot-com --zone us-central1-f --project sourcegraph-dev
+    gcloud container clusters get-credentials cloud --zone us-central1-f --project sourcegraph-dev
     ```
   - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
 - [sourcegraph.sgdev.org](https://sourcegraph.sgdev.org) is our private deployment of Sourcegraph that contains our private code.
