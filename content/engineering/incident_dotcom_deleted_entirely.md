@@ -2,38 +2,37 @@
 
 ## Assess in which way it is deleted entirely
 
-- Navigate to the `sourcegraph-dev` project and [look at the existing Kubernetes clusters](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-dev). Does the `dot-com` cluster exist still?
+- Navigate to the `sourcegraph-dev` project and [look at the existing Kubernetes clusters](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-dev). Does the `cloud` cluster exist still?
   - No, the dot-com cluster is gone:
-    - Do the disks for the now-deleted cluster nodes still exist? Check by navigating to [Compute -> Disks](https://console.cloud.google.com/compute/disks?project=sourcegraph-dev) and searching for `pgsql-dot-com`
+    - Do the disks for the now-deleted cluster nodes still exist? Check by navigating to [Compute -> Disks](https://console.cloud.google.com/compute/disks?project=sourcegraph-dev) and searching for `pgsql-prod---cloud` (
       - Yes, the disks still exist: Go to **Recreating GKE cluster** and follow the **with existing disks** steps.
       - No, the disks are gone: Go to **Recreating GKE cluster** and follow the **from snapshots** steps.
-  - Yes, the dot-com cluster exists: Go to **Recreating Kubernetes objects**
+  - Yes, the cloud cluster exists: Go to **Recreating Kubernetes objects**
 
 ## Recreating GKE cluster
 
-1. [Navigate to the `dot-com` cluster on the Google Cloud console](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-dev) and click `Connect`, run the gcloud command it gives you.
-2. Create the actual GKE cluster (note: the zone must match for disk reattachment):
-```
-gcloud beta container --project "sourcegraph-dev" clusters create "dot-com" --zone "us-central1-f" --no-enable-basic-auth --cluster-version "1.14.10-gke.27" --machine-type "n1-standard-64" --image-type "COS" --disk-type "pd-ssd" --disk-size "500" --local-ssd-count "1" --metadata disable-legacy-endpoints=true --scopes "https://www.googleapis.com/auth/devstorage.read_only","https://www.googleapis.com/auth/logging.write","https://www.googleapis.com/auth/monitoring","https://www.googleapis.com/auth/servicecontrol","https://www.googleapis.com/auth/service.management.readonly","https://www.googleapis.com/auth/trace.append" --num-nodes "5" --enable-stackdriver-kubernetes --no-enable-ip-alias --network "projects/sourcegraph-dev/global/networks/default" --no-enable-master-authorized-networks --addons HorizontalPodAutoscaling,HttpLoadBalancing --enable-autoupgrade --enable-autorepair --max-surge-upgrade 1 --max-unavailable-upgrade 0
-```
-3. If the above does not work, ensure you use the same properties (specifically "dot-com" cluster name, "us-central1-f " zone, 5 of n1-standard-64 machine type, 500G boot disk size, 1 local SSD (default size).
-4. Wait for the dot-com GKE cluster and its node pool to be alive.
-5. **With existing disks**, recreate the Kubernetes objects:
+We use Terraform to manage our deployments
+
+1. [Navigate to the `cloud` repo](https://github.com/sourcegraph/infrastructure/tree/master/cloud)
+
+2. Follow the instructions there to run `terraform plan` to see if the infrastructure has drifted from what is specified there.
+
+3. **With existing disks**, recreate the Kubernetes objects:
   a. Do NOT run `create-new-cluster.sh` as it will try to recreate the statically-named disks.
   b. Run `kubectl-apply-all.sh` and most things should come online but Sourcegraph.com will still be inaccessible.
   c. Run [configure/ingress-nginx/install.sh](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/master/configure/ingress-nginx/install.sh) to install the nginx ingress.
   d. Expose the cluster by running ONLY the `kubectl expose` commands found in [`create-new-cluster.sh`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/create-new-cluster.sh#L61-L80)
   e. Go to **Confirm health of Sourcegraph.com**
-6. **From snapshots**, recreate the Kubernetes objects:
+4. **From snapshots**, recreate the Kubernetes objects:
   a. Since nothing exists, run `create-new-cluster.sh` and it will recreate everything including disks.
   b. Sourcegraph.com should now be accessible, but with no postgres, redis-store, or precise-code-intel-bundle-manager data present.
-  c. Restore pgsql disks from the latest `pgsql-prod-dot-com` compute snapshot, `redis-store-prod-dot-com` snapshot, and `bundle-manager-prod-dot-com` snapshot: https://console.cloud.google.com/compute/snapshots?project=sourcegraph-dev
+  c. Restore pgsql disks from the latest `pgsql-prod---cloud` compute snapshot, `redis-store---cloud` snapshot, and `bundle-manager---cloud` snapshot: https://console.cloud.google.com/compute/snapshots?project=sourcegraph-dev
     - TODO: this section should be more explicit about what needs to be done.
   d. Go to **Confirm health of Sourcegraph.com**
 
 ## Recreating Kubernetes objects
 
-1. [Navigate to the `dot-com` cluster on the Google Cloud console](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-dev) and click `Connect`, run the `gcloud command it gives you.
+1. [Navigate to the `cloud` cluster on the Google Cloud console](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-dev) and click `Connect`, run the `gcloud command it gives you.
 1. `kubectl -n prod get deployments` should show partial or no Kubernetes deployments, but that you are connected to the right cluster.
 1. In the https://github.com/sourcegraph/deploy-sourcegraph-dot-com repository's latest `release` branch, run `kubectl-apply-all.sh` which will recreate all Kubernetes objects.
   - Sourcegraph.com uses static disk attachments, so the volumes should still be valid and no data should have been lost.
