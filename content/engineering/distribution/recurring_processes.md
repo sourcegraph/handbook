@@ -88,33 +88,7 @@ feasible set of work with clear lines of ownership.
 
 ### Retrospective
 
-The [engineering manager](../roles.md#engineering-manager) drives the retrospective. Ask everyone to review the
-previous milestone tracking issue, the planned work assigned to you, what got done, what didn't. To facility this meeting, we will use the Start/Stop/Continue format, although its possible to other formats as required.
-
-Please add items in advance whenever possible, following [structured meetings](https://about.sourcegraph.com/handbook/communication#structured-meetings) recommendations.
-
-#### Start
-_Ideas that the team should be doing but are not doing, new ideas worth discussing to address current problems._
-
-* A new person has joined team. What project would you suggest he should work on?
-* The deadline for project X was removed. What extra features would you add to project X?
-* What went well? What did you like?
-* What do you wish you had done differently?
-
-#### Stop
-_Ideas that are not delivering results or task which require a lot of time for little return._
-
-* What would you cut from your workday if you had to leave early for vacation?
-* Have you ever noticed an area of your job that consistently gets bumped to the next day or even next month? What is that and why is it so easy to defer until a later date?
-* Someone has left our team. What would we have to lose to still meet deadlines?
-* What was painful about the milestone? How can we address that pain moving forward?
-
-#### Continue
-_Ideas that are creating value or we should continue to explore as they are showing positive results._
-
-* What ideas or projects seems to be going in the right direction but need more time?
-* Which responsibilities do you personally find most fulfilling?
-* What is something that our customer loves us doing?
+The [engineering manager](../roles.md#engineering-manager) drives the [retrospective](../../../retrospectives/index.md) following the [engineering milestone retrospectives](../../../retrospectives/index.md#engineering-milestone-retrospectives) format.
 
 ## Weekly
 
@@ -134,7 +108,7 @@ team sync](https://docs.google.com/document/d/1otP6F8qfm2yNOW1hjTszkkuiYF1MGp31s
 - Serve as a space for others outside our team that work closely with us (e.g. people working on Cloud infrastructure) to interact with us face-to-face.
 
 
-On the Mon. following the [20th (release day)](https://about.sourcegraph.com/handbook/engineering/releases), this meeting is used to finalize planning the current release and kick-off asynchronous planning for the next release.
+On the Mon. following the [20th (release day)](../releases/index.md), this meeting is used to finalize planning the current release and kick-off asynchronous planning for the next release.
 
 These meetings are recorded (posted automatically to the #distributioneers Slack channel) so that anyone whose timezone does not permit can participate after the fact.
 
