@@ -17,7 +17,7 @@
 
 - [Adam Frankl](../../company/team/index.md#adam-frankl-he-him)
 - [Aileen Agricola](../../company/team/index.md#aileen-agricola)
-- [Adam Herzog](../../company/team/index.md#adam-herzog)
+- [Adam Herzog](../../company/team/index.md#adam-herzog-he-him)
 - [Laureen Hudson](../../company/team/index.md#laureen-hudson)
 - [Kimberly Hopson](../../company/team/index.md#kimberly-hopson)
 
