@@ -17,12 +17,23 @@ Engineers should budget an appropriate amount of time for writing tests when mak
 
 ## Flaky tests
 
+A *flaky* test is defined as a test that is unreliable or non-deterministic, meaning that it doesn't consistently produce the same pass/fail result.
+
+Typical reasons why a test may be flaky:
+
+- Race conditions or timing issues
+- Caching or inconsistent state between tests
+- Unreliable test infrastructure (such as CI)
+- Reliance on third-party services that are inconsistent
+
 We do not tolerate flaky tests of any kind. Any engineer that sees a flaky test should immediately:
 
 1. Open a PR to disable the flaky test.
 1. Open an issue to re-enable the flaky test, assign it to the most likely owner, and add it to the current release milestone.
 
 If the build or test infrastructure itself is flaky, then [open an issue](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/distribution) and notify the [distribution team](distribution/index.md#contact).
+
+Why are flaky tests undesirable? Because these tests stop being an informative signal that the engineering team can rely on, and if we keep them around then we eventually train ourselves to ignore them and become blind to their results. This can hide real problems under the cover of flakiness.
 
 ## Testing pyramid
 
@@ -36,7 +47,7 @@ Benefits:
 
 - They are usually very fast to execute because slow operations can be mocked.
 - They are the easiest tests to write, debug, and maintain because the code under test is small.
-- They only need to run on changes that touch code which could make the test fail, which makes CI faster and minimizes the impact of any flakiness.
+- They only need to run on changes that touch code which could make the test fail, which makes CI faster and minimizes the impact of any [flakiness](#flaky-tests).
 
 Tradeoffs:
 
@@ -48,8 +59,8 @@ Integration tests test the behavior of a subset of our entire system to ensure t
 
 Benefits:
 
-- To the extent that fewer systems are under test compared to e2e tests, they are faster to run, easier to debug, have clearer ownership, and less vulnerable to flakiness.
-- They only need to run on changes that touch code which could make the test fail, which makes CI faster and minimizes the impact of any flakiness.
+- To the extent that fewer systems are under test compared to e2e tests, they are faster to run, easier to debug, have clearer ownership, and less vulnerable to [flakiness](#flaky-tests).
+- They only need to run on changes that touch code which could make the test fail, which makes CI faster and minimizes the impact of any [flakiness](#flaky-tests).
 
 Tradeoffs:
 
@@ -73,7 +84,7 @@ Tradeoffs:
 
 - They are typically the slowest tests to execute because we have to build and run our entire product.
 - They are the hardest tests to debug because failures can be caused by a defect anywhere in our system. This can also make ownership of failures unclear.
-- They are the most vulnerable to flakiness because there are a lot of moving parts.
+- They are the most vulnerable to [flakiness](#flaky-tests) because there are a lot of moving parts.
 
 Examples:
 
@@ -95,7 +106,7 @@ Once you've been invited to the Sourcegraph organization and created a Percy acc
 
 - **Naming tests in Go code.** We strive to follow the same naming convention for Go test functions as described for [naming example functions in the Go testing package](https://golang.org/pkg/testing/#hdr-Examples).
 
-## Other
+## See also
 
 - [Documentation for running tests in sourcegraph/sourcegraph](https://docs.sourcegraph.com/dev/testing)
 - [Go-specific testing guide](./languages/testing_go_code.md)
