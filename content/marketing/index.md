@@ -15,7 +15,7 @@
 
 ##  Team
 
-- [Adam Frankl](../../company/team/index.md#adam-frankl)
+- [Adam Frankl](../../company/team/index.md#adam-frankl-he-him)
 - [Aileen Agricola](../../company/team/index.md#aileen-agricola)
 - [Adam Herzog](../../company/team/index.md#adam-herzog)
 - [Laureen Hudson](../../company/team/index.md#laureen-hudson)
