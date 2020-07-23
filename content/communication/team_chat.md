@@ -42,7 +42,8 @@ We have many Slack channels. You don't have to join them all, but here is a good
 ### General
 
 - #general - Anything about Sourcegraph in general (that doesn't fit a more specific channel below).
-- #random - Cool things you're doing in life, cat photos, jokes, vacation photos, etc.
+- #random - Cool things you're doing in life, random blog posts, jokes, vacation photos, etc.
+- #floof - Dogs, horses, cats, cows, and other floof empires.
 - #progress - Share cool/interesting progress with the team
 - #thanks - Appreciate someone's work? You can thank them here! :) {#thanks}
 - #handbook - Updates to and discussion of [this handbook](../index.md)
