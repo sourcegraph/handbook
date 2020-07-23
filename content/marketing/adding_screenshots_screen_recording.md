@@ -113,7 +113,7 @@ Provided your image is less than 100Kb, it can be added to the same repository t
 Before you go to upload your video, ensure someone from the marketing team has added you as an owner for the Sourcegraph brand account (shown below) as we want all Sourcegraph videos to be owned by the brand account.
 
 <div class="text-center">
-  <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/make-sourcegraph-brand-owner.gif" class="drop-shadow"/>
+  <img src="https://sourcegraphstatic.com/handbook/make-sourcegraph-brand-owner.gif" class="drop-shadow"/>
 </div>
 
 <br/>
@@ -121,7 +121,7 @@ Once you’ve been added as an owner, switch to the Sourcegraph user account.
 <br/>
 
 <div class="text-center">
-  <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/youtube-switch-account.gif"class="drop-shadow"/>
+  <img src="https://sourcegraphstatic.com/handbook/youtube-switch-account.gif"class="drop-shadow"/>
 </div>
 
 Export your video in 16:9 ratio (should probably be 720p), then [upload your video to YouTube](https://studio.youtube.com/channel/UCOy2N25-AHqE43XupT9mwZQ):

@@ -125,7 +125,7 @@ In the past, we have provided support on private GitHub issue trackers and priva
 
 2. Make the first line your name in bold
 3. Make the second line your title
-4. Choose **Insert image** and then **Web Address (URL)** and enter https://storage.googleapis.com/sourcegraph-assets/sourcegraph-logo.png then choose **Medium** size after it has been entered.
+4. Choose **Insert image** and then **Web Address (URL)** and enter https://sourcegraphstatic.com/sourcegraph-logo.png then choose **Medium** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like this, and clicking the Sourcegraph logo should bring you to sourcegraph.com:
 

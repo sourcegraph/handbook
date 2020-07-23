@@ -4,11 +4,11 @@ If you are an employee based in the United States, you can set up recurring cont
 
 Charitable contributions can be made as a one-time or a recurring (per paycheck) donation. In order to set up a contribution, select _Giving_ from the Gusto sidebar.
 
-![](https://storage.googleapis.com/sourcegraph-assets/gusto-giving-sidebar.png)
+![](https://sourcegraphstatic.com/gusto-giving-sidebar.png)
 
 Then, select _Choose a charity_ and _Search for charity_ to open a dialog box.
 
-![](https://storage.googleapis.com/sourcegraph-assets/gusto-giving-modal.png)
+![](https://sourcegraphstatic.com/gusto-giving-modal.png)
 
 It is recommended to search for a charity through [Charity Navigator](https://www.charitynavigator.org) to find its federal Employer Identification Number (EIN). For example, the ACLU page can be found [here](https://www.charitynavigator.org/index.cfm?bay=search.summary&orgid=3247).
 
