@@ -22,12 +22,14 @@ We do [weekly check-ins](../tracking_issues.md#using-a-tracking-issue-for-progre
 ## Members
 
 - [Tomás Senart](../../../company/team/index.md#tomás-senart) ([engineering manager](../roles.md#engineering-manager))
-- [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith) (dividing his time between this team and [search](../search/index.md))
 - [Joe Chen](../../../company/team/index.md#joe-chen)
 - [Ryan Slade](../../../company/team/index.md#ryan-slade)
 - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
 - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
-- [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him) leads the [Security team](../security/index.md) and is currently embedded in this team.
+
+Other:
+
+- [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith) will not be isolating his work to a single team. Instead, he will serially choose tasks that he thinks are important to work on and he will post updates to the most relevant tracking issue on GitHub. This is an experiment for the next month and we will evaluate the outcome on 2020-08-17. Tomás will continue to be his manager during this experiment.
 
 ## Hiring status
 

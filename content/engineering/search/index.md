@@ -11,7 +11,6 @@ Build and deliver Universal Code Search to all developers.
 
 ## Members
 
-- [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith) (dividing his time between this team and [cloud](../cloud/index.md))
 - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
 - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
 - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
