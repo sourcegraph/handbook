@@ -20,8 +20,8 @@ Here is a rough outline that we will be iterating on, and we can customize per c
    - 1h [Engineering leadership](engineering-leadership.md).
      - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) (required)
      - Plus one of:
-       - [Tomás Senart](../../../company/team/index.md#tomás-senart)
-       - [Loïc Guychard](../../../company/team/index.md#loïc-guychard)
+         - [Tomás Senart](../../../company/team/index.md#tomás-senart)
+         - [Loïc Guychard](../../../company/team/index.md#loïc-guychard)
    - 1h [Technical experience](https://github.com/sourcegraph/interviews/blob/master/engineering/technical-experience.md)
      - Tomás Senart or Loïc Guychard (whoever isn't in the engineering leadership interview)
      - One engineer who this person would be managing.
