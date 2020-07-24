@@ -59,6 +59,10 @@ At the beginning of each iteration, the engineering manager will:
 
 The meeting notes for all past web team retrospectives can be found [here](https://docs.google.com/document/d/1YW45Dksk0vIn7drhatwLyo6YbMMkS-naHcuShUi1OOw/edit#heading=h.dxt1jy5hsf1d).
 
+We do monthly backlog triages together, where we go through the issues in the "To do" column of our [Project board](https://github.com/orgs/sourcegraph/projects/45) and decide which issues we should work on soon by moving them to the "Next" column.
+To manage the load for these triages, a triage may have a specific theme, like "debt" or "performance".
+This helps us resurface older issues, create shared awareness for existing deficiencies among everyone working on the web codebase and ensure all issues have estimates.
+
 ## Team syncs
 
 The web team holds weekly syncs.
@@ -85,5 +89,5 @@ We are growing the web team by hiring [frontend engineers](https://github.com/so
 - Extensions and integrations
     - **Sourcegraph extensions** empower users to integrate Sourcegraph with any third-party service providing useful information about code (code coverage, exception tracking, tracing, code quality). They are consistently supported across all code host integrations and the Sourcegraph UI. Through extensions, Sourcegraph surfaces high-level [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
     - The **browser extension** and code host **native integrations** are a breeze to set up, and add compelling value when reading or reviewing code. Enabling native code host integrations for all users is a no-brainer for site admins.
-    
+
 Loïc is interested to be the manager of the [Search team](../search/index.md) so we are [hiring an engineering manager for this team](https://github.com/sourcegraph/careers/blob/master/job-descriptions/engineering-manager-web.md) to replace him.
