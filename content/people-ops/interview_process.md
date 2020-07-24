@@ -11,10 +11,10 @@ The documentation for each interview should:
 
 Interviewers are not required to linearly ask every single question in the interview documentation; it is not a script.
 
-- If an interviewer gets the desired signal after asking only one our of three questions on a topic, then they may decide to skip the remaining two questions and move on to another topic in the interview.
+- If an interviewer gets the desired signal after asking only one out of three questions on a topic, then they should skip the remaining two questions and move on to another topic in the interview.
 - If the candidate brings up an experience or topic that is relevant to another section of the interview, the interviewer may choose to use that as a natual segue to that topic even if it is out of order from the interview documentation.
 
-The best kind of interview is one where the candidate feels like it was an organic conversation and the interviewer got all the signal they were looking for.
+The best kind of interview is one where the candidate feels like it was an organic conversation and where the interviewer gets all the signal they were looking for.
 
 We would like to move as much information as possbile about our interviews to our public handbook, including the interview questions themselves. This will allow motivated candidates to prepare their best answers to our questions. This work will be done by, and at the discretion of, individual hiring managers for the processes that they own.
 
