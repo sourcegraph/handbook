@@ -14,6 +14,7 @@ Welcome to Sourcegraph! This document will guide you through engineering specifi
   - [Docker Hub](https://hub.docker.com/orgs/sourcegraph)
   - [Site24x7](https://www.site24x7.com) (optional; recommended for Distribution team members)
   - [HoneyComb.io](https://www.honeycomb.io/)
+  - Ask Christina to send an invite to [Productboard](https://sourcegraph.productboard.com)
 - Schedule a recurring [1-1](../leadership/1-1.md).
 - Schedule time to discuss Sourcegraph's system architecture and tech stack.
 - Schedule a time to discuss on-call rotation.
