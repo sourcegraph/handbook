@@ -47,6 +47,7 @@ You'll find we have a strong base to work from, but we are in the early stages o
        - [Data for design](https://drive.google.com/drive/folders/1Xw7t1rIWRTg3cJ1_v-A40FGKCLE9m9Pg?usp=sharing)
        - [Lorem Ipsum](https://www.figma.com/community/plugin/736000994034548392/Lorem-ipsum) - simple text generator
        - [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker) - handy tool to check if your designs meet accessibility standards
+       - [Iconify](https://www.figma.com/community/plugin/735098390272716381/Iconify) - We use the matrial design icons which can be searched and included with this plugin
        - Suggest plugins to help make us more efficent!
      - Install the font SF PRO, which can be found in the [drive type folder](https://drive.google.com/drive/folders/15NibaPYH4F0L_isvKHsYTFpwquv6DnRs)
      - Review the [component library](https://www.figma.com/file/BkY8Ak997QauG0Iu2EqArv/Sourcegraph-Components?node-id=0%3A1&viewport=4848%2C895%2C0.5811631679534912)
