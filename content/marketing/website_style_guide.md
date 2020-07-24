@@ -5,7 +5,10 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap" rel="stylesheet">
 Sourcegraph uses the following styles on <a href="https://about.sourcegraph.com">about.sourcegraph.com</a>.
 
-## Logos
+## Logos and icons
+
+- [All logo formats](https://drive.google.com/drive/folders/17HFjTFe4q8KLXsu7LoLS_lIgOT1OARiP?usp=sharing)
+- [Material design icons](https://materialdesignicons.com/)
 
 <img class="mark" src="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-logo.svg">
 
@@ -21,8 +24,6 @@ Sourcegraph wordmark reverse logo
 
 Sourcegraph logomark
 <a href="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.svg">SVG</a> | <a href="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.png">PNG</a> | <a href="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.eps">EPS</a>
-
-- [Additional logo formats](https://drive.google.com/drive/folders/17HFjTFe4q8KLXsu7LoLS_lIgOT1OARiP?usp=sharing)
 
 ## Typography
 
