@@ -11,6 +11,7 @@
   - [TypeScript](languages/typescript.md)
   - [Terraform](languages/terraform.md)
 - [Testing](testing.md)
+- [Styling UI](./web/styling.md)
 - [Continuous integration](continuous_integration.md)
 - [Product documentation](product_documentation.md)
 - [Continuous releasability](continuous_releasability.md)
