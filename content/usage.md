@@ -72,6 +72,7 @@ If you use Firefox, you can add a Sourcegraph handbook search shortcut to the ad
 
 #### Setup 
 [__reference__](https://superuser.com/questions/7327/how-to-add-a-custom-search-engine-to-firefox/7336#7336)
+
 1. Right click the search bar on https://about.sourcegraph.com/handbook 
 2. Choose "Add a keyword for this Search"
 3. Enter a keyword that you would like to use (e.g. `hb`)
