@@ -28,6 +28,10 @@ We are hiring for these roles:
 
 See [2021 Organizational plan](../engineering/2021_org.md) for more details on areas of ownership.
 
+## [Goals](goals.md)
+
+See [Goals](goals.md)
+
 ## [Product management](product_management/index.md)
 
 - [Product process](product_management/product_process.md)
