@@ -17,6 +17,10 @@ TypeScript, React, RxJS, GraphQL, Go.
 
 ## Processes
 
+### Onboarding
+
+The web team's onboarding process for new teammates is documented [here](./onboarding.md).
+
 ### Planning
 
 We do [planning](../tracking_issues.md#planning-a-milestone-with-a-tracking-issue) with [tracking issues](../tracking_issues.md).
