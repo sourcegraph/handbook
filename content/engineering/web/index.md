@@ -84,6 +84,8 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 - [T. K.](../../../company/team/index.md#todo) starting 2020-07-27.
 - [J. P.](../../../company/team/index.md#todo) starting 2020-08-03.
 
+[Experimental onboarding plan for web team](onboarding.md)
+
 ## Growth plan
 
 We are growing the web team by hiring [frontend engineers](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md). When this team gets big enough, we expect to split it into two teams with the following ownership areas:
