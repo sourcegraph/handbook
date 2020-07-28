@@ -21,7 +21,7 @@ At Sourcegraph we think that security is an enabler for the business. Sourcegrap
 
 Please see [this document](https://docs.google.com/document/d/1HhYfnkC17yCPqqw91H1QAF7q8toOOiNtoOOw06hqrNQ/)
 
-## How to report a security vulnerability
+## Reporting a Vulnerability
 
 If you think that you have found a security issue, please email us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>. We will reply to reports within 1 business day to acknowledge that we received them and will strive to send you regular updates on our progress until the issue is resolved. You may request an update by replying to the existing email thread. We will read, but may not respond to low quality or spammy reports (e.g. those produced by automated tooling).
 
@@ -50,8 +50,12 @@ When we receive [a report of a security vulnerability](#how-to-report-a-security
   > Thank you for your report. Could you please provide us with $INFOX, $INFOY, and $INFOZ so we can investigate this further? 
 
   > Thank you for your report. We will not be taking further action on this report because $REASONS.
-
+  
 ## Members
 
 - [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him) ([engineering manager](../roles.md#engineering-manager)).
 - [Elizabeth Stirling](../../../company/team/index.md#elizabeth-stirling-she-her)
+
+## Open Positions
+
+[Software Security Engineer](https://jobs.lever.co/sourcegraph/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)
