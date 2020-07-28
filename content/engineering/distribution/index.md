@@ -80,6 +80,7 @@ Go, Docker, Kubernetes
 * [Tools](./tools/index.md)
 * Tutorials
   * [Observability developer guide](observability/index.md)
+  * [Managed instances](managed-instances/index.md)
   * [Collecting and inspecting metrics dumps](metrics_dumps.md)
   * [How to set up a separate website maintained by Sourcegraph](separate_website.md)
   * [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
