@@ -14,12 +14,16 @@ However, additional sessions are available on custom topics.
 ## Sourcegraph 101 (standard demo flow)
 
 _Trainer_: Customer Engineer
+
 _Time_: 45 minutes
 
 ### Agenda
 <u>5 minutes</u>: introductions and company overview
+
 <u>20 minutes</u>: Sourcegraph 101 demo, covering 4-5 key product capabilities and use cases
+
 <u>5–10 minutes</u>: internal company early adopters and volunteers share their use cases for Sourcegraph
+
 <u>10–15 minutes</u>: Q&A
 
 ### Demo flow
@@ -67,12 +71,16 @@ _Optional, if time allows_
 ## Becoming a Sourcegraph power user
 
 _Trainer_: Customer Engineer
+
 _Time_: 45 minutes
 
 ### Agenda
 <u>10 minutes</u>: introductions and a reminder of basic Sourcegraph workflows
+
 <u>20 minutes</u>: Sourcegraph advanced features demo
+
 <u>5–10 minutes</u>: internal company users share their experiences with Sourcegraph so far
+
 <u>10–15 minutes</u>: Q&A
 
 ### Demo flow
@@ -110,9 +118,12 @@ _If not covered in the Sourcegraph 101 session_
 ## Sourcegraph office hours
 
 _Trainer_: Customer Engineer + Product Manager + Engineer
+
 _Time_: 30 minutes
 
 ### Agenda
 <u>5 minutes</u>: introductions (Customer Engineer).
+
 <u>5–10 minutes</u>: product roadmap review (Product Manager).
+
 <u>15–20 minutes</u>: open Q&A regarding product features, use cases, roadmap, and more.
