@@ -36,9 +36,15 @@ Note that this section applies to backend connections with code hosts, such as r
 
 ## Repository permissions
 
-**Keywords**: `permissions`, `ACLs`, `access`
+**Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`
 
 Any questions about repository permissions should be routed to the [Cloud team](../engineering/cloud/index.md).
+
+## User authentication (SSO)
+
+**Keywords**: `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
+
+Any questions about user authentication should be routed to the [Cloud team](../engineering/cloud/index.md).
 
 ## Code intelligence
 
