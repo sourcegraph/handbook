@@ -102,13 +102,13 @@ Mon @ 11am PST we hold an [internal
 team sync](https://docs.google.com/document/d/1otP6F8qfm2yNOW1hjTszkkuiYF1MGp31s5ATeA76ij4/edit) via Zoom. The goal is to:
 
 - Think about the problems we're solving by briefly going over what everyone is working on
-- Revisit our goals and think about how we are tracking towards them when useful (and consider if they are still the right goals)
+- Revisit our [goals](goals.md) and think about how we are tracking towards them when useful (and consider if they are still the right goals)
 - Identify and address any topics & issues that warrant further discussion
 - Act as an opportunity / space for anyone to call out concerns, questions, etc. that they may have or suggest things we could be doing better, etc.
 - Serve as a space for others outside our team that work closely with us (e.g. people working on Cloud infrastructure) to interact with us face-to-face.
 
-
-On the Mon. following the [20th (release day)](../releases/index.md), this meeting is used to finalize planning the current release and kick-off asynchronous planning for the next release.
+The first Monday before the [20th (release day)](../releases/index.md), this meeting is used to finalize planning the next release.
+The second Monday before the [20th (release day)](../releases/index.md), this meeting is used to kick-off asynchronous planning for the next release.
 
 These meetings are recorded (posted automatically to the #distributioneers Slack channel) so that anyone whose timezone does not permit can participate after the fact.
 
