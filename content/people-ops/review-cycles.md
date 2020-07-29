@@ -12,25 +12,24 @@ The 360 review process entails writing your own self review along with giving fe
 
 If you joined Sourcegraph within the last month, many of the questions in the review cycle wouldn't apply to you yet, so please answer those which you can, and write “N/A” where you can't.
 
-Review cycles take place in February and August. They begin the first week of each of those months, and last for three weeks.
+Review cycles take place in February and August. They begin the first week of each of those months, and last for two weeks.
 
 ## 360 review cycle stages
 
-### Peer selection (2 days)
+### Peer selection (1 day)
 
-**Everyone:** Log into https://sourcegraph.latticehq.com/. On your dashboard you will be prompted to select peers that you would like to have a review from. You should select 2-3 peers you’ve worked most closely with the last six months and would like to receive feedback from.
+**Managers:** You will be selecting peer reviewers for each of your direct reports via a spreadsheet that People Ops will create. (This is to ensure that all reviewers have a managable review load).
+**People Ops:**: Once all selections have been confirmed, People Ops will enter all peer selections in [Lattice](https://sourcegraph.latticehq.com/) and kick start the review cycle.
 
-**Managers:** Log into https://sourcegraph.latticehq.com/. On your dashboard you will be prompted to approve or edit your direct reports' peer selections. Once you've made necessary changes (if any), and approved all selections, the cycle with continue onto the next stage.
+### 360 feedback (4 days)
 
-### 360 feedback (8 days)
-
-**Everyone:** You will log back into Lattice this time you will be prompted to write three different reviews by answering the questions in the prompt.
+**Everyone:** You will log into Lattice and on your dashboard you will be prompted to write three different types of reviews by answering the questions in the prompt.
 
 - Self review: you will write a review of yourself.
 - Manager review: you will write a review of your manager.
-- Peer reviews: you will write reviews of any peers that selected you to write feedback for them.
+- Peer review(s): you will write reviews of the peers that your manager selected based off who you have worked with closely.
 
-### Manager feedback + summaries (9 days)
+### Manager feedback + summaries (5 days)
 
 **Managers:** You will be able to review all existing feedback for each of your direct reports and you will now be able to write your own review as well as an overall summary for each direct report. Once all of your reviews are submitted, you are ready to discuss and share the complete review packets with your direct reports during your one-on-ones.
 
