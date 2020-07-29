@@ -2,6 +2,36 @@
 
 - General Terraform [styleguide](https://www.terraform.io/docs/configuration/style.html)
 
+## State
+
+State must be stored using a [GCS Terraform state backend](https://www.terraform.io/docs/backends/types/gcs.html).
+
+Example configuration
+```
+terraform {
+  required_version = "0.12.26"
+
+  backend "gcs" {
+    bucket = "sourcegraph-tfstate"
+    prefix = "infrastructure/dns"
+  }
+}
+```
+
+### State for state buckets
+
+Because we need to create state buckets as code, we also need to store the state of the code that creates the state bucket. Given this code rarely changes and that moving it to be stored in a remote location creates a chicken and egg situation, we will store state bucket creation's state in Git.
+
+### Bucket
+
+State for all Sourcegraph resources is stored in [sourcegraph-tfstate bucket](https://github.com/sourcegraph/infrastructure/tree/master/terraform-state).
+
+Managed instances resources will be stored on a per customer bucket following the pattern: `sourcegraph-managed-${NAME}`.
+
+### Prefix
+
+State for different pieces of infrastructure require separate state files. To facilitate matching state to resources and code, we will use the following pattern: `${REPOSITORY_NAME}/${INFRASTRUCTURE_NAME}`.
+
 ## Formatting
 
 - Format all code using `terraform fmt`
