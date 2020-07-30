@@ -25,6 +25,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Goals (@dan, 30 minutes)
   - CE systems and processes (@dan, 30 minutes)
   - Product introduction (@christina, 1 hour)
+    - Optionally request access to [Figma](https://www.figma.com/) in the #product channel on Slack
   - Sourcegraph demo (@dan, 30 minutes)
   - Product architecture (@nick, 1 hour)
   - Product deployment (@stephen, 30 minutes)
