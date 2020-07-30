@@ -143,5 +143,196 @@ These are usually where mutation is unavoidable.
 For example, our extension host web worker runs in a separate thread.
 We need to sync various data between the worker and the main thread, because requesting that data on demand every time  through message passing would not be performant.
 
-We also have a large number of React class components in our codebase predating [React hooks](https://reactjs.org/docs/hooks-intro.html).
-We are continuously refactoring these to function components using hooks.
+## Converting React class components to function components
+
+We have a large number of React class components in our codebase predating [React hooks](https://reactjs.org/docs/hooks-intro.html).
+We are continuously refactoring these to function components using hooks. This section provides examples of refactoring common class component patterns to into function components.
+
+### `logViewEvent` calls
+
+When refactoring, simply move these calls from `componentDidMount()` to a `useEffect()` callback:
+
+```typescript
+useEffect(() => {
+    eventLogger.logViewEvent('ApiConsole')
+}, [])
+```
+
+### Fetching data in componentDidMount
+
+A lot of components will fetch initial data using observables, calling `setState()` in the `subscribe()` callback. See [this example from `SiteUsageExploreSection`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9997438a8ba2fdc54920f1f6ad22dd08d4a37215/-/blob/web/src/usageStatistics/explore/SiteUsageExploreSection.tsx?subtree=true#L32-38):
+
+```typescript
+    public componentDidMount(): void {
+        this.subscriptions.add(
+            fetchSiteUsageStatistics()
+                .pipe(catchError(error => [asError(error)]))
+                .subscribe(siteUsageStatisticsOrError => this.setState({ siteUsageStatisticsOrError }))
+        )
+    }
+```
+
+In function components, this pattern can be easily replaced with `useObservable()`:
+
+```typescript
+const usageStatisticsOrError = useObservable(fetchSiteUsageStatistics().pipe(catchError(error => [asError(error)])))
+```
+
+If the function returning the Observable took props as parameters, you can rely on `useMemo()` to [re-create the Observable when props change](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9997438a8ba2fdc54920f1f6ad22dd08d4a37215/-/blob/web/src/enterprise/site-admin/SiteAdminLsifUploadPage.tsx?subtree=true#L25-27):
+
+```typescript
+const uploadOrError = useObservable(
+    useMemo(() => fetchLsifUpload({ id }).pipe(catchError(error => [asError(error)])), [id])
+)
+```
+
+### `this.componentUpdates`
+
+A common pattern in our class components is to declare a Subject of the component's props, named `componentUpdates`. It can be used to trigger side-effects, such as fetching data or subscribing to an Observable passed as props, only when certain props change.
+
+See this example from [`<MonacoEditor/>`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9997438a8ba2fdc54920f1f6ad22dd08d4a37215/-/blob/web/src/components/MonacoEditor.tsx?subtree=true#L129-137):
+
+```typescript
+this.subscriptions.add(
+    this.componentUpdates
+        .pipe(
+            map(({ isLightTheme }) => (isLightTheme ? SOURCEGRAPH_LIGHT : SOURCEGRAPH_DARK)),
+            distinctUntilChanged()
+        )
+        .subscribe(theme => monaco.editor.setTheme(theme))
+)
+this.componentUpdates.next(this.props)
+```
+
+This can be easily refactored with hooks by passing the relevant property as a dependency:
+
+```typescript
+const theme = isLightTheme ? SOURCEGRAPH_LIGHT : SOURCEGRAPH_DARK
+useEffect(() => {
+    monaco.editor.setTheme(theme)
+}, [theme])
+```
+
+### Instance property subjects
+
+Some class components expose subjects as instance properties, that can be used to trigger a new fetch of the data. See [`SettingsArea.refreshRequests`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9997438a8ba2fdc54920f1f6ad22dd08d4a37215/-/blob/web/src/settings/SettingsArea.tsx?subtree=true#L73):
+
+```typescript
+// Load settings.
+this.subscriptions.add(
+    combineLatest([
+        this.componentUpdates.pipe(
+            map(props => props.subject),
+            distinctUntilChanged()
+        ),
+        this.refreshRequests.pipe(startWith<void>(undefined)),
+    ])
+        .pipe(
+            switchMap(([{ id }]) =>
+                fetchSettingsCascade(id).pipe(
+                    switchMap(cascade =>
+                        this.getMergedSettingsJSONSchema(cascade).pipe(
+                            map(settingsJSONSchema => ({ subjects: cascade.subjects, settingsJSONSchema }))
+                        )
+                    ),
+                    catchError(error => [asError(error)]),
+                    map(dataOrError => ({ dataOrError }))
+                )
+            )
+        )
+        .subscribe(
+            stateUpdate => this.setState(stateUpdate),
+            error => console.error(error)
+        )
+)
+```
+
+These can typically be refactored using `useEventObservable()`, to handle both the initial data fetch, and further refresh requests:
+
+```typescript
+const [nextRefreshRequest, dataOrError] = useEventObservable(
+    useCallback(
+        (refreshRequests: Observable<void>) => refreshRequests.pipe(
+            // Seed the pipe so that the initial fetch is triggered
+            startWith<void>(undefined),
+            switchMapTo(fetchSettingsCascade(props.subject.id)),
+            switchMap(cascade => getMergedSettingsJSONSchema(cascade)),
+            catchError(error => [asError(error) as ErrorLike])
+        ),
+        // Pass props.subject.id as dependency so that settings are fetched again
+        // when the subject passed as props changes
+        [props.subject.id]
+    )
+)
+```
+
+### Uses of `tap()` to trigger side-effects in Observable pipes
+
+Some Observable pipes use `tap()` to trigger side-effects, such as [this pipe in `<RepoRevisionContainer/>`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9997438a8ba2fdc54920f1f6ad22dd08d4a37215/-/blob/web/src/repo/RepoRevisionContainer.tsx?subtree=true#L127-167) with its multiple calls to `onResolvedRevisionOrError`:
+
+```typescript
+// Fetch repository revision.
+this.subscriptions.add(
+    repoRevisionChanges
+        .pipe(
+            // Reset resolved revision / error state
+            tap(() => this.props.onResolvedRevisionOrError(undefined)),
+            switchMap(({ repoName, revision }) =>
+                defer(() => resolveRevision({ repoName, revision })).pipe(
+                    // On a CloneInProgress error, retry after 1s
+                    retryWhen(errors =>
+                        errors.pipe(
+                            tap(error => {
+                                if (isCloneInProgressErrorLike(error)) {
+                                    // Display cloning screen to the user and retry
+                                    this.props.onResolvedRevisionOrError(error)
+                                    return
+                                }
+                                // Display error to the user and do not retry
+                                throw error
+                            }),
+                            delay(1000)
+                        )
+                    ),
+                    // Save any error in the sate to display to the user
+                    catchError(error => {
+                        this.props.onResolvedRevisionOrError(error)
+                        return []
+                    })
+                )
+            )
+        )
+        .subscribe(
+            resolvedRevision => {
+                this.props.onResolvedRevisionOrError(resolvedRevision)
+            },
+            error => {
+                // Should never be reached because errors are caught above
+                console.error(error)
+            }
+        )
+)
+```
+
+This is easily solved by decoupling data production and side-effects:
+
+```typescript
+const resolvedRevisionOrError = useObservable(
+    useMemo(
+        () => resolveRevision({ repoName: props.repo.name, revision: props.revision}).pipe(
+            catchError(error => {
+                if (isCloneInProgressErrorLike(error)) {
+                    return [error]
+                }
+                throw error
+            }),
+            repeatUntil(value => !isCloneInProgressErrorLike(value), { delay: 1000 }),
+            catchError(error => [asError(error)])
+        ),
+        [props.repo.name, props.revision]
+    )
+)
+useEffect(() => {
+    props.onResolvedRevisionOrError(resolvedRevisionOrError)
+}, [resolvedRevisionOrError, props.onResolvedRevisionOrError])
+```
