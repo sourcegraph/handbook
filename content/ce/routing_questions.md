@@ -70,12 +70,6 @@ Any questions about the browser extension or code host native integrations shoul
 
 Any questions about Sourcegraph extensions should be routed to the [Web team](../engineering/web/index.md).
 
-## Sourcegraph extensions
-
-**Keywords**: `extensions`, `plugins`, `blame`, `git-extras`, `Codecov`
-
-Any questions about Sourcegraph extensions should be routed to the [Web team](../engineering/web/index.md).
-
 ## Campaigns
 
 **Keywords**: `campaigns`, `large scale code changes`, `refactoring`
