@@ -12,6 +12,19 @@ It's the [responsibility of the Product Manager](../../handbook/product/roles.md
 
 We use the [monthly release blog post](https://about.sourcegraph.com/blog) as a changelog checklist to ensure everything is documented.
 
+## Local development of documentation only
+
+For local development of documentation, clone the main [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/).  The development environment for Sourcegraph, detailed in [Getting started with developing Sourcegraph](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md), is not required.
+
+After saving any changes or updates, documentation can be previewed locally with the follow commands:
+
+```
+cd sourcegraph
+./dev/docsite.sh -config doc/docsite.json serve -http=localhost:5080
+```
+
+Navigate the browser to [https://localhost:5080](https://localhost:5080) to view the documentation.
+
 ## Naming and linking documentation pages
 
 1. Every page in a directory should be linked to from its parent page (index.md in that directory), unless the document is designed to be [standalone](#standalone-documents).
