@@ -54,6 +54,8 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - [Videos of campaigns](https://about.sourcegraph.com/product/code-change-management), currently in private beta
   - Case studies: [Yelp](https://engineeringblog.yelp.com/2019/11/winning-the-hackathon-with-sourcegraph.html), [Quantcast](https://about.sourcegraph.com/case-studies/quantcast/) and [Thorn](https://about.sourcegraph.com/case-studies/we-are-thorn/)
   - Latest Sourcegraph release blog post (on our [blog](https://about.sourcegraph.com/blog))
+- Set up 1-on-1s over the next month with all members of the [Distribution team](../engineering/distribution/index.md). This is the engineering team that CEs traditionally work with most often, as they own customer deployment, monitoring, and upgrades.
+- Set up 1-on-1s over the next month with all members of the [Sales team](../sales/index.md).
 
 ### Checkpoint
 
