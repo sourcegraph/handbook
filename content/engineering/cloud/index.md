@@ -49,7 +49,7 @@ We use weekly [progress updates in the tracking issue](../tracking_issues.md#pro
 
 Every Friday, Slackbot will post a reminder in #cloud for us to write weekly progress updates for each goal in the iteration.
 
-The teammates working on a goal are responsible for this update which is essentially the written version of what should be communicated in the Cloud Sync meetings the next Monday.
+The teammates working on a goal are responsible for this update and should decide amongst themselves who writes this update each week.
 
 ### Retrospectives
 
@@ -70,6 +70,7 @@ The meeting notes can be found [in this doc](https://docs.google.com/document/d/
 
 Before team syncs, teammates and stakeholders should write down under "Discussion items" in the meeting notes document anything that they'd like to bring up for discussion with the whole team.
 
+By default, members of the team will provide a brief update about the goals they're working on (one update per iteration goal) — this will be a short version of the written update in the tracking issue.
 
 ## Members
 
