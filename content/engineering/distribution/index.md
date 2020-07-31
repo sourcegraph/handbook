@@ -90,6 +90,7 @@ Go, Docker, Kubernetes
   * [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
   * [How to test the Gitlab native integration locally](gitlab_native_local.md)
   * [How to make updates to global settings and configuration on sourcegraph.com](update_sourcegraph_website.md)
+  * [Create GCP commitments](gcp.md#committed-use-discounts)
 
 ## Members
 
