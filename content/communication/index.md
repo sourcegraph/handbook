@@ -64,6 +64,8 @@ This assumes that currently the meeting has a Google Doc with notes that people 
 
 > This idea is from [The Great CEO Within](https://www.amazon.com/Great-CEO-Within-Tactical-Building-ebook/dp/B07ZLGQZYC) (Chapter 12) by [@mattmochary](https://twitter.com/mattmochary).
 
+Structured meetings are great, but it's important to have casual, unscheduled, free-flowing time to chat with people as well. That helps build personal bonds and surface topics or ideas that might not come up in structured meetings.
+
 ### External meetings
 
 - Join meetings early or on time.
