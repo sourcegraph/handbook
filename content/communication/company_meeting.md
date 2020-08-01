@@ -25,6 +25,7 @@ Company meeting is an effective way to:
      - Example: "On campaigns, we heard from Acme Corp that..." vs. "Campaigns let you make large-scale fixes across all of your code. Acme Corp told us that..."
 	 - Example: "Marketing update: our new lead sources..." vs. "Marketing is about getting enterprise developers to know about and want to try Sourcegraph. Our new lead sources..."
    - Remember that other team members are new to the company and/or busy on their own projects.
+1. When speaking, remind people of your role. For example: `I'm Alice Zhao, a developer on the security team` or `I'm Bob Schmidt, and I run the website on our marketing team`.
 1. Don't make announcements or share other specific information that you expect everyone to remember.
   - You can't assume everyone is attending company meeting and is paying attention.
   - Use company meeting to give a reminder, but make sure the announcement is in [Slack](team_chat.md), in email, and/or on the calendar.

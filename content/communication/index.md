@@ -48,6 +48,7 @@ The following places are not sources of truth. Treat documents and conversations
   - Enable "Guest permissions: Modify event" so that other people can easily reschedule the meeting if needed.
 - Add a Google Doc link to the event description for taking notes during the meeting.
   - If the meeting is recurring, use the same Google Doc for all meetings.
+- Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../../company/team/org_chart.md) helps.)
 
 #### Structured meetings
 
