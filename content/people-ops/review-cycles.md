@@ -18,8 +18,8 @@ Review cycles take place in February and August. They begin the first week of ea
 
 ### Peer selection (1 day)
 
-**Managers:** You will be selecting peer reviewers for each of your direct reports via a spreadsheet that People Ops will create. (This is to ensure that all reviewers have a managable review load).
-**People Ops:**: Once all selections have been confirmed, People Ops will enter all peer selections in [Lattice](https://sourcegraph.latticehq.com/) and kick start the review cycle.
+**Managers:** You will be selecting peer reviewers for each of your direct reports via a spreadsheet that People Ops will create. (This is to ensure that all reviewers have a managable review load). \
+**People Ops:** Once all selections have been confirmed, People Ops will enter all peer selections in [Lattice](https://sourcegraph.latticehq.com/) and kick start the review cycle.
 
 ### 360 feedback (4 days)
 
