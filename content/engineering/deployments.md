@@ -203,7 +203,7 @@ These example commands are for the `dot-com` cluster where the Sourcegraph appli
 <tr>
   <td>Get access to Jaeger locally.</td>
   <td>
-	<code>kubectl port-forward svc/jaeger-query 16686</code>
+	<code>kubectl port-forward --namespace=prod svc/jaeger-query 16686</code>
   </td>
 </tr>
 
