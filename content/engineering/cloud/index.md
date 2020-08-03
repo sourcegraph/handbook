@@ -14,6 +14,7 @@ The cloud team owns all work that is necessary to build, secure, scale, and oper
 ## Resources
 
 - [Tracking Issues](https://github.com/sourcegraph/sourcegraph/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Ateam%2Fcloud+label%3Atracking)
+- [Manual migrations](manual_migrations.md)
 
 ## Processes
 
