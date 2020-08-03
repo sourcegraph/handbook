@@ -76,8 +76,8 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 - [Loïc Guychard](../../../company/team/index.md#loic-guychard) ([engineering manager](../roles.md#engineering-manager))
 - [Felix Becker](../../../company/team/index.md#felix-becker)
 - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-- [TJ Kandala](../../../company/team/index.md#todo).
-- [J. P.](../../../company/team/index.md#todo) starting 2020-08-03.
+- [TJ Kandala](../../../company/team/index.md#todo)
+- [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
 
 ## Growth plan
 
