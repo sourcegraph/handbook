@@ -24,6 +24,7 @@
 - [Deployments](deployments.md)
 - [On-call](on_call/index.md)
 - [Prometheus](prometheus.md)
+- [Honeycomb](honeycomb.md)
 - [Adding and debugging ping data](adding_ping_data.md)
 - [Adding buildkite secrets](adding_buildkite_secrets.md)
 - [External contributions](external_contributions.md)
