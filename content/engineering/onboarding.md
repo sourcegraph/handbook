@@ -12,7 +12,7 @@ Every time you're curious or confused about something — just ask! When you do 
 
 ### Think and act like an owner
 
-At Sourcegraph, we don't think of engineers as resources — we think of them as owners of their work, who constantly reevaluate how to use their talents to be as impactful as possible. We value your opinions and ideas. You should always feel empowered to identify potential improvements and act upon them, whether they be improvements to processes (like onboarding), our handbook and general documentation, our codebase and tooling, or our product.
+At Sourcegraph, we don't think of teammates as resources — we think of them as owners of their work, who constantly reevaluate how to use their talents to be as impactful as possible. We value your opinions and ideas. You should always feel empowered to identify potential improvements and act upon them, whether they be improvements to processes (like onboarding), our handbook and general documentation, our codebase and tooling, or our product.
 
 Never assume that a problem is somebody else's to fix!
 

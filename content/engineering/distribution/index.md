@@ -94,8 +94,8 @@ Go, Docker, Kubernetes
 
 ## Members
 
-- [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) ([engineering manager](../roles.md#engineering-manager)).
-- [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) ([project lead](../roles.md#project-lead))
+- [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) ([engineering manager](../roles.md#engineering-manager))
+- [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst)
 - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
 - [Uwe Hoffmann](../../../company/team/index.md#uwe-hoffmann)
 - [Dave Try](../../../company/team/index.md#dave-try)

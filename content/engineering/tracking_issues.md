@@ -89,7 +89,7 @@ Each engineer is responsible for posting a weekly update on Friday to tracking i
     - https://github.com/sourcegraph/sourcegraph/issues/11494
 - Not as good: `Worked on #111, #444, and RFC 123`
 
-Each engineering manager (or project lead for projects that don't have a dedicated manager) is responsible for posting a weekly update on Monday. This update should be in prose, and should capture your individual progress as well as any team context that isn't obvious from the individual updates from others on the team (e.g., important team decisions, implementation milestones, pain points, changes to planned work, unexpected work that took time away from planned work). You should assume that anyone who reads your update will have read the previous individual updates, so no need to repeat anything.
+Each engineering manager is responsible for posting a weekly update on Monday. This update should be in prose, and should capture your individual progress as well as any team context that isn't obvious from the individual updates from others on the team (e.g., important team decisions, implementation milestones, pain points, changes to planned work, unexpected work that took time away from planned work). You should assume that anyone who reads your update will have read the previous individual updates, so no need to repeat anything.
 
 ## Contributing to the tracking issue tool
 

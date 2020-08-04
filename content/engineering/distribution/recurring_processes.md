@@ -57,7 +57,7 @@ feasible set of work with clear lines of ownership.
    judgment) by unassigning themselves, but keeping the issue in the milestone. Use the goals as a
    guidepost for prioritization.
 1. In a meeting (budget an hour), go through the tracking issue as a team.
-   1. Prior to the meeting, the project lead should estimate how long each discussion item should
+   1. Prior to the meeting, the engineering manager should estimate how long each discussion item should
       take, so that they can keep the meeting on schedule. The tech lead should also talk to people
       1-1 to clarify, align, and build consensus prior to the meeting. A good rule of thumb to shoot
       for is that the team is 70-80% aligned on who's working on what by the time the meeting takes
@@ -68,7 +68,7 @@ feasible set of work with clear lines of ownership.
       be skipped.
    1. For each unassigned issue, decide whether it needs to be prioritized/assigned. Otherwise, move
       it to the Backlog.
-1. If there are any remaining uncertainties following the meeting, the project lead should follow up
+1. If there are any remaining uncertainties following the meeting, the engineering manager should follow up
    1-1 to finalize the tracking issue.
 1. If the goals need to be updated, propose an update and obtain approval from the VP of
    Engineering. It may make sense to block work on issues out of line with the existing goals until
@@ -78,13 +78,13 @@ feasible set of work with clear lines of ownership.
 
 * It is *every* Distribution teammate's responsibility to understand the team's priorities and propose
   the work that aligns with these priorities.
-* It is the project lead's responsibility to ensure (1) the tracking issue is the right set of
+* It is the engineering manager's responsibility to ensure (1) the tracking issue is the right set of
   things to work on and (2) every team member is bought into the outcome of planning. How active a
   role you take in planning should depend on your read of the team at the start of planning. Common
   pitfalls are being too passive or too dictatorial. Too passive means we aren't necessarily working
   on the right things. Too dictatorial means people aren't bought into what we're working on. Avoid
   both of these. Keep in mind that no one (including you) has a monopoly on useful knowledge and
-  context, but also that the project lead exists for a reason.
+  context, but also that the engineering manager exists for a reason.
 
 ### Retrospective
 
