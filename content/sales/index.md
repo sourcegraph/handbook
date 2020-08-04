@@ -95,9 +95,15 @@ The **Lead** stage is for leads that are sales qualified (i.e., SQLs), which mea
       - If they don’t meet this criteria, we could discuss internally on whether Sourcegraph would benefit from having this company as a customer (e.g., reputable logo, we want to support a non-profit org’s mission, we can partner with them in multiple ways, etc.).
 1. We *have* reached out to them requesting a call/meeting to introduce Sourcegraph’s offering, but the call/meeting has *not* occurred yet (i.e. it is still upcoming on the calendar, or they have not yet responded with agreement for the call/meeting).
 
+### Interest
+
+> ~20% probability of winning
+
+The **Interest** stage is under construction
+
 ### Qualification
 
-> ~25% probability of winning
+> ~40% probability of winning
 
 The **Qualification** stage is for leads where **ALL** of the following are true:
 
@@ -116,7 +122,7 @@ Other notes:
 
 ### Evaluation
 
-> ~50% probability of winning
+> ~60% probability of winning
 
 The **Evaluation** stage is for opportunities where **ALL** of the following are true:
 
