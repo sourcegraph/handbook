@@ -52,7 +52,7 @@ The best way to communicate is [asynchronously and publicly](../communication.md
 
 My preferred working hours are 07:30-17:00 and 19:00-21:00 US Pacific Time (Google Calendar does not let me specify a noncontigous "working hours" block).
 
-I've found recurring meetings with specific single teammates (other than my [1-1s](../leadership/1-1.md)) to be ineffective. In most cases, people either want to discuss topics with me that are best discussed with a larger group or someone else, or they don't have any topics to discuss but don't want to offend me by canceling the recurring event.
+I've found *recurring* meetings with specific single teammates (other than my [1-1s](../leadership/1-1.md)) to be ineffective. In most cases, people either want to discuss topics with me that are best discussed with a larger group, or they don't have any topics to discuss but don't want to offend me by canceling the recurring event. Anyone is always welcome to schedule time to chat with me whenever they want, and if you really want to schedule a recurring chat with me (in addition to your 1-1 with your manager), go for it--and I won't be offended if you want to cancel.
 
 ### Asking for a review from me
 
