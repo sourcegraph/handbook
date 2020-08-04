@@ -41,6 +41,26 @@ Prior to the weekly sync meeting, each team member should:
 
 We track most of our work using [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
 
+## New Engineer Onboarding
+
+Our team is growing and to help our new teammates have the best onboarding experience we have created additional material that builds on Sourcegraph's [general engineering onboarding](../onboarding.md) guide. We think will help you ramp up in all things code intel.
+
+### Weeks 1 - 4
+
+**Architecture Presentation**: An experienced code intel engineer will give a live presentation primarily to the new hire (and any other Sourcegraph teammate who’s interested) explaining the architecture of our systems at a high level.
+
+**Pair Programming**: Keeping inline with [engineering pairing sessions](../onboarding.md#pairing-sessions) we will support our new teammates by setting aside dedicated time every week for mentoring. This not only helps deliver guided learning but also is great for team and relationship building.
+
+**First Tasks**: The team has marked issues we believe are good first issues in [Github](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+label%3A%22good+first+issue%22++label%3A%22team%2Fcode-intelligence%22), following the [starter task process](../onboarding.md#starter-tasks) work with the code intel engineering manager to select three issues that you think are good ones for you to work on in your first 4 weeks.
+
+**Technical Design Diagrams**: We know that a picture is worth a thousand words and we will create visual diagrams to supplement our written documentation for the most critical or complex components and processes. This material is great for async learning and can provide a better understanding of the parts that make up the big picture. Browse through available diagrams in the [code intel Google drive](https://drive.google.com/drive/folders/1vKcW5EM4RBIuF8ZFvPM0G1FRwl_03RXK) and learn how the Bundle Manager works or view Inter-service request diagrams.
+
+### Second Month
+
+**Inverted Presentation**: Our new teammate has now had some time to explore the source code and will use their knowledge to present to the team. You can choose to either explain the architecture of an existing component or present a solution to a problem you just solved. The team will give feedback and clarify where needed and provide more details to high-level designs.
+
+**Feedback**: We want to hear from our new teammate how helpful each of these onboarding experiences was and we will continuously update our onboarding guide based on new insights. As per the engineering guide for feedback will be gathered in week 6.
+
 ## Members
 
 - [Aida DeWitt](../../../company/team/index.md#aida-dewitt-she-her) ([engineering manager](../roles.md#engineering-manager))
@@ -50,7 +70,7 @@ We track most of our work using [issues on the Sourcegraph main repository](http
 
 ## Hiring status
 
-_Updated 2020-07-06_
+_Updated 2020-08-01_
 
 We are hiring for these roles:
 
