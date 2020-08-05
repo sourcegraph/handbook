@@ -16,6 +16,11 @@ We're working on a new flow and a new way for people to create campaigns based o
 
 **Find code that needs to be changed and change it by running code**.
 
+## Contact
+
+- #campaigns channel or @campaigns-team on Slack.
+- [@sourcegraph/campaigns](https://github.com/orgs/sourcegraph/teams/campaigns) team or [team/campaigns label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fcampaigns+) on GitHub.
+
 ## Mission
 
 Users can focus on changing their code because campaigns provides the plumbing:
@@ -50,7 +55,7 @@ When I create a campaign to make large-scale code changes I want to _focus on th
 
 ## Members
 
-- [Chris Pine](../../../company/team/index.md#todo) ([engineering manager](../roles.md#engineering-manager))
+- [Chris Pine](../../../company/team#chris-pine-he-she-they-chris) ([engineering manager](../roles.md#engineering-manager))
 - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him) 
 - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
 - [Erik Seliger](../../../company/team/index.md#erik-seliger)
