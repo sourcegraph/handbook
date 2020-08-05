@@ -38,10 +38,10 @@ The sections below roughly correspond to the teams at Sourcegraph.
 <!-- When updating the engineering team list below, please also update company/team/org_chart.md. -->
 
 - [Engineering](engineering/index.md)
-  - [Distribution](engineering/distribution/index.md)
   - [Campaigns](engineering/campaigns/index.md)
   - [Cloud](engineering/cloud/index.md)
   - [Code intelligence](engineering/code-intelligence/index.md)
+  - [Distribution](engineering/distribution/index.md)
   - [Search](engineering/search/index.md)
   - [Security](engineering/security/index.md)
   - [Web](engineering/web/index.md)
