@@ -21,13 +21,12 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 - [Install Sourcegraph](https://docs.sourcegraph.com/admin/install/) using each of the three deployment options
   - Ask for any help needed along the way in the #dev-chat channel
   - Update our docs where necessary
-- Participate in (or be scheduled for) the following training sessions:
+- Participate in (or be scheduled for) the following training sessions. Please ask your manager or People Ops to help you find the right training sessions to join or the right training videos to watch.
   - Goals (@dan, 30 minutes)
-  - CE systems and processes (@dan, 30 minutes)
+  - CE systems and processes (@dan, 1 hour)
   - Product introduction (@christina, 1 hour)
     - Optionally request access to [Figma](https://www.figma.com/) in the #product channel on Slack
   - Sourcegraph demo (@dan, 30 minutes)
-  - Product architecture (@nick, 1 hour)
   - Product deployment (@stephen, 30 minutes)
   - Sourcegraph data (@ericbm, 30 minutes)
 - Set up introductory calls with Distribution, Sales, Product, and Marketing team members
