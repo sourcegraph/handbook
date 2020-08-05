@@ -2,11 +2,10 @@
 
 The distribution team is responsible for making Sourcegraph easy to deploy, scale, monitor, and debug. We solve challenging problems that our customers face when they deploy and scale Sourcegraph on-premise in a variety of environments, and that we face when we deploy and scale [Sourcegraph.com](https://sourcegraph.com/search) (the largest Sourcegraph installation in the world).
 
-## Team API
+## Contact
 
 - Slack: #distributioneers channel or @distribution
 - File issues: [team/distribution](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/distribution) label
-- What we're currently working on: [tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fdistribution+label%3Atracking+distribution), [roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#heading=h.mi8zg2ql2uc6)
 
 ## [Goals](goals.md)
 
