@@ -14,6 +14,10 @@ The Code Intelligence team builds tools and services that provide contextual inf
 
 - Robust, extensible, and scalable infrastructure to index code across all languages, keep those indexes up-to-date, and efficiently resolve code intelligence queries against all indexed code.
 
+## Goals
+
+TODO
+
 ## Contact
 
 - #code-intel channel or @codeintel in Slack.

@@ -23,6 +23,10 @@ The Business Operations (BizOps) team is responsible for [translating business g
 
 Each month, [expansion and MAU amounts are calculated](https://docs.google.com/spreadsheets/d/1tRcz3bNOho1TyWvrYSv37RIYcQs7I0i05-5eKwLq8TI/edit#gid=0) and sent as invoices through Xero. 
 
+## Goals
+
+TODO
+
 # Analytics
 
 This page describes Sourcegraph's analytics function, our data sources, and how to use our data tools.

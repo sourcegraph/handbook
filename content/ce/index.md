@@ -14,6 +14,10 @@ The Customer Engineering team is responsible for ensuring that all of Sourcegrap
   - [How to route questions from customers](routing_questions.md)
   - [Filing customer issues](filing_customer_issues.md)
 
+## Goals
+
+TODO
+
 # Members
 
 - [Dan Adler](../../company/team/index.md#dan-adler-he-him) (CE team manager)

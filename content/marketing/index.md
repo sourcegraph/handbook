@@ -11,6 +11,10 @@
   - [Adding screenshots and screen recordings (GIFs and videos)](adding_screenshots_screen_recording.md)
   - [Website style guide](website_style_guide.md)
 
+## Goals
+
+TODO
+
 ## Members
 
 - [Aileen Agricola](../../company/team/index.md#aileen-agricola)

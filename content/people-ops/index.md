@@ -1,5 +1,9 @@
 # People Ops
 
+## Goals
+
+TODO
+
 ## Team
 - [Teammate philosophy](teammate_philosophy.md)
 - [List of team members](../../company/team/index.md)

@@ -11,6 +11,10 @@ The web team's current focus is documented in [the tracking issue for the curren
 - #web channel or @web-team in Slack.
 - [team/web](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/web) label and [@sourcegraph/web](https://github.com/orgs/sourcegraph/teams/web) team on GitHub.
 
+## Goals
+
+TODO
+
 ## Tech stack
 
 TypeScript, React, RxJS, GraphQL, Go.

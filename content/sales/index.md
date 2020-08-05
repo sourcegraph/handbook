@@ -15,6 +15,10 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [FY20 plan](https://docs.google.com/spreadsheets/d/1EkZ7O69-2jbgtacoFDrY8L6rP73Hlqp_syyVCnmGAFA/edit#gid=1071026049)
 - [Looker dashboard](https://sourcegraph.looker.com/browse/boards/2)
 
+## Goals
+
+TODO
+
 ## How sales works with other Sourcegraph teams
 
 ### [Customer engineering](../ce/support.md) (for customer support)

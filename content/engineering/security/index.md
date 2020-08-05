@@ -19,6 +19,9 @@ At Sourcegraph we think that security is an enabler for the business. Sourcegrap
     - https://github.com/sourcegraph/sourcegraph/security/code-scanning
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
 
+## Goals
+
+TODO
     
 ## Roadmap
 
