@@ -12,7 +12,7 @@ The product team is newly growing, and consists of all product managers and prod
 - [Product designers](roles.md#product-designer)
   - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
   - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
-  - [Q. K.](../../../company/team/index.md#todo)
+  - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him)
 
 ### [Roles and responsibilites](roles.md)
 
