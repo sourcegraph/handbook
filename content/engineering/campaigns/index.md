@@ -55,7 +55,7 @@ When I create a campaign to make large-scale code changes I want to _focus on th
 
 ## Members
 
-- [Chris Pine](../../../company/team#chris-pine-he-she-they-chris) ([engineering manager](../roles.md#engineering-manager))
+- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([engineering manager](../roles.md#engineering-manager))
 - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him) 
 - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
 - [Erik Seliger](../../../company/team/index.md#erik-seliger)
