@@ -18,7 +18,6 @@ TODO
 ## Members
 
 - [Aileen Agricola](../../company/team/index.md#aileen-agricola)
-- [Kimberly Hopson](../../company/team/index.md#kimberly-hopson-she-her)
 - [Vanesa Ortiz](../../company/team/index.md#vanesa-ortiz-she-her)
 - [Quinn Slack](../../company/team/index.md#quinn-slack) (manager)
 

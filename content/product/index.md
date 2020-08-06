@@ -9,10 +9,13 @@ The product team is newly growing, and consists of all product managers and prod
 - [Product managers](roles.md#product-manager)
   - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
   - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
+  - [M.A.C](../../../company/team/index.md#todo) starting 2020-08-24
 - [Product designers](roles.md#product-designer)
   - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
   - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
   - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him)
+- [Developer communications](roles.md#developer-communications)
+  - [Kimberly Hopson](../../company/team/index.md#kimberly-hopson-she-her)
 
 ### [Roles and responsibilites](roles.md)
 

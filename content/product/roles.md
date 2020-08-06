@@ -30,3 +30,32 @@ You work collaboratively with product and engineering to create a highly functio
 - Use prototyping and usability testing to inform and validate designs.
 - Collaborate directly with customers to inform strategy and design decisions.
 - Publish blog posts and give conference talks about your work at Sourcegraph.
+
+## Developer communications
+
+### Responsibilities
+
+- Owns docs.sourcegraph.com
+   - Make Sourcegraph documentation top tier
+      - Move docs into a separate repository
+      - Move documentation into something that is not docsite
+   - Quality of existing documentation
+      - It is clear and easy to read
+      - It is correct
+      - It is organized
+      - There are great examples
+  - Supporting creation of videos
+      - Surfacing needed topics
+      - Writing scripts for the videos
+   - Support developers writing documentation and technical blog posts
+      - Depending on what they want:
+         - Interviewing a developer and writing for them
+         - Editing their own words
+   - Own the backlog of issues with the documentation
+- Is a resource for other teams on copy
+   - Marketing material such as:
+      - Social media posts
+      - Marketing blogs
+      - Release blog post(s)
+      - Marketing site copy
+   - Design and engineering copy review
