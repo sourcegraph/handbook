@@ -30,6 +30,15 @@ The parameters that our HubSpot workflows support are `utm_campaign`, `utm_sourc
 | First converting date     | utm\_date                | 2020\-01\-01          | Date at which the user submitted the form                                                                 |
 | gclid                     | gclid                    | TeSter\-123           | Google Click ID that syncs data between Google Ads and Analytics\. Only a contact’s first gclid is stored |
 
+## Creating email lists
+
+There are many contacts in HubSpot that have not opted into marketing emails. For example, if an email to a prospect's procurement department is logged in HubSpot, we should not be sending Sourcegraph communications to them. All email lists need to be built from the "ground up". What does this look like in practice?
+
+**Good**: List = Instance admins + demo requesters + NPS responders<br/>
+**Bad**: List = All contacts - outbounded contacts - unsubscribed contacts - instance admins
+
+Let BizOps know in #marketing if you'd like a second set of eyes on any email lists. 
+
 ## Maintaining data pipelines
 
 All major lead generation-related events (demo requests, livestream registrations, created instances) are copied to a [Google Sheet](https://docs.google.com/spreadsheets/d/16S3xlcY7DmpcfKZYD-3VHUsaPLiYHyisu8cD_gZpv0Q/edit#gid=0) by way of Zapier. This requires all events to funnel to a [data pipeline HubSpot list](https://app.hubspot.com/contacts/2762526/lists?folderId=454) so the Zapier event can be triggered.
