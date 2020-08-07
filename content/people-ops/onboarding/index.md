@@ -19,3 +19,4 @@
 - [ ] Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
 - [ ] It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
 - [ ] Go through the [analytics onboarding](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md). This onboarding is within Looker, so if you don't have an account you can ask for access in #analytics. 
+- [ ] Read Sourcegraph's [information security policy](https://about.sourcegraph.com/security) and acknowledge your acceptance: https://forms.gle/LUK1YtwAMJLhtRPi6.
