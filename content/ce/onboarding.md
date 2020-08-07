@@ -16,7 +16,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - Updates to be provided in order of priority 
 - Look at AE/CE calendars and join as many customer calls as possible 
   - Collect questions along the way (unfamiliar terms, use cases, etc.)
-- Watch [Dan's recorded demo](https://drive.google.com/file/d/1idbCnce5MIvtAV0GOOwgB68zQJB2WmZ9/view?usp=sharing) 
+- Watch [Dan's recorded demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing) 
 - Schedule a demo from the most recent CE hire before you
 - [Install Sourcegraph](https://docs.sourcegraph.com/admin/install/) using each of the three deployment options
   - Ask for any help needed along the way in the #dev-chat channel
