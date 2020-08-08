@@ -7,6 +7,7 @@
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](../prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Tracking user feedback](../user_feedback.md) - sources of feedback and how we keep track of that feedback.
+- [Feature rollout](../rollout_process.md) - how we test, rollout and launch new features.
 
 ## Definitions
 
