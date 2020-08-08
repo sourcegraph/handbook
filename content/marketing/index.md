@@ -13,7 +13,30 @@
 
 ## Goals
 
-TODO
+### Build the infrastructure so we can reach more devs
+
+Eventually we want to be publishing tons of compelling stuff for developers and other similar audiences. For now, we're building the infrastructure so we can do this well and track the results, and we'll publish a small number of very compelling things.
+
+Timeline: 2 months (ending 2020-10-02)
+
+Outcomes:
+
+- The about site looks really nice, has visitor and conversion tracking, and is SEO'd. (@aileen)
+- The workflow for publishing things is smooth and well documented so someone else with basic Git knowledge can follow it. (@aileen + @sqs)
+- Our tone, voice, writing standards, personas, and "philosophy on how to be compelling to developers" are all documented. (@sqs)
+- We publish the monthly release announcement and 3 other things (some combo of new about site pages, videos, and blog posts) using the documented workflow and standards, and all of these things pass the secret test of whether they're really, really compelling to developers. (@sqs)
+- A developer (who is not @sqs or @beyang) publishes a blog post using the documented workflow and standards, and it passes the secret test of whether it's really, really compelling to developers. (@sqs)
+- We can determine how many and which leads came from which content we published. (@aileen + @lori)
+
+### Help other teams that need marketing support
+
+Timeline: ongoing
+
+Tasks:
+
+- Make and maintain materials (slides, one-pagers, and proposals) for the sales team (@lori)
+- Manage and tweak Google ads to drive engagement with our product (@lori)
+- Respond to public and private messages on social media (@sqs)
 
 ## Members
 
