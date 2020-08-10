@@ -6,7 +6,7 @@ This document describes how we deal with operational incidents.
 
 ## Identification
 
-An incident is anything that requires a time sensitive response. Here are some examples:
+An incident is any unplanned event that causes a service disruption. Here are some examples:
 
 - sourcegraph.com is down or a critical feature is broken (e.g. sign-in, search, code intel).
 - A customer reports that their own Sourcegraph instance is down or a critical feature is broken.
@@ -23,14 +23,14 @@ Incidents can be reported by anyone (e.g. customers, Sourcegraph teammates) by a
     - If you are not an engineer or are not available to triage the incident, then ask the on-call engineer to triage the incident.
         - You can find out who is on-call by typing `/genie whoisoncall` in Slack.
         - If you are not able to immediately get in contact with the on-call engineer, then manually create a new OpsGenie alert by typing `/genie <description of incident and link to Slack thread> with ops_team`.
-    
+
 ## Triage
 
 The goal of triage is to either quickly resolve the incident using basic procedures, or quickly identify the right owner.
 
-1. **Acknowledge ownership** of the incident in the relevant Slack thread in the #incidents channel (i.e. "I'm on it").
+1. **Acknowledge ownership** of the incident in the relevant Slack thread in the #dev-ops channel (i.e. "I'm on it").
 2. Attempt to resolve the incident by rolling back to a known good state instead of trying to identify and fix the exact issue. **Communicate your intentions in the Slack thread.**
-    - [Rollback sourcegraph.com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/README.info.md#how-to-rollback-sourcegraphcom) 
+    - [Rollback sourcegraph.com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/README.info.md#how-to-rollback-sourcegraphcom)
     - Revert a broken commit out of master. If a bad commit has already been deployed to sourcegraph.com and is causing problems, rollback the deploy _before_ reverting the commit in master.
         - Revert the commit in a branch and open a PR.
         - Tag the owner of the reverted commit as a reviewer of the PR.
@@ -52,7 +52,7 @@ The incident responder will need to select a Sourcegraph.com account to attach t
 
 ## Resolution owner
 
-The resolution owner is responsible for resolving the incident as quickly and safely as possible. 
+The resolution owner is responsible for resolving the incident as quickly and safely as possible.
 
 1. **Acknowledge ownership** of the incident in the relevant Slack thread in the #incidents channel (i.e. "I'm on it").
 2. **Communicate** intended next steps (e.g. "I plan to...") and post regular updates (e.g. "I tried ... which resulted in ...") in the Slack thread.
@@ -70,4 +70,3 @@ After the incident is resolved:
 1. Document the incident in the [ops log](https://docs.google.com/document/d/1dtrOHs5STJYKvyjigL1kMm6u-W0mlyRSyVxPfKIOfEw/edit).
 1. Create GitHub issues for any appropriate followup work.
 1. Schedule a [retrospective](../../retrospectives/index.md) if you think it would be valuable.
-

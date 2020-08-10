@@ -18,6 +18,7 @@
 - [Commit message guidelines](commit_messages.md)
 - [Ignoring editor config files in Git](ignoring_editor_config_files.md)
 - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
+- [Customer Issues](../ce/customer_issues.md)
 - [Incidents](incidents.md)
 - [Releases](releases/index.md)
   - [Release issue template](releases/release_issue_template.md)

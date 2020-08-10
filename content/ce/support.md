@@ -4,7 +4,7 @@ This document is to help Sourcegraph teammates provide our customers with suppor
 
 ## How support works for customers
 
-Sourcegraph provides a dizzying number of ways to get in contact with us — from our [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues), our [Contact Us page](https://about.sourcegraph.com/contact), email exchanges with your sales and support reps, to our social media accounts, there's no shortage of ways to get in contact. 
+Sourcegraph provides a dizzying number of ways to get in contact with us — from our [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues), our [Contact Us page](https://about.sourcegraph.com/contact), email exchanges with your sales and support reps, to our social media accounts, there's no shortage of ways to get in contact.
 
 ### Recommended support path and SLAs
 
@@ -12,9 +12,9 @@ Any of the methods listed above will get our attention, but we only provide a su
 
 ### Support tickets vs. issues
 
-Because our code is open source, any user or customer can file an issue on our public issue tracker at any time (and we encourage it!). 
+Because our code is open source, any user or customer can file an issue on our public issue tracker at any time (and we encourage it!).
 
-However, we don't encourage customers with enterprise contracts to start the support process this way. In some cases, a support ticket (centered around one customer's needs or questions) will be translated into an issue (which should apply generally to the product itself). In fact, we may ask you to file an issue during the support conversation. Learn [how to file an issue for a customer](./filing_customer_issues.md) when necessary.
+However, we don't encourage customers with enterprise contracts to start the support process this way. In some cases, a support ticket (centered around one customer's needs or questions) will be translated into an issue (which should apply generally to the product itself). In fact, we may ask you to file an issue during the support conversation. Learn [how to file an issue for a customer](./customer_issues.md) when necessary.
 
 Beyond the conceptual difference, there are practical reasons to prefer starting support conversations via email:
 
@@ -130,4 +130,3 @@ In the past, we have provided support on private GitHub issue trackers and priva
 6. Your signature should now look something like this, and clicking the Sourcegraph logo should bring you to sourcegraph.com:
 
 ![image](https://user-images.githubusercontent.com/3173176/79911829-e450e180-83d5-11ea-9b9b-9c1cc1056740.png)
-
