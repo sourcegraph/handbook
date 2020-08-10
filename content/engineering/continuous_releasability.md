@@ -6,12 +6,12 @@ that serves the needs of customers running their own Sourcegraph instances.
 
 ## Continuous Releasability Contract
 
-* `master` branch is always releasable
+* `main` branch is always releasable
 * Every new feature includes a feature flag
 
-### `master` is always releasable
+### `main` is always releasable
 
-Every change merged into `master` must preserve the releasability of `master`. *Releasable* means
+Every change merged into `main` must preserve the releasability of `main`. *Releasable* means
 that the revision can be released to customers. In particular,
 
 * **Up-to-date changelog and docs**: The changelog and documentation reflect the current feature set.
@@ -37,7 +37,7 @@ field of site config.
 Feature flags achieve 2 things:
 
 * They allow us to maintain the Continuous Releasability Contract while still merging big features
-  into `master` (disabled behind the feature flag) before they are fully tested. This is useful if a
+  into `main` (disabled behind the feature flag) before they are fully tested. This is useful if a
   feature needs to be deployed to a dogfood instance or beta-tested before being deemed
   release-ready.
 * They give us a quick mechanism to disable features if a feature inadvertently breaks the
@@ -48,7 +48,7 @@ Feature flags achieve 2 things:
 
 In some cases, it may be prohibitively expensive to preserve releasability. For example, a major
 change made the indexed search backend horizontally scalable. Maintaining strict releasability of
-`master` would have required spinning up the new backend alongside the old one with a feature flag
+`main` would have required spinning up the new backend alongside the old one with a feature flag
 to toggle between the old and new backends. It was far easier to switch over and fix any bugs
 immediately after.
 
@@ -58,7 +58,7 @@ given feature, notify the Release Captain and together come up with a QA and rol
 minimize the period of time during which the Releasability Contract is broken. Here are some rules
 of thumb:
 
-* Do as much QA and testing as possible before merging into `master`.
+* Do as much QA and testing as possible before merging into `main`.
 * Have a plan for quickly testing and fixing any issues that arise immediately after merging into
-  `master`.
+  `main`.
 * Make the change as much in advance of the release date as possible.
