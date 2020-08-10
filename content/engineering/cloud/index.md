@@ -94,7 +94,3 @@ We are growing the Cloud team by hiring both [Full stack Engineers](https://gith
 There continues to be a need for work to happen on other areas of our backend infrastructure and the Cloud team is the best team to own that kind of work today. When this Cloud team reaches 6 engineers, we plan to split the team in half to form a new [Backend Infrastructure team](../backend-infrastructure/index.md). When this happens, Tomás will be the manager of both teams and will look to identify new managers so we are able to continue growing both teams.
 
 Each of these teams should not grow larger than 8 engineers. In the mean-time, Tomás will be the manager of both teams, but we're looking to hire Engineering Managers for both down the line.
-
-### Hiring
-
-We are growing the Cloud team by hiring both [Full stack Engineers](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-full-stack.md) and [Backend Engineers](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-backend.md).
