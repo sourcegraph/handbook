@@ -90,7 +90,7 @@ The other clusters are deployed and rolled back in the same way as sourcegraph.c
 	kubectl get pods --all-namespaces
 	```
  
-## How to start a test cluster in our "Sourcegraph Auxiliary' project on GCP
+## How to manually start a test cluster in our "Sourcegraph Auxiliary' project on GCP
  
 - Go to [Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server)
 - Click create a cluster.
@@ -146,6 +146,73 @@ kubectl port-forward svc/sourcegraph-frontend 3080:30080
 Please delete your test cluster when you are done testing by going to
 [Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server) and pressing the
 appropriate delete button.
+
+## How to start a test cluster in our "Sourcegraph Auxiliary' project on GCP with a script
+
+The following script executes the same steps that were described in the previous section. Place the script in the root
+directory of your [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph) clone
+(also add it to your `.git/info/exclude`). 
+Execute it from the repo root directory. It will spin up a test cluster in the namespace `ns-sourcegraph`.
+
+```shell script
+#!/usr/bin/env bash
+
+set -ex
+
+if [  -d "generated-cluster" ]
+then
+    echo "Directory generated-cluster already exists. This script would override its contents. Please move it away."
+    exit 1
+fi
+
+USER=$(whoami)
+
+mkdir generated-cluster
+
+./overlay-generate-cluster.sh namespaced generated-cluster
+
+gcloud container clusters create "${USER}"-testing --zone us-central1-a --num-nodes 3 --machine-type n1-standard-16 --disk-type pd-ssd --project sourcegraph-server
+gcloud container clusters get-credentials "${USER}"-testing --zone us-central1-a --project sourcegraph-server
+
+kubectl create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gcloud config get-value account)
+
+kubectl apply -f base/sourcegraph.StorageClass.yaml
+
+kubectl create namespace ns-sourcegraph
+
+kubectl apply -n ns-sourcegraph --prune -l deploy=sourcegraph -f generated-cluster --recursive
+
+timeout 5m kubectl -n ns-sourcegraph rollout status -w statefulset/indexed-search
+timeout 5m kubectl -n ns-sourcegraph rollout status -w deployment/precise-code-intel-bundle-manager
+timeout 5m kubectl -n ns-sourcegraph rollout status -w deployment/prometheus
+timeout 5m kubectl -n ns-sourcegraph rollout status -w deployment/redis-cache
+timeout 5m kubectl -n ns-sourcegraph rollout status -w deployment/redis-store
+timeout 5m kubectl -n ns-sourcegraph rollout status -w statefulset/gitserver
+timeout 5m kubectl -n ns-sourcegraph rollout status -w deployment/sourcegraph-frontend
+
+kubectl -n ns-sourcegraph expose deployment sourcegraph-frontend --type=NodePort --name sourcegraph --type=LoadBalancer --port=3080 --target-port=3080
+
+kubectl -n ns-sourcegraph describe service/sourcegraph
+```
+
+This script creates a load balancer and describes the exposed service. Look for the `LoadBalancer Ingress` IP and copy
+its value (if the IP hasn't been assigned yet, wait a little and execute
+ `kubectl -n ns-sourcegraph describe service/sourcegraph` until it appears).
+ 
+You can paste the IP value into the following Caddyfile to have your new test cluster available at `https://sourcegraph.test:3443`
+
+```text
+sourcegraph.test:3443
+tls internal
+reverse_proxy http://<INSERT LOAD BALANCER IP HERE>:3080
+```
+
+Again, please delete your test cluster when you are done testing by going to
+[Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server) and pressing the
+appropriate delete button.
+
+> Recommendation: [infra.app](https://infra.app/) is a nice Kubernetes management app.
+> It has some overlap with `k9s` but also complements it in some areas.
 
 ## kubectl cheatsheet
 
