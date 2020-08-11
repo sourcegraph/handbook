@@ -99,7 +99,7 @@ Disagreements about decisions are a healthy part of team collaboration. By chall
 
 ## Disagreeing with a decision
 
-When you are challenging a decision, it is important to do so in a constructive way. Failure to do so may lead to [interpersonal conflict](https://about.sourcegraph.com/handbook/communication/conflict_resolution#interpersonal-conflict).
+When you are challenging a decision, it is important to do so in a constructive way. Failure to do so may lead to [interpersonal conflict](#interpersonal-conflict).
 
 Here is a process that you can follow to disagree with a decision productively.
 
@@ -113,7 +113,7 @@ Here is a process that you can follow to disagree with a decision productively.
     -   Agree and commit to the decision.
     -   Disagree and propose an alternative solution. If your proposal is not accepted, choose a different option.
     -   Disagree and commit to the decision. Document in an appropriate location (e.g., comment in the relevant Slack thread or relevant RFC) your disagreement, reasons for disagreeing, and the fact that you are committing to the decision.
-    -   Disagree and perform a [clean escalation](https://about.sourcegraph.com/handbook/communication/clean_escalation).
+    -   Disagree and perform a [clean escalation](#clean-escalation).
 
 
 ## Interpersonal conflict
@@ -122,12 +122,12 @@ _I don’t like working with $NAME because…_
 
 Interpersonal conflict is normal and natural; however, if left unresolved, it can be harmful to the health and productivity of our team. If you are having difficulties working with a teammate (or suspect a teammate is having difficulties working with you), then you should proactively work to resolve the situation by having a direct conversation with the person you are in conflict with. Nonviolent communication<sup><a href="http://www.citizenshandbook.org/nonviolent_communication.pdf">1</a>, <a href="https://www.nonviolentcommunication.com/pdf_files/4part_nvc_process.pdf">2</a></sup> is a useful tool for having productive conversations.
 
-If you are unable to resolve the conflict directly with the other person, then perform a [clean escalation](https://about.sourcegraph.com/handbook/communication/clean_escalation).
+If you are unable to resolve the conflict directly with the other person, then perform a [clean escalation](#clean-escalation).
 
 
 ## Building a shared understanding
 
-Building a shared understanding is a useful way to prevent and resolve conflicts. It is also a prerequisite for a [clean escalation](https://about.sourcegraph.com/handbook/communication/clean_escalation).
+Building a shared understanding is a useful way to prevent and resolve conflicts. It is also a prerequisite for a [clean escalation](#clean-escalation).
 
 You have a shared understanding with another person if:
 
