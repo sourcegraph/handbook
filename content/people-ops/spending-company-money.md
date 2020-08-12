@@ -8,6 +8,7 @@ We want to make sure you have what you need to be productive and happy in your r
 - We have an "all-in" total budget of $1500 for desk setup, which includes all the items in the "Desk set-up expenses" section (with the exception of laptops). If you expect to significantly exceed the listed amount on any purchase, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
 - Laptops and laptop insurance are fully reimbursable outside of the $1500 "all-in" budget, however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role).
 - If you spend more than $1,000 on any given physical item, it will be considered property of the company.
+- Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](expenses.md) for additional help.
 
 ### Full-time teammates
 - We have an "all-in" total budget of $1500 for desk setup, which includes all the items in the "Desk set-up" section. If you expect to significantly exceed the listed amount on any purchase, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
