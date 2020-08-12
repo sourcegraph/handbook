@@ -5,10 +5,11 @@
 TODO
 
 ## Team
-- [Teammate philosophy](teammate_philosophy.md)
+
 - [List of team members](../../company/team/index.md)
 
 ## Teammate experience
+
 - [All-remote work](../../company/remote/index.md)
 - [Interview process](interview_process.md)
 - [Hiring](hiring.md)
@@ -19,6 +20,7 @@ TODO
 - Hackathons: We don't have any company-wide hackathons planned. If you want to do one for your team, just propose it and find the right time. (See related "[Innovation time](../engineering/index.md#innovation-time)" for engineering, which could apply to any team if you think it would be good.)
 
 ## Benefits
+
 - [Compensation](compensation.md)
 - [Benefits and perks](benefits-and-perks.md)
 - [Travel](travel.md)
@@ -35,7 +37,7 @@ See job descriptions and responsibilities of roles on the People Ops team:
 
 - TODO
 
-## Code of conduct
+## [Code of conduct](../communication/code_of_conduct.md)
 
 - [Anti-corruption/anti-bribery](anti-corruption.md)
 

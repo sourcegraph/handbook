@@ -58,7 +58,7 @@ This assumes that currently the meeting has a Google Doc with notes that people 
 
 1. Everyone uses the first 5-15 minutes of the meeting to write down what they would like to communicate (e.g., updates on their progress, topics they would like to discuss, problems they've encountered, etc.). Then the rest is discussing and deciding in order.
    - Use this for a few weeks, and then...
-1. Everyone writes down their items *before* the meeting. A topic that isn't written down can't be discussed. Spend the first 5 minutes of the meeting reading what other people wrote down, then discussing and deciding in order.
+1. Everyone writes down their items _before_ the meeting. A topic that isn't written down can't be discussed. Spend the first 5 minutes of the meeting reading what other people wrote down, then discussing and deciding in order.
    - Use this for a few weeks, and then...
 1. Everyone writes down their items by a certain time before the meeting (e.g., 12 hours before). Everyone reviews what other people wrote before the meeting starts. Only people who have commented on an item can make further comments on the topic during the discussion.
 
@@ -111,13 +111,14 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 
 1. Always use [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) in all writing and legal documents because other formats [lead to online confusion](http://xkcd.com/1179/). Use `yyyy-mm-dd`, for example 2020-04-13, and never 04-13-2020, 13-04-2020, 2020/04/13, nor April 13, 2020. Even if you use an unambiguous alternative format, it is still harder to search for a date, sort on a date, and for other team members to know we use the ISO standard. For months use `yyyy-mm`, so 2020-01 for January 2020.
 1. Prefix the year with `FY` (e.g., `FY20` for fiscal year 2020) when referring to fiscal year, which starts on February 1 and ends January 31. {#fiscal-year} We use this instead of calendar years (`CY`) because Q4 ending during the December holidays makes the quarters less even and predictable.
-  - FY__ is fiscal year 20__ (e.g., `FY20` is fiscal year 2020, which means 2020-02-01 through 2021-01-31)
-  - FY__-Q1 (e.g., `FY20-Q1`) is February 1 through April 30
-  - FY__-Q2 is May 1 through July 31
-  - FY__-Q3 is August 1 through October 31
-  - FY__-Q4 is November 1 through January 31
+
+- FY** is fiscal year 20** (e.g., `FY20` is fiscal year 2020, which means 2020-02-01 through 2021-01-31)
+- FY\_\_-Q1 (e.g., `FY20-Q1`) is February 1 through April 30
+- FY\_\_-Q2 is May 1 through July 31
+- FY\_\_-Q3 is August 1 through October 31
+- FY\_\_-Q4 is November 1 through January 31
 
 ## Handling conflict
 
-- [Conflict resolution](conflict_resolution.md)
-- [Clean escalation](clean_escalation.md)
+- [Conflict resolution](./code_of_conduct.md#conflict-resolution)
+- [Clean escalation](./code_of_conduct.md#clean-escalation)
