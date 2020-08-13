@@ -1,6 +1,6 @@
 # Planning
 
-Planning is a continuous process of negotiation between product and engineering. Teams should review the project roadmap weekly with the [Product Manager](roles.md#product-manager) during their team meetings, and update it regularly as new information comes in. The product manager should also review the plans for all projects in the next release for overall coherency. This ensures that projects can work on the schedules that make the most sense for them (subject to the constraint of needing to ship some kind of milestone monthly). A particularly long-term project can have many months of visibility into requirements and plans, and shorter or more experimental projects can be planned with shorter time horizons.
+Planning is a continuous process of negotiation between product and engineering. Teams should review the project roadmap weekly with the [Product Manager](roles/product_manager.md) during their team meetings, and update it regularly as new information comes in. The product manager should also review the plans for all projects in the next release for overall coherency. This ensures that projects can work on the schedules that make the most sense for them (subject to the constraint of needing to ship some kind of milestone monthly). A particularly long-term project can have many months of visibility into requirements and plans, and shorter or more experimental projects can be planned with shorter time horizons.
 
 ## Planning artifacts
 

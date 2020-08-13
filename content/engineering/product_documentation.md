@@ -8,7 +8,7 @@ Whenever a feature is changed, updated, introduced, or deprecated, the pull requ
 
 The developer who made the code change is also [responsible](../../handbook/engineering/roles.md#software-engineer) for writing the initial documentation for new features and updating the documentation for changes to existing features. At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
 
-It's the [responsibility of the Product Manager](../../handbook/product/roles.md#product-manager) to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
+It's the [responsibility of the Product Manager](../../handbook/product/roles/product_manager.md) to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
 
 We use the [monthly release blog post](https://about.sourcegraph.com/blog) as a changelog checklist to ensure everything is documented.
 
