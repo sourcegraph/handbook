@@ -40,24 +40,24 @@ Creating a new managed instance involves following the steps below.
 1. In the global user settings, set `"alerts.showPatchUpdates": false`
 1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](#access-through-the-gcp-load-balancer-as-a-user-would).
 1. In the site configuration, configure alerting to go to our `#alerts-managed-instances` Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
+	```
+		"observability.alerts": [
+			{
+				"level": "critical",
+				"notifier": {
+					"type": "slack",
+					"username": "$COMPANY",
+					"url": "$WEBHOOK_URL"
+				}
+			},
+			{
+				"level": "warning",
+				"notifier": {
+					"type": "slack",
+					"username": "$COMPANY",
+					"url": "$WEBHOOK_URL"
+				}
+			}
+		],
+	```
 
-```
-	"observability.alerts": [
-		{
-			"level": "critical",
-			"notifier": {
-				"type": "slack",
-				"username": "$COMPANY",
-				"url": "$WEBHOOK_URL"
-			}
-		},
-		{
-			"level": "warning",
-			"notifier": {
-				"type": "slack",
-				"username": "$COMPANY",
-				"url": "$WEBHOOK_URL"
-			}
-		}
-	],
-```
