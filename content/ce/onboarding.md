@@ -76,9 +76,9 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 ## FAQ
 
 - How do we interface in customer engagements?
-  - Primary communication with customers is over dedicated shared slack channels:
-    - Trial Customers: #trial-companyname
-    - Subscription Customers: #support-companyname
+  - Primary communication with customers is over dedicated shared Slack channels:
+    - Prospects: #trial-companyname / new format is: #trial-companyname-sourcegraph
+    - Customers: #support-companyname / new format is: #support-companyname-sourcegraph
 - How do I route technical questions to the appropriate team?
   - [Routing Customer Questions](https://about.sourcegraph.com/handbook/ce/routing_questions)
 - Where can I track user feedback?
