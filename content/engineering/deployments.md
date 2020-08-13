@@ -293,15 +293,15 @@ Snapshots of all Kubernetes resources are taken periodically and pushed to https
 If you need to build Docker images on Buildkite for testing purposes, e.g. you
 have a PR with a fix and want to deploy that fix to a test instance, you can
 push the branch to the special `docker-images-patch` and
-`docker-images-patch-notest` branches.
+`docker-images-patch-notest` branches. You shouldn't need to resolve merge conflicts, instead you can simply force-push.
 
 Example: you want to build a new Docker image for `frontend` and `gitserver`
 based on the branch `my_fix`.
 
 ```
-git push origin my_fix:docker-images-patch-notest/frontend
-git push origin my_fix:docker-images-patch-notest/gitserver
-git push origin my_fix:docker-images-patch-notest/$(Docker_image_to_build)
+git push -f origin my_fix:docker-images-patch-notest/frontend
+git push - origin my_fix:docker-images-patch-notest/gitserver
+git push -f origin my_fix:docker-images-patch-notest/$(Docker_image_to_build)
 ```
 
 This will trigger two builds on Buildkite for these branches:
