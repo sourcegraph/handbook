@@ -170,3 +170,10 @@ Remove the old `red` deployment and its data disk:
 
 And `terraform apply` it.
 
+Also remove the deploy config for that deployment as it is no longer used:
+
+```sh
+cd deploy-sourcegraph-docker/$CUSTOMER
+rm -rf red/
+git commit -m 'remove red deployment'
+```
