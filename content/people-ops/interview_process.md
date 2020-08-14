@@ -62,9 +62,10 @@ All positive feedback with no strongly positive feedback is usually not sufficie
 
 ## Debriefs
 
-We conduct debriefs after a candidate finishes interviews. The debrief should be added to the calendar at the same time we invite the candidate to interviews.
+We conduct debriefs after a candidate finishes interviews. The debrief should be scheduled in advance and added to the calendar at the same time we invite the candidate to interviews. The recruiting coordinator will export all feedback as a PDF and share with each of the interviewers prior to the debrief.
 
 Should the hiring manager decide to not utilize the debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate's Lever profile stating the reason and/or context for the decision. This provides a sense of closure for those who interviewed the candidate.
+
 
 ### Canceling
 
