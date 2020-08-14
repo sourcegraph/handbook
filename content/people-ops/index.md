@@ -38,6 +38,7 @@ See job descriptions and responsibilities of roles on the People Ops team:
 - TODO
 
 ## [Code of conduct](../communication/code_of_conduct.md)
+- [Personal Pronouns](personal-pronouns.md)
 
 - [Anti-corruption/anti-bribery](anti-corruption.md)
 
