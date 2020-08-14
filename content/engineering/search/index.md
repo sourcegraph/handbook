@@ -16,6 +16,7 @@ Our current goals are documented in the [search team's current tracking issue](h
 - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
 - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
 - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
+- [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
 - [Loïc Guychard](../../../company/team/index.md#loic-guychard) is interested in being the [engineering manager](../roles.md#engineering-manager) for this team but is currently focusing his efforts on the [web team](../web/index.md). [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) will be more involved in the meantime.
 
 ## Growth plan

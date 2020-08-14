@@ -81,7 +81,6 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 - [Felix Becker](../../../company/team/index.md#felix-becker)
 - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
 - [TJ Kandala](../../../company/team/index.md#todo)
-- [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
 
 ## Growth plan
 
