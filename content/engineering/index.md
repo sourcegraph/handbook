@@ -45,7 +45,7 @@ If there is a dispute about ownership, then perform a [clean escalation](../comm
 
 ## Innovation time
 
-We love it when engineers have ideas for things they want to improve, even if they don't align with our existing iteration plans or [goals](../../company/goals/index.md). We want to create time and space for engineers to work on these ideas without negatively impacting our team goals and planned work.
+We love it when engineers have ideas for things they want to do, even if they don't align with our existing iteration plans or [goals](../../company/goals/index.md). We want to create time and space for engineers to work on these ideas without negatively impacting our team goals and planned work.
 
 If you have an idea for something you want to work on, then you have a few options:
 
