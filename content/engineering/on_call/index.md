@@ -20,6 +20,20 @@ We have an ops on-call rotation managed through [OpsGenie](https://opsgenie.com)
 
 You'll want to be in #dev-ops, #buildkite, and #opsgenie on [Slack](../../communication/team_chat.md) in particular. Most of the work you do as the on-call engineer should be discussed in #dev-ops.
 
+## Getting help
+
+In some cases you may not know how to resolve an incident on your own, or the incident may be due to something you are not familiar with. In such cases, it is your responsbility to pull in more people or teams as needed to resolve the incident.
+
+If the incident is not urgent (use your best judgement) and can be handled asynchronously over the course of a few days, file a GitHub issue and pull in teams that way by cc'ing them with e.g. `@sourcegraph/cloud` `@sourcegraph/distribution`.
+
+If the incident is urgent, start a new thread in the #dev-ops Slack channel and cc the on-call person from the relevant team. You can find this in Slack using the `/genie` command:
+
+```
+/genie whoisoncall
+```
+
+If that person is unavailable, feel free to ping the entire team `@cloud`, `@distribution`, etc. to get help.
+
 ## Schedule
 
 The authoritative schedule is in OpsGenie:
