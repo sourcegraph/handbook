@@ -19,6 +19,11 @@ Our current goals are documented in the [search team's current tracking issue](h
 - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
 - [Loïc Guychard](../../../company/team/index.md#loic-guychard) is interested in being the [engineering manager](../roles.md#engineering-manager) for this team but is currently focusing his efforts on the [web team](../web/index.md). [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) will be more involved in the meantime.
 
+## On-call
+
+- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+ObservableOwnerSearch%2C+:%5B_%5D%7D&patternType=structural)
+- [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/f482ef3e-f5dc-4bef-b7c4-307e0ad30d6a)
+
 ## Growth plan
 
 _Updated 2020-07-22_
