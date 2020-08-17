@@ -16,6 +16,12 @@ We have an ops on-call rotation managed through [OpsGenie](https://opsgenie.com)
 1.  File issues for any followup work that needs to happen.
 1.  If alerts are too noisy and/or inactionable, take actions to fix or disable alerts.
 
+## Ops incidents log
+
+All significant incidents that occur on Sourcegraph.com are recorded in the [ops incidents log](https://docs.google.com/document/d/1dtrOHs5STJYKvyjigL1kMm6u-W0mlyRSyVxPfKIOfEw/edit?usp=sharing). This helps us keep track of what has happened historically, discuss follow-up work, and gives insight into what types of incidents we see.
+
+False incidents (flaky alerts, etc.) should be tracked directly in GitHub issues and do not need a log entry.
+
 ## Slack channels
 
 You'll want to be in #dev-ops, #buildkite, and #opsgenie on [Slack](../../communication/team_chat.md) in particular. Most of the work you do as the on-call engineer should be discussed in #dev-ops.
