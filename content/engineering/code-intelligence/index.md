@@ -18,7 +18,10 @@ Build a code intelligence platform that understands code in all languages and pr
 
 ## Goals
 
-**Provide precise code intel for the primary programming languages that combined cover > 50% of usage across GitHub.com repositories or across customer projects (greater of the two).**
+This list will be updated regularly with links to the technical implementation details in RFCs and/or Github issues.
+
+### Provide precise code intel for the primary programming languages that combined cover > 50% of usage across GitHub.com repositories or across customer projects (greater of the two).
+
 - Metrics:
   - Language coverage (%)
 - Planned work:
@@ -28,7 +31,8 @@ Build a code intelligence platform that understands code in all languages and pr
   1. Provide best effort auto-indexing for supported languages, [RFC-199](https://docs.google.com/document/d/1rCduWqaLAbMu2s43RwJTBbRlhL6qS3oqq4iawiGdoVE/edit), [RFC-201](https://docs.google.com/document/d/1NPQs1s814LZjNXjPuavqC1N7hZR192DNtmSBmAeH9UY/edit).
 - Success Outcome: We have accurate and comprehensive precise code intel for C++, Go, and Java. We will work to ship each indexer to at least 3 customers and gather feedback for future iteration. The precision level for each indexer tool is > 80%.
 
-**Create a backend that can perform and scale across organizations of various sizes up to the upper boundaries of our system.**
+### Create a backend that can perform and scale across organizations of various sizes up to the upper boundaries of our system.
+
 - Metrics:
   - Request Latency
   - System Throughput
@@ -44,7 +48,8 @@ Build a code intelligence platform that understands code in all languages and pr
   1. Shard bundle manager, [RFC-200](https://docs.google.com/document/d/1IfkY9a6odfQmkjGtgJBFtPOUFuTwWryawFfVGRi8hO4/).
 - Success Outcome: We understand the upper boundaries N1-N3. Code intel backend can achieve latency and throughput targets when operating within upper bounds of inputs N1-N3.
 
-**LSIF indexers can operate in monorepos architecture.**
+### LSIF indexers can operate in monorepos architecture.
+
 - Metrics:
   - Time to Intelligence (TTI)
 - Planned work:
@@ -55,14 +60,13 @@ Build a code intelligence platform that understands code in all languages and pr
   1. Integrate with monorepos build systems: Bazel and stretch goal is one of: Buck, Pants, OAO
 - Successful Outcome: Users are able to process monorepos with the same TTI as any other type of repository. Our tools provide configuration options that accomodate for complex use cases (cross repository and sub-project code intel).
 
-**Provide clarity on capabilities of code intel tools at each release state**
+### Provide clarity on capabilities of code intel tools at each release state
+
 - Planned work:
   1. Define release states and their respective criteria. 
   1. Assess each code intel tool against criteria and determine release state.
   1. Communicate changes by updating documentation on lsif.dev and /sourcegraph/lsif-* repos.
 - Success Outcome: We are able to consistently apply release states to our tools as they move through development lifecycle. We have provided clear communication to users, internal teams and stakeholders on capabilities of each tool.
-
-This list will be updated regularly with links to the technical implementation details in RFCs and/or Github issues.
 
 ## Contact
 
