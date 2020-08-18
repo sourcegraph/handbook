@@ -50,6 +50,10 @@ We review each candidate at each stage of our hiring pipeline (e.g. application,
     - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
     - What makes us excited about hiring this candidate?
 
+## Making a referral
+
+Current employees can refer a candidate [here](https://hire.lever.co/referrals/new)
+
 ## Hiring flow
 
 For any members of a hiring team, please see [this folder](https://drive.google.com/drive/u/0/folders/1tJAroT8Z1sPnWkETSbe2mFFaD5_g7Q_E) for a breakdown of each team's hiring process. The documents will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
