@@ -24,7 +24,7 @@ Arguments:
 
   Branch cut will be at the start of the next working day ($FOUR_WORKING_DAYS_BEFORE_RELEASE).
 
-  All changes that will be part of `$MAJOR.$MINOR` (and all associated CHANGELOG updates) should be in `master` by tomorrow. Otherwise, they will not be included in the release.
+  All changes that will be part of `$MAJOR.$MINOR` (and all associated CHANGELOG updates) should be in `main` by tomorrow. Otherwise, they will not be included in the release.
   ```
 - [ ] Use `./dev/release-ping.sh` to ping teammates who have open issues or PRs in the milestone to
   ask them to triage those that won't make it into the release.
@@ -37,8 +37,8 @@ Arguments:
   - It has an owner attached to it
   - It has undergone manual QA (and the QA was done on k8s.sgdev.org or at scale if the feature requires it).
   - It is covered by the regression test suite
-- [ ] Add a new section `## $MAJOR.MINOR` to [CHANGELOG.md](https://github.com/sourcegraph/sourcegraph/blob/master/CHANGELOG.md#unreleased) immediately under `## Unreleased changes`. Add new empty sections under `## Unreleased changes` ([example](https://github.com/sourcegraph/sourcegraph/pull/2323)).
-- [ ] Commit this CHANGELOG edit directly to `master` 
+- [ ] Add a new section `## $MAJOR.MINOR` to [CHANGELOG.md](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md#unreleased) immediately under `## Unreleased changes`. Add new empty sections under `## Unreleased changes` ([example](https://github.com/sourcegraph/sourcegraph/pull/2323)).
+- [ ] Commit this CHANGELOG edit to `main` using a PR. 
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step: `git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR`.
 - [ ] Tag and announce the first release candidate:
   ```
@@ -46,7 +46,7 @@ Arguments:
   yarn run release release-candidate:dev-announce $MAJOR.$MINOR.0-rc.1
   ```
 - [ ] Run regression tests:
-  - [ ] Follow [README.md](https://github.com/sourcegraph/sourcegraph/blob/master/web/src/regression/README.md) to set up your e2e environment. 
+  - [ ] Follow [README.md](https://github.com/sourcegraph/sourcegraph/blob/main/web/src/regression/README.md) to set up your e2e environment. 
         Run the tests from the `web` directory. A more complete set of env vars can be found in this
         [1password](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/gm5dfflq6sfclmotneuayfdj5q) entry.
   - [ ] New Sourcegraph Docker container:
@@ -61,7 +61,7 @@ Arguments:
 
 ## $FOUR_WORKING_DAYS_BEFORE_RELEASE to $ONE_WORKING_DAY_BEFORE_RELEASE: Cut new release candidates
 
-As necessary, `git cherry-pick` bugfix (not feature!) commits from `master` into the release branch.
+As necessary, `git cherry-pick` bugfix (not feature!) commits from `main` into the release branch.
 Aggressively revert or disable features that may cause delays:
 
 - [ ] Review [all release-blocking issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Asourcegraph+label%3Arelease-blocker). Add them as checklist items here. Ensure someone is resolving each.
@@ -85,8 +85,8 @@ Cut a new release candidate daily if necessary:
   yarn run release release-candidate:create $MAJOR.$MINOR.0
   yarn run release release-candidate:dev-announce $MAJOR.$MINOR.0
   ```
-- [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/master/CHANGELOG.md) on
-  `master` is accurate (no items should have been added since branch cut, but some items may need to
+- [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on
+  `main` is accurate (no items should have been added since branch cut, but some items may need to
   be removed).
 - [ ] Wait for the release Docker images to be available at https://hub.docker.com/r/sourcegraph/server/tags.
 - [ ] Cut the Kubernetes cluster release in [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph):
@@ -94,16 +94,17 @@ Cut a new release candidate daily if necessary:
     - [ ] Wait for Renovate to open a PR named **"Update Sourcegraph Prometheus / Grafana Docker images"** and merge that PR (note Renovate may have merged it automatically).
     - [ ] Create the `$MAJOR.$MINOR` release branch from this commit.
       ```
-      VERSION='$MAJOR.$MINOR' bash -c 'git fetch origin && git checkout origin/master && git branch $VERSION && git checkout $VERSION && git push -u origin $VERSION'
+      VERSION='$MAJOR.$MINOR' bash -c 'git fetch origin && git checkout origin/main && git branch $VERSION && git checkout $VERSION && git push -u origin $VERSION'
       ```
     - [ ] Tag the `v$MAJOR.$MINOR.0` release at this commit.
         ```
         VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
         ```
+    - [ ] Add a new section to the [Kubernetes CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/doc/admin/updates/kubernetes.md)   
 - [ ] Release Docker Compose by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-docker/blob/master/RELEASING.md)
 - [ ] Open (but do not merge) PRs that publish the new release:
   ```
-  # Run this in the main sourcegraph repository in the `dev/release` directory on `master` branch:
+  # Run this in the main sourcegraph repository in the `dev/release` directory on `main` branch:
   yarn run release release:publish $MAJOR.$MINOR.0
   ```
 - [ ] Create (but do not merge) a PR to update https://docs.sourcegraph.com/admin/updates/kubernetes indicating the steps required to upgrade.
@@ -113,7 +114,7 @@ Cut a new release candidate daily if necessary:
 ## $RELEASE_DATE by 10am: Release
 
 - [ ] Merge the release-publishing PRs created previously.
-- [ ] Cherry pick the release-publishing PR from sourcegraph/sourcegraph@master into the release branch.
+- [ ] Cherry pick the release-publishing PR from sourcegraph/sourcegraph@main into the release branch.
 - [ ] Ask the product team to merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)).
 
 ### Post-release
