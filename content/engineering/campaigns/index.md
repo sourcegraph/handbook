@@ -41,7 +41,7 @@ Users provide the code to make the change, we provide the plumbing to turn it in
 
 ## Goals
 
-TODO
+[WIP Goals (internal only)](https://docs.google.com/document/d/1ADmpfJuVhprHl8Eimuj4fMiVr1kCRVLZpt98HLr9618/edit)
 
 ## Analogies
 
