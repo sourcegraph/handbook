@@ -25,7 +25,7 @@ Outcomes:
 - The workflow for publishing things is smooth and well documented so someone else with basic Git knowledge can follow it. (@aileen + @sqs)
 - Our tone, voice, writing standards, personas, and "philosophy on how to be compelling to developers" are all documented. (@sqs)
 - We publish the monthly release announcement and 3 other things (some combo of new about site pages, videos, and blog posts) using the documented workflow and standards, and all of these things pass the secret test of whether they're really, really compelling to developers. (@sqs)
-- A developer (who is not @sqs or @beyang) publishes a blog post using the documented workflow and standards, and it passes the secret test of whether it's really, really compelling to developers. (@sqs)
+- A developer (who is not @sqs or @beyang) publishes a blog post using the documented workflow and standards, and it passes the [secret test of whether it's really, really compelling to developers](https://docs.google.com/document/d/1IgS9bq-wmCDKrGpydcJV1k_dzxulviyNAbaj7LLV-RY/edit). (That doc is only visible to the marketing team. It's secret so people don't try to game it.) (@sqs)
 - We can determine how many and which leads came from which content we published. (@aileen + @lori)
 
 ### Help other teams that need marketing support
