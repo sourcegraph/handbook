@@ -41,6 +41,7 @@ Treat adding new data to pings as having a very high bar. Would you be willing t
 ## Changing the BigQuery schema
 
 Commands:
+
 - To update schema: `bq --project_id=$PROJECT update --schema $SCHEMA_FILE $DATASET.$TABLE`, replacing `$PROJECT` with the project ID, `$SCHEMA_FILE` with the path to the schema JSON file generated above, and `$DATASET.$TABLE` with the dataset and table name, separated by a dot.
 - To retrieve the current schema : `bq --project_id=$PROJECT --format=prettyjson show $DATASET.$TABLE > schema.json` with the same replacements as above.
 
@@ -69,5 +70,3 @@ resource.labels.cluster_name="prod"
 resource.labels.container_name="frontend"
 "[COMPANY]" AND "updatecheck"
 ```
-
-
