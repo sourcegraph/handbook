@@ -31,10 +31,11 @@ We are looking for a Technical Writer to plan, create, revise, and maintain deve
 
 - Have a Bachelor’s or Master’s Degree, preferably in Composition and Rhetoric, English, or Communication
 - Have 5 or more years in a training, instructional design, or technical writing related role
+- Experience working within the docs-as-code approach
 - Is a self-starter; motivated by results and challenging yet attainable goals
 - Is passionate about all things writing and willing to wear multiple hats to get the job done
 - Is enthusiastic about mentoring and coaching others
-- Have experience working with Git, GitHub, HTML, CSS, JavaScript,, etc.
+- Experience working with Git, GitHub, Markdown, HTML, CSS, JavaScript, etc.
 - Have a voracious appetite for learning, technology, and teaching
 - Not afraid to ask questions
 - Take ownership!
