@@ -41,6 +41,18 @@ Patch releases (e.g. 3.0.0 -> 3.0.1) are released on an as-needed basis to fix b
 
 On rare occasions we may decide to increase the major version number (e.g. 2.13 -> 3.0). These releases **may** require manual migration steps.
 
+## When are patch releases performed?
+
+Patch releases are not free. When considering if a patch release is right ask the following questions:
+
+- Are users/customers actively asking us for these changes and cannot wait until the next full release?
+- Is there some functionality completely broken that warrants _redacting_ the prior release of Sourcegraph and advising users wait for the patch release?
+- Is it worth interrupting our regular planned work and release cycle for someone to take 3-6 hours and perform the patch release process?
+- Is it worth taking up site admin's valuable time by asking them to upgrade (and producing noise for them if they don't need to upgrade)?
+- Are the changes extremely minimal, well-tested, and low risk such that not testing as we do in a full release is OK?
+
+If you answered yes to most of these questions, a patch release is warranted. Otherwise, waiting until the next full release (which happens monthly on the 20th) is the best approach.
+
 ## Release process
 
 What is the process we follow to release?
