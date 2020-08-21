@@ -41,7 +41,21 @@ Users provide the code to make the change, we provide the plumbing to turn it in
 
 ## Goals
 
-[WIP Goals (internal only)](https://docs.google.com/document/d/1ADmpfJuVhprHl8Eimuj4fMiVr1kCRVLZpt98HLr9618/edit)
+The short-term goal and primary focus of the team is to *deliver campaigns to all users*. Our milestones toward that goal:
+
+1. Someone on the Campaigns team makes one meaningful change to at least two repositories.
+1. A Sourcegraph engineer (not on this team) makes one meaningful change to at least two repositories.
+1. Reach out to one customer, summarizing the changes in the new Campaigns workflow, to give them a heads-up.
+   - Hypothesis: they will reply within 3 days
+   - Hypothesis: they will engage within 5 days
+1. After we hear from that customer, we reach out to two other customers, as in previous step.
+1. After responding to feedback from at least 3 customers, we declare the state of Campaigns to be Good and Stable.
+1. Reach out to a small set of customers using Campaigns.
+   - Hypothesis: each one will reply within 3 days
+   - Hypothesis: majority will create at least one new campaign with the new workflow
+   - Hypothesis: majority will send us feedback about Campaigns
+
+[WIP longer term goals (internal only)](https://docs.google.com/document/d/1ADmpfJuVhprHl8Eimuj4fMiVr1kCRVLZpt98HLr9618/edit)
 
 ## Analogies
 
@@ -56,14 +70,10 @@ When I create a campaign to make large-scale code changes I want to _focus on th
 ## Members
 
 - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([engineering manager](../roles.md#engineering-manager))
-- [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him) 
+- [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
 - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
 - [Erik Seliger](../../../company/team/index.md#erik-seliger)
 
 ## Hiring status
 
-_Updated 2020-07-13_
-
-We are hiring for these roles:
-
-- +1 [Software Engineer - Frontend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md)
+No open positions at this time.
