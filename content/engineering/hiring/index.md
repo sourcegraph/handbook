@@ -4,7 +4,7 @@ This section of the handbook documents the hiring process for roles on the engin
 
 Most of our process is documented in a private repository, but our goal is to move as much as possible into the handbook.
 
-## Open roles
+## Open positions
 
 - [Engineering Manager - Web](engineering-manager-web.md)
 - [Software Engineer - Frontend](software-engineer-frontend.md)
