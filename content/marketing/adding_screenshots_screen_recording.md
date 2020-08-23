@@ -68,7 +68,7 @@ Recording a great screencast is a large topic, but here are some essentials to k
 - Invest in learning a tool such as ScreenFlow if you need to annotate and/or edit your recordings
 - Does your GIF or video make sense without an accompanying explanation? If not, then a voice-over or text annotations can help a lot
 
-Like most things, practice makes perfect, but if you’re wanting to get some advice before taking the plunge, Ryan, Thorsten, and Quinn (sqs), have all created screencasts and can help you get started, so just reach out on Slack.
+Like most things, practice makes perfect, but if you’re wanting to get some advice before taking the plunge, Thorsten, and Quinn (sqs), have all created screencasts and can help you get started, so just reach out on Slack.
 
 ### Adding audio or voice-overs
 
@@ -90,8 +90,7 @@ But to get you started, here are some essential tips:
 - Ensure your voice over is loud enough by comparing the audio level in your video against a professionally produced video on YouTube. You can adjust the microphone input level in **System Preferences** > **Sound**.
 - Research what makes a great voice-over and takes notes on videos you think have fantastic voice-overs.
 
-<!-- todo(ryan): Move Podcasting guide to handbook-->
-More tips and recommendations are in our [podcasting guide](https://docs.google.com/document/d/1pHvSvLCjFiVoKZF3l27EBsCLjBNFTY6k_TEMAqSqiZ4) and you can also reach out to Ryan Blunden who would love to chat about all things voice-overs and audio, including who can provide voice-over coaching and mixing services.
+More tips and recommendations are in our [podcasting guide](https://docs.google.com/document/d/1pHvSvLCjFiVoKZF3l27EBsCLjBNFTY6k_TEMAqSqiZ4).
 
 ### Recording your voiceover
 
