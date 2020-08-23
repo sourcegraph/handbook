@@ -57,7 +57,7 @@ Start a discussion with your manager if you are interested to switch teams. Your
 
 ## Open positions
 
-[Open positions](hiring/indexm.md#open-positions)
+[Open positions](hiring/index.md#open-positions)
 
 ## Innovation time
 
