@@ -26,7 +26,7 @@ There is nothing particularly special about this date, but it does mean we wrap 
 
 ### Why aren't releases continuous?
 
-Although [Sourcegraph.com](https://sourcegraph.com) is continuously deployed (from sourcegraph/sourcegraph@`master`), the version of Sourcegraph that customers use is not continuously released or updated. This is because:
+Although [Sourcegraph.com](https://sourcegraph.com) is continuously deployed (from sourcegraph/sourcegraph@`main`), the version of Sourcegraph that customers use is not continuously released or updated. This is because:
 
 - We don't think customers would be comfortable with a continuously updated service running on their own infrastructure, for security and stability reasons.
 - We haven't built the automated testing and update infrastructure to make continuous customer releases reliable.
@@ -82,7 +82,7 @@ To avoid confusion between tags and branches:
 - Tags are always the full semantic version with a leading `v` (e.g. `v2.10.0`)
 - Branches are always the dot-separated major/minor versions with no leading `v` (e.g. `2.10`).
 
-Development always happens on `master` and changes are cherry picked onto release branch as necessary **with the approval of the release captain**.
+Development always happens on `main` and changes are cherry-picked onto release branch as necessary **with the approval of the release captain**.
 
 #### Example
 
@@ -90,28 +90,29 @@ Here is an example git commit history:
 
 1. The release captain creates the `3.0` release branch at commit `B`.
 1. The release captain tags the release candidate `v3.0.0-rc.1` at commit `B`.
-1. A feature is committed to `master` in commit `C`. It will not ship in `3.0`.
-1. An issue is found in the release candidate and a fix is committed to `master` in commit `D`.
-1. The release captain cherry picks `D` from `master` into `3.0`.
+1. A feature is committed to `main` in commit `C`. It will not ship in `3.0`.
+1. An issue is found in the release candidate and a fix is committed to `main` in commit `D`.
+1. The release captain cherry-picks `D` from `main` into `3.0`.
 1. The release captain tags `v3.0.0` on the `3.0` release branch.
-1. Development continues on master with commits `E`, `F`, `G`, `H`.
-1. Commit `F` fixes a critical bug that impacts 3.0, so it is cherry picked onto the `3.0` release branch and `v3.0.1` is tagged.
+1. Development continues on `main` with commits `E`, `F`, `G`, `H`.
+1. Commit `F` fixes a critical bug that impacts 3.0, so it is cherry-picked onto the `3.0` release branch and `v3.0.1` is tagged.
 1. The release captain (different person) for 3.1 creates the `3.1` release branch at commit `H` and a new release cycle begins.
-1. Commit `J` fixes a critical bug that impacts both 3.0 and 3.1, so it is cherry picked into both `3.0` and `3.1` release branches and new releases are tagged (`v3.0.2`, `v3.1.2`).
+1. Commit `J` fixes a critical bug that impacts both 3.0 and 3.1, so it is cherry-picked into both `3.0` and `3.1` release branches and new releases are tagged (`v3.0.2`, `v3.1.2`).
 
-```
-A---B---C---D---E---F---G---H---I---J---K---L (master branch)
+```text
+A---B---C---D---E---F---G---H---I---J---K---L (main branch)
      \                       \
       \                       `---v3.1.0-rc.1---I'---v3.1.0---J'---v3.1.2 (3.1 release branch)
        \
         `---v3.0.0-rc.1---D'---v3.0.0---F'---v3.0.1---J'---v3.0.2 (3.0 release branch)
 ```
 
+
 #### Cherry-picking a fix onto release branch
 
 In order to cherry-pick a fix onto a release branch:
 
-1. Merge changes into `master` as a squashed commit.
+1. Merge changes into `main` as a squashed commit.
 1. Get approval from the **release captain**.
 1. Checkout the release branch (e.g. `git checkout 3.12`).
 1. Make sure your local release branch is up to date (i.e. `git pull`).
@@ -135,8 +136,8 @@ There are only three kinds of issues that are eligible to block a release:
 
 Only the release captain can label something as release blocking.
 
-The release captain has unlimited power to make changes to the release branch to resolve release blocking issues. As soon as a release blocking issue is identified, the release captain should decide the least risky way to resolve the issue as soon as possible. A good default action is to identify and revert offending commits from the release branch. In the worst case, this could involve recreating the release branch from an earlier commit on master. Project owners can work on master to fix the issue, and if the issue is resolved in time, revert the revert and cherry-pick the fix on the release branch.
+The release captain has unlimited power to make changes to the release branch to resolve release blocking issues. As soon as a release blocking issue is identified, the release captain should decide the least risky way to resolve the issue as soon as possible. A good default action is to identify and revert offending commits from the release branch. In the worst case, this could involve recreating the release branch from an earlier commit on `main`. Project owners can work on `main` to fix the issue, and if the issue is resolved in time, revert the revert and cherry-pick the fix on the release branch.
 
 #### Non-blocking
 
-Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `master` by the code owner who can then `git cherry-pick` those commits into the release branch with the approval of the release captain. Alternatively, broken features can be reverted out of the release branch or disabled via feature flags if they aren't ready or are too buggy.
+Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main` by the code owner who can then `git cherry-pick` those commits into the release branch with the approval of the release captain. Alternatively, broken features can be reverted out of the release branch or disabled via feature flags if they aren't ready or are too buggy.
