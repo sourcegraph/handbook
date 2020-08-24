@@ -25,9 +25,9 @@ This list will be updated regularly with links to the technical implementation d
 - Metrics:
   - Language coverage (%)
 - Planned work:
-  1. Resolve outstanding issues for lsif-clang, ship to 3 customers.
-  1. Resolve outstanding issues for lsif-java, ship to 3 customers. 
-  1. Resolve outstanding issues for lsif-go, ship to 3 customers. 
+  1. Resolve outstanding issues for lsif-clang, ship to 3 customers, [tracking issue 12349](https://github.com/sourcegraph/sourcegraph/issues/12349).
+  1. Resolve outstanding issues for lsif-java, ship to 3 customers, [tracking issue 13017](https://github.com/sourcegraph/sourcegraph/issues/13017). 
+  1. Resolve outstanding issues for lsif-go, ship to 3 customers, [tracking issue 13015](https://github.com/sourcegraph/sourcegraph/issues/13015). 
   1. Provide best effort auto-indexing for supported languages, [RFC-199](https://docs.google.com/document/d/1rCduWqaLAbMu2s43RwJTBbRlhL6qS3oqq4iawiGdoVE/edit), [RFC-201](https://docs.google.com/document/d/1NPQs1s814LZjNXjPuavqC1N7hZR192DNtmSBmAeH9UY/edit).
 - Success Outcome: We have accurate and comprehensive precise code intel for C++, Go, and Java. We will work to ship each indexer to at least 3 customers and gather feedback for future iteration. The precision level for each indexer tool is > 80%.
 
