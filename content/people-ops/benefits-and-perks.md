@@ -44,4 +44,4 @@ Whether you are relocating to join us or just moving places after you have alrea
 
 ## 🏦 401(k)
 
-We offer a 401(k) for US-based employees with both traditional (pre-tax) and Roth options to help you save for retirement while saving on taxes. The 401k is administered by [Human Interest](https://humaninterest.com/) and has several low-fee Vanguard funds available as investment options.
+We offer a 401(k) for US-based employees with both traditional (pre-tax) and Roth options to help you save for retirement while saving on taxes. The 401(k) is administered by [Human Interest](https://humaninterest.com/) and has several low-fee Vanguard funds available as investment options.
