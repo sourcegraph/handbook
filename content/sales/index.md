@@ -7,6 +7,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Sales team onboarding](onboarding/index.md)
 - [Sales interview process](interviews/index.md)
 - [Recording lead and customer emails, calls, and notes](records.md)
+- [Using Salesforce](salesforce.md)
 
 ## Pipeline, data, and models
 
@@ -153,40 +154,6 @@ Different customers and deals have different needs from our sales team. We segme
 - **Tier 1** = $100k+ ARR
 - **Tier 2** = $42k+ ARR
 - **Tier 3** = $22k+ ARR
-
-## Using HubSpot
-
-This page describes how we use HubSpot to maintain high data quality. This allows us to increase the effectiveness of all Sourcegraph teams through accurate insights.
-
-Account Executives are responsible for maintaining HubSpot as a [source of truth](https://about.sourcegraph.com/handbook/communication#sources-of-truth). The data is synced between HubSpot and Looker every weekend so this data must be updated (at least) by end of day Friday.
-
-### Associating contacts to deals
-
-It is critical to associate all of the most important contacts within a company with any new deal. This should include the technical decision-maker, the economic decision-maker (if they are different) and the original member who introduced Sourcegraph to the organization.
-
-This ensures that all deal-related communication is visible within the deal timeline for teammates to quickly get context surrounding the deal. This also allows us to evaluate the effectiveness of marketing channels and sales touchpoints that our team has with an organization. How we reached the person(s) who introduced Sourcegraph to their organization is one of the most important factors in evaluating the success of marketing activities.
-
-### Maintaining up-to-date information on deals
-
-Please keep the following information updated for deals. These are the the most important deal fields for weekly reviews and tracking, but the more fields that have up-to-date information, the better.
-
-* Deal stage
-* Deal size
-* Number of engineers
-
-If a deal comes through a referral or introduction, tell [BizOps](../bizops/index.md) so an adjustment can be made in the database to reflect this.
-
-### When a deal is won
-1. Mark the ‘Deal Status’ as ‘Closed Won’
-1. Mark the column ‘End of contract’ with the last day of the contract. HubSpot will automatically create a renewal deal based on this date
-
-### When a deal is lost
-1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../bizops/index.md) about adding one
-1. Expand upon the reason in the longform ‘Closed Lost Reason’ field. This supports [2019-Q4 OKR 1 v](../../company/goals/2019_q4.md) to identify the top 3 reasons potential customers don't sign.
-
-### Recording outbound activity
-
-TBD on connecting Zoominfo and HubSpot
 
 ### Maintaining customer spreadsheets
 

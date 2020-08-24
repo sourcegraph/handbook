@@ -20,11 +20,11 @@ When a new deal is signed, the Account Executive, Customer Engineer, and finance
 >Best,
 >$NAME
 
-1. Update the deal status to "Closed" in HubSpot.
+1. Update the deal status to "Closed" in Salesforce.
 
 ## CE responsibilities
 
-1. The CE team will assign an account owner (typically the same CE that worked on the opportunity before the deal was signed).
+1. The CE team will assign an account owner. If the account owner is different than the CE who worked the deal, the Customer Engineer field needs to be updated in Salesforce. 
 1. Rename the shared customer Slack channel from #trial-customer to #support-customer (if applicable).
 1. [Create a new license key](../ce/license_keys.md) that reflects the terms of the deal.
 1. Once the AE has sent the welcome email, CE is responsible for:
