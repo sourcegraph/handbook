@@ -20,7 +20,7 @@ Build a code intelligence platform that understands code in all languages and pr
 
 This list will be updated regularly with links to the technical implementation details in RFCs and/or Github issues.
 
-### Provide precise code intel for the primary programming languages that combined cover > 50% of usage across GitHub.com repositories or across customer projects (greater of the two).
+### Provide precise code intel for the primary programming languages that combined cover > 50% of usage across customer projects.
 
 - Metrics:
   - Language coverage (%)
