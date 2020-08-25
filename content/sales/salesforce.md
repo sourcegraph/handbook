@@ -11,7 +11,7 @@ Jump to:
 
 ## Updating information in Salesforce
 
-AEs and SDRs are responsible for keeping Salesforce up-to-date as a [source of truth](https://about.sourcegraph.com/handbook/communication#sources-of-truth).
+AEs and SDRs are responsible for keeping Salesforce up-to-date as a [source of truth](../communication/index.md#sources-of-truth).
 
 ### Associating contacts to opportunities
 
@@ -34,7 +34,7 @@ If a deal comes through a referral or introduction, tell [BizOps](../bizops/inde
 
 Salesforce has two main categories: leads and opportunity/account/contacts. Leads are single individuals that have not been qualified yet, and therefore are not associated with an account or opportunity. When a lead has revenue potential, they're converted to an opportunity. In this stage, an account (known in HubSpot as a company), a contact, and an opportunity (known in HubSpot as a deal) are created.
 
-Opportunities begin at the [interest](/index.md#interest) stage.
+Opportunities begin at the [interest](index.md#interest) stage.
 
 ### Recording outbound activity
 
