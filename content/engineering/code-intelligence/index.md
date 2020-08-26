@@ -141,7 +141,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
   - [sourcegraph/lsif-clang](https://github.com/sourcegraph/lsif-clang)
   - [sourcegraph/lsif-test](https://github.com/sourcegraph/lsif-test)
 
-- BuildKite builds:
+- Buildkite builds:
   - [code-intel-extensions](https://buildkite.com/sourcegraph/code-intel-extensions)
   - [lsif-go](https://buildkite.com/sourcegraph/lsif-go)
   - [sourcegraph-codeintel-showcase-indexer](https://buildkite.com/sourcegraph/sourcegraph-codeintel-showcase-indexer)
