@@ -19,7 +19,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 - Finish [general onboarding tasks](../../people-ops/onboarding/index.md#for-all-new-teammates)
   - Set up your email filters, especially for GitHub and feedback
 - Get to know the product
-  - Complete of the [Engineering onboarding tasks](../../engineering/onboarding/index.md). Almost all of these are relevant to you.
+  - Complete the "Getting set up" section of the [Engineering onboarding tasks](../../engineering/onboarding/index.md#getting-set-up).
     - You will need to run Sourcegraph locally to test/validate work that engineering is doing, to provide early/often feedback.
   - Review [product resources](../index.md#resources)
   - [Products](https://about.sourcegraph.com/product)
