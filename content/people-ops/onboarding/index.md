@@ -12,6 +12,7 @@
 > NOTE: This list is incomplete because it includes only new steps added since the creation of the Sourcegraph handbook. Eventually all of the onboarding docs above will be migrated to this Sourcegraph handbook, then this list will be complete and this note can be removed.
 
 - [ ] Add yourself to the [team page](../../../company/team/index.md).
+  - [ ] Once you've created a team page entry, add the link to your bio in your Slack profile 
 - [ ] [Add your working hours to Google Calendar](https://calendar.google.com/calendar/r/settings) so your teammates know when it is safe to add meetings to your calendar.
 - [ ] Watch the [new team member intro from the CEO](https://www.youtube.com/watch?v=EVHUGZe5uts)
 - [ ] Set up a recurring weekly 25-minute [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
