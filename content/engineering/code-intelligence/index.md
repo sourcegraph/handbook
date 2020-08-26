@@ -14,7 +14,7 @@ To be the point of discovery for the knowledge graph for all source code.
 
 ## Mission
 
-Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights and campaigns. 
+Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights and campaigns.
 
 ## Goals
 
@@ -26,8 +26,8 @@ This list will be updated regularly with links to the technical implementation d
   - Language coverage (%)
 - Planned work:
   1. Resolve outstanding issues for lsif-clang, ship to 3 customers, [tracking issue 12349](https://github.com/sourcegraph/sourcegraph/issues/12349).
-  1. Resolve outstanding issues for lsif-java, ship to 3 customers, [tracking issue 13017](https://github.com/sourcegraph/sourcegraph/issues/13017). 
-  1. Resolve outstanding issues for lsif-go, ship to 3 customers, [tracking issue 13015](https://github.com/sourcegraph/sourcegraph/issues/13015). 
+  1. Resolve outstanding issues for lsif-java, ship to 3 customers, [tracking issue 13017](https://github.com/sourcegraph/sourcegraph/issues/13017).
+  1. Resolve outstanding issues for lsif-go, ship to 3 customers, [tracking issue 13015](https://github.com/sourcegraph/sourcegraph/issues/13015).
   1. Provide best effort auto-indexing for supported languages, [RFC-199](https://docs.google.com/document/d/1rCduWqaLAbMu2s43RwJTBbRlhL6qS3oqq4iawiGdoVE/edit), [RFC-201](https://docs.google.com/document/d/1NPQs1s814LZjNXjPuavqC1N7hZR192DNtmSBmAeH9UY/edit).
 - Success Outcome: We have accurate and comprehensive precise code intel for C++, Go, and Java. We will work to ship each indexer to at least 3 customers and gather feedback for future iteration. The precision level for each indexer tool is > 80%.
 
@@ -56,7 +56,7 @@ This list will be updated regularly with links to the technical implementation d
   1. Create definition for Time to Intelligence metric and determine how this metric is measured and tracked.
   1. Create and send a survey to customers to gather information on monorepos use cases and stats.
   1. Identify the common challenges our customers are experiencing when operating Sourcegraph in monorepos by working directly with 3 customers to index a monorepos, gather feedback and identity problems we need to address.
-  1. Update lsif-* tools to enable indexing subsets of a project.
+  1. Update lsif-\* tools to enable indexing subsets of a project.
   1. Integrate with monorepos build systems: Bazel and stretch goal is one of: Buck, Pants, OAO
 - Successful Outcome: Users are able to process monorepos with the same TTI as any other type of repository. Our tools provide configuration options that accomodate for complex use cases (cross repository and sub-project code intel).
 
@@ -65,7 +65,7 @@ This list will be updated regularly with links to the technical implementation d
 - Planned work:
   1. Define release states and their respective criteria.
   1. Assess each code intel tool against criteria and determine release state.
-  1. Communicate changes by updating documentation on lsif.dev and /sourcegraph/lsif-* repos.
+  1. Communicate changes by updating documentation on lsif.dev and /sourcegraph/lsif-\* repos.
 - Success Outcome: We are able to consistently apply release states to our tools as they move through development lifecycle. We have provided clear communication to users, internal teams and stakeholders on capabilities of each tool.
 
 ## Contact
@@ -85,7 +85,7 @@ Here are some key ways to contact us:
 - On Slack, use the [#code-intel](https://app.slack.com/client/T02FSM7DL/CHXHX7XAS) channel.
 - On Google Drive, we use the [Code Intel](https://drive.google.com/drive/folders/1vKcW5EM4RBIuF8ZFvPM0G1FRwl_03RXK) directory.
 
-The Code Intelligence team holds a weekly sync meeting.  We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). If you would like to add a topic to the agenda, please ping [the #code-intel channel in Slack]( https://app.slack.com/client/T02FSM7DL/CHXHX7XAS) to ensure we are prepared to address it.
+The Code Intelligence team holds a weekly sync meeting. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). If you would like to add a topic to the agenda, please ping [the #code-intel channel in Slack](https://app.slack.com/client/T02FSM7DL/CHXHX7XAS) to ensure we are prepared to address it.
 
 Prior to the weekly sync meeting, each team member should:
 
@@ -122,6 +122,35 @@ Our team is growing and to help our new teammates have the best onboarding exper
   - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
   - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
   - [Noah Santschi-Cooney](../../../company/team/index.md#noah-santschi-cooney-he-him)
+
+## Ownership
+
+- GitHub organizations:
+
+  - [lsif](https://github.com/lsif)
+  - [sourcegraph-codeintel-showcase](https://github.com/sourcegraph-codeintel-showcase)
+
+- GitHub repositories:
+
+  - [sourcegraph/codeintelutils](https://github.com/sourcegraph/codeintelutils)
+  - [sourcegraph/code-intel-extensions](https://github.com/sourcegraph/code-intel-extensions)
+  - [sourcegraph/codeintellify](https://github.com/sourcegraph/codeintellify)
+  - [sourcegraph/lsif-go](https://github.com/sourcegraph/lsif-go)
+  - [sourcegraph/lsif-node](https://github.com/sourcegraph/lsif-node)
+  - [sourcegraph/lsif-java](https://github.com/sourcegraph/lsif-java)
+  - [sourcegraph/lsif-clang](https://github.com/sourcegraph/lsif-clang)
+  - [sourcegraph/lsif-test](https://github.com/sourcegraph/lsif-test)
+
+- BuildKite builds:
+  - [code-intel-extensions](https://buildkite.com/sourcegraph/code-intel-extensions)
+  - [lsif-go](https://buildkite.com/sourcegraph/lsif-go)
+  - [sourcegraph-codeintel-showcase-indexer](https://buildkite.com/sourcegraph/sourcegraph-codeintel-showcase-indexer)
+  - [sourcegraph-codeintel-showcase-upstreamer](https://buildkite.com/sourcegraph/sourcegraph-codeintel-showcase-upstreamer)
+
+## On-call
+
+- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+ObservableOwnerCodeIntel%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+ObservableOwnerCodeIntel%29+count:1000&patternType=structural)
+- [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/d0c10593-3edd-4d7e-8d1b-2ad29afeaa71)
 
 ## Hiring status
 
