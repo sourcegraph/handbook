@@ -16,11 +16,11 @@ These projects contain per-project permissions.
 
 ### Folders
 
-### Engineers Projects
+#### Engineers Projects
 
 Contains projects used by individual engineers. Engineers are expected to remove all their resources once they are done testing. All projects must be prefixed with `$name-` (the name of the owner).
 
-### Sourcegraph Cloud
+#### Sourcegraph Cloud
 
 Sourcegraph Cloud projects.
 
@@ -29,13 +29,13 @@ Sourcegraph Cloud projects.
 - **sourcegraph-code-intel**: Services for Code Intel code execution that are separated from our production project for extra isolation.
 - **Sourcegraph CI**: Services for our CI cluster and temporary CI resources.
 
-### Other Projects
+#### Other Projects
 
 Misc Projects with permissions set at the project level.
 
 - **sourcegraph-calend**: Owned by @sqs.
 - **sourcegraph-orgtool**: Owned by @sqs.
 
-### Managed Instances
+#### Managed Instances
 
 Multiple `sourcegraph-managed-$name` projects, one for each our managed deployments to guarantee separation of privileges and access control.
