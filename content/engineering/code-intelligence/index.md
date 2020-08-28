@@ -117,8 +117,8 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](https://about.sourcegraph.com/company/team#mar%c3%ada-craig-she-her) ([product manager](../../product/roles/product_manager.md))
-- [Aida DeWitt](../../../company/team/index.md#aida-dewitt-she-her) ([engineering manager](../roles.md#engineering-manager))
+- [María Craig](../../../company/team.md#mar%c3%ada-craig-she-her) ([Product Manager](../../product/roles/product_manager.md))
+- [Aida DeWitt](../../../company/team/index.md#aida-dewitt-she-her) ([Engineering Manager](../roles.md#engineering-manager))
   - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
   - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
   - [Noah Santschi-Cooney](../../../company/team/index.md#noah-santschi-cooney-he-him)

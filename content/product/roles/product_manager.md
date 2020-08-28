@@ -19,7 +19,7 @@ You will **own an area of the product**\* and:
 - Communicate product ideas clearly by focusing on the problems that are being solved, the outcomes, and how we will measure success.
 - Be transparent in your internal and external communication. Sourcegraph is open source, so most discussions are public or in channels where you communicate directly with our customers.
 
-\* Product ownership areas: Search, campaigns, extensions and code insights, code intelligence.
+\* Product ownership areas (current teams): [Campaigns](../../engineering/campaigns/index.md), [Web](../../engineering/web/index.md), [Cloud](../../engineering/cloud/index.md), [Distribution](../../engineering/distribution/index.md)
 
 ## Qualifications
 

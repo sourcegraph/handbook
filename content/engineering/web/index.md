@@ -77,10 +77,11 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 
 ## Members
 
-- [Loïc Guychard](../../../company/team/index.md#loic-guychard) ([engineering manager](../roles.md#engineering-manager))
-- [Felix Becker](../../../company/team/index.md#felix-becker)
-- [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-- [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
+- [J.K.](../../../company/team/index.md#todo)([Product Manager](../../product/roles/product_manager.md)) is starting on 2020-09-14. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+- [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
+  - [Felix Becker](../../../company/team/index.md#felix-becker)
+  - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
+  - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
 
 ## Growth plan
 

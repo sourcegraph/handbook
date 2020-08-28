@@ -80,11 +80,12 @@ By default, members of the team will provide a brief update about the goals they
 
 ## Members
 
-- [Tomás Senart](../../../company/team/index.md#tomás-senart) ([engineering manager](../roles.md#engineering-manager))
-- [Joe Chen](../../../company/team/index.md#joe-chen)
-- [Ryan Slade](../../../company/team/index.md#ryan-slade)
-- [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
-- [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
+- We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+- [Tomás Senart](../../../company/team/index.md#tomás-senart) ([Engineering Manager](../roles.md#engineering-manager))
+    - [Joe Chen](../../../company/team/index.md#joe-chen)
+    - [Ryan Slade](../../../company/team/index.md#ryan-slade)
+    - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
+    - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
 
 Other:
 

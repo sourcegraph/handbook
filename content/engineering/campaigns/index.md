@@ -84,10 +84,11 @@ For each iteration (currently one month long), we follow this process:
 
 ## Members
 
-- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([engineering manager](../roles.md#engineering-manager))
-- [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
-- [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
-- [Erik Seliger](../../../company/team/index.md#erik-seliger)
+- We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Quinn Slack](../../../company/team/index.md#quinn-slack) is involved in the meantime.
+- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager))
+   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
+   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
+   - [Erik Seliger](../../../company/team/index.md#erik-seliger)
 
 ## Hiring status
 
