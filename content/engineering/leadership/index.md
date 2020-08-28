@@ -51,7 +51,7 @@ Our long term vision is to build an organization that attracts and retains the b
 
 #### Publicly documented compensation bands
 
-- Problem: When we were smaller, it was easy to contain consistent compensation across the entire team because there were fewer people to coordinate with. Now that we are bigger and have more engineering managers making offers and compensation decisions, we need to have clearly documented compensation bands so we can maintain consistency while federating decision making. We want to make this public because it will help candidates understand what they can expect before they even apply. This is a better candidate experience and it avoid rare but real situations where a candidate goes through our interview process only to discover that their compensation expectations don't fit into our bands.
+- Problem: When we were smaller, it was easy to contain consistent compensation across the entire team because there were fewer people to coordinate with. Now that we are bigger and have more engineering managers making offers and compensation decisions, we need to have clearly documented compensation bands so we can maintain consistency while federating decision making. We want to make this public because it will help candidates understand what they can expect before they even apply. This is a better candidate experience and it avoids rare but real situations where a candidate goes through our interview process only to discover that their compensation expectations don't fit into our bands.
 - Owner: Nick
 - Plan:
   1. Update our benchmark data and set bands to be shared with engineering managers internally to help them make offers and review/adjust compensation for their teams.
@@ -61,7 +61,7 @@ Our long term vision is to build an organization that attracts and retains the b
 #### Publicly documented interview modules
 
 - Problem: Any candidate who has interviewed at multiple companies knows that interview processes are hit or miss. We have spent time and effort to ensure that we have a great interview process, and candidates regularly tell us that we do after going through it. Right now, candidates don't know what to expect out of our interview process beyond the title of each interview module and a brief description.
-- Plan: We want candidates to know up front as much as possible about each interview, including exact questions that we will be asking them as and how we will be evaluating their answers (as much as possible). Sharing this information would have many benefits:
+- Plan: We want candidates to know up front as much as possible about each interview, including exact questions that we will be asking them and how we will be evaluating their answers (as much as possible). Sharing this information would have many benefits:
   - It shows candidates that our process is reasonable, fair, and challenging.
   - It allows candidates to prepare and present their best selves.
   - It forces us to think of better interview questions that are [unhackable](http://www.paulgraham.com/lesson.html).
