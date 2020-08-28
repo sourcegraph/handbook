@@ -25,7 +25,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
   - [Products](https://about.sourcegraph.com/product)
   - Learn how the Customer Engineering team gives demos and talks about the product in the [product demo recording](https://drive.google.com/file/d/1idbCnce5MIvtAV0GOOwgB68zQJB2WmZ9/view).
   - Read about [search queries](https://docs.sourcegraph.com/user/search) and perform your first searches.
-  - Work through the questions from the [Sales Onboarding Quiz](../../sales/onboarding/quiz.md) to make sure you understand key concepts. Discuss any questions you have or knowledge gaps with your manager.
+  - Work through the questions from the [Sales Onboarding Quiz](../../sales/onboarding/quiz.md) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have or knowledge gaps with your manager.
 - Get to know our customers
   - Reach out to the Sales/CE teams and ask to be added to as many customer calls as you can this week.
   - Feedback
