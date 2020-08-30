@@ -98,3 +98,9 @@ A marketing qualified lead (MQL) is any of:
 ### [SQL](../sales/index.md#lead) (sales-qualified lead)
 
 See "[Lead](../sales/index.md#lead)" in the sales team handbook section.
+
+## Open roles
+
+### VP Marketing
+
+We're hiring for a VP Marketing. Full job description to come. To summarize, we want the VP Marketing to be someone who can help us achieve the mission and goals of marketing on their own---and who can hire and lead a team to do so at greater scale.
