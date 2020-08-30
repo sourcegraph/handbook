@@ -11,9 +11,21 @@
   - [Adding screenshots and screen recordings (GIFs and videos)](adding_screenshots_screen_recording.md)
   - [Website style guide](website_style_guide.md)
 
+## Mission
+
+Influential developers discover, use, and love Sourcegraph.
+
+How we'll achieve this:
+
+- Focus on influential devs. Not all devs, enterprise devs, etc.
+- Tap networks of existing users. Many devs worked at companies where everyone uses Sourcegraph, then quit and joined a new company, and brought Sourcegraph in.
+- Drive product usage. Code search is a "must use it to believe it" kind of thing. Instead of becoming really good at communicating the theoretical value of code search, we want to build more ways for devs to just start using code search and to share it naturally.
+
 ## Goals
 
-### Build the infrastructure so we can reach more devs
+### Near-term
+
+#### Build the infrastructure so we can reach more devs
 
 Eventually we want to be publishing tons of compelling stuff for developers and other similar audiences. For now, we're building the infrastructure so we can do this well and track the results, and we'll publish a small number of very compelling things.
 
@@ -28,7 +40,7 @@ Outcomes:
 - A developer (who is not @sqs or @beyang) publishes a blog post using the documented workflow and standards, and it passes the [secret test of whether it's really, really compelling to developers](https://docs.google.com/document/d/1IgS9bq-wmCDKrGpydcJV1k_dzxulviyNAbaj7LLV-RY/edit). (That doc is only visible to the marketing team. It's secret so people don't try to game it.) (@sqs)
 - We can determine how many and which leads came from which content we published. (@aileen + @lori)
 
-### Help other teams that need marketing support
+#### Help other teams that need marketing support
 
 Timeline: ongoing
 
@@ -37,6 +49,17 @@ Tasks:
 - Make and maintain materials (slides, one-pagers, and proposals) for the sales team (@lori)
 - Manage and tweak Google ads to drive engagement with our product (@lori)
 - Respond to public and private messages on social media (@sqs)
+
+### 12-month plan
+
+(Not in chronological order.)
+
+- Instrument product and about site for attribution
+- Publish blog posts that (for example) top Hacker News
+- Highlight customer value/stories
+- Engage existing influential users live
+- Spread Sourcegraph.com in open-source communities with existing traction
+- Hire VP Marketing and grow team
 
 ## Members
 
