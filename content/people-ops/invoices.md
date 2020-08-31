@@ -13,3 +13,5 @@ Any teammates based outside of the US are on a contracting structure and will ne
 - Submit monthly invoices by the 2nd of the month so that payments can be issued by the 5th.
 
 All invoices will be paid through [Veem](https://www.veem.com/).
+
+Here is an example [invoice template](https://docs.google.com/spreadsheets/d/1EPYH0nfMSdLE1Eq83eH01SPiuMbfTMiy0W2qS0OZnuo/edit?usp=sharing).
