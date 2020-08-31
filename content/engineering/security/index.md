@@ -1,6 +1,6 @@
 # Security team
 
-At Sourcegraph we think that security is an enabler for the business. Sourcegraph is committed to proactive security, and addressing vulnerabilities in a timely manner. We approach security with a can-do philosophy, and look to achieve product goals while maintaining a positive posture, and increasing our security stance over time.
+We think that security is an enabler for the business. Sourcegraph is committed to proactive security, and addressing vulnerabilities in a timely manner. We approach security with a can-do philosophy, and look to achieve product goals while maintaining a positive posture, and increasing our security stance over time.
 
 ## Goals
 
@@ -54,7 +54,43 @@ When we receive [a report of a security vulnerability](#how-to-report-a-security
   > Thank you for your report. Could you please provide us with $INFOX, $INFOY, and $INFOZ so we can investigate this further? 
 
   > Thank you for your report. We will not be taking further action on this report because $REASONS.
-  
+
+--------------------------
+
+## How we Work
+
+On the security team, we work by planning, tracking, and reviewing - creating a feedback mechansim targeting our own continuous improvement based on the things we learn.
+
+### Principles
+
+1. [Goals](https://about.sourcegraph.com/company/goals/guidelines) are something we strive for, whilst tracking and communicating progress.
+2. A work item is a piece of work (e.g., writing code, hiring a new teammate) that makes progress toward achieving a goal.
+3. Releases may be made up of N workitems, that may impact Y goals.  Whilst this is true, we communicate both internally and externally progress towards those goals.
+4. Security by its various nature has public work items ([main repo](https://github.com/sourcegraph/sourcegraph) and private workitems ([security repo](https://github.com/sourcegraph/security-issues/)). Over time workitems should move from the private repository to the public repository once they can be made public.  The ideal goal state is the lack of a private security repository.
+
+### Planning
+
+1. We plan iterations and features prior to their execution, in a team planning session.
+2. We set one or more goals for the interation.
+3. We write RFCs and solicit feedback ideally, prior to the start of an iteration, but especially with forethought in mind.
+4. We hold weekly team syncs and [track them here](https://docs.google.com/document/d/1l-JyN-hol2G6YXNqPsJsIgN2z3aZEzOW4-Julu4xthI).
+5. We report on our status and progress weekly in [tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Atracking+label%3Ateam%2Fsecurity), and radiate communication.
+
+### Tracking
+
+1. Goals are the combination of a [GitHub project](https://github.com/orgs/sourcegraph/projects?query=is%3Aopen+Security) and issues with tags. GitHub tracking issue (labels: tracking, team/security) with an additional label (secgoal:<someshortthing1>) support tracking against a goal.
+   a. Work items impacting this goal are created in GitHub, by using the labels team/security and secgoal:<someshortthing1>.
+   b. When a work item is targets a specific release, the appropriate tracking label is added.
+   c. Milestones for individual goals are communicated on the goal tracking issue.
+   
+2. Tracking issues are used for communicating status.  We embrace the small, incremental, but well thought out changes.  This provides the added benefit of easing communication with our customers, both internal and external.
+   a. By tagging work items, the tracking issues are the source of truth on a per release basis.
+   b. Each release has at least one goal associated with it, communicated in the tracking issue.  These goals are release specific, meaning they may or may not be reflected in our existing project goals.
+   
+### Learning
+
+After the each release, we hold a [retrospective](https://about.sourcegraph.com/retrospectives). We try to understand the degree to which we achieved the goals we communicaed at the beginning of the iteration.  We idenitfy what went well and what our opportunities for imporvement.  We actively choose one of the things we've learned, and target its improvement.
+
 ## Members
 
 - [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him) ([Engineering Manager](../roles.md#engineering-manager)).
