@@ -83,7 +83,7 @@ See "[Personas](personas.md)" for the full list of personas we're targeting.
 
 ### Web traffic
 
-Web traffic is measured by analyzing two metrics: [all users](https://www.lovesdata.com/blog/google-analytics-glossary#user) and [organic users](https://theupperranks.com/blog/organic-search/). Unless otherwise noted, web traffic refers to web visitors from the United States and Canada. If the web traffic is labeled `geo7` or similar, it refers to the web traffic from the US, Canada, Australia, United Kingdom, Germany, France and Sweden. Also note, that web traffic currently includes the following sites: about.sourcegraph.com and info.sourcegraph.com.
+Web traffic is measured by analyzing [all users](https://www.lovesdata.com/blog/google-analytics-glossary#user) and [new user](https://www.lovesdata.com/blog/google-analytics-glossary#new-user) with traffic sources: [organic](https://theupperranks.com/blog/organic-search/) and [paid/cpc](https://www.lovesdata.com/blog/google-analytics-glossary#cpc). Unless otherwise noted, web traffic refers to web visitors from the United States and Canada. If the web traffic is labeled `geo7` or similar, it refers to the web traffic from the US, Canada, Australia, United Kingdom, Germany, France and Sweden. Also note, that web traffic currently includes the following sites: about.sourcegraph.com, sourcegraph.com, docs.sourcegraph.com, and info.sourcegraph.com.
 
 ### Inquiry
 
@@ -91,15 +91,15 @@ An inquiry is a person who has requested information from Sourcegraph for the fi
 
 ### Interesting inquiry
 
-Any inquiry that works for a company with > $10M in revenue, or specifies that there are 200+ software engineers at their company will be highlighted as 'interesting'.
+Any inquiry that works for a company with > $50M in revenue, or specifies that there are 250+ software engineers at their company will be highlighted as 'interesting'.
 
 ### MQL
 
 A marketing qualified lead (MQL) is any of:
 
-- A person who submits a demo or contact form AND has >= 200 engineers
-- A person who sets up a new Sourcegraph instance AND >= 2,000 employees
-- A person downloads an eBook or white paper AND has >= 500 engineers and/or >= 2,000 employees
+- A person who submits a demo or contact form AND whose company has >= 250 engineers
+- A person who sets up a new Sourcegraph instance AND whose company has >= 2,000 employees
+- A person downloads an eBook or white paper AND whose company has >= 500 engineers and/or >= 2,000 employees
 
 [Specific email domains](https://app.hubspot.com/property-settings/2762526/properties?action=edit&property=inbound_scoring_qualification&search=inbou&type=0-1) are excluded.
 
