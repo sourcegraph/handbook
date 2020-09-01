@@ -11,7 +11,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - Watch the calendars of other sales team members and ask if you can add yourself (or be added) to each customer call
 - Checkpoints
   - Pass a [quiz](quiz.md)
-  - Deliver compelling 30-second pitches for the following [personas](../../product/personas.md):
+  - Deliver compelling 30-second pitches for the following [personas](../../marketing/personas.md):
      - Infrastructure/Platform Engineer
      - Site Reliability Engineer (SRE)
      - Engineering and DevOps Managers
@@ -34,7 +34,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - [Goals](../../../company/goals/index.md)
   - Last board deck
 - [Product](../../product/index.md)
-  - [Personas](../../product/personas.md)
+  - [Personas](../../marketing/personas.md)
   - [Products](https://about.sourcegraph.com/product)
   - Demo of key user flows
 - Read/watch
@@ -63,7 +63,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - Current customers and pipeline/goals overview
      - [Q4 model](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=665660264)
      - [Past quarterly IARR](https://docs.google.com/presentation/d/1I2nhK_2uz0o8jiBqajzdTPHcy9Hnl9n1LROo1ZlJW-Q/edit#slide=id.g41cb4d21db_0_0)
-  - Value props and pitches for various [personas](../../product/personas.md)
+  - Value props and pitches for various [personas](../../marketing/personas.md)
   - FAQ and common objections
 
 ### Day 3

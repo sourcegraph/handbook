@@ -37,7 +37,7 @@ See [Goals](goals.md)
 ### References
 
 - [Onboarding to the product team](./onboarding/index.md)
-- [Personas](personas.md)
+- [Personas](../marketing/personas.md)
 - The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
 - Product documents (PDs)
   - [All PDs](https://drive.google.com/drive/folders/1Wd-Xx2wNbFtSzeJwbZqMOxdbFDUFxlyR) (Google Drive)

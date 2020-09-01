@@ -50,7 +50,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - [Goals](../../company/goals/index.md)
   - Last board deck or video
 - [Product](../product/index.md)
-  - [Personas](../product/personas.md)
+  - [Personas](../marketing/personas.md)
   - [Products](https://about.sourcegraph.com/product)
 - Read/watch
   - Entire [about.sourcegraph.com](https://about.sourcegraph.com) site
