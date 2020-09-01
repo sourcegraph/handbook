@@ -10,7 +10,7 @@ For general information about personas, see "[Personas for Product Management](h
 
 An **influential developer** is:
 
-- a well known developer in a large developer community (often in open source) <u>**and/or**</u>
+- a well-known developer in a large developer community (often in open source) <u>**and/or**</u>
 - especially influential across many teams in their organization.
 
 What matters is their influence, not their credentials or day job. Our "influential developer" persona can be a professional software developer, an engineering manager, a hobbyist, a founder, or any other title/role.
