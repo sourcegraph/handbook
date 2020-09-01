@@ -34,7 +34,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 ## Interview process
 
-<!-- 1. You [apply here](TODO). -->
+1. You [apply here](https://jobs.lever.co/sourcegraph/cea553ce-ace7-4b44-8828-8d421e5e7e9c/apply).
 1. We set up a 30-minute call to learn more about what you are looking for, tell you about Sourcegraph, and answer any questions that you have.
 1. We set up a 60-minute call with the hiring manager to discuss your technical experience including past work and accomplishments.
 1. We evaluate relevant technical skills that you have via an asynchronous coding exercise.
@@ -50,4 +50,4 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
-<!-- **[Click here to apply](TODO)** -->
+**[Click here to apply](https://jobs.lever.co/sourcegraph/cea553ce-ace7-4b44-8828-8d421e5e7e9c/apply)**
