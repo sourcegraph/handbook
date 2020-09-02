@@ -98,4 +98,4 @@ After the each release, we hold a [retrospective](https://about.sourcegraph.com/
 
 ## Open Positions
 
-[Software Engineer - Security](../hiring/software-engineer-security)
+[Software Engineer - Security](../../engineering/hiring/software-engineer-security.md)
