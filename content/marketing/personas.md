@@ -25,6 +25,8 @@ Other characteristics that are *often* (but not always) true:
 - They love coding and take pride in it. It's not *just* a job for them, it's also a deeply engrossing hobby.
 - Security, privacy, and documentation are important factors when they're deciding which tool to use, because these factors signal whether the tool was built by someone who really cares.
 
+For examples, see [non-exhaustive list of influential developers](https://docs.google.com/document/d/11s4darGJIV0_gTSK5Xdafi9vNomu_QXXuLQI3v_qyz4/edit).
+
 ## Dev Tools Leader
 
 The person who is in charge of the development experience, tooling decisions, and tooling budget for the organization.
