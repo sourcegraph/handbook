@@ -94,8 +94,8 @@ After the each release, we hold a [retrospective](https://about.sourcegraph.com/
 ## Members
 
 - [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him) ([Engineering Manager](../roles.md#engineering-manager)).
-  - [Elizabeth Stirling](../../../company/team/index.md#elizabeth-stirling-she-her)
+- [Elizabeth Stirling](../../../company/team/index.md#elizabeth-stirling-she-her)
 
 ## Open Positions
 
-[Software Engineer - Security](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-security.md)
+[Software Engineer - Security](../hiring/software-engineer-security)
