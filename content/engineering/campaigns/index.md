@@ -18,7 +18,7 @@ We're working on a new flow and a new way for people to create campaigns based o
 
 ## Contact
 
-- #campaigns channel or @campaigns-team on Slack.
+- #campaigns-chat channel or @campaigns on Slack.
 - [@sourcegraph/campaigns](https://github.com/orgs/sourcegraph/teams/campaigns) team or [team/campaigns label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fcampaigns+) on GitHub.
 
 ## Mission
