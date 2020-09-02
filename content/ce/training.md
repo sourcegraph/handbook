@@ -105,6 +105,11 @@ _If not covered in the Sourcegraph 101 session_
 <u>Use case</u>: reveal higher-level insights about your codebase, such as the progress of a migration from one library to another.
 
 - First, enable code insights by being a member of the [Sourcegraph organization](https://sourcegraph.com/organizations/sourcegraph/members) on Sourcegraph.com.
+- Enable search-insights and code-stats-insights extensions 
+- Add code insights to your sourcegraph.com user settings:
+        "codeInsights": true
+    }```
+
 - Visit the [github.com/sourcegraph/sourcegraph](https://sourcegraph.com/github.com/sourcegraph/sourcegraph) repository on Sourcegraph.com to show off a set of useful insights. Walk through use cases associated with each (e.g., tracking migrations, figuring out what technologies to invest in internally, measuring against goals for metrics like code coverage by team, etc.)
 
 **Campaigns**
