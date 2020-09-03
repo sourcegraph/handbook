@@ -82,6 +82,12 @@ For each iteration (currently one month long), we follow this process:
 * To avoid siloing of knowledge and to keep teammates happy, we make sure that everyone gets a chance to work in different areas of the codebase. In particular, we don't want tasks in area X to always default to person P.
 * If a process isn't serving us, we are quick to shut it down.
 
+## Team Communication
+
+Our team has two Slack channels, one public (#campaigns-chat) and one private (#campaigns-team). _Our default is to use the public channel._
+
+The private channel is for communications that would be of no interest to someone not on the team. Things like (re-)scheduling of team meetings, vacation scheduling, reminders about tasks that need completing, etc. Keeping these out of the public channel raises the signal-to-noise ratio for folks interested in Campaigns, but not interested in who will be 10 minutes late to our sync meeting today due to the fact that their cat knocked over a jar of pickles and now there's glass everywhere and everything smells like vinegar and now you wish you hadn't read this sentence to the end.
+
 ## Members
 
 - We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Quinn Slack](../../../company/team/index.md#quinn-slack) is involved in the meantime.
