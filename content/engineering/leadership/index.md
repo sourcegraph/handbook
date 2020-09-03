@@ -7,7 +7,7 @@ This page documents the engineering leadership team.
 - [Beyang Liu](../../../company/team/index.md#beyang-liu), CTO
 - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](../roles.md#vp-engineering)
   - [Tomás Senart](../../../company/team/index.md#tomás-senart), [Engineering Manager](../roles.md#engineering-manager), [Cloud](../cloud/index.md)
-  - [Loïc Guychard](../../../company/team/index.md#loïc-guychard), [Engineering Manager](../roles.md#engineering-manager), [Web](../campaigns/index.md)
+  - [Loïc Guychard](../../../company/team/index.md#loïc-guychard), [Engineering Manager](../roles.md#engineering-manager), [Search](../search/index.md)
   - [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim), [Engineering Manager](../roles.md#engineering-manager), [Distribution](../distribution/index.md)
   - [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him), [Engineering Manager](../roles.md#engineering-manager), [Security](../security/index.md)
   - [Aida DeWitt](../../../company/team/index.md#aida-dewitt-she-her), [Engineering Manager](../roles.md#engineering-manager), [Code Intelligence](../code-intelligence/index.md)

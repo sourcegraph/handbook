@@ -16,11 +16,11 @@ Our current goals are documented in the [search team's current tracking issue](h
 ## Members
 
 - [Pooja Jain](../../../company/team/index.md#) ([Product Manager](../../product/roles/product_manager.md)) is focused on search, [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is supporting.
-- [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
-- [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
-- [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
-- [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
-- [Loïc Guychard](../../../company/team/index.md#loïc-guychard) is interested in being the [engineering manager](../roles.md#engineering-manager) for this team but is currently focusing his efforts on the [web team](../web/index.md). [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) will be more involved in the meantime.
+- [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
+  - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
+  - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
+  - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
+  - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
 
 ## On-call
 
