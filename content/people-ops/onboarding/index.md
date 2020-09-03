@@ -3,6 +3,7 @@
 - [Teammates(US-based)](../from-graphbook/onboarding_remote_us.md)
 - [Teammates (based outside US)](../from-graphbook/onboarding_remote_non_us.md)
 - [Engineers](../../engineering/onboarding.md)
+- [Customer Engineers](../../ce/onboarding.md)
 - [Sales team](../../sales/onboarding/index.md)
 - [Product team](../../product/onboarding/index.md)
 - [Onboarding buddy program](../buddy-program.md)
