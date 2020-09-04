@@ -22,5 +22,4 @@ TODO
 
 - [Dan Adler](../../company/team/index.md#dan-adler-he-him) (CE team manager)
 - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
-- [Austin Harshberger](../../company/team/index.md#austin-harshberger-he-him)
 - [Tion Thomas](../../company/team/index.md#tion-thomas-he-him)
