@@ -2,6 +2,10 @@
 
 Sourcegraph is seeking an engineer that thrives on owning big problems across domains and different levels of the stack — you grok how the ultimate measure of your work is how users experience the work you do, and that means you wear any hat necessary to that end, from product, to developer, and everything in between. You are a polyglot, quick learner and fearless into diving into unknown areas of the systems you work with. You believe that communicating clearly and empathetically and your relationships with others is critical to our success.
 
+The following engineering teams are currently hiring for this role:
+1. [Code Intelligence](../code-intelligence/index.md)
+2. [Cloud](../cloud/index.md)
+
 ## Qualifications
 
 We are looking for a full stack engineer who has strong fundamentals in good software development techniques, design patterns and best practices. In your career you have worked with and refactored existing code bases. You are both productive and pragmatic because you believe software is only useful if it is used. Collaborating with small high performing teams, you have built and deployed production-ready software that delivers value to customers.
