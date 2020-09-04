@@ -11,20 +11,6 @@ When making decisions at Sourcegraph, it's important to:
 
 These things become more important as we grow, so we're trying to be more deliberate about decision-making.
 
-## Decisions sheet
-
-> This is optional and experimental. We'll be iterating on this. Try it and post your feedback in #handbook on Slack!
-
-[**Decisions (Google Sheet)**](https://docs.google.com/spreadsheets/d/1CVdqgSYyukW_eMlfKUDSRZpT9xzYHRDMH5NYbZRVLzQ/edit)
-
-1. This sheet is for decisions that are:
-   - high risk (difficult or costly to unwind, or with big/unknown long-term implications); and
-   - not able to be reached by consensus within 5 minutes.
-1. When a decision needs to be made, add a row.
-   - Even if the decision hasn't been made yet (but needs to be made soon), it's still useful to add a row with as many cells filled out as possible.
-   - For information on each column, see the column header notes. We will document these in the handbook once we find a set of descriptions that work well.
-1. The recommender is responsible for adding a `Revisit decision: ...` item to the relevant weekly meeting agenda for the decision when its revisit date is reached.
-
 ## Related reading
 
 - [Disagreeing with a decision](./code_of_conduct.md#disagreeing-with-a-decision)
