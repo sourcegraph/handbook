@@ -89,7 +89,7 @@ Optional:
 #### Steps
 
 1. In GitHub Desktop, open the `about` repository that you cloned previously.
-1. In **Current Branch**, select `master` if it's not already selected.
+1. In **Current Branch**, select `main` if it's not already selected.
 1. Press the **Fetch Origin** button to get the latest contents of the repository.
 1. In **Current Branch**, create a new branch with a short name (like `add-travel-guidelines`, no spaces or punctuation).
 1. Edit files in the `~/Documents/GitHub/about/handbook` folder on your computer.
