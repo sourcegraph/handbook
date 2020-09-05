@@ -15,6 +15,7 @@
 - Watch the [new team member intro from the CEO](https://www.youtube.com/watch?v=EVHUGZe5uts)
 - [Configure Google Calendar](https://calendar.google.com/calendar/r/settings)
   - Add your working hours to Google Calendar so your teammates know when it is safe to add meetings to your calendar.
+  - Add any local [holidays](../holidays.md) you observe to your calendar so people know you're not working.
   - Make it so any attendees can edit meetings you create: `Default guest permissions: Modify event` (this makes it easy for teammates to reschedule when necessary).
 - Set up a recurring weekly 25-minute [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
 - If you are not familiar with Git, complete the [Git introduction](git_intro.md).
