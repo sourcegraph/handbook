@@ -62,6 +62,7 @@ _Time_: 45 minutes
 _Optional, if time allows_
 
 **Extensions**
+
 <u>Use case</u>: pull in more context (e.g. from internal or third-party tools) to your code
 
 - Describe Sourcegraph’s extensibility philosophy (similar to an IDE).
