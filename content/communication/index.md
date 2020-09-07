@@ -17,7 +17,7 @@ These places are the source of truth for information at Sourcegraph. Information
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [productboard](https://sourcegraph.productboard.com/)
 - [HubSpot](https://app.hubspot.com) (only contacts, not companies and deals)
-- [Salesforce](https://sourcegraph2020.lightning.force.com/) 
+- [Salesforce](https://sourcegraph2020.lightning.force.com/)
 - [JIRA Service Desk](https://sourcegraph.atlassian.net/jira/servicedesk/projects/SG)
 - [Looker](http://sourcegraph.looker.com/)
 
@@ -35,6 +35,7 @@ The following places are not sources of truth. Treat documents and conversations
 ## Meetings
 
 - [Company meeting](company_meeting.md) (Mondays 10:30-11:00am PST/PDT)
+- [Social calendar](../../company/remote/social_calendar.md) meetings
 
 ### Internal meetings
 
