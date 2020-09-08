@@ -55,6 +55,8 @@ First Touchpoint values include:
 - Referral
 - Event
 - Other
+- Content download
+- Subscription
 
 ### Lead Status
 
