@@ -77,7 +77,7 @@ This list will be updated regularly with links to the technical implementation d
 
 Precise code intelligence specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use SQLite databases to store data specific to a particular LSIF index and Postgres to store all other data.
 
-## Team documentation & planning
+## Team communication
 
 Here are some key ways to contact us:
 
@@ -85,13 +85,23 @@ Here are some key ways to contact us:
 - On Slack, use the [#code-intel](https://app.slack.com/client/T02FSM7DL/CHXHX7XAS) channel.
 - On Google Drive, we use the [Code Intel](https://drive.google.com/drive/folders/1vKcW5EM4RBIuF8ZFvPM0G1FRwl_03RXK) directory.
 
-The Code Intelligence team holds a weekly sync meeting. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). If you would like to add a topic to the agenda, please ping [the #code-intel channel in Slack](https://app.slack.com/client/T02FSM7DL/CHXHX7XAS) to ensure we are prepared to address it.
+## Team process
+The code intel team has defined a set of rituals that keeps the team connected around our common goals. As a team we also believe in good meeting etiquette, and to ensure effective meetings for everyone every meeting must have a meaningful topic, agenda, and stated goal or purpose statement defined ahead of time.
 
-Prior to the weekly sync meeting, each team member should:
+On a weekly basis:
 
-1. Add any agenda items that should be discussed.
-2. Review any existing agenda items and be prepared to discuss them.
-3. Update the current release [tracking issue](../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
+* Team Sync Meeting: Every Monday, the code intel team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the weekly sync meeting, each team member should:
+  1. Add any agenda items that should be discussed.
+  1. Review any existing agenda items and be prepared to discuss them.
+  1. Update the current release [tracking issue](../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
+
+* Team Updates: Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update.
+  
+For each iteration (currently one month long), we follow this process:
+
+* Planning Meeting(s): Prior to each iteration the team has planning meetin(s) to discuss which items should be prioritized for the upcoming release. We revisit oustanding work that track against our team goals, and go over [our backlog](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence) of bugs and feature requests. Once the team agrees on a task, we add it to the tracking issue and as part of our team goals for the milestone.
+
+* Retrospective Meeting: After the release branch has been cut for the iteration, the team has a retro to discuss how the iteration went, and what changes we might want to make to continously improve our teamwork.
 
 We track most of our work using [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
 
