@@ -14,9 +14,7 @@
 We use Terraform to manage our deployments
 
 1. [Navigate to the `cloud` repo](https://github.com/sourcegraph/infrastructure/tree/master/cloud)
-
 2. Follow the instructions there to run `terraform plan` to see if the infrastructure has drifted from what is specified there.
-
 3. **With existing disks**, recreate the Kubernetes objects:
   a. Do NOT run `create-new-cluster.sh` as it will try to recreate the statically-named disks.
   b. Run `kubectl-apply-all.sh` and most things should come online but Sourcegraph.com will still be inaccessible.
@@ -58,4 +56,4 @@ Go to **Confirm health of Sourcegraph.com**
 - OpsGenie shows no more open alerts
 - https://sourcegraph.com/-/debug/grafana shows no unexpected alerts
 
-Follow [the documented regular incident follow-up procedures](incidents.md).
+Follow [the documented regular incident follow-up procedures](index.md).

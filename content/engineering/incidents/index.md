@@ -36,7 +36,7 @@ The goal of triage is to either quickly resolve the incident using basic procedu
         - Tag the owner of the reverted commit as a reviewer of the PR.
         - Merge the PR as soon as CI passes (don't block on review).
     - [Fix failed database migration on sourcegraph.com](https://github.com/sourcegraph/sourcegraph/tree/master/migrations#dirty-db-schema)
-    - [How to resolve "Sourcegraph.com is deleted entirely"](incident_dotcom_deleted_entirely.md)
+    - [How to resolve "Sourcegraph.com is deleted entirely"](playbooks/dotcom_deleted_entirely.md)
 3. If rolling back and or reverting commits doesn't resolve the incident, then identify the most logical [resolution owner](#ownership) given what you know (this may be yourself) and have that person **acknowledge ownership** in the Slack thread (i.e. "I'm on it").
     - The person who has made recent changes to the affected product/code/system.
     - The person who owns the affected product/code/system.
@@ -69,4 +69,4 @@ After the incident is resolved:
 1. If the Sourcegraph account Tweeted about the incident, Tweet that the incident has been resolved.
 1. Document the incident in the [ops log](https://docs.google.com/document/d/1dtrOHs5STJYKvyjigL1kMm6u-W0mlyRSyVxPfKIOfEw/edit).
 1. Create GitHub issues for any appropriate followup work.
-1. Schedule a [retrospective](../../retrospectives/index.md) if you think it would be valuable.
+1. Schedule a [retrospective](../../../retrospectives/index.md) if you think it would be valuable.

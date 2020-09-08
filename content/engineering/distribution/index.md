@@ -82,7 +82,7 @@ Go, Docker, Kubernetes
 * [Internal infrastructure](./internal_infrastructure.md)
 * [Tools](./tools/index.md)
 * Tutorials
-  * [Observability developer guide](observability/index.md)
+  * [Observability developer guide](../observability/index.md)
   * [Managed instances](managed/index.md)
   * [Collecting and inspecting metrics dumps](metrics_dumps.md)
   * [How to set up a separate website maintained by Sourcegraph](separate_website.md)
