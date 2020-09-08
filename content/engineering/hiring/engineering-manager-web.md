@@ -28,25 +28,38 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 ## Interview process
 
 1. You **[apply here.](https://jobs.lever.co/sourcegraph/13286143-746e-4381-8049-94cf9911c2ab)**
-1. 30-45m VP Engineering intro call.
-1. 45m Current web team manager.
+1. Intro calls
+    - 45m [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) (VP Engineering)
+    - 45m [Loïc Guychard](../../../company/team/index.md#loïc-guychard) (Previous web team eng manager)
 1. Interviews.
-
    - 1h [Team collaboration](https://github.com/sourcegraph/interviews/blob/master/engineering/team-collaboration.md).
-     - [Christina Forney](../../../company/team/index.md#christina-forney-she-her) (required)
-     - One engineer who this person would be managing.
+     - Pick two:
+       - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
+       - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
+       - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
+       - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
+       - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
+       - If we have at least one of the above, the second interviewer can be [any engineer on the web team](../web/index.md#members).
    - 1h [Engineering leadership](engineering-leadership.md).
      - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) (required)
      - Plus one of:
          - [Tomás Senart](../../../company/team/index.md#tomás-senart)
          - [Loïc Guychard](../../../company/team/index.md#loïc-guychard)
+         - [Aida DeWitt](../../../company/team/index.md#aida-dewitt)
+         - Can backfill with any [engineering manager](../leadership/index.md#members).
    - 1h [Technical experience](https://github.com/sourcegraph/interviews/blob/master/engineering/technical-experience.md)
-     - Tomás Senart or Loïc Guychard (whoever isn't in the engineering leadership interview)
-     - One engineer who this person would be managing.
-   - 30m CEO
-   - 30m CTO
+     - Pick at least one (ideally both) of:
+       - [Felix Becker](../../../company/team/index.md#felix-becker)
+       - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
+     - Other interviews that can be paired with one of the above:
+       - [TJ](../../../company/team/index.md#tharuntej-kandala-he-him)
+       - [Erik Seliger](../../../company/team/index.md#erik-seliger)
+       - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
+       - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
+   - 30m [Quinn Slack](../../../company/team/index.md#quinn-slack) (CEO)
+   - 30m [Beyang Liu](../../../company/team/index.md#beyang-liu) (CTO)
 
-1. If we want to move forward, setup 30-minute calls to meet members of the team that this person will be managing. These calls are informal and no script.
+1. If we want to move forward, we will setup 30-minute calls to meet any members of the web team that weren't already an interviewer. These calls are informal and no script.
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
