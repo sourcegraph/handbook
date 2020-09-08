@@ -60,8 +60,7 @@ To import to Google Calendar:
 ## Resources
 
 Note: Most of our internally hosted services (\*.sgdev.org) use SSO with your
-Sourcegraph Google account. We also have a document storing [shared] passwords
-for external services.
+Sourcegraph Google account. External services are stored in 1Password.
 
 - [Playbook](playbooks/index.md)
 - [Opsgenie](https://app.opsgenie.com/alert) - Paging account
@@ -70,8 +69,6 @@ for external services.
 - [Kubernetes](https://github.com/sourcegraph/infrastructure/blob/master/kubernetes/README.md) Container management. Sourcegraph is run and managed by Kubernetes.
 - [AlertManager](https://alertmanager.sgdev.org/) - Manages alerts from Prometheus.
 - [Site24x7](https://www.site24x7.com/app/client#/home/monitors) - Graphs of uptime and response time for specific endpoints.
-
-[shared]: https://docs.google.com/document/d/1vszZnGMxr-BeZJwvyzHLdhjWPDF6XI7IBFGmfIE7DGc/edit
 
 ## Alerts
 
