@@ -1,6 +1,6 @@
 # Sourcegraph handbook
 
-The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](../company/open_source_open_company.md#open-company).
+The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](../company/index.md#open-company).
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate. [How to edit the handbook](https://about.sourcegraph.com/handbook/editing).
 

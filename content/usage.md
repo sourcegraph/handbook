@@ -93,7 +93,7 @@ We chose Markdown files in a Git repository for the handbook because it allows g
 
 ## Why make this handbook public?
 
-Sourcegraph is an [open product, an open company, and open source](../company/open_source_open_company.md). Our company principles, strategies, and processes are all publicly documented.
+Sourcegraph is an [open product, an open company, and open source](../company/index.md#sourcegraph-open-product-open-company-open-source). Our company principles, strategies, and processes are all publicly documented.
 
 ## Acknowledgements
 
