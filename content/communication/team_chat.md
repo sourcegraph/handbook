@@ -55,7 +55,7 @@ We have many Slack channels. You don't have to join them all, but here is a good
 - #design - How Sourcegraph looks visually
 - #feedback - Feedback directly from our users & customers
 - #product - Product questions, ideas and thoughts
-- #metrics - User metrics, analytics, etc.
+- #analytics - User metrics, analytics, etc.
 
 ### Business
 
