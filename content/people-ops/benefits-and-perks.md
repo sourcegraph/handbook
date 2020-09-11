@@ -4,7 +4,7 @@ We want our teammates to be happy, healthy, and productive.
 
 ## 🏡 All remote
 
-We are an [all-remote team](../../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to either work from a coworking space or setup your home office](spending-company-money.md).
+We are an [all-remote team](../../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to either work from a coworking space or set up your home office](spending-company-money.md).
 
 ## 🏖️ Vacation
 
@@ -16,7 +16,7 @@ We offer high-quality medical and dental care for all full-time employees and th
 
 ## 🏃 Wellness
 
-A healthy mind and body is imperative to doing your best work and living a healthy life. We offer an $85 monthly stipend that can be used at your discretion.
+A healthy mind and body is imperative to doing your best work and living a healthy life. We offer an $85 monthly wellness stipend that can be used at your discretion.
 
 ## 👪 Family friendly
 
@@ -24,7 +24,7 @@ We value and support teammates at all stages of life, and provide 8 weeks of pai
 
 ## 📚 Professional development
 
-In addition to on-the-job training, we offer a $1,000 yearly stipend for education (e.g. classes, books, conferences, etc.).
+In addition to on-the-job training, we offer a $1,000 yearly stipend for education (e.g., classes, books, conferences, etc.).
 
 ## ✈️ Travel
 
