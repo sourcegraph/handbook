@@ -20,13 +20,7 @@ The product team is newly growing, and consists of all product managers and prod
 
 ### [Roles](roles/index.md)
 
-_Updated 2020-08-12_
-
-- [Product Manager](roles/product_manager.md) - hiring +3
-- [Product Designer](roles/product_designer.md) - closed to applications
-- [Technical Writer](roles/technical_writer.md) - hiring +1
-
-See [2021 Organizational plan](../engineering/2021_org.md) for more details on areas of ownership.
+See [Roles](roles/index.md) for open positions and hiring targets.
 
 ## [Goals](goals.md)
 

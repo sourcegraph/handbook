@@ -1,6 +1,6 @@
 # Technical Writer
 
-We are looking for a Technical Writer to plan, create, revise, and maintain developer documents and educational content as an integral part of the [product team](https://about.sourcegraph.com/handbook/product), working closely with the engineering, design, and marketing teams. The content is often in the form of developer docs but may also include sample code, tutorials, or other supplemental materials. Regardless of what you are writing, creating, or designing, a technical writer’s primary job is to explain complex information in an easy-to-understand manner. In this role, you will be tasked with writing world-class developer-facing documentation.
+As a Technical Writer you will plan, create, revise, and maintain developer documents and educational content as an integral part of the [product team](https://about.sourcegraph.com/handbook/product), working closely with the engineering, design, and marketing teams. The content is often in the form of developer docs but may also include sample code, tutorials, or other supplemental materials. Regardless of what you are writing, creating, or designing, a technical writer’s primary job is to explain complex information in an easy-to-understand manner. In this role, you will be tasked with writing world-class developer-facing documentation.
 
 ## Responsibilities
 
@@ -15,11 +15,11 @@ We are looking for a Technical Writer to plan, create, revise, and maintain deve
       - It is organized?
       - Are there great examples?
 - Support creation of videos
-    - Surface needed topics
-    - Write scripts for the videos
+   - Surface needed topics
+   - Write scripts for the videos
 - Support developers in creating documentation and technical blog posts based on their comfort level:
-    - Interview a developer and create a draft, or
-    - Edit copy written by the developer
+   - Interview a developer and create a draft, or
+   - Edit copy written by the developer
 - Be a resource for other teams to create copy for:
    - Social media posts
    - Marketing blogs
@@ -50,15 +50,21 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 ## Interview process
 
-1. You [apply here](https://jobs.lever.co/sourcegraph/933f214e-338b-422b-b5d9-0b01057576d3/apply).
-1. We set up a 30-minute call to chat with you about Sourcegraph, our vision for the company, and find out what you are looking for in your next role.
-1. We schedule a 30-minute interview to go over your experience and samples in-depth.
-1. We schedule 2 video interviews:
-   - Collaboration exercise: We simulate a real-life issue with a member of our engineering team to see how you collaborate on writing projects (1 hr).
-   - Final: Our CEO and CTO ask about what motivates you to do your best work and your long-term goals (30 mins).
-1. We check your references.
-1. We make an offer.
+**Note: Closed to new applications, currently reviewing applicant pool.**
+
+1. You apply.
+1. **Intro calls**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
+   - [30 min] recruiter call
+   - [30 min] [HM intro call](./interviews/hm_intro_call.md) with [Christina Forney](../../../company/team/index.md#christina-forney-she-her) (VP Product)
+1. [1 hr] **Writing portfolio review**: We go over your experience and samples in-depth.
+   - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
+   - [Kimberly Hopson](../../../company/team/index.md#kimberly-hopson-she-her)
+1. Interviews
+   - [1 hr] **Collaboration exercise**: We simulate a real-life issue with a member of our engineering team to see how you collaborate on writing projects.
+      - TBD
+   - [30 min] [Quinn Slack](../../../company/team/index.md#quinn-slack) (CEO)
+   - [30 min] [Beyang Liu](../../../company/team/index.md#beyang-liu) (CTO)
+1. We make you a job offer.
+1. We check your references during your first week to find out what motivates you and how best to work with you.
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
-
-[Apply here](https://jobs.lever.co/sourcegraph/933f214e-338b-422b-b5d9-0b01057576d3/apply)

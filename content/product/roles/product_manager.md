@@ -51,15 +51,41 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 ## Interview process
 
 1. You [apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296/apply).
-1. We set up a 30-minute call to chat with you about Sourcegraph and to find out what you are looking for in your next role.
-1. We give you a writing project to see how you communicate and think about product problems.
-1. **Product experience:** We review your writing project and dive deep on how you work as a product manager.
-1. We schedule 3 hours of remote interviews over video chat across multiple days.
-   - **Working with customers:** The sales and customer engineering teams talk with you about how you work with customers to gather feedback.
-   - **Design and Engineering collaboration:** The design and engineering teams talk with you about how you collaborate and work within a team.
-   - **CEO/CTO:** We ask you about what motivates you to do your best work, and we tell you more about the vision for the company.
-1. We check your references.
+1. **Intro calls**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
+   - [30 min] Recruiter call
+   - [30 min] [HM intro call](./interviews/hm_intro_call.md) with [Christina Forney](../../../company/team/index.md#christina-forney-she-her) (VP Product)
+1. [~1-2 hrs] **[Async writing project](./interviews/pm_rfc_project.md)**: a writing project to see how you communicate and think about product problems.
+   - Reviewers:
+      - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
+      - Plus one of the following:
+         - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
+         - [María Craig](../../../company/team/index.md#maría-craig-she-her)
+   - When the RFC is recieved:
+      - Make a copy of the RFC there is a Sourcegraph owned version of it.
+      - Set the sharing permissions to "Anyone at Sourcegraph with the link".
+      - Add the Google Doc link as a note on the candidate's Lever profile so anyone on the team can easily find it.
+1. [1 hr] **Product interview**: We review your writing project and dive deep on how you work as a product manager. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/product.md)
+   - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
+   - Plus one of the following:
+      - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
+      - [María Craig](../../../company/team/index.md#maría-craig-she-her)
+1. **HM action**: Add a note to the candidate's Lever profile with a short summary of the candidate and possible ownership areas and why that would be a good fit.
+1. Interviews
+   - [1 hr] **Working with customers and data**: The biz ops and customer engineering teams talk with you about how you work with customers to gather feedback. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/customers-and-data.md)
+      - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
+      - Plus one of the following:
+         - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
+         - [Christine Lovett](../../../company/team/index.md#christine-lovett-she-her)
+   - [1 hr] **Design and Engineering collaboration**: The design and engineering teams talk with you about how you collaborate and work within a team. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/design-engineering-collaboration.md)
+      - The engineering manager for the team this person is most likely to work with. See [engineering managers](../../engineering/leadership/index.md#members) and note from HM on candidate's Lever profile.
+      - Plus one of the following product designers:
+         - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
+         - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
+         - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him)
+   - [30 min] [Quinn Slack](../../../company/team/index.md#quinn-slack) (CEO)
+   - [30 min] [Beyang Liu](../../../company/team/index.md#beyang-liu) (CTO)
 1. We make you a job offer.
+1. We check your references during your first week to find out what motivates you and how best to work with you.
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
