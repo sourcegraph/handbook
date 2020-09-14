@@ -66,6 +66,7 @@ Tasks:
 - [Aileen Agricola](../../company/team/index.md#aileen-agricola)
 - [Vanesa Ortiz](../../company/team/index.md#vanesa-ortiz-she-her)
 - [Quinn Slack](../../company/team/index.md#quinn-slack) (manager)
+- Lori Heyman
 
 ## Weekly marketing meeting
 
