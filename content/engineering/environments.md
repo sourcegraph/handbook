@@ -16,7 +16,7 @@ These projects contain per-project permissions.
 
 ### Folders
 
-#### Engineers Projects
+#### Engineering Projects
 
 Contains projects used by individual engineers. Engineers are expected to remove all their resources once they are done testing. All projects must be prefixed with `$name-` (the name of the owner).
 
