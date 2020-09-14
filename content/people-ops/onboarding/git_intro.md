@@ -17,8 +17,8 @@ To visualize the git flow, there's [an article version](https://guides.github.co
 
 ## More information
 
-Once you have the basics down, you can look into the [full reference docs](https://git-scm.com/docs) and [glossary](https://git-scm.com/docs/gitglossary). 
+Once you have the basics down, you can look into the [full reference docs](https://git-scm.com/docs) and [glossary](https://git-scm.com/docs/gitglossary).
 
-Other Sourcegraph resources for learning git include our [glossary](../from-graphbook/glossary.md) and [editing the handbook tutorials](../../editing.md).
+Other Sourcegraph resources for learning git include our [glossary](./glossary.md) and [editing the handbook tutorials](../../editing.md).
 
 For more information on git beyond these links, you can ask most teammates (including all engineers) or ask questions in the #dev-chat and #handbook channels.

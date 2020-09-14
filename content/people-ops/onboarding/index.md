@@ -1,12 +1,8 @@
 # Onboarding
 
-- [Teammates(US-based)](../from-graphbook/onboarding_remote_us.md)
-- [Teammates (based outside US)](../from-graphbook/onboarding_remote_non_us.md)
-- [Engineers](../../engineering/onboarding.md)
-- [Customer Engineers](../../ce/onboarding.md)
-- [Sales team](../../sales/onboarding/index.md)
-- [Product team](../../product/onboarding/index.md)
-- [Onboarding buddy program](../buddy-program.md)
+Welcome to Sourcegraph! We are so excited to have you on the team. This page outlines what you'll need to do to get started.
+
+- [Onboarding buddy program](./buddy-program.md)
 
 ## Guiding principles
 
@@ -22,20 +18,45 @@ At Sourcegraph, we don't think of teammates as resources — we think of them as
 
 Never assume that a problem is somebody else's to fix!
 
-## For all new teammates
+## General onboarding checklist
 
 - Watch the [new team member intro from the CEO](https://www.youtube.com/watch?v=EVHUGZe5uts)
+- Account setup
+  - **[G Suite/Gmail](https://www.google.com/gmail/)**: Access all G Suite apps in our org (Gmail, Google Docs, Google Sheets, Google Calendar, G Hire).
+  - **[Slack](https://slack.com/)**: Access our team communication tool.
+  - **[GitHub](https://github.com/sourcegraph/)**: Access our code and our handbook.
+  - **[Lattice](https://sourcegraph.latticehq.com/)**: Access our [teammate feedback cycles](../review-cycles.md) (takes place every quarter– Noemi will send out details).
+  - **[1Password](https://1password.com/)**: Access shared team passwords and store your own passwords.
+  - **[Expensify](https://www.expensify.com/signin):** Submit receipts for any work related expenses for reimbursement. Expensify will be linked to your Sourcegraph email.
+  - **[Jamf Now](https://sourcegraph.jamfcloud.com)**: Enroll your device in our MDM (ask Noemi for your access code).
+  - It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
+  - U.S. based teammates
+     - **[Gusto](https://gusto.com/)**: Select your health plans, set up payment information, enter your I-9 information. Gusto will be linked to your personal email.
+     - **[Human Interest](https://humaninterest.com/):** Check on your 401k.
+  - Teammates based outside of U.S.
+     - **[Veem](https://veem.com/)**: Submit monthly invoices.
 - [Configure Google Calendar](https://calendar.google.com/calendar/r/settings)
   - Add your working hours to Google Calendar so your teammates know when it is safe to add meetings to your calendar.
   - Add any local [holidays](../holidays.md) you observe to your calendar so people know you're not working.
   - Make it so any attendees can edit meetings you create: `Default guest permissions: Modify event` (this makes it easy for teammates to reschedule when necessary).
-- Set up a recurring weekly 25-minute [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
-- If you are not familiar with Git, complete the [Git introduction](git_intro.md).
-- [Create an account on GitHub.com](https://github.com/join) if you don't already have one.
-- Add yourself to the [team page](../../../company/team/index.md).
-- Add a link to your team page bio to your Slack profile
-- Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
-- It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
-- Go through the [analytics onboarding](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md). This onboarding is within Looker, so if you don't have an account you can ask for access in #analytics.
-- Read Sourcegraph's [information security policy](https://about.sourcegraph.com/security) and acknowledge your acceptance: https://forms.gle/LUK1YtwAMJLhtRPi6.
-- Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
+  - Set up a recurring weekly 25-minute [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
+- Make sure you know how to contribute to the handbook
+  - [Create an account on GitHub.com](https://github.com/join) if you don't already have one.
+     - Share your username with your manager so they can add you to the Sourcegraph GitHub account and appropriate teams.
+  - If you are not familiar with Git, complete the [Git introduction](git_intro.md).
+  - Add yourself to the [team page](../../../company/team/index.md).
+     - Add a link to your team page bio to your Slack profile
+  - Read Sourcegraph's [information security policy](https://about.sourcegraph.com/security) and acknowledge your acceptance: https://forms.gle/LUK1YtwAMJLhtRPi6.
+- Learn about Sourcegraph
+  - Read the [Sourcegraph values](../../../company/values.md).
+  - Read the [Sourcegraph strategy](../../../company/strategy.md).
+  - Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
+  - Go through the [analytics onboarding](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md). This onboarding is within Looker, so if you don't have an account you can ask for access in #analytics.
+  - Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
+
+## Team specific onboarding
+
+- [Engineers](../../engineering/onboarding.md)
+- [Customer Engineers](../../ce/onboarding.md)
+- [Sales team](../../sales/onboarding/index.md)
+- [Product team](../../product/onboarding/index.md)

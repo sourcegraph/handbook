@@ -2,7 +2,7 @@
 
 Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2-4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same. 
 
-**[Onboarding buddy](../../people-ops/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
+**[Onboarding buddy](../../people-ops/onboarding/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
 
 ## Manager checklist
 
@@ -30,7 +30,8 @@ Your objective is to get to know the team and learn as much about Sourcegraph (t
 
 Remember:
 
-- Sourcegraph is an [open company](../../../company/open_source_open_company.md). Everything here at Sourcegraph is public unless there is a very good reason for it to be private.
+- Sourcegraph is an [open company](../../../company/index.md#sourcegraph-open-product-open-company-open-source). Everything here at Sourcegraph is public unless there is a very good reason for it to be private.
+   - One of our values is to be [open and transparent](../../../company/values.md#open-and-transparent)
    - Good reasons for things to be private: sensitive customer information, sensitive personal information
    - If you see a "request permission" page for some doc or other resource, it is a mistake. Just ask to be granted access to it (and make a PR to update the handbook so the next person starting is granted access to that system).
 - Unlike at many companies, it is OK (and important) to call out when we did something poorly or when something doesn't go well (e.g., a sales pitch falls flat). That helps us be real and do it better in the future.
@@ -77,6 +78,7 @@ Remember:
 
 ### Understand company and team goals
 
+- [Sourcegraph values](../../../company/values.md)
 - [Sourcegraph master plan](../../../company/strategy.md)
 - [Sourcegraph direction (1 year plan)](../../../direction/index.md)
 - [Company goals](../../../company/goals/index.md)
