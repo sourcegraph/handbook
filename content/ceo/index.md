@@ -94,6 +94,8 @@ How the interview will usually go:
    - "I want to leave time at the end for any questions you have. Would you prefer to cover your questions now, or at the end?"
      - I don't like putting candidates on the spot for questions ("Do you have any questions for me right now?"), so I tell them in advance that they will have time for questions and give them the option (but not requirement) to ask immediately.
      - Most candidates do have thoughtful questions. If you are nervous because you aren't sure what to ask, then just ask to discuss topics that you care about, even if they aren't questions per se. I do want to see you engaging in the interview and don't want it to be 1-way.
+1. I often ask:
+   - What's a big important thing you did that made a lot of money for your company or helped a lot of users/customers, that wouldn't have happened if not for you?
 
 #### Questions about Sourcegraph
 
