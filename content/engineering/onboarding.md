@@ -30,6 +30,7 @@ Your manager should complete the following steps when you join:
   - [Site24x7](https://www.site24x7.com) (optional; recommended for Distribution team members)
   - [HoneyComb.io](https://www.honeycomb.io/)
   - Ask Christina to send an invite to [Productboard](https://sourcegraph.productboard.com)
+  - Ask a member of the Design team to invite as "Viewer" to [Figma](https://figma.com)
 
 ## Weeks 1-3
 
