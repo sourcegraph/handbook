@@ -51,6 +51,6 @@ At a high level, this is why the following sections are important:
 
 ## How are PDs different from RFCs?
 
-In an RFC, the background and problem sections become links to the associated PD. The PD becomes the place where all context, customer data, and learnings are aggregated for the problem statement. PDs keep track of all of the proposed solutions, ideas, and plans for solving a particular problem. The RFC is a single proposed solution.
+When an RFC is created in response to a PD, **the background and problem sections in the RFC are replaced with links to the associated PD**. The PD becomes the place where all context, customer data, and learnings are aggregated for the problem statement. Then, PDs keep track of all of the proposed solutions, ideas, and plans for solving a particular problem. The RFC is a single proposed solution.
 
 In the past, we have simply elevated an RFC to be a "parent RFC", though it didn't quite help orient the team around a problem, and we found that in the RFC format it was easy to fall into "solution or feature blindness" rather than focusing on all the possible things that can be done to solve a particular problem.
