@@ -12,18 +12,14 @@ Measure:
 
 - Does this person understand what good engineering leadership looks like?
 - Are their answers thoughtful, structured, and not unnecessarily verbose?
-- Do their answers provide evidence that they have experience or have thought about these topics depth?
+- Do their answers provide evidence that they have experience or have thought about these topics in depth?
 - Would their management style be a valuable addition to our team?
 
 Questions:
 
 - Describe in your own words what the job of an engineering manager is.
 - How do you measure if you are doing a good job as an engineering manager?
-- Describe the engineering culture of your last team when you joined it.
-  - What was good about that culture?
-  - What was not good about that culture?
-  - What did you do to improve the culture?
-- How do you build trust among your peers and team members?
+- What did you do to improve the engineering culture of your last team?
 
 ## Growth mindset
 
@@ -51,7 +47,6 @@ Questions:
 
 - How do you set priorities for your team?
 - What do you do if your team is being asked by multiple stakeholders to do more work than they can achieve?
-- How do you prioritize (stack rank) people, process, and profits? Why is X the lowest priority?
 
 ## Developing teams
 
@@ -73,7 +68,7 @@ Questions:
 
 Measure:
 
-- How does this person ensure that good decisions are being made by the team without micromanaging, being a bottleneck, or being a roadblock?
+- How does this person ensure that their team makes good technical decisions?
 
 Questions:
 
