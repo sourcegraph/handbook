@@ -1,4 +1,4 @@
-# Goals
+# Product team goals
 
 _Updated 2020-09-11_
 

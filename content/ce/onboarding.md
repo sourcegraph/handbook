@@ -1,4 +1,4 @@
-# Onboarding
+# Customer Engineering onboarding
 
 Welcome to Sourcegraph! This document will guide you through customer engineering-specific onboarding.
 

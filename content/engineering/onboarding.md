@@ -1,4 +1,4 @@
-# Onboarding
+# Engineering onboarding
 
 Welcome! We're excited to have you join the team. This document outlines the structure of your first few weeks at Sourcegraph.
 

@@ -1,4 +1,4 @@
-# Onboarding
+# People Ops onboarding
 
 Welcome to Sourcegraph! We are so excited to have you on the team. This page outlines what you'll need to do to get started.
 
