@@ -90,12 +90,11 @@ Cut a new release candidate daily if necessary:
   be removed).
 - [ ] Wait for the release Docker images to be available at https://hub.docker.com/r/sourcegraph/server/tags.
 - [ ] Cut the Kubernetes cluster release in [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph):
-    - [ ] Wait for Renovate to open a PR named **"Update Sourcegraph Docker images"** and merge that PR ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/199) and note Renovate may have merged it automatically).
-    - [ ] Wait for Renovate to open a PR named **"Update Sourcegraph Prometheus / Grafana Docker images"** and merge that PR (note Renovate may have merged it automatically).
-    - [ ] Create the `$MAJOR.$MINOR` release branch from this commit.
-      ```
-      VERSION='$MAJOR.$MINOR' bash -c 'git fetch origin && git checkout origin/main && git branch $VERSION && git checkout $VERSION && git push -u origin $VERSION'
-      ```
+    - [ ] Create the `$MAJOR.$MINOR` release branch from `master`.
+        ```
+        VERSION='$MAJOR.$MINOR' bash -c 'git fetch origin && git checkout origin/main && git branch $VERSION && git checkout $VERSION && git push -u origin $VERSION'
+        ```
+    - [ ] Trigger an upgrade using the [Update tags workflow](https://github.com/sourcegraph/deploy-sourcegraph/actions?query=workflow%3A%22Update+tags%22) - set `version` to a semver contraint that will apply the version you want (e.g. `~$MAJOR.$MINOR`) and set the branch to the branch you want to upgrade (i.e. `$MAJOR.$MINOR`). Merge the pull request that gets created ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/863)).
     - [ ] Tag the `v$MAJOR.$MINOR.0` release at this commit.
         ```
         VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'

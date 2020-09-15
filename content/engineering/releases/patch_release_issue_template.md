@@ -47,14 +47,16 @@ Arguments:
 
 In [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph):
 
-- [ ] Wait for Renovate to open a PR named **"Update Sourcegraph Docker images"** and merge that PR ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/199) and note Renovate may have merged it automatically).
-- [ ] Wait for Renovate to open a PR named **"Update Sourcegraph Prometheus / Grafana Docker images"** and merge that PR (note Renovate may have merged it automatically).
-- [ ] Cherry-pick the image tag update commits from `master` onto `$MAJOR.$MINOR` branch. Then push the release tag:
+- [ ] Cherry-pick relevant `deploy-sourcegraph` configuration changes from `master` onto the relevant release branch.
     ```
     git checkout $MAJOR.$MINOR
     git pull
     git cherry-pick <commit0> <commit1> ... # all relevant commits from the master branch
     git push $MAJOR.$MINOR
+    ```
+- [ ] Trigger an upgrade using the [Update tags workflow](https://github.com/sourcegraph/deploy-sourcegraph/actions?query=workflow%3A%22Update+tags%22) - set `version` to a semver contraint that will apply the version you want (e.g. `~$MAJOR.$MINOR`) and set the branch to the branch you want to upgrade (i.e. `$MAJOR.$MINOR`). Merge the pull request that gets created ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/863)).
+- [ ] Push the release tag on the commit:
+    ```
     git tag v$MAJOR.$MINOR.$PATCH
     git push origin v$MAJOR.$MINOR.$PATCH
     ```
