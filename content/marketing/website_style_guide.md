@@ -10,17 +10,17 @@ Sourcegraph uses the following styles on <a href="https://about.sourcegraph.com"
 - [All logo formats](https://drive.google.com/drive/folders/17HFjTFe4q8KLXsu7LoLS_lIgOT1OARiP?usp=sharing)
 - [Material design icons](https://materialdesignicons.com/)
 
-<img class="mark" src="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-logo.svg">
+<img class="mark" src="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-logo.svg" alt="Sourgraph logo">
 
 Sourcegraph logo
 <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-logo.svg">SVG</a> | <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph_logo.png">PNG</a> | <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.eps">EPS</a>
 
-<img class="mark-rev" src="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.svg">
+<img class="mark-rev" src="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.svg" alt="Sourcegraph wordmark reverse logo">
 
 Sourcegraph wordmark reverse logo
 <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.svg">SVG</a> | <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.png">PNG</a> | <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.eps">EPS</a>
 
-<img class="logomark" src="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.svg">
+<img class="logomark" src="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.svg" alt="Sourcegraph logomark">
 
 Sourcegraph logomark
 <a href="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.svg">SVG</a> | <a href="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.png">PNG</a> | <a href="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.eps">EPS</a>
