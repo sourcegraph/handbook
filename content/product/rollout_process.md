@@ -31,7 +31,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions. 
 
-### Post-Launch
+### Post-launch
 
 1. **Marketing:** Share update with marketing.
 1. **Metrics:** continue to track metrics to ensure expected outcomes are achieved.
@@ -41,4 +41,15 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 
 New versions of Sourcegraph are [released monthly](../engineering/releases.md#releases-are-monthly) to bundle changes for customers running Sourcegraph Server for their organizations. It is important that any new functionality has been thoroughly tested before including a feature on by default as part of a release. 
 
-By following the above rollout process on Sourcegraph Cloud, we ensure that features included in a release are ready for use by customers.
+For most features, we follow the above rollout process because the experience is the same on both Sourcegraph Cloud and Sourcegraph Server. 
+
+### Features unique to Sourcegraph Server
+
+Features that are specific to Sourcegraph Server and can't be tested on Sourcegraph Cloud still go through the same process [before merge](#before-merge). Then: 
+
+1. **Test on Sourcegraph dogfood instance:** follow the [before launch](#after-merge-before-launch) steps above on [k8s.sgdev.org](../engineering/deployments.md#k8s-sgdev-org). 
+1. **Release feature with flag off:** for the next release, the feature flag is disabled by default. 
+1. **Run external user tests:** Reach out to select customers to turn on the feature flag for a specific time period, usually those with expressed interest in testing the feature. 
+1. **Announce to customers they can enable the feature flag:** Let customers know that they can turn on the feature. 
+1. **Enable the feature flag:** We turn on the flag by default. 
+1. **Remove the feature flag:** Follow the [post-launch](#post-launch) process. 
