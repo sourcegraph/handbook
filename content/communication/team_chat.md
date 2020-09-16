@@ -73,9 +73,13 @@ We have many Slack channels. You don't have to join them all, but here is a good
 All engineers should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
 - #dev-announce - Things that affect a majority of the dev team in some way (e.g. site or buildkite is down, we will have expected downtime, etc.). *You should read every message in here, and messages you post to it should have a high signal-noise ratio.*
-- #dev-chat - anything related to Sourcegraph development :)
-- #dev-ops - discussing incidents and any other ops-related work
-- #buildkite - see notifications about Buildkite / CI failures.
-- #opsgenie - where pager notifications get sent to Slack
+- #dev-chat - Anything related to Sourcegraph development :).
+- #dev-ops - Discussing incidents and any other ops-related work.
+- #buildkite - Notifications about Buildkite / CI failures.
+- #opsgenie - Pager notifications get sent to Slack.
+- #alerts-cloud - Alertmanager alerts and warnings for our Cloud deployment.
+- #alerts-dogfood-k8s - Alertmanager alerts and warnings for our Dogfood deployment.
+- #bots-production - Kubernetes bot notifications.
+- #alerts-external - External system notifications which might impact our deployments.
 
 You should also join channels mentioned in [your team's documentation](../engineering/index.md#teams)
