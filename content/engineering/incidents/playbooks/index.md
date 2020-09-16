@@ -287,3 +287,16 @@ Using this information, you can determine whether a table exists, what columns i
 1. Connect to gitserver-1: `kubectl --namespace=prod exec -ti [gitserver-1 pod name] -- sh`
 1. Find and delete repo directory in `/data/repos/` if exists
 1. Do steps 4 and 5 with gitserver-2 as well
+
+## Failing `about.sourcegraph.com`
+
+Several of our static sites are hosted by Netlify at `about.sourcegraph.com`. You can check the service status at https://www.netlifystatus.com/ as well as notifications to the #alerts-external channel.
+
+If you discover an issue with Netlify but their status page is not displaying it, open a support request using the credentials in 1Password.
+
+Sites:
+- `about.sourcegraph.com`
+- `sourcegraph.com/about` -307-> `about.sourcegraph.com/about`
+- `sourcegraph.com/pricing` -307-> `about.sourcegraph.com/pricing`
+
+For a full list of sites redirected from `sourcegraph.com/$KEY` reference the [router code](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/cmd/frontend/internal/app/ui/router.go#L86) in our frontend.
