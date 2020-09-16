@@ -12,50 +12,52 @@ Sourcegraph search is:
 - **Easy to use:** Users can quickly understand how to find what they are looking for and what options are available for searching. The search syntax is clear and intuitive.
 - **Shareable:** Sourcegraph searches are easy to share, and provide team and organization wide value. This in turn creates network effects that compound the value Sourcegraph provides with scale.
 
+## Current focus
+
+Our current focus is documented in the [tracking issue for the current milestone](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Atracking+label%3Ateam%2Fsearch).
+
+
 ## Goals
 
-_Updated 2020-09-05_
+_Updated 2020-09-11_
 
-## [WIP] Medium term (3-6 months)
+### Scalable
 
-### Scale indexed search to 500k repositories
+- **Scale indexed search to 500k repositories**
    - **Problem:** We have customers who need Sourcegraph to scale to 500k repositories. Some parts of Sourcegraph don't work well at that scale.
    - **Outcome:** Sourcegraph can search 500k repositories in less than 300ms. This is on par with [grep.app](https://grep.app).
    - **Plan:** Incrementally add repositories to Sourcegraph.com until searches get slow or start breaking. Fix those things. Then continue adding repositories.
-   - **Owners:** TBD
+   - **Owners:** Keegan/Stefan
    - **Status:** Sourcegraph.com currently has about 100k repositories.
-
-## Short term (1-3 months)
-
-Our current focus is documented in the [tracking issue for the current milestone](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Atracking+label%3Ateam%2Fsearch).
+   - **Estimated completion**: 3.23 (End of December 2020)
 
 ### Fast
 
 - **Unblock improving user perceived performance**
   - **Problem:** Our current search infrastructure relies on on-shot requests with aggressive timeouts, but it is hard to tune those timeouts for large codebases. If we make the timeouts too small, then search may not return results for needle-in-the-haystack queries (because the search timed out). If we make the timeouts too large, then search becomes slower across the board and users spend time waiting for more results when we could have returned useful results to them sooner. Detecting and handling these timeouts across multiple service boundaries is also error prone and has led to bugs.
-  - **Outcome:** 
-      - Unblock the ability to add responsive and fast-loading search results. 
+  - **Outcome:**
+      - Unblock the ability to add responsive and fast-loading search results.
       - Return results faster for large result sets, e.g. indexed repositories in very large codebases.
   - **Plan:** Streaming search
   - **Owner:** Keegan
   - **Status:** In progress
+  - **Estimated completion:** 3.21
 
 ### Expressive
 
-- **Search Expressions (AND/OR/NOT)** ([term explanation](https://github.com/sourcegraph/sourcegraph/issues/13126), [term RFC](https://docs.google.com/document/d/1SHky6nodPs1w_zRXz24jB2nq5LbMCJl1u7hcLTGHDL8/edit#))
-  - **Problem:** We have customers who want to migrate from OpenGrok and other search tools, and they want to be able to do searches that are available in those tools.
-  - **Outcomes:** OpenGrok users eagerly migrate to Sourcegraph, and can run complex searches on Sourcegraph.
+- **Extend Search Query Language**
+  - **Problem:** It is imperative that users can find and filter the code, files, repositories, and commits they care about in extremely large codebases.
+  - **Outcomes:** Users can express relations on code, files, repositories, and commits in search queries to more effectively filter the data they need. Sourcegraph is the exclusive industrial-strength search solution that provides these capabilities.
   - **Owner:** Rijnard
   - **Status:** In progress
-- **Improve syntax for existing filters like `repohasfile`**
-  - **Problem:** Creating a custom filter name for every permutation of search use does not scale (existing filter examples: `repohasfile`, `hascommitafter`).
-  - **Outcomes:** We have an expressive syntax that scales and effectively leverages existing filters to achieve searches that previously would have required a custom/new filter.
+  - **Plan**
+      - Implement a query language extension to express relations (i.e., rules) on code, files, repositories, and commits. This replaces awkward one-off filters like `repohasfile`, `repohascommitafter` that do not generalize.
+      - Prototype semantic search functionality that combines text search and LSIF data
+      - Implement quality-of-life features for search: syntax highlighting, multiline queries, improve structural search performance
   - **Owner:** Rijnard/Stefan
   - **Status:** Not started
-- **Revision search**
-  - **Problem:** Users want to search across branches with the same ease as searching across repositories, and are currently unable to do so.
-  - **Owner:** Stefan
-  - **Status:** In progress
+  - **Estimated start:** 3.21
+  - **Estimated effort:** 4 months
 
 ### Easy to use
 
@@ -65,14 +67,16 @@ Our current focus is documented in the [tracking issue for the current milestone
           - **Plan:** Search onboarding tour
           - **Owner:** Farhan
           - **Status:** In progress
+          - **Estimated completion**: 3.20
       - It is hard for users to quickly get to code they care about.
           - **Plan:** Enterprise homepage
           - **Owner:** Farhan, Juliana
           - **Status:** In progress
-    - **Outcomes:**
-      - New users introduced to Sourcegraph are able to quickly run searches that show them the value of Sourcegraph.
-      - Users can run searches over code they care about more quickly.
-      - Sourcegraph surfaces code and searches users care about.
+         - **Estimated completion**: 3.21
+  - **Outcomes:**
+     - New users introduced to Sourcegraph are able to quickly run searches that show them the value of Sourcegraph.
+     - Users can run searches over code they care about more quickly.
+     - Sourcegraph surfaces code and searches users care about.
 
 ### Shareable
 
@@ -87,8 +91,8 @@ Our current focus is documented in the [tracking issue for the current milestone
           - Email
   - **Owner:** TBD
   - **Status:** Not started
-
-[WIP longer term goals](https://docs.google.com/document/d/1ibKiSTSxrRiY_3f3Rx3kGzLgTMO5Uz2XzTsdEZuh4UU/edit)
+  - **Estimated start:** TODO
+  - **Estimated effort:** TODO
 
 ## Contact
 
