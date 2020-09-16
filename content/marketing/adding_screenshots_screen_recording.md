@@ -13,6 +13,19 @@
   - Chose [Cleanshot](https://getcleanshot.com/) if just doing screenshots and GIFs.
   - Add ScreenFlow to your list if you plan on doing videos frequently, as you will appreciate editing and clip speed-up capabilities.
 
+## Don't add title slides to videos
+
+We almost never use title slides. Title slides are slides at the start of your video that have a Sourcegraph logo, a background, a title (like "Campaigns demo"), and maybe a nice visual effect.
+
+Why do we not use title slides?
+
+1. They make the video seem less authentic, which makes it less compelling. Developers already love watching videos of other developers showing things off.
+1. It takes a lot of work, and involves other people, to get it right. This means wasted time (since we don't perceive a benefit to a title slide) and, on the margin, it means that our videos will be older, more stale, and more mediocre (more cooks in the kitchen).
+1. Title slides delay the "time to a wow moment".
+1. It likely leads to inconsistencies. All title slides that we're currently showing on our site should be the same, if we are showing title slides. So, they'd all need to have the same layout, tone/voice of copy, timing, etc. It adds a large burden of maintenance that we don't want to take on.
+
+If you *really* think your video needs one, ask for help in the `#marketing` channel (and cite this handbook section and explain why you need one).
+
 ## Adding a screenshot
 
 ### Screenshot apps
@@ -96,10 +109,6 @@ More tips and recommendations are in our [podcasting guide](https://docs.google.
 
 - If using ScreenFlow 9, you can record audio using the narration feature which can be accessed from the menu bar: **Insert** > **Narration**
 - Use your phone to record your voice-over, then import the audio file into ScreenFlow (produces a better sounding result than using your laptop microphone)
-
-## Adding start/end screens to videos
-
-We don't typically use these but that doesn't mean anything should stop you. Reach out in the `#marketing` channel if you need any graphics designed for your video.
 
 ## Embedding GIFs
 
