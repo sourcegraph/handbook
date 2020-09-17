@@ -34,12 +34,12 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 1. Interviews.
    - 1h [Team collaboration](https://github.com/sourcegraph/interviews/blob/master/engineering/team-collaboration.md). We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
      - Will interview with 2 of the following:
-       - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
-       - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
-       - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
-       - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
-       - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
-       - If we have at least one of the above, the second interviewer can be [any engineer on the web team](../web/index.md#members).
+         - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
+         - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
+         - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
+         - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
+         - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
+         - If we have at least one of the above, the second interviewer can be [any engineer on the web team](../web/index.md#members).
    - 1h [Engineering leadership](engineering-leadership.md).
      - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) (required)
      - Plus one of the following:
@@ -49,13 +49,13 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
          - Can backfill with any [engineering manager](../leadership/index.md#members).
    - 1h Technical experience - We ask you about your past work and accomplishments. [Internal documentation for interviewers](https://github.com/sourcegraph/interviews/blob/master/engineering/technical-experience.md).
      - Will idealy interview with both of the following:
-       - [Felix Becker](../../../company/team/index.md#felix-becker)
-       - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
+         - [Felix Becker](../../../company/team/index.md#felix-becker)
+         - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
      - Other interviewers that can be paired with one of the above:
-       - [TJ](../../../company/team/index.md#tharuntej-kandala-he-him)
-       - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-       - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
-       - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
+         - [TJ](../../../company/team/index.md#tharuntej-kandala-he-him)
+         - [Erik Seliger](../../../company/team/index.md#erik-seliger)
+         - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
+         - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
    - 30m [Quinn Slack](../../../company/team/index.md#quinn-slack) (CEO)
    - 30m [Beyang Liu](../../../company/team/index.md#beyang-liu) (CTO)
 
