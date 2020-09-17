@@ -1,5 +1,7 @@
 # Campaigns team
 
+<img src="https://storage.googleapis.com/sourcegraph-assets/campaigneros.png"  align=right alt="Campaigñeros Logo">
+
 User-facing documentation: https://docs.sourcegraph.com/user/campaigns
 
 Developer documentation: https://docs.sourcegraph.com/dev/campaigns_development
