@@ -12,9 +12,33 @@ Sourcegraph search is:
 - **Easy to use:** Users can quickly understand how to find what they are looking for and what options are available for searching. The search syntax is clear and intuitive.
 - **Shareable:** Sourcegraph searches are easy to share, and provide team and organization wide value. This in turn creates network effects that compound the value Sourcegraph provides with scale.
 
-## Current focus
+## Iterations
 
-Our current focus is documented in the [tracking issue for the current milestone](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Atracking+label%3Ateam%2Fsearch).
+The search team plans its work in **2-week iterations**.
+
+The goals and updates for current and past iterations can be found in the [iteration log](./iteration_log.md).
+
+The planned work items for the current iteration are tracked in the [Search iterations GitHub project](https://github.com/orgs/sourcegraph/projects/93).
+
+### Planning an iteration
+
+Iterations start **every other Monday**.
+
+**On the last Friday of an iteration:**
+- Teammates add the themes they're planning to work on, and the desired outcomes, to the [iteration log](./iteration_log.md).
+- Teammates add relevant GitHub issues or cards to the **Planned** column of the [Search iterations GitHub project](https://github.com/orgs/sourcegraph/projects/93).
+- Teammates add any topics they would like to discuss during the retrospective to the [Search team retrospectives](https://docs.google.com/document/d/1YyPhH-OVrFddLhlerlfrqmnqe633I09wp9D9mSI4Za8/edit) document.
+
+**On the first Monday of an iteration:**
+- The team holds its [retrospective](https://docs.google.com/document/d/1YyPhH-OVrFddLhlerlfrqmnqe633I09wp9D9mSI4Za8/edit) for the previous iteration.
+- The team reviews the iteration plan during the team sync, and kicks off the iteration.
+
+**Work log updates:**
+- Teammates should update the [work log](./iteration_log.md) for the themes they're working on.
+- Updates should be in prose and communicate progress made and pain points.
+- Updates should happen at least twice (in the middle and at the end of the iteration), but may be more frequent if desired.
+    - The mid-iteration update should contain a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
+    - The end-of-iteration update should mention whether the planned outcomes were reached or not, and if not, why.
 
 
 ## Goals
