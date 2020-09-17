@@ -33,7 +33,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
     - 45m [Loïc Guychard](../../../company/team/index.md#loïc-guychard) (Previous web team eng manager)
 1. Interviews.
    - 1h [Team collaboration](https://github.com/sourcegraph/interviews/blob/master/engineering/team-collaboration.md).
-     - Pick two:
+     - Will interview with 2 of the following:
        - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
        - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
        - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
@@ -42,16 +42,16 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
        - If we have at least one of the above, the second interviewer can be [any engineer on the web team](../web/index.md#members).
    - 1h [Engineering leadership](engineering-leadership.md).
      - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him) (required)
-     - Plus one of:
+     - Plus one of the following:
          - [Tomás Senart](../../../company/team/index.md#tomás-senart)
          - [Loïc Guychard](../../../company/team/index.md#loïc-guychard)
          - [Aida DeWitt](../../../company/team/index.md#aida-dewitt)
          - Can backfill with any [engineering manager](../leadership/index.md#members).
-   - 1h [Technical experience](https://github.com/sourcegraph/interviews/blob/master/engineering/technical-experience.md)
-     - Pick at least one (ideally both) of:
+   - 1h Technical experience - We ask you about your past work and accomplishments. [Internal documentation for interviewers](https://github.com/sourcegraph/interviews/blob/master/engineering/technical-experience.md).
+     - Will idealy interview with both of the following:
        - [Felix Becker](../../../company/team/index.md#felix-becker)
        - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-     - Other interviews that can be paired with one of the above:
+     - Other interviewers that can be paired with one of the above:
        - [TJ](../../../company/team/index.md#tharuntej-kandala-he-him)
        - [Erik Seliger](../../../company/team/index.md#erik-seliger)
        - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
@@ -59,7 +59,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
    - 30m [Quinn Slack](../../../company/team/index.md#quinn-slack) (CEO)
    - 30m [Beyang Liu](../../../company/team/index.md#beyang-liu) (CTO)
 
-1. If we want to move forward, we will setup 30-minute calls to meet any members of the web team that weren't already an interviewer. These calls are informal and no script.
+If we want to move forward after these sets of interviews, we will setup 30-minute calls to meet any members of the web team that weren't already an interviewer. These calls are informal and no script.
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
