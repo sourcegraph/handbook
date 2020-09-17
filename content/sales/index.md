@@ -64,9 +64,10 @@ A customer is an organization with a Sourcegraph subscription contract that has 
     - If in doubt about whether another customer is referenceable by name, ask in #sales.
 1. If an organization's contract will start in the future, they are still considered a customer. (This can happen when we agree to have a contract start on the next 1st of the month because that makes life easier for a customer, for example.)
 
-### Sales Accepted Opportunity (SAO):
+### Sales Accepted Opportunity (SAO)
 
 Sales Accepted Opportunities are where ALL of the following are true:
+
 - We have completed an intro call/meeting with the company/contact
 - Company/contact has expressed some form of interest/need in Sourcegraph
 - Contact can be a potential champion or coach
