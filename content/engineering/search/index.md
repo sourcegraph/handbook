@@ -35,6 +35,7 @@ Iterations start **every other Monday**.
 
 **Work log updates:**
 - Teammates should update the [work log](./iteration_log.md) for the themes they're working on.
+- PR approvals are not required for work log updates.
 - Updates should be in prose and communicate progress made and pain points.
 - Updates should happen at least twice (in the middle and at the end of the iteration), but may be more frequent if desired.
     - The mid-iteration update should contain a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
