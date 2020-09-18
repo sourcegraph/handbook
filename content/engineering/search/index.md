@@ -68,7 +68,7 @@ _Updated 2020-09-11_
       - Return results faster for large result sets, e.g. indexed repositories in very large codebases.
   - **Plan:** Streaming search
   - **Owner:** Keegan
-  - **Status:** In progress
+  - **Status:** [In progress](perf.md)
   - **Estimated completion:** 3.21
 
 ### Expressive
