@@ -1,6 +1,6 @@
 # Hacker News Who is Hiring
 
-This is the comment that [Nick](../../company/team/index.md#nick-snyder-he-him) posts to the monthly "Ask HN: Who is hiring?" thread ([example](https://news.ycombinator.com/item?id=23394377)).
+This is the comment that [Nick](../../../company/team/index.md#nick-snyder-he-him) posts to the monthly "Ask HN: Who is hiring?" thread ([example](https://news.ycombinator.com/item?id=23394377)).
 
 ```
 Sourcegraph (https://sourcegraph.com) | Software Engineer, Engineering Manager, Security Engineer, Product Manager | ALL REMOTE
@@ -15,5 +15,5 @@ We are an equal opportunity workplace and our all-remote team is spread across t
 
 We just raised a $23M Series B (https://medium.com/craft-ventures/why-we-invested-in-sourcegraph-5ace28317e3d) and are growing our team to keep up with customer demand (some of our customers are listed on our homepage). If you want to make software development more accessible to everyone, come join us!
 
-Apply to one of our many open roles here: https://github.com/sourcegraph/careers/
+Apply to one of our many open roles here: https://about.sourcegraph.com/company/careers
 ```

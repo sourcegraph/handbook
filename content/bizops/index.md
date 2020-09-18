@@ -5,9 +5,14 @@ The Business Operations (BizOps) team is responsible for [translating business g
 - [Finance](#finance-and-reporting)
 - [Analytics](#analytics)
 
+## Roles
+
+See [roles](./roles/index.md) page.
+
 # Finance and reporting
 
 ## Sources of truth
+
 - [Financial statements](https://www.dropbox.com/home/Finance/Financial%20reports)
 - Metrics
 	- [Quarterly](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=774643452&range=A36) and [monthly](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=774643452&range=A120) IARR

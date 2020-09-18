@@ -6,4 +6,4 @@ _Updated 2020-09-09_
 - [Product Designer](product_designer.md) - closed to applications
 - [Technical Writer](technical_writer.md) - hiring +1, closed to new applications (reviewing current candidate pool)
 
-See [2021 Organizational plan](../../engineering/2021_org.md) for more details on areas of ownership.
+See our [careers page](../../../company/careers.md) for open positions and more info.

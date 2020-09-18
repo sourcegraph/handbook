@@ -58,3 +58,5 @@ Yes, we ask all candidates to complete our coding exercise. Our coding exercise 
 Even if it is obvious that the coding exercise is a formality for you (e.g., maybe you are a language author), we would still ask you to do it because we would want your feedback on the exercise so we can make it better for future candidates.
 
 Many of our teammates have made significant coding open-source contributions and they had no problems completing our coding exercise.
+
+Go back to the [careers page](../../../company/careers.md) for all open positions.

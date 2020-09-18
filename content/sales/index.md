@@ -19,6 +19,10 @@ The Sales team represents us and our values to customers, bringing back dollars 
 
 TODO
 
+## Roles
+
+See [roles](./roles/index.md) page.
+
 ## How sales works with other Sourcegraph teams
 
 ### [Customer engineering](../ce/support.md) (for customer support)

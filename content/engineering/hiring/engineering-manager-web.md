@@ -64,3 +64,5 @@ If we want to move forward after these sets of interviews, we will setup 30-minu
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
 **[Apply here.](https://jobs.lever.co/sourcegraph/13286143-746e-4381-8049-94cf9911c2ab)**
+
+Go back to the [careers page](../../../company/careers.md) for all open positions.

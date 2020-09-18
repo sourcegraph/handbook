@@ -7,7 +7,7 @@ The documentation for each interview should:
 1. Define what the interviewer should be trying to measure and what "good" looks like.
 2. Provide questions that the interviewer can ask to get a good signal on the things that they need to measure.
 
-[Here is a good example](../engineering/hiring/engineering-leadership.md).
+[Here is a good example](../../engineering/hiring/engineering-leadership.md).
 
 Interviewers are not required to linearly ask every single question in the interview documentation; it is not a script.
 
@@ -18,7 +18,7 @@ The best kind of interview is one where the candidate feels like it was an organ
 
 We would like to move as much information as possbile about our interviews to our public handbook, including the interview questions themselves. This will allow motivated candidates to prepare their best answers to our questions. This work will be done by, and at the discretion of, individual hiring managers for the processes that they own.
 
-- [Engineering hiring documentation](../engineering/hiring/index.md).
+- [Engineering hiring documentation](../../engineering/hiring/index.md).
 - [Private hiring documentation](https://github.com/sourcegraph/interviews).
 
 ## Interviewers
@@ -65,7 +65,6 @@ All positive feedback with no strongly positive feedback is usually not sufficie
 We conduct debriefs after a candidate finishes interviews. The debrief should be scheduled in advance and added to the calendar at the same time we invite the candidate to interviews. The recruiting coordinator will export all feedback as a PDF and share with each of the interviewers prior to the debrief.
 
 Should the hiring manager decide to not utilize the debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate's Lever profile stating the reason and/or context for the decision. This provides a sense of closure for those who interviewed the candidate.
-
 
 ### Canceling
 

@@ -57,3 +57,5 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
 **[Click here to apply](https://jobs.lever.co/sourcegraph/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22/apply)**
+
+Go back to the [careers page](../../../company/careers.md) for all open positions.
