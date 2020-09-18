@@ -44,8 +44,8 @@ Remember:
 
 ### Get to know the team
 
-- Schedule 1-1s with each person on the [Product team](../index.md#members)
-- Schedule 1-1s with each person on the engineering team you'll be working most closely with (ask Christina if you're not sure who this is)
+- Schedule individual meetings with each person on the [Product team](../index.md#members)
+- Schedule individual meetings with each person on the engineering team you'll be working most closely with (ask Christina if you're not sure who this is)
 - Get up to speed on what your team is working on
    - Team handbook page(s), to learn about the team and its internal processes
    - Sourcegraph user docs
