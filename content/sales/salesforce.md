@@ -26,6 +26,7 @@ Opportunities begin at the [interest](index.md#interest) stage.
 ### Lead Creation
 
 Leads are single individuals that have not been qualified yet, and therefore are not associated with an account or opportunity. Leads can be created in Salesforce in a few different ways:
+
 - Inbound Marketing Lead - automatically created via Hubspot when a user takes an action on our website
 - SDR Created - SDR either manually creates a new lead or uploads a list
 - Other Offline Sources - list uploaded from marketing event, webinar, etc.
@@ -35,6 +36,7 @@ Leads are single individuals that have not been qualified yet, and therefore are
 Every Lead should have a value in the Lead Source field. The Lead Source value is set automatically for inbound leads based on the origination of the lead. For other sources (like referrals), this value should be set by the SDR when creating the Lead.
 
 Lead Source values include:
+
 - Inbound - any inbound lead generated from a Contact Form, Demo Request, Trial Request, Sourcegraph.com Account Setup, Install, etc.
 - Referral - any lead that was referred by a partner, investor, customer, employee, etc.
 - SDR Created - any lead created by an SDR
@@ -46,7 +48,8 @@ Lead Source values include:
 
 First Touchpoint is a slightly more granular version of Lead Source and is set automatically in Hubspot.
 
-First Touchpoint values include: 
+First Touchpoint values include:
+
 - Private Instance - installs
 - Sourcegraph.com Account
 - Contact/Demo Form
@@ -63,6 +66,7 @@ First Touchpoint values include:
 Lead Status indicates the stage of a lead in the workflow process.
 
 Lead Status values include:
+
 - New
 - Working - SDR is actively engaging new lead
 - Nurture - lead has potential, but is not ready to be converted
@@ -82,12 +86,14 @@ SDR monitors new inbound Leads using a [Lead View](https://sourcegraph2020.light
 SDR scrubs the Lead to confirm / enrich contact info fields - Name, Company, Title, Email Address, Phone Number, etc.
 
 SDR dedupes the lead to look for recent activity, open/recently closed opportunities, etc. to determine eligibility to work based on the Rules of Engagement
+
 - If eligible to work, SDR should update Lead Status to “Working” and begin outreach
 - NOTE: we target <5 mins from new Lead Creation to First Touch during working hours, with a firm SLA of 24 hours for updating the Lead Status of any New Lead
 
 ### Inbound Lead-to-Opportunity Conversion Workflow
 
 If a Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
+
 - SDR confirms the receiving AE of the Opportunity using the [AE Round-Robin Tracker](https://docs.google.com/spreadsheets/d/1Uqx3GSLFzzAptrMaowVJLkViAdOQ3gimUL8PVBm8EkQ/edit#gid=0)
 - SDR schedules meeting with the Lead and the receiving AE
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new)
@@ -123,6 +129,7 @@ TBD
 ### HubSpot to Salesforce sync
 
 All HubSpot contacts are synced to Salesforce, usually within 15 minutes. The [complete settings are in HubSpot](https://app.hubspot.com/integrations-settings/2762526/installed/salesforce/contacts), but the most important of the synced fields are:
+
 - Basic contact info (name, email)
 - Their lead source based on First Page Seen
 - Most ZoomInfo enriched fields
