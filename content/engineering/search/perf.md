@@ -1,4 +1,48 @@
-[2020-09-17 Thu 13:00]
+# Search Scaling to 500k Repos
+
+This document is a living document which summarises the current state of this project as well as containing a work log.
+
+## Current Status
+
+Last Updated [2020-09-17 Fri 16:30]
+
+- `search-blitz` - We have continuous performance testing against production.
+- More detailed tracing. We now know the time taken to assign repos between
+  indexed and not indexed as well as time taken to marshal requests to
+  Zoekt. Assigning repos is the most significant.
+- Next: Call zoekt earlier. This will reduce time taken in assigning repos to
+  indexed as well as marshalling requests.
+
+## Work Log
+
+### [2020-09-17 Fri 16:00]
+
+Implemented tracing on zoektIndexedRepos and on our RPC layer. We ended up
+implementing what we think is a nice pattern
+([#13951](https://github.com/sourcegraph/sourcegraph/pull/13951)).
+
+Underlined in red is the instrumentation we added:
+
+![image](https://user-images.githubusercontent.com/187831/93611008-08890c80-f9ce-11ea-8613-a8802725acd8.png)
+
+Breaking down the above example which searches over 100k repos:
+- `resolveRepositories` fetches the list of repos to search from the database and resolves them against branch queries. In this example Sourcegraph.com copies an in memory cache of the list, and then creates the RepositoryRevision list. This takes 40ms.
+- `newIndexedSearchRequest` is the most significant chunk of
+time. It took 115ms. This decides which repos can go to zoekt vs
+searcher.
+- `zoekt.Search` indicates the RPC layer takes 40ms. We added logging to confirm 21ms is spent marshalling. Noticing when zoekt actually starts searching, there is another 20ms to unmarshal. This large cost is due to sending a list of all repos to search.
+- `shardedSearcher` is the actual search logic on zoekt. It only took 31ms (but is sharded out over 12 nodes).
+
+The approach we are starting on Monday is for global searches. We will call
+`zoekt.Search` without the large list and before we call
+`resolveRepositories`. Then we filter the response against
+`resolveRepositories`. This should remove most of the work in
+`newIndexedSearchRequest` as well as all the work in marshalling/unmarshalling a request in
+the RPC layer.
+
+In the example above this effectively shaves off 150ms of a 350ms search request. This doesn't sound like a lot. However, this number scales linearly with the number of repositories. Additionally we have seen it fluctuate a lot.
+
+### [2020-09-17 Thu 13:00]
 
 Focus:
 
@@ -11,12 +55,12 @@ Why just global search? It provides validations for our idea without requiring c
 
 Why just literal? Focus. We can optimize regular expression search in Zoekt, or restructure how structural search works. But those just improve those specific use cases. While focussing on literal allows us to target the common slowness in all cases.
 
-### Next week
+#### Next week
 
 - [ ] trace zoektIndexedRepos
 - [ ] call zoekt earlier. See below for what this means.
 
-### Progress updates
+#### Progress updates
 
 - search-blitz is out
 - weird spikes in p99 graphs. Ends up being how histograms are created with
@@ -24,7 +68,7 @@ Why just literal? Focus. We can optimize regular expression search in Zoekt, or 
 - drilling down on a specific query, we have wildly varying search times. We
   want to add Jaeger tracing to all search-blitz requests to help debug this.
 
-### Observations
+#### Observations
 
 Slow parts in searching a large amount of repos:
 
@@ -35,12 +79,12 @@ Slow parts in searching a large amount of repos:
 - lots of time spent between zoekt finding results, and zoekt.Search reporting
   it is done receiving them. Even with small file match count.
 
-#### graphql.resolveRepositories
+##### graphql.resolveRepositories
 
 We intend to keep this on the critical path. Sourcegraph.com has an
 optimization for it. We need to make it fast for other large instances.
 
-#### zoektIndexedRepos
+##### zoektIndexedRepos
 
 We want to remove this from the critical path. Instead we want to trigger
 zoekt early on, and filter the results we get back from zoekt (based on the
@@ -58,13 +102,13 @@ the query to Zoekt without RepoBranches filters but a `branch:HEAD`
 filter. Global search queries are queries without repo filters and not in a
 version context.
 
-### Brainstorming
+#### Brainstorming
 
 - treat public vs private repos differently
 - instrumentation in the RPC layer
 - don't send zoekt the repos. do auth filtering on response.
 
-[2020-09-09 Wed 11:30]
+## [2020-09-09 Wed 11:30]
 
 The queries below sound good. We will investigate the data and create groups for each kind of query. Then we will regularly run the queries and record response times. Those response times will guide our work and show improvements.
 
@@ -80,7 +124,7 @@ Next:
 
 - Infrastructure/tools which allow us to easily experiment with zoekt and measure performance (a canary like system which also receives production traffic). We want this as early as possible since it will be so useful to experiments we try (there are lots of ideas we could tackle).
 
-[2020-09-09 Wed 09:24]
+## [2020-09-09 Wed 09:24]
 
 First thing to accomplish is establishing a baseline of performance we want to monitor and improve. I think picking a small number of queries which we regularly run against sourcegraph.com and record the time it takes. We want to measure things that are important, here is a list of ideas to seed the discussion.
 
