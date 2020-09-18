@@ -147,14 +147,6 @@ Note that this is a stage we may add in the future to indicate we are almost at 
 
 Deal signed!
 
-## Segmentation
-
-Different customers and deals have different needs from our sales team. We segment customers and deals based on their actual or projected ARR:
-
-- **Tier 1** = $100k+ ARR
-- **Tier 2** = $42k+ ARR
-- **Tier 3** = $22k+ ARR
-
 ### Maintaining customer spreadsheets
 
 Maintaining [Server Installers to Company List](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit?usp=sharing) and [Server to Company List](https://docs.google.com/spreadsheets/d/1wo_KQIcGrNGCWYKa6iHJ7MImJ_aI7GN12E-T21Es8TU/edit?usp=sharing) spreadsheets for every new company on a trial and new customers.
