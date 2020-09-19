@@ -75,6 +75,11 @@ Remember:
    - [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)
    - Twitter
    - Slack #feedback channel
+   
+### Know our tools
+- Figma
+  - Watch [Figma for Sourcegraphers](https://drive.google.com/file/d/1zzUKDJN5XUwvKF8LfKZqQb7gK9NpK1Wx/view?usp=sharing) to learn how we use the application
+  - Read [Figma developers guide](https://www.smashingmagazine.com/2020/09/figma-developers-guide/)
 
 ### Understand company and team goals
 
