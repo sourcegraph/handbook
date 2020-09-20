@@ -1,9 +1,21 @@
 # Product team goals
 
-_Updated 2020-09-11_
+_Updated 2020-09-18_
 
 ## Longer term
 
+### Improve documentation
+
+- **Owner:** Product team (Technical Writer + Design)
+- **Timeline:** ~6-12 months
+- **Status:** In progress.
+- **Outcomes:**
+
+  - Migrate to new content management system
+  - Reorganize documentation to increase readability and improve navigation
+  - Establish new documentation workflow, guidelines, and templates
+  - Audit existing documentation to repurpose, update, and archive (where needed)
+  
 ### Increase user retention
 
 - **Owner:** Product team (PMs + Design)
