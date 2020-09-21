@@ -26,21 +26,13 @@ We'll measure adoption using a combination of the following metrics (WIP):
 
 First, we need to get solid measurements of all of these numbers. Then we will set quantitative targets.
 
-### Grow pipeline
+### Grow revenue
 
 Owner: @sqs
 
-Our pipeline is the list of organizations that we think will pay for Sourcegraph in the future (see [sales stages](../sales/index.md#stages)). This is a way to predict our future revenue. Revenue, like user adoption, is a leading indicator of progress toward our mission, and pipeline is a leading indicator of revenue.
+Revenue, like user adoption, is a leading indicator of progress toward our mission. Revenue earned from a customer is evidence that we're solving a big problem, and it helps us hire more great people so we can solve similar problems for more customers.
 
-We'll measure goal success using 2 pipeline coverage ratios (which show how much pipeline we have relative to the amount of revenue we'd like to book in a period):
-
-- New customer pipeline coverage
-- Expansion pipeline coverage
-
-We have plans for these figures already, and we'll revisit the quantitative targets when we have Sales and Customer Success leadership in place starting in early Aug 2020.
-
-> Why choose pipeline, not revenue, as the goal? Revenue is a lagging indicator. Something you do today (such as shipping a new feature or making new people aware of Sourcegraph) can show up in pipeline within hours or days if it generates interest from a prospect, but it may take weeks or months to turn into a signed deal and actual revenue. As long as our sales team is rigorous about measuring pipeline, everyone else can rely on the pipeline abstraction for their own goal-setting.
-
+> Revenue is a lagging indicator. Something you do today might not yield a dollar of revenue for many months. We could set a top company goal around pipeline, which is a model of future revenue sources that would theoretically give us faster feedback. But we want our top company goals to be well-defined indicators of success, so pipeline (as a model/abstraction that depends on various assumptions) isn't appropriate. Our sales team still does track pipeline, and we'll experiment with using it to recognize other teams' impact (such as an engineer shipping a feature that helps several prospects have successful Sourcegraph roll-outs).
 
 ## Responsibilities
 
