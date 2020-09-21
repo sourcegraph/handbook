@@ -97,6 +97,12 @@ This deployment is also colloquially referred to as "dogfood", "dogfood-k8s", or
 
 Updates from `deploy-sourcegraph` are performed upon [notification from upstream](#deploy-sourcegraph) by the ["Update from deploy-sourcegraph"](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2/actions?query=workflow%3A%22Update+from+deploy-sourcegraph%22) workflow.
 
+### Users in k8s.sgdev.org
+
+To create an account on [k8s.sgdev.org](https://k8s.sgdev.org), log in with your Sourcegraph Google account via OpenID Connect.
+
+To promote a user to site admin (required to make configuration changes), use the admin user credentials available in 1password (titled `k8s.sgdev.org admin user`) to log in to [k8s.sgdev.org](https://k8s.sgdev.org), and go to the [users page](https://k8s.sgdev.org/site-admin/users) to promote the desired user.
+
 ## sourcegraph.sgdev.org
 
 [![Build status](https://badge.buildkite.com/aea3b210380714ff4e0c5429beae87bb318e7fd53603acdecf.svg)](https://buildkite.com/sourcegraph/infrastructure)
