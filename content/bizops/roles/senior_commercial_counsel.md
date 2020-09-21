@@ -28,7 +28,7 @@ We are looking for the first hire on the Legal team. You will be responsible for
 
 - An excitement for software development and [our mission to make it so that everyone can code](https://about.sourcegraph.com/company/strategy) (no training as an Engineer required).
 - Minimum of 5 years of contracts drafting, reviewing, and negotiating experience at a startup software company or in service to startup software companies at a law firm.
-- JD required.
+- JD from a law school in the United States required.
 - Expertise or experience in a wide variety of contracts, covering software licensing and services, data processing, non-disclosure, employment, consulting, partnership and marketing, and more.
 - Enthusiasm for building a new team from scratch, and working on challenging open-ended problems.
 
