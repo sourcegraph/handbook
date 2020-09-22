@@ -131,11 +131,20 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](../../../company/team.md#mar%c3%ada-craig-she-her) ([Product Manager](../../product/roles/product_manager.md))
-- [Aida DeWitt](../../../company/team/index.md#aida-dewitt-she-her) ([Engineering Manager](../roles.md#engineering-manager))
+- [María Craig](../../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../product/roles/product_manager.md))
+- We are hiring an [Engineering Manager for this team](../hiring/engineering-manager-code-intelligence.md).
   - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
   - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
   - [Noah Santschi-Cooney](../../../company/team/index.md#noah-santschi-cooney-he-him)
+
+Temporary responsibilities while we search for an engineering manager:
+
+- María
+  - Send [weekly update](../leadership/index.md#weekly-updates)
+  - Run retrospectives
+  - Drive milestone planning (invite Nick to help facilitate)
+- Eric
+  - Organize and run code intel team meetings
 
 ## Ownership
 
@@ -166,10 +175,8 @@ Our team is growing and to help our new teammates have the best onboarding exper
 - [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+ObservableOwnerCodeIntel%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+ObservableOwnerCodeIntel%29+count:1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/d0c10593-3edd-4d7e-8d1b-2ad29afeaa71)
 
-## Hiring status
+## Growth plan
 
-_Updated 2020-08-01_
+_Updated 2020-09-21_
 
-We are hiring for these roles:
-
-- +1 [Software Engineer - Code intelligence](https://about.sourcegraph.com/handbook/engineering/hiring/software-engineer-code-intelligence)
+We are hiring an [Engineering Manager](../hiring/engineering-manager-code-intelligence.md) to lead and grow this team.
