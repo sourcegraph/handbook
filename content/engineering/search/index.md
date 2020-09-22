@@ -95,7 +95,9 @@ _Updated 2020-09-11_
           - **Plan:** Search onboarding tour
           - **Owner:** Farhan
           - **Status:** In progress
-          - **Estimated completion**: 3.20
+          - **Estimated completion**:
+              - ~~3.20~~ 2020-09-22 update: not all bugs found during the initial round of user testing were fixed in 3.20
+              - 3.21
       - It is hard for users to quickly get to code they care about.
           - **Plan:** Enterprise homepage
           - **Owner:** Farhan, Juliana
