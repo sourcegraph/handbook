@@ -51,6 +51,7 @@ Remember:
    - Sourcegraph user docs
    - Team sync docs - review recent meeting notes for context
    - Current tracking issue(s)
+   - Join the Engineering Manager weekly updates [Google Group](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status) ([handbook description](../../engineering/leadership.md#weekly-updates)).
 
 ### Set up the basics
 
