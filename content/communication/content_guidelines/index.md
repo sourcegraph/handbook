@@ -8,7 +8,7 @@ The goal of these content guidelines is to help us to:
 
 ## Effectiveness over correctness
 
-These content guidelines aren't about "correct" and "incorrect" writing. It is about effective writing for our target users. Of course, effectiveness involves correctness to some degree, but only correctness as judged by the audience, not as judged by an appeal to authority.
+These content guidelines aren't about "correct" and "incorrect" writing. They are about effective writing for our target users. Of course, effectiveness involves correctness to some degree, but only correctness as judged by the audience, not as judged by an appeal to authority.
 
 The examples included in these guidelines are for comparison's sake, not for exactness.
 
