@@ -13,14 +13,14 @@ This is a large ownership area, so the team creates a focused plan each iteratio
 
 ### Long term
 
-***Deliver the full, unique value of [extensions](https://docs.sourcegraph.com/extensions) to our users.***
+**_Deliver the full, unique value of [extensions](https://docs.sourcegraph.com/extensions) to our users._**
 
 **Outcome**: Our webapp, browser extensions and native integrations are great platforms to provide our users unique value through extensions. These platforms are well-maintained, consistent, easy to setup, well-documented, well-tested, performant, and show their power through convincing extensions built on top of them. The extensions platform and API provide powerful capabilities to extension developers and a great developer experience.
 
 ### Medium term
 
 To reach our long-term goal, we set the following medium-term goals to guide our short-term iteration plans.
-We will tackle these medium-term goals in order, though expect to have some work done in parallel as we progress. 
+We will tackle these medium-term goals in order, though expect to have some work done in parallel as we progress.
 
 1. **Make the products that extensions are build on (web app, code host integrations) more consistent and improve discoverability.**
    Our web app has accumulated a lot of design debt over time, which negatively impacts how we can use it as a vehicle to deliver extensions.
@@ -30,7 +30,7 @@ We will tackle these medium-term goals in order, though expect to have some work
    Our extension platform includes the workflow around creating, installing and using extensions, the API exposed to developers and its documentation.
    To grow adoption of extensions, these need to be solid, but they are currently lacking on multiple dimensions.
    Some API areas like code insights are still in prototype phase and are still undocumented (this blends into goal (3)).
-   Our extension host is also currently implemented in a way that makes it difficult for us to maintain, evolve to enable more use cases and to  onboard new teammates into this area of the codebase.
+   Our extension host is also currently implemented in a way that makes it difficult for us to maintain, evolve to enable more use cases and to onboard new teammates into this area of the codebase.
    Combining this with writing a few smaller extensions (part of goal (3)) allows us to dogfood the experience and inform us where the platform is lacking.
 3. **Build out compelling use cases with the extensions platform.**
    This includes writing more extensions ourselves, but also extending the extension API with more capabilities to enable more use cases.
@@ -64,6 +64,7 @@ Every day, Slackbot will post a reminder in the #web to write your daily update.
 **At the end of each working day**, you should post your update as a threaded response to the Slackbot message.
 
 You should include in your update:
+
 - What you worked on during your day.
 - Whether you're blocked on anything to make progress (a code review, input in an RFC or in a GitHub issue...).
 - What you plan on tackling next.
@@ -79,11 +80,13 @@ Every Friday, Slackbot will post a reminder in #web to write your weekly progres
 ### Retrospectives
 
 After the 20th of each month, we hold a retrospective, to reflect on the past iteration. We use this retrospective to:
+
 - Understand whether we accomplished the goals we set at the beginning of the iteration. If we didn't accomplish them, reflect on the reasons why.
 - Discuss things that didn't go well in the iteration, and identify action items to improve on these in the next iteration.
 - Discuss things that went well in the past iteration, and that we should do more of / invest more into.
 
 At the beginning of each iteration, the engineering manager will:
+
 - Schedule the retrospective meeting
 - Set up a Slack reminder three days before the retrospective meeting, asking teammates to write their discussion topics in the retrospective document
 
@@ -104,7 +107,7 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 ## Members
 
 - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/product_manager.md)) is focused on code insights, [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is supporting.
-- We are hiring an [Engineering Manager for this team](../hiring/engineering-manager-web.md). In the meantime, [Felix Becker](../../../company/team/index.md#felix-becker) will run team syncs, goal setting, iteration planning, retrospectives and team status updates.
+- [J.P.](../../../company/team/index.md#todo) ([Engineering Manager](../roles.md#engineering-manager)) starting 2020-10-02. In the meantime, Felix will run team syncs, goal setting, iteration planning, retrospectives and team status updates.
   - [Felix Becker](../../../company/team/index.md#felix-becker)
   - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
   - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
@@ -114,7 +117,7 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 We are growing the web team by hiring [frontend engineers](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md). When this team gets big enough, we expect to split it into two teams with the following ownership areas:
 
 - Web infrastructure
-    - The **Sourcegraph web application and codebase** is clean, cohesive, stable and performant. It's easy for all teammates to onboard and contribute to the web application.
+  - The **Sourcegraph web application and codebase** is clean, cohesive, stable and performant. It's easy for all teammates to onboard and contribute to the web application.
 - Extensions and integrations
-    - **Sourcegraph extensions** empower users to integrate Sourcegraph with any third-party service providing useful information about code (code coverage, exception tracking, tracing, code quality). They are consistently supported across all code host integrations and the Sourcegraph UI. Through extensions, Sourcegraph surfaces high-level [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
-    - The **browser extension** and code host **native integrations** are a breeze to set up, and add compelling value when reading or reviewing code. Enabling native code host integrations for all users is a no-brainer for site admins.
+  - **Sourcegraph extensions** empower users to integrate Sourcegraph with any third-party service providing useful information about code (code coverage, exception tracking, tracing, code quality). They are consistently supported across all code host integrations and the Sourcegraph UI. Through extensions, Sourcegraph surfaces high-level [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
+  - The **browser extension** and code host **native integrations** are a breeze to set up, and add compelling value when reading or reviewing code. Enabling native code host integrations for all users is a no-brainer for site admins.
