@@ -375,7 +375,7 @@ When writing about a time of the day, use numerals and lowercase am or pm, with 
 </div>
 </div>
 
-Use an en dash (`–`) between times to indicate a time period. Don’t insert spaces before and after the en dash.
+Use an en dash (–) between times to indicate a time period. Don’t insert spaces before and after the en dash.
 
 <div class="usage">
 <div class="item yes">
@@ -459,7 +459,7 @@ Prefer the Oxford or serial comma when writing a list.
 
 ### Dashes and hyphens
 
-Use a hyphen (`-`) without spaces before and after to link words into a single phrase.
+Use a hyphen (-) without spaces before and after to link words into a single phrase.
 
 <div class="usage">
 <div class="item yes">
@@ -470,7 +470,7 @@ Use a hyphen (`-`) without spaces before and after to link words into a single p
 </div>
 </div>
 
-Use an en dash (`–`) to indicate a [range or span](#ranges-and-spans), without spaces.
+Use an en dash (–) to indicate a [range or span](#ranges-and-spans), without spaces.
 
 <div class="usage">
 <div class="item yes">
@@ -481,7 +481,7 @@ Use an en dash (`–`) to indicate a [range or span](#ranges-and-spans), without
 </div>
 </div>
 
-Use an em (`—`) dash without spaces to separate clauses in paragraph copy.
+Use an em (—) dash without spaces to separate clauses in paragraph copy.
 
 <div class="usage">
 <div class="item yes">
