@@ -72,7 +72,7 @@ Latinisms (_e.g., i.e., v., etc., via_) are not used in simplified English. Say 
   -   Footnotes go outside, because they're not part of the sentence.
 
     _Note Bene_: if Sourcegraph ever chooses to localize outside of American English, these rules all change.
-- Punctuation goes outside of links ("Hello, [world](#dummy)." not "Hello, [world.](#dummy)").
+- Punctuation goes outside of links ("Hello, [world](#_)." not "Hello, [world.](#_)").
 - Use the most popular US English spelling and phrasing.
 - Prefer the serial comma in lists, except where ambiguity would be introduced by including it.
 
@@ -256,7 +256,7 @@ Use shorthand suffixes for shortening numbers in the thousands ("k"), millions (
 |saved searches |   |Saved searches describe complete searches that are used without needing to add more filters or expressions.   |
 |search expression   |   |Search expression describes a valid piece of a search that can be suggested and combined with other expressions to drill down on results.|
 |search scope  | version context  |Used to describe drilling down in a pre-configured scope of repositories across the entire Sourcegraph instance (this persists for navigation and usage outside of the query bar search).  |
-|set up (v)/setup (n)   |   |Setup is a noun, set up is a verb ([see notaverb.com/setup](http://notaverb.com/setup), although see [note on descriptivism](#effectiveness-over-correctness))   |
+|set up (v)/setup (n)   |   |Setup is a noun, set up is a verb ([see notaverb.com/setup](http://notaverb.com/setup), although see [note on descriptivism](#_))   |
 |sign in   |log in   |[Because it's a better UX choice](https://ux.stackexchange.com/questions/1080/using-sign-in-vs-using-log-in). |
 |Sourcegraph   |"sourcegraph", "SourceGraph", or "sg"   |   |
 |**T**   |   |   |

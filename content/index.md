@@ -16,7 +16,7 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Careers](../company/careers.md)
 - [CEO](ceo/index.md)
 - [Communication](communication/index.md)
-  - [Style guide](communication/style_guide.md)
+  - [Content guidelines](communication/content_guidelines.md)
 
 ## Teams at Sourcegraph
 
