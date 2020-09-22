@@ -13,7 +13,7 @@ These places are the source of truth for information at Sourcegraph. Information
   - [Sourcegraph handbook](../index.md)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
 - [Decisions](decisions.md)
-- [Project roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit#)
+- [Roadmap](../product/roadmap.md)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [productboard](https://sourcegraph.productboard.com/)
 - [HubSpot](https://app.hubspot.com) (only contacts, not companies and deals)

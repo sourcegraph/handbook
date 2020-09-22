@@ -22,9 +22,10 @@ The product team is newly growing, and consists of all product managers and prod
 
 See [Roles](roles/index.md) for open positions and hiring targets.
 
-## [Goals](goals.md)
+## Planning
 
-See [Goals](goals.md)
+- [Product team goals](goals.md)
+- [Roadmap](roadmap.md)
 
 ## Resources
 
