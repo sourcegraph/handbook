@@ -97,13 +97,32 @@ watch -n1 kubectl get all -n prod -l app=gitserver -o wide
 ```
 
 ### 4. Verify service is restored
+
 Open the alert UI to click on the check URL that was failing and verify it's now working again.
+
+## Restarting pods
+
+This action is also referred to as "bouncing pods" or to "bounce a pod". Follow the steps to [authenticate kubectl](../../deployments.md) and perform a restart using kubectl to restart the desired deployment:
+
+```sh
+kubectl rollout restart deployment/$SERVICE
+```
+
+Note the use of `deployment/` - you cannot restart services (`svc/`). Note that [stateful sets have a different process](#making-updates-to-stateful-sets).
+
+You can also bounce pods by manually finding them via `kubectl get pods` and `kubectl delete pod $POD_ID`. Once a pod is deleted, it will automatically be recreated.
 
 ## Useful dashboards
 
+### Metrics
+
+Dashboards for Prometheus metrics are available at `/-/debug/grafana` (for example, [sourcegraph.com/-/debug/grafana](https://sourcegraph.com/-/debug/grafana)).
+
+### Tracing
+
 Check out the [kubectl cheatsheet](../../deployments.md#kubectl-cheatsheet) for how to get access to Jaeger locally.
 
-## Access pod logs in GCP console
+### Prod logs
 
 1. Go to **Kubernetes Engine > Workloads**, then search and click on the pod you're interested, e.g. `sourcegraph-frontend`.
 2. In the **Deployment details** page, there is a row called **Logs**, which has both **Container logs** and **Audit logs**.
