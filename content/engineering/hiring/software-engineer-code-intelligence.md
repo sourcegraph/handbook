@@ -29,6 +29,8 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 ## Interview process
 
+**We have temporarily paused processing applications for this role as we [hire for other roles on this team](../code-intelligence/index.md#growth-plan).**
+
 1. You [apply here](https://jobs.lever.co/sourcegraph/91ee5178-6daf-4a84-be02-048cd8aa2aa0/apply).
 1. We set up a 30-minute call to learn more about what you are looking for, tell you about Sourcegraph, and answer any questions that you have.
 1. You complete a 2-hour coding exercise in either [TypeScript](software-engineer-coding-exercise.md#typescript-coding-exercise), or [Go](software-engineer-coding-exercise.md#go-coding-exercise). Click those links to learn more about the exercises.

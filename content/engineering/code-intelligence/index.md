@@ -177,6 +177,8 @@ Temporary responsibilities while we search for an engineering manager:
 
 ## Growth plan
 
-_Updated 2020-09-21_
+_Updated 2020-09-22_
 
 We are hiring an [Engineering Manager](../hiring/engineering-manager-code-intelligence.md) to lead and grow this team.
+
+We are also interested to hire an engineer who is capable of working on our web application as well as our backend systems. Apply here: [Software Engineer - Full Stack](https://about.sourcegraph.com/handbook/engineering/hiring/software-engineer-full-stack)
