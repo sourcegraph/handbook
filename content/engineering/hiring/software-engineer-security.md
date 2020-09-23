@@ -33,13 +33,11 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
          - Any engineer mentioned in this document.
    - 1h **Technical experience:** We ask you about your past work and accomplishments.
       - Will interview with 2 of the following:
-          - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst)
-          - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
           - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
           - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
           - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
+          - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
           - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
-          - [Elizabeth Stirling](../../../company/team/index.md#elizabeth-stirling-she-her)
    - 1h **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
       - Will interview with 2 of the following:
          - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
