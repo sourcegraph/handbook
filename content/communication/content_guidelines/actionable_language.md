@@ -212,13 +212,15 @@ Buttons can also be an opportunity to use microcopy to create a more positive ex
 <li>I tried, I’m stuck, I need help</li>
 </ul>
 
-Instead of
+Instead of <sup>*</sup>
 
 <ul>
 <li>Get help</li>
 </ul>
 </div>
 </div>
+
+<sup>*</sup> This isn't a yes/no example, because `Get help` is a perfectly sensible button label. If every button label tried to be clever, it would get tedious fast.
 
 **Further reading:**
 
