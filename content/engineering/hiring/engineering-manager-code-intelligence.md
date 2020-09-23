@@ -6,7 +6,7 @@ We are looking for an engineering manager to lead our team that is building the 
 
 - You know how to authentically inspire, challenge, and grow individuals and teams.
 - You are motivated to work on ambitious long term goals to solve complex technical challenges.
-- You are [high agency](https://twitter.com/shreyas/status/1276956836856393728).
+- You are [high agency](https://www.linkedin.com/pulse/high-agency-its-importance-how-cultivate-shreyas-doshi/).
 
 ## Your responsibilities
 
