@@ -59,7 +59,8 @@ The short-term goal and primary focus of the team is to *deliver campaigns to al
    - Hypothesis: majority will create at least one new campaign with the new workflow
    - Hypothesis: majority will send us feedback about Campaigns
 
-[WIP longer term goals (internal only)](https://docs.google.com/document/d/1ADmpfJuVhprHl8Eimuj4fMiVr1kCRVLZpt98HLr9618/edit)
+- [Looker dashboard with usage metrics (internal only)](https://sourcegraph.looker.com/dashboards/136)
+- [WIP longer term goals (internal only)](https://docs.google.com/document/d/1ADmpfJuVhprHl8Eimuj4fMiVr1kCRVLZpt98HLr9618/edit)
 
 ## Analogies
 
