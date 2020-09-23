@@ -4,9 +4,50 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Goals
 
-Customers know they can confidently and securely use Sourcegraph with their private code.
+### Long term
 
-[This (internal) document](https://docs.google.com/document/d/1HhYfnkC17yCPqqw91H1QAF7q8toOOiNtoOOw06hqrNQ/) details our plan.
+Every organization is confident they can trust Sourcegraph cloud to securely store and manage their source code.
+
+### Medium term
+
+The goals below lie on the path to our long-term goals, and represent the next 3-6 months of work.  These goals will be delivered serially, but may be worked on in parallel.
+
+**We host our private [infrastructure repository](http://github.com/sourcegraph/infrastructure) on Sourcegraph cloud**
+
+  - Problem and rationale: While Sourcegraph cloud is in a good, and improving security state, we currently do not have the right level of visibility. By starting with a private repository that contains no secrets, we can build and deploy the visibility technologies and processes that allow us to build a holistic view of the environment.  This serves as a proxy for small company repository use.
+  - Planned work:
+    - *[security issue 8](https://github.com/sourcegraph/security-issues/issues/8)*
+    - *Run ongoing vulnerability scans of the containers, and remediate at least one vulnerability* - Currently we have no way to understand our exposures, measure their impact, and prioritize, using data. With the product focus on docker based deployments, scanning dockers allows us to quantify numbers of vulnerabilities, and rank fixing them based on metrics such as CVSS score. This in turn allows for a risk-based approach to fixing vulnerabilities.
+    - *Deploy centralized security logging* - Logging for security and logging for development are different. Rather than focus on stack trace, security focuses on having logs from a variety of different applications, and security controls in order to support investigations and alerting. By collecting logs in one place, we can then begin to analyze them for events of interest.
+    - *Ship container logs to the logging destination* - Enabling docker logs, allows the team to validate that centralized logging is properly configured, and at the same time makes it possible to start searching for events of interest. In gathering logs from application containers, we would now have visibility into possible container misconfigurations, and differences between containers, that provide different attack surfaces.
+  - Definition of success: Frequent container vulnerability scans are being run, and stored for a future audit. Fixes to the containers or their underlying service configurations have made it into the product release cycle.  Logs of new container deployments are available for search in a centralized logging tool.
+
+**We host a private repository containing encrypted secrets**
+
+  - Problem and rationale: Customers repositories can contain encrypted secrets, such as an [ansible vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html) or GPG encrypted files. Trusting these repositories to external systems requires the added degree of care and concern, expected in security conscious small and medium enterprise (SME). To support those needs, not only is enhanced visibility into our own systems required on our side, it will be contractually obligated, or at a minimum part of security questionnaires.
+  - Planned work:
+    - *Run ongoing vulnerability scans of underlying workloads including vulnerability remediation* - In addition to not having visibility into our attack surface for containers, we have the same issue with regards to hosts. This extends our infrastructure visibility to the host level. By scanning workloads running dockers, we can catch and address misconfigurations, and unpatched vulnerabilities. 
+    - *Centralize cloud and workload logs in a single location* - Gathering workload and cloud (i.e GCE) logs extends visibility from the container level, out towards the cloud layer. This enhances our ability to triage events, and provides visibility into our most public facing attack vectors.
+    - *Deploy host-based intrusion detection (HIDS)* - HIDS provides alerting for various host-based attacks. Given  our current deployment model it helps provide visibility for both actors internal to Sourcegraph, and actors inside the network. This is an extension of visibility to now include operations occurring within the Sourcegraph network itself.
+    - *Normalize security and application logs* - Gathering logs of different types, into a single place makes it easy to search them, but makes it difficult to correlate them. Through normalizing the different log types, we begin to make log data relevant to both humans and machines. This is a precursor for automating alerts for events of interest.
+    - *Add support for audit and access logging* - By gathering and auditing access logs, we gather visibility into both intentional and unintentional logins. This is both useful from a security visibility point of view, as a requirement for various auditing frameworks (though not currently a target).
+    - *Create dashboards and alerts for events of interest* - With data gathered in one place, we want to action the outcomes. Creating alerts and dashboards starts to automate the process of investigating events of interest - or literally searching for the needles in the haystack.
+  - Definition of success: We deploy a private repository containing encrypted secrets to Sourcegraph cloud, complete with a baseline for security monitoring. We are able to validate access to underlying hosts and the application in centralized logging.
+
+**Host a capture the flag for Sourcegraph.com**
+
+  - Problem and rationale: Running a world class service capable of hosting private repositories is about more than application security. As examples, we need visibility into data loss, documentation for processes such as incident response, in addition to expanded defensive measures for both internal and external threat actors. These proxy for enhanced security concerns that a medium enterprise would require. This should be an ongoing, and escalating event, where we increase security controls and visibility whilst engaging on an ongoing capture the flag.
+  - Planned work:
+    - *Enhance policy documentation, and specific procedures such as incident response* - By its very nature, running a capture the flag generates ongoing events of interest, investigations, and incidents. Supporting this procedure both helps new hires get acclimated, and ensures the team is on the same page.
+    - *Deploy network visibility tools and integrate into our logging infrastructure* - A key part of attacking involves pivoting between hosts and service escalation. Through extending our visibility outbound, to the network layer, we would now have visibility into these attacks, and be able to analyze them. This include provides dashboards for network events of interest.
+    - *Conduct a mock capture the flag to tune security controls* - Given all of the logging, prior to announcing this event, we will test internally. This allows us to take the time to filter out various false positives from our logging, in addition to increasing or decreasing the verbosity of various logs, with the aim of increasing the value of security logging.
+    - *Encrypt stored data at rest* - possible future, TBD
+    - *Create data leakage alerts* - possible future, TBD
+  - Definition of success: We publicly commit to, and host an ongoing capture the flag, inviting the security community to participate, as we learn about our security measures. This will include both the repository from the previous goal, as well as a plain-text on-disk file containing the keys to unlock the repository.
+
+### Short term
+
+Our short term goals are documented in the current [tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+label%3Atracking+label%3Ateam%2Fsecurity+is%3Aopen).
 
 ## Contact
 
@@ -89,7 +130,7 @@ On the security team, we work by planning, tracking, and reviewing - creating a 
    
 ### Learning
 
-After the each release, we hold a [retrospective](https://about.sourcegraph.com/retrospectives). We try to understand the degree to which we achieved the goals we communicaed at the beginning of the iteration.  We idenitfy what went well and what our opportunities for imporvement.  We actively choose one of the things we've learned, and target its improvement.
+After the each iteration, we hold a [retrospective](https://about.sourcegraph.com/retrospectives). We try to understand the degree to which we achieved the goals we communicated at the beginning.  We identify what went well and what our opportunities for improvement are, then actively choose one of the things we've learned to integrate into our team's ethos.
 
 ## Members
 
