@@ -1,5 +1,9 @@
 # Cloud team
 
+![Logo](logo.jpg)
+
+While you could think this is an angry cloud, it's actually a fierce and determined one 😃.
+
 The cloud team owns all work that is necessary to build, secure, scale, and operate our multi-tenant hosted version of Sourcegraph for customers that do not want to deploy Sourcegraph on-premise.
 
 The cloud team is also responsible for all [backend-infrastructure areas of ownership](../backend-infrastructure/index.md). A lot of the work for Sourcegraph Cloud is in direct support of scaling and performance of backend-infrastructure. Work will be balanced as needed to support both efforts.
@@ -10,7 +14,6 @@ The cloud team is also responsible for all [backend-infrastructure areas of owne
 - Repository management (gitserver, repo-updater, src-expose)
 - Data storage and access libraries
 - GraphQL API
-- src-cli
 - License generation and enforcement
 - Admin and user settings
 - Analytics
@@ -32,30 +35,30 @@ The cloud team is also responsible for all [backend-infrastructure areas of owne
 #### Milestones
 
 1. The Sourcegraph organization and team members can add public code from GitHub.com, GitLab.com, and Bitbucket Cloud.
-    - Code is indexed.
-    - It's possible to search over only their code (vs all public code).
+   - Code is indexed.
+   - It's possible to search over only their code (vs all public code).
 1. Any user can add public code from GitHub.com, GitLab.com, and Bitbucket Cloud.
-    - Connecting their first code host and adding their own public repos is intuitive and easy for new users.
-    - Connecting with code hosts and and adding public repos is intuitive and easy for current users.
-    - System activity and progress is easy to understand and doesn’t take too long.
-        - Repo syncing
-        - Repo indexing
-    - Searching their own versus searching all Cloud code is intuitive.
+   - Connecting their first code host and adding their own public repos is intuitive and easy for new users.
+   - Connecting with code hosts and and adding public repos is intuitive and easy for current users.
+   - System activity and progress is easy to understand and doesn’t take too long.
+     - Repo syncing
+     - Repo indexing
+   - Searching their own versus searching all Cloud code is intuitive.
 1. The Sourcegraph organization and team members can add private code to Sourcegraph Cloud.
-    - No plaintext tokens or secrets anywhere (including gitserver .git/config remotes).
-    - All private repository content are only decryptable by Sourcegraph services.
-        - Gitserver.
-        - Searcher and code intel caches.
-        - Any other service that needs access to repository contents needs to be able to decrypt what it needs on the fly.
+   - No plaintext tokens or secrets anywhere (including gitserver .git/config remotes).
+   - All private repository content are only decryptable by Sourcegraph services.
+     - Gitserver.
+     - Searcher and code intel caches.
+     - Any other service that needs access to repository contents needs to be able to decrypt what it needs on the fly.
 1. Any user or organization can add private code to Sourcegraph Cloud for free before it's GA.
-    - Authorization from code hosts is enforced (e.g., organizations, teams).
-    - Repository visibility and permissions on Sourcegraph is intuitive.
-    - Adding private repositories is part of the same flows as adding public repositories.
+   - Authorization from code hosts is enforced (e.g., organizations, teams).
+   - Repository visibility and permissions on Sourcegraph is intuitive.
+   - Adding private repositories is part of the same flows as adding public repositories.
 1. Sourcegraph Cloud is Generally Available (GA).
-    - Abuse protection: API rate limiting, DDoS mitigation, limiting user accounts.
-    - Scalable syncing of permissions, repos, changesets.
-    - High availability, SLOs, etc.
-    - Billing and subscriptions.
+   - Abuse protection: API rate limiting, DDoS mitigation, limiting user accounts.
+   - Scalable syncing of permissions, repos, changesets.
+   - High availability, SLOs, etc.
+   - Billing and subscriptions.
 
 ### Backend infrastructure
 
@@ -98,6 +101,7 @@ Every day, Slackbot will post a reminder in the #cloud channel for you to write 
 **At the end of each working day**, you should post your update as a threaded response to the Slackbot message.
 
 You should include in your update:
+
 - What you worked on during your day.
 - Whether you're blocked on anything to make progress (a code review, input in an RFC or in a GitHub issue...).
 - What you plan on tackling next.
@@ -115,11 +119,13 @@ The teammates working on a goal are responsible for this update and should decid
 ### Retrospectives
 
 After the 20th of each month, we hold a retrospective, to reflect on the past iteration. We use this retrospective to:
+
 - Understand whether we accomplished the goals we set at the beginning of the iteration. If we didn't accomplish them, reflect on the reasons why.
 - Discuss things that didn't go well in the iteration, and identify action items to improve on these in the next iteration.
 - Discuss things that went well in the past iteration, and that we should do more of / invest more into.
 
 At the beginning of each iteration, the engineering manager will:
+
 - Schedule the retrospective meeting
 - Set up a Slack reminder three days before the retrospective meeting, asking teammates to write their discussion topics in the retrospective document
 
@@ -137,10 +143,10 @@ By default, members of the team will provide a brief update about the goals they
 
 - We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Tomás Senart](../../../company/team/index.md#tomás-senart) ([Engineering Manager](../roles.md#engineering-manager))
-    - [Joe Chen](../../../company/team/index.md#joe-chen)
-    - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
-    - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
-    - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
+  - [Joe Chen](../../../company/team/index.md#joe-chen)
+  - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
+  - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
+  - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
 
 Other:
 
