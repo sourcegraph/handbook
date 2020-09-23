@@ -44,7 +44,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 1. We set up a 60-minute call with the hiring manager to discuss your technical experience including past work and accomplishments.
 1. We evaluate relevant technical skills that you have via an asynchronous coding exercise.
    - We will give you an overview of the exercise in advance.
-   - We will send you the details at a time of your choosing and you will have up to 2 hours to work on the exercise.
+   - We will send you the details at a time of your choosing and you will have up to 3 hours to work on the exercise.
    - You will be able to use your own development environment and lookup documentation on the internet.
 1. We schedule 3 hours of remote interviews over video chat across multiple days.
    - **Technical design discussion:** We review your coding exercise and have you walk us through how you would solve the problem.
