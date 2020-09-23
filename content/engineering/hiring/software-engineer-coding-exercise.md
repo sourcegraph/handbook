@@ -57,11 +57,11 @@ An asynchronous coding exercise provides the most realistic environment for meas
 
 Candidates who have completed our coding exercise regularly tell us that they enjoyed it and/or learned something.
 
-### Why a 2-hour limit?
+### Why a time limit?
 
 We choose to enforce a finite limit so that we get a consistent signal across all candidates. It wouldn't be fair if candidates could spend as much time as they wanted, because some candidates have more time than others.
 
-2 hours is long enough that we can ask non-trivial questions that test for relevant skills while also being short enough that it shouldn't be an unreasonable burden for anyone.
+The allocated time for each exercise should be long enough that we can ask non-trivial questions that test for relevant skills while also being short enough that it shouldn't be an unreasonable burden for anyone.
 
 ### Do I still need to do the coding exercise if I have significant open-source contributions?
 
