@@ -21,7 +21,7 @@ TODO
 ## Members
 
 - [Julia Gilinets](../../company/team/index.md#julia-gilinets-sheher) (VP of CE)
-- [Dan Adler](../../company/team/index.md#dan-adler-hehim) (Sourcegraph's first ever CE and previous CE team manager)
+- [Dan Adler](../../company/team/index.md#dan-adler-hehim) (interim CE member, former CE manager)
 - [Christine Lovett](../../company/team/index.md#christine-lovett-sheher)
 - [Tion Thomas](../../company/team/index.md#tion-thomas-hehim)
 
