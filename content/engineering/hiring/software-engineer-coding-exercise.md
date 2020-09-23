@@ -1,6 +1,6 @@
 # Coding exercise
 
-We ask candidates to complete a 2-hour asynchronous coding exercise so we can evaluate you on certain skills that we think are relevant to being successful at Sourcegraph.
+We ask candidates to complete a time bound asynchronous coding exercise so we can evaluate you on certain skills that we think are relevant to being successful at Sourcegraph.
 
 Why? Read the [FAQ](#FAQ).
 
@@ -30,6 +30,18 @@ We designed this exercise to measure your understanding of HTTP requests, concur
 - After two hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
 
 If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
+
+## Full stack coding exercise
+
+This exercise is designed to give you an opportunity to demonstrate your skills building a web application end-to-end.
+
+- You will choose a three hour timeframe to independently work on the exercise. You can choose any day and time that works for you; there are no scheduling constraints.
+- At your chosen date and time, we will send you detailed instructions. We provide you with an easy to run Postgres database pre-loaded with data. Your goal is to build a few features on top of it.
+- You should have docker-compose installed on your computer.
+- You can look up documentation on the internet while you are coding.
+- After three hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
+
+If we decide to move forward, we will schedule a Technical Discussion interview to go over your solution and how you'd extend it with some additional requirements in mind.
 
 ## FAQ
 
