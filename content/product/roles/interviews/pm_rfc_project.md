@@ -2,7 +2,7 @@
 
 ## What we want to measure
 
-Will the candiate be successful in our all-remote environment in which the majority of communication happens in written form (Slack messages, [RFCs](https://about.sourcegraph.com/handbook/communication/rfcs), GitHub issues, pull request and commit messages).
+Will the candidate be successful in our all-remote environment in which the majority of communication happens in written form (Slack messages, [RFCs](https://about.sourcegraph.com/handbook/communication/rfcs), GitHub issues, pull request and commit messages).
 
 - Is the candidate able to see and communicate the big picture in an inspiring way?
 - Can they identify a real problem?
