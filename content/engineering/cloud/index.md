@@ -1,6 +1,6 @@
 # Cloud team
 
-![Logo](logo.jpg)
+<img width="70%" height="70%" src="logo.jpg">
 
 While you could think this is an angry cloud, it's actually a fierce and determined one 😃.
 
