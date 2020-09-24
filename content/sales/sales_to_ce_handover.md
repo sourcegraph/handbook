@@ -36,4 +36,4 @@ When a new deal is signed, the Account Executive, Customer Engineer, and finance
 
 1. Once notified by the AE, the finance team will create an invoice and send it via email to the "Point of contact for invoicing/billing" from the new customer questionnaire.
 1. Once notified by the AE, the operations team will update the customer status in the [installers-to-company spreadsheet](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit#gid=0).
-1. The operations team will update the [sources of truth](../bizops/index.md#sources-of-truth) to reflect the new deal.
+1. The operations team will update the [sources of truth](../ops/bizops/index.md#sources-of-truth) to reflect the new deal.

@@ -6,7 +6,13 @@
 
 ## Team
 
-- [List of team members](../../company/team/index.md)
+- [List of all Sourcegraph team members](../../company/team/index.md)
+
+### People Ops team members
+
+- [Noemi Mercado](../../../company/team/index.md#noemi-mercado-she-her), Head of People Ops
+  - [David Li](../../../company/team/index.md#david-li-he-him), Technical Recruiter
+  - Cecily Black
 
 ## Teammate experience
 

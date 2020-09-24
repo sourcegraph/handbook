@@ -1,4 +1,4 @@
-# Business operations roles
+# Operations roles
 
 - [Internal Tools](./internal_tools.md)
 - [Sales Strategy & Operations Analyst or Manager](./gtm_sales_operations.md)

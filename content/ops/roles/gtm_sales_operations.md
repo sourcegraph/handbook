@@ -16,7 +16,7 @@ You will help build the organization that enables us to reach every developer in
 - Go through an additional week-long training program on our customer lifecycle, our sales processes, and our support and success functions.
 - Work closely with the rest of our Sales and Customer Engineering teams to understand our current operations.
 - Dive deep into our OKRs, our metrics (both revenue/ARR and usage/engagement), and our CRM and marketing suite (HubSpot) to understand how we measure our pipeline and customer engagement.
-- Work with the rest of our Business Operations team to understand our go-to-market data collection, needs and gaps, and current modeling capabilities.
+- Work with the rest of our business operations team to understand our go-to-market data collection, needs and gaps, and current modeling capabilities.
 - Take ownership of our sales and customer engineering OKRs and tracking.
 
 ### In the first 90 days you will...

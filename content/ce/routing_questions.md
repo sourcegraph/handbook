@@ -80,4 +80,4 @@ Any questions about campaigns should be routed to the [Campaigns team](../engine
 
 **Keywords**: `usage`, `users`, `DAU`, `WAU`, `MAU`
 
-Any questions about usage statistics should be routed to the [Business Operations team](../bizops/index.md).
+Any questions about usage statistics should be routed to the [BizOps team](../ops/bizops/index.md).

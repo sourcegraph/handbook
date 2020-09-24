@@ -61,7 +61,7 @@ We have many Slack channels. You don't have to join them all, but here is a good
 
 - #marketing - [Marketing](../marketing/index.md)
 - #sales - [Sales](../sales/index.md)
-- #analytics - [Analytics](../bizops/index.md#analytics)
+- #analytics - [Analytics](../ops/bizops/index.md#analytics)
 - #marketintel - Market and industry intelligence - products, funding, competition
 - #payments - Customer payment notifications
 - #hiring-active - Candidate hiring
