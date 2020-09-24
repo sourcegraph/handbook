@@ -48,6 +48,7 @@ This list will be updated regularly with links to the technical implementation d
   1. Resolve outstanding issues for lsif-go, ship to 3 customers, [tracking issue 13015](https://github.com/sourcegraph/sourcegraph/issues/13015).
   1. Provide best effort auto-indexing for supported languages, [RFC-199](https://docs.google.com/document/d/1rCduWqaLAbMu2s43RwJTBbRlhL6qS3oqq4iawiGdoVE/edit), [RFC-201](https://docs.google.com/document/d/1NPQs1s814LZjNXjPuavqC1N7hZR192DNtmSBmAeH9UY/edit).
 - Success Outcome: We have accurate and comprehensive precise code intel for C++, Go, and Java. We will work to ship each indexer to at least 3 customers and gather feedback for future iteration. The precision level for each indexer tool is > 80%.
+- Progress: See the [Code Intel Looker dashboard](https://sourcegraph.looker.com/dashboards/131).
 
 ### Create a backend that can perform and scale across organizations of various sizes up to the upper boundaries of our system.
 
