@@ -56,7 +56,7 @@ _Updated 2020-09-11_
    - **Outcome:** Sourcegraph can search 500k repositories in less than 300ms. This is on par with [grep.app](https://grep.app).
    - **Plan:** Incrementally add repositories to Sourcegraph.com until searches get slow or start breaking. Fix those things. Then continue adding repositories.
    - **Owners:** Keegan/Stefan
-   - **Status:** Sourcegraph.com currently has about 100k repositories.
+   - **Status:** [In progress](perf.md)
    - **Estimated completion**: 3.23 (End of December 2020)
 
 ### Fast
@@ -67,9 +67,11 @@ _Updated 2020-09-11_
       - Unblock the ability to add responsive and fast-loading search results.
       - Return results faster for large result sets, e.g. indexed repositories in very large codebases.
   - **Plan:** Streaming search
-  - **Owner:** Keegan
-  - **Status:** [In progress](perf.md)
-  - **Estimated completion:** 3.21
+  - **Owners:** Keegan, Juliana
+  - **Status:** In progress
+  - **Estimated completion:**
+    - ~~3.21~~ 2020-09-23 update: We revised this estimate after discussing needed work on the design & frontend side.
+    - 3.22
 
 ### Expressive
 

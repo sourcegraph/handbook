@@ -25,9 +25,13 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ### Streaming search
 
-- **Owner(s):** Keegan, TODO frontend engineer
+- **Owner(s):** Keegan, Juliana
 - **Outcomes:**
-    - $DESIRED_OUTCOME
+    - Make a decision on whether to integrate with existing search results components or write a new set of components to show streamed results.
+    - Identify which metatada we want to display while streaming results, and define corresponding API contract.
+    - Define experience for large result sets (how many results are displayed initially, "show more" versus infinite scrolling).
+    - Define experience for dynamic filters.
+    - We have a project board representing remaining design + implementation work for future iterations.
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
