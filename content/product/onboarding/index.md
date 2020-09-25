@@ -70,7 +70,7 @@ Remember:
 
 ### Get to know our customers
 
-- Reach out to the Sales/CE teams and ask to be added to as many customer calls as you can in your first few weeks.
+- [Join as many customer calls as you can](../../sales/onboarding/joining_customer_calls.md) in your first few weeks.
 - Familiarize yourself with customer feedback channels
    - [HubSpot](https://app.hubspot.com/forms/2762526/a86bbac5-576d-4ca0-86c1-0c60837c3eab/submissions) surveys
    - [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)

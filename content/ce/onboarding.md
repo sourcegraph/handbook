@@ -14,7 +14,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - [Looker](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=&Site%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D)
   - Familiarize yourself with the [Weekly CE Sync Notes](https://docs.google.com/document/d/1c40u7Bh2vPIAHcz8qS_qLOt310MfjrGeHN5-W45nh4U/edit) and format 
     - Updates to be provided in order of priority 
-- Look at AE/CE calendars and join as many customer calls as possible 
+- [Join as many customer calls as possible](../sales/onboarding/joining_customer_calls.md)
   - Collect questions along the way (unfamiliar terms, use cases, etc.)
 - Watch [Dan's recorded demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing) 
 - Schedule a demo from the most recent CE hire before you

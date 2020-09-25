@@ -31,6 +31,8 @@ See [roles](./roles/index.md) page.
 - [How to request support (for customers)](../ce/support.md#how-to-get-support-for-customers)
 - [Creating and maintaining license keys for customers](../ce/license_keys.md)
 
+### [Team members who want to join calls](onboarding/joining_customer_calls.md)
+
 ## Definitions
 
 ### ARR
