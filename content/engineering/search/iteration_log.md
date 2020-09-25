@@ -45,7 +45,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Metrics collection will be reviewed
     - Survey is sent to internal users to gauge the response
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-09-25: Feedback from design QA has been implemented and merged. This feature is now also available for Sourcegraph.com behind a feature flag.
 
 ### Search tour
 
@@ -54,10 +54,9 @@ This document contains the goals and work log for the search team's [2-week iter
     - The [feedback from the first round of user testing](https://github.com/sourcegraph/sourcegraph/issues/13944) has been implemented.
     - The design team is able to run subsequent rounds of user testing for feedback.
     - If user testing is completed, and feedback is addressed, the tour is turned on for all Sourcegraph.com new users by default.
-    - Metrics collection will be reviewed
-    - Metrics logging is reviewed and approved by @ebrodymoore and @rrhyne
+    - Metrics logging is reviewed and approved by @ebrodymoore and @rrhyne.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-09-25: Fixes for the first round of user testing have been implemented in a [PR](https://github.com/sourcegraph/sourcegraph/pulls/attfarhan), approved by @limitedmage and awaiting review from @rrhyne and @lguychard. Metrics have been reviewed and approved by @ebrodymoore and rrhyne.
 
 ### Search expressions
 
