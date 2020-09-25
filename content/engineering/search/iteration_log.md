@@ -21,7 +21,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Zoekt is called before we resolve repositories in global search. The outcome of this is a faster global search.
     - Improved tracing for indexed search.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-09-25: Important parts of the code path had not been instrumented with tracing. To pinpoint the performance issue, we added tracing to `newIndexSearchRequest` [#13949](https://github.com/sourcegraph/sourcegraph/pull/13949) and the RPC layer [#13951](https://github.com/sourcegraph/sourcegraph/pull/13951). Based on the improved tracing, we chose to focus our efforts on global queries first, IE queries without `repo:` or `file:` filters. Traces of global queries show that we spend a significant amount of time (O(#indexed repos)) on assembling, splitting, and serializing lists of repo revisions. With [#14093](https://github.com/sourcegraph/sourcegraph/pull/14093) we resolve repositories and query zoekt concurrently (limited to global, literal content searches). We plan to measure the impact of [#14093](https://github.com/sourcegraph/sourcegraph/pull/14093) with help of selected traces and search-blitz.
 
 ### Streaming search
 
