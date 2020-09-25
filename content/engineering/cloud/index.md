@@ -81,12 +81,19 @@ Backend infrastructure goals are ad hoc as requests come up from customers or ot
 - [Alerts owned by this team](https://sourcegraph.com/search?q=repo%3A%5Egithub.com%2Fsourcegraph%2Fsourcegraph%24+file%3Amonitoring%2F.*+%7B%3A%5B_%5D%2C+Owner%3A+ObservableOwnerCloud%2C+%3A%5B_%5D%7D+OR+%28%3A%5B_%5D%2C+ObservableOwnerCloud%29+count%3A1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/01b8adfc-9b85-462b-a841-945791c17e9e/main)
 
-### Planning
+### Planning & grooming
 
-We meet every month for a planning session as the current iteration approaches its ends. In this meeting we collaborate on what our few and focused goals for the iteration should be, what their scope is and which teammates work on what.
-These goals are then captured in an iteration [tracking issue](../tracking_issues.md).
+On the 7th day of the cycle, we create the next cycle's tracking issue and ask all team-mates to add work they expect or want to do to it, while ensuring it has an estimate, enough context to be picked up and is labelled appropriately (i.e. async grooming).
 
-It's fine for an iteration to start with only clear goals and for the specific work to make progress on those to be discovered afterwards.
+The engineering manager also reviews the all GitHub issues with the `team/cloud` label and assigns anything deemed important to teammates' workload for next cycle.
+
+On the 10th day of the cycle, we host our planning meeting. In this meeting, we:
+
+- Revise the work previously added to the cycle makes sense in the context of our team's milestones.
+- Ensure everyone has enough slack time (~20%).
+- Check assignments take into account knowledge sharing and pairing.
+- Validate estimations as a group (i.e. smoke test approaches thought of by those who groomed)
+- Write a Plan section on the tracking issue in prose, describing what we're doing this cycle and why we chose to do those things.
 
 ### Updates
 
@@ -118,20 +125,19 @@ The teammates working on a goal are responsible for this update and should decid
 
 ### Retrospectives
 
-After the 20th of each month, we hold a retrospective, to reflect on the past iteration. We use this retrospective to:
+The cloud team holds bi-weekly retrospectives.
+
+The meeting notes can be found [in this doc](https://docs.google.com/document/d/1IJZzKw18JGc3AeCID5VIV2hec3Ee6o6wFSGfMakXJ5I/edit).
+
+We aim to:
 
 - Understand whether we accomplished the goals we set at the beginning of the iteration. If we didn't accomplish them, reflect on the reasons why.
 - Discuss things that didn't go well in the iteration, and identify action items to improve on these in the next iteration.
 - Discuss things that went well in the past iteration, and that we should do more of / invest more into.
 
-At the beginning of each iteration, the engineering manager will:
-
-- Schedule the retrospective meeting
-- Set up a Slack reminder three days before the retrospective meeting, asking teammates to write their discussion topics in the retrospective document
-
 ## Team syncs
 
-The cloud team holds weekly syncs.
+The cloud team holds bi-weekly syncs.
 
 The meeting notes can be found [in this doc](https://docs.google.com/document/d/1CeSzdNK1lUnEr02TvllxTxkkYlwGhs4mMHCTt3D-ZGw/).
 
@@ -149,6 +155,7 @@ By default, members of the team will provide a brief update about the goals they
   - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
   - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
+  - [A. RS](../../../company/team/index.md#todo) starts on the 2nd of November.
 
 Other:
 
