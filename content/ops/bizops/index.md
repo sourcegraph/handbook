@@ -19,11 +19,26 @@ TODO
 
 This page describes Sourcegraph's analytics function, our data sources, and how to use our data tools.
 
-To reach us, mention @ericbm in the most relevant channel (i.e. #marketing for a marketing-related question).
+To reach us, mention @business-team in the most relevant channel (i.e. #marketing for a marketing-related question).
 
-## Submitting a data request
+## Active product analytics dashboards
 
-**Projects:** Proposals to capture and report on new data are in [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). Provide the following data to help us understand and prioritize your request:
+Dashboards are structured by goal instead of team. As we have more and more projects being worked on and tracked concurrently, this makes it easier for the product, engineering and business teams to track, link to, and simplify the lifecycle of dashboards. For example, we don't need to think about when it's time to deprecate a look from the code intel dashboard. When the goal is removed, the dashboard is archived.
+
+WIP
+- LSIF adoption
+- Sourcegraph WAU
+- Browser extension adoption
+- Sourcegraph extension discoverability
+- Enterprise onboarding
+- Code monitoring/saved searches
+- Campaigns engagement
+
+## How we work
+
+**Internal BizOps projects:**  We use [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues) to document projects, and the [analytics kanban board](https://github.com/orgs/sourcegraph/projects/63) for prioritization.
+
+**Data requests and cross-functional projects:** Tag @ebrodymoore in existing [sourcegraph/sourcegraph GitHub issues](https://github.com/sourcegraph/sourcegraph/issues) or create a new issue. Provide the following data to help us understand and prioritize your request:
 
 - What is the purpose of the visualization?
 - Will it be frequently used, or is it only needed sporadically?
