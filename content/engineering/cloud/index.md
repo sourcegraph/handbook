@@ -85,7 +85,7 @@ Backend infrastructure goals are ad hoc as requests come up from customers or ot
 
 On the 7th day of the cycle, we create the next cycle's tracking issue and ask all team-mates to add work they expect or want to do to it, while ensuring it has an estimate, enough context to be picked up and is labelled appropriately (i.e. async grooming).
 
-The engineering manager also reviews the all GitHub issues with the `team/cloud` label and assigns anything deemed important to teammates' workload for next cycle.
+The engineering manager also reviews all GitHub issues with the `team/cloud` label and assigns anything deemed important to teammates' workload for next cycle (e.g. new bugs, customer issues, tech debt).
 
 On the 10th day of the cycle, we host our planning meeting. In this meeting, we:
 
