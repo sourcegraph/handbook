@@ -33,7 +33,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Define experience for dynamic filters.
     - We have a project board representing remaining design + implementation work for future iterations.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-09-25: Exploratory work has been made to understand how the search results page currently works and how the streaming search POC has been built. [Notes](https://docs.google.com/document/d/1ApXqBr9tasltKPvV9KHp64VzPekH5vCKOcAWz6Am6Ng/edit#heading=h.q8u68shhkq3i)
 
 ### Enterprise homepage
 
@@ -45,7 +45,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Metrics collection will be reviewed
     - Survey is sent to internal users to gauge the response
 - **Work log:**
-    - 2020-09-25: Feedback from design QA has been implemented and merged. This feature is now also available for Sourcegraph.com behind a feature flag.
+    - 2020-09-25: Feedback from design QA has been implemented and merged. Telemetry logging has been added. This feature is now also available for Sourcegraph.com behind a feature flag.
 
 ### Search tour
 
@@ -73,3 +73,10 @@ This document contains the goals and work log for the search team's [2-week iter
     - Raise visibility on the topic/capability of code search as lightweight analysis. Inform relevant customer contacts about these capabilities.
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
+    
+### Code Monitoring
+- **Owner(s):** Juliana
+- **Outcomes:**
+    - Work with product and design to understand the scope of the work. Based on this, start work on a dev implementation plan.
+- **Work log:**
+    - 2020-09-25: Initial meeting took place between Pooja, Quinn Keast and Juliana to understand the scope of the work. [Meeting notes](https://docs.google.com/document/d/1EG42dM1old49uPXpGAqL7b9k95bWpM0Zcu0JM5gXtOQ/edit?ts=5f6dac2c)
