@@ -1,6 +1,6 @@
 # Code reviews
 
-All code should be reviewed and approved by an appropriate teammate before being merged into the `master` branch.
+All code should be reviewed and approved by an appropriate teammate before being merged into the `main` branch.
 
 Our goal is to have a code review process and culture that everyone would opt-in to even if code reviews weren't required.
 
@@ -56,7 +56,7 @@ Here are some examples of reasons to skip code review that are NOT acceptable:
   - The customer expects the feature to work and be maintained. Code review helps ensure both of these things by increasing the quality and distributing ownership.
 - "This code is experimental"
   - Our goal is to have a code review culture such that engineers who are working on "experimental" code still find code reviews valuable and worth doing (for all the benefits mentioned in the rest of this document).
-  - All code that is in `master` has the potential to impact customers (e.g. by causing a bug) and other developers at Sourcegraph (e.g. by making it harder to refactor code). As such, it is in our interest to ensure a certain quality level on all code whether or not it is considered "experimental".
+  - All code that is in `main` has the potential to impact customers (e.g. by causing a bug) and other developers at Sourcegraph (e.g. by making it harder to refactor code). As such, it is in our interest to ensure a certain quality level on all code whether or not it is considered "experimental".
   - Assume that we allowed "experimental" code to bypass code review. How would we know when it is no longer experimental and how would it get reviewed? Either it wouldn't get reviewed, or an engineer would have to review all the code after the fact without a nice PR diff to look at or effective way to make comments. Neither of these outcomes would meet our need of reviewing all non-experimental code.
 - "I don't have someone to review this code"
   - Ask for help to identify someone else on the team with whom you can share your knowledge, context, and ownership.

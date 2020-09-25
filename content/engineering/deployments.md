@@ -24,7 +24,7 @@ Changes to `sourcegraph/sourcegraph` are automatically built as [images](#images
 
 ### Images
 
-Each Sourcegraph service is provided as a Docker image. Every commit to `master` in [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph) pushes updated Docker images for all of our services to [Docker Hub](https://hub.docker.com/u/sourcegraph/) as part of our [CI pipeline](https://buildkite.com/sourcegraph/sourcegraph) (i.e. if CI is green, then Docker images have been pushed).
+Each Sourcegraph service is provided as a Docker image. Every commit to `main` in [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph) pushes updated Docker images for all of our services to [Docker Hub](https://hub.docker.com/u/sourcegraph/) as part of our [CI pipeline](https://buildkite.com/sourcegraph/sourcegraph) (i.e. if CI is green, then Docker images have been pushed).
 
 For pushing custom images, refer to [building Docker images for specific branches](#building-docker-images-for-a-specific-branch).
 
@@ -47,7 +47,7 @@ This deployment is also colloquially referred to as "Sourcegraph Cloud", "Cloud"
   gcloud container clusters get-credentials cloud --zone us-central1-f --project sourcegraph-dev
   ```
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
-- [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/master/cloud)
+- [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/cloud)
 
 ### Deploying to sourcegraph.com
 
@@ -55,7 +55,7 @@ Every commit to the `release` branch (the default branch) on [deploy-sourcegraph
 
 Deploys on sourcegraph.com are currently [handled by Renovate](#renovate). The [Renovate dashboard](https://app.renovatebot.com/dashboard#github/sourcegraph/deploy-sourcegraph-dot-com) shows logs for previous runs and allows you to predict when the next run will happen.
 
-If you want to expedite a deploy, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `master` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=master) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
+If you want to expedite a deploy, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `main` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
 ### Rolling back sourcegraph.com
 
@@ -80,7 +80,7 @@ git push origin release
 🚨 You also need to disable auto-deploys to prevent Renovate from automatically merging in image digest updates so that the site doesn't roll-forward.
 
 1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) and remove the `"extends:["default:automergeDigest"]` entry for the "Sourcegraph Docker images" group ([example](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/commit/0eb16fd9e3ddfcf3a3c75ccdda0e7eddabf19c7a)).
-1. Once you have fixed the issue in the `master` branch of [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph), re-enable auto-deploys by reverting your change to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) from step 1.
+1. Once you have fixed the issue in the `main` branch of [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph), re-enable auto-deploys by reverting your change to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) from step 1.
 
 ## k8s.sgdev.org
 
@@ -93,7 +93,7 @@ This deployment is also colloquially referred to as "dogfood", "dogfood-k8s", or
   gcloud container clusters get-credentials dogfood --zone us-central1-f --project sourcegraph-dogfood
   ```
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
-- [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/master/dogfood)
+- [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/dogfood)
 
 Updates from `deploy-sourcegraph` are performed upon [notification from upstream](#deploy-sourcegraph) by the ["Update from deploy-sourcegraph"](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2/actions?query=workflow%3A%22Update+from+deploy-sourcegraph%22) workflow.
 
@@ -115,7 +115,7 @@ This deployment runs the single-image version of Sourcegraph. It does not have a
   ```
   gcloud container clusters get-credentials dogfood --zone us-central1-a --project sourcegraph-dev
   ```
-- [Kubernetes configuration](https://github.com/sourcegraph/infrastructure/tree/master/kubernetes/dogfood)
+- [Kubernetes configuration](https://github.com/sourcegraph/infrastructure/tree/main/kubernetes/dogfood)
 
 ## Kubernetes
 
