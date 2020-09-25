@@ -1,5 +1,6 @@
 # Upgrading a managed instance
 
+- [Walkthrough video](#walkthrough-video)
 - [1) Add a banner indicating scheduled maintenance is in progress](#1-add-a-banner-indicating-scheduled-maintenance-is-in-progress)
 - [2) Mark the database as ready-only](#2-mark-the-database-as-ready-only)
 - [3) Create a snapshot of the current deployment](#3-create-a-snapshot-of-the-current-deployment)
