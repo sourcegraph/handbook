@@ -1,16 +1,17 @@
 # Deployments
 
-We maintain multiple [deployments](#deployment-basics) of Sourcegraph:
+We maintain multiple instances of Sourcegraph:
 
 - [sourcegraph.com](#sourcegraph-com) is our production deployment for open source code.
 - [sourcegraph.sgdev.org](#sourcegraph-sgdev-org) is our private deployment of Sourcegraph that contains our private code.
 - [k8s.sgdev.org](#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers.
+- [Managed instances](./distribution/managed/index.md) are deployments of Sourcegraph we manage for customers.
 
-Also on this page:
+Learn more about how these work in [deployment basics](#deployment-basics). Also on this page:
 
-- [Kubernetes](#kubernetes)
-- [Testing](#testing)
-- [deploy-sourcegraph](#deploy-sourcegraph)
+- [Kubernetes](#kubernetes): setting up access, tips, and more 
+- [Testing](#testing): deploying test instances of Sourcegraph
+- [deploy-sourcegraph](#deploy-sourcegraph): configuration for Kubernetes Sourcegraph deployments
 
 ## Deployment basics
 
@@ -36,7 +37,9 @@ Renovate is a tool for updating dependencies. [`deploy-sourcegraph-*`](#deploy-s
 
 The cloud resources (including clusters, DNS configuration, etc.) on which are deployments run should be configured in the [infrastructure repository](https://github.com/sourcegraph/infrastructure), even though Kubernetes deployments are managed by various `deploy-sourcegraph-*` repositories. For information about how our infrastructure is organized, refer to [Environments](./environments.md).
 
-## sourcegraph.com
+## Instances
+
+### sourcegraph.com
 
 [![Build status](https://badge.buildkite.com/ef1289610fdd05b606bf1e57a034af2365c7b09c95ac6121f9.svg)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com)
 
@@ -48,8 +51,9 @@ This deployment is also colloquially referred to as "Sourcegraph Cloud", "Cloud"
   ```
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/cloud)
+- Alerts: `#alerts-cloud` and [OpsGenie](./incidents/on_call.md)
 
-### Deploying to sourcegraph.com
+#### Deploying to sourcegraph.com
 
 Every commit to the `release` branch (the default branch) on [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) deploys the Kubernetes YAML in this repository to our dot-com cluster [in CI](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/builds?branch=release) (i.e. if CI is green then the latest config in the `release` branch is deployed).
 
@@ -57,7 +61,7 @@ Deploys on sourcegraph.com are currently [handled by Renovate](#renovate). The [
 
 If you want to expedite a deploy, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `main` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
-### Rolling back sourcegraph.com
+#### Rolling back sourcegraph.com
 
 To roll back soucegraph.com, push a new commit to the `release` branch in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) that reverts the image tags and configuration to the desired state.
 
@@ -82,7 +86,7 @@ git push origin release
 1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) and remove the `"extends:["default:automergeDigest"]` entry for the "Sourcegraph Docker images" group ([example](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/commit/0eb16fd9e3ddfcf3a3c75ccdda0e7eddabf19c7a)).
 1. Once you have fixed the issue in the `main` branch of [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph), re-enable auto-deploys by reverting your change to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) from step 1.
 
-## k8s.sgdev.org
+### k8s.sgdev.org
 
 [![Build status](https://badge.buildkite.com/65c9b6f836db6d041ea29b05e7310ebb81fa36741c78f207ce.svg?branch=release)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
 
@@ -94,16 +98,17 @@ This deployment is also colloquially referred to as "dogfood", "dogfood-k8s", or
   ```
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/dogfood)
+- Alerts: `#alerts-dogfood-k8s`
 
 Updates from `deploy-sourcegraph` are performed upon [notification from upstream](#deploy-sourcegraph) by the ["Update from deploy-sourcegraph"](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2/actions?query=workflow%3A%22Update+from+deploy-sourcegraph%22) workflow.
 
-### Users in k8s.sgdev.org
+#### Users in k8s.sgdev.org
 
 To create an account on [k8s.sgdev.org](https://k8s.sgdev.org), log in with your Sourcegraph Google account via OpenID Connect.
 
 To promote a user to site admin (required to make configuration changes), use the admin user credentials available in 1password (titled `k8s.sgdev.org admin user`) to log in to [k8s.sgdev.org](https://k8s.sgdev.org), and go to the [users page](https://k8s.sgdev.org/site-admin/users) to promote the desired user.
 
-## sourcegraph.sgdev.org
+### sourcegraph.sgdev.org
 
 [![Build status](https://badge.buildkite.com/aea3b210380714ff4e0c5429beae87bb318e7fd53603acdecf.svg)](https://buildkite.com/sourcegraph/infrastructure)
 
