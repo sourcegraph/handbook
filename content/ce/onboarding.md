@@ -41,7 +41,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 ### General onboarding during weeks 1 and 2
 
 - Go through general onboarding [People Ops](../people-ops/index.md)
-  - [General onboarding steps](../people-ops/onboarding/index.md#for-all-new-teammates)
+  - [General onboarding steps](../people-ops/onboarding/index.md#general-onboarding-checklist)
   - [Sourcegraph handbook](../index.md) intro
 - [CEO](../ceo/index.md)
   - Vision

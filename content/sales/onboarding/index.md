@@ -21,7 +21,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 [Recording on 2019-11-01](https://zoom.us/recording/play/m6olRsgG3vWpZ6ZJYg1FJr1RKeAPoUnsE4lvelSrs64_N-7AZ1QTSJ0eb8WXXSXk)
 
 - [People Ops](../../people-ops/index.md)
-  - [General onboarding steps](../../people-ops/onboarding/index.md#for-all-new-teammates)
+  - [General onboarding steps](../../people-ops/onboarding/index.md#general-onboarding-checklist)
   - [Sourcegraph handbook](../../index.md) intro
   - GitHub account setup and tutorial
   - HubSpot account setup

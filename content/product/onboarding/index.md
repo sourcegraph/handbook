@@ -38,7 +38,7 @@ Remember:
 
 ### Day 1
 
-- Complete [general onboarding](../../people-ops/onboarding/index.md#for-all-new-teammates)
+- Complete [general onboarding](../../people-ops/onboarding/index.md#general-onboarding-checklist)
    - Keep the [guiding principles](../../engineering/onboarding.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
 - Write your 30-60-90 day objectives in your 1:1 doc with Christina
 
