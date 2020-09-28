@@ -5,6 +5,7 @@ This document describes how the sales team using Salesforce.
 Note: Please refer to it as Salesforce (instead of SF or SFDC) in accordance with our [content guidelines](../communication/content_guidelines/style_and_mechanics.md#abbreviations-acronyms-latinisms-jargon). 
 
 Jump to:
+
 - [Updating information in Salesforce](#updating-information-in-salesforce)
 - [HubSpot and Salesforce connection](#hubspot-and-salesforce)
 - [Salesforce automation](#salesforce-automation)
