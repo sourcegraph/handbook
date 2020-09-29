@@ -1,5 +1,7 @@
 # Operations
 
+- [Onboarding](onboarding.md)
+
 ## Mission
 
 The operations team is responsible for ensuring that Sourcegraph always runs intelligently, efficiently, responsibly, and ethically as we grow. 
