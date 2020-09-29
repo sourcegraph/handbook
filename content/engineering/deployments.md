@@ -9,7 +9,7 @@ We maintain multiple instances of Sourcegraph:
 
 Learn more about how these work in [deployment basics](#deployment-basics). Also on this page:
 
-- [Kubernetes](#kubernetes): setting up access, tips, and more 
+- [Kubernetes](#kubernetes): setting up access, tips, and more
 - [Testing](#testing): deploying test instances of Sourcegraph
 - [deploy-sourcegraph](#deploy-sourcegraph): configuration for Kubernetes Sourcegraph deployments
 
@@ -110,17 +110,18 @@ To promote a user to site admin (required to make configuration changes), use th
 
 ### sourcegraph.sgdev.org
 
-[![Build status](https://badge.buildkite.com/aea3b210380714ff4e0c5429beae87bb318e7fd53603acdecf.svg)](https://buildkite.com/sourcegraph/infrastructure)
+[![Build status](https://badge.buildkite.com/135a00d4fba76ec97944bfb2fc28015d1565e0525853b4de06.svg)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dogfood-server)
 
-This deployment runs the single-image version of Sourcegraph. It does not have a separate deployment configuration repository, and is deployed by the [infrastructure repository](https://github.com/sourcegraph/infrastructure).
+This deployment runs the single-image version of Sourcegraph. It is deployed by the [infrastructure repository](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-server) and uses the shared `dogfood` cluster (also used by [k8s.sgdev.org](#k8s-sgdev-org)).
 
 🚨 This deployment contains private code - do not use it for demos!
 
-- [dogfood cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-a/dogfood?project=sourcegraph-dev)
+- [dogfood cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/dogfood?project=sourcegraph-dogfood)
   ```
-  gcloud container clusters get-credentials dogfood --zone us-central1-a --project sourcegraph-dev
+  gcloud container clusters get-credentials dogfood --zone us-central1-f --project sourcegraph-dogfood
   ```
-- [Kubernetes configuration](https://github.com/sourcegraph/infrastructure/tree/main/kubernetes/dogfood)
+- [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-server)
+- [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/dogfood)
 
 ## Kubernetes
 
