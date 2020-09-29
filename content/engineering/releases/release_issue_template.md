@@ -26,8 +26,6 @@ Arguments:
 
   All changes that will be part of `$MAJOR.$MINOR` (and all associated CHANGELOG updates) should be in `main` by tomorrow. Otherwise, they will not be included in the release.
   ```
-- [ ] Use `./dev/release-ping.sh` to ping teammates who have open issues or PRs in the milestone to
-  ask them to triage those that won't make it into the release.
 - [ ] Verify by posting in #product that there is a draft of the release blog post.
 
 ## $FOUR_WORKING_DAYS_BEFORE_RELEASE (4 work days before release): Branch cut
