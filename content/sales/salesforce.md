@@ -16,6 +16,10 @@ Jump to:
 1. All Salesforce Users are responsible for keeping Salesforce up-to-date as a [source of truth](../communication/index.md#sources-of-truth). If you come across incomplete or inaccurate data, take a moment to update it. This will help us keep the system usable and prevent many issues as we scale.
 1. All Sales Users will work out of Accounts, Contacts, Opportunites, but the Leads Object should only be used for SDRs
 
+## Salesforce access
+
+Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @business-team in #sales. 
+
 ## About Salesforce objects
 
 Salesforce has two main categories: leads and opportunity/account/contacts. Leads are single individuals that have not been qualified yet, and therefore are not associated with an account or opportunity. When a lead has revenue potential, they're converted to an opportunity. In this stage, an account (known in HubSpot as a company), a contact, and an opportunity (known in HubSpot as a deal) are created.
