@@ -66,7 +66,7 @@ Our short term goals are documented in the current [tracking issue](https://gith
     - https://github.com/sourcegraph/sourcegraph/security/code-scanning
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
 If you think that you have found a security issue, please email us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>. We will reply to reports within 1 US business day to acknowledge that we received them and will strive to send you regular updates on our progress until the issue is resolved. You may request an update by replying to the existing email thread. We will read, but may not respond to low quality or spammy reports (e.g. those produced by automated tooling).
 
@@ -98,29 +98,9 @@ When we receive [a report of a security vulnerability](#how-to-report-a-security
 
 --------------------------
 
-## How we pay out bounties
+## How we work
 
-When a reported vulnerability is fixed, the security team will decide upon an appropriate bounty, and follow up with the reporter. Here is a template you can use:
-
-> Thank you again for your report!
->
-> We have fixed the vulnerability you reported in the following PR: $PRLINK
-> This fix is included in the following versions of Sourcegraph: $SGVERSION
->
-> We are happy to award you a bounty of $BOUNTYVAL for reporting this. Please provide the following information so we can send your payment:
-> 1. Email or full mobile phone number that is associated with your [PayPal](https://www.paypal.com/) account.
-> 2. Full name (first and last)
-> 3. Country/region of residence
->
-> You [may/may not] disclose details of this vulnerability publicly [until YYYY-MM-DD].
-
-Note that in accordance with our goals of transparency, we should always try to allow public disclosure whenever possible.
-
-When the reporter gives us this information, we currently [forward this to finance](https://about.sourcegraph.com/handbook/ops/finance#getting-invoices-paid) to pay the bounty. If volume increases to more than a few bounties per month, we will pay the bounty by way of a PayPal account controlled by the security team manager, linked to their brex card.
-
-## How we Work
-
-On the security team, we work by planning, tracking, and reviewing - creating a feedback mechansim targeting our own continuous improvement based on the things we learn.
+On the security team, we work by planning, tracking, and reviewing - creating a feedback mechanism targeting our own continuous improvement based on the things we learn.
 
 ### Principles
 
@@ -132,7 +112,7 @@ On the security team, we work by planning, tracking, and reviewing - creating a 
 ### Planning
 
 1. We plan iterations and features prior to their execution, in a team planning session.
-2. We set one or more goals for the interation.
+2. We set one or more goals for the iteration.
 3. We write RFCs and solicit feedback ideally, prior to the start of an iteration, but especially with forethought in mind.
 4. We hold weekly team syncs and [track them here](https://docs.google.com/document/d/1l-JyN-hol2G6YXNqPsJsIgN2z3aZEzOW4-Julu4xthI).
 5. We report on our status and progress weekly in [tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Atracking+label%3Ateam%2Fsecurity), and radiate communication.
@@ -150,7 +130,27 @@ On the security team, we work by planning, tracking, and reviewing - creating a 
    
 ### Learning
 
-After the each iteration, we hold a [retrospective](https://about.sourcegraph.com/retrospectives). We try to understand the degree to which we achieved the goals we communicated at the beginning.  We identify what went well and what our opportunities for improvement are, then actively choose one of the things we've learned to integrate into our team's ethos.
+After the each release, we hold a [retrospective](https://about.sourcegraph.com/retrospectives). We try to understand the degree to which we achieved the goals we communicated at the beginning of the iteration.  We identify what went well and what our opportunities for improvement.  We actively choose one of the things we've learned, and target its improvement.
+
+### Working with other teams
+
+The security team helps other teams investigate, orient, review, and sometimes plan changes. 
+
+**Small changes**
+
+Small changes, defined as less than 1 day of effort are communicated in a GitHub issue, either in the [sourcegraph repository](https://www.github.com/sourcegraph/sourcegraph) or, when sensitive in nature, the [security repository](https://www.github.com/sourcegraph/security-issues).  We provide a detailed bug report, including the steps to reproduce, and an example of the desired state.  Where possible, we identify and propose a fix, and submit a pull request to the [code owner](../code_reviews.md#who-should-i-get-a-code-review-from).
+
+**Medium changes**
+
+Medium changes operate on the same principle as small changes, except that the code owner is always the one driving it. These changes also include a documented test plan for validation of the security change. These changes are usually take no more than one week.
+
+**Large changes**
+
+Changes that are cross-cutting or requiring greater than one week of effort are large, and communicated through [RFCs](../../communication/rfcs/index.md). The RFC provides as much context as possible about the issue, the reason for the change, and its relative importance and urgency.  We collaborate on the RFC as a team, sharing the RFC with the Engineering Manager(s) for the impacted team for both feedback and [prioritizing](../../product/prioritizing.md).  Upon approval, we create GitHub issues, labeling them with a new label, for the RFC (i.e RFC-214), sharing with the Engineering Manager.  When possible, a member of the security team attends the planning session, to help provide input should more be needed.
+
+**Providing input**
+
+Teams planning and executing changes should ask for Pull Request reviews from the Security Team as needed to gain confidence in the implementation. Teams should also feel free to ask for a security review of any RFC they're working on that aren't directly created from the Security Goals.
 
 ## Members
 
