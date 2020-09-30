@@ -18,15 +18,9 @@ An onboarding buddy is essentially a new teammate’s first friend– someone to
 
 ## Onboarding buddy logistics
 
-**Total length**
+**Length and frequency**
 
-- 3 months
-
-**Frequency**
-
-- Month 1: 1x per week for 25 min.
-- Month 2: 1x every two weeks for 25 min.
-- Month 3: 1x a month for 25 min.
+- 1 month, meeting once a week.
 
 People Ops will set up a recurring invite for buddies to meet.
 
