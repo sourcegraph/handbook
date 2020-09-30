@@ -1,24 +1,27 @@
 # Filing customer issues
 
-Read [the support overview](index.md) before filing an issue.
+Read [the support overview](support.md) before filing an issue.
 
 ## Create a customer issue
 
-Customer support tickets should be translated to GitHub issues when they require an engineering team to be involved. In such cases, [create a
-new issue for the request](https://github.com/sourcegraph/customer/issues/new).
+We maintain two issue trackers:
 
-Provide the appropriate context and add a label with the affected customer as `customer/$name`. Once its created, sharing it with the required [team](routing_questions.md).
-If necessary, link to the appropriate JIRA Service Desk ticket or [HubSpot](#find-the-unique-company-url) notes.
+1. [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph/issues) for public issues (where any private prospect or customer information must be redacted)
+1. [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) for private issues that only Sourcegraph teammates can see
 
-### General issues
+Support tickets should be translated to GitHub issues when they require an Engineering team to be involved. See the [CE to engineering issue handover documentation](ce_to_eng_handover.md) for more.
 
-General issues are those that affect more users than those of a particular deployment. In such cases, create a [new issue for the request](https://github.com/sourcegraph/sourcegraph/issues/new/choose) describing it. If there was a previous [customer issue](##create-a-customer-issue), please link the issue in its description.
+File a new issue in the [private issue tracker](https://github.com/sourcegraph/customer/issues/new) if you need to post private information (such as screenshots, logs, or conversation transcripts) or in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose) if the issue can be generalized. 
 
-Remove any potentially private information from this new issue (e.g. individual people's names, company names, self-hosted Sourcegraph URLs, repo names, screenshots, etc.)
+Post in the public tracker by default, but be sure to remove company names and any private information!
 
-## Find the unique company URL
+Link to the appropriate Jira Service Desk ticket and link to the reporting company's profile in [HubSpot](#find-the-unique-company-url).
 
-Find the unique company URL by [searching for the company in HubSpot](https://app.hubspot.com/contacts/2762526/companies/list/view/all/?query=).
+## Find a company's HubSpot URL
+
+We use links to company profiles on HubSpot (which only Sourcegraph teammates have access to) to anonymously link issues filed on our public GitHub issue tracker to our prospects and customers. [See all issues currently filed that are associated with a company by searching for our HubSpot account URL prefix](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+https%3A%2F%2Fapp.hubspot.com%2Fcontacts%2F2762526%2F+).
+
+Find a company's HubSpot URL by [searching for the company in HubSpot](https://app.hubspot.com/contacts/2762526/companies/list/view/all/?query=).
 
 When you filter down and find the company, click on its name to see the company's page, and copy the URL (it should contain `/company/`).
 
