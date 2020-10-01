@@ -92,6 +92,7 @@ Go, Docker, Kubernetes
   * [How to test the Gitlab native integration locally](gitlab_native_local.md)
   * [How to make updates to global settings and configuration on sourcegraph.com](update_sourcegraph_website.md)
   * [Create GCP commitments](gcp.md#committed-use-discounts)
+  * [Update various service tokens for sourcegraph.com](tokens.md)
 * FAQ
   * [Why is there not a "stable" or "latest" Docker image tag?](faq.md#why-is-there-not-a-stable-or-latest-docker-image-tag)
 
