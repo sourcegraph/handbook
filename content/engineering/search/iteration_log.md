@@ -12,6 +12,16 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+## 2020-10-5 to 2020-10-16
+
+### $GOAL_OR_THEME
+
+- **Owner(s):** $OWNER
+- **Outcomes:**
+    - $DESIRED_OUTCOME
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2020-09-21 to 2020-10-02
 
 ### Scale indexed search to 500k repositories
