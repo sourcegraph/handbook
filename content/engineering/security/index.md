@@ -4,50 +4,35 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Goals
 
-### Long term
+Our current work is documented in our [tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+label%3Atracking+label%3Ateam%2Fsecurity+is%3Aopen).
 
-Every organization is confident they can trust Sourcegraph cloud to securely store and manage their source code.
+### Visibility into Sourcegraph Cloud's attack surface
 
-### Medium term
+**Problem:** The Cloud team is working toward [private code on Sourcegraph Cloud](../cloud/index.md#private-code-on-sourcegraph-cloud). Before we can have [confidence in our security model](#confidence-in-our-security-model), we first need to have visibility into current risks, issues, and threats, so we can proactively plan what work needs to be done (i.e., we don't want to be relying on or waiting for security researchers or customer to report vulnerabilities to us).
 
-The goals below lie on the path to our long-term goals, and represent the next 3-6 months of work.  These goals will be delivered serially, but may be worked on in parallel.
+**Milestones:**
 
-**We host our private [infrastructure repository](http://github.com/sourcegraph/infrastructure) on Sourcegraph cloud**
+1. All Docker images are continuously scanned for known security vulnerabilities and the security team is alerted as vulnerabilities are found.
+1. All compute nodes are continuously scanned for known security vulnerabilities and the security team is alerted as vulnerabilities are found.
+1. Vulnerabilities with a high severity, or a CVSS score of at least 4.0 are resolved.
+1. Implement centralized storage of all of our existing logs (e.g., application logs, compute infrastructure logs).
+1. Start collecting audit and access logs (e.g., visibility into both intentional and unintentional logins). This is useful from both a security visibility point of view, as also a requirement for various auditing frameworks (though not currently a target).
+1. Normalize log format in our centralized log storage so that it is easier to correlate and search. This is a prerequisite for creating automated alerts from the logs.
+1. Create alerts and dashboards to automate the process of investigating events of interest (e.g., detect and alert on a spike of failed login attempts to a single account, or across Sourcegraph Cloud as a whole).
 
-  - Problem and rationale: While Sourcegraph cloud is in a good, and improving security state, we currently do not have the right level of visibility. By starting with a private repository that contains no secrets, we can build and deploy the visibility technologies and processes that allow us to build a holistic view of the environment.  This serves as a proxy for small company repository use.
-  - Planned work:
-    - *[security issue 8](https://github.com/sourcegraph/security-issues/issues/8)*
-    - *Run ongoing vulnerability scans of the containers, and remediate at least one vulnerability* - Currently we have no way to understand our exposures, measure their impact, and prioritize, using data. With the product focus on docker based deployments, scanning dockers allows us to quantify numbers of vulnerabilities, and rank fixing them based on metrics such as CVSS score. This in turn allows for a risk-based approach to fixing vulnerabilities.
-    - *Deploy centralized security logging* - Logging for security and logging for development are different. Rather than focus on stack trace, security focuses on having logs from a variety of different applications, and security controls in order to support investigations and alerting. By collecting logs in one place, we can then begin to analyze them for events of interest.
-    - *Ship container logs to the logging destination* - Enabling docker logs, allows the team to validate that centralized logging is properly configured, and at the same time makes it possible to start searching for events of interest. In gathering logs from application containers, we would now have visibility into possible container misconfigurations, and differences between containers, that provide different attack surfaces.
-  - Definition of success: Frequent container vulnerability scans are being run, and stored for a future audit. Fixes to the containers or their underlying service configurations have made it into the product release cycle.  Logs of new container deployments are available for search in a centralized logging tool.
+### Confidence in our security model
 
-**We host a private repository containing encrypted secrets**
+**Problem:** We need to have a high degree of confidence in our overall security before we ask paying customers to trust us with their private code.
 
-  - Problem and rationale: Customers repositories can contain encrypted secrets, such as an [ansible vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html) or GPG encrypted files. Trusting these repositories to external systems requires the added degree of care and concern, expected in security conscious small and medium enterprise (SME). To support those needs, not only is enhanced visibility into our own systems required on our side, it will be contractually obligated, or at a minimum part of security questionnaires.
-  - Planned work:
-    - *Run ongoing vulnerability scans of underlying workloads including vulnerability remediation* - In addition to not having visibility into our attack surface for containers, we have the same issue with regards to hosts. This extends our infrastructure visibility to the host level. By scanning workloads running dockers, we can catch and address misconfigurations, and unpatched vulnerabilities. 
-    - *Centralize cloud and workload logs in a single location* - Gathering workload and cloud (i.e GCE) logs extends visibility from the container level, out towards the cloud layer. This enhances our ability to triage events, and provides visibility into our most public facing attack vectors.
-    - *Deploy host-based intrusion detection (HIDS)* - HIDS provides alerting for various host-based attacks. Given  our current deployment model it helps provide visibility for both actors internal to Sourcegraph, and actors inside the network. This is an extension of visibility to now include operations occurring within the Sourcegraph network itself.
-    - *Normalize security and application logs* - Gathering logs of different types, into a single place makes it easy to search them, but makes it difficult to correlate them. Through normalizing the different log types, we begin to make log data relevant to both humans and machines. This is a precursor for automating alerts for events of interest.
-    - *Add support for audit and access logging* - By gathering and auditing access logs, we gather visibility into both intentional and unintentional logins. This is both useful from a security visibility point of view, as a requirement for various auditing frameworks (though not currently a target).
-    - *Create dashboards and alerts for events of interest* - With data gathered in one place, we want to action the outcomes. Creating alerts and dashboards starts to automate the process of investigating events of interest - or literally searching for the needles in the haystack.
-  - Definition of success: We deploy a private repository containing encrypted secrets to Sourcegraph cloud, complete with a baseline for security monitoring. We are able to validate access to underlying hosts and the application in centralized logging.
+**Milestones:**
 
-**Host a capture the flag for Sourcegraph.com**
-
-  - Problem and rationale: Running a world class service capable of hosting private repositories is about more than application security. As examples, we need visibility into data loss, documentation for processes such as incident response, in addition to expanded defensive measures for both internal and external threat actors. These proxy for enhanced security concerns that a medium enterprise would require. This should be an ongoing, and escalating event, where we increase security controls and visibility whilst engaging on an ongoing capture the flag.
-  - Planned work:
-    - *Enhance policy documentation, and specific procedures such as incident response* - By its very nature, running a capture the flag generates ongoing events of interest, investigations, and incidents. Supporting this procedure both helps new hires get acclimated, and ensures the team is on the same page.
-    - *Deploy network visibility tools and integrate into our logging infrastructure* - A key part of attacking involves pivoting between hosts and service escalation. Through extending our visibility outbound, to the network layer, we would now have visibility into these attacks, and be able to analyze them. This include provides dashboards for network events of interest.
-    - *Conduct a mock capture the flag to tune security controls* - Given all of the logging, prior to announcing this event, we will test internally. This allows us to take the time to filter out various false positives from our logging, in addition to increasing or decreasing the verbosity of various logs, with the aim of increasing the value of security logging.
-    - *Encrypt stored data at rest* - possible future, TBD
-    - *Create data leakage alerts* - possible future, TBD
-  - Definition of success: We publicly commit to, and host an ongoing capture the flag, inviting the security community to participate, as we learn about our security measures. This will include both the repository from the previous goal, as well as a plain-text on-disk file containing the keys to unlock the repository.
-
-### Short term
-
-Our short term goals are documented in the current [tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+label%3Atracking+label%3Ateam%2Fsecurity+is%3Aopen).
+1. We connect our [test security repository](https://github.com/sourcegraph/security-test/blob/main/README.md) to Sourcegraph Cloud and only [members who can access that repository on GitHub](https://github.com/sourcegraph/security-test/settings/access) can access that repository on Sourcegraph Cloud (i.e., [Sourcegraph organization owners](https://github.com/orgs/sourcegraph/people?query=role%3Aowner) and [@sourcegraph/security](https://github.com/orgs/sourcegraph/teams/security) members).
+   - **DEPENDENCY:** We can't do this until we can have [private code on Sourcegraph Cloud](../cloud/index.md#private-code-on-sourcegraph-cloud)
+1. We advertise a bounty for each unique vulnerability that allows an unauthorized person to gain access to our [test security repository](https://github.com/sourcegraph/security-test/blob/main/README.md) on Sourcegraph Cloud.
+   - **DEPENDENCY:** This milestone depends on milestone 3 of [Visibility into Sourcegraph Cloud's attack surface](#visibility-into-sourcegraph-clouds-attack-surface). We should detect and fix the obvious issues ourselves before we start to invite others to attack us with large bounties.
+1. We run a time-bound capture the flag event where there are larger bounties for being able to gain access to our [test security repository](https://github.com/sourcegraph/security-test/blob/main/README.md) on Sourcegraph Cloud.
+1. We host our private [infrastructure repository](http://github.com/sourcegraph/infrastructure) on Sourcegraph Cloud.
+1. We allow paying customers to host their private code on Sourcegraph Cloud.
 
 ## Contact
 
@@ -61,9 +46,9 @@ Our short term goals are documented in the current [tracking issue](https://gith
 - Define, plan, and prioritize security work that needs to be done (and then go do that work).
 - Directly contribute to our codebase (i.e., Go, TypeScript, Kubernetes, Docker, Google Cloud Platform) to secure our application and deployments, and help other engineers on our team make the necessary changes.
 - [Respond to security vulnerability reports](#how-we-respond-to-security-vulnerability-reports)
-    - https://github.com/sourcegraph/security-issues
+  - https://github.com/sourcegraph/security-issues
 - Increase our security posture by running traditional security tools such as vulnerability scanners, SAST, and DAST tools.
-    - https://github.com/sourcegraph/sourcegraph/security/code-scanning
+  - https://github.com/sourcegraph/sourcegraph/security/code-scanning
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
 
 ## Reporting a vulnerability
@@ -72,7 +57,7 @@ If you think that you have found a security issue, please email us at <a href="m
 
 ### Bounties
 
-We provide monetary rewards, up to $10,000 USD, for security vulnerability reports. The actual reward amount is determined based on the number of customers impacted, the difficulty of exploiting the vulnerability, and the severity of the consequences (e.g. service disruption, data leakage, reputational damage to Sourcegraph) of a successful exploit.
+We provide monetary rewards, up to \$10,000 USD, for security vulnerability reports. The actual reward amount is determined based on the number of customers impacted, the difficulty of exploiting the vulnerability, and the severity of the consequences (e.g. service disruption, data leakage, reputational damage to Sourcegraph) of a successful exploit.
 
 We will send payment to a valid PayPal account after the issue is confirmed fixed or 90 days from the original report, whichever happens first. We will ask you for the name and country associated with your PayPal account.
 
@@ -92,11 +77,11 @@ When we receive [a report of a security vulnerability](#how-to-report-a-security
 
 - If not, a member of our security team will respond to the report to notify the reporter why we are not acting on the report.
 
-  > Thank you for your report. Could you please provide us with $INFOX, $INFOY, and $INFOZ so we can investigate this further? 
+  > Thank you for your report. Could you please provide us with $INFOX, $INFOY, and \$INFOZ so we can investigate this further?
 
-  > Thank you for your report. We will not be taking further action on this report because $REASONS.
+  > Thank you for your report. We will not be taking further action on this report because \$REASONS.
 
---------------------------
+---
 
 ## How we work
 
@@ -106,8 +91,8 @@ On the security team, we work by planning, tracking, and reviewing - creating a 
 
 1. [Goals](https://about.sourcegraph.com/company/goals/guidelines) are something we strive for, whilst tracking and communicating progress.
 2. A work item is a piece of work (e.g., writing code, hiring a new teammate) that makes progress toward achieving a goal.
-3. Releases may be made up of N workitems, that may impact Y goals.  Whilst this is true, we communicate both internally and externally progress towards those goals.
-4. Security by its various nature has public work items ([main repo](https://github.com/sourcegraph/sourcegraph) and private workitems ([security repo](https://github.com/sourcegraph/security-issues/)). Over time workitems should move from the private repository to the public repository once they can be made public.  The ideal goal state is the lack of a private security repository.
+3. Releases may be made up of N workitems, that may impact Y goals. Whilst this is true, we communicate both internally and externally progress towards those goals.
+4. Security by its various nature has public work items ([main repo](https://github.com/sourcegraph/sourcegraph) and private workitems ([security repo](https://github.com/sourcegraph/security-issues/)). Over time workitems should move from the private repository to the public repository once they can be made public. The ideal goal state is the lack of a private security repository.
 
 ### Planning
 
@@ -123,22 +108,21 @@ On the security team, we work by planning, tracking, and reviewing - creating a 
    a. Work items impacting this goal are created in GitHub, by using the labels team/security and secgoal:<someshortthing1>.
    b. When a work item is targets a specific release, the appropriate tracking label is added.
    c. Milestones for individual goals are communicated on the goal tracking issue.
-   
-2. Tracking issues are used for communicating status.  We embrace the small, incremental, but well thought out changes.  This provides the added benefit of easing communication with our customers, both internal and external.
+2. Tracking issues are used for communicating status. We embrace the small, incremental, but well thought out changes. This provides the added benefit of easing communication with our customers, both internal and external.
    a. By tagging work items, the tracking issues are the source of truth on a per release basis.
-   b. Each release has at least one goal associated with it, communicated in the tracking issue.  These goals are release specific, meaning they may or may not be reflected in our existing project goals.
-   
+   b. Each release has at least one goal associated with it, communicated in the tracking issue. These goals are release specific, meaning they may or may not be reflected in our existing project goals.
+
 ### Learning
 
-After the each release, we hold a [retrospective](https://about.sourcegraph.com/retrospectives). We try to understand the degree to which we achieved the goals we communicated at the beginning of the iteration.  We identify what went well and what our opportunities for improvement.  We actively choose one of the things we've learned, and target its improvement.
+After the each release, we hold a [retrospective](https://about.sourcegraph.com/retrospectives). We try to understand the degree to which we achieved the goals we communicated at the beginning of the iteration. We identify what went well and what our opportunities for improvement. We actively choose one of the things we've learned, and target its improvement.
 
 ### Working with other teams
 
-The security team helps other teams investigate, orient, review, and sometimes plan changes. 
+The security team helps other teams investigate, orient, review, and sometimes plan changes.
 
 **Small changes**
 
-Small changes, defined as less than 1 day of effort are communicated in a GitHub issue, either in the [sourcegraph repository](https://www.github.com/sourcegraph/sourcegraph) or, when sensitive in nature, the [security repository](https://www.github.com/sourcegraph/security-issues).  We provide a detailed bug report, including the steps to reproduce, and an example of the desired state.  Where possible, we identify and propose a fix, and submit a pull request to the [code owner](../code_reviews.md#who-should-i-get-a-code-review-from).
+Small changes, defined as less than 1 day of effort are communicated in a GitHub issue, either in the [sourcegraph repository](https://www.github.com/sourcegraph/sourcegraph) or, when sensitive in nature, the [security repository](https://www.github.com/sourcegraph/security-issues). We provide a detailed bug report, including the steps to reproduce, and an example of the desired state. Where possible, we identify and propose a fix, and submit a pull request to the [code owner](../code_reviews.md#who-should-i-get-a-code-review-from).
 
 **Medium changes**
 
@@ -146,7 +130,7 @@ Medium changes operate on the same principle as small changes, except that the c
 
 **Large changes**
 
-Changes that are cross-cutting or requiring greater than one week of effort are large, and communicated through [RFCs](../../communication/rfcs/index.md). The RFC provides as much context as possible about the issue, the reason for the change, and its relative importance and urgency.  We collaborate on the RFC as a team, sharing the RFC with the Engineering Manager(s) for the impacted team for both feedback and [prioritizing](../../product/prioritizing.md).  Upon approval, we create GitHub issues, labeling them with a new label, for the RFC (i.e RFC-214), sharing with the Engineering Manager.  When possible, a member of the security team attends the planning session, to help provide input should more be needed.
+Changes that are cross-cutting or requiring greater than one week of effort are large, and communicated through [RFCs](../../communication/rfcs/index.md). The RFC provides as much context as possible about the issue, the reason for the change, and its relative importance and urgency. We collaborate on the RFC as a team, sharing the RFC with the Engineering Manager(s) for the impacted team for both feedback and [prioritizing](../../product/prioritizing.md). Upon approval, we create GitHub issues, labeling them with a new label, for the RFC (i.e RFC-214), sharing with the Engineering Manager. When possible, a member of the security team attends the planning session, to help provide input should more be needed.
 
 **Providing input**
 
