@@ -86,6 +86,18 @@ git push origin release
 1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) and remove the `"extends:["default:automergeDigest"]` entry for the "Sourcegraph Docker images" group ([example](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/commit/0eb16fd9e3ddfcf3a3c75ccdda0e7eddabf19c7a)).
 1. Once you have fixed the issue in the `main` branch of [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph), re-enable auto-deploys by reverting your change to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) from step 1.
 
+### Accessing sourcegraph.com database
+
+Sourcegraph.com utilizes an external HA database. You will need to connect to it directly. The easiest way to do this is through the `gcloud` cli.
+
+To connect to the production database:
+
+```
+  gcloud beta sql connect sg-cloud-732a936743 --user=sg -d sg --project sourcegraph-dev
+```
+
+The password is in our shared 1Password under [Google Cloud SQL](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/svfiw4vcbxhhbobpl442olyebu/)
+
 ### k8s.sgdev.org
 
 [![Build status](https://badge.buildkite.com/65c9b6f836db6d041ea29b05e7310ebb81fa36741c78f207ce.svg?branch=release)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
@@ -448,6 +460,7 @@ These steps ensure that the diff between [deploy-sourcegraph-dot-com](https://gi
 In order to mimic the same workflow that we tell our customers to follow:
 
 - Customizations / documentation changes that **apply to all customers (not just sourcegraph.com)** should be:
+
   1. Merged into [`deploy-sourcegraph@master`](https://github.com/sourcegraph/deploy-sourcegraph/tree/master) (note that this will also [automatically update k8s.sgdev.org](#k8s-sgdev-org))
   1. Pulled into [`deploy-sourcegraph-dot-com@master`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/master):
   <pre>
@@ -457,6 +470,7 @@ In order to mimic the same workflow that we tell our customers to follow:
   </pre>
 
   1. Merged into [`deploy-sourcegraph-dot-com@release`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/release) by merging from[`deploy-sourcegraph-dot-com@master`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/master)—see [merging upstream](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-dot-com) for more details.
+
 - Customizations / documentation changes that **apply to only sourcegraph.com** can be simply merged into the [`deploy-sourcegraph-dot-com@release`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/release) branch.
 
 ### Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph-dot-com`
