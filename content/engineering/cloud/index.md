@@ -18,7 +18,7 @@ The cloud team is also responsible for all [backend-infrastructure areas of owne
 - Admin and user settings
 - Analytics
 
-## Goals guiding principles
+## Guiding principles
 
 1. **Make it work**: Build the backend blocking work, and expose it (even in a roughly usable way) to the Sourcegraph team. We will be able to quickly surface any glaring issues and will have more thoughts around usability. Take shortcuts where possible (this is currently due to the team having fewer frontend resources).
    - Where possible, making it work and usable should be combined (avoid duplicate efforts), but if it's possible to separate the two in order to move things forward, we should!
