@@ -31,6 +31,7 @@ Your manager should complete the following steps when you join:
   - [HoneyComb.io](https://www.honeycomb.io/)
   - Ask Christina to send an invite to [Productboard](https://sourcegraph.productboard.com)
   - Ask a member of the Design team to invite as "Viewer" to [Figma](https://figma.com)
+  - Ask on `dev-chat` for access to [Percy](https://percy.io/) which we use for visual testing.
 
 ## Weeks 1-3
 
