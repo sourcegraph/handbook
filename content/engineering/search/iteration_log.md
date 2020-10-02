@@ -22,6 +22,16 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+### Scale indexed search to 500k repositories
+- **Owner(s):** Stefan, Keegan
+- **Outcomes:**
+    - gap in tracing is explained
+    - zoekt scaled-out by factor 2 => observe change in latency
+    - search-blitz runs structural search queries
+    - list of functions that don't scale
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2020-09-21 to 2020-10-02
 
 ### Scale indexed search to 500k repositories
@@ -31,7 +41,11 @@ This document contains the goals and work log for the search team's [2-week iter
     - Zoekt is called before we resolve repositories in global search. The outcome of this is a faster global search.
     - Improved tracing for indexed search.
 - **Work log:**
-    - 2020-09-25: Important parts of the code path had not been instrumented with tracing. To pinpoint the performance issue, we added tracing to `newIndexSearchRequest` [#13949](https://github.com/sourcegraph/sourcegraph/pull/13949) and the RPC layer [#13951](https://github.com/sourcegraph/sourcegraph/pull/13951). Based on the improved tracing, we chose to focus our efforts on global queries first, IE queries without `repo:` or `file:` filters. Traces of global queries show that we spend a significant amount of time (O(#indexed repos)) on assembling, splitting, and serializing lists of repo revisions. With [#14093](https://github.com/sourcegraph/sourcegraph/pull/14093) we resolve repositories and query zoekt concurrently (limited to global, literal content searches). We plan to measure the impact of [#14093](https://github.com/sourcegraph/sourcegraph/pull/14093) with help of selected traces and search-blitz.
+  - 2020-10-02: 
+    - Added more tracing [#14335](https://github.com/sourcegraph/sourcegraph/pull/14335), [#14296](https://github.com/sourcegraph/sourcegraph/pull/14296), [#14371](https://github.com/sourcegraph/sourcegraph/pull/14371)
+    - Insights from new spans helped us to identify redudant calls to the DB [#14367](https://github.com/sourcegraph/sourcegraph/pull/14367)
+    - [#14093](https://github.com/sourcegraph/sourcegraph/pull/14093) was merged and reduces latency of global searches: Comparing traces of the same query before and after showed that the change reduced latency by 25% (400-> 300ms). The 100ms are important because they would have scaled with the number of indexed repositories.
+  - 2020-09-25: Important parts of the code path had not been instrumented with tracing. To pinpoint the performance issue, we added tracing to `newIndexSearchRequest` [#13949](https://github.com/sourcegraph/sourcegraph/pull/13949) and the RPC layer [#13951](https://github.com/sourcegraph/sourcegraph/pull/13951). Based on the improved tracing, we chose to focus our efforts on global queries first, IE queries without `repo:` or `file:` filters. Traces of global queries show that we spend a significant amount of time (O(#indexed repos)) on assembling, splitting, and serializing lists of repo revisions. With [#14093](https://github.com/sourcegraph/sourcegraph/pull/14093) we resolve repositories and query zoekt concurrently (limited to global, literal content searches). We plan to measure the impact of [#14093](https://github.com/sourcegraph/sourcegraph/pull/14093) with help of selected traces and search-blitz.
 
 ### Streaming search
 
