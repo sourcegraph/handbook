@@ -56,6 +56,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Survey is sent to internal users to gauge the response
 - **Work log:**
     - 2020-09-25: Feedback from design QA has been implemented and merged. Telemetry logging has been added. This feature is now also available for Sourcegraph.com behind a feature flag.
+    - 2020-10-02: All outcomes were met, and the enterprise homepage has been turned on by default.
 
 ### Search tour
 
@@ -67,7 +68,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Metrics logging is reviewed and approved by @ebrodymoore and @rrhyne.
 - **Work log:**
     - 2020-09-25: Fixes for the first round of user testing have been implemented in a [PR](https://github.com/sourcegraph/sourcegraph/pulls/attfarhan), approved by @limitedmage and awaiting review from @rrhyne and @lguychard. Metrics have been reviewed and approved by @ebrodymoore and rrhyne.
-
+    - 2020-10-02: All outcomes were met. Design has and continues to run more user testing, and there have not been additional changes requested.
+    
 ### Search expressions
 
 - **Owner(s):** Rijnard
