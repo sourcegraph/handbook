@@ -14,14 +14,6 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ## 2020-10-5 to 2020-10-16
 
-### $GOAL_OR_THEME
-
-- **Owner(s):** $OWNER
-- **Outcomes:**
-    - $DESIRED_OUTCOME
-- **Work log:**
-    - YYYY-MM-DD: $UPDATE
-
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
 - **Outcomes:**
@@ -29,6 +21,16 @@ This document contains the goals and work log for the search team's [2-week iter
     - zoekt scaled-out by factor 2 => observe change in latency
     - search-blitz runs structural search queries
     - list of functions that don't scale
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Streaming search
+
+- **Owner(s):** Keegan, Juliana
+- **Outcomes:**
+    - API: fully working v0 of API covering all types.
+    - Backend: true streaming for text search with stats.
+    - Webapp: TODO
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
@@ -57,6 +59,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Define experience for dynamic filters.
     - We have a project board representing remaining design + implementation work for future iterations.
 - **Work log:**
+    - 2020-10-02: Repository search results added to streaming API. In progress work for commit. Remaining is symbols, alerts and stats (to be tackled next).
     - 2020-09-25: Exploratory work has been made to understand how the search results page currently works and how the streaming search POC has been built. [Notes](https://docs.google.com/document/d/1ApXqBr9tasltKPvV9KHp64VzPekH5vCKOcAWz6Am6Ng/edit#heading=h.q8u68shhkq3i)
     - 2020-10-02: There is now an initial design ([Figma link](https://www.figma.com/file/IyiXZIbPHK447NCXov0AvK/13928-Streaming-search?node-id=25%3A451)]. More functionality has been added to the existing streaming search POC: repository searcha and dynamic filters.
 
