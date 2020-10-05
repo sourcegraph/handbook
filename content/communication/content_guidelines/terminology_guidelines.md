@@ -70,7 +70,7 @@ Only use _we_ and _our_ (as in “our GitHub integration”) in informal documen
 |configuration   | config       | "config" is OK in paths and navigation links|
 |custom search pages|   |Custom search pages allow users to quickly search within a set of curated repositories, with data and interesting searches shared on that page. For example, “use this custom search page for Python 2-to-3 migration code”. When possible, use the more specific names **Search scope page**, a more specific name for a custom search page that describes search pages at /search/scope/SCOPENAME, or **project search page**, a more specific name for a custom search page that describes pages for projects. For example, the Kubernetes project search page to search across all Kubernetes code.|
 |**D**   |   |   |
-|documentation  |docs  |"docs" is OK in paths and navigation links. Also, be clear on whether you mean code documentation, or product documentation. |
+|docs  |documentation  |Our voice is conversational and plainspoken. "Documentation" is overly formal, while "docs" is the common term today.|
 |email address   |email   |The two are both nouns, meaning different things.   |
 |**F**   |   |   |
 |field    |   |Refers to the first part in the key:value pair   |
