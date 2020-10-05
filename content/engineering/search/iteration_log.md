@@ -92,6 +92,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Make search expressions available under feature flag (merge WIP PR) 
 - **Work log:**
     - 2020-09-25: Not working on this this week. Next week.
+    - 2020-10-02: Didn't get a chance to do work on it this week.
 
 ### Blog post: Turning code search into on-demand lightweight analysis
 
@@ -100,6 +101,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Raise visibility on the topic/capability of code search as lightweight analysis. Inform relevant customer contacts about these capabilities.
 - **Work log:**
     - 2020-09-25: Want to get the multiline search query page onto Sourcegraph.com for the blog post, so I worked on that a bit. It doesn't have to be perfect, but it can't be a mess either, so I've been working on polishing up the [PR#14147](https://github.com/sourcegraph/sourcegraph/pull/14147). Debugged/fixed a major regression affecting repogroups, a setback for progress on this blog post. Also got sidetracked by an important customer issue about large files not being indexed, and debugged/reproduced the issue to help next steps. Will continue with this work item next week, should be ok to get things done in time.
+    - 2020-10-02: Finished the main blog post content. Got some valuable feedback and I'm going to do another pass to address that next week before publishing. The multiline editor page does need a bit more work (see [PR description](https://github.com/sourcegraph/about/pull/1618).
     
 ### Code Monitoring
 - **Owner(s):** Juliana
