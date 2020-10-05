@@ -63,20 +63,19 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
    - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
 1. Interviews
    - [1 hr] **Designing with customers and data**: The biz ops and customer engineering teams talk with you about how you work with customers to gather feedback. [Internal documentation for interviewers](https://github.com/sourcegraph/interviews/blob/master/product/product-designer/customers-and-data.md)
-      - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
-      - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
+     - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
+     - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
    - [1 hr] **Engineering collaboration**: We ask you about how you work and communicate in a team setting, and how you handle tricky situations. [Internal documentation for interviewers](https://github.com/sourcegraph/interviews/blob/master/product/product-designer/engineering-collaboration.md)
-      - Will interview with one of the following engineering managers:
-         - [Tomás Senart](../../../company/team/index.md#tomás-senart)
-         - [Loïc Guychard](../../../company/team/index.md#loïc-guychard)
-         - [Aida DeWitt](../../../company/team/index.md#aida-dewitt)
-         - Can backfill with any [engineering manager](../../engineering/leadership/index.md#members).
-      - Will interview with one of the following engineers:
-         - [Felix Becker](../../../company/team/index.md#felix-becker)
-         - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-         - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
-         - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
-         - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
+     - Will interview with one of the following engineering managers:
+       - [Tomás Senart](../../../company/team/index.md#tomás-senart)
+       - [Loïc Guychard](../../../company/team/index.md#loïc-guychard)
+       - Can backfill with any [engineering manager](../../engineering/leadership/index.md#members).
+     - Will interview with one of the following engineers:
+       - [Felix Becker](../../../company/team/index.md#felix-becker)
+       - [Erik Seliger](../../../company/team/index.md#erik-seliger)
+       - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
+       - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
+       - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
    - [30 min] [Quinn Slack](../../../company/team/index.md#quinn-slack) (CEO)
    - [30 min] [Beyang Liu](../../../company/team/index.md#beyang-liu) (CTO)
 1. We make you a job offer.
