@@ -139,6 +139,7 @@ _Updated 2020-09-11_
   - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
   - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
   - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
+  - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
 
 ## On-call
 
