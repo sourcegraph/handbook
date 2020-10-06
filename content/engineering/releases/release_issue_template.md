@@ -26,7 +26,6 @@ Arguments:
 
   All changes that will be part of `$MAJOR.$MINOR` (and all associated CHANGELOG updates) should be in `main` by tomorrow. Otherwise, they will not be included in the release.
   ```
-- [ ] Verify by posting in #product that there is a draft of the release blog post.
 
 ## $FOUR_WORKING_DAYS_BEFORE_RELEASE (4 work days before release): Branch cut
 
@@ -103,13 +102,11 @@ Cut a new release candidate daily if necessary:
   ```
 - [ ] Create (but do not merge) a PR to update https://docs.sourcegraph.com/admin/updates/kubernetes indicating the steps required to upgrade.
 - [ ] Review [all issues in the release milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Asourcegraph+milestone%3A$MAJOR.$MINOR). Backlog things that didn't make it into the release and ping issues that still need to be done for the release (e.g. Tweets, marketing).
-- [ ] Post in #product and verify the blog post is ready to be merged.
 
 ## $RELEASE_DATE by 10am: Release
 
 - [ ] Merge the release-publishing PRs created previously.
 - [ ] Cherry pick the release-publishing PR from sourcegraph/sourcegraph@main into the release branch.
-- [ ] Ask the product team to merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)).
 
 ### Post-release
 
