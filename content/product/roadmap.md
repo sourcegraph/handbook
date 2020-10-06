@@ -44,9 +44,9 @@ See [roadmap at a glance](https://docs.google.com/document/d/1zRTfK6mENKicfLwDaW
 ## Cloud
 
 1. [RFC 167: Product license tiers](https://docs.google.com/document/d/1XozQ4JINJqirdaG-XqGtboT2-PlIXPyBn6EwV7Q3pWI/edit?ts=5f0811cf#heading=h.trqab8y0kufp)
-1. User added code is indexed
+1. ~User added code is indexed~
 1. Syncing repos is more scalable
-1. Users do not need to take any steps for a repository they add to be searchable
+1. ~Users do not need to take any steps for a repository they add to be searchable~
 1. Metrics/monitoring in place to ensure a good experience
 1. GitHub app to have users sign in with GitHub and select the repos/organizations that have access.
 1. Use webhooks to receive updates on anything that is relevant to this user’s connection to GitHub
