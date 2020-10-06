@@ -28,7 +28,7 @@ Each team may decide how they would like to keep track of the backlog of issues,
 
 ## Prioritizing requests that impact the project roadmap
 
-Sometimes, we need to prioritize changes to our product on short notice due to new information we have. This change could be to benefit [customers](../sales/index.md#customer) or [prospects](../sales/index.md#prospect), or could be a stategic initiative.
+Sometimes, we need to prioritize changes to our product on short notice due to new information we have. This change could be to benefit [customers](../sales/index.md#customer) or [prospects](../sales/index.md#prospect), or could be a strategic initiative.
 
 If the requested change is large enough that it would impact the planned [project roadmap](roadmap.md) of one or several [engineering teams](../engineering/index.md#teams), we should handle its prioritization as follows:
 
@@ -49,6 +49,29 @@ If the requested change is large enough that it would impact the planned [projec
     - Making a final decision on whether to prioritize the request.
     - Communicating this decision to the engineering and sales/CE teams.
 1. Engineering managers own updating the project roadmap and iteration plans to reflect the product manager's decision. 
+
+## Prioritizing things that impact current iteration plans
+
+Sometimes, we need to prioritize changes to our product on _very_ short notice due to new information we have. Generally, short-term re-prioritization should not significantly change any in-progress iteration (milestone or sprint), but should provide the engineering team with sufficient data to alter their _upcoming_ iteration. Interrupting the current iteration can negatively impact engineering velocity and morale, can delay planned feature delivery, and contribute to engineer context switch fatigue and burnout.
+
+However, extenuating circumstances exist that would encourage us to break this rule (all subject to interpretation):
+
+- A bug that is significantly impacting Sourcegraph Cloud.
+- A bug that is significantly impacting a managed or on-premise instance.
+- A bug that is significantly impacting a prospective customer.
+- Critical, time-sensitive opportunities.
+
+Important questions to ask while re-prioritizing and proposing solutions for critical, short-term work:
+
+- Is an instance totally broken?
+- What is the impact to the business?
+- What happens if we don't do this?
+- What is the real (vs. perceived) urgency?
+- How does this impact the work that is planned?
+- Is this thing more important than what is planned?
+- Is this a hack? Will this be a sustainable solution?
+- Can we do it "right"? How long would that take?
+- Are we already planning on solving this? How long until we work on this? Is that timeline acceptable?
 
 ## Customer requests
 
