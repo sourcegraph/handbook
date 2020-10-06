@@ -88,6 +88,8 @@ git push origin release
 
 ### Accessing sourcegraph.com database
 
+#### Via the CLI
+
 Sourcegraph.com utilizes an external HA database. You will need to connect to it directly. The easiest way to do this is through the `gcloud` cli.
 
 To connect to the production database:
@@ -97,6 +99,14 @@ To connect to the production database:
 ```
 
 The password is in our shared 1Password under [Google Cloud SQL](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/svfiw4vcbxhhbobpl442olyebu/)
+
+#### Via BigQuery (for read-only operations)
+
+You can also query the production database via BigQuery as an external data source.
+
+See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561:bfa7c7e57f884d209f261d15e4610229) to get started.
+
+**Note**: This method only permits read-only access
 
 ### k8s.sgdev.org
 
