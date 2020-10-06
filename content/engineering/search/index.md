@@ -123,8 +123,8 @@ _Updated 2020-09-11_
           - Email
   - **Owner:** TBD
   - **Status:** Not started
-  - **Estimated start:** TODO
-  - **Estimated effort:** TODO
+  - **Estimated start:** 2020-11-02
+  - **Estimated effort:** 4 weeks
 
 ## Contact
 
