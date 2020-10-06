@@ -14,6 +14,20 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ## 2020-10-5 to 2020-10-16
 
+### Enterprise homepage
+- **Owner(s):** Juliana
+- **Outcomes:**
+    - Replace saved searches panel with a new repogroup panel on Cloud.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Search tour
+- **Owner(s):** Juliana
+- **Outcomes:**
+    - Do not show the Tour to users who have already searched.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
 - **Outcomes:**
