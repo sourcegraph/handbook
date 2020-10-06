@@ -74,9 +74,10 @@ Open the alert UI to click on the check URL that was failing and verify it's now
 Statefulsets are different to a deployment in that all pods must be in a healthy state before changes can be made.
 
 Currently sourcegraph uses statefulsets for the following services:
-  * gitserver
-  * grafana
-  * indexed-search
+
+- gitserver
+- grafana
+- indexed-search
 
 In order to push an update to a failing statefulset take the following action:
 
@@ -85,11 +86,13 @@ In order to push an update to a failing statefulset take the following action:
 ```console
 `kubectl apply -f <service.StatefulSet.yaml>`
 ```
+
 ### 2. Delete the pods in the stateful set:
 
 ```console
 REPLICAS=`kubectl get sts -n prod <statefulset> -o jsonpath={.spec.replicas}`; for i in `seq 0 $[REPLICAS-1]`; do POD=<statefulset>-$i;   echo "Deleting POD $POD";   kubectl delete pod -n prod $POD ; done
 ```
+
 ### 3. The statesfulset controller will now restart the pods. Verify the pods are starting successfully.
 
 ```console
@@ -314,8 +317,196 @@ Several of our static sites are hosted by Netlify at `about.sourcegraph.com`. Yo
 If you discover an issue with Netlify but their status page is not displaying it, open a support request using the credentials in 1Password.
 
 Sites:
+
 - `about.sourcegraph.com`
 - `sourcegraph.com/about` -307-> `about.sourcegraph.com/about`
 - `sourcegraph.com/pricing` -307-> `about.sourcegraph.com/pricing`
 
 For a full list of sites redirected from `sourcegraph.com/$KEY` reference the [router code](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/cmd/frontend/internal/app/ui/router.go#L86) in our frontend.
+
+## Moving a GCE disk between projects
+
+Moving a disk between projects requires multiple steps to ensure the disk is detached from its original source.
+
+- The initial disk can only be created using the same type. To change its type, you will have to snapshot the disk and restore as a new type.
+- The initial disks can only be moved to the same region as their source project.
+
+Create a new disk in your target project from the old disk:
+
+```
+gcloud compute disks create ${TARGET_DISK_NAME} --source-disk=https://www.googleapis.com/compute/v1/projects/${SOURCE_PROJECT}/zones/${SOURCE_ZONE}/disks/${PVC_NAME} --project=${TARGET_PROJECT} --zone=${TARGET_ZONE} --type ${SOURCE_TYPE}
+```
+
+We now have to snapshot and restore the disk, to ensure the disk is unlinked from its source disk. This process is the same as its used to [change a disk zone or type](#changing-a-gce-disk-zone-or-type), please follow that playbook.
+
+## Changing a GCE disk zone or type
+
+To change disk region or type, we need to first create a snapshot and then restore it to the new region or type.
+
+Snapshot:
+
+```
+gcloud compute disks snapshot ${SOURCE_DISK_NAME} --project=${PROJECT} --zone=${SOURCE_ZONE} --snapshot-names ${SNAPSHOT_NAME}
+```
+
+At this point, you can optionally delete the source disk.
+
+Restore:
+
+```
+gcloud compute disks create ${TARGET_DISK_NAME} --project=${PROJECT} --size ${TARGET_DISK_SIZE} --source-snapshot ${SNAPSHOT_NAME} --zone=${TARGET_ZONE} --type ${TARGET_DISK_TYPE}
+```
+
+_TARGET_DISK_SIZE has to be equal or larger than the original source disk._
+
+There is an [alias command](https://cloud.google.com/sdk/gcloud/reference/compute/disks/move) that performs the `snapshot -> restore` operation automatically to switch regions, but it fails on big disks.
+
+## Linking a PV/PVC to a GCE disk
+
+When we need to re-link a disk to a PersistentVolume and its associated PersistentVolumeClaim because we are restoring a disks from a snapshot or for some other reasons, we will need to adapt the Kubernetes resource definitions to link the existing GCE disk to GKE.
+
+Example PVC:
+
+```
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: MyDisk
+  namespace: SomeNamespace
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+```
+
+We will first ensure that the Claim is directly linked to an fixed Persistent Volume by setting the `claimRef` to the desired PVC. You also need to ensure that the `accessModes`, `capacity` and all other settings match between the claim and the volume.
+
+```
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: MyDisk
+spec:
+  accessModes:
+    - ReadWriteOnce
+  capacity:
+    storage: 1Gi
+  claimRef:
+    name: MyDisk
+    namespace: SomeNamespace
+  storageClassName: SomeStorageClass
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: MyDisk
+  namespace: SomeNamespace
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+```
+
+Lastly, we need to link the volume to a GCE disk by setting `gcePersistentDisk`. We must ensure that `gcePersistentDisk.pdName` matches the disk name in GCE.
+
+```
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: MyDisk
+spec:
+  accessModes:
+    - ReadWriteOnce
+  capacity:
+    storage: 1Gi
+  claimRef:
+    name: MyDisk
+    namespace: SomeNamespace
+  gcePersistentDisk:
+    fsType: ext4
+    pdName: SomeGCEDisk
+  storageClassName: SomeStorageClass
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: MyDisk
+  namespace: SomeNamespace
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+```
+
+### StatefulSets
+
+There are some additional steps when dealing with an `StatefulSet` as claims are not statically defined and we need to ensure the generated `PersistentVolumeClaim`s match the static `PersistentVolume`s.
+
+First, discard the `PersistentVolumeClaim` sections from the previous step, and inspect the `volumeClaimTemplates` section of the `StatefulSet`.
+
+```
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: MySet
+  namespace: SomeNamespace
+[...]
+spec:
+  [...]
+  replicas: 1
+  volumeClaimTemplates:
+    - metadata:
+        name: DataDisk
+      spec:
+        accessModes:
+        - ReadWriteOnce
+        resources:
+          requests:
+            storage: 1Gi
+        storageClassName: SomeStorageClass
+```
+
+Kubernetes will generate the `PersistentVolumeClaim` name using the `metadata.name` and `spec.volumeClaimTemplates.metadata.name` using the following format `${spec.volumeClaimTemplates.metadata.name}-${metadata.name}-${replica-index}` and will set the `claimRef.namespace` using `metadata.name`.
+
+Example `PersistentVolume` using the previous `volumeClaimTemplates`:
+
+```
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: DataDisk-0
+spec:
+  accessModes:
+    - ReadWriteOnce
+  capacity:
+    storage: 1Gi
+  claimRef:
+    name: DataDisk-MySet-0
+    namespace: SomeNamespace
+  gcePersistentDisk:
+    fsType: ext4
+    pdName: SomeGCEDisk
+  storageClassName: SomeStorageClass
+```
+
+## Export/Import a Cloud SQL database
+
+Exporting/Importing a database to Cloud SQL using `gcloud` requires the export to existing in a Google Storage bucket and it can be performed across GCP projects.
+
+Export:
+
+```
+gcloud --project=${SOURCE_PROJECT} sql export sql ${SOURCE_SERVER_NAME} 'gs://some-bucket/Cloud_SQL_Export_${SQL_SERVER_NAME}_${DB_NAME}' --database=${SOURCE_DB_NAME}
+```
+
+Import:
+
+```
+gcloud --project=${TARGET_PROJECT} sql import sql ${TARGET_SERVER_NAME} 'gs://some-bucket/Cloud_SQL_Export_${SOURCE_SERVER_NAME}_${SOURCE_DB_NAME}' --database=${TARGET_DB_NAME}
+```
