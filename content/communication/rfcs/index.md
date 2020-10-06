@@ -37,7 +37,7 @@ It is valuable to standardize on a single system for publishing RFCs.
 
 We have standardized on using Google Docs for RFCs.
 
-- We use G Suite at Sourcegraph so everyone already has access to all RFCs by default.
+- We use Google Workspace at Sourcegraph so everyone already has access to all RFCs by default.
 - Google Docs is a common tool that many people (both current and future teammates) are already familiar with.
 - It provides a commenting experience that is better than the evaluated alternatives.
 
