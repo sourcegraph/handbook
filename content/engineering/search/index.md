@@ -133,7 +133,7 @@ _Updated 2020-09-11_
 
 ## Members
 
-- [Pooja Jain](../../../company/team/index.md#) ([Product Manager](../../product/roles/product_manager.md)) is focused on search, [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is supporting.
+- [Pooja Jain](../../../company/team/index.md#) ([Product Manager](../../product/roles/product_manager.md))
 - [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
   - [Farhan Attamimi](../../../company/team/index.md#farhan-attamimi)
   - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
