@@ -23,6 +23,15 @@ This document contains the goals and work log for the search team's [2-week iter
     - list of functions that don't scale
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
+    
+### Search expressions & blog post
+
+- **Owner(s):** Rijnard
+- **Outcomes:**
+    - (1) Make search expressions available under feature flag (merge WIP PR) & (2) Raise visibility on the topic/capability of code search as lightweight analysis. Inform relevant customer contacts about these capabilities.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+    
 
 ### Streaming search
 
