@@ -12,22 +12,27 @@ gantt
 
 section Milestones
     3.21 :active, release-3.21, 2020-09-21, 2020-10-20
-    3.22 :active, release-3.22, 2020-10-21, 2020-11-20
+    3.22 :        release-3.22, 2020-10-21, 2020-11-20
 
-section Campaigns
-    TO DO :active, after release-3.21, 30d
+%% section Campaigns
+%%     TO DO :active, after release-3.21, 30d
 
 section Cloud
-    TO DO :active, after release-3.21, 30d
+    User added code is indexed and searchable                 :done,   2020-09-23, 2020-10-07
+    RFC 167 - Product license tiers                           :active, 2020-10-07, 14d
+    Syncing repos is more scalable                            :active, 2020-10-07, 14d
+    Metrics/monitoring in place                               :active, 2020-10-07, 14d
+    GitHub app to simplify access to repositories (spike)     :        2020-10-21, 2d
+    Webhooks to receive repo permissions and metadata (spike) :        2020-10-21, 2d
 
-section Code intel
-    TO DO :active, after release-3.21, 30d
+%% section Code intel
+%%     TO DO :active, after release-3.21, 30d
 
-section Web
-    TO DO :active, after release-3.21, 30d
+%% section Web
+%%     TO DO :active, after release-3.21, 30d
 
-section Search
-    TO DO :active, after release-3.21, 30d
+%% section Search
+%%     TO DO :active, after release-3.21, 30d
 </pre>
 
 ## Campaigns
@@ -43,17 +48,17 @@ See [roadmap at a glance](https://docs.google.com/document/d/1zRTfK6mENKicfLwDaW
 
 ## Cloud
 
-1. [RFC 167: Product license tiers](https://docs.google.com/document/d/1XozQ4JINJqirdaG-XqGtboT2-PlIXPyBn6EwV7Q3pWI/edit?ts=5f0811cf#heading=h.trqab8y0kufp)
-1. ~User added code is indexed~
-1. Syncing repos is more scalable
-1. ~Users do not need to take any steps for a repository they add to be searchable~
-1. Metrics/monitoring in place to ensure a good experience
+1. ✅ User added code is indexed
+1. ✅ Users do not need to take any steps for a repository they add to be searchable
+1. 🔄 [RFC 167: Product license tiers](https://docs.google.com/document/d/1XozQ4JINJqirdaG-XqGtboT2-PlIXPyBn6EwV7Q3pWI/edit?ts=5f0811cf#heading=h.trqab8y0kufp)
+1. 🔄 Syncing repos is more scalable
+1. 🔄 Metrics/monitoring in place to ensure a good experience
 1. GitHub app to have users sign in with GitHub and select the repos/organizations that have access.
 1. Use webhooks to receive updates on anything that is relevant to this user’s connection to GitHub
 1. Equivalent things to GitLab and Bitbucket Cloud
 1. User understands state and progress of their configured repositories and associated metadata
 1. [UX TBD: New sign up/auth flow]
-1. [UX TBD: Communicate state
+1. [UX TBD: Communicate state]
 
 Unplanned:
 
@@ -68,6 +73,10 @@ TO DO
 See [Distribution roadmap](https://github.com/sourcegraph/about/pull/1104).
 
 ## Search
+
+TO DO
+
+## Security
 
 TO DO
 
