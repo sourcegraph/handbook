@@ -1,6 +1,11 @@
 # Software Engineer - Backend
 
-We are looking for backend engineers who know how to design and build performance-sensitive distributed systems. You will innovate key systems (e.g., code search, campaigns, syntax highlighting, auth, code host integrations) to make [Universal Code Search](https://about.sourcegraph.com/product) more powerful and scale to our customers with the largest codebases in the world.
+We are looking for backend engineers who know how to design and build performance-sensitive distributed systems. You will innovate key systems (e.g., code search, syntax highlighting, auth, code host integrations) to make [Universal Code Search](https://about.sourcegraph.com/product) more powerful and scale to our customers with the largest codebases in the world.
+
+The following engineering teams are currently hiring for this role:
+
+1. [Search](../search/index.md)
+2. [Cloud](../cloud/index.md)
 
 ## Qualifications
 

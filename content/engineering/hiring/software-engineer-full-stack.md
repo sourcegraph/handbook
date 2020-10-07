@@ -6,6 +6,7 @@ The following engineering teams are currently hiring for this role:
 
 1. [Code Intelligence](../code-intelligence/index.md)
 2. [Cloud](../cloud/index.md)
+3. [Search](../search/index.md)
 
 ## Qualifications
 

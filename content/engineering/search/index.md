@@ -148,6 +148,8 @@ _Updated 2020-09-11_
 
 ## Growth plan
 
-_Updated 2020-07-22_
+_Updated 2020-10-07_
 
-We would like to grow this team to ~6-8 engineers and we expect the right split of skills to be roughly 50%/50% between [frontend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md) and [backend](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-backend.md). This growth is contingent upon having a dedicated engineering manager for this team.
+We are looking to hire:
+- A [full-stack software engineer](../hiring/software-engineer-full-stack.md)
+- A [backend software engineer](../hiring/software-engineer-backend.md)
