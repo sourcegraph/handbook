@@ -288,6 +288,27 @@ Foreign-key constraints:
 
 Using this information, you can determine whether a table exists, what columns it contains, and what indexes on it exist. This allows you to determine whether a given command ran successfully. For instance, if one of the commands in a migration was `CREATE INDEX global_dep_idx_package [...]`, and you got the above output from `\d`, that would indicate that the index was successfully created. If the index wasn't present, that would indicate that the `CREATE INDEX` had not been executed, and you would need to run that statement before clearing the `dirty` flag in `schema_migrations`.
 
+### Redis interactions
+
+### Connecting to the Redis databases in production
+
+Find the Redis pods:
+
+```sh
+$ kubectl -n prod get pods | grep redis
+redis-cache-8475866c76-swxlz                         2/2     Running     0          22d
+redis-store-7c5fb8dd89-jzx44                         2/2     Running     0          22d
+```
+
+Get a `redis-cli` prompt:
+
+```sh
+$ kubectl -n prod exec -it redis-store-7c5fb8dd89-jzx44 -- redis-cli
+Defaulting container name to redis-store.
+Use 'kubectl describe pod/redis-store-7c5fb8dd89-jzx44 -n prod' to see all of the containers in this pod.
+127.0.0.1:6379> 
+```
+
 ## DNS/SSL settings on Cloudflare
 
 - Visit https://dash.cloudflare.com/login (get the credentials from 1Password)
