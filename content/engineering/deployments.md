@@ -3,8 +3,8 @@
 We maintain multiple instances of Sourcegraph:
 
 - [sourcegraph.com](#sourcegraph-com) is our production deployment for open source code.
-- [sourcegraph.sgdev.org](#sourcegraph-sgdev-org) is our private deployment of Sourcegraph that contains our private code.
-- [k8s.sgdev.org](#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers.
+- [sourcegraph.sgdev.org](#sourcegraph-sgdev-org) is our private deployment of Sourcegraph that contains some of our private code.
+- [k8s.sgdev.org](#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers. Note that this also contains all of our private code.
 - [Managed instances](./distribution/managed/index.md) are deployments of Sourcegraph we manage for customers.
 
 Learn more about how these work in [deployment basics](#deployment-basics). Also on this page:
@@ -111,6 +111,8 @@ See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561
 ### k8s.sgdev.org
 
 [![Build status](https://badge.buildkite.com/65c9b6f836db6d041ea29b05e7310ebb81fa36741c78f207ce.svg?branch=release)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
+
+🚨 This deployment contains private code - do not use it for demos!
 
 This deployment is also colloquially referred to as "dogfood", "dogfood-k8s", or just "k8s". It deploys the latest changes in [`deploy-sourcegraph`](https://github.com/sourcegraph/deploy-sourcegraph), and by extension, `sourcegraph/sourcegraph`, via automated updates - learn more in [deployment basics](#deployment-basics).
 
