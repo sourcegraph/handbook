@@ -27,7 +27,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
    - Read through [our handbook](https://github.com/sourcegraph/about) to learn more about how we operate and to find answers to common questions that you might have.
 1. You write a short security assessment, taking less than **1hr** of your time, explaining a security vulnerability [sample problem](https://docs.google.com/document/d/1oXhjU_3y2uhpmWJ2hD0NTaqSanUAOlKDFFmjazAU3Rg/).
 1. We schedule remote interviews over video chat across multiple days.
-   - 1h **Security architecture:** We give you an open problem statement and you walk us through how you would solve the problem.
+   - 1h **Security concepts:** We give you an open problem statement and you walk us through how you would solve the problem.
       - Will interview with 2 of the following:
          - At least one member of the [security team](../security/index.md#members)
          - Any engineer mentioned in this document.
