@@ -18,7 +18,7 @@ We are looking for an engineering manager to lead our team that is building the 
 ## Qualifications
 
 - You have 2+ years of experience directly managing at least 3 full-time software engineers. We expect you already know how to lead a team.
-- You have done some amount of coding in the past 2 years (at work, on a personal project) to keep your skills up-to-date. We expect that you are able to review and provide valuable feedback on code, architecture, and designs.
+- You have done some amount of coding in the past 2 years (for example: at work or on a personal project) to keep your skills up-to-date. We expect that you are able to review and provide valuable feedback on code, architecture, and designs.
 - You are able to clearly communicate your past accomplishments verbally (example: in an interview) and in writing (examples: in your resume, in your answers to our application questions).
 - You have lead a team that has successfully shipped a product to (ideally enterprise) customers.
 - You have experience working with multiple programming languages and their ecosystems (e.g., tooling, communities), and are interested and curious to engage with languages that you aren't yet familiar with.
