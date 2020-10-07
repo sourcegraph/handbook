@@ -35,14 +35,30 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 ## Interview process
 
-1. You [apply here](https://jobs.lever.co/sourcegraph/895e2b30-9fd7-4b09-bf16-0fa6f9613684).
-1. We set up a 30-minute call to learn more about what you are looking for, tell you about Sourcegraph, and answer any questions that you have.
+1. You [apply here](https://jobs.lever.co/sourcegraph/895e2b30-9fd7-4b09-bf16-0fa6f9613684/apply).
+1. We schedule a 1 hour interview with the hiring manager of one of the teams you expressed preference for. You'll talk about your past work and accomplishments in depth, how you worked with others, decisions you made and what you'd do differently today.
+   - Read through [our handbook](https://github.com/sourcegraph/about) to learn more about how we operate and to find answers to common questions that you might have. We leave 10 minutes at the end of this interview for you to ask any additional questions.
 1. You complete a 2-hour [coding exercise in Go](software-engineer-coding-exercise.md#go-coding-exercise) that we designed to measure your understanding of concurrency and error handling.
-1. We schedule 4 hours of remote interviews over video chat across multiple days.
-   - **Architecture:** We give you an open problem statement and you walk us through how you would solve the problem.
-   - **Technical experience:** We ask you about your past work and accomplishments.
-   - **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
-   - **CEO/CTO:** We ask you about what motivates you to do your best work, and we tell you more about the vision for the company.
+   - Will be reviewed by 2 engineers chosen by the hiring manager of the team you expressed preference for.
+1. We schedule additional interviews across multiple days.
+   - 1h **Architecture:** We give you an open problem statement and you walk us through how you would solve the problem.
+     - Will interview with 2 of the following:
+       - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst)
+       - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
+       - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
+       - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
+       - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
+       - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
+   - 1h **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
+     - Will interview with the Product Manager of the team you expressed preference for and 1 other of:
+       - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
+       - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
+       - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
+       - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
+       - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
+   - 30m **VP Engineering**
+   - 30m **CTO**
+   - 30m **CEO**
 1. We check your references.
 1. We make you a job offer.
 

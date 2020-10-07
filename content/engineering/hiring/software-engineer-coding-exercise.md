@@ -41,8 +41,6 @@ This exercise is designed to give you an opportunity to demonstrate your skills 
 - You can look up documentation on the internet while you are coding.
 - After three hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
 
-If we decide to move forward, we will schedule a Technical Discussion interview to go over your solution and how you'd extend it with some additional requirements in mind.
-
 ## FAQ
 
 ### Why do you do a coding exercise?
