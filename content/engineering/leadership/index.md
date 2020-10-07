@@ -27,13 +27,6 @@ When a goal is "done", move it to our [work log](worklog.md)
 - Owner: Each EM owns this for their own team and should communicate the status of the goal setting process for their team in the handbook itself.
 - Status: [In progress](../../../company/goals.md#engineering).
 
-#### Career guidance for engineering roles at Sourcegraph
-
-- Problem: It is not clear to engineers on our team how we think about career development at Sourcegraph.
-- Plan: Write a blog post that illustrates possible career paths.
-- Owner: Chris
-- Status: [In progress](https://docs.google.com/document/d/1ARfJ9Pg8Z9ZbAj9VsN8VLfaR2b4_akDn9k2NMy4NmLM/edit).
-
 #### Engineering manager onboarding
 
 - Problem: We recently hired and onboarded our first group of engineering managers and onboarded each of them in an ad hoc way. We will be hiring at least one more engineering manager in the near future (for the web team) and we want to document what we have learned so they have an even better onboarding experience.
