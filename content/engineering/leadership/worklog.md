@@ -2,6 +2,14 @@
 
 This is a list of things we have done in reverse-chronological order grouped by month.
 
+## 2020-10
+
+### Career guidance for engineering roles at Sourcegraph
+
+- Problem: It is not clear to engineers on our team how we think about career development at Sourcegraph.
+- Owner: Chris
+- Solution: Wrote [this blog post](https://about.sourcegraph.com/blog/software-engineer-career-paths/).
+
 ## 2020-09
 
 ### Fullstack engineer role
