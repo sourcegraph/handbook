@@ -164,12 +164,13 @@ By default, members of the team will provide a brief update about the goals they
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
   - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
   - [A. RS](../../../company/team/index.md#todo) starts on the 2nd of November.
+  - [A. R](../../../company/team/index.md#todo) starts in October 19th.
 
 ## Growth plan
 
 _Updated 2020-08-05_
 
-We are growing the Cloud team by hiring both [Full stack Engineers](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-full-stack.md) and [Backend Engineers](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-backend.md).
+We are growing the Cloud team by hiring both [Full stack Engineers](../hiring/software-engineer-full-stack.md) and [Backend Engineers](../hiring/software-engineer-backend.md).
 
 There continues to be a need for work to happen on other areas of our backend infrastructure and the Cloud team is the best team to own that kind of work today. When this Cloud team reaches 6 engineers, we plan to split the team in half to form a new [Backend Infrastructure team](../backend-infrastructure/index.md). When this happens, Tomás will be the manager of both teams and will look to identify new managers so we are able to continue growing both teams.
 
