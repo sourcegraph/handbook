@@ -19,8 +19,8 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Replace saved searches panel with a new repogroup panel on Cloud.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
-
+    - 2020-10-07: The repogroup panel has been completed and checked in. We will consider turning the feature flag on by default in Cloud next week after getting feedback from internal users.
+    
 ### Search tour
 - **Owner(s):** Juliana
 - **Outcomes:**
