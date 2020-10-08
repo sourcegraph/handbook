@@ -31,12 +31,12 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
 - **Outcomes:**
-    - gap in tracing is explained
-    - zoekt scaled-out by factor 2 => observe change in latency
-    - search-blitz runs structural search queries
-    - list of functions that don't scale
+    - (done) gap in tracing is explained
+    - (in progress) zoekt scaled-out by factor 2 => observe change in latency
+    - (done) search-blitz runs structural search queries
+    - (done) identify pieces of code that don't scale -> repoSearch -> speed-up repoSearch
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-10-07: We improved tracing and closed  many of the gaps we prevously had. For example, with the new spans we found that `logSearchLatency` (which was previously untracked) was on the criticial path and took a significant amount of time [#14433](https://github.com/sourcegraph/sourcegraph/pull/14433). Search-blitz now tracks 1 structual query from Rynards blog post. I will align with Rijnard which additional queries are useful to add. After Bejang increased the global index, the latencies for global queries increased as expected. Surprisingly, the performance did not improve after we scaled out Zoekt. Right now, the assumption is that the performance of frontend degraded offsetting the gains by the scale out. For example the increase of the global index revealed that repo search is a bottleneck. It relies on resolved repositories and generally runs after file/path search. For the global query `context.WithValue`, repo search can take up to 200ms. We evaluated different options (leverage Cgo to call out to more performant Rust regex engine, offload matching to zoekt, and concurrency). In the end we went with concurrency, because calling out to Rust comes with an additional burden for deployments, and calling out to zoekt brings complexity while just benefiting the global queries (although we might want to come back to that idea later). Concurrency seemed to be a good tradeof of performance/effort for now.
     
 ### Search expressions & blog post
 
