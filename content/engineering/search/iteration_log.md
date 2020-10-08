@@ -26,7 +26,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Do not show the Tour to users who have already searched.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-10-08: The tour has been modified to only show to users on their first day of using Sourcegraph, based on the same data we already use to determine when to show user other notifications ([See PR](https://github.com/sourcegraph/sourcegraph/pull/14535)).
 
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
