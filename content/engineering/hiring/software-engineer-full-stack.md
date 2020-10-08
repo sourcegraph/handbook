@@ -41,7 +41,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 ## Interview process
 
 1. You [apply here](https://jobs.lever.co/sourcegraph/cea553ce-ace7-4b44-8828-8d421e5e7e9c/apply).
-1. We schedule a 1 hour interview with the hiring manager of one of the teams you expressed preference for. You'll talk about your past work and accomplishments in depth, how you worked with others, decisions you made and what you'd do differently today.
+1. We schedule a 1 hour **Technical experience** interview with the hiring manager of one of the teams you expressed preference for. You'll talk about your past work and accomplishments in depth, how you worked with others, decisions you made and what you'd do differently today.
    - Read through [our handbook](https://github.com/sourcegraph/about) to learn more about how we operate and to find answers to common questions that you might have. We leave 10 minutes at the end of this interview for you to ask any additional questions.
 1. You complete a 3-hour [coding exercise](software-engineer-coding-exercise.md#full-stack-coding-exercise) that we designed for you to be able to demonstrate your skills in building a small web application end-to-end.
    - Will be reviewed by 2 engineers chosen by the hiring manager of the team you expressed preference for.
