@@ -34,10 +34,9 @@ Arguments:
   yarn run release changelog:cut $MAJOR.$MINOR.0
   ```
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step: `git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR`.
-- [ ] Tag and announce the first release candidate:
+- [ ] Tag the first release candidate:
   ```
   yarn run release release-candidate:create $MAJOR.$MINOR.0-rc.1
-  yarn run release release-candidate:dev-announce $MAJOR.$MINOR.0-rc.1
   ```
 - [ ] Run regression tests:
   - [ ] Follow [README.md](https://github.com/sourcegraph/sourcegraph/blob/main/web/src/regression/README.md) to set up your e2e environment. 
@@ -74,10 +73,9 @@ Cut a new release candidate daily if necessary:
 
 ## $ONE_WORKING_DAY_BEFORE_RELEASE (1 work day before release) Tag final release
 
-- [ ] Tag and announce on Slack the final release:
+- [ ] Tag the final release:
   ```
   yarn run release release-candidate:create $MAJOR.$MINOR.0
-  yarn run release release-candidate:dev-announce $MAJOR.$MINOR.0
   ```
 - [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on
   `main` is accurate (no items should have been added since branch cut, but some items may need to
