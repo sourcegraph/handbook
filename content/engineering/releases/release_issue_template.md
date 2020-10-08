@@ -80,18 +80,7 @@ Cut a new release candidate daily if necessary:
 - [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on
   `main` is accurate (no items should have been added since branch cut, but some items may need to
   be removed).
-- [ ] Wait for the release Docker images to be available at https://hub.docker.com/r/sourcegraph/server/tags.
-- [ ] Cut the Kubernetes cluster release in [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph):
-    - [ ] Create the `$MAJOR.$MINOR` release branch from `master`.
-        ```
-        VERSION='$MAJOR.$MINOR' bash -c 'git fetch origin && git checkout origin/main && git branch $VERSION && git checkout $VERSION && git push -u origin $VERSION'
-        ```
-    - [ ] Trigger an upgrade using the [Update tags workflow](https://github.com/sourcegraph/deploy-sourcegraph/actions?query=workflow%3A%22Update+tags%22) - set `version` to a semver contraint that will apply the version you want (e.g. `~$MAJOR.$MINOR`) and set the branch to the branch you want to upgrade (i.e. `$MAJOR.$MINOR`). Merge the pull request that gets created ([example](https://github.com/sourcegraph/deploy-sourcegraph/pull/863)).
-    - [ ] Tag the `v$MAJOR.$MINOR.0` release at this commit.
-        ```
-        VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
-        ```
-    - [ ] Add a new section to the [Kubernetes CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/doc/admin/updates/kubernetes.md)   
+- [ ] Wait for the release Docker images to be available in [Docker Hub](https://hub.docker.com/r/sourcegraph/server/tags).
 - [ ] Release Docker Compose by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-docker/blob/master/RELEASING.md)
 - [ ] Open (but do not merge) PRs that publish the new release:
   ```
@@ -104,7 +93,15 @@ Cut a new release candidate daily if necessary:
 ## $RELEASE_DATE by 10am: Release
 
 - [ ] Merge the release-publishing PRs created previously.
-- [ ] Cherry pick the release-publishing PR from sourcegraph/sourcegraph@main into the release branch.
+  - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph), also:
+    - [ ] Tag the `v$MAJOR.$MINOR.0` release at this commit.
+        ```
+        VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
+        ```
+    - [ ] Merge the PR to update the [Kubernetes CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/doc/admin/updates/kubernetes.md)
+  - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
+    - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
+- [ ] Ask the product team to merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)).
 
 ### Post-release
 
