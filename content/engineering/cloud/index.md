@@ -160,7 +160,6 @@ By default, members of the team will provide a brief update about the goals they
 - [Tomás Senart](../../../company/team/index.md#tomás-senart) ([Engineering Manager](../roles.md#engineering-manager))
   - [Joe Chen](../../../company/team/index.md#joe-chen)
   - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
-  - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
   - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
   - [A. RS](../../../company/team/index.md#todo) starts on the 2nd of November.
