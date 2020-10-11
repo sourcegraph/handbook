@@ -28,7 +28,7 @@ TODO
   - [Christine Lovett](../../company/team/index.md#christine-lovett-sheher)
   - [Tion Thomas](../../company/team/index.md#tion-thomas-hehim)
 - Customer Support
-  - We’re hiring a [Head of Customer Support](/roles/head_of_customer_support.md). Julia Glilnets is involved in the meantime.
+  - We’re hiring a [Head of Customer Support](./roles/head_of_customer_support.md). Julia Glilnets is involved in the meantime.
 - Training
 
 
