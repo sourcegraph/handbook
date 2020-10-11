@@ -22,11 +22,11 @@ TODO
 
 ## Members
 
-- [Julia Gilinets](../../company/team/index.md#julia-gilinets-sheher) VP of Customer Engineering
+- [Julia Gilinets](../../company/team/index.md#julia-gilinets-she-her) VP of Customer Engineering
 - Customer Engineers
-  - [Dan Adler](../../company/team/index.md#dan-adler-hehim) (interim CE member, former CE manager)
-  - [Christine Lovett](../../company/team/index.md#christine-lovett-sheher)
-  - [Tion Thomas](../../company/team/index.md#tion-thomas-hehim)
+  - [Dan Adler](../../company/team/index.md#dan-adler-he-him) (interim CE member, former CE manager)
+  - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
+  - [Tion Thomas](../../company/team/index.md#tion-thomas-he-him)
 - Customer Support
   - We’re hiring a [Head of Customer Support](./roles/head_of_customer_support.md). Julia Glilnets is involved in the meantime.
 - Training
