@@ -1,8 +1,89 @@
 # Playbooks
 
-## [Sourcegraph.com is deleted entirely](dotcom_deleted_entirely.md)
+Many of these tips require kubectl usage - you can refer to the [deployment page's Kubernetes section](../../deployments.md#kubernetes) to help you get set up and started with basic commands.
 
-This playbook has a dedicated [page](dotcom_deleted_entirely.md)
+## Figure out why a pod is in CrashLoopBackoff
+
+`CrashLoopBackoff` indicates that a service is repeatedly failing to start. Instead of using Google Cloud Console to check the logs, the best way to figure out why a pod is in this state is to use the following commands:
+
+```sh
+kubectl get pods -o=wide --namespace=prod   # find the pod you are interested in
+kubectl describe --namespace=prod pod $POD_NAME
+```
+
+In the output, you'll find logs and a snippet like the following that can give more information about why a service has not started:
+
+```
+    State:         Waiting
+      Reason:      CrashLoopBackOff
+    Last State:    Terminated
+      Reason:      OOMKilled
+      Message:     690
+```
+
+Certain states like `Terminated` is not very clearly indicated in Google Cloud Console, and will usually not be properly indicated in logs either.
+
+## Restarting pods
+
+This action is also referred to as "bouncing pods" or to "bounce a pod". Follow the steps to [authenticate kubectl](../../deployments.md) and perform a restart using kubectl to restart the desired deployment:
+
+```sh
+kubectl rollout restart deployment/$SERVICE
+```
+
+Note the use of `deployment/` - you cannot restart services (`svc/`). Note that [stateful sets have a different process](#making-updates-to-stateful-sets).
+
+You can also bounce pods by manually finding them via `kubectl get pods` and `kubectl delete pod $POD_ID`. Once a pod is deleted, it will automatically be recreated.
+
+## Making updates to stateful sets
+
+Statefulsets are different to a deployment in that all pods must be in a healthy state before changes can be made.
+
+Currently sourcegraph uses statefulsets for the following services:
+
+- gitserver
+- grafana
+- indexed-search
+
+In order to push an update to a failing statefulset take the following action:
+
+### 1. Update the statefulset `yaml` with the appropriate change and apply using:
+
+```console
+`kubectl apply -f <service.StatefulSet.yaml>`
+```
+
+### 2. Delete the pods in the stateful set:
+
+```console
+REPLICAS=`kubectl get sts -n prod <statefulset> -o jsonpath={.spec.replicas}`; for i in `seq 0 $[REPLICAS-1]`; do POD=<statefulset>-$i;   echo "Deleting POD $POD";   kubectl delete pod -n prod $POD ; done
+```
+
+### 3. The statesfulset controller will now restart the pods. Verify the pods are starting successfully.
+
+```console
+watch -n1 kubectl get all -n prod -l app=gitserver -o wide
+```
+
+### 4. Verify service is restored
+
+Open the alert UI to click on the check URL that was failing and verify it's now working again.
+
+## Useful dashboards
+
+### Metrics
+
+Dashboards for Prometheus metrics are available at `/-/debug/grafana` (for example, [sourcegraph.com/-/debug/grafana](https://sourcegraph.com/-/debug/grafana)).
+
+### Tracing
+
+Jaeger is available at `/-/debug/jaeger` (for example, [sourcegraph.com/-/debug/jaeger](https://sourcegraph.com/-/debug/jaeger)).
+
+### Prod logs
+
+1. Go to **Kubernetes Engine > Workloads**, then search and click on the pod you're interested, e.g. `sourcegraph-frontend`.
+2. In the **Deployment details** page, there is a row called **Logs**, which has both **Container logs** and **Audit logs**.
+3. Click on the **Container logs**, then you should be redirected to the **Logs Viewer** page.
 
 ## Free gitserver disk space on sourcegraph.com
 
@@ -69,68 +150,6 @@ watch -n1 kubectl get all -n prod -l app=gitserver -o wide
 
 Open the alert UI to click on the check URL that was failing and verify it's now working again.
 
-## Making updates to stateful sets
-
-Statefulsets are different to a deployment in that all pods must be in a healthy state before changes can be made.
-
-Currently sourcegraph uses statefulsets for the following services:
-
-- gitserver
-- grafana
-- indexed-search
-
-In order to push an update to a failing statefulset take the following action:
-
-### 1. Update the statefulset `yaml` with the appropriate change and apply using:
-
-```console
-`kubectl apply -f <service.StatefulSet.yaml>`
-```
-
-### 2. Delete the pods in the stateful set:
-
-```console
-REPLICAS=`kubectl get sts -n prod <statefulset> -o jsonpath={.spec.replicas}`; for i in `seq 0 $[REPLICAS-1]`; do POD=<statefulset>-$i;   echo "Deleting POD $POD";   kubectl delete pod -n prod $POD ; done
-```
-
-### 3. The statesfulset controller will now restart the pods. Verify the pods are starting successfully.
-
-```console
-watch -n1 kubectl get all -n prod -l app=gitserver -o wide
-```
-
-### 4. Verify service is restored
-
-Open the alert UI to click on the check URL that was failing and verify it's now working again.
-
-## Restarting pods
-
-This action is also referred to as "bouncing pods" or to "bounce a pod". Follow the steps to [authenticate kubectl](../../deployments.md) and perform a restart using kubectl to restart the desired deployment:
-
-```sh
-kubectl rollout restart deployment/$SERVICE
-```
-
-Note the use of `deployment/` - you cannot restart services (`svc/`). Note that [stateful sets have a different process](#making-updates-to-stateful-sets).
-
-You can also bounce pods by manually finding them via `kubectl get pods` and `kubectl delete pod $POD_ID`. Once a pod is deleted, it will automatically be recreated.
-
-## Useful dashboards
-
-### Metrics
-
-Dashboards for Prometheus metrics are available at `/-/debug/grafana` (for example, [sourcegraph.com/-/debug/grafana](https://sourcegraph.com/-/debug/grafana)).
-
-### Tracing
-
-Check out the [kubectl cheatsheet](../../deployments.md#kubectl-cheatsheet) for how to get access to Jaeger locally.
-
-### Prod logs
-
-1. Go to **Kubernetes Engine > Workloads**, then search and click on the pod you're interested, e.g. `sourcegraph-frontend`.
-2. In the **Deployment details** page, there is a row called **Logs**, which has both **Container logs** and **Audit logs**.
-3. Click on the **Container logs**, then you should be redirected to the **Logs Viewer** page.
-
 ## PostgreSQL database problems
 
 We provide two sets of instructions here, shell commands and PostgreSQL commands to be run inside a `psql` instance. PostgreSQL commands are denoted by the prompt `sg=#` in this documentation; the actual prompt corresponds to the postgres user name.
@@ -139,25 +158,13 @@ There's also a web interface for checking on common things, `https://pgsql-inspe
 
 ### Shell commands
 
-These commands assume you're on a local machine, and trying to access the live systems.
+These commands assume you're on a local machine, and trying to access the live systems. Also refer to the [deployment page's Kubernetes section](../../deployments.md#kubernetes) for kubectl tips.
 
 #### Helpful aliases
 
 ```bash
 alias dbpod='kubectl get pods --namespace=prod | grep pgsql | cut -d " " -f 1'
 alias proddb='kubectl exec -it --namespace=prod $(dbpod) -- psql -U sg -P pager=off';
-```
-
-#### Reauthenticate kubectl
-
-If you see the following when running `kubectl` commands:
-
-> Unable to connect to the server: x509: certificate signed by unknown authority
-
-Run:
-
-```
-gcloud container clusters get-credentials dot-com --zone us-central1-f --project sourcegraph-dev
 ```
 
 #### Check load average
@@ -531,3 +538,7 @@ Import:
 ```
 gcloud --project=${TARGET_PROJECT} sql import sql ${TARGET_SERVER_NAME} 'gs://some-bucket/Cloud_SQL_Export_${SOURCE_SERVER_NAME}_${SOURCE_DB_NAME}' --database=${TARGET_DB_NAME}
 ```
+
+## [Sourcegraph.com is deleted entirely](dotcom_deleted_entirely.md)
+
+This playbook has a dedicated [page](dotcom_deleted_entirely.md)

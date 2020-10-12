@@ -156,30 +156,31 @@ This section contains tips and advice for interacting with our Kubernetes deploy
 1. Make sure that you have been granted access to our Google Cloud project: https://console.developers.google.com/project/sourcegraph-dev?authuser=0. You may need to change `authuser` to the index of your sourcegraph.com Google account.
 
 1. Install the `gcloud` command (CLI for interacting with the Google Cloud):
-
    ```
    curl https://sdk.cloud.google.com | bash
    ```
-
 1. Get authorization for your `gcloud` command:
-
    ```
    gcloud auth login
    ```
-
 1. Install the `kubectl` command (CLI for interacting with Kubernetes):
-
    ```
    gcloud components install kubectl
    ```
-
-1. Configure `kubectl` to point to the desired cluster using the appropriate `gcloud container clusters get-credentials` command listed at the top of this document.
-
+1. Configure `kubectl` to point to the desired cluster using the appropriate `gcloud container clusters get-credentials` command listed at the [top of this document](#deployments).
 1. Verify that you have access to kubernetes:
 
    ```
    kubectl get pods --all-namespaces
    ```
+
+#### Reauthenticate kubectl
+
+If you see the following when running `kubectl` commands:
+
+> Unable to connect to the server: x509: certificate signed by unknown authority
+
+Just run the appropriate `gcloud container clusters get-credentials` command listed at the [top of this document](#deployments) again to reauthenticate.
 
 ### kubectl cheatsheet
 
