@@ -28,6 +28,7 @@ These goals represent our targeted work for 70% of our time. The remaining 30% i
 
 **Milestones:**
 
+1. We need a better way to store and access [our own secrets](https://docs.google.com/document/d/1HzO7szEm-h4fqlQOnVbcJdpDmfQiM7Rb-Tz4CMEYl-Q).
 1. We connect our [test security repository](https://github.com/sourcegraph/security-test/blob/main/README.md) to Sourcegraph Cloud and only [members who can access that repository on GitHub](https://github.com/sourcegraph/security-test/settings/access) can access that repository on Sourcegraph Cloud (i.e., [Sourcegraph organization owners](https://github.com/orgs/sourcegraph/people?query=role%3Aowner) and [@sourcegraph/security](https://github.com/orgs/sourcegraph/teams/security) members). (3.22 release)
    - **DEPENDENCY:** We can't do this until we can have [private code on Sourcegraph Cloud](../cloud/index.md#private-code-on-sourcegraph-cloud)
 1. We advertise a bounty for each unique vulnerability that allows an unauthorized person to gain access to our [test security repository](https://github.com/sourcegraph/security-test/blob/main/README.md) on Sourcegraph Cloud. (3.23 release)
