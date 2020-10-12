@@ -36,7 +36,7 @@ Arguments:
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step: `git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR`.
 - [ ] Tag the first release candidate:
   ```
-  yarn run release release-candidate:create $MAJOR.$MINOR.0-rc.1
+  yarn run release release:create-candidate $MAJOR.$MINOR.0-rc.1
   ```
 - [ ] Run regression tests:
   - [ ] Follow [README.md](https://github.com/sourcegraph/sourcegraph/blob/main/web/src/regression/README.md) to set up your e2e environment. 
@@ -64,8 +64,7 @@ Cut a new release candidate daily if necessary:
 
 - [ ] Cut and announce release candidate:
   ```
-  N=<release-candidate-number> yarn run release release-candidate:create $MAJOR.$MINOR.0-rc.$N
-  N=<release-candidate-number> yarn run release release-candidate:dev-announce $MAJOR.$MINOR.0-rc.$N
+  N=<release-candidate-number> yarn run release release:create-candidate $MAJOR.$MINOR.0-rc.$N
   ```
 - [ ] Re-run the automated test suite against the new release candidate, file any regressions as
   `release-blocker` issues.
@@ -113,13 +112,10 @@ Cut a new release candidate daily if necessary:
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
   ```
   # Add calendar events and reminders for key dates in the release cycle
-  yarn run release add-timeline-to-calendar
+  yarn run release tracking:release-timeline
 
   # Create the release tracking issue (i.e., this issue)
-  yarn run release tracking-issue:create
-
-  # Post link to tracking to #dev-announce
-  yarn run release tracking-issue:announce
+  yarn run release tracking:release-issue
   ```
 - [ ] Close this issue.
 - [ ] Close the milestone.

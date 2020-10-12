@@ -1,5 +1,5 @@
 <!--
-DO NOTE COPY THIS ISSUE TEMPLATE MANUALLY. Use `yarn run release patch:issue <version>` from the
+DO NOTE COPY THIS ISSUE TEMPLATE MANUALLY. Use `yarn run release tracking:patch-issue <version>` from the
 `dev/release` directory in the main repository to create a patch release issue, instead.
 
 Arguments:
