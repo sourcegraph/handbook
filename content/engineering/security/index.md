@@ -4,7 +4,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Goals
 
-Our current work is documented in our [tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+label%3Atracking+label%3Ateam%2Fsecurity+is%3Aopen).
+These goals represent our targeted work for 70% of our time. The remaining 30% is reserved for items that arise such as security reports. Our current work is documented in our [tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+label%3Atracking+label%3Ateam%2Fsecurity+is%3Aopen).
 
 ### Visibility into Sourcegraph Cloud's attack surface
 
