@@ -18,14 +18,11 @@ Arguments:
 
 ## $FIVE_WORKING_DAYS_BEFORE_RELEASE (5 work days before release): Prep for branch cut
 
-- [ ] Post to [#dev-announce](https://app.slack.com/client/T02FSM7DL/C0EPTDE9L) the following message:
+- [ ] Post a release status update to Slack:
   ```
-  :captain: *Release captain announcement:*
-
-  Branch cut will be at the start of the next working day ($FOUR_WORKING_DAYS_BEFORE_RELEASE).
-
-  All changes that will be part of `$MAJOR.$MINOR` (and all associated CHANGELOG updates) should be in `main` by tomorrow. Otherwise, they will not be included in the release.
-  ```
+  yarn run release release:status $MAJOR.$MINOR.0
+  ``` 
+  - [ ] Review [all release-blocking issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Asourcegraph+label%3Arelease-blocker). Add them as checklist items here. Ensure someone is resolving each.
 
 ## $FOUR_WORKING_DAYS_BEFORE_RELEASE (4 work days before release): Branch cut
 
@@ -55,14 +52,18 @@ Arguments:
 ## $FOUR_WORKING_DAYS_BEFORE_RELEASE to $ONE_WORKING_DAY_BEFORE_RELEASE: Cut new release candidates
 
 As necessary, `git cherry-pick` bugfix (not feature!) commits from `main` into the release branch.
-Aggressively revert or disable features that may cause delays:
+Aggressively revert or disable features that may cause delays.
 
-- [ ] Review [all release-blocking issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+archived%3Afalse+org%3Asourcegraph+label%3Arelease-blocker). Add them as checklist items here. Ensure someone is resolving each.
-- [ ] Review [all other open issues in the milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Asourcegraph+-label%3Arelease-blocker+milestone%3A$MAJOR.$MINOR) and ask assignees to triage them to a different milestone (preferring Backlog).
+- [ ] Post a release status update to Slack:
+  ```
+  yarn run release release:status $MAJOR.$MINOR.0
+  ``` 
+  - [ ] Review [all release-blocking issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+archived%3Afalse+org%3Asourcegraph+label%3Arelease-blocker). Add them as checklist items here. Ensure someone is resolving each.
+  - [ ] Review [all other open issues in the milestone](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Asourcegraph+-label%3Arelease-blocker+milestone%3A$MAJOR.$MINOR) and ask assignees to triage them to a different milestone (preferring Backlog).
 
 Cut a new release candidate daily if necessary:
 
-- [ ] Cut and announce release candidate:
+- [ ] Cut release candidate:
   ```
   N=<release-candidate-number> yarn run release release:create-candidate $MAJOR.$MINOR.0-rc.$N
   ```
@@ -93,11 +94,11 @@ Cut a new release candidate daily if necessary:
 
 - [ ] Merge the release-publishing PRs created previously.
   - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph), also:
+    - [ ] Merge the PR to update the [Kubernetes CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/doc/admin/updates/kubernetes.md)
     - [ ] Tag the `v$MAJOR.$MINOR.0` release at this commit.
         ```
         VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
         ```
-    - [ ] Merge the PR to update the [Kubernetes CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/doc/admin/updates/kubernetes.md)
   - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
     - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
 - [ ] Ask the product team to merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)).
