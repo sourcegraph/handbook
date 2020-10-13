@@ -42,6 +42,7 @@ These goals represent our targeted work for 70% of our time. The remaining 30% i
 - [security@sourcegraph.com](mailto:security@sourcegraph.com)
 - #security channel Slack.
 - [@sourcegraph/security](https://github.com/orgs/sourcegraph/teams/security) on GitHub.
+- [report a vulnerability](reporting-vulnerabilities.md)
 
 ## Responsibilities
 
@@ -53,10 +54,6 @@ These goals represent our targeted work for 70% of our time. The remaining 30% i
 - Increase our security posture by running traditional security tools such as vulnerability scanners, SAST, and DAST tools.
   - https://github.com/sourcegraph/sourcegraph/security/code-scanning
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
-
-## Reporting a vulnerability
-
-If you think that you have found a security issue, please email us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>. We will reply to reports within 1 US business day to acknowledge that we received them and will strive to send you regular updates on our progress until the issue is resolved. You may request an update by replying to the existing email thread. We will read, but may not respond to low quality or spammy reports (e.g. those produced by automated tooling).
 
 ### Bounties
 
