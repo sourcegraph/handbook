@@ -50,6 +50,8 @@ If a customer is experiencing an issue related to their license key or subscript
 
 The incident responder will need to select a Sourcegraph.com account to attach the subscription to (typically the account should belong to the customer, so they can access the license key directly from their user profile, but in an emergency, the incident responder can use their own account in lieu of asking the customer), and can then manually generate a license key. No license "tags" are necessary.
 
+If a customer's instance is reporting "license expired" already, note that [there is a 72hr grace period](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/internal/license/license.go#L43:15) before non-admin users are locked out.
+
 ## Resolution owner
 
 The resolution owner is responsible for resolving the incident as quickly and safely as possible.
