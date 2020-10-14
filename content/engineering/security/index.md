@@ -16,11 +16,11 @@ These goals represent our targeted work for 70% of our time. The remaining 30% i
     1. Three or more vulnerabilities with a high severity, or a CVSS score of at least 4.0 are resolved. (3.21 release)
 1. We have resolved container vulnerabilities with a high severity, or a CVSS score of at least 4.0, or that resolution is planned. (3.22 release)
 1. All compute nodes are continuously scanned for known security vulnerabilities and the security team is alerted as vulnerabilities are found. (3.22 release)
-    1. We have resolved compute vulnerabilities with a high severity, or a CVSS score of at least 4.0, or that resolution is planned. (3.22 release)
-1. Implement centralized storage of all of our existing logs (e.g., application logs, compute infrastructure logs). (3.22 release)
-1. Start collecting audit and access logs (e.g., visibility into both intentional and unintentional logins). This is useful from both a security visibility point of view, as also a requirement for various auditing frameworks (though not currently a target). (3.22 release)
-1. Normalize log format in our centralized log storage so that it is easier to correlate and search. This is a prerequisite for creating automated alerts from the logs. (3.23 release)
-1. Create alerts and dashboards to automate the process of investigating events of interest (e.g., detect and alert on a spike of failed login attempts to a single account, or across Sourcegraph Cloud as a whole). (3.23 release)
+    1. We have resolved compute vulnerabilities with a high severity, or a CVSS score of at least 4.0, or that resolution is planned. (3.23 release)
+1. Implement centralized storage of all of our existing logs (e.g., application logs, compute infrastructure logs). (3.23 release)
+1. Start collecting audit and access logs (e.g., visibility into both intentional and unintentional logins). This is useful from both a security visibility point of view, as also a requirement for various auditing frameworks (though not currently a target). (3.23 release)
+1. Normalize log format in our centralized log storage so that it is easier to correlate and search. This is a prerequisite for creating automated alerts from the logs. (3.24 release)
+1. Create alerts and dashboards to automate the process of investigating events of interest (e.g., detect and alert on a spike of failed login attempts to a single account, or across Sourcegraph Cloud as a whole). (3.24 release)
 
 ### Confidence in our security model
 
