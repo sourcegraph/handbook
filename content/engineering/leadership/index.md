@@ -79,6 +79,8 @@ Engineering managers send an update to [engineering-leadership-status@sourcegrap
 
 If you have sensitive information to communicate, please send a separate email directly to the relevant people.
 
+The subject of the email should contain the date the update is being sent (e.g. "Search update 2020-10-14") so each weekly update starts a distinct thread (otherwise they get grouped together in the Google Groups UI).
+
 ## Book recommendations
 
 Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../../people-ops/travel.md#professional-development-and-education) and read them!
