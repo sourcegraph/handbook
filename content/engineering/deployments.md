@@ -98,7 +98,16 @@ To connect to the production database:
   gcloud beta sql connect sg-cloud-732a936743 --user=sg -d sg --project sourcegraph-dev
 ```
 
-The password is in our shared 1Password under [Google Cloud SQL](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/svfiw4vcbxhhbobpl442olyebu/)
+However, if you want to use any other SQL client, you'll have to run the [`cloud_sql_proxy`](https://cloud.google.com/sql/docs/postgres/connect-admin-proxy#install) utility, which authenticates with you local `gcloud` credentials automatically.
+
+```
+  cloud_sql_proxy -instances=sourcegraph-dev:us-central1:sg-cloud-732a936743=tcp:5555
+```
+
+Once the proxy connects successfully, you can use any client to connect to the local `5555` port (you can choose any other port you want).
+
+
+The password of the sg user is in our shared 1Password under [Google Cloud SQL](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/svfiw4vcbxhhbobpl442olyebu)
 
 #### Via BigQuery (for read-only operations)
 
