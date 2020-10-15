@@ -25,7 +25,7 @@ Multiple formats can be used for this section.
   - Paragraph format will likely make more sense as expectations for what an employee will accomplish will depend on their experience.
 
 ### Qualifications:
-The qualifications and nice to haves sections should include concrete set of skills and experiences that are identifiable in a candidate's profile or application. These are the skills and experiences for the team to determine if we want to move forward with an interview. This section is a subset of everything we need for the role. This section **excludes** anything that would be a given for any of our roles. For example: high agency is something we would look for in all our roles, and creating high quality software is something we would look for in all our engineers.
+The qualifications and nice to haves sections should include concrete set of skills and experiences that are identifiable in a candidate's profile or application. These are the skills and experiences for the team to determine if we want to move forward with an interview. This section is a subset of everything we need for the role. This section excludes anything that would be a given for any of our roles. For example: high agency is something we would look for in all our roles, and creating high quality software is something we would look for in all our engineers.
 
 Best use of this section is to list skills and experiences that are unique to the role that is quantifiable and identifiable.
 
