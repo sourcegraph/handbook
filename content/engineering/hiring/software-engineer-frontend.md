@@ -1,19 +1,36 @@
 # Software Engineer - Frontend
 
-We are looking for frontend engineers who know how to build intuitive user experiences and APIs to make the power of [Universal Code Search](https://about.sourcegraph.com/product) accessible to everyone. You will have a lot of ownership to solve tough technical and UX problems in key areas of our web application and browser extensions (e.g. code search, code navigation, campaigns).
+We are looking for frontend engineers who know how to build intuitive user experiences to make the power of [Universal Code Search](https://about.sourcegraph.com/product) accessible to everyone. You will have a lot of ownership to solve tough technical and UX problems in key areas of our web application and browser extensions (e.g. code search, code navigation, campaigns).
+
+## About you
+
+- You have practice at creating high quality software balanced with a pragmatic understanding of how to make appropriate tradeoffs (e.g. cut scope) to ship quickly and iterate when necessary.
+- You communicate clearly and empathetically, especially in writing and documentation.
+- You are [high agency](../../../company/values.md#High_agency).
+
+## Your responsibilities
+
+- Work closely with a dedicated designer and PM to implement high-quality UIs.
+- Actively participate in the planning of the features we're going to build, e.g. by writing and reviewing RFCs.
+- Build UIs you will love to use yourself as a developer.
+- Ensure UI/UX consistency in our app.
+- Identify potential for abstraction and build components that can be reused, even by other teams.
+- Improve the code patterns in our frontend.
+- Hold up accessibility standards.
 
 ## Qualifications
 
-- Excellent knowledge of TypeScript.
-- Solid understanding of JavaScript's concurrency model and event loop.
-- Skilled at building and testing (e.g., unit testing, automated end-to-end testing) React single page applications and HTTP APIs (GraphQL and Go preferred).
-- Ability to communicate clearly and empathetically, especially in writing and documentation.
-- Practiced at creating high quality software balanced with a pragmatic understanding of how to make appropriate tradeoffs (e.g. cut scope) to ship quickly and iterate when necessary.
+- Experience in writing [SPAs](https://en.wikipedia.org/wiki/Single-page_application) using React or similar component-based frontend frameworks.
+- Familiarity with TypeScript or a different typed programming language.
+- Skilled at writing clean, reusable CSS and semantic HTML to implement visual designs.
+- Experience in using backend APIs from the frontend.
+- Skilled at building and testing (e.g. unit testing, automated end-to-end testing) UIs.
 
 ## Nice-to-haves
 
-- Experience building extensions to browsers (e.g. Chrome, Firefox, Safari) and/or editors (e.g. Visual Studio Code, Intellij, Sublime).
-- Experience building intuitive and documented CLIs.
+- Extensive experience with TypeScript.
+- Extensive experience with GraphQL.
+- Experience building browser extensions (e.g. Chrome, Firefox, Safari).
 - Large and/or numerous contributions to open source projects.
 - Published blog posts and/or tech talks about your work.
 - Experience working on small high-performing teams, preferably tech startups.
@@ -28,11 +45,11 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 ## Interview process
 
-1. You [apply here](https://jobs.lever.co/sourcegraph/8b57b6f4-4eb7-4bcd-8143-8b147867522a/apply).
+1. You [apply here](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7/apply).
 1. We set up a 30-minute call to learn more about what you are looking for, tell you about Sourcegraph, and answer any questions that you have.
-1. You complete a 2-hour [coding exercise in TypeScript](software-engineer-coding-exercise.md#typescript-coding-exercise) that we designed to measure your understanding of how callbacks and asynchronous execution work.
-1. We schedule 4 hours of remote interviews over video chat across multiple days.
-   - **Library design:** We ask you to design a library executing in a browser environment given a set of constraints. You will need to describe your library's public API, your testing strategy, and how you would leverage web APIs.
+1. You complete a 3-hour [exercise project](software-engineer-coding-exercise.md#frontend-coding-exercise) that we designed to test the technical qualifications listed above.
+1. We review your submission and schedule a **1 hour follow-up call** to discuss it.
+1. We schedule 3 hours of remote interviews over video chat across multiple days.
    - **Technical experience:** We ask you about your past work and accomplishments.
    - **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
    - **CEO/CTO:** We ask you about what motivates you to do your best work, and we tell you more about the vision for the company.

@@ -18,6 +18,18 @@ We designed this exercise to measure your understanding of callbacks and asynchr
 
 If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
 
+## Frontend coding exercise
+
+We designed this exercise to measure your understanding of building web UIs.
+
+- You will choose a three hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
+- The exercise asks you to implement a UI in a scaffold TypeScript React app.
+- We provide you with the code of the scaffold app, the URL of a working GraphQL API to fetch data from and a link to a Figma design for the UI.
+- You are free in how you chose to implement it and can change the existing code in any way you'd like.
+- You can use your own development environment and lookup documentation on the internet.
+
+If we decide to move forward, we schedule a one hour follow-up call to discuss your submission.
+
 ## Go coding exercise
 
 We designed this exercise to measure your understanding of HTTP requests, concurrency, and error handling.
