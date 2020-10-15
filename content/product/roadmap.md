@@ -75,10 +75,10 @@ Unplanned:
 1. 🔄 Rebuild lsif-java indexer using com.sun.source
 1. 🔄 Resolve outstanding issues for lsif-clang
 1. 🔄 Provide best effort auto-indexing for supported languages
-1. 🔄 Ship to lsif-go to 3 customers
-1. 🔄 Ship to lsif-clang to 3 customers
+1. 🔄 Ship lsif-go to 3 organizations
+1. 🔄 Ship lsif-clang to 3 organizations
 1. Add native Gradle support for lsif-java
-1. Ship to lsif-java to 3 customers
+1. Ship lsif-java to 3 organizations
 1. Integrate with Bazel for monorepo support
 
 See [Code Intel roadmap](https://docs.google.com/document/d/1JPNelxg_8xwZKz8TT2BnpCccShOgxJrLubf2RNGye50/edit#) for more.
