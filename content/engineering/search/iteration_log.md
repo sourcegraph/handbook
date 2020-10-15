@@ -20,6 +20,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Replace saved searches panel with a new repogroup panel on Cloud.
 - **Work log:**
     - 2020-10-07: The repogroup panel has been completed and checked in. We will consider turning the feature flag on by default in Cloud next week after getting feedback from internal users.
+    - 2020-10-13: The footer UI from the original designs for the home panels has been implemented.
+    - 2020-10-13: Panels have now been enabled for everyone in Cloud.
     
 ### Search tour
 - **Owner(s):** Juliana
@@ -27,6 +29,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Do not show the Tour to users who have already searched.
 - **Work log:**
     - 2020-10-08: The tour has been modified to only show to users on their first day of using Sourcegraph, based on the same data we already use to determine when to show user other notifications ([See PR](https://github.com/sourcegraph/sourcegraph/pull/14535)).
+    - 2020-10-15: We had originally enabled the search tour everywhere on 2020-10-13, but on 2020-10-15 we decided to disable it for the 3.21 release since there are still some issues regarding new user experience that came in from feedback. We plan to address these issues before turning the feature on definitely.
 
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
