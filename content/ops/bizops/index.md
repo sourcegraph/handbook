@@ -92,3 +92,7 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 * [Go-to-market board](https://sourcegraph.looker.com/browse/boards/2)
 * [Product/engineering board](https://sourcegraph.looker.com/browse/boards/5)
 * [All instances](https://sourcegraph.looker.com/looks/436)
+
+### Best practices
+
+* When creating and editing dashboards, save individual tables and charts as [looks](https://docs.looker.com/exploring-data/saving-and-editing-looks) instead of tiles directly to the dashboard. Looks can be added to multiple dashboards while tiles cannot be, and when look is edited, the changes will apply to dashboards that look exists. 
