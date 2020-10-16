@@ -79,6 +79,8 @@ Lead Status values include:
 - Unqualified - lead is unqualified for our services, used for job candidates, students, etc.
 - Bad-Data
 - Converted - auto-set upon conversion of lead
+- Replied - lead responded from an Outreach sequence
+- Unresponsive - lead has not responded to an Outreach sequence
 
 ### Lead Assignment
 
