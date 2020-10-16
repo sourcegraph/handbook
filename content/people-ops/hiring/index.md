@@ -15,6 +15,14 @@
 1. Hiring managers own the hiring process for their team.
     - Hiring managers are encouraged to experiment to learn how to improve their hiring process.
     - The handbook is kept up-to-date with our learnings and current norms.
+    
+## Recruiting tools
+
+We currently use Lever as our applicant tracking system. [guide coming soon]
+We utlize LinkedIn as our sourcing platform. 
+- Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](https://about.sourcegraph.com/handbook/people-ops/hiring/linkedin). 
+
+We will work with recruiters and hiring managers to gain access to the tools they need to be successfull. 
 
 ## Open positions
 
