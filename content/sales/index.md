@@ -9,6 +9,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Sales interview process](interviews/index.md)
 - [Recording lead and customer emails, calls, and notes](records.md)
 - [Using Salesforce](salesforce.md)
+- [Sales Resources](salesresources.md)
 
 ## Pipeline, data, and models
 
