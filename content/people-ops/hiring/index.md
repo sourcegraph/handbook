@@ -19,6 +19,7 @@
 ## Recruiting tools
 
 We currently use Lever as our applicant tracking system. [guide coming soon]
+
 We utlize LinkedIn as our sourcing platform. 
 
 Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](https://about.sourcegraph.com/handbook/people-ops/hiring/linkedin). 
