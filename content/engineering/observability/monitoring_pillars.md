@@ -6,6 +6,7 @@ This document describes in-depth the five pillars / constraints that we impose a
 
 See [the monitoring developer guide](monitoring.md) for information on how to develop monitoring once you're convinced.
 
+- [Long-term vision](#long-term-vision)
 - [The five pillars of monitoring](#the-five-pillars-of-monitoring)
 - [Monitoring at Sourcegraph: a brief history](#monitoring-at-sourcegraph-a-brief-history)
 - [Frequently asked questions](#frequently-asked-questions)
@@ -16,6 +17,20 @@ See [the monitoring developer guide](monitoring.md) for information on how to de
   - [Why can't I have all information expanded by default on the dashboard?](#faq-why-cant-i-have-all-information-expanded-by-default-on-the-dashboard)
 - [Next steps](#next-steps)
 
+## Long-term vision
+
+A traditional user of a monitoring stack is going to have a lot of context about things like what dashboards are showing, what alerts mean, how to use the components in the stack, since they will either have set the thing up themselves OR have people who did.
+
+In stark contrast, we're putting together an alerting system for people with zero context about how Sourcegraph works, what the alerts mean, and in many cases it may be their first time interacting with components used in our monitoring stack at all. In many cases, our metrics and alerts may not give the site admin any useful information that they themselves can act on other than "I should contact support and ask why this is happening".
+
+To achieve this, our monitoring architecture is designed with the goal of providing a robust out-of-the-box monitoring experience that deployment admins can easily leverage. This goal includes:
+
+* **Ship understandable and actionable signals** - we want ensure that the metrics and dashboards we ship provide a clear indicator of whether something is wrong and what admins or Sourcegraph engineers can do to diagnose issues.
+* **Make alert notifications painless to configure** - we want minimize the number of Sourcegraph instances without any alerting set up. Alerts directly indicate issues that might impact user experience, and we want to ensure that deployment admins are equipped with the signals to help them provide their users with the best experience. This includes not requiring steps like port-forwarding or custom ConfigMaps for configuration.
+* **Dogfooding our own monitoring stack as much as possible** - in the past, monitoring components have been difficult to use or completely broken since we do not rely on them heavily.
+
+To see the decisions made to support these goals, refer to the [Sourcegraph monitoring architecture](monitoring_architecture.md#metrics).
+
 ## The five pillars of monitoring
 
 At Sourcegraph we impose five strict constraints to monitoring which, at first, may seem quite surprising:
@@ -25,8 +40,6 @@ At Sourcegraph we impose five strict constraints to monitoring which, at first, 
 3. Creating dashboards outside of the monitoring generator, such as with the Grafana WYSIWYG editor, is forbidden. All metrics should be presented in the most plain, mundane, non-fanciful way that every site admin can understand.
 4. Creating graphs/panels with more than 5 cardinality (labels) is forbidden (in most cases there should only be one.)
 5. The most useful information should be presented first, the least useful information should be hidden by default.
-
-To understand why we impose these constraints, see [the five pillars of monitoring](monitoring_pillars.md)
 
 ## Monitoring at Sourcegraph: a brief history
 

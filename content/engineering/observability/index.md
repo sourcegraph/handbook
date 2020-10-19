@@ -15,6 +15,7 @@ Observability includes:
 ## Developer guides
 
 - [Monitoring developer guide](monitoring.md)
-    - [The five pillars of monitoring](monitoring_pillars.md)
+  - [The five pillars of monitoring](monitoring_pillars.md)
+  - [Monitoring architecture](monitoring_architecture.md)
 - Distributed tracing developer guide (coming soon)
 - Logging developer guide (coming soon)
