@@ -27,13 +27,12 @@
   - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
 - Infrastructure
   - [Cloud environments](environments.md)
-  - [Deployments](deployments.md)
+  - [Deployments](deployments/index.md)
   - [On-call](incidents/on_call.md)
   - [Prometheus](observability/prometheus.md)
   - [Honeycomb](honeycomb.md)
   - [Adding and debugging ping data](adding_ping_data.md)
   - [Adding buildkite secrets](adding_buildkite_secrets.md)
-
 
 ## Ownership of technical decisions
 
