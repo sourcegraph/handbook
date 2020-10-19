@@ -22,6 +22,22 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+### Featureful frontend query parser
+
+- **Owner(s):** Rijnard
+- **Outcomes:**
+    - We need a proper frontend query parser for syntax highlighting, hover hints, and consistent UI state (toggle activation) of search expressions and future query syntax extensions.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+    
+### Quality-of-life search code improvements
+
+- **Owner(s):** Rijnard
+- **Outcomes:**
+    - We have a huge debt in parts of our search code and the state is unhealthy. I have been tracking a backlog of issues to refactor and fix re: deleting old parser code, fixing commit search issues. I will be selectively tackling [bug](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+author%3Arvantonder+label%3Ateam%2Fsearch+label%3Abug) and [refactor](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+author%3Arvantonder+label%3Ateam%2Fsearch+label%3Arefactor) issues to make things more sane.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE    
+
 ## 2020-10-5 to 2020-10-16
 
 ### Enterprise homepage
@@ -58,6 +74,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - (1) Make search expressions available under feature flag (merge WIP PR) & (2) Raise visibility on the topic/capability of code search as lightweight analysis. Inform relevant customer contacts about these capabilities.
 - **Work log:**
     - 2020-10-07: I did some prep work to get search expressions ready ([related to how queries are evaluated](https://github.com/sourcegraph/sourcegraph/pull/14461)). Added functionality where search expressions merge repo results, and added integration tests. The PR is now [up for review](https://github.com/sourcegraph/sourcegraph/pull/13907). For the blog post, I added C-style comments and a cmd+enter shortcut for the search console page. I came up with some compelling examples that address blog post feedback, and will put up the blog post for review and publish it next week.
+    - 2020-10-15: Search expressions are merged in [#13907](https://github.com/sourcegraph/sourcegraph/pull/13907). We need to do follow up work in the UI + document to advertise the new features. The blog post is ready to ship, but depends on [#14816](https://github.com/sourcegraph/sourcegraph/pull/14816) for performant queries that was introduced by search expressions.
     
 
 ### Streaming search
