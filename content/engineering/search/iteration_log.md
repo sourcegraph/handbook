@@ -14,14 +14,6 @@ This document contains the goals and work log for the search team's [2-week iter
     
 ## 2020-10-19 to 2020-10-30
 
-### $GOAL_OR_THEME
-
-- **Owner(s):** $OWNER
-- **Outcomes:**
-    - $DESIRED_OUTCOME
-- **Work log:**
-    - YYYY-MM-DD: $UPDATE
-
 ### Featureful frontend query parser
 
 - **Owner(s):** Rijnard
