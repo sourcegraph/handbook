@@ -41,7 +41,18 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
 - **Outcomes:**
-    - We have a similar performance for simple regex searches and their literal equivalents (EG `config overall`) on indexed repositories. 
+    - We have a similar performance for simple regex searches and their literal equivalents (EG `config overall`) on indexed repositories.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Streaming search
+
+- **Owner(s):** Keegan, Juliana, Rob
+- **Outcomes:**
+    - We have high-fidelity designs for streaming search.
+    - High-fidelity designs are implemented (TODO: assess viability of this outcome when Juliana is back).
+    - API: statistics for designs.
+    - Backend: true streaming for text search with stats.
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
@@ -92,7 +103,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Backend: true streaming for text search with stats.
     - Webapp: TODO
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-10-16: API is fully functional except for statistics. The nuts and bolts of that need some input. Will be working with Loic 2020-10-20 to help define that.
+    - 2020-10-09: (Keegan) Low productivity Mon-Wed, didn't feel well. Thu/Fri worked on a customer P0 related to Zoekt creating too many HTTP connections and exhausting socket limits. https://github.com/sourcegraph/customer/issues/111
 
 ## 2020-09-21 to 2020-10-02
 
