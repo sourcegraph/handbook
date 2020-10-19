@@ -1,4 +1,8 @@
-# Deploying to sourcegraph.com
+# Playbooks
+
+## sourcegraph.com
+
+### Deploying to sourcegraph.com
 
 Every commit to the `release` branch (the default branch) on [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) deploys the Kubernetes YAML in this repository to our dot-com cluster [in CI](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/builds?branch=release) (i.e. if CI is green then the latest config in the `release` branch is deployed).
 
@@ -6,7 +10,7 @@ Deploys on sourcegraph.com are currently [handled by Renovate](#renovate). The [
 
 If you want to expedite a deploy, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `main` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
-# Rolling back sourcegraph.com
+### Rolling back sourcegraph.com
 
 To roll back soucegraph.com, push a new commit to the `release` branch in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) that reverts the image tags and configuration to the desired state.
 
@@ -31,9 +35,9 @@ git push origin release
 1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) and remove the `"extends:["default:automergeDigest"]` entry for the "Sourcegraph Docker images" group ([example](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/commit/0eb16fd9e3ddfcf3a3c75ccdda0e7eddabf19c7a)).
 1. Once you have fixed the issue in the `main` branch of [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph), re-enable auto-deploys by reverting your change to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) from step 1.
 
-# Accessing sourcegraph.com database
+### Accessing sourcegraph.com database
 
-## Via the CLI
+#### Via the CLI
 
 Sourcegraph.com utilizes an external HA database. You will need to connect to it directly. The easiest way to do this is through the `gcloud` cli.
 
@@ -53,7 +57,7 @@ Once the proxy connects successfully, you can use any client to connect to the l
 
 The password of the sg user is in our shared 1Password under [Google Cloud SQL](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/svfiw4vcbxhhbobpl442olyebu)
 
-## Via BigQuery (for read-only operations)
+#### Via BigQuery (for read-only operations)
 
 You can also query the production database via BigQuery as an external data source.
 
@@ -61,7 +65,9 @@ See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561
 
 **Note**: This method only permits read-only access
 
-# Manage users in k8s.sgdev.org
+## k8s.sgdev.org
+
+### Manage users in k8s.sgdev.org
 
 To create an account on [k8s.sgdev.org](https://k8s.sgdev.org), log in with your Sourcegraph Google account via OpenID Connect.
 

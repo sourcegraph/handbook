@@ -11,6 +11,7 @@ This deployment is also colloquially referred to as "Sourcegraph Cloud", "Cloud"
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/cloud)
 - Alerts: `#alerts-cloud` and [OpsGenie](../incidents/on_call.md)
+- [Playbooks](./playbooks.md#sourcegraph-com)
 
 # k8s.sgdev.org
 
@@ -27,6 +28,7 @@ This deployment is also colloquially referred to as "dogfood", "dogfood-k8s", or
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/dogfood)
 - Alerts: `#alerts-dogfood-k8s`
+- [Playbooks](./playbooks.md#k8s-sgdev-org)
 
 Updates from `deploy-sourcegraph` are performed upon [notification from upstream](#deploy-sourcegraph) by the ["Update from deploy-sourcegraph"](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2/actions?query=workflow%3A%22Update+from+deploy-sourcegraph%22) workflow.
 
