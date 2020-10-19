@@ -38,6 +38,13 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+### Scale indexed search to 500k repositories
+- **Owner(s):** Stefan, Keegan
+- **Outcomes:**
+    - We have a similar performance for simple regex searches and their literal equivalents (EG `config overall`) on indexed repositories. 
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2020-10-5 to 2020-10-16
 
 ### Enterprise homepage
