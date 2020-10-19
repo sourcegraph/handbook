@@ -32,9 +32,10 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ### Code monitoring
 
-- **Owner(s):** Stefan, Juliana
+- **Owner(s):** Stefan, Juliana, Farhan
 - **Outcomes:**
     - We have a GraphQL schema for code monitoring, with a stubbed out implementation on the backend, allowing us to decouple backend and frontend development.
+    - SMTP is tracked in pings [#14115](https://github.com/sourcegraph/sourcegraph/issues/14115).
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
@@ -53,6 +54,23 @@ This document contains the goals and work log for the search team's [2-week iter
     - High-fidelity designs are implemented (TODO: assess viability of this outcome when Juliana is back).
     - API: statistics for designs.
     - Backend: true streaming for text search with stats.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Search Tour
+- **Owner(s):** @farhan
+- **Outcomes:**
+    - Search field is no longer focused by default for users who haven't searched yet [#14783](https://github.com/sourcegraph/sourcegraph/issues/14783).
+    - Search tour is re-enabled by default for enterprise customers.
+    - Search tour usage is tracked in pings [#14781](https://github.com/sourcegraph/sourcegraph/issues/14781).
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Improve tracking of search onboarding on enterprise instances
+- **Owner(s):** @farhan
+- **Outcomes:**
+    - Total number of unique searchers is tracked in pings [#14575](https://github.com/sourcegraph/sourcegraph/issues/14575).
+    - Weekly retention is tracked in pings [#13636](https://github.com/sourcegraph/sourcegraph/issues/13636).
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
