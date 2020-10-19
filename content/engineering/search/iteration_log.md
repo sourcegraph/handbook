@@ -26,7 +26,7 @@ This document contains the goals and work log for the search team's [2-week iter
 
 - **Owner(s):** Rijnard
 - **Outcomes:**
-    - We need a proper frontend query parser for syntax highlighting, hover hints, and consistent UI state (toggle activation) of search expressions and future query syntax extensions.
+    - We need a proper frontend query parser for syntax highlighting, hover hints, and consistent UI state (toggle activation) of search expressions and future query syntax extensions. See [14016](https://github.com/sourcegraph/sourcegraph/issues/14016).
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
     
