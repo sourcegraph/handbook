@@ -36,7 +36,15 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - We have a huge debt in parts of our search code and the state is unhealthy. I have been tracking a backlog of issues to refactor and fix re: deleting old parser code, fixing commit search issues. I will be selectively tackling [bug](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+author%3Arvantonder+label%3Ateam%2Fsearch+label%3Abug) and [refactor](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+author%3Arvantonder+label%3Ateam%2Fsearch+label%3Arefactor) issues to make things more sane.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE    
+    - YYYY-MM-DD: $UPDATE
+
+### Code monitoring
+
+- **Owner(s):** Stefan, Juliana
+- **Outcomes:**
+    - We have a GraphQL schema for code monitoring, with a stubbed out implementation on the backend, allowing us to decouple backend and frontend development.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
 
 ## 2020-10-5 to 2020-10-16
 
