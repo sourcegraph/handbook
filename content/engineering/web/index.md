@@ -47,6 +47,14 @@ TypeScript, React, RxJS, GraphQL, Go.
 
 ## Processes
 
+### Backlog
+
+The web team keeps a [backlog Github project board](https://github.com/orgs/sourcegraph/projects/98). 
+
+We use the backlog for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](../../product/roadmap.md#web).
+
+To add an issue, tag it `team/web` to notify the web team PM and put it in the "to triage" column of the board. Unless you're directly asked, only web team members should move issues out of the "to triage" column on the board. A web team member will confirm the issue is web team-related, and then move it to the appropriate column. 
+
 ### Iterations
 
 We plan our work in **2-week iterations**.
