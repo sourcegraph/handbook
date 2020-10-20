@@ -25,7 +25,17 @@ First, the company's Sourcegraph administrator must create a Sourcegraph.com use
   - `true-up` to allow the company to go over the user limit on the license.
   - `mau` to indicate that the company is on a monthly usage-based billing model.
   - `trial` to show an indicate in Sourcegraph that the company is on a trial.
-  - `enterprise-plus` or `elite` to indicate that the company is on a product tier above Enterprise (which is the default).
+  - `plan:team-<version>` to indicate that the company is on team tier, on the given version, e.g. `plan:team-0` (please consult with Sales for the version).
+  - `plan:enterprise-<version>` to indicate that the company is on enterprise tier, on the given version, e.g. `plan:enterprise-0` (please consult with Sales for the version).
+  - Within the enterprise tier, every feature needs to be included explicitly with a tag, including:
+     - `acls`: Whether ACLs may be used, such as GitHub, GitLab or Bitbucket Server repository permissions and integration with GitHub, GitLab or Bitbucket Server for user authentication.
+     - `private-extension-registry`: Whether publishing extensions to this Sourcegraph instance has been purchased. If not, then extensions must be published to Sourcegraph.com. All instances may use extensions published to Sourcegraph.com.
+     - `remote-extensions-allow-disallow`: Whether explicitly specify a list of allowed remote extensions and prevent any other remote extensions from being used has been purchased. It does not apply to locally published extensions.
+     - `branding`: Whether custom branding of this Sourcegraph instance has been purchased.
+     - `campaigns`: Whether campaigns on this Sourcegraph instance has been purchased.
+     - `monitoring`: Whether monitoring on this Sourcegraph instance has been purchased.
+     - `backup-and-restore`: Whether builtin backup and restore on this Sourcegraph instance has been purchased.
+  - If no `plan:*` tag is supplied, the license will be treated as legacy enterprise tier which has unlimited access to all features.
   - And the company's name (with dashes instead of spaces), to make it easy to search for a given license key in the future.
 - Set the licensed number of users (note that if you added the `true-up` tag above, the company will be able to exceed this count, but administrators will see a warning) and the number of days that the license should be valid, and click **Generate license**.
 - Finally, click on the **View as user** link, and share the resulting URL with the company.
