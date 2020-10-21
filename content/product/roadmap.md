@@ -42,12 +42,11 @@ section Web
 
 ## Campaigns
 
-1. Gradually publish changesets ([RFC 228](https://docs.google.com/document/d/1A-5cbYGz1p1UB1eAFsIgpK5XDkvS7ZNAVKMdtBm_WY0/edit?ts=5f48b4b2#heading=h.trqab8y0kufp) changesetTemplate.published boolean)
-1. Improved src-cli UX: better errors, debugging support, src-cli command to create skeleton spec
+1. **Customer outreach to improve adoption of campaigns**
 1. User credentials ([RFC 242](https://docs.google.com/document/d/1SqoWWm1xs82QibrWwYsXmpmgweN6EpcKt1qXrRBjjlU/edit)), which will allow non-site-admins to create campaigns
-1. Allow multiple users to edit the same campaign
 1. Versioning/releasing of src-cli with respect to sg/sg
-1. Publish changesets as GitHub draft PRs (and same for other code hosts)
+1. Respect GitHub GraphQL rate limits
+1. Improved documentation of src-cli login process
 
 See [roadmap at a glance](https://docs.google.com/document/d/1zRTfK6mENKicfLwDaWgLk1dBvQVKDg-J7pwjGg8tpps/edit#) for more.
 
