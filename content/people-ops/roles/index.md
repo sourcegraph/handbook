@@ -2,8 +2,5 @@
 
 This page lists the roles and responsibilities of the People Ops team.
 
-## TODO
-
-### Responsibilities
-
-- TODO
+- [Onboarding & Teammate Success Manager](onboarding_teammate_success_manager.md)
+- Other roles TODO
