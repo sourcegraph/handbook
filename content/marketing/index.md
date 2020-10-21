@@ -14,6 +14,7 @@
   - [Creating blog posts](creating_blog_posts.md)
   - [Adding screenshots and screen recordings (GIFs and videos)](adding_screenshots_screen_recording.md)
   - [Website style guide](website_style_guide.md)
+- [Marketing roles - open positions](roles/index.md) 
 
 ## Mission
 
@@ -72,6 +73,10 @@ Tasks:
 - [Quinn Slack](../../company/team/index.md#quinn-slack) (manager)
 - Lori Heyman
 
+## Roles
+
+See the [marketing roles](roles/index.md) for open positions.
+
 ## Weekly marketing meeting
 
 The marketing team will have a weekly meeting (schedule TBD), with notes written in [Marketing meeting notes](https://docs.google.com/document/d/1HI4mo99ESQMnlkilP_OJuH0acKHYA8bDxOK7s-no4X4/edit#) (and we're on step 1 of a [structured meeting](https://about.sourcegraph.com/handbook/communication#structured-meetings)).
@@ -111,4 +116,3 @@ A marketing qualified lead (MQL) is any of:
 ### [SQL](../sales/index.md#lead) (sales-qualified lead)
 
 See "[Lead](../sales/index.md#lead)" in the sales team handbook section.
-
