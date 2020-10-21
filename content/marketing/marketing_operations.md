@@ -1,6 +1,38 @@
 # Marketing operations
 
-## UTMs
+## Technology stack
+
+### Demand generation
+
+- [Salesforce](https://sourcegraph2020.my.salesforce.com/)
+- Hubspot
+- Zoominfo
+
+### Website infrastructure
+
+- Gatsby
+- Netlify
+- Cookiebot
+
+### Content
+
+- [YouTube](https://www.youtube.com/channel/UCOy2N25-AHqE43XupT9mwZQ)
+- [Vimeo](https://vimeo.com/sourcegraph)
+- Google Cloud Storage
+
+### SEM and SEO tools
+
+- Google Ads
+- Google Analytics
+- Google Optimize
+- Google Search Console
+- Google Tag Manager
+- Moz Pro
+- Ubersuggest
+
+## Marketing attribution
+
+### UTMs
 
 All URLs used on external sites should contain UTM parameters for lead attribution. Any URLs built must be logged in the [UTM builder](https://docs.google.com/spreadsheets/d/1U0HRC5WVz3tsP6z9pqDLG8igTMSf2-pQGhbRoVn_iu0/edit#gid=0).
 
@@ -10,12 +42,10 @@ HubSpot automatically captures the parameter as long as the URL parameter name m
 
 The forms that support UTM are:
 
-- Registration for a livestream
-- Request a demo or enterprise trial 
-- Request a PDF
-- Request code change management demo
 - Contact us
+- Request a demo or enterprise trial 
 - In-product request (enterprise) trial 
+- Request a PDF
 
 The parameters that our HubSpot workflows support are `utm_campaign`, `utm_source` and `utm_medium`. Tag @ericbm in #marketing if more parameters are needed. 
 
