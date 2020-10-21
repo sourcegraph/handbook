@@ -16,6 +16,45 @@ Here are a few of the things we strive to make true:
 
 - #design channel or @design-team on Slack
 
+## Working with design / requesting design work
+
+Working with design should feel fluid, you should be able to open an issue or bring up a concern in slack, and receive actionable feedback: either implementable, or a call to explore further.
+
+You should also not feel limited to words, images (sketches, or references made by editing the broswer DOM) are also encouraged. 
+
+### Tracking design priorities
+
+The Design Team uses a [GitHub project board](https://github.com/orgs/sourcegraph/projects/66) for managing current and future work, design debt, and work requests.
+
+Columns:
+
+- Design debt - issues connected to design debt that haven't been scheduled yet
+- **Backlog** - issues that need design work but don't have any development resources allocated and haven't been scheduled yet
+- **Coming soon** - no designer assigned yet, development resources have been allocated. Add **design deadline** to the issue, if possible
+- **Up next** - designer assigned, design work scheduled
+- In progress - design work actively being worked on
+- QA - design work done, designer is assisting the implementation
+- Measure success - design shipped, designer is working with the BizOps team to analyze the impact 
+- Done - success measured, all work completed to scope
+
+### GitHub design labels
+
+- **`needs-design`**: design work requests. Add to [Design priorities project](https://github.com/orgs/sourcegraph/projects/66) and if possible add a deadline.
+- **`design`**: design-oriented issues. This label should be mostly used by designers
+- **`design-debt`**: issues connected to design debt.
+
+### Requesting design work
+
+If you need some design help:
+
+- Add the **`needs-design`** tag to your GitHub issue
+- Assign one of the designers if you know who will take care of the issue
+- Add your issue to the [design priorities project](https://github.com/orgs/sourcegraph/projects/66)
+
+Please clarify the urgency of the issue (adding a known deadline is encouraged) and if development resources have been allocated. It is important to focus the design team's attention on the work that can be implemented soon. 
+
+Use the #design Slack channel for any urgent matters or questions.
+
 ## Lean UX design and velocity
 
 Sourcegraph ships. It has achieved product-market fit by hiring customer-focused employees, being truly agile in how it designs and develops features and by putting product in user’s hands and collecting feedback and usage metrics.
@@ -28,19 +67,9 @@ While design does adds time at the beginning of a project, it improves velocity 
 
 Our design process is documented here: **[Design process](design_process.md)**
 
-## Working with design
-
-Working with design should feel fluid, you should be able to open an issue or bring up a concern in slack, and receive actionable feedback: either implementable, or a call to explore further.
-
-You should also not feel limited to words, images (sketches, or references made by editing the broswer DOM) are also encouraged.
-
-### Figma
+## Figma
 
 - Click 'C' whilst in Figma, or check the navigation bar in the top left hand corner and look for the comment icon; you can drop comments anywhere in a file, and the owner of the page will be notified via email
-
-### GitHub
-
-- Assign one of the team, add the tag 'needs-design', and utilize the [design priorities project](https://github.com/orgs/sourcegraph/projects/66)
 
 ## Internal resources
 
