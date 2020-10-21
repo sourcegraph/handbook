@@ -23,7 +23,7 @@ Treat adding new data to pings as having a very high bar. Would you be willing t
     - Will this data be needed from every single installation, or only from a select few?
     - Will it be needed forever, or only for a short time? If only for a short time, what is the criteria and estimated timeline for removing the data point(s)?
     - Have you considered alternatives? E.g., collecting this data from Sourcegraph.com, or adding a report for admins that we can request from some number of friendly customers?
-1. When the RFC is approved, use the [life of a ping documentation](https://docs.sourcegraph.com/dev/architecture/life-of-a-ping) with help of [an example PR](https://github.com/sourcegraph/sourcegraph/pull/8374) to implement the change. At least one member of the BizOps team must approve the resulting PR before it can be merged. DO NOT merge your PR yet. Steps 3, 4, and 5 must be completed before merging.
+1. When the RFC is approved, use the [life of a ping documentation](https://docs.sourcegraph.com/dev/background-information/architecture/life-of-a-ping) with help of [an example PR](https://github.com/sourcegraph/sourcegraph/pull/8374) to implement the change. At least one member of the BizOps team must approve the resulting PR before it can be merged. DO NOT merge your PR yet. Steps 3, 4, and 5 must be completed before merging.
     - Ensure a CHANGELOG entry is added, and that the two sources of truth for ping data are updated along with your PR:
       - Pings documentation: https://docs.sourcegraph.com/admin/pings
       - The Site-admin > Pings page, e.g.: https://sourcegraph.com/site-admin/pings
@@ -55,7 +55,7 @@ To update the schema:
 
 ## Debugging pings
 
-Options for debugging ping abnormalities. Refer to [life of a ping](https://docs.sourcegraph.com/dev/architecture/life-of-a-ping) for the steps in the ping process.
+Options for debugging ping abnormalities. Refer to [life of a ping](https://docs.sourcegraph.com/dev/background-information/architecture/life-of-a-ping) for the steps in the ping process.
 
 1. BigQuery: Query the [update_checks error records](https://console.cloud.google.com/bigquery?sq=839055276916:62219ea9d95d4a49880e661318f419ba) and/or [check the latest pings received](https://console.cloud.google.com/bigquery?sq=839055276916:3c6a5282e66a4f0fac1b958305d7b197) based on installer email admin. 
 1. Dataflow: Review [Dataflow](https://console.cloud.google.com/dataflow/jobs/us-central1/2020-02-05_10_31_47-13247700157778222556?project=telligentsourcegraph&organizationId=1006954638239): WriteSuccessfulRecords should be full of throughputs and the Failed/Error jobs should be empty of throughputs. 

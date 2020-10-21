@@ -108,6 +108,6 @@ Once you've been invited to the Sourcegraph organization and created a Percy acc
 
 ## See also
 
-- [Documentation for running tests in sourcegraph/sourcegraph](https://docs.sourcegraph.com/dev/testing)
+- [Documentation for running tests in sourcegraph/sourcegraph](https://docs.sourcegraph.com/dev/background-information/testing)
 - [Go-specific testing guide](./languages/testing_go_code.md)
 - [Web-specific testing guide](./web/testing.md)

@@ -43,7 +43,7 @@ When this feature is deployed to Sourcegraph.com, enable it in global settings. 
 >
 > I'm Carol, an engineer on the Sourcegraph team. Bob (cc'd) mentioned you are interested in seeing language statistics computed across multiple repositories and for specific queries. We just shipped this feature, and it will be available on Acme Corp's Sourcegraph instance next time you upgrade.
 >
-> Docs at https://docs.sourcegraph.com/user/search#statistics. Try it on Acme Corp's public code at https://sourcegraph.com/stats?q=repo%3A%2Facme-corp%2F%28foo%7Cbar%29.
+> Docs at https://docs.sourcegraph.com/code-search/explanations/features#statistics. Try it on Acme Corp's public code at https://sourcegraph.com/stats?q=repo%3A%2Facme-corp%2F%28foo%7Cbar%29.
 >
 > [Attach screenshot of the Sourcegraph.com page pie chart]
 >

@@ -103,7 +103,7 @@ _For convenience, there is a [Google Docs Template](https://docs.google.com/docu
 
 ## RFCs are public
 
-[We value openness](https://docs.sourcegraph.com/dev/open_source_open_company). Transparency helps us communicate with and gather feedback from our customers, and it holds everyone accountable to a higher quality bar.
+[We value openness](https://about.sourcegraph.com/company#open-company). Transparency helps us communicate with and gather feedback from our customers, and it holds everyone accountable to a higher quality bar.
 
 The default sharing state of documents in our [Google Drive's RFCs](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) folder will allow everyone to publicly read/comment, and all Sourcegraph teammates to edit.
 
