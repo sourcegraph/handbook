@@ -4,7 +4,7 @@ At Sourcegraph, our customers and community are developers, and we equate develo
 
 ## Responsibilities
 ### In the first 30 days you will…
-#### Create a comprehensive content marketing strategy
+#### Create a comprehensive community relations strategy
 
 * Create a comprehensive community relations strategy to engage the developer community, including partner, customer, and open source advocates, across GitHub, Twitter, Stack Overflow, Slack, Discord, Reddit, Hacker News, and other relevant channels.
     * Collect feedback from external sources, customers and internal teams to help inform efforts across the channels developers trust and frequent.
@@ -29,7 +29,7 @@ At Sourcegraph, our customers and community are developers, and we equate develo
 * Create an internal speaking program and train and support internal developer advocates.
 
 ### In the first 90 days you will…
-* Build and scale an Open Source program that expands OSS use of Sourcegraph by providing value for leading projects, for example:
+* Build and scale an open source program that expands OSS use of Sourcegraph by providing value for leading projects, for example:
     * Providing search homepages for OSS projects and integrating Sourcegraph into OSS onboarding and reference documentation.
     * Working with OSS projects to enable LISF and add a Sourcegraph badge in their README.
 * Identify and execute mutually beneficial co-marketing opportunities that will raise awareness within the developer community and drive referrals.
