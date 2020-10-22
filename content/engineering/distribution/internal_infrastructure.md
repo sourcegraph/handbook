@@ -38,6 +38,14 @@ Credentials: [1Password](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme
 
 We maintain separate AWS accounts with Sourcegraph instances and other infrastructure that mimic various customers' environments for testing purposes. See "[Customer environment replicas and managed instances](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/003/ctqvj7zcmdiujmfh2mxzffdlym)" on 1Password for the list.
 
+### Accessing sourcegraph internal infrastrcture
+
+To access this AWS account:
+
+1. Request an AWS user ID by asking a member of the `#distribution` team in slack. 
+1. Once you have your credentials visit https://aws.amazon.com/console/.
+1. Sign into AWS using those details and Account ID `sourcegraph. 
+
 ### Accessing customer environment replicas
 
 To access these AWS accounts:
