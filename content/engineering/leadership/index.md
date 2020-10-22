@@ -27,13 +27,6 @@ When a goal is "done", move it to our [work log](worklog.md)
 - Owner: Each EM owns this for their own team and should communicate the status of the goal setting process for their team in the handbook itself.
 - Status: [In progress](../../../company/goals.md#engineering).
 
-#### Engineering manager onboarding
-
-- Problem: We recently hired and onboarded our first group of engineering managers and onboarded each of them in an ad hoc way. We will be hiring at least one more engineering manager in the near future (for the web team) and we want to document what we have learned so they have an even better onboarding experience.
-- Owner: Nick
-- Plan: Document the onboarding process for engineering managers in our handbook before the EM for the web team starts.
-- Status: Not started.
-
 ### Medium term (~3-6 months)
 
 #### Publicly documented compensation bands
