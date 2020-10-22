@@ -53,7 +53,7 @@ Questions:
 Measure:
 
 - How does this person challenge and push engineers to grow in their careers?
-- How do they ensure that everyone is meeting expectations and what actions to they take when someone isn't meeting expectations?
+- How do they ensure that everyone is meeting expectations and what actions do they take when someone isn't meeting expectations?
 
 Questions:
 
