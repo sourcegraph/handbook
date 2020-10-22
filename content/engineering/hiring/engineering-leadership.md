@@ -73,6 +73,6 @@ Measure:
 Questions:
 
 - How do you balance your responsibility as an engineering manager to be the technical backstop for your team with giving your team ownership and autonomy over their work?
-- Have you every vetoed a decision made by an engineer on your team? Describe the situation and the outcome.
+- Have you ever vetoed a decision made by an engineer on your team? Describe the situation and the outcome.
 
 Go back to the [careers page](../../../company/careers.md) for all open positions.
