@@ -1,6 +1,6 @@
 # Playbooks
 
-## sourcegraph.com
+## Sourcegraph.com
 
 ### Deploying to sourcegraph.com
 

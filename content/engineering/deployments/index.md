@@ -18,6 +18,7 @@ Learn more about how these work in:
 - [Testing](./testing.md): deploying test instances of Sourcegraph
 - [Playbooks](./playbooks.md): how-to guides for common tasks
 - [deploy-sourcegraph](#deploy-sourcegraph): base configuration for Kubernetes Sourcegraph deployments
+- [PostgresSQL](./postgresql.md): Tips for working with Postgres and our deployments
 
 ## Deployment basics
 
