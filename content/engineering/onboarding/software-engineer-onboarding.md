@@ -36,7 +36,7 @@ Take the first 20-30 minutes of the session to have an unstructured, introductor
 
 There will be plenty for you to read and learn about when you're not working on your starter tasks:
 
-- Read through our [architecture overview](https://docs.sourcegraph.com/dev/architecture).
+- Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture).
 - Read through the rest of the engineering handbook to learn more about how we operate.
 - Read how we choose and continually update our [goals](../../../company/goals/index.md).
 - Read how we plan and keep each other up to date with [tracking issues](../tracking_issues.md).
