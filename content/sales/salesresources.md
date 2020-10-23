@@ -25,6 +25,10 @@ The following templates are currently available:
 
 To update a template place the new template in the main Sales Template folder, name the file (beginning with the date format YYYY.MM.DD) then move the old template into the [Template Archive folder](https://drive.google.com/drive/u/0/folders/1v4SL-sasJOUjyrNStbMnxxh0ZwUUU-4c).  Update the appropriate handbook link to the new template.
 
+### Useful Links
+
+ - [CE Account Ownership](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=0)
+
 ## Sales Content
 
 Other useful sales content can be found in the [Sales Content folder](https://drive.google.com/drive/u/0/folders/1Og99CfsVetXCutZBC01q6Cx54dX5YiyZ)
