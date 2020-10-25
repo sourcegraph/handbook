@@ -72,7 +72,7 @@ Sourcegraph Google account. External services are stored in 1Password.
 
 ## Alerts
 
-NOTE: Before adding any alert, please ensure it is good enough to wake you up
+NOTE: Before adding any *critical* alert, please ensure it is good enough to wake you up
 at 3:30am. Good practice is to instrument first for a few days/week and check
 if your alert would fire only when it should.
 
@@ -83,7 +83,6 @@ data from.
   Site24x7. We store the checks in the infrastructure repository. See the
   [Site24x7 README](https://github.com/sourcegraph/infrastructure/blob/master/site24x7/README.md).
 - Is it a service level metric that already exists or you could add to the
-  Sourcegraph codebase? eg p95 open connections to pgsql. Then use
-  [Prometheus](../observability/prometheus.md). See [enabled alerts](https://prometheus.sgdev.org/alerts).
+  Sourcegraph codebase? eg p95 open connections to pgsql. Then see [adding monitoring](../observability/monitoring.md#adding-monitoring).
 - Do you need to validate a core user flow? Use
   [e2etest](https://github.com/sourcegraph/sourcegraph/blob/master/test/e2e/README.md)

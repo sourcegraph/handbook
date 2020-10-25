@@ -30,7 +30,7 @@
   - [Cloud environments](environments.md)
   - [Deployments](deployments/index.md)
   - [On-call](incidents/on_call.md)
-  - [Prometheus](observability/prometheus.md)
+  - [Observability](observability/index.md)
   - [Honeycomb](honeycomb.md)
   - [Adding and debugging ping data](adding_ping_data.md)
   - [Adding buildkite secrets](adding_buildkite_secrets.md)

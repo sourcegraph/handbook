@@ -1,8 +1,8 @@
 # Sourcegraph monitoring architecture
 
-**Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
+> **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 
-**Note:** Looking for _how to develop Sourcegraph monitoring?_ See the [monitoring developer guide](monitoring.md).
+> **Note:** Looking for _how to develop Sourcegraph monitoring?_ See the [monitoring developer guide](./monitoring.md).
 
 This document describes the architecture of Sourcegraph's monitoring stack, and the technical decisions we have made to date and why.
 
@@ -11,7 +11,7 @@ This document describes the architecture of Sourcegraph's monitoring stack, and 
 
 ## Long-term vision
 
-To better understand our goals with Sourcegraph's monitoring stack, please read [monitoring pillars: long-term vision](monitoring_pillars.md#long-term-vision).
+To better understand our goals with Sourcegraph's monitoring stack, please read [monitoring pillars: long-term vision](./monitoring_pillars.md#long-term-vision).
 
 ## Monitoring generator
 
@@ -23,9 +23,9 @@ We use a custom [declarative Go generator syntax](https://sourcegraph.com/github
 - Generating the [Prometheus alerting rules](#alerting) and Grafana dashboards.
 - Generating documentation in the form of ["possible solutions"](https://docs.sourcegraph.com/admin/observability/alert_solutions) for site admins to follow when alerts are firing.
 
-This allows us to assert constraints and principles that we want to hold ourselves to, as described in [our monitoring pillars](monitoring_pillars.md).
+This allows us to assert constraints and principles that we want to hold ourselves to, as described in [our monitoring pillars](./monitoring_pillars.md).
 
-To learn more about adding monitoring using the generator, see ["How easy is it to add monitoring?"](monitoring.md#how-easy-is-it-to-add-monitoring)
+To learn more about adding monitoring using the generator, see: [adding monitoring](./monitoring.md#adding-monitoring)
 
 ## Sourcegraph deployment
 
@@ -47,7 +47,7 @@ For convenience, Grafana is served on `/-/debug/grafana` on all Sourcegraph depl
 
 Edits through the web UI are prohibited, for two reasons:
 
-1. We do not want customers, or ourselves, to introduce dashboards or modifications through the Grafana web UI (see [monitoring pillars: long-term-vision](monitoring_pillars.md#long-term-vision))
+1. We do not want customers, or ourselves, to introduce dashboards or modifications through the Grafana web UI (see [monitoring pillars: long-term-vision](./monitoring_pillars.md#long-term-vision))
 1. Services served via reverse-proxy in this manner could be vulnerable to [cross-site request forgery (CSRF)](https://owasp.org/www-community/attacks/csrf), which is complicated to resolve ([#6075](https://github.com/sourcegraph/sourcegraph/issues/6075)) without just forbidding all POST requests.
 2. The [monitoring generator](#monitoring-generator) creates provisioned dashboards that, once loaded, cannot be edited in Grafana (technical limitation in Grafana.)
 
@@ -84,11 +84,11 @@ We use [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) 
 
 Alertmanager is bundled in `sourcegraph/prometheus`, and notifications are configured for Sourcegraph alerts [using site configuration](https://docs.sourcegraph.com/admin/observability/alerting). This functionality is provided by the [prom-wrapper](#prom-wrapper).
 
-*Rationale for notifiers in site configuration*: Due to the limitations of [admin reverse-proxies](#admin-reverse-proxy), alerts cannot be configured without port-forwarding or custom ConfigMaps, something we [want to avoid](monitoring_pillars.md#long-term-vision).
+*Rationale for notifiers in site configuration*: Due to the limitations of [admin reverse-proxies](#admin-reverse-proxy), alerts cannot be configured without port-forwarding or custom ConfigMaps, something we [want to avoid](./monitoring_pillars.md#long-term-vision).
 
 *Rationale for Alertmanager*: An approach for notifiers using Grafana was considered, but had some issues outlined in [#11832](https://github.com/sourcegraph/sourcegraph/pull/11832), so Alertmanager was selected as our notification provider.
 
-*Rationale for silencing in site configuration*: Similar to the [Grafana admin reverse-proxy](#admin-reverse-proxy), silencing using the Alertmanager UI would require port-forwarding, something we [want to avoid](monitoring_pillars.md#long-term-vision).
+*Rationale for silencing in site configuration*: Similar to the [Grafana admin reverse-proxy](#admin-reverse-proxy), silencing using the Alertmanager UI would require port-forwarding, something we [want to avoid](./monitoring_pillars.md#long-term-vision).
 
 #### prom-wrapper
 
