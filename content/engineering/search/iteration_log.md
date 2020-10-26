@@ -20,7 +20,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - We need a proper frontend query parser for syntax highlighting, hover hints, and consistent UI state (toggle activation) of search expressions and future query syntax extensions. See [14016](https://github.com/sourcegraph/sourcegraph/issues/14016).
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-10-23: Started with this implementation. Have the basic recursive descent parsing down but didn't quite get as far as I wanted, mostly because I spent some time reading up about TypeScript, looking at other TS parser/visitor implementations, and getting pretty deep into Monaco API to understand how our parser/tree output could be used in the context of highlighting and smart editing _and_ serve the role for validating toggle state, etc. I have a good picture of how things could fit together now and will probably get this finished this week.
     
 ### Quality-of-life search code improvements
 
@@ -28,7 +28,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - We have a huge debt in parts of our search code and the state is unhealthy. I have been tracking a backlog of issues to refactor and fix re: deleting old parser code, fixing commit search issues. I will be selectively tackling [bug](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+author%3Arvantonder+label%3Ateam%2Fsearch+label%3Abug) and [refactor](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+author%3Arvantonder+label%3Ateam%2Fsearch+label%3Arefactor) issues to make things more sane.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-10-23: Did a pretty hefty parser pass to clean up debt and make it simpler to connect frontend parser work with backend parser [#15042](https://github.com/sourcegraph/sourcegraph/pull/15042). Small bug fixes and fixed search doc theming (not really part of this goal but work worth mentioning).
 
 ### Code monitoring
 
