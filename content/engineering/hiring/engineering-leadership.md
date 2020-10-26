@@ -30,11 +30,9 @@ Measure:
 
 Questions:
 
-- What are you really good at as an engineering manager?
-- What is something that you are good at now, but weren't always good at? How did you become good?
-- What is one thing that you want to get better at as an engineering manager?
-  - Why aren't you already as good as you want to be at this?
-  - What have you been doing to get better at this?
+- What development feedback have you received from your peers and managers in the last year?
+- What is something you have struggled with as an engineering manager in the last year?
+- What are some things you have done in the last year to become a better engineering manager?
 
 ## Prioritization
 
