@@ -6,6 +6,13 @@
 
 We think that security is an enabler for the business. Sourcegraph is committed to proactive security, and addressing vulnerabilities in a timely manner. We approach security with a can-do philosophy, and look to achieve product goals while maintaining a positive posture, and increasing our security stance over time.
 
+## Contact
+
+- [security@sourcegraph.com](mailto:security@sourcegraph.com)
+- #security channel Slack.
+- [@sourcegraph/security](https://github.com/orgs/sourcegraph/teams/security) on GitHub.
+- [report a vulnerability](reporting-vulnerabilities.md)
+
 ## Goals
 
 These goals represent our targeted work for 70% of our time. The remaining 30% is reserved for items that arise such as security reports. Our current work is documented in our [tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+label%3Atracking+label%3Ateam%2Fsecurity+is%3Aopen).
@@ -41,12 +48,7 @@ These goals represent our targeted work for 70% of our time. The remaining 30% i
 1. We host our private [infrastructure repository](http://github.com/sourcegraph/infrastructure) on Sourcegraph Cloud. (TBD, somewhat dependent on outputs of CtF)
 1. We allow paying customers to host their private code on Sourcegraph Cloud. (TBD, somewhat dependent on outputs of CtF)
 
-## Contact
-
-- [security@sourcegraph.com](mailto:security@sourcegraph.com)
-- #security channel Slack.
-- [@sourcegraph/security](https://github.com/orgs/sourcegraph/teams/security) on GitHub.
-- [report a vulnerability](reporting-vulnerabilities.md)
+----
 
 ## Responsibilities
 
@@ -58,34 +60,6 @@ These goals represent our targeted work for 70% of our time. The remaining 30% i
 - Increase our security posture by running traditional security tools such as vulnerability scanners, SAST, and DAST tools.
   - https://github.com/sourcegraph/sourcegraph/security/code-scanning
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
-
-### Bounties
-
-We provide monetary rewards, up to \$10,000 USD, for security vulnerability reports. The actual reward amount is determined based on the number of customers impacted, the difficulty of exploiting the vulnerability, and the severity of the consequences (e.g. service disruption, data leakage, reputational damage to Sourcegraph) of a successful exploit.
-
-We will send payment to a valid PayPal account after the issue is confirmed fixed or 90 days from the original report, whichever happens first. We will ask you for the name and country associated with your PayPal account.
-
-We may choose to not issue a reward if any of the following apply:
-
-1. You engage in disruptive behavior on sourcegraph.com itself (e.g. spamming our system with requests, fake accounts, denial of service). Sourcegraph is [open source software](https://github.com/sourcegraph/sourcegraph), so you can [install a copy yourself](https://docs.sourcegraph.com/#quickstart-guide) and test against that instead.
-1. You publicly disclose a vulnerability before we confirm that it is OK to do so. We want to give our customers time to upgrade to a patched version before public disclosure.
-1. You spam us with duplicate and/or low quality vulnerability reports (e.g. copy/pasting generic issues from automatic scanning tools).
-1. You are a current or former teammate at Sourcegraph (e.g. employee, contractor, intern).
-1. You are friends or family with a current or former teammate at Sourcegraph.
-
-## How we respond to security vulnerability reports
-
-When we receive [a report of a security vulnerability](#how-to-report-a-security-vulnerability), a member of our security team determines if a reported vulnerability should be investigated by an engineer.
-
-- If so, a member of our security team will [file a vulnerability report in sourcegraph/security-issues](https://github.com/sourcegraph/security-issues/issues/new/choose) and follow the checklist in the issue template.
-
-- If not, a member of our security team will respond to the report to notify the reporter why we are not acting on the report.
-
-  > Thank you for your report. Could you please provide us with $INFOX, $INFOY, and \$INFOZ so we can investigate this further?
-
-  > Thank you for your report. We will not be taking further action on this report because \$REASONS.
-
----
 
 ## How we work
 
