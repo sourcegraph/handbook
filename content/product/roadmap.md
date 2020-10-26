@@ -128,7 +128,7 @@ See [search roadmap prioritization](https://docs.google.com/document/d/1sUoaF8ot
 
 ## Security
 
-TO DO
+See [WIP roadmap](https://docs.google.com/document/d/1GRntQq8AVzFepDhDkAfAlj3lekZ3f2XJdrjoQPS93lY/edit).
 
 ## Web
 
