@@ -37,14 +37,14 @@ This document contains the goals and work log for the search team's [2-week iter
     - We have a GraphQL schema for code monitoring, with a stubbed out implementation on the backend, allowing us to decouple backend and frontend development.
     - SMTP is tracked in pings [#14115](https://github.com/sourcegraph/sourcegraph/issues/14115).
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-10-23: Finished v1 of GraphQL schema for code monitoring (Google drive > Sourcegraph shared > Search > Code Monitor GraphQL Design). Next step: Review together with Juliana.
 
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
 - **Outcomes:**
     - We have a similar performance for simple regex searches and their literal equivalents (EG `config overall`) on indexed repositories.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-10-23: Created a patch for google/zoekt with performance improvements for searches such as `(field)(?-s:.)*?(bar)`. Depending on the relation between the search terms (how frequent they are and how frequently they appear on the same line) we see reduced latencies between 86% (best case) and -3.5% (worst case). This change is motivated by https://github.com/sourcegraph/sourcegraph/issues/14351.
 
 ### Streaming search
 
