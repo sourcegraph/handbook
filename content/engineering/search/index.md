@@ -140,6 +140,7 @@ _Updated 2020-09-11_
   - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
   - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
   - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
+  - R.N, full-stack engineer, joining December 14th
 
 ## On-call
 
