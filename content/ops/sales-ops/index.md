@@ -9,7 +9,7 @@ The Sales strategy & operations (SalesOps) team is responsible for helping our S
 ### Members
 
 - [Dan Adler](../../../../company/team/index.md#dan-adler-he-him), VP Operations
-- J.K. starting 2020-09-28, [Sales Strategy & Operations Manager](../roles/gtm_sales_operations.md)
+- [Joe Kirscher](../../../company/team/index.md#joe-kirscher-he-him), Sales Strategy & Operations Manager
 
 ### Roles
 
