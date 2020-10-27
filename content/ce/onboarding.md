@@ -19,6 +19,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 - Watch [Dan's recorded demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing) 
 - Schedule a demo from the most recent CE hire before you
 - [Install Sourcegraph](https://docs.sourcegraph.com/admin/install/) using each of the three deployment options
+  - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1Mqlndi3anVp9Eq8tYgVoyjodyoxsfik2?usp=sharing)
   - Ask for any help needed along the way in the #dev-chat channel
   - Update our docs where necessary
 - Participate in (or be scheduled for) the following training sessions. Please ask your manager or People Ops to help you find the right training sessions to join or the right training videos to watch.
