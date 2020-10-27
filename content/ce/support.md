@@ -17,7 +17,7 @@ Because our code is open source, any user can file an issue on our public issue 
 - We won't be able to measure (and improve on) our response and resolution times.
 
 ### New Customer Welcome Message
-For new customers who have recently signed a contract with us, we want to send a welcome message introducing them to support@sourcegraph.com. The message template is as follows:
+When a new customer first comes onboard (i.e. signs a contract with us for the first time), we like to send them a welcome message from the Support team (and support@sourcegraph.com email address), introducing ourselves and the process for reaching out. The template is as follows:
 
 >Hello \<Customer Name\>!
 
