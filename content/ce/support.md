@@ -16,6 +16,22 @@ Because our code is open source, any user can file an issue on our public issue 
 - You may not want to discuss your private deployment or configuration, to share your logs, etc.
 - We won't be able to measure (and improve on) our response and resolution times.
 
+### New Customer Welcome Message
+For new customers who have recently signed a contract with us, we want to send a welcome message introducing them to support@sourcegraph.com. The message template is as follows:
+
+>Hello \<Customer Name\>!
+
+>My name is \<CE Rep Name\>, I’m a Customer Engineer here at Sourcegraph, and I want to welcome you to our support family! We’re excited that you’ve joined us and want to let you know we are here to help you be successful in resolving any issues with deploying, operating, and maintaining your Sourcegraph instance. 
+
+>We are truly passionate about helping make your experience with Sourcegraph as successful as possible, so if you ever need assistance or have any questions pertaining to your Sourcegraph instance, please don’t hesitate to reach out to support@sourcegraph.com.
+
+>Have a wonderful week, \<Customer Name\>. Please let us know how we can help!
+
+>\<CE Rep Name\>  
+Customer Engineer  
+support@sourcegraph.com
+
+
 ## How to provide support
 
 - [Support duties](#support-duties)
