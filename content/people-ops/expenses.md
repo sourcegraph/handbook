@@ -1,5 +1,9 @@
 # Submitting expenses
 
+## Invoices
+
+For bills above $1,000, or for bills that require invoicing (versus using a personal credit card and expensing), please refer to the finance handbook's guide for [getting invoices paid](../ops/finance/payables.md#getting-invoices-paid).
+
 ## Submit expenses every month
 
 Teammates should submit expenses at the end of every month, ideally in a single report for the full month.
@@ -11,6 +15,10 @@ Any expenses more than 90 days old require approval by @dan.
 ## Contractors
 
 Contractors should also submit expense reports promptly at the end of each month, and include the expenses in their monthly invoices. Once the expenses are approved, the full invoice can be paid.
+
+## Approvals
+
+Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](spending-company-money.md)). However, if you intend to spend >$500 on a single purchase (or, depending on your position, above higher limits), please see our [spending limits](../ops/finance/payables.md#limits)
 
 ## Systems
 
