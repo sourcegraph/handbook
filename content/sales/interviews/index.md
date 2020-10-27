@@ -10,3 +10,7 @@
 	- CEO/CTO: We ask you about what motivates you to do your best work, and we tell you more about the vision for the company (30 minutes)
 4. We check your references
 5. We make you a job offer
+
+
+## The AE interview cookbook
+Interviewing an AE from the Sourcegraph side?  Check out the [AE Interview Cookbook](https://docs.google.com/document/d/112zt2yaMRcl6BPmHY4nGplojZEVwKW4I-szoXu0fXPM/)!
