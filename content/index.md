@@ -48,7 +48,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### Customer Engineering
 
-- [Customer engineering](ce/index.md)
+- [Customer Engineering](ce/index.md)
   - [Support](ce/support.md)
 
 ### [Marketing](marketing/index.md)
