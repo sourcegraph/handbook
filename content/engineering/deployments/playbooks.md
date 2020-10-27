@@ -1,4 +1,4 @@
-# Playbooks
+# Playbooks for deployments
 
 ## Sourcegraph.com
 
