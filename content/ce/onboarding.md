@@ -33,8 +33,8 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 - Set up introductory calls with Distribution, Sales, Product, and Marketing team members
 - Read our [CE handbook pages](index.md)
   - [Support](support.md)
-- Set up a Sourcegraph.com account and request access to become a site-admin in the #people-ops channel. Once you have access, familiarize yourself with the site-admin page (used to manage customer accounts, license keys, etc.).
-- Obtain access to the Sourcegraph Dropbox team folder. You can request this in the #people-ops Slack channel.
+- Set up a Sourcegraph.com account and request access to become a site-admin in the #internal-it-tools. Once you have access, familiarize yourself with the site-admin page (used to manage customer accounts, license keys, etc.).
+- Obtain access to the Sourcegraph Dropbox team folder. You can request this in the #internal-it-tools Slack channel.
   - Get access to the "Customer contracts" folder as well.
 - Ask for a license to LinkedIn Sales Navigator tool in #sales channel
 
