@@ -1,4 +1,4 @@
-# **Director of Content**
+# **Director of Content Strategy**
 
 We’re seeking an intuitive storyteller to lead Sourcegraph’s content marketing efforts. You’ll have the opportunity to make a huge impact on a rapidly growing, highly successful business; this role will craft our global content strategy, shape our brand voice, and help make Sourcegraph a trusted resource for developers.
 
