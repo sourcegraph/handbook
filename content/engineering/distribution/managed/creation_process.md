@@ -18,7 +18,16 @@ Creating a new managed instance involves following the steps below.
 1. In GCP, enable the **Compute Engine API**:
    - Under **APIs & Services** > **Library** search for "Compute"
    - Select **Compute Engine API** and choose **Enable**
-1. `export GOOGLE_APPLICATION_CREDENTIALS=~/Downloads/sourcegraph-managed-company-220df65550d4.json`
+1. In GCP, enable secret management and add the OpsGenie Webhook URL secret:
+   - Under **Security** > **Key management**
+     - Click **Enable** on the **Cloud Key Management Service (KMS) API** page.
+     - Choose **Create key ring** and name it `primary-key-ring`, choose **global** location.
+     - Choose **Create key** and name it `primary-key`, accept defaults.
+   - Under **Security** > **Secret manager**:
+     - Click **Enable** on the **Secret Manager API** page.
+     - Choose **Create secret** and name it `opsgenie-webhook`
+     - For **Secret value**, enter the OpsGenie webhook URL from [Internal managed instances vault: OpsGenie Webhook URL](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+     - Click **Create secret**.
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. `VERSION=vMAJOR.MINOR.PATH ./create-deployment.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/gcp-tfstate/gcp-tfstate.tf` according to the comments within, commit the result.
