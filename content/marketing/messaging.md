@@ -33,6 +33,8 @@ With rapidly growing codebases, proliferating number of repositories, multiple l
 
 Explore, navigate, and better understand all code, everywhere, faster, with Sourcegraph universal code search.
 
+Sourcegraph's universal code search solves enterprises' Big Code problems so they can innovate faster.
+
 ### Single sentence (~25 words)
 
 Sourcegraph universal code search enables developers to explore and better understand all code, faster, with contextual code intelligence to improve developer productivity and automate large-scale code change management.
