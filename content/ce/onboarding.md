@@ -62,6 +62,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 - Set up 1-on-1s over the next month with all members of the [Distribution team](../engineering/distribution/index.md). This is the engineering team that CEs traditionally work with most often, as they own customer deployment, monitoring, and upgrades.
 - Set up 1-on-1s over the next month with all members of the [Sales team](../sales/index.md).
 - Confirm with Noemi you can access the "Sourcegraph shared" folder on Google Drive
+- Add yourself to the [team page](https://about.sourcegraph.com/company/team). - Add a link to your team page bio to your Slack profile
 
 ### Checkpoint
 
