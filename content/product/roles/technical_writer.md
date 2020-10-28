@@ -29,7 +29,6 @@ As a Technical Writer you will plan, create, revise, and maintain developer docu
 
 ## Qualifications
 
-- Have a Bachelor’s or Master’s Degree, preferably in Composition and Rhetoric, English, or Communication
 - Have 5 or more years in a training, instructional design, or technical writing related role
 - Experience working within the docs-as-code approach
 - Is a self-starter; motivated by results and challenging yet attainable goals

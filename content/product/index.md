@@ -2,7 +2,7 @@
 
 ## Team
 
-The product team is newly growing, and consists of all product managers and product designers on the team. We will consider splitting into separate teams only when size necessitates it.
+The product team consists of the product managers, product designers, and technical writers on the team.
 
 ### Members
 

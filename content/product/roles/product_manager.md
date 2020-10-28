@@ -19,7 +19,7 @@ You will **own an area of the product**\* and:
 - Communicate product ideas clearly by focusing on the problems that are being solved, the outcomes, and how we will measure success.
 - Be transparent in your internal and external communication. Sourcegraph is open source, so most discussions are public or in channels where you communicate directly with our customers.
 
-\* Product ownership areas (current teams): [Campaigns](../../engineering/campaigns/index.md), [Web](../../engineering/web/index.md), [Cloud](../../engineering/cloud/index.md), [Distribution](../../engineering/distribution/index.md)
+\* Product ownership areas (current teams): [Campaigns](../../engineering/campaigns/index.md), [Cloud](../../engineering/cloud/index.md), [Distribution](../../engineering/distribution/index.md), [Security](../../engineering/security/index.md)
 
 ## Qualifications
 
@@ -60,6 +60,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
       - Plus one of the following:
          - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
          - [María Craig](../../../company/team/index.md#maría-craig-she-her)
+         - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him)
    - When the RFC is recieved:
       - Make a copy of the RFC there is a Sourcegraph owned version of it.
       - Set the sharing permissions to "Anyone at Sourcegraph with the link".
@@ -69,6 +70,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
    - Plus one of the following:
       - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
       - [María Craig](../../../company/team/index.md#maría-craig-she-her)
+      - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him)
 1. **HM action**: Add a note to the candidate's Lever profile with a short summary of the candidate and possible ownership areas and why that would be a good fit.
 1. Interviews
    - [1 hr] **Working with customers and data**: The biz ops and customer engineering teams talk with you about how you work with customers to gather feedback. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/customers-and-data.md)
