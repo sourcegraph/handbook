@@ -88,28 +88,7 @@ See [Distribution roadmap](https://github.com/sourcegraph/about/pull/1104).
 
 ## Search
 
-1. 🔄 Enterprise homepage
-1. 🔄 Search tour
-1. 🔄 Search expressions
-1. 🔄 Scaling indexed text search to 500k repositories
-1. 🔄 Streaming search
-1. Code monitoring (private code monitors, no sharing, emails + webhooks)
-1. Performance at scale: follow-up to “scale indexed text search to 500k repositories”, focus and scope TBD
-1. As a user, I can create a scope of code I want to search across as a list of repositories (consolidate repogroups + search scopes)
-1. As a user, I can create a scope of code I want to search across as a list of repositories + branches (better version contexts 1/2)
-1. Search language rules engine
-1. Saved searches without monitoring
-1. Search results redesign
-1. Diff/commit search performance
-1. Search input redesign
-1. Structural search performance
-1. As a user, I can create a scope of code I want to search across as a list of repositories + branches that should be indexed (better version contexts 2/2)
-1. Code monitoring (shareable)
-1. Semantic search: prototype validation
-1. External search result providers
-1. Semantic search: implementation
-
-See [search roadmap prioritization](https://docs.google.com/document/d/1sUoaF8otA25NMapVcM5yHfP82kFie0NUd3_kL5Rg2Ns/edit) for more details on individual items.
+See [search roadmap](../engineering/search/roadmap.md).
 
 ## Security
 
