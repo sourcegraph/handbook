@@ -128,7 +128,7 @@ See [search roadmap prioritization](https://docs.google.com/document/d/1sUoaF8ot
 
 ## Security
 
-See [WIP roadmap](https://docs.google.com/document/d/1GRntQq8AVzFepDhDkAfAlj3lekZ3f2XJdrjoQPS93lY/edit).
+See [WIP roadmap](https://sourcegraph.productboard.com/feature-board/2119755-cloud).
 
 ## Web
 
