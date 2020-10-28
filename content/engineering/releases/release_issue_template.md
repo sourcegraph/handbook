@@ -19,23 +19,22 @@ Arguments:
 ## $FIVE_WORKING_DAYS_BEFORE_RELEASE (5 work days before release): Prep for branch cut
 
 - [ ] Post a release status update to Slack - review all release-blocking issues, and ensure someone is resolving each.
-  ```
+  ```sh
   yarn run release release:status $MAJOR.$MINOR.0
   ``` 
 
 ## $FOUR_WORKING_DAYS_BEFORE_RELEASE (4 work days before release): Branch cut
 
 - [ ] Update the changelog and merge the generated pull request:
-  ```
+  ```sh
   yarn run release changelog:cut $MAJOR.$MINOR.0
   ```
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step: `git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR`.
 
-
 Upon branch cut, create and test the first release candidate:
 
 - [ ] Tag the first release candidate:
-  ```
+  ```sh
   yarn run release release:create-candidate $MAJOR.$MINOR.0-rc.1
   ```
 - [ ] Run regression tests:
@@ -80,25 +79,34 @@ Once there are no more release-blocking issues (as reported by the `release:stat
   be removed).
 - [ ] Wait for the release Docker images to be available in [Docker Hub](https://hub.docker.com/r/sourcegraph/server/tags).
 - [ ] Release Docker Compose by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-docker/blob/master/RELEASING.md)
-- [ ] Open (but do not merge) PRs that publish the new release:
-  ```
+- [ ] Open PRs that publish the new release:
+  ```sh
   # Run this in the main sourcegraph repository in the `dev/release` directory on `main` branch:
   yarn run release release:publish $MAJOR.$MINOR.0
   ```
-- [ ] Create (but do not merge) a PR to update https://docs.sourcegraph.com/admin/updates/kubernetes indicating the steps required to upgrade.
+- [ ] Create a PR to update the [Kubernetes upgrade guide](https://docs.sourcegraph.com/admin/updates/kubernetes) indicating the steps required to upgrade. Add the created pull request to the release campaign:
+  ```sh
+  yarn run release release:add-to-campaign $MAJOR.$MINOR.0 sourcegraph/sourcegraph <pr-number>
+  ```
+- [ ] Create a PR to update [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker) as required. Add the created pull request to the release campaign:
+  ```sh
+  yarn run release release:add-to-campaign $MAJOR.$MINOR.0 sourcegraph/deploy-sourcegraph-docker <pr-number>
+  ```
 
 ## $RELEASE_DATE: Release
 
-- [ ] Merge the release-publishing PRs created previously.
+- [ ] From the [release campaign](https://k8s.sgdev.org/organizations/sourcegraph/campaigns), merge the release-publishing PRs created previously.
   - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph), also:
-    - [ ] Merge the PR to update the [Kubernetes CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/doc/admin/updates/kubernetes.md)
-    - [ ] Tag the `v$MAJOR.$MINOR.0` release at this commit.
-        ```
+    - [ ] Tag the `v$MAJOR.$MINOR.0` release at the most recent commit on the `v$MAJOR.$MINOR` branch.
+        ```sh
         VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
         ```
   - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
     - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
-- [ ] Ask the product team to merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)).
+- [ ] Ask the product team to merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)). Add the pull request to the release campaign:
+  ```sh
+  yarn run release release:add-to-campaign $MAJOR.$MINOR.0 sourcegraph/about <pr-number>
+  ```
 
 ### Post-release
 
@@ -108,7 +116,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 - [ ] Update `dev/release/config.json` with the parameters for the current release.
 - [ ] Run `yarn build` to rebuild the release script (necessary, because `config.json` is compiled in).
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
-  ```
+  ```sh
   # Add calendar events and reminders for key dates in the release cycle
   yarn run release tracking:release-timeline
 
