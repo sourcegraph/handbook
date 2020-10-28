@@ -1,5 +1,7 @@
 # Upgrading a managed instance
 
+Managed instances configuration is tracked in [`deploy-sourcegraph-managed-instances`](https://github.com/sourcegraph/deploy-sourcegraph-managed). For basic operations like accessing an instance for these steps, see [managed instances operations](operations.md).
+
 - [Walkthrough video](#walkthrough-video)
 - [1) Add a banner indicating scheduled maintenance is in progress](#1-add-a-banner-indicating-scheduled-maintenance-is-in-progress)
 - [2) Mark the database as ready-only](#2-mark-the-database-as-ready-only)
@@ -148,7 +150,7 @@ Take down the new `black` deployment:
 
 ## 8) Confirm instance health
 
-Access Grafana and confirm the instance is healthy.
+[Access Grafana](operations.md#port-forwarding-direct-access-to-caddy-jaeger-and-grafana) and confirm the instance is healthy.
 
 ## 9) Switch the load balancer target
 

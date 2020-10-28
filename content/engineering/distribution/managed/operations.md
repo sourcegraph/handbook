@@ -7,7 +7,7 @@
 - [Accessing the Docker containers](#accessing-the-docker-containers)
 - [Finding the external IPs](#finding-the-external-ips)
 - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
-- [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changed)
+- [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
 - [Debugging startup scripts](#debugging-startup-scripts)
 
 ## Red/black deployment model
@@ -20,7 +20,7 @@ NAME                  ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EX
 default-red-instance  us-central1-f  n1-standard-8               10.2.0.2                  RUNNING
 ```
 
-During an upgrade, both `default-red-instance` and `default-black-instance` would be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap).
+During an upgrade, both `default-red-instance` and `default-black-instance` would be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap). Learn more about [managed instances upgrades here](upgrade_process.md).
 
 ## SSH access
 
