@@ -104,6 +104,12 @@ Target Accounts are prospective customer accounts that the SDR/AE have specifica
 
 Target Accounts can be easily identified in Salesforce by the “Target Account” field designation. To make any updates to this field on a particular account, please contact your manager.
 
+AE can trade a targeted account for an unassigned account with managers approval. Must be in writing and sent to the Manager and SDR team.
+If the Manager accepts trade/Account will be transferred to AE. AE’s SDR will be assigned automatically to account unless there is activity within the last 30 days by an SDR.
+
+If there is activity on the account by an SDR other than the AE’s, The SDR will have 30 days from the Assignment date to set an opportunity.  If no opportunity(per ROE of opportunity criteria) exists after 30 days, the account will be assigned to the AE’s SDR.
+SDR also has the authority without managers approval to assign the account to the AE’s SDR right away.
+
 ## Stages
 
 See also the [MQL (marketing-qualified lead) definition](../marketing/index.md#mql).
