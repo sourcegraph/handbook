@@ -20,7 +20,7 @@ The origin of our work is the core of Sourcegraph, first implemented as [srclib]
 
 2017 - Over time we started to experience some issues with language servers. They can be difficult to deploy, slow at runtime, slow to adopt by members of their respective language communities, and slow to develop.
 
-2018 - We added a new basic code intelligence that is built on search-based heuristics to allow us to provide quick and good enough i.e. "imprecise" support for the [most popular programming languages](https://sourcegraph.com/extensions?query=category%3A%22Programming+languages%22). 
+2018 - We added a new basic code intelligence that is built on search-based heuristics to allow us to provide quick and good enough i.e. "imprecise" support for the [most popular programming languages](https://sourcegraph.com/extensions?query=category%3A%22Programming+languages%22).
 
 2019 - While looking for more efficient alternatives to language servers we found LSIF (Language Server Index Format) which provided an index-based implementation of precise code navigation (similar to srclib) with the advantage of being able to build on top of the work done in the LSP community (LSIF and LSP are sister protocols).
 
@@ -105,22 +105,24 @@ Here are some key ways to contact us:
 - On Google Drive, we use the [Code Intel](https://drive.google.com/drive/folders/1vKcW5EM4RBIuF8ZFvPM0G1FRwl_03RXK) directory.
 
 ## Team process
+
 The code intel team has defined a set of rituals that keeps the team connected around our common goals. As a team we also believe in good meeting etiquette, and to ensure effective meetings for everyone every meeting must have a meaningful topic, agenda, and stated goal or purpose statement defined ahead of time.
 
 On a weekly basis:
 
-* Team Sync Meeting: Every Monday, the code intel team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the weekly sync meeting, each team member should:
+- Team Sync Meeting: Every Monday, the code intel team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the weekly sync meeting, each team member should:
+
   1. Add any agenda items that should be discussed.
   1. Review any existing agenda items and be prepared to discuss them.
   1. Update the current release [tracking issue](../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
 
-* Team Updates: Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update.
-  
+- Team Updates: Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update.
+
 For each iteration (currently one month long), we follow this process:
 
-* Planning Meeting(s): Prior to each iteration the team has planning meetin(s) to discuss which items should be prioritized for the upcoming release. We revisit oustanding work that track against our team goals, and go over [our backlog](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence) of bugs and feature requests. Once the team agrees on a task, we add it to the tracking issue and as part of our team goals for the milestone.
+- Planning Meeting(s): Prior to each iteration the team has planning meetin(s) to discuss which items should be prioritized for the upcoming release. We revisit oustanding work that track against our team goals, and go over [our backlog](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence) of bugs and feature requests. Once the team agrees on a task, we add it to the tracking issue and as part of our team goals for the milestone.
 
-* Retrospective Meeting: After the release branch has been cut for the iteration, the team has a retro to discuss how the iteration went, and what changes we might want to make to continously improve our teamwork.
+- Retrospective Meeting: After the release branch has been cut for the iteration, the team has a retro to discuss how the iteration went, and what changes we might want to make to continously improve our teamwork.
 
 We track most of our work using [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
 
@@ -147,12 +149,12 @@ Our team is growing and to help our new teammates have the best onboarding exper
 ## Members
 
 - [María Craig](../../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../product/roles/product_manager.md))
-- We are hiring an [Engineering Manager for this team](../hiring/engineering-manager-code-intelligence.md).
+- [O.C.](../../../company/team/index.md#todo) starting 2020-11-23.
   - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
   - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
   - [Noah Santschi-Cooney](../../../company/team/index.md#noah-santschi-cooney-he-him)
 
-Temporary responsibilities while we search for an engineering manager:
+Temporary responsibilities until O.C. starts:
 
 - María
   - Send [weekly update](../leadership/index.md#weekly-updates)
@@ -193,7 +195,5 @@ Temporary responsibilities while we search for an engineering manager:
 ## Growth plan
 
 _Updated 2020-09-22_
-
-We are hiring an [Engineering Manager](../hiring/engineering-manager-code-intelligence.md) to lead and grow this team.
 
 We are also interested to hire an engineer who is capable of working on our web application as well as our backend systems. Apply here: [Software Engineer - Full Stack](https://about.sourcegraph.com/handbook/engineering/hiring/software-engineer-full-stack)
