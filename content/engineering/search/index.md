@@ -74,5 +74,6 @@ Iterations start **every other Monday**.
 _Updated 2020-10-07_
 
 We are looking to hire:
+
 - A [full-stack software engineer](../hiring/software-engineer-full-stack.md)
 - A [backend software engineer](../hiring/software-engineer-backend.md)
