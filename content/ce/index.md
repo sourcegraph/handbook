@@ -26,7 +26,7 @@ TODO
 - Customer Engineers
   - [Dan Adler](../../company/team/index.md#dan-adler-he-him) (interim CE member, former CE manager)
   - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
-  - [Tion Thomas](../../company/team/index.md#tion-thomas-he-him)
+  - [Jonah Dueck](../../company/team/index.md#jonah-dueck-he-him)
 - Customer Support
   - We’re hiring a [Head of Customer Support](./roles/head_of_customer_support.md). Julia Glilnets is involved in the meantime.
 - Training
