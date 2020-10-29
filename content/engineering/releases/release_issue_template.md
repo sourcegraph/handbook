@@ -82,7 +82,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 - [ ] Open PRs that publish the new release:
   ```sh
   # Run this in the main sourcegraph repository in the `dev/release` directory on `main` branch:
-  yarn run release release:publish $MAJOR.$MINOR.0
+  yarn run release release:stage $MAJOR.$MINOR.0
   ```
 - [ ] Create a PR to update the [Kubernetes upgrade guide](https://docs.sourcegraph.com/admin/updates/kubernetes) indicating the steps required to upgrade. Add the created pull request to the release campaign:
   ```sh
@@ -106,6 +106,10 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 - [ ] Ask the product team to merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)). Add the pull request to the release campaign:
   ```sh
   yarn run release release:add-to-campaign $MAJOR.$MINOR.0 sourcegraph/about <pr-number>
+  ```
+- [ ] Announce that the release is live:
+  ```sh
+  yarn run release release:close $MAJOR.$MINOR.0
   ```
 
 ### Post-release
