@@ -19,7 +19,7 @@ Managers and above are eligible to receive corporate credit cards for team purch
 Just [contact the finance team](index.md#contact) if you believe you are eligible for one and would like to have one. By default, the following monthly limits apply, but they can be raised if requested.
 
 |Role|Default monthly credit limit|
-|---|---|---|
+|---|---|
 |Department leads (VP-level or above)|$10,000|
 |Managers|$1,000|
 
