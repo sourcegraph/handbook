@@ -1,4 +1,4 @@
-<img src="https://storage.googleapis.com/sourcegraph-assets/web-team-logo.svg" alt="Sourcegraph Web Team Logo" style="width: 35%; float: right; margin-left: 1rem">
+<img src="./logo.svg" alt="Sourcegraph Web Team Logo" style="width: 35%; float: right; margin-left: 1rem">
 
 # Web team
 
