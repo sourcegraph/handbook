@@ -57,7 +57,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - API: statistics for designs.
     - Backend: true streaming for text search with stats.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-10-30: Basic integration tests have been added for streaming search, including mocking the server sent events. [#15122](https://github.com/sourcegraph/sourcegraph/pull/15122)
 
 ### Search Tour
 - **Owner(s):** @farhan
