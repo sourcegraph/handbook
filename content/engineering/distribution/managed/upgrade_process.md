@@ -79,6 +79,14 @@ Make sure the version (`3-17-2`) describes the current version of the instance, 
 
 ## 4) Initialize the new production deployment
 
+Then in `deploy-sourcegraph-docker/$CUSTOMER` copy the `red` deployment's Docker Compose configuration:
+
+```sh
+cp -R red/ black/
+git add black/
+git commit -m 'cp -R red/ black/'
+```
+
 Initialize the new `black` production deployment using the snapshot created in the previous step, by editing `deploy-sourcegraph-docker/$CUSTOMER/terraform.tfvars` with something like:
 
 ```diff
@@ -87,7 +95,7 @@ Initialize the new `black` production deployment using the snapshot created in t
 +deployments = ["red", "black"]
  disks = {
      red = { from_snapshot = null }
-     black = { from_snapshot = "default-red-data-disk-snapshot--upgrade-from-3-17-2" }
++    black = { from_snapshot = "default-red-data-disk-snapshot--upgrade-from-3-17-2" }
  }
  snapshots = {
      upgrade-from-3-17-2 = { from_disk = "default-red-data-disk" }
@@ -95,14 +103,6 @@ Initialize the new `black` production deployment using the snapshot created in t
 ```
 
 Make sure to use the right `red` / `black` in both the new deployment name and the `from_snapshot` value. Similarly, change the `from_snapshot` value to match the snapshot you previously took.
-
-Then in `deploy-sourcegraph-docker/$CUSTOMER` copy the `red` deployment's Docker Compose configuration:
-
-```sh
-cp -R red/ black/
-git add black/
-git commit -m 'cp -R red/ black/'
-```
 
 Then `terraform apply` to update the metadata. This should only modify the deployment - not recreate it.
 
