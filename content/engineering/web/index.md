@@ -1,12 +1,12 @@
-# Web team
+<img src="https://storage.googleapis.com/sourcegraph-assets/web-team-logo.svg" alt="Sourcegraph Web Team Logo" style="width: 35%; float: right; margin-left: 1rem">
 
-<div style="text-align: left; margin-bottom: 1.5rem">
-  <img src="https://storage.googleapis.com/sourcegraph-assets/web-team-logo.svg" width="40%" alt="Sourcegraph Web Team Logo">
-</div>
+# Web team
 
 The web team owns the maintenance and expansion of our web application and code host integrations as vehicles to deliver the value of [extensions](https://docs.sourcegraph.com/extensions) to our users.
 
 This is a large ownership area, so the team creates a focused plan each iteration, by agreeing on an appropriately small set of [iteration goals](../../../company/goals/index.md). Each goal should have more than one teammate working on it.
+
+<div style="clear: both"/>
 
 ## Contact
 
@@ -53,11 +53,11 @@ TypeScript, React, RxJS, GraphQL, Go.
 
 ### Backlog
 
-The web team keeps a [backlog Github project board](https://github.com/orgs/sourcegraph/projects/98). 
+The web team keeps a [backlog Github project board](https://github.com/orgs/sourcegraph/projects/98).
 
 We use the backlog for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](../../product/roadmap.md#web).
 
-To add an issue, tag it `team/web` to notify the web team PM and put it in the "to triage" column of the board. Unless you're directly asked, only web team members should move issues out of the "to triage" column on the board. A web team member will confirm the issue is web team-related, and then move it to the appropriate column. 
+To add an issue, tag it `team/web` to notify the web team PM and put it in the "to triage" column of the board. Unless you're directly asked, only web team members should move issues out of the "to triage" column on the board. A web team member will confirm the issue is web team-related, and then move it to the appropriate column.
 
 ### Iterations
 
