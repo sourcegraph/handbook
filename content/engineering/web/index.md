@@ -1,5 +1,9 @@
 # Web team
 
+<div style="text-align: left; margin-bottom: 1.5rem">
+  <img src="https://storage.googleapis.com/sourcegraph-assets/web-team-logo.svg" width="40%" alt="Sourcegraph Web Team Logo">
+</div>
+
 The web team owns the maintenance and expansion of our web application and code host integrations as vehicles to deliver the value of [extensions](https://docs.sourcegraph.com/extensions) to our users.
 
 This is a large ownership area, so the team creates a focused plan each iteration, by agreeing on an appropriately small set of [iteration goals](../../../company/goals/index.md). Each goal should have more than one teammate working on it.
