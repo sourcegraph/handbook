@@ -4,11 +4,25 @@ Goals are continuously updated and reviewed. If you find these goals do not refl
 
 ## Medium-term goals (~3-6 Months)
 
+### [Improve deployment pipeline UX](https://github.com/orgs/sourcegraph/projects/96)
+
+- **Owner**: TBD
+- **Status**: Not started. Unknown amount of work.
+- **Outcomes**:
+  - It is simple to identify when a commit has been deployed to an environment.
+  - Developers are notified when their PR is deployed to an environment.
+  - Deployments display information about the artifact they are deploying.
+  - We are able to rollback to or redeploy a previous version.
+  - Stretch: We can correlate deployments to Grafana metrics and Stackdriver logs.
+  - TBD: Branches can trigger a parallel `sourcegraph-frontend` deployment.
+  - TBD: We can trigger rollbacks and deployments via a `/` command in Slack.
+- **Milestones**: TBD
+
 ### Any engineer at Sourcegraph can create a release for all of our supported deployment types by running a single command
 
 Creating a new release for our deployments is currently a semi-automated process, which requires several manual steps and synchronizing our versioned artifacts (Sourcegraph, Kubernetes manifests, docker-compose manifests, etc). We want to enable any engineer to perform a release as often as needed, to enable this we want to make releasing Sourcegraph a simple, automated process.
 
-- **Owner**: Stephen, Dave, Robert
+- **Owner**: Dave, Robert
 - **Status**: In progress. Estimated completion by end of 2020.
 - **Outcomes**:
   - Releases can be triggered by a single manual step.
@@ -17,7 +31,7 @@ Creating a new release for our deployments is currently a semi-automated process
 - **Milestones**:
   - ~~[Enable running e2e test on an environment matching its test (docker-compose in a VM)](https://github.com/orgs/sourcegraph/projects/72).~~ Done: 3.20
   - ~~[Automatically update the dogfood cluster](https://github.com/orgs/sourcegraph/projects/83).~~ Done: 3.20
-  - [Enable continuous e2e tests on `main`](https://github.com/orgs/sourcegraph/projects/72). **In progress**
+  - [Enable continuous e2e tests on `main`](https://github.com/orgs/sourcegraph/projects/90). **In progress**
   - [Releases can be done in a single day](https://github.com/orgs/sourcegraph/projects/90). **In progress**
   - [Enable continuous regression tests on `main`](https://github.com/orgs/sourcegraph/projects/90). **In progress**
   - [Ensure relevant engineers are notified of broken builds](https://github.com/orgs/sourcegraph/projects/90). **In progress**
@@ -41,7 +55,8 @@ We will start by looking at our Kubernetes deployment and working on an easier u
   - ~~Create a Kubernetes deployment PoC.~~ Done: 3.19
   - ~~Design Dhall Architecture.~~ Done: 3.20
   - Migrate internal deployments to Dhall, onboard other teams on how to make changes with Dhall and collect feedback. **In progress**
-  - Create customer facing migration path and how-to documentation. _Estimated: 3.22_
+  - Create a demo video/presentation to gather customer feedback. **In progress**
+  - Create customer facing migration path and how-to documentation. _Estimated: 2020_
   - Use Dhall to generate public Kubernetes manifests.
   - Migrate a highly technical customer to Dhall and collect usage feedback.
   - Design customization workflow.
@@ -71,9 +86,9 @@ We will initially focus on reducing the time it takes to collect troubleshooting
 - **Milestones**:
   - ~~Create initial GCP structure.~~ Done: 3.19
   - ~~Move non-production projects to folders.~~ Done: 3.20
-  - Move CI to a new GCP project **In progress**
-  - Move non-production deployments to separate projects. **In progress**
-  - Create code to bootstrap new projects.
+  - ~~Move CI to a new GCP project.~~ Done: 3.21
+  - ~~Move non-production deployments to separate projects.~~ Done: 3.21
+  - ~~Create code to bootstrap new projects.~~ Done: 3.21
   - Document project and folder usage guidelines.
 
 ## Short-term goals
