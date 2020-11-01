@@ -1,6 +1,4 @@
-## PostgreSQL database tips
-
-
+# PostgreSQL database tips
 
 ### Shell commands
 
