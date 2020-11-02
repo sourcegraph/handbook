@@ -31,7 +31,6 @@ This is the perfect opportunity for you if you’re excited by strategic and han
 - In depth knowledge of HR policies and functions and compliance for US employees and non-US contractors.
 - Experience working with a globally distributed workforce.
 
-Apply to this role [here](https://jobs.lever.co/sourcegraph/700949a2-09ce-4de7-b3bd-a5af5032a4a9/apply)!
 
 ## Learn more about us
 
@@ -41,6 +40,12 @@ We want to ensure Sourcegraph is an environment that suits your working style an
 
 If you're interested in Sourcegraph but aren't yet ready to apply we are still happy to connect and answer any questions that you might have: [DM us on Twitter](https://twitter.com/srcgraph) or email hiring@sourcegraph.com.
 
+We provide competitive compensation and practical benefits to keep you happy and healthy so that you can do your best work.
+
 Learn more about what it is like to work at Sourcegraph by reading [our handbook](https://about.sourcegraph.com/handbook/).
+
+## Apply
+
+Apply to this role [here](https://jobs.lever.co/sourcegraph/700949a2-09ce-4de7-b3bd-a5af5032a4a9/apply)!
 
 Go back to the [careers page](../../../company/careers.md) for all open positions.
