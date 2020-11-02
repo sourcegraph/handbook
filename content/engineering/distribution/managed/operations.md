@@ -1,6 +1,6 @@
 # Managed instances operations
 
-- [Red/black deployment model](#red-black-deployment-model)
+- [Red/black deployment model](#redblack-deployment-model)
 - [SSH access](#ssh-access)
 - [Port-forwarding (direct access to Caddy, Jaeger, and Grafana)](#port-forwarding-direct-access-to-caddy-jaeger-and-grafana)
 - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
@@ -15,19 +15,19 @@
 At any point in time only one deployment is the active production instance, this is noted in `deploy-sourcegraph-managed/$CUSTOMER/terraform.tfvars`, and except during upgrades only one is running. You can see this via:
 
 ```sh
-$ gcloud compute instances list --project=sourcegraph-managed-$COMPANY
+$ gcloud compute instances list --project=sourcegraph-managed-$CUSTOMER
 NAME                  ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP  STATUS
 default-red-instance  us-central1-f  n1-standard-8               10.2.0.2                  RUNNING
 ```
 
-During an upgrade, both `default-red-instance` and `default-black-instance` would be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap). Learn more about [managed instances upgrades here](upgrade_process.md).
+The `NAME` value indicates the currently active instance (`red` or `black`). During an upgrade, both `default-red-instance` and `default-black-instance` will be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap). Learn more about [managed instances upgrades here](upgrade_process.md).
 
 ## SSH access
 
 Locate the GCP instance you'd like to access (usually either `default-red-instance` or `default-black-instance`), and then:
 
 ```sh
-$ gcloud beta compute ssh --zone "us-central1-f" --tunnel-through-iap --project "sourcegraph-managed-$COMPANY" default-red-instance
+$ gcloud beta compute ssh --zone "us-central1-f" --tunnel-through-iap --project "sourcegraph-managed-$CUSTOMER" default-$DEPLOYMENT-instance
 ```
 
 If you get an error:
@@ -41,7 +41,7 @@ ERROR: (gcloud.beta.compute.ssh) [/usr/bin/ssh] exited with return code [255].
 This may be indicating that the VM is currently not running - check:
 
 ```sh
-$ gcloud beta compute instances list --project=sourcegraph-managed-$COMPANY
+$ gcloud beta compute instances list --project=sourcegraph-managed-$CUSTOMER
 ```
 
 And start the instance if needed (e.g. through the web UI.)
@@ -51,7 +51,7 @@ And start the instance if needed (e.g. through the web UI.)
 Locate the GCP instance you'd like to access (usually either `default-red-instance` or `default-black-instance`), and then:
 
 ```sh
-gcloud compute start-iap-tunnel default-red-instance 80 --local-host-port=localhost:4444 --zone "us-central1-f" --project "sourcegraph-managed-$COMPANY"
+gcloud compute start-iap-tunnel default-$DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone "us-central1-f" --project "sourcegraph-managed-$CUSTOMER"
 ```
 
 This will port-forward `localhost:4444` to port `80` on the VM instance:
@@ -60,18 +60,18 @@ Replace `80` with `3370` for Grafana, or `16686` for Jaeger. Note that other por
 
 ## Access through the GCP load balancer as a user would
 
-Users access Sourcegraph through GCP Load Balancer/HTTPS -> the Caddy load balancer/HTTP -> the actual sourcegraph-frontend/HTTP. If you suspect that an issue is being introduced by the GCP load balancer itself, e.g. perhaps a request is timing out there due to some misconfiguration, then you will need to access through the GCP load balancer itself. If the managed instance is protected by the load balancer firewall / not publicly accessible on the internet, then it is not possible for you to access `$COMPANY.sourcegraph.com` as a normal user would.
+Users access Sourcegraph through GCP Load Balancer/HTTPS -> the Caddy load balancer/HTTP -> the actual sourcegraph-frontend/HTTP. If you suspect that an issue is being introduced by the GCP load balancer itself, e.g. perhaps a request is timing out there due to some misconfiguration, then you will need to access through the GCP load balancer itself. If the managed instance is protected by the load balancer firewall / not publicly accessible on the internet, then it is not possible for you to access `$CUSTOMER.sourcegraph.com` as a normal user would.
 
 You can workaround this by proxying your internet traffic through the instance itself - which is allowed to reach and go through the public internet -> the GCP load balancer -> back to the instance itself. To do this, create a SOCKS5 proxy tunnel over SSH (replace `default-red-instance`, if needed):
 
-```ssh
-bash -c '(gcloud beta compute ssh --zone "us-central1-f" --tunnel-through-iap --project "sourcegraph-managed-$COMPANY" default-red-instance -- -N -p 22 -D localhost:5000) & sleep 600; kill $!'
+```sh
+bash -c '(gcloud beta compute ssh --zone "us-central1-f" --tunnel-through-iap --project "sourcegraph-managed-$CUSTOMER" default-$DEPLOYMENT-instance -- -N -p 22 -D localhost:5000) & sleep 600; kill $!'
 ```
 
 Then test you can access it using `curl`:
 
 ```
-$ curl --proxy socks5://localhost:5000 https://$COMPANY.sourcegraph.com
+$ curl --proxy socks5://localhost:5000 https://$CUSTOMER.sourcegraph.com
 <a href="/sign-in?returnTo=%2F">Found</a>.
 ```
 
@@ -98,14 +98,14 @@ You can then use regular Docker commands (e.g. `docker exec -it $CONTAINER sh`) 
 ## Finding the external IPs
 
 ```sh
-$ gcloud compute addresses list --project=sourcegraph-managed-$COMPANY
+$ gcloud compute addresses list --project=sourcegraph-managed-$CUSTOMER
 NAME                     ADDRESS/RANGE   TYPE      PURPOSE  NETWORK  REGION       SUBNET  STATUS
 default-global-address   $GLOBAL_IP      EXTERNAL                                         IN_USE
 default-nat-manual-ip-0  $NAT_IP_ONE     EXTERNAL                    us-central1          IN_USE
 default-nat-manual-ip-1  $NAT_IP_TWO     EXTERNAL                    us-central1          IN_USE
 ```
 
-- `$GLOBAL_IP` is the IP address that `$COMPANY.sourcegraph.com` should point to, it is the address of the GCP Load Balancer.
+- `$GLOBAL_IP` is the IP address that `$CUSTOMER.sourcegraph.com` should point to, it is the address of the GCP Load Balancer.
 - `$NAT_IP_ONE` and `$NAT_IP_TWO` are the external IPs from which egress traffic from the deployment will originate from. These are the addresses from which Sourcegraph will access the customer's code host, and as such the customer will need to allow them access to e.g. their internal code host.
 
 ## Impact of recreating the instance via Terraform
