@@ -1,6 +1,6 @@
-# Web team
+<img src="./logo.svg" alt="Sourcegraph Web Team Logo" style="width: 35%; float: right; margin-left: 1rem">
 
-<img src="./logo.svg" alt="Sourcegraph Web Team Logo" style="width: 15%; float: left; margin-right: 1rem; margin-bottom: 1rem">
+# Web team
 
 The web team owns the maintenance and expansion of our web application and code host integrations as vehicles to deliver the value of [extensions](https://docs.sourcegraph.com/extensions) to our users.
 
