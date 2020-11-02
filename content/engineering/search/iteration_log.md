@@ -14,14 +14,23 @@ This document contains the goals and work log for the search team's [2-week iter
     
 ## 2020-11-02 to 2020-11-13
 
-### $GOAL_OR_THEME
+### Code monitoring
 
-- **Owner(s):** $OWNER
+- **Owner(s):** Stefan
 - **Outcomes:**
-    - $DESIRED_OUTCOME
+    - Spill over from last iteration: finish stub-implementation of code monitoring schema.
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
-    
+
+### Scale indexed search to 500k repositories
+
+- **Owner(s):** Stefan, Keegan
+- **Outcomes:**
+    - Spill over from last iteration: merge our patch to upstream zoekt.
+    - RFP: for regex queries, queries such as "term1 term2" are interpreted as literal regex (alternative: implicit AND) instead of being fuzzified in the parsing layer.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2020-10-19 to 2020-10-30
 
 ### Featureful frontend query parser
