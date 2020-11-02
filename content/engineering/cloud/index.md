@@ -113,7 +113,7 @@ By default, members of the team will provide a brief update about the goals they
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
   - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
   - [Artem Ruts](../../../company/team/index.md#artem-ruts-he-him)
-  - [A. RS](../../../company/team/index.md#todo) starts on the 2nd of November.
+  - [Alex Russell-Saw](../../../company/team/index.md#alex-russell-saw-he-him)
 
 ## Growth plan
 
