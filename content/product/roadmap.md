@@ -88,7 +88,7 @@ See [Distribution roadmap](https://github.com/sourcegraph/about/pull/1104).
 
 ## Search
 
-See [search roadmap](../engineering/search/roadmap.md).
+See [search roadmap](../engineering/search/goals.md).
 
 ## Security
 
