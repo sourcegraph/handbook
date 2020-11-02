@@ -54,11 +54,10 @@ When a goal is "done", move it to our [work log](worklog.md)
 ### Slack
 
 - #leadership-chat is a public channel (not specific to this team or engineering) where anyone can discuss and share information of general interest to leadership at Sourcegraph.
-- #eng-leadership-team is a private channel for members of this team to discuss sensitive topics, or topics that would be noise to people outside of the team. For anything else, prefer to use #leadership-chat.
 
 ### Meetings
 
-We have a 1hr sync with product and engineering every Tuesday at 9am PT ([meeting notes](https://docs.google.com/document/d/10fEh3Cw0ENKjFYDP-4OoLZbOZTVAtMpifc2WM_1mGVU/edit)).
+We have a 1hr sync with product and engineering every Monday at 9:30am PT ([meeting notes](https://docs.google.com/document/d/10fEh3Cw0ENKjFYDP-4OoLZbOZTVAtMpifc2WM_1mGVU/edit)).
 
 ### Weekly updates
 
