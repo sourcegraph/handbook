@@ -31,6 +31,12 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+### Streaming search
+
+- **Owner(s):** Keegan, Juliana, Rob
+- **Outcomes:**
+    - Something that makes you go yay on Sourcegraph.com
+
 ## 2020-10-19 to 2020-10-30
 
 ### Featureful frontend query parser
