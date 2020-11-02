@@ -17,6 +17,11 @@ Arguments:
     git log v$MAJOR.$MINOR.$(($PATCH-1))...$MAJOR.$MINOR --pretty=format:'- [ ] %H %s' --reverse
     ```
 
+## Setup
+
+- [ ] Ensure release configuration in `dev/release/config.json` is up to date with the parameters for the current release.
+- [ ] Ensure the latest version of the release tooling has been built before each step using `yarn run build` in `dev/release`.
+
 ## Release sourcegraph/server
 
 - [ ] Push the branch [`$MAJOR.$MINOR`](https://github.com/sourcegraph/sourcegraph/tree/$MAJOR.$MINOR) with your cherry-picked commit(s) and make sure CI passes.

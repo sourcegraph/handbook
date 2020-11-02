@@ -16,18 +16,23 @@ Arguments:
 **Note:** All `yarn run release ...` commands should be run from folder `dev/release`.
 **Note:** All `yarn run test ...` commands should be run from folder `web`.
 
+## Setup
+
+- [ ] Ensure release configuration in `dev/release/config.json` is up to date with the parameters for the current release.
+- [ ] Ensure the latest version of the release tooling has been built before each step using `yarn run build` in `dev/release`.
+
 ## $FIVE_WORKING_DAYS_BEFORE_RELEASE (5 work days before release): Prep for branch cut
 
 - [ ] Post a release status update to Slack - review all release-blocking issues, and ensure someone is resolving each.
   ```sh
-  yarn run release release:status $MAJOR.$MINOR.0
+  yarn run release release:status
   ``` 
 
 ## $FOUR_WORKING_DAYS_BEFORE_RELEASE (4 work days before release): Branch cut
 
 - [ ] Update the changelog and merge the generated pull request:
   ```sh
-  yarn run release changelog:cut $MAJOR.$MINOR.0
+  yarn run release changelog:cut
   ```
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step: `git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR`.
 
@@ -35,7 +40,7 @@ Upon branch cut, create and test the first release candidate:
 
 - [ ] Tag the first release candidate:
   ```sh
-  yarn run release release:create-candidate $MAJOR.$MINOR.0-rc.1
+  yarn run release release:create-candidate 1
   ```
 - [ ] Run regression tests:
   - [ ] Follow the [Regression tests guide](https://github.com/sourcegraph/sourcegraph/blob/main/client/web/src/regression/README.md) to set up your e2e environment. 
@@ -55,15 +60,15 @@ Upon branch cut, create and test the first release candidate:
 Revert or disable features that may cause delays. As necessary, `git cherry-pick` bugfix (not feature!) commits from `main` into the release branch. Continue to create new release candidates daily or as necessary, until no more `release-blocker` issues remain:
 
 - [ ] Cut the Nth release candidate:
-  ```
-  N=<release-candidate-number> yarn run release release:create-candidate $MAJOR.$MINOR.0-rc.$N
+  ```sh
+  N=<release-candidate-number> yarn run release release:create-candidate $N
   ```
 - [ ] Re-run the automated test suite against the new release candidate, file any regressions as
   `release-blocker` issues.
   - [ ] If necessary, manually test features or workflows affected by the cherry-pick.
 - [ ] Post a release status update by running the command below. Ensure someone is resolving each release-blocking issue. If there are no more release-blocking issues, proceed to tag the final release in the next section.
   ```
-  yarn run release release:status $MAJOR.$MINOR.0
+  yarn run release release:status
   ``` 
 
 ## Tag final release
@@ -72,7 +77,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 
 - [ ] Tag the final release:
   ```
-  yarn run release release-candidate:create $MAJOR.$MINOR.0
+  yarn run release release-candidate:create final
   ```
 - [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on
   `main` is accurate (no items should have been added since branch cut, but some items may need to
@@ -82,15 +87,15 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 - [ ] Open PRs that publish the new release:
   ```sh
   # Run this in the main sourcegraph repository in the `dev/release` directory on `main` branch:
-  yarn run release release:stage $MAJOR.$MINOR.0
+  yarn run release release:stage
   ```
 - [ ] Create a PR to update the [Kubernetes upgrade guide](https://docs.sourcegraph.com/admin/updates/kubernetes) indicating the steps required to upgrade. Add the created pull request to the release campaign:
   ```sh
-  yarn run release release:add-to-campaign $MAJOR.$MINOR.0 sourcegraph/sourcegraph <pr-number>
+  yarn run release release:add-to-campaign sourcegraph/sourcegraph <pr-number>
   ```
 - [ ] Create a PR to update [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker) as required. Add the created pull request to the release campaign:
   ```sh
-  yarn run release release:add-to-campaign $MAJOR.$MINOR.0 sourcegraph/deploy-sourcegraph-docker <pr-number>
+  yarn run release release:add-to-campaign sourcegraph/deploy-sourcegraph-docker <pr-number>
   ```
 
 ## $RELEASE_DATE: Release
@@ -105,7 +110,11 @@ Once there are no more release-blocking issues (as reported by the `release:stat
     - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
 - [ ] Ask the product team to merge the blog post ([example](https://github.com/sourcegraph/about/pull/83)). Add the pull request to the release campaign:
   ```sh
-  yarn run release release:add-to-campaign $MAJOR.$MINOR.0 sourcegraph/about <pr-number>
+  yarn run release release:add-to-campaign sourcegraph/about <pr-number>
+  ```
+- [ ] Announce that the release is live:
+  ```sh
+  yarn run release release:close
   ```
 - [ ] Announce that the release is live:
   ```sh
@@ -115,8 +124,6 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 ### Post-release
 
 - [ ] Notify the next release captain that they are on duty for the next release. They should complete the steps in this section.
-- [ ] Ensure you have the latest version github.com/sourcegraph/about checked out and it is located
-      at `../about` (relative to this repository).
 - [ ] Update `dev/release/config.json` with the parameters for the current release.
 - [ ] Run `yarn build` to rebuild the release script (necessary, because `config.json` is compiled in).
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
