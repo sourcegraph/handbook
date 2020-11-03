@@ -36,6 +36,22 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Owner(s):** Keegan, Juliana, Rob
 - **Outcomes:**
     - Something that makes you go yay on Sourcegraph.com
+    
+### Featureful frontend query parser, part 2
+
+- **Owner(s):** Rijnard
+- **Outcomes:**
+    - As before, we need a proper frontend query parser for syntax highlighting, hover hints, and consistent UI state (toggle activation) of search expressions and future query syntax extension.  All of that couldn't fit into the previous iteration: In this iteration I will merge the code we need to unblock shipping search expressions (first bullet in [14016](https://github.com/sourcegraph/sourcegraph/issues/14016)). Time allowing I'll add some contextual regex/structural highlighting, since I prototyped it already.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+    
+### Quality-of-life search code improvements, continued
+
+- **Owner(s):** Rijnard
+- **Outcomes:**
+    - This is a catch-all goal for improving the quality of our backend search code (bug fixes and refactors). One concrete goal is to fix a nasty commit search issue [#13313](https://github.com/sourcegraph/sourcegraph/issues/13313) that I have a WIP branch fix for. There's also a structural search/archive copying deficiency I want/need to look into [#14619](https://github.com/sourcegraph/sourcegraph/issues/14619#issuecomment-720910776).
+- **Work log:**    
+    - YYYY-MM-DD: $UPDATE    
 
 ## 2020-10-19 to 2020-10-30
 
