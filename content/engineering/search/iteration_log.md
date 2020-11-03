@@ -53,6 +53,16 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**    
     - YYYY-MM-DD: $UPDATE    
 
+### Improve tracking of search onboarding on enterprise instances
+- **Owner(s):** @farhan
+- **Outcomes:**
+    - Spillover from last iteration, PRs merged for: Weekly retention is tracked in pings [#13636](https://github.com/sourcegraph/sourcegraph/issues/13636).
+    - Spillover from last iteration, PRs merged for: Search tour usage is tracked in pings [#14781](https://github.com/sourcegraph/sourcegraph/issues/14781).
+    - Spillover from last iteration: SMTP is tracked in pings [#14115](https://github.com/sourcegraph/sourcegraph/issues/14115).
+- **Work log:**    
+    - YYYY-MM-DD: $UPDATE    
+
+
 ## 2020-10-19 to 2020-10-30
 
 ### Featureful frontend query parser
@@ -82,6 +92,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2020-10-23: Finished v1 of GraphQL schema for code monitoring (Google drive > Sourcegraph shared > Search > Code Monitor GraphQL Design). Next step: Review together with Juliana.
     - 2020-10-30: Juliana and I agreed on the first version of the GraphQL schema. I have put up a PR that covers 80% of it. It will probably take another 2 days to finish the stub mutations and the rest of the schema. The stubs will not be connected to the DB yet.
+    - 2020-10-30 (@farhan): [RFC for SMTP pings](https://docs.google.com/document/d/1fp3zuhjw6gykaF2_TRWDh7ia-dAdDqrj9gxjtFmcy7I/edit#heading=h.trqab8y0kufp) is awaiting review 
 
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
@@ -112,7 +123,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Search tour is re-enabled by default for enterprise customers.
     - Search tour usage is tracked in pings [#14781](https://github.com/sourcegraph/sourcegraph/issues/14781).
 - **Work log:**
-    - 2020-10-30: [#14783](https://github.com/sourcegraph/sourcegraph/issues/14783) is fixed. PRs are open to get search tour usage in pings; awaiting review from the BizOps team, who are also working on cleaning up existing pings before merging PRs that add more data to pings. [#15113](https://github.com/sourcegraph/sourcegraph/pull/15113), [#63](https://github.com/sourcegraph/analytics/pull/63).
+    - 2020-10-30: [#14783](https://github.com/sourcegraph/sourcegraph/issues/14783) is fixed. PRs are open to get search tour usage in pings; awaiting review from the BizOps team, who are also working on cleaning up existing pings before merging PRs that add more data to pings. [#15113](https://github.com/sourcegraph/sourcegraph/pull/15113), [#63](https://github.com/sourcegraph/analytics/pull/63). Tour is enabled by default on enterprise.
 
 ### Improve tracking of search onboarding on enterprise instances
 - **Owner(s):** @farhan
