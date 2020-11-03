@@ -97,10 +97,7 @@ Remember:
 ### Get ready to contribute to the docs
 
 - Read the [content guidelines](../../communication/content_guidelines.md) for contributing to the handbook, product docs, and product copy
-- Google Cloud Storage: Ask in **#dev-chat** for the following Google Cloud Storage permissions for publishing graphics:
-   - `storage.objects.delete`
-   - `resourcemanager.projects.get`
-   - `storage.buckets.list`
+- Google Cloud Storage access: Ask in #product to be added to the `gcp-assets-users` group.
 - **Screenshot/GIF making software**: See the [handbook](https://about.sourcegraph.com/handbook/marketing/adding_screenshots_screen_recording) for guidelines about software. Expense the program that works for you when you need it.
 - [Product documentation guidelines](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/dev/documentation.md)
 - [Docs to Markdown add-on for Google Docs](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
