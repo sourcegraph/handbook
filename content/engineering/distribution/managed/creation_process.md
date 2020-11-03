@@ -19,6 +19,7 @@ Creating a new managed instance involves following the steps below.
    - Under **APIs & Services** > **Library** search for "Compute"
    - Select **Compute Engine API** and choose **Enable**
 1. In GCP, enable secret management and add the OpsGenie Webhook URL secret:
+   - Under **Monitoring** > **Overview**, wait for "Workspace Creation" to complete (automatic).
    - Under **Security** > **Cryptographic Keys**
      - Click **Enable** on the **Cloud Key Management Service (KMS) API** page.
      - Choose **Create key ring** and name it `primary-key-ring`, choose **global** location.
