@@ -85,6 +85,34 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Reach out to set up an introduction
   - Define success criteria for growth
   
+## CE Onboarding Checklist
+
+- Week 1
+  - Get all [tools](https://about.sourcegraph.com/handbook/ce/onboarding#ce-specific-onboarding-during-weeks-1-and-2)
+  - Get your [accounts](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=154354692)
+  - Read ALL existing [case studies](https://about.sourcegraph.com/case-studies)
+    - Also understand the typical use case buckets
+  - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install)
+  - Make a Handbook edit to the CE onboarding section
+
+- Week 2
+  - Discovery questions 
+    - What questions can you ask to help understand a new prospect’s situation?
+    - What would disqualify a prospect?
+    - (Technical) objection handling
+  - Dig in/understand different deployment types, what it takes, when, why.
+  - Take on your first support ticket
+  - Give SG 101, 102 (internal certification)
+    - 10 Step Demo Certification 
+
+- Weeks 3-4
+  - Give a campaigns demo
+  - Give SG 101, 102 (to clients/prospects)
+  - Do 1 week frontline support
+  - Run your first customer meeting (existing account)
+  - Run your first customer meeting (new demo)
+
+  
 ## FAQ
 
 - How do we interface in customer engagements?
