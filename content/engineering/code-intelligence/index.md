@@ -34,58 +34,9 @@ To be the point of discovery for the knowledge graph for all source code.
 
 Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights and campaigns.
 
-## Goals
+## [Goals](goals.md)
 
-This list will be updated regularly with links to the technical implementation details in RFCs and/or Github issues.
-
-### Provide precise code intel for the primary programming languages that combined cover > 50% of usage across customer projects.
-
-- Metrics:
-  - Language coverage (%)
-- Planned work:
-  1. Resolve outstanding issues for lsif-clang, ship to 3 customers, [tracking issue 12349](https://github.com/sourcegraph/sourcegraph/issues/12349).
-  1. Resolve outstanding issues for lsif-java, ship to 3 customers, [tracking issue 13017](https://github.com/sourcegraph/sourcegraph/issues/13017).
-  1. Resolve outstanding issues for lsif-go, ship to 3 customers, [tracking issue 13015](https://github.com/sourcegraph/sourcegraph/issues/13015).
-  1. Provide best effort auto-indexing for supported languages, [RFC-199](https://docs.google.com/document/d/1rCduWqaLAbMu2s43RwJTBbRlhL6qS3oqq4iawiGdoVE/edit), [RFC-201](https://docs.google.com/document/d/1NPQs1s814LZjNXjPuavqC1N7hZR192DNtmSBmAeH9UY/edit).
-- Success Outcome: We have accurate and comprehensive precise code intel for C++, Go, and Java. We will work to ship each indexer to at least 3 customers and gather feedback for future iteration. The precision level for each indexer tool is > 80%.
-- Progress: See the [Code Intel Looker dashboard](https://sourcegraph.looker.com/dashboards/131).
-
-### Create a backend that can perform and scale across organizations of various sizes up to the upper boundaries of our system.
-
-- Metrics:
-  - Request Latency
-  - System Throughput
-  - Max number of repositories (N1)
-  - Max size of project (N2)
-  - Max commit rate of repository (N3)
-- Planned work:
-  1. Gather current values for metrics Request Latency and System Throughput, create benchmarks for existing system.
-  1. Source and track current performance of tools across following dimensions: Number of repositories (N1), Size of project (N2), Commit rate of repos (N3).
-  1. Determine the upper boundary of the code intel backend across scale dimensions: max of N1, N2, N3.
-  1. Create a testbed environment that allows the team to instantiate & execute instances against various use cases in a controlled method for automation of stress and volume testing, [RFC 218](https://docs.google.com/document/d/1UitCAKefZLCewzDqxN787EsKDdepZ9Dqz1zXpdPFjgU/view).
-  1. Develop a prototype for incremental indexing, [RFC-170](https://docs.google.com/document/d/1NPu0Vc7FpdoYwCrtpnu-8KB4OPbw7L0KBTqw96JVc8w/edit).
-  1. Shard bundle manager, [RFC-200](https://docs.google.com/document/d/1IfkY9a6odfQmkjGtgJBFtPOUFuTwWryawFfVGRi8hO4/).
-- Success Outcome: We understand the upper boundaries N1-N3. Code intel backend can achieve latency and throughput targets when operating within upper bounds of inputs N1-N3.
-
-### LSIF indexers can operate in monorepos architecture.
-
-- Metrics:
-  - Time to Intelligence (TTI)
-- Planned work:
-  1. Create definition for Time to Intelligence metric and determine how this metric is measured and tracked.
-  1. Create and send a survey to customers to gather information on monorepos use cases and stats.
-  1. Identify the common challenges our customers are experiencing when operating Sourcegraph in monorepos by working directly with 3 customers to index a monorepos, gather feedback and identity problems we need to address.
-  1. Update lsif-\* tools to enable indexing subsets of a project.
-  1. Integrate with monorepos build systems: Bazel and stretch goal is one of: Buck, Pants, OAO
-- Successful Outcome: Users are able to process monorepos with the same TTI as any other type of repository. Our tools provide configuration options that accomodate for complex use cases (cross repository and sub-project code intel).
-
-### Provide clarity on capabilities of code intel tools at each release state
-
-- Planned work:
-  1. Define release states and their respective criteria.
-  1. Assess each code intel tool against criteria and determine release state.
-  1. Communicate changes by updating documentation on lsif.dev and /sourcegraph/lsif-\* repos.
-- Success Outcome: We are able to consistently apply release states to our tools as they move through development lifecycle. We have provided clear communication to users, internal teams and stakeholders on capabilities of each tool.
+See [goals](goals.md)
 
 ## Contact
 
