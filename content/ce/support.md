@@ -121,6 +121,10 @@ Enterprise Plus and Elite customers should refer to their contracts if they have
 1. Find the row for the customer's instance. (If you can't find it, ask in #analytics on Slack.)
 1. Look at the version number in the row's **Latest Version** column.
 
+### Offline instances
+
+Some customer instances are offline or only [provide critical telemtry](https://docs.sourcegraph.com/admin/pings#critical-telemetry). The [full list is in Google Drive](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit). 
+
 ## Getting nice email signatures
 
 1. In Gmail **Settings** > **General** scroll down to signature:
