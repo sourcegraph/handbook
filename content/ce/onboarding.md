@@ -44,7 +44,12 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 - Obtain access to the Sourcegraph Dropbox team folder. You can request this in the #internal-it-tools Slack channel.
   - Get access to the "Customer contracts" folder as well.
 - Ask for a license to LinkedIn Sales Navigator tool in #sales channel
-- Read through [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system works. If you have any questions, reach out to @nicksnyder, and make sure to update/incorporate what you learned from that q&a here.
+- Read through [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system works.    If you have any questions, reach out to @nicksnyder, and make sure to update/incorporate what you learned from that q&a here. 
+- Read through our [observability and monitoring](https://docs.sourcegraph.com/admin/observability) docs and understand how to troubleshoot those tools 
+  - [Grafana and Prometheus](https://docs.sourcegraph.com/admin/observability/metrics)
+  - [Tracing](https://docs.sourcegraph.com/admin/observability/tracing)
+  - [Alerting](https://docs.sourcegraph.com/admin/observability/alerting)
+
 
 ### General onboarding during weeks 1 and 2
 
