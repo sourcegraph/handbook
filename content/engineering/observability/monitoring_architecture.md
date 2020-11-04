@@ -131,3 +131,8 @@ Prometheus scrapes Blackbox Exporter every 30s, which will send a request to end
 Alerts are configured separately via the [`deploy-sourcegraph-dotcom` prometheus ConfigMap for `sourcegraph_dotcom_rules.yml`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/prometheus/prometheus.ConfigMap.yaml#L511)
 
 *Rationale for Blackbox Exporter*: Site24x7 has been a source of flaky alerts, outlined in [#10742](https://github.com/sourcegraph/sourcegraph/issues/10742) and more broadly in [#11966](https://github.com/sourcegraph/sourcegraph/issues/11966). In an effort increase reliablity and broaden the scope of our monitoring, Blackbox Exporter was selected as it integrates well into our existing Prometheus and Alertmanager stack.
+
+### Cloudflare Analytics
+
+[Cloudflare Analytics](https://www.cloudflare.com/analytics/) is used to extract useful data about the performance of our WAF, as well as the overall traffic distribution to our instances. Note that the retention of analytics data is relatively short due to the [limits](https://developers.cloudflare.com/analytics/graphql-api/limits) on our plan. See [our Cloudflare developer guide](./cloudflare.md) for more details on how to use the analytics API.
+

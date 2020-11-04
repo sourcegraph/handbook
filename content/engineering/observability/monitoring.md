@@ -9,6 +9,9 @@ This document describes how to develop Sourcegraph's monitoring.
 - [Overview](#overview)
   - [Monitoring pillars](#monitoring-pillars)
   - [Monitoring architecture](#monitoring-architecture)
+- [Finding monitoring](#finding-monitoring)
+  - [Find available metrics](#find-available-metrics)
+  - [Queries](#queries)
 - [Adding monitoring](#adding-monitoring)
   - [Configure panel options](#configure-panel-options)
   - [Add solution documentation](#add-solution-documentation)
@@ -17,7 +20,6 @@ This document describes how to develop Sourcegraph's monitoring.
   - [Connecting Grafana to a remote Prometheus instance](#connecting-grafana-to-a-remote-prometheus-instance)
   - [Upgrading Grafana](#upgrading-grafana)
 - [Prometheus and Alertmanager](#prometheus-and-alertmanager)
-  - [Find available metrics](#find-available-metrics)
   - [Upgrading Prometheus or Alertmanager](#upgrading-prometheus-or-alertmanager)
 - [Additional reading](#additional-reading)
 - [Next steps](#next-steps)
@@ -45,6 +47,28 @@ To learn more about our monitoring goals and principles, refer to: [monitoring p
 ### Monitoring architecture
 
 To learn more about our monitoring stack and architecture, refer to: [monitoring architecture](./monitoring_architecture.md).
+
+## Finding Monitoring
+
+### Find available metrics
+
+If you need to find where metrics are declared or updated you can use Sourcegraph itself to search if you have a metric name. Sometimes
+the metrics are hard to find because their name declarations are not literal strings but are concatenated instead in code from variables.
+You can try a specialized tool called `promgrep` to find them. Run the tool in the root `sourcegraph/sourcegraph` source directory.
+
+```
+$ go get github.com/sourcegraph/promgrep
+$ promgrep <some_partial_metric_name>
+```
+
+If you run it in an Emacs shell buffer or in GoLand terminal then the results are clickable and get you to the locations in code
+where the metrics are declared.
+
+Running `promgrep` without any arguments lists all declared metrics.
+
+### Queries
+
+The quickest way to test these queries would be to access the Grafana instance exposed to admins at `/-/debug/grafana` via a reverse-proxy. You can then use any of [the Prometheus metric types](https://prometheus.io/docs/concepts/metric_types/) to extract useful information from the prometheus metrics mentioned above. For an example of queries we've found useful, you can see the [frontend monitoring queries here](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@64aa473/-/blob/monitoring/frontend.go#L12-43).
 
 ## Adding monitoring
 
@@ -161,22 +185,6 @@ To upgrade Grafana, make the appropriate version change to the [`sourcegraph/gra
 ## Prometheus and Alertmanager
 
 Sourcegraph uses a custom Prometheus image, [`sourcegraph/prometheus`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/prometheus), that bundles Alertmanager and a wrapper program for managing configuration changes. Learn more about its role in our overall monitoring architecture [here](./monitoring_architecture.md#sourcegraph-prometheus).
-
-### Find available metrics
-
-If you need to find where metrics are declared or updated you can use Sourcegraph itself to search if you have a metric name. Sometimes
-the metrics are hard to find because their name declarations are not literal strings but are concatenated instead in code from variables.
-You can try a specialized tool called `promgrep` to find them. Run the tool in the root `sourcegraph/sourcegraph` source directory.
-
-```
-$ go get github.com/sourcegraph/promgrep
-$ promgrep <some_partial_metric_name>
-```
-
-If you run it in an Emacs shell buffer or in GoLand terminal then the results are clickable and get you to the locations in code
-where the metrics are declared.
-
-Running `promgrep` without any arguments lists all declared metrics.
 
 ### Upgrading Prometheus or Alertmanager
 
