@@ -23,7 +23,7 @@ Treat adding new data to pings as having a very high bar. Would you be willing t
     - Will this data be needed from every single installation, or only from a select few?
     - Will it be needed forever, or only for a short time? If only for a short time, what is the criteria and estimated timeline for removing the data point(s)?
     - Have you considered alternatives? E.g., collecting this data from Sourcegraph.com, or adding a report for admins that we can request from some number of friendly customers?
-1. When the RFC is approved, use the [life of a ping documentation](https://docs.sourcegraph.com/dev/background-information/architecture/life-of-a-ping) with help of [an example PR](https://github.com/sourcegraph/sourcegraph/pull/8374) to implement the change. At least one member of the BizOps team must approve the resulting PR before it can be merged. DO NOT merge your PR yet. Steps 3, 4, and 5 must be completed before merging.
+1. When the RFC is approved, use the [life of a ping documentation](https://docs.sourcegraph.com/dev/background-information/architecture/life-of-a-ping) with help of [an example PR](https://github.com/sourcegraph/sourcegraph/pull/15389) to implement the change. At least one member of the BizOps team must approve the resulting PR before it can be merged. DO NOT merge your PR yet. Steps 3, 4, and 5 must be completed before merging.
     - Ensure a CHANGELOG entry is added, and that the two sources of truth for ping data are updated along with your PR:
       - Pings documentation: https://docs.sourcegraph.com/admin/pings
       - The Site-admin > Pings page, e.g.: https://sourcegraph.com/site-admin/pings
