@@ -36,7 +36,7 @@ Build a code intelligence platform that understands code in all languages and pr
 
 ## [Goals](goals.md)
 
-See [goals](goals.md)
+See [goals and priorities](goals.md)
 
 ## Contact
 
