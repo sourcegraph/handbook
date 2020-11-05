@@ -52,8 +52,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 ## Interview process
 
-**Note: (role currently closed to applications)**
-
 1. You [apply here](https://jobs.lever.co/sourcegraph/fa7d3807-ae4c-4a35-9401-56dad0958227/apply).
 1. **Intro calls**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
    - [30 min] Recruiter call
