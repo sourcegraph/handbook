@@ -31,7 +31,8 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Product introduction 
     - Optionally request access to [Figma](https://www.figma.com/) in the #product channel on Slack
   - Sourcegraph demo 
-  - Product deployment 
+  - Product deployment
+    - ["Deployment types - A crash course in Sourcegraph"](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p)
   - Sourcegraph data 
 - Go through [Product](https://about.sourcegraph.com/handbook/product/onboarding) and [Engineering](https://about.sourcegraph.com/handbook/engineering/onboarding) onboarding, specifically to gain understanding of:
   - How our product is architected, how it works together, etc. [Sourcegraph architecture](https://docs.sourcegraph.com/dev/background-information/architecture), and all the resources on that page, are a very helpful read-through (as well as a bookmark to come back to later).

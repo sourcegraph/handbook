@@ -49,25 +49,25 @@ Distribution team members may also be involved in other areas of Sourcegraph not
     - Pure-docker shell scripts & upgrade docs
     - Cloud-specific setup docs (AWS/Google Cloud)
     - Deployment setup & upgrade docs
-    - **Primary owners**: @stephen, @geoffrey
+    - **Primary owners**: @uwe, @geoffrey
     - **Related code**: [deploy-sourcegraph-docker repository](https://github.com/sourcegraph/deploy-sourcegraph-docker), [docker-compose installation docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/doc/admin/install/docker-compose), [docker-compose upgrade docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/admin/updates/docker_compose.md) [pure-docker upgrade docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/admin/updates/pure_docker.md).
   - **Single-container installation & upgrade experience**
     - Primarily in maintenance mode
     - Pushing admins to upgrade to Docker Compose
     - Communicating the limitations of single-container deployments
-    - **Primary owners**: @stephen
+    - **Primary owners**: @uwe, @geoffrey
     - **Related code**: [cmd/server in main repo](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:cmd/server/&patternType=regexp)
   - **Scalability**
     - Documenting when to upgrade from one deploy type to another
     - Resource estimation for new deployments
     - Scaling advice for existing deployments
-    - **Primary owners**: @stephen
+    - **Primary owners**: whole team, @stephen for advice
     - **Related code**: [resource estimator docs](https://docs.sourcegraph.com/admin/install/resource_estimator), [resource estimator repository](https://github.com/sourcegraph/resource-estimator), [Kubernetes scaling docs](https://docs.sourcegraph.com/admin/install/kubernetes/scale)
 - **Observability: Monitoring** ("site admins should easily know the health of Sourcegraph")
   - Monitoring & alerting infrastructure
   - Educating site admins about how to monitor Sourcegraph
   - Working with & ensuring engineering @ Sourcegraph adds needed monitoring
-  - **Primary owners**: @stephen, @uwe
+  - **Primary owners**: @robert, @uwe
   - **Related code**: [monitoring generator (dashboards/alerts)](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring), [Grafana docker image](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/docker-images/grafana), [Prometheus docker image](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/docker-images/prometheus)
 - **Observability: Debugging** ("site admins should be able to collect the information needed to debug issues easily")
   - Logging & Tracing infrastructure
@@ -75,7 +75,7 @@ Distribution team members may also be involved in other areas of Sourcegraph not
   - Making the debugging process for common problems seamless and straightforward
   - Making reporting issues with all needed information easy
   - Ensuring logs/tracing are not overly verbose, identify most useful information for solving problems
-  - **Primary owners**: @stephen
+  - **Primary owners**: @robert
   - **Related code**: [Jaeger Docker images and code](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:jaeger&patternType=literal), [opentracing code (broadly)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+opentracing&patternType=literal), Jaeger [k8s](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph%24+jaeger&patternType=literal), [docker-compose/pure-docker](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph-docker%24+jaeger&patternType=literal), and [single-container](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:cmd/server+jaeger&patternType=literal) deployments & [associated docs](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:doc/admin/observability+jaeger%7Ctracing&patternType=regexp)
 
 ## Tech stack
@@ -104,12 +104,15 @@ Go, Docker, Kubernetes
 
 - We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. The engineering team is owning PM responsibilities in the meantime.
 - [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst)
   - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
   - [Uwe Hoffmann](../../../company/team/index.md#uwe-hoffmann)
   - [Dave Try](../../../company/team/index.md#dave-try)
   - [Robert Lin](../../../company/team/index.md#robert-lin) (2020 intern)
   - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
+
+Other:
+
+- [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) is in an experimental role acting as [an internal contributor, focused on high-value low-cost wins across the board.](https://docs.google.com/document/d/18c9dVjw5MuvOMHahCFQQPAVsp1vRdFDDI_7hmo5MWyQ/edit) His work is not isolated to the Distribution team, it will tracked in [a project board](https://github.com/orgs/sourcegraph/projects/106), with status updates to his manager and any other relevant teams regularly. He will work closely with (and sometimes embedded in) other teams, and get alignment with the product team (and any other team) on his work. This is an experiment between 2020-11-23 and 2021-01-23 and we will evaluate the outcome around that time. [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) will continue to be his manager during this experiment.
 
 ## On-call
 
