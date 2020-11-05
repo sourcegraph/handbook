@@ -66,7 +66,7 @@ We review each candidate at each stage of our hiring pipeline (e.g. application,
 
 Current employees can refer a candidate [here](https://hire.lever.co/referrals/new)
 
-A candidate that is actively looking can also complete the application for the role as well. The application will have logistical and specific questions to the role. Completing the application is not required. The hiring team or recruiting can ask the application questions during the call with the referal, if deciding to move forward with the candidate. 
+Not required: The referral can also complete the application for the role as well. The application will have logistical and specific questions to the role. Completing the application is not required. The hiring team or recruiting can ask the application questions during the call with the referal, if deciding to move forward with the candidate. 
 
 ## Hiring flow
 
