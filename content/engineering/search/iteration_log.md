@@ -62,6 +62,15 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**    
     - YYYY-MM-DD: $UPDATE    
 
+### Documentation clean up and content
+
+- **Owner(s):** Farhan
+- **Outcomes:**
+    - Search features listed in [#15470](https://github.com/sourcegraph/sourcegraph/issues/15470) have a corresponding How-to guide.
+    - Tutorials are created for how to use our search at the most basic level ([#15473](https://github.com/sourcegraph/sourcegraph/issues/15473)).
+    - Search docs are categorized according to [Divio's documentation system](https://documentation.divio.com/) and pages are broken up to ensure each page has a single responsibility ([15472](https://github.com/sourcegraph/sourcegraph/issues/15472)).
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
 
 ## 2020-10-19 to 2020-10-30
 
