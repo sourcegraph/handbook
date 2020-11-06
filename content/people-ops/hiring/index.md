@@ -69,6 +69,7 @@ Current employees can refer a candidate [here](https://hire.lever.co/referrals/n
 Having your referral complete the application provides helpful context when considering their profile, but is not required. 
 
 Benefits of having a referral complete the application:
+
 - Provides information that the hiring team think is important for the role that may not have been represented in their resume or referral notes.
 - Allows the hiring team to have a deeper conversation about who they are, what they are looking for, and about their experience.
 
