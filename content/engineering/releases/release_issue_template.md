@@ -89,14 +89,6 @@ Once there are no more release-blocking issues (as reported by the `release:stat
   # Run this in the main sourcegraph repository in the `dev/release` directory on `main` branch:
   yarn run release release:stage
   ```
-- [ ] Create a PR to update the [Kubernetes upgrade guide](https://docs.sourcegraph.com/admin/updates/kubernetes) indicating the steps required to upgrade. Add the created pull request to the release campaign:
-  ```sh
-  yarn run release release:add-to-campaign sourcegraph/sourcegraph <pr-number>
-  ```
-- [ ] Create a PR to update [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker) as required. Add the created pull request to the release campaign:
-  ```sh
-  yarn run release release:add-to-campaign sourcegraph/deploy-sourcegraph-docker <pr-number>
-  ```
 
 ## $RELEASE_DATE: Release
 
