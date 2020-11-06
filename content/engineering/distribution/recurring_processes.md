@@ -9,86 +9,49 @@
   - [Bi-weekly async updates](#bi-weekly-async-updates)
   - [Distribution management sync](#distribution-management-sync)
 
-<!--
+## Every two weeks
 
-TODO(nick): Add process for setting, reviewing, and updating goals, and for making them per-team and not just company-wide.
+At the beginning of each cycle, [we determine what work we plan to do](#planning) to bring us closer to accomplishing our goals. We run a [retrospective meeting](#retrospective) at the end of each cycle to review the progress we have made over the cycle, reflect on what worked well and identify improvement areas.
 
--->
-
-## Monthly
-
-### Milestone planning
-
-Every (monthly) iteration, we determine what work we plan to do to bring us closer to accomplishing
-our goals.
+### Planning
 
 **Input:** Existing issues and new proposals in line with our goals.
 
-**Output:** A [tracking issue](../tracking_issues.md) that lists all engineering items of work we plan to accomplish this iteration.
+**Output:**
 
-**Process:** The [engineering manager](../roles.md#engineering-manager) drives iteration planning, and follows
-these steps:
+- A [tracking issue](../tracking_issues.md) that lists all engineering items of work we plan to accomplish this cycle.
+- One or more [GitHub projects](https://github.com/orgs/sourcegraph/projects?query=is%3Aopen+Distribution%3A) describing and grouping multiple related issues, into a milestone or goal.
 
-**Proposal phase (day 1):** The idea here is to identify a superset of issues to be prioritized for
-this milestone, rather than to identify the exact set of issues. The pruning phase (day 2) will
-yield the latter.
+**Process:** The [engineering manager](../roles.md#engineering-manager) drives the planning meeting, and follows these steps:
 
-1. Triage [Distribution issues with no
-   milestone](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+no%3Amilestone+label%3Ateam%2Fdistribution)
-   into either Backlog or the current milestone.
-1. Ask everyone to do the following in parallel:
-   1. Move their open issues from the previous milestone to the current milestone.
-   1. Write any new goals or proposals in GitHub issues and add these to the current milestone or
-      the Backlog (use best judgment).
-   1. Go through the [Distribution Backlog
-      milestone](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+milestone%3Abacklog+label%3Ateam%2Fdistribution)
-      and move all issues to the current milestone they think should be considered for
-      prioritization this milestone. If the issue has no owner and there is a probable owner, they
-      should assign that owner now.
+**Async proposal (1 week before the planning meeting):** We start working on a draft set of projects and their required tasks for the next cycle. The idea here is to identify a superset of issues to be prioritized for this cycle, rather than to identify the exact set of issues.
 
-**Pruning phase (day 2):** The idea here is to take the list of proposed issues and winnow it down to a
-feasible set of work with clear lines of ownership.
+1. Kick-off async planning during our [weekly sync meeting](#weekly-distribution-team-sync).
+1. Review the current [goals and milestones](./goals.md), ensure those goals and milestones match are up to date, and match what you think we should be working on. If this is not the case, propose a new goal.
+1. Review the [open Distribution issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ateam%2Fdistribution+user%3Asourcegraph) and move all issues to the current cycle you think should be considered for prioritization.
+   - If an issue is important but doesn't satisfy the goals, consider if the goal needs to be changed.
+1. Review [technical debt](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ateam%2Fdistribution+user%3Asourcegraph+label%3Adebt), [quality of life](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ateam%2Fdistribution+user%3Asourcegraph+label%3Aquality-of-life) or [innovation issues](../../index.md#innovation-time) you would like to work on this cycle.
+1. Update the [planning document](https://docs.google.com/document/d/1Ko1MbyO1yIr7aQsvIRAAbjdnOJ2qUQB9kTJQvcWWcOY) with your the proposed theme and tasks.
 
-1. Consult the [goals](../../../company/goals/index.md) and use these to do a preliminary pass through the tracking issue,
-   assigning issues to the Backlog that do not fulfill the goals.<br>
-   1. If an issue is important but doesn't satisfy the goals, consider if the goal needs to be changed.
-1. Ask everyone to go through the issues in the current milestone assigned to them. If the amount of
-   work exceeds what they think is feasible, prune the lowest priority issues (using their best
-   judgment) by unassigning themselves, but keeping the issue in the milestone. Use the goals as a
-   guidepost for prioritization.
-1. In a meeting (budget an hour), go through the tracking issue as a team.
-   1. Prior to the meeting, the engineering manager should estimate how long each discussion item should
-      take, so that they can keep the meeting on schedule. The tech lead should also talk to people
-      1-1 to clarify, align, and build consensus prior to the meeting. A good rule of thumb to shoot
-      for is that the team is 70-80% aligned on who's working on what by the time the meeting takes
-      place.
-   1. Revisit the goals. Are they still the right goals?
-   1. During the meeting, everyone should say 1-2 sentences about each issue assigned to them to
-      convey useful context to the rest of the team. Issues that have no useful context to share can
-      be skipped.
-   1. For each unassigned issue, decide whether it needs to be prioritized/assigned. Otherwise, move
-      it to the Backlog.
-1. If there are any remaining uncertainties following the meeting, the engineering manager should follow up
-   1-1 to finalize the tracking issue.
-1. If the goals need to be updated, propose an update and obtain approval from the VP of
-   Engineering. It may make sense to block work on issues out of line with the existing goals until
-   the approval to update the goals is received.
+**Async planning:** The team asynchronously reviews the [proposed tasks and themes](https://docs.google.com/document/d/1Ko1MbyO1yIr7aQsvIRAAbjdnOJ2qUQB9kTJQvcWWcOY), adding comments and questions to help narrow it down to a feasible set of work that align with our goals and has a clear plan. This step helps the amount of time required during the planning meeting and resolve some doubts that may take longer to address.
+
+**Planning meeting:** The team meets to review the existing plan, finalize the plan details and get the tracking issue and cycle in a ready to be started.
+
+1. Revisit the goals. Are they still the right goals?
+1. If there are any remaining uncertainties following the meeting, the owners of each theme or task should follow up before the start of the cycle.
 
 **Note on agency and responsibility:**
 
-* It is *every* Distribution teammate's responsibility to understand the team's priorities and propose
-  the work that aligns with these priorities.
-* It is the engineering manager's responsibility to ensure (1) the tracking issue is the right set of
-  things to work on and (2) every team member is bought into the outcome of planning. How active a
-  role you take in planning should depend on your read of the team at the start of planning. Common
-  pitfalls are being too passive or too dictatorial. Too passive means we aren't necessarily working
-  on the right things. Too dictatorial means people aren't bought into what we're working on. Avoid
-  both of these. Keep in mind that no one (including you) has a monopoly on useful knowledge and
-  context, but also that the engineering manager exists for a reason.
+- It is **every** Distribution teammate's responsibility to understand the team's priorities and propose the work that aligns with these priorities.
+- It is the engineering manager's responsibility to ensure (1) the tracking issue is the right set of things to work on and (2) every team member is bought into the outcome of planning.
+
+**Note to engineering managers:**
+
+How active a role you take in planning should depend on your read of the team at the start of planning. Common pitfalls are being too passive or too dictatorial. Too passive means we aren't necessarily working on the right things. Too dictatorial means people aren't bought into what we're working on. Avoid both of these. Keep in mind that no one (including you) has a monopoly on useful knowledge and context, but also that the engineering manager exists for a reason.
 
 ### Retrospective
 
-The [engineering manager](../roles.md#engineering-manager) drives the [retrospective](../../../retrospectives/index.md) following the [engineering milestone retrospectives](../../../retrospectives/index.md#engineering-milestone-retrospectives) format.
+At the end of each sprint, the team performs a [retrospective](../../../retrospectives/index.md) following the [engineering milestone retrospectives](../../../retrospectives/index.md#engineering-milestone-retrospectives) format to review our sprint and find improvement areas.
 
 ## Weekly
 
@@ -112,31 +75,9 @@ The second Monday before the [20th (release day)](../releases/index.md), this me
 
 These meetings are recorded (posted automatically to the #distributioneers Slack channel) so that anyone whose timezone does not permit can participate after the fact.
 
-### Weekly updates
+### Friday GitHub update
 
-#### Wednesday Slack update
-
-Wed, before EOD (local time): distribution members are expected to post an update in Slack communicating:
-
-1. What you have worked on since your last update
-2. What you are working on now
-3. Anything you feel uneasy about, think is at risk of not being completed, etc.
-
-**Example:**
-
-> **Update:**
->
-> * Helped $CUSTOMER with search scaling questions.
-> * Made some progress on updating the regression test suite, more work to do.
-> * Opened a PR for that nasty bug (https://github.com/sourcegraph/sourcegraph/pull/9330)
-> * https://github.com/sourcegraph/sourcegraph/pull/9331 turned out much harder than I thought, it may slip this release
-> * I am now focused on https://github.com/sourcegraph/sourcegraph/issues/10419
-
-The goal of this update is to ensure we're discussing things as a team, asking for help when appropriate, reflecting on our progress, and giving others the opportunity to provide help and guidance.
-
-#### Friday GitHub update
-
-Fri, before EOD (local time): distribution members are expected to post an update with the following to [our monthly tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fdistribution+label%3Atracking+Distribution):
+Before EOD (local time) on Fridays distribution members are expected to post an update with the following to [our monthly tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fdistribution+label%3Atracking+Distribution):
 
 - What you've worked on **this week**
 - What you plan to focus on **next week**
@@ -144,26 +85,44 @@ Fri, before EOD (local time): distribution members are expected to post an updat
 
 **Example:**
 
-> This week:
+> **This week:**
 >
-> * Lots of progress on regression test suite, more to do.
-> * That nasty bug is fixed (https://github.com/sourcegraph/sourcegraph/pull/9330)
-> * https://github.com/sourcegraph/sourcegraph/pull/9331 turned out much harder than we thought and it may slip this release
-> * Next week: Will finish up the above + start working on automating releases
+> - Lots of progress on regression test suite, but did not manage to fully close the issue as I discovered some additional problem, check this \[comment\]\(link\).
+> - Fixed the Terraform apply bug described in #9330
+>
+> **Next week:**
+>
+> Ill fix the regression test problem in #1234 + start working on cleaning some the repeated steps from the release process in #1235.
 
-The goal of this update is to communicate to _the broader Sourcegraph team_ what we're working on, what progress we've made, and anything that is at risk at a high-level.
+The goal of this update is to communicate to _the broader Sourcegraph team_ a summary of our plans, what progress we've made, and anything that is at risk at a high-level. This information, complemetned by the daily updates, will be used by the [engineering manager](../roles.md#engineering-manager) to send the [weekly leadership update](../leadership/index.md#weekly-updates).
 
-#### Why weekly & asynchronous updates?
+## Daily updates
 
-We use asynchronous updates via Slack and GitHub instead of face-to-face video call stand-ups because it allows:
+We use daily updates to ensure we have frequent communication across the team helping us keep in sync while working asynchronously, and help each other when we are blocked. Updates are asynchronous instead of face-to-face video call stand-ups because it allows collaboration across different timezones and work schedules.
 
-- You to write your update and consume other's updates at your own pace.
-- Others to opt-out of conversations they may not have stake in easily (topics worth discussing with the entire team can be brought up at the weekly team sync.)
+### Slack update
 
-We send updates twice a week because:
+At the start of your day (local time) distribution members are expected to post an update in Slack communicating:
 
-- Daily updates are too frequent, tedious to write out, tedious to consume, and give the impression that someone wants an hour-by-hour account of work (we do not).
-- A single weekly update make it easy to forget what you did at the start of the week, forget to ask for help, and make it hard for others to offer help in a timely fashion.
-- Two updates a week encourage posting updates and gathering feedback regularly, while still focusing on just the high-level key points of interest.
+1. What you have worked on since your last update
+2. What you are going to be working on today
+3. Anything you feel uneasy about, think is at risk of not being completed, blockers, etc.
 
-We want to respect autonomy and view updates as a tool to help remind team members to collaborate together, ask for help, and perform self-reflection about whether your current focus is right or not.
+**Example:**
+
+> **Since last update:**
+>
+> - Helped \$CUSTOMER with search scaling questions, the issue is still open as im waiting for a reply
+> - Made some progress on updating the regression test suite and merged the fix for the timeout, but there still some other issues with the FooBar test.
+> - Merged the changes to the DNS and closed https://github.com/sourcegraph/sourcegraph/issues/10418
+>
+> **Today:**
+>
+> Ill work on a PR for that nasty bug (https://github.com/sourcegraph/sourcegraph/pull/9330)
+> and then re-focus on https://github.com/sourcegraph/sourcegraph/issues/10419
+>
+> **Blockers**
+>
+> https://github.com/sourcegraph/sourcegraph/pull/9331 turned out much harder than I thought, it may slip this release, I could use another set of eyes on this
+
+The goal of this update is to ensure we're discussing things as a team, asking for help when appropriate, reflecting on our progress, and giving others the opportunity to provide help and guidance.
