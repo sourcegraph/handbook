@@ -4,18 +4,20 @@
 
 ## Account setup
 
-- **[Google Workspace/Gmail](https://www.google.com/gmail/)**: Access all Google Workspace apps in our org (Gmail, Google Docs, Google Sheets, Google Calendar, G Hire).
+- **[Google Workspace/Gmail](https://www.google.com/gmail/)**: Access all Google Workspace apps in our org (Gmail, Google Docs, Google Sheets, Google Calendar).
+- **[Lever](https://www.lever.co/):** Access our recruiting tool for tracking candidates in the hiring pipeline.
 - **[Slack](https://slack.com/)**: Access our team communication tool.
 - **[GitHub](https://github.com/sourcegraph/)**: Access our code and our handbook.
 - **[Lattice](https://sourcegraph.latticehq.com/)**: Access our [teammate feedback cycles](../review-cycles.md) (takes place every quarter– Noemi will send out details).
 - **[1Password](https://1password.com/)**: Access shared team passwords and store your own passwords.
-- **[Expensify](https://www.expensify.com/signin):** Submit receipts for any work related expenses for reimbursement. Expensify will be linked to your Sourcegraph email.
 - **[Zoom](https://zoom.us/signin):** Set up your Zoom account and [recommended settings](../../communication.md#video-calls). 
-- **[Jamf Now](https://sourcegraph.jamfcloud.md.com)**: Enroll your device in our MDM (ask Noemi for your access code).
+- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your device in our MDM (ask Noemi for your access code).
 - It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
+
 
 ### U.S. based teammates
 
+- **[Expensify](https://www.expensify.com/signin):** Submit receipts for any work related expenses for reimbursement. Expensify will be linked to your Sourcegraph email.
 - **[Gusto](https://gusto.com/)**: Select your health plans, set up payment information, enter your I-9 information. Gusto will be linked to your personal email.
 - **[Human Interest](https://humaninterest.com/):** Check on your 401k.
 
