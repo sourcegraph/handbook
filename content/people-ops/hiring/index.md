@@ -75,7 +75,7 @@ Benefits of having a referral complete the application:
 
 ## Hiring flow
 
-For any members of a hiring team, please see [this folder](https://drive.google.com/drive/u/0/folders/1tJAroT8Z1sPnWkETSbe2mFFaD5_g7Q_E) for a breakdown of each team's hiring process. The documents will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
+For any members of a hiring team, please see [this doc](https://docs.google.com/document/d/185BkGzfCp2G50mgXFA5R5TA_w3zHWWxO8CWvDMQT0bU/edit?ts=5f9aeea7#) for a breakdown of each step in the hiring process. The documents will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
 
 ## [Interview process](interview_process.md)
 
