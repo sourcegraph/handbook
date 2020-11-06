@@ -2,18 +2,6 @@
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/campaigneros.png"  align=right alt="Campaigñeros Logo">
 
-User-facing documentation: https://docs.sourcegraph.com/campaigns
-
-Developer documentation: https://docs.sourcegraph.com/dev/background-information/campaigns
-
-### New, work-in-progress UX
-
-We're working on a new flow and a new way for people to create campaigns based on the beta feedback. See [#10921](https://github.com/sourcegraph/sourcegraph/pull/10921) and the following new doc pages (which are "pre-written" prior to being implemented to get us all on the same page about the changes we'll be making):
-
-- [Campaigns main doc page](https://docs.sourcegraph.com/@campaigns-new-flow/user/campaigns)
-- [Hello World Campaign guide](https://docs.sourcegraph.com/@campaigns-new-flow/user/campaigns/hello_world_campaign)
-- [Campaigns design doc](https://docs.sourcegraph.com/@campaigns-new-flow/dev/campaigns_design)
-
 ## Vision
 
 **Find code that needs to be changed and change it by running code**.
@@ -82,6 +70,18 @@ Our users use more than just their code host and Sourcegraph. They use ticket tr
 
 We want to discover what external systems our users want to use campaigns with, and ensure that we can integrate with them. For example, an organization that uses JIRA will likely want to be able to link tickets to campaigns and have the state updated as the campaign is executed.
 
+## Roadmap
+
+Our team's public roadmap is part of our larger [Product roadmap](https://about.sourcegraph.com/handbook/product/roadmap#campaigns).
+
+### Roadmap Process
+
+Our roadmapping process is a team effort. As we receive customer feedback, and as we come up with cool new features, we record these in one of three places. Customer feedback goes into our [team Productboard page](https://sourcegraph.productboard.com/feature-board/2104383-campaigns). Well-defined tasks live in our [team backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fcampaigns+milestone%3ABacklog). And larger, less defined ideas live in the bottom section of our [private roadmap doc](https://docs.google.com/document/d/1zRTfK6mENKicfLwDaWgLk1dBvQVKDg-J7pwjGg8tpps/edit#), below the _fog of war_ line.
+
+It is the job of the EM and PM to pull/formulate/define tasks from the above sources and prioritize them. That prioritized list is under the [Future heading](https://docs.google.com/document/d/1zRTfK6mENKicfLwDaWgLk1dBvQVKDg-J7pwjGg8tpps/edit#heading=h.jk3gp8lyopke) of our roadmap doc.
+
+For our sprint planning, the team looks over the prioritized list, revises estimates on work needed, and agrees on these priorities. Once we are aligned, we pull as much as will comfortably fit into the next sprint, creating GitHub issues as needed, and track those in that sprint's tracking issue.
+
 ## Analogies
 
 Netlify and AWS Lambda solve difficult, repeatable problems for developers, removing overhead and enabling them to focus on the problems they are solving. In that regard, campaigns are to large-scale code changes what Netlify is to static site generation and AWS Lambda is to handling HTTP requests.
@@ -129,3 +129,9 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 ## Hiring status
 
 No open positions at this time.
+
+## Related links
+
+- [User-facing documentation](https://docs.sourcegraph.com/campaigns)
+- [Developer documentation](https://docs.sourcegraph.com/dev/background-information/campaigns)
+

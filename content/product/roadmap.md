@@ -55,11 +55,14 @@ section Web
 
 1. **Customer outreach to improve adoption of campaigns**
 1. User credentials ([RFC 242](https://docs.google.com/document/d/1SqoWWm1xs82QibrWwYsXmpmgweN6EpcKt1qXrRBjjlU/edit)), which will allow non-site-admins to create campaigns
+1. Better burndown charts
 1. Versioning/releasing of src-cli with respect to sg/sg
-1. Respect GitHub GraphQL rate limits
 1. Improved documentation of src-cli login process
+1. Add filtering/searching to campaign and changeset lists
+1. Ability to auto-merge changesets, depending on various conditions
+1. Ability to add default reviewers to changesets
 
-See [roadmap at a glance](https://docs.google.com/document/d/1zRTfK6mENKicfLwDaWgLk1dBvQVKDg-J7pwjGg8tpps/edit#) for more.
+See [our team page](https://about.sourcegraph.com/handbook/engineering/campaigns#roadmap) for more detail about our longer-term roadmap and our roadmap process.
 
 ## Cloud
 
