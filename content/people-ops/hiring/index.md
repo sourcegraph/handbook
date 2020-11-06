@@ -66,7 +66,11 @@ We review each candidate at each stage of our hiring pipeline (e.g. application,
 
 Current employees can refer a candidate [here](https://hire.lever.co/referrals/new)
 
-Not required: The referral can also complete the application for the role as well. The application will have logistical and specific questions to the role. Completing the application is not required. The hiring team or recruiting can ask the application questions during the call with the referal, if deciding to move forward with the candidate. 
+Having your referral complete the application provides helpful context when considering their profile, but is not required. 
+
+Benefits of having a referral complete the application:
+- Provides information that the hiring team think is important for the role that may not have been represented in their resume or referral notes.
+- Allows the hiring team to have a deeper conversation about who they are, what they are looking for, and about their experience.
 
 ## Hiring flow
 
