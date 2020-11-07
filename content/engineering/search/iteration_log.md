@@ -16,12 +16,13 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ### Code monitoring
 
-- **Owner(s):** Stefan, Juliana
+- **Owner(s):** Stefan, Juliana, Farhan
 - **Outcomes:**
     - Spill over from last iteration: finish stub-implementation of code monitoring schema.
     - Initial UI for code monitor CRUD: users are able to create and list (non-functioning) monitors
 - **Work log:**
     - 2020-11-04: Code Monitoring now has an (empty) feature-flagged homepage ([#15355](https://github.com/sourcegraph/sourcegraph/pull/15355))
+    - 2020-11-06: Code Monitoring code has been moved to enteprise folder as it will be an enterprise feature. ([#15443](https://github.com/sourcegraph/sourcegraph/pull/15443), [#15513](https://github.com/sourcegraph/sourcegraph/pull/15513))
 
 ### Scale indexed search to 500k repositories
 
@@ -39,7 +40,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Something that makes you go yay on Sourcegraph.com
     - Non-functional (fake data) progress UI is created to match Figma designs
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-11-06: Initial bootstrapping for streaming search progress UI is underway ([#15549](https://github.com/sourcegraph/sourcegraph/pull/15549))
     
 ### Featureful frontend query parser, part 2
 
