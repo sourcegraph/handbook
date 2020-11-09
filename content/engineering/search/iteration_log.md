@@ -24,7 +24,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2020-11-04: Code Monitoring now has an (empty) feature-flagged homepage ([#15355](https://github.com/sourcegraph/sourcegraph/pull/15355))
     - 2020-11-06: Code Monitoring code has been moved to enteprise folder as it will be an enterprise feature. ([#15443](https://github.com/sourcegraph/sourcegraph/pull/15443), [#15513](https://github.com/sourcegraph/sourcegraph/pull/15513))
     - 2020-11-09: GraphQL mutations (create, delete, toggle, edit) for the monitor table are up for review.
-    - 2020-11-09 (farhan): Moved code into enterprise. Basic code monitoring creation page is up for review.
+    - 2020-11-09 (farhan): Basic code monitoring creation page is up for review.
 
 ### Scale indexed search to 500k repositories
 
@@ -76,11 +76,9 @@ This document contains the goals and work log for the search team's [2-week iter
 
 - **Owner(s):** Farhan
 - **Outcomes:**
-    - Search features listed in [#15470](https://github.com/sourcegraph/sourcegraph/issues/15470) have a corresponding How-to guide.
-    - Tutorials are created for how to use our search at the most basic level ([#15473](https://github.com/sourcegraph/sourcegraph/issues/15473)).
-    - Search docs are categorized according to [Divio's documentation system](https://documentation.divio.com/) and pages are broken up to ensure each page has a single responsibility ([15472](https://github.com/sourcegraph/sourcegraph/issues/15472)).
+    - Clear goals are outlined for improvements to search documentation, to be completed next iteration.
 - **Work log:**
-    - 2020-11-09: Planning and reading up on Divio's documentation system.
+    - 2020-11-09: Planning and reading up on Divio's documentation system. Outcome has been changed to complete planning this iteration, and work on actually improving docs for next iteration.
 
 ## 2020-10-19 to 2020-10-30
 
