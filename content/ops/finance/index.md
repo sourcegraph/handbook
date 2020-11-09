@@ -31,6 +31,14 @@ TODO
 
 ## Reporting
 
+### Fiscal years
+
+A fiscal year is a one-year period that corporations like Sourcegraph use for accounting and budgeting. Sourcegraph's fiscal year runs from February 1 to January 31. Having our fiscal year offset by one month from the calendar year ensures that our fiscal Q4 doesn't end during December holidays, making our quarters more even and predictable, and eliminating pre-New Year stress for our sales, finance, and other teammates.
+
+**Fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends**.
+
+For example, Sourcegraph's fiscal year 2021 (FY21) is the one-year period running from February 1, 2020 through January 31, 2021.
+
 ### Sources of truth
 
 - [Financial statements](https://www.dropbox.com/home/Finance/Financial%20reports)
