@@ -45,7 +45,7 @@ We have many Slack channels. You don't have to join them all, but here is a good
 
 - #general - Anything about Sourcegraph in general (that doesn't fit a more specific channel below).
 - #random - Cool things you're doing in life, random blog posts, jokes, vacation photos, etc.
-- #floof - Dogs, horses, cats, cows, and other floof empires.
+- #pets-of-sourcegraph - Dogs, horses, cats, cows, and other floof empires.
 - #progress - Share cool/interesting progress with the team
 - #thanks - Appreciate someone's work? You can thank them here! :) {#thanks}
 - #handbook - Updates to and discussion of [this handbook](../index.md)
@@ -64,7 +64,7 @@ We have many Slack channels. You don't have to join them all, but here is a good
 - #analytics - [Analytics](../ops/bizops/index.md#analytics)
 - #marketintel - Market and industry intelligence - products, funding, competition
 - #payments - Customer payment notifications
-- #hiring-active - Candidate hiring
+- #hiring - Candidate hiring
 - #customer-updates - Updates on the status of customers
 - #dev-rel - Developer relations, events, blog posts, tweets, etc.
 
