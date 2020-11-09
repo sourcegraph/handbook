@@ -26,6 +26,7 @@ publishDate: YYYY-MM-DDT10:00-07:00
 tags: [blog]
 slug: the-blog-slug
 heroImage: /blog/thumbnail-image.jpg
+canonical:  Use to override the canonical link i.e. https://www.fastcompany.com/90565930/im-deaf-and-this-is-what-happens-when-i-get-on-a-zoom-call
 published: true
 ---
 
@@ -34,11 +35,12 @@ Your markdown content goes here
 
 The data between the `---` is called front matter and is used to provide post metadata. Important to note about this metadata, is that:
 
-- The `description` field is optional and only needed if you want to craft the description for your post on the blog the index page
-- The `authorUrl` field is optional but recommended
-- The `tags` field should be left as `blog` until we incorporate filtering posts va tags
+- The `description` field is optional and only needed if you want to craft the description for your post on the blog the index page.
+- The `authorUrl` field is optional but recommended.
+- The `tags` field should be left as `blog` until we incorporate filtering posts va tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
+- The `canonical` field is optional and only required to override the canonical link.  Important for cross-posting blogs from personal blogs or published news sites. By default, set to https://about.sourcegraph.com/blog/the-blog-slug.
 
 ## Adding images
 
