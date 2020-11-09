@@ -11,6 +11,7 @@ This page documents the engineering leadership team.
   - [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim), [Engineering Manager](../roles.md#engineering-manager), [Distribution](../distribution/index.md)
   - [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him), [Engineering Manager](../roles.md#engineering-manager), [Security](../security/index.md)
   - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris), [Engineering Manager](../roles.md#engineering-manager), [Campaigns](../campaigns/index.md)
+  - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him), [Engineering Manager](../roles.md#engineering-manager), [Web](../web/index.md)
 
 ## Goals
 
