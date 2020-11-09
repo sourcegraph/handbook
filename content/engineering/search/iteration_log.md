@@ -48,15 +48,15 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - As before, we need a proper frontend query parser for syntax highlighting, hover hints, and consistent UI state (toggle activation) of search expressions and future query syntax extension.  All of that couldn't fit into the previous iteration: In this iteration I will merge the code we need to unblock shipping search expressions (first bullet in [14016](https://github.com/sourcegraph/sourcegraph/issues/14016)). Time allowing I'll add some contextual regex/structural highlighting, since I prototyped it already.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-11-08: Finished the base parser code that unblocks the part for query-checking complex expressions in the frontend. There are still bits to refine, but it's complete enough to use for the checks we need. I spent some time adding regex/structural query syntax highlighting and hovers in a prototype branch, and will incrementally merge this work into the main branch.
     
 ### Quality-of-life search code improvements, continued
 
 - **Owner(s):** Rijnard
 - **Outcomes:**
-    - This is a catch-all goal for improving the quality of our backend search code (bug fixes and refactors). One concrete goal is to fix a nasty commit search issue [#13313](https://github.com/sourcegraph/sourcegraph/issues/13313) that I have a WIP branch fix for. There's also a structural search/archive copying deficiency I want/need to look into [#14619](https://github.com/sourcegraph/sourcegraph/issues/14619#issuecomment-720910776).
+    - This is a catch-all goal for improving the quality of our search code (bug fixes and refactors). One concrete goal is to fix a nasty commit search issue [#13313](https://github.com/sourcegraph/sourcegraph/issues/13313) that I have a WIP branch fix for. There's also a structural search/archive copying deficiency I want/need to look into [#14619](https://github.com/sourcegraph/sourcegraph/issues/14619#issuecomment-720910776).
 - **Work log:**    
-    - YYYY-MM-DD: $UPDATE    
+    - 2020-11-08: Will be spending time this week to resolve slow structural search/archive copying. Fixed two minor bugs in frontend parsing/hovers [#15410](https://github.com/sourcegraph/sourcegraph/pull/15410), [#15367](https://github.com/sourcegraph/sourcegraph/pull/15367).
 
 ### Improve tracking of search onboarding on enterprise instances
 - **Owner(s):** @farhan
