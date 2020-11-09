@@ -23,16 +23,16 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2020-11-04: Code Monitoring now has an (empty) feature-flagged homepage ([#15355](https://github.com/sourcegraph/sourcegraph/pull/15355))
     - 2020-11-06: Code Monitoring code has been moved to enteprise folder as it will be an enterprise feature. ([#15443](https://github.com/sourcegraph/sourcegraph/pull/15443), [#15513](https://github.com/sourcegraph/sourcegraph/pull/15513))
-
+    - 2020-11-09: GraphQL mutations (create, delete, toggle, edit) for the monitor table are up for review.
 ### Scale indexed search to 500k repositories
 
 - **Owner(s):** Stefan, Keegan
 - **Outcomes:**
     - Spill over from last iteration: merge our patch to upstream zoekt.
-    - RFP: for regex queries, queries such as "term1 term2" are interpreted as literal regex (alternative: implicit AND) instead of being fuzzified in the parsing layer.
+    - RFC: for regex queries, queries such as "term1 term2" are interpreted as literal regex (alternative: implicit AND) instead of being fuzzified in the parsing layer.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
-
+    - 2020-11-09: Created RFC 264 to discuss interpretation of regex queries, which has implications for the performance of queries such as `term1 term2` (with regex toggle set to active).
+    - 2020-11-09: Regarding merging perf work to zoekt upstream: Finsihed addressing review comments of CR. Waiting for feedback from Han-Wen.
 ### Streaming search
 
 - **Owner(s):** Keegan, Juliana, Rob
