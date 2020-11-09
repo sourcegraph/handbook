@@ -22,6 +22,7 @@ See [Goals](goals.md)
 - [Ownership areas](ownership_areas.md)
 - [Recurring processes](recurring_processes.md)
 - [Internal infrastructure](internal_infrastructure.md)
+- [Product & personas](product.md)
 - [Tools](tools/index.md)
 - Tutorials
   - [Observability developer guide](../observability/index.md)
