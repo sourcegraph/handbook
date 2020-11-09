@@ -4,7 +4,7 @@ Goals are continuously updated and reviewed. If you find these goals do not refl
 
 ## Medium-term goals (~3-6 Months)
 
-### [Improve deployment pipeline UX](https://github.com/orgs/sourcegraph/projects/96)
+### [Improve internal deployment pipeline UX](https://github.com/orgs/sourcegraph/projects/96)
 
 Our existing deployment pipelines to our Sourcegraph instances (such as Sourcegraph Cloud) has several usability problems - for example, it is hard for engineers to identify when a commit was deployed to an environment or which deployment is currently running in a particular environment. We want to improve the deployment experience, making sure we can deploy with confidence and can easily understand in which stage of the pipeline a change currently is.
 
@@ -20,12 +20,12 @@ Our existing deployment pipelines to our Sourcegraph instances (such as Sourcegr
   - TBD: We can trigger rollbacks and deployments via a `/` command in Slack.
 - **Milestones**: TBD
 
-### Any engineer at Sourcegraph can create a release for all of our supported deployment types by running a single command
+### Any engineer at Sourcegraph can create a release for all of our supported deployment types by running a single action
 
 Creating a new release for our deployments is currently a semi-automated process, which requires several manual steps and synchronizing our versioned artifacts (Sourcegraph, Kubernetes manifests, docker-compose manifests, etc). We want to enable any engineer to perform a release as often as needed, to enable this we want to make releasing Sourcegraph a simple, automated process.
 
 - **Owner**: Dave, Robert
-- **Status**: In progress. Estimated completion by end of 2020.
+- **Status**: In progress. Estimated completion by end of FY21-Q1.
 - **Outcomes**:
   - Releases can be triggered by a single manual step.
   - All supported deployment types are released at the same time with the same command.
@@ -37,7 +37,7 @@ Creating a new release for our deployments is currently a semi-automated process
   - [Releases can be done in a single day](https://github.com/orgs/sourcegraph/projects/90). **In progress**
   - [Enable continuous regression tests on `main`](https://github.com/orgs/sourcegraph/projects/90). **In progress**
   - [Ensure relevant engineers are notified of broken builds](https://github.com/orgs/sourcegraph/projects/90). **In progress**
-  - Releases can be done automatically with a single `/` command via Slack. _Estimated: 2020_
+  - Releases can be done automatically with a single action (e.g. CLI command, `/` command in Slack, etc.). _Estimated: 2020_
 
 ### [Upgrades between releases are easy to perform](https://github.com/orgs/sourcegraph/projects/71)
 
@@ -92,7 +92,37 @@ We will initially focus on reducing the time it takes to collect troubleshooting
   - ~~Move non-production deployments to separate projects.~~ Done: 3.21
   - ~~Create code to bootstrap new projects.~~ Done: 3.21
   - Document project and folder usage guidelines.
+  - Set spending limits for dynamic environments.
+
+### Site admins use reliable methods like Docker Compose or Kubernetes for production deployments
+
+Many customers of Sourcegraph today are still running a single-container `sourcegraph/server` deployment in production. In 2019 we began advising all new deployments that this deployment option is _not_ for production use because it has no proper resource isolation and as such when it falls over it is impossible to debug, leading to painstakingly urgent migrations to better deployment types and frustrated/angry customers. We would like to get to a world where all production instances of Sourcegraph use reliable deployment methods like Docker Compose or Kubernetes.
+
+- **Owner**: TBD
+- **Status**: [RFC 263 REVIEW: Single-container deployments are for demos only](https://docs.google.com/document/d/1GPypas4ZUZIw346EcNDM1up2OOQFyPpEzA3-0glPEMY/edit)
+- **Outcomes**:
+  - Customer deployments become more reliable in performance, stability, uptime, etc.
+  - No customers are using the unreliable `sourcegraph/server` for their production deployment.
+  - Customers upgrade to Docker Compose or Kubernetes deployments without any major trouble.
+- **Milestones**:
+  - ~~RFC creation.~~
+  - RFC approval.
+  - ...TBD...
+
+### Support upgrading across multiple Sourcegraph versions
+
+Upgrading from 3.13 -> 3.17 requires you perform 4 individual upgrades today (3.14 -> 3.15 -> 3.16 -> 3.17) which is extremely painful and time consuming for site admins, especially so given how time consuming our upgrade process is in general. We would like to make upgrades across multiple Sourcegraph versions easier.
+
+- **Owner**: TBD
+- **Status**: Not started. Unknown amount of work.
+- **Outcomes**:
+  - Customers can upgrade across multiple versions of Sourcegraph, allowing them to get up-to-date more quickly and easily.
+- **Milestones**:
 
 ## Short-term goals
 
 Short-term goals are described in our [tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Atracking+label%3Ateam%2Fdistribution).
+
+## Past goals
+
+We record past goals that we have completed [here](goals_completed.md).
