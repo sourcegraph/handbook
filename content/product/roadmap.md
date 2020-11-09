@@ -25,19 +25,8 @@ section Cloud
     GitHub app to simplify access to repositories (spike)     :        2020-10-21, 2d
     Webhooks to receive repo permissions and metadata (spike) :        2020-10-21, 2d
 
-section Code intel
-    SQLite data to Postgres migration                       :done,   2020-10-01, 2020-10-20
-    Auto-indexing for supported languages (RFC 201)         :active, 2020-10-10, 40d
-    Rebuild lsif-java indexer using com.sun.source          :active, 2020-10-10, 40d
-    Add native Gradle support for lsif-java                 :active, 2020-10-21, 14d
-    Add native Maven support for lsif-java                  :active, 2020-11-05, 14d
-    Resolve outstanding issues for lsif-clang delivery      :active, 2020-09-21, 50d
-    Ship lsif-clang to 3 organizations                      :active, 2020-11-01, 20d
-    Review and fill documentation gaps to ease adoption     :active, 2020-10-21, 15d
-    Ship lsif-go to 2 organizations                         :active, 2020-11-01, 20d
-    Add incremental indexing for monorepo support (RFC 170) :active, 2020-11-10, 5d
-    Ship lsif-java to 3 organizations                       :        2020-11-20, 20d
-    Integrate with Bazel for monorepo support               :        2020-11-21, 7d
+%%section Code intel
+ %% TO DO   
 
 section Web
     Browser extension discoverability                         :done,    2020-09-28, 14d
@@ -70,20 +59,7 @@ See [cloud roadmap](../engineering/cloud/goals.md#roadmap)
 
 ## Code intel
 
-1. ✅ Simplify database structure and improve performance by migrating SQLite data to Postgres
-1. 🔄 Provide best effort auto-indexing for supported languages [RFC 201](https://docs.google.com/document/d/1NPQs1s814LZjNXjPuavqC1N7hZR192DNtmSBmAeH9UY/edit)
-1. 🔄 Rebuild lsif-java indexer using com.sun.source
-1. 🔄 Add native Gradle support for lsif-java
-1. 🔄 Add native Maven support for lsif-java
-1. 🔄 Resolve outstanding issues for lsif-clang delivery
-1. 🔄 Ship lsif-clang to 3 organizations
-1. 🔄 Review and fill documentation gaps to ease adoption
-1. 🔄 Ship lsif-go to 2 organizations
-1. 🔄 Add incremental indexing for monorepo support [RFC 170](https://docs.google.com/document/d/1NPu0Vc7FpdoYwCrtpnu-8KB4OPbw7L0KBTqw96JVc8w/edit#)
-1. Ship lsif-java to 3 organizations
-1. Integrate with Bazel for monorepo support
-
-See [Code Intel roadmap](https://docs.google.com/document/d/1JPNelxg_8xwZKz8TT2BnpCccShOgxJrLubf2RNGye50/edit#) for more.
+See [Code Intel roadmap](../engineering/code-intelligence/goals.md#roadmap)
 
 ## Distribution
 
