@@ -24,6 +24,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2020-11-04: Code Monitoring now has an (empty) feature-flagged homepage ([#15355](https://github.com/sourcegraph/sourcegraph/pull/15355))
     - 2020-11-06: Code Monitoring code has been moved to enteprise folder as it will be an enterprise feature. ([#15443](https://github.com/sourcegraph/sourcegraph/pull/15443), [#15513](https://github.com/sourcegraph/sourcegraph/pull/15513))
     - 2020-11-09: GraphQL mutations (create, delete, toggle, edit) for the monitor table are up for review.
+
 ### Scale indexed search to 500k repositories
 
 - **Owner(s):** Stefan, Keegan
@@ -33,6 +34,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2020-11-09: Created RFC 264 to discuss interpretation of regex queries, which has implications for the performance of queries such as `term1 term2` (with regex toggle set to active).
     - 2020-11-09: Regarding merging perf work to zoekt upstream: Finsihed addressing review comments of CR. Waiting for feedback from Han-Wen.
+
 ### Streaming search
 
 - **Owner(s):** Keegan, Juliana, Rob
@@ -41,7 +43,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Non-functional (fake data) progress UI is created to match Figma designs
 - **Work log:**
     - 2020-11-06: Initial bootstrapping for streaming search progress UI is underway ([#15549](https://github.com/sourcegraph/sourcegraph/pull/15549))
-    
+
 ### Featureful frontend query parser, part 2
 
 - **Owner(s):** Rijnard
@@ -49,13 +51,13 @@ This document contains the goals and work log for the search team's [2-week iter
     - As before, we need a proper frontend query parser for syntax highlighting, hover hints, and consistent UI state (toggle activation) of search expressions and future query syntax extension.  All of that couldn't fit into the previous iteration: In this iteration I will merge the code we need to unblock shipping search expressions (first bullet in [14016](https://github.com/sourcegraph/sourcegraph/issues/14016)). Time allowing I'll add some contextual regex/structural highlighting, since I prototyped it already.
 - **Work log:**
     - 2020-11-08: Finished the base parser code that unblocks the part for query-checking complex expressions in the frontend. There are still bits to refine, but it's complete enough to use for the checks we need. I spent some time adding regex/structural query syntax highlighting and hovers in a prototype branch, and will incrementally merge this work into the main branch.
-    
+
 ### Quality-of-life search code improvements, continued
 
 - **Owner(s):** Rijnard
 - **Outcomes:**
     - This is a catch-all goal for improving the quality of our search code (bug fixes and refactors). One concrete goal is to fix a nasty commit search issue [#13313](https://github.com/sourcegraph/sourcegraph/issues/13313) that I have a WIP branch fix for. There's also a structural search/archive copying deficiency I want/need to look into [#14619](https://github.com/sourcegraph/sourcegraph/issues/14619#issuecomment-720910776).
-- **Work log:**    
+- **Work log:**
     - 2020-11-08: Will be spending time this week to resolve slow structural search/archive copying. Fixed two minor bugs in frontend parsing/hovers [#15410](https://github.com/sourcegraph/sourcegraph/pull/15410), [#15367](https://github.com/sourcegraph/sourcegraph/pull/15367).
 
 ### Improve tracking of search onboarding on enterprise instances
@@ -64,8 +66,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Spillover from last iteration, PRs merged for: Weekly retention is tracked in pings [#13636](https://github.com/sourcegraph/sourcegraph/issues/13636).
     - Spillover from last iteration, PRs merged for: Search tour usage is tracked in pings [#14781](https://github.com/sourcegraph/sourcegraph/issues/14781).
     - Spillover from last iteration: SMTP is tracked in pings [#14115](https://github.com/sourcegraph/sourcegraph/issues/14115).
-- **Work log:**    
-    - YYYY-MM-DD: $UPDATE    
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
 
 ### Documentation clean up and content
 
@@ -106,7 +108,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2020-10-23: Finished v1 of GraphQL schema for code monitoring (Google drive > Sourcegraph shared > Search > Code Monitor GraphQL Design). Next step: Review together with Juliana.
     - 2020-10-30: Juliana and I agreed on the first version of the GraphQL schema. I have put up a PR that covers 80% of it. It will probably take another 2 days to finish the stub mutations and the rest of the schema. The stubs will not be connected to the DB yet.
-    - 2020-10-30 (@farhan): [RFC for SMTP pings](https://docs.google.com/document/d/1fp3zuhjw6gykaF2_TRWDh7ia-dAdDqrj9gxjtFmcy7I/edit#heading=h.trqab8y0kufp) is awaiting review 
+    - 2020-10-30 (@farhan): [RFC for SMTP pings](https://docs.google.com/document/d/1fp3zuhjw6gykaF2_TRWDh7ia-dAdDqrj9gxjtFmcy7I/edit#heading=h.trqab8y0kufp) is awaiting review
 
 ### Scale indexed search to 500k repositories
 - **Owner(s):** Stefan, Keegan
