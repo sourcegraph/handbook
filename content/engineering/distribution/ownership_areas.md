@@ -1,0 +1,50 @@
+## Distribution ownership areas
+
+The following is a breakdown of the areas of Sourcegraph that the Distribution team owns. Distribution team members may also be involved in other areas of Sourcegraph not mentioned here (i.e., you're not restricted just to the distribution team or working on just the areas of ownership assigned below.)
+
+- **Infrastructure**
+  - Sourcegraph.com
+  - Dogfood instances (k8s.sgdev.org, sourcegraph.sgdev.org)
+  - 3rd-party services (ghe.sgdev.org)
+  - Buildkite, CI pipeline / infrastructure.
+  - **Related code**: [infrastructure repository](https://github.com/sourcegraph/infrastructure), [CI pipeline code](https://sourcegraph.com/search?q=repo%3A%5Egithub%5C.com%2Fsourcegraph%2Fsourcegraph%24+file%3Abuild.sh%7C%2Fci%2F+count%3A1000&patternType=literal)
+- **Release pipeline**
+  - End-to-end release process infrastructure
+  - Creating monthly releases
+  - Testing environments when applicable
+  - Releasing security updates when asked to
+  - **Related code**: [release captain experience](https://about.sourcegraph.com/handbook/engineering/releases#release-captain), [release tooling](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/release)
+- **Deployment**
+  - **Kubernetes cluster installation & upgrade experience**
+    - Kubernetes YAML & associated tooling
+    - Cloud-specific setup docs (AWS/Google Cloud)
+    - Deployment setup & upgrade docs
+    - **Related code**: [deploy-sourcegraph repository](https://github.com/sourcegraph/deploy-sourcegraph), [cluster installation docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/admin/install/cluster.md)
+  - **Docker Compose & pure-docker installation & upgrade experience**
+    - Docker-compose YAML & associated tooling
+    - Pure-docker shell scripts & upgrade docs
+    - Cloud-specific setup docs (AWS/Google Cloud)
+    - Deployment setup & upgrade docs
+    - **Related code**: [deploy-sourcegraph-docker repository](https://github.com/sourcegraph/deploy-sourcegraph-docker), [docker-compose installation docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/doc/admin/install/docker-compose), [docker-compose upgrade docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/admin/updates/docker_compose.md) [pure-docker upgrade docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/admin/updates/pure_docker.md).
+  - **Single-container installation & upgrade experience**
+    - Primarily in maintenance mode
+    - Pushing admins to upgrade to Docker Compose
+    - Communicating the limitations of single-container deployments
+    - **Related code**: [cmd/server in main repo](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:cmd/server/&patternType=regexp)
+  - **Scalability**
+    - Documenting when to upgrade from one deploy type to another
+    - Resource estimation for new deployments
+    - Scaling advice for existing deployments
+    - **Related code**: [resource estimator docs](https://docs.sourcegraph.com/admin/install/resource_estimator), [resource estimator repository](https://github.com/sourcegraph/resource-estimator), [Kubernetes scaling docs](https://docs.sourcegraph.com/admin/install/kubernetes/scale)
+- **Observability: Monitoring** ("site admins should easily know the health of Sourcegraph")
+  - Monitoring & alerting infrastructure
+  - Educating site admins about how to monitor Sourcegraph
+  - Working with & ensuring engineering @ Sourcegraph adds needed monitoring
+  - **Related code**: [monitoring generator (dashboards/alerts)](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring), [Grafana docker image](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/docker-images/grafana), [Prometheus docker image](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/docker-images/prometheus)
+- **Observability: Debugging** ("site admins should be able to collect the information needed to debug issues easily")
+  - Logging & Tracing infrastructure
+  - Working with & ensuring engineering @ Sourcegraph adds needed logging/tracing to debug issues
+  - Making the debugging process for common problems seamless and straightforward
+  - Making reporting issues with all needed information easy
+  - Ensuring logs/tracing are not overly verbose, identify most useful information for solving problems
+  - **Related code**: [Jaeger Docker images and code](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:jaeger&patternType=literal), [opentracing code (broadly)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+opentracing&patternType=literal), Jaeger [k8s](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph%24+jaeger&patternType=literal), [docker-compose/pure-docker](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph-docker%24+jaeger&patternType=literal), and [single-container](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:cmd/server+jaeger&patternType=literal) deployments & [associated docs](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:doc/admin/observability+jaeger%7Ctracing&patternType=regexp)
