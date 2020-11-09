@@ -42,6 +42,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Something that makes you go yay on Sourcegraph.com
     - Non-functional (fake data) progress UI is created to match Figma designs
 - **Work log:**
+    - 2020-11-04: Backend streaming implementation of commit/diff search. Needs to be wired up to HTTP API layer still.
+    - 2020-11-05: Progress API in webapp PoC done to unblock UI work.
     - 2020-11-06: Initial bootstrapping for streaming search progress UI is underway ([#15549](https://github.com/sourcegraph/sourcegraph/pull/15549))
 
 ### Featureful frontend query parser, part 2
