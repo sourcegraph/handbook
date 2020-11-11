@@ -10,7 +10,7 @@ Teammates should submit expenses at the end of every month, ideally in a single 
 
 Our accountants prepare unaudited financial statements every month based on the prior month's spending. Submitting expenses soon after the month ends simplifies their jobs, makes the financial reports we rely on for planning more accurate, helps @dan track and ensure that each teammate is in compliance with our monthly expense limits, and helps you get your money back faster!
 
-Any expenses more than 90 days old require approval by @dan.
+Any expenses more than 90 days old require approval by People Ops.
 
 ## Contractors
 
@@ -22,7 +22,11 @@ Generally, you should feel free to spend in ways that are in the best interest o
 
 ## Systems
 
-We use Expensify for expense report submission and approval. You will receive an invitation to our Expensify organization during onboarding.
+We use Expensify for expense report submission and approval. You will receive an invitation to our Expensify organization during onboarding. When submitting an expense, please:
+
+- Use the date of purchase (not the date of submission).
+- Add a description of your expense in the designated field. 
+
 
 ### Expense categories
 
