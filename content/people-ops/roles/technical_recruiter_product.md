@@ -10,7 +10,7 @@ In this role you will partner with several hiring managers across Product, Desig
 
 - Manage the full cycle recruitment process for product-focused roles, including but not limited to: Product, Design, Customer Engineering. 
   - Drive the hiring process from start to finish– including sourcing, job descriptions, interview plans, reference checks, offer creation, and closing candidates.
-- Partner with GTM hiring managers to develop, prioritize, and deliver on hiring strategies and headcount plans. 
+- Partner with hiring managers to develop, prioritize, and deliver on hiring strategies and headcount plans. 
 - Deeply understand managers’ hiring needs to actively translate that into a positive interviewer and candidate experience. 
 - Partner with the broader recruiting team to create the playbook for best hiring practices, and scalable operating procedures to ensure a high-quality interview process.
 - Work closely with business leaders and HR to create a hiring and diversity strategy.
