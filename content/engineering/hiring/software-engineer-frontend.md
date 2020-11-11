@@ -49,10 +49,12 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 1. We set up a 30-minute call to learn more about what you are looking for, tell you about Sourcegraph, and answer any questions that you have.
 1. You complete a 3-hour [exercise project](software-engineer-coding-exercise.md#frontend-coding-exercise) that we designed to test the technical qualifications listed above.
 1. We review your submission and schedule a **1 hour follow-up call** to discuss it.
-1. We schedule 3 hours of remote interviews over video chat across multiple days.
-   - **Technical experience:** We ask you about your past work and accomplishments.
-   - **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
-   - **CEO/CTO:** We ask you about what motivates you to do your best work, and we tell you more about the vision for the company.
+1. We schedule additional interviews across multiple days.
+   - 1h **Technical experience:** We ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
+   - 1h **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
+   - 30m **VP Engineering**
+   - 30m **CTO**
+   - 30m **CEO**
 1. We check your references.
 1. We make you a job offer.
 
