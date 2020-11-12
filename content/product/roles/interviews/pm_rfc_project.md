@@ -15,6 +15,8 @@ Key competencies:
 - Communication
 - Strategic thinking/visioning
 
+Note that this exercise is intended more to result in an early-stage RFC that focuses primarily on communicating the product vision and why it's an important problem to solve. Should the candidate move forward to the followup product call, the focus will be on what collaboration would look like, how they would talk about the RFC, and how they'd work through getting it implemented.
+
 ## Prompt
 
 Candidates are sent the following prompt after they pass the intro call:
