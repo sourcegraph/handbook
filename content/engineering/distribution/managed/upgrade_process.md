@@ -163,12 +163,23 @@ Then, to upgrade the new `$NEW_DEPLOYMENT` deployment to `$VERSION`:
 ```sh
 cd $CUSTOMER
 VERSION=$VERSION ../update-docker-compose.sh $NEW_DEPLOYMENT/
-# Address any merge conflicts in $NEW_DEPLOYMENT/ if needed.
-git add $NEW_DEPLOYMENT/
-git commit -m "$CUSTOMER: upgrade to $VERSION"
 ```
 
-Then `terraform apply`.
+Address any merge conflicts in the `$NEW_DEPLOYMENT/` directory if needed.
+
+Also verify that no references remain for the old version - the script does not automatically apply changes to replicas. For each reference, ensure that the *entire* service entry is up to date. You can list references like so:
+
+```sh
+cat $CUSTOMER/$NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${"$(cat $CUSTOMER/$OLD_DEPLOYMENT/VERSION)"#"v"}
+```
+
+Commit and apply the upgrade:
+
+```sh
+git add $NEW_DEPLOYMENT/
+git commit -m "$CUSTOMER: upgrade to $VERSION"
+terraform apply
+```
 
 ## 7) Recreate the deployment
 
