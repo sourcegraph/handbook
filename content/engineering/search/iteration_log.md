@@ -36,6 +36,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2020-11-09: (stefan) GraphQL mutations (create, delete, toggle, edit) for the monitor table are up for review.
     - 2020-11-09 (farhan): Basic code monitoring creation page is up for review.
     - 2020-11-13 (stefan): GraphQL mutations for create, delete and toggle were merged. This week I worked mostly on preparing the code for `editCodeMonitor` and replacing stubs with resolvers that return real data. Once `editCodeMonitor` is in place I expect the other mutations to be relatively straightforward.
+    - 2020-11-13 (farhan): Create code monitor page is complete.
 
 ### Scale indexed search to 500k repositories
 
@@ -83,6 +84,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Spillover from last iteration: SMTP is tracked in pings [#14115](https://github.com/sourcegraph/sourcegraph/issues/14115).
 - **Work log:**
     - 2020-11-09: PRs for search tour usage pings were merged. Updated PR for weekly retention pings after review feedback from Cloud team, still awaiting review from BizOps. RFC for SMTP pings still awaiting review from Pooja and Dan, pinged them to see whether this is still a priority.
+    - 2020-11-13: PR for weekly retention is ready to be merged as of Friday Singapore time. @ebrodymoore will merge once the BigQuery schema is updated.
 
 ### Documentation clean up and content
 
