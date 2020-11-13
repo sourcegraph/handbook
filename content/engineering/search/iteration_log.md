@@ -59,6 +59,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2020-11-04: Backend streaming implementation of commit/diff search. Needs to be wired up to HTTP API layer still.
     - 2020-11-05: Progress API in webapp PoC done to unblock UI work.
     - 2020-11-06: Initial bootstrapping for streaming search progress UI is underway ([#15549](https://github.com/sourcegraph/sourcegraph/pull/15549))
+    - 2020-11-13: Streaming progress UI (with fake data) is compelte ([#15668](https://github.com/sourcegraph/sourcegraph/pull/15668))
 
 ### Featureful frontend query parser, part 2
 
