@@ -100,6 +100,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - Also understand the typical use case buckets
   - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install)
   - Make a Handbook edit to the CE onboarding section
+  - Complete [General Onboarding](https://about.sourcegraph.com/handbook/ce/onboarding#general-onboarding-during-weeks-1-and-2) 
 
 - Week 2
   - Discovery questions 
@@ -110,6 +111,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Take on your first support ticket
   - Give SG 101, 102 (internal certification)
     - 10 Step Demo Certification 
+  - Add yourself to the Customer Engineer field in Salesforce for all of your [accounts](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=154354692) (make sure to update associated Oppurtunities as well)
 
 - Weeks 3-4
   - Give a campaigns demo
