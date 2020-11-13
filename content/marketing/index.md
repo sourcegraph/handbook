@@ -34,26 +34,20 @@ How we'll achieve this:
 
 Eventually we want to be publishing tons of compelling stuff for developers and other similar audiences. For now, we're building the infrastructure so we can do this well and track the results, and we'll publish a small number of very compelling things.
 
-Timeline: 2 months (ending 2020-10-02)
-
-Outcomes:
-
-- The about site looks really nice, has visitor and conversion tracking, and is SEO'd. (@aileen)
-- The workflow for publishing things is smooth and well documented so someone else with basic Git knowledge can follow it. (@aileen + @sqs)
-- Our tone, voice, writing standards, personas, and "philosophy on how to be compelling to developers" are all documented. (@sqs)
-- We publish the monthly release announcement and 3 other things (some combo of new about site pages, videos, and blog posts) using the documented workflow and standards, and all of these things pass the secret test of whether they're really, really compelling to developers. (@sqs)
-- A developer (who is not @sqs or @beyang) publishes a blog post using the documented workflow and standards, and it passes the [secret test of whether it's really, really compelling to developers](https://docs.google.com/document/d/1IgS9bq-wmCDKrGpydcJV1k_dzxulviyNAbaj7LLV-RY/edit). (That doc is only visible to the marketing team. It's secret so people don't try to game it.) (@sqs)
-- We can determine how many and which leads came from which content we published. (@aileen + @lori)
-
 #### Help other teams that need marketing support
 
 Timeline: ongoing
 
 Tasks:
-
+- The about site looks really nice, has visitor and conversion tracking, and is SEO'd. (@aileen)
+- The workflow for publishing things is smooth and well documented so someone else with basic Git knowledge can follow it. (@aileen)
 - Make and maintain materials (slides, one-pagers, and proposals) for the sales team (@lori)
 - Manage and tweak Google ads to drive engagement with our product (@lori)
-- Respond to public and private messages on social media (@sqs)
+- We can determine how many and which leads came from which content we published. (@aileen + @lori)
+- We publish the monthly release announcement and 3 other things (some combo of new about site pages, videos, and blog posts) using the documented workflow and standards, and all of these things pass the secret test of whether they're really, really compelling to developers. 
+- A developer (who is not @sqs or @beyang) publishes a blog post using the documented workflow and standards, and it passes the [secret test of whether it's really, really compelling to developers](https://docs.google.com/document/d/1IgS9bq-wmCDKrGpydcJV1k_dzxulviyNAbaj7LLV-RY/edit). (That doc is only visible to the marketing team. It's secret so people don't try to game it.)
+- Our tone, voice, writing standards, personas, and "philosophy on how to be compelling to developers" are all documented. 
+- Respond to public and private messages on social media 
 
 ### 12-month plan
 
@@ -64,14 +58,13 @@ Tasks:
 - Highlight customer value/stories
 - Engage existing influential users live
 - Spread Sourcegraph.com in open-source communities with existing traction
-- Hire VP Marketing and grow team
 
 ## Members
 
-- [Aileen Agricola](../../company/team/index.md#aileen-agricola)
-- [Vanesa Ortiz](../../company/team/index.md#vanesa-ortiz-she-her)
-- [Quinn Slack](../../company/team/index.md#quinn-slack) (manager)
-- Lori Heyman
+- [Kacie Jenkins](../../company/team/index.md##kacie-jenkins-sheher), VP of Marketing
+- [Aileen Agricola](../../company/team/index.md#aileen-agricola-sheher), Senior Digital Marketing Manager
+- [Vanesa Ortiz](../../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
+- Lori Heyman, Digital Marketing Programs
 
 ## Roles
 
@@ -81,38 +74,3 @@ See the [marketing roles](roles/index.md) for open positions.
 
 The marketing team will have a weekly meeting (schedule TBD), with notes written in [Marketing meeting notes](https://docs.google.com/document/d/1HI4mo99ESQMnlkilP_OJuH0acKHYA8bDxOK7s-no4X4/edit#) (and we're on step 1 of a [structured meeting](https://about.sourcegraph.com/handbook/communication#structured-meetings)).
 
-## Definitions
-
-### [Influential developer](personas.md#influential-developer)
-
-See the "[Influential developer](personas.md#influential-developer)" persona.
-
-### [Personas](personas.md)
-
-See "[Personas](personas.md)" for the full list of personas we're targeting.
-
-### Web traffic
-
-Web traffic is measured by analyzing [all users](https://www.lovesdata.com/blog/google-analytics-glossary#user) and [new user](https://www.lovesdata.com/blog/google-analytics-glossary#new-user) with traffic sources: [organic](https://theupperranks.com/blog/organic-search/) and [paid/cpc](https://www.lovesdata.com/blog/google-analytics-glossary#cpc). Unless otherwise noted, web traffic refers to web visitors from the United States and Canada. If the web traffic is labeled `geo7` or similar, it refers to the web traffic from the US, Canada, Australia, United Kingdom, Germany, France and Sweden. Also note, that web traffic currently includes the following sites: about.sourcegraph.com, sourcegraph.com, docs.sourcegraph.com, and info.sourcegraph.com.
-
-### Inquiry
-
-An inquiry is a person who has requested information from Sourcegraph for the first time and has provided Sourcegraph with at least an email address. This may be online via a web form, or in person, for example, at a conference. Someone may become an inquiry and a [MQL](#mql) at the same time, or may take months between converting from an inquiry to a [MQL](#mql).
-
-### Interesting inquiry
-
-Any inquiry that works for a company with > $50M in revenue, or specifies that there are 250+ software engineers at their company will be highlighted as 'interesting'.
-
-### MQL
-
-A marketing qualified lead (MQL) is any of:
-
-- A person who submits a demo or contact form AND whose company has >= 250 engineers
-- A person who sets up a new Sourcegraph instance AND whose company has >= 2,000 employees
-- A person downloads an eBook or white paper AND whose company has >= 500 engineers and/or >= 2,000 employees
-
-[Specific email domains](https://app.hubspot.com/property-settings/2762526/properties?action=edit&property=inbound_scoring_qualification&search=inbou&type=0-1) are excluded.
-
-### [SQL](../sales/index.md#lead) (sales-qualified lead)
-
-See "[Lead](../sales/index.md#lead)" in the sales team handbook section.
