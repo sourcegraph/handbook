@@ -62,7 +62,8 @@ Iterations start **every other Monday**.
   - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
   - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
   - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
-  - R.N, full-stack engineer, joining December 14th
+  - R.N, full-stack engineer, joining 2020-12-14
+  - C.C., backend engineer, joining 2021-01-04
 
 ## On-call
 
