@@ -93,6 +93,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Clear goals are outlined for improvements to search documentation, to be completed next iteration.
 - **Work log:**
     - 2020-11-09: Planning and reading up on Divio's documentation system. Outcome has been changed to complete planning this iteration, and work on actually improving docs for next iteration.
+    - 2020-11-13: No update. I was focused on code monitoring, and this was bumped to a lower priority.
 
 ## 2020-10-19 to 2020-10-30
 
