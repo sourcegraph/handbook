@@ -1,10 +1,10 @@
-# Internal Tools
+# Tech Operations Manager
 
-We are looking for an engineer and operator to build and improve our internal tools. As we grow our team and customer base rapidly, we need your help building, upgrading, and maintaining the internal systems that are straining to keep up!
+We are looking for an leader, an engineer, and an operator to build and improve our Tech Operations team. As we grow our team and customer base rapidly, we need your help building, upgrading, and maintaining the internal applications that are straining to keep up!
 
 ## Responsibilities
 
-You will help accelerate our team by owning a wide range of internal systems and processes. Example projects include:
+You will help accelerate our team by owning a wide range of internal applications and processes in the short-term, and you will build a team to own these capabilities in the long-term. Example projects that the Tech Ops team would own include:
 
 ### Evaluating and implementing single sign-on software to make onboarding smoother.
 
@@ -20,12 +20,13 @@ We use a number of enterprise-grade SaaS tools internally, including our CRM (Sa
 
 ### Connecting and automating parts of our user journey.
 
-You will help develop connections between the systems that our users interact with. For example, connecting our product to our billing systems so customers can renew automatically, connecting our user satisfaction surveys to our marketing tools, and [automating the quote-to-cash experience](https://about.sourcegraph.com/handbook/sales/sales_to_ce_handover#finance-and-operations-responsibilities) for our sales team.
+You will help develop connections between the applications that our users interact with. For example, connecting our product to our billing systems so customers can renew automatically, connecting our user satisfaction surveys to our marketing tools, and [automating the quote-to-cash experience](https://about.sourcegraph.com/handbook/sales/sales_to_ce_handover#finance-and-operations-responsibilities) for our sales team.
 
 ## Qualifications
 
 - Excitement for software development and [our mission to make it so that everyone can code](https://about.sourcegraph.com/company/strategy).
 - Experience working in implementation, engineering, IT, training, or other roles with internal "customers."
+- 2+ years as a team leader or manager.
 - Some software development experience, with an interest in learning and doing more.
 - Be a self-starter. We are a small team, and we are counting on you to help identify and prioritize where you can have the greatest impact.
 

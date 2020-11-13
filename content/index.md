@@ -61,4 +61,4 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Sales strategy & operations](ops/sales-ops/index.md)
 - [Finance & accounting](ops/finance/index.md)
 - [Legal](ops/legal/index.md)
-- [Internal tools](ops/internal-tools/index.md)
+- [Tech operations](ops/tech-ops/index.md)

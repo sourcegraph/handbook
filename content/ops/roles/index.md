@@ -4,9 +4,9 @@
 
 - [Director of Business Operations & Strategy](./director_business_operations.md)
 
-## [Internal Tools](../internal-tools/index.md)
+## [Tech Operations](../tech-ops/index.md)
 
-- [Internal Tools](./internal_tools.md)
+- [Tech Operations Manager](./tech_operations_manager.md)
 
 ## [Legal](../legal/index.md)
 

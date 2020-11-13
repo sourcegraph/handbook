@@ -1,6 +1,6 @@
 # Sales strategy & operations
 
-The Sales strategy & operations (SalesOps) team is responsible for helping our Sales, Customer Engineering, and all go-to-market (GTM) teams sell and serve our customers better.
+The Sales strategy & operations (Sales Ops) team is responsible for helping our Sales, Customer Engineering, and all go-to-market (GTM) teams sell and serve our customers better.
 
 - [Onboarding](onboarding.md)
 

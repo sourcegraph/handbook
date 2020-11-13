@@ -20,7 +20,7 @@ The operations team represents multiple functional areas, and empowers every oth
 - [Sales strategy & operations](sales-ops/index.md)
 - [Finance & accounting](finance/index.md)
 - [Legal](legal/index.md)
-- [Internal tools](internal-tools/index.md)
+- [Tech operations](tech-ops/index.md)
 
 ### Roles
 
