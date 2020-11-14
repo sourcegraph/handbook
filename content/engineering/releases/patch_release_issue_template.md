@@ -14,6 +14,12 @@ Arguments:
 
 - [ ] TODO: Add commit links and their associated patch request issues here
 
+---
+
+**Note:** All `yarn run release ...` commands should be run from folder `dev/release`.
+
+**Note:** All `yarn run test ...` commands should be run from folder `web`.
+
 ## Setup
 
 - [ ] Ensure release configuration in `dev/release/config.json` on `main` is up to date with the parameters for the current release.
@@ -76,11 +82,6 @@ Arguments:
 <!-- Keep in sync with release_issue_template's "Release" section -->
 
 - [ ] From the [release campaign](https://k8s.sgdev.org/organizations/sourcegraph/campaigns), merge the release-publishing PRs created previously.
-  - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph), also:
-    - [ ] Tag the `v$MAJOR.$MINOR.0` release at the most recent commit on the `v$MAJOR.$MINOR` branch.
-        ```sh
-        VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
-        ```
   - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
     - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
 - [ ] Announce that the release is live:
@@ -91,7 +92,7 @@ Arguments:
 ## Post-release
 
 - [ ] Open a PR to update `dev/release/config.json` with the parameters for the current release.
-- [ ] Run `yarn build` to rebuild the release script (necessary, because `config.json` is compiled in).
+- [ ] Run `yarn build` to rebuild the release script.
 - [ ] Close this issue.
 
-*Note*: If another patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md) be filled out first.
+**Note:** If another patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md) be filled out and approved first.

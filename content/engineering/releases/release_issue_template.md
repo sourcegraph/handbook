@@ -11,9 +11,14 @@ Arguments:
 - $ONE_WORKING_DAY_BEFORE_RELEASE
 -->
 
-# $MAJOR.$MINOR Release ($RELEASE_DATE)
+# $MAJOR.$MINOR Release
+
+This release is scheduled for $RELEASE_DATE.
+
+---
 
 **Note:** All `yarn run release ...` commands should be run from folder `dev/release`.
+
 **Note:** All `yarn run test ...` commands should be run from folder `web`.
 
 ## Setup
@@ -111,7 +116,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 
 - [ ] Notify the next release captain that they are on duty for the next release. They should complete the steps in this section.
 - [ ] Open a PR to update `dev/release/config.json` with the parameters for the current release.
-- [ ] Run `yarn build` to rebuild the release script (necessary, because `config.json` is compiled in).
+- [ ] Run `yarn build` to rebuild the release script.
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
   ```sh
   # Add calendar events and reminders for key dates in the release cycle
@@ -121,6 +126,5 @@ Once there are no more release-blocking issues (as reported by the `release:stat
   yarn run release tracking:release-issue
   ```
 - [ ] Close this issue.
-- [ ] Close the milestone.
 
-*Note*: If a patch release are requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.1) be filled out first.
+**Note:** If a patch release are requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.1%3A+) be filled out and approved first.
