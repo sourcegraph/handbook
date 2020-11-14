@@ -16,6 +16,12 @@
     - Hiring managers are encouraged to experiment to learn how to improve their hiring process.
     - The handbook is kept up-to-date with our learnings and current norms.
     
+## How recruiting interfaces with hiring managers
+
+For any members of a hiring team, please see [this page](https://about.sourcegraph.com/handbook/people-ops/hiring/how_recruiting_interfaces_with_hiring_managers.md) for a breakdown of each step in the hiring process. 
+
+The page will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
+    
 ## Recruiting tools
 
 We currently use Lever as our applicant tracking system. [guide coming soon]
@@ -72,10 +78,6 @@ Benefits of having a referral complete the application:
 
 - Provides information that the hiring team think is important for the role that may not have been represented in their resume or referral notes.
 - Allows the hiring team to have a deeper conversation about who they are, what they are looking for, and about their experience.
-
-## Hiring flow
-
-For any members of a hiring team, please see [this doc](https://docs.google.com/document/d/185BkGzfCp2G50mgXFA5R5TA_w3zHWWxO8CWvDMQT0bU/edit?ts=5f9aeea7#) for a breakdown of each step in the hiring process. The documents will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
 
 ## [Interview process](interview_process.md)
 
