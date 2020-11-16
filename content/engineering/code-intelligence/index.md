@@ -143,6 +143,10 @@ Temporary responsibilities until O.C. starts:
 
 ## Growth plan
 
-_Updated 2020-09-22_
+_Updated 2020-11-13_
 
-We are also interested to hire an engineer who is capable of working on our web application as well as our backend systems. Apply here: [Software Engineer - Full Stack](https://about.sourcegraph.com/handbook/engineering/hiring/software-engineer-full-stack)
+We are looking to grow this team a lot to increase our ability to provide precise code intelligence for many languages at massive scale.
+
+If you are interested in the scale portion, please apply to [Software Engineer - Backend](../hiring/software-engineer-backend.md).
+
+If you are interested to help us expand our language support, email nick@sourcegraph.com with how you think you can help.

@@ -119,7 +119,7 @@ By default, members of the team will provide a brief update about the goals they
 
 _Updated 2020-08-05_
 
-We are growing the Cloud team by hiring both [Full stack Engineers](../hiring/software-engineer-full-stack.md) and [Backend Engineers](../hiring/software-engineer-backend.md).
+We are growing the Cloud team by hiring both [Frontend Engineers](../hiring/software-engineer-frontend.md) and [Backend Engineers](../hiring/software-engineer-backend.md).
 
 There continues to be a need for work to happen on other areas of our backend infrastructure and the Cloud team is the best team to own that kind of work today. When this Cloud team reaches 6 engineers, we plan to split the team in half to form a new [Backend Infrastructure team](../backend-infrastructure/index.md). When this happens, Tomás will be the manager of both teams and will look to identify new managers so we are able to continue growing both teams.
 

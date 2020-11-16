@@ -43,16 +43,6 @@ We designed this exercise to measure your understanding of HTTP requests, concur
 
 If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
 
-## Full stack coding exercise
-
-This exercise is designed to give you an opportunity to demonstrate your skills building a web application end-to-end.
-
-- You will choose a three hour timeframe to independently work on the exercise. You can choose any day and time that works for you; there are no scheduling constraints.
-- At your chosen date and time, we will send you detailed instructions. We provide you with an easy to run Postgres database pre-loaded with data. Your goal is to build a few features on top of it.
-- You should have docker-compose installed on your computer.
-- You can look up documentation on the internet while you are coding.
-- After three hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
-
 ## FAQ
 
 ### Why do you do a coding exercise?
