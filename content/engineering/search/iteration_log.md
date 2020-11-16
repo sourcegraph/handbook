@@ -31,6 +31,13 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+### Documentation clean up and content
+
+- **Owner(s):** Farhan
+- **Outcomes:**
+    - Clean up all existing search docs so each doc has single responsibility and is in the correct Tutorial/Explanation/How-to/Reference category.
+    - More TBD. 
+
 ### $GOAL_OR_THEME
 
 - **Owner(s):** $OWNER
