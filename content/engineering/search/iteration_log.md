@@ -19,6 +19,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Owner(s):** Keegan, Juliana, Rob
 - **Outcomes:**
     - The search results page can consume the streaming data directly as it comes in, without the need to convert to GraphQL types
+    - Fully functioning progress API from the backend. This will allow us to have the "full" streaming experience with diff/commit search.
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
     
@@ -76,6 +77,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2020-11-05: Progress API in webapp PoC done to unblock UI work.
     - 2020-11-06: Initial bootstrapping for streaming search progress UI is underway ([#15549](https://github.com/sourcegraph/sourcegraph/pull/15549))
     - 2020-11-13: Streaming progress UI (with fake data) is compelte ([#15668](https://github.com/sourcegraph/sourcegraph/pull/15668))
+    - 2020-11-13: Streaming for diff/commit working. I am working through some bugs around unexpected buffering happening, but will share a demo video soon.
 
 ### Featureful frontend query parser, part 2
 
