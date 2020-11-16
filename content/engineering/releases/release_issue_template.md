@@ -107,7 +107,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
   ```sh
   yarn run release release:add-to-campaign sourcegraph/about <pr-number>
   ```
-- [ ] Announce that the release is live:
+- [ ] Finalize and announce that the release is live:
   ```sh
   yarn run release release:close
   ```

@@ -12,7 +12,7 @@ Arguments:
 
 **Attention developers:** to get your commits in `main` included in this patch release, please file a [patch request](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.$PATCH%3A+) for review. Only check off items if the commit have been cherry-picked into the `$MAJOR.$MINOR` branch by the release captain.
 
-- [ ] TODO: Add commit links and their associated patch request issues here
+- [ ] TODO: Add [patch request issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Apatch-release-request) and their associated commits on `main` here
 
 ---
 
@@ -27,27 +27,32 @@ Arguments:
 
 ## Prepare release
 
-- [ ] Ensure that all the commits listed above has been cherry-picked to [`$MAJOR.$MINOR`](https://github.com/sourcegraph/sourcegraph/tree/$MAJOR.$MINOR) and make sure CI passes.
+Ensure all patch changes are included:
+
+- [ ] Ensure that all [patch request issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Apatch-release-request) are accounted for, and that the commits listed above has been cherry-picked to [`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/sourcegraph/tree/$MAJOR.$MINOR), and ensure CI passes on the release branch.
     ```
     git checkout $MAJOR.$MINOR
     git pull
     git cherry-pick <commit0> <commit1> ... # all relevant commits from the main branch
     git push $MAJOR.$MINOR
     ```
-- [ ] Cherry-pick relevant [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph) configuration changes from `master` onto the `$MAJOR.$MINOR` release branch, and ensure CI passes.
+- [ ] Cherry-pick relevant [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph) configuration changes from `master` to the [`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/deploy-sourcegraph/tree/$MAJOR.$MINOR), and ensure CI passes on the release branch.
     ```
     git checkout $MAJOR.$MINOR
     git pull
     git cherry-pick <commit0> <commit1> ... # all relevant commits from the master branch
     git push $MAJOR.$MINOR
     ```
-- [ ] Cherry-pick relevant [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker) configuration changes from `master` onto the `$MAJOR.$MINOR` release branch, and ensure CI passes.
+- [ ] Cherry-pick relevant [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker) configuration changes from `master` to the [`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/deploy-sourcegraph-docker/tree/$MAJOR.$MINOR), and ensure CI passes on the release branch.
     ```
     git checkout $MAJOR.$MINOR
     git pull
     git cherry-pick <commit0> <commit1> ... # all relevant commits from the master branch
     git push $MAJOR.$MINOR
     ```
+
+Create and test release candidates:
+
 - [ ] Push a release candidate tag:
     ```
     yarn run release release-candidate:create 1
@@ -84,7 +89,7 @@ Arguments:
 - [ ] From the [release campaign](https://k8s.sgdev.org/organizations/sourcegraph/campaigns), merge the release-publishing PRs created previously.
   - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
     - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
-- [ ] Announce that the release is live:
+- [ ] Finalize and announce that the release is live:
   ```sh
   yarn run release release:close
   ```
