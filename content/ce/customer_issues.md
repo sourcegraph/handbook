@@ -6,16 +6,14 @@ Read [the support overview](support.md) before filing an issue.
 
 We maintain two issue trackers:
 
-1. [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph/issues) for public issues (where any private prospect or customer information must be redacted)
-1. [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) for private issues that only Sourcegraph teammates can see
+1. [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) for private issues that affect a particular customer.
+1. [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph/issues) for public issues affecting the general product.
 
 Support tickets should be translated to GitHub issues when they require an Engineering team to be involved. See the [CE to engineering issue handover documentation](ce_to_eng_handover.md) for more.
 
-File a new issue in the [private issue tracker](https://github.com/sourcegraph/customer/issues/new) if you need to post private information (such as screenshots, logs, or conversation transcripts) or in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose) if the issue can be generalized. 
+File new customer issues in the [private customer issue tracker](https://github.com/sourcegraph/customer/issues/new), providing all information required for troubleshooting (such as screenshots, logs, or conversation transcripts) and labelling it with `customer/$name`. Link to the appropriate Jira Service Desk ticket and link to the reporting company's profile in [HubSpot](#find-the-unique-company-url).
 
-Post in the public tracker by default, but be sure to remove company names and any private information!
-
-Link to the appropriate Jira Service Desk ticket and link to the reporting company's profile in [HubSpot](#find-the-unique-company-url).
+If it turns our to be a general issue affecting multiple deployments, create an issue in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose). The issue must not include any private information and it should link to the related customer issues in its description.
 
 ## Find a company's HubSpot URL
 
@@ -30,6 +28,7 @@ It is encouraged to add a browser search shortcut for this to make it quick and 
 1. Visit chrome://settings/searchEngines
 1. Click **Add**
 1. Enter:
-  - **Search Engine**: HubSpot search
-  - **Keyword**: `hs`
-  - **URL**: https://app.hubspot.com/contacts/2762526/companies/list/view/all/?query=%s
+
+- **Search Engine**: HubSpot search
+- **Keyword**: `hs`
+- **URL**: https://app.hubspot.com/contacts/2762526/companies/list/view/all/?query=%s
