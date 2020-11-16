@@ -14,6 +14,22 @@ This document contains the goals and work log for the search team's [2-week iter
     
 ## 2020-11-16 to 2020-11-27
 
+### Streaming search
+
+- **Owner(s):** Keegan, Juliana, Rob
+- **Outcomes:**
+    - The search results page can consume the streaming data directly as it comes in, without the need to convert to GraphQL types
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+    
+### Code monitoring
+
+- **Owner(s):** Stefan, Juliana, Farhan
+- **Outcomes:**
+    - Code monitor CRUD: users are able to list and edit (non-functioning) monitors
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ### $GOAL_OR_THEME
 
 - **Owner(s):** $OWNER
