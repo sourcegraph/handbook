@@ -19,36 +19,13 @@ Our long term vision is to build an organization that attracts and retains the b
 
 When a goal is "done", move it to our [work log](worklog.md)
 
-### Short term (~1-2 months)
-
-#### Engineering team goals
-
-- Problem: [We decided to change how we think about goals](https://github.com/sourcegraph/about/pull/1177).
-- Plan: Since we are no longer doing OKRs, we need each team to create an initial set of [goals](../../../company/goals.md) to communicate what they are working on and why. This is done when each team has documented an initial set of goals that Nick and Christina approve.
-- Owner: Each EM owns this for their own team and should communicate the status of the goal setting process for their team in the handbook itself.
-- Status: [In progress](../../../company/goals.md#engineering).
-
-### Medium term (~3-6 months)
-
 #### Publicly documented compensation bands
 
 - Problem: When we were smaller, it was easy to contain consistent compensation across the entire team because there were fewer people to coordinate with. Now that we are bigger and have more engineering managers making offers and compensation decisions, we need to have clearly documented compensation bands so we can maintain consistency while federating decision making. We want to make this public because it will help candidates understand what they can expect before they even apply. This is a better candidate experience and it avoids rare but real situations where a candidate goes through our interview process only to discover that their compensation expectations don't fit into our bands.
 - Owner: Nick
 - Plan:
-  1. Update our benchmark data and set bands to be shared with engineering managers internally to help them make offers and review/adjust compensation for their teams.
+  1. Update our benchmark data and set bands to be shared with engineering managers internally to help them make offers and review/adjust compensation for their teams. WIP: https://docs.google.com/spreadsheets/d/1ywMdWxL8jCpGRXvEIY-bCVD4d4OZNRvz6-Gn4Spg4XU/edit#gid=292189111
   2. Update the [compensation documentation in our handbook](../../people-ops/compensation.md#ranges) so candidates and current teammates know what our bands are.
-- Status: [First milestone is in progress](https://docs.google.com/spreadsheets/d/1iQsfchsnY5CxKSZfcnazpnJ1uSL6-gMuEI-wgsfLq3I/edit#gid=1795648823).
-
-#### Publicly documented interview modules
-
-- Problem: Any candidate who has interviewed at multiple companies knows that interview processes are hit or miss. We have spent time and effort to ensure that we have a great interview process, and candidates regularly tell us that we do after going through it. Right now, candidates don't know what to expect out of our interview process beyond the title of each interview module and a brief description.
-- Plan: We want candidates to know up front as much as possible about each interview, including exact questions that we will be asking them and how we will be evaluating their answers (as much as possible). Sharing this information would have many benefits:
-  - It shows candidates that our process is reasonable, fair, and challenging.
-  - It allows candidates to prepare and present their best selves.
-  - It forces us to think of better interview questions that are [unhackable](http://www.paulgraham.com/lesson.html).
-  - It makes our interview process more accessible to candidates who would be disadvantaged in a live interview (for example, people with hearing or speech disabilities) because it would be easy to accept written answers to our documented questions.
-- Owner: TBD.
-- Status: Not started. Needs more discussion.
 
 ## Communication
 
