@@ -68,6 +68,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - As before, we need a proper frontend query parser for syntax highlighting, hover hints, and consistent UI state (toggle activation) of search expressions and future query syntax extension.  All of that couldn't fit into the previous iteration: In this iteration I will merge the code we need to unblock shipping search expressions (first bullet in [14016](https://github.com/sourcegraph/sourcegraph/issues/14016)). Time allowing I'll add some contextual regex/structural highlighting, since I prototyped it already.
 - **Work log:**
     - 2020-11-08: Finished the base parser code that unblocks the part for query-checking complex expressions in the frontend. There are still bits to refine, but it's complete enough to use for the checks we need. I spent some time adding regex/structural query syntax highlighting and hovers in a prototype branch, and will incrementally merge this work into the main branch.
+    - 2020-11-15: Finished the validation check that uses scanner/parser code to drive better UI. I'm drafted changes that solve the toggle issue and query mangling (see [#13958](https://github.com/sourcegraph/sourcegraph/issues/13958). I stopped just short of putting up these PRs at the end of the week, because I discovered that our logic for transforming/parsing queries is spread out and I need to restructure this so that it isn't so tricky to follow how we manipulate queries and avoid re-scanning/re-parsing things. I also committed basic regex highlighting to internal Sourcegraph org users--so far so good.
 
 ### Quality-of-life search code improvements, continued
 
@@ -76,6 +77,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - This is a catch-all goal for improving the quality of our search code (bug fixes and refactors). One concrete goal is to fix a nasty commit search issue [#13313](https://github.com/sourcegraph/sourcegraph/issues/13313) that I have a WIP branch fix for. There's also a structural search/archive copying deficiency I want/need to look into [#14619](https://github.com/sourcegraph/sourcegraph/issues/14619#issuecomment-720910776).
 - **Work log:**
     - 2020-11-08: Will be spending time this week to resolve slow structural search/archive copying. Fixed two minor bugs in frontend parsing/hovers [#15410](https://github.com/sourcegraph/sourcegraph/pull/15410), [#15367](https://github.com/sourcegraph/sourcegraph/pull/15367).
+    - 2020-11-15: Discussed how to go about rearchitecting code paths for structural search and settled on a direction in https://github.com/sourcegraph/sourcegraph/issues/14619#issuecomment-726653340. Unfortunately I didn't make progress with a solution I can ship yet. I decided not to tackle the commit issue because the commit code was touched heavily for streaming. I spent some time debugging a possible `repohasfile` issue for the release, but I'm not sure it's resolved yet [#15178](https://github.com/sourcegraph/sourcegraph/issues/15178).
 
 ### Improve tracking of search onboarding on enterprise instances
 - **Owner(s):** @farhan
