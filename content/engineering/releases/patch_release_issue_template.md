@@ -22,7 +22,7 @@ Arguments:
 
 ## Setup
 
-- [ ] Ensure release configuration in `dev/release/config.json` on `main` is up to date with the parameters for the current release.
+- [ ] Ensure release configuration in [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) on `main` is up to date with the parameters for the current release.
 - [ ] Ensure the latest version of the release tooling has been built before each step using `yarn run build` in `dev/release`.
 
 ## Prepare release
@@ -91,7 +91,7 @@ Arguments:
 
 ## Post-release
 
-- [ ] Open a PR to update `dev/release/config.json` with the parameters for the current release.
+- [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the current release.
 - [ ] Run `yarn build` to rebuild the release script.
 - [ ] Close this issue.
 

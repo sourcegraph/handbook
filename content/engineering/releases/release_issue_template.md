@@ -23,7 +23,7 @@ This release is scheduled for $RELEASE_DATE.
 
 ## Setup
 
-- [ ] Ensure release configuration in `dev/release/config.json` on `main` is up to date with the parameters for the current release.
+- [ ] Ensure release configuration in [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) on `main` is up to date with the parameters for the current release.
 - [ ] Ensure the latest version of the release tooling has been built before each step using `yarn run build` in `dev/release`.
 
 ## $FIVE_WORKING_DAYS_BEFORE_RELEASE (5 work days before release): Prep for branch cut
@@ -115,7 +115,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 ### Post-release
 
 - [ ] Notify the next release captain that they are on duty for the next release. They should complete the steps in this section.
-- [ ] Open a PR to update `dev/release/config.json` with the parameters for the current release.
+- [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the current release.
 - [ ] Run `yarn build` to rebuild the release script.
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
   ```sh
