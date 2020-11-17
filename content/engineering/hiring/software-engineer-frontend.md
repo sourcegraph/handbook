@@ -2,15 +2,20 @@
 
 We are looking for frontend engineers who know how to build intuitive user experiences to make the power of [Universal Code Search](https://about.sourcegraph.com/product) accessible to everyone. You will have a lot of ownership to solve tough technical and UX problems in key areas of our web application and browser extensions (e.g. code search, code navigation, campaigns).
 
+The following engineering teams are currently hiring for this role:
+
+1. [Web](../web/index.md#growth-plan) - all experience levels
+2. [Cloud](../cloud/index.md#growth-plan) - senior experience level
+
 ## About you
 
 - You have practice at creating high quality software balanced with a pragmatic understanding of how to make appropriate tradeoffs (e.g. cut scope) to ship quickly and iterate when necessary.
 - You communicate clearly and empathetically, especially in writing and documentation.
-- You are [high agency](../../../company/values.md#high-agency).
+- You share our [values](../../../company/values.md), and work in accordance with those values.
 
 ## Your responsibilities
 
-- Work closely with a dedicated designer and PM to implement high-quality UIs.
+- Work closely with a dedicated designer and PM to implement high-quality UIs using React, SCSS and TypeScript.
 - Actively participate in the planning of the features we're going to build, e.g. by writing and reviewing RFCs.
 - Build UIs you will love to use yourself as a developer.
 - Ensure UI/UX consistency in our app.
@@ -33,7 +38,9 @@ We are looking for frontend engineers who know how to build intuitive user exper
 - Experience building browser extensions (e.g. Chrome, Firefox, Safari).
 - Large and/or numerous contributions to open source projects.
 - Published blog posts and/or tech talks about your work.
-- Experience working on small high-performing teams, preferably tech startups.
+- Experience working on small high-performing product teams, preferably tech startups.
+- Experience working with a global or otherwise multicultural team.
+- Developer platform/tool industry experience.
 
 ## Learn more about us
 
@@ -46,15 +53,18 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 ## Interview process
 
 1. You [apply here](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7/apply).
-1. We set up a 30-minute call to learn more about what you are looking for, tell you about Sourcegraph, and answer any questions that you have.
-1. You complete a 3-hour [exercise project](software-engineer-coding-exercise.md#frontend-coding-exercise) that we designed to test the technical qualifications listed above.
-1. We review your submission and schedule a **1 hour follow-up call** to discuss it.
-1. We schedule additional interviews across multiple days.
-   - 1h **Technical experience:** We ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
-   - 1h **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
-   - 30m **VP Engineering**
-   - 30m **CTO**
-   - 30m **CEO**
+1. The **Hiring Manager** reviews all the information you provided on your application to determine if you meet our qualifications for this role (if there is another open role we think you would be better qualified for, we will let you know).
+1. A **Recruiter** sets up a 30 minute call to learn more about what you are looking for, tell you about Sourcegraph, and answer any questions that you have.
+1. We set up a 1 hour interview with the **Hiring Manager**, who will tell you more about the role in the team. They will ask you about your past work and accomplishments and assess your suitability for the role.
+1. You complete a 3 hour [coding excercise](software-engineer-coding-exercise.md#frontend-coding-exercise) that we designed to test your technical ability and the responsibilities of the role as [listed above](#your-responsibilities).
+   - _Note: while we do not disqualify candidates who do not have React and TypeScript experience from taking the excercise, you will be required to use these for the excercise._
+1. An **Engineer** and a **Designer** will review and grade your submission.
+1. We schedule a **1 hour follow-up call** to discuss your submission and ask any questions we might have to clarify our understanding of your technical capability and sutiability for the role.
+1. We schedule the following additional interviews, in no particular order, across multiple days:
+   - 1 hour **Team collaboration:** We ask you about how you work and communicate in a team setting, how you handle tricky situations, decisions you made, and what you'd do differently today.
+   - 30 minutes **VP Engineering**
+   - 30 minutes **CTO**
+   - 30 minutes **CEO**
 1. We check your references.
 1. We make you a job offer.
 
@@ -62,4 +72,4 @@ We want to ensure Sourcegraph is an environment that suits your working style an
 
 **[Click here to apply](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7/apply)**
 
-Go back to the [careers page](../../../company/careers.md) for all open positions.
+Go back to the [careers page](../../../company/careers.md) for all open positions or read more about our [hiring processes](../../people-ops/hiring).
