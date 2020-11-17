@@ -38,11 +38,10 @@ This document contains the goals and work log for the search team's [2-week iter
     - Clean up all existing search docs so each doc has single responsibility and is in the correct Tutorial/Explanation/How-to/Reference category.
     - More TBD. 
 
-### $GOAL_OR_THEME
-
-- **Owner(s):** $OWNER
+### Ship Search Expressions and Query Highlighting, Hovers
+- **Owner(s):** Rijnard
 - **Outcomes:**
-    - $DESIRED_OUTCOME
+    - The frontend work is in place to ship search expressions. I will be tying it together and adding docs. I will also activate query syntax highlighting and hovers for our next release, and will make progress on that this iteration.
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
