@@ -91,7 +91,7 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 
 ## Growth plan
 
-We are growing the web team by hiring [frontend engineers](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-frontend.md). When this team gets big enough, we expect to split it into two teams with the following ownership areas:
+We are growing the web team by hiring [frontend engineers](../hiring/software-engineer-frontend.md). When this team gets big enough, we expect to split it into two teams with the following ownership areas:
 
 - Web infrastructure
   - The **Sourcegraph web application and codebase** is clean, cohesive, stable and performant. It's easy for all teammates to onboard and contribute to the web application.
