@@ -6,7 +6,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 
 ### CE-specific onboarding during weeks 1 and 2
 
-- Get familiar with our systems and processes (NOTE: Request access/licenses to these tools in #internal-it-tools):
+- Get familiar with our systems and processes (NOTE: Request access/licenses to these tools in #it-tech-ops):
   - [GitHub](https://github.com/) (Provide GitHub username and request access to Sourcegraph repo) 
   - [Salesforce](https://sourcegraph2020.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fsourcegraph2020.lightning.force.com%252Flightning%252Fpage%252Fhome)
   - [HubSpot](https://app.hubspot.com/contacts/2762526/deals/board/view/all/)
@@ -41,7 +41,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 - Set up introductory calls with each Engineering team manager (use https://about.sourcegraph.com/company/team to help you find who that would include), Sales, Product, and Marketing team members
 - Read our [CE handbook pages](index.md)
   - [Support](support.md)
-- Set up a Sourcegraph.com account and request access to become a site-admin in the #internal-it-tools Slack channel. Once you have access, familiarize yourself with the site-admin page (used to manage customer accounts, license keys, etc.).
+- Set up a Sourcegraph.com account and request access to become a site-admin in the #it-tech-ops Slack channel. Once you have access, familiarize yourself with the site-admin page (used to manage customer accounts, license keys, etc.).
 - Obtain access to the Sourcegraph Dropbox team folder. You can request this in the #internal-it-tools Slack channel.
   - Get access to the "Customer contracts" folder as well.
 - Ask for a license to LinkedIn Sales Navigator tool in #sales channel
