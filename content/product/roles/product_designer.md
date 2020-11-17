@@ -54,7 +54,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 1. You [apply here](https://jobs.lever.co/sourcegraph/fa7d3807-ae4c-4a35-9401-56dad0958227/apply).
 1. **Intro calls**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
-   - [30 min] Recruiter call
    - [30 min] [HM intro call](./interviews/hm_intro_call.md) with [Christina Forney](../../../company/team/index.md#christina-forney-she-her) (VP Product)
 1. [1 hr] **[Portfolio review](./interviews/pd_portfolio_review.md)**: You share a case study detailing a specific project that is applicable and impactful from your portfolio.
    - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)

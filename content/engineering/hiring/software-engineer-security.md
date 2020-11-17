@@ -40,11 +40,11 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
           - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
    - 1h **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
       - Will interview with 2 of the following:
-         - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
          - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
          - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
-         - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
          - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
+         - [María Craig](../../../company/team/index.md#maría-craig-she-her)
+         - [Alicja Suska](../../../company/team/index.mdalicja-suska-she-her)
          - If we have at least one of the above, the second interviewer can be [any engineer on the security team](../security/index.md#members) or any engineer mentioned in this document.
    - 30m **VP Engineering**
    - 30m **CTO**

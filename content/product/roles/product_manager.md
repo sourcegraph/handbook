@@ -52,25 +52,16 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 1. You [apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296/apply).
 1. **Intro calls**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
-   - [30 min] Recruiter call
    - [30 min] [HM intro call](./interviews/hm_intro_call.md) with [Christina Forney](../../../company/team/index.md#christina-forney-she-her) (VP Product)
 1. [~1-2 hrs] **[Async writing project](./interviews/pm_rfc_project.md)**: a writing project to see how you communicate and think about product problems.
    - Reviewers:
-      - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
-      - Plus one of the following:
-         - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
-         - [María Craig](../../../company/team/index.md#maría-craig-she-her)
-         - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him)
-   - When the RFC is recieved:
-      - Make a copy of the RFC there is a Sourcegraph owned version of it.
-      - Set the sharing permissions to "Anyone at Sourcegraph with the link".
-      - Add the Google Doc link as a note on the candidate's Lever profile so anyone on the team can easily find it.
+      - Two members from the [product team](../index.md#team)
 1. [1 hr] **Product interview**: We review your writing project and dive deep on how you work as a product manager. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/product.md)
    - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
    - Plus one of the following:
-      - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
       - [María Craig](../../../company/team/index.md#maría-craig-she-her)
       - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him)
+      - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
 1. **HM action**: Add a note to the candidate's Lever profile with a short summary of the candidate and possible ownership areas and why that would be a good fit.
 1. Interviews
    - [1 hr] **Working with customers and data**: The biz ops and customer engineering teams talk with you about how you work with customers to gather feedback. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/customers-and-data.md)

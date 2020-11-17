@@ -52,11 +52,11 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
         - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
    - 1h **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
      - Will interview with the Product Manager of the team you expressed preference for and 1 other of:
-        - [Christina Forney](../../../company/team/index.md#christina-forney-she-her)
         - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
         - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
-        - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her)
         - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
+        - [María Craig](../../../company/team/index.md#maría-craig-she-her)
+        - [Alicja Suska](../../../company/team/index.mdalicja-suska-she-her)
    - 30m **VP Engineering**
    - 30m **CTO**
    - 30m **CEO**

@@ -8,7 +8,6 @@ The product team consists of the product managers, product designers, and techni
 
 - [Christina Forney](../../../company/team/index.md#christina-forney-she-her), VP Product
 - [Product management](product_management/index.md)
-  - [Pooja Jain](../../../company/team/index.md#pooja-jain-she-her) - ([Search](../engineering/search/index.md))
   - [María Craig](../../../company/team/index.md#maría-craig-she-her) - ([Code intel](../engineering/code-intelligence/index.md))
   - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - ([Web](../engineering/web/index.md))
 - [Product design](design/index.md)
