@@ -1,6 +1,6 @@
 # Engineering manager onboarding
 
-We expect our engineering managers to drive outcomes, so here are the outcomes we expect of you as you are onboarding at Sourcegraph. You have ownership and autonomy on how to achieve these outcomes. If you aren't confident that you are on the right path, just ask for help from your team and/or manager!
+Welcome! We are so excited to have you join the team and we want to do everything we can to ensure you are successful. This document contains all the outcomes that we think will lead to a successful onboarding. As a manager, you have the ownership and autonomy to figure out what the best way to drive these outcomes is. If you aren't confident that you are on the right path, just ask for help from your team and/or manager. Every person is unique, so if you have any feedback along the way on things that aren’t working for you, or if you have ideas about what would be helpful for you to better be successful, please share.
 
 These timings are approximate, and you are welcome to reorder these outcomes based on input you receive and your intuition on your team's specific needs.
 
