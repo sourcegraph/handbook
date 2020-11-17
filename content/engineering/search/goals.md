@@ -1,5 +1,7 @@
 # Search goals and priorities
 
+This page documents the current goals and priorities of the [Search team](index.md). See also our [completed goals](goals_completed.md).
+
 ## Goals
 
 ### Support large scale organizations
@@ -48,8 +50,8 @@ TODO: What does this look like? Describe this in prose using descriptions from t
 
 ## Roadmap
 
-1. 🔄 [Enterprise homepage](#1-enterprise-homepage)
-1. 🔄 [Search tour](#2-search-tour)
+1. ✅ [Enterprise homepage](#1-enterprise-homepage)
+1. ✅ [Search tour](#2-search-tour)
 1. 🔄 [Search expressions](#3-search-expressions)
 1. 🔄 [Scale indexed text search to 500k repositories](#4-scale-indexed-text-search-to-500k-repositories)
 1. 🔄 [Streaming search](#5-streaming-search)
@@ -76,20 +78,6 @@ as a user, I can create a scope of code I want to search across as a list of rep
 See [search roadmap prioritization](https://docs.google.com/document/d/1sUoaF8otA25NMapVcM5yHfP82kFie0NUd3_kL5Rg2Ns/edit) for more details on individual items.
 
 ## Roadmap details
-
-### 1. Enterprise homepage
-
-- **Owner:** Farhan, Juliana
-- **Status:** Completed
-- **Estimated completion**: 3.21
-
-### 2. Search tour
-
-- **Owner:** Farhan
-- **Status:** Completed
-- **Estimated completion**:
-       - ~~3.20~~ 2020-09-22 update: not all bugs found during the initial round of user testing were fixed in 3.20
-       - 3.21
 
 ### 3. Search expressions
 
