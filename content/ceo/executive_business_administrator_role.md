@@ -4,7 +4,7 @@ We're looking for someone to work with our CEO and executive team to help with i
 
 ## Responsibilities
 
-- Support our CEO (primarily) and executive team in US Pacific and Eastern Time Zones.
+- Support our CEO (primarily) and 4 members of the executive team in US Pacific and Eastern Time Zones.
 - Manage complex calendar scheduling with team members, customers, candidates, investors, and others.
 - Draft and review internal and external communications for our CEO.
 - Attend company and executive team meetings, track agenda, and keep notes.
