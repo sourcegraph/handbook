@@ -10,7 +10,7 @@ You'll have to get some basics set up in your first few days:
 - [Configure your GitHub notifications.](../github-notifications/index.md)
 - Join #dev-announce, #dev-chat, and your team's channel on Slack, as well as any other channels you find interesting. [Team chat documentation](../../communication/team_chat.md#engineering)
 - Set up your [local development environment](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next engineer that we hire doesn't run into the same problem).
-- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). Add another entry for our internal instance: `https://sourcegraph.sgdev.org/search?q=%s`. This also ensures you have access to our internal instance.
+- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../deployments/instances.md#k8s-sgdev-org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 - Read through your team's handbook page, to learn about the team and its internal processes.
 - Complete the onboarding for your role:
   - [Software engineer onboarding](software-engineer-onboarding.md)

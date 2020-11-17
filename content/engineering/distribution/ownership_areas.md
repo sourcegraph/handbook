@@ -1,10 +1,9 @@
-## Distribution ownership areas
+# Distribution ownership areas
 
 The following is a breakdown of the areas of Sourcegraph that the Distribution team owns. Distribution team members may also be involved in other areas of Sourcegraph not mentioned here (i.e., you're not restricted just to the distribution team or working on just the areas of ownership assigned below.)
 
 - **Infrastructure**
-  - Sourcegraph.com
-  - Dogfood instances (k8s.sgdev.org, sourcegraph.sgdev.org)
+  - [Sourcegraph.com and other Sourcegraph instances](../deployments/instances.md)
   - 3rd-party services (ghe.sgdev.org)
   - Buildkite, CI pipeline / infrastructure.
   - **Related code**: [infrastructure repository](https://github.com/sourcegraph/infrastructure), [CI pipeline code](https://sourcegraph.com/search?q=repo%3A%5Egithub%5C.com%2Fsourcegraph%2Fsourcegraph%24+file%3Abuild.sh%7C%2Fci%2F+count%3A1000&patternType=literal)

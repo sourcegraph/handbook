@@ -26,7 +26,7 @@ This page records goals completed by the Distribution team historically. See als
 
 #### CI infrastructure that can run Docker containers in a reliable way
 
-Today we cannot release of Sourcegraph, run e2e tests, or perform Docker image tests in an automated fashion because our CI infrastructure does not support running Docker containers (or VMs/Vagrant) in a reliable way. We have a [side-car DIND container in our CI pipeline](https://sourcegraph.sgdev.org/search?q=repo:%5Esourcegraph/infrastructure%24+dind&patternType=literal) but it is flaky, unreliable, and a regular source of issues which has led to us removing automated testing (see [Automatic e2e testing](#automatic-e2e-testing)).
+Today we cannot release of Sourcegraph, run e2e tests, or perform Docker image tests in an automated fashion because our CI infrastructure does not support running Docker containers (or VMs/Vagrant) in a reliable way. We have a [side-car DIND container in our CI pipeline](https://k8s.sgdev.org/search?q=repo:sourcegraph/infrastructure%24+dind&patternType=literal) but it is flaky, unreliable, and a regular source of issues which has led to us removing automated testing (see [Automatic e2e testing](#automatic-e2e-testing)).
 
 - Owner: Dave
 - [Tracking issue](https://github.com/sourcegraph/sourcegraph/issues/6887)

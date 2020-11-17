@@ -2,6 +2,8 @@
 
 ## Sourcegraph.com
 
+To learn more about this deployment, see [instances](./instances.md#sourcegraph-com).
+
 ### Deploying to sourcegraph.com
 
 Every commit to the `release` branch (the default branch) on [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) deploys the Kubernetes YAML in this repository to our dot-com cluster [in CI](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/builds?branch=release) (i.e. if CI is green then the latest config in the `release` branch is deployed).
@@ -66,6 +68,8 @@ See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561
 **Note**: This method only permits read-only access
 
 ## k8s.sgdev.org
+
+To learn more about this deployment, see [instances](./instances.md#k8s-sgdev-org).
 
 ### Manage users in k8s.sgdev.org
 
