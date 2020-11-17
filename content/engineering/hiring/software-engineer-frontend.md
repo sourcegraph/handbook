@@ -72,4 +72,4 @@ We want to ensure Sourcegraph is an environment that suits your working style an
 
 **[Click here to apply](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7/apply)**
 
-Go back to the [careers page](../../../company/careers.md) for all open positions or read more about our [hiring processes](../../people-ops/hiring).
+Go back to the [careers page](../../../company/careers.md) for all open positions or read more about our [hiring processes](../../people-ops/hiring/index.md).
