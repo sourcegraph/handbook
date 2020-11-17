@@ -35,7 +35,3 @@ Your manager should complete the following steps when you join:
   - Ask Christina to send an invite to [Productboard](https://sourcegraph.productboard.com)
   - Ask a member of the Design team to invite as "Viewer" to [Figma](https://figma.com)
   - Ask on `dev-chat` for access to [Percy](https://percy.io/) which we use for visual testing.
-
-## Give feedback on your onboarding
-
-At the end of week 6 at Sourcegraph, your manager will send you a survey to learn more about what worked and what didn't during your onboarding. Take your time to answer this thoughtfully — your answers will be very important to make sure our onboarding process is even better for future hires!

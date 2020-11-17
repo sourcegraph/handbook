@@ -29,3 +29,7 @@ These timings are approximate, and you are welcome to reorder these outcomes bas
   - You conduct the hiring manager screen calls for candidates who would be joining your team.
     - You can pitch Sourcegraph as a whole, the part of the product your team works on, and the team itself.
 - You have read both [Turn the Ship Around and Orbiting the Giant Hairball](../leadership/index.md#book-recommendations) and shared your thoughts with your peer managers during a team sync.
+
+## Give feedback on your onboarding
+
+You should be discussing your onboarding progress every week with your manager. At the end of month 2 at Sourcegraph, spend one hour summarizing your onboarding experience (what has gone well, what was challenging, what would help you moving forward). Write down your thoughts and discuss them in your next 1-1 with your manager. Take your time to answer thoughtfully — your answers will be very important to make sure our onboarding process is even better for future hires!
