@@ -8,7 +8,7 @@ These timings are approximate, and you are welcome to reorder these outcomes bas
 
 - You have completed the [engineering setup](index.md#getting-set-up).
 - You have scheduled recurring 1-1s with your team and ensured that you are invited to (and made the calendar owner of) all of your team's recurring meetings.
-- You have made 1 commit or PR to our codebase (for example: adding yourself to our handbook, onboarding or product docs improvement).
+- You have made 1 commit or PR to our codebase (e.g. a trival bug fix or documentation improvement) so you are familiar with our development flow.
 
 ## Month 1
 
