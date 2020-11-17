@@ -18,7 +18,7 @@
     
 ## How recruiting interfaces with hiring managers
 
-For any members of a hiring team, please see [this page](https://about.sourcegraph.com/handbook/people-ops/hiring/how_recruiting_interfaces_with_hiring_managers.md) for a breakdown of each step in the hiring process. 
+For any members of a hiring team, please see [this page](how_recruiting_interfaces_with_hiring_managers.md) for a breakdown of each step in the hiring process. 
 
 The page will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
     
