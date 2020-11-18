@@ -67,6 +67,7 @@ Only use _we_ and _our_ (as in “our GitHub integration”) in informal documen
 |**C**  |   |   |
 |call site  | callsite  |Per Quinn   |
 |code host   | codehost  |Per Quinn   |
+|code host connection   | external service  |Aligning terminology for clarity. Internally, we differentiate different ownership through the terms "user code host connections, "organization code host connections," and "instance code host connections."   |
 |configuration   | config       | "config" is OK in paths and navigation links|
 |custom search pages|   |Custom search pages allow users to quickly search within a set of curated repositories, with data and interesting searches shared on that page. For example, “use this custom search page for Python 2-to-3 migration code”. When possible, use the more specific names **Search scope page**, a more specific name for a custom search page that describes search pages at /search/scope/SCOPENAME, or **project search page**, a more specific name for a custom search page that describes pages for projects. For example, the Kubernetes project search page to search across all Kubernetes code.|
 |**D**   |   |   |
