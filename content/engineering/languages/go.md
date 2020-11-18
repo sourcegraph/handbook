@@ -123,7 +123,7 @@ var addAllVecs(...)
 
 Pronounceable names:
 
-- Screen readers can read actually read them
+- Screen readers can actually read them
 - Takes less time than pronouncing a string of letters
 
 [You should watch this short YouTube video of @juliaferraioli navigating some Go code with a screenreader.](https://www.youtube.com/watch?v=xwjvufcJK-Q)
