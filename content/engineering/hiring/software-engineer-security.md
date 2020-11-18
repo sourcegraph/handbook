@@ -42,7 +42,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
       - Will interview with 2 of the following:
          - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
          - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
-         - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
          - [María Craig](../../../company/team/index.md#maría-craig-she-her)
          - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
          - If we have at least one of the above, the second interviewer can be [any engineer on the security team](../security/index.md#members) or any engineer mentioned in this document.
