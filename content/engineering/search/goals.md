@@ -4,11 +4,11 @@ This page documents the current goals and priorities of the [Search team](index.
 
 ## Goals
 
-### Support large scale organizations
+### Unlock the core search use cases that bring value to large-scale organizations
 
 Timeline: ~6 months (May 2021)
 
-#### Definition of large scale
+#### Definition of large-scale
 
 Organizations with:
 
