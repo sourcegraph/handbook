@@ -1,6 +1,6 @@
 # Code intelligence team
 
-<img align="right" src="https://sourcegraphstatic.com/docs/images/code-intelligence/code-intel-team%3Dlogo.png" height="350"></img>
+<img align="right" src="https://sourcegraphstatic.com/docs/images/code-intelligence/code-intel-team%3Dlogo.png" height="350" alt="Sourcegraph Code intelligence team logo"></img>
 
 The Code Intelligence team builds tools and services that provide contextual information around code, taking into account its lexical, syntactic, and semantic structure. This includes:
 

@@ -1,7 +1,7 @@
 # Marketing
 
 
-<img align="right" src="https://sourcegraphstatic.com/marketing-logo.gif" style="max-height:100%" />
+<img align="right" src="https://sourcegraphstatic.com/marketing-logo.gif" style="max-height:100%" alt="Sourcegraph Marketing team logo"/>
 
 - [Messaging](messaging.md)
   - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
@@ -73,4 +73,3 @@ See the [marketing roles](roles/index.md) for open positions.
 ## Weekly marketing meeting
 
 The marketing team will have a weekly meeting (schedule TBD), with notes written in [Marketing meeting notes](https://docs.google.com/document/d/1HI4mo99ESQMnlkilP_OJuH0acKHYA8bDxOK7s-no4X4/edit#) (and we're on step 1 of a [structured meeting](https://about.sourcegraph.com/handbook/communication#structured-meetings)).
-

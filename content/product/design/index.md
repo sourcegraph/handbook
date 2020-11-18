@@ -1,6 +1,6 @@
 # Product Design
 
-<img width="60%" height="60%" src="design-team-logo.jpg">
+<img width="60%" height="60%" src="design-team-logo.jpg" alt="Sourcegraph Design team logo">
 
 The role of the product design team is to make validated decisions that enhance the user experience of Sourcegraph.
 
