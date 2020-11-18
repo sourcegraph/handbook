@@ -8,7 +8,7 @@
 
   1. **_Creating and maintaining a highly usable and intentionally designed webapp interface_**
   1. **_Delivering the full, unique value of Sourcegraph [extensions](https://docs.sourcegraph.com/extensions)_**
-  1. **_Maintaining and expanding [code host integrations](https://docs.sourcegraph.com/dev/background-information/web/code_host_integrations)_**
+  1. **_Maintaining and expanding_ [_code host integrations_](https://docs.sourcegraph.com/dev/background-information/web/code_host_integrations)**
   1. **_Developing code insights into an entirely new featureset_**
 
 **Outcome**: 
