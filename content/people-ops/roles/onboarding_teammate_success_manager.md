@@ -13,7 +13,7 @@ This is the perfect opportunity for you if you’re excited by strategic and han
 - Lead the development and implementation of well rounded, documented, and scalable onboarding procedures at both company-wide and team-wide levels.
 - Collaborate cross functionally with managers and recruiters to create onboarding programs for a seamless onboarding experience for all new teammates.
 - Create a blueprint for the first week, first month, etc. of onboarding and find opportunities for optimization and improvement from gathering new hire and team feedback.
-- Support current HR team across various functions such as but not limited to: compliance, review cycles, benefits programs,immigration, offboarding, compensation planning, policy creation, ongoing training-, culture initiatives, and general workflow improvement across the full employee lifecycle.
+- Support current HR team across various functions such as but not limited to: compliance, review cycles, benefits programs, immigration, offboarding, compensation planning, policy creation, ongoing training, culture initiatives, and general workflow improvement across the full employee lifecycle.
 - Drive projects from end to end including discovery, project planning, and implementation.
 
 ## Qualifications
