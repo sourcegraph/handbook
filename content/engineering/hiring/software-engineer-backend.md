@@ -56,7 +56,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
         - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
         - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
         - [María Craig](../../../company/team/index.md#maría-craig-she-her)
-        - [Alicja Suska](../../../company/team/index.mdalicja-suska-she-her)
+        - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
    - 30m **VP Engineering**
    - 30m **CTO**
    - 30m **CEO**
