@@ -11,7 +11,12 @@ Any teammates based outside of the US are on a contracting structure and will ne
 - Include any expenses incurred that month as individual line items and attach all expense receipts to the same email with the invoice. 
 - Include any fringe benefits on your invoice as individual line items as well (cell phone, internet, wellness benefits, etc.).
 - Submit monthly invoices by the 2nd of the month so that payments can be issued by the 5th.
+- To calculate your monthly invoice, use the following formula:
+  - Take your annual pay amount and divide it by 12 to determine your monthly pay.
+  - Divide your monthly pay by 173.33 hours per month (average hours worked per month based on 40 hour weeks for 52 weeks, according to IRS).
+  - Multiply by the number of hours you worked in the pay period. 
+- Example: If you get paid $6000 per month and worked 5 days (40 hours): 6000 / 173.33 = 34.62 x 40 = $1384.8 
 
 All invoices will be paid through [Veem](https://www.veem.com/).
 
-Here is an example [invoice template](https://docs.google.com/spreadsheets/d/1EPYH0nfMSdLE1Eq83eH01SPiuMbfTMiy0W2qS0OZnuo/edit?usp=sharing).
+Please see example [invoice template](https://docs.google.com/spreadsheets/d/1EPYH0nfMSdLE1Eq83eH01SPiuMbfTMiy0W2qS0OZnuo/edit?usp=sharing) if you need one.
