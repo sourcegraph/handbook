@@ -10,9 +10,9 @@ These goals represent our targeted work for 70% of our time. The remaining 30% i
 
 **Milestones:**
 
-1. All Docker images are continuously scanned for known security vulnerabilities and the security team is alerted as vulnerabilities are found. (3.21 release)
-    1. Three or more vulnerabilities with a high severity, or a CVSS score of at least 4.0 are resolved. (3.21 release)
-1. We have resolved container vulnerabilities with a high severity, or a CVSS score of at least 4.0, or that resolution is planned. (3.22 release)
+1. ~~All Docker images are scanned for known security vulnerabilities and the security team is alerted as vulnerabilities are found. (3.21 release)~~
+    1. ~~Three or more vulnerabilities with a high severity, or a CVSS score of at least 4.0 are resolved. (3.21 release)~~
+1. ~~We have resolved container vulnerabilities with a high severity, or a CVSS score of at least 4.0, or that resolution is planned. (3.22 release)~~
 1. All compute nodes are continuously scanned for known security vulnerabilities and the security team is alerted as vulnerabilities are found. (3.22 release)
     1. We have resolved compute vulnerabilities with a high severity, or a CVSS score of at least 4.0, or that resolution is planned. (3.23 release)
 1. Implement centralized storage of all of our existing logs (e.g., application logs, compute infrastructure logs). (3.23 release)
