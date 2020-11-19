@@ -23,6 +23,7 @@
     - [Release issue template](releases/release_issue_template.md)
   - [External contributions](external_contributions.md)
   - [Introducing a new service](introducing_a_new_service.md)
+  - [Security patterns](security_patterns.md)
 - Tooling
   - [Ignoring editor config files in Git](ignoring_editor_config_files.md)
   - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
