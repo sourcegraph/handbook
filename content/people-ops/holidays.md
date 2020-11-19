@@ -11,5 +11,7 @@ We will reschedule any Monday [company meetings](../communication/company_meetin
 * Fourth of July - observed July 4th
 * Christmas Eve and Christmas - observed December 24th and 25th
 
+Also, there is no company meeting on or between December 23 and January 1. (Most team members will take that time off.)
+
 On all other holidays (e.g., US Memorial Day), company meeting will be held normally, although we anticipate a higher-than-usual number of team members being unable to attend. (That is OK! Have a great holiday!)
 
