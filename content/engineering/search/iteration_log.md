@@ -29,7 +29,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Code monitor CRUD: users are able to list and edit (non-functioning) monitors
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-11-20: (stefan): milestone reached for backend implementation of code monitors: minimum set of GraphQL queries and mutations to support the POC are in place. Next step: implement "query runner" and "email sender".
 
 ### Documentation clean up and content
 
