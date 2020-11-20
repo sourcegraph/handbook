@@ -2,12 +2,13 @@
 
 ## Goals
 
-### Build a base of three customers who regularly use campaigns
+### Build a base of 10 customers who have created 80 campaigns and made 4000 changesets in Q4
 
-We want to get a solid set of customers who regularly use and rely on campaigns. “Regularly” means at least one campaign per month.
+We want to get a solid set of customers who regularly use and rely on campaigns. 
 
 What will get us there?
 
+- **Proactive outreach** Campaigns is new and transformative software. Many companies are not yet aware they need large scale code modifications. We need to find those companies within our customer base and introduce them to campaigns. This process will also teach us about marketing campaigns.
 - **Smoother on-ramp:** Internal testing has revealed that using campaigns for the first time is not as easy as it could be. A frictionless initial experience is critical to adoption and a delightful user experience.
 - **Better debugging experience:** It can be challenging to debug a more complex campaign. Figuring out what went wrong and how to fix it is a slow iterative loop.
 - **User validation:** The above issues were revealed by user testing. Once we believe we have fixed them, we need to validate this with further user testing.
@@ -44,8 +45,12 @@ We want to discover what external systems our users want to use campaigns with, 
 ## Roadmap
 
 1. **Customer outreach to improve adoption of campaigns**
-1. User credentials ([RFC 242](https://docs.google.com/document/d/1SqoWWm1xs82QibrWwYsXmpmgweN6EpcKt1qXrRBjjlU/edit)), which will allow non-site-admins to create campaigns
-1. Better burndown charts
+1.  ~~User credentials ([RFC 242](https://docs.google.com/document/d/1SqoWWm1xs82QibrWwYsXmpmgweN6EpcKt1qXrRBjjlU/edit)), which will allow non-site-admins to create campaigns~~ (landed 3.22)
+1. Better burndown charts 
+1. Allow multiple changeset in a single repository
+1. Improve previews on updates to show the delta between existing changesets and the changesets after after the campaign spec changes are applied
+1. Allow campaign to specify target branch
+1. Create campaign spec even if subset of repos have failures
 1. Versioning/releasing of src-cli with respect to sg/sg
 1. Improved documentation of src-cli login process
 1. Add filtering/searching to campaign and changeset lists
