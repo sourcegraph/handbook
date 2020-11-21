@@ -18,6 +18,7 @@ You will **own an area of the product**\* and:
 - Maintain a roadmap, backlog, and curate and solicit feedback for the product area.
 - Communicate product ideas clearly by focusing on the problems that are being solved, the outcomes, and how we will measure success.
 - Be transparent in your internal and external communication. Sourcegraph is open source, so most discussions are public or in channels where you communicate directly with our customers.
+- Uphold your side of the [PM – EM partnership responsibilities](product_manager_engineering_manager_responsibilities.md).
 
 \* Product ownership areas (current teams): [Campaigns](../../engineering/campaigns/index.md), [Cloud](../../engineering/cloud/index.md), [Distribution](../../engineering/distribution/index.md), [Security](../../engineering/security/index.md)
 

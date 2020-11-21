@@ -31,6 +31,7 @@ Build an exceptional team that achieves results.
 - Own the end-to-end hiring process for the team and grow the team according to the hiring plan.
 - Make [compensation](../people-ops/compensation.md) decisions for direct reports and candidate offers to ensure that everyone is appropriately compensated at all times.
 - Hold teammates accountable for fulfilling their responsibilities.
+- If your team has a product manager, uphold your end of the [PM – EM partnership responsibilities](../product/roles/product_manager_engineering_manager_responsibilities.md).
 
 ## VP Engineering
 
