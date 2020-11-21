@@ -21,7 +21,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - The search results page can consume the streaming data directly as it comes in, without the need to convert to GraphQL types
     - Fully functioning progress API from the backend. This will allow us to have the "full" streaming experience with diff/commit search.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-11-20: (juliana) Porting of the search UI to support streaming search is underway with good progress. Initial blank page ([#15993](https://github.com/sourcegraph/sourcegraph/pull/15993)), filters ([#15997](https://github.com/sourcegraph/sourcegraph/pull/15997)), tabs and infobar  ([#16038](https://github.com/sourcegraph/sourcegraph/pull/16038)), version context warning  ([#16039](https://github.com/sourcegraph/sourcegraph/pull/16039))
     
 ### Code monitoring
 
