@@ -39,9 +39,7 @@
 
 ## [Roles](roles.md)
 
-See job descriptions and responsibilities of roles on the People Ops team:
-
-- TODO
+See [open roles and job descriptions](roles.md) on the People Ops team.
 
 ## [Code of conduct](../communication/code_of_conduct.md)
 
