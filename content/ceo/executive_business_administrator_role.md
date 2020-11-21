@@ -1,6 +1,6 @@
 # Executive Business Administrator role
 
-We're looking for someone to work with our CEO and executive team to help with internal and external communication, logistics, and scheduling. You'll be part of quickly growing, [all-remote](../../company/remote/index.md), [values-oriented](../../company/values.md) company.
+We're looking for someone to work with our CEO and executive team to help with internal and external communication, logistics, and scheduling. You'll be part of our quickly growing, [all-remote](../../company/remote/index.md), [values-oriented](../../company/values.md) team at [Sourcegraph](https://about.sourcegraph.com).
 
 ## Responsibilities
 
