@@ -46,7 +46,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2020-11-20: We have stable and feature-complete regexp highlighting for all patterns/fields and preliminary structural search and hover support. I also helped with release this week, unblocking various search regression testing, and backend code cleanup. My next week will focus on completing search expression work and feature-complete smart query hovers.
 
-## Search context prototyping
+### Search context prototyping
 - **Owner(s):** Farhan
 - **Outcomes:**
     - Build a prototype for search contexts following Figma desigsn for @quinnkeast, and iterate as needed until Quinn is able to complete his testing.
