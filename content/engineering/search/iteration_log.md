@@ -30,13 +30,14 @@ This document contains the goals and work log for the search team's [2-week iter
     - Code monitor CRUD: users are able to list and edit (non-functioning) monitors
 - **Work log:**
     - 2020-11-20: (stefan): milestone reached for backend implementation of code monitors: minimum set of GraphQL queries and mutations to support the POC are in place. Next step: implement "query runner" and "email sender".
+    - 2020-11-23 (farhan): code monitoring listing page completed. Edit functionality is deprioritized in favor of search context prototyping, so may not be completed this iteration.
 
 ### Documentation clean up and content
 
 - **Owner(s):** Farhan
 - **Outcomes:**
     - Clean up all existing search docs so each doc has single responsibility and is in the correct Tutorial/Explanation/How-to/Reference category.
-    - More TBD. 
+    - Add docs for users transitioning from OpenGrok: differences from OpenGrok, keywords and search formats available, typical searches in OG and Sourcegraph equivalents.
 
 ### Ship Search Expressions and Query Highlighting, Hovers
 - **Owner(s):** Rijnard
@@ -44,6 +45,13 @@ This document contains the goals and work log for the search team's [2-week iter
     - The frontend work is in place to ship search expressions. I will be tying it together and adding docs. I will also activate query syntax highlighting and hovers for our next release, and will make progress on that this iteration.
 - **Work log:**
     - 2020-11-20: We have stable and feature-complete regexp highlighting for all patterns/fields and preliminary structural search and hover support. I also helped with release this week, unblocking various search regression testing, and backend code cleanup. My next week will focus on completing search expression work and feature-complete smart query hovers.
+
+## Search context prototyping
+- **Owner(s):** Farhan
+- **Outcomes:**
+    - Build a prototype for search contexts following Figma desigsn for @quinnkeast, and iterate as needed until Quinn is able to complete his testing.
+- **Work log:**
+    - 2020-11-23: Newly added goal.
 
 ## 2020-11-02 to 2020-11-13
 
