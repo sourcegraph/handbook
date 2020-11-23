@@ -143,10 +143,10 @@ Temporary responsibilities until O.C. starts:
 
 ## Growth plan
 
-_Updated 2020-11-13_
+_Updated 2020-11-18_
 
 We are looking to grow this team a lot to increase our ability to provide precise code intelligence for many languages at massive scale.
 
-If you are interested in the scale portion, please apply to [Software Engineer - Backend](../hiring/software-engineer-backend.md).
+If you are interested in scaling our backend systems, please apply to [Software Engineer - Backend](../hiring/software-engineer-backend.md).
 
-If you are interested to help us expand our language support, email nick@sourcegraph.com with how you think you can help.
+If you are interested to help us expand our language support (for example: building LSIF indexers for languages including, but not limited to, Clang, Java), email nick@sourcegraph.com with how you think you can help.

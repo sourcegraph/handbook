@@ -80,9 +80,9 @@ We do regular updates to communicate our progress to members of the team, and to
 
 #### Daily Slack updates
 
-Collaborating across timezones requires regular communication to keep each other updated on our progress, and coordinate work handoff if needed. We also use this opportunity to build camaraderie between team members by sharing some non-work related aspects of our lives with each other.   
+Collaborating across timezones requires regular communication to keep each other updated on our progress, and coordinate work handoff if needed. We also use this opportunity to build camaraderie between team members by sharing some non-work related aspects of our lives with each other.
 
-We use [Geekbot](https://geekbot.com/) to facilitate all this and these updates are purely for coordination within the team (as opposed to for external stakeholders). At the start of each working day, Geekbot will ask each teammate a set of questions and the responses will be posted in the #web-chat Slack channel.  
+We use [Geekbot](https://geekbot.com/) to facilitate all this and these updates are purely for coordination within the team (as opposed to for external stakeholders). At the start of each working day, Geekbot will ask each teammate a set of questions and the responses will be posted in the #web-chat Slack channel.
 
 All teammates are expected to be part of this channel, and should read the updates, to learn what your teammates have been working on, and check if they need your help.
 
@@ -121,10 +121,36 @@ Before web team syncs, teammates and stakeholders should write down under "Discu
 
 ## Growth plan
 
-We are growing the web team by hiring [frontend engineers](../hiring/software-engineer-frontend.md). When this team gets big enough, we expect to split it into two teams with the following ownership areas:
+_Updated 2020-11-18_
 
-- Web infrastructure
-  - The **Sourcegraph web application and codebase** is clean, cohesive, stable and performant. It's easy for all teammates to onboard and contribute to the web application.
-- Extensions and integrations
-  - **Sourcegraph extensions** empower users to integrate Sourcegraph with any third-party service providing useful information about code (code coverage, exception tracking, tracing, code quality). They are consistently supported across all code host integrations and the Sourcegraph UI. Through extensions, Sourcegraph surfaces high-level [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
-  - The **browser extension** and code host **native integrations** are a breeze to set up, and add compelling value when reading or reviewing code. Enabling native code host integrations for all users is a no-brainer for site admins.
+We are growing the web team by hiring [frontend engineers](../hiring/software-engineer-frontend.md). When this team gets big enough, we expect to spin off two teams (code insights, and extensions and integrations) and convert the web team into an infrastructure team.
+
+### Web platform
+
+This team is accountable for ensuring that our product engineering teams have the tools and components they need to quickly build high quality user experiences everywhere we use web technologies (for example: web application, browser extensions). The primary customers of this team are other engineers at Sourcegraph.
+
+Examples:
+
+- Creating a standard component library.
+- Documentation to enable product teams and new hires to quickly learn how we do web development at Sourcegraph.
+- Product improvements that affect our entire app and don't have a clear product team owner (for example: new nav bar, complete site redesign)
+- Efficiency and reliability of frontend CI pipeline steps.
+
+### Code insights
+
+This team is responsible for building and delivering [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
+
+This team will not be created until we have identified a dedicated engineering manager and a dedicated product manager.
+
+### Extensions and integrations
+
+This team is responsible for how we bring the value of Sourcegraph to other developer tools as well as how we bring the value of other developers tools into Sourcegraph.
+
+Examples:
+
+- Surface code intelligence (and other Sourcegraph data) in code hosts through user installed browser extensions.
+- Add native support for Sourcegraph in code hosts (for example: GitLab) or popular sites where developer look at code examples (e.g. https://reactjs.org, https://pkg.go.dev/) so users don't have to install our browser extensions to get code intelligence.
+- Build an extension API for Sourcegraph that enables developers to bring data from their favorite dev tools (for example: code coverage, exception tracking, tracing, code quality) into their Sourcegraph workflow.
+- Build useful Sourcegraph extensions on top of the Sourcegraph extension API (for example: Codecov, Datadog, Sentry, Lightstep)
+
+This team will not be created until we have identified a dedicated engineering manager and a dedicated product manager.

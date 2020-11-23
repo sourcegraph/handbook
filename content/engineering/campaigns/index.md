@@ -73,16 +73,17 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 
 - We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Rob Rhyne](../../../company/team/index.md#rob-rhyne) is involved in the meantime.
 - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager))
-   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
-   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
-   - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-
-## Hiring status
-
-No open positions at this time.
+  - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
+  - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
+  - [Erik Seliger](../../../company/team/index.md#erik-seliger)
 
 ## Related links
 
 - [User-facing documentation](https://docs.sourcegraph.com/campaigns)
 - [Developer documentation](https://docs.sourcegraph.com/dev/background-information/campaigns)
 
+## Growth plan
+
+_Updated 2020-11-18_
+
+No open positions at this time, but we will probably be hiring soon.

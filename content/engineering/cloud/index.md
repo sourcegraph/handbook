@@ -6,7 +6,7 @@ While you could think this is an angry cloud, it's actually a fierce and determi
 
 The cloud team owns all work that is necessary to build, secure, scale, and operate our multi-tenant hosted version of Sourcegraph for customers that do not want to deploy Sourcegraph on-premise.
 
-The cloud team is also responsible for all [backend-infrastructure areas of ownership](../backend-infrastructure/index.md). A lot of the work for Sourcegraph Cloud is in direct support of scaling and performance of backend-infrastructure. Work will be balanced as needed to support both efforts.
+The cloud team is also responsible for our backend platform. A lot of the work for Sourcegraph Cloud is in direct support of scaling and performance of backend-infrastructure. Work will be balanced as needed to support both efforts.
 
 ## Areas of ownership
 
@@ -125,10 +125,10 @@ By default, members of the team will provide a brief update about the goals they
 
 ## Growth plan
 
-_Updated 2020-08-05_
+_Updated 2020-11-18_
 
-We are growing the Cloud team by hiring both [Frontend Engineers](../hiring/software-engineer-frontend.md) and [Backend Engineers](../hiring/software-engineer-backend.md).
+We are looking to grow this team to 8 engineers by hiring an additional [Frontend Engineer](../hiring/software-engineer-frontend.md) and a [Backend Engineer](../hiring/software-engineer-backend.md).
 
-There continues to be a need for work to happen on other areas of our backend infrastructure and the Cloud team is the best team to own that kind of work today. When this Cloud team reaches 6 engineers, we plan to split the team in half to form a new [Backend Infrastructure team](../backend-infrastructure/index.md). When this happens, Tomás will be the manager of both teams and will look to identify new managers so we are able to continue growing both teams.
+[Tomás will be transitioning back to an IC role](https://docs.google.com/document/d/1vsX7Xq8GZ1P9lK8JfJHq0-E8_Dl4awCLpu0g1BZMR2o/edit), as soon as we identify a new manager for this team. TODO(@nick): Write job description.
 
-Each of these teams should not grow larger than 8 engineers. In the mean-time, Tomás will be the manager of both teams, but we're looking to hire Engineering Managers for both down the line.
+When the Cloud effort has achieved its goals then this team will turn into a backend platform team and frontend engineers will join the [web platform team](../web/index.md#web-platform).

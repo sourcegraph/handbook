@@ -56,8 +56,34 @@ Other:
 - [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+ObservableOwnerDistribution%29+count:1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/aa59eba4-9b34-45ea-9515-c4dab4cbdac9/main)
 
-## Hiring status
+## Growth plan
 
-_Updated 2020-06-02_
+_Updated 2020-11-18_
 
-The team has doubled in size recently so it isn't a high priority to grow this team further, but we are always open to hiring exceptional people. [Apply here](https://github.com/sourcegraph/careers/blob/master/job-descriptions/software-engineer-distribution.md).
+We are looking to grow this team to 8 engineers so we can split into two teams.
+
+<!-- TODO(@nick): Does it actually make sense to grow and divide here? -->
+
+### Distribution
+
+This team owns how we develop, build, release, deploy, and upgrade Sourcegraph Cloud and at customers on-premise.
+
+Examples:
+
+- Expand and maintain our customer deployment options (for example: single Docker image, Docker Compose, Kubernetes, AMI)
+- Ensure that we have a fast and automated release/deployment process to Cloud.
+- Maintain Buildkite infrastructure.
+- Provide automated upgrades for on-premise customers.
+- Build general dev tools that aren't specific to frontend or backend (for example: Codenotify, merge/review bots). <!-- TODO(@nick): should this be under the operations team? -->
+
+### Operations platform
+
+This team is directly responsible for Sourcegraph Cloud uptime and reliability, as well as being responsible for operational infrastructure that enables other engineering teams to observe and monitor the parts of the product they own.
+
+Examples:
+
+- Provide logging and metrics infrastructure that enables developers to observe/search current and historical data as well as define alerts.
+- Provision and scale of our Cloud resources (for example: GCP).
+- Measure and sustain 99.99% uptime and reliability of Sourcegraph Cloud.
+- Enforce access controls and network security policies for our Cloud resources.
+- Make it easy for customers to share relevant data when submitting bug reports.

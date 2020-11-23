@@ -45,8 +45,8 @@ Iterations start **every other Monday**.
 - PR approvals are not required for work log updates.
 - Updates should be in prose and communicate progress made and pain points.
 - Updates should happen at least twice (in the middle and at the end of the iteration), but may be more frequent if desired.
-    - The mid-iteration update should contain a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
-    - The end-of-iteration update should mention whether the planned outcomes were reached or not, and if not, why.
+  - The mid-iteration update should contain a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
+  - The end-of-iteration update should mention whether the planned outcomes were reached or not, and if not, why.
 
 ## Contact
 
@@ -72,19 +72,29 @@ Iterations start **every other Monday**.
 
 ## Growth plan
 
-_Updated 2020-11-13_
+_Updated 2020-11-18_
 
 We are looking to hire:
 
 - A [backend software engineer](../hiring/software-engineer-backend.md)
 
-### Splitting the team
+Loïc will be at management capacity when we reach 7-8 engineers on the team, but we will still need to grow further to deliver on our goals for search. Our next step will be to split the team in half. Both of these teams will be cross-functional, with frontend + backend skills, and will have design needs. Before we split these teams, we will need to hire an EM and a PM.
 
-Loïc will be at management capacity when we reach 7-8 engineers on the team, but we will still need to grow further to deliver on our goals for search. Our next step will be to split the team in half:
+### Search core
 
-- The **Search:core** team will focus on the capabilities, scalability and polish of our core feature set: search language and supporting UI, search backends.
-- The **Search:growth** team will focus on initiatives aiming at growing usage or adoption of our search features, such as onboarding efforts or features unlocking new use cases (eg. code monitoring).
+The search core team will focus on the capabilities, scalability and polish of our core feature set: search language and supporting UI, search backends.
 
-Both of these teams will be cross-functional, with frontend + backend skills, and will have design needs.
+Examples:
 
-Before we split these teams, we will need to hire an EM and a PM.
+- Scale indexed search to 1m repositories.
+- Reduce latency and timeouts of search.
+- Implement streaming search.
+
+### Search growth
+
+The Search growth team will focus on initiatives aiming at growing usage or adoption of our search features, such as onboarding efforts or features unlocking new use cases.
+
+Examples:
+
+- Implement code monitoring.
+- Increase search weekly active users.
