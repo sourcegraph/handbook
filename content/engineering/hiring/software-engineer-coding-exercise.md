@@ -47,6 +47,19 @@ We designed this exercise to measure your understanding of HTTP requests, concur
 
 If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
 
+## CLI coding exercise
+
+We designed this synchronous exercise to measure your approach to coding a small application in a paired setting.
+
+* We will schedule a 90-minute timeframe to work with a Sourcegraph engineer.
+* In this exercise you write a command-line application that processes a data file and computes some simple metrics.
+* The data file will be emailed to you 10-minutes prior to the interview.
+* You may use the language of your choice.
+* You can use your own development environment, and look up documentation on the internet.
+* You are not prohibited from using open-source libraries.
+
+If we device to move forward, we will schedule interviews with team members.
+
 ## FAQ
 
 ### Why do you do a coding exercise?
