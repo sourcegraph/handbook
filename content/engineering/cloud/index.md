@@ -32,12 +32,12 @@ See [goals](goals.md)
 - [Tracking Issues](https://github.com/sourcegraph/sourcegraph/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Ateam%2Fcloud+label%3Atracking)
 - [Manual migrations](manual_migrations.md)
 
-## Processes
-
 ## On-call
 
-- [Alerts owned by this team](https://sourcegraph.com/search?q=repo%3A%5Egithub.com%2Fsourcegraph%2Fsourcegraph%24+file%3Amonitoring%2F.*+%7B%3A%5B_%5D%2C+Owner%3A+ObservableOwnerCloud%2C+%3A%5B_%5D%7D+OR+%28%3A%5B_%5D%2C+ObservableOwnerCloud%29+count%3A1000&patternType=structural)
+- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+ObservableOwnerCloud&patternType=literal)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/01b8adfc-9b85-462b-a841-945791c17e9e/main)
+
+## Processes
 
 ### Planning & grooming
 
@@ -102,6 +102,14 @@ The meeting notes can be found [in this doc](https://docs.google.com/document/d/
 Before team syncs, teammates and stakeholders should write down under "Discussion items" in the meeting notes document anything that they'd like to bring up for discussion with the whole team.
 
 By default, members of the team will provide a brief update about the goals they're working on (one update per iteration goal) — this will be a short version of the written update in the tracking issue.
+
+## Team norms
+
+### Code reviews
+
+- **Post-merge feedback:** It is important to make progress while getting feedback from other teammates in code reviews. On the one hand, the pull request author doesn't have to be blocked by all reviewers who the author intends to get feedback from; on the other hand, reviewers can still focus on their work on hands and leave feedback at their convenience. The pull request author should use their best judgement to decide if a pull request should wait (for high-risk changes) or simply rely on post-merge feedback.
+- **Approve to unblock:** When the reviewer thinks there are no obvious blockers and trusts the pull request author will take care of comments/questions/concerns (e.g. answer to questions, explain rationale, act on code suggestions) before merging the pull request.
+- **Request for changes:** When the reviewer believes it is important to get another round of review from the person before merging the pull request. This situation often happens when there is a significant design change.
 
 ## Members
 
