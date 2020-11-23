@@ -15,7 +15,7 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
 **Outcome:**
 
 - 200 popular open source C++ and Java repos are indexed on Sourcegraph Cloud.
-- C++ and Java indexers become stable enough to be adopted by 3 customers each.
+- C++ and Java indexers are adopted by at least 3 customers each.
 - Precise code intel reaches [*N<sub>0</sub>*][N0] precise code intel operations a month.
 - CE and Sales have a significant amount of open source repos to showcase and can easily demonstrate the value of setting up precise code intelligence.
 - For languages that are particularly subject to unusual setups and tooling, our indexed open source showcase helps us determine if setup issues are caused by an unusual customer dev environment.
