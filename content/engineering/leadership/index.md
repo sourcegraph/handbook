@@ -31,23 +31,25 @@ When a goal is "done", move it to our [work log](worklog.md)
 
 ### Slack
 
-- #leadership-chat is a public channel (not specific to this team or engineering) where anyone can discuss and share information of general interest to leadership at Sourcegraph.
+- #eng-manager-team is a public channel where engineering managers can discuss work as a [first team](https://lethain.com/first-team/).
+- #leadership-chat is a public channel (not specific to engineering) where anyone can discuss and share information of general interest to leadership at Sourcegraph.
 
 ### Meetings
 
-We have a 1hr sync with product and engineering every Monday at 9:30am PT ([meeting notes](https://docs.google.com/document/d/10fEh3Cw0ENKjFYDP-4OoLZbOZTVAtMpifc2WM_1mGVU/edit)).
+We have a 1hr sync every Monday at 9:30am PT.
+
+- This meeting is recorded and automatically posted to #eng-manager-team.
+- Our [meeting notes](https://docs.google.com/document/d/1nZTGua3cdMTJLwANlBZNX2uXiDXLuYDBkH9tehwdqTY/edit#) are also internally available to the whole team.
 
 ### Weekly updates
 
-Engineering managers send an update to [engineering-leadership-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status) on either Monday or Tuesday each week (suggestion: send after your weekly team meeting). Anyone at the company can join the group to subscribe to these updates. The purpose of the update is to keep interested parties (including the VP of Engineering, and peer managers) informed of what is going on in each part of our organization. The format of this update is at the discretion of the sender, but it should be prose that generally answers the following questions:
+Engineering managers send an update to [engineering-leadership-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status) on either Monday or Tuesday each week (suggestion: send after your weekly team meeting). Anyone at the company can join the group to subscribe to these updates. The purpose of the update is to keep interested parties (including the VP of Engineering, and peer managers) informed of the progress that each team is making toward their documented goals.
 
-- What important things happened last week?
-  - Include contact with customers (feedback collected, things shipped).
+Try to answer the following questions for each goal that your team is working on (for example: [Distribution team status update - 2020-11-16](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status/c/l4iFZ6ZvWk8)):
+
+- What important things happened last week (for example: changes in important metrics, contact with customers, feedback collected, things shipped)?
 - What are the plans for this week?
-  - Include contact with customers (feedback collected, things shipped).
-- What should my peer-team/manager be aware of?
-
-If you have sensitive information to communicate, please send a separate email directly to the relevant people.
+- What should my peer-team and manager be aware of?
 
 The subject of the email should contain the date the update is being sent (e.g. "Search update 2020-10-14") so each weekly update starts a distinct thread (otherwise they get grouped together in the Google Groups UI).
 
