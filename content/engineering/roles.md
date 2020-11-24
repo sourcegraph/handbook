@@ -41,25 +41,4 @@ TODO
 
 ## Switching roles
 
-Switching between an individual contributor role and a people management role (or vice versa) is a role change (not a promotion or a demotion). Each role requires a different set of skills. Generally we expect people managers to have experience doing the role of their direct reports. Role changes may involve, or be driven by, a team organization change.
-
-### Individual contributor to people manager
-
-1. The IC is interested in becoming a people manager and understands how a people manager role differs from an individual contributor role.
-2. The IC's manager agrees that the IC is a good candidate for a people manager role. Ideally the IC is already doing some parts of the job that are applicable — technical leadership, planning, mentoring. The IC's manager should collect feedback from relevant teammates.
-3. The IC's manager identifies a small initial set of people for the IC to manage (e.g. 2-3 direct reports) for 1-2 months.
-4. The IC's manager communicates to the team that this is a trial and the timeline for that trial.
-5. The IC sets up [1-1s](../leadership/1-1.md) with their new reports and the IC's manager continues their 1-1s with these reports (but may reduce the candence).
-6. Throughout the trial period the IC and the IC's manager discuss whether the trial is on track for success (and if not, what corrective actions can be taken).
-7. After the trial period is over the IC's manager decides if the trial was a success.
-  - Questions to consider:
-    - Is the IC happy in the new role?
-    - Are the IC's direct reports happy?
-    - Is the IC's manager happy?
-  - Outcomes:
-    - If the trial was not a success then revert back to the previous state.
-    - If the trial was a success then the IC is now a people manager and we can move forward with adding more direct reports in the future.
-
-### People manager to individual contributor
-
-TODO
+Switching between an individual contributor role and a people management role (or vice versa) is a role change (not a promotion or a demotion). Each role requires a different set of skills. Generally we expect people managers to have experience doing the role of their direct reports. If you wish to change roles, start a conversation with your manager and they will help come up with a personalized plan that makes sense for you and the team's situation.
