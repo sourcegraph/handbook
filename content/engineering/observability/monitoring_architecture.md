@@ -23,11 +23,11 @@ We use a custom [declarative Go generator syntax](https://sourcegraph.com/github
 - Generating the [Prometheus alerting rules](#alerting) and Grafana dashboards.
 - Generating documentation in the form of ["possible solutions"](https://docs.sourcegraph.com/admin/observability/alert_solutions) for site admins to follow when alerts are firing.
 
-This allows us to assert constraints and principles that we want to hold ourselves to, as described in [our monitoring pillars](./monitoring_pillars.md).
+This allows us to assert constraints and principles that we want to hold ourselves to, as described in [our monitoring pillars](./monitoring_pillars.md), as well as provide integrations with our monitoring architecture.
 
-To learn more about adding monitoring using the generator, see: [adding monitoring](./monitoring.md#adding-monitoring)
+To learn more about adding monitoring using the generator, see [adding monitoring](./monitoring.md#adding-monitoring).
 
-## Sourcegraph deployment
+## Standard Sourcgraph deployments
 
 ### Sourcegraph Grafana
 
@@ -109,7 +109,7 @@ There is currently no process defining how custom additions should be made to ou
 
 ## Sourcegraph Cloud
 
-This section describes how our monitoring stack is used in Sourcegraph Cloud and what customizations we have made.
+[Sourcegraph Cloud](../deployments/instances.md#sourcegraph-com) offers all the monitoring capabilities of a [standard Sourcegraph deployment](#standard-sourcgraph-deployments), as well as the following customizations and specific usages.
 
 ### Alerts
 

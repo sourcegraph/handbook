@@ -2,59 +2,31 @@
 
 **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 
-This document describes in-depth the five pillars / constraints that we impose at Sourcegraph when developing our monitoring infrastructure and, in specific, why we impose them.
-
-See [the monitoring developer guide](monitoring.md) for information on how to develop monitoring once you're convinced.
+This document describes in-depth the background and pillars that drive how we development of our monitoring infrastructure at Sourcegraph. See [the monitoring developer guide](monitoring.md) for information on how to develop monitoring once you're convinced.
 
 - [Long-term vision](#long-term-vision)
-- [The five pillars of monitoring](#the-five-pillars-of-monitoring)
-- [Monitoring at Sourcegraph: a brief history](#monitoring-at-sourcegraph-a-brief-history)
-  - [The linter of monitoring](#the-linter-of-monitoring)
-- [Frequently asked questions](#frequently-asked-questions)
-  - [FAQ: Why can't I create an ad-hoc dashboard (e.g. an "HTTP" dashboard)?](#faq-why-cant-i-create-an-ad-hoc-dashboard-eg-an-http-dashboard)
-    - [Why this is bad](#why-this-is-bad)
-    - [What you should do instead](#what-you-should-do-instead)
-  - [FAQ: I have a purely information metric, I don't want to define an alert for it. How do I do that?](#faq-i-have-a-purely-information-metric-i-dont-want-to-define-an-alert-for-it-how-do-i-do-that)
-    - [Why this is bad](#why-this-is-bad-1)
-    - [What you should do instead](#what-you-should-do-instead-1)
-  - [FAQ: Why can't I create a dashboard in the WYSIWYG Grafana editor?](#faq-why-cant-i-create-a-dashboard-in-the-wysiwyg-grafana-editor)
-    - [Why this is bad](#why-this-is-bad-2)
-    - [What you should do instead](#what-you-should-do-instead-2)
-  - [FAQ: Why can't I create a graph/panel with more than 5 cardinality (labels)?](#faq-why-cant-i-create-a-graphpanel-with-more-than-5-cardinality-labels)
-    - [Why this is bad](#why-this-is-bad-3)
-    - [What you should do instead](#what-you-should-do-instead-3)
-  - [FAQ: Why can't I have all information expanded by default on the dashboard?](#faq-why-cant-i-have-all-information-expanded-by-default-on-the-dashboard)
-    - [Why this is bad](#why-this-is-bad-4)
-    - [What you should do instead](#what-you-should-do-instead-4)
+  - [History](#history)
+- [The Sourcegraph monitoring pillars](#the-sourcegraph-monitoring-pillars)
 - [Next steps](#next-steps)
 
 ## Long-term vision
 
-A traditional user of a monitoring stack is going to have a lot of context about things like what dashboards are showing, what alerts mean, how to use the components in the stack, since they will either have set the thing up themselves OR have people who did.
+A traditional user of a monitoring stack is going to have a lot of context about things like what dashboards are showing, what metrics and alerts mean, how to use the components in the stack, since they will either have set the thing up themselves OR have people who did.
 
-In stark contrast, we're putting together an alerting system for people with zero context about how Sourcegraph works, what the alerts mean, and in many cases it may be their first time interacting with components used in our monitoring stack at all. In many cases, our metrics and alerts may not give the site admin any useful information that they themselves can act on other than "I should contact support and ask why this is happening".
+In stark contrast, we're putting together a monitoring system for people with zero context about how Sourcegraph works, what our metrics and alerts mean, and in many cases it may be their first time interacting with components used in our monitoring stack at all. In many cases, our metrics and alerts may not give the site admin any useful information that they themselves can act on other than "I should contact support and ask why this is happening".
 
 To achieve this, our monitoring architecture is designed with the goal of providing a robust out-of-the-box monitoring experience that deployment admins can easily leverage. This goal includes:
 
 * **Ship understandable and actionable signals** - we want ensure that the metrics and dashboards we ship provide a clear indicator of whether something is wrong and what admins or Sourcegraph engineers can do to diagnose issues.
+* **Provide engineers at Sourcegraph the tooling to easily build monitoring** - our monitoring tooling is not just for customers, or the Distribution team: they should also serve the engineers by making it easy to create consistent and useful insights into the behaviour of both Sourcegraph Cloud and customer instances.
 * **Make alert notifications painless to configure** - we want minimize the number of Sourcegraph instances without any alerting set up. Alerts directly indicate issues that might impact user experience, and we want to ensure that deployment admins are equipped with the signals to help them provide their users with the best experience. This includes not requiring steps like port-forwarding or custom ConfigMaps for configuration.
-* **Dogfooding our own monitoring stack as much as possible** - in the past, monitoring components have been difficult to use or completely broken since we do not rely on them heavily.
+* **Dogfood the monitoring we ship as much as possible** - in the past, monitoring components have been difficult to use or completely broken since we do not rely on them heavily.
 
-To see the decisions made to support these goals, refer to the [Sourcegraph monitoring architecture](./monitoring_architecture.md#metrics).
+To see the architectural decisions made to support these goals, refer to the [Sourcegraph monitoring architecture](./monitoring_architecture.md#metrics).
 
-## The five pillars of monitoring
+### History
 
-At Sourcegraph we impose five strict constraints to monitoring which, at first, may seem quite surprising:
-
-1. Creating dashboards that describe something other than a single Sourcegraph service is forbidden.
-2. Adding a graph/panel that visualizes a metric, without defining an associated alert, is forbidden.
-3. Creating dashboards outside of the monitoring generator, such as with the Grafana WYSIWYG editor, is forbidden. All metrics should be presented in the most plain, mundane, non-fanciful way that every site admin can understand.
-4. Creating graphs/panels with more than 5 cardinality (labels) is forbidden (in most cases there should only be one.)
-5. The most useful information should be presented first, the least useful information should be hidden by default.
-
-## Monitoring at Sourcegraph: a brief history
-
-Before the constraints we impose will start to make sense, you need to understand the history of monitoring at Sourcegraph and the (extremely difficult) problem we're trying to solve with it. For the first five years of Sourcegraph:
+Before the recommendations we make start to make sense, you need to understand the history of monitoring at Sourcegraph and the (extremely difficult) problem we're trying to solve with it. For the first five years of Sourcegraph:
 
 - Metrics have been too numerous for anyone to reason about on their own
 - Dashboards have been completely broken for customers because we do not rely on them heavily.
@@ -63,28 +35,57 @@ Before the constraints we impose will start to make sense, you need to understan
 - It has been impossible/painful for site admins to define meaningful alerting for Sourcegraph. Many admins would fall back to poor external checks like "does a search query work and is it fast?"
 - It has been impossible for us to debug customer's instances through monitoring, and often we would just write one-off Prometheus queries for customers to run.
 
-### The linter of monitoring
-
 We can and should do better with monitoring than we have in the past, so we introduce strict restrictions on how we develop monitoring. This helps keep the entire engineering team aligned with what our customers and users need from us -- even if monitoring is often an afterthought or the last thing an engineer working on some feature adds.
 
 You can think of the restrictions we impose as a linter for preventing the issues described above. And, in many cases, our tooling does already prevent these issues by imposing these restrictions!
 
-## Frequently asked questions
+## The Sourcegraph monitoring pillars
 
-### FAQ: Why can't I create an ad-hoc dashboard (e.g. an "HTTP" dashboard)?
+Monitoring tooling at Sourcegraph is developed to encourage the following guidelines:
 
-This violates the first pillar of monitoring at Sourcegraph:
+- [**Dashboards should only be created with the monitoring generator**](#dashboards-should-only-be-created-with-the-monitoring-generator)
+- [**Dashboards should describe a single service**](#dashboards-should-describe-a-single-service)
+- [**Graphs should have less than 5 cardinality**](#graphs-should-have-less-than-5-cardinality)
+- [**Only the most useful and simple graphs should be visible by default**](#only-the-most-useful-and-simple-graphs-should-be-visible-by-default)
 
-> Creating dashboards that describe something other than a single Sourcegraph service is forbidden.
+Before trying to circumvent the guidelines enforced by our monitoring tooling, please keep in mind that these pillars are defined to help us achieve our [goals](#long-term-vision) and alleviate [pain points we have encountered in the past](#history). Each of the above pillars are documented with detailed explanations, recommendations for what you can do, and exceptions where applicable.
 
-#### Why this is bad
+To make significant changes to the monitoring tooling, please reach out to the [Distribution team](../distribution/index.md) or open a PR to this page!
+
+### Dashboards should only be created with the monitoring generator
+
+Creating dashboards outside of the monitoring generator, such as with the Grafana WYSIWYG editor, is discouraged. All metrics should be presented in a set of uniform, standard ways that every site admin can understand.
+
+#### Explanation
+
+Using the Grafana WYSIWYG editor, or otherwise operating outside the constraints of [the monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring) makes it:
+
+- Much harder to integrate with our [monitoring architecture](./monitoring_architecture.md): generated dashboard integration, generated documentation, alerting support, and more.
+- Extremely easy to introduce dashboards that have inconsistency errors through mistakes that are easy to make (e.g. not using UTC time on dashboards, the preset timeframe being inconsistent, it not self-describing to admins what it does, etc.)
+- Difficult for others to modify and review without introducing regressions (e.g. due to Grafana schema version changes, which happen frequently, producing large diffs)
+
+#### What you should do
+
+You might be thinking:
+
+> But writing code for dashboards is quite painful, let alone a bunch of generation code that I now need to understand!
+
+In truth, we are only using Go as a nice type-checked declarative syntax, which provides auto-completion, documentation on hover, and more for free. It's simpler to use than a configuration file, and provides safety guarantees along with document generator, alert integration, default styling and other features which make creating panels easier. This means you are only required to write a Prometheus query, a description and barely any layout or styling.
+
+To learn more about what it takes to add dashboards, see [adding monitoring](monitoring.md#adding-monitoring).
+
+### Dashboards should describe a single service
+
+Creating dashboards that describe something other than a single Sourcegraph service is strongly discouraged. This includes ad-hoc dashboards, like a catch-all "HTTP" dashboard.
+
+#### Explanation
 
 Pretend you are a site admin and looking at Sourcegraph's monitoring:
 
 - You go to the overview dashboard and find out the issue is in some subsystem of Sourcegraph.
 - That dashboard shows you a problem with HTTP requests, or a problem with repository permission synching, or search performance
 
-What do you do now? Where do you go next with this information? How do you resolve the issue? When dashboards are not associated with a single Sourcegraph service, it makes it effectively impossible to know where the problem is. For this reason, it is forbidden to do this.
+What do you do now? Where do you go next with this information? How do you resolve the issue? When dashboards are not associated with a single Sourcegraph service, it makes it effectively impossible to know where the problem is.
 
 Consider for example an admin who finds on a "Search" dashboard that "search query performance is bad":
 
@@ -93,7 +94,7 @@ Consider for example an admin who finds on a "Search" dashboard that "search que
 
 If instead this information is communicated only on a "Frontend" dashboard, it becomes immediately clear they can check the frontend logs first, which is where they will find next steps.
 
-#### What you should do instead
+#### What you should do
 
 Consider "when the metric I am monitoring is bad, where do I want the site admin to look?" Usually, this is just the service that emits the metric itself.
 
@@ -101,62 +102,11 @@ In other words, you should add the metric you are monitoring to an existing serv
 
 This also allows our [high-level alerting metrics](https://docs.sourcegraph.com/admin/observability/metrics_guide), which are generated from the same observables that each dashboard is generated from, to describe the health of Sourcegraph per-service (instead of per-service + topic like "HTTP").
 
-### FAQ: I have a purely information metric, I don't want to define an alert for it. How do I do that?
+### Graphs should have less than 5 cardinality
 
-This violates the second pillar of monitoring at Sourcegraph:
+Creating graphs/panels with more than 5 cardinality (labels) is discouraged. In most cases there should only be one label per graph.
 
-> Adding a graph/panel that visualizes a metric, without defining an associated alert, is forbidden.
-
-#### Why this is bad
-
-There is nothing worth monitoring that cannot have _some_ explanation of what a bad or good value is.
-
-By saying "I do not want to define an alert" what we are actually doing is shying away from the question of "how should someone interpret what this number means?" and instead saying "I will keep this information private, just for myself"
-
-Our monitoring infrastructure _forces_ you to declare at least a _Warning_ alert. It's OK if this is flaky, or even if it fires when something is not wrong.
-
-The point is _you have to give a best-guess at what a bad or good value looks like because you are the only one who can answer that question._ Otherwise, the information you are 'monitoring' cannot be interpreted by anyone else and is inherently useless to anyone except you: it should not exist in a dashboard then.
-
-See also ["the difference between Warning and Critical alerts"](https://docs.sourcegraph.com/admin/observability/alerting_custom_consumption#the-difference-between-critical-and-warning-alerts) for how we communicate this to site admins.
-
-#### What you should do instead
-
-Declare a `Warning` alert, and give it your best guess at what a threshold would look like. It's OK if it's flaky, or fires when there isn't a problem sometimes or on some Sourcegraph instances.
-
-Over time, we will adjust the alert so it becomes more reliable and becomes the baseline number that most Sourcegraph instances observe. Once it becomes really reliable (and empirically proven to be so, based on pings we get from customer instances), it can be promoted to a `Critical` alert as well if it speaks of a critical part of Sourcegraph.
-
-### FAQ: Why can't I create a dashboard in the WYSIWYG Grafana editor?
-
-This violates the third pillar of monitoring at Sourcegraph:
-
-> Creating dashboards outside of the monitoring generator, such as with the Grafana WYSIWYG editor, is forbidden. All metrics should be presented in the most plain, mundane, non-fanciful way that every site admin can understand.
-
-#### Why this is bad
-
-Using the Grafana WYSIWYG editor, or otherwise operating outside the constraints of [the monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring) makes it:
-
-- Extremely easy to introduce dashboards that do not comply with the constraints we want to impose.
-- Extremely easy to introduce dashboards that have inconsistency errors through mistakes that are easy to make (e.g. not using UTC time on dashboards, the preset timeframe being inconsistent, it not self-describing to admins what it does, etc.)
-- Difficult for others to modify and review without introducing regressions (e.g. due to Grafana schema version changes, which happen frequently, producing large diffs)
-- Much harder to declare proper alerts in our regular high-level alerting architecture.
-
-#### What you should do instead
-
-You might be thinking:
-
-> But writing code for dashboards is quite painful, let alone a bunch of generation code that I now need to understand!
-
-In truth, we are only using Go as a nice type-checked declarative syntax. It's as simple to use as a configuration file, and the constraints we impose in monitoring means that we do not allow doing any fanciful dashboards intentionally -- which means you are basically _just_ writing a Prometheus query, and barely any layout or styling.
-
-See: [adding monitoring](monitoring.md#adding-monitoring)
-
-### FAQ: Why can't I create a graph/panel with more than 5 cardinality (labels)?
-
-This violates the fourth pillar of monitoring at Sourcegraph:
-
-> Creating graphs/panels with more than 5 cardinality (labels) is forbidden (in most cases there should only be one.)
-
-#### Why this is bad
+#### Explanation
 
 It is the case that:
 
@@ -177,7 +127,13 @@ We expect `update_commits` to be taking ~50ms and need to confirm that. Is it ~5
 
 ![](https://user-images.githubusercontent.com/3173176/81974154-03f4b780-95da-11ea-8988-069dbdc3ef92.png)
 
-#### What you should do instead
+#### Exceptions
+
+Some graphs will require more granularity. For example, per-container or per-Gitserver replica graphs might be rendered entirely unhelpful if we do not have the ability to observe the behaviour of each individual instance.
+
+When creating high-cardinality graphs, please consider how understandable the graph is in terms of how easy it is to grok as human.
+
+#### What you should do
 
 If the information you are presenting is important enough to warrant being shown independently, it should be shown in its own panel. In other words, declare a separate `Query` all-together with a Prometheus selector like `{method="update_commits"}`.
 
@@ -185,15 +141,13 @@ If the information you are presenting is not important enough to warrant being s
 
 For _instances of services_ in particular, you might be thinking "surely that is an exception?" But no, it is not generally. It is better that an admin knows there is an issue with _a searcher_, or _a gitserver_ and that admin looks through the logs of each to determine the issue than it is to give an information overload which makes it hard to interpret individual panels at all.
 
-### FAQ: Why can't I have all information expanded by default on the dashboard?
+### Only the most useful and simple graphs should be visible by default
 
-This violates the fifth pillar of monitoring at Sourcegraph:
+The most useful information should be presented first, the least useful information should be hidden by default. This means that in the monitoring generator, most groups of graphs should default to hidden.
 
-> The most useful information should be presented first, the least useful information should be hidden by default.
+#### Explanation
 
-#### Why this is bad
-
-Similar to "[Why can't I create a graph/panel with more than 5 cardinality (labels)?](#faq-why-cant-i-create-a-graph-panel-with-more-than-5-cardinality-labels)", having all information by default prevents site admins from looking at the information that is actually most important.
+Similar to ["Graphs should have less than 5 cardinality"](#graphs-should-have-less-than-5-cardinality), having all information by default prevents site admins from looking at the information that is actually most important.
 
 Additionally, it's easier for us to say:
 
@@ -203,11 +157,9 @@ Than it is for us to say:
 
 > On the **Searcher** dashboard, send us a screenshot of the whole page (I know it's really long, sorry about that, if you could just make sure to include the "Frontend request failures over 5m" panel and the [...] panels, that is all we should need)
 
-#### What you should do instead
+#### What you should do
 
 If it can't fit on a normal laptop screen, it should generally be hidden!
-
-Additionally, admins will still see your metric if something is going wrong by nature of the fact that we enforce "there must be a defined alert per metric we are displaying." By hiding it, we're just being honest that most people aren't going to see it and making sure the most important information is front-and-center!
 
 ## Next steps
 
