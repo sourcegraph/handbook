@@ -22,7 +22,9 @@ This document contains the goals and work log for the search team's [2-week iter
     - Fully functioning progress API from the backend. This will allow us to have the "full" streaming experience with diff/commit search.
 - **Work log:**
     - 2020-11-20: (juliana) Porting of the search UI to support streaming search is underway with good progress. Initial blank page ([#15993](https://github.com/sourcegraph/sourcegraph/pull/15993)), filters ([#15997](https://github.com/sourcegraph/sourcegraph/pull/15997)), tabs and infobar  ([#16038](https://github.com/sourcegraph/sourcegraph/pull/16038)), version context warning  ([#16039](https://github.com/sourcegraph/sourcegraph/pull/16039))
-    
+    - 2020-11-20: (keegan) Spent most of the week tracking down unexpected slowness/buffering in diff search. Once I fixed it locally I created a [demo video](https://www.loom.com/share/e4f9a8f85ba74321bbf3dd3f74aafe06) of streaming diff search. Rest of the week was spent on debugging diff search performance in prod.
+    - 2020-11-24: (keegan) My plan for this week is to fully focus on progress API in the backend. However, I have worked on both a [customer P1](https://github.com/sourcegraph/sourcegraph/issues/15992) issue and some [long standing tech debt](https://github.com/sourcegraph/sourcegraph/pull/16121) with Tomas. I expect to still have a PR ready of a fully functioning progress backend, but its getting a little tight.
+
 ### Code monitoring
 
 - **Owner(s):** Stefan, Juliana, Farhan
