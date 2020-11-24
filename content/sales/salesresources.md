@@ -20,8 +20,6 @@ The following templates are currently available:
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
 - [Mutual Nondisclosure Agreement](https://drive.google.com/file/d/1M6UA8ro-qsdrj9fiB7wkJlD2jpy8epDI/)
 
-- (Outdated - Use ELA / Orderform)[Order form / Statement of work] (https://docs.google.com/document/d/1d-PHVF7O2XacWBySFw7KbW4Uzb3O6bkyX_8xt6v2kMA/)
-
 ### Updating Templates
 
 To update a template place the new template in the main Sales Template folder, name the file (beginning with the date format YYYY.MM.DD) then move the old template into the [Template Archive folder](https://drive.google.com/drive/u/0/folders/1v4SL-sasJOUjyrNStbMnxxh0ZwUUU-4c).  Update the appropriate handbook link to the new template.
