@@ -45,7 +45,7 @@ We have a 1hr sync every Monday at 9:30am PT.
 
 Engineering managers send an update to [engineering-leadership-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status) on either Monday or Tuesday each week (suggestion: send after your weekly team meeting). Anyone at the company can join the group to subscribe to these updates. The purpose of the update is to keep interested parties (including the VP of Engineering, and peer managers) informed of the progress that each team is making toward their documented goals.
 
-Try to answer the following questions for each goal that your team is working on (for example: [Distribution team status update - 2020-11-16](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status/c/l4iFZ6ZvWk8)):
+Try to answer the following questions for each goal that your team is working on (for example: [Distribution team status update - 2020-11-16](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status/c/l4iFZ6ZvWk8), [Web team status update: 2020-11-24](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status/c/t-fwx8O4rvU/m/m7UVjfyGBQAJ)):
 
 - What important things happened last week (for example: changes in important metrics, contact with customers, feedback collected, things shipped)?
 - What are the plans for this week?
