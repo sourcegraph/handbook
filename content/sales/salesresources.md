@@ -14,12 +14,13 @@ Please do not edit the templates directly -- create a copy and place it in a dif
 
 The following templates are currently available:
 
-- [Order form / Statement of work](https://docs.google.com/document/d/1d-PHVF7O2XacWBySFw7KbW4Uzb3O6bkyX_8xt6v2kMA/)
-- [Enterprise License Agreement](https://docs.google.com/document/d/1KT_8_b6bIMkRSrujmeAghET4BT076ymT/)
+- [Enterprise License Agreement and Order Form](https://docs.google.com/document/d/1QrFksymcceOO38jhU5ZHIhr_u6LHW6i8/)
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/document/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
 - [Mutual Nondisclosure Agreement](https://drive.google.com/file/d/1M6UA8ro-qsdrj9fiB7wkJlD2jpy8epDI/)
+
+- (Outdated - Use ELA / Orderform)[Order form / Statement of work] (https://docs.google.com/document/d/1d-PHVF7O2XacWBySFw7KbW4Uzb3O6bkyX_8xt6v2kMA/)
 
 ### Updating Templates
 
