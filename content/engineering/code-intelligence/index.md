@@ -98,19 +98,10 @@ Our team is growing and to help our new teammates have the best onboarding exper
 ## Members
 
 - [María Craig](../../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../product/roles/product_manager.md))
-- [O.C.](../../../company/team/index.md#todo) starting 2020-11-23.
+- [Owen Convey](../../../company/team/index.md#owen-convey-he-him) ([Engineering Manager](../roles.md#engineering-manager))
   - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
   - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
   - [Noah Santschi-Cooney](../../../company/team/index.md#noah-santschi-cooney-he-him)
-
-Temporary responsibilities until O.C. starts:
-
-- María
-  - Send [weekly update](../leadership/index.md#weekly-updates)
-  - Run retrospectives
-  - Drive milestone planning (invite Nick to help facilitate)
-- Eric
-  - Organize and run code intel team meetings
 
 ## Ownership
 
