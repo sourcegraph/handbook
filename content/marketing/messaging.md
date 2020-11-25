@@ -84,10 +84,6 @@ By solving some of the most pressing challenges in today’s fast-moving, intric
 
 Sourcegraph is a company that creates software to help every organization build software with the quality and efficiency of today's elite technology companies.
 
-## Press release boilerplate
-
-Sourcegraph Universal code search empowers all developers to explore, navigate, and better understand all code, everywhere, faster. Sourcegraph’s mission is to make it easier and faster for developers to work on solving problems. Sourcegraph is built for all companies, from startups needing a solid foundation for growth to enterprises with complex security, scaling, and deployment needs. The all-remote company is backed by Craft Ventures, Goldcrest Capital, Redpoint Ventures, and Felicis Ventures. Visit [about.sourcegraph.com/jobs](https://about.sourcegraph.com/jobs/) for career opportunities. Follow Sourcegraph on Twitter at [@srcgraph](https://twitter.com/srcgraph) or visit [Sourcegraph.com](https://sourcegraph.com).
-
 ## Definitions
 
 * Code search - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
