@@ -93,6 +93,3 @@ Sourcegraph is a company that creates software to help every organization build 
 * Code intelligence - Display and share additional contextual information around code (allows code reviews with context)
 * Campaigns - Make large-scale code changes
 
-## [Common customer questions](../sales/common_customer_questions.md)
-
-See "[Common customer questions](../sales/common_customer_questions.md)".
