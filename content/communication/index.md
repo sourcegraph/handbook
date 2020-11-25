@@ -120,6 +120,10 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 - FY\_\_-Q3 is August 1 through October 31
 - FY\_\_-Q4 is November 1 through January 31
 
+## Seeking and giving feedback
+
+- [Seeking and giving feedback](./seeking-and-giving-feedback.md)
+
 ## Handling conflict
 
 - [Conflict resolution](./code_of_conduct.md#conflict-resolution)
