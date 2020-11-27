@@ -11,7 +11,17 @@ This document contains the goals and work log for the search team's [2-week iter
     - $DESIRED_OUTCOME
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
-    
+
+## 2020-11-30 to 2020-12-10
+
+### Code monitoring
+
+- **Owner(s):** Stefan, Juliana, Farhan
+- **Outcomes:**
+    - Functioning code monitoring. Users can create and edit code monitors, see the status, and receive emails.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2020-11-16 to 2020-11-27
 
 ### Streaming search
@@ -31,8 +41,17 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Code monitor CRUD: users are able to list and edit (non-functioning) monitors
 - **Work log:**
-    - 2020-11-20: (stefan): milestone reached for backend implementation of code monitors: minimum set of GraphQL queries and mutations to support the POC are in place. Next step: implement "query runner" and "email sender".
+    - 2020-11-20 (stefan): milestone reached for backend implementation of code monitors: minimum set of GraphQL queries and mutations to support the POC are in place. Next step: implement "query runner" and "email sender".
     - 2020-11-23 (farhan): code monitoring listing page completed. Edit functionality is deprioritized in favor of search context prototyping, so may not be completed this iteration.
+    - 2020-11-27 (stefan): finished new query runner, for now queries are queued for executing every 5 minutes. Next step: implement "email sender".
+
+### Scale indexed search to 500k repositories
+
+- **Owner(s):** Stefan, Keegan
+- **Outcomes:**
+    - Improved performance for simple regex queries such as "term1 term2 patternType:regexp"
+- **Work log:**
+    - 2020-11-27 (stefan): Our CR for upstream zoekt was accepted and we merged it into to our fork. I added related queries to search-blitz to measure improvements. Local tests just on zoekt and on medium sized repos showed that latencies reduce between 30% to 80% for relevant queries. I will look at search-blitz data next week.
 
 ### Documentation clean up and content
 
