@@ -79,7 +79,7 @@ We will initially focus on reducing the time it takes to collect troubleshooting
   - TBD
 - **Milestones**: TBD
 
-### [Split Cloud infrastructure into separate GCP projects](https://github.com/orgs/sourcegraph/projects/92)
+#### [Split Cloud infrastructure into separate GCP projects](https://github.com/orgs/sourcegraph/projects/92)
 
 - **Owner**: Gonza
 - **Status**: In progress. Estimated complete by end of 2020.
