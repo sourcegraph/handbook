@@ -19,7 +19,7 @@ On the actual call with the Prospect:
 At the end of the call:
 
 - AE wraps up the call, confirm, next steps.
-  - Note: if towards the end of the call, the AE can't solidify next steps, with the SDRs best judgment, the SDR may step in as "second voice" and attempt to pencil down next steps, only if it makes sense.
+  - Note: if towards the end of the call, the AE can't solidify next steps, with the SDRs best judgment, the SDR may step in as *"second voice"* and attempt to pencil down next steps, only if it makes sense.
 
 After the call:
 
