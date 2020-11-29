@@ -66,7 +66,7 @@ If we device to move forward, we will schedule interviews with team members.
 
 ## Security coding exercise
 
-We designed this exercise to give you an opportunity to demonstrate your software development and collaboration skills, as they come to developing a small, secure application.
+We designed [this exercise](https://github.com/sourcegraph/interviews/blob/master/engineering/coding/simple-polling/README.md) to give you an opportunity to demonstrate your software development and collaboration skills, as they come to developing a small, secure application.
 
 - You will choose a 90-minute timeframe to work with a member of our team on a small console application.
 - During our exercise, we will share detailed instructions, and a repository, for building a console application that processes a file and outputs various metrics.
