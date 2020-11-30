@@ -8,13 +8,11 @@ Software engineers build our product and infrastructure.
 
 ### Responsibilities
 
-- Commit to a reasonable amount of work that you are going to get done for each [monthly release](releases/index.md), and then reliably get it done.
-- Post weekly updates about your progress on the [monthly release tracking issue](tracking_issues.md) for your team.
-- Ensure that your work is directly contributing to [our goals](../../company/goals/index.md).
-- Write [RFCs](../communication/rfcs/index.md) to recommend solutions to product and engineering problems.
-- Create and maintain high quality code, tests, and documentation.
-- Support your teammates by reviewing their [code](code_reviews.md) and [RFCs](../communication/rfcs/index.md).
-- Help us build a great team by referring people who you would like to work with again, interviewing candidates, and suggesting improvements to our hiring process.
+- Model [our company values](../../company/values.md) and apply our [guiding engineering principles](index.md#guiding-principles) throughout all your interactions and work.
+- Iteratively create, ship, and maintain high quality architecture, code, tests, and documentation that aligns with team goals.
+- Document and share your progress in relevant locations at least once a week (for example: in GitHub issues, team slack channel, #progress, [CHANGELOG.md](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md)).
+- Prioritize unblocking and supporting your teammates (for example: sharing knowledge, answering questions, providing feedback).
+- Help build a great team by referring people who you would like to work with, interviewing candidates, and suggesting improvements to our hiring process.
 
 ## Engineering Manager
 
