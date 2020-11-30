@@ -19,6 +19,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Owner(s):** Stefan, Juliana, Farhan
 - **Outcomes:**
     - Functioning code monitoring. Users can create and edit code monitors, see the status, and receive emails.
+    - Design QA feedback on the code monitoring creation and list pages is addressed.
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
