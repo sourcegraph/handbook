@@ -34,6 +34,14 @@ Git URL: gitolite.sgdev.org
 
 Credentials: [1Password](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/i5bm6syw45w2c33cvfrrlt4fhu)
 
+### Gerrit
+
+URL: https://gerrit.sgdev.org
+
+Git URL: gerrit-ssh.sgdev.org
+
+Credentials: Google Auth
+
 ## Customer environment replicas
 
 We maintain separate AWS accounts with Sourcegraph instances and other infrastructure that mimic various customers' environments for testing purposes. See "[Customer environment replicas and managed instances](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/003/ctqvj7zcmdiujmfh2mxzffdlym)" on 1Password for the list.
