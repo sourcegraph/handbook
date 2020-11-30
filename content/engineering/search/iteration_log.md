@@ -20,6 +20,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Functioning code monitoring. Users can create and edit code monitors, see the status, and receive emails.
     - Design QA feedback on the code monitoring creation and list pages is addressed.
+    - (Loïc) Starting points for code monitoring are documented
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
