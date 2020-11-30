@@ -15,6 +15,8 @@ Twice every month the finance team closes the books and reports the latest ARR t
   - Contract start date
   - IARR amount
 
+Finance should also update the [server to company details](https://docs.google.com/spreadsheets/d/1wo_KQIcGrNGCWYKa6iHJ7MImJ_aI7GN12E-T21Es8TU/edit#gid=0) and [server installers to company](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit#gid=0) spreadsheets with the relevant changes. 
+
 ### Expansion IARR
 
 - Halfway and at the end of each month, finance will calculate [expansion IARR and MAU bookings](https://docs.google.com/spreadsheets/d/1tRcz3bNOho1TyWvrYSv37RIYcQs7I0i05-5eKwLq8TI/edit#gid=0). Finance will post a message in the #sales channel listing each individual booking, with the AE and CE who own the account tagged on each line. Each AE with a booking must confirm in writing that the expansion is approved and can be booked.
