@@ -66,6 +66,9 @@ This document contains the goals and work log for the search team's [2-week iter
     - The frontend work is in place to ship search expressions. I will be tying it together and adding docs. I will also activate query syntax highlighting and hovers for our next release, and will make progress on that this iteration.
 - **Work log:**
     - 2020-11-20: We have stable and feature-complete regexp highlighting for all patterns/fields and preliminary structural search and hover support. I also helped with release this week, unblocking various search regression testing, and backend code cleanup. My next week will focus on completing search expression work and feature-complete smart query hovers.
+    - 2020-11-27: I refactored frontend code to account for search expressions and handle query transformation for UI toggles correctly. Didn't get a chance to update search expression documentation, will catch up to that in a day or two's worth of work. I implemented and activated hovers for regular expressions 
+🎉.
+
 
 ### Search context prototyping
 - **Owner(s):** Farhan
