@@ -22,6 +22,15 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+### Documentation clean up and content
+
+- **Owner(s):** Farhan
+- **Outcomes:**
+    - Add docs for users transitioning from OpenGrok: differences from OpenGrok, keywords and search formats available, typical searches in OG and Sourcegraph equivalents.
+    - Clean up all existing search docs so each doc has single responsibility and is in the correct Tutorial/Explanation/How-to/Reference category.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+    
 ## 2020-11-16 to 2020-11-27
 
 ### Streaming search
@@ -44,6 +53,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2020-11-20 (stefan): milestone reached for backend implementation of code monitors: minimum set of GraphQL queries and mutations to support the POC are in place. Next step: implement "query runner" and "email sender".
     - 2020-11-23 (farhan): code monitoring listing page completed. Edit functionality is deprioritized in favor of search context prototyping, so may not be completed this iteration.
     - 2020-11-27 (stefan): finished new query runner, for now queries are queued for executing every 5 minutes. Next step: implement "email sender".
+    - 2020-11-30 (farhan): did not work on code monitoring this week to prioritize search contexts prototyping.
 
 ### Scale indexed search to 500k repositories
 
@@ -59,6 +69,8 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Clean up all existing search docs so each doc has single responsibility and is in the correct Tutorial/Explanation/How-to/Reference category.
     - Add docs for users transitioning from OpenGrok: differences from OpenGrok, keywords and search formats available, typical searches in OG and Sourcegraph equivalents.
+- **Work log:**: 
+    - 2020-11-30: Gathered requirements for OpenGrok transition docs. Did not make much progress on writing those docs yet.
 
 ### Ship Search Expressions and Query Highlighting, Hovers
 - **Owner(s):** Rijnard
@@ -76,6 +88,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Build a prototype for search contexts following Figma desigsn for @quinnkeast, and iterate as needed until Quinn is able to complete his testing.
 - **Work log:**
     - 2020-11-23: Newly added goal.
+    - 2020-11-30: Completed prototype for search contexts, and iterated on it together with Quinn several times. Quinn has conducted some hallway testing, and will continue to do so. We were able to identify limitations in the design, and came up with solutions for those. We also have a WIP gist outlining the process of functional prototyping and its benefits.
 
 ## 2020-11-02 to 2020-11-13
 
