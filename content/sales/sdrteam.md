@@ -12,6 +12,7 @@ The SDR Team (fill in the blanks)
 
 - [Outbound Account Strategy](#outbound-account-strategy)
 - [SDR Playbook](#sdr-playbook)
+- [Sales Accepted Opportunity (SAO)](../#sales-accepted-opportunity-sao)
 - [SDR Handoff Guide](#sdr-to-ae-handoff)
 - [Best Practices](#best-practices)
 - [Tech Stack](#tech-stack)
