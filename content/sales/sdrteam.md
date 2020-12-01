@@ -65,7 +65,7 @@ Indicates the stage of a lead in the workflow process. Lead Status includes:
 - Nurture - lead has potential, but is not ready to be converted
 - Self-Service - lead is best served by our self-service offering
 - Unqualified - lead is unqualified for our services, used for job candidates, students, etc.
-- Bad-Data
+- Bad Data
 - Unresponsive 
 - Converted - auto-set upon conversion of lead
 
@@ -104,7 +104,7 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 - AE/SDR pair has touch within the past 30 days on the account
 - AE has a closed opp within the past 90 days on the account
 
-**Note:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
+**NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
 
 #### Outbound Opportunity Creation Workflow (TBD)
 
@@ -114,7 +114,7 @@ AE leads initial call and dispositions the opportunity accordingly:
 
 - **Sales Accepted Opportunity (SAO):** - if the Opportunity meets the minimum requirements for a “Sales Accepted Opportunity”, the AE updates the Stage to “Qualification” or beyond in Salesforce
 
-  - **Note:** this action will trigger a checkbox field to be checked on the Opportunity Record called “Sales Accepted Opportunity”
+  - **NOTE:** this action will trigger a checkbox field to be checked on the Opportunity Record called “Sales Accepted Opportunity”
   - This is how SDR Quota is tracked and is the ultimate metric we are driving towards
   
 - **Closed-Lost** - if the Opportunity doesn’t meet the requirements of a Sales Accepted Opportunity and we don’t reasonably feel that we can reach that stage with this given contact/account, the AE moves the Opportunity to Closed-Lost and no SDR credit is awarded
@@ -126,7 +126,7 @@ AE leads initial call and dispositions the opportunity accordingly:
 
 ## SDR to AE Handoff
 
-Before the first call with the prospect:
+**Before the first call with the prospect:**
 
 - The SDR sets the initial meeting (i.e., a calendar invite is sent out by the SDR to the prospect and AE).
 - SDR sends a summary of the opportunity to the AE, and gets confirmation of the proposed agenda and any additional attendees to be included from Sourcegraph (CE, Manager, etc.).
@@ -137,29 +137,29 @@ Before the first call with the prospect:
   - Provide value by including any relevant case studies, docs, 1-pagers, etc.
   - End the note with excitement: "We look forward to speaking with you soon!"
 
-On the actual call with the prospect:
+**On the actual call with the prospect:**
 
 - SDR starts the call, sets the tone by giving a quick overview on how the SDR and the prospect got connected, and then transitions to something like, "I've caught (AE/CE) up to speed on our conversation, I'll go ahead and pass the mic to AE to introduce themselves."
 - AE jumps in, introduces themselves and CE (if there is one on the call), and takes over from there.
 
-At the end of the call:
+**At the end of the call:**
 
 - AE wraps up the call and confirms next steps.
   - Note: If towards the end of the call, the AE can't solidify next steps, the SDR may choose to step in as a *"second voice"* and attempt to pencil down next steps, but only if it makes sense.
 
-After the call:
+**After the call:**
 
 - AE will follow up via email, cc'ing the SDR and CE.
   - Note: SDRs don't need to be cc'ed on all prospect emails, just the initial ones.
 - At this point, **the handoff to AE is now complete.**
 
-The purpose of this framework is to encourage a much more fluid introduction and transition from SDR to AE; this isn't meant to be a strict and rigid process, but rather a guide.
+    - The purpose of this framework is to encourage a much more fluid introduction and transition from SDR to AE; this isn't meant to be a strict and rigid process, but rather a guide.
 
-Sending the initial email opens the communication line between all parties, instead of having the proposed agenda appear only in the calendar invite.
+    - Sending the initial email opens the communication line between all parties, instead of having the proposed agenda appear only in the calendar invite.
 
-This process helps build a continuous rapport between the prospect and the SDRs. And in the event the prospect becomes unresponsive, the SDR can step in and attempt to revive the conversation. Or if the prospect has a question, and the AE isn't available, SDRs can provide back up support. 
+    - This process helps build a continuous rapport between the prospect and the SDRs. And in the event the prospect becomes unresponsive, the SDR can step in and attempt to revive the conversation. Or if the prospect has a question, and the AE isn't available, SDRs can provide back up support. 
 
-Finally, this process is a proactive way to ensure that SDRs are setting high-quality meetings for their AEs.
+    - Finally, this process is a proactive way to ensure that SDRs are setting high-quality meetings for their AEs.
 
 ## Best Practices
 (TBD)
