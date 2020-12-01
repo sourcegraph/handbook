@@ -68,7 +68,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
    - [1 hr] **Working with customers and data**: The biz ops and customer engineering teams talk with you about how you work with customers to gather feedback. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/customers-and-data.md)
       - [Dan Adler](../../../company/team/index.md#dan-adler-he-him)
       - Plus one of the following:
-         - [Eric Broody-Moore](../../../company/team/index.md#eric-brody-moore)
+         - [Eric Brody-Moore](../../../company/team/index.md#eric-brody-moore)
          - [Christine Lovett](../../../company/team/index.md#christine-lovett-she-her)
    - [1 hr] **Design and Engineering collaboration**: The design and engineering teams talk with you about how you collaborate and work within a team. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/design-engineering-collaboration.md)
       - The engineering manager for the team this person is most likely to work with. See [engineering managers](../../engineering/leadership/index.md#members) and note from HM on candidate's Lever profile.
