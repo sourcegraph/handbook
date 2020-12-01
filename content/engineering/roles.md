@@ -8,7 +8,7 @@ Software engineers build our product and infrastructure.
 
 ### Responsibilities
 
-- Model [our company values](../../company/values.md) and apply our [guiding engineering principles](index.md#guiding-principles) throughout all your interactions and work.
+- Model and apply [our company values](../../company/values.md) and our [guiding engineering principles](index.md#guiding-principles) throughout all your interactions and work.
 - Iteratively create, ship, and maintain high quality architecture, code, tests, and documentation that aligns with team goals.
 - Document and share your progress in relevant locations at least once a week (for example: in GitHub issues, team slack channel, #progress, [CHANGELOG.md](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md)).
 - Prioritize unblocking and supporting your teammates (for example: sharing knowledge, answering questions, providing feedback).
@@ -20,16 +20,11 @@ Engineering managers lead, grow, and develop teams of software engineers.
 
 ### Responsibilities
 
-Build an exceptional team that achieves results.
-
-- Ensure that the team has a roadmap that documents how it is going to achieve its [goals](../../company/goals/index.md).
-- Ensure the the team's [tracking issue](tracking_issues.md) captures the work that each teammate has committed to for each [monthly release](releases/index.md) and post a [weekly progress update](tracking_issues.md#progress-updates).
-- Conduct monthly [retrospectives](../../retrospectives/index.md) with the team.
-- Conduct regular [1-1s](../leadership/1-1.md).
-- Own the end-to-end hiring process for the team and grow the team according to the hiring plan.
-- Make [compensation](../people-ops/compensation.md) decisions for direct reports and candidate offers to ensure that everyone is appropriately compensated at all times.
-- Hold teammates accountable for fulfilling their responsibilities.
-- If your team has a product manager, uphold your end of the [PM – EM partnership responsibilities](../product/roles/product_manager_engineering_manager_responsibilities.md).
+- Model, teach, and reinforce [our company values](../../company/values.md) and [our guiding engineering principles](index.md#guiding-principles) to the team.
+- Support and coach teammates to grow in their careers and fulfill their responsibilities (examples: [1-1s](../leadership/1-1.md), [retrospectives](../../retrospectives/index.md), [review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles), [compensation](../people-ops/compensation.md))
+- Ensure the team has clear incremental goals that are documented and are always up-to-date (example: [PM – EM partnership responsibilities](../product/roles/product_manager_engineering_manager_responsibilities.md)).
+- Regularly communicate the team's progress toward their goals as well as changes in team goals to appropriate stakeholders (examples: presenting a slide at [company meeting](../communication/company_meeting.md), [weekly updates](leadership/index.md#weekly-updates))
+- Own the end-to-end hiring process for your team (examples: define open roles, maintain a hiring plan over time, source candidates with help from our talent org, define efficient and effective interview process, make hiring decisions).
 
 ## VP Engineering
 
