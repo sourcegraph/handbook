@@ -37,6 +37,7 @@ We may choose to not issue a reward if any of the following apply:
 1. You engage in disruptive behavior on sourcegraph.com itself (e.g. spamming our system with requests, fake accounts, denial of service). Sourcegraph is [open source software](https://github.com/sourcegraph/sourcegraph), so you can [install a copy yourself](https://docs.sourcegraph.com/#quickstart-guide) and test against that instead.
 1. You report an already reported bounty, or one already in our roadmap.
 1. You publicly disclose a vulnerability before we confirm that it is OK to do so. We want to give our customers time to upgrade to a patched version before public disclosure.
+1. You report a vulnerability on an archived project. If a project is archived, that means it's unmaintained, and will not be updated.
 1. You spam us with duplicate and/or low quality vulnerability reports (e.g. copy/pasting generic issues from automatic scanning tools).
 1. You are a current or former teammate at Sourcegraph (e.g. employee, contractor, intern).
 1. You are friends or family with a current or former teammate at Sourcegraph.
