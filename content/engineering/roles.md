@@ -20,11 +20,12 @@ Engineering managers lead, grow, and develop teams of software engineers.
 
 ### Responsibilities
 
-- Model, teach, and reinforce [our company values](../../company/values.md) and [our guiding engineering principles](index.md#guiding-principles) to the team.
-- Support and coach teammates to grow in their careers and fulfill their responsibilities (examples: [1-1s](../leadership/1-1.md), [retrospectives](../../retrospectives/index.md), [review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles), [compensation](../people-ops/compensation.md))
+- Facilitate an inclusive and cohesive team environment where everyone is happy, motivated, and productive (examples: [retrospectives](../../retrospectives/index.md), [team events](../people-ops/travel.md#team-events), [compensation](../people-ops/compensation.md)).
+- Model, teach, and reinforce [our company values](../../company/values.md) and [our guiding engineering principles](index.md#guiding-principles).
 - Ensure the team has clear incremental goals that are documented and are always up-to-date (example: [PM – EM partnership responsibilities](../product/roles/product_manager_engineering_manager_responsibilities.md)).
 - Regularly communicate the team's progress toward their goals as well as changes in team goals to appropriate stakeholders (examples: presenting a slide at [company meeting](../communication/company_meeting.md), [weekly updates](leadership/index.md#weekly-updates))
-- Own the end-to-end hiring process for your team (examples: define open roles, maintain a hiring plan over time, source candidates with help from our talent org, define efficient and effective interview process, make hiring decisions).
+- Support and coach teammates to grow in their careers and fulfill their responsibilities (examples: [1-1s](../leadership/1-1.md), [retrospectives](), [review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles), [compensation](../people-ops/compensation.md))
+- Grow the team in a sustainable way so that the team can accomplish more over time (examples: define open roles, maintain a hiring plan over time, source candidates with help from our talent org, define efficient and effective interview process, make hiring decisions).
 
 ## VP Engineering
 
