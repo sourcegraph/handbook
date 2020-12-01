@@ -83,6 +83,10 @@ Changes that are cross-cutting or requiring greater than one week of effort are 
 
 Teams planning and executing changes should ask for Pull Request reviews from the Security Team as needed to gain confidence in the implementation. Teams should also feel free to ask for a security review of any RFC they're working on that aren't directly created from the Security Goals.
 
+**Deploying infrastructure**
+
+Security develops infrastructure in the [Auxilliary project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-server&_ga=2.42742757.1539584256.1606825468-757838940.1606655220). We work with the [Distribution team](https://about.sourcegraph.com/handbook/engineering/distribution) to deploy and test in dogfood, and promote to production. We are responsible for documentation and operating systems, and [Distribution](https://about.sourcegraph.com/handbook/engineering/distribution) helps make infrastructure production-ready based on our guidelines. Security acts as an input to Distribution.
+
 ## Members
 
 - [Chayim Kirshen](../../../company/team/index.md#chayim-kirshen-he-him) ([Engineering Manager](../roles.md#engineering-manager)).
