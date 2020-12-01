@@ -3,8 +3,8 @@
 
 ## Members
 
-- [Mark Muldez](../../../../company/team/index.md#mark-muldez-he-him)
 - [Quin Keough](../../../../company/team/index.md#quin-keough)
+- [Mark Muldez](../../../../company/team/index.md#mark-muldez-he-him)
 
 ## Links
 
