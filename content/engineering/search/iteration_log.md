@@ -33,6 +33,13 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
     
+### Structural search for monorepos
+- **Owner(s):** Rijnard
+- **Outcomes:**
+    - Make structural search work better for monorepos. Currently monorepos can time out for structural search purely because it takes too long to copy the data to search. The outcome focuses on architectural changes to avoid unnecessary data zipping and copying to our searcher worker. 
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+    
 ## 2020-11-16 to 2020-11-27
 
 ### Streaming search
