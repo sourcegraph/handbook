@@ -4,15 +4,17 @@ The SDR Team (fill in the blanks)
 
 ## Members
 
-- [Gregg Stone](../../../../company/team/index.md#gregg-stone), VP of Sales
-- [Quin Keough](../../../../company/team/index.md#quin-keough), SDR - West
-- [Mark Muldez](../../../../company/team/index.md#mark-muldez-he-him), SDR - East
+- [Gregg Stone](../../../../company/team/index.md#gregg-stone) - VP of Sales
+- [Quin Keough](../../../../company/team/index.md#quin-keough) - West
+- [Mark Muldez](../../../../company/team/index.md#mark-muldez-he-him) - East
 
 ## Resources
 
 - [Outbound Account Strategy](#outbound-account-strategy)
 - [SDR Playbook](#sdr-playbook)
 - [SDR Handoff Guide](#sdr-to-ae-handoff)
+- [Best Practices](#best-practices)
+- [Tech Stack](#tech-stack)
 
 ## Outbound Account Strategy
 (TBD)
@@ -158,3 +160,14 @@ Sending the initial email opens the communication line between all parties, inst
 This process helps build a continuous rapport between the prospect and the SDRs. And in the event the prospect becomes unresponsive, the SDR can step in and attempt to revive the conversation. Or if the prospect has a question, and the AE isn't available, SDRs can provide back up support. 
 
 Finally, this process is a proactive way to ensure that SDRs are setting high-quality meetings for their AEs.
+
+## Best Practices
+(TBD)
+
+## Tech Stack
+
+- Salesforce - Customer Relationship Management
+- Outreach.io - Sales Engagement Platform
+- Linkedin Sales Navigator - Prospecting Tool
+- Zoominfo - Data Intelligence Tool
+- LeadiQ - Data Intelligence Tool
