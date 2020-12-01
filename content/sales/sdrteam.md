@@ -8,7 +8,7 @@ The SDR Team (fill in the blanks)
 - [Quin Keough](../../../../company/team/index.md#quin-keough) - West
 - [Mark Muldez](../../../../company/team/index.md#mark-muldez-he-him) - East
 
-## Resources
+## Quick Links
 
 - [Outbound Account Strategy](#outbound-account-strategy)
 - [SDR Playbook](#sdr-playbook)
@@ -16,7 +16,7 @@ The SDR Team (fill in the blanks)
 - [Best Practices](#best-practices)
 - [Tech Stack](#tech-stack)
 
-## Outbound Account Strategy
+## Outbound Strategy
 (TBD)
 
 ## SDR Playbook
@@ -81,7 +81,7 @@ SDR monitors new inbound lead using a **lead view** in *Salesforce*
 - SDR scrubs the Lead to confirm / enrich contact info fields - Name, Company, Title, Email, etc. 
 - SDR dedupes the lead to look for existing activity, open/recently closed opportunities, etc. to determine eligibility to work based on the Rules of Engagement
   - If eligible to work, SDR should update Lead Status to “Working” and push lead to Outreach.io to begin outreach. 
-  - NOTE: we target <5 mins from new Lead Creation to First Touch during working hours, with a firm SLA of 24 hours for updating the Lead Status of any New Lead
+  - **NOTE:** we target <5 mins from new Lead Creation to First Touch during working hours, with a firm SLA of 24 hours for updating the Lead Status of any New Lead
 
 #### Inbound Lead to Opportunity Conversion Workflow
 
