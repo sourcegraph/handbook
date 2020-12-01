@@ -171,3 +171,4 @@ AE leads initial call and dispositions the opportunity accordingly:
 - Linkedin Sales Navigator - Prospecting Tool
 - Zoominfo - Data Intelligence Tool
 - LeadiQ - Data Intelligence Tool
+-Yesware-Data Intelligence Tool
