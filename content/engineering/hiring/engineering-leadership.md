@@ -19,20 +19,21 @@ Questions:
 
 - Describe in your own words what the job of an engineering manager is.
 - How do you measure if you are doing a good job as an engineering manager?
-- What did you do to improve the engineering culture of your last team?
+  - By that measure, did you do a good job at your most recent role?
 
 ## Growth mindset
 
 Measure:
 
-- Is this person aware of their own strengths and weaknesses?
-- How have they demonstrated ownership over their own career development?
+- Does this person model and facilitate [continuous growth](https://about.sourcegraph.com/company/values#continuously-grow).
 
 Questions:
 
-- What development feedback have you received from your peers and managers in the last year?
-- What is something you have struggled with as an engineering manager in the last year?
-- What are some things you have done in the last year to become a better engineering manager?
+- What career growth have you achieved in your most recent role?
+  - What did you get better at?
+  - What what did you struggle with?
+- What have you done in the last year to become a better engineering manager?
+- Can you describe a recent example of how you have helped an engineer grow in their career?
 
 ## Prioritization
 
@@ -61,16 +62,5 @@ Questions:
   - Would you call the outcome a success?
   - What did you learn from the situation? Is there anything you wish you had done differently?
 - How do you attract, hire, and retain excellent engineers?
-
-## Technical decisions
-
-Measure:
-
-- How does this person ensure that their team makes good technical decisions?
-
-Questions:
-
-- How do you balance your responsibility as an engineering manager to be the technical backstop for your team with giving your team ownership and autonomy over their work?
-- Have you ever vetoed a decision made by an engineer on your team? Describe the situation and the outcome.
 
 Go back to the [careers page](../../../company/careers.md) for all open positions.
