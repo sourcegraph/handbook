@@ -7,6 +7,7 @@ The distribution team is responsible for making Sourcegraph easy to deploy, scal
 ## Contact
 
 - Slack: #distributioneers channel or @distribution
+- [Support rotation](#support-rotation)
 - File issues: [team/distribution](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/distribution) label
 
 ## Team communication
@@ -49,12 +50,49 @@ See [Goals](goals.md)
 
 Other:
 
-- [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) is in an experimental role acting as [an internal contributor, focused on high-value low-cost wins across the board.](https://docs.google.com/document/d/18c9dVjw5MuvOMHahCFQQPAVsp1vRdFDDI_7hmo5MWyQ/edit) His work is not isolated to the Distribution team, it will tracked in [a project board](https://github.com/orgs/sourcegraph/projects/106), with status updates to his manager and any other relevant teams regularly. He will work closely with (and sometimes embedded in) other teams, and get alignment with the product team (and any other team) on his work. This is an experiment between 2020-11-23 and 2021-01-23 and we will evaluate the outcome around that time. [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) will continue to be his manager during this experiment.
+- [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) is in an experimental role acting as [an internal contributor, focused on high-value low-cost wins across the board.](https://docs.google.com/document/d/18c9dVjw5MuvOMHahCFQQPAVsp1vRdFDDI_7hmo5MWyQ/edit) His work is not isolated from the Distribution team, it will tracked on [a project board](https://github.com/orgs/sourcegraph/projects/106), with regular status updates to his manager and any other relevant teams. He will work closely with (and sometimes embedded in) other teams, and get alignment with the product team (and any other team) on his work. This is an experiment between 2020-11-23 and 2021-01-23 and we will evaluate the outcome around that time. [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) will continue to be his manager during this experiment.
 
-## On-call
+## On-call rotation
+
+Who is on call? Slack: `/genie whoisoncall Distribution`
+
+We have an OpsGenie rotation to respond to [incidents](../incidents/index.md) (events that cause service disruption). You can find more information about [being on call in the handbook](../incidents/on_call.md).
+
+**Incidents on-call**
 
 - [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+ObservableOwnerDistribution%29+count:1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/aa59eba4-9b34-45ea-9515-c4dab4cbdac9/main)
+
+## Support rotation
+
+Who is on call? Slack: `/genie whoisoncall distribution-support`
+
+We maintain a support rotation to deal day-to-day requests (respond to ad-hoc, time-sensitive questions from customers or other teams, RFC review requests, etc). This makes it easier for other teams to reach out an engineer on the team who's priority is answering these questions and helps other engineers on the team remain focused. You can read more about this on the references below.
+When you are the active support engineer, your focus and priority is responding to requests and questions in #distributioneers, sometimes this might require creating an issue, re-assigning, looping in other engineers, etc.
+
+_If for any reason you are unavailable for a rotation, please coordinate with the team for someone to take over._
+
+**References:**
+
+- [SRE Book](https://sre.google/sre-book/dealing-with-interrupts/)
+
+### Contacting the support engineer
+
+There are many reasons to contact the support engineer depending on the priority or urgency of a request.
+Here are some guidelines that will help ensure we can reply to your request appropriately.
+
+#### General questions
+
+Send us a message in #distributioneers and notify the active engineer by `@` his user in the message.
+Alternatively `@` the engineer in the thread in which he is required.
+If this is a **time sensitive request**, please let us know in the message that this is the case
+
+#### Customer incidents
+
+You can send an urgent notification to the engineer directly from Slack utilizing the following command: `/genie alert "ce/p1: Customer XYZ systems are impaired #12345" for distribution-support`.
+If the engineer is unable, a message will be send to the rest of the team.
+
+Please provide a link to an [issue](https://about.sourcegraph.com/handbook/ce/customer_issues) in the message.
 
 ## Growth plan
 
