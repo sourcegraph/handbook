@@ -118,7 +118,7 @@ Enterprise Plus and Elite customers should refer to their contracts if they have
 ### How to find which Sourcegraph version a company is running
 
 1. Visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436).
-1. Find the row for the customer's instance. (If you can't find it, ask in #analytics on Slack.)
+1. Find the row for the customer's instance. (If you can't find it and it's not an Offline Instance mentioned below, ask in #analytics on Slack.)
 1. Look at the version number in the row's **Latest Version** column.
 
 ### Offline instances
