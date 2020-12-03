@@ -104,7 +104,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 
 ## Resources
 - Demo Recordings
-  - [Dan's Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing)
+  - [101 Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing) (dan@)
   - [Product Info Session](https://youtu.be/iTBTri_q5MA) (jonah@)
   - [CE-to-CE Demo walkthrough](https://drive.google.com/drive/folders/1CN_9QLCPxG8-MB06zMgsvT-RjYRnEWYZ?usp=sharing) 
   
