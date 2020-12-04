@@ -1,6 +1,6 @@
 # Account Executive
 
-We are looking for a seasoned sales professional with a background of selling technical solutions into large accounts to join our growing team as we move deeper into the enterprise market. We are looking for motivated, hardworking Account Executives who can sell a technical product with integrity and conviction.
+We are looking for seasoned sales professionals with a background of selling technical solutions into large accounts to join our growing team as we move deeper into the enterprise market. We are looking for motivated, hardworking Account Executives who can sell a technical product with integrity and conviction.
 
 We're still a young team, so each member plays an integral role in building the foundation of our future sales organization. Your primary role will be to drive revenue growth, and to be on the main lines of evangelizing our platform to engineering organizations everywhere, across all verticals. Despite our success thus far, in many ways we are just getting started - this role is an amazing opportunity for an experienced enterprise sales professional to make a massive impact quickly.
 
