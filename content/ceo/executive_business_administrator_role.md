@@ -1,10 +1,10 @@
 # Executive Business Administrator role
 
-We're looking for someone to work with our CEO and executive team to help with internal and external communication, logistics, and scheduling. You'll be part of our quickly growing, [all-remote](../../company/remote/index.md), [values-oriented](../../company/values.md) team at [Sourcegraph](https://about.sourcegraph.com).
+We're looking for someone to work with our CEO to help with internal and external communication, processes, logistics, and scheduling. You'll be part of our quickly growing, [all-remote](../../company/remote/index.md), [values-oriented](../../company/values.md) team at [Sourcegraph](https://about.sourcegraph.com).
 
 ## You'll:
 
-- Support our CEO (primarily) and 4 members of the executive team in US Pacific and Eastern Time Zones
+- Support our CEO
 - Manage complex calendar scheduling with team members, customers, candidates, investors, and others
 - Draft and review internal and external communications for our CEO
 - Attend company and executive team meetings, track agenda, and keep notes
@@ -15,7 +15,7 @@ We're looking for someone to work with our CEO and executive team to help with i
 
 ## Ideal candidates will have:
 
-- Experience in a similar role supporting a CEO or executive team of a quickly growing company
+- Experience in a similar role supporting a CEO and/or executive team of a quickly growing company
 - Exceptional communication skills with team members, customers, candidates, investors, and other types of people
 - Very high-quality written English
 - High attention to detail
