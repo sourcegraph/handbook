@@ -22,7 +22,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Design QA feedback on the code monitoring creation and list pages is addressed.
     - (Loïc) Starting points for code monitoring are documented
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-12-04 (stefan): I made good progress this week. Locally, code monitoring works as expected including sending emails. I am currently splitting up the changes in smaller chunks to make the updates more reviewable. I don't expect to have enough time to implement a custom "unsubscribe", so we will go with Mailchimp (just like saved searches). Since Mailchimp adds the unsubscribe footer automatically, we have to make a minor adjustment to the design of the email template. I plan to spend the next week fixing minor bugs, increasing test coverage, and improving code quality.
 
 ### Documentation clean up and content
 
