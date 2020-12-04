@@ -23,6 +23,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - Collect questions along the way (unfamiliar terms, use cases, etc.)
   - Make a Handbook edit to the CE onboarding section
   - Complete [General Onboarding](https://about.sourcegraph.com/handbook/ce/onboarding#general-onboarding-during-weeks-1-and-2) 
+  - Understand how we [create and store customer meeting notes](../ce/customer-notes.md)
 
 ### Week 2
   - Discovery questions 
@@ -113,6 +114,8 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - [Structural Search Overview](https://zoom.us/rec/share/CJtwQ7uEp3v1pvPqdUD7GDuaYm_2g6w3zSP7GNA3aGQHZDjQ72awYXvHEnwsoio6.Bt-0DuuAZjs7UXMc?startTime=1606237440000)
   
 - [Creating and maintaining license keys](https://about.sourcegraph.com/handbook/ce/license_keys)
+
+- [Creating and storing customer meeting notes](../ce/customer-notes.md) 
  
   
 ## FAQ
