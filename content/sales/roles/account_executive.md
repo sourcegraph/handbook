@@ -19,7 +19,7 @@ We're still a young team, so each member plays an integral role in building the 
 
 - 5+ years enterprise technical sales experience, SaaS preferred
 - Proven track record of exceeding sales quotas, while leading with empathy
-- Experience selling products with ASP >= \$100k
+- Experience selling products with ASP >= $100k
 - Stellar interpersonal, presentation, verbal, and written communication skills, across all levels and personas (be it with a developer, a CTO, another salesperson, or anyone in-between)
 - Proficiency with software development concepts
 - Passionate about our mission and the potential for developers to improve the world
