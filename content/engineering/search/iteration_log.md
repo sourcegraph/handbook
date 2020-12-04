@@ -40,7 +40,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
     
-### Structural search for monorepos
+### Streaming search
 - **Owner(s):** Juliana, Keegan
 - **Outcomes:**
     - Streaming search is available behind a feature flag, which we enable by default for the Sourcegraph org.
@@ -48,7 +48,10 @@ This document contains the goals and work log for the search team's [2-week iter
     - We have repo-level streaming for search types other than `diff`.
     - The streaming search UI is closer to feature parity with the GraphQL search UI.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-12-03: (juliana) Streaming search is now enabled for Sourcegraph org users on sourcegraph.com
+    - 2020-12-04: (juliana) Streaming search now shows states (loading, completed with no results, completed with some results) ([#16410](https://github.com/sourcegraph/sourcegraph/pull/16410))
+    - 2020-12-04: (juliana) Met with Rob to QA to the search progress UI design implementation. Some PRs and work items have been created out of that. ([#16475](https://github.com/sourcegraph/sourcegraph/pull/16475), [#16476](https://github.com/sourcegraph/sourcegraph/pull/16476))
+    
     
 ## 2020-11-16 to 2020-11-27
 
