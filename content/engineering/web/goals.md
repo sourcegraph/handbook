@@ -21,11 +21,12 @@
 
 ### Medium term
 
-_To reach our long-term goal, we set the following medium-term goals to guide our short-term iteration plans. These medium-term goals are listed in order of rough priority. This means we preference a sooner-listed goal when making progress on one would conflict with another goal, but it doesn't mean we only work on the first goal until it's done – we balance our iterations in sum so we can make some progress on all of these goals over a quarter. Within each goal, the sub-goals are also listed in (stricter) priority order._ 
+_These medium-term goals are listed in order of rough priority. This means we preference a sooner-listed goal when making progress on one would conflict with another goal, but it doesn't mean we only work on the first goal until it's done – we balance our iterations in sum so we can make some progress on all of these goals over a quarter. Within each goal, the sub-goals are also listed in (stricter) priority order._ 
 
-1. **Make the Sourcegraph web interfaces more consistent and improve discoverability of Sourcegraph features.**
-   1. Make progress on design debt throughout the web app where the web team owns the design: repo page areas and panels, navigation and headers, general theming, and the blob page (file viewer). 
-   1. Build and update designs to help users discover or understand everything Sourcegraph offers, like new navigation menus and header concepts. 
+1. **Make code insights an entirely new reason to use Sourcegraph.**
+   1. Focus on building prototypes to solve the most pressing needs of our customers, to clearly demonstrate the value of code insights. 
+   1. Expose more generalizable metrics that let our users measure and track their own goals, whether those are migrations, code smells, security needs, cross-collaboration, or other information about code. 
+   1. Expose features that let our users build their own insights. 
 
 1. **Make Sourcegraph extensions a core part of Sourcegraph users' experiences.**
    1. Track anonymized, general usage of extensions to determine which extensions are most successful at adding value for our users to inform our future work.
@@ -33,15 +34,14 @@ _To reach our long-term goal, we set the following medium-term goals to guide ou
    1. Make the extensions action bar clear and scalable, and help users discover and use our extensions. 
    1. Improve discoverability and design of the extension registry to enable users to find the most useful extensions and make users excited to build their own extension. 
 
-1. **Make code insights an entirely new reason to use Sourcegraph.**
-   1. Focus on building prototypes to solve the most pressing needs of our customers, to clearly demonstrate the value of code insights. 
-   1. Expose more generalizable metrics that let our users measure and track their own goals, whether those are migrations, code smells, security needs, cross-collaboration, or other information about code. 
-   1. Expose features that let our users build their own insights. 
-
 1. **Increase the weekly active users of all our code host integrations.**
    1. Maintain the existing native integrations and browser extensions. 
    1. Build support for new code hosts and new browsers, like Safari and Gerrit. 
    1. Build support for the browser extension to reference both a private Sourcegraph instance and public code on Sourcegraph.com. 
+
+1. **Make the Sourcegraph web interfaces more consistent and improve discoverability of Sourcegraph features.**
+   1. Make progress on design debt throughout the web app where the web team owns the design: repo page areas and panels, navigation and headers, general theming, and the blob page (file viewer). 
+   1. Build and update designs to help users discover or understand everything Sourcegraph offers, like new navigation menus and header concepts. 
 
 ### Short term
 
