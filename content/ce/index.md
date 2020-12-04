@@ -28,6 +28,7 @@ TODO
   - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
   - [Jonah Dueck](../../company/team/index.md#jonah-dueck-he-him)
   - [Josh Saunders](../../company/team/index.md#josh-saunders)
+  - [Nick McMillen](../../company/team/index.md#nick-mcmillen-he-him)
 - Customer Support
   - We’re hiring a [Head of Customer Support](./roles/head_of_customer_support.md). Julia Glilnets is involved in the meantime.
 - Training
