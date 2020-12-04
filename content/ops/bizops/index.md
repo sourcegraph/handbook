@@ -94,3 +94,8 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 
 * By clicking `Explore from here` or changing a filter on a dashboard, you *will not* change the underlying dashboard. Unless you explicitly click `Edit`, you are considered to be on your own temporary branch and will not change anything (even for yourself the next time you open the dashboard). 
 * When creating and editing dashboards, save individual tables and charts as [looks](https://docs.looker.com/exploring-data/saving-and-editing-looks) instead of tiles directly to the dashboard. Looks can be added to multiple dashboards while tiles cannot be, and when look is edited, the changes will apply to dashboards that look exists. 
+
+### Downsides of Looker (and our plans to address them)
+- **Discoverability of data**: Bookmarking, favoriting or adding the sales/customer engineering board, product/engineering board and server instances overview look (or some combination of them) to your Looker instance is the best solution right now. These are all kept up-to-date with the most relevant data for all teams. 
+- **Speed**: Looker’s UI makes it easy to analyze data, but the result really complex SQL query that take awhile to run (especially on dashboards that are compiled of many separate queries). Fixing the performance issues is not currently a priority, but is something that we’ll get to when we grow the team out.  
+- **Naming conventions**: We’re slowly working on making naming conventions of dashboards, graphs, data points, etc... more obvious. If you come across anything that isn’t clear, let us know! 
