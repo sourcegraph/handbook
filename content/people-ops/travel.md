@@ -38,5 +38,5 @@ Sourcegraph generally holds two company-wide events each year, each fully covere
 
 ## Professional development and education
 
-- Each team member has a $1,000 USD budget for professional development and education, as outlined on our [careers page](https://github.com/sourcegraph/careers#-professional-development).
+- Each team member has a $1,000 USD budget for professional development and education, as outlined on our [benefits page](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks#professional-development).
 - This can also be used for travel related to professional development (e.g., for conferences or training sessions).
