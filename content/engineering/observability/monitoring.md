@@ -10,6 +10,7 @@ This document describes how to develop Sourcegraph's monitoring.
   - [Monitoring pillars](#monitoring-pillars)
   - [Monitoring architecture](#monitoring-architecture)
 - [Finding monitoring](#finding-monitoring)
+  - [Alerts](#alerts)
   - [Find available metrics](#find-available-metrics)
   - [Queries](#queries)
 - [Adding monitoring](#adding-monitoring)
@@ -49,6 +50,50 @@ To learn more about our monitoring goals and principles, refer to: [monitoring p
 To learn more about our monitoring stack and architecture, refer to: [monitoring architecture](./monitoring_architecture.md).
 
 ## Finding Monitoring
+
+### Alerts
+
+#### Sourcegraph instances
+
+Instances managed by Sourcegraph (Sourcegraph Cloud, k8s.sgdev.org, etc.) have alerts redirected to Slack and Opsgenie as documented in the [instances page](../deployments/instances.md).
+Additional details can be found in each instance's Grafana dashboards (`/-/debug/grafana`).
+
+If you wish, you can set up Slack alerts for your own team on various instances by adding something like the following to the site configuration (`site-admin/configuration`) of that instance:
+
+```json
+  "observability.alerts": [
+    {
+      "level": "critical",
+      "notifier": {
+        "type": "slack",
+        "username": "$TEAM - Sourcegraph Cloud",
+        "url": "https://hooks.slack.com/services/..."
+      },
+      "owners": [
+        "$TEAM"
+      ]
+    },
+  ]
+```
+
+#### Customer instances
+
+The bug report page (`/site-admin/report-bug`) for each Sourcegraph instance has a page that provides useful information about an instance's configuration. In this page, there is a field `"alerts":` that can be used to request recent alert data from customer instances:
+
+```json
+  "alerts": [
+    {
+      "serviceName": "executor-queue",
+      "name": "warning: executor_queue_growth_rate",
+      "timestamp": "2020-11-28T14:00:00Z",
+      "average": 0.6504517025712306, // % of last 12 hours during which this alert was firing 
+      "owner": "code-intel"
+    },
+    // ...
+  ]
+```
+
+Data for recent alerts and metrics can be requested from customers from their Grafana dashboards (`/-/debug/grafana`).
 
 ### Find available metrics
 
