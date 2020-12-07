@@ -128,7 +128,7 @@ However, don’t rely on contractions alone for a conversational voice.
 
 ## Conversational writing
 
-Our voice is conversational. When we’re talking, we connect words with articles like “the,” “for,” “these,” and “an.” If we remove these from our writing, it makes our copy feel stiff and complicated. We can be flexible, though. If space is a limitation, the article can be omitted.
+Our voice is conversational. When we’re talking, we connect words with articles like “the,” “for,” “these,” and “an.” If we remove these from our writing, it makes our copy feel stiff and complicated. We can be flexible, though. If space is a limitation, the article can be omitted. 
 
 <div class="usage">
 <div class="item yes">
@@ -143,6 +143,23 @@ Our voice is conversational. When we’re talking, we connect words with article
 <ul>
 <li>Create campaign</li>
 <li>Save changes</li>
+</ul>
+</div>
+</div>
+
+Write without rigidity.
+
+<div class="usage">
+<div class="item yes">
+<h5>Yes</h5>
+<ul>
+<li>Create an account to manage extensions.</li>
+</ul>
+</div>
+<div class="item no">
+<h5>No</h5>
+<ul>
+<li>An account is required to manage extensions.</li>
 </ul>
 </div>
 </div>
