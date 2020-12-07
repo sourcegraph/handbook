@@ -41,6 +41,17 @@ We cross-post our open positions to the following locations:
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
 - ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md)
 - [RemoteWoman](https://remotewoman.com/)
+- [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Nick owns this list and payments are made with Nick's Brex. Tech Ladies checks our open positions every month to see if there are updates, but we can request an update anytime by emailing jobpostings@hiretechladies.com. Here are the 10 roles that we post:
+  1. [Engineering Manager - Backend Platform and Cloud](../../engineering/hiring/engineering-manager-backend-platform.md)
+  1. [Software Engineer - Frontend](../../engineering/hiring/software-engineer-frontend.md)
+  1. [Software Engineer - Backend](../../engineering/hiring/software-engineer-backend.md)
+  1. [Software Engineer - Distribution](../../engineering/hiring/software-engineer-distribution.md)
+  1. [Software Engineer - Security](../../engineering/hiring/software-engineer-security.md)
+  1. [Director of Community](../../marketing/roles/director_of_community.md)
+  1. [Director of Product Marketing](../../marketing/roles/director_of_product_marketing.md)
+  1. [Account Executive](../../sales/roles/account_executive.md)
+  1. [Product Manager](../../product/roles/product_manager.md)
+  1. [Product Designer](../../product/roles/product_designer.md)
 
 We welcome suggestions for more places that we can post!
 
