@@ -5,21 +5,21 @@ We are looking for a Creative Director to shape Sourcegraph’s brand identity a
 ## Responsibilities
 
 * Grow and lead our Brand Creative team, scaling the execution of high quality, insightful, and differentiating design work.
-* Define and report on Brand Creative team mission and goals
+* Define and report on Brand Creative team mission and goals.
 * Collaboratively craft and implement a cohesive visual style and accompanying brand design languages and systems that will serve as a foundation for our brand identity and experiences.
 * Act as a steward of the Sourcegraph brand, ensuring integrity, quality, and cohesiveness across all brand experiences.
 * Oversee the prioritization and assignment of all brand creative requests, and partner with the Operations team to establish processes that keep the Brand Creative team happy, creatively inspired, and focused on supporting company goals.
 * Work with partners in Marketing, Sales, Product Design, and Content to align our creative work with company-wide plans.
 * Partner with our demand generation team to iterate, optimize creative experiments, and improve results based on data.
 * Partner with our Community team to create delightful experiences that will engage and grow our developer community.
-* Support the creation of high quality sales and marketing materials
-* Help onboard and guide creative agencies and freelancers 
+* Support the creation of high quality sales and marketing materials.
+* Help onboard and guide creative agencies and freelancers. 
 
 ### In the first 30 days you will…
 
 * Build a 30-60-90 plan, including creative vision and headcount needs.
 * Collect feedback from customers and internal teams, and partner with Content and Product Design to begin defining Sourcegraph’s brand identity.
-* Define and implement internal creative process and workflows
+* Define and implement internal creative processes and workflows.
 * Begin to build a Brand Creative team by hiring amazing people.
 * Take ownership of our external creative agency and freelance relationships.
 * Support company priorities such as product launches and marketing campaigns.
@@ -28,8 +28,8 @@ We are looking for a Creative Director to shape Sourcegraph’s brand identity a
 * Identify and implement any necessary tools for your team.
 * Work with the Content team to prioritize high impact lead generation and sales enablement assets and begin to build a sales repository.
 * Envision and implement a cohesive visual style and brand design language for all brand experiences, in partnership with Marketing and Product Design.
-* Create a brand style guide
-* Identify opportunities to test and optimize digital and ad creative
+* Create a brand style guide.
+* Identify opportunities to test and optimize digital and ad creative.
 * Support sales and marketing by creating high quality materials, including:
     * Customer use cases
     * Pitch decks
@@ -38,14 +38,14 @@ We are looking for a Creative Director to shape Sourcegraph’s brand identity a
 
 ## Requirements
 * Experience building and managing creative teams.
-* A visually compelling portfolio of inspiring creative work demonstrating relevant  visual design and branding excellence.
-* Excellent coaching skills, and experience attracting and supporting top-tier creative talent
+* A visually compelling portfolio of inspiring creative work demonstrating relevant visual design and branding excellence.
+* Excellent coaching skills, and experience attracting and supporting top-tier creative talent.
 * Experience developing and evolving brand and marketing design systems, visual languages, and brand identities, including typography, iconography, illustration, and messaging.
 * You understand how content and design work together to tell the most engaging stories for a particular audience.
 * You have expertise in creative best practices for growth marketing and digital experiences and enjoy testing/measuring the impact of creative work.
-* You’re comfortable using the tools of the trade to design, share feedback, and ensure work is on track (e.g. Adobe Creative Suite, Figma, Sketch, InVision, AfterEffects, Cinema 4D, plus project management tools like Asana, Jira, and Slack)
+* You’re comfortable using the tools of the trade to design, share feedback, and ensure work is on track (e.g., Adobe Creative Suite, Figma, Sketch, InVision, AfterEffects, Cinema 4D, plus project management tools like Asana, Jira, and Slack).
 
-Note: Only applications submitted with a portfolio will be considered
+Note: Only applications submitted with a portfolio will be considered.
 
 ## Nice-to-have
 * Degree in Graphic Design, Visual Design or related field
