@@ -67,6 +67,34 @@ While design does adds time at the beginning of a project, it improves velocity 
 
 Our design process is documented here: **[Design process](design_process.md)**
 
+## Design Principles
+
+Rules that help us make decisions in crucial moments of the design process.
+
+- **Always design with the advanced user in mind**
+
+Our users are developers who are accustomed to using complex interfaces. They are more knowledgeable and need less guidance than regular web users. They also have higher expectations and are less forgiving. We should aim to provide complex but comprehensive interfaces created for users with domain knowledge (examples to follow: Autodesk, Netlify, Vercel, Autocad, Blender, Maya, Unity, Photoshop, Indesign).
+
+- **Consider familiar patterns first**
+
+Whenever possible, use well-known patterns from products our users spend a lot of time in, like IDEs, code hosts, or other developer tools.
+
+- **Don't hesitate to innovate but remember to onboard**
+
+Sourcegraph offers a unique product so repeating the known patterns will often not be enough. If you came up with a custom solution that can take the experience to the next level, don’t hesitate to implement it. In those cases, remember to onboard the user. Show them how things work and trust them to follow. If necessary, provide additional docs. Onboarding should be treated as an element of the innovation, not as an afterthought.
+
+- **Strive for visual excellence**
+
+People are visual creatures. That remains true for our technical audience as well. Sourcegraph interface should feel pleasing, not overwhelming, and natural to use.
+
+- **Design today with the future in mind**
+
+Sourcegraph is growing at an extraordinary pace. Our designs need to be flexible enough to accommodate changes and improvements. Always choose the solutions that work today but can be easily adapted for the future development. Think in systems, not in screens. Our goal is to redesign as little as possible so our users do not have to adjust to frequent changes.
+
+- **Manage complexity**
+
+We need to handle the unavoidable complexity of our product. Our users should see Sourcegraph as a powerful and intuitive tool. Aim to remove obstacles and unnecessary elements from both flows and interfaces. Use just-in-time knowledge and contextual help to educate and empower. Enable shortcuts and customizations, especially for technical users accustomed to using keyboard navigation. Make it simple, not simplistic - simple things can be complex but easy to understand. Don't overlook the details by treating the problem with false simplicity.
+
 ## Figma
 
 - Click 'C' whilst in Figma, or check the navigation bar in the top left hand corner and look for the comment icon; you can drop comments anywhere in a file, and the owner of the page will be notified via email
