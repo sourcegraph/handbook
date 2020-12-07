@@ -51,7 +51,6 @@ Note: Only applications submitted with a portfolio will be considered.
 * Degree in Graphic Design, Visual Design or related field
 * Coding experience
 
-
 ## Learn more about us
 To create a product that serves the needs of all developers, we are building a diverse [all-remote team](https://about.sourcegraph.com/company/remote) that is [distributed across the world](https://about.sourcegraph.com/company/team). Sourcegraph is an equal opportunity workplace; we welcome people from all backgrounds and communities.
 
@@ -73,10 +72,3 @@ We want to ensure Sourcegraph is an environment that suits your working style an
 If you’re interested in Sourcegraph but aren’t yet ready to apply we are still happy to connect and answer any questions that you might have: DM us on Twitter or email hiring@sourcegraph.com.
 
 Go back to the [careers page](../../../company/careers.md) for all open positions.
-
-
-
-    
-
-
-
