@@ -51,6 +51,10 @@ Your feedback should contain two parts:
 
 You can interleave these together, or leave the assessment for the end, whichever you prefer.
 
+### Evaluating values
+
+Every interviewer should be evaluating candidates on the Sourcegraph values in addition to their specific interview topic. See more at [evaluating values](evaluating_values.md).
+
 ### Rating
 
 - **Strong positive**. You are confident that this person would make our team better and you would be excited to have the chance to work with them.
