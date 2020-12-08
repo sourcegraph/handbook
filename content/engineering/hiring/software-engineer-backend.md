@@ -5,8 +5,7 @@ We are looking for backend engineers who know how to design and build performanc
 The following engineering teams are currently hiring for this role:
 
 1. [Search](../search/index.md)
-2. [Cloud](../cloud/index.md)
-3. [Code intelligence](../code-intelligence/index.md)
+1. [Code intelligence](../code-intelligence/index.md)
 
 ## Qualifications
 
