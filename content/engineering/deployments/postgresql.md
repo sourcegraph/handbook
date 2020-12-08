@@ -63,6 +63,7 @@ Now, in a new terminal, run the command below. The database will be running on `
   ```
     SELECT COUNT(*) FROM repo;
   ```
+
 ## Performance monitoring
 
 We run a PgHero deployment as well you can use to analyze slow queries and overall database performance.
