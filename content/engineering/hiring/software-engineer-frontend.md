@@ -4,7 +4,7 @@ We are looking for frontend engineers who know how to build intuitive user exper
 
 The following engineering teams are currently hiring for this role:
 
-1. [Web](../web/index.md#growth-plan) - all experience levels
+1. [Web](../web/index.md#growth-plan) - experienced (2+ years) and senior engineers
 2. [Cloud](../cloud/index.md#growth-plan) - senior experience level
 
 ## About you
