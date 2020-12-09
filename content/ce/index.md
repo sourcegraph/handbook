@@ -4,6 +4,7 @@ The Customer Engineering team is responsible for ensuring that all of Sourcegrap
 
 - [Onboarding](onboarding.md)
 - [Team members](#members)
+- [Customer notes](customer-notes.md)
 - Collaboration
   - [Sales-to-CE new customer handover process](../sales/sales_to_ce_handover.md)
   - [CE-to-Engineering issue handover process](ce_to_eng_handover.md)
@@ -37,4 +38,4 @@ TODO
 
 ## Roles
 
-See [roles](./roles/index.md) page.
+We're hiring! Join us. See [roles](./roles/index.md) page.
