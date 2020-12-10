@@ -65,7 +65,7 @@ After the each release, we hold a [retrospective](https://about.sourcegraph.com/
 
 ### Working with other teams
 
-The security team helps other teams investigate, orient, review, and sometimes plan changes.
+The security team helps other teams investigate, orient, review, and sometimes plan changes. Teams [request security code reviews](secure-code-review.md)
 
 **Small changes**
 
