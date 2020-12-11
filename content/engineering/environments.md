@@ -31,6 +31,13 @@ Sourcegraph Cloud projects.
 - **sourcegraph-code-intel**: Services for Code Intel code execution that are separated from our production project for extra isolation.
 - **Sourcegraph CI**: Services for our CI cluster and temporary CI resources.
 
+#### Sourcegraph Security
+
+Sourcegraph Security projects.
+
+- **sourcegraph-security-logging**: Infrastructure required for centralized security logging.
+- **sourcegraph-security-vault**: Contains HashiCorp Vault for secret management.
+
 #### Other Projects
 
 Misc Projects with permissions set at the project level.
