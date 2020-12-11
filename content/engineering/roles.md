@@ -20,8 +20,8 @@ Engineering managers lead, grow, and develop teams of software engineers.
 
 ### Responsibilities
 
-- Facilitate an inclusive and cohesive team environment where everyone is happy, motivated, and productive (examples: [retrospectives](../../retrospectives/index.md), [team events](../people-ops/travel.md#team-events), [compensation](../people-ops/compensation.md)).
-- Model, teach, and reinforce [our company values](../../company/values.md) and [our guiding engineering principles](index.md#guiding-principles).
+- Facilitate and sustain a healthy, inclusive team culture where everyone is set up to do their best work (examples: [retrospectives](../../retrospectives/index.md), [team events](../people-ops/travel.md#team-events), [compensation](../people-ops/compensation.md)).
+- Model, teach, and apply [our values](../../../company/values.md) and [our guiding engineering principles](../index.md#guiding-principles).
 - Ensure the team has clear incremental goals that are documented and are always up-to-date (example: [PM – EM partnership responsibilities](../product/roles/product_manager_engineering_manager_responsibilities.md)).
 - Regularly communicate the team's progress toward their goals as well as changes in team goals to appropriate stakeholders (examples: presenting a slide at [company meeting](../communication/company_meeting.md), [weekly updates](leadership/index.md#weekly-updates))
 - Support and coach teammates to grow in their careers and fulfill their responsibilities (examples: [1-1s](../leadership/1-1.md), [retrospectives](), [review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles), [compensation](../people-ops/compensation.md))
