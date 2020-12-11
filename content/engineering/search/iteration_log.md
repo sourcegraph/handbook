@@ -62,6 +62,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2020-12-03: (juliana) Streaming search is now enabled for Sourcegraph org users on sourcegraph.com
     - 2020-12-04: (juliana) Streaming search now shows states (loading, completed with no results, completed with some results) ([#16410](https://github.com/sourcegraph/sourcegraph/pull/16410))
     - 2020-12-04: (juliana) Met with Rob to QA to the search progress UI design implementation. Some PRs and work items have been created out of that. ([#16475](https://github.com/sourcegraph/sourcegraph/pull/16475), [#16476](https://github.com/sourcegraph/sourcegraph/pull/16476))
+    - 2020-12-11: (juliana) More front-end features have been completed for streaming search: alerts, saving searches, search again with skipped results, plus more UI polish fixes 
     
     
 ## 2020-11-16 to 2020-11-27
