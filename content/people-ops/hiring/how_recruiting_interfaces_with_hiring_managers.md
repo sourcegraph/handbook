@@ -109,7 +109,8 @@ The People Ops team’s goal is to maintain the following capacity ratios for fu
 |Offer call with candidate|Hiring manager and recruiting|Do not leave the offer call without scheduling a check-in within 3 business days.|
 |Notify team/interviewers to send messages to the candidate|Hiring manager|This should happen on the same day the offer was presented.|
 |If there are follow up negotiation calls|Recruiting|Details will be relayed to the hiring manager to decide if we want to adjust the offer.|
+|Ask candidate for reference(s) if needed|Hiring manager|It is up to the manager to decide which reference(s) they would like to speak to and under what timeline they need to be completed by.|
 |Repeat above steps until candidate decides to accept or reject offer|
-|If candidate accepts offer, gather address, target start date, and references|Recruiting|
+|If candidate accepts offer, gather address, target start date, and coordinate reference call(s)|Recruiting|
 |Send out Docusign|People operations|
 |Mark as hired on start date|People operations|
