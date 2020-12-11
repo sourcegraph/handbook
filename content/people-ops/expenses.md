@@ -28,7 +28,7 @@ We use Expensify for expense report submission and approval. You will receive an
 - Add a description of your expense in the designated field. 
 
 
-### When submitting an expense
+### When submitting an expense via Expensify
 
 - Please ensure that each expense is properly categorized. Some frequently asked questions about categories include:
   - Software purchases or subscriptions should be categorized as "Software and SaaS <$1000"
