@@ -11,6 +11,16 @@ This document contains the goals and work log for the search team's [2-week iter
     - $DESIRED_OUTCOME
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
+    
+## 2020-12-14 to 2021-01-04
+
+### $GOAL_OR_THEME
+
+- **Owner(s):** $OWNER
+- **Outcomes:**
+    - $DESIRED_OUTCOME
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
 
 ## 2020-11-30 to 2020-12-11
 
