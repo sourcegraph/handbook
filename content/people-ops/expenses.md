@@ -14,7 +14,7 @@ Any expenses more than 90 days old require approval by People Ops.
 
 ## Contractors
 
-Contractors should also submit expense reports promptly at the end of each month, and include the expenses in their monthly invoices. Once the expenses are approved, the full invoice can be paid.
+Contractors should also submit expense reports promptly at the end of each month, and include the expenses in their [monthly invoices](https://about.sourcegraph.com/handbook/people-ops/invoices). Once the expenses are approved, the full invoice can be paid.
 
 ## Approvals
 
@@ -28,9 +28,21 @@ We use Expensify for expense report submission and approval. You will receive an
 - Add a description of your expense in the designated field. 
 
 
-### Expense categories
+### When submitting an expense
 
-Please ensure that each expense is properly categorized. Some frequently asked questions about categories include:
+- Please ensure that each expense is properly categorized. Some frequently asked questions about categories include:
+  - Software purchases or subscriptions should be categorized as "Software and SaaS <$1000"
+  - Computer purchases and other hardware (monitor, headphones, etc.) should be categorized as "Computer & Related" 
+  - Home office set-up purchases (chairs, desks, etc.) should be categorized as "Furniture & Office"
+  - Note: there is no designated "home office setup" category in Expensify. Each expensed item should be categorized individually. So even though we have one home office setup budget, it spans across multiple categories.
+- Please ensure the date and description fields are properly filled out
+  - The date listed on your expense should be the date of purchase (not the date of submission).
+  - The description field should list exactly what item is being expensed.
 
-- Software purchases or subscriptions should be categorized as "Software and SaaS <$1000"
-- Wellness/gym reimbursements should be categorized as "Fringe benefits"
+### Internet, phone, and wellness benefits
+- For US based teammates: these fringe benefits are automatically added to your paycheck (the total amount is split up over both paychecks for the month), there is no need to submit them via Expensify. 
+- For teammates based outside the US: you can have have these as fixed line items on your invoices and you will be paid for the full amount every month.
+- Fringe benefit amount (per month):
+  - Internet: $50
+  - Phone: $75
+  - Wellness: $100
