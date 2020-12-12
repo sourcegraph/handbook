@@ -41,7 +41,7 @@ The data between the `---` is called front matter and is used to provide post me
 - The `tags` field should be left as `blog` until we incorporate filtering posts va tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
-- The `canonical` field is optional and only required to override the canonical link.  Important for cross-posting blogs from personal blogs or published news sites. By default, set to https://about.sourcegraph.com/blog/the-blog-slug.
+- The `canonical` field is optional and only required to override the canonical link.  Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
 - The `socialImage` field is optional.  Use the full path to image in order to be read properly on Twitter and Facebook.  Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
 
 ## Adding images
