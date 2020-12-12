@@ -57,18 +57,7 @@ Create and test release candidates:
     ```
     yarn run release release:create-candidate 1
     ```
-- [ ] Wait for the release candidate Docker images to be available in [Docker Hub](https://hub.docker.com/r/sourcegraph/server/tags).
-- [ ] Ensure the release candidate starts for upgrades and new instances:
-    ```
-    # 1. Answer YES to delete /tmp/sourcegraph with the old image
-    IMAGE=sourcegraph/server:$MAJOR.$MINOR ./dev/run-server-image.sh
-    
-    # 2. Answer NO to delete /tmp/sourcegraph with the new image
-    IMAGE=sourcegraph/server:$MAJOR.$MINOR.$PATCH-rc.1 ./dev/run-server-image.sh
-    
-    # 3. Answer YES to delete /tmp/sourcegraph with the new image
-    IMAGE=sourcegraph/server:$MAJOR.$MINOR.$PATCH-rc.1 ./dev/run-server-image.sh
-    ```
+- [ ] Ensure the [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=$MAJOR.$MINOR), [QA pipeline](https://buildkite.com/sourcegraph/qa/builds?branch=$MAJOR.$MINOR), and [E2E pipeline](https://buildkite.com/sourcegraph/e2e/builds?branch=$MAJOR.$MINOR) in Buildkite passes.
 
 ## Stage release
 
@@ -76,7 +65,7 @@ Create and test release candidates:
     ```sh
     yarn run release release:create-candidate final
     ```
-- [ ] Wait for the release Docker images to be available in [Docker Hub](https://hub.docker.com/r/sourcegraph/server/tags).
+- [ ] Ensure the [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=$MAJOR.$MINOR), [QA pipeline](https://buildkite.com/sourcegraph/qa/builds?branch=$MAJOR.$MINOR), and [E2E pipeline](https://buildkite.com/sourcegraph/e2e/builds?branch=$MAJOR.$MINOR) in Buildkite passes.
 - [ ] Open PRs that publish the new release and address any action items required to finalize draft PRs (track PR status via the [generated release campaign](https://k8s.sgdev.org/organizations/sourcegraph/campaigns)):
   ```sh
   yarn run release release:stage
