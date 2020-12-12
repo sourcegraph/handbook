@@ -47,8 +47,20 @@ Upon branch cut, create and test the first release candidate:
   ```sh
   yarn run release release:create-candidate 1
   ```
-- [ ] Wait for the [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=$MAJOR.$MINOR), [QA pipeline](https://buildkite.com/sourcegraph/qa/builds?branch=$MAJOR.$MINOR), and [E2E pipeline](https://buildkite.com/sourcegraph/e2e/builds?branch=$MAJOR.$MINOR) in Buildkite to complete.
-- [ ] File any failures and regressions in the pipelines as `release-blocker` issues and assign the appropriate teams.
+- [ ] Run regression tests:
+  - [ ] Follow the [Regression tests guide](https://github.com/sourcegraph/sourcegraph/blob/main/client/web/src/regression/README.md) to set up your e2e environment. 
+        Run the tests from the `web` directory. A more complete set of env vars can be found in this
+        [1password](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/gm5dfflq6sfclmotneuayfdj5q) entry.
+  - [ ] New Sourcegraph Docker container:
+    - Run the initializer: `E2E_INIT=true SOURCEGRAPH_BASE_URL=http://localhost:7080 yarn run test:regression -t 'Initialize new Sourcegraph instance'`
+    - Run the regression test suite: `SOURCEGRAPH_BASE_URL=http://localhost:7080 yarn run test:regression`
+  - [ ] Upgrade from previous release:
+    - Run the initializer on a Docker container running the last patch version of the previous major/minor release.
+    - Upgrade and run the regression test suite.
+  - [ ] New Sourcegraph Kubernetes cluster:
+    - Run the initializer on a new Sourcegraph Kubernetes cluster.
+    - Run the regression test suite.
+- [ ] File any regressions as `release-blocker` issues and assign the appropriate teams.
 
 Revert or disable features that may cause delays. As necessary, `git cherry-pick` bugfix (not feature!) commits from `main` into the release branch. Continue to create new release candidates daily or as necessary, until no more `release-blocker` issues remain:
 
