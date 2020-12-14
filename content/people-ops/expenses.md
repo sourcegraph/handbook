@@ -41,7 +41,7 @@ We use Expensify for expense report submission and approval. You will receive an
 
 ### Internet, phone, and wellness benefits
 - For US based teammates: these fringe benefits are automatically added to your paycheck (the total amount is split up over both paychecks for the month), there is no need to submit them via Expensify. 
-- For teammates based outside the US: you can have have these as fixed line items on your invoices and you will be paid for the full amount every month.
+- For teammates based outside the US: you can have have these as fixed line items on your invoices and you will be paid for the full amount every month (receipts are not required for these fixed line items).
 - Fringe benefit amount (per month):
   - Internet: $50
   - Phone: $75
