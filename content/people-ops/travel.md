@@ -29,6 +29,7 @@ Sourcegraph generally holds two company-wide events each year, each fully covere
 - Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive! Contact @sourcegraph/people-ops with any questions.
 - Reserve plenty of time for just hanging out, touring around, having fun, etc. Quality time is important.
 - If one individual is a member of multiple teams, they will receive the same amount for each of their teams.
+- The budget can be used for online team bonding events if the team prefers.
 
 ## Individual travel
 
