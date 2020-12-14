@@ -50,6 +50,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Make structural search work better for monorepos. Currently monorepos can time out for structural search purely because it takes too long to copy the data to search. The outcome focuses on architectural changes to avoid unnecessary data zipping and copying to our searcher worker. 
 - **Work log:**
     - 2020-12-04: I have a work-in-progress branch that pulls out the current frontend code and rearchitects things to run through searcher. Next step is to make searcher talk directly to Zoekt. This week I also took some time to familiarize myself with our dashboard and spent some time making informative search tables/graphs. I also spent time finalizing toggle behavior for search expressions and refactoring frontend query code.
+    - 2020-12-11: I haven't completed the work to have searcher talk to Zoekt yet, this needs more time and I couldn't hit this objective in one iteration. I estimate I need another week or two to get it done. Other work this week was refactoring frontend and backend code to polish search expressions for commit search, and query highlighting/hovers for release.
     
 ### Streaming search
 - **Owner(s):** Juliana, Keegan
