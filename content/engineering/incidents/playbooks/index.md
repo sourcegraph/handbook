@@ -50,7 +50,7 @@ In order to push an update to a failing statefulset take the following action:
 ### 1. Update the statefulset `yaml` with the appropriate change and apply using:
 
 ```console
-`kubectl apply -f <service.StatefulSet.yaml>`
+kubectl apply -f <service.StatefulSet.yaml>
 ```
 
 ### 2. Delete the pods in the stateful set:
@@ -153,7 +153,6 @@ Open the alert UI to click on the check URL that was failing and verify it's now
 ## PostgreSQL database problems
 
 We provide two sets of instructions here, shell commands and PostgreSQL commands to be run inside a `psql` instance. PostgreSQL commands are denoted by the prompt `sg=#` in this documentation; the actual prompt corresponds to the postgres user name.
-
 
 ### Shell commands
 
