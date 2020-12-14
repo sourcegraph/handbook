@@ -34,6 +34,8 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2020-12-04 (stefan): The backend is ready for v1 of code monitoring. I have already created a couple of code monitors on Cloud and emails are sent as expected. I removed the unsubscribe link in the email by updating a rule on Mailchimp.
     - 2020-12-04 (stefan): I made good progress this week. Locally, code monitoring works as expected including sending emails. I am currently splitting up the changes in smaller chunks to make the updates more reviewable. I don't expect to have enough time to implement a custom "unsubscribe", so we will go with Mailchimp (just like saved searches). Since Mailchimp adds the unsubscribe footer automatically, we have to make a minor adjustment to the design of the email template. I plan to spend the next week fixing minor bugs, increasing test coverage, and improving code quality.
+    - 2020-12-04 (farhan - posted late): Factored out the code monitoring form, opened PR for edit functionality, added GraphQL requests for editing. Worked on a lot of small details e.g. enabling/disabling buttons, confirmation before cancelling, redirecting to list page. 
+    - 2020-12-14 (farhan): Merged editing and deleting functionality. Added unit tests for whole flow. Implemented two rounds of QA. Fixed bugs found around editing actions, submitting the form before all fields were complete on Safari.
 
 ### Documentation clean up and content
 
@@ -42,7 +44,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Add docs for users transitioning from OpenGrok: differences from OpenGrok, keywords and search formats available, typical searches in OG and Sourcegraph equivalents.
     - Clean up all existing search docs so each doc has single responsibility and is in the correct Tutorial/Explanation/How-to/Reference category.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-12-04 (posted late): Checked in with CE team for requirements on the OpenGrok documentation. It turns out the [existing page](https://docs.sourcegraph.com/code_search/how-to/opengrok) was useful for a customer facing this issue, and they'll be linking to the page in their onboarding process. May need to improve discoverability down the line, but for now we're waiting on additional requests they might have. Updated outdated content on that page.
+    - 2020-12-14: no update here, was focused on code monitoring.
     
 ### Structural search for monorepos
 - **Owner(s):** Rijnard
