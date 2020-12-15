@@ -1,5 +1,7 @@
 # See https://github.com/sourcegraph/codenotify for documentation.
 
-**/* @nicksnyder
+**/index.md @nicksnyder
+**/goals.md @nicksnyder
+roles.md @nicksnyder
 
 adding_ping_data.md @ebrodymoore @dadlerj
