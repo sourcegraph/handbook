@@ -63,10 +63,13 @@ This document contains the goals and work log for the search team's [2-week iter
     - We have repo-level streaming for search types other than `diff`.
     - The streaming search UI is closer to feature parity with the GraphQL search UI.
 - **Work log:**
+    - 2020-12-02: (keegan) backend progress API implemented, but only sends at the end of stream.
     - 2020-12-03: (juliana) Streaming search is now enabled for Sourcegraph org users on sourcegraph.com
     - 2020-12-04: (juliana) Streaming search now shows states (loading, completed with no results, completed with some results) ([#16410](https://github.com/sourcegraph/sourcegraph/pull/16410))
     - 2020-12-04: (juliana) Met with Rob to QA to the search progress UI design implementation. Some PRs and work items have been created out of that. ([#16475](https://github.com/sourcegraph/sourcegraph/pull/16475), [#16476](https://github.com/sourcegraph/sourcegraph/pull/16476))
     - 2020-12-11: (juliana) More front-end features have been completed for streaming search: alerts, saving searches, search again with skipped results, plus more UI polish fixes 
+    - 2020-12-11: (keegan) did some follow-up work on progress API after feedback from enabling streaming. Including samples of repos that where skipped in the messages.
+    - 2020-12-11: (keegan) overall did not make much progress this iteration. Had low productivity.
     
     
 ## 2020-11-16 to 2020-11-27
