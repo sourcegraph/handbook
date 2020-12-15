@@ -31,7 +31,7 @@ At Sourcegraph, our customers and community are developers, and we equate develo
 ### In the first 90 days you will…
 * Build and scale an open source program that expands OSS use of Sourcegraph by providing value for leading projects, for example:
     * Providing search homepages for OSS projects and integrating Sourcegraph into OSS onboarding and reference documentation.
-    * Working with OSS projects to enable LISF and add a Sourcegraph badge in their README.
+    * Working with OSS projects to enable [LSIF](https://lsif.dev/) and add a Sourcegraph badge in their README.
 * Identify and execute mutually beneficial co-marketing opportunities that will raise awareness within the developer community and drive referrals.
 * Grow the amount of advocates within our Sourcegraph community and increase brand engagement with high quality content, virtual events, and experiences.
 * Increase the number of developers who regularly mention, give talks, write content, and organize/attend virtual events related to Sourcegraph. 
