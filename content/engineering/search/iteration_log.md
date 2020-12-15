@@ -14,6 +14,15 @@ This document contains the goals and work log for the search team's [2-week iter
     
 ## 2020-12-14 to 2021-01-04
 
+### Streaming search
+- **Owner(s):** Juliana, Keegan
+- **Outcomes:**
+    - Streaming search UI renders errors
+    - Streaming search is presented to the team in a Brainfood session
+    - Progress API is combined with results and streams out.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ### $GOAL_OR_THEME
 
 - **Owner(s):** $OWNER
