@@ -5,20 +5,26 @@ We maintain multiple [instances](instances.md) of Sourcegraph:
 - [Instances](./instances.md): information about our different instances
   - [sourcegraph.com](instances.md#sourcegraph-com) is our production deployment for open source code.
   - [sourcegraph.sgdev.org](instances.md#sourcegraph-sgdev-org) is our private deployment of Sourcegraph that contains some of our private code.
-  - [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers. Note that this also contains all of our private code.
-- [Managed instances](../distribution/managed/index.md) are deployments of Sourcegraph we manage for customers.
-  - [demo.sourcegraph.com](instances.md#demo-sourcegraph-copm) is a managed instance used for CE demos.
+  - [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers. Note that this also contains all of our private code. - [Managed instances](../distribution/managed/index.md) are deployments of Sourcegraph we manage for customers.
+  - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
 
 Learn more about how these work in:
 
 - [Deployment basics](#deployment-basics)
-- [Kubernetes](./kubernetes.md): setting up access, tips, and more
-- [Security](./security.md): TLS configuration,
-- [Testing](./testing.md): deploying test instances of Sourcegraph
-- [Playbooks](./playbooks.md): how-to guides for common tasks
-- [deploy-sourcegraph](#deploy-sourcegraph): base configuration for Kubernetes Sourcegraph deployments
-- [PostgresSQL](./postgresql.md): Tips for working with Postgres and our deployments
+  - [Kubernetes](./kubernetes.md): setting up access, tips, and more
+  - [Security](./security.md): TLS configuration,
+  - [Testing](./testing.md): deploying test instances of Sourcegraph
+  - [PostgresSQL](./postgresql.md): Tips for working with Postgres and our deployments]
+  - [Playbooks](./playbooks.md): how-to guides for common tasks
+  - [Images](#images)
+  - [Renovate](#renovate)
+  - [Infrastructure](#infrastructure)
+  - [Debugging](./debugging.md)
+  - [deploy-sourcegraph](#deploy-sourcegraph)
+    - [Merging changes from deploy-sourcegraph](#merging-changes-from-deploy-sourcegraph)
+  - [Relationship between the repositories](#relationship-between-the-repositories)
+    - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph-dot-com`](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-dot-com)
 
 ## Deployment basics
 
@@ -65,7 +71,7 @@ We have two Sourcegraph Kubernetes cluster installations that we manage ourselve
 - [deploy-sourcegraph-dogfood-k8s-2](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
 
 This section describes how to merge changes from [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
-(referred to as upstream) into `deploy-sourceegraph-dot-com`. The `deploy-sourcegraph-dogfood-k8s-2` configuration is [automatically updated with the latest `deploy-sourcegraph` changes](instances.md#k8s-sgdev-org).
+(referred to as upstream) into `deploy-sourcegraph-dot-com`. The `deploy-sourcegraph-dogfood-k8s-2` configuration is [automatically updated with the latest `deploy-sourcegraph` changes](instances.md#k8s-sgdev-org).
 
 The process is similar to the [process](https://docs.sourcegraph.com/admin/install/kubernetes/configure#fork-this-repository)
 we recommend our customers use to merge changes from upstream. The differences in process originate from the dual purpose
