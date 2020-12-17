@@ -2,7 +2,7 @@
 
 We have a team that is based throughout many parts of the world and we respect everyone's local holidays. Therefore, there is no need for teammates to provide a specific enumeration of holidays by country, as holidays are explicitly covered as part of our unlimited PTO policy.
 
-Teammates should add their respective holidays to the ["Not working" calendar](https://calendar.google.com/calendar?cid=c291cmNlZ3JhcGguY29tX2JiMGppMHY4OHFtbWw2bGJubW1iYTR2bzBvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) as far in advance as possible in order to communicate to the team that they will be unavailable for those particular dates. Teammates should also notify both their teammates and manager, as an additonal reminder prior to the holiday.
+Teammates should add their respective holidays to the ["Not working" calendar](https://calendar.google.com/calendar?cid=c291cmNlZ3JhcGguY29tX2JiMGppMHY4OHFtbWw2bGJubW1iYTR2bzBvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) as far in advance as possible in order to communicate to the team that they will be unavailable for those particular dates. Teammates should also notify both their teammates and manager, as an additional reminder prior to the holiday.
 
 We will reschedule any Monday [company meetings](../communication/company_meeting.md) to the next working day if it would otherwise fall on any of the following holidays:
 
