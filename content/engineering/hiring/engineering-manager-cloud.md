@@ -1,5 +1,7 @@
 # Engineering Manager - Cloud Application and Core Services
 
+### We are currently not accepting applications to this role
+
 We are looking for an engineering manager to lead our ~8 person team that is focused on [launching the first version of Sourcegraph Cloud](../cloud/goals.md#private-code-on-sourcegraph-cloud). 
 
 We have built [a very successful business](https://about.sourcegraph.com/blog/series-c-with-sequoia/) selling Sourcegraph to large enginering organizations, but as of right now, all of our customers run Sourcegraph self-hosted. We have seen clear demand that customers want to be able to use Sourcegraph without needing to worry about how to deploy it, so we are confident that creating the Cloud version of Sourcegraph will allow us to get Universal Code Search in the hands of even more developers. This involves product work to make our application multi-tenant, as well as tech work to make our systems scale to even larger amounts of code.
