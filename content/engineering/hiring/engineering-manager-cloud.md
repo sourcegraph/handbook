@@ -1,6 +1,6 @@
 # Engineering Manager - Cloud Application and Core Services
 
-### We are currently not accepting applications to this role
+### We are currently not accepting applications for this role
 
 We are looking for an engineering manager to lead our ~8 person team that is focused on [launching the first version of Sourcegraph Cloud](../cloud/goals.md#private-code-on-sourcegraph-cloud). 
 
