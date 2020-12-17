@@ -30,7 +30,7 @@ When a new deal is signed, the Account Executive, Customer Engineer, and finance
 1. Once the AE has sent the welcome email, CE is responsible for:
     1. Responding to that email with the new license key (or sending it directly to the administrator, e.g. in Slack).
     1. Following up on any responses and getting the next check-in call on the calendar.
-1. If the customer is or has potential to be a [Tier 1 customer](index.md#segmentation), create a success plan using the AE's new customer questionnaire and, if needed, organizing time to discuss plans with the AE.
+1. If the customer is or has potential to be a [Tier 1 customer](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit?usp=sharing), create a success plan using the AE's new customer questionnaire and, if needed, organizing time to discuss plans with the AE.
 
 ## Finance and operations responsibilities
 
