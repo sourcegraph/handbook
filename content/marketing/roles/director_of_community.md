@@ -67,6 +67,4 @@ We want to ensure Sourcegraph is an environment that suits your working style an
 
 **[Click here to apply](https://jobs.lever.co/sourcegraph/480e8d71-03af-4659-ac90-b8e32ad4ef34/apply)**
 
-If you’re interested in Sourcegraph but aren’t yet ready to apply we are still happy to connect and answer any questions that you might have: DM us on Twitter or email hiring@sourcegraph.com.
-
 Go back to the [careers page](../../../company/careers.md) for all open positions.
