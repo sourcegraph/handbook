@@ -20,7 +20,22 @@ You will **own an area of the product**\* and:
 - Be transparent in your internal and external communication. Sourcegraph is open source, so most discussions are public or in channels where you communicate directly with our customers.
 - Uphold your side of the [PM – EM partnership responsibilities](product_manager_engineering_manager_responsibilities.md).
 
-\* Product ownership areas (current teams): [Campaigns](../../engineering/campaigns/index.md), [Cloud](../../engineering/cloud/index.md), [Distribution](../../engineering/distribution/index.md), [Security](../../engineering/security/index.md)
+### Product areas
+
+\* Product teams or areas in need of a PM, grouped by priority of current business needs.
+
+- Highest urgency
+   - [Campaigns](../../engineering/campaigns/index.md)
+   - [Cloud](../../engineering/cloud/index.md)
+   - [Search](../../engineering/search/index.md)
+   - Open source experience (new product effort)
+- Medium urgency
+   - Backend infrastructure (expansion from current Cloud team growth)
+   - Frontend platform (expansion from current web team growth)
+   - [Distribution](../../engineering/distribution/index.md)
+- Lowest urgency
+   - Integrations (expansion from current web team growth)
+   - [Security](../../engineering/security/index.md)
 
 ## Qualifications
 
@@ -28,6 +43,7 @@ This is a very technical role and requires software engineering experience to ef
 
 As a result, we expect:
 
+- 2+ years working as a product manager.
 - Experience working as a software engineer.
 - Strong understanding of Git and Git workflows.
 - Excellent written and verbal communication skills, technical writing ability, and use of data to back up your arguments.
