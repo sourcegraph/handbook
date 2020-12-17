@@ -34,6 +34,42 @@ We have a few different email lists that are used to send us feedback.
 - **Purpose:** This email list is for customers to request help and creates tickets in JIRA for our Customer Engineering team.
 - **Owner:** The Customer Engineering team is responsible for all support issues and will pull in as needed engineering teams or product to help answer questions.
 
+### GitHub issues
+
+- **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests) is often a developer's default place to leave feedback. 
+- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue follows the relevant team's process. For issues filed by someone outside Sourcegraph, the product manager on feedback rotation is responsible for labelling or raising to the right team. 
+
+### Twitter
+
+- **Purpose:** Anyone can tweet about @Sourcegraph for public feedback. All tweets are in `#twitter` on Slack. 
+- **Owner:** Marketing. 
+
+### Slack
+
+- **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback. 
+- **Owner:** Most feedback in Slack appears in or gets forwarded into a relevant channel that already has clear owners. For feedback that does not have an obvious other location, whoever comes across it should post to the `#feedback` Slack channel.This channel is owned by the Product team. 
+
+### Support tickets
+
+- **Purpose:** A path for existing customers to get responsive support. 
+- **Owner:** CE team owns support tickets in a Jira project. 
+
+### Sales feedback 
+
+- **Purpose:** Customers and prospects often give product feedback on calls with sales members. 
+
+- **Owner:** The Sales team owns feedback from sales calls. 
+
+### Hubspot forms
+
+#### NPS Survey
+
+- **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI. 
+- **Owner:** The product manager on [feedback rotation](product_management/responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback. 
+
+#### Browser Extension Uninstall Feedback 
+- **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it. 
+- **Owner:** The browser extension product manager (currently the [Web team product manager](../engineering/web/index.md#members)) owns responding to this feedback. 
 
 ## Productboard
 
