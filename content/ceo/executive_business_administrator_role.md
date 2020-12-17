@@ -1,5 +1,7 @@
 # Executive Business Administrator role
 
+### We are currently not accepting applications for this role
+
 We're looking for someone to work with our CEO to help with internal and external communication, processes, logistics, and scheduling. You'll be part of our quickly growing, [all-remote](../../company/remote/index.md), [values-oriented](../../company/values.md) team at [Sourcegraph](https://about.sourcegraph.com).
 
 ## You'll:
