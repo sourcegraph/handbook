@@ -24,6 +24,10 @@ We pay salaries in USD.
 
 We are an early-stage technology company, and you can have a huge impact on our success. We want to make sure that you have a financial stake in the success and that your contributions are rewarded.
 
+By default, all equity grants vest monthly with a 1-year cliff.
+
+Teammates classified as employees receive incentive stock options (ISOs) to the maximum degree possible, while teammates classified as contractors receive non-qualified stock option (NSOs).
+
 TODO(@sourcegraph/people-ops): add more detail here about the kind of options and how to understand their value.
 
 ## Benefits and perks
