@@ -15,7 +15,6 @@ Until the team grows, the [BizOps team](../bizops/index.md) will provide financi
 ### Members
 
 - [Dan Adler](../../../../company/team/index.md#dan-adler-he-him), VP Operations
-- [Eric Brody-Moore](../../../../company/team/index.md#eric-brody-moore) (interim)
 - [Tommy O Donnell](https://about.sourcegraph.com/company/team#tommy-o-donnell-he-him), Manager, Financial Planning & Analysis
 
 See the [Operations roles](../roles/index.md) page.
