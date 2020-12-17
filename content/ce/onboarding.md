@@ -24,6 +24,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Make a Handbook edit to the CE onboarding section
   - Complete [General Onboarding](https://about.sourcegraph.com/handbook/ce/onboarding#general-onboarding-during-weeks-1-and-2) 
   - Understand how we [create and store customer meeting notes](../ce/customer-notes.md)
+  - Signup and attend a [Product Tour](https://info.sourcegraph.com/product-tour).
 
 ### Week 2
   - Discovery questions 
@@ -62,7 +63,10 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Take ownership of an existing customer relationship
    - Reach out to set up an introduction
     - Define success criteria for growth
-  
+
+### Week 6
+  - Prepare for and present at two sequential [Product Tours](https://info.sourcegraph.com/product-tour).  See an example by @jonah [here](https://www.youtube.com/watch?v=iTBTri_q5MA&feature=youtu.be).
+
 ## General Onboarding
 - Go through general onboarding [People Ops](../people-ops/index.md)
   - [General onboarding steps](../people-ops/onboarding/index.md#general-onboarding-checklist)
