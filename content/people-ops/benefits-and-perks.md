@@ -16,7 +16,7 @@ We offer high-quality medical and dental care for all full-time employees and th
 
 ## 🏃 Wellness
 
-A healthy mind and body is imperative to doing your best work and living a healthy life. We offer an $85 monthly wellness stipend that can be used at your discretion.
+A healthy mind and body is imperative to doing your best work and living a healthy life. We offer an $100 monthly wellness stipend that can be used at your discretion.
 
 ## 👪 Family friendly
 
