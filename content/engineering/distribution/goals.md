@@ -12,23 +12,23 @@ Performing upgrades to deployments is currently a complicated process that requi
 We will start by looking at our Kubernetes deployment and working on an easier update process.
 
 - **Owner**: Geoffrey, Uwe
-- **Status**: In progress. Estimated completion FY20-Q4.
+- **Status**: In progress. Estimated completion FY21-Q1.
 - **Outcomes**:
   - Upgrades to deployments do not require resolving diff conflicts from upstream.
   - Upgrading a deployment configuration requires less than 2 hours of work.
 - **Milestones**:
-  - ~~Research and evaluate possible tools.~~ Done: 3.19
+  - ~~Research and evaluate possible tools.~~ Done: `3.19`
     - ~~Bash/JQ.~~
-    - ~~Cue.~~ Done: 3.17
-    - ~~Dhall.~~ Done: 3.18
-  - ~~Create a Kubernetes deployment PoC.~~ Done: 3.19
-  - ~~Design Dhall Architecture.~~ Done: 3.20
+    - ~~Cue.~~ Done: `3.17`
+    - ~~Dhall.~~ Done: `3.18`
+  - ~~Create a Kubernetes deployment PoC.~~ Done: `3.19`
+  - ~~Design Dhall Architecture.~~ Done: `3.20`
+  - ~~Create a demo video/presentation to gather customer feedback.~~ Done: `Dist: 2020.11.30`
   - Migrate internal deployments to Dhall, onboard other teams on how to make changes with Dhall and collect feedback. **In progress**
-  - Create a demo video/presentation to gather customer feedback. **In progress**
-  - Create customer facing migration path and how-to documentation. _Estimated: 2020_
-  - Use Dhall to generate public Kubernetes manifests.
-  - Migrate a highly technical customer to Dhall and collect usage feedback.
-  - Design customization workflow.
+  - Create customer facing migration path and how-to documentation. _Estimated: FY21-Q1_
+  - Use Dhall to generate public Kubernetes manifests. _Estimated: FY21-Q1_
+  - Migrate a highly technical customer to Dhall and collect usage feedback. _Estimated: FY21-Q1_
+  - Design customization workflow. _Estimated: FY21-Q1_
     - Potentially Kustomize would still be used for last-mile changes and non-standard derivations.
 
 ### Any engineer at Sourcegraph can create a release for all of our supported deployment types by running a single action
@@ -42,13 +42,13 @@ Creating a new release for our deployments is currently a semi-automated process
   - All supported deployment types are released at the same time with the same command.
   - Support documentation enables any engineer to perform a release with confidence.
 - **Milestones**:
-  - ~~[Enable running e2e test on an environment matching its test (docker-compose in a VM)](https://github.com/orgs/sourcegraph/projects/72).~~ Done: 3.20
-  - ~~[Automatically update the dogfood cluster](https://github.com/orgs/sourcegraph/projects/83).~~ Done: 3.20
-  - [Enable continuous e2e tests on `main`](https://github.com/orgs/sourcegraph/projects/90). **In progress**
+  - ~~[Enable running e2e test on an environment matching its test (docker-compose in a VM)](https://github.com/orgs/sourcegraph/projects/72).~~ Done: `3.20`
+  - ~~[Automatically update the dogfood cluster](https://github.com/orgs/sourcegraph/projects/83).~~ Done: `3.20`
+  - ~~[Enable continuous e2e tests on `main`](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
+  - ~~[Enable continuous regression tests on `main`](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
+  - ~~[Ensure relevant engineers are notified of broken builds](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
   - [Releases can be done in a single day](https://github.com/orgs/sourcegraph/projects/90). **In progress**
-  - [Enable continuous regression tests on `main`](https://github.com/orgs/sourcegraph/projects/90). **In progress**
-  - [Ensure relevant engineers are notified of broken builds](https://github.com/orgs/sourcegraph/projects/90). **In progress**
-  - Releases can be done automatically with a single action (e.g. CLI command, `/` command in Slack, etc.). _Estimated: 2020_
+  - Releases can be done automatically with a single action (e.g. CLI command, `/` command in Slack, etc.). _Estimated: FY21-Q1_
 
 ### [Split Cloud infrastructure into separate GCP projects](https://github.com/orgs/sourcegraph/projects/92)
 
@@ -65,7 +65,7 @@ Creating a new release for our deployments is currently a semi-automated process
   - ~~Move non-production deployments to separate projects.~~ Done: 3.21
   - ~~Create code to bootstrap new projects.~~ Done: 3.21
   - Document project and folder usage guidelines.
-  - Set spending limits for dynamic environments.
+  - ~~Set spending limits for dynamic environments.~~ Descoped
 
 ## Future goals
 
@@ -75,8 +75,8 @@ These are ideas for future goals that the team might work on. Just because somet
 
 Our existing deployment pipelines to our Sourcegraph instances (such as Sourcegraph Cloud) has several usability problems - for example, it is hard for engineers to identify when a commit was deployed to an environment or which deployment is currently running in a particular environment. We want to improve the deployment experience, making sure we can deploy with confidence and can easily understand in which stage of the pipeline a change currently is.
 
-- **Owner**: TBD
-- **Status**: Not started. Unknown amount of work.
+- **Owner**: Dax
+- **Status**: Not started. Unknown amount of work. _Estimated: FY21-Q1_
 - **Outcomes**:
   - It is simple to identify when a commit has been deployed to an environment.
   - Developers are notified when their PR is deployed to an environment.
