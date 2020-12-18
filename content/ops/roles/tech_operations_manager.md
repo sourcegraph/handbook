@@ -1,6 +1,6 @@
 # Tech Operations Manager
 
-We are looking for an leader, an engineer, and an operator to build and improve our Tech Operations team. As we grow our team and customer base rapidly, we need your help building, upgrading, and maintaining the internal applications that are straining to keep up!
+We are looking for a leader, an engineer, and an operator to build and improve our Tech Operations team. As we grow our team and customer base rapidly, we need your help building, upgrading, and maintaining the internal applications that are straining to keep up!
 
 ## Responsibilities
 
