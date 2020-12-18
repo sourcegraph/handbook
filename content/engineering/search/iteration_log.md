@@ -18,10 +18,11 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Owner(s):** Juliana, Keegan
 - **Outcomes:**
     - Streaming search UI renders errors
-    - Streaming search is presented to the team in a Brainfood session
+    - Streaming search is presented to the team in a Brain Food session
     - Progress API is combined with results and streams out.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2020-12-17: Streaming search presented in Brain Food ([slides](https://docs.google.com/presentation/d/1SFnmec2NEHaxlkqutHeH4feSIwaJywxHsfpa6t2FmfI/edit?usp=sharing))
+    - 2020-12-18: Streaming search now shows errors and handles completion states better.
 
 ### $GOAL_OR_THEME
 
