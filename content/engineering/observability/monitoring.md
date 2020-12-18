@@ -6,24 +6,28 @@ This document describes how to develop Sourcegraph's monitoring.
 
 ![image](https://user-images.githubusercontent.com/3173176/82078081-65c62780-9695-11ea-954a-84e8e9686970.png)
 
-- [Overview](#overview)
-  - [Monitoring pillars](#monitoring-pillars)
-  - [Monitoring architecture](#monitoring-architecture)
-- [Finding monitoring](#finding-monitoring)
-  - [Alerts](#alerts)
-  - [Find available metrics](#find-available-metrics)
-  - [Queries](#queries)
-- [Adding monitoring](#adding-monitoring)
-  - [Configure panel options](#configure-panel-options)
-  - [Add solution documentation](#add-solution-documentation)
-  - [Tracking a new service](#tracking-a-new-service)
-- [Grafana](#grafana)
-  - [Connecting Grafana to a remote Prometheus instance](#connecting-grafana-to-a-remote-prometheus-instance)
-  - [Upgrading Grafana](#upgrading-grafana)
-- [Prometheus and Alertmanager](#prometheus-and-alertmanager)
-  - [Upgrading Prometheus or Alertmanager](#upgrading-prometheus-or-alertmanager)
-- [Additional reading](#additional-reading)
-- [Next steps](#next-steps)
+- [Sourcegraph monitoring developer guide](#sourcegraph-monitoring-developer-guide)
+  - [Overview](#overview)
+    - [Monitoring pillars](#monitoring-pillars)
+    - [Monitoring architecture](#monitoring-architecture)
+  - [Finding Monitoring](#finding-monitoring)
+    - [Alerts](#alerts)
+      - [Sourcegraph instances](#sourcegraph-instances)
+      - [Customer instances](#customer-instances)
+    - [Find available metrics](#find-available-metrics)
+    - [Queries](#queries)
+  - [Adding monitoring](#adding-monitoring)
+    - [Configure panel options](#configure-panel-options)
+    - [Add solution documentation](#add-solution-documentation)
+    - [Tracking a new service](#tracking-a-new-service)
+  - [Grafana](#grafana)
+    - [Connecting Grafana to a remote Prometheus instance](#connecting-grafana-to-a-remote-prometheus-instance)
+    - [Creating Cloud only Grafana dashboards](#creating-cloud-only-grafana-dashboards)
+    - [Upgrading Grafana](#upgrading-grafana)
+  - [Prometheus and Alertmanager](#prometheus-and-alertmanager)
+    - [Upgrading Prometheus or Alertmanager](#upgrading-prometheus-or-alertmanager)
+  - [Additional reading](#additional-reading)
+  - [Next steps](#next-steps)
 
 ## Overview
 
@@ -86,7 +90,7 @@ The bug report page (`/site-admin/report-bug`) for each Sourcegraph instance has
       "serviceName": "executor-queue",
       "name": "warning: executor_queue_growth_rate",
       "timestamp": "2020-11-28T14:00:00Z",
-      "average": 0.6504517025712306, // % of last 12 hours during which this alert was firing 
+      "average": 0.6504517025712306, // % of last 12 hours during which this alert was firing
       "owner": "code-intel"
     },
     // ...
@@ -189,7 +193,7 @@ In [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph), Prom
 ```yaml
 metadata:
   annotations:
-    prometheus.io/port: "$SERVICEPORT" # replace with the port your service runs on 
+    prometheus.io/port: "$SERVICEPORT" # replace with the port your service runs on
     sourcegraph.prometheus/scrape: "true"
 ```
 
@@ -220,6 +224,27 @@ If you want to avoid spinning up in the entire Sourcegraph stack and just want t
 kubectl port-forward svc/prometheus 9090:30090 -n prod
 ./dev/grafana.sh
 ```
+
+### Creating Cloud only Grafana dashboards
+
+While all dashboards required to troubleshoot our product should be shipped to customers, our Cloud deployment might require additional dashboards to the ones we ship to customers, for example:
+- When the additional dashboard is not ready yet to graduate to customers
+- When the additional dashboard applies only to our Cloud deployment
+
+Dashboards can be deployed to our Cloud deployment by adding them in `json` format to `dashboards/files` in https://github.com/sourcegraph/deploy-sourcegraph-dot-com/. To learn more, reference its [documentation](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/feature/release/dashboards)
+
+Once the dashboard is ready to be shipped to customers, we will need to port it to the [monitoring generator](./monitoring_architecture.md#monitoring-generator) to be included in our next Sourcegraph release.
+
+You can use a [local Grafana](#connecting-grafana-to-a-remote-prometheus-instance) or the Cloud Grafana to create a new dashboard and once its ready, export it by following these steps:
+
+> **Warning**: Cloud Grafana does not allow saving
+
+- Open "Dashboard Settings" (top right cog).
+- Select "JSON Model".
+- Select the JSON content and save to a `.json` file in `sourcegraph/deploy-sourcegraph-dot-com/dashboards/files`.
+- Create a new Pull Request with your changes.
+
+Once deployed, you should be able to see your changes in [sourcegraph.com](https://sourcegraph.com/-/debug/grafana).
 
 ### Upgrading Grafana
 
