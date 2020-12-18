@@ -1,66 +1,59 @@
-# Campaigns goals and priorities
+# Campaigns goals
 
-## Goals
+The campaigns team is building the best solution available for creating and managing large scale changes. To do so we will focus on the following objectives:
 
-### Build a base of 10 customers who have created 80 campaigns and made 4000 changesets in Q4
+## Grow adoption of campaigns 
 
-We want to get a solid set of customers who regularly use and rely on campaigns. 
+We need to grow usage of campaigns to understand our customer use cases and inform our roadmap.
 
-What will get us there?
+### How do we will do this:
+* The product manager will work with the CE team to identify customers who fit our current product offering and onboard them to campaigns
+* The campaigns team will identify and correct user experience issues which hinder adoption
+* The engineering team will strive quickly correct errors which impede adoption
 
-- **Proactive outreach** Campaigns is new and transformative software. Many companies are not yet aware they need large scale code modifications. We need to find those companies within our customer base and introduce them to campaigns. This process will also teach us about marketing campaigns.
-- **Smoother on-ramp:** Internal testing has revealed that using campaigns for the first time is not as easy as it could be. A frictionless initial experience is critical to adoption and a delightful user experience.
-- **Better debugging experience:** It can be challenging to debug a more complex campaign. Figuring out what went wrong and how to fix it is a slow iterative loop.
-- **User validation:** The above issues were revealed by user testing. Once we believe we have fixed them, we need to validate this with further user testing.
 
-### Grow adoption of campaigns
+## Design and build the best solution for creating many changesets
+For a single solution to become the best tool for making large scale changes at any given company,  it must provide features which meet the varying requirements dictated by each environment, configuration and workflow found in the company. 
 
-Once we’re out of beta, we want everyone to start using campaigns!
+Currently the tools companies do have for making large scale changes are only usable by a select group of experienced developers and solve a limited number of use cases. 
 
-We need to follow-up with customers who are already using campaigns to make sure that we’re taking their input into consideration when prioritizing new features.
+### Problems
+* Campaigns does not currently allow users to open many changesets in a single repo in a way that supports monorepo workflows
+* It takes too long to merge changesets because owners are not aware the  changesets were created
+* The documentation and usability of campaigns are not sufficient to provide a frictionless experience for less experienced developers
 
-We need to make it as easy as possible for new customers to try out campaigns:
+### Milestones
+* Robust support for monorepo workflows
+* Support adding reviewers to changesets
+* Support adding labels to changesets
+* Documentation on how to set up and start using and troubleshoot campaigns has been tested and improved
 
-- **Even smoother on-ramp:** Minimize the number of steps it takes a user to go from “found Campaigns in the Sourcegraph menu” to “has created a pull request, making a meaningful change”.
-- **Easy to try:** Allow users to run campaigns on sourcegraph.com to try them out (requires user-specific tokens).
-- **Examples:** Document as many meaningful example campaigns as possible.
-- **More examples:** Provide ready-to-go campaign specs that users can easily run.
+### Outcomes
+* We sign one monorepo customer in Q1
+* Multiple customers find value in adding reviewers and labels to changesets
+* An increase in the average number of merged changesets is observed
+* A reduction in the number of support requests for users getting started with campaigns
 
-[Looker dashboard with usage metrics (internal only)](https://sourcegraph.looker.com/dashboards/136)
+## Design and build the best solution for managing many changesets
 
-### Make it easier for customers to change the code they want to change in their preferred way
+Completing a large scale change in any organization requires coordination with and approval by, many people. Tooling is required for this process to not only be efficient, but at a certain scale, be _possible_. This includes making developers aware changesets exist, reminding them to merge changesets, or if possible, sidestepping this social dilemma entirely by enabling automatic merges. 
 
-As we learn how people use Campaigns, we also need to focus on _how they wish they could use_ Campaigns.
+### Problems
 
-For example, Campaigns run on _repositories_ vs. on specific search results. When running a campaign, the code that’s being run to change code doesn’t have access to the specific search results (i.e. file + line number), only to the repository. That makes it hard to make really granular changes based on search results. (A possible solution would be a more refined interface between search results and user-supplied code. For example: we could pass lines of _<filename>:<lineno>_ on stdin to each command that’s executed in a repository.)
+* Company workflows often require issues/tickets to accompany changes to their code bases. Campaigns does natively support issue tracking systems.
+* It is currently too difficult to find changesets which cannot or have not been merged.
+* Often owners do not prioritize merging changesets. It takes too long to nudge the owners of each changeset. 
+* We do not currently support automerge. Doing so would greatly reduce the manual effort required to merge changesets. 
 
-Another example: in some cases, it’s cumbersome to first search code in the browser and then have to copy the query to a campaign-spec file and run the campaign. (A possible solution would be an implementation of the prototype that generates patches in the browser.)
+### Milestones
 
-### Perform actions beyond creating/merging changesets
+* Support creating tickets/issues alongside or instead of code changes.
+* Users can search, filter and sort changesets by check and review status, title, repository and branch.
+* A campaign owner can nudge developers to merge changesets.
+* Campaigns can leverage the automerge capabilities provided by their code host.
 
-Our users use more than just their code host and Sourcegraph. They use ticket trackers, review systems, and time trackers.
+### Outcomes
 
-We want to discover what external systems our users want to use campaigns with, and ensure that we can integrate with them. For example, an organization that uses JIRA will likely want to be able to link tickets to campaigns and have the state updated as the campaign is executed.
-
-## Roadmap
-
-1. **Customer outreach to improve adoption of campaigns**
-1.  ~~User credentials ([RFC 242](https://docs.google.com/document/d/1SqoWWm1xs82QibrWwYsXmpmgweN6EpcKt1qXrRBjjlU/edit)), which will allow non-site-admins to create campaigns~~ (landed 3.22)
-1. Better burndown charts 
-1. Allow multiple changeset in a single repository
-1. Improve previews on updates to show the delta between existing changesets and the changesets after after the campaign spec changes are applied
-1. Allow campaign to specify target branch
-1. Create campaign spec even if subset of repos have failures
-1. Versioning/releasing of src-cli with respect to sg/sg
-1. Improved documentation of src-cli login process
-1. Add filtering/searching to campaign and changeset lists
-1. Ability to auto-merge changesets, depending on various conditions
-1. Ability to add default reviewers to changesets
-
-### Roadmap Process
-
-Our roadmapping process is a team effort. As we receive customer feedback, and as we come up with cool new features, we record these in one of three places. Customer feedback goes into our [team Productboard page](https://sourcegraph.productboard.com/feature-board/2104383-campaigns). Well-defined tasks live in our [team backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fcampaigns+milestone%3ABacklog). And larger, less defined ideas live in the bottom section of our [private roadmap doc](https://docs.google.com/document/d/1zRTfK6mENKicfLwDaWgLk1dBvQVKDg-J7pwjGg8tpps/edit#), below the _fog of war_ line.
-
-It is the job of the EM and PM to pull/formulate/define tasks from the above sources and prioritize them. That prioritized list is under the [Future heading](https://docs.google.com/document/d/1zRTfK6mENKicfLwDaWgLk1dBvQVKDg-J7pwjGg8tpps/edit#heading=h.jk3gp8lyopke) of our roadmap doc.
-
-For our sprint planning, the team looks over the prioritized list, revises estimates on work needed, and agrees on these priorities. Once we are aligned, we pull as much as will comfortably fit into the next sprint, creating GitHub issues as needed, and track those in that sprint's tracking issue.
+* An increase in the average number of merged changesets is observed.
+* A reduction in the average amount of time to close a campaign is observed.
+* The nudge and automerge features are used by customers to reduce time to merge.
