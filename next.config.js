@@ -16,7 +16,7 @@ module.exports = withSvgr({
       ...config.resolve.alias,
       "@components": path.resolve(__dirname, "./components"),
       "@utils": path.resolve(__dirname, "./utils"),
-      "@docs": path.resolve(__dirname, "./docs"),
+      "@handbook": path.resolve(__dirname, "./handbook"),
       "@hooks": path.resolve(__dirname, "./hooks"),
     }
 

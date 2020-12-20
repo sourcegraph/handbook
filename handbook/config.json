@@ -2,9 +2,9 @@
   "config": [
     {
       "type": "link",
-      "key": "getting-started",
-      "slug": "getting-started",
-      "title": "Getting Started",
+      "key": "index",
+      "slug": "index",
+      "title": "Home",
       "position": 0,
       "id": "1",
       "children": []

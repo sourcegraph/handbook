@@ -105,7 +105,7 @@ const CustomHighlight = connectHighlight(({ highlight, attribute, hit }) => {
 })
 
 const Hit = ({ hit }) => (
-  <Link href="/docs/[...slug]" as={`/docs/${hit.slug}`} passHref>
+  <Link href="/handbook/[...slug]" as={`/handbook/${hit.slug}`} passHref>
     <HitItem>
       <HighlightTitle hit={hit} attribute="title" />
       <div>

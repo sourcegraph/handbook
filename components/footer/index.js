@@ -7,21 +7,18 @@ const Footer = ({ preview }) => {
     <FooterWrapper>
       <div>
         <section className="linksWrapper">
-          <Link href="/blog" passHref>
+          {/* <Link href="/blog" passHref>
             <FooterLink>Blog</FooterLink>
-          </Link>
-          <Link href="/features" passHref>
-            <FooterLink>Features</FooterLink>
           </Link>
           <Link href="/docs" passHref>
             <FooterLink>Docs</FooterLink>
-          </Link>
+          </Link> */}
           <FooterLink
-            href="https://github.com/tinacms/tinacms"
+            href="https://github.com/sourcegraph/handbook"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            View source
           </FooterLink>
         </section>
 
@@ -35,7 +32,7 @@ export const EditLink = () => {
   return (
     <EditWithTinaButton onClick={() => cms.toggle()}>
       <i className="icon-edit" />
-      {cms.enabled ? "Exit Edit Mode" : "Edit This Site With TinaCMS"}
+      {cms.enabled ? "Exit Edit Mode" : "Edit content"}
     </EditWithTinaButton>
   )
 }

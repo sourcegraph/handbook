@@ -66,10 +66,10 @@ const useCreateChildPage = async (allDocs) => {
         const slug = removeInvalidChars(slugify(title, { lower: true }))
 
         // get confile JSON file from github
-        const configFile = await cms.api.github.fetchFile("docs/config.json", true)
+        const configFile = await cms.api.github.fetchFile("handbook/config.json", true)
         const allNestedDocsRemote = JSON.parse(configFile.content)
         const category = router.query.slug[0]
-        const fileRelativePath = `docs/${router.query.slug[0]}/${slug}.md`
+        const fileRelativePath = `handbook/${router.query.slug[0]}/${slug}.md`
         const sha = configFile.sha
 
         const defaultItem = {
@@ -101,7 +101,7 @@ const useCreateChildPage = async (allDocs) => {
 
         // commit new json file to github
         await cms.api.github.commit(
-          "docs/config.json",
+          "handbook/config.json",
           sha,
           JSON.stringify(allNestedDocsRemote, null, 2),
           "Update from TinaCMS"
@@ -119,7 +119,7 @@ const useCreateChildPage = async (allDocs) => {
             })
           )
           .then(() => {
-            window.location.href = `/docs/${router.query.slug[0]}/${slug}`
+            window.location.href = `/handbook/${router.query.slug[0]}/${slug}`
           })
       },
     },

@@ -42,7 +42,7 @@ const NavItem = ({ itemData: { slug, children, title, type }, active, currentSlu
   return (
     <div>
       {type === "link" && (
-        <Link href={`/docs/[...slug]`} as={`/docs/${slug}`} passHref>
+        <Link href={`/handbook[...slug]`} as={`/handbook${slug}`} passHref>
           {renderLink()}
         </Link>
       )}

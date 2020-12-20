@@ -3,5 +3,5 @@
 package.json
 package-lock.json
 public
-docs/**/*.md
+handbook/**/*.md
 README.MD

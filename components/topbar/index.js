@@ -2,6 +2,7 @@ import { useState } from "react"
 import { bool } from "prop-types"
 import Link from "next/link"
 
+import SourcegraphLogo from "../../public/icons/sourcegraph-logo.svg"
 import GitHubLogo from "../../public/icons/github.svg"
 
 import Search from "@components/search"
@@ -14,7 +15,6 @@ import {
   SearchWrapperStyled,
   NavWrapperStyled,
   NavBarLink,
-  LogoImg,
   IconButton,
 } from "./styles"
 
@@ -33,7 +33,7 @@ const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText }) => {
       <LogoWrapperStyled>
         <Link href="/">
           <a>
-            <LogoImg alt={theme.siteName} src={`/${theme.logo}`} />
+            <SourcegraphLogo height="50" />
           </a>
         </Link>
         <div>
@@ -63,23 +63,22 @@ const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText }) => {
         <Link href="/blog" passHref>
           <NavBarLink>Blog</NavBarLink>
         </Link>
-        <Link href="/features" passHref>
-          <NavBarLink>Features</NavBarLink>
-        </Link>
         <Link href="/docs" passHref>
           <NavBarLink>Docs</NavBarLink>
         </Link>
         <NavBarLink
-          href="https://github.com/tinacms/tinacms"
+          href="https://github.com/sourcegraph/handbook"
           target="_blank"
           rel="noopener noreferrer"
+          title="View source"
         >
           GitHub
         </NavBarLink>
         <NavBarLink
-          href="https://github.com/tinacms/tinacms"
+          href="https://github.com/sourcegraph/handbook"
           target="_blank"
           rel="noopener noreferrer"
+          title="View source"
         >
           <GitHubLogo width="32" height="32" />
         </NavBarLink>

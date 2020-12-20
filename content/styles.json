@@ -1,6 +1,5 @@
 {
-  "logo": "logo_ipsum.png",
-  "siteName": "Alpaca",
+  "siteName": "Sourcegraph Handbook",
   "description": "Docs starter with next.js and TinaCMS",
   "fonts": {
     "body": "Roboto, system-ui, sans-serif",

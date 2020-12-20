@@ -41,10 +41,10 @@ const useCreateMainDoc = (allDocs) => {
         // get json file from github
         const github = cms.api.github
         // this is getting the defult branch and not the current working branch
-        const configFile = await github.fetchFile("docs/config.json", true)
+        const configFile = await github.fetchFile("handbook/config.json", true)
         const sha = configFile.sha
         const allNestedDocsRemote = JSON.parse(configFile.content)
-        const fileRelativePath = `docs/${slug}.md`
+        const fileRelativePath = `handbook/${slug}.md`
 
         // add the new file to the begining of the array (This will also be the begining of the navigation)
         allNestedDocsRemote.config.unshift({
@@ -58,13 +58,13 @@ const useCreateMainDoc = (allDocs) => {
         // commit the config file to github
         await github
           .commit(
-            "docs/config.json",
+            "handbook/config.json",
             sha,
             JSON.stringify(allNestedDocsRemote, null, 2),
             "Update from TinaCMS"
           )
           .then((response) => {
-            setCachedFormData("docs/config", {
+            setCachedFormData("handbook/config", {
               sha: response.content.sha,
             })
           })
@@ -93,7 +93,7 @@ const useCreateMainDoc = (allDocs) => {
             setCachedFormData(fileRelativePath, {
               sha: response.content.sha,
             })
-            setTimeout(() => router.push(`/docs/${slug}`), 1500)
+            setTimeout(() => router.push(`/handbook/${slug}`), 1500)
           })
           .catch((e) => {
             return { [FORM_ERROR]: e }

@@ -24,10 +24,6 @@ export const LogoWrapperStyled = styled.div`
   }
 `
 
-export const LogoImg = styled.img`
-  max-width: 161px;
-`
-
 export const IconButton = styled.button`
   background-color: transparent;
   border: 0;
