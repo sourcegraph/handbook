@@ -22,7 +22,15 @@
           "slug": "engineering/web",
           "title": "Web",
           "id": "3xpf6iat8",
-          "children": []
+          "children": [
+            {
+              "type": "link",
+              "slug": "engineering/goals",
+              "title": "Goals",
+              "id": "dt1fl5lvo",
+              "children": []
+            }
+          ]
         }
       ]
     }
