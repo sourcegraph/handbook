@@ -1,4 +1,0 @@
----
-title: New Page!
-groupIn: ''
----

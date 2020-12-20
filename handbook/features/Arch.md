@@ -1,4 +1,0 @@
----
-title: Arch
-groupIn: Linux
----

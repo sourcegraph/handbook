@@ -60,12 +60,6 @@ const TopBar = ({ showDocsSearcher, theme, searchIndex, searchText }) => {
         </SearchWrapperStyled>
       )}
       <NavWrapperStyled showMobileMenu={showMobileMenu}>
-        <Link href="/blog" passHref>
-          <NavBarLink>Blog</NavBarLink>
-        </Link>
-        <Link href="/docs" passHref>
-          <NavBarLink>Docs</NavBarLink>
-        </Link>
         <NavBarLink
           href="https://github.com/sourcegraph/handbook"
           target="_blank"

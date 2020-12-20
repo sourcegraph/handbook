@@ -11,98 +11,12 @@
     },
     {
       "type": "link",
-      "key": "features",
-      "slug": "features",
-      "title": "Features",
-      "id": "2",
-      "position": 2,
-      "children": [
-        {
-          "type": "group",
-          "slug": "features/windows-3",
-          "title": "Windows",
-          "id": "3",
-          "children": [
-            {
-              "type": "link",
-              "slug": "features/win-1",
-              "title": "Windows 10",
-              "id": "7",
-              "children": []
-            }
-          ]
-        },
-        {
-          "key": "./features/mac.md",
-          "slug": "features/mac",
-          "type": "link",
-          "title": "macOS",
-          "id": "13"
-        },
-        {
-          "type": "group",
-          "key": "Linux",
-          "title": "Linux",
-          "position": null,
-          "id": "8",
-          "children": [
-            {
-              "type": "link",
-              "slug": "features/Arch",
-              "title": "Arch",
-              "id": "9",
-              "children": []
-            },
-            {
-              "key": "./features/ubuntu.md",
-              "slug": "features/ubuntu",
-              "type": "link",
-              "title": "Ubuntu",
-              "id": "11"
-            }
-          ]
-        },
-        {
-          "type": "link",
-          "slug": "deployment/node",
-          "title": "Node",
-          "id": "14",
-          "children": []
-        }
-      ]
-    },
-    {
-      "type": "link",
-      "key": "deployment",
-      "slug": "deployment",
-      "title": "Deployment",
+      "key": "engineering",
+      "slug": "engineering",
+      "title": "Engineering",
       "position": 1,
-      "id": "15",
-      "children": [
-        {
-          "key": "./deployment/basics.md",
-          "slug": "deployment/basics",
-          "type": "link",
-          "title": "Basics",
-          "id": "16"
-        },
-        {
-          "type": "group",
-          "key": "Complement",
-          "title": "Complement",
-          "position": null,
-          "id": "17",
-          "children": [
-            {
-              "key": "./deployment/complement-1.md",
-              "slug": "deployment/complement-1",
-              "type": "link",
-              "title": "Subpage",
-              "id": "18"
-            }
-          ]
-        }
-      ]
+      "id": "2",
+      "children": []
     }
   ]
 }

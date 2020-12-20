@@ -1,4 +1,0 @@
----
-title: Ubuntu
-groupIn: Linux
----

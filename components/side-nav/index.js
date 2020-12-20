@@ -12,7 +12,7 @@ const SideNav = ({ allNestedDocs, currentSlug, groupIn }) => {
     <SideNavStyled>
       <H3Styled onClick={() => setShowDocs(!showDocs)} active={showDocs}>
         <i className="icon-arrow_right" />
-        Documentation
+        Sections
       </H3Styled>
       <div className={`sideNavDocsList ${showDocs && "active"}`}>
         {allNestedDocs &&

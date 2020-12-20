@@ -4,7 +4,7 @@ title: Home
 position: 0
 last_edited: '2020-11-24T08:34:50.343Z'
 ---
-# Sourcegraph handbook
+## Sourcegraph handbook
 
 The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](../company/index.md#open-company).
 
