@@ -58,7 +58,7 @@ const Autocomplete = ({
   return (
     <SearchWrapper ref={wrapperRef}>
       <Search
-        placeholder={searchText || "Search our docs by topic…"}
+        placeholder={searchText || "Search the handbook…"}
         type="search"
         value={currentRefinement}
         onChange={(event) => refine(event.currentTarget.value)}

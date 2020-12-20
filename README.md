@@ -106,7 +106,7 @@ FEEDBACK_ENDPOINT=https://example.com
 
 ## :link: Hosting
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https%3A%2F%2Fgithub.com%2Ftinacms%2Ftina-starter-alpaca%2F&env=REPO_FULL_NAME,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET,SIGNING_KEY&envDescription=GitHub%20OAuth%20needed%20for%20TinaCMS&envLink=https%3A%2F%2Ftina.io%2Fguides%2Fnextjs%2Fgithub%2Fhosting-vercel&project-name=tinacms-next-documentation&repo-name=tinacms-next-documentation)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https%3A%2F%2Fgithub.com%2Fsourcegraph%2Fhandbook%2F&env=REPO_FULL_NAME,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET,SIGNING_KEY&envDescription=GitHub%20OAuth%20needed%20for%20TinaCMS&envLink=https%3A%2F%2Ftina.io%2Fguides%2Fnextjs%2Fgithub%2Fhosting-vercel&project-name=tinacms-next-documentation&repo-name=tinacms-next-documentation)
 
 - [See how to deploy NextJS on Vercel](https://nextjs.org/docs/deployment).
 - [You have to **create a GitHub OAuth App** with your Vercel URL](https://tina.io/guides/nextjs/github-open-authoring/hosting-vercel).
