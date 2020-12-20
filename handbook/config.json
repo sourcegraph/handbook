@@ -18,7 +18,7 @@
       "id": "2",
       "children": [
         {
-          "type": "link",
+          "type": "group",
           "slug": "engineering/web",
           "title": "Web",
           "id": "3xpf6iat8",
