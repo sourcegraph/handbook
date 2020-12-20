@@ -2,6 +2,13 @@
   "config": [
     {
       "type": "link",
+      "slug": "test",
+      "title": "Test",
+      "id": "elginjwqp",
+      "children": []
+    },
+    {
+      "type": "link",
       "key": "index",
       "slug": "index",
       "title": "Home",
