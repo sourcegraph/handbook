@@ -23,7 +23,7 @@ export default async (req, res) => {
         data: {
           title: `${req.body.reaction} comment on ${req.body.location}`,
           body: req.body.comment,
-          labels: [req.body.tag, req.body.location],
+          labels: [req.body.location],
         },
       })
       res.status(200).json({ message: "sent" })

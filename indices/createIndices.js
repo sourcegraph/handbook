@@ -2,10 +2,7 @@ require("dotenv").config()
 
 import algoliasearch from "algoliasearch"
 import fetchDocs from "./fetchDocs"
-import fetchBlogs from "./fetchBlogs"
-// import fetchGuides from '../data-api/fetchGuides'
 
-import getBlogPosts from "../utils/getBlogPosts"
 const MAX_BODY_LENGTH = 3000
 
 const mapContentToIndex = ({ content, ...obj }) => {
@@ -27,12 +24,6 @@ const createIndices = async () => {
 
   const docs = await fetchDocs()
   await saveIndex(client, "tina-starter-alpaca-Docs", docs.map(mapContentToIndex))
-
-  const blogs = await fetchBlogs()
-  await saveIndex(client, "tina-starter-alpaca-Blogs", blogs.map(mapContentToIndex))
-
-  // const guides = await fetchGuides()
-  // await saveIndex(client, 'Tina-Guides-Next', guides.map(mapContentToIndex))
 }
 
 createIndices()

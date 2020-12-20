@@ -18,11 +18,33 @@
       "id": "2",
       "children": [
         {
-          "type": "group",
+          "type": "link",
           "slug": "engineering/web",
           "title": "Web",
           "id": "3xpf6iat8",
-          "children": []
+          "children": [
+            {
+              "type": "link",
+              "slug": "engineering/web/goals",
+              "title": "Goals",
+              "id": "3xpf6iat9",
+              "children": []
+            },
+            {
+              "type": "link",
+              "slug": "engineering/web/styling",
+              "title": "Styling",
+              "id": "3xpf6iat7",
+              "children": []
+            },
+            {
+              "type": "link",
+              "slug": "engineering/web/testing",
+              "title": "Testing",
+              "id": "3xpf6iat6",
+              "children": []
+            }
+          ]
         }
       ]
     }
