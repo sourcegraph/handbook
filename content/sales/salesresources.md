@@ -31,10 +31,11 @@ To update a template place the new template in the main Sales Template folder, n
 ## Customer Notes
 
 Where to Store Customer Notes and Documents:
- - Create Folder in the ['Customer Notes' Shared Folder Here](https://drive.google.com/drive/folders/1OsRinDgrC53Zaue8ToTToXbVnW8HPoeA)
- - Naming Convention for Folder: "Customer/Prospect Name" - - then # customer or # prospect (see folder for examples)
- - Within that folder, add all of your documents and notably, your running notes google document (which you'll link to the Salesforce opportunity in the designated field)
- - If you'd like to save this folder into your own drive, that's simple and welcomed. Simply right click on the folder, then select 'Add Shortcut to Drive' - - then choose the preferred destination where you'd like this to land within your 'My Drive'
+
+- Create Folder in the ['Customer Notes' Shared Folder Here](https://drive.google.com/drive/folders/1OsRinDgrC53Zaue8ToTToXbVnW8HPoeA)
+- Naming Convention for Folder: "Customer/Prospect Name" - - then # customer or # prospect (see folder for examples)
+- Within that folder, add all of your documents and notably, your running notes google document (which you'll link to the Salesforce opportunity in the designated field)
+- If you'd like to save this folder into your own drive, that's simple and welcomed. Simply right click on the folder, then select 'Add Shortcut to Drive' - - then choose the preferred destination where you'd like this to land within your 'My Drive'
 
 Note: Salesforce is the communication and document source of truth for our Sales Team. Upload all docs (contracts, etc) to Salesforce and the customer's folder in Dropbox as well.
 
