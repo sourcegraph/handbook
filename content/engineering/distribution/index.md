@@ -37,6 +37,7 @@ See [Goals](goals.md)
   - [Update various service tokens for sourcegraph.com](tokens.md)
 - FAQ
   - [Why is there not a "stable" or "latest" Docker image tag?](faq.md#why-is-there-not-a-stable-or-latest-docker-image-tag)
+  - [Rollbacks](rollbacks.md)
 
 ## Members
 
