@@ -6,7 +6,6 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 
 ### Week 1
   - Get access to all CE [tools](https://about.sourcegraph.com/handbook/ce/onboarding#tools)
-  - Get your [accounts](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=154354692)
   - Read ALL existing [case studies](https://about.sourcegraph.com/case-studies)
     - Also understand the typical use case buckets
   - Read our [CE handbook pages](index.md)
@@ -24,6 +23,9 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Make a Handbook edit to the CE onboarding section
   - Complete [General Onboarding](https://about.sourcegraph.com/handbook/ce/onboarding#general-onboarding-during-weeks-1-and-2) 
   - Understand how we [create and store customer meeting notes](../ce/customer-notes.md)
+  - Become familiar with any [accounts](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=154354692) that have been assigned to you.
+    - Accounts can mean prospects or existing customers
+    - Know their use case, read past meeting notes, etc.
   - Signup and attend a [Product Tour](https://info.sourcegraph.com/product-tour).
 
 ### Week 2
