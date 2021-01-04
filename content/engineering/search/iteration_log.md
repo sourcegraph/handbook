@@ -11,6 +11,16 @@ This document contains the goals and work log for the search team's [2-week iter
     - $DESIRED_OUTCOME
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
+
+## 2021-01-04 to 2021-01-15
+
+### $GOAL_OR_THEME
+
+- **Owner(s):** $OWNER
+- **Outcomes:**
+    - $DESIRED_OUTCOME
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
     
 ## 2020-12-14 to 2021-01-04
 
@@ -23,14 +33,6 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2020-12-17: Streaming search presented in Brain Food ([slides](https://docs.google.com/presentation/d/1SFnmec2NEHaxlkqutHeH4feSIwaJywxHsfpa6t2FmfI/edit?usp=sharing))
     - 2020-12-18: Streaming search now shows errors and handles completion states better.
-
-### $GOAL_OR_THEME
-
-- **Owner(s):** $OWNER
-- **Outcomes:**
-    - $DESIRED_OUTCOME
-- **Work log:**
-    - YYYY-MM-DD: $UPDATE
 
 ## 2020-11-30 to 2020-12-11
 
