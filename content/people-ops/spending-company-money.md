@@ -64,17 +64,16 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Software/SaaS/cloud:** please check with the appropriate team and manager to ask if we already have a subscription or licenses to the software. If not, please get @sourcegraph/people-ops's approval for software or a subscription that would cost more than $500 per year.
 
-**Internet/WiFi plan:** $50/month (no need to expense, this is automatically added onto your pay).
-
-**Cell phone plan:** $75/month (no need to expense, this is automatically added onto your pay).
+**[Internet, phone, and wellness](expenses.md#internet-phone-and-wellness-benefits):** The following items are automatically added to your pay, and they don't need to be expensed.
+- **Internet/WiFi plan:** $50/month
+- **Cell phone plan:** $75/month 
+- **Wellness:** $100/month
 
 **Coworking/office space:** $300-500/month (these are meant to be averages, and it should be dependent on the average cost of coworking spaces in your particular location, if your coworking space is significantly more than the averages listed here, please get approval from @sourcegraph/people-ops). 
 
 **Education and professional development (conferences, courses):** $1000/year (if you want to exceed this amount, simply notify @sourcegraph/people-ops in advance to explain the situation and to receive approval).
 
 **Moving (moving, packing, shipping, etc.):** $1000/year
-
-**Wellness:** $85/month
 
 ## Other expenses:
 
