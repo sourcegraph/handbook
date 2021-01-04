@@ -1,8 +1,17 @@
 # Resources report tool [![Resources Report](https://github.com/sourcegraph/sourcegraph/workflows/Resources%20Report/badge.svg)](https://github.com/sourcegraph/sourcegraph/actions?query=workflow%3A%22Resources+Report%22)
 
-This tool reports on the status of various resources in AWS and GCP accounts. It runs on a regular basis as a GitHub Action and sends the results to the `#distributioneers` channel on a regular basis as a Google spreadsheet linked via a Slack message. The report can be accessed directly [here](https://docs.google.com/spreadsheets/d/1_bHvFXBVvtg3jOgq6fPuHFO0NlASW7SEJ3ip1bMuWJw/) as well, and the source code (and documentation on configuring the tool) is available [here](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/resources-report).
+This tool reports on the status of various resources in AWS and GCP accounts.
+It runs on a regular basis as a GitHub Action and sends the results to the `#distributioneers` channel on a regular basis as a Google spreadsheet linked via a Slack message.
+
+* [Report spreadsheet](https://docs.google.com/spreadsheets/d/1_bHvFXBVvtg3jOgq6fPuHFO0NlASW7SEJ3ip1bMuWJw/)
+* [Source code and CLI usage](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/internal/cmd/resources-report/README.md)
+* [GitHub Action workflow definition](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/.github/workflows/resources-report.yml) ([run logs](https://github.com/sourcegraph/sourcegraph/actions?query=workflow:%22Resources+Report%22))
 
 ## Using the report
+
+Each page in the report spreadsheet represents the output of a report run.
+If no resources are found during a run, a new page is not created.
+Reports from more than 30 days ago are pruned to prevent the spreadsheet from filling up due to Google API restrictions.
 
 The generated report contains the following columns of note:
 
@@ -22,4 +31,4 @@ The generated report contains the following columns of note:
 - the reporter only looks for *active* resources - if a resource was created and destroyed before the reporter runs, it won't report it
 - the reporter can only see what it has permissions to see - make sure that the `resources-report` IAM is provided the [appropriate permissions](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/resources-report#authentication)
 
-To troubleshoot, refer to the [run logs](https://github.com/sourcegraph/sourcegraph/actions?query=workflow:%22Resources+Report%22) or try [running it directly](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/resources-report) to reproduce the issue.
+To troubleshoot, refer to the [run logs](https://github.com/sourcegraph/sourcegraph/actions?query=workflow:%22Resources+Report%22) or try [running it directly](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/internal/cmd/resources-report/README.md) to reproduce the issue.
