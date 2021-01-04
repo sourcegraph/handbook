@@ -46,10 +46,11 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Security](engineering/security/index.md)
   - [Web](engineering/web/index.md)
 
-### Customer Engineering
+### [Customer Engineering](ce/index.md)
 
 - [Customer Engineering](ce/index.md)
-  - [Support](ce/support.md)
+- [Customer Technical Support](ce/support.md)
+- Customer Training (TODO)
 
 ### [Marketing](marketing/index.md)
 
