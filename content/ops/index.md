@@ -1,7 +1,6 @@
 # Operations
 
 - [Onboarding](onboarding.md)
-- [Internal Security](internal_security.md)
 - Operations RFCs (requests for comment)
   - [All operations RFC documents](https://drive.google.com/drive/folders/1Llct8MGmc1OvGQP6iWQwgfEDUJEuQZ7D) (Google Drive)
   - [How we use operations RFCs](ops-rfcs.md)
