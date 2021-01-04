@@ -1,5 +1,7 @@
 # Salesforce Administrator and Developer
 
+### We are currently not accepting applications for this role
+
 We are looking for our first Salesforce Administrator and Developer to join our small-but-mighty Sales Strategy & Operations team at Sourcegraph! You will be responsible for our Salesforce implementation and will help define and drive the Salesforce vision, roadmap, and architecture to enable our sales, customer success, and marketing teams to reach and exceed our company goals. 
 
 Our Salesforce implementation is in the earliest stages and our sales team is growing very quickly.  You have the opportunity to lay the foundation and architect a scalable Salesforce platform that will support our growth. 
