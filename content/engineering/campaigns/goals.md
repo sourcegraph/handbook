@@ -57,3 +57,17 @@ Completing a large scale change in any organization requires coordination with a
 * An increase in the average number of merged changesets is observed.
 * A reduction in the average amount of time to close a campaign is observed.
 * The nudge and automerge features are used by customers to reduce time to merge.
+
+# Roadmap
+
+1. **Customer outreach to improve adoption of campaigns**
+1. Better burndown charts 
+1. Allow multiple changeset in a single repository
+1. Improve previews on updates to show the delta between existing changesets and the changesets after after the campaign spec changes are applied
+1. Allow campaign to specify target branch
+1. Create campaign spec even if subset of repos have failures
+1. Versioning/releasing of src-cli with respect to sg/sg
+1. Improved documentation of src-cli login process
+1. Add filtering/searching to campaign and changeset lists
+1. Ability to auto-merge changesets, depending on various conditions
+1. Ability to add default reviewers to changesets
