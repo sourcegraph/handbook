@@ -30,6 +30,7 @@ TODO
   - [Josh Saunders](../../company/team/index.md#josh-saunders)
   - [Nick McMillen](../../company/team/index.md#nick-mcmillen-he-him)
   - [Mike McLaughlin](../../company/team/index.md#mike-mclaughlin-he-him)
+  - [Emily Chapman](../../company/team/index.md#emily-chapman-she-her)
 
 - Customer Support
   - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) Head of Customer Support
