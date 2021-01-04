@@ -36,7 +36,7 @@
 ## Learn how to contribute to the handbook
 
 - [Create an account on GitHub.com](https://github.com/join) if you don't already have one.
-   - Share your username with your manager so they can add you to the Sourcegraph GitHub account and appropriate teams.
+   - Share your username with your manager (if you're on the engineering team) or @noemi so they can add you to the Sourcegraph GitHub account and appropriate teams.
 - If you are not familiar with Git, complete the [Git introduction](git_intro.md).
 - Add yourself to the [team page](../../../company/team/index.md).
   - Add a link to your team page bio to your Slack profile
