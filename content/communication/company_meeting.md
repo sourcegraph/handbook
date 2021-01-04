@@ -42,7 +42,7 @@ Company meeting is an effective way to:
    - The manager of the team member presents a brief (~30-second) intro, stating the new team member's role, why we hired them, and what their first project is (if known). Then the person should pass it off to the new team member to say hello and share a fun fact about themselves. {#new-team-member-intro}
 1. Work anniversaries (owner: @sqs presents)
 1. Inspiration of the week (message @sqs to volunteer to present an inspiration)
-1. Chaneglog from last week (owner: @christina)
+1. Changelog from last week (owner: @christina)
 1. Progress on our [company goals](../../company/goals/index.md) (owner: @sqs)
 1. Product metrics update (owner: @ericbm)
 1. All customer [bookings](../sales/index.md#booking) and churn since the previous company meeting (owner: @tommy, @gregg presents)
