@@ -2,6 +2,8 @@
 
 **The tech operations team does not yet exist.** It is a team we want to create and grow. The Tech Ops team will help build, integrate, improve, and maintain our internal tools and applications.
 
+- [Internal Security](internal_security.md)
+
 ## Team
 
 We are hiring for the Tech Ops team! See all [open positions](../roles/index.md).
