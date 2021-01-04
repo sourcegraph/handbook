@@ -1,6 +1,6 @@
 # Customer Engineering
 
-The Customer Engineering team is responsible for ensuring that all of Sourcegraphs customers, prospects, and users get the most possible value out of it. Specific responsibilities include owning relationships with prospects and existing customers and helping them be successful. This means helping companies integrate Sourcegraph into their engineering stack and internal processes to maximize value to their engineering teams and development process, providing product demos, supporting the [sales team](../sales/index.md) by helping prospects run trials to see Sourcegraph value firsthand, communicating the value of Sourcegraph, growing engagement and owning front-line technical support.
+The Customer Engineering team partners with the [Sales team] (../sales/index.md) from a technical and product expertise perspective to ensure that all of Sourcegraph's prospects, customers, and users get the most possible value from it. This includes showing product demos, learning and understanding prospects' internal development environment and processes, helping companies integrate Sourcegraph into their engineering stack and internal processes to maximize value to their engineering teams, helping prospects run trials to recognize Sourcegraph value firsthand, building relationships with our accounts' champions and users, communicating the value of Sourcegraph, growing engagement and owning product training and technical support, and giving as many Sourcegraph "Aha!" moments as possible.
 
 - [Onboarding](onboarding.md)
 - [Team members](#members)
