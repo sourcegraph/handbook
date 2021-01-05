@@ -9,6 +9,7 @@
 - [Tracking user feedback](../user_feedback.md) - sources of feedback and how we keep track of that feedback.
 - [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](../rollout_process.md) - how we test, rollout and launch new features.
+- [Feature deprecation](../deprecation_process.md) - how we deprecate features when necessary. 
 
 ## Definitions
 
