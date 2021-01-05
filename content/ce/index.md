@@ -4,18 +4,19 @@ The Customer Engineering team partners with the [Sales team] (../sales/index.md)
 * [Onboarding](onboarding.md)
 * [Team members](#members)
 * [Customer notes](customer-notes.md)
-* [QBR Guide](qbr_guide.md)
-* Collaboration
-	* [Sales-to-CE new customer handover process](../sales/sales_to_ce_handover.md)
-	* [CE-to-Engineering issue handover process](ce_to_eng_handover.md)
-* [Creating and maintaining license keys for customers](license_keys.md)
 * [Training session and demo flows](training.md)
 	* [Sourcegraph 101](training.md#sourcegraph-101-standard-demo-flow)
 	* [Becoming a Sourcegraph power user](training.md#becoming-a-sourcegraph-power-user)
 	* [Sourcegraph office hours](training.md#sourcegraph-office-hours)
+* [Creating and maintaining license keys for customers](license_keys.md)
 * [Support](support.md)
 	* [How to route questions from customers](routing_questions.md)
 	* [Filing customer issues](customer_issues.md)
+* Collaboration
+	* [Sales-to-CE new customer handover process](../sales/sales_to_ce_handover.md)
+	* [CE-to-Engineering issue handover process](ce_to_eng_handover.md)
+* [QBR Guide](qbr_guide.md)
+
 
 ## Goals
 TODO
