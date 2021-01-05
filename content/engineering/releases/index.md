@@ -68,6 +68,8 @@ The release captain should create a tracking issue using the [release issue temp
 - [Release issue template](release_issue_template.md)
 - [Patch release issue template](patch_release_issue_template.md)
 - [Release blog post issue template](../../product/product_management/release_issue_template.md)
+- [Release deploy-soucegraph-docker issue template](release_deploy_sourcegraph_docker_template.md)
+- [Upgrade managed instances issue template](upgrade_managed_issue_template.md)
 
 ### Schedule
 
