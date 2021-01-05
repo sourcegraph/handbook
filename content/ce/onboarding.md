@@ -41,7 +41,8 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - CE Goals
     - CE systems and processes 
     - Product introduction 
-  - Read through [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system         works.    
+  - Read through [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system         works.
+     - Review [How the Sourcegraph CLI executes a campaign spec](https://docs.sourcegraph.com/campaigns/explanations/how_src_executes_a_campaign_spec)
      - If you have any questions, reach out to @nicksnyder, and make sure to update/incorporate what you learned from that q&a here. 
   - Go through [Product](https://about.sourcegraph.com/handbook/product/onboarding) and [Engineering]    (https://about.sourcegraph.com/handbook/engineering/onboarding) onboarding
   - Set up introductory calls with each Engineering team manager (use https://about.sourcegraph.com/company/team to help you find who that would include), Sales,       Product, and Marketing team members
