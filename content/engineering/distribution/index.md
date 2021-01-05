@@ -20,24 +20,29 @@ See [Goals](goals.md)
 
 ## Details
 
+- [Product & personas](product.md)
 - [Ownership areas](ownership_areas.md)
 - [Recurring processes](recurring_processes.md)
 - [Internal infrastructure](internal_infrastructure.md)
-- [Product & personas](product.md)
 - [Tools](tools/index.md)
-- Tutorials
-  - [Observability developer guide](../observability/index.md)
-  - [Managed instances](managed/index.md)
-  - [Collecting and inspecting metrics dumps](metrics_dumps.md)
-  - [How to set up a separate website maintained by Sourcegraph](separate_website.md)
-  - [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
-  - [How to test the Gitlab native integration locally](gitlab_native_local.md)
-  - [How to make updates to global settings and configuration on sourcegraph.com](update_sourcegraph_website.md)
-  - [Create GCP commitments](gcp.md#committed-use-discounts)
-  - [Update various service tokens for sourcegraph.com](tokens.md)
-- FAQ
-  - [Why is there not a "stable" or "latest" Docker image tag?](faq.md#why-is-there-not-a-stable-or-latest-docker-image-tag)
-  - [Rollbacks](rollbacks.md)
+  
+### Resources
+
+- [Observability at Sourcegraph](../observability/index.md)
+- [Observability developer guide](https://docs.sourcegraph.com/dev/background-information/observability)
+- [Managed instances](managed/index.md)
+- [Collecting and inspecting metrics dumps](metrics_dumps.md)
+- [How to set up a separate website maintained by Sourcegraph](separate_website.md)
+- [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
+- [How to test the Gitlab native integration locally](gitlab_native_local.md)
+- [How to make updates to global settings and configuration on sourcegraph.com](update_sourcegraph_website.md)
+- [Create GCP commitments](gcp.md#committed-use-discounts)
+- [Update various service tokens for sourcegraph.com](tokens.md)
+- [Rollbacks](rollbacks.md)
+
+### FAQ
+
+- [Why is there not a "stable" or "latest" Docker image tag?](faq.md#why-is-there-not-a-stable-or-latest-docker-image-tag)
 
 ## Members
 
@@ -61,7 +66,7 @@ We have an OpsGenie rotation to respond to [incidents](../incidents/index.md) (e
 
 **Incidents on-call**
 
-- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+ObservableOwnerDistribution%29+count:1000&patternType=structural)
+- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+monitoring.ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+monitoring.ObservableOwnerDistribution%29+count:1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/aa59eba4-9b34-45ea-9515-c4dab4cbdac9/main)
 
 ## Support rotation

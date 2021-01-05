@@ -13,12 +13,14 @@ To see what Distribution is currently prioritizing, see the [Distribution Goals]
 
 **Related**
 
+- [Internal infrastructure](./internal_infrastructure.md)
 - [Instances](../deployments/instances.md)
 - [Managed instances](./managed/index.md)
 - [Infrastructure repository](https://github.com/sourcegraph/infrastructure): all sorts of Terraform stuff
 - [CI build scripts](https://sourcegraph.com/search?q=repo%3A%5Egithub%5C.com%2Fsourcegraph%2Fsourcegraph%24+file%3Abuild.sh%7C%2Fci%2F+count%3A1000&patternType=literal)
 - [CI pipeline generator](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:%5Eenterprise/dev/ci/ci+count:1000&patternType=literal)
 - [CI tests (QA, E2E, etc.)](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/ci/test)
+- [Tools](./tools/index.md)
 
 ## Release pipeline
 
@@ -85,18 +87,27 @@ To see what Distribution is currently prioritizing, see the [Distribution Goals]
 
 ## Observability
 
-### Monitoring
-
-- Monitoring & alerting infrastructure
-- Educating site admins about how to monitor Sourcegraph
-- Working with & ensuring engineering @ Sourcegraph adds needed monitoring
+- Sourcegraph [monitoring](#monitoring) and [debugging](#debugging) for site administrators and Sourcegraph engineers
 
 **Related**
 
-- [Monitoring handbook](../observability/monitoring.md)
-- [monitoring generator (dashboards/alerts)](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
-- [Grafana docker image](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/docker-images/grafana)
-- [Prometheus docker image](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/docker-images/prometheus)
+- [Observability developer guide](https://docs.sourcegraph.com/dev/background-information/observability)
+- [Observability for site admins](https://docs.sourcegraph.com/admin/observability)
+
+### Monitoring
+
+- Metrics & alerting infrastructure
+- Educating site admins about how to monitor Sourcegraph
+- Working with and ensuring engineering at Sourcegraph adds needed monitoring
+
+**Related**
+
+- [Monitoring at Sourcegraph](../observability/monitoring.md)
+- [Monitoring generator (dashboards/alerts)](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator)
+- [Grafana docker image](https://docs.sourcegraph.com/dev/background-information/observability/grafana)
+- [Prometheus docker image](https://docs.sourcegraph.com/dev/background-information/observability/prometheus)
+
+Also see [observability](#observability).
 
 ### Debugging
 
@@ -113,4 +124,5 @@ To see what Distribution is currently prioritizing, see the [Distribution Goals]
 - [Jaeger in Kubernetes](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph%24+jaeger&patternType=literal)
 - [Jaeger in docker-compose/pure-docker](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph-docker%24+jaeger&patternType=literal)
 - [Jaeger in single-container](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:cmd/server+jaeger&patternType=literal) deployments
-- [admin docs](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:doc/admin/observability+jaeger%7Ctracing&patternType=regexp)
+
+Also see [observability](#observability).

@@ -1,13 +1,29 @@
-# Sourcegraph: The five pillars of monitoring
+# Sourcegraph monitoring pillars
 
 **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 
-This document describes in-depth the background and pillars that drive how we development of our monitoring infrastructure at Sourcegraph. See [the monitoring developer guide](monitoring.md) for information on how to develop monitoring once you're convinced.
+This document describes the background and pillars that drive how we development of our monitoring infrastructure at Sourcegraph.
+Once you are convinced, see the [Sourcegraph monitoring guide](./monitoring.md) and the [observability developer documentation](https://docs.sourcegraph.com/dev/background-information/observability) for development-related documentation.
 
 - [Long-term vision](#long-term-vision)
   - [History](#history)
-- [The Sourcegraph monitoring pillars](#the-sourcegraph-monitoring-pillars)
+- [Monitoring pillars](#monitoring-pillars)
 - [Next steps](#next-steps)
+
+## Overview
+
+Monitoring at Sourcegraph encapsulates:
+
+- How site admins know something _is wrong_ or _may be wrong_.
+- Describing the overall health of Sourcegraph to site admins.
+- Making it clear to site admins _where to go next if Sourcegraph is not healthy_.
+
+It does *not* include:
+
+- Significant detail about what went wrong or the ability to identify individual problem cases: the goal is just to direct the site admin to the next step.
+- Solving a problem end-to-end: after looking at monitoring, admins MUST go elsewhere to solve the problem.
+
+Because of this, monitoring is just one piece of Sourcegraph's observability - see the [observability developer guide](index.md) for more information.
 
 ## Long-term vision
 
@@ -39,7 +55,7 @@ We can and should do better with monitoring than we have in the past, so we intr
 
 You can think of the restrictions we impose as a linter for preventing the issues described above. And, in many cases, our tooling does already prevent these issues by imposing these restrictions!
 
-## The Sourcegraph monitoring pillars
+## Monitoring pillars
 
 Monitoring tooling at Sourcegraph is developed to encourage the following guidelines:
 

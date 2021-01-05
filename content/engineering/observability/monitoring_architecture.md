@@ -2,9 +2,9 @@
 
 > **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 
-> **Note:** Looking for _how to develop Sourcegraph monitoring?_ See the [monitoring developer guide](./monitoring.md).
-
 This document describes the architecture of Sourcegraph's monitoring stack, and the technical decisions we have made to date and why.
+
+For development-related documentation, see the [Sourcegraph monitoring guide](./monitoring.md) and the [observability developer documentation](https://docs.sourcegraph.com/dev/background-information/observability).
 
 <!-- generated from monitoring_architecture.excalidraw -->
 ![architecture diagram](https://storage.googleapis.com/sourcegraph-assets/monitoring-architecture.png)

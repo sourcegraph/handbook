@@ -1,23 +1,14 @@
-# Sourcegraph observability developer guide
+# Observability at Sourcegraph 
 
 > **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 
-Observability includes:
+These pages document Sourcegraph-specific use cases, scenarios, and tools for developing observability, as well as some background information and guiding principles.
 
-- Monitoring - how you know _when something is wrong_, which includes:
-  - Dashboards & metrics
-  - Alerting
-  - Health checks
-- Debugging - how you debug _what is wrong_, which includes:
-  - Distributed tracing
-  - Logging
-
-## Developer guides
+For general observability development, please refer to the [observability development documentation](https://docs.sourcegraph.com/dev/background-information/observability) instead, which includes links to useful how-to guides.
 
 - [Monitoring developer guide](monitoring.md)
-  - [The five pillars of monitoring](monitoring_pillars.md)
+  - [Monitoring pillars](monitoring_pillars.md)
   - [Monitoring architecture](./monitoring_architecture.md)
 - [Cloudflare logging](cloudflare.md)
 - Distributed tracing developer guide (coming soon)
 - Logging developer guide (coming soon)
-
