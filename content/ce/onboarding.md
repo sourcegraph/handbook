@@ -12,7 +12,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - [Support](support.md)
   - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install)
     - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1Mqlndi3anVp9Eq8tYgVoyjodyoxsfik2?usp=sharing)
-    - Ask for any help needed along the way in the #dev-chat channel
+    - Ask for any help needed along the way in our #ce channel
     - Update our docs where necessary
   - Watch recorded product demos (see [Resources](https://about.sourcegraph.com/handbook/ce/onboarding#resources) below)
     - Schedule a demo from the most recent CE hire before you 
@@ -42,7 +42,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - CE systems and processes 
     - Product introduction 
   - Read through [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system         works.
-     - Review [How the Sourcegraph CLI executes a campaign spec](https://docs.sourcegraph.com/campaigns/explanations/how_src_executes_a_campaign_spec)
+     - Also review [How the Sourcegraph CLI executes a campaign spec](https://docs.sourcegraph.com/campaigns/explanations/how_src_executes_a_campaign_spec)
      - If you have any questions, reach out to @nicksnyder, and make sure to update/incorporate what you learned from that q&a here. 
   - Go through [Product](https://about.sourcegraph.com/handbook/product/onboarding) and [Engineering]    (https://about.sourcegraph.com/handbook/engineering/onboarding) onboarding
   - Set up introductory calls with each Engineering team manager (use https://about.sourcegraph.com/company/team to help you find who that would include), Sales,       Product, and Marketing team members
