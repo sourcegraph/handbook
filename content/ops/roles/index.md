@@ -9,8 +9,4 @@
 
 - [Tech Operations Manager](./tech_operations_manager.md)
 
-## [Legal](../legal/index.md)
-
-- [Senior Commercial Counsel](./senior_commercial_counsel.md)
-
 See our [careers page](../../../company/careers.md) for all open positions and more info.
