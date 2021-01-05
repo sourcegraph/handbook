@@ -63,7 +63,7 @@ Iterations start **every other Monday**.
   - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
   - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
   - [Rok Novosel](../../../company/team/index.md#rok-novosel-he-him)
-  - C.C., backend engineer, joining 2021-01-04
+  - [Camden Cheek](../../../company/team/index.md#camden-cheek-hehim)
 
 ## On-call
 
