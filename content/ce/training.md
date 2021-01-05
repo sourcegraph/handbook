@@ -11,7 +11,7 @@ However, additional sessions are available on custom topics.
 - Make it clear at the start that you will stop for questions at each stage along the way. These are most successful when the viewers are deeply engaged and using Sourcegraph themselves.
 - Tailor all of the use cases described below to the company in question.
 
-## Sourcegraph 101 (standard demo flow)
+## Sourcegraph 101 (Standard demo flow)
 
 _Trainer_: Customer Engineer
 
@@ -69,7 +69,7 @@ _Optional, if time allows_
 - Using the Codecov extension, show how Sourcegraph can add critical context to code (including during code review).
 - Share a link to the ["Authoring extensions" documentation page](https://docs.sourcegraph.com/extensions/authoring).
 
-## Becoming a Sourcegraph power user
+## Sourcegraph 102 (Becoming a Sourcegraph power user)
 
 _Trainer_: Customer Engineer
 

@@ -49,12 +49,12 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - [Grafana and Prometheus](https://docs.sourcegraph.com/admin/observability/metrics)
     - [Tracing](https://docs.sourcegraph.com/admin/observability/tracing)
     - [Alerting](https://docs.sourcegraph.com/admin/observability/alerting)
-  - Give SG 101, 102 (internal certification)
+  - Give [SG 101](./training.md#sourcegraph-101-standard-demo-flow), [SG-102](./training.md#sourcegraph-102-becoming-a-sourcegraph-power-user) (internal certification)
     - [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit?usp=sharing) 
 
 ### Weeks 3-4
   - Give a campaigns demo
-  - Give SG 101, 102 (to clients/prospects)
+  - Give [SG 101](./training.md#sourcegraph-101-standard-demo-flow), [SG-102](./training.md#sourcegraph-102-becoming-a-sourcegraph-power-user) (to clients/prospects)
   - Do 1 week frontline support
   - Run your first customer meeting (existing account)
   - Run your first customer meeting (new demo)
