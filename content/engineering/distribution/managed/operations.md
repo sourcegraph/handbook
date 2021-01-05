@@ -46,17 +46,22 @@ $ gcloud beta compute instances list --project=sourcegraph-managed-$CUSTOMER
 
 And start the instance if needed (e.g. through the web UI.)
 
-## Port-forwarding (direct access to Caddy, Jaeger, and Grafana)
+## Port-forwarding
 
 Locate the GCP instance you'd like to access (usually either `default-red-instance` or `default-black-instance`), and then:
 
 ```sh
-gcloud compute start-iap-tunnel default-$DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone "us-central1-f" --project "sourcegraph-managed-$CUSTOMER"
+export PORT=80 # or one of the below ports
+gcloud compute start-iap-tunnel default-$DEPLOYMENT-instance $PORT --local-host-port=localhost:4444 --zone "us-central1-f" --project "sourcegraph-managed-$CUSTOMER"
 ```
 
-This will port-forward `localhost:4444` to port `80` on the VM instance:
+This will port-forward `localhost:4444` to port `80` on the VM instance. Some common ports:
 
-Replace `80` with `3370` for Grafana, or `16686` for Jaeger. Note that other ports are prevented by the `allow-iap-tcp-ingress` firewall rule.
+* `80`: Frontend (also see [accessing through the GCP load balancer](#access-through-the-gcp-load-balancer-as-a-user-would))
+* `3370`: Grafana
+* `16886`: Jaeger
+
+Note that other ports are prevented by the `allow-iap-tcp-ingress` firewall rule.
 
 ## Access through the GCP load balancer as a user would
 

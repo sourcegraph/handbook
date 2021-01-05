@@ -30,7 +30,7 @@ Creating a new managed instance involves following the steps below.
      - For **Secret value**, enter the OpsGenie webhook URL from [Internal managed instances vault: OpsGenie Webhook URL](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
      - Click **Create secret**.
 1. Clone and `cd deploy-sourcegraph-managed/`
-1. `VERSION=vMAJOR.MINOR.PATH ./create-deployment.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
+1. `VERSION=vMAJOR.MINOR.PATH ./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/gcp-tfstate/gcp-tfstate.tf` according to the comments within, commit the result.
 1. In `gcp-tfstate` run `terraform init && terraform apply && git add . && git commit -m 'initialize GCP tfstate bucket'`
 1. Open and edit `infrastructure.tf` according to the comments within and commit the result.
@@ -45,6 +45,7 @@ Creating a new managed instance involves following the steps below.
    - Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
    - Username: `sourcegraph-admin`
    - Password: Use the password previously created and stored in 1password.
+1. Create a token for the account under `/users/sourcegraph-admin/settings/tokens` called `managed-instances` and add it as "token" under the 1password entry for the admin account.
 1. Navigate to Grafana and confirm the instance looks healthy.
 1. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
 1. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
