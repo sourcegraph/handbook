@@ -78,9 +78,11 @@ While all dashboards required to troubleshoot our product should be shipped to c
 - When the additional dashboard is not ready yet to graduate to customers
 - When the additional dashboard applies only to our Cloud deployment
 
-Dashboards can be deployed to our Cloud deployment by adding them in `json` format to `dashboards/files` in https://github.com/sourcegraph/deploy-sourcegraph-dot-com/. To learn more, reference its [documentation](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/feature/release/dashboards)
+Dashboards can be deployed to our Cloud deployment by adding them in `json` format to `dashboards/files` in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com).
+To learn more, reference the [dashboard generator documentation](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/release/dashboards).
 
-Once the dashboard is ready to be shipped to customers, we will need to port it to the [monitoring generator](./monitoring_architecture.md#monitoring-generator) to be included in our next Sourcegraph release.
+Once the dashboard is ready to be shipped to customers, we will need to port it to the [monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator) to be included in our next Sourcegraph release.
+Custom dashboards cannot be added to the `sourcegraph/grafana` except through the generator.
 
 You can use a [local Grafana](#connecting-grafana-to-a-remote-prometheus-instance) or the Cloud Grafana to create a new dashboard and once its ready, export it by following these steps:
 
