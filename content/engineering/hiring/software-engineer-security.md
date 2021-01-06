@@ -25,7 +25,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 1. You [apply here](https://jobs.lever.co/sourcegraph/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22/apply).
 1. You speak with the Security manager for 45 minutes. To prepare:
     - Read through [our handbook](https://github.com/sourcegraph/about) to learn more about how we operate and to find answers to common questions that you might have.
-1. You write a short security assessment, taking less than **1hr** of your time, explaining a security vulnerability [sample problem](https://docs.google.com/document/d/1oXhjU_3y2uhpmWJ2hD0NTaqSanUAOlKDFFmjazAU3Rg/).
 1. We schedule a live, [90-minute pair-programming exercise](software-engineer-coding-exercise.md#cli-coding-exercise) with a Sourcegraph engineer.
 1. We schedule remote interviews over video chat across multiple days.
    - 1h **Security concepts:** We give you an open problem statement and you walk us through how you would solve the problem.
