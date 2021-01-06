@@ -27,6 +27,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - Accounts can mean prospects or existing customers
     - Know their use case, read past meeting notes, etc.
   - Signup and attend a [Product Tour](https://info.sourcegraph.com/product-tour).
+  - Add shared [CE calendar](https://calendar.google.com/calendar/u/0?cid=Y19yY3Y0ZTRqODI0OXZzNmJwbzd0bXFrZjVuZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your calendar
 
 ### Week 2
   - Discovery questions 
@@ -127,6 +128,8 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
 - [Creating and maintaining license keys](https://about.sourcegraph.com/handbook/ce/license_keys)
 
 - [Creating and storing customer meeting notes](../ce/customer-notes.md) 
+
+- [Shared CE Calendar](https://calendar.google.com/calendar/u/0?cid=Y19yY3Y0ZTRqODI0OXZzNmJwbzd0bXFrZjVuZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
  
   
 ## FAQ
