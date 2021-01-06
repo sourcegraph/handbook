@@ -1,6 +1,7 @@
 # Terraform style guide
 
 - General Terraform [styleguide](https://www.terraform.io/docs/configuration/style.html)
+- Sourcegraph Terraform [Extended Guide](./extended_guide/terraform.md)
 
 ## State
 
