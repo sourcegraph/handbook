@@ -25,7 +25,8 @@ See [Goals](goals.md)
 - [Recurring processes](recurring_processes.md)
 - [Internal infrastructure](internal_infrastructure.md)
 - [Tools](tools/index.md)
-  
+- [Tech stack](tech_stack.md)
+
 ### Resources
 
 - [Observability at Sourcegraph](../observability/index.md)
