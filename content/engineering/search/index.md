@@ -22,8 +22,6 @@ The search team plans its work in **2-week iterations**.
 
 The goals and updates for current and past iterations can be found in the [iteration log](./iteration_log.md).
 
-The planned work items for the current iteration are tracked in the [Search iterations GitHub project](https://github.com/orgs/sourcegraph/projects/93).
-
 ### Planning an iteration
 
 Iterations start **every other Monday**.
@@ -31,7 +29,6 @@ Iterations start **every other Monday**.
 **On the last Friday of an iteration:**
 
 - Teammates add the themes they're planning to work on, and the desired outcomes, to the [iteration log](./iteration_log.md).
-- Teammates add relevant GitHub issues or cards to the **Planned** column of the [Search iterations GitHub project](https://github.com/orgs/sourcegraph/projects/93).
 - Teammates add any topics they would like to discuss during the retrospective to the [Search team retrospectives](https://docs.google.com/document/d/1YyPhH-OVrFddLhlerlfrqmnqe633I09wp9D9mSI4Za8/edit) document.
 
 **On the first Monday of an iteration:**
