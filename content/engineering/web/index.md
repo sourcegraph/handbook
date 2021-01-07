@@ -58,7 +58,7 @@ By the end of an iteration, all issues should be in the "Done" column and the bo
 To ensure the team can be productive right from the start of an iteration we start planning for our next iteration as soon as a new iteration starts.
 
 1. First week of the iteration
-   1. The EM & PM will add tasks that should be considered for the iteration throughout the week. 
+   1. The EM & PM will add tasks that should be considered for the iteration throughout the week.
       1. Tasks are added to the [Iteration planning scratchpad](https://docs.google.com/spreadsheets/d/1PKxOps4AWlqdI-H2eKSRzNhw4XT-oiwOpKF4UdN_1b8/edit); a spreadsheet we use to propose work items for the upcoming iteration
       1. The PM will focus on adding items that are aligned with our roadmap so that we keep working towards our goals
       1. The EM will focus on adding bugs and tech debt issues to ensure we maintain a high quality code base and product.
@@ -66,18 +66,18 @@ To ensure the team can be productive right from the start of an iteration we sta
       1. A "Ready for dev" status means that all the necessary information has been captured or prepared so that the engineer taking up the issue can essentially start working on it immediately.
          1. This does not involve figuring out implementation detail, as we do not tell engineers how to execute a task, but rather tell them the problem and make the requirements clear, and then ask them to figure out the best way to implement the solution.
          1. We don't block on design dependencies for a task, but try to identify any dependency early on and communicate this requirement to the product designer.
-   1. The PM identifies and communicates design input needed from the Product Designer and works to prioritize it with them.     
+   1. The PM identifies and communicates design input needed from the Product Designer and works to prioritize it with them.
 1. Second week of the iteration
    1. By the Wednesday, the EM and PM should have ensured that:
       1. All planned work have refined issues in GitHub and are added to the 'Next iteration' column on the backlog board
       1. All issues are in a "Ready for dev" state
       1. All issues have effort estimates and have been prioritized
-      1. The team’s available capacity for the next iteration is known. 
+      1. The team’s available capacity for the next iteration is known.
          1. A teammates capacity is calculated at 80% of the iteration days - vacation days.
    1. On the Wednesday, the teammates are invited to review the planned iteration scope and to provide feedback.
    1. On the Thursday, the EM and PM will have a sync call to finalize the next iteration’s scope. In determining the iteration scope they will factor in:
       1. The priority
-      1. The effort estimate 
+      1. The effort estimate
       1. The available capacity of the team
       1. Any left over issues that won't be complete from the prior iteration, and whether those issues should still be prioritized next iteration or moved to a backlog category.
       1. Feedback from the teammates
@@ -147,11 +147,10 @@ Examples:
 - Product improvements that affect our entire app and don't have a clear product team owner (for example: new nav bar, complete site redesign)
 - Efficiency and reliability of frontend CI pipeline steps.
 
-### Code insights
+### [Code insights](../code-insights/index.md)
 
-This team is responsible for building and delivering [**code insights**](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) to engineering leaders, empowering data-driven decisions.
-
-This team will not be created until we have identified a dedicated engineering manager and a dedicated product manager.
+This team is responsible for building and delivering **code insights** to engineering leaders, empowering data-driven decisions in engineering organizations.
+Learn all about this team on the [code insights team page](../code-insights/index.md).
 
 ### Extensions and integrations
 
