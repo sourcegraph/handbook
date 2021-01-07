@@ -45,14 +45,14 @@ When I create a campaign to make large-scale code changes I want to _focus on th
 
 ## Process
 
-* We prioritize our work in [this project](https://github.com/sourcegraph/sourcegraph/projects/10). It is the responsibility of the PM and EM to keep this updated and correct.
+* We prioritize our work in [this project](https://github.com/orgs/sourcegraph/projects/119). It is the responsibility of the PM and EM to keep this updated and correct.
 
 * Each day, Slack reminds us to do our text check-in, which consists of a *short* message (it shouldn't take longer than a minute to write) in the reminder's thread. This should be a recap of what we have finished that day.
 
 * On Tuesdays, each engineer posts a status update in the current tracking issue with any additional info regarding what they accomplished in the previous week that wasn't captured in their daily status updates, as well as what they intend to accomplish in the coming week. The EM then rolls this up into a status update that is emailed to engineering leadership.
   * Since most of the "what we accomplished" details have already been recorded in the daily Slack check-ins, it is not necessary for engineers to repeat any of those items. The status update could still include any additional info or color that the engineer wishes to record (if any), but would primarily be forward-looking.
 
-* One Big Thing: Each sprint, each engineer gets one big thing to work on — one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning project](https://github.com/sourcegraph/sourcegraph/projects/10) into the current sprint to work on (or P1 if there are no P0s).
+* One Big Thing: Each sprint, each engineer gets one big thing to work on — one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning project](https://github.com/orgs/sourcegraph/projects/119) into the current sprint to work on (or P1 if there are no P0s).
 
 * Invariants and assumptions:
   * Issues have the current milestone set if-and-only-if they are P0.
@@ -64,7 +64,7 @@ Our two-week sprints start every other Wednesday. We follow this process:
 
 * Before the iteration begins, we do pre-planning to make the most of our the planning meeting:
   * EM creates a [tracking issue](https://about.sourcegraph.com/handbook/engineering/tracking_issues) for the iteration which will track our progress through the iteration. EM also creates the milestone for sprint N+1 and a `planned/CampaignsSprintN` label for things that didn't get finished in the previous sprint.
-  * Everyone on the team looks through [our backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fcampaigns+milestone%3ABacklog) for any issues they think we should consider for the next sprint. To to so, add the issue to the "Needs prioritization" column of [our planning project](https://github.com/sourcegraph/sourcegraph/projects/10).
+  * Everyone on the team looks through [our backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fcampaigns+milestone%3ABacklog) for any issues they think we should consider for the next sprint. To to so, add the issue to the "Needs prioritization" column of [our planning project](https://github.com/orgs/sourcegraph/projects/119).
   * Everyone on the team looks through the current tracking issue for any issues they do not expect to finish by the end of the sprint (EOD Tuesday), and set the next sprint's milestone so they will show up on the new tracking issue. (Feel free to un-assign these if you wish.) Make sure to set the relevant `planned` label on issues that move to the next sprint, for tracking and accountability.
   * Engineers add/refine estimates to issues in the new tracking issue and the planning project. All estimates in GitHub are assumed to be upper-bound estimates. (A missing estimate means "between 1 second and 1 trillion years.")
   * Everyone on the team reviews the roadmap doc and comments their thoughts. Replace estimate placeholders with your actual estimates (and a best-guess range is fine: "3-5d"). For any items without linked Github issues, please create those issues and link them. **(NOTE: When we move to Productboard, this step will become obsolete.)**
