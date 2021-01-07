@@ -2,9 +2,13 @@
 
 This section documents testing clusters and deployments.
 
+## Create a project in the "Engineering Projects" folder
+
+Create a folder with your name [here](https://console.cloud.google.com/projectselector2/home/dashboard?orgonly=true&supportedpurview=project&project=&folder=795981974432) following our [naming conventions](../environments.md#Engineering-Projects)
+
 ## How to manually start a test cluster in our "Sourcegraph Auxiliary' project on GCP
 
-- Go to [Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server)
+- Go to your project
 - Click create a cluster.
 - Give it a name (a good convention is to prefix with your username).
 - Keep the defaults zonal and us-central1.
@@ -55,16 +59,20 @@ kubectl apply -f sourcegraph.Storageclass.yaml
 kubectl port-forward svc/sourcegraph-frontend 3080:30080
 ```
 
-Please delete your test cluster when you are done testing by going to
-[Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server) and pressing the
-appropriate delete button.
+Please delete your test cluster when you are done testing. You may also consider deleting your project to ensure all resources tied to your account are cleaned up.
 
-## How to start a test cluster in our "Sourcegraph Auxiliary' project on GCP with a script
+## How to start a test cluster in your project on GCP with a script
 
 The following script executes the same steps that were described in the previous section. Place the script in the root
 directory of your [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph) clone
 (also add it to your `.git/info/exclude`).
 Execute it from the repo root directory. It will spin up a test cluster in the namespace `ns-sourcegraph`.
+
+```
+export PROJECT=$(whoami)-testing
+export PARENT_FOLDER=795981974432
+gcloud projects create --folder=${PARENT_FOLDER} ${PROJECT}
+```
 
 ```shell script
 #!/usr/bin/env bash
@@ -83,8 +91,8 @@ mkdir generated-cluster
 
 ./overlay-generate-cluster.sh namespaced generated-cluster
 
-gcloud container clusters create "${USER}"-testing --zone us-central1-a --num-nodes 3 --machine-type n1-standard-16 --disk-type pd-ssd --project sourcegraph-server
-gcloud container clusters get-credentials "${USER}"-testing --zone us-central1-a --project sourcegraph-server
+gcloud container clusters create "${USER}"-testing --zone us-central1-a --num-nodes 3 --machine-type n1-standard-16 --disk-type pd-ssd --project $PROJECT
+gcloud container clusters get-credentials "${USER}"-testing --zone us-central1-a --project $PROJECT
 
 kubectl create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gcloud config get-value account)
 
