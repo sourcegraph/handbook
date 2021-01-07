@@ -16,7 +16,9 @@ The Customer Engineering team partners with the [Sales team] (../sales/index.md)
 	* [Sales-to-CE new customer handover process](../sales/sales_to_ce_handover.md)
 	* [CE-to-Engineering issue handover process](ce_to_eng_handover.md)
 * [QBR Guide](qbr_guide.md)
-
+* [Guide to demoing the Campaigns feature](https://drive.google.com/drive/u/0/folders/1ZI9A_u8K7cxQS_-WFbkG75PcqgkGpPGI) (video recording)
+	* [Slides](https://docs.google.com/presentation/d/1niZBMhHKWJT1-n_ExSbYIRD51vcubrWwQm-Tc5EZo8s/edit#slide=id.g7d2aea8729_0_0)
+	* [Campaign demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
 
 ## Goals
 TODO
