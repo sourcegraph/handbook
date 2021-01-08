@@ -51,7 +51,7 @@ This is the file outlining the project and is written by the project developers 
 A report of a possible problem with a project or piece of software. (Just like a real issue!) It is something of concern that you want to flag so it can be corrected. 
 
 ### Pull Request (AKA "PR")
-A request in GitHub for someone else to review your work for any possible errors or flaws before finalizing changes. For example, if had written an article, and you were almost ready to publish it but first you want someone else to review it. They would have the option to provide feedback through comments or approve it for publishing. 
+A request in GitHub for someone else to review your work for any possible errors or flaws before finalizing changes. For example, if you had written an article, and you were almost ready to publish it but first you want someone else to review it. They would have the option to provide feedback through comments or approve it for publishing. 
 
 ### Merge
 The act of taking a series of changes in a document or project (commits, for Git) in a branch and applying them to the existing repository. Generally, merging happens once your pull request has been approved. 
@@ -89,8 +89,8 @@ A text markup language to allow plain text to convert to styled text using commo
 A text-based interface for controlling computers by issuing textual commands. Basically, it's a place where you can enter commands for your computer to execute. 
 
 ### API (Application Programming Interface)
-An API allows a piece of software to interact with another piece of software
+An API allows a piece of software to interact with another piece of software.
 
 
 ### Server
-An instance of a computer program that accepts and responds to requests made by another program. There are several different kinds of servers (application server, web server, cloud server, etc.)
+An instance of a computer program that accepts and responds to requests made by another program. There are several different kinds of servers (application server, web server, cloud server, etc.).
