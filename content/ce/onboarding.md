@@ -7,7 +7,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 ### Week 1
   - Get access to all CE [tools](https://about.sourcegraph.com/handbook/ce/onboarding#tools)
   - Read ALL existing [case studies](https://about.sourcegraph.com/case-studies)
-    - Also understand the typical use case buckets
+    - Also understand the typical [use case buckets](https://about.sourcegraph.com/customers/#onboard)
   - Read our [CE handbook pages](index.md)
     - [Support](support.md)
   - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install)
