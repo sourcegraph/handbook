@@ -25,10 +25,9 @@ You will **own an area of the product**\* and:
 \* Product teams or areas in need of a PM, grouped by priority of current business needs.
 
 - Highest urgency
-   - [Campaigns](../../engineering/campaigns/index.md)
    - [Cloud](../../engineering/cloud/index.md)
    - [Search](../../engineering/search/index.md)
-   - Open source experience (new product effort)
+   - Spread code search/growth (new company effort)
 - Medium urgency
    - Backend infrastructure (expansion from current Cloud team growth)
    - Frontend platform (expansion from current web team growth)
