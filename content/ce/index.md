@@ -25,7 +25,6 @@ TODO
 
 ## Members
 
-* [Julia Gilinets](../../company/team/index.md#julia-gilinets-she-her) VP of Customer Engineering
 * Customer Engineers
 	* [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
 	* [Jonah Dueck](../../company/team/index.md#jonah-dueck-he-him)
