@@ -1,47 +1,119 @@
 # Web Team Goals and Priorities 
 
+**_The web team has two areas of focus:_**
+
+  1. **_Extensibility_:** _delivering the full, unique value of Sourcegraph across [extensions](https://docs.sourcegraph.com/extensions) and_ [_code host integrations_](https://docs.sourcegraph.com/dev/background-information/web/code_host_integrations).
+  1. **_Frontend platform:_** _creating and maintaining a highly usable and intentionally designed webapp interface._
+
+_Until it has fully staffed its own team, the web team also "parents" the **code insights team**._ 
+
 ## Goals
 
-### Long term
+See also our [completed goals](goals_completed.md).
 
-**_The web team has four areas of focus:_**
+###  _Extensibility_ – make Sourcegraph extensions an active ecosystem 
 
-  1. **_Creating and maintaining a highly usable and intentionally designed webapp interface_**
-  1. **_Delivering the full, unique value of Sourcegraph [extensions](https://docs.sourcegraph.com/extensions)_**
-  1. **_Maintaining and expanding_ [_code host integrations_](https://docs.sourcegraph.com/dev/background-information/web/code_host_integrations)**
-  1. **_Developing code insights into an entirely new featureset_**
+**Problem:** 
 
-**Outcome**: 
+- Customers' extension usage is currently untracked and (presumably) low, so we can't quantify if users are getting value from existing extensions. 
+- Sourcegraph's native extensions UI has problems of scale, such as displaying very many extensions. 
+- Sourcegraph's extensions registry has UI problems that make it harder for users or CE/Sales folks to find or share valuable extensions.
+- Nearly all of the most commonly-used extensions were built by Sourcegraph rather than third-party developers. This won't scale – Sourcegraph has neither the resources nor the insight that third-party developers have when it comes to building useful extensions. 
 
-* All of these areas of focus are well-maintained, well-designed, well-documented, well-tested, performant, easy to set up, and leave users impressed. 
-* The webapp helps users discover and employ the full power of Sourcegraph effectively, with a high quality and highly usable interface. 
-* Soucegraph extensions and the extensions API provide powerful capabilities to users and a great experience for extension developers. 
-* Sourcegraph code host native integrations and browser extensions support the most common code hosts and browsers. 
-* Code insights expose the value of Sourcegraph's knowledge of your codebase to users at all levels of an organization. 
+**Milestones:**
 
-### Medium term
+1. 🔄 We can collect anonymized, aggregate usage data of our extensions to determine the popularity and usage of (existing and future) extensions ([RFC 267](https://docs.google.com/document/d/1HKgwTyG-IcRM81xLAmussWV4EdK95uy7GjKFIG8vgU4/edit#heading=h.trqab8y0kufp)). 
+   - **Outcome:** We can measure usage and adoption of extensions, by extension ID, across our customers in order to make informed product decisions. 
 
-_These medium-term goals are listed in order of rough priority. This means we preference a sooner-listed goal when making progress on one would conflict with another goal, but it doesn't mean we only work on the first goal until it's done – we balance our iterations in sum so we can make some progress on all of these goals over a quarter. Within each goal, the sub-goals are also listed in (stricter) priority order._ 
+1. 🔄 The on-Sourcegraph extensions UI (action bar and contribution points) is clear and scalable, to help users discover and use extensions. 
+   - **Outcome:** - [*N<sub>1</sub>*][N1]% of Sourcegraph server users use at least one extension a week. 
 
-1. **Make code insights an entirely new reason to use Sourcegraph.**
-   1. Focus on building prototypes to solve the most pressing needs of our customers, to clearly demonstrate the value of code insights. 
-   1. Expose more generalizable metrics that let our users measure and track their own goals, whether those are migrations, code smells, security needs, cross-collaboration, or other information about code. 
-   1. Expose features that let our users build their own insights. 
+1. The extensions registry promotes discovery of relevant extensions and third-party extensions. 
+   - **Outcome:** The Sales and CE teams are excited and confident when showing off the extensions registry and extensions features to customers. 
 
-1. **Make Sourcegraph extensions a core part of Sourcegraph users' experiences.**
-   1. Track anonymized, general usage of extensions to determine which extensions are most successful at adding value for our users to inform our future work.
-   1. Build, maintain, and update API endpoints that are robust and immediately useful, to grow adoption of extensions. 
-   1. Make the extensions action bar clear and scalable, and help users discover and use our extensions. 
-   1. Improve discoverability and design of the extension registry to enable users to find the most useful extensions and make users excited to build their own extension. 
+1. Sourcegraph partners with relevant third-party services to publish their own extensions. 
+   - **Outcome:** Three "partnership" extensions have been built by Sourcegraph partners. 
 
-1. **Increase the weekly active users of all our code host integrations.**
-   1. Maintain the existing native integrations and browser extensions. 
-   1. Build support for new code hosts and new browsers, like Safari and Gerrit. 
-   1. Build support for the browser extension to reference both a private Sourcegraph instance and public code on Sourcegraph.com. 
+1. We can safely and confidently oversee the extensions ecosystem of third-party contributions without needing to individually review published extensions. 
+   - **Outcome:** Customers are qualitatively confident in using extensions built by non-partner third parties. 
+   - **Outcome:** We have a scalable process and policy for publishing or verifying extensions. 
 
-1. **Make the Sourcegraph web interfaces more consistent and improve discoverability of Sourcegraph features.**
-   1. Make progress on design debt throughout the web app where the web team owns the design: repo page areas and panels, navigation and headers, general theming, and the blob page (file viewer). 
-   1. Build and update designs to help users discover or understand everything Sourcegraph offers, like new navigation menus and header concepts. 
+1. Sourcegraph extensions become an "ecosystem" (third parties build extensions using docs/tutorials/marketing promos; expose metrics and adoption of extensions to developers and/or public). 
+   - **Outcome:** Three custom extensions have been built by customers. 
+   - **Outcome:** One custom extension has been publicly published by an existing customer and is used by developers not at that customer. 
+   - **Outcome:** One of the five most-used Sourcegraph extensions was built by a non-Sourcegrapher. 
+
+### _Extensibility_ - support seamless code host integration for all of Sourcegraph's features
+
+**Problem:** 
+
+- Right now, the Sourcegraph browser extensions and code host integrations only support a limited number of (the most popular) code hosts. 
+- The ways one can use Sourcegraph features and extensions are limited to a few specific UI touchpoints rather than all the interactions available on Sourcegraph natively. 
+- If one wants to use multiple Sourcegraph instances on a code host, one has to manually change the URL of the Sourcegraph instance every time.
+- To run Sourcegraph searches, you have to navigate to Sourcegraph and away from the code host. 
+
+**Milestones:**
+
+1. 🔄 The Sourcegraph browser extension supports Gerrit. 
+   - **Outcome:** Sales closes deals with customers that primarily use Gerrit ([primary customer example](https://github.com/sourcegraph/customer/issues/138)).
+
+1. The Sourcegraph code host integrations expose all of Sourcegraph's extension features on the code host UI, like directory decorations or extensions action bar and status bar functionality. 
+   - **Outcome:** Usage of Sourcegraph code host integrations at customers with a supported code host is 30%. 
+
+1. The browser extension automatically falls back to Sourcegraph.com when configured with a private instance but on a public repo. 
+   - **Outcome:** [*N<sub>2</sub>*][N2]% higher daily extension interactions for extension users that use both public and private code. 
+   - **Outcome:** [*N<sub>3</sub>*][N3]% of file views on Sourcegraph.com come via the fallback feature.  
+
+1. The browser extension can support multiple private Sourcegraph instances for code intelligence. 
+   - **Outcome:** [*N<sub>4</sub>*][N4]% of users use multiple Sourcegraph instances for code intelligence on their code host. 
+   - **Outcome:** Average daily interactions for folks with multiple instances connected to the extension are [*N<sub>5</sub>*][N5]% higher than single-instance users.
+
+1. Sourcegraph searches can be run on or from the code host. 
+   - **Outcome:** [*N<sub>6</sub>*][N6]% of Sourcegraph searches come natively on the code host.
+   - **Outcome:** [*N<sub>7</sub>*][N7]% of users run their first Sourcegraph search ever on the code host rather than a Sourcegraph instance.  
+
+### _Extensibility_ – create an IDE extension that brings Sourcegraph into the IDE 
+
+**Problem:** 
+
+Right now you can only use Sourcegraph's search features on Sourcegraph in a browser. Integrating search, code intelligence, and Sourcegraph extensions with an IDE like VSCode would massively spread the Sourcegraph's usefulness and ease-of-adoption for our users. _
+
+**Milestones:** _This project is still early-stage and these milestones are more likely than normal to change based on early feature research._
+
+1. 🔄 Determine the minimum lovable prototype feature(s) necessary to launch an IDE integration (example features: basic search, advanced search, code intel, Sourcegraph extension). 
+   - **Outcome:** A prioritized feature list built upon user research that can form the initial roadmap of the IDE extension. (This may reorder the later goals and add feature-based milestones.) 
+
+1. Determine and build tracking for core performance and adoption metrics of the IDE extension. 
+   - **Outcome:** We can measure usage and adoption of the IDE extension separate it by existing/new users. 
+
+1. The Sourcegraph IDE extension is a useable prototype and provides enough immediate value for developers to want to enable it.  
+   - **Outcome:** We see [*N<sub>8</sub>*][N8]% of existing Sourcegraph users enable and use the IDE extension. 
+   - **Outcome:** We get qualitative feedback from early adopters around what features are most useful or need work. 
+
+1. The Sourcegraph IDE extension is generally available and promoted across our pages and IDE extension registries. 
+   - **Outcome:** The Sourcegraph IDE extension increases DAU of Sourcegraph [*N<sub>9</sub>*][N9]% versus users who don't use the IDE extension. 
+   - **Outcome:** [*N<sub>10</sub>*][N10]% of new and existing Sourcegraph users use the IDE extension. 
+
+1. The Sourcegraph IDE extension drives new sales and adoption of Sourcegraph. 
+   - **Outcome:** >[*N<sub>11</sub>*][N11] number of new "free tier" monthly first-time users started by using Sourcegraph in their IDE. 
+   - **Outcome:**  Qualitatively determined, at least three customer deals come in from companies excited about the Sourcegraph IDE extension or whose first Sourcegraph touchpoint was the IDE extension. 
+
+### _Frontend Platform_ - make the web app UI consistent, accessible, and scalable 
+
+**Problem:** 
+
+The Sourcegraph web platform has accumulated lots of design debt, since much of it was built before we had a design team. Additionally, the existing UI components don't scale to Sourcegraph's feature growth. The web platform should be more accessible, delightful, customizable, and scalable in order to empower Sourcegraph's users and Sourcegraph's internal teams' development.
+
+### Milestones: 
+1. 🔄 Sourcegraph's core navigation effectively highlights our core features and scales to new ones. 
+   - **Outcome:** We have a defined path forward for expanding navigation to include new features without needing to frequently redesign. 
+
+1. Sourcegraph's UI lets users customize themes, colors, and font attributes. 
+   - **Outcome:**  The Sourcegraph UI meets all WCAG accessibility standards. 
+
+1. Sourcegraph's UI components are clean and intentionally designed.
+   - **Outcome:** The Sourcegraph frontend is easy for other teams to develop on top of. 
+   - **Outcome:** The Sourcegraph UI contributes to the Sourcegraph brand to the point where it is clear what "feels like" and "does not feel like" Sourcegraph, per qualitative feedback from internal teams. 
 
 ### Short term
 
@@ -51,12 +123,16 @@ The individual tasks and progress of the current iteration can be found as GitHu
 
 ## Roadmap
 
-1. ✅ Existing sourcegraph extensions are more discoverable ([RFC 209](https://docs.google.com/document/d/1I5BMEGp3QuB81AjSzLCQwq_XJV1sXevlU0lpB4O1pj8/edit#))
-1. ✅ The Sourcegraph browser extension is more discoverable and easy to congifure ([RFC 221](https://docs.google.com/document/d/19f4xleYBU1zZZdqMmXlLmFxeR-fwEpOwTOgViOFOnyo/edit))
-1. ✅ Build new and improved Sourcegraph extensions to showcase the value and opportunity of extensions ([RFC 246](https://docs.google.com/document/d/1HngEeLNAe7_QzVJr6UPi0Si4ZALqTzb7uonOxUiJP6g/edit))
-1. ✅ Improve the Sourcegraph extensions (internal) development experience ([RFC 155](https://docs.google.com/document/d/1ikrUNVe3YVbR-JpegxhjrFdmRkTGzTLcOMkKHnOyjuE/edit)) and (external) documentation
-1. 🔄 Code insights migration prototype and directory decoration
-1. 🔄 Safari browser extension
-1. Sourcegraph web app navigation is clearer and intentionally designed ([RFC 248](https://docs.google.com/document/d/1AEeCuXuYGlu2kU9HfTuh5rMuoL2ASxy-G4LFje_ySFE/edit?usp=drive_web&ouid=110069214620879702746))
-1. Page title breadcrumbs are unified and useful 
-1. Later-stage code insights work 
+The web team maintains objective-based roadmaps in Productboard for each of our two focus areas: [frontend platform roadmap](https://sourcegraph.productboard.com/roadmap/2362023-web-frontend-platform-roadmap) and [extensibility roadmap](https://sourcegraph.productboard.com/roadmap/2330181-web-extensibility-roadmap). 
+
+[N1]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N2]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N3]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N4]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N5]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N6]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N7]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N8]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N9]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N10]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
+[N11]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
