@@ -18,10 +18,13 @@
 
 ## Members
 
-- [Kacie Jenkins](../../company/team/index.md##kacie-jenkins-sheher), VP of Marketing
-- [Aileen Agricola](../../company/team/index.md#aileen-agricola-sheher), Senior Digital Marketing Manager
+- [Kacie Jenkins](../../company/team/index.md##kacie-jenkins-she-her), VP of Marketing
+- [Aileen Agricola](../../company/team/index.md#aileen-agricola-she-her), Senior Digital Marketing Manager
 - [Vanesa Ortiz](../../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
 - Lori Heyman, Digital Marketing Programs
+- [Andy Schumeister](../../company/team/index.md##andy-schumeister-he-him), Director of Product Marketing
+- [Erica Lindberg](../../company/team/index.md##erica-lindberg-she-her), Director of Content Strategy
+
 
 ## Roles
 
