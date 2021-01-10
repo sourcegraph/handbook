@@ -25,6 +25,7 @@ Learn more about how these work in:
     - [Merging changes from deploy-sourcegraph](#merging-changes-from-deploy-sourcegraph)
   - [Relationship between the repositories](#relationship-between-the-repositories)
     - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph-dot-com`](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-dot-com)
+  - [Azure DevOps](azure_devops.md)
 
 ## Deployment basics
 
