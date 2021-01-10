@@ -94,6 +94,14 @@ The built-in (non-universal) code search functionality of many code hosts (inclu
 
 > Usually companies with LDAP have Okta, OneLogin, or some other SSO and prefer sign-in through that, using our [user authentication support](https://docs.sourcegraph.com/admin/auth). If someone insists on LDAP, you can point them to [@beyang's comment on issue #618](https://github.com/sourcegraph/sourcegraph/issues/618#issuecomment-438778854) or ask them those questions directly.
 
+## Is Sourcegraph still helpful if my company uses microservices?
+
+(Rough answer copied from Slack.)
+
+> That is a fairly common objection. In theory, yes, microservices mean you never need to care about other people’s code. You just expect them to declare an API, and you rely on that API. In practice, that is almost never the case. The monolith-to-microservices transition is always in flux, your microservice ends up depending on other codebases in messy ways, or you realize you need to combine multiple microservices again or further decompose a single microservice into multiple microservices. We have tons of customers who use microservices who would be puzzled by someone who said microservices means you don’t need Sourcegraph. With this said, it’s a tough objection to overcome unless we have a champion inside the company. If we encounter that objection when going outbound or top-down into a company, it’s probably fatal until we can get in another way.
+
+> Analogy: It’s kind of like the Coasean theory of the firm. In theory, a “company” could just be a bunch of independent contractors (equiv. to microservices in this analogy), but coordination and transaction costs are so high in that model, so you always find that companies are some mix of employees and contractors. And you also see companies moving around on the spectrum when some new management team or philosophy takes hold (eg Boeing 787).
+
 ## Needs answer
 
 - What’s the recommended resource provisioning on our end for optimal search performance at scale?
