@@ -156,6 +156,10 @@ The mechanics are simple.
     - If not, the manager(s) do not get involved in the conflict, and instead ask the involved parties to follow this documented clean escalation process.
 1. If the manager(s) are not able to resolve the conflict, they can cleanly escalate to the next level of management. This process continues until the issue is resolved.
 
+# Customer ethics criteria
+
+We do not knowingly work with organizations that promote violence or hate, or that conflict with our company values or ethical principles of integrity and trustworthiness in a way that harms people. If anyone thinks an organization that we are working with (or considering working with) meets this criteria, contact @sqs.
+
 # References
 
 This Code of Conduct has taken inspiration from the:
