@@ -6,7 +6,7 @@ This document describes how we operationalize written planning through our RFC p
 
 This process is designed to be lightweight so that it can be used for many purposes (e.g. product specs, policy decisions, technical discussion), and it is optimized for facilitating collaboration and feedback. In contrast, GitHub issues are best for tracking concrete bug reports or work that has already been scoped and planned (i.e. there isn't much remaining to discuss).
 
-<i>All RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa).</i>
+<i>All public RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa). Some RFCs contain non-public information, and are in a [private Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv)</i>
 
 ## Status
 
@@ -117,7 +117,7 @@ Sometimes there is information relevant to an RFC, but that information can't be
     - Don't share the link to the search results (it has the company name in the search)! Instead, share the direct link to the company; it should look like this: [https://app.hubspot.com/contacts/2762526/company/557690851/](https://app.hubspot.com/contacts/2762526/company/557690851/)
     ![Hubspot results](hubspot-results.png)
 - If there is strategic information that shouldn't be public, you can post it in Slack and link to it from the public RFC.
-- If most of the content is non-public, then it is OK to make the RFC only accessible to the Sourcegraph team. Add "PRIVATE" after the [status](#status) in the title and explain why it's private in the doc.
+- If most of the content is non-public, then it is OK to make the RFC only accessible to the Sourcegraph team. Add "PRIVATE" after the [status](#status) in the title, move it to the [private RFCs folder in GDrive](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv), and explain why it's private in the doc.
 
 Only Sourcegraph teammates are able to see the revision history of RFCs (because edit access is required for that). This means if sensitive information is found in the document all you need to do is remove that information. Comments that accidentally contain sensitive info can be deleted.
 
