@@ -12,17 +12,18 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
-## 2021-01-04 to 2021-01-15
+## 2021-01-11 to 2021-01-22
 
 ### $GOAL_OR_THEME
 
-- **Owner(s):** $OWNER
+### Streaming search
+- **Owner(s):** Juliana, Keegan
 - **Outcomes:**
-    - $DESIRED_OUTCOME
+    - Streaming search UI errors/skipped items are rendered with updated design
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
     
-## 2020-12-14 to 2021-01-04
+## 2020-12-14 to 2021-01-08
 
 ### Streaming search
 - **Owner(s):** Juliana, Keegan
@@ -33,6 +34,14 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2020-12-17: Streaming search presented in Brain Food ([slides](https://docs.google.com/presentation/d/1SFnmec2NEHaxlkqutHeH4feSIwaJywxHsfpa6t2FmfI/edit?usp=sharing))
     - 2020-12-18: Streaming search now shows errors and handles completion states better.
+    - 2021-01-08: Streaming search now logs client-side events
+
+### Scrollable filters in search results
+- **Owner(s):** Juliana
+- **Outcomes:**
+    - Dynamic filters in the filter bars above the search results should be scrollable
+- **Work log:**
+    - 2021-01-07: Filters are now scrollable
 
 ## 2020-11-30 to 2020-12-11
 
