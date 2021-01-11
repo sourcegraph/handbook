@@ -22,7 +22,7 @@ The SDR Team (fill in the blanks)
 
 ## Inbound Workflow
 
-See [How we use Salesforce] (../sales/salesforce#lead-object/index.md to learn more about Inbound Lead Creation, and Lead to Opportunity Converstion Workflow
+See [How we use Salesforce] (../sales/salesforce#lead-object/index.md to learn more about SDR Inbound Workflow.
 
 ## Outbound Workflow (TBD)
 
