@@ -52,5 +52,3 @@ You may want to have Slack notify you in real-time when someone comments on your
 
 3. Navigate to [https://github.com/settings/reminders/sourcegraph](https://github.com/settings/reminders/sourcegraph)
 ![Real-time Notifications](real-time.png)
-
-4. You may need to signup for the beta [https://github.blog/changelog/2019-11-14-scheduled-reminders-beta/](https://github.blog/changelog/2019-11-14-scheduled-reminders-beta/)
