@@ -108,6 +108,18 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 - SDR logs all pertinent information - call/email notes, research on contact/company, and any additional context that is helpful for the AE to be prepared for the initial call / understand the justification for creating an Opportunity
 SDR joins this initial call to make the AE intro and listen to the call for feedback
 
+### Rules of Engagement (ROE)
+
+- If it’s not in Salesforce it doesn’t exist - make sure all activity is in Salesforce
+- You can only prospect into accounts in your name (if you want to add an unassigned account to your list, just ping me)
+- **For Inbound Leads:** If lead comes in for an account that has an open opportunity, the SDR should connect with the AE to determine whether the SDR should work (entirely new contact/business unit/etc.) or convert to the AE (related to the existing opp)
+- If an SDR has touch (any email, call, etc.) within the past 30 days on an account/lead/contact for a new Inbound Lead, that lead should be routed to that SDR to work
+- **For Assigning Opps:** All Opportunities being converted from Inbound Leads will be round-robined unless:
+- AE/SDR pair has touch within the past 30 days on the account
+- AE has a closed opp within the past 90 days on the account
+
+**NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
+
 ## Opportunity Object
 
 ### Associating contacts to opportunities
