@@ -11,7 +11,8 @@ The SDR Team (fill in the blanks)
 ## Quick Links
 
 - [Outbound Account Strategy](#outbound-account-strategy)
-- [SDR Playbook](#sdr-playbook)
+- [Inbound Workflow](#inbound-workflow)
+- [Outbound Workflow](#outbound-workflow)
 - [SDR Handoff Guide](#sdr-to-ae-handoff)
 - [Best Practices](#best-practices)
 - [Tech Stack](#tech-stack)
