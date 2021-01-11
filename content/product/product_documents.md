@@ -4,7 +4,7 @@ A Product Document (PD)'s purpose is to communicate the high level product probl
 
 These documents were created out of a need to orient around a particular problem statement, and the realization that it sometimes takes multiple [RFCs](../communication/rfcs.md) to fully solve a problem. This helps to aggregate the motivations and learnings around a problem, so that individual RFCs can focus on a particular proposed solution.
 
-_All PDs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1Wd-Xx2wNbFtSzeJwbZqMOxdbFDUFxlyR)._
+_All PDs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx)._
 
 ## PDs have similar properties to RFCs
 

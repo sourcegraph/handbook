@@ -6,7 +6,7 @@ Ops RFCs help the operations team asynchronously provide context on a problem, c
 
 Ops RFCs are designed to be lightweight so that they can be used for many purposes, and it is optimized for facilitating collaboration and feedback. In contrast, project execution tracking systems (such as GitHub project boards, Google Tables, Asana, and similar) are best for tracking progress against plans.
 
-_All Ops RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1Llct8MGmc1OvGQP6iWQwgfEDUJEuQZ7D)._
+_All Ops RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1BFW91sECBDIyrq2XLm5zEgJjfadpDpaR)._
 
 ## Ops RFCs are RFCs
 

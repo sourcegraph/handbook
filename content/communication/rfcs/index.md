@@ -6,7 +6,7 @@ This document describes how we operationalize written planning through our RFC p
 
 This process is designed to be lightweight so that it can be used for many purposes (e.g. product specs, policy decisions, technical discussion), and it is optimized for facilitating collaboration and feedback. In contrast, GitHub issues are best for tracking concrete bug reports or work that has already been scoped and planned (i.e. there isn't much remaining to discuss).
 
-<i>All RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR).</i>
+<i>All RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa).</i>
 
 ## Status
 
@@ -105,7 +105,7 @@ _For convenience, there is a [Google Docs Template](https://docs.google.com/docu
 
 [We value openness](https://about.sourcegraph.com/company#open-company). Transparency helps us communicate with and gather feedback from our customers, and it holds everyone accountable to a higher quality bar.
 
-The default sharing state of documents in our [Google Drive's RFCs](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) folder will allow everyone to publicly read/comment, and all Sourcegraph teammates to edit.
+The default sharing state of documents in our [Google Drive's RFCs](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) folder will allow everyone to publicly read/comment, and all Sourcegraph teammates to edit.
 
 <img src="link-sharing.png" width="300" alt="Google link sharing settings">
 
@@ -123,7 +123,7 @@ Only Sourcegraph teammates are able to see the revision history of RFCs (because
 
 ## External contributors
 
-If you are not a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or by tweeting [@srcgraph](https://twitter.com/srcgraph)) to create a document in the [RFCs Google Drive folder](https://drive.google.com/drive/u/0/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) and give you edit access. Then you own the document from there.
+If you are not a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or by tweeting [@srcgraph](https://twitter.com/srcgraph)) to create a document in the [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) and give you edit access. Then you own the document from there.
 
 ## References
 

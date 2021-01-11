@@ -1,10 +1,10 @@
 # Sales Resources
 
-Google drive is the main repository for sales resources and the sales folder can be found [here](https://drive.google.com/drive/u/0/folders/1imPXke4-1DWwGYpJBOQK3wiwtZN-TNKm)
+Google drive is the main repository for sales resources and the sales folder can be found [here](https://drive.google.com/drive/folders/17SzRMbyC1w7moCUMwm8bDt-veWUf3OrP)
 
 ## Sales Templates
 
-Sales templates for common use cases can be found in [Sales Template folder](https://drive.google.com/drive/u/0/folders/13Iu-TWVRfUSSwTS9bVhM6Iofe2-268B9)
+Sales templates for common use cases can be found in [Sales Template folder](https://drive.google.com/drive/folders/1eBfRzDDM-fonChy5kumN5m1aS-aZxlYM)
 
 ### Cloning 
 
@@ -23,7 +23,7 @@ The following templates are currently available:
 
 ### Updating Templates
 
-To update a template place the new template in the main Sales Template folder, name the file (beginning with the date format YYYY.MM.DD) then move the old template into the [Template Archive folder](https://drive.google.com/drive/u/0/folders/1v4SL-sasJOUjyrNStbMnxxh0ZwUUU-4c).  Update the appropriate handbook link to the new template.
+To update a template place the new template in the main Sales Template folder, name the file (beginning with the date format YYYY.MM.DD) then move the old template into the [Template Archive folder](https://drive.google.com/drive/folders/1iWmAocnXlNNXayN4E1ZB-J64I2-dgXGT).  Update the appropriate handbook link to the new template.
 
 ### Useful Links
 
@@ -33,7 +33,7 @@ To update a template place the new template in the main Sales Template folder, n
 
 Where to Store Customer Notes and Documents:
 
-- Create Folder in the ['Customer Notes' Shared Folder Here](https://drive.google.com/drive/folders/1OsRinDgrC53Zaue8ToTToXbVnW8HPoeA)
+- Create Folder in the ['Customer Notes' Shared Folder Here](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0)
 - Naming Convention for Folder: "Customer/Prospect Name" - - then # customer or # prospect (see folder for examples)
 - Within that folder, add all of your documents and notably, your running notes google document (which you'll link to the Salesforce opportunity in the designated field)
 - If you'd like to save this folder into your own drive, that's simple and welcomed. Simply right click on the folder, then select 'Add Shortcut to Drive' - - then choose the preferred destination where you'd like this to land within your 'My Drive'
@@ -42,4 +42,4 @@ Note: Salesforce is the communication and document source of truth for our Sales
 
 ## Sales Content
 
-Other useful sales content can be found in the [Sales Content folder](https://drive.google.com/drive/u/0/folders/1Og99CfsVetXCutZBC01q6Cx54dX5YiyZ)
+Other useful sales content can be found in the [Sales Content folder](https://drive.google.com/drive/folders/14guSNICPX5bHxUxXIeb1web6MN8z7FA4)

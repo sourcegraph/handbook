@@ -25,13 +25,13 @@ Start by reading the [operations team onboarding page](../onboarding.md). Once y
 - Read our [customer case studies](https://about.sourcegraph.com/customers)
 - Read our [customer personas](../../marketing/personas.md)
 - Review our sales content and collateral
-  - [Sales content & templates](https://drive.google.com/drive/u/0/folders/1Og99CfsVetXCutZBC01q6Cx54dX5YiyZ)
-  - [ROI calculators](https://drive.google.com/drive/u/0/folders/1dBWklUaRowyj9ZKPU7fKwgPKvsNdfhoy)
-  - [Customer order forms](https://drive.google.com/drive/u/0/folders/1VZGSm7NfcNXv_d2IZ5n6Jl1zwpMoPN7a)
+  - [Sales content](https://drive.google.com/drive/folders/14guSNICPX5bHxUxXIeb1web6MN8z7FA4)
+  - [Sales templates](https://drive.google.com/drive/u/0/folders/1eBfRzDDM-fonChy5kumN5m1aS-aZxlYM)
+  - [ROI calculators](https://drive.google.com/drive/u/0/folders/1-7K3P-E1ITzbJUOCB6l_LLmb79jZkWJp)
 - [Join as many customer calls as you can](../../sales/onboarding/joining_customer_calls.md) in your first few weeks
 
 ### Get to know our tools
 
 - Get access to our Salesforce, and read [how we use it](../../sales/salesforce.md)
 - Review [our financial models](../finance/index.md#sources-of-truth) by visiting the links in our finance handbook, including our current annual plan, our ARR tracker, and our expansion ARR tracker and forecast
-- Review our recent [board decks](https://drive.google.com/drive/u/0/folders/0B1jDPgsNXFVCWnFjQkN0TU1VRzA)
+- Review our recent [board decks](https://drive.google.com/drive/folders/1UeBRZght8of2RUhDVghl9t6Qj_uVghYo)

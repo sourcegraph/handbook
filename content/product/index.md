@@ -33,10 +33,10 @@ See [Roles](roles/index.md) for open positions and hiring targets.
 - [Personas](../marketing/personas.md)
 - The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
 - Product documents (PDs)
-  - [All PDs](https://drive.google.com/drive/folders/1Wd-Xx2wNbFtSzeJwbZqMOxdbFDUFxlyR) (Google Drive)
+  - [All PDs](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx) (Google Drive)
   - [How we use PDs](product_documents.md)
 - RFCs (requests for comment)
-  - [All RFC documents](https://drive.google.com/drive/folders/1bip_pMeWePyNNdCEETRzoyMdLtntcNKR) (Google Drive)
+  - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Product learnings](product_learning.md)
 

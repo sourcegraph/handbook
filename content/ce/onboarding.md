@@ -11,7 +11,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Read our [CE handbook pages](index.md)
     - [Support](support.md)
   - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install)
-    - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1Mqlndi3anVp9Eq8tYgVoyjodyoxsfik2?usp=sharing)
+    - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1JqQlrmGX8u_EuhNptj-qrzuZ4RifhTuF)
     - Ask for any help needed along the way in our #ce channel
     - Update our docs where necessary
   - Watch recorded product demos (see [Resources](https://about.sourcegraph.com/handbook/ce/onboarding#resources) below)
@@ -119,7 +119,7 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
 - Demo Recordings
   - [101 Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing) (dan@)
   - [Product Info Session](https://youtu.be/iTBTri_q5MA) (jonah@)
-  - [CE-to-CE Demo walkthrough](https://drive.google.com/drive/folders/1CN_9QLCPxG8-MB06zMgsvT-RjYRnEWYZ?usp=sharing) 
+  - [CE-to-CE Demo walkthrough](https://drive.google.com/drive/folders/1rf2E2KLBztH1Qe2shq3p39afF5mLK7m1) 
   
 - Product Deep-Dives  
   - [Campaigns Overiew Deck](https://docs.google.com/presentation/d/1CN3KQf1Hfdb4RO6FgBgKuiHK4ERcOAHPgVnOcBu-MPU/edit#slide=id.g7d2aea8729_0_0)

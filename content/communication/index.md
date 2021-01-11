@@ -84,7 +84,7 @@ See "[1-1 meetings](../leadership/1-1.md)".
 1. We use Google Docs for:
    - [RFCs](rfcs/index.md)
    - Collaborative editing of ephemeral documents
-1. The [Sourcegraph shared](https://drive.google.com/drive/u/0/folders/0B3lEU2lM-l9gUk5sNmRSMVFHVFU) folder on Google Drive is visible and editable by all Sourcegraph team members.
+1. The [shared Sourcegraph Drive](https://drive.google.com/drive/folders/0AK4DcztHds_pUk9PVA) folder on Google Drive is visible and editable by all Sourcegraph team members.
    - To share a doc with team members, move it to this folder.
    - Don't worry about putting your doc in the right folder. If you want to use folders, you can. But we've given up on trying to impose a folder structure company-wide on our Google Docs, and we just rely on links and search to find Google Docs.
 
