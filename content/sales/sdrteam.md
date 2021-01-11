@@ -10,15 +10,14 @@ The SDR Team (fill in the blanks)
 
 ## Quick Links
 
-- [Outbound Strategy](#outbound-account-strategy)
+- [Outbound Strategy](#outbound-strategy-TBD)
 - [Inbound Workflow](#inbound-workflow)
 - [Outbound Workflow](#outbound-workflow-TBD)
 - [SDR Handoff Guide](#sdr-to-ae-handoff)
 - [Best Practices](#best-practices)
 - [Tech Stack](#tech-stack)
 
-## Outbound Strategy
-(TBD)
+## Outbound Strategy (TBD)
 
 ## Inbound Workflow
 
