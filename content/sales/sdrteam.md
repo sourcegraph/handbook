@@ -19,92 +19,9 @@ The SDR Team (fill in the blanks)
 ## Outbound Strategy
 (TBD)
 
-## SDR Playbook
+## SDR New Lead Workflow
 
-### Lead Management 
 
-#### Lead Creation
-
-Leads are single individuals that have not been qualified yet, and therefore are not associated with an account or opportunity. Leads can be created in Salesforce in a few different ways:
-
-1. Inbound Marketing Lead - automatically created via Hubspot when a user takes an action on our website
-2. SDR Created - SDR either manually creates a new lead or uploads a list
-3. Other Offline Sources - list uploaded from marketing event, webinar, etc.
-
-#### Lead Source
-
-Every Lead should have a value in the Lead Source field. The Lead Source value is set automatically for inbound leads based on the origination of the lead. For other sources (like referrals), this value should be set by the SDR when creating the Lead. Lead Source includes:
-
-- Inbound - any inbound lead generated from a Contact Form, Demo Request, Trial Request, Sourcegraph.com Account Setup, Install, etc.
-- Referral - any lead that was referred by a partner, investor, customer, employee, etc.
-- SDR Created - any lead created by an SDR
-- Event - lead attended an event, webinar, or similar
-- Feedback Form - NPS Form Submissions
-- Other
-
-#### First Touch Point
-
-This is a slightly more granular version of Lead Source and is set automatically in Hubspot. First Touchpoint includes: 
-
-- Private Instance - installs
-- Sourcegraph.com Account
-- Contact/Demo Form
-- Inbound Email (support, contact)
-- Feedback Form
-- Referral
-- Event
-- Other
-
-#### Lead Status
-
-Indicates the stage of a lead in the workflow process. Lead Status includes:
-
-- New
-- Working - SDR is actively engaging new lead
-- Replied - lead has responded to the SDR
-- Nurture - lead has potential, but is not ready to be converted
-- Self-Service - lead is best served by our self-service offering
-- Unqualified - lead is unqualified for our services, used for job candidates, students, etc.
-- Bad Data
-- Unresponsive 
-- Converted - auto-set upon conversion of lead
-
-#### Lead Assignment
-
-New Inbound Leads are round-robined automatically to SDRs. 
-
-#### New Lead Workflow
-
-SDR monitors new inbound lead using a **lead view** in *Salesforce*
-
-- SDR will also receive an email/slack notification upon new high-priority lead (demo request, contact form, etc)
-- SDR scrubs the Lead to confirm / enrich contact info fields - Name, Company, Title, Email, etc. 
-- SDR dedupes the lead to look for existing activity, open/recently closed opportunities, etc. to determine eligibility to work based on the Rules of Engagement
-  - If eligible to work, SDR should update Lead Status to “Working” and push lead to Outreach.io to begin outreach. 
-  - **NOTE:** we target <5 mins from new Lead Creation to First Touch during working hours, with a firm SLA of 24 hours for updating the Lead Status of any New Lead
-
-#### Inbound Lead to Opportunity Conversion Workflow
-
-If a Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
-
-- SDR confirms the receiving AE of the Opportunity using the AE Round-Robin Tracker
-- SDR schedules meeting with the Lead and the receiving AE
-- SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new)
-  - At this point, the Opportunity will be in Stage 1 - Interest
-- SDR logs all pertinent information - call/email notes, research on contact/company, and any additional context that is helpful for the AE to be prepared for the initial call / understand the justification for creating an Opportunity
-- SDR joins this initial call to make the AE intro and listen to the call for feedback
-
-#### Rules of Engagement (ROE)
-
-- If it’s not in Salesforce it doesn’t exist - make sure all activity is in Salesforce
-- You can only prospect into accounts in your name (if you want to add an unassigned account to your list, just ping me)
-- **For Inbound Leads:** If lead comes in for an account that has an open opportunity, the SDR should connect with the AE to determine whether the SDR should work (entirely new contact/business unit/etc.) or convert to the AE (related to the existing opp)
-- If an SDR has touch (any email, call, etc.) within the past 30 days on an account/lead/contact for a new Inbound Lead, that lead should be routed to that SDR to work
-- **For Assigning Opps:** All Opportunities being converted from Inbound Leads will be round-robined unless:
-- AE/SDR pair has touch within the past 30 days on the account
-- AE has a closed opp within the past 90 days on the account
-
-**NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
 
 #### Outbound Opportunity Creation Workflow (TBD)
 
