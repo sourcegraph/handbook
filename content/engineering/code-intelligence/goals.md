@@ -1,8 +1,8 @@
-# Code Intelligence goals and priorities
+# Code Intelligence goals and roadmap
 
 ## Goals
 
-### Expand language support and adoption of precise code intelligence
+### Deliver precise code intelligence to as many users as possible
 
 Progress on adoption and usage is tracked in our [Looker dashboard](https://sourcegraph.looker.com/dashboards/131).
 
