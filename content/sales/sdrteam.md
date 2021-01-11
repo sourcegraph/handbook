@@ -19,13 +19,13 @@ The SDR Team (fill in the blanks)
 ## Outbound Strategy
 (TBD)
 
-## SDR New Lead Workflow
+## Inbound Workflow
 
 
 
-#### Outbound Opportunity Creation Workflow (TBD)
+## Outbound Workflow (TBD)
 
-#### AE - New Opportunity Workflow post Creation by SDR
+## AE - New Opportunity Workflow Post Creation by SDR
 
 AE leads initial call and dispositions the opportunity accordingly: 
 
