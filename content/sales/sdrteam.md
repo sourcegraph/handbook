@@ -22,7 +22,7 @@ The SDR Team (fill in the blanks)
 
 ## Inbound Workflow
 
-See [How we use Salesforce] (../../../sales/salesforce/index.md#how-we-use-salesforce) to learn more about SDR Inbound Workflow.
+See [How we use Salesforce](../../../sales/salesforce/index.md#how-we-use-salesforce) to learn more about SDR Inbound Workflow.
 
 ## Outbound Workflow (TBD)
 
