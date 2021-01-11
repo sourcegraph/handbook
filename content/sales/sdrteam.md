@@ -10,9 +10,9 @@ The SDR Team (fill in the blanks)
 
 ## Quick Links
 
-- [Outbound Account Strategy](#outbound-account-strategy)
+- [Outbound Strategy](#outbound-account-strategy)
 - [Inbound Workflow](#inbound-workflow)
-- [Outbound Workflow](#outbound-workflow)
+- [Outbound Workflow](#outbound-workflow-TBD)
 - [SDR Handoff Guide](#sdr-to-ae-handoff)
 - [Best Practices](#best-practices)
 - [Tech Stack](#tech-stack)
