@@ -2,6 +2,24 @@
 
 The conclusion of every project should include analysis of performance. Below is the beginnings of us keeping track of what we've learned based on usage data.
 
+## 2021-01-11
+
+**Team**: Product
+
+**Author**: Eric Brody-Moore
+
+**Overview**: A deep-dive into what actions lead to Cloud retention. The [full slide deck](https://docs.google.com/presentation/d/1JM-FEFFAwHNfpPvx0bvAl8yyLYIok61pe_idsk4EofE/edit#slide=id.p) is available on Google Drive.
+
+### Cloud retention  
+
+_Conclusion_: There are [no actions that obviously lead to retention](https://docs.google.com/presentation/d/1JM-FEFFAwHNfpPvx0bvAl8yyLYIok61pe_idsk4EofE/edit#slide=id.gb2d1807fe7_0_23), and [no actions that are significantly stickier](https://docs.google.com/presentation/d/1JM-FEFFAwHNfpPvx0bvAl8yyLYIok61pe_idsk4EofE/edit#slide=id.gb2d1807fe7_0_16) than others.
+
+- Action: The next step is to analyze what they’re looking at and how it might fit into their workflow, not the specific actions they're taking on Cloud.
+
+- Action: If we want to take this step, develop an RFC to propose adding action-based retention to pings to get insight into which actions lead to retention on on-prem instances.  
+
+Neither of these actions have been prioritized (as of 2021-01-11).
+
 ## 2020-12-06
 
 **Team**: Web
@@ -61,4 +79,5 @@ _Conclusion_: P50/90/99 aren’t really helpful; we need to change how we approa
 
 - Going forward, we should setup a system that runs test queries multiple times per day on a large instance (e.g. Cloud when we hit more repositories), and these queries should be based on customer use cases.
 
+## References
 [N0]: https://docs.google.com/document/d/1iMlVh_Wm47v4YRpEvazrC5lmbJLkXwlGAEelTCqIx5Q/edit 
