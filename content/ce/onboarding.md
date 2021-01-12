@@ -10,8 +10,8 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - Also understand the typical [use case buckets](https://about.sourcegraph.com/customers/#onboard)
   - Read our [CE handbook pages](index.md)
     - [Support](support.md)
-  - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install)
-    - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1JqQlrmGX8u_EuhNptj-qrzuZ4RifhTuF)
+  - Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install) using the `docker-compose` flow
+    - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1JqQlrmGX8u_EuhNptj-qrzuZ4RifhTuF) for an understanding of that setup process
     - Ask for any help needed along the way in our #ce channel
     - Update our docs where necessary
   - Watch recorded product demos (see [Resources](https://about.sourcegraph.com/handbook/ce/onboarding#resources) below)
@@ -114,6 +114,7 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
 - Request access to Sourcegraph team Dropbox folder 
   - Make sure to get access to "Customer Contracts" folder
 - Ask for a license to LinkedIn Sales Navigator tool in #sales channel
+- [Chorus.ai](https://chorus.ai/) - We use this to store call recordings—you can watch demos at your leisure here.
 
 ## Resources
 - Demo Recordings
