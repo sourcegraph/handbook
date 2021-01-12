@@ -46,15 +46,20 @@ We have a 1hr sync every Monday at 9:30am PT.
 
 ### Weekly updates
 
-Engineering managers send an update to [engineering-leadership-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status) on either Monday or Tuesday each week (suggestion: send after your weekly team meeting). Anyone at the company can join the group to subscribe to these updates. The purpose of the update is to keep interested parties (including the VP of Engineering, and peer managers) informed of the progress that each team is making toward their documented goals.
+**Goal:** Increase awareness of each team's progress, tie progress to larger company goals, and communicate it across the organization.
+
+Engineering managers send an update to [engineering-leadership-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status) every Friday by 1PM [PT](https://time.is/PT), or at EOD Thursday if you don't work on Friday. Delegate to someone else on your team to send the update when you are on vacation.
+
+Anyone at the company can join the group to subscribe to these updates, but your primary audience is your manager (VP Eng and VP Product) and your peers (EMs/PMs).
 
 Try to answer the following questions for each goal that your team is working on (for example: [Distribution team status update - 2020-11-16](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status/c/l4iFZ6ZvWk8), [Web team status update: 2020-11-24](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status/c/t-fwx8O4rvU/m/m7UVjfyGBQAJ)):
 
 - What important things happened last week (for example: changes in important metrics, contact with customers, feedback collected, things shipped)?
 - What are the plans for this week?
 - What should my peer-team and manager be aware of?
+- Write one sentence that highlights one thing the team made progress on this week (can include an optional screenshot) that the VP Eng or VP Product can share to the entire company at company meeting. This progress should be framed in a way that is understandable by anyone at the company. It is okay if you don't have a highlight like this every week, but not having something two weeks in a row will raise questions.
 
-The subject of the email should contain the date the update is being sent (e.g. "Search update 2020-10-14") so each weekly update starts a distinct thread (otherwise they get grouped together in the Google Groups UI).
+The subject of the email should contain the date the update is being sent (e.g. "Search update 2020-10-14") so each weekly update starts a distinct email thread (otherwise they get grouped together in the Google Groups UI).
 
 ## Book recommendations
 
