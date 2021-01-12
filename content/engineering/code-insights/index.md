@@ -19,9 +19,15 @@ Code insights is the first feature primarily built for non-search-based user per
 
 For more information about code insights, see the original [product document](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) or this [demo](https://www.youtube.com/watch?v=XqeRb6Mc4Co) of a code insights prototype.
 
+## Contact
+- [#code-insights](https://sourcegraph.slack.com/archives/C014ZCKMCAV) channel or @codeinsights in Slack.
+- [team/code-insights](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights) label on GitHub.
+
 ## Goals and roadmap
 
 [Goals and roadmap](goals.md)
+
+The code insights team also keeps a [backlog GitHub project board](https://github.com/orgs/sourcegraph/projects/118). We use the backlog for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](goals.md#roadmap). 
 
 ## We're hiring for this team!
 
