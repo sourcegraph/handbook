@@ -14,8 +14,6 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ## 2021-01-11 to 2021-01-22
 
-### $GOAL_OR_THEME
-
 ### Streaming search
 - **Owner(s):** Juliana, Keegan, Stefan
 - **Outcomes:**
@@ -29,6 +27,28 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Owner(s):** Keegan
 - **Outcomes:**
     - RFC published.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+    
+### Structural search for monorepos
+- **Owner(s):** Rijnard, Camden
+- **Outcomes:**
+    - Make structural search work better for monorepos. Currently monorepos can time out for structural search purely because it takes too long to copy the data to search. The outcome focuses on architectural changes to avoid unnecessary data zipping and copying to our searcher worker (see [sourcegraph/sourcegraph#14619](https://github.com/sourcegraph/sourcegraph/issues/14619)).
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Search rules
+- **Owner(s):** Rijnard
+- **Outcomes:**
+    - RFC published.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Search contexts
+- **Owner(s):** Rok
+- **Outcomes:**
+    - Validate approach for resolving a search context to a set of repositories to search on the backend.
+    - Validate implementation plan for frontend changes with Quinn Keast.
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
