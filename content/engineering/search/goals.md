@@ -45,3 +45,7 @@ TODO: What does this look like? Describe this in prose using descriptions from t
 #### Roadmap and Milestones
 
 The roadmap and milestones are tracked in [productboard](https://sourcegraph.productboard.com/roadmap/2213445-search-roadmap)
+
+At a glance roadmap as of 2021-01-12:
+
+![2021-01-12](https://sourcegraphstatic.com/handbook/product-roadmaps/2020-01-12-Search%20roadmap.png)
