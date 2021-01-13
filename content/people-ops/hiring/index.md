@@ -42,6 +42,7 @@ We cross-post our open positions to the following locations:
 - ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md)
 - [RemoteWoman](https://remotewoman.com/)
 - [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Nick owns this list and payments are made with Nick's Brex. Tech Ladies checks our open positions every month to see if there are updates, but we can request an update anytime by emailing jobpostings@hiretechladies.com. Here are the 10 roles that we post:
+  1. [Director of Engineering - Platform and Infrastructure](https://jobs.lever.co/sourcegraph/8fcbaade-e511-4d93-bd9b-9cc7ec3438af)
   1. [Engineering Manager - Cloud Application and Core Services](../../engineering/hiring/engineering-manager-cloud.md)
   1. [Software Engineer - Frontend](../../engineering/hiring/software-engineer-frontend.md)
   1. [Software Engineer - Backend](../../engineering/hiring/software-engineer-backend.md)
