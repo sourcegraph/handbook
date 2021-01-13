@@ -112,7 +112,7 @@ td {
 ### Reporting
 | EM expectations | PM expectations |
 | --- | --- |
-| - Provide weekly status report to engineering leadership | - Look over weekly update by EOD [the day before it gets sent] and supplement any info |
+| - Provide weekly status report to engineering leadership | - Provide weekly progress highlight for weekly status report email that is also shared at the company meeting <br> - Look over weekly update by EOD [the day before it gets sent] and supplement any info |
 <br/>
 
 ### Career development and performance management
@@ -125,7 +125,6 @@ td {
 | EM expectations | PM expectations |
 | --- | --- |
 | - Team social events <br/> - Come up with or maintain team “rituals” (even as simple as adding a fun question to the start of syncs) | - Bringing in customer feedback to make the team excited about what we’re building <br/> - Following up on data/analytics to prove the impact of what we’ve built, so the team feels like we’re having an impact <br/> - Come up with or maintain team “rituals” (even as simple as adding a fun question to the start of syncs) |
-
 
 
 
