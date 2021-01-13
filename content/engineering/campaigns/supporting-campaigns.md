@@ -13,6 +13,7 @@ The best place to start is to read through all of the [Campaigns docs](https://d
 ## Support quests
 
 These are some ideas for onboarding quests, to be run in our dogfood or testing environments. (For inspiration, be sure to check out our [current demo campaigns](https://k8s.sgdev.org/campaigns) as well.)
+
 - Create a campaign over 5+ repos for each of the following:
   - Run [Comby](https://comby.dev/) to replace `fmt.Sprintf("%d", :[v])` with `strconv.Itoa(:[v])` in Go files (`*.go`)
   - Run `go fmt ./...` in the repository
