@@ -48,7 +48,6 @@ We cross-post our open positions to the following locations:
   1. [Software Engineer - Distribution](../../engineering/hiring/software-engineer-distribution.md)
   1. [Software Engineer - Security](../../engineering/hiring/software-engineer-security.md)
   1. [Director of Community](../../marketing/roles/director_of_community.md)
-  1. [Creative Director](../../marketing/roles/creative_director.md)
   1. [Account Executive](../../sales/roles/account_executive.md)
   1. [Product Manager](../../product/roles/product_manager.md)
   1. [Product Designer](../../product/roles/product_designer.md)
