@@ -6,7 +6,7 @@ Also see [internal infrasturcture](./internal_infrastructure.md) and [tools](./t
 
 ## Golang
 
-**Use cases:** Services and applicatons
+**Use cases:** Services and applications
 
 **Best practices:**
 
@@ -19,7 +19,7 @@ Also see [internal infrasturcture](./internal_infrastructure.md) and [tools](./t
 **Best practices:**
 
 - We use **[Deno](https://deno.land/)** as our Typescript runtime instead of Node
-  - Typsecript is not a core part of our expertise, so Deno takes care of tooling and formatting
+  - Typescript is not a core part of our expertise, so Deno takes care of tooling and formatting
 - Adhere to `deno fmt`, add a CI workflow that validates the result of `deno fmt --check`
 - Avoid using third-party dependencies (try to stick to the [standard library](https://deno.land/std))
 - Scripts should be executable (`chmod +x`) and have some variation of `#!/usr/bin/env deno run` as the sha-bang
@@ -43,3 +43,7 @@ Also see [internal infrasturcture](./internal_infrastructure.md) and [tools](./t
 ## Kubernetes
 
 **Use cases:** Deploying services
+
+## Dhall
+
+**Use cases:** Providing configuration for our deployment types ([work in progress](https://github.com/orgs/sourcegraph/projects/71)).
