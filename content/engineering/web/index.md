@@ -15,11 +15,10 @@ This is a large ownership area, so the team creates a focused plan each iteratio
 
 - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/product_manager.md)*)
 - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Felix Becker](../../../company/team/index.md#felix-becker)
   - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
   - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-  - [Tom Ross](../../../company/team/index.md##tom-ross-he-him)
-  - [F.J.](../../../company/team/index.md##full-name-optional-pronouns) _(Starts 2021-01-11)_
+  - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
+  - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
 
 _* Joel is the acting PM for this team until we are able to hire a dedicated PM for it. Once that happens, he will focus entirely on code insights._  
 
@@ -31,6 +30,57 @@ _* Joel is the acting PM for this team until we are able to hire a dedicated PM 
 ## [Goals](goals.md)
 
 See [goals](goals.md)
+
+## Growth plan
+
+_Updated 2020-01-14_
+
+- As of 2021-01-14, we are no longer accepting [frontend engineer](../hiring/software-engineer-frontend.md) applications to focus on the Frontend Platform work stream. We will be opening applications for JavaScript engineers to apply to work on our Extensibility work stream by the end of January 2021.
+
+When this team team gets big enough, we expect to split into two dedicated teams: **Frontend platform** and **Extensibility**. 
+
+_In January 2021, [Code Insights](../code-insights/index.md) moved out of the Web Team into its own team, lead by Felix Becker (EM) and Joel Kwartler (PM)._
+
+### Frontend platform: frontend web platform and code browsing 
+
+This team is responsible for:
+
+1. Defining how we do web development at Sourcegraph and ensuring that our product engineering teams have the tools and components they need to quickly build high quality user experiences everywhere we use web technologies (for example: web application, browser extensions).
+1. The core user experience of the Sourcegraph product
+
+The team's areas of responsibility include:
+
+- Frontend platform
+   - Creating and maintaining a standard Sourcegraph UI component library.
+   - Sourcegraph web tech stack, tools, patterns, documentation, education (e.g. webpack, TypeScript, React, RxJS).
+   - Documentation and training material to enable product teams and new hires to quickly learn how we do web development at Sourcegraph.
+   - Define and maintain how we test frontend code.
+   - Ensuring an efficient and reliabile frontend CI pipeline.
+- Code browsing
+   - Application navigation and information hierarchy
+   - Syntax highlighting and file viewing
+   - Repository landing pages and file directory pages
+   - Basic code host-like features (e.g. viewing diffs, commits, history)
+   - Sourcegraph application homepage
+   - Accessibility support
+
+### Extensibility: Sourcegraph extensions and code host integrations
+
+This team is responsible for: 
+
+1. Bringing the value of Sourcegraph to other developer tools
+1. Bringing the value of other developer tools into Sourcegraph
+
+The team's areas of responsibility include:
+
+- Sourcegraph extensions
+   - Providing a Sourcegraph extension API that enables developers to bring data from their favorite developer tools into their Sourcegraph workflow.
+   - Building useful Sourcegraph extensions on top of the Sourcegraph extension API (for example: Codecov, Datadog, Sentry, Lightstep).
+   - Documentation and tutorials that enable third party developers to create extensions that are actively used.
+   - Building and maintaining the extensions registry and discovery paths to create a community around Sourcegraph extensions.
+- Integrations   
+   - Surface code intelligence (and other Sourcegraph data) in code hosts through user installed browser extensions. 
+   - Add native support for Sourcegraph in code hosts (for example: GitLab) or popular sites where developers look at code examples (e.g. https://reactjs.org, https://pkg.go.dev/) so users don't have to install our browser extension to get code intelligence.
 
 ## Tech stack
 
@@ -61,8 +111,9 @@ Specific product feedback about well-defined, small features can be found direct
 
 ### Iterations
 
+The web team has a large ownership area, so the team creates a focused plan each iteration, by agreeing on an appropriately small set of [iteration goals](../../../company/goals/index.md).
+
 We plan our work in **2-week iterations**.
-We work on a single project in those 2 weeks as a team.
 
 Our goals for the current and past iterations can be found in our [iteration goals living Google Doc](https://docs.google.com/document/d/1n9WKjieKmd2YYkNrEsOfdmxRYUrbowLWjq05phLoQ6s/edit).
 
@@ -138,54 +189,3 @@ The web team holds weekly syncs.
 The meeting notes of web team syncs can be found [in this doc](https://docs.google.com/document/u/1/d/1IUsjbtYdGiAHvRUB1yf4eqnynin9WsxFR2zFCMm78jw/edit#).
 
 Before web team syncs, teammates and stakeholders should write down under "Discussion items" in the meeting notes document anything that they'd like to bring up for discussion with the whole team.
-
-## Growth plan
-
-_Updated 2020-01-08*_
-
-*Updated by Joel on behalf of Jean.
-
-We are actively hiring [frontend engineers](../hiring/software-engineer-frontend.md) to grow the Web team. 
-When this team team gets big enough, we expect to split into two teams **Frontend platform** and **Extensibility**. We will only make this split once we have identified a dedicated engineering manager and a dedicated product manager.
-
-_In January 2021, [Code Insights](../code-insights/index.md) moved out of the Web Team into its own team, lead by Felix Becker (Interim EM) and Joel Kwartler (PM)._
-
-### Frontend platform: frontend web platform and code browsing 
-
-This team is responsible for:
-
-1. Defining how we do web development at Sourcegraph and ensuring that our product engineering teams have the tools and components they need to quickly build high quality user experiences everywhere we use web technologies (for example: web application, browser extensions).
-1. The core user experience of the Sourcegraph product
-
-The team's areas of responsibility include:
-
-- Frontend platform
-   - Creating and maintaining a standard Sourcegraph UI component library.
-   - Sourcegraph web tech stack, tools, patterns, documentation, education (e.g. webpack, TypeScript, React, RxJS).
-   - Documentation and training material to enable product teams and new hires to quickly learn how we do web development at Sourcegraph.
-   - Define and maintain how we test frontend code.
-   - Ensuring an efficiency and reliabile frontend CI pipeline.
-- Code browsing
-   - Application navigation and information hierarchy
-   - Syntax highlighting and file viewing
-   - Repository landing pages and file directory pages
-   - Basic code host-like features (e.g. viewing diffs, commits, history)
-   - Sourcegraph application homepage
-   - Accessibility support
-
-### Extensibility: Sourcegraph extensions and code host integrations
-
-This team is responsible for: 
-
-1. Bringing the value of Sourcegraph to other developer tools
-1. Bringing the value of other developer tools into Sourcegraph
-
-The team's areas of responsibility include:
-
-- Sourcegraph extensions
-   - Providing a Sourcegraph extension API that enables developers to bring data from their favorite developer tools into their Sourcegraph workflow.
-   - Building useful Sourcegraph extensions on top of the Sourcegraph extension API (for example: Codecov, Datadog, Sentry, Lightstep)
-   - Documentation and tutorials that enable third party developers to create extensions that are actively used.
-- Integrations   
-   - Surface code intelligence (and other Sourcegraph data) in code hosts through user installed browser extensions. 
-   - Add native support for Sourcegraph in code hosts (for example: GitLab) or popular sites where developer look at code examples (e.g. https://reactjs.org, https://pkg.go.dev/) so users don't have to install our browser extensions to get code intelligence.
