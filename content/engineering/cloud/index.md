@@ -132,4 +132,3 @@ We are looking to grow this team to 8 engineers by hiring an additional [Fronten
 
 [Tomás will be transitioning back to an IC role](https://docs.google.com/document/d/1vsX7Xq8GZ1P9lK8JfJHq0-E8_Dl4awCLpu0g1BZMR2o/edit), as soon as we identify a [new manager for this team](../hiring/engineering-manager-cloud.md).
 
-When the Cloud effort has achieved its goals then this team will turn into a backend platform team and frontend engineers will join the [web platform team](../web/index.md#web-platform).
