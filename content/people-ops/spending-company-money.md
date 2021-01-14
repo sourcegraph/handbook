@@ -43,17 +43,17 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Laptop (engineering team):**
 
-- [16" MacBook Pro, 2.4 GHz (5 GHz turbo) 8‑core (upgrade), 64 GB (upgrade), 1 TB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-2.3ghz-8-core-processor-1tb#)
+- 16" MacBook Pro, 2.4 GHz (5 GHz turbo) 8‑core (upgrade), 64 GB (upgrade), 1 TB SSD
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 **Laptop (product team):**
 
-- [13" MacBook Pro, 2.3 GHz (4.1 GHz turbo) 4-core (upgrade), 32 GB (upgrade), 512 GB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-2.0ghz-quad-core-processor-with-turbo-boost-up-to-3.8ghz-512gb#). If you need to update any specs, please reach out to @sourcegraph/people-ops for approval.
+- 13" MacBook Pro, 2.3 GHz (4.1 GHz turbo) 4-core (upgrade), 32 GB (upgrade), 512 GB SSD. If you need to update any specs, please reach out to @sourcegraph/people-ops for approval.
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 **Laptop (all other teams):**
 
-- [13" MacBook Pro, 2.3 GHz (4.1 GHz turbo) 4-core (upgrade), 16 GB, 512 GB SSD](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-2.0ghz-quad-core-processor-with-turbo-boost-up-to-3.8ghz-512gb#). If you need to update any specs, please reach out to @sourcegraph/people-ops for approval.
+- 13" MacBook Pro, 2.3 GHz (4.1 GHz turbo) 4-core (upgrade), 16 GB, 512 GB SSD. If you need to update any specs, please reach out to @sourcegraph/people-ops for approval.
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 **Other computer:**
