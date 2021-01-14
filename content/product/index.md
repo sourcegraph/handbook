@@ -10,6 +10,7 @@ The product team consists of the product managers, product designers, and techni
 - [Product management](product_management/index.md)
   - [María Craig](../../../company/team/index.md#maría-craig-she-her) - ([Code intel](../engineering/code-intelligence/index.md))
   - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - ([Web](../engineering/web/index.md))
+  - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) - ([Campaigns](../engineering/campaigns/index.md))
 - [Product design](design/index.md)
   - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
   - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
