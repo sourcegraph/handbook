@@ -30,3 +30,7 @@ As Sourcegraph's VP Talent, you'll have much more responsibility, upside, growth
 - Very high-quality verbal and written communication skills
 - Experience working at a partially remote, all-remote, and/or global company
 - Fluency with best-in-class recruiting software and tools
+
+---
+
+To apply, get in touch with [Brittany Barron](mailto:brittany@neptunepeople.com) and [Michael Case](mailto:michael@neptunepeople.com).
