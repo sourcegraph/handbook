@@ -68,12 +68,12 @@ Our two-week sprints start every other Wednesday. We follow this process:
   * Everyone on the team looks through [our backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fcampaigns+milestone%3ABacklog) for any issues they think we should consider for the next sprint. To to so, add the issue to the "Needs prioritization" column of [our planning project](https://github.com/orgs/sourcegraph/projects/119).
   * Everyone on the team looks through the current tracking issue for any issues they do not expect to finish by the end of the sprint (EOD Tuesday), and set the next sprint's milestone so they will show up on the new tracking issue. (Feel free to un-assign these if you wish.) Make sure to set the relevant `planned` label on issues that move to the next sprint, for tracking and accountability.
   * Engineers add/refine estimates to issues in the new tracking issue and the planning project. All estimates in GitHub are assumed to be upper-bound estimates. (A missing estimate means "between 1 second and 1 trillion years.")
-  * Everyone on the team reviews the roadmap doc and comments their thoughts. Replace estimate placeholders with your actual estimates (and a best-guess range is fine: "3-5d"). For any items without linked Github issues, please create those issues and link them. **(NOTE: When we move to Productboard, this step will become obsolete.)**
+  * Everyone on the team reviews our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) for the current/next release.
 
 * We then have our planning meeting to determine our common goals for the iteration.
   * First we verify that any unfinished items in the old sprint will be finished by EOD.
   * Next, we look at all of the items in the new sprint, to verify that these are our highest priority items that we definitely want to finish this sprint. (These tend to be smaller items, like bug fixes, or work carrying over from the previous sprint.) These should all be prioritized as P0s in the planning project. (If they are not P0s, then we remove the milestone and assing the correct priority.)
-  * Then we look at our roadmap doc to discuss comments people had, verify estimates, and ultimately to sort the items in terms of priority. *The goal is to have a freshly prioritized roadmap.* **(NOTE: When we move to Productboard, this step will become obsolete.)**
+  * Then we look at our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) to align on priorities and verify estimates. *The goal is to have a freshly prioritized roadmap.*
   * We work as a team to assign One Big Thing to each engineer.
   * Finally, we verify that the sum of the estimates of our P0 column is does not exceed 2 days per engineer. In other words:
      * `issues.filter(p0).map(estimate).sum <= (num_engineers * 2).days`
