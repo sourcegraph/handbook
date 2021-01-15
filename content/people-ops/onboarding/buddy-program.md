@@ -22,7 +22,7 @@ An onboarding buddy is essentially a new teammate’s first friend– someone to
 
 - 1 month, meeting once a week.
 
-People Ops will set up a recurring invite for buddies to meet.
+Managers will assign a buddy to their new hires and new hires will set up the recurring invite for dates/times that work best for them and their buddy.
 
 ## Buddy selection
 
