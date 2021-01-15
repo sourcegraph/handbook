@@ -87,15 +87,15 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
         - [Erik Seliger](../../../company/team/index.md#erik-seliger)
    - 1 hour **Team collaboration:** We ask you about how you work and communicate in a team setting, how you handle tricky situations, decisions you made, and what you'd do differently today.
       - You will interview with one person from each of these lists:
-         - **Product/design**
-            - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him)
-            - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
-            - Can backfill with any product manager, designer, or engineering manager.
-         - **Engineering management**
-            - [Loïc Guychard](../../../company/team/index.md#lo%c3%afc-guychard)
-            - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-            - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-            -  Can backfill with any engineering manager.
+        - **Product/design**
+          - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him)
+          - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
+          - Can backfill with any product manager, designer, or engineering manager.
+        - **Engineering management**
+          - [Loïc Guychard](../../../company/team/index.md#lo%c3%afc-guychard)
+          - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
+          - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
+          -  Can backfill with any engineering manager.
    - 30 minutes [VP Engineering](../../../company/team/index.md#nick-snyder-he-him)
    - 30 minutes [CTO](../../../company/team/index.md#beyang-liu)
    - [30 minutes CEO](../../ceo/index.md#interviews-with-me)
