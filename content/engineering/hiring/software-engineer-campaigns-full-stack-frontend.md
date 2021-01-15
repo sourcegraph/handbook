@@ -1,4 +1,4 @@
-# Software Engineer — Campaigns — Full Stack / Front End
+# Software Engineer — Campaigns — Full Stack / Frontend
 
 The Campaigns team is looking for an experienced engineer to help us build a new product that will define how our industry accomplishes large scale code changes. [Campaigns](https://docs.sourcegraph.com/campaigns) enable developers to make changes across many repositories and code hosts, using code.
 
@@ -17,7 +17,7 @@ We work together, laugh a lot, and are always learning.
 
 ## What we need from you
 
-We are looking for a full-stack engineer (or a front-end engineer with full-stack aspirations, eager to learn) who has strong fundamentals in good software development techniques and best practices, and who has built and deployed production-ready software that delivered value to customers.
+We are looking for a full-stack engineer (or a frontend engineer with full-stack aspirations, eager to learn) who has strong fundamentals in good software development techniques and best practices, and who has built and deployed production-ready software that delivered value to customers.
 
 Most of all, we’re looking for an engineer with whole-product concern and accountability. Someone who understands that success is measured by our customers, and that everything that impacts customer satisfaction is part of your job. If working directly with sales, marketing, support, and our customers feels like “that’s not my job,” then this is not your job. On the other hand, if you’ve shipped a product, beginning to end (for work or on the side, software or otherwise), we want to hear from you.
 
@@ -46,8 +46,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 ## Interview process
 
-<!-- 1. You [apply here](#todo). --><!-- This is commented out because I will be sending some outbound messages before accepting applications. -->
-
+1. You [apply here](https://jobs.lever.co/sourcegraph/886e4343-6efc-4ab1-b204-f9115cfdeae3).
 1. The **Hiring Manager** reviews all the information you provided on your application to determine if you meet our qualifications for this role (if there is another open role we think you would be better qualified for, we will let you know).
 1. A **Recruiter** sets up a 30 minute call to learn more about what you are looking for, tell you about Sourcegraph, and answer any questions that you have.
 1. We set up a 1 hour interview with the **Hiring Manager**, who will tell you more about the role in the team. They will ask you about your past work and accomplishments and assess your suitability for the role.
@@ -65,6 +64,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
-<!-- **[Click here to apply](#todo)** --><!-- This is commented out because I will be sending some outbound messages before accepting applications. -->
+**[Click here to apply](https://jobs.lever.co/sourcegraph/886e4343-6efc-4ab1-b204-f9115cfdeae3)**
 
 Go back to the [careers page](https://about.sourcegraph.com/company/careers) for all open positions.

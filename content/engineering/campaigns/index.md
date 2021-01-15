@@ -119,4 +119,4 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 
 _Updated 2020-12-09_
 
-We are looking for a [full-stack or front-end engineer](../hiring/software-engineer-campaigns-full-stack-front-end.md) to join our team!
+We are looking for a [full-stack or frontend engineer](../hiring/software-engineer-campaigns-full-stack-frontend.md) to join our team!
