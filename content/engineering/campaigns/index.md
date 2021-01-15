@@ -76,7 +76,7 @@ Our two-week sprints start every other Wednesday. We follow this process:
   * Then we look at our roadmap doc to discuss comments people had, verify estimates, and ultimately to sort the items in terms of priority. *The goal is to have a freshly prioritized roadmap.* **(NOTE: When we move to Productboard, this step will become obsolete.)**
   * We work as a team to assign One Big Thing to each engineer.
   * Finally, we verify that the sum of the estimates of our P0 column is does not exceed 2 days per engineer. In other words:
-    * `issues.filter(p0).map(estimate).sum <= (num_engineers * 2).days`
+     * `issues.filter(p0).map(estimate).sum <= (num_engineers * 2).days`
 
 * After sprint planning, the team has a retro to discuss how the previous sprint went, and what changes we might want to our working agreements.
 
