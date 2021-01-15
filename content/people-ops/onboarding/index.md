@@ -20,9 +20,13 @@ Never assume that a problem is somebody else's to fix!
 
 ## Before you start at Sourcegraph
 
-1. People Ops will send you a welcome email. Be sure to send them your address, ID, shirt size, and photo for your avatar.
+Hiring managers can refer to the [Before starting](before_starting.md) page.
+
+1. One week prior to your first day, People Ops will send you a welcome email. Be sure to send them your address, ID, shirt size, and photo for your avatar.
 1. Order [your computer](../spending-company-money.md#computers).
 1. Order the [desk equipment](../spending-company-money.md#desk-set-up) you need to be productive working remotely.
+
+You will be able to submit an expense reimbursement for the computer and desk equipment when you start.
 
 ## General onboarding checklist
 
