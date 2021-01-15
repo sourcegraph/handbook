@@ -19,6 +19,7 @@ This is not a hard budget—rather, it is a guide based on what past teammates h
 #### Team-specific totals
 
 - We expect new [Design team](../product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
+- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](https://about.sourcegraph.com/handbook/ce) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
 
