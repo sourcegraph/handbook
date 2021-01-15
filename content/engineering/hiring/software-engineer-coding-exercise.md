@@ -65,6 +65,19 @@ We designed [this synchronous exercise](https://github.com/sourcegraph/interview
 
 If we device to move forward, we will schedule interviews with team members.
 
+## Distribution exercise
+
+We designed this exercise to measure your skills at integrating build and deployment workflows into a development lifecycle, as well as your ability to code a simple HTTP service.
+
+- You will choose a three hour timeframe to independently work on the exercise. You can choose any day and time that works for you; there are no scheduling constraints.
+- At your chosen date and time, we will send you detailed instructions. You will be building a simple pipeline to build and deploy a set of Go services and create a simple HTTP client in the language of your choice. We prefer to use Go or Typescript, but you can choose the language you feel more comfortable with.
+- You should have a recent version of Go (≥ 1.13) installed on your computer.
+- You should have a simple Kubernetes local cluster ([kind](https://kind.sigs.k8s.io/), [k3d](https://github.com/rancher/k3d), [minikube](https://minikube.sigs.k8s.io/docs/start/))
+- You can look up documentation on the internet while you are coding.
+- After three hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
+
+If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
+
 ## FAQ
 
 ### Why do you do a coding exercise?
