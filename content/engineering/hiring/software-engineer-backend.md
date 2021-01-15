@@ -60,7 +60,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
         - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
    - 30m **VP Engineering**
    - 30m **CTO**
-   - 30m **CEO**
 1. We check your references.
 1. We make you a job offer.
 

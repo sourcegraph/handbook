@@ -92,7 +92,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
             - [Christine Lovett](../../../company/team/index.md#christine-lovett-she-her)
    - 30 minutes [VP Engineering](../../../company/team/index.md#nick-snyder-he-him)
    - 30 minutes [CTO](../../../company/team/index.md#beyang-liu)
-   - [30 minutes CEO](../../ceo/index.md#interviews-with-me)
 1. We check your references.
 1. We make you a job offer.
 

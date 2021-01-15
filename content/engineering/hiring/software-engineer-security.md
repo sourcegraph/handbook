@@ -47,7 +47,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
         - [Owen Convey](../../../company/team/index.md#owen-convey-he-him), [Engineering Manager](../roles.md#engineering-manager), [Code Intelligence](../code-intelligence/index.md)
    - 30m **VP Engineering**
    - 30m **CTO**
-   - 30m **CEO**
 1. We check your references.
 1. We make you a job offer.
 

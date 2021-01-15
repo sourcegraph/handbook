@@ -36,7 +36,7 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
    - **Architecture:** We give you an open problem statement and you walk us through how you would solve the problem.
    - **Technical experience:** We ask you about your past work and accomplishments.
    - **Team collaboration:** We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
-   - **CEO/CTO:** We ask you about what motivates you to do your best work, and we tell you more about the vision for the company.
+   - **CTO:** We ask you about what motivates you to do your best work, and we tell you more about the vision for the company.
 1. We check your references.
 1. We make you a job offer.
 
