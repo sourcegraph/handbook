@@ -99,8 +99,8 @@ The private channel is for communications that would be of no interest to someon
 The Campaigns team is the current owner of [src-cli](https://github.com/sourcegraph/src-cli), due to the fact that most of the src-cli work in recent months has been related to Campaigns. We do not expect to be the permanent owners of src-cli; when another team becomes the main contributor, we will transfer ownership to them.
 
 ## Members
-
-- M.M. ([Product Manager](../../product/roles/product_manager.md), starting January 11). [Rob Rhyne](../../../company/team/index.md#rob-rhyne) is involved in the meantime.
+- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) acting Product Manager and Product Designer
+- [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) ([Product Manager](../../product/roles/product_manager.md)) (onboarding)
 - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager))
   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
@@ -113,7 +113,8 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 - [Developer documentation](https://docs.sourcegraph.com/dev/background-information/campaigns)
 - [Onboarding](onboarding.md)
 - [Supporting Campaigns](supporting-campaigns.md)
-
+- [Campaign's Drive Folder (private)](https://drive.google.com/drive/u/0/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn)
+- [Campaign's Product Marketing Brief](https://docs.google.com/document/d/1yQpCKF50gx8_T-KDnU4s9TjW6fZpMUfWLF2h4xSM8jk)
 ## Growth plan
 
 _Updated 2020-12-09_
