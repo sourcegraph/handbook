@@ -30,7 +30,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - RFC published.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-01-15: An early incomplete draft is being reviewed. Hope to publish widely next week.
     
 ### Structural search for monorepos
 - **Owner(s):** Rijnard, Camden
