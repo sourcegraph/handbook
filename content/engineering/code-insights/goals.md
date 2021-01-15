@@ -48,3 +48,7 @@ _Because code insights is an entirely new feature and closely informed by custom
 ## Roadmap
 
 Our [roadmap is in Productboard](https://sourcegraph.productboard.com/roadmap/2327428-code-insights-objectives-roadmap). We organize our roadmap by milestone objective rather than feature, because to achieve each milestone we may shift or prioritize features based on further customer feedback or product decisions. 
+
+At a glance roadmap as of 2021-01-14:
+
+![2021-01-14](https://sourcegraphstatic.com/handbook/product-roadmaps/2021-01-14CodeInsightsRoadmap.png)

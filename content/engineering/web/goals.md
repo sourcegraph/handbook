@@ -125,6 +125,14 @@ The individual tasks and progress of the current iteration can be found as GitHu
 
 The web team maintains objective-based roadmaps in Productboard for each of our two focus areas: [frontend platform roadmap](https://sourcegraph.productboard.com/roadmap/2362023-web-frontend-platform-roadmap) and [extensibility roadmap](https://sourcegraph.productboard.com/roadmap/2330181-web-extensibility-roadmap). 
 
+At a glance roadmap as of 2021-01-14:
+
+Frontend platform
+![2021-01-14](https://sourcegraphstatic.com/handbook/product-roadmaps/2021-01-14FrontendPlatformRoadmap.png)
+
+Extensibility
+![2021-01-14](https://sourcegraphstatic.com/handbook/product-roadmaps/2021-01-14ExtensibilityRoadmap.png)
+
 [N1]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
 [N2]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
 [N3]: https://docs.google.com/document/d/1KF-upHfYc3SoK4Nz_t3CjD-20XIGkF4UZuzpFvwc5fY/edit
