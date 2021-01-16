@@ -13,6 +13,7 @@
 - [Noemi Mercado](../../../company/team/index.md#noemi-mercado-she-her), Head of People Ops
   - [David Li](../../../company/team/index.md#david-li-he-him), Technical Recruiter
   - Cecily Black, Recruiting Coordinator
+  - Inés Roitman, Onboarding and Training Manager
 
 ## Teammate experience
 
