@@ -31,7 +31,7 @@ Keeping our reason for existence and guiding principles in mind in all of our wo
 
 - Experience or training (formal or self-taught) as a software engineer, network engineer, or DevOps engineer
 - Experience or training (formal or self-taught) debugging distributed or self-hosted systems (Docker or Kubernetes is a plus) and parsing logs
-- Compassion to to meet our customers (who are all developers themselves) where they are, understand their issues, and be compelled to action
+- Compassion to meet our customers (who are all developers themselves) where they are, understand their issues, and be compelled to action
 - Profound curiosity to figure out why something works the way it does / to learn more
 
 ## Learn more about us
