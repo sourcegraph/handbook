@@ -6,9 +6,9 @@ The code insights team will be responsible for building and delivering code insi
 
 ## What is code insights?
 
-Code insights is the first feature in Sourcegraph that can tell you things about your code at a **high level**. 
+Code insights is the first feature in Sourcegraph that can tell you things about your code at a **high level**.
 
-Code insights dashboards will answer questions like "How is a migration progressing?", "What areas of the code are most vulnerable to bugs?", and "How many developers are using a specific API?" Code insights will also incorporate third-party data like code coverage or static analysis metrics to deliver on the promise of aggregating everything you can know about your code. 
+Code insights dashboards will answer questions like "How is a migration progressing?", "What areas of the code are most vulnerable to bugs?", and "How many developers are using a specific API?" Code insights will also incorporate third-party data like code coverage or static analysis metrics to deliver on the promise of aggregating everything you can know about your code.
 
 Sourcegraph is in the unique position to give these insights because we have universal code search: to know _anything_ about your code at a high level confidently means you must know _everything_ about your code at a low level.
 
@@ -27,9 +27,9 @@ For more information about code insights, see the original [product document](ht
 
 [Goals and roadmap](goals.md)
 
-The code insights team also keeps a [backlog GitHub project board](https://github.com/orgs/sourcegraph/projects/118). We use the backlog for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](goals.md#roadmap). 
+The code insights team also keeps a [backlog GitHub project board](https://github.com/orgs/sourcegraph/projects/118). We use the backlog for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](goals.md#roadmap).
 
 ## We're hiring for this team!
 
-We are building the code insights team by hiring [frontend engineers](../hiring/software-engineer-frontend.md) and [backend engineers](../hiring/software-engineer-backend.md). The engineering manager for this team will be [Felix Becker](../../../company/team/index.md#felix-becker) and the product manager will be [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him).
+We are building the code insights team by hiring [frontend engineers](../hiring/software-engineer-code-insights-frontend.md) and [backend engineers](../hiring/software-engineer-backend.md). The engineering manager for this team will be [Felix Becker](../../../company/team/index.md#felix-becker) and the product manager will be [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him).
 New team members will initially contribute work towards code insights under the umbrella of the [web team](../web/index.md) and split off into their own independent team once we have enough team members.

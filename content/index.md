@@ -2,7 +2,7 @@
 
 The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](../company/index.md#open-company).
 
-The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate. 
+The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate.
 
 - [Editing the handbook](editing.md)
 - [Handbook usage](usage.md)
@@ -40,6 +40,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Engineering](engineering/index.md)
   - [Campaigns](engineering/campaigns/index.md)
   - [Cloud](engineering/cloud/index.md)
+  - [Code Insights](engineering/code-insights/index.md)
   - [Code intelligence](engineering/code-intelligence/index.md)
   - [Distribution](engineering/distribution/index.md)
   - [Search](engineering/search/index.md)
