@@ -1,4 +1,4 @@
-# Onboarding
+# Campaigns Onboarding
 
 We're excited to have you on the team! Your perspective as both a new user of the campaigns product and a new teammate is very valuable to us. Please keep notes on any issues you encounter as you are learning the product. We'll use those notes to improve the product and process.
 
