@@ -47,6 +47,8 @@ If you wish, you can set up Slack alerts for your own team on various instances 
   ]
 ```
 
+To silence an alert on a Sourcegraph instance you need to edit the deployed ConfigMap. For example, for Sourcegraph Cloud you need to edit [this file](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/frontend/sourcegraph-frontend.ConfigMap.yaml) and push to the `release` branch.
+
 #### Customer instances
 
 The bug report page (`/site-admin/report-bug`) for each Sourcegraph instance has a page that provides useful information about an instance's configuration. In this page, there is a field `"alerts":` that can be used to request recent alert data from customer instances:
