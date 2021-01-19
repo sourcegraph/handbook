@@ -22,6 +22,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Non streaming backends fallback gracefully.
 - **Work log:**
     - 2021-01-13: Streaming upto the Zoekt client. We still need to make it stream per replica and streaming within the replica. Got blocked by streaming progress updates.
+    - 2021-01-14: Error/skipped items UI has been updated to match design
     - 2021-01-15: Search expression support in streaming.
     - 2021-01-15: Work towards progress streaming and zoekt streaming. Both are now unblocked for next week. We have a high level plan to tackle both next week.
 
