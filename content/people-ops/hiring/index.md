@@ -13,24 +13,24 @@
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 1. Hiring managers own the hiring process for their team.
-    - Hiring managers are encouraged to experiment to learn how to improve their hiring process.
-    - The handbook is kept up-to-date with our learnings and current norms.
-    
+   - Hiring managers are encouraged to experiment to learn how to improve their hiring process.
+   - The handbook is kept up-to-date with our learnings and current norms.
+
 ## How recruiting interfaces with hiring managers
 
-For any members of a hiring team, please see [this page](how_recruiting_interfaces_with_hiring_managers.md) for a breakdown of each step in the hiring process. 
+For any members of a hiring team, please see [this page](how_recruiting_interfaces_with_hiring_managers.md) for a breakdown of each step in the hiring process.
 
 The page will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
-    
+
 ## Recruiting tools
 
 We currently use Lever as our applicant tracking system. [guide coming soon]
 
-We utilize LinkedIn as our sourcing platform. 
+We utilize LinkedIn as our sourcing platform.
 
-Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](https://about.sourcegraph.com/handbook/people-ops/hiring/linkedin). 
+Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](https://about.sourcegraph.com/handbook/people-ops/hiring/linkedin).
 
-We will work with recruiters and hiring managers to gain access to the tools they need to be successfull. 
+We will work with recruiters and hiring managers to gain access to the tools they need to be successfull.
 
 ## Open positions
 
@@ -44,7 +44,7 @@ We cross-post our open positions to the following locations:
 - [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Nick owns this list and payments are made with Nick's Brex. Tech Ladies checks our open positions every month to see if there are updates, but we can request an update anytime by emailing jobpostings@hiretechladies.com. Here are the 10 roles that we post:
   1. [Director of Engineering - Platform and Infrastructure](https://jobs.lever.co/sourcegraph/8fcbaade-e511-4d93-bd9b-9cc7ec3438af)
   1. [Engineering Manager - Cloud Application and Core Services](../../engineering/hiring/engineering-manager-cloud.md)
-  1. [Software Engineer - Frontend](../../engineering/hiring/software-engineer-frontend.md)
+  1. [Software Engineer - Cloud - Frontend](../../engineering/hiring/software-engineer-cloud-frontend.md)
   1. [Software Engineer - Backend](../../engineering/hiring/software-engineer-backend.md)
   1. [Software Engineer - Distribution](../../engineering/hiring/software-engineer-distribution.md)
   1. [Software Engineer - Security](../../engineering/hiring/software-engineer-security.md)
@@ -70,20 +70,20 @@ See the [job descriptions guidelines](./job_description_guidelines.md) when crea
 We review each candidate at each stage of our hiring pipeline (e.g. application, phone screen, interviews, references) to determine if we want to move the candidate to the next stage. Here are some things that we consider:
 
 - Applications
-    - Does this candidate meet all qualifications for the role they are applying for?
-    - Does this candidate's resume and application effectively communicate their skills, accomplishments, and a genuine interest in Sourcegraph?
-    - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
-    - What makes this candidate's application stand out and excite us about moving forward with interviews?
+  - Does this candidate meet all qualifications for the role they are applying for?
+  - Does this candidate's resume and application effectively communicate their skills, accomplishments, and a genuine interest in Sourcegraph?
+  - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
+  - What makes this candidate's application stand out and excite us about moving forward with interviews?
 - Interviews
-    - Does this candidate have the skills and experience that we are looking for?
-    - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
-    - What makes us excited about hiring this candidate?
+  - Does this candidate have the skills and experience that we are looking for?
+  - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
+  - What makes us excited about hiring this candidate?
 
 ## Making a referral
 
 Current employees can refer a candidate [here](https://hire.lever.co/referrals/new)
 
-Having your referral complete the application provides helpful context when considering their profile, but is not required. 
+Having your referral complete the application provides helpful context when considering their profile, but is not required.
 
 Benefits of having a referral complete the application:
 
