@@ -54,7 +54,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
    - 1h [Technical experience](https://github.com/sourcegraph/interviews/blob/master/engineering/technical-experience.md) - We ask you about your past work and accomplishments.
    - 1h [Team collaboration](https://github.com/sourcegraph/interviews/blob/master/engineering/team-collaboration.md). We ask you about how you work and communicate in a team setting, and how you handle tricky situations.
    - 30m [Beyang Liu](../../../company/team/index.md#beyang-liu) (CTO)
-   - 30m [Quinn Slack](../../../company/team/index.md#quinn-slack) (CEO)
 1. Meet and greet with any people who you would be managing but didn't get a chance to meet in the interview process. These are informal conversations for you to get to know the team and them to meet you. You don't need to use the entire scheduled time if you don't need it.
 
 If we want to move forward after these sets of interviews, we will setup 30-minute calls to meet any [members of the Cloud team](../cloud/index.md#members) that weren't already an interviewer. These calls are informal and don't have a script.

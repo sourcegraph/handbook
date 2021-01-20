@@ -50,7 +50,7 @@ You apply [here](https://jobs.lever.co/sourcegraph/35aff80b-be4f-4887-a465-3e91e
    - Interview 1: an existing AE on the team (1 hour)
    - Interview 2: a member of our Customer Engineering team (30 minutes)
    - Interview 3: a deeper dive with our VP of Sales (1 hour)
-   - Interview 4 (CEO/CTO): We ask you about what motivates you to do your best work, and we tell you more about the vision for the company (30 minutes)
+   - Interview 4: We ask you about what motivates you to do your best work, and we tell you more about the vision for the company (30 minutes)
 
 4. We check your references.
 5. We make you a job offer.

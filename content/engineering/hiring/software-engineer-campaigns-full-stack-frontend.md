@@ -58,7 +58,6 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
    - 1 hour **Code collaboration:** You [pair with an engineer](software-engineer-pairing-exercise.md) on a small task. Another engineer will observe, to reduce bias.
    - 30 minutes **VP Engineering**
    - 30 minutes **CTO**
-   - 30 minutes **CEO**
 1. We check your references.
 1. We make you a job offer.
 
