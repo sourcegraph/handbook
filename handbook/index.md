@@ -1,8 +1,8 @@
 ---
 date: '2019-07-10T07:00:00.000Z'
-title: Home
+title: Home test
 position: 0
-last_edited: '2020-12-20T18:36:34.273Z'
+last_edited: '2021-01-20T16:19:49.664Z'
 ---
 The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](../company/index.md#open-company).
 
