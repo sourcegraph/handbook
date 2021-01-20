@@ -34,13 +34,13 @@ The previous 2 goals entail fast growth, which is risky for any company to under
 
 See "[Roles of the CEO](roles.md)".
 
-## Communicating with me
+## Communication
 
-The best way to communicate is [asynchronously and publicly](../communication.md). If you need a video call with me, [send me a calendar invite](../communication.md#scheduling-meetings) and include an agenda in the description.
+### Scheduling time with me
 
-My preferred working hours are 07:30-17:00 and 19:00-21:00 US Pacific Time (Google Calendar does not let me specify a noncontigous "working hours" block). If you want to schedule something with me outside of those hours, that's usually fine; just give me a few days of advance notice or check with me first.
+If possible, let's talk [asynchronously and publicly](../communication.md). If you need to schedule a time to speak with me, the best way is to contact Katerina Nikolova, my Executive Business partner, who can find a good time.
 
-I've found *recurring* meetings with specific single teammates (other than my [1-1s](../leadership/1-1.md)) to be ineffective. In most cases, people either want to discuss topics with me that are best discussed with a larger group, or they don't have any topics to discuss but don't want to offend me by canceling the recurring event. Anyone is always welcome to schedule time to chat with me whenever they want, and if you really want to schedule a recurring chat with me (in addition to your 1-1 with your manager), go for it--and I won't be offended if you want to cancel.
+My preferred working hours are 08:00-17:30 US Pacific Time.
 
 ### Asking for a review from me
 
