@@ -20,7 +20,7 @@ A healthy mind and body is imperative to doing your best work and living a healt
 
 ## 👪 Family friendly
 
-We value and support teammates at all stages of life, and provide 8 weeks of paid parental leave for all new parents (details depend on location), in addition to any pregnancy-related disability leave.
+We value and support teammates at all stages of life, and provide 10 weeks of paid parental leave for all new parents (details depend on location), in addition to any pregnancy-related disability leave.
 
 ## 📚 Professional development
 
