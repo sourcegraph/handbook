@@ -97,6 +97,19 @@ Here are some of the technologies we use to deliver on our goals:
 
 ## Processes
 
+### Communication
+
+We recognize that frequent, open communication is key to the success of our team, especially in an all-remote environment.
+We default to asynchronous communication in Slack and GitHub issues over other mediums (video calls, emails) as we are respectful of our teammates' time. 
+
+The team communicates in the following channels in Slack:
+
+[**#web**](https://sourcegraph.slack.com/archives/CMT39K56Z): All work related commmunication happens in this channel. This is also the primary channel for teammates outside of the team to reach out to us.
+
+[**#web-chat**](https://sourcegraph.slack.com/archives/C01EM5J1NF8): Our daily standups (facilited through Geekbot) go into this channel as well as all non-work related commmunication. Random conversations, banter, jokes etc. are all welcome here. 
+
+[**#web-onboarding**](https://sourcegraph.slack.com/archives/C01K7TKKR09): This channel is dedicated to questions or thoughts that new teammates have while they onboard. It's a safe space to simply think out load and the goal is to identify things that we can improve and things we should make more clear in the handbook.
+
 ### Backlog
 
 The web team keeps a backlog GitHub project board for each of our focus areas: [frontend platform backlog](https://github.com/orgs/sourcegraph/projects/117) and [extensibility backlog](https://github.com/orgs/sourcegraph/projects/116). 
