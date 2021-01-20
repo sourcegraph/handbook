@@ -7,7 +7,15 @@
       "title": "Home",
       "position": 0,
       "id": "1",
-      "children": []
+      "children": [
+        {
+          "type": "link",
+          "slug": "index/virginia-page",
+          "title": "Virginia Page",
+          "id": "k6q8zym9q",
+          "children": []
+        }
+      ]
     },
     {
       "type": "link",
