@@ -1,7 +1,7 @@
 ---
 date: '2019-07-10T07:00:00.000Z'
 position: 0
-last_edited: '2021-01-20T16:38:12.322Z'
+last_edited: '2021-01-20T16:45:43.647Z'
 title: Sourcegraph Handbook
 ---
 The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](../company/index.md#open-company).
@@ -12,6 +12,7 @@ Lorem ipsum dolor sit amet
 
 * [Editing the handbook](editing.md)
 * [Handbook usage](usage.md)
+* [Virginia's page](/handbook/index/virginia-page)
 
 ## [Company](../company/index.md)
 
