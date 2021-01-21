@@ -40,6 +40,7 @@ There will be plenty for you to read and learn about when you're not working on 
 - Read through the rest of the engineering handbook to learn more about how we operate.
 - Read how we choose and continually update our [goals](../../../company/goals/index.md).
 - Read how we plan and keep each other up to date with [tracking issues](../tracking_issues.md).
+- Watch this [high-level overview of the Sourcegraph repository on Github](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing)
 - Frontend engineers should watch [Figma for Sourcegraphers part 1](https://drive.google.com/file/d/1zzUKDJN5XUwvKF8LfKZqQb7gK9NpK1Wx/view?usp=sharing) to learn about how design and engineering work together. [Part 2, working with the Wildcard design system](https://drive.google.com/file/d/1zzUKDJN5XUwvKF8LfKZqQb7gK9NpK1Wx/view?usp=sharing) shows how to work with our design system and may be interesting for anyone who wants to submit designs.
 
 ## Weeks 4-6
