@@ -74,7 +74,7 @@ Remember:
 ### Get to know our customers
 
 - [Join as many customer calls as you can](../../sales/onboarding/joining_customer_calls.md) in your first few weeks.
-- Familiarize yourself with customer feedback channels
+- Familiarize yourself with [customer feedback channels](../product_management/responding_to_user_feedback.md):
    - [HubSpot](https://app.hubspot.com/forms/2762526/a86bbac5-576d-4ca0-86c1-0c60837c3eab/submissions) surveys
    - [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)
    - Twitter
