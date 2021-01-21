@@ -4,7 +4,6 @@ The SDR Team (fill in the blanks)
 
 ## Members
 
-- [Gregg Stone](../../../../company/team/index.md#gregg-stone) - VP of Sales
 - [Quin Keough](../../../../company/team/index.md#quin-keough) - West
 - [Mark Muldez](../../../../company/team/index.md#mark-muldez-he-him) - East
 
