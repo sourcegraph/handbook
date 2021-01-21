@@ -23,7 +23,21 @@ The Sales team represents us and our values to customers, bringing back dollars 
 
 TODO
 
-## Roles
+## Members
+
+- [Gregg Stone](.../.../company/team#gregg-stone) (VP of Sales)
+- [Josh Bollin](.../.../company/team#josh-bollin) (RVP of East)
+  - [Kai Passo](.../.../company/team#kai-passo-he-him)
+  - [Bill Kolman](.../.../company/team#bill-kolman)
+  - [Eli Rothschild](.../.../company/team#eli-rothschild-he-him)
+  - [Scott Cambell](.../.../company/team#scott-campbell-he-him)
+  - [Hannah Freilich](.../.../company/team#hannah-freilich)
+  - Dan Braun
+- [Greg Bastis](.../.../company/team#greg-bastis-he-him) (RVP of West)
+  - [Owen Brennan](.../.../company/team#owen-brennan-he-him)
+  - [Chris Surdi](.../.../company/team#chris-surdi)
+
+### Roles
 
 See [roles](./roles/index.md) page.
 
