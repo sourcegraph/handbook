@@ -1,61 +1,42 @@
-# Releases
-
-<!-- TODO: split this up into an eng process doc and a semi-public when-and-why-we-release-regularly doc -->
+# Sourcegraph releases
 
 This document describes how we release Sourcegraph.
 
-## Goal
+## Release policies
 
-The goal of our release process is to make releases boring, regular, and eventually, automated.
+### Releases
 
-## Releases are monthly
+**Sourcegraph releases are monthly.**
+A *release* refers to a minor version increase of Sourcegraph (e.g. `3.0.0` -> `3.1.0`).
+We create releases by 10am US Pacific Time on the 20th day of each month. ([why?](#why-the-20th))
 
-We release Sourcegraph **by** 10am US Pacific Time on the 20th day of each month.
+These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
-"Release" means:
+These releases always ships on time, even if it's missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
 
-- The Docker images are available for download.
-- The blog post is published.
-- The release is documented on docs.sourcegraph.com.
+### Patch releases
 
-The release always ships on time, even if it's missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
+**Sourcegraph patch releases are created as required.**
+A *patch release* refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`).
 
-### Why the 20th?
+These releases **never** require any manual migration steps.
 
-There is nothing particularly special about this date, but it does mean we wrap up a release before many teammates go on vacation during the end of December.
+> NOTE: Patch releases are not free, and we currently enforce certain requirements before a patch release is conducted.
+> To request a patch release, please fill out a [patch release request](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=).
+> In most cases, waiting until the next [full release](#releases) is the best approach.
 
-### Why aren't releases continuous?
+### Other
 
-Although [Sourcegraph.com](https://sourcegraph.com) is continuously deployed (from sourcegraph/sourcegraph@`main`), the version of Sourcegraph that customers use is not continuously released or updated. This is because:
-
-- We don't think customers would be comfortable with a continuously updated service running on their own infrastructure, for security and stability reasons.
-- We haven't built the automated testing and update infrastructure to make continuous customer releases reliable.
-
-In the future, we may introduce continuous releases if these issues become surmountable.
-
-## Versioning
-
-[Monthly releases](#releases-are-monthly) of Sourcegraph increase the minor version number (e.g. 3.1 -> 3.2). These releases **never** require any manual migration steps.
-
-Patch releases (e.g. 3.0.0 -> 3.0.1) are released on an as-needed basis to fix bugs and security issues. These releases **never** require any manual migration steps. To create a patch release, create a tracking issue using the [patch release issue template](patch_release_issue_template.md) and complete all listed steps.
-
-On rare occasions we may decide to increase the major version number (e.g. 2.13 -> 3.0). These releases **may** require manual migration steps.
-
-## When are patch releases performed?
-
-Patch releases are not free. When considering if a patch release is right ask the following questions:
-
-- Are users/customers actively asking us for these changes and cannot wait until the next full release?
-- Is there some functionality completely broken that warrants _redacting_ the prior release of Sourcegraph and advising users wait for the patch release?
-- Is it worth interrupting our regular planned work and release cycle for someone to take 3-6 hours and perform the patch release process?
-- Is it worth taking up site admin's valuable time by asking them to upgrade (and producing noise for them if they don't need to upgrade)?
-- Are the changes extremely minimal, well-tested, and low risk such that not testing as we do in a full release is OK?
-
-If you answered yes to most of these questions, a patch release is warranted. Otherwise, waiting until the next full release (which happens monthly on the 20th) is the best approach.
+On rare occasions we may decide to increase the major version number (e.g. `2.13.x` -> `3.0.0`).
+These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
 ## Release process
 
-What is the process we follow to release?
+This section documents the process used to create releases at Sourcegraph.
+
+### Goal
+
+The goal of our release process is to make releases boring, regular, and eventually, automated.
 
 ### Release captain
 
@@ -63,21 +44,21 @@ The release captain is _responsible_ for managing the release process and ensuri
 
 The release captain should create a tracking issue using the [release issue template](release_issue_template.md) at the beginning of the release cycle.
 
-### Release issue templates
+Release captain responsibilities are currently owned by the [Distribution team](../distribution/index.md).
+
+### Release tooling
+
+The [Sourcegraph release tool](../distribution/tools/release.md) is used to generate releases as associated materials (such as tracking issues).
+It leverages the following issue templates:
 
 - [Release issue template](release_issue_template.md)
 - [Patch release issue template](patch_release_issue_template.md)
-- [Release blog post issue template](../../product/product_management/release_issue_template.md)
-- [Release deploy-soucegraph-docker issue template](release_deploy_sourcegraph_docker_template.md)
 - [Upgrade managed instances issue template](upgrade_managed_issue_template.md)
-
-### Schedule
-
-Release captain responsibilities are owned by the [Distribution team](../distribution/index.md).
 
 ### Release branches
 
-Each major and minor release of [Sourcegraph](https://github.com/sourcegraph/sourcegraph) has a long lived release branch (e.g. `3.0`, `3.1`). Individual releases are tagged from these release branches (e.g. `v3.0.0-rc.1`, `v3.0.0`, `v3.0.1-rc.1`, and `v3.0.1` would be tagged from the `3.0` release branch).
+Each major and minor release of [Sourcegraph](https://github.com/sourcegraph/sourcegraph) has a long lived release branch (e.g. `3.0`, `3.1`).
+Individual releases are tagged from these release branches (e.g. `v3.0.0-rc.1`, `v3.0.0`, `v3.0.1-rc.1`, and `v3.0.1` would be tagged from the `3.0` release branch).
 
 To avoid confusion between tags and branches:
 
@@ -109,22 +90,9 @@ A---B---C---D---E---F---G---H---I---J---K---L (main branch)
         `---v3.0.0-rc.1---D'---v3.0.0---F'---v3.0.1---J'---v3.0.2 (3.0 release branch)
 ```
 
-
-#### Cherry-picking a fix onto release branch
-
-In order to cherry-pick a fix onto a release branch:
-
-1. Merge changes into `main` as a squashed commit.
-1. Get approval from the **release captain**.
-1. Checkout the release branch (e.g. `git checkout 3.12`).
-1. Make sure your local release branch is up to date (i.e. `git pull`).
-1. `git cherry-pick <commit-sha-of-squashed-commit>`
-1. `git push`
-1. Let the release captain know (either by sending a message on Slack or leaving a comment on the merged PR with the SHA of the cherry-picked commit, see [example](https://github.com/sourcegraph/sourcegraph/pull/7753#issuecomment-575134117)).
-
 ### Issues
 
-How do we deal with issues that are found during the release process?
+This section documents how do we deal with issues that are found during the release process.
 
 #### Blocking
 
@@ -143,3 +111,19 @@ The release captain has unlimited power to make changes to the release branch to
 #### Non-blocking
 
 Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main` by the code owner who can then `git cherry-pick` those commits into the release branch with the approval of the release captain. Alternatively, broken features can be reverted out of the release branch or disabled via feature flags if they aren't ready or are too buggy.
+
+## FAQ
+
+### Why the 20th?
+
+There is nothing particularly special about using this date for releases, but it does mean we wrap up a release before many teammates go on vacation during the end of December.
+
+### Why aren't releases continuous?
+
+Although [Sourcegraph.com](https://sourcegraph.com) is [continuously deployed](../deployments/instances.md), the version of Sourcegraph that customers use is not continuously released or updated.
+This is because:
+
+- We don't think customers would be comfortable with a continuously updated service running on their own infrastructure, for security and stability reasons.
+- We haven't built the automated testing and update infrastructure to make continuous customer releases reliable.
+
+In the future, we may introduce continuous releases if these issues become surmountable.

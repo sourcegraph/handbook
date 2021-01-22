@@ -19,4 +19,3 @@ See [product process](product_process.md)
 ## Monthly release templates
 
 - [Release blog post template](./release_blog_post_template.md)
-- [Release blog post tracking issue template](./release_issue_template.md)
