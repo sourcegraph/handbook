@@ -19,7 +19,7 @@ To perform these upgrades, follow the [managed instances upgrade process](https:
 
 ## Upgrade internal managed instances
 
-- [ ] Upgrade [devmanaged.sourcegraph.com](https://demo.sourcegraph.com)
+- [ ] Upgrade [devmanaged.sourcegraph.com](https://devmanaged.sourcegraph.com)
 - [ ] Upgrade [demo.sourcegraph.com](https://demo.sourcegraph.com)
 
 ## Upgrade customer managed instances
