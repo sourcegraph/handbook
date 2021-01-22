@@ -13,7 +13,7 @@ Arguments:
 
 These [managaged instances](https://about.sourcegraph.com/handbook/engineering/distribution/managed) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
-To perfomr these upgrades, follow the [managed instances upgrade process](https://about.sourcegraph.com/handbook/engineering/distribution/managed/upgrade_process).
+To perform these upgrades, follow the [managed instances upgrade process](https://about.sourcegraph.com/handbook/engineering/distribution/managed/upgrade_process).
 
 ---
 
