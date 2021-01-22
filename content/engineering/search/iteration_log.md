@@ -14,11 +14,11 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ## 2021-01-25 to 2021-02-05
 
-### $GOAL_OR_THEME
-
-- **Owner(s):** $OWNER
+### Search contexts
+- **Owner(s):** Rok
 - **Outcomes:**
-    - $DESIRED_OUTCOME
+    - [Issues](https://docs.google.com/document/d/1SU6AdJPa1vzQVUKc2Otj608GztsNARF1v4pnA-fTKzU/edit?usp=sharing) regarding search context namespacing are resolved.
+    - The API supports search queries with a provided search context (`global` and `@username`).
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
@@ -63,7 +63,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Validate approach for resolving a search context to a set of repositories to search on the backend.
     - Validate implementation plan for frontend changes with Quinn Keast.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-01-19: Started on UI tweaks for search toggle buttons and the copy button redesign
+    - 2021-01-15: Researching the backend for resolving repositories and how contexts will fit into it. Researching the query language and how to add the `context:` filter. Raised an issue with Quinn regarding search context namespacing.
 
 ## 2020-12-14 to 2021-01-08
 
