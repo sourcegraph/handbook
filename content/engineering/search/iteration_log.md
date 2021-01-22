@@ -63,6 +63,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Make structural search work better for monorepos. Currently monorepos can time out for structural search purely because it takes too long to copy the data to search. The outcome focuses on architectural changes to avoid unnecessary data zipping and copying to our searcher worker (see [sourcegraph/sourcegraph#14619](https://github.com/sourcegraph/sourcegraph/issues/14619)).
 - **Work log:**
     - 2021-01-15: Steady progress and almost have end-to-end code working to go through searcher. Difficult to communicate and construct the parts we need from frontend to searcher though.
+    - 2021-01-22: Opened PR to enable new structural search path end-to-end behind a flag. Still working on a couple of bugs and stress testing.
 
 ### Search rules
 - **Owner(s):** Rijnard
