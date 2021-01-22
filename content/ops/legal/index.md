@@ -10,7 +10,7 @@ Until the team grows, [Dan](../../../../company/team/index.md#dan-adler-he-him) 
 
 ### Members
 
-- [Dan Adler](../../../../company/team/index.md#dan-adler-he-him), VP Operations
+- T.Z., Director of Legal (starting 2021-02-22)
 
 ### Roles
 
