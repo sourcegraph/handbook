@@ -29,7 +29,10 @@ For more information about code insights, see the original [product document](ht
 
 The code insights team also keeps a [backlog GitHub project board](https://github.com/orgs/sourcegraph/projects/118). We use the backlog for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](goals.md#roadmap).
 
+## Members
+- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/product_manager.md))
+- [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
+
 ## We're hiring for this team!
 
-We are building the code insights team by hiring [frontend engineers](../hiring/software-engineer-code-insights-frontend.md) and [backend engineers](../hiring/software-engineer-backend.md). The engineering manager for this team will be [Felix Becker](../../../company/team/index.md#felix-becker) and the product manager will be [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him).
-New team members will initially contribute work towards code insights under the umbrella of the [web team](../web/index.md) and split off into their own independent team once we have enough team members.
+We are building the code insights team by hiring [frontend engineers](../hiring/software-engineer-code-insights-frontend.md) and [backend engineers](../hiring/software-engineer-backend.md). New team members will initially contribute work towards code insights under the umbrella of the [web team](../web/index.md) and split off into their own independent team once we have enough team members.
