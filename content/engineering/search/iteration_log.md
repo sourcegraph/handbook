@@ -20,7 +20,19 @@ This document contains the goals and work log for the search team's [2-week iter
     - [Issues](https://docs.google.com/document/d/1SU6AdJPa1vzQVUKc2Otj608GztsNARF1v4pnA-fTKzU/edit?usp=sharing) regarding search context namespacing are resolved.
     - The API supports search queries with a provided search context (`global` and `@username`).
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+
+### Streaming search
+- **Owner(s):** Juliana, Keegan, Stefan
+    - Streaming search turned on for Sourcegraph.com.
+      - Improve user experience during streaming.
+      - Streaming support for filters and alerts.
+      - Performance/reliability testing in webapp and backend.
+- **Work log:**
+
+### Exhaustive Search
+- **Owner(s):** Keegan
+- **Outcomes:**
+    - Defering until next iteration to fully focus on streaming.
 
 ## 2021-01-11 to 2021-01-22
 
@@ -35,6 +47,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2021-01-14: Error/skipped items UI has been updated to match design
     - 2021-01-15: Search expression support in streaming.
     - 2021-01-15: Work towards progress streaming and zoekt streaming. Both are now unblocked for next week. We have a high level plan to tackle both next week.
+    - 2021-01-22: Lots of updates. Streaming progress, streaming zoekt per replica and search backend now only uses streaming. For graphqlbackend we rely on aggregating the stream. Streaming as a whole is functional. We are now fixing obvious flaws in it before turning on the feature flag.
 
 ### Exhaustive Search
 - **Owner(s):** Keegan
@@ -42,6 +55,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - RFC published.
 - **Work log:**
     - 2021-01-15: An early incomplete draft is being reviewed. Hope to publish widely next week.
+    - 2021-01-22: Decided to fully focus on streaming search. Pushing out working on the RFC until we have the streaming feature flag turned on.
     
 ### Structural search for monorepos
 - **Owner(s):** Rijnard, Camden
