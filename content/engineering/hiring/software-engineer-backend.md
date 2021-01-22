@@ -5,7 +5,6 @@ We are looking for backend engineers who know how to design and build performanc
 The following engineering teams are currently hiring for this role:
 
 1. [Search](../search/index.md)
-1. [Code intelligence](../code-intelligence/index.md)
 
 ## Qualifications
 
@@ -35,9 +34,8 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 
 ## Interview process
 
-1. You submit an application to the team you are most interested in:
+1. You submit an application:
   - [Apply to Search](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322/apply).
-  - [Apply to Code Intelligence](https://jobs.lever.co/sourcegraph/659daf65-bd1d-4392-a118-985a92debee7/apply).
 1. We schedule a 1 hour **Technical experience** interview with the hiring manager of the team. You'll talk about your past work and accomplishments in depth, how you worked with others, decisions you made and what you'd do differently today.
    - Read through [our handbook](https://about.sourcegraph.com/handbook) to learn more about how we operate and to find answers to common questions that you might have. We leave 10 minutes at the end of this interview for you to ask any additional questions.
 1. You complete a 2-hour [coding exercise in Go](software-engineer-coding-exercise.md#go-coding-exercise) that we designed to measure your understanding of concurrency and error handling.
