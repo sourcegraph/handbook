@@ -7,6 +7,7 @@ The business & product operations (BizOps) team is responsible for [translating 
 - S.S., Director of Business Operations & Strategy (starting 2021-02-15)
 - [Eric Brody-Moore](../../../../company/team/index.md#eric-brody-moore), Business Operations Senior Analyst
 - [Farhan Attamimi](../../../../company/team/index.md#farhan-attamimi), Business Operations Analyst
+- S.H., Business Operations Analyst (starting 2021-03-08)
 
 ## Roles
 
