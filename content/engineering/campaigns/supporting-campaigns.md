@@ -16,7 +16,7 @@ These are some ideas for onboarding quests, to be run in our dogfood or testing 
 
 For each of these quests, be sure to also get familiar with the updating process: after creating an initial campaign with `src campaign apply`, make a change to the spec and then preview and apply the change.
 
-- Create a campaign over 5+ repos for each of the following:
+- Create a campaign over 5+ repositories for each of the following:
   - Run [Comby](https://comby.dev/) to replace `fmt.Sprintf("%d", :[v])` with `strconv.Itoa(:[v])` in Go files (`*.go`)
   - Run `go fmt ./...` in the repository
   - Replace problematic language (such as changing blacklist/whitelist to blocklist/allowlist)
