@@ -1,4 +1,4 @@
-# Tech Operations (formerly known as Internal Tools)
+# Tech Operations
 
 **The tech operations team does not yet exist.** It is a team we want to create and grow. The Tech Ops team will help build, integrate, improve, and maintain our internal tools and applications.
 
@@ -6,7 +6,9 @@
 
 ## Team
 
-We are hiring for the Tech Ops team! See all [open positions](../roles/index.md).
+### Members
+
+N.V.M., Tech Operations Manager (starting 2021-02-01)
 
 ## Vision
 
