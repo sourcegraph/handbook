@@ -12,6 +12,29 @@ This page records goals completed by the Distribution team historically. See als
 
 ## 2020
 
+### FY-21-Q1
+
+### Any engineer at Sourcegraph can create a release for all of our supported deployment types
+
+Creating a new release for our deployments is currently a semi-automated process, which requires several manual steps and synchronizing our versioned artifacts (Sourcegraph, Kubernetes manifests, docker-compose manifests, etc).
+We want to enable any engineer to perform a release as often as needed, to enable this we want to make releasing Sourcegraph a simple, automated process.
+
+- **Owner**: Dave, Robert
+- **Outcomes**:
+  - ~~Releases can be triggered by a single manual step.~~ _Descoped_: See "Descoped outcomes"
+  - All supported deployment types are released at the same time with the same commands.
+  - Support documentation enables any engineer to perform a release with confidence.
+- **Milestones**:
+  - ~~[Enable running e2e test on an environment matching its test (docker-compose in a VM)](https://github.com/orgs/sourcegraph/projects/72).~~ Done: `3.20`
+  - ~~[Automatically update the dogfood cluster](https://github.com/orgs/sourcegraph/projects/83).~~ Done: `3.20`
+  - ~~[Enable continuous e2e tests on `main`](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
+  - ~~[Enable continuous regression tests on `main`](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
+  - ~~[Ensure relevant engineers are notified of broken builds](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
+  - ~~[Releases can be done in a single day](https://github.com/orgs/sourcegraph/projects/90)~~. Done: `Dist: 2021.01.11`
+  - ~~[Releases can be done automatically (e.g. CLI command, `/` command in Slack, etc.)](https://github.com/orgs/sourcegraph/projects/131)~~._Descoped_: See "Descoped outcomes"
+- **Descoped outcomes**:
+  - [Releases can be done automatically (e.g. CLI command, `/` command in Slack, etc.)](https://github.com/orgs/sourcegraph/projects/131): this outcome was descoped since the work on this goal has brought the release process to a reasonable state, and a [preliminary investigation](https://github.com/sourcegraph/sourcegraph/issues/9252#issuecomment-761713632) indicated that there might be diminishing returns from additional work on this. A new goal has been created to track work on this.
+
 ### FY-20-Q4
 
 #### Automatic e2e testing

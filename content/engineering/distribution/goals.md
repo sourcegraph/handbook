@@ -31,25 +31,6 @@ We will start by looking at our Kubernetes deployment and working on an easier u
   - Design customization workflow. _Estimated: FY21-Q1_
     - Potentially Kustomize would still be used for last-mile changes and non-standard derivations.
 
-### Any engineer at Sourcegraph can create a release for all of our supported deployment types by running a single action
-
-Creating a new release for our deployments is currently a semi-automated process, which requires several manual steps and synchronizing our versioned artifacts (Sourcegraph, Kubernetes manifests, docker-compose manifests, etc). We want to enable any engineer to perform a release as often as needed, to enable this we want to make releasing Sourcegraph a simple, automated process.
-
-- **Owner**: Dave, Robert
-- **Status**: In progress. Estimated completion by end of FY21-Q1.
-- **Outcomes**:
-  - Releases can be triggered by a single manual step.
-  - All supported deployment types are released at the same time with the same command.
-  - Support documentation enables any engineer to perform a release with confidence.
-- **Milestones**:
-  - ~~[Enable running e2e test on an environment matching its test (docker-compose in a VM)](https://github.com/orgs/sourcegraph/projects/72).~~ Done: `3.20`
-  - ~~[Automatically update the dogfood cluster](https://github.com/orgs/sourcegraph/projects/83).~~ Done: `3.20`
-  - ~~[Enable continuous e2e tests on `main`](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
-  - ~~[Enable continuous regression tests on `main`](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
-  - ~~[Ensure relevant engineers are notified of broken builds](https://github.com/orgs/sourcegraph/projects/90).~~ Done: `Dist: 2020.11.16`
-  - [Releases can be done in a single day](https://github.com/orgs/sourcegraph/projects/90). **In progress**
-  - Releases can be done automatically with a single action (e.g. CLI command, `/` command in Slack, etc.). _Estimated: FY21-Q1_
-
 ### [Split Cloud infrastructure into separate GCP projects](https://github.com/orgs/sourcegraph/projects/92)
 
 - **Owner**: Gonza
@@ -124,6 +105,19 @@ Upgrading from 3.13 -> 3.17 requires you perform 4 individual upgrades today (3.
 - **Outcomes**:
   - Customers can upgrade across multiple versions of Sourcegraph, allowing them to get up-to-date more quickly and easily.
 - **Milestones**:
+
+### Releases can be done automatically
+
+Releases today require manual intervention to finalize release pull requests and address issues that might come up.
+We would like releases to happen seamlessly, and whenever required.
+
+- **Owner**: TBD
+- **Status**: Not started. Unknown amount of work.
+- **Outcomes**:
+  - Release tracking issues are no longer required.
+  - Releases require minimal manual intervention (at most 2-3 actions).
+- **Milestones**:
+  - [Releases can be done automatically (e.g. CLI command, `/` command in Slack, etc.)](https://github.com/orgs/sourcegraph/projects/131)
 
 ## Past goals
 
