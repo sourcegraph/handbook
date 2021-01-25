@@ -71,6 +71,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - RFC published.
 - **Work log:**
     - 2021-01-15: No progress at this time, too busy with **Structural search for monorepos**.
+    - 2021-01-22: Lots of progress, [WIP RFC254 draft here](https://docs.google.com/document/d/1_m63fsBMAtqaq3GA_aMzKUPxD3yxTy8d12lJE6qN6PU). The thinking/design is done, but not the writing and formatting. Need one or two more days to finish this item.
 
 ### Search contexts
 - **Owner(s):** Rok
