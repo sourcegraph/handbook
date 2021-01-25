@@ -102,6 +102,7 @@ Any inquiry that is:
 
 - A person who works for a company with > $50M in revenue
 - A person who works for company with > 250 engineers
+- A person who fills out a Contact or Demo request
 
 ## Technology stack
 
@@ -127,6 +128,7 @@ Any inquiry that is:
 
 - Google Ads
 - Google Analytics
+- Google Data Studio
 - Google Optimize
 - Google Search Console
 - Google Tag Manager
