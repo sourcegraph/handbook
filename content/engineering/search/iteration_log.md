@@ -34,6 +34,12 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Defering until next iteration to fully focus on streaming.
 
+### Structural search for monorepos
+- **Owner(s):** Rijnard, Camden
+- **Outcomes:**
+    - Close out remaining issues, and make searcher querying Zoekt the default path for structural search.
+- **Work log:**
+
 ## 2021-01-11 to 2021-01-22
 
 ### Streaming search
