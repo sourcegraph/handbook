@@ -1,6 +1,6 @@
 # CE-to-Engineering issue handover process
 
-When a prospect or customer files a new support ticket or raises a new issue, CE and Engineering should follow the steps below to ensure the issue is handled successfully.
+This document outlines how and where to ask for help for customers and prospects, as well as the principles governing that process. Read [the support overview](support.md) before filing an issue.
 
 ## Principles
 
@@ -18,7 +18,22 @@ Exceptions to the principles above:
 
 Otherwise, if an engineer sees a new question or issue come in and they are interested in responding, they should just check with CE first (by posting in the #ce Slack channel).
 
-## How CE hands issues to Engineering
+## Create a customer issue
+
+We maintain two issue trackers:
+
+1. [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) for private issues that affect a particular customer.
+1. [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph/issues) for public issues affecting the general product.
+
+When in doubt, file in the private repo—issues can be moved over to the public repo if needed. 
+
+Support tickets should be translated to GitHub issues when they require an Engineering team to remediate them. If you need a gut check or a suggestion for next steps, you can check with the [appropriate team](routing_questions.md) in Slack.
+
+File new customer issues in the [private customer issue tracker](https://github.com/sourcegraph/customer/issues/new), providing all information required for troubleshooting (such as screenshots, logs, or conversation transcripts) and labelling it with `customer/$name`. Link to the appropriate Jira Service Desk ticket and link to the reporting company's profile in Salesforce. Assign the issue to the [appropriate team](routing_questions.md) in Github (you should be able to assign to the entire team—if not, check in #it-tech-ops for why that's not appearing).
+
+If it turns our to be a general issue affecting multiple deployments, create an issue in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose). The issue must not include any private information and it should link to the related customer issues in its description.
+
+## How CE hands GitHub issues to Engineering
 
 1. The assigned CE will first reply to the prospect or customer that reported the issue.
 1. If the issue is clearly a bug or a feature request (rather than a question that can be clarified or answered on the spot), [the CE will file or add on to a GitHub issue](customer_issues.md).
