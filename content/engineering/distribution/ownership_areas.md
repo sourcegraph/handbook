@@ -98,14 +98,21 @@ To see what Distribution is currently prioritizing, see the [Distribution Goals]
 
 - Metrics & alerting infrastructure
 - Educating site admins about how to monitor Sourcegraph
-- Working with and ensuring engineering at Sourcegraph adds needed monitoring
+- Supporting engineers at Sourcegraph to help them add monitoring to Sourcegraph services
+- Ensuring our monitoring tooling:
+  - is compelling for engineers at Sourcegraph to interact with and build on top of.
+  - supports use cases specific to the needs of engineers at Sourcegraph and Sourcegraph Cloud.
 
 **Related**
 
 - [Monitoring at Sourcegraph](../observability/monitoring.md)
-- [Monitoring generator (dashboards/alerts)](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator)
-- [Grafana docker image](https://docs.sourcegraph.com/dev/background-information/observability/grafana)
-- [Prometheus docker image](https://docs.sourcegraph.com/dev/background-information/observability/prometheus)
+- [Metrics and dashboards for site admins](https://docs.sourcegraph.com/admin/observability/metrics)
+- [Alerting for site admins](https://docs.sourcegraph.com/admin/observability/alerting)
+- How to [find monitoring](https://docs.sourcegraph.com/dev/how-to/find_monitoring), [add monitoring](https://docs.sourcegraph.com/dev/how-to/add_monitoring), [develop monitoring](https://docs.sourcegraph.com/dev/how-to/monitoring_local_dev).
+- Monitoring components:
+  - [Monitoring generator (dashboards/alerts)](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator)
+  - [Grafana docker image](https://docs.sourcegraph.com/dev/background-information/observability/grafana)
+  - [Prometheus docker image](https://docs.sourcegraph.com/dev/background-information/observability/prometheus)
 
 Also see [observability](#observability).
 
