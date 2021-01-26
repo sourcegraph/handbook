@@ -12,7 +12,7 @@ Your objective is to get to know the team and learn as much about Sourcegraph (t
 
 - Complete [general onboarding](../people-ops/onboarding/index.md#general-onboarding-checklist)
 - Schedule individual meetings with each person on the [operations team](../../company/team/org_chart.md#operations)
-- If your team will be working closely with another part of the company (e.g. Sales Ops with Sales, Product Ops with Product, etc.), schedule individual meetings with each person on that team as well (ask Dan if you're not sure who this is)
+- If your team will be working closely with another part of the company (e.g. if you are a member of the Business Operations team who will be supporting the Product org), schedule individual meetings with each person on that team as well (ask Dan if you're not sure who this is)
 
 ### Understand company and team goals
 

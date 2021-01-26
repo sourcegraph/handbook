@@ -155,7 +155,7 @@ While asynchronous communication is a core attribute of remote work, key moments
 ### Metrics collection
 
 - In the RFC process, the definition of success will include items which can be measured and evaluated
-- Involve the [business & product operations team](../../ops/bizops/index.md) in determining what metrics to track and how they are tracked
+- Involve the [Business Operations & Strategy team](../../ops/bizops/index.md) in determining what metrics to track and how they are tracked
 - Work with engineers to add the required eventLog tracking
 - Tools
     - Looker

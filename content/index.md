@@ -57,10 +57,11 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Sales](sales/index.md)
 
+- [Sales strategy & operations](ops/sales-ops/index.md)
+
 ### [Operations](ops/index.md)
 
-- [Business & product operations](ops/bizops/index.md)
-- [Sales strategy & operations](ops/sales-ops/index.md)
-- [Finance & accounting](ops/finance/index.md)
+- [Business Operations & Strategy](ops/bizops/index.md)
+- [Finance & Accounting](ops/finance/index.md)
 - [Legal](ops/legal/index.md)
-- [Tech operations](ops/tech-ops/index.md)
+- [Tech Ops](ops/tech-ops/index.md)
