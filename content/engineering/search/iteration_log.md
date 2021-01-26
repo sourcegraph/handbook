@@ -24,9 +24,9 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Streaming search
 - **Owner(s):** Juliana, Keegan, Stefan
     - Streaming search turned on for Sourcegraph.com.
-      - Improve user experience during streaming.
-      - Streaming support for filters and alerts.
-      - Performance/reliability testing in webapp and backend.
+       - Improve user experience during streaming.
+       - Streaming support for filters and alerts.
+       - Performance/reliability testing in webapp and backend.
 - **Work log:**
 
 ### Exhaustive Search
@@ -39,6 +39,20 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Close out remaining issues, and make searcher querying Zoekt the default path for structural search.
 - **Work log:**
+
+### Refactor search query parsing
+- **Owner(s):** Juliana
+- **Outcomes:**
+    - Search query parsing for query, pattern type, case sensitivity and version context are done in a single place instead of multiple times in differet components
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Code monitoring
+- **Owner(s):** Juliana
+- **Outcomes:**
+    - Address high priority polish issues to get Code Monitoring out to customers
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
 
 ## 2021-01-11 to 2021-01-22
 
@@ -54,6 +68,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2021-01-15: Search expression support in streaming.
     - 2021-01-15: Work towards progress streaming and zoekt streaming. Both are now unblocked for next week. We have a high level plan to tackle both next week.
     - 2021-01-22: Lots of updates. Streaming progress, streaming zoekt per replica and search backend now only uses streaming. For graphqlbackend we rely on aggregating the stream. Streaming as a whole is functional. We are now fixing obvious flaws in it before turning on the feature flag.
+    - 2021-01-25: UI polish work to address issues with streaming search progress
 
 ### Exhaustive Search
 - **Owner(s):** Keegan
