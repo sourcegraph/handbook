@@ -115,6 +115,7 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
   - Make sure to get access to "Customer Contracts" folder
 - Ask for a license to LinkedIn Sales Navigator tool in #sales channel
 - [Chorus.ai](https://chorus.ai/) - We use this to store call recordings—you can watch demos at your leisure here.
+- [Calendly](https://calendly.com/) - You can use Calendly to allow customers to schedule meetings with you during time blocks that you specify as available.
 
 ## Resources
 - Demo Recordings
