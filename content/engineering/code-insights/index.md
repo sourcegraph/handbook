@@ -32,7 +32,4 @@ The code insights team also keeps a [backlog GitHub project board](https://githu
 ## Members
 - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/product_manager.md))
 - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
-
-## We're hiring for this team!
-
-We are building the code insights team by hiring [frontend engineers](../hiring/software-engineer-code-insights-frontend.md) and [backend engineers](../hiring/software-engineer-backend.md). New team members will initially contribute work towards code insights under the umbrella of the [web team](../web/index.md) and split off into their own independent team once we have enough team members.
+-  We're hiring [frontend engineers](../hiring/software-engineer-code-insights-frontend.md) and [backend engineers](../hiring/software-engineer-backend.md) for this team!
