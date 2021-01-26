@@ -20,6 +20,7 @@ These places are the source of truth for information at Sourcegraph. Information
 - [Salesforce](https://sourcegraph2020.lightning.force.com/)
 - [JIRA Service Desk](https://sourcegraph.atlassian.net/jira/servicedesk/projects/SG)
 - [Looker](http://sourcegraph.looker.com/)
+- [Customer legal contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm)
 
 ### Scratchpads and ephemeral information (non-sources of truth)
 

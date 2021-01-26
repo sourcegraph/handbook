@@ -111,8 +111,6 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
 - [Looker](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=&Site%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D)
 - [Krisp](https://krisp.ai/)
 - [ProductBoard](https://sourcegraph.productboard.com/)
-- Request access to Sourcegraph team Dropbox folder 
-  - Make sure to get access to "Customer Contracts" folder
 - Ask for a license to LinkedIn Sales Navigator tool in #sales channel
 - [Chorus.ai](https://chorus.ai/) - We use this to store call recordings—you can watch demos at your leisure here.
 - [Calendly](https://calendly.com/) - You can use Calendly to allow customers to schedule meetings with you during time blocks that you specify as available.
