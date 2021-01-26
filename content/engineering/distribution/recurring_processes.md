@@ -1,13 +1,15 @@
 # Recurring processes
 
-- [Monthly](#monthly)
-  - [Milestone planning](#milestone-planning)
-  - [Retrospective](#retrospective)
-- [Weekly](#weekly)
-  - [Company meeting](#company-meeting)
-  - [Weekly Distribution team sync](#weekly-distribution-team-sync)
-  - [Bi-weekly async updates](#bi-weekly-async-updates)
-  - [Distribution management sync](#distribution-management-sync)
+- [Recurring processes](#recurring-processes)
+  - [Every two weeks](#every-two-weeks)
+    - [Planning](#planning)
+      - [FAQ](#faq)
+    - [Retrospective](#retrospective)
+  - [Weekly](#weekly)
+    - [Company meeting](#company-meeting)
+    - [Weekly Distribution team sync](#weekly-distribution-team-sync)
+  - [Daily updates](#daily-updates)
+    - [Slack update](#slack-update)
 
 ## Every two weeks
 
@@ -42,7 +44,7 @@ At the beginning of each cycle, [we determine what work we plan to do](#planning
 
 **Backlog grooming:** The distribution team runs a backlog grooming session every two weeks to ensure that backlog is correctly prioritized for the upcoming sprint. We use the backlogs for tracking bugs, small features, and unplanned work. We don’t use the backlog for tracking work that is expressly planned in our roadmap. To add an issue, tag it `team/distribution` to notify the distribution team.
 
-**Note on pairing:** Pairing is a great way to share knowledge about the different projects that team is working on and pays dividends down the road. Teammates are encouraged to spend time on each cycle pairing with someone on all projects that you are _not_ working on. You are also encouraged to take own fewer tasks in order to accommodate this. As a rule of thumb estimate around **2 hours** for pairing and remember that people with be pairing with you as well. 
+**Note on pairing:** Pairing is a great way to share knowledge about the different projects that team is working on and pays dividends down the road. Teammates are encouraged to spend time on each cycle pairing with someone on all projects that you are _not_ working on. You are also encouraged to take own fewer tasks in order to accommodate this. As a rule of thumb estimate around **2 hours** for pairing and remember that people with be pairing with you as well.
 
 **Note on agency and responsibility:**
 
@@ -52,6 +54,10 @@ At the beginning of each cycle, [we determine what work we plan to do](#planning
 **Note to engineering managers:**
 
 How active a role you take in planning should depend on your read of the team at the start of planning. Common pitfalls are being too passive or too dictatorial. Too passive means we aren't necessarily working on the right things. Too dictatorial means people aren't bought into what we're working on. Avoid both of these. Keep in mind that no one (including you) has a monopoly on useful knowledge and context, but also that the engineering manager exists for a reason.
+
+#### FAQ
+
+- [How do we add new work to an ongoing iteration?](faq.md#how-do-we-add-new-work-to-an-ongoing-iteration)
 
 ### Retrospective
 
@@ -78,27 +84,6 @@ The first Monday before the [20th (release day)](../releases/index.md), this mee
 The second Monday before the [20th (release day)](../releases/index.md), this meeting is used to kick-off asynchronous planning for the next release.
 
 These meetings are recorded (posted automatically to the #distributioneers Slack channel) so that anyone whose timezone does not permit can participate after the fact.
-
-### Friday GitHub update
-
-Before EOD (local time) on Fridays distribution members are expected to post an update with the following to [our monthly tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fdistribution+label%3Atracking+Distribution):
-
-- What you've worked on **this week**
-- What you plan to focus on **next week**
-- Anything that you think may not get finished in time for the release
-
-**Example:**
-
-> **This week:**
->
-> - Lots of progress on regression test suite, but did not manage to fully close the issue as I discovered some additional problem, check this \[comment\]\(link\).
-> - Fixed the Terraform apply bug described in #9330
->
-> **Next week:**
->
-> Ill fix the regression test problem in #1234 + start working on cleaning some the repeated steps from the release process in #1235.
-
-The goal of this update is to communicate to _the broader Sourcegraph team_ a summary of our plans, what progress we've made, and anything that is at risk at a high-level. This information, complemetned by the daily updates, will be used by the [engineering manager](../roles.md#engineering-manager) to send the [weekly leadership update](../leadership/index.md#weekly-updates).
 
 ## Daily updates
 
