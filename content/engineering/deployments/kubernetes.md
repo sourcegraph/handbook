@@ -35,25 +35,9 @@ Just run the appropriate `gcloud container clusters get-credentials` command lis
 
 ## Scaling Kubernetes clusters
 
-To scale the number of nodes in a cluster run the following command:
+Cluster scale should be managed via terraform. Please reference `google_container_node_pool.primary_containerd_nodes.node_count` [this line](https://github.com/sourcegraph/infrastructure/blob/main/cloud/main.tf) in cloud's terraform configuration to see where the number of nodes is configured for the cluster, and `gke_num_nodes` [in the tfvars file](https://github.com/sourcegraph/infrastructure/blob/main/cloud/terraform.tfvars) to see the current number of nodes. For more details, see the [terraform provider documentation](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_node_pool#node_count).
 
-```bash
-gcloud container clusters resize $CLUSTER_NAME --zone $ZONE --num-nodes $NUM_NODES
-```
-
-For example, you may have a cluster not being actively used but want to preserve it for later use. You can scale the cluster to zero by running:
-
-```bash
-gcloud container cluster resize dev-cluster --zone us-central0-f --num-nodes 0
-```
-
-When the cluster is ready for use again, simply run the same command with the number of nodes required:
-
-```bash
-gcloud container cluster resize dev-cluster --zone us-central0-f --num-nodes 3
-```
-
-For more informatino see the [GKE documentation](https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster).
+Any changes to the cluster scale made via kubectl will eventually be overwritten by the values set in terraform.
 
 ## Kubernetes backups
 
