@@ -39,6 +39,15 @@ Make sure to set up Slack to only send you notifications when you want to see th
 
 We have many Slack channels. You don't have to join them all, but here is a good breakdown of the most active ones by category.
 
+### Channel naming convention
+
+Our goal is to facilitate open and transparent communication both within teams as well as between teams. Since these are two different audiences, we recommend that each team maintains two separate channels in Slack following these naming conventions:
+
+1. `${TEAMNAME}-chat` is the default channel for discussing work that the team is doing and fielding questions from outside of the team. If you have a question to ask another team, ask it in their `-chat` channel.
+1. `{$TEAMNAME}-team` is a secondary channel that the team can use to communicate about topics that are not related to the work of the team and clearly only relevant to members of the team itself (for example: social chit chat, notifying team you will be late to a team meeting, scheduling a team meeting or offsite). This channel is *not* for having internal team discussions about work the team is doing; those discussions are potentially relevant to people outside of the team and should be done in `-chat`. The team should treat this as their own channel, even if non-teammates have joined. We encourage teams to keep this channel public for transparency.
+
+If teams require additional channels they should follow the convention of prefixing the channel name with their team name. For example: `web-onboarding`
+
 ### General
 
 - #general - Anything about Sourcegraph in general (that doesn't fit a more specific channel below).

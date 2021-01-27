@@ -70,6 +70,10 @@ Our engineering organization is divided into mission based teams that contain th
 
 Start a discussion with your manager if you are interested to switch teams. Your manager will chat with you to understand what you want and then propose next steps. Team transfers need to be approved by the [VP of Engineering](roles.md#vp-engineering).
 
+### Communication
+
+For a list of engineering relevant Slack channels to join see the [team chat](../communication/team_chat.md#engineering) page in the handbook.
+
 ## Open positions
 
 [Open positions](hiring/index.md#open-positions)
