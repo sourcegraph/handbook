@@ -72,6 +72,14 @@ Examples:
 - Tests that call our search API to test the behavior of our entire search system.
 - Tests that validate UI behavior in the browser while mocking out all network requests so no backend is required.
 
+#### Running integration tests
+
+Integration tests are run everytime a branch is merged into main, but it is possible to run them manually:
+
+- Create a branch with the `master-dry-run/` prefix, example: `master-dry-run/my-feature`
+- Push it on Github
+- Look for that branch on [Buildkite](https://buildkite.com/sourcegraph/sourcegraph)
+
 ### End-to-end tests (e2e)
 
 E2e tests test our entire product from the perspective of a user. We try to use them sparingly. Instead, we prefer to get as much confidence as possible from our [unit tests](#unit-tests) and [integration tests](#integration-tests).
