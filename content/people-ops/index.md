@@ -22,7 +22,7 @@
 - [Hiring](hiring/index.md)
 - [Before starting](onboarding/before_starting.md)
 - [Onboarding](onboarding/index.md)
-- [Performance review cycles](review-cycles.md)
+- [Performance review cycles](review-cycles/index.md)
 - [United States visa sponsorship](visa-sponsorship.md)
 - [Employment verification](employment_verification.md)
 - [Leaving](leaving.md)

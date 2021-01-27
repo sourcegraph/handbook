@@ -1,12 +1,15 @@
 # Review cycles
 
+* [How to get the most out of review cycles](tips.md)
+* [Resources and guides for reviewers](resources.md)
+
 ## Why we do review cycles
 
 The goal of these review cycles is to ensure that we’re providing every teammate the resources they need to continue to grow during their time at Sourcegraph, and review cycles offer a unique opportunity to give and receive valuable feedback from managers, direct reports, and peers. By having semiannual 360 reviews, we aim to give everyone the feedback necessary to help them progress in their career and meet their professional goals.
 
 ## Review cycle overview
 
-We use [Lattice](https://lattice.com/) to conduct our 360 review cycles. It may prompt you to enter your goals. You are welcome to use this feature, but this should only be used for personal professional goals (as opposed to team or business goals, which are tracked in [our goals](../../company/goals/index.md)). You and your manager should discuss what works best to track your individual goals.
+We use [Lattice](https://lattice.com/) to conduct our 360 review cycles. It may prompt you to enter your goals. You are welcome to use this feature, but this should only be used for personal professional goals (as opposed to team or business goals, which are tracked in [our goals](../../../company/goals/index.md)). You and your manager should discuss what works best to track your individual goals.
 
 The 360 review process entails writing your own self review along with giving feedback to your manager, and some of the peers you’ve worked closest with. You will also receive feedback from your manager, as well as a few peers that you've selected to receive feedback from.
 

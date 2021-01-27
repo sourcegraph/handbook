@@ -24,7 +24,7 @@ We value and support teammates at all stages of life, and provide 10 weeks of pa
 
 ## 📚 Professional development
 
-In addition to on-the-job training, we offer a $1,000 yearly stipend for education (e.g., classes, books, conferences, etc.).
+In addition to on-the-job training, we offer a $1,000 yearly stipend for education (e.g., classes, books, conferences, etc.). We also hold detailed, twice annual 360 degree [review and feedback cycles](review-cycles/index.md) for the entire team.
 
 ## ✈️ Travel
 

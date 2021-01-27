@@ -8,7 +8,7 @@
 - **[Lever](https://www.lever.co/):** Access our recruiting tool for tracking candidates in the hiring pipeline.
 - **[Slack](https://slack.com/)**: Access our team communication tool.
 - **[GitHub](https://github.com/sourcegraph/)**: Access our code and our handbook.
-- **[Lattice](https://sourcegraph.latticehq.com/)**: Access our [teammate feedback cycles](../review-cycles.md) (takes place every quarter– Noemi will send out details).
+- **[Lattice](https://sourcegraph.latticehq.com/)**: Access our [teammate feedback cycles](../review-cycles/index.md) (takes place every quarter– Noemi will send out details).
 - **[1Password](https://1password.com/)**: Access shared team passwords and store your own passwords.
 - **[Zoom](https://zoom.us/signin):** Set up your Zoom account and [recommended settings](../../communication.md#video-calls). 
 - **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your device in our MDM (ask Noemi for your access code).

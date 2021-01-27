@@ -36,7 +36,7 @@ See [Benefits and perks](benefits-and-perks.md).
 
 ## Compensation increases
 
-Everyone's compensation is reviewed regularly as part of our [review cycle](https://about.sourcegraph.com/handbook/people-ops/review-cycles) process.
+Everyone's compensation is reviewed regularly as part of our [review cycle](https://about.sourcegraph.com/handbook/people-ops/review-cycles/index.md) process.
 
 ## Ranges
 
