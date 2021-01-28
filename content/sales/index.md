@@ -7,6 +7,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Common questions from prospective customers](common_customer_questions.md)
 - [Sales team onboarding](onboarding/index.md)
 - [SDR Team](sdrteam.md)
+- [Sales strategy & ops team](sales-ops/index.md)
 - [Sales interview process](interviews/index.md)
 - [Recording lead and customer emails, calls, and notes](records.md)
 - [Using Salesforce](salesforce.md)

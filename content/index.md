@@ -57,7 +57,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Sales](sales/index.md)
 
-- [Sales strategy & operations](ops/sales-ops/index.md)
+- [Sales strategy & operations](sales/sales-ops/index.md)
 
 ### [Operations](ops/index.md)
 

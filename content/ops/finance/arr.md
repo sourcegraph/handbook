@@ -21,7 +21,7 @@ Finance should also update the [server to company details](https://docs.google.c
 
 - Halfway and at the end of each month, finance will calculate [expansion IARR and MAU bookings](https://docs.google.com/spreadsheets/d/1tRcz3bNOho1TyWvrYSv37RIYcQs7I0i05-5eKwLq8TI/edit#gid=0). Finance will post a message in the #sales channel listing each individual booking, with the AE and CE who own the account tagged on each line. Each AE with a booking must confirm in writing that the expansion is approved and can be booked.
 - These expansion and MAU bookings are added to the ARR tracker spreadsheet and should be dated as of the beginning of the month being closed (e.g., when closing September 2020, the booking will be dated 9/1/2020, the beginning of the month in which the expansion occurred).
-- All final expansion and MAU bookings should be copy-pasted out of the ARR tracker spreadsheet and sent to the [Sales Ops](../sales-ops/index.md) team so they can be added to Salesforce.
+- All final expansion and MAU bookings should be copy-pasted out of the ARR tracker spreadsheet and sent to the [Sales Ops](../../sales/sales-ops/index.md) team so they can be added to Salesforce.
 
 ### Final internal reports
 

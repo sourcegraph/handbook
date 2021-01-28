@@ -25,8 +25,6 @@ Your objective is to get to know the team and learn as much about Sourcegraph (t
 
 ### Complete your team-specific week 1 onboarding
 
-- [Sales Ops week 1 onboarding](./sales-ops/onboarding.md)
-
 If you don't see your team listed above, reach out to your manager to get direction.
 
 ## Week 2-3 - initial projects
