@@ -18,9 +18,9 @@ Here are a few of the things we strive to make true:
 
 ## Working with design / requesting design work
 
-Working with design should feel fluid, you should be able to open an issue or bring up a concern in slack, and receive actionable feedback: either implementable, or a call to explore further.
+Working with design should feel fluid, you should be able to open an issue or bring up a concern in Slack, and receive actionable feedback: either implementable, or a call to explore further.
 
-You should also not feel limited to words, images (sketches, or references made by editing the broswer DOM) are also encouraged. 
+You should also not feel limited to words, images (sketches, or references made by editing the browser DOM) are also encouraged. 
 
 ### Tracking design priorities
 
