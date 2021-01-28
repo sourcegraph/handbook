@@ -97,4 +97,4 @@ Security develops infrastructure in the [Auxilliary project](https://console.clo
 
 ## Open Positions
 
-[Software Engineer - Security](../../engineering/hiring/software-engineer-security.md)
+[Software Engineer - Security](https://jobs.lever.co/sourcegraph/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)

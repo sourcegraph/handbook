@@ -97,7 +97,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](../../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../product/roles/product_manager.md))
+- [María Craig](../../../company/team/index.md#maría-craig-she-her) Product Manager
 - [Owen Convey](../../../company/team/index.md#owen-convey-he-him) ([Engineering Manager](../roles.md#engineering-manager))
   - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
   - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
@@ -139,6 +139,6 @@ _Updated 2020-11-18_
 
 We are looking to grow this team a lot to increase our ability to provide precise code intelligence for many languages at massive scale.
 
-If you are interested in scaling our backend systems, please apply to [Software Engineer - Backend](../hiring/software-engineer-backend.md).
+If you are interested in scaling our backend systems, please apply to [Software Engineer - Backend](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322).
 
 If you are interested to help us expand our language support (for example: building LSIF indexers for languages including, but not limited to, Clang, Java), email nick@sourcegraph.com with how you think you can help.

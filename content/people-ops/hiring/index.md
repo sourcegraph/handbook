@@ -43,15 +43,15 @@ We cross-post our open positions to the following locations:
 - [RemoteWoman](https://remotewoman.com/)
 - [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Nick owns this list and payments are made with Nick's Brex. Tech Ladies checks our open positions every month to see if there are updates, but we can request an update anytime by emailing jobpostings@hiretechladies.com. Here are the 10 roles that we post:
   1. [Director of Engineering - Platform and Infrastructure](https://jobs.lever.co/sourcegraph/8fcbaade-e511-4d93-bd9b-9cc7ec3438af)
-  1. [Engineering Manager - Cloud Application and Core Services](../../engineering/hiring/engineering-manager-cloud.md)
-  1. [Software Engineer - Cloud - Frontend](../../engineering/hiring/software-engineer-cloud-frontend.md)
-  1. [Software Engineer - Backend](../../engineering/hiring/software-engineer-backend.md)
-  1. [Software Engineer - Distribution](../../engineering/hiring/software-engineer-distribution.md)
-  1. [Software Engineer - Security](../../engineering/hiring/software-engineer-security.md)
-  1. [Director of Community](../../marketing/roles/director_of_community.md)
-  1. [Account Executive](../../sales/roles/account_executive.md)
-  1. [Product Manager](../../product/roles/product_manager.md)
-  1. [Product Designer](../../product/roles/product_designer.md)
+  1. [Engineering Manager - Cloud Application and Core Services](https://jobs.lever.co/sourcegraph/95ad534f-8724-45dc-9b50-291c5926a7dc)
+  1. [Software Engineer - Cloud - Frontend](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7)
+  1. [Software Engineer - Backend](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
+  1. [Software Engineer - Distribution](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
+  1. [Software Engineer - Security](https://jobs.lever.co/sourcegraph/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)
+  1. [Director of Community](https://jobs.lever.co/sourcegraph/480e8d71-03af-4659-ac90-b8e32ad4ef34)
+  1. [Account Executive](https://jobs.lever.co/sourcegraph/35aff80b-be4f-4887-a465-3e91e1ca3d2b)
+  1. [Product Manager](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)
+  1. [Product Designer](https://jobs.lever.co/sourcegraph/fa7d3807-ae4c-4a35-9401-56dad0958227)
 
 We welcome suggestions for more places that we can post!
 

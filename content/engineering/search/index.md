@@ -52,7 +52,7 @@ Iterations start **every other Monday**.
 
 ## Members
 
-- We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+- We're hiring a [Product Manager](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
   - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
   - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
@@ -72,7 +72,7 @@ _Updated 2020-11-18_
 
 We are looking to hire:
 
-- A [backend software engineer](../hiring/software-engineer-backend.md)
+- A [backend software engineer](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
 
 Loïc will be at management capacity when we reach 7-8 engineers on the team, but we will still need to grow further to deliver on our goals for search. Our next step will be to split the team in half. Both of these teams will be cross-functional, with frontend + backend skills, and will have design needs. Before we split these teams, we will need to hire an EM and a PM.
 

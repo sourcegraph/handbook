@@ -100,8 +100,8 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 
 ## Members
 - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) acting Product Manager and Product Designer
-- [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) ([Product Manager](../../product/roles/product_manager.md)) (onboarding)
-- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager))
+- [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) Product Manager (onboarding)
+- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) Engineering Manager
   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
   - [Erik Seliger](../../../company/team/index.md#erik-seliger)
@@ -119,4 +119,4 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 
 _Updated 2020-12-09_
 
-We are looking for a [full-stack or frontend engineer](../hiring/software-engineer-campaigns-full-stack-frontend.md) to join our team!
+We are looking for a [full-stack or frontend engineer](https://jobs.lever.co/sourcegraph/886e4343-6efc-4ab1-b204-f9115cfdeae3) to join our team!

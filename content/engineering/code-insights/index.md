@@ -30,6 +30,6 @@ For more information about code insights, see the original [product document](ht
 The code insights team also keeps a [backlog GitHub project board](https://github.com/orgs/sourcegraph/projects/118). We use the backlog for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](goals.md#roadmap).
 
 ## Members
-- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/product_manager.md))
+- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) Product Manager
 - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
--  We're hiring [frontend engineers](../hiring/software-engineer-code-insights-frontend.md) and [backend engineers](../hiring/software-engineer-backend.md) for this team!
+-  We're hiring [frontend engineers](https://jobs.lever.co/sourcegraph/73fda68b-c821-4627-af07-41a0850072fb) and [backend engineers](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322) for this team!

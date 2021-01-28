@@ -128,7 +128,6 @@ By default, members of the team will provide a brief update about the goals they
 
 _Updated 2020-12-07_
 
-We are looking to grow this team to 8 engineers by hiring an additional [Frontend Engineer](../hiring/software-engineer-frontend.md).
+We are looking to grow this team to 8 engineers by hiring an additional [Frontend Engineer](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7).
 
-[Tomás will be transitioning back to an IC role](https://docs.google.com/document/d/1vsX7Xq8GZ1P9lK8JfJHq0-E8_Dl4awCLpu0g1BZMR2o/edit), as soon as we identify a [new manager for this team](../hiring/engineering-manager-cloud.md).
-
+[Tomás will be transitioning back to an IC role](https://docs.google.com/document/d/1vsX7Xq8GZ1P9lK8JfJHq0-E8_Dl4awCLpu0g1BZMR2o/edit), as soon as we identify a [new manager for this team](https://jobs.lever.co/sourcegraph/95ad534f-8724-45dc-9b50-291c5926a7dc).

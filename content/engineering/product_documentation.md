@@ -10,7 +10,7 @@ The developer who made the code change is also [responsible](../../handbook/engi
 
 For documentation changes that introduce new HTML/CSS/JS patterns to the docs site, the author should tag `@frontend-devs` as an additional reviewer on the pull request.
 
-It's the [responsibility of the Product Manager](../../handbook/product/roles/product_manager.md) to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
+It's the [responsibility of the Product Manager](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296) to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
 
 We use the [monthly release blog post](https://about.sourcegraph.com/blog) as a changelog checklist to ensure everything is documented.
 
