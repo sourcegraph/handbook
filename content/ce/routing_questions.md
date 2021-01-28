@@ -26,9 +26,11 @@ If asking the Distribution team in their Slack channel, ping the [on-call dev](.
 
 ## Monitoring, management, and performance optimization
 
-**Keywords**: `scaling`, `resources`, `performance`/`perf`, `monitoring`, `Grafana`, `Prometheus`
+**Keywords**: `scaling`, `resources`, `performance`/`perf`, `monitoring`, `Grafana`, `Prometheus`, `alert`, `dashboard`
 
-Any questions about monitoring and performance should be routed to the [Distribution team](../engineering/distribution/index.md).
+Questions about specific alerts and graph panels should be routed to the team that owns the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
+
+Any other questions about monitoring and performance should be routed to the [Distribution team](../engineering/distribution/index.md).
 
 If asking the Distribution team in their Slack channel, ping the [on-call dev]../engineering/distribution/index.md#support-rotation).
 
