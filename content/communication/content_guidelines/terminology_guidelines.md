@@ -66,6 +66,7 @@ Only use _we_ and _our_ (as in “our GitHub integration”) in informal documen
 |Big code   |   | both capitalized  |
 |**C**  |   |   |
 |call site  | callsite  |Per Quinn   |
+|codebase   | code base  |Most commonly spelled as a single word. |
 |code host   | codehost  |Per Quinn   |
 |code host connection   | external service  |Aligning terminology for clarity. Internally, we differentiate different ownership through the terms "user code host connections, "organization code host connections," and "instance code host connections."   |
 |configuration   | config       | "config" is OK in paths and navigation links|
