@@ -29,6 +29,7 @@ See [security goals and priorities](goals.md)
 - Increase our security posture by running traditional security tools such as vulnerability scanners, SAST, and DAST tools.
   - https://github.com/sourcegraph/sourcegraph/security/code-scanning
   - [Infrastructure information](./infrastructure/index.md)
+  - [Security tooling](./tooling/index.md)
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
 
 ## How we work
