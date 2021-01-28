@@ -72,7 +72,7 @@ Creating a new managed instance involves following the steps below.
 			}
 		],
 	```
-
+1. Add an entry for the customer by adding their HubSpot link to the checklist in the [managed instances upgrade issue template](../../releases/upgrade_managed_issue_template.md).
 1. Contact #ce and ask that they generate / provide the relevant license key for the customer's instance, then set it in the site config.
 
 ## Giving the customer access

@@ -9,9 +9,9 @@ Arguments:
 - $ONE_WORKING_DAY_AFTER_RELEASE
 -->
 
-# $MAJOR.$MINOR.$MINOR managed instances upgrade
+# $MAJOR.$MINOR.$PATCH managed instances upgrade
 
-These [managaged instances](https://about.sourcegraph.com/handbook/engineering/distribution/managed) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
+These [managed instances](https://about.sourcegraph.com/handbook/engineering/distribution/managed) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
 To perform these upgrades, follow the [managed instances upgrade process](https://about.sourcegraph.com/handbook/engineering/distribution/managed/upgrade_process).
 
