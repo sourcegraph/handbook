@@ -54,7 +54,7 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Laptop (all other teams):**
 
-- 13" MacBook Pro, 2.3 GHz (4.1 GHz turbo) 4-core (upgrade), 16 GB, 512 GB SSD. If you need to update any specs, please reach out to @sourcegraph/people-ops for approval.
+- 13" MacBook Pro, 2.0 GHz (3.8 GHz turbo) Intel Core i5 processor, 16 GB, 512 GB SSD. If you need to update any specs, please reach out to @sourcegraph/people-ops for approval. 
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 **Other computer:**
