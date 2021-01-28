@@ -67,6 +67,10 @@ While design does adds time at the beginning of a project, it improves velocity 
 
 Our design process is documented here: **[Design process](design_process.md)**
 
+## Design and interaction guidelines
+
+The process of designing for the Sourcegraph application has some special considerations. To help maintain consistency and reduce subjectivity we are documenting these items in our [design and interaction guidelines](./design-and-interaction-guidelines.md).
+
 ## Design Principles
 
 Rules that help us make decisions in crucial moments of the design process.
