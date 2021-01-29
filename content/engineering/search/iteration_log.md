@@ -46,14 +46,14 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Search query parsing for query, pattern type, case sensitivity and version context are done in a single place instead of multiple times in differet components
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-01-28: Refactoring has been completed
 
 ### Code monitoring
 - **Owner(s):** Juliana
 - **Outcomes:**
     - Address high priority polish issues to get Code Monitoring out to customers
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-01-29: All high priority issues and some medium priority issues have been addressed ([tracking issue](https://github.com/sourcegraph/sourcegraph/issues/17414))
 
 ## 2021-01-11 to 2021-01-22
 
