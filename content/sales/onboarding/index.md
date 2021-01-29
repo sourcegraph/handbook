@@ -4,9 +4,15 @@ Welcome to Sourcegraph! As a member of the sales team, you represent us and our 
 
 See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFPCBtcyWQSJtorUz20zI5LJGMTpdmmTomE9ndEM/edit).
 
-## Week 1
+## Getting started
 
-- Get familiar with the internal tools we use
+- Get familiar with the internal tools we use, if you don't have access you can request access on Slack #it-tech-ops
+  - Salesforce
+  - LinkedIn Sales Naviagtor
+  - Chorus
+  - Docusign
+  - Sendoso
+  - Outreach (Optional)
 - [Join all customer calls](joining_customer_calls.md) during this period that you can
 - Checkpoints
   - Pass a [quiz](quiz.md)
@@ -16,81 +22,52 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
      - Engineering and DevOps Managers
      - Dev Infrastructure Head and VP Engineering
 
-### Day 1
-
-[Recording on 2019-11-01](https://zoom.us/recording/play/m6olRsgG3vWpZ6ZJYg1FJr1RKeAPoUnsE4lvelSrs64_N-7AZ1QTSJ0eb8WXXSXk)
+### Handbook pages and links to check out
 
 - [People Ops](../../people-ops/index.md)
   - [General onboarding steps](../../people-ops/onboarding/index.md#general-onboarding-checklist)
   - [Sourcegraph handbook](../../index.md) intro
-  - GitHub account setup and tutorial
-  - HubSpot account setup
-    - Ensure emails are logged in HubSpot
 - [CEO](../../ceo/index.md)
-  - Vision
   - [Values](../../../company/values.md)
-  - Company pitch
   - [Goals](../../../company/goals/index.md)
-  - Last board deck
 - [Product](../../product/index.md)
   - [Personas](../../marketing/personas.md)
   - [Products](https://about.sourcegraph.com/product)
-  - Demo of key user flows
 - Read/watch
   - Entire [about.sourcegraph.com](https://about.sourcegraph.com) site
   - Sourcegraph [glossary](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/docs/glossary.md)
-  - [Videos of campaigns](https://about.sourcegraph.com/product/code-change-management), currently in private beta
+  - [Videos of campaigns](https://about.sourcegraph.com/product/code-change-management)
   - Case studies: [Yelp](https://engineeringblog.yelp.com/2019/11/winning-the-hackathon-with-sourcegraph.html), [Quantcast](https://about.sourcegraph.com/case-studies/quantcast/) and [Thorn](https://about.sourcegraph.com/case-studies/we-are-thorn/)
   - Latest Sourcegraph release blog post (on our [blog](https://about.sourcegraph.com/blog))
-
-### Day 2
-
-[Recording of support/customer success on 2019-11-04](https://zoom.us/recording/play/bqS56zE1aP2A6t7reCnIG1KwsreU7wsmf0gqvZ8gOcug6HlYLpeO8uoknAMnNqX8?continueMode=true)
-
-[Recording of marketing and sales on 2019-11-04](https://zoom.us/recording/share/rGJPF_xL7GvD5Sp8dMK4JM__SQQ2koOIhPfvtNcqO8iwIumekTziMw)
-
 - [Customer Engineering](../../ce/index.md) ([Support](../../ce/support.md) + Customer Success)
-  - Prepare you to handle incoming support requests for a 2-week rotation
-  - Looker dashboard overview
 - [Marketing](../../marketing/index.md)
-  - Customer journey (how prospects become sales-ready)
-     - Request a demo form
-     - Set up Sourcegraph instance
-     - Sourcegraph.com
 - [Sales](index.md)
-  - HubSpot overview
-  - Current customers and pipeline/goals overview
-     - [Q4 model](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=665660264)
-     - [Past quarterly IARR](https://docs.google.com/presentation/d/1I2nhK_2uz0o8jiBqajzdTPHcy9Hnl9n1LROo1ZlJW-Q/edit#slide=id.g41cb4d21db_0_0)
-  - Value props and pitches for various [personas](../../marketing/personas.md)
-  - FAQ and common objections
-
-### Day 3
-
-[Recording on 2019-11-05](https://zoom.us/recording/share/sDmmVSjAPAZzJP95_T6wBqtWlE7idELyZhkURe2hMvSwIumekTziMw)
-
 - [Distribution team](../../engineering/distribution/index.md)
-  - How to get the distribution team's help for a customer issue or question
-  - Set up a new Sourcegraph instance together on your machine, add repositories from your GitHub/GitLab account (your = the AE who is onboarding)
+- Check the Sales team onboarding [quiz](quiz.md)
 
+## Key targets for onboarding reps
 
-## Week 2
+### First 30 days
+ - Pass the Demo certification
+ - Pass the Pitch certification
+ - Finalize your Target Account list with your manager
+ - Establish an Outbound Propsecting Plan for 5 Target Accounts
+ 
+ ### 30-60 Days
+  - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+  - Added 3 Qualified Opportunities to your pipeline in Salesforce
+  - Build a Strategic Account Plan for top Target Account
+  
+ ### 60-90 Days
+  - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+  - Add 3 additional Qualified Opportunities to your pipeline in Salesforce
+  - Advance 2 opportunities into Technical and Business Validation
+  
+ ### 90-180 Days
+  - Complete 20 ew Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+  - $187k of Closed/Won IARR
 
-- Sourcegraph pitch
-  - Schedule time with various team members (a Distribution Engineer, someone in Marketing, and Quinn) to hear their pitch.
-- Mock calls
-  - Schedule internal mock calls to practice discovery questiions and use cases
-- Checkpoint
-  - Complete a 5-minute live product demo
-
-## Week 3
-
-- Checkpoint
-  - Conduct a 30-minute intro call (pitch, discovery, product walkthrough)
-  - Answer all [common customer questions](../common_customer_questions.md) in a live quiz (note: this doc will have all of the questions answered prior to anyone needing to do this quiz)
-
-
-## Helpful links
+## Other helpful links
 
 - [GitLab sales training](https://about.gitlab.com/handbook/sales/training/)
   - [Additional resources](https://about.gitlab.com/handbook/sales/training/additional-resources/)
