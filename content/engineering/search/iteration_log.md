@@ -20,6 +20,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - [Issues](https://docs.google.com/document/d/1SU6AdJPa1vzQVUKc2Otj608GztsNARF1v4pnA-fTKzU/edit?usp=sharing) regarding search context namespacing are resolved.
     - The API supports search queries with a provided search context (`global` and `@username`).
 - **Work log:**
+    - 2021-01-29: Added support for retrieving user-added repositories. Opened PRs implementing search with a search context and listing search contexts.
 
 ### Streaming search
 - **Owner(s):** Juliana, Keegan, Stefan
