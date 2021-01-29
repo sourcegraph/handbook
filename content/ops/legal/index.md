@@ -4,7 +4,7 @@ The legal team is responsible for helping every team at Sourcegraph to be respon
 
 ## Team
 
-We are hiring for the legal team! See all [open positions](../roles/index.md).
+We are hiring for the legal team! See all [open positions](../../../../company/careers.md).
 
 Until the team grows, [Dan](../../../../company/team/index.md#dan-adler-he-him) and our [outside counsel](#outside-counsel) will provide legal support.
 
@@ -14,7 +14,7 @@ Until the team grows, [Dan](../../../../company/team/index.md#dan-adler-he-him) 
 
 ### Roles
 
-See the [Operations roles](../roles/index.md) page.
+See our [careers page](../../../../company/careers.md) for open roles on the Legal team.
 
 ## Goals
 

@@ -8,7 +8,7 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 ## Team
 
-We are hiring for the finance & accounting team! See all [open positions](../roles/index.md).
+We are hiring for the finance & accounting team! See all [open positions](../../../../company/careers.md).
 
 Until the team grows, the [BizOps team](../bizops/index.md) will provide financial support.
 
@@ -17,7 +17,9 @@ Until the team grows, the [BizOps team](../bizops/index.md) will provide financi
 - [Dan Adler](../../../../company/team/index.md#dan-adler-he-him), VP Operations
 - [Tommy O Donnell](https://about.sourcegraph.com/company/team#tommy-o-donnell-he-him), Manager, Financial Planning & Analysis
 
-See the [Operations roles](../roles/index.md) page.
+### Roles
+
+See our [careers page](../../../../company/careers.md) for open roles on the Finance team.
 
 ## Contact
 

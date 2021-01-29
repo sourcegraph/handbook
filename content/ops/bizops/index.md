@@ -12,7 +12,7 @@ The Business Operations & Strategy (BizOps) team is responsible for [translating
 
 ## Roles
 
-See the [Operations roles](../roles/index.md) page.
+See our [careers page](../../../../company/careers.md) for open roles on the BizOps team.
 
 ## Goals
 

@@ -13,7 +13,7 @@ The operations team is responsible for ensuring that Sourcegraph always runs int
 
 [**Full list of operations teams and members**](../../company/team/org_chart.md#operations)
 
-The operations team represents multiple functional areas, and empowers every other part of the business. We are hiring across a number of these teams! See all open [people ops roles](../people-ops/roles/index.md) and other [operations roles](roles/index.md).
+The operations team represents multiple functional areas, and empowers every other part of the business. We are hiring across a number of these teams! See all open roles on our [careers page](../../company/careers.md).
 
 - [People Ops](../people-ops/index.md)
 - [Business Operations & Strategy](bizops/index.md)
@@ -23,7 +23,7 @@ The operations team represents multiple functional areas, and empowers every oth
 
 ### Roles
 
-See the [operations roles](roles/index.md) page.
+See our [careers page](../../company/careers.md) for open roles on the operations team.
 
 ## Goals
 
