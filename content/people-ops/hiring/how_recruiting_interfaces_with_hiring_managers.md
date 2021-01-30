@@ -65,8 +65,8 @@ The People Ops team’s goal is to maintain the following capacity ratios for fu
 | Step | Owner | Notes |
 | :--| :-- | :-- |
 |Scheduling initial call|Recruiter if recruiter screen was completed, or if recruiter did initial outreach. <br><br>Hiring manager if recruiter screen is not needed, or hiring manager did initial outreach.|
-|Scheduling assignments, and further interviews, and debriefs|Hiring manager tags recruiting coordinator to schedule.|
-|Scheduling interview rounds (debrief is scheduled along with final round of interviews)|Hiring manager tags recruiting coordinator to schedule.|
+|Scheduling assignments, and further interviews, and debriefs|Hiring manager @mentions recruiting coordinator in ATS to schedule.|
+|Scheduling interview rounds (debrief is scheduled along with final round of interviews)|Hiring manager @mentions in ATS recruiting coordinator to schedule.|
 
 ### Sourcing candidates
 
