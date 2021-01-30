@@ -17,12 +17,13 @@ If you joined Sourcegraph within the last month, many of the questions in the re
 
 Review cycles take place in February and August. They begin the first week of each of those months, and last for two weeks.
 
-## 360 review cycle stages
+## 360 review cycle stages 
+(All days exclude weekends)
 
-### Peer selection (1 day)
+### Peer selection (2 days)
 
-**Managers:** You will be selecting peer reviewers for each of your direct reports via a spreadsheet that People Ops will create. (This is to ensure that all reviewers have a managable review load). \
-**People Ops:** Once all selections have been confirmed, People Ops will enter all peer selections in [Lattice](https://sourcegraph.latticehq.com/) and kick start the review cycle.
+**Managers:** (Day 1) You will be selecting peer reviewers for each of your direct reports via a spreadsheet that People Ops will create. (This is to ensure that all reviewers have a managable review load).
+**People Ops:** (Day 2) Once all selections have been confirmed, People Ops will enter all peer selections in [Lattice](https://sourcegraph.latticehq.com/) and kick start the review cycle.
 
 ### 360 feedback (4 days)
 
@@ -42,22 +43,22 @@ Once the reviews are complete for each of your direct reports, you’ll be able 
 
 **Self review**
 
-- What have you accomplished at Sourcegraph since your last self review? What are you most proud of?
+- What have you accomplished at Sourcegraph since your last self review? If this is your first review cycle, what have you accomplished since your first day? What are you most proud of?
 - What are your biggest opportunities for personal development and growth moving forward? What are you going to do to make progress on those dimensions? How can your manager or other team members help?
 
 **Direct report review of manager**
 
-- What has your manager done in the past 6 months that has made you feel valued and supported?
+- What has your manager done that has made you feel valued and supported?
 - What could your manager do differently to better support you and/or the team?
 - Is there anything that you would like to mention directly to this person’s manager? (optional)
 
 **Peer review**
 
 - What are this person’s strengths?
-- Overall, what could most help this person grow in their career?
+- Overall, what could most help this person grow in their role or career?
 - Is there anything that you would like to mention directly to this person’s manager? (optional)
 
 **Manager review of direct report**
 
-- Describe this person’s impact at Sourcegraph and since the last review cycle and how that impact compares to your expectations.
+- Describe this person’s impact at Sourcegraph and since the last review cycle or since their first day if this is their first cycle and how that impact compares to your expectations.
 - What are this person’s biggest opportunities for personal development and growth moving forward?
