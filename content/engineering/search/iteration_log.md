@@ -29,6 +29,8 @@ This document contains the goals and work log for the search team's [2-week iter
        - Streaming support for filters and alerts.
        - Performance/reliability testing in webapp and backend.
 - **Work log:**
+    - 2021-01-29: Perf/reliability improvements (avoid batching of results, lots of PRs); UX improvements (count proposals, progress info) and initial work on factoring out search from graphqlbackend.
+    - 2021-02-01: Backend plan for the week is responding to feedback from Sourcegraph org dogfooding. When not doing that, improving streaming design in preparation for Exhaustive Search work.
 
 ### Exhaustive Search
 - **Owner(s):** Keegan
