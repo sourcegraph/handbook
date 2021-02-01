@@ -40,6 +40,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Close out remaining issues, and make searcher querying Zoekt the default path for structural search.
 - **Work log:**
+    - 2021-01-28: Benchmarked the new path and made it the default after looking at the results. There are a couple of minor concerns we can improve, and possibly explore structural search support for unindexed repositories. Other than that, we have a head start on [RFC 254](https://docs.google.com/document/d/1_m63fsBMAtqaq3GA_aMzKUPxD3yxTy8d12lJE6qN6PU/edit#) which was published early this week.
 
 ### Refactor search query parsing
 - **Owner(s):** Juliana
