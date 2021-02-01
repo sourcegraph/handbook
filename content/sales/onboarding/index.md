@@ -32,6 +32,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - [Videos of campaigns](https://about.sourcegraph.com/product/code-change-management)
   - Case studies: [Yelp](https://engineeringblog.yelp.com/2019/11/winning-the-hackathon-with-sourcegraph.html), [Quantcast](https://about.sourcegraph.com/case-studies/quantcast/) and [Thorn](https://about.sourcegraph.com/case-studies/we-are-thorn/)
   - Latest Sourcegraph release blog post (on our [blog](https://about.sourcegraph.com/blog))
+  - The [Marketing Overview on Demand Gen](https://docs.google.com/presentation/d/1LW2C5wgLugdiFl_nyKCxybmJ7aLb0xEeCRzdY5b4-zA/edit#slide=id.gb52e2cae45_0_18)
 - [Customer Engineering](../../ce/index.md) ([Support](../../ce/support.md) + Customer Success)
 - [Marketing](../../marketing/index.md)
 - [Sales](index.md)
