@@ -14,13 +14,6 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - Sendoso
   - Outreach (Optional)
 - [Join all customer calls](joining_customer_calls.md) during this period that you can
-- Checkpoints
-  - Pass a [quiz](quiz.md)
-  - Deliver compelling 30-second pitches for the following [personas](../../marketing/personas.md):
-     - Infrastructure/Platform Engineer
-     - Site Reliability Engineer (SRE)
-     - Engineering and DevOps Managers
-     - Dev Infrastructure Head and VP Engineering
 
 ### Handbook pages and links to check out
 
@@ -53,17 +46,17 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
  - Finalize your Target Account list with your manager
  - Establish an Outbound Propsecting Plan for 5 Target Accounts
  
- ### 30-60 Days
+### 30-60 Days
   - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
   - Added 3 Qualified Opportunities to your pipeline in Salesforce
   - Build a Strategic Account Plan for top Target Account
   
- ### 60-90 Days
+### 60-90 Days
   - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
   - Add 3 additional Qualified Opportunities to your pipeline in Salesforce
   - Advance 2 opportunities into Technical and Business Validation
   
- ### 90-180 Days
+### 90-180 Days
   - Complete 20 ew Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
   - $187k of Closed/Won IARR
 
