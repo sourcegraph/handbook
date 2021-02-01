@@ -10,8 +10,6 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 We are hiring for the finance & accounting team! See all [open positions](../../../../company/careers.md).
 
-Until the team grows, the [BizOps team](../bizops/index.md) will provide financial support.
-
 ### Members
 
 - [Dan Adler](../../../../company/team/index.md#dan-adler-he-him), VP Operations
@@ -52,8 +50,38 @@ For example, Sourcegraph's fiscal year 2021 (FY21) is the one-year period runnin
 - [Weighted quarterly sales projections](https://sourcegraph.looker.com/looks/614)
 - [Board deck calculations](https://docs.google.com/spreadsheets/d/1iI1J40Pw5o9hDqhx658BQ9QeoFlm-OU8NfbeRY16l8Q/edit#gid=0)
 
+## Definitions
+
+### ARR
+
+Annual Recurring Revenue (ARR) is the dollar value of contracted recurring revenue in a (normalized) one-year period.
+
+ARR includes committed [bookings](#booking) with contract start dates that fall in the first 15 days of the following calendar month. This allows Sourcegraph sales team members to get credit for renewals and expansions that may fall in the (near) future. Exceptions to this require written approval from the VP of Operations and the VP of Sales.
+
+### IARR
+
+Incremental [ARR](#arr) (IARR) is the change in ARR from one period to another.
+
+### New IARR
+
+New [IARR](#iarr) is IARR from *new customers* (i.e., organizations that were **not** existing customers at the beginning of the period). See also [expansion IARR](#expansion-iarr).
+
+### Expansion IARR
+
+Expansion [IARR](#iarr) is IARR from *existing customers* (i.e., organizations that were already customers at the beginning of the period).
+
+If within a single period a new customer signs a contract which then grows in ARR before the end of the period, the total ending ARR is all considered [new IARR](#new-iarr), not expansion IARR. For example, if Acme Corp signs a $100k contract on February 3 and then the contract expands to $200k on March 5, all $200k would be considered new IARR for Q1.
+
+### Booking
+
+A booking is when a customer commits to pay us money. This includes when:
+
+- A new customer just started paying self-service or signed a contract
+- An existing customer (depending on their contract) takes an action that increases the amount of revenue we will earn from them (such as growing usage or using more premium features)
+- An existing customer renews (including when the renewal is for the same ARR as the previous period)
+
 ## Accounting
 
 We work with an outsourced accounting firm named [Officengine](https://officengine.com/). They close the books monthly and produce our financial statements, and provide support in processing payables, preparing taxes, filing corporate registrations, and more. 
 
-Reach out to Dan for an introduction if needed.
+Reach out to the [Finance team](#team) for an introduction if needed.
