@@ -168,6 +168,13 @@ To ensure the team can be productive right from the start of an iteration we sta
       1. Any left over issues that won't be complete from the prior iteration, and whether those issues should still be prioritized next iteration or moved to a backlog category.
       1. Feedback from the teammates
    1. The PM will prepare the current iteration project in GitHub with the relevant issues.
+   
+#### Progress monitoring
+
+We monitor the progress of the work in an iteration in the following ways:
+1. Iteration: The overall iteration progress is monitored through a GitHub project board (See [Iterations](#iterations).)
+1. Tracking issue: If a feature is made up out of multiple issue we use a tracking issue to keep track of its progress. (See [Tracking issues](#tracking-issues).)
+1. Pull request: The implementation of a feature is tracked through a checklist in description of the pull request.  (See [PR template](https://github.com/sourcegraph/sourcegraph/blob/main/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md).)
 
 ### Updates
 
