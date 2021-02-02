@@ -1,8 +1,8 @@
-# Campaigns goals
+# Goals
 
 The campaigns team is building the best solution available for creating and managing large scale changes. To do so we will focus on the following objectives:
 
-## Grow adoption of campaigns 
+## Grow adoption of campaigns
 
 We need to grow usage of campaigns to understand our customer use cases and inform our roadmap.
 
@@ -13,9 +13,9 @@ We need to grow usage of campaigns to understand our customer use cases and info
 
 
 ## Design and build the best solution for creating many changesets
-For a single solution to become the best tool for making large scale changes at any given company,  it must provide features which meet the varying requirements dictated by each environment, configuration and workflow found in the company. 
+For a single solution to become the best tool for making large scale changes at any given company,  it must provide features which meet the varying requirements dictated by each environment, configuration and workflow found in the company.
 
-Currently the tools companies do have for making large scale changes are only usable by a select group of experienced developers and solve a limited number of use cases. 
+Currently the tools companies do have for making large scale changes are only usable by a select group of experienced developers and solve a limited number of use cases.
 
 ### Problems
 * Campaigns does not currently allow users to open many changesets in a single repo in a way that supports monorepo workflows
@@ -36,14 +36,14 @@ Currently the tools companies do have for making large scale changes are only us
 
 ## Design and build the best solution for managing many changesets
 
-Completing a large scale change in any organization requires coordination with and approval by, many people. Tooling is required for this process to not only be efficient, but at a certain scale, be _possible_. This includes making developers aware changesets exist, reminding them to merge changesets, or if possible, sidestepping this social dilemma entirely by enabling automatic merges. 
+Completing a large scale change in any organization requires coordination with and approval by, many people. Tooling is required for this process to not only be efficient, but at a certain scale, be _possible_. This includes making developers aware changesets exist, reminding them to merge changesets, or if possible, sidestepping this social dilemma entirely by enabling automatic merges.
 
 ### Problems
 
 * Company workflows often require issues/tickets to accompany changes to their code bases. Campaigns does natively support issue tracking systems.
 * It is currently too difficult to find changesets which cannot or have not been merged.
-* Often owners do not prioritize merging changesets. It takes too long to nudge the owners of each changeset. 
-* We do not currently support automerge. Doing so would greatly reduce the manual effort required to merge changesets. 
+* Often owners do not prioritize merging changesets. It takes too long to nudge the owners of each changeset.
+* We do not currently support automerge. Doing so would greatly reduce the manual effort required to merge changesets.
 
 ### Milestones
 
@@ -60,14 +60,6 @@ Completing a large scale change in any organization requires coordination with a
 
 # Roadmap
 
-1. **Customer outreach to improve adoption of campaigns**
-1. Better burndown charts 
-1. Allow multiple changeset in a single repository
-1. Improve previews on updates to show the delta between existing changesets and the changesets after after the campaign spec changes are applied
-1. Allow campaign to specify target branch
-1. Create campaign spec even if subset of repos have failures
-1. Versioning/releasing of src-cli with respect to sg/sg
-1. Improved documentation of src-cli login process
-1. Add filtering/searching to campaign and changeset lists
-1. Ability to auto-merge changesets, depending on various conditions
-1. Ability to add default reviewers to changesets
+As we work on increasing adoption, our roadmap is in flux as we are gathering new information from customers about what they need in order to try out campaigns.
+
+We maintain a [directionally correct roadmap](https://sourcegraph.productboard.com/roadmap/2400849-campaings-objectives-public), updated as feedback comes in.

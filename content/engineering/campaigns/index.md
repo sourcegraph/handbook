@@ -4,7 +4,14 @@
 
 ## Vision
 
-**Find code that needs to be changed and change it by running code**.
+**Find code that needs to be changed and change it at scale by running code.**
+
+This is the inspirational end game state for campaigns in 3 years:
+
+- **Code invariants** - Describe a code pattern once, and campaigns will fix it everywhere, automatically, forever, thanks to its declarative model.
+- **Continuous maintenance** - Instead of deferring codebase maintenance to large, painful, and risky changes, campaigns let developers introduce changes incrementally and in a safe and automated way. Much like CI/CD increased efficiency and reduced risk through small deployments, campaigns let developers make incremental codebase-wide changes.
+- **In-editor and instant feedback** - Developers don’t leave the editor to create or be notified of changesets. Repository owners can discover and apply great code patterns faster.
+- **Universal campaigns** - Make changes to public and private code. Open source projects can provide campaign specs so that their dependents can seamlessly upgrade. Campaigns ease upgrading in private and on-premise environments.
 
 ## Contact
 
@@ -13,7 +20,7 @@
 
 ## Mission
 
-Users can focus on changing their code because campaigns provides the plumbing:
+Users can focus on changing their code because campaigns provide the plumbing:
 
 * Finding the correct repositories in which to run code
 * Fetching the newest version of each repository
@@ -105,7 +112,6 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
   - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-
 
 ## Related links
 
