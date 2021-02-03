@@ -1,19 +1,19 @@
 # Marketing
 
-
 <img align="right" src="https://sourcegraphstatic.com/marketing-logo.gif" style="max-height:100%" alt="Sourcegraph Marketing team logo"/>
 
 - [Messaging](messaging.md)
     - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
     - [What problems does Sourcegraph solve?](messaging.md#what-problems-does-sourcegraph-solve)
-- [Marketing operations](marketing_operations.md)
-- [Livestream events](livestream.md)
-- [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
+- [Product marketing](product_marketing.md)
 - [Online content](content.md)
     - [Editing blog posts](editing_blog_posts.md)
     - [Creating blog posts](creating_blog_posts.md)
     - [Adding screenshots and screen recordings (GIFs and videos)](adding_screenshots_screen_recording.md)
     - [Website style guide](website_style_guide.md)
+- [Marketing operations](marketing_operations.md)
+    - [Livestream events](livestream.md)
+    - [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
 - [Marketing roles - open positions](roles/index.md) 
 
 ## Members
