@@ -9,12 +9,11 @@
 1. [Working with other teams](#working-with-other-teams)
 
 ## Team vision and principles 
-By the end of FY2022, here is what I hope Sourcegraph teammates throughout the company think about Product Marketing: 
-* We have a collaborative, efficient, and repeatable motion for bringing new features and products to market. 
-* We are a strategic partner for Product, Sales, and Marketing. We do our best work when we’re brought in early.
-* We communicate the value of our products and focus on both the “what” and the “why.”
-* We align our team goals with the broader company goals and our work contributes to both revenue and adoption.
-* We are advocates for our customers. We launch products and make decisions with our customers in mind.
+- We have a collaborative, efficient, and repeatable motion for bringing new features and products to market.
+- We are a strategic partner for Product, Sales, and Marketing. We do our best work when we’re brought in early.
+- We communicate the value of our products and focus on both the “what” and the “why.”
+- We align our team goals with the broader company goals and our work contributes to both revenue and adoption.
+- We are advocates for our customers. We launch products and make decisions with our customers in mind.
 
 ## Open roles
 - [Customer Marketing Manager](https://jobs.lever.co/sourcegraph/5769890f-69bd-4ff5-8515-233ce8e3c620) 
