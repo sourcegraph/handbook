@@ -50,6 +50,8 @@ Precise code intelligence specific services are written in Go and code intellige
 Here are some key ways to contact us:
 
 - On GitHub, mention or assign issues to the [@sourcegraph/code-intel](https://github.com/orgs/sourcegraph/teams/code-intel) team.
+- On GitHub, view our [backlog](https://github.com/orgs/sourcegraph/projects/100) of work.
+- On GitHub, view our [current iteration](https://github.com/orgs/sourcegraph/projects/101).
 - On Slack, use the [#code-intel](https://app.slack.com/client/T02FSM7DL/CHXHX7XAS) channel.
 - On Google Drive, we use the [Code Intel](https://drive.google.com/drive/folders/1YF237FV_4fAeIS4D5aH9bxexft_bh16r) directory.
 
@@ -57,9 +59,10 @@ Here are some key ways to contact us:
 
 The code intel team has defined a set of rituals that keeps the team connected around our common goals. As a team we also believe in good meeting etiquette, and to ensure effective meetings for everyone every meeting must have a meaningful topic, agenda, and stated goal or purpose statement defined ahead of time.
 
-On a weekly basis:
+Our iterations last two weeks and are comprised of the following:
 
-- Team Sync Meeting: Every Monday, the code intel team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the weekly sync meeting, each team member should:
+- Planning Meeting: The first Monday of the iteration we hold a retro and planning meeting.  Our iterations are comprised of work taken from our [backlog](https://github.com/orgs/sourcegraph/projects/100).  Our in-flight iteration work is tracked in our iteration [board](https://github.com/orgs/sourcegraph/projects/101). 
+- Team Sync Meeting: The second Monday of the iteration, the code intel team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the sync meeting, each team member should:
 
   1. Add any agenda items that should be discussed.
   1. Review any existing agenda items and be prepared to discuss them.
@@ -67,13 +70,7 @@ On a weekly basis:
 
 - Team Updates: Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update.
 
-For each iteration (currently one month long), we follow this process:
-
-- Planning Meeting(s): Prior to each iteration the team has planning meetin(s) to discuss which items should be prioritized for the upcoming release. We revisit oustanding work that track against our team goals, and go over [our backlog](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence) of bugs and feature requests. Once the team agrees on a task, we add it to the tracking issue and as part of our team goals for the milestone.
-
-- Retrospective Meeting: After the release branch has been cut for the iteration, the team has a retro to discuss how the iteration went, and what changes we might want to make to continously improve our teamwork.
-
-We track most of our work using [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
+We track most of our work as [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
 
 ## New Engineer Onboarding
 
@@ -97,7 +94,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](../../../company/team/index.md#maría-craig-she-her) Product Manager
+- [María Craig](../../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../product/roles/product_manager.md))
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/product_designer.md))
 - [Owen Convey](../../../company/team/index.md#owen-convey-he-him) ([Engineering Manager](../roles.md#engineering-manager))
   - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
@@ -133,13 +130,3 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 - [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+monitoring.ObservableOwnerCodeIntel%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+monitoring.ObservableOwnerCodeIntel%29+count:1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/d0c10593-3edd-4d7e-8d1b-2ad29afeaa71)
-
-## Growth plan
-
-_Updated 2020-11-18_
-
-We are looking to grow this team a lot to increase our ability to provide precise code intelligence for many languages at massive scale.
-
-If you are interested in scaling our backend systems, please apply to [Software Engineer - Backend](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322).
-
-If you are interested to help us expand our language support (for example: building LSIF indexers for languages including, but not limited to, Clang, Java), email nick@sourcegraph.com with how you think you can help.
