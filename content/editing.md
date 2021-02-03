@@ -70,8 +70,19 @@ To make edits to multiple files and submit all of the edits as a group to be rev
 
 > NOTE: These steps are not exhaustively documented. Please [ask for help](#how-to-get-help) as many times as you need to until you feel comfortable with this process.
 
+### Web interface
+
+A screen recording of how to make multiple changes in a single PR in the web interface for GitHub:
+
+<iframe src="https://share.getcloudapp.com/yAu6oB7v?embed=true&amp;branding=true&amp;title=true" style="border:none" allowtransparency="true" allowfullscreen="true" width="100%" height="100%" frameborder="0"></iframe>
+
+A screen recording of how to make a new file and include it for review in the web interface for GitHub:
+
+<iframe src="https://share.getcloudapp.com/7Kup2n2x?embed=true&amp;branding=true&amp;title=true" style="border:none" allowtransparency="true" allowfullscreen="true" width="100%" height="100%" frameborder="0"></iframe>
+
 ### macOS
 
+### Github Desktop version
 Here's a screen recording of the steps (written out below) for macOS:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/diZUeHZhekc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
