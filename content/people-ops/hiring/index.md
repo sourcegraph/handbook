@@ -24,8 +24,6 @@ The page will outline responsibilities by role (Hiring Manager, Scheduling Coord
 
 ## Recruiting tools
 
-We currently use Lever as our applicant tracking system. [guide coming soon]
-
 We utilize LinkedIn as our sourcing platform.
 
 Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](https://about.sourcegraph.com/handbook/people-ops/hiring/linkedin).
@@ -140,3 +138,7 @@ Once the decision is made to [extend an offer](interview_process.md#outcome) to 
 When the offer is approved, the hiring manager and a representative from the People Ops team will schedule a call to walk through a summary of the offer with the candidate. This summary will include an overview of cash compensation (including any commission or bonus plans), benefits, and any equity-based compensation (including a simple calculator for potential future values).
 
 Once the candidate verbally accepts the offer, Sourcegraph legal team will send the official DocuSign with the appropriate contracting or employment agreement(s) for the candidate's role, status, and location. Templates for employees and contractors can be found in the shared [HR/Employees/Contractors Dropbox folder](https://www.dropbox.com/home/Legal/HR%3AEmployees%3AContractors).
+
+## Policy for candidates re-applying to roles
+
+Candidates are able to re-apply for roles at any time. The hiring team will review all relevant information, including past interviews, when considering a person's candidacy.
