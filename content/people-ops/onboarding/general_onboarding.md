@@ -31,7 +31,9 @@
 - Add any local [holidays](../holidays.md) you observe to your calendar so people know you're not working.
 - Make it so any attendees can edit meetings you create: `Default guest permissions: Modify event` (this makes it easy for teammates to reschedule when necessary).
 - Set up a recurring weekly [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
-- Join the Sourcegraph events calendar by copying `sourcegraph.com_9cd67o8p3gs0rtpj73bt326psk@group.calendar.google.com` into your [add calendar field](https://calendar.google.com/calendar/u/0/r/settings/addcalendar?) and also join the [social calendar](../../../company/remote/social_calendar.md)
+- Join the Sourcegraph events calendar by copying `sourcegraph.com_9cd67o8p3gs0rtpj73bt326psk@group.calendar.google.com` into your [add calendar field](https://calendar.google.com/calendar/u/0/r/settings/addcalendar?) 
+- Also join the [social calendar](../../../company/remote/social_calendar.md)
+- You can add a secondary time zone in your calendar. This will show two time columns. This is very useful when you work closely with people in another time zone. Go to **Settings > General > Time zone** and select the **Display secondary time zone** box. Choose the time zones you want and label them.
 
 ## Learn how to contribute to the handbook
 
