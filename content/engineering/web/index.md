@@ -14,6 +14,7 @@ This is a large ownership area, so the team creates a focused plan each iteratio
 ## Members
 
 - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/product_manager.md)*)
+- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/product_designer.md))
 - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) ([Engineering Manager](../roles.md#engineering-manager))
   - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
   - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
