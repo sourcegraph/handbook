@@ -101,6 +101,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
   - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)
   - [Noah Santschi-Cooney](../../../company/team/index.md#noah-santschi-cooney-he-him)
   - [Ólafur Páll Geirsson](../../../company/team/index.md#olafurpg)
+  - [TJ DeVries](../../../company/team/index.md#tj-devries)
 
 ## Ownership
 
