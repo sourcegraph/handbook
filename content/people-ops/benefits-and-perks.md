@@ -12,7 +12,11 @@ We have a flexible vacation policy with mandatory annual vacation time that enco
 
 ## 🏥 Medical
 
-We offer high-quality medical and dental care for all full-time employees and their dependents.
+We offer high-quality medical, dental, and vision care for all US-based full-time employees and their dependents. We cover 99% to 100% of premiums for employees and all of their dependents for each.
+
+## 🏥 Life insurance
+
+We offer basic life insurance and cover the full premium for all full-time employees.
 
 ## 🏃 Wellness
 
@@ -20,7 +24,7 @@ A healthy mind and body is imperative to doing your best work and living a healt
 
 ## 👪 Family friendly
 
-We value and support teammates at all stages of life, and provide 10 weeks of paid parental leave for all new parents (details depend on location), in addition to any pregnancy-related disability leave.
+We value and support teammates at all stages of life. In addition to covering 100% of premiums for medical, dental, and vision insurance for dependents (for US-based full-time employees), we provide 16 weeks of paid parental leave for all new parents (details depend on location), in addition to any pregnancy-related disability leave.
 
 ## 📚 Professional development
 
