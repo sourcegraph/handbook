@@ -31,6 +31,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2021-01-29: Perf/reliability improvements (avoid batching of results, lots of PRs); UX improvements (count proposals, progress info) and initial work on factoring out search from graphqlbackend.
     - 2021-02-01: Backend plan for the week is responding to feedback from Sourcegraph org dogfooding. When not doing that, improving streaming design in preparation for Exhaustive Search work.
+    - 2021-02-05: Repo and symbol search are now streaming (everything is streaming now). Major refactoring to core stream interface which greatly simplified most uses of it. Lots of cleanup in text search backend. Tweaks done to experience of exhaustive search. Will likely turn it on for Sourcegraph.com on Monday.
 
 ### Exhaustive Search
 - **Owner(s):** Keegan
