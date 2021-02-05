@@ -108,29 +108,49 @@ Any inquiry that is:
 
 ### Demand generation
 
-- [Salesforce](https://sourcegraph2020.my.salesforce.com/)
 - [Hubspot](https://app.hubspot.com/reports-dashboard/2762526/view/144686)
+- [Salesforce](https://sourcegraph2020.my.salesforce.com/)
 - Zoominfo
+
+### Analytics 
+
+- Google Analytics
+- Google Data Studio
+- Looker
+
+### SEM and Social advertising
+
+- Google Ads
+- LinkedIn Ads
+- Microsoft Advertising
+
+### SEO tools
+
+- Google Optimize
+- Moz Pro
+- Ubersuggest
+- CrazyEgg
+
+### Design and miscellaneous web apps
+
+- Adobe CC
+- Figma
+- Bit.ly
+- Eventable
+- Zapier
 
 ### Website infrastructure
 
+- Github
 - Gatsby
 - Netlify
-- Cookiebot
-
-### Content
-
-- [YouTube](https://www.youtube.com/channel/UCOy2N25-AHqE43XupT9mwZQ)
-- [Vimeo](https://vimeo.com/sourcegraph)
-- Google Cloud Storage
-
-### SEM and SEO tools
-
-- Google Ads
-- Google Analytics
-- Google Data Studio
-- Google Optimize
+- Visual Studio Code
 - Google Search Console
 - Google Tag Manager
-- Moz Pro
-- Ubersuggest
+- Cookiebot
+
+### Media/content storage
+
+- Google Cloud Storage
+- [YouTube](https://www.youtube.com/channel/UCOy2N25-AHqE43XupT9mwZQ)
+- [Vimeo](https://vimeo.com/sourcegraph)
