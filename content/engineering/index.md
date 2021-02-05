@@ -36,6 +36,11 @@
   - [Adding and debugging ping data](adding_ping_data.md)
   - [Adding buildkite secrets](adding_buildkite_secrets.md)
 
+## Org chart
+
+- [How engineering is organized](eng_org.md).
+- [Roles and responsibilities](roles.md)
+
 ## Guiding principles
 
 We build things in this order:
@@ -53,22 +58,6 @@ If ownership is unclear, ask "Do we have a designated owner for X?" in an approp
 
 If there is a dispute about ownership, then perform a [clean escalation](../communication/code_of_conduct.md#clean-escalation) to determine an owner.
 
-## [Roles and responsibilities](roles.md)
-
-- [VP Engineering](roles.md#vp-engineering)
-- [Software Engineer](roles.md#software-engineer)
-
-## Teams
-
-[**List of engineering teams**](../../company/team/org_chart.md#engineering)
-
-Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission. The leader of each team is responsible for ensuring appropriate cross-team collaboration happens when shared infrastructure needs to change.
-
-[2021 Organizational Plan](2021_org.md)
-
-### Transferring teams
-
-Start a discussion with your manager if you are interested to switch teams. Your manager will chat with you to understand what you want and then propose next steps. Team transfers need to be approved by the [VP of Engineering](roles.md#vp-engineering).
 
 ### Communication
 

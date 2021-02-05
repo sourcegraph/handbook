@@ -106,12 +106,16 @@ The private channel is for communications that would be of no interest to someon
 The Campaigns team is the current owner of [src-cli](https://github.com/sourcegraph/src-cli), due to the fact that most of the src-cli work in recent months has been related to Campaigns. We do not expect to be the permanent owners of src-cli; when another team becomes the main contributor, we will transfer ownership to them.
 
 ## Members
+
 - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) Product Manager (onboarding)
-- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) Engineering Manager
+- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) [Product Designer](../../product/roles/product_designer.md)
+- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager)) {#campaigns-eng}
   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
   - [Erik Seliger](../../../company/team/index.md#erik-seliger)j
-- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) [Product Designer](../../product/roles/product_designer.md)
+  - FQ1 [full-stack engineer](https://jobs.lever.co/sourcegraph/886e4343-6efc-4ab1-b204-f9115cfdeae3)
+  - FQ2 engineer
+  - FQ3/4 TBD
 
 ## Related links
 

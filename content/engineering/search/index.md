@@ -54,44 +54,23 @@ Iterations start **every other Monday**.
 
 - We're hiring a [Product Manager](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designers](../../product/roles/product_designer.md))
-- [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
-  - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
-  - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
-  - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
-  - [Rok Novosel](../../../company/team/index.md#rok-novosel-he-him)
-  - [Camden Cheek](../../../company/team/index.md#camden-cheek-hehim)
+- Search core backend {#search-core-backend-eng}
+    - FQ2 [Engineering Manager](../roles.md#engineering-manager), Loïc acting manager until then.
+        - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
+        - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
+        - FQ1 backend engineer
+        - FQ3 backend engineer
+- Search product {#search-product-eng}
+    - [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
+        - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
+        - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
+        - [Rok Novosel](../../../company/team/index.md#rok-novosel-he-him)
+        - [Camden Cheek](../../../company/team/index.md#camden-cheek-hehim)
+        - FQ2 backend hire
+        - FQ2 frontend hire
+        - FQ3/4 TBD
 
 ## On-call
 
 - [Alerts owned by this team](https://sourcegraph.com/search?q=repo%3A%5Egithub.com%2Fsourcegraph%2Fsourcegraph%24+file%3Amonitoring%2F.*+%7B%3A%5B_%5D%2C+Owner%3A+monitoring.ObservableOwnerSearch%2C+%3A%5B_%5D%7D+OR+%28%3A%5B_%5D%2C+monitoring.ObservableOwnerSearch%29+count%3A1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/f482ef3e-f5dc-4bef-b7c4-307e0ad30d6a)
-
-## Growth plan
-
-_Updated 2020-11-18_
-
-We are looking to hire:
-
-- A [backend software engineer](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
-
-Loïc will be at management capacity when we reach 7-8 engineers on the team, but we will still need to grow further to deliver on our goals for search. Our next step will be to split the team in half. Both of these teams will be cross-functional, with frontend + backend skills, and will have design needs. Before we split these teams, we will need to hire an EM and a PM.
-
-### Search core
-
-The search core team will focus on the capabilities, scalability and polish of our core feature set: search language and supporting UI, search backends.
-
-Examples:
-
-- Scale indexed search to 1m repositories.
-- Reduce latency and timeouts of search.
-- Implement streaming search.
-
-### Search growth
-
-The Search growth team will focus on initiatives aiming at growing usage or adoption of our search features, such as onboarding efforts or features unlocking new use cases.
-
-Examples:
-
-- Implement code monitoring.
-- Increase search weekly active users.

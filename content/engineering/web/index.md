@@ -15,11 +15,20 @@ This is a large ownership area, so the team creates a focused plan each iteratio
 
 - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/product_manager.md)*)
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/product_designer.md))
-- [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-  - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-  - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
-  - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
+- Frontend platform {#frontend-platform-eng}
+   - FQ1 [Engineering Manager](../roles.md#engineering-manager), Jean acting manager until then.
+         - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
+         - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
+         - V.B. 2021-02-22
+         - FQ3 frontend engineer
+         - FQ4 frontend engineer
+- Extensibility {#extensibility-eng}
+   - FQ3 [Engineering Manager](../roles.md#engineering-manager), Jean acting manager until then.
+         - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
+         - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
+         - M.S. 2021-02-15
+         - FQ2 frontend engineer
+         - FQ4 frontend engineer
 
 _* Joel is the acting PM for this team until we are able to hire a dedicated PM for it. Once that happens, he will focus entirely on code insights._  
 
