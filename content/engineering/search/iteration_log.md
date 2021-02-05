@@ -21,6 +21,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - The API supports search queries with a provided search context (`global` and `@username`).
 - **Work log:**
     - 2021-01-29: Added support for retrieving user-added repositories. Opened PRs implementing search with a search context and listing search contexts.
+    - 2021-02-05: Finished the backend part of the search contexts for Cloud. This includes context filter in the query language and listing search contexts on the API. I have also added support for the context filter on the frontend (with syntax highlighting for the context prefix). I am working on the context filter suggestions in a separate PR, which will be finished in the next iteration.
 
 ### Streaming search
 - **Owner(s):** Juliana, Keegan, Stefan
