@@ -58,3 +58,5 @@ See our [careers page](../../company/careers.md) for open roles on the People Op
 **Address (for contracts and paperwork):** Trellis Coworking: 981 Mission St, San Francisco, CA 94103
 
 **Phone Number:** (650) 273-5591
+
+**DUNS Number:** 117775232
