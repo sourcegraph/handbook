@@ -26,7 +26,7 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
     **Outcome:** 5 popular open source C++ repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
 
 1. 🔄 Sourcegraph Cloud has precise code intelligence for C++ repositories that use cmake as a build system. 
-    - 🔄 Auto-index 5 repositories on Sourcegraph Cloud that use cmake as a build system.
+    - ✅ Auto-index 5 repositories on Sourcegraph Cloud that use cmake as a build system.
     - ✅ Research: Add inference rules for cmake projects to auto-index on Cloud.
     - 🔄 Auto-detect C++/cmake repositories and display common configurations and documentation to guide users in their set-up.
     
