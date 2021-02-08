@@ -203,7 +203,7 @@ All teammates are expected to be part of this channel, and should read the updat
 After each iteration, we hold a sync retrospective meeting to reflect on the past iteration. We use this meeting to:
 
 - Review the previous retro’s action items to ensure we hold teammates accountable for actioning them
-- We give _ Shoutouts!_ to teammates to show appreciation for something they did that we appreciated.
+- We give _Shoutouts!_ to teammates to show appreciation for something they did that we appreciated.
 - Discuss things that went well in the past iteration and that we should do more of / invest more into it.
 - We discuss the things that could have gone better and what we can learn from it to improve.
 - We talk about processes that we should revisit/refine/propose to improve our efficiency?
