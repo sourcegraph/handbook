@@ -200,20 +200,15 @@ All teammates are expected to be part of this channel, and should read the updat
 
 ### Retrospectives
 
-After each iteration, we hold a retrospective, to reflect on the past iteration. We use this retrospective to:
+After each iteration, we hold a sync retrospective meeting to reflect on the past iteration. We use this meeting to:
 
-- Understand whether we accomplished the goals we set at the beginning of the iteration. If we didn't accomplish them, reflect on the reasons why.
-- Discuss things that didn't go well in the iteration, and identify action items to improve on these in the next iteration.
-- Discuss things that went well in the past iteration, and that we should do more of / invest more into.
+- Review the previous retro’s action items to ensure we hold teammates accountable for actioning them
+- We give _ Shoutouts!_ to teammates to show appreciation for something they did that we appreciated.
+- Discuss things that went well in the past iteration and that we should do more of / invest more into it.
+- We discuss the things that could have gone better and what we can learn from it to improve.
+- We talk about processes that we should revisit/refine/propose to improve our efficiency?
 
-At the beginning of each iteration, the engineering manager will:
-
-- Schedule the retrospective meeting
-- Set up a Slack reminder three days before the retrospective meeting, asking teammates to write their discussion topics [in our retrospectives document](https://docs.google.com/document/d/1YW45Dksk0vIn7drhatwLyo6YbMMkS-naHcuShUi1OOw/edit#heading=h.dxt1jy5hsf1d)
-
-We do regular backlog triages together, where we go through [the issues in our backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fweb).
-This helps us resurface older issues, create shared awareness for existing deficiencies among everyone on our team and ensures no-longer-applicable issues are closed.
-To manage the load for these triages, a triage may have a specific theme, like "debt" or "performance".
+We capture and assign actions to a teammate to action. Teammates should consider actions coming out of the retrospective as a very high priority.
 
 ## Team syncs
 
