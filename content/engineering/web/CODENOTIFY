@@ -1,3 +1,5 @@
 # See https://github.com/sourcegraph/codenotify for documentation
 
-**/* @sourcegraph/web
+**/* @sourcegraph/frontend-platform
+**/* @sourcegraph/extensibility
+**/* @sourcegraph/code-insights
