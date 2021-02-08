@@ -11,6 +11,15 @@ This document contains the goals and work log for the search team's [2-week iter
     - $DESIRED_OUTCOME
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
+    
+## 2021-02-08 to 2021-02-19
+
+### Implement `select` filtering
+- **Owner(s):** Rijnard, Camden
+- **Outcomes:**
+    - Implement frontend and backend components to support `select` filtering. See overview of work in [#18002](https://github.com/sourcegraph/sourcegraph/issues/18002) and RFC 254.
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
 
 ## 2021-01-25 to 2021-02-05
 
@@ -46,6 +55,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Close out remaining issues, and make searcher querying Zoekt the default path for structural search.
 - **Work log:**
     - 2021-01-28: Benchmarked the new path and made it the default after looking at the results. There are a couple of minor concerns we can improve, and possibly explore structural search support for unindexed repositories. Other than that, we have a head start on [RFC 254](https://docs.google.com/document/d/1_m63fsBMAtqaq3GA_aMzKUPxD3yxTy8d12lJE6qN6PU/edit#) which was published early this week.
+    - 2021-02-05: We did some quality control and worked through bugs (e.g., language selection and avoid searching all indexed repos instead of just `HEAD` if unspecified). Used some remaining time to support unindexed structural sesarch. All outcomes met.
 
 ### Refactor search query parsing
 - **Owner(s):** Juliana
