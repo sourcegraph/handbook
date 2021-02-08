@@ -48,7 +48,7 @@ Company meeting is an effective way to:
 1. All customer [bookings](../ops/finance/index.md#booking) and churn since the previous company meeting (owner: @tommy, @gregg presents)
 1. New and expansion pipeline: include full table, discuss only significant changes since the previous company meeting (owner: @joe kirscher, @gregg presents)
 1. Hiring: Open roles we're hiring for, offers extended/accepted/rejected (owner: @david)
-1. What's new in the [handbook](../index.md) (owner: @sqs)
+1. What's new in the [handbook](../index.md) (owner: @dan)
 1. Anything else that team members need to communicate
    - Just add a slide (awesome, useful, and quick) and write what you'll say in the speaker notes. Get @sqs's approval 72 hours before company meeting.
 1. Q&A about anything Sourcegraph-related
