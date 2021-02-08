@@ -210,6 +210,13 @@ After each iteration, we hold a sync retrospective meeting to reflect on the pas
 
 We capture and assign actions to a teammate to action. Teammates should consider actions coming out of the retrospective as a very high priority.
 
+### Code reviews
+
+The team follow's the [default code review guidelines](../code_reviews.md) with the following addition:
+
+1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
+1. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
+
 ## Team syncs
 
 The web team holds weekly syncs.
