@@ -208,7 +208,11 @@ After each iteration, we hold a sync retrospective meeting to reflect on the pas
 - We discuss the things that could have gone better and what we can learn from it to improve.
 - We talk about processes that we should revisit/refine/propose to improve our efficiency?
 
-We capture and assign actions to a teammate to action. Teammates should consider actions coming out of the retrospective as a very high priority.
+We capture and assign actions to teammates to action. Teammates should consider actions coming out of the retrospective as a very high priority.
+
+Teammates contribute to the retrospective asynchronously during the iteration by adding their thoughts to our [retrospective document](https://docs.google.com/document/d/1YW45Dksk0vIn7drhatwLyo6YbMMkS-naHcuShUi1OOw/edit). Teammates are highly encouraged to comment on points raised before the sync meeting in the document.
+
+We rotate who leads the retrospective to allow all teammates an opportunity to lead the session. Teammates can find the rotation schedule at the top of the [retrospective document](https://docs.google.com/document/d/1YW45Dksk0vIn7drhatwLyo6YbMMkS-naHcuShUi1OOw/edit). 
 
 ### Code reviews
 
