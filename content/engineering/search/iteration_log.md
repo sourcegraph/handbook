@@ -21,6 +21,14 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+### Search contexts
+- **Owner(s):** Rok, Juliana
+- **Outcomes:**
+    - Finish implementing search contexts UI
+    - Search contexts are ready for user testing on Cloud
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2021-01-25 to 2021-02-05
 
 ### Search contexts
