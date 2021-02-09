@@ -36,5 +36,6 @@ See [General onboarding checklist](general_onboarding.md).
 
 - [Engineers](../../engineering/onboarding.md)
 - [Customer Engineers](../../ce/onboarding.md)
+- [Customer Support Engineers](../../ce/customer-support-onboarding.md)
 - [Sales team](../../sales/onboarding/index.md)
 - [Product team](../../product/onboarding/index.md)
