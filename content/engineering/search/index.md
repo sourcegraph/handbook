@@ -58,15 +58,15 @@ Iterations start **every other Monday**.
     - FQ2 [Engineering Manager](../roles.md#engineering-manager), Loïc acting manager until then.
         - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
         - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
-        - FQ1 backend engineer
-        - FQ3 backend engineer
+        - FQ1 [backend engineer](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
+        - FQ3 [backend engineer](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
 - Search product {#search-product-eng}
     - [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
         - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
         - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
         - [Rok Novosel](../../../company/team/index.md#rok-novosel-he-him)
         - [Camden Cheek](../../../company/team/index.md#camden-cheek-hehim)
-        - FQ2 backend hire
+        - FQ2 [backend hire](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
         - FQ2 frontend hire
         - FQ3/4 TBD
 
