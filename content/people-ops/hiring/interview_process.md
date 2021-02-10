@@ -40,6 +40,8 @@ Even if candidates prefer to batch all their interviews together, it might not b
 
 If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save ourselves and the candidate time.
 
+Select the "interviws" calendar for the "ad to calendar" option in Lever when scheduling interviews so that it shows on our shared Google Interviews calendar. 
+
 ## Writing feedback
 
 Please put your written feedback into Lever as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. To reduce bias and herding, please refrain from discussing your impressions with anyone else on the interview panel until everyone has submitted their written feedback.
