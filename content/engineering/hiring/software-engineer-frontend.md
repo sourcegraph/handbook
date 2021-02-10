@@ -2,10 +2,6 @@
 
 We are looking for frontend engineers who know how to build intuitive user experiences to make the power of [Universal Code Search](https://about.sourcegraph.com/product) accessible to everyone. You will have a lot of ownership to solve tough technical and UX problems in key areas of our web application and browser extensions (e.g. code search, code navigation, campaigns).
 
-The following engineering teams are currently hiring for this role:
-
-1. [Cloud](../cloud/index.md#growth-plan) - senior experience level
-
 ## About you
 
 - You have practice at creating high quality software balanced with a pragmatic understanding of how to make appropriate tradeoffs (e.g. cut scope) to ship quickly and iterate when necessary.
@@ -60,36 +56,36 @@ Learn more about what it is like to work at Sourcegraph by reading [our handbook
 1. An **Engineer** and a **Designer** will review and grade your submission.
 1. We schedule a **1 hour follow-up call** to discuss your submission and ask any questions we might have to clarify our understanding of your technical capability and sutiability for the role.
    - You will interview with one teammate from each of the following 2 lists
-      - **Engineer**:
-         - [Felix Becker](../../../company/team/index.md#felix-becker)
-         - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-      - **Designer**:
+     - **Engineer**:
+       - [Felix Becker](../../../company/team/index.md#felix-becker)
+       - [Erik Seliger](../../../company/team/index.md#erik-seliger)
+     - **Designer**:
+       - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
+       - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
+       - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him)
+1. We schedule the following additional interviews, in no particular order, across multiple days:
+   - 1 hour **Technical experience:** We ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
+     - You will interview with two teammates from the following list
+       - [Felix Becker](../../../company/team/index.md#felix-becker)
+       - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
+       - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
+       - [Erik Seliger](../../../company/team/index.md#erik-seliger)
+   - 1 hour **Team collaboration:** We ask you about how you work and communicate in a team setting, how you handle tricky situations, decisions you made, and what you'd do differently today.
+     - You will interview with one teammate from each of the following 2 lists
+       - **Engineer**:
+         - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
+         - [Loïc Guychard](../../../company/team/index.md#lo%c3%afc-guychard)
+         - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
+       - **Non-engineer**:
          - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
          - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
          - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him)
-1. We schedule the following additional interviews, in no particular order, across multiple days:
-   - 1 hour **Technical experience:** We ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
-      - You will interview with two teammates from the following list
-        - [Felix Becker](../../../company/team/index.md#felix-becker)
-        - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-        - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-        - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-   - 1 hour **Team collaboration:** We ask you about how you work and communicate in a team setting, how you handle tricky situations, decisions you made, and what you'd do differently today.
-      - You will interview with one teammate from each of the following 2 lists
-         - **Engineer**:
-            - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-            - [Loïc Guychard](../../../company/team/index.md#lo%c3%afc-guychard)
-            - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-         - **Non-engineer**:
-            - [Rob Rhyne](../../../company/team/index.md#rob-rhyne)
-            - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her)
-            - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him)
-            - [María Craig](../../../company/team/index.md#mar%c3%ada-craig-she-her)
-            - [Eric Brody-Moore](../../../company/team/index.md#eric-brody-moore)
-            - [Jonah Dueck](../../../company/team/index.md#jonah-dueck-he-him)
-            - [Josh Saunders](../../../company/team/index.md#josh-saunders)
-            - [Nick McMillen](../../../company/team/index.md#nick-mcmillen-he-him)
-            - [Christine Lovett](../../../company/team/index.md#christine-lovett-she-her)
+         - [María Craig](../../../company/team/index.md#mar%c3%ada-craig-she-her)
+         - [Eric Brody-Moore](../../../company/team/index.md#eric-brody-moore)
+         - [Jonah Dueck](../../../company/team/index.md#jonah-dueck-he-him)
+         - [Josh Saunders](../../../company/team/index.md#josh-saunders)
+         - [Nick McMillen](../../../company/team/index.md#nick-mcmillen-he-him)
+         - [Christine Lovett](../../../company/team/index.md#christine-lovett-she-her)
    - 30 minutes [VP Engineering](../../../company/team/index.md#nick-snyder-he-him)
    - 30 minutes [CTO](../../../company/team/index.md#beyang-liu)
 1. We check your references.

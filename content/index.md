@@ -8,6 +8,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Handbook usage](usage.md)
 
 ## [Company](../company/index.md)
+
 - [All-remote](../company/remote/index.md)
 - [Strategy](../company/strategy.md)
 - [Goals](../company/goals/index.md)
@@ -39,7 +40,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Engineering](engineering/index.md)
   - [Campaigns](engineering/campaigns/index.md)
-  - [Cloud](engineering/cloud/index.md)
+  - [Core application](engineering/core-application/index.md)
   - [Code Insights](engineering/code-insights/index.md)
   - [Code intelligence](engineering/code-intelligence/index.md)
   - [Distribution](engineering/distribution/index.md)

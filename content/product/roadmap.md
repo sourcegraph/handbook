@@ -40,11 +40,17 @@ section Web
 </div>
 
 ## [Campaigns roadmap](../engineering/campaigns/goals.md#roadmap)
-## [Cloud roadmap](../engineering/cloud/goals.md#roadmap)
+
+## [Core application roadmap](../engineering/core-application/goals.md#roadmap)
+
 ## [Code Intel roadmap](../engineering/code-intelligence/goals.md#roadmap)
+
 ## [Distribution roadmap](../engineering/distribution/goals.md#roadmap)
+
 ## [Search roadmap](../engineering/search/goals.md#roadmap)
+
 ## [Security roadmap](../engineering/security/goals.md#roadmap)
+
 ## [Web roadmap](../engineering/web/goals.md#roadmap)
 
 ---

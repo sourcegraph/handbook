@@ -38,7 +38,7 @@ If asking the Distribution team in their Slack channel, ping the [on-call dev]..
 
 **Keywords**: `code host`, `cloning`, `syncing`, `token`, `GitHub`, `GitLab`, `Bitbucket`, `Phabricator`, `Gerrit`, `repository`, `project`, `Perforce`, `src-expose`
 
-Any questions about code host connections and repository syncing should be routed to the [Cloud team](../engineering/cloud/index.md).
+Any questions about code host connections and repository syncing should be routed to the [Core application team](../engineering/core-application/index.md).
 
 Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be rounted to the [Web team](../engineering/web/index.md).
 
@@ -46,13 +46,13 @@ Note that this section applies to backend connections with code hosts, such as r
 
 **Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`
 
-Any questions about repository permissions should be routed to the [Cloud team](../engineering/cloud/index.md).
+Any questions about repository permissions should be routed to the [Core application team](../engineering/core-application/index.md).
 
 ## User authentication (SSO)
 
 **Keywords**: `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about user authentication should be routed to the [Cloud team](../engineering/cloud/index.md).
+Any questions about user authentication should be routed to the [Core application team](../engineering/core-application/index.md).
 
 ## Code intelligence
 

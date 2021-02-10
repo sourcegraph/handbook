@@ -1,4 +1,4 @@
-# Cloud goals and priorities
+# Core application goals and priorities
 
 ## Goals
 
@@ -15,14 +15,6 @@
 1. Sourcegraph Cloud is a viable alternative to Sourcegraph Server for SMBs.
 1. Sourcegraph Cloud is a paid product that is Generally Available (GA).
 
-### Backend infrastructure
-
-Backend infrastructure goals are ad hoc as requests come up from customers or other teams. The Cloud team is responsible for scheduling and prioritizing these requests as they come up. See the [roadmap](../../product/roadmap.md#cloud) for planned items.
-
 ## Roadmap
 
-The cloud team roadmap is tracked in [productboard](https://sourcegraph.productboard.com/feature-board/2119755-cloud)
-
-Unplanned:
-
-- [Non-Git VCS](https://docs.google.com/document/d/1Y2xYbckAz5jlBePER_BarypeDfP3mjjX9bBOZm3ALqY/edit#heading=h.m60esa7uysvx)
+The Cloud project roadmap is tracked in [productboard](https://sourcegraph.productboard.com/feature-board/2119755-cloud)

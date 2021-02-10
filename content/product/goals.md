@@ -15,21 +15,21 @@ _Updated 2020-09-18_
   - Reorganize documentation to increase readability and improve navigation
   - Establish new documentation workflow, guidelines, and templates
   - Audit existing documentation to repurpose, update, and archive (where needed)
-  
+
 ### Increase user retention
 
 - **Owner:** Product team (PMs + Design)
 - **Timeline:** ~3-6 months
 - **Status:** In progress.
 - **Outcomes:**
-   - Increase enterprise week 2 retention by [*N<sub>1</sub>*][N1]% through onboarding UX
-      - Baseline: [*N<sub>2</sub>*][N2]
-   - Increase browser extension usage by [*N<sub>3</sub>*][N3]%
-      - Baseline: [*N<sub>4</sub>*][N4] WAUs
-   - Increase Sourcegraph extension usage by [*N<sub>5</sub>*][N5]%
-      - Baseline: [*N<sub>6</sub>*][N6] WAUs
-   - Increase WAUs (weekly active users) by [*N<sub>7</sub>*][N7]%
-      - Baseline: [*N<sub>8</sub>*][N8] WAUs
+  - Increase enterprise week 2 retention by [_N<sub>1</sub>_][n1]% through onboarding UX
+    - Baseline: [_N<sub>2</sub>_][n2]
+  - Increase browser extension usage by [_N<sub>3</sub>_][n3]%
+    - Baseline: [_N<sub>4</sub>_][n4] WAUs
+  - Increase Sourcegraph extension usage by [_N<sub>5</sub>_][n5]%
+    - Baseline: [_N<sub>6</sub>_][n6] WAUs
+  - Increase WAUs (weekly active users) by [_N<sub>7</sub>_][n7]%
+    - Baseline: [_N<sub>8</sub>_][n8] WAUs
 
 ## Medium term
 
@@ -40,7 +40,7 @@ _Updated 2020-09-18_
 - **Status:** In progress.
 - **Outcome:** Design is fully integrated into Sourcegraph (we operated for ~1 year without a designer on the team, and we are re-establishing how we do design at Sourcegraph). The collaboration process is documented and well understood (validated through real projects) by the entire team (product, design, engineering). New members to the team can quickly understand how we collaborate. Process exists to create clear lines of ownership and accountability, handoff moments, not to restrict or dictate how to work. Metrics driven approach, quality and commitment to solving problems. We are regularly performing UX audits.
 - **Metrics:**
-   - Documented in the handbook
+  - Documented in the handbook
 
 ### Perform a customer journey map of Sourcegraph
 
@@ -72,9 +72,9 @@ _Updated 2020-09-18_
 - **Status:** In progress.
 - **Outcome:** New users have better retention. Increase usage of new users. Get new users to understand the value proposition of Sourcegraph.
 - **Metrics:**
-   - Increase WAUs
-   - Week 2 retention
-   - Search learning curve metric
+  - Increase WAUs
+  - Week 2 retention
+  - Search learning curve metric
 
 ### Increase visibility and discoverability of core Sourcegraph features
 
@@ -83,23 +83,23 @@ _Updated 2020-09-18_
 - **Status:** In progress, currently working on Extension discoverability.
 - **Outcome:** Increase user understanding of extensions, browser extension, saved searches. Improvements to information artchitecture and design consistency.
 - **Metrics:**
-   - Increase visits
-   - Increase creation of and usage of extensions
-   
+  - Increase visits
+  - Increase creation of and usage of extensions
+
 ### Create baseline for public (and eventually private) code on Sourcegraph Cloud
 
 - **Owner:** Quinn K.
 - **Timeline:** ~2 months
 - **Status:** In progress
-- **Outcome:** Any user can add public code from GitHub.com, GitLab.com, and Bitbucket Cloud. Support accomplishing [Cloud milestones 1 and 2](https://about.sourcegraph.com/handbook/engineering/cloud#milestones).
+- **Outcome:** Any user can add public code from GitHub.com, GitLab.com, and Bitbucket Cloud. Support accomplishing [Cloud milestones 1 and 2](https://about.sourcegraph.com/handbook/engineering/core-application/goals#goals).
 - **Metrics:**
-   - To be determined
+  - To be determined
 
-[N1]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.pbee6s39npxe
-[N2]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.u8usndilekr3
-[N3]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.tw3f5leunmk0
-[N4]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.jqiim81p8zvb
-[N5]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.hka32mpfz9ws
-[N6]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.g6oo5rramvpb
-[N7]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.87kmhwjskbfr
-[N8]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.cbcufz4r1f61
+[n1]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.pbee6s39npxe
+[n2]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.u8usndilekr3
+[n3]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.tw3f5leunmk0
+[n4]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.jqiim81p8zvb
+[n5]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.hka32mpfz9ws
+[n6]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.g6oo5rramvpb
+[n7]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.87kmhwjskbfr
+[n8]: https://docs.google.com/document/d/1l6waCjzVlisYJ1PziNjO9QWF0ExmBMxWg5jWMpt4YW0/edit#bookmark=id.cbcufz4r1f61

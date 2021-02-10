@@ -14,7 +14,7 @@ The product team consists of the product managers, product designers, and techni
 - [Product design](design/index.md)
   - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) - ([Campaigns](../engineering/campaigns/index.md)) and ([Search](../engineering/search/index.md))
   - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) - ([Web](../engineering/web/index.md)), ([Code Insights](../engineering/code-insights/index.md)) and ([Code intel](../engineering/code-intelligence/index.md))
-  - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) - ([Cloud](../engineering/cloud/index.md)) and ([Search (Code monitoring & contexts)](../engineering/search/index.md))
+  - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) - ([Core application](../engineering/core-application/index.md)) and ([Search (Code monitoring & contexts)](../engineering/search/index.md))
 - [Technical writing](technical_writing/index.md)
 
 ### [Roles](roles/index.md)
