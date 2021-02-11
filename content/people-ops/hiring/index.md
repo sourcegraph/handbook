@@ -152,6 +152,10 @@ When the offer is approved, the hiring manager and a representative from the Peo
 
 Once the candidate verbally accepts the offer, Sourcegraph legal team will send the official DocuSign with the appropriate contracting or employment agreement(s) for the candidate's role, status, and location. Templates for employees and contractors can be found in the shared [HR/Employees/Contractors Dropbox folder](https://www.dropbox.com/home/Legal/HR%3AEmployees%3AContractors).
 
+## Policy on outreaching to prospective candidates that work at a Sourcegraph customer
+
+It is okay to reach out to these prospective candidates. Do not mention their current employer or team being a customer of ours in the outreach. We should always be targeted in the people we outreach to because of their skills and experience. We should not be using our customer vendor relationship as a way to outreach to our customer's employees.  
+
 ## Policy for candidates re-applying to roles
 
 Candidates are able to re-apply for roles at any time. The hiring team will review all relevant information, including past interviews, when considering a person's candidacy.
