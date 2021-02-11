@@ -38,6 +38,7 @@ Plans can change!
 
 - [Beyang Liu](../../../company/team/index.md#beyang-liu), CTO
 - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering)
+    - FQ1 Executive Business Assistant
     - Search and replace (WIP name) {#search-and-replace}
         - FQ2 Director of Engineering, Nick acting manager until then.
         - [Team: Search core backend](search/index.md#search-core-backend-eng)
