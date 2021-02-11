@@ -12,12 +12,11 @@ Sourcegraph collects a number of data points through pings that are used to unde
 
 - **Status**: In Progress. _Estimate FY22-Q1_
 - **Outcomes**:
-  - We have a tool in place to store and query site-admin data.
   - We can survey site-admins actively or passively.
-  - CE/CS can relay site-admins feedback and requirements which we can report on.
 - **Milestones**:
   1. We have defined an initial set of data points we wish to collect.
-  1. The is a process and tool in place that allows CE/CS and direct site-admins to relay feedback provided by site-admins.
+  1. We have a tool in place to store and query site-admin data.
+  1. There are processes and tools that allows CEs, CSEs and site-admins provide feedback.
   1. We have collected data from 10 site-admins.
 
 ### [Improve internal deployment pipeline UX](https://github.com/orgs/sourcegraph/projects/96)
