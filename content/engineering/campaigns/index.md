@@ -115,7 +115,6 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
   - [Erik Seliger](../../../company/team/index.md#erik-seliger)j
   - FQ1 [full-stack engineer](https://jobs.lever.co/sourcegraph/886e4343-6efc-4ab1-b204-f9115cfdeae3)
   - FQ2 engineer
-  - FQ3/4 TBD
 
 ## Related links
 

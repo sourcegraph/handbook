@@ -43,21 +43,21 @@ Plans can change!
         - FQ2 Director of Engineering, Nick acting manager until then.
         - [Team: Search core backend](search/index.md#search-core-backend-eng)
         - [Team: Search product](search/index.md#search-product-eng)
-        - Code intelligence
+        - [Code intelligence](code-intelligence/index.md)
             - [Team: Code intelligence](code-intelligence/index.md#code-intelligence-eng)
-        - Campaigns
+        - [Campaigns](campaigns/index.md)
             - [Team: Campaigns](campaigns/index.md#campaigns-eng)
     - Web (WIP name) {#web}
         - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) ([Engineering Manager](roles.md#engineering-manager))
         - [Team: Frontend platform](web/index.md#frontend-platform-eng)
         - [Team: Extensibility](web/index.md#extensibility-eng)
-        - Code insights
+        - [Code insights](code-insights/index.md)
             - [Team: Code insights](code-insights/index.md#code-insights-eng)
     - Platform and infrastructure {#platform-and-infrastructure}
         - [FQ1 Director of Engineering](https://jobs.lever.co/sourcegraph/8fcbaade-e511-4d93-bd9b-9cc7ec3438af), Nick acting manager until then.
-        - Security
+        - [Security](security/index.md)
             - [Team: Security](security/index.md#security-eng)
-        - Distribution
+        - [Distribution](distribution/index.md)
             - [Team: Distribution](distribution/index.md#distribution-eng)
         - [Team: Core application](core-application/index.md#core-application-eng)
         - [Team: Backend platform](core-application/index.md#backend-platform-eng)
