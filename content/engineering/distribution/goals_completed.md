@@ -2,17 +2,65 @@
 
 This page records goals completed by the Distribution team historically. See also our [current goals](goals.md).
 
+- [**2021**](#2021)
+  - [FY-22-Q1](#FY-22-Q1)
 - [**2020**](#2020)
-  - [FY-20-Q4](#FY-20-Q1)
-  - [FY-20-Q3](#FY-20-Q1)
-  - [FY-20-Q2](#FY-20-Q1)
-  - [FY-20-Q1](#FY-20-Q1)
+  - [FY-21-Q4](#FY-21-Q4)
+  - [FY-21-Q3](#FY-21-Q3)
+  - [FY-21-Q2](#FY-21-Q2)
+  - [FY-21-Q1](#FY-21-Q1)
 - [**2019**](#2019)
-  - [FY-19-Q4](#FY-19-Q4)
+  - [FY-20-Q4](#FY-20-Q4)
+
+## 2021
+
+### FY-22-Q1
+
+### [Upgrades between releases are easy to perform](https://github.com/orgs/sourcegraph/projects/71)
+
+Performing upgrades to deployments is currently a complicated process that requires keeping a fork of our configuration and resolving diff conflicts when performing upgrades which are often complicated as the configuration might contain environment-specific customization. This process creates a bad experience for our customers because of the unknown amount of effort of the upgrade process.
+We will start by looking at our Kubernetes deployment and working on an easier update process.
+
+- **Owner**: Geoffrey, Uwe
+- **Status**: Parked
+- **Outcomes**:
+  - Upgrades to deployments do not require resolving diff conflicts from upstream.
+  - Upgrading a deployment configuration requires less than 2 hours of work.
+- **Milestones**:
+  - ~~Research and evaluate possible tools.~~ Done: `3.19`
+    - ~~Bash/JQ.~~
+    - ~~Cue.~~ Done: `3.17`
+    - ~~Dhall.~~ Done: `3.18`
+  - ~~Create a Kubernetes deployment PoC.~~ Done: `3.19`
+  - ~~Design Dhall Architecture.~~ Done: `3.20`
+  - ~~Create a demo video/presentation to gather customer feedback.~~ Done: `Dist: 2020.11.30`
+  - ~~Migrate all Sourcegraph components to Dhall code~~ Done: `2021.02.05`
+  - ~~Use Dhall to generate public Kubernetes manifests. _Estimated: FY21-Q1_~~
+  - ~~Migrate internal deployments to Dhall, onboard other teams on how to make changes with Dhall and collect feedback.~~
+  - ~~Create customer facing migration path and how-to documentation. _Estimated: FY21-Q1_~~
+  - ~~Migrate a highly technical customer to Dhall and collect usage feedback. _Estimated: FY21-Q1_~~
+  - ~~Design customization workflow. _Estimated: FY21-Q1_~~
+    - ~~Potentially Kustomize would still be used for last-mile changes and non-standard derivations.~~
+
+### [Split Cloud infrastructure into separate GCP projects](https://github.com/orgs/sourcegraph/projects/92)
+
+- **Owner**: Gonza
+- **Outcomes**:
+  - ~~We have a clear guideline on when to split resources to new projects.~~ Deprioritized
+  - We report the cost of each project.
+  - ~~We can set spending limits for dynamic environments.~~ Deprioritized
+- **Milestones**:
+  - ~~Create initial GCP structure.~~ Done: 3.19
+  - ~~Move non-production projects to folders.~~ Done: 3.20
+  - ~~Move CI to a new GCP project.~~ Done: 3.21
+  - ~~Move non-production deployments to separate projects.~~ Done: 3.21
+  - ~~Create code to bootstrap new projects.~~ Done: 3.21
+  - ~~Document project and folder usage guidelines.~~
+  - ~~Set spending limits for dynamic environments.~~ Descoped
 
 ## 2020
 
-### FY-21-Q1
+### FY-21-Q4
 
 ### Any engineer at Sourcegraph can create a release for all of our supported deployment types
 
@@ -34,8 +82,6 @@ We want to enable any engineer to perform a release as often as needed, to enabl
   - ~~[Releases can be done automatically (e.g. CLI command, `/` command in Slack, etc.)](https://github.com/orgs/sourcegraph/projects/131)~~._Descoped_: See "Descoped outcomes"
 - **Descoped outcomes**:
   - [Releases can be done automatically (e.g. CLI command, `/` command in Slack, etc.)](https://github.com/orgs/sourcegraph/projects/131): this outcome was descoped since the work on this goal has brought the release process to a reasonable state, and a [preliminary investigation](https://github.com/sourcegraph/sourcegraph/issues/9252#issuecomment-761713632) indicated that there might be diminishing returns from additional work on this. A new goal has been created to track work on this.
-
-### FY-20-Q4
 
 #### Automatic e2e testing
 
@@ -62,7 +108,7 @@ We have had customers interested in deploying Sourcegraph at large-scale with ~5
 - [Tracking issue](https://github.com/sourcegraph/customer/issues/57)
 - Discussions: [Initial planning issue](https://github.com/sourcegraph/customer/issues/57), [discussion about costs at this scale](https://github.com/sourcegraph/customer/issues/20)
 
-### FY-20-Q3
+### FY-21-Q3
 
 #### Docker-compose should be released on-time (on the 20th)
 
@@ -90,23 +136,15 @@ We have standardized alerting across our deployment methods, but it is very diff
 
 - Owner: Robert
 
-### FY-20-Q2
+### FY-21-Q2
 
 (This section left empty as we were using a different goal system during this time.)
 
-### FY-20-Q1
+### FY-21-Q1
 
 (This section left empty as we were using a different goal system during this time.)
 
 ## 2019
-
-### FY-19-Q1
-
-(This section left empty as we were using a different goal system during this time.)
-
-### FY-19-Q4
-
-(This section left empty as we were using a different goal system during this time.)
 
 #### Push admins to upgrade more frequently
 
