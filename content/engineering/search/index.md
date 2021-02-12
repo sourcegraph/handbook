@@ -55,13 +55,13 @@ Iterations start **every other Monday**.
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
 - We're hiring a [Product Manager](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designers](../../product/roles/product_designer.md))
-- [Search core backend](.) {#search-core-backend-eng}
+- [Search core backend](#search-core-backend-eng) <span id="#search-core-backend-eng"></span>
     - FQ2 [Engineering Manager](../roles.md#engineering-manager), Loïc acting manager until then.
         - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
         - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
         - FQ1 [backend engineer](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
         - FQ3 [backend engineer](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
-- [Search product](.) {#search-product-eng}
+- [Search product](#search-product-eng) <span id="#search-product-eng"></span>
     - [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
         - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
         - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)

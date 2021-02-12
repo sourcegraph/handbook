@@ -61,7 +61,7 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
 - We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/product_designer.md))
-- [Core application](.) {#core-application-eng}
+- [Core application](#core-application-eng) <span id="#core-application-eng"></span>
     - [FQ1 Engineering Manager](https://jobs.lever.co/sourcegraph/95ad534f-8724-45dc-9b50-291c5926a7dc), Tomás acting manager until then.
         - [Joe Chen](../../../company/team/index.md#joe-chen)
         - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
@@ -70,7 +70,7 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
         - [Alex Russell-Saw](../../../company/team/index.md#alex-russell-saw-he-him)
         - I. G. estimated start date is March 1st 2021
         - FQ2 frontend engineer
-- [Backend platform](.) {#backend-platform-eng}
+- [Backend platform](#backend-platform-eng) <span id="#backend-platform-eng"></span>
     - FQ2 [Engineering Manager](../roles.md#engineering-manager), Tomás acting manager until then.
         - [Tomás Senart](../../../company/team/index.md#tomás-senart)
         - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
