@@ -27,7 +27,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Finish implementing search contexts UI
     - Search contexts are ready for user testing on Cloud
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-02-12: Search context dropdown is now populated with real data, search contexts can be selected (keyboard or mouse interaction), context is appended to the query when copying, and context filter is fully supported on the frontend.
 
 ## 2021-01-25 to 2021-02-05
 
