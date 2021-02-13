@@ -52,5 +52,6 @@
 - Go through the [analytics onboarding](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md). This onboarding is within Looker, so if you don't have an account you can ask for access in #analytics.
 - Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
 - Learn how we can (and cannot) [reference our customers externally](../../sales/index.md#customer)
+- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../../../company/remote/teammate-recommended_productivity_hacks.md). 
 
 Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
