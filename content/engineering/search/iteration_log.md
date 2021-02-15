@@ -19,7 +19,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
     - Implement frontend and backend components to support `select` filtering. See overview of work in [#18002](https://github.com/sourcegraph/sourcegraph/issues/18002) and RFC 254.
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-02-12: `select:` functionality is live on Sourcegraph.com as of Sunday 15 Feb (for some reason deploys didn't go through on Friday?. It's working--next work items to address are around `limitHit`/`show more` functionality, optimizations, and extensions for `symbols`. We still have to add metrics capturing/pings. The current issue #18002 tracks these items.
 
 ### Search contexts
 - **Owner(s):** Rok, Juliana
