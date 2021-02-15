@@ -27,6 +27,7 @@ We work with many other teams at Sourcegraph, including:
 	* [Filing customer issues](customer_issues.md)
 	* [User deletion](delete_users_guide.md)
 	* [Creating and maintaining license keys for customers](license_keys.md)
+	* [Moving off the insiders build](leaving-insiders-build.md)
 * Collaboration
 	* [Sales-to-CE new customer handover process](../sales/sales_to_ce_handover.md)
 	* [CE-to-Engineering issue handover process](ce_to_eng_handover.md)
