@@ -25,7 +25,7 @@ Our existing deployment pipelines to our Sourcegraph instances (such as Sourcegr
 
 - **Status**: Not started. _Estimated: FY22-Q1_
 - **Outcomes**:
-  - Our deployment pipeline earns a 9+ score from Sourcegraph engineering team.
+  - Our deployment pipeline earns a positive score from Sourcegraph engineering team.
   - Fix the top 5 problems as highlighted by Sourcegraph engineers.
 - **Milestones**:
   1. Survey all Sourcegraph engineers to score our current deployment pipeline.
