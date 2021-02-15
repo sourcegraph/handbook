@@ -30,7 +30,7 @@ For each interview we ideally want:
 
 Interviewers may be adjusted due to scheduling difficulties (e.g. interviewer availability, timezones).
 
-We want to mimimize the bias in our hiring process, so we will try to avoid scheduling you as an interviewer for candidates that you have an existing relationship with (e.g. close friends, family, significant others, candidate who you refer). This may be unavoidable if you are the hiring manager.
+We want to minimize the bias in our hiring process, so we will try to avoid scheduling you as an interviewer for candidates that you have an existing relationship with (e.g. close friends, family, significant others, candidate who you refer). This may be unavoidable if you are the hiring manager.
 
 ## Scheduling
 
