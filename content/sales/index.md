@@ -104,52 +104,7 @@ If the Manager accepts trade/Account will be transferred to AE. AE’s SDR will 
 
 See also the [MQL (marketing-qualified lead) definition](../marketing/index.md#mql).
 
-### Interest
-
-> ~20% probability of winning
-
-The **Interest** stage is under construction
-
-### Qualification
-
-> ~40% probability of winning
-
-The **Qualification** stage is for leads where **ALL** of the following are true:
-
-1. The company has expressed some form of interest/need in Sourcegraph.
-1. We have *completed an intro call/meeting* with the company.
-
-Other notes:
-
-1. We may still be collecting specific info on their pain points and use cases.
-1. We may still be gathering info to confirm the deal amount (and close date).
-   - If we determine that the potential deal amount is <$22,800, then Sales will make a call on whether to proceed, or revert them back to the lead stage, or recommend that they just use our free product.
-1. We may still be actively pitching Sourcegraph to them, but have *not* received commitment to move forward yet (they are not fully sold on Sourcegraph’s value) and they have expressed reservations or open questions to be answered.
-1. They may have expressed interest in setting up a Sourcegraph trial, and may still be in an active trial period.
-1. We may still be collecting technical requirements from them, in order to alert the [Engineering team](../engineering/index.md) of any custom work needed.
-1. Note that a deal could remain in the Qualification stage for several months.
-
-### Evaluation
-
-> ~60% probability of winning
-
-The **Evaluation** stage is for opportunities where **ALL** of the following are true:
-
-- We have *completed our “sales pitch*, they fully understand and believe there is value in Sourcegraph to improve/solve at least one area for their developers.
-- We have received some signal to move forward.
-    1. Deal may however be stalled by procurement review.
-- We have explained to them our different pricing plan options, and they are actively evaluating/discussing on their end (or are negotiating terms with us about running the evaluation).
-- We are in contact with the individuals who have the authority to make purchasing decisions.
-
-### Contract Negotiation
-
-> ~80% probability of winning
-
-Note that this is a stage we may add in the future to indicate we are almost at the finish line, in that they have received our SOW but there are some remaining negotiations with the terms before they sign. Our attorneys may or may not have been looped in for assistance.
-
-### Closed Won
-
-Deal signed!
+See [Our Stages and the reasoning behind them.](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/)
 
 ### Maintaining customer spreadsheets
 
