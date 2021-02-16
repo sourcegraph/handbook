@@ -1,137 +1,177 @@
-# Sales
+# How we use Salesforce
 
-The Sales team represents us and our values to customers, bringing back dollars and feedback to help us grow.
+This document describes how the sales team is using Salesforce. 
 
-- [Account Tiers](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit?ts=5f7e4023#heading=h.qdguquy7dt7i)
-- [Pricing](https://about.sourcegraph.com/pricing)
-- [Common questions from prospective customers](common_customer_questions.md)
-- [Sales team onboarding](onboarding/index.md)
-- [SDR Team](sdrteam.md)
-- [Sales interview process](interviews/index.md)
-- [Recording lead and customer emails, calls, and notes](records.md)
-- [Using Salesforce](salesforce.md)
-- [Sales Resources](salesresources.md)
-- [Engaging with Legal](saleslegal.md)
+Note: Please refer to it as Salesforce (instead of SF or SFDC) in accordance with our [content guidelines](../communication/content_guidelines/style_and_mechanics.md#abbreviations-acronyms-latinisms-jargon). 
 
-## Pipeline, data, and models
+Jump to:
 
-- [Transactions](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=0)
-- [FY21 plan](https://docs.google.com/spreadsheets/d/1EkZ7O69-2jbgtacoFDrY8L6rP73Hlqp_syyVCnmGAFA/edit#gid=1071026049)
-- [Looker dashboard](https://sourcegraph.looker.com/browse/boards/2)
+- [Updating information in Salesforce](#updating-information-in-salesforce)
+- [HubSpot and Salesforce connection](#hubspot-and-salesforce)
+- [Salesforce automation](#salesforce-automation)
 
-## Goals
+## Salesforce General Principles
 
-TODO
+1. If it's not in Salesforce, it doesn't exist. Salesforce data will be used to resolve any territory/ownership disputes
+1. All Salesforce Users are responsible for keeping Salesforce up-to-date as a [source of truth](../communication/index.md#sources-of-truth). If you come across incomplete or inaccurate data, take a moment to update it. This will help us keep the system usable and prevent many issues as we scale.
+1. All Sales Users will work out of Accounts, Contacts, Opportunites, but the Leads Object should only be used for SDRs
 
-## Members
+## Salesforce access
 
-- [Gregg Stone](../../company/team/index.md#gregg-stone) (VP of Sales)
-- [Josh Bollin](../../company/team/index.md#josh-bollin) (RVP of East)
-  - [Kai Passo](../../company/team/index.md#kai-passo-he-him)
-  - [Bill Kolman](../../company/team/index.md#bill-kolman)
-  - [Eli Rothschild](../../company/team/index.md#eli-rothschild-he-him)
-  - [Scott Cambell](../../company/team/index.md#scott-campbell-he-him)
-  - [Hannah Freilich](../../company/team/index.md#hannah-freilich)
-  - Dan Braun
-- [Greg Bastis](../../company/team/index.md#greg-bastis-he-him) (RVP of West)
-  - [Owen Brennan](../../company/team/index.md#owen-brennan-he-him)
-  - [Chris Surdi](../../company/team/index.md#chris-surdi)
+Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @business-team in #sales. 
 
-### Roles
+## About Salesforce objects
 
-See [roles](./roles/index.md) page.
+Salesforce has two main categories: leads and opportunity/account/contacts. Leads are single individuals that have not been qualified yet, and therefore are not associated with an account or opportunity. When a lead has revenue potential, they're converted to an opportunity. In this stage, an account (known in HubSpot as a company), a contact, and an opportunity (known in HubSpot as a deal) are created.
 
-## How sales works with other Sourcegraph teams
+Opportunities begin at the [interest](index.md#interest) stage.
 
-### [Customer engineering](../ce/support.md) (for customer support)
+## Lead Object
 
-- [Sales-to-CE new customer handover process](sales_to_ce_handover.md)
-- [How to request support (for customers)](../ce/support.md#how-to-get-support-for-customers)
-- [Creating and maintaining license keys for customers](../ce/license_keys.md)
+### Lead Creation
 
-### [Team members who want to join calls](onboarding/joining_customer_calls.md)
+Leads are single individuals that have not been qualified yet, and therefore are not associated with an account or opportunity. Leads can be created in Salesforce in a few different ways:
 
-## Definitions
+- Inbound Marketing Lead - automatically created via Hubspot when a user takes an action on our website
+- SDR Created - SDR either manually creates a new lead or uploads a list
+- Other Offline Sources - list uploaded from marketing event, webinar, etc.
 
-### ARR
+### Lead Source
 
-Annual Recurring Revenue (ARR) is the dollar value of contracted recurring revenue in a (normalized) one-year period.
+Every Lead should have a value in the Lead Source field. The Lead Source value is set automatically for inbound leads based on the origination of the lead. For other sources (like referrals), this value should be set by the SDR when creating the Lead.
 
-### IARR
+Lead Source values include:
 
-Incremental [ARR](#arr) (IARR) is the change in ARR from one period to another.
+- Inbound - any inbound lead generated from a Contact Form, Demo Request, Trial Request, Sourcegraph.com Account Setup, Install, etc.
+- Referral - any lead that was referred by a partner, investor, customer, employee, etc.
+- SDR Created - any lead created by an SDR
+- Event - lead attended an event, webinar, or similar
+- Feedback Form - NPS Form Submissions
+- Other
 
-### New IARR
+### First Touchpoint
 
-New [IARR](#iarr) is IARR from *new customers* (i.e., organizations that were **not** existing customers at the beginning of the period). See also [expansion IARR](#expansion-iarr).
+First Touchpoint is a slightly more granular version of Lead Source and is set automatically in Hubspot.
 
-### Expansion IARR
+First Touchpoint values include:
 
-Expansion [IARR](#iarr) is IARR from *existing customers* (i.e., organizations that were already customers at the beginning of the period).
+- Private Instance - installs
+- Sourcegraph.com Account
+- Contact/Demo Form
+- Inbound Email (support, contact)
+- Feedback Form
+- Referral
+- Event
+- Other
+- Content download
+- Subscription
 
-If within a single period a new customer signs a contract which then grows in ARR before the end of the period, the total ending ARR is all considered [new IARR](#new-iarr), not expansion IARR. For example, if Acme Corp signs a $100k contract on February 3 and then the contract expands to $200k on March 5, all $200k would be considered new IARR for Q1.
+### Lead Status
 
-### Booking
+Lead Status indicates the stage of a lead in the workflow process.
 
-A booking is when a customer commits to pay us money. This includes when:
+Lead Status values include:
 
-- A new customer just started paying self-service or signed a contract
-- An existing customer (depending on their contract) takes an action that increases the amount of revenue we will earn from them (such as growing usage or using more premium features)
-- An existing customer renews (including when the renewal is for the same ARR as the previous period)
+- New
+- Working - SDR is actively engaging new lead
+- Nurture - lead has potential, but is not ready to be converted
+- Self-Service - lead is best served by our self-service offering
+- Unqualified - lead is unqualified for our services, used for job candidates, students, etc.
+- Bad-Data
+- Converted - auto-set upon conversion of lead
+- Replied - lead responded from an Outreach sequence
+- Unresponsive - lead has not responded to an Outreach sequence
 
-### Customer
+### Lead Assignment
 
-A customer is an organization with a Sourcegraph subscription contract that has not ended.
+New Inbound leads are round-robined automatically to SDRs.
 
-1. We can only publicly mention the names of customers who have explicitly agreed to be referenceable.
-    - Customers mentioned on [about.sourcegraph.com](https://about.sourcegraph.com/) (by logo and/or case study) are referenceable.
-    - If in doubt about whether another customer is referenceable by name, ask in #sales.
-1. If an organization's contract will start in the future, they are still considered a customer. (This can happen when we agree to have a contract start on the next 1st of the month because that makes life easier for a customer, for example.)
+### New Lead Workflow
 
-### Sales Accepted Opportunity (SAO)
+SDR monitors new inbound Leads using a [Lead View](https://sourcegraph2020.lightning.force.com/lightning/o/Lead/list?filterName=00B3t00000DWfRpEAL) in Salesforce. SDR will also receive email/slack notification upon new high-priority lead (demo request, contact form, etc.)
 
-Sales Accepted Opportunities are where ALL of the following are true:
+SDR scrubs the Lead to confirm / enrich contact info fields - Name, Company, Title, Email Address, Phone Number, etc.
 
-- We have completed an intro call/meeting with the company/contact
-- Company/contact has expressed some form of interest/need in Sourcegraph
-- Contact can be a potential champion or coach
-- Company has >50 Developers
-- We have next steps
+SDR dedupes the lead to look for recent activity, open/recently closed opportunities, etc. to determine eligibility to work based on the Rules of Engagement
 
-Any Opportunity that is moved into the Qualification Stage or beyond is automatically tagged as Sales Accepted Opportunity in Salesforce
+- If eligible to work, SDR should update Lead Status to “Working” and begin outreach
+- NOTE: we target <5 mins from new Lead Creation to First Touch during working hours, with a firm SLA of 24 hours for updating the Lead Status of any New Lead
 
-### Target Opportunity Profile:
+### Inbound Lead-to-Opportunity Conversion Workflow
 
-SDRs should focus on identifying and setting meetings for the AE team that meet the following criteria:
+If a Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
-Relevant contact (potential champion or coach) that is aware of / understands code search in some capacity (has used Sourcegraph or another code search tool like OpenGrok, has worked for Google/Facebook and used their tool)
+- SDR confirms the receiving AE of the Opportunity using the [AE Round-Robin Tracker](https://docs.google.com/spreadsheets/d/1Uqx3GSLFzzAptrMaowVJLkViAdOQ3gimUL8PVBm8EkQ/edit#gid=0)
+- SDR schedules meeting with the Lead and the receiving AE
+- SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new)
+- At this point, the Opportunity will be in Stage 1 - Interest
+- SDR logs all pertinent information - call/email notes, research on contact/company, and any additional context that is helpful for the AE to be prepared for the initial call / understand the justification for creating an Opportunity
+SDR joins this initial call to make the AE intro and listen to the call for feedback
 
-OR
+### Rules of Engagement (ROE)
 
-Title/role includes developer productivity, developer experience, API services, distinguished eng, platform engineer, director+ eng
+- If it’s not in Salesforce it doesn’t exist - make sure all activity is in Salesforce
+- You can only prospect into accounts in your name (if you want to add an unassigned account to your list, just ping me)
+- **For Inbound Leads:** If lead comes in for an account that has an open opportunity, the SDR should connect with the AE to determine whether the SDR should work (entirely new contact/business unit/etc.) or convert to the AE (related to the existing opp)
+- If an SDR has touch (any email, call, etc.) within the past 30 days on an account/lead/contact for a new Inbound Lead, that lead should be routed to that SDR to work
+- **For Assigning Opps:** All Opportunities being converted from Inbound Leads will be round-robined unless:
+- AE/SDR pair has touch within the past 30 days on the account
+- AE has a closed opp within the past 90 days on the account
 
-AND
+**NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
 
-Company has 50+ devs
+## Opportunity Object
 
-### Target Account
+### Associating contacts to opportunities
 
-Target Accounts are prospective customer accounts that the AE/SDR has specifically identified as priority accounts for outbound prospecting efforts.
+All of the contacts important to an opportunity should be linked. This should include the technical decision-maker, the economic decision-maker (if they are different) and the original member who introduced Sourcegraph to the organization.
 
-Target Accounts can be easily identified in Salesforce by the “Target Account” field designation. To make any updates to this field on a particular account, please contact your manager.
+This ensures that all deal-related communication is visible within the deal timeline for teammates to quickly get context surrounding the deal. This also allows us to evaluate the effectiveness of marketing channels and sales touchpoints that our team has with an organization. How we reached the person(s) who introduced Sourcegraph to their organization is one of the most important factors in evaluating the success of marketing activities.
 
-AE can trade a targeted account for an unassigned account with managers approval. Must be in writing and sent to the Manager.
-If the Manager accepts trade/Account will be transferred to AE. AE’s SDR will be assigned automatically to account and should be notified of the change in ownership.
+If a deal comes through a referral or introduction, tell [BizOps](../ops/bizops/index.md) so an adjustment can be made in the database to reflect this.
 
-## Stages
+### When a deal is won
+1. Move the deal to ‘Closed Won’. 
+1. Mark the column ‘End of contract’ with the last day of the contract. Salesforce will [automatically create a renewal deal](#renewal-deals) based on this date. 
+1. Ensure the appropriate 'deal won reason' fields reflect the main factors that contributed to the opportunity being won. 
 
-See also the [MQL (marketing-qualified lead) definition](../marketing/index.md#mql).
+### When a deal is lost
+1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../ops/bizops/index.md) about adding one. 
+1. Expand upon the reason in the longform ‘Closed Lost Reason’ field.
 
-See [Our Stages and the reasoning behind them.](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/)
+### Recording outbound activity
 
+TBD
 
-### Maintaining customer spreadsheets
+## HubSpot and Salesforce
 
-Maintaining [Server Installers to Company List](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit?usp=sharing) and [Server to Company List](https://docs.google.com/spreadsheets/d/1wo_KQIcGrNGCWYKa6iHJ7MImJ_aI7GN12E-T21Es8TU/edit?usp=sharing) spreadsheets for every new company on a trial and new customers.
+### HubSpot to Salesforce sync
 
-These are used as join tables in Looker, and are important to connect instance data to a specific customer.
+All HubSpot contacts are synced to Salesforce, usually within 15 minutes. The [complete settings are in HubSpot](https://app.hubspot.com/integrations-settings/2762526/installed/salesforce/contacts), but the most important of the synced fields are:
+
+- Basic contact info (name, email)
+- Their lead source based on First Page Seen
+- Most ZoomInfo enriched fields
+- MQL date and checkbox
+- NPS survey results attached to the contact
+
+Contacts are synced as Leads in Salesforce, and become Opportunity/Account/Contact if the Lead is an MQL (based on MQL_checkbox = TRUE/YES)
+
+### Salesforce to HubSpot sync
+
+Any update on the lead/contact in Salesforce will sync back to HubSpot (name, email, MQL checkbox, etc...). Companies and opportunities will not be synced back; Salesforce is the source of truth for these objects. 
+
+### What HubSpot still does
+
+- Everything marketing (email campaigns, workflows, lead capture/forms, including NPS scores)
+- Links to customers from RFCs, GitHub issues, etc. are still accessible. This will eventually be deprecated
+
+## Salesforce automation
+
+### Leads to Opportunities
+
+Leads are put into a round robin process when either the MQL, SDR or Referral checkbox is checked. 
+
+## Renewal deals
+
+6 month before the end of a contract, a renewal deal with the Customer Engineer as owner is created in the Renewals pipeline.
