@@ -23,6 +23,7 @@ We work with many other teams at Sourcegraph, including:
 	* [Sourcegraph office hours](training.md#sourcegraph-office-hours)
   * [Demo instances](demo_instances.md)
 * [Support](support.md)
+	* [Legacy support overview](legacy-support-overview.md)
 	* [How to route questions from customers](routing_questions.md)
 	* [Filing customer issues](customer_issues.md)
 	* [User deletion](delete_users_guide.md)
