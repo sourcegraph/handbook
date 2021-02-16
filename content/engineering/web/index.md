@@ -14,8 +14,8 @@ This is a large ownership area, so the team creates a focused plan each iteratio
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/product_manager.md)*)
-- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/product_designer.md))
+- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)*)
+- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
 - [Frontend platform](index.md) {#frontend-platform-eng}
    - FQ1 [Engineering Manager](../roles.md#engineering-manager), Jean acting manager until then.
          - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)

@@ -94,8 +94,8 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](../../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../product/roles/product_manager.md))
-- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/product_designer.md))
+- [María Craig](../../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
 - [Owen Convey](../../../company/team/index.md#owen-convey-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#code-intelligence-eng}
   - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
   - [Garo Brik](../../../company/team/index.md#garo-brik-they-them)

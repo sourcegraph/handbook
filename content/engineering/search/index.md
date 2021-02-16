@@ -53,8 +53,8 @@ Iterations start **every other Monday**.
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-- We're hiring a [Product Manager](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
-- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designers](../../product/roles/product_designer.md))
+- We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designers](../../product/roles/index.md#product-designer))
 - [Search core backend](index.md) {#search-core-backend-eng}
     - FQ2 [Engineering Manager](../roles.md#engineering-manager), Loïc acting manager until then.
         - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)

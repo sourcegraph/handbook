@@ -1,25 +1,22 @@
 # Product
 
+Product at Sourcegraph consists of [product management](product_management/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md)
 ## Team
 
-The product team consists of the product managers, product designers, and technical writers on the team.
+[Roles and responsibilities](roles/index.md) of the product team.
 
 ### Members
 
 - [Christina Forney](../../../company/team/index.md#christina-forney-she-her), VP Product
-- [Product management](product_management/index.md)
-  - [María Craig](../../../company/team/index.md#maría-craig-she-her) - ([Code intel](../engineering/code-intelligence/index.md))
-  - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - ([Web](../engineering/web/index.md))
-  - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) - ([Campaigns](../engineering/campaigns/index.md))
-- [Product design](design/index.md)
-  - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) - ([Campaigns](../engineering/campaigns/index.md)) and ([Search](../engineering/search/index.md))
-  - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) - ([Web](../engineering/web/index.md)), ([Code Insights](../engineering/code-insights/index.md)) and ([Code intel](../engineering/code-intelligence/index.md))
-  - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) - ([Core application](../engineering/core-application/index.md)) and ([Search (Code monitoring & contexts)](../engineering/search/index.md))
-- [Technical writing](technical_writing/index.md)
-
-### [Roles](roles/index.md)
-
-See [Roles](roles/index.md) for open positions and hiring targets.
+   - [Kylie Fligstein](../../../company/team/index.md#kylie-fligstein-she-her), Executive Business Partner - Product
+   - [Product managers](roles/index.md#product-manager)
+      - [María Craig](../../../company/team/index.md#maría-craig-she-her) - [Code intel](../engineering/code-intelligence/index.md)
+      - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - [Code insights](../engineering/code-insights/index.md)
+      - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) - [Campaigns](../engineering/campaigns/index.md)
+   - [Product designers](roles/index.md#product-designer)
+      - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) - [Campaigns](../engineering/campaigns/index.md) and [Search](../engineering/search/index.md)
+      - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) - [Web](../engineering/web/index.md), [Code Insights](../engineering/code-insights/index.md) and [Code intel](../engineering/code-intelligence/index.md)
+      - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) - [Core application](../engineering/core-application/index.md) and [Search (Code monitoring & contexts)](../engineering/search/index.md)
 
 ## Planning
 

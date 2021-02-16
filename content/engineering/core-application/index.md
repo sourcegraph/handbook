@@ -59,8 +59,8 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-- We're hiring a [Product Manager](../../product/roles/product_manager.md) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
-- [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/product_designer.md))
+- We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+- [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
 - [Core application](index.md) {#core-application-eng}
     - [FQ1 Engineering Manager](https://jobs.lever.co/sourcegraph/95ad534f-8724-45dc-9b50-291c5926a7dc), Tomás acting manager until then.
         - [Joe Chen](../../../company/team/index.md#joe-chen)

@@ -31,8 +31,8 @@ The code insights team also keeps a [backlog GitHub project board](https://githu
 
 ## Members
 
-- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) Product Manager
-- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/product_designer.md))
+- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
 - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager)) {#code-insights-eng}
   - FQ1 [backend engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
   - FQ1 [frontend engineer](https://jobs.lever.co/sourcegraph/73fda68b-c821-4627-af07-41a0850072fb)
