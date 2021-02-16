@@ -22,7 +22,7 @@ We work with many other teams at Sourcegraph, including:
 	* [Becoming a Sourcegraph power user](training.md#becoming-a-sourcegraph-power-user)
 	* [Sourcegraph office hours](training.md#sourcegraph-office-hours)
   * [Demo instances](demo_instances.md)
-  * [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph/ce-code-smells)
+  * [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph-testing/ce-code-smells/)
 * [Support](support.md)
 	* [Legacy support overview](legacy-support-overview.md)
 	* [How to route questions from customers](routing_questions.md)
