@@ -60,6 +60,8 @@ Completing a large scale change in any organization requires coordination with a
 
 # Roadmap
 
-As we work on increasing adoption, our roadmap is in flux as we are gathering new information from customers about what they need in order to try out campaigns.
+We maintain a [directionally correct roadmap](https://sourcegraph.productboard.com/roadmap/2400849-campaings-objectives-public), updated as feedback comes in. Timelines and priorities can change.
 
-We maintain a [directionally correct roadmap](https://sourcegraph.productboard.com/roadmap/2400849-campaings-objectives-public), updated as feedback comes in.
+<img src="./roadmap-updated-2021-02-12.png" alt="Campaigns short term roadmap updated 2021-02-12" />
+
+*Updated 2021-02-12*
