@@ -112,7 +112,7 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager)) {#campaigns-eng}
   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
-  - [Erik Seliger](../../../company/team/index.md#erik-seliger)j
+  - [Erik Seliger](../../../company/team/index.md#erik-seliger)
   - FQ1 [full-stack engineer](https://jobs.lever.co/sourcegraph/886e4343-6efc-4ab1-b204-f9115cfdeae3)
   - FQ2 engineer
 
