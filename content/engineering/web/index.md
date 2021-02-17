@@ -229,3 +229,19 @@ The web team holds weekly syncs.
 The meeting notes of web team syncs can be found [in this doc](https://docs.google.com/document/u/1/d/1IUsjbtYdGiAHvRUB1yf4eqnynin9WsxFR2zFCMm78jw/edit#).
 
 Before web team syncs, teammates and stakeholders should write down under "Discussion items" in the meeting notes document anything that they'd like to bring up for discussion with the whole team.
+
+## Hack time
+
+The web team engineers hold a weekly "hack time" session: a scheduled block of time dedicated to pair programming (or, more accurately, crowd/mob programming) on a task together as a team.
+
+The reasons why we do hack time as a team:
+
+- it lets the team share knowledge and context
+- it builds shared ownership over the work
+- it's also an opportunity to discuss ideas and socialize
+
+The team chooses a tasks (or topic) for hack time in advance, in order to avoid spending time deciding what to work on at the beginning of the session. The process is:
+
+- A weekly Slack reminder in the `#web-team` channel creates a thread for the team to propose ideas for the next hack time.
+- By default, if the work from the last hack time session was unfinished, then the team continues on that work.
+- If no task has been proposed by the time that the hack time session starts, and there's no task to continue from last time, then that session is cancelled.
