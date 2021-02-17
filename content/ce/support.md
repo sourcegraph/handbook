@@ -16,6 +16,8 @@ We show up for our customers, open source users, and teammates by living up to o
 
 Keeping our reason for existence and guiding principles in mind in all of our work and interactions, we ensure consistent outcomes, allowing each member of the team to have space and creativity to get there in different ways and learn from each other. When it is important that we do things consistently, we make sure to maintain our support section of the handbook. When we have knowledge to share, we ensure it’s reflected in [our official documentation](https://docs.sourcegraph.com/) so that customers have a single source of truth.
 
+For additional context, check out [RFC 274](https://docs.google.com/document/d/1eLJmEVoD4H2s18gw65OCKSEX7ZQiG38FU_jU3UsrBKY/edit#), the starting vision for CS at Sourcegraph.
+
 ## We know that we are successful when we …
 
 - **Maintain 95% CSAT (customer satisfaction).** Part of the support workflow will be seeking confirmation from a customer that they agree we are done with that particular conversation/issue. At that time, we will initiate a request to rate how support was during that conversation. In order to encourage healthy behavior of not cherry picking cases to work, the target allows for support engineers to learn and grow. It’s okay that this is not 100%, so long as we learn and are able to maintain 95%.
@@ -72,13 +74,19 @@ We work alongside just about every team. Here is how we add value to each other 
 
 
 
-## How we do our work (our practices)
+## Our practices (how we work)
 
 Letting customers talk to us where they prefer and streamlining our workflow must also be balanced with other elements of the customer experience. Handoffs cause frustration more than any other aspect of trying to get help. How we work accounts for this. It also accounts for continually positioning our CEs as trusted and reliable partners who need time to think about customers proactively.
 
-- **Zendesk allows us to see the big picture.** Right now, our customers are able to initiate conversations for help via several methods (Slack channels, support@ email, Twitter, etc). Allowing customers to initiate conversations via several methods increases the likelihood that we become aware of issues, feedback, etc as quickly as possible. In order to scale this, we use Zendesk. Zendesk simplifies what would otherwise feel complex through out-of-the-box configuration and integrations, allowing us to have everything in one place for easy prioritization and powerful data tracking. We get the benefit of everything coming to one place and customers have the lowest barrier possible to interact with us. 
+We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. As a general rule, this should always be a very small list.
 
-- ...to be added soon!
+* [Team bios](support-bios.md)
+* [Team schedule](support-schedule.md)
+* [Team rituals](support-team-rituals.md)
+* [Prioritization](support-prioritization.md)
+* [Workflow](support-workflow.md)
+* [Engaging other teams](engaging-other-teams.md)
+* [P0 incident response](p0-Incident-Response.md)
 
 
 

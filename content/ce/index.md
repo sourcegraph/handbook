@@ -24,15 +24,21 @@ We work with many other teams at Sourcegraph, including:
   * [Demo instances](demo_instances.md)
   * [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph-testing/ce-code-smells/)
 * [Support](support.md)
+	* [Team bios](support-bios.md)
+	* [Team schedule](support-schedule.md)
+	* [Team rituals](support-team-rituals.md)
+	* [Prioritization](support-prioritization.md)
+	* [Workflow](support-workflow.md)
+	* [p0 incident response](p0-Incident-Response.md)
 	* [Legacy support overview](legacy-support-overview.md)
 	* [How to route questions from customers](routing_questions.md)
-	* [Filing customer issues](customer_issues.md)
 	* [User deletion](delete_users_guide.md)
 	* [Creating and maintaining license keys for customers](license_keys.md)
 	* [Moving off the insiders build](leaving-insiders-build.md)
 * Collaboration
 	* [Sales-to-CE new customer handover process](../sales/sales_to_ce_handover.md)
 	* [CE-to-Engineering issue handover process](ce_to_eng_handover.md)
+	* [Engaging other teams](engaging-other-teams.md)
 * Resources
   * [QBR Guide](qbr_guide.md)
   * [Guide to demoing the Campaigns feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
@@ -67,10 +73,11 @@ We work with many other teams at Sourcegraph, including:
 
 ## Meetings
 
-- CE team and account strategy meeting (weekly on Tuesdays): Open team discussion about any topics, plus time for any team member to present specific situations occurring in their accounts and get advice from the rest of the team.
-- Demo workshop (weekly on Fridays): A weekly super chill, no-pressure, no-stress place where you can show off your new demo ideas and get helpful demo feedback/tips from team members.
-- CE team hangout (weekly on Fridays): An open forum to ask questions, collaborate, and chat as a team.
-- Product backlog review (weekly on Fridays): Discuss product feedback and requirements with the Product and Sales teams. To join, find it on a team member's calendar and add yourself.
+* CE team and account strategy meeting (weekly on Tuesdays): Open team discussion about any topics, plus time for any team member to present specific situations occurring in their accounts and get advice from the rest of the team.
+* Demo workshop (weekly on Fridays): A weekly super chill, no-pressure, no-stress place where you can show off your new demo ideas and get helpful demo feedback/tips from team members.
+* CE team hangout (weekly on Fridays): An open forum to ask questions, collaborate, and chat as a team.
+* Product backlog review (weekly on Fridays): Discuss product feedback and requirements with the Product and Sales teams. To join, find it on a team member's calendar and add yourself.
+* Support team meetings are described in [team rituals](support-team-rituals.md)
 
 ## Pre-sales and post-sales
 
