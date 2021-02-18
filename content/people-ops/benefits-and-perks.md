@@ -24,7 +24,7 @@ A healthy mind and body is imperative to doing your best work and living a healt
 
 ## 👪 Family friendly
 
-We value and support teammates at all stages of life. In addition to covering 100% of premiums for medical, dental, and vision insurance for dependents (for US-based full-time employees), we provide 16 weeks of paid parental leave for all new parents (details depend on location), in addition to any pregnancy-related disability leave.
+We value and support teammates at all stages of life. In addition to covering 100% of premiums for medical, dental, and vision insurance for dependents (for US-based full-time employees), we provide 16 weeks of paid parental leave for all new parents (details depend on location), in addition to any pregnancy-related disability leave, and a reimbursement of up to $25,000 USD for fertility treatment.
 
 ## 📚 Professional development
 
