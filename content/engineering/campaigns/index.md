@@ -94,6 +94,7 @@ Our two-week sprints start every other Wednesday. We follow this process:
 * We do not scramble to get last-minute changes in before branch-cut. (If it's a blocking issue, there's [a process for that](https://about.sourcegraph.com/handbook/engineering/releases#issues).)
 * If there is no agenda in our sync doc for our Wednesday and Thursday syncs by 5 minutes before the meeting starts, the meeting is automatically cancelled.
 * If a process isn't serving us, we are quick to shut it down.
+* We aim to improve the developer experience of working on the campaigns and the Sourcegraph codebase as we work on it. We do that by allowing ourselves to set aside time to implement improvements if we see a chance to do so. For example: it's okay to spend half a day improving our test tooling if we know that it will make things easier for us and others in the future.
 
 ## Team Communication
 
