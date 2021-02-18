@@ -26,7 +26,6 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
   - Become familiar with any [accounts](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=154354692) that have been assigned to you.
     - Accounts can mean prospects or existing customers
     - Know their use case, read past meeting notes, etc.
-  - Signup and attend a [Product Tour](https://info.sourcegraph.com/product-tour).
   - Add shared [CE calendar](https://calendar.google.com/calendar/u/0?cid=Y19yY3Y0ZTRqODI0OXZzNmJwbzd0bXFrZjVuZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your calendar
 
 ### Week 2
