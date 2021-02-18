@@ -24,7 +24,7 @@ We work with many other teams at Sourcegraph, including:
   * [Demo instances](demo_instances.md)
   * [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph-testing/ce-code-smells/)
 * [Support](support.md)
-	* [Team bios](support-bios.md)
+	* [Team README](support-bios.md)
 	* [Team schedule](support-schedule.md)
 	* [Team rituals](support-team-rituals.md)
 	* [Prioritization](support-prioritization.md)
