@@ -79,10 +79,10 @@ Our two-week sprints start every other Wednesday. We follow this process:
 
 * We then have our planning meeting to determine our common goals for the iteration.
   * First we verify that any unfinished items in the old sprint will be finished by EOD.
-  * Next, we look at all of the items in the new sprint, to verify that these are our highest priority items that we definitely want to finish this sprint. (These tend to be smaller items, like bug fixes, or work carrying over from the previous sprint.) These should all be prioritized as P0s in the planning project. (If they are not P0s, then we remove the milestone and assing the correct priority.)
   * Then we look at our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) to align on priorities and verify estimates. *The goal is to have a freshly prioritized roadmap.*
-  * We work as a team to assign One Big Thing to each engineer.
-  * Finally, we verify that the sum of the estimates of our P0 column is does not exceed 2 days per engineer. In other words:
+  * We work as a team to assign One Big Thing to each engineer, creating tickets as needed and putting them in the current sprint and P0 column.
+  * We look at all of the items in our planning board (including the "Needs prioritization" tickets), ordering them by priority into P0, P1, P2. (These tend to be smaller items, like bug fixes, or work carrying over from the previous sprint.) P0 tickets get the current sprint as a milestone.
+  * Finally, we verify that the sum of the estimates of our P0 column does not exceed 2 days per engineer. In other words:
      * `issues.filter(p0).map(estimate).sum <= (num_engineers * 2).days`
 
 * After sprint planning, the team has a retro to discuss how the previous sprint went, and what changes we might want to our working agreements.
