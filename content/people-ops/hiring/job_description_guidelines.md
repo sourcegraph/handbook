@@ -18,6 +18,7 @@
 ### Responsiblities
 
 Multiple formats can be used for this section. 
+
 - For a role where you expect to hire a single person: 
   - Paragraph format describing the responsiblities.
   - What you expect the role to accomplish in the first 30, 60, and 90 days. 
