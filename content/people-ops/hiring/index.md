@@ -30,7 +30,7 @@ Hiring managers will be a assigned a hiring manager seat on the platform. For de
 
 We will work with recruiters and hiring managers to gain access to the tools they need to be successfull.
 
-## Using external recruiting gencies
+## Using external recruiting agencies
 
 Folder for agency tracker and to store contracts here: https://drive.google.com/drive/folders/1I6fpcQEP4ueQP_sjyO2MwuRnujmzti4a
 
