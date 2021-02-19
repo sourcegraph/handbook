@@ -4,41 +4,6 @@ We strive for an outcome-based roadmap: each roadamp item should describe the pr
 
 ## Roadmap visualization
 
-<!-- Gantt chart syntax documentation: https://mermaid-js.github.io/mermaid/diagrams-and-syntax-and-examples/gantt.html -->
-
-<pre class="mermaid" data-rendered-width="150%" data-scroll-right="50%">
-gantt
-    title In progress work
-    dateFormat YYYY-MM-DD
-    axisFormat %b %d
-
-section Milestones
-    3.21 :active, release-3.21, 2020-09-21, 2020-10-20
-    3.22 :        release-3.22, 2020-10-21, 2020-11-20
-
-section Cloud
-    User added code is indexed and searchable                 :done,   2020-09-23, 2020-10-07
-    RFC 167 - Product license tiers                           :active, 2020-10-07, 14d
-    Syncing repos is more scalable                            :active, 2020-10-07, 14d
-    Metrics/monitoring in place                               :active, 2020-10-07, 14d
-    GitHub app to simplify access to repositories (spike)     :        2020-10-21, 2d
-    Webhooks to receive repo permissions and metadata (spike) :        2020-10-21, 2d
-
-section Web
-    Browser extension discoverability                         :done,    2020-09-28, 14d
-    Build new and improved extensions                         :active,   2020-10-12, 14d
-    Improve extensions development + docs                     :         2020-10-26, 14d
-    Code insights TBD                                         :         2020-11-09, 14d
-    Web nav updates                                           :         2020-11-09, 7d
-    Breadcrumbs                                               :         2020-11-16, 7d
-</pre>
-
-<div id="roadmap-loading">
-	Compiling roadmap...
-	<br/>
-	<small>If the roadmaps do not appear, please <a href="https://github.com/sourcegraph/about/issues">report this issue</a> and include the output from your browser's devtools JavaScript console.</small>
-</div>
-
 ## [Campaigns roadmap](../engineering/campaigns/goals.md#roadmap)
 
 ## [Core application roadmap](../engineering/core-application/goals.md#roadmap)
@@ -47,7 +12,7 @@ section Web
 
 ## [Distribution roadmap](../engineering/distribution/goals.md#roadmap)
 
-## [Search roadmap](../engineering/search/goals.md#roadmap)
+## [Search roadmap](../engineering/search/goals.md#roadmap-and-milestones)
 
 ## [Security roadmap](../engineering/security/goals.md#roadmap)
 
