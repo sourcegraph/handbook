@@ -51,12 +51,16 @@ We work with many other teams at Sourcegraph, including:
 
 <!-- Alphabetically, by surname. -->
 
-- Customer Engineers
+- Customer Engineers (US West)
   - [Emily Chapman](../../company/team/index.md#emily-chapman-she-her)
   - [Jonah Dueck](../../company/team/index.md#jonah-dueck-he-him)
+  - [Nick McMillen](../../company/team/index.md#nick-mcmillen-he-him)
+  - M. (starting 2021-02-08)
+- Customer Engineers (US East)
   - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
   - [Mike McLaughlin](../../company/team/index.md#mike-mclaughlin-he-him)
-  - [Nick McMillen](../../company/team/index.md#nick-mcmillen-he-him)
+  - A. (starting 2021-02-22)
+  - T. (Director of Customer Engineering, US East; starting 2021-03-01)
 - Customer Support
   - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support)
   - We are hiring [Customer Support Engineers](https://jobs.lever.co/sourcegraph/d58a382e-0c20-4dec-9657-63f164ec703a). Our Customer Engineers will continue in their support rotation until then.
@@ -68,8 +72,9 @@ We work with many other teams at Sourcegraph, including:
 - [Customer Engineer](https://jobs.lever.co/sourcegraph/3ede0606-7a86-45d4-a627-e8cbae7a1a57)
 - [Customer Support Engineer](https://jobs.lever.co/sourcegraph/d58a382e-0c20-4dec-9657-63f164ec703a)
 - [Training Engineer](https://jobs.lever.co/sourcegraph/7aae60bb-228f-4e48-89f8-d16646aa4642)
-- [Director of Customer Engineering, East](https://jobs.lever.co/sourcegraph/82f595d8-9a88-40f6-b84a-b243c58754f0)
-- [Director of Customer Engineering, West](https://jobs.lever.co/sourcegraph/cb233f84-da0e-4c1d-8a75-c86e265609b1)
+- [Director of Customer Engineering, US East](https://jobs.lever.co/sourcegraph/cb233f84-da0e-4c1d-8a75-c86e265609b1) (this role is filled)
+- [Director of Customer Engineering, US West](https://jobs.lever.co/sourcegraph/cb233f84-da0e-4c1d-8a75-c86e265609b1)
+- We're also starting to hire for Customer Engineering outside the US, initially somebody located around UTC+0. You would start as a Customer Engineer and then build a team.
 - VP of Customer Engineering (to be posted soon)
 
 ## Meetings
