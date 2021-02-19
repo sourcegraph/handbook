@@ -80,6 +80,10 @@ Structured meetings are great, but it's important to have casual, unscheduled, f
 
 See "[1-1 meetings](../leadership/1-1.md)".
 
+## [Announcements](announcements.md)
+
+See "[Announcements](announcements.md)".
+
 ## Google Docs
 
 1. We use Google Docs for:
