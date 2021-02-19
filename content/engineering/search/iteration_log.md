@@ -28,6 +28,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Search contexts are ready for user testing on Cloud
 - **Work log:**
     - 2021-02-12: Search context dropdown is now populated with real data, search contexts can be selected (keyboard or mouse interaction), context is appended to the query when copying, and context filter is fully supported on the frontend.
+    - 2021-02-19: Finished up all of the tasks needed to start user testing search contexts on Cloud (storing last selected search context in localStorage, adding context parameter to URL, search within dropdown, context is appended to query when searching).
 
 ### Streaming search/Exhaustive Search
 - **Owner(s):** Juliana, Keegan, Stefan
