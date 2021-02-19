@@ -128,6 +128,10 @@ We would like releases to happen seamlessly, and whenever required.
 - **Milestones**:
   - [Releases can be done automatically (e.g. CLI command, `/` command in Slack, etc.)](https://github.com/orgs/sourcegraph/projects/131)
 
+## Roadmap
+
+Coming soon.
+
 ## Past goals
 
 We record past goals that we have completed [here](goals_completed.md).

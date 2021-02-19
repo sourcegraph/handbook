@@ -129,7 +129,9 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
 
 The code intel team roadmap is tracked in [productboard](https://sourcegraph.productboard.com/roadmap/2288108-code-intel).
 
-At a glance roadmap coming soon!
+At a glance roadmap as of 2021-02-18:
+
+![2021-02-18](https://sourcegraphstatic.com/handbook/product-roadmaps/2021-02-18-code-intel-roadmap.png)
 
 [N1]: https://docs.google.com/document/d/1T4KPRiRFVoAG2-yhokdxlKjozVflUOSH1k9X68PmrVs/edit#bookmark=id.lgv97p81ib7i
 [N2]: https://docs.google.com/document/d/1T4KPRiRFVoAG2-yhokdxlKjozVflUOSH1k9X68PmrVs/edit#bookmark=id.7vmkcs91o3z1

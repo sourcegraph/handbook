@@ -42,7 +42,7 @@ TODO: What does this look like? Describe this in prose using descriptions from t
 - Search is optimized for the cloud, where hundreds of a company’s private repos will live alongside hundreds of thousands of public open source repos.
 - We have a learnable, comprehensive code search query language; performant and reliable search across all result types we offer; a polished product that handles failure cases properly; and a personalized experience for users that surfaces their most relevant code.
 
-#### Roadmap and Milestones
+## Roadmap
 
 The roadmap and milestones are tracked in [productboard](https://sourcegraph.productboard.com/roadmap/2213445-search-roadmap)
 
