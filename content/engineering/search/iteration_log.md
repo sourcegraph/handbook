@@ -65,6 +65,7 @@ This document contains the goals and work log for the search team's [2-week iter
         results back in chunks. We already started updating Zoekt to support
         streaming natively, however we will only finish this during the next
         itertion.
+    - 2021-02-19: Numerous perf fixes have been made to the frontend to aid streaming search. Streaming search now also renders branch names or commit IDs when necessary.
 
 ## 2021-01-25 to 2021-02-05
 
