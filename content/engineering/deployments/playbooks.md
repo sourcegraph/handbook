@@ -49,6 +49,7 @@ git push origin release
 
 1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) and remove the `"extends:["default:automergeDigest"]` entry for the "Sourcegraph Docker images" group ([example](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/commit/0eb16fd9e3ddfcf3a3c75ccdda0e7eddabf19c7a)).
 1. Once you have fixed the issue in the `main` branch of [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph), re-enable auto-deploys by reverting your change to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) from step 1.
+1. Go to [open pull requests](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/pulls/app%2Frenovate) and ensure there no pending renovate PR's without an automerge label. If there are, apply the automerge label to the PR's to ensure the `release` branch is continuously updated.
 
 ### Backing up & restoring a Cloud SQL instance (production databases)
 
