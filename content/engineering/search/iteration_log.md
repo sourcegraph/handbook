@@ -46,8 +46,14 @@ This document contains the goals and work log for the search team's [2-week iter
         we had a limit of 30 per search backend.
       - We don't report more results than the user asked for.
     - 2021-02-12:
-      - Made progress to enable zoekt for streaming. We prototyped differnt
+      - Made progress to enable zoekt for streaming. We prototyped different
         protocols and encodings to find a good fit to move forward.
+    - 2021-02-19:
+      - Zoekt now has a new endpoint `/stream` which we call from Sourcegraph.
+        Within Zoekt we still process a search in batch mode but stream the
+        results back in chunks. We already started updating Zoekt to support
+        streaming natively, however we will only finish this during the next
+        itertion.
 
 ## 2021-01-25 to 2021-02-05
 
