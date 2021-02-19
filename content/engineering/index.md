@@ -5,36 +5,23 @@
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
-- [Code reviews](code_reviews.md)
-- Programming guides
-  - [Go](languages/go.md)
-  - [TypeScript](languages/typescript.md)
-  - [Terraform](languages/terraform.md)
 - Practices & Philosophy
   - [Customer Issues](../ce/customer_issues.md)
   - [Incidents](incidents/index.md)
-  - [Testing](testing.md)
   - [Styling UI](./web/styling.md)
-  - [Continuous integration](continuous_integration.md)
+  - [Web-specific testing guide](./web/testing.md)
   - [Product documentation](product_documentation.md)
   - [Continuous releasability](continuous_releasability.md)
-  - [Commit message guidelines](commit_messages.md)
   - [Releases](releases/index.md)
     - [Release issue template](releases/release_issue_template.md)
   - [External contributions](external_contributions.md)
-  - [Introducing a new service](introducing_a_new_service.md)
-  - [Security patterns](security_patterns.md)
 - Tooling
-  - [Ignoring editor config files in Git](ignoring_editor_config_files.md)
   - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
 - Infrastructure
   - [Cloud environments](environments.md)
   - [Deployments](deployments/index.md)
   - [On-call](incidents/on_call.md)
   - [Observability](observability/index.md)
-  - [Honeycomb](honeycomb.md)
-  - [Adding and debugging ping data](adding_ping_data.md)
-  - [Adding buildkite secrets](adding_buildkite_secrets.md)
 
 ## Org chart
 

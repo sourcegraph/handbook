@@ -10,7 +10,7 @@ Also see [internal infrasturcture](./internal_infrastructure.md) and [tools](./t
 
 **Best practices:**
 
-- Adhere to the [Sourcegraph Golang style guide](../languages/go.md)
+- Adhere to the [Sourcegraph Golang style guide](https://docs.sourcegraph.com/dev/background-information/languages/go)
 
 ## Typescript
 
@@ -30,7 +30,7 @@ Also see [internal infrasturcture](./internal_infrastructure.md) and [tools](./t
 
 **Best practices:**
 
-- Adhere to the [Sourcegraph Bash style guide](../languages/bash.md)
+- Adhere to the [Sourcegraph Bash style guide](https://docs.sourcegraph.com/dev/background-information/languages/bash)
 
 ## Terraform
 
@@ -38,7 +38,7 @@ Also see [internal infrasturcture](./internal_infrastructure.md) and [tools](./t
 
 **Best practices:**
 
-- Adhere to the [Sourcegraph Terraform style guide](../languages/terraform.md)
+- Adhere to the [Sourcegraph Terraform style guide](https://docs.sourcegraph.com/dev/background-information/languages/terraform)
 
 ## Kubernetes
 

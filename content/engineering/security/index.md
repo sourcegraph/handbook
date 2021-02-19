@@ -71,7 +71,7 @@ The security team helps other teams investigate, orient, review, and sometimes p
 
 **Small changes**
 
-Small changes, defined as less than 1 day of effort are communicated in a GitHub issue, either in the [sourcegraph repository](https://www.github.com/sourcegraph/sourcegraph) or, when sensitive in nature, the [security repository](https://www.github.com/sourcegraph/security-issues). We provide a detailed bug report, including the steps to reproduce, and an example of the desired state. Where possible, we identify and propose a fix, and submit a pull request to the [code owner](../code_reviews.md#who-should-i-get-a-code-review-from).
+Small changes, defined as less than 1 day of effort are communicated in a GitHub issue, either in the [sourcegraph repository](https://www.github.com/sourcegraph/sourcegraph) or, when sensitive in nature, the [security repository](https://www.github.com/sourcegraph/security-issues). We provide a detailed bug report, including the steps to reproduce, and an example of the desired state. Where possible, we identify and propose a fix, and submit a pull request to the [code owner](https://docs.sourcegraph.com/dev/background-information/code_reviews#who-should-i-get-a-code-review-from).
 
 **Medium changes**
 

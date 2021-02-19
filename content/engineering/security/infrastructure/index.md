@@ -6,7 +6,7 @@ We maintain multiple flavors of infrastructure with various degrees of managemen
 
 ## GCP infrastructure basics
 
-GCP infrastructure is configured via [terraform](https://www.terraform.io/) in the [infrastructure repository](https://github.com/sourcegraph/infrastructure/). All configuration for security projects should be stored in the [security subdirectory](https://github.com/sourcegraph/infrastructure/tree/main/security). Please adhere to this [terraform style guide](../../languages/terraform.md) when working here.
+GCP infrastructure is configured via [terraform](https://www.terraform.io/) in the [infrastructure repository](https://github.com/sourcegraph/infrastructure/). All configuration for security projects should be stored in the [security subdirectory](https://github.com/sourcegraph/infrastructure/tree/main/security). Please adhere to this [terraform style guide](https://docs.sourcegraph.com/dev/background-information/languages/terraform) when working here.
 
 For instructions on how to deploy this infrastructure, see [GCP Deployment Playbooks](./playbooks.md#gcp-deployment-playbooks).
 

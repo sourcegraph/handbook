@@ -1,6 +1,6 @@
 # Testing web code
 
-This is the implementation of our [company testing philosophy](../testing.md) for all code (TypeScript, stylesheets, ...) used on the web, such as our webapp, browser extension, shared code, or Sourcegraph extensions.
+This is the implementation of our [company testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles) for all code (TypeScript, stylesheets, ...) used on the web, such as our webapp, browser extension, shared code, or Sourcegraph extensions.
 
 ## General Goals
 
