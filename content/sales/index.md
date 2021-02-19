@@ -29,6 +29,7 @@ Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.goo
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
 - [Gregg Stone](../../company/team/index.md#gregg-stone) (VP of Sales)
+- [Dudley Nostrand](../../company/team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering)
 - RVP of East (to be filled)
   - [Kai Passo](../../company/team/index.md#kai-passo-he-him)
   - [Bill Kolman](../../company/team/index.md#bill-kolman)
