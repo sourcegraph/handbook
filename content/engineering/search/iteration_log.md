@@ -12,6 +12,17 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
     
+
+## 2021-02-22 to 2021-03-05
+
+### $GOAL_OR_THEME
+
+- **Owner(s):** $OWNER
+- **Outcomes:**
+    - $DESIRED_OUTCOME
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+    
 ## 2021-02-08 to 2021-02-19
 
 ### Implement `select` filtering
