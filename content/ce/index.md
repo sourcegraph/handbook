@@ -10,6 +10,9 @@ We work with many other teams at Sourcegraph, including:
 - with the [Sales team](../sales/index.md) in our relationships with prospects and customers; and
 - with the [Product team](../product/index.md) and [Engineering team](../engineering/index.md) on product feedback and requirements (by aggregating and relaying what users tell us, and by helping team members get in touch with or solicit feedback from the right users).
 
+### What is the difference between a Customer Engineer and Customer Support Engineer?
+CSEs are the go-to technical team for our CEs, helping customers both pre- and post-sales, and allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues. We can think of CE and CSE as work best friends, working closely together every day. Where Sales is focused on the commercial relationship, CE is focused on product success/usage/adoption. If the CE is stuck, doesn’t know the answer, that is the exact right time to bring in a CSE and let support do the heads-down troubleshooting work. 
+
 ---
 
 * [Customer Engineering Onboarding](onboarding.md)
