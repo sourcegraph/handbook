@@ -39,10 +39,12 @@ AE leads initial call and dispositions the opportunity accordingly:
 
 ## SDR to AE Handoff
 
+See [CEP - Pre-Sale Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/edit#gid=0) for more info.
+
 **Before the first call with the prospect:**
 
 - The SDR sets the initial meeting (i.e., a calendar invite is sent out by the SDR to the prospect and AE).
-- SDR sends a summary of the opportunity to the AE, and gets confirmation of the proposed agenda and any additional attendees to be included from Sourcegraph (CE, Manager, etc.).
+- SDR sends a summary of the opportunity to the AE, and gets confirmation of the proposed agenda and any additional attendees to be included from Sourcegraph (CE, Manager, etc.). CEs should generally be excluded from initial calls unless 1) the AE is new and would like support or 2) the customer has already provided enough technical information that a demo is on the agenda or has otherwised raised specific technical questions when interacting with the SDR.
 - SDR sends the initial follow-up email to the prospect to:
   - Introduce the AE (& anyone else) who is joining the call.
   - Provide a proposed agenda (pricing, use case, quick tour, etc.) that is confirmed first by the AE.
