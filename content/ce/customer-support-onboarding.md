@@ -16,7 +16,7 @@ Welcome back! Let’s get started....
 
 ## By the end of your first week, the following will be true...
 * You understand Sourcegraph’s mission, vision, values, and culture
-* You understand Sourcegraph’s purpose is and how you/your role supports us achieving it
+* You understand Sourcegraph’s purpose and how you/your role supports us achieving it
 * You understand what is expected of you in your role and what it means to be a successful Customer Support Engineer
 * You have a sense of what tools you will be using and for what
 
@@ -29,15 +29,15 @@ Welcome back! Let’s get started....
 * Be sure you are invited to and start attending the weekly CSE planning/retro session, weekly CE account strategy check-in, and weekly CSE “cheers” huddle as outlined in our [rituals](https://about.sourcegraph.com/handbook/ce/support-team-rituals)
 * Schedule introductory chats with every member of [the Customer Engineering org](https://about.sourcegraph.com/handbook/ce#members). It’s okay to schedule these over your first few weeks, however you see fit.
 * Open and merge your first GitHub pull request in the handbook
-* Create free otter.ai and Grammarly accounts (link otter.ai to your Zoom account) -- why we use this is explained in [our team rituals doc](https://about.sourcegraph.com/handbook/ce/support-team-rituals).
-* Verify you have access to all the required tools -- more on all of these later
+* Create free otter.ai and Grammarly accounts (link otter.ai to your Zoom account) and bookmark Hemingwayapp -- why we use these is explained in [our team rituals doc](https://about.sourcegraph.com/handbook/ce/support-team-rituals).
+* Verify you have access to all the required tools -- and check out [Support Tools](support-tools.md) for an overview of the value they bring you and how they all fit together
 	* Gmail
 	* GSuite (make sure you can see the Sourcegraph shared drive)
 	* Github
 	* Slack
 	* Zoom
 	* 1Password
-	* Lever (for when we are hiring and you participate in the interview process
+	* Lever (for when we are hiring and you participate in the interview process)
 	* Lattice (for [our 360 review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles))
 	* Sourcegraph.com (admin): If you are not an admin and/or are not part of the [Sourcegraph organization](https://sourcegraph.com/organizations/sourcegraph/?_ga=2.50609121.915950522.1613401291-2109866561.1610586218), post in #it-tech-ops and request the access
 	* Krisp (to quiet background noise when on Zoom)
@@ -70,7 +70,7 @@ Welcome back! Let’s get started....
 ## By the end of your second week, the following will be true...
 * You have helped at least 1 customer
 * You are participating in our team rituals
-* You can wrap your head around who are customers are
+* You can wrap your head around who are our customers
 * You feel confident that you know what Sourcegraph can do functionality wise, at a high level and in detail
 * You feel confident you know the ways that Sourcegraph can be configured and why
 * You feel confident you know the ways that Sourcegraph can be deployed and why
