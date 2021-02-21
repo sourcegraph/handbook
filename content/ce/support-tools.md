@@ -27,3 +27,5 @@ When you first start in support, the list of tools to set-up can feel like a lot
 A placeholder to be populated over time as the team onboards and ramps-up
 
 
+## Zendesk
+Virginia will write the initial draft of this section the week of 2021-02-22
