@@ -48,7 +48,6 @@ See [roles](./roles/index.md) page.
 
 ### [Customer engineering](../ce/support.md) (for customer support)
 
-- [Sales-to-CE new customer handover process](sales_to_ce_handover.md)
 - [How to request support (for customers)](../ce/support.md#how-to-get-support-for-customers)
 - [Creating and maintaining license keys for customers](../ce/license_keys.md)
 

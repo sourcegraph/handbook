@@ -5,7 +5,7 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
 ## CE Onboarding Checklist
 
 ### Week 1
-  - Get access to all CE [tools](https://about.sourcegraph.com/handbook/ce/onboarding#tools)
+  - Get access to all CE [tools](#tools)
   - Read ALL existing [case studies](https://about.sourcegraph.com/case-studies)
     - Also understand the typical [use case buckets](https://about.sourcegraph.com/customers/#onboard)
   - Read our [CE handbook pages](index.md)
@@ -23,7 +23,6 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - Collect questions along the way (unfamiliar terms, use cases, etc.)
   - Make a Handbook edit to the CE onboarding section
   - Complete [General Onboarding](https://about.sourcegraph.com/handbook/ce/onboarding#general-onboarding-during-weeks-1-and-2) 
-  - Understand how we [create and store customer meeting notes](../ce/customer-notes.md)
   - Become familiar with any [accounts](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=154354692) that have been assigned to you.
     - Accounts can mean prospects or existing customers
     - Know their use case, read past meeting notes, etc.
@@ -51,12 +50,12 @@ Welcome to Sourcegraph! This document will guide you through customer engineerin
     - [Grafana and Prometheus](https://docs.sourcegraph.com/admin/observability/metrics)
     - [Tracing](https://docs.sourcegraph.com/admin/observability/tracing)
     - [Alerting](https://docs.sourcegraph.com/admin/observability/alerting)
-  - Give [SG 101](./training.md#sourcegraph-101-standard-demo-flow), [SG-102](./training.md#sourcegraph-102-becoming-a-sourcegraph-power-user) (internal certification)
-    - [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit?usp=sharing) 
+  - Give [Sourcegraph 101 and 202](https://docs.google.com/document/d/1nFePrSIcIakMmjOEY01vNc6VRe7WiJ0iOWygeZlbpYw/edit#heading=h.dwjpi5sjkp53) (internal certification)
+    - You might find the [20-min comprehensive demo script](https://docs.google.com/document/d/1q903Yl-vkOqkQ4e3JRiw-u8x8aJ50iTezllzcj_MJWc/edit#heading=h.ahfx9g5c1qmy) helpful.
 
 ### Weeks 3-4
   - Give a campaigns demo
-  - Give [SG 101](./training.md#sourcegraph-101-standard-demo-flow), [SG-102](./training.md#sourcegraph-102-becoming-a-sourcegraph-power-user) (to clients/prospects)
+  - Give [Sourcegraph 101 and 102](https://docs.google.com/document/d/1nFePrSIcIakMmjOEY01vNc6VRe7WiJ0iOWygeZlbpYw/edit#heading=h.dwjpi5sjkp53) (to clients/prospects)
   - Do 1 week frontline support
   - Run your first customer meeting (existing account)
   - Run your first customer meeting (new demo)
@@ -116,20 +115,15 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
 - [Calendly](https://calendly.com/) - You can use Calendly to allow customers to schedule meetings with you during time blocks that you specify as available.
 
 ## Resources
+
 - Demo Recordings
   - [101 Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing) (dan@)
   - [Product Info Session](https://youtu.be/iTBTri_q5MA) (jonah@)
   - [CE-to-CE Demo walkthrough](https://drive.google.com/drive/folders/1rf2E2KLBztH1Qe2shq3p39afF5mLK7m1) 
-  
 - Product Deep-Dives  
   - [Campaigns Overiew Deck](https://docs.google.com/presentation/d/1CN3KQf1Hfdb4RO6FgBgKuiHK4ERcOAHPgVnOcBu-MPU/edit#slide=id.g7d2aea8729_0_0)
   - [Structural Search Overview](https://zoom.us/rec/share/CJtwQ7uEp3v1pvPqdUD7GDuaYm_2g6w3zSP7GNA3aGQHZDjQ72awYXvHEnwsoio6.Bt-0DuuAZjs7UXMc?startTime=1606237440000)
-  - [Code Intelligence](https://drive.google.com/file/d/1TyCj62LLmhvamXK-CC6D8-7uGk1jmsKj/view) [[slides](https://docs.google.com/presentation/d/181oMTXRmcTqTCfOe5P__fLKwlzV1uk9wvwG6ocFgz20/edit?usp=sharing)]
-  
-- [Creating and maintaining license keys](https://about.sourcegraph.com/handbook/ce/license_keys)
-
-- [Creating and storing customer meeting notes](../ce/customer-notes.md) 
-
+  - [Code Intelligence](https://drive.google.com/file/d/1TyCj62LLmhvamXK-CC6D8-7uGk1jmsKj/view) [[slides](https://docs.google.com/presentation/d/181oMTXRmcTqTCfOe5P__fLKwlzV1uk9wvwG6ocFgz20/edit?usp=sharing)]  
 - [Shared CE Calendar](https://calendar.google.com/calendar/u/0?cid=Y19yY3Y0ZTRqODI0OXZzNmJwbzd0bXFrZjVuZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 - [Open opportunities with assigned CE in Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006jUsfEAE/view)
  

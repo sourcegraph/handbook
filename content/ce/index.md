@@ -18,12 +18,9 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 * [Customer Engineering Onboarding](onboarding.md)
 * [Customer Support Onboarding](customer-support-onboarding.md)
 * [Team members](#members)
-* [Customer notes](customer-notes.md)
-* [Training session and demo flows](training.md)
-	* [Basic Demo Flow](comprehensive-demo-script.md)
-	* [Sourcegraph 101](training.md#sourcegraph-101-standard-demo-flow)
-	* [Becoming a Sourcegraph power user](training.md#becoming-a-sourcegraph-power-user)
-	* [Sourcegraph office hours](training.md#sourcegraph-office-hours)
+* [Training sessions](https://docs.google.com/document/d/1nFePrSIcIakMmjOEY01vNc6VRe7WiJ0iOWygeZlbpYw/edit) (Sourcegraph 101, 102, office hours, etc.)
+* Demos
+  * [Comprehensive demo flow](https://docs.google.com/document/d/1q903Yl-vkOqkQ4e3JRiw-u8x8aJ50iTezllzcj_MJWc/edit)
   * [Demo instances](demo_instances.md)
   * [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph-testing/ce-code-smells/)
 * [Support](support.md)
@@ -40,11 +37,10 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 	* [Creating and maintaining license keys for customers](license_keys.md)
 	* [Moving off the insiders build](leaving-insiders-build.md)
 * Collaboration
-	* [Sales-to-CE new customer handover process](../sales/sales_to_ce_handover.md)
 	* [CE-to-Engineering issue handover process](ce_to_eng_handover.md)
 	* [Engaging other teams](engaging-other-teams.md)
 * Resources
-  * [QBR Guide](qbr_guide.md)
+  * [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#u)
   * [Guide to demoing the Campaigns feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
     * [Slides](https://docs.google.com/presentation/d/1niZBMhHKWJT1-n_ExSbYIRD51vcubrWwQm-Tc5EZo8s/edit#slide=id.g7d2aea8729_0_0)
     * [Campaign demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
