@@ -11,18 +11,16 @@ This document contains the goals and work log for the search team's [2-week iter
     - $DESIRED_OUTCOME
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
-    
 
 ## 2021-02-22 to 2021-03-05
 
-### $GOAL_OR_THEME
-
-- **Owner(s):** $OWNER
+### Clean up graphqlbackend resolvers
+- **Owner(s):** Camden
 - **Outcomes:**
-    - $DESIRED_OUTCOME
+    - Make all search result types independent of resolvers (tracking issue [#18348](https://github.com/sourcegraph/sourcegraph/issues/18348))
+    - Move result types out of graphqlbackend
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
-    
+
 ## 2021-02-08 to 2021-02-19
 
 ### Implement `select` filtering
