@@ -60,6 +60,8 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Sales strategy & operations](sales/sales-ops/index.md)
 
+### [Talent](talent/index.md)
+
 ### [Operations](ops/index.md)
 
 - [Business Operations & Strategy](ops/bizops/index.md)
