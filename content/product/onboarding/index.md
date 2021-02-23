@@ -17,7 +17,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 - Schedule a recurring [1-1](../../leadership/1-1.md).
 - Schedule daily check-ins for the first week at Sourcegraph to keep up with onboarding and to create space for answering any questions that might come up.
 - Create a 1-1 doc and add initial discussion items
-   - Onboarding doc - YAYYYYYYY WELCOME!!!!! 🎉
+   - Onboarding doc - YAYYYYYYYYYY WELCOME!!!!! 🎉
       - Your onboarding doc is to help outline the projects and tasks you have over your first 30 days.
       - This 1:1 doc will be where we take notes on discussions, set goals, and make sure you’re on track.
    - Weekly 1:1 - do you have a preference of time/day of the week?
@@ -38,8 +38,8 @@ Remember:
 
 ### Day 1
 
-- Complete [general onboarding](../../people-ops/onboarding/index.md#general-onboarding-checklist)
-   - Keep the [guiding principles](../../engineering/onboarding.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
+- Complete [general onboarding](../../people-ops/onboarding/general_onboarding.md)
+   - Keep the [guiding principles](../../people-ops/onboarding/index.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
 - Write your 30-60-90 day objectives in your 1:1 doc with Christina
 
 ### Get to know the team
