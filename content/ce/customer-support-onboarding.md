@@ -28,6 +28,7 @@ Welcome back! Let’s get started....
 * Read [our support overview](https://about.sourcegraph.com/handbook/ce/support) (including the sub links). Post any questions you have in our #customer-support-chat Slack channel
 * Be sure you are invited to and start attending the weekly CSE planning/retro session, weekly CE account strategy check-in, and weekly CSE “cheers” huddle as outlined in our [rituals](https://about.sourcegraph.com/handbook/ce/support-team-rituals)
 * Schedule introductory chats with every member of [the Customer Engineering org](https://about.sourcegraph.com/handbook/ce#members). It’s okay to schedule these over your first few weeks, however you see fit.
+* Schedule an introductory chat with Katerina. She is Quinn's executive business partner and is therefore part of the CE team right now and just a lovely person to spend time with. We will likely pull her in as we work to solve problems for how our team operates, since she will be able to help us understand if we should be coordinating more broadly, etc.
 * Open and merge your first GitHub pull request in the handbook
 * Create free otter.ai and Grammarly accounts (link otter.ai to your Zoom account) and bookmark Hemingwayapp -- why we use these is explained in [our team rituals doc](https://about.sourcegraph.com/handbook/ce/support-team-rituals).
 * Verify you have access to all the required tools -- and check out [Support Tools](support-tools.md) for an overview of the value they bring you and how they all fit together
