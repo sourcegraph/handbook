@@ -35,7 +35,11 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 **Fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends**.
 
-For example, Sourcegraph's fiscal year 2021 (FY21) is the one-year period running from February 1, 2020 through January 31, 2021.
+### Fiscal year 2022
+**FY22 Q1:** 01 February, 2021 - 30 April, 2021
+**FY22 Q2:** 01 May, 2021 - 31 July, 2021
+**FY22 Q3:** 01 August, 2021 - 31 October, 2021
+**FY22 Q4:** 01 November, 2021 - 31 January, 2022
 
 ### Sources of truth
 
