@@ -56,7 +56,6 @@ We cross-post our open positions to the following locations:
   1. [Director of Engineering - Platform and Infrastructure](https://jobs.lever.co/sourcegraph/8fcbaade-e511-4d93-bd9b-9cc7ec3438af)
   1. [Engineering Manager - Cloud Application and Core Services](https://jobs.lever.co/sourcegraph/95ad534f-8724-45dc-9b50-291c5926a7dc)
   1. [Software Engineer - Cloud - Frontend](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7)
-  1. [Software Engineer - Backend](https://jobs.lever.co/sourcegraph/a0dba744-ed1d-4172-8a4a-0feb52609322)
   1. [Software Engineer - Distribution](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
   1. [Software Engineer - Security](https://jobs.lever.co/sourcegraph/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)
   1. [Director of Community](https://jobs.lever.co/sourcegraph/480e8d71-03af-4659-ac90-b8e32ad4ef34)
