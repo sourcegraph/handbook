@@ -21,6 +21,15 @@ This document contains the goals and work log for the search team's [2-week iter
     - Move result types out of graphqlbackend
 - **Work log:**
 
+### Enterprise search contexts
+
+- **Owner(s):** Rok
+- **Outcomes:**
+    - Enterprise contexts RFC includes DB schema, API schema, and a clear migration path for version contexts
+    - Enterprise contexts RFC undergoing review (or at least ready for review)
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2021-02-08 to 2021-02-19
 
 ### Implement `select` filtering
