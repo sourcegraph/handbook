@@ -10,7 +10,7 @@ Until the team grows, [Dan](../../../../company/team/index.md#dan-adler-he-him) 
 
 ### Members
 
-- T.Z., Director of Legal (starting 2021-02-22)
+- [Tammy Zhu] (https://about.sourcegraph.com/company/team#tammy-zhu-she-her), Director of Legal
 
 ### Roles
 
