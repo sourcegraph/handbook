@@ -35,6 +35,10 @@ However, a corollary to this is that they are free to read your message whenever
 
 Make sure to set up Slack to only send you notifications when you want to see them!
 
+## Use threads instead of channel-wide responses
+
+In public channels, we use threads to organize conversations around topics and limit the number of notifications into a channel. That being said, when a thread reaches a point where a result or update would be useful for the entire channel to be aware of, you can check the `Also send to #channel` to send it into the channel's main view. 
+
 ## Channels
 
 We have many Slack channels. You don't have to join them all, but here is a good breakdown of the most active ones by category.
@@ -62,18 +66,25 @@ If teams require additional channels they should follow the convention of prefix
 - #design - How Sourcegraph looks visually
 - #feedback - Feedback directly from our users & customers
 - #product - Product questions, ideas and thoughts
-- #analytics - User metrics, analytics, etc.
 
-### Business
+### Operations
+
+- #business-ops - Strategy, operations and project management support
+- #people-ops - Onboarding, team satisfaction, reviews and much more
+- #hiring - Candidate hiring
+- #it-tech-ops - IT, software, and access questions
+- #finance - Dollars and cents
+- #legal - Legal questions
+- #marketintel - Market and industry intelligence - products, funding, competition
+- #payments - Customer payment notifications
+- #analytics - All things data
+
+### Go-to-market
 
 - #marketing - [Marketing](../marketing/index.md)
 - #sales - [Sales](../sales/index.md)
-- #analytics - [Analytics](../ops/bizops/index.md#analytics)
-- #marketintel - Market and industry intelligence - products, funding, competition
-- #payments - Customer payment notifications
-- #hiring - Candidate hiring
 - #customer-updates - Updates on the status of customers
-- #dev-rel - Developer relations, events, blog posts, tweets, etc.
+- #ce - Helping devs use Sourcegraph effectively
 
 ### Engineering
 
