@@ -58,7 +58,7 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 - Customer Engineers (US East)
   - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
   - [Mike McLaughlin](../../company/team/index.md#mike-mclaughlin-he-him)
-  - A. (starting 2021-02-22)
+  - [Alex Fogg](../../company/team/index.md#alex-fogg-he-him)
   - T. (Director of Customer Engineering, US East; starting 2021-03-01)
 - Customer Support
   - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support)
