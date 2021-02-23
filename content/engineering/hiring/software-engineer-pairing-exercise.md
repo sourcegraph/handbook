@@ -4,14 +4,12 @@ We ask candidates to spend an hour pairing with an engineer on the team they are
 
 The assumption is that any candidate who gets to this stage meets the technical requirements for the job in question.
 
-All pairing sessions should include a third engineer in the room as an observer. As such, they can stay muted for the bulk of the interview. Having another person
-in the room provides a more complete picture of the candidate and helps to reduce bias.
+All pairing sessions should include a third engineer in the room as an observer. As such, they can stay muted for the bulk of the interview. Having another person in the room provides a more complete picture of the candidate and helps to reduce bias.
 
 ## Details of the exercise
 
 - We will schedule a 60-minute timeframe to work with a Sourcegraph engineer.
 - In this exercise you write a command-line application that performs a simple task.
-- We will send you the specific details 10 minutes prior to the interview.
 - You may use the language of your choice.
 - You can use your own development environment, and look up documentation on the internet.
 
@@ -21,8 +19,7 @@ At a high level, this is what we are evaluating our candidates for:
 
 - Clear explanations of ideas and decisions.
 - Frequent communication while pairing.
-- Willingness to drive, while keeping the other engineer in the loop.
-- Ability to let the interviewer drive while staying engaged.
+- Keeping the other engineer in the loop while driving.
 - Flexibility in considering other ideas and approaches, and in making changes to the code.
 - Ability to break down a problem and decide on an approach as a pair.
 - Healthy responses to feedback.
@@ -47,8 +44,6 @@ All candidates applying for the same position should pair on the same exercise w
 
 **For the engineer leading this interview:** Pair as if you are working with a colleague, not evaluating a candidate. Work together. Offer help if the candidate gets stuck. It's totally fine if a candidate doesn't know something or wants to look something up. In short: if it's cool for a teammate to do, it's cool for the candidate to do.
 
-Also, have the candidate drive first, and aim for driving maybe 25% of the time.
-
-Finally, save the last 10 minutes of the interview for any Q&A the candidate might have.
+Finally, save the last 10 minutes of the interview for any Q&A the candidate might have. (No need to finish up that last task; just stop coding.)
 
 **For the engineer observing:** Pay close attention to the items we are looking for, listed above. Don't get sucked into the exercise itself, or offer ideas/solutions/feedback. The observer should be as invisible as possible outside of the inital introductions and the final 10 minutes.
