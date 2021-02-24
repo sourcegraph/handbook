@@ -4,29 +4,6 @@ A persona is a set of people who share common problems and other traits. Instead
 
 For general information about personas, see "[Personas for Product Management](https://svpg.com/personas-for-product-management/)".
 
-## Influential developer
-
-> The [marketing team](index.md#mission) targets this persona. It's probably not a useful persona for product-related decisions.
-
-An **influential developer** is:
-
-- a well-known developer in a large developer community (often in open source) <u>**and/or**</u>
-- especially influential across many teams in their organization.
-
-What matters is their influence, not their credentials or day job. Our "influential developer" persona can be a professional software developer, an engineering manager, a hobbyist, a founder, or any other title/role.
-
-Other characteristics that are *often* (but not always) true:
-
-- Other devs find this person and their work to be very impressive/compelling.
-- Other devs trust this person's recommendations for coding tools and practices.
-- They have a lot of (possibly informal) influence on the tools adopted by their organization, especially if they dislike a tool and want to veto use of it.
-- They have a large audience on their own blog, Hacker News, Twitter, etc.
-- They are unusually thoughtful, either in enforcing high quality standards for their own work or in their calculated embrace of riskier but higher-velocity dev practices.
-- They love coding and take pride in it. It's not *just* a job for them, it's also a deeply engrossing hobby.
-- Security, privacy, and documentation are important factors when they're deciding which tool to use, because these factors signal whether the tool was built by someone who really cares.
-
-For examples, see [non-exhaustive list of influential developers](https://docs.google.com/document/d/11s4darGJIV0_gTSK5Xdafi9vNomu_QXXuLQI3v_qyz4/edit).
-
 ## Dev Tools Leader
 
 The person who is in charge of the development experience, tooling decisions, and tooling budget for the organization.
