@@ -14,6 +14,13 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ## 2021-02-22 to 2021-03-05
 
+### `select` polish and `contains` filter predicate MVP
+- **Owner(s):** Rijnard, Camden
+- **Outcomes:**
+    - Polish remaining `select` work (optimization and add pings, see [#18002](https://github.com/sourcegraph/sourcegraph/issues/18002))
+    - Start implementing `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584))
+- **Work log:**
+
 ### Clean up graphqlbackend resolvers
 - **Owner(s):** Camden
 - **Outcomes:**
