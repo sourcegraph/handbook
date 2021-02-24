@@ -60,9 +60,13 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
   - [Mike McLaughlin](../../company/team/index.md#mike-mclaughlin-he-him)
   - [Alex Fogg](../../company/team/index.md#alex-fogg-he-him)
   - T. (Director of Customer Engineering, US East; starting 2021-03-01)
-- Customer Support
+- Customer Support Engineers
+  - Adeola Akinsiku
+  - [Warren Gifford](../../company/team/index.md#warren-gifford-he-him)
+  - S. (starting 2021-03-01)
+  - [Giselle Northy](../../company/team/index.md#giselle-northy-she-her)
+  - B. (starting 2021-03-01)
   - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support)
-  - We are hiring [Customer Support Engineers](https://jobs.lever.co/sourcegraph/d58a382e-0c20-4dec-9657-63f164ec703a). Our Customer Engineers will continue in their support rotation until then.
 - [Quinn Slack](../../company/team/index.md#quinn-slack) (CEO) is leading Customer Engineering for now.
   - We are hiring for VP Customer Engineering and will have the role posted very soon.
 
