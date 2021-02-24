@@ -127,3 +127,9 @@ This is because:
 - We haven't built the automated testing and update infrastructure to make continuous customer releases reliable.
 
 In the future, we may introduce continuous releases if these issues become surmountable.
+
+### Weekend releases
+
+If the 20th falls on a non-working day, the release captain has the right but not the obligation
+ to change the day (up to 3 days before the 20th) that the release images are published.
+If they decide to do this, they should move the google calendar events and announce the change in the #dev-announce channel.
