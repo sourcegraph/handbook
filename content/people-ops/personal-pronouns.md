@@ -33,9 +33,6 @@ Person A: “thanks, they said their cat actually wrote most of the PR”
 
 ## Additional resources
 
-If you have any questions about this or how to support other queer folks in your life, you can ask for help in the #DEI channel on Slack or privately message Garo (@garo) on Slack. 
-
-
 - Boston Children’s Hospital - [Gender identity & pronoun use: A guide for pediatric health care professionals](https://notes.childrenshospital.org/clinicians-guide-gender-identity-pronoun-use/)
 - Conscious Style Guide - [Gender, Sex + Sexuality](https://consciousstyleguide.com/gender-sex-sexuality/)
 - Personal pronoun examples - [Pronoun Island](http://pronoun.is/)
