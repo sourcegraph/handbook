@@ -61,7 +61,7 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
   - [Alex Fogg](../../company/team/index.md#alex-fogg-he-him)
   - T. (Director of Customer Engineering, US East; starting 2021-03-01)
 - Customer Support Engineers
-  - Adeola Akinsiku
+  - [Adeola Akinsiku](../../company/team/index.md#adeola-akinsiku)
   - [Warren Gifford](../../company/team/index.md#warren-gifford-he-him)
   - S. (starting 2021-03-01)
   - [Giselle Northy](../../company/team/index.md#giselle-northy-she-her)
