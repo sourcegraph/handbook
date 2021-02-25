@@ -33,9 +33,9 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
    
      **Outcome:** 5 popular open source cmake repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
 
-1. Build lsif-clang testing infrastructure
-    - Build a tool which can to semantically compare and diff LSIF dumps.
-    - Write a test harness for lsif-clang which can perform snapshot tests on small code snippets.
+1. 🔄 Build lsif-clang testing infrastructure
+    - 🔄 Build a tool which can to semantically compare and diff LSIF dumps.
+    - 🔄 Write a test harness for lsif-clang which can perform snapshot tests on small code snippets.
     - Spike: Explore how to perform snapshot tests on large projects for integration testing.
     
     **Outcome:** We can confidently make code changes to lsif-clang without worrying about obvious bugs.
@@ -47,8 +47,8 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
     
     **Outcome:** 5 popular open source C++ repositories using Bazel have up-to-date precise code intelligence on Sourcegraph Cloud.
     
-1. Increase C++ precise code intel monthly operations.
-    - Deliver to [*N<sub>1</sub>*][N1].
+1. 🔄 Increase C++ precise code intel monthly operations.
+    - 🔄 Deliver to [*N<sub>1</sub>*][N1].
     - Deliver to [*N<sub>2</sub>*][N2].
     - Deliver to [*N<sub>3</sub>*][N3].
     
@@ -69,9 +69,9 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
 
 **Milestones:**
 
-1. Sourcegraph Cloud has up-to-date precise code intelligence for 5 Gradle repositories.
-    - Manual configuration in a forked repository.
-    - Gradle plugin implementation.
+1. 🔄 Sourcegraph Cloud has up-to-date precise code intelligence for 5 Gradle repositories.
+    - 🔄 Manual configuration in a forked repository.
+    - 🔄 Gradle plugin implementation.
     - Publish Gradle plugin.
     - Update and improve documentation to ensure a good user experience.
     
@@ -107,10 +107,10 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
 
 **Milestones:**
 
-1.  Stabilize code intelligence backend.
-    - Rewrite resolvers so they can be optimized.
-    - Add hard limits to all database queries.
-    - Implement [RFC 311](https://docs.google.com/document/d/1q59lyj-tLEmEQBe3k9bTQj85NR4abfk2SLNS6UkmcdM/edit) (enable out-of-band data migrations).
+1. 🔄 Stabilize code intelligence backend.
+    - ✅ Rewrite resolvers so they can be optimized.
+    - 🔄 Add hard limits to all database queries.
+    - 🔄 Implement [RFC 311](https://docs.google.com/document/d/1q59lyj-tLEmEQBe3k9bTQj85NR4abfk2SLNS6UkmcdM/edit) (enable out-of-band data migrations).
     - Update codeintel data schema to reduce memory pressure in query path.
     
     **Outcome:** No code intelligence queries consume compute or unbounded memory.
