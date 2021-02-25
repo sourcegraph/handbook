@@ -1,6 +1,18 @@
-# Creating blog posts
+# Creating & editing blog posts with markdown and GitHub 
 
 We want and encourage everyone at Sourcegraph to contribute to the blog and publishing a blog post is as simple as merging an approved pull request with your blog content.
+
+## Table of contents 
+
+1. [Process overview](#process-overview)
+1. [How to create a new blog post in GitHub](#adding-a-blog-post)
+1. [How to add images to your blog post](#adding-images)
+1. [How to add a YouTube video to your blog post](#youtube-video-embed-code)
+1. [How to preview your post](#previewing-your-blog-post)
+1. [How to publish your post](#publishing-your-post)
+1. [How to edit in markdown](#editing-blog-posts)
+
+## Process overview
 
 The process for publishing a blog post is:
 
@@ -69,14 +81,27 @@ It's recommended to run the development site to preview your blog post locally.
 
 Once your pull request is created, the last link in the checks list is a link to the preview deploy on Netlify which you use as the authoritative site to review your blog post.
 
-## Getting your blog post live
+## Publishing your post 
 
 Once your pull request has been approved and merged, a new build of the production site will be triggered and your post will be live in 5 minutes.
 
-## Troubleshooting: If your blog post is not appearing on the blog index page
+### Troubleshooting: If your blog post is not appearing on the blog index page
 
 If you're not seeing your blog post on the index page, check that:
 
 - Your blog post file has a `.md` file extension
 - That it's in a child directory of the `blogposts` directory
 - That your frontmatter data matches that of the template, e.g., make sure the `publishDate` format is correct
+
+## Editing blog posts
+
+Fixing, editing, and updating a blog post on [about.sourcegraph.com](https://about.sourcegraph.com/blog/) is easy, can be done in minutes, and does not require running code locally.
+
+This video shows the process from start to finish, although only those with repository push access will be able to squash and merge the change.
+
+<p class="container">
+  <div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://www.youtube-nocookie.com/embed/15hE2BCyMCQ" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+  <p style="text-align: center"><a href="https://www.youtube.com/watch?v=15hE2BCyMCQ" target="_blank">Watch on YouTube</a></p>
+</p>
