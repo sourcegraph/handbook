@@ -23,7 +23,7 @@
 
 ### Teammates based outside of U.S.
 
-- **[Veem](https://veem.com/)**: Submit monthly invoices.
+- **[Veem](https://veem.com/)**: Submit monthly invoices. See detailed instructions [here](../invoices.md).
 
 ## Configure Google Calendar
 
