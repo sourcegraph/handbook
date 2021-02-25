@@ -129,10 +129,11 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 
 - [Seeking and giving feedback](./seeking-and-giving-feedback.md)
 
-## Handling conflict
+## Handling conflicts
 
-- [Conflict resolution](./code_of_conduct.md#conflict-resolution)
-- [Clean escalation](./code_of_conduct.md#clean-escalation)
+- [Conflict resolution](./conflicts.md)
+- [Clean escalation](./conflicts.md#clean-resolution)
+- [Customer ethics policy](customer_ethics.md)
 
 ## Brain Food
 

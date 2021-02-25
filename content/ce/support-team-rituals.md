@@ -31,7 +31,7 @@ In order to maintain healthy communication, we...
 ## Expectations
 In order to keep the air clear with each other, we do the following:
 
-* We honor our [Sourcegraph values](https://about.sourcegraph.com/company/values), [code of conduct](https://about.sourcegraph.com/handbook/communication/code_of_conduct), and [team ethos](https://about.sourcegraph.com/handbook/ce/support#our-ethos)
+* We honor our [Sourcegraph values](../../company/values.md), [code of conduct](../communication/code_of_conduct.md), and [team ethos](support.md#our-ethos)
 * We make it clear when are committing to do something, we make it equally clear when we cannot, and we adjust and communicate accordingly when life happens
 * We let each other know immediately when we are feeling like it's anything other than feasible to get done what we have committed to doing
 * We let each other know immediately the moment we realize something we committed to doing may be at risk somehow

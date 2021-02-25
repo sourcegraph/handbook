@@ -13,7 +13,7 @@ These things become more important as we grow, so we're trying to be more delibe
 
 ## Related reading
 
-- [Disagreeing with a decision](./code_of_conduct.md#disagreeing-with-a-decision)
+- [Disagreeing with a decision](./conflicts.md)
 - [How Coinbase makes decisions](https://medium.com/@barmstrong/how-we-make-decisions-at-coinbase-cd6c630322e9)
 - [Bain's RAPID decision-making tool](https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/)
   - R: Recommend (the person who describes a problem and recommends a decision)

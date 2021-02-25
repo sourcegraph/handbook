@@ -43,7 +43,7 @@ The default owner of any technical decision is the person or team that owns the 
 
 If ownership is unclear, ask "Do we have a designated owner for X?" in an appropriate Slack channel and @mention appropriate managers.
 
-If there is a dispute about ownership, then perform a [clean escalation](../communication/code_of_conduct.md#clean-escalation) to determine an owner.
+If there is a dispute about ownership, then perform a [clean escalation](../communication/conflicts.md) to determine an owner.
 
 
 ### Communication

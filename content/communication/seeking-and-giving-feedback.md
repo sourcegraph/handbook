@@ -27,7 +27,7 @@ When giving feedback, it's important to:
 - Clarify where the feedback is coming from: is it based on a heuristic or best practice? Is it from a previous decision? Is it rooted in personal opinion?
 - Focus on the work, not the individual.
 
-Keep in mind that providing ongoing feedback is distinct from [disagreeing with a decision](code_of_conduct.md#conflict-resolution). Typically, feedback is sought when a decision is yet to be made.
+Keep in mind that providing ongoing feedback is distinct from [disagreeing with a decision](conflicts.md). Typically, feedback is sought when a decision is yet to be made.
 
 ### Great examples of providing feedback
 
