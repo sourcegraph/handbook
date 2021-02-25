@@ -29,16 +29,13 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 	* [Team rituals](support-team-rituals.md)
 	* [Prioritization](support-prioritization.md)
 	* [Workflow](support-workflow.md)
+	* [Engaging other teams](engaging-other-teams.md)
 	* [Tools](support-tools.md)
 	* [p0 incident response](p0-Incident-Response.md)
-	* [Legacy support overview](legacy-support-overview.md)
-	* [How to route questions from customers](routing_questions.md)
 	* [User deletion](delete_users_guide.md)
 	* [Creating and maintaining license keys for customers](license_keys.md)
 	* [Moving off the insiders build](leaving-insiders-build.md)
-* Collaboration
-	* [CE-to-Engineering issue handover process](ce_to_eng_handover.md)
-	* [Engaging other teams](engaging-other-teams.md)
+
 * Resources
   * [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#u)
   * [Guide to demoing the Campaigns feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)

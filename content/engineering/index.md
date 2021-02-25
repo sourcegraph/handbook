@@ -6,7 +6,7 @@
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
 - Practices & Philosophy
-  - [Customer Issues](../ce/customer_issues.md)
+  - [Customer Issues](../ce/engaging-other-teams.md)
   - [Incidents](incidents/index.md)
   - [Styling UI](./web/styling.md)
   - [Web-specific testing guide](./web/testing.md)
