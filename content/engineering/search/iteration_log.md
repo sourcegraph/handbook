@@ -47,6 +47,17 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
   - 2021-02-26: Zoekt stream search implemented. In testing phase now. Display limits implemented. Highlights in diff/commit search contribute to result count. Dynamic filters now use O(1) space to be computed. Published [RFC 288 ](https://docs.google.com/document/d/1dk309wEXA34b-LF66SBOzcNBJ6jZbWXT_eeBL9TZ2Ro/edit#heading=h.trqab8y0kufp): Exhaustive Search.
 
+### Streaming search polish
+- **Owner(s):** Juliana
+- **Outcomes:**
+    - Streaming search is polished with no major scenario blocking bugs
+    - Streaming search can be enabled on Cloud for everyone
+- **Work log:**
+    - 2021-02-23: Performance issues have been addressed and streaming is now at an acceptable level of performance
+    - 2021-02-22: Server side errors are now handled and displayed to the user correctly
+    - 2021-02-24: Streaming search is now enabled globally on Sourcegraph.com
+    - 2021-02-25: Other UI polish fixes for streaming search have been addressed 
+
 ## 2021-02-08 to 2021-02-19
 
 ### Implement `select` filtering
