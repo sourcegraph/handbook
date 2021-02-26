@@ -14,7 +14,7 @@ Sourcegraph collects a number of data points through pings that are used to unde
 - **Outcomes**:
   - We can survey site-admins actively or passively.
 - **Milestones**:
-  1. We have defined an initial set of data points we wish to collect.
+  ~~1. We have defined an initial set of data points we wish to collect.
   1. We have a tool in place to store and query site-admin data.
   1. There are processes and tools that allows CEs, CSEs and site-admins provide feedback.
   1. We have collected data from 10 site-admins.
@@ -23,12 +23,12 @@ Sourcegraph collects a number of data points through pings that are used to unde
 
 Our existing deployment pipelines to our Sourcegraph instances (such as Sourcegraph Cloud) has several usability problems - for example, it is hard for engineers to identify when a commit on `sourcegraph/sourcegraph` was deployed to an environment or which deployment is currently running in a particular environment. We want to improve the deployment experience, making sure we can deploy with confidence and can easily understand in which stage of the pipeline a change currently is.
 
-- **Status**: Not started. _Estimated: FY22-Q1_
+- **Status**: In Progress. _Estimated: FY22-Q1_
 - **Outcomes**:
   - Our deployment pipeline earns a positive score from Sourcegraph engineering team.
   - Fix the top 5 problems as highlighted by Sourcegraph engineers.
 - **Milestones**:
-  1. Survey all Sourcegraph engineers to score our current deployment pipeline.
+  ~~1. Survey all Sourcegraph engineers to score our current deployment pipeline.
   1. Commits are deployed in a deterministic way to k8s.sgdev.org & sourcegraph.com.
   1. Engineers can easily identify on which stage of our full CI/CD pipeline is a given commit.
   1. Engineers can determine what release is currently running on a given environment.
