@@ -36,7 +36,7 @@
 - [Invoices](invoices.md)
 - [Covered expenses](spending-company-money.md) (aka "Spending company money")
 - [Expense reports](expenses.md)
-- [Vacation/FTO/PTO](https://github.com/sourcegraph/Graphbook/blob/master/Holidays,%20FTO,%20and%20leaves%20of%20absence/Vacation%20and%20FTO.md)
+- [Vacation/FTO/PTO](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks#vacation)
 - [Holidays](holidays.md)
 - [Donations](donations.md)
 
