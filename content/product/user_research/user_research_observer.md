@@ -6,7 +6,7 @@ Here’s everything you need to know ahead of time.
 
 ## Prerequisites
 
-- We use [Lookback](https://lookback.io) to conduct the sessions. Lookback requires Chrome, so please make sure you have Chrome installed and ready, and you've accepted the emailed invitation to join the Sourcegraph team on Lookback.
+- We use [Lookback](https://lookback.io) to conduct the sessions. Lookback requires Google Chrome (other Chromium browsers like Microsoft Edge are **not** supported), so please make sure you have Chrome installed and ready, and you've accepted the emailed invitation to join the Sourcegraph team on Lookback.
 
 ## What to expect
 
