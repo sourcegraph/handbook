@@ -64,7 +64,7 @@ Welcome back! Let’s get started....
 	* All the channels that could have support issues reported in them: ALL the #support- and #trial- channels … there are a lot of them, #twitter (we will have a workflow set-up for marketing to alert us if we need to engage, but it’s still good to be aware as time allows) -- these will be linked to Zendesk, so we don’t monitor these as much as be sure we have quick access when we need to engage in a thread
 	* Feel free to browse all the channels and join anything else that looks relevant or interesting to you and share with the rest of the team in #customer-support-chat
 * Join the following developer communities to help make sure folks talking about Sourcegraph are getting their questions answered:
-	* Gopher Slack community. Post in #customer-support-chat so a member of the team can add you. You will need to join with your personal email address so our presence feels helpful and not sales-y. 
+	* Gopher Slack community. Gophers Slack is a thriving, real-time messaging community. If you are looking to get immediate answers to questions or join in the conversation about Go with other Gophers, this is the place to be. Post in #customer-support-chat so a member of the team can add you. You will need to join with your personal email address so our presence feels helpful and not sales-y. 
 * Read [Our ABC’s Always Be Coding](https://about.sourcegraph.com/blog/our-abcs-always-be-coding-childrens-book/). It’s just cute and so why not!? It’s also a great source of inspiration when trying to simplify complex ideas.
 
 
