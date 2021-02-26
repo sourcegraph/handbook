@@ -35,5 +35,5 @@ In order to keep the air clear with each other, we do the following:
 * We make it clear when are committing to do something, we make it equally clear when we cannot, and we adjust and communicate accordingly when life happens
 * We let each other know immediately when we are feeling like it's anything other than feasible to get done what we have committed to doing
 * We let each other know immediately the moment we realize something we committed to doing may be at risk somehow
-* We let each other know when we are unavailable by posting in our #customer-support-chat Slack channel, setting our Slack status, blocking our personal calendar, and marking the not working calendar
+* We let each other know when we are unavailable by posting in our #customer-support-chat Slack channel, setting our Slack status, blocking our personal calendar, and marking the CS team calendar
 * When we are out for more than a day or two, we create a "what did I miss" doc in our [shared drive folder](https://drive.google.com/drive/u/1/folders/1w-4j9T1z1GxnpvSbr_o5VRVxkct7w27O) for our teammates to populate with things we need to catch-up, be aware of when we return.
