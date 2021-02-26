@@ -37,6 +37,16 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2021-02-26: Defined the background and problem sections in the RFC. Removed the context URL parameter - now we are always using query as the source of truth for contexts.
 
+### Exhaustive
+- **Owner(s):** Keegan, Stefan
+- **Outcomes:**
+  - Zoekt end to end streaming for sourcegraph.com. [#18303](https://github.com/sourcegraph/sourcegraph/issues/18303)
+  - Result limit and counts improvements (detailed breakdown, display limits, etc). [#18297](https://github.com/sourcegraph/sourcegraph/issues/18297)
+  - Validate scheduler approach with a proof of concept. [#18305](https://github.com/sourcegraph/sourcegraph/issues/18305)
+  - Publish exhaustive search RFC.
+- **Work log:**
+  - 2021-02-26: Zoekt stream search implemented. In testing phase now. Display limits implemented. Highlights in diff/commit search contribute to result count. Dynamic filters now use O(1) space to be computed. Published [RFC 288 ](https://docs.google.com/document/d/1dk309wEXA34b-LF66SBOzcNBJ6jZbWXT_eeBL9TZ2Ro/edit#heading=h.trqab8y0kufp): Exhaustive Search.
+
 ## 2021-02-08 to 2021-02-19
 
 ### Implement `select` filtering
