@@ -88,7 +88,8 @@ Welcome back! Let’s get started....
 * Set up a [local environment](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md). This will be your other test environment. If you get stuck, just post in our #customer-support-chat Slack channel to start and if we get stuck as a team, we will get help in #any-questions. You will often want to run Sourcegraph locally when you are troubleshooting.
 * Add Sourcegraph as [a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our internal dogfood instance (`k8s.sgdev.org`) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 * Install a text editor of your choice.
- 
+* Add your profile picture to Zendesk (update this to the avatar provided by Sourcegraph when you get it)
+
 * Start monitoring Zendesk for new support issues and try to own at least one by the end of the week. It is okay if we miss SLA for these first few cases. Take your time trying to figure out the right initial response, following our [workflow](https://about.sourcegraph.com/handbook/ce/support-workflow) steps. This will feel painful and tedious for a bit -- this is a reflection of our team being so nascent and the opportunity we have to make this better (not of your ability). Work as a team to solve issues, run responses by each other, etc. The more activity we have in our #customer-support-chat Slack channel, the better. And, if you have not used Zendesk before and would like a crash course, just let the team know in our #customer-support-chat Slack channel and we will make it happen!
 
 Big pause here. These next tasks need a ton of improvement -- as mentioned in the last bullet! They are all supposed to help you learn the product and get more comfortable doing the job. Work with what is here and take abundant notes for how this can be improved.
