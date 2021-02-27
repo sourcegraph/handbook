@@ -29,6 +29,7 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 	* [Team rituals](support-team-rituals.md)
 	* [Prioritization](support-prioritization.md)
 	* [Workflow](support-workflow.md)
+	* [Customer exceptions](customer-exceptions.md)
 	* [Engaging other teams](engaging-other-teams.md)
 	* [Tools](support-tools.md)
 	* [p0 incident response](p0-Incident-Response.md)
