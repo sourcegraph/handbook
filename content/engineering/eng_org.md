@@ -38,7 +38,6 @@ Plans can change!
 
 - [Beyang Liu](../../../company/team/index.md#beyang-liu), CTO
 - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering)
-    - FQ1 Executive Business Assistant
     - Search and replace (WIP name) {#search-and-replace}
         - FQ2 Director of Engineering, Nick acting manager until then.
         - [Team: Search core backend](search/index.md#search-core-backend-eng)
@@ -54,7 +53,7 @@ Plans can change!
         - [Code insights](code-insights/index.md)
             - [Team: Code insights](code-insights/index.md#code-insights-eng)
     - Platform and infrastructure {#platform-and-infrastructure}
-        - [FQ1 Director of Engineering](https://jobs.lever.co/sourcegraph/8fcbaade-e511-4d93-bd9b-9cc7ec3438af), Nick acting manager until then.
+        - B.C. starting 2020-03-22
         - [Security](security/index.md)
             - [Team: Security](security/index.md#security-eng)
         - [Distribution](distribution/index.md)
