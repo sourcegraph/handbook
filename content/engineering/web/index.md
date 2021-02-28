@@ -16,21 +16,21 @@ This is a large ownership area, so the team creates a focused plan each iteratio
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
 - [Frontend platform](index.md) {#frontend-platform-eng}
-   - We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. Alicja and Jean are involved in the meantime. 
-   - FQ1 [Engineering Manager](../roles.md#engineering-manager), Jean acting manager until then.
-         - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
-         - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
-         - V.B. 2021-02-22
-         - FQ3 frontend engineer
-         - FQ4 frontend engineer
+    - We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. Alicja and Jean are involved in the meantime. 
+    - FQ1 [Engineering Manager](../roles.md#engineering-manager), Jean acting manager until then.
+        - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
+        - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
+        - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him)
+        - FQ3 frontend engineer
+        - FQ4 frontend engineer
 - [Extensibility](index.md) {#extensibility-eng}
-   - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)). Once that happens, Joel will focus entirely on code insights. 
-   - P.D. starting 2020-03-01
-         - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
-         - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-         - M.S. 2021-02-15
-         - FQ2 frontend engineer
-         - FQ4 frontend engineer
+    - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)). Once that happens, Joel will focus entirely on code insights. 
+    - P.D. starting 2020-03-01
+        - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
+        - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
+        - [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him)
+        - FQ2 frontend engineer
+        - FQ4 frontend engineer
 
 ## Contact
 
