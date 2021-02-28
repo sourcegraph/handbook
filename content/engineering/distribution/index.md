@@ -51,10 +51,10 @@ See [Goals](goals.md)
 - [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) ([Engineering Manager](../roles.md#engineering-manager)) {#distribution-eng}
   - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../../company/team/index.md#dave-try)
-  - [Robert Lin](../../../company/team/index.md#robert-lin)
   - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
   - FQ1 [distribution engineer](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
   - FQ1 [distribution engineer](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
+  - FQ2 [Robert Lin](../../../company/team/index.md#robert-lin)
   - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) reports to Gonzalo, but is in an experimental role acting as [an internal contributor, focused on high-value low-cost wins across the board.](https://docs.google.com/document/d/18c9dVjw5MuvOMHahCFQQPAVsp1vRdFDDI_7hmo5MWyQ/edit) His work is not isolated from the Distribution team, it will tracked on [a project board](https://github.com/orgs/sourcegraph/projects/106), with regular status updates to his manager and any other relevant teams. He will work closely with (and sometimes embedded in) other teams, and get alignment with the product team (and any other team) on his work. We will revist this experiment March 2021.
 
 ## On-call rotation
