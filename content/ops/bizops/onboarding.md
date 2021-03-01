@@ -24,7 +24,7 @@ You'll have to get some basics set up in your first few days:
 
 - We're a handbook-first company. Learn all about the handbook on its [handbook page](../../../handbook/usage.md). 
 - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with. 
-- Learn about how we work. We're in all-remote company, which means [we work asynchronously as much as possible](../../../company/remote/index.md#all-remote) and lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
+- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
 
 ### Onboarding sessions
 
