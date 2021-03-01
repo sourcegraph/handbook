@@ -62,7 +62,7 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
 - We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
 - [Core application](index.md) {#core-application-eng}
-    - [FQ1 Engineering Manager](https://jobs.lever.co/sourcegraph/95ad534f-8724-45dc-9b50-291c5926a7dc), Tomás acting manager until then.
+    - R.L. starts 2020-04-12, Tomás acting manager until then.
         - [Joe Chen](../../../company/team/index.md#joe-chen)
         - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
         - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
