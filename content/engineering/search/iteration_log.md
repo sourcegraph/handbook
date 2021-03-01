@@ -20,6 +20,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Polish remaining `select` work (optimization and add pings, see [#18002](https://github.com/sourcegraph/sourcegraph/issues/18002))
     - Start implementing `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584))
 - **Work log:**
+    - 2021-02-26: Added backend optimizations to `select`. Made progress understanding how to integrate pings--to reduce effort, we should add pings for `select` and `contains` at the same time. Discussed `contains` implementation and scaffolding. Started related refactoring to query inputs to generally help clean implementation. 
 
 ### Clean up graphqlbackend resolvers
 - **Owner(s):** Camden
