@@ -10,8 +10,8 @@ As we scale our team and our customer list, we need help with all of the applica
 
 ### Members
 
-Nicky Van Maanen, Tech Operations Manager
+- Nicky Van Maanen, Tech Operations Manager
 
 ### Roles
 
-We are hiring for positions in Tech Ops! See our [careers page](../../company/careers.md to see all roles.
+We are hiring for positions in Tech Ops! See our [careers page](../../../company/careers.md) to see all roles.
