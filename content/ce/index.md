@@ -52,7 +52,6 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 - Customer Engineers (US West)
   - [Emily Chapman](../../company/team/index.md#emily-chapman-she-her)
   - [Jonah Dueck](../../company/team/index.md#jonah-dueck-he-him)
-  - [Nick McMillen](../../company/team/index.md#nick-mcmillen-he-him)
   - [Manuel Ucles](../../company/team/index.md#manuel-ucles)
 - Customer Engineers (US East)
   - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
