@@ -14,6 +14,16 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ## 2021-02-22 to 2021-03-05
 
+### Enable mandatory linting
+- **Owner(s):** Camden
+- **Outcomes:**
+    - Solicit opinions/buy-in on enabling mandatory linting
+    - Enable minimal mandatory linting
+    - Complete plan for migration towards unified linting configuration, and begin fixing lints
+- **Work log:**
+    - 2021-02-26: Feedback was generally positive, with some concern expressed for undue linting noise. Created a PR enabling mandatory linting ([#18703](https://github.com/sourcegraph/sourcegraph/pull/18703)) and an issue for tracking progress of unifying `.golangci.yml` and `.golangci.mandatory.yml` ([#18720](https://github.com/sourcegraph/sourcegraph/issues/18720)).
+    - 2021-03-01: Merged mandatory linting
+
 ### `select` polish and `contains` filter predicate MVP
 - **Owner(s):** Rijnard, Camden
 - **Outcomes:**
