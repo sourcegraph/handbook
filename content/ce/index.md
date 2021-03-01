@@ -23,6 +23,7 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
   * [Comprehensive demo flow](https://docs.google.com/document/d/1q903Yl-vkOqkQ4e3JRiw-u8x8aJ50iTezllzcj_MJWc/edit)
   * [Demo instances](demo_instances.md)
   * [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph-testing/ce-code-smells/)
+  * [Demo Repository](https://docs.google.com/document/d/1BVq3GPMVZih9NKa4UyVAQcsyThi4ye6m4CCQuwZAb80/edit?usp=sharing) (Repository of example searches to use in demos)
 * [Support](support.md)
 	* [Team README](support-bios.md)
 	* [Team schedule](support-schedule.md)
