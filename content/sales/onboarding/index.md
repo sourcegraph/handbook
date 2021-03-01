@@ -58,7 +58,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - Advance 2 opportunities into Technical and Business Validation
   
 ### 90-180 Days
-  - Complete 20 ew Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+  - Complete 20 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
   - $187k of Closed/Won IARR
 
 ## Other helpful links
