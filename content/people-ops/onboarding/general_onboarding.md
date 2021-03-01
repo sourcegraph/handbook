@@ -46,8 +46,19 @@
 
 ## Learn about Sourcegraph
 
+### Values and strategy
+
 - Read the [Sourcegraph values](../../../company/values.md).
 - Read the [Sourcegraph strategy](../../../company/strategy.md).
+
+### Communication and documentation
+
+- We're a handbook-first company. Learn all about the handbook on its [handbook page](../../usage.md).
+- Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant!
+- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
+
+### Other resources 
+
 - Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
 - Go through the [analytics onboarding](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md). This onboarding is within Looker, so if you don't have an account you can ask for access in #analytics.
 - Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
