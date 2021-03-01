@@ -114,8 +114,7 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
   - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-  - FQ1 [full-stack engineer](https://jobs.lever.co/sourcegraph/886e4343-6efc-4ab1-b204-f9115cfdeae3)
-  - FQ2 engineer
+  - FQ1 full-stack engineer
 
 ## Related links
 
@@ -125,8 +124,7 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 - [Supporting Campaigns](supporting-campaigns.md)
 - [Campaign's Drive Folder (private)](https://drive.google.com/drive/u/0/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn)
 - [Campaign's Product Marketing Brief](https://docs.google.com/document/d/1yQpCKF50gx8_T-KDnU4s9TjW6fZpMUfWLF2h4xSM8jk)
+
 ## Growth plan
 
-_Updated 2020-12-09_
-
-We are looking for a [full-stack or frontend engineer](https://jobs.lever.co/sourcegraph/886e4343-6efc-4ab1-b204-f9115cfdeae3) to join our team!
+We have no further plans to grow the team at this time.
