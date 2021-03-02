@@ -53,7 +53,7 @@ When you log into Zendesk, all tickets are organized by the following views:
 * **Unassigned tickets.** All new tickets that are waiting for an owner.
 * **Your unsolved tickets.** All of your tickets that you are actively working on.
 * **All unsolved tickets.** All tickets from across the entire team that everyone is actively working on.
-* **Recently solved tickets.** All tickets that have been moved to solved status (tickets only stay in this status for an hour and then they move to closed). When in a solved state, if customers reply this ticket re-opens. If in a closed state and the customer replies, a new ticket is created.
+* **Recently solved tickets.** All tickets that have been moved to solved status (tickets only stay in this status for 16 business hours and then they move to closed). When in a solved state, if customers reply this ticket re-opens. If in a closed state and the customer replies, a new ticket is created.
 * **Rated tickets from the last 7 days.** All tickets from the last 7 days where a customer has taken time to tell us how we did.
 * **All on-hold tickets.** All tickets from across the entire team that are on-hold waiting for a bug fix.
 * **All closed tickets.** All tickets from across the entire team that are closed.
@@ -62,15 +62,15 @@ When you log into Zendesk, all tickets are organized by the following views:
 
 There are also views for suspended (spam) and deleted tickets. We occasionally check these and never permanently delete anything without a double check with the team just to be sure.
 
-### Required fields
+### Ticket data fields
 When you close a ticket, these are the required fields you must populate:
 
 * **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 * **Official type:** Designates whether this is a question, defect report, or help request
 * **Official priority:** Designates whether the priority is p0, p1, or p2 per our definitions outlined in our [prioritization guidelines](https://about.sourcegraph.com/handbook/ce/support-prioritization). 
-* **Product:** Designates which product/engineering team owns the part of the product or feature associated with the ticket
+* **Engineering team:** Designates which engineering team owns the part of the product or feature associated with the ticket (think, if I got help/needed help which engineering team did I go to/would have gone to?)
 
-### Why there are duplicate fields
+### Why there are duplicate ticket data fields
 In addition to the required fields noted above, we also have these fields that seem duplicative...
 
 * **Type:** This is the out of the box option that lists different option and we only use so something shows up for our customer who want to login into Zendesk to see their entire case history
