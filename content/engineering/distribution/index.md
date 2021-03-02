@@ -53,9 +53,8 @@ See [Goals](goals.md)
   - [Dave Try](../../../company/team/index.md#dave-try)
   - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
   - FQ1 [distribution engineer](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
-  - FQ1 [distribution engineer](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
   - FQ2 [Robert Lin](../../../company/team/index.md#robert-lin)
-  - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst) reports to Gonzalo, but is in an experimental role acting as [an internal contributor, focused on high-value low-cost wins across the board.](https://docs.google.com/document/d/18c9dVjw5MuvOMHahCFQQPAVsp1vRdFDDI_7hmo5MWyQ/edit) His work is not isolated from the Distribution team, it will tracked on [a project board](https://github.com/orgs/sourcegraph/projects/106), with regular status updates to his manager and any other relevant teams. He will work closely with (and sometimes embedded in) other teams, and get alignment with the product team (and any other team) on his work. We will revist this experiment March 2021.
+  - FQ3 hire
 
 ## On-call rotation
 
@@ -98,35 +97,3 @@ You can send an urgent notification to the engineer directly from Slack utilizin
 If the engineer is unable, a message will be send to the rest of the team.
 
 Please provide a link to an [issue](https://about.sourcegraph.com/handbook/ce/customer_issues) in the message.
-
-## Growth plan
-
-_Updated 2020-11-18_
-
-We are looking to grow this team to 8 engineers so we can split into two teams.
-
-<!-- TODO(@nick): Does it actually make sense to grow and divide here? -->
-
-### Distribution
-
-This team owns how we develop, build, release, deploy, and upgrade Sourcegraph Cloud and at customers on-premise.
-
-Examples:
-
-- Expand and maintain our customer deployment options (for example: single Docker image, Docker Compose, Kubernetes, AMI)
-- Ensure that we have a fast and automated release/deployment process to Cloud.
-- Maintain Buildkite infrastructure.
-- Provide automated upgrades for on-premise customers.
-- Build general dev tools that aren't specific to frontend or backend (for example: Codenotify, merge/review bots). <!-- TODO(@nick): should this be under the operations team? -->
-
-### Operations platform
-
-This team is directly responsible for Sourcegraph Cloud uptime and reliability, as well as being responsible for operational infrastructure that enables other engineering teams to observe and monitor the parts of the product they own.
-
-Examples:
-
-- Provide logging and metrics infrastructure that enables developers to observe/search current and historical data as well as define alerts.
-- Provision and scale of our Cloud resources (for example: GCP).
-- Measure and sustain 99.99% uptime and reliability of Sourcegraph Cloud.
-- Enforce access controls and network security policies for our Cloud resources.
-- Make it easy for customers to share relevant data when submitting bug reports.
