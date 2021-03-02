@@ -6,6 +6,7 @@ Customer Support at Sourcegraph exists to resolve technical issues and answer te
 
 We show up for our customers, open source users, and teammates by living up to our Sourcegraph values and handbook, as well as these additional guiding principles …
 
+- Focusing on the impact we might have and aligning our decisions and actions to the impact we desire
 - Seeking/providing context so the why is clear
 - Demonstrating profound compassion for the people with whom our paths cross and the problems/questions we help them solve, meeting them where they are
 - Only asking our customers and teammates things we can’t do or answer ourselves
