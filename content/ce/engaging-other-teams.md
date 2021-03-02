@@ -92,11 +92,11 @@ Any questions about the browser extension or code host native integrations shoul
 
 Any questions about Sourcegraph extensions should be routed to the [Extensibility team](../engineering/web/index.md).
 
-### Campaigns
+### Batch changes (formerly Campaigns)
 
 **Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src-cli`, `automation`, `batch changes`
 
-Any questions about campaigns should be routed to the [Campaigns team](../engineering/campaigns/index.md).
+Any questions about campaigns should be routed to the [Batch changes (formerly Campaigns team)](../engineering/campaigns/index.md).
 
 
 ## Step 4: File a Github issue

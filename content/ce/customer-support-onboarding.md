@@ -33,6 +33,7 @@ Welcome back! Let’s get started....
 * Create free otter.ai and Grammarly accounts (link otter.ai to your Zoom account) and bookmark Hemingwayapp -- why we use these is explained in [our team rituals doc](https://about.sourcegraph.com/handbook/ce/support-team-rituals).
 * Verify you have access to all the required tools -- and check out [Support Tools](support-tools.md) for an overview of the value they bring you and how they all fit together
 	* Gmail
+	* Shared customer support (CS) and customer engineering (CS) Google calendars
 	* GSuite (make sure you can see the Sourcegraph shared drive)
 	* Github
 	* Slack
@@ -59,7 +60,7 @@ Welcome back! Let’s get started....
 		* feedback: Where the NPS (net promoter score) bot posts responses from customers, we post feedback manually we get from other interactions (like support cases) -- sometimes a NPS response indicates a customer is having a support issue
 	* All the super important company channels to stay informed of what is happening: #general, #handbook, #hiring, #progress, #rfcs, #any-question, #thanks, #buddies, #analytics
 	* Whichever of the social channels strike your fancy, for example: #books, #cooking, #kids-of-sourcegraph, #pets-of-sourcegraph, #random, #side-project, #ted-talks, #today-i-learned, #trash-tv (this is definitely not an exhaustive list)
-	* All the product/engineering channels (it can be hard to stay up on all of them all the time, but that is what our daily captain’s log ritual is meant to help with): #dev-ops (probably most important since this seems to the channel where we post about 🔥 emergency issues), #dev-announce, #dev-chat, #dev-rel, #security-chat, #backend-platform, #campaigns-chat, #code-insights-chat, #code-intel, #core-application, #design, #developer-experience, #distributioneers, #eng-pulse, #extensibility-chat, #frontend-platform-chat, #product, #web-chat
+	* All the product/engineering channels (it can be hard to stay up on all of them all the time, but that is what our daily captain’s log ritual is meant to help with): #dev-ops (probably most important since this seems to the channel where we post about 🔥 emergency issues), #dev-announce, #dev-chat, #dev-rel, #security-chat, #backend-platform, #campaigns-chat (soon changing name to reflect team name change to "batch changes"), #code-insights-chat, #code-intel, #core-application, #design, #developer-experience, #distributioneers, #eng-pulse, #extensibility-chat, #frontend-platform-chat, #product, #web-chat
 	* All the other team channels so we can see what is going on with all of our teammates across the company and pitch in when we think we might add value: #it-tech-ops, #marketing, #people-ops, #sales, #sales-chat, #sales-ops, #sales-resources
 	* All the channels that could have support issues reported in them: ALL the #support- and #trial- channels … there are a lot of them, #twitter (we will have a workflow set-up for marketing to alert us if we need to engage, but it’s still good to be aware as time allows) -- these will be linked to Zendesk, so we don’t monitor these as much as be sure we have quick access when we need to engage in a thread
 	* Feel free to browse all the channels and join anything else that looks relevant or interesting to you and share with the rest of the team in #customer-support-chat
@@ -89,13 +90,14 @@ Welcome back! Let’s get started....
 * Add Sourcegraph as [a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our internal dogfood instance (`k8s.sgdev.org`) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 * Install a text editor of your choice.
 * Add your profile picture to Zendesk (update this to the avatar provided by Sourcegraph when you get it)
+* Bookmark our [support plans](https://about.sourcegraph.com/support/) for reference
 
-* Start monitoring Zendesk for new support issues and try to own at least one by the end of the week. It is okay if we miss SLA for these first few cases. Take your time trying to figure out the right initial response, following our [workflow](https://about.sourcegraph.com/handbook/ce/support-workflow) steps. This will feel painful and tedious for a bit -- this is a reflection of our team being so nascent and the opportunity we have to make this better (not of your ability). Work as a team to solve issues, run responses by each other, etc. The more activity we have in our #customer-support-chat Slack channel, the better. And, if you have not used Zendesk before and would like a crash course, just let the team know in our #customer-support-chat Slack channel and we will make it happen!
+* Start monitoring Zendesk for new support issues and try to own at least one by the end of the week. It is okay if we miss SLA for these first few cases. Take your time trying to figure out the right initial response, following our [workflow](https://about.sourcegraph.com/handbook/ce/support-workflow) steps. This will feel painful and tedious for a bit -- this is a reflection of our team being so nascent and the opportunity we have to make this better (not of your ability). Work as a team to solve issues, run responses by each other, etc. The more activity we have in our #customer-support-chat Slack channel, the better. Virginia will also do a walk through the first day of this week and review your first 5 initial responses before you send them. We want to be sure you feel supported and set-up for success.
 
 Big pause here. These next tasks need a ton of improvement -- as mentioned in the last bullet! They are all supposed to help you learn the product and get more comfortable doing the job. Work with what is here and take abundant notes for how this can be improved.
 
 * Browse some of the available materials to help you learn more about the product:
-	* [Campaigns Overview Deck](https://docs.google.com/presentation/d/1CN3KQf1Hfdb4RO6FgBgKuiHK4ERcOAHPgVnOcBu-MPU/edit#slide=id.g7d2aea8729_0_0)
+	* [Campaigns Overview Deck](https://docs.google.com/presentation/d/1CN3KQf1Hfdb4RO6FgBgKuiHK4ERcOAHPgVnOcBu-MPU/edit#slide=id.g7d2aea8729_0_0) -- also note that as of 2021-03-01, Campaigns has been renamed to Batch Changes
 	* [Structural Search Overview](https://zoom.us/rec/share/CJtwQ7uEp3v1pvPqdUD7GDuaYm_2g6w3zSP7GNA3aGQHZDjQ72awYXvHEnwsoio6.Bt-0DuuAZjs7UXMc?startTime=1606237440000)
 	* Code Intelligence [video](https://drive.google.com/file/d/1TyCj62LLmhvamXK-CC6D8-7uGk1jmsKj/view) and [slides](https://docs.google.com/presentation/d/181oMTXRmcTqTCfOe5P__fLKwlzV1uk9wvwG6ocFgz20/edit?usp=sharing)
 	* [“Deployment types - A crash course in Sourcegraph”](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p)
@@ -107,7 +109,7 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 * Explore the sections of the handbook for each engineering team. Get used to trying to find answers in the handbook as much as our documentation. 
 	* [Distribution](https://about.sourcegraph.com/handbook/engineering/distribution) 
 	* [Web](https://about.sourcegraph.com/handbook/engineering/web)
-	* [Campaigns](https://about.sourcegraph.com/handbook/engineering/campaigns)
+	* [Batch changes (formerly Campaigns)](https://about.sourcegraph.com/handbook/engineering/campaigns)
 	* [Core application](https://about.sourcegraph.com/handbook/engineering/core-application)
 	* [Code insights](https://about.sourcegraph.com/handbook/engineering/code-insights)
 	* [Code intelligence](https://about.sourcegraph.com/handbook/engineering/code-intelligence)
@@ -154,6 +156,7 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 * Add or substantially update at least one section to our official product documentation
 * Purchase the book [Leader's Guide to Unconscious Bias](https://www.franklincovey.com/unconscious-bias-book/) by Pamela Fuller in preparation for values training 2
 * Start attending values training 1-3 sessions (invite sent by Virginia)
+* Virginia will review some of your first 25 closed cases and offer a summary of everything she loved and any questions she has to learn more about your work style
 
 
 

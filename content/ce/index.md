@@ -3,7 +3,7 @@
 On the Customer Engineering team, we help developers use Sourcegraph to solve their organization's Big Code problems. 
 
 - [**Customer Engineers**](https://jobs.lever.co/sourcegraph/3ede0606-7a86-45d4-a627-e8cbae7a1a57) help our developer users and champions get more value from using Sourcegraph in more and better ways.
-- [**Customer Support Engineers**](https://jobs.lever.co/sourcegraph/d58a382e-0c20-4dec-9657-63f164ec703a) solve technical problems from all organizations about deployment, configuration, integration, authentication, scaling, troubleshooting, and more. <!-- Example: A Customer Support Engineer might help a customer get perfect cross-repository code intelligence set up for all of their code so they have joyful and more effective code reviews. -->
+- [**Customer Support Engineers**](https://about.sourcegraph.com/handbook/ce/support) solve technical problems from all organizations about deployment, configuration, integration, authentication, scaling, troubleshooting, and more. <!-- Example: A Customer Support Engineer might help a customer get perfect cross-repository code intelligence set up for all of their code so they have joyful and more effective code reviews. -->
 
 We work with many other teams at Sourcegraph, including:
 
@@ -24,7 +24,7 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
   * [Demo instances](demo_instances.md)
   * [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph-testing/ce-code-smells/)
   * [Demo Repository](https://docs.google.com/document/d/1BVq3GPMVZih9NKa4UyVAQcsyThi4ye6m4CCQuwZAb80/edit?usp=sharing) (Repository of example searches to use in demos)
-* [Support](support.md)
+* [Support overview/ethos](support.md)
 	* [Team README](support-bios.md)
 	* [Team schedule](support-schedule.md)
 	* [Team rituals](support-team-rituals.md)
@@ -61,9 +61,9 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 - Customer Support Engineers
   - [Adeola Akinsiku](../../company/team/index.md#adeola-akinsiku)
   - [Warren Gifford](../../company/team/index.md#warren-gifford-he-him)
-  - S. (starting 2021-03-01)
+  - [Stompy Mwendwa](../../company/team/index.md#stompy-mwendwa)
   - [Giselle Northy](../../company/team/index.md#giselle-northy-she-her)
-  - B. (starting 2021-03-01)
+  - [Beatrix Woo](../../company/team/index.md#beatrix-woo-she-her)
   - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support)
 - [Quinn Slack](../../company/team/index.md#quinn-slack) (CEO) is leading Customer Engineering for now.
   - We are hiring for VP Customer Engineering and will have the role posted very soon.

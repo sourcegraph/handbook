@@ -7,6 +7,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 * Github is where our handbook lives.
 * Zoom is how we connect synchronously. 
 * Gmail is mostly for notifications.
+* Google calendar is for your own calendar, as well as shared calendars (like the CS team calendar).
 * Gsuite is for drafts, slide decks, and spreadsheets.
 * Lattice is to facilitate our for our twice yearly [review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles).
 * Lever is for hiring.
