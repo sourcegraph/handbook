@@ -120,6 +120,43 @@ SDR joins this initial call to make the AE intro and listen to the call for feed
 
 **NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
 
+## Account Object
+
+  ### Requesting to Add, Remove, or Exchange your Target Accounts
+
+##### To add an account to your Target Accounts (assumes you are not at your maximum targets):
+
+1. Find the Account in Salesforce.
+2. Using the Button Bar at the top right, select “Change Target Account”.
+3. It will display the number of Target Accounts you have out of your total allowed. Click Next.
+4. Confirm the Request and click Next.
+5. The request has been submitted to your manager for approval. Click Finish.
+6. Once your manager approves the change, the Account will be added to your name and marked as a Target Account.
+
+- Add Account Video Example: https://screenrec.com/share/4NxOzujFbT
+
+##### To remove an account to your Target Accounts:
+
+1. Find the Account in Salesforce.
+2. Using the Button Bar at the top right, select “Change Target Account”.
+3. It will display the number of Target Accounts you have out of your total allowed. Click Next.
+4. Confirm the Request and click Next.
+5. The request has been submitted to your manager for approval. Click Finish.
+6. Once your manager approves the change, the Account will be removed from your name and unmarked as a Target Account.
+
+- Remove Account  Video Example: https://screenrec.com/share/IMZG1ntb85
+
+##### To exchange an account from your Target Accounts (exchanging is only necessary if you are at your max of 25 accounts):
+
+1. Find the Account in Salesforce.
+2. Using the Button Bar at the top right, select “Change Target Account”.
+3. It will display the number of Target Accounts you have out of your total allowed and ask you to provide the Name of the Account you are giving up in order to add the new Account. It is important that you provide the exact name of the Account to be given up. After entering the surrendered Account’s name, click Next.
+4. Confirm the Request and click Next.
+5. The request has been submitted to your manager for approval. Click Finish.
+6. Once your manager approves the change, the surrendered Account will be removed from your name and unmarked as a Target Account while the new Account will be added to your name and marked as a Target Account.
+
+- Exchange Account Video Example: https://screenrec.com/share/dxoK5HG1iR
+
 ## Opportunity Object
 
 ### Associating contacts to opportunities
