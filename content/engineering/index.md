@@ -9,12 +9,12 @@
   - [Customer Issues](../ce/engaging-other-teams.md)
   - [Incidents](incidents/index.md)
   - [Styling UI](./web/styling.md)
-  - [Web-specific testing guide](./web/testing.md)
   - [Product documentation](product_documentation.md)
   - [Continuous releasability](continuous_releasability.md)
   - [Releases](releases/index.md)
     - [Release issue template](releases/release_issue_template.md)
   - [External contributions](external_contributions.md)
+  - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
 - Tooling
   - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
 - Infrastructure
