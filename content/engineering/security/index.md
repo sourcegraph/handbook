@@ -91,12 +91,10 @@ Security develops infrastructure in the [Auxilliary project](https://console.clo
 
 ## Members
 
-- FQ1 [Engineering Manager](../roles.md#engineering-manager), Elizabeth acting manager until then. {#security-eng}
+- Elizabeth acting manager until B.H. (Director of platform and infrastructure) starts. {#security-eng}
   - [Elizabeth Stirling](../../../company/team/index.md#elizabeth-stirling-she-her)
   - [André Eleuterio](../../../company/team/index.md#andré-eleuterio-hehim)
-  - FQ1 [security engineer](https://hire.lever.co/jobs/postings/edit/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)
   - FQ2 [security engineer](https://hire.lever.co/jobs/postings/edit/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)
-  - FQ3 [security engineer](https://hire.lever.co/jobs/postings/edit/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)
   - FQ4 [security engineer](https://hire.lever.co/jobs/postings/edit/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)
 
 ## Open Positions
