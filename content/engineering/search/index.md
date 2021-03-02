@@ -56,7 +56,7 @@ Iterations start **every other Monday**.
 - We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designers](../../product/roles/index.md#product-designer))
 - [Search core backend](index.md) {#search-core-backend-eng}
-    - FQ2 [Engineering Manager](../roles.md#engineering-manager), Loïc acting manager until then.
+    - FQ3 [Engineering Manager](../roles.md#engineering-manager), Loïc acting manager until then.
         - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
         - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
         - R.H., starting March 8
@@ -67,7 +67,6 @@ Iterations start **every other Monday**.
         - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
         - [Rok Novosel](../../../company/team/index.md#rok-novosel-he-him)
         - [Camden Cheek](../../../company/team/index.md#camden-cheek-hehim)
-        - FQ2 backend engineer
         - FQ2 frontend engineer
 
 ## On-call
