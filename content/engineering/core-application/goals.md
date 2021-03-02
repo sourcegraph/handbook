@@ -10,9 +10,10 @@
 
 1. ✅ The Sourcegraph team members can add public code from GitHub.com and GitLab.com.
 1. ✅ The Sourcegraph team members can add private code from Github.com and GitLab.com to Sourcegraph Cloud.
-1. 🔄 Any user can add public code from GitHub.com and GitLab.com. ETA February 2021
-1. Sourcegraph Cloud is Generally Available (GA) for users to add private code from GitHub.com and GitLab.com. ETA April 2021
-1. Sourcegraph Cloud is a viable alternative to Sourcegraph Server for SMBs.
+1. 🔄 Any user can add public code from GitHub.com and GitLab.com. ETA March 2021
+1. 🔄 Any user can add private code from GitHub.com and GitLab.com. ETA April 2021
+1. Marketing launch of private and public code for users on Sourcegraph Cloud. ETA May 2021 
+1. Sourcegraph Cloud is a viable alternative to Sourcegraph Server for a 200-100 person organization.
 1. Sourcegraph Cloud is a paid product that is Generally Available (GA).
 
 ## Roadmap
