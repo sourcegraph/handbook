@@ -122,7 +122,7 @@ SDR joins this initial call to make the AE intro and listen to the call for feed
 
 ## Account Object
 
-  ### Requesting to Add, Remove, or Exchange your Target Accounts
+### Requesting to Add, Remove, or Exchange your Target Accounts
 
 ##### To add an account to your Target Accounts (assumes you are not at your maximum targets):
 
