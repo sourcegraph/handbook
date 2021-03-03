@@ -13,6 +13,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - Docusign
   - Sendoso
   - Outreach (Optional)
+  - Looker
 - [Join all customer calls](joining_customer_calls.md) during this period that you can
 
 ### Handbook pages and links to check out
@@ -36,6 +37,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 - [Customer Engineering](../../ce/index.md) ([Support](../../ce/support.md) + Customer Success)
 - [Marketing](../../marketing/index.md)
 - [Sales](index.md)
+- [Data and Looker onboarding](data_onboarding.md)
 - [Distribution team](../../engineering/distribution/index.md)
 - Check the Sales team onboarding [quiz](quiz.md)
 

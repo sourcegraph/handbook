@@ -20,6 +20,7 @@ Welcome to Sourcegraph - we're very excited to have you on the Customer Engineer
 - Deploy your own SG instance using one of the 3 deployment methods
 - Open and merge first GitHub pull request by adding yourself to [team page](https://about.sourcegraph.com/company/team)in Handbook
 - Read our [CE handbook pages](index.md)
+- Read the [sales/CE data and Looker onboarding](../sales/onboarding/data_onboarding.md)
   
 
 ### Week 2
