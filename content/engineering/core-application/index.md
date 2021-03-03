@@ -68,7 +68,7 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
         - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
         - [Artem Ruts](../../../company/team/index.md#artem-ruts-he-him)
         - [Alex Russell-Saw](../../../company/team/index.md#alex-russell-saw-he-him)
-        - I. G. estimated start date is March 1st 2021
         - [Tomás Senart](../../../company/team/index.md#tomás-senart)
         - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
+        - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta-he-him)
         - FQ4 hire
