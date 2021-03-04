@@ -1,62 +1,53 @@
 # Goals
 
-The campaigns team is building the best solution available for creating and managing large scale changes. To do so we will focus on the following objectives:
+# Overarching goal: Deliver campaigns to as many users as possible
+Campaigns are GA and already create value for some early adopters. The next step is to onboard a broader audience.
+Campaigns will be most valuable for users with large codebases and teams, which are more likely to be found at large tech startups or in the enterprise. Therefore, our primary goal now is to increase adoption of campaigns for our enterprise customers.
+Longer term, we want to push continuous code maintenance and campaigns to every developer.
 
-## Grow adoption of campaigns
+Progress on adoption and usage is tracked in this [Looker dashboard](https://sourcegraph.looker.com/dashboards/136).
 
-We need to grow usage of campaigns to understand our customer use cases and inform our roadmap.
+**Problem**
 
-### How do we will do this:
-* The product manager will work with the CE team to identify customers who fit our current product offering and onboard them to campaigns
-* The campaigns team will identify and correct user experience issues which hinder adoption
-* The engineering team will strive quickly correct errors which impede adoption
+- Our customers have diverse environments, configurations and workflows, that campaigns need to be able to fit into.
 
+**Outcomes**
 
-## Design and build the best solution for creating many changesets
-For a single solution to become the best tool for making large scale changes at any given company,  it must provide features which meet the varying requirements dictated by each environment, configuration and workflow found in the company.
+- We onboard N1 new customers and N2 changesets get created (N1 and N2 in OKRs)
+- We track usage with a monthly MAUs and customer penetration report
+- CE and sales are equipped with enough material and examples to demonstrate the value of campaigns to a broad range of users with varied workflows.
 
-Currently the tools companies do have for making large scale changes are only usable by a select group of experienced developers and solve a limited number of use cases.
+## Objective: Users can create, manage and track large scale campaigns
+**Milestones**
 
-### Problems
-* Campaigns does not currently allow users to open many changesets in a single repo in a way that supports monorepo workflows
-* It takes too long to merge changesets because owners are not aware the  changesets were created
-* The documentation and usability of campaigns are not sufficient to provide a frictionless experience for less experienced developers
+- ✅ Campaigns support monorepos
+- Rate limiting: users can create large scale changesets without breaking code host or CI
+- Users can manipulate (push, close, comment on) many changesets
 
-### Milestones
-* Robust support for monorepo workflows
-* Support adding reviewers to changesets
-* Support adding labels to changesets
-* Documentation on how to set up and start using and troubleshoot campaigns has been tested and improved
+**Outcome**
 
-### Outcomes
-* We sign one monorepo customer in Q1
-* Multiple customers find value in adding reviewers and labels to changesets
-* An increase in the average number of merged changesets is observed
-* A reduction in the number of support requests for users getting started with campaigns
+- N3% of users creating 100+ campaigns report success
 
-## Design and build the best solution for managing many changesets
+## Objective: Broad campaigns adoption and great developer experience
+We want to make it so that campaigns is easy to onboard and use not only for a few power users, but also for all software engineers. This is a key limitation of existing in-house tooling at out customers.
 
-Completing a large scale change in any organization requires coordination with and approval by, many people. Tooling is required for this process to not only be efficient, but at a certain scale, be _possible_. This includes making developers aware changesets exist, reminding them to merge changesets, or if possible, sidestepping this social dilemma entirely by enabling automatic merges.
+**Outcomes**
 
-### Problems
+- Developers from teams outside infrastructure / developer services start using campaigns
+- N4% of users that land on the campaigns dashboard become Active Campaigns Maintainers
 
-* Company workflows often require issues/tickets to accompany changes to their code bases. Campaigns does natively support issue tracking systems.
-* It is currently too difficult to find changesets which cannot or have not been merged.
-* Often owners do not prioritize merging changesets. It takes too long to nudge the owners of each changeset.
-* We do not currently support automerge. Doing so would greatly reduce the manual effort required to merge changesets.
+## Objective: Changeset creators get changesets merged faster
+A campaign is successful when its changes get merged.
 
-### Milestones
+**Outcomes**
 
-* Support creating tickets/issues alongside or instead of code changes.
-* Users can search, filter and sort changesets by check and review status, title, repository and branch.
-* A campaign owner can nudge developers to merge changesets.
-* Campaigns can leverage the automerge capabilities provided by their code host.
+- We have a weekly, actionable time-to-merge report
+- We observe that time-to-merge decreases over time (goal TBD)
 
-### Outcomes
+## Objective: Recurring campaigns
+**Outcomes**
 
-* An increase in the average number of merged changesets is observed.
-* A reduction in the average amount of time to close a campaign is observed.
-* The nudge and automerge features are used by customers to reduce time to merge.
+- Users can set campaigns to run recurrently
 
 # Roadmap
 
@@ -65,3 +56,11 @@ We maintain a [directionally correct roadmap](https://sourcegraph.productboard.c
 <img src="./roadmap-updated-2021-02-12.png" alt="Campaigns short term roadmap updated 2021-02-12" />
 
 *Updated 2021-02-12*
+
+# How we built those goals and milestones
+We generally think about campaigns features in terms of 4 themes:
+
+1. create many changesets easily
+1. track, manage, and merge many changesets easily
+1. expand the realm where campaigns can run
+1. keep campaigns robust and performant
