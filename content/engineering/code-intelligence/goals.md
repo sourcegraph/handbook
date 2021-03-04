@@ -70,18 +70,18 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
 **Milestones:**
 
 1. 🔄 Sourcegraph Cloud has up-to-date precise code intelligence for 5 Gradle repositories.
-    - 🔄 Manual configuration in a forked repository.
-    - 🔄 Gradle plugin implementation.
+    - ✅ Automatic inference for projects that use the Java plugin
+    - Automatic inference for projects that use the Android plugin
     - Publish Gradle plugin.
-    - Update and improve documentation to ensure a good user experience.
+    - 🔄 Update and improve documentation to ensure a good user experience.
     
     **Outcome:** 5 popular open source Gradle repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
 
-1. Sourcegraph Cloud has up-to-date precise code intelligence for 5 Maven repositories.
-    - Manual configuration in a forked repository.
-    - Maven plugin implementation.
+1. 🔄 Sourcegraph Cloud has up-to-date precise code intelligence for 5 Maven repositories.
+    - ✅ Automatic inference for projects that use the Java compiler plugin
+    - Automatic inference for projects that use the Scala/Kotlin plugins
     - Publish Maven plugin.
-    - Update and improve documentation to ensure a good user experience.
+    - 🔄 Update and improve documentation to ensure a good user experience.
     
     **Outcome:** 5 popular open source Maven repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
  
@@ -99,9 +99,9 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
     
     **Outcome:** 3 enterprise customers with Java precise code intel configured in their repositories.
     
-1. Lsif-java supports third party dependency navigation.
+1. lsif-java supports third party dependency navigation.
 
-1. Lsif-java supports Java 11-16.
+1. ✅ lsif-java supports Java 11-16.
 
 ### Backend stability
 
