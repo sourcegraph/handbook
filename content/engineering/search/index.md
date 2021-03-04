@@ -67,7 +67,7 @@ Iterations start **every other Monday**.
         - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
         - [Rok Novosel](../../../company/team/index.md#rok-novosel-he-him)
         - [Camden Cheek](../../../company/team/index.md#camden-cheek-hehim)
-        - FQ2 frontend engineer
+        - FQ3 frontend engineer
 
 ## On-call
 
