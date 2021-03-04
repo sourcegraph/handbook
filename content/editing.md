@@ -10,7 +10,7 @@ We don't expect everyone on the team to figure this out on their own. Other team
 
 - Any engineer at Sourcegraph can help. (The *code* that engineers write at Sourcegraph also consists of files in a Git repository, so engineers are very familiar with making these kinds of edits.)
 - [Teammates who have already made a handbook change](https://sourcegraph.com/github.com/sourcegraph/about/-/stats/contributors?path=handbook%2F) can help.
-- **Handbook heroes**: Ask the @handbook-heroes group in Slack (including @eric, @aileen, @aharvey, @virginia, and @jean) for handbook help (via DM, #handbook, or #any-question). They volunteered to help anyone with anything handbook-related! _If you too want to be a handbook hero, simply edit this page, add your name to the list and ping @handbook-heroes in the #handbook channel to inform them_
+- **Handbook heroes**: Ask the @handbook-heroes group in Slack (including @eric, @aharvey, @virginia, and @jean) for handbook help (via DM, #handbook, or #any-question). They volunteered to help anyone with anything handbook-related! _If you too want to be a handbook hero, simply edit this page, add your name to the list and ping @handbook-heroes in the #handbook channel to inform them_
 - Ask in #handbook: `Who can screen-share with me to help me make an edit to the handbook?`
 - Don't be afraid of breaking anything! It is very easy for any engineer on the team to roll back to the previous version of the handbook if you make a mistake.
 
