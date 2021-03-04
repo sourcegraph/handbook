@@ -18,7 +18,7 @@ Sourcegraph logo
 <img class="mark-rev" src="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.svg" alt="Sourcegraph wordmark reverse logo">
 
 Sourcegraph wordmark reverse logo
-<a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.svg">SVG</a> | <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.png">PNG</a> | <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.eps">EPS</a>
+<a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.svg">SVG</a> | <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reverse.png">PNG</a> | <a href="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-wordmark-reversed.eps">EPS</a>
 
 <img class="logomark" src="https://cdn2.hubspot.net/hubfs/2762526/Brand%20assets/sourcegraph-logomark.svg" alt="Sourcegraph logomark">
 
