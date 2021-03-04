@@ -1,41 +1,42 @@
 <img src="./logo.svg" alt="Sourcegraph Web Team Logo" style="width: 35%; float: right; margin-left: 1rem">
 
-# Web team
+# Web org
 
-The Web team owns two areas of the product: 
+The Web org owns and maintains several areas of the product:
 
 1. **Frontend platform:** the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph.
-2. **Extensibility:** our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions). 
-
-This is a large ownership area, so the team creates a focused plan each iteration, by agreeing on an appropriately small set of [iteration goals](../../../company/goals/index.md). Each goal should have more than one teammate working on it.
+2. **Extensibility:** our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
+3. **Code insights:** empowering data-driven decisions in engineering organizations.
 
 <div style="clear: both"/>
 
 ## Members
 
+As of March 2021, the Web org is made up multiple teams, and some members who work across multiple teams:
+
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
+- [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) (Director)
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-- [Frontend platform](index.md) {#frontend-platform-eng}
-    - We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. Alicja and Jean are involved in the meantime. 
-    - P.D. starting 2020-03-01
-        - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
-        - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
-        - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him)
-        - FQ3 frontend engineer
-        - FQ4 frontend engineer
+- [Frontend platform](../web/frontend-platform/index.md)
+   - [Patrick Dubroy](../../../company/team/index.md#tom-ross-he-him) ([Engineering Manager](../roles.md#engineering-manager))
+      - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
+      - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
+      - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him)
 - [Extensibility](index.md) {#extensibility-eng}
     - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)). Once that happens, Joel will focus entirely on code insights. 
     - Jean acting manager
         - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
         - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
         - [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him)
-        - FQ2 frontend engineer
-        - FQ4 frontend engineer
+- [Code Insights](../web/code-insights/index.md)
+   - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
+   - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager)) {#code-insights-eng}
+   - V. K. starting 2021-03-22
+   - FQ1 [backend engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
 
 ## Contact
 
-- [#web-chat](https://sourcegraph.slack.com/archives/CMT39K56Z) channel or @web in Slack.
-- [team/web](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/web) label and [@sourcegraph/web](https://github.com/orgs/sourcegraph/teams/web) team on GitHub.
+See contact information for the individual teams.
 
 ## [Goals](goals.md)
 
@@ -47,32 +48,7 @@ _Updated 2020-01-14_
 
 - As of 2021-01-14, we are no longer accepting [frontend engineer](../hiring/software-engineer-frontend.md) applications to focus on the Frontend Platform work stream. We will be opening applications for JavaScript engineers to apply to work on our Extensibility work stream by the end of January 2021.
 
-When this team team gets big enough, we expect to split into two dedicated teams: **Frontend platform** and **Extensibility**. 
-
-_In January 2021, [Code Insights](../code-insights/index.md) moved out of the Web Team into its own team, lead by Felix Becker (EM) and Joel Kwartler (PM)._
-
-### Frontend platform: frontend web platform and code browsing 
-
-This team is responsible for:
-
-1. Defining how we do web development at Sourcegraph and ensuring that our product engineering teams have the tools and components they need to quickly build high quality user experiences everywhere we use web technologies (for example: web application, browser extensions).
-1. The core user experience of the Sourcegraph product
-
-The team's areas of responsibility include:
-
-- Frontend platform
-   - Creating and maintaining a standard Sourcegraph UI component library.
-   - Sourcegraph web tech stack, tools, patterns, documentation, education (e.g. webpack, TypeScript, React, RxJS).
-   - Documentation and training material to enable product teams and new hires to quickly learn how we do web development at Sourcegraph.
-   - Define and maintain how we test frontend code.
-   - Ensuring an efficient and reliabile frontend CI pipeline.
-- Code browsing
-   - Application navigation and information hierarchy
-   - Syntax highlighting and file viewing
-   - Repository landing pages and file directory pages
-   - Basic code host-like features (e.g. viewing diffs, commits, history)
-   - Sourcegraph application homepage
-   - Accessibility support
+_In January 2021, [Code Insights](code-insights/index.md) moved out of the Web Team into its own team, lead by Felix Becker (EM) and Joel Kwartler (PM)._
 
 ### Extensibility: Sourcegraph extensions and code host integrations
 

@@ -5,7 +5,7 @@
   1. **_Extensibility_:** _delivering the full, unique value of Sourcegraph across [extensions](https://docs.sourcegraph.com/extensions) and_ [_code host integrations_](https://docs.sourcegraph.com/dev/background-information/web/code_host_integrations).
   1. **_Frontend platform:_** _creating and maintaining a highly usable and intentionally designed webapp interface._
 
-_Until it has fully staffed its own team, the web team also "parents" the **[code insights team](../code-insights/index.md)**._ 
+_Until it has fully staffed its own team, the web team also "parents" the **[code insights team](./code-insights/index.md)**._ 
 
 ## Goals
 

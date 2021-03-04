@@ -41,12 +41,14 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Engineering](engineering/index.md)
   - [Campaigns](engineering/campaigns/index.md)
   - [Core application](engineering/core-application/index.md)
-  - [Code Insights](engineering/code-insights/index.md)
   - [Code intelligence](engineering/code-intelligence/index.md)
   - [Distribution](engineering/distribution/index.md)
   - [Search](engineering/search/index.md)
   - [Security](engineering/security/index.md)
-  - [Web](engineering/web/index.md)
+  - [Web org](engineering/web/index.md)
+    - [Code Insights](engineering/web/code-insights/index.md)
+    - Extensibility (TODO)
+    - [Frontend Platform](engineering/web/frontend-platform/index.md)
 
 ### [Customer Engineering](ce/index.md)
 
