@@ -57,7 +57,31 @@ This document contains the goals and work log for the search team's [2-week iter
   - Validate scheduler approach with a proof of concept. [#18305](https://github.com/sourcegraph/sourcegraph/issues/18305)
   - Publish exhaustive search RFC.
 - **Work log:**
-  - 2021-02-26: Zoekt stream search implemented. In testing phase now. Display limits implemented. Highlights in diff/commit search contribute to result count. Dynamic filters now use O(1) space to be computed. Published [RFC 288 ](https://docs.google.com/document/d/1dk309wEXA34b-LF66SBOzcNBJ6jZbWXT_eeBL9TZ2Ro/edit#heading=h.trqab8y0kufp): Exhaustive Search.
+  - 2021-02-26: Zoekt stream search implemented. In testing phase now. Display
+    limits implemented. Highlights in diff/commit search contribute to result
+    count. Dynamic filters now use O(1) space to be computed. Published [RFC 288
+    ](https://docs.google.com/document/d/1dk309wEXA34b-LF66SBOzcNBJ6jZbWXT_eeBL9TZ2Ro/edit#heading=h.trqab8y0kufp):
+    Exhaustive Search.
+  - 2021-03-05:
+    - src-cli now supports streaming (PR in review, will probably merge on
+      Monday). As described in RFC 288, src-cli is key for rolling out
+      exhaustive search.
+    - First integration test for streaming search. We had couple of regressions
+      over the last weeks and the new integration tests go a long way in
+      avoiding those moving forward.
+    - Lots of smaller cleanups and bug-fixes: EG we remove
+      `repositoriesSearches` and `indexedRepositoriesSearches`. Those fields
+      were a drag on the performace but were never read.
+
+### Misc
+- **Owner(s):** Keegan
+- **Work log***
+  - ci: specify env in the pipeline once (#18690)
+  - gitserver: remove log spam around setting HEAD (#18813)
+  - gitserver: use fetch when cloning (#18535)
+  - dev: build without custom build tags (#18776)
+  
+
 
 ### Streaming search polish
 - **Owner(s):** Juliana
