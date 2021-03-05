@@ -47,6 +47,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Enterprise contexts RFC undergoing review (or at least ready for review)
 - **Work log:**
     - 2021-02-26: Defined the background and problem sections in the RFC. Removed the context URL parameter - now we are always using query as the source of truth for contexts.
+    - 2021-03-05: Finished the RFC and is now ready for review. Quinn K. and Erik gave it a quick pre-review pass to iron out any obvious issues. Fixed the [issues](https://github.com/sourcegraph/sourcegraph/issues/18732) that were found during user testing search contexts.
 
 ### Exhaustive
 - **Owner(s):** Keegan, Stefan
