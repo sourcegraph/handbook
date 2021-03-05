@@ -6,11 +6,11 @@ The marketing launch tier should be established as early in the product developm
 
 ## L1 launch
 L1 launches are reserved for the most important product announcements of the year. L1 launches:
-* Appeal to the broader developer community, including customers, prospects, and even those who have never heard of Sourcegraph
-* Likely support an entirely new set of use cases for Sourcegraph 
-* Likely introduce a new SKU and/or an incremental revenue stream 
-* Are typically goaled on revenue and/or product adoption
-* Receive full marketing and sales support
+- Appeal to the broader developer community, including customers, prospects, and even those who have never heard of Sourcegraph
+- Likely support an entirely new set of use cases for Sourcegraph
+- Likely introduce a new SKU and/or an incremental revenue stream
+- Are typically goaled on revenue and/or product adoption
+- Receive full marketing and sales support
 
 The L1 designation can also be used for major company announcements (funding, acquisitions, IPO, etc.). 
 
