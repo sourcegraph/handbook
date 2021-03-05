@@ -17,6 +17,6 @@ Any teammates based outside of the US are on a contracting structure and will ne
   - Multiply by the number of hours you worked in the pay period. 
 - Example: If you get paid $6000 per month and worked 5 days (40 hours): 6000 / 173.33 = 34.62 x 40 = $1384.8 
 
-All invoices will be paid through [Veem](https://www.veem.com/).
+All invoices will be paid through [Veem](https://www.veem.com/). You should have received an invite to your personal email for a Veem account as part of onboarding.
 
 Please see example [invoice template](https://docs.google.com/spreadsheets/d/1EPYH0nfMSdLE1Eq83eH01SPiuMbfTMiy0W2qS0OZnuo/edit?usp=sharing) if you need one.
