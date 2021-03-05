@@ -74,15 +74,15 @@ This document contains the goals and work log for the search team's [2-week iter
       were a drag on the performace but were never read.
 
 ### Misc
-- **Owner(s):** Keegan
+- **Owner(s):** Keegan, Juliana
 - **Work log***
   - ci: specify env in the pipeline once (#18690)
   - gitserver: remove log spam around setting HEAD (#18813)
   - gitserver: use fetch when cloning (#18535)
   - dev: build without custom build tags (#18776)
+  - code monitoring: toggle labels fixed and improvements to a11y (#18881)
+  - dev experience: wrote and sent out for review [RFC 344](https://docs.google.com/document/d/1ojZ2bmgnZ7CrUrZXJI1vpH_BI_PQp1ygNWt9VtYjDRA/edit#) for frotend development on deployed instances
   
-
-
 ### Streaming search polish
 - **Owner(s):** Juliana
 - **Outcomes:**
@@ -93,6 +93,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2021-02-22: Server side errors are now handled and displayed to the user correctly
     - 2021-02-24: Streaming search is now enabled globally on Sourcegraph.com
     - 2021-02-25: Other UI polish fixes for streaming search have been addressed 
+    - 2021-03-05: Fixed low-hanging fruit a11y issues
 
 ## 2021-02-08 to 2021-02-19
 
