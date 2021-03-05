@@ -30,7 +30,7 @@ PMM should begin partnering with the product deam during the beta stage. Dependi
 
 ## L3 launch
 L3 launches are reserved for small or incremental features and updates. L3 launches:
-- Are only interesting to a subset of existing Sourcegraph customers.
+- Are likely only interesting to a subset of existing Sourcegraph customers
 - Make an existing Sourcegraph use case better or expand upon something we already do
 - Do not ever introduce a new SKU and are included with the core product (though not necessarily available to all customers/plans)
 - Are typically goaled on product adoption or usage 
