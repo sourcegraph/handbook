@@ -28,7 +28,7 @@ Each RFC is assigned a unique sequential number that appears in the title (e.g. 
 
 When you are referring to an RFC with a group of people who might not be familiar with the contents of the RFC (e.g., a [weekly update](../../engineering/leadership/index.md#weekly-updates)), be descriptive of what the RFC does (if you have done a good job choosing a title for the RFC, then this is the title) instead of merely using the RFC number.
 
-_"We finished standardizing the RFC process ([RFC 27](https://docs.google.com/document/d/1ym5c8G5JcrFf5s0QXJqQKBcZRziVAZZsxWdcUJ7Ukfw/edit))"_ is better than saying/writing _"RFC 27 is done"__.
+_"We finished standardizing the RFC process ([RFC 27](https://docs.google.com/document/d/1ym5c8G5JcrFf5s0QXJqQKBcZRziVAZZsxWdcUJ7Ukfw/edit))"_ is better than saying/writing _"RFC 27 is done"_.
 
 ## RFCs are Google Docs
 
@@ -75,15 +75,20 @@ Effective RFCs contain the following information:
 - Title that includes the RFC number.
   - The title is inlined in the Google Doc so that it is more visible and will not disappear if exported to a different format.
 - Metadata about the state of the RFC. Including but not limited to:
-  - **Editor:** The person responsible for iterating on the content of the RFC.
-    - Generally, this is the author of the Google Doc but it is possible for ownership to be transferred.
+  - **Editor:** The single person who is directly responsible for the content in the RFC.
+     - The editor ensures that:
+        - The RFC is well written.
+        - The right people review the RFC.
+        - Comments and feedback are addressed.
+        - The RFC progresses toward a resolution.
+     - The editor frequently authors most of the document, but that is not a strict requirement. They may delegate responsibilities to other teammates.
   - **Status:** A description of the current state or outcome of the RFC. Illustrative examples:
-    - "Still drafting this. I expect to share this with the web team September 6."
-    - "Collecting feedback. I will update the RFC on September 8 based on the feedback collected.
-    - "Updating RFC based on collected feedback. I expect to reshare the updated doc September 9.
-    - "We aren't going to pursue this RFC for the following reasons..."
-    - "The web team is going to implement this RFC in 3.8."
-    - "This RFC has been implemented."
+     - "Still drafting this. I expect to share this with the web team September 6."
+     - "Collecting feedback. I will update the RFC on September 8 based on the feedback collected.
+     - "Updating RFC based on collected feedback. I expect to reshare the updated doc September 9.
+     - "We aren't going to pursue this RFC for the following reasons..."
+     - "The web team is going to implement this RFC in 3.8."
+     - "This RFC has been implemented."
   - **Requested reviewers:** The list of people that the RFC author is requesting a review from and a requested deadline for those reviews (e.g. "Requested reviewers: Alice and Bob can you please review by 10am PST on 2020-10-21"). The author is responsible for ensuring that the reviewers aware of the review request (e.g. by sending them a Slack message or tagging them in a comment on the Google Doc). If an RFC reader thinks someone is missing from this list, they should make a Google Docs suggestion to add that person to this list.
   - **Approvals:** A list of people who approve of this RFC. Anyone can express approval for an RFC, even if they are not in the "Requested reviewers" list; however, a RFC is not APPROVED until the RFC author receives approval from the people on the "Requested reviewers" list.
   - **Team(s):** The team(s) that would be involved in implementing the RFC. You can still request review from people not on a listed team. Writing the team allows us to search RFCs by team using Google Docs's exact match string search. 
@@ -99,7 +104,7 @@ Effective RFCs contain the following information:
 
 The precise format is not as important as the content itself. Ultimately RFCs are a tool to communicate and gather feedback, so optimize for that.
 
-_For convenience, there is a [Google Docs Template](https://docs.google.com/document/d/1vUp1A-j5xxnPn_rv3x3rWo8tbXJhIA5NggHLU6UofUc/edit) that can be used when creating new RFCs._
+*For convenience, there is a [Google Docs Template](https://docs.google.com/document/d/1vUp1A-j5xxnPn_rv3x3rWo8tbXJhIA5NggHLU6UofUc/edit) that can be used when creating new RFCs.*
 
 ## RFCs are public
 
