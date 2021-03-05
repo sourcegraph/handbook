@@ -27,7 +27,6 @@
     - [Lisa Tagliaferri](../../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
         - We will be hiring technical educators
     - Sarah Reece, Director of Demand Generation
-        - [Aileen Agricola](../../company/team/index.md#aileen-agricola-she-her), Senior Digital Marketing Manager
         - Lori Heyman, Digital Marketing Programs
     - Tommy Pesavento, Director of Brand Design
         - We will be hiring a brand design team
