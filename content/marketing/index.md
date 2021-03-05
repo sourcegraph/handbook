@@ -6,6 +6,7 @@
     - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
     - [What problems does Sourcegraph solve?](messaging.md#what-problems-does-sourcegraph-solve)
 - [Product marketing](product_marketing.md)
+    - [Marketing launch tiers](marketing_launch_tiers.md)
 - [Content Marketing](content.md)
     - [Editing blog posts](editing_blog_posts.md)
     - [Creating blog posts](creating_blog_posts.md)
