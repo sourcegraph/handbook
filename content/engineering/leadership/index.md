@@ -47,16 +47,18 @@ We have a 1hr sync every Monday at 9:30am PT.
 
 The goal of status updates is to communicate each team's progress toward their OKRs and roadmap items.
 
-Engineering managers send an update to [engineering-team-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status) after each iteration retrospective. Teams have different iteration cadences and as such we do not expect updates to come through on the same day, but it should follow soon after you have completed your retrospective for the iteration. You may send an update at anytime (you don't need to wait for the end of an iteration). This might be useful to communicate the achievement of an important milestone or a significant changes of plans mid-iteration.
+Engineering managers send an update to [engineering-team-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status) after each iteration retrospective. Teams have different iteration cadences, and as such, we do not expect updates to come through on the same day, but it should follow soon after you have completed your retrospective for the iteration. 
+
+You may send an update anytime (you don't need to wait for the end of an iteration). It might help communicate the achievement of an important milestone or significant change of plans mid-iteration.
 
 Delegate to someone else on your team to send the update when you are on vacation.
 
-Anyone at the company can join the group to subscribe to these updates, but your primary audience is up (your managers) and out (your peers). You can also cc your own team.
+While any teammate can join the group to receive these updates, your target audience is up (your manager) and out (your peers). You can also cc your team.
 
 Please include the following content in your update:
 
-- The subject of the email should contain the team name and the date the update is being sent (e.g. "Search update 2020-10-14") so each update starts a distinct email thread (otherwise they get grouped together in the Google Groups UI).
-- Follow the [3Ps](https://en.wikipedia.org/wiki/Progress,_plans,_problems) approach in reporting on the Progress, Problems and Plans against the team's goals.
+- The email subject should contain the team name and the date (e.g., "Search update 2020-10-14") so each update starts a distinct email thread (otherwise, they get grouped in the Google Groups UI).
+- Follow the [3Ps](https://en.wikipedia.org/wiki/Progress,_plans,_problems) approach to reporting on the _Progress_, ~~Problems~~ _Challenges_, and _Plans_ against the team's goals.
 - Managers should favor a prose style communication over a changelog style update.
 
 ## Book recommendations
