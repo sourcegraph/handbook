@@ -14,7 +14,7 @@ Please do not edit the templates directly -- create a copy and place it in a dif
 
 The following templates are currently available:
 
-- [Enterprise License Agreement and Order Form](https://drive.google.com/file/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/)
+- [Enterprise License Agreement and Order Form](https://drive.google.com/file/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/)
 - [Sourcegraph - Enterprise Services Agreement and Order Form (Hosted Services)](https://docs.google.com/document/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/)
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/document/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
