@@ -60,14 +60,6 @@ Plans can change!
         - [Distribution](distribution/index.md)
             - [Team: Distribution](distribution/index.md#distribution-eng)
         - [Team: Core application](core-application/index.md#core-application-eng)
-        - [Team: Backend platform](core-application/index.md#backend-platform-eng)
-
-Known gaps in current plan:
-
-- Right now the following things are a bit unclearly owned between Core application and Distribution, and we need to scale our ability invest more in all of these things this year:
-  - Better customer deployment/upgrades
-  - Better dev build and CI (speed, reliability, fast deploys to prod)
-  - Cloud uptime, reliability, scaling, observability
 
 <script>
 // This script injects the org chart content into each section of this page that links to a team page.
