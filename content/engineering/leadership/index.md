@@ -13,22 +13,6 @@ This page documents the engineering leadership team.
   - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him), [Engineering Manager](../roles.md#engineering-manager), [Web](../web/index.md)
   - [Owen Convey](../../../company/team/index.md#owen-convey-he-him), [Engineering Manager](../roles.md#engineering-manager), [Code Intelligence](../code-intelligence/index.md)
 
-## Goals
-
-Our long term vision is to build an organization that attracts and retains the best teammates from around the world, and that consistently delivers a high quality product to our customers.
-
-When a goal is "done", move it to our [work log](worklog.md)
-
-### Publicly documented compensation bands
-
-**Problem:** When we were smaller, it was easy to contain consistent compensation across the entire team because there were fewer people to coordinate with. Now that we are bigger and have more engineering managers making offers and compensation decisions, we need to have clearly documented compensation bands so we can maintain consistency while federating decision making. We want to make this public because it will help candidates understand what they can expect before they even apply. This is a better candidate experience and it avoids rare but real situations where a candidate goes through our interview process only to discover that their compensation expectations don't fit into our bands.
-
-**Milestones:**
-
-1. ✅ Update our benchmark data and set bands to be shared with engineering managers internally to help them make offers and review/adjust compensation for their teams. https://docs.google.com/spreadsheets/d/1ywMdWxL8jCpGRXvEIY-bCVD4d4OZNRvz6-Gn4Spg4XU/edit#gid=292189111
-1. Create more useful definitions for the expectations associated with each level of compensation.
-1. Update the [compensation documentation in our handbook](../../people-ops/compensation.md#ranges) so candidates and current teammates know what our bands are.
-
 ## Communication
 
 ### Slack
