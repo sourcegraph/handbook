@@ -123,7 +123,7 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 - [User-facing documentation](https://docs.sourcegraph.com/campaigns)
 - [Developer documentation](https://docs.sourcegraph.com/dev/background-information/campaigns)
 - [Onboarding](onboarding.md)
-- [Supporting Campaigns](supporting-campaigns.md)
+- [Supporting Campaigns](supporting-batch-changes.md)
 - [Campaign's Drive Folder (private)](https://drive.google.com/drive/u/0/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn)
 - [Campaign's Product Marketing Brief](https://docs.google.com/document/d/1yQpCKF50gx8_T-KDnU4s9TjW6fZpMUfWLF2h4xSM8jk)
 
