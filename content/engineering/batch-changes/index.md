@@ -1,4 +1,6 @@
-# Campaigns team
+# Batch changes team
+
+**We're in the process of renaming "Campaigns" to "Batch changes"**
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/campaigneros.png"  align=right alt="Campaigñeros Logo">
 
@@ -110,7 +112,7 @@ The Campaigns team is the current owner of [src-cli](https://github.com/sourcegr
 
 - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
 - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) ([Product Designer](../../product/roles/index.md#product-designer))
-- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager)) {#campaigns-eng}
+- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager)) {#batch-changes-eng}
   - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
   - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
   - [Erik Seliger](../../../company/team/index.md#erik-seliger)

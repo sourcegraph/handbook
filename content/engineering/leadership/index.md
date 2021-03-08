@@ -9,7 +9,7 @@ This page documents the engineering leadership team.
   - [Tomás Senart](../../../company/team/index.md#tomás-senart), [Engineering Manager](../roles.md#engineering-manager), [Core application](../core-application/index.md)
   - [Loïc Guychard](../../../company/team/index.md#loïc-guychard), [Engineering Manager](../roles.md#engineering-manager), [Search](../search/index.md)
   - [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim), [Engineering Manager](../roles.md#engineering-manager), [Distribution](../distribution/index.md)
-  - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris), [Engineering Manager](../roles.md#engineering-manager), [Campaigns](../campaigns/index.md)
+  - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris), [Engineering Manager](../roles.md#engineering-manager), [Batch changes](../batch-changes/index.md)
   - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him), [Engineering Manager](../roles.md#engineering-manager), [Web](../web/index.md)
   - [Owen Convey](../../../company/team/index.md#owen-convey-he-him), [Engineering Manager](../roles.md#engineering-manager), [Code Intelligence](../code-intelligence/index.md)
 

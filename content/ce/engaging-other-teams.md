@@ -96,7 +96,7 @@ Any questions about Sourcegraph extensions should be routed to the [Extensibilit
 
 **Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src-cli`, `automation`, `batch changes`
 
-Any questions about campaigns should be routed to the [Batch changes (formerly Campaigns team)](../engineering/campaigns/index.md).
+Any questions about campaigns should be routed to the [Batch changes (formerly Campaigns team)](../engineering/batch-changes/index.md).
 
 
 ## Step 4: File a Github issue
