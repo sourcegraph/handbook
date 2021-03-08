@@ -32,6 +32,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2021-02-26: Feedback was generally positive, with some concern expressed for undue linting noise. Created a PR enabling mandatory linting ([#18703](https://github.com/sourcegraph/sourcegraph/pull/18703)) and an issue for tracking progress of unifying `.golangci.yml` and `.golangci.mandatory.yml` ([#18720](https://github.com/sourcegraph/sourcegraph/issues/18720)).
     - 2021-03-01: Merged mandatory linting
+	- 2021-03-02: Enable first set of linters
 
 ### `select` polish and `contains` filter predicate MVP
 - **Owner(s):** Rijnard, Camden
@@ -40,7 +41,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Start implementing `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584))
 - **Work log:**
     - 2021-02-26: Added backend optimizations to `select`. Made progress understanding how to integrate pings--to reduce effort, we should add pings for `select` and `contains` at the same time. Discussed `contains` implementation and scaffolding. Started related refactoring to query inputs to generally help clean implementation. 
-    - 2021-03-04: Polised all of `select` including support for `symbol.kind` and frontend autocompletion. Started initial implementation of `contains` on the frontend/backend. Pings for `select` will be added along with `contains` implementation. Outcomes met.
+    - 2021-03-04: Polished all of `select` including support for `symbol.kind` and frontend autocompletion. Started initial implementation of `contains` on the frontend/backend. Pings for `select` will be added along with `contains` implementation. Outcomes met.
+	- 2021-03-05: Implemented `contains`, but the implementation was a bit dirty, so decided to spend some time refactoring before merging
 
 ### Clean up graphqlbackend resolvers
 - **Owner(s):** Camden
@@ -48,6 +50,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Make all search result types independent of resolvers (tracking issue [#18348](https://github.com/sourcegraph/sourcegraph/issues/18348))
     - Move result types out of graphqlbackend
 - **Work log:**
+	- Everything but commit results are moved out of graphqlbackend. Commit results are blocked on splitting out highlights, which are resolvers
 
 ### Enterprise search contexts
 
