@@ -12,6 +12,15 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+
+## 2021-03-08 to 2021-03-22
+
+### Implement `contains` filter predicate and document new additions
+- **Owner(s):** Rijnard, Camden
+- **Outcomes:**
+  - Finish implement `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584)) and pings metrics
+  - Document `select` and `contains` usage and examples (ship this release)
+
 ## 2021-02-22 to 2021-03-05
 
 ### Enable mandatory linting
@@ -31,6 +40,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Start implementing `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584))
 - **Work log:**
     - 2021-02-26: Added backend optimizations to `select`. Made progress understanding how to integrate pings--to reduce effort, we should add pings for `select` and `contains` at the same time. Discussed `contains` implementation and scaffolding. Started related refactoring to query inputs to generally help clean implementation. 
+    - 2021-03-04: Polised all of `select` including support for `symbol.kind` and frontend autocompletion. Started initial implementation of `contains` on the frontend/backend. Pings for `select` will be added along with `contains` implementation. Outcomes met.
 
 ### Clean up graphqlbackend resolvers
 - **Owner(s):** Camden
