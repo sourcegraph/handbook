@@ -84,7 +84,7 @@ Any questions about search should be routed to the [Search team](../engineering/
 
 **Keywords**: `browser extension`, `native integration`, `chrome`, `firefox`, `safari`, `Phabricator`, `Bitbucket`, `GitHub`, `GitLab`
 
-Any questions about the browser extension or code host native integrations should be routed to the [Frontend Platform team](../engineering/web/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Extensibility team](../engineering/web/index.md).
 
 ### Sourcegraph extensions
 
