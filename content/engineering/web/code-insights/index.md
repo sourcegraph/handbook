@@ -17,7 +17,7 @@ We go beyond single-step code intelligence and search to connect the full cycle 
 
 Code insights is the first feature primarily built for non-search-based user personas (developers), instead focusing first on the needs of engineering directors and VPs.
 
-For more information about code insights, see the original [product document](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) or this [demo](https://www.youtube.com/watch?v=XqeRb6Mc4Co) of a code insights prototype. Anyone on the Sourcegraph team can create your own insight using the [quickstart guide](https://gist.github.com/Joelkw/f0582b164578aabc3ac936dee43f23e0), which is explicitly not in the Sourcegraph docs because code insights is undergoing rapid development and this setup will soon change. 
+For more information about code insights, see the original [product document](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) or this [demo](https://www.youtube.com/watch?v=XqeRb6Mc4Co) of a code insights prototype. Anyone on the Sourcegraph team can create your own insight using the [quickstart guide](https://gist.github.com/Joelkw/f0582b164578aabc3ac936dee43f23e0), which is explicitly not in the Sourcegraph docs because code insights is undergoing rapid development and this setup will soon change.
 
 ## Contact
 - [#code-insights](https://sourcegraph.slack.com/archives/C014ZCKMCAV) channel or @codeinsights in Slack.
@@ -34,8 +34,6 @@ The code insights team also keeps a [backlog GitHub project board](https://githu
 - [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - FQ1 [backend engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
-  - FQ1 [frontend engineer](https://jobs.lever.co/sourcegraph/73fda68b-c821-4627-af07-41a0850072fb)
-  - FQ2 [frontend engineer](https://jobs.lever.co/sourcegraph/73fda68b-c821-4627-af07-41a0850072fb)
-  - FQ3 [frontend engineer](https://jobs.lever.co/sourcegraph/73fda68b-c821-4627-af07-41a0850072fb)
-  - FQ4 [frontend engineer](https://jobs.lever.co/sourcegraph/73fda68b-c821-4627-af07-41a0850072fb)
+  - V. K. (Frontend Engineer) starting 2021-03-22
+  - FQ1 [Backend Engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
+  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend Platform Team](../frontend-platform/index.md)
