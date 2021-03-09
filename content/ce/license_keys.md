@@ -25,8 +25,8 @@ First, the company's Sourcegraph administrator must create a Sourcegraph.com use
   - `true-up` to allow the company to go over the user limit on the license.
   - `mau` to indicate that the company is on a monthly usage-based billing model.
   - `trial` to show an indicate in Sourcegraph that the company is on a trial.
-  - `enterprise` for Enterprise licenses (formerly Enterprise Full), without campaigns
-  - `campaigns` to add Campaigns to an Enterprise license
+  - `enterprise` for Enterprise licenses (formerly Enterprise Full), without batch changes
+  - `batch-changes` to add Batch Changes to an Enterprise license
   - `team` for the Team plan
   - `starter` for the Enterprise Starter plan, which functions as Team without user limits (a historical plan—only used for existing customers on this plan, not for new customers or trials)
   - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
@@ -42,7 +42,7 @@ A typical email to send to a company is:
 
 ## Future state
 
-Right now, we only use `enterprise`, `team`, and `campaigns` to indicate plan and features. In the future we will use more granular plans:
+Right now, we only use `enterprise`, `team`, and `batch-changes` to indicate plan and features. In the future we will use more granular plans:
 
   - `plan:team-<version>` to indicate that the company is on team tier, on the given version, e.g. `plan:team-0` (Sales will own knowing the version).
   - `plan:enterprise-<version>` to indicate that the company is on enterprise tier, on the given version, e.g. `plan:enterprise-0` (Sales will own knowing the version).
@@ -51,7 +51,7 @@ Right now, we only use `enterprise`, `team`, and `campaigns` to indicate plan an
      - `private-extension-registry`: Whether publishing extensions to this Sourcegraph instance has been purchased. If not, then extensions must be published to Sourcegraph.com. All instances may use extensions published to Sourcegraph.com.
      - `remote-extensions-allow-disallow`: Whether explicitly specify a list of allowed remote extensions and prevent any other remote extensions from being used has been purchased. It does not apply to locally published extensions.
      - `branding`: Whether custom branding of this Sourcegraph instance has been purchased.
-     - `campaigns`: Whether campaigns on this Sourcegraph instance has been purchased.
+     - `batch-changes`: Whether Batch Changes on this Sourcegraph instance has been purchased.
      - `monitoring`: Whether monitoring on this Sourcegraph instance has been purchased.
      - `backup-and-restore`: Whether builtin backup and restore on this Sourcegraph instance has been purchased.
   - For now, if no `plan:*` tag is supplied, the license will be treated as legacy enterprise tier which has unlimited access to all features.

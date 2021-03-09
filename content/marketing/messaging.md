@@ -3,31 +3,31 @@
 ## What problems does Sourcegraph solve?
 
 The way the world creates code has shifted. We’ve entered the era of Big Code.
- 
+
 Big Code is all about how code is growing in:
 
 * Volume – exponential increases in the amount of code
 * Variety – more complexity in the languages, tools, and processes for delivering software
 * Velocity – accelerated delivery cycles that mean code is changing faster and being shipped virtually every minute
 * Value – the reimagination of business models and practices through high-quality software
- 
+
 This digital transformation led to countless innovations that improve the lives of people all over the world. But it’s been hard on developers.
- 
-With increased complexity, developers still need to efficiently write and make changes to their enterprise’s code, while meeting tight deadlines and stringent quality and security requirements. 
- 
+
+With increased complexity, developers still need to efficiently write and make changes to their enterprise’s code, while meeting tight deadlines and stringent quality and security requirements.
+
 Sub-optimal developer productivity in the era of Big Code is a losing proposition for any company. Development delays mean late releases, poor quality, frustrated teams, unhappy customers, and uncompetitive products.
- 
-Google and Facebook were among the first to begin addressing this problem, investing hundreds of millions of dollars in their customized, proprietary code search infrastructure for internal use. 
+
+Google and Facebook were among the first to begin addressing this problem, investing hundreds of millions of dollars in their customized, proprietary code search infrastructure for internal use.
 
 But what about everybody else?
- 
+
 The answer is universal code search. Companies like Uber, Lyft, Yelp, Qualtrics, and others adopted search technology as the right solution to enhance developer productivity in the era of Big Code.
 
 ## Sourcegraph value proposition
 
 How does Sourcegraph help solve these problems?
 
-With rapidly growing codebases, proliferating number of repositories, multiple languages and file formats, and a wide variety of developer tools, Sourcegraph universal code search empowers developers to quickly explore and better understand all code faster. Code navigation and code exploration improves developer productivity, contextual code intelligence enables better code reviews and onboarding for new hires, and code change campaigns automate large-scale changes. Sourcegraph universal code search lets developers focus on solving problems, not struggle to find code, while managing rapidly changing and complex codebases.
+With rapidly growing codebases, proliferating number of repositories, multiple languages and file formats, and a wide variety of developer tools, Sourcegraph universal code search empowers developers to quickly explore and better understand all code faster. Code navigation and code exploration improves developer productivity, contextual code intelligence enables better code reviews and onboarding for new hires, and batch changes automate large-scale changes. Sourcegraph universal code search lets developers focus on solving problems, not struggle to find code, while managing rapidly changing and complex codebases.
 
 ### Short single sentence
 
@@ -45,37 +45,37 @@ With rapidly growing codebases, proliferating number of repositories, multiple l
 
 ### Medium message (~100 words)
 
-With rapidly growing codebases, proliferating number of repositories, multiple languages and file formats, and a wide variety of developer tools, Sourcegraph universal code search empowers developers to quickly explore and better understand all code faster. Code navigation and code exploration improves developer productivity, contextual code intelligence enables better code reviews and onboarding for new hires, and code change campaigns automate large-scale changes. Sourcegraph universal code search lets developers focus on solving problems, not struggle to find code, while managing rapidly changing and complex codebases.
+With rapidly growing codebases, proliferating number of repositories, multiple languages and file formats, and a wide variety of developer tools, Sourcegraph universal code search empowers developers to quickly explore and better understand all code faster. Code navigation and code exploration improves developer productivity, contextual code intelligence enables better code reviews and onboarding for new hires, and batch changes automate large-scale changes. Sourcegraph universal code search lets developers focus on solving problems, not struggle to find code, while managing rapidly changing and complex codebases.
 
 ### Long message (~450 words)
 
 Sourcegraph universal code search enables developers to traverse the complex universe of interdependent codebases – a plethora of different programming languages, code hosts, repositories, version control systems, services, and APIs – to find the code and information they need to do their jobs in today’s collaborative, multi-dimensional development environment.
- 
+
 Search is severely limited in traditional developer tools, such as editors and IDEs built for individual developers working on a sole repository, not for collaborating teams working with large codebases at scale. GitHub, in its effort to broaden as a software development platform, is improving its code search capabilities, but a single code host inherently can’t be a universal, cross-repository solution.
- 
+
 Universal code search is different: a single, highly scalable way to explore, navigate, and analyze all of an organization's massive stores of code, regardless of system, repository, or language. It is uniquely suited to address Big Code’s four V’s:
- 
+
 * Volume – code exploration, navigation, intelligence, and change management across the whole codebase.
 * Variety – the same functionality is available for every programming language, code host, etc.
-* Velocity – search all branches, diffs, and commits – code search across history, or get alerts about coming changes. 
+* Velocity – search all branches, diffs, and commits – code search across history, or get alerts about coming changes.
 * Value – improved developer productivity that drives more value for the entire enterprise.
- 
+
 Instead of constantly searching in disparate codebases, developers use universal code search to discover and re-use existing code across repositories. They can understand and debug code, figure out the right library or service for a certain task, and share code links to help teammates with best practices.
- 
+
 API owners can see and monitor who’s using their code and how, upgrade API consumers’ call sites across all repositories, and deprecate old APIs.
- 
+
 For DevOps and security teams, universal code search can pinpoint the source of an error or vulnerability, identify code changes responsible for the incident, evaluate the performance of specific lines of code in production, and apply patches and upgrades across all repositories.
- 
-In the era of Big Code, code search needs to be not only how developers discover and explore the entire enterprise codebase but also how they can quickly understand code in context. Universal code search enables better, more sophisticated code reviews and is the fundamental technology behind code change campaigns.
- 
-To be effective, search must be universal across several dimensions: 
+
+In the era of Big Code, code search needs to be not only how developers discover and explore the entire enterprise codebase but also how they can quickly understand code in context. Universal code search enables better, more sophisticated code reviews and is the fundamental technology behind Batch Changes.
+
+To be effective, search must be universal across several dimensions:
 
 * All repositories
 * All programming languages
 * All code changes (commits, branches, and forks)
 * All file formats
 * All other developer tools that generate metadata about code (such as for logging, tracing, and profiling)
- 
+
 Universal code search meets these requirements, and all users have to do is search via a browser, shell, or inside popular tools like GitHub, GitLab, Bitbucket Server, Phabricator, Perforce, and Subversion. Results are instant.
 
 By solving some of the most pressing challenges in today’s fast-moving, intricately connected software organizations, universal code search is the right technology for the era of Big Code.
@@ -84,15 +84,15 @@ By solving some of the most pressing challenges in today’s fast-moving, intric
 
 Sourcegraph is a company that creates software to help every organization build software with the quality and efficiency of today's elite technology companies.
 
-## Press release boilerplate	
+## Press release boilerplate
 
-Sourcegraph helps companies solve [Big Code problems](https://about.sourcegraph.com/press-release/big-code-survey-2020/) so developers can innovate faster. [Sourcegraph’s Universal Code Search](https://info.sourcegraph.com/universal-code-search-ebook-req) is the only solution that empowers developers to easily find and understand code and fix problems across the entire codebase. Companies using Sourcegraph benefit from accelerated software iteration, improved code quality, faster bug fixes and incident response times, more effective remote coding collaboration, safer legacy code deprecation, better coding insights and [more](https://info.sourcegraph.com/universal-code-search-ebook-req). Sourcegraph’s customers include many of the world’s leading companies, such as Amazon, PayPal, Uber, Lyft, Yelp, Atlassian, and Indeed. The all-remote company is backed by Sequoia Capital, Craft Ventures, Redpoint Ventures, and Goldcrest Capital. 
+Sourcegraph helps companies solve [Big Code problems](https://about.sourcegraph.com/press-release/big-code-survey-2020/) so developers can innovate faster. [Sourcegraph’s Universal Code Search](https://info.sourcegraph.com/universal-code-search-ebook-req) is the only solution that empowers developers to easily find and understand code and fix problems across the entire codebase. Companies using Sourcegraph benefit from accelerated software iteration, improved code quality, faster bug fixes and incident response times, more effective remote coding collaboration, safer legacy code deprecation, better coding insights and [more](https://info.sourcegraph.com/universal-code-search-ebook-req). Sourcegraph’s customers include many of the world’s leading companies, such as Amazon, PayPal, Uber, Lyft, Yelp, Atlassian, and Indeed. The all-remote company is backed by Sequoia Capital, Craft Ventures, Redpoint Ventures, and Goldcrest Capital.
 
 ## Definitions
 
 * Code search - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
 * Code navigation - Guided traveling to find specific code via ad-hoc query (enables code discovery and exploration)
 * Code exploration - Find both known and unknown code, with code intelligence providing the contextual understanding
-* Code discovery - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed 
+* Code discovery - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed
 * Code intelligence - Display and share additional contextual information around code (allows code reviews with context)
-* Campaigns - Make large-scale code changes
+* Batch changes - Make large-scale code changes

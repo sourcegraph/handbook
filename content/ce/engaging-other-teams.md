@@ -8,7 +8,7 @@ When we need help, we seek it consistently, following the steps outlined here. W
 * Exhaust our collective expertise
 * Minimize the time added to the customer experience whilst they wait for help
 
-At no point are we meant to be gate keepers or go-betweens. Generally, when a CE needs help, they will come to us. They may also still go directly to engineering for other questions they have. And when we engage engineering, if the CE wants to be included, be sure to do so. This is especially relevant for customers still in the pre-sales process where everything is just a bit more sensitive. 
+At no point are we meant to be gate keepers or go-betweens. Generally, when a CE needs help, they will come to us. They may also still go directly to engineering for other questions they have. And when we engage engineering, if the CE wants to be included, be sure to do so. This is especially relevant for customers still in the pre-sales process where everything is just a bit more sensitive.
 
 ## Step 1: Gather all the details/context and set expectations with the customer
 
@@ -26,18 +26,18 @@ Never say "I need to ask engineering" or anything that can erode trust with the 
 
 If you don't need help and are filing a defect, you can skip this step.
 
-When you need help, post in our #customer-support-chat Slack channel first to see if anyone on our team is able to help you move forward. Always trust your assessment of the situation and move forward to engaging engineering based on the level of urgency/priority associated with the work. 
+When you need help, post in our #customer-support-chat Slack channel first to see if anyone on our team is able to help you move forward. Always trust your assessment of the situation and move forward to engaging engineering based on the level of urgency/priority associated with the work.
 
 ## Step 3: Identify which team can help you
 
-In many cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Distribution, Cloud, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team. 
+In many cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Distribution, Cloud, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
 
 
 ### Deployment
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`
 
-Any questions about deployment should be routed to the [Distribution team](../engineering/distribution/index.md). 
+Any questions about deployment should be routed to the [Distribution team](../engineering/distribution/index.md).
 
 ### Monitoring, management, and performance optimization
 
@@ -45,7 +45,7 @@ Any questions about deployment should be routed to the [Distribution team](../en
 
 Questions about specific alerts and graph panels should be routed to the team that owns the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
 
-Any other questions about monitoring and performance should be routed to the [Distribution team](../engineering/distribution/index.md). 
+Any other questions about monitoring and performance should be routed to the [Distribution team](../engineering/distribution/index.md).
 
 
 ### Code host connections
@@ -92,11 +92,11 @@ Any questions about the browser extension or code host native integrations shoul
 
 Any questions about Sourcegraph extensions should be routed to the [Extensibility team](../engineering/web/index.md).
 
-### Batch changes (formerly Campaigns)
+### Batch Changes
 
 **Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src-cli`, `automation`, `batch changes`
 
-Any questions about campaigns should be routed to the [Batch changes (formerly Campaigns team)](../engineering/batch-changes/index.md).
+Any questions about Batch Changes should be routed to the [Batch Changes team](../engineering/batch-changes/index.md).
 
 
 ## Step 4: File a Github issue
@@ -115,16 +115,16 @@ When in doubt, file in the private repo—issues can be moved over to the public
 File new customer issues in the [private customer issue tracker](https://github.com/sourcegraph/customer/issues/new):
 
 * Initiate the issue from Zendesk via the integration with Github so that the conversation with the customer is available to engineering directly in Github
-* Provide all information required for troubleshooting that you gathered in the previous steps. 
-* Label it with `customer/$name` and `rfh`. 
-* Assign the issue to the appropriate team you identified in the previous step. 
+* Provide all information required for troubleshooting that you gathered in the previous steps.
+* Label it with `customer/$name` and `rfh`.
+* Assign the issue to the appropriate team you identified in the previous step.
 
 If it turns our to be a general issue affecting multiple deployments, create an issue in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose). The issue must not include any private information. It is okay to link any relevant private, customer specific issues. If not already linked to the relevant Zendesk tickets, do so.
 
 ### Add the priority label
 Add a prioritization label to the issue, from `p0` to `p3` based on a combination of (1) the severity of the issue and (2) any relevant context that translates to level of urgency (for example, if a customer is in the sales process, issues have a higher degree of urgency):
 
-* `p0`: System outages (`about`, `/search` (for sourcegraph.com only), or `docs` is fully unreachable) are always p0. At your discretion, we may also designate an issue p0 that results in the company's Sourcegraph instance being unusable. 
+* `p0`: System outages (`about`, `/search` (for sourcegraph.com only), or `docs` is fully unreachable) are always p0. At your discretion, we may also designate an issue p0 that results in the company's Sourcegraph instance being unusable.
 * `p1`: All customer reported issues per our contractual p1 service level agreement definition [here](https://about.sourcegraph.com/handbook/ce/support#our-service-level-agreements-slas).
 * `p2`: All customer reported issues per our contractual p2 service level agreement definition [here](https://about.sourcegraph.com/handbook/ce/support#our-service-level-agreements-slas).
 * `p3`: All feature requests.
@@ -141,7 +141,7 @@ When posting in Distribution team's Slack channel, @ mention the [on-call dev](.
 
 ### Defects
 
-If the issue is a defect, we trust our teammates in product and engineering to schedule the fix based on all other priorities they have to consider. The context you provide on urgency in the ticket is useful to them for this. If the customer requires a timeline update, we can talk with the relevant engineering team to get a sense. We never want to make promises, but we can share what we know and make sure the customer doesn't feel left in the dark or like no one cares about their issue. 
+If the issue is a defect, we trust our teammates in product and engineering to schedule the fix based on all other priorities they have to consider. The context you provide on urgency in the ticket is useful to them for this. If the customer requires a timeline update, we can talk with the relevant engineering team to get a sense. We never want to make promises, but we can share what we know and make sure the customer doesn't feel left in the dark or like no one cares about their issue.
 
 ### Collaboration
 

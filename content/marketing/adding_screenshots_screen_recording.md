@@ -15,7 +15,7 @@
 
 ## Don't add title slides to videos
 
-We almost never use title slides. Title slides are slides at the start of your video that have a Sourcegraph logo, a background, a title (like "Campaigns demo"), and maybe a nice visual effect.
+We almost never use title slides. Title slides are slides at the start of your video that have a Sourcegraph logo, a background, a title (like "Batch Changes demo"), and maybe a nice visual effect.
 
 Why do we not use title slides?
 

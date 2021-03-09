@@ -1,6 +1,6 @@
 # Customer Engineering
 
-On the Customer Engineering team, we help developers use Sourcegraph to solve their organization's Big Code problems. 
+On the Customer Engineering team, we help developers use Sourcegraph to solve their organization's Big Code problems.
 
 - [**Customer Engineers**](https://jobs.lever.co/sourcegraph/3ede0606-7a86-45d4-a627-e8cbae7a1a57) help our developer users and champions get more value from using Sourcegraph in more and better ways.
 - [**Customer Support Engineers**](https://about.sourcegraph.com/handbook/ce/support) solve technical problems from all organizations about deployment, configuration, integration, authentication, scaling, troubleshooting, and more. <!-- Example: A Customer Support Engineer might help a customer get perfect cross-repository code intelligence set up for all of their code so they have joyful and more effective code reviews. -->
@@ -11,7 +11,7 @@ We work with many other teams at Sourcegraph, including:
 - with the [Product team](../product/index.md) and [Engineering team](../engineering/index.md) on product feedback and requirements (by aggregating and relaying what users tell us, and by helping team members get in touch with or solicit feedback from the right users).
 
 ### What is the difference between a Customer Engineer and Customer Support Engineer?
-CSEs are the go-to technical team for our CEs, helping customers both pre- and post-sales, and allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues. We can think of CE and CSE as work best friends, working closely together every day. Where Sales is focused on the commercial relationship, CE is focused on product success/usage/adoption. If the CE is stuck, doesn’t know the answer, that is the exact right time to bring in a CSE and let support do the heads-down troubleshooting work. 
+CSEs are the go-to technical team for our CEs, helping customers both pre- and post-sales, and allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues. We can think of CE and CSE as work best friends, working closely together every day. Where Sales is focused on the commercial relationship, CE is focused on product success/usage/adoption. If the CE is stuck, doesn’t know the answer, that is the exact right time to bring in a CSE and let support do the heads-down troubleshooting work.
 
 ---
 
@@ -40,9 +40,9 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 
 * Resources
   * [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#u)
-  * [Guide to demoing the Campaigns feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
+  * [Guide to demoing the Batch Changes feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
     * [Slides](https://docs.google.com/presentation/d/1niZBMhHKWJT1-n_ExSbYIRD51vcubrWwQm-Tc5EZo8s/edit#slide=id.g7d2aea8729_0_0)
-    * [Campaign demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
+    * [Batch Changes demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
 
 
 ## Members
