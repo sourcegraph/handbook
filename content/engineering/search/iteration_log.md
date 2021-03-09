@@ -21,6 +21,15 @@ This document contains the goals and work log for the search team's [2-week iter
   - Finish implement `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584)) and pings metrics
   - Document `select` and `contains` usage and examples (ship this release)
 
+### Enterprise contexts
+
+- **Owner(s):** Rok
+- **Outcomes:**
+    - RFC reviewed and approved
+    - MVP ready to be shipped (ideally within the 3.26 release)
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2021-02-22 to 2021-03-05
 
 ### Enable mandatory linting
