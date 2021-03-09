@@ -1,12 +1,10 @@
 # ARR
 
-## Definitions
-
-See [definitions of ARR, IARR, new IARR, expansion IARR, and bookings](../../sales/index.md#definitions) in the sales handbook.
-
 ## Monthly closing process
 
 Twice every month the finance team closes the books and reports the latest ARR to the team based on calculations in the ARR source of truth, the [ARR tracker spreadsheet](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit). This process will be completed within 5 business days of halfway and the end of the month.
+
+## Definitions
 
 ### New IARR
 
