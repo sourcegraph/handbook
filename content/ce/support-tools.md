@@ -46,7 +46,7 @@ The best way to use Zendesk as an agent is via the web app. The mobile app is ni
 Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday - Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](https://about.sourcegraph.com/handbook/ce/support-schedule). Otherwise, if you need to focus, just let the team know in our #customer-support-chat Slack channel so we can coordinate and make sure to have you covered!
 
 ### Notifications
-Set your notifications however you see fit to make sure you are able to help monitor the queue. We also let Zendesk notify us via email every time there is a new ticket.
+Set your notifications however you see fit to make sure you are able to help monitor the queue. 
 
 ### Views
 When you log into Zendesk, all tickets are organized by the following views:

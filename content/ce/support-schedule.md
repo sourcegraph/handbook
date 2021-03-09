@@ -19,6 +19,7 @@ Our schedule is reflected in the working hours set in our calendars and blocks h
 |Virginia|8am - 5pm|8am - 5pm|Monday PM|Thursday PM|
 
 Notes
+
 * Focus blocks are listed simply as which 1/2 of which day
 * Stompy would like to have as much collaboration time as possible, so he will take a 2 hour lunch and if he's feeling it, he may stay online being social until 11pm his local time. As a team, we won't schedule meetings that are best with everyone past 10pm his local time / 11am pacific.
 

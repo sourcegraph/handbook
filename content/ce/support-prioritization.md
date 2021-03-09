@@ -19,6 +19,7 @@ Sometimes we have too much work to keep it simple. In these situations, we will 
 * Paying and pre-sales customers first
 * Team customers second
 * Free customers third
+* Open source fourth
 * Internally driven work last
 
 When we have a normal amount of work, we help when help is needed and even with a SLA of 24 hour response time, we still strive to get back to customers (including pre-sales) within a couple of hours most of the time.
