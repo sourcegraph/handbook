@@ -123,7 +123,7 @@ The individual tasks and progress of the current iteration can be found as GitHu
 
 ## Roadmap
 
-The web team maintains objective-based roadmaps in Productboard for each of our two focus areas: [frontend platform roadmap](https://sourcegraph.productboard.com/roadmap/2362023-web-frontend-platform-roadmap) and [extensibility roadmap](https://sourcegraph.productboard.com/roadmap/2330181-web-extensibility-roadmap). 
+The web team maintains objective-based roadmaps in Productboard for each of our two focus areas: [frontend platform roadmap](https://sourcegraph.productboard.com/roadmap/2362023-web-frontend-platform-roadmap) and [extensibility roadmap](https://sourcegraph.productboard.com/roadmap/2599047-extensibility-fy22-roadmap). 
 
 At a glance roadmap as of 2021-01-14:
 
