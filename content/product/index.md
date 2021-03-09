@@ -25,6 +25,8 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 ## Resources
 
+- [Sourcegraph's product design principles](./design_principles.md)
+
 ### References
 
 - [Onboarding to the product team](./onboarding/index.md)
