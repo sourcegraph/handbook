@@ -26,7 +26,7 @@
         - We will be hiring a Managing Editor, Social Media Marketing Manager, Producer (video and podcast production), and Content Marketing Manager
     - [Lisa Tagliaferri](../../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
         - We will be hiring technical educators
-    - Sarah Reece, Director of Demand Generation
+    - [Sarah Reece](https://about.sourcegraph.com/company/team#sarah-reece-she-her), Director of Demand Generation
         - Lori Heyman, Digital Marketing Programs
     - Tommy Pesavento, Director of Brand Design
         - We will be hiring a brand design team
