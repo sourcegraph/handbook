@@ -8,7 +8,7 @@ Welcome! We're so excited to have you join the BizOps team. This document outlin
 
 You'll have to get some basics set up in your first few days:
 
-- Complete the [general onboarding](../../people-ops/onboarding/general_onboarding.md). 
+- Complete the [general onboarding](../../people-ops/onboarding/general_onboarding.md).
 
 ### Understand company and team mission, values and goals
 
@@ -22,8 +22,8 @@ You'll have to get some basics set up in your first few days:
 
 ### Understand Sourcegraph communication and documentation standards
 
-- We're a handbook-first company. Learn all about the handbook on its [handbook page](../../../handbook/usage.md). 
-- Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with. 
+- We're a handbook-first company. Learn all about the handbook on its [handbook page](../../../handbook/usage.md).
+- Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with.
 - Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
 
 ### Onboarding sessions
@@ -34,7 +34,7 @@ Your manager will help you schedule the following training sessions:
     - Search (including code monitoring)
     - Code intel (including the difference between search and precise)
     - Sourcegraph and browser extensions
-    - Campaigns
+    - Batch Changes
     - Code insights
 - Review the [sales onboarding quiz](../../sales/onboarding/quiz.md)
 - Product analytics overview

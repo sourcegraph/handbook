@@ -29,7 +29,7 @@ See [looker](https://sourcegraph.looker.com/looks/436) for current customer data
 
 **Relevance:** users of Sourcegraph in large organizations frequently care about only a subset of the code indexed on their instance (for example, Python backend developers will primarily care about repositories containing Python backend code). Currently, it is hard for users to understand how to search only the code they care about by default, or to refine search results to find the code they care about.
 
-**Alerting:** customers using Sourcegraph to find security issues in their codebase rarely want to run one-off queries; they would like Sourcegraph to run their queries regularly, and to notify them of new results, so that they can take action. Saved searches, our current solution for this use case, is hard to understand, limited to email notifications (while customers frequently want to integrate with third-party services through webhooks), and suffers from the scale and performance limiations of diff search on large codebases. 
+**Alerting:** customers using Sourcegraph to find security issues in their codebase rarely want to run one-off queries; they would like Sourcegraph to run their queries regularly, and to notify them of new results, so that they can take action. Saved searches, our current solution for this use case, is hard to understand, limited to email notifications (while customers frequently want to integrate with third-party services through webhooks), and suffers from the scale and performance limiations of diff search on large codebases.
 
 #### [WIP] Outcome
 
@@ -38,7 +38,7 @@ TODO: What does this look like? Describe this in prose using descriptions from t
 - Make it clear to the passing naive hacker that they couldn’t write something which replaces us in a few weekends / just use grep.
 - Our search experience is consistent, reliable, and predictable: IE Sourcegraph search does what it says and says what it does.
 - We understand more about each individual user and tailor their results so that results are ranked to promote the languages and repositories they are most likely to care about.
-- Search queries and their results become a frictionless starting point for creating all the other business objects our users will start to value… monitors, insights, campaigns and /next/.
+- Search queries and their results become a frictionless starting point for creating all the other business objects our users will start to value… monitors, insights, batch changes, and /next/.
 - Search is optimized for the cloud, where hundreds of a company’s private repos will live alongside hundreds of thousands of public open source repos.
 - We have a learnable, comprehensive code search query language; performant and reliable search across all result types we offer; a polished product that handles failure cases properly; and a personalized experience for users that surfaces their most relevant code.
 

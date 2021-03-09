@@ -57,7 +57,7 @@ Here's a comprehensive answer that you can trim down based on the prospective cu
 
 ## How is Sourcegraph different from Kythe?
 
-Kythe is a very low-level code intelligence system. It plays the same role as LSIF (which is what Sourcegraph uses instead of Kythe for code intelligence). Kythe is not a product that they can actually use. It doesn’t do code search, code browsing, code host integrations, campaigns, code insights, etc.
+Kythe is a very low-level code intelligence system. It plays the same role as LSIF (which is what Sourcegraph uses instead of Kythe for code intelligence). Kythe is not a product that they can actually use. It doesn’t do code search, code browsing, code host integrations, batch changes, code insights, etc.
 
 It's like saying instead of Salesforce CRM we will just use InsightSquared (actually Kythe is even lower-level than InsightSquared, but you get the idea).
 
@@ -125,6 +125,5 @@ The built-in (non-universal) code search functionality of many code hosts (inclu
 - Do you support negative regex look arounds?
 - Can Sourcegraph search within our code review comments?
 - Does Sourcegraph have a Slack integration for notifications from Saved Searches?
-- When should I expect Sourcegraph code change management campaigns to be available? Can I access the feature set today?
 - Why is Sourcegraph more expensive than GitHub Enterprise / Stack Overflow / Slack / Asana / JIRA licenses?
 - Can you break down your pricing fees for managed instances?

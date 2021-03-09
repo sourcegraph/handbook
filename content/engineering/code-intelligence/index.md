@@ -22,7 +22,7 @@ The origin of our work is the core of Sourcegraph, first implemented as [srclib]
 
 2019 - While looking for more efficient alternatives to language servers we found LSIF (Language Server Index Format) which provided an index-based implementation of precise code navigation (similar to srclib) with the advantage of being able to build on top of the work done in the LSP community (LSIF and LSP are sister protocols).
 
-2020 and beyond - The Code Intelligence team is responsible for how Sourcegraph understands code and for providing data that powers semantic search, campaigns and code insights. Our API is the point of discovery for the knowledge graph for all source code.
+2020 and beyond - The Code Intelligence team is responsible for how Sourcegraph understands code and for providing data that powers semantic search, batch changes, and code insights. Our API is the point of discovery for the knowledge graph for all source code.
 
 ## Vision
 
@@ -30,7 +30,7 @@ To be the point of discovery for the knowledge graph for all source code.
 
 ## Mission
 
-Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights and campaigns.
+Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights, and batch changes.
 
 ## [Goals](goals.md)
 
@@ -61,7 +61,7 @@ The code intel team has defined a set of rituals that keeps the team connected a
 
 Our iterations last two weeks and are comprised of the following:
 
-- Planning Meeting: The first Monday of the iteration we hold a retro and planning meeting.  Our iterations are comprised of work taken from our [backlog](https://github.com/orgs/sourcegraph/projects/100).  Our in-flight iteration work is tracked in our iteration [board](https://github.com/orgs/sourcegraph/projects/101). 
+- Planning Meeting: The first Monday of the iteration we hold a retro and planning meeting.  Our iterations are comprised of work taken from our [backlog](https://github.com/orgs/sourcegraph/projects/100).  Our in-flight iteration work is tracked in our iteration [board](https://github.com/orgs/sourcegraph/projects/101).
 - Team Sync Meeting: The second Monday of the iteration, the code intel team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the sync meeting, each team member should:
 
   1. Add any agenda items that should be discussed.

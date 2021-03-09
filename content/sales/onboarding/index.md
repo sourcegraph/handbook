@@ -30,7 +30,6 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 - Read/watch
   - Entire [about.sourcegraph.com](https://about.sourcegraph.com) site
   - Sourcegraph [glossary](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/docs/glossary.md)
-  - [Videos of campaigns](https://about.sourcegraph.com/product/code-change-management)
   - Case studies: [Yelp](https://engineeringblog.yelp.com/2019/11/winning-the-hackathon-with-sourcegraph.html), [Quantcast](https://about.sourcegraph.com/case-studies/quantcast/) and [Thorn](https://about.sourcegraph.com/case-studies/we-are-thorn/)
   - Latest Sourcegraph release blog post (on our [blog](https://about.sourcegraph.com/blog))
   - The [Marketing Overview on Demand Gen](https://docs.google.com/presentation/d/1LW2C5wgLugdiFl_nyKCxybmJ7aLb0xEeCRzdY5b4-zA/edit#slide=id.gb52e2cae45_0_18)
@@ -48,17 +47,17 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
  - Pass the Pitch certification
  - Finalize your Target Account list with your manager
  - Establish an Outbound Propsecting Plan for 5 Target Accounts
- 
+
 ### 30-60 Days
   - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
   - Added 3 Qualified Opportunities to your pipeline in Salesforce
   - Build a Strategic Account Plan for top Target Account
-  
+
 ### 60-90 Days
   - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
   - Add 3 additional Qualified Opportunities to your pipeline in Salesforce
   - Advance 2 opportunities into Technical and Business Validation
-  
+
 ### 90-180 Days
   - Complete 20 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
   - $187k of Closed/Won IARR

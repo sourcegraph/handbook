@@ -22,7 +22,7 @@ Company meeting is an effective way to:
    - If you don't know, then do not present.
 1. Always give brief background on your project or function, even if it sounds obvious.
    - This helps spread consistent, effective ways to talk about our company and product.
-     - Example: "On campaigns, we heard from Acme Corp that..." vs. "Campaigns let you make large-scale fixes across all of your code. Acme Corp told us that..."
+     - Example: "On Batch Changes, we heard from Acme Corp that..." vs. "Batch Changes let you make large-scale changes across all of your code. Acme Corp told us that..."
 	 - Example: "Marketing update: our new lead sources..." vs. "Marketing is about getting enterprise developers to know about and want to try Sourcegraph. Our new lead sources..."
    - Remember that other team members are new to the company and/or busy on their own projects.
 1. When speaking, remind people of your role. For example: `I'm Alice Zhao, a developer on the security team` or `I'm Bob Schmidt, and I run the website on our marketing team`.
@@ -33,7 +33,7 @@ Company meeting is an effective way to:
   - The interface between your team and other teams is your [goals](../../company/goals/index.md), not your tasks.
   - Focusing on tasks instead of goals overloads other people with irrelevant information. This makes them tune out and probably miss or forget the important information.
   - Example:
-    - Good: "On GitLab support in campaigns, we fixed all 7 bugs reported by other team members and are shipping it to the first beta customers today."
+    - Good: "On GitLab support in Batch Changes, we fixed all 7 bugs reported by other team members and are shipping it to the first beta customers today."
 	- Bad: "We fixed an issue where API rate limits for merge requests would ... and another issue where the status from the GitLab webhook payload ..."
 
 ## Agenda

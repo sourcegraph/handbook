@@ -52,7 +52,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 - [ ] Post a release status update to Slack:
   ```sh
   yarn release release:status
-  ``` 
+  ```
 
 ## Stage release
 
@@ -66,14 +66,14 @@ Once there are no more release-blocking issues (as reported by the `release:stat
   yarn release release:create-candidate final
   ```
 - [ ] Ensure the [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=$MAJOR.$MINOR), [QA pipeline](https://buildkite.com/sourcegraph/qa/builds?branch=$MAJOR.$MINOR), and [E2E pipeline](https://buildkite.com/sourcegraph/e2e/builds?branch=$MAJOR.$MINOR) in Buildkite passes, and for the release Docker images to be available in [Docker Hub](https://hub.docker.com/r/sourcegraph/server/tags).
-- [ ] Open PRs that publish the new release and address any action items required to finalize draft PRs (track PR status via the [generated release campaign](https://k8s.sgdev.org/organizations/sourcegraph/campaigns)):
+- [ ] Open PRs that publish the new release and address any action items required to finalize draft PRs (track PR status via the [generated release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes)):
   ```sh
   yarn release release:stage
   ```
 
 ## Finalize release
 
-- [ ] From the [release campaign](https://k8s.sgdev.org/organizations/sourcegraph/campaigns), merge the release-publishing PRs created previously.
+- [ ] From the [release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes), merge the release-publishing PRs created previously.
   - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph), also:
     - [ ] Tag the `v$MAJOR.$MINOR.0` release at the most recent commit on the `v$MAJOR.$MINOR` branch.
         ```sh
@@ -81,9 +81,9 @@ Once there are no more release-blocking issues (as reported by the `release:stat
         ```
   - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
     - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
-- [ ] Ask the product team (`#product`) to merge the blog post. Add the pull request to the release campaign:
+- [ ] Ask the product team (`#product`) to merge the blog post. Add the pull request to the release batch change:
   ```sh
-  yarn release release:add-to-campaign sourcegraph/about <pr-number>
+  yarn release release:add-to-batch-change sourcegraph/about <pr-number>
   ```
 - [ ] Finalize and announce that the release is live:
   ```sh

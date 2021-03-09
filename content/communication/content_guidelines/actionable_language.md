@@ -1,4 +1,4 @@
-# Actionable language 
+# Actionable language
 
 The content in our products and messages shape how our users perceive and use our product to get things done. Our writing must help our users understand and take action.
 
@@ -20,13 +20,13 @@ Some specific guidelines for writing headings and subheadings:
 <div class="item yes">
 <h5>Yes</h5>
 <ul>
-<li>Get started with campaigns</li>
+<li>Get started with code search</li>
 </ul>
 </div>
 <div class="item no">
 <h5>No</h5>
 <ul>
-<li>Get Started with Campaigns.</li>
+<li>Get Started with Code Search.</li>
 </ul>
 </div>
 </div>
@@ -123,13 +123,13 @@ Always write button labels in sentence case.
 <div class="item yes">
 <h5>Yes</h5>
 <ul>
-<li>Create new campaign</li>
+<li>Create new batch change</li>
 </ul>
 </div>
 <div class="item no">
 <h5>No</h5>
 <ul>
-<li>Create New Campaign</li>
+<li>Create New Batch Change</li>
 </ul>
 </div>
 </div>
@@ -255,13 +255,13 @@ Links in full sentences shouldn’t link the whole sentence, but instead only th
 <div class="item yes">
 <h5>Yes</h5>
 <ul>
-<li>Learn how to <a href="#_" aria-disabled="true">create your first campaign</a>.</li>
+<li>Learn how to <a href="#_" aria-disabled="true">create your first batch change</a>.</li>
 </ul>
 </div>
 <div class="item no">
 <h5>No</h5>
 <ul>
-<li><a href="#_" aria-disabled="true">Learn how to create your first campaign</a>.</li>
+<li><a href="#_" aria-disabled="true">Learn how to create your first batch change</a>.</li>
 </ul>
 </div>
 </div>
@@ -406,7 +406,7 @@ Confirmation message **calls to action** should:
 </ul>
 </div>
 </div>
-  
+
 ## Success messages
 
 Success messages are shown to users in response to an action they performed, when it succeeds.
