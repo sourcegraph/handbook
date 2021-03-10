@@ -52,16 +52,7 @@ We cross-post our open positions to the following locations:
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
 - ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md)
 - [RemoteWoman](https://remotewoman.com/)
-- [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Nick owns this list and payments are made with Nick's Brex. Tech Ladies checks our open positions every month to see if there are updates, but we can request an update anytime by emailing jobpostings@hiretechladies.com. Here are the 10 roles that we post:
-  1. [Director of Engineering - Platform and Infrastructure](https://jobs.lever.co/sourcegraph/8fcbaade-e511-4d93-bd9b-9cc7ec3438af)
-  1. [Engineering Manager - Cloud Application and Core Services](https://jobs.lever.co/sourcegraph/95ad534f-8724-45dc-9b50-291c5926a7dc)
-  1. [Software Engineer - Cloud - Frontend](https://jobs.lever.co/sourcegraph/b2f9a8b0-cc06-4629-81a0-0f2fa64271c7)
-  1. [Software Engineer - Distribution](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
-  1. [Software Engineer - Security](https://jobs.lever.co/sourcegraph/c36db3e1-0ece-465d-ad7c-1eb6de9a4b22)
-  1. [Director of Community](https://jobs.lever.co/sourcegraph/480e8d71-03af-4659-ac90-b8e32ad4ef34)
-  1. [Account Executive](https://jobs.lever.co/sourcegraph/35aff80b-be4f-4887-a465-3e91e1ca3d2b)
-  1. [Product Manager](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)
-  1. [Product Designer](https://jobs.lever.co/sourcegraph/fa7d3807-ae4c-4a35-9401-56dad0958227)
+- [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Nick owns this list and payments are made with Nick's Brex. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
 
 We welcome suggestions for more places that we can post!
 
