@@ -18,11 +18,18 @@ This is the comment that [Nick](../../../company/team/index.md#nick-snyder-he-hi
 > If you want to make software development more accessible to everyone, we would love to review your application to one of our many open roles!
  https://about.sourcegraph.com/company/careers
 >
-> Other useful links:
->  - Our mission: https://about.sourcegraph.com/company/strategy
->  - Our values: https://about.sourcegraph.com/company/values
->  - Our customers: https://about.sourcegraph.com/customers/
->  - Our code: https://github.com/sourcegraph/sourcegraph
->  - Our blog: https://about.sourcegraph.com/blog
->  - News about us: https://about.sourcegraph.com/news/
->  - Series C funding: https://about.sourcegraph.com/blog/series-c-with-sequoia/
+> Other useful links...
+> 
+> Our mission: https://about.sourcegraph.com/company/strategy
+> 
+> Our values: https://about.sourcegraph.com/company/values
+>
+> Our customers: https://about.sourcegraph.com/customers/
+> 
+> Our code: https://github.com/sourcegraph/sourcegraph
+>
+> Our blog: https://about.sourcegraph.com/blog
+> 
+> News about us: https://about.sourcegraph.com/news/
+> 
+> Series C funding: https://about.sourcegraph.com/blog/series-c-with-sequoia/
