@@ -118,8 +118,8 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Related links
 
-- [User-facing documentation](https://docs.sourcegraph.com/campaigns)
-- [Developer documentation](https://docs.sourcegraph.com/dev/background-information/campaigns)
+- [User-facing documentation](https://docs.sourcegraph.com/batch_changes)
+- [Developer documentation](https://docs.sourcegraph.com/dev/background-information/batch_changes)
 - [Onboarding](onboarding.md)
 - [Supporting Batch Changes](supporting-batch-changes.md)
 - [Batch Changes Drive Folder (private)](https://drive.google.com/drive/u/0/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn)

@@ -112,7 +112,7 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
     -   Understand the 3 differrent Sourcegraph deployment methods
         - ["Deployment types - A crash course in Sourcegraph"](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p)
   - [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system         works.
-      - Also review [How the Sourcegraph CLI executes a batch spec](https://docs.sourcegraph.com/campaigns/explanations/how_src_executes_a_campaign_spec)
+      - Also review [How the Sourcegraph CLI executes a batch spec](https://docs.sourcegraph.com/batch_changes/explanations/how_src_executes_a_batch_spec)
   - [Observability and monitoring](https://docs.sourcegraph.com/admin/observability) docs and understand how to troubleshoot those tools
      - [Grafana and Prometheus](https://docs.sourcegraph.com/admin/observability/metrics)
      - [Tracing](https://docs.sourcegraph.com/admin/observability/tracing)

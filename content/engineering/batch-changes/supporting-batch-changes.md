@@ -2,13 +2,13 @@
 
 ## Batch Changes documentation
 
-The best place to start is to read through all of the [Batch Changes docs](https://docs.sourcegraph.com/campaigns). Of particular importance:
+The best place to start is to read through all of the [Batch Changes docs](https://docs.sourcegraph.com/batch_changes). Of particular importance:
 
-- [Introduction to Batch Changes](https://docs.sourcegraph.com/campaigns/explanations/introduction_to_campaigns): understand what the product is all about
-- [Quickstart](https://docs.sourcegraph.com/campaigns/quickstart): create your first batch change!
-- [How `src` executes a batch spec](https://docs.sourcegraph.com/campaigns/explanations/how_src_executes_a_campaign_spec): this is what happens under the hood when the user previews or applies a batch change
-- [Troubleshooting](https://docs.sourcegraph.com/campaigns/references/troubleshooting): this (along with the above doc on how `src` works) holds common first steps for troubleshooting; _always feel free to add to this page!_
-- [Requirements](https://docs.sourcegraph.com/campaigns/references/requirements): make sure customers understand and meet our requirements
+- [Introduction to Batch Changes](https://docs.sourcegraph.com/batch_changes/explanations/introduction_to_batch_changes): understand what the product is all about
+- [Quickstart](https://docs.sourcegraph.com/batch_changes/quickstart): create your first batch change!
+- [How `src` executes a batch spec](https://docs.sourcegraph.com/batch_changes/explanations/how_src_executes_a_batch_spec): this is what happens under the hood when the user previews or applies a batch change
+- [Troubleshooting](https://docs.sourcegraph.com/batch_changes/references/troubleshooting): this (along with the above doc on how `src` works) holds common first steps for troubleshooting; _always feel free to add to this page!_
+- [Requirements](https://docs.sourcegraph.com/batch_changes/references/requirements): make sure customers understand and meet our requirements
 
 ## Support quests
 
