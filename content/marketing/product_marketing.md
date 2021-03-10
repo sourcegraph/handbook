@@ -17,7 +17,7 @@
 
 ## Open roles
 - [Customer Marketing Manager](https://jobs.lever.co/sourcegraph/5769890f-69bd-4ff5-8515-233ce8e3c620) 
-- Product Marketing Manager, Emerging Products (coming soon)
+- [Product Marketing Manager, Emerging Products](https://jobs.lever.co/sourcegraph/d7813bec-5ebe-438c-a826-f12a78516c16)
 - Product Marketing Manager, Enterprise (coming soon)
 
 ## FY2022 goals
