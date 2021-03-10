@@ -11,7 +11,8 @@ Any teammates based outside of the US are on a contracting structure and will ne
 - Include any expenses incurred that month as individual line items and attach all expense receipts to the same email with the invoice. 
 - Include any fringe benefits on your invoice as individual line items as well (cell phone, internet, wellness benefits, etc.).
 - Submit monthly invoices by the 2nd of the month so that payments can be issued by the 5th.
-- To calculate your monthly invoice, use the following formula:
+- To calculate your monthly invoice, you can take your annual pay and devide it by 12 to arrive at the monthly amount.
+- If it is your first month and you start later in the month, you will need to use the following formula to prorate that month:
   - Take your annual pay amount and divide it by 12 to determine your monthly pay.
   - Divide your monthly pay by 173.33 hours per month (average hours worked per month based on 40 hour weeks for 52 weeks, according to IRS).
   - Multiply by the number of hours you worked in the pay period. 
