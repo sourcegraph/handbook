@@ -17,6 +17,7 @@ The Business Operations & Strategy (BizOps) team operates with the mission of dr
 ## Resources
 
 - [Onboarding](onboarding.md)
+- [User metrics definitions](user_definitions.md)
 
 ## Goals
 
