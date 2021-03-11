@@ -1,49 +1,75 @@
-# Frontend Platform team
+# Extensibility team
 
-The Frontend Platform team (part of the Web org) defines and maintains the standards and tooling for web development at Sourcegraph.
+The extensibility team owns our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
 
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-- [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Patrick Dubroy](../../../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../../../engineering/roles/index.md#engineering-manager)) {#frontend-platform-eng}
-  - [Tom Ross](../../../../company/team/index.md#tom-ross-he-him)
-  - [Felipe Janer](../../../../company/team/index.md#felipe-janer-he-him)  
-  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) moves in FQ2 to the [Code Insights Team](../code-insights/index.md)
+- [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)). Once that happens, Joel will focus entirely on code insights.
+- [Jean du Plessis](../../../../company/team/index.md#jean-du-plessis-he-him) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#extensibility-eng}
+  - [Marek Zaluski](../../../../company/team/index.md#marek-zaluski)
+  - [TJ Kandala](../../../../company/team/index.md#tharuntej-kandala-he-him)
+  - [Murat Sutunc](../../../../company/team/index.md#murat-sutunc-he-him)  
 
 ## Contact
 
-- [#frontend-platform-chat](https://sourcegraph.slack.com/archives/C01LTKUHRL3) channel or @frontend-platform in Slack.
-- [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and [@sourcegraph/frontend-platform](https://github.com/orgs/sourcegraph/teams/frontend-platform) team on GitHub.
+- [#extensibility-chat](https://app.slack.com/client/T02FSM7DL/C01LZKLRF0C) channel or @extensibility on Slack
+- On GitHub, mention or assign issues to the [@sourcegraph/extensibility](https://github.com/orgs/sourcegraph/teams/extensibility) team.
 
 ## Goals
 
-[Goals](goals.md)
+TODO - link to Productboard roadmap
+
+## Ownership
+
+This team is responsible for:
+
+1. Bringing the value of Sourcegraph to everywhere you work with code
+1. Bringing the value of other developer tools into Sourcegraph
+
+The team's areas of responsibility include:
+
+- Sourcegraph extensions
+  - Providing a Sourcegraph extension API that enables developers to bring data from their favorite developer tools into their Sourcegraph workflow.
+  - Building and maintaining useful Sourcegraph extensions on top of the Sourcegraph extension API ([Sourcegraph-maintained extensions](https://docs.sourcegraph.com/dev/background-information/sourcegraph_extensions)).
+  - Documentation and tutorials that enable third party developers to create extensions that are actively used.
+  - Building and maintaining the extensions registry and discovery paths to create a community around Sourcegraph extensions.
+- Code host integrations
+  - Surface code intelligence (and other Sourcegraph data) in code hosts through user-installed browser extensions.
+  - Add native support for Sourcegraph in code hosts (for example: GitLab) or popular sites where developers look at code examples (e.g. https://reactjs.org, https://pkg.go.dev/) so users don't have to install our browser extension to get code intelligence.
+
+[List of Sourcegraph-maintained extension repositories](https://docs.sourcegraph.com/dev/background-information/sourcegraph_extensions)
 
 ## Growth plan
 
-We are not planning on growing the Frontend Platform team further in 2021.
+We are not planning on growing the Extensibility team further in 2021.
 
 ## Tech stack
-
-We use a modern, flexible tech stack.
-Here are some of the technologies we use to deliver on our goals:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 - [SCSS](https://sass-lang.com/) + [Bootstrap](https://getbootstrap.com/)
 - [GraphQL](https://graphql.org/)
+- [WebExtensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API)
 - [RxJS](https://rxjs-dev.firebaseapp.com/guide/overview)
 - [Web workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
 
 ## Processes
+
+### Backlog
+
+The team keeps a backlog GitHub project board: [extensibility backlog](https://github.com/orgs/sourcegraph/projects/116). 
+
+We use the backlogs for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](goals.md#roadmap). 
+
+To add an issue, tag it `team/extensibility` to notify the Extensibility team and put it in the "to triage" column of the board. Unless you're directly asked, only extensibility team members should move issues out of the "to triage" column on the board. A team member will confirm the issue is team-related, and then move it to the appropriate column.
 
 #### Tracking Issues
 The team makes use of [tracking issues](../../tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a single iteration to deliver.
 
 #### Product Feedback
 
-Specific product feedback about well-defined, small features can be found directly in the backlog boards. More general product feedback that applies to larger features, or that needs more research and planning to be actionable, is kept in [Productboard](https://sourcegraph.productboard.com/feature-board/2330177-web-frontend-platform)
+Specific product feedback about well-defined, small features can be found directly in the backlog boards. More general product feedback that applies to larger features, or that needs more research and planning to be actionable, is kept in [Productboard](https://sourcegraph.productboard.com/feature-board/2330167-web-extensibility)
 
 ### Iterations
 

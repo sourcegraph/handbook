@@ -4,6 +4,15 @@ The code insights team will be responsible for building and delivering code insi
 
 <img src="./screenshot.svg" alt="Screenshot of a code insights dashboard with graphs" />
 
+## Members
+
+- [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
+  - V. K. (Frontend Engineer) starting 2021-03-22
+  - FQ1 [Backend Engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
+  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend Platform Team](../frontend-platform/index.md)
+
 ## What is code insights?
 
 Code insights is the first feature in Sourcegraph that can tell you things about your code at a **high level**.
@@ -29,11 +38,3 @@ For more information about code insights, see the original [product document](ht
 
 The code insights team also keeps a [backlog GitHub project board](https://github.com/orgs/sourcegraph/projects/118). We use the backlog for tracking bugs, small features, and unplanned work. We don't use the backlog for tracking work that is expressly planned in our [roadmap](goals.md#roadmap).
 
-## Members
-
-- [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - V. K. (Frontend Engineer) starting 2021-03-22
-  - FQ1 [Backend Engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
-  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend Platform Team](../frontend-platform/index.md)

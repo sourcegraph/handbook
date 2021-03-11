@@ -19,8 +19,8 @@ If you are already at Sourcegraph and see a current or future opportunity that y
 	- [Batch changes](../../handbook/engineering/batch-changes/index.md)
     - [Web](../../handbook/engineering/web/index.md)
         - [Frontend platform](../../handbook/engineering/web/frontend-platform/index.md)
-        - [Extensibility](../../handbook/engineering/web/index.md)
-		- [Code insights](../../handbook/engineering/web/code-insights/index.md)
+        - [Extensibility](../../handbook/engineering/web/extensibility/index.md)
+		- [Code insights](../../handbook/engineering/web/code-insights/index.md)        
 	- [Security](../../handbook/engineering/security/index.md)
 	- [Distribution](../../handbook/engineering/distribution/index.md)
 	- [Core application](../../handbook/engineering/core-application/index.md)
@@ -42,12 +42,15 @@ Plans can change given new information!
         - [Batch changes](batch-changes/index.md)
             - [Team: Batch changes](batch-changes/index.md#batch-changes-eng)
     - Web org {#web}
-        - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) ([Engineering Manager](roles.md#engineering-manager))
+        - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](roles.md#director-of-engineering))
         - [Code insights](web/code-insights/index.md)
             - [Team: Code insights](web/code-insights/index.md#code-insights-eng)
-        - [Team: Extensibility](web/index.md#extensibility-eng)
+        - [Extensibility](web/extensibility/index.md)
+            - [Team: Extensibility](web/extensibility/index.md#extensibility-eng)
         - [Frontend platform](web/frontend-platform/index.md)
             - [Team: Frontend platform](web/frontend-platform/index.md#frontend-platform-eng)
+        - [Google for Code](web/google-for-code/index.md)
+            - [Team: Google for Code](web/google-for-code/index.md#google-for-code-eng)
     - Platform and infrastructure {#platform-and-infrastructure}
         - B.C. starting 2020-03-22
         - [Security](security/index.md)

@@ -24,7 +24,11 @@ NOTE: Dates and timelines below are not considered commitments, these roadmaps a
 
 ## [Security roadmap](../engineering/security/goals.md#roadmap)
 
-## [Web roadmap](../engineering/web/goals.md#roadmap)
+## [Frontend Platform roadmap](../engineering/web/frontend-platform/goals.md#roadmap)
+
+## [Extensibility roadmap](../engineering/web/extensibility/goals.md#roadmap)
+
+## [Code Insights roadmap](../engineering/web/code-insights/goals.md#roadmap)
 
 ---
 
