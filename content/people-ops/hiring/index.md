@@ -47,7 +47,7 @@ Folder for agency tracker and to store contracts here: https://drive.google.com/
 
 The source-of-truth for our open positions is [our careers page](../../../company/careers.md) in the handbook.
 
-For job boards that we post to and are considering, [click here](https://github.com/sourcegraph/about/blob/main/handbook/people-ops/hiring/job_boards.md)
+For job boards that we post to and are considering, [click here](job_boards.md)
 
 ## Job descriptions
 
