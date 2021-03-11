@@ -39,7 +39,7 @@ The handbook is a living document and we expect every teammate to propose improv
 <!-- When updating the engineering team list below, please also update company/team/org_chart.md. -->
 
 - [Engineering](engineering/index.md)
-  - [Batch changes](engineering/batch-changes/index.md)
+  - [Batch Changes](engineering/batch-changes/index.md)
   - [Core application](engineering/core-application/index.md)
   - [Code intelligence](engineering/code-intelligence/index.md)
   - [Distribution](engineering/distribution/index.md)

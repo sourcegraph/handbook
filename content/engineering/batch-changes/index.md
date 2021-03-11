@@ -1,4 +1,4 @@
-# Batch changes team
+# Batch Changes team
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/badgerhat.svg" width="300" height="300" align=right alt="Batchers Logo: badger in a silly hat">
 

@@ -109,7 +109,7 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 * Explore the sections of the handbook for each engineering team. Get used to trying to find answers in the handbook as much as our documentation.
 	* [Distribution](https://about.sourcegraph.com/handbook/engineering/distribution)
 	* [Web](https://about.sourcegraph.com/handbook/engineering/web)
-	* [Batch changes](https://about.sourcegraph.com/handbook/engineering/batch-changes)
+	* [Batch Changes](https://about.sourcegraph.com/handbook/engineering/batch-changes)
 	* [Core application](https://about.sourcegraph.com/handbook/engineering/core-application)
 	* [Code insights](https://about.sourcegraph.com/handbook/engineering/code-insights)
 	* [Code intelligence](https://about.sourcegraph.com/handbook/engineering/code-intelligence)

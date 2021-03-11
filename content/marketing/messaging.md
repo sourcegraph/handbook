@@ -95,4 +95,4 @@ Sourcegraph helps companies solve [Big Code problems](https://about.sourcegraph.
 * Code exploration - Find both known and unknown code, with code intelligence providing the contextual understanding
 * Code discovery - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed
 * Code intelligence - Display and share additional contextual information around code (allows code reviews with context)
-* Batch changes - Make large-scale code changes
+* Batch Changes - Make large-scale code changes

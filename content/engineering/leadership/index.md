@@ -9,7 +9,7 @@ This page documents the engineering leadership team.
   - [Tomás Senart](../../../company/team/index.md#tomás-senart), [Engineering Manager](../roles.md#engineering-manager), [Core application](../core-application/index.md)
   - [Loïc Guychard](../../../company/team/index.md#loïc-guychard), [Engineering Manager](../roles.md#engineering-manager), [Search](../search/index.md)
   - [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim), [Engineering Manager](../roles.md#engineering-manager), [Distribution](../distribution/index.md)
-  - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris), [Engineering Manager](../roles.md#engineering-manager), [Batch changes](../batch-changes/index.md)
+  - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris), [Engineering Manager](../roles.md#engineering-manager), [Batch Changes](../batch-changes/index.md)
   - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him), [Engineering Manager](../roles.md#engineering-manager), [Web](../web/index.md)
   - [Owen Convey](../../../company/team/index.md#owen-convey-he-him), [Engineering Manager](../roles.md#engineering-manager), [Code Intelligence](../code-intelligence/index.md)
 
@@ -31,7 +31,7 @@ We have a 1hr sync every Monday at 9:30am PT.
 
 The goal of status updates is to communicate each team's progress toward their OKRs and roadmap items.
 
-Engineering managers send an update to [engineering-team-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status) after each iteration retrospective. Teams have different iteration cadences, and as such, we do not expect updates to come through on the same day, but it should follow soon after you have completed your retrospective for the iteration. 
+Engineering managers send an update to [engineering-team-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status) after each iteration retrospective. Teams have different iteration cadences, and as such, we do not expect updates to come through on the same day, but it should follow soon after you have completed your retrospective for the iteration.
 
 You may send an update anytime (you don't need to wait for the end of an iteration). It might help communicate the achievement of an important milestone or significant change of plans mid-iteration.
 

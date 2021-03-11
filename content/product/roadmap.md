@@ -6,13 +6,13 @@ Each team currently maintains their roadmaps in the way that is most effective f
 NOTE: Dates and timelines below are not considered commitments, these roadmaps are used for planning purposes and are subject to change.
 </div>
 
-<div id="roadmap-loading">	
+<div id="roadmap-loading">
 	Compiling roadmap...
-	<br/>	
+	<br/>
 	<small>If the roadmaps do not appear, please <a href="https://github.com/sourcegraph/about/issues">report this issue</a> and include the output from your browser's devtools JavaScript console.</small>
 </div>
 
-## [Batch changes roadmap](../engineering/batch-changes/goals.md#roadmap)
+## [Batch Changes roadmap](../engineering/batch-changes/goals.md#roadmap)
 
 ## [Core application roadmap](../engineering/core-application/goals.md#roadmap)
 
