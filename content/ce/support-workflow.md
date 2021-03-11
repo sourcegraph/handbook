@@ -14,13 +14,14 @@ Things happen pretty much in this order...and at every step, our decisions and a
 
 5. **The CSE pauses to build context.** This is the most counterintuitive, unique step in our workflow. It is also the step that does the most to ensuring the kind of customer experience we want to provide. You can get full context for the customer by: 
 	1. Determining what kind of customer it is by reviewing our [support plans](https://about.sourcegraph.com/support/) and seeing status in Salesforce (in the future, this will render in Zendesk)
-	2. Talking with the CE who is assigned (listed in Salesforce on the customer account record), if one is assigned
-	2. Looking at the Salesforce data surfaced in Zendesk (this is coming soon -- so for now it's just looking in Salesforce)
-	3. The special notes in Zendesk (which should always match what we have in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit)
-	4. Relevant Looker dashboards (for example [the distribution board](https://sourcegraph.looker.com/dashboards-next/163))
-	5. Looking at other recent cases 
-	6. To find which Sourcegraph version a company is running, visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436), find the row for the customer's instance, and look at the version number in the row's **Latest Version** column. Some customer instances are offline or only [provide critical telemtry](https://docs.sourcegraph.com/admin/pings#critical-telemetry). The [full list is in Google Drive](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit). If you don't see a customer in the Looker dashboard or the Google list, ask in #analytics on Slack. 
-	7. Depending on where the case originated, we may need to check with our internal teammates to ensure we have full context. For example, again, a quick check with the CE might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
+	2. Talking with the CE who is assigned (listed in Salesforce on the customer account record -- this will be mapped into Zendesk soon), if one is assigned
+	2. Looking at the customer health and customer engagement ratings (listed in Salesforce on the customer account record -- this will also be mapped into Zendesk soon)
+	3. Looking at the Salesforce data surfaced in Zendesk (again, this will be mapped into Zendesk soon -- so for now it's just looking in Salesforce)
+	4. The special notes in Zendesk (which should always match what we have in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit)
+	5. Relevant Looker dashboards (for example [the distribution board](https://sourcegraph.looker.com/dashboards-next/163))
+	6. Looking at other recent cases 
+	7. To find which Sourcegraph version a company is running, visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436), find the row for the customer's instance, and look at the version number in the row's **Latest Version** column. Some customer instances are offline or only [provide critical telemtry](https://docs.sourcegraph.com/admin/pings#critical-telemetry). The [full list is in Google Drive](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit). If you don't see a customer in the Looker dashboard or the Google list, ask in #analytics on Slack. 
+	8. Depending on where the case originated, we may need to check with our internal teammates to ensure we have full context. For example, again, a quick check with the CE might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
 	
 	Spend 10-15 minutes just orienting to that customer before even looking at the details of the issue.
  
@@ -35,8 +36,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
 
 8. **The CSE ensures the issue is resolved.** This step is the biggest step. It could mean identifying and filing a defect. It could mean helping the customer figure out what they need to do. If we get stuck, that's okay! It will happen. A lot. Here are the steps we take when we are stuck:
 	1.  Ask our teammates in our #customer-support-chat Slack channel. 
-	2. If we collectively don't know the answer, then we seek help from our CE teammates by posting in our #customer-support Slack channel and @ mentioning @CE. *Note: we do this through 2021-03 as part of onboarding* 
-	3. If we are still stuck, we engage engineering following the steps outlined [here](https://about.sourcegraph.com/handbook/ce/engaging-other-teams).  
+	2. If we collectively don't know the answer, then we engage engineering following the steps outlined [here](https://about.sourcegraph.com/handbook/ce/engaging-other-teams).  
 	
 9. **The CSE resolves the issue.** We don't consider something resolved unless the customer does/would. Resolution happens in a few ways. Only when one of these is true do we designate a case "closed" in Zendesk -- and if we were working in Slack, we leave that channel.	
 	1. We help the customer figure out what they need to do and they confirm they have done it and agree the issue is resolved AND we complete any internal tasks born from working on the ticket (like updating documentation).
