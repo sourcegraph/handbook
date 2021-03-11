@@ -47,14 +47,7 @@ Folder for agency tracker and to store contracts here: https://drive.google.com/
 
 The source-of-truth for our open positions is [our careers page](../../../company/careers.md) in the handbook.
 
-We cross-post our open positions to the following locations:
-
-- [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
-- ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md)
-- [RemoteWoman](https://remotewoman.com/)
-- [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Nick owns this list and payments are made with Nick's Brex. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
-
-We welcome suggestions for more places that we can post!
+For job boards that we post to and are considering, [click here](https://github.com/sourcegraph/about/blob/main/handbook/people-ops/hiring/job-boards.md)
 
 ## Job descriptions
 
