@@ -16,6 +16,8 @@ We expect new teammates to spend up to **$1,850** for desk setup, which includes
 
 This is not a hard budget—rather, it is a guide based on what past teammates have spent. As a reminder, you don't need permission for every purchase, and we trust you to make decisions that are in the best interests of Sourcegraph. If you expect to significantly exceed the listed amount on any purchase, however, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
 
+If you don't spend all of your budget when you first join, it's ok to spend it later providing you remain inside the total budget.
+
 #### Team-specific totals
 
 - We expect new [Design team](../product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
