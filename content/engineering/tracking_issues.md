@@ -94,17 +94,6 @@ Despite estimation having a bad reputation in some circles, we find it valuable 
 
 Roadmap items may take more than an iteration to implement. As such please link to an issue which is scoped to this iteration. If it isn't clear how to break down a larger item in a scope increment, a **spike** of one or two days could be appropriate to determine such scope and then create the resulting issues for the iteration — it's fine to update the tracking issue with the results of a spike during the iteration.
 
-## Progress updates
-
-Each engineer is responsible for posting a weekly update on Friday to tracking issues where they have assigned work (most engineers only have work on a single tracking issue associated with the team they are one). The update should be in prose and communicate progress made, pain points, a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
-
-- Good: `Last week I made progress on adding support for X (RFC 123), but was blocked by Y. Y was due to Z. I am continuing to work on this and expect to have this ready for review by Thursday. I am on track to finish my planned work this iteration.` There are a lot of good examples in these tracking issues:
-    - https://github.com/sourcegraph/sourcegraph/issues/11523
-    - https://github.com/sourcegraph/sourcegraph/issues/11494
-- Not as good: `Worked on #111, #444, and RFC 123`
-
-Each engineering manager is responsible for posting a weekly update on Monday. This update should be in prose, and should capture your individual progress as well as any team context that isn't obvious from the individual updates from others on the team (e.g., important team decisions, implementation milestones, pain points, changes to planned work, unexpected work that took time away from planned work). You should assume that anyone who reads your update will have read the previous individual updates, so no need to repeat anything.
-
 ## Contributing to the tracking issue tool
 
 The code for the tracking-issue tool [lives in the main Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/tracking-issue).
