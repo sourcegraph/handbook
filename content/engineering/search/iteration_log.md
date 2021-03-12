@@ -36,6 +36,8 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Outcomes:**
   - Streaming defaults to on for all environments.
   - Streaming release blockers fixed.
+- **Work log:**
+  - 2021-03-12: Nearly all integration tests run for streaming. One last release blocker left around duplicate results in or queries. Discussing solutions still in [#18203](https://github.com/sourcegraph/sourcegraph/issues/18203).
 
 ### Exhaustive
 
@@ -46,6 +48,8 @@ This document contains the goals and work log for the search team's [2-week iter
   - src-cli for streaming done. For now what is missing is `-json` support.
   - Implement scheduler in Zoekt.
   - Initial release plan shared.
+- **Work log:**
+  - 2021-03-12: Scheduler for zoekt out for review. [zoekt#73](https://github.com/sourcegraph/zoekt/pull/74)
 
 ## 2021-02-22 to 2021-03-05
 
