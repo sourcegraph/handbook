@@ -51,6 +51,11 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
   - 2021-03-12: Scheduler for zoekt out for review. [zoekt#73](https://github.com/sourcegraph/zoekt/pull/74)
 
+### Misc
+
+- **Work log:**
+  - 2021-03-12: Keegan :: Fixed most common panic in production around go symbols. [#19071](https://github.com/sourcegraph/sourcegraph/pull/19071)
+
 ## 2021-02-22 to 2021-03-05
 
 ### Enable mandatory linting
