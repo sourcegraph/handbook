@@ -29,9 +29,14 @@ Engineering managers lead, grow, and develop teams of software engineers.
 
 ## Director of Engineering
 
+Directors lead, grow, and develop multiple teams in Engineering.
+
 ### Responsibilities
 
-TODO
+- Lead, organize, and support the work of multiple engineering teams to deliver on key initiatives that are critical to the success of Sourcegraph.
+- Recruit, hire, and grow excellent engineers and engineering managers to create a diverse team.
+- Model, teach, and apply [our values](../../../company/values.md) in everyday interactions.
+- Facilitate and sustain a healthy, inclusive team culture where everyone is set up to do their best work.
 
 ## VP Engineering
 
