@@ -52,6 +52,7 @@ _(Only accessible to Sourcegraph teammates until finalized.)_
 ## Processes
 
 Each team is afforded the freedom to operate as best they see fit to achieve their goals. The following processes apply to all teams in the Web org.
+
 ### Communication
 
 We recognize that frequent, open communication is key to the success of every team, especially in an all-remote environment.
@@ -64,6 +65,10 @@ The teams communicate in the following org-wide channels in Slack:
 [**#web-org-onboarding**](https://sourcegraph.slack.com/archives/C01K7TKKR09): This channel is dedicated to questions or thoughts that new teammates have while they onboard. It's a safe space to simply think out load and the goal is to identify things that we can improve and things we should make more clear in the handbook.
 
 [**#web-org-leadership**](https://sourcegraph.slack.com/archives/C01P1TVDJR4): This channel is for the Engineering Managers, Product Managers and Product Designers to discuss higher-level matters impacting the whole org.
+
+### Events
+
+We have a [shared Web Events calendar](https://calendar.google.com/calendar/u/0?cid=Y181Z2Zoa2Y5b2g1ajM4NDVwaHVtdHVkZTg0Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) where the Web org teams can add all their team specific events so everyone can easily see the events.
 
 ### Daily Slack updates
 
