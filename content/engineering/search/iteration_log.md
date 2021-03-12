@@ -28,7 +28,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - RFC reviewed and approved
     - MVP ready to be shipped (ideally within the 3.26 release)
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-03-12: RFC halfway reviewed. MVP not likely to be shipped within the next release, because it requires some internal testing to be confident. At this point, the MVP contains the ability to migrate version contexts, view search context "profile" page, and listing search contexts.
 
 ### Streaming
 
