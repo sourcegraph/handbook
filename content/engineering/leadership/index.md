@@ -11,9 +11,9 @@ This page documents the engineering leadership team.
   - [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim), [Engineering Manager](../roles.md#engineering-manager), [Distribution](../distribution/index.md)
   - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris), [Engineering Manager](../roles.md#engineering-manager), [Batch Changes](../batch-changes/index.md)
   - [Owen Convey](../../../company/team/index.md#owen-convey-he-him), [Engineering Manager](../roles.md#engineering-manager), [Code Intelligence](../code-intelligence/index.md)
-  - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him), [Director of Engineering](../roles.md#engineering-manager), [Web Org](../web/index.md)
-    - [Felix Becker](../../../company/team/index.md#felix-becker), [Engineering Manager](../roles.md#engineering-manager), [Code Insights](../web/code-insights/index.md)
-    - [Patrick Dubroy](../../../company/team/index.md#patric-dubroy-he-him), [Engineering Manager](../roles.md#engineering-manager), [Frontend Platform](../web/frontend-platform/index.md)
+  - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him), [Director of Engineering](../roles.md#engineering-manager), [Web org](../web/index.md)
+    - [Felix Becker](../../../company/team/index.md#felix-becker), [Engineering Manager](../roles.md#engineering-manager), [Code insights](../web/code-insights/index.md)
+    - [Patrick Dubroy](../../../company/team/index.md#patric-dubroy-he-him), [Engineering Manager](../roles.md#engineering-manager), [Frontend platform](../web/frontend-platform/index.md)
 
 ## Communication
 

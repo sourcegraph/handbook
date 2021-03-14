@@ -3,12 +3,12 @@
 # Web org
 
 ## Teams
-The Web org owns and maintains several areas of the product take care of by the following teams:
+The Web org owns and maintains several areas of the product that is taken care of by the following teams:
 
-1. [Frontend Platform](frontend-platform/index.md): the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph. 
+1. [Frontend platform](frontend-platform/index.md): the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph. 
 2. [Extensibility](extensibility/index.md): our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
 3. [Code insights](code-insights/index.md): empowering data-driven decisions in engineering organizations.
-4. [Google for Code](google-for-code/index.md): making Sourcegraph the standard developer reference and code search for the open-source universe.
+4. [API docs](api-docs/index.md): making Sourcegraph the standard developer reference and code search for the open-source universe.
 
 <div style="clear: both"/>
 
@@ -38,7 +38,7 @@ As of March 2021, the Web org is made up of multiple teams, and some members who
               - V. K. starting 2021-03-22
               - FQ1 [backend engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
               - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him) (joins from Frontend Platform in FQ2)
-     - [Google for Code](../web/google-for-code/index.md)
+     - [API docs](../web/api-docs/index.md)
          - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this team
               - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst)
 
@@ -51,14 +51,14 @@ _(Only accessible to Sourcegraph teammates until finalized.)_
 
 ## Processes
 
-Each team is afforded the freedom to operate as best they see fit to achieve their goals. The following processes apply to all teams in the Web org.
-
+Each team is afforded the freedom to operate as best they see fit to achieve their goals.  
+The following processes apply to all teams in the Web org.
 ### Communication
 
 We recognize that frequent, open communication is key to the success of every team, especially in an all-remote environment.
 We default to asynchronous communication in Slack and GitHub issues over other mediums (video calls, emails, etc) as we are respectful of our teammates' time. 
 
-The teams communicate in the following org-wide channels in Slack:
+In addition to team specific channels, we communicate in the following org-wide channels in Slack:
 
 [**#web-org-teams**](https://sourcegraph.slack.com/archives/C01EM5J1NF8): Our daily standups (facilited through Geekbot) go into this channel as well as all non-work related commmunication. Random conversations, banter, jokes etc. are all welcome here. 
 

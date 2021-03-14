@@ -11,7 +11,7 @@ The code insights team will be responsible for building and delivering code insi
 - [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
   - V. K. (Frontend Engineer) starting 2021-03-22
   - FQ1 [Backend Engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
-  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend Platform Team](../frontend-platform/index.md)
+  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend platform team](../frontend-platform/index.md)
 
 ## What is code insights?
 

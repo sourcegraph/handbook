@@ -1,4 +1,4 @@
-# Frontend Platform Goals and Priorities 
+# Frontend platform Goals and Priorities 
 
 ## Goals
 
@@ -29,4 +29,4 @@ The individual tasks and progress of the current iteration can be found as GitHu
 
 ## Roadmap
 
-The Frontend Platform team maintains an [objective-based roadmap](https://sourcegraph.productboard.com/roadmap/2362023-web-frontend-platform-roadmap) in Productboard. 
+The Frontend platform team maintains an [objective-based roadmap](https://sourcegraph.productboard.com/roadmap/2362023-web-frontend-platform-roadmap) in Productboard. 

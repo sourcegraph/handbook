@@ -1,6 +1,6 @@
-# Frontend Platform team
+# Frontend platform team
 
-The Frontend Platform team (part of the Web org) defines and maintains the standards and tooling for web development at Sourcegraph.
+The Frontend platform team (part of the Web org) defines and maintains the standards and tooling for web development at Sourcegraph.
 
 ## Members
 
@@ -22,7 +22,7 @@ The Frontend Platform team (part of the Web org) defines and maintains the stand
 
 ## Growth plan
 
-We are not planning on growing the Frontend Platform team further in 2021.
+We are not planning on growing the Frontend platform team further in 2021.
 
 ## Tech stack
 

@@ -1,4 +1,4 @@
-# Web team completed goals
+# Extensibility team completed goals
 
 This page records goals completed by the Extensibility team historically (started recording in FY-21-Q4). See also our [current goals](goals.md).
 
