@@ -1,5 +1,7 @@
 # Sales and CE Looker onboarding
 
+Watch [this short video](https://drive.google.com/file/d/1Z0zQlZcJFWNJrNAXJkigWs-srlugq_8N/view?usp=sharing) to learn how our sales and CE teams use Looker. It includes a Looker overview (including how to set your Looker account up), common use-cases, context around what data we collect and Q&A.
+
 ## Looker configuration and entry-points
 
 Most, if not all, relevant data to any given team can be found in boards. Adding these to your Looker instance will make navigating Looker _much_ easier. 
