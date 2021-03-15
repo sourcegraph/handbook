@@ -5,6 +5,7 @@
 - [Messaging](messaging.md)
     - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
     - [What problems does Sourcegraph solve?](messaging.md#what-problems-does-sourcegraph-solve)
+    - [Batch Changes positioning](batch_changes_positioning.md)
 - [Product marketing](product_marketing.md)
     - [Marketing launch tiers](marketing_launch_tiers.md)
 - [Content Marketing](content.md)
