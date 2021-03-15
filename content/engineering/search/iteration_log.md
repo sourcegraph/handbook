@@ -58,6 +58,13 @@ This document contains the goals and work log for the search team's [2-week iter
     - Scheduler for zoekt out for review. [zoekt#73](https://github.com/sourcegraph/zoekt/pull/74)
     - src-cli now supports `-json` for streaming.
 
+### Code Monitoring
+- **Owner(s):** Juliana
+- **Outcomes:**
+   - Work is advanced on [Code Monitoring polish items](https://github.com/sourcegraph/sourcegraph/issues/17414)
+- **Work log:**
+   - 2021-03-12: Low cost polish items have been addressed.
+
 ### Misc
 
 - **Work log:**
