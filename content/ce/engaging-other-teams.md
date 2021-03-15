@@ -137,7 +137,7 @@ Selecting priority is more of an art than a science. Start with the issue and it
 
 After you file the Github issue, alert the relevant engineering team you did so in Slack. Keep it simple and always provide 1) a brief description of what you need, 2) link to the Github issue, and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
-When posting in Distribution team's Slack channel, @ mention the [on-call dev](../engineering/distribution/index.md#support-rotation).
+When posting in Distribution team's Slack channel, @ mention the [on-call dev](../engineering/distribution/index.md#support-rotation) (not the team @ group -- while we use the @ group for all other engineering teams, most of our help requests go to Distribution, so they have a support rotation to help let the team have more focus time)
 
 ### Defects
 
