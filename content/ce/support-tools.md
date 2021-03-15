@@ -7,7 +7,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 * Github is where our handbook lives.
 * Zoom is how we connect synchronously. 
 * Gmail is mostly for notifications.
-* Google calendar is for your own calendar, as well as shared calendars (like the CS team calendar).
+* Google calendar is for your calendar, as well as shared calendars (like the CS team calendar).
 * Gsuite is for drafts, slide decks, and spreadsheets.
 * Lattice is to facilitate our for our twice yearly [review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles).
 * Lever is for hiring.
@@ -51,7 +51,7 @@ Set your notifications however you see fit to make sure you are able to help mon
 ### Views
 When you log into Zendesk, all tickets are organized by the following views:
 
-* **Unassigned tickets.** All new tickets that are waiting for an owner.
+* **Unassigned tickets.** All new tickets that no one on the team has taken accountability for yet
 * **Your unsolved tickets.** All of your tickets that you are actively working on.
 * **All unsolved tickets.** All tickets from across the entire team that everyone is actively working on.
 * **Recently solved tickets.** All tickets that have been moved to solved status (tickets only stay in this status for 16 business hours and then they move to closed). When in a solved state, if customers reply this ticket re-opens. If in a closed state and the customer replies, a new ticket is created.
@@ -69,7 +69,7 @@ When you close a ticket, these are the required fields you must populate:
 * **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 * **Official type:** Designates whether this is a question, defect report, or help request
 * **Official priority:** Designates whether the priority is p0, p1, or p2 per our definitions outlined in our [prioritization guidelines](https://about.sourcegraph.com/handbook/ce/support-prioritization). 
-* **Engineering team:** Designates which engineering team owns the part of the product or feature associated with the ticket (think, if I got help/needed help which engineering team did I go to/would have gone to?)
+* **Engineering team:** Designates which engineering team is responsible for the part of the product or feature associated with the ticket (think, if I got help/needed help which engineering team did I go to/would have gone to?)
 
 ### Why there are duplicate ticket data fields
 In addition to the required fields noted above, we also have these fields that seem duplicative...
