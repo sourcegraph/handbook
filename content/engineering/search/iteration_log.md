@@ -18,8 +18,10 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Implement `contains` filter predicate and document new additions
 - **Owner(s):** Rijnard, Camden
 - **Outcomes:**
-  - Finish implement `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584)) and pings metrics
+  - Finish implementing `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584)) and pings metrics
   - Document `select` and `contains` usage and examples (ship this release)
+- **Work log:**
+    - 2021-03-12: Initial `contains` implementation close to being merged. Started heavily refactoring our query processing which is slowing progress for evaluating more expressive queries like filter predicates, and will help address [perf/UX issues related streaming](https://github.com/sourcegraph/sourcegraph/issues/18203) (e.g., process queries natively by backends like Zoekt when possible, faster `not` queries, etc.)
 
 ### Enterprise contexts
 
