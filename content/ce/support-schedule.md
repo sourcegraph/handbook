@@ -15,7 +15,7 @@ Our schedule is reflected in the working hours set in our calendars and blocks h
 |Beatrix|7am - 3pm|7am - 3pm|TBD|TBD|
 |Giselle|8am - 4pm|8am - 4pm|TBD|TBD|
 |Stompy|4pm - 11pm|5am - 12pm|TBD|TBD|
-|Warren|9am - 5pm|9am - 5pm|TBD|TBD|
+|Warren|9am - 5pm|9am - 5pm|Monday PM|Thursday PM|
 |Virginia|8am - 5pm|8am - 5pm|Monday PM|Thursday PM|
 
 Focus blocks are listed simply as which 1/2 of which day
