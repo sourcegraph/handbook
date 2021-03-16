@@ -12,7 +12,7 @@ Our schedule is reflected in the working hours set in our calendars and blocks h
 |Team member|Local hours|Pacific hours|Focus block|Focus block
 |---|---|---|---|---|
 |Adeola|9:30am - 5:30pm|6:30am - 2:30pm|TBD|TBD|
-|Beatrix|7am - 3pm|7am - 3pm|TBD|TBD|
+|Beatrix|7am - 3pm|7am - 3pm|Wednesday AM|Thursday AM|
 |Giselle|8am - 4pm|8am - 4pm|TBD|TBD|
 |Stompy|4pm - 11pm|5am - 12pm|TBD|TBD|
 |Warren|9am - 5pm|9am - 5pm|Monday PM|Thursday PM|
