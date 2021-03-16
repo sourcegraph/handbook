@@ -4,6 +4,8 @@ Welcome to Sourcegraph! We are so excited to have you on the team. This page out
 
 - [Onboarding buddy program](./buddy-program.md)
 
+For Hiring Managers, visit our [Onboarding process for Hiring Managers](onboarding-for-hiring-managers.md)
+
 ## Guiding principles
 
 ### Everyone is here to support you as you onboard
