@@ -7,7 +7,7 @@ The distribution team is responsible for making Sourcegraph easy to deploy, scal
 ## Contact
 
 - Slack: #distributioneers channel or @distribution
-- [Support rotation](#support-rotation)
+- For support requests, please use our dedicated [support rotation](#support-rotation)
 - File issues: [team/distribution](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/distribution) label
 
 ## Team communication
