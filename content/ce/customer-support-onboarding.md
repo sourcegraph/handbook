@@ -21,7 +21,7 @@ Welcome back! Let’s get started....
 * You have a sense of what tools you will be using and for what
 
 ### In order to ensure the above declarations are true, you will complete the following tasks:
-* Week one items in the company onboarding Asana checklist.
+* Week one items in the company onboarding Process St. checklist.
 * Review our [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (objectives and key results) to see what we believe are the most important things for us to do this year. These frame our decision making. When we are confronted with conflicting priorities, our first step is to ask ourselves … if this takes away our ability to complete an OKR, does that mean it’s more important than the OKR? It might be, but this gut check makes sure we are spending our time in the right way. If OKRs are new to you, Virginia can give you a crash course on what they are, their value, and how to work with them.
 * Read [this article](https://www.infoworld.com/article/3514213/sourcegraph-universal-code-search-and-intelligence.html) that summarizes the value of Sourcegraph
 * Plan to watch this [product demo recording](https://www.youtube.com/watch?v=iTBTri_q5MA&feature=youtu.be) once a week for your first 3-4 weeks. It will be repetitive, but each week, more and more will start to click. Start this week!
