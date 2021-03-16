@@ -90,6 +90,9 @@ Since we are global team, we do not add every holiday that everyone celebrates. 
 
 The SLA timer reflects our most aggressive SLA and for many customers, we have more time to respond and invoke this latitude as necessary as outlined in our [prioritization guidelines](https://about.sourcegraph.com/handbook/ce/support-prioritization). 
 
+### Default to private/internal notes
+We have Zendesk set to default to private/internal notes. Since much of our work happens in Slack and we only use internal notes, this ensures we are not sending out-of-context emails by forgetting to change the toggle.
+
 ### Automations
 We have a few automations set-up to streamline our workflow:
 
