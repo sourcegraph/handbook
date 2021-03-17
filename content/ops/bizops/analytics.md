@@ -20,6 +20,7 @@ We collect data from the following:
 - [Pings](https://docs.sourcegraph.com/admin/pings) from self-hosted Sourcegraph instances containing anonymous and aggregated information. There are [specific guidelines](https://docs.sourcegraph.com/dev/background-information/adding_ping_data) that must be followed for teams to add ping data. 
 - [Event logger: custom tool to track events](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts). On Sourcegraph.com, this sends events directly to BigQuery. On customer instances, this sends events to the `EventLogs` database, which is then used to populate pings.
 - [Prometheus dashboards](https://sourcegraph.com/-/debug/grafana/?orgId=1) show high-level insight into the health of a Sourcegraph instance to admins. Sourcegraph teammates can see the health of Sourcegraph.com. 
+- [Customer Environment Questions](customer_environment_questions.md)
 
 We have [written policies about how we handle customer information](./customer_data_policy.md). 
 	
