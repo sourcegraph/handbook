@@ -26,6 +26,7 @@ Learn more about how these work in:
   - [Relationship between the repositories](#relationship-between-the-repositories)
     - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph-dot-com`](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-dot-com)
   - [Azure DevOps](azure_devops.md)
+  - [RPO & RTO](./rto_rpo.md)
 
 ## Deployment basics
 
