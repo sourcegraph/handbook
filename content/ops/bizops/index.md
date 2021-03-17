@@ -34,8 +34,8 @@ TODO
 - **The why:** How does it support [Sourcegraph's company and team goals](../../../company/goals/index.md)?
 - **Timeline:** What's the timeline of the project? When does this need to be delivered, and how will it be followed up upon in the future?
 
-**Small asks and questions:** Post in the #analytics or #business-ops channel.
-
-To reach us, simply mention @business-team in the relevant channel or thread.
+## Contact
+- **Slack:** Post in the #business-ops or #analytics channel. Or mention @business-team in the relevant channel or thread.
+- **GitHub:** [@bizops](https://github.com/orgs/sourcegraph/teams/bizops) team
 
 If you need clarification or are not sure about any of the above, ask a question in #analytics or #business-ops channel.
