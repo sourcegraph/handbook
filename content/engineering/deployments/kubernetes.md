@@ -18,7 +18,7 @@ This section contains tips and advice for interacting with our Kubernetes deploy
    ```
    gcloud components install kubectl
    ```
-1. Configure `kubectl` to point to the desired cluster using the appropriate `gcloud container clusters get-credentials` command listed at the [top of this document](../deployments.md#deployments).
+1. Configure `kubectl` to point to the desired cluster using the appropriate `gcloud container clusters get-credentials` command listed in ["Instances"](instances.md).
 1. Verify that you have access to kubernetes:
 
    ```

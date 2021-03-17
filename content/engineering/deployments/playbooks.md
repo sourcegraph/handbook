@@ -1,16 +1,17 @@
 # Playbooks for deployments
 
 - [Playbooks for deployments](#playbooks-for-deployments)
-  - [Sourcegraph.com](#sourcegraphcom)
-    - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
-    - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
-    - [Invalidating all user sessions](#invalidating-all-user-sessions)
-    - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
-      - [Via the CLI](#via-the-cli)
-      - [Via BigQuery (for read-only operations)](#via-bigquery-for-read-only-operations)
-  - [k8s.sgdev.org](#k8ssgdevorg)
-    - [Manage users in k8s.sgdev.org](#manage-users-in-k8ssgdevorg)
-  - [Cloudflare Configuration](#cloudflare-configuration)
+    - [Sourcegraph.com](#sourcegraphcom)
+        - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
+        - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
+        - [Invalidating all user sessions](#invalidating-all-user-sessions)
+        - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
+            - [Via the CLI](#via-the-cli)
+            - [Via BigQuery (for read-only operations)](#via-bigquery-for-read-only-operations)
+        - [Restarting docs.sourcegraph.com](#restarting-about-sourcegraph-com-and-docs-sourcegraph-com)
+    - [k8s.sgdev.org](#k8ssgdevorg)
+        - [Manage users in k8s.sgdev.org](#manage-users-in-k8ssgdevorg)
+    - [Cloudflare Configuration](#cloudflare-configuration)
 
 ## Sourcegraph.com
 
@@ -100,6 +101,26 @@ You can also query the production database via BigQuery as an external data sour
 See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561:bfa7c7e57f884d209f261d15e4610229) to get started.
 
 **Note**: This method only permits read-only access
+
+### Restarting about.sourcegraph.com and docs.sourcegraph.com
+
+To restart the services powering about.sourcegraph.com and docs.sourcegraph.com:
+
+1. List the active pods with `kubectl get pods`. This should produce a list that includes items like the following:
+
+    ```
+    NAME                                     READY   STATUS      RESTARTS   AGE
+    about-sourcegraph-com-74f96c659b-t6lqp   1/1     Running     0          7m49s
+    docs-sourcegraph-com-5f97dd5db-7wrxm     1/1     Running     0          7m49s 
+    ```
+
+    The exact names will differ, but the general format will be the same.
+1. Delete the pods, being careful to copy the exact names from the output in the previous step. For example, with that output, you would run:
+
+    ```
+    kubectl delete pod about-sourcegraph-com-74f96c659b-t6lqp docs-sourcegraph-com-5f97dd5db-7wrxm
+    ```
+1. Wait a moment, and check https://about.sourcegraph.com/ and https://docs.sourcegraph.com/.
 
 ## k8s.sgdev.org
 

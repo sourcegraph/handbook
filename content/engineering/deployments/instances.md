@@ -10,6 +10,8 @@ This deployment is also colloquially referred to as "Sourcegraph Cloud", "Cloud"
 
 `sourcegraph.com` deploys the latest changes from [`sourcegraph/sourcegraph`](https://github.com/sourcegraph/sourcegraph) on a schedule via [Renovate](./index.md#renovate)
 
+This deployment also includes our [documentation](https://docs.sourcegraph.com/) and [about](https://about.sourcegraph.com/) sites.
+
 > 🐶 For dogfooding changes, use [k8s.sgdev.org](#k8s-sgdev-org) instead, which generally receives updates faster.
 
 - [dot-com cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud?project=sourcegraph-dev)
