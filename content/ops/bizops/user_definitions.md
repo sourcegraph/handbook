@@ -2,9 +2,10 @@
 
 ## Active user
 
-A user is considered 'active' when they trigger any event over the specified time period. This could be anything from a page view inside the product to a hover using one of Sourcegraph's browser extensions to a code monitoring email notification.
+A user is considered 'active' when they are signed-in and trigger any event over the specified time period. This could be anything from a page view inside the product to a hover using one of Sourcegraph's browser extensions to a code monitoring email notification.
 
 Time periods we track:
+
 - Daily active user (DAU)
 - Weekly active user (WAU)
 - Monthly active user (MAU)
