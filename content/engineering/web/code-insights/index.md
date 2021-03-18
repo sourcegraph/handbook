@@ -1,6 +1,6 @@
 # Code insights team
 
-The code insights team will be responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
+The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
 
 <img src="./screenshot.svg" alt="Screenshot of a code insights dashboard with graphs" />
 
@@ -12,6 +12,26 @@ The code insights team will be responsible for building and delivering code insi
   - V. K. (Frontend Engineer) starting 2021-03-22
   - FQ1 [Backend Engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
   - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend platform team](../frontend-platform/index.md)
+
+## Mission
+
+To create a Sourcegraph code insights product that answers all your important high-level questions about what's in your code and how it's changing. 
+
+## Vision 
+
+Sourcegraph users – especially those in management roles – create and monitor code insights to answer vital questions about their code, including: 
+
+1. How their code is tracking against any migration, pattern, or code smell goals
+1. How their code is changing over time and what areas may need more or less developer attention 
+1. Understanding their code's current and historical content, like its languages, libraries, and structure
+1. What patterns or outliers exist in their third party tools' data when viewed at a high level  
+1. Any of the above questions, but also filtered by repository, engineering team, or other division
+
+## Responsibilities 
+
+The code insights team is responsible for all code insights features, both backend and frontend. 
+
+While code insights is in prototype stage, the code insights team is also responsible for all support. 
 
 ## What is code insights?
 
