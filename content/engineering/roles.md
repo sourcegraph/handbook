@@ -40,9 +40,14 @@ Directors lead, grow, and develop multiple teams in Engineering.
 
 ## VP Engineering
 
+The VP of Engineering ensures that we have an effective engineering organization at Sourcegraph.
+
 ### Responsibilities
 
-TODO
+- Ensure that we have excellent people on our engineering team who are inspired and motivated.
+- Ensure that we have the right plans/priorities, and we are delivering on those plans quickly/reliably.
+- Ensure that we are making the right technical investments for the long term success of our product and team.
+- Ensure that we have excellent culture, organization, and processess.
 
 ## Switching roles
 
