@@ -116,6 +116,7 @@ File new customer issues in the [private customer issue tracker](https://github.
 
 * Initiate the issue from Zendesk via the integration with Github so that the conversation with the customer is available to engineering directly in Github
 * Provide all information required for troubleshooting that you gathered in the previous steps.
+* Include customer quotes in mark down using a quote block. For example, `> quote goes here.`
 * Label it with `customer/$name` and `rfh`.
 * Assign the issue to the appropriate team you identified in the previous step.
 
@@ -137,7 +138,7 @@ Selecting priority is more of an art than a science. Start with the issue and it
 
 After you file the Github issue, alert the relevant engineering team you did so in Slack. Keep it simple and always provide 1) a brief description of what you need, 2) link to the Github issue, and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
-When posting in Distribution team's Slack channel, @ mention the [on-call dev](../engineering/distribution/index.md#support-rotation) (not the team @ group -- while we use the @ group for all other engineering teams, most of our help requests go to Distribution, so they have a support rotation to help let the team have more focus time)
+When posting in Distribution team's Slack channel, use @distribution-support to contact the the [on-call dev](../engineering/distribution/index.md#support-rotation) (not the team @distribution group -- while we use the @ group for all other engineering teams, most of our help requests go to Distribution, so they have a support rotation to help let the team have more focus time)
 
 ### Defects
 
