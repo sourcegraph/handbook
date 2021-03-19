@@ -21,7 +21,10 @@ This document contains the goals and work log for the search team's [2-week iter
   - Finish implementing `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584)) and pings metrics
   - Document `select` and `contains` usage and examples (ship this release)
 - **Work log:**
-    - 2021-03-12: Initial `contains` implementation close to being merged. Started heavily refactoring our query processing which is slowing progress for evaluating more expressive queries like filter predicates, and will help address [perf/UX issues related streaming](https://github.com/sourcegraph/sourcegraph/issues/18203) (e.g., process queries natively by backends like Zoekt when possible, faster `not` queries, etc.)
+  - 2021-03-12: Initial `contains` implementation close to being merged. Started heavily refactoring our query processing which is slowing progress for evaluating more expressive queries like filter predicates, and will help address [perf/UX issues related streaming](https://github.com/sourcegraph/sourcegraph/issues/18203) (e.g., process queries natively by backends like Zoekt when possible, faster `not` queries, etc.)
+  - 2021-03-15: Initial `contains` implementation merged. Still need to clean up predicate parsing and improve performance on intersections for high-cardinality matches
+  - 2021-03-19: Merged documentation for `select`
+
 
 ### Enterprise contexts
 
@@ -73,11 +76,16 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Misc
 
 - **Work log:**
+  - 2021-03-10: Camden :: Finished pulling result types out of `graphqlbackend`. [#18348](https://github.com/sourcegraph/sourcegraph/issues/18348)
   - 2021-03-12: Keegan :: Fixed most common panic in production around go symbols. [#19071](https://github.com/sourcegraph/sourcegraph/pull/19071)
   - 2021-03-12: Keegan :: Several PRs to clean up logs in CI for backend tests (remove log spam, reduce verbosity, add buildkite sections).
   - 2021-03-12: Stefan :: Tiny refactoring of graphqlbackend.seach_results.go: don't return nil, nil anywhere.
   - 2021-03-15: Keegan :: Fixed panic in service discovery code. [#19122](https://github.com/sourcegraph/sourcegraph/pull/19122)
+  - 2021-03-17: Camden :: Added highlighting for our queries in documentation. [#70](https://github.com/sourcegraph/docsite/pull/70)
+  - 2021-03-17: Camden :: Small refactoring around how we keep track of result types. [#19226](https://github.com/sourcegraph/sourcegraph/pull/19226)
   - 2021-03-18: Keegan :: dx work with Erik to move from go-bindata to go embed. [#19256](https://github.com/sourcegraph/sourcegraph/pull/19256) and [19276](https://github.com/sourcegraph/sourcegraph/pull/19276)
+  - 2021-03-18: Camden :: Fixed alignment issue on firefox for docs anchors. [#19238](https://github.com/sourcegraph/sourcegraph/pull/19238) 
+  - 2021-03-19: Camden :: Generate railroad diagrams in replacement of the monstrous handwritten tables. [#19289](https://github.com/sourcegraph/sourcegraph/pull/19289)
 
 ## 2021-02-22 to 2021-03-05
 
