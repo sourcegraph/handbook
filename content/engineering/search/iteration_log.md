@@ -31,6 +31,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - MVP ready to be shipped (ideally within the 3.26 release)
 - **Work log:**
     - 2021-03-12: RFC halfway reviewed. MVP not likely to be shipped within the next release, because it requires some internal testing to be confident. At this point, the MVP contains the ability to migrate version contexts, view search context "profile" page, and listing search contexts.
+    - 2021-03-19: Decided to move MVP to next release to allow for some internal testing. Enterprise contexts RFC reviewed and approved. DB and ORM pull requests for enterprise contexts MVP under review and should be merged soon. Paginating search contexts API response complicates the dropdown UI a bit, so we'll have to find a way to address that.
 
 ### Streaming
 
