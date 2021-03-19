@@ -44,6 +44,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Nearly all integration tests run for streaming. One last release blocker left around duplicate results in or queries. Discussing solutions still in [#18203](https://github.com/sourcegraph/sourcegraph/issues/18203).
     - Fixed "too large spans" in K8S logs. Root cause: we logged to spans ZoektSearch and ZoektSearchAll for every event coming from zoekt. Now we just log aggregates.
     - Log "time to first result" to Honeycomb (to be reviewed [#19102](https://github.com/sourcegraph/sourcegraph/pull/19102)). Still open: log to Prometheus, add to ping.
+  - 2021-03-19: Streaming defaults to on for all environments.
 
 ### Exhaustive
 
@@ -58,6 +59,9 @@ This document contains the goals and work log for the search team's [2-week iter
   - 2021-03-12:
     - Scheduler for zoekt out for review. [zoekt#73](https://github.com/sourcegraph/zoekt/pull/74)
     - src-cli now supports `-json` for streaming.
+  - 2021-03-19:
+    - Keegan :: reduced time this week, so did not land scheduler or result limit improvments.
+    - Scheduler PR updated after feedback.
 
 ### Code Monitoring
 - **Owner(s):** Juliana
@@ -70,7 +74,10 @@ This document contains the goals and work log for the search team's [2-week iter
 
 - **Work log:**
   - 2021-03-12: Keegan :: Fixed most common panic in production around go symbols. [#19071](https://github.com/sourcegraph/sourcegraph/pull/19071)
+  - 2021-03-12: Keegan :: Several PRs to clean up logs in CI for backend tests (remove log spam, reduce verbosity, add buildkite sections).
   - 2021-03-12: Stefan :: Tiny refactoring of graphqlbackend.seach_results.go: don't return nil, nil anywhere.
+  - 2021-03-15: Keegan :: Fixed panic in service discovery code. [#19122](https://github.com/sourcegraph/sourcegraph/pull/19122)
+  - 2021-03-18: Keegan :: dx work with Erik to move from go-bindata to go embed. [#19256](https://github.com/sourcegraph/sourcegraph/pull/19256) and [19276](https://github.com/sourcegraph/sourcegraph/pull/19276)
 
 ## 2021-02-22 to 2021-03-05
 
