@@ -12,9 +12,9 @@ See also our [completed goals](goals_completed.md).
 
 #### FY22Q1 OKR: 3 enterprise customers have created a code insight
 
-**Problem:** While our existing code insights prototypes get customers interested in trying the product, they currently cause many problems for a customer who tries to use them, because: 
+**Problem:** While our existing code insights prototypes get customers interested in trying the product, they currently cause many problems for a customer who tries to use them, because:
 - The backend runs slowly on the scale of many days to populate data, and the frontend doesn't reveal or mitigate this
-- You create code insights in your settings file, which creates a poor UX for creating a code insight 
+- You create code insights in your settings file, which creates a poor UX for creating a code insight
 - There is limited in-product guidance of how to use or view code insights
 
 **Milestones and outcomes:**
@@ -26,9 +26,9 @@ See also our [completed goals](goals_completed.md).
 
 1. Code insights running on the backend over a large scale of repos create a positive user experience even if they require a long loading time.
 
-    - **Outcome:** We see code insights churn after creation of an insight decrease by 50%. 
+    - **Outcome:** We see code insights churn after creation of an insight decrease by 50%.
 
-#### Future milestones and outcomes:  
+#### Future milestones and outcomes:
 
 1. Code insights are useful to a broad set of customers (this may include integrations with batch changes, code monitoring, or third party data sources – see [Productboard feature view](https://sourcegraph.productboard.com/feature-board/1793095-code-insights)).
 
@@ -50,6 +50,9 @@ See also our [completed goals](goals_completed.md).
 
 Our [roadmap is in Productboard](https://sourcegraph.productboard.com/roadmap/2327428-code-insights-objectives-roadmap). We organize our roadmap by milestone objective rather than feature, because to achieve each milestone we may shift or prioritize features based on further customer feedback or product decisions.
 
-At a glance roadmap as of 2021-03-17:
+Our roadmap as of 2021-03-19:
 
-![2021-03-17](https://sourcegraphstatic.com/handbook/product-roadmaps/2021-03-17CodeInsightsRoadmapCropped.png)
+<div style="overflow-x: auto; width: 100%">
+<!-- Screenshot taken with this browser extension: https://chrome.google.com/webstore/detail/svg-screenshot/nfakpcpmhhilkdpphcjgnokknpbpdllg -->
+<object data="./roadmap.svg" type="image/svg+xml" />
+</div>
