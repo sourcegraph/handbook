@@ -40,9 +40,17 @@ There will be plenty for you to read and learn about when you're not working on 
 - Read through the rest of the engineering handbook to learn more about how we operate.
 - Read how we choose and continually update our [goals](../../../company/goals/index.md).
 - Read how we plan and keep each other up to date with [tracking issues](../tracking_issues.md).
-- Read how we collaborate with design to [request or implement design work](../../product/design/index.md#working-with-design-requesting-design-work). 
-- Watch this [high-level overview of the Sourcegraph repository on Github](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing)
-- Frontend engineers should watch [Figma for Sourcegraphers part 1](https://drive.google.com/file/d/1zzUKDJN5XUwvKF8LfKZqQb7gK9NpK1Wx/view?usp=sharing) to learn about how design and engineering work together. [Part 2, working with the Wildcard design system](https://drive.google.com/file/d/1kfT3PVvTag_e0RXLAt6nndf6fS2n1Slv/view?usp=sharing) shows how to work with our design system and may be interesting for anyone who wants to submit designs.
+- Read how we collaborate with design to [request or implement design work](../../product/design/index.md#working-with-design-requesting-design-work).
+- Watch this [high-level overview of the Sourcegraph repository on Github](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing).
+- Read our [Testing Principles](https://docs.sourcegraph.com/dev/background-information/testing_principles) to learn how we think about testing. Reading this makes sure you know what others on the team are referring to when we refer to certain types of tests.
+  - More concrete documentation and troubleshooting help for when you're running, writing or debugging your first tests can be found in the dev docs page [Testing the Sourcegraph main repo](https://docs.sourcegraph.com/dev/how-to/testing). This is mainly as reference (you don't need to read this all now) but useful information to have in hand.
+- For Frontend Engineers:
+  - Watch [Figma for Sourcegraphers part 1](https://drive.google.com/file/d/1zzUKDJN5XUwvKF8LfKZqQb7gK9NpK1Wx/view?usp=sharing) to learn about how design and engineering work together.
+    - [Part 2, working with the Wildcard design system](https://drive.google.com/file/d/1kfT3PVvTag_e0RXLAt6nndf6fS2n1Slv/view?usp=sharing) shows how to work with our design system and may be interesting for anyone who wants to submit designs.
+  - Read [Testing web code](https://docs.sourcegraph.com/dev/background-information/testing_web_code) to understand our preferred patterns and approaches for writing tests in the frontend. We recommend reading this before you write your first test in the frontend.
+  - Read our [Styling UI](https://docs.sourcegraph.com/dev/background-information/web/styling) documentation to understand our CSS stack and the constraints we work within when styling UI. We highly recommend reading this before you start working on a frontend task, as it will make you more effective.
+  - Read our [TypeScript programming patterns](https://docs.sourcegraph.com/dev/background-information/languages/typescript#typescript-programming-patterns) to understand what TypeScript patterns we follow that are not easily detected with lint rules.
+
 
 ## Weeks 4-6
 
