@@ -50,6 +50,7 @@ This document contains the goals and work log for the search team's [2-week iter
   - 2021-03-19: Streaming defaults to on for all environments.
   - 2021-03-19: Streaming now logs to Prometheus, Ping DB, and Honeycomb.
   - 2021-03-19: Don't mark spans as failed for context errors, which, by design, are very frequent for streaming search.
+  - 2021-03-19: End-to-end tests have been updated to match expectations for Streaming Search
 
 ### Exhaustive
 
@@ -92,6 +93,7 @@ This document contains the goals and work log for the search team's [2-week iter
   - 2021-03-19: Camden :: Generate railroad diagrams in replacement of the monstrous handwritten tables. [#19289](https://github.com/sourcegraph/sourcegraph/pull/19289)
   - 2021-03-19: Stefan :: Moved logging from `evaluateLeaf` to the top and refactored parts of it along the way. [#19278](https://github.com/sourcegraph/sourcegraph/pull/19278)
   - 2021-03-19: Stefan :: Fixed a bug in zoekt that led us to report always a shard count of 1 for every repo. [#19265](https://github.com/sourcegraph/sourcegraph/pull/19265)
+  - 2021-03-19: Juliana :: Started planning for webapp redesign with the Design and Frontend Platform teams
 
 ## 2021-02-22 to 2021-03-05
 
