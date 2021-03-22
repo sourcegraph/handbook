@@ -19,11 +19,11 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Owner(s):** Rijnard, Camden
 - **Outcomes:**
   - Finish implementing `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584)) and pings metrics
-  - Document `select` and `contains` usage and examples (ship this release)
+  - Document `select` and `contains` usage and examples (`select` ships this release)
 - **Work log:**
   - 2021-03-12: Initial `contains` implementation close to being merged. Started heavily refactoring our query processing which is slowing progress for evaluating more expressive queries like filter predicates, and will help address [perf/UX issues related streaming](https://github.com/sourcegraph/sourcegraph/issues/18203) (e.g., process queries natively by backends like Zoekt when possible, faster `not` queries, etc.)
   - 2021-03-15: Initial `contains` implementation merged. Still need to clean up predicate parsing and improve performance on intersections for high-cardinality matches
-  - 2021-03-19: Merged documentation for `select`
+  - 2021-03-19: Merged documentation for `select`. `select` functionality shipped in 3.26. Continued query refactoring to simplify evaluation logic; pings metrics and `contains` frontend implementation deferred for ~1 week to minimize context switching.
 
 
 ### Enterprise contexts
@@ -78,6 +78,8 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Misc
 
 - **Work log:**
+  - 2021-03-17: Rijnard :: Added syntax highlighting definitions 10+ languages, closed 7+ issues including customer requests. 
+  - 2021-03-17: Rijnard :: Shipped feature to enable case-sensitivity by default (customer request). [#19242](https://github.com/sourcegraph/sourcegraph/pull/19242)
   - 2021-03-10: Camden :: Finished pulling result types out of `graphqlbackend`. [#18348](https://github.com/sourcegraph/sourcegraph/issues/18348)
   - 2021-03-12: Keegan :: Fixed most common panic in production around go symbols. [#19071](https://github.com/sourcegraph/sourcegraph/pull/19071)
   - 2021-03-12: Keegan :: Several PRs to clean up logs in CI for backend tests (remove log spam, reduce verbosity, add buildkite sections).
