@@ -29,3 +29,7 @@ These posts should cover:
 These posts should NOT cover the reason for the departure, in the interest of respecting the teammate's privacy.
 
 If the teammate chooses, and still has access to Slack, they are free to share any context they may desire.
+
+## Switching Teams
+
+When a teammate [switches teams](../people-ops/switching-teams.md), the teammate's new manager should post a brief note in the #general channel announcing the switch and what the teammate's new responsibilities and role will be.

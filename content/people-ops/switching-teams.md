@@ -26,6 +26,7 @@ This process is not fixed. If you believe pursuing any steps in a different orde
   - If the new team manager doesn't support the move, you can reach out to the People Ops team to discuss options.
 - If both team managers support the change in principle, you will go through a [short internal interview process](#requirements-for-the-new-manager) for the role.
 - If the internal interview concludes with positive results, the team switch can be planned.
+- Once the transition plan is approved and the impacted teams informed of the switch, the teammate's new manager should [post an announcement](../communication/announcements.md).
 
 ## Requirements for the new manager
 
