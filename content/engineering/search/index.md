@@ -59,7 +59,7 @@ Iterations start **every other Monday**.
     - FQ3 [Engineering Manager](../roles.md#engineering-manager), Loïc acting manager until then.
         - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
         - [Stefan Hengl](../../../company/team/index.md#stefan-hengl-he-him)
-        - R.H., starting March 8
+        - [Ryan Hitchman](../../../company/team/index.md#ryan-hitchman)
         - FQ3 backend engineer
 - [Search product](index.md) {#search-product-eng}
     - [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager))
