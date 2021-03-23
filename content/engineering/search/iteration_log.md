@@ -14,11 +14,12 @@ This document contains the goals and work log for the search team's [2-week iter
 
 ## 2021-03-22 to 2021-04-02
 
-### $GOAL_OR_THEME
+### Enterprise contexts
 
-- **Owner(s):** $OWNER
+- **Owner(s):** Rok
 - **Outcomes:**
-    - $DESIRED_OUTCOME
+    - Users are able to search with converted version contexts on the dogfood instance
+    - Basic UI for displaying and listing search contexts
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
