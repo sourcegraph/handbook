@@ -2,6 +2,11 @@
 
 Google drive is the main repository for sales resources and the sales folder can be found [here](https://drive.google.com/drive/folders/17SzRMbyC1w7moCUMwm8bDt-veWUf3OrP)
 
+## Frequently Requested Files
+- [Sourcegraph W9](https://drive.google.com/file/d/1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW/)
+- [Certificate of Incorporation](https://drive.google.com/u/0/uc?id=1q7AJT0k8Q5NJO5xN4v7iytaE3Gh6fYBb&export=download)
+- [Insurance Certificate](https://drive.google.com/u/0/uc?id=1Zm2b7KvZS9yL3K6_KZBd4VapCRO4BoyJ&export=download)
+
 ## Sales Templates
 
 Sales templates for common use cases can be found in [Sales Template folder](https://drive.google.com/drive/folders/1eBfRzDDM-fonChy5kumN5m1aS-aZxlYM)
@@ -14,13 +19,12 @@ Please do not edit the templates directly -- create a copy and place it in a dif
 
 The following templates are currently available:
 
-- [Enterprise License Agreement and Order Form](https://drive.google.com/file/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/)
-- [Sourcegraph - Enterprise Services Agreement and Order Form (Hosted Services)](https://docs.google.com/document/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/)
+- [Enterprise License Agreement and Order Form](https://drive.google.com/u/0/uc?id=1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv&export=download)
+- [Sourcegraph - Enterprise Services Agreement and Order Form (Hosted Services)](https://docs.google.com/u/0/uc?id=1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A&export=download)
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
-- [Proof of Concept](https://docs.google.com/document/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
+- [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
-- [Mutual Nondisclosure Agreement](https://drive.google.com/file/d/1M6UA8ro-qsdrj9fiB7wkJlD2jpy8epDI/)
-- [Sourcegraph W9](https://drive.google.com/file/d/1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW/)
+- [Mutual Nondisclosure Agreement](https://drive.google.com/u/0/uc?id=1M6UA8ro-qsdrj9fiB7wkJlD2jpy8epDI&export=download)
 - [First Call Deck](https://docs.google.com/presentation/d/1-LW97oT-VU4Zu3MXB1Wgbu_bSoAkdfOCfUfx7MWO9lo/)
 
 ### Updating Templates
