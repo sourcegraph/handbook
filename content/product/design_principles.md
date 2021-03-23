@@ -33,7 +33,7 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 - **Code as content**  
   More time is spent reading than writing code. Elevate the craft of code as content.
 
-- **Trust is earned** 
+- **Trust is earned**  
   Sourcegraph is the source of truth, but this trust is earned. Accuracy, transparency, recency, and honesty together work to uphold this source of truth.
 
 - **Create momentum**  
