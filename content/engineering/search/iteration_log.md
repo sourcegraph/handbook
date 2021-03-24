@@ -34,6 +34,15 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+### Alerting and observability
+- **Owner(s):** Camden
+- **Outcomes:**
+  - Have a plan for implementing alerting and a light on-call rotation
+  - Implement better metrics to alert on
+  - Get first minimal alerts working
+- **Work log:**
+
+
 ## 2021-03-08 to 2021-03-22
 
 ### Implement `contains` filter predicate and document new additions
