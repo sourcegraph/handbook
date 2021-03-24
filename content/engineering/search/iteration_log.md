@@ -24,7 +24,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - YYYY-MM-DD: $UPDATE
 
 
-###  search predicate builtins, complete `contains` filter predicate
+### Search predicate builtins, complete `contains` filter predicate
 
 - **Owner(s):** Rijnard, Camden
 - **Outcomes:**
