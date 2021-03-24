@@ -53,7 +53,7 @@ Plans can change given new information!
         - [API docs](web/api-docs/index.md)
             - [Team: API docs](web/api-docs/index.md#api-docs-eng)
     - Platform and infrastructure {#platform-and-infrastructure}
-        - B.C. starting 2020-03-22
+        - [Bill Creager](../../../company/team/index.md#bill-creager) ([Director of Engineering](roles.md#director-of-engineering))
         - [Security](security/index.md)
             - [Team: Security](security/index.md#security-eng)
         - [Distribution](distribution/index.md)
