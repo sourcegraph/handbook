@@ -2,7 +2,9 @@
 
 ## Active user
 
-A user is considered 'active' when they are signed-in and trigger any event over the specified time period. This could be anything from a page view inside the product to a hover using one of Sourcegraph's browser extensions to a code monitoring email notification.
+**On premise**: A user is considered 'active' when they are signed-in and trigger any event over the specified time period. This could be anything from a page view inside the product to a hover using one of Sourcegraph's browser extensions to a code monitoring email notification.
+
+**On Sourcegraph.com**: A user is considered 'active' when they trigger any event over the specified time period, regardless of whether they are signed in or not.
 
 Time periods we track:
 
