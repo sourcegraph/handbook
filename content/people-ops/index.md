@@ -31,7 +31,9 @@
 
 ## Benefits
 
-- [Compensation](compensation.md)
+- [Compensation](compensation/index.md)
+  - [How to create an offer](compensation/offers.md)
+  - [Equity and stock options FAQ](compensation/equity-faq.md)
 - [Benefits and perks](benefits-and-perks.md)
 - [Travel](travel.md)
 - [Invoices](invoices.md)
