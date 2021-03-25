@@ -31,7 +31,7 @@
         - Lori Heyman, Digital Marketing Programs
     - Tommy Pesavento, Director of Brand Design
         - We will be hiring a brand design team
-    - We are hiring a [Director of Community](https://about.sourcegraph.com/handbook/marketing/roles/director_of_community)
+    - Director of Community
         - [Vanesa Ortiz](../../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
         - We will be hiring developer advocates
 
