@@ -8,7 +8,7 @@ The Frontend platform team (part of the Web org) defines and maintains the stand
 - [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Patrick Dubroy](../../../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../../../engineering/roles/index.md#engineering-manager)) {#frontend-platform-eng}
   - [Tom Ross](../../../../company/team/index.md#tom-ross-he-him)
-  - [Felipe Janer](../../../../company/team/index.md#felipe-janer-he-him)  
+  - [Felipe Janer](../../../../company/team/index.md#felipe-janer-he-him)
   - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) moves in FQ2 to the [Code Insights Team](../code-insights/index.md)
 
 ## Mission
@@ -36,7 +36,7 @@ Using and developing Sourcegraph is effortless.
     - Accessibility, navigation, and information hierarchy
     - Performance and efficiency of the core UI
     - All code browsing and code host-like views
-    - Code syntax highlighting    
+    - Code syntax highlighting
     - Sourcegraph application homepage
     - Support and enable other teams in all of the above.
 
@@ -84,6 +84,15 @@ We plan and track our day-to-day work on our [Kanban board](https://github.com/o
 
 The team makes use of [tracking issues](../../tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a few days (or require multiple PRs) to deliver.
 
+#### Getting cross-team feedback on RFC
+
+- Create an issue for the RFC tracking on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144).
+- [Lock conversation](https://docs.github.com/en/github/building-a-strong-community/locking-conversations): RFC should be discussed in the Google doc.
+- Add _rfc/tracking_ and _team/frontend-platform_ labels to the RFC issue.
+- Once RFC is ready for review, move it to the _In review_ column and assign _sourcegraph/frontend-devs_ or individual developers to the issue.
+- Github integration will notify _@web_ in #frontend-platform-rfc-feed that the RFC is ready for review.
+- Once approved, link the RFC issue to the tracking issue [if required](#tracking-issues).
+
 #### Product Feedback
 
 Specific product feedback about well-defined, small features can be found directly in the backlog boards. More general product feedback that applies to larger features, or that needs more research and planning to be actionable, is kept in [Productboard](https://sourcegraph.productboard.com/feature-board/2330177-web-frontend-platform)
@@ -102,7 +111,7 @@ We capture and assign actions to individual teammates. Teammates should consider
 
 Teammates contribute to the retrospective asynchronously during the iteration by adding their thoughts to our [retrospective document](https://docs.google.com/document/d/1SRhrTRJFGAEtTyhOqaO7TxsMQeBgIhUXRCDOEcv1EB8/edit). Teammates are highly encouraged to comment on points raised before the sync meeting in the document.
 
-We rotate who leads the retrospective to allow all teammates an opportunity to lead the session. Teammates can find the rotation schedule at the top of the [retrospective document](https://docs.google.com/document/d/1SRhrTRJFGAEtTyhOqaO7TxsMQeBgIhUXRCDOEcv1EB8/edit). 
+We rotate who leads the retrospective to allow all teammates an opportunity to lead the session. Teammates can find the rotation schedule at the top of the [retrospective document](https://docs.google.com/document/d/1SRhrTRJFGAEtTyhOqaO7TxsMQeBgIhUXRCDOEcv1EB8/edit).
 
 ### Code reviews
 
