@@ -23,7 +23,6 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2021-03-26: API support for converting version contexts is in main (soon on the dogfood instance). Finished the paginated API for search contexts. Started working on minimal UI for displaying and listing search contexts.
 
-
 ### Search predicate builtins, complete `contains` filter predicate
 
 - **Owner(s):** Rijnard, Camden
@@ -42,6 +41,27 @@ This document contains the goals and work log for the search team's [2-week iter
   - Get first minimal alerts working
 - **Work log:**
 
+
+## Code Monitoring
+- **Owner(s):** Juliana
+- **Outcomes:**
+    - Polish items related to the "Monitor" button on the search results page are addressed
+    - Work on checklist for code monitor queries is started
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Exhaustive/Streaming
+- **Owner(s):** Stefan, Keegan
+- **Outcomes:**
+    - Sharded streaming on Cloud
+    - Fixed highlighting for diff/commit search
+- **Work log:**
+    - 2021-03-26: This week I focussed mainly on improving observability for streaming and exhaustive search. In the course of that I overhauled our logging to Prometheus and Honeycomb. With the improved logging I was able to troubleshoot a recent performance degradation.
+
+### Misc
+
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
 
 ## 2021-03-08 to 2021-03-22
 
@@ -109,7 +129,7 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Misc
 
 - **Work log:**
-  - 2021-03-17: Rijnard :: Added syntax highlighting definitions 10+ languages, closed 7+ issues including customer requests. 
+  - 2021-03-17: Rijnard :: Added syntax highlighting definitions 10+ languages, closed 7+ issues including customer requests.
   - 2021-03-17: Rijnard :: Shipped feature to enable case-sensitivity by default (customer request). [#19242](https://github.com/sourcegraph/sourcegraph/pull/19242)
   - 2021-03-10: Camden :: Finished pulling result types out of `graphqlbackend`. [#18348](https://github.com/sourcegraph/sourcegraph/issues/18348)
   - 2021-03-12: Keegan :: Fixed most common panic in production around go symbols. [#19071](https://github.com/sourcegraph/sourcegraph/pull/19071)
@@ -119,7 +139,7 @@ This document contains the goals and work log for the search team's [2-week iter
   - 2021-03-17: Camden :: Added highlighting for our queries in documentation. [#70](https://github.com/sourcegraph/docsite/pull/70)
   - 2021-03-17: Camden :: Small refactoring around how we keep track of result types. [#19226](https://github.com/sourcegraph/sourcegraph/pull/19226)
   - 2021-03-18: Keegan :: dx work with Erik to move from go-bindata to go embed. [#19256](https://github.com/sourcegraph/sourcegraph/pull/19256) and [19276](https://github.com/sourcegraph/sourcegraph/pull/19276)
-  - 2021-03-18: Camden :: Fixed alignment issue on firefox for docs anchors. [#19238](https://github.com/sourcegraph/sourcegraph/pull/19238) 
+  - 2021-03-18: Camden :: Fixed alignment issue on firefox for docs anchors. [#19238](https://github.com/sourcegraph/sourcegraph/pull/19238)
   - 2021-03-19: Camden :: Generate railroad diagrams in replacement of the monstrous handwritten tables. [#19289](https://github.com/sourcegraph/sourcegraph/pull/19289)
   - 2021-03-19: Stefan :: Moved logging from `evaluateLeaf` to the top and refactored parts of it along the way. [#19278](https://github.com/sourcegraph/sourcegraph/pull/19278)
   - 2021-03-19: Stefan :: Fixed a bug in zoekt that led us to report always a shard count of 1 for every repo. [#19265](https://github.com/sourcegraph/sourcegraph/pull/19265)
@@ -144,7 +164,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Polish remaining `select` work (optimization and add pings, see [#18002](https://github.com/sourcegraph/sourcegraph/issues/18002))
     - Start implementing `contains` filter predicate (see [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584))
 - **Work log:**
-    - 2021-02-26: Added backend optimizations to `select`. Made progress understanding how to integrate pings--to reduce effort, we should add pings for `select` and `contains` at the same time. Discussed `contains` implementation and scaffolding. Started related refactoring to query inputs to generally help clean implementation. 
+    - 2021-02-26: Added backend optimizations to `select`. Made progress understanding how to integrate pings--to reduce effort, we should add pings for `select` and `contains` at the same time. Discussed `contains` implementation and scaffolding. Started related refactoring to query inputs to generally help clean implementation.
     - 2021-03-04: Polished all of `select` including support for `symbol.kind` and frontend autocompletion. Started initial implementation of `contains` on the frontend/backend. Pings for `select` will be added along with `contains` implementation. Outcomes met.
 	- 2021-03-05: Implemented `contains`, but the implementation was a bit dirty, so decided to spend some time refactoring before merging
 
@@ -199,7 +219,7 @@ This document contains the goals and work log for the search team's [2-week iter
   - dev: build without custom build tags (#18776)
   - code monitoring: toggle labels fixed and improvements to a11y (#18881)
   - dev experience: wrote and sent out for review [RFC 344](https://docs.google.com/document/d/1ojZ2bmgnZ7CrUrZXJI1vpH_BI_PQp1ygNWt9VtYjDRA/edit#) for frotend development on deployed instances
-  
+
 ### Streaming search polish
 - **Owner(s):** Juliana
 - **Outcomes:**
@@ -209,7 +229,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2021-02-23: Performance issues have been addressed and streaming is now at an acceptable level of performance
     - 2021-02-22: Server side errors are now handled and displayed to the user correctly
     - 2021-02-24: Streaming search is now enabled globally on Sourcegraph.com
-    - 2021-02-25: Other UI polish fixes for streaming search have been addressed 
+    - 2021-02-25: Other UI polish fixes for streaming search have been addressed
     - 2021-03-05: Fixed low-hanging fruit a11y issues
 
 ## 2021-02-08 to 2021-02-19
@@ -330,7 +350,7 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - 2021-01-15: An early incomplete draft is being reviewed. Hope to publish widely next week.
     - 2021-01-22: Decided to fully focus on streaming search. Pushing out working on the RFC until we have the streaming feature flag turned on.
-    
+
 ### Structural search for monorepos
 - **Owner(s):** Rijnard, Camden
 - **Outcomes:**
