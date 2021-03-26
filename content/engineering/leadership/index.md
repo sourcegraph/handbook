@@ -50,10 +50,12 @@ Please include the following content in your update:
 ### Company meeting demos
 
 We're experimenting with showing short (<1m) demo videos (max 1 per week) during company meeting. If your team ships something that would make a great demo, send an update to engineering-team-status@ to let us know. Requirements:
+
 - 1 minute or less
 - Recorded 
 - Voiceover that explains the problem that the feature solves and which specific customers had that problem
-- Example
+- Just show a demo of the actual product as if you were showing a friend, you don't need to have slides or anything
+- Example:
   - https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/70Dr1h7Ixe4
   - https://sourcegraph.slack.com/archives/CHEKCRWKV/p1615424478168600
 
