@@ -251,6 +251,12 @@ Set up access to new frontend by copying this output and running it in another s
 echo "gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER"
 ```
 
+Ensure that no containers are running from the previous deployment
+
+```sh
+docker ps | grep ${OLD_VERSION}
+```
+
 Check that `src` access is set up correctly:
 
 ```sh
@@ -263,6 +269,7 @@ Remove the notice previously added to the global user settings:
 ../util/set-notice.sh none
 ```
 
+
 ## 11) Take down the old deployment
 
 Remove the old `$OLD_DEPLOYMENT` deployment and its data disk:
@@ -273,7 +280,8 @@ rm -rf $OLD_DEPLOYMENT/
 git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
 ```
 
-## 12) Open a pull request to commit your changes
+
+## 13) Open a pull request to commit your changes
 
 ```sh
 git push origin HEAD
