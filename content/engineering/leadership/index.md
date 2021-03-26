@@ -47,6 +47,16 @@ Please include the following content in your update:
 - Follow the [3Ps](https://en.wikipedia.org/wiki/Progress,_plans,_problems) approach to reporting on the _Progress_, ~~Problems~~ _Challenges_, and _Plans_ against the team's goals.
 - Managers should favor a prose style communication over a changelog style update.
 
+### Company meeting demos
+
+We're experimenting with showing short (<1m) demo videos (max 1 per week) during company meeting. If your team ships something that would make a great demo, send an update to engineering-team-status@ to let us know. Requirements:
+- 1 minute or less
+- Recorded 
+- Voiceover that explains the problem that the feature solves and which specific customers had that problem
+- Example
+  - https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/70Dr1h7Ixe4
+  - https://sourcegraph.slack.com/archives/CHEKCRWKV/p1615424478168600
+
 ## Book recommendations
 
 Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../../people-ops/travel.md#professional-development-and-education) and read them!
