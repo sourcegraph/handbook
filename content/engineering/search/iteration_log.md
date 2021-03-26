@@ -21,7 +21,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Users are able to search with converted version contexts on the dogfood instance
     - Basic UI for displaying and listing search contexts
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-03-26: API support for converting version contexts is in main (soon on the dogfood instance). Finished the paginated API for search contexts. Started working on minimal UI for displaying and listing search contexts.
 
 
 ### Search predicate builtins, complete `contains` filter predicate
