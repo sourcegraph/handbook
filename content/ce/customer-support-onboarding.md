@@ -140,7 +140,7 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 
 
 ## By the end of your second month, the following will be true...
-* You have closed at least 25 cases
+* You have closed at least 15 cases
 * You feel super confident troubleshooting and working with the product
 * You are finding you need help less and less to get started helping a customer
 * You have had a chat with each engineering manager and each member of the Distribution team
@@ -156,12 +156,11 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 * Add or substantially update at least one section to our official product documentation
 * Purchase the book [Leader's Guide to Unconscious Bias](https://www.franklincovey.com/unconscious-bias-book/) by Pamela Fuller in preparation for values training 2
 * Start attending values training 1-3 sessions (invite sent by Virginia)
-* Virginia will review some of your first 25 closed cases and offer a summary of everything she loved and any questions she has to learn more about your work style
+* Virginia will review some of your first 15 closed cases and offer a summary of everything she loved and any questions she has to learn more about your work style
 
 
 
 ## By the end of your third month, the following will be true…
-* You have closed at least 50 cases
 * You find that you rarely need help to get started helping a customer
 * You have continued to update product documentation and the handbook as needed
 * You have identified and made progress on a project during your focus blocks
