@@ -12,23 +12,11 @@ As the company grows, new hires are joining almost every week. The onboarding pr
 <p>
 
    - We confirm start date
-<p>
-
    - We confirm email preference
-<p>
-
    - We send out information about purchasing the laptop
-<p>
-
    - We ask for T-shirt size, for swag purposes, and address for shipping
-<p>
-
    - We ask for a selfie
-<p>
-
    - For US hires we inform about documentation needed for I-9 paperwork
-<p>
-
    - We ask for their phone number, for account setup
 <p>
 
@@ -48,20 +36,10 @@ As the company grows, new hires are joining almost every week. The onboarding pr
 <p>
 
    - Slack
-<p>
-
    - Zoom
-<p>
-
    - 1password
-<p>
-
    - Lever
-<p>
-
    - Lattice
-<p>
-
    - Process St.
 <p>
 And create a Check in meeting for new hires with PeopleOps after the first month.
@@ -74,8 +52,6 @@ And create a Check in meeting for new hires with PeopleOps after the first month
 <p>
 
    - Create recurring 1:1 with new teammate
-<p>
-
    - Add new teammate to any team/role specific meetings and calls
 <p>
 Having this done before day one will make it easier for the new hire and an overall better experience.
