@@ -10,15 +10,15 @@ As the company grows, new hires are joining almost every week. The onboarding pr
   <tr>
    <td>About ten days before the new hire starts (or as soon as they sign the contract, if they haven’t by that time) a Welcome email is sent to the new hire with the Hiring Manager in CC. Here we ask for certain information we need to get them onboarded:
 <p>
-
-   - We confirm start date
-   - We confirm email preference
-   - We send out information about purchasing the laptop
-   - We ask for T-shirt size, for swag purposes, and address for shipping
-   - We ask for a selfie
-   - For US hires we inform about documentation needed for I-9 paperwork
-   - We ask for their phone number, for account setup
-<p>
+<ul>
+<li> We confirm start date
+<li> We confirm email preference
+<li> We send out information about purchasing the laptop
+<li> We ask for T-shirt size, for swag purposes, and address for shipping
+<li> We ask for a selfie
+<li> For US hires we inform about documentation needed for I-9 paperwork
+<li> We ask for their phone number, for account setup
+</ul>
 
    And GitHub username, if they have one.
    </td>
@@ -34,13 +34,14 @@ As the company grows, new hires are joining almost every week. The onboarding pr
   <tr>
    <td>The Thursday before they start, we create their Sourcegraph email. Once we have this we add them to:
 <p>
-
-   - Slack
-   - Zoom
-   - 1password
-   - Lever
-   - Lattice
-   - Process St.
+<ul>
+<li> Slack
+<li> Zoom
+<li> 1password
+<li> Lever
+<li> Lattice
+<li> Process St.
+   </ul>
 <p>
 And create a Check in meeting for new hires with PeopleOps after their first month.
    </td>
@@ -50,9 +51,10 @@ And create a Check in meeting for new hires with PeopleOps after their first mon
   <tr>
    <td>We will also let Hiring Managers know through the #people-ops channel in Slack that the email is live. Now you should:
 <p>
-
-   - Create recurring 1:1 with new teammate
-   - Add new teammate to any team/role specific meetings and calls
+   <ul>
+<li> Create recurring 1:1 with new teammate
+<li> Add new teammate to any team/role specific meetings and calls
+     </ul>
 <p>
 Having this done before day one will make it easier for the new hire and an overall better experience.
    </td>
