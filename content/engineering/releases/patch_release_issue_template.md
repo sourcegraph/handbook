@@ -83,6 +83,7 @@ Create and test the first release candidate:
         ```sh
         VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
         ```
+  - [ ] For [[deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker), also tag the release (do the same as above) 
   - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
     - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
 - [ ] Finalize and announce that the release is live:
