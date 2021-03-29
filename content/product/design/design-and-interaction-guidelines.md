@@ -67,6 +67,11 @@ Drawing the line between what is a code page and what is a web application page 
 
 In these cases, we can utilize web application styles inside the search context to give links greater importance through color and provide additional margin and padding to aid readability.
 
+## Accessibility standards
+People of all abilities should have first-class access to code and coding. In order to achieve this it is vital that our applications are designed and built to be accessible to all.
+
+We aim for [WCAG Level AA Conformance](https://www.w3.org/WAI/WCAG2AA-Conformance) in all areas. Use [this reference](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa&technologies=smil%2Cflash%2Csl) to get a better understanding of what this involves.
+
 ### Todo:
 
 * Displaying state in buttons
@@ -74,12 +79,6 @@ In these cases, we can utilize web application styles inside the search context 
   * The button text should describe the action that will occur on click
 * Developer friendly as a first principle
   * Keyboard navigation is a priority
-* Accessibility
-  * People of all abilities should have first-class access to code and coding. We cannot fulfill that mission if our application is not accessible
-  * Contrast
-  * Colorblindness
-  * Keyboard navigation
-  * Screen readers
 * General design guidelines
   * Minimum sizes of features
   * Margins between elements should be a minimum .5rem (8px)

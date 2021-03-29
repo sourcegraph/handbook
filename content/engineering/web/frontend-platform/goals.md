@@ -15,7 +15,7 @@ The Sourcegraph web platform has accumulated lots of design debt, since much of 
    - **Outcome:** We have a defined path forward for expanding navigation to include new features without needing to frequently redesign. 
 
 1. Sourcegraph's UI lets users customize themes, colors, and font attributes. 
-   - **Outcome:**  The Sourcegraph UI meets all WCAG accessibility standards. 
+   - **Outcome:**  The Sourcegraph UI meets our [accessibility standards](../../../product/design/design-and-interaction-guidelines.md#accessibility-standards). 
 
 1. Sourcegraph's UI components are clean and intentionally designed.
    - **Outcome:** The Sourcegraph frontend is easy for other teams to develop on top of. 

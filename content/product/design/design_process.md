@@ -133,10 +133,10 @@ While asynchronous communication is a core attribute of remote work, key moments
     - Designs will be announced in Slack and linked in the GitHub issue well before they are complete for review
     - Ensure designs meet the visual design checklist:
     - Ensure spacing is consistent and matches the 8pt grid system
-    - Ensure text, colors and other sytles match existing styles, if possible. 
+    - Ensure text, colors and other styles match existing styles, if possible. 
         - Introduce new text styles only if really necessary.
-        - If adding new styles, ensure that they meet the accessibility standards and add them to the design system 
-    - Review designs for accessability:
+        - If adding new styles, ensure that they meet our [accessibility standards](./design-and-interaction-guidelines.md#accessibility-standards) and add them to the design system.
+    - Review designs for accessibility:
         - Color blind check
         - Contrast check should meet AA standard for small text
     - Schedule and conduct a design presentation meeting if the size of the project requires
