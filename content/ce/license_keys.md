@@ -26,7 +26,7 @@ First, the company's Sourcegraph administrator must create a Sourcegraph.com use
   - `mau` to indicate that the company is on a monthly usage-based billing model.
   - `trial` to show an indicate in Sourcegraph that the company is on a trial.
   - `enterprise` for Enterprise licenses (formerly Enterprise Full), without batch changes
-  - `batch-changes` to add Batch Changes to an Enterprise license
+  - `batch-changes` for Batch Changes (formerly `campaigns`)
   - `team` for the Team plan
   - `starter` for the Enterprise Starter plan, which functions as Team without user limits (a historical plan—only used for existing customers on this plan, not for new customers or trials)
   - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
@@ -51,7 +51,6 @@ Right now, we only use `enterprise`, `team`, and `batch-changes` to indicate pla
      - `private-extension-registry`: Whether publishing extensions to this Sourcegraph instance has been purchased. If not, then extensions must be published to Sourcegraph.com. All instances may use extensions published to Sourcegraph.com.
      - `remote-extensions-allow-disallow`: Whether explicitly specify a list of allowed remote extensions and prevent any other remote extensions from being used has been purchased. It does not apply to locally published extensions.
      - `branding`: Whether custom branding of this Sourcegraph instance has been purchased.
-     - `batch-changes`: Whether Batch Changes on this Sourcegraph instance has been purchased.
      - `monitoring`: Whether monitoring on this Sourcegraph instance has been purchased.
      - `backup-and-restore`: Whether builtin backup and restore on this Sourcegraph instance has been purchased.
   - For now, if no `plan:*` tag is supplied, the license will be treated as legacy enterprise tier which has unlimited access to all features.
