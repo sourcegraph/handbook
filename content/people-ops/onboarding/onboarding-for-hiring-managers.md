@@ -42,7 +42,7 @@ As the company grows, new hires are joining almost every week. The onboarding pr
    - Lattice
    - Process St.
 <p>
-And create a Check in meeting for new hires with PeopleOps after the first month.
+And create a Check in meeting for new hires with PeopleOps after their first month.
    </td>
    <td>PeopleOps
    </td>
