@@ -31,7 +31,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Complete `contains` filter predicate work items (See [#18584](https://github.com/sourcegraph/sourcegraph/issues/18584))
     - Make progress on refactoring query processing (See outline in [RFC 254](https://docs.google.com/document/d/1_m63fsBMAtqaq3GA_aMzKUPxD3yxTy8d12lJE6qN6PU/edit#heading=h.s25eb1cluqod))
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-03-26: Partial RFC 353 progress, partial query refactoring progress.
 
 ### Alerting and observability
 - **Owner(s):** Camden
