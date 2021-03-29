@@ -48,7 +48,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Polish items related to the "Monitor" button on the search results page are addressed
     - Work on checklist for code monitor queries is started
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+    - 2021-03-29: Prototype badge has been removed
 
 ### Exhaustive/Streaming
 - **Owner(s):** Stefan, Keegan
