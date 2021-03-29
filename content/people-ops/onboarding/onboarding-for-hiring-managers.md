@@ -100,13 +100,13 @@ Having this done before day one will make it easier for the new hire and an over
 
 <table>
   <tr>
-   <td>PeopleOps and Hiring Manager will be able to follow the new hire’s progress on Process St. Also, they’ve got certain tasks assigned to them, too.
+   <td>PeopleOps and Hiring Manager will have certain tasks assigned to them on Process St. and they'll be able to follow the new hire’s progress in there, too.
    </td>
    <td>Hiring Manager & PeopleOs
    </td>
   </tr>
   <tr>
-   <td>Checking the checklist before hand, will help keep in mind the content they will find there: the information they will be linked to, the tasks they have to complete and how much of the handbook they’ll cover.
+   <td>Checking the checklist before hand, will help keep in mind the content new hires will find there: the information they will be linked to, the tasks they have to complete and how much of the handbook they’ll cover.
    </td>
    <td>Hiring Manager
    </td>
