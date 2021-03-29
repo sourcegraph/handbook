@@ -23,9 +23,9 @@
 
 - [Kacie Jenkins](../../company/team/index.md#kacie-jenkins-she-her), VP of Marketing
     - [Andy Schumeister](../../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
-        - We will be hiring a Customer Marketing Manager and Product Marketing Managers
+        - We will be hiring Product Marketing Managers
     - [Erica Lindberg](../../company/team/index.md#erica-lindberg-she-her), Director of Content Strategy
-        - We will be hiring a Managing Editor, Social Media Marketing Manager, Producer (video and podcast production), and Content Marketing Manager
+        - We will be hiring a Social Media Marketing Manager, Producer (video and podcast production), and Content Marketing Manager
     - [Lisa Tagliaferri](../../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
         - We will be hiring technical educators
     - [Sarah Reece](https://about.sourcegraph.com/company/team#sarah-reece-she-her), Director of Demand Generation
