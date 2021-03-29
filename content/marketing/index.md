@@ -13,6 +13,7 @@
     - [Creating blog posts](creating_blog_posts.md)
     - [Adding screenshots and screen recordings (GIFs and videos)](adding_screenshots_screen_recording.md)
     - [Website style guide](website_style_guide.md)
+- [Developer Education](education.md)
 - [Marketing operations](marketing_operations.md)
     - [Livestream events](livestream.md)
     - [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
