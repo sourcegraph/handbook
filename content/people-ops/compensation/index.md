@@ -58,7 +58,7 @@ Everyone's compensation is reviewed (and updated if necessary) regularly as part
 
 We believe that opening up offers to negotiations can lead to inequitable and biased compensation in the long-term. We strive to reduce the impact of negotiations on offers and raises as much as possible. Our philosophy to make offers that are fair and generous is designed to ensure candidates feel appropriately valued and aren't forced to negotiate to get to something fair.
 
-However, given many teams and positions are still in the earliest stages of formation, and our [bands](#compensation-bands) have low sample sizes, we do not yet formally disallow negotiations entirely.
+However, given many teams and positions are still in the earliest stages of formation, our [bands](#compensation-bands) have low sample sizes, and we recognize that our input market data and our own tailored bands may be wrong, so candidates are still free to negotiate their offers.
 
 Any negotiations over compensation should focus on the role and level rather than the specific numbers. If a candidate believes they deserve compensation that does not fit our bands, it is likely a disagreement about the role they can fill and the impact they can have.
 
