@@ -17,6 +17,7 @@
 - [Marketing operations](marketing_operations.md)
     - [Livestream events](livestream.md)
     - [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
+    - [Digital ads](ad_conversion_flows.md)
 - [Marketing roles - open positions](roles/index.md)
 
 ## Members
