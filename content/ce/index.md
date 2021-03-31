@@ -53,11 +53,14 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
   - [Emily Chapman](../../company/team/index.md#emily-chapman-she-her)
   - [Jonah Dueck](../../company/team/index.md#jonah-dueck-he-him)
   - [Manuel Ucles](../../company/team/index.md#manuel-ucles)
+  - Aimee Menne (Director of Customer Engineering, US West)
 - Customer Engineers (US East)
   - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
   - [Mike McLaughlin](../../company/team/index.md#mike-mclaughlin-he-him)
   - [Alex Fogg](../../company/team/index.md#alex-fogg-he-him)
-  - T. (Director of Customer Engineering, US East; starting 2021-03-01)
+  - Tia Wucher (Director of Customer Engineering, US East)
+- Customer Engineers (International/Non-US)
+  - C.H. (Director of Customer Engineering, starts 2021-04-19)
 - Customer Support Engineers
   - [Adeola Akinsiku](../../company/team/index.md#adeola-akinsiku)
   - [Warren Gifford](../../company/team/index.md#warren-gifford-he-him)
@@ -72,10 +75,6 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 
 - [Customer Engineer](https://jobs.lever.co/sourcegraph/3ede0606-7a86-45d4-a627-e8cbae7a1a57)
 - Customer Support Engineer - not currently hiring for this role, but you can learn more about it [here](https://about.sourcegraph.com/handbook/ce/support)
-- [Training Engineer](https://jobs.lever.co/sourcegraph/7aae60bb-228f-4e48-89f8-d16646aa4642)
-- [Director of Customer Engineering, US East](https://jobs.lever.co/sourcegraph/cb233f84-da0e-4c1d-8a75-c86e265609b1) (this role is filled)
-- [Director of Customer Engineering, US West](https://jobs.lever.co/sourcegraph/cb233f84-da0e-4c1d-8a75-c86e265609b1)
-- We're also starting to hire for Customer Engineering outside the US, initially somebody located around UTC+0. You would start as a Customer Engineer and then build a team.
 - VP of Customer Engineering (to be posted soon)
 
 ## Meetings
