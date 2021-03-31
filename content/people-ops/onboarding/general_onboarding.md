@@ -11,7 +11,7 @@
 - **[Lattice](https://sourcegraph.latticehq.com/)**: Access our [teammate feedback cycles](../review-cycles/index.md) (takes place every quarter– Noemi will send out details).
 - **[1Password](https://1password.com/)**: Access shared team passwords and store your own passwords.
 - **[Zoom](https://zoom.us/signin):** Set up your Zoom account and [recommended settings](../../communication.md#video-calls). 
-- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your device in our MDM (ask Noemi for your access code).
+- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your device in our MDM (ask Cecily for your access code).
 - It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
 
 
