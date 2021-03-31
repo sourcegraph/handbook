@@ -75,11 +75,9 @@ As explained above, our customers are able to initiate conversations for help vi
 * **Details:** This is a primary collaboration space for us to work with folks across the company and them to work with us.
 
 ### NPS responses
-*Note: This will be outlined very soon*
-
-* **Purpose:**
-* **Those involved:**
-* **Details:**
+* **Purpose:** We have a form embedded in the product to inquire with customers how they feel about the product every so often. 
+* **Those involved:** Product > support
+* **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](https://about.sourcegraph.com/handbook/product/product_management/responding_to_user_feedback#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### support@ email
 * **Purpose:** Official support email address for customers and that anyone internally can copy in if they are emailing with a customer and a support issue/question comes up.
