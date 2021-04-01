@@ -15,6 +15,7 @@ You'll have to get some basics set up in your first few days:
 - Complete the onboarding for your role:
   - [Software engineer onboarding](software-engineer-onboarding.md)
   - [Engineering manager onboarding](engineering-manager-onboarding.md)
+- If you need access to Percy for visual testing, create an account by going to https://percy.io/invite-login and looging in with your GitHub account. Then ask on `#dev-chat` for an email invitation to our Percy org. **Do not create an account on Browserstack as this is not supported for our organization.**
 
 ## Manager checklist
 
@@ -34,4 +35,3 @@ Your manager should complete the following steps when you join:
   - [HoneyComb.io](https://www.honeycomb.io/)
   - Ask Christina to send an invite to [Productboard](https://sourcegraph.productboard.com)
   - Ask a member of the Design team to invite as "Viewer" to [Figma](https://figma.com)
-  - Ask on `dev-chat` for access to [Percy](https://percy.io/) which we use for visual testing.
