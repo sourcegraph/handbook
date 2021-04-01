@@ -63,8 +63,8 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Misc
 
 - **Work log:**
-	- 2021-03-28: Completed linting effort [#19568](https://github.com/sourcegraph/sourcegraph/pull/19568)
-    - 2021-03-29: Added a generic match interface based off my work with Keegan [#19580](https://github.com/sourcegraph/sourcegraph/pull/19580)
+	- 2021-03-28: Camden :: Completed linting effort [#19568](https://github.com/sourcegraph/sourcegraph/pull/19568)
+    - 2021-03-29: Camden :: Added a generic match interface based off my work with Keegan [#19580](https://github.com/sourcegraph/sourcegraph/pull/19580)
 
 ## 2021-03-08 to 2021-03-22
 
