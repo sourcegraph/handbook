@@ -67,9 +67,9 @@ If this needs to get more specific by role, we can make adjustments to questions
 
 ## Before you start at Sourcegraph
 
-Hiring managers can refer to the [Before starting](before_starting.md) page.
+Hiring managers can refer to the [Onboarding process for Hiring Managers](onboarding-for-hiring-managers.md) page.
 
-1. One week prior to your first day, People Ops will send you a welcome email. Be sure to send them your address, ID, shirt size, and photo for your avatar.
+1. One week prior to your first day, People Ops will send you a welcome email. Be sure to send them your address, phone number, shirt size, photo for your avatar, and for US teammates, the requested documentation.
 1. Order [your computer](../spending-company-money.md#computers).
 1. Order the [desk equipment](../spending-company-money.md#desk-set-up) you need to be productive working remotely.
 
