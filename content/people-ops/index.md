@@ -20,7 +20,6 @@
 - [All-remote work](../../company/remote/index.md)
 - [Interview process](hiring/interview_process.md)
 - [Hiring](hiring/index.md)
-- [Before starting](onboarding/before_starting.md)
 - [Onboarding](onboarding/index.md)
 - [Performance review cycles](review-cycles/index.md)
 - [United States visa sponsorship](visa-sponsorship.md)
