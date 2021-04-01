@@ -40,7 +40,9 @@ This document contains the goals and work log for the search team's [2-week iter
   - Implement better metrics to alert on
   - Get first minimal alerts working
 - **Work log:**
-
+  - 2021-03-27: Added a prometheus metric for overall search latency
+  - 2021-03-29: Modified search-blitz to use a yaml config, have named queries, independently scheduled queries, and identify itself with a user-agent string. Additionally, added streaming support and moved it into sourcegraph/sourcegraph.
+  - 2021-04-01: Created a sourcegraph.com-only dashboard for monitoring sentinel queries
 
 ## Code Monitoring
 - **Owner(s):** Juliana
@@ -61,7 +63,8 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Misc
 
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+	- 2021-03-28: Completed linting effort [#19568](https://github.com/sourcegraph/sourcegraph/pull/19568)
+    - 2021-03-29: Added a generic match interface based off my work with Keegan [#19580](https://github.com/sourcegraph/sourcegraph/pull/19580)
 
 ## 2021-03-08 to 2021-03-22
 
