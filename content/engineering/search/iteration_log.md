@@ -52,6 +52,8 @@ This document contains the goals and work log for the search team's [2-week iter
     - Work on checklist for code monitor queries is started
 - **Work log:**
     - 2021-03-29: Prototype badge has been removed
+    - 2021-03-30: Updated UI for the "Monitor" button on search results page
+    - 2021-04-02: Checklist is code complete and in PR
 
 ### Exhaustive/Streaming
 - **Owner(s):** Stefan, Keegan, Juliana
@@ -67,8 +69,8 @@ This document contains the goals and work log for the search team's [2-week iter
 ### Misc
 - **Work log:**
 	- 2021-03-28: Camden :: Completed linting effort [#19568](https://github.com/sourcegraph/sourcegraph/pull/19568)
-    - 2021-03-29: Camden :: Added a generic match interface based off my work with Keegan [#19580](https://github.com/sourcegraph/sourcegraph/pull/19580)
-    - 2021-04-01: Stefan :: Troubleshot a customer incident and investigated traffic spikes that started last Saturday.
+  - 2021-03-29: Camden :: Added a generic match interface based off my work with Keegan [#19580](https://github.com/sourcegraph/sourcegraph/pull/19580)
+  - 2021-04-01: Stefan :: Troubleshot a customer incident and investigated traffic spikes that started last Saturday.
 
 ## 2021-03-08 to 2021-03-22
 
