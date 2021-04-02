@@ -22,6 +22,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Basic UI for displaying and listing search contexts
 - **Work log:**
     - 2021-03-26: API support for converting version contexts is in main (soon on the dogfood instance). Finished the paginated API for search contexts. Started working on minimal UI for displaying and listing search contexts.
+    - 2021-04-02: API support for retrieving a single search context and paginating search contexts is merged. Pending review: basic search context pages (single and list), infinite scrolling for the dropdown, and UI for converting version contexts. When this is merged (early next week), MVP can be considered finished.
 
 ### Search predicate builtins, complete `contains` filter predicate
 
