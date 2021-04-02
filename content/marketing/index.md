@@ -28,6 +28,7 @@
     - [Erica Lindberg](../../company/team/index.md#erica-lindberg-she-her), Director of Content Strategy
         - We will be hiring a Social Media Marketing Manager, Producer (video and podcast production), and Content Marketing Manager
     - [Lisa Tagliaferri](../../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
+        - [Marek Zaluski](https://about.sourcegraph.com/company/team#marek-zaluski), Developer Education Engineer
         - We will be hiring technical educators
     - [Sarah Reece](https://about.sourcegraph.com/company/team#sarah-reece-she-her), Director of Demand Generation
         - Lori Heyman, Digital Marketing Programs
