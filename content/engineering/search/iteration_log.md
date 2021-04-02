@@ -53,18 +53,21 @@ This document contains the goals and work log for the search team's [2-week iter
     - 2021-03-29: Prototype badge has been removed
 
 ### Exhaustive/Streaming
-- **Owner(s):** Stefan, Keegan
+- **Owner(s):** Stefan, Keegan, Juliana
 - **Outcomes:**
     - Sharded streaming on Cloud
     - Fixed highlighting for diff/commit search
 - **Work log:**
-    - 2021-03-26: This week I focussed mainly on improving observability for streaming and exhaustive search. In the course of that I overhauled our logging to Prometheus and Honeycomb. With the improved logging I was able to troubleshoot a recent performance degradation.
+    - 2021-03-26 (Stefan): This week I focussed mainly on improving observability for streaming and exhaustive search. In the course of that I overhauled our logging to Prometheus and Honeycomb. With the improved logging I was able to troubleshoot a recent performance degradation.
+    - 2021-04-01: Sharded streaming was activated for everyone. Activation was smooth without any incidents.
+    - 2021-04-01: Highlighting for diff/commit was fixed with a frontend-only fix. In the long run we should improve things by sending plain text or already highlighted html from the backend to frontend.
+    - 2021-04-01: Paid back technical debt with smaller refactorings (RepoMatch, diff/commit streaming).
 
 ### Misc
-
 - **Work log:**
 	- 2021-03-28: Camden :: Completed linting effort [#19568](https://github.com/sourcegraph/sourcegraph/pull/19568)
     - 2021-03-29: Camden :: Added a generic match interface based off my work with Keegan [#19580](https://github.com/sourcegraph/sourcegraph/pull/19580)
+    - 2021-04-01: Stefan :: Troubleshot a customer incident and investigated traffic spikes that started last Saturday.
 
 ## 2021-03-08 to 2021-03-22
 
