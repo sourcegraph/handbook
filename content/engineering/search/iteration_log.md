@@ -45,7 +45,7 @@ This document contains the goals and work log for the search team's [2-week iter
   - 2021-03-29: Modified search-blitz to use a yaml config, have named queries, independently scheduled queries, and identify itself with a user-agent string. Additionally, added streaming support and moved it into sourcegraph/sourcegraph.
   - 2021-04-01: Created a sourcegraph.com-only dashboard for monitoring sentinel queries
 
-## Code Monitoring
+### Code Monitoring
 - **Owner(s):** Juliana
 - **Outcomes:**
     - Polish items related to the "Monitor" button on the search results page are addressed
