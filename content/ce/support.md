@@ -94,6 +94,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 * [Workflow](support-workflow.md)
 * [Engaging other teams](engaging-other-teams.md)
 * [P0 incident response](p0-Incident-Response.md)
+* [Customer Support Triaging](customer-support-triaging.md)
 
 
 
