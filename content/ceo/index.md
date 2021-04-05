@@ -38,7 +38,7 @@ See "[Roles of the CEO](roles.md)".
 
 ### Scheduling time with me
 
-If possible, let's talk [asynchronously and publicly](../communication.md). If you need to schedule a time to speak with me, the best way is to contact Katerina Nikolova, my Executive Business partner, who can find a good time.
+If possible, let's talk [asynchronously and publicly](../communication.md). If you need to schedule a time to speak with me, the best way is to contact Katerina Nikolova, my Chief of Staff.
 
 My preferred working hours are 08:00-17:30 US Pacific Time.
 
