@@ -33,7 +33,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Make progress on refactoring query processing (See outline in [RFC 254](https://docs.google.com/document/d/1_m63fsBMAtqaq3GA_aMzKUPxD3yxTy8d12lJE6qN6PU/edit#heading=h.s25eb1cluqod))
 - **Work log:**
     - 2021-03-26: Partial RFC 353 progress, partial query refactoring progress.
-    - 2021-04-02: Progress on frontend predicate scanner. Progress on refactoring (testing behavioral equivalence for major changes). Implemented `repo.contains.commit.after` to replace `repoHasCommitAfter`
+    - 2021-04-02: Progress on frontend predicate scanner. Progress on refactoring (testing behavioral equivalence for major changes). Implemented `repo.contains.commit.after` to replace `repoHasCommitAfter`. RFC 353 is incomplete--we had to revisit considerations for predicate syntax around supporting better `repoHasCommitAfter`.
 
 ### Alerting and observability
 - **Owner(s):** Camden
@@ -72,6 +72,7 @@ This document contains the goals and work log for the search team's [2-week iter
 	- 2021-03-28: Camden :: Completed linting effort [#19568](https://github.com/sourcegraph/sourcegraph/pull/19568)
   - 2021-03-29: Camden :: Added a generic match interface based off my work with Keegan [#19580](https://github.com/sourcegraph/sourcegraph/pull/19580)
   - 2021-04-01: Stefan :: Troubleshot a customer incident and investigated traffic spikes that started last Saturday.
+  - 2021-04-02: Rijnard :: Fixed `/search` homepage autofocus regression before it became a feature request. [#19678](https://github.com/sourcegraph/sourcegraph/pull/19678). Added helper functions for transforming frontend queries (stream suggestions).
 
 ## 2021-03-08 to 2021-03-22
 
