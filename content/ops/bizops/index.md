@@ -32,7 +32,7 @@ We use [GitHub issues in the Sourcegraph analytics repository](https://github.co
 
 - Post in the #analytics or #business-ops channels, or mention @business-ops in Slack
 - Tag [@sourcegraph/bizops](https://github.com/orgs/sourcegraph/teams/bizops) in existing [sourcegraph/sourcegraph GitHub issues](https://github.com/sourcegraph/sourcegraph/issues)
-- Create a new issue in the [analytics repository](https://github.com/sourcegraph/analytics/issues)
+- Create a new issue in the [analytics repository](https://github.com/sourcegraph/analytics/issues) and add it to the Business Operations project, so it appears on our [project board](https://github.com/orgs/sourcegraph/projects/63) for triage
 
 For larger projects, please work with the BizOps team to lay out the following information to help us understand and prioritize your request:
 
