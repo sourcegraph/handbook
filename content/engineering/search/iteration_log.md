@@ -33,6 +33,7 @@ This document contains the goals and work log for the search team's [2-week iter
     - Make progress on refactoring query processing (See outline in [RFC 254](https://docs.google.com/document/d/1_m63fsBMAtqaq3GA_aMzKUPxD3yxTy8d12lJE6qN6PU/edit#heading=h.s25eb1cluqod))
 - **Work log:**
     - 2021-03-26: Partial RFC 353 progress, partial query refactoring progress.
+    - 2021-04-02: Progress on frontend predicate scanner. Progress on refactoring (testing behavioral equivalence for major changes). Implemented `repo.contains.commit.after` to replace `repoHasCommitAfter`
 
 ### Alerting and observability
 - **Owner(s):** Camden
