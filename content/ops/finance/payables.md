@@ -4,7 +4,9 @@
 
 Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](../../people-ops/spending-company-money.md)). 
 
-However, if you intend to make a purchase above the limits below, please seek approval from your direct manager or, if necessary, [contact the finance team](index.md#contact)
+Specific categories of purchases that are listed on the [spending company money page](../../people-ops/spending-company-money.md) (e.g. laptops, home office setup, etc.) do not need to follow the approval process below. They are pre-approved and can be [submitted for reimbursement](../../people-ops/expenses.md) directly.
+
+However, if you intend to make any other purchase that falls above the limits below, please seek approval from your direct manager or, if necessary, [contact the finance team](index.md#contact)
 
 |Role|Maximum expense without management approval|Maximum expense without finance approval|
 |---|---|---|
