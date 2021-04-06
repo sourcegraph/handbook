@@ -6,7 +6,7 @@ This document describes how we operationalize written planning through our RFC p
 
 This process is designed to be lightweight so that it can be used for many purposes (e.g. product specs, policy decisions, technical discussion), and it is optimized for facilitating collaboration and feedback. In contrast, GitHub issues are best for tracking concrete bug reports or work that has already been scoped and planned (i.e. there isn't much remaining to discuss).
 
-<i>All public RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa). Some RFCs contain non-public information, and are in a [private Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv)</i>
+<i>All public RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa). Some RFCs contain non-public information, and are in a [private Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv). For examples of public vs. non-public information, see our [transparency chart](https://about.sourcegraph.com/company/values#open-and-transparent).</i> 
 
 ## Status
 
