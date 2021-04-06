@@ -10,7 +10,7 @@ This page records goals completed by the Search team historically. See also our 
 
 ### FY-21-Q4
 
-No completed goals yet.
+Work on [performance](./perf.md).
 
 ### FY-21-Q3
 
