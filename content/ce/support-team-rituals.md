@@ -18,6 +18,7 @@ In order to get some purposeful face-time in with each other, we convene synchro
 * **CS team [planning and retrospective](https://docs.google.com/document/d/1dy5rIY5F4nQoScwH9sTEg7iQd66_oVP5bdWD3MhG2k4/edit#)** where we consider what is going well vs not, discuss, brainstorm, and share important information
 * **Cheers round table** to gather and share something we are thankful for to end the week
 * [**Collaboration time**](https://docs.google.com/document/d/1jiNSDsvCnTn26NvJsPbtxhBJ9WN98HpZ8ymJaf-orXI/edit?usp=sharing) to discuss tickets that we need help with or anything you learned that you're excited about and would like to share with the team
+* **Weekly support donut pairing** is an auto pairing for those in the #customer-support-weekly-pairing channel to get paired together for a social chat.
 
 ## Communication
 In order to maintain healthy communication, we...
