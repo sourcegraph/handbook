@@ -46,6 +46,9 @@ TODO: What does this look like? Describe this in prose using descriptions from t
 
 The roadmap and milestones are tracked in [productboard](https://sourcegraph.productboard.com/roadmap/2213445-search-roadmap)
 
-At a glance roadmap as of 2021-01-12:
+At a glance roadmap as of 2021-04-06:
 
-![2021-01-12](https://sourcegraphstatic.com/handbook/product-roadmaps/2020-01-12-Search%20roadmap.png)
+<div style="overflow-x: auto; width: 100%">
+<!-- Screenshot taken with this browser extension: https://chrome.google.com/webstore/detail/svg-screenshot/nfakpcpmhhilkdpphcjgnokknpbpdllg -->
+<object data="./roadmap.svg" type="image/svg+xml" />
+</div>
