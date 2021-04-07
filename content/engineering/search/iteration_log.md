@@ -12,6 +12,27 @@ This document contains the goals and work log for the search team's [2-week iter
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+## 2021-04-05 to 2021-04-16
+
+### Research highlighting improvements
+
+- **Owner(s):** Rok, Camden
+- **Outcomes:**
+    - Consolidate highlighting in Rust (move HTML re-parsing from `cmd/frontend/internal/highlight/highlight.go` to Rust lib)
+    - Compile Rust lib to WASM and verify basic correctness
+    - Measure speed and memory performance of the compiled lib vs. existing solution
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
+### Enterprise contexts
+
+- **Owner(s):** Rok, Camden
+- **Outcomes:**
+    - Identify all changes needed to incorporate search contexts into code intel
+    - API support for creating search contexts
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2021-03-22 to 2021-04-02
 
 ### Enterprise contexts
