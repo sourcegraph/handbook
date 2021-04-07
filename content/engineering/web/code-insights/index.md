@@ -9,7 +9,7 @@ The code insights team is responsible for building and delivering code insights 
 - [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - V. K. (Frontend Engineer) starting 2021-03-22
+  - [Vova Kulikov](../../../../company/team/index.md#vova-kulikov-hehim) (Frontend Engineer)
   - FQ1 [Backend Engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
   - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend platform team](../frontend-platform/index.md)
 
@@ -118,3 +118,23 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
 2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
 3. When there are only minor issues, reviewers are encouraged to give "approval with comments" and trust their teammates to address the comments without requiring a follow-up review.
+
+### Code Insights front-end
+
+Most specific part of code insights pages that’s charts.
+We use svg and d3 libraries (d3-scales, d3-axis, d3-format) to build code insights charts.
+
+**Learning materials**
+
+- [SVG intro specs *MDN*](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) </br>
+  Simple and short description of most popular aspects of SVG.
+- [Frontend masters D3 workshop *Shirley Wu*](https://frontendmasters.com/courses/d3/) </br>
+  A very interesting workshop from Shirley Wu about SVG and d3 itself. If you prefer reading materials
+  instead this workshop has a detailed description and sandbox on [ObservableHq.com](https://next.observablehq.com/@sxywu/introduction-to-svg-and-d3-js).
+- [React and pure d3 *Amelia Wattenberger blog*](https://wattenberger.com/blog/react-and-d3) </br>
+  The interesting blog post about how to get on react as a rendering library and d3 as a tool for chart math.
+- [Sara Soueidan's blog](https://www.sarasoueidan.com/tags/svg/)  </br>
+  If you want to dive a little more into the peculiarities of SVG spec.
+
+***NOTE**: The order is not important you can read as you like depending on what you are interested in*
+
