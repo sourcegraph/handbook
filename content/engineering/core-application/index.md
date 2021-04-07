@@ -59,10 +59,10 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-- We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+- R.P. ([Product Manager](../../product/roles/index.md#product-manager)) starts 2021-05-03. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
 - [Core application](index.md) {#core-application-eng}
-    - R.L. starts 2020-04-12, Tomás acting manager until then.
+    - R.L. starts 2021-04-12, Tomás acting manager until then.
         - [Joe Chen](../../../company/team/index.md#joe-chen)
         - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
         - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)

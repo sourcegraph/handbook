@@ -1,3 +1,0 @@
-# Director level async writing project
-
-With an all-remote worldwide team, good async written communication is essential. Pretend today is your first day at Sourcegraph. Write a 1-2 page Google Doc that communicates to your manager (Christina) and your team (1) what outcomes you expect to achieve in your first 30/60/90 days and (2) the work process you will follow to achieve those outcomes. Configure the sharing settings on the document so that anyone with the link can comment, and then email the link to christina@sourcegraph.com. We’ll ask any questions we have by directly commenting on the document.
