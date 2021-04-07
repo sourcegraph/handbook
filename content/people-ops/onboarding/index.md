@@ -37,6 +37,7 @@ Surveys are conducted at the 3-month mark to collect feedback from all new teamm
 
 #### Onboarding content
 Survey questions:
+
 - Was there anything that was not provided in your onboarding that you think should have been?
 - Did the onboarding process provide you the tools to carry out your role?
 - Did you have the resources to use them properly?
@@ -44,6 +45,7 @@ Survey questions:
 
 #### Onboarding format and presentation
 Survey questions:
+
 - Was the onboarding platform (Process.st) intuitive and easy to follow?
 - Was the format easy to follow?
 - Was each task and its purpose communicated clearly?
@@ -55,6 +57,7 @@ People Ops sets up individual meetings to collect live feedback and address any 
 Surveys are also conducted at the 3-month mark to collect feedback from hiring managers to measure overall onboarding effectiveness so we can ensure that our onboarding is helping new teammates properly ramp up for their roles in the expected timeframe.
 
 Survey questions:
+
 - Was the teammate able to comply with their assignments (in time)?
 - Were they responsive?
 - Did they participate in team meetings?
