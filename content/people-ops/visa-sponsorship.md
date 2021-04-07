@@ -5,8 +5,4 @@ If a candidate has an existing visa, we will accept a visa transfer from the for
 
 
 ## New visas
-We will agree to sponsor new visas assuming the visa being applied for is compatible with an all-remote work setting and if the candidate is willing to stay on and work from a non-U.S. country if the visa is unable to be obtained.
-
-
-## PERM petitions
-PERM petitions are handled on a case by case basis, but as is the case with new visas, the candidate must be willing to stay on and work from a non-U.S. country if the petition is not approved.
+We will agree to sponsor new visas for teammates that have worked at Sourcegraph a minimum of 12 months prior to initiating a visa petition. Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
