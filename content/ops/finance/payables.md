@@ -11,6 +11,7 @@ However, if you intend to make any other purchase that falls above the limits be
 |Role|Maximum expense without management approval|Maximum expense without finance approval|
 |---|---|---|
 |Department leads (VP-level or above)|$15,000|$20,000|
+|Directors|$5,000|$20,000|
 |Managers|$2,500|$5,000|
 |All team members|$500|$1,000|
 
@@ -23,7 +24,7 @@ Just [contact the finance team](index.md#contact) if you believe you are eligibl
 |Role|Default monthly credit limit|
 |---|---|
 |Department leads (VP-level or above)|$10,000|
-|Managers|$1,000|
+|Managers and Directors|$1,000|
 
 It is not required to provide receipts for purchases on Brex cards, provided it is used for corporate purchases (as opposed to personal purchases that are expensed).  
 If you have a purchase that you’d like to explain/clarify post about it in the `#finance` Slack channel (e.g. if it's some new system for the team) or email `finance@sourcegraph.com` (e.g. if it's a personal reimbursable expense).
