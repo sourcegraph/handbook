@@ -13,7 +13,7 @@ Exceptions:
 - #feedback retains messages indefinitely because it provides a good source of user testimonials.
 - #engaging-external-engineers retains indefinitely because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn't make sense to try to make this more organized.
 - #sales-prospecting retains indefinitely to support the education of new teammates about how to communicate with customers and prospects.
-- #west_sales_news_and_prospecting retains messages indefinitely to serve as a library of start-up accounts that the sales team can target as AE and SDR headcount scales.
+- #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages indefinitely to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
 - #sales-resources retains messages indefinitely to serve as a library of quickly evolving sales collateral and tools.
 - All channels that we share with customers or prospects (typically containing the prefixes #trial- or #support-) retain messages indefinitely to preserve context for support or audit-related purposes.
 
