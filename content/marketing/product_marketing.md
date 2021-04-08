@@ -4,9 +4,9 @@
 
 1. [Team vision and principles](#team-vision-and-principles)
 1. [Open roles](#open-roles)
-1. [FY2022 goals](#fy2022-goals)
 1. [What we do](#what-we-do)
 1. [Working with other teams](#working-with-other-teams)
+1. [Resources]
 
 ## Team vision and principles 
 - We have a collaborative, efficient, and repeatable motion for bringing new features and products to market.
@@ -16,12 +16,8 @@
 - We are advocates for our customers. We launch products and make decisions with our customers in mind.
 
 ## Open roles
-- [Customer Marketing Manager](https://jobs.lever.co/sourcegraph/5769890f-69bd-4ff5-8515-233ce8e3c620) 
 - [Product Marketing Manager, Emerging Products](https://jobs.lever.co/sourcegraph/d7813bec-5ebe-438c-a826-f12a78516c16)
 - Product Marketing Manager, Enterprise (coming soon)
-
-## FY2022 goals
-Coming soon
 
 ## What we do
 Tactically, here are the activities Product Marketing will drive and contribute to. This list is not exhaustive and is flexible - there will certainly be times when other teams drive these initiatives. 
@@ -42,3 +38,8 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 | **Product/Engineering** | Product roadmap planning and prioritization, bringing new products to market, pricing and packaging, naming, conducting primary and secondary research, product copy, collaborating on content (blog posts, webinars, etc.)             |  PMM will be better able to support feature/product launches and influence the product roadmap with early involvement.                                                                                                                                       |
 | **Sales/CE**            |  Messaging and positioning, use cases and value drivers, buyer personas, creating external collateral (pitch decks, one sheeters, case studies), product training, competitive intelligence, synthesizing and sharing customer feedback | PMM primarily focuses on “one:many” communication, whereas Sales/CE primarily focus on “one:one” communication. There may be times that PMM is brought in to support a strategic customer or prospect, but the team is not big enough to support every deal. |
 | **Marketing**           |  Messaging and positioning, buyer personas, content development and review, subject matter expertise, marketing campaigns and programs                                                                                                  | Given that many members of the marketing team are relatively new, we’ll figure this out together as we work on key initiatives that span across the entire marketing org.                                                                                    |
+
+## Resources
+- [Marketing launch tiers](marketing_launch_tiers.md)
+- [Product marketing hierarchy](product_marketing_hierarchy.md)
+- [Batch Changes positioning](batch_changes_positioning.md)
