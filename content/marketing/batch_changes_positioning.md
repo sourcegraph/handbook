@@ -31,7 +31,7 @@ When developers need to make changes across multiple repositories or workspaces:
 
 #### Customer proof points
 
-> Coming soon
+- [Workiva reduces the time it takes to make large-scale code changes by 80%](https://about.sourcegraph.com/case-studies/workiva-automates-large-scale-code-changes)
 
 ## Personas
 
@@ -64,11 +64,10 @@ If the developer does not know, default to:
 
 ## Resources
 
-- Training (internal)
 - [Docs](https://docs.sourcegraph.com/batch_changes)
-- Landing page (coming soon)
+- [Landing page](https://about.sourcegraph.com/batch-changes)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
-- Blog post (coming soon)
+- [Blog post](https://about.sourcegraph.com/blog/introducing-batch-changes/)
 
 ### Interview guides
 
