@@ -6,7 +6,7 @@
 1. [Open roles](#open-roles)
 1. [What we do](#what-we-do)
 1. [Working with other teams](#working-with-other-teams)
-1. [Resources]
+1. [Resources](#resources)
 
 ## Team vision and principles 
 - We have a collaborative, efficient, and repeatable motion for bringing new features and products to market.
