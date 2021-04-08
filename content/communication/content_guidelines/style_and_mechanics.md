@@ -720,9 +720,41 @@ Always title case our name. Don’t abbreviate or add a space to our name.
 
 Only use _we_ and _our_ (as in “our GitHub integration”) in informal documents. In documentation or marketing material, depending on the context, just avoid it, or use “the” or “Sourcegraph”.
 
+### Product names
+
+We capitalize product names. Qualify product names with `Sourcegraph $FEATURE` on first reference. Don't capitalize product names when referencing them generically or in context of taking an action. 
+
+List of product names: 
+
+- Batch Changes
+- Code Insights
+- Code Intelligence
+- Universal Code Search
+
+<div class="usage">
+<div class="item yes">
+<h5>Yes</h5>
+<ul>
+<li>With Sourcegraph Universal Code Search you can...</li>
+<li>Sourcegraph Universal Code Search you can... You can search across all your repositories with Universal Code Search.</li>
+<li>Companies benefit from a universal code search tool because...</li>
+<li>Sourcegraph Batch Changes are... Batch Changes allow you to...</li>
+<li>To create a batch change...</li>
+</ul>
+</div>
+<div class="item no">
+<h5>No</h5>
+<ul>
+<li>Use Sourcegraph universal code search to...</li>
+<li>With code insights you can...</li>
+<li>Here’s how to use code intelligence.</li>
+</ul>
+</div>
+</div>
+
 ### Feature names
 
-Don’t capitalize descriptive product or feature names. Features are not proper nouns. Avoid phrasing that can imply official product names.
+We don't capitalize features or integrations. 
 
 <div class="usage">
 <div class="item yes">
@@ -736,48 +768,47 @@ Don’t capitalize descriptive product or feature names. Features are not proper
 <div class="item no">
 <h5>No</h5>
 <ul>
-<li>Use the Phabricator Integration to... <em>(the capital “I” makes it into a proper noun, which implies it’s a separate product from “Sourcegraph Phabricator integration.”)</em></li>
+<li>Use the Phabricator Integration to... <em>(the capital “I” makes it into a proper noun, which implies it’s a product.”)</em></li>
 <li>Want to use this in your code review tool? Use <a href="#_" aria-disabled="true">Sourcegraph for GitHub</a>. <em>(Implies that “Sourcegraph for GitHub” is an official product name.)</em></li>
 <li>Here’s how to use Code Search.</li>
 </ul>
 </div>
 </div>
 
-Use the natural plural/singular form. If a feature name is a plural noun, treat it as a plural noun.
+Use the natural plural/singular form. If a product or feature name is a plural noun, treat it as a plural noun.
 
 <div class="usage">
 <div class="item yes">
 <h5>Yes</h5>
 <ul>
-<li>Batch changes are available.</li>
+<li>Batch Changes are available.</li>
 </ul>
 </div>
 <div class="item no">
 <h5>No</h5>
 <ul>
-<li>Batch changes is available.</li>
+<li>Batch Changes is available.</li>
 </ul>
 </div>
 </div>
 
-Refer to the natural noun of the product feature directly.
+Refer to the natural noun of the product or feature directly.
 
 <div class="usage">
 <div class="item yes">
 <h5>Yes</h5>
 <ul>
-<li>Batch changes are available.</li>
+<li>Batch Changes are available.</li>
 </ul>
 </div>
 <div class="item no">
 <h5>No</h5>
 <ul>
-<li>The batch changes feature is available.</li>
+<li>The Batch Changes product is available.</li>
 </ul>
 </div>
 </div>
 
-Qualify feature names with `Sourcegraph $FEATURE` (and capitalize the feature name) only on marketing pages and only when needed (never in product documentation, in-product text).
 
 ## Writing about people
 
