@@ -736,7 +736,7 @@ List of product names:
 <h5>Yes</h5>
 <ul>
 <li>With Sourcegraph Universal Code Search you can...</li>
-<li>Sourcegraph Universal Code Search you can... You can search across all your repositories with Universal Code Search.</li>
+<li>You can search across all your repositories with Universal Code Search.</li>
 <li>Companies benefit from a universal code search tool because...</li>
 <li>Sourcegraph Batch Changes are... Batch Changes allow you to...</li>
 <li>To create a batch change...</li>
