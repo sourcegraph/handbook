@@ -8,6 +8,7 @@
     - [Batch Changes positioning](batch_changes_positioning.md)
 - [Product marketing](product_marketing.md)
     - [Marketing launch tiers](marketing_launch_tiers.md)
+    - [Product marketing hierarchy](product_marketing_hierarchy.md)
 - [Content Marketing](content.md)
     - [Editing blog posts](editing_blog_posts.md)
     - [Creating blog posts](creating_blog_posts.md)
