@@ -32,7 +32,7 @@ It also owns a subset of features built on top of Sourcegraph search:
 
 ## Processes
 
-## Planning
+### Planning
 
 We work in two-week iterations.
 
