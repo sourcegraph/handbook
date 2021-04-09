@@ -22,7 +22,7 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 
 ## Iterations
 
-The search team plans its work in **2-week iterations**.
+The search core team plans its work in **2-week iterations**.
 
 The goals and updates for current and past iterations can be found in the [iteration log](./iteration_log.md).
 
@@ -33,11 +33,11 @@ Iterations start **every other Monday**.
 **On the last Friday of an iteration:**
 
 - Teammates add the themes they're planning to work on, and the desired outcomes, to the [iteration log](./iteration_log.md).
-- Teammates add any topics they would like to discuss during the retrospective to the [Search team retrospectives](https://docs.google.com/document/d/1YyPhH-OVrFddLhlerlfrqmnqe633I09wp9D9mSI4Za8/edit) document.
+- Teammates add any topics they would like to discuss during the retrospective to the [Search core team retrospectives](https://docs.google.com/document/d/1bzBJh-zPOw0_lZ-TbMpnAx-do5CoCTL8Z2V74WU-Rew/edit) document.
 
 **On the first Monday of an iteration:**
 
-- The team holds its [retrospective](https://docs.google.com/document/d/1YyPhH-OVrFddLhlerlfrqmnqe633I09wp9D9mSI4Za8/edit) for the previous iteration.
+- The team holds its [retrospective](https://docs.google.com/document/d/1bzBJh-zPOw0_lZ-TbMpnAx-do5CoCTL8Z2V74WU-Rew/edit) for the previous iteration.
 - The team reviews the iteration plan during the team sync, and kicks off the iteration.
 
 **Work log updates:**
