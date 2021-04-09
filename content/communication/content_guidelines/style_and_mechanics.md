@@ -1020,10 +1020,10 @@ Don’t use examples to compensate for poor documentation. Avoid “cutesy” ex
 
 For consistency, all examples should use the following names (as appropriate).
 
-- **People:** Alice, Bob, Carol, David, Elizabeth (alphabetical first names)
-- **Usernames:** `alice`, `bob`
+- **People:** Logan, Morgan, Jordan, Riley (gender-neutral first names)
+- **Usernames:** `logan`, `morgan`, `jordan`, `riley`
 - **Hostnames:** example.com and subdomains of example.com (avoid using real names such as `mycompany.com`)
-- **Email addresses:** alice@example.com, bob@example.com
+- **Email addresses:** logan@example.com, morgan@example.com
 - **URLs:** https://sourcegraph.example.com (assume HTTPS)
 - **Organizations:** ABC Organization (`abc-org`)
 
