@@ -1,6 +1,7 @@
 # Search teams
 
 Two engineering teams at Sourcegraph are focused solely on search:
+
 - [Search core](./core.md)
 - [Search product](./product.md)
 
