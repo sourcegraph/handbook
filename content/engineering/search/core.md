@@ -1,6 +1,7 @@
 # Search core team
 
 The search core team owns all parts of Sourcegraph that map an interpreted search query to a set of results:
+
 - Indexed and unindexed search (Zoekt & Searcher)
 - Diff/commit search
 - Result ranking

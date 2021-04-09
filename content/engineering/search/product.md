@@ -1,6 +1,7 @@
 # Search product team
 
 The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results:
+
   - Search field
   - Search results UI
   - Search contexts
@@ -9,6 +10,7 @@ The search product team owns all parts of Sourcegraph that help users Compose se
   - Repogroup pages
 
 It also owns a subset of features built on top of Sourcegraph search:
+
 - Code monitoring
 - Saved searches
 
