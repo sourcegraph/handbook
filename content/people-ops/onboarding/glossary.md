@@ -3,7 +3,7 @@
 *This guide is made to define and explain many of the terms that are commonplace in conversations at the Sourcegraph office but not necessarily outside of it. The goal of this guide is to break down these terms in a way that your average person can comprehend, at least at very high level. Think of this as an "intro to dev-speak"* :)
 
 ### Binary
-The simplest form of computer code or programming data. It is a series of 1s and 0s that makes up the “language” that computers understand.
+The simplest form of computer code or programming data. It is a series of 1s and 0s that makes up the “language” that computers understand. It's also used to refer to a pre-compiled executable program. Source code is generally compiled into a binary to be executed on an specific operating systems.
 
 ### Code
 The fundamental component of a computer program that is created by a developer. It can be read and understood by a human and then translated into machine language (binary machine code).
@@ -91,6 +91,7 @@ A text-based interface for controlling computers by issuing textual commands. Ba
 ### API (Application Programming Interface)
 An API allows a piece of software to interact with another piece of software.
 
-
 ### Server
-An instance of a computer program that accepts and responds to requests made by another program. There are several different kinds of servers (application server, web server, cloud server, etc.).
+A computer (virtual or physical) that runs services and/or "serves information" to other computers. Its could also refer to an instance of a computer program. There are several different kinds of servers (application server, web server, cloud server, etc.). 
+
+
