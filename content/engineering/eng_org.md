@@ -14,7 +14,8 @@ If you are already at Sourcegraph and see a current or future opportunity that y
 
 - [Beyang Liu](index.md#beyang-liu), CTO
 - [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](../../handbook/engineering/roles.md#vp-engineering)
-	- [Search](../../handbook/engineering/search/index.md)
+	- [Search core](../../handbook/engineering/search/core.md)
+	- [Search product](../../handbook/engineering/search/product.md)
 	- [Code intelligence](../../handbook/engineering/code-intelligence/index.md)
 	- [Batch Changes](../../handbook/engineering/batch-changes/index.md)
     - [Web org](../../handbook/engineering/web/index.md)
