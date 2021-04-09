@@ -22,7 +22,11 @@ TODO
 
 ## Requesting legal support
 
-Reach out to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or Dan directly, for support with any legal matters, including employment-related questions, contracts, etc.
+Reach out to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or Tammy directly, for support with any legal matters, including employment-related questions, contracts, etc.
+
+## Contract Review and Signature Authority Policy
+
+To direct your contracts to the right team or teammate to review, approve, and sign, click [here](../ops/legal/Contract-Review-and-Signature-Authority-Policy.md). 
 
 ## Outside counsel
 
