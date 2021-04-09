@@ -26,4 +26,10 @@ It also owns a subset of features built on top of Sourcegraph search:
     - [Camden Cheek](../../../company/team/index.md#camden-cheek-hehim)
     - FQ2 frontend engineer
 
+## Processes
+
+### Retrospectives
+
+At the end of every iteration, we conduct a retrospective. Our retrospective notes can be found [here](https://docs.google.com/document/d/15F7OXwFTpLIvjPrJtNd0wRY49MtCUO-kMacpcIMlAWU/edit).
+
 
