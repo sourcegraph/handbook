@@ -1,8 +1,8 @@
 # Search teams
 
 Two engineering teams at Sourcegraph are focused solely on search:
-- Search core team
-- Search product team
+- [Search core](./core.md)
+- [Search product](./product)
 
 Together, they own the end-to-end Sourcegraph search experience.
 ## Search goals and priorities
