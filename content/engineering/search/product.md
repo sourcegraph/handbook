@@ -17,7 +17,7 @@ It also owns a subset of features built on top of Sourcegraph search:
 ## Contact
 
 - #search channel or @search-product on Slack.
-- TODO link GitHub team
+- [GitHub team](https://github.com/orgs/sourcegraph/teams/search-product)
 
 ## Team members
 
