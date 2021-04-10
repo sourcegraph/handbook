@@ -26,7 +26,7 @@ Reach out to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or Tammy dir
 
 ## Contract Review and Signature Authority Policy
 
-To direct your contracts to the right team or teammate to review, approve, and sign, click [here](../ops/legal/Contract-Review-and-Signature-Authority-Policy.md). 
+To direct your contracts to the right team or teammate to review, approve, and sign, click [here](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy). 
 
 ## Outside counsel
 
