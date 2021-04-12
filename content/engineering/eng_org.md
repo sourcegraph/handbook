@@ -37,8 +37,8 @@ Plans can change given new information!
 - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering)
     - Global code graph {#global-code-graph}
         - FQ2 [Director of Engineering](https://jobs.lever.co/sourcegraph/92a29215-e44f-4f2e-b147-73a8cb756d09), Nick acting manager until then.
-        - [Team: Search core backend](search/index.md#search-core-backend-eng)
-        - [Team: Search product](search/index.md#search-product-eng)
+        - [Search core](search/core.md)
+        - [Search](search/product.md)
         - [Code intelligence](code-intelligence/index.md)
             - [Team: Code intelligence](code-intelligence/index.md#code-intelligence-eng)
         - [Batch Changes](batch-changes/index.md)
