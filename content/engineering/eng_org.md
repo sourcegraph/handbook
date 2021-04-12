@@ -38,7 +38,7 @@ Plans can change given new information!
     - Global code graph {#global-code-graph}
         - FQ2 [Director of Engineering](https://jobs.lever.co/sourcegraph/92a29215-e44f-4f2e-b147-73a8cb756d09), Nick acting manager until then.
         - [Search core](search/core.md)
-        - [Search](search/product.md)
+        - [Search product](search/product.md)
         - [Code intelligence](code-intelligence/index.md)
             - [Team: Code intelligence](code-intelligence/index.md#code-intelligence-eng)
         - [Batch Changes](batch-changes/index.md)
