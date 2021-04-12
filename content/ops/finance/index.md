@@ -24,9 +24,22 @@ See our [careers page](../../../../company/careers.md) for open roles on the Fin
 
 Outreach and questions for the finance team can be asked in the #finance Slack channel, by reaching out to the finance@sourcegraph.com email, or to the finance team members listed above directly.
 
-## Goals
+## Objectives
 
-TODO
+- Provide timely and accurate financial information
+- Present information in a format that allows for sound decision making
+- Ensure that our Boards expectations are aligned with all teams operational objectives
+- Liaise with all other teams to become trusted business partners
+- Safeguard the assets of the Company
+
+## Goals for FY2022
+
+- Introduce a financial forecasting and close process that allows for timely and accurate reporting
+- Introduce financial reporting tools / software that will support long term value to our financial reporting process
+- Continuously monitor and evaluate our financial reporting metrics to understand key trends, and determine if new metrics need to be introduced as the company grows
+- Become a trusted business partner to all non Finance team members at Sourcegraph
+- Ensure that we build strong relationships with our customers and add efficiencies to our billings and collection process
+- Support other operational objectives within the Company
 
 ## Reporting
 
