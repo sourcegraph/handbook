@@ -128,7 +128,7 @@ While Sourcegraph does have built-in monitoring that is well-defined and works g
 
 Today much of our internal infrastructure is managed directly instead of through GitOps / Terraform. It is common to require manual changes or interaction with the cluster to perform ops duties. We want to move to a world where all Sourcegraph internal infrastructure (CI pipelines, Sourcegraph.com, etc.) is managed by Git Ops, and all changes have review using a Git workflow.
 
-- Owner: Gonza, Dax, Dave, Stephen
+- Owner: Dax, Dave, Stephen
 
 #### All site admins should have alerting set up to be notified when Sourcegraph is unhealthy
 

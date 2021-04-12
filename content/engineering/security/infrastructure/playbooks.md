@@ -45,7 +45,7 @@ This is done via terraform from `gcp/projects` in the [Sourcegraph infrastructur
    2. The name of the object should be the same as the `name` field.
    3. `billing_account` should always be set to `"default"`.
    4. `services` is a list of non-default APIs required by the project.
-2. At this point, you will very likely be blocked on IAM Permissions. If you're not, then... Hi Chayim or Gonza, hope you're well today!
+2. At this point, you will very likely be blocked on IAM Permissions. If you're not, then... Hi Bill Creager, hope you're well today!
 3. To verify that your change is correct, run `terraform plan` from `gcp/projects` in our infrastructure repository.
 4. If the change is purely additive, you're free to apply it by running `terraform apply` and entering `yes` at the prompt. If anything is updated or deleted, check with the project owner to see what's out of sync, and whether it's ok to still apply the change.
 5. Assuming `terraform apply` succeeds, update the [security infrastructure](./index.md) page and the [environments](../../environments.md#sourcegraph-security) page of the handbook to reflect the new project.

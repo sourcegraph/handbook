@@ -12,7 +12,7 @@ Creating a new managed instance involves following the steps below.
     - Select **Edit** (pencil) on the service account we just created
     - **Add key** > **Create new key** > **JSON** > **Create**
 1. Upload the service account key and create admin credentials in 1password:
-    - Open the 1password [Managed instances vault](https://my.1password.com/vaults/l35e5xtcfsk5suuj4vfj76hqpy/allitems) (ask @stephen, @gonza, or @beyang to grant you access)
+    - Open the 1password [Managed instances vault](https://my.1password.com/vaults/l35e5xtcfsk5suuj4vfj76hqpy/allitems) (ask @stephen, @bill, or @beyang to grant you access)
     - **Add** > **Document** > enter **$COMPANY service account** as the title > Upload the service account JSON  file previously downloaded > **Save**
     - **Add** > **Password** > enter **$COMPANY sourcegraph-admin** as the title > Change **length** to 40 and turn on symbols and digits >> **Save**
 1. In GCP, enable the **Compute Engine API**:

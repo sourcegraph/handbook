@@ -48,7 +48,7 @@ See [Goals](goals.md)
 ## Members
 
 - We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. The engineering team is owning PM responsibilities in the meantime.
-- [Gonzalo Peci](../../../company/team/index.md#gonzalo-peci-hehim) ([Engineering Manager](../roles.md#engineering-manager)) {#distribution-eng}
+- FQ2 [Engineering Manager](../roles.md#engineering-manager) hire {#distribution-eng}
   - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../../company/team/index.md#dave-try)
   - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
