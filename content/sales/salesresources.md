@@ -48,4 +48,4 @@ Note: Salesforce is the communication and document source of truth for our Sales
 
 ## Sales Content
 
-Other useful sales content can be found in the [Sales Content folder](https://drive.google.com/drive/folders/14guSNICPX5bHxUxXIeb1web6MN8z7FA4)
+Other useful sales content (including survey results, more sales and analyst decks, a one-pager, and more) can be found in the [Sales Content folder](https://drive.google.com/drive/folders/14guSNICPX5bHxUxXIeb1web6MN8z7FA4)
