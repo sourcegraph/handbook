@@ -14,6 +14,7 @@ We are hiring for the finance & accounting team! See all [open positions](../../
 
 - [Dan Adler](../../../../company/team/index.md#dan-adler-he-him), VP Operations
 - [Tommy O Donnell](https://about.sourcegraph.com/company/team#tommy-o-donnell-he-him), Manager, Financial Planning & Analysis
+- [Kendrick Morris](../../../../company/team/index.md#kendrick-morris-he-him), Finance & Operations Analyst
 
 ### Roles
 
