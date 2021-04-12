@@ -18,9 +18,11 @@ This document contains the goals and work log for the search core team's [2-week
 
 - **Owner(s):** Ryan
 - **Outcomes:**
-    - TODO
+    - Search results are ordered by a global importance metric.
 - **Work log:**
-    - TODO
+    - 2021-04-09: RFC 359 released & reviewed
+    - Implement Github popularity ranking for open source search. 
+      - 2021-04-09: modified repoupdater and zoekt indexservers to compute the popularity of each repo and store it as part of each shard’s metadata.
 
 ### Exhaustive Search
 
