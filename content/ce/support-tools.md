@@ -66,6 +66,11 @@ There are also views for suspended (spam) and deleted tickets. We occasionally c
 ### Ticket data fields
 When you close a ticket, these are the required fields you must populate:
 
+* **Did I update customer data?** Designates whether you gathered important technical details about the customer and took the time to help out Distribution team and followed the steps outlined [here](https://about.sourcegraph.com/handbook/ops/bizops/customer_environment_questions) as noted in step 10 of our [workflow](https://about.sourcegraph.com/handbook/ce/support-workflow). *We will likely eventually remove this field.*
+* **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to our OKRs to improve our docs. *Note: temporarily for 2021-04 and 2021-05, it's okay to link to an Asana task you created to do the update instead of a PR update as we all get used to doing docs updates, continue to onboard.*
+* **Is this ticket a good example for dev ed?** Designates whether the details of the ticket are good to share with our dev ed team on a monthly or quarterly cadence. *We will likely eventually remove this field.*
+* **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion. 
+* **Did I go above and beyond what we support?** Designates whether we needed to go above and beyond what we want to support. This will help us understand how often this happens and usually looks like having to educate the customer on something we would want them to know already about their own infrastructure. *We will likely eventually remove this field.*
 * **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 * **Official type:** Designates whether this is a question, defect report, or help request
 * **Official priority:** Designates whether the priority is p0, p1, or p2 per our definitions outlined in our [prioritization guidelines](https://about.sourcegraph.com/handbook/ce/support-prioritization). 
