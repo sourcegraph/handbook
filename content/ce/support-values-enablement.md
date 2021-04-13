@@ -48,7 +48,7 @@ The purpose of this session is to reinforce the reading, allow for group discuss
 
 Agenda for session 2:	
 
-* (10 minutes) Transition into safe place of cohort round robin: Something from the last week that brought you job
+* (10 minutes) Transition into safe place of cohort round robin: Something from the last week that brought you joy
 * (15 minutes) Framing round robin: Share one way you feel what you read in Part 1 of Fuller’s book relates to our values/culture/purpose
 * (15 minutes) Sharing round robin 1: What do you feel you gained from Part 1 reading and worksheets?
 * (30 minutes) Sharing round robin 2: What questions came up for you during the reading/worksheets that are still open and you’d like to discuss?
@@ -69,7 +69,7 @@ The purpose of this session is to reinforce the reading, allow for group discuss
 
 Agenda for session 3
 
-* (10 minutes) Transition into safe place of cohort round robin: Something from the last week that brought you job
+* (10 minutes) Transition into safe place of cohort round robin: Something from the last week that brought you joy
 * (15 minutes) Framing round robin: Share one way you feel what you read in Part 2 of Fuller’s book relates to our values/culture/purpose
 * (15 minutes) Sharing round robin 1: What do you feel you gained from Part 2 reading and worksheets?
 * (30 minutes) Sharing round robin 2: What questions came up for you during the reading/worksheets that are still open and you’d like to discuss?
@@ -90,7 +90,7 @@ The purpose of this session is to reinforce the reading, allow for group discuss
 
 Agenda for session 4
 
-* (10 minutes) Transition into safe place of cohort round robin: Something from the last week that brought you job
+* (10 minutes) Transition into safe place of cohort round robin: Something from the last week that brought you joy
 * (15 minutes) Framing round robin: Share one way you feel what you read in Part 3 of Fuller’s book relates to our values/culture/purpose
 * (15 minutes) Sharing round robin 1: What do you feel you gained from Part 3 reading and worksheets?
 * (30 minutes) Sharing round robin 2: What questions came up for you during the reading/worksheets that are still open and you’d like to discuss?
@@ -111,7 +111,7 @@ The purpose of this session is to reinforce the reading, allow for group discuss
 
 Agenda for session 5
 
-* (10 minutes) Transition into safe place of cohort round robin: Something from the last week that brought you job
+* (10 minutes) Transition into safe place of cohort round robin: Something from the last week that brought you joy
 * (15 minutes) Framing round robin: Share one way you feel what you read in Part 4 of Fuller’s book relates to our values/culture/purpose
 * (15 minutes) Sharing round robin 1: What do you feel you gained from Part 4 reading and worksheets?
 * (25 minutes) Sharing round robin 2: Share what you wrote for the Conclusion worksheet on page 255
