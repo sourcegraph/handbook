@@ -4,7 +4,18 @@ Effective and last modified April 9, 2021
 
 The purpose of this Policy is to help you direct your contracts to the right team or teammate to review, approve, and sign. 
 
-This Policy covers day-to-day contracts only. If you are not sure where to direct a contract for review, approval, or signature, you can reach out to Legal. 
+This Policy covers the following topics:
+
+1. [NDAs](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy#ndas-for-customers-vendors-partners)
+1. [Customer Contracts](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy#customer-contracts-master-agreements-order-forms-sows)
+1. [Vendor Contracts](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services)
+1. [Partner Contracts](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy#partner-contracts-for-product-integrations-joint-marketing-and-other-partnerships-with-third-parties)
+1. [How to submit requests for review](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy#how-to-submit-requests-for-review)
+1. [Changes and Delegation Authority](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy#changes-and-delegation-authority)
+
+If you are not sure where to direct a contract for review, approval, or signature, you can reach out to Legal. 
+
+
 
 
 ## NDAs (for customers, vendors, partners)
@@ -205,7 +216,7 @@ Finance:
 
 ## Changes and Delegation Authority 
 
-Changes to the signing authorities above require written approval by the CEO. Changes to the CEO’s signing require board approval. 
+Changes to the signing authorities above require written approval by the CEO. 
 
 Exception: for vendor and partner contracts, authorized signers may delegate such authority to teammates in manager-level roles or above, in writing with a copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com). 
 
