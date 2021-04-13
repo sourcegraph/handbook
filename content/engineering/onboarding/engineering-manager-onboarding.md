@@ -17,7 +17,7 @@ These timings are approximate, and you are welcome to reorder these outcomes bas
 - You are able to describe the career aspirations of each teammate, where they are struggling, and where they are thriving.
 - Your manager, your peer managers, and your teammates report that they are happy and relieved to have you on the team because you have already had a positive impact.
 - You understand who your stakeholders are and have met with them to understand their priorities.
-- You have read either [Turn the Ship Around or Orbiting the Giant Hairball](../leadership/index.md#book-recommendations) and shared your thoughts with your peer managers during a team sync.
+- You have read either [Turn the Ship Around or Orbiting the Giant Hairball](../engineering-management/index.md#book-recommendations) and shared your thoughts with your peer managers during a team sync.
 
 ## Month 2
 
@@ -28,7 +28,7 @@ These timings are approximate, and you are welcome to reorder these outcomes bas
   - You have confidence that our hiring process is calibrated to measure what we are looking for in an efficient and unbiased way (if not, you have proposed improvements).
   - You conduct the hiring manager screen calls for candidates who would be joining your team.
     - You can pitch Sourcegraph as a whole, the part of the product your team works on, and the team itself.
-- You have read both [Turn the Ship Around and Orbiting the Giant Hairball](../leadership/index.md#book-recommendations) and shared your thoughts with your peer managers during a team sync.
+- You have read both [Turn the Ship Around and Orbiting the Giant Hairball](../engineering-management/index.md#book-recommendations) and shared your thoughts with your peer managers during a team sync.
 
 ## Give feedback on your onboarding
 

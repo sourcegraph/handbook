@@ -52,7 +52,7 @@ Remember:
    - Sourcegraph user docs
    - Team sync docs - review recent meeting notes for context
    - Current [tracking issue(s)](../../engineering/tracking_issues.md)
-   - Join the Engineering Manager weekly updates [Google Group](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status) ([handbook description](../../engineering/leadership.md#weekly-updates)).
+   - Join the Engineering Manager weekly updates [Google Group](https://groups.google.com/a/sourcegraph.com/g/engineering-leadership-status) ([handbook description](../../engineering/engineering-management.md#status-updates)).
 
 ### Set up the basics
 

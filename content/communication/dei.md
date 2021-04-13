@@ -28,7 +28,7 @@ Currently, we are focusing on inclusion to ensure that as we grow, Sourcegraph r
             *   Tell me about your experience working with a diverse team.
             *   How have you acted as an ally?
 *   Building relationships with code schools and organizations focused on helping folks in underserved communities break into tech to help increase diversity in our candidate pipelines (as a first step toward later developing an apprenticeship program)
-*   Launch standard of every employee reads and completes the exercises in Pamela Fuller’s book *The Leader’s Guide to Unconscious Bias* receives hard conversations training
+*   Launch standard of every employee reads and completes the exercises in Pamela Fuller’s book *The Leader’s Guide to Unconscious Bias* receives hard conversations training {#unconscious-bias}
     *   Review book with leadership team to confirm this is the text we want to use
     *   All execs read and complete book/exercises + training
     *   Starting next cohort(s) (rest of leadership team) of 5-7 folks each

@@ -12,20 +12,21 @@ If you are already at Sourcegraph and see a current or future opportunity that y
 
 ## Current organization
 
-- [Beyang Liu](index.md#beyang-liu), CTO
-- [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](../../handbook/engineering/roles.md#vp-engineering)
-	- [Search core](../../handbook/engineering/search/core.md)
-	- [Search product](../../handbook/engineering/search/product.md)
-	- [Code intelligence](../../handbook/engineering/code-intelligence/index.md)
-	- [Batch Changes](../../handbook/engineering/batch-changes/index.md)
+- [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](../../handbook/engineering/roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
+    - Global code graph
+        - [Search core](../../handbook/engineering/search/core.md)
+        - [Search product](../../handbook/engineering/search/product.md)
+        - [Code intelligence](../../handbook/engineering/code-intelligence/index.md)
+        - [Batch Changes](../../handbook/engineering/batch-changes/index.md)
     - [Web org](../../handbook/engineering/web/index.md)
         - [Frontend platform](../../handbook/engineering/web/frontend-platform/index.md)
         - [Extensibility](../../handbook/engineering/web/extensibility/index.md)
-		- [Code insights](../../handbook/engineering/web/code-insights/index.md)
+        - [Code insights](../../handbook/engineering/web/code-insights/index.md)
         - [API docs](../../handbook/engineering/web/api-docs/index.md)
-	- [Security](../../handbook/engineering/security/index.md)
-	- [Distribution](../../handbook/engineering/distribution/index.md)
-	- [Core application](../../handbook/engineering/core-application/index.md)
+    - Platform and infrastructure
+        - [Security](../../handbook/engineering/security/index.md)
+        - [Distribution](../../handbook/engineering/distribution/index.md)
+        - [Core application](../../handbook/engineering/core-application/index.md)
 
 ## Planned organization
 
@@ -33,10 +34,9 @@ This is the current plan for our engineering organization and growth.
 
 Plans can change given new information!
 
-- [Beyang Liu](../../../company/team/index.md#beyang-liu), CTO
-- [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering)
+- [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
     - Global code graph {#global-code-graph}
-        - FQ2 [Director of Engineering](https://jobs.lever.co/sourcegraph/92a29215-e44f-4f2e-b147-73a8cb756d09), Nick acting manager until then.
+        - FQ2 [Director of Engineering](https://jobs.lever.co/sourcegraph/92a29215-e44f-4f2e-b147-73a8cb756d09). Nick acting director until then.
         - [Search core](search/core.md)
         - [Search product](search/product.md)
         - [Code intelligence](code-intelligence/index.md)
@@ -60,6 +60,8 @@ Plans can change given new information!
         - [Distribution](distribution/index.md)
             - [Team: Distribution](distribution/index.md#distribution-eng)
         - [Team: Core application](core-application/index.md#core-application-eng)
+
+[VP Eng team docs](vpe/index.md).
 
 <script>
 // This script injects the org chart content into each section of this page that links to a team page.

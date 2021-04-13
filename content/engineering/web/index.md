@@ -80,7 +80,7 @@ All teammates are expected to be part of this channel, and should read the updat
 
 ### Status updates
 
-Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../leadership/index.md#status-updates) by the Monday following the team's retrospective.
+Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../engineering-management.md#status-updates) by the Monday following the team's retrospective.
 
 ### Health reports
 

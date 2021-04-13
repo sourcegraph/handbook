@@ -1,34 +1,14 @@
-# Engineering leadership team
+# Engineering management
 
-This page documents the engineering leadership team.
+This page documents resources that are relevant and valuable to anyone on the engineering team, but in particular to engineering leaders.
 
-## Members
-
-- [Beyang Liu](../../../company/team/index.md#beyang-liu), CTO
-- [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](../roles.md#vp-engineering)
-  - [Tomás Senart](../../../company/team/index.md#tomás-senart), [Engineering Manager](../roles.md#engineering-manager), [Core application](../core-application/index.md)
-  - [Loïc Guychard](../../../company/team/index.md#loïc-guychard), [Engineering Manager](../roles.md#engineering-manager), [Search](../search/index.md)
-  - [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris), [Engineering Manager](../roles.md#engineering-manager), [Batch Changes](../batch-changes/index.md)
-  - [Owen Convey](../../../company/team/index.md#owen-convey-he-him), [Engineering Manager](../roles.md#engineering-manager), [Code Intelligence](../code-intelligence/index.md)
-  - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him), [Director of Engineering](../roles.md#engineering-manager), [Web org](../web/index.md)
-    - [Felix Becker](../../../company/team/index.md#felix-becker), [Engineering Manager](../roles.md#engineering-manager), [Code insights](../web/code-insights/index.md)
-    - [Patrick Dubroy](../../../company/team/index.md#patric-dubroy-he-him), [Engineering Manager](../roles.md#engineering-manager), [Frontend platform](../web/frontend-platform/index.md)
-
-## Communication
-
-### Slack
+## Slack
 
 - #eng-manager-team is a public channel where engineering managers can discuss work as a [first team](https://lethain.com/first-team/).
 - #leadership-chat is a public channel (not specific to engineering) where anyone can discuss and share information of general interest to leadership at Sourcegraph.
+- #manager-team is a private channel where managers across functions can solicit advice from and share info with fellow managers about topics that they do not feel comfortable discussing in #leadership-chat for any reason.
 
-### Meetings
-
-We have a 1hr sync every Monday at 9:30am PT.
-
-- This meeting is recorded and automatically posted to #eng-manager-team.
-- Our [meeting notes](https://docs.google.com/document/d/1nZTGua3cdMTJLwANlBZNX2uXiDXLuYDBkH9tehwdqTY/edit#) are also internally available to the whole team.
-
-### Status updates
+## Status updates
 
 The goal of status updates is to communicate each team's progress toward their OKRs and roadmap items.
 
@@ -60,10 +40,17 @@ We're experimenting with showing short (<1m) demo videos (max 1 per week) during
 
 ## Book recommendations
 
-Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../../people-ops/travel.md#professional-development-and-education) and read them!
+Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../people-ops/travel.md#professional-development-and-education) and read them!
 
 - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
 - [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) - An entertaining self-account of Gordon MacKenzie's experience fostering creativity on his team at Hallmark Cards. Buy the hard copy. There are lots of fun illustrations and short stories. It is a quick read and probably unlike any other book you have read.
 - [Radical Candor](https://www.radicalcandor.com/the-book/) - How to be a great leader by caring personally and challenging directly.
 - [An Elegant Puzzle](https://lethain.com/elegant-puzzle/) - A field manual on how to do engineering management. Reads like a well structured markdown file.
 - [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756) - A model of how to think about what makes a highly effective team paired with a fictional story that illustrates the model.
+- A few members of the engineering management team will be reading [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) and doing some [facilitated small group discussions](../ce/support-values-enablement.md#part-2-deep-dive-on-be-welcoming-and-inclusive). This is like a small scale beta test of [one step of our plan to invest in diversity, equity, and inclusion this year](../communication/dei.md#unconscious-bias). The tentative plan for the first cohort (can be adjusted based on availability of the actual people in the first cohort) would be:
+  - Kickoff email week of May 17
+  - Session 1 week of May 24
+  - Session 2 week of June 7
+  - Session 3 week of June 21
+  - Session 4 week of July 5
+  - Session 5 week of July 19

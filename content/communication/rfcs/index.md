@@ -26,7 +26,7 @@ A prose description of the status appears in the [metadata](#RFC-structure) of a
 
 Each RFC is assigned a unique sequential number that appears in the title (e.g. "RFC 27: Standardizing RFCs"). This makes it easier to quickly reference specific RFCs in informal conversation (e.g. Slack, GitHub issues) and easier for readers to quickly find that document in a shared location (e.g. Google Drive). The sequential numbers also provide valuable information about the order in which RFCs were created.
 
-When you are referring to an RFC with a group of people who might not be familiar with the contents of the RFC (e.g., a [weekly update](../../engineering/leadership/index.md#weekly-updates)), be descriptive of what the RFC does (if you have done a good job choosing a title for the RFC, then this is the title) instead of merely using the RFC number.
+When you are referring to an RFC with a group of people who might not be familiar with the contents of the RFC (e.g., a [weekly update](../../engineering/engineering-management.md#status-updates)), be descriptive of what the RFC does (if you have done a good job choosing a title for the RFC, then this is the title) instead of merely using the RFC number.
 
 _"We finished standardizing the RFC process ([RFC 27](https://docs.google.com/document/d/1ym5c8G5JcrFf5s0QXJqQKBcZRziVAZZsxWdcUJ7Ukfw/edit))"_ is better than saying/writing _"RFC 27 is done"_.
 
