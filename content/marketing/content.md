@@ -16,12 +16,15 @@ At Sourcegraph, we define **content marketing** as generating awareness, buildin
 
 ## Purpose, mission, and vision
 
-Our purpose, mission, and vision explain why we create, who we create it for, and what we strive to achieve. 
+Our purpose, mission, and vision explain why we create, who we create it for, and what we strive to achieve.
 
-| ----------- | ----------- |
-| Purpose      | Inspire and advocate for better developer experiences. |
-| Mission  | Educate the market on the risks of poor developer experiences (ex: Big Code) and the benefits of effective development environments (ex: universal code search).  |
-| Vision  | Become the most trusted branded resource covering the developer experience.  |
+**Purpose:** Inspire and advocate for better developer experiences.
+
+**Mission:** Educate the market on the risks of poor developer experiences (ex: Big Code) and the benefits of effective development environments (ex: universal code search).
+
+**Vision:** Become the most trusted branded resource
+covering the developer experience.
+
 
 ## Content principles
 
