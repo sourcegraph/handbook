@@ -85,7 +85,7 @@ We work alongside just about every team. Here is how we add value to each other 
 
 Letting customers talk to us where they prefer and streamlining our workflow must also be balanced with other elements of the customer experience. Handoffs cause frustration more than any other aspect of trying to get help. How we work accounts for this. It also accounts for continually positioning our CEs as trusted and reliable partners who need time to think about customers proactively.
 
-We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. As a general rule, this should always be a very small list.
+We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
 * [Team README](support-bios.md)
 * [Team schedule](support-schedule.md)
@@ -94,7 +94,8 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 * [Workflow](support-workflow.md)
 * [Engaging other teams](engaging-other-teams.md)
 * [P0 incident response](p0-Incident-Response.md)
-* [Customer Support Triaging](customer-support-triaging.md)
+* [Triaging](customer-support-triaging.md)
+* [Enablement](support-enablement.md)
 
 
 
