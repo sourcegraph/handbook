@@ -9,8 +9,8 @@ This document will describe the current design and interaction models and descri
 ## Two design styles
 Sourcegraph utilizes two design and interaction styles which are tailored to the content they display:
 
-Search - An IDE like, full screen, high density, low contrast ui (for elements other than code) which centers on the display of code
-Web application - a more traditional web application style with larger margins and padding, increased contrast and standard web page design experience requirements
+- **Search** - An IDE like, full screen, high density, low contrast ui (for elements other than code) which centers on the display of code.
+- **Web application** - a more traditional web application style with larger margins and padding, increased contrast and standard web page design experience requirements.
 
 ## Code pages design
 
