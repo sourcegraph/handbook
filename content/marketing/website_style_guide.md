@@ -7,7 +7,7 @@ Sourcegraph uses the following styles on <a href="https://about.sourcegraph.com"
 
 ## Logos and icons
 
-- [Download all logo formats](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Logos%20(official).zip)
+- [Download all logo formats](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Logos_official.zip)
 - [Material design icons](https://materialdesignicons.com/)
 
 <img class="mark" src="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-logo.svg" alt="Sourgraph logo">
