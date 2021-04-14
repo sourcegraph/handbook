@@ -45,19 +45,19 @@ Sourcegraph logomark
 <div class="square blue">
 </div>
 #0fb6f2<br />
-R15 G182 B242
+R15 G182 B242<br />
 PMS 801c
 
 <div class="square purple">
 </div>
 #b114f7<br />
-R177 G20 B247
+R177 G20 B247<br />
 PMS 2592c
 
 <div class="square orange">
 </div>
 #f86012<br />
-R248 G96 B18
+R248 G96 B18<br />
 PMS 1655c
 
 ## Buttons
