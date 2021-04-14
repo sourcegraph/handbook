@@ -7,7 +7,7 @@ Sourcegraph uses the following styles on <a href="https://about.sourcegraph.com"
 
 ## Logos and icons
 
-- [All logo formats](https://drive.google.com/drive/folders/1lvSh9Q1aFsewAZ-_0tYIIH_nsKPPY0SR)
+- [Download all logo formats](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Logos%20(official).zip)
 - [Material design icons](https://materialdesignicons.com/)
 
 <img class="mark" src="https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/sourcegraph-logo.svg" alt="Sourgraph logo">
@@ -46,16 +46,19 @@ Sourcegraph logomark
 </div>
 #0fb6f2<br />
 R15 G182 B242
+PMS 801c
 
 <div class="square purple">
 </div>
 #b114f7<br />
 R177 G20 B247
+PMS 2592c
 
 <div class="square orange">
 </div>
 #f86012<br />
 R248 G96 B18
+PMS 1655c
 
 ## Buttons
 
