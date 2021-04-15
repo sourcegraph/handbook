@@ -11,3 +11,5 @@ See our [careers page](../../../company/careers.md#engineering) for open positio
 [Private interview documentation](https://github.com/sourcegraph/interviews/tree/master/engineering/software-engineer).
 
 [Software engineer pairing exercise](software-engineer-pairing-exercise.md).
+
+[Frontend Engineer (Extensibility) Interview](./frontend-engineer-extensibility.md)
