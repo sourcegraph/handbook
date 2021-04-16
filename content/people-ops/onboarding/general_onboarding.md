@@ -5,7 +5,7 @@
 ## Account setup
 
 - **[Google Workspace/Gmail](https://www.google.com/gmail/)**: Access all Google Workspace apps in our org (Gmail, Google Docs, Google Sheets, Google Calendar).
-- **[Lever](https://www.lever.co/):** Access our recruiting tool for tracking candidates in the hiring pipeline.
+- **[Greenhouse](https://www.greenhouse.io/):** Access our recruiting tool for tracking candidates in the hiring pipeline.
 - **[Slack](https://slack.com/)**: Access our team communication tool.
 - **[GitHub](https://github.com/sourcegraph/)**: Access our code and our handbook.
 - **[Lattice](https://sourcegraph.latticehq.com/)**: Access our [teammate feedback cycles](../review-cycles/index.md) (takes place every quarter– Noemi will send out details).
