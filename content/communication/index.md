@@ -166,10 +166,11 @@ To sign-up, use this [Google Sheet](https://docs.google.com/spreadsheets/d/1HLVF
 
 ![image](https://user-images.githubusercontent.com/3173176/79911585-73112e80-83d5-11ea-85b3-929c20de72d6.png)
 
-2. Make the first line your name in bold
-3. Make the second line your title
-4. Choose **Insert image** and then **Web Address (URL)** and enter https://storage.googleapis.com/sourcegraph-assets/sourcegraph-logo.png then choose **Medium** size after it has been entered.
+2. Make the first line e.g. **Tommy Pesavento** (he/him)
+3. Make the second line your role, include any additional information you like on subsequent lines (socials, etc.)
+4. Choose **Insert image** and then **Web Address (URL)** and enter https://user-images.githubusercontent.com/3173176/115082082-2d892380-9eba-11eb-9606-6c4b9c4eb465.png then choose **Medium** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like this, and clicking the Sourcegraph logo should bring you to sourcegraph.com:
+7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://about.sourcegraph.com/company/careers
 
-<img height="300px" src="https://user-images.githubusercontent.com/3173176/79911829-e450e180-83d5-11ea-9b9b-9c1cc1056740.png"></img>
+<img width="464" alt="image" src="https://user-images.githubusercontent.com/3173176/115082263-7a6cfa00-9eba-11eb-93ba-61b72de8b30b.png">
