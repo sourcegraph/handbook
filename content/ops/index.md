@@ -7,13 +7,13 @@
 
 ## Mission
 
-The operations team is responsible for ensuring that Sourcegraph always runs intelligently, efficiently, responsibly, and ethically as we grow. 
+The operations team is responsible for ensuring that Sourcegraph always runs intelligently, efficiently, responsibly, and ethically as we grow.
 
 ## Teams
 
 [**Full list of operations teams and members**](../../company/team/org_chart.md#operations)
 
-The operations team represents multiple functional areas, and empowers every other part of the business. We are hiring across a number of these teams! See all open roles on our [careers page](../../company/careers.md).
+The operations team represents multiple functional areas, and empowers every other part of the business. We are hiring across a number of these teams! See all open roles on our [careers page](https://boards.greenhouse.io/sourcegraph91).
 
 - [People Ops](../people-ops/index.md)
 - [Business Operations & Strategy](bizops/index.md)
@@ -23,7 +23,7 @@ The operations team represents multiple functional areas, and empowers every oth
 
 ### Roles
 
-See our [careers page](../../company/careers.md) for open roles on the operations team.
+See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the operations team.
 
 ## Goals
 

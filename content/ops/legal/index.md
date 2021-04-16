@@ -1,10 +1,10 @@
 # Legal
 
-The legal team is responsible for helping every team at Sourcegraph to be responsible while moving quickly. The legal team supports Sourcegraph's sales efforts by helping with contract templates and negotiations, people ops team with hiring and contracting documents, finance team with fundraising and partnership agreements, and more. 
+The legal team is responsible for helping every team at Sourcegraph to be responsible while moving quickly. The legal team supports Sourcegraph's sales efforts by helping with contract templates and negotiations, people ops team with hiring and contracting documents, finance team with fundraising and partnership agreements, and more.
 
 ## Team
 
-We are hiring for the legal team! See all [open positions](../../../../company/careers.md).
+We are hiring for the legal team! See all [open positions](https://boards.greenhouse.io/sourcegraph91).
 
 Until the team grows, [Dan](../../../../company/team/index.md#dan-adler-he-him) and our [outside counsel](#outside-counsel) will provide legal support.
 
@@ -14,7 +14,7 @@ Until the team grows, [Dan](../../../../company/team/index.md#dan-adler-he-him) 
 
 ### Roles
 
-See our [careers page](../../../../company/careers.md) for open roles on the Legal team.
+See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the Legal team.
 
 ## Goals
 
@@ -26,7 +26,7 @@ Reach out to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or Tammy dir
 
 ## Contract Review and Signature Authority Policy
 
-To direct your contracts to the right team or teammate to review, approve, and sign, click [here](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy). 
+To direct your contracts to the right team or teammate to review, approve, and sign, click [here](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy).
 
 ## Outside counsel
 
@@ -34,7 +34,7 @@ We work with external law firms as needed.
 
 ### Corporate
 
-We work with [Orrick, Herrington, & Sutcliffe](https://www.orrick.com/) (Orrick) for general corporate matters. 
+We work with [Orrick, Herrington, & Sutcliffe](https://www.orrick.com/) (Orrick) for general corporate matters.
 
 #### Contacts
 

@@ -4,4 +4,4 @@
 - [Senior Manager, Marketing Operations](https://jobs.lever.co/sourcegraph/d6250f88-1580-4655-95cc-aa67c0ec8c08)
 - [Product Marketing Manager, Emerging Products](https://jobs.lever.co/sourcegraph/d7813bec-5ebe-438c-a826-f12a78516c16)
 
-See our [careers page](../../../company/careers.md) for open positions and more info.
+See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open positions and more info.

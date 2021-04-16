@@ -8,7 +8,7 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 ## Team
 
-We are hiring for the finance & accounting team! See all [open positions](../../../../company/careers.md).
+We are hiring for the finance & accounting team! See all [open positions](https://boards.greenhouse.io/sourcegraph91).
 
 ### Members
 
@@ -18,7 +18,7 @@ We are hiring for the finance & accounting team! See all [open positions](../../
 
 ### Roles
 
-See our [careers page](../../../../company/careers.md) for open roles on the Finance team.
+See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the Finance team.
 
 ## Contact
 
@@ -97,6 +97,6 @@ A booking is when a customer commits to pay us money. This includes when:
 
 ## Accounting
 
-We work with an outsourced accounting firm named [Officengine](https://officengine.com/). They close the books monthly and produce our financial statements, and provide support in processing payables, preparing taxes, filing corporate registrations, and more. 
+We work with an outsourced accounting firm named [Officengine](https://officengine.com/). They close the books monthly and produce our financial statements, and provide support in processing payables, preparing taxes, filing corporate registrations, and more.
 
 Reach out to the [Finance team](#team) for an introduction if needed.

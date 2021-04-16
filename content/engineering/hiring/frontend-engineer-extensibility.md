@@ -1,10 +1,10 @@
 # Frontend Engineer interview process for [Extensibility team](../web/extensibility/index.md)
 
-1. You [apply](../../../company/careers.md#engineering).
+1. You [apply](https://boards.greenhouse.io/sourcegraph91).
 1. [30 min] Recruiter screen
 1. [45 min] [HM intro call](./hm_intro_call.md) with [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him): We chat with you about Sourcegraph and to find out what you are looking for in your next role.
 1. [Up to 4 hrs] [Take-home coding project](./software-engineer-coding-exercise.md): We will ask a general software problem. No framework or specific language knowledge is required. The solution will be blackbox tested but we will also review the code.
-1. [2 hrs] Technical interviews: 
+1. [2 hrs] Technical interviews:
    - [1 hr] You will meet with [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him) and [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him) who will give you feedback from our review and ask any follow-up questions
    - [15m] Break
    - [45 min] Murat and TJ will ask you a system design question to collect signals of solving real large-scale problems.
@@ -15,4 +15,4 @@
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
-Go back to the [careers page](../../../company/careers.md) for all open positions.
+Go back to the [careers page](https://boards.greenhouse.io/sourcegraph91) for all open positions.

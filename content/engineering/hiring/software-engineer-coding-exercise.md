@@ -106,4 +106,4 @@ Even if it is obvious that the coding exercise is a formality for you (e.g., may
 
 Many of our teammates have made significant coding open-source contributions and they had no problems completing our coding exercise.
 
-Go back to the [careers page](../../../company/careers.md) for all open positions.
+Go back to the [careers page](https://boards.greenhouse.io/sourcegraph91) for all open positions.

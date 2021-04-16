@@ -44,7 +44,7 @@
 
 ## Roles
 
-See our [careers page](../../company/careers.md) for open roles on the People Ops team.
+See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the People Ops team.
 
 ## DEI
 
