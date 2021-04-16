@@ -24,6 +24,8 @@ The page will outline responsibilities by role (Hiring Manager, Scheduling Coord
 
 ## Recruiting tools
 
+We use Greenhouse as our applicant tracking system. Please see this [guide to using Greenhouse.](guide_to_using_greenhouse.md) (in progress)
+
 We utilize LinkedIn Recruiter and TopFunnel as our sourcing platforms.
 
 Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](https://about.sourcegraph.com/handbook/people-ops/hiring/linkedin).
