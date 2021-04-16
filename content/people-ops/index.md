@@ -18,8 +18,8 @@
 ## Teammate experience
 
 - [All-remote work](../../company/remote/index.md)
-- [Interview process](hiring/interview_process.md)
-- [Hiring](hiring/index.md)
+- [Interview process](../talent/hiring/interview_process.md)
+- [Hiring](../talent/hiring/index.md)
 - [Onboarding](onboarding/index.md)
 - [Performance review cycles](review-cycles/index.md)
 - [United States visa sponsorship](visa-sponsorship.md)

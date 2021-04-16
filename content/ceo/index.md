@@ -92,4 +92,4 @@ I am happy to share internal financial metrics about the health of our business 
 1. What is the company's current revenue growth rate? What are the future plans for growth?
 1. What are the company's exit plans? We intend to remain an independent company and IPO because we are the leader in a big market.
 
-See "[Sharing company financials](../people-ops/hiring.md#sharing-company-financials)" for more.
+See "[Sharing company financials](../talent/hiring/index.md#sharing-company-financials)" for more.

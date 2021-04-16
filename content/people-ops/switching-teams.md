@@ -30,7 +30,7 @@ This process is not fixed. If you believe pursuing any steps in a different orde
 
 ## Requirements for the new manager
 
-Team switches require a [job description](hiring/job_description_guidelines.md) to be drafted for the new role and confirmed by all parties to ensure alignment. The new manager should create this document.
+Team switches require a [job description](../talent/hiring/job_description_guidelines.md) to be drafted for the new role and confirmed by all parties to ensure alignment. The new manager should create this document.
 
 New managers are strongly encouraged to run an internal interview process. Some parts of our standard interview process may not be needed (for example, the new manager already know whether the teammate would be an effective collaborator). But new managers should still test the teammate's ability to do the new job. So any role-specific projects and interviews should take place.
 
