@@ -5,7 +5,7 @@ Greenhouse is a collaborative tool designed to be used by everyone in the compan
 
 **How to log in:**
 1. Check your email for an invitation to Greenhouse!
-2. Navigate to greenhouse.io and select Sign In (you can also click this link).
+2. Navigate to greenhouse.io and select Sign In (you can also click [this link](https://app.greenhouse.io/users/sign_in)).
 3. Enter the email and password from your invitation.
 
 **Integrations Needed:** 
