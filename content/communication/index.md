@@ -159,3 +159,17 @@ Presentations can use one of two formats:
 - Presentation: Maximum 15 minutes long
 
 To sign-up, use this [Google Sheet](https://docs.google.com/spreadsheets/d/1HLVFH9JUxchPNH4FoIQAThorbpdvmTl0ndmZzmpjsuU/edit?usp=sharing). The talk will be added to the Google Calendar invitation which will be sent to everyone.
+
+## Getting nice email signatures
+
+1. In Gmail **Settings** > **General** scroll down to signature:
+
+![image](https://user-images.githubusercontent.com/3173176/79911585-73112e80-83d5-11ea-85b3-929c20de72d6.png)
+
+2. Make the first line your name in bold
+3. Make the second line your title
+4. Choose **Insert image** and then **Web Address (URL)** and enter https://storage.googleapis.com/sourcegraph-assets/sourcegraph-logo.png then choose **Medium** size after it has been entered.
+5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
+6. Your signature should now look something like this, and clicking the Sourcegraph logo should bring you to sourcegraph.com:
+
+<img height="300px" src="https://user-images.githubusercontent.com/3173176/79911829-e450e180-83d5-11ea-9b9b-9c1cc1056740.png"></img>
