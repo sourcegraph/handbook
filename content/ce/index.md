@@ -11,7 +11,11 @@ We work with many other teams at Sourcegraph, including:
 - with the [Product team](../product/index.md) and [Engineering team](../engineering/index.md) on product feedback and requirements (by aggregating and relaying what users tell us, and by helping team members get in touch with or solicit feedback from the right users).
 
 ### What is the difference between a Customer Engineer and Customer Support Engineer?
-CSEs are the go-to technical team for our CEs, helping customers both pre- and post-sales, and allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues. We can think of CE and CSE as work best friends, working closely together every day. Where Sales is focused on the commercial relationship, CE is focused on product success/usage/adoption. If the CE is stuck, doesn’t know the answer, that is the exact right time to bring in a CSE and let support do the heads-down troubleshooting work.
+CSEs are the go-to technical team for our CEs, helping customers both pre- and post-sales, by taking on the reactive technical troubleshooting work when customers experience issues. We think of CE and CSE as work best friends, working closely together every day. Where Sales is focused on the commercial relationship, CE is focused on more strategically and proactively on product success/usage/adoption. If the CE is stuck, doesn’t know the answer, that is the exact right time to bring in a CSE and let support do the heads-down troubleshooting work.
+
+The CSE team are experts on troubleshooting customer-reported issues and debugging problems with configurations, deployments, upgrades, integrations, authentication, and more.
+
+The CE team are experts on educating customers on how to use the product (use cases and best practices) and raising feature requests to Engineering and Product on behalf of customers.
 
 ---
 
@@ -79,10 +83,11 @@ CSEs are the go-to technical team for our CEs, helping customers both pre- and p
 
 ## Meetings
 
-* CE team and account strategy meeting (weekly on Tuesdays): Open team discussion about any topics, plus time for any team member to present specific situations occurring in their accounts and get advice from the rest of the team.
-* Demo workshop (weekly on Fridays): A weekly super chill, no-pressure, no-stress place where you can show off your new demo ideas and get helpful demo feedback/tips from team members.
-* CE team hangout (weekly on Fridays): An open forum to ask questions, collaborate, and chat as a team.
-* Product backlog review (weekly on Fridays): Discuss product feedback and requirements with the Product and Sales teams. To join, find it on a team member's calendar and add yourself.
+* CE team meeting (bi-weekly on Fridays): Open team discussion about any topics, plus time for any team member to present specific situations occurring in their accounts and get advice from the rest of the team.
+* Demo workshop (bi-weekly on Fridays): A weekly super chill, no-pressure, no-stress place where you can show off your new demo ideas and get helpful demo feedback/tips from team members.
+* CE team hangout (monthly on Thursdays): An open forum to ask questions, collaborate, and chat as a team.
+* Product backlog review (weekly on Fridays): Review of the product roadmap with stakeholders from CE/Sales/Marketing.
+* Product & CE Requests & Feedback Themes (bi-weekly on Wednesdays): Feedback treads and requests between CE and Product.
 * Support team meetings are described in [team rituals](support-team-rituals.md)
 
 ## Pre-sales and post-sales
