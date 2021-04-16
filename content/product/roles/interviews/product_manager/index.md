@@ -8,7 +8,7 @@
    - Two of the product managers on the team
 1. [1 hr] **Working with customers and data**: The biz ops and customer engineering teams talk with you about how you work with customers to gather feedback. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/customers-and-data.md)
 1. [1 hr] **Design and Engineering collaboration**: The design and engineering teams talk with you about how you collaborate and work within a team. [Internal interviewer documentation](https://github.com/sourcegraph/interviews/blob/master/product/product-manager/design-engineering-collaboration.md)
-  - The engineering manager for the team this person is most likely to work with. See [engineering managers](../../../../engineering/eng_org.md) and note from HM on candidate's Lever profile.
+  - The engineering manager for the team this person is most likely to work with. See [engineering managers](../../../../engineering/eng_org.md) and note from HM on candidate's Greenhouse profile.
   - Plus one of the product designers on the team
 1. [45 min] **[HM screen](../hm_intro_call.md)** with [Christina Forney](../../../../../company/team/index.md#christina-forney-she-her), VP Product
 1. [30 min] [Beyang Liu](../../../../../company/team/index.md#beyang-liu) (CTO)
