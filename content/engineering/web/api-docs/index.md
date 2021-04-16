@@ -11,7 +11,7 @@ This workstream focuses on providing API docs for code repositories that are inf
 
 - [Jean du Plessis](../../../../company/team/index.md#jean-du-plessis-he-him) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#api-docs-eng}
   - [Stephen Gutekanst](../../../../company/team/index.md#stephen-gutekanst)
-  - FQ3/FQ4 backend engineer
+  - FQ4 backend engineer
 
 ## Contact
 
@@ -23,7 +23,7 @@ This workstream focuses on providing API docs for code repositories that are inf
 
 ## Growth plan
 
-Depending on the success of this initiative against it's goals we plan to consider hiring another backend engineer in FQ3 or FQ4.
+Depending on the success of this initiative against it's goals we plan to consider hiring another backend engineer in FQ4.
 
 ## Processes
 
