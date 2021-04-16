@@ -16,7 +16,7 @@ The People Ops team’s goal is to maintain the following capacity ratios for fu
 - Leadership roles: 1 person in recruiting can be expected to hire 1–2 people per month
 
 ### Ramp up time for new recruiters
-60-80 days. In Q3, Lever says our average speed to get a person from the beginning of the process to hired (start date) is 62 days.
+60-80 days. Our average speed to get a person from the beginning of the process to hired (start date) is 62 days.
 
 ### Estimated timeline to first hire:
 - Weeks 1-2 onboarding and meeting hiring managers
@@ -57,8 +57,8 @@ The People Ops team’s goal is to maintain the following capacity ratios for fu
 |Define hiring process for role (application questions, interviews, rubrics, interviewers). |Hiring manager|
 |Approve job description|Hiring manager|
 |Approve hiring process|Recruiting|
-|Add job description to handbook and Lever|Recruiting|
-|Publish job description to online job boards|Hiring manager to make these recommendations, recruiting to execute.|Default is it will only be added to Lever, LinkedIn, RemoteWoman|
+|Recruiting will post the job to our [careers page](https://boards.greenhouse.io/sourcegraph91). |Recruiting|
+|Publish job description to online job boards|Hiring manager to make these recommendations, recruiting to execute.|Default is it will only be added to Greenhouse, LinkedIn Recruiter, RemoteWoman|
 
 ### Scheduling interviews
 
@@ -103,7 +103,7 @@ The People Ops team’s goal is to maintain the following capacity ratios for fu
 | Step | Owner | Notes |
 | :--| :-- | :-- |
 |Deciding on initial offer structure|Hiring manager|
-|Offer approval by hiring manager and head of department|Recruiting|An offer approval chain can be done in Lever as a systematic way to make sure both the hiring manager and the head of the|department approves of the compensation numbers. 
+|Offer approval by hiring manager and head of department|Recruiting|An offer approval chain will be created in Greenhouse.  Approvers include: VP Talent, Hiring Manager, VP Operations, CEO.|
 |Email sent to candidate to set up offer call|Hiring manager|
 |Drafting offer letter and scheduling email to send to candidate|Recruiting|
 |Offer call with candidate|Hiring manager and recruiting|Do not leave the offer call without scheduling a check-in within 3 business days.|
