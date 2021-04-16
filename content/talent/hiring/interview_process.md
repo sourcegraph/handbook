@@ -40,11 +40,11 @@ Even if candidates prefer to batch all their interviews together, it might not b
 
 If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save ourselves and the candidate time.
 
-Select the "interviews" calendar for the "add to calendar" option in Lever when scheduling interviews so that it shows on our shared Google Interviews calendar. 
+To schedule and interview with a candidate, please reach out to Recruiting.  You can also learn more about how to schedule in Greenhouse [here](https://support.greenhouse.io/hc/en-us/sections/360001178052). 
 
 ## Writing feedback
 
-Please put your written feedback into Lever as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. To reduce bias and herding, please refrain from discussing your impressions with anyone else on the interview panel until everyone has submitted their written feedback.
+Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind.
 
 Your feedback should contain two parts:
 
@@ -70,7 +70,7 @@ All positive feedback with no strongly positive feedback is usually not sufficie
 
 We conduct debriefs after a candidate finishes interviews. The debrief should be scheduled in advance and added to the calendar at the same time we invite the candidate to interviews. The recruiting coordinator will export all feedback as a PDF and share with each of the interviewers prior to the debrief.
 
-Should the hiring manager decide to not utilize the debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate's Lever profile stating the reason and/or context for the decision. This provides a sense of closure for those who interviewed the candidate.
+Should the hiring manager decide to not utilize the debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate’s Greenhouse profile stating the reason and/or context for the decision.
 
 ### Canceling
 
@@ -78,7 +78,7 @@ Once interviews are over, the hiring manager may choose to cancel a debrief if t
 
 ### Format
 
-The debrief calendar invite will include a link to a Google Doc that contains all the feedback (due to a limitation in Lever permissions). Everyone should pre-read all of the feedback before the debrief begins. The hiring manager drives the debrief discussion by asking specific questions that they prepared in advance (e.g, "I see you flagged a concern about X. Did reading feedback from other interviewers address your concern?").
+The debrief calendar invite will include a link to a Google Doc that contains all the feedback. Everyone should pre-read all of the feedback before the debrief begins. The hiring manager drives the debrief discussion by asking specific questions that they prepared in advance (e.g, "I see you flagged a concern about X. Did reading feedback from other interviewers address your concern?").
 
 ### Outcome
 
