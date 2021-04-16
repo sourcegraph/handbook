@@ -24,7 +24,7 @@ The page will outline responsibilities by role (Hiring Manager, Scheduling Coord
 
 ## Recruiting tools
 
-We utilize LinkedIn and TopFunnel as our sourcing platforms.
+We utilize LinkedIn Recruiter and TopFunnel as our sourcing platforms.
 
 Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](https://about.sourcegraph.com/handbook/people-ops/hiring/linkedin).
 
@@ -45,7 +45,7 @@ Folder for agency tracker and to store contracts here: https://drive.google.com/
 
 ## Open positions
 
-The source-of-truth for our open positions is [our careers page](../../../company/careers.md) in the handbook.
+The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91) 
 
 For job boards that we post to and are considering, [click here](job_boards.md)
 
@@ -75,7 +75,7 @@ We review each candidate at each stage of our hiring pipeline (e.g. application,
 
 ## Making a referral
 
-Current employees can refer a candidate [here](https://hire.lever.co/referrals/new)
+Current employees can refer a candidate in Greenhouse [here](https://tracking.cirrusinsight.com/5ae92f4c-b2ab-4851-852d-32a879d5bc4b/player-vimeo-com-video-163888438)
 
 Having your referral complete the application provides helpful context when considering their profile, but is not required.
 
