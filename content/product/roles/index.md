@@ -4,7 +4,7 @@ This page lists the roles on the product team.
 
 - Open product roles are listed on the [company careers page](../../../company/careers.md).
 - [Interview processes documentation](./interviews/index.md) has detailed steps for each role.
-- Because I am paranoid about losing data in Lever, I have a Google Doc for each role with the full job description. These should be used for feedback from our team, and provide a backup data source. These docs are intentionally internal (please see the careers page linked above for open roles!). The docs are all located in this [Google Drive folder](https://drive.google.com/drive/folders/1a4yzjbqICYXMI7OLmDEDSK0BZD7EMydx?usp=sharing).
+- I have a Google Doc for each role with the full job description as backup in case of data loss from our applicant tracking system. These should be used for feedback from our team, and provide a backup data source. These docs are intentionally internal (please see the careers page linked above for open roles!). The docs are all located in this [Google Drive folder](https://drive.google.com/drive/folders/1a4yzjbqICYXMI7OLmDEDSK0BZD7EMydx?usp=sharing).
 
 ## Product Manager
 
