@@ -21,7 +21,7 @@ This document contains the goals and work log for the search core team's [2-week
     - Search results are ordered by a global importance metric.
 - **Work log:**
     - 2021-04-09: RFC 359 released & reviewed
-    - Implement Github popularity ranking for open source search. 
+    - Implement Github popularity ranking for open source search.
       - 2021-04-09: modified repoupdater and zoekt indexservers to compute the popularity of each repo and store it as part of each shard’s metadata.
 
 ### Exhaustive Search
@@ -31,10 +31,11 @@ This document contains the goals and work log for the search core team's [2-week
     - Ready for external use.
 - **Work log:**
     - 2021-04-09: Descoped to remove result count work. Zoekt scheduler landed and tested. `count:all` landed. Next week we will do polish work, testing and documentation for exhaustive search.
+    - 2021-04-16: Lots of testing and polish work. Documentation also shipped. I regard this as ready for external use. May need some time to respond to internal testing next week.
 
 ### Customer Support
 
 - **Rotation:**
-  - 2021-04-12: Keegan
+  - 2021-04-12: Stefan
 - **Work log:**
   - 2021-04-06: Fixed major regression in 3.26.1 where partial result sets for large repos are returned. Release a new patch release. [#19733](https://github.com/sourcegraph/sourcegraph/issues/19733)
