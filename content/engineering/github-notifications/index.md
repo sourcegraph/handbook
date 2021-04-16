@@ -52,3 +52,11 @@ You may want to have Slack notify you in real-time when someone comments on your
 
 3. Navigate to [https://github.com/settings/reminders/sourcegraph](https://github.com/settings/reminders/sourcegraph)
 ![Real-time Notifications](real-time.png)
+
+#### Slack DM when mentioned on Github
+
+Zapier can integrate Github & Slack to send you a Direct Message when you are @mentioned on Github
+
+https://zapier.com/shared/9936678fd62d27141a02ab5482f2492003f508d5 
+
+
