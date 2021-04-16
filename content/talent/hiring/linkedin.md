@@ -34,4 +34,4 @@ Before a project is set up and you are added to a project, there won't be any ac
 
 After the hiring manager and recruiter work together on setting up the search criteria, LinkedIn will surface batches of candidates that meet that criteria for the hiring manager to review. The hiring manager and recruiter will set up an outreach strategy for profiles we want to engage. This will likely be the recruiter finding the candidate's email if possible for the hiring manager to outreach, or the recruiter sending an InMail to set up an intro call with the hiring manager. 
 
-Only candidates we decide to engage will be added into Lever. 
+Only candidates we decide to engage will be added into Greenhouse.
