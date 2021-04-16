@@ -15,17 +15,17 @@ Greenhouse is a collaborative tool designed to be used by everyone in the compan
 - Calendly (Recruiting only)
 - Google Calendar (Recruiting only)
 
-** How to use Greenhouse as a Hiring Manager:** 
+**How to use Greenhouse as a Hiring Manager:** 
 - Once you fill out this form, Recruiting will open your job in Greenhouse and will get your job description posted to the careers page. 
 - To view your jobs, click “All Jobs” at the top of your navigation bar.
 - To make an offer, please Slack Recruiting and they will enter the offer for approvals in Greenhouse.
 - You can use a @ mention to tag Recruiting.  Read more here. 
 
-** How to use Greenhouse as a Interviewer:** 
+**How to use Greenhouse as a Interviewer:** 
 - How to use your interview kit and provide feedback
 - How to add a referral (article; video)
 
-** How to use Greenhouse as a Recruiter:** 
+**How to use Greenhouse as a Recruiter:** 
 - How to open a job
 - How to configure interview kits
 - How to add a candidate (video; article) 
@@ -33,7 +33,7 @@ Greenhouse is a collaborative tool designed to be used by everyone in the compan
 - How to search candidates using boolean queries 
 - How to create an offer
 
-** How to use Greenhouse as a Recruiting Coordinator / Scheduler:** 
+**How to use Greenhouse as a Recruiting Coordinator / Scheduler:** 
 - Scheduling and calendars general info
 - Schedule an interview
 - Reschedule/cancel an interview
