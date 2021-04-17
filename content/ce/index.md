@@ -2,7 +2,7 @@
 
 On the Customer Engineering team, we help developers use Sourcegraph to solve their organization's Big Code problems.
 
-- [**Customer Engineers**](https://jobs.lever.co/sourcegraph/3ede0606-7a86-45d4-a627-e8cbae7a1a57) help our developer users and champions get more value from using Sourcegraph in more and better ways.
+- [**Customer Engineers**](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004) help our developer users and champions get more value from using Sourcegraph in more and better ways.
 - [**Customer Support Engineers**](https://about.sourcegraph.com/handbook/ce/support) solve technical problems from all organizations about deployment, configuration, integration, authentication, scaling, troubleshooting, and more. <!-- Example: A Customer Support Engineer might help a customer get perfect cross-repository code intelligence set up for all of their code so they have joyful and more effective code reviews. -->
 
 We work with many other teams at Sourcegraph, including:
