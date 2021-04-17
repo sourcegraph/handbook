@@ -8,7 +8,7 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 
 ## Team members
 
-- We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+- We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
 - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) ([Product Designer](../../product/roles/index.md#product-designer))
 - FQ3 [Engineering Manager](../roles.md#engineering-manager), [Loïc Guychard](../../../company/team/index.md#loïc-guychard) acting manager until then.
     - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
