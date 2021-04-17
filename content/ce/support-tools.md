@@ -10,7 +10,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 * Google calendar is for your calendar, as well as shared calendars (like the CS team calendar).
 * Gsuite is for drafts, slide decks, and spreadsheets.
 * Lattice is to facilitate our for our twice yearly [review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles).
-* Lever is for hiring.
+* Greenhouse is for hiring.
 * Grammarly and Hemingwayapp help us say what we intend.
 * Otter.ai makes it easier for everyone to follow along during Zoom calls.
 
