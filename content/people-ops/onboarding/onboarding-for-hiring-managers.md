@@ -38,7 +38,7 @@ As the company grows, new hires are joining almost every week. The onboarding pr
 <li> Slack
 <li> Zoom
 <li> 1password
-<li> Lever
+<li> Greenhouse
 <li> Lattice
 <li> Process St.
    </ul>
