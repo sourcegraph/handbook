@@ -47,12 +47,12 @@ See [Goals](goals.md)
 
 ## Members
 
-- We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)) for this role. The engineering team is owning PM responsibilities in the meantime.
+- We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013258004)) for this role. The engineering team is owning PM responsibilities in the meantime.
 - FQ2 [Engineering Manager](../roles.md#engineering-manager) hire {#distribution-eng}
   - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../../company/team/index.md#dave-try)
   - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
-  - FQ1 [distribution engineer](https://jobs.lever.co/sourcegraph/ddef3b91-ce19-4b22-8db4-65e159d7ff2b)
+  - FQ1 [distribution engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4003908004)
   - FQ2 [Robert Lin](../../../company/team/index.md#robert-lin) (early July)
   - FQ3 hire
 
