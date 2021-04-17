@@ -36,7 +36,7 @@ Plans can change given new information!
 
 - [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
     - Global code graph {#global-code-graph}
-        - FQ2 [Director of Engineering](https://jobs.lever.co/sourcegraph/92a29215-e44f-4f2e-b147-73a8cb756d09). Nick acting director until then.
+        - FQ2 [Director of Engineering](https://boards.greenhouse.io/sourcegraph91/jobs/4005231004). Nick acting director until then.
         - [Search core](search/core.md)
         - [Search product](search/product.md)
         - [Code intelligence](code-intelligence/index.md)
