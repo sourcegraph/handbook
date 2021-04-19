@@ -1,6 +1,6 @@
 # Product Manager interview process
 
-1. You [apply](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296/apply).
+1. Candidate applies.
 1. [30 min] **[Initial screen](../initial_screen.md)**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
 1. **[Async writing project](./pm_rfc_project.md)**: a writing project to see how you communicate and think about product problems.
    - Reviewers: Two members from the [product team](../../index.md#team)
