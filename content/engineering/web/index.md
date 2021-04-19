@@ -25,7 +25,7 @@ As of March 2021, the Web org is made up of multiple teams, and some members who
               - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
               - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him) (moves to Code Insights in FQ2)
      - [Extensibility](index.md)
-         - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it ([apply here](https://jobs.lever.co/sourcegraph/254299f5-f91b-43e2-aa1a-3732963dd296)). Once that happens, Joel will focus entirely on code insights.
+         - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
          - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
          - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this team
               - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
