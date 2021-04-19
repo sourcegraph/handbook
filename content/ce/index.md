@@ -77,7 +77,7 @@ The CE team are experts on educating customers on how to use the product (use ca
 
 ## Roles
 
-- [Customer Engineer](https://jobs.lever.co/sourcegraph/3ede0606-7a86-45d4-a627-e8cbae7a1a57)
+- [Customer Engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
 - Customer Support Engineer - not currently hiring for this role, but you can learn more about it [here](https://about.sourcegraph.com/handbook/ce/support)
 - VP of Customer Engineering (to be posted soon)
 
