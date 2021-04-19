@@ -16,7 +16,7 @@
 - We are advocates for our customers. We launch products and make decisions with our customers in mind.
 
 ## Open roles
-- [Product Marketing Manager, Emerging Products](https://jobs.lever.co/sourcegraph/d7813bec-5ebe-438c-a826-f12a78516c16)
+- [Product Marketing Manager, Emerging Products](https://boards.greenhouse.io/sourcegraph91/jobs/4003930004)
 - Product Marketing Manager, Enterprise (coming soon)
 
 ## What we do
