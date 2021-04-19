@@ -78,7 +78,11 @@ Any questions about code intelligence and navigation should be routed to the [Co
 
 **Keywords**: `search`, `indexed search`, `indexing`, `diff search`, `symbols`, `keyword`, `filter`, `scope`, `version context`, `repogroup`, `saved search`, `code monitoring`
 
-Any questions about search should be routed to the [Search team](../engineering/search/index.md).
+The search team is divided into two sub-teams, search-product, and search-core. Search-product is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-core is focused on growing the global index on Sourcegraph Cloud. 
+
+Any questions about search should be routed to the [Search team](../engineering/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
+
+In GitHub issues search-core and search-product should be flagged via team/search-core and team/search-product respectively. 
 
 ### Browser extension and code host native integrations
 
