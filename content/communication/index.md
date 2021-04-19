@@ -84,6 +84,16 @@ See "[1-1 meetings](../leadership/1-1.md)".
 
 See "[Announcements](announcements.md)".
 
+## Shortening URLs
+
+Using shorter URLs is much easier to fit into small spaces or images than the full link to our page or handbook. 
+This will redirect to our home page:
+- [srcgr.ph](http://srcgr.ph/)
+
+We also use (srcgr.ph)[srcgr.ph] as our Bitly custom URL.
+It is also possible to customise specific sub-paths via Bitly. To do so we use our Bitly account, which is linked to our Twitter account. 
+
+
 ## Google Docs
 
 1. We use Google Docs for:
