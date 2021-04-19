@@ -10,7 +10,7 @@ The code insights team is responsible for building and delivering code insights 
 - [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
   - [Vova Kulikov](../../../../company/team/index.md#vova-kulikov-hehim) (Frontend Engineer)
-  - FQ1 [Backend Engineer](https://jobs.lever.co/sourcegraph/5a25e568-575a-4209-b887-05f914ff0650)
+  - FQ1 [Backend Engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4003906004)
   - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend platform team](../frontend-platform/index.md)
 
 ## Mission
