@@ -38,6 +38,7 @@
 - [Covered expenses](spending-company-money.md) (aka "Spending company money")
 - [Expense reports](expenses.md)
 - [Vacation/FTO/PTO](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks#vacation)
+- [Requesting time off](requesting-time-off.md)
 - [Holidays](holidays.md)
 - [Donations](donations.md)
 
