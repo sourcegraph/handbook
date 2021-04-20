@@ -12,9 +12,9 @@ You're welcome to tag teammates or teams, but that's not necessary – once the
 
 ## When to create a GitHub issue
 
-If you have gotten a specific feedback requests that a customer(s) would like to track the progress of and a GitHub issue for the feedback [does not already exist](https://github.com/sourcegraph/sourcegraph/issues), you can document this in a [new #feedback issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=feedback&template=customer_feedback.md&title=) to share with the customer. 
+If you have gotten a specific feedback requests that a customer(s) would like to track the progress of and a GitHub issue for the feedback [does not already exist](https://github.com/sourcegraph/sourcegraph/issues), you can document this in a [new feedback issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=feedback&template=customer_feedback.md&title=) to share with the customer. 
 
-GitHub issues with the `#feedback` label will automatically post to the #feedback Slack channel on creation; you do not need to manually copy the issue link into #feedback. 
+GitHub issues with the `feedback` label will automatically post to the #feedback Slack channel on creation; you do not need to manually copy the issue link into #feedback. 
 
 Because a shareable issue is by definition public, you should not include any private customer information. You should still include things like the customer name, by including a link to the customer in Salesforce.
 
