@@ -24,6 +24,13 @@ A detailed explanation of the current process and the suggested reply structures
 
 We label and forward issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. [This GitHub search](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) is a fast way to find these issues. 
 
+### Slack [`#feedback`](https://sourcegraph.slack.com/archives/C0W2E592M) channel 
+
+For both self-contained product feedback slack posts and for new GitHub issues with #feedback labels (which automatically cross-post to Slack), the product manager on feedback rotation: 
+
+- Sends the feedback to Productboard
+- Tags the relevant team's stakeholders – usually the product manager and/or engineering manager – in the Slack thread
+
 ## Browser uninstall form feedback
 
 See the [browser uninstall feedback section](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#bookmark=id.hmb2g29ltsnr) of the feedback workflow doc. 
