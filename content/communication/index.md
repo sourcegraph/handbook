@@ -88,6 +88,7 @@ See "[Announcements](announcements.md)".
 
 Using shorter URLs is much easier to fit into small spaces or images than the full link to our page or handbook. 
 This will redirect to our home page:
+
 - [srcgr.ph](http://srcgr.ph/)
 
 We also use (srcgr.ph)[srcgr.ph] as our Bitly custom URL.
