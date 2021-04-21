@@ -94,5 +94,4 @@ Security develops infrastructure in the [Auxilliary project](https://console.clo
 - FQ2 engineering manager hire {#security-eng}
   - [Elizabeth Stirling](../../../company/team/index.md#elizabeth-stirling-she-her)
   - [André Eleuterio](../../../company/team/index.md#andré-eleuterio-hehim)
-  - FQ2 security engineer
   - FQ4 security engineer
