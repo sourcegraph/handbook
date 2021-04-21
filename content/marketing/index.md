@@ -28,6 +28,7 @@
     - [Andy Schumeister](../../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
         - We will be hiring Product Marketing Managers
     - [Erica Lindberg](../../company/team/index.md#erica-lindberg-she-her), Director of Content Strategy
+        - [Rebecca Dodd](../../company/team/index.md#rebecca-dodd-she-her), Senior Managing Editor  
         - We will be hiring a Social Media Marketing Manager, Producer (video and podcast production), and Content Marketing Manager
     - [Lisa Tagliaferri](../../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
         - [Marek Zaluski](https://about.sourcegraph.com/company/team#marek-zaluski), Developer Education Engineer
