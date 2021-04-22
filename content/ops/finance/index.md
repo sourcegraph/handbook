@@ -32,7 +32,9 @@ Outreach and questions for the finance team can be asked in the #finance Slack c
 - Liaise with all other teams to become trusted business partners
 - Safeguard the assets of the Company
 
-## Goals for FY2022
+## Goals
+
+### FY'22
 
 - Introduce a financial forecasting and close process that allows for timely and accurate reporting
 - Introduce financial reporting tools / software that will support long term value to our financial reporting process
