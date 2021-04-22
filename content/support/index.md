@@ -27,6 +27,8 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - [Beatrix Woo](../../company/team/index.md#beatrix-woo-she-her)
 - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang, CTO)
 
+More details about each team member in [our team READMEs](support-bios.md)
+
 ## We know that we are successful when we …
 
 * **Maintain 95% CSAT (customer satisfaction).** Part of the support workflow will be seeking confirmation from a customer that they agree we are done with that particular conversation/issue. At that time, we will initiate a request to rate how support was during that conversation. In order to encourage healthy behavior of not cherry picking cases to work, the target allows for support engineers to learn and grow. It’s okay that this is not 100%, so long as we learn and are able to maintain 95%. *Note: This is currently on hold while we figure out how to prevent survey/request fatigue and still gather important input from our customers.*
