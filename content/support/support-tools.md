@@ -43,7 +43,7 @@ This section captures our Zendesk protocol and configuration decisions.
 The best way to use Zendesk as an agent is via the web app. The mobile app is nice, but installing such apps on your phone can make it harder to take a break from work. Really consider this before you download the app to your phone. The desktop app is very limited and best to not even bother with.
 
 ### When to be logged in and monitoring the queue
-Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday - Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](https://about.sourcegraph.com/handbook/ce/support-schedule). Otherwise, if you need to focus, just let the team know in our #customer-support-chat Slack channel so we can coordinate and make sure to have you covered!
+Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday - Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](support-schedule.md). Otherwise, if you need to focus, just let the team know in our #customer-support-chat Slack channel so we can coordinate and make sure to have you covered!
 
 ### Notifications
 Set your notifications however you see fit to make sure you are able to help monitor the queue. 
@@ -66,14 +66,14 @@ There are also views for suspended (spam) and deleted tickets. We occasionally c
 ### Ticket data fields
 When you close a ticket, these are the required fields you must populate:
 
-* **Did I update customer data?** Designates whether you gathered important technical details about the customer and took the time to help out Distribution team and followed the steps outlined [here](https://about.sourcegraph.com/handbook/ops/bizops/customer_environment_questions) as noted in step 10 of our [workflow](https://about.sourcegraph.com/handbook/ce/support-workflow). *We will likely eventually remove this field.*
+* **Did I update customer data?** Designates whether you gathered important technical details about the customer and took the time to help out Distribution team and followed the steps outlined [here](https://about.sourcegraph.com/handbook/ops/bizops/customer_environment_questions) as noted in step 10 of our [workflow](support-workflow.md). *We will likely eventually remove this field.*
 * **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to our OKRs to improve our docs. *Note: temporarily for 2021-04 and 2021-05, it's okay to link to an Asana task you created to do the update instead of a PR update as we all get used to doing docs updates, continue to onboard.*
 * **Is this ticket a good example for dev ed?** Designates whether the details of the ticket are good to share with our dev ed team on a monthly or quarterly cadence. *We will likely eventually remove this field.*
 * **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion. 
 * **Did I go above and beyond what we support?** Designates whether we needed to go above and beyond what we want to support. This will help us understand how often this happens and usually looks like having to educate the customer on something we would want them to know already about their own infrastructure. *We will likely eventually remove this field.*
 * **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 * **Official type:** Designates whether this is a question, defect report, or help request
-* **Official priority:** Designates whether the priority is p0, p1, or p2 per our definitions outlined in our [prioritization guidelines](https://about.sourcegraph.com/handbook/ce/support-prioritization). 
+* **Official priority:** Designates whether the priority is p0, p1, or p2 per our definitions outlined in our [prioritization guidelines](support-prioritization.md). 
 * **Engineering team:** Designates which engineering team is responsible for the part of the product or feature associated with the ticket (think, if I got help/needed help which engineering team did I go to/would have gone to?)
 
 ### Why there are duplicate ticket data fields
@@ -93,7 +93,7 @@ The schedule in Zendesk reflects our SLA hours and is set to 9-5 pacific, Monday
 
 Since we are global team, we do not add every holiday that everyone celebrates. We only add the holidays where the majority/all of the team is unavailable.
 
-The SLA timer reflects our most aggressive SLA and for many customers, we have more time to respond and invoke this latitude as necessary as outlined in our [prioritization guidelines](https://about.sourcegraph.com/handbook/ce/support-prioritization). 
+The SLA timer reflects our most aggressive SLA and for many customers, we have more time to respond and invoke this latitude as necessary as outlined in our [prioritization guidelines](support-prioritization.md). 
 
 ### Default to private/internal notes
 We have Zendesk set to default to private/internal notes. Since much of our work happens in Slack and we only use internal notes, this ensures we are not sending out-of-context emails by forgetting to change the toggle.
@@ -113,7 +113,7 @@ We use the following apps to streamline our workflow:
 
 
 ### The customer experience
-* When a customer emails support@ they receive an automated email that says: This is an automated email to let you know that the email you just sent to support@sourcegraph.com has been received and if you need it, the ID number is ({{ticket.id}}). We do not count this as our first response (we only send this so you can have peace of mind that your email arrived to us). For our first reply, we aim to be truly helpful, where we have already spent time digging in. This usually happens in a couple of hours. You can read more about how we approach helping you [here](https://about.sourcegraph.com/handbook/ce/support). If you think of anything else while you wait for us to get back to you with a thoughtful and useful first response, just reply to this email." *Note: this email does not go to folks initiating help requests in our #support- and #trial- Slack channels.*
+* When a customer emails support@ they receive an automated email that says: This is an automated email to let you know that the email you just sent to support@sourcegraph.com has been received and if you need it, the ID number is ({{ticket.id}}). We do not count this as our first response (we only send this so you can have peace of mind that your email arrived to us). For our first reply, we aim to be truly helpful, where we have already spent time digging in. This usually happens in a couple of hours. You can read more about how we approach helping you [here](index.md). If you think of anything else while you wait for us to get back to you with a thoughtful and useful first response, just reply to this email." *Note: this email does not go to folks initiating help requests in our #support- and #trial- Slack channels.*
 * Once we (and the customer) deem the case solved, we mark the case solved. After an hour of doing so, Zendesk automatically emails a request for feedback on whether the support experience was good or bad. *Note: this email does not go to folks initiating help requests in our #support- and #trial- Slack channels.*
 
 ### https://sourcegraph.zendesk.com/

@@ -39,5 +39,5 @@ Short answer, No. Hopefully in the future, Zendesk will give us this feature; fo
 
 ### 5. Do we have anything to triage manually?
 
-Yes, we have a few customers listed in our [Customer Exception list](https://about.sourcegraph.com/handbook/ce/customer-exceptions) that we have to manually triage because we cannot automate the link from Slack to Zendesk. When a customer creates a support request in these channels, we have to manually create a Zendesk ticket and then triage that.	
+Yes, we have a few customers listed in our [Customer Exception list](customer-exceptions.md) that we have to manually triage because we cannot automate the link from Slack to Zendesk. When a customer creates a support request in these channels, we have to manually create a Zendesk ticket and then triage that.	
 	

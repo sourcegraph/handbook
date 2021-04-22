@@ -6,7 +6,7 @@
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
 - Practices & Philosophy
-  - [Customer Issues](../ce/engaging-other-teams.md)
+  - [Customer Issues](../support/engaging-other-teams.md)
   - [Incidents](incidents/index.md)
   - [Product documentation](product_documentation.md)
   - [Continuous releasability](continuous_releasability.md)

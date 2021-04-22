@@ -25,12 +25,12 @@ Welcome back! Let’s get started....
 * Review our [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (objectives and key results) to see what we believe are the most important things for us to do this year. These frame our decision making. When we are confronted with conflicting priorities, our first step is to ask ourselves … if this takes away our ability to complete an OKR, does that mean it’s more important than the OKR? It might be, but this gut check makes sure we are spending our time in the right way. If OKRs are new to you, Virginia can give you a crash course on what they are, their value, and how to work with them.
 * Read [this article](https://www.infoworld.com/article/3514213/sourcegraph-universal-code-search-and-intelligence.html) that summarizes the value of Sourcegraph
 * Plan to watch this [product demo recording](https://www.youtube.com/watch?v=iTBTri_q5MA&feature=youtu.be) once a week for your first 3-4 weeks. It will be repetitive, but each week, more and more will start to click. Start this week!
-* Read [our support overview](https://about.sourcegraph.com/handbook/ce/support) (including the sub links). Post any questions you have in our #customer-support-chat Slack channel
-* Be sure you are invited to and start attending the weekly CSE planning/retro session and weekly CSE “cheers” huddle as outlined in our [rituals](https://about.sourcegraph.com/handbook/ce/support-team-rituals)
+* Read [our support overview](index.md) (including the sub links). Post any questions you have in our #customer-support-chat Slack channel
+* Be sure you are invited to and start attending the weekly CSE planning/retro session and weekly CSE “cheers” huddle as outlined in our [rituals](support-team-rituals.md).
 * Schedule introductory chats with every member of [the Customer Engineering org](https://about.sourcegraph.com/handbook/ce#members). It’s okay to schedule these over your first few weeks, however you see fit. To schedule the chat with Quinn, work with Katerina (his executive business partner and responsible for his calendar).
 * Schedule an introductory chat with Katerina, too! As Quinn's executive business partner, she is part of the CE team right now and just a lovely person to spend time with. We will likely pull her in as we work to solve problems for how our team operates, since she will be able to help us understand if we should be coordinating more broadly, etc.
 * Open and merge your first GitHub pull request in the handbook
-* Create free otter.ai and Grammarly accounts (link otter.ai to your Zoom account) and bookmark Hemingwayapp -- why we use these is explained in [our team rituals doc](https://about.sourcegraph.com/handbook/ce/support-team-rituals).
+* Create free otter.ai and Grammarly accounts (link otter.ai to your Zoom account) and bookmark Hemingwayapp -- why we use these is explained in [our team rituals doc](support-team-rituals.md).
 * Verify you have access to all the required tools -- and check out [Support Tools](support-tools.md) for an overview of the value they bring you and how they all fit together
 	* Gmail
 	* Shared customer support (CS) and customer engineering (CS) Google calendars
@@ -79,8 +79,8 @@ Welcome back! Let’s get started....
 
 ### In order to ensure the above declarations are true, you will complete the following tasks:
 
-* Write your first weekly planning post (one of our [rituals](https://about.sourcegraph.com/handbook/ce/support-team-rituals)). You can see examples in our #customer-support-chat Slack channel.
-* Start contributing to the daily captain’s log thread (another of our [rituals](https://about.sourcegraph.com/handbook/ce/support-team-rituals)). You can see examples in our #customer-support-chat Slack channel.
+* Write your first weekly planning post (one of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-chat Slack channel.
+* Start contributing to the daily captain’s log thread (another of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-chat Slack channel.
 * Learn about who our customers are by checking out the [personas](https://about.sourcegraph.com/handbook/marketing/personas) overview and how Sourcegraph is useful for them by reading a few [case studies](https://about.sourcegraph.com/case-studies).
 * Explore the [product overview](https://about.sourcegraph.com/) and for each feature, explore the related [documentation](https://docs.sourcegraph.com/getting-started).
 * Spend some time getting familiar with [the Sourcegraph glossary](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/docs/glossary.md)
@@ -92,7 +92,7 @@ Welcome back! Let’s get started....
 * Add your profile picture to Zendesk (update this to the avatar provided by Sourcegraph when you get it)
 * Bookmark our [support plans](https://about.sourcegraph.com/support/) for reference
 
-* Start monitoring Zendesk for new support issues and try to be accountable for at least one by the end of the week. It is okay if we miss SLA for these first few cases. Take your time trying to figure out the right initial response, following our [workflow](https://about.sourcegraph.com/handbook/ce/support-workflow) steps. This will feel painful and tedious for a bit -- this is a reflection of our team being so nascent and the opportunity we have to make this better (not of your ability). Work as a team to solve issues, run responses by each other, etc. The more activity we have in our #customer-support-chat Slack channel, the better. Virginia will also do a walk through the first day of this week and review your first 5 initial responses before you send them. We want to be sure you feel supported and set-up for success.
+* Start monitoring Zendesk for new support issues and try to be accountable for at least one by the end of the week. It is okay if we miss SLA for these first few cases. Take your time trying to figure out the right initial response, following our [workflow](support-workflow.md) steps. This will feel painful and tedious for a bit -- this is a reflection of our team being so nascent and the opportunity we have to make this better (not of your ability). Work as a team to solve issues, run responses by each other, etc. The more activity we have in our #customer-support-chat Slack channel, the better. Virginia will also do a walk through the first day of this week and review your first 5 initial responses before you send them. We want to be sure you feel supported and set-up for success.
 
 Big pause here. These next tasks need a ton of improvement -- as mentioned in the last bullet! They are all supposed to help you learn the product and get more comfortable doing the job. Work with what is here and take abundant notes for how this can be improved.
 
@@ -116,9 +116,9 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 	* [Search](https://about.sourcegraph.com/handbook/engineering/search)
 	* [Security](https://about.sourcegraph.com/handbook/engineering/security)
 * Watch [Marek’s repo and codebase tour](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing). It’s a quick high-level overview of the Sourcegraph repo on Github and a tour of important directories. He made it for engineers during onboarding.
-* Explore issues customers have reported in the past in Jira and in our #support- Slack channels. Get a sense of how the back and forth goes, the issues, the resolutions … all aspects of our [workflow](https://about.sourcegraph.com/handbook/ce/support-workflow)
+* Explore issues customers have reported in the past in Jira and in our #support- Slack channels. Get a sense of how the back and forth goes, the issues, the resolutions … all aspects of our [workflow](support-workflow.md)
 
-* Write your first weekly reflection post (another of our [rituals](https://about.sourcegraph.com/handbook/ce/support-team-rituals)). You can see examples in our #customer-support-chat Slack channel.
+* Write your first weekly reflection post (another of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-chat Slack channel.
 
 
 ## By the end of your first month, the following will be true...
@@ -135,7 +135,7 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 * Schedule a chat with each member of the [Distribution team](https://about.sourcegraph.com/handbook/engineering/distribution). This is the engineering team that we cross paths with the most (they are responsible for customer deployment, monitoring, and upgrades).
 * Schedule a chat with each engineering team manager. You can find who they are by starting on the [org chart page](https://about.sourcegraph.com/company/team/org_chart), navigating to each engineering team page, and then looking at the members listed somewhere there.
 * Sign-up for which playbook(s) you will help develop and have a plan for how to approach it. Note: more on this soon.
-* Select your focus blocks and update our [team schedule](https://about.sourcegraph.com/handbook/ce/support-schedule).
+* Select your focus blocks and update our [team schedule](support-schedule.md).
 
 
 

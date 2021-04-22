@@ -6,8 +6,8 @@ We have many factors to consider in order to determine priorities and as such, w
 All work is assigned a priority per these definitions:
 
 * **p0:** Helping engineering troubleshoot and handling communications (to internal stakeholders, to customers via a status page, and to customers if they reach out) during a system outage (`about`, `/search` on sourcegraph.com, or `docs` is fully unreachable) per our [p0 incident response](p0-Incident-Response.md) practice. These are rare, and when they happen, we engage ASAP and it's our most important priority until the issue is resolved.
-* **p1:** All customer (including those in the pre-sales process) reported issues per our contractual p1 service level agreement definition [here](https://about.sourcegraph.com/handbook/ce/support#our-service-level-agreements-slas).
-* **p2:** All customer (including those in the pre-sales process) reported issues per our contractual p2 service level agreement definition [here](https://about.sourcegraph.com/handbook/ce/support#our-service-level-agreements-slas).
+* **p1:** All customer (including those in the pre-sales process) reported issues per our contractual p1 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas).
+* **p2:** All customer (including those in the pre-sales process) reported issues per our contractual p2 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas).
 * **p3:** Any internally identified goals/tasks/projects.
 
 ## Time allocations

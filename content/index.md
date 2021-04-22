@@ -51,10 +51,11 @@ The handbook is a living document and we expect every teammate to propose improv
      - [Frontend platform](engineering/web/frontend-platform/index.md)
      - [API docs](engineering/web/api-docs/index.md)
 
+### [Customer Support](support/index.md)
+
 ### [Customer Engineering](ce/index.md)
 
 - [Customer Engineering](ce/index.md)
-- [Customer Support](ce/support.md)
 - Customer Training (TODO)
 
 ### [Marketing](marketing/index.md)

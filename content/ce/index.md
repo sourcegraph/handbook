@@ -2,13 +2,13 @@
 
 On the Customer Engineering team, we help developers use Sourcegraph to solve their organization's Big Code problems.
 
-- [**Customer Engineers**](https://about.sourcegraph.com/handbook/ce/ce) help our developer users and champions get more value from using Sourcegraph in more and better ways.
-- [**Customer Support Engineers**](https://about.sourcegraph.com/handbook/ce/support) solve technical problems from all organizations about deployment, configuration, integration, authentication, scaling, troubleshooting, and more. <!-- Example: A Customer Support Engineer might help a customer get perfect cross-repository code intelligence set up for all of their code so they have joyful and more effective code reviews. -->
+[**Customer Engineers**](https://about.sourcegraph.com/handbook/ce/ce) help our developer users and champions get more value from using Sourcegraph in more and better ways.
 
 We work with many other teams at Sourcegraph, including:
 
 - with the [Sales team](../sales/index.md) in our relationships with prospects and customers; and
 - with the [Product team](../product/index.md) and [Engineering team](../engineering/index.md) on product feedback and requirements (by aggregating and relaying what users tell us, and by helping team members get in touch with or solicit feedback from the right users – see [surfacing feedback to the product team](../product/surfacing_product_feedback.md)). 
+- with the [Support team](../support/index.md) who solve technical problems from all organizations about deployment, configuration, integration, authentication, scaling, troubleshooting, and more. 
 
 ### What is the difference between a Customer Engineer and Customer Support Engineer?
 CSEs are the go-to technical team for our CEs, helping customers both pre- and post-sales, by taking on the reactive technical troubleshooting work when customers experience issues. We think of CE and CSE as work best friends, working closely together every day. Where Sales is focused on the commercial relationship, CE is focused on more strategically and proactively on product success/usage/adoption. If the CE is stuck, doesn’t know the answer, that is the exact right time to bring in a CSE and let support do the heads-down troubleshooting work.
@@ -20,7 +20,6 @@ The CE team are experts on educating customers on how to use the product (use ca
 ---
 
 * [Customer Engineering Onboarding](onboarding.md)
-* [Customer Support Onboarding](customer-support-onboarding.md)
 * [Team members](#members)
 * [Training sessions](https://docs.google.com/document/d/1nFePrSIcIakMmjOEY01vNc6VRe7WiJ0iOWygeZlbpYw/edit) (Sourcegraph 101, 102, office hours, etc.)
 * Demos
@@ -28,19 +27,9 @@ The CE team are experts on educating customers on how to use the product (use ca
   * [Demo instances](demo_instances.md)
   * [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph-testing/ce-code-smells/)
   * [Demo Repository](https://docs.google.com/document/d/1BVq3GPMVZih9NKa4UyVAQcsyThi4ye6m4CCQuwZAb80/edit?usp=sharing) (Repository of example searches to use in demos)
-* [Support overview/ethos](support.md)
-	* [Team README](support-bios.md)
-	* [Team schedule](support-schedule.md)
-	* [Team rituals](support-team-rituals.md)
-	* [Prioritization](support-prioritization.md)
-	* [Workflow](support-workflow.md)
-	* [Customer exceptions](customer-exceptions.md)
-	* [Engaging other teams](engaging-other-teams.md)
-	* [Tools](support-tools.md)
-	* [p0 incident response](p0-Incident-Response.md)
-	* [User deletion](delete_users_guide.md)
-	* [Creating and maintaining license keys for customers](license_keys.md)
-	* [Moving off the insiders build](leaving-insiders-build.md)
+* [User deletion](delete_users_guide.md)
+* [Creating and maintaining license keys for customers](license_keys.md)
+* [Moving off the insiders build](leaving-insiders-build.md)
 
 * Resources
   * [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#u)
@@ -65,20 +54,13 @@ The CE team are experts on educating customers on how to use the product (use ca
   - Tia Wucher (Director of Customer Engineering, US East)
 - Customer Engineers (International/Non-US)
   - C.H. (Director of Customer Engineering, starts 2021-04-19)
-- Customer Support Engineers
-  - [Adeola Akinsiku](../../company/team/index.md#adeola-akinsiku)
-  - [Warren Gifford](../../company/team/index.md#warren-gifford-he-him)
-  - [Stompy Mwendwa](../../company/team/index.md#stompy-mwendwa)
-  - [Giselle Northy](../../company/team/index.md#giselle-northy-she-her)
-  - [Beatrix Woo](../../company/team/index.md#beatrix-woo-she-her)
-  - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support)
+
 - [Quinn Slack](../../company/team/index.md#quinn-slack) (CEO) is leading Customer Engineering for now.
   - We are hiring for VP Customer Engineering and will have the role posted very soon.
 
 ## Roles
 
 - [Customer Engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-- Customer Support Engineer - not currently hiring for this role, but you can learn more about it [here](https://about.sourcegraph.com/handbook/ce/support)
 - VP of Customer Engineering (to be posted soon)
 
 ## Meetings
@@ -88,7 +70,6 @@ The CE team are experts on educating customers on how to use the product (use ca
 * CE team hangout (monthly on Thursdays): An open forum to ask questions, collaborate, and chat as a team.
 * Product backlog review (weekly on Fridays): Review of the product roadmap with stakeholders from CE/Sales/Marketing.
 * Product & CE Requests & Feedback Themes (bi-weekly on Wednesdays): Feedback treads and requests between CE and Product.
-* Support team meetings are described in [team rituals](support-team-rituals.md)
 
 ## Pre-sales and post-sales
 

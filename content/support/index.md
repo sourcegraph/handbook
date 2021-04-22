@@ -19,6 +19,14 @@ Keeping our reason for existence and guiding principles in mind in all of our wo
 
 For additional context, check out [RFC 274](https://docs.google.com/document/d/1eLJmEVoD4H2s18gw65OCKSEX7ZQiG38FU_jU3UsrBKY/edit#), the starting vision for CS at Sourcegraph.
 
+## The team
+- [Adeola Akinsiku](../../company/team/index.md#adeola-akinsiku)
+- [Warren Gifford](../../company/team/index.md#warren-gifford-he-him)
+- [Stompy Mwendwa](../../company/team/index.md#stompy-mwendwa)
+- [Giselle Northy](../../company/team/index.md#giselle-northy-she-her)
+- [Beatrix Woo](../../company/team/index.md#beatrix-woo-she-her)
+- [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang, CTO)
+
 ## We know that we are successful when we …
 
 * **Maintain 95% CSAT (customer satisfaction).** Part of the support workflow will be seeking confirmation from a customer that they agree we are done with that particular conversation/issue. At that time, we will initiate a request to rate how support was during that conversation. In order to encourage healthy behavior of not cherry picking cases to work, the target allows for support engineers to learn and grow. It’s okay that this is not 100%, so long as we learn and are able to maintain 95%. *Note: This is currently on hold while we figure out how to prevent survey/request fatigue and still gather important input from our customers.*
@@ -87,15 +95,18 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
+* [Onboarding](customer-support-onboarding.md)
 * [Team README](support-bios.md)
 * [Team schedule](support-schedule.md)
 * [Team rituals](support-team-rituals.md)
-* [Prioritization](support-prioritization.md)
 * [Workflow](support-workflow.md)
+* [Prioritization](support-prioritization.md)
+* [Customer exceptions](customer-exceptions.md)
 * [Engaging other teams](engaging-other-teams.md)
 * [P0 incident response](p0-Incident-Response.md)
 * [Triaging](customer-support-triaging.md)
 * [Enablement](support-enablement.md)
+* [Tools](support-tools.md)
 
 
 
