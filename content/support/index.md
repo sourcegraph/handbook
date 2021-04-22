@@ -27,7 +27,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - [Beatrix Woo](../../company/team/index.md#beatrix-woo-she-her)
 - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang, CTO)
 
-More details about each team member in [our team READMEs](support-bios.md)
+More details about each team member in [our team READMEs](support-bios.md).
 
 ## We know that we are successful when we …
 
