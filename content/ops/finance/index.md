@@ -63,9 +63,9 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 - Metrics
 	- Quarterly and monthly [IARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=2006715807)
 	- [ARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1460993554)
-	- [Annualized net retention](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=2006715807)
-	- [Payback period & CAC efficiency](https://docs.google.com/spreadsheets/d/1TzkWruGtCTJguu7j7ScERRyeJ3qiXS1sbmjUojrQO3o/edit#gid=1714197527)
-	- [Burn ratio & ARR per employee](https://docs.google.com/spreadsheets/d/1TzkWruGtCTJguu7j7ScERRyeJ3qiXS1sbmjUojrQO3o/edit#gid=1714197527)
+	- [Annualized net retention](https://docs.google.com/spreadsheets/d/17RAw8fPZsniGtAIHBLoC33fK4ihrspem0uIqK1sHqEs/edit#gid=992805610)
+	- [Payback period & CAC efficiency](https://docs.google.com/spreadsheets/d/17RAw8fPZsniGtAIHBLoC33fK4ihrspem0uIqK1sHqEs/edit#gid=992805610)
+	- [Burn ratio & ARR per employee](https://docs.google.com/spreadsheets/d/17RAw8fPZsniGtAIHBLoC33fK4ihrspem0uIqK1sHqEs/edit#gid=992805610)
 
 ## Definitions
 
