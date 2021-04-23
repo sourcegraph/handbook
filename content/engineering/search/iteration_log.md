@@ -12,6 +12,16 @@ This document contains the goals and work log for the search core team's [2-week
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+## 2021-04-19 to 2021-04-30
+
+### Scaling
+
+- **Owner(s):** Stefan
+- **Outcomes:**
+    - Validate Solr as possible search backend.
+- **Work log:**
+    - 2021-04-23: Built a (CLI) prototype for code search based on a Solr backend. We could validate that it is feasable to support regexp search. The next question is to find out how Solr performs under realistic conditions and to compare the performance against zoekt.
+
 ## 2021-04-05 to 2021-04-16
 
 ### Ranking
