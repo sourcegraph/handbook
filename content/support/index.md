@@ -10,7 +10,7 @@ We show up for our customers, open source users, and teammates by living up to o
 - Seeking/providing context so the why is clear
 - Demonstrating profound compassion for the people with whom our paths cross and the problems/questions we help them solve, meeting them where they are
 - Only asking our customers and teammates things we can’t do or answer ourselves
-- Persistently working toward and/or seeking resolution that works equally for our customers and us
+- Persistently working toward and/or seeking resolution that works equally for our customers and us (see [an open letter about root cause](root-cause.md) for inspiration)
 - Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication)
 - Being flexible and open, maintaining a first principles thinking approach, and always confronting and growing past our biases
 - Outgrowing ourselves, the way we work, and continuously improving
