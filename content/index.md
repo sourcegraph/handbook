@@ -66,6 +66,8 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Talent](talent/index.md)
 
+- [Careers](careers.md)
+
 ### [Operations](ops/index.md)
 
 - [Business Operations & Strategy](ops/bizops/index.md)
