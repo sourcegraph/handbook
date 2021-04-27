@@ -26,6 +26,7 @@
 
 - [Kacie Jenkins](../../company/team/index.md#kacie-jenkins-she-her), VP of Marketing
     - [Andy Schumeister](../../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
+        - [Julie Campagna](../../company/team/index.md#julie-campagna-she-her), Senior Customer Advocacy Manager
         - We will be hiring Product Marketing Managers
     - [Erica Lindberg](../../company/team/index.md#erica-lindberg-she-her), Director of Content Strategy
         - [Rebecca Dodd](../../company/team/index.md#rebecca-dodd-she-her), Senior Managing Editor  
