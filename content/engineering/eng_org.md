@@ -38,7 +38,9 @@ Plans can change given new information!
     - Global code graph {#global-code-graph}
         - FQ2 [Director of Engineering](https://boards.greenhouse.io/sourcegraph91/jobs/4005231004). Nick acting director until then.
         - [Search core](search/core.md)
+            - [Team: Search core](search/core.md#search-core-eng)
         - [Search product](search/product.md)
+            - [Team: Search product](search/product.md#search-product-eng)
         - [Code intelligence](code-intelligence/index.md)
             - [Team: Code intelligence](code-intelligence/index.md#code-intelligence-eng)
         - [Batch Changes](batch-changes/index.md)
@@ -59,7 +61,8 @@ Plans can change given new information!
             - [Team: Security](security/index.md#security-eng)
         - [Distribution](distribution/index.md)
             - [Team: Distribution](distribution/index.md#distribution-eng)
-        - [Team: Core application](core-application/index.md#core-application-eng)
+        - [Core application](core-application/index.md)
+            - [Team: Core application](core-application/index.md#core-application-eng)
 
 [VP Eng team docs](vpe/index.md).
 
