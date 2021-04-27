@@ -26,7 +26,7 @@ These posts should cover:
 - The date of the teammate's last day at Sourcegraph
 - How to connect with them outside of Sourcegraph (e.g., a LinkedIn link)
 
-These posts should NOT cover the reason for the departure, in the interest of respecting the teammate's privacy.
+In the interest of respecting the teammate's privacy, the reason for the departure will only be disclosed on a need-to-know basis. These posts should NOT cover the reason for the departure.
 
 If the teammate chooses, and still has access to Slack, they are free to share any context they may desire.
 
