@@ -13,6 +13,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Using Salesforce](salesforce.md)
 - [Sales Resources](salesresources.md)
 - [Engaging with Legal](saleslegal.md)
+- [Engaging with Security](salessecurity.md)
 
 ## Pipeline, data, and models
 
