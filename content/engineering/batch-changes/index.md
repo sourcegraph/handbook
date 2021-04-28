@@ -73,10 +73,6 @@ When I create a batch change to make large-scale code changes I want to _focus o
 
 * Each day, Slack reminds us to do our text check-in, which consists of a *short* message (it shouldn't take longer than a minute to write) in the reminder's thread. This should be a recap of what we have finished that day.
 
-* Each week, at 23:30 UTC on Thursdays, Slack reminds us to post our plans for the next week. This should consist of a short message (about a paragraph) in the reminder's thread covering our plans, and anything that they accomplished in the previous week that wasn't captured in their daily status updates. The PM then rolls this up into a status update that is emailed to engineering leadership.
-  * Since most of the "what we accomplished" details have already been recorded in the daily Slack check-ins, it is not necessary for engineers to repeat any of those items. The status update could still include any additional info or color that the engineer wishes to record (if any), but would primarily be forward-looking.
-  * Responses should be posted when each of us are next working; people in incompatible time zones do not need to get up in the middle of the night to do this immediately!
-
 * One Big Thing: Each sprint, each engineer gets one big thing to work on — one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning project](https://github.com/orgs/sourcegraph/projects/119) into the current sprint to work on (or P1 if there are no P0s).
 
 * Invariants and assumptions:
@@ -94,13 +90,7 @@ Our two-week sprints start every other Wednesday. We follow this process:
   * Engineers add/refine estimates to issues in the planning project. All estimates in GitHub are assumed to be upper-bound estimates. (A missing estimate means "between 1 second and 1 trillion years.")
   * Everyone on the team reviews our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) for the current/next release.
 
-* We then have our planning meeting to determine our common goals for the iteration.
-  * First we verify that any unfinished items in the old sprint will be finished by EOD.
-  * Then we look at our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) to align on priorities and verify estimates. *The goal is to have a freshly prioritized roadmap.*
-  * We work as a team to assign One Big Thing to each engineer, creating tickets as needed and putting them in the current sprint and P0 column.
-  * We look at all of the items in our planning board (including the "Needs prioritization" tickets), ordering them by priority into P0, P1, P2. (These tend to be smaller items, like bug fixes, or work carrying over from the previous sprint.) P0 tickets get the current sprint as a milestone.
-  * Finally, we verify that the sum of the estimates of our P0 column does not exceed 2 days per engineer. In other words:
-     * `issues.filter(p0).map(estimate).sum <= (num_engineers * 2).days`
+* We then have our planning meeting to determine our common goals for the iteration. The process for this is described in our [agenda doc](https://docs.google.com/document/d/1d4_WndknEd23BNUFG05-KEV4pq2MNx8mdZedVnZpLCg/edit#).
 
 * After sprint planning, the team has a retro to discuss how the previous sprint went, and what changes we might want to our working agreements.
 
