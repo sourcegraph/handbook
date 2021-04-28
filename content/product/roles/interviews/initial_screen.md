@@ -25,6 +25,6 @@ Review the candidate's resume, application responses, and any other links or inf
    - What are you looking to get out of your next role?
       - What is the most important thing you are hoping to learn/do?
       - What are your expectations and aspirations for the role?
-   - [Role specific questions](https://docs.google.com/document/d/18SbUPsEgwN-uw5RxkWHOoHGsFaFoGJCcsTJh-alpMRs/edit?usp=sharing)
-- (~10 min) Answer any questions that they have. Use this as an opportunity to sell Sourcegraph (assuming you want to move forward with the candidate).
+   - [Role specific questions](https://github.com/sourcegraph/interviews/blob/master/product/initial-screen-role-specific.md)
+- (~10 min) Answer any questions that they have. Use this as an opportunity to get the candidate excited about Sourcegraph.
   - If you don't know the answer or think there is someone else who would be able to give a better answer, tell the candidate that you will write down their question and followup over email.
