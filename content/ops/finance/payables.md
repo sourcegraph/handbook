@@ -6,7 +6,7 @@ Generally, you should feel free to spend in ways that are in the best interest o
 
 Specific categories of purchases that are listed on the [spending company money page](../../people-ops/spending-company-money.md) (e.g. laptops, home office setup, etc.) do not need to follow the approval process below. They are pre-approved and can be [submitted for reimbursement](../../people-ops/expenses.md) directly.
 
-However, if you intend to make any other purchase that falls above the limits below, please seek approval from your direct manager or, if necessary, [contact the finance team](index.md#contact)
+However, if you intend to make any other purchase that falls above the limits below, please seek approval from your direct manager or, if necessary, [contact the finance team](index.md#contact). When Subscribing to a service that will be paid for monthly, please take the annual equivalent of that service value when applying the below approval limits (i.e signing up for a product that costs $500 per month, the annual value is $6,000 per annum, please use the annual value ($6,000) when applying the below thresholds).
 
 |Role|Maximum expense without management approval|Maximum expense without finance approval|
 |---|---|---|
