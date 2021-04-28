@@ -78,6 +78,20 @@ We designed this exercise to measure your skills at integrating build and deploy
 
 If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
 
+## Extensibility team coding exercise
+
+We designed this exercise to measure your ability to show logical thinking and apply that thinking towards a code implementation. There's no frontend UI work involved.
+
+- You will choose a two hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
+- At your chosen date and time, we will send you a zipped TypeScript project that contains instructions.
+- TypeScript is a superset of JavaScript, so if you are comfortable with JavaScript and have experience reading any typed language, then you should be fine. We recommend reading through the [TypeScript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html) if you aren't already familiar with TypeScript.
+- You should have Node.js (>=14) installed on your computer.
+- You can look up documentation on the Internet while you are coding.
+- You may use open-source libraries, but most candidates don't find it necessary.
+- After two hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
+
+If we decide to move forward, we will schedule a followup call to discuss your code.
+
 ## FAQ
 
 ### Why do you do a coding exercise?
