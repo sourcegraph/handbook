@@ -33,7 +33,7 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
     
     **Outcome:** We can confidently make code changes to lsif-clang without worrying about obvious bugs.
 
-1. 🔄 Sourcegraph Cloud has precise code intelligence for C++ repositories that use Bazel as a build system.
+1. ✅ Sourcegraph Cloud has precise code intelligence for C++ repositories that use Bazel as a build system.
     
     **Outcome:** 5 popular open source C++ repositories using Bazel have up-to-date precise code intelligence on Sourcegraph Cloud.
     
@@ -41,35 +41,27 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
     
     **Outcome:** 3 enterprise customers with C++ precise code intel configured in their repositories.
 
-1. Sourcegraph Cloud has up-to-date precise code intelligence for C++ repositories that exceed 1mil SLOC.
-    
-    **Outcome:** 5 popular open source C++ repositories that exceed 1M SLOC have up-to-date precise code intelligence on Sourcegraph Cloud.
-
-1. Implement standard C++ code navigation features.
 
 ### Java precise code intelligence support
 
 **Milestones:**
 
-1. 🔄 Sourcegraph Cloud has up-to-date precise code intelligence for 5 Gradle repositories.
+1. ✅ Sourcegraph Cloud has up-to-date precise code intelligence for 5 Gradle repositories.
 
     **Outcome:** 5 popular open source Gradle repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
 
-1. 🔄 Sourcegraph Cloud has up-to-date precise code intelligence for 5 Maven repositories.
+1. ✅ Sourcegraph Cloud has up-to-date precise code intelligence for 5 Maven repositories.
 
     **Outcome:** 5 popular open source Maven repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
     
 1. ✅ lsif-java supports Java 11-16.
  
-1. 🔄 Sourcegraph Cloud has precise code intelligence for Java repositories that use Bazel as a build system.
-
-    **Outcome:** 5 popular open source Java repositories using Bazel have up-to-date precise code intelligence on Sourcegraph Cloud.
 
 1. 🔄 Increase Java precise code intel monthly operations. 
 
     **Outcome:** 3 enterprise customers with Java precise code intel configured in their repositories.
     
-1. lsif-java supports third party dependency navigation.
+1. 🔄 lsif-java supports third party dependency navigation.
 
 
 
@@ -81,17 +73,13 @@ Progress on adoption and usage is tracked in our [Looker dashboard](https://sour
 
    **Outcome:** No code intelligence queries consume compute or unbounded memory.
     
- 1. Reduce code intelligence failure blast radius.
+1. 🔄 Reduce code intelligence failure blast radius.
 
     **Outcome:** No code intelligence failure will affect the stability of the core search feature.
     
-1. Decrease backend latency and resource requirements.
+1. 🔄 Decrease backend latency and resource requirements.
   
     
 ## Roadmap
 
-The code intel team roadmap is tracked in [productboard](https://sourcegraph.productboard.com/roadmap/2658140-code-intel).
-
-At a glance roadmap as of 2021-03-30:
-
-![2021-03-30](https://sourcegraphstatic.com/handbook/product-roadmaps/2021-03-30-code-intel-roadmap.png)
+The code intel team roadmap is tracked in [productboard](https://sourcegraph.productboard.com/roadmap/2658140-code-intel). At a glance roadmap for Q2 coming soon!
