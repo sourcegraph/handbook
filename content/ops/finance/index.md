@@ -5,6 +5,7 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 - [Sources of truth](#sources-of-truth)
 - [ARR tracking and the monthly closing process](arr.md)
 - [Paying bills](payables.md)
+- [Submitting an invoice](invoices.md)
 
 ## Team
 
@@ -99,7 +100,7 @@ A booking is when a customer commits to pay us money. This includes when:
 
 ### Financial Planning and Financial Statement Review
 
-We update our financial plan on a quarterly basis. Our plan covers a twelve-month period and is focused on providing insights into working capital management, as well as predicting and understanding key trends within our business. 
+We update our financial plan on a quarterly basis. Our plan covers a twelve-month period and is focused on providing insights into working capital management, as well as predicting and understanding key trends within our business.
 
 We work with the head of each department in order to update the financial plan.
 

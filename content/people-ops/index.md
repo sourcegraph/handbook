@@ -34,7 +34,6 @@
   - [Equity and stock options FAQ](compensation/equity-faq.md)
 - [Benefits and perks](benefits-and-perks.md)
 - [Travel](travel.md)
-- [Invoices](invoices.md)
 - [Covered expenses](spending-company-money.md) (aka "Spending company money")
 - [Expense reports](expenses.md)
 - [Vacation/FTO/PTO](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks#vacation)

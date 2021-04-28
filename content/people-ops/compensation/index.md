@@ -70,7 +70,7 @@ However, managers can occasionally grant ad hoc bonuses (cash and equity are bot
 
 ## Compensation bands
 
-Internal compensation bands are maintained by the [People Ops](../index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact). 
+Internal compensation bands are maintained by the [People Ops](../index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact).
 
 - [Sales compensation bands](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
 - [Marketing compensation bands](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
@@ -116,4 +116,4 @@ Reach out to the People Ops team if you have any questions about structuring.
 
 Employees are paid twice per month (on the 15th and the last day of the month if those are weekdays, or the Fridays before those days if not), via Gusto.
 
-All contractors [submit invoices monthly](../invoices.md).
+All contractors [submit invoices monthly](../../ops/finance/invoices.md).
