@@ -2,7 +2,8 @@
 
 ### Security questionnaires
 
-The CE team should take the first pass on inbound questionnaires using the [list of reference questionnaires](https://drive.google.com/drive/folders/11X8xoX9lK7aHY-UqZQIwQl_aQ8NQFu1D) we have collected in our shared drive. Once the first pass is done, post a link to the completed questionnaire in the #security-chat slack channel, and the security team will take a final pass within 2 weeks. 
+The CE team should take the first pass on inbound questionnaires using the [list of reference questionnaires](https://drive.google.com/drive/folders/11X8xoX9lK7aHY-UqZQIwQl_aQ8NQFu1D) we have collected in our shared drive. Once the first pass is done, sign up for a security questionnaire review in [this signup sheet](https://docs.google.com/document/d/1Q6J8ZwPYDX-jJ0YU2l2CWXX3qboKD2XTbIeg5Q-NBAk/edit#).
+
 
 ### Customer security questions
 
