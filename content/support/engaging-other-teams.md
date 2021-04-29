@@ -54,7 +54,7 @@ Any other questions about monitoring and performance should be routed to the [Di
 
 Any questions about code host connections and repository syncing should be routed to the [Core application team](../engineering/core-application/index.md).
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be rounted to the [Web team](../engineering/web/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be rounted to the [Extensibility team](../engineering/developer-insights/extensibility/index.md).
 
 ### Repository permissions
 
@@ -78,23 +78,23 @@ Any questions about code intelligence and navigation should be routed to the [Co
 
 **Keywords**: `search`, `indexed search`, `indexing`, `diff search`, `symbols`, `keyword`, `filter`, `scope`, `version context`, `repogroup`, `saved search`, `code monitoring`
 
-The search team is divided into two sub-teams, search-product, and search-core. Search-product is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-core is focused on growing the global index on Sourcegraph Cloud. 
+The search team is divided into two sub-teams, search-product, and search-core. Search-product is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-core is focused on growing the global index on Sourcegraph Cloud.
 
 Any questions about search should be routed to the [Search team](../engineering/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
 
-In GitHub issues search-core and search-product should be flagged via team/search-core and team/search-product respectively. 
+In GitHub issues search-core and search-product should be flagged via team/search-core and team/search-product respectively.
 
 ### Browser extension and code host native integrations
 
 **Keywords**: `browser extension`, `native integration`, `chrome`, `firefox`, `safari`, `Phabricator`, `Bitbucket`, `GitHub`, `GitLab`
 
-Any questions about the browser extension or code host native integrations should be routed to the [Extensibility team](../engineering/web/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Extensibility team](../engineering/developer-insights/extensibility/index.md).
 
 ### Sourcegraph extensions
 
 **Keywords**: `extensions`, `plugins`, `blame`, `git-extras`, `Codecov`
 
-Any questions about Sourcegraph extensions should be routed to the [Extensibility team](../engineering/web/index.md).
+Any questions about Sourcegraph extensions should be routed to the [Extensibility team](../engineering/developer-insights/extensibility/index.md).
 
 ### Batch Changes
 
@@ -144,7 +144,7 @@ After you file the Github issue, alert the relevant engineering team you did so 
 
 * When it's a RFH for Core App and Distribution, be sure Virginia accounts for it in the temporary [RFH priorities list](https://docs.google.com/spreadsheets/d/1GMSRdsMtelj2LbWdvkJQfiYDHrUcQ_Atd4GVuTONYx4/edit?usp=sharing), which we are currently using (as of 2021-04-19) to understand priorities across all customers and make the best decision for all of our customers and for us as a company. Generally, issues are added in the order opened (so, newest issue = last priority); however, all issues are assessed and reordered based on full context as they are added. If it feels right to you as the CSE responsible for the new issue to be last, add it. If you think it needs a different placement on the list, create a thread to discuss with Virginia and the rest of the team in #customer-support-team. Virginia shares this with Bill and Raf to keep CS, Core App, and Distribution teams aligned across all issues we are collaborating to solve.
 * When posting in Distribution team's Slack channel, use @distribution-support to contact the the [on-call dev](../engineering/distribution/index.md#support-rotation) (not the team @distribution group -- while we use the @ group for all other engineering teams, most of our help requests go to Distribution, so they have a support rotation to help let the team have more focus time)
-* When posting in Batcher Changes team's Slack channel, use @batchers-support 
+* When posting in Batcher Changes team's Slack channel, use @batchers-support
 * When posting for Core App, be sure to do so in the #core-application-support channel and use @core-app-support
 * When posting for Search, use @search-core-support or @search-product-support ... depending which team within Search you need
 

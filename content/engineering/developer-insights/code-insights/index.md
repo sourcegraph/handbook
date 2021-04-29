@@ -58,7 +58,7 @@ For more information about code insights, see the original [product document](ht
 
 ## Processes
 
-We share the [web org processes](../index.md#processes), plus the following for our team.
+We share the [Developer Insights org's processes](../index.md#processes), plus the following for our team.
 We use our [bi-weekly retrospective](#retrospectives) to identify any tweaks we should make that would improve our process.
 
 ### Weekly Sync

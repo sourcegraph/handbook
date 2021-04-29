@@ -1,4 +1,4 @@
-# Frontend Engineer interview process for [Extensibility team](../web/extensibility/index.md)
+# Frontend Engineer interview process for [Extensibility team](../developer-insights/extensibility/index.md)
 
 1. You [apply](https://boards.greenhouse.io/sourcegraph91).
 1. [30 min] Recruiter screen

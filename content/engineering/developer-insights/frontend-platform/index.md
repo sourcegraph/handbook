@@ -1,6 +1,6 @@
 # Frontend platform team
 
-The Frontend platform team (part of the Web org) defines and maintains the standards and tooling for web development at Sourcegraph.
+The Frontend platform team (part of the [Developer Insights](../index.md) org) defines and maintains the standards and tooling for web development at Sourcegraph.
 
 ## Members
 

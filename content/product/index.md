@@ -11,12 +11,12 @@ Product at Sourcegraph consists of [product management](product_management/index
    - [Kylie Fligstein](../../../company/team/index.md#kylie-fligstein-she-her), Executive Business Partner - Product
    - [Product managers](roles/index.md#product-manager)
       - [María Craig](../../../company/team/index.md#maría-craig-she-her) - [Code intel](../engineering/code-intelligence/index.md)
-      - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - [Code insights](../engineering/web/code-insights/index.md)
+      - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - [Code insights](../engineering/developer-insights/code-insights/index.md)
       - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) - [Batch Changes](../engineering/batch-changes/index.md)
       - R.P. starts 2021-05-03 - [Core application](../engineering/core-application/index.md)
    - [Product designers](roles/index.md#product-designer)
       - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) - [Batch Changes](../engineering/batch-changes/index.md) and [Search](../engineering/search/index.md)
-      - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) - [Web](../engineering/web/index.md), [Code Insights](../engineering/web/code-insights/index.md) and [Code intel](../engineering/code-intelligence/index.md)
+      - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) - [Frontend Platform](../engineering/developer-insights/frontend-platform/index.md), [Extensibility](../engineering/developer-insights/extensibility/index.md), [Code Insights](../engineering/developer-insights/code-insights/index.md) and [Code intel](../engineering/code-intelligence/index.md)
       - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) - [Core application](../engineering/core-application/index.md) and [Search (Code monitoring & contexts)](../engineering/search/index.md)
 
 ## Planning

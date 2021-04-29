@@ -45,11 +45,11 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Distribution](engineering/distribution/index.md)
   - [Search](engineering/search/index.md)
   - [Security](engineering/security/index.md)
-  - [Web org](engineering/web/index.md)
-     - [Code insights](engineering/web/code-insights/index.md)
-     - [Extensibility](engineering/web/extensibility/index.md)
-     - [Frontend platform](engineering/web/frontend-platform/index.md)
-     - [API docs](engineering/web/api-docs/index.md)
+  - [Developer Insights](engineering/developer-insights/index.md)
+     - [Code insights](engineering/developer-insights/code-insights/index.md)
+     - [Extensibility](engineering/developer-insights/extensibility/index.md)
+     - [Frontend platform](engineering/developer-insights/frontend-platform/index.md)
+     - [API docs](engineering/developer-insights/api-docs/index.md)
 
 ### [Customer Support](support/index.md)
 

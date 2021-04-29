@@ -2,7 +2,7 @@
 
 Our passionate users provide a constant stream of thoughtful feedback and love engaging with us to help them and their teams solve their toughest problems. This trust and feedback is a gift, and we take it seriously and listen carefully to what users tell us.
 
-*This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](surfacing_product_feedback.md).* 
+*This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](surfacing_product_feedback.md).*
 
 ## Sources of feedback
 
@@ -37,45 +37,45 @@ We have a few different email lists that are used to send us feedback.
 
 ### GitHub issues
 
-- **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests) is often a developer's default place to leave feedback. 
-- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue follows the relevant team's process. For issues filed by someone outside Sourcegraph, the product manager on feedback rotation is responsible for labelling or raising to the right team. 
+- **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests) is often a developer's default place to leave feedback.
+- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue follows the relevant team's process. For issues filed by someone outside Sourcegraph, the product manager on feedback rotation is responsible for labelling or raising to the right team.
 
 ### Twitter
 
-- **Purpose:** Anyone can tweet about @Sourcegraph for public feedback. All tweets are in `#twitter` on Slack. 
-- **Owner:** Marketing. 
+- **Purpose:** Anyone can tweet about @Sourcegraph for public feedback. All tweets are in `#twitter` on Slack.
+- **Owner:** Marketing.
 
 ### Slack
 
-- **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback. 
+- **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
 - **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in [`#feedback`](https://sourcegraph.slack.com/archives/C0W2E592M). The product manager on [feedback rotation](product_management/responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](product_management/responding_to_user_feedback.md#slack-feedback-channel).
 
 ### Support tickets
 
-- **Purpose:** A path for existing customers to get responsive support. 
-- **Owner:** CE team owns support tickets in a Jira project. 
+- **Purpose:** A path for existing customers to get responsive support.
+- **Owner:** CE team owns support tickets in a Jira project.
 
-### Sales feedback 
+### Sales feedback
 
-- **Purpose:** Customers and prospects often give product feedback on calls with sales members. 
+- **Purpose:** Customers and prospects often give product feedback on calls with sales members.
 
-- **Owner:** The Sales team owns feedback from sales calls. 
+- **Owner:** The Sales team owns feedback from sales calls.
 
 ### Hubspot forms
 
 #### NPS Survey
 
-- **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI. 
-- **Owner:** The product manager on [feedback rotation](product_management/responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback. 
+- **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI.
+- **Owner:** The product manager on [feedback rotation](product_management/responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback.
 
-#### Browser Extension Uninstall Feedback 
-- **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it. 
-- **Owner:** The browser extension product manager (currently the [Web team product manager](../engineering/web/index.md#members)) owns responding to this feedback. 
+#### Browser Extension Uninstall Feedback
+- **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
+- **Owner:** The browser extension product manager (currently the [Extensibility team product manager](../engineering/developer-insights/extensibility/index.md#members)) owns responding to this feedback.
 
 ### CE feedback
 
-- **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves. 
-- **Owner:** CE owns putting this feedback in the `#feedback` slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback. 
+- **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
+- **Owner:** CE owns putting this feedback in the `#feedback` slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
 
 ## Productboard
 
