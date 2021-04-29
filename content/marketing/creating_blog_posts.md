@@ -59,7 +59,7 @@ The data between the `---` is called front matter and is used to provide post me
 ## Adding images
 
 - Small images can be placed in the `website/static/blog` directory and have the url of `/blog/example-image.jpg` in your markdown.
-- Large images, GIFs, and other binary assets should be uploaded to the `sourcegraph-assets` Google Cloud Storage bucket with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/`, with the image `src` being `https://sourcegraphstatic.com/myasset.png`.
+- Large images, GIFs, and other binary assets should be uploaded to the `sourcegraph-assets` Google Cloud Storage bucket with `gsutil cp local/path/to/myasset.png gs://sourcegraph-assets/`, with the image `src` being `https://sourcegraphstatic.com/myasset.png`.
 - Make images as small as possible (aim for less than 200Kb).
 - Images should be no larger than 1600px wide (if you want @2x retina quality) but often, this isn't needed and 800px is fine.
 - JPEG images should be compressed at no larger than 80% quality to reduce file size.
