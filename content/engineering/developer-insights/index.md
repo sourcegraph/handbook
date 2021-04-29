@@ -2,7 +2,7 @@
 
 ## Mission
 
-Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intelligence/index.md), [Code Insights](code-insights/index.md), and [API docs](api-docs/index.md)), [extended](extensibility/index.md) with other dev tools’ information to where developers interact with code ([sourcegraph.com](https://sourcegraph.com/search), code hosts, and IDEs)
+Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intelligence/index.md), [Code Insights](code-insights/index.md), and [API docs](api-docs/index.md)), [extended](extensibility/index.md) with other dev tools’ information, to where developers interact with code ([sourcegraph.com](https://sourcegraph.com/search), code hosts, and IDEs)
 
 ## Teams
 1. [Frontend platform](frontend-platform/index.md): the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph.
@@ -24,7 +24,6 @@ Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intellig
          - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
          - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
          - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this team
-              - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
               - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
               - [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him)
      - [Code Insights](../developer-insights/code-insights/index.md)
