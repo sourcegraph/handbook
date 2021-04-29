@@ -39,7 +39,6 @@ Sourcegraph Cloud projects.
 
 - **[sourcegraph-security-logging](./security/infrastructure/index.md#logging)**: Infrastructure required for centralized security logging.
 - **[sourcegraph-security-logging-stage](./security/infrastructure/index.md#logging-stage)**: Staging environment for logging infrastructure.
-- **[sourcegraph-security-vault](./security/infrastructure/index.md#vault)**: Contains HashiCorp Vault for secret management.
 
 #### Other Projects
 
