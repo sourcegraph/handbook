@@ -15,7 +15,7 @@ This is the inspirational end game state for Batch Changes in 3 years:
 
 ## Contact
 
-- #batch-changes-chat channel or @batchers on Slack.
+- #batch-changes channel or @batchers on Slack.
 - [@sourcegraph/batchers](https://github.com/orgs/sourcegraph/teams/batchers) team or [team/batchers label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fbatchers) on GitHub.
 
 ## Mission
@@ -105,7 +105,7 @@ Our two-week sprints start every other Wednesday. We follow this process:
 
 ## Team Communication
 
-Our team has two Slack channels, one public (#batch-changes-chat) and one private (#batch-changes-team). _Our default is to use the public channel._
+Our team has two Slack channels, one for everyone (#batch-changes) and one just for us (#batch-changes-internal). _Our default is to use the public channel._
 
 The private channel is for communications that would be of no interest to someone not on the team. Things like (re-)scheduling of team meetings, vacation scheduling, reminders about tasks that need completing, etc. Keeping these out of the public channel raises the signal-to-noise ratio for folks interested in Batch Changes, but not interested in who will be 10 minutes late to our sync meeting today due to the fact that their cat knocked over a jar of pickles and now there's glass everywhere and everything smells like vinegar and now you wish you hadn't read this sentence to the end.
 
