@@ -9,9 +9,9 @@ The code insights team is responsible for building and delivering code insights 
 - [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - [Vova Kulikov](../../../../company/team/index.md#vova-kulikov-hehim) (Frontend Engineer)
-  - FQ1 [Backend Engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4003906004)
-  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining in FQ2 from the [Frontend platform team](../frontend-platform/index.md)
+  - [Vova Kulikov](https://about.sourcegraph.com/company/team#vova-kulikov-he-him) (Frontend Engineer)
+  - C. C. (Backend Engineer) starting 2021-05-27
+  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining 2021-06-07 from the [Frontend platform team](../frontend-platform/index.md)
 
 ## Mission
 
@@ -49,6 +49,7 @@ Code insights is the first feature primarily built for non-search-based user per
 For more information about code insights, see the original [product document](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit) or this [demo](https://www.youtube.com/watch?v=XqeRb6Mc4Co) of a code insights prototype. Anyone on the Sourcegraph team can create your own insight using the [quickstart guide](https://gist.github.com/Joelkw/f0582b164578aabc3ac936dee43f23e0), which is explicitly not in the Sourcegraph docs because code insights is undergoing rapid development and this setup will soon change.
 
 ## Contact
+
 - [#code-insights-chat](https://sourcegraph.slack.com/archives/C014ZCKMCAV) channel or @codeinsights in Slack.
 - [team/code-insights](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights) label on GitHub.
 
@@ -119,22 +120,21 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
 3. When there are only minor issues, reviewers are encouraged to give "approval with comments" and trust their teammates to address the comments without requiring a follow-up review.
 
-### Code Insights front-end
+### Code Insights frontend
 
-Most specific part of code insights pages that’s charts.
-We use svg and d3 libraries (d3-scales, d3-axis, d3-format) to build code insights charts.
+The most interesting part of the code insights UI are the charts.
+We use SVG and D3 libraries (d3-scales, d3-axis, d3-format) for this.
 
-**Learning materials**
+#### Learning materials
 
-- [SVG intro specs *MDN*](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) </br>
+- [SVG intro specs _MDN_](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
   Simple and short description of most popular aspects of SVG.
-- [Frontend masters D3 workshop *Shirley Wu*](https://frontendmasters.com/courses/d3/) </br>
+- [Frontend masters D3 workshop _Shirley Wu_](https://frontendmasters.com/courses/d3/)
   A very interesting workshop from Shirley Wu about SVG and d3 itself. If you prefer reading materials
   instead this workshop has a detailed description and sandbox on [ObservableHq.com](https://next.observablehq.com/@sxywu/introduction-to-svg-and-d3-js).
-- [React and pure d3 *Amelia Wattenberger blog*](https://wattenberger.com/blog/react-and-d3) </br>
+- [React and pure d3 _Amelia Wattenberger blog_](https://wattenberger.com/blog/react-and-d3)
   The interesting blog post about how to get on react as a rendering library and d3 as a tool for chart math.
-- [Sara Soueidan's blog](https://www.sarasoueidan.com/tags/svg/)  </br>
+- [Sara Soueidan's blog](https://www.sarasoueidan.com/tags/svg/)
   If you want to dive a little more into the peculiarities of SVG spec.
 
-***NOTE**: The order is not important you can read as you like depending on what you are interested in*
-
+**NOTE**: _The order is not important, you can read these as you like depending on what you are interested in._
