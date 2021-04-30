@@ -78,12 +78,10 @@ Create and test the first release candidate:
 <!-- Keep in sync with release_issue_template's "Finalize elease" section, except no blog post -->
 
 - [ ] From the [release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes), merge the release-publishing PRs created previously.
-  - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph), also:
-    - [ ] Tag the `v$MAJOR.$MINOR.0` release at the most recent commit on the `v$MAJOR.$MINOR` branch.
-        ```sh
-        VERSION='v$MAJOR.$MINOR.0' bash -c 'git tag -a "$VERSION" -m "$VERSION" && git push origin "$VERSION"'
-        ```
-  - [ ] For [[deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker), also tag the release (do the same as above) 
+  - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
+    - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph/releases) has the correct tag
+  - [ ] For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
+    - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph-docker/releases) has the correct tag
   - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
     - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
 - [ ] Finalize and announce that the release is live:
