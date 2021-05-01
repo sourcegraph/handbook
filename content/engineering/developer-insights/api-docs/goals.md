@@ -1,10 +1,17 @@
-# API docs workstream Goals and Priorities 
+# API Docs Goals and Roadmap
 
 ## Goals
 
-1. Create an API docs feature which the majority of devs at Sourcegraph can see obvious value in.
+### 1. Deliver MVP of API docs for Go/TypeScript
+
+#### 1.1 Support Go API docs
+
+#### 1.2 Support Typescript API docs
+
+### 2. Expand API docs language support
+
+### 3. Search for API docs from the Sorucegraph search bar
 
 ## Roadmap
 
-1. Provide API docs for languages with LSIF support (Go, TypeScript)
-1. Provide API docs for 5-10 languages currently without LSIF support
+The API Docs [roadmap](https://sourcegraph.productboard.com/feature-board/2689572-fy2022-roadmap-developer-insights) can be viewed in Productboard.

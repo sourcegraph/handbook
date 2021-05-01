@@ -4,55 +4,30 @@
 
 See also our [completed goals](goals_completed.md).
 
-### FY22 OKR: 3 enterprise customers have created 2+ code insights that they check 2+ times a week
+### 1. Deliver a revenue-capturing product
+#### 1.1 Deliver code insights beta version
 
-**Problem:** Engineers and engineering managers/directors/VPs want to be able to understand their codebase at a high level (which parts of the code base are health/unhealthy? How close are we to removing all instances of a code smell?). Existing tools that just use git data don't answer these questions because they don't look at the code itself, just the pattern of commits. Sourcegraph has all the information needed to answer these questions, but there is currently no way for an engineering leader to get the answer out of Sourcegraph.
+**Problem:** we can't launch code insights into beta because we:
 
-**Value to Sourcegraph:** The Sourcegraph sales cycle is unusual because although we consistently wow our users, the economic decision-maker is usually not one of these users. Instead, the people with the power to sign a contract with us are higher up within an organization and usually depend on running a trial to fully understand the value of Sourcegraph. When code insights answers these personas' higher-level questions about codebases that our core features do not currently answer, it can dramatically speed up our sales cycle as well as our sales pipeline by giving decision makers a reason to buy Sourcegraph without needing to run a trial.
+1. don't have a way for users to create insights that doesn't run into the problems of creating insights outlined in RFC 304 "Create an Insight" UI + UX
+   1. This includes an easy path to finding/creating insights, like through the search UI (one-click create from search)
+1. don't have a way for code insights to run on the backend and meet a users' expectations of how fast they should run
+   1. There is an issue of slowness -- insights take >1 day to run -- combined with communication -- this is not communicated at all right now in the product
+   1. There is an issue of serialization -- your insights don't start running until we've calculated/logged data for all the prior insights users have entered on your instance
+1. don't have docs for either of the above features (since these features don't yet exist)
 
-#### FY22Q1 OKR: 3 enterprise customers have created a code insight
+**Why we are focusing on this:** a beta that sets/meets appropriate user expectations, scales to their entire codebase, and is understandable without hand-holding from CE/product is necessary to then ultimately enable insights by default in an open beta. This in turn will allow us to collect feedback and add necessary features as we develop code insights into a revenue-capturing GA product.
 
-**Problem:** While our existing code insights prototypes get customers interested in trying the product, they currently cause many problems for a customer who tries to use them, because:
-- The backend runs slowly on the scale of many days to populate data, and the frontend doesn't reveal or mitigate this
-- You create code insights in your settings file, which creates a poor UX for creating a code insight
-- There is limited in-product guidance of how to use or view code insights
+#### 1.2 Deliver code insights GA version
 
-**Milestones and outcomes:**
+**Problem:** In order to launch code insights widely and charge for it, in addition to the beta features, we'll need to:
 
-1.  Customers can easily create their own custom insights using a dedicated UI.
+1. Make the more complex finer-touch improvements customers have already asked for and indicated are necessary to getting full value from a basic insights product, like repo filtering
+1. Improve where/when code insights display in context within sourcegraph, and how a user can control that
+1. Others TBD based on beta feedback + progress
 
-    - **Outcome:** Code insights can move from prototype to beta feature (easy to enable or enabled by default, documented, and supported by the CE team rather than the product team).
-    - **Outcome:** At least three customers create their own code insights that they actively reference.
-
-1. Code insights running on the backend over a large scale of repos create a positive user experience even if they require a long loading time.
-
-    - **Outcome:** We see code insights churn after creation of an insight decrease by 50%.
-
-#### Future milestones and outcomes:
-
-1. Code insights are useful to a broad set of customers (this may include integrations with batch changes, code monitoring, or third party data sources – see [Productboard feature view](https://sourcegraph.productboard.com/feature-board/1793095-code-insights)).
-
-    - **Outcome:** Code insights features are actively in use by VPs/Directors at 5+ enterprise customers.
-
-1. Code insights is GA (generally available) for all customers and has low/no barriers to wide adoption.
-
-    - **Outcome:** Customers communicate to their AE/CE that they use code insights in making engineering decisions.
-    - **Outcome:** 10% of Sourcegraph customers actively use code insights.
-    - **Outcome:** Customers use code insights with limited help from CE in setting them up.
-
-1. Code insights provides enough value to be a paid product.
-
-    - **Outcome:** Existing customers buy code insights as its own paid feature.
-    - **Outcome:** Customers who express explicit interest in the code insights features have a faster sales cycle through our pipeline than our average customer.
-    - **Outcome:** Code insights is the primary driver behind 5 new enterprise sales.
+**Why we are focusing on this:** To deliver on creating a revenue-capturing product
 
 ## Roadmap
 
-Our [roadmap is in Productboard](https://sourcegraph.productboard.com/roadmap/2327428-code-insights-objectives-roadmap). We organize our roadmap by milestone objective rather than feature, because to achieve each milestone we may shift or prioritize features based on further customer feedback or product decisions.
-
-Our roadmap as of 2021-03-19:
-
-<div style="overflow-x: auto; width: 100%">
-<!-- Screenshot taken with this browser extension: https://chrome.google.com/webstore/detail/svg-screenshot/nfakpcpmhhilkdpphcjgnokknpbpdllg -->
-<object data="./roadmap.svg" type="image/svg+xml" />
-</div>
+The Code Insights [roadmap](https://sourcegraph.productboard.com/feature-board/2689572-fy2022-roadmap-developer-insights) can be viewed in Productboard.
