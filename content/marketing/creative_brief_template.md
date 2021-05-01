@@ -1,10 +1,10 @@
 # Creative Brief Template
 
-Creative Brief: Name of Project
-Today’s Date: 1/1/21
-Requestor: Name of Project Lead and Team
-Brief Writer: Your Name
-Vendor (if applicable): 
+- Creative Brief: Name of Project  
+- Today’s Date: 1/1/21  
+- Requestor: Name of Project Lead and Team  
+- Brief Writer: Your Name  
+- Vendor (if applicable):  
 
 **Project Background:** Write a brief overview of your team’s work, what the challenge/opportunity being faced  is, what needs to be communicated, level of urgency, etc. No more than 1-2 paragraphs please.
 

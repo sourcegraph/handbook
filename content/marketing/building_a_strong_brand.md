@@ -16,16 +16,16 @@ The strongest brands are highly authentic, helpful, knowledgeable, and values-dr
 A strong brand can also help reduce perceived risks (performance, financial, opportunity/time, safety, social, and psychological) by authenticating the source of the product or service, and fulfilling the promise of the perceived value of the items being sold or used. Best of all, a strong brand can grow and evolve with its customers — without losing identity or values — because its ultimate goal is to help improve or simplify some aspect of their lives.
 
 ## Further reading on technology company branding:
-[One secret that all great technology branding strategies have in common](https://medium.com/madison-ave-collective/one-secret-that-all-great-technology-branding-strategies-have-in-common-8125ac1b4c8b)
-[Why branding is important in tech](https://medium.com/@samanthatoy/why-branding-is-important-in-tech-17fd5aedb44f)
-[The 6 biggest branding errors most startups make](https://www.entrepreneur.com/article/277233)
-[The (other) 6 mistakes to avoid when building a brand](https://www.entrepreneur.com/article/271353)
+- [One secret that all great technology branding strategies have in common](https://medium.com/madison-ave-collective/one-secret-that-all-great-technology-branding-strategies-have-in-common-8125ac1b4c8b)  
+- [Why branding is important in tech](https://medium.com/@samanthatoy/why-branding-is-important-in-tech-17fd5aedb44f)  
+- [The 6 biggest branding errors most startups make](https://www.entrepreneur.com/article/277233)  
+- [The (other) 6 mistakes to avoid when building a brand](https://www.entrepreneur.com/article/271353)  
 
 ## Additional Resources:
-[Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)
-[Why have a vision and mission statement?](brand_and_creative_team_mission_and_values.md)
-[Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)
-[Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)
+- [Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)  
+- [Why have a vision and mission statement?](brand_and_creative_team_mission_and_values.md)  
+- [Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)  
+- [Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)  
 
 ## Open Questions
 This charter isn’t meant to have ALL the answers; rather, it’s meant to to be a living document that can change and adapt over time, while providing some frameworks and operational processes that help ensure smooth collaboration and successful partnering internally. A few of the top-of-mind questions that we still want to answer include:

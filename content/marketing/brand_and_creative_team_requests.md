@@ -44,7 +44,7 @@ Events
 - Swag design and fulfillment planning. See our [Gifting Guidelines](gifting_guidelines.md)
 
 ## Additional Resources:
-[Gifting guidelines](gifting_guidelines.md)
-[Project Tiers](project_tiers.md)
-[Creative Brief template](creative_brief_template.md)
-[Production Process](production_process.md)
+- [Gifting guidelines](gifting_guidelines.md)  
+- [Project Tiers](project_tiers.md)  
+- [Creative Brief template](creative_brief_template.md)  
+- [Production Process](production_process.md)  

@@ -101,14 +101,13 @@ An example naming scorecard for the Full Naming Process described above:
 | Marketing Lift                         |               |       |       |       |              |
 
 ## Additional Resources:
-[Google](https://www.google.com/) (start here!) - You know how to use it.
-[Wikipedia](https://www.wikipedia.org/) - see if something similar exists as a standardized term or phrase.
-[WIPO Global Brand Database](http://www.wipo.int/branddb/en/index.jsp) - Search trademarks across international jurisdictions.
-[TESS: Trademark Electronic Search System](http://tmsearch.uspto.gov) - The United States Patent and Trademark Office’s official trademark search tool.
-[Canadian Trademarks Database](http://www.ic.gc.ca/app/opic-cipo/trdmrks/srch/home) - The Government of Canada’s office trademark search tool.
-[Markify](https://www.markify.com/) - A paid trademark search engine. It delivers more sophisticated tools than free offerings.
-[Panabee](https://www.panabee.com/) - Search for domain names, app names, and company names all at once.
-
+- [Google](https://www.google.com/) (start here!) - You know how to use it.  
+- [Wikipedia](https://www.wikipedia.org/) - see if something similar exists as a standardized term or phrase.  
+- [WIPO Global Brand Database](http://www.wipo.int/branddb/en/index.jsp) - Search trademarks across international jurisdictions.  
+- [TESS: Trademark Electronic Search System](http://tmsearch.uspto.gov) - The United States Patent and Trademark Office’s official trademark search tool.  
+- [Canadian Trademarks Database](http://www.ic.gc.ca/app/opic-cipo/trdmrks/srch/home) - The Government of Canada’s office trademark search tool.  
+- [Markify](https://www.markify.com/) - A paid trademark search engine. It delivers more sophisticated tools than free offerings.  
+- [Panabee](https://www.panabee.com/) - Search for domain names, app names, and company names all at once.  
 
 Still have questions? Reach out to brand@sourcegraph.com or sign up for [Marketing Office Hours](https://docs.google.com/spreadsheets/d/1o8rHntP0j6-JFryhc0_g6MKEI6l3dZE7NTKasyQx46M/edit#gid=0). If you’re ready to request a naming sprint, simply use the [Creative Request Form](https://docs.google.com/forms/d/e/1FAIpQLSd4OKq9asQNWiTUtRXZrTfyRd8nylWUXvpIhIoCoWTryKNZGA/viewform).
 

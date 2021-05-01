@@ -32,6 +32,6 @@ Tier 5 -- Self-serve or automated work
 This includes design work that can be done by the individual, such as business cards and PowerPoint and Google Slides presentations. Typically this is work that the brand team does not take on directly, but has set up a process to manage the work (e.g., creating PPT templates, print and swag order forms, finding brand assets, etc.). Keep this page bookmarked for quick access to new templates, processes and forms all designed to make your life easier and get you what you need quicker. The Brand/Creative team does not track or manage self-serve projects in Asana.
 
 ## Additional Resources:
-[Creative Brief template](creative_brief_template.md)
-[Production Process](production_process.md)
-[Naming Process for Products, Features and Programs](naming_process_for_products_features_and_programs.md)
+- [Creative Brief template](creative_brief_template.md)  
+- [Production Process](production_process.md)  
+- [Naming Process for Products, Features and Programs](naming_process_for_products_features_and_programs.md)  

@@ -10,6 +10,6 @@
 1. 2x per year, at each end of half, we will archive all Completed work in Asana
 
 ## Additional Resources:
-[Asset management](assets_management.md)
-[Sourcegraph Preferred Vendor Network (aka The Network)](the_network.md)
-[Success metrics](success_metrics.md)
+- [Asset management](assets_management.md)  
+- [Sourcegraph Preferred Vendor Network (aka The Network)](the_network.md)  
+- [Success metrics](success_metrics.md)  
