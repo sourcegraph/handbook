@@ -8,7 +8,7 @@ Any teammates based outside of the US are on a contracting structure and will ne
 
 - All invoices should be sent via email to our accounting team, sourcegraph@officengine.com, with finance@sourcegraph.com copied on all emails. All invoices will be paid through [Veem](https://www.veem.com/).You should have received an invite to your personal email for a Veem account as part of onboarding.
 - Please note: You do not need to submit an invoice via Veem.
-- Invoices should be submitted in USD, if expenses were purchased in another currency, please use this currency converter: https://www1.oanda.com/currency/converter/ and use the date of transaction. (Do not use the Veem currency converter.)
+- Invoices should be submitted in the currency used in your contract (and USD by default), if expenses were purchased in a different currency, please use this currency converter: https://www1.oanda.com/currency/converter/ and use the date of transaction. (Do not use the Veem currency converter.)
 - Include any expenses incurred that month as individual line items and attach all expense receipts to the same email with the invoice.
 - Include any fringe benefits on your invoice as individual line items as well (cell phone, internet, wellness benefits, etc.).
 - Submit monthly invoices by the 2nd of the month so that payments can be issued by the 5th.
