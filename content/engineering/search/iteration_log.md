@@ -12,6 +12,16 @@ This document contains the goals and work log for the search core team's [2-week
 - **Work log:**
     - YYYY-MM-DD: $UPDATE
 
+## 2021-05-03 to 2021-05-13
+
+### $GOAL_OR_THEME
+
+- **Owner(s):** $OWNER
+- **Outcomes:**
+    - $DESIRED_OUTCOME
+- **Work log:**
+    - YYYY-MM-DD: $UPDATE
+
 ## 2021-04-19 to 2021-04-30
 
 ### Scaling
