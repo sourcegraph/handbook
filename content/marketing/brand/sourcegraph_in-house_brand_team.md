@@ -7,9 +7,11 @@
 - To facilitate improvement — These statements help us understand what to measure and how to measure it so we can get better and better at what we do and how we serve.
 
 ## Common challenges faced by in-house Brand & Creative teams†:
-1. Volume, velocity and variety of creative work mushrooms. According to a recent survey, the volume and velocity of work are the top challenges facing creatives today; a variety of work – accommodating the plethora of new creative specifications across digital channels and social media – ranks among the top five challenges. 
-1. Creative briefs and project intake lead the list of process challenges. The creative brief and project intake – the first steps in the creative process – are also the biggest challenges in creative workflow (42%).  Some 67% of respondents said obtaining the necessary information just to begin work was difficult or very difficult. 
-1. Making time and headspace for creativity is squeezed by administrative work.  Most respondents (46%) said they spend between 3-7 hours per week on administrative tasks; about one-third (24%) said they spend seven or more hours per week on admin tasks.  That’s about one full day every week, or 20% of creative time spent annually. 
+*1. Volume, velocity and variety of creative work mushrooms.* According to a recent survey, the volume and velocity of work are the top challenges facing creatives today; a variety of work – accommodating the plethora of new creative specifications across digital channels and social media – ranks among the top five challenges. 
+
+*2. Creative briefs and project intake lead the list of process challenges.* The creative brief and project intake – the first steps in the creative process – are also the biggest challenges in creative workflow (42%).  Some 67% of respondents said obtaining the necessary information just to begin work was difficult or very difficult. 
+
+*3. Making time and headspace for creativity is squeezed by administrative work.*  Most respondents (46%) said they spend between 3-7 hours per week on administrative tasks; about one-third (24%) said they spend seven or more hours per week on admin tasks.  That’s about one full day every week, or 20% of creative time spent annually. 
 
 [†2018 In-House Creative Management Report, InSource/InMotionNo.](https://www.inmotionnow.com/project-workflow/2018-in-house-creative-management-report/)
 
