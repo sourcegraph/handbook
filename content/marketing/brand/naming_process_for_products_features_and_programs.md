@@ -38,7 +38,7 @@ The full process should begin once the project or program is considered an appro
 1. Commit – All team members may not agree, but if we have demonstrated there are no blockers or conflicts, we will commit to the name (or new name) and proceed. Final approvals internally for chosen names will require sign-off from Legal, Brand, and Product, and in some cases (based on scope) may require additional approvals from Leadership Team.
 
 ## “Light” naming process for Level 2-3 feature names and internally-facing projects, programs, and events:
-1. During the initial planning phase for the project or program, the Requestor should use the Resources provided below to see if their desired desired feature, group, or program name is being used elsewhere, has any translation or localization challenges, or has additional meanings or innuendos that may be culturally or demographically inappropriate
+1. During the initial planning phase for the project or program, the Requestor should use the [Resources](#additional-resources) provided below to see if their desired desired feature, group, or program name is being used elsewhere, has any translation or localization challenges, or has additional meanings or innuendos that may be culturally or demographically inappropriate
 1. Requestor shares results of initial search with Brand and Legal teams for review
 1. If required, Brand and Legal teams will do a more thorough background search and evaluation
 1. Requestor’s name is approved for use in the specific case requested, OR Brand/Legal teams may ask to meet with Requestor to discuss options based on preliminary search
@@ -68,39 +68,50 @@ When in doubt, reach out to the Marketing team and we can help identify if the n
 We can test name selections by speaking to customers, internal stakeholders, POC users, and running rapid-response surveys of our target audience as a litmus. These surveys need not be the final decision-making apparatus, but rather will help guide us from problem to research to hypothesis to finalization and adoption.
 
 A naming convention will be deemed successful if it meets the following criteria:
+
 - Does not conflict with any existing product or feature name used by a competitor
+
 - Is not trademarked, either in the US or abroad
+
 - Does not require a lot of explanation to make sense to a potential user
+
 - Resonates with and is easily understood by our audience
+
 - Can be translated into multiple languages, either directly or contextually
+
 - Meets pre-determined score in the grading scorecard above
 
 A naming convention does not need to:
+
 - Be a “branded” word or otherwise proper noun
+
 - Be able to be trademarked, unless it is unequivocally a new and unique feature or product
+
 - Have dual meanings or a clever word twist or pun
+
 - Be awe-inspiring or overly attention-grabbing
+
 - Have a strong emotional connection
 
 An example naming scorecard for the Full Naming Process described above:
 
-| **Naming Scorecard: Insert Name Here** |               |       |       |       |              |
-|----------------------------------------|---------------|-------|-------|-------|--------------|
-| **Grading Area**                       | **1 (least)** | **2** | **3** | **4** | **5 (most)** |
-| Positioning                            |               |       |       |       |              |
-| Clarity                                |               |       |       |       |              |
-| Tone                                   |               |       |       |       |              |
-| Resonance                              |               |       |       |       |              |
-| Recall                                 |               |       |       |       |              |
-| Emotional Connection                   |               |       |       |       |              |
-| Technical Criteria Met?                |               |       |       |       |              |
-| **Landscape Analysis**                 | **1 (low)**   | **2** | **3** | **4** | **5 (high)** |
-| Uniqueness                             |               |       |       |       |              |
-| Defendability                          |               |       |       |       |              |
-| Standardization                        |               |       |       |       |              |
-| Marketing Lift                         |               |       |       |       |              |
+| **Naming Scorecard: Insert Name Here** |               |         |         |         |              |
+|----------------------------------------|---------------|---------|---------|---------|--------------|
+| **Grading Area**                       | **1 (least)** | **2**   | **3**   | **4**   | **5 (most)** |
+| Positioning                            |               |         |         |         |              |
+| Clarity                                |               |         |         |         |              |
+| Tone                                   |               |         |         |         |              |
+| Resonance                              |               |         |         |         |              |
+| Recall                                 |               |         |         |         |              |
+| Emotional Connection                   |               |         |         |         |              |
+| Technical Criteria Met?                |               |         |         |         |              |
+| **Landscape Analysis**                 | **1 (low)**   | **2**   | **3**   | **4**   | **5 (high)** |
+| Uniqueness                             |               |         |         |         |              |
+| Defendability                          |               |         |         |         |              |
+| Standardization                        |               |         |         |         |              |
+| Marketing Lift                         |               |         |         |         |              |
 
-## Additional Resources:
+## Additional Resources
 - [Google](https://www.google.com/) (start here!) - You know how to use it.  
 - [Wikipedia](https://www.wikipedia.org/) - see if something similar exists as a standardized term or phrase.  
 - [WIPO Global Brand Database](http://www.wipo.int/branddb/en/index.jsp) - Search trademarks across international jurisdictions.  
