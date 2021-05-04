@@ -34,6 +34,7 @@ Our company values can be found [here](../../company/values.md). Our Brand Creat
 Functional Areas: Design, illustration, animation, video production, copywriting, narrative, project management, brand strategy, market research, website development, and more.
 
 Tommy Pesavento - Director of Brand Design/Creative Director
+
 Fabiana Castellanos - Project Coordinator, Brand 
 
 To be hired:  
@@ -52,7 +53,7 @@ Web Developer (Q1 FY22)
 CMS Admin  
 UX Researcher  
 
-## Capabilites
+## Capabilities
 We deliver agency-caliber campaigns, creative, production, and results in support of every team within the company to drive awareness, engagement, and adoption.
 
 The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand and creative support for all internal teams and programs (i.e. People/HR, Product, Ops, Eng, etc.), as well as central brand communications, demand generation, content strategy and product marketing support. We sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our Preferred Vendor Network, or simply [The Network](the_network.md).
