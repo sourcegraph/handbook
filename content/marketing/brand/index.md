@@ -6,12 +6,12 @@
 1. [Capabilities](#capabilities)
 1. [Additional Resources](#additional-resources)
 
-## Function, Vision, Mission and Values
+## Function, Vision, Mission, and Values
 Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to elevate, activate and communicate the value of Sourcegraph to the world. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, offering full-service creative support with a rapid, flexible, iterative process that stems from a deep understanding of our products, our processes, and our people.
 
 In addition to increasing awareness and positive perception of the Sourcegraph brand, we strive to amplify the voices of our users and partners, by conceptualizing and producing best-in-class creative that leans heavily on storytelling and narrative to drive engagement and sharing. Our primary goal is to build and strengthen the connection between our brand and our audience as a means to increasing loyalty and retention by providing a better experience for our users.
 
-We are:
+We are: <br>
 - Lean - small but efficient team that leverages vendors and contractors to scale support
 - Agile - move fast, adapt, and change directions easily based on the market and goals
 - Effective - strive for quantifiable results and outsized impact; everything has a “why”.
