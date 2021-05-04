@@ -101,3 +101,17 @@ Copy
 - [Why have a vision and mission statement?](sourcegraph_in-house_brand_team.md)  
 - [Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)  
 - [Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)  
+
+
+## Open Questions
+This charter isn’t meant to have ALL the answers; rather, it’s meant to to be a living document that can change and adapt over time, while providing some frameworks and operational processes that help ensure smooth collaboration and successful partnering internally. A few of the top-of-mind questions that we still want to answer include:
+
+- How do we decide what to do in-house and when to bring agencies on board?
+- How do we determine the final decision-maker on creative and/or production techniques, assuming the content and message are approved by key internal stakeholders?
+- What percentage of work should we aim to complete in-house?
+- What is a realistic percentage of work that we need to ensure Brand team reviews, before leaving the house?
+- How do we measure success as a team/department within Marketing? Within Sourcegraph?
+- How do we ensure our work is laddering up to overarching Sourcegraph strategy and goals?
+- How can we prove the value of the service we provide to ensure earlier involvement?
+- How does our team think about creativity and the creative process?
+- Who are the final decision-makers for brand-level changes, updates, or launches?
