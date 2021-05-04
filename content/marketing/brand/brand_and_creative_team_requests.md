@@ -1,13 +1,15 @@
 # Brand and Creative Team Requests
 
-1. You send an email to brand@sourcegraph.com. (Coming soon: Google forms for Tier 3 & 4 requests!)
-1. We read it and reply with one of three most likely options:
+1. Send a request through the [Creative Requests Form](https://docs.google.com/forms/d/e/1FAIpQLSdkmXj9jSMOyBoh7QUo2uAHdX6zZ9Ybk3Q9UpszIFYwyLazFQ/viewform)
+1. We receive it and reply with one of three most likely options:
 	1. We’re able to support the work directly and will schedule a kickoff or request more information;
 	1. We’re able to support indirectly and will help source and manage a vendor;
 	1. We’re unable to support right now and will connect you directly with a trusted vendor, contractor, or other resource (such as a template).
 1. If we’re able to support your request directly or indirectly, we send you an Asana Form with a few fill-in-the-blank questions that automatically generates a Project Card for us.
 1. If we aren’t able to support, we will facilitate an introduction to a trusted partner from our Preferred Vendor Network (PVN) of creative partners.
 1. We meet with you and your team to gather more info for a Creative Brief, which will include the background, goals, timelines, budget, and other important resources.
+
+*Have questions about the form or need help filling it out? Email us at brand@sourcegraph.com and we'll be happy to help.*
 
 ## Capabilities
 
