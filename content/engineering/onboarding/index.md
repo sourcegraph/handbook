@@ -19,19 +19,22 @@ You'll have to get some basics set up in your first few days:
 
 ## Manager checklist
 
+For Hiring Managers, visit the [Onboarding process for Hiring Managers](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-for-hiring-managers) page.
+
 Your manager should complete the following steps when you join:
 
 - Schedule a recurring [1-1](../../leadership/1-1.md).
-- Grant access to necessary services.
+- Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
     - Invite to relevant GitHub teams, including [@sourcegraph/everyone](https://github.com/orgs/sourcegraph/teams/everyone).
+  - [Productboard](https://sourcegraph.productboard.com)
+  - [Figma](https://figma.com)
+  - Add the user to the `gcp-engineering` [group](https://console.cloud.google.com/iam-admin/groups?orgonly=true&project=&folder=&organizationId=1006954638239&supportedpurview=organizationId) so they have access to our [Google Cloud Platform](../environments.md).
+- Grant access to necessary services.
   - [Sourcegraph organization on Sourcegraph.com](https://sourcegraph.com/organizations/sourcegraph/members)
   - [LSIF organization on GitHub](https://github.com/orgs/lsif/people) (optional; recommended for Code Intelligence team members)
   - [Buildkite](https://buildkite.com/organizations/sourcegraph/users/new)
-  - Add the user to the `gcp-engineering` [group](https://console.cloud.google.com/iam-admin/groups?orgonly=true&project=&folder=&organizationId=1006954638239&supportedpurview=organizationId) so they have access to our [Google Cloud Platform](../environments.md).
   - [Opsgenie](https://sourcegraph.app.opsgenie.com/settings/users/)
   - [Docker Hub](https://hub.docker.com/orgs/sourcegraph)
   - [Site24x7](https://www.site24x7.com) (optional; recommended for Distribution team members)
   - [HoneyComb.io](https://www.honeycomb.io/)
-  - Ask Christina to send an invite to [Productboard](https://sourcegraph.productboard.com)
-  - Ask a member of the Design team to invite as "Viewer" to [Figma](https://figma.com)
