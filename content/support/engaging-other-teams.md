@@ -129,10 +129,8 @@ If it turns our to be a general issue affecting multiple deployments, create an 
 ### Add the priority label
 Add a prioritization label to the Github issue, from `ce/p0` to `ce/p3` based on a combination of (1) the severity of the issue and (2) any relevant context that translates to level of urgency (for example, if a customer is in the sales process, issues have a higher degree of urgency):
 
-* `ce/p0`: System outages (`about`, `/search` (for sourcegraph.com only), or `docs` is fully unreachable) are always p0. At your discretion, we may also designate an issue p0 that results in the company's Sourcegraph instance being unusable.
-* `ce/p1`: All customer reported issues per our contractual p1 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas).
-* `ce/p2`: All customer reported issues per our contractual p2 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas).
-* `ce/p3`: All feature requests.
+* `cs/p1`: All customer reported issues per our contractual p1 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas).
+* `cs/p2`: All customer reported issues per our contractual p2 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas), including all feature requests.
 
 Selecting priority is more of an art than a science. Start with the issue and its severity and then move it up based on all relevant context (again, for example, are we in the sales process? does the customer have something happening that requires more immediate attention?)
 
