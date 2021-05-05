@@ -3,7 +3,7 @@
   This defines the maximum disruption we have agreed is allowable.
   We currently define this as 4-Hours across all public facing sites.
   For example, about.sourcegraph.com, sourcegraph.com & sourcegraph.com/search.
-  Services that don't
+  This does not currently include managed services which have RTO & RPO defined seperately. 
 
 # Recovery Point Time (RPO)
 
