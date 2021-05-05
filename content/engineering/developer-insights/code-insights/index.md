@@ -50,7 +50,7 @@ For more information about code insights, see the original [product document](ht
 
 ## Contact
 
-- [#code-insights-chat](https://sourcegraph.slack.com/archives/C014ZCKMCAV) channel or @codeinsights in Slack.
+- [#code-insights](https://sourcegraph.slack.com/archives/C014ZCKMCAV) channel or @codeinsights in Slack.
 - [team/code-insights](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights) label on GitHub.
 
 ## Goals and roadmap
@@ -76,7 +76,7 @@ Attendees are encouraged to add comments on talking points asynchronously before
 We plan and track our day-to-day work on our [Kanban board](https://github.com/orgs/sourcegraph/projects/118). Our current process is as follows:
 
 - Incoming tickets (e.g. from other teams) arrive in the _Inbox_ column.
-- Work is scheduled by adding a card to the _Planned_ column. This happens after talking through the next priorities in our [weekly sync](#weekly-sync) or raising something asynchronously in the #code-insights-chat Slack channel.
+- Work is scheduled by adding a card to the _Planned_ column. This happens after talking through the next priorities in our [weekly sync](#weekly-sync) or raising something asynchronously in the #code-insights Slack channel.
   - The _Planned_ column is an _ordered_ column, by priority. Priority is discussed on the team.
   - Work should not be moved into this column until it is ready for development.
   - Anything that needs design input gets the `needs-design` label and goes in the _Needs design_ column.

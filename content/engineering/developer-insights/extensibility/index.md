@@ -8,7 +8,7 @@ The extensibility team owns our code host and third-party integrations (includin
 - [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
 - [Jean du Plessis](../../../../company/team/index.md#jean-du-plessis-he-him) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#extensibility-eng}
   - [TJ Kandala](../../../../company/team/index.md#tharuntej-kandala-he-him)
-  - [Murat Sutunc](../../../../company/team/index.md#murat-sutunc-he-him)  
+  - [Murat Sutunc](../../../../company/team/index.md#murat-sutunc-he-him)
   - FQ2 frontend engineer hire
 
 ## Mission
@@ -17,9 +17,9 @@ Our mission is to bring the value of Sourcegraph to everywhere you work with cod
 
 ## Vision
 
-Sourcegraph powers your first stop for any information about your code, for any tool or website you use. 
+Sourcegraph powers your first stop for any information about your code, for any tool or website you use.
 
-1. Build a healthy ecosystem of Sourcegraph extensions, built by developers everywhere, who want to bring the power of existing developer tools they love into our platform. 
+1. Build a healthy ecosystem of Sourcegraph extensions, built by developers everywhere, who want to bring the power of existing developer tools they love into our platform.
 1. Build new paths to get value from Sourcegraph on other websites and IDEs.
 1. All of Sourcegraph's most powerful features are easily available on most any code host while using any browser thanks to native integrations and browser extensions.
 
@@ -41,7 +41,7 @@ _The extensibility team has many ownership areas, but not all of them are under 
 
 ## Contact
 
-- [#extensibility-chat](https://app.slack.com/client/T02FSM7DL/C01LZKLRF0C) channel or @extensibility on Slack
+- [#extensibility](https://app.slack.com/client/T02FSM7DL/C01LZKLRF0C) channel or @extensibility on Slack
 - [team/extensibility](https://github.com/sourcegraph/sourcegraph/labels/team%2Fextensibility) label and [@sourcegraph/extensibility](https://github.com/orgs/sourcegraph/teams/extensibility) team on GitHub.
 
 
@@ -68,7 +68,7 @@ We use a modern, flexible tech stack. Here are some of the technologies we use t
 ## Processes
 
 ### Backlog
-We use backlogs for tracking bugs, small features, and unplanned work. You can find the [extensibility backlog](https://github.com/orgs/sourcegraph/projects/116?fullscreen=true) on Github. Please note that we don't use the backlog for tracking work that is expressly planned in our [roadmap](https://sourcegraph.productboard.com/roadmap/2599047-extensibility-fy22-roadmap). 
+We use backlogs for tracking bugs, small features, and unplanned work. You can find the [extensibility backlog](https://github.com/orgs/sourcegraph/projects/116?fullscreen=true) on Github. Please note that we don't use the backlog for tracking work that is expressly planned in our [roadmap](https://sourcegraph.productboard.com/roadmap/2599047-extensibility-fy22-roadmap).
 
 To add an issue, tag it `team/extensibility` to notify the Extensibility team and put it in the "to triage" column of the board. Unless you're directly asked, only extensibility team members should move issues out of the "to triage" column on the board. A team member will confirm the issue is team-related and then move it to the appropriate column.
 
@@ -120,7 +120,7 @@ To ensure the team can be productive right from the start of an iteration we sta
       1. Any leftover issues that won't be complete from the prior iteration, and whether those issues should still be prioritized next iteration or moved to a backlog category.
       1. Feedback from the teammates
    1. The PM will prepare the current iteration project in GitHub with the relevant issues.
-   
+
 #### Progress monitoring
 
 We monitor the progress of the work in an iteration in the following ways:
@@ -147,7 +147,7 @@ We capture and assign actions to teammates to action. Teammates should consider 
 
 Teammates contribute to the retrospective asynchronously during the iteration by adding their thoughts to our [retrospective document](https://docs.google.com/document/d/1uLR_2ICQB3jSCtQ3ebpQqvUYg11IIm0ZRJ5LoZ_wp2M/edit). Teammates are highly encouraged to comment on points raised before the sync meeting in the document.
 
-We rotate who leads the retrospective to allow all teammates an opportunity to lead the session. Teammates can find the rotation schedule at the top of the [retrospective document](https://docs.google.com/document/d/1uLR_2ICQB3jSCtQ3ebpQqvUYg11IIm0ZRJ5LoZ_wp2M/edit). 
+We rotate who leads the retrospective to allow all teammates an opportunity to lead the session. Teammates can find the rotation schedule at the top of the [retrospective document](https://docs.google.com/document/d/1uLR_2ICQB3jSCtQ3ebpQqvUYg11IIm0ZRJ5LoZ_wp2M/edit).
 
 ### Code reviews
 

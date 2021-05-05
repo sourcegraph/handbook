@@ -1,15 +1,15 @@
 # Support Team Rituals
 
-Team rituals help maintain healthy communication, boundaries, and expectations between teammates and as a team. Our rituals can and should evolve as our team evolves. It is welcome to iterate on and experiment with our rituals. 
+Team rituals help maintain healthy communication, boundaries, and expectations between teammates and as a team. Our rituals can and should evolve as our team evolves. It is welcome to iterate on and experiment with our rituals.
 
 ## Asynchronous collaboration
 
-In order to stay in touch throughout the week and support each other, we share the following in our #customer-support-chat Slack channel...
+In order to stay in touch throughout the week and support each other, we share the following in our #customer-support-internal Slack channel...
 
-* **Weekly planning.** Every Monday we take some time to orient ourselves and then share with each other our intentions for the week. 
+* **Weekly planning.** Every Monday we take some time to orient ourselves and then share with each other our intentions for the week.
 * **Daily captain's log.** Every day as we go about our days, we share things we learn/read/hear that are important for us to all know. Yes, we are all in the same channels, but a lot happens in Slack every day and this is how we collectively stay on top of things.
 * **Weekly reflection.** Every Friday we take some time to reflect on the week and share a summary with each other.
-* **As-needed what you missed compilation.** When someone is not working, before they are out, they share a doc for the rest of the team to populate with anything we want to be sure they are aware of from when they were away 
+* **As-needed what you missed compilation.** When someone is not working, before they are out, they share a doc for the rest of the team to populate with anything we want to be sure they are aware of from when they were away
 
 ## Synchronous collaboration
 
@@ -36,5 +36,5 @@ In order to keep the air clear with each other, we do the following:
 * We make it clear when are committing to do something, we make it equally clear when we cannot, and we adjust and communicate accordingly when life happens
 * We let each other know immediately when we are feeling like it's anything other than feasible to get done what we have committed to doing
 * We let each other know immediately the moment we realize something we committed to doing may be at risk somehow
-* We let each other know when we are unavailable by posting in our #customer-support-chat Slack channel, setting our Slack status, blocking our personal calendar, and marking the CS team calendar
+* We let each other know when we are unavailable by posting in our #customer-support-internal Slack channel, setting our Slack status, blocking our personal calendar, and marking the CS team calendar
 * When we are out for more than a day or two, we create a "what did I miss" doc in our [shared drive folder](https://drive.google.com/drive/u/1/folders/1w-4j9T1z1GxnpvSbr_o5VRVxkct7w27O) for our teammates to populate with things we need to catch-up, be aware of when we return.

@@ -6,7 +6,7 @@ Our onboarding is centered on outcomes: With X time interval, we expect Y outcom
 
 As you complete the company onboarding checklist, let yourself really spend time getting to know the handbook. For each item on the checklist that takes you to the handbook, set a timer for 90 minutes and just let yourself click and read, click and read. For example, when you get to the item “Read handbook page on communication,” click into the sub links listed on that page and read those, too.
 
-Your first week will be very reading intensive. As you read, share your thoughts, reactions, and questions in our #customer-support-chat Slack channel. It makes it a little more interactive and less tedious.
+Your first week will be very reading intensive. As you read, share your thoughts, reactions, and questions in our #customer-support Slack channel. It makes it a little more interactive and less tedious.
 
 Okay, stop! Head back over to the company onboarding checklist and finish it (if you haven't done so already). Then, come back here and dig in!
 
@@ -25,7 +25,7 @@ Welcome back! Let’s get started....
 * Review our [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (objectives and key results) to see what we believe are the most important things for us to do this year. These frame our decision making. When we are confronted with conflicting priorities, our first step is to ask ourselves … if this takes away our ability to complete an OKR, does that mean it’s more important than the OKR? It might be, but this gut check makes sure we are spending our time in the right way. If OKRs are new to you, Virginia can give you a crash course on what they are, their value, and how to work with them.
 * Read [this article](https://www.infoworld.com/article/3514213/sourcegraph-universal-code-search-and-intelligence.html) that summarizes the value of Sourcegraph
 * Plan to watch this [product demo recording](https://www.youtube.com/watch?v=iTBTri_q5MA&feature=youtu.be) once a week for your first 3-4 weeks. It will be repetitive, but each week, more and more will start to click. Start this week!
-* Read [our support overview](index.md) (including the sub links). Post any questions you have in our #customer-support-chat Slack channel
+* Read [our support overview](index.md) (including the sub links). Post any questions you have in our #customer-support-internal Slack channel
 * Be sure you are invited to and start attending the weekly CSE planning/retro session and weekly CSE “cheers” huddle as outlined in our [rituals](support-team-rituals.md).
 * Schedule introductory chats with every member of [the Customer Engineering org](https://about.sourcegraph.com/handbook/ce#members). It’s okay to schedule these over your first few weeks, however you see fit. To schedule the chat with Quinn, work with Katerina (his executive business partner and responsible for his calendar).
 * Schedule an introductory chat with Katerina, too! As Quinn's executive business partner, she is part of the CE team right now and just a lovely person to spend time with. We will likely pull her in as we work to solve problems for how our team operates, since she will be able to help us understand if we should be coordinating more broadly, etc.
@@ -49,23 +49,23 @@ Welcome back! Let’s get started....
 	* ProductBoard (managed by our product team and we may sometimes need access to understand feedback from customers relevant to support)
 	* Jira Service Desk (our legacy tool for support cases and some good examples to look through)
 	* Zendesk (our current tool for support!)
-* Verify you are in the following Slack channels (and join them if not) -- if you have any questions about the purpose or value of a particular channel (not all of them have updated descriptions or topics), ask in #customer-support-chat. It’s a lot of channels and can feel super overwhelming. Sometimes it helps to use Slack’s section functionality so you can organize all of them by those you need to pay attention to more frequently vs those you can look at whenever.
+* Verify you are in the following Slack channels (and join them if not) -- if you have any questions about the purpose or value of a particular channel (not all of them have updated descriptions or topics), ask in #customer-support-internal. It’s a lot of channels and can feel super overwhelming. Sometimes it helps to use Slack’s section functionality so you can organize all of them by those you need to pay attention to more frequently vs those you can look at whenever.
 	* Team channels
-		* customer-support-chat: This is where we collaborate with each other!
+		* customer-support-internal: This is where we collaborate with each other!
 		* customer-support: This is our channel where we collaborate with those outside of the team
 		* ce: This is where our CE teammates (and sometimes us) collaborate with folks outside of the team about things that are relevant to both CEs and CSEs or just CEs
-		* ce-team-chat: This is similar to #customer-support-chat, but also includes the CEs. Most of our chatter is in #customer-support-chat, but if it’s chatter AND relevant to our CE counterparts, post here.
+		* ce-internal: This is similar to #customer-support-internal, but also includes the CEs. Most of our chatter is in #customer-support-internal, but if it’s chatter AND relevant to our CE counterparts, post here.
 		* customer-updates: Where folks post updates about specific customers
 		* docs: This is a channel run by product (they are accountable for our official documentation), but we will likely be in here a lot collaborating as we start to help with docs
 		* feedback: Where the NPS (net promoter score) bot posts responses from customers, we post feedback manually we get from other interactions (like support cases) -- sometimes a NPS response indicates a customer is having a support issue
 	* All the super important company channels to stay informed of what is happening: #general, #handbook, #hiring, #progress, #rfcs, #any-question, #thanks, #buddies, #analytics
 	* Whichever of the social channels strike your fancy, for example: #books, #cooking, #kids-of-sourcegraph, #pets-of-sourcegraph, #random, #side-project, #ted-talks, #today-i-learned, #trash-tv (this is definitely not an exhaustive list)
-	* All the product/engineering channels (it can be hard to stay up on all of them all the time, but that is what our daily captain’s log ritual is meant to help with): #dev-ops (probably most important since this seems to the channel where we post about 🔥 emergency issues), #dev-announce, #dev-chat, #dev-rel, #security-chat, #backend-platform, #batch-changes, #code-insights-chat, #code-intel, #core-application, #design, #developer-experience, #distributioneers, #eng-pulse, #extensibility-chat, #frontend-platform-chat, #product, #web-chat
-	* All the other team channels so we can see what is going on with all of our teammates across the company and pitch in when we think we might add value: #it-tech-ops, #marketing, #people-ops, #sales, #sales-chat, #sales-ops, #sales-resources
+	* All the product/engineering channels (it can be hard to stay up on all of them all the time, but that is what our daily captain’s log ritual is meant to help with): #dev-ops (probably most important since this seems to the channel where we post about 🔥 emergency issues), #dev-announce, #dev-chat, #dev-rel, #security, #backend-platform, #batch-changes, #code-insights, #code-intel, #core-application, #design, #developer-experience, #distributioneers, #eng-pulse, #extensibility, #frontend-platform, #product
+	* All the other team channels so we can see what is going on with all of our teammates across the company and pitch in when we think we might add value: #it-tech-ops, #marketing, #people-ops, #sales, #sales-internal, #sales-ops, #sales-resources
 	* All the channels that could have support issues reported in them: ALL the #support- and #trial- channels … there are a lot of them, #twitter (we will have a workflow set-up for marketing to alert us if we need to engage, but it’s still good to be aware as time allows) -- these will be linked to Zendesk, so we don’t monitor these as much as be sure we have quick access when we need to engage in a thread
-	* Feel free to browse all the channels and join anything else that looks relevant or interesting to you and share with the rest of the team in #customer-support-chat
+	* Feel free to browse all the channels and join anything else that looks relevant or interesting to you and share with the rest of the team in #customer-support-internal
 * Join the following developer communities to help make sure folks talking about Sourcegraph are getting their questions answered:
-	* Gopher Slack community. Gophers Slack is a thriving, real-time messaging community. If you are looking to get immediate answers to questions or join in the conversation about Go with other Gophers, this is the place to be. Post in #customer-support-chat so a member of the team can add you. You will need to join with your personal email address so our presence feels helpful and not sales-y.
+	* Gopher Slack community. Gophers Slack is a thriving, real-time messaging community. If you are looking to get immediate answers to questions or join in the conversation about Go with other Gophers, this is the place to be. Post in #customer-support-internal so a member of the team can add you. You will need to join with your personal email address so our presence feels helpful and not sales-y.
 * Read [Our ABC’s Always Be Coding](https://about.sourcegraph.com/blog/our-abcs-always-be-coding-childrens-book/). It’s just cute and so why not!? It’s also a great source of inspiration when trying to simplify complex ideas.
 
 
@@ -79,20 +79,20 @@ Welcome back! Let’s get started....
 
 ### In order to ensure the above declarations are true, you will complete the following tasks:
 
-* Write your first weekly planning post (one of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-chat Slack channel.
-* Start contributing to the daily captain’s log thread (another of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-chat Slack channel.
+* Write your first weekly planning post (one of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-internal Slack channel.
+* Start contributing to the daily captain’s log thread (another of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-internal Slack channel.
 * Learn about who our customers are by checking out the [personas](https://about.sourcegraph.com/handbook/marketing/personas) overview and how Sourcegraph is useful for them by reading a few [case studies](https://about.sourcegraph.com/case-studies).
 * Explore the [product overview](https://about.sourcegraph.com/) and for each feature, explore the related [documentation](https://docs.sourcegraph.com/getting-started).
 * Spend some time getting familiar with [the Sourcegraph glossary](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/docs/glossary.md)
 * Read the last few release blog posts on [our blog](https://about.sourcegraph.com/blog) and decide how you want to remember where to find this to look at later and often (when a customer has an issue, it’s possible it could be caused by something in a recent release)
-* Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install) using the `docker-compose` flow. This will be one of your test environments. If you get stuck, just post in our #customer-support-chat Slack channel to start and if we get stuck as a team, we will see if our CE counterparts can help by asking them in #ce-chat. Watch [Dave’s Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1JqQlrmGX8u_EuhNptj-qrzuZ4RifhTuF) for an understanding of that setup process, too.
-* Set up a [local environment](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md). This will be your other test environment. If you get stuck, just post in our #customer-support-chat Slack channel to start and if we get stuck as a team, we will get help in #any-questions. You will often want to run Sourcegraph locally when you are troubleshooting.
+* Get a Sourcegraph instance [deployed](https://docs.sourcegraph.com/admin/install) using the `docker-compose` flow. This will be one of your test environments. If you get stuck, just post in our #customer-support-internal Slack channel to start and if we get stuck as a team, we will see if our CE counterparts can help by asking them in #ce. Watch [Dave’s Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1JqQlrmGX8u_EuhNptj-qrzuZ4RifhTuF) for an understanding of that setup process, too.
+* Set up a [local environment](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md). This will be your other test environment. If you get stuck, just post in our #customer-support-internal Slack channel to start and if we get stuck as a team, we will get help in #any-questions. You will often want to run Sourcegraph locally when you are troubleshooting.
 * Add Sourcegraph as [a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our internal dogfood instance (`k8s.sgdev.org`) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 * Install a text editor of your choice.
 * Add your profile picture to Zendesk (update this to the avatar provided by Sourcegraph when you get it)
 * Bookmark our [support plans](https://about.sourcegraph.com/support/) for reference
 
-* Start monitoring Zendesk for new support issues and try to be accountable for at least one by the end of the week. It is okay if we miss SLA for these first few cases. Take your time trying to figure out the right initial response, following our [workflow](support-workflow.md) steps. This will feel painful and tedious for a bit -- this is a reflection of our team being so nascent and the opportunity we have to make this better (not of your ability). Work as a team to solve issues, run responses by each other, etc. The more activity we have in our #customer-support-chat Slack channel, the better. Virginia will also do a walk through the first day of this week and review your first 5 initial responses before you send them. We want to be sure you feel supported and set-up for success.
+* Start monitoring Zendesk for new support issues and try to be accountable for at least one by the end of the week. It is okay if we miss SLA for these first few cases. Take your time trying to figure out the right initial response, following our [workflow](support-workflow.md) steps. This will feel painful and tedious for a bit -- this is a reflection of our team being so nascent and the opportunity we have to make this better (not of your ability). Work as a team to solve issues, run responses by each other, etc. The more activity we have in our #customer-support-internal Slack channel, the better. Virginia will also do a walk through the first day of this week and review your first 5 initial responses before you send them. We want to be sure you feel supported and set-up for success.
 
 Big pause here. These next tasks need a ton of improvement -- as mentioned in the last bullet! They are all supposed to help you learn the product and get more comfortable doing the job. Work with what is here and take abundant notes for how this can be improved.
 
@@ -104,7 +104,7 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 	* [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture)
 	* [https://kube.academy/](https://kube.academy/)
 * Read about [search queries](https://docs.sourcegraph.com/code-search) and perform your first searches.
-* Work through the questions from the [Sales Onboarding Quiz](https://about.sourcegraph.com/handbook/sales/onboarding/quiz) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have in our #customer-support-chat Slack channel.
+* Work through the questions from the [Sales Onboarding Quiz](https://about.sourcegraph.com/handbook/sales/onboarding/quiz) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have in our #customer-support-internal Slack channel.
 * Explore our official [documentation](https://docs.sourcegraph.com/getting-started). Get used to navigating it and trying to find what you need in it. We know we have a lot of opportunity for improvement -- more on that soon!
 * Explore the sections of the handbook for each engineering team. Get used to trying to find answers in the handbook as much as our documentation.
 	* [Distribution](https://about.sourcegraph.com/handbook/engineering/distribution)
@@ -118,7 +118,7 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 * Watch [Marek’s repo and codebase tour](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing). It’s a quick high-level overview of the Sourcegraph repo on Github and a tour of important directories. He made it for engineers during onboarding.
 * Explore issues customers have reported in the past in Jira and in our #support- Slack channels. Get a sense of how the back and forth goes, the issues, the resolutions … all aspects of our [workflow](support-workflow.md)
 
-* Write your first weekly reflection post (another of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-chat Slack channel.
+* Write your first weekly reflection post (another of our [rituals](support-team-rituals.md)). You can see examples in our #customer-support-internal Slack channel.
 
 
 ## By the end of your first month, the following will be true...

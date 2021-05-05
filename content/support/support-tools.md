@@ -5,7 +5,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 ## Internal collaboration
 * Slack is our primary communication tool.
 * Github is where our handbook lives.
-* Zoom is how we connect synchronously. 
+* Zoom is how we connect synchronously.
 * Gmail is mostly for notifications.
 * Google calendar is for your calendar, as well as shared calendars (like the CS team calendar).
 * Gsuite is for drafts, slide decks, and spreadsheets.
@@ -29,7 +29,7 @@ A placeholder to be populated over time as the team onboards and ramps-up
 
 
 ## Zendesk
-This section captures our Zendesk protocol and configuration decisions. 
+This section captures our Zendesk protocol and configuration decisions.
 
 ### Access
 * CSEs have agent access
@@ -39,14 +39,14 @@ This section captures our Zendesk protocol and configuration decisions.
 	* All Zendesk tickets (and the entire comment history) manifest in Salesforce on the customer's record (this needs to be implemented)
 	* When we create a Github issue from Zendesk, that also pulls in the conversation history in Github for engineering to see
 
-### Web vs desktop vs mobile app	
+### Web vs desktop vs mobile app
 The best way to use Zendesk as an agent is via the web app. The mobile app is nice, but installing such apps on your phone can make it harder to take a break from work. Really consider this before you download the app to your phone. The desktop app is very limited and best to not even bother with.
 
 ### When to be logged in and monitoring the queue
-Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday - Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](support-schedule.md). Otherwise, if you need to focus, just let the team know in our #customer-support-chat Slack channel so we can coordinate and make sure to have you covered!
+Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday - Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](support-schedule.md). Otherwise, if you need to focus, just let the team know in our #customer-support-internal Slack channel so we can coordinate and make sure to have you covered!
 
 ### Notifications
-Set your notifications however you see fit to make sure you are able to help monitor the queue. 
+Set your notifications however you see fit to make sure you are able to help monitor the queue.
 
 ### Views
 When you log into Zendesk, all tickets are organized by the following views:
@@ -69,11 +69,11 @@ When you close a ticket, these are the required fields you must populate:
 * **Did I update customer data?** Designates whether you gathered important technical details about the customer and took the time to help out Distribution team and followed the steps outlined [here](https://about.sourcegraph.com/handbook/ops/bizops/customer_environment_questions) as noted in step 10 of our [workflow](support-workflow.md). *We will likely eventually remove this field.*
 * **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to our OKRs to improve our docs. *Note: temporarily for 2021-04 and 2021-05, it's okay to link to an Asana task you created to do the update instead of a PR update as we all get used to doing docs updates, continue to onboard.*
 * **Is this ticket a good example for dev ed?** Designates whether the details of the ticket are good to share with our dev ed team on a monthly or quarterly cadence. *We will likely eventually remove this field.*
-* **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion. 
+* **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion.
 * **Did I go above and beyond what we support?** Designates whether we needed to go above and beyond what we want to support. This will help us understand how often this happens and usually looks like having to educate the customer on something we would want them to know already about their own infrastructure. *We will likely eventually remove this field.*
 * **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 * **Official type:** Designates whether this is a question, defect report, or help request
-* **Official priority:** Designates whether the priority is p0, p1, or p2 per our definitions outlined in our [prioritization guidelines](support-prioritization.md). 
+* **Official priority:** Designates whether the priority is p0, p1, or p2 per our definitions outlined in our [prioritization guidelines](support-prioritization.md).
 * **Engineering team:** Designates which engineering team is responsible for the part of the product or feature associated with the ticket (think, if I got help/needed help which engineering team did I go to/would have gone to?)
 
 ### Why there are duplicate ticket data fields
@@ -93,7 +93,7 @@ The schedule in Zendesk reflects our SLA hours and is set to 9-5 pacific, Monday
 
 Since we are global team, we do not add every holiday that everyone celebrates. We only add the holidays where the majority/all of the team is unavailable.
 
-The SLA timer reflects our most aggressive SLA and for many customers, we have more time to respond and invoke this latitude as necessary as outlined in our [prioritization guidelines](support-prioritization.md). 
+The SLA timer reflects our most aggressive SLA and for many customers, we have more time to respond and invoke this latitude as necessary as outlined in our [prioritization guidelines](support-prioritization.md).
 
 ### Default to private/internal notes
 We have Zendesk set to default to private/internal notes. Since much of our work happens in Slack and we only use internal notes, this ensures we are not sending out-of-context emails by forgetting to change the toggle.
@@ -117,7 +117,7 @@ We use the following apps to streamline our workflow:
 * Once we (and the customer) deem the case solved, we mark the case solved. After an hour of doing so, Zendesk automatically emails a request for feedback on whether the support experience was good or bad. *Note: this email does not go to folks initiating help requests in our #support- and #trial- Slack channels.*
 
 ### https://sourcegraph.zendesk.com/
-This page is only open for customers who want to login into Zendesk to see all support requests for their organization. 
+This page is only open for customers who want to login into Zendesk to see all support requests for their organization.
 
 * When folks try to access this page and have not been granted access as outlined in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit), they see this message: "This page is for Sourcegraph customers who would like to view all support requests in one place. The page will not function without a little configuration first. Email support@sourcegraph.com to get set-up."
 * When folks have permission to login as noted in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit), they see this message: "To view all support requests from your organization in one place, select "my activities" from the menu under your profile avatar."

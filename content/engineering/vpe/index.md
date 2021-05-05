@@ -18,5 +18,5 @@ This page documents the team that reports to the VP of Engineering.
 
 We have a 1hr sync every Monday at 9:30am PT.
 
-- This meeting is recorded and automatically posted to #eng-manager-team.
+- This meeting is recorded and automatically posted to #eng-manager-internal.
 - Our [meeting notes](https://docs.google.com/document/d/1nZTGua3cdMTJLwANlBZNX2uXiDXLuYDBkH9tehwdqTY/edit#) are also internally available to the whole team.

@@ -4,7 +4,7 @@ This page documents resources that are relevant and valuable to anyone on the en
 
 ## Slack
 
-- #eng-manager-team is a public channel where engineering managers can discuss work as a [first team](https://lethain.com/first-team/).
+- #eng-manager-internal is a public channel where engineering managers can discuss work as a [first team](https://lethain.com/first-team/).
 - #leadership-chat is a public channel (not specific to engineering) where anyone can discuss and share information of general interest to leadership at Sourcegraph.
 - #manager-team is a private channel where managers across functions can solicit advice from and share info with fellow managers about topics that they do not feel comfortable discussing in #leadership-chat for any reason.
 

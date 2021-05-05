@@ -7,4 +7,4 @@ The CE team should take the first pass on inbound questionnaires using the [list
 
 ### Customer security questions
 
-If customers have specific security questions, first run them by the #ce slack channel. If nobody has context, or we're unsure of how to phrase things, crosspost to #security-team.
+If customers have specific security questions, first run them by the #ce slack channel. If nobody has context, or we're unsure of how to phrase things, crosspost to #security-internal.

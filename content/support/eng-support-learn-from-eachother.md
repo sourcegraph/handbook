@@ -7,9 +7,9 @@ CS categorizes all customer inquiries so that we can get better insight into tre
 
 ## Team rotations
 
-* **CSEs rotate on Distribution.** As part of CSE onboarding, sometime during a CSE’s first or second month, they join the Distribution team for an iteration. During this period, it’s as if the CSE is part of the Distribution team, pairing with members of Distribution to learn as much as possible. The CSE stops taking new customer support tickets the Thursday prior to their rotation, so they have as little support work to follow-up on as possible during the rotation. (If a CSE feels a customer requires a transition of responsibility on a ticket, they can raise this to the team for discussion in our #customer-support-team Slack channel.) The CSE also does the rotation with the intent of sharing the knowledge they learn with the rest of their CSE teammates. 
+* **CSEs rotate on Distribution.** As part of CSE onboarding, sometime during a CSE’s first or second month, they join the Distribution team for an iteration. During this period, it’s as if the CSE is part of the Distribution team, pairing with members of Distribution to learn as much as possible. The CSE stops taking new customer support tickets the Thursday prior to their rotation, so they have as little support work to follow-up on as possible during the rotation. (If a CSE feels a customer requires a transition of responsibility on a ticket, they can raise this to the team for discussion in our #customer-support-internal Slack channel.) The CSE also does the rotation with the intent of sharing the knowledge they learn with the rest of their CSE teammates.
 * **CSEs rotate on other engineering teams.** Depending on interest and timing with all involved, CSEs may also do rotations in other teams. These will be carefully coordinated to make sure that we always have enough help available to our customers. If a CSE is interested, they can start the process by talking with Virginia to determine next steps.
-* **Members of engineering rotate on support.** There is tons of value in working directly with customers and seeing the variety of questions and issues that come up across our entire customer base. Any member of engineering who is interested in working in support for a day or even a week, just needs to let the support team in #customer-support-chat and we will make it happen. Starting in FY22Q2, all new hires in engineering will do a 3 day rotation in support as part of their onboarding, as well as an annual rotation.
+* **Members of engineering rotate on support.** There is tons of value in working directly with customers and seeing the variety of questions and issues that come up across our entire customer base. Any member of engineering who is interested in working in support for a day or even a week, just needs to let the support team in #customer-support-internal and we will make it happen. Starting in FY22Q2, all new hires in engineering will do a 3 day rotation in support as part of their onboarding, as well as an annual rotation.
 
 ## Pairings
 Pairings are different from rotations in that they are usually ad-hoc in nature and there is an event that results in a pairing being useful. For example, [the events outlined by the Batch Changes team](https://about.sourcegraph.com/handbook/engineering/batch-changes/supporting-batch-changes#support-pairing) or working on a ticket together. This is very much a “I have something useful for you” or “I have a question for you” and the best step for all involved is to work closely together on it, pairing style. A pairing could also happen while support follows the protocol to [engage other teams](engaging-other-teams.md). While that protocol is designed to foster our remote-first culture and allow for folks to work across timezone and asynchronously, the CSE or engineering team member can always initiate the idea of pairing on an issue if the situation/issue seems like it would benefit from it.
@@ -41,7 +41,7 @@ Whenever an engineer or a CSE has the desire/time to create training materials t
 
 1. Create it
 2. Upload it to [the enablement folder](https://drive.google.com/drive/folders/1SSOwnsX_yNFadod88AQOxmFiINDgYoRr) in the CS shared drive and/or on the handbook CS [enablement page](support-enablement.md)
- 
+
 ## Documentation
 We have a shared responsibility to maintain and improve docs.sourcegraph.com. Whenever a CSE identifies a gap or something that needs to be updated, we will either:
 
@@ -58,7 +58,7 @@ When we work on documentation, we…
 * ...default to explaining in text so it’s searchable (avoid screenshots)
 
 ## Troubleshooting documentation project
-Starting in FY22Q1 with a goal to complete in FY22Q2, CSEs are adopting an area of focus to specifically fill the gap of where to start troubleshooting when an issue surfaces. Giselle is leading this effort (if you have questions) and anyone can see our progress in this table (we simply mark when something is done and if you want more detailed status, you can check with support in #customer-support-chat). When a CSE is responsible for a focus, they will work with that team to capture all the good information about troubleshooting.
+Starting in FY22Q1 with a goal to complete in FY22Q2, CSEs are adopting an area of focus to specifically fill the gap of where to start troubleshooting when an issue surfaces. Giselle is leading this effort (if you have questions) and anyone can see our progress in this table (we simply mark when something is done and if you want more detailed status, you can check with support in #customer-support-internal). When a CSE is responsible for a focus, they will work with that team to capture all the good information about troubleshooting.
 
 |Focus|CSE Responsible|Status|
 |---|---|---|
@@ -88,6 +88,6 @@ Our [Frontend Platform team](https://about.sourcegraph.com/handbook/engineering/
 6. Read [how Sourcegraph tests web code](https://docs.sourcegraph.com/dev/background-information/testing_web_code)
 7. Explore [the frontend codebase ](https://github.com/sourcegraph/sourcegraph/tree/main/client)
 8. Explore [Frontend Platform GitHub issues](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform)
-9. Start with issues with the `good first issue` label 
+9. Start with issues with the `good first issue` label
 10. Chat with Virginia about your plan
 11. Let Patrick (engineering manager of the team) know which ticket you’d like to work on
