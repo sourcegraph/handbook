@@ -37,6 +37,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Eli Rothschild](../../company/team/index.md#eli-rothschild-he-him)
   - [Scott Cambell](../../company/team/index.md#scott-campbell-he-him)
   - [Hannah Freilich](../../company/team/index.md#hannah-freilich)
+  - [John Harwell](../../company/team/index.md#john-harwell)
 - [Greg Bastis](../../company/team/index.md#greg-bastis-he-him) (RVP of West)
   - [Owen Brennan](../../company/team/index.md#owen-brennan-he-him)
   - [Chris Surdi](../../company/team/index.md#chris-surdi)
