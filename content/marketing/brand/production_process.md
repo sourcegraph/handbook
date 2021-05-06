@@ -53,6 +53,5 @@ Select the file in Drive to open this submenu, then ‘Add a description’
 
 
 ## Additional Resources:
-- [Asset management](assets_management.md)  
 - [Sourcegraph Preferred Vendor Network (aka The Network)](the_network.md)  
 - [Success metrics](success_metrics.md)  
