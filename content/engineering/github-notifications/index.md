@@ -22,7 +22,7 @@ Everyone should have these notifications enabled so that you are notified when s
 
 This option will send you the firehose of notifications for all of the repositories that you are watching (and by default this is all repositories in the Sourcegraph org when you join it). There are two reasons why you might want to do this:
 
-1. So that you can search your email to find conversations that are not involved in.
+1. So that you can search your email to find conversations that you are not involved in.
 2. So that if you are added to an existing conversation in a PR or issue, you will have the complete conversation in your email already.
 
 If you enable email notifications for watched repositories then you will want to setup some email filters (otherwise your email inbox will be overwhelmed and important things will get buried). You should _not_ attempt to read every issue and PR that doesn't involve you.
@@ -48,7 +48,7 @@ You may want to have Slack notify you in real-time when someone comments on your
 
 1. Add the GitHub App to Slack
 
-2. Open a direct message with the app and type `/github settings` and follow the prompts to sign into GitHub.
+2. Open a direct message with the app and type `/github signin` and follow the prompts to sign into GitHub.
 
 3. Navigate to [https://github.com/settings/reminders/sourcegraph](https://github.com/settings/reminders/sourcegraph)
 ![Real-time Notifications](real-time.png)
