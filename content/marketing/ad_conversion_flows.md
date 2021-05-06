@@ -18,11 +18,11 @@ Each Tag defines a Category, Action, and Label. These are used for scoping down 
 
 If you want to add a new tag specifically for a conversion, lean towards being specific rather than broad.
 
-1. Google Analytics
+2. Google Analytics
 
 In Google Analytics, we define Goals. You can find these goals in `Admin > Goals`. Goals are defined by specifying the Event Category, Action (optional), and Label (optional) that should match for a specific goal. Using the form submission example, if we wanted to count a conversion for any HubSpot form submission, we would specify a Goal that matches on any event where the Event Category matches "HubSpot Form". If we wanted to create a conversion for form submissions only on the `/contact/sales` page, we would define a Goal that matches on any event matching Event Category "HubSpot Form" and an "Event Action" of `/contact/sales`. As a reminder, these Actions and Labels are set in Google Tag Manager in the step above.
 
-1. Google AdWords
+3. Google AdWords
 
 In AdWords, you can see the conversion goals that are synced from Google Analytics via `Tools and Settings > Measurements > Conversions`. Several charts in AdWords show the performance of our campaigns based on their conversion rates.
 
@@ -34,7 +34,7 @@ Bing ads are set up very similarly to Google Ads. However, you need to ensure a 
 
 Tags for Bing ads function the same as Google ads. However, creating Tags to send events to Microsoft Advertising requires knowing the UET tag. You can get this after you've created a goal in the Microsoft ad platform.
 
-1. Microsoft Advertising
+2. Microsoft Advertising
 
 In the Microsoft Advertising platform, create a new goal (or ensure the goal you want to measure already exists) by going to `Tools > Conversion tracking > Conversion goals > Create a conversion goal`. Similar to Google Analytics, specify the Event Category, Action, Label to match on.
 
@@ -46,10 +46,10 @@ LinkedIn campaigns are significantly different from Bing and Google. For LinkedI
 
 In GTM, we need to create Triggers that match exactly the Conversion Goals that we want. Triggers are the events that cause Tags to run. These Triggers would need to specify the same Category/Action/Label values as Conversion Goals in Microsoft Bing Advertisements and Goals in Google AdWords.
 
-1. LinkedIn Campaign Manager
+2. LinkedIn Campaign Manager
 
 In LinkedIn Campaign Manager, add a Conversion. Here, you just specify the name of the Conversion, a window of time (30 days and 1 day) that conversions should log after clicking an ad, and the campaigns you want included for conversion tracking. At the end of the process, you will get an event specific pixel. Copy this.
 
-1. Google Tag Manager (part 2)
+3. Google Tag Manager (part 2)
 
 In GTM, create a Tag of type `Custom Image` that mirrors the Conversion Goals in Microsoft Bing Ads and Google AdWords, using the Triggers you created in step 1. For each Tag, copy the pixel you got from creating the Conversion from LinkedIn Campaign Manager, and input the value in the Image URL field.
