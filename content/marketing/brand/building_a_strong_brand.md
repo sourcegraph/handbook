@@ -20,6 +20,8 @@ A strong brand can also help reduce perceived risks (performance, financial, opp
 - [Why branding is important in tech](https://medium.com/@samanthatoy/why-branding-is-important-in-tech-17fd5aedb44f)  
 - [The 6 biggest branding errors most startups make](https://www.entrepreneur.com/article/277233)  
 - [The (other) 6 mistakes to avoid when building a brand](https://www.entrepreneur.com/article/271353)  
+- [The benefits of making brand guidelines public](https://www.brandingmag.com/2021/04/07/why-are-brands-no-longer-keeping-their-guidelines-under-lock-and-key/) 
+
 
 ## Additional Resources:
 - [Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)  
