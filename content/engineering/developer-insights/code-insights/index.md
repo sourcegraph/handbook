@@ -84,6 +84,8 @@ We plan and track our day-to-day work on our [Kanban board](https://github.com/o
 - There should never be more than a couple of cards in the _In Progress_ column at the same time. If we paused work on something (e.g. because priorities changed), it should be moved back to _Planned_ or _Icebox_ as appropriate.
 - Things we triaged from the _Inbox_, but don't plan to work on, go into the _Icebox_.
 
+Note: we intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM. 
+
 ### Tracking Issues
 
 The team makes use of [tracking issues](../../tracking_issues.md) for tracking progress on the implementation of longer projects that need to be broken up into multiple issues.
