@@ -5,7 +5,7 @@ Our README expands on our profile in [the company team directory](https://about.
 * Adeola README
 * Beatrix README
 * Giselle README
-* Stompy README
+* Stompy [README](stompy-readme.md)
 * Warren README
 * Virginia README
 
