@@ -42,26 +42,21 @@ The CE team are experts on educating customers on how to use the product (use ca
 
 <!-- Alphabetically, by surname. -->
 
+- Aimee Menne (Director of Customer Engineering)
+- Customer Engineers (International/Non-US)
+  - [Christy Haragan](../../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
 - Customer Engineers (US West)
   - [Emily Chapman](../../company/team/index.md#emily-chapman-she-her)
   - [Jonah Dueck](../../company/team/index.md#jonah-dueck-he-him)
   - [Manuel Ucles](../../company/team/index.md#manuel-ucles)
-  - Aimee Menne (Director of Customer Engineering, US West)
 - Customer Engineers (US East)
   - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
   - [Mike McLaughlin](../../company/team/index.md#mike-mclaughlin-he-him)
   - [Alex Fogg](../../company/team/index.md#alex-fogg-he-him)
-  - Tia Wucher (Director of Customer Engineering, US East)
-- Customer Engineers (International/Non-US)
-  - [Christy Haragan](../../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering)
-
-- [Quinn Slack](../../company/team/index.md#quinn-slack) (CEO) is leading Customer Engineering for now.
-  - We are hiring for VP Customer Engineering and will have the role posted very soon.
 
 ## Roles
 
 - [Customer Engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-- VP of Customer Engineering (to be posted soon)
 
 ## Meetings
 
