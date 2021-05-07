@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="/assets/about-style-guide.css?v=025" />
+
 # Brand Guidelines
 
 >All notes in ***italized bold text*** 
@@ -50,11 +52,18 @@ For more information about approximate sizing of headlines for web and print use
 
 <!-- Headline 5 20pts -->
 
-## Colors
+## Primary Brand Colors
 
-***Ideally this is an image with text?***
+***Add color boxes before each section***
 
 **Sourcegraph Blue**
+
+<div class="input-color">
+    <input type="text" value="Orange" />
+    <div class="color-box" style="background-color: #00CBEC;"></div>
+    <!-- Replace "#FF850A" to change the color -->
+</div>
+
 
 PMS 312 C
 
