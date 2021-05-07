@@ -16,31 +16,39 @@ Download all logo formats ***(add link to Husbspot folder)***
 
 ## Primary Typefaces
 
+Our primary company typeface is Source Sans. Our typefaces work cohesively to clearly present data in a modern, accessible, open, and informative way, that aligns with our brand voice and values. The Source type family is Adobe’s first open source typeface, designed by Paul D. Hunt. It is intended to be extremely legible in both print and digital uses.    
+
+The Source type family was selected for three primary reasons:    
+1. Because it is fully open source and this aligns with our values as a company;    
+1. It provides a sans serif and a code typeface that is useful for showing code snippets on marketing web pages;   
+1. It refers back to the name of our own company — a perfect match. 
+
+
 [Get Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro#standard-styles)
 
-***Add example***
+<!-- ***Add example*** -->
 
 [Get Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)
 
-***Add example***
+<!-- ***Add example*** -->
 
-## Headlines
+## Headlines and body copy
 
-Approximate sizing of Headlines for web
+For more information about approximate sizing of headlines for web and print use, plus typographical guidance for body copy, please download our complete Brand Guidelines. ***(add link to Hubspot folder)***
 
-***Replace examples below with extra light or semi bold text and correct sizes***
+<!-- ***Replace examples below with extra light or semi bold text and correct sizes***
 
-Headline 1 64 pts
-Sub Headline 2 48pts
+<!-- Headline 1 64 pts -->
+<!-- Sub Headline 2 48pts -->
 
-Headline 2 48pts
-Sub Headline 3 30pts
+<!-- Headline 2 48pts -->
+<!-- Sub Headline 3 30pts -->
 
-Headline 3 30pts
+<!-- Headline 3 30pts -->
 
-Headline 4 24pts
+<!-- Headline 4 24pts -->
 
-Headline 5 20pts
+<!-- Headline 5 20pts -->
 
 ## Colors
 
@@ -50,46 +58,46 @@ Headline 5 20pts
 
 PMS 312 C
 
-R 0    
-G 203
-B 236
+R 0   
+G 203   
+B 236   
 
 HEX 00CBEC
 
-C 100
-M 15
-Y 0
-K 5
+C 100   
+M 15    
+Y 0   
+K 5   
 
 **Sourcegraph Violet**
 
 PMS 2084 C
 
-R 161
-G 18
-B 255
+R 161   
+G 18    
+B 255   
 
 HEX A112FF
 
-C 35
-M 90
-Y 0
-K 0
+C 35    
+M 90    
+Y 0   
+K 0   
 
 **Sourcegraph Coral**
 
 PMS 7625 C
 
-R 255   
-G 85
-B 67
+R 255     
+G 85    
+B 67    
 
 HEX FF5543
 
-C 0
-M 65
-Y 75
-K 0
+C 0   
+M 65    
+Y 75    
+K 0   
 
 
 
