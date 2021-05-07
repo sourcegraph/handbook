@@ -45,7 +45,8 @@
     - [Sarah Reece](https://about.sourcegraph.com/company/team#sarah-reece-she-her), Director of Demand Generation
         - Lori Heyman, Digital Marketing Programs
     - Tommy Pesavento, Director of Brand Design
-        - We will be hiring a brand design team
+        - Fabiana Castellanos, Project Coordinator, Brand
+        - We are building a brand team
     - [Samson Goddy](https://about.sourcegraph.com/company/team#samson-goddy-he-him), Director of Community
         - [Vanesa Ortiz](../../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
         - We will be hiring developer advocates
