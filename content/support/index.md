@@ -112,9 +112,9 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 
 
-## Our Service Level Agreements (SLAs)
+## SLAs
 
-We strive to maintain the response and resolution times below.
+To honor our service level agreements (SLAs), we strive to maintain the response and resolution times below.
 
 #### For customers with on-premises/self-hosted Sourcegraph instances:
 
