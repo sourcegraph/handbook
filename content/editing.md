@@ -123,6 +123,15 @@ Pictures, images, and graphics must be uploaded to Google Cloud Storage to be ad
 
 If you want to upload a large file (such as a large image, video, or audio recording) and make it available in the handbook, upload the file to Google Drive and then get a shareable link to the file on Google Drive. Add that link to the handbook. Don't add large files to the handbook repository itself (because Git is not a good way to store large non-text files).
 
+## Adding redirects
+
+When you change the location of content in the handbook it's important to add a redirect rule so that old URL to the content will automatically take users to the new URL.
+
+To add a redirect rule edit edit the following file: `/_resources/assets/redirects`
+
+Redirect rules follows a simply syntax of: `from-path to-path 308`   
+E.g. `/handbook/ce/support/ /handbook/support/ 308`
+
 ## Running a local preview handbook site
 
 > NOTE: This is optional.
