@@ -32,6 +32,7 @@ When developers need to make changes across multiple repositories or workspaces:
 #### Customer proof points
 
 - [Workiva reduces the time it takes to make large-scale code changes by 80%](https://about.sourcegraph.com/case-studies/workiva-automates-large-scale-code-changes)
+- [Indeed keeps code up to date and accelerates development velocity](https://about.sourcegraph.com/case-studies/indeed-accelerates-development-velocity)
 
 ## Personas
 
