@@ -53,7 +53,7 @@ The CE team are experts on educating customers on how to use the product (use ca
   - [Alex Fogg](../../company/team/index.md#alex-fogg-he-him)
   - Tia Wucher (Director of Customer Engineering, US East)
 - Customer Engineers (International/Non-US)
-  - C.H. (Director of Customer Engineering, starts 2021-04-19)
+  - [Christy Haragan](../../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering)
 
 - [Quinn Slack](../../company/team/index.md#quinn-slack) (CEO) is leading Customer Engineering for now.
   - We are hiring for VP Customer Engineering and will have the role posted very soon.
