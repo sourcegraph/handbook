@@ -61,7 +61,7 @@ The Source type family was selected for three primary reasons:
 **Sourcegraph Sky Blue** 
 
 <div class="square blue">
-</div>    
+</div>        
 
 PMS 312c   
 
@@ -76,7 +76,7 @@ C:100, M:0, Y:15, K:0
 **Sourcegraph Vivid Violet**[.](https://www.youtube.com/watch?v=YWKC2xTPwtU) 
 
 <div class="square purple">
-</div>    
+</div>       
 
 PMS 2084c    
 
@@ -91,7 +91,7 @@ C:71, M:85, Y:0, K:0
 **Sourcegraph Vermillion**  
 
 <div class="square orange">
-</div>
+</div>    
 
 PMS 7625c    
 
