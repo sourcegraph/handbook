@@ -22,6 +22,8 @@ Download all logo formats (.zip folder) <!-- ***(add link to Husbspot folder)***
 Our primary company typeface is Source Sans. Our typefaces work cohesively to clearly present data in a modern, accessible, open, and informative way, that aligns with our brand voice and values. The [Source type family](https://fonts.adobe.com/fonts/source-sans) is Adobe’s first open source typeface, designed by [Paul D. Hunt](https://github.com/pauldhunt). It is intended to be extremely legible in both print and digital uses.    
 
 The Source type family was selected for three primary reasons:    
+
+
 1. Because it is fully open source and this aligns with our values as a company;    
 1. It provides a sans serif and a code typeface that is useful for showing code snippets on marketing web pages;   
 1. It refers back to the name of our own company — a perfect match. 
