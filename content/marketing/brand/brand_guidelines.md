@@ -65,7 +65,7 @@ The Source type family was selected for three primary reasons:
 
 PMS 312c   
 
-HEX #00cbec   
+HEX #00CBEC   
 
 R:0, G:203, B:236   
 
@@ -80,7 +80,7 @@ C:100, M:0, Y:15, K:0
 
 PMS 2084c    
 
-HEX #a112ff   
+HEX #A112FF   
 
 R:161, G:18, B:255   
 
@@ -95,7 +95,7 @@ C:71, M:85, Y:0, K:0
 
 PMS 7625c    
 
-HEX #ff5543   
+HEX #FF5543   
 
 R:255, G:85, B:67    
 
