@@ -2,23 +2,24 @@
 
 # Brand Guidelines
 
->All notes in ***italized bold text*** 
+<!-- All notes in ***italized bold text*** and hidden -->
 
-Our brand is at the root of everything we do. It’s how we behave, communicate, look, and interact, across digital and real-world touch-points. Each element of our brand works together to demonstrate who we are and what we believe in. We express our brand through our brand story, brand voice, and brand visuals. 
+Our brand is at the root of everything we do. It’s how we behave, communicate, look, and interact, across digital and real-world touch-points. Each element of our brand works together to demonstrate who we are and what we believe in. We express our brand through our brand story, brand voice, and brand visuals. And, while our brand is more than just a logo, typeface, and color palette, because these elements are often present in the ways we visually express our brand, we've provided some of them here for handy access.
 
-Everything defined in our brand guide — from typeface, to color, to texture — is carefully chosen to visually represent our brand. 
+Everything defined in our brand guide — from typeface, to color, to texture — is carefully chosen to visually represent our brand and help communicate our voice, our vision, and our values. 
 
-Download our Brand Guidelines ***(add link to Hubspot folder)***
+Download our complete Brand Guidelines <!-- ***(add link to Hubspot folder)*** -->
 
 ## Logos 
 
-Download all logo formats ***(add link to Husbspot folder)***
+Please use our logos and brand elements appropriately, and only for good things, in compliance with the guidelines linked above. 🖖    
 
-***Add images: logo + logomark***
+Download all logo formats (.zip folder) <!-- ***(add link to Husbspot folder)*** -->
+
 
 ## Primary Typefaces
 
-Our primary company typeface is Source Sans. Our typefaces work cohesively to clearly present data in a modern, accessible, open, and informative way, that aligns with our brand voice and values. The Source type family is Adobe’s first open source typeface, designed by Paul D. Hunt. It is intended to be extremely legible in both print and digital uses.    
+Our primary company typeface is Source Sans. Our typefaces work cohesively to clearly present data in a modern, accessible, open, and informative way, that aligns with our brand voice and values. The [Source type family](https://fonts.adobe.com/fonts/source-sans) is Adobe’s first open source typeface, designed by [Paul D. Hunt](https://github.com/pauldhunt). It is intended to be extremely legible in both print and digital uses.    
 
 The Source type family was selected for three primary reasons:    
 1. Because it is fully open source and this aligns with our values as a company;    
@@ -26,19 +27,18 @@ The Source type family was selected for three primary reasons:
 1. It refers back to the name of our own company — a perfect match. 
 
 
-[Get Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro#standard-styles)
+[Get Source Sans Pro from Google Fonts](https://fonts.google.com/specimen/Source+Sans+Pro#standard-styles)  |  [Go to the Source Sans Pro repo on GitHub](https://github.com/pauldhunt/SourceSansPro)
+
+
+[Get Source Code Pro from Google Fonts](https://fonts.google.com/specimen/Source+Code+Pro)  |  [Go to the Source Code Pro repo on GitHub](https://github.com/pauldhunt/SourceCodePro)
 
 <!-- ***Add example*** -->
 
-[Get Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)
+## Typography
 
-<!-- ***Add example*** -->
+📖 For more information about sizing of headlines for web and print use, plus typographic guidance for body copy, please download our complete Brand Guidelines.  <!-- ***(add link to Hubspot folder)*** -->
 
-## Headlines and body copy
-
-For more information about approximate sizing of headlines for web and print use, plus typographical guidance for body copy, please download our complete Brand Guidelines. ***(add link to Hubspot folder)***
-
-<!-- ***Replace examples below with extra light or semi bold text and correct sizes***
+<!-- ***Replace examples below with extra light or semi bold text and correct sizes*** -->
 
 <!-- Headline 1 64 pts -->
 <!-- Sub Headline 2 48pts -->
@@ -54,60 +54,56 @@ For more information about approximate sizing of headlines for web and print use
 
 ## Primary Brand Colors
 
-***Add color boxes before each section***
+<!-- Fix color boxes before each section*** Why aren't they showing up here like they did on the old page? -->
 
-**Sourcegraph Blue**
+🌈 Our primary brand colors are listed below in various formats, to ensure accurate representation of our logo when used in digital or printed applications.    
 
-<div class="input-color">
-    <input type="text" value="Orange" />
-    <div class="color-box" style="background-color: #00CBEC;"></div>
-    <!-- Replace "#FF850A" to change the color -->
+**Sourcegraph Sky Blue** 
+
+<div class="square blue">
+</div>    
+
+PMS 312c   
+
+HEX #00cbec   
+
+R:0, G:203, B:236   
+
+C:100, M:0, Y:15, K:0       
+
+<br>
+
+**Sourcegraph Vivid Violet**[.](https://www.youtube.com/watch?v=YWKC2xTPwtU) 
+
+<div class="square purple">
+</div>    
+
+PMS 2084c    
+
+HEX #a112ff   
+
+R:161, G:18, B:255   
+
+C:71, M:85, Y:0, K:0   
+
+<br>
+
+**Sourcegraph Vermillion**  
+
+<div class="square orange">
 </div>
 
+PMS 7625c    
 
-PMS 312 C
+HEX #ff5543   
 
-R 0   
-G 203   
-B 236   
+R:255, G:85, B:67    
 
-HEX 00CBEC
+C:0, M:65, Y:75, K:0   
 
-C 100   
-M 15    
-Y 0   
-K 5   
+<br>
 
-**Sourcegraph Violet**
-
-PMS 2084 C
-
-R 161   
-G 18    
-B 255   
-
-HEX A112FF
-
-C 35    
-M 90    
-Y 0   
-K 0   
-
-**Sourcegraph Coral**
-
-PMS 7625 C
-
-R 255     
-G 85    
-B 67    
-
-HEX FF5543
-
-C 0   
-M 65    
-Y 75    
-K 0   
-
+Please reach out to the Brand team if you have any questions about how or when to utilize the above elements: brand@sourcegraph.com
 
 
 
