@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="/assets/about-style-guide.css?v=025" />
-
 # Brand Guidelines
 
 <!-- All notes in ***italized bold text*** and hidden -->
