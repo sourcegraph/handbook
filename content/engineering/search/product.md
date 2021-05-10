@@ -28,7 +28,7 @@ It also owns a subset of features built on top of Sourcegraph search:
     - [Juliana Peña](../../../company/team/index.md#juliana-peña-she-her)
     - [Rok Novosel](../../../company/team/index.md#rok-novosel-he-him)
     - [Camden Cheek](../../../company/team/index.md#camden-cheek-hehim)
-    - FQ2 frontend engineer
+    - F.K., starting 2021-05-24
 
 ## Processes
 
