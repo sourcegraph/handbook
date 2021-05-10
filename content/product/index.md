@@ -13,6 +13,7 @@ Product at Sourcegraph consists of [product management](product_management/index
       - [María Craig](../../../company/team/index.md#maría-craig-she-her) - [Code intel](../engineering/code-intelligence/index.md)
       - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - [Code insights](../engineering/developer-insights/code-insights/index.md)
       - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) - [Batch Changes](../engineering/batch-changes/index.md)
+      - [Dan Mckean](../../../company/team/index.md##dan-mckean-he-him) - [Distribution](../engineering/distribution/index.md) & [Security](../engineering/security/index.md)
       - R.P. starts 2021-05-03 - [Core application](../engineering/core-application/index.md)
    - [Product designers](roles/index.md#product-designer)
       - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) - [Batch Changes](../engineering/batch-changes/index.md) and [Search](../engineering/search/index.md)

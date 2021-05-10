@@ -47,7 +47,7 @@ See [Goals](goals.md)
 
 ## Members
 
-- We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013258004)) for this role. The engineering team is owning PM responsibilities in the meantime.
+- [Dan Mckean (Product Manager)](../../../company/team/index.md#dan-mckean-he-him)
 - FQ2 [Engineering Manager](../roles.md#engineering-manager) hire {#distribution-eng}
   - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../../company/team/index.md#dave-try)

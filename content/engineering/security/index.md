@@ -91,6 +91,7 @@ Security develops infrastructure in the [Auxilliary project](https://console.clo
 
 ## Members
 
+- [Dan Mckean](../../../company/team/index.md#dan-mckean-he-him) (Product Manager)
 - FQ2 engineering manager hire {#security-eng}
   - [Elizabeth Stirling](../../../company/team/index.md#elizabeth-stirling-she-her)
   - [André Eleuterio](../../../company/team/index.md#andré-eleuterio-hehim)
