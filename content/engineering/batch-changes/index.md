@@ -85,7 +85,7 @@ Our two-week sprints start every other Wednesday. We follow this process:
 
 * Before the iteration (sprint N+1) begins, we do pre-planning to make the most of our the planning meeting:
   * EM creates the milestone for sprint N+1 and a `planned/BatchersSprintN` label for things that didn't get finished in the previous sprint.
-  * Everyone on the team looks through [our backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fbatchers+milestone%3ABacklog) for any issues they think we should consider for the next sprint. To to so, add the issue to the "Needs prioritization" column of [our planning project](https://github.com/orgs/sourcegraph/projects/119).
+  * EM checks for [untracked issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+no%3Aproject+label%3Ateam%2Fbatchers+no%3Amilestone) and adds them to the "Needs prioritization" column of [our planning project](https://github.com/orgs/sourcegraph/projects/119).
   * Everyone on the team looks through our planning project for any issues they do not expect to finish by the end of the sprint (EOD Tuesday), and set the next sprint's milestone. Make sure to set the relevant `planned` label on issues that move to the next sprint, for tracking and accountability.
   * Engineers add/refine estimates to issues in the planning project. All estimates in GitHub are assumed to be upper-bound estimates. (A missing estimate means "between 1 second and 1 trillion years.")
   * Everyone on the team reviews our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) for the current/next release.
