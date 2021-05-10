@@ -114,6 +114,6 @@ Reach out to the People Ops team if you have any questions about structuring.
 
 ## Logistics and timing
 
-Employees are paid twice per month (on the 15th and the last day of the month if those are weekdays, or the Fridays before those days if not), via Gusto.
+Employees are paid twice per month (on the 15th and the last day of the month if those are weekdays, or the Fridays before those days if not), via Gusto. *We are in the process of transitioning off of Gusto to Rippling. This section will be updated soon*
 
 All contractors [submit invoices monthly](../../ops/finance/invoices.md).
