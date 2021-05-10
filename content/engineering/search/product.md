@@ -61,12 +61,14 @@ We have asynchronous discussion in the planning document. On the first Monday of
 
 #### Weekly updates
 
-Every week on Friday, Slackbot will start a thread for teammates to share:
+Every week on Friday, Geekbot will prompt teammates to share:
 
 - Progress towards iteration goals.
 - Roadblocks they've encountered.
 - Questions they have for the team.
 - Anything else they'd like to make the team aware of.
+
+Updates are posted in #search-product-internal.
 
 #### Projects spanning multiple iterations
 
