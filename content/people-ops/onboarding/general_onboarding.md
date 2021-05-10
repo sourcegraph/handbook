@@ -18,7 +18,7 @@
 ### U.S. based teammates
 
 - **[Expensify](https://www.expensify.com/signin):** Submit receipts for any work related expenses for reimbursement. Expensify will be linked to your Sourcegraph email.
-- **[Gusto](https://gusto.com/)**: Select your health plans, set up payment information, enter your I-9 information. Gusto will be linked to your personal email.
+- **[Gusto](https://gusto.com/)**: Select your health plans, set up payment information, enter your I-9 information. Gusto will be linked to your personal email. *We are in the process of transitioning off of Gusto to Rippling. This section will be updated soon*
 - **[Human Interest](https://humaninterest.com/):** Check on your 401k.
 
 ### Teammates based outside of U.S.
