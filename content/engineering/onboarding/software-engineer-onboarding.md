@@ -2,6 +2,16 @@
 
 ## Weeks 1-3
 
+### Learn about our culture and values
+
+Before you dive in to engineering tasks like reading and writing code, it is important to give yourself the time and space to set the context for the work you will be doing here at Sourcegraph.
+
+1. Read our [company values](../../../company/values.md).
+2. Read our [engineering principles and practices](../principles-and-practices.md).
+3. Start reading [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) and [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) in any order (you can expense these books). As you are reading, share and discuss your thoughts with your team.
+    - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
+    - [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) - An entertaining self-account of Gordon MacKenzie's experience fostering creativity on his team at Hallmark Cards. Buy the hard copy. There are lots of fun illustrations and short stories. It is a quick read and probably unlike any other book you have read.
+
 ### Starter tasks
 
 Your manager will assign to you three starter tasks that you should aim to complete in your first three weeks. These tasks are small, atomic, and intended to expose you to different parts of our codebase and product: it's important that you build the flexibility to fix any problem you'll be faced with at Sourcegraph, and don't narrow down your comfort zone to a certain part of our codebase or product.
@@ -32,14 +42,13 @@ Take the first 20-30 minutes of the session to have an unstructured, introductor
 
 **Teammates** should prepare these pairing sessions so that they bring you the most value, and allow you to quickly ramp up on what the team is working on and why.
 
-### Reading material
+### Other resources
 
-There will be plenty for you to read and learn about when you're not working on your starter tasks:
+We have many resources available to help you onboard and gain context:
 
 - Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture).
 - Read through the rest of the engineering handbook to learn more about how we operate.
 - Read how we choose and continually update our [goals](../../../company/goals/index.md).
-- Read how we plan and keep each other up to date with [tracking issues](../tracking_issues.md).
 - Read how we collaborate with design to [request or implement design work](../../product/design/index.md#working-with-design-requesting-design-work).
 - Watch this [high-level overview of the Sourcegraph repository on Github](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing).
 - Read our [Testing Principles](https://docs.sourcegraph.com/dev/background-information/testing_principles) to learn how we think about testing. Reading this makes sure you know what others on the team are referring to when we refer to certain types of tests.
@@ -53,6 +62,10 @@ There will be plenty for you to read and learn about when you're not working on 
 
 
 ## Weeks 4-6
+
+### Reading
+
+Keep reading and discussing [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) and [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/).
 
 ### Start contributing to your team's goals
 
