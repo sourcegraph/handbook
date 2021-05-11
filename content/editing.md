@@ -26,6 +26,7 @@ Here's the process for getting a change published to the handbook. For detailed 
 1. Wait for the necessary teammates to review and approve your pull request.
 1. Merge the pull request.
 1. Wait up to 5 minutes for your change to be live on about.sourcegraph.com.
+1. Use the #handbook-announce label to notify other people of important handbook updates on the #handbook-announce Slack channel.
 
 ## Reviewing and approving another person's proposal
 
@@ -59,6 +60,7 @@ If you just need to edit a single page, you can do it entirely on the web.
    - Press the **Commit changes** button.
 1. Press the **Create pull request** button. Now your change has been proposed!
    - You can share the link to the pull request with anyone to show them your proposed change (e.g., `https://github.com/sourcegraph/about/pull/123).
+1. If you want this update to be published in the Slack channel #handbook-announce, select the handbook-announce label using the **Label** button on the right side of the pull request page.
 1. Select teammates to review using the **Reviewers** button on the right side of the pull request page.
 1. Wait for teammates to review, comment on, and approve your pull request.
 1. When you're ready to publish the change and make it live, press the **Squash and merge** button, then press **Confirm squash and merge**.
@@ -66,7 +68,7 @@ If you just need to edit a single page, you can do it entirely on the web.
 
 ## Edit multiple files or add a new file
 
-To make edits to multiple files and submit all of the edits as a group to be reviewed together, you will follow a more complex process than when [editing a single file](#edit-a-single-file). This also is required for adding new files. 
+To make edits to multiple files and submit all of the edits as a group to be reviewed together, you will follow a more complex process than when [editing a single file](#edit-a-single-file). This also is required for adding new files.
 
 > NOTE: These steps are not exhaustively documented. Please [ask for help](#how-to-get-help) as many times as you need to until you feel comfortable with this process.
 
@@ -129,7 +131,7 @@ When you change the location of content in the handbook it's important to add a 
 
 To add a redirect rule edit edit the following file: `/_resources/assets/redirects`
 
-Redirect rules follows a simply syntax of: `from-path to-path 308`   
+Redirect rules follows a simply syntax of: `from-path to-path 308`
 E.g. `/handbook/ce/support/ /handbook/support/ 308`
 
 ## Running a local preview handbook site
