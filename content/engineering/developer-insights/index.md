@@ -5,10 +5,10 @@
 Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intelligence/index.md), [Code Insights](code-insights/index.md), and [API docs](api-docs/index.md)), [extended](extensibility/index.md) with other dev tools’ information, to where developers interact with code ([sourcegraph.com](https://sourcegraph.com/search), code hosts, and IDEs)
 
 ## Teams
-1. [Frontend platform](frontend-platform/index.md): the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph.
+1. [Frontend Platform](frontend-platform/index.md): the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph.
 2. [Extensibility](extensibility/index.md): our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
-3. [Code insights](code-insights/index.md): empowering data-driven decisions in engineering organizations.
-4. [API docs](api-docs/index.md): making Sourcegraph the standard developer reference for public code.
+3. [Code Insights](code-insights/index.md): empowering data-driven decisions in engineering organizations.
+4. [API Docs](api-docs/index.md): making Sourcegraph the standard developer reference for public code.
 
 ## Members
 
@@ -52,27 +52,25 @@ The following processes apply to all teams in Developer Insights.
 ### Communication
 
 We recognize that frequent, open communication is key to the success of every team, especially in an all-remote environment.
-We default to asynchronous communication in Slack and GitHub issues over other mediums (video calls, emails, etc) as we are respectful of our teammates' time.
+We default to asynchronous communication in Slack, Google Docs and GitHub issues over other mediums (video calls, emails, etc) as we are respectful of our teammates' time.
 
 In addition to team specific channels, we communicate in the following org-wide channels in Slack:
 
-[**#developer-insights-org**](https://sourcegraph.slack.com/archives/C01EM5J1NF8): Our daily standups (facilited through Geekbot) go into this channel as well as all non-work related commmunication. Random conversations, banter, jokes etc. are all welcome here.
+[#developer-insights-internal](https://sourcegraph.slack.com/archives/C01EM5J1NF8): Our weekly check-in (facilited through Geekbot) go into this channel as well as all org-wide commmunication. Random conversations, banter, jokes etc. are all welcome here.
 
-[**#developer-insights-org-onboarding**](https://sourcegraph.slack.com/archives/C01K7TKKR09): This channel is dedicated to questions or thoughts that new teammates have while they onboard. It's a safe space to simply think out load and the goal is to identify things that we can improve and things we should make more clear in the handbook.
+[#developer-insights-org-onboarding](https://sourcegraph.slack.com/archives/C01K7TKKR09): This channel is dedicated to questions or thoughts that new teammates have while they onboard. It's a safe space to simply think out load and the goal is to identify things that we can improve and things we should make more clear in the handbook.
 
-[**#developer-insights-org-leadership**](https://sourcegraph.slack.com/archives/C01P1TVDJR4): This channel is for the Engineering Managers, Product Managers and Product Designers to discuss higher-level matters impacting the whole org.
+[#developer-insights-org-leadership](https://sourcegraph.slack.com/archives/C01P1TVDJR4): This channel is for the Engineering Managers, Product Managers and Product Designers to discuss higher-level matters impacting the whole org.
 
 ### Events
 
 We have a [shared events calendar](https://calendar.google.com/calendar/u/0?cid=Y181Z2Zoa2Y5b2g1ajM4NDVwaHVtdHVkZTg0Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) where the teams can add all their team specific events so everyone can easily see the events.
 
-### Daily Slack updates
+### Weekly Slack check-ins
 
-Collaborating across timezones requires regular communication to keep each other updated on our progress, and coordinate work handoff if needed. We also use this opportunity to build camaraderie between team members by sharing some non-work related aspects of our lives with each other.
+We use [Geekbot](https://geekbot.com/) to facilitate a once-a-week (on a Monday) check-in where we ask teammates across the org the share their goals for the week are in the [#developer-insights-internal](https://sourcegraph.slack.com/archives/C01EM5J1NF8) Slack channel. We also use this opportunity to build camaraderie between team members by sharing some non-work related aspects of our lives with each other.
 
-We use [Geekbot](https://geekbot.com/) to facilitate all this and these updates are purely for coordination within the team (as opposed to for external stakeholders). At the start of each working day, Geekbot will ask each teammate a set of questions and the responses will be posted in the [**#developer-insights-org**] Slack channel.
-
-All teammates are expected to be part of this channel, and should read the updates, to learn what your teammates have been working on, and check if they need your help.
+All teammates are expected to be part of this channel, and should read the updates, to stay up-to-date with what their teammates are working on.
 
 ### Status updates
 
@@ -80,7 +78,7 @@ Each Engineering Manager of the teams in the org is responsible for sending out 
 
 ### Health reports
 
-The engineering managers are responsible for compiling a weekly health report ([see example](https://docs.google.com/spreadsheets/d/1PnRPydNYLF2Als3KpVuIYO8dXeqckp_sbowVkvkdkeE/edit)) for their team.
+The engineering managers are responsible for compiling a weekly health report ([see example](https://docs.google.com/spreadsheets/d/1PnRPydNYLF2Als3KpVuIYO8dXeqckp_sbowVkvkdkeE/edit)) for their team. 
 
 The report is a confidential update between the Director and the Engineering Managers and serves the following purpose:
 1. Updates the director on how things are going at a high-level in the team
