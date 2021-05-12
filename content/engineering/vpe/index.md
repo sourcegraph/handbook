@@ -13,10 +13,3 @@ This page documents the team that reports to the VP of Engineering.
      - [Owen Convey](../../../company/team/index.md#owen-convey-he-him), [Engineering Manager](../roles.md#engineering-manager), [Code Intelligence](../code-intelligence/index.md)
 
 [Full engineering org chart](../eng_org.md) and [FY2022 detailed hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit?ts=606e2859#gid=668829118).
-
-## Meetings
-
-We have a 1hr sync every Monday at 9:30am PT.
-
-- This meeting is recorded and automatically posted to #eng-manager-internal.
-- Our [meeting notes](https://docs.google.com/document/d/1nZTGua3cdMTJLwANlBZNX2uXiDXLuYDBkH9tehwdqTY/edit#) are also internally available to the whole team.
