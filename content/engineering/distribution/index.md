@@ -73,10 +73,14 @@ Who is on-call? Slack: `/genie whoisoncall distribution-support`
 
 _You can directly notify the on-call support engineer by using the handle `@distribution-support`._
 
-We maintain a support rotation to deal day-to-day requests (respond to ad-hoc, time-sensitive questions from customers or other teams, RFC review requests, etc). This makes it easier for other teams to reach out an engineer on the team who's priority is answering these questions and helps other engineers on the team remain focused. You can read more about this on the references below.
+We maintain a support rotation to deal day-to-day requests (respond to ad-hoc, time-sensitive questions from customers or other teams, RFC review requests, etc). This makes it easier for other teams to reach out an engineer on the team whose priority is being the point of contact for these questions. You can read more about this on the references below.
 When you are the active support engineer, your focus and priority is responding to requests and questions in #distributioneers, sometimes this might require creating an issue, re-assigning, looping in other engineers, etc.
 
 _If for any reason you are unavailable for a rotation, please coordinate with the team for someone to take over._
+
+**Resonsibilities**:
+
+The on-call support engineer is responsbile for owning the communication and determining the relative priority of the issue. However, the on-call engineer is **not expected** to solve issues entirely on their own (in fact, it's encouraged to pull in the other engineers if necessary - to bounce ideas off of one another, someone else might have more expertise in this particular area, etc.).
 
 **References:**
 
