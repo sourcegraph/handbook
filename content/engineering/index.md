@@ -55,6 +55,19 @@ Sourcegraph has a lot of repositories!
 - [Infrastructure repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-infrastructure&type=&language=)
 - [Customer infrastructure repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-infrastructure+repo-type-customer&type=&language=)
 
+## Sourcegraph deployments and other developer test instances:
+
+- [sourcegraph.com](https://sourcegraph.com) is our production deployment for open source code.
+- [sourcegraph.sgdev.org](http://sourcegraph.sgdev.org) is our private deployment of Sourcegraph that contains some of our private code.
+- [k8s.sgdev.org](https://k8s.sgdev.org) is a dogfood deployment that replicates the scale of our largest customers.
+- [demo.sourcegraph.com](https://demo.sourcegraph.com) is a managed instance used for CE demos.
+- [devmanaged.sourcegraph.com](https://devmanaged.sourcegraph.com) is a managed instance used for managed instances development.
+- [storybook.sgdev.org](http://storybook.sgdev.org) is a design system built with Storybook.
+- [gerrit.sgdev.org](https://gerrit.sgdev.org) is a Gerrit test instance.
+- [gitlab.sgdev.org](https://gitlab.sgdev.org) is a Gitlab test instance.
+- [github.sgdev.org](https://github.sgdev.org) is a Github test instance.
+- [bitbucket.sgdev.org](https://bitbucket.sgdev.org) is a Bitbucket test instance.
+
 ## Where Sourcegraph gets extended functionality:
 
 - [Code intelligence repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-codeintel&type=&language=)
