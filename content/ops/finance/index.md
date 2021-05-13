@@ -92,7 +92,7 @@ Expansion [IARR](#iarr) is IARR from *existing customers* (i.e., organizations t
 
 If within a single period a new customer signs a contract which then grows in ARR before the end of the period, the total ending ARR is all considered [new IARR](#new-iarr), not expansion IARR. For example, if Acme Corp signs a $100k contract on February 3 and then the contract expands to $200k on March 5, all $200k would be considered new IARR for Q1.
 
-If an existing customer signs a contract but holds an outstanding bill greater than 90+ days overdue, the Company will not recognize Expansion IARR until the full amount of the outstanding invoice is paid. 
+The finance team reviews the AR aging schedule on a monthly basis and assesses customer collectability risk. If an existing customer signs a contract but holds an outstanding bill which the Finance team has deemed a low probability to be uncollectible, the Company will not recognize Expansion IARR until the full amount of the outstanding invoice is paid. 
 
 ### Booking
 
