@@ -2,6 +2,48 @@
 
 Planning is a continuous process of negotiation between product and engineering. Teams should review the project roadmap weekly with the [Product Manager](./roles/index.md#product-manager) during their team meetings, and update it regularly as new information comes in. The product manager should also review the plans for all projects in the next release for overall coherency. This ensures that projects can work on the schedules that make the most sense for them (subject to the constraint of needing to ship some kind of milestone monthly). A particularly long-term project can have many months of visibility into requirements and plans, and shorter or more experimental projects can be planned with shorter time horizons.
 
+## Product / eng team backlogs
+
+Teams track the work they are doing in [GitHub Projects](https://github.com/orgs/sourcegraph/projects). Here are the direct links for each team:
+
+- Global code graph
+   - Code intelligence
+   - [Batch changes](https://github.com/orgs/sourcegraph/projects/119): If you would like a team to prioritize an issue, please add it to the "Needs prioritization" column in this board.
+   - Search core backend
+      - [Backlog](https://github.com/orgs/sourcegraph/projects/168)
+      - [Support](https://github.com/orgs/sourcegraph/projects/166)
+   - Search product
+      - The Search team creates a new project board for each iteration. It is named like: "Search product :: \<date> iteration"
+      - [Support](https://github.com/orgs/sourcegraph/projects/165)
+      - [Design refresh](https://github.com/orgs/sourcegraph/projects/159)
+      - [Search contexts](https://github.com/orgs/sourcegraph/projects/113)
+      - [Standalone issues backlog](https://github.com/orgs/sourcegraph/projects/99)
+      - [Streaming search](https://github.com/orgs/sourcegraph/projects/120)
+      - [Graphqlbackeng refactor](https://github.com/orgs/sourcegraph/projects/172)
+      - [Exhaustive](https://github.com/orgs/sourcegraph/projects/172)
+      - [Playground](https://github.com/orgs/sourcegraph/projects/173)
+      - [Code monitoring](https://github.com/orgs/sourcegraph/projects/121)
+- Developer insights
+   - Code insights
+      - [Backend](https://github.com/orgs/sourcegraph/projects/122)
+      - [Current work](https://github.com/orgs/sourcegraph/projects/118)
+   - Front end platform 
+   - Extensibility
+      - [Standalone issues backlog](https://github.com/orgs/sourcegraph/projects/116)
+      - [Current iteration](https://github.com/orgs/sourcegraph/projects/118)
+- Platform and infrastructure
+   - Security
+      - [Iterations](https://github.com/orgs/sourcegraph/projects/130)
+      - [Transparently and openly communicate a security positive stance and approach](https://github.com/orgs/sourcegraph/projects/89)
+      - [Secure Cloud resources](https://github.com/orgs/sourcegraph/projects/88)
+      - [Visibility into our exposures](https://github.com/orgs/sourcegraph/projects/88)
+   - Core application
+      - [Production testing of all authorization models](https://github.com/orgs/sourcegraph/projects/164)
+      - [Retro actions](https://github.com/orgs/sourcegraph/projects/162)
+      - [Support](https://github.com/orgs/sourcegraph/projects/153)
+      - [Planning board](https://github.com/orgs/sourcegraph/projects/148)
+   - Distribution
+ 
 ## Planning artifacts
 
 Planning requires several artifacts for communicating. This section clarifies how each artifact is used in the planning process.
