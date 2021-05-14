@@ -44,6 +44,28 @@ _Updated 2020-03-08_
 The strategy is currently a work in progress and can be viewed here: [Developer Insights FY22 Strategy](https://docs.google.com/document/d/18GS2Gr7SP2ICuJaOpofxiwuxU3pKBfp8eXREFLDcM30/edit)
 _(Only accessible to Sourcegraph teammates until finalized.)_
 
+## Principles and practices
+
+In addition to the [engineering principles and practices](../principles-and-practices.md) the Developer Insights org follows the following principles and practices.
+
+### Unblocking others is your highest priority
+
+If a teammate is blocked by you on a question, your approval, or a pull request review, your top priority is always to unblock them, either directly or through helping them find someone else who can, even if this takes time away from your own or your team's priorities.
+
+We want teammates to do what is best for the org as a whole. Don't optimize for the goals of your team when it negatively impacts the goals of other teams, our users, and/or the company. Those goals are also your problem and your job.
+
+### Pull request reviews
+
+#### Authors
+
+Pull request authors should always prefer requesting reviews from a specific teammate as apposed to a group. This creates accountability and clear expectation.
+
+#### Reviewers
+
+Reviewers should try to review in a timely manner; doing so allows everyone involved in the pull request to iterate faster as the context is fresh in memory. Reviewers should aim to review within one working day from the date they were assigned to the pull request. If you don't think you'll be able to review a pull request within that time, let the author know as soon as possible.
+
+If the author of the pull request has not heard anything after one day, a new reviewer should be assigned.
+
 ## Processes
 
 Each team is afforded the freedom to operate as best they see fit to achieve their goals.
@@ -78,7 +100,7 @@ Each Engineering Manager of the teams in the org is responsible for sending out 
 
 ### Health reports
 
-The engineering managers are responsible for compiling a weekly health report ([see example](https://docs.google.com/spreadsheets/d/1PnRPydNYLF2Als3KpVuIYO8dXeqckp_sbowVkvkdkeE/edit)) for their team. 
+The engineering managers are responsible for compiling a weekly health report ([see example](https://docs.google.com/spreadsheets/d/1PnRPydNYLF2Als3KpVuIYO8dXeqckp_sbowVkvkdkeE/edit)) for their team.
 
 The report is a confidential update between the Director and the Engineering Managers and serves the following purpose:
 1. Updates the director on how things are going at a high-level in the team
