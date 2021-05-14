@@ -65,26 +65,30 @@ Here are some of the technologies we use to deliver on our goals:
 - [RxJS](https://rxjs-dev.firebaseapp.com/guide/overview)
 - [Web workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
 
+## Principles
+
+We inherit Sourcegraph's [engineering principles and practices](https://about.sourcegraph.com/handbook/engineering/principles-and-practices) and [Developer Insights principles and practices](https://about.sourcegraph.com/handbook/engineering/developer-insights#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
+
 ## Processes
 
-#### Planning and prioritization
+### Planning and prioritization
 
-We plan and track our day-to-day work on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144). Our current process (last updated 2021-03-17) is as follows:
+We plan and track our day-to-day work on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144). Our current process (last updated 2021-05-14) is as follows:
 
 - Incoming tickets (e.g. from other teams) arrive in the _Inbox_ column.
-- Work is scheduled by adding a card to either the _Planned (product)_ or the _Planned (eng)_ column.
-   - _Planned (product)_ is for work that directly contributes to product goals, and is refreshed and prioritized by the PM/EM.
-   - _Planned (eng)_ is refreshed and prioritized by the engineers. This is the place for refactorings, developer experience improvements, etc.
+- Work is scheduled by adding a card to either the _Backlog (product)_ or the _Backlog (eng)_ column.
+   - _Backlog (product)_ is for work that directly contributes to product goals, and is refreshed and prioritized by the PM/EM.
+   - _Backlog (eng)_ is refreshed and prioritized by the engineers. This is the place for refactorings, developer experience improvements, etc.
 - Work should not be moved into either column until it is ready for development.
    - Anything that needs design input gets the `needs-design` label and goes in the _Needs input_ column.
-- When starting work, engineers pull cards from one of the _Planned_ columns and move it to the _In Progress_ column. The other columns are self-explanatory 🙂
+- When starting work, engineers pull cards from one of the _Backlog_ columns and move it to the _In Progress_ column. The other columns are self-explanatory 🙂
 - We do not yet have work-in-progress (WIP) limits for the columns, but will consider that soon.
 
-#### Tracking Issues
+### Tracking Issues
 
 The team makes use of [tracking issues](../../tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a few days (or require multiple PRs) to deliver.
 
-#### Getting cross-team feedback on RFC
+### Getting cross-team feedback on RFC
 
 - Create an issue for the RFC tracking on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144).
 - [Lock conversation](https://docs.github.com/en/github/building-a-strong-community/locking-conversations): RFC should be discussed in the Google doc.
@@ -93,7 +97,7 @@ The team makes use of [tracking issues](../../tracking_issues.md) for tracking p
 - Github integration will notify _@web_ in #frontend-platform-rfc-feed that the RFC is ready for review.
 - Once approved, link the RFC issue to the tracking issue [if required](#tracking-issues).
 
-#### Product Feedback
+### Product Feedback
 
 Specific product feedback about well-defined, small features can be found directly in the backlog boards. More general product feedback that applies to larger features, or that needs more research and planning to be actionable, is kept in [Productboard](https://sourcegraph.productboard.com/feature-board/2330177-web-frontend-platform)
 
