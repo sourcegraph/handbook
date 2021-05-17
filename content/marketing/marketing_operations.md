@@ -1,4 +1,5 @@
-# Marketing operations
+# Marketing operations*
+ *WIP as of 5.17.21 (This page was created some time ago and is in the process of being updated!)
 
 ## Lead management
 
