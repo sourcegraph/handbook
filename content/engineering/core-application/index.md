@@ -66,7 +66,6 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
     - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
     - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
     - [Artem Ruts](../../../company/team/index.md#artem-ruts-he-him)
-    - [Alex Russell-Saw](../../../company/team/index.md#alex-russell-saw-he-him)
     - [Tomás Senart](../../../company/team/index.md#tomás-senart)
     - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
     - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta-he-him)
