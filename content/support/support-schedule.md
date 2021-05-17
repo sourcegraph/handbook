@@ -16,7 +16,7 @@ Our schedule is reflected in the working hours set in our calendars and blocks h
 |Giselle|8am - 4pm|8am - 4pm|Monday PM|Friday AM|
 |Stompy|4pm - 11pm|5am - 12pm|TBD|TBD|
 |Warren|9am - 5pm|9am - 5pm|Monday PM|Thursday PM|
-|Virginia|8am - 5pm|8am - 5pm|Monday PM|Thursday PM|
+|Virginia|8am - 5pm|8am - 5pm|n/a|n/a|
 
 Focus blocks are listed simply as which 1/2 of which day
 
