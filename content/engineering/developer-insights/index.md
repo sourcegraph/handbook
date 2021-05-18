@@ -100,6 +100,27 @@ In addition to team specific channels, we communicate in the following org-wide 
 
 [#developer-insights-org-leadership](https://sourcegraph.slack.com/archives/C01P1TVDJR4): This channel is for the Engineering Managers, Product Managers and Product Designers to discuss higher-level matters impacting the whole org.
 
+#### Slack acknowledgment
+
+In an async-first communication environment it is important to remove assumptions/uncertainty around whether teammates have seen, understood or acted on a message.  
+To assist in this regard we provide the following guideline for teammates to follow when communicating and responding in Slack. 
+
+**The most important thing to remember is not which emoji to use, but rather to remember to acknowledge and to do it in a clear and unambiguous way.**
+
+*When acknowledging a request:*
+
+- `:thumbsup:` (👍) = I see the request and will action it
+- `:white_check_mark:` (✅) = I have completed my action on the request
+
+*When acknowledging a statement:*
+
+- `:thumbsup:` 👍 = I agree with the statement
+- `:thumbsdown:` 👎 =  I disagree with a statement - encouraged to always follow up with written response
+
+*When acknowledging a question:*
+
+You should provide a written response unless it's a simple yes/no question, in which case `:thumbs-up:` (👍)/`:thumbs-down:` (👎) is acceptable.
+
 ### Events
 
 We have a [shared events calendar](https://calendar.google.com/calendar/u/0?cid=Y181Z2Zoa2Y5b2g1ajM4NDVwaHVtdHVkZTg0Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) where the teams can add all their team specific events so everyone can easily see the events.
