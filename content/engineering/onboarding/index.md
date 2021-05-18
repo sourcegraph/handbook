@@ -35,6 +35,6 @@ Your manager should complete the following steps when you join:
   - [LSIF organization on GitHub](https://github.com/orgs/lsif/people) (optional; recommended for Code Intelligence team members)
   - [Buildkite](https://buildkite.com/organizations/sourcegraph/users/new)
   - [Opsgenie](https://sourcegraph.app.opsgenie.com/settings/users/)
-  - [Docker Hub](https://hub.docker.com/orgs/sourcegraph)
+  
   - [Site24x7](https://www.site24x7.com) (optional; recommended for Distribution team members)
   - [HoneyComb.io](https://www.honeycomb.io/)
