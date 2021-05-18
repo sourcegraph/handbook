@@ -76,7 +76,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 ### NPS responses
 * **Purpose:** We have a form embedded in the product to inquire with customers how they feel about the product every so often.
-* **Those involved:** Product > support
+* **Those involved:** Product > support (if necessary)
 * **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](https://about.sourcegraph.com/handbook/product/product_management/responding_to_user_feedback#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### support@ email
@@ -86,8 +86,8 @@ As explained above, our customers are able to initiate conversations for help vi
 
 ### feedback@ email
 * **Purpose:** An email that is sometimes included in forms we send customers (for example, our NPS forms). It may not be used frequently, but when it is used, we want to be sure nothing falls through the cracks.
-* **Those involved:** same as support@ email
-* **Details:** same as support@ email
+* **Those involved:** Product > support (if necessary)
+* **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](https://about.sourcegraph.com/handbook/product/product_management/responding_to_user_feedback#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### hi@ email
 * **Purpose:** A general email that is mostly spam, but support triages to make sure nothing falls through the cracks
@@ -97,7 +97,7 @@ As explained above, our customers are able to initiate conversations for help vi
 ### Support contracts
 * **Purpose:** Agreed upon contracts to provide with dedicated support.
 * **Those involved:** CE/support/engineering
-* **Details:** *Note: We still need to figure out exactly how support will be involved.* You can see which customers have such contracts in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit).
+* **Details:** You can see which customers have such contracts in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit).
 
 ### External (customer) Slack accounts
 * **Purpose:** We have a couple customers who were not able to join our Slack account, so we agreed to join theirs. Generally, we don't want to do this because it's very hard to scale, have coverage when folks are not working, etc.
@@ -106,8 +106,8 @@ As explained above, our customers are able to initiate conversations for help vi
 
 ### [GitHub public issue tracker](https://github.com/sourcegraph/sourcegraph/issues)
 * **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
-* **Those involved:** Support + product, engineering
-* **Workflow:** Using a Zapier integration, we have all new issues created in the GitHub public tracker trigger the creation of a ticket in Zendesk. These are routed to a triage queue and contain issues created by our engineering team. It’s never bad for support to see what issues our engineering team creates, so we can look at those and delete, but also make sure we don’t miss issues created by those who need help. Triaging happens on a weekly cadence since we don’t have an SLA for these issues, and also don’t want them to fall through the cracks. We route feature requests to product, bugs to engineering, and handle the rest.
+* **Those involved:** Product > support (if necessary)
+* **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](https://about.sourcegraph.com/handbook/product/product_management/responding_to_user_feedback#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### @srcgraph Twitter (and other social)
 * **Purpose:** Our Twitter account, mostly for marketing, though sometimes users alert us of support issues here.
