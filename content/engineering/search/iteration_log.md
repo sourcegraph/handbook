@@ -1,6 +1,6 @@
-# Search core iteration log
+# Search core iteration log (deprecated)
 
-This document contains the goals and work log for the search core team's [2-week iterations](./core.md#iterations).
+This document contains the goals and work log for the search core team's 2-week iterations. **This is deprecated**: see up-to-date processes and planning artifacts on the [team page](./core.md#iterations)
 
 ## YYYY-MM-DD to YYYY-MM-DD
 

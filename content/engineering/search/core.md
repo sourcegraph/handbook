@@ -25,7 +25,12 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 
 The search core team plans its work in **2-week iterations**.
 
-The goals and updates for current and past iterations can be found in the [iteration log](./iteration_log.md).
+**Team syncs, plans and updates:**
+
+- The teams holds syncs thrice weekly (M, W, F).
+- Before team syncs, teammates add their status and plans to the [team sync meeting notes](https://docs.google.com/document/d/1cTdGC4jBK7aEnb9ChzCLYHVGBpRRMNYGdUUPYVPIWHo/edit#).
+- The team discusses the updates live during the sync.
+- Updates should be in prose and communicate progress made and pain points.
 
 ### Planning an iteration
 
@@ -33,19 +38,13 @@ Iterations start **every other Monday**.
 
 **On the last Friday of an iteration:**
 
-- Teammates add the themes they're planning to work on, and the desired outcomes, to the [iteration log](./iteration_log.md).
-- Teammates add any topics they would like to discuss during the retrospective to the [Search core team retrospectives](https://docs.google.com/document/d/1bzBJh-zPOw0_lZ-TbMpnAx-do5CoCTL8Z2V74WU-Rew/edit) document.
+- The team holds its [retrospective](https://docs.google.com/document/d/1bzBJh-zPOw0_lZ-TbMpnAx-do5CoCTL8Z2V74WU-Rew/edit) for the previous iteration.
 
 **On the first Monday of an iteration:**
 
-- The team holds its [retrospective](https://docs.google.com/document/d/1bzBJh-zPOw0_lZ-TbMpnAx-do5CoCTL8Z2V74WU-Rew/edit) for the previous iteration.
 - The team reviews the iteration plan during the team sync, and kicks off the iteration.
 
-**Work log updates:**
 
-- Teammates should update the [work log](./iteration_log.md) for the themes they're working on.
-- PR approvals are not required for work log updates.
-- Updates should be in prose and communicate progress made and pain points.
-- Updates should happen at least twice (in the middle and at the end of the iteration), but may be more frequent if desired.
-  - The mid-iteration update should contain a forecast for the next week, and whether the remaining planned work is on track to be completed on time.
-  - The end-of-iteration update should mention whether the planned outcomes were reached or not, and if not, why.
+## Misc
+
+[iteration log (deprecated)](./iteration_log.md)
