@@ -50,17 +50,33 @@ In addition to the [engineering principles and practices](../principles-and-prac
 
 ### Unblocking others is your highest priority
 
-If a teammate is blocked by you on a question, your approval, or a pull request review, your top priority is always to unblock them, either directly or through helping them find someone else who can, even if this takes time away from your own or your team's priorities.
+If a teammate is blocked by you on a question, your approval, or a pull request review, your top priority is always to unblock them, either directly or through helping them find someone else who can, even if this takes time away from your own or your team's priorities. If you're the one who is blocked, be sure to communicate that so that others can prioritize appropriately.
+
+Normally, waiting for a PR review does not mean you are blocked: it's expected that you can start working on something else (e.g. a new PR that depends on the first one). However, in some scenarios it's important to get a review ASAP — e.g., to fix a regression or a broken CI pipeline. In those cases, you should communicate the urgency and expect that your teammates will prioritize unblocking you.
+Even when a teammate is not _blocked_, but _inconvenienced_ (because of follow-up work), don't leave them hanging for extended periods of time. You should generally budget some amount of time every day for doing reviews.
 
 We want teammates to do what is best for the org as a whole. Don't optimize for the goals of your team when it negatively impacts the goals of other teams, our users, and/or the company. Those goals are also your problem and your job.
 
-### Pull request reviews
+### Pull requests
 
-#### Authors
+#### For authors
 
-Pull request authors should always prefer requesting reviews from a specific teammate as apposed to a group. This creates accountability and clear expectation.
+##### Prefer small PRs (<400 lines)
 
-#### Reviewers
+We extend Sourcegraph's company-wide guidance (see [what makes an effective PR](https://docs.sourcegraph.com/dev/background-information/code_reviews#what-makes-an-effective-pull-request-pr)) with a specific guideline that _PRs should contain less than 400 changed lines_ (excluding tests). Note that this is a _guideline_ and not a hard limit; there are situations where it doesn't make sense (e.g. PRs that are mostly mechanical changes).
+
+There are several reasons to prefer small PRs:
+
+- Reviews happen more quickly ("I'll just review this quickly right now" instead of "Hmmm, better schedule time for this later").
+- It enables higher-quality reviews, because there's less context for the reviewer to hold in their head. It's also easier to suggest major changes when your teammate has spent only a few hours on a PR, rather than a day or more.
+- It encourages a tighter feedback loop.
+- Smaller, atomic changes are easier to roll back if required.
+
+##### Keep reviewers to a minimum
+
+Pull request authors should always prefer requesting reviews from specific teammate(s) as apposed to a group. This creates accountability and clear expectations. A single reviewer is usually sufficient.
+
+#### For reviewers
 
 Reviewers should try to review in a timely manner; doing so allows everyone involved in the pull request to iterate faster as the context is fresh in memory. Reviewers should aim to review within one working day from the date they were assigned to the pull request. If you don't think you'll be able to review a pull request within that time, let the author know as soon as possible.
 
