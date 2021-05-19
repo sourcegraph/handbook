@@ -31,7 +31,7 @@ Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intellig
          - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
          - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
               - [Vova Kulikov](../../../company/team/index.md#vova-kulikov-he-him)
-              - C.C. starts May 17
+              - [Coury Clark](../../../company/team/index.md#coury-clark-he-him)
               - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him) (joins from Frontend Platform in FQ2)
      - [API docs](../developer-insights/api-docs/index.md)
          - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this workstream
