@@ -6,13 +6,13 @@ We want to make sure you have what you need to be productive and happy in your r
 - You likely won't need every single item on this list—please use your best judgment and buy when you need them. Remember, Sourcegraph doesn't have unlimited funds—spend this money as if it was your own.
   - For example, if you intend to work out of a coworking space most of the time, you may not need a fully equipped home office as well.
 - If you spend more than $1,000 on any given physical item, it will be considered property of the company.
-- Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](expenses.md) for additional help.
+- Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](../ops/finance/expenses.md) for additional help.
 
 ## Desk set-up
 
 ### Full-time teammates
 
-We expect new teammates to spend up to **$1,850** for desk setup, which includes all the items in the "Desk items" section. 
+We expect new teammates to spend up to **$1,850** for desk setup, which includes all the items in the "Desk items" section.
 
 This is not a hard budget—rather, it is a guide based on what past teammates have spent. As a reminder, you don't need permission for every purchase, and we trust you to make decisions that are in the best interests of Sourcegraph. If you expect to significantly exceed the listed amount on any purchase, however, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
 
@@ -56,7 +56,7 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Laptop (all other teams):**
 
-- 13" MacBook Pro, 2.0 GHz (3.8 GHz turbo) Intel Core i5 processor, 16 GB, 512 GB SSD. If you need to update any specs, please reach out to @sourcegraph/people-ops for approval. 
+- 13" MacBook Pro, 2.0 GHz (3.8 GHz turbo) Intel Core i5 processor, 16 GB, 512 GB SSD. If you need to update any specs, please reach out to @sourcegraph/people-ops for approval.
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 **Other computer:**
@@ -67,12 +67,12 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Software/SaaS/cloud:** please check with the appropriate team and manager to ask if we already have a subscription or licenses to the software. If not, please get @sourcegraph/people-ops's approval for software or a subscription that would cost more than $500 per year.
 
-**[Internet, phone, and wellness](expenses.md#internet-phone-and-wellness-benefits):** The following items are automatically added to your pay, and they don't need to be expensed.
+**[Internet, phone, and wellness](../ops/finance/expenses.md#internet-phone-and-wellness-benefits):** The following items are automatically added to your pay, and they don't need to be expensed.
 - **Internet/WiFi plan:** $50/month
-- **Cell phone plan:** $75/month 
+- **Cell phone plan:** $75/month
 - **Wellness:** $100/month
 
-**Coworking/office space:** $300-500/month (these are meant to be averages, and it should be dependent on the average cost of coworking spaces in your particular location, if your coworking space is significantly more than the averages listed here, please get approval from @sourcegraph/people-ops). 
+**Coworking/office space:** $300-500/month (these are meant to be averages, and it should be dependent on the average cost of coworking spaces in your particular location, if your coworking space is significantly more than the averages listed here, please get approval from @sourcegraph/people-ops).
 
 **Education and professional development (conferences, courses):** $1000/year (if you want to exceed this amount, simply notify @sourcegraph/people-ops in advance to explain the situation and to receive approval).
 
@@ -84,6 +84,6 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Laptop upgrade:** if your laptop is 4 years or older, you are eligible for a new laptop (same budget as new laptop applies).
 
-**Travel expenses:** please see our page on [travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel). 
+**Travel expenses:** please see our page on [travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel).
 
-Find out how to submit your expenses [here](https://about.sourcegraph.com/handbook/people-ops/expenses).
+Find out how to submit your expenses [here](../ops/finance/expenses.md).
