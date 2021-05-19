@@ -1,3 +1,5 @@
+# Amplitude
+
 ## How do I get started?
 1. [Take a look at what data is in Amplitude](#data)
 1. Read the Amplitude documentation for [building analyses](https://help.amplitude.com/hc/en-us/categories/360003165371-Build-and-share-your-analysis)
