@@ -2,6 +2,54 @@
 
 The conclusion of every project should include analysis of performance. Below is the beginnings of us keeping track of what we've learned based on usage data.
 
+- [Successful search sessions <> week 1 retention](#2021-05-19)
+- [What actions lead to Cloud retention](#2021-01-11)
+- [Value of browser extensions](#2020-12-06)
+- [Search homepages and tour (2020-11-30)](#2020-11-30)
+
+## 2021-05-19
+
+**Team**: Product
+
+**Author**: Eric Brody-Moore
+
+**Overview**: We processed sessions on Sourcegraph Cloud to categorize them as successful or failed search sessions and, most notably, how they correlates to week 1 retention. 
+
+**Caveat**: Our current defition/proxy of a successful session is a click into search results. This will evolve over time to become more accurate. See more context in the [RFC](https://docs.google.com/document/d/1hzW3kjnIJHzgh8JgCqVXVn7wJbzvCnT14LsaCT95S8E/edit?ts=608c6eb3#).
+
+### Search session success/failure
+
+*Conclusion*: one successful session (in its definition today) does not lead to realization of the value proposition and week 1 retention. 
+
+This supports the need for a lot of projects/ideas already in motion:
+- Including code intelligence in search results (hovering is 2x retention correlated with retention than submitting a search)
+- Improvements to the search tour. 60% of failed search sessions had two or less searches, which were most likely low quality searches
+
+What I *think* will help but have no quantitative proof from this analysis:
+- More efforts from the search redesesign to improve the quality of the searches earlier on in the user lifecycle
+- Search results ranking so the likelihood of a user clicking into results and seeing code intelligence is higher 
+- Improvements to the search tour to get people to the code they care about and learn the search syntax
+
+**Data**
+
+I ran a week of search sessions for the week of 2021-05-03.
+- 64% were success, 36% were failed sessions
+
+Of the 64% successes:
+- 54% clicked into results and used code intel
+- 39% clicked into results but did not use code intel
+- 7% clicked ‘open code host’
+
+Of the fails:
+- 60% of fails are <=2 searches and leave; 68% are <=3 searches and leave
+
+Supporting data
+- 12% week 1 retention in all users who searched vs. week 1 24% retention for users who hovered and clicked 'find references' (Source: [Amplitude](https://analytics.amplitude.com/sourcegraph/chart/7l5vdg4?source=workspace))
+- Multiple searches vs. one search increases the week 1 retention from 10 -> 15% (Source: [Ampltide](https://analytics.amplitude.com/sourcegraph/chart/6gzjoql?source=workspace))
+
+**Note:** This data should not be looked at as causation, but we have additional qualitative analyses that makes me more confident in the conclusions. 
+
+
 ## 2021-01-11
 
 **Team**: Product
