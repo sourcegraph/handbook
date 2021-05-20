@@ -10,7 +10,7 @@ This is the inspirational end game state for Batch Changes in 3 years:
 
 - **Code invariants** - Describe a code pattern once, and your batch change will fix it everywhere, automatically, forever, thanks to its declarative model.
 - **Continuous maintenance** - Instead of deferring codebase maintenance to large, painful, and risky changes, Batch Changes lets developers introduce changes incrementally and in a safe and automated way. Much like CI/CD increased efficiency and reduced risk through small deployments, Batch Changes lets developers make incremental codebase-wide changes.
-- **In-editor and instant feedback** - Developers don’t leave the editor to create or be notified of changesets. Repository owners can discover and apply great code patterns faster.
+- **In-editor and instant feedback** - Developers don’t leave the editor to create or be notified of changesets. Repository owners can discover and apply great code patterns faster. Linters are not enough: when you catch a new pattern, you want to make sure it's not introduced again (lint), but also fix it everywhere it already exists.
 - **Universal Batch Changes** - Make changes to public and private code. Open source projects can provide batch specs so that their dependents can seamlessly upgrade. Batch Changes eases upgrading in private and on-premise environments.
 
 ## Contact
