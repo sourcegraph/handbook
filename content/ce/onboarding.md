@@ -110,7 +110,7 @@ NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegra
   - [Deploying Sourcegraph](https://docs.sourcegraph.com/admin/install):
      - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1JqQlrmGX8u_EuhNptj-qrzuZ4RifhTuF) for an understanding of that setup process
     - Watch [Stephen's Kubernetes Upgrade video](https://drive.google.com/file/d/1oIrKJPo9hvc2UMfpb-a57HV9fCYEcS9n/view) to see how customers upgrade K8s instances.
-    -   Understand the 3 differrent Sourcegraph deployment methods
+    -   Understand the 3 different Sourcegraph deployment methods
         - [Deployment Type vs. Product](./deployment-methods.md)   
         - ["Deployment types - A crash course in Sourcegraph"](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p)
   - [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system         works.
