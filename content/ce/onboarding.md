@@ -55,6 +55,7 @@ Welcome to Sourcegraph - we're very excited to have you on the Customer Engineer
 - Shadow as many customer/prospect calls as possible
 - Participate in any relevant training sessions or workshops
 - Deliver demo cert presentation to team
+- Go through the [Batch Change CE onboarding](../engineering/batch-changes/ce-onboarding.md)
 
 ### Month 2
 

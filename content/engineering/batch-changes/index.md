@@ -129,6 +129,7 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 - [Developer documentation](https://docs.sourcegraph.com/dev/background-information/batch_changes)
 - [Onboarding](onboarding.md)
 - [Supporting Batch Changes](supporting-batch-changes.md)
+- [CE onboarding](ce-onboarding.md)
 - [Batch Changes Drive Folder (private)](https://drive.google.com/drive/u/0/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn)
 - [Batch Changes Product Marketing Brief](https://docs.google.com/document/d/1yQpCKF50gx8_T-KDnU4s9TjW6fZpMUfWLF2h4xSM8jk)
 
