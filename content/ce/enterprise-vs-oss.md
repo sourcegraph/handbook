@@ -29,11 +29,10 @@ This means you have the following limitations:
 
 - No path to upgrade to an Enterprise or Team plan down the line (you can’t change your mind without launching a new instance)
 - No external dependencies (means no extensions!)
-- No user limit
 - No Enterprise features (SSO, access control, Batch Changes)
 - Built as a single container (slower at scale)
 
-Benefits to the OSS option iinclude:
+Benefits to the OSS option include:
 
 - No user limit
 - Some people prefer OSS ideologically
