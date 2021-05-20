@@ -4,7 +4,9 @@
 1. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
 1. [The Team](#the-team)
 1. [Capabilities](#capabilities)
+1. [Brand Guidelines](brand_guidelines.md)
 1. [Additional Resources](#additional-resources)
+1. Download Brand Kit (Coming Soon!)
 
 ## Function, Vision, Mission, and Values
 Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to elevate, activate and communicate the value of Sourcegraph to the world. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, offering full-service creative support with a rapid, flexible, iterative process that stems from a deep understanding of our products, our processes, and our people.
