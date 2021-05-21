@@ -26,6 +26,7 @@ See [Goals](goals.md)
 - [Internal infrastructure](internal_infrastructure.md)
 - [Tools](tools/index.md)
 - [Tech stack](tech_stack.md)
+- [Onboarding](onboarding.md)
 
 ### Resources
 
