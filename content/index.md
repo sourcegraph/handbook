@@ -55,9 +55,6 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Customer Engineering](ce/index.md)
 
-- [Customer Engineering](ce/index.md)
-- Customer Training (TODO)
-
 ### [Marketing](marketing/index.md)
 
 ### [Sales](sales/index.md)
