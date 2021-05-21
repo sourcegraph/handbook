@@ -45,11 +45,11 @@ Many of the following commands in this guide, as well as the commands [operation
 # name of customer deployment (should match folder)
 export CUSTOMER=<customer_or_instance_name>
 # version to upgrade to - MUST be in format 'v$MAJOR.$MINOR.$PATCH'
-export VERSION=v<sourcegraph_version>
-# for API access to port-forwarded frontend 
+export NEW_VERSION=v<sourcegraph_version>
+# for API access to port-forwarded frontend
 export SRC_ENDPOINT=http://localhost:4444
 # see 1password "$CUSTOMER admin account", under "token" field
-export SRC_ACCESS_TOKEN=$TOKEN   
+export SRC_ACCESS_TOKEN=$TOKEN
 ```
 
 Figure out [what instance is currently live](./operations.md#redblack-deployment-model) for the managed instance you are upgrading - it should be either `red` or `black`:
@@ -63,6 +63,8 @@ Export the following values in your shell based on the above:
 ```sh
 export OLD_DEPLOYMENT=red # the current deployment from above
 export NEW_DEPLOYMENT=$([ "$OLD_DEPLOYMENT" = "red" ] && echo "black" || echo "red")
+# old version used to verify upgrade
+export OLD_VERSION=$(cat ${CUSTOMER}\/${OLD_DEPLOYMENT}\/VERSION)
 ```
 
 Make sure your copy of the [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed) repository is up to date:
@@ -83,7 +85,7 @@ Make sure to use the same shell for all the commands in this guide unless otherw
 Now start a branch for your upgrade:
 
 ```sh
-git checkout -b $CUSTOMER/upgrade-to-$VERSION
+git checkout -b $CUSTOMER/upgrade-to-$NEW_VERSION
 # all the below steps are documented assuming you are in the customer deployment directory
 cd $CUSTOMER
 ```
@@ -174,10 +176,10 @@ This might indicate that the instance is not fully set up yet - try again in a m
 
 First check that thew new version requires no manual migration steps in [docker-compose upgrade guide](https://docs.sourcegraph.com/admin/updates/docker_compose)
 
-Then, to upgrade the new `$NEW_DEPLOYMENT` deployment to `$VERSION`:
+Then, to upgrade the new `$NEW_DEPLOYMENT` deployment to `$NEW_VERSION`:
 
 ```sh
-VERSION=$VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
+VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
 git --no-pager diff $NEW_DEPLOYMENT
 ```
 
@@ -188,13 +190,13 @@ For each reference, ensure that the *entire* service entry is up to date (i.e. n
 You can list references like so (if nothing shows up, you should be good to go):
 
 ```sh
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${"$(cat $OLD_DEPLOYMENT/VERSION)"#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
 ```
 
 Commit and apply the upgrade:
 
 ```sh
-git add $NEW_DEPLOYMENT/ && git commit -m "$CUSTOMER: upgrade to $VERSION"
+git add $NEW_DEPLOYMENT/ && git commit -m "$CUSTOMER: upgrade to $NEW_VERSION"
 terraform apply
 ```
 
@@ -254,7 +256,7 @@ echo "gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 80 --loca
 Ensure that no containers are running from the previous deployment
 
 ```sh
-docker ps | grep ${OLD_VERSION}
+gcloud beta compute ssh --zone "us-central1-f" --tunnel-through-iap --project "sourcegraph-managed-${CUSTOMER}" --command "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}" root@default-${NEW_DEPLOYMENT}-instance
 ```
 
 Check that `src` access is set up correctly:
