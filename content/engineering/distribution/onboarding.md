@@ -63,7 +63,7 @@ Welcome to the distribution team! This document will guide you through distribut
 ### By the end of your second month, the following will be true
 
 #### Goals:
-- You will have assisted [customer engineering](../../ce/ce.md) and [customer support](../../support/index.md), taken ownership of any distribution tasks and resolved them.
+- You will have assisted [customer engineering](../../ce/index.md) and [customer support](../../support/index.md), taken ownership of any distribution tasks and resolved them.
 - Made improvements to our processes and how we deliver sourcegraph.
 
 #### Tasks
