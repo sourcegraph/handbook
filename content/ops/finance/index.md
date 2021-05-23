@@ -117,3 +117,5 @@ We also complete a balance sheet review. This review is focused on providing ana
 We work with an outsourced accounting firm named [Officengine](https://officengine.com/). They close the books monthly and produce our financial statements, and provide support in processing payables, preparing taxes, filing corporate registrations, and more.
 
 Reach out to the [Finance team](#team) for an introduction if needed.
+
+### Accounts Payable & Expenses
