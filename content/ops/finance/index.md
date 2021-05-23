@@ -2,11 +2,10 @@
 
 The finance & accounting team is responsible for helping Sourcegraph acquire and allocate resources optimally, plan for the future, track progress and execution, and measure results.
 
-- [Sources of truth](#sources-of-truth)
 - [ARR tracking and the monthly closing process](arr.md)
-- [Paying bills](payables.md)
-- [Submitting an invoice](invoices.md)
-- [Expenses](expenses.md)
+- [Paying Company bills](payables.md)
+- [Submitting an invoice (teammates based outside of US)](invoices.md)
+- [Submitting reimbursable expenses](expenses.md)
 
 ## Team
 
