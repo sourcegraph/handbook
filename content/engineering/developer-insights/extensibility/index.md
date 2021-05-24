@@ -5,6 +5,7 @@ The extensibility team owns our code host and third-party integrations (includin
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
+
 - [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
 - [Jean du Plessis](../../../../company/team/index.md#jean-du-plessis-he-him) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#extensibility-eng}
   - [TJ Kandala](../../../../company/team/index.md#tharuntej-kandala-he-him)
@@ -24,6 +25,7 @@ Sourcegraph powers your first stop for any information about your code, for any 
 1. All of Sourcegraph's most powerful features are easily available on most any code host while using any browser thanks to native integrations and browser extensions.
 
 ## Responsibilities
+
 _The extensibility team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the extensibility team. You can find our current priorities in our [goals page](goals.md)._
 
 1. Sourcegraph extensions
@@ -36,14 +38,13 @@ _The extensibility team has many ownership areas, but not all of them are under 
 1. Browser extensions
    - Develop and maintain [browser extensions](https://docs.sourcegraph.com/integration/browser_extension) that surface code intelligence and other Sourcegraph features on code hosts (for example: Github).
 1. IDE and other third-party code view integrations
-    - Develop and maintain IDE integrations that bring Sourcegraph functionality right to your IDE
-    - Explore and develop features for other popular code-view websites like https://pkg.go.dev/ and messaging platforms like Slack
+   - Develop and maintain IDE integrations that bring Sourcegraph functionality right to your IDE
+   - Explore and develop features for other popular code-view websites like https://pkg.go.dev/ and messaging platforms like Slack
 
 ## Contact
 
 - [#extensibility](https://app.slack.com/client/T02FSM7DL/C01LZKLRF0C) channel or @extensibility on Slack
 - [team/extensibility](https://github.com/sourcegraph/sourcegraph/labels/team%2Fextensibility) label and [@sourcegraph/extensibility](https://github.com/orgs/sourcegraph/teams/extensibility) team on GitHub.
-
 
 ## Goals
 
@@ -77,6 +78,7 @@ When a new issue is opened and tagged for our team on the Sourcegraph repository
 Our kanplan methodology gives us the ability to backlog groom while continuously delivering quality software. We benefit from flexible planning, clearer focus, and total transparency because whatever's on the board is the top priority. We also communicate our team updates with the broader engineering org [every two weeks](https://about.sourcegraph.com/handbook/engineering/engineering-management#status-updates).
 
 ### Tracking Issues
+
 The team makes use of [tracking issues](../../tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a few days to deliver.
 
 ### Product Feedback
@@ -105,6 +107,10 @@ The team follow's the [default code review guidelines](https://docs.sourcegraph.
 
 1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
 1. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
+
+### Feature freeze
+
+We do not merge major features in the **last 3 days before the [release branch is cut](../../releases.md)**. We make sure that our changes keep `main` [continuously releasable](../../continuous_releasability.md), but leave buffer time in the form of a [feature freeze](https://en.wikipedia.org/wiki/Freeze_(software_engineering\)) so that we can address any issues found on Sourcegraph Cloud.
 
 ### Pair programming
 
