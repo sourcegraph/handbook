@@ -19,7 +19,8 @@ You will receive an invitation via email to our Expensify organization during yo
 ### When submitting an expense via Expensify
 
 - Create a report for the entire month, and add individual expenses to that report.
-- Ensure the date and description fields are properly filled out
+- Upload receipts for each expense (required for all expenses above $25).
+- Ensure the date and description fields are properly filled out.
   - The date listed on your expense should be the date of purchase (not the date of submission).
   - The description field should list exactly what item is being expensed.
 - Ensure that each expense is properly categorized.
