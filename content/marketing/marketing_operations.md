@@ -68,7 +68,7 @@ All major lead generation-related events (demo requests, livestream registration
 
 To delete a contact requesting to be deleted from our systems:
 
-- Review our list of [data sources](https://about.sourcegraph.com/handbook/ops/bizops#data-sources) and delete the contact from each source. 
+- Review our list of [data sources](../ops/bizops/analytics.md#data-sources) and delete the contact from each source. 
 - Take and log [screenshots](https://drive.google.com/drive/folders/1d0X0y2a5W6X8Vot6n26XtAKAGrdG2_a5) in the [Data Protection Officer folder](https://drive.google.com/drive/folders/1d0X0y2a5W6X8Vot6n26XtAKAGrdG2_a5) of attempt to find contact in the system. 
 - Email contact from personal Sourcegraph email with the following `We have received your [CCPA|GDPR] request to be deleted from Sourcegraph systems. Your information has been permanently wiped from all our systems (screenshot attached), and as a result you will no longer receive any communications from us. [PERSONALIZED SENTENCE based on situation]`.  
 
