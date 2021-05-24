@@ -31,17 +31,24 @@ Not all team members are reflected here yet. If you see yourself missing, please
 
 - [Gregg Stone](../../company/team/index.md#gregg-stone) (VP of Sales)
 - [Dudley Nostrand](../../company/team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering)
-- RVP of East (to be filled)
+- [Scott Cambell](../../company/team/index.md#scott-campbell-he-him) (Regional Director of East)
   - [Kai Passo](../../company/team/index.md#kai-passo-he-him)
   - [Bill Kolman](../../company/team/index.md#bill-kolman)
   - [Eli Rothschild](../../company/team/index.md#eli-rothschild-he-him)
   - [Scott Cambell](../../company/team/index.md#scott-campbell-he-him)
-  - [Hannah Freilich](../../company/team/index.md#hannah-freilich)
+  - [Caitlin Moran](../../company/team/index.md#caitlin-moran-she-her)
   - [John Harwell](../../company/team/index.md#john-harwell)
-- [Greg Bastis](../../company/team/index.md#greg-bastis-he-him) (RVP of West)
+  - [Nishil Patel](../../company/team/index.md#nishil-patel-he-him)
+- [Greg Bastis](../../company/team/index.md#greg-bastis-he-him) (Regional VP of West)
   - [Owen Brennan](../../company/team/index.md#owen-brennan-he-him)
   - [Chris Surdi](../../company/team/index.md#chris-surdi)
-
+  - Will Camp
+  - [Jon Kishpaugh](../../company/team/index.md#jon-kishpaugh-he-him)
+  - [James Clifford](../../company/team/index.md#james-clifford-he-him)
+  - Ken Mills
+- Prakash Durgani (Head of International Sales)
+  - Khoshal Wial
+  
 ### Roles
 
 See [roles](./roles/index.md) page.
