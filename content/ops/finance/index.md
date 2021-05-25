@@ -6,7 +6,6 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 ## Team
 
-We are hiring for the finance & accounting team! See all [open positions](https://boards.greenhouse.io/sourcegraph91).
 
 ### Members
 
