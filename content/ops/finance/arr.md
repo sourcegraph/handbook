@@ -97,9 +97,7 @@ The table below highlights different commercial terms of a procurement negotiati
 |---|---|
 |Price|1|
 |Value|2|
-|Negotiation Tactics|- Investigate if any Sourcegraph employees have a relationship which could be leveraged during negotiations (i.e. LinkedIn connections)For larger items of spend it may be worth scheduling a face-to-face meeting with the supplier.
-Partnering – if we provide a customer testimonial / case study, could it result in better pricing?
-|
+|Negotiation Tactics|- Investigate if any Sourcegraph employees have a relationship which could be leveraged during negotiations (i.e. LinkedIn connections)|
 |Payment terms|- Can we negotiate longer payment terms (for example 60 days) or a discount if we pay invoices early (for example 5% discount if we pay within 10 days)?|
 
 #### Contractual Execution
