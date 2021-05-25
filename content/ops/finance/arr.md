@@ -10,10 +10,15 @@ The below policy relates to all expenses above $10,000 - including monthly recur
  - Procurement process
 
 1.      Policy Mission Statement
+
 Sourcegraph employees are required to undertake an efficient, timely and cost-effective procurement process while ensuring appropriate levels of diligence and accountability in accordance with the processes outlined in this policy.
+
 2.      Policy Scope
+
 This policy applies to all Sourcegraph teammates, and third party contractors acting on behalf of Sourcegraph. This policy applies to procurements above $10,000 (inclusive of all applicable taxes and charges).  
+
 3.      Policy Objectives
+
 The objectives of the Sourcegraph Procurement policy are as follows:
  - Supporting Sourcegraph personnel in undertaking efficient, timely and cost-effective procurement processes
  - Maximizing value for Sourcegraph
@@ -21,7 +26,9 @@ The objectives of the Sourcegraph Procurement policy are as follows:
  - Ensuring appropriate levels of diligence is performed prior to expenditure 
  - Ensuring that the procurement process and level of effort is commensurate with the nature and value of the procurement
  - Ensuring documents utilized during the simple procurement process use clear, simple and easy to understand language
+ 
  4.      Procurement Process
+
 The procurement process should be considered in three stages;
 a.      Evaluation stage
 b.      Go-to-market stage
