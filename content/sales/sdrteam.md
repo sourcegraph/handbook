@@ -7,6 +7,7 @@ The SDR Team (fill in the blanks)
 - [Quin Keough](../../../../company/team/index.md#quin-keough) - West
 - [Mark Muldez](../../../../company/team/index.md#mark-muldez-he-him) - East
 - [Sam Cregg](../../../../company/team/index.md#sam-cregg) - East
+- [Nicholas Gage](../../../../company/team/index.md#nicholas-gage) - Head of Sales Development
 
 ## Quick Links
 
