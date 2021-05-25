@@ -1,49 +1,110 @@
-# ARR
+# Sourcegraph Procurement Policy
 
-## Monthly closing process
+The below policy relates to all expenses above $10,000 - including monthly recurring expenses with vendors where the annual run rate is above $10,000.
 
-Twice every month the finance team closes the books and reports the latest ARR to the team based on calculations in the ARR source of truth, the [ARR tracker spreadsheet](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit). This process will be completed within 5 business days of halfway and the end of the month.
+## AP Policy
 
-## Definitions
+ - Mission Statement
+ - Scope
+ - Objectives
+ - Procurement process
 
-### New IARR
+1.      Policy Mission Statement
+Sourcegraph employees are required to undertake an efficient, timely and cost-effective procurement process while ensuring appropriate levels of diligence and accountability in accordance with the processes outlined in this policy.
+2.      Policy Scope
+This policy applies to all Sourcegraph teammates, and third party contractors acting on behalf of Sourcegraph. This policy applies to procurements above $10,000 (inclusive of all applicable taxes and charges).  
+3.      Policy Objectives
+The objectives of the Sourcegraph Procurement policy are as follows:
+ - Supporting Sourcegraph personnel in undertaking efficient, timely and cost-effective procurement processes
+ - Maximizing value for Sourcegraph
+ - Ensuring ownership, accountability and transparency in expenditure
+ - Ensuring appropriate levels of diligence is performed prior to expenditure 
+ - Ensuring that the procurement process and level of effort is commensurate with the nature and value of the procurement
+ - Ensuring documents utilized during the simple procurement process use clear, simple and easy to understand language
+ 4.      Procurement Process
+The procurement process should be considered in three stages;
+a.      Evaluation stage
+b.      Go-to-market stage
+c.      Contract execution
+ 
+a.      Evaluation stage
+Best practice procurement processes should commence with the following steps:
+- defining the requirement (e.g. quantity, quality, delivery, timing)
+- assessing other strategies such as utilizing existing period contract arrangements
+- obtaining financial & Legal approval
 
-- Throughout each month, finance will take any announced sales and add them to the ARR tracker spreadsheet on the Deals tab. Whenever a sale is announced in the #sales Slack channel, before adding it to the ARR tracker spreadsheet, finance will respond to the AE with their assumptions for the following values, and sales must confirm in writing that each of these is correct:
-  - Customer name
-  - Contract start date
-  - IARR amount
+Approval Levels
+The table below presents the approval levels required for expenditure, based on $ amounts. Amounts below are in US dollars, inclusive of all taxes and charges.  For procurement that exceeds an annual equivalent of $10,000, the Finance team will complete a PO.
 
-Finance should also update the [server to company details](https://docs.google.com/spreadsheets/d/1wo_KQIcGrNGCWYKa6iHJ7MImJ_aI7GN12E-T21Es8TU/edit#gid=0) and [server installers to company](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit#gid=0) spreadsheets with the relevant changes. 
+|Amount (Annual Equivalent)|Approval Required|Recommend Method of Payment|
+|---|---|---|
+|$0 - $1,000|Does not require specific approval|Expensify / Remote.com / Brex / Bill.com|
+|$1,000 to $10,000|Needs to be approved by a director or above of your department|Brex / Bill.com via Sourcegraph AP team|
+|$10,000 or greater|Needs to be approved by a director or above of your department and Finance|Bill.com via Sourcegraph AP Team|
+|$50,000 or greater|Needs to be approved by a director or above of your department, Finance, and the VP of Operations|Bill.com via Sourcegraph AP Team|
 
-### Expansion IARR
+b.     Go-to-market Stage
+ 
+Best practice guidelines relating to the go-to-market stage of procurement includes:
+ 
+- identifying how to approach the market and engage in negotiations
+- determining the number of quotes to obtain
+- determining the selection/evaluation process
+- engaging in commercial negotiations with chosen supplier
 
-- Halfway and at the end of each month, finance will calculate [expansion IARR and MAU bookings](https://docs.google.com/spreadsheets/d/1tRcz3bNOho1TyWvrYSv37RIYcQs7I0i05-5eKwLq8TI/edit#gid=0). Finance will post a message in the #sales channel listing each individual booking, with the AE and CE who own the account tagged on each line. Each AE with a booking must confirm in writing that the expansion is approved and can be booked.
-- These expansion and MAU bookings are added to the ARR tracker spreadsheet and should be dated as of the beginning of the month being closed (e.g., when closing September 2020, the booking will be dated 9/1/2020, the beginning of the month in which the expansion occurred).
-- All final expansion and MAU bookings should be copy-pasted out of the ARR tracker spreadsheet and sent to the [Sales Ops](../../sales/sales-ops/index.md) team so they can be added to Salesforce.
+Request for Quotes Process
+Sourcegraph employees must request competitive quotes, in writing, as far as practicable, as presented in table 2 below.
+|Spend (Annual Equivalent)|Quotes|
+|---|---|
+|$0 - $10,000|1|
+|$10,000 - $50,000|2|
+|$50,000 or greater|3|
 
-### Final internal reports
+The number of quotes sought can be restricted to less than the required number if there are legitimate reasons for limiting the number of suppliers. Such reasons might include:
+- only a limited number of suppliers with the capability, experience and suitability to meet the procurement requirement
+- the need for compatibility with existing equipment or services
+- absence of competition due to technical reasons (e.g. exclusivity, proprietary information)
+- the cost of changeover is prohibitive
+- an unsolicited proposal with very advantageous conditions and appropriate approval
+- time sensitive
+ 
+The justification for limiting the number of suppliers must be communicated via email to ap@sourcegraph.com.
+ 
+Sourcegraph employees should also inquire as to whether customer references / testimonials are available for items of expenditure greater than $10,000. 
 
-- When the finance team member who is updating the tracker feels confident in the results, they should ask @dan and @gregg to review each change, as well as the aggregate metrics in a draft of the public message below, and provide a final approval.
-- The finance team member who completed the process should post an update to the #finance channel containing the following, as well as cross-post this to the #general channel.
+Commercial Negotiations
+The table below highlights different commercial terms of a procurement negotiation, in order of importance to Sourcegraph. Buyers are encouraged to consult with the Finance team if they require support during commercial negotiations with suppliers.
 
-```
-**<month> close**
+c.      Contractual Documents
+ 
+Contract Management
+Supplier contracts must be reviewed and approved by Sourcegraph Legal team prior to signing in accordance with (insert link to legal page). Designated buyers should submit a brief summary of key commercial terms (term, price, auto renewal, etc.) to legal along with the contract for signing.
+ 
+Contract management should include:
+- Ensuring contracts are reviewed by appropriate personnel to assess legal and commercial impact.
+- Ensuring roles and responsibilities for managing the contract have been identified and understood by the relevant parties
+- Ensuring the contract is effectively implemented and that the supplier delivers the requirements of the contract
+- Addressing any issues that arise during the contract term
+- Ensuring the key terms (price, term, owner) are stored in the contract register (discussed below)
+- Processing invoices for payment on a timely basis in line with agreed provisions in the contract
 
-We added <closing IARR> IARR in <month>, bringing total ARR to <closing ARR>. This includes:
-* <new IARR> new IARR
-* <expansion IARR> expansion IARR
+Contract Register
+The Sourcegraph Finance department will maintain a contract register to record expenditure valued at greater than $10,000 (annualized amount). 
+ 
+Contract Renewals
+Designated buyers (employees who are responsible for the spend) should monitor contract end dates or renewal dates to ensure that:
+- Renegotiations can commence in a timely manner, in advance of cessation or renewal
+- Sourcegraph employees can go to market to request additional quotes from alternative suppliers (if required)
+- If desired, that a vendor / contractor can be terminated by Sourcegraph allowing for any required notice period
 
-This represents <month-over-month ARR growth %> month-over-month growth in total ARR. For the quarter so far, expansion IARR represents an annualized <annualized ARR retention %> net ARR retention.
+New Supplier Form
+Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to “Sourcegraph New Supplier form 
 
-See our growth in the quarterly cohort chart below:
-
-<screenshot of the quarterly ARR by cohort chart>
-
-See full details in our ARR tracker spreadsheet: https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c.
-```
-
-- At the end of each calendar quarter, @dan will send this report to the Sourcegraph board of directors.
-
-### Invoices
-
-- Within the first 15 days of the end of the month, finance will send invoices to all customers with new bookings through Xero.
+Confidential Information
+All information received from suppliers is to be treated as confidential. Further, if the vendor has any access to information which Sourcegraph considers confidential, the Sourcegraph employee should consult with the legal team and consider if a non-disclosure agreement (NDA) is required.
+ 
+ 
+5.      Other Considerations
+ 
+Managing Conflicts of Interest
+Any actual, potential or perceived conflict of interest that has the potential to unfairly affect or influence the proper outcome of the procurement process, must be identified and documented in the purchase order requisition.
