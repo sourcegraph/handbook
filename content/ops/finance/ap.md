@@ -95,8 +95,8 @@ The table below highlights different commercial terms of a procurement negotiati
 
 |Area|Sourcegraph Procurement Policy Considerations|
 |---|---|
-|Price|1|
-|Value|2|
+|Price|New contracts: Requesting quotes / pricing|
+|Value|- If we cannot negotiate better pricing, can we negotiate to receive additional services for the same price (i.e., achieve better value)?|
 |Negotiation Tactics|- Investigate if any Sourcegraph employees have a relationship which could be leveraged during negotiations (i.e. LinkedIn connections)|
 |Payment terms|- Can we negotiate longer payment terms (for example 60 days) or a discount if we pay invoices early (for example 5% discount if we pay within 10 days)?|
 
@@ -129,7 +129,7 @@ Designated buyers (employees who are responsible for the spend) should monitor c
 
 ##### New Supplier Form
 
-Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to [Sourcegraph New Supplier form] (https://docs.google.com/document/d/1Y5y3fSylGsHYuAiD_U2YJer41nAFGAAd2WAifkDGQ6o/edit)
+Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to [Sourcegraph New Supplier form](https://docs.google.com/document/d/1Y5y3fSylGsHYuAiD_U2YJer41nAFGAAd2WAifkDGQ6o/edit).
 
 ##### Confidential Information
 
