@@ -20,6 +20,7 @@ This policy applies to all Sourcegraph teammates, and third party contractors ac
 ### Policy Objectives
 
 The objectives of the Sourcegraph Procurement policy are as follows:
+
  - Supporting Sourcegraph personnel in undertaking efficient, timely and cost-effective procurement processes
  - Maximizing value for Sourcegraph
  - Ensuring ownership, accountability and transparency in expenditure
@@ -121,7 +122,6 @@ Once the contract is agreed, if this is the first time Sourcegraph has used this
 Confidential Information
 
 All information received from suppliers is to be treated as confidential. Further, if the vendor has any access to information which Sourcegraph considers confidential, the Sourcegraph employee should consult with the legal team and consider if a non-disclosure agreement (NDA) is required.
- 
  
 Other Considerations
  
