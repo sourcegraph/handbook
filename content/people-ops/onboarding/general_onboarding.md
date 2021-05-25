@@ -6,7 +6,7 @@
 
 - **[Google Workspace/Gmail](https://www.google.com/gmail/)**: Access all Google Workspace apps in our org (Gmail, Google Docs, Google Sheets, Google Calendar).
 - **[Greenhouse](https://www.greenhouse.io/):** Access our recruiting tool for tracking candidates in the hiring pipeline.
-- **[Slack](https://slack.com/)**: Access our team communication tool.
+- **[Slack](https://slack.com/)**: Access our team communication tool. For consistency, use `First Name (or preferred name) Last Name` as your display name on Slack.
 - **[GitHub](https://github.com/sourcegraph/)**: Access our code and our handbook.
 - **[Lattice](https://sourcegraph.latticehq.com/)**: Access our [teammate feedback cycles](../review-cycles/index.md) (takes place every quarter– Noemi will send out details).
 - **[1Password](https://1password.com/)**: Access shared team passwords and store your own passwords.

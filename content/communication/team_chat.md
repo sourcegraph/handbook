@@ -43,6 +43,10 @@ Make sure to set up Slack to only send you notifications when you want to see th
 
 In public channels, we use threads to organize conversations around topics and limit the number of notifications into a channel. That being said, when a thread reaches a point where a result or update would be useful for the entire channel to be aware of, you can check the `Also send to #channel` to send it into the channel's main view. 
 
+## Name
+
+To avoid confusion, set your Slack **display name** as `First Name (or preferred name) Last Name`.
+
 ## Channels
 
 We have many Slack channels. You don't have to join them all, but here is a good breakdown of the most active ones by category.
