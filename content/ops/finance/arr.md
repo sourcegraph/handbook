@@ -33,17 +33,20 @@ The objectives of the Sourcegraph Procurement policy are as follows:
 The procurement process should be considered in three stages:
 
 a.      Evaluation stage
+
 b.      Go-to-market stage
+
 c.      Contract execution
  
 #### Evaluation stage
 
 Best practice procurement processes should commence with the following steps:
+
 - defining the requirement (e.g. quantity, quality, delivery, timing)
 - assessing other strategies such as utilizing existing period contract arrangements
 - obtaining financial & Legal approval
 
-Approval Levels
+##### Approval Levels
 
 The table below presents the approval levels required for expenditure, based on $ amounts. Amounts below are in US dollars, inclusive of all taxes and charges.  For procurement that exceeds an annual equivalent of $10,000, the Finance team will complete a PO.
 
@@ -63,7 +66,8 @@ Best practice guidelines relating to the go-to-market stage of procurement inclu
 - determining the selection/evaluation process
 - engaging in commercial negotiations with chosen supplier
 
-Request for Quotes Process
+##### Request for Quotes Process
+
 Sourcegraph employees must request competitive quotes, in writing, as far as practicable, as presented in table 2 below.
 
 |Spend (Annual Equivalent)|Quotes|
@@ -85,7 +89,7 @@ The justification for limiting the number of suppliers must be communicated via 
  
 Sourcegraph employees should also inquire as to whether customer references / testimonials are available for items of expenditure greater than $10,000. 
 
-Commercial Negotiations
+##### Commercial Negotiations
 
 The table below highlights different commercial terms of a procurement negotiation, in order of importance to Sourcegraph. Buyers are encouraged to consult with the Finance team if they require support during commercial negotiations with suppliers.
 
@@ -104,26 +108,26 @@ Contract management should include:
 - Ensuring the key terms (price, term, owner) are stored in the contract register (discussed below)
 - Processing invoices for payment on a timely basis in line with agreed provisions in the contract
 
-Contract Register
+##### Contract Register
 
 The Sourcegraph Finance department will maintain a contract register to record expenditure valued at greater than $10,000 (annualized amount). 
  
-Contract Renewals
+##### Contract Renewals
 
 Designated buyers (employees who are responsible for the spend) should monitor contract end dates or renewal dates to ensure that:
+
 - Renegotiations can commence in a timely manner, in advance of cessation or renewal
 - Sourcegraph employees can go to market to request additional quotes from alternative suppliers (if required)
 - If desired, that a vendor / contractor can be terminated by Sourcegraph allowing for any required notice period
 
-New Supplier Form
+##### New Supplier Form
 
-Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to “Sourcegraph New Supplier form 
+Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to [Sourcegraph New Supplier form (https://docs.google.com/document/d/1Y5y3fSylGsHYuAiD_U2YJer41nAFGAAd2WAifkDGQ6o/edit)
 
-Confidential Information
+##### Confidential Information
 
 All information received from suppliers is to be treated as confidential. Further, if the vendor has any access to information which Sourcegraph considers confidential, the Sourcegraph employee should consult with the legal team and consider if a non-disclosure agreement (NDA) is required.
  
-Other Considerations
- 
-Managing Conflicts of Interest
+##### Managing Conflicts of Interest
+
 Any actual, potential or perceived conflict of interest that has the potential to unfairly affect or influence the proper outcome of the procurement process, must be identified and documented in the purchase order requisition.
