@@ -29,18 +29,21 @@ The objectives of the Sourcegraph Procurement policy are as follows:
  
 ### Procurement Process
 
-The procurement process should be considered in three stages;
+The procurement process should be considered in three stages:
+
 a.      Evaluation stage
 b.      Go-to-market stage
 c.      Contract execution
  
-a.      Evaluation stage
+#### Evaluation stage
+
 Best practice procurement processes should commence with the following steps:
 - defining the requirement (e.g. quantity, quality, delivery, timing)
 - assessing other strategies such as utilizing existing period contract arrangements
 - obtaining financial & Legal approval
 
 Approval Levels
+
 The table below presents the approval levels required for expenditure, based on $ amounts. Amounts below are in US dollars, inclusive of all taxes and charges.  For procurement that exceeds an annual equivalent of $10,000, the Finance team will complete a PO.
 
 |Amount (Annual Equivalent)|Approval Required|Recommend Method of Payment|
@@ -50,7 +53,7 @@ The table below presents the approval levels required for expenditure, based on 
 |$10,000 or greater|Needs to be approved by a director or above of your department and Finance|Bill.com via Sourcegraph AP Team|
 |$50,000 or greater|Needs to be approved by a director or above of your department, Finance, and the VP of Operations|Bill.com via Sourcegraph AP Team|
 
-b.     Go-to-market Stage
+#### Go-to-market Stage
  
 Best practice guidelines relating to the go-to-market stage of procurement includes:
  
@@ -61,6 +64,7 @@ Best practice guidelines relating to the go-to-market stage of procurement inclu
 
 Request for Quotes Process
 Sourcegraph employees must request competitive quotes, in writing, as far as practicable, as presented in table 2 below.
+
 |Spend (Annual Equivalent)|Quotes|
 |---|---|
 |$0 - $10,000|1|
@@ -84,7 +88,7 @@ Commercial Negotiations
 
 The table below highlights different commercial terms of a procurement negotiation, in order of importance to Sourcegraph. Buyers are encouraged to consult with the Finance team if they require support during commercial negotiations with suppliers.
 
-c.      Contractual Documents
+#### Contractual Execution
  
 Contract Management
 
@@ -119,7 +123,7 @@ Confidential Information
 All information received from suppliers is to be treated as confidential. Further, if the vendor has any access to information which Sourcegraph considers confidential, the Sourcegraph employee should consult with the legal team and consider if a non-disclosure agreement (NDA) is required.
  
  
-5.      Other Considerations
+Other Considerations
  
 Managing Conflicts of Interest
 Any actual, potential or perceived conflict of interest that has the potential to unfairly affect or influence the proper outcome of the procurement process, must be identified and documented in the purchase order requisition.
