@@ -93,9 +93,18 @@ Sourcegraph employees should also inquire as to whether customer references / te
 
 The table below highlights different commercial terms of a procurement negotiation, in order of importance to Sourcegraph. Buyers are encouraged to consult with the Finance team if they require support during commercial negotiations with suppliers.
 
+|Area|Sourcegraph Procurement Policy Considerations|
+|---|---|
+|Price|1|
+|Value|2|
+|Negotiation Tactics|- Investigate if any Sourcegraph employees have a relationship which could be leveraged during negotiations (i.e. LinkedIn connections)For larger items of spend it may be worth scheduling a face-to-face meeting with the supplier.
+Partnering – if we provide a customer testimonial / case study, could it result in better pricing?
+|
+|Payment terms|- Can we negotiate longer payment terms (for example 60 days) or a discount if we pay invoices early (for example 5% discount if we pay within 10 days)?|
+
 #### Contractual Execution
  
-Contract Management
+##### Contract Management
 
 Supplier contracts must be reviewed and approved by Sourcegraph Legal team prior to signing in accordance with (insert link to legal page). Designated buyers should submit a brief summary of key commercial terms (term, price, auto renewal, etc.) to legal along with the contract for signing.
  
@@ -110,7 +119,7 @@ Contract management should include:
 
 ##### Contract Register
 
-The Sourcegraph Finance department will maintain a contract register to record expenditure valued at greater than $10,000 (annualized amount). 
+The Sourcegraph Finance department will maintain a contract register to record expenditures valued at greater than $10,000 (annualized amount). 
  
 ##### Contract Renewals
 
@@ -122,7 +131,7 @@ Designated buyers (employees who are responsible for the spend) should monitor c
 
 ##### New Supplier Form
 
-Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to [Sourcegraph New Supplier form (https://docs.google.com/document/d/1Y5y3fSylGsHYuAiD_U2YJer41nAFGAAd2WAifkDGQ6o/edit)
+Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to [Sourcegraph New Supplier form] (https://docs.google.com/document/d/1Y5y3fSylGsHYuAiD_U2YJer41nAFGAAd2WAifkDGQ6o/edit)
 
 ##### Confidential Information
 
