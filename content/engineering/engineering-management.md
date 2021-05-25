@@ -54,3 +54,21 @@ Here are some books that multiple people on the team have read and recommend. If
   - Session 3 week of June 21
   - Session 4 week of July 5
   - Session 5 week of July 19
+
+## Temporary Management Positions
+
+We create temporary management positions when there is an organizational need. These may be filled by someone who is transitioning into the role (Interim Manager), experimenting with the role as they work on determining their career path (Acting Manager) or, someone who is just filling in and who is not interested in pursuing an Engineering Manager role long term (Acting Manager). This difference should be made explicit with the individual and team members before the temporary role is assigned.
+
+### Acting Manager
+
+An Acting Manager occupies a role temporarily and will move back to their original position after a set amount of time or other conditions. An Acting Manager may be experimenting with the role as a part of determining their career development path or could be filling in for a vacant role while we hire.
+
+### Interim Manager
+
+Interim Manager positions are for teammates pursuing an Engineering Manager role long term but lack the necessary people management experience. The requirement is that, before moving into the role full time, they will make at least one successful hire. The official transition to Engineering Manager will not occur before 30 days after that new hire's start date, so that we can assess whether the hire was truly successful. If the new hire's success is indeterminate at the 30-day mark, we will continue to review until a firm decision is made. If the new hire is not successful, that does not mean that the Interim Manager cannot eventually move into the full-time role.
+
+In some cases, it may not be practical, or headcount planning might not allow for the Interim Manager to make a new hire. In this case, the Interim Manager and the interim manager's manager should agree on success criteria based on the role's requirements.
+
+Once the Interim Manager's first new hire has been at Sourcegraph for 30 days or other agreed success criteria have been met, their manager will formally review the Interim Manager.
+
+This process aims to have a determination made by the interim manager's manager about the promotion to a permanent manager role after the agreed success criteria have been satisfied. Generally, we aim to have the interim period not exceed four months before turning into a full-time position.
