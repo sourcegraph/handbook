@@ -31,26 +31,18 @@ More details about each team member in [our team READMEs](support-bios.md).
 
 ## We know that we are successful when we …
 
-* **Maintain 95% CSAT (customer satisfaction).** Part of the support workflow will be seeking confirmation from a customer that they agree we are done with that particular conversation/issue. At that time, we will initiate a request to rate how support was during that conversation. In order to encourage healthy behavior of not cherry picking cases to work, the target allows for support engineers to learn and grow. It’s okay that this is not 100%, so long as we learn and are able to maintain 95%. *Note: This is currently on hold while we figure out how to prevent survey/request fatigue and still gather important input from our customers.*
-* **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations.
-* **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround.
-* **No more than 10% of cases result in a request for help from engineering per month.** Requests for help are questions about how something works and/or troubleshooting assistance. This does not include defects or feature improvement requests. 10% may be the wrong target, but it’s a start and no matter what, the target will reflect the intention that the support team will strive to be as self-sufficient as possible.
-* **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.** We will contribute to and/or be accountable for the following key results (details about what we will do to achieve these results coming after a 2021-03-23 team brainstorm):
-	* Vitals, health, and opportunity metrics for accounts are reliably tracked (annual)
-	* 90% of usage and support questions can be handled by referring to relevant documentation (annual)
-	* 95% of all P2 issues/questions handled by Customer Support are resolved in one week (Q1)
-	* We may also be asked to collaborate with other teams on the OKRs for which they are accountable
+* **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
+* **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
+* **No more than 10% of cases result in a request for help from engineering per month.** Requests for help are questions about how something works and/or troubleshooting assistance. This does not include defects or feature improvement requests. 10% may be the wrong target, but it’s a start and no matter what, the target will reflect the intention that the support team will strive to be as self-sufficient as possible. Performance available in summary updates (currently manually tallied).
+* **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.** 
+	* [FY22Q2 OKR plan](FY22Q2-OKR-Plan.md)
 
-
-We will use FY22-Q1 to baseline our performance toward these targets. Based on our performance, we will use goals to close any gaps and make any improvements. For example, if we find that in FY22-Q1, we average 20 requests for help from engineering per month, then we will have goals that reflect the work we need to do to increase our expertise and reduce our reliance on engineering for help.
 
 In addition to these top level key performance indicators (KPIs), we will have several more to help us uncover any team health issues as quickly as possible and look at any interesting trends that could result in product, practice, and/or staffing improvements. For example: 
 
 * Total case volume
 * Type of case (how-to question, defect, product improvement)
 * Percent of issues/questions by product/feature
-* Average number of replies per conversation
-* Average time between replies (for support team, for customers)
 * Average number of cases per customer
 * Volume of cases by each customer
 * Volume of cases incoming during US hours, Europe hours, etc
