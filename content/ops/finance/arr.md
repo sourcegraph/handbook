@@ -96,9 +96,10 @@ The table below highlights different commercial terms of a procurement negotiati
 |Area|Sourcegraph Procurement Policy Considerations|
 |---|---|
 |Price|New contracts: Requesting quotes / pricing|
-|Value|- If we cannot negotiate better pricing, can we negotiate to receive additional services for the same price (i.e., achieve better value)?|
-|Negotiation Tactics|- Investigate if any Sourcegraph employees have a relationship which could be leveraged during negotiations (i.e. LinkedIn connections)|
+|Value| - If we cannot negotiate better pricing, can we negotiate to receive additional services for the same price (i.e., achieve better value)? <br> - For example, could we ask for extra training days for free or a one/ two/ three month free period at the end of the term? <br> |
+|Negotiation Tactics| - Investigate if any Sourcegraph employees have a relationship which could be leveraged during negotiations (i.e. LinkedIn connections) <br> - For larger items of spend it may be worth scheduling a face-to-face meeting with the supplier. <br> - Partnering – if we provide a customer testimonial / case study, could it result in better pricing? <br> |
 |Payment terms|- Can we negotiate longer payment terms (for example 60 days) or a discount if we pay invoices early (for example 5% discount if we pay within 10 days)?|
+
 
 #### Contractual Execution
  
