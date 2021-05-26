@@ -50,7 +50,7 @@ Any other questions about monitoring and performance should be routed to the [Di
 
 ### Code host connections
 
-**Keywords**: `code host`, `cloning`, `syncing`, `token`, `GitHub`, `GitLab`, `Bitbucket`, `Phabricator`, `Gerrit`, `repository`, `project`, `Perforce`, `src-expose`
+**Keywords**: `code host`, `cloning`, `syncing`, `token`, `GitHub`, `GitLab`, `Bitbucket`, `Phabricator`, `Gerrit`, `repository`, `project`, `Perforce`, `src-expose`, `src serve-git`
 
 Any questions about code host connections and repository syncing should be routed to the [Core application team](../engineering/core-application/index.md).
 
