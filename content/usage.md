@@ -98,3 +98,7 @@ Sourcegraph is an [open product, an open company, and open source](../company/in
 ## Acknowledgements
 
 Portions of this documentation are derived from [GitLab's handbook](https://docs.gitlab.com) (see [license](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/LICENCE)).
+
+## Handbook feedback
+
+We're constantly iterating on what the best version of our Sourcegraph handbook might look like. Is it easy to use? Do you find what you're looking for? Let us know [here](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link).
