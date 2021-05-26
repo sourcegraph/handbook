@@ -104,7 +104,7 @@ The table below highlights different commercial terms of a procurement negotiati
  
 ##### Contract Management
 
-Supplier contracts must be reviewed and approved by Sourcegraph Legal team prior to signing in accordance with (insert link to legal page). Designated buyers should submit a brief summary of key commercial terms (term, price, auto renewal, etc.) to legal along with the contract for signing.
+Supplier contracts must be reviewed and approved by Sourcegraph Legal team prior to signing in accordance with our legal team's contract review policy [Sourcegraph New Supplier form](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services). Designated buyers should submit a brief summary of key commercial terms (term, price, auto renewal, etc.) to legal along with the contract for signing.
  
 Contract management should include:
 
