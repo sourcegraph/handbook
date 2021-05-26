@@ -6,6 +6,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Editing the handbook](editing.md)
 - [Handbook usage](usage.md)
+- [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 
 ## [Company](../company/index.md)
 
