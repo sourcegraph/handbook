@@ -28,7 +28,7 @@ Other than that, I like to give and recieve in a way that allows for discussion.
 
 ## Communicating
 
-I like time to think, and writing helps me process (so the asycn Sourcegraph culture is 💯 up my street), but I'm equaly happy chatting things over.
+I like time to think, and writing helps me process (so the async Sourcegraph culture is 💯 up my street), but I'm equally happy chatting things over.
 
 I'm always a little sceptical of the value of big meetings. It's hard to give everyone a voice, and without a strong lead and even stronger agenda it's hard to make them really valuable. But they can work.
 
