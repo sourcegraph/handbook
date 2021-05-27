@@ -6,7 +6,7 @@
 1. [Capabilities](#capabilities)
 1. [Brand Guidelines](brand_guidelines.md)
 1. [Additional Resources](#additional-resources)
-1. Download Brand Kit (Coming Soon!)
+1. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
 
 ## Function, Vision, Mission, and Values
 Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to elevate, activate and communicate the value of Sourcegraph to the world. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, offering full-service creative support with a rapid, flexible, iterative process that stems from a deep understanding of our products, our processes, and our people.
@@ -35,24 +35,26 @@ Our company values can be found [here](../../company/values.md). Our Brand Creat
 ## The Team
 Functional Areas: Design, illustration, animation, video production, copywriting, narrative, project management, brand strategy, market research, website development, and more.
 
-Tommy Pesavento - Director of Brand Design/Creative Director
-Fabiana Castellanos - Project Coordinator, Brand
+Tommy Pesavento - Director of Brand Design/Creative Director    
+Fabiana Castellanos - Project Coordinator, Brand    
 
-To be hired:
-Senior Brand Strategist (Q2 FY22)
-Design Lead, Brand (Q2 FY22)
-Senior Brand Designer
-Brand Designer
-Creative Producer
-Motion Designer/Animator
-Multimedia Specialist/Editor
-Senior Copywriter, Brand
-Copywriter, Brand
-Website Experience Manager
-Web Designer (UX/UI)
-Web Developer (Q1 FY22)
-CMS Admin
-UX Researcher
+To be hired:    
+• Senior Brand Strategist (Q2 FY22)   
+• Brand Planner   
+• Senior Brand Designer (Q2 FY22)    
+• Brand Designer    
+• Production Designer   
+• Creative Producer     
+• Motion Designer/Animator  
+• Multimedia Specialist 
+• Social Media Manager (Q2 FY22)  
+• Senior Copywriter, Brand (Q2 FY22)  
+• Copywriter, Brand   
+• Digital Experience Manager    
+• Web Designer (UX/UI)    
+• Web Developer     
+• CMS Admin   
+• UX Researcher   
 
 ## Capabilities
 We deliver agency-caliber campaigns, creative, production, and results in support of every team within the company to drive awareness, engagement, and adoption.
