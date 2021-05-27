@@ -75,6 +75,8 @@ If you use Firefox, you can add a Sourcegraph handbook search shortcut to the ad
 1. Right-click the search bar on https://about.sourcegraph.com/handbook.
 1. Choose `Add a keyword for this Search`.
 1. Enter a keyword that you would like to use (e.g. `hb`).
+1. Open your bookmarks and edit the handbook bookmark that was just created
+1. Change the URL on the bookmark to `https://about.sourcegraph.com/handbook#stq=%s`
 
 ### Usage
 
