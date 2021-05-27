@@ -1,6 +1,6 @@
 # Livestream events (Webinars)
 
-The following information describes the planning and execution of a Sourcegraph livestream event. 
+The following information describes the planning and execution of a Sourcegraph livestream event.
 
 ## Livestream information
 
@@ -24,22 +24,22 @@ Sourcegraph uses these web applications for running a livestream event:
 - Hubspot
   * Set up landing page for registration
   * Manage invitation lists and store registration/attendance activities
-  
+
 ## Sourcegraph code of conduct for livestream events
 
-Sourcegraph livestream events are open to the public. We are committed to providing a friendly, safe, and welcoming environment for all.  Please read our [Sourcegraph Community Code of Conduct](https://about.sourcegraph.com/community/code_of_conduct).
+Sourcegraph livestream events are open to the public. We are committed to providing a friendly, safe, and welcoming environment for all.  Please read our [Sourcegraph Community Code of Conduct](https://about.sourcegraph.com/handbook/community/code_of_conduct).
 
 ## Livestream planning tasks
 
- time to livestream | activity  
- ------------------ | ---------------    
- 1 - 2 months out   | Identify livestream information 
- 1 month out        | Send out invitations 
- 2 weeks out        | Send out invitation #2 
- 1 day - 1 week out | Send out email reminders 
- 1-2 weeks out      | Perform a rehearsal 
- 1 day out          | Test livestream link 
- 30 minutes         | Final soundcheck 
+ time to livestream | activity
+ ------------------ | ---------------
+ 1 - 2 months out   | Identify livestream information
+ 1 month out        | Send out invitations
+ 2 weeks out        | Send out invitation #2
+ 1 day - 1 week out | Send out email reminders
+ 1-2 weeks out      | Perform a rehearsal
+ 1 day out          | Test livestream link
+ 30 minutes         | Final soundcheck
  Post livestream    | Send out thank you emails with link to recorded livestream
 
 
@@ -96,7 +96,7 @@ Ask the customer:
 
 The following Hubspot emails will be created to promote the livestream:
 
-- Invitation which includes the link to the Zoom registration landing page 
+- Invitation which includes the link to the Zoom registration landing page
 - Reminder email T-3 day which includes the Zoom livestream link
 - Reminder email T-1 day which includes the Zoom livestream link
 - Reminder email T-1 hour which includes the Zoom livestream link
@@ -111,17 +111,17 @@ Since this is a [lead-generation activity](marketing_operations.md#maintaining-d
 
 ### Hubspot livestream nomenclature
 
-**Hubspot folder structure**  
-*folder format*:  
-WBR YYQ# \| Title \| Mon DD  
-*example*:  
-WBR 20Q1 \| GitLab Commit 2020 \| Feb 05  
+**Hubspot folder structure**
+*folder format*:
+WBR YYQ# \| Title \| Mon DD
+*example*:
+WBR 20Q1 \| GitLab Commit 2020 \| Feb 05
 
-**Hubspot marketing email titles**   
-*email format*:  
-EM-type WBR YYQ# \| Title \| Mon DD   
-*examples*:  
-EM-invite WBR 20Q1 \| GitLab Commit 2020 \| Feb 05  
-EM-remind-1day WBR 20Q1 \| GitLab Commit 2020 \| Feb 05  
-EM-remind-1hour WBR 20Q1 \| GitLab Commit 2020 \| Feb 05  
-EM-thanks WBR 20Q1 \| GitLab Commit 2020 \| Feb 05  
+**Hubspot marketing email titles**
+*email format*:
+EM-type WBR YYQ# \| Title \| Mon DD
+*examples*:
+EM-invite WBR 20Q1 \| GitLab Commit 2020 \| Feb 05
+EM-remind-1day WBR 20Q1 \| GitLab Commit 2020 \| Feb 05
+EM-remind-1hour WBR 20Q1 \| GitLab Commit 2020 \| Feb 05
+EM-thanks WBR 20Q1 \| GitLab Commit 2020 \| Feb 05

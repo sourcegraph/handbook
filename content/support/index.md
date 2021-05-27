@@ -20,12 +20,12 @@ Keeping our reason for existence and guiding principles in mind in all of our wo
 For additional context, check out [RFC 274](https://docs.google.com/document/d/1eLJmEVoD4H2s18gw65OCKSEX7ZQiG38FU_jU3UsrBKY/edit#), the starting vision for CS at Sourcegraph.
 
 ## The team
-- [Adeola Akinsiku](../../company/team/index.md#adeola-akinsiku)
-- [Warren Gifford](../../company/team/index.md#warren-gifford-he-him)
-- [Stompy Mwendwa](../../company/team/index.md#stompy-mwendwa)
-- [Giselle Northy](../../company/team/index.md#giselle-northy-she-her)
-- [Beatrix Woo](../../company/team/index.md#beatrix-woo-she-her)
-- [Virginia Ulrich](../../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang, CTO)
+- [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
+- [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
+- [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
+- [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
+- [Beatrix Woo](../company/team/index.md#beatrix-woo-she-her)
+- [Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang, CTO)
 
 More details about each team member in [our team READMEs](support-bios.md).
 
@@ -34,11 +34,11 @@ More details about each team member in [our team READMEs](support-bios.md).
 * **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 * **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 * **No more than 10% of cases result in a request for help from engineering per month.** Requests for help are questions about how something works and/or troubleshooting assistance. This does not include defects or feature improvement requests. 10% may be the wrong target, but it’s a start and no matter what, the target will reflect the intention that the support team will strive to be as self-sufficient as possible. Performance available in summary updates (currently manually tallied).
-* **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.** 
+* **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.**
 	* [FY22Q2 OKR plan](FY22Q2-OKR-Plan.md)
 
 
-In addition to these top level key performance indicators (KPIs), we will have several more to help us uncover any team health issues as quickly as possible and look at any interesting trends that could result in product, practice, and/or staffing improvements. For example: 
+In addition to these top level key performance indicators (KPIs), we will have several more to help us uncover any team health issues as quickly as possible and look at any interesting trends that could result in product, practice, and/or staffing improvements. For example:
 
 * Total case volume
 * Type of case (how-to question, defect, product improvement)
@@ -69,7 +69,7 @@ We work alongside just about every team. Here is how we add value to each other 
 ### Marketing
 - **How support adds value to marketing:** Support helps ensure that when developers think of Sourcegraph, they associate it with quality and responsiveness.
 - **How marketing adds value to support:** Marketing provides self-service avenues for our customers to learn and help each other learn (community, developer education).
-- **Collaboration overview:** When a customer engages on a social platform and marketing feels it's best for support to engage, they will push that conversation into Zendesk via an integration and we will then coordinate with them to help. 
+- **Collaboration overview:** When a customer engages on a social platform and marketing feels it's best for support to engage, they will push that conversation into Zendesk via an integration and we will then coordinate with them to help.
 
 ### Sales
 - **How support adds value to sales:** Support helps ensure (via collaboration with CE) that technical issues/questions are not a blocker to sales conversations.
@@ -77,7 +77,7 @@ We work alongside just about every team. Here is how we add value to each other 
 - **Collaboration overview:** Mostly via the CE bringing in support.
 
 ### Operations
-- **How support adds value to operations:** Support delivers on SLA to inform whether our promised SLAs in contracts are accurate and also provides a general data set that can help us see a more full picture about customer health and team performance. Support is a team that is built to hire folks who may need some on-the-job training (either technical or customer service), allowing us to build relationships with universities, code academies, etc. 
+- **How support adds value to operations:** Support delivers on SLA to inform whether our promised SLAs in contracts are accurate and also provides a general data set that can help us see a more full picture about customer health and team performance. Support is a team that is built to hire folks who may need some on-the-job training (either technical or customer service), allowing us to build relationships with universities, code academies, etc.
 - **How operations adds value to support:** Operations provides the foundation of everything. They also provide data from multiple sources to help support see the most nuanced view to make thoughtful priority decisions.
 - **How we collaborate:** Ad-hoc based on hiring, onboarding, and data needs.
 

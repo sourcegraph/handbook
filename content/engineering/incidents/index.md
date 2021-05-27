@@ -71,4 +71,4 @@ After the incident is resolved:
 1. If the Sourcegraph account Tweeted about the incident, Tweet that the incident has been resolved.
 1. Document the incident in the [ops log](https://docs.google.com/document/d/1dtrOHs5STJYKvyjigL1kMm6u-W0mlyRSyVxPfKIOfEw/edit).
 1. Create GitHub issues for any appropriate followup work.
-1. Schedule a [retrospective](../../../retrospectives/index.md) if you think it would be valuable.
+1. Schedule a [retrospective](../../retrospectives/index.md) if you think it would be valuable.

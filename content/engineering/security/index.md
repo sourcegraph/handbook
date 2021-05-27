@@ -38,7 +38,7 @@ On the security team, we work by planning, tracking, and reviewing - creating a 
 
 ### Principles
 
-1. [Goals](https://about.sourcegraph.com/company/goals/guidelines) are something we strive for, whilst tracking and communicating progress.
+1. [Goals](https://about.sourcegraph.com/handbook/company/goals/guidelines) are something we strive for, whilst tracking and communicating progress.
 2. A work item is a piece of work (e.g., writing code, hiring a new teammate) that makes progress toward achieving a goal.
 3. Releases may be made up of N workitems, that may impact Y goals. Whilst this is true, we communicate both internally and externally progress towards those goals.
 4. Security by its various nature has public work items ([main repo](https://github.com/sourcegraph/sourcegraph) and private workitems ([security repo](https://github.com/sourcegraph/security-issues/)). Over time workitems should move from the private repository to the public repository once they can be made public. The ideal goal state is the lack of a private security repository.
@@ -91,8 +91,8 @@ Security develops infrastructure in the [Auxilliary project](https://console.clo
 
 ## Members
 
-- [Dan Mckean](../../../company/team/index.md#dan-mckean-he-him) (Product Manager)
-- FQ2 engineering manager hire, [Bill Creager](../../../company/team/index.md#bill-creager) acting manager until then {#security-eng}
-  - [Elizabeth Stirling](../../../company/team/index.md#elizabeth-stirling-she-her)
-  - [André Eleuterio](../../../company/team/index.md#andré-eleuterio-hehim)
+- [Dan Mckean](../../company/team/index.md#dan-mckean-he-him) (Product Manager)
+- FQ2 engineering manager hire, [Bill Creager](../../company/team/index.md#bill-creager) acting manager until then {#security-eng}
+  - [Elizabeth Stirling](../../company/team/index.md#elizabeth-stirling-she-her)
+  - [André Eleuterio](../../company/team/index.md#andré-eleuterio-hehim)
   - FQ4 security engineer

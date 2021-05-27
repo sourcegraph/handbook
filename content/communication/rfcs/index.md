@@ -1,12 +1,12 @@
 # Requests for comments (RFCs)
 
-We value writing down plans so that we can asynchronously communicate to and solicit feedback from our [all-remote](../../../company/remote/index.md) team. A good plan communicates what problem is being solved, why that problem is being prioritized now, and what the plan is to solve the identified problem.
+We value writing down plans so that we can asynchronously communicate to and solicit feedback from our [all-remote](../../company/remote/index.md) team. A good plan communicates what problem is being solved, why that problem is being prioritized now, and what the plan is to solve the identified problem.
 
 This document describes how we operationalize written planning through our RFC process. RFC literally means "Request for Comments" and you can think about it as exactly that, no more, no less.
 
 This process is designed to be lightweight so that it can be used for many purposes (e.g. product specs, policy decisions, technical discussion), and it is optimized for facilitating collaboration and feedback. In contrast, GitHub issues are best for tracking concrete bug reports or work that has already been scoped and planned (i.e. there isn't much remaining to discuss).
 
-<i>All public RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa). Some RFCs contain non-public information, and are in a [private Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv). For examples of public vs. non-public information, see our [transparency chart](https://about.sourcegraph.com/company/values#open-and-transparent).</i> 
+<i>All public RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa). Some RFCs contain non-public information, and are in a [private Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv). For examples of public vs. non-public information, see our [transparency chart](https://about.sourcegraph.com/handbook/company/values#open-and-transparent).</i>
 
 ## Status
 
@@ -91,10 +91,10 @@ Effective RFCs contain the following information:
      - "This RFC has been implemented."
   - **Requested reviewers:** The list of people that the RFC author is requesting a review from and a requested deadline for those reviews (e.g. "Requested reviewers: Alice and Bob can you please review by 10am PST on 2020-10-21"). The author is responsible for ensuring that the reviewers aware of the review request (e.g. by sending them a Slack message or tagging them in a comment on the Google Doc). If an RFC reader thinks someone is missing from this list, they should make a Google Docs suggestion to add that person to this list.
   - **Approvals:** A list of people who approve of this RFC. Anyone can express approval for an RFC, even if they are not in the "Requested reviewers" list; however, a RFC is not APPROVED until the RFC author receives approval from the people on the "Requested reviewers" list.
-  - **Team(s):** The team(s) that would be involved in implementing the RFC. You can still request review from people not on a listed team. Writing the team allows us to search RFCs by team using Google Docs's exact match string search. 
-     - Everyone must use the same (case-insensitive) team name so a Google Docs search can find all of and only a team's RFCs. We use the team names listed on our [org chart](../../../company/team/org_chart.md).
+  - **Team(s):** The team(s) that would be involved in implementing the RFC. You can still request review from people not on a listed team. Writing the team allows us to search RFCs by team using Google Docs's exact match string search.
+     - Everyone must use the same (case-insensitive) team name so a Google Docs search can find all of and only a team's RFCs. We use the team names listed on our [org chart](../../company/team/org_chart.md).
      - Example: "Team: Web"
-     - Multi-team example: "Team: Web, Team: Customer Engineering". It's important to write "Team: " in front of each team when there are multiple teams so that a search for an exact match (using quotes) on "Team: [Team Name]" always returns. 
+     - Multi-team example: "Team: Web, Team: Customer Engineering". It's important to write "Team: " in front of each team when there are multiple teams so that a search for an exact match (using quotes) on "Team: [Team Name]" always returns.
   - (optional) Links to any GitHub issues that capture work being done to implement this RFC.
   - A good way to notify reviewers is to comment on their name and then assign them in the comment. This will send them an email and allow them to resolve the comment after their review.
 - **Background:** A sufficient, but minimal, amount of context necessary to frame the rest of the RFC. The content should be indisputable facts, not opinions or arguments. The facts should support the chosen definition of the problem and the constraints in the next section.
@@ -108,7 +108,7 @@ The precise format is not as important as the content itself. Ultimately RFCs ar
 
 ## RFCs are public
 
-[We value openness](https://about.sourcegraph.com/company#open-company). Transparency helps us communicate with and gather feedback from our customers, and it holds everyone accountable to a higher quality bar.
+[We value openness](https://about.sourcegraph.com/handbook/company#open-company). Transparency helps us communicate with and gather feedback from our customers, and it holds everyone accountable to a higher quality bar.
 
 The default sharing state of documents in our [Google Drive's RFCs](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) folder will allow everyone to publicly read/comment, and all Sourcegraph teammates to edit.
 

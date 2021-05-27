@@ -133,7 +133,7 @@ Big pause here. These next tasks need a ton of improvement -- as mentioned in th
 
 * Keep helping customers!
 * Schedule a chat with each member of the [Distribution team](https://about.sourcegraph.com/handbook/engineering/distribution). This is the engineering team that we cross paths with the most (they are responsible for customer deployment, monitoring, and upgrades).
-* Schedule a chat with each engineering team manager. You can find who they are by starting on the [org chart page](https://about.sourcegraph.com/company/team/org_chart), navigating to each engineering team page, and then looking at the members listed somewhere there.
+* Schedule a chat with each engineering team manager. You can find who they are by starting on the [org chart page](https://about.sourcegraph.com/handbook/company/team/org_chart), navigating to each engineering team page, and then looking at the members listed somewhere there.
 * Sign-up for which playbook(s) you will help develop and have a plan for how to approach it. Note: more on this soon.
 * Select your focus blocks and update our [team schedule](support-schedule.md).
 

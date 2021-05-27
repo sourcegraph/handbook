@@ -9,7 +9,7 @@ The goal of these review cycles is to ensure that we’re providing every teamma
 
 ## Review cycle overview
 
-We use [Lattice](https://lattice.com/) to conduct our 360 review cycles. It may prompt you to enter your goals. You are welcome to use this feature, but this should only be used for personal professional goals (as opposed to team or business goals, which are tracked in [our goals](../../../company/goals/index.md)). You and your manager should discuss what works best to track your individual goals.
+We use [Lattice](https://lattice.com/) to conduct our 360 review cycles. It may prompt you to enter your goals. You are welcome to use this feature, but this should only be used for personal professional goals (as opposed to team or business goals, which are tracked in [our goals](../../company/goals/index.md)). You and your manager should discuss what works best to track your individual goals.
 
 The 360 review process entails writing your own self review along with giving feedback to your manager, and some of the peers you’ve worked closest with. You will also receive feedback from your manager, as well as your peers.
 
@@ -17,7 +17,7 @@ If you joined Sourcegraph within the last month, many of the questions in the re
 
 Review cycles take place in March and September. They begin the first week of each of those months, and last for two weeks.
 
-## 360 review cycle stages 
+## 360 review cycle stages
 (All days exclude weekends)
 
 ### Peer selection (2 days)

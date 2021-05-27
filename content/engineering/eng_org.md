@@ -34,7 +34,7 @@ This is the current plan for our engineering organization and growth.
 
 Plans can change given new information!
 
-- [Nick Snyder](../../../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
+- [Nick Snyder](../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
     - Global code graph {#global-code-graph}
         - FQ2 [Director of Engineering](https://boards.greenhouse.io/sourcegraph91/jobs/4005231004). Nick acting director until then.
         - [Search core](search/core.md)
@@ -46,7 +46,7 @@ Plans can change given new information!
         - [Batch Changes](batch-changes/index.md)
             - [Team: Batch Changes](batch-changes/index.md#batch-changes-eng)
     - Developer Insights {#developer-insights}
-        - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](roles.md#director-of-engineering))
+        - [Jean du Plessis](../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](roles.md#director-of-engineering))
         - [Code insights](developer-insights/code-insights/index.md)
             - [Team: Code insights](developer-insights/code-insights/index.md#code-insights-eng)
         - [Extensibility](developer-insights/extensibility/index.md)
@@ -56,7 +56,7 @@ Plans can change given new information!
         - [API docs](developer-insights/api-docs/index.md)
             - [Team: API docs](developer-insights/api-docs/index.md#api-docs-eng)
     - Platform and infrastructure {#platform-and-infrastructure}
-        - [Bill Creager](../../../company/team/index.md#bill-creager) ([Director of Engineering](roles.md#director-of-engineering))
+        - [Bill Creager](../company/team/index.md#bill-creager) ([Director of Engineering](roles.md#director-of-engineering))
         - [Security](security/index.md)
             - [Team: Security](security/index.md#security-eng)
         - [Distribution](distribution/index.md)

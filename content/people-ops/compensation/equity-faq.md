@@ -8,7 +8,7 @@ By default, all option grants vest monthly over four years with a 1-year cliff. 
 
 Teammates classified as employees receive incentive stock options (ISOs) to the maximum degree possible, while teammates classified as contractors receive non-qualified (or non-statutory) stock options (NSOs).
 
-All option holders have the right to early exercise their options in Carta. This gives you the ability to pay to exercise options before they have vested, which can provide certain tax benefits in certain locations. Speak to your own financial and/or tax advisors to understand the implications. 
+All option holders have the right to early exercise their options in Carta. This gives you the ability to pay to exercise options before they have vested, which can provide certain tax benefits in certain locations. Speak to your own financial and/or tax advisors to understand the implications.
 
 ## Speak to your own advisor
 
@@ -60,10 +60,10 @@ Unfortunately, we cannot provide personal financial or tax advice. Please speak 
 
 ### What percentage of the company does each share represent, including common stock, restricted stock, outstanding options, etc.?
 
-We do not share this number publicly, but Sourcegraph teammates can find the current count of fully-diluted shares outstanding at https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs. 
+We do not share this number publicly, but Sourcegraph teammates can find the current count of fully-diluted shares outstanding at https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs.
 
 Every time we raise money from investors, this total amount increases (and it can increase for a variety of other reasons as well, such as increasing the number of options that can be granted), so there is no guarantee that it will stay the same, and there is no limit on the number of shares that could come into play.
 
 ### Who should I go to if I have questions?
 
-For now, [Dan](../../../company/team/index.md#dan-adler-he-him) can help answer any questions about your options. The entire People Ops team is available to provide support as well.
+For now, [Dan](../../company/team/index.md#dan-adler-he-him) can help answer any questions about your options. The entire People Ops team is available to provide support as well.

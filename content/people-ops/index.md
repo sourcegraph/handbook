@@ -6,18 +6,18 @@
 
 ## Team
 
-- [List of all Sourcegraph team members](../../company/team/index.md)
+- [List of all Sourcegraph team members](../company/team/index.md)
 
 ### People Ops team members
 
-- [Noemi Mercado](../../../company/team/index.md#noemi-mercado-she-her), Head of People Ops
+- [Noemi Mercado](../company/team/index.md#noemi-mercado-she-her), Head of People Ops
   - Cecily Black, Recruiting Coordinator
-  - [Inés Roitman](https://about.sourcegraph.com/company/team#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
-  - [Cassie Melani](https://about.sourcegraph.com/company/team#cassie-melani-she-her), Teammate Success Manager
+  - [Inés Roitman](https://about.sourcegraph.com/handbook/company/team#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
+  - [Cassie Melani](https://about.sourcegraph.com/handbook/company/team#cassie-melani-she-her), Teammate Success Manager
 
 ## Teammate experience
 
-- [All-remote work](../../company/remote/index.md)
+- [All-remote work](../company/remote/index.md)
 - [Interview process](../talent/hiring/interview_process.md)
 - [Hiring](../talent/hiring/index.md)
 - [Onboarding](onboarding/index.md)

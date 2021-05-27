@@ -77,15 +77,15 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 
 - Aimee Menne (Director of Customer Engineering)
 - Customer Engineers (International/Non-US)
-  - [Christy Haragan](../../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
+  - [Christy Haragan](../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
 - Customer Engineers (US West)
-  - [Emily Chapman](../../company/team/index.md#emily-chapman-she-her)
-  - [Jonah Dueck](../../company/team/index.md#jonah-dueck-he-him)
-  - [Manuel Ucles](../../company/team/index.md#manuel-ucles)
+  - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
+  - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
+  - [Manuel Ucles](../company/team/index.md#manuel-ucles)
 - Customer Engineers (US East)
-  - [Christine Lovett](../../company/team/index.md#christine-lovett-she-her)
-  - [Mike McLaughlin](../../company/team/index.md#mike-mclaughlin-he-him)
-  - [Alex Fogg](../../company/team/index.md#alex-fogg-he-him)
+  - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
+  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
+  - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
 
 ## Roles
 

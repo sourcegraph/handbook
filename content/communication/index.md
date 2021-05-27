@@ -1,6 +1,6 @@
 # Communication
 
-We're an [all-remote](../../company/remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
+We're an [all-remote](../company/remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
 ## Sources of truth
 
@@ -36,7 +36,7 @@ The following places are not sources of truth. Treat documents and conversations
 ## Meetings
 
 - [Company meeting](company_meeting.md) (Mondays 8:00-8:30am PST/PDT)
-- [Social calendar](../../company/remote/social_calendar.md) meetings
+- [Social calendar](../company/remote/social_calendar.md) meetings
 
 ### Internal meetings
 
@@ -51,7 +51,7 @@ The following places are not sources of truth. Treat documents and conversations
   - Enable "Guest permissions: Modify event" so that other people can easily reschedule the meeting if needed.
 - Add a Google Doc link to the event description for taking notes during the meeting.
   - If the meeting is recurring, use the same Google Doc for all meetings.
-- Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../../company/team/org_chart.md) helps.)
+- Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../company/team/org_chart.md) helps.)
 
 #### Structured meetings
 
@@ -86,13 +86,13 @@ See "[Announcements](announcements.md)".
 
 ## Shortening URLs
 
-Using shorter URLs is much easier to fit into small spaces or images than the full link to our page or handbook. 
+Using shorter URLs is much easier to fit into small spaces or images than the full link to our page or handbook.
 This will redirect to our home page:
 
 - [srcgr.ph](http://srcgr.ph/)
 
 We also use (srcgr.ph)[srcgr.ph] as our Bitly custom URL.
-It is also possible to customise specific sub-paths via Bitly. To do so we use our Bitly account, which is linked to our Twitter account. 
+It is also possible to customise specific sub-paths via Bitly. To do so we use our Bitly account, which is linked to our Twitter account.
 
 
 ## Google Docs
@@ -170,6 +170,6 @@ If you have an idea for a session, add an event to the calendar and invite the e
 4. Choose **Insert image** and then **Web Address (URL)** and enter https://user-images.githubusercontent.com/3173176/115082082-2d892380-9eba-11eb-9606-6c4b9c4eb465.png then choose **Small** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like this, and clicking the Sourcegraph logo should bring you to sourcegraph.com:
-7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://about.sourcegraph.com/company/careers
+7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://about.sourcegraph.com/handbook/company/careers
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/3173176/115082263-7a6cfa00-9eba-11eb-93ba-61b72de8b30b.png">

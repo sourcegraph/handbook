@@ -11,7 +11,7 @@ The operations team is responsible for ensuring that Sourcegraph always runs int
 
 ## Teams
 
-[**Full list of operations teams and members**](../../company/team/org_chart.md#operations)
+[**Full list of operations teams and members**](../company/team/org_chart.md#operations)
 
 The operations team represents multiple functional areas, and empowers every other part of the business. We are hiring across a number of these teams! See all open roles on our [careers page](https://boards.greenhouse.io/sourcegraph91).
 

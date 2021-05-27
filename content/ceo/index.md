@@ -6,7 +6,7 @@ My personal site is [slack.org](https://slack.org).
 
 ## Goals
 
-Everyone at Sourcegraph contributes to these top company goals, but the CEO is *ultimately* responsible for achieving these goals through building the right team and setting the right [strategy](../../company/strategy.md).
+Everyone at Sourcegraph contributes to these top company goals, but the CEO is *ultimately* responsible for achieving these goals through building the right team and setting the right [strategy](../company/strategy.md).
 
 ### Spread code search
 

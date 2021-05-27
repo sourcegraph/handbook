@@ -10,7 +10,7 @@
 
 Company meeting is an effective way to:
 
-1. Bring the team together regularly so we feel connected despite being [located all around the world](../../company/remote/index.md).
+1. Bring the team together regularly so we feel connected despite being [located all around the world](../company/remote/index.md).
 1. Hold ourselves accountable to our goals.
 1. Share achievements or learning across teams and functions.
 1. Recognize individual team members for special contributions and on anniversaries.
@@ -30,7 +30,7 @@ Company meeting is an effective way to:
   - You can't assume everyone is attending company meeting and is paying attention.
   - Use company meeting to give a reminder, but make sure the announcement is in [Slack](team_chat.md), in email, and/or on the calendar.
 1. Sharing goal-oriented progress updates is OK, but don't share task-oriented progress updates.
-  - The interface between your team and other teams is your [goals](../../company/goals/index.md), not your tasks.
+  - The interface between your team and other teams is your [goals](../company/goals/index.md), not your tasks.
   - Focusing on tasks instead of goals overloads other people with irrelevant information. This makes them tune out and probably miss or forget the important information.
   - Example:
     - Good: "On GitLab support in Batch Changes, we fixed all 7 bugs reported by other team members and are shipping it to the first beta customers today."
@@ -43,7 +43,7 @@ Company meeting is an effective way to:
 1. Work anniversaries (owner: @sqs presents)
 1. Inspiration of the week (message @sqs to volunteer to present an inspiration)
 1. Changelog from last week (owner: @christina)
-1. Progress on our [company goals](../../company/goals/index.md) (owner: @sqs)
+1. Progress on our [company goals](../company/goals/index.md) (owner: @sqs)
 1. Product metrics update (owner: @ericbm)
 1. All customer [bookings](../ops/finance/index.md#booking) and churn since the previous company meeting (owner: @tommy, @gregg presents)
 1. New and expansion pipeline: include full table, discuss only significant changes since the previous company meeting (owner: @joe kirscher, @gregg presents)

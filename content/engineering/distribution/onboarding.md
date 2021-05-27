@@ -8,7 +8,7 @@ Welcome to the distribution team! This document will guide you through distribut
 ### Week 1
 
 #### Goals:
-- Clear knowledge of the [company goals](https://about.sourcegraph.com/company/goals) and [values](https://about.sourcegraph.com/company/values) and [culture](https://about.sourcegraph.com/handbook/communication/code_of_conduct),  as well as [Distributions’s mission and vision](https://about.sourcegraph.com/handbook/engineering/distribution).
+- Clear knowledge of the [company goals](https://about.sourcegraph.com/handbook/company/goals) and [values](https://about.sourcegraph.com/handbook/company/values) and [culture](https://about.sourcegraph.com/handbook/communication/code_of_conduct),  as well as [Distributions’s mission and vision](https://about.sourcegraph.com/handbook/engineering/distribution).
 - Know the expected outcome of each Distribution onboarding milestone.
 - Become familiar with Distribution [product](product.md),[tech stack](tech_stack.md) and [processes](recurring_processes.md).
 - Go through [General Onboarding](../../people-ops/onboarding/general_onboarding.md)
@@ -23,7 +23,7 @@ Welcome to the distribution team! This document will guide you through distribut
   - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose) You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../environments.md#engineering-projects)
   - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes) To install this it is recommend you create a cluster in your own [engineering project](../environments.md#engineering-projects).
 - Familiarise yourself with the distribution [internal infrastructure](internal_infrastructure.md) and [ownership areas](ownership_areas.md)
-- Open and merge first GitHub pull request by adding yourself to [team page](https://about.sourcegraph.com/company/team) in Handbook
+- Open and merge first GitHub pull request by adding yourself to [team page](https://about.sourcegraph.com/handbook/company/team) in Handbook
 - Read our [Distribution handbook pages](index.md)
 - Join the distribution Slack channels
   - #distribution

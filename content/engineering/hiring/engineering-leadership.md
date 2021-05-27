@@ -25,7 +25,7 @@ Questions:
 
 Measure:
 
-- Does this person model and facilitate [continuous growth](https://about.sourcegraph.com/company/values#continuously-grow).
+- Does this person model and facilitate [continuous growth](https://about.sourcegraph.com/handbook/company/values#continuously-grow).
 
 Questions:
 

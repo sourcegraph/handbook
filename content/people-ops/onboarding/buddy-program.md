@@ -4,17 +4,17 @@
 
 To ensure our new teammates are set up for success, we will pair them up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. An onboarding buddy is an additional resource for new teammates who are learning how to navigate their new role and company.
 
-An onboarding buddy is essentially a new teammate’s first friend– someone to connect with that can share their experiences and advice to help make their transition a little smoother. A buddy will be the new teammate’s go-to person for questions (in addition to their manager and the People Ops team). They are someone to turn to with questions, someone who knows the ins and outs of the company and can offer help and guidance as the new teammate navigates their first few weeks at Sourcegraph. 
+An onboarding buddy is essentially a new teammate’s first friend– someone to connect with that can share their experiences and advice to help make their transition a little smoother. A buddy will be the new teammate’s go-to person for questions (in addition to their manager and the People Ops team). They are someone to turn to with questions, someone who knows the ins and outs of the company and can offer help and guidance as the new teammate navigates their first few weeks at Sourcegraph.
 
 ## A great onboarding buddy will be
 
 **Approachable:** the new teammate is probably overwhelmed, let them know you can be accessed along with their manager if they have any questions or concerns along the way.
 
-**Proactive:** check-in and see how they’re doing, if they need help with anything. 
+**Proactive:** check-in and see how they’re doing, if they need help with anything.
 
 **Compassionate:** remember what it was like to be new and tries to help ease that transition.
 
-**Helpful:** shows them the ropes of the organization and gives them tips on navigating it. 
+**Helpful:** shows them the ropes of the organization and gives them tips on navigating it.
 
 ## Onboarding buddy logistics
 
@@ -39,7 +39,7 @@ Thank you for accepting being an onboarding buddy! You are an essential part of 
 
 - **For company policies questions** such as vacation, payroll, time and expenses, redirect them to [People Ops](https://about.sourcegraph.com/handbook/people-ops) where they will find information under Benefits and Teammate experience. You can also check it out beforehand to help answer their questions, and if any questions are still left unanswered, you can always redirect the new teammate to our #people-ops Slack channel.
 
-- **Talk about day to day routines.** It’s hard to get the hang of an all remote job if you’ve never done it before. Talk about your experience at Sourcegraph, how you manage asynchronous communication and flexible working hours (we have unlimited vacation and flexible schedules, what has this looked like in practice for you and others?). You can also share some [Tips for working remotely](https://about.sourcegraph.com/company/remote/tips).
+- **Talk about day to day routines.** It’s hard to get the hang of an all remote job if you’ve never done it before. Talk about your experience at Sourcegraph, how you manage asynchronous communication and flexible working hours (we have unlimited vacation and flexible schedules, what has this looked like in practice for you and others?). You can also share some [Tips for working remotely](https://about.sourcegraph.com/handbook/company/remote/tips).
 
 - **Slack.** Who to ask for what. Talk about how we use Slack channels and that we actually mean that we are transparent. Try to emphasize that asking questions is a good thing and highly encouraged (if you have a question, chances are, someone else has the same one!). There is no such thing as a stupid question.
 
@@ -49,5 +49,5 @@ Thank you for accepting being an onboarding buddy! You are an essential part of 
 
 You are going to be one of the first people this new teammate will form a connection with at Sourcegraph. You don’t only need to talk about Sourcegraph, you may talk about interests or professional careers as well. The above are some guidelines to help if you need them.
 
-We want everyone to feel comfortable and mingle. Being all remote means that it can be easy to feel isolated if you don’t reach out or have regular interactions with the people you work with. Try and help the new teammates: invite them to social gatherings you have scheduled with other teammates; add them to channels you think they’ll find interesting; contact them with someone who can help them with something they were asking about, or someone who simply has the same interests and would appreciate the chat. You can also go through the [Remote](https://about.sourcegraph.com/company/remote) page in the handbook, particularly the FAQ about [cohesion](https://about.sourcegraph.com/company/remote#how-are-you-able-to-maintain-team-cohesion-while-working-remotely).
+We want everyone to feel comfortable and mingle. Being all remote means that it can be easy to feel isolated if you don’t reach out or have regular interactions with the people you work with. Try and help the new teammates: invite them to social gatherings you have scheduled with other teammates; add them to channels you think they’ll find interesting; contact them with someone who can help them with something they were asking about, or someone who simply has the same interests and would appreciate the chat. You can also go through the [Remote](https://about.sourcegraph.com/handbook/company/remote) page in the handbook, particularly the FAQ about [cohesion](https://about.sourcegraph.com/handbook/company/remote#how-are-you-able-to-maintain-team-cohesion-while-working-remotely).
 

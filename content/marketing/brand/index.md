@@ -30,79 +30,79 @@ The Brand Team works closely with Product, Sales, Marketing, People, and Operati
 
 Our team acts as liaison or point-of-contact with external entities when producing branded content, sponsorships, or partnerships in accordance with [Sourcegraph’s Brand Guidelines](brand_guidelines.md).
 
-Our company values can be found [here](../../../company/values.md). Our Brand Creative Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
+Our company values can be found [here](../../company/values.md). Our Brand Creative Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
 
 ## The Team
 Functional Areas: Design, illustration, animation, video production, copywriting, narrative, project management, brand strategy, market research, website development, and more.
 
-Tommy Pesavento - Director of Brand Design/Creative Director  
-Fabiana Castellanos - Project Coordinator, Brand  
+Tommy Pesavento - Director of Brand Design/Creative Director
+Fabiana Castellanos - Project Coordinator, Brand
 
-To be hired:  
-Senior Brand Strategist (Q2 FY22)  
-Design Lead, Brand (Q2 FY22)  
-Senior Brand Designer  
-Brand Designer  
-Creative Producer  
-Motion Designer/Animator  
-Multimedia Specialist/Editor  
-Senior Copywriter, Brand  
-Copywriter, Brand  
-Website Experience Manager  
-Web Designer (UX/UI)  
-Web Developer (Q1 FY22)  
-CMS Admin  
-UX Researcher  
+To be hired:
+Senior Brand Strategist (Q2 FY22)
+Design Lead, Brand (Q2 FY22)
+Senior Brand Designer
+Brand Designer
+Creative Producer
+Motion Designer/Animator
+Multimedia Specialist/Editor
+Senior Copywriter, Brand
+Copywriter, Brand
+Website Experience Manager
+Web Designer (UX/UI)
+Web Developer (Q1 FY22)
+CMS Admin
+UX Researcher
 
 ## Capabilities
 We deliver agency-caliber campaigns, creative, production, and results in support of every team within the company to drive awareness, engagement, and adoption.
 
 The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand and creative support for all internal teams and programs (i.e. People/HR, Product, Ops, Eng, etc.), as well as central brand communications, demand generation, content strategy and product marketing support. We sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our Preferred Vendor Network, or simply [The Network](the_network.md).
 
-Our capabilities include: 
+Our capabilities include:
 
-Branding  
-- Brand management, brand identity design, logos, lockups, colors, etc.  
-- Brand strategy, naming, positioning, packaging, narrative and market research  
-	- [See Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives  
-- Maintain and update [Sourcegraph Brand Guidelines](brand_guidelines.md) and brand assets  
+Branding
+- Brand management, brand identity design, logos, lockups, colors, etc.
+- Brand strategy, naming, positioning, packaging, narrative and market research
+	- [See Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives
+- Maintain and update [Sourcegraph Brand Guidelines](brand_guidelines.md) and brand assets
 
-Design  
-- Graphic design for print and digital media  
-- Illustrations, iconography, infographics  
-- Motion design and animation  
-- Presentation graphics, layout and design  
-- Print design and production, marketing collateral, swag  
-- Swag procurement, design, and fulfillment  
+Design
+- Graphic design for print and digital media
+- Illustrations, iconography, infographics
+- Motion design and animation
+- Presentation graphics, layout and design
+- Print design and production, marketing collateral, swag
+- Swag procurement, design, and fulfillment
 
-Photo/Video Production  
-- Video production, shooting (location and studio), storyboarding, proj. management  
-- Sound design, audio production, mixing, sampling, mastering  
-- VR/AR, 360º films, CGI, motion graphics, and animation  
-- Photography, editing, retouching, and archiving  
+Photo/Video Production
+- Video production, shooting (location and studio), storyboarding, proj. management
+- Sound design, audio production, mixing, sampling, mastering
+- VR/AR, 360º films, CGI, motion graphics, and animation
+- Photography, editing, retouching, and archiving
 
-Website/Digital Experience  
-- Maintain and update website, incl. integrations, testing and SEO  
-- Website design, page design, campaign and landing pages, microsites  
-- Interactive design, incl. data visualization and infographics  
-- Email design and development  
-- Digital marketing stack and B guidance, strategy, and execution  
+Website/Digital Experience
+- Maintain and update website, incl. integrations, testing and SEO
+- Website design, page design, campaign and landing pages, microsites
+- Interactive design, incl. data visualization and infographics
+- Email design and development
+- Digital marketing stack and B guidance, strategy, and execution
 
-Events  
-- Event planning, strategy and design  
-- Booth, stage or environmental design and production  
-- Swag design and fulfillment planning  
+Events
+- Event planning, strategy and design
+- Booth, stage or environmental design and production
+- Swag design and fulfillment planning
 
-Copy  
-- Maintain and update brand style guide, voice and tone  
-- Copywriting, editing and proofing for social media, ads, website, scripts, etc.  
-	- For blog posts, white papers, e-books, and other long-form serial content, please go to [Content Marketing](../content.md)  
+Copy
+- Maintain and update brand style guide, voice and tone
+- Copywriting, editing and proofing for social media, ads, website, scripts, etc.
+	- For blog posts, white papers, e-books, and other long-form serial content, please go to [Content Marketing](../content.md)
 
 ## Additional resources
-- [Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)  
-- [Why have a vision and mission statement?](sourcegraph_in-house_brand_team.md)  
-- [Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)  
-- [Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)  
+- [Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)
+- [Why have a vision and mission statement?](sourcegraph_in-house_brand_team.md)
+- [Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)
+- [Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)
 
 
 ## Open Questions

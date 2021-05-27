@@ -8,5 +8,5 @@ The Developer Education team is dedicated to Sourcegraph’s long-term mission o
 
 ## Team
 
-* [Lisa Tagliaferri](https://about.sourcegraph.com/company/team#lisa-tagliaferri-flexible), Director of Developer Education
-* [Marek Zaluski](https://about.sourcegraph.com/company/team#marek-zaluski), Developer Education Engineer
+* [Lisa Tagliaferri](https://about.sourcegraph.com/handbook/company/team#lisa-tagliaferri-flexible), Director of Developer Education
+* [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team#marek-zaluski), Developer Education Engineer

@@ -6,11 +6,11 @@ The legal team is responsible for helping every team at Sourcegraph to be respon
 
 We are hiring for the legal team! See all [open positions](https://boards.greenhouse.io/sourcegraph91).
 
-Until the team grows, [Dan](../../../../company/team/index.md#dan-adler-he-him) and our [outside counsel](#outside-counsel) will provide legal support.
+Until the team grows, [Dan](../../company/team/index.md#dan-adler-he-him) and our [outside counsel](#outside-counsel) will provide legal support.
 
 ### Members
 
-- [Tammy Zhu] (https://about.sourcegraph.com/company/team#tammy-zhu-she-her), Director of Legal
+- [Tammy Zhu] (https://about.sourcegraph.com/handbook/company/team#tammy-zhu-she-her), Director of Legal
 
 ### Roles
 

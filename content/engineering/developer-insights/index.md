@@ -13,29 +13,29 @@ Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intellig
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-- [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](../roles.md#director-of-engineering))
+- [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](../roles.md#director-of-engineering))
      - [Frontend platform](../developer-insights/frontend-platform/index.md)
-         - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-         - [Patrick Dubroy](../../../company/team/index.md#tom-ross-he-him) ([Engineering Manager](../roles.md#engineering-manager))
-              - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
-              - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
-              - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him) (moves to Code Insights in FQ2)
+         - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
+         - [Patrick Dubroy](../../company/team/index.md#tom-ross-he-him) ([Engineering Manager](../roles.md#engineering-manager))
+              - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
+              - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
+              - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him) (moves to Code Insights in FQ2)
      - [Extensibility](index.md)
-         - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
-         - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-         - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this team
-              - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-              - [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him)
+         - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
+         - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
+         - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this team
+              - [TJ Kandala](../../company/team/index.md#tharuntej-kandala-he-him)
+              - [Murat Sutunc](../../company/team/index.md#murat-sutunc-he-him)
      - [Code Insights](../developer-insights/code-insights/index.md)
-         - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-         - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-         - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
-              - [Vova Kulikov](../../../company/team/index.md#vova-kulikov-he-him)
-              - [Coury Clark](../../../company/team/index.md#coury-clark-he-him)
-              - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him) (joins from Frontend Platform in FQ2)
+         - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
+         - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
+         - [Felix Becker](../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
+              - [Vova Kulikov](../../company/team/index.md#vova-kulikov-he-him)
+              - [Coury Clark](../../company/team/index.md#coury-clark-he-him)
+              - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him) (joins from Frontend Platform in FQ2)
      - [API docs](../developer-insights/api-docs/index.md)
-         - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this workstream
-              - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst)
+         - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this workstream
+              - [Stephen Gutekanst](../../company/team/index.md#stephen-gutekanst)
 
 ## Strategy for FY22
 
@@ -102,8 +102,8 @@ In addition to team specific channels, we communicate in the following org-wide 
 
 #### Slack acknowledgment
 
-In an async-first communication environment it is important to remove assumptions/uncertainty around whether teammates have seen, understood or acted on a message.  
-To assist in this regard we provide the following guideline for teammates to follow when communicating and responding in Slack. 
+In an async-first communication environment it is important to remove assumptions/uncertainty around whether teammates have seen, understood or acted on a message.
+To assist in this regard we provide the following guideline for teammates to follow when communicating and responding in Slack.
 
 **The most important thing to remember is not which emoji to use, but rather to remember to acknowledge and to do it in a clear and unambiguous way.**
 

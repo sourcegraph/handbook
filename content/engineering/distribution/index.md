@@ -48,13 +48,13 @@ See [Goals](goals.md)
 
 ## Members
 
-- [Dan Mckean (Product Manager)](../../../company/team/index.md#dan-mckean-he-him)
-- FQ2 [Engineering Manager](../roles.md#engineering-manager) hire, [Bill Creager](../../../company/team/index.md#bill-creager) acting manager until then {#distribution-eng}
-  - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
-  - [Dave Try](../../../company/team/index.md#dave-try)
-  - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
+- [Dan Mckean (Product Manager)](../../company/team/index.md#dan-mckean-he-him)
+- FQ2 [Engineering Manager](../roles.md#engineering-manager) hire, [Bill Creager](../../company/team/index.md#bill-creager) acting manager until then {#distribution-eng}
+  - [Geoffrey Gilmore](../../company/team/index.md#geoffrey-gilmore)
+  - [Dave Try](../../company/team/index.md#dave-try)
+  - [Dax McDonald](../../company/team/index.md#dax-mcdonald-he-him)
   - FQ1 [distribution engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4003908004)
-  - FQ2 [Robert Lin](../../../company/team/index.md#robert-lin) (early July)
+  - FQ2 [Robert Lin](../../company/team/index.md#robert-lin) (early July)
   - FQ3 hire
 
 ## Incident on-call rotation

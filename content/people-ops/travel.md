@@ -6,7 +6,7 @@ In the meantime, team events are encouraged to take place virtually and team bud
 
 ## Team travel budgets
 
-Sourcegraph is an [all-remote](../../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
+Sourcegraph is an [all-remote](../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
 
 Team meetups are very important for building cohesiveness in remote teams and spreading Sourcegraph culture across the company.
 

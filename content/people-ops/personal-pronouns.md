@@ -1,6 +1,6 @@
 # Personal pronouns
 
-To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. For our colleagues, these are listed on [our team page](https://about.sourcegraph.com/company/team) next to each person’s name.
+To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. For our colleagues, these are listed on [our team page](https://about.sourcegraph.com/handbook/company/team) next to each person’s name.
 
 Pronouns differ for everyone, and referring to someone with an incorrect pronoun can be harmful. You can privately ask “What pronouns do you use?” or “How should I refer to you?”, and you can fall back to “they/them/their” if you are unsure.
 

@@ -6,15 +6,15 @@ You are here because it's been tough lately. Your days feel harder. The dopamine
 
 It's what is hardest about this work sometimes.
 
-Sourcegraph is a customer-first company. We constantly ask ourselves, what is in the best interest of the customer? And sometimes that feels like a trick question. Sometimes what is in the best interest of the customer is saying no. Super intuitive, right? And always what is in the best interest of the customer is solving issues by getting to the root cause, not just solving the symptom. 
+Sourcegraph is a customer-first company. We constantly ask ourselves, what is in the best interest of the customer? And sometimes that feels like a trick question. Sometimes what is in the best interest of the customer is saying no. Super intuitive, right? And always what is in the best interest of the customer is solving issues by getting to the root cause, not just solving the symptom.
 
 Again, it's what is hardest about this work sometimes.
 
 Solving issues by getting to the root cause takes time. It also takes collaboration. You rarely can do it alone. And what if your teammates in engineering are already feeling pressure or stressed out or having a bad week? What about you? What do you have going on?
 
-Temptation enters. It is so tempting to just call it good enough. The customer has what they need now; it will be fine. Software just sometimes doesn't work. It will be fine. 
+Temptation enters. It is so tempting to just call it good enough. The customer has what they need now; it will be fine. Software just sometimes doesn't work. It will be fine.
 
-Take a deep breath. Have a glass of water. Open the window or step outside and feel the air on your face. Sit down, I have something to tell you: It will never be fine. Software is created by humans and when it doesn't work, there is always a reason. It will always come back and that is not in the customer's best interest. It erodes trust. And when the customer snaps, it feels confusing because we've helped so many customers between then and now, we cannot hold space to see their perspective fully. It seems like it comes out of nowhere, but it never does. 
+Take a deep breath. Have a glass of water. Open the window or step outside and feel the air on your face. Sit down, I have something to tell you: It will never be fine. Software is created by humans and when it doesn't work, there is always a reason. It will always come back and that is not in the customer's best interest. It erodes trust. And when the customer snaps, it feels confusing because we've helped so many customers between then and now, we cannot hold space to see their perspective fully. It seems like it comes out of nowhere, but it never does.
 
 Your job is to make sure the customer can move forward as soon as possible `AND` that we have something set-up for the deeper work to address the underlying root cause, taking the investigation as far as you can. Product's and engineering's job (in collaboration) is to prioritize when the engineering team will do that deep work. Engineering's job (and heck yes, you can collaborate) is to do the deep work and figure out a lasting fix. We all care about our customers and there is always a lot to balance. If we each do our part, our future selves will thank us and our customers will become even bigger fans.
 
@@ -33,7 +33,7 @@ Let's break it down:
 	3. File a defect or product improvement in the public tracker (the nature of the issue will determine which) and the product/engineering team can schedule the work for the lasting fix in to an upcoming iteration
 3. Share the GitHub link with the customer so they can follow along on progress and remind them they can ask for updates there, or in the shared Slack channel, or by emailing support@sourcegraph.com, or by talking with their CE.
 
-No one expects hard things to be solved over night. We just don't want to forget about or ignore hard things. We want to dig deep and help our teammates dig deep to find that precious root that holds all of the answers, that maintains an effortless customer experience ... that gets us even closer to realizing [our purpose](https://about.sourcegraph.com/company/strategy#purpose):
+No one expects hard things to be solved over night. We just don't want to forget about or ignore hard things. We want to dig deep and help our teammates dig deep to find that precious root that holds all of the answers, that maintains an effortless customer experience ... that gets us even closer to realizing [our purpose](https://about.sourcegraph.com/handbook/company/strategy#purpose):
 
 > We want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress.
 

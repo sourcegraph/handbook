@@ -1,6 +1,6 @@
 # Diversity, equity, and inclusion
 
-> At Sourcegraph, we want to make it so [everyone can code](../../company/strategy.md), so that technology's benefits reach the whole world. To do that, and to even understand what's necessary to do that, our team needs to represent a diverse set of perspectives, experiences, and backgrounds. We also believe that talent is equally distributed, so we strive for our team to demonstrate that by being inclusive of and equitable toward all people. This page describes our efforts and commitments to work toward these outcomes, and we expect to improve and expand our plans here as we learn and grow.
+> At Sourcegraph, we want to make it so [everyone can code](../company/strategy.md), so that technology's benefits reach the whole world. To do that, and to even understand what's necessary to do that, our team needs to represent a diverse set of perspectives, experiences, and backgrounds. We also believe that talent is equally distributed, so we strive for our team to demonstrate that by being inclusive of and equitable toward all people. This page describes our efforts and commitments to work toward these outcomes, and we expect to improve and expand our plans here as we learn and grow.
 
 — Quinn Slack (CEO/co-founder)
 

@@ -16,7 +16,7 @@ See "[What problems does Sourcegraph solve?](../marketing/messaging.md#what-prob
 
 ## How is Sourcegraph different from the built-in code search of our code host?
 
-This somewhat depends on which code host they're using. Look up the [product comparison with their code host](../../workflow/index.md#other-tools) for details.
+This somewhat depends on which code host they're using. Look up the [product comparison with their code host](../workflow/index.md#other-tools) for details.
 
 Generally, though, code hosts offer very basic code search functionality that isn't *actually* very useful for developers. If someone asks this question, they probably don't use code search very frequently, because if they did use their code host's code search, they would be familiar with its shortcomings. It is very, very rare that someone asking this question is an avid user of their code host's code search and wants to know the feature-by-feature comparison.
 

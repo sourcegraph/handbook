@@ -22,8 +22,8 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - [General onboarding steps](../../people-ops/onboarding/index.md#general-onboarding-checklist)
   - [Sourcegraph handbook](../../index.md) intro
 - [CEO](../../ceo/index.md)
-  - [Values](../../../company/values.md)
-  - [Goals](../../../company/goals/index.md)
+  - [Values](../../company/values.md)
+  - [Goals](../../company/goals/index.md)
 - [Product](../../product/index.md)
   - [Personas](../../marketing/personas.md)
   - [Products](https://about.sourcegraph.com/product)

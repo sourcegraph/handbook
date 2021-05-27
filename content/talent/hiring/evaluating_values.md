@@ -1,6 +1,6 @@
 # Evaluating values in an interview
 
-We expect every teammate, team, and our company to live up to the [Sourcegraph values](../../../company/values.md). It is therefore important that we evaluate every candidate on the values to determine how successful they will be within Sourcegraph.
+We expect every teammate, team, and our company to live up to the [Sourcegraph values](../../company/values.md). It is therefore important that we evaluate every candidate on the values to determine how successful they will be within Sourcegraph.
 
 We are actively working on creating a formal process for values interviewing ([Ops RFC 7](https://docs.google.com/document/d/1d1a53dEP-k5Qsjv7BOAGq9lg4RL4Br7wg-weglJjHwY/edit)) to create a structured set of questions that are used consistently across the organization to evaluate value alignment.
 

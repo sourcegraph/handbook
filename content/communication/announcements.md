@@ -8,12 +8,12 @@ New teammates should post a message in #teammate-announce on their first day int
 
 ## Promotions
 
-Managers should post notes celebrating internal promotions in the #teammate-announce channel. We believe that culture is defined in part by who is celebrated, rewarded, and promoted internally, and these announcements are an opportunity to both reward a deserving individual and to remind the rest of the team what behaviors are rewarded. 
+Managers should post notes celebrating internal promotions in the #teammate-announce channel. We believe that culture is defined in part by who is celebrated, rewarded, and promoted internally, and these announcements are an opportunity to both reward a deserving individual and to remind the rest of the team what behaviors are rewarded.
 
 These posts should cover:
 
 - What the promoted teammate has done to merit promotion
-- How the teammate's performance and actions embody [our values](../../company/values.md)
+- How the teammate's performance and actions embody [our values](../company/values.md)
 - What the teammate's new responsibilities and role will be
 
 ## Departures

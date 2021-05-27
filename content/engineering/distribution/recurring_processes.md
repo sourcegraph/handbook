@@ -61,7 +61,7 @@ How active a role you take in planning should depend on your read of the team at
 
 ### Retrospective
 
-At the end of each sprint, the team performs a [retrospective](../../../retrospectives/index.md) following the [engineering milestone retrospectives](../../../retrospectives/index.md#engineering-milestone-retrospectives) format to review our sprint and find improvement areas.
+At the end of each sprint, the team performs a [retrospective](../../retrospectives/index.md) following the [engineering milestone retrospectives](../../retrospectives/index.md#engineering-milestone-retrospectives) format to review our sprint and find improvement areas.
 
 ## Weekly
 

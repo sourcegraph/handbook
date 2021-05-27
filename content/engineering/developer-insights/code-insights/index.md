@@ -6,12 +6,12 @@ The code insights team is responsible for building and delivering code insights 
 
 ## Members
 
-- [Joel Kwartler](../../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - [Vova Kulikov](https://about.sourcegraph.com/company/team#vova-kulikov-he-him) (Frontend Engineer)
-  - [Coury Clark](../../../../company/team/index.md#coury-clark-he-him) (Backend Engineer)
-  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining 2021-06-07 from the [Frontend platform team](../frontend-platform/index.md)
+- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
+  - [Vova Kulikov](https://about.sourcegraph.com/handbook/company/team#vova-kulikov-he-him) (Frontend Engineer)
+  - [Coury Clark](../../../company/team/index.md#coury-clark-he-him) (Backend Engineer)
+  - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining 2021-06-07 from the [Frontend platform team](../frontend-platform/index.md)
 
 ## Mission
 
@@ -84,7 +84,7 @@ We plan and track our day-to-day work on our [Kanban board](https://github.com/o
 - There should never be more than a couple of cards in the _In Progress_ column at the same time. If we paused work on something (e.g. because priorities changed), it should be moved back to _Planned_ or _Icebox_ as appropriate.
 - Things we triaged from the _Inbox_, but don't plan to work on, go into the _Icebox_.
 
-Note: we intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM. 
+Note: we intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM.
 
 ### Tracking Issues
 

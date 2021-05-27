@@ -33,15 +33,15 @@ If you are a new member of the engineering team, you'll most likely want to join
 
 ## Send (and read) messages any time
 
-Because Sourcegraph is a global, [all-remote company](../../company/remote/index.md) with [flexible work hours](../../company/remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
+Because Sourcegraph is a global, [all-remote company](../company/remote/index.md) with [flexible work hours](../company/remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
 
-However, a corollary to this is that they are free to read your message whenever is convenient for them. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../../company/remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
+However, a corollary to this is that they are free to read your message whenever is convenient for them. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../company/remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
 
 Make sure to set up Slack to only send you notifications when you want to see them!
 
 ## Use threads instead of channel-wide responses
 
-In public channels, we use threads to organize conversations around topics and limit the number of notifications into a channel. That being said, when a thread reaches a point where a result or update would be useful for the entire channel to be aware of, you can check the `Also send to #channel` to send it into the channel's main view. 
+In public channels, we use threads to organize conversations around topics and limit the number of notifications into a channel. That being said, when a thread reaches a point where a result or update would be useful for the entire channel to be aware of, you can check the `Also send to #channel` to send it into the channel's main view.
 
 ## Name
 

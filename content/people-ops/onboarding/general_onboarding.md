@@ -13,7 +13,7 @@
 - **[Zoom](https://zoom.us/signin):** Set up your Zoom account and [recommended settings](../../communication.md#video-calls).
 - **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your device in our MDM (ask Cecily for your access code).
 - It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
-- **[Sourcegraph.com](https://sourcegraph.com)**: Create an account and ask in Slack [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) to be added to [the Sourcegraph organization](https://sourcegraph.com/organizations/sourcegraph/settings/members) so you get to test in-development features, etc. 
+- **[Sourcegraph.com](https://sourcegraph.com)**: Create an account and ask in Slack [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) to be added to [the Sourcegraph organization](https://sourcegraph.com/organizations/sourcegraph/settings/members) so you get to test in-development features, etc.
 
 ### U.S. based teammates
 
@@ -32,7 +32,7 @@
 - Make it so any attendees can edit meetings you create: `Default guest permissions: Modify event` (this makes it easy for teammates to reschedule when necessary).
 - Set up a recurring weekly [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
 - Join the Sourcegraph events calendar by copying `sourcegraph.com_9cd67o8p3gs0rtpj73bt326psk@group.calendar.google.com` into your [add calendar field](https://calendar.google.com/calendar/u/0/r/settings/addcalendar?)
-- Also join the [social calendar](../../../company/remote/social_calendar.md)
+- Also join the [social calendar](../../company/remote/social_calendar.md)
 - You can add a secondary time zone in your calendar. This will show two time columns. This is very useful when you work closely with people in another time zone. Go to **Settings > General > Time zone** and select the **Display secondary time zone** box. Choose the time zones you want and label them.
 
 ## Learn how to contribute to the handbook
@@ -40,7 +40,7 @@
 - [Create an account on GitHub.com](https://github.com/join) if you don't already have one.
    - Share your username with your manager (if you're on the engineering team) or @noemi so they can add you to the Sourcegraph GitHub account and appropriate teams.
 - If you are not familiar with Git, complete the [Git introduction](git_intro.md).
-- Add yourself to the [team page](../../../company/team/index.md).
+- Add yourself to the [team page](../../company/team/index.md).
   - Add a link to your team page bio to your Slack profile
 - Read Sourcegraph's [information security policy](https://about.sourcegraph.com/security) and acknowledge your acceptance: https://forms.gle/LUK1YtwAMJLhtRPi6.
 
@@ -48,14 +48,14 @@
 
 ### Values and strategy
 
-- Read the [Sourcegraph values](../../../company/values.md).
-- Read the [Sourcegraph strategy](../../../company/strategy.md).
+- Read the [Sourcegraph values](../../company/values.md).
+- Read the [Sourcegraph strategy](../../company/strategy.md).
 
 ### Communication and documentation
 
 - We're a handbook-first company. Learn all about the handbook on its [handbook page](../../usage.md).
 - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant!
-- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
+- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
 
 ### Other resources
 
@@ -63,6 +63,6 @@
 - Go through the [analytics onboarding](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md). This onboarding is within Looker, so if you don't have an account you can ask for access in #analytics.
 - Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
 - Learn how we can (and cannot) [reference our customers externally](../../sales/index.md#customer)
-- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../../../company/remote/teammate-recommended_productivity_hacks.md).
+- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../../company/remote/teammate-recommended_productivity_hacks.md).
 
 Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!

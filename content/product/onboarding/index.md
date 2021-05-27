@@ -1,6 +1,6 @@
 # Product team onboarding
 
-Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2-4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same. 
+Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2-4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same.
 
 **[Onboarding buddy](../../people-ops/onboarding/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
 
@@ -32,8 +32,8 @@ Your objective is to get to know the team and learn as much about Sourcegraph (t
 
 Remember:
 
-- Sourcegraph is an [open company](../../../company/index.md#sourcegraph-open-product-open-company-open-source). Everything here at Sourcegraph is public unless there is a very good reason for it to be private.
-   - One of our values is to be [open and transparent](../../../company/values.md#open-and-transparent)
+- Sourcegraph is an [open company](../../company/index.md#sourcegraph-open-product-open-company-open-source). Everything here at Sourcegraph is public unless there is a very good reason for it to be private.
+   - One of our values is to be [open and transparent](../../company/values.md#open-and-transparent)
    - Good reasons for things to be private: sensitive customer information, sensitive personal information
    - If you see a "request permission" page for some doc or other resource, it is a mistake. Just ask to be granted access to it (and make a PR to update the handbook so the next person starting is granted access to that system).
 - Unlike at many companies, it is OK (and important) to call out when we did something poorly or when something doesn't go well (e.g., a sales pitch falls flat). That helps us be real and do it better in the future.
@@ -48,7 +48,7 @@ Remember:
 
 - Schedule individual meetings with each person on the [Product team](../index.md#members)
 - Schedule individual meetings with each person on the engineering team you'll be working most closely with ( this will be in your specific onboarding docs)
-- Schedule a meeting with the [Head of Customer Support](https://about.sourcegraph.com/company/team#virginia-ulrich-she-her)
+- Schedule a meeting with the [Head of Customer Support](https://about.sourcegraph.com/handbook/company/team#virginia-ulrich-she-her)
 - Get up to speed on what your team is working on
    - Team handbook page(s), to learn about the team and its internal processes
       - [Product](https://about.sourcegraph.com/handbook/product)
@@ -56,7 +56,7 @@ Remember:
       - [Product design](https://about.sourcegraph.com/handbook/product/design)
       - [Product process](https://about.sourcegraph.com/handbook/product/product_management/product_process)
    - [Sourcegraph user docs](https://docs.sourcegraph.com/)
-   - Team sync docs 
+   - Team sync docs
       - Your calendar will be automatically populated with your team’s meetings. In the meeting invites, you will find corresponding docs that you should read for context.
 
 ### Set up the basics
@@ -89,7 +89,7 @@ Remember:
 ### Know our tools
 - ProductBoard
    - Watch [ProductBoard’s how-to videos](https://www.notion.so/Video-resources-64f81208b5dd4aaf89d3586a34223ec0) as an intro
-   - Walk through ProductBoard with someone from the team 
+   - Walk through ProductBoard with someone from the team
 - Figma
   - Watch [Figma for Sourcegraphers part 1](https://drive.google.com/file/d/1zzUKDJN5XUwvKF8LfKZqQb7gK9NpK1Wx/view?usp=sharing) to learn how we use the application
   - Watch [Figma for Sourcegraphers part 2 (intro to the Wildcard Design System)](https://drive.google.com/file/d/1kfT3PVvTag_e0RXLAt6nndf6fS2n1Slv/view)
@@ -101,8 +101,8 @@ Remember:
 
 ### Understand company and team goals
 
-- [Sourcegraph values](../../../company/values.md)
-- [Sourcegraph master plan](../../../company/strategy.md)
+- [Sourcegraph values](../../company/values.md)
+- [Sourcegraph master plan](../../company/strategy.md)
 - [OKR Tracker](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit?ts=607a3f2e#gid=1699297878)
 
 ### Get ready to contribute to the docs
@@ -139,7 +139,7 @@ You'll find we have a strong base to work from, but we are in the early stages o
    - Review a few [usability studies](https://drive.google.com/drive/folders/1WcvPUtdVH2XE3Hak6tutoPWRCuEXPvCd) to get an idea of how you will use the product.
 - As you learn the product, if you come across a quick win for better usability based on general heuristics, create a GitHub issue identifying the problem and proposing a quick solution, and tag it with 'UX'.
 - Suggest a tool you love to the team in the #design channel on Slack!
-- Storybook houses our React component library. We use [Chromatic](https://www.chromatic.com/library?appId=5f0f381c0e50750022dc6bf7) to easily access and collaborate on the components. You can access the React components library in two ways: 
+- Storybook houses our React component library. We use [Chromatic](https://www.chromatic.com/library?appId=5f0f381c0e50750022dc6bf7) to easily access and collaborate on the components. You can access the React components library in two ways:
    1. Log in to Chromatic with your GitHub account and open Sourcegraph library
    1. from the root of your local development environment run storybook: `yarn storybook`.
 - Explore and favorite the [Google Drive design folder](https://drive.google.com/drive/folders/1ow-19Yd4AFtT8HjVZ9ln_nEGpCzQ2CTf)

@@ -1,6 +1,6 @@
 # Sourcegraph handbook
 
-The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](../company/index.md#open-company).
+The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](company/index.md#open-company).
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate.
 
@@ -8,13 +8,13 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Handbook usage](usage.md)
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 
-## [Company](../company/index.md)
+## [Company](company/index.md)
 
-- [All-remote](../company/remote/index.md)
-- [Strategy](../company/strategy.md)
-- [Goals](../company/goals/index.md)
-- [Team](../company/team/index.md)
-  - [Org chart](../company/team/org_chart.md)
+- [All-remote](company/remote/index.md)
+- [Strategy](company/strategy.md)
+- [Goals](company/goals/index.md)
+- [Team](company/team/index.md)
+  - [Org chart](company/team/org_chart.md)
   - [Careers](https://boards.greenhouse.io/sourcegraph91)
 - [CEO](ceo/index.md)
 - [Communication](communication/index.md)
@@ -30,7 +30,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Product](product/index.md)
 
-- [Direction (2020 product strategy)](../direction/index.md)
+- [Direction (2020 product strategy)](direction/index.md)
 - [Product](product/index.md)
   - [Product Management](product/product_management/index.md)
   - [Product Design](product/design/index.md)

@@ -45,7 +45,7 @@ We track and report anonymous, non-specific, aggregate metrics from Sourcegraph 
 
 ### Key success metrics
 
-| Outcome                                             | Metric                                                                    
+| Outcome                                             | Metric
 |----------------------------------------------------|------------------------------------------------------------------------ |
 | Are developers using Batch Changes?                 | number of batch changes created, number of changesets published        |
 | Are batch changes successful?                       | merge rate of batch changes (changesets merged / changesets published) |
@@ -115,13 +115,13 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Members
 
-- [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) ([Product Designer](../../product/roles/index.md#product-designer))
-- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager)) {#batch-changes-eng}
-  - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
-  - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
-  - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-  - [Kelli Rockwell](../../../company/team/index.md#kelli-rockwell-she-her)
+- [Malo Marrec](../../company/team/index.md#malo-marrec-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
+- [Rob Rhyne](../../company/team/index.md#rob-rhyne) ([Product Designer](../../product/roles/index.md#product-designer))
+- [Chris Pine](../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager)) {#batch-changes-eng}
+  - [Thorsten Ball](../../company/team/index.md#thorsten-ball-he-him)
+  - [Adam Harvey](../../company/team/index.md#adam-harvey-he-him)
+  - [Erik Seliger](../../company/team/index.md#erik-seliger)
+  - [Kelli Rockwell](../../company/team/index.md#kelli-rockwell-she-her)
 
 ## Related links
 

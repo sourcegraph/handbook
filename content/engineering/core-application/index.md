@@ -59,14 +59,14 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-- R.P. ([Product Manager](../../product/roles/index.md#product-manager)) starts 2021-05-03. [Christina Forney](../../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
-- [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
+- R.P. ([Product Manager](../../product/roles/index.md#product-manager)) starts 2021-05-03. [Christina Forney](../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+- [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
 - Rafal Leszczynski ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
-    - [Joe Chen](../../../company/team/index.md#joe-chen)
-    - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
-    - [Alan Harris](../../../company/team/index.md#alan-harris-he-him)
-    - [Artem Ruts](../../../company/team/index.md#artem-ruts-he-him)
-    - [Tomás Senart](../../../company/team/index.md#tomás-senart)
-    - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
-    - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta-he-him)
+    - [Joe Chen](../../company/team/index.md#joe-chen)
+    - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
+    - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
+    - [Artem Ruts](../../company/team/index.md#artem-ruts-he-him)
+    - [Tomás Senart](../../company/team/index.md#tomás-senart)
+    - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
+    - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
     - FQ4 hire

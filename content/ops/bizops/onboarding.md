@@ -12,9 +12,9 @@ You'll have to get some basics set up in your first few days:
 
 ### Understand company and team mission, values and goals
 
-- [Sourcegraph values](../../../company/values.md)
-- [Sourcegraph strategy](../../../company/strategy.md)
-- [Sourcegraph direction (1 year plan)](../../../direction/index.md)
+- [Sourcegraph values](../../company/values.md)
+- [Sourcegraph strategy](../../company/strategy.md)
+- [Sourcegraph direction (1 year plan)](../../direction/index.md)
 - [Sourcegraph FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb)
 - [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/63)
 - [CustomerOps project tracker](https://docs.google.com/spreadsheets/d/16YKiI5-jn5xH8t1n7z3pC-4AQfJnOsZLlgJfWj2RlY4/edit#gid=0)
@@ -24,7 +24,7 @@ You'll have to get some basics set up in your first few days:
 
 - We're a handbook-first company. Learn all about the handbook on its [handbook page](../../../handbook/usage.md).
 - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with.
-- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
+- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
 
 ### Onboarding sessions
 
@@ -47,7 +47,7 @@ Your manager will help you schedule the following training sessions:
 
 ### Get to know fellow teammates
 
-- Schedule 1:1s with teammates to start getting to know who you'll be working with! Ask your manager for a list of people you could get started with! The [org chart](../../../company/team/org_chart.md) is also good place to start.
+- Schedule 1:1s with teammates to start getting to know who you'll be working with! Ask your manager for a list of people you could get started with! The [org chart](../../company/team/org_chart.md) is also good place to start.
 - Begin joining relevant weekly team meetings wherever possible. For example, if you will be working closely with our commercial teams (e.g. Sales, Marketing, Customer Engineering), join our weekly Customer Ops sync, the company pipeline review, and more. Your manager will help you identify and get invites to the right list of meetings.
 
 ## Weeks 2 and 3

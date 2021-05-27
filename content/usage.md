@@ -66,11 +66,11 @@ If you use Google Chrome, you can add a Sourcegraph handbook search shortcut to 
    - URL with %s in place of query: https://about.sourcegraph.com/search?q=%s
 1. Press the **Add** button.
 
-### Firefox 
+### Firefox
 
 If you use Firefox, you can add a Sourcegraph handbook search shortcut to the address bar
 
-#### Setup 
+#### Setup
 
 1. Right-click the search bar on https://about.sourcegraph.com/handbook.
 1. Choose `Add a keyword for this Search`.
@@ -93,7 +93,7 @@ We chose Markdown files in a Git repository for the handbook because it allows g
 
 ## Why make this handbook public?
 
-Sourcegraph is an [open product, an open company, and open source](../company/index.md#sourcegraph-open-product-open-company-open-source). Our company principles, strategies, and processes are all publicly documented.
+Sourcegraph is an [open product, an open company, and open source](company/index.md#sourcegraph-open-product-open-company-open-source). Our company principles, strategies, and processes are all publicly documented.
 
 ## Acknowledgements
 

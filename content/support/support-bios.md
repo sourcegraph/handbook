@@ -1,6 +1,6 @@
 # Support Team README
 
-Our README expands on our profile in [the company team directory](https://about.sourcegraph.com/company/team) and are meant to help us orient to one another. 
+Our README expands on our profile in [the company team directory](https://about.sourcegraph.com/handbook/company/team) and are meant to help us orient to one another.
 
 * Adeola README
 * Beatrix [README](bee-readme.md)

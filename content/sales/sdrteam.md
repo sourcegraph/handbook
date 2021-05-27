@@ -4,10 +4,10 @@ The SDR Team (fill in the blanks)
 
 ## Members
 
-- [Quin Keough](../../../../company/team/index.md#quin-keough) - West
-- [Mark Muldez](../../../../company/team/index.md#mark-muldez-he-him) - East
-- [Sam Cregg](../../../../company/team/index.md#sam-cregg) - East
-- [Nicholas Gage](../../../../company/team/index.md#nicholas-gage-he-him) - Head of Sales Development 
+- [Quin Keough](../company/team/index.md#quin-keough) - West
+- [Mark Muldez](../company/team/index.md#mark-muldez-he-him) - East
+- [Sam Cregg](../company/team/index.md#sam-cregg) - East
+- [Nicholas Gage](../company/team/index.md#nicholas-gage-he-him) - Head of Sales Development
 
 ## Quick Links
 
@@ -25,13 +25,13 @@ See [How we use Salesforce](../../handbook/sales/salesforce/index.md#how-we-use-
 
 ## AE - New Opportunity Workflow Post Creation by SDR
 
-AE leads initial call and dispositions the opportunity accordingly: 
+AE leads initial call and dispositions the opportunity accordingly:
 
 - **Sales Accepted Opportunity (SAO):** - if the Opportunity meets the minimum requirements for a “Sales Accepted Opportunity”, the AE updates the Stage to “Qualification” or beyond in Salesforce
 
   - **NOTE:** this action will trigger a checkbox field to be checked on the Opportunity Record called “Sales Accepted Opportunity”
   - This is how SDR Quota is tracked and is the ultimate metric we are driving towards
-  
+
 - **Closed-Lost** - if the Opportunity doesn’t meet the requirements of a Sales Accepted Opportunity and we don’t reasonably feel that we can reach that stage with this given contact/account, the AE moves the Opportunity to Closed-Lost and no SDR credit is awarded
 
 - **Needs More Work** - if the Opportunity doesn’t meet the requirements of a Sales Accepted Opportunity, but we believe that it has the potential to reach this stage with additional progress, keep it in the initial stage and devise a plan b/t the AE & SDR to get it to Sales Accepted Opportunity.
@@ -74,7 +74,7 @@ See [CEP - Pre-Sale Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiI
 
     - Sending the initial email opens the communication line between all parties, instead of having the proposed agenda appear only in the calendar invite.
 
-    - This process helps build a continuous rapport between the prospect and the SDRs. And in the event the prospect becomes unresponsive, the SDR can step in and attempt to revive the conversation. Or if the prospect has a question, and the AE isn't available, SDRs can provide back up support. 
+    - This process helps build a continuous rapport between the prospect and the SDRs. And in the event the prospect becomes unresponsive, the SDR can step in and attempt to revive the conversation. Or if the prospect has a question, and the AE isn't available, SDRs can provide back up support.
 
     - Finally, this process is a proactive way to ensure that SDRs are setting high-quality meetings for their AEs.
 

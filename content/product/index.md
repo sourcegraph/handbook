@@ -7,18 +7,18 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 ### Members
 
-- [Christina Forney](../../../company/team/index.md#christina-forney-she-her), VP Product
-   - [Kylie Fligstein](../../../company/team/index.md#kylie-fligstein-she-her), Executive Business Partner - Product
+- [Christina Forney](../company/team/index.md#christina-forney-she-her), VP Product
+   - [Kylie Fligstein](../company/team/index.md#kylie-fligstein-she-her), Executive Business Partner - Product
    - [Product managers](roles/index.md#product-manager)
-      - [María Craig](../../../company/team/index.md#maría-craig-she-her) - [Code intel](../engineering/code-intelligence/index.md)
-      - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) - [Code insights](../engineering/developer-insights/code-insights/index.md)
-      - [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) - [Batch Changes](../engineering/batch-changes/index.md)
-      - [Dan Mckean](../../../company/team/index.md##dan-mckean-he-him) - [Distribution](../engineering/distribution/index.md) & [Security](../engineering/security/index.md)
-      - [Ryan Phillips](https://about.sourcegraph.com/company/team#ryan-phillips-he-him) - [Core application](../engineering/core-application/index.md)
+      - [María Craig](../company/team/index.md#maría-craig-she-her) - [Code intel](../engineering/code-intelligence/index.md)
+      - [Joel Kwartler](../company/team/index.md#joel-kwartler-he-him) - [Code insights](../engineering/developer-insights/code-insights/index.md)
+      - [Malo Marrec](../company/team/index.md#malo-marrec-he-him) - [Batch Changes](../engineering/batch-changes/index.md)
+      - [Dan Mckean](../company/team/index.md##dan-mckean-he-him) - [Distribution](../engineering/distribution/index.md) & [Security](../engineering/security/index.md)
+      - [Ryan Phillips](https://about.sourcegraph.com/handbook/company/team#ryan-phillips-he-him) - [Core application](../engineering/core-application/index.md)
    - [Product designers](roles/index.md#product-designer)
-      - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) - [Batch Changes](../engineering/batch-changes/index.md) and [Search](../engineering/search/index.md)
-      - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) - [Frontend Platform](../engineering/developer-insights/frontend-platform/index.md), [Extensibility](../engineering/developer-insights/extensibility/index.md), [Code Insights](../engineering/developer-insights/code-insights/index.md) and [Code intel](../engineering/code-intelligence/index.md)
-      - [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) - [Core application](../engineering/core-application/index.md) and [Search (Code monitoring & contexts)](../engineering/search/index.md)
+      - [Rob Rhyne](../company/team/index.md#rob-rhyne) - [Batch Changes](../engineering/batch-changes/index.md) and [Search](../engineering/search/index.md)
+      - [Alicja Suska](../company/team/index.md#alicja-suska-she-her) - [Frontend Platform](../engineering/developer-insights/frontend-platform/index.md), [Extensibility](../engineering/developer-insights/extensibility/index.md), [Code Insights](../engineering/developer-insights/code-insights/index.md) and [Code intel](../engineering/code-intelligence/index.md)
+      - [Quinn Keast](../company/team/index.md#quinn-keast-he-him) - [Core application](../engineering/core-application/index.md) and [Search (Code monitoring & contexts)](../engineering/search/index.md)
 
 ## Planning
 
@@ -33,7 +33,7 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 - [Onboarding to the product team](./onboarding/index.md)
 - [Personas](../marketing/personas.md)
-- The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
+- The [Sourcegraph workflow](../workflow/index.md) describes how our product fits into the developer workflow.
 - Product documents (PDs)
   - [All PDs](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx) (Google Drive)
   - [How we use PDs](product_documents.md)
