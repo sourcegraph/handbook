@@ -843,6 +843,7 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Product Manager, Distribution & Security
 - Shaftesbury (Dorset), UK 🇬🇧
 - GitHub: [dan-mckean](https://github.com/dan-mckean)
+- [Readme!](../../product/dan-mckean-readme.md)
 - [dan.mckean@sourcegraph.com](mailto:dan.mckean@sourcegraph.com)
 - Dan grew up in the South of England, and (with a detour via London) ended up in Dorset in the south west, a county with beautiful coast (but lives as far from the sea as it's possible to get – though not deliberately!) He lives with his wife (Emma), four kids (7y, 5y, 2x14m) and 3-legged springer spaniel (9y). His spare time is largely spent chasing his twin identical boys in an effort to prevent injury. Any (genuinely) spare time is spent trying to make things out of wood.
 
