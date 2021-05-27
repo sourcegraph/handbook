@@ -63,7 +63,7 @@ If you use Google Chrome, you can add a Sourcegraph handbook search shortcut to 
 1. In the "Add search engine" form, enter:
    - Search engine: `Sourcegraph handbook`
    - Keyword: `hb` (or some other shortcut of your choosing)
-   - URL with %s in place of query: https://about.sourcegraph.com/search?q=%s
+   - URL with %s in place of query: `https://about.sourcegraph.com/handbook#stq=%s`
 1. Press the **Add** button.
 
 ### Firefox
