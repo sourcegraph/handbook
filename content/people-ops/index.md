@@ -63,3 +63,5 @@ See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open role
 **Phone Number:** (650) 273-5591
 
 **DUNS Number:** 117775232
+
+**Tax ID:** refer to [Sourcegraph W9](https://drive.google.com/file/d/1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW/)
