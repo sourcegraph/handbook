@@ -42,6 +42,7 @@ Product at Sourcegraph consists of [product management](product_management/index
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Product learnings](product_learning.md)
 - [Working with BizOps](../ops/bizops/index.md#how-to-work-with-us)
+- [User research](./user_research/index.md)
 
 ### Metrics
 
