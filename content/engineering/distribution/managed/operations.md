@@ -9,6 +9,7 @@
 - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
 - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
 - [Debugging startup scripts](#debugging-startup-scripts)
+- [Restarting for configuration updates](#restarting-for-configuration-updates)
 
 ## Red/black deployment model
 
@@ -142,3 +143,7 @@ sudo google_metadata_script_runner --script-type startup --debug
 WARNING: Running our startup script twice is a potentially harmful action, as it is usually only ran once.
 
 More details: https://cloud.google.com/compute/docs/startupscript
+
+##Restarting for configuration updates
+
+SSH into the instance and run `docker-compose restart sourcegraph-frontend-0 sourcegraph-frontend-internal` 
