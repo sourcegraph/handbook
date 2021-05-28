@@ -144,6 +144,8 @@ WARNING: Running our startup script twice is a potentially harmful action, as it
 
 More details: https://cloud.google.com/compute/docs/startupscript
 
-##Restarting for configuration updates
+## Restarting for configuration updates
 
-SSH into the instance and run `docker-compose restart sourcegraph-frontend-0 sourcegraph-frontend-internal` 
+SSH into the instance and run:
+
+`docker-compose restart sourcegraph-frontend-0 sourcegraph-frontend-internal`
