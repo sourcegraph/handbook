@@ -138,7 +138,7 @@ To add yourself to this page:
 
 ## Tomás Senart
 
-- Engineering Manager
+- Software Engineer
 - Lisbon, Portugal 🇵🇹 / Berlin, Germany 🇩🇪
 - [tomas@sourcegraph.com](mailto:tomas@sourcegraph.com), [tsenart](https://github.com/tsenart), [@tsenart](https://twitter.com/tsenart), [LinkedIn](https://www.linkedin.com/in/tsenart/)
 - Name pronunciation: /[to.ˈmas](http://ipa-reader.xyz/?text=to.%CB%88mas&voice=Cristiano)/
