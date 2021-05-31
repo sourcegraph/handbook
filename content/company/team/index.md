@@ -900,3 +900,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Github: [ngage1](https://github.com/ngage1)
 - [ngage@sourcegraph.com](mailto:ngage@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/nicholas-g-4a0b6948/)
 - Nick grew up on the East Coast in the greater Boston area. After spending many years in the southeast working as an account executive for AT&T, Nick made the move to San Francisco to work with Box. Nick is passionate about development, both personal and professional. When outside of work, Nick enjoys spending time with his wife, Grace, and their dog, Rocky. Whether hiking, skimboarding, golfing, or skiing, Nick loves spending time outdoors (preferably in the sun!).
+
+## Trevor Houghton (he/him)
+
+- Recruiting Operations Specialist 
+- Austin, TX, USA 🇺🇸
+- GitHub: TrevorHoughton
+- trevor@sourcegraph.com, [LinkedIn](https://www.linkedin.com/in/trevorhoughton/)
+- Trevor grew up in Portland, OR before attending Colorado College, where he played NCAA soccer and majored in International Political Economy. He has sinced moved to Austin, TX and gained sales experience at Emergo and talent acquisition experience at Indeed.com. Outside of work, Trevor enjoys coaching, playing piano, skiing, traveling, and losing at chess.  
