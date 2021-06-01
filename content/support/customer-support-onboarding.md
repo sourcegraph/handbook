@@ -27,8 +27,9 @@ Welcome back! Let’s get started....
 * Plan to watch this [product demo recording](https://www.youtube.com/watch?v=iTBTri_q5MA&feature=youtu.be) once a week for your first 3-4 weeks. It will be repetitive, but each week, more and more will start to click. Start this week!
 * Read [our support overview](index.md) (including the sub links). Post any questions you have in our #customer-support-internal Slack channel
 * Be sure you are invited to and start attending the weekly CSE planning/retro session and weekly CSE “cheers” huddle as outlined in our [rituals](support-team-rituals.md).
-* Schedule introductory chats with every member of [the Customer Engineering org](https://about.sourcegraph.com/handbook/ce#members). It’s okay to schedule these over your first few weeks, however you see fit. To schedule the chat with Quinn, work with Katerina (his executive business partner and responsible for his calendar).
-* Schedule an introductory chat with Katerina, too! As Quinn's executive business partner, she is part of the CE team right now and just a lovely person to spend time with. We will likely pull her in as we work to solve problems for how our team operates, since she will be able to help us understand if we should be coordinating more broadly, etc.
+* Schedule introductory chats with every member of [the Customer Engineering org](https://about.sourcegraph.com/handbook/ce#members). It’s okay to schedule these over your first few weeks, however you see fit. 
+* Schedule a chat with Quinn. Work with Katerina (his executive business partner and responsible for his calendar).
+* Schedule an introductory chat with Katerina, too! She is a lovely person to spend time with. We will likely pull her in as we work to solve problems for how our team operates, since she will be able to help us understand if we should be coordinating more broadly, etc.
 * Open and merge your first GitHub pull request in the handbook
 * Create free otter.ai and Grammarly accounts (link otter.ai to your Zoom account) and bookmark Hemingwayapp -- why we use these is explained in [our team rituals doc](support-team-rituals.md).
 * Verify you have access to all the required tools -- and check out [Support Tools](support-tools.md) for an overview of the value they bring you and how they all fit together
