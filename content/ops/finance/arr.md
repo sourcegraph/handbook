@@ -45,7 +45,7 @@ Best practice procurement processes should commence with the following steps:
 
 The table below presents the approval levels required for expenditure, based on $ amounts. Amounts below are in US dollars, inclusive of all taxes and charges.  For procurement that exceeds an annual equivalent of $10,000, the Finance team will complete a PO.
 
-|Amount (Annual Equivalent)|Approval Required|Recommend Method of Payment|
+|Amount (Annual Equivalent)|Approval Required|Recommended Method of Payment|
 |---|---|---|
 |$0 - $1,000|Does not require specific approval|Expensify / Remote.com / Brex / Bill.com|
 |$1,000 to $10,000|Needs to be approved by a director or above of your department|Brex / Bill.com via Sourcegraph AP team|
