@@ -7,7 +7,7 @@ LinkedIn's guide to hiring manager seats [here](https://business.linkedin.com/co
 ## How to get a hiring manager seat assigned
 
 1. Add your Sourcegraph email to your LinkedIn profile.
-2. Message @david or david@sourcegraph.com to assign you a hiring manager seat. Please include details of which role your are hiring for and set up time to create a search string for the role.
+2. Message @hiring or recruiting@sourcegraph.com to assign you a hiring manager seat. Please include details of which role your are hiring for and set up time to create a search string for the role.
 
 ## Hiring manager seat capabilities
 
