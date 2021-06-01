@@ -914,4 +914,13 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Austin, TX, USA 🇺🇸
 - GitHub: TrevorHoughton
 - trevor@sourcegraph.com, [LinkedIn](https://www.linkedin.com/in/trevorhoughton/)
-- Trevor grew up in Portland, OR before attending Colorado College, where he played NCAA soccer and majored in International Political Economy. He has sinced moved to Austin, TX and gained sales experience at Emergo and talent acquisition experience at Indeed.com. Outside of work, Trevor enjoys coaching, playing piano, skiing, traveling, and losing at chess.  
+- Trevor grew up in Portland, OR before attending Colorado College, where he played NCAA soccer and majored in International Political Economy. He has sinced moved to Austin, TX and gained sales experience at Emergo and talent acquisition experience at Indeed.com. Outside of work, Trevor enjoys coaching, playing piano, skiing, traveling, and losing at chess.
+
+
+## Prosper Otemuyiwa (he/him)
+
+- Staff Developer Evangelist
+- Lagos, Nigeria 🇳🇬
+- GitHub: [unicodeveloper](https://github.com/unicodeveloper)
+- [prosper@sourcegraph.com](mailto:prosper@sourcegraph.com),[@unicodeveloper](https://twitter.com/unicodeveloper),
+- Prosper was born and raised in Lagos, Nigeria. A software engineer who has worked on biometric, health and developer tools. He is a seasoned developer advocate, veteran conference speaker and a firm open source hacker who believes immensely in the intersection of people & technology. He co-founded and leads forloop, the largest developer community in Africa. He loves travelling, playing football and tinkering with the fire emoji.
