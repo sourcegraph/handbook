@@ -6,11 +6,11 @@ Our brand is at the root of everything we do. It’s how we behave, communicate,
 
 Everything defined in our brand guide — from typeface, to color, to texture — is carefully chosen to visually represent our brand and help communicate our voice, our vision, and our values. 
 
-Download our Brand Guidelines (coming soon) (.pdf)  
+[Download our Brand Guidelines](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/_Sourcegraph_Brand_Guidelines_2-2.pdf) (.pdf)  
 
-Download the Sourcegraph Brand Kit (coming soon) (.zip, includes full Brand Guidelines, logos, fonts, color palettes, and more)
+[Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip, includes full Brand Guidelines PDF, plus logos, fonts, color palettes, and more)
 
-## Logos 
+## Logo usage 
 
 Please use our logos and brand elements appropriately, and only for good things, in compliance with the guidelines linked above. 🖖    
 
@@ -36,7 +36,7 @@ The Source type family was selected for three primary reasons:
 
 ## Typography
 
-📖 For more information about sizing of headlines for web and print use, plus typographic guidance for body copy, please download our complete Brand Guidelines or our Brand Kit.  
+📖 For more information about sizing of headlines for web and print use, plus typographic guidance for body copy, please download our complete Brand Guidelines or our Brand Kit which includes type families.  
 
 
 <!-- ***Replace examples below with extra light or semi bold text and correct sizes*** -->
@@ -57,7 +57,7 @@ The Source type family was selected for three primary reasons:
 
 <!-- Fix color boxes before each section*** Why aren't they showing up here like they did on the old page? -->
 
-🌈 Our primary brand colors are listed below in various formats, to ensure accurate representation of our logo when used in digital or printed applications.    
+🌈 Our primary brand colors are listed below in various formats, to ensure accurate representation of our logo when used in digital or printed applications. For the complete brand palette, including ADA guidance and an ASE file for Adobe Creative Cloud, download our Brand Kit linked above.   
 
 **Sourcegraph Sky Blue** 
 
