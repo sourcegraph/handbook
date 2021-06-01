@@ -107,7 +107,7 @@ C:0, M:83, Y:82, K:0
 
 <br>
 
-Please reach out to the Brand team if you have any questions about how or when to utilize the above elements: brand@sourcegraph.com
+Please reach out to the Brand team if you have any questions about how or when to utilize the above elements: [brand@sourcegraph.com](mailto:brand@sourcegraph.com). 🤙   
 
 
 
