@@ -11,7 +11,8 @@ The code insights team is responsible for building and delivering code insights 
 - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
   - [Vova Kulikov](https://about.sourcegraph.com/handbook/company/team#vova-kulikov-he-him) (Frontend Engineer)
   - [Coury Clark](../../../company/team/index.md#coury-clark-he-him) (Backend Engineer)
-  - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him) (Frontend Engineer) joining 2021-06-07 from the [Frontend platform team](../frontend-platform/index.md)
+
+[We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4028726004)
 
 ## Mission
 
