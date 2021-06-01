@@ -14,7 +14,7 @@
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 1. Hiring managers own the hiring process for their team.
    - Hiring managers are encouraged to experiment to learn how to improve their hiring process.
-   - The handbook is kept up-to-date with our learnings and current norms.
+   - The handbook is kept up-to-date with our learnings and current norms. If something is missing from the Handbook, please Slack @hiring. 
 
 ## How recruiting interfaces with hiring managers
 
