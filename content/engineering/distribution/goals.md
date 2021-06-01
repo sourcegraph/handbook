@@ -20,10 +20,8 @@ Our existing deployment pipelines to our Sourcegraph instances (such as Sourcegr
 
 ## Roadmap
 
-- A high-level roadmap is tracked in our [roadmap view](https://sourcegraph.productboard.com/roadmap/2612216-fy2022-r-o-distribution)
-- Milestones and their status can be seen in our [current features board](https://sourcegraph.productboard.com/feature-board/2612407-fy2022-roadmap-distribution).
-- A implementation roadmap is tracked in [ZenHub](https://app.zenhub.com/workspaces/distribution-603e9cc5fbe582000ef238fd/roadmap).
-- Future features and goals are tracked in features [planning view](https://sourcegraph.productboard.com/feature-board/2526845-distribution)
+- [A high-level roadmap](https://sourcegraph.productboard.com/roadmap/2612216-fy2022-r-o-distribution)
+- [A more detailed list of things we've done/are doing/will do](https://sourcegraph.productboard.com/feature-board/2925635-distribution)
 
 ## Past goals
 
