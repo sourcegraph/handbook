@@ -6,15 +6,13 @@ Our brand is at the root of everything we do. It’s how we behave, communicate,
 
 Everything defined in our brand guide — from typeface, to color, to texture — is carefully chosen to visually represent our brand and help communicate our voice, our vision, and our values. 
 
-[Download our Brand Guidelines](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/_Sourcegraph_Brand_Guidelines_2-2.pdf) (.pdf)  
+Download our Brand Guidelines (coming soon) (.pdf)  
 
-[Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip, includes full Brand Guidelines, logos, fonts, color palettes, and more)
+Download the Sourcegraph Brand Kit (coming soon) (.zip, includes full Brand Guidelines, logos, fonts, color palettes, and more)
 
 ## Logos 
 
 Please use our logos and brand elements appropriately, and only for good things, in compliance with the guidelines linked above. 🖖    
-
-[Download Brand Kit with all logo versions and usage guidelines](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip folder)  
 
 
 ## Primary Typefaces
@@ -38,9 +36,8 @@ The Source type family was selected for three primary reasons:
 
 ## Typography
 
-📖 For more information about sizing of headlines for web and print use, plus typographic guidance for body copy, please download our complete Brand Guidelines.  
+📖 For more information about sizing of headlines for web and print use, plus typographic guidance for body copy, please download our complete Brand Guidelines or our Brand Kit.  
 
-[Download our Brand Guidelines](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/_Sourcegraph_Brand_Guidelines_2-2.pdf) (.pdf)  
 
 <!-- ***Replace examples below with extra light or semi bold text and correct sizes*** -->
 
