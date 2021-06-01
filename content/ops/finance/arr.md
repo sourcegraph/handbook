@@ -4,11 +4,6 @@ The below policy relates to all expenses above $10,000 - including monthly recur
 
 ## AP Policy
 
- - Mission Statement
- - Scope
- - Objectives
- - Procurement process
-
 ### Policy Mission Statement
 
 Sourcegraph employees are required to undertake an efficient, timely and cost-effective procurement process while ensuring appropriate levels of diligence and accountability in accordance with the processes outlined in this policy.
