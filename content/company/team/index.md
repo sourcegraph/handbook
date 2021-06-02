@@ -939,4 +939,4 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Atlanta, GA, USA 🇺🇸
 - GitHub: kevin-quigley
 - [kevin.quigley@sourcegraph.com](mailto:kevin.quigley@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/kevinquigley18/)
-- Kevin grew up in Atlanta, graduated from the University of Georgia :dog_face:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising! 
+- Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising! 
