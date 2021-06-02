@@ -6,6 +6,7 @@ Google drive is the main repository for sales resources and the sales folder can
 - [Sourcegraph W9](https://drive.google.com/file/d/1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW/)
 - [Certificate of Incorporation](https://drive.google.com/u/0/uc?id=1q7AJT0k8Q5NJO5xN4v7iytaE3Gh6fYBb&export=download)
 - [Insurance Certificate](https://drive.google.com/u/0/uc?id=1Zm2b7KvZS9yL3K6_KZBd4VapCRO4BoyJ&export=download)
+- [Miscellaneous corporate information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/)
 
 Please reach out to finance if you require assistance in completing the vendor onboaring process for our new customers, or if you require any information that is not included above. You can forward any correspondence to finance@sourcegraph.com, or you can connect with the finance team on the #finance channel. Where a vendor directs you to complete vendor onboarding templates, or complete detail on a vendor onboarding portal, finance are happy to complete this exercise.
 
