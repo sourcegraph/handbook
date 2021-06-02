@@ -924,3 +924,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [unicodeveloper](https://github.com/unicodeveloper)
 - [prosper@sourcegraph.com](mailto:prosper@sourcegraph.com),[@unicodeveloper](https://twitter.com/unicodeveloper),
 - Prosper was born and raised in Lagos, Nigeria. A software engineer who has worked on biometric, health and developer tools. He is a seasoned developer advocate, veteran conference speaker and a firm open source hacker who believes immensely in the intersection of people & technology. He co-founded and leads forloop, the largest developer community in Africa. He loves travelling, playing football and tinkering with the fire emoji.
+
+## Cecily Black (she/her)
+
+- People Operations Coordinator
+- San Jose, CA, USA 🇺🇸
+- GitHub: CecilyBee
+- [cecily@sourcegraph.com](mailto:cecily@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/cecilyblack/)
+- Cecily grew up in San Jose and returned in 2018 with a new love for sunny Cailfornia :sunny: after living in Portland, Oregon for two years. In her free time she loves to hike, go to the beach, camp, and go to concerts / dance. :dancer::skin-tone-3: She lives with her boyfriend and their little dog, Leo.
