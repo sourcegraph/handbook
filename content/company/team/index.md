@@ -932,3 +932,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: CecilyBee
 - [cecily@sourcegraph.com](mailto:cecily@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/cecilyblack/)
 - Cecily grew up in San Jose and returned in 2018 with a new love for sunny Cailfornia :sunny: after living in Portland, Oregon for two years. In her free time she loves to hike, go to the beach, camp, and go to concerts / dance. :dancer: She lives with her boyfriend and their little dog, Leo.
+
+## Kevin Quigley (he/him)
+
+- Sales Development Rep
+- Atlanta, GA, USA 🇺🇸
+- GitHub: kevin-quigley
+- [kevin.quigley@sourcegraph.com](mailto:kevin.quigley@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/kevinquigley18/)
+- Kevin grew up in Atlanta, graduated from the University of Georgia:dog_face, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising! 
