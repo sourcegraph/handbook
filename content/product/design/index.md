@@ -40,8 +40,9 @@ Columns:
 ### GitHub design labels
 
 - **`needs-design`**: design work requests. Add to [Design priorities project](https://github.com/orgs/sourcegraph/projects/66) and if possible add a deadline.
-- **`design`**: design-oriented issues. This label should be mostly used by designers
+- **`design`**: design-oriented issues.
 - **`design-debt`**: issues connected to design debt.
+- **`design-docs`**: issues related to design documentation requirements.
 
 ### Requesting design work
 
