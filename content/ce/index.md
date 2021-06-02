@@ -52,6 +52,8 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 
 ---
 
+## Reference resources
+
 * [Customer Engineering Onboarding](onboarding.md)
 * [Team members](#members)
 * [Training sessions](https://docs.google.com/document/d/1nFePrSIcIakMmjOEY01vNc6VRe7WiJ0iOWygeZlbpYw/edit) (Sourcegraph 101, 102, office hours, etc.)
