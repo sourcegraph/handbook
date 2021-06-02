@@ -115,6 +115,9 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 ### Accounts Payable & Expenses
 
 - [Paying Company bills](payables.md)
-- [Company AP Policy](arr.md)
+- [AP Policy](arr.md)
 - [Submitting an invoice (teammates based outside of US)](invoices.md)
 - [Submitting reimbursable expenses](expenses.md)
+
+### Accounts Receivable
+- [AR Policy](https://docs.google.com/document/d/1tfAL68QSI-ZDqBIIALzY5tVcRk_B8jabpSSAyAK5iGk/edit).
