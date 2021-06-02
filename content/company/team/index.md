@@ -931,4 +931,4 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - San Jose, CA, USA 🇺🇸
 - GitHub: CecilyBee
 - [cecily@sourcegraph.com](mailto:cecily@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/cecilyblack/)
-- Cecily grew up in San Jose and returned in 2018 with a new love for sunny Cailfornia :sunny: after living in Portland, Oregon for two years. In her free time she loves to hike, go to the beach, camp, and go to concerts / dance. :dancer::skin-tone-3: She lives with her boyfriend and their little dog, Leo.
+- Cecily grew up in San Jose and returned in 2018 with a new love for sunny Cailfornia :sunny: after living in Portland, Oregon for two years. In her free time she loves to hike, go to the beach, camp, and go to concerts / dance. :dancer: She lives with her boyfriend and their little dog, Leo.
