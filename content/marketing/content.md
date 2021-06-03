@@ -9,8 +9,8 @@ At Sourcegraph, we define **content marketing** as generating awareness, buildin
 
 ## Quick links
 
-- [Editing blog posts](editing_blog_posts.md)
 - [Creating blog posts](creating_blog_posts.md)
+- [Editing blog posts](creating_blog_posts.md#editing-blog-posts)
 - [Adding screenshots and screen recordings (GIFs and videos)](adding_screenshots_screen_recording.md)
 
 ## Purpose, mission, and vision

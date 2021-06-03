@@ -56,16 +56,22 @@ The data between the `---` is called front matter and is used to provide post me
 - The `canonical` field is optional and only required to override the canonical link.  Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
 - The `socialImage` field is optional.  Use the full path to image in order to be read properly on Twitter and Facebook.  Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
 
-## Adding images
+## Adding images and other media
 
-- Small images can be placed in the `website/static/blog` directory and have the url of `/blog/example-image.jpg` in your markdown.
-- Large images, GIFs, and other binary assets should be uploaded to the `sourcegraph-assets` Google Cloud Storage bucket. You can use the UI uploader at [https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog](https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog) or you can use the CLI with `gsutil cp local/path/to/myasset.png gs://sourcegraph-assets/`, with the image `src` being `https://sourcegraphstatic.com/myasset.png`.
+### Sizing images
+
 - Make images as small as possible (aim for less than 200Kb). 
 - Images should be no larger than 1600px wide (if you want @2x retina quality) but often, this isn't needed and 800px is fine.
 - JPEG images should be compressed at no larger than 80% quality to reduce file size.
 - The [ImageOptim](https://github.com/ImageOptim/ImageOptim) app and CLI is great for significantly reducing the size of PNG files and JPEG files.
 
-## YouTube video embed code
+### Uploading images 
+
+- Small images can be placed in the `website/static/blog` directory and have the url of `/blog/example-image.jpg` in your markdown.
+- Large images, GIFs, and other binary assets should be uploaded to the `sourcegraph-assets` Google Cloud Storage bucket. You can use the UI uploader at [https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog](https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog) or you can use the CLI with `gsutil cp local/path/to/myasset.png gs://sourcegraph-assets/`, with the image `src` being `https://sourcegraphstatic.com/blog/myasset.png`.
+  - Note: You may need to request permission to upload files to the GCP bucket. If you see an error message that additional permissions are required, you can ask for help in #any-question on Slack.
+
+### YouTube video embed code
 
 Uses Bootstrap for responsive sizing and adequate whitespace between adjacent elements, and that only Sourcegraph videos are shown on the end screen.
 
@@ -74,6 +80,10 @@ Uses Bootstrap for responsive sizing and adequate whitespace between adjacent el
     <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0" allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
 </div>
 ```
+
+### Adding a screenshot or screen recording
+
+You can read about [embedding GIFs and videos](adding_screenshots_screen_recording.md) here.
 
 ## Previewing your blog post
 
@@ -105,3 +115,5 @@ This video shows the process from start to finish, although only those with repo
   </div>
   <p style="text-align: center"><a href="https://www.youtube.com/watch?v=15hE2BCyMCQ" target="_blank">Watch on YouTube</a></p>
 </p>
+
+

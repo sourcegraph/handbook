@@ -10,9 +10,8 @@
     - [Marketing launch tiers](marketing_launch_tiers.md)
     - [Product marketing hierarchy](product_marketing_hierarchy.md)
 - [Content Marketing](content.md)
-    - [Editing blog posts](editing_blog_posts.md)
     - [Creating blog posts](creating_blog_posts.md)
-    - [Adding screenshots and screen recordings (GIFs and videos)](adding_screenshots_screen_recording.md)
+    - [Editing blog posts](creating_blog_posts.md#editing-blog-posts)
 - [Developer Education](education.md)
 
 - Community Relations
