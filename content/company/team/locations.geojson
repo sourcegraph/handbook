@@ -882,19 +882,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.366660,
-          34.158210
+          -118.36666,
+          34.15821
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {"name": "Nick Gage"},
+      "properties": {
+        "name": "Nick Gage"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -122.27508544921875,
           37.810326435534755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kevin Quigley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37358379364014,
+          33.84874817060767
         ]
       }
     }
