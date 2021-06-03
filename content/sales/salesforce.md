@@ -55,8 +55,8 @@ First Touchpoint is a slightly more granular version of Lead Source and is set a
 
 First Touchpoint values include:
 
-- Private Instance - installs
-- Sourcegraph.com Account
+- Private Instance/Install (leads will go into "PP-Private Instance Markie" sequence) 
+- Sourcegraph.com Account/Cloud Sign-ups (leads will go into "CC-Cloud Signup Markie" sequence)
 - Contact/Demo Form
 - Inbound Email (support, contact)
 - Feedback Form
