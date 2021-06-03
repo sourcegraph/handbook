@@ -948,3 +948,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: brherrma
 - [brady@sourcegraph.com](mailto:brady@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/bradyherrmann/)
 - Brady has spent the majority of his career working for developer centric companies and has a passion for selling solutions that allow developers to build better.  He grew up in Indianapolis, but has since lived in Denver, Washington DC, Maryland, and now resides in the northern suburbs of Chicago with his wife (Kali), 1-year old daughter (Noa), and two black lab mixes (Henry and Luna).  His passions outside of work include hiking, camping, skiing, live music and traveling (Peru, SE Asia, the Amalfi Coast, and Switzerland being some of the favorite places he's visited).  He's a big fan of karaoke (he's been known to do an above average rendition of Sister Christian with his wife), college basketball (Go Boilers) and is currently in the market for an alto saxophone to get back to his playing days.
+
+## Natalie Khoury
+
+- Enterprise Account Executive
+- San Francisco, CA, USA 🇺🇸
+- GitHub: NK-83
+- [natalie@sourcegraph.com](mailto:natalie@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nataliekhoury/)
+- Natalie grew up in Northern California and currently resides in San Francisco's Russian Hill neighborhood. She's spent the last 15+ years selling tech and loves it! In her free time ree time, you can find Natalie in SF or the NorCal outdoors being active. She loves swimming, running, spinning (peloton username is NattyK8), hiking, road trips, and traveling. 
