@@ -940,3 +940,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: kevin-quigley
 - [kevin.quigley@sourcegraph.com](mailto:kevin.quigley@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/kevinquigley18/)
 - Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising! 
+
+## Brady Herrmann (he/him)
+
+- Enterprise Account Executive
+- Chicago, IL, USA 🇺🇸
+- GitHub: brherrma
+- [brady@sourcegraph.com](mailto:brady@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/bradyherrmann/)
+- Brady has spent the majority of his career working for developer centric companies and has a passion for selling solutions that allow developers to build better.  He grew up in Indianapolis, but has since lived in Denver, Washington DC, Maryland, and now resides in the northern suburbs of Chicago with his wife (Kali), 1-year old daughter (Noa), and two black lab mixes (Henry and Luna).  His passions outside of work include hiking, camping, skiing, live music and traveling (Peru, SE Asia, the Amalfi Coast, and Switzerland being some of the favorite places he's visited).  He's a big fan of karaoke (he's been known to do an above average rendition of Sister Christian with his wife), college basketball (Go Boilers) and is currently in the market for an alto saxophone to get back to his playing days.
