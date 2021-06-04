@@ -39,6 +39,9 @@ Below are the goals and expectations for each week of your onboarding.
 - Prepare for your first set of customer meetings that you'll lead
 - Check-in with your manager on your experience and near-term goals
 
+Beginning week 5, you'll look to lead your first customer meeting, with your onboarding mentor there to support you.
+
+
 
 ## 30 / 60 / 90 Day Plan
 We want every CE to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. During your first 90 days, this is what success looks like.
@@ -57,7 +60,9 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Guide your first prospects towards and through a trial. 
 - Collaborating with your lead, mentor, and / or AE, create plans around red accounts, renewals, and / or post-sales engagement. 
 - Participate in CE-led internal projects. 
-- Raise feedback to the approriate product team.
+- Raise feedback to the appropriate product team.
+
+After day 90, your role expectations will then align to the pre-defined CE career ladders of your current level.
 
 
 ### Senior Customer Engineers (Level 3 - 4)
@@ -75,7 +80,7 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Guide a prospect towards and through a trial. 
 - Guide the creation of plans around red accounts, renewals, and / or post-sales engagement. 
 - Participate in and lead CE-identified projects. 
-- Raise feedback to the approriate product team. 
+- Raise feedback to the appropriate product team. 
 - Drawing from previous experience, make internal contributions by identifying opportunities and proposing and delivering solutions.
 
 After day 90, your role expectations will then align to the pre-defined CE career ladders of your current level.
