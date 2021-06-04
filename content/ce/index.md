@@ -8,6 +8,54 @@ We show up for our customers, open source users, and teammates by living up to o
 - We teach our customers new and better ways to get value from Sourcegraph as thought leaders and evangelists
 - We serve as the voice of the customer to internal teams, providing key insights and feedback, and raising feature requests
 
+### Pre-sales and post-sales
+
+CEs are both "pre-sales" and "post-sales" because the moment that a sale occurs doesn't usually change what organizations need from us. Most organizations have deployed Sourcegraph and rolled it out (sometimes widely, sometimes to a limited proof-of-concept group) by the time they become a paying customer. This is different from many other enterprise software products, where the software isn't actually used (for real) until the contract is signed.
+
+This continuity means we give customers consistent and high-quality service from the moment we meet them. We minimize handoffs, which is good for customers and helps our team take pride in seeing their work through.
+
+
+---
+
+
+## References
+
+* [Current team members](#current-team-members)
+* [Open roles - Join us!](#open-roles)
+* [Customer Engineering Onboarding](onboarding.md)
+* [How we intersect other teams](#how-we-intersect-with-other-teams)
+* [Resources](#useful-resources)
+* [Team Operating Procedurces](#team-operating-procedures)
+
+
+
+## Current Team Members
+
+<!-- Alphabetically, by surname. -->
+
+- [Aimee Menne](../company/team/index.md#aimee-menne-she-her) (Director of Customer Engineering)
+- Customer Engineers (International/Non-US)
+  - [Christy Haragan](../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
+- Customer Engineers (US West)
+  - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
+  - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
+  - [Manuel Ucles](../company/team/index.md#manuel-ucles)
+- Customer Engineers (US East)
+  - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
+  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
+  - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
+
+
+
+## Open Roles
+
+- [Customer Engineer - US](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
+- [Customer Engineer - London](https://boards.greenhouse.io/sourcegraph91/jobs/4019077004)
+- [Customer Engineer - London](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
+- [Manager, Customer Engineering - US](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
+
+
+
 
 ## How we intersect with other teams
 We work alongside just about every team at Sourcegraph. Here is how we add value to each other and a collaboration overview for each pairing.
@@ -50,12 +98,8 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 - **Collaboration overview:** Marketing will seek customer input (surveys, feedback, case studies, etc) via CEs
 
 
----
 
-## Reference resources
-
-* [Customer Engineering Onboarding](onboarding.md)
-* [Team members](#members)
+## Useful Resources
 * [Training sessions](https://docs.google.com/document/d/1nFePrSIcIakMmjOEY01vNc6VRe7WiJ0iOWygeZlbpYw/edit) (Sourcegraph 101, 102, office hours, etc.)
 * Demos
   * [Comprehensive demo flow](https://docs.google.com/document/d/1q903Yl-vkOqkQ4e3JRiw-u8x8aJ50iTezllzcj_MJWc/edit)
@@ -66,43 +110,30 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 * [Creating and maintaining license keys for customers](license_keys.md)
 * [Moving off the insiders build](leaving-insiders-build.md)
 * [Enterprise vs. Open Source Sourcegraph](enterprise-vs-oss.md)
-* Resources
-  * [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#u)
-  * [Guide to demoing the Batch Changes feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
-    * [Slides](https://docs.google.com/presentation/d/1niZBMhHKWJT1-n_ExSbYIRD51vcubrWwQm-Tc5EZo8s/edit#slide=id.g7d2aea8729_0_0)
-    * [Batch Changes demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
+* [Deployment Methods](deployment-methods.md)
+ * [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#u)
+ * [Guide to demoing the Batch Changes feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
+   * [Slides](https://docs.google.com/presentation/d/1niZBMhHKWJT1-n_ExSbYIRD51vcubrWwQm-Tc5EZo8s/edit#slide=id.g7d2aea8729_0_0)
+   * [Batch Changes demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
 
 
-## Members
 
-<!-- Alphabetically, by surname. -->
+## Team Operating Procedures
 
-- Aimee Menne (Director of Customer Engineering)
-- Customer Engineers (International/Non-US)
-  - [Christy Haragan](../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
-- Customer Engineers (US West)
-  - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
-  - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
-  - [Manuel Ucles](../company/team/index.md#manuel-ucles)
-- Customer Engineers (US East)
-  - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
-  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
-  - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
+### Recurring Meetings
 
-## Roles
-
-- [Customer Engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-
-## Meetings
-
-* CE team meeting (bi-weekly on Fridays): Open team discussion about any topics, plus time for any team member to present specific situations occurring in their accounts and get advice from the rest of the team.
-* Demo workshop (bi-weekly on Fridays): A weekly super chill, no-pressure, no-stress place where you can show off your new demo ideas and get helpful demo feedback/tips from team members.
+* CE team meeting (bi-weekly on Wednesday): Global team sync; open team discussion about any topics
+* Demo workshop (bi-weekly on Wednesday): A space for the CE team to collaborate on demos, scripts, and other ideas / needs that will help us serve our customers better
 * CE team hangout (monthly on Thursdays): An open forum to ask questions, collaborate, and chat as a team.
-* Product backlog review (weekly on Fridays): Review of the product roadmap with stakeholders from CE/Sales/Marketing.
 * Product & CE Requests & Feedback Themes (bi-weekly on Wednesdays): Feedback treads and requests between CE and Product.
 
-## Pre-sales and post-sales
+### Out of Office Protocols
 
-We are both "pre-sales" and "post-sales" because the moment that a sale occurs doesn't usually change what organizations need from us. Most organizations have deployed Sourcegraph and rolled it out (sometimes widely, sometimes to a limited proof-of-concept group) by the time they become a paying customer. This is different from many other enterprise software products, where the software isn't actually used (for real) until the contract is signed.
+Prior to taking time off, CEs should:
+1. Log their time off on the team calendar
+2. Work with their manager to identify a coverage plan
+3. Notify their customers through the appropriate channel of their upcoming OOO
+4. Update their slack status accordingly with OOO dates indicated
 
-This continuity means we give customers consistent and high-quality service from the moment we meet them. We minimize handoffs, which is good for customers and helps our team take pride in seeing their work through.
+
+
