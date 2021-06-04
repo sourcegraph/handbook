@@ -1,134 +1,81 @@
 # Customer Engineering Onboarding
 
-Welcome to Sourcegraph - we're very excited to have you on the Customer Engineering team! This document will guide you through customer engineering-specific onboarding.
-
-## CE Onboarding Checklist
-
-### Week 1
-
-#### Goals:
-- Clear knowledge of what the company’s, and Customer Engineering’s mission, vision, values and culture are.
-- Know the expected outcome of each CE onboarding milestone
-- Become familiar with CE tools and processes
-- Go through General Onboarding
-
-#### Tasks:
-- Meet your onboarding buddy
-- Verify access to all CE [tools](#tools)
-- Add shared [CE calendar](https://calendar.google.com/calendar/u/0?cid=Y19yY3Y0ZTRqODI0OXZzNmJwbzd0bXFrZjVuZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your calendar
-- Attend weekly CE strategy [meeting](https://calendar.google.com/calendar/u/0/r/eventedit/MzhicHZkaXVlYW9wa2RlaHY4MWRidjJxMXFfMjAyMTAzMDJUMTkwMDAwWiBqb25haEBzb3VyY2VncmFwaC5jb20?pli=1)
-- Deploy your own SG instance using one of the 3 deployment methods
-- Open and merge first GitHub pull request by adding yourself to [team page](https://about.sourcegraph.com/handbook/company/team) in Handbook
-- Read our [CE handbook pages](index.md)
-- Read the [sales/CE data and Looker onboarding](../sales/onboarding/data_onboarding.md)
+Welcome to Sourcegraph - we're VERY excited to have you on the Customer Engineering team! This page describes the onboarding philosophy and process for new customer engineers as they onboarding, and outlines expectations and goals of onboarding as well as what success looks like 30 / 60 / 90 days in.
 
 
-### Week 2
+## Company-wide and Customer Engineering-specific Onboarding
+Our goal is to have CEs fully ramped by the end of your 4th week. During your first 4 weeks, you will complete a variety of activities intended to both introduce you to the company as a whole, as well as provide you with the knowledge, tools, and support necessary to be a successful CE! 
 
-#### Goals:
-- Develop high-level understanding of product
-- Become familiar with demo flow
-- Understand how we work with the Customer Support team
-- Get to know your team!
-- Ask your onboarding buddy lots of questions!
+### Onboarding Tooling
+As a company, we use Process.st to guide each individuals' onboarding. Your own custom onboarding plan will be provided to you prior to your first day and will serve as your guide.
 
-#### Tasks:
-- Attend next product tour
-- Start shadowing customer calls
-- Go through the product deep-dives and demo recordings under Resources
-- Review [CSE onboarding](https://about.sourcegraph.com/handbook/ce/customer-support-onboarding) and understand how we interact with our [Customer Support team](https://about.sourcegraph.com/handbook/ce/support)
-- Attend team meetings/events
-- Start practicing/get comfortable with product demo
+### Onboarding Support
+Each new CE is paired with two individuals during their onboarding time: an [onboarding buddy](../people-ops/onboarding/buddy-program) and an onboarding mentor. Your onboarding buddy is assigned as part of our company-wide onboarding program. For the CE team, this will be a peer from an adjacent team with whom you'll work closely with. Your onboarding mentor will be someone from the CE team with whom you'll have regular check-ins and will be there to help guide you. Both of these assignments will be indicated in your Process.st checklist.
 
-### Month 1
 
-#### Goals:
-- Understand the day-to-day of what a CE does
-- Become knowledgeable with Sourcegraph documentation and technical architecture
-- Become familiar with sales process and how CE integrates with that
-- Be able to deliver a proficient product demo
 
-#### Tasks:
-- Begin diving into technical documentation and understanding SG architecture
-- Review customer calls on [Chorus](https://chorus.ai/)
-  - Try pausing the video when the customer asks a question, and attempt to answer on your own before continuing.
-- Shadow as many customer/prospect calls as possible
-- Participate in any relevant training sessions or workshops
-- Deliver demo cert presentation to team
-- Go through the [Batch Change CE onboarding](../engineering/batch-changes/ce-onboarding.md)
+## High-level Onboarding Overview
+Below are the goals and expectations for each week of your onboarding.
 
-### Month 2
+### Week 1 Goals:
+- Complete through General Company-Wide Onboarding activities: our values, our vision, our culture, what it means to be handbook-first, and how we operate as a business
+- Get all necessary access to tools and logistical setup
+- Learn about our purpose and the value we provide to customers: why does Sourcegraph exist, who uses our product, and how do we add value to our customers' business
+- Learn about the CE org: who are we, who do we work with, what's our vision and why what we do matters
 
-#### Goals:
-- Start taking ownership of accounts and customer-facing calls
-- Interact directly with customers with little to no assistance
-- Run bi-monthly [Product Tours](https://info.sourcegraph.com/product-tour)
 
-#### Tasks:
-- Develop relationships with the accounts assigned to you (Ask the AE for intros)
-- Start driving and owning customer calls and interactions
-- Deliver customer-facing demos
+### Week 2 Goals:
+- Continue orienting yourself to the company: all the different teams, our internal tooling and how we use it
+- Start to learn our processes (pre and post-sales), learn about the different templates that we have and how we use them
+- Identify customer calls to shadow for weeks 3 - 5
 
-### Month 3
 
-#### Goals:
-- Proactively work on existing accounts to grow adoption and expansion
-- Help new teammates onboard
+### Week 3 Goals:
+- This week is all about the product! Read docs, watch videos, apply what you have learned by using the product, demo parts of the product to your onboarding mentor
 
-## Tools
-NOTE: Request access/licenses to these tools in [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75).
 
-- [sourcegraph.com](https://sourcegraph.com)
-  - Request [site-admin](https://sourcegraph.com/site-admin) access.  This is needed to manage customer accounts, license keys, etc.
-  - Request to be a member of the [Sourcegraph organization](https://sourcegraph.com/organizations/sourcegraph/).  This gives you access to some additional features.
-  - Once you have access, familiarize yourself with the site-admin page.
-  - NOTE: request this same access for [demo.sourcegraph.com](https://demo.sourcegraph.com) as well
-- [GitHub](https://github.com/) (Provide GitHub username and request access to Sourcegraph repo)
-- [Salesforce](https://sourcegraph2020.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fsourcegraph2020.lightning.force.com%252Flightning%252Fpage%252Fhome)
-- [HubSpot](https://app.hubspot.com/contacts/2762526/deals/board/view/all/)
-  - Note: We have officially transitioned to Salesforce as our CRM, but HubSpot still has some historical context. Please get access to both.
-- [Looker](https://sourcegraph.looker.com/dashboards/94?Unique%20Server%20ID=&Site%20ID=&filter_config=%7B%22Unique%20Server%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22Site%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D)
-- [Krisp](https://krisp.ai/)
-- [ProductBoard](https://sourcegraph.productboard.com/)
-- Ask for a license to LinkedIn Sales Navigator tool in #sales channel
-- [Chorus.ai](https://chorus.ai/) - We use this to store call recordings—you can watch demos at your leisure here.
-- [Calendly](https://calendly.com/) - You can use Calendly to allow customers to schedule meetings with you during time blocks that you specify as available.
+### Week 4 Goals:
+- Apply your product knowledge to our processes
+- Prepare for your first set of customer meetings that you'll lead
+- Check-in with your manager on your experience and near-term goals
 
-## Resources
 
-### Demo Recordings
-  - [101 Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view?usp=sharing) (dan@)
-  - [Product Info Session](https://youtu.be/iTBTri_q5MA) (jonah@)
-  - [CE-to-CE Demo walkthrough](https://drive.google.com/drive/folders/1rf2E2KLBztH1Qe2shq3p39afF5mLK7m1)
+## 30 / 60 / 90 Day Plan
+We want every CE to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. During your first 90 days, this is what success looks like.
 
-### Product Deep-Dives
-  - [Batch Changes Overiew Deck](https://docs.google.com/presentation/d/1CN3KQf1Hfdb4RO6FgBgKuiHK4ERcOAHPgVnOcBu-MPU/edit#slide=id.g7d2aea8729_0_0)
-  - [Structural Search Overview](https://zoom.us/rec/share/CJtwQ7uEp3v1pvPqdUD7GDuaYm_2g6w3zSP7GNA3aGQHZDjQ72awYXvHEnwsoio6.Bt-0DuuAZjs7UXMc?startTime=1606237440000)
-  - [Code Intelligence](https://drive.google.com/file/d/1TyCj62LLmhvamXK-CC6D8-7uGk1jmsKj/view) [[slides](https://docs.google.com/presentation/d/181oMTXRmcTqTCfOe5P__fLKwlzV1uk9wvwG6ocFgz20/edit?usp=sharing)]
+### Customer Engineers (Level 1 - 2)
 
-### CE Resources
-  - [Shared CE Calendar](https://calendar.google.com/calendar/u/0?cid=Y19yY3Y0ZTRqODI0OXZzNmJwbzd0bXFrZjVuZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-  - [Open opportunities with assigned CE in Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006jUsfEAE/view)
-  - [Deploying Sourcegraph](https://docs.sourcegraph.com/admin/install):
-     - Watch [Dave's Kubernetes Walkthrough video](https://drive.google.com/drive/folders/1JqQlrmGX8u_EuhNptj-qrzuZ4RifhTuF) for an understanding of that setup process
-    - Watch [Stephen's Kubernetes Upgrade video](https://drive.google.com/file/d/1oIrKJPo9hvc2UMfpb-a57HV9fCYEcS9n/view) to see how customers upgrade K8s instances.
-    -   Understand the 3 different Sourcegraph deployment methods
-        - [Deployment Type vs. Product](./deployment-methods.md)
-        - ["Deployment types - A crash course in Sourcegraph"](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p)
-  - [Architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture) to understand how our application and system         works.
-      - Also review [How the Sourcegraph CLI executes a batch spec](https://docs.sourcegraph.com/batch_changes/explanations/how_src_executes_a_batch_spec)
-  - [Observability and monitoring](https://docs.sourcegraph.com/admin/observability) docs and understand how to troubleshoot those tools
-     - [Grafana and Prometheus](https://docs.sourcegraph.com/admin/observability/metrics)
-     - [Tracing](https://docs.sourcegraph.com/admin/observability/tracing)
-     - [Alerting](https://docs.sourcegraph.com/admin/observability/alerting)
+#### First 30 days:
+- Demonstrate baseline understanding of core product, value proposition, and processes. 
+- Successfully deliver initial product demo, covering core functionality.
 
-## FAQ
+#### 30 - 60 days:
+- Actively participate in initial prospective calls: perform customer discovery, provide demos. 
+- Be paired with 1-3 AEs with whom you should begin to build a rapport.
 
-- How do we interface in customer engagements?
-  - Primary communication with customers is over dedicated shared Slack channels:
-    - Prospects: #trial-companyname / new format is: #trial-companyname-sourcegraph
-    - Customers: #support-companyname / new format is: #support-companyname-sourcegraph
-- How do I route technical questions to the appropriate team?
-  - [Routing Customer Questions](https://about.sourcegraph.com/handbook/ce/routing_questions)
-- Where can I track user feedback?
-  - [User Feedback](https://about.sourcegraph.com/handbook/product/user_feedback)
+#### 60 - 90 days:
+- Guide your first prospects towards and through a trial. 
+- Collaborating with your lead, mentor, and / or AE, create plans around red accounts, renewals, and / or post-sales engagement. 
+- Participate in CE-led internal projects. 
+- Raise feedback to the approriate product team.
+
+
+### Senior Customer Engineers (Level 3 - 4)
+
+#### First 30 days:
+- Demonstrate baseline understanding of core product, value proposition, and processes. 
+- Successfully deliver initial product demo, covering core functionality.
+
+#### 30 - 60 days:
+- Actively participate in initial prospective calls, performing customer discovery. 
+- Lead customer demos tailored to their described needs. 
+- Be paired with 1-3 AEs with whom you should begin to build a rapport and begin strategizing on book of business with.
+
+#### 60 - 90 days:
+- Guide a prospect towards and through a trial. 
+- Guide the creation of plans around red accounts, renewals, and / or post-sales engagement. 
+- Participate in and lead CE-identified projects. 
+- Raise feedback to the approriate product team. 
+- Drawing from previous experience, make internal contributions by identifying opportunities and proposing and delivering solutions.
+
+After day 90, your role expectations will then align to the pre-defined CE career ladders of your current level.
