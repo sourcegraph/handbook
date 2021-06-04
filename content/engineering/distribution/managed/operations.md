@@ -146,6 +146,6 @@ More details: https://cloud.google.com/compute/docs/startupscript
 
 ## Restarting for configuration updates
 
-SSH into the instance and run:
+SSH into the instance, cd to `/deployment/docker-compose` and run:
 
 `docker-compose restart sourcegraph-frontend-0 sourcegraph-frontend-internal`
