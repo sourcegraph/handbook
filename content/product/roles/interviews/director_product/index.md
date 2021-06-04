@@ -1,12 +1,14 @@
 # Director of Product interview process
 
-_Total interview time: 4 hours
+Total interview time: 4 hours
 
 1. [30 min] **[Initial screen](../initial_screen.md)**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
-1. [30 min] **[HM screen](../hm_intro_call.md)**: with [Christina Forney](../../../../company/team/index.md#christina-forney-she-her), VP Product
-1. [1 hr] **Working session**: with [Christina Forney](../../../../company/team/index.md#christina-forney-she-her), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
-1. [45 min] **Meet your team**: with your Product Manager direct reports
-1. [45 min] **Design and Engineering collaboration**: with a Product Designer and Engineering Manager.
+1. [30 min] **[HM screen](../hm_intro_call.md)**: with [Christina Forney](../../../../company/team/index.md#christina-forney-she-her), VP Product to elaborate on your previous experiences. 
+1. [3 hr "Onsite"]
+   - [1 hr] **Working session**: Work through problem solving leadership exercises with [Christina Forney](../../../../company/team/index.md#christina-forney-she-her), VP Product and either [Nick Snyder](https://about.sourcegraph.com/company/team#nick-snyder-he-him), VP Engineering or the Director of Engineering of the corresponding org.
+   - [45 min] **Meet your team**: Explain how you grow and mentor Product Managers with your direct reports.
+   - [45 min] **Design and Engineering collaboration**: Discuss your experiences cross-collaborating with a Product Designer and Engineering Manager.
+   - [30 min] **Values interview**: Meet with someone from the Sourcegraph team (outside of your organization) to discover how you've demonstrated our values in the past. 
 1. [30 min] **CTO Call**: with [Beyang Liu](../../../../company/team/index.md#beyang-liu)
 1. We make you a job offer!
 
