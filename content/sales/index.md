@@ -46,6 +46,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - Will Camp
   - [Jon Kishpaugh](../company/team/index.md#jon-kishpaugh-he-him)
   - [James Clifford](../company/team/index.md#james-clifford-he-him)
+  - [Natalie Khoury](../company/team/index.md#natalie-khoury)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
 
