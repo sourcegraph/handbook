@@ -955,4 +955,4 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - San Francisco, CA, USA 🇺🇸
 - GitHub: NK-83
 - [natalie@sourcegraph.com](mailto:natalie@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nataliekhoury/)
-- Natalie grew up in Northern California and currently resides in San Francisco's Russian Hill neighborhood. She's spent the last 15+ years selling tech and loves it! In her free time ree time, you can find Natalie in SF or the NorCal outdoors being active. She loves swimming, running, spinning (peloton username is NattyK8), hiking, road trips, and traveling. 
+- Natalie grew up in Northern California and currently resides in San Francisco's Russian Hill neighborhood. She's spent the last 15+ years selling tech and loves it! In her free time ree time, you can find Natalie in SF or the NorCal outdoors being active. She loves swimming, running, tennis, spinning (Peloton Username - NattyK8), hiking, road trips, and traveling. 
