@@ -5,6 +5,7 @@
 Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intelligence/index.md), [Code Insights](code-insights/index.md), and [API docs](api-docs/index.md)), [extended](extensibility/index.md) with other dev tools’ information, to where developers interact with code ([sourcegraph.com](https://sourcegraph.com/search), code hosts, and IDEs)
 
 ## Teams
+
 1. [Frontend Platform](frontend-platform/index.md): the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph.
 2. [Extensibility](extensibility/index.md): our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
 3. [Code Insights](code-insights/index.md): empowering data-driven decisions in engineering organizations.
@@ -13,29 +14,30 @@ Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intellig
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
+
 - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](../roles.md#director-of-engineering))
-     - [Frontend platform](../developer-insights/frontend-platform/index.md)
-         - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-         - [Patrick Dubroy](../../company/team/index.md#tom-ross-he-him) ([Engineering Manager](../roles.md#engineering-manager))
-              - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
-              - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
-              - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him) (moves to Code Insights in FQ2)
-     - [Extensibility](index.md)
-         - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
-         - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-         - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this team
-              - [TJ Kandala](../../company/team/index.md#tharuntej-kandala-he-him)
-              - [Murat Sutunc](../../company/team/index.md#murat-sutunc-he-him)
-     - [Code Insights](../developer-insights/code-insights/index.md)
-         - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-         - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-         - [Felix Becker](../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
-              - [Vova Kulikov](../../company/team/index.md#vova-kulikov-he-him)
-              - [Coury Clark](../../company/team/index.md#coury-clark-he-him)
-              - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him) (joins from Frontend Platform in FQ2)
-     - [API docs](../developer-insights/api-docs/index.md)
-         - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this workstream
-              - [Stephen Gutekanst](../../company/team/index.md#stephen-gutekanst)
+  - [Frontend platform](../developer-insights/frontend-platform/index.md)
+    - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
+    - [Patrick Dubroy](../../company/team/index.md#tom-ross-he-him) ([Engineering Manager](../roles.md#engineering-manager))
+      - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
+      - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
+      - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him) (moves to Code Insights in FQ2)
+  - [Extensibility](index.md)
+    - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
+    - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
+    - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this team
+      - [TJ Kandala](../../company/team/index.md#tharuntej-kandala-he-him)
+      - [Murat Sutunc](../../company/team/index.md#murat-sutunc-he-him)
+  - [Code Insights](../developer-insights/code-insights/index.md)
+    - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
+    - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
+    - [Felix Becker](../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
+      - [Vova Kulikov](../../company/team/index.md#vova-kulikov-he-him)
+      - [Coury Clark](../../company/team/index.md#coury-clark-he-him)
+      - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him) (joins from Frontend Platform in FQ2)
+  - [API docs](../developer-insights/api-docs/index.md)
+    - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this workstream
+      - [Stephen Gutekanst](../../company/team/index.md#stephen-gutekanst)
 
 ## Strategy for FY22
 
@@ -82,6 +84,32 @@ Reviewers should try to review in a timely manner; doing so allows everyone invo
 
 If the author of the pull request has not heard anything after one day, a new reviewer should be assigned.
 
+#### Review Buddies
+
+At Sourcegraph, [we believe code review is important](https://docs.sourcegraph.com/dev/background-information/code_reviews), and on the developer insights org specifically, [we believe unblocking others is our highest priority](#unblocking-others-is-your-highest-priority).
+
+**What is a review buddy?** A review buddy is someone you can regularly ask review from on PRs directly (as opposed to asking a whole group like `@frontend-devs`) and who can equally ask for reviews from you.
+Since they review each other's code more often, review buddies will learn each other's project goals in more detail than an average out-of-team reviewer and are able to provide and receive a more in-depth review.
+
+Everybody is encouraged to have 2-3 review buddies. This ensures there is always an alternative buddy to ask if the initial reviewer indicated they cannot get to it in the usual timeframe or the buddy is not working.
+A review buddy is expected to communicate the timeline in which they could provide a review clearly and timely if they don't have the bandwidth to provide a same-day review, so that their buddy can choose to ask someone else.
+Review buddies can also proactively communicate when they are too busy, e.g. through their Slack status (although this should be the exception, rather than the rule).
+
+**Why become a review buddy?**
+
+- If you're interested to learn about another team's codebase and work
+- If you're interested in getting perspectives on your code from engineers not on your team
+- If you work on a platform team that frequently needs review and feedback from other teams
+- If you want to share your knowledge with others and have a positive impact beyond your team
+- If you're on a small team and don't have someone else on the team to review your code
+- If you simply want to help out!
+
+If a review buddy feels they can repeatedly not take time to review their buddy's code because of pressure on their own team's goals, they should bring it up with their manager.
+Taking time to review code is everyone's responsibility and a project timeline that doesn't allow time for fulfilling this responsibility is generally not a sustainable timeline.
+It is each manager's responsibility to ensure engineers have enough time to fulfill code review responsibilities.
+
+**How do I become a review buddy?** Tell another engineer you'd like to be their buddy, and add your names to the [spreadsheet](https://docs.google.com/spreadsheets/d/1ylNMS4n9BxPgvRJIBhXI1uCaAjbJtvTNdeJSDoABhlc/edit)!
+
 ## Processes
 
 Each team is afforded the freedom to operate as best they see fit to achieve their goals.
@@ -107,17 +135,17 @@ To assist in this regard we provide the following guideline for teammates to fol
 
 **The most important thing to remember is not which emoji to use, but rather to remember to acknowledge and to do it in a clear and unambiguous way.**
 
-*When acknowledging a request:*
+_When acknowledging a request:_
 
 - `:thumbsup:` (👍) = I see the request and will action it
 - `:white_check_mark:` (✅) = I have completed my action on the request
 
-*When acknowledging a statement:*
+_When acknowledging a statement:_
 
 - `:thumbsup:` 👍 = I agree with the statement or I have taken note of it
-- `:thumbsdown:` 👎 =  I disagree with a statement - encouraged to always follow up with written response
+- `:thumbsdown:` 👎 = I disagree with a statement - encouraged to always follow up with written response
 
-*When acknowledging a question:*
+_When acknowledging a question:_
 
 You should provide a written response unless it's a simple yes/no question, in which case `:thumbs-up:` (👍)/`:thumbs-down:` (👎) is acceptable.
 
@@ -140,6 +168,7 @@ Each Engineering Manager of the teams in the org is responsible for sending out 
 The engineering managers are responsible for compiling a weekly health report ([see example](https://docs.google.com/spreadsheets/d/1PnRPydNYLF2Als3KpVuIYO8dXeqckp_sbowVkvkdkeE/edit)) for their team.
 
 The report is a confidential update between the Director and the Engineering Managers and serves the following purpose:
+
 1. Updates the director on how things are going at a high-level in the team
 1. Identifies areas of concern that could lead to proactive intervention to mitigate concerns
 
