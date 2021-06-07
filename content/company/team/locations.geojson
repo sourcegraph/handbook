@@ -912,6 +912,19 @@
           33.84874817060767
         ]
       }
+   },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nicky Van Maanen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.92734265327452,
+          33.673845318635735
+         ]
+      }
     }
   ]
 }
