@@ -1,13 +1,16 @@
 # Brand and Creative Team Requests
 
-1. Send a request through the [Creative Requests Form](https://docs.google.com/forms/d/e/1FAIpQLSdkmXj9jSMOyBoh7QUo2uAHdX6zZ9Ybk3Q9UpszIFYwyLazFQ/viewform)
-1. We receive it and reply with one of three most likely options:
+1. Send a request through one of our Request Forms: 
+    * [Social Media Requests](https://form.asana.com?k=iaHgTYAJiueNE5zlGxalqw&d=7195383522959) - *do you want to send a tweet? Post a photo on Instagram? This is your form!*
+    * [Swag Requests](https://form.asana.com?k=ysBKSzSA2xjRifqqEvFbJQ&d=7195383522959) - *send a branded gift to a member of our community!*
+    * Any other [Creative Requests](https://form.asana.com?k=Zv_DWGDitZCYr0FXY3bvHg&d=7195383522959) - *see our [capabilities](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests#capabilities) below*
+2. We receive the request and reply with one of three most likely options:
 	1. We’re able to support the work directly and will schedule a kickoff or request more information;
 	1. We’re able to support indirectly and will help source and manage a vendor;
 	1. We’re unable to support right now and will connect you directly with a trusted vendor, contractor, or other resource (such as a template).
-1. If we’re able to support your request directly or indirectly, we send you an Asana Form with a few fill-in-the-blank questions that automatically generates a Project Card for us.
-1. If we aren’t able to support, we will facilitate an introduction to a trusted partner from our Preferred Vendor Network (PVN) of creative partners.
-1. We meet with you and your team to gather more info for a Creative Brief, which will include the background, goals, timelines, budget, and other important resources.
+3. If we’re able to support your request directly or indirectly, we send you an Asana Form with a few fill-in-the-blank questions that automatically generates a Project Card for us.
+4. If we aren’t able to support, we will facilitate an introduction to a trusted partner from our Preferred Vendor Network (PVN) of creative partners.
+5. We meet with you and your team to gather more info for a Creative Brief, which will include the background, goals, timelines, budget, and other important resources.
 
 *Have questions about the form or need help filling it out? Email us at brand@sourcegraph.com and we'll be happy to help.*
 
