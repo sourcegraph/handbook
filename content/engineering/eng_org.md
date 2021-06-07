@@ -4,7 +4,28 @@ This page documents our current and planned future engineering org structure. Pl
 
 ## Philosophy
 
-Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission. The leaders of each team (at every layer) is responsible for ensuring appropriate cross-team collaboration happens when necessary.
+Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission. The leader of each team (at every layer) is responsible for ensuring appropriate cross-team collaboration happens when necessary.
+
+### Minimum viable team
+
+A minimum viable team contains:
+
+- A product manager
+- An engineering manager
+- Appropriate product design support depending on the work of the team
+- The greater of:
+  - 2 engineers per necessary skillset (for example: if a team requires both backend and frontend engineers, then the minimum team is 2x frontend + 2x backend) for collaboration and redundancy
+  - 3 engineers total (for example: if a team only needs frontend engineers, then there can be a team of 3 frontend engineers)
+
+New teams will not be created until/unless we have committed headcount in the plan to staff them to a minimum viable team within a reasonable timeframe, or to whatever is necessary to make the new team successful, whichever is larger.
+
+### Maximum viable team
+
+We expect engineering managers to not manage more than 8 people directly.
+
+If a team is approaching capacity and we need to continue to grow, the manager of the team should work with their manager to create a plan to grow and divide the team. This involves identifying a new engineering manager (either internally or hiring), which can take ~3 months, so it is important to plan ahead. In advance of identifying a new manager, the manager of the team at capacity should already start organizing the team's work as if they were managing two separate teams. This eases the team into the transition before we actually have a new engineering manager onboard.
+
+When teams grow and divide, we prefer to grow the org horizontally, not vertically. This means the new engineering manager would be a peer to the existing engineering manager, not report to the existing engineering manager, as long as the engineering manager's manager has capacity. If the engineering manager's manager doesn't have the capacity, then we need to make a higher-level decision about how to adjust our org structure to support the growth we need.
 
 ## Transferring teams
 
