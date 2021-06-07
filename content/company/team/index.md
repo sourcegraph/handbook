@@ -963,3 +963,12 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: gigswift
 - [rashad@sourcegraph.com] (mailto:rashad@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/rashadbartholomew/)
 - Rashad was born in Texas to an Air Force family. After wrapping high school in the St. Louis metro area, Rashad attended the United States Air Force Academy for two years before transferring to Yale, where he majored in Economics. Upon graduating Yale Rashad highlighted a brief professional football career by signing with the Titans. Life after football saw Rashad become a Founder in K12 education with Power Learning, the most comprehensive data and assessment platform in California. Part way through the Power Learning experience Rashad went to Stanford for a MA Education and a MBA. Later Rashad Founded the ecommerce site [CashPass](https://www.cashpass.me/). In 2018 Rashad began a career in sales with New Relic and later Gitlab. Rashad loves live music, strategy games and boxing. Rashad values the virtues of empathy, kindness and integrity and he has no tolerance for nonsense. Rashad enjoys discussing politics, philosophy, sports, economics and business. Rashad travels a lot so he hopes he can catch you for a bite or a drink.
+
+## Nicky Van Maanen (she/her)
+
+- Tech Ops Manager
+- Costa Mesa, California, USA 🇺🇸
+- GitHub: NickyVM
+- [nicky@sourcegraph.com](mailto:nicky@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nvanmaanen/)
+- Currently, Nicky is enjoying the ocean and eucalyptus trees with her family in Southern California but her heart remains in the commotion and sounds of New York City. She has a BA in Anthropology from Scripps College and an MS in Public Policy from Carnegie Mellon University. Prior to Sourcegraph, Nicky has held numerous jobs from Selling Mini Coopers to working in the Computer Forensic Unit at the Manhattan DAs office.
+
