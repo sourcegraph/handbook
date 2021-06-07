@@ -915,3 +915,19 @@
     }
   ]
 }
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "<Trevor Houghton>" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74557590484619,
+          30.275505651973443
+        ]
+      }
+    }
+  ]
+}
