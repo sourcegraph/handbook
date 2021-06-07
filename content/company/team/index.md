@@ -956,3 +956,10 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: NK-83
 - [natalie@sourcegraph.com](mailto:natalie@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nataliekhoury/)
 - Natalie grew up in Northern California and currently resides in San Francisco's Russian Hill neighborhood. She's spent the last 15+ years selling tech and loves it! In her free time ree time, you can find Natalie in SF or the NorCal outdoors being active. She loves swimming, running, tennis, spinning (Peloton Username - NattyK8), hiking, road trips, and traveling. 
+
+## Rashad Bartholomew (he/him)
+- Senior Account Executive
+- Oakland, CA, USA USA 🇺🇸
+- GitHub: gigswift
+- [rashad@sourcegraph.com] (mailto:rashad@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/rashadbartholomew/)
+- Rashad was born in Texas to an Air Force family. After wrapping high school in the St. Louis metro area, Rashad attended the United States Air Force Academy for two years before transferring to Yale, where he majored in Economics. Upon graduating Yale Rashad highlighted a brief professional football career by signing with the Titans. Life after football saw Rashad become a Founder in K12 education with Power Learning, the most comprehensive data and assessment platform in California. Part way through the Power Learning experience Rashad went to Stanford for a MA Education and a MBA. Later Rashad Founded the ecommerce site [CashPass](https://www.cashpass.me/). In 2018 Rashad began a career in sales with New Relic and later Gitlab. Rashad loves live music, strategy games and boxing. Rashad values the virtues of empathy, kindness and integrity and he has no tolerance for nonsense. Rashad enjoys discussing politics, philosophy, sports, economics and business. Rashad travels a lot so he hopes he can catch you for a bite or a drink.
