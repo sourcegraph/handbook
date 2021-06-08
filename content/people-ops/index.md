@@ -50,6 +50,9 @@ See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open role
 
 - [Diversity, equity, and inclusion](../communication/dei.md)
 - [Personal Pronouns](personal-pronouns.md)
+
+## Other policies
+
 - [Anti-corruption/anti-bribery](anti-corruption.md)
 
 ## General office information
