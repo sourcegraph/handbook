@@ -922,7 +922,7 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Staff Developer Evangelist
 - Lagos, Nigeria 🇳🇬
 - GitHub: [unicodeveloper](https://github.com/unicodeveloper)
-- [prosper@sourcegraph.com](mailto:prosper@sourcegraph.com),[@unicodeveloper](https://twitter.com/unicodeveloper),
+- [prosper@sourcegraph.com](mailto:prosper@sourcegraph.com), [@unicodeveloper](https://twitter.com/unicodeveloper)
 - Prosper was born and raised in Lagos, Nigeria. A software engineer who has worked on biometric, health and developer tools. He is a seasoned developer advocate, veteran conference speaker and a firm open source hacker who believes immensely in the intersection of people & technology. He co-founded and leads forloop, the largest developer community in Africa. He loves travelling, playing football and tinkering with the fire emoji.
 
 ## Cecily Black (she/her)
