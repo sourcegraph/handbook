@@ -964,3 +964,8 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - [nicky@sourcegraph.com](mailto:nicky@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nvanmaanen/)
 - Currently, Nicky is enjoying the ocean and eucalyptus trees with her family in Southern California but her heart remains in the commotion and sounds of New York City. She has a BA in Anthropology from Scripps College and an MS in Public Policy from Carnegie Mellon University. Prior to Sourcegraph, Nicky has held numerous jobs from Selling Mini Coopers to working in the Computer Forensic Unit at the Manhattan DAs office.
 
+## Debbie Johnstone (she/her)
+- VP People
+- Amsterdam, Netherlands 🇳🇱
+- [debbie@sourcegraph.com](mailto:debbie@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/debbie-johnstone-58901a1b/)
+- Originally from Cape Town, South Africa, Debbie is still adjusting to the climate in Amsterdam, where she relocated two years ago with her grumpy 13-year old cocker Spaniel, Mercy. You'll find her either hopping from country to country, or riding a bike to do yoga or meet friends in Vondelpark. Debbie is an avid student of the Enneagram, so chat to her about it if you've ever done one!
