@@ -32,6 +32,16 @@ It also owns a subset of features built on top of Sourcegraph search:
 
 ## Processes
 
+### Support rotation
+
+The search product team has a customer support rotation: each week, one team member will be responsible for fielding questions and requests from Customer Engineering and Customer Support.
+
+The engineer on support rotation can be contacted using the Slack alias `@search-product-support`.
+
+The support rotation can be viewed on Opsgenie: [search product schedule](https://sourcegraph.app.opsgenie.com/teams/dashboard/a1de0c85-2457-4183-9065-91a208be4034/main).
+
+Should an engineer be unable to fulfill support responsibilities for any reason (for example, due to upcoming time off), they should swap with a teammate.
+
 ### Planning
 
 We work in two-week iterations.
