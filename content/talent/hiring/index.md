@@ -130,11 +130,15 @@ Here are some other questions that candidates have asked (e.g., in the [CEO inte
 
 ## Making an offer
 
-Once the decision is made to [extend an offer](interview_process.md#outcome) to a candidate, a representative from the People Ops team will reach out to the hiring manager to figure out offer details together.
+Once the decision is made to [extend an offer](interview_process.md#outcome) to a candidate, the following process is followed:
 
-When the offer is approved, the hiring manager and a representative from the People Ops team will schedule a call to walk through a summary of the offer with the candidate. This summary will include an overview of cash compensation (including any commission or bonus plans), benefits, and any equity-based compensation (including a simple calculator for potential future values).
-
-Once the candidate verbally accepts the offer, Sourcegraph legal team will send the official DocuSign with the appropriate contracting or employment agreement(s) for the candidate's role, status, and location. Templates for employees and contractors can be found in the shared [HR/Employees/Contractors Dropbox folder](https://www.dropbox.com/home/Legal/HR%3AEmployees%3AContractors).
+1. The recruiter confirms the offer details with the hiring manager (compensation, equity, level) and submits the offer for approval in Greenhouse.
+   - Offer approval chain: VP, Talent > Hiring Manager > Department Head > VP, Operations.
+2. Once the offer is approved in Greenhouse, the recruiter schedules an offer summary call (attendees: a member of the Talent team, the hiring manager, and the candidate) to walk through the offer details.
+3. Immediately following the offer summary call, the recruiter sends the offer summary via email for the candidate to review.
+4. In addition, the VP, Talent generates and sends the official offer via DocuSign to the candidate for signature.
+5. Once the candidate signs the offer letter, the talent team sends a welcome email and Cc's HR (for onboarding) and the hiring manager.
+6. HR then begins the onboarding process and provides details to set the candidate up for success on their first day!
 
 ## Policy on outreaching to prospective candidates that work at a Sourcegraph customer
 
