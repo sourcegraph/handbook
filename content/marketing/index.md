@@ -53,6 +53,7 @@
         - We are building a brand team
     - [Samson Goddy](https://about.sourcegraph.com/handbook/company/team#samson-goddy-he-him), Director of Community
         - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
+        - [Prosper Otemuyiwa](../company/team#prosper-otemuyiwa-he-him), Staff Developer Evangelist
         - We will be hiring developer advocates
 
 ## Open Roles
