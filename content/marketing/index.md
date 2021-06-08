@@ -43,17 +43,17 @@
         - [Rebecca Dodd](../company/team/index.md#rebecca-dodd-she-her), Senior Managing Editor
         - We will be hiring a Social Media Marketing Manager, Producer (video and podcast production), and Content Marketing Manager
     - [Lisa Tagliaferri](../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
-        - [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team#marek-zaluski), Developer Education Engineer
+        - [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team/index.md#marek-zaluski), Developer Education Engineer
         - We will be hiring technical educators
-    - [Sarah Reece](https://about.sourcegraph.com/handbook/company/team#sarah-reece-she-her), Director of Demand Generation
+    - [Sarah Reece](https://about.sourcegraph.com/handbook/company/team/index.md#sarah-reece-she-her), Director of Demand Generation
         - Lori Heyman, Digital Marketing Programs
         - Rebecca Rissinger, Manager, Marketing Operations
     - Tommy Pesavento, Director of Brand Design
         - Fabiana Castellanos, Project Coordinator, Brand
         - We are building a brand team
-    - [Samson Goddy](https://about.sourcegraph.com/handbook/company/team#samson-goddy-he-him), Director of Community
+    - [Samson Goddy](https://about.sourcegraph.com/handbook/company/team/index.md#samson-goddy-he-him), Director of Community
         - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
-        - [Prosper Otemuyiwa](https://about.sourcegraph.com/handbook/company/team#prosper-otemuyiwa-he-him), Staff Developer Evangelist
+        - [Prosper Otemuyiwa](https://about.sourcegraph.com/handbook/company/team/index.md#prosper-otemuyiwa-he-him), Staff Developer Evangelist
         - We will be hiring developer advocates
 
 ## Open Roles
