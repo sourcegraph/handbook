@@ -160,19 +160,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Roux"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.11934,
-          49.24966
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Adam Harvey"
       },
       "geometry": {

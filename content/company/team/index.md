@@ -186,14 +186,6 @@ To add yourself to this page:
 - [felix@sourcegraph.com](mailto:felix@sourcegraph.com), [felixfbecker](https://github.com/felixfbecker), [Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)
 - Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
 
-## Roux (they/them)
-
-- [Pronounced roo](http://ipa-reader.xyz/?text=%C9%B9u%CB%90)
-- Software engineer
-- Unceded territory of musqueam, squamish, and tsleil-waututh nations
-- roux@sourcegraph.com
-- Roux is outside or waiting for warmer weather. They are autistic, trans, and non-binary. They like to cook, climb, dance, read, & game and would love to talk about these things. They live with their family and wish their larger baby would stop pouncing on their smaller baby.
-
 ## Quin Keough
 
 - SDR
@@ -903,14 +895,14 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 
 ## Devon Coords (She/Her)
 - Senior Technical Recruiter, Team Lead
-- White Plains, NY USA 🇺🇸 
+- White Plains, NY USA 🇺🇸
 - GitHub: [devoncoords](https://github.com/devoncoords)
 - [devon@sourcegraph.com](mailto:devon@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/devonelliscoords)
 - Devon loves spending time with her husband (Andrew), daughter (Madison), dog (Bailey), and cat (Gato). Prior to Sourcegraph, Devon was the Managing Director of a tech recruiting agency in New York City and has ~9 years' experience in the industry. When not working, Devon tries to spend most of her time outside, doing home renovation projects, cooking, trying to keep her plants alive, and traveling.
 
 ## Trevor Houghton (he/him)
 
-- Recruiting Operations Specialist 
+- Recruiting Operations Specialist
 - Austin, TX, USA 🇺🇸
 - GitHub: TrevorHoughton
 - trevor@sourcegraph.com, [LinkedIn](https://www.linkedin.com/in/trevorhoughton/)
@@ -939,7 +931,7 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Atlanta, GA, USA 🇺🇸
 - GitHub: kevin-quigley
 - [kevin.quigley@sourcegraph.com](mailto:kevin.quigley@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/kevinquigley18/)
-- Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising! 
+- Kevin grew up in Atlanta, graduated from the University of Georgia :dog:, and then travelled for a year (USA road trip, Southeast Asia, and Australia). He enjoys backpacking in our national parks, Georgia football, and exercising!
 
 ## Brady Herrmann (he/him)
 
@@ -955,7 +947,7 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - San Francisco, CA, USA 🇺🇸
 - GitHub: NK-83
 - [natalie@sourcegraph.com](mailto:natalie@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nataliekhoury/)
-- Natalie grew up in Northern California and currently resides in San Francisco's Russian Hill neighborhood. She's spent the last 15+ years selling tech and loves it! In her free time ree time, you can find Natalie in SF or the NorCal outdoors being active. She loves swimming, running, tennis, spinning (Peloton Username - NattyK8), hiking, road trips, and traveling. 
+- Natalie grew up in Northern California and currently resides in San Francisco's Russian Hill neighborhood. She's spent the last 15+ years selling tech and loves it! In her free time ree time, you can find Natalie in SF or the NorCal outdoors being active. She loves swimming, running, tennis, spinning (Peloton Username - NattyK8), hiking, road trips, and traveling.
 
 ## Rashad Bartholomew (he/him)
 - Senior Account Executive
