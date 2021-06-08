@@ -6,9 +6,8 @@
    - We proactively promote our open positions to many different groups, communities, and networks.
    - If we believe there is a talented set of individuals who are not applying to our team, we will initiate outbound efforts to reach them. We believe there is value in reaching out to candidates who are not directly connected to the social graph of our team today.
 1. We want our hiring process to be fair to all candidates.
-   - Our job descriptions use inclusive language.
+   - We recognize that the way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications.  Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.  
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
-   - There are two interviewers in each interview so that we can better detect and compensate for misunderstandings during the interview and biases in the written feedback after the interview.
    - Interviewers take written notes during the interview so there is an objective record of the interview that can be referenced when making a hiring decision.
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
