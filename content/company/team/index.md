@@ -969,3 +969,10 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Amsterdam, Netherlands 🇳🇱
 - [debbie@sourcegraph.com](mailto:debbie@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/debbie-johnstone-58901a1b/)
 - Originally from Cape Town, South Africa, Debbie is still adjusting to the climate in Amsterdam, where she relocated two years ago with her grumpy 13-year old cocker Spaniel, Mercy. You'll find her either hopping from country to country, or riding a bike to do yoga or meet friends in Vondelpark. Debbie is an avid student of the Enneagram, so chat to her about it if you've ever done one!
+
+## Ken Mills
+- Account Executive - Public Sector
+- Chantilly, VA USA 🇺🇸
+- GitHub: kenwmills
+- [ken.mills@sourcegraph.com](mailto:ken.mills@sourcegraph.com), [LinkedIn](http://www.linkedin.com/in/ken-mills-2601b74) [Twitter](https://twitter.com/kenwmills)
+- Ken grew up in the South before joining the US Army.  Since then, he has lived in the Southwest (Fort Huachuca, AZ), Northwest (Fort Lewis, WA), Northeast (Nashua, NH), and is currently in the Washington DC metro area. Ken enjoys walking, hiking and casual bike riding, as well as reading and spending time with family and friends.  Prior to Sourcegraph, Ken was the Regional Director - Government Accounts for VersionOne, Inc (merged with CollabNet, and later renamed Digital.ai) and has spent the last 20 years selling software solutions into the Public Sector.
