@@ -976,3 +976,10 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: kenwmills
 - [ken.mills@sourcegraph.com](mailto:ken.mills@sourcegraph.com), [LinkedIn](http://www.linkedin.com/in/ken-mills-2601b74) [Twitter](https://twitter.com/kenwmills)
 - Ken grew up in the South before joining the US Army.  Since then, he has lived in the Southwest (Fort Huachuca, AZ), Northwest (Fort Lewis, WA), Northeast (Nashua, NH), and is currently in the Washington DC metro area. Ken enjoys walking, hiking and casual bike riding, as well as reading and spending time with family and friends.  Prior to Sourcegraph, Ken was the Regional Director - Government Accounts for VersionOne, Inc (merged with CollabNet, and later renamed Digital.ai) and has spent the last 20 years selling software solutions into the Public Sector.
+
+
+## Nate Maynard (He/Him)
+- Customer Engineer
+- Denver, Colorado,  USA 🇺🇸
+- [nate.maynard@sourcegraph.com](mailto:nate.maynard@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/namaynard/)
+- Originally from Massachusetts, Nate currently is enjoying the more open spaces of the United States out west. Having moved from San Francisco to Denver in October of 2021 he likes to live close to the mountians reducing his commute from 4 hours to 2 trading the Sierras for the Rockies. Nate also enjoys spending time with friends playing golf, cycling, and playing video games. His professional passion is explaining techincal products and concepts to both technical and non techincal people.
