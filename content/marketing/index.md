@@ -9,6 +9,7 @@
 - [Product marketing](product_marketing.md)
     - [Marketing launch tiers](marketing_launch_tiers.md)
     - [Product marketing hierarchy](product_marketing_hierarchy.md)
+    - [Release post process](release_post_process.md)
 - [Content Marketing](content.md)
     - [Creating blog posts](creating_blog_posts.md)
     - [Editing blog posts](creating_blog_posts.md#editing-blog-posts)
