@@ -89,7 +89,13 @@ You can read about [embedding GIFs and videos](adding_screenshots_screen_recordi
 
 It's recommended to run the development site to preview your blog post locally.
 
-Once your pull request is created, the last link in the checks list is a link to the preview deploy on Netlify which you use as the authoritative site to review your blog post.
+Once your pull request is created, you can preview your blog post through the netlify build. To do so:
+
+* In your PR, on the 'conversation' tab
+* Find the checks at the bottom
+* Find the deploy/netlify check and click the details link
+* This will open a build of the Sourcegraph marketing website
+* Add /blog to the end of the url
 
 ## Publishing your post 
 
