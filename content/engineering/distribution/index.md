@@ -57,27 +57,43 @@ See [Goals](goals.md)
   - FQ2 [Robert Lin](../../company/team/index.md#robert-lin) (early July)
   - FQ3 hire
 
-## Incident on-call rotation
+## Getting help from the Distribution team
 
-Who is on-call? Slack: `/genie whoisoncall Distribution`
+### Urgent customer incidents
 
-We have a 24x7 OpsGenie rotation to respond to [incidents](../incidents/index.md) (events that cause service disruption). You can find more information about [being on-call in the handbook](../incidents/on_call.md).
+You can send an urgent notification to the engineer directly from Slack utilizing the following command: `/genie alert "ce/p1: Customer XYZ systems are impaired #12345" for distribution-support`.
+If the engineer is unable, a message will be send to the rest of the team.
 
-**Incidents on-call**
+Please provide a link to an [issue](https://about.sourcegraph.com/handbook/ce/customer_issues) in the message.
 
-- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+monitoring.ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+monitoring.ObservableOwnerDistribution%29+count:1000&patternType=structural)
-- [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/aa59eba4-9b34-45ea-9515-c4dab4cbdac9/main)
+Find out [how we cover on-call](#on-call-Support).
 
-## Support rotation
+### General questions
+
+  1. In [#distributioneers](https://sourcegraph.slack.com/archives/CJX299FGE), click the blue lightning bolt just below the Slack text field
+  2. At the top of the popup, select the type of request – "Ask a question"
+  3. Fill out the form!
+  4. Your responses will be posted in the channel, which is monitored by the member of the team on the support rotation ([see below](#how-we-cover-support-requests) for more info!)
+  5. We'll get back to you asap. But, if this is a **time sensitive question**, please tag `@distribution-support` in the thread in the channel.
+
+### General support requests
+
+  1. In [#distributioneers](https://sourcegraph.slack.com/archives/CJX299FGE), click the blue lightning bolt just below the Slack text field
+  2. At the top of the popup, select the type of request – "Request support"
+  3. Fill out the form!
+  4. Your responses will be posted in the channel, which is monitored by the member of the team on the support rotation ([see below](#how-we-cover-support-requests) for more info!)
+  5. We'll get back to you asap. But, if this is a **time sensitive request**, please tag `@distribution-support` in the thread in the channel, or consider using the method outlined in ["Urgent customer incidents"](#urgent-customer-incidents) above if _really_ urgent.
+
+### How we cover support requests
 
 Who is on-call? Slack: `/genie whoisoncall distribution-support`
 
-_You can directly notify the on-call support engineer by using the handle `@distribution-support`._
+_The on-call support engineer can be reached (without you needing to know who it is) by using the Slack handle `@distribution-support`._
 
 We maintain a support rotation to deal day-to-day requests (respond to ad-hoc, time-sensitive questions from customers or other teams, RFC review requests, etc). This makes it easier for other teams to reach out an engineer on the team whose priority is being the point of contact for these questions. You can read more about this on the references below.
 When you are the active support engineer, your focus and priority is responding to requests and questions in #distributioneers, sometimes this might require creating an issue, re-assigning, looping in other engineers, etc.
 
-_If for any reason you are unavailable for a rotation, please coordinate with the team for someone to take over._
+_Distribution Team: If for any reason you are unavailable for a rotation, please coordinate with the team for someone to take over._
 
 **Resonsibilities**:
 
@@ -87,20 +103,13 @@ The on-call support engineer is responsbile for owning the communication and det
 
 - [SRE Book](https://sre.google/sre-book/dealing-with-interrupts/)
 
-### Contacting the support engineer
+## On-Call Support
 
-There are many reasons to contact the support engineer depending on the priority or urgency of a request.
-Here are some guidelines that will help ensure we can reply to your request appropriately.
+Who is on-call? Slack: `/genie whoisoncall Distribution`
 
-#### General questions
+We have a 24x7 OpsGenie rotation to respond to [incidents](../incidents/index.md) (events that cause service disruption). You can find more information about [being on-call in the handbook](../incidents/on_call.md).
 
-Send us a message in #distributioneers and notify the active engineer by `@distribution-support` in the message.
-Alternatively `@distribution-support` the engineer in the thread in which he is required.
-If this is a **time sensitive request**, please let us know in the message that this is the case
+**Incidents on-call**
 
-#### Customer incidents
-
-You can send an urgent notification to the engineer directly from Slack utilizing the following command: `/genie alert "ce/p1: Customer XYZ systems are impaired #12345" for distribution-support`.
-If the engineer is unable, a message will be send to the rest of the team.
-
-Please provide a link to an [issue](https://about.sourcegraph.com/handbook/ce/customer_issues) in the message.
+- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+monitoring.ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+monitoring.ObservableOwnerDistribution%29+count:1000&patternType=structural)
+- [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/aa59eba4-9b34-45ea-9515-c4dab4cbdac9/main)
