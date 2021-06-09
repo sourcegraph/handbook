@@ -111,10 +111,10 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 * [Moving off the insiders build](leaving-insiders-build.md)
 * [Enterprise vs. Open Source Sourcegraph](enterprise-vs-oss.md)
 * [Deployment Methods](deployment-methods.md)
- * [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#u)
- * [Guide to demoing the Batch Changes feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
-   * [Slides](https://docs.google.com/presentation/d/1niZBMhHKWJT1-n_ExSbYIRD51vcubrWwQm-Tc5EZo8s/edit#slide=id.g7d2aea8729_0_0)
-   * [Batch Changes demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
+* [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#u)
+* [Guide to demoing the Batch Changes feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
+  * [Slides](https://docs.google.com/presentation/d/1niZBMhHKWJT1-n_ExSbYIRD51vcubrWwQm-Tc5EZo8s/edit#slide=id.g7d2aea8729_0_0)
+  * [Batch Changes demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
 
 
 
@@ -130,10 +130,10 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 ### Out of Office Protocols
 
 Prior to taking time off, CEs should:
+1. Log time off request in BambooHr
 1. Log their time off on the team calendar
-2. Work with their manager to identify a coverage plan
-3. Notify their customers through the appropriate channel of their upcoming OOO
-4. Update their slack status accordingly with OOO dates indicated
-
+1. Work with their manager to identify a coverage plan
+1. Notify their customers through the appropriate channel of their upcoming OOO
+1. Update their slack status accordingly with OOO dates indicated
 
 
