@@ -18,10 +18,10 @@ Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intellig
 - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](../roles.md#director-of-engineering))
   - [Frontend platform](../developer-insights/frontend-platform/index.md)
     - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-    - [Patrick Dubroy](../../company/team/index.md#tom-ross-he-him) ([Engineering Manager](../roles.md#engineering-manager))
+    - [Patrick Dubroy](../../company/team/index.md#tom-ross-he-him) ([Engineering Manager](../roles.md#engineering-manager) and acting PM)
       - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
       - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
-      - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him) (moves to Code Insights in FQ2)
+      - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
   - [Extensibility](index.md)
     - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
     - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
