@@ -39,7 +39,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Caitlin Moran](../company/team/index.md#caitlin-moran-she-her)
   - [John Harwell](../company/team/index.md#john-harwell)
   - [Nishil Patel](../company/team/index.md#nishil-patel-he-him)
-  - Ken Mills
+  - [Ken Mills](https://about.sourcegraph.com/handbook/company/team#ken-mills)
 - [Greg Bastis](../company/team/index.md#greg-bastis-he-him) (Regional VP of West)
   - [Owen Brennan](../company/team/index.md#owen-brennan-he-him)
   - [Chris Surdi](../company/team/index.md#chris-surdi)
