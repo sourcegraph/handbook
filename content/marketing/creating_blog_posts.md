@@ -6,7 +6,7 @@ We want and encourage everyone at Sourcegraph to contribute to the blog and publ
 
 1. [Process overview](#process-overview)
 1. [How to create a new blog post in GitHub](#adding-a-blog-post)
-1. [How to add images to your blog post](#adding-images)
+1. [How to add images to your blog post](#adding-images-and-other-media)
 1. [How to add a YouTube video to your blog post](#youtube-video-embed-code)
 1. [How to preview your post](#previewing-your-blog-post)
 1. [How to publish your post](#publishing-your-post)
