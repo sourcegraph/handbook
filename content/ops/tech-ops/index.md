@@ -10,7 +10,7 @@ As we scale our team and our customer list, we need help with all of the applica
 
 ### Members
 
-- Nicky Van Maanen, Tech Operations Manager
+- [Nicky Van Maanen](../../company/team/index.md#nicky-van-maanen-she-her), Tech Operations Manager
 - [Nate Tang](../../company/team/index.md#nate-tang-he-him), Tech Ops Analyst
 
 ### Roles
