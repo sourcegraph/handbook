@@ -5,8 +5,9 @@
 1. [The Team](#the-team)
 1. [Capabilities](#capabilities)
 1. [Brand Guidelines](brand_guidelines.md)
-1. [Additional Resources](#additional-resources)
-1. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
+2. [Brand and Creative Request Forms](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests)
+3. [Additional Resources](#additional-resources)
+4. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
 
 ## Function, Vision, Mission, and Values
 Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to elevate, activate and communicate the value of Sourcegraph to the world. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, offering full-service creative support with a rapid, flexible, iterative process that stems from a deep understanding of our products, our processes, and our people.
