@@ -56,6 +56,10 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
 - **Approve to unblock:** When the reviewer thinks there are no obvious blockers and trusts the pull request author will take care of comments/questions/concerns (e.g. answer to questions, explain rationale, act on code suggestions) before merging the pull request.
 - **Request for changes:** When the reviewer believes it is important to get another round of review from the person before merging the pull request. This situation often happens when there is a significant design change.
 
+### Tagging teammates
+
+Feel free to tag `@core-app` on Slack or anyone directly as and when required. It is acceptable to tag people to get their attention. On the contrary it is also acceptable to turn off your notifications when you want to focus and do not want to be interrupted.
+
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
