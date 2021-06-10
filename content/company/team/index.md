@@ -983,3 +983,9 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Denver, Colorado,  USA 🇺🇸
 - [nate.maynard@sourcegraph.com](mailto:nate.maynard@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/namaynard/)
 - Originally from Massachusetts, Nate currently is enjoying the more open spaces of the United States out west. Having moved from San Francisco to Denver in October of 2021 he likes to live close to the mountians reducing his commute from 4 hours to 2 trading the Sierras for the Rockies. Nate also enjoys spending time with friends playing golf, cycling, and playing video games. His professional passion is explaining techincal products and concepts to both technical and non techincal people.
+
+## Jenny Bergen (She/Hers)
+- Manager, Content Marketing
+- Denver, Colorado, USA 🇺🇸 
+- [jenny@sourcegraph.com](mailto:jenny@sourcegraph.com), [@jennybergen](https://www.twitter.com/jennybergen), [LinkedIn](https://www.linkedin.com/in/jenniferbergen/)
+- Jenny lives outside of Denver with her husband and their aloof dog, Rufus. She grew up in the Boulder, CO area and spent five years in NYC as a tech journalist (PCMag, ZDNet, Digital Trends) after college before returning home to Colorado to start the second chapter of her career as a content marketer. Jenny is an avid music lover and "met" her husband at a concert in NYC (a Craigslist Missed Connection did the rest). She enjoys cooking and baking, pretending she's a restaurant critic, researching everything, and being in nature. She also is Team Oxford comma and hopes you are, too. 
