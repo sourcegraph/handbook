@@ -14,7 +14,7 @@ Our schedule is reflected in the working hours set in our calendars and blocks h
 |Adeola|10am - 6pm|7am - 3pm|Wednesday PM|Thursday AM|
 |Beatrix|7am - 3pm|7am - 3pm|Wednesday AM|Thursday AM|
 |Giselle|8am - 4pm|8am - 4pm|Monday PM|Friday AM|
-|Stompy|4pm - 11pm|5am - 12pm|TBD|TBD|
+|Stompy|1pm - 9pm|3am - 11am|Monday AM|Wednesday AM|
 |Warren|9am - 5pm|9am - 5pm|Monday PM|Thursday PM|
 |Virginia|8am - 5pm|8am - 5pm|n/a|n/a|
 
