@@ -43,13 +43,15 @@
         - We will be hiring Product Marketing Managers
     - [Erica Lindberg](../company/team/index.md#erica-lindberg-she-her), Director of Content Strategy
         - [Rebecca Dodd](../company/team/index.md#rebecca-dodd-she-her), Senior Managing Editor
-        - We will be hiring a Social Media Marketing Manager, Producer (video and podcast production), and Content Marketing Manager
+        - [Jenny Bergen](../company/team/index.md#jenny-bergen-she-her), Manager, Content Marketing
+        - We will be hiring a Content Editor and Technical Content Marketing Manager
     - [Lisa Tagliaferri](../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
         - [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team/index.md#marek-zaluski), Developer Education Engineer
         - We will be hiring technical educators
     - [Sarah Reece](https://about.sourcegraph.com/handbook/company/team/index.md#sarah-reece-she-her), Director of Demand Generation
         - Lori Heyman, Digital Marketing Programs
         - Rebecca Rissinger, Manager, Marketing Operations
+        - Jake Sorensen, Programs Lead, Demand Gen Campaigns
     - Tommy Pesavento, Director of Brand Design
         - Fabiana Castellanos, Project Coordinator, Brand
         - We are building a brand team
