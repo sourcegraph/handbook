@@ -59,9 +59,8 @@ Please follow these guidelines when contributing to Sourcegraph’s blog.
 
 First, decide how you want to contribute:
 
-1. If you have an original article idea that you want to write, start by submitting your pitch as an issue to the [blog post tracker](https://github.com/orgs/sourcegraph/projects/128). Add the labels `blog` and `marketing` and assign it to yourself.  
-1. If you have an idea to submit but you don't want to write it, submit your idea as an issue to the blog post tracker and add the label `open proposal`. This signals to other contributors that your idea is open for anyone to write on it. 
-1. If you want to write on an existing idea, choose an issue labeled `open proposal`, assign yourself, and leave comment explaining why you want to write this article. 
+1. If you have an original article idea that you want to write, start by submitting your pitch via this [Asana form](https://form.asana.com/?k=_8SuPp9NQzctZtAsgMpPvQ&d=7195383522959) so we can triage appropriately.
+1. If you have an idea to submit but you don't want to write it, you can still submit the idea via the Asana form, just make a note that you are not proposing to write the post yourself.
 
 The editorial team will triage pitches weekly on Monday. Once you have submitted a pitch:
 
