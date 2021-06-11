@@ -9,7 +9,7 @@ The Frontend platform team (part of the [Developer Insights](../index.md) org) d
 - [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../../../engineering/roles/index.md#engineering-manager)) {#frontend-platform-eng}
   - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
   - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
-  - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him) moves in FQ2 to the [Code Insights Team](../code-insights/index.md)
+  - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him)
 
 ## Mission
 
