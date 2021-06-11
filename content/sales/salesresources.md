@@ -35,9 +35,10 @@ The following templates are currently available:
 
 To update a template place the new template in the main Sales Template folder, name the file (beginning with the date format YYYY.MM.DD) then move the old template into the [Template Archive folder](https://drive.google.com/drive/folders/1iWmAocnXlNNXayN4E1ZB-J64I2-dgXGT).  Update the appropriate handbook link to the new template.
 
-### Useful Links
+## Useful Links
 
  - [CE Account Ownership](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=0)
+ - [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
 
 ## Customer Notes
 
