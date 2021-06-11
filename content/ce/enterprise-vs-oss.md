@@ -31,6 +31,7 @@ This means you have the following limitations:
 - No external dependencies (means no extensions!)
 - No Enterprise features (SSO, access control, Batch Changes)
 - Built as a single container (slower at scale)
+- No access to our extensions
 
 Benefits to the OSS option include:
 
