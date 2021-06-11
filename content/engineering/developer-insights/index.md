@@ -22,12 +22,11 @@ Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intellig
       - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
       - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
       - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
-  - [Extensibility](index.md)
+  - [Extensibility](../developer-insights/extensibility/index.md)
     - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
     - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-    - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this team
+    - [Murat Sutunc](../../company/team/index.md#murat-sutunc-he-him) (Interim [Engineering Manager](../roles.md#engineering-manager))
       - [TJ Kandala](../../company/team/index.md#tharuntej-kandala-he-him)
-      - [Murat Sutunc](../../company/team/index.md#murat-sutunc-he-him)
   - [Code Insights](../developer-insights/code-insights/index.md)
     - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
     - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))

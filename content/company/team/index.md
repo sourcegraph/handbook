@@ -598,8 +598,8 @@ To add yourself to this page:
 
 ## Murat Sutunc (he/him)
 
-- Software Engineer
-- Mountain View, CA, USA 🇺🇸
+- Interim Engineering Manager, Extensibility
+- Redwood City, CA, USA 🇺🇸
 - Name pronunciation: [muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)
 - [@muratsu](https://github.com/muratsu), [murat@sourcegraph.com](mailto:murat@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/muratsutunc)
 - Murat started his career at Microsoft working on web standards. He worked on the JavaScript runtime engine and was a founding team member of the TypeScript language. After Microsoft, he founded a venture-backed company and eventually found his way to the Bay Area. Outside of work, Murat is passionate about cooking, finance, and video games.
@@ -986,6 +986,6 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 
 ## Jenny Bergen (she/her)
 - Manager, Content Marketing
-- Denver, Colorado, USA 🇺🇸 
+- Denver, Colorado, USA 🇺🇸
 - [jenny@sourcegraph.com](mailto:jenny@sourcegraph.com), [@jennybergen](https://www.twitter.com/jennybergen), [LinkedIn](https://www.linkedin.com/in/jenniferbergen/)
-- Jenny lives outside of Denver with her husband and their aloof dog, Rufus. She grew up in the Boulder, CO area and spent five years in NYC as a tech journalist (PCMag, ZDNet, Digital Trends) after college before returning home to Colorado to start the second chapter of her career as a content marketer. Jenny is an avid music lover and "met" her husband at a concert in NYC (a Craigslist Missed Connection did the rest). She enjoys cooking and baking, pretending she's a restaurant critic, researching everything, and being in nature. She also is Team Oxford comma and hopes you are, too. 
+- Jenny lives outside of Denver with her husband and their aloof dog, Rufus. She grew up in the Boulder, CO area and spent five years in NYC as a tech journalist (PCMag, ZDNet, Digital Trends) after college before returning home to Colorado to start the second chapter of her career as a content marketer. Jenny is an avid music lover and "met" her husband at a concert in NYC (a Craigslist Missed Connection did the rest). She enjoys cooking and baking, pretending she's a restaurant critic, researching everything, and being in nature. She also is Team Oxford comma and hopes you are, too.

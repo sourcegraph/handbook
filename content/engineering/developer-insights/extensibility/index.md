@@ -7,9 +7,8 @@ The extensibility team owns our code host and third-party integrations (includin
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
 
 - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
-- [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#extensibility-eng}
+- [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him) (Interim [Engineering Manager](../../roles.md#engineering-manager)) {#extensibility-eng}
   - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-  - [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him)
   - FQ2 frontend engineer hire
 
 ## Mission
