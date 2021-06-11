@@ -51,6 +51,11 @@ See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open role
 - [Diversity, equity, and inclusion](../communication/dei.md)
 - [Personal Pronouns](personal-pronouns.md)
 
+## Mental health
+
+- Mental health and wellness initiatives
+- Modern Health
+
 ## Other policies
 
 - [Anti-corruption/anti-bribery](anti-corruption.md)
