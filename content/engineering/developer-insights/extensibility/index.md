@@ -111,6 +111,10 @@ The team follow's the [default code review guidelines](https://docs.sourcegraph.
 
 We do not merge major features in the **last 3 days before the [release branch is cut](../../releases.md)**. We make sure that our changes keep `main` [continuously releasable](../../continuous_releasability.md), but leave buffer time in the form of a [feature freeze](https://en.wikipedia.org/wiki/Freeze_(software_engineering\)) so that we can address any issues found on Sourcegraph Cloud.
 
+### Extension audits
+
+We perform bi-monthly [audits](https://docs.google.com/spreadsheets/d/1HXmdHOwXhzFeQW-oiezsg0YF82HjGtUatShx3M66Gt0/edit#gid=0) of all Sourcegraph extension-related repositories [that we own](https://docs.sourcegraph.com/dev/background-information/sourcegraph_extensions) to ensure that they continue to reach our quality bar.
+
 ### Pair programming
 
 We use pair programming extensively. We're huge believers in pair programming in remote work contexts, so we aim to pair as much as possible.
