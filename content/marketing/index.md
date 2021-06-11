@@ -14,8 +14,10 @@
 - [Content Marketing](content.md)
     - [Creating blog posts](creating_blog_posts.md)
     - [Editing blog posts](creating_blog_posts.md#editing-blog-posts)
-- [Developer Education](education.md)
 
+- [Demand Gen](demandgen.md)
+
+- [Developer Education](education.md)
 - Community Relations
     - [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
 
