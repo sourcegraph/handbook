@@ -3,7 +3,6 @@
 ## Table of contents
 
 1. [Team vision and principles](#team-vision-and-principles)
-1. [Open roles](#open-roles)
 1. [What we do](#what-we-do)
 1. [Working with other teams](#working-with-other-teams)
 1. [Resources](#resources)
@@ -14,10 +13,6 @@
 - We communicate the value of our products and focus on both the “what” and the “why.”
 - We align our team goals with the broader company goals and our work contributes to both revenue and adoption.
 - We are advocates for our customers. We launch products and make decisions with our customers in mind.
-
-## Open roles
-- [Product Marketing Manager, Emerging Products](https://boards.greenhouse.io/sourcegraph91/jobs/4003930004)
-- Product Marketing Manager, Enterprise (coming soon)
 
 ## What we do
 Tactically, here are the activities Product Marketing will drive and contribute to. This list is not exhaustive and is flexible - there will certainly be times when other teams drive these initiatives. 
