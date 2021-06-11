@@ -52,6 +52,10 @@ The table below presents the approval levels required for expenditure, based on 
 |$10,000 or greater|Needs to be approved by a director or above of your department and Finance|Bill.com via Sourcegraph AP Team|
 |$50,000 or greater|Needs to be approved by a director or above of your department, Finance, and the VP of Operations|Bill.com via Sourcegraph AP Team|
 
+##### How to Get Finance approval
+
+For procurement that exceeds an annual equivalent of $10,000, please send a quote, estimate, or contractual draft to the Finance team prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel. 
+
 #### Go-to-market Stage
  
 Best practice guidelines relating to the go-to-market stage of procurement includes:
