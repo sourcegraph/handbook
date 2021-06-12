@@ -47,6 +47,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Jon Kishpaugh](../company/team/index.md#jon-kishpaugh-he-him)
   - [James Clifford](../company/team/index.md#james-clifford-he-him)
   - [Natalie Khoury](../company/team/index.md#natalie-khoury)
+  - [Rashad Bartholomew](../company/team/index.md#rashad-bartholomew-he-him)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
 
