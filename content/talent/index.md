@@ -40,4 +40,5 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - Tools
    - [How to use Greenhouse] Coming soon
    - [How to use LinkedIn Recruiter] Coming soon
-   - [How to use Brighthire] Coming soon 
+   - [How to use Brighthire] Coming soon
+   - [How to use Ashby] Coming soon
