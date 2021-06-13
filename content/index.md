@@ -64,7 +64,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Talent](talent/index.md)
 
-- [Careers](careers.md)
+- [Our open positions](careers.md)
 
 ### [Operations](ops/index.md)
 
