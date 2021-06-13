@@ -14,14 +14,15 @@ Things happen pretty much in this order...and at every step, our decisions and a
 
 5. **The CSE pauses to build context.** This is the most counterintuitive, unique step in our workflow. It is also the step that does the most to ensuring the kind of customer experience we want to provide. You can get full context for the customer by:
 	1. Determining what kind of customer it is by reviewing our [support plans](https://about.sourcegraph.com/support/) and seeing this mapped to the Salesforce app in Zendesk
-	2. Talking with the CE who is assigned (listed in the Salesforce app in Zendesk), if one is assigned
-	2. Looking at the customer health and customer engagement ratings (the Salesforce app in Zendesk)
-	3. Looking at the other Salesforce data surfaced in Zendesk and even looking in Salesforce if you feel compelled
-	4. The special notes in Zendesk (which should always match what we have in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit)
-	5. Relevant Looker dashboards (for example [the distribution board](https://sourcegraph.looker.com/dashboards-next/163))
-	6. Looking at other recent cases
-	7. To find which Sourcegraph version a company is running, visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436), find the row for the customer's instance, and look at the version number in the row's **Latest Version** column. Some customer instances are offline or only [provide critical telemtry](https://docs.sourcegraph.com/admin/pings#critical-telemetry). The [full list is in Google Drive](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit). If you don't see a customer in the Looker dashboard or the Google list, ask in #analytics on Slack.
-	8. Depending on where the case originated, we may need to check with our internal teammates to ensure we have full context. For example, again, a quick check with the CE might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
+	2. Seeing if you can find them in the #stripe-alerts channel in Slack (these would be self-service customers who do not have a CE assigned)
+	3. Talking with the CE who is assigned (listed in the Salesforce app in Zendesk), if one is assigned
+	4. Looking at the customer health and customer engagement ratings (the Salesforce app in Zendesk)
+	5. Looking at the other Salesforce data surfaced in Zendesk and even looking in Salesforce if you feel compelled
+	6. The special notes in Zendesk (which should always match what we have in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit)
+	7. Relevant Looker dashboards (for example [the distribution board](https://sourcegraph.looker.com/dashboards-next/163))
+	8. Looking at other recent cases
+	9. To find which Sourcegraph version a company is running, visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436), find the row for the customer's instance, and look at the version number in the row's **Latest Version** column. Some customer instances are offline or only [provide critical telemtry](https://docs.sourcegraph.com/admin/pings#critical-telemetry). The [full list is in Google Drive](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit). If you don't see a customer in the Looker dashboard or the Google list, ask in #analytics on Slack.
+	10. Depending on where the case originated, we may need to check with our internal teammates to ensure we have full context. For example, again, a quick check with the CE might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
 
 	Spend 10-15 minutes just orienting to that customer before even looking at the details of the issue.
 
