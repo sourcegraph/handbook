@@ -1,64 +1,44 @@
-# How recruiting interfaces with hiring managers
+# How to partner with the recruiting team
 
 ### Background
-Level of support from recruiting differed from team to team. Need for transparency of support and responsibilities from recruiting. 
+Each hiring managers has an assigned recruiter for their hiring needs:  
+
+Talent team: 
+    - [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead, is responsible for all technical and product hiring
+    - [Kelsey Nagel], G&A Recruiter, is responsible for all Marketing, Finance, Legal, Operations, and People team hiring
+    - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist, is responsible for scheduling all interviews. If you need to schedule a candidate for an interview, please reach out to Trevor. 
+    - We are hiring additional Recruiters and more support is coming soon!
 
 ### Objective
-
 To describe and understand ownership of responsibilities throughout the hiring process. 
 
-### Capacity planning
-The People Ops team’s goal is to maintain the following capacity ratios for fully onboarded recruiters. For now, these are directional only, and for guidance to hiring managers. In the future, these will be measured and treated as contracts.
-
-- Engineering and product roles: 1 person in recruiting can be expected to hire 2–4 people per month
-- Highly specialized or niche technical roles (e.g. security engineers): 1 person in recruiting can be expected to hire 1–2 people per month
-- Go to market and G&A roles: 1 person in recruiting can be expected to hire 5–10 people per month
-- Leadership roles: 1 person in recruiting can be expected to hire 1–2 people per month
-
-### Ramp up time for new recruiters
-60-80 days. Our average speed to get a person from the beginning of the process to hired (start date) is 62 days.
-
 ### Estimated timeline to first hire:
-- Weeks 1-2 onboarding and meeting hiring managers
-- Weeks 2-3 should start sourcing
-- Weeks 3-4 start getting responses and doing recruiter screens
-- Week 5 candidates starts doing assignments and initial screens
-- Week 6 candidate goes through final interview rounds and debrief
-- Week 7 offer and possible negotiations
-- Week 8+ candidate notification period until start date
+Our time-to-fill goal is an average of 45-days.  This means that the timespan from intake meeting to candidate offer acceptance (when a candidate signs their offer letter) should be, on average, 45-days or less.  
 
-### Candidate life cycle 
-
-- Outreach (passive candidates)
-- Application review (active candidates)
-- Recruiter screen
-- Initial screen
-- Assignment
-- Interview
-- Debrief
-- Offer
-- Reference checks
-- Onboarding
-
-## Workflow and ownership
-### Prioritization of jobs
-
-| Step | Owner | Notes |
-| :--| :-- | :-- |
-|Maintain list of level of support for each role (recruiter, sourcing, and sourcing platforms like Topfunnel)|Recruiting|
-|Propose edits and additions to the list|HMs|Prioritization should ultimately be decided by the department head and recruiting. 
-
-### Creating hiring process
-
-| Step | Owner | Notes |
-| :--| :-- | :-- |
-|Define high level role description, responsibilities, and requirements|Hiring manager|
-|Create full job description document|Recruiting|
-|Define hiring process for role (application questions, interviews, rubrics, interviewers). |Hiring manager|
-|Approve job description|Hiring manager|
-|Approve hiring process|Recruiting|
-|Recruiting will post the job to our [careers page](https://boards.greenhouse.io/sourcegraph91). |Recruiting|
-|Publish job description to online job boards|Hiring manager to make these recommendations, recruiting to execute.|Default is it will only be added to Greenhouse, LinkedIn Recruiter, RemoteWoman|
+### Recruiting lifecycle 
+Opening a new job:
+- To open a new role, the Hiring Manager fills out [this form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit), creates a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit), and creates an [interview plan]https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1566158302
+- Recruiter opens the job in Greenhouse and builds out the interview plan, adding all structured questions directly into each interview stage
+- Recruiter posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91) and LinkedIn. If you would like it posted in other locations, please ask your Recruiter or send a Slack message to @hiring.
+Recruiting Stage:
+- Recruiter reviews applicants & sources passive candidates
+- Recruiter screens eligible candidates
+- Recruiter submits qualified candidates to Hiring Manager 
+- Recruiting schedules onsite interview for candidates
+Offer stage:
+- Once finalist is identified, Recruiter completes references
+- Recruiter confirms level and compensation, you can see our compensation philosophy [here](https://about.sourcegraph.com/handbook/people-ops/compensation#components-of-compensation)
+- Recruiter submits offer for approval in Greenhouse
+   - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations
+- Once fully approved in Greenhouse, Recruiter scheduled offer summary call 
+   - The purpose of the offer summary call is to review our offer, 1) including compensation 2) perks, travel, and benefits (if applicable) and 3) equity
+   - Attendees: Recruiter, Hiring Manager, Candidate
+- Following the offer call, Recruiter sends the offer summary to the candidate in an email 
+- Once the candidate verbally accepts, the VP Talent send the official offer to the candidate via Docusign 
+After the offer:
+- After the candidate signs the offer, the Recruiting team sends a welcome email to the candidate and Cc's the hiring manager
+- The Recruiting team marks the candidate as "Hired" in Greenhouse, closes the job, and exports the candidate to Bamboo
+- The People Operations team then works with the candidate to onboard them and get them set up for their first day
 
 ### Scheduling interviews
 
