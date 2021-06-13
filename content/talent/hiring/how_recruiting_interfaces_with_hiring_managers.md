@@ -1,12 +1,21 @@
 # How to partner with the recruiting team
 
 ## The Talent team 
-Each hiring managers has an assigned recruiter for their hiring needs:  
+Each hiring managers has an assigned recruiter for their hiring needs  
 
-Talent team: 
-    - [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead, is responsible for all technical and product hiring
-    - [Kelsey Nagel], G&A Recruiter, is responsible for all Marketing, Finance, Legal, Operations, and People team hiring
-    - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist, is responsible for scheduling all interviews. If you need to schedule a candidate for an interview, please reach out to Trevor. 
+- [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
+    - Engineering 
+    - Product 
+    - Customer Engineering 
+    - Support 
+- [Kelsey Nagel], G&A Recruiter
+    - Marketing
+    - Finance
+    - Legal
+    - Operations
+    - People Team
+- [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
+    - Interview Scheduling for all departments 
 
 We are hiring additional Recruiters and more support is coming soon!
 
