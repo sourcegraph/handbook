@@ -46,7 +46,7 @@ See [goals](goals.md)
 
 ## Processes
 
-We have two week cycles starting on Wednesdays. We do a sync planning the day before (Tuesday) where we determine what each teammate works on. We use GitHub projects to track that work. We do a sync retrospective on Mondays, before planning, and a general team sync meeting every other Monday. We use Geekbot in the #core-application-sync channel for daily updates and weekly digests.
+We have two week cycles starting on Wednesdays. We do a sync planning the day before (Tuesday) where we determine what each teammate works on. We use JIRA to track that work. We do a sync retrospective before the planning meeting, and have a general team sync meeting every other Monday. We use Geekbot in the #core-application-sync channel for daily updates and weekly digests.
 
 ## Team norms
 
