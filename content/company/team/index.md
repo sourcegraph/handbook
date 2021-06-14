@@ -989,3 +989,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Denver, Colorado, USA 🇺🇸
 - [jenny@sourcegraph.com](mailto:jenny@sourcegraph.com), [@jennybergen](https://www.twitter.com/jennybergen), [LinkedIn](https://www.linkedin.com/in/jenniferbergen/)
 - Jenny lives outside of Denver with her husband and their aloof dog, Rufus. She grew up in the Boulder, CO area and spent five years in NYC as a tech journalist (PCMag, ZDNet, Digital Trends) after college before returning home to Colorado to start the second chapter of her career as a content marketer. Jenny is an avid music lover and "met" her husband at a concert in NYC (a Craigslist Missed Connection did the rest). She enjoys cooking and baking, pretending she's a restaurant critic, researching everything, and being in nature. She also is Team Oxford comma and hopes you are, too.
+
+## Carl Hicks (He/Him)
+
+- Customer Support Engineer
+- Washington, DC, USA 🇺🇸
+- GitHub: [hicksca](https://github.com/hicksca)
+- [carl@sourcegraph.com](mailto:carl@sourcegraph.com)
+- Carl lives in Washington, DC. When not working, you will generally find him spending time with his two sons or building mechanical keyboards. Before Sourcegraph, Carl worked as a consultant at IBM working focusing on internal IaaS cloud services.
