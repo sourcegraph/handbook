@@ -10,8 +10,8 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
     - We are hiring Recruiters!  View our open positions [here](https://boards.greenhouse.io/sourcegraph91)
 
 ## Resources for Candidates
-- [Our hiring values](https://about.sourcegraph.com/handbook/talent/hiring)
 - [Our open positions](https://boards.greenhouse.io/sourcegraph91)
+- [Our hiring values](https://about.sourcegraph.com/handbook/talent/hiring)
 - [Our company values](https://about.sourcegraph.com/handbook/company/values)
 - [Our benefits & perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks)
 - [What to expect during the interview process] Coming soon
