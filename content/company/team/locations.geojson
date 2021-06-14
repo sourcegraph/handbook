@@ -912,6 +912,19 @@
           33.673845318635735
          ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Carl Hicks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.036873,
+          38.907192
+         ]
+      }
     }
   ]
 }
