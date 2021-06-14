@@ -44,7 +44,7 @@ All items in our inventory are the same ones found in our new hire kits, but not
     - [x] Country of destination (not strictly necessary but preferred)  
     
   
-2. The Brand team will review  your request. *Note: all requests be reviewed on a case-by-case basis factoring in current inventory levels and use cases*
+2. The Brand team will review  your request. *Note: all requests will be reviewed on a case-by-case basis factoring in current inventory levels and use cases*
 3. Approved requests will be sent to Printfection every Thursday. 
 4. Your recipient will receive an email giveaway link from brand@sourcegraph.com to choose their gift and enter their own shipping info
 
@@ -69,7 +69,7 @@ Printfection’s shipping costs are determined by weight and destination. To get
 
 Learn more about shipping and fulfillment costs in [this article](https://help.printfection.com/hc/en-us/articles/204467034-Example-shipping-fulfillment-costs).
 
-###Import Fees 
+### Import Fees 
 
 Printfection offers international shipping to 213 countries, APO/FPO military addresses, and US territories. The import fees are paid for by Printfection when possible; however, there are times recipients may be required to cover some of the duties or taxes. Please read more about international shipping [here](https://help.printfection.com/hc/en-us/articles/201462224-International-shipping#:~:text=Printfection%20offers%20international%20shipping%20to,military%20addresses%2C%20and%20US%20territories).
 
