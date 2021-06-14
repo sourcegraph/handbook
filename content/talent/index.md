@@ -31,7 +31,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
    - [How to use Brighthire] Coming soon 
 
 ## Resources for Teammates 
-- [How to refer a candidate in Greenhouse] Coming soon 
+- [How to refer a candidate](https://vimeo.com/163888438)
 - [How to share a job on social media] Coming soon
 - [Interview training & best practices] Coming soon
 
