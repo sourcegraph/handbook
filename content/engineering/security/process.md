@@ -43,17 +43,3 @@ Jira is intended only for **planned** work.
   * Small items that don't fit with the strategic roadmap, but that need to be done soon
   * Bugs  
   * Asks from internal teams (e.g. support or consultation)
-
-## How to work with us
-
-We're always happy for teams to [request security code reviews](secure-code-review.md).
-
-Security questionnaires for new and existing customers should [follow the process here](https://about.sourcegraph.com/handbook/sales/salessecurity) - feel free to message us on [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) too.
-
-Security questions and support requests should be raised in [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ):
-  1. Click the lightning bolt below the Slack message box in [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ)
-  2. Select an option at the top of the menu
-  3. Fill out the questions
-  4. Tag @security-support in the resulting thread if urgent
-
-We're happy to have you reach out to us on [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) if you have any doubts, or for any reason feel like our process can't work for you in a particular case.

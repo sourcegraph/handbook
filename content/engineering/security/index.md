@@ -44,6 +44,26 @@ See [security goals and priorities](goals.md)
 
 ----
 
+## How to work with us
+
+### Security Questionnaires
+
+We're always happy for teams to [request security code reviews](secure-code-review.md).
+
+Security questionnaires for new and existing customers should [follow the process here](https://about.sourcegraph.com/handbook/sales/salessecurity) - feel free to message us on [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) too.
+
+### Questions and Support Requests
+
+Security questions and support requests should be raised in [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ):
+  1. Click the lightning bolt below the Slack message box in [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ)
+  2. Select an option at the top of the menu
+  3. Fill out the questions
+  4. Tag @security-support in the resulting thread if urgent
+
+Reach out to us on [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) if you have any doubts, or for any reason feel like our process can't work for you in a particular case.
+
+----
+
 ## How we work
 
 [Read about our methodology and process.](process.md)
