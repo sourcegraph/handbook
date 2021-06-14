@@ -26,7 +26,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [How to use recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
 - [Interview training & best practices] Coming soon
 - Tools
-   - [How to use Greenhouse] Coming soon
+   - [How to use Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse)
    - [How to use LinkedIn] Coming soon
    - [How to use Brighthire] Coming soon 
 
@@ -39,7 +39,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [How to partner with hiring managers] Coming soon 
 - [Recruitment branding] Coming soon
 - Tools
-   - [How to use Greenhouse] Coming soon
+   - [How to use Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse)
    - [How to use LinkedIn Recruiter] Coming soon
    - [How to use Brighthire] Coming soon
    - [How to use Ashby] Coming soon
