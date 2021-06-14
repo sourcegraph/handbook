@@ -16,7 +16,7 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 ## [Customer Support](../../support/index.md#the-team)
 
-## [Customer Engineering](../../ce/index.md#members)
+## [Customer Engineering](../../ce/index.md#current-team-members)
 
 ## [Marketing](../../marketing/index.md#members)
 
