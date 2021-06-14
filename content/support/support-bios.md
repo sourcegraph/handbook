@@ -7,7 +7,7 @@ Our README expands on our profile in [the company team directory](https://about.
 * Giselle [README](giselle-readme.md)
 * Stompy [README](stompy-readme.md)
 * Warren README
-* Virginia README
+* Virginia [README](virginia-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 
