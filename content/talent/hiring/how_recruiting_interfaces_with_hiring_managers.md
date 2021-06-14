@@ -3,7 +3,7 @@
 ## The Talent team 
 Each hiring managers has an assigned recruiter for their hiring needs  
 
-- [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
+- [Devon Coords](../../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
     - Engineering 
     - Product 
     - Customer Engineering 
@@ -14,7 +14,7 @@ Each hiring managers has an assigned recruiter for their hiring needs
     - Legal
     - Operations
     - People Team
-- [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
+- [Trevor Houghton](../../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
     - Interview Scheduling for all departments 
 
 We are hiring additional Recruiters and more support is coming soon!
