@@ -11,17 +11,20 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## Resources for Candidates
 - [Our open positions](https://boards.greenhouse.io/sourcegraph91)
+- [All remote work](https://about.sourcegraph.com/handbook/company/remote)
 - [Our hiring values](https://about.sourcegraph.com/handbook/talent/hiring)
 - [Our company values](https://about.sourcegraph.com/handbook/company/values)
 - [Our benefits & perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks)
-- [What to expect during the interview process] Coming soon
+- [Our interview process](https://about.sourcegraph.com/handbook/talent/hiring/interview_process)
 - [Providing candidate experience feedback] Coming soon
+- [US Visa Sponsorship](https://about.sourcegraph.com/handbook/people-ops/visa-sponsorship)
 
 ## Resources for Hiring Managers
 - [Partnering with the Recruiting Team](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers)
    - [Opening a new job](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit)
    - [Writing a job description](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)
    - [Creating an interview plan](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1566158302)
+   - [Scheduling an interview](https://about.sourcegraph.com/handbook/talent/hiring/interview_process)
    - [Extending an offer] Coming soon
 - [Using recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
 - [Interview training & best practices] Coming soon
