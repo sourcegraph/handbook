@@ -99,9 +99,9 @@ OR
 
 Title/role includes developer productivity, developer experience, API services, distinguished eng, platform engineer, director+ eng
 
-AND
+AND 
 
-Company has 50+ devs
+Company has 50+ devs **OR** Company is a Commercial account ( <250 employees)
 
 ### Target Account
 
