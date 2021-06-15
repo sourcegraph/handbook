@@ -1,8 +1,37 @@
 # Company sponsored events (team and company-wide)
 
-All company sponsored in-person events are currently on hold until further notice due to COVID-19. We plan to resume company sponsored in person events as soon as it safe to do so. However, all teams are still more than welcome to plan and use company budget to create and plan remote-friendly events!
 
-In the meantime, team events are encouraged to take place virtually and team budgets are available for use towards remote/virtual events! If your team would like to plan a virtual team-bonding event feel free to reach out to @people-ops for support.
+## Phase I: Teammate Travel Meetup Guidelines
+
+As of June 16th 2021, we will resume reimbursing travel per our [team travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel#team-travel-budgets) for travel and in-person events that are permitted by law. We want this to be gradual, and all events must be small and completely optional. 
+
+As an all-remote company, we want everyone to feel included and connected, regardless of where they're located. Choosing to travel or meet is an incredibly personal decision, and we support team members who may not be interested in meeting up at this time.
+
+
+## **Guidelines:**
+
+- To avoid the perception that these events are mandatory, managers should not organize events for their teams. 
+   	- Managers can attend events and organize events that don't involve their direct reports.
+
+-   Events should be outdoors rather than indoors.
+    
+-   Keep gatherings small. Use your best judgement and defer to local jurisdictions in determining the number of attendees.
+    
+-   Follow local laws, customs, and safety regulations during every step of the meetup process.
+
+- Assume people don't want to shake hands, hug, high-five, etc. 
+    
+-   Don't ask about other people's private health choices or condition attendance on those factors (*such as vaccination status*).
+    
+***Please notify People Ops (people-ops@sourcegraph.com) before you start planning an event.***
+    
+
+## How we came to this decision:
+
+Our policy until now has been to suspend travel/meetup reimbursement and for managers to not organize team events. *Why not a blanket "no meetup" policy?* On principle, we don't think any company can or should forbid people from meeting up on their personal time.  Although Covid-19 continues to deeply affect each person and region, we needed to establish a different policy to meet the team's needs. 82% of team members surveyed (49 respondents in May) said they'd feel comfortable attending an in-person meetup (*either now or within the next few months, with some conditions*), and 84% of team members said Sourcegraph should start allowing in-person team meetups and travel. With most team members in favor of starting to travel, we didn't want *only* local meetups (where people would not need travel reimbursement) to start, because that wouldn't be inclusive to people who don't live near other team members. We decided to change the policy to start allowing travel/meetup reimbursement but we are still asking managers to not organize team events. We'll be revisiting the manager planning component in Phase II of our Travel Meetup plan.
+
+*For any questions, clarifications, or notifications around trips you'll be taking, please email **people-ops@sourcegraph.com**.* 
+
 
 ## Team travel budgets
 
