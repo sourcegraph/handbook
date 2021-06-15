@@ -11,7 +11,7 @@ The SDR Team (fill in the blanks)
   - East Outbound SDRs
     - [Sam Cregg](../company/team/index.md#sam-cregg)
     - Jenna Pierre (TBA)
-  - Inbound SDRs
+  - Inbound SDR
     - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
 
 
