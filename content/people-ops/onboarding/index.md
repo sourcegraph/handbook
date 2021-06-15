@@ -53,20 +53,13 @@ Survey questions:
 #### Mid-onboarding check-in
 People Ops sets up individual meetings to collect live feedback and address any questions or concerns from every new teammate at the 1-month mark.
 
-### Onboarding effectiveness
-Surveys are also conducted at the 3-month mark to collect feedback from hiring managers to measure overall onboarding effectiveness so we can ensure that our onboarding is helping new teammates properly ramp up for their roles in the expected timeframe.
+## Onboarding Feedback Milestones
 
-Survey questions:
+The People Ops team wants to help managers support their teammates better, in order for them to avoid burnout, better clarify expectations, give feedback on progress and stimulate confidence in new teammates in the first few months, thereby enhancing performance and wellbeing. 
 
-- Was the teammate able to comply with their assignments (in time)?
-- Were they responsive?
-- Did they participate in team meetings?
-- Were they able to integrate to the team?
-- Have they made meaningful contributions?
-- Are they able to perform expected duties for their role?
+We also want to support managers in gathering insight of their teammate’s progress and development.
 
-If this needs to get more specific by role, we can make adjustments to questions if needed.
-
+Read about how we do this in [Onboarding Feedback Milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones)
 
 ## Before you start at Sourcegraph
 
