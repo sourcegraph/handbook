@@ -6,7 +6,7 @@ This section documents testing clusters and deployments.
 
 Create a folder with your name [here](https://console.cloud.google.com/projectselector2/home/dashboard?orgonly=true&supportedpurview=project&project=&folder=795981974432) following our [naming conventions](../environments.md#Engineering-Projects)
 
-## How to manually start a test cluster in our "Sourcegraph Auxiliary' project on GCP
+## How to manually start a test cluster in your test project in GCP
 
 - Go to your project
 - Click create a cluster.
@@ -127,9 +127,7 @@ tls internal
 reverse_proxy http://<INSERT LOAD BALANCER IP HERE>:3080
 ```
 
-Again, please delete your test cluster when you are done testing by going to
-[Sourcegraph Auxiliary](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-server) and pressing the
-appropriate delete button.
+Again, please delete your test project when done. Click on the upper right corner next to your name and select "Delete Project".
 
 > Recommendation: [infra.app](https://infra.app/) is a nice Kubernetes management app.
 > It has some overlap with `k9s` but also complements it in some areas.
