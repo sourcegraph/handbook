@@ -4,10 +4,16 @@ The SDR Team (fill in the blanks)
 
 ## Members
 
-- [Quin Keough](../company/team/index.md#quin-keough) - West
-- [Mark Muldez](../company/team/index.md#mark-muldez-he-him) - East
-- [Sam Cregg](../company/team/index.md#sam-cregg) - East
 - [Nicholas Gage](../company/team/index.md#nicholas-gage-he-him) - Head of Sales Development
+  - West Outbound SDRs
+    - [Quin "Q" Keough](../company/team/index.md#quin-keough)
+    - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
+  - East Outbound SDRs
+    - [Sam Cregg](../company/team/index.md#sam-cregg)
+    - Jenna Pierre (TBA)
+  - Inbound SDRs
+    - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
+
 
 ## Quick Links
 
