@@ -11,7 +11,7 @@ Any teammates based outside of the US are on a contracting structure and will ne
 - Invoices should be submitted in the currency used in your contract (and USD by default), if expenses were purchased in a different currency, please use this currency converter: https://www1.oanda.com/currency/converter/ and use the date of transaction. (Do not use the Veem currency converter.)
 - Include any fringe benefits on your invoice as individual line items as well (cell phone, internet, wellness benefits, etc.).
 - If additional expenses are incurred that month (i.e. home desk setup), please provide a separate invoice and attach all expense receipts to the same email.
-- When purchasing a laptop which requires taxes and shipping costs greater than $1,500, please notify the People Team and Finance with a description of the costs and choose the best method in accordance with our Spending Company Money recommendations.
+- When purchasing a laptop which requires taxes and shipping costs greater than $1,500, please notify the People Team and Finance with a description of the costs and choose the best method in accordance with our recommendations in [spending company money](../../people-ops/spending-company-money.md)).
 - Submit monthly invoices as early as the 28th of the current month so that payments can be issued by the 5th of the next month.
 - Your monthly invoice amount depends on whether you work a full month or a partial month.
   - **Full month**: to find your monthly invoice amount, refer to your contract, which should state the monthly rate (or take your annual pay and divide it by 12 to arrive at the monthly amount). Most months are full months, including when you take PTO or when there are holidays.
