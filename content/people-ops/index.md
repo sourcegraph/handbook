@@ -41,6 +41,7 @@
 - [Requesting time off](requesting-time-off.md)
 - [Holidays](holidays.md)
 - [Donations](donations.md)
+- Celebrating birthdays and anniversaries
 
 ## Roles
 
