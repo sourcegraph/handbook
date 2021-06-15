@@ -185,26 +185,32 @@ Avoid any instructions or language that requires the user to see the layout or d
 
 ## Numbers
 
-Use the numeral when numbers appear in copy. This includes ordinals (numbers that tell the position of something in a list).
+- Spell out numbers 1-9 except for percentages and ranges.
+- Use numerals for 10 upwards. 
+- Always use the numeral for ordinals (numbers that tell the position of something in a list).
 
 <div class="usage">
 <div class="item yes">
 <h5>Yes</h5>
 <ul>
 <li>30+ results</li>
-<li>Last updated 2 days ago</li>
+<li>Last updated two days ago</li>
+<li>Only 5% of developers prefer working in an office.</li>
+<li>More than 6 out of 10 software professionals reported a significant increase...</li>
 </ul>
 </div>
 <div class="item no">
 <h5>No</h5>
 <ul>
 <li>Thirty or more results</li>
-<li>Last updated two days ago</li>
+<li>Last updated 2 days ago</li>
+<li>Only five % of developers prefer working in an office.</li>
+<li>More than six out of ten software professionals reported a significant increase...</li>
 </ul>
 </div>
 </div>
 
-Numbers over 3 digits get commas.
+Numbers over three digits get commas.
 
 <div class="usage">
 <div class="item yes">
