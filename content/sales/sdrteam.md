@@ -1,6 +1,6 @@
 # SDR Team
 
-The SDR Team (fill in the blanks)
+The SDR Team (TBA)
 
 ## Members
 
@@ -14,6 +14,7 @@ The SDR Team (fill in the blanks)
   - Inbound SDR
     - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
 
+More SDRs coming soon...
 
 ## Quick Links
 
