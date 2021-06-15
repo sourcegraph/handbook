@@ -5,9 +5,11 @@ When set up for it, engineering and support teams have so much to offer each oth
 ## Data sharing
 CS categorizes all customer inquiries so that we can get better insight into trends and identify opportunities for improvement. CSEs also share qualitative data about customer context and/or issues to ensure we fully consider what is best for the customer in our decision making.
 
+## Office hours
+Some folks in engineering offer office hours and those can be useful for a CSE to join to learn, ask questions, collaborate. 
+
 ## Team rotations
 
-* **CSEs rotate on Distribution.** As part of CSE onboarding, sometime during a CSE’s first or second month, they join the Distribution team for an iteration. During this period, it’s as if the CSE is part of the Distribution team, pairing with members of Distribution to learn as much as possible. The CSE stops taking new customer support tickets the Thursday prior to their rotation, so they have as little support work to follow-up on as possible during the rotation. (If a CSE feels a customer requires a transition of responsibility on a ticket, they can raise this to the team for discussion in our #customer-support-internal Slack channel.) The CSE also does the rotation with the intent of sharing the knowledge they learn with the rest of their CSE teammates.
 * **CSEs rotate on other engineering teams.** Depending on interest and timing with all involved, CSEs may also do rotations in other teams. These will be carefully coordinated to make sure that we always have enough help available to our customers. If a CSE is interested, they can start the process by talking with Virginia to determine next steps.
 * **Members of engineering rotate on support.** There is tons of value in working directly with customers and seeing the variety of questions and issues that come up across our entire customer base. Any member of engineering who is interested in working in support for a day or even a week, just needs to let the support team in #customer-support-internal and we will make it happen. Starting in FY22Q2, all new hires in engineering will do a 3 day rotation in support as part of their onboarding, as well as an annual rotation.
 
