@@ -71,7 +71,7 @@ The project roadmap is:
 - a place for discussions about priority
 - where engineering and product negotiate the next most important thing to work on
 
-Teams should work on the next thing at the top of the roadmap and should not jump around. If there is a desire to work on something lower on the roadmap, that should be elevated during team meetings and the chnage in priority should be discussed. That item should be moved in the roadmap based on the outcome of the discussion.
+Teams should work on the next thing at the top of the roadmap and should not jump around. If there is a desire to work on something lower on the roadmap, that should be elevated during team meetings and the change in priority should be discussed. That item should be moved in the roadmap based on the outcome of the discussion.
 
 ### RFCs
 
