@@ -30,7 +30,7 @@ As an all-remote company, we want everyone to feel included and connected, regar
 
 Our policy until now has been to suspend travel/meetup reimbursement and for managers to not organize team events. *Why not a blanket "no meetup" policy?* On principle, we don't think any company can or should forbid people from meeting up on their personal time.  Although Covid-19 continues to deeply affect each person and region, we needed to establish a different policy to meet the team's needs. 82% of team members surveyed (49 respondents in May) said they'd feel comfortable attending an in-person meetup (*either now or within the next few months, with some conditions*), and 84% of team members said Sourcegraph should start allowing in-person team meetups and travel. With most team members in favor of starting to travel, we didn't want *only* local meetups (where people would not need travel reimbursement) to start, because that wouldn't be inclusive to people who don't live near other team members. We decided to change the policy to start allowing travel/meetup reimbursement but we are still asking managers to not organize team events. We'll be revisiting the manager planning component in Phase II of our Travel Meetup plan.
 
-*For any questions, clarifications, or notifications around trips you'll be taking, please email **people-ops@sourcegraph.com**.* 
+***For any questions, clarifications, or notifications around trips you'll be taking, please email **people-ops@sourcegraph.com**.*** 
 
 
 ## Team travel budgets
