@@ -52,14 +52,14 @@ All items in our inventory are the same ones found in our new hire kits, but not
 ## Available inventory
 
 
-|            **Item**                    |   **Price**   | 
+|            **Item**                    |   **Price**   |
 |----------------------------------------|---------------|
 | Austin Cork-Bottom Tumbler (20 oz)     |      $19      |
-| Sourcegraph Notebook                   |     $4.85     |   
+| Sourcegraph Notebook                   |     $4.85     |
 | Dress socks                            |     $16.07    |
 | Fuzzy socks                            |     $5.25     |
-| Men's/Unisex t-shirt                   |      $10      | 
-| Women's t-shirt *(available soon)*     |      $10      | 
+| Men's/Unisex t-shirt                   |      $10      |
+| Women's t-shirt *(available soon)*     |      $10      |
 
 
 
