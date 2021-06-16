@@ -50,6 +50,7 @@
         - We will be hiring a Content Editor and Technical Content Marketing Manager
     - [Lisa Tagliaferri](../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
         - [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team/index.md#marek-zaluski), Developer Education Engineer
+        - [Oluebube Princess Egbuna](https://about.sourcegraph.com/handbook/company/team/index.md#oluebube-princess-egbuna-she-her), Education Engineer
         - We will be hiring technical educators
     - [Sarah Reece](https://about.sourcegraph.com/handbook/company/team/index.md#sarah-reece-she-her), Director of Demand Generation
         - Lori Heyman, Digital Marketing Programs
