@@ -6,7 +6,7 @@
 1. [Capabilities](#capabilities)
 1. [Brand Guidelines](brand_guidelines.md)
 2. [Brand and Creative Request Forms](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests)
-3. [Additional Resources](#additional-resources)
+3. [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
 4. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
 
 ## Function, Vision, Mission, and Values
