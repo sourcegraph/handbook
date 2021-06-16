@@ -26,7 +26,6 @@ When you first start in support, the list of tools to set-up can feel like a lot
 * Grammarly and Hemingwayapp help us say what we intend and catch any typos we don't see.
 
 ## Troubleshooting
-A placeholder to be populated over time as the team onboards and ramps-up
 
 ### GitHub Repository for Support Tools
 
