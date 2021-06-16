@@ -2,7 +2,7 @@
 
 ## Goals
 
-[WIP Goals](https://docs.google.com/document/d/1DYve4t4DrY5ppoBrwiasL2iqgTcBZ41ROe91CN6urVA/edit?ts=5f3c23b6#heading=h.74q0h5s6i2fz)
+WIP
 
 ## Team
 
