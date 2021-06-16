@@ -55,7 +55,7 @@ See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open role
 ## Mental health
 
 - [Mental health and wellness initiatives](mental-health.md)
-- Modern Health
+- Modern Health - *Program launching in August 2021*
 
 ## Other policies
 
