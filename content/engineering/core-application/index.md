@@ -63,14 +63,14 @@ Feel free to tag `@core-app` on Slack or anyone directly as and when required. I
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-- R.P. ([Product Manager](../../product/roles/index.md#product-manager)) starts 2021-05-03. [Christina Forney](../../company/team/index.md#christina-forney-she-her) is involved in the meantime.
+
+- [Ryan Phillips](../../company/team/index.md#ryan-phillips-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
 - [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
-- Rafal Leszczynski ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
-    - [Joe Chen](../../company/team/index.md#joe-chen)
-    - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
-    - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
-    - [Artem Ruts](../../company/team/index.md#artem-ruts-he-him)
-    - [Tomás Senart](../../company/team/index.md#tomás-senart)
-    - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
-    - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
-    - FQ4 hire
+- [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski-he-him) ([Engineering Manager](../roles.md#engineering-manager))
+  - [Joe Chen](../../company/team/index.md#joe-chen)
+  - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
+  - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
+  - [Artem Ruts](../../company/team/index.md#artem-ruts-he-him)
+  - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
+  - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
+  - FQ4 hire
