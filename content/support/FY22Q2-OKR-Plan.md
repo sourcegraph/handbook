@@ -17,6 +17,7 @@ In support of our product/engineering Q2 objective to *provide a solid organizat
 	11. A walkthrough of networking principles for services in Sourcegraph. - Lectures on the behavior and code structure of each microservice in Sourcegraph
 	12. The hidden configs/stream search that the customers know about but not on docs, like tls.external.
 	13. A quick rundown of the best way to write queries and structural search
+	14. Anything Kubernetes
 14. Receive comprehensive feedback on 25 cases, identifying what you are doing well and any suggestions for growth
 15. Receive crash course in how to navigate difficult conversations with customers (delivering hard to hear news, keeping calls productive and on time, etc)
 16. Update onboarding to good enough v2 for next new hires
