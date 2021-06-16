@@ -10,7 +10,7 @@ The SDR Team (TBA)
       - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
    - East Outbound SDR
       - [Sam Cregg](../company/team/index.md#sam-cregg)
-      - [Jenna Pierre] (TBD)
+      - Jenna Pierre. TBD
    - Inbound SDR
       - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
                   
