@@ -1011,3 +1011,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [Princesso](https://github.com/Princesso)
 - [princess@sourcegraph.com](mailto:princess@sourcegraph.com)
 - Princess is Nigerian and lives in Lagos, Nigeria. She has worked as a software engineer using several technologies of which javascript is her favorite. She preaches open source and also leads a few tech communities. When she is not in the zone, she enjoys cooking, taking walks with her daughter and hosting friends.
+
+## Gabe Torres (He/Him)
+
+- Customer Support Engineer
+- Los Angeles, CA, USA 🇺🇸
+- GitHub: [gabtorre](https://github.com/gabtorre), [LinkedIn](https://www.linkedin.com/in/gabtorres/)
+- [gabe@sourcegraph.com](mailto:gabe@sourcegraph.com)
+- Gabe is a developer from Los Angeles with a background in design. He enjoys sports, fitness, gaming, reading, exploring new places with his dog Bruno, and staring at art.
