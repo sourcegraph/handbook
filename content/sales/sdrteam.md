@@ -4,11 +4,11 @@ The SDR Team (TBA)
 
 ## Members
 
-- [Nicholas Gage](../company/team/index.md#nicholas-gage-he-him), Head of Sales Developmen
-   - West Outbound SDR
+- [Nicholas Gage](../company/team/index.md#nicholas-gage-he-him), Head of Sales Development
+   - West Outbound SDRs
       - [Quin "Q" Keough](../company/team/index.md#quin-keough)
       - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
-   - East Outbound SDR
+   - East Outbound SDRs
       - [Sam Cregg](../company/team/index.md#sam-cregg)
       - Jenna Pierre. TBD
    - Inbound SDR
