@@ -28,6 +28,26 @@ When you first start in support, the list of tools to set-up can feel like a lot
 ## Troubleshooting
 A placeholder to be populated over time as the team onboards and ramps-up
 
+### GitHub Repository for Support Tools
+
+The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools) contains tools built by the Customer Support Engineers that provide values when supporting our customers. You are welcome to add your projects to this repository, but please speak to Virginia about your ideas and plans before development starts to aviod possible conflicts. 
+
+> NOTE: Please aviod working directly on main branch.
+
+[Link to Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools)
+
+### Command Line Generator
+
+The [Command Line Generator](https://sourcegraph.github.io/support-tools/command-generator/beta/) is a simple web app that supports can use to generate the most frequently used commands for different deployment type when supporting a customer.
+
+[Link to Command Line Generator GitHub Repository](https://github.com/sourcegraph/support-tools/tree/main/command-generator)
+
+### Scripts
+
+Creating customized scripts can help automate a repetitive task for the team and the customers. You can find all the existing scripts in this [directory](https://github.com/sourcegraph/support-tools/tree/main/scripts) and are welcome to write and share your own custom scripts with the team.
+
+[Link to GitHub Repository for Scripts](https://github.com/sourcegraph/support-tools/tree/main/scripts)
+
 
 ## Zendesk
 This section captures our Zendesk protocol and configuration decisions.
