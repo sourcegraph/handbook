@@ -63,7 +63,7 @@ I will get through it ... just leave me be.
 Not really working on a project but working toward [CKA](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/) 
 
 ### What I fear
-- While extremely irrational, getting a paper cut on my eye is something I worry about a little more than one should.
+While extremely irrational, getting a paper cut on my eye is something I worry about a little more than one should.
 
 ### Favorite quote
 > Everyone has a plan until they get punched in the mouth. - Mike Tyson
@@ -73,6 +73,6 @@ I now use an air fryer for everything (no longer cook with oil). I will generall
 
 
 ### Sun, moon and rising signs
-Up until just a few mins ago I had zero clue as to what any of this meant:
+Up until just a few mins ago, I had zero clues as to what any of this meant:  
 I'm a Gemini Ascendant, Virgo with a Taurus moon
-(Someone will have to explain this too me but that is what the internet says ¯\_(ツ)_/¯
+(Someone will have to explain this too me but that is what the internet says ¯\\_(ツ)\_/¯ )
