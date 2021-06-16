@@ -31,33 +31,33 @@ Following our [standards of success](https://about.sourcegraph.com/handbook/peop
 
 During the new teammates’ first week with us, they will find a task in their Process.St checklist called **Understanding your contribution**. This is what they’ll see:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_OKRs_**
+**_OKRs_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_In this section you’ll learn more about what goals & objectives we’re aiming to achieve in this quarter and this year (for Sourcegraph and your team), and get guidance on how to understand how you contribute to these and engage with your manager to get an idea of how you’re tracking._
+_In this section you’ll learn more about what goals & objectives we’re aiming to achieve in this quarter and this year (for Sourcegraph and your team), and get guidance on how to understand how you contribute to these and engage with your manager to get an idea of how you’re tracking._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_[Here](https://about.sourcegraph.com/company/goals/2021_q2) you can read about our Objectives and key results, and [here](https://about.sourcegraph.com/company/goals/guidelines) you can read about why and how we define them._
+_[Here](https://about.sourcegraph.com/company/goals/2021_q2) you can read about our Objectives and key results, and [here](https://about.sourcegraph.com/company/goals/guidelines) you can read about why and how we define them._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_You should check[ this sheet](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit#gid=1699297878) to read the OKRs for each team per quarter and see what your team is working on._
+_You should check[ this sheet](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit#gid=1699297878) to read the OKRs for each team per quarter and see what your team is working on._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Feedback Milestones_**
+**_Feedback Milestones_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_As part of our high-agency culture, we encourage you to own your career as much as possible - this includes asking for feedback on how you’re doing, and giving your manager feedback on what you need from them in order to succeed. You’ll chat to your manager a few times in your first weeks, but we’d like you to set up your first formal feedback milestones in your first three months with us._
+_As part of our high-agency culture, we encourage you to own your career as much as possible - this includes asking for feedback on how you’re doing, and giving your manager feedback on what you need from them in order to succeed. You’ll chat to your manager a few times in your first weeks, but we’d like you to set up your first formal feedback milestones in your first three months with us._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_The aim of these meetings is to open a two-way conversation between you and your manager about what’s on track and what needs action, both on your contribution and how well you’re living our shared values._
+_The aim of these meetings is to open a two-way conversation between you and your manager about what’s on track and what needs action, both on your contribution and how well you’re living our shared values._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_You must **set up three meetings** with your manager, each of them 30min long, using your Gmail calendar. Remember to include a Zoom call and name each of them as outlined below._
+_You must **set up three meetings** with your manager, each of them 30min long, using your Gmail calendar. Remember to include a Zoom call and name each of them as outlined below._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Feedback milestone 1: (your name)/(your manager’s name)_**
+**_Feedback milestone 1: (your name)/(your manager’s name)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Set this up for one month after your start date, and check our handbook for what to expect and how to prepare for this meeting._
+_Set this up for one month after your start date, and check our handbook for what to expect and how to prepare for this meeting._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Feedback milestone 2: (your name)/(your manager’s name)_**
+**_Feedback milestone 2: (your name)/(your manager’s name)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Set this up for two months after your start date, and check our handbook for what to expect and how to prepare for this meeting._
+_Set this up for two months after your start date, and check our handbook for what to expect and how to prepare for this meeting._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_Feedback milestone 3: (your name)/(your manager’s name)_**
+**_Feedback milestone 3: (your name)/(your manager’s name)_**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Set this up for three months after your start date, and check our handbook for what to expect and how to prepare for this meeting._
+_Set this up for three months after your start date, and check our handbook for what to expect and how to prepare for this meeting._
 
 
 ### Managers: What to expect
