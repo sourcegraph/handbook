@@ -84,7 +84,7 @@ Sales Accepted Opportunities are where ALL of the following are true:
 - We have completed an intro call/meeting with the company/contact
 - Company/contact has expressed some form of interest/need in Sourcegraph
 - Contact can be a potential champion or coach
-- Company has >50 Developers
+- Company has >50 Developers **OR** Company is a Commercial account ( <250 employees)
 - We have next steps
 
 Any Opportunity that is moved into the Qualification Stage or beyond is automatically tagged as Sales Accepted Opportunity in Salesforce
