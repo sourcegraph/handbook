@@ -50,6 +50,16 @@ We have two week cycles starting on Wednesdays. We do a sync planning the day be
 
 ## Team norms
 
+### Getting assistance
+
+If you need assistance with a task, let the team know in the #core-application-sync channel. You'll find your peers are more than happy to act as a [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) and get you unblocked, or direct you to the right person(s) for further assistance.
+
+See [Tagging teammates](#tagging-teammates) below for more information.
+
+### Giving assistance
+
+Consider setting up regular [office hours](https://support.google.com/calendar/answer/190998?co=GENIE.Platform%3DDesktop&hl=en) so that peers can reserve your time, while knowing that they won't be disrupting your daily workflow.
+
 ### Code reviews
 
 - **Post-merge feedback:** It is important to make progress while getting feedback from other teammates in code reviews. On the one hand, the pull request author doesn't have to be blocked by all reviewers who the author intends to get feedback from; on the other hand, reviewers can still focus on their work on hands and leave feedback at their convenience. The pull request author should use their best judgement to decide if a pull request should wait (for high-risk changes) or simply rely on post-merge feedback.
