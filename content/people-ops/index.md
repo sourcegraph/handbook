@@ -37,7 +37,7 @@ WIP
 - [Travel](travel.md)
 - [Covered expenses](spending-company-money.md) (aka "Spending company money")
 - [Expense reports](../ops/finance/expenses.md)
-- [Vacation/FTO/PTO](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks#vacation)
+- [Paid time off and working hours](paid-time-off-and-working-hours.md)
 - [Requesting time off](requesting-time-off.md)
 - [Holidays](holidays.md)
 - [Donations](donations.md)
