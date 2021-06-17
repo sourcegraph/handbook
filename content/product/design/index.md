@@ -112,7 +112,7 @@ Our internal resources are open, and the design team will welcome any feedback. 
 
 ## How to make better UX design decisions
 
-As the procut design team is still small and not able to address every problem efficiently, we have tried to simplify Jakob Nielsen's 10 general principles for interaction design. These principles are often referenced, and by referencing them yourself you can make better user experience decisions.
+As the product design team is still small and not able to address every problem efficiently, we have tried to simplify Jakob Nielsen's 10 general principles for interaction design. These principles are often referenced, and by referencing them yourself you can make better user experience decisions.
 
 - Make sure the user is always appropriately informed.
 - Use familiar language.
