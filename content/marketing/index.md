@@ -16,7 +16,11 @@
     - [Editing blog posts](creating_blog_posts.md#editing-blog-posts)
 
 - [Demand Gen](demandgen.md)
-
+    - [Marketing operations](marketing_operations.md)
+         - [Livestream events](livestream.md)
+         - [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
+         - [Digital ads](ad_conversion_flows.md)
+    
 - [Developer Education](education.md)
 - Community Relations
     - [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
@@ -28,10 +32,6 @@
     - [Production Process](brand/production_process.md)
     - [Naming Process for Products, Features and Programs](brand/naming_process_for_products_features_and_programs.md)
 
-- [Marketing operations](marketing_operations.md)
-    - [Livestream events](livestream.md)
-    - [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
-    - [Digital ads](ad_conversion_flows.md)
 - Marketing requests and feedback
     - [Make a request or share an idea](https://form.asana.com/?k=hNaq42PNshdQ1FjjEUKjLA&d=7195383522959)
     - [Sign up for Marketing office hours](https://docs.google.com/spreadsheets/d/1o8rHntP0j6-JFryhc0_g6MKEI6l3dZE7NTKasyQx46M/edit#gid=0)
