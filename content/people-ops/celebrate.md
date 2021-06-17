@@ -18,7 +18,7 @@ We like to take the time to celebrate big milestones for teammates who have hit 
     
 	 - [ ] **Title**: Happy [insert number of year(s)] Anniversary, [first name of teammate]!
     
-	-   [ ] **Delivery** **date**: set delivery of the Kudoboard to the day of their anniversary in the morning before work during their time zone. *(This is so they have something nice waiting in their inbox when they start work!)*
+	 - [ ] **Delivery** **date**: set delivery of the Kudoboard to the day of their anniversary in the morning before work during their time zone. *(This is so they have something nice waiting in their inbox when they start work!)*
     
 
 -   Manager to pass Kudoboard along to the following people:
