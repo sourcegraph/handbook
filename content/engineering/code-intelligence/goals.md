@@ -2,84 +2,54 @@
 
 ## Goals
 
-### Deliver precise code intelligence to as many users as possible
+### Top goal: Build and scale the Global Code Graph
+Progress on adoption and usage of code intelligence is tracked in our [Looker dashboard](https://sourcegraph.looker.com/dashboards-next/159).
 
-Progress on adoption and usage is tracked in our [Looker dashboard](https://sourcegraph.looker.com/dashboards-next/159).
+**Vision:** The Global Code Graph experience will make it so that when a developer lands on a relevant repo on Sourcegraph they will experience precise code intelligence, being able to jump to accurate definitions and find precise cross-repository references. They’ll also be able to navigate the dependency graph of a repository at any tagged commit.
 
-**Problem:**
+**Problem:** Until recently we’ve been focusing on delivering local code intelligence for more languages. Getting precise code intelligence results for a given repository is a clear upgrade from search-based, but setting up precise code intelligence at the moment requires significant effort from the user or customer. Furthermore, users only get precise Go to definition and Find references features within the repository that has LSIF set up. 
 
-- Adoption of precise code intelligence comes with a cost. This cost often exceeds a customers's expectation of the benefits precise code intelligence would provide to their organization. We therefore have low adoption in both private instances and Sourcegraph Cloud.
-- There is no large open source corpus to demonstrate the benefit of precise code intelligence when adopted at scale.
-- Direct delivery to customers prior to having a large, working sample of repositories is difficult as we don't know what issues are caused by our tooling, and what issues are caused by non-standard build configurations.
+In order to work towards the Global Code Graph vision, we’re focusing our efforts on the current work streams: 
 
-**High level outcomes:**
 
-- CE and Sales have a significant amount of open source repos to showcase and can easily demonstrate the value of setting up precise code intelligence.
-- For languages that are particularly subject to unusual setups and tooling, our indexed open source showcase helps us determine if setup issues are caused by an unusual customer dev environment.
-
-### C++ precise code intelligence support
+### Cross repository and dependency navigation
+We believe that this is the global code graph’s killer feature. It elevates the code navigation experience to a whole new level of cross-project analysis. It includes enabling precise cross-repository navigation and the ability to navigate to any third party dependency a repository references. We're solving this initially on Sourcegraph Cloud and plan to replicate the same functionality for on-premise usage.
 
 **Milestones:**
-
-1. ✅ Sourcegraph Cloud has up-to-date precise code intelligence for C++ repositories.
-    
-    **Outcome:** 5 popular open source C++ repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
-
-1. ✅ Sourcegraph Cloud has precise code intelligence for C++ repositories that use cmake as a build system. 
-   
-     **Outcome:** 5 popular open source cmake repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
-
-1. ✅ Build lsif-clang testing infrastructure.
-    
-    **Outcome:** We can confidently make code changes to lsif-clang without worrying about obvious bugs.
-
-1. ✅ Sourcegraph Cloud has precise code intelligence for C++ repositories that use Bazel as a build system.
-    
-    **Outcome:** 5 popular open source C++ repositories using Bazel have up-to-date precise code intelligence on Sourcegraph Cloud.
-    
-1. 🔄 Increase C++ precise code intel monthly operations.
-    
-    **Outcome:** 3 enterprise customers with C++ precise code intel configured in their repositories.
+- ✅ Cross repository and dependency navigation for Go works on Sourcegraph Cloud
+- ✅ RFC 307: POC cross-repository and dependency navigation for Java and JS
+- ✅ Java cross-repository and dependency navigation works on Sourcegraph Cloud
+- JS cross-repository and dependency navigation works on Sourcegraph Cloud (Planned for Q3)
+- Python cross-repository and dependency navigation available on Sourcegraph Cloud (Planned for Q4)
 
 
-### Java precise code intelligence support
+### Auto-indexing and scaling the code graph
+The current set up experience is not scalable for customers with a large amount of repositories. Enabling auto-indexing would mean a lower barrier for entry, a seamless out of the box experience and more engineers using precise code intelligence. 
+Building the code graph also means we need to generate and store increased amounts of LSIF data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
 
 **Milestones:**
-
-1. ✅ Sourcegraph Cloud has up-to-date precise code intelligence for 5 Gradle repositories.
-
-    **Outcome:** 5 popular open source Gradle repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
-
-1. ✅ Sourcegraph Cloud has up-to-date precise code intelligence for 5 Maven repositories.
-
-    **Outcome:** 5 popular open source Maven repositories have up-to-date precise code intelligence on Sourcegraph Cloud.
-    
-1. ✅ lsif-java supports Java 11-16.
- 
-
-1. 🔄 Increase Java precise code intel monthly operations. 
-
-    **Outcome:** 3 enterprise customers with Java precise code intel configured in their repositories.
-    
-1. 🔄 lsif-java supports third party dependency navigation.
+- ✅ Go auto-configuration is enabled and indexing all of Sourcegraph main's repository dependencies
+- 🔄 Scale Go code graph on Sourcegraph Cloud (Estimated completion July 30th)
+- 🔄 Ship trial version of auto-indexing for enterprise instances (Estimated completion July 30th)
+- 🔄 Scale Java code graph on Sourcegraph Cloud (Estimated completion July 30th)
+- Global code graph exists for Go on Sourcegraph Cloud (Planned for Q3)
+- JS auto-configuration and indexing repositories on Cloud (Planned for Q3)
+- Global code graph exists for JS (Planned for Q4)
 
 
-
-### Backend stability
+### Ship precise language support
+We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to building the Global Code Graph vision.
 
 **Milestones:**
-
-1. 🔄 Stabilize code intelligence backend.  
-
-   **Outcome:** No code intelligence queries consume compute or unbounded memory.
-    
-1. 🔄 Reduce code intelligence failure blast radius.
-
-    **Outcome:** No code intelligence failure will affect the stability of the core search feature.
-    
-1. 🔄 Decrease backend latency and resource requirements.
-  
+- ✅ Ship C++ local precise code intelligence 
+- ✅ Ship Java local precise code intelligence 
+- ✅ Python indexer exploration spike 
+- Ship Python precise code intelligence (Planned for Q3-Q4)
+- Lsif-node is production quality (Planned for Q3)
+- C# exploration spike (Planned for Q4)
     
 ## Roadmap
 
-The code intel team roadmap is tracked in [productboard](https://sourcegraph.productboard.com/roadmap/2658140-code-intel). At a glance roadmap for Q2 coming soon!
+The code intel team roadmap is tracked in [productboard](https://sourcegraph.productboard.com/roadmap/2658140-code-intel).
+At a glance roadmap as of 2021-06-18:
+![2021-06-18](https://sourcegraphstatic.com/handbook/product-roadmaps/2021-06-18-code-intel-roadmap.png)
