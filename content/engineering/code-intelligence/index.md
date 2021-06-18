@@ -68,7 +68,9 @@ Our iterations last two weeks and are comprised of the following:
   1. Review any existing agenda items and be prepared to discuss them.
   1. Update the current release [tracking issue](../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
 
-- Team Updates: Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update.
+- Team Updates:   
+  1. Each day, our Daily Standup Bot prompts us to add a text check-in by answering what we worked on the day before, what we're planning to work on next, and if there are any current blockers.
+  2. Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update. 
 
 We track most of our work as [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
 
