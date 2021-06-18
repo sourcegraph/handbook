@@ -18,7 +18,7 @@ Pretty open in this area ... pairing/zoom/group chat/google doc (Just want to ge
 
 ### Approach to problems
 **K.I.S.S**
-**K**eep **I**t **S**uper **S**imple
+(**K**eep **I**t **S**uper **S**imple)  
 I generally like to step back, level set, to make sure I completely understand the problem. Which helps me properly parse through false flags and ask the right questions to find the root cause.
 
 ### Preferred way to be recognized
@@ -74,5 +74,5 @@ I now use an air fryer for everything (no longer cook with oil). I will generall
 
 ### Sun, moon and rising signs
 Up until just a few mins ago, I had zero clues as to what any of this meant:  
-I'm a Gemini Ascendant, Virgo with a Taurus moon
+I'm a Gemini Ascendant, Virgo with a Taurus moon  
 (Someone will have to explain this too me but that is what the internet says ¯\\_(ツ)\_/¯ )
