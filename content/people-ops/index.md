@@ -10,10 +10,11 @@ WIP
 
 ### People Ops team members
 
-- [Noemi Mercado](../company/team/index.md#noemi-mercado-she-her), Head of People Ops
-  - Cecily Black, Recruiting Coordinator
-  - [Inés Roitman](https://about.sourcegraph.com/handbook/company/team#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
-  - [Cassie Melani](https://about.sourcegraph.com/handbook/company/team#cassie-melani-she-her), Teammate Success Manager
+- Debbie Johnstone, VP of People
+- [Noemi Mercado](../company/team/index.md#noemi-mercado-she-her), Head of People Operations
+- [Inés Roitman](https://about.sourcegraph.com/handbook/company/team#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
+- [Cassie Melani](https://about.sourcegraph.com/handbook/company/team#cassie-melani-she-her), Teammate Success Manager
+- [Cecily Black](https://about.sourcegraph.com/handbook/company/team#cecily-black-she-her), People Operations Coordinator
 
 ## Teammate experience
 
