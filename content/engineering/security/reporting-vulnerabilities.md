@@ -10,6 +10,26 @@ We provide monetary rewards, from $50 to $10,000 USD, for security vulnerability
 
 When a monetary bounty is presented, eligible reports will be based on the severity, as determined by [CVSS v3.1](https://www.first.org/cvss/calculator/3.1). We will send payment to a valid PayPal account. We will ask you for the name and country associated with your PayPal account.
 
+**Safe Harbor**
+
+Sourcegraph commits to not pursuing legal action against researchers for actions conducted according to our policies and within the declared scope.
+
+**Scope**
+
+The following products and deployments are within scope for our Bug Bounty program:
+
+- Sourcegraph Cloud deployment: sourcegraph.com
+- Sourcegraph source code: https://github.com/sourcegraph/sourcegraph
+- Sourcegraph CLI: https://github.com/sourcegraph/src-cli
+- Sourcegraph browser extension: https://github.com/sourcegraph/sourcegraph/tree/main/client/browser
+- Sourcegraph extensions developed by Sourcegraph: https://sourcegraph.com/extensions?category=All&query=Sourcegraph
+
+The following targets and actions are out-of-scope:
+- Sourcegraph domains not listed in the in-scope section
+- Social engineering against Sourcegraph users and employees
+- Denial of Service
+- Spamming
+
 **Categories**
 
 | Attack Outcome | Maximum Payout |
