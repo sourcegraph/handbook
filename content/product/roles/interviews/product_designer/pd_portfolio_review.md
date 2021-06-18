@@ -4,10 +4,10 @@ This is the gating interview (the way the coding exercise is for engineers) befo
 
 The goals of this interview are to:
 
-- Understand the candidate's approach and philosiphy to design.
+- Understand the candidate's approach and philosophy to design.
 - Validate the candidate's design competency.
 - How the candidate communicates and presents their ideas.
-- The candidate's ability to influence and pursuade others.
+- The candidate's ability to influence and persuade others.
 
 ## Invite prompt
 
