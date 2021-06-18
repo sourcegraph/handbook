@@ -49,6 +49,25 @@ For example:
 
 There are four types of company-sponsored, company-paid travel.
 
+## How to Get Your Trip Approved
+
+Before booking trips, we encourage teammates to get budget approval by sending an email to finance@sourcegraph.com and people-ops@sourcegraph.com with your manager or director cc’d. 
+
+Please include the following for individual or group travel requests: 
+
+- Name(s) and Team Role(s):
+- Reason for travel (i.e. Team Meet-up, Conference, etc.):
+- Location of travel:
+- Dates of travel:
+- Cost - Actual or Reasonable Estimate (i.e. Hotel, flight, food, transportation, etc.):
+
+As a reminder, travel is voluntary and no teammates are required to travel. Trip requests made by a teammate should never be made against their own judgement or comfort level. 
+
+After your request has been submitted, you will receive approval from Finance via email within 1 business day.
+
+For any additional questions, please reach out to #finance or #people-ops.
+
+
 ## Company-wide events
 
 Sourcegraph generally holds two company-wide events each year, each fully covered by the company:
