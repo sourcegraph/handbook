@@ -15,7 +15,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Engaging with Legal](saleslegal.md)
 - [Engaging with Security](salessecurity.md)
 
-## Pipeline, data, and models
+## ne, data, and models
 
 - [Transactions](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=0)
 - [FY21 plan](https://docs.google.com/spreadsheets/d/1EkZ7O69-2jbgtacoFDrY8L6rP73Hlqp_syyVCnmGAFA/edit#gid=1071026049)
@@ -40,6 +40,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [John Harwell](../company/team/index.md#john-harwell)
   - [Nishil Patel](../company/team/index.md#nishil-patel-he-him)
   - [Ken Mills](https://about.sourcegraph.com/handbook/company/team#ken-mills)
+  - [Brady Hermann](https://about.sourcegraph.com/handbook/company/team#brady-herrmann-he-him)
 - [Greg Bastis](../company/team/index.md#greg-bastis-he-him) (Regional VP of West)
   - [Owen Brennan](../company/team/index.md#owen-brennan-he-him)
   - [Chris Surdi](../company/team/index.md#chris-surdi)
@@ -50,6 +51,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Rashad Bartholomew](../company/team/index.md#rashad-bartholomew-he-him)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
+  - Suki Randhawa
 
 ### Roles
 
