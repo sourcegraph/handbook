@@ -307,8 +307,7 @@ A quick crash course for anyone unfamiliar:
   <tr>
     <td>
       <ul>
-        <li>Hold weekly 1</li>
-        <li>1s with team members</li>
+        <li>Hold weekly 1:1s with team members</li>
         <li>Mentor team members to make progress towards their career goals</li>
         <li>Measure the performance of the team and individuals and provide regular feedback to team members</li>
       </ul>
