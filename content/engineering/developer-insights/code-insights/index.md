@@ -89,7 +89,8 @@ We plan and track our day-to-day work on our [Kanban board](https://github.com/o
 - Incoming tickets (e.g. from other teams) arrive in the _Inbox_ column.
 - Work is scheduled by adding a card to the _Planned_ column. This happens after talking through the next priorities in our [weekly sync](#weekly-sync) or raising something asynchronously in the #code-insights Slack channel.
   - The _Planned_ column is an _ordered_ column, by priority. Priority is discussed on the team.
-  - Work should not be moved into this column until it is ready for development.
+  - Work should not be moved into the _Planned_ column until it is ready for development _and_ estimated and prioritized. 
+  - Work that is ready for development but not yet estimated or prioritized sits in the _Ready for Dev_ column. 
   - Anything that needs design input gets the `needs-design` label and goes in the _Needs design_ column.
 - When starting work, engineers pull cards from the _Planned_ column and move it to the _In Progress_ column.
 - There should never be more than a couple of cards in the _In Progress_ column at the same time. If we paused work on something (e.g. because priorities changed), it should be moved back to _Planned_ or _Icebox_ as appropriate.
