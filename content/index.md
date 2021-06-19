@@ -65,6 +65,10 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Talent](talent/index.md)
 
 - [Our open positions](careers.md)
+- [Resources for candidates](https://about.sourcegraph.com/handbook/talent)
+- [Resources for hiring managers](https://about.sourcegraph.com/handbook/talent)
+- [Resources for teammates](https://about.sourcegraph.com/handbook/talent)
+- [Resources for recruiters](https://about.sourcegraph.com/handbook/talent)
 
 ### [Operations](ops/index.md)
 
