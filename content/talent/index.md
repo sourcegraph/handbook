@@ -5,7 +5,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 ## Talent Team Members
 - [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
     - [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
-    - [Kelsey Nagel], Marketing & Finance Recruiter 
+    - [Kelsey Nagel](../company/team/index.md#kelsey-nagel-she-her), Marketing & Finance Recruiter 
     - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
     - We are hiring Recruiters!  View our open positions [here](https://boards.greenhouse.io/sourcegraph91)
 
