@@ -8,12 +8,12 @@ Each hiring manager has an assigned recruiter for their hiring needs. If you are
     - Product
     - Customer Engineering
     - Support
-- [Kelsey Nagel], G&A Recruiter
+- [Kelsey Nagel](../../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
     - Marketing
     - Finance
     - Legal
-    - Operations
-    - People Team
+    - BizOps
+    - People Operations
 - [Trevor Houghton](../../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
     - Interview Scheduling for all departments
 
