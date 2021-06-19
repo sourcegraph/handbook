@@ -97,10 +97,22 @@ SDR dedupes the lead to look for recent activity, open/recently closed opportuni
 - If eligible to work, SDR should update Lead Status to “Working” and begin outreach
 - NOTE: we target <5 mins from new Lead Creation to First Touch during working hours, with a firm SLA of 24 hours for updating the Lead Status of any New Lead
 
+### Outbound Lead-to-Opportunity Conversion Workflow
+
+If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
+
+- If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
+- SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on a round-robin of their supported AEs.
+- At this point, the Opportunity will be in Stage 1 - Interest
+- SDR schedules meeting with the Contact and the receiving AE.
+- SDR logs all pertinent information - call/email notes, research on contact/company, and any additional context that is helpful for the AE to be prepared for the initial call / understand the justification for creating an Opportunity
+SDR joins this initial call to make the AE intro and listen to the call for feedback
+
 ### Inbound Lead-to-Opportunity Conversion Workflow
 
 If a Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
+- If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
 - SDR confirms the receiving AE of the Opportunity using the [AE Round-Robin Tracker](https://docs.google.com/spreadsheets/d/1Uqx3GSLFzzAptrMaowVJLkViAdOQ3gimUL8PVBm8EkQ/edit#gid=0)
 - SDR schedules meeting with the Lead and the receiving AE
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new)
