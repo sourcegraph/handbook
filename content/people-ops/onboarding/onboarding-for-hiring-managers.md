@@ -8,15 +8,14 @@ As the company grows, new hires are joining almost every week. The onboarding pr
 
 <table>
   <tr>
-   <td>About ten days before the new hire starts (or as soon as they sign the contract, if they haven’t by that time) a Welcome email is sent to the new hire with the Hiring Manager in CC. Here we ask for certain information we need to get them onboarded:
+   <td>Once the teammate signs the contract, they will complete <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW4N-YNAoGo5LW0bBs5AM_2xLlwmEEY650qxuQlSMVoM0rtQ/viewform?usp=sf_link"> this form</a> asking for certain information we need to get them onboarded:
 <p>
 <ul>
 <li> We confirm start date
 <li> We confirm email preference
-<li> We send out information about purchasing the laptop
+<li> We ask if the teammate prefers purchasing the laptop themselves or getting it with the company card
 <li> We ask for T-shirt size, for swag purposes, and address for shipping
 <li> We ask for a selfie
-<li> For US hires we inform about documentation needed for I-9 paperwork
 <li> We ask for their phone number, for account setup
 </ul>
 
@@ -49,7 +48,7 @@ And create a Check in meeting for new hires with PeopleOps after their first mon
    </td>
   </tr>
   <tr>
-   <td>We will also let Hiring Managers know through the #people-ops channel in Slack that the email is live. Now you should:
+   <td>We will also let Hiring Managers know through the #teammate-announce channel in Slack that the email is live. Now you should:
 <p>
    <ul>
 <li> Create recurring 1:1 with new teammate
@@ -61,12 +60,6 @@ And create a Check in meeting for new hires with PeopleOps after their first mon
 Having this done before day one will make it easier for the new hire and an overall better experience.
    </td>
    <td>Hiring Manager
-   </td>
-  </tr>
-  <tr>
-   <td>PeopleOps will contact the suggested buddy and make sure they are available. Once they accept, we’ll create a weekly recurring meeting for both of them to meet for a month.
-   </td>
-   <td>PeopleOps
    </td>
   </tr>
   <tr>
