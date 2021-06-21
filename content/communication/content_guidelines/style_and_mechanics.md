@@ -1040,3 +1040,20 @@ Treat all supported platforms equally. For example, don’t give instructions fo
 Wherever possible, link to a 3rd-party tool’s existing documentation over explaining it in our own documentation, because our explanation can easily become outdated.
 
 Prefer the `https` URL scheme (`https://example.com` not `http://example.com`). The only exception is if the site actually doesn’t support HTTPS.
+
+### Caption tracks and transcripts
+
+Provide caption tracks and transcripts for all video and audio media. The style and mechanics in these content guidelines should be followed where possible, particularly with [product and feature names](style_and_mechanics.md#product-names), [capitalization](style_and_mechanics.md#capitalization-names), and [punctuation](style_and_mechanics.md#punctuation).
+
+While automatic transcription tools like Otter are recommended, the generated transcript must be treated as a first draft. Review the transcript for accuracy, formatting, and style conventions.
+
+Where a narrator describes code, search queries, or other text that also appears in a video, match the captions to the text and formatting shown in the video.
+
+<div class="usage">
+<div class="item yes">
+<h5>Example</h5>
+<ul>
+<li>Search query in video says `ReadFile`, but automatic transcript says `read file`. Transcript should be updated to `ReadFile` as shown in the video.</li>
+</ul>
+</div>
+</div>
