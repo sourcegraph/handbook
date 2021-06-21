@@ -1026,5 +1026,5 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - London, UK 🇬🇧
 - GitHub: [suki-randhawa1](https://github.com/suki-randhawa1)
 - [suki@sourcegraph.com](mailto:suki@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/suki-randhawa-353526/)
-- Suki is located in West London and is married with two kids. He started his career as a R&D developer, before moving to deploying and then selling software around the world. Suki and his wife founded a clothing brand to help new mums feed to their lovely babies outside the home. Suki likes martial arts and all things HIIT related. Suki has a MBA from Henley Business School and a BSc from University of Warwick.
+- Suki is located in West London and is married with two kids. He started his career as a R&D developer, before moving to deploying and then selling software around the world. Suki and his wife founded a clothing brand to help new mums feed their lovely babies outside their home. Suki likes martial arts and all things HIIT related. Suki has a MBA from Henley Business School and a BSc from University of Warwick.
 
