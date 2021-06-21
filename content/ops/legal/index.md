@@ -3,6 +3,7 @@
 The legal team helps Sourcegraph grow responsibly. 
 
 We provide high-quality legal advice to every team. High-quality legal advice at Sourcegraph is: 
+
 - Practical - enables teams to make decisions
 - Efficient - timely and avoids being a bottleneck or slowing down decisions
 - Balanced - given in context and considers priorities, differing viewpoints, and competing interests
@@ -24,6 +25,7 @@ See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open role
 ## Contact
 
 You can reach out to the legal team a few ways:
+
 - #legal slack channel
 - [legal@sourcegraph.com](mailto:legal@sourcegraph.com)
 - for sensitive matters, direct slack message, email, or phone call to your legal POC
