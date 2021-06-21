@@ -65,7 +65,7 @@ Objective 3: Enable the company to deliver products that respect customers’ an
 
 Objective 4: Enable the company to grow responsibly
 
-- Identify and advise on 100% of corporate compliance risks that the company faces including but not limited to securities laws, disclosure requirements, and international business registrations
+- Identify and advise on 100% of corporate compliance risks that the company faces including securities laws, disclosure requirements, and international business registrations
 - Secure high-quality legal advice on strategic decisions such as financings, M&A, and international expansion
 - Secure high-quality legal advice relating to teammate equity such as granting, exercising, and selling equity and different types of equity (options vs. RSUs)
 - Provide a [signature authority policy](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy) ✅
