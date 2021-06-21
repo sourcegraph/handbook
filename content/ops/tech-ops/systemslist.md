@@ -26,7 +26,7 @@
    </td>
   </tr>
   <tr>
-   <td><a href="http://bill.com/">Bill.com</a>
+   <td>Bill.com
    </td>
    <td>Corporate AP account
    </td>
@@ -106,7 +106,7 @@
    </td>
   </tr>
   <tr>
-   <td><a href="http://elastic.co/">Elastic.co</a>
+   <td>Elastic.co</a>
    </td>
    <td>Process customer logs
    </td>
@@ -274,7 +274,7 @@
    </td>
   </tr>
   <tr>
-   <td><a href="http://remote.com/">Remote.com</a>
+   <td>Remote.com
    </td>
    <td>payroll and Expense tracker (UK)
    </td>
