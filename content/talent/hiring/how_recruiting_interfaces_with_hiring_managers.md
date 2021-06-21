@@ -59,6 +59,7 @@ Our time-to-fill goal is an average of 45-days.  This means that the timespan fr
 - Once fully approved in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.  
    - Attendees: Recruiter, Hiring Manager, Candidate.
    - During the call, we review: 1) compensation 2) equity 3) perks, travel (and benefits, if applicable). 
+   - Before ending the call, be sure to determine a potential start date (all starts dates should fall on a cohort Monday) and 2) schedule a follow up call to answer any questions.
 - Following the offer call, Recruiter sends the offer summary to the candidate in an email. 
 - Once the candidate verbally accepts, the VP Talent send the official offer to the candidate via Docusign.
 - The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
