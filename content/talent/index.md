@@ -28,6 +28,9 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
    - [Extending an offer] Coming soon
 - [Using recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
 - [Interview training & best practices] Coming soon
+   - [Unconscious bias training] Coming soon
+   - [Values interview training] Coming soon
+   - [Interviewing 101] Coming soon
 - Tools
    - [Greenhouse, our ATS](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse)
    - [LinkedIn, our sourcing tool] Coming soon
