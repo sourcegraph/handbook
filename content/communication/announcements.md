@@ -6,6 +6,9 @@ This document describes the standard procedures for how to make announcements to
 
 New teammates should post a message in #teammate-announce on their first day introducing themselves to the company! They can include pictures of themselves and/or loved ones, pets, hobbies, or anything else they choose.
 
+## Org structure changes
+This includes, promotions, title changes, team switches, reporting structure changes, team name changes, etc. Any change that affects our org chart or someone's title should be communicated to People Ops prior to announcement. The manager in charge of the particular org change should first notify People Ops via #people-ops or people-ops@sourcegraph.com of the change so they can update any necessary systems (such as our HRIS, BambooHR), and then continue with a message announcing the change in #teammate-announce and any other relevant channels. 
+
 ## Promotions
 
 Managers should post notes celebrating internal promotions in the #teammate-announce channel. We believe that culture is defined in part by who is celebrated, rewarded, and promoted internally, and these announcements are an opportunity to both reward a deserving individual and to remind the rest of the team what behaviors are rewarded.
