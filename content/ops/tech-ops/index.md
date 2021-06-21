@@ -6,7 +6,7 @@ As we scale our team and our customer list, we need help with all of the applica
 
 ## Goals 
 
-- Streamline Sourcegraph’s internal system architecture. This includes the procurement, consolidation, implementation, and management of all internal software ([Systems List](systemslist.md))
+- Streamline Sourcegraph’s internal system architecture. This includes the procurement, consolidation, implementation, and management of all internal software ([Systems List](systems_list.md))
 - Provide global support for all team members who need assistance with hardware and application support
 - Keep Sourcegraph’s internal systems secure and compliant with legal requirements while maintaining transparency
 
