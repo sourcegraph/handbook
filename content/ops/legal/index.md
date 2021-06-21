@@ -43,6 +43,7 @@ Before reaching out to our outside counsel, check with us first. We may know the
 ## What are we up to? FY'22 OKRs
 
 Objective 1: Enable the business to achieve its growth targets by managing an efficient contracting process while protecting the company
+
 - Turnaround 100% of customer contract reviews within 5 business days
 - Increase use of online terms by making our online terms more mutual 
 - Establish a clear and efficient process for vendor contract reviews in partnership with Finance and other business stakeholders
@@ -50,23 +51,27 @@ Objective 1: Enable the business to achieve its growth targets by managing an ef
 - Deliver legal enablement trainings proactively on an as-needed basis 
 
 Objective 2: Enable the company and its managers to provide teammate experiences that respect teammates’ rights 
+
 - Deliver employment legal enablement training to all managers annually or as part of their onboarding process  
 - Build a user-friendly code of conduct that accounts for frequently asked questions by teammates in collaboration with People team, including whistleblower and anti-bribery policies
 - Notify all teammates of their privacy rights in a privacy notice
 - Provide legally compliant offer letters and consulting agreements, compensation plans, and separation agreements 
 
 Objective 3: Enable the company to deliver products that respect customers’ and users’ rights and comply with the law
+
 - Provide contract templates that comply with data protection laws and advise the product and engineering teams on compliance requirements before the launch of Sourcegraph Cloud 
 - Provide proactive advice to the business on the company’s data protection obligations
 - Provide proactive advice to the business on the company’s export compliance obligations
 
 Objective 4: Enable the company to grow responsibly
+
 - Identify and advise on 100% of corporate compliance risks that the company faces including but not limited to securities laws, disclosure requirements, and international business registrations
 - Secure high-quality legal advice on strategic decisions such as financings, M&A, and international expansion
 - Secure high-quality legal advice relating to teammate equity such as granting, exercising, and selling equity and different types of equity (options vs. RSUs)
 - Provide a [signature authority policy](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy) ✅
 
 Objective 5: Enable the business to make informed decisions about IP strategy
+
 - Help the business weigh ways to protect against patent trolls and other infringement suits
 - Keep the business informed about open source license rights and risks
 - Provide a well-managed trademark registration program
