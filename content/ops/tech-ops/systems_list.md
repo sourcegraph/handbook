@@ -145,6 +145,14 @@
    <td>Engineering
    </td>
   </tr>
+   <tr>
+   <td>Google Analytics
+   </td>
+   <td>Tracks customer engagement
+   </td>
+   <td>Marketing
+   </td>
+  </tr>
   <tr>
    <td>Google GCP
    </td>
