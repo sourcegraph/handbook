@@ -379,7 +379,7 @@ To add yourself to this page:
 ## Jonah Dueck (he/him)
 
 - Customer Engineer
-- Santa Clara, CA, USA 🇺🇸
+- Seattle, WA, USA 🇺🇸
 - [jonah@sourcegraph.com](mailto:jonah@sourcegraph.com), [justdueck](https://github.com/justdueck), [LinkedIn](https://www.linkedin.com/in/jonah-dueck/)
 -  Jonah has been working within the IT space since high school. He started out by founding and running a small IT company in northern Nevada while still in high school and after graduating, moved on to working for another small company in Northern California. Most recently, he worked in internal IT operations and technical program management at Google for about 2 years. Outside of work, he enjoys rock climbing, playing music (guitar and drums), riding his motorcycle and working on his old VW bus (there's always something breaking on it).
 
