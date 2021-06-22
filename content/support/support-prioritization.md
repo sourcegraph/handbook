@@ -16,10 +16,11 @@ All work is assigned a priority per these definitions:
 ## Making hard choices
 Sometimes we have too much work to keep it simple. In these situations, we will put forth our best effort and unless something about the situation requires us to deviate, we follow this order of priority:
 
-* Paying and pre-sales customers first
-* Team customers second
-* Free customers third
-* Open source fourth
+* Pre-sales customers first
+* Enterprise customers second
+* Team customers third
+* Free customers fourth
+* Open source fifth
 * Internally driven work last
 
 When we have a normal amount of work, we help when help is needed and even with a SLA of 24 hour response time, we still strive to get back to customers (including pre-sales) within a couple of hours most of the time.
