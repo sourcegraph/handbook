@@ -9,6 +9,7 @@
 - [Strategy](strategy.md)
 - [Team](team.md)
 - [Values](values.md)
+- [Being a customer-first company](customer-first.md)
 
 # Sourcegraph: open product, open company, open source
 

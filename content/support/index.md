@@ -50,7 +50,7 @@ In addition to these top level key performance indicators (KPIs), we will have s
 
 
 ## How we intersect with other teams
-We work alongside just about every team. Here is how we add value to each other and a collaboration overview for each pairing.
+We are a [customer-first company](../company/customer-first.md). We work alongside just about every team. Here is how we add value to each other and a collaboration overview for each pairing.
 
 ### Customer Engineers (CEs)
 - **How support adds value to CE:** Support helps customers both pre- and post-sales, and allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues.
