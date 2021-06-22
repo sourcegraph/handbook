@@ -65,6 +65,6 @@ Our time-to-fill goal is an average of 45-days.  This means that the timespan fr
 - The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
 
 ### After the offer
-- After the candidate signs the offer, the Recruiting team sends a welcome email to the candidate and Cc's the hiring manager.
-- The Recruiting team marks the candidate as "Hired" in Greenhouse, closes the job, and exports the candidate to Bamboo.
+- After the candidate signs the offer, the Recruiter sends a welcome email to the candidate and Cc's the Hiring Manager.
+- The Recruiter marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Ines, VP of Talent, and Hiring Manager, and exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
