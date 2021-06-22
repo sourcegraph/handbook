@@ -1,35 +1,30 @@
 # How to make updates to sourcegraph.com
 
-## 1. Why can't I edit the page through the site-admin page anymore
+## Why can't I edit the page through the site-admin page anymore
 
-The configuration has been moved to a git repository to ensure all changes are tracked in version control. This ensures visibility of all changes to the configuration as well as allowing easier management across multiple teams.
+The configuration is stored in GSM (Google Secret Manager) as encrypted secrets so that they can only be modified by member of the team with permission to make changes and are not stored unencryted at rest.
 
-## 2. Make changes to the website configuration
+## Making changes to the website configuration
 
-### Access the deployment repo for sourcegraph.com
+### Site configuration
 
-Navigate to the deployment [repository](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) for sourcegraph.com. This repo can be edited on github or cloned for local development. *If developing locally, create a feature branch before making your edits.*
+Our site configuration contains many secrets like OAuth credentials. It is [stored in GSM](https://console.cloud.google.com/security/secret-manager/secret/SITE_JSON/versions?project=sourcegraph-dev) in the `sourcegraph-dev` project. To update Site Config for our Cloud deployment, follow these steps:
 
-The json config can be found in the `sourcegraph-frontend.ConfigMap.yaml` located in `base/frontend/sourcegraph-frontend.ConfigMap.yaml`.
+1. In GSM, copy the contents of the latest version of the secret and make the necessary changes.
+1. Create a new secret version with the updated site configuration. Disable all previous versions.
+1. Run `terraform plan` in `sourcegraph/infrastructure/cloud`. You should see only the `frontend-secrets` resource being changed.
+1. Run `terraform apply` to apply the changes in our Cloud cluster
+1. Run `kubectl rollout restart -n prod deployments/sourcegraph-frontend`. Make sure you are connected to the Cloud cluster with `kubectl config current-context`.
 
-### Edit the json content
+### External services connections
 
-There are three sections pertaining to configuration of sourcegraph.com
+External service connections are handled through the sourcegraph.com UI. The only credentials managed through GSM are for the Cloud default GitHub and GitLab connections. To rotate those tokens follow these steps:
 
-    - global-settings.json
-    - site.json
-    - extsvc.json
+1. Generate a new API token from the code host. Make sure it's properly documented in 1password.
+1. On the external service configuration, replace `REDACTED` by the new token and save changes.
+1. Ensure that the new token works.
+1. Revoke the old token from the code host.
 
-If you have edited the file directly on github.com, select **Create a new branch for this commit and start a pull request.** and click the **Commit changes** button. This will automatically create a pull request to merge to the `release` branch, where you can review any changes and seek approval.
+### Note:
 
-If working locally, save your changes and push to your feature branch upstream. You can then create a pull request to merge to the `release` branch, review your changes and seek approval.
-
-### Note: 
-
-Changes to the notices section can be merged by the author without explicit approval from the Distribution team. 
-
-## 3. Deployment to sourcegraph.com
-
-When your pull request is approved, your changes will be automatically deployed to sourcegraph.com via the CI process.
-
-Verify your changes have been deployed successfully by browsing to [sourcegraph.com](https://sourcegraph.com/)
+Changes to the notices section can be merged by the author without explicit approval from the Distribution team.
