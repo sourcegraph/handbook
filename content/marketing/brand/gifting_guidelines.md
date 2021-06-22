@@ -12,7 +12,7 @@
 
 Welcome to our Gifting Guidelines Page! Have a request for custom swag? Use the [Swag Request Form](https://app.asana.com/0/1200419124213353/list).
 
->Note that adding new items to out inventory can take around 8+ weeks if a custom design is being created and applied to the item vs our standard branding and logo applications.
+>Note that adding new items to our inventory can take around 8+ weeks if a custom design is being created and applied to the item vs our standard branding and logo applications.
 
 >Make sure that you comply with our [anti-corruption/anti-bribery policy](https://about.sourcegraph.com/handbook/people-ops/anti-corruption) and reach out to #legal slack channel or legal@sourcegraph.com with any questions. 
 
