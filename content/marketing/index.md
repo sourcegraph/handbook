@@ -49,19 +49,19 @@
         - [Jenny Bergen](../company/team/index.md#jenny-bergen-she-her), Manager, Content Marketing
         - We will be hiring a Content Editor and Technical Content Marketing Manager
     - [Lisa Tagliaferri](../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
-        - [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team/index.md#marek-zaluski), Developer Education Engineer
-        - [Oluebube Princess Egbuna](https://about.sourcegraph.com/handbook/company/team/index.md#oluebube-princess-egbuna-she-her), Education Engineer
+        - [Marek Zaluski](../company/team/index.md#marek-zaluski), Developer Education Engineer
+        - [Oluebube Princess Egbuna](../company/team/index.md#oluebube-princess-egbuna-she-her), Education Engineer
         - We will be hiring technical educators
-    - [Sarah Reece](https://about.sourcegraph.com/handbook/company/team/index.md#sarah-reece-she-her), Director of Demand Generation
+    - [Sarah Reece](../company/team/index.md#sarah-reece-she-her), Director of Demand Generation
         - Lori Heyman, Digital Marketing Programs
         - Rebecca Rissinger, Manager, Marketing Operations
         - Jake Sorensen, Programs Lead, Demand Gen Campaigns
     - Tommy Pesavento, Director of Brand Design
         - Fabiana Castellanos, Project Coordinator, Brand
         - We are building a brand team
-    - [Samson Goddy](https://about.sourcegraph.com/handbook/company/team/index.md#samson-goddy-he-him), Director of Community
+    - [Samson Goddy](../company/team/index.md#samson-goddy-he-him), Director of Community
         - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
-        - [Prosper Otemuyiwa](https://about.sourcegraph.com/handbook/company/team/index.md#prosper-otemuyiwa-he-him), Staff Developer Evangelist
+        - [Prosper Otemuyiwa](../company/team/index.md#prosper-otemuyiwa-he-him), Staff Developer Evangelist
         - We will be hiring developer advocates
 
 ## Open Roles
