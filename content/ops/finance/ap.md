@@ -135,9 +135,9 @@ Designated buyers (employees who are responsible for the spend) should monitor c
 
 Once the contract is agreed, if this is the first time Sourcegraph has used this supplier, the designated buyer should request the supplier to complete a new supplier form if required. Refer to [Sourcegraph New Supplier form](https://docs.google.com/document/d/1Y5y3fSylGsHYuAiD_U2YJer41nAFGAAd2WAifkDGQ6o/edit).
 
-##### Confidential Information
+##### Hourly-Based Contract Threshold
 
-All information received from suppliers is to be treated as confidential. Further, if the vendor has any access to information which Sourcegraph considers confidential, the Sourcegraph employee should consult with the legal team and consider if a non-disclosure agreement (NDA) is required.
+For hourly-based contracts, such as with a third-party contractor, please notify the Finance team when billing exceeds $5,000 in a given month.
  
 ##### Managing Conflicts of Interest
 
