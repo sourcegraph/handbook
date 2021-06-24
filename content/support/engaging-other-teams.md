@@ -119,7 +119,7 @@ When in doubt, file in the private repo—issues can be moved over to the public
 File new customer issues in the [private customer issue tracker](https://github.com/sourcegraph/customer/issues/new):
 
 * Initiate the issue from Zendesk via the integration with Github so that the conversation with the customer is available to engineering directly in Github
-* Provide all information required for troubleshooting that you gathered in the previous steps.
+* Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 * Include customer quotes in mark down using a quote block. For example, `> quote goes here.`
 * Label it with `customer/$name` and `rfh`.
 * Assign the issue to the appropriate team you identified in the previous step.
