@@ -11,7 +11,7 @@ A number of teammates are on a contracting structure and will need to submit an 
 - Invoices should be submitted in the currency used in your contract (and USD by default), if expenses were purchased in a different currency, please use this currency converter: https://www1.oanda.com/currency/converter/ and use the date of transaction. (Do not use the Veem currency converter.)
 - Include any fringe benefits on your invoice as individual line items as well (cell phone, internet, wellness benefits, etc.).
 - For teammates who receive commissions (i.e. sales/CE teammates), please also include commissions as an individual line item. The amounts will be communicated to you prior to the end of the month via the sales operations manager (for sales teammates) and finance manager (for CE teammates).
-- If additional expenses are incurred that month (i.e. home desk setup), please provide a separate invoice and attach all expense receipts to the same email.
+- If additional expenses are incurred that month (i.e. home desk setup, co-working/office space), please provide a separate invoice and attach all expense receipts to the same email.
 - When purchasing a laptop which requires taxes and shipping costs greater than $1,500, please notify the People Team and Finance with a description of the costs and choose the best method of purchase and shipment in accordance with our philosophy in [spending company money](../../people-ops/spending-company-money.md)).
 - Submit monthly invoices as early as the 28th of the current month so that payments can be issued by the 5th of the next month.
 - Your monthly invoice amount depends on whether you work a full month or a partial month.
