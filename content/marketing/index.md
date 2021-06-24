@@ -16,6 +16,8 @@
     - [Editing blog posts](creating_blog_posts.md#editing-blog-posts)
 
 - [Demand Gen](demandgen.md)
+    - [Account Based Experience](account_based_experience.md) 
+    - [Digital Marketing Programs](digital_marketing_programs.md)
     - [Marketing operations](marketing_operations.md)
          - [Livestream events](livestream.md)
          - [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
