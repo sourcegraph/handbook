@@ -5,8 +5,8 @@ Currently (as of March 2021) we have 3 different Sourcegraph instances that we u
 | Instance             | Owner   | Feature Set                              | When to use                                    |
 |----------------------|---------|------------------------------------------|------------------------------------------------|
 | sourcegraph.com      | n/a     | search, intel, monitoring                | General Demos (avoid unless necessary)         |
-| demo.sourcegraph.com | CE team | search, intel, batch changes, monitoring | General Demos, Batch Changes demos             |
-| k8s.sgdev.org        | Eng     | search, intel, insights                  | Advanced/experimental features, do not modify. |
+| demo.sourcegraph.com | [Distribution team (eng)](../engineering/distribution/index.md) for instance admin; [CE](index.md) for content | search, intel, batch changes, monitoring | General Demos, Batch Changes demos             |
+| k8s.sgdev.org        | [Distribution team (eng)](../engineering/distribution/index.md)     | search, intel, insights                  | Advanced/experimental features, do not modify. |
 
 
 ## Demo Instance Language Examples
