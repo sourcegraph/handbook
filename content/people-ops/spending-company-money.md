@@ -72,12 +72,16 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 - **Cell phone plan:** $75/month
 - **Wellness:** $100/month
 
-**Co-working/office space:** $300-500/month for renting your space, including parking while you are working from your designated co-working space. 
+**Co-working/office space:** $300-500/month for renting your space, including parking while you are working from your designated co-working space.
 
-> *Note*: This budget is meant to be an average cost of co-working spaces, and serves as a recommendation. It should be dependent on the
-> average cost of co-working spaces in your particular geo-location. If
-> your co-working space is significantly more than the averages listed
-> here, please get approval from ***People Ops*** and ***Finance*** via email.
+You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a *day-to-day drop in basis* or a *month-to-month basis* for ease of monthly reimbursement.
+
+> Note: This budget is meant to be an average cost of co-working spaces,
+> and serves as a recommendation. It should be dependent on the average
+> cost of co-working spaces in your particular geo-location. If your
+> co-working space is significantly more than $500 USD, please get
+> approval from People Ops and Finance via email.
+
 
 **Education and professional development (conferences, courses):** $1000/year (if you want to exceed this amount, simply notify @sourcegraph/people-ops in advance to explain the situation and to receive approval).
 
