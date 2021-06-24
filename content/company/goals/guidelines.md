@@ -56,7 +56,7 @@ See the most recent OKRs doc for good, relevant examples.
 
 1. Each OKR has a single person (not multiple people) who's ultimately responsible for it.
    - Many people can be working toward a goal, but there must be one person who's ultimately responsible.
-   - It's OK for a team to own a goal. That means the manager is ultimately responsible for it. A team should not have more than 1 or 2 goals (to make sure it's not becoming a workgroup with too many disparate goals). Engineering teams should all have [engineering team goals](#engineering-team-goals).
+   - It's OK for a team to own a goal. That means the manager is ultimately responsible for it. A team should not have more than 1 or 2 goals (to make sure it's not becoming a workgroup with too many disparate goals).
 1. Pick goals where failure would be painful.
 1. Pick goals where you can influence the outcome. Avoid using a lagging indicator as a goal.
 1. Set key results to be ambitious but achievable, so that they convey your aims and what you could achieve if things go well.
