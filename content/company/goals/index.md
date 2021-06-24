@@ -21,13 +21,13 @@ See "[Guidelines for goals](guidelines.md)" for more information about how we ch
 
 ### [Finance & Accounting](../../ops/finance/index.md#goals)
 
-### [Legal](../../ops/legal/index.md#goals)
+### [Legal](../../ops/legal/index.md#what-are-we-up-to-fy-22-okrs)
 
 ## Engineering
 
 <!-- When updating the engineering team list below, please also update handbook/index.md. -->
 
-### [Batch Changes](../../engineering/batch-changes/goals.md#goals)
+### [Batch Changes](../../engineering/batch-changes/goals.md#overarching-goal-deliver-batch-changes-to-as-many-users-as-possible)
 
 ### [Core application](../../engineering/core-application/goals.md#goals)
 
@@ -35,15 +35,15 @@ See "[Guidelines for goals](guidelines.md)" for more information about how we ch
 
 ### [Distribution](../../engineering/distribution/goals.md#goals)
 
-### [Search](../../engineering/search/goals.md#goals)
+### [Search](../../engineering/search/goals.md)
 
-### [Security](../../engineering/security/goals.md#goals)
+### [Security](../../engineering/security/goals.md)
 
-### [Frontend platform](../../engineering/developer-insights/frontend-platform/goals.md#goals)
+### [Frontend platform](../../engineering/developer-insights/frontend-platform/goals.md)
 
-### [Extensibility](../../engineering/developer-insights/extensibility/goals.md#goals)
+### [Extensibility](../../engineering/developer-insights/extensibility/goals.md)
 
-#### [Code insights](../../engineering/developer-insights/code-insights/goals.md#goals)
+#### [Code insights](../../engineering/developer-insights/code-insights/goals.md)
 
 ## [Product](../../product/goals.md)
 
