@@ -4,9 +4,9 @@
 
 WIP
 
+
 ## Team
 
-- [List of all Sourcegraph team members](../company/team/index.md)
 
 ### People Ops team members
 
@@ -15,6 +15,15 @@ WIP
 - [Inés Roitman](https://about.sourcegraph.com/handbook/company/team#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
 - [Cassie Melani](https://about.sourcegraph.com/handbook/company/team#cassie-melani-she-her), Teammate Success Manager
 - [Cecily Black](https://about.sourcegraph.com/handbook/company/team#cecily-black-she-her), People Operations Coordinator
+
+### How to reach the right member of the People Ops team
+If you encounter a question at any point, we're here to help! 
+
+Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)** will help you understand which aliases to use for your questions. It will also ensure you get the right attention, from the right team member, faster. In the spirit of transparency, for any questions which might apply to others, feel free to post in the Slack channels we listed in the matrix.
+
+### Meet the Sourcegraph team
+- [List of all Sourcegraph team members](../company/team/index.md)
+
 
 ## Teammate experience
 
