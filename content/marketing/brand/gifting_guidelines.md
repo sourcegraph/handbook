@@ -49,12 +49,12 @@ All items in our inventory are the same ones found in our new hire kits, but not
 
 |**Item**                                |**Price** |
 |----------------------------------------|----------|
-|Austin Cork-Bottom Tumbler (20 oz)      |$19       |
-|Sourcegraph Notebook                    |$4.85     |
-|Dress Socks                             |$16.07    |
-|Fuzzy socks                             |$5.25     |
-|Men's/Unisex t-shirt                    |$10       |
-|Women's t-shirt *(available soon)*      |$10       |
+|Austin Cork-Bottom Tumbler (20 oz)      |$19.00    |
+|Sourcegraph Notebook                    |$5.00     |
+|Dress Socks                             |$16.00    |
+|Fuzzy socks                             |$6.00     |
+|Men's/Unisex t-shirt                    |$10.00    |
+|Women's t-shirt *(available soon)*      |$10.00    |
 
 ### Giveaway Campaigns
 
@@ -62,8 +62,8 @@ Choosing the right gift for your recipient can be difficult, which is why we cre
 
 | Giveaway Campaign |                 Items                 |
 |-------------------|:-------------------------------------:|
-|         #1        | Notebook, dress socks and fuzzy socks |
-|         #2        | Tumbler, t-shirt and dress socks      |
+|         #1        | Notebook, dress socks or fuzzy socks |
+|         #2        | Tumbler, t-shirt or dress socks      |
 
 
 ## Shipping charges
