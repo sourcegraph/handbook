@@ -215,12 +215,21 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 - Everything marketing (email campaigns, workflows, lead capture/forms, including NPS scores)
 - Links to customers from RFCs, GitHub issues, etc. are still accessible. This will eventually be deprecated
 
-## Salesforce automation
+## Salesforce Automation
 
-### Leads to Opportunities
+### Leads to Accounts/Contacts/Opportunities
 
-Leads are put into a round robin process when either the MQL, SDR or Referral checkbox is checked. 
+- Leads created by Outbound efforts (not allocated to target Accounts) are put into an automated round robin process when they are cconverted.
+- Leads handled through our inbound queue (not allocated to target Accounts) are currently run through a manual round robin process prior to conversion.
 
 ## Renewal deals
 
-6 month before the end of a contract, a renewal deal with the Customer Engineer as owner is created in the Renewals pipeline.
+Upon "Close" of a new deal, a renewal Opportunity is created in the Renewals pipeline.
+
+### Forecast Generation
+
+Company Forecast and related records are generated automatically at 6pm Pacific every week.
+
+### AE/SDR Teams
+
+When the SDR field on the User is updated to a new SDR (or from blank), all Accounts owned by the User will have that SDR added to them.
