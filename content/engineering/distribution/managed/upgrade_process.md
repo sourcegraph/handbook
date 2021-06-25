@@ -55,13 +55,13 @@ export SRC_ACCESS_TOKEN=$TOKEN
 Figure out [what instance is currently live](./operations.md#redblack-deployment-model) for the managed instance you are upgrading - it should be either `red` or `black`:
 
 ```sh
-gcloud compute instances list --project=sourcegraph-managed-$CUSTOMER
+gcloud compute instances list --project=sourcegraph-managed-${CUSTOMER} | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }'
 ```
 
 Export the following values in your shell based on the above:
 
 ```sh
-export OLD_DEPLOYMENT=red # the current deployment from above
+export OLD_DEPLOYMENT=$(gcloud compute instances list --project=sourcegraph-managed-${CUSTOMER} | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
 export NEW_DEPLOYMENT=$([ "$OLD_DEPLOYMENT" = "red" ] && echo "black" || echo "red")
 # old version used to verify upgrade
 export OLD_VERSION=$(cat ${CUSTOMER}\/${OLD_DEPLOYMENT}\/VERSION)
