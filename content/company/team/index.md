@@ -1034,3 +1034,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [amberfurbush0317](https://github.com/amberfurbush0317)
 - [amber@sourcegraph.com](mailto:amber@sourcegraph.com)
 - Amber joins Sourcegraph previously worked in customer success roles prior to joining Sourcegraph. In her free time, Amber likes to spend time with her family, learn about different technologies, history and making new friends. 
+
+## Ben Gordon (He/Him)
+
+- Customer Support Engineer
+-  Chicago IL, USA 🇺🇸
+- GitHub: [benjaminwgordon](https://github.com/benjaminwgordon), [LinkedIn](https://www.linkedin.com/in/benjaminwgordon/)
+- [ben.gordon@sourcegraph.com](mailto:ben.gordon@sourcegraph.com)
+- Ben is an engineer based in Chicago.  Before joining Sourcegraph, he was in an instructor role where he taught students to code.  He enjoys fitness, board games, disc golf, and blacksmithing.
