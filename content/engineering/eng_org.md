@@ -19,6 +19,10 @@ A minimum viable team contains:
 
 New teams will not be created until/unless we have committed headcount in the plan to staff them to a minimum viable team within a reasonable timeframe, or to whatever is necessary to make the new team successful, whichever is larger.
 
+### Optimal team size
+
+The optimal engineering team size is somewhere between minimum and maximum size, and depends on the team's scope, the engineering manager's capacity, and teammate capabilities. We trust engineering managers to make the right decision for their team.
+
 ### Maximum viable team
 
 We expect engineering managers to not manage more than 8 people directly.
