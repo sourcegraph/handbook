@@ -116,11 +116,7 @@ The default sharing state of documents in our [Google Drive's RFCs](https://driv
 
 Sometimes there is information relevant to an RFC, but that information can't be made public.
 
-- RFCs should never reference customer names directly, even if they are listed on our homepage. Instead, you can use a Hubspot link or an arbitrary code name (e.g. "ACME", "Customer X") for each customer that you need to reference in the document. Code names do not need to be consistent across documents. The first usage of each code name should be linked to the actual company's profile in Hubspot.
-    - To make this easy, add a search engine to your browser so that you can quickly type `h ACME` or `h sourcegraph` to find the company in HubSpot. Use this URL [https://app.hubspot.com/contacts/2762526/companies/list/view/all/?query=%s](https://app.hubspot.com/contacts/2762526/companies/list/view/all/?query=%s)
-    ![Hubspot search](hubspot-search.png)
-    - Don't share the link to the search results (it has the company name in the search)! Instead, share the direct link to the company; it should look like this: [https://app.hubspot.com/contacts/2762526/company/557690851/](https://app.hubspot.com/contacts/2762526/company/557690851/)
-    ![Hubspot results](hubspot-results.png)
+- RFCs should never reference customer names directly, even if they are listed on our homepage. Instead, you can use our [process for linking to customer names in public places](../../ops/bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places). Optionally, use an arbitrary code name (e.g. "ACME", "Customer X") for each customer that you need to reference in the document. Code names do not need to be consistent across documents. The first usage of each code name should be linked to the actual customer. 
 - If there is strategic information that shouldn't be public, you can post it in Slack and link to it from the public RFC.
 - If most of the content is non-public, then it is OK to make the RFC only accessible to the Sourcegraph team. Add "PRIVATE" after the [status](#status) in the title, move it to the [private RFCs folder in GDrive](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv), and explain why it's private in the doc.
 

@@ -100,6 +100,14 @@ We use Google Tag Manager to:
 - run small scripts to populate cookie variables on info.sourcegraph.com ("Populate info forms with anonymousUid and sourceURL)
 - add conversion actions (i.e. actions that we want to measure as a conversion/success) for non-Google ads (e.g. LinkedIn and Bing)
 
+## Linking to customer or prospect names in public places 
+
+It's often useful to include a customer or prospect name in a public RFC, GitHub issue, or other publicly-viewable place. In order to do so without leaking this information to the public, we use a private [Customer/Prospect Names Mapping Index](https://docs.google.com/spreadsheets/d/1OEhzdMSlkGOaWyGKwdiAGlirsKKj9EN45Izn7kdKNTg/edit#) Google sheet.
+
+To use it, copy a link to the cell with the name you want to include, and use that link in place of the customer name. For example, if the customer was "Sourcegraph", you might write: "We heard from [this customer](https://docs.google.com/spreadsheets/d/1OEhzdMSlkGOaWyGKwdiAGlirsKKj9EN45Izn7kdKNTg/edit#gid=0&range=A1901) that...".  
+
+Anyone can add new customers or prospects to the bottom of the index as necessary. 
+
 ## Addendum
 
 More useful links for the HubSpot to Salesforce integration:
