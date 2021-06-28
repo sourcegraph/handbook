@@ -4,8 +4,8 @@ Some companies are engineering-first or sales-first, meaning they consider how t
 
 Simply, this all boils down to two things we want to be true and can often feel competing:
 
-1. We want to do what is in the best interest of the customer, setting them up for success and in such a way that they trust us
-2. We want to make decisions that set up Sourcegraph for long-term success and result in scalable and sustainable ways of doing things
+1. We want to do what is in the best interest of the customer, setting them up for success and in such a way that they trust us.
+2. We want to make decisions that set up Sourcegraph for long-term success and result in scalable and sustainable ways of doing things.
 
 This means that everyone involved needs to be prepared to honor the area of ownership each other has and have hard conversations to get to the best answer in this spirit.
 
