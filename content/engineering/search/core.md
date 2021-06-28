@@ -14,7 +14,7 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
     - [Keegan Carruthers-Smith](../../company/team/index.md#keegan-carruthers-smith)
     - [Stefan Hengl](../../company/team/index.md#stefan-hengl-he-him)
     - [Ryan Hitchman](../../company/team/index.md#ryan-hitchman)
-    - FQ3 backend engineer
+    - [Tomás Senart](../../company/team/index.md#tomás-senart)
 
 ## Contact
 
