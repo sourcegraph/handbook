@@ -11,18 +11,18 @@
     - [Product marketing hierarchy](product_marketing_hierarchy.md)
     - [Product marketing roadmap](https://docs.google.com/spreadsheets/d/1268CYG4arbGT6F0Eyy4e-EY5CQgtopcS9OdAenkjtzY/edit#gid=0)
     - [Release post process](release_post_process.md)
-- [Content Marketing](content.md)
-    - [Creating blog posts](creating_blog_posts.md)
-    - [Editing blog posts](creating_blog_posts.md#editing-blog-posts)
+- [Content Marketing](content/index.md)
+    - [Creating blog posts](content/creating_blog_posts.md)
+    - [Editing blog posts](content/creating_blog_posts.md#editing-blog-posts)
 
 - [Demand Gen](demandgen.md)
-    - [Account Based Experience](account_based_experience.md) 
+    - [Account Based Experience](account_based_experience.md)
     - [Digital Marketing Programs](digital_marketing_programs.md)
     - [Marketing operations](marketing_operations.md)
          - [Livestream events](livestream.md)
          - [Looker dashboards](https://sourcegraph.looker.com/browse/boards/2)
          - [Digital ads](ad_conversion_flows.md)
-    
+
 - [Developer Education](education.md)
 - Community Relations
     - [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
@@ -45,7 +45,7 @@
     - [Andy Schumeister](../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
         - [Julie Campagna](../company/team/index.md#julie-campagna-she-her), Senior Customer Advocacy Manager
         - Product Marketing Manager, Emerging Products - starting in July
-        - Product Marketing Lead, Enterprise - starting in July 
+        - Product Marketing Lead, Enterprise - starting in July
     - [Erica Lindberg](../company/team/index.md#erica-lindberg-she-her), Director of Content Strategy
         - [Rebecca Dodd](../company/team/index.md#rebecca-dodd-she-her), Senior Managing Editor
         - [Jenny Bergen](../company/team/index.md#jenny-bergen-she-her), Manager, Content Marketing

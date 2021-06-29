@@ -58,6 +58,11 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Customer Engineering](ce/index.md)
 
 ### [Marketing](marketing/index.md)
+- [Product Marketing](marketing/product_marketing.md)
+- [Content Marketing](marketing/content/index.md)
+- [Demand Gen](marketing/demandgen.md)
+- [Developer Education](marketing/education.md)
+- [Brand](marketing/brand/index.md)
 
 ### [Sales](sales/index.md)
 

@@ -1,8 +1,8 @@
-# Creating & editing blog posts with markdown and GitHub 
+# Creating & editing blog posts with markdown and GitHub
 
 We want and encourage everyone at Sourcegraph to contribute to the blog and publishing a blog post is as simple as merging an approved pull request with your blog content.
 
-## Table of contents 
+## Table of contents
 
 1. [Process overview](#process-overview)
 1. [How to create a new blog post in GitHub](#adding-a-blog-post)
@@ -60,12 +60,12 @@ The data between the `---` is called front matter and is used to provide post me
 
 ### Sizing images
 
-- Make images as small as possible (aim for less than 200Kb). 
+- Make images as small as possible (aim for less than 200Kb).
 - Images should be no larger than 1600px wide (if you want @2x retina quality) but often, this isn't needed and 800px is fine.
 - JPEG images should be compressed at no larger than 80% quality to reduce file size.
 - The [ImageOptim](https://github.com/ImageOptim/ImageOptim) app and CLI is great for significantly reducing the size of PNG files and JPEG files.
 
-### Uploading images 
+### Uploading images
 
 - Small images can be placed in the `website/static/blog` directory and have the url of `/blog/example-image.jpg` in your markdown.
 - Large images, GIFs, and other binary assets should be uploaded to the `sourcegraph-assets` Google Cloud Storage bucket. You can use the UI uploader at [https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog](https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog) or you can use the CLI with `gsutil cp local/path/to/myasset.png gs://sourcegraph-assets/`, with the image `src` being `https://sourcegraphstatic.com/blog/myasset.png`.
@@ -83,7 +83,7 @@ Uses Bootstrap for responsive sizing and adequate whitespace between adjacent el
 
 ### Adding a screenshot or screen recording
 
-You can read about [embedding GIFs and videos](adding_screenshots_screen_recording.md) here.
+You can read about [embedding GIFs and videos](../adding_screenshots_screen_recording.md) here.
 
 ## Previewing your blog post
 
@@ -97,7 +97,7 @@ Once your pull request is created, you can preview your blog post through the ne
 * This will open a build of the Sourcegraph marketing website
 * Add /blog to the end of the url
 
-## Publishing your post 
+## Publishing your post
 
 Once your pull request has been approved and merged, a new build of the production site will be triggered and your post will be live in 5 minutes.
 
