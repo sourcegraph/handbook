@@ -29,11 +29,16 @@
 
 - [Add your working hours to Google Calendar](https://calendar.google.com/calendar/r/settings) so your teammates know when it is safe to add meetings to your calendar.
 - Add any local [holidays](../holidays.md) you observe to your calendar so people know you're not working.
-- Make it so any attendees can edit meetings you create: `Default guest permissions: Modify event` (this makes it easy for teammates to reschedule when necessary).
+- Under [Event Settings](https://calendar.google.com/calendar/u/0/r/settings), change the default guest permissions to  "Modify event" (this makes it easy for teammates to reschedule when necessary).
+  - Consider enabling "Speedy meetings" to build in a 5- or 10-minute break at the end of meetings.
+
+![Modifying Google Calendar event settings](https://sourcegraphstatic.com/handbook/google-calendar-event-settings.png)
+
 - Set up a recurring weekly [1-1 meeting](../../leadership/1-1.md) with your manager (e.g., `1-1 $YOURNAME-$MANAGERNAME`).
 - Join the Sourcegraph events calendar by copying `sourcegraph.com_9cd67o8p3gs0rtpj73bt326psk@group.calendar.google.com` into your [add calendar field](https://calendar.google.com/calendar/u/0/r/settings/addcalendar?)
 - Also join the [social calendar](../../company/remote/social_calendar.md)
 - You can add a secondary time zone in your calendar. This will show two time columns. This is very useful when you work closely with people in another time zone. Go to **Settings > General > Time zone** and select the **Display secondary time zone** box. Choose the time zones you want and label them.
+- See the Communication handbook for [more on scheduling meetings](../../communication/index.md#scheduling-meetings-with-google-calendar).
 
 ## Learn how to contribute to the handbook
 
@@ -54,7 +59,8 @@
 ### Communication and documentation
 
 - We're a handbook-first company. Learn all about the handbook on its [handbook page](../../usage.md).
-- Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant!
+- We use Slack for team chat. Please read the [Slack handbook page](../../communication/team_chat.md) to understand what we use Slack for and how we use it. 
+  - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant!
 - Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
 
 ### Other resources

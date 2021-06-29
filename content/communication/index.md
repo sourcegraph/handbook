@@ -46,12 +46,17 @@ The following places are not sources of truth. Treat documents and conversations
 - Always end on time (or early).
   - If there's more to discuss, handle it asynchronously or schedule a new meeting with the appropriate participants.
   - A meeting that would run over is a nudge that the meeting's agenda or duration was wrong, or that the meeting was led ineffectively.
-- When creating the Google Calendar event:
-  - Add a [Zoom video call](#video-calls).
-  - Enable "Guest permissions: Modify event" so that other people can easily reschedule the meeting if needed.
-- Add a Google Doc link to the event description for taking notes during the meeting.
-  - If the meeting is recurring, use the same Google Doc for all meetings.
 - Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../company/team/org_chart.md) helps.)
+
+#### Scheduling meetings with Google Calendar 
+
+Before you start, please make sure you've [configured your Google Calendar settings](../people-ops/onboarding/general_onboarding.md#configure-google-calendar) as described in the onboarding guidelines.
+
+- When creating the Google Calendar event:
+  - Use the "Find a Time" feature to see when you and other meeting attendees are all available. 
+  - Add a [Zoom video call](#video-calls).
+  - Add a Google Doc link to the event description for taking notes during the meeting.
+    - If the meeting is recurring, use the same Google Doc for all meetings.
 
 #### Structured meetings
 
@@ -75,6 +80,16 @@ Structured meetings are great, but it's important to have casual, unscheduled, f
 - End meetings on time.
 - Be patient for external folks who are running late to our meetings.
   - For customers, prospects, and users, wait on the line for at least 10 minutes (and send them a friendly reminder after 3-5 minutes).
+
+## Video calls
+
+Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) for all video calls because it seems to have the best connectivity and compatibility.
+
+1. Google Calendar has a [Zoom plugin](https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle?hl=en-US) where you can easily add a Zoom link for a video call to the invite.
+1. Be sure to include the Zoom dial-in for team members who need to join by phone. (If you use the Zoom plugin linked above, this is automatic.)
+1. In your [Zoom settings](https://zoom.us/profile/setting), enable "Join before host". (It is enabled by default in our Zoom organization account, but you may have overridden it previously.) This lets the meeting get started even if you aren't there.
+1. Set Zoom meetings to be recorded to the cloud so that you and other teammates can refer back to them later.
+   - If any participant doesn't feel comfortable with the meeting being recorded, it is fine to not record it.
 
 ## [1-1 meetings](../leadership/1-1.md)
 
@@ -114,16 +129,6 @@ Deprecate a Google Doc when all of its content is added to the handbook, blog, o
 See [example of deprecated Google Doc](https://docs.google.com/document/d/1M22s-WDY9lp_JOitfv48cZNjtv4x6IJVKhlHZOAIlLM/edit#heading=h.23jju0ooahdb).
 
 If you need to deprecate just part of a Google Doc, replace the deprecated portion with `DEPRECATED: See <URL to new content location>`.
-
-## Video calls
-
-Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) for all video calls because it seems to have the best connectivity and compatibility.
-
-1. Google Calendar has a [Zoom plugin](https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle?hl=en-US) where you can easily add a Zoom link for a video call to the invite.
-1. Be sure to include the Zoom dial-in for team members who need to join by phone. (If you use the Zoom plugin linked above, this is automatic.)
-1. In your [Zoom settings](https://zoom.us/profile/setting), enable "Join before host". (It is enabled by default in our Zoom organization account, but you may have overridden it previously.) This lets the meeting get started even if you aren't there.
-1. Set Zoom meetings to be recorded to the cloud so that you and other teammates can refer back to them later.
-   - If any participant doesn't feel comfortable with the meeting being recorded, it is fine to not record it.
 
 ## Writing
 
