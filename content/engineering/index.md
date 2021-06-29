@@ -58,7 +58,6 @@ Sourcegraph has a lot of repositories!
 ## Sourcegraph deployments and other developer test instances:
 
 - [sourcegraph.com](https://sourcegraph.com) is our production deployment for open source code.
-- [sourcegraph.sgdev.org](http://sourcegraph.sgdev.org) is our private deployment of Sourcegraph that contains some of our private code.
 - [k8s.sgdev.org](https://k8s.sgdev.org) is a dogfood deployment that replicates the scale of our largest customers.
 - [demo.sourcegraph.com](https://demo.sourcegraph.com) is a managed instance used for CE demos.
 - [devmanaged.sourcegraph.com](https://devmanaged.sourcegraph.com) is a managed instance used for managed instances development.
