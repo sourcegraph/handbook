@@ -899,7 +899,7 @@
           33.84874817060767
         ]
       }
-   },
+    },
     {
       "type": "Feature",
       "properties": {
@@ -910,10 +910,10 @@
         "coordinates": [
           -117.92734265327452,
           33.673845318635735
-         ]
+        ]
       }
     },
-     {
+    {
       "type": "Feature",
       "properties": {
         "name": "Carl Hicks"
@@ -923,7 +923,20 @@
         "coordinates": [
           -77.036873,
           38.907192
-         ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ben Gordon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62420654296875,
+          41.87582421126483
+        ]
       }
     }
   ]
