@@ -938,6 +938,17 @@
           41.87582421126483
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Donavon Ellison"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.61172103881836,
+          34.1109517943943
+        ]
+      }
     }
   ]
 }
