@@ -1,36 +1,45 @@
 # Digital Campaigns
 
-### Strategy:
+### Strategy
+
 Paid digital programs at Sourcegraph are focused on both awareness and lead gen:
+
 - Awareness – get the message out about Sourcegraph and Universal Code Search to developers worldwide
 - Lead gen – generate inquiries/leads (i.e., email addresses) using high-intent offers
 
-### Offers:
- We use a variety of CTAs, including:
+### Offers
+
+We use a variety of CTAs, including:
+
 - Product trials [Try Sourcegraph](https://about.sourcegraph.com/get-started/), [Search Open Source Code on Sourcegraph Cloud](https://sourcegraph.com/search) – these are designed to generate usage/testing of the Sourcegraph product, for both the local install and Cloud product
 - [Blog content](https://about.sourcegraph.com/blog/) – these campaigns offer educational content from the Sourcegraph blog to enable developers to increase their skills and think of Sourcegraph as a developer resource
 - Testimonial content & [case studies](https://about.sourcegraph.com/case-studies/) – testimonial quotes from customers and case study offers provide third-party credibility for both individual developers and their managers
 
-### Audiences:
+### Audiences
+
 > **For developer-focused campaigns**, we speak directly to individual practitioners who are trying to solve specific Big Code problems that Sourcegraph can address (better code search, better code reviews, finding & fixing bugs faster, etc.)
 
 > **For manager-focused campaigns**, we speak to engineering managers who may have larger organizational challenges, such as onboarding new team members, finding security vulnerabilities, moving from monolith to microservices, etc. 
 
 When it’s possible to serve ads to specific personas at select companies (e.g., on LinkedIn, Bing display network through LinkedIn audience network), we serve ads to developers/managers at our Target Accounts.
 
-### Goals:
-* **Web-based awareness programs** – when clickthrough ads are being served on developer-facing websites or networks, our goals are to see Sourcegraph website visitors (traffic) from those ads and multiple page visits/actions (engagements) taken by those visitors, which shows interest in learning more about Sourcegraph
-* **Podcast sponsorships and other sponsorships** that don’t provide clickthrough opportunities – we consider these awareness campaigns only, as part of our overall community building efforts
-* **Lead gen campaigns** designed to generate inquiries/leads are measured by the number of high-intent actions taken that generate email inquiries, including submitting a Contact Us / Request for Demo form, downloading the free/open-source version of Sourcegraph, or signing up for a Sourcegraph.com Account to save searches on our web-based Cloud product.
+### Goals
 
-### Channels:
+- **Web-based awareness programs** – when clickthrough ads are being served on developer-facing websites or networks, our goals are to see Sourcegraph website visitors (traffic) from those ads and multiple page visits/actions (engagements) taken by those visitors, which shows interest in learning more about Sourcegraph
+- **Podcast sponsorships and other sponsorships** that don’t provide clickthrough opportunities – we consider these awareness campaigns only, as part of our overall community building efforts
+- **Lead gen campaigns** designed to generate inquiries/leads are measured by the number of high-intent actions taken that generate email inquiries, including submitting a Contact Us / Request for Demo form, downloading the free/open-source version of Sourcegraph, or signing up for a Sourcegraph.com Account to save searches on our web-based Cloud product.
+
+### Channels
+
 We run (or have run) ads/sponsorships on the following channels in order to raise awareness of Sourcegraph in the developer community.
 
 #### Developer-Facing Ad Networks
+
 - [BuySellAds](https://www.buysellads.com/) (Carbon, Brave browser)
 - [DeveloperMedia](https://developermedia.com/) (CodeProject newsletters)
 
 #### Developer-Facing Blogs/Websites/Newsletters
+
 - [DaringFireball](https://daringfireball.net/)
 - [Cooper Press newsletters](https://cooperpress.com/) (Javascript Weekly, Node Weekly, React Status, Go Weekly)
 - [StackShare](https://stackshare.io/feed)
@@ -46,9 +55,11 @@ We run (or have run) ads/sponsorships on the following channels in order to rais
 - [Hanselminutes](https://www.hanselminutes.com/)
 
 ### Paid Search and Display Campaigns
+
 We run search ads (text and display) on both Google and Bing. Our display ads run as part of Intent campaigns (serving ads to those who have searched on our core keywords) and Remarketing campaigns (serving ads to those who have visited our website).
 
 ### Paid Social Campaigns
+
 We have run multiple [Sponsored Content campaigns on LinkedIn](https://www.linkedin.com/company/sourcegraph/posts/?feedView=ads&viewAsMember=true), using the following content offers, among others:
 * [Ex-Googler’s Guide to Dev Tools](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/) – blog post – served to ex-Googler individual developers
 * [Big Code survey](https://info.sourcegraph.com/emergence-of-big-code-2020-survey) – PDF download – served to individual developers/managers at Target Accounts
@@ -61,10 +72,12 @@ Details for all the above programs/campaigns can be found [here](https://docs.go
 We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See details [here](https://about.sourcegraph.com/handbook/marketing/ad_conversion_flows).
 
 ### Insertion Order Process
+
 1. We negotiate insertion orders/contracts for our advertising placements with our media partners
 2. Electronic copies of the insertion orders are sent to Sarah Reece (Demand Gen Director) for electronic signature
 3. Copies of signed insertion orders are loaded to the Google drive [here](https://drive.google.com/drive/u/1/folders/1TChjJOeg94NxUc7pUbSdm6vTFNvYaG27) (internal link only).
 
 ### Billing Process
+
 1. Invoices are received via email from our advertising partners.
 2. We send invoices to <finance@sourcegraph.com>, and include a copy of the signed insertion order as backup for the invoice.
