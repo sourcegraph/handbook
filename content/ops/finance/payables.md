@@ -26,7 +26,8 @@ Just [contact the finance team](index.md#contact) if you believe you are eligibl
 |Department leads (VP-level or above)|$10,000|
 |Managers and Directors|$1,000|
 
-It is not required to provide receipts for purchases on Brex cards, provided it is used for corporate purchases (as opposed to personal purchases that are expensed).
+It is not required to provide receipts for corporate purchases on Brex cards (i.e. vendor payments). For purchase of personal purchases above $50, (i.e. laptops, food, travel expenses), please upload a receipt.
+
 If you have a purchase that you’d like to explain/clarify post about it in the `#finance` Slack channel (e.g. if it's some new system for the team) or email `finance@sourcegraph.com` (e.g. if it's a personal reimbursable expense).
 
 ## Getting invoices paid
