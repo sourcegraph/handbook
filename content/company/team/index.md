@@ -1042,3 +1042,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [benjaminwgordon](https://github.com/benjaminwgordon), [LinkedIn](https://www.linkedin.com/in/benjaminwgordon/)
 - [ben.gordon@sourcegraph.com](mailto:ben.gordon@sourcegraph.com)
 - Ben is an engineer based in Chicago.  Before joining Sourcegraph, he was in an instructor role where he taught students to code.  He enjoys fitness, board games, disc golf, and blacksmithing.
+
+## Donavon Ellison (He/Him)
+
+- Customer Support Engineer
+- Acworth, GA USA
+- GitHub: [donavonelli](https://github.com/donavonelli), [LinkedIn](https://www.linkedin.com/in/donavonelli/), 
+- [don@sourcegraph.com](mailto:don@sourcegraph.com)
+- Donavon is an army veteran with a love for programming and all things tech. Based in the peach state, you can usual find him either exercising, watching tv, playing video games or playing with his dog, CiCee
