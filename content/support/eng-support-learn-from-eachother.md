@@ -59,22 +59,6 @@ When we work on documentation, we…
 * ...ensure that if we move a page, we add a redirect for the old URL [here](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/_resources/assets/redirects)
 * ...default to explaining in text so it’s searchable (avoid screenshots)
 
-## Troubleshooting documentation project
-Starting in FY22Q1 with a goal to complete in FY22Q2, CSEs are adopting an area of focus to specifically fill the gap of where to start troubleshooting when an issue surfaces. Giselle is leading this effort (if you have questions) and anyone can see our progress in this table (we simply mark when something is done and if you want more detailed status, you can check with support in #customer-support-internal). When a CSE is responsible for a focus, they will work with that team to capture all the good information about troubleshooting.
-
-|Focus|CSE Responsible|Status|
-|---|---|---|
-|API docs|TBD||
-|Batch changes|TBD||
-|Code insights|TBD||
-|Code intelligence|Warren|In-progress; Eric completed [v1](https://docs.sourcegraph.com/code_intelligence/references/troubleshooting)|
-|Core application|Stompy|In-progress|
-|Distribution|Giselle|In-progress|
-|Extensibility|Beatrix|In-progress|
-|Frontend platform|TBD||
-|Search (core and product)|Adeola|In-progress|
-|Security|TBD||
-
 ## Projects
 Some engineering teams have a way for a CSE to take on a scope-bound project (like taking responsibility for a small Github issue). This isn’t easy for all teams and it’s better if we start with a conversation than jumping in. The best place to start is with Virginia just in case she has helpful context she has forgotten to share. And also consider the following…
 
