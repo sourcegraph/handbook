@@ -1,158 +1,119 @@
-# Marketing operations*
- *WIP as of 5.17.21 (This page was created some time ago and is in the process of being updated!)
+#  Marketing Operations 
+The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MartTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable. Our goal is to make sure the systems support the strategy! For any questions related to marketing operations, reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com).
+ 
+ 
+## MarTech Stack
+As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today. 
 
-## Lead management
+##  Lead Management
+This section encompasses how marketing qualified leads inbound as well as how we manage the lead lifecycle in partnership with Sales Operations.
 
-### Email-only leads from installations, signups, and NPS surveys
+### Lead Creation
+Marketing qualified leads inbound in the following ways:
+#### Contact Us Forms:
+- [Sourcegraph - Contact us to learn more about Sourcegraph enterprise](https://about.sourcegraph.com/contact/request-info/?form_submission_source=pricing-enterprise)
+- [Sourcegraph - Talk to a product specialist](https://about.sourcegraph.com/contact/sales)
+#### Demo Forms:
+- [Sourcegraph - Schedule a Batch Changes demo](https://about.sourcegraph.com/contact/request-batch-changes-demo/)
+- [Sourcegraph - Schedule a Sourcegraph demo](https://about.sourcegraph.com/contact/request-demo/)
+#### Big Code Survey:
+- [The Emergence of Big Code - download the free report](https://info.sourcegraph.com/emergence-of-big-code-2020-survey)
+#### Product (Private Install or Sourcegraph.com Account Sign Ups) Email- Only Leads*
+*(Backend web code set up by BizOps/CustomerOps passes prospect email address and tracking/sourcing data via API key from the product into Hubspot)
 
-New leads with email-only from installations, signups, and NPS surveys will be enriched by Zoominfo.  Once a lead is enriched:
+- Private/Local Install
+This lead is created when a prospect copies and pastes the code from the “Search Your Own Code” CTA on the “Get Started” page and runs it on their machine, we capture an email address and share it with sales.
+- Sourcegraph.com Account (Cloud)
+This lead is created when a prospect clicks on our CTA that says “Try Sourcegraph Cloud now” from the about.sourcegraph site. They are then taken to our product which is sourcegraph.com/search. If they click “Sign Up” on the top right of that page and create an account, we capture an email address and share it with sales.
 
-- With at least a last name, then the lead will sync to Salesforce (SFDC).
-  - Company Name will be marked [not provided] by SFDC.
-     Note: If Zoominfo found a last name, there's a high probability it will have the first name too.
+### Lead Qualification by Intent  Score
+The activities above automatically generate a marketing qualified lead. However, we also have a scoring model that takes into account prospects who interact with landing pages and other marketing content. If a prospect interacts with Sourcegraph in multiple places, you may also see them score enough to trip the marketing qualified/intent  threshold and be passed to the inbound SDR team.
+You can see the specifics of our intent and product lead scoring in our working [lead scoring model here](https://docs.google.com/spreadsheets/d/1mAa2bueT8BrVjd5H5PQjKb7QMVFYObHYwg18ox02vsk/edit#gid=0) .
+### Lead Lifecycle
+Marketing Operations is currently partnering with sales to implement a lead lifecycle program. Once the details are finalized, we will be updating this section.
+ 
+## Hubspot
+Hubspot is our marketing automation tool. It’s where we run all our email marketing campaigns, track engagement, score marketing qualified leads, and manage parts of the lead lifecycle from. Our goal is to keep this system aligned with Salesforce so that we’re staying current with processes to support the sales cycle.
+### Hubspot Access
+Most everyone at the organization has access to Hubspot. If you do not and you would like access, you can reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com). Alternatively,  if you have a user seat, but are having difficulty completing an action due to your user role/permissions you can reach out as well.
 
-- With company only, then the lead will sync to SFDC
-  - Name (first and last) will be marked [not provided] by SFDC.
-      
-- With no first, last, and company names, the lead will remain in Hubspot for further nurturing (* please suggest any handling of these email-only records)
+### Request for Email Send via Hubspot
+If you are interested in getting an email sent through Hubspot to existing opt-in email addresses, please be sure to fill out our [Hubspot Email Send Request Form](https://form.asana.com?k=_YtJFC_Eo-NG8iOSEdNgVA&d=7195383522959). Once we receive your request, we will assess our email send schedule to see if we can accommodate your request and provide options and recommendations if it is a request that cannot be accommodated.
+### Hubspot Technical Resources
 
-### Nurture process of new leads from installations, signups, and NPS surveys
+Hubspot is a fluid system, where we are always making updates to continue to improve our processes. Here are a few places you can go to review technical updates the marketing operations team is making within the system:
+[Marketing/Hubspot Documentation](https://docs.google.com/document/d/1rJ9dmicBH160yQBRblsPMv0k-Hetp4O-_RQUyHrmvKA/edit?usp=sharing)
 
-- Signups to Sourcegraph Cloud, will be nurtured by Hubspot workflow: WF EMAIL Inbound Lead Automation 
-- Server admin and NPS survey leads will go to Sales development representatives (SDRs) for initial outreach  
+### Hubspot and UTM parameters
 
-## Marketing attribution
+The parameters that [HubSpot supports out of the box](https://knowledge.hubspot.com/settings/how-do-i-create-a-tracking-url)  are `utm_campaign`, `utm_source`, `utm_medium`, `utm_term`, and `utm_content`.
 
-### UTMs
+First Touchpoint is a custom marketing field we have created in Hubspot.. This fields help us determine the first touches marketing has with a prospect. There are supporting
+[Workflows](https://app.hubspot.com/workflows/2762526/flow/9011999/edit) set up in HubSpot to capture the latest conversion information, and copy this information to the ‘First event’ fields if they are blank/ unknown.
 
-All URLs used on external sites should contain UTM parameters for lead attribution. Any URLs built must be logged in the [UTM builder](https://docs.google.com/spreadsheets/d/1U0HRC5WVz3tsP6z9pqDLG8igTMSf2-pQGhbRoVn_iu0/edit#gid=0).
+### Dashboards and Marketing Analytics*
+*Of note, these are directional reports. Any organization-wide reports are done by BizOps and Finance.
 
-### HubSpot and UTMs
+The following tools are used currently for Marketing Analytics:
 
-HubSpot automatically captures the parameter as long as the URL parameter name matches the HubSpot field name.
-
-The forms that support UTM are:
-
-- Contact us
-- Request a demo or enterprise trial 
-- In-product request (enterprise) trial 
-- Request a PDF
-
-The parameters that our HubSpot workflows support are `utm_campaign`, `utm_source` and `utm_medium`. Tag @ericbm in #marketing if more parameters are needed. 
-
-[Workflows](https://app.hubspot.com/workflows/2762526/flow/9011999/edit) are set up in HubSpot to capture the latest conversion information, and copy this information to the ‘First event’ fields if they are blank and unknown.
-
-| First event field names   | Latest event field names | Example               | Notes                                                                                                     |
-|---------------------------|--------------------------|-----------------------|-----------------------------------------------------------------------------------------------------------|
-| First converting campaign | utm\_campaign            | 2019ebook\_searchcode | Specific campaign within marketing channel                                                                |
-| First converting medium   | utm\_medium              | paid                  | Marketing channel                                                                                         |
-| First form conversion     | Form submission source   | Request a demo form   | Form submitted                                                                                            |
-| First source              | utm\_source              | stackoverflow         | Referring site                                                                                            |
-| First converting date     | utm\_date                | 2020\-01\-01          | Date at which the user submitted the form                                                                 |
-| gclid                     | gclid                    | TeSter\-123           | Google Click ID that syncs data between Google Ads and Analytics\. Only a contact’s first gclid is stored |
-
-## Creating email lists
-
-There are many contacts in HubSpot that have not opted into marketing emails. For example, if an email to a prospect's procurement department is logged in HubSpot, we should not be sending Sourcegraph communications to them. All email lists need to be built from the "ground up". What does this look like in practice?
-
-**Good**: List = Instance admins + demo requesters + NPS responders<br/>
-**Bad**: List = All contacts - outbounded contacts - unsubscribed contacts - instance admins
-
-Let BizOps know in #marketing if you'd like a second set of eyes on any email lists. 
-
-## Maintaining data pipelines
-
-All major lead generation-related events (demo requests, livestream registrations, created instances) are copied to a [Google Sheet](https://docs.google.com/spreadsheets/d/16S3xlcY7DmpcfKZYD-3VHUsaPLiYHyisu8cD_gZpv0Q/edit#gid=0) by way of Zapier. This requires all events to funnel to a [data pipeline HubSpot list](https://app.hubspot.com/contacts/2762526/lists?folderId=454) so the Zapier event can be triggered.
-
-## CCPA/GDPR compliance
-
-To delete a contact requesting to be deleted from our systems:
-
-- Review our list of [data sources](../ops/bizops/analytics.md#data-sources) and delete the contact from each source. 
-- Take and log [screenshots](https://drive.google.com/drive/folders/1d0X0y2a5W6X8Vot6n26XtAKAGrdG2_a5) in the [Data Protection Officer folder](https://drive.google.com/drive/folders/1d0X0y2a5W6X8Vot6n26XtAKAGrdG2_a5) of attempt to find contact in the system. 
-- Email contact from personal Sourcegraph email with the following `We have received your [CCPA|GDPR] request to be deleted from Sourcegraph systems. Your information has been permanently wiped from all our systems (screenshot attached), and as a result you will no longer receive any communications from us. [PERSONALIZED SENTENCE based on situation]`.  
-
-## Marketing definitions
-
-### Contact
-A person, identified by an unique email address, that is associated with a Salesforce account
-
-### Lead
-A person, identified by an unique email address, that has no known relationships with a Salesforce account
-
-### Account
-A company record which may include one or more contact records.
-
-### [Influential developer](personas.md#influential-developer)
-
-See the "[Influential developer](personas.md#influential-developer)" persona.
-
-### [Personas](personas.md)
-
-See "[Personas](personas.md)" for the full list of personas we're targeting.
-
-### Inquiry
-
-An inquiry is a person who has requested information from Sourcegraph for the first time and has provided Sourcegraph with at least an email address*. This may be online via a web form, or in person, for example, at a conference. 
-
-\* [Specific email domains](https://app.hubspot.com/property-settings/2762526/properties?action=edit&property=inbound_scoring_qualification&search=inbou&type=0-1) are excluded.
-
-### Interesting inquiry
-
-Any inquiry that is:
-
-- A person who works for a company with > $50M in revenue
-- A person who works for company with > 250 engineers
-- A person who fills out a Contact or Demo request
-
-## Technology stack
-
-### Demand generation
-
-- [Hubspot](https://app.hubspot.com/reports-dashboard/2762526/view/144686)
-- [Salesforce](https://sourcegraph2020.my.salesforce.com/)
-- Clearbit has replaced Zoominfo for data enrichment and is now owned by [Sales Strategy and Operations](https://about.sourcegraph.com/handbook/sales/sales-ops) 
-
-### Analytics 
-
+- [Marketing Dashboard in Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z3t000001BU2XEAW/view?queryScope=userFolders)
 - Google Analytics
-- Google Data Studio
 - Looker
+We are in the process of improving this practice with the future hire of a Marketing Analyst.
 
-### SEM and Social advertising
+## Digital Ad Conversion Flows
 
-- Google Ads
-- LinkedIn Ads
-- Microsoft Advertising
-- [Ad conversion flows and setup](ad_conversion_flows.md)
+We run advertisements on several platforms, including Google, Bing, and LinkedIn. We measure the effectiveness of our digital advertisements by tracking the number of key actions taken by users that land on our site from ads. These key actions are called conversion goals. Goals include actions like filling out a form, signing up for an account, or conducting a search on Sourcegraph.com.
 
-### SEO tools
+This document describes how we set up and measure conversion goals for digital advertising campaigns for each major platform. At a high level, we set up Tags in Google Tag Manager that fire events when certain actions are conducted on our site. These events are then sent to the respective ad platform, where we define goals by matching on these events.
 
-- Google Optimize
-- Moz Pro
-- Ubersuggest
-- CrazyEgg
+There is some assumed knowledge here about Google Tag Manager (GTM) concepts: Tags and Triggers. Please read the GTM documentation to learn more.
 
-### Design and miscellaneous web apps
+### Google Ads
 
-- Adobe CC
-- Figma
-- Bit.ly
-- Eventable
-- Zapier
+For Google ads, events flow from Google Tag Manager to Google Analytics to Google AdWords.
 
-### Website infrastructure
+1. Google Tag Manager
 
-- Github
-- Gatsby
-- Netlify
-- Visual Studio Code
-- Google Search Console
-- Google Tag Manager
-- Cookiebot
+In Google Tag Manager, to send events to Google Analytics, we set up Tags with the type `Google Analytics: Universal Analytics`. These events can be very broad, like 'Any HubSpot form submission', which fires whenever any HubSpot form is submitted on our site, or specific, like 'Batch Changes Demo Request Form Submission', which only fires when the Batch Changes demo request form is submitted.
 
-### Media/content storage
+Each Tag defines a Category, Action, and Label. These are used for scoping down events. For example, if the Tag is for 'Any form submission', the Category is "HubSpot Form", the Action is the Page Path variable (the URL path), and the Label is the HubSpot form ID.
 
-- Google Cloud Storage
-- [YouTube](https://www.youtube.com/channel/UCOy2N25-AHqE43XupT9mwZQ)
-- [Vimeo](https://vimeo.com/sourcegraph)
+If you want to add a new tag specifically for a conversion, lean towards being specific rather than broad.
+
+2. Google Analytics
+
+In Google Analytics, we define Goals. You can find these goals in `Admin > Goals`. Goals are defined by specifying the Event Category, Action (optional), and Label (optional) that should match for a specific goal. Using the form submission example, if we wanted to count a conversion for any HubSpot form submission, we would specify a Goal that matches on any event where the Event Category matches "HubSpot Form". If we wanted to create a conversion for form submissions only on the `/contact/sales` page, we would define a Goal that matches on any event matching Event Category "HubSpot Form" and an "Event Action" of `/contact/sales`. As a reminder, these Actions and Labels are set in Google Tag Manager in the step above.
+
+3. Google AdWords
+
+In AdWords, you can see the conversion goals that are synced from Google Analytics via `Tools and Settings > Measurements > Conversions`. Several charts in AdWords show the performance of our campaigns based on their conversion rates.
+
+### Bing Ads
+
+Bing ads are set up very similarly to Google Ads. However, you need to ensure a conversion goal is set up in Microsoft Advertising prior to creating a tag in GTM.
+
+1. Google Tag Manager
+
+Tags for Bing ads function the same as Google ads. However, creating Tags to send events to Microsoft Advertising requires knowing the UET tag. You can get this after you've created a goal in the Microsoft ad platform.
+
+2. Microsoft Advertising
+
+In the Microsoft Advertising platform, create a new goal (or ensure the goal you want to measure already exists) by going to `Tools > Conversion tracking > Conversion goals > Create a conversion goal`. Similar to Google Analytics, specify the Event Category, Action, Label to match on.
+
+### LinkedIn Ads
+
+LinkedIn campaigns are significantly different from Bing and Google. For LinkedIn ads, you cannot match events when specifying conversions (i.e. match on Event Category/Action/Label) on their platform. Rather, in LinkedIn Campaign Manager, you create a conversion goal and they provide you a pixel (URL) that you attach to Tags in GTM. Therefore, you need to create Tags that fire on _exactly_ the interaction you want, and you do this by listening on Triggers that match the exact interaction.
+
+1. Google Tag Manager
+
+In GTM, we need to create Triggers that match exactly the Conversion Goals that we want. Triggers are the events that cause Tags to run. These Triggers would need to specify the same Category/Action/Label values as Conversion Goals in Microsoft Bing Advertisements and Goals in Google AdWords.
+
+2. LinkedIn Campaign Manager
+
+In LinkedIn Campaign Manager, add a Conversion. Here, you just specify the name of the Conversion, a window of time (30 days and 1 day) that conversions should log after clicking an ad, and the campaigns you want included for conversion tracking. At the end of the process, you will get an event specific pixel. Copy this.
+
+3. Google Tag Manager (part 2)
+
+In GTM, create a Tag of type `Custom Image` that mirrors the Conversion Goals in Microsoft Bing Ads and Google AdWords, using the Triggers you created in step 1. For each Tag, copy the pixel you got from creating the Conversion from LinkedIn Campaign Manager, and input the value in the Image URL field.
+
