@@ -25,6 +25,17 @@ When you first start in support, the list of tools to set-up can feel like a lot
 * Krisp quiets background noise when on Zoom.
 * Grammarly and Hemingwayapp help us say what we intend and catch any typos we don't see.
 
+## Test Environments
+
+There are some test environments created specifically for the Customer Support Engineers to run tests on when helping customers. They allow supports to reproduce issues without affecting our production instances.
+
+* [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/)
+* [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/)
+* [Single Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
+* [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
+
+> NOTE: Please let the team knows in our internal channel if you need CLI/logs access.
+
 ## Troubleshooting
 
 ### GitHub Repository for Support Tools
@@ -41,11 +52,11 @@ The [Command Line Generator](https://sourcegraph.github.io/support-tools/command
 
 [Link to Command Line Generator GitHub Repository](https://github.com/sourcegraph/support-tools/tree/main/command-generator)
 
-#### Sourcegraph Graphql Voyager
+### Sourcegraph Graphql Voyager
 
 [Sourcegraph Graphql Voyager](https://sourcegraph.github.io/support-tools/Graphql-Voyager/) is a bootstraped tool that allows users to visually explore the Sourcegraph GraphQL API as an interactive graph.
 
-##### How to use:
+#### How to use:
 
 1. Go to [Cors Demo](https://cors-anywhere.herokuapp.com/) to opt-in for temporary `Cors Anywhere` access by clicking on the Request temporary access to the demo server button
 2. Enter your Sourcegraph Token on homescreen
