@@ -34,7 +34,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - Tools
    - [Greenhouse, our ATS](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse)
    - [LinkedIn, our sourcing tool] Coming soon
-   - [Brighthire, our interview recording tool] Coming soon 
+   - [Brighthire, our interview recording tool](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire)
 
 ## Resources for Teammates 
 - [How to refer a candidate](https://vimeo.com/163888438)
