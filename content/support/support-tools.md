@@ -27,14 +27,18 @@ When you first start in support, the list of tools to set-up can feel like a lot
 
 ## Test Environments
 
-There are some test environments created specifically for the Customer Support Engineers to run tests on when helping customers. They allow supports to reproduce issues without affecting our production instances.
+There are some test environments created specifically for the Customer Support Engineers to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
 
 * [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/)
 * [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/)
 * [Single Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
 * [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
+* [GitHub test instance ](https://github.sgdev.org)
+* [GitLab test instance ](https://gitlab.sgdev.org)
+* [Gerrit test instance ](https://gerrit.sgdev.org/)
+* [Bitbucket test instance ](https://bitbucket.sgdev.org/)
 
-> NOTE: Please let the team knows in our internal channel if you need CLI/logs access.
+> NOTE: Please let the team know in our internal channel if you need CLI/logs access.
 
 ## Troubleshooting
 
