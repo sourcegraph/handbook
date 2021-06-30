@@ -23,6 +23,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 - **[Connect your Google calendar](https://slack.com/app-pages/google-calendar)** to get reminders and show when you're in a meeting.
 - **[Connect Zoom](https://sourcegraph.slack.com/apps/A5GE9BMQC-zoom)** so you can type `/zoom` and quickly start zoom calls.
 - **[Connect Clockwise](https://www.getclockwise.com/)** if you use it to schedule meetings; use the GCal integration to send you reminders and the Clockwise integration to handle detailed Slack status updates.
+- **[Connect Google Drive](https://sourcegraph.slack.com/services/B0250C3EWQ5)** to get notifications on comments and shares on Google Drive files. Note: after you add this Slack integration, you have to go to the Google drive app in the "Apps" section of Slack and message it `on` ([full docs on managing notifications](https://slack.com/help/articles/205875058-Google-Drive-for-Slack#manage-notifications)). If the integration still doesn't respond, [removing it from the entire slack workspace](https://sourcegraph.slack.com/services/B026KBZJGJC) and then re-adding it might work, but you should first verify with others via Slacking #it-tech-ops that it's stopped working for them. After you remove and re-add, you should notify the same channel that you've done so, because everyone might need to re-message `on` to their drive app channel. 
 
 ## Web Browsers
 
