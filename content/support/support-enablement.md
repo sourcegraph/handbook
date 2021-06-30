@@ -21,4 +21,5 @@ The following is available to help us honor our [ethos and guiding principles](i
 		* 00:51:20 - The difference between indexed and unindexed searches
 	* 00:56:45 - Other ways to debug Sourcegraph: Jaeger request tracing
 	* 01:05:50 - Closing thoughts, where to go for help, etc.
-* [Debugging Tips](debugging-tips.md)
+* [Debugging tips](debugging-tips.md)
+* [Kubernetes crash course](https://drive.google.com/file/d/1mmD3NZaxAGiIwGLvYxK80DjuQco7z5JL/view?usp=sharing) (and the [slides](https://docs.google.com/presentation/d/155SXUleQP8X7tvhaxudkdxHuFXgFKy2d0AAu0GLUc1o/edit?usp=sharing))
