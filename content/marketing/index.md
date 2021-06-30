@@ -66,6 +66,10 @@
         - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
         - [Prosper Otemuyiwa](../company/team/index.md#prosper-otemuyiwa-he-him), Staff Developer Evangelist
         - We will be hiring developer advocates
+    -  Amie Rotherham, Director of Global Communications 
+    
+
+
 
 ## Open Roles
 
