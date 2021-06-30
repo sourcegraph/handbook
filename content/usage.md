@@ -115,3 +115,5 @@ default         about-sourcegraph-com-6d9b8dc9d5-llmh6                      1/1 
 $ kubectl -n default delete pod about-sourcegraph-com-6d9b8dc9d5-llmh6
 pod "about-sourcegraph-com-6d9b8dc9d5-llmh6" deleted
 ```
+
+You can access a console to execute the above commands via GCP: https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud/details?project=sourcegraph-dev&cloudshell=true
