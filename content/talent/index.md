@@ -37,7 +37,9 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
    - [Brighthire, our interview recording tool](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire)
 
 ## Resources for Teammates 
-- [How to refer a candidate](https://vimeo.com/163888438)
+- How to refer a candidate 
+   - [Video Instructions here](https://vimeo.com/163888438)
+   - [Written Instructions here] Coming soon
 - [How to share a job on social media] Coming soon
 - [Interview training & best practices] Coming soon
 
