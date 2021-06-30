@@ -28,6 +28,7 @@ Product at Sourcegraph consists of [product management](product_management/index
 ## Resources
 
 - [Sourcegraph's product design principles](./design_principles.md)
+- [Demo day](./demo_day.md)
 
 ### References
 
