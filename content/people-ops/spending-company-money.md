@@ -12,9 +12,9 @@ We want to make sure you have what you need to be productive and happy in your r
 
 ### Full-time teammates
 
-We expect new teammates to spend up to **$1,850** for desk setup, which includes all the items in the "Desk items" section.
+We expect new teammates to spend up to **$2,000** for desk setup, which includes all the items in the "Desk items" section.
 
-This is not a hard budget—rather, it is a guide based on what past teammates have spent. As a reminder, you don't need permission for every purchase, and we trust you to make decisions that are in the best interests of Sourcegraph. If you expect to significantly exceed the listed amount on any purchase, however, please notify @sourcegraph/people-ops so we can decide if we need to update this guide.
+As a reminder, you don't need permission for every purchase, and we trust you to make decisions that are in the best interests of Sourcegraph. If you expect to significantly exceed the listed amount on any purchase, however, please notify @sourcegraph/people-ops and finance@sourcegraph.com so we can decide if we need to update this guide.
 
 If you don't spend all of your budget when you first join, it's ok to spend it later providing you remain inside the total budget.
 
