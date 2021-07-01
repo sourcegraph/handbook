@@ -83,7 +83,7 @@ Feel free to tag `@core-app` on Slack or anyone directly as and when required. I
 
 - [Ryan Phillips](../../company/team/index.md#ryan-phillips-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
 - [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
-- [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski-he-him) ([Engineering Manager](../roles.md#engineering-manager))
+- [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
   - [Joe Chen](../../company/team/index.md#joe-chen)
   - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
   - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
