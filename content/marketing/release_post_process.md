@@ -11,10 +11,10 @@ Product marketing is responsible for creating the monthly release post in collab
 - PMs to recommend which updates to feature and provide draft copy and assets (videos, links, screenshots) for all highlights directly to the PR.
 - If assets aren't ready, PM to add a placeholder for expected assets.
 
-**Up until release ships**
+**Within 24 hours after the release is cut**
 
 - VP Product runs the script to generate changelog and merges it into the release template
-   - Note: make sure to update the *version number* in the script itself. If the version number isn't added yet and you need to capture the "Unreleased" then passing it the literal string match for the "Unreleased" heading, usually `Unreleased`, in place of a version number works)
+   - Note: make sure to update the *version number* in the script itself. If for some reason the version number isn't added yet and you need to capture the "Unreleased" then passing it the literal string match for the "Unreleased" heading, usually `Unreleased`, in place of a version number works)
 ``` 
 # in the root dir of the aourcegraph/about repo, make sure the latest sourcegraph/sourcegraph repo
 # CHANGELOG.md file is at ../sourcegraph/CHANGELOG.md, then run:
