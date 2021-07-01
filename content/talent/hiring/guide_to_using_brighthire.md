@@ -22,8 +22,9 @@ After every interview, full highlights from the conversation provide evidence th
 - Step 2: You'll get an email invite to the platform (if you don’t see an invite, please slack Hiring to request one). Use the invite to log in and sync your calendar.
 - Step 3: Download the [BrightHire Chrome extension](https://chrome.google.com/webstore/detail/brighthire-extension/mbokiighkhdopgedihndpibkincpcgan?hl=en&authuser=0).
 - Step 4: Click the “Interview with BrightHire” button in your calendar invite when joining an interview.
-- Step 5: Use your interview guide to see the questions you need to ask / conduct a structured interview.  No need to take notes unless you want to!  Everything will be captured and transcribed for you, and you will be able to reference it when filling out your scorecard after the interview. 
-- Step 6: Go to Greenhouse to fill out your scorecard, and use the BrightHire side panel to review your notes and the interview to provide robust candidate feedback.
+- Step 5: You should see your BrightHire Chrome extension pop up to help guide you.  If you don't see it, click the puzzle-piece icon in the top right hand corner of your screen and it will show up.
+- Step 6: Lead the interview as you normally would.  You can hover your curser over each of the question prompts to see your full question. No need to take notes unless you want to!  Everything will be captured and transcribed for you, and you will be able to reference it when filling out your scorecard after the interview. 
+- Step 7: Go to Greenhouse to fill out your scorecard, and use the BrightHire side panel to review your notes and the interview to provide robust candidate feedback.
 
 ## Teammate FAQ
 
