@@ -21,7 +21,7 @@ This is how ownership of these areas of responsibility plays out day to day:
 
 * We want sales to focus on moving things through the sales cycle as quickly as possible
 * We want CS, product, and engineering to ask whether there are any negative consequences and surface these for the organization to consider
-* We want CE to bridge the gap so that we get to the best answer possible for our customers and for Sourcegraph
+* We want CE to know and understand our customers deeply, share and advocate for their needs internally, and provide useful and necessary context to internal teams so that we get to the best answer possible for our customers and for Sourcegraph while managing their expectations around our processes and SLAs. 
 
 
 This is how this all fits together in terms of workflow:
