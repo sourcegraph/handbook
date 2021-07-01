@@ -4,6 +4,7 @@ Our README expands on our profile in [the company team directory](https://about.
 
 * Adeola README
 * Beatrix [README](bee-readme.md)
+* Ben [README](ben-readme.md)
 * Carl [README](carl-readme.md)
 * Gabe [README](gabe-readme.md)
 * Giselle [README](giselle-readme.md)
