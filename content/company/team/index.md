@@ -242,7 +242,7 @@ To add yourself to this page:
 - Sales Development
 - Tampa, FL 🌴 🇺🇸
 - [mark@sourcegraph.com](mailto:mark@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/mmuldez/)
-- Mark has been working in sales for the past 8 years and he's held various roles such as SDR, AE, and Team Lead. Prior to Sourcegraph, Mark was the lead technical SDR for the west region at Imply.io, where he successfully built a strong and sustainable pipeline for the company. In his spare time, Mark loves to spend time with his wife, his 2-year-old little guy, and their mini Australian shepherd dog. He's a big Golden State Warriors fan, plays guitar, works out to earn the right to eat plates of sushi, and goes to the beach to avoid getting bit by mosquitoes. He also thinks spicy mayo is life. 🙌🏽
+- Mark has been working in sales for the past 8 years and he's held various roles such as SDR, AE, and Team Lead. Prior to Sourcegraph, Mark was the lead technical SDR for the west region at Imply.io, where he successfully built a strong and sustainable pipeline for the company. Mark is a Golden State Warriors fan, plays guitar, works out to earn the right to eat plates of sushi, and because he's in Florida, mosquitoes get really bad in the summer so the best way to avoid them is to hit up the beach. And oh btw, he thinks spicy mayo is life. 🙌🏽
 
 ## Christine Lovett (she/her)
 
