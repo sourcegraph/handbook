@@ -10,7 +10,7 @@ BrightHire rides along in Zoom interviews with an interactive notepad. All you n
 
 We believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?).  BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve. 
 
-After every interview, full highlights from the conversation provide evidence that is essential for reducing bias. Along with training, this will help us check and mitigate the unconscious biases that we bring into interviews and hiring decisions. Specifically, BrightHire helps with: 
+BrightHire also helps our interviewers feel confident that they are running a fair and effective interview process, and providing an excellent candidate experience.  After every interview, full highlights from the conversation provide evidence that is essential for strong decision making and reducing bias. Along with training, this will help us check and mitigate the unconscious biases that we bring into interviews and hiring decisions. Specifically, BrightHire helps with: 
 
 - **Equitable Hiring:** BrightHire helps us reduce bias in every interview and hiring decision by facilitating structured, consistent and evidence-based hiring for a fundamentally more equitable process.
 - **Quality & Consistency**: BrightHire takes the gut-feelings and guesswork out of our decision making process, helping Sourcegraph uncover the best talent and raise the quality of every single interview, assessment and hiring decision our team makes.
@@ -19,7 +19,7 @@ After every interview, full highlights from the conversation provide evidence th
 ## How our teammates use BrightHire
 
 - Step 1: familiarize yourself with BrightHire by watching [this video](https://help.brighthire.ai/en/articles/4168499-brighthire-101). 
-- Step 2: You'll get an email invite to the platform (if you don’t see an invite, please slack Hiring to request one). Use the invite to log in and sync your calendar.
+- Step 2: You'll get an email invite to the platform (if you don’t see an invite, please Slack #Hiring to request one). Use the invite to log in and sync your calendar.
 - Step 3: Download the [BrightHire Chrome extension](https://chrome.google.com/webstore/detail/brighthire-extension/mbokiighkhdopgedihndpibkincpcgan?hl=en&authuser=0).
 - Step 4: Click the “Interview with BrightHire” button in your calendar invite when joining an interview.
 - Step 5: You should see your BrightHire Chrome extension pop up to help guide you.  If you don't see it, click the puzzle-piece icon in the top right hand corner of your screen and it will show up.
@@ -41,7 +41,7 @@ After every interview, full highlights from the conversation provide evidence th
   
 - Q: Will the candidate know they are being recorded?
     - A: Yes, the candidate will be made aware of the recording in the following ways: 
-    - 1. [BrightHire's disclosure](https://help.brighthire.ai/en/articles/4128677-recording-disclosure-and-consent) is included in event invitations 
+    - 1. [BrightHire's disclosure](https://help.brighthire.ai/en/articles/4128677-recording-disclosure-and-consent) is included in event invitations. 
     - 2. Candidate's recieve the following discolsure in every single interview confirmation email: "We ask structured questions for all interviews - meaning, all candidates are asked the same questions in an effort to reduce bias and to even the playing-field. Please note, this interview may be recorded so that we can focus on you, not taking notes, and ensure that we're delivering a great interview experience. If you prefer not to be recorded during your interview, please let us know - the structure of the interview and decision-making process will remain the same and your decision not to be recorded will have no weight on your candidacy."
     - 3. For phone interviews with BrightHire, candidates hear a notification "This interview will be recorded so we can focus on you, not taking notes" before every BrightHire interview. 
     - 4. For Zoom interviews with BrightHire, there are three possible notification points for Zoom. 1) Candidates see a visual "Recording" in the top left corner of the Zoom. 2) as an interviewer, you have the option to enable active consent in Zoom, meaning that candidates have to click to agree to enter the Zoom, with the understanding that they will be recorded.
