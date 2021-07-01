@@ -10,9 +10,7 @@ BrightHire rides along in Zoom interviews with an interactive notepad. All you n
 
 We believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?).  BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve. 
 
-After every interview, full highlights from the conversation provide evidence that is essential for reducing bias. Along with training, this will help us check and mitigate the unconscious biases that we bring into interviews and hiring decisions. With the use of BrightHire, we can leverage real data in order to address critical questions like candidate Net Promoter Score and pass-through rates of candidates from underrepresented groups. Personalized feedback will automatically be delivered to every interviewer about how they’re running conversations.
-
-Specifically, BrightHire helps with: 
+After every interview, full highlights from the conversation provide evidence that is essential for reducing bias. Along with training, this will help us check and mitigate the unconscious biases that we bring into interviews and hiring decisions. Specifically, BrightHire helps with: 
 
 - **Equitable Hiring:** BrightHire helps us reduce bias in every interview and hiring decision by facilitating structured, consistent and evidence-based hiring for a fundamentally more equitable process.
 - **Quality & Consistency**: BrightHire takes the gut-feelings and guesswork out of our decision making process, helping Sourcegraph uncover the best talent and raise the quality of every single interview, assessment and hiring decision our team makes.
