@@ -83,7 +83,7 @@ You will not need permission for choosing which co-working space you’d like to
 > approval from People Ops and Finance via email.
 
 
-**Education and professional development (conferences, courses):** $1000/year (if you want to exceed this amount, simply notify @sourcegraph/people-ops in advance to explain the situation and to receive approval).
+**Education and professional development (conferences, courses):** $1000 USD/year (if your professional development conference, event, or purchase exceeds this amount, simply notify People Ops & Finance via email with the anticipated cost to obtain approval).
 
 **Moving (moving, packing, shipping, etc.):** $1000/year
 
