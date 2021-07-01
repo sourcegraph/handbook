@@ -41,6 +41,7 @@ See [security goals and priorities](goals.md)
   - [Infrastructure information](./infrastructure/index.md)
   - [Security tooling](./tooling/index.md)
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
+- Respond to Security Incidents as per our [Security Incident Response Policy](./security-incident-response.md)
 
 ----
 
