@@ -23,3 +23,4 @@ The following is available to help us honor our [ethos and guiding principles](i
 	* 01:05:50 - Closing thoughts, where to go for help, etc.
 * [Debugging tips](debugging-tips.md)
 * [Kubernetes crash course](https://drive.google.com/file/d/1mmD3NZaxAGiIwGLvYxK80DjuQco7z5JL/view?usp=sharing) (and the [slides](https://docs.google.com/presentation/d/155SXUleQP8X7tvhaxudkdxHuFXgFKy2d0AAu0GLUc1o/edit?usp=sharing))
+* [What does upgrading Sourcegraph look like](https://drive.google.com/file/d/1oIrKJPo9hvc2UMfpb-a57HV9fCYEcS9n/view)
