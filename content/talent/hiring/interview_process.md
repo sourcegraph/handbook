@@ -45,16 +45,16 @@ Q: How do I choose how to structure the interview process?
 **Hiring Manager screen**
 - During this stage in the interview process, the Hiring Manager introduces themself, gets to know you, and answers any initial questions you may have.  This stage is meant to be conversational and informative for both us and you! 
 
-**Resume deep dive **
+**Resume deep dive**
 - A resume deep dive, often referred to as a "Topgrading Interview," is an interview style where we take a deep dive into your background, past to present.  The goal of a Topgrade interview is to uncover the motivation behind your decision making, as well as your strengths, weaknesses, and accomplishments in your past roles. [Here](https://www.lever.co/blog/topgrading-interview-guide/) is a document to help guide your expectations on the Topgrade interview. This is simply an example of what to expect, and does not represent the questions we will be asking.
 
-**Peer interview **
+**Peer interview**
 - During the peer interview, your potential future colleagues will assess if you will be a value-add to the team, take and give constructive criticism, and be an overall supportive team member. This is also an opportunity for you to ask questions directed to your potential future peers.
 
-**Collaboration interview **
+**Collaboration interview**
 - During this stage of the interview process, you will meet with members of another team with whom you would partner regularly.  The goal of this interview is to understand how you communicate and collaborate with cross-functional partners within Sourcegraph. 
 
-**Values interview **
+**Values interview**
 - This interview will be focused entirely on our values and how your views and experiences align with them. Our core values are key to our success as individuals and as a company. You can read more about them [here](https://about.sourcegraph.com/handbook/company/values).
 - Every interviewer should be evaluating candidates on the Sourcegraph values in addition to their specific interview topic. See more at [evaluating values](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values).
 
