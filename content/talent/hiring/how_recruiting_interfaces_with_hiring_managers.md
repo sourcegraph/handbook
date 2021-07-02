@@ -56,15 +56,16 @@ Our time-to-fill goal is an average of 45-days.  This means that the timespan fr
     - View our compensation philosophy [here](https://about.sourcegraph.com/handbook/people-ops/compensation#components-of-compensation)
 - Recruiter submits offer for approval in Greenhouse.
    - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
-- Once **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.  
+- Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.  
    - Attendees: Recruiter, Hiring Manager, Candidate.
-   - During the call, we review: 1) compensation 2) equity 3) perks, travel (and benefits, if applicable). 
+   - During the call, we will review: 1) compensation 2) equity 3) perks, travel (and benefits, if applicable). 
    - Before ending the call, be sure to determine a potential start date (all starts dates should fall on a cohort Monday) and 2) schedule a follow up call to answer any questions.
 - Following the offer call, Recruiter sends the offer summary to the candidate in an email. 
-- Once the candidate verbally accepts, the VP Talent send the official offer to the candidate via Docusign.
-- The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
+- To send an official offer, the Recruiter 1) updates the offer approval with the accurate start date and 2) tags the VP Talent and the Recruitment Operations Specialist in the notes section: "@Carly @Trevor please send this US/Non-US offer letter"
+- The official offer is sent to the candidate via Docusign.
 
 ### After the offer
 - After the candidate signs the offer, the Recruiter sends a welcome email to the candidate and Cc's the Hiring Manager.
+- The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
 - The Recruiter marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Ines, VP of Talent, and Hiring Manager, and exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
