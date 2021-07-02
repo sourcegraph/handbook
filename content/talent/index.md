@@ -22,11 +22,11 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## Resources for Hiring Managers
 - [Partnering with the Recruiting Team](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers)
-   - [Opening a new job](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit)
+   - [Opening a new job](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#opening-a-new-job)
    - [Writing a job description](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)
    - [Creating an interview plan](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1566158302)
    - [Scheduling an interview](https://about.sourcegraph.com/handbook/talent/hiring/interview_process)
-   - [Extending an offer] Coming soon
+   - [Extending an offer](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#offer-stage)
 - [Using recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
 - Interview training & best practices 
    - [Unconscious bias training] Coming soon
