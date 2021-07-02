@@ -9,7 +9,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
     - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
     - We are hiring Recruiters!  View our open positions [here](https://boards.greenhouse.io/sourcegraph91)
 
-## Resources for Candidates
+## [Resources for Candidates](https://about.sourcegraph.com/handbook/rescources_for_candidates)
 - [Our open positions](https://boards.greenhouse.io/sourcegraph91)
 - [All remote work](https://about.sourcegraph.com/handbook/company/remote)
 - [Our hiring values](https://about.sourcegraph.com/handbook/talent/hiring)
