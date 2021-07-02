@@ -19,6 +19,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Why we record our interviews](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire)
 - [Providing candidate experience feedback] Coming soon
 - [US Visa Sponsorship](https://about.sourcegraph.com/handbook/people-ops/visa-sponsorship)
+- [Candidate FAQ] Coming soon 
 
 ## Resources for Hiring Managers
 - [Partnering with the Recruiting Team](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers)
