@@ -18,8 +18,8 @@ BrightHire also helps our interviewers feel confident that they are running a fa
 
 ## How our teammates use BrightHire
 
-- Step 1: familiarize yourself with BrightHire by watching [this video](https://help.brighthire.ai/en/articles/4168499-brighthire-101). 
-- Step 2: You'll get an email invite to the platform (if you don’t see an invite, please Slack #Hiring to request one). Use the invite to log in and sync your calendar.
+- Step 1: You'll get an email invite to the platform (if you don’t see an invite, please Slack #Hiring to request one). Use the invite to set up your account, log in, and sync your calendar.
+- Step 2: Familiarize yourself with BrightHire by watching [this video](https://help.brighthire.ai/en/articles/4168499-brighthire-101). Note: you must be a registered BrightHire user to view this video.
 - Step 3: Download the [BrightHire Chrome extension](https://chrome.google.com/webstore/detail/brighthire-extension/mbokiighkhdopgedihndpibkincpcgan?hl=en&authuser=0).
 - Step 4: Click the “Interview with BrightHire” button in your calendar invite when joining an interview.
 - Step 5: You should see your BrightHire Chrome extension pop up to help guide you.  If you don't see it, click the puzzle-piece icon in the top right hand corner of your screen and it will show up.
