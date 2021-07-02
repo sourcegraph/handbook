@@ -16,6 +16,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Our company values](https://about.sourcegraph.com/handbook/company/values)
 - [Our benefits & perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks)
 - [Our interview process](https://about.sourcegraph.com/handbook/talent/hiring/interview_process)
+- [Why we record our interviews](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire)
 - [Providing candidate experience feedback] Coming soon
 - [US Visa Sponsorship](https://about.sourcegraph.com/handbook/people-ops/visa-sponsorship)
 
@@ -27,11 +28,11 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
    - [Scheduling an interview](https://about.sourcegraph.com/handbook/talent/hiring/interview_process)
    - [Extending an offer] Coming soon
 - [Using recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
-- [Interview training & best practices] Coming soon
+- Interview training & best practices 
    - [Unconscious bias training] Coming soon
    - [Values interview training] Coming soon
    - [Interviewing 101] Coming soon
-- Tools
+- Recruiting Tools
    - [Greenhouse, our ATS](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse)
    - [LinkedIn, our sourcing tool] Coming soon
    - [Brighthire, our interview recording tool](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire)
@@ -42,6 +43,8 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
    - [Written Instructions here] Coming soon
 - [How to share a job on social media] Coming soon
 - [Interview training & best practices] Coming soon
+- Recruiting Tools: 
+ - [Brighthire, our interview recording tool](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire)
 
 ## Resources for Recruiters 
 - [Partnering with Hiring Managers](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers)
@@ -51,8 +54,8 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
    - [Interviewing 101] Coming soon
    - [Counter offer training] Coming soon
 - [Recruitment branding] Coming soon
-- Tools
+- Recruiting Tools
    - [Greenhouse, our ATS](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse)
    - [LinkedIn Recruiter, our sourcing tool] Coming soon
-   - [Brighthire, our interview recording tool] Coming soon
+   - [Brighthire, our interview recording tool](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire)
    - [Ashby, our metrics tool] Coming soon
