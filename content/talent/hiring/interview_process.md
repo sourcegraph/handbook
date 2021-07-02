@@ -7,7 +7,7 @@ The goal of the job description is to focus on getting the candidate excited, wh
 
 To create a job description, plesae use [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit). 
 
-Best practices for writing a job description: 
+Best practices for writing a job description 
 - Be mindful of the words you use!  [Here is a list](https://docs.google.com/document/d/1HOLapvWgrD361l2u50nms_q_SZzU__IGxZSj9-1OZbM/edit) of commonly used words that deter underrepresented candidates from applying, as well as inclusive word replacements.  
 - Use “you” and “we” statements over indirect phrases like “ideal candidate.”
 - Keep descriptions and bullets short.
