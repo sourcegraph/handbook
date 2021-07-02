@@ -8,99 +8,59 @@
 1. We want our hiring process to be fair to all candidates.
    - We recognize that the way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications.  Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.  
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
-   - Interviewers take written notes during the interview so there is an objective record of the interview that can be referenced when making a hiring decision.
+   - We leverage [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) to record our interviews, ensuring there is an objective record of the interview that can be referenced when making a hiring decision.
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 1. Hiring managers own the hiring process for their team.
-   - Hiring managers are encouraged to experiment to learn how to improve their hiring process.
+   - Hiring managers are encouraged to partner with [their assigned Recruiter](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#the-talent-team) to experiment to learn how to improve their hiring process.
    - The handbook is kept up-to-date with our learnings and current norms. If something is missing from the Handbook, please Slack @hiring. 
 
 ## How recruiting interfaces with hiring managers
 
-For any members of a hiring team, please see [this page](how_recruiting_interfaces_with_hiring_managers.md) for a breakdown of each step in the hiring process.
-
-The page will outline responsibilities by role (Hiring Manager, Scheduling Coordinator, and People Ops) for each team.
+For any members of a hiring team, please see [this page](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#the-talent-team) for a breakdown of each step in the hiring process.
 
 ## Recruiting tools
 
-We use Greenhouse as our applicant tracking system. Please see this [guide to using Greenhouse.](guide_to_using_greenhouse.md) (in progress)
-
-We utilize LinkedIn Recruiter and TopFunnel as our sourcing platforms.
-
-Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](linkedin.md).
-
-We will work with recruiters and hiring managers to gain access to the tools they need to be successfull.
+- We use Greenhouse as our applicant tracking system. Please see this [guide to using Greenhouse.](guide_to_using_greenhouse.md) (in progress)
+- We utilize LinkedIn Recruiter and TopFunnel as our sourcing platforms.  Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](linkedin.md).
+- We use BrightHire to record our interviews.  Learn more about BrightHire [here](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire).
+- We use Ashby as a metrics tool.
 
 ## Using external recruiting agencies
 
-Folder for agency tracker and to store contracts here: https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq
-
-- Who is allowed to engage with external recruiting agencies?
-   - Any hiring managers that need additional support to fullfill hiring needs can leverage an external agency. Please contact @hiring or recruiting@sourcegraph.com to make a request.
-- Is it not allowed if we have an internal recruiter for the team?
-   - This should be reviewed on a case by case basis to see what is the required candidate pipeline to meet the team’s hiring goals. If internal recruiter(s) are not enough to meet the needs of the team then hiring manager can seek external help.
-- How do we engage with a new agency?
-   - To engage with a new agency, please Slack @hiring with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on. 
+- Q: Who is allowed to engage with external recruiting agencies?
+   - A: Any hiring managers that need additional support to fullfill hiring needs can leverage an external agency. Please contact @hiring or recruiting@sourcegraph.com to make a request.
+- Q: Is it not allowed if we have an internal recruiter for the team?
+   - A: This should be reviewed on a case by case basis to see what is the required candidate pipeline to meet the team’s hiring goals. If internal recruiter(s) are not enough to meet the needs of the team then hiring manager can seek external help.
+- Q: How do we engage with a new agency?
+   - A: To engage with a new agency, please Slack @hiring with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on. 
    - As a next step, the VP of Talent will send and sign all agency agreemnts. 
-   - All agencies sign our [standard agreement](https://docs.google.com/document/d/1IU_eWoZxEGQS8RRcjuUPfVD-byWScn5bsZE3e3oFZQ0/edit)
-   - Our standard agency fee is 20%
-- How do agencies submit candidates?
-   - The talent team will set each agency up with a Greenhouse account.
-   - All agencies must submit candidates via Greenhouse. Please contact @hiring or recruiting@sourcegraph.com to get an agency added to Greenhouse.
+   - All agencies sign our [standard agreement](https://docs.google.com/document/d/1IU_eWoZxEGQS8RRcjuUPfVD-byWScn5bsZE3e3oFZQ0/edit).
+   - Our standard agency fee is 20%.
+- Q: How do agencies submit candidates?
+   - A: The talent team will set each agency up with a Greenhouse account. All agencies **must** submit candidates via Greenhouse. Please contact @hiring or recruiting@sourcegraph.com to get an agency added to Greenhouse.
+
+The folder to store agency contracts can be found [here](https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq)
 
 ## Open positions
 
-The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91)
-
-For job boards that we post to and are considering, [click here](job_boards.md)
+The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91).  For job boards that we post to and are considering, [click here](job_boards.md)
 
 ## Job descriptions
 
-Each job description lists qualifications (requirements) and nice-to-haves. If you are unsure if you meet our qualifications, please apply.
+Each job description focuses on the impact a candidate will make vs. a list of requirements.  Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies.  You can read more about our job description philosophy [here](https://about.sourcegraph.com/handbook/talent/hiring/interview_process#creating-a-job-description). 
 
-We prefer to avoid listing "years of experience" as a qualification because time is only an indirect measure of what we really care about: skills and maturity.
+We want a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, apply anyway! We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 
-Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies.
-
-See the [job descriptions guidelines](./job_description_guidelines.md) when creating a new role.
-
-## Decision making process
-
-We review each candidate at each stage of our hiring pipeline (e.g. application, phone screen, interviews, references) to determine if we want to move the candidate to the next stage. Here are some things that we consider:
-
-- Applications
-  - Does this candidate meet all qualifications for the role they are applying for?
-  - Does this candidate's resume and application effectively communicate their skills, accomplishments, and a genuine interest in Sourcegraph?
-  - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
-  - What makes this candidate's application stand out and excite us about moving forward with interviews?
-- Interviews
-  - Does this candidate have the skills and experience that we are looking for?
-  - How do this candidate's skills, accomplishments, and interest in Sourcegraph compare to other candidates or our current team?
-  - What makes us excited about hiring this candidate?
+To create a job description, please leverage [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit#).
 
 ## Making a referral
 
-Current employees can refer a candidate in Greenhouse [here](https://tracking.cirrusinsight.com/5ae92f4c-b2ab-4851-852d-32a879d5bc4b/player-vimeo-com-video-163888438)
-
-Having your referral complete the application provides helpful context when considering their profile, but is not required.
-
-Benefits of having a referral complete the application:
-
-- Provides information that the hiring team think is important for the role that may not have been represented in their resume or referral notes.
-- Allows the hiring team to have a deeper conversation about who they are, what they are looking for, and about their experience.
-
-There is no need for your referral to apply through our careers page once you have referred them in Greenhouse.
-
-## [Interview process](interview_process.md)
-
-See [interview process](interview_process.md).
-We perform reference checks for all new hires, see [reference check questions](reference_check_questions.md) for more details.
+Current employees can refer a candidate in Greenhouse [here](https://tracking.cirrusinsight.com/5ae92f4c-b2ab-4851-852d-32a879d5bc4b/player-vimeo-com-video-163888438).  There is no need for your referral to apply through our careers page once you have referred them in Greenhouse.
 
 ## Sharing interview feedback
 
-We don't share specific reasons or feedback if we [decide](#decision-making-process) not to move forward in our hiring process with a candidate.
-
-It would be nice if we could give feedback like this, but we don't do this today. Why?
+We don't share specific reasons or feedback if we decide not to move forward in our hiring process with a candidate.  It would be nice if we could give feedback like this, but we don't do this today. Why?
 
 - The written feedback that we collect during our interview process is intended for an internal audience. We don't ask our interviewers to spend time and effort packaging their feedback in a way that can be delivered directly to candidates.
 - Adequately summarizing all interview feedback for a candidate is challenging and time consuming. We choose to spend our time focusing on delivering developmental feedback to our existing teammates.
@@ -117,7 +77,7 @@ Interviewing requires time and effort, both for us and for candidates. The hirin
 
 Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions.)
 
-> Hiring managers: If you're asked a question like this and you aren't 100% confident about the answer, please pass the question to the CEO or VP Business.
+> Hiring managers: If you're asked a question like this and you aren't 100% confident about the answer, please pass the question to the VP Talent and VP Operations.
 
 1. What is the company's latest valuation? (We share this when we give you the offer.)
 1. What percentage of the company does my option grant represent? (We share this when we give you the offer.)
