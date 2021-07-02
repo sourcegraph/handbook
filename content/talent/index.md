@@ -22,7 +22,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Candidate FAQ] Coming soon 
 
 ## [Resources for Hiring Managers](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
-- [Partnering with the Recruiting Team](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers)
+- [The interview process](https://about.sourcegraph.com/handbook/talent/the_interview_process)
    - [Opening a new job](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#opening-a-new-job)
    - [Writing a job description](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)
    - [Creating an interview plan](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1566158302)
