@@ -3,6 +3,7 @@
 The following is available to help us honor our [ethos and guiding principles](index.md) with ease and/or outgrow ourselves:
 
 * [Values enablement](support-values-enablement.md)
+* [Career roadmapping](career-roadmap.md)
 * [How engineering and support learn from each other](eng-support-learn-from-eachother.md)
 * [High level overview created with CS in mind](https://drive.google.com/file/d/1Veat9m5gb8O0fL37b-lD5rl5fKToTmb6/view?usp=sharing)
 	* 00:03:45 - Deployment types, use cases, differences between them, what types of customers use what, etc.
@@ -22,5 +23,6 @@ The following is available to help us honor our [ethos and guiding principles](i
 	* 00:56:45 - Other ways to debug Sourcegraph: Jaeger request tracing
 	* 01:05:50 - Closing thoughts, where to go for help, etc.
 * [Debugging tips](debugging-tips.md)
+* [Tracing](https://drive.google.com/file/d/17mnCqJWJ1C855hl73hV1Y5S-1EOzusgX/view?usp=sharing)
 * [Kubernetes crash course](https://drive.google.com/file/d/1mmD3NZaxAGiIwGLvYxK80DjuQco7z5JL/view?usp=sharing) (and the [slides](https://docs.google.com/presentation/d/155SXUleQP8X7tvhaxudkdxHuFXgFKy2d0AAu0GLUc1o/edit?usp=sharing))
 * [What does upgrading Sourcegraph look like](https://drive.google.com/file/d/1oIrKJPo9hvc2UMfpb-a57HV9fCYEcS9n/view)
