@@ -62,12 +62,9 @@ We run search ads (text and display) on both Google and Bing. Our display ads ru
 ### Paid Social Campaigns
 
 We have run multiple [Sponsored Content campaigns on LinkedIn](https://www.linkedin.com/company/sourcegraph/posts/?feedView=ads&viewAsMember=true), using the following content offers, among others:
-
-- [Ex-Googler’s Guide to Dev Tools (blog post - served to ex-Googler individual developers)](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/)
-
-- [Big Code survey (PDF download - served to individual developers/managers at Target Accounts)](https://info.sourcegraph.com/emergence-of-big-code-2020-survey)
-
-- [Better onboarding (blog post - served to individual developers at Target Accounts)](https://about.sourcegraph.com/blog/better-onboarding-how-to-prevent-codebase-overwhelm/)
+- [Ex-Googler’s Guide to Dev Tools](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/) (blog post - served to ex-Googler individual developers)
+- [Big Code survey](https://info.sourcegraph.com/emergence-of-big-code-2020-survey) (PDF download - served to individual developers/managers at Target Accounts)
+- [Better onboarding](https://about.sourcegraph.com/blog/better-onboarding-how-to-prevent-codebase-overwhelm/) (blog post - served to individual developers at Target Accounts)
 
 Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using testimonial quotes and case study content) that is served to engineers/managers at companies in Salesforce deal stages 4-6.
 
