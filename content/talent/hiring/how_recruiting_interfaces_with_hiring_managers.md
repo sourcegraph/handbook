@@ -19,11 +19,11 @@ Each hiring manager has an assigned recruiter for their hiring needs. If you are
 
 We are hiring additional Recruiters and more support is coming soon!
 
-## Estimated timeline to first hire:
-Our time-to-fill goal is an average of 45-days.  This means that the timespan from intake meeting to candidate offer acceptance (when a candidate signs their offer letter) should be, on average, 45-days or less.  Please keep in mind that we should kick off a role at least 2-3 months prior to our target start date.  
-    - (45 day time-to-fill) + (2-4 week notice period) + (1-2 week break in between jobs) = 3 months from the time we kick off the job to when our new teammate starts 
+## Estimated time to first hire
+Our time-to-fill goal is an average of 45-days.  This means that the timespan from 1) intake meeting to 2) candidate offer acceptance (when a candidate signs their offer letter) should be, on average, 45-days or less.  Please keep in mind that we should kick off a role at least 2-3 months prior to our target start date.  
+    - (45 day time-to-fill) + (2-4 week notice period) + (1-2 week vacation in between jobs) = 3 months from the time we kick off the job to when our new teammate starts. 
 
-## Recruiting lifecycle
+## The recruiting process, start to finish 
 
 ### Opening a new job
 - To open a new role, the below steps need to be completed by the Hiring Manager:
@@ -43,7 +43,7 @@ Our time-to-fill goal is an average of 45-days.  This means that the timespan fr
     - [Resources to target passive candidates] ... Coming soon.
     - [Boolean search best practices] ... Coming soon.
     - [Inmail best practices] ... Coming soon.
-- Recruiter conducts a phone screen with eligible candidates.
+- Recruiter conducts an initial recruiting screen with eligible candidates.
 - Recruiter submits qualified candidates to Hiring Manager.
 - Recruiting Coordinator schedules additional interviews for candidates.
     - [Interview process for each department] ... Coming soon.
