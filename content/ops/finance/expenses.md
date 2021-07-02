@@ -28,6 +28,7 @@ You will receive an invitation via email to our Expensify organization during yo
   - Software purchases or subscriptions should be categorized as "Software and SaaS <$1000"
   - Computer purchases and other hardware (monitor, headphones, etc.) should be categorized as "Computer & Related"
   - Home office set-up purchases (chairs, desks, etc.) should be categorized as "Furniture & Office"
+  - Team building event purchases should be categorized under "Team Morale"
   - Co-Working space bills should be categorized as Rental & Co-Working Space
   - There is no designated "home office setup" category in Expensify. Each expensed item should be categorized individually. So even though we have one home office setup budget, it spans across multiple categories.
   - Onboarding teammates may receive a $2000 maximum limit notice when expensing computer & equipment. Please note that first-time computer purchases are considered an exception to this policy.
