@@ -32,8 +32,8 @@ We have a few different email lists that are used to send us feedback.
 
 #### support@sourcegraph.com
 
-- **Purpose:** This email list is for customers to request help and creates tickets in JIRA for our Customer Engineering team.
-- **Owner:** The Customer Engineering team is responsible for all support issues and will pull in as needed engineering teams or product to help answer questions.
+- **Purpose:** This email list is for customers to request help and connects to Zendesk. 
+- **Owner:** The Customer Support team is [responsible for all support issues](../support/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
 
 ### GitHub issues
 
@@ -53,7 +53,7 @@ We have a few different email lists that are used to send us feedback.
 ### Support tickets
 
 - **Purpose:** A path for existing customers to get responsive support.
-- **Owner:** CE team owns support tickets in a Jira project.
+- **Owner:** CS team owns support tickets in Zendesk. If product team members want more insight into the support feedback, they can review [the support dashboard](https://sourcegraph.looker.com/dashboards-next/177) or scan the [customer issues repo](https://github.com/sourcegraph/customer/issues), and cross-reference both with slack searches in support channels. Additionally, at the end of every quarter, the Head of Customer Support provides the product team with a qualitative summary and links to details of the major support trends from the prior three months. 
 
 ### Sales feedback
 
