@@ -13,3 +13,5 @@ See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open posi
 [Software engineer pairing exercise](software-engineer-pairing-exercise.md).
 
 [Frontend Engineer (Extensibility) Interview](./frontend-engineer-extensibility.md)
+
+[Engineering-leadership](engineering-leadership.md)
