@@ -130,3 +130,17 @@ Before team syncs, teammates and stakeholders should write down under "Agenda" i
 ### Hack Time
 
 Every week, we spend an hour and a half working on experiments outside of our prioritized lists. Examples of the type of work include extensions we feel strongly about, market intelligence tools, automation scripts, etc.
+
+## Extensibility history 
+
+In March 2016, [Sourcegraph released its first browser extension](https://about.sourcegraph.com/blog/browse-review-code-on-github-like-in-an-ide-with-the-sourcegraph-chrome-extension/) so that you can take the value of Sourcegraph to your code host for code reviews. 
+
+In October 2018, [Sourcegraph released the extensions API](https://about.sourcegraph.com/blog/sourcegraph-2-12-release-notes/) so that others could build on top of Sourcegraph, and so that Sourcegraph could integrate with your other tools. 
+
+In June 2019, [Sourcegraph created a BitBucket native integration](https://github.com/sourcegraph/bitbucket-server-plugin/commit/e450abf50c128fa5ee18439ff93e0631e4868de7) so you don't need to install the browser extension to get the value of Sourcegraph on your BitBucket code host.
+
+In November 2019, [Sourcegraph partnered with GitLab to create a native integration](https://about.gitlab.com/blog/2019/11/12/sourcegraph-code-intelligence-integration-for-gitlab/). 
+
+In December 2020, [Sourcegraph released a Safari Extension](https://apps.apple.com/us/app/sourcegraph-for-safari/id1543262193) to support Safari users with our browser extension, in addition to Chrome and Firefox. 
+
+In early 2021, the Extensibility team was formed as an offshoot of the "web team" (which became the 2021 Developer Insights org) because the product direction, support and maintenance, validation, and future promises of Sourcegraph's browser extensions, native code host integrations, and Sourcegraph extensions required and deserved the resources of its own team. 
