@@ -1,25 +1,31 @@
-The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates. 
-
 # Talent
+
+The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates. 
 
 ## Talent Team Members
 - [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
-    - [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
-    - [Kelsey Nagel](../company/team/index.md#kelsey-nagel-she-her), Marketing & Finance Recruiter 
-    - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
-    - We are hiring Recruiters!  View our open positions [here](https://boards.greenhouse.io/sourcegraph91)
+- [Devon Coords](../../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
+    - Engineering
+    - Product
+    - Customer Engineering
+    - Support
+- [Kelsey Nagel](../../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
+    - Marketing
+    - Finance
+    - Legal
+    - BizOps
+    - People Operations
+- [Trevor Houghton](../../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
+    - Interview Scheduling for all departments
+- We are hiring Recruiters!  View our open positions [here](https://boards.greenhouse.io/sourcegraph91)
 
 ## [Resources for Candidates](https://about.sourcegraph.com/handbook/talent/resources_for_candidates)
 - [Our open positions](https://boards.greenhouse.io/sourcegraph91)
 - [All remote work](https://about.sourcegraph.com/handbook/company/remote)
-- [Our hiring values](https://about.sourcegraph.com/handbook/talent/hiring)
 - [Our company values](https://about.sourcegraph.com/handbook/company/values)
 - [Our benefits & perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks)
 - [Our interview process](https://about.sourcegraph.com/handbook/talent/hiring/interview_process)
-- [Why we record our interviews](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire)
-- [Providing candidate experience feedback] Coming soon
-- [US Visa Sponsorship](https://about.sourcegraph.com/handbook/people-ops/visa-sponsorship)
-- [Candidate FAQ] Coming soon 
+- [Candidate FAQ]  
 
 ## [Resources for Hiring Managers](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
 - [The interview process](https://about.sourcegraph.com/handbook/talent/the_interview_process)
