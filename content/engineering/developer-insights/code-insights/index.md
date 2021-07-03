@@ -152,3 +152,13 @@ We use SVG and D3 libraries (d3-scales, d3-axis, d3-format) for this.
   If you want to dive a little more into the peculiarities of SVG spec.
 
 **NOTE**: _The order is not important, you can read these as you like depending on what you are interested in._
+
+## Code Insights history 
+
+In mid-2020, Code Insights was born out of [RFC 144: Code Insights](https://docs.google.com/document/d/1EHzor6I1GhVVIpl70mH-c10b1tNEl_p1xRMJ9qHQfoc/edit#), with the stated goal of being a Sourcegraph feature directly valuable to users in engineering leadership, in addition to individual developers. It was prototyped solely on the frontend to validate strong customer interest. 
+
+In late 2020, after the initial validation, and using the frontend-only functional prototype, a product designer and newly-hired product manager developed a detailed validation of use cases, customer excitement, potential directions, and the existing spaces the product fit into. Those findings are in [PD 18: Code Insights](https://docs.google.com/document/d/1d34gCpt_rUOMAun8phcjNsFofGaaA_N_8znmgaugdKw/edit). 
+
+In early 2021, seeing continued validation and opportunity, Code Insights became its own team separate from the "web team" (now 2021's Developer Insights org). 
+
+In mid-2021 we made the first engineering hires to grow Code Insights to a full engineering team and bring the product to market. 
