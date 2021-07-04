@@ -8,6 +8,8 @@ We welcome suggestions for more places that we can post!
 - ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md). Nick Snyder owns posting.
 - [RemoteWoman](https://remotewoman.com/). RemoteWoman scrapes our career page, we can also message them to manually post our unlisted roles.
 - [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Nick Snyder owns this list and payments are made with Nick's Brex. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
+- [Glassdoor] Coming soon
+- [Blind] Coming soon
 
 ## Additional job boards and coding bootcamps we have posted to in the past:
 - [Melanin.tech](https://melanin.tech/)
