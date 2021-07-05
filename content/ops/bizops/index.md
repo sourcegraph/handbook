@@ -23,6 +23,7 @@ The Business Operations & Strategy (BizOps) team operates with the mission of dr
 - [User metrics definitions](user_definitions.md)
 - [CustomerOps Tools Overview](customer_ops_tools.md)
 - [Amplitude overview](amplitude.md)
+- [A/B testing](ab-testing.md)
 
 ## Goals
 
