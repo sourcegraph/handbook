@@ -13,7 +13,7 @@ It is our goal to fill our openings as quickly as possible while maintaining a h
 Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=0) to see your upcoming open roles.  This document is updated in real time and adjusts as the needs of our business change.  If you see that you have an upcoming role in the next 2-3 months, please follow the below steps to kick off a search.
 
 ## The interview process
-Please [click here](interview_process.md) to learn more about the Sourcegraph interview process.
+Please [click here](https://about.sourcegraph.com/handbook/talent/interview_process) to learn more about the Sourcegraph interview process.
 
 ### 1. Opening a new job
 - To open a new role:
