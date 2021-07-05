@@ -13,7 +13,9 @@ It is our goal to fill our openings as quickly as possible while maintaining a h
 Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=0) to see your upcoming open roles.  This document is updated in real time and adjusts as the needs of our business change.  If you see that you have an upcoming role in the next 2-3 months, please follow the below steps to kick off a search.
 
 ## The interview process
-Please [click here](https://about.sourcegraph.com/handbook/talent/interview_process) to learn more about the Sourcegraph interview process.
+
+- [The interview process](https://about.sourcegraph.com/handbook/talent/interview_process).
+- [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
 
 ### 1. Opening a new job
 - To open a new role:
@@ -71,7 +73,7 @@ Please [click here](https://about.sourcegraph.com/handbook/talent/interview_proc
    - Our standard agency fee is 20%.
 - Q: How do agencies submit candidates for consideration?
    - A: The talent team will set each agency up with a Greenhouse account. All agencies **must** submit candidates via Greenhouse. Please contact @hiring or recruiting@sourcegraph.com to get an agency added to Greenhouse.
-- Q: What do I do if an agency recruiter (with whom we do **not** have and agreement) emails me a candidate?
+- Q: What do I do if an agency recruiter (with whom we do **not** have an agreement) emails me a candidate?
    - A: Please forward any emails from agencies to recruiting@sourcegraph.com
 
 The folder to store agency contracts can be found [here](https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq)
@@ -87,14 +89,9 @@ You can see a list of all recruiting tools [here](hiring/index.md#recruiting-too
 
 Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind.  You can also leverage your [BrightHire recording](hiring/guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback.
 
-### Feedback rating
+All feedback must be submitted in Greenhouse before discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
-- **Strong positive**. You are confident that this person would make our team better and you would be excited to have the chance to work with them.
-- **Positive**. You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
-- **Negative**. You are neutral or have doubts about whether this person would make our team better.
-- **Strong negative**. You are very confident that we should not hire this person because they would not be successful on our team.
-
-All positive feedback with no strongly positive feedback is usually not sufficient. We want to hire people who we are excited to work with.
+We want to ensure that teammates score candidates in a consistent fashion which is why we have [definitions](https://about.sourcegraph.com/handbook/talent/interview_process#providing-interview-feedback) for what the following ratings mean: 1. Strong yes 2. Yes 3. No 4. Strong no. 
 
 ## Interview debriefs
 
