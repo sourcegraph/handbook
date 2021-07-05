@@ -8,25 +8,27 @@ We want to build a diverse, global team, with a broad range of experience and pe
 
 We are growing rapidly and post new jobs on a weekly basis.  We encourage you to check our [our careers page](https://boards.greenhouse.io/sourcegraph91) regularly to see if there is a match.
 
-## Sourcegraph's culture 
+# Working at Sourcegraph 
+
+### Sourcegraph's culture 
 
 We are an all [all-remote company](https://about.sourcegraph.com/handbook/company/remote) with teammates across the globe.  Our [company values](https://about.sourcegraph.com/handbook/company/values) are the beliefs and principles that help us achieve our [goals & mission](https://about.sourcegraph.com/handbook/company/strategy#mission), and build an [inclusive team](https://about.sourcegraph.com/handbook/company/values#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](https://about.sourcegraph.com/handbook/talent/interview_training). 
 
-## Sourcegraph hiring values 
-
-We believe all candidates are deserving of a fair, equitable, and enjoyable interview experience. You can read more about our hiring values [here](https://about.sourcegraph.com/handbook/talent/hiring#values-and-practices).
-
-## Benefits, perks, and compensation
+### Benefits, perks, and compensation
 
 We want our teammates to be happy, healthy, and productive, which is why we strive to provide competitive [benefits and perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks). In addition, we are committed to paying all teammates [equitably and competitively](https://about.sourcegraph.com/handbook/people-ops/compensation), and always determine our offers based on market data, **not** your past compensation. 
 
-## Interviewing at Sourcegraph
+# Interviewing at Sourcegraph
 
 - [Our interview process](https://about.sourcegraph.com/handbook/talent/the_interview_process).
 - [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
 - [How to prepare for your interview](https://about.sourcegraph.com/handbook/talent/how_to_prepare_for_candidates).
 
-## Candidate experience 
+### Sourcegraph hiring values 
+
+We believe all candidates are deserving of a fair, equitable, and enjoyable interview experience. You can read more about our hiring values [here](https://about.sourcegraph.com/handbook/talent/hiring#values-and-practices).
+
+### Candidate experience 
 
 We know that interviewing can be stressful and that a lot of time and energy is spent as you go through the process. We are committed to providing a world-class candidate experience, so if there's anything we can do to make your experience more enjoyable, please feel free to email recruiting@sourcegraph.com.  You can also provide anonymous feedback in the candidate survey sent via Greenhouse after you are 1) declined or 2) sign your offer. 
 
@@ -41,23 +43,22 @@ Specifically, we aim to provide a positive candidate experience by...
 - Maintaining a respectful process for rejecting job applicants who do not move forward in the interview process or receive an offer.
 - Smoothly transitioning new hires into the onboarding process.
 
-## Respecting time
+### Respecting time
 
 Interviewing requires time and effort, both for Sourcegraph teammates and for our candidates. The hiring manager is responsible for monitoring feedback during the interview phase, and if it becomes obvious that we won't be moving forward with a candidate, then the hiring manager should cancel any remaining interviews to be respectful of both the candidate's and interviewers' time.
 
-## Company financials
-
-Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions).  To learn more about our company financials, click [here](https://about.sourcegraph.com/handbook/talent/hiring#sharing-company-financials).
-
-## Policy for candidates re-applying to roles
+### Policy for candidates re-applying to roles
 
 Candidates are welcome to re-apply for roles at any time. The talent team will review all relevant information, including past interview feedback, when considering a person's candidacy.
 
-## How to prepare for an interview 
+### How to prepare for an interview 
 
 We know that interviewing can be stressful, so we want to provide you as much [information](https://about.sourcegraph.com/handbook/talent/how_to_prepare_for_candidates) as possible to help you feel prepared.  If we are missing any advice or resources that would be helpful, please email recruiting@sourcegraph.com.   
 
 # Candidate FAQ
+
+- Q: How is Sourcegraph doing from a financial standpoint?
+A: Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions).  To learn more about our company financials, click [here](https://about.sourcegraph.com/handbook/talent/hiring#sharing-company-financials).
 
 - Q: Can I work from anywhere?
    - A: Yes, Sourcegraph is an all-remote company. Unless indicated explicitly in the job description, we are a remote-first company and do not have a preference regarding your location.  You can read more about our all-remote philosophy, as well as our path to all remote and tips for working remotely [here](https://about.sourcegraph.com/handbook/company/remote). 
