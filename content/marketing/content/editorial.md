@@ -36,7 +36,7 @@ The secondary function of the blog is to grow awareness of Sourcegraph’s brand
 
 ### Priority content
 
-The buckets outlined below are an internal reference, with the public-facing categories recommended underneath. 
+The buckets outlined below are an internal reference. 
 
 1. **Inside Sourcegraph engineering:** How we built X, scaled Y, debugged Z. These are meaty deep dives into the process of building and iterating on Sourcegraph the product and engineering org. Got code snippets? Graphs and charts? Links to PRs? We’ll take them all.
 1. **Tutorials/how tos:** These practical posts show readers how to solve a problem or improve on a skill. Better code reviews, communication and collaboration advice, and productivity tips are examples of topics we might tackle here.
