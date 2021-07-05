@@ -1058,3 +1058,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Github: [jasonhawkharris](https://github.com/jasonhawkharris), [LinkedIn](https://www.linkedin.com/in/jasonhawkharris/)
 - [jason.harris@sourcegraph.com](mailto:jason.harris@sourcegraph.com)
 - Jason is a musician and software engineer living in Los Angeles. He is married to a nurse practitioner named Ashley. He has two tabby cats, Pierre and Dmitri. They actively plan his demise. However, he suspects they'll never pull the trigger because they secretly love him, though they would never admit it.
+
+## Jenna Pierre (She/Her)
+
+- Sales Development Representative
+- Citizen of the world, currently based in Peru 🇵🇪
+- GitHub: [jennapierre](https://github.com/jennapierre), [LinkedIn](https://www.linkedin.com/in/jenna-pierre/)
+- [jenna@sourcegraph.com](mailto:jenna@sourcegraph.com)
+- Jenna is a wandering, global English teacher-turned Sales professional. She does not have any pets of her own because of her nomadic lifestyle, but she frequently wins the love of the foreign kitties she encounters with tuna and belly rubs. In her free time, Jenna enjoys reading on the beach, trying new recipes, and salsa dancing with whoever is close by. 
