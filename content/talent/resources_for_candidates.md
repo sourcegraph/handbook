@@ -35,10 +35,10 @@ Specifically, we aim to provide a positive candidate experience by...
 - Treating all candidates with respect at all stages, regardless of hiring outcome.
 - Writing our job descriptions as clearly as possible to ensure you have a good understanding of the job and the impact you would make in the role. All job descriptions are written in an [inclusive format](https://about.sourcegraph.com/handbook/talent/hiring/interview_process#creating-a-job-description), encouraging candidates from all walks of life to apply. 
 - Ensuring that our interview process is structured, that all interview questions [are planned](https://about.sourcegraph.com/handbook/talent/hiring/interview_process#creating-an-interview-plan) in advance of all interviews.
-- [Recording our interviews](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) to ensure we are focused on what you is saying, and not on taking notes.  
-- Providing candidates with the tools to be successful in an interview, including transparancy around our [interview process](https://about.sourcegraph.com/handbook/talent/the_interview_process), information about what to expect at a given [stage of the interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews), and resources on [how to prepare](https://about.sourcegraph.com/handbook/talent/how_to_prepare_for_candidates) for the interview.
+- [Recording our interviews](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) to ensure we are focused on what you are saying, and not on taking notes.  
+- Providing candidates with the tools to be successful in an interview, including transparency around our [interview process](https://about.sourcegraph.com/handbook/talent/the_interview_process), information about what to expect at a given [stage of the interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews), and resources on [how to prepare](https://about.sourcegraph.com/handbook/talent/how_to_prepare_for_candidates) for the interview.
 - Offering clear, honest and consistent communication throughout all stages of the interview process.  We try our best to get back to you quickly and will never waste your time if we know we're not moving you forward in our process.
-- Maintaining a respectful process for rejecting job applicants who do not more forward in the interview process or recieve an offer.
+- Maintaining a respectful process for rejecting job applicants who do not move forward in the interview process or receive an offer.
 - Smoothly transitioning new hires into the onboarding process.
 
 ## Respecting time
@@ -71,7 +71,7 @@ We know that interviewing can be stressful, so we want to provide you as much [i
 - Q: Does Sourcegraph check references?
    - A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent.  You can read more about our reference check process [here](https://about.sourcegraph.com/handbook/talent/hiring/reference_check_questions).
 
-- Q: Does Sourcegraph provide feedback to candidates who don't recieve an offer?
+- Q: Does Sourcegraph provide feedback to candidates who don't receive an offer?
    - A: We do not provide feedback to candidates at this time.  We encourage you to read more about our [philosophy regarding sharing candidate feedback](https://about.sourcegraph.com/handbook/talent/hiring#sharing-interview-feedback).
 
 - Q: Do you provide Visa sponsorship?
