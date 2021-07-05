@@ -1050,3 +1050,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [donavonelli](https://github.com/donavonelli), [LinkedIn](https://www.linkedin.com/in/donavonelli/), 
 - [don@sourcegraph.com](mailto:don@sourcegraph.com)
 - Donavon is an army veteran with a love for programming and all things tech. Based in the peach state, you can usual find him either exercising, watching tv, playing video games or playing with his dog, CiCee
+
+## Jason Harris (He/Him)
+
+- Customer Support Engineer
+- Los Angeles, CA USA
+- Github: [jasonhawkharris](https://github.com/jasonhawkharris), [LinkedIn](https://www.linkedin.com/in/jasonhawkharris/)
+- [jason.harris@sourcegraph.com](mailto:jason.harris@sourcegraph.com)
+- Jason is a musician and software engineer living in Los Angeles. He is married to a nurse practitioner named Ashley. He has two tabby cats, Pierre and Dmitri. They actively plan his demise. However, he suspects they'll never pull the trigger because they secretly love him, though they would never admit it.
