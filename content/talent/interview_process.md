@@ -30,6 +30,7 @@ The goal of the job description is to focus on getting the candidate excited, wh
 To create a job description, please use [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
  
 Best practices for writing a job description
+
 - Be mindful of the words you use!  [Here is a list](https://docs.google.com/document/d/1HOLapvWgrD361l2u50nms_q_SZzU__IGxZSj9-1OZbM/edit) of commonly used words that deter underrepresented candidates from applying, as well as inclusive word replacements. 
 - Use “you” and “we” statements over indirect phrases like “ideal candidate.”
 - Keep descriptions and bullets short.
@@ -37,11 +38,15 @@ Best practices for writing a job description
 ## Creating an interview plan
  
 Creating a structured interview process is critical to our DEI efforts.  Research shows that structured interviews are up to **twice as effective** at predicting job performance than unstructured ones, and ultimately help us hire faster.  Structuring interviews with a standardized set of questions also allows for a more fair and impartial way of assessing candidates, which helps remove unconscious biases. 
+
+Before creating your interview plan, you may find it helpful to read about the [types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews) other hiring managers have leveraged in the past.
  
 Q: Is creating an interview plan required for all Hiring Managers?
+
 - A: Yes, creating an interview plan is required for all roles.  We recognize that this takes significant planning and effort up front, but it 1) ensures alignment between the Hiring Manager, the hiring team, and the Recruiter and 2) ensures that all candidates are receiving a fair and consistent interview experience.  Creating a strong plan upfront is also proven to reduce time-to-fill, meaning that we will make a hire faster, on average. 
  
 Q: As a Hiring Manager, how do I create an interview plan?
+
 - A: To build your interview plan, please create a tab in [this document](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1566158302).  The recruiting team will then work with you to build out your plan in Greenhouse.
 - When creating the interview questions, please keep in mind:
   - All interview questions should be written in open ended format (the best way to ensure of this is to start every question with “tell me…”)
