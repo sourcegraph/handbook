@@ -1,4 +1,4 @@
-### Guide to Using BrightHire
+# Guide to Using BrightHire
 
 ## What is BrightHire?
 
