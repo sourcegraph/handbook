@@ -30,7 +30,8 @@ We want our teammates to be happy, healthy, and productive, which is why we stri
 
 We know that interviewing can be stressful and that a lot of time and energy is spent as you go through the process. We are committed to providing a world-class candidate experience, so if there's anything we can do to make your experience more enjoyable, please feel free to email recruiting@sourcegraph.com.  You can also provide anonymous feedback in the candidate survey sent via Greenhouse after you are 1) declined or 2) sign your offer. 
 
-Specifically, we aim to provide a positive candidate experience by:
+Specifically, we aim to provide a positive candidate experience by...
+
 - Treating all candidates with respect at all stages, regardless of hiring outcome.
 - Writing our job descriptions as clearly as possible to ensure you have a good understanding of the job and the impact you would make in the role. All job descriptions are written in an [inclusive format](https://about.sourcegraph.com/handbook/talent/hiring/interview_process#creating-a-job-description), encouraging candidates from all walks of life to apply. 
 - Ensuring that our interview process is structured, that all interview questions [are planned](https://about.sourcegraph.com/handbook/talent/hiring/interview_process#creating-an-interview-plan) in advance of all interviews.
@@ -58,20 +59,20 @@ We know that interviewing can be stressful, so we want to provide you as much [i
 
 # Candidate FAQ
 
-Q: Can I work from anywhere?
-- A: Yes, Sourcegraph is an all-remote company. Unless indicated explicitly in the job description, we are a remote-first company and do not have a preference regarding your location.  You can read more about our all-remote philosophy, as well as our path to all remote and tips for working remotely [here](https://about.sourcegraph.com/handbook/company/remote). 
+- Q: Can I work from anywhere?
+   - A: Yes, Sourcegraph is an all-remote company. Unless indicated explicitly in the job description, we are a remote-first company and do not have a preference regarding your location.  You can read more about our all-remote philosophy, as well as our path to all remote and tips for working remotely [here](https://about.sourcegraph.com/handbook/company/remote). 
 
-Q: When can I expect to hear feedback?
-- A: We aim to respond to all applications within 5 business days of your application date.  If you are a candidate in our interview process, you can expect to hear from us within 3 business days. If you would like a status update on your candidacy, please contact your recruiter or email recruiting@sourcegraph.com.
+- Q: When can I expect to hear feedback?
+   - A: We aim to respond to all applications within 5 business days of your application date.  If you are a candidate in our interview process, you can expect to hear from us within 3 business days. If you would like a status update on your candidacy, please contact your recruiter or email recruiting@sourcegraph.com.
 
-Q: Why does Sourcegraph record interviews?
-- A: We use [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#what-is-brighthire), an interview recording tool, to record all interviews.  We do this because we believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve.  Have questions?  To read our FAQ, [click here](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#candidate-faq).
+- Q: Why does Sourcegraph record interviews?
+   - A: We use [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#what-is-brighthire), an interview recording tool, to record all interviews.  We do this because we believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve.  Have questions?  To read our FAQ, [click here](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#candidate-faq).
 
-Q: Does Sourcegraph check references?
-- A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent.  You can read more about our reference check process [here](https://about.sourcegraph.com/handbook/talent/hiring/reference_check_questions).
+- Q: Does Sourcegraph check references?
+   - A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent.  You can read more about our reference check process [here](https://about.sourcegraph.com/handbook/talent/hiring/reference_check_questions).
 
-Q: Does Sourcegraph provide feedback to candidates who don't recieve an offer?
-- A: We do not provide feedback to candidates at this time.  We encourage you to read more about our [philosophy regarding sharing candidate feedback](https://about.sourcegraph.com/handbook/talent/hiring#sharing-interview-feedback).
+- Q: Does Sourcegraph provide feedback to candidates who don't recieve an offer?
+   - A: We do not provide feedback to candidates at this time.  We encourage you to read more about our [philosophy regarding sharing candidate feedback](https://about.sourcegraph.com/handbook/talent/hiring#sharing-interview-feedback).
 
-Q: Do you provide Visa sponsorship?
-- A: You can learn more about our Visa policy [here](https://about.sourcegraph.com/handbook/people-ops/visa-sponsorship).  If you have any questions, please email recruiting@sourcegraph.com.
+- Q: Do you provide Visa sponsorship?
+   - A: You can learn more about our Visa policy [here](https://about.sourcegraph.com/handbook/people-ops/visa-sponsorship).  If you have any questions, please email recruiting@sourcegraph.com.
