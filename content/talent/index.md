@@ -55,10 +55,10 @@ We are **hiring recruiters**!  View our open positions [here](https://boards.gre
 
 - [Partnering with hiring managers](https://about.sourcegraph.com/handbook/talent/resources_for_recruiters)
 - [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training)
-- [Recruitment branding] Coming soon
 - [Recruiting tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools)
    - [Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse), our ATS
    - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
    - [Ashby](https://app.ashbyhq.com/access), our metrics tool
    - LinkedIn Recruiter, our sourcing tool
- - [Job boards](https://about.sourcegraph.com/handbook/talent/hiring/job_boards)
+- Recruitment branding 
+   - [Where we post our jobs](https://about.sourcegraph.com/handbook/talent/hiring/job_boards)
