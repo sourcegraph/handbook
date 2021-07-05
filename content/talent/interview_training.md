@@ -6,4 +6,6 @@
 
 [Values interview training] Coming soon
 
+- [Providing feedback](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values)
+
 [Resume Deep Dive training] Coming soon
