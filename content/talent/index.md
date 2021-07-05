@@ -21,6 +21,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 We are **hiring recruiters**!  View our open positions [here](https://boards.greenhouse.io/sourcegraph91).
 
 ## [Resources for Candidates](https://about.sourcegraph.com/handbook/talent/resources_for_candidates)
+
 - [Our open positions](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#how-to-apply)
 - [All remote work](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#all-remote-work)
 - [Our company values](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#our-company-values)
@@ -29,6 +30,7 @@ We are **hiring recruiters**!  View our open positions [here](https://boards.gre
 - [Candidate FAQ](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#candidate-faq)  
 
 ## [Resources for Hiring Managers](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
+
 - [The interview process](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
    - [Opening a new job](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
    - [Writing a job description](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
@@ -43,12 +45,14 @@ We are **hiring recruiters**!  View our open positions [here](https://boards.gre
 - [Using recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
 
 ## [Resources for Teammates](https://about.sourcegraph.com/handbook/talent/resources_for_teammates) 
+
 - [How to refer a candidate](https://about.sourcegraph.com/handbook/talent/hiring#making-a-referral) 
 - [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training)
 - [Recruiting Tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools) 
    - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
 
 ## [Resources for Recruiters](https://about.sourcegraph.com/handbook/talent/resources_for_recruiters)
+
 - [Partnering with hiring managers](https://about.sourcegraph.com/handbook/talent/resources_for_recruiters)
 - [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training)
 - [Recruitment branding] Coming soon
