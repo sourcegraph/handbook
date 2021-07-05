@@ -17,7 +17,7 @@ WIP
 - [Cecily Black](https://about.sourcegraph.com/handbook/company/team#cecily-black-she-her), People Operations Coordinator
 
 ### How to reach the right member of the People Ops team
-If you encounter a question at any point, we're here to help! 
+If you encounter a question at any point, we're here to help!
 
 Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)** will help you understand which aliases to use for your questions. It will also ensure you get the right attention, from the right team member, faster. In the spirit of transparency, for any questions which might apply to others, feel free to post in the Slack channels we listed in the matrix.
 
@@ -28,7 +28,7 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 ## Teammate experience
 
 - [All-remote work](../company/remote/index.md)
-- [Interview process](../talent/hiring/interview_process.md)
+- [Interview process](../talent/interview_process.md)
 - [Hiring](../talent/hiring/index.md)
 - [Onboarding](onboarding/index.md)
 - [Performance review cycles](review-cycles/index.md)

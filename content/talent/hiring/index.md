@@ -12,12 +12,12 @@
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 1. Hiring managers own the hiring process for their team.
-   - Hiring managers are encouraged to partner with [their assigned Recruiter](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#the-talent-team) to experiment to learn how to improve their hiring process.
-   - The handbook is kept up-to-date with our learnings and current norms. If something is missing from the Handbook, please Slack @hiring. 
+   - Hiring managers are encouraged to partner with their assigned Recruiter](hiring/how_recruiting_interfaces_with_hiring_managers.md#the-talent-team) to experiment to learn how to improve their hiring process.
+   - The handbook is kept up-to-date with our learnings and current norms. If something is missing from the Handbook, please Slack @hiring.
 
 ## How recruiting interfaces with hiring managers
 
-For any members of a hiring team, please see [this page](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#the-talent-team) for a breakdown of each step in the hiring process.
+For any members of a hiring team, please see [this page](../index.md#the-talent-team) for a breakdown of each step in the hiring process.
 
 ## Recruiting tools
 
@@ -33,8 +33,8 @@ For any members of a hiring team, please see [this page](https://about.sourcegra
 - Q: Is it not allowed if we have an internal recruiter for the team?
    - A: This should be reviewed on a case by case basis to see what is the required candidate pipeline to meet the team’s hiring goals. If internal recruiter(s) are not enough to meet the needs of the team then hiring manager can seek external help.
 - Q: How do we engage with a new agency?
-   - A: To engage with a new agency, please Slack @hiring with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on. 
-   - As a next step, the VP of Talent will send and sign all agency agreemnts. 
+   - A: To engage with a new agency, please Slack @hiring with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on.
+   - As a next step, the VP of Talent will send and sign all agency agreemnts.
    - All agencies sign our [standard agreement](https://docs.google.com/document/d/1IU_eWoZxEGQS8RRcjuUPfVD-byWScn5bsZE3e3oFZQ0/edit).
    - Our standard agency fee is 20%.
 - Q: How do agencies submit candidates?
@@ -48,7 +48,7 @@ The source-of-truth for our open positions is [our careers page](https://boards.
 
 ## Job descriptions
 
-Each job description focuses on the impact a candidate will make vs. a list of requirements.  Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies.  You can read more about our job description philosophy [here](https://about.sourcegraph.com/handbook/talent/hiring/interview_process#creating-a-job-description). 
+Each job description focuses on the impact a candidate will make vs. a list of requirements.  Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies.  You can read more about our job description philosophy [here](https://about.sourcegraph.com/handbook/talent/hiring/interview_process#creating-a-job-description).
 
 We want a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, apply anyway! We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 
@@ -96,7 +96,7 @@ Here are some other questions that candidates have asked (e.g., in the [CEO inte
 
 ## Making an offer
 
-Once the decision is made to [extend an offer](interview_process.md#outcome) to a candidate, the following process is followed:
+Once the decision is made to [extend an offer](../interview_process.md#outcome) to a candidate, the following process is followed:
 
 1. The recruiter confirms the offer details with the hiring manager (compensation, equity, level) and submits the offer for approval in Greenhouse.
    - Offer approval chain: VP, Talent > Hiring Manager > Department Head > VP, Operations.

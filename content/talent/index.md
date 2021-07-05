@@ -1,23 +1,23 @@
 # Talent
 
-The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates. 
+The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates.
 
 ## Talent Team Members
 - [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
-- [Devon Coords](../../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead 
+- [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
    - Engineering
    - Product
    - Customer Engineering
    - Support
-- [Kelsey Nagel](../../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
+- [Kelsey Nagel](../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
    - Marketing
    - Finance
    - Legal
    - BizOps
    - People Operations
-- [Trevor Houghton](../../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
+- [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
    - Interview scheduling for all departments
-   
+
 We are **hiring recruiters**!  View our open positions [here](https://boards.greenhouse.io/sourcegraph91).
 
 ## [Resources for Candidates](https://about.sourcegraph.com/handbook/talent/resources_for_candidates)
@@ -37,18 +37,18 @@ We are **hiring recruiters**!  View our open positions [here](https://boards.gre
    - [Creating an interview plan](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
    - [Scheduling an interview](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
    - [Extending an offer](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
-- [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training) 
+- [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training)
 - [Recruiting tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools)
    - [Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse), our ATS
    - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
    - [LinkedIn](https://about.sourcegraph.com/handbook/talent/hiring/linkedin), our sourcing tool
 - [Using recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
 
-## [Resources for Teammates](https://about.sourcegraph.com/handbook/talent/resources_for_teammates) 
+## [Resources for Teammates](https://about.sourcegraph.com/handbook/talent/resources_for_teammates)
 
-- [How to refer a candidate](https://about.sourcegraph.com/handbook/talent/hiring#making-a-referral) 
+- [How to refer a candidate](https://about.sourcegraph.com/handbook/talent/hiring#making-a-referral)
 - [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training)
-- [Recruiting Tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools) 
+- [Recruiting Tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools)
    - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
 
 ## [Resources for Recruiters](https://about.sourcegraph.com/handbook/talent/resources_for_recruiters)
