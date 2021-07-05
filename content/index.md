@@ -15,6 +15,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Goals](company/goals/index.md)
 - [Team](company/team/index.md)
   - [Org chart](company/team/org_chart.md)
+  - [Teammates](https://about.sourcegraph.com/handbook/company/team)
   - [Careers](https://boards.greenhouse.io/sourcegraph91)
 - [CEO](ceo/index.md)
 - [Communication](communication/index.md)
