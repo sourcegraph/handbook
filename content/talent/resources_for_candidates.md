@@ -1,6 +1,6 @@
 # Resources for Candidates
 
-## How to apply
+# How to apply
 
 The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91). 
 
@@ -51,9 +51,36 @@ Interviewing requires time and effort, both for Sourcegraph teammates and for ou
 
 Candidates are welcome to re-apply for roles at any time. The talent team will review all relevant information, including past interview feedback, when considering a person's candidacy.
 
-### How to prepare for an interview 
+# How to prepare for an interview 
 
-We know that interviewing can be stressful, so we want to provide you as much [information](https://about.sourcegraph.com/handbook/talent/how_to_prepare_for_candidates) as possible to help you feel prepared.  If we are missing any advice or resources that would be helpful, please email recruiting@sourcegraph.com.   
+We know that interviewing can be stressful, so we want to provide you as much information as possible to help you feel prepared.  If we are missing any advice or resources that would be helpful, please email recruiting@sourcegraph.com.   
+
+### Zoom 
+
+We leverage Zoom for our video interviews. Please make sure to test Zoom prior to the interview to ensure your don't have any technical difficulties.
+
+### Interview recording 
+
+We believe that candidates should be assessed based on merit, not our memory. Our interview recording tool, [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire), allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve.
+
+1) We record our interviews so we can focus on the conversation, not taking notes, and run a better hiring process.
+2) Memory recall actually declines to 44% one hour after an interview. We want to make sure that we are basing our hiring decisions on your merit, and not our memory.
+3) BrightHire allows us to run a more equitable process by ensuring that all candidates are given the same questions and experience. Rather than requiring perfect recall or notes, it will allow hiring managers to refer back to specific questions and answers, and to triangulate perspectives using concrete examples.
+4) BrightHire also ensures your interviews are structured and well thought out, giving you the best opportunity to showcase your relevant experience and qualifications.
+5) If you speak with multiple interviewers, BrightHire will help the hiring team coordinate to give you a great experience. It’ll be much less likely you’ll be asked to “Tell me about yourself” four times in four interviews.
+
+Using BrightHire is optional for both our interviewers and our candidates. We will only record interviews with a candidate’s explicit consent and you can choose to opt out at any time. If you do opt out, please let us know prior to the interview by emailing recruiting@sourcegraph.com. The structure of the interview and decision process will remain the same and their decision will have no weight on your candidacy.
+
+### Types of interviews
+
+- We encourage you to read about the [different types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
+
+### Helpful links
+- We are a [transparant](https://about.sourcegraph.com/handbook/marketing/messaging) company and everything we do lives in our [Handbook](https://about.sourcegraph.com/handbook). We encourage you to read through it prior to your interview.
+- Our [messaging and definitions](https://about.sourcegraph.com/handbook/marketing/messaging) should help you better understand what Sourcegraph does.
+- [Benefits and perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks). 
+- [Teammates bios](https://about.sourcegraph.com/handbook/company/team).
+- [Strategy and vision](https://about.sourcegraph.com/handbook/company/strategy).
 
 # Candidate FAQ
 
@@ -69,6 +96,9 @@ A: Choosing to join a company is a significant commitment. We want people to hav
 - Q: Why does Sourcegraph record interviews?
    - A: We use [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#what-is-brighthire), an interview recording tool, to record all interviews.  We do this because we believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve.  Have questions?  To read our FAQ, [click here](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#candidate-faq).
 
+- Q: What should I wear to an interview?
+   - A: We are a casual company and we encourage your to dress comfortably!   
+  
 - Q: Does Sourcegraph check references?
    - A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent.  You can read more about our reference check process [here](https://about.sourcegraph.com/handbook/talent/hiring/reference_check_questions).
 
