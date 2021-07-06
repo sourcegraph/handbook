@@ -73,16 +73,33 @@ We inherit Sourcegraph's [engineering principles and practices](https://about.so
 
 ### Planning and prioritization
 
-We plan and track our day-to-day work on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144). Our current process (last updated 2021-05-14) is as follows:
+We plan and track our day-to-day work on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144). Our current process (last updated 2021-06-29) is as follows:
 
-- Incoming tickets (e.g. from other teams) arrive in the _Inbox_ column.
+- Incoming tickets (e.g. from other teams) are given the `team/frontend-platform` label. As part of our [triage process](#triage), these tickets are added to our board by the designated teammate.
 - Work is scheduled by adding a card to either the _Backlog (product)_ or the _Backlog (eng)_ column.
    - _Backlog (product)_ is for work that directly contributes to product goals, and is refreshed and prioritized by the PM/EM.
    - _Backlog (eng)_ is refreshed and prioritized by the engineers. This is the place for refactorings, developer experience improvements, etc.
-- Work should not be moved into either column until it is ready for development.
-   - Anything that needs design input gets the `needs-design` label and goes in the _Needs input_ column.
+- Work should not be moved into either column until it is ready for development. Tickets that require further input before an engineer can start working on them are put in the _Needs input_ column.
+- Tickets in the _Needs input_ column should be tagged with an appropriate label that describes what input is required:
+   - `needs-design`: if it needs input from the design team
+   - `needs-discussion`: if the issue should be discussed at the next Frontend Platform sync
+   - `needs-more-info`: if it's not clear yet what needs to be done
+   - `needs-prioritization`: if the issue is part of an active prioritization conversation, to be decided on soon
+   - `awaiting-reply`: if we're waiting on an answer to a specific question on the ticket
 - When starting work, engineers pull cards from one of the _Backlog_ columns and move it to the _In Progress_ column. The other columns are self-explanatory 🙂
-- We do not yet have work-in-progress (WIP) limits for the columns, but will consider that soon.
+
+### Triage
+
+We have a weekly rotation for triaging and grooming issues. During their week on rotation, the on-duty teammate is responsible for triaging and clarifying any new issues that have been reported. We aim to do the following on a daily basis:
+
+1. Click the "+ Add cards" button and search for `is:issue is:open label:team/frontend-platform` to find all open issues for the Frontend Platform team that are not yet on our board. For each issue that is found, drag the card into the _Inbox_ column on our board.
+2. For each issue in the _Inbox_ column, consider the following:
+   - Is it clear what needs to be done? If not, ask for clarification on the ticket, apply an appropriate label (e.g., `needs-more-info`), and move the ticket to the _Needs input_ column.
+   - Is it clearly something that should be done by the Frontend Platform team? If not, tag other teams (using the appropriate `team/xyz` label) and have a discussion about which is the best team to own the issue. Or you can add the `needs-discussion` label and discuss it with the team at an upcoming meeting (e.g. Frontend Platform sync or FPT coffee).
+   - Is it ready for development? If required, add the `needs-design` label and move the ticket into the _Needs input_ column.
+   - If it's ready for development and you know how to prioritize it correctly, move it to one of the _Backlog_ columns. If you don't know how to prioritize it, you can leave it in the _Inbox_ column and ask your teammates for help with prioritization.
+
+At the end of the week, aim for the _Inbox_ column to be empty, or almost empty.
 
 ### Tracking Issues
 
@@ -131,4 +148,4 @@ The team holds weekly syncs.
 
 The meeting notes of team syncs can be found [in this doc](https://docs.google.com/document/d/1_wptyMfAjLagJKPjIhPt_miXoEpYuyo_64PBCTTr5h0/edit).
 
-Before team syncs, teammates and stakeholders should write down under "Agenda" in the meeting notes document anything that they'd like to bring up for discussion with the whole team.
+Before team syncs, teammates and stakeholders should write down under "Agenda" in the meeting notes document anything that they'd like to bring up for discussion with the whole team. During the sync, we dedicate time to discussing any tickets on our board that have the `needs-discussion` label.
