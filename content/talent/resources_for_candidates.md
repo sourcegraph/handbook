@@ -12,7 +12,7 @@ We are growing rapidly and post new jobs on a weekly basis.  We encourage you to
 
 ### Sourcegraph's culture 
 
-We are an all [all-remote company](https://about.sourcegraph.com/handbook/company/remote) with teammates across the globe.  Our [company values](https://about.sourcegraph.com/handbook/company/values) are the beliefs and principles that help us achieve our [goals & mission](https://about.sourcegraph.com/handbook/company/strategy#mission), and build an [inclusive team](https://about.sourcegraph.com/handbook/company/values#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview). 
+We are an [all-remote company](https://about.sourcegraph.com/handbook/company/remote) with teammates across the globe.  Our [company values](https://about.sourcegraph.com/handbook/company/values) are the beliefs and principles that help us achieve our [goals & mission](https://about.sourcegraph.com/handbook/company/strategy#mission), and build an [inclusive team](https://about.sourcegraph.com/handbook/company/values#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview). 
 
 ### Benefits, perks, and compensation
 
@@ -57,7 +57,7 @@ We know that interviewing can be stressful, so we want to provide you as much in
 
 ### Zoom 
 
-We leverage Zoom for our video interviews. Please make sure to test Zoom prior to the interview to ensure your don't have any technical difficulties.
+We leverage Zoom for our video interviews. Please make sure to test Zoom prior to the interview to ensure you don't have any technical difficulties.
 
 ### Interview recording 
 
