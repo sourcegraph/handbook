@@ -21,14 +21,21 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
-- [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
-- [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
-- [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
+- Alex Jean-Baptiste
+- Amber Furbush
 - [Beatrix Woo](../company/team/index.md#beatrix-woo-she-her)
-- [Carl Hicks](../company/team/index.md#carl-hicks-he-him)
-- [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
 - [Ben Gordon](../company/team/index.md#team#ben-gordon-he-him)
-- [Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang, CTO)
+- [Carl Hicks](../company/team/index.md#carl-hicks-he-him)
+- Don Ellison
+- [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
+- [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
+- Jason Harris
+- Kelvin Lee
+- Mariam Adedeji (starting 2021-07-19)
+- Michael Bali
+- [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
+- [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
+- [Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang Liu, CTO)
 
 More details about each team member in [our team READMEs](support-bios.md).
 
