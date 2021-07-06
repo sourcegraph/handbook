@@ -1,9 +1,11 @@
 # Resources for Hiring Managers
 
 ## Partnering with recruiting
+
 Each hiring manager has an [assigned recruiter](index.md#talent-team-members) for their hiring needs. If you are unsure which Recruiter you should partner with, please Slack @hiring to inquire.
 
 ## Estimated time-to-hire
+
 It is our goal to fill our openings as quickly as possible while maintaining a high quality bar and a strong candidate experience.  Our time-to-fill goal is an average of 45-days.  This means that the timespan from intake meeting to candidate offer acceptance (when a candidate signs their offer letter) should be, on average, 45-days or less.  
 
 - (45 day time-to-fill) + (2-4 week notice period) + (1-2 week vacation in between jobs) = 3 months from the time we kick off the job to when our new teammate starts.
@@ -18,6 +20,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 - [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
 
 ### 1. Opening a new job
+
 - To open a new role:
     - The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit).
     - The Hiring Manager creates a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).  Read more about why we write job descriptions in this way [here](interview_process.md#creating-a-job-description).
@@ -29,6 +32,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
     - Recruiter posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91) and LinkedIn. If you would like it posted in other locations, please ask your Recruiter or send a Slack message to @hiring.  You can see a list of other job boards we are considering [here](hiring/job_boards.md).
 
 ### 2. Recruiting Stage
+
 - Recruiter reviews applicants.
     - To advance a candidate to the Recruiter screen stage, Recruiter uses the Calendly template in Greenhouse to schedule.
     - To reject a candidate, Recruiter sends rejection email template.
@@ -41,6 +45,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
     - This can be done in a synchronous fashion via a debrief Zoom meeting, or asynchronously via Slack.
 
 ### 3. Offer stage
+
 - Once finalist is identified, Recruiter completes references.
 - Recruiter confirms level and compensation.
     - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
@@ -51,7 +56,9 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
    - During the call, we will review: 1) compensation 2) equity 3) perks, travel (and benefits, if applicable).
    - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and 2) schedule a follow up call to answer any questions.
 - Following the offer call, Recruiter sends the offer summary to the candidate in an email.
-- To send an official offer, the Recruiter 1) updates the offer approval with the accurate start date and 2) tags the VP Talent and the Recruitment Operations Specialist in the notes section: "@Carly @Trevor please send this US/Non-US offer letter"
+- To send an official offer, the Recruiter
+   - 1. updates the offer approval with the accurate start date
+   - 2. tags the VP Talent and the Recruitment Operations Specialist in the notes section: "@Carly @Trevor please send this [US/Non-US] offer letter"
 - The official offer is sent to the candidate via Docusign.
 
 ### 4. After the offer
