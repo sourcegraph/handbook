@@ -1,6 +1,6 @@
 # Demo day
 
-> NOTE: We are just kicking off demo day and will be iterating on it to make it work well for our team. It's a learning process and we want to make this valuable to folks who demo, attendees, and external folks watching in. Please provide feedback to help us improve this process!
+> NOTE: We are just kicking off demo day and will be iterating on it to make it work well for our team. It's a learning process and we want to make this valuable to folks who demo, attendees, and external folks watching in. [Please fill out this feedback form to help us improve this process](https://docs.google.com/forms/d/1AwR1A8NdmgULK1KsqIMrqvaVWm_qnOM6BjlaCUtoOxo/edit)!
 
 On the **first Monday of the month** directly following [Company meeting](../communication/company_meeting.md), Product and Engineering team members present the latest features and improvements to Sourcegraph.
 
@@ -35,18 +35,27 @@ OR
 
 > Here it is in action. \<show demo and briefly explain>
 
+## Tips for presenting
+
+- Turn on do not disturb and/or Slack notifications off
+- Only show 1 tab in 1 window (if possible)
+- (If you want to record - here's some helpful tips of how to use Loom)
+
 ## Examples
 
-Here are some examples of great demos previously shared (not necessarily following the proposed format):
+Here are some examples of great demos previously shared:
 
-- [Batch changes demo](https://sourcegraph.slack.com/files/UHTSAHETD/F01QM8NGACF/batch_changes_demo_video.mp4) with Thorsten
-- [Monorepo support in Batch changes](https://files.slack.com/files-pri/T02FSM7DL-F01TXBVSXJA/monorepo-support.mp4) with Thorsten
-- [Cross dependency navigation](https://www.loom.com/share/446e0fc1df3d4bc4bf7bb6bd044573bc) in Java with Maria
-- [Cross-repo navigation for Go on Sourcegraph Cloud](https://www.loom.com/share/a2ef32a776624186a6c7b67387388b47) with Maria
-- [Adding Perforce depot to Sourcegraph](https://sourcegraph.slack.com/archives/C89KCDK5J/p1618332980200000) with Joe Chen
+- [A demo video about Demo day](https://www.loom.com/share/b611c353a7b74aefacdfd2de7dcdad32) with Christina Forney
+- [OpenGraph link previews](https://drive.google.com/file/d/1p1ymgRAeElsI8e1yztPHeTqafHb5g0ck/view) with Rok Novosel
+- [Merge feature (bulk uploads)](https://www.loom.com/share/606ab85e0f9f440a9dcf2b87dfbf6ce5) with Erik Seliger
+- [API docs page/updates](https://drive.google.com/file/d/126LLrQanXH7rHr0d8d_qvmnSpdefBa2V/view) with Stephen Gutenkast
 
 ## How to get scheduled
 
 When your team ships something that would make a great demo, mention @demoday-schedule in your #progress post, or send a short message to #demoday and you’ll be added to the schedule. Kylie will reach out in advance to plan prep time.
 
 We will keep track of and will organize the schedule in [this demo day schedule](https://docs.google.com/spreadsheets/d/1Te8HQXbUP-LZzoeSG90sN_dWyRgvZEB96uJoKPNbZqg/edit?usp=sharing).
+
+
+
+
