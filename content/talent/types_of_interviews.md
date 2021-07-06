@@ -10,7 +10,7 @@ We ask structured questions for all interviews, meaning that all candidates are 
 
 # Universal interviews 
 
-All departments are likely to have the below interview stages:
+All departments are likely to have some or all of the below universal interview stages:
 
 ## Recruiter screen 
 - Interviewer: the assigned recruiter for the role.
@@ -32,7 +32,8 @@ All departments are likely to have the below interview stages:
 - Duration: 30-minutes is average, but sometimes these are longer.
 - Details: during this stage in the interview process, the Hiring Manager will introduce themself, get to know you, and answer any initial questions you may have.  This stage is meant to be conversational and informative for both us and the candidate. 
 - Example questions: 
-  -  Coming soon
+  -  Tell me about a time when you made a critical mistake. What happened, and how did you deal with it?
+  -  Tell me about a time when you identified a problem and took the initiative to solve it.
 
 ## Resume deep dive 
 - Interviewer(s): the hiring manager or a peer leads the Resume deep dive, and sometimes there is another teammate who shadows the interview.
@@ -68,7 +69,7 @@ All departments are likely to have the below interview stages:
 - Example questions: 
   -  We will ask behavioral-based, open-ended questions directly related to our values. 
 
-## Department head interview (30-45 minutes)
+## Department head interview 
 - Interviewer: the department head.
 - Duration: 30-45 minutes.
 - Details: during this stage in the interview process, the head of the department will ask questions to gain more insight into the following areas: your grit, curiosity, passion, growth mindset, intelligence, and values.  They will also answer any final questions you may have! This is generally the last stage in our interview process.
