@@ -18,12 +18,6 @@ We are an [all-remote company](https://about.sourcegraph.com/handbook/company/re
 
 We want our teammates to be happy, healthy, and productive, which is why we strive to provide competitive [benefits and perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks). In addition, we are committed to paying all teammates [equitably and competitively](https://about.sourcegraph.com/handbook/people-ops/compensation), and always determine our offers based on market data, **not** your past compensation. 
 
-# Interviewing at Sourcegraph
-
-- [Our interview process](https://about.sourcegraph.com/handbook/talent/interview_process).
-- [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
-- [How to prepare for your interview](https://about.sourcegraph.com/handbook/talent/how_to_prepare_for_candidates).
-
 ### Sourcegraph hiring values 
 
 We believe all candidates are deserving of a fair, equitable, and enjoyable interview experience. You can read more about our hiring values [here](https://about.sourcegraph.com/handbook/talent/hiring#values-and-practices).
@@ -50,6 +44,11 @@ Interviewing requires time and effort, both for Sourcegraph teammates and for ou
 ### Policy for candidates re-applying to roles
 
 Candidates are welcome to re-apply for roles at any time. The talent team will review all relevant information, including past interview feedback, when considering a person's candidacy.
+
+# Interviewing at Sourcegraph
+
+- [Our interview process](https://about.sourcegraph.com/handbook/talent/interview_process).
+- [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
 
 # How to prepare for an interview 
 
