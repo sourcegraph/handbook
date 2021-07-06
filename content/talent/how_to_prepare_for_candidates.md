@@ -18,25 +18,7 @@ Coming soon
 
 ## Types of interviews
 
-- [Recruiter screen](https://about.sourcegraph.com/handbook/talent/types_of_interviews)
-- [Hiring manager screen] 
-- [Resume deep dive]
-- [Peer interview] 
-- [Team collaboration interview]
-- [Values interview] 
-- [Department head interview] 
-
-- Department specific interviews 
-   - Administrative
-   - BizOps, Finance, Legal, TechOps
-   - Customer Support
-   - Customer Engineering
-   - Engineering
-   - Marketing
-   - People Operations
-   - Product
-   - Sales
-   - Talent 
+- We encourage you to read about the [different types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews) a candidate can expect while going through the interview process.  
 
 ## What to wear for your interview 
 Coming soon
