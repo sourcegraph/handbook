@@ -26,7 +26,7 @@ We are **hiring recruiters**!  View our open positions [here](https://boards.gre
 - [Open positions](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#how-to-apply)
 - [Company values](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#our-company-values)
 - [Perks, benefits & compensation](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#benefits-and-perks)
-- [How to prepare for your interview](ttps://about.sourcegraph.com/handbook/talent/resources_for_candidates)
+- [How to prepare for your interview](https://about.sourcegraph.com/handbook/talent/resources_for_candidates)
 - [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews)
 - [Candidate FAQ](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#candidate-faq)  
 
