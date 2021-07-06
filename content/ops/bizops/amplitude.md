@@ -1,8 +1,9 @@
 # Amplitude
 
 ## How do I get started?
+1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named Sourcegraph). If you don't have an account, shoot a message to @ericbm or request one during login. 
 1. [Take a look at what data is in Amplitude](#data)
-1. Read the Amplitude documentation for [building analyses](https://help.amplitude.com/hc/en-us/categories/360003165371-Build-and-share-your-analysis)
+1. Read the Amplitude documentation for [building analyses](https://help.amplitude.com/hc/en-us/categories/360003165371-Build-and-share-your-analysis) and/or check out some of our [tutorials](https://drive.google.com/drive/folders/1cdcUe2e4bnYjxr9xqV6-pCsOOPIEMqGI).
 1. Ask BizOps for help if you have any questions!
 
 ## Why are we using Amplitude?
