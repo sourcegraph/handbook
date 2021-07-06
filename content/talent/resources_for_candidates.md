@@ -62,11 +62,11 @@ We leverage Zoom for our video interviews. Please make sure to test Zoom prior t
 
 We believe that candidates should be assessed based on merit, not our memory. Our interview recording tool, [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire), allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve.
 
-1) We record our interviews so we can focus on the conversation, not taking notes, and run a better hiring process.
-2) Memory recall actually declines to 44% one hour after an interview. We want to make sure that we are basing our hiring decisions on your merit, and not our memory.
-3) BrightHire allows us to run a more equitable process by ensuring that all candidates are given the same questions and experience. Rather than requiring perfect recall or notes, it will allow hiring managers to refer back to specific questions and answers, and to triangulate perspectives using concrete examples.
-4) BrightHire also ensures your interviews are structured and well thought out, giving you the best opportunity to showcase your relevant experience and qualifications.
-5) If you speak with multiple interviewers, BrightHire will help the hiring team coordinate to give you a great experience. It’ll be much less likely you’ll be asked to “Tell me about yourself” four times in four interviews.
+- 1. We record our interviews so we can focus on the conversation, not taking notes, and run a better hiring process.
+- 2. Memory recall actually declines to 44% one hour after an interview. We want to make sure that we are basing our hiring decisions on your merit, and not our memory.
+- 3. BrightHire allows us to run a more equitable process by ensuring that all candidates are given the same questions and experience. Rather than requiring perfect recall or notes, it will allow hiring managers to refer back to specific questions and answers, and to triangulate perspectives using concrete examples.
+- 4. BrightHire also ensures your interviews are structured and well thought out, giving you the best opportunity to showcase your relevant experience and qualifications.
+- 5. If you speak with multiple interviewers, BrightHire will help the hiring team coordinate to give you a great experience. It’ll be much less likely you’ll be asked to “Tell me about yourself” four times in four interviews.
 
 Using BrightHire is optional for both our interviewers and our candidates. We will only record interviews with a candidate’s explicit consent and you can choose to opt out at any time. If you do opt out, please let us know prior to the interview by emailing recruiting@sourcegraph.com. The structure of the interview and decision process will remain the same and their decision will have no weight on your candidacy.
 
