@@ -61,7 +61,7 @@ Plans can change given new information!
 
 - [Nick Snyder](../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
     - Global code graph {#global-code-graph}
-        - FQ2 [Director of Engineering](https://boards.greenhouse.io/sourcegraph91/jobs/4005231004). Nick acting director until then.
+        - Y.T. starting 2021-08-03. Nick acting director until then.
         - [Search core](search/core.md)
             - [Team: Search core](search/core.md#search-core-eng)
         - [Search product](search/product.md)
