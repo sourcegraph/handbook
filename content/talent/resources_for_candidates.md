@@ -84,7 +84,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 # Candidate FAQ
 
 - Q: How is Sourcegraph doing from a financial standpoint?
-A: Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions).  To learn more about our company financials, click [here](https://about.sourcegraph.com/handbook/talent/hiring#sharing-company-financials).
+   - A: Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions).  To learn more about our company financials, click [here](https://about.sourcegraph.com/handbook/talent/hiring#sharing-company-financials).
 
 - Q: Can I work from anywhere?
    - A: Yes, Sourcegraph is an all-remote company. Unless indicated explicitly in the job description, we are a remote-first company and do not have a preference regarding your location.  You can read more about our all-remote philosophy, as well as our path to all remote and tips for working remotely [here](https://about.sourcegraph.com/handbook/company/remote). 
