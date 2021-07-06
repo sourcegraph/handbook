@@ -17,7 +17,7 @@ We welcome suggestions for more places that we can post!
 - [General Assembly](https://generalassemb.ly/)
 - [App Academy](https://www.appacademy.io/)
 - [POCIT](https://peopleofcolorintech.com/). People of Color in Tech.
-- [PDXWIT](https://www.pdxwit.org/). Portland Oregan Women in Tech.
+- [PDXWIT](https://www.pdxwit.org/). Portland Oregon Women in Tech.
 
 ## Job boards we will consider in the future:
 We want to make sure our job postings reach a wide audience and that we're posting in multiple places without a large overlap in members from our existing job postings.
