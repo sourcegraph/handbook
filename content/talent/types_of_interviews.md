@@ -63,6 +63,7 @@ All departments are likely to have some or all of the below universal interview 
   -  Coming soon
 
 ## Values interview 
+Read more about our values interview [here](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values). 
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
 - Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](https://about.sourcegraph.com/handbook/company/values).
