@@ -58,9 +58,9 @@ We are flexible when it comes to scheduling interviews because we are all-remote
  
 Even if candidates prefer to batch all their interviews together, it might not be possible due to the timezones of available interviewers.
  
-If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates and the candidate's time.
+If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates' and the candidate's time.
  
-To schedule and interview with a candidate, please reach work with your recruiter or Slack @hiring.  You can see a list of Recruiters [here](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#the-talent-team).
+To schedule an interview with a candidate, please work with your recruiter or Slack @hiring.  You can see a list of Recruiters [here](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#the-talent-team).
  
 ## Providing interview feedback
  
@@ -74,10 +74,10 @@ In addition to providing written feedback, you are asked to choose an overall re
 
 Please leverage the below definitions when rating candidates: 
 
-- **Strong Yes**. You are confident that this person would make our team better and you would be excited to have the chance to work with them.
-- **Yes**. You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
-- **No**. You are neutral or have doubts about whether this person would make our team better.
-- **Strong No**. You are very confident that we should not hire this person because they would not be successful on our team.
+- **Strong Yes.** You are confident that this person would make our team better and you would be excited to have the chance to work with them.
+- **Yes.** You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
+- **No.** You are neutral or have doubts about whether this person would make our team better.
+- **Strong No.** You are very confident that we should not hire this person because they would not be successful on our team.
  
 All "Yes" feedback with no "Strong Yes" feedback is usually not sufficient. We want to hire people who we are excited to work with.
 
@@ -85,7 +85,7 @@ All "Yes" feedback with no "Strong Yes" feedback is usually not sufficient. We w
 
 When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/articles/360018399451-Scorecard-focus-attributes), we have 5 options: 1. Star 2. Thumbs up 3. Neutral 4. Thumbs down 5. Stop
 
-- **Star**. You are **very** confident that this person has this attribute.
+- **Star.** You are **very** confident that this person has this attribute.
 - **Thumbs up.** You are confident and have no concerns that this candidate has this attribute.
 - **Neutral.** You are neutral or are unsure if they have, or don't have, this attribute. More digging and interviewing is recommended. 
 - **Thumbs down.** You do not believe this candidate has this attribute.
