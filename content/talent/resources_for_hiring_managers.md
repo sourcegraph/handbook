@@ -89,8 +89,8 @@ The folder to store agency contracts can be found [here](https://drive.google.co
 
 You can see a list of all recruiting tools [here](hiring/index.md#recruiting-tools).  If you need a tool not listed, please Slack #hiring to request it.
 
-- Guide to using [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire.md), our interview recording tool
-- Guide to using [Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse.md), our applicant tracking system
+- Guide to using [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire), our interview recording tool
+- Guide to using [Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse), our applicant tracking system
 
 ## Providing interview feedback
 
