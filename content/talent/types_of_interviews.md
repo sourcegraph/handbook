@@ -49,7 +49,9 @@ All departments are likely to have some or all of the below universal interview 
 - Duration: 30-minutes is average, but sometimes these are longer.
 - Details: during this stage in the interview process, the Hiring Manager will introduce themself, get to know you, and answer any initial questions you may have.  This stage is meant to be conversational and informative for both us and the candidate. 
 - Example questions: 
-  -  How would you explain what Sourcegraph does to a friend?
+  -  What did you do to prepare for this conversation? 
+  -  Why do want to be a [role title]?  What are your longterm goals?
+  -  How would you explain what Sourcegraph does to a friend?  
 
 ## Resume deep dive 
 - Interviewer(s): the hiring manager or a peer leads the Resume deep dive, and sometimes there is another teammate who shadows the interview.
