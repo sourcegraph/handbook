@@ -26,11 +26,11 @@
     - [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
 
 - [Brand](brand/index.md)
-    - [Building a strong brand](brand/building_a_strong_brand.md)
+    - [Building a Strong Brand](brand/building_a_strong_brand.md)
     - [Brand Guidelines](brand/brand_guidelines.md)
     - [Brand and Creative Requests](brand/brand_and_creative_team_requests.md)
     - [Naming Process for Products, Features and Programs](brand/naming_process_for_products_features_and_programs.md)
-    - [Working with us](brand/production_process.md)
+    - [Working with Us](brand/production_process.md)
 
 - Marketing requests and feedback
     - [Make a request or share an idea](https://form.asana.com/?k=hNaq42PNshdQ1FjjEUKjLA&d=7195383522959)
