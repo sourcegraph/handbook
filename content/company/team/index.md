@@ -1067,3 +1067,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [jennapierre](https://github.com/jennapierre), [LinkedIn](https://www.linkedin.com/in/jenna-pierre/)
 - [jenna@sourcegraph.com](mailto:jenna@sourcegraph.com)
 - Jenna is a wandering, global English teacher-turned Sales professional. She does not have any pets of her own because of her nomadic lifestyle, but she frequently wins the love of the foreign kitties she encounters with tuna and belly rubs. In her free time, Jenna enjoys reading on the beach, trying new recipes, and salsa dancing with whoever is close by. 
+
+## Michael Bali (He/Him)
+
+- Customer Support Engineer
+- Lagos, Nigeria 🇳🇬
+- GitHub: [topebali](https://github.com/topebali), [LinkedIn](https://www.linkedin.com/in/michael-temitope-bali-830640171)
+- [michael.bali@sourcegraph.com](mailto:michael.bali@sourcegraph.com)
+- Michael is very passionate about helping those around him. He enjoys Soccer alot and discussing politics most especially politics in Africa with friends. During his leisure, he enjoys playing console games, reading books (crime thrillers) and travelling. He is also enthusiastic about meeting new folks and open minded to learning!
