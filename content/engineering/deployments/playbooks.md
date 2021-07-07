@@ -111,7 +111,7 @@ To restart the services powering about.sourcegraph.com and docs.sourcegraph.com:
     ```
     NAME                                     READY   STATUS      RESTARTS   AGE
     about-sourcegraph-com-74f96c659b-t6lqp   1/1     Running     0          7m49s
-    docs-sourcegraph-com-5f97dd5db-7wrxm     1/1     Running     0          7m49s 
+    docs-sourcegraph-com-5f97dd5db-7wrxm     1/1     Running     0          7m49s
     ```
 
     The exact names will differ, but the general format will be the same.
@@ -121,6 +121,20 @@ To restart the services powering about.sourcegraph.com and docs.sourcegraph.com:
     kubectl delete pod about-sourcegraph-com-74f96c659b-t6lqp docs-sourcegraph-com-5f97dd5db-7wrxm
     ```
 1. Wait a moment, and check https://about.sourcegraph.com/ and https://docs.sourcegraph.com/.
+
+### Creating banners for maintenance tasks
+
+For database upgrades or other tasks that might cause some aspects of Sourcegraph to be unavailable, we provide a banner across the top of the site. This can be done via editing __Global Settings__ with the following snippet.
+
+```json
+"notices": [
+    {
+"dismissible": false,
+"location": "top",
+"message": "🚀 Sourcegraph is undergoing a scheduled upgrade ([what's changed?](https://about.sourcegraph.com/blog/)). You may be unable to perform some write actions during this time, such as updating your user settings."
+    },
+]
+```
 
 ## k8s.sgdev.org
 
