@@ -949,6 +949,19 @@
           34.1109517943943
         ]
       }
-    }
+    },
+    {
+   "type":"Feature",
+   "properties":{
+      "name":"Michael Bali"
+   },
+   "geometry":{
+      "type":"Point",
+      "coordinates":[
+         3.379206,
+         6.524379
+      ]
+   }
+} 
   ]
 }
