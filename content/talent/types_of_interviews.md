@@ -3,7 +3,24 @@
 The below information is intended to help our candidates prepare for each step of the interview. Please note that the example questions are **examples only** and may not be the exact questions asked in the actual interview process. 
 
 ## The interview process 
-All role-specific interview processes are documented at the end of each [job description](https://boards.greenhouse.io/sourcegraph91).  You can also read more about our interview process [here](https://about.sourcegraph.com/handbook/talent/interview_process).   
+
+Our hiring managers work with their [assigned recruiter](https://about.sourcegraph.com/handbook/talent#talent-team-members) to create an optimal interview plan for their role. Below is an example. All steps in bold are strongly encouraged.
+ 
+All role-specific interview processes are documented at the end of each [job description](https://boards.greenhouse.io/sourcegraph91). 
+We strive for consistency across all interviews. 
+ 
+- **Recruiter screen**
+- **Hiring manager screen**
+- Assignment, if applicable
+- In-depth Interview stage:
+  -  Resume deep dive
+  -  Assignment review/working session, if applicable
+  -  Technical interview, if applicable
+  -  **Team collaboration interview**
+  -  **Peer interview**
+  -  **Values interview**
+- Department head interview
+- Reference checks / offer
 
 ## Structured interview questions
 We ask structured questions for all interviews, meaning that all candidates are asked the same questions in an effort to reduce bias and to even the playing-field. The interview [may be recorded](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) so that we can focus on the candidate, not taking notes, and ensure that we're delivering a great interview experience. If a candidate prefers not to be recorded during the interview, they can let us know - the structure of the interview and decision-making process will remain the same and the decision not to be recorded will have no weight on their candidacy.
@@ -32,8 +49,7 @@ All departments are likely to have some or all of the below universal interview 
 - Duration: 30-minutes is average, but sometimes these are longer.
 - Details: during this stage in the interview process, the Hiring Manager will introduce themself, get to know you, and answer any initial questions you may have.  This stage is meant to be conversational and informative for both us and the candidate. 
 - Example questions: 
-  -  Tell me about a time when you made a critical mistake. What happened, and how did you deal with it?
-  -  Tell me about a time when you identified a problem and took the initiative to solve it.
+  -  How would you explain what Sourcegraph does to a friend?
 
 ## Resume deep dive 
 - Interviewer(s): the hiring manager or a peer leads the Resume deep dive, and sometimes there is another teammate who shadows the interview.
@@ -99,7 +115,7 @@ In addition to the above interviews, some departments have department-specific i
 ## Marketing
 
 - Content working session
-  -  Interviewer(s): Coming soon
+  -  Interviewer(s): Coming soon.
   -  Duration: 60-minutes.
   -  Details: during this stage in the interview process, we try to get a sense of your approach and thought process when reviewing writing drafts submitted by team members. You will be given a blog post draft to review for the first 30-minutes of the session, after which you and the hiring manager go through how you approached the piece and talk about the changes you made and why.
 
@@ -109,13 +125,13 @@ In addition to the above interviews, some departments have department-specific i
 ## Product
 
 - Product designer portfolio review
-  -  Interviewer(s): Coming soon
-  -  Duration: Coming soon
+  -  Interviewer(s): Coming soon.
+  -  Duration: Coming soon.
   -  Details: in this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made.
 
 ## Sales
 
-**Sales Development Representativ:**
+**Sales Development Representative:**
 
 - SDR writing assignment
   -  Interviewer(s): NA - this is a take home assignment.
@@ -130,18 +146,18 @@ In addition to the above interviews, some departments have department-specific i
 **Enterprise Account Executive** 
 
 - Enterprise AE sales presentation
-  -  Interviewer(s): Coming soon
-  -  Duration: 60-minutes
+  -  Interviewer(s): Coming soon.
+  -  Duration: 60-minutes.
   -  Purpose: during the sales presentation, you will 1) walk the panel through a brief introduction/bio of yourself, 2) deep-dive into an enterprise deal you have led, and 3) present a pipeline generation plan (including 5 top target accounts you would pursue based on your understanding of Sourcegraph's value proposition, your personal relationships, and relevant information about the prospect companies that you believe lead to a high probability of engagement). The goal of this interview is for us to understand: 1) your past experience and skill set (via your intro), 2) whether you can command a sales process (via the deep-dive), and 3) your understanding of our value proposition and approach towards territory development. Very important: please use [this template](https://docs.google.com/presentation/d/1Tl5XdoMog8QEzEZFAHVHrOYAfjlOh7tomZKlVdxwGeA/edit#slide=id.g9288fdfdea_0_109) for your presentation and please check out the speaker notes - they have a lot of detail on what we are looking for!  If you have any issues accessing the presentation, please email recruiting@sourcegraph.com.
  
 - Enterprise AE deal review
-  -  Interviewer(s): Coming soon
-  -  Duration: Coming soon
+  -  Interviewer(s): Coming soon.
+  -  Duration: Coming soon.
   -  Purpose: as a part of our interview process, we ask that you prepare a 25-minute presentation reviewing a major deal you've successfully closed. We ask that you prepare to walk your interviewers through all aspects of the deal and your sales process, providing a step-by-step breakdown of how the deal was won and what skills/processes were employed. Feel free to include any challenges you faced, how you overcame them, and what stakeholders were involved, etc. Looking forward to hearing how you win!
 
 - Enterprise AE team collaboration with Customer Engineering
-  -  Interviewer(s): Coming soon
-  -  Duration: Coming soon
+  -  Interviewer(s): Coming soon.
+  -  Duration: Coming soon.
   -  Details: the purpose of this stage in the interview process is to evaluate your technical depth and aptitude for learning about the products you sell, as well as your ability to work effectively as a team with our Customer Engineers. Please come prepared to explain the technical underpinnings of the product(s) you sell today, how you work with Customer Engineers to learn more, and translate that into value to customers and prospects.
 
 **Regional Sales Director**
@@ -152,7 +168,7 @@ In addition to the above interviews, some departments have department-specific i
   -  Details: you will be preparing a 45-minute presentation, to be shared with the Hiring Manager and Account Executive(s) on the team. Please use [this presentation](https://docs.google.com/presentation/d/1d9yZwfTn72oRSZPcjt-mBVbkWR8kWBTyNI3xHKrypJg/edit#slide=id.g9f9a1da303_0_3) as a guide for the conversation.  The goal of the presentation is to help us get to know you better as a person and as a professional. Primary themes include your bio/work history, how you approach building and process, and the types of customers with whom you’ve worked in the past. ** If you have any issues accessing the above presentation, please email recruiting@sourcegraph.com and we will help you!
 
 - RSD team collaboration with Sales Development
-  -  Interviewer(s): Head of Sales Development
+  -  Interviewer(s): Head of Sales Development.
   -  Duration: 30-45 minutes.
   -  Details: during this stage in the interview process, you meet with our Head of SDR to discuss your approach to prospecting & pipe gen, and your experience partnering with the SDR team. Our team may share current strategies and challenges to understand how your past experience can help the team achieve success.
 
