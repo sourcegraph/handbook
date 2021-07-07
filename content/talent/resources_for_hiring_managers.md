@@ -64,7 +64,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 ### 4. After the offer
 - After the candidate signs the offer, the Recruiter sends a welcome email to the candidate and Cc's the Hiring Manager.
 - The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
-- The Recruiter marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Ines, VP of Talent, and Hiring Manager, and exports the candidate to Bamboo.
+- The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Ines, VP of Talent, and Hiring Manager, and exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
 
 ## Using external recruiting agencies
