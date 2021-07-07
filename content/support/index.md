@@ -32,7 +32,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - Jason Harris
 - Kelvin Lee
 - Mariam Adedeji (starting 2021-07-19)
-- [Michael Bali](../company/team/index.md#michael-bali-he-him)
+- [Michael Bali](../company/team/index.md#michael-bali-hehim)
 - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
 - [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
 - [Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang Liu, CTO)
