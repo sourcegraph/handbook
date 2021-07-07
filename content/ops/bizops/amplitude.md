@@ -2,8 +2,9 @@
 
 ## How do I get started?
 1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named Sourcegraph). If you don't have an account, shoot a message to @ericbm or request one during login. 
-1. [Take a look at what data is in Amplitude](#data)
+1. [Take a look at the data overview to get a sense for what's in Amplitude](#data)
 1. Read the Amplitude documentation for [building analyses](https://help.amplitude.com/hc/en-us/categories/360003165371-Build-and-share-your-analysis) and/or check out some of our [tutorials](https://drive.google.com/drive/folders/1cdcUe2e4bnYjxr9xqV6-pCsOOPIEMqGI).
+1. Check out the [Product team space](https://analytics.amplitude.com/sourcegraph/space/nldziax/all) for existing dashboards. 
 1. Ask BizOps for help if you have any questions!
 
 ## Why are we using Amplitude?
@@ -18,11 +19,11 @@ Anything not based directly on analyzing Sourcegraph Cloud events is in Looker. 
 
 | Type of analysis        | Tool      | Example |
 |-------------------------|-----------|---------|
-| Retention/engagement    | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/chart/7l5vdg4?source=workspace)    |
+| Retention/engagement    | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/gxxhpcm)    |
 | Adoption of public code | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/175)    |
 | Progress towards OKRs   | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/166)    |
 | On-prem instances/pings | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/174)    |
-| Signup funnel on Cloud  | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/chart/jumvevm?source=workspace)    |
+| Signup funnel on Cloud  | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/gxxhpcm)    |
 
 Any analysis that was conducted in Looker prior to the implementation of Amplitude can still be done in Looker, and existing Looker dashboards and visualizations will still be maintained. Amplitude will help us conduct new and different analysis regarding product analytics. 
 
