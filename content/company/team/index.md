@@ -442,6 +442,14 @@ To add yourself to this page:
 - [tommy@sourcegraph.com](mailto:tommy@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/tommyodonnell87/)
 - Tommy hails from County Kerry on the South West Coast of Ireland. He graduated with a degree in Business studies from the University of Limerick before completing a Masters in Accounting at Dublin City University. Prior to Sourcegraph Tommy spent over 5 years working on a diverse range of clients at the EY Limerick and Boston offices, before spending a further 5 years in a financial reporting role at Pivotal Software. When he is not stuck in spreadsheets, you will probably find him having a quiet pint of Guinness, following the fortunes of the New England Patriots and the Kerry Gaelic Football team, or reading up on the latest rounds of funding’s in the startup world.
 
+## Cecily Black (she/her)
+
+- People Operations Coordinator
+- San Jose, California, United States 🇺🇸
+- GitHub: CecilyBee
+- [cecily@sourcegraph.com](mailto:cecily@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/cecilyblack/)
+- Cecily grew up in San Jose and returned in 2018 with a new love for sunny Cailfornia ☀️ after living in Portland, Oregon for two years. In her free time she loves to hike, go to the beach, camp, and go to concerts / dance. 💃 She lives with her boyfriend and their little dog, Leo.
+
 ## Mike McLaughlin (he/him)
 
 - Customer Engineer
@@ -917,14 +925,6 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [unicodeveloper](https://github.com/unicodeveloper)
 - [prosper@sourcegraph.com](mailto:prosper@sourcegraph.com), [@unicodeveloper](https://twitter.com/unicodeveloper)
 - Prosper was born and raised in Lagos, Nigeria. A software engineer who has worked on biometric, health and developer tools. He is a seasoned developer advocate, veteran conference speaker and a firm open source hacker who believes immensely in the intersection of people & technology. He co-founded and leads forloop, the largest developer community in Africa. He loves travelling, playing football and tinkering with the fire emoji.
-
-## Cecily Black (she/her)
-
-- People Operations Coordinator
-- San Jose, California, USA 🇺🇸
-- GitHub: CecilyBee
-- [cecily@sourcegraph.com](mailto:cecily@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/cecilyblack/)
-- Cecily grew up in San Jose and returned in 2018 with a new love for sunny Cailfornia ☀️ after living in Portland, Oregon for two years. In her free time she loves to hike, go to the beach, camp, and go to concerts / dance. 💃 She lives with her boyfriend and their little dog, Leo.
 
 ## Kevin Quigley (he/him)
 
