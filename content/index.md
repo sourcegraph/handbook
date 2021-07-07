@@ -24,11 +24,11 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ## Teams at Sourcegraph
 
-### People Ops
+### [People Ops](people-ops/index.md)
 
 - [People Ops](people-ops/index.md)
-  - [Leadership](leadership/index.md)
-  - [1-1](leadership/1-1.md)
+  - [Team](people-ops/index.md#team)
+  - [Goals](people-ops/index.md#goals)
 
 ### [Product](product/index.md)
 

@@ -1,20 +1,18 @@
 # People Ops
 
-## Goals
-
-WIP
-
-
 ## Team
-
 
 ### People Ops team members
 
-- Debbie Johnstone, VP of People
+- [Debbie Johnstone](../company/team/index.md#debbie-johnstone-she-her), VP of People
 - [Noemi Mercado](../company/team/index.md#noemi-mercado-she-her), Head of People Operations
-- [Inés Roitman](https://about.sourcegraph.com/handbook/company/team#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
-- [Cassie Melani](https://about.sourcegraph.com/handbook/company/team#cassie-melani-she-her), Teammate Success Manager
-- [Cecily Black](https://about.sourcegraph.com/handbook/company/team#cecily-black-she-her), People Operations Coordinator
+- [Inés Roitman](../company/team/index.md#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
+- [Cassie Melani](../company/team/index.md#cassie-melani-she-her), Teammate Success Manager
+- [Cecily Black](../company/team/index.md#cecily-black-she-her), People Operations Coordinator
+
+### Roles
+
+See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the People Ops team.
 
 ### How to reach the right member of the People Ops team
 If you encounter a question at any point, we're here to help!
@@ -24,45 +22,42 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 ### Meet the Sourcegraph team
 - [List of all Sourcegraph team members](../company/team/index.md)
 
+## Goals
 
-## Teammate experience
+WIP
 
-- [All-remote work](../company/remote/index.md)
-- [Interview process](../talent/interview_process.md)
-- [Hiring](../talent/hiring/index.md)
-- [Onboarding](onboarding/index.md)
-- [Performance review cycles](review-cycles/index.md)
-- [United States visa sponsorship](visa-sponsorship.md)
-- [Employment verification](employment_verification.md)
-- [Switching teams](switching-teams.md)
-- [Leaving](leaving.md)
+## Things you need to know about working here
+
+- [New teammate onboarding](onboarding/index.md)
+- [Are you switching teams?](switching-teams.md)
+- [Are you leaving us?](leaving.md)
+- [How we manage remote work](../company/remote/index.md)
+- [How our Performance review cycles work](review-cycles/index.md)
 - Hackathons: We don't have any company-wide hackathons planned. If you want to do one for your team, just propose it and find the right time. (See related "[Innovation time](../engineering/index.md#innovation-time)" for engineering, which could apply to any team if you think it would be good.)
 
-## Benefits
+## What we offer our teammates
 
-- [Compensation](compensation/index.md)
+- [How we structure compensation](compensation/index.md)
   - [How to create an offer](compensation/offers.md)
   - [Equity and stock options FAQ](compensation/equity-faq.md)
-- [Benefits and perks](benefits-and-perks.md)
-- [Travel](travel.md)
-- [Covered expenses](spending-company-money.md) (aka "Spending company money")
-- [Expense reports](../ops/finance/expenses.md)
+- [Expenses we cover](spending-company-money.md) (aka "Spending company money")
+- [Benefits and perks we offer](benefits-and-perks.md)
+- [Guidelines for travel](travel.md)
 - [Paid time off and working hours](paid-time-off-and-working-hours.md)
-- [Requesting time off](requesting-time-off.md)
-- [Holidays](holidays.md)
-- [Donations](donations.md)
+  - [Requesting time off](requesting-time-off.md)
+- [Bank and public holidays](holidays.md)
+- [Donations teammates can make](donations.md)
 - [Celebrating birthdays and anniversaries](celebrate.md)
+- [When we can sponsor United States visas](visa-sponsorship.md)
+- [Employment verification](employment_verification.md)
 
-## Roles
-
-See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the People Ops team.
 
 ## DEI
 
 - [Diversity, equity, and inclusion](../communication/dei.md)
 - [Personal Pronouns](personal-pronouns.md)
 
-## Mental health
+## Wellbeing
 
 - [Mental health and wellness initiatives](mental-health.md)
 - Modern Health - *Program launching in August 2021*
