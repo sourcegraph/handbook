@@ -21,3 +21,7 @@ We want all teammates who have Sourcegraph **Apple devices** to have their devic
 
 1. Set Jamf up on your computer: Visit https://sourcegraph.jamfcloud.com and use the following access code: 121200 to get it set up on your device
 2. Turn on FileVault: https://support.apple.com/en-us/HT204837
+
+## Zoom Retention Policy
+
+Sourcegraph will institute a 30-day Zoom cloud storage retention period.  All Zoom recordings older than 30 days will be placed in the meeting host’s trash for an additional 30 days.  After 30 days, the recordings will be permanently deleted. Due to issues of privacy and compliance, Zoom recordings should only be downloaded and kept beyond 30-days if there is an explicit business use for doing so. In the event that you need to download and store Zoom recordings Sourcegraph’s Google Drive should be used as the default location
