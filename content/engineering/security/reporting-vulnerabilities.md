@@ -25,9 +25,11 @@ The following products and deployments are within scope for our Bug Bounty progr
 - Sourcegraph extensions developed by Sourcegraph: https://sourcegraph.com/extensions?category=All&query=Sourcegraph
 
 The following targets and actions are out-of-scope:
+
 - Sourcegraph domains not listed in the in-scope section
 - Social engineering against Sourcegraph users and employees
 - Denial of Service
+- Credential Stuffing
 - Spamming
 
 **Categories**
@@ -100,3 +102,37 @@ For every confirmed vulnerability in Sourcegraph or its products, regardless of 
 - Coordinate upgrades with customers for HIGH/CRITICAL issues.
 
 If you find any past Sourcegraph vulnerabilities that were not disclosed this way please let us know. 
+
+### Using the security updates mailing list
+
+When a new security update is published on Github, a notification email will be sent out to our [Subscription- Sourcegraph Security Notifications list](https://app.hubspot.com/contacts/2762526/lists/1091?query=subscription). To send new emails to the mailing list:
+
+1. Log into [Hubspot](https://app.hubspot.com/reports-dashboard/2762526/view/276356), head over to the Marketing tab and select `Email` from the dropdown. 
+2. Once on the [Email section of Hubspot](https://app.hubspot.com/email/2762526/manage/state/all?search=security), search for “security” and it should pull up a previously sent security update.  
+3. Hover over the email and click on `Clone`:
+<div style="text-align: center; margin-bottom: 1rem">
+  <img src="https://storage.googleapis.com/sourcegraph-assets/security-hubspot-instructions-1.png" width="150%" alt="Hubspot instructions for the security mailing list">
+</div>
+4. On the Edit tab:
+  - Update the internal name of the email so that it has the name of the update included in the name (highlighted below), including the CVE-ID
+<div style="text-align: center; margin-bottom: 1rem">
+  <img src="https://storage.googleapis.com/sourcegraph-assets/security-hubspot-instructions-2.png" width="150%" alt="Hubspot instructions for the security mailing list">
+</div>
+  - Update the email copy to include the message you’d like to send. If you want to add a link, click on the insert link button in the editing tools section.
+<div style="text-align: center; margin-bottom: 1rem">
+  <img src="https://storage.googleapis.com/sourcegraph-assets/security-hubspot-instructions-2.png" width="150%" alt="Hubspot instructions for the security mailing list">
+</div>
+5. On the Setting tab:
+  - From name: `Sourcegraph Security Team`
+  - From address: `security@sourcegraph.com`
+  - Subject Line: `Sourcegraph Security Update - CVE-{CVE-ID}`
+  - Preview text: Optional
+  - Internal name: same as step 4.
+  - Language: `English`
+  - Subscription type: `Sourcegraph Security Notifications`
+  - Office location: `Sourcegraph (default)`
+  - Campaign: `Security Team Update`
+6. On the Send or schedule tab:
+  - Send to*: `Subscription- Sourcegraph Security Notifications`
+  - Don’t send to: `Subscription- Marketing Email | Champions Communications`,  `and `LST EML | Staff, non-core, opted out`
+  - Select if you want to send the email out now, or if you want to schedule it for another time
