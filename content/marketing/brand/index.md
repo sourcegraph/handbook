@@ -2,12 +2,14 @@
 
 ## Table of Contents
 1. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
-1. [The Team](#the-team)
-1. [Capabilities](#capabilities)
-1. [Brand Guidelines](brand_guidelines.md)
-2. [Brand and Creative Request Forms](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests)
-3. [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
-4. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
+2. [The Team](#the-team)
+3. [Capabilities](#capabilities)
+4. [Brand Guidelines](brand_guidelines.md)
+5. [Brand and Creative Request Forms](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests)
+6. [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
+7. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
+8. [Creative Brief template](https://docs.google.com/document/d/1iCCzdXtR8AkO2ehNS-zaDM-zgy337mYlQIvsF4cOssA/edit) (.GDOC)
+9. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
 
 ## Function, Vision, Mission, and Values
 Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to elevate, activate and communicate the value of Sourcegraph to the world. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, offering full-service creative support with a rapid, flexible, iterative process that stems from a deep understanding of our products, our processes, and our people.
@@ -19,7 +21,7 @@ We are: <br>
 - Agile - move fast, adapt, and change directions easily based on the market and goals <br>
 - Effective - strive for quantifiable results and outsized impact; everything has a “why”
 
-Projects are categorized on a 5-tier basis based on strategy, scope, and visibility. These tiers are broken down in more detail [here](project_tiers.md).
+Projects are categorized on a 5-tier basis based on strategy, scope, and visibility. These tiers are broken down in more detail [here](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests#project-tiers).
 
 - Tier 1 - Large-scale, high-priority external projects that require creative strategy development
 - Tier 2 - Externally-facing but lower-priority; previously-approved concept but new deliverable; new concept internal projects
@@ -36,41 +38,41 @@ Our company values can be found [here](../../company/values.md). Our Brand Creat
 ## The Team
 Functional Areas: Design, illustration, animation, video production, copywriting, narrative, project management, brand strategy, market research, website development, and more.
 
-Tommy Pesavento - Director of Brand Design/Creative Director    
-Fabiana Castellanos - Project Coordinator, Brand    
-
+- [x] Tommy Pesavento - Director of Brand Design/Creative Director    
+- [x] Fabiana Castellanos - Project Coordinator, Brand    
+<!-- - [x] Mustafa Ulker ~ a.k.a Moose - Senior Copywriter, Brand --> 
+<!-- - [x] Kristen Sundberg - Senior Social Media Manager --> 
+ 
 To be hired:    
-• Senior Brand Strategist (Q2 FY22)   
-• Brand Planner   
-• Senior Brand Designer (Q2 FY22)    
-• Brand Designer    
-• Production Designer   
-• Creative Producer     
-• Motion Designer/Animator  
-• Multimedia Specialist 
-• Social Media Manager (Q2 FY22)  
-• Senior Copywriter, Brand (Q2 FY22)  
-• Copywriter, Brand   
-• Digital Experience Manager    
-• Web Designer (UX/UI)    
-• Web Developer     
-• CMS Admin   
-• UX Researcher   
+- [ ] Senior Brand Strategist (Q2 FY22)   
+- [ ] Brand Planner   
+- [ ] Senior Brand Designer (Q2 FY22)    
+- [ ] Brand Designer    
+- [ ] Production Designer   
+- [ ] Creative Producer     
+- [ ] Motion Designer/Animator
+- [ ] Multimedia Specialist
+- [ ] Copywriter, Brand
+- [ ] Digital Experience Manager
+- [ ] Web Designer (UX/UI)
+- [ ] Web Developer
+- [ ] CMS Admin
+- [ ] UX Researcher   
 
 ## Capabilities
 We deliver agency-caliber campaigns, creative, production, and results in support of every team within the company to drive awareness, engagement, and adoption.
 
-The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand and creative support for all internal teams and programs (i.e. People/HR, Product, Ops, Eng, etc.), as well as central brand communications, demand generation, content strategy and product marketing support. We sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our Preferred Vendor Network, or simply [The Network](the_network.md).
+The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand and creative support for all internal teams and programs (i.e. People/HR, Product, Ops, Eng, etc.), as well as central brand communications, demand generation, content strategy and product marketing support. We sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our [Preferred Vendor Network](https://about.sourcegraph.com/handbook/marketing/brand/production_process#sourcegraph-preferred-vendor-network-aka-the-network), or simply The Network.
 
 Our capabilities include:
 
-Branding
+*Branding*
 - Brand management, brand identity design, logos, lockups, colors, etc.
 - Brand strategy, naming, positioning, packaging, narrative and market research
 	- [See Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives
 - Maintain and update [Sourcegraph Brand Guidelines](brand_guidelines.md) and brand assets
 
-Design
+*Design*
 - Graphic design for print and digital media
 - Illustrations, iconography, infographics
 - Motion design and animation
@@ -78,28 +80,28 @@ Design
 - Print design and production, marketing collateral, swag
 - Swag procurement, design, and fulfillment
 
-Photo/Video Production
+*Photo/Video Production*
 - Video production, shooting (location and studio), storyboarding, proj. management
 - Sound design, audio production, mixing, sampling, mastering
 - VR/AR, 360º films, CGI, motion graphics, and animation
 - Photography, editing, retouching, and archiving
 
-Website/Digital Experience
+*Website/Digital Experience*
 - Maintain and update website, incl. integrations, testing and SEO
 - Website design, page design, campaign and landing pages, microsites
 - Interactive design, incl. data visualization and infographics
 - Email design and development
 - Digital marketing stack and B guidance, strategy, and execution
 
-Events
+*Events*
 - Event planning, strategy and design
 - Booth, stage or environmental design and production
-- Swag design and fulfillment planning
+- Swag design and fulfillment planning. See our [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
 
-Copy
+*Copy*
 - Maintain and update brand style guide, voice and tone
 - Copywriting, editing and proofing for social media, ads, website, scripts, etc.
-	- For blog posts, white papers, e-books, and other long-form serial content, please go to [Content Marketing](../content.md)
+- For blog posts, white papers, e-books, and other long-form serial content, please go to [Content Marketing](../content.md)
 
 ## Additional resources
 - [Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)
