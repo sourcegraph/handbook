@@ -8,6 +8,7 @@ Our README expands on our profile in [the company team directory](https://about.
 * Carl [README](carl-readme.md)
 * Gabe [README](gabe-readme.md)
 * Giselle [README](giselle-readme.md)
+* Jason [README](jason-readme.md)
 * Stompy [README](stompy-readme.md)
 * Warren [README](warren-readme.md)
 * Virginia [README](virginia-readme.md)

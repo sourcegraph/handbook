@@ -29,7 +29,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - Don Ellison
 - [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
 - [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
-- Jason Harris
+- [Jason Harris](../company/team/index.md#jason-harris-he-him)
 - Kelvin Lee
 - Mariam Adedeji (starting 2021-07-19)
 - [Michael Bali](../company/team/index.md#michael-bali-hehim)
