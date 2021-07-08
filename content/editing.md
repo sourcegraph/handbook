@@ -134,6 +134,8 @@ To add a redirect rule edit edit the following file: `/_resources/assets/redirec
 Redirect rules follows a simply syntax of: `from-path to-path 308`
 E.g. `/handbook/ce/support/ /handbook/support/ 308`
 
+The page that's being redirected _from_ must be deleted, or the build will break. 
+
 ## Running a local preview handbook site
 
 > NOTE: This is optional.
