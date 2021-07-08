@@ -42,7 +42,7 @@ See [Goals](goals.md)
 - [Update various service tokens for sourcegraph.com](tokens.md)
 - [Rollbacks](rollbacks.md)
 
-### [FAQ](faq.md)
+#### [FAQ](faq.md)
 
 - [Why is there not a "stable" or "latest" Docker image tag?](faq.md#why-is-there-not-a-stable-or-latest-docker-image-tag)
 
