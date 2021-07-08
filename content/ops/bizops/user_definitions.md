@@ -1,4 +1,4 @@
-# User metrics definitions
+# Metrics definitions
 
 ## Active user
 
@@ -31,8 +31,20 @@ We track the following categories in pings for each month. The explanations are 
 | DAU/MAU | The ratio of average DAUs over a month to the number of MAUs in the corresponding month. If the ratio is 0.4 or 40%, the average user used Sourcegraph 12 days per month (30 days * .4 = 12). |
 | DAU/WAU | The ratio of average DAUs over a week to the number of WAUs in the corresponding week. If the ratio is 0.4 or 40%, the average user used Sourcegraph 2.8 days per week (7 days * .4 = 2.8).   |
 
-# How are users calculated?
+## Customer Health Score
+The customer health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:
 
+| Metric      | Description                                                      |
+|-------------|------------------------------------------------------------------|
+| MAU/Total User Accounts | Used as a measure of monthly adoption within a customer’s total licensed user base|
+| DAU/MAU | Used as a measure of overall engagement / stickiness of the platform within an account|
+| Net Promoter Score| Used as a measure of sentiment toward the platform among a customer’s users|
+
+Additional Resources:
+- [Project overview](https://docs.google.com/spreadsheets/d/1D2CJoVdkbXsBwVjgNDziGXBanWBfVhoVs6_kDBRStfA/edit#gid=1229546656): Describes which metrics we view as indicative of customer health along with how scores are calculated, and provides space for ongoing feedback
+- [Dashboard](https://sourcegraph.looker.com/dashboards-next/179?Customer%20Engineer=&Account%20Executive=&Unique%20Server%20ID=&Region=): The customer health dashboard is the source of truth for health scores and is updated in real-time
+
+# How are users calculated?
 
 Our metrics infrastructure (Looker, Amplitude) gets user counts from our event_logs table (either directly or indirectly).
 
