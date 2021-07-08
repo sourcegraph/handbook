@@ -29,27 +29,45 @@ The Business Operations & Strategy (BizOps) team operates with the mission of dr
 
 TODO
 
-## How we work
-
-We use [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues) to document projects, and the [analytics kanban board](https://github.com/orgs/sourcegraph/projects/63) for team-wide prioritization and current projects.
-
 ## How to work with us
 
-### Contact
+### Requests for deliverables
 
-Get in touch with us, or ask for our input or help:
+The Business Operations team accepts work requests through [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). Any request that doesn't have an attached GitHub issue will not have an assigned individual and expected timeline, and won't be tracked by the team. 
+
+Examples of requests that require an issue:
+* requesting a new dashboard 
+* getting a question answered with data (e.g. "I would like to know the number of MAUs for the Batch Changes feature")
+* requesting analytics support for a new feature (e.g. "Can we start tracking page views of our case studies")
+* finding a bug in our data or data pipeline (e.g. "I ran a SQL query and the data does not match my expectations")
+
+GitHub issues help us manage requests by including as much relevant information as possible. Please use the relevant issue template in the repository and fill out the requested information. If no template matches, create a blank issue and include as many details around your request as possible. These points are normally useful:
+- **The problem:** Describe the problem or question you have.
+- **End state:** What is the end state of the project? What decisions will be made? Be as specific as possible (i.e. if the end state is a graph, draw out the graph).
+- **The why:** What will this request be used for? How does it support [Sourcegraph's company and team goals](../../company/goals/index.md)? 
+- **Timeline:** What's the timeline of the project? Is it urgent? When does this need to be delivered, and how will it be followed up upon in the future?
+- **People:** Who is involved, and what are the expectations of each person? Who will be responsible for driving the project forward? Does each person have the necessary bandwidth to uphold the expecations asked of them?
+
+A BizOps team member will triage and assign issues to the relevant team member.
+
+For *time-sensitive* and *urgent* requests, please tag the issue with the `urgent` label. This will make the GitHub issue appear in the #analytics channel in Slack to ensure visibility, where you can follow up with more details/asks.
+
+## How we work
+
+We use [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues) to track projects, and the [Business Operations kanban board](https://github.com/orgs/sourcegraph/projects/63) for tracking current projects.
+
+### Weekly triage rotation
+
+Each week, there is a BizOps team member that will triage new issues in the analytics repository. Find the [rotation in this sheet](https://docs.google.com/spreadsheets/d/12f9mG7uYf_-yFey1laWJQGvp79UnI0CVxA4CsAHIvgM/edit#gid=0).
+
+**Responsibilities**
+The teammate on rotation is not expected to directly solve the issues that come in. Rather, they determine the urgency of the issue and assign the issue to the appropriate team or person. Once the issue is assigned, the relevant assignee is responsible for responding to the issue, moving it into Backlog, or starting work on the issue and moving it in the stages of the kanban board. 
+
+If there is an urgent issue, the teammate on rotation should post it in the #bizops channel in Slack and directly tag the people they think can solve the issue.
+
+### General contact
+
+To get in touch with us, or ask for our input or help:
 
 - Post in the #analytics or #business-ops channels, or mention @business-ops in any channel
 - Tag [@sourcegraph/bizops](https://github.com/orgs/sourcegraph/teams/bizops) in existing [sourcegraph/sourcegraph GitHub issues](https://github.com/sourcegraph/sourcegraph/issues)
-
-### Larger projects and deliverables
-For larger projects BizOps will ideally be in sync with teams and can either anticipate projects or take in projects synchronously, in which case BizOps team members will create the issue(s). When this is not the case, anybody can create an issue using the following format.
-
-Create a new issue in the [analytics repository](https://github.com/sourcegraph/analytics/issues) and add it to the Business Operations project, so it appears on our [project board](https://github.com/orgs/sourcegraph/projects/63) for triage. The following information will be really helpful in understanding and prioritizing the issue:
-
-- **People:** Who is involved, and what are the expectations of each person? Who will be responsible for driving the project forward? Does each person have the necessary bandwidth to uphold the expecations asked of them?
-- **End state:** What is the end state of the project? What decisions will be made? Be as specific as possible (i.e. if the end state is a graph, draw out the graph).
-- **The why:** How does it support [Sourcegraph's company and team goals](../../company/goals/index.md)?
-- **Timeline:** What's the timeline of the project? When does this need to be delivered, and how will it be followed up upon in the future?
-
-Need clarification? Ask a question in the #analytics or #business-ops channels.
