@@ -66,3 +66,17 @@ However, if a company has already accessed and copied the key, there is nothing 
 ## Viewing current license keys
 
 All license keys can be found in a [complete list](https://sourcegraph.looker.com/looks/635) or in the individual [instance views](https://sourcegraph.looker.com/dashboards/94).
+
+## Finding usernames
+
+Our user search doesn't search emails—so, you may miss the user you're trying to find. If you can't find the username associated with the customer/prospect, you can run the following API query:
+
+```
+query{
+  user(email:"THEIR EMAIL"){
+    username
+  }
+}
+```
+
+That should return their username.
