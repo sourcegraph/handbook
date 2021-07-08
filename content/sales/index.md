@@ -91,6 +91,15 @@ Sales Accepted Opportunities are where ALL of the following are true:
 
 Any Opportunity that is moved into the Qualification Stage or beyond is automatically tagged as Sales Accepted Opportunity in Salesforce
 
+### Multiple Sales Accepted Opportunities (SAOs) within the same account:
+
+It is acceptable to create multiple opportunities within the same account. SDR crediting will apply under the following circumstances:
+
+- The new SAO has a new Primary Contact
+- The new Primary Contact was not referred by an existing Primary Contact
+- There have been no Closed Won opportunities within the past 30 days
+- All SAO criteria is met for the newly created opporutnity
+
 ### Target Opportunity Profile:
 
 SDRs should focus on identifying and setting meetings for the AE team that meet the following criteria:
