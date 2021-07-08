@@ -1075,3 +1075,12 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [topebali](https://github.com/topebali), [LinkedIn](https://www.linkedin.com/in/michael-temitope-bali-830640171)
 - [michael.bali@sourcegraph.com](mailto:michael.bali@sourcegraph.com)
 - Michael is very passionate about helping those around him. He enjoys Soccer alot and discussing politics most especially politics in Africa with friends. During his leisure, he enjoys playing console games, reading books (crime thrillers) and travelling. He is also enthusiastic about meeting new folks and open minded to learning!
+
+## Alex Jean-Baptiste (He/Him)
+
+- Cusomer Support Engineer
+- Atlanta, Georgia USA 🇺🇸 (optional: add yourself to [the team locations map](locations.md)!)
+- GitHub: [alexAtSourcegraph](https://github.com/alexAtSourcegraph), [LinkedIn](https://www.linkedin.com/in/alexjeanb) 
+- [alex.jean-baptiste@sourcegraph.com](mailto:alex.jean-baptiste@sourcegraph.com)
+- [Name pronunciation](https://www.name-coach.com/alex-jean-baptiste)
+- Alex is a Haitian-American 🇭🇹🇺🇸 information technologist and writer from Miami, Florida🌴. He is passionate about the arts. He enjoys hiking trails, visiting museums, and performing comedy🤣. He is done writing.
