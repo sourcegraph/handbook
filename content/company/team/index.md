@@ -1089,7 +1089,7 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 
 - Sales Development Representative
 - San Francisco, California USA 🇺🇸
-- GitHub: zachnaidu
+- GitHub: [zachnaidu](https://github.com/zachnaidu)
 - [zach@sourcegraph.com](mailto:zach@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/zachnaidu/), [Twitter](https://twitter.com/ZachNaidu)
 - Zach is a native of Dallas, Texas and loves all things sports - especially the Dallas Mavericks. From a family of six with three loving sisters (Kaitlin, Chandler, and Olivia), Zach enjoys golfing, pickup basketball, and tossing a football. He was a sports columnist in college and also enjoys playing board/card games and competing in fantasy football with high school and college friends.
 
