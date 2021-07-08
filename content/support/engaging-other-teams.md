@@ -166,7 +166,7 @@ Even when engineering is helping, you are accountable for the work and it is you
 
 For any questions about contract renewal, the CE and [Sales](../sales/index.md) teams are responsible. Post in the #ce channel @ mentioning the assigned sales rep and CE.
 
-For any questions about license key extension, the CE team is responsible. See the [license key management documentation](../sales/license_keys.md) for guidance.
+For any questions about license key extension, the CE team is responsible. See the [license key management documentation](../ce/license_keys.md) for guidance.
 
 ### Usage statistics
 
