@@ -42,7 +42,7 @@ To direct your contracts to the right team or teammate to review, approve, and s
 
 Before reaching out to our outside counsel, check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC. 
 
-## What are we up to? FY'22 OKRs
+## What are we up to? FY'22 goals
 
 Objective 1: Enable the business to achieve its growth targets by managing an efficient contracting process while protecting the company
 
