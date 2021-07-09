@@ -5,7 +5,7 @@ CEs interact with most every other team at Sourcegraph. This page details those 
 
 * [How we interesect other teams](#how-we-intersect-other-teams)
 * [Recurring Team Meetings](#recurring-team-meetings)
-* [Out of Office Protocols](#ooo-protocols)
+* [Out of Office / Vacation / PTO Protocols](#ooo-protocols)
 * [Slack Channels](#ce-specific-slack-channels)
 * [CE Forward-Looking Vision](#forward-vision)
 
@@ -24,17 +24,17 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 - **How CSE adds value to CE:** Support is the go-to technical team for our CEs. CSEs resolve issues for customers both pre- and post-sales, allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues.
 - **Collaboration overview:** CEs (or others -- including customers -- but primarily CEs) may engage support at any point during the pre-sales and post-sales customer engagement process. When a customer runs into an issue, the CE will allow support do the heads-down troubleshooting work.
   - CEs may collaborate with CSEs on an issue. For example, if the CE has useful information or background that could be helpful in addressing the issue. Another example would be the CE has a suggested workaround to help alleviate the customer-reported issue. In scenarios such as these, if a CSE has already been assigned to an issue, the CE should engage with the CSE directly; to avoid unclear communication to the customer, the CE should directly engage the CSE rather than joining the customer thread. If the ticket has not yet been assigned, the CE can either let the customer know that the support team will be picking up their request and provide additional information that may be considered useful or the CE should provide the context in the support channel (via the Support Ticket Context shortcut in slack) for when it is picked up by CSE. For each request the CE should provide the following information:
-    - Customer Name:
-    - Link to issue (slack / GH / ZD ticket #):
-    - Background information or anything we should know that would be helpful?:
+     - Customer Name:
+     - Link to issue (slack / GH / ZD ticket #):
+     - Background information or anything we should know that would be helpful?:
   - CE may also need to share additional context around an issue with the head of support. For example, a CE may need to share special circumstances around a customer issue. In scenarios such as this, the CE should raise a request in the support channel (via the Support Ticket Request shortcut in slack).  For each request the CE should provide the following information:
-    - Customer Name:
-    - Link to issue (Slack / Github issue / ZD ticket #):
-    - What’s the ask:
-    - Why are we making this ask:
-    - What happens if we don’t take this desired action:
-    - Is there a time consideration we need to be aware of, if so what is it and why?:
-    - Anything else we should know that would be helpful?:
+     - Customer Name:
+     - Link to issue (Slack / Github issue / ZD ticket #):
+     - What’s the ask:
+     - Why are we making this ask:
+     - What happens if we don’t take this desired action:
+     - Is there a time consideration we need to be aware of, if so what is it and why?:
+     - Anything else we should know that would be helpful?:
 
 ### Software Engineers (SWEs)
 - **How CE adds value to SWEs:** CE provides important insights from prospective and current customers which inform and serve as important inputs to Product roadmap.
@@ -63,13 +63,13 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 
 
 
-## OOO/Vacation/PTO Protocols
+## OOO Protocols
 
 Prior to taking time off, CEs should:
 
 1. Log time off request in BambooHr
 1. Log their time off on the team calendar
-1. Work with their manager to identify a coverage plan
+1. Work with their manager to create a coverage plan
 1. Notify their customers through the appropriate channel of their upcoming OOO
 1. Update their slack status accordingly with OOO dates indicated
 
@@ -117,7 +117,7 @@ We envision our CE team being able to continue building and fostering relationsh
 ##### What we mean by cross-functional, cross-customer projects
 Project-based work falls into two categories:
 1. internal projects partnering with cross-functional stakeholders on relevant teams to create collateral, tools, and / or content that will benefit our teams and our customers
-2. external projects specific to one or more customer-stated needs that either solve a problem or help our champions grow usage internally
+1. external projects specific to one or more customer-stated needs that either solve a problem or help our champions grow usage internally
 
 Some ideas of sample projects have been described above, restated they are: creating great demo videos and scripts, building custom extensions or batch changes for prospects/customers, writing materials to help our champions grow usage internally, improving documentation, analyzing telemetry to measure customer health and propose growth tactics, blogging about customer use cases, etc.
 
@@ -163,13 +163,13 @@ Our goal is to be able to complete specific projects in no greater than 2 week i
 
 For each project, we will define:
 1. The objectives and expected outcomes of the project (what is it solving or creating)
-2. The scope of the project (define the bounds of what we will and will not do)
-3. Impact of the project (to help gauge prioritization how impactful will the output of this project be to our teams and our customers, perhaps 1 = widespread impact internally and externally, 2 = widespread impact EITHER internally OR externally, 3 = specific impact externally, 4 = specific impact internally)
-4. Project stakeholders - both those that need to provide input into the objectives and scope and also provide feedback on the finished product. Defined stakeholders are individuals or teams that will either directly utilize the output of the project (in which they will be part of roll out, as applicable) or have direct context with the subject matter. They are not expected to actively contribute to the project itself.
-5. Project Owner - we will have one individual assigned as the owner of a project; it is their responsibility to define and collect necessary inputs for the project. They are ultimately accountable for the project being completed.
-6. Project Lead(s) - these are the individuals that are leading the effort to deliver the project. Note: the project owner may also be a project lead, or there may be different people identified depending on the project. 
-7. Roll-out plan (how will we deploy / publish or make known / available the output of the project, where will the output go when finished, what is the communication plan).
-8. Support plan (as applicable) for any code that is built as part of a project, Eng, Support, and Product leadership must sign-off on the ongoing support plan for any deliverable, even if the support plan is that we will not be providing any support and the customer will. See note below.
+1. The scope of the project (define the bounds of what we will and will not do)
+1. Impact of the project (to help gauge prioritization how impactful will the output of this project be to our teams and our customers, perhaps 1 = widespread impact internally and externally, 2 = widespread impact EITHER internally OR externally, 3 = specific impact externally, 4 = specific impact internally)
+1. Project stakeholders - both those that need to provide input into the objectives and scope and also provide feedback on the finished product. Defined stakeholders are individuals or teams that will either directly utilize the output of the project (in which they will be part of roll out, as applicable) or have direct context with the subject matter. They are not expected to actively contribute to the project itself.
+1. Project Owner - we will have one individual assigned as the owner of a project; it is their responsibility to define and collect necessary inputs for the project. They are ultimately accountable for the project being completed.
+1. Project Lead(s) - these are the individuals that are leading the effort to deliver the project. Note: the project owner may also be a project lead, or there may be different people identified depending on the project. 
+1. Roll-out plan (how will we deploy / publish or make known / available the output of the project, where will the output go when finished, what is the communication plan).
+1. Support plan (as applicable) for any code that is built as part of a project, Eng, Support, and Product leadership must sign-off on the ongoing support plan for any deliverable, even if the support plan is that we will not be providing any support and the customer will. See note below.
 
 A note on supporting and maintaining any CE-built code or scripts:
 
