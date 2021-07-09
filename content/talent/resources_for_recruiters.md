@@ -18,15 +18,17 @@
 Hi team!  We are excited to kick off our [hyperlink job description] opening and I appreciate all of you participating in the interview process.  I thought it would be helpful to create a Slack channel to stay aligned as we begin interviewing candidates! 
 
 - Interview process / hiring team:
-   - Recruiter Screen: _______
-   - Hiring Manager Screen:  __________
-   - Resume Deep Dive: _________
-   - Assignment: ________
-   - "Interview/Onsite Stage"
-     - Team Collaboration: _____
-     - Peer: _______
-     - Values: _______ 
-   - Department Head Interview: ______
+   - Recruiter screen: _______
+   - Hiring Manager screen:  _______
+   - Assignment, if applicable: _______
+   - In-depth Interview Stage
+     - Resume Deep Dive: _______
+     - Assignment review/working session, if applicable: _______
+     - Technical interview, if applicable: _______
+     - Team collaboration interview: _______
+     - Peer interview: _______
+     - Values interview: _______ 
+   - Department Head Interview: _______
 
 When choosing two people to be on the values interview, please keep in mind the following:
    - must have been here for 3+ months
