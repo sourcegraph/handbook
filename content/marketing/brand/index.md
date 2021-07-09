@@ -38,26 +38,26 @@ Our company values can be found [here](../../company/values.md). Our Brand Creat
 ## The Team
 Functional Areas: Design, illustration, animation, video production, copywriting, narrative, project management, brand strategy, market research, website development, and more.
 
-- [x] Tommy Pesavento - Director of Brand Design/Creative Director    
-- [x] Fabiana Castellanos - Project Coordinator, Brand    
-<!-- - [x] Mustafa Ulker ~ a.k.a Moose - Senior Copywriter, Brand --> 
-<!-- - [x] Kristen Sundberg - Senior Social Media Manager --> 
+- Tommy Pesavento - Director of Brand Design/Creative Director    
+- Fabiana Castellanos - Project Coordinator, Brand    
+<!-- Mustafa Ulker ~ a.k.a Moose - Senior Copywriter, Brand --> 
+<!-- Kristen Sundberg - Senior Social Media Manager --> 
  
 To be hired:    
-- [ ] Senior Brand Strategist (Q2 FY22)   
-- [ ] Brand Planner   
-- [ ] Senior Brand Designer (Q2 FY22)    
-- [ ] Brand Designer    
-- [ ] Production Designer   
-- [ ] Creative Producer     
-- [ ] Motion Designer/Animator
-- [ ] Multimedia Specialist
-- [ ] Copywriter, Brand
-- [ ] Digital Experience Manager
-- [ ] Web Designer (UX/UI)
-- [ ] Web Developer
-- [ ] CMS Admin
-- [ ] UX Researcher   
+- Senior Brand Strategist (Q2 FY22)   
+- Brand Planner   
+- Senior Brand Designer (Q2 FY22)    
+- Brand Designer    
+- Production Designer   
+- Creative Producer
+- Motion Designer/Animator
+- Multimedia Specialist
+- Copywriter, Brand
+- Digital Experience Manager
+- Web Designer (UX/UI)
+- Web Developer
+- CMS Admin
+- UX Researcher   
 
 ## Capabilities
 We deliver agency-caliber campaigns, creative, production, and results in support of every team within the company to drive awareness, engagement, and adoption.
