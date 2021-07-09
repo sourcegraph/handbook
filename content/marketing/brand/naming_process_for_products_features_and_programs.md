@@ -4,16 +4,16 @@
 Naming can be tricky. Not only do you need something that explains your product or generates curiosity, but you also need some level of internal consensus, assurance that you aren’t infringing on someone else’s trademark, and an understanding of any localization or translation issues that may arise. To ensure we don’t end up needing to run a last-minute name change process based on a trademark or communication challenge that pops up (causing a lot of extra work for engineering, design, and marketing), we’ve developed a relatively short and sweet naming process that will cover 99% of naming needs for products, features, programs, or events.
 
 ## Overview
-The “Full” or Tier 1 process includes enough time to review and provide feedback on proposed names, or to help generate some viable options, as well as running a legal and localization search and conducting some external research to better understand how a name might land with our target audience. This process would be beneficial for Tier 1 or Tier 2 products, programs, and features
+The “Full” or [Tier 1](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests#tier-1-large-scale-high-priority-external-projects-that-require-creative-strategy-development) process includes enough time to review and provide feedback on proposed names, or to help generate some viable options, as well as running a legal and localization search and conducting some external research to better understand how a name might land with our target audience. This process would be beneficial for Tier 1 or Tier 2 products, programs, and features
 
-The “Light” or Tier 2 process provides at a minimum enough time to do a brief search and competitive analysis, and a 24- to 48-hour sprint to provide alternative options if any obstacles are uncovered in the initial brief search. We also provide tools and guidelines for anyone creating something that needs a name to run the Tier 2 process more or less self-powered.
+The “Light” or [Tier 2](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests#tier-2-externally-facing-but-lower-priority-previously-approved-concept-but-new-deliverable-new-concept-internal-projects) process provides at a minimum enough time to do a brief search and competitive analysis, and a 24- to 48-hour sprint to provide alternative options if any obstacles are uncovered in the initial brief search. We also provide tools and guidelines for anyone creating something that needs a name to run the Tier 2 process more or less self-powered.
 
 Our goal is to make this as simple and seamless as possible while accounting for the challenges of naming things and remaining aligned on our goal of elevating and spreading awareness of the Sourcegraph brand.
 
 The process aims to address three main areas:
 1. Prioritizing the use, and therefore the awareness and recognition, of the Sourcegraph brand
-1. Provides the fastest, most direct path to a user understanding the new program/product/feature
-1. Not conflicting with other names used internally or by competitors
+2. Provides the fastest, most direct path to a user understanding the new program/product/feature
+3. Not conflicting with other names used internally or by competitors
 
 ## Considerations:
 1. Is this an external name?
@@ -31,13 +31,13 @@ The process aims to address three main areas:
 ## The Process
 The full process should begin once the project or program is considered an approved, viable object that will be released to the public. Experimental projects should use a descriptive code name (see important notes above) until viability is achieved, at which point the naming process for official release can begin. Expect the “full” process to take anywhere from 4-6 weeks max depending on the name, localization needs and trademark research or approvals. Thus, it’s important to align the full naming sprint with the expected launch date, to ensure there are no blockers to launch from a naming perspective. During beta testing and experimental phase, the bland or descriptive names can be used with users. Once a go-to-market is approved and planned, the decision between full or light naming processes should occur immediately.
 
-## “Full” Naming process for externally-facing products, features, programs, groups and events:
+### “Full” Naming process for externally-facing products, features, programs, groups and events:
 1. Plan – POCs will work with the Marketing team to develop the Naming Strategy and assemble the Naming Team. The strategy session’s output is a brief which includes what we are naming, a detailed description, the foreseeable roadmap for the thing being named, where the thing fits into our overarching brand and product hierarchy, how the name should perform, what lift the name needs to provide, and an audit plan of competitors and similar brands or companies. 
 1. Sprint – Naming team participates in a 5-day sprint to generate as many viable names as possible, facilitated by the Brand team. KDMs will be determined up front, though anyone may participate in the initial sprint based on various approach angles: Customer perspective, Literary and cultural inspiration, Obvious and descriptive, Mash-ups, etc.
 1. Test – Get the name(s) in front of our users and our target audience and measure Resonance, Recall and Clarity. This needn’t be a lengthy or expensive step; a targeted survey group of even 100 people, geographically distributed, can help gain enough of an understanding around your proposal and whether or not you’ve obtained enough of a delta to validate your hypothesis. For higher-profile products, sub-brands, or branded offers, a more comprehensive study may be required to obtain a statistically significant measure of both qualitative and quantitative data.
 1. Commit – All team members may not agree, but if we have demonstrated there are no blockers or conflicts, we will commit to the name (or new name) and proceed. Final approvals internally for chosen names will require sign-off from Legal, Brand, and Product, and in some cases (based on scope) may require additional approvals from Leadership Team.
 
-## “Light” naming process for Level 2-3 feature names and internally-facing projects, programs, and events:
+### “Light” naming process for Level 2-3 feature names and internally-facing projects, programs, and events:
 1. During the initial planning phase for the project or program, the Requestor should use the [Resources](#additional-resources) provided below to see if their desired desired feature, group, or program name is being used elsewhere, has any translation or localization challenges, or has additional meanings or innuendos that may be culturally or demographically inappropriate
 1. Requestor shares results of initial search with Brand and Legal teams for review
 1. If required, Brand and Legal teams will do a more thorough background search and evaluation
@@ -81,6 +81,7 @@ A naming convention will be deemed successful if it meets the following criteria
 
 - Meets pre-determined score in the grading scorecard above
 
+
 A naming convention does not need to:
 
 - Be a “branded” word or otherwise proper noun
@@ -92,6 +93,7 @@ A naming convention does not need to:
 - Be awe-inspiring or overly attention-grabbing
 
 - Have a strong emotional connection
+
 
 An example naming scorecard for the Full Naming Process described above:
 
