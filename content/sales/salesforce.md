@@ -145,7 +145,7 @@ SDR joins this initial call to make the AE intro and listen to the call for feed
 5. The request has been submitted to your manager for approval. Click Finish.
 6. Once your manager approves the change, the Account will be added to your name and marked as a Target Account.
 
-- Add Account Video Example: https://screenrec.com/share/4NxOzujFbT
+- [Add Account Video Example](https://screenrec.com/share/4NxOzujFbT)
 
 ##### To remove an account to your Target Accounts:
 
@@ -156,7 +156,7 @@ SDR joins this initial call to make the AE intro and listen to the call for feed
 5. The request has been submitted to your manager for approval. Click Finish.
 6. Once your manager approves the change, the Account will be removed from your name and unmarked as a Target Account.
 
-- Remove Account  Video Example: https://screenrec.com/share/IMZG1ntb85
+- [Remove Account  Video Example](https://screenrec.com/share/IMZG1ntb85)
 
 ##### To exchange an account from your Target Accounts (exchanging is only necessary if you are at your max of 25 accounts):
 
@@ -167,7 +167,7 @@ SDR joins this initial call to make the AE intro and listen to the call for feed
 5. The request has been submitted to your manager for approval. Click Finish.
 6. Once your manager approves the change, the surrendered Account will be removed from your name and unmarked as a Target Account while the new Account will be added to your name and marked as a Target Account.
 
-- Exchange Account Video Example: https://screenrec.com/share/dxoK5HG1iR
+- [Exchange Account Video Example](https://screenrec.com/share/dxoK5HG1iR)
 
 ## Opportunity Object
 
@@ -180,9 +180,10 @@ This ensures that all deal-related communication is visible within the deal time
 If a deal comes through a referral or introduction, tell [BizOps](../ops/bizops/index.md) so an adjustment can be made in the database to reflect this.
 
 ### When a deal is won
-1. Move the deal to ‘Closed Won’. 
-1. Mark the column ‘End of contract’ with the last day of the contract. Salesforce will [automatically create a renewal deal](#renewal-deals) based on this date. 
-1. Ensure the appropriate 'deal won reason' fields reflect the main factors that contributed to the opportunity being won. 
+1. On 'New Business', make sure you have added products to the Opportunity following the linked demo: [Add Products Demo](https://screenrec.com/share/5EQcvILwON)
+2. Move the deal to ‘Closed Won’. 
+3. If you have added Products using Step 1, the Contract End Date will be set for you. If not, mark the ‘End of contract’ field with the last day of the contract. Salesforce will [automatically create a renewal deal](#renewal-deals) based on this date. 
+4. Ensure the appropriate 'deal won reason' fields reflect the main factors that contributed to the opportunity being won. 
 
 ### When a deal is lost
 1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../ops/bizops/index.md) about adding one. 
