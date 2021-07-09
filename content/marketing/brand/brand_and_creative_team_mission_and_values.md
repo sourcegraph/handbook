@@ -45,4 +45,3 @@ It’s true Sourcegraph is a startup. It’s also true we have large goals and w
 ## Additional Resources:
 - [Why have a vision and mission statement?](sourcegraph_in-house_brand_team.md)  
 - [Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)  
-- [Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)  
