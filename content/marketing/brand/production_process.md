@@ -1,5 +1,13 @@
 # Working With Us
 
+## Table of Contents
+- [Receiving requests](#receiving-requests)
+- [Asset Management](#asset-management)
+- [Sourcegraph Preferred Vendor Network](#sourcegraph-preferred-vendor-network)
+- [Success Metrics](#success-metrics)
+
+## Receiving Requests
+
 1. Request submitted to Brand team via email or Asana Form
 1. Request reviewed and approved, moved into “Approved/On deck”
 1. Project is assigned to a team member
@@ -14,7 +22,7 @@
 
 Later in 2021, will be using a tool called [Brandfolder](https://brandfolder.com/home) to store and manage access to our final, approved files and brand assets, with the ability to share folders with external partners and ensure version control for team-wide use. In the meantime, Google Drive will be the shared source for currently-in-production and in-use files plus final assets and brand identity files.
 
-Here is our top-level [Brand Folfer](https://drive.google.com/drive/folders/1bV8Fis1ZKszGwMFWbjfRUFBVWeIui0NP?usp=sharing) in the Sourcegraph team drive.
+Here is our top-level Brand folder](https://drive.google.com/drive/folders/1bV8Fis1ZKszGwMFWbjfRUFBVWeIui0NP?usp=sharing) in the Sourcegraph Team Drive.
 
 Here is our externally-accessible [Shared Drive](https://drive.google.com/drive/folders/0AB4h8L66C8qAUk9PVA) — *Sourcegraph-Brand Design (ext shared)* — for when we need to share or receive files from vendors. After a design is approved in Asana, final files and working files should be uploaded to the appropriate vendor folder in the Shared Drive.
 
@@ -35,7 +43,7 @@ Swag (Include shirt, mug, socks, etc. if designed for a specific item)
 Stickers  
 Deck  
 
-## Foldering System
+### Foldering System
 Brand > Assets > Type of Asset > Program or Campaign (if applicable)
 
 File Locations  
@@ -50,7 +58,7 @@ Select the file in Drive to open this submenu, then ‘Add a description’
 **In-house RAID** - original, unedited raw video footage video backup, including .mx4 and .r3d file formats; hard drive backups of all raw photography and audio files. Hard copy backups of all files located at two locations (since we are fully remote, likely locations include at homes of Producer, Editor and Creative Director).
 
 
-## Sourcegraph Preferred Vendor Network (aka The Network)
+## Sourcegraph Preferred Vendor Network
 The Brand team maintains a list of approved or contracted vendors + agencies. Some of them we work with on an ongoing basis, and some we don’t, but either way we are available for intros, scoping, or estimates. All of these vendors have either been vetted by the Brand team, previously contracted, or are a direct referral from an employee or trusted partner. 
 
 If for any reason our team is unable to support individual requests for creative (either directly or indirectly), we will happily facilitate an introduction to a recommended and trusted vendor to ensure that your project is attended to with the utmost care and quality, and stay close to the work throughout to ensure a successful project or program. 
