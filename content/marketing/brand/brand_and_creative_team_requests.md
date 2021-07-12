@@ -13,7 +13,7 @@
 1. Send a request through one of our Request Forms: 
     * [Social Media Requests](https://form.asana.com?k=iaHgTYAJiueNE5zlGxalqw&d=7195383522959) - *do you want to send a tweet? Post a photo on Instagram? This is your form!*
     * [Swag Requests](https://form.asana.com?k=ysBKSzSA2xjRifqqEvFbJQ&d=7195383522959) - *send a branded gift to a member of our community!* Make sure to check out [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
-    * Any other [Creative Requests](https://form.asana.com?k=Zv_DWGDitZCYr0FXY3bvHg&d=7195383522959) - *see our [capabilities](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests#capabilities) below*
+    * Any other [Creative Requests](https://form.asana.com?k=Zv_DWGDitZCYr0FXY3bvHg&d=7195383522959) - *see our [capabilities](#our-capabilities) below*
 2. We receive the request and reply with one of three most likely options:
 	1. We’re able to support the work directly and will schedule a kickoff or request more information;
 	1. We’re able to support indirectly and will help source and manage a vendor;
