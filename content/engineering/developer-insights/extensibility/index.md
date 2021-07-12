@@ -9,7 +9,7 @@ The extensibility team owns our code host and third-party integrations (includin
 - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
 - [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him) (Interim [Engineering Manager](../../roles.md#engineering-manager)) {#extensibility-eng}
   - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)
-  - FQ2 frontend engineer hire
+  - FQ2 full-stack engineer hire
 
 ## Mission
 
@@ -69,12 +69,34 @@ We use a modern, flexible tech stack. Here are some of the technologies we use t
 
 ### Planning, Prioritization, and Execution
 
-As a team, we've experimented with Scrum and Kanban and decided that our team operates much more efficiently when we focused on continuous delivery with changing priorities. We use our [Github Project Board](https://github.com/orgs/sourcegraph/projects/145?fullscreen=true) to track individual tasks and their status. The "To do" column is a constantly prioritized list of items. Each issue on this column is as atomic as possible, and we move them to the top of the list to signify their importance. As we start working on the issues, we move them to the "In Progress" column. They remain in this column until the change is code reviewed and merged. Once the change is successfully merged, it is moved to the "Done" column. We also have a "Blocked" column to track issues where we currently can't make progress. This simple workflow not only makes us operate faster but also helps us communicate our progress with partners.
+As a team, we’ve experimented with Scrum and Kanban and decided that our team operates much more efficiently when we focus on continuous delivery with changing priorities. We use our [Github Project Board](https://github.com/orgs/sourcegraph/projects/145?fullscreen=true) to track individual tasks and their status.
+We have the following standard scrum columns on our task board:
 
-As our to-do list grew, we realized that it became hard to see and prioritize issues, so we've decided to complement our Kanban board with a [backlog board](https://github.com/orgs/sourcegraph/projects/116?fullscreen=true).
-When a new issue is opened and tagged for our team on the Sourcegraph repository, our scripts automatically add it to our "To Triage" column. Every week our EM and PM have a short meeting and decides the next steps for these issues. If it's an important issue, it will be moved to [Github Project Board](https://github.com/orgs/sourcegraph/projects/145?fullscreen=true), and stack ranked accordingly. If it's not an urgent issue, it will be moved to the "Backlog" column. Periodically we go over the "Backlog" column and move relevant items to "To Do" column.
+#### Column: To Do
+The To Do column is a constantly prioritized list of items. Each issue on this column is as atomic as possible and sorted by priority (descending). As we start working on the issues, we start by tackling the top issue first.
 
-Our kanplan methodology gives us the ability to backlog groom while continuously delivering quality software. We benefit from flexible planning, clearer focus, and total transparency because whatever's on the board is the top priority. We also communicate our team updates with the broader engineering org [every two weeks](https://about.sourcegraph.com/handbook/engineering/engineering-management#status-updates).
+#### Column: In Progress
+Once someone has started working on an issue we move it to the In Progress column. They remain in this column until the change is code reviewed and merged.
+
+#### Column: Done
+Once the change is successfully merged, it is moved to the **Done** column. Please note that, if the change is a significant change, we should also update the changelog. We also have a **Blocked** column to track issues where we currently can’t make progress. This simple workflow not only makes us operate faster but also helps us communicate our progress with partners.
+
+As our to-do list grew, we realized that it became hard to see and prioritize issues, so we’ve decided to add to our board several additional columns.
+
+#### Column: To Triage
+When a new issue is opened and tagged for our team (`team/extensibility`) on the Sourcegraph repository, our scripts automatically add it to our “To Triage” column. Every Monday our team discusses the next steps for these issues.
+
+#### Column: Backlog
+The next column represents issues we’re thinking of tackling but that are not immediate priorities. It’s sorted by priority (descending). These issues are expected to be moved to the To Do column and prioritized in a month or two.
+
+#### Column: Icebox
+This column represents issues that we’ve acknowledged but are currently not planning to tackle. This column is not ordered in any specific order.
+
+#### Column: Needs Design
+This column exists for our design partners to track their issues.
+sorted by priority (descending)
+Items should be assigned to alicja & eng
+Our kanplan methodology gives us the ability to backlog groom while continuously delivering quality software. We benefit from flexible planning, clearer focus, and total transparency because our board represents our priorities. We also communicate our team updates with the broader engineering org [every two weeks](https://about.sourcegraph.com/handbook/engineering/engineering-management#status-updates).
 
 ### Tracking Issues
 
@@ -131,16 +153,16 @@ Before team syncs, teammates and stakeholders should write down under "Agenda" i
 
 Every week, we spend an hour and a half working on experiments outside of our prioritized lists. Examples of the type of work include extensions we feel strongly about, market intelligence tools, automation scripts, etc.
 
-## Extensibility history 
+## Extensibility history
 
-In March 2016, [Sourcegraph released its first browser extension](https://about.sourcegraph.com/blog/browse-review-code-on-github-like-in-an-ide-with-the-sourcegraph-chrome-extension/) so that you can take the value of Sourcegraph to your code host for code reviews. 
+In March 2016, [Sourcegraph released its first browser extension](https://about.sourcegraph.com/blog/browse-review-code-on-github-like-in-an-ide-with-the-sourcegraph-chrome-extension/) so that you can take the value of Sourcegraph to your code host for code reviews.
 
-In October 2018, [Sourcegraph released the extensions API](https://about.sourcegraph.com/blog/sourcegraph-2-12-release-notes/) so that others could build on top of Sourcegraph, and so that Sourcegraph could integrate with your other tools. 
+In October 2018, [Sourcegraph released the extensions API](https://about.sourcegraph.com/blog/sourcegraph-2-12-release-notes/) so that others could build on top of Sourcegraph, and so that Sourcegraph could integrate with your other tools.
 
 In June 2019, [Sourcegraph created a BitBucket native integration](https://github.com/sourcegraph/bitbucket-server-plugin/commit/e450abf50c128fa5ee18439ff93e0631e4868de7) so you don't need to install the browser extension to get the value of Sourcegraph on your BitBucket code host.
 
-In November 2019, [Sourcegraph partnered with GitLab to create a native integration](https://about.gitlab.com/blog/2019/11/12/sourcegraph-code-intelligence-integration-for-gitlab/). 
+In November 2019, [Sourcegraph partnered with GitLab to create a native integration](https://about.gitlab.com/blog/2019/11/12/sourcegraph-code-intelligence-integration-for-gitlab/).
 
-In December 2020, [Sourcegraph released a Safari Extension](https://apps.apple.com/us/app/sourcegraph-for-safari/id1543262193) to support Safari users with our browser extension, in addition to Chrome and Firefox. 
+In December 2020, [Sourcegraph released a Safari Extension](https://apps.apple.com/us/app/sourcegraph-for-safari/id1543262193) to support Safari users with our browser extension, in addition to Chrome and Firefox.
 
-In early 2021, the Extensibility team was formed as an offshoot of the "web team" (which became the 2021 Developer Insights org) because the product direction, support and maintenance, validation, and future promises of Sourcegraph's browser extensions, native code host integrations, and Sourcegraph extensions required and deserved the resources of its own team. 
+In early 2021, the Extensibility team was formed as an offshoot of the "web team" (which became the 2021 Developer Insights org) because the product direction, support and maintenance, validation, and future promises of Sourcegraph's browser extensions, native code host integrations, and Sourcegraph extensions required and deserved the resources of its own team.
