@@ -70,6 +70,7 @@ In the site admin panel, we have a Usage stats page that displays number of MAUs
 #### Activation qualifying events
 
 Users activate if they perform one of these qualifying events:
+
 | Product area              | Qualifying events                  | Description                                                                                         |
 |---------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Searching for code        | `SearchSubmitted`                  | Submit a search                                                                                     |
