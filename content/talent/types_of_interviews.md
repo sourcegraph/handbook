@@ -109,8 +109,8 @@ In addition to the above interviews, some departments have department-specific i
 
     Your objective in this meeting is to: 
 
-    1. Gather all the information that you need in order to be successful at planning and executing this event.
-    2. Provide recommendations, share potential ideas, and discuss solutions with Kacie and Gregg.
+   1. Gather all the information that you need in order to be successful at planning and executing this event.
+   2. Provide recommendations, share potential ideas, and discuss solutions with Kacie and Gregg.
 
     Our advice: 
 
