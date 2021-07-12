@@ -3,6 +3,7 @@
 Our README expands on our profile in [the company team directory](https://about.sourcegraph.com/handbook/company/team) and are meant to help us orient to one another.
 
 * Adeola [README](adeola-readme.md)
+* Alex [README](alex-readme.md)
 * Beatrix [README](bee-readme.md)
 * Ben [README](ben-readme.md)
 * Carl [README](carl-readme.md)
