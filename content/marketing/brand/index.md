@@ -1,15 +1,16 @@
 # Brand
 
 ## Table of Contents
-1. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
-2. [The Team](#the-team)
-3. [Capabilities](#capabilities)
-4. [Brand Guidelines](brand_guidelines.md)
-5. [Brand and Creative Request Forms](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests)
-6. [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
-7. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
-8. [Creative Brief template](https://docs.google.com/document/d/1iCCzdXtR8AkO2ehNS-zaDM-zgy337mYlQIvsF4cOssA/edit) (.GDOC)
-9. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
+1. [Building a Strong Brand](https://about.sourcegraph.com/handbook/marketing/brand/building_a_strong_brand)
+2. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
+3. [The Team](#the-team)
+4. [Capabilities](#capabilities)
+5. [Brand Guidelines](brand_guidelines.md)
+6. [Brand and Creative Request Forms](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests)
+7. [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
+8. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
+9. [Creative Brief template](https://docs.google.com/document/d/1iCCzdXtR8AkO2ehNS-zaDM-zgy337mYlQIvsF4cOssA/edit) (.GDOC)
+10. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
 
 ## Function, Vision, Mission, and Values
 Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to elevate, activate and communicate the value of Sourcegraph to the world. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, offering full-service creative support with a rapid, flexible, iterative process that stems from a deep understanding of our products, our processes, and our people.
