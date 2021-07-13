@@ -3,6 +3,7 @@
 How Sourcegraph handles customer information.
 
 Product data
+
 | Source/platform | Sourcegraph Cloud | Self-hosted | How long is this data kept for? | Who has access? |
 |------------------------------------------------------------------|--------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
 | Ping telemetry | | :heavy_check_mark: | Delete data for any instance that’s been offline for over 3 years. All active instance data are kept | All Sourcegraph teammates |
@@ -14,6 +15,7 @@ Sourcegraph.com user action/event logs | :heavy_check_mark: | | Retain data for 
 | Google Analytics | :heavy_check_mark: | | Indefinitely | All Sourcegraph teammates |
 
 User communications
+
 | Source/platform | Sourcegraph Cloud | On-prem/self-hosted | How long is this data kept for? | Who can access it? |
 |---------------------------------------------------|--------------------|---------------------|------------------------------------------------------------------------------------------------------|--------------------|
 | HubSpot and Salesforce (CRM/marketing automation) | :heavy_check_mark: | Only instance admins and opted-in users | Retain all customer information | All Sourcegraph teammates |
