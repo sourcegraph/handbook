@@ -4,29 +4,20 @@ I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibiliti
 
 My personal site is [slack.org](https://slack.org).
 
-## Goals
-
-Everyone at Sourcegraph contributes to these top company goals, but the CEO is *ultimately* responsible for achieving these goals through building the right team and setting the right [strategy](../company/strategy.md).
+## What I'm thinking about
 
 ### Spread code search
 
-Owner: TBD
 
 We want to grow the number of people who use Sourcegraph. This is a leading indicator of progress toward our mission to make it so everyone can code.
 
-We'll measure adoption as monthly active users (MAU). (Target is set internally, TODO link from handbook.)
-
 ### Grow revenue
 
-Owner: TBD
-
-Revenue, like user adoption, is a leading indicator of progress toward our mission. Revenue earned from a customer is evidence that we're solving a big problem, and it helps us hire more great people so we can solve similar problems for more customers. (Target is set internally, TODO link from handbook.)
+Revenue, like user adoption, is a leading indicator of progress toward our mission. Revenue earned from a customer is evidence that we're solving a big problem, and it helps us hire more great people so we can solve similar problems for more customers.
 
 > Revenue is a lagging indicator. Something you do today might not yield a dollar of revenue for many months. We could set a top company goal around pipeline, which is a model of future revenue sources that would theoretically give us faster feedback. But we want our top company goals to be well-defined indicators of success, so pipeline (as a model/abstraction that depends on various assumptions) isn't appropriate. Our sales team still does track pipeline, and we'll experiment with using it to recognize other teams' impact (such as an engineer shipping a feature that helps several prospects have successful Sourcegraph roll-outs).
 
 ### Accomplish the preceding 2 goals without breaking the company
-
-Owner: @sqs
 
 The previous 2 goals entail fast growth, which is risky for any company to undergo. We don't want to achieve them, or try to achieve them, by doing things that would break the company. We will settle for slower growth if that is needed to preserve our values.
 
