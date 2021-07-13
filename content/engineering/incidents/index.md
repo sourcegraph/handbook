@@ -31,11 +31,11 @@ The goal of triage is to either quickly resolve the incident using basic procedu
 1. **Acknowledge ownership** of the incident in the relevant Slack thread in the #dev-ops channel (i.e. "I'm on it").
 2. Attempt to resolve the incident by rolling back to a known good state instead of trying to identify and fix the exact issue. **Communicate your intentions in the Slack thread.**
    - [Rollback sourcegraph.com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/README.info.md#how-to-rollback-sourcegraphcom)
-   - Revert a broken commit out of master. If a bad commit has already been deployed to sourcegraph.com and is causing problems, rollback the deploy _before_ reverting the commit in master.
+   - Revert a broken commit out of main. If a bad commit has already been deployed to sourcegraph.com and is causing problems, rollback the deploy _before_ reverting the commit in main.
      - Revert the commit in a branch and open a PR.
      - Tag the owner of the reverted commit as a reviewer of the PR.
      - Merge the PR as soon as CI passes (don't block on review).
-   - [Fix failed database migration on sourcegraph.com](https://github.com/sourcegraph/sourcegraph/tree/master/migrations#dirty-db-schema)
+   - [Fix failed database migration on sourcegraph.com](https://github.com/sourcegraph/sourcegraph/tree/main/migrations#dirty-schema)
    - [How to resolve "Sourcegraph.com is deleted entirely"](playbooks/dotcom_deleted_entirely.md)
 3. If rolling back and or reverting commits doesn't resolve the incident, then identify the most logical [resolution owner](#ownership) given what you know (this may be yourself) and have that person **acknowledge ownership** in the Slack thread (i.e. "I'm on it").
    - The person who has made recent changes to the affected product/code/system.
