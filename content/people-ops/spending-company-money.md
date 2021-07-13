@@ -44,7 +44,7 @@ The estimated spend for interns is **$925*** and includes only the electronic it
 
 Once your contract is signed, you will need to purchase and expense your Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up), however, engineering roles have different hardware requirements from other roles (please see below for necessary specs corresponding to your role). Computers are considered property of the company.
 
-**Laptop (engineering team and customer support team):**
+**Laptop (Engineering team, Customer Engineering team and Customer Support team):**
 
 - 16" MacBook Pro, 2.4 GHz (5 GHz turbo) 8‑core (upgrade), 64 GB (upgrade), 1 TB SSD
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
