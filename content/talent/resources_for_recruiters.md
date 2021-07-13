@@ -8,6 +8,10 @@
 - Step 5: Post the job on careers page / LinkedIn
 - Step 6: Begin Slack Kick-Off Process
   
+### Intake Call Guidelines
+
+Coming soon
+
 ### Slack Kick-Off Process
 - Create a new channel slack channel named: “team-hiring_position_recruiter-name”
    - Example: “ops-hiring_handbook-product-manager_recruiter-kelsey”
@@ -22,12 +26,12 @@ Hi team!  We are excited to kick off our [hyperlink job description] opening and
    - Hiring Manager screen:  _______
    - Assignment, if applicable: _______
    - In-depth Interview Stage
-     - Resume Deep Dive: _______
-     - Assignment review/working session, if applicable: _______
-     - Technical interview, if applicable: _______
-     - Team collaboration interview: _______
-     - Peer interview: _______
-     - Values interview: _______ 
+    - Resume Deep Dive: _______
+    - Assignment review/working session, if applicable: _______
+    - Technical interview, if applicable: _______
+    - Team collaboration interview: _______
+    - Peer interview: _______
+    - Values interview: _______ 
    - Department Head Interview: _______
 
 When choosing two people to be on the values interview, please keep in mind the following:
