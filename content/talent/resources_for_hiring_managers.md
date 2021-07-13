@@ -53,7 +53,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
    - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.  
    - Attendees: Recruiter, Hiring Manager, Candidate.
-   - Agenda: 1. the Hiring Manager kicks off the call to give the candidate feedback and tell why we're excited 2. the Recruiter then shares their screen to display the offer summary document. The Recruiter covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity 3. the Hiring Hanager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity. 
+   - Agenda: 1. the Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them 2. the Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity 3. the Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity.  
    - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and 2) schedule a follow up call to answer any questions.
 - Following the offer call, Recruiter sends the offer summary to the candidate in an email.
 - To send an official offer, the Recruiter
