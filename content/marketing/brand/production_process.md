@@ -93,8 +93,3 @@ Examples of process metrics include:
 - Project Volume (total # and total hrs.)
 - External Agency Spend
 - Volume of requests per team/individual
-
-Delete:
-## Additional Resources:
-- [Sourcegraph Preferred Vendor Network (aka The Network)](the_network.md)  
-- [Success metrics](success_metrics.md)  
