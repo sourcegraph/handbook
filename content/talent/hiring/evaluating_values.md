@@ -50,6 +50,18 @@ You can find the above information in the "interview prep" section of your Green
 - To ensure that bias doesn't impact your decision-making, please be sure to fill out your scorecard before discussing with anyone. 
 - To learn more about providing feedback, [click here](https://about.sourcegraph.com/handbook/talent/interview_process#providing-interview-feedback).
 
+# Resources for recruiters 
+
+Please ask the Hiring Manager if they have any suggestions for their role.
+Reminders:
+- Must have been here for 3+ months
+  - Here is a [doc](https://docs.google.com/spreadsheets/d/1NUDEjzud_GxocjKkd__m0hTf21tN3OIgOwtk_OjhV20/edit?ts=60e4c3bd#gid=0) that lists everyone who has been here for 3+ months. 
+- Must be two people from different departments
+- Please keep diversity in mind when selecting teams
+
+Once the values team has been selected, the Recruiter is responsible for sending a Slack to each values team saying:
+- "Hi team! You have been selected to serve as the values team for the [role title]. [Here](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values) is a resource to help you in the interview. One of you will need to opt in as the lead (this person is the one who begins the introduction and asks the first question). All questions are listed in your Greenhouse scorecard, found in the interview prep link in an interview calendar invite. If you have any questions or would like to practice in advance of the interview, let me know and I'll send a calendar invite!"
+
 # Resources for candidates 
 
 Coming soon
