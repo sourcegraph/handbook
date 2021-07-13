@@ -1100,3 +1100,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - [kelvin@sourcegraph.com](mailto:kelvin@sourcegraph.com)
 - [Name pronunciation](https://www.howtopronounce.com/kelvin)
 - Kelvin is a person who doesn't know how to describe himself. He often takes time in answering "How are you doing?".
+
+## Mariam Adedeji (She/Her)
+
+- Customer Support Engineer
+- Lagos, Nigeria 🇳🇬
+- GitHub: [rhiam](https://github.com/rhiam), [LinkedIn](https://www.linkedin.com/in/omobolanle-adedeji-0b845167)
+- [mariam@sourcegraph.com](mailto:mariam@sourcegraph.com)
+- Mariam is a confident female engineer from Nigeria. Previously worked as a software engineer prior to joining Sourcegraph. She enjoys coding, watching movies, travelling, making new friends, and organising events.
