@@ -1,98 +1,166 @@
 # Company sponsored events (team and company-wide)
 
 
-## Phase I: Teammate Travel Meetup Guidelines
+# Phase II: Teammate Travel Meetup Guidelines
 
-As of June 16th 2021, we will resume reimbursing travel per our [team travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel#team-travel-budgets) for travel and in-person events that are permitted by law. We want this to be gradual, and all events must be small and completely optional. 
+As of June 16th 2021, we have resumed reimbursing travel per our  [team travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel#team-travel-budgets)  for travel and in-person events that are permitted by law. We want this to be gradual, and all events must be completely optional.
 
-As an all-remote company, we want everyone to feel included and connected, regardless of where they're located. Choosing to travel or meet is an incredibly personal decision, and we support team members who may not be interested in meeting up at this time.
+As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. Choosing to travel or meet is an incredibly personal decision, and we support team members who may not be interested in meeting up at this time.
 
+## Guidelines
 
-## **Guidelines:**
-
-- To avoid the perception that these events are mandatory, managers should not organize events for their teams. 
-   	- Managers can attend events and organize events that don't involve their direct reports.
-
--   Events should be outdoors rather than indoors.
+ -  All individual teammates can continue to plan and coordinate events.    
+ - Managers may now plan meetups
+	- Managers must actively gauge the level of comfort within their teams for both the activities you’ll be engaging in, and how you plan on meeting up. *Be inclusive of different interests in the group.*
+	- Managers must be aware that not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. *Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.*
+ 
+ - All meetups will continue to remain completely optional for all attendees.
     
--   Keep gatherings small. Use your best judgement and defer to local jurisdictions in determining the number of attendees.
+-   Use your best judgement and defer to local jurisdictions in determining the number of attendees.
     
 -   Follow local laws, customs, and safety regulations during every step of the meetup process.
-
-- Assume people don't want to shake hands, hug, high-five, etc. 
     
--   Don't ask about other people's private health choices or condition attendance on those factors (*such as vaccination status*).
+-   Assume people don’t want to shake hands, hug, high-five, etc.
     
-***Please notify People Ops (people-ops@sourcegraph.com) before you start planning an event.***
+-   Don’t ask about other people’s private health choices or condition attendance on those factors (_such as vaccination status_).
     
 
-## How we came to this decision:
+**_Please notify People Ops (people-ops@sourcegraph.com) before you start planning an event._**
 
-Our policy until now has been to suspend travel/meetup reimbursement and for managers to not organize team events. *Why not a blanket "no meetup" policy?* On principle, we don't think any company can or should forbid people from meeting up on their personal time.  Although Covid-19 continues to deeply affect each person and region, we needed to establish a different policy to meet the team's needs. 82% of team members surveyed (49 respondents in May) said they'd feel comfortable attending an in-person meetup (*either now or within the next few months, with some conditions*), and 84% of team members said Sourcegraph should start allowing in-person team meetups and travel. With most team members in favor of starting to travel, we didn't want *only* local meetups (where people would not need travel reimbursement) to start, because that wouldn't be inclusive to people who don't live near other team members. We decided to change the policy to start allowing travel/meetup reimbursement but we are still asking managers to not organize team events. We'll be revisiting the manager planning component in Phase II of our Travel Meetup plan.
+## [](https://about.sourcegraph.com/handbook/people-ops/travel#how-we-came-to-this-decision "#how-we-came-to-this-decision")How we came to this decision:
 
-***For any questions, clarifications, or notifications around trips you'll be taking, please email **people-ops@sourcegraph.com**.*** 
+Our policy until now has been to suspend travel/meetup reimbursement and for managers to not organize team events.  _Why not a blanket “no meetup” policy?_  On principle, we don’t think any company can or should forbid people from meeting up on their personal time. Although Covid-19 continues to deeply affect each person and region, we needed to establish a policy to meet the team’s needs. 82% of team members surveyed (49 respondents) said they’d feel comfortable attending an in-person meetup (_either now or within the next few months, with some conditions_), and 84% of team members said Sourcegraph should start allowing in-person team meetups and travel. With most team members in favor of starting to travel, we didn’t want  _only_  local meetups to start, because that wouldn’t be inclusive to people who don’t live near other team members. We decided to change the policy to start allowing travel/meetup reimbursement.
+
+***For any questions, clarifications, or approvals around trips you’ll be taking, please email  **people-ops@sourcegraph.com**.***
+
+# [](https://about.sourcegraph.com/handbook/people-ops/travel#team-travel-budgets "#team-travel-budgets")Travel budgets
+
+Sourcegraph is an  [all-remote](https://about.sourcegraph.com/handbook/company/remote)  company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
+
+Team meetups are very important for building cohesiveness in remote teams and spreading Sourcegraph culture across the company. 
+
+We are a [high agency](https://about.sourcegraph.com/handbook/company/values#high-agency) team. Be economical in choosing your accommodations, modes of transportation, and where you’ll be dining. We understand that there may be limits, and we urge you to find options that are both convenient for you while being reasonable reimbursements for the company. 
+
+> *For example: If you are attending a conference and see that a cheaper hotel is a half hour away from your conference venue, but you will need to pay for the taxi to the venue which would ultimately make your cost the same, book a more convenient option!*
 
 
-## Team travel budgets
+We also want you and expect you to use your full travel budgets each year! For this reason, they aren’t transferrable, and unused budget doesn’t roll over into the next year. 
+    
 
-Sourcegraph is an [all-remote](../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
+> *For example:*
+> -   A teammate cannot reallocate the budget from a company-wide event to an individual trip.
+> -   A teammate cannot use their team budget for individual travel.
+> -   A teammate cannot skip the winter holiday party to get a longer stay at the spring/summer company-wide event.
 
-Team meetups are very important for building cohesiveness in remote teams and spreading Sourcegraph culture across the company.
+**There are five types of company-sponsored, company-paid travel:**
 
-We want and expect you to use your full travel budgets described here each year! For this reason, they aren't transferrable, and unused budget doesn't roll over into the next year.
+ 1. Company-wide travel
+ 2. Team travel
+ 3. Individual travel
+ 4. Business/customer travel
+ 5. Professional development/ educational travel
 
-For example:
+## [](https://about.sourcegraph.com/handbook/people-ops/travel#company-wide-events "#company-wide-events")1. Company-wide travel
 
-- A teammate cannot reallocate the budget from a company-wide event to an individual trip.
-- A teammate cannot use their team budget for individual travel.
-- A teammate cannot skip the winter holiday party to get a longer stay at the spring/summer company-wide event.
+Each teammate has two fully-paid trips (flights, lodging, food, transportation) to the chosen locations of company meet-ups each year. 
 
-There are four types of company-sponsored, company-paid travel.
+-   Winter party *(typically held in San Francisco)*
+-   Spring/summer event
 
-## How to Get Your Trip Approved
+## [](https://about.sourcegraph.com/handbook/people-ops/travel#team-events "#team-events")2. Team travel
 
-Before booking trips, we encourage teammates to get budget approval by sending an email to finance@sourcegraph.com and people-ops@sourcegraph.com with your manager or director cc’d. 
+Each team is allocated $4,000 USD per year per teammate for team meetups (minimum two members of the team).
 
-Please include the following for individual or group travel requests: 
+-   This is designed to allow each team to hold at least one event every six months (in addition to the company-wide events above).
+-   This budget can be used for travel *(airfare, trains, etc.)*, lodging *(hotels, rental homes, etc.)*, events, meals and entertainment.
+-   Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive of all of the groups interests.
+-   Reserve plenty of time for just hanging out, touring around, and having fun. Quality time with eachother is important.
+-   If one individual is a member of multiple teams, they will receive the same amount for each of their teams.
+-   The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
 
-- Name(s) and Team Role(s):
-- Reason for travel (i.e. Team Meet-up, Conference, etc.):
-- Location of travel:
-- Dates of travel:
-- Cost - Actual or Reasonable Estimate (i.e. Hotel, flight, food, transportation, etc.):
+## [](https://about.sourcegraph.com/handbook/people-ops/travel#individual-travel "#individual-travel")3. Individual travel
 
-As a reminder, travel is voluntary and no teammates are required to travel. Trip requests made by a teammate should never be made against their own judgement or comfort level. 
+Each teammate has one fully-paid trip per year to meet up with an individual or a group, and this can include anyone in the company.
+
+ - The purpose of defining this as one “trip” (instead of providing a set dollar budget) is to avoid punishing teammates that live far away from other teammates, and who would therefore incur higher airfare costs.
+ - This trip is  _in addition_  to the other benefits mentioned on this page.
+
+## [](https://about.sourcegraph.com/handbook/people-ops/travel#professional-development-and-education "#professional-development-and-education")4. Business/customer travel
+
+For teammates with business-related travel requirements, trips will be fully paid pending manager/director approval in addition to above budgets. We would include the following types of meetups:
+
+ - Customer Champion meetups 
+ - Executive meetups (no approval required)
+ - Marketing conferences 
+ - Mandatory team trainings
+ -  Sales club celebrations 
+ - Quarterly Regional Sales Kickoff (Sales, Sales Ops, CE included)
+
+## [](https://about.sourcegraph.com/handbook/people-ops/travel#professional-development-and-education "#professional-development-and-education")5. Professional development and educational travel
+
+Each teammate has $1,000 to spend on professional development, which could include attendance fees and travel to conferences, educational trainings, university classes, etc. as outlined on our  [benefits page](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks#professional-development).
+
+# Budget best practices and additional spending categories
+
+## Hotel accomodations:
+
+We advise spending within reason for the location you are visiting, with a $400 USD per night maximum spend limit. 
+
+>  Spending over $400 USD per night requires additional approvals from  
+> Finance / People Ops. 
+> 
+> *Please send Finance/ People Ops an email with  your manager and
+> department VP cc’d including your proposal. In this   email, please
+> share screenshots from your research showing why your proposal would
+> be the most economical option given the surrounding  hotels. Finance
+> will reply with an approval or request to book other  accommodations.*
+
+## Modes of transportation:
+
+ - Economy class is recommended for booking all travel. *(If you need any higher tier of booking, reach out to Finance/People Ops for approval.)*
+ - Travelers are encouraged to book flights at least 30 days in advance to avoid premium airfare pricing.
+ - Book from travel providers that offer flexible cancellation policies and refundable rates, should your plans change at any time.
+ - Sourcegraph will pay for flight to and from locations. Any changes made to your itinerary to extend your trip and change your flight itinerary will be out of pocket expenses.
+ - Gas and parking would be considered reimbursable within the applicable budget.
+ - Ride-shares (Uber, Lyft, etc.) are encouraged whenever possible instead of renting a car.
+	 - If you’re in the US and would like to rent a car, we recommend checking with the following companies before booking your car rental elsewhere:
+		 - [Turo](https://turo.com/)  
+		 - [Getaround](https://www.getaround.com/)
+		 - [Zipcar](https://www.zipcar.com/)
+
+## Dining and your per diem:
+
+   We ask you to use your best judgment when traveling and spending company money. Don’t go overboard with spending on food and drinks. Always ask for receipts for expenses over $25 USD and keep them organized.
+    
+ -   All teammates will receive a [per diem](https://www.merriam-webster.com/words-at-play/what-does-per-diem-mean) while they travel:
+	 - $80 per day for all 3 meals, alcoholic beverages included.
+	 - Any additional spending for food or drinks will come out of your own pocket.
+-   Please note that this is money that is available to be reimbursed, and you will not roll over any unused money to the next day. We encourage you to use this set amount, as your daily per diem amount will reset the following day.
+-   We will reimburse only your own portion of the bill if you’re traveling with a non-teammate, so make sure to separate your bills or ask for separate receipts. 
+   
+
+## Dependent care budget:
+
+   For business critical travel or travel required for your role, we offer a budget to pay for care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you. If you’re interested in using this benefit, feel free to submit a receipt via Expensify (*US teammates*) or via invoice (*International teammates*).
+    
+-   This benefit exists to support our teammates who have dependents by giving them the certainty of knowing that their dependents will be taken care of while they are on business critical company travel.
+    
+-   For any additional questions, please reach out to Finance and People Ops.
+
+# [](https://about.sourcegraph.com/handbook/people-ops/travel#how-to-get-your-trip-approved "#how-to-get-your-trip-approved")How to get your trip approved
+
+Before booking trips, you must obtain budget approval by sending an email to  finance@sourcegraph.com  and  people-ops@sourcegraph.com  with your manager or director cc’d.
+
+*Please include the following for individual or group travel requests:*
+
+-   Name(s) and Team Role(s):
+-   Reason for travel (i.e. Team meet-up, conference, business travel, etc.):
+-   Location of travel:
+-   Dates of travel:
+-   Cost - actual or estimate of reimbursable expenses (i.e. hotel, flight, food, transportation, etc.):
+
+As a reminder, travel is voluntary and no teammates are required to travel. Trip requests made by a teammate should never be made against their own judgement or comfort level.
 
 After your request has been submitted, you will receive approval from Finance via email within 1 business day.
 
-For any additional questions, please reach out to #finance or #people-ops.
-
-
-## Company-wide events
-
-Sourcegraph generally holds two company-wide events each year, each fully covered by the company:
-
-- Winter party (typically in San Francisco)
-- Spring/summer event
-
-## Team events
-
-- Each team is allocated $4,000 USD per year per teammate for team meetups (minimum two members of the team).
-- This is designed to allow each team to hold at least one event every six months (in addition to the company-wide events above).
-- This budget can be used for travel (airfare, trains, etc.), lodging (hotels, rental homes, etc.), events, meals and entertainment, and more.
-- Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive! Contact @sourcegraph/people-ops with any questions.
-- Reserve plenty of time for just hanging out, touring around, having fun, etc. Quality time is important.
-- If one individual is a member of multiple teams, they will receive the same amount for each of their teams.
-- The budget can be used for online team bonding events if the team prefers.
-
-## Individual travel
-
-- Each teammate has one fully-paid trip per year to meet up with a group of teammates in another location.
-  - This is *in addition* to the other benefits mentioned on this page.
-  - The purpose of defining this as one “trip” (instead of providing a set dollar budget) is to avoid punishing teammates that live far away from other teammates, and who would therefore incur higher airfare costs.
-
-
-## Professional development and education
-
-- Each team member has a $1,000 USD budget for professional development and education, as outlined on our [benefits page](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks#professional-development).
-- This can also be used for travel related to professional development (e.g., for conferences or training sessions).
+For any additional questions, please reach out to **#finance** or **#people-ops**.
