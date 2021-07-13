@@ -37,8 +37,9 @@ There are some test environments created specifically for the Customer Support E
 * [GitLab test instance ](https://gitlab.sgdev.org)
 * [Gerrit test instance ](https://gerrit.sgdev.org/)
 * [Bitbucket test instance ](https://bitbucket.sgdev.org/)
+* [Phabricator test instance ](https://phabricator.sgdev.org/)
 
-> NOTE: Please let the team know in our internal channel if you need CLI/logs access.
+> NOTE: You can find all the login credentials for the test instances in your 1Password account.
 
 ## Troubleshooting
 
