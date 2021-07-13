@@ -54,8 +54,8 @@ You can find the above information in the "interview prep" section of your Green
 
 Please ask the Hiring Manager if they have any suggestions for their role.
 Reminders:
-- Must have been here for 3+ months
-  - Here is a [doc](https://docs.google.com/spreadsheets/d/1NUDEjzud_GxocjKkd__m0hTf21tN3OIgOwtk_OjhV20/edit?ts=60e4c3bd#gid=0) that lists everyone who has been here for 3+ months. 
+
+- Must have been here for 3+ months. Here is a [doc](https://docs.google.com/spreadsheets/d/1NUDEjzud_GxocjKkd__m0hTf21tN3OIgOwtk_OjhV20/edit?ts=60e4c3bd#gid=0) that lists everyone who has been here for 3+ months. 
 - Must be two people from different departments
 - Please keep diversity in mind when selecting teams
 
