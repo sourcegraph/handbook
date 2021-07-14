@@ -156,6 +156,7 @@ In addition to the above interviews, some departments have department-specific i
 ## Product
 
 **Director of Product**
+
 - Working session
   - Interviewer(s): [Christina Forney](https://about.sourcegraph.com/handbook/company/team#christina-forney-she-her), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
   - Duration: 1 hour
@@ -173,6 +174,7 @@ In addition to the above interviews, some departments have department-specific i
  
 
 **Product manager**
+
 - Async writing project [(RFC Project)](https://about.sourcegraph.com/handbook/product/roles/interviews/product_manager/pm_rfc_project)
   - Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](https://about.sourcegraph.com/handbook/product) will review your RFC and discuss it with you in the next round of interviews. 
   - Duration: ~1 hour
@@ -195,6 +197,7 @@ In addition to the above interviews, some departments have department-specific i
 
 
 **Product designer**
+
 - Portfolio review
   -  Interviewer(s): [Two Product Designers](https://about.sourcegraph.com/handbook/product). 
   -  Duration: 1 hour
