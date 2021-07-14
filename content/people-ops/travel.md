@@ -74,7 +74,7 @@ Each team is allocated $4,000 USD per year per teammate for team meetups (minimu
 -   This is designed to allow each team to hold at least one event every six months (in addition to the company-wide events above).
 -   This budget can be used for travel *(airfare, trains, etc.)*, lodging *(hotels, rental homes, etc.)*, events, meals and entertainment.
 -   Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive of all of the groups interests.
--   Reserve plenty of time for just hanging out, touring around, and having fun. Quality time with eachother is important.
+-   Reserve plenty of time for just hanging out, touring around, and having fun. Quality time with each other is important.
 -   If one individual is a member of multiple teams, they will receive the same amount for each of their teams.
 -   The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
 
@@ -136,7 +136,17 @@ We advise spending within reason for the location you are visiting, with a $300 
 	 - Any additional spending for food or drinks will come out of your own pocket.
 -   Please note that this is money that is available to be reimbursed, and you will not roll over any unused money to the next day. We encourage you to use this set amount, as your daily per diem amount will reset the following day.
 -   We will reimburse only your own portion of the bill if you’re traveling with a non-teammate, so make sure to separate your bills or ask for separate receipts. 
-   
+
+#### Trip Summary
+Please see below for a complete summary of spend limit, per diem, and hotel budget guidelines for each type of trip.
+
+|Trip Category|Total Spend Limit|Per Diem?|Hotel Budget?|
+|---|---|---|---|
+|Company-wide|N/A|Yes|Yes|
+|Team|$4,000|Recommended only|Recommended only|
+|Individual|$2,500|Recommended only|Recommended only|
+|Business/Customer|N/A|Yes|Yes|
+|Education|$1,000|Recommended Only|Recommended only|
 
 ## Dependent care budget:
 
