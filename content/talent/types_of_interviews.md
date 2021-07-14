@@ -155,10 +155,59 @@ In addition to the above interviews, some departments have department-specific i
 
 ## Product
 
-- Product designer portfolio review
-  -  Interviewer(s): Coming soon.
-  -  Duration: Coming soon.
-  -  Details: in this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made.
+**Director of Product**
+- Working session
+  - Interviewer(s): [Christina Forney](https://about.sourcegraph.com/handbook/company/team#christina-forney-she-her), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
+  - Duration: 1 hour
+  - Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time.We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. 
+
+- Meet your team 
+  - Interviewer(s): Depending on the org, 2-3 [Product Managers](https://about.sourcegraph.com/handbook/product#product). 
+  - Duration: 45 min
+  - Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team. 
+
+- Design and engineering collaboration
+  - Interviewer(s): Product Designer and Engineering Manager. 
+  - Duration: 30 mins
+  - Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organizing plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role. 
+ 
+
+**Product manager**
+- Async writing project [(RFC Project)](https://about.sourcegraph.com/handbook/product/roles/interviews/product_manager/pm_rfc_project)
+  - Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](https://about.sourcegraph.com/handbook/product) will review your RFC and discuss it with you in the next round of interviews. 
+  - Duration: ~1 hour
+  - Details: This is a take home writing assignment to see how you communicate and think about product problems. Below is the prompt on the project. [Here's how we will measure the project](https://about.sourcegraph.com/handbook/product/roles/interviews/product_manager/pm_rfc_project): 
+    - Please write a Request for comments (RFC) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/product area.
+    - It should have our standard RFC structure from the handbook, or see the RFC template: Background, Problem, Proposed solution, and Definition of success. However, our handbook states that the precise format is not as important as the content itself, so feel free to improve upon this format as necessary.
+    - Aim for about one page of writing (don’t go over two pages) with standard styling. This is long enough to give us the signal we want, while at the same time is short enough that you don’t experience “writer’s block” and can write it in one sitting. We expect this to take you ~1 hour.
+    - What’s important is that the writing is clear and easy to understand. It should show us that you care about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way.
+    - The challenge is to explain something to a reader that doesn’t have the same context as you have, just like you would in a proposal for a new feature.
+
+- Product interview
+  - Interviewer(s): [Product Manager and a Product Designer](https://about.sourcegraph.com/handbook/product) who were not the reviewers of the RFC. 
+  - Duration: 1 hour
+  - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will have about product development prioritization, and how you balance priorities of what our customers want with Engineering resources. 
+
+- Engineering collaboration
+  - Interviewer(s): Engineering Manager. 
+  - Duration: 30 min 
+  - Details: In this interview, you will meet with the Engineering Manager from the team you’re interviewing for, your counterpart in the PM-EM responsibilities. We will be evaluating how you collaborate and work within a team, specifically how you partner with Engineering to drive the product vision of your team. We will focus on your technical background, as you will need to be able to discuss the technical aspects of our product with customers and communicate feedback and technical insight to the team. It is important that you demonstrate enthusiasm and understanding for the product and problem space, identifying and communicating the pain that Sourcegraph solves for developers.
+
+
+**Product designer**
+- Portfolio review
+  -  Interviewer(s): [Two Product Designers](https://about.sourcegraph.com/handbook/product). 
+  -  Duration: 1 hour
+  -  Details:  In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](https://about.sourcegraph.com/handbook/product/roles/interviews/product_designer/pd_portfolio_review). 
+
+- Design exercise
+  - Interviewer(s): [Product Manager, Product Designers](https://about.sourcegraph.com/handbook/product), and a Frontend engineer. 
+  - Duration: 2 hours
+  - Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](https://about.sourcegraph.com/handbook/product/roles/interviews/product_designer/pd_design_exercise). 
+  - The interview is in 2 parts. Below is the prompt: 
+    - Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
+    - Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
+
 
 ## Sales
 
