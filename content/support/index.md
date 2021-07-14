@@ -31,7 +31,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
 - [Jason Harris](../company/team/index.md#jason-harris-he-him)
 - [Kelvin Lee](../company/team/index.md#kelvin-lee-he-him)
-- Mariam Adedeji (starting 2021-07-12)
+- [Mariam Adedeji](../company/team/index.md#mariam-adedeji-she-her)
 - [Michael Bali](../company/team/index.md#michael-bali-hehim)
 - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
 - [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
