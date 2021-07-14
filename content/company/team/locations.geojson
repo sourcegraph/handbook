@@ -951,17 +951,28 @@
       }
     },
     {
-   "type":"Feature",
-   "properties":{
-      "name":"Michael Bali"
-   },
-   "geometry":{
-      "type":"Point",
-      "coordinates":[
-         3.379206,
-         6.524379
-      ]
-   }
-} 
+      "type":"Feature",
+      "properties":{
+          "name":"Michael Bali"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+           3.379206,
+           6.524379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Mariam Adedeji"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.515625,
+          7.710991655433229
+        ]
+      }
+    }
   ]
 }
