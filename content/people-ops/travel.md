@@ -82,7 +82,7 @@ Each team is allocated $4,000 USD per year per teammate for team meetups (minimu
 
 Each teammate has one fully-paid trip per year to meet up with an individual or a group, and this can include anyone in the company.
 
- - The purpose of defining this as one “trip” (instead of providing a set dollar budget) is to avoid punishing teammates that live far away from other teammates, and who would therefore incur higher airfare costs.
+ - The recommended trip expense is $2,500. People Ops and Finance will approve trips in excess of this amount for certain circumstances.
  - This trip is  _in addition_  to the other benefits mentioned on this page.
 
 ## 4. Business/customer travel
@@ -93,8 +93,7 @@ For teammates with business-related travel requirements, trips will be fully pai
  - Executive meetups (no approval required)
  - Marketing conferences 
  - Mandatory team trainings
- -  Sales club celebrations 
- - Quarterly Regional Sales Kickoff (Sales, Sales Ops, CE included)
+ - Regional Sales Kickoff (Sales, Sales Ops, CE included)
 
 ## 5. Professional development and educational travel
 
@@ -104,9 +103,9 @@ Each teammate has $1,000 to spend on professional development, which could inclu
 
 ## Hotel accomodations:
 
-We advise spending within reason for the location you are visiting, with a $400 USD per night maximum spend limit. 
+We advise spending within reason for the location you are visiting, with a $300 USD per night maximum spend limit. 
 
->  Spending over $400 USD per night requires additional approvals from  
+>  Spending over $300 USD per night requires additional approvals from  
 > Finance / People Ops. 
 > 
 > *Please send Finance/ People Ops an email with  your manager and
@@ -149,8 +148,7 @@ We advise spending within reason for the location you are visiting, with a $400 
 
 # How to get your trip approved
 
-Before booking trips, you must obtain budget approval by sending an email to  finance@sourcegraph.com  and  people-ops@sourcegraph.com  with your manager or director cc’d.
-
+Before booking trips, you must obtain budget approval by sending an email to  finance@sourcegraph.com  and  people-ops@sourcegraph.com  with your manager or director cc’d. If booking a trip with a group (i.e. team meet-up), we recommend group approval requests to reduce the number of requests required for each team member.
 *Please include the following for individual or group travel requests:*
 
 -   Name(s) and Team Role(s):
