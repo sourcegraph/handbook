@@ -1,11 +1,16 @@
-# Requesting time off
+# How to record your paid time off (PTO)
 
-The process outlined below is today's process, but please be aware that the People Ops team is actively working on implementing a new one that will provide a platform for requesting time off via HRIS. 
+We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack. Please see below for a step by step breakdown: 
 
-Current expectations for requesting time off:
+1. Go to your Slack app and scroll down to "Apps" on the left-hand side
+2. Click on "PTO by Roots" (this will take you to your homepage, where you'll see any upcoming PTO events and buttons to create a new PTO event and option to chat with support)
+3. Click "Create OOO" and you will be prompted with a new screen with fields to fill out
+4. Select your type of leave (vacation, wellbeing, life, religious holiday, public holiday, parental, medical)
+5. Enter a name for your PTO event if you choose (this is optional)
+6. Select the dates you will be out for that particular PTO event
+7. You will receive a message from Roots prompting you to designate teammates to cover you while you're away, click "Let's do it!" (Note: you can create multiple assignments)
+8. Select "coworker" or "channel" based on who you would like to cover you while you're away
+9. Select the teammate or channel in the dropdown that you'd need to cover for you
+10. Write down a description of the role or responsibilities and add an optional description (this will be shared with the assigned teammates and used your auto-reply message if someone tags you while you're away)
 
-- Notify your manager with as much notice as possible, via the channel you regularly use to communicate other important information (e.g. email, Slack, 1-1)
-- Once approved by your manager, create a calendar event (on your own calendar) like the one outlined on this [doc](https://docs.google.com/document/d/1BIq-4fZmLHYiX7z-pLfeLqmLiP9z5cX9hy851H-D2Js/edit?usp=sharing)
-- Before heading out, make sure you [update your Slack status](https://slack.com/help/articles/201864558-Set-your-Slack-status-and-availability) to reflect that you are unavailable (you can adjust your notification settings as part of this as well)
-
-**Please note:** The "Not working" calendar is now phased out, any existing entries on that calendar should be replaced by the above process until the new HRIS process is implemented.
+**For more information on our PTO philosophy and policy, please see [Paid time off and working hours](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours). 
