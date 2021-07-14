@@ -82,7 +82,7 @@ Each team is allocated $4,000 USD per year per teammate for team meetups (minimu
 
 Each teammate has one fully-paid trip per year to meet up with an individual or a group, and this can include anyone in the company.
 
- - The recommended trip expense is $2,500. People Ops and Finance will approve trips in excess of this amount for certain circumstances.
+ - People Ops and Finance will approve trips in excess of $2,500 for certain circumstances.
  - This trip is  _in addition_  to the other benefits mentioned on this page.
 
 ## 4. Business/customer travel
