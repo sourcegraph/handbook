@@ -13,4 +13,7 @@ We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which a
 9. Select the teammate or channel in the dropdown that you'd need to cover for you
 10. Write down a description of the role or responsibilities and add an optional description (this will be shared with the assigned teammates and used your auto-reply message if someone tags you while you're away)
 
+**For additional resources from Roots, please see this [folder](https://drive.google.com/drive/folders/13GJGkLOtha_EtCAxBu7EGO13NCovaIcJ).
+
 **For more information on our PTO philosophy and policy, please see [Paid time off and working hours](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours). 
+
