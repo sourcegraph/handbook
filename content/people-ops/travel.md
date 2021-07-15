@@ -138,7 +138,7 @@ We advise spending within reason for the location you are visiting, with a $300 
 -   We will reimburse only your own portion of the bill if you’re traveling with a non-teammate, so make sure to separate your bills or ask for separate receipts. 
 
 #### Trip Summary
-Please see below for a complete summary of spend limit, per diem, and hotel budget guidelines for each type of trip.
+Please see below for a complete summary of spend limit, per diem, and hotel budget guidelines for each type of trip. The best practice is to plan your trip in accordance with the per diem and hotel policy, in order to efficiently use the spending budget allowed. Costs incurred will only be reimbursed to spending limits provided (or the applicable guidance), so it is up to the individual/team how to best allocate that spending allowance for their trips.
 
 |Trip Category|Total Spend Limit|Per Diem?|Hotel Budget?|
 |---|---|---|---|
