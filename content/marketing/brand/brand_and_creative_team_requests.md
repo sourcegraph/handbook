@@ -26,13 +26,13 @@
 
 ## Our Capabilities
 
-*Branding*
+### Branding
 - Brand management, brand identity design, logos, lockups, colors, etc.
 - Brand strategy, naming, positioning, packaging, narrative and market research
 See [Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives
 - [Maintain and update Sourcegraph brand guidelines](brand_guidelines.md) and brand assets
 
-*Design*
+### Design
 - Graphic design for print and digital media
 - Illustrations, iconography, infographics
 - Motion design and animation
@@ -40,20 +40,20 @@ See [Naming Process Guide](naming_process_for_products_features_and_programs.md)
 - Print design and production, marketing collateral, swag
 - Swag procurement, design, and fulfillment
 
-*Photo/Video Production*
+### Photo/Video Production
 - Video production, shooting (location and studio), storyboarding, proj. management
 - Sound design, audio production, mixing, sampling, mastering
 - VR/AR, 360º films, CGI, motion graphics, and animation
 - Photography, editing, retouching, and archiving
 
-*Website/Digital Experience*
+### Website/Digital Experience
 - Maintain and update website, incl. integrations, testing and SEO
 - Website design, page design, campaign and landing pages, microsites
 - Interactive design, incl. data visualization and infographics
 - Email design and development
 - Digital marketing stack and B guidance, strategy, and execution
 
-*Events*
+### Events
 - Event planning, strategy and design
 - Booth, stage or environmental design and production
 - Swag design and fulfillment planning. See our [Gifting Guidelines](gifting_guidelines.md)
