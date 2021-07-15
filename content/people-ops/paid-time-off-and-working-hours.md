@@ -4,7 +4,7 @@ At Sourcegraph, every teammate has agency over how they create a balance between
 
 This balance looks different from person to person and may be reliant on a number of factors, including a teammate’s preferred working style, location, and family obligations. For that reason, we empower our teammates to have agency over their working times, the vacations they take, the time they need to recharge, and the number of hours they can put in over any week without losing focus or motivation. Here are some basic guidelines to help our teammates navigate their paid time off for rest, paid time off for reasons other than rest, and working hours.
 
-Go here to read about [submitting time off](submitting-time-off.md).
+Please visit this page to see how to submit your PTO:[submitting time off](submitting-time-off.md).
 
 ## Paid time off (for rest)
 
