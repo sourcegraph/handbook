@@ -46,11 +46,11 @@ Functional Areas: Design, illustration, animation, video production, copywriting
 - Sruti Dhulipala - Senior Brand Strategist 
 
  
-To be hired:    
-- Brand Planner   
-- Senior Brand Designer (Q2 FY22)    
-- Brand Designer    
-- Production Designer   
+To be hired:
+- Brand Planner
+- Senior Brand Designer (Q2 FY22)
+- Brand Designer
+- Production Designer
 - Creative Producer
 - Motion Designer/Animator
 - Multimedia Specialist
@@ -59,7 +59,8 @@ To be hired:
 - Web Designer (UX/UI)
 - Web Developer
 - CMS Admin
-- UX Researcher   
+- UX Researcher 
+
 
 ## Capabilities
 We deliver agency-caliber campaigns, creative, production, and results in support of every team within the company to drive awareness, engagement, and adoption.
