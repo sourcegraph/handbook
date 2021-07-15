@@ -44,7 +44,7 @@ WIP
 - [Benefits and perks we offer](benefits-and-perks.md)
 - [Guidelines for travel](travel.md)
 - [Paid time off and working hours](paid-time-off-and-working-hours.md)
-  - [Requesting time off](requesting-time-off.md)
+  - [Submitting time off](submitting-time-off.md)
 - [Bank and public holidays](holidays.md)
 - [Donations teammates can make](donations.md)
 - [Celebrating birthdays and anniversaries](celebrate.md)
