@@ -19,7 +19,7 @@ We strive for consistency across all interviews.
   -  **Team collaboration interview**
   -  **Peer interview**
   -  **Values interview**
-- Department head interview
+  -  Department head interview
 - Reference checks / offer
 
 ## Structured interview questions
