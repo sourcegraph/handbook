@@ -12,6 +12,7 @@ We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which a
 8. Select "coworker" or "channel" based on who you would like to cover you while you're away
 9. Select the teammate or channel in the dropdown that you'd need to cover for you
 10. Write down a description of the role or responsibilities and add an optional description (this will be shared with the assigned teammates and used your auto-reply message if someone tags you while you're away)
+11. You will also receive a message from Roots asking you if you would like Roots to automatically adjust your status while you're away– please select "yes" to grant permissions to update your Slack and Google Calendar automatically while you're away.
 
 **For additional resources from Roots, please see this [folder](https://drive.google.com/drive/folders/13GJGkLOtha_EtCAxBu7EGO13NCovaIcJ).**
 
