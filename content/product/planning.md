@@ -33,16 +33,17 @@ Teams track the work they are doing in [GitHub Projects](https://github.com/orgs
       - [Current iteration](https://github.com/orgs/sourcegraph/projects/118)
 - Platform and infrastructure
    - Security
-      - [Iterations](https://github.com/orgs/sourcegraph/projects/130)
-      - [Transparently and openly communicate a security positive stance and approach](https://github.com/orgs/sourcegraph/projects/89)
-      - [Secure Cloud resources](https://github.com/orgs/sourcegraph/projects/88)
-      - [Visibility into our exposures](https://github.com/orgs/sourcegraph/projects/88)
+      - Security aren't using boards for active work management - [instead we're using Jira](https://sourcegraph.atlassian.net/secure/RapidBoard.jspa?rapidView=4&projectKey=SECURITY&view=planning&selectedIssue=SECURITY-27&epics=visible&issueLimit=100)
+         - Note that other teams are not currently expected to have access to this, but future use of it or other tools is in discussion.
+      - [Security Support Board](https://github.com/orgs/sourcegraph/projects/178)
    - Core application
       - [Production testing of all authorization models](https://github.com/orgs/sourcegraph/projects/164)
       - [Retro actions](https://github.com/orgs/sourcegraph/projects/162)
       - [Support](https://github.com/orgs/sourcegraph/projects/153)
       - [Planning board](https://github.com/orgs/sourcegraph/projects/148)
    - Distribution
+      - [Distribution backlog board](https://github.com/orgs/sourcegraph/projects/68)
+      - [Find the latest Distribution sprint board](https://github.com/orgs/sourcegraph/projects?query=is%3Aopen+dist)
 
 ## Planning artifacts
 
