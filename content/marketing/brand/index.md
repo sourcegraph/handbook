@@ -41,11 +41,12 @@ Functional Areas: Design, illustration, animation, video production, copywriting
 
 - Tommy Pesavento - Director of Brand Design/Creative Director    
 - Fabiana Castellanos - Project Coordinator, Brand    
-<!-- Mustafa Ulker ~ a.k.a Moose - Senior Copywriter, Brand --> 
-<!-- Kristen Sundberg - Senior Social Media Manager --> 
+- Mustafa Ulker ~ a.k.a Moose - Senior Copywriter, Brand
+- Kristen Sundberg - Senior Social Media Manager 
+- Sruti Dhulipala - Senior Brand Strategist 
+
  
 To be hired:    
-- Senior Brand Strategist (Q2 FY22)   
 - Brand Planner   
 - Senior Brand Designer (Q2 FY22)    
 - Brand Designer    
