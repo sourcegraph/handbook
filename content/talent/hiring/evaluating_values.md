@@ -15,7 +15,7 @@ All teammates who have been at Sourcegraph for 3+ months are eligible to conduct
 
 ## How do I conduct a values interview? 
 
-The purpose of the values interview is to determine if the candidate embodies and exemplifies our values.  It is not meant to be a skill assessment, and should only focus on Sourcegraph's values.
+The purpose of the values interview is to determine if the candidate embodies and exemplifies our values.  It is not meant to be a skill assessment, and should only focus on Sourcegraph's values. One member of the values team will opt in as a lead (this person is the one who begins the introduction and asks the first question), and then you will alternate asking questions with the other member of the values team.
 
 You can see more information about our interview stages [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews)
 
@@ -33,7 +33,10 @@ You can find the above information in the "interview prep" section of your Green
 - Your stuctured interview questions can be found in your Greenhouse scorecard
 - Your goal is to assess whether or not the candidate aligns with our values only. This is **not a skills assessment** for the role. 
 - Please make sure the interview is recorded by pressing "Record with Brighthire."  (Recording an interview is not required but we encourage it.  To learn more about why we record our interviews and why it helps provide a fair, inclusive, and enjoyable interview experience, [click here](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire).
-- Be sure to ask "drill down questions" and continue to ask more specific open ended "tell me..." questions to dig deeper and fully understand the candidate's response before moving forward to the next question.
+- Be sure to ask "drill down questions" and continue to ask more specific open ended "tell me..." questions to dig deeper and fully understand the candidate's response before moving forward to the next question. Some examples of "drill down questions" include:
+  -  "Tell us why you made that decision"
+  -  "Tell us what you would have done differently"
+  -  "Tell us how you implemented that feedback moving forward"
 
 **Part 3**: Answer candidate questions, sell, and end on a positive note!
 
