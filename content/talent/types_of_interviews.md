@@ -39,7 +39,7 @@ All departments are likely to have some or all of the below universal interview 
   -  Why are you interested in Sourcegraph and our open position?
   -  What are you looking for in your next role, and what are you career goals?
   -  Do you have overlap with a specific timezone? (only applicable for roles that have time zone requirements)
-  -  How much exposure have you had working with teammates across time zones? How did you stay connected and up-to-date?
+  -  Tell us how much exposure, if any, you have had working with teammates across time zones. How did you stay connected and up-to-date with your team?
   -  What is your ideal start date?
   -  Are your compensation expectations in line with our compensation range, which is XYZ?  
   -  What questions do you have for us?
@@ -71,7 +71,8 @@ All departments are likely to have some or all of the below universal interview 
 - Duration: 30-45 minutes.
 - Details: during the peer interview, your potential future colleagues will assess if you will be a value-add to the team, take and give constructive criticism, and be an overall supportive team member. This is also an opportunity for you to ask questions directed to your potential future peers.
 - Example questions: 
-  -  Coming soon
+  -  Tell us about the best team you've ever been a part of.
+  -  Tell us about a time when you had to put your team's interests above your own. 
 
 ## Team collaboration interview 
 - Interviewer(s): people outside of your respective department who you would cross-collaborate with regularly.  
@@ -82,6 +83,7 @@ All departments are likely to have some or all of the below universal interview 
 
 ## Values interview 
 Read more about our values interview [here](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values). 
+
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
 - Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](https://about.sourcegraph.com/handbook/company/values).
@@ -245,7 +247,7 @@ In addition to the above interviews, some departments have department-specific i
 
 **Regional Sales Director**
 
-- RSD rresentation 
+- RSD presentation 
   -  Interviewer(s): Hiring Manager + Account Executive(s).
   -  Duration: 45-minutes.
   -  Details: you will be preparing a 45-minute presentation, to be shared with the Hiring Manager and Account Executive(s) on the team. Please use [this presentation](https://docs.google.com/presentation/d/1d9yZwfTn72oRSZPcjt-mBVbkWR8kWBTyNI3xHKrypJg/edit#slide=id.g9f9a1da303_0_3) as a guide for the conversation.  The goal of the presentation is to help us get to know you better as a person and as a professional. Primary themes include your bio/work history, how you approach building and process, and the types of customers with whom you’ve worked in the past. ** If you have any issues accessing the above presentation, please email recruiting@sourcegraph.com and we will help you!
