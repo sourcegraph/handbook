@@ -98,7 +98,7 @@ It is acceptable to create multiple opportunities within the same account. SDR c
 - The new SAO has a new Primary Contact
 - The new Primary Contact was not referred by an existing Primary Contact
 - There have been no Closed Won opportunities within the past 30 days
-- All SAO criteria is met for the newly created opporutnity
+- All SAO criteria is met for the newly created opportunity
 
 ### Target Opportunity Profile:
 
