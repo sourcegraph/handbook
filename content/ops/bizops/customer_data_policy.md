@@ -21,7 +21,7 @@ User communications
 | HubSpot and Salesforce (CRM/marketing automation) | ✔️ | Only instance admins and opted-in users | Retain all customer information | All Sourcegraph teammates |
 | Communication tools (Gmail, Jira, Productboard) | ✔️ | Only instance admins and opted-in users | Retain all inbound customer communication | All Sourcegraph teammates |
 | Slack | ✔️ | Only instance admins and opted-in users | Customer support channels and private messages are maintained indefinitely. See our full [Slack retention policy](../../communication/team_chat.md#retention) for more information | All Sourcegraph teammates |
-| View list of sales tools | ✔️ | Only instance admins and opted-in users | Retain all outbound customer communication | All Sourcegraph teammates |
+| View full [list of sales tools](../../sales/onboarding/index.md#getting-started) | ✔️ | Only instance admins and opted-in users | Retain all outbound customer communication | All Sourcegraph teammates |
 
 ## FAQs
 
