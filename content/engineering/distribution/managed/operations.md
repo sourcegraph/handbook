@@ -2,7 +2,7 @@
 
 - [Red/black deployment model](#redblack-deployment-model)
 - [SSH access](#ssh-access)
-- [Port-forwarding (direct access to Caddy, Jaeger, and Grafana)](#port-forwarding-direct-access-to-caddy-jaeger-and-grafana)
+- [Port-forwarding](#port-forwarding)
 - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
 - [Accessing the Docker containers](#accessing-the-docker-containers)
 - [Finding the external IPs](#finding-the-external-ips)
