@@ -941,7 +941,9 @@
     },
     {
       "type": "Feature",
-      "properties": {"name": "Donavon Ellison"},
+      "properties": {
+        "name": "Donavon Ellison"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -951,26 +953,41 @@
       }
     },
     {
-      "type":"Feature",
-      "properties":{
-          "name":"Michael Bali"
+      "type": "Feature",
+      "properties": {
+        "name": "Michael Bali"
       },
-      "geometry":{
-        "type":"Point",
-        "coordinates":[
-           3.379206,
-           6.524379
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.379206,
+          6.524379
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {"name": "Mariam Adedeji"},
+      "properties": {
+        "name": "Mariam Adedeji"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           3.515625,
           7.710991655433229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alex Isken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.90158987045288,
+          43.0482043271894
         ]
       }
     }
