@@ -1,4 +1,6 @@
-## **What is mental health?**
+# Mental health support at Sourcegraph
+
+## What is mental health?
 
 The World Health Organization [defines mental health](https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response) as:
 
@@ -9,7 +11,7 @@ The World Health Organization [defines mental health](https://www.who.int/news-r
 
 ____________________________________________________________________________
 
-## **Long term goals:**
+## Long-term goals
 
 1. Normalize the discussion  and reduce stigma about mental health across the Sourcegraph
     team.
@@ -23,7 +25,7 @@ ____________________________________________________________________________
 ____________________________________________________________________________
     
 
-## **Mental health roadmap:**
+## Mental health roadmap
 
 This section will be used in future wellbeing planning as a brainstorm list for wellbeing initiatives.
 
@@ -44,7 +46,7 @@ This section will be used in future wellbeing planning as a brainstorm list for 
 ____________________________________________________________________________
 
 
-## **Resources:**
+## Resources
 
   
 ***Sourcegraph-specific toolkits:***
