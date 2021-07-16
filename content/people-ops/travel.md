@@ -90,7 +90,7 @@ Each teammate has one fully-paid trip per year to meet up with an individual or 
 For teammates with business-related travel requirements, trips will be fully paid pending manager/director approval in addition to above budgets. We would include the following types of meetups:
 
  - Customer Champion meetups 
- - Executive meetups (no approval required)
+ - Director to Executive level meetups (no approval required)
  - Marketing conferences 
  - Mandatory team trainings
  - Regional Sales Kickoff (Sales, Sales Ops, CE included)
