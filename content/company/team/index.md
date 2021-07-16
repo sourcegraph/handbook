@@ -1116,3 +1116,10 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [rhiam](https://github.com/rhiam), [LinkedIn](https://www.linkedin.com/in/omobolanle-adedeji-0b845167)
 - [mariam@sourcegraph.com](mailto:mariam@sourcegraph.com)
 - Mariam is a confident female engineer from Nigeria. Previously worked as a software engineer prior to joining Sourcegraph. She enjoys coding, watching movies, travelling, making new friends, and organising events.
+
+## Alex Isken (He/Him)
+
+- Product Marketing Manager
+- Milwaukee, WI, USA 🇺🇸
+- [alex.isken@sourcegraph.com](mailto:alex.isken@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/alexisken/), [GitHub](https://github.com/iskyOS)
+- Alex is a proud Milwaukeean. Prior to Sourcegraph, Alex worked in various technology roles at Nielsen and was also a PMM at Datadog in NYC (but he's very happy to be back in the midwest). Alex loves board games, disc golf, and microbreweries, and he has an undying passion for Marquette basketball.
