@@ -56,11 +56,21 @@ Please follow these guidelines when contributing to Sourcegraph’s blog.
 
 First, decide how you want to contribute:
 
-1. If you have an original article idea that you want to write, start by submitting your pitch via this [Asana form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959) so we can triage appropriately.
-1. If you have an idea to submit but you don't want to write it, you can still submit the idea via the Asana form, just make a note that you are not proposing to write the post yourself.
+#### Write the draft yourself
 
-The editorial team will triage pitches weekly on Monday. Once you have submitted a pitch:
+If you have an original article idea that you want to write, start by submitting your pitch via this [Asana form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959) so we can triage appropriately.
 
+#### We interview you
+
+If you are short on time or less comfortable writing, a member of the content team can interview you and use the transcript to start an outline for you to work from. Please mention if you want to go this route when you fill out your [form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959). 
+
+#### Just submit an idea
+
+If you have an idea to submit but you don't want to write it, you can still submit the idea via the [Asana form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959), just make a note that you are not proposing to write the post yourself.
+
+#### Once you have submitted a pitch
+
+1. The Editorial team triages pitches weekly.
 1. An editor will be assigned and will give you feedback on your idea. At this point we may suggest an alternative channel or content format for your idea (guide/case study/social post/etc.)
 1. If the pitch is approved by you and your editor, next we'll decide on a timeline together.
 1. First draft is submitted by the first draft deadline.
@@ -69,4 +79,6 @@ The editorial team will triage pitches weekly on Monday. Once you have submitted
 1. The editor does a final copyedit.
 1. Once the final draft is approved by you and your editor, it will be staged and/or scheduled for release.
 
-**What happens if I want to write something on my own, on my own time for Sourcegraph’s blog?** Once you’re ready for an editor’s review, submit your draft in place of a pitch and follow the article submission guidelines. An editor will reach out to you with feedback, requested changes, and publishing options. Please note that immediate publishing may not be available. If you would like to publish on your own schedule, [Medium](https://medium.com/) is a great option for self-publishing.
+#### What happens if I want to write something on my own, on my own time for Sourcegraph’s blog?
+
+Once you’re ready for an editor’s review, submit your draft in place of a pitch and follow the article submission guidelines. An editor will reach out to you with feedback, requested changes, and publishing options. Please note that immediate publishing may not be available. If you would like to publish on your own schedule, [Medium](https://medium.com/) is a great option for self-publishing.
