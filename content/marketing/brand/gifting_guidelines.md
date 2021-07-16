@@ -20,7 +20,6 @@ Welcome to our Gifting Guidelines Page! Have a request for custom swag? Use the 
 All items in our inventory are the same ones found in our new hire kits, but not all of the items are available as user or customer swag due to cost and inventory limits.
 
 
-
 ### Use cases
 
 - As a thank you gift for attending an event
@@ -34,36 +33,42 @@ All items in our inventory are the same ones found in our new hire kits, but not
 
 ## How to send a gift 
 
-1. Fill in the Swag Requests form. You will need:  
+1. Fill in the [Swag Requests](https://app.asana.com/0/1200419124213353/list) form. You will need:  
   - Name of the recipient
   - Email of the recipient
-  - A reason for the request (e.g: Participated as a guest speaker on our web series)
-  - Personal message from you to them
-  - Country of destination (not strickly necessary but preferred) 
+  - A reason for the request (e.g: Participated as a guest speaker on our web series).
+  - Country of destination (not strickly necessary but preferred). Learn more about international shipping [here](https://help.printfection.com/hc/en-us/articles/201462224-International-shipping#:~:text=Printfection%20offers%20international%20shipping%20to,military%20addresses%2C%20and%20US%20territories).
 2. The Brand team will review  your request. *Note: all requests will be reviewed on a case-by-case basis factoring in current inventory levels and use cases*
-3. You will receive a link from The Brand Team via Slack. Send that link to your recipient so they can choose their gift from one of our [giveaway campaigns](#giveaway_campaigns)
-4. Your recipient redeems their gift and inputs their shipping address. The gift is fullfilled automatically. If you'd like to get notified when redemptions happend, contact The Brand Team through the #swag channel
+3. If your request is approved, you will receive a link from The Brand Team via Slack. Links are sent every Thursday (Swag day!).
+4. Send the link to your recipient. They will redeem their gift and add their own shipping address. 
+5. If you would like to get notified when redemptions happen, contact The Brand Team through the [#swag](https://sourcegraph.slack.com/archives/C01SVQUPDAN) channel.
 
 
-## Available inventory
+## Available Inventory
 
-|**Item**                                |**Price** |
-|----------------------------------------|----------|
-|Austin Cork-Bottom Tumbler (20 oz)      |$19.00    |
-|Sourcegraph Notebook                    |$5.00     |
-|Dress Socks                             |$16.00    |
-|Fuzzy socks                             |$6.00     |
-|Men's/Unisex t-shirt                    |$10.00    |
-|Women's t-shirt *(available soon)*      |$10.00    |
+Recipients will choose one of the following gifts:
 
-### Giveaway Campaigns
+|     Item    | Price |
+|:-----------:|:-----:|
+|     Hat     |  $14  |
+| Dress socks |  $16  |
 
-Choosing the right gift for your recipient can be difficult, which is why we created two giveaway campaigns. The recipient selects the **one** gift that they like, and adds their shipping address. The gift is fullfilled automatically. 
 
-| Giveaway Campaign |                 Items                 |
-|-------------------|:-------------------------------------:|
-|         #1        | Notebook, dress socks or fuzzy socks |
-|         #2        | Tumbler, t-shirt or dress socks      |
+## Special Requests
+
+If you would like to make a special request for swag, contact The Brand Team on [Slack](https://sourcegraph.slack.com/archives/C01SVQUPDAN). 
+
+### Available Inventory for Special Requests
+
+|       Item      | Price |
+|:---------------:|:-----:|
+|     Tumbler     |  $19  |
+|     Notebook    |   $5  |
+|   Dress socks   |  $16  |
+|   Fuzzy socks   |   $6  |
+|       Hat       |  $14  |
+|  Men's t-shirt  |  $10  |
+| Women's t-shirt |  $10  |
 
 
 ## Shipping charges
@@ -84,7 +89,7 @@ Please use your best judgment and request swag when you need it and it’s in th
 
 **Do I need my recipient's address?**
 
-No you don't. Printfection's Giveaway platform will let the customer input their own address when they redeem their gift.
+No. Printfection's Giveaway platform will let the customer input their own address when they redeem their gift.
 
 **Do I need to have my customer's size?**
 
