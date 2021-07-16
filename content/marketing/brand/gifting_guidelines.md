@@ -50,7 +50,7 @@ Recipients will choose one of the following gifts:
 
 |     Item    | Price |
 |:-----------:|:-----:|
-|     Hat     |  $14  |
+|  Camper Hat |  $14  |
 | Dress socks |  $16  |
 
 
@@ -66,7 +66,7 @@ If you would like to make a special request for swag, contact The Brand Team on 
 |     Notebook    |   $5  |
 |   Dress socks   |  $16  |
 |   Fuzzy socks   |   $6  |
-|       Hat       |  $14  |
+|    Camper Hat   |  $14  |
 |  Men's t-shirt  |  $10  |
 | Women's t-shirt |  $10  |
 
