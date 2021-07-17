@@ -20,6 +20,7 @@ Here's the process for getting a change published to the handbook. For detailed 
 
 1. Propose the edits you want to make by creating a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) on the Git repository at [github.com/sourcegraph/about](https://github.com/sourcegraph/about).
    - Because the [handbook is public](usage.md#why-make-this-handbook-public), anyone in the world can see your proposed edits.
+1. Make sure the [handbook checks pass](#handbook-checks).
 1. You can request a review from specific teammates (who will get a notification) on the GitHub pull request page.
    - We don't have any rules around who needs to review what changes. Use your judgment (e.g., if your change affects the entire engineering team, request review from the VP Engineering).
    - For minor edits, you can skip review.
@@ -65,6 +66,26 @@ If you just need to edit a single page, you can do it entirely on the web.
 1. Wait for teammates to review, comment on, and approve your pull request.
 1. When you're ready to publish the change and make it live, press the **Squash and merge** button, then press **Confirm squash and merge**.
 1. Wait up to 5 minutes for your change to be live on about.sourcegraph.com.
+
+### Handbook checks
+
+>If you are running the handbook locally, you can run these checks before you push your commit, [explained in the readme](https://github.com/sourcegraph/about#handbook).
+
+On your Github pull request page, you'll notice a green checkmark or a red X-mark next to your commits. This information repeated at the end of the page with a "Some checks were not successful" in red or "All checks have passed" in green.
+
+These "checks" are automated formatting and structural rules that run on your new changes. The goal is to help you catch common errors before you merge your pull request to the handbook, because if a handbook user hits these errors when they are live, it's a poor experience.
+
+Ideally, you won't merge your pull request unless all checks have passed and are "green." If you see any red failed checks then you can click the red "X" and then click on the tooltip to be taken to more details ([example page with red X build](https://github.com/sourcegraph/about/pull/3564); [example details page](https://github.com/sourcegraph/about/runs/2976049292)). 
+
+If you're not sure what the error message means or can't determine how to fix it, you are welcome to ask for help in Slack's #handbook and optionally tag @handbook-support, but first refer to the common errors:
+
+#### Interpreting handbook check failures: most common examples
+
+- **Must link to .md files ([example](https://github.com/sourcegraph/about/runs/2976049292))**: `handbook/product/user_feedback.md: must link to .md file, not ../support/support-workflow` means that the error is in the file (handbook page) `handbook/product/user_feedback.md`, and the error is that there is a link to a URL rather than the markdown file of the page itself. 
+  - **Fix:** add an `.md` and make the link to `../support/support-workflow.md` instead of `../support/support-workflow`. 
+  - **Note:** if there is an anchor tag in the link, the `.md` goes before the anchor tag, like `../support/support-workflow.md#support-workflow`. 
+- **Disconnected page ([example](https://github.com/sourcegraph/about/runs/2975885844)):** `handbook/engineering/hiring/engineering-leadership.md: disconnected page (no inlinks from other pages)` means that the error is _not_ in the file `handbook/engineering/hiring/engineering-leadership.md`, but rather there are no pages in the handbook linking to this file page. 
+   - **Fix:** Determine if this page is still valuable, and if so, on which other handbook page to add a link to this page. If it's not obvious or you're not sure, you should post for help in #handbook and tag someone you think might know better (based on the content of the disconnected page). 
 
 ## Edit multiple files or add a new file
 
