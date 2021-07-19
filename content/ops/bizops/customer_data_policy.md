@@ -1,27 +1,35 @@
 # Customer data policy
 
-How Sourcegraph handles customer information.
+This document explains how Sourcegraph handles user data and information.
 
-Product data
+## Product data
 
 | Source/platform | Sourcegraph Cloud | Self-hosted | How long is this data kept for? | Who has access? |
 |------------------------------------------------------------------|--------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
-| Ping telemetry | | ✔️ | Delete data for any instance that’s been offline for over 3 years. All active instance data are kept | All Sourcegraph teammates |
-| Google Cloud Platform data pipeline (Buckets, Dataflow, Pub/Sub) | ✔️ | ✔️ | Pub/Sub and Dataflow don’t hold data (only manage the data pipelines). GCP buckets follow the same rules as the data they backup (i.e. Sourcegraph.com data backed up in buckets is kept for a year) | Analytics and engineering teams |
-| Montoring and observabiltity tools (Sentry, Honeycomb) | ✔️ | | 90 days (Sentry) and 60 days (Honeycomb) | Engineering teams |
+| [Ping telemetry](https://docs.sourcegraph.com/admin/pings) | | ✔️ | Delete data for any instance that’s been offline for over 3 years. All active instance data are kept | All Sourcegraph teammates |
+| Monitoring and observabiltity tools (Sentry, Honeycomb) | ✔️ | | 90 days (Sentry) and 60 days (Honeycomb) | Engineering teams |
 | Sourcegraph Cloud Postgres database | ✔️ | | Retain indefinitely unless deletion request is received | Analytics and engineering teams |
-Sourcegraph.com user action/event logs | ✔️ | | Retain data for 1 year | All Sourcegraph teammates |
-| Amplitude | ✔️ | | Indefinitely | All Sourcegraph teammates |
-| Google Analytics | ✔️ | | Indefinitely | All Sourcegraph teammates |
+Sourcegraph.com event logs | ✔️ | | Retain data for 1 year | All Sourcegraph teammates |
+| Amplitude | ✔️ | | Retain indefinitely | All Sourcegraph teammates |
+| Google Analytics | ✔️ | | Retain indefinitely | All Sourcegraph teammates |
 
-User communications
+## Data pipelines
 
-| Source/platform | Sourcegraph Cloud | On-prem/self-hosted | How long is this data kept for? | Who can access it? |
+| Source/platform | Sourcegraph Cloud | Self-hosted | How long is this data kept for? | Who has access? |
+|------------------------------------------------------------------|--------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| Google Cloud Platform data pipeline (Buckets, Dataflow, Pub/Sub) | ✔️ | ✔️ | These GCP services only manage the data pipelines for select data sources on this policy. GCP buckets follow the same rules as the data they backup (i.e. Sourcegraph.com data backed up in buckets is kept for a year) | Analytics and engineering teams |
+
+
+## User communications
+
+| Source/platform | Sourcegraph Cloud | Self-hosted* | How long is this data kept for? | Who can access it? |
 |---------------------------------------------------|--------------------|---------------------|------------------------------------------------------------------------------------------------------|--------------------|
-| HubSpot and Salesforce (CRM/marketing automation) | ✔️ | Only instance admins and opted-in users | Retain all customer information | All Sourcegraph teammates |
-| Communication tools (Gmail, Jira, Productboard) | ✔️ | Only instance admins and opted-in users | Retain all inbound customer communication | All Sourcegraph teammates |
-| Slack | ✔️ | Only instance admins and opted-in users | Customer support channels and private messages are maintained indefinitely. See our full [Slack retention policy](../../communication/team_chat.md#retention) for more information | All Sourcegraph teammates |
-| View full [list of sales tools](../../sales/onboarding/index.md#getting-started) | ✔️ | Only instance admins and opted-in users | Retain all outbound customer communication | All Sourcegraph teammates |
+| HubSpot and Salesforce (CRM/marketing automation) | ✔️ | ✔️ | Retain all customer information | All Sourcegraph teammates |
+| Communication tools (Jira, Productboard) | ✔️ | ✔️ | Retain all inbound customer communication | All Sourcegraph teammates |
+| Slack shared channels | ✔️ | ✔️ | Customer support channels and private messages are maintained indefinitely. See our full [Slack retention policy](../../communication/team_chat.md#retention) for more information | All Sourcegraph teammates |
+| View full [list of sales tools](../../sales/onboarding/index.md#getting-started) | ✔️ | ✔️ | Retain all outbound customer communication | All Sourcegraph teammates |
+
+<b>*For self-hosted, Sourcegraph can only view instance admin and opted-in users' contact information.</b>
 
 ## FAQs
 
