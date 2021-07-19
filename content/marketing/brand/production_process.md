@@ -22,7 +22,7 @@
 
 Later in 2021, will be using a tool called [Brandfolder](https://brandfolder.com/home) to store and manage access to our final, approved files and brand assets, with the ability to share folders with external partners and ensure version control for team-wide use. In the meantime, Google Drive will be the shared source for currently-in-production and in-use files plus final assets and brand identity files.
 
-Here is our top-level Brand folder](https://drive.google.com/drive/folders/1bV8Fis1ZKszGwMFWbjfRUFBVWeIui0NP?usp=sharing) in the Sourcegraph Team Drive.
+Here is our top-level [Brand folder](https://drive.google.com/drive/folders/1bV8Fis1ZKszGwMFWbjfRUFBVWeIui0NP?usp=sharing) in the Sourcegraph Team Drive.
 
 Here is our externally-accessible [Shared Drive](https://drive.google.com/drive/folders/0AB4h8L66C8qAUk9PVA) — *Sourcegraph-Brand Design (ext shared)* — for when we need to share or receive files from vendors. After a design is approved in Asana, final files and working files should be uploaded to the appropriate vendor folder in the Shared Drive.
 
