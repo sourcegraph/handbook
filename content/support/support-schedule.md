@@ -18,6 +18,7 @@ Our schedule is reflected in the working hours set in our calendars and blocks h
 |Carl|6am - 2pm|3am - 11am|TBD|
 |Gabe|9am - 5pm|9am - 5pm|TBD|
 |Giselle|8am - 4pm|8am - 4pm|Thursday|
+|Mariam|9am - 5pm|1am - 9am|TBD|
 |Stompy|1pm - 9pm|3am - 11am|Friday|
 |Warren|9am - 5pm|9am - 5pm|Monday|
 |Virginia|8am - 5pm|8am - 5pm|TBD|
