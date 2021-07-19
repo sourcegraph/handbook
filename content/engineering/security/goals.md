@@ -8,13 +8,13 @@
 
 **Milestones:**
 
-  1. ✔️ We have a better way to store and access [our own secrets](https://docs.google.com/document/d/1HzO7szEm-h4fqlQOnVbcJdpDmfQiM7Rb-Tz4CMEYl-Q).
-  2. External surface scanning - [issue](https://github.com/sourcegraph/sourcegraph/issues/21298) (Being executed by Core App)
-  3. Security review - authentication and authorization
-  4. Reviewing and restricting site admins on [sourcegraph.com](https://sourcegraph.com/)
-  5. Customer facing security policy
-  6. Pen test
-  7. GCP access control audit
+  1. ✅ We have a better way to store and access [our own secrets](https://docs.google.com/document/d/1HzO7szEm-h4fqlQOnVbcJdpDmfQiM7Rb-Tz4CMEYl-Q).
+  2. ✅ External surface scanning - [issue](https://github.com/sourcegraph/sourcegraph/issues/21298) (Being executed by Core App)
+  3. ✅ Security review - authentication and authorization
+  4. ✅ Reviewing and restricting site admins on [sourcegraph.com](https://sourcegraph.com/)
+  5. ✅ Customer facing security policy
+  6. ⏳ Pen test
+  7. ⏳ GCP access control audit
 
 ## Future Goals
 
