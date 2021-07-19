@@ -124,7 +124,7 @@ Only Sourcegraph teammates are able to see the revision history of RFCs (because
 
 ## External contributors
 
-If you are not a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or by tweeting [@srcgraph](https://twitter.com/srcgraph)) to create a document in the [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) and give you edit access. Then you own the document from there.
+If you are not a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or by tweeting [@sourcegraph](https://twitter.com/sourcegraph)) to create a document in the [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) and give you edit access. Then you own the document from there.
 
 ## References
 

@@ -111,7 +111,7 @@ As explained above, our customers are able to initiate conversations for help vi
 * **Those involved:** Product > support (if necessary)
 * **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](https://about.sourcegraph.com/handbook/product/product_management/responding_to_user_feedback#nps-feedback) and support handles it via our outlined workflow steps.
 
-### @srcgraph Twitter (and other social)
+### @sourcegraph Twitter (and other social)
 * **Purpose:** Our Twitter account, mostly for marketing, though sometimes users alert us of support issues here.
 * **Those involved:** Marketing > support
 * **Details:** Marketing forwards into Zendesk anything they need us to handle. We coordinate with them (as needed) in Slack to agree on how we respond, which account, etc.
