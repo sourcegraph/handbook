@@ -62,7 +62,8 @@
         - [Sruti Dhulipala](https://www.linkedin.com/in/sruti-dhulipala/), Senior Manager, Global Brand Strategy
         - [Mustafa (Moose) Ulker](https://www.linkedin.com/in/mooooose/), Senior Copywriter
         - [Kristen Sundberg](https://www.linkedin.com/in/kristensundberg/), Senior Manager, Social Media
-        - We are building a brand team
+        - Mate Gyorffy, Web Developer (contractor)
+        - *We are building a brand team*
     - [Samson Goddy](../company/team/index.md#samson-goddy-he-him), Director of Community
         - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
         - [Prosper Otemuyiwa](../company/team/index.md#prosper-otemuyiwa-he-him), Staff Developer Evangelist
