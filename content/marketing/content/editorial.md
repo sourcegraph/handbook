@@ -82,3 +82,36 @@ If you have an idea to submit but you don't want to write it, you can still subm
 #### What happens if I want to write something on my own, on my own time for Sourcegraph’s blog?
 
 Once you’re ready for an editor’s review, submit your draft in place of a pitch and follow the article submission guidelines. An editor will reach out to you with feedback, requested changes, and publishing options. Please note that immediate publishing may not be available. If you would like to publish on your own schedule, [Medium](https://medium.com/) is a great option for self-publishing.
+
+### What to write about for the Sourcegraph blog
+
+If you don't have a topic in mind, here's some inspiration. 
+
+#### Examples of great engineering posts
+
+Below are some examples of the types of blog post that are usually popular (from our blog and beyond):
+
+- [An ex-Googler's guide to dev tools](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/) – one of our top posts of all time!
+- [How not to break a search engine or: What I learned about unglamorous engineering](https://about.sourcegraph.com/blog/how-not-to-break-a-search-engine-unglamorous-engineering/)
+- [Optimizing a code intelligence commit graph](https://about.sourcegraph.com/blog/optimizing-a-code-intel-commit-graph/)
+- [Scaling monorepo maintenance](https://github.blog/2021-04-29-scaling-monorepo-maintenance/)
+- [When AWS Autoscale Doesn’t](https://segment.com/blog/when-aws-autoscale-doesn-t/)
+- [The story of one latency spike](https://blog.cloudflare.com/the-story-of-one-latency-spike/)
+
+#### Brainstorm board
+
+There are a lot of ideas on our [Miro board](https://miro.com/app/board/o9J_l9gAUM4=/). Feel free to use it for inspiration or let us know if you'd like to write about one of the topics!
+
+#### Themes
+
+Dan Luu summarized some [common themes from his own blog](http://danluu.com/programming-blogs/) which could help spark some ideas for you too:
+
+- [This thing that's often considered easy is harder than you might think](http://danluu.com/file-consistency/)
+- [This thing that's often considered hard is easier than you might think](http://danluu.com/edit-binary/)
+- [This obvious fact is not obvious at all](http://danluu.com/dunning-kruger/)
+- [Humans are human](http://danluu.com/postmortem-lessons/): humans make mistakes, [and systems must be designed to account for that](http://danluu.com/google-sre-book/)
+- [Computers will have faults](http://danluu.com/postmortem-lessons/), [and systems must be designed to account for that](http://danluu.com/limplock/)
+- [Is it just me](http://danluu.com/broken-builds/), [or is stuff really broken?](http://danluu.com/everything-is-broken/)
+
+
+
