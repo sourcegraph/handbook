@@ -13,6 +13,7 @@ We think of the three core competencies that every CE must demonstrate in order 
 The leadership pillar embodies both the external and internal interpersonal relationships we build and nurture, the way in which we lead customers to value, and how we drive more value and better ways of doing business.
 
 Within the leadership pillar there exists three core responsibility areas:
+
 * Customer Interactions
 * Leading to Outcomes
 * Mentorship & Influence 
@@ -21,6 +22,7 @@ Within the leadership pillar there exists three core responsibility areas:
 The business pillar embodies the way in which we come to know and understand our customers’ business and their needs. It also includes how our business serves these needs.
 
 Within the business pillar there exists three core responsibility areas:
+
 * Delivering Value
 * Contextual Understanding
 * Operational Excellence
@@ -29,6 +31,7 @@ Within the business pillar there exists three core responsibility areas:
 The technology pillar embodies the skills necessary to solve customer problems.
 
 Within the techonology pillar there exists three core responsibility areas:
+
 * Technical Aptitude
 * Product Knowledge
 * Domain Subject Matter Expertise
