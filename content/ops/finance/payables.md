@@ -25,6 +25,7 @@ Just [contact the finance team](index.md#contact) if you believe you are eligibl
 |---|---|
 |Department leads (VP-level or above)|$10,000|
 |Managers and Directors|$1,000|
+|Analyst and Senior Analyst (with approval)|$500|
 
 It is not required to provide receipts for corporate purchases on Brex cards (i.e. vendor payments). For purchase of personal purchases above $50, (i.e. laptops, food, travel expenses), please upload a receipt.
 
