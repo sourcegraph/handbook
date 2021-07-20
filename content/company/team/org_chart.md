@@ -12,7 +12,7 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 [Future engineering org chart and hiring plan](../../engineering/eng_org.md#planned-organization)
 
-## [Product](../../product/index.md#members)
+## [Product](../../product/product_org.md#current-and-planned-organization)
 
 ## [Customer Support](../../support/index.md#the-team)
 
