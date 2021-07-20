@@ -19,6 +19,7 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 ### References
 
+- [Beta and experimental feature labels](./beta_and_experimental_feature_labels.md)
 - [Onboarding to the product team](./onboarding/index.md)
 - [Personas](../marketing/personas.md)
 - The [Sourcegraph workflow](../workflow/index.md) describes how our product fits into the developer workflow.
