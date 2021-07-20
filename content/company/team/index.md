@@ -1123,3 +1123,10 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Milwaukee, WI, USA 🇺🇸
 - [alex.isken@sourcegraph.com](mailto:alex.isken@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/alexisken/), [GitHub](https://github.com/iskyOS)
 - Alex is a proud Milwaukeean. Prior to Sourcegraph, Alex worked in various technology roles at Nielsen and was also a PMM at Datadog in NYC (but he's very happy to be back in the midwest). Alex loves board games, disc golf, and microbreweries, and he has an undying passion for Marquette basketball.
+
+## Bill Caplan (He/Him)
+- Senior Customer Engineer
+- Raleigh, NC USA 🇺🇸
+- Github: [billCaplan](https://github.com/billCaplan)
+- [bill.caplan@sourcegraph.com](mailto:bill.caplan@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/caplanbill/)
+- Bill lives in Raleigh, NC with his wife Kristen and their son Grayson.  After growing up in Pittsburgh and spending time at Ohio State (Go Bucks!), he spend seven years in San Francisco, working to help customers better understand and utilize the software that they buy.  He recently moved back to the East Coast, now calling Raleigh home.  In his free time he enjoys watching or playing sports (football, racing, hockey) and trying to become a backyard pizza chef.
