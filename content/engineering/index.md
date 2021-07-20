@@ -22,6 +22,9 @@
   - [Deployments](deployments/index.md)
   - [On-call](incidents/on_call.md)
   - [Observability](observability/index.md)
+- [Hiring](hiring/index.md)
+  - [Open positions](hiring/index.md#open-positions)
+  - [Early-career engineers](hiring/early-career-engineers.md)
 
 ## Org chart
 
@@ -33,16 +36,11 @@
 
 For a list of engineering relevant Slack channels to join see the [team chat](../communication/team_chat.md#engineering) page in the handbook.
 
-## Open positions
-
-[Open positions](hiring/index.md#open-positions)
-
-
 ## Repositories
 
 Sourcegraph has a lot of repositories!
 
-## Where Sourcegraph is built (things you'll find out-of-the-box):
+### Where Sourcegraph is built (things you'll find out-of-the-box)
 
 - [Main repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-main&type=&language=)
 - [Web development repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-web&type=&language=)
@@ -50,12 +48,23 @@ Sourcegraph has a lot of repositories!
 - [Tooling repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-tooling&type=&language=)
 - [Documentation repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-docs&type=&language=)
 
-## How Sourcegraph gets deployed:
+### How Sourcegraph gets deployed
 
 - [Infrastructure repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-infrastructure&type=&language=)
 - [Customer infrastructure repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-infrastructure+repo-type-customer&type=&language=)
 
-## Sourcegraph deployments and other developer test instances:
+### Where Sourcegraph gets extended functionality
+
+- [Code intelligence repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-codeintel&type=&language=)
+- [CLI repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-cli&type=&language=)
+- [Editor extension repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-editor&type=&language=)
+
+### How Sourcegraph operates as a business
+
+- [Business repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-business&type=&language=)
+- [Customer repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-customer&type=&language=)
+
+## Sourcegraph deployments and other developer test instances
 
 - [sourcegraph.com](https://sourcegraph.com) is our production deployment for open source code.
 - [k8s.sgdev.org](https://k8s.sgdev.org) is a dogfood deployment that replicates the scale of our largest customers.
@@ -66,17 +75,6 @@ Sourcegraph has a lot of repositories!
 - [gitlab.sgdev.org](https://gitlab.sgdev.org) is a Gitlab test instance.
 - [github.sgdev.org](https://github.sgdev.org) is a Github test instance.
 - [bitbucket.sgdev.org](https://bitbucket.sgdev.org) is a Bitbucket test instance.
-
-## Where Sourcegraph gets extended functionality:
-
-- [Code intelligence repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-codeintel&type=&language=)
-- [CLI repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-cli&type=&language=)
-- [Editor extension repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-editor&type=&language=)
-
-## How Sourcegraph operates as a business
-
-- [Business repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-business&type=&language=)
-- [Customer repositories](https://github.com/sourcegraph?utf8=%E2%9C%93&q=repo-type-customer&type=&language=)
 
 ## Misc.
 
