@@ -990,6 +990,19 @@
           43.0482043271894
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bill Caplan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.63889217376709,
+          35.78408549932274
+        ]
+      }
     }
   ]
 }
