@@ -1,8 +1,11 @@
-# Teammate Celebrations
+# Teammate Virtual Gatherings and Celebrations
 
-Here at Sourcegraph, we like to celebrate, and we like to celebrate *you*! Use this guide to celebrate your teammates birthdays, anniversaries, and source some really great gift ideas.
+Here at Sourcegraph, we encourage frequent team virtual gatherings outside of work. We also like to celebrate, and we like to celebrate *you*! Use this guide for team gatherings and to celebrate your teammates' birthdays, anniversaries, and source some really great gift ideas.
 
-  
+## Team Virtual Gatherings
+
+In addition to our travel budget for in-person meetups, we encourage teams to gather for fun activities in a virtual setting. Each team has $300 per person per quarter to spend on a team gathering of their choice. This budget can be used for a wide array of activities including meals, games, prizes, etc. For single-events with expenditures above $2,000 please request approval from the finance team (finance@sourcegraph.com).
+
 
 ## Anniversaries
 
@@ -26,12 +29,7 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 	 - [ ] Immediate team members
       
-	 - [ ] Anyone who teammate regularly works with
-
--   Teammates to [donate](https://about.sourcegraph.com/handbook/people-ops/donations) $100 USD to a 501c(3) organization of their choice. *(This tax code classification is typically listed on a non-profit organization’s webpage.)* Sourcegraph will double the amount and donate $200 USD in total to the organization. If you need any help finding an organization, reach out to *Cassie Melani*!
-    
-
-  
+	 - [ ] Anyone who teammate regularly works with  
   
 
 ## Birthdays
@@ -60,7 +58,6 @@ We’d also like to be considerate of all teammates and acknowledge that not eve
     
 
   
-
 
 ## Gift amount policy for birthdays
 
