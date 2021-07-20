@@ -52,6 +52,7 @@
     - [Lisa Tagliaferri](../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
         - [Marek Zaluski](../company/team/index.md#marek-zaluski), Developer Education Engineer
         - [Oluebube Princess Egbuna](../company/team/index.md#oluebube-princess-egbuna-she-her), Education Engineer
+        - [Katy Juell](../company/team/index.md#katy-juell-she-her), Full Stack Engineer
         - We will be hiring technical educators
     - [Sarah Reece](../company/team/index.md#sarah-reece-she-her), Director of Demand Generation
         - Lori Heyman, Digital Marketing Programs
