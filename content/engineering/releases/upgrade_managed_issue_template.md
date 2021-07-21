@@ -31,3 +31,4 @@ To perform these upgrades, follow the [managed instances upgrade process](https:
 - [ ] Upgrade instance for [https://app.hubspot.com/contacts/2762526/company/962613882/](https://app.hubspot.com/contacts/2762526/company/962613882/)
 - [ ] Upgrade instance for [https://app.hubspot.com/contacts/2762526/contact/37418051](https://app.hubspot.com/contacts/2762526/contact/37418051)
 - [ ] Upgrade instance for [https://app.hubspot.com/contacts/2762526/contact/31240401](https://app.hubspot.com/contacts/2762526/contact/31240401)
+- [ ] Upgrade instance for [https://app.hubspot.com/contacts/2762526/company/6301327782](https://app.hubspot.com/contacts/2762526/company/6301327782)
