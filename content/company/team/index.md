@@ -1146,3 +1146,12 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [marija.petrovic214](https://github.com/marija.petrovic214), [LinkedIn](https://www.linkedin.com/in/marija-petrovic-b49b9b38/)
 - [marija.petrovic@sourcegraph.com](mailto:marija.petrovic@sourcegraph.com)
 - Marija, pronounced "Maria", is a Serbian-American living in sunny Naples, Florida. She is passionate about helping people find their dream career while promoting the vision and values of the organization + all things People/HR/Analytics related. She is currently finishing her Master's in HR Analytics and Resource Management at American University and has a BS in Finance and Information Systems from the University of Florida. Outside of work, she enjoys spending time with family & her son Luka, traveling, tennis, skiing, yoga, painting/art, and investing in anything self-care/self-improvement-oriented! 
+
+## Shawn King (He/Him)
+
+- Customer Engineer
+- Rochester, MN USA 🇺🇸
+- GitHub [shawnplusplus](https://github.com/shawnplusplus)
+- [shawn@sourcegraph.com](mailto:shawn@sourcegraph.com)
+- Originally from Fargo, ND, Shawn lives in Rochester with his wife Katie, son Harrison, and two dogs Tucker and Charlie. His careeer goal is to make technology more accessible and easy to understand for everyone. When he's not working, he can be found at the lake in the summer with his family, reading a book, and in the long Minnesota winters, doing all things hockey.  
+- 
