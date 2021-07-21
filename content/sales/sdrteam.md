@@ -11,7 +11,7 @@ The SDR Team (TBA)
       - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
    - East Outbound SDRs
       - [Sam Cregg](../company/team/index.md#sam-cregg)
-      - Jenna Pierre. TBD
+      - [Jenna Pierre](https://about.sourcegraph.com/handbook/company/team#jenna-pierre-she-her)
       - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
    - Inbound SDR
       - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
