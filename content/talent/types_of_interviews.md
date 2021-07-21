@@ -216,6 +216,8 @@ In addition to the above interviews, some departments have department-specific i
 
 ## Sales
 
+Read more about our sales interview processes [here](https://about.sourcegraph.com/handbook/sales/interviews).
+
 **Sales Development Representative:**
 
 - SDR writing assignment
