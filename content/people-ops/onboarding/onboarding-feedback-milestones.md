@@ -1,4 +1,4 @@
-## Onboarding Feedback Milestones
+# Onboarding Feedback Milestones
 
 The People Ops team wants to better support new teammates and managers by opening a two-way conversation between them throughout the [onboarding process](https://about.sourcegraph.com/handbook/people-ops/onboarding) about what’s on track and what needs action, both on the new teammates' contribution and how well they’re living our shared values.
 
@@ -11,7 +11,7 @@ In order for this to work, managers must define expectations, goals and responsi
 Following our [standards of success](https://about.sourcegraph.com/handbook/people-ops/onboarding#onboarding-standards-and-success), these conversations should take into consideration onboarding expectations, onboarding experience, and onboarding effectiveness.
 
 
-### Purpose of each milestone
+## Purpose of each milestone
 
 **Feedback Milestone: Month 1:**
 
@@ -27,7 +27,7 @@ Following our [standards of success](https://about.sourcegraph.com/handbook/peop
 - get a feel for if they’re going to succeed and action if they aren’t (keep in mind teammates should be participating in projects by month 2 and owning projects by month 3)
 
 
-### New teammate: Getting the meetings understood & scheduled
+## New teammate: Getting the meetings understood & scheduled
 
 During the new teammates’ first week with us, they will find a task in their Process.St checklist called **Understanding your contribution**. This is what they’ll see:
 
@@ -60,7 +60,7 @@ _Set this up for two months after your start date, and check our handbook for wh
 _Set this up for three months after your start date, and check our handbook for what to expect and how to prepare for this meeting._
 
 
-### Managers: What to expect
+## Managers: What to expect
 
 To help facilitate these onboarding feedback milestones, we have developed check-ins in Lattice that will be active at the end of month 1, 2 and 3.  You will be given structured questions that serve as a guideline for you to have those important conversations pertinent to the onboarding process. The onboarding feedback milestones serve as a conversation guide and the answers serve as notes that you can reference to assess their onboarding success.
 
