@@ -116,9 +116,7 @@ We maintain two issue trackers:
 
 When in doubt, file in the private repo—issues can be moved over to the public repo if needed. And remember, a customer includes those we are working with during the sales process (not just those who have already signed a contract with us).
 
-File new customer issues in the [private customer issue tracker](https://github.com/sourcegraph/customer/issues/new):
-
-* Initiate the issue from Zendesk via the integration with Github so that the conversation with the customer is available to engineering directly in Github
+* Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CSE New Issue template
 * Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 * Include customer quotes in mark down using a quote block. For example, `> quote goes here.`
 * Label it with `customer/$name` and `rfh`.
@@ -127,7 +125,7 @@ File new customer issues in the [private customer issue tracker](https://github.
 If it turns our to be a general issue affecting multiple deployments, create an issue in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose). The issue must not include any private information. It is okay to link any relevant private, customer specific issues. If not already linked to the relevant Zendesk tickets, do so.
 
 ### Add the priority label
-Add a prioritization label to the Github issue, from `ce/p0` to `ce/p3` based on a combination of (1) the severity of the issue and (2) any relevant context that translates to level of urgency (for example, if a customer is in the sales process, issues have a higher degree of urgency):
+Add a prioritization label to the Github issue based on a combination of (1) the severity of the issue and (2) any relevant context that translates to level of urgency (for example, if a customer is in the sales process, issues have a higher degree of urgency):
 
 * `cs/p1`: All customer reported issues per our contractual p1 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas).
 * `cs/p2`: All customer reported issues per our contractual p2 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas), including all feature requests.
