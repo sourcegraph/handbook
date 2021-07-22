@@ -39,5 +39,8 @@ Short answer, No. Hopefully in the future, Zendesk will give us this feature; fo
 
 ### 5. Do we have anything to triage manually?
 
-Yes, we have a few customers listed in our [Customer Exception list](customer-exceptions.md) that we have to manually triage because we cannot automate the link from Slack to Zendesk. When a customer creates a support request in these channels, we have to manually create a Zendesk ticket and then triage that.	
-	
+Yes, we have a few customers listed in our [Customer Exception list](customer-exceptions.md) that we have to manually triage because we cannot automate the link from Slack to Zendesk. When a customer creates a support request in these channels, we have to manually create a Zendesk ticket and then triage that.
+
+### 6. What do I do when I see a company update in the triage queue?
+
+We sometimes get all company updates coming to the support mailbox. Company updates could be meeting updates etc. When you come across these updates, from a data integrity perepective, please go ahead and delete them.
