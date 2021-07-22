@@ -18,7 +18,7 @@ Step 3:
 On the left panel, under *Tags*, select, *triaged*. You’ll want to submit the ticket as open now before going to the next step.
 
 Step 4:
-On the left panel, under the *Select Assignee* tab, pick *Assign to this group* and submit the ticket as open one more time -- this will make sure the ticket lands in the *Unassigned queue* (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).
+On the left panel, under the *Select Assignee* tab, pick *Assign to this group* and submit the ticket as open one more time -- this will make sure the ticket lands in the *Unassigned queue* (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).  It's important for data integrity, to ensure that we select Virginia as the assignee for tickets that don't require CS action.
 
 ## FAQs
 
