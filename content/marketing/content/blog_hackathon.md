@@ -27,7 +27,7 @@ You can take part in the hackathon in a few ways:
 
 #### What to write about
 
-As with everything we do, [be customer driven](../../company/values.md##be-customer-driven). When choosing a topic, consider whether our core audience of developers would be interested in it. If you're a developer, would you click on this post if you saw it on Hacker News?
+As with everything we do, [be customer driven](../../company/values.md#be-customer-driven). When choosing a topic, consider whether our core audience of developers would be interested in it. If you're a developer, would you click on this post if you saw it on Hacker News?
 
 Our [Editorial handbook also has some ideas and inspiration](editorial.md#what-to-write-about-for-the-sourcegraph-blog) to help you get started. 
 
