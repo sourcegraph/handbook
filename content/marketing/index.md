@@ -21,7 +21,10 @@
     - [Digital Marketing Programs](digital_marketing_programs.md)
     - [Marketing operations](marketing_operations.md)
 
-- [Developer Education](education.md)
+- [Developer Education](education/index.md)
+    - [Learn Platform](education/learn-platform.md)
+    - [DevEd Council](education/dev-ed-council.md)
+
 - Community Relations
     - [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
     - [Adding a community landing page](oss_community_pages.md)
