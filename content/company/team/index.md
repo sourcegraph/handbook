@@ -1135,7 +1135,7 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 
 - Senior Customer Engineer
 - Raleigh, NC USA 🇺🇸
-- Github: [billCaplan](https://github.com/billCaplan)
+- GitHub: [billCaplan](https://github.com/billCaplan)
 - [bill.caplan@sourcegraph.com](mailto:bill.caplan@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/caplanbill/)
 - Bill lives in Raleigh, NC with his wife Kristen and their son Grayson.  After growing up in Pittsburgh and spending time at Ohio State (Go Bucks!), he spend seven years in San Francisco, working to help customers better understand and utilize the software that they buy.  He recently moved back to the East Coast, now calling Raleigh home.  In his free time he enjoys watching or playing sports (football, racing, hockey) and trying to become a backyard pizza chef.
 
