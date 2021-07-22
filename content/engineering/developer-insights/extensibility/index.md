@@ -73,26 +73,33 @@ As a team, we’ve experimented with Scrum and Kanban and decided that our team 
 We have the following standard scrum columns on our task board:
 
 #### Column: To Do
+
 The To Do column is a constantly prioritized list of items. Each issue on this column is as atomic as possible and sorted by priority (descending). As we start working on the issues, we start by tackling the top issue first.
 
 #### Column: In Progress
+
 Once someone has started working on an issue we move it to the In Progress column. They remain in this column until the change is code reviewed and merged.
 
 #### Column: Done
+
 Once the change is successfully merged, it is moved to the **Done** column. Please note that, if the change is a significant change, we should also update the changelog. We also have a **Blocked** column to track issues where we currently can’t make progress. This simple workflow not only makes us operate faster but also helps us communicate our progress with partners.
 
 As our to-do list grew, we realized that it became hard to see and prioritize issues, so we’ve decided to add to our board several additional columns.
 
 #### Column: To Triage
+
 When a new issue is opened and tagged for our team (`team/extensibility`) on the Sourcegraph repository, our scripts automatically add it to our “To Triage” column. Every Monday our team discusses the next steps for these issues.
 
 #### Column: Backlog
+
 The next column represents issues we’re thinking of tackling but that are not immediate priorities. It’s sorted by priority (descending). These issues are expected to be moved to the To Do column and prioritized in a month or two.
 
 #### Column: Icebox
+
 This column represents issues that we’ve acknowledged but are currently not planning to tackle. This column is not ordered in any specific order.
 
 #### Column: Needs Design
+
 This column exists for our design partners to track their issues.
 sorted by priority (descending)
 Items should be assigned to alicja & eng
@@ -128,6 +135,10 @@ The team follow's the [default code review guidelines](https://docs.sourcegraph.
 
 1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
 1. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
+
+#### Cross-functional reviews
+
+Engineers will often need reviews from teammates from other functions. For example, a pull request can benefit from visual review from a designer. In such cases, the author should be sure to request the PR review as well as tag the requested cross-functional reviewer(s) in their PR description, along with what exactly they need reviewed and when they need it to be reviewed by (e.g. "@Joelkw can you review the banner copy by the end of the week?"). See our [general guidelines on seeking feedback](https://about.sourcegraph.com/handbook/communication/seeking-and-giving-feedback#seeking-feedback).
 
 ### Feature freeze
 
