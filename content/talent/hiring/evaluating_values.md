@@ -63,7 +63,14 @@ Reminders:
 - Please keep diversity in mind when selecting teams
 
 Once the values team has been selected, the Recruiter is responsible for sending a Slack to each values team saying:
-- "Hi team! You have been selected to serve as the values team for the [role title]. [Here](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values) is a resource to help you in the interview. One of you will need to opt in as the lead (this person is the one who begins the introduction and asks the first question). All questions are listed in your Greenhouse scorecard, found in the interview prep link in an interview calendar invite. If you have any questions or would like to practice in advance of the interview, let me know and I'll send a calendar invite!"
+
+"Hi team! As you know, our values interview is critical to ensuring that our new hires embody our values, and we need our teammates help! The two of you have been nominated to serve as the values team for the [role title]!  We recognize that this is outside of your day-to-day responsibilities, so please let us know if you're willing to participate (and if you're too busy right now, no worries! We can always add you to another team when your schedule allows). If you both agree to opt in, below are some helpful details:
+
+The two of you will conduct a 30-minute values interview for all [role title] finalists.  We anticipate 3-5 total interviews (so this would be a 1.5-2.5 hour commitment) and will be spread out over multiple days.
+
+One of you will need to opt in as the lead (this person is the one who begins the introduction and asks the first question).
+
+[Here](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values) is a resource to help you in the interview. All questions are listed in your Greenhouse scorecard, found in the interview prep link in an interview calendar invite. Please let me know if this is something you're both willing to participate in and I'll add you to the interview plan.  And if you have any questions or would like to practice in advance of the interview, let me know and I'll send a calendar invite!"
 
 # Resources for candidates 
 
