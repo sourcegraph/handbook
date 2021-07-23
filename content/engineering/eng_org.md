@@ -33,7 +33,7 @@ When teams grow and divide, we prefer to grow the org horizontally, not vertical
 
 ## Transferring teams
 
-If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager. Your manager will chat with you to understand what you want and then propose next steps. Team transfers need to be approved by the [VP of Engineering](roles.md#vp-engineering).
+If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager. Your manager will chat with you to understand what you want and then propose next steps.
 
 ## Current organization
 
