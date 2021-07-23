@@ -7,7 +7,6 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
    - Engineering
    - Product
-   - Customer Engineering
    - Support
 - [Kelsey Nagel](../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
    - Marketing
