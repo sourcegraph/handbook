@@ -21,7 +21,7 @@ Following our [standards of success](https://about.sourcegraph.com/handbook/peop
 
 **Feedback Milestone: Month 2 & 3:**
 
-- check in on OKR tracking and values fit and get a sense for how they’re feeling
+- check in on OKR/expectations tracking and values fit and get a sense for how they’re feeling
 - normalise two-way feedback and 
 - open conversation and build trust 
 - get a feel for if they’re going to succeed and action if they aren’t (keep in mind teammates should be participating in projects by month 2 and owning projects by month 3)
@@ -66,6 +66,8 @@ To help facilitate these onboarding feedback milestones, we have developed check
 
 The question or topic notes will be private and new teammates will not see what managers have written and that’s why at the end you will be prompted to complete a summary of your conversation. This summary will be shared with the teammate.
 
+Keep in mind managers may define expectations differently to fit the team, the most important thing is that teammates should feel they know what is expected of them, whether that is done through a 30/60/90 framework, personal OKRs, or through other means.
+
 **Manager prep**
 
 - check onboarding checklist, 
@@ -81,3 +83,4 @@ The question or topic notes will be private and new teammates will not see what 
 - Talk me through what you think needs attention with 1) your OKRS and 2) how well you think you’re living our values? THEN manager feedback with examples and suggestions for development
 - Are you clear on your individual OKRs and the team’s OKRs, and next steps to getting there? Is there anything that might prevent you getting there?
 - What could I be doing 10% more of to help you succeed?
+
