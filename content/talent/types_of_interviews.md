@@ -173,8 +173,32 @@ In addition to the above interviews, some departments have department-specific i
   - Interviewer(s): Product Designer and Engineering Manager. 
   - Duration: 30 mins
   - Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organizing plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role. 
- 
 
+
+**Director of Technical writing**
+
+- Design collaboration
+  - Interviewer: [Product designer](https://about.sourcegraph.com/handbook/product/product_org) 
+  - Duration: 30 mins
+  - Details: In this interview, you will meet with one of the Product Designers to discuss how you've worked with Design and other cross funcitonal teams in the past. We will ask questions about your philsophy on technical writing and documentation and how you lead and evalgelize your ideas throughout an organization. We're looking for how you prioriize and productize documentation, and how you would go about doing so in our handbook-first company. 
+
+- Engineering collaboration
+  - Interviewer: [Engineering manager](https://about.sourcegraph.com/handbook/engineering/eng_org#planned-organization)
+  - Duration: 30 mins
+  - Details: In this interview, you will meet with one of the Engineering managers to discuss how you've worked closely with Engineering and other cross funcitonal teams in the past to build the best technical documentation. We have a unique opportunity to create an interesting integrated docs experience with our product. We'd like to discuss that vision and how you would be able to help us achieve this vision. 
+
+- Marketing collaboration
+  - Interviewer: [Marketing team member](https://about.sourcegraph.com/handbook/company/team/org_chart#sts=Marketing)
+  - Duration: 30 mins
+  - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.  
+
+
+- Customer support collaboration
+  - Interviewer: [Virginia Ulrich](https://about.sourcegraph.com/handbook/support/virginia-readme), Head of CS 
+  - Duration: 30 mins
+  - Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross funcitonal teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers. 
+ 
+ 
 **Product manager**
 
 - Async writing project [(RFC Project)](https://about.sourcegraph.com/handbook/product/roles/interviews/product_manager/pm_rfc_project)
