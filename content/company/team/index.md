@@ -1154,4 +1154,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub [shawnplusplus](https://github.com/shawnplusplus)
 - [shawn@sourcegraph.com](mailto:shawn@sourcegraph.com)
 - Originally from Fargo, ND, Shawn lives in Rochester with his wife Katie, son Harrison, and two dogs Tucker and Charlie. His careeer goal is to make technology more accessible and easy to understand for everyone. When he's not working, he can be found at the lake in the summer with his family, reading a book, and in the long Minnesota winters, doing all things hockey.  
-- 
+
+## Kristen Sundberg (She/Her)
+
+- Senior Social Media Manager
+- Boston, MA USA 🇺🇸
+- GitHub: [kristen-sundberg](https://github.com/kristen-sundberg)
+- [Twitter](https://twitter.com/thisiskris_s), [LinkedIn](https://www.linkedin.com/in/kristensundberg/), [kristen@sourcegraph.com](mailto:kristen@sourcegraph.com)
+- Kristen is a New England native that resides in a small town outside of Boston, MA. She has a knack for making brands loveable. And has been managing social media for tech and software brands the majority of her career. She's a Stonehill College alumni, who speaks passionately about chronic illness, remote work, and social media best practices. When away from the keyboard, you will find Kristen on an adventure with [Leo the Samoyed](https://www.instagram.com/ladyandleolife/), crafting with her Cricut, or watching true crime documentaries and BravoTV.
