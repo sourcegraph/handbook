@@ -42,6 +42,7 @@ Examples of requests that require an issue:
 * finding a bug in our data or data pipeline (e.g. "I ran a SQL query and the data does not match my expectations")
 
 GitHub issues help us manage requests by including as much relevant information as possible. Please use the relevant issue template in the repository and fill out the requested information. If no template matches, create a blank issue and include as many details around your request as possible. These points are normally useful:
+
 - **The problem:** Describe the problem or question you have.
 - **End state:** What is the end state of the project? What decisions will be made? Be as specific as possible (i.e. if the end state is a graph, draw out the graph).
 - **The why:** What will this request be used for? How does it support [Sourcegraph's company and team goals](../../company/goals/index.md)? 
