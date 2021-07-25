@@ -45,7 +45,7 @@
 
 - [Kacie Jenkins](../company/team/index.md#kacie-jenkins-she-her), VP of Marketing
     - [Andy Schumeister](../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
-        - Product Marketing Manager, Emerging Products - starting in July
+        - [Alex Isken](../company/team/index.md#alex-isken-he-him), Product Marketing Manager, Emerging Products
         - Product Marketing Lead, Enterprise - starting in July
     - [Erica Lindberg](../company/team/index.md#erica-lindberg-she-her), Director of Content Strategy
         - [Rebecca Dodd](../company/team/index.md#rebecca-dodd-she-her), Senior Managing Editor
