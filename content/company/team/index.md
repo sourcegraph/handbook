@@ -1162,3 +1162,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Los Angeles,USA 🇺🇸
 - [moose@sourcegraph.com](mailto:moose@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/mooooose/)
 - My grandpa was quite a famous storyteller, as well as my grandma; my dad and my mom too. So, I found myself telling stories to my brother when I was five. Since then I never stopped. -30 Years Later— I'm creating and telling stories for global brands. Nothing has changed. I just add some taglines and hashtags at the end. www.mustafaulker.com 
+
+## Amie Rotherham (She/Her)
+
+- Director of Global Communications 
+- Toronto, Canada 🇨🇦 
+- GitHub: [amieroth] (https://github.com/amieroth)
+- [amie.rotherham@sourcegraph.com](mailto:amie.rotherham@sourcegraph.com), [LinkedIn] (https://www.linkedin.com/in/amierotherham/) [Twitter] (https://twitter.com/amieroth) 
+- Amie grew up on Vancouver Island on the far west coast of Canada, and currently lives in Toronto by way of San Francisco by way of Vancouver. She's spent 10 years working in tech PR, helping B2B brands and emerging tech gain mainstream adoption. She spends her time sending snail mail (and practicing calligraphy), testing out new recipes in the kitchen (and getting lessons from her chef husband), and reading (mainly fiction). 
