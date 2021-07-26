@@ -138,10 +138,58 @@ In addition to the above interviews, some departments have department-specific i
 - Coming soon
 
 ## Customer Support
-- Coming soon
+- Customer Support Manager
+  -  Direct Report Interview
+    -  During this stage of the interview process, we will get an understanding of your leadership capabilities
+    -  Example questions:
+      -  Tell us about how you created trust with your last team
+      -  Tell us what you do when someone makes a mistake
+  -  Technical Savvy Interview
+   - During this stage of the interview process, we will discuss our product, customers, and technology and determine if you will be effective in a technology leadership role.
 
 ## Customer Engineering
-- Coming soon
+- Customer Engineer Take Home & Live Project Interview
+  -  For this interview we want to give you an opportunity to learn about our product! Sourcegraph has a public version of our product available here to let users get a sense of product capabilities - it’s connected to public Github repositories. We’ll use this instance to guide the project portion of the interview which will be conducted live, via Zoom, with a customer engineer on the team.
+  -  There are two main concepts you should get familiar with in advance of the interview:
+   -  Search
+   -  Intelligence
+  -  Using search and our intelligence features we’ll emulate a customer use case with you and ask you to demonstrate it live for us. We don’t expect you to know everything, so if you get stuck during the interview, show us how you go about researching in our docs to try and find the answer! This is as much about understanding how you approach and breakdown problems as it is getting to the correct answer. This will be followed by a short Q&A with the customer engineer to give you both a chance to get to know each other more.
+  -  We’ll conduct the interview in the following format:
+    -  20 minutes: live use-case demonstration
+      -  The customer engineer will ask you to perform a few basic search and intelligence functions
+      -  You will be sharing your screen (both the Sourcegraph public instance and our docs)
+    -  15 minutes: Q&A from customer engineer to learn more about you and your capabilities
+    -  10 minutes: general Q&A with customer engineer
+      -  Ask anything you want! It’s your chance to learn about the team, the role, and the company from a peer!
+
+  -  Finally, in preparation for your interview, we would like you to answer the following questions. We may drill into some of your answers as part of the 15 minute Q&A in the interview:
+    -  Explain why “code reviews” are a good use-case for Sourcegraph. Explain the challenges of code-review and how Sourcegraph addresses those.
+    -  Describe some security “code smells” that Sourcegraph could help find
+    -  For larger deployments, Sourcegraph recommends Kubernetes as the deployment technology. Why do you think this is vs:
+    -  A single Docker node
+    -  Docker Compose
+    -  Sourcegraph supports precise code intelligence for more accurate “Go To Definition” or “Find All References” for a symbol. Why do you think precise code intelligence will generally give better results for languages like Java or Go, vs languages like JavaScript or Python?
+
+- Mock Meeting
+  -  For this stage, we want to assess your ability to lead customer discovery, dig-deep in a customer's pain and objectives and understand their technical landscape. We also want to test your ability to understand the needs of and communicate with different levels of individuals, from developers to CTOs / Directors of Engineering. And finally, we want to test your ability to tailor your message and correlate product value to stated customer needs.
+  -  The agenda for the final interview will be as follows:
+  -  30 minutes discovery. The goal is to dig deep both technically and from a business perspective.
+  -  15 minutes of feedback (out of role-play).
+
+  -  To set the scene, this is some background on the fictional company you will be running the session for, and the two customer attendees:
+  -  The customer is “Zoomies”, a ride-sharing company. They are an international company who make $100mn in revenue. You are talking to the dev team who are responsible for writing the ride-sharing app for customers.
+  -  The two attendees are: The Director of Engineering and a Senior SRE.
+  -  You know from high-level talks from the SDR that they are growing their dev team due to success in the market and expansion into new car manufacturers, but that a past security issue that made it into production code has created negative press for them.
+
+  -  During this session there are five things we would like your discovery process to uncover from the audience:
+  -  Alignment on the prospects’ business goals
+  -  Identify the prospects’ pain points
+  -  Uncovering their technical landscape
+  -  Identify which stakeholders are detractors vs advocates
+  -  At a high-level correlating Sourcegraph’s value against the customers’ needs
+
+  -  You should expect the audience to be technical, so it is important in the final section where you are "pitching" the value of Sourcegraph back to the audience to align business value AND technical alignment.
+  -  As you prepare for this it may be useful to read some of our customer case studies ( https://about.sourcegraph.com/case-studies/ ) to understand how they have solved their problems and gotten value from our products. It may also be helpful to read about our five core use cases ( https://about.sourcegraph.com/customers ).
 
 ## Engineering
 - Assignment
