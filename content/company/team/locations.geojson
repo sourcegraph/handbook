@@ -1003,6 +1003,19 @@
           35.78408549932274
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beyang Liu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39413261413574,
+          37.78726741375342
+        ]
+      }
     }
   ]
 }
