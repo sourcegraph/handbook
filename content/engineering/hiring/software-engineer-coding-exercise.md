@@ -63,7 +63,7 @@ We designed [this synchronous exercise](https://github.com/sourcegraph/interview
 * You can use your own development environment, and look up documentation on the internet.
 * You are not prohibited from using open-source libraries.
 
-If we device to move forward, we will schedule interviews with team members.
+If we decide to move forward, we will schedule interviews with team members.
 
 ## Distribution exercise
 
