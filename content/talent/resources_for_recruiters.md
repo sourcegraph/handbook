@@ -42,3 +42,10 @@ When choosing two people to be on the values interview, please keep in mind the 
 Using [this document](https://docs.google.com/spreadsheets/d/1NUDEjzud_GxocjKkd__m0hTf21tN3OIgOwtk_OjhV20/edit?ts=60e4c3bd#gid=0), [@hiring manager], please select two people who are highlighted in green (indicating that they have been here for 3 months or longer). In addition, here is a [doc](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values) that outlines the values interview. Once you've identified your interviewers, I will ensure they are trained & ready to go!
 
 To review the interview process / what to expect as we begin interviewing candidates, please reference the guidelines for hiring managers doc [in the handbook](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
+
+### LinkedIn posting best practices
+It is much better to copy and paste the entire post and then give the author credit by tagging them. Long story short, avoid resharing and copy/paste instead.
+
+Avoid including links directly in your posts. Anything that takes the user away from LinkedIn is discouraged... so instead, add the link as a comment.
+
+[Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
