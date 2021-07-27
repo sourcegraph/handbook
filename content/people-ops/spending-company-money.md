@@ -74,7 +74,7 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Co-working/office space:** $300-500/month for renting your space, including parking while you are working from your designated co-working space.
 
-You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a *day-to-day drop in basis* or a *month-to-month basis* for ease of monthly reimbursement.
+You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a *day-to-day drop in basis* or a *month-to-month basis* for ease of monthly reimbursement. The Company will not cover the cost of a co-working space deposit.
 
 > Note: This budget is meant to be an average cost of co-working spaces,
 > and serves as a recommendation. It should be dependent on the average
