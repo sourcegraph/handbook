@@ -17,7 +17,7 @@ There are dozens of task management and decision-making framework acronyms out t
 However, the characteristics of an effective decision at Sourcegraph are consistent:
 
 - The urgency and importance are both clear (high importance and low urgency has a very different response mode than low importance and high urgency)
-- There is exactly one decision maker (any more results in chaos; any fewer results in unowned/abandoned efforts)
+- There is exactly one decision maker (any more results in chaos or [diffusion of responsibility](https://en.wikipedia.org/wiki/Diffusion_of_responsibility); any fewer results in unowned/abandoned efforts)
 - As few people as possible must “approve” (or not veto) a recommendation before the final decision can be made
 - Decisions are made transparently, and input is welcome (but not necessarily requested) from all in keeping with our values
 - The result of the decision is clearly communicated to the affected team members, and the decision is permanently recorded in the handbook (or another [source of truth](index.md#sources-of-truth))
