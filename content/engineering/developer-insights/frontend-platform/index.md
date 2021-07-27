@@ -90,7 +90,7 @@ We plan and track our day-to-day work on our [Kanban board](https://github.com/o
 
 ### Triage
 
-We have a weekly rotation for triaging and grooming issues. During their week on rotation, the on-duty teammate is responsible for triaging and clarifying any new issues that have been reported. We aim to do the following on a daily basis:
+We have a weekly rotation for triaging and refining issues. During their week on rotation, the on-duty teammate is responsible for triaging and clarifying any new issues that have been reported. We aim to do the following on a daily basis:
 
 1. Click the "+ Add cards" button and search for `is:issue is:open label:team/frontend-platform` to find all open issues for the Frontend Platform team that are not yet on our board. For each issue that is found, drag the card into the _Inbox_ column on our board.
 2. For each issue in the _Inbox_ column, consider the following:

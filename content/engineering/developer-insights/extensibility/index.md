@@ -104,7 +104,7 @@ This column represents issues that we’ve acknowledged but are currently not pl
 This column exists for our design partners to track their issues.
 sorted by priority (descending)
 Items should be assigned to alicja & eng
-Our kanplan methodology gives us the ability to backlog groom while continuously delivering quality software. We benefit from flexible planning, clearer focus, and total transparency because our board represents our priorities. We also communicate our team updates with the broader engineering org [every two weeks](https://about.sourcegraph.com/handbook/engineering/engineering-management#status-updates).
+Our kanplan methodology gives us the ability to refine the backlog while continuously delivering quality software. We benefit from flexible planning, clearer focus, and total transparency because our board represents our priorities. We also communicate our team updates with the broader engineering org [every two weeks](https://about.sourcegraph.com/handbook/engineering/engineering-management#status-updates).
 
 ### Tracking Issues
 

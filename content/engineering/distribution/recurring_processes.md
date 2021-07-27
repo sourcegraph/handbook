@@ -42,7 +42,7 @@ At the beginning of each cycle, [we determine what work we plan to do](#planning
 1. Revisit the goals. Are they still the right goals?
 1. If there are any remaining uncertainties following the meeting, the owners of each theme or task should follow up before the start of the cycle.
 
-**Backlog grooming:** The distribution team runs a backlog grooming session every two weeks to ensure that backlog is correctly prioritized for the upcoming sprint. We use the backlogs for tracking bugs, small features, and unplanned work. We don’t use the backlog for tracking work that is expressly planned in our roadmap. To add an issue, tag it `team/distribution` to notify the distribution team.
+**Backlog refinement:** The distribution team runs a backlog refinement session every two weeks to ensure that backlog is correctly prioritized for the upcoming sprint. We use the backlogs for tracking bugs, small features, and unplanned work. We don’t use the backlog for tracking work that is expressly planned in our roadmap. To add an issue, tag it `team/distribution` to notify the distribution team.
 
 **Note on pairing:** Pairing is a great way to share knowledge about the different projects that team is working on and pays dividends down the road. Teammates are encouraged to spend time on each cycle pairing with someone on all projects that you are _not_ working on. You are also encouraged to take own fewer tasks in order to accommodate this. As a rule of thumb estimate around **2 hours** for pairing and remember that people with be pairing with you as well.
 
