@@ -135,7 +135,17 @@ In addition to the above interviews, some departments have department-specific i
     - Be prepared to have a dynamic conversation to uncover nuances about the teams you will be working with
 
 ## BizOps, Finance, Legal, TechOps
-- Coming soon
+- Product Analyst take-home project
+  -  This exercise should take 2-3 hours to complete;please don’t take more than that!
+  -  Getting setup: You’ll be using Mode Analytics public datasets tocomplete this take-home project. Here are the steps to getting into the SQL workspace:
+    -  1.Create an account if you don’t already have one
+    -  2.Click the green+in the top right (‘Create report’)to access the workspace
+    -  3.We’ll be using the following Mode Public Warehousetables to complete the exercise:tutorials.playbook_users,tutorials.playbook_events,tutorials.playbook_experiments,tutorials.playbook_emails
+    
+ - Prompt: For each of the following questions please create charts and/or tables (within Mode orby exporting to a spreadsheet tool if that’s easier)to show your findings. We’re not expecting a slide deck or document to explain your findings, but quick summaries of charts, if needed, are just fine. Keep in mind that in most cases there are no “right” or “wrong” answers; we’re more interested in your approach and thought processes.
+    - 1.What company is most engaged with the product?
+    - 2.We ran an A/B test (experiment) to increase ‘like_message’actions users are taking. Which variant would you recommend going forward with, if any?
+ - When you’ve completed the project, share your results via static run links along with some availability you have over the next week to review the project with  a BizOps team members. When reviewing, you can expect questions about your approach in getting to know the data, the process you took to findthe results, results themselves, and how you decidedto communicate your findings.
 
 ## Customer Support
 - Customer Support Manager
