@@ -90,7 +90,10 @@ To provide the customer access to the instance:
    1. If their instance should be protected by SSO only, or SSO + IP-restricted access. If the latter, what IP addresses / CIDR ranges should be allowed (e.g. the source IPs of their corporate VPN, usually their infrastructure or IT teams can provide this).
    1. Who should be the recipient of the initial site admin account creation link? This will let them configure the admin password, which they will need to store somewhere securely, and is used for them to set up SSO as well as for them to get access if at any point SSO is not working. They can create more password or SSO-based admin accounts later as desired.
 1. Create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](operations.md).
-1. Work with #ce to provide the initial site admin account creation link to the relevant person (do this securely in a private channel with only that one person).  Confirm that they are able to access the instance and sign in OK.
+1. Prepare the initial admin account for the customer:
+   1. Go to `/site-admin/users` and hit "Create user", and fill in the appropriate values.
+   1. Copy the generated link and send it to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically.
+   1. Go to `/site-admin/users` and promote the created account to site admin.
 
 ## Configuring SSO and repositories
 
