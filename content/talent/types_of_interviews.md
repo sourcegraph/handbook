@@ -297,6 +297,30 @@ In addition to the above interviews, some departments have department-specific i
   -  Duration: 60-minutes.
   -  Details: during this stage in the interview process, we try to get a sense of your approach and thought process when reviewing writing drafts submitted by team members. You will be given a blog post draft to review for the first 30-minutes of the session, after which you and the hiring manager go through how you approached the piece and talk about the changes you made and why.
 
+- Technical Content working session
+  -  Duration: 60-minutes.
+  -  Details: during this stage in the interview process, we try to get a sense of how you think about content. You will be given (2) pieces of content to read through for the first 30 minutes of the session, after which, you and the hiring manager will take the last 30 minutes to go through what you liked, disliked, and what you would change about each piece and why.
+
+- Senior Digital Marketing Manager working session
+  -  Duration: 60-minutes.
+  -  The Goal: The purpose of this working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation. 
+    Part 1: Methodology & Planning (20 Minutes)
+      - Coming out of our conversations we’ve taken an action item to better understand your campaign planning and activation methodology. 
+        - What are your ideas for a long-term, evergreen brand activation across the various digital channels? 
+        - What would a successful campaign look like? 
+        - How would you monitor and share results?
+    Part 2: Creativity & Collaboration (20 Minutes)
+      - We’ve just wrapped up our H2 off site where the brand team led a brainstorm about big ideas for a second half awareness campaign focused on quick wins targeting developers. 
+      - Top 3 creative ideas to fuel digital marketing campaigns directed at a DevOps Audience. These creative ideas can be part of the long-term brand awareness plays, or quarterly campaigns
+          - Include your timeline for concept-to-execution
+          - What would your goals be for these quick win campaigns?
+          - What are some key deliverables you’d expect to see from these campaigns?
+          - Who will you collaborate with and why?
+          - How would you approach bridging these awareness activities with contact acquisition/product sign-ups?
+    - NOTE: Please don't go overboard on preparation, plans, or detail. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
+
+
+
 ## People Operations
 - Coming soon
 
