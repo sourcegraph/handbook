@@ -45,6 +45,10 @@ Interviewing requires time and effort, both for Sourcegraph teammates and for ou
 
 Candidates are welcome to re-apply for roles at any time. The talent team will review all relevant information, including past interview feedback, when considering a person's candidacy.
 
+### Early-career Engineering Hiring
+
+Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](https://about.sourcegraph.com/handbook/engineering/hiring/early-career-engineers)
+
 # Interviewing at Sourcegraph
 
 - [Our interview process](https://about.sourcegraph.com/handbook/talent/interview_process).
