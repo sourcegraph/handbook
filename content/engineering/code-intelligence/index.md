@@ -45,6 +45,9 @@ See [goals and priorities](goals.md)
 
 Precise code intelligence specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use SQLite databases to store data specific to a particular LSIF index and Postgres to store all other data.
 
+## How we do technical hiring
+- [Code Walkthrough](code-walkthrough.md)
+
 ## Team communication
 
 Here are some key ways to contact us:
@@ -68,9 +71,9 @@ Our iterations last two weeks and are comprised of the following:
   1. Review any existing agenda items and be prepared to discuss them.
   1. Update the current release [tracking issue](../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
 
-- Team Updates:   
+- Team Updates:
   1. Each day, our Daily Standup Bot prompts us to add a text check-in by answering what we worked on the day before, what we're planning to work on next, and if there are any current blockers.
-  2. Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update. 
+  2. Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update.
 
 We track most of our work as [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
 
