@@ -12,7 +12,7 @@ These places are the source of truth for information at Sourcegraph. Information
   - [about.sourcegraph.com](https://about.sourcegraph.com)
   - [Sourcegraph handbook](../index.md)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
-- [Decisions](decisions.md)
+- [Decision making](decisions.md)
 - [Roadmap](../product/roadmap.md)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [productboard](https://sourcegraph.productboard.com/)
@@ -48,12 +48,12 @@ The following places are not sources of truth. Treat documents and conversations
   - A meeting that would run over is a nudge that the meeting's agenda or duration was wrong, or that the meeting was led ineffectively.
 - Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../company/team/org_chart.md) helps.)
 
-#### Scheduling meetings with Google Calendar 
+#### Scheduling meetings with Google Calendar
 
 Before you start, please make sure you've [configured your Google Calendar settings](../people-ops/onboarding/general_onboarding.md#configure-google-calendar) as described in the onboarding guidelines.
 
 - When creating the Google Calendar event:
-  - Use the "Find a Time" feature to see when you and other meeting attendees are all available. 
+  - Use the "Find a Time" feature to see when you and other meeting attendees are all available.
   - Add a [Zoom video call](#video-calls).
   - Add a Google Doc link to the event description for taking notes during the meeting.
     - If the meeting is recurring, use the same Google Doc for all meetings.

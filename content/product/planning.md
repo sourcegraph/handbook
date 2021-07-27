@@ -51,13 +51,13 @@ Planning requires several artifacts for communicating. This section clarifies ho
 
 ### Goals
 
-[Goals](../company/goals/index.md) align teams with the company's goals. They should be used to make prioritization decisions and help to maintain team direction and focus.
+[Goals](../company/goals/index.md) align teams with the company's goals. They should be used to make prioritization [decisions](../communication/decisions.md) and help to maintain team direction and focus.
 
 ### Roadmap
 
 [The roadmap](roadmap.md) is where we track and prioritize larger projects that we intend to finish in the next 3-6 months.
 
-Engineering should feel empowered to add items to the roadmap that they feel strongly about, which will start conversations with product. We want to push decisions down to people closest to those problems. It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
+Engineering should feel empowered to add items to the roadmap that they feel strongly about, which will start conversations with product. [We want to push decisions down to people closest to those problems](../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
 
 The project roadmap is NOT:
 

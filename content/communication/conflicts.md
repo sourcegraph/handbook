@@ -4,7 +4,7 @@ _I disagree with the decision to…_
 
 _I disagree with the idea that…_
 
-Disagreements about decisions are a healthy part of team collaboration. By challenging each other individually, our team collectively discovers the best solution.
+Disagreements about [decisions](decisions.md) are a healthy part of team collaboration. By challenging each other individually, our team collectively discovers the best solution.
 
 ## Disagreeing with a decision
 
