@@ -48,7 +48,7 @@ WIP
   - [Submitting time off](submitting-time-off.md)
 - [Bank and public holidays](holidays.md)
 - [Donations teammates can make](donations.md)
-- [Celebrating birthdays and anniversaries](celebrate.md)
+- [Teammate Gatherings and Celebrations](celebrate.md)
 - [Employment verification](employment_verification.md)
 
 
