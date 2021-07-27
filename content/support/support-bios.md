@@ -7,6 +7,7 @@ Our README expands on our profile in [the company team directory](https://about.
 * Beatrix [README](bee-readme.md)
 * Ben [README](ben-readme.md)
 * Carl [README](carl-readme.md)
+* Don [README](Don-readme.md)
 * Gabe [README](gabe-readme.md)
 * Giselle [README](giselle-readme.md)
 * Jason [README](jason-readme.md)
