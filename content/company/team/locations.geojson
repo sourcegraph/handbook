@@ -1016,6 +1016,19 @@
           37.78726741375342
         ]
       }
+    },
+    { 
+      "type": "Feature",
+      "properties": { 
+        "name": "Justin Boyson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743057,
+          30.267153
+        ]
+      }
     }
   ]
 }
