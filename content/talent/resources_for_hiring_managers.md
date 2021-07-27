@@ -22,13 +22,13 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 ### 1. Opening a new job
 
 - To open a new role:
-    - The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit).
+    - The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit).  Responses are routed to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=2123710308).
     - The Hiring Manager creates a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).  Read more about why we write job descriptions in this way [here](interview_process.md#creating-a-job-description).
     - The Hiring Manager creates an [interview plan](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1566158302).  Before creating your plan, we encourage you to [read more](hiring/index.md) about why creating an interview plan comprised of structured interview questions is critical to our success.
 
 - Once the Hiring Manager completes the above steps, the Recruiter takes the below actions:
     - Recruiter schedules a 30-45 minute intake meeting with the Hiring Manager to kick off the search.  This is a necessary step to ensure initial alignment and set our search up for success.
-    - Recruiter opens the job in Greenhouse and builds out the interview plan, adding all behavioral-based, structured questions directly into each interview stage.
+    - Recruiter opens the job in Greenhouse by copying the "Template" job and builds out the interview plan, adding all behavioral-based, structured questions directly into each interview stage.  All interview stages should use the standard interview titles, found [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
     - Recruiter posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91) and LinkedIn. If you would like it posted in other locations, please ask your Recruiter or send a Slack message to @hiring.  You can see a list of other job boards we are considering [here](hiring/job_boards.md).
 
 ### 2. Recruiting Stage
