@@ -159,7 +159,7 @@ Please see below for a complete summary of spend limit, per diem, and hotel budg
 
 # How to get your trip approved
 
-Before booking trips, you must obtain budget approval by sending an email to  finance@sourcegraph.com  and  people-ops@sourcegraph.com  with your manager or director cc’d. If booking a trip with a group (i.e. team meet-up), we recommend group approval requests to reduce the number of requests required for each team member.
+Before booking trips, you must obtain budget approval by sending an email to  finance@sourcegraph.com  and  people-ops@sourcegraph.com  with your manager or director cc’d. If booking a trip with a group (i.e. team meet-up), we recommend group approval requests to reduce the number of requests required for each team member. 
 *Please include the following for individual or group travel requests:*
 
 -   Name(s) and Team Role(s):
@@ -168,8 +168,11 @@ Before booking trips, you must obtain budget approval by sending an email to  fi
 -   Dates of travel:
 -   Cost - actual or estimate of reimbursable expenses (i.e. hotel, flight, food, transportation, etc.):
 
-As a reminder, travel is voluntary and no teammates are required to travel. Trip requests made by a teammate should never be made against their own judgement or comfort level.
+As a reminder, travel is voluntary and no teammates are required to travel. Trip requests made by a teammate should never be made against their own judgement or comfort level. 
 
 After your request has been submitted, you will receive approval from Finance via email within 1 business day.
 
 For any additional questions, please reach out to **#finance** or **#people-ops**.
+
+## Budget Template
+-   We have provided an easy-to-complete travel budget calculator for your next team trip. See our [Travel Budget Example](https://docs.google.com/spreadsheets/d/1az1m-V9ddhwlZ_jSHnoMtK0J4VO1Aeph0mKDNf6SsEY/edit#gid=0) for ideas when submitting requests.
