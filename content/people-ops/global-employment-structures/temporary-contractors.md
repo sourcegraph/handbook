@@ -3,7 +3,7 @@
 
 **Temporary contractors** are independent contractors and they must have a defined start and end date listed in their contract. We will engage with them in a B2B partnership, and they will be classified as an external “business". As such, they are expected to be able to function in their designated role without additional resources from Sourcegraph. Temporary contractors must have all the necessary devices and their own tools upon engagement (i.e. computer and adequate specs, reliable internet connection, cameras, monitors etc.) Exceptions can be made for any Sourcegraph required software or internal tools.
 
-We have two types of temporary contractors: **_short term_** and **_temporary to permanent _** contractors. They are defined as follows:
+We have two types of temporary contractors: **_short term_** and **_temporary to permanent_** contractors. They are defined as follows:
 
 
 **Short term contractors**
