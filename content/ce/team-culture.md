@@ -12,14 +12,17 @@ CEs interact with most every other team at Sourcegraph. This page details those 
 --------
 
 ## How we intersect other teams
+
 We work alongside just about every team at Sourcegraph. Here is how we add value to each other and a collaboration overview for each pairing.
 
 ### Sales
+
 - **How CE adds value to sales:** CEs are the right-hand team for Sales by serving as technical experts; CEs lead product demos, guide customers through trials/POCs, lead production deployments, focus on product usage and adoption, and build and nurture technical champions.
 - **How sales adds value to CE:** Sales, with their focus on the commercial relationship, introduces CEs to the customer relationship and helps CEs nurture the relationship.
 - **Collaboration overview:** Paired together on accounts throughout the customer journey.
 
 ### Customer Support Engineers (CSEs)
+
 - **How CE adds value to CSE:** CE has nuanced context that is valuable to how support works with a customer; CE can also help clarify / remind customers we need information (during regularly scheduled calls) on the more tricky issues.
 - **How CSE adds value to CE:** Support is the go-to technical team for our CEs. CSEs resolve issues for customers both pre- and post-sales, allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues.
 - **Collaboration overview:** CEs (or others -- including customers -- but primarily CEs) may engage support at any point during the pre-sales and post-sales customer engagement process. When a customer runs into an issue, the CE will allow support do the heads-down troubleshooting work.
@@ -37,16 +40,19 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
      - Anything else we should know that would be helpful?:
 
 ### Software Engineers (SWEs)
+
 - **How CE adds value to SWEs:** CE provides important insights from prospective and current customers which inform and serve as important inputs to Product roadmap.
 - **How SWEs adds value to CE:** SWEs create a high quality product and when needed, helps educate CEs on how certain features work so that they can educate customers. SWEs also conduct via planned training sessions, periodic pairing, deep-dives on new features/products, etc.
 - **Collaboration overview:** CEs can pose how-to questions and provide feedback via Slack
 
 ### Product
+
 - **How CE adds value to product:** CEs provide a data-driven view into customer concerns/questions, ad-hoc feedback shared whilst helping customers, and helps update documentation so customers (and we) have a single source of truth.
 - **How product adds value to CE:** Product educates CE on new features and helps clarify expected behavior questions.
 - **Collaboration overview:** CEs provide Product with feedback and feature requests; Product seeks inputs from customer through CEs.
 
 ### Marketing
+
 - **How CE adds value to marketing:** CEs help ensure marketing material is relevant and valuable to engineers and engineering leaders.
 - **How marketing adds value to CE:** Marketing provides self-service avenues for our customers to learn and help each other learn (community, developer education).
 - **Collaboration overview:** Marketing will seek customer input (surveys, feedback, case studies, etc) via CEs
@@ -61,8 +67,6 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 * Product & CE Requests & Feedback Themes (bi-weekly on Wednesdays): Feedback treads and requests between CE and Product.
 * CE <> Sales Office Hours (bi-weekly on Tuesdays): An open forum to discuss topics and answer questions from the sales team.
 
-
-
 ## OOO Protocols
 
 Prior to taking time off, CEs should:
@@ -76,6 +80,7 @@ Prior to taking time off, CEs should:
 
 
 ## CE-Specific Slack Channels
+
 | Slack Channel      | Description |
 | ----------- | -------------------------------- |
 | #ce-internal  | Internal channel the CE team to touch base with each other.   |
@@ -115,6 +120,7 @@ We believe that this is the exact moment in our journey to take such a risk and 
 We envision our CE team being able to continue building and fostering relationships with developer users and champions at our prospects and customers, continue serving as the technical experts during the sales cycle and helping enable our customers throughout our journey together (from the very first meeting and every subsequent meeting thereafter), while being able to impact and deliver cross-functional, cross-customer projects and establish a new strategic customer focus.
 
 ##### What we mean by cross-functional, cross-customer projects
+
 Project-based work falls into two categories:
 1. internal projects partnering with cross-functional stakeholders on relevant teams to create collateral, tools, and / or content that will benefit our teams and our customers
 1. external projects specific to one or more customer-stated needs that either solve a problem or help our champions grow usage internally
@@ -141,19 +147,23 @@ For CEs to be able to execute on these critically important areas will require a
 
 #### Teams with whom we have aligned
 Product:
+
 * For NPS feedback, PMs should review and follow up. For our strategic accounts, Product will work with the AE and the CE to address any feedback and participate in weekly product roadmap reviews or monthly feedback theme reviews.
   * In parallel, as an example potential project, it may make sense to prioritize a CE project to expose product roadmap updates (via Productboard) and account feedback to all site admins.
 * For beta recruitment/participation, PMs would check with AEs for advice and AEs can always tag CEs for perspective.
 
 Marketing:
+
 * The marketing team would check with the AE on the account first as it relates to requests for information or identifying users for things like CAB and user stories. The AE can always tag CEs for perspective.
 
 Customer Support:
+
 * On non-strategic accounts, for deployment and upgrade support as well as debugging, Customer Support will handle. For anything licensing or commercial-related the AE will handle. One can always ask the CE team for on-the-fly advice. General how-to’s and feedback sent in Slack will be handled by the CE team for the time being, until Customer Support hires and ramps 2 additional CSEs. Once in place and onboarded for one month, CE will transition how-to and feedback responsibilities to CSE (estimated to happen by the end of July).
   * In parallel, it may make sense to prioritize a CE project to improve the set of materials that customers and our team can refer to, thereby answering more customer questions without them needing to ask us, and making it easier for our team to help customers. 
 * A customer with a private Slack channel is likely viewed as strategic; as such these will have specific focus and nurture from the CE team.
 
 Sales:
+
 * A customer engineer should be available to attend any / every call with a customer or prospect, as necessary.
 * AEs should drive renewal activities from a commercial aspect, with CEs contributing.
 * AEs should drive the process around a customer trial - advancing the sales cycle towards a trial - and pull in CEs as appropriate (CEs will contribute heavily, but AEs run the process as part of the overall sales process).
@@ -162,6 +172,7 @@ Sales:
 Our goal is to be able to complete specific projects in no greater than 2 week increments (ideally 1 week), with project review and prioritization happening on a weekly basis. We will use tooling (eg, Asana, Jira, etc) to capture, maintain, and track priority and progress in a transparent manner. Because this project work will be a mix of both internally defined and identified projects (eg, documentation updates, demo videos, scripts) and externally raised customer projects (eg, batch changes, custom extensions, etc) during sprint review the participating individuals (CE leaders, cross-functional teams (AEs, Product, Eng, Support, etc), CEs) will review requests and collectively agree on prioritization for the sprint ahead. 
 
 For each project, we will define:
+
 1. The objectives and expected outcomes of the project (what is it solving or creating)
 1. The scope of the project (define the bounds of what we will and will not do)
 1. Impact of the project (to help gauge prioritization how impactful will the output of this project be to our teams and our customers, perhaps 1 = widespread impact internally and externally, 2 = widespread impact EITHER internally OR externally, 3 = specific impact externally, 4 = specific impact internally)
