@@ -8,11 +8,12 @@ We have two types of temporary contractors: **_short term_** and **_temporary to
 
 **Short term contractors**
 
-- Contracted for a specific period of time to cover a current but temporary business need (covering someone on extended leave, additional help with a particular project, etc). 
+Contracted for a specific period of time to cover a current but temporary business need (covering someone on extended leave, additional help with a particular project, etc). 
 
 **Temp to perm contractors**
-- Contracted as temporary contractors with the intention and possibility of converting to permanent full-time teammates. 
-- Hiring managers must have a clearly defined business case for opting into a temp-to-perm engagement vs. a permanent full-time teammate.
+
+Contracted as temporary contractors with the intention and possibility of converting to permanent full-time teammates. 
+Hiring managers must have a clearly defined business case for opting into a temp-to-perm engagement vs. a permanent full-time teammate.
 
 In both cases, all contractor hires must be approved by the following teams prior to engaging specific contractors or starting a search process: [Talent](../../talent/index.md), [People Ops](../index.md), and [Finance](../../ops/finance/index.md).
 
