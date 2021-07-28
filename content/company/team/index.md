@@ -1185,3 +1185,10 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [unclejustin](https://github.com/unclejustin)
 - [justin.boyson@sourcegraph.com](mailto:justin.boyson@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/justindavidboyson/)
 - Justin got his first taste of coding on a Commodore 64. He and his brother "hacked" their Wheel of Fortune™ game replacing all the character's speech text with curse words to hilarious effect. Since then he's turned his curiosity towards more positive pursuits, most recently as a Frontend Engineer at GitLab. Justin's antics are graciously tolerated by his patient wife, three less patient dogs, and one completely impatient cat. When he's not working there is an equal chance of finding him doing some subset of the following: roasting/drinking coffee, working on his house, playing video games, playing music, napping.
+
+## Sruti Dhulipala (She/Her)
+- 👋 Senior Manager, Global Brand Strategy
+- 🌴 Los Angeles, California, USA
+- 👀 I’m always fascinated by the intersection of technology, culture, brands, and human behavior. I love keeping a pulse on trends as they are often great predictors of innovation.
+- 🌱 I’m currently learning permaculture, yoga, and very recently, how to use GitHub!
+- ✨ I’m looking to collaborate on all things related to awareness, brand perception, and adoption of Sourcegraph. I've spent over 12 years imparting my expertise and passion in scaling strategic initiatives that foster product engagement for a plethora of innovative brands (including Theranos!) My background in consulting, service design, brand strategy, and advertising give me a unique perspective to develop compelling brand narratives, cultivating an enriched connection with users and translating that into measured business impact. Specialties: Service Design, Design Thinking, Ethnographic Research, Enterprise Digital Strategy and Transformation, Experience Design, Organizational Culture Change Management, Brand Strategy, Product Marketing, Product Launch, Go-To-Market, Communications Planning.
