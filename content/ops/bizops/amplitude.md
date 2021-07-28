@@ -19,11 +19,11 @@ Anything not based directly on analyzing Sourcegraph Cloud events is in Looker. 
 
 | Type of analysis        | Tool      | Example |
 |-------------------------|-----------|---------|
-| Retention/engagement    | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/gxxhpcm)    |
+| Retention/engagement    | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/chart/zlj82e0)    |
 | Adoption of public code | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/175)    |
 | Progress towards OKRs   | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/166)    |
 | On-prem instances/pings | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/174)    |
-| Signup funnel on Cloud  | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/gxxhpcm)    |
+| Signup funnel on Cloud  | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/f9c1g6c)    |
 
 Any analysis that was conducted in Looker prior to the implementation of Amplitude can still be done in Looker, and existing Looker dashboards and visualizations will still be maintained. Amplitude will help us conduct new and different analysis regarding product analytics. 
 
@@ -35,11 +35,11 @@ Most Sourcegraph Cloud events are being sent to Amplitude. The events not being 
 
 The data is currently backfilled from 2021-03-01.
 
-It’s sent through a [script](https://github.com/sourcegraph/Amplitude/blob/main/main.py) that runs every hour and pulls from ```sourcegraph_analytics.amplitude_events_prod```, which is loaded by [this scheduled query](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/609f8a27-0000-287c-9f20-f403043cb328/runs?project=telligentsourcegraph).
+It’s sent through a [script](https://github.com/sourcegraph/Amplitude/blob/main/main.py) that runs every hour and pulls from ```sourcegraph_analytics.amplitude_events_v5```, which is loaded by [this scheduled query](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/61cbb857-0000-2751-bbf2-94eb2c039f64/runs?project=telligentsourcegraph).
 
 #### Adding event properties
 
-Event properties are attributes of a particular event. These are added to the ```amplitude_events``` table as individual columns from this scheduled query. For example, here's a snippet that extracts event properties from both the argument field of an event, as well as an event itself. If you're adding a new event property, please add it to the [data map](https://docs.google.com/spreadsheets/d/1wz958I67BKWWY0jKY3oXKhlrGZ9ucKmv0CM94K-5NVs/edit#gid=408201559). 
+Event properties are attributes of a particular event. These are added to the ```amplitude_events_v5``` table as individual columns from this scheduled query. For example, here's a snippet that extracts event properties from both the argument field of an event, as well as an event itself. If you're adding a new event property, please add it to the [data map](https://docs.google.com/spreadsheets/d/1wz958I67BKWWY0jKY3oXKhlrGZ9ucKmv0CM94K-5NVs/edit#gid=408201559). 
 
 ```
 JSON_EXTRACT(argument,
