@@ -35,9 +35,9 @@ See [How we use Salesforce](../../handbook/sales/salesforce/index.md#how-we-use-
 Description of how the sales team prospects into an account:
 
 **Outbounding General Principles**
-  1. We outbound using an account-based strategy. We engage prospects within the same company for a specific reason in order to determine if Sourcegraph will add value to their organization. 
-  2. Use a copy of the AE/SDR Acct Planning Template doc [here](https://docs.google.com/spreadsheets/d/1pJiaUFk-KcRmEf9jfMjniHfyu6xsV--W/edit#gid=263328937). This document allows you to ensure constant communication between your sales counterpart (SDR/AE), and stay organized with building out your account list.
-  3. Outbounding is a never-ending process of learning how best to generate conversations with prospects. Constantly iterate the messages you use to start a conversation and don’t be afraid to try new things. 
+- We outbound using an account-based strategy. We engage prospects within the same company for a specific reason in order to determine if Sourcegraph will add value to their organization. 
+- Use a copy of the AE/SDR Acct Planning Template doc [here](https://docs.google.com/spreadsheets/d/1pJiaUFk-KcRmEf9jfMjniHfyu6xsV--W/edit#gid=263328937). This document allows you to ensure constant communication between your sales counterpart (SDR/AE), and stay organized with building out your account list.
+- Outbounding is a never-ending process of learning how best to generate conversations with prospects. Constantly iterate the messages you use to start a conversation and don’t be afraid to try new things. 
 
 **Workflow Videos**
 
