@@ -54,6 +54,8 @@ Temporary contractors are marked as hired in Greenhouse, have a start date that 
 
 Hiring managers should consult the Talent and PeopleOps team early if an exceptional situation requires a different onboarding process for reasons critical to the role, or if the role is expected to become a full-time role in the near future. Alternatively, it’s up to hiring managers to set up introductions and provide information as needed for the purpose of the temporary contract.
 
+To read more about Temporary contractors and how they are defined visit [this page](temporary-contractors.md)
+
 ## Work Visas
 Our decision to go fully remote was done in consideration to being able to engage talented people all over the world, without being limited to those who lived in a particular country or those who were able to acquire visas to work in a particular country. Our teammates can work from anywhere in the world, so we’ve limited sponsorship for visas to only roles that would actively require the presence in a particular country as part of their role and job responsibilities at Sourcegraph. In such cases we will work to support teammates as much as possible, but if we do not currently work with a PEO/EOR that can sponsor the visa in the country, there may be a significant delay (multiple months) as we investigate and implement an alternative solution. We encourage hiring managers to let us know as early as possible, before the role is even opened, if such requirements exist.
 
