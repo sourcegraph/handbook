@@ -123,8 +123,6 @@ In addition to team specific channels, we communicate in the following org-wide 
 
 [#developer-insights-internal](https://sourcegraph.slack.com/archives/C01EM5J1NF8): Our weekly check-in (facilited through Geekbot) go into this channel as well as all org-wide commmunication. Random conversations, banter, jokes etc. are all welcome here.
 
-[#developer-insights-org-onboarding](https://sourcegraph.slack.com/archives/C01K7TKKR09): This channel is dedicated to questions or thoughts that new teammates have while they onboard. It's a safe space to simply think out load and the goal is to identify things that we can improve and things we should make more clear in the handbook.
-
 [#developer-insights-org-leadership](https://sourcegraph.slack.com/archives/C01P1TVDJR4): This channel is for the Engineering Managers, Product Managers and Product Designers to discuss higher-level matters impacting the whole org.
 
 #### Slack acknowledgment
