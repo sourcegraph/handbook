@@ -14,7 +14,7 @@ It's the [responsibility of the Product Manager](../../handbook/product/roles/in
 
 We use the [monthly release blog post](https://about.sourcegraph.com/blog) as a changelog checklist to ensure everything is documented.
 
-## Local development of documentation only
+### Local development of documentation only
 
 For local development of documentation, clone the main [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/).  The development environment for Sourcegraph, detailed in [Getting started with developing Sourcegraph](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md), is not required.
 
@@ -27,20 +27,56 @@ cd sourcegraph
 
 Navigate the browser to [https://localhost:5080](https://localhost:5080) to view the documentation.
 
-## Naming and linking documentation pages
+## Best practices
+
+Best practices for writing documentation.
+
+### Naming and linking documentation pages
 
 1. Every page in a directory should be linked to from its parent page (index.md in that directory), unless the document is designed to be [standalone](#standalone-documents).
-1. Every new document should be:
-    - Cross-linked to its related documentation, and linked from its topic-related index, when it exists.
-    - Linked to from the [docs global nav template](https://github.com/sourcegraph/sourcegraph/blob/master/doc/_resources/templates/document.html#L58).
+1. Every new document should be cross-linked to its related documentation, and linked from its topic-related index, when it exists.
 1. Always cross-link to `.md` files, including the file extension, so that the docs are browsable as-is (e.g., in GitHub's file browser).
 1. When you create a new directory, always start with an `index.md` file. Don't use another file name and don't create `README.md` files.
 1. Don't use special chars and spaces, or capital letters in file names, directory names, branch names, and anything that generates a path.
-1. For large images and other binary assets, upload them to the `sourcegraph-assets` Google Cloud Storage bucket instead with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/` (and refer to them as `https://sourcegraphstatic.com/myasset.png`).
 1. When creating a new document and it has more than one word in its name, use underscores instead of spaces or dashes (`-`). For example, a proper name would be `import_projects_from_github.md`.
-1. Start a new directory with an `index.md` file.
 
-## Standalone documents
+### Images and binary assets
+
+For large images and other binary assets, upload them to the `sourcegraph-assets` Google Cloud Storage bucket instead with `gsutil cp -a public-read local/path/to/myasset.png gs://sourcegraph-assets/` (and refer to them as `https://sourcegraphstatic.com/myasset.png`).
+
+### Administration documentation
+
+This advice currently pertains to [Sourcegraph administration documentation](https://docs.sourcegraph.com/admin) and [Distribution documentation](https://about.sourcegraph.com/handbook/engineering/distribution).
+
+- Try to avoid repeating information. Instead, find the most relevant home for a piece of information, and link to it from where you want it so that the information can be easily found and referenced from other places.
+  - e.g. [Deployments playbooks](deployments/playbooks.md), [Managed instances operations](./distribution/managed/operations.md), [Docker Compose operations guides](https://docs.sourcegraph.com/admin/install/docker-compose/operations)
+- Instead of adding an FAQ item, try to add the information in a more agnostic format to the relevant documents first, so that it can easily be found and referenced from other places.
+  - e.g. instead of "How do I do X when Y for Z?", try "Do X" with a section for "Y" situation in the relevant documents for "Z"
+  - If a FAQ item still feels prudent, link to the guide from the FAQ instead of repeating the information.
+- Try to avoid creating new pages. This makes information easier to discover, reference, and maintain (keep up to date).
+  - If a new guide or overview is going to be too long to be added to a page, try to distill its components into smaller "operations" that can be added elsewhere, or see if there are documentation that can be referenced instead.
+
+#### Deployment documentation
+
+Deployment documentation should be structured as follows:
+
+- `admin/install/X/...`
+  - "Sourcegraph with X" (`admin/install/X/index.md`). Includes:
+    - Installation (`#installation`): how to install Sourcegraph with this method. Can link out to separate guide(s) where appropriate.
+      - This gets featured here because a customer will likely only encounter installation once.
+      - Simiarly, "Migration to X" (`admin/install/X/migrate.md`) should be in its own page because a custoemr will likely only encounter it once.
+    - About (`#about`): links to background info, some basic ideas, etc.
+  - "Operations guides for Sourcegraph with X" (`admin/install/X/operations.md`). This page should be the go-to page for "I need to do something with my X deployment".
+    - See [administration documentation best practices](#administration-documentation).
+    - When creating documentation for X, reference these guides instead of repeating.
+    - Anything that is not specific to X deployment method should be added to the relevant product documentation instead and linked.
+    - Upgrade and configuration documentation should be included here, because unlike installation and upgrades customers will need them often.
+
+Example: [Sourcegraph with Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose).
+
+## Tips and tricks
+
+### Standalone documents
 
 By default, an error will be raised if a documentation page is not linked to, as we want it to be discovered by readers and indexed by search engines. If the need arises for a page to be standalone and not linked to (e.g., you've moved the page's contents but don't want to break external inbound links), add the following YAML front matter content to the top of the page:
 
