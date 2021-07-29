@@ -10,6 +10,7 @@ The code insights team is responsible for building and delivering code insights 
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
   - [Vova Kulikov](https://about.sourcegraph.com/handbook/company/team#vova-kulikov-he-him) (Frontend Engineer)
+  - [Justin Boyson](https://about.sourcegraph.com/handbook/company/team#justin-boyson-he-him) (Frontend Engineer)
   - [Coury Clark](../../../company/team/index.md#coury-clark-he-him) (Backend Engineer)
 
 [We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4028726004)
