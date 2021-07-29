@@ -44,6 +44,7 @@ This continuity means we give customers consistent and high-quality service from
   - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
   - [Manuel Ucles](../company/team/index.md#manuel-ucles)
 - Customer Engineers (US East)
+  - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
   - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
   - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
   - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
