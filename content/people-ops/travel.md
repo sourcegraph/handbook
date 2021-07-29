@@ -52,6 +52,8 @@ We also want you and expect you to use your full travel budgets each year! For t
 > -   A teammate cannot use their team budget for individual travel.
 > -   A teammate cannot skip the winter holiday party to get a longer stay at the spring/summer company-wide event.
 
+Most importantly, when planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](https://about.sourcegraph.com/handbook/company/values)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
+
 **There are five types of company-sponsored, company-paid travel:**
 
  1. Company-wide travel
