@@ -47,11 +47,11 @@
 - [Scheduling and calendars general info](https://support.greenhouse.io/hc/en-us/sections/360001178052).
 - [Schedule an interview](https://support.greenhouse.io/hc/en-us/articles/360045420091-Schedule-an-interview).
 - [Reschedule/cancel an interview](https://support.greenhouse.io/hc/en-us/articles/200241969-Reschedule-cancel-an-interview).
-- [How to schedule using calendly](https://support.greenhouse.io/hc/en-us/articles/360029686091).
+- [How to schedule using Calendly](https://support.greenhouse.io/hc/en-us/articles/360029686091).
 - [Scheduling and calendars Q&A](https://support.greenhouse.io/hc/en-us/sections/360000692832).
 
 ## Adding an Agency Recruiter to Greenhouse
 
-To add a new agency to Greenhouse, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-New-Agency). To add a new recruiter to an **existing agency**, follow [these intstructions](https://support.greenhouse.io/hc/en-us/articles/200666389).
+To add a new agency to Greenhouse, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-New-Agency). To add a new recruiter to an **existing agency**, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/200666389).
 
 
