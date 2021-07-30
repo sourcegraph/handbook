@@ -13,6 +13,7 @@ These places are the source of truth for information at Sourcegraph. Information
   - [Sourcegraph handbook](../index.md)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
 - [Decision making](decisions.md)
+- [Creating a working group for cross-team projects](working-group.md)
 - [Roadmap](../product/roadmap.md)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [productboard](https://sourcegraph.productboard.com/)
