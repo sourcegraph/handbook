@@ -174,7 +174,7 @@ As a reminder, travel is voluntary and no teammates are required to travel. Trip
 
 After your request has been submitted, you will receive approval from Finance via email within 1 business day.
 
-For any additional questions, please reach out to **#finance** or **#people-ops**.
+For any additional questions, please reach out to **#finance** or **#people-ops**. Also, you can post in #expense-inquiries via Slack.
 
 ## Budget Template
 -   We have provided an easy-to-complete travel budget calculator for your next team trip. See our [Travel Budget Example](https://docs.google.com/spreadsheets/d/1az1m-V9ddhwlZ_jSHnoMtK0J4VO1Aeph0mKDNf6SsEY/edit#gid=0) for ideas when submitting requests.
