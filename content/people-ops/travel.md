@@ -3,7 +3,7 @@
 
 # Phase II: Teammate Travel Meetup Guidelines
 
-As of June 16th 2021, we have resumed reimbursing travel per our  [team travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel#team-travel-budgets)  for travel and in-person events that are permitted by law. We want this to be gradual, and all events must be completely optional.
+As of June 16th 2021, we have resumed reimbursing travel per our  [team travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel#2-team-travel)  for travel and in-person events that are permitted by law. We want this to be gradual, and all events must be completely optional.
 
 As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. Choosing to travel or meet is an incredibly personal decision, and we support team members who may not be interested in meeting up at this time.
 
