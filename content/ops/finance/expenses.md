@@ -8,7 +8,7 @@ Generally, you should feel free to spend in ways that are in the best interest o
 
 Teammates should submit expenses at the end of every month, ideally in a single report (if US based) or invoice (if based outside the US) for the full month.
 
-Our accountants prepare unaudited financial statements every month based on the prior month's spending. Submitting expenses soon after the month ends simplifies their jobs, makes the financial reports we rely on for planning more accurate, helps our finance team track and ensure that each teammate is in compliance with our monthly expense limits, and helps you get your money back faster!
+Our accountants prepare unaudited financial statements every month based on the prior month's spending. Submitting expenses before the month ends simplifies their jobs, makes the financial reports we rely on for planning more accurate, helps our finance team track and ensure that each teammate is in compliance with our monthly expense limits, and helps you get your money back faster!
 
 Any expenses more than 90 days old require approval by People Ops and Finance.
 
