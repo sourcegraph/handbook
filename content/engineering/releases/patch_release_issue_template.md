@@ -44,7 +44,7 @@ For each of the following repositories, cherry-pick (see snippet below) and chec
 git checkout $MAJOR.$MINOR
 git pull
 git cherry-pick <commit0> <commit1> ... # all relevant commits from the default branch
-git push $MAJOR.$MINOR
+git push origin $MAJOR.$MINOR
 ```
 
 - [ ] Ensure CI passes on all release branches listed above.
