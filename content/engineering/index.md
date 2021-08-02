@@ -25,6 +25,9 @@
 - [Hiring](hiring/index.md)
   - [Open positions](hiring/index.md#open-positions)
   - [Early-career engineers](hiring/early-career-engineers.md)
+- [Career development](career-development/index.md)
+  - [Career development framework](career-development/framework.md)
+  - [Talent review process](career-development/talent-review-process.md)
 
 ## Org chart
 
