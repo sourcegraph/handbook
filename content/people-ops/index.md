@@ -60,7 +60,7 @@ WIP
 ## Wellbeing
 
 - [Mental health and wellness initiatives](mental-health.md)
-- [Modern Health](modern-health.md)
+- [Modern Health: launching August 10th](modern-health.md)
 
 ## Other policies
 
