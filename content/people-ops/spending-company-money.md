@@ -79,7 +79,7 @@ You will not need permission for choosing which co-working space you’d like to
 > Note: This budget is meant to be an average cost of co-working spaces,
 > and serves as a recommendation. It should be dependent on the average
 > cost of co-working spaces in your particular geo-location. If your
-> co-working space is significantly more than $500 USD, please get
+> co-working space is more than $500 USD, please get
 > approval from People Ops and Finance via email.
 
 
