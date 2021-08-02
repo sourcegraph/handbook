@@ -31,10 +31,10 @@ This section will be used in future wellbeing planning as a brainstorm list for 
 
 | **Sequence order** | **Session/Event**                                            | **Structure**                    | **Audience**             | **Proposed Timeline** | **Status**        |
 | ------------------ | ------------------------------------------------------------ | -------------------------------- | ------------------------ | --------------------- | ----------------- |
-| 1                  | *#mental-health* Slack channel for events, resources         | Slack forum                      | All team members; opt-in | June 2021             | In progress       |
-| 2                  | External Speaker on Burnout (recorded)                       | Fireside chat with Q&A           | All team members         | July 2021             | Sourcing speakers |
-| 3                  | Modern Health launch                                         | Employee assistance program      | All team members         | August 2021           | In progress       |
-| 4                  | Modern Health information session (recorded)                 | Company-wide information session | All team members; opt-in | August 2021           | In progress       |
+| 1                  | *#mental-health* Slack channel for events, resources         | Slack forum                      | All team members; opt-in | June 2021             | Complete       |
+| 2                  | External Speaker on Mental Health (recorded)                       | Fireside chat with Q&A           | All team members         | July 2021             | Complete |
+| 3                  | Modern Health launch                                         | Employee assistance program      | All team members         | August 2021           | Launching August 10th       |
+| 4                  | Modern Health information session (recorded)                 | Company-wide information session | All team members; opt-in | August 2021           | Launching August 11th       |
 | 5                  | Async mental health book club                                | Async book club                  | All team members         | Date TBD              | Not yet started   |
 | 6                  | Leadership Panel: Managing and Identifying Burnout and Fatigue on your team, sharing vulnerabilities | Internal panel                   | Managers+ above          | Date TBD              | Not yet started   |
 | 7                  | Manager Panel: Enabling your teams to take time off          | Internal Panel                   | Managers+ above          | Date TBD              | Not yet started   |
