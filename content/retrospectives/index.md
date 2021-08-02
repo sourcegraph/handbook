@@ -36,6 +36,8 @@ If it is getting close to or past the 24 hour feedback deadline, privately remin
 
 ### Retrospective meeting
 
+> NOTE: This is just a suggestion for how to run a good retrospective. You don't need to follow it. It may be too much overhead for quick/mini retros.
+
 The organizer is responsible for the agenda and flow of the retrospective meeting.
 
 Share your screen which has the retrospective document open and a [timer](https://www.google.com/search?q=timer) to keep the meeting on track.
