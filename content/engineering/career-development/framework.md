@@ -4,7 +4,7 @@ Our career development framework is here to help you understand the expectations
 
 ## What are the expectations of my role?
 
-There are currently five levels for software engineers described in our framework. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
+There are currently seven levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
 - Proficiency
 - Execution
@@ -451,16 +451,9 @@ You can learn more [here](talent-review-process.md#considerations-for-promotion)
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
       <td colspan="3" rowspan="2" class="tbd">
         <p>
-          We haven't defined these levels at Sourcegraph yet, which would be equivalent in impact to a <a href="../roles#director-of-engineering">Director of Engineering</a> and <a href="../roles#vp-engineering">VP of Engineering</a>, respectively.
+          While we haven't yet finalized the descriptions of these levels at Sourcegraph, they would be equivalent in impact to a <a href="../roles#director-of-engineering">Director of Engineering</a> and <a href="../roles#vp-engineering">VP of Engineering</a>, respectively.
           Like <a href="#ic5">IC5</a>, these are different <strong>roles</strong> than the levels preceding it based not only on performance, but also company need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
         </p>
-        <p>
-          We will define these no later than if any of the following become true:
-        </p>
-        <ul>
-          <li>We agree that we have a company need to have someone in this role.</li>
-          <li>At least one IC on our engineering team doesn't only <em>exceed expectations</em> for <a href="#ic5">IC5</a>, but clearly operates at a higher <em>level</em> than <a href="#ic5">IC5</a> (a distinct role, with the aforementioned impact). The existence of an IC operating and bringing value at this level naturally implies the company need.</li>
-        </ul>
       </td>
     </tr>
     <tr>

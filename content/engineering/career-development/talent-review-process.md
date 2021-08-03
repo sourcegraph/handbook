@@ -50,9 +50,7 @@ Finally, we should have a [retrospective](../../retrospectives/index.md) after e
 
 ## Levels
 
-We have seven levels for software engineers at Sourcegraph, derived from Option Impact, a startup compensation tool that Sourcegraph and many other companies use to determine their compensation bands.
-
-Levels 1-5 are [described in our career development framework](framework.md).
+Our [career development framework](framework.md) defines the levels that exist at Sourcegraph. Compensation for each of these levels is derived from Option Impact, a startup compensation tool that Sourcegraph and many other companies use to determine their compensation bands.
 
 ## Considerations for promotion
 
