@@ -50,41 +50,11 @@ Finally, we should have a [retrospective](../../retrospectives/index.md) after e
 
 ## Levels
 
-#### Structure of the levels
+We have seven levels for software engineers at Sourcegraph, derived from Option Impact, a startup compensation tool that Sourcegraph and many other companies use to determine their compensation bands.
 
-We have 7 levels for software engineers at Sourcegraph, derived from Option Impact, a startup compensation tool that Sourcegraph and many other companies use to determine their compensation bands. For each of these, we have a corresponding level description.
+Levels 1-5 are [described in our career development framework](framework.md).
 
-The structure of a level description is in three parts, for each of our evaluation categories (listed below). For each category, we include a summary statement and several _examples_ of the kinds of behaviors we expect of someone at that level. (Note that these are neither necessary nor sufficient for promotion: these are not checkboxes. Rather, they serve to illustrate the magnitude of impact that we are looking for in each of the categories.)
-
-The level descriptions correspond to the start of the level, so that if an IC has a level N impact in all categories, they should then be promoted to level N (and not before). Or to put it another way, the level descriptions state the minimum expectations.
-
-#### Research
-
-We consulted a variety of sources to determine our levels, and [summarized our findings here](https://docs.google.com/document/d/1Vqpks_iZLalGwbcTFHQcQs3xnjZtGxX_azH063aulOg/edit#).
-
-#### Evaluation categories
-
-Each level definition is composed of three categories, each with a summary statement and several example behaviors.
-
-The categories we use are:
-
-- Proficiency
-- Execution
-- Teamwork
-
-#### Level descriptions
-
-The levels are [defined in our career development framework](framework.md). In most cases, a level builds on the criteria from the preceding level: someone at level 2 must also meet the criteria for level 1.
-
-In addition to what is listed there, we expect engineers at all levels to exhibit [our values](../../company/values.md).
-
-These are the expectations for ICs _after they have completed their onboarding_. Some of these expectations (such as around communication) would start on day 1, but others (such as expertise in the codebase) would not be expected until they are fully ramped up.
-
-Rather than precede each bullet point in the level descriptions with “Consistently”, we leave it as implicit.
-
-In line with our ["Continuously grow" company value](../../company/values.md), we expect every engineer to eventually reach at least level 3, spending no more than 2 years at any previous level. It is the responsibility of the EM to track this, and to ensure that ICs are given the support and opportunities needed for career growth.
-
-#### Considerations for promotion
+## Considerations for promotion
 
 Teammates are considered for promotion to a new level when their manager can make the case that they have had at least one quarter of high performance at their current level, and one quarter performing at the next level. We want to avoid situations where someone is promoted to a level in which they struggle to meet expectations.
 

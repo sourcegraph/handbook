@@ -2,10 +2,9 @@
 
 Our career development framework is here to help you understand the expectations of your role, and to provide a common language for you and your manager to discuss and plan your career growth. It is also an important part of our larger goal of ensuring everyone is equitably recognized for the impact they have at work, and to reduce bias in promotions and hiring.
 
-## What are these expectations?
+## What are the expectations of my role?
 
-The currently five levels for software engineers in our framework.
-A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
+There are currently five levels for software engineers described in our framework. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
 - Proficiency
 - Execution
@@ -20,6 +19,10 @@ In addition to what is listed there, we expect engineers at all levels to exhibi
 
 Rather than precede each bullet point with "Consistently", we leave it as implicit.
 
+The level descriptions correspond to the start of the level, so that if an IC has a level N impact in all categories, they should then be promoted to level N (and not before). Or to put it another way, the level descriptions state the minimum expectations.
+
+These are the expectations for ICs _after they have completed their onboarding_. Some of these expectations (such as around communication) would start on day 1, but others (such as expertise in the codebase) would not be expected until they are fully ramped up.
+
 In line with our _continuously grow_ company value, we expect every engineer to eventually reach at least level 3.
 It is the responsibility of your manager to track this, and to ensure that you are given the support and opportunities needed for career growth.
 
@@ -29,6 +32,8 @@ When your manager can make the case that you’ve had at least one quarter of hi
 
 Promotions from one level to another are considered in our quarterly [talent review](talent-review-process.md).
 An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
+
+You can learn more [here](talent-review-process.md#considerations-for-promotion).
 
 <style>
   .container {
