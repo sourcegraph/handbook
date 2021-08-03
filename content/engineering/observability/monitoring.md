@@ -100,12 +100,12 @@ Once deployed, you should be able to see your changes in [sourcegraph.com](https
 ## Grafana
 
 Sourcegraph uses a custom Grafana image, [`sourcegraph/grafana`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/grafana), which contains minor changes from the vanilla Grafana image.
-Learn more about its role in our overall monitoring architecture [here](./monitoring_architecture.md#sourcegraph-grafana), and also see the dev documentation [here](https://docs/sourcegraph.com/dev/background-information/observability/grafana).
+Learn more about its role in our overall monitoring architecture [here](./monitoring_architecture.md#sourcegraph-grafana), and also see the dev documentation [here](https://docs.sourcegraph.com/dev/background-information/observability/grafana).
 
 ## Prometheus and Alertmanager
 
 Sourcegraph uses a custom Prometheus image, [`sourcegraph/prometheus`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/prometheus), that bundles Alertmanager and a wrapper program for managing configuration changes.
-Learn more about its role in our overall monitoring architecture [here](./monitoring_architecture.md#sourcegraph-prometheus), and also see the dev documentation [here](https://docs/sourcegraph.com/dev/background-information/observability/prometheus).
+Learn more about its role in our overall monitoring architecture [here](./monitoring_architecture.md#sourcegraph-prometheus), and also see the dev documentation [here](https://docs.sourcegraph.com/dev/background-information/observability/prometheus).
 
 ## Additional reading
 
