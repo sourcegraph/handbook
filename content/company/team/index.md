@@ -635,14 +635,6 @@ To add yourself to this page:
 - dudley@sourcegraph.com, [LinkedIn](https://www.linkedin.com/in/dudleynostrand/)
 - Dudley lives in Hamilton, MA ( just north of Boston) with his wife Sasha and two kids Xander and Bennett (both in college in NC). Originally from Florida and Newport, Rhode Island, he moved to Hamilton 22 years ago. He spent 15 years at Fidelity Investments, before moving on to tech companies like BMC and Appdynamics/Cisco. He enjoys spending time boating, fishing, riding his motorcycle, and traveling with his family to tropical destinations to sit on the beach and swim in the ocean.
 
-## Shaan Sheth (he/him)
-- Director of Business Operations & Strategy
-- Los Angeles, CA USA 🇺🇸
-- GitHub: [shaan-sourcegraph](https://github.com/shaan-sourcegraph)
-- [shaan@sourcegraph.com](mailto:shaan@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/shaansheth/)
-- Shaan joins Sourcegraph after a decade in finance and operations roles at large and small software companies, including Salesforce and Greenhouse Software. 
-Outside of work, he enjoys golfing, cheering on his favorite LA sports teams and optimizing for the best credit card points programs. Shaan grew up in CA and graduated from UC Berkeley.
-
 ## Tammy Zhu (she/her)
 - Director of Legal
 - San Francisco, CA, USA 🇺🇸
