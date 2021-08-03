@@ -101,7 +101,7 @@ Modern Health’s model is grounded in evidence-based approaches, primarily Cogn
 
 ### When do my Modern Health benefits reset?
 
-Your benefits reset on **August 10th, 2022.**  
+Your benefits reset on **June 29th, 2022.**  
   
 Note: Unused sessions do not rollover when your benefits reset.
 
