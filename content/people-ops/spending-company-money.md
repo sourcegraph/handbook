@@ -74,14 +74,13 @@ Once your contract is signed, you will need to purchase and expense your Sourceg
 
 **Co-working/office space:** $300-500/month for renting your space, including parking while you are working from your designated co-working space.
 
-You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a *day-to-day drop in basis* or a *month-to-month basis* for ease of monthly reimbursement. The Company will not cover the cost of a co-working space deposit.
+You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a *day-to-day drop in basis* or a *month-to-month basis* for ease of monthly reimbursement. The Company will not cover the cost of a co-working space deposit or sign for coworking space contracts. Additionally, if you would like to setup a group co-working space with pooled teammate funds, please send a message to People Ops and Finance stating Name(s) and Team Role(s), Location of space, and estimated monthly cost. 
 
 > Note: This budget is meant to be an average cost of co-working spaces,
 > and serves as a recommendation. It should be dependent on the average
 > cost of co-working spaces in your particular geo-location. If your
-> co-working space is more than $500 USD, please get
-> approval from People Ops and Finance via email.
-
+> co-working space is more than $500 USD, please get approval from People Ops 
+> and Finance via email.
 
 **Education and professional development (conferences, courses):** $1000 USD/year (if your professional development conference, event, or purchase exceeds this amount, simply notify People Ops & Finance via email with the anticipated cost to obtain approval).
 
