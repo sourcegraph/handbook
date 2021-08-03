@@ -1203,7 +1203,7 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 ## Anna (Tzvetana) Mikhova (She/Her)
 
 - Director of Product
-- :mountain_snow: Salt Lake City, UT, USA 🇺🇸
+- Salt Lake City, UT, USA 🇺🇸
 - Github: [anna-mikhova](https://github.com/anna-mmikhova), [anna@sourcegraph.com](mailto:anna@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/tzvetanamikhov/), [@AnnaMikhova](https://twitter.com/annamikhova)
 - Anna currently resides in Utah with her husband and toddler boy.  She is originally from Bulgaria and has spent time in multiple countries and cities in and out of the US.  Anna has a diverse work background blending software engineering, UX, marketing and management, and has worked in various industries during her career.  She most recently comes from Pluralsight where she led the Platform Product team and helped scale data and platform capabilities.  She's super passionate about dev productivity and wants to help speed up technology innovation everywhere through challenging how we manage the ever growing complexity of big code.  In her free time Anna enjoys being out in nature with her fam, traveling to experience different cultures, keeping up with all things product and the occasional furniture restoration project.
 
