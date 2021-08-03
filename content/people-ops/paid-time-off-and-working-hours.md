@@ -1,4 +1,4 @@
-# Paid time off and working hours
+# Paid time off (PTO) and working hours
 
 At Sourcegraph, every teammate has agency over how they create a balance between work and rest, so that we can stay productive and innovative over the long term.
 
