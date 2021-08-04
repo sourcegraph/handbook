@@ -8,7 +8,7 @@ In support of our product/engineering Q3 objective to *____*, one way we will me
 |2|In-progress|All CSEs|Make at least 45 doc updates/additions across the team|
 |3|Not started|Giselle|Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App|
 |4|Not started|Adeola|Create cheat sheets of what logs are most needed in certain situations|
-|5|Note started|Beatrix|Make the [command generator](https://sourcegraph.github.io/support-tools/command-generator/beta/) customer-facing|
+|5|Not started|Beatrix|Make the [command generator](https://sourcegraph.github.io/support-tools/command-generator/beta/) customer-facing|
 |6|Not started|Michael|Create database type solution to make it easy and reliable for CSEs to learn from past tickets|
 |7|Not started|Alex|Streamline key steps in CSE workflow|
 |8|In-progress|Carl|5 folks complete kubernetes certification|
