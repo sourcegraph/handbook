@@ -1,6 +1,6 @@
 # FY22Q3 OKR Plan
 
-In support of our product/engineering Q3 objective to *____*, one way we will measure our success in achieving this goal is for the **Customer Support team to maintain 100% support issue resolution within 7 days while only requiring help (filing a #rfh Github issue) on 10% (measured during last month of quarter)**. To accomplish this, we will…
+In support of our product/engineering Q3 objective to *Make cloud and enterprise successful at massive scale*, one way we will measure our success in achieving this goal is for the **Customer Support team to maintain 100% support issue resolution within 7 days while only requiring help (filing a #rfh Github issue) on 10% (measured during last month of quarter)**. To accomplish this, we will…
 
 |#|Status|Responsible|Task|
 |---|---|---|---|
@@ -60,7 +60,7 @@ In support of our product/engineering Q3 objective to *____*, one way we will me
 
 
 ## Progress update
-To be provided 2021-08-27 and 2021-09-30
+Progress update on how we are tracking toward our OKR to be provided 2021-08-27 and 2021-09-30
 
-##Final summary
+## Final summary
 To be provided at quarter end
