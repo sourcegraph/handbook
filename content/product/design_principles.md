@@ -1,7 +1,5 @@
 # Sourcegraph’s design principles
 
-**Draft**: 2021-03-05
-
 Sourcegraph’s product design principles are how we express our shared vision and values while designing for our product.
 
 We use our principles to:
