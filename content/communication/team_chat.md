@@ -109,3 +109,36 @@ All engineers should join the following channels (feel free to adjust your notif
 - #alerts-external - External system notifications which might impact our deployments.
 
 You should also join channels mentioned in [your team's documentation](../engineering/index.md#teams)
+
+### Social 
+
+These are some of our social channels. Feel free to whichever calls you.
+
+- #anime	- All things related to anime
+- #basketball	- All things hoops (NBA, NCAA, FIBA, etc.)
+- #best-timezone	Hangout channel for the european time zone. GIFs allowed!
+- #books	- Read books recommended by teammates and discuss them.
+- #chess - For all chess lovers
+- #clothing -	Chit-chatting about clothes
+- #coffee	- For the love of coffee
+- #cooking	- All things cooking and food
+- #fantasyfootball	
+- #football-soccer	- General banter about the beautiful game ⚽️ (not this one 🏈)
+- #gaming	- For all gamers
+- #golf -	To all those golf fans here
+- #great-bandname -	“That’s a great bandname” — all the things we find that would make a great bandname
+- #keyboards-of-sourcegraph	- clack clack CLACK clack clack CLACK cl
+- #kids-of-sourcegraph	- A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
+- #memes-and-motivations	- Sometimes a funny meme or a powerful motivational video is good for the soul!
+- #mixology - To talk about the art of making drinks/drinks we enjoy
+- #motorsport	- For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor. 
+- #music - Share your tunes.
+- #nomad-life -	For folks who use our async remote culture to travel around, whether just for a few weeks or as a lifestyle
+- #pets-of-sourcegraph -	Sometimes you need pictures of floof(s) to get through the day.
+- #photography-chat -	For photo-takey types
+- #plants-of-sourcegraph	- 🌲🌻
+- #side-project	- Working on a cool/challenging/fun side project? Tell us all about it here!
+- #ted-talks	- Share impactful ted talks here, with a brief description and time of the talk
+- #today-i-learned	-  Anything you learn or think is fascinating, please share.
+- #trash-tv	- For discussing TV and movies, but especially the stuff that's not good.
+- #virtual-coworking -	60 minute sessions to work quietly in tandem
