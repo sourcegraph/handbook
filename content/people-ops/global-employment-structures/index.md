@@ -17,7 +17,7 @@ The Sourcegraph subsidiary will pay these employees directly in the local curren
 Sourcegraph subsidiary employees go through team-specific onboarding.
 
 ## Employees of PEOs/EORs (if available)
-In countries where we don’t have a subsidiary, we will see if a third-party PEO or EOR (such as Remote.com) is available to provide employer-of-record services to employ a teammate outside the US as a PEO employee. 
+In countries where we don’t have a subsidiary, we will see if we have an existing relationship with a third-party PEO or EOR (such as Remote.com) who provides employer-of-record services to employ a teammate as a PEO employee.
 
 Currently, we use PEOs in the following countries:  the UK and the Netherlands. We will provide updates as we adopt PEOs for more countries.
 
@@ -36,7 +36,7 @@ The PEO will pay these employees directly in the local currency in accordance wi
 Employees via PEO/EOR are marked as hired in Greenhouse, have a start date that aligns with the cohort calendar, have a profile in Bamboo, and enjoy the same thorough general or team-specific onboarding enjoyed by regular teammates. 
 
 ## Contractors (where neither of the above options are viable)
-We engage contractors for certain projects on an as-needed basis. Such contractors use their own systems and tools. They have limited access to Sourcegraph systems. 
+We engage contractors for certain projects on an as-needed basis.  
 
 We also engage teammates outside the US as contractors where no Sourcegraph subsidiary or PEO is in place. If appropriate, Sourcegraph may convert these contractors to employees of Sourcegraph subsidiaries or PEOs once available or after a certain period of time. 
 
@@ -46,15 +46,15 @@ Contractors sign consulting agreements with Sourcegraph. The agreement depends o
 ### Benefits
 Contractors are not eligible for employee benefits such as healthcare. However, contractors may expense certain costs incurred in performing their duties. 
 
-Full-time, indefinite term contractors receive the same compensation as full-time US teammates, regardless of the contractor’s location. We want to give teammates the flexibility to work from anywhere in the world, and contracting is the only structure that fully allows us to offer that. We have kept all offers and roles on a US salary rather than adjusting for cost of living by location. The intention is that this difference would allow teammates to cover the benefits we are unable to provide on a contracting structure. Full-time contracting teammates can expense recurring expenses as outlined in our handbook.
+Full-time contractors receive competitive service fees based on US standards, regardless of the contractor’s location. We want to give teammates the flexibility to work from anywhere in the world. 
 
 ### Payments
 Contractors submit an invoice at the end of each month in Veem or Bill.com, including any reimbursable expenses. 
 
 ### Onboarding
-Contractors generally don’t go through team-specific onboarding, except for full-time, indefinite term contractors or where the hiring manager flags an exception to the Talent and PeopleOps teams. 
+Contractors generally don’t go through team-specific onboarding, except for full-time contractors or where the hiring manager flags an exception to the Talent and PeopleOps teams.
 
-## Temporary Contractors
+## Temporary Contractors (very short-term, likely less than 3 months)
 As we’re building a company for the long-term, we rarely take on temporary contractors in any country (including the US) unless under exceptional circumstances, like once-off projects or to cover for an existing teammate who will be away for a short period of time.  Temporary contractors are independent contractors who supply work or services to us on an “as needed” basis, use their own systems and tools to do so, and invoice us monthly for the work they’ve done. While we strive to make them feel welcome and support their success in their short time with us, they are not considered teammates, and some of their access to our systems, meetings and benefits may be limited. 
 
 ### Contracts
