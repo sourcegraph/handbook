@@ -33,19 +33,6 @@ Keep in mind that providing ongoing feedback is distinct from [disagreeing with 
 
 (To be added!)
 
-## Project roles
-
-When a project has multiple stakeholders, it's useful to identify specific levels of participation through project roles. Each project should clearly state who is:
-
-1. **Responsible:** Those who do the work to get things done.
-2. **Accountable:** The individual who is ultimately responsible for the project outcome. There must only be one person in this role.
-3. **Consulted:** Those who are subject matter experts, who are consulted throughout the project through feedback cycles.
-4. **Informed:** Those who are kept up-to-date on the project, but aren't involved in providing feedback while the project is underway.
-
-One person can have multiple roles: someone may be both responsible for delivering on a project, and accountable for its outcome.
-
-By identifying these roles up-front, before a project is underway, the team will have clarity on who to get input from when [making decisions](decisions.md) and what level of participation is expected from each stakeholder.
-
 ## Create a positive environment
 
 As a globally-distributed, asynchronous-first company, each of us is responsible for creating positive, respectful, and safe environments for seeking and giving feedback, by being mindful of how our voice and tone may be perceived.
