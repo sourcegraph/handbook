@@ -45,6 +45,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 - [Kap](https://getkap.co/) open source screen recorder for MacOS
 - [CleanShot X](https://cleanshot.com/) is a paid but incredibly good screenshot/GIF/video  recording tool for macOS.
 - [Screenflow](http://www.telestream.net/screenflow/overview.htm) is a paid video recording product that allows you to record your screen and webcam at the same time.
+- [Alfred](https://www.alfredapp.com/) is a macOS productivity tool that allows you to set up shortcuts via hotkeys or keywords, create reusable text snippets, build workflows for things you commonly do on your laptop, and has offers a multi-day clipboard history.
 
 ## Miscellaneous
 
