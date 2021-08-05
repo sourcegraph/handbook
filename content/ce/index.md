@@ -43,19 +43,21 @@ This continuity means we give customers consistent and high-quality service from
   - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
   - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
   - [Manuel Ucles](../company/team/index.md#manuel-ucles)
+  - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
+  - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
+  - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
 - Customer Engineers (US East)
-  - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
   - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
+  - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
   - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
   - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
-
+  - [Shawn King](../company/team/index.md#shawn-king-he-him)
 
 
 
 ## Open Roles
 
 - [Customer Engineer - Remote, US](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-- [Customer Engineer - Remote, London](https://boards.greenhouse.io/sourcegraph91/jobs/4019077004)
 - [Customer Engineer - Remote, Singapore](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - [Manager, Customer Engineering - Remote, US](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
 
