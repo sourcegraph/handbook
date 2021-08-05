@@ -3,7 +3,8 @@
 Creating a new managed instance involves following the steps below.
 
 1. Create a issue with the managed instance template in the `sourcegraph/customer` repository.
-1. Create a new GCP project `sourcegraph-managed-$COMPANY` under the "Managed instances" folder in the Sourcegraph GCP organization.
+1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
+    - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details
 1. Create GCP service account credentials:
     - From console.cloud.google.com select the project > **APIs & Services** > **Credentials** > **Create credentials** > **Service account**
     - Service account name: `deploy`
