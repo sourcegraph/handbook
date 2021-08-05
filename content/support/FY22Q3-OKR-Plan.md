@@ -27,8 +27,11 @@ In support of our product/engineering Q3 objective to *Make cloud and enterprise
 
 ### 3 Retro key Q2 tickets
 * Workgroup: Giselle, Gabe, Alex
+* Channel: [#wg-q2-ticket-retro](https://sourcegraph.slack.com/archives/C02A8B3CEH1)
 * Details: The goal is to see what we can change within CS and/or if we have requests of any other teams
-  * Go through [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) April 30 - ? `is:issue created:2021-04-30..2021-08-04 label:rfh` (double check the end date here) 
+  * Go through [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) May 1, 2021 - July 31, 2021
+  * [Working notes document](https://docs.google.com/document/d/1cxjPXLxtwZ_TXy66Dv0fl-E96ko3WsY5ERVn9nXyNL0/edit)
+  * [Working sheets document](https://docs.google.com/spreadsheets/d/1Gmsa-ZgIsiXj6feXVl2rlepoQf8GEM-5H3tGMxersdY/edit#gid=0)
 
 ### 4 What logs, when cheat sheets
 * Workgroup: Adeola, Amber, Stompy
