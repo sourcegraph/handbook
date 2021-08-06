@@ -4,13 +4,13 @@ Our team works in biweekly iterations applying SCRUM principles. Each sprint has
 
 We want to **focus on the sprint and have the flow** without constantly switching contexts. We also want to be **predictable with our commitments**. At the same time, we acknowledge that **there will always be unplanned work that needs our urgent attention**. 
 
-We are establishing the **operational rotation** to predictably deliver sprint goals and provide the necessary support to other teams. Each iteration, a **single engineer** from the team will play a goalie role and take responsibility for all open requests for assistance. It's a **rotation-based** assignment with a defined [schedule](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/b553cefc-2466-4ad2-ad0c-66937c790bbf). All requests for help that fall into this category will be worked on within this engineer's **regular office hours**. We are tracking these requests in a separate [Core Application Support Github project](https://github.com/orgs/sourcegraph/projects/153#card-65409816) to keep us organized and transparent.
+We are establishing the **operational rotation** to predictably deliver sprint goals and provide the necessary support to other teams. Each iteration, a **single engineer** from the team will play a goalie role and take responsibility for all open requests for assistance. It's a **rotation-based** assignment with a defined [schedule](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/b553cefc-2466-4ad2-ad0c-66937c790bbf). All requests for help that fall into this category will be worked on within this engineer's **regular office hours**. We are tracking these requests in a separate [Core Application Support GitHub project](https://github.com/orgs/sourcegraph/projects/153#card-65409816) to keep us organized and transparent.
 
 **_IMPORTANT: Operational rotation and on-call rotation are two separate roles with different responsibilities._**
 
 ## Responsibilities of the engineer on operation rotation
 - Be responsible for all types of interruption work so other team members can focus on sprint goals.
-- Provide customer support by working on support requests for help ([#rfh](https://github.com/sourcegraph/customer/issues?q=label%3Ateam%2Fcore-application+label%3Arfh) in Github)
+- Provide customer support by working on support requests for help ([#rfh](https://github.com/sourcegraph/customer/issues?q=label%3Ateam%2Fcore-application+label%3Arfh) in GitHub)
 - Answer questions and provide support to other teams on [#core-application](https://sourcegraph.slack.com/archives/CHPC7UX16) and [#ask-prod-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W) Slack channels
 - Review and merge PRs from other teams
 - Regularly update the team about the current state of support escalations, SLAs, and any risks connected with interruption work.
