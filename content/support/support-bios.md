@@ -14,6 +14,7 @@ Our README expands on our profile in [the company team directory](https://about.
 * Jason [README](jason-readme.md)
 * Kelvin Lee [README](kelvin-lee-readme.md)
 * Mariam [README](mariam-readme.md)
+* Michael [README] (michael-readme.md)
 * Stompy [README](stompy-readme.md)
 * Warren [README](warren-readme.md)
 * Virginia [README](virginia-readme.md)
