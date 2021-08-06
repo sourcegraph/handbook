@@ -4,27 +4,36 @@ According to the Oxford dictionary, *triaging* or *triage* is the act of decidin
 When a customer posts a question/issue/problem in our shared slack channel or email, they end up in the *triage tickets* view in Zendesk.
 What this means is that the customer issue needs to be understood before it’s assigned/picked up by a customer support engineer, which happens in the *Unassigned tickets* view.
 
+## The speed at which to triage
+In order to set-up the team for success meeting our internal 1-hour SLA, it is critical that the triage team triages every ticket that comes in within ~10 minutes of it coming in. 
+
 ## How to triage like a pro
-Step 1:
-In the triage view, the first step is to open a ticket and understand the context of the message. Slow down and have a closer look at the content and the medium from which the message originated (emails tend to be rare). Is this related to another open issue? Is this a new issue? Is this not an issue at all?
+* **Step 1:** In the triage view, the first step is to open a ticket and understand the context of the message. Slow down and have a closer look at the content and the medium from which the message originated (emails tend to be rare). Is this related to another open issue? Is this a new issue? Is this not an issue at all?
 
-P.S: Internal notes are the default reply option in Zendesk.
+* **Step 2:** Identify if there is action for CS or not
+	* If there is an action for CS, go to step 3
+	* If there is no action for CS, go to step 8
 
-Step 2:
-Making an internal note for the rest of the team to understand what is required or what your decision was is really key. We are able to pick up context faster and jump in to pick up the ticket.
-Internal notes are considered reminders and guides about the customer issue. They’re visible in Salesforce and to everyone in the company who has access to Salesforce. Please make sure to remind each other to change the requestor so that we can have high data integrity in Zendesk.
 
-Step 3:
-On the left panel, under *Tags*, select, *triaged*. You’ll want to submit the ticket as open now before going to the next step.
+* **Step 3:** Before you do anything else, if the case came in via Slack, you will need to manually trigger the SLA counter. To do so, leave the requester as the Zendesk Slack Bot and change from internal note to public reply and send "triggering SLA counter" as a public reply (send it by saving the case as "open." Don't worry, this goes to a no-reply email. If the case came in via email, this step isn't necessary. 
 
-Step 4:
-On the left panel, under the *Select Assignee* tab, pick *Assign to this group* and submit the ticket as open one more time -- this will make sure the ticket lands in the *Unassigned queue* (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).  It's important for data integrity, to ensure that we select Virginia as the assignee for tickets that don't require CS action.
+* **Step 4:** If the case came in via Slack, change the requestor to the person who requested it. This is not necessary if the ticket came in via email. 
+
+* **Step 5:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision. 
+
+* **Step 6:** On the left panel, under *Tags*, select, *triaged*.
+
+* **Step 7:** On the left panel, under the *Select Assignee* tab, pick *Assign to this group* and submit the ticket as open -- this will make sure the ticket lands in the *Unassigned queue* (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).  
+
+* **Step 8:** If the case came in via Slack, change the requestor to the person who requested it. This is not necessary if the ticket came in via email. 
+
+* **Step9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. 
 
 ## FAQs
 
 ### 1. Whose responsible for triaging?
 
-Virginia is responsible for triaging, and all CSEs are welcome to triage if they are ready to pick up and work a ticket and they see Virginia hasn't yet triaged the new tickets.
+Virginia, Stompy, and Carl are responsible for triaging. If needed, Adeola, Beatrix, and Warren can serve as back-up.
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 
@@ -43,4 +52,4 @@ Yes, we have a few customers listed in our [Customer Exception list](customer-ex
 
 ### 6. What do I do when I see a company update in the triage queue?
 
-We sometimes get all company updates coming to the support mailbox. Company updates could be meeting updates etc. When you come across these updates, from a data integrity perepective, please go ahead and delete them.
+We sometimes get all company updates coming to the support mailbox. Company updates could be meeting updates etc. When you come across these updates, from a data integrity perspective, please go ahead and delete them.

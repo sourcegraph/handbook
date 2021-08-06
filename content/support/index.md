@@ -41,6 +41,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 More details about each team member in [our team READMEs](support-bios.md).
 
 ## We know that we are successful when we …
+At the team level and at a very high level, we always want the following to be true:
 
 * **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 * **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
@@ -49,8 +50,20 @@ More details about each team member in [our team READMEs](support-bios.md).
 	* [FY22Q2 OKR plan](FY22Q2-OKR-Plan.md)
 	* [FY22Q3 OKR plan](FY22Q3-OKR-Plan.md)
 
+As an individual CSE, as I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
 
-In addition to these top level key performance indicators (KPIs), we will have several more to help us uncover any team health issues as quickly as possible and look at any interesting trends that could result in product, practice, and/or staffing improvements. For example:
+1. I enact our company values and team guiding principles in all of my work (customer communication, workflow, internal communication, etc)
+2. I take an average of at least 1 new case each day (5-7 a week); as volume allows
+3. I provide an initial response to each case for which I take responsibility within 1 hour of the customer requesting help
+4. I remain responsive to our customers throughout, aiming to reply within minutes to each reply they send me and letting no more than a day (counted as 24 hours) pass between my replies (being sure that I have set expectations with the customer on when they will hear from me again and what I am doing in the meantime)
+5. I resolve the cases for which I am responsible in 7 days or less (on average)
+6. I rarely have more than 5 active cases at a time
+7. I work toward team self-sufficiency by always asking my teammates for input/help before engaging engineering and by ensuring what I learn along the way is reflected in our docs or the handbook (whichever is most relevant)
+
+If ever you feel like success isn’t possible as outlined above, talk to your manager. Their job is to help figure out a path forward so you can feel like your favorite self whilst working (and hopefully whilst enjoying all other aspects of life, too!).
+
+
+In addition, we also use several additional key performance indicators (KPIs) to help us uncover any team health issues as quickly as possible and look at any interesting trends that could result in product, practice, and/or staffing improvements. For example:
 
 * Total case volume
 * Type of case (how-to question, defect, product improvement)
