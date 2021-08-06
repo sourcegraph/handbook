@@ -47,13 +47,7 @@ Here are some books that multiple people on the team have read and recommend. If
 - [Radical Candor](https://www.radicalcandor.com/the-book/) - How to be a great leader by caring personally and challenging directly.
 - [An Elegant Puzzle](https://lethain.com/elegant-puzzle/) - A field manual on how to do engineering management. Reads like a well structured markdown file.
 - [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756) - A model of how to think about what makes a highly effective team paired with a fictional story that illustrates the model.
-- A few members of the engineering management team will be reading [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) and doing some [facilitated small group discussions](../support/support-values-enablement.md#part-2-deep-dive-on-be-welcoming-and-inclusive). This is like a small scale beta test of [one step of our plan to invest in diversity, equity, and inclusion this year](../communication/dei.md#unconscious-bias). The tentative plan for the first cohort (can be adjusted based on availability of the actual people in the first cohort) would be: {#the-leaders-guide-to-unconscious-bias}
-  - Kickoff email week of May 17
-  - Session 1 week of May 24
-  - Session 2 week of June 7
-  - Session 3 week of June 21
-  - Session 4 week of July 5
-  - Session 5 week of July 19
+- [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) ([facilitated small group discussions](../support/support-values-enablement.md#part-2-deep-dive-on-be-welcoming-and-inclusive).
 
 ## Temporary Management Positions
 
