@@ -4,7 +4,9 @@ At Sourcegraph, every teammate has agency over how they create a balance between
 
 This balance looks different from person to person and may be reliant on a number of factors, including a teammate’s preferred working style, location, and family obligations. For that reason, we empower our teammates to have agency over their working times, the vacations they take, the time they need to recharge, and the number of hours they can put in over any week without losing focus or motivation. Here are some basic guidelines to help our teammates navigate their paid time off for rest, paid time off for reasons other than rest, and working hours.
 
-Please visit this page to see how to submit your PTO:[submitting time off](submitting-time-off.md).
+**Please visit this page to see how to submit your PTO**: [submitting time off](submitting-time-off.md).
+
+- **Important**: please record all of your PTO (including public holidays) in Roots as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in #people-ops on Slack.
 
 ## Paid time off (for rest)
 
@@ -15,13 +17,12 @@ Our company-wide policy is unlimited paid time off in exchange for achieving wor
 
 ## Paid time off (for other reasons)
 
- -  **Wellbeing leave**: we trust you to practice agency over your wellbeing, and provide wellbeing leave to take if you are ill or need time away from work to regulate your mental or physical wellbeing. Additional wellbeing leave is also warranted if you’ve been stretched in supporting your team through growth, so that you can recalibrate.
+-  **Wellbeing leave**: we trust you to practice agency over your wellbeing, and provide wellbeing leave to take if you are ill or need time away from work to regulate your mental or physical wellbeing. Additional wellbeing leave is also warranted if you’ve been stretched in supporting your team through growth, so that you can recalibrate.
 - **Life leave**: we understand that sometimes “life happens” and you’ll need time off to do things that are not necessarily restful. This could include caring for a family member, immigration or legal appointments, taking a pet to the vet, or moving homes.
 
 **Important**: please record all of your PTO (including public holidays) in [Roots](https://about.sourcegraph.com/handbook/people-ops/submitting-time-off) as far in advance as possible to notify your manager. If you have any questions about recording PTO in Roots, please contact people-ops@sourcegraph.com or drop your question in #people-ops on Slack.
 
 If you need extended time that will impact your ability to deliver your work or may affect your teammates, seek guidance from your manager so we can understand how to support you.
-
 
 ## Working hours
 -   At Sourcegraph, results matter more than the hours that you put in. We expect our teammates to apply personal agency over how many hours they can stay focused or are needed to achieve the results they want to achieve, and regulate their rest as they see fit.
@@ -31,6 +32,6 @@ If you need extended time that will impact your ability to deliver your work or 
 -   Some teammates prefer to work in a really flexible way, which can sometimes mean that they’re online in unusual hours or days. Others prefer a set schedule. Both are valid options. Moreover, due to our global team one person’s weekend can be someone else’s weekday. There is no expectation that teammates will be responsive over their weekend, in the evenings or while on vacation, unless it’s been agreed with the appropriate notice, e.g., on-call duty.
 - Tip: [Configure](https://about.sourcegraph.com/handbook/engineering/github-notifications#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email. After that it is just a matter of not checking your work email (or Slack) at times that you don’t want to do work. Slack has settings to pause notifications, and you can remove work email from your phone if that would help you not check it during non-work times.
 
-When you’ve decided how to take your paid time off, capture the paid time off in Roots and select the appropriate category, update your availability across channels (Email, Slack, Google Calendar, etc.), and let any relevant stakeholders know you won’t be available. Capturing your time off in Roots is so we can stay compliant with countries where we’re required to track paid time off, but more importantly, so we can measure if our paid time off offering is effective at the company level and across all teams and departments.
+When you’ve decided how to take your paid time off, capture the paid time off in Roots and select the appropriate category. This will update your availability in Slack and Google Calendar. Please update your availability across all other channels including Google Mail and let any relevant stakeholders know you won’t be available. We want to capture your time off in Roots so we can stay compliant with countries where we’re required to track paid time off, but more importantly, so we can measure if our paid time off offering is effective at the company level and across all teams and departments.
 
 Questions and/or unusual situations can be directed to the People Ops team, either via email (people-ops@sourcegraph.com) or Slack (#people-ops), who are happy to provide guidance!
