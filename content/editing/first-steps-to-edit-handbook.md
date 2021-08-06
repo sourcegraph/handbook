@@ -26,19 +26,18 @@ Once this is done:
 1. Visit the handbook page you want to edit on the handbook.
 2. Press the *Edit this page* button in the sidebar
 
-IMAGE 1
-
+<img width="60%" height="60%" src="img1.png">
 
 3. In the text editor, make your edits. 
 The document is in a format called Markdown. It lets you use headings, links, bold, lists, etc., in a plain text file. You’ll have to follow certain guidelines if you want to format your text. For example, as you can see from the image below, adding a # before text will format it as a title. 
  
-IMAGE2
+<img width="60%" height="60%" src="img2.png">
 
 *Take a look at this [cheat-sheet](https://www.markdownguide.org/cheat-sheet/) that has the basics.* 
  
 It is not always easy, especially in the beginning, to imagine how your edit is looking. You can click on the *Preview changes* tab on top of the text editor to preview how the changes will look:
 
-IMAGE3
+<img width="60%" height="60%" src="img3.png">
 
 4. Once you’ve finished making changes, you’ll have to commit the changes to a branch. 
 First, write a small title to your commit on the *Update index.md* field. This title should describe your commit in a way that other teammates will easily know what this is about. For example, “Adding my bio to the handbook” or “Removing deprecated onboarding process”.
@@ -46,7 +45,7 @@ First, write a small title to your commit on the *Update index.md* field. This t
 5. Now it’s the moment you commit your changes. There are two options:
 - Commit the changes directly to the main branch
 
-IMAGE4
+<img width="60%" height="60%" src="img4.png">
 
 This adds your edits directly to the handbook. However, **you shouldn’t use this option.**
 
@@ -55,7 +54,7 @@ This adds your edits directly to the handbook. However, **you shouldn’t use th
 
 A pull request (PR) is when we request in GitHub for someone else to review our work for any possible errors or flaws before finalizing changes. For example, if you had written an article, and you were almost ready to publish it but first you want someone else to review it. They have the option to provide feedback through comments or approve it for publishing. Once a PR is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the main branch. \
 
-IMAGE5
+<img width="60%" height="60%" src="img5.png">
 
 For example, if you want to make a change in the communication process between your team and another team, you should include teammates from both teams as reviewers. They will look at your proposed changes, comment on them, so you can make the appropriate changes and finally, when it’s approved, you’ll be able to merge it to the main branch. 
 
@@ -69,8 +68,7 @@ To finish opening the PR, click on *Propose changes*.
 
 Click on *Reviewers* to the right and choose the people you want. 
 
-IMAGE6
-
+<img width="60%" height="60%" src="img6.png">
 
 Keep in mind that some edits don’t need reviewers, for example, editing a typo or adding yourself to the Team page. 
 
@@ -78,17 +76,17 @@ Keep in mind that some edits don’t need reviewers, for example, editing a typo
 
 8. You should wait for all the checks to pass. This means there are no issues or conflicts. If any of them don’t pass, you can ask anyone on the #handbook channel or tag @handbook-support for help on identifying them. 
  
-IMAGE7
+<img width="60%" height="60%" src="img7.png">
 
 You can click on the *Files changed* tab on the top to see the actual changes (called diffs). In red you’ll see what has been removed and in green everything that has been added: 
 
-IMAGE8
+<img width="60%" height="60%" src="img8.png">
 
 9. Once the PR has passed all checks, and if you assigned reviewers, once those reviewers have approved it, click on *Squash and merge* in the *Conversation* tab. 
 
 10. And finally, click on *Confirm squash and merge*.
 
-IMAGE9
+<img width="60%" height="60%" src="img9.png">
 
 Merging your pull request, means that everything went well and you want the changes to be merged to the main branch. In about 5 minutes you’ll be able to see them live in the handbook.
 
@@ -96,7 +94,7 @@ Now that you know how to make a PR, watch [this video](https://youtu.be/MsIGvw0I
 
 If you’ve asked someone to review your pull request, you’ll find some comments like these:
 
-IMAGE10
+<img width="60%" height="60%" src="img10.png">
 
 You will be able to resolve the conversation, edit the commit and then merge.
 
