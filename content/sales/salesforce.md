@@ -209,11 +209,11 @@ Contacts are synced as Leads in Salesforce, and become Opportunity/Account/Conta
 
 ### Salesforce to HubSpot sync
 
-Any update on the lead/contact in Salesforce will sync back to HubSpot (name, email, MQL checkbox, etc...). Companies and opportunities will not be synced back; Salesforce is the source of truth for these objects. 
+Any update on the lead/contact in Salesforce will sync back to HubSpot (name, email, MQL checkbox, etc...). Companies and opportunities will not be synced back; Salesforce is the source of truth for these objects.
 
 ### What HubSpot still does
 
-- Everything marketing (email campaigns, workflows, lead capture/forms, including NPS scores)
+- Everything marketing (email campaigns, workflows, lead capture/forms, including NPS, MQL, and PQL scores)
 - Links to customers from RFCs, GitHub issues, etc. are still accessible. This will eventually be deprecated
 
 ## Salesforce Automation
