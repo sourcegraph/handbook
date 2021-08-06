@@ -37,7 +37,7 @@ WIP
 
 ## What we offer our teammates
 
-- [How we employ people globally](global-employment-structures.md)
+- [How we engage talent outside of the US](how-we-engage-talent-outside-the-us/index.md)
 - [How we structure compensation](compensation/index.md)
   - [How to create an offer](compensation/offers.md)
   - [Equity and stock options FAQ](compensation/equity-faq.md)

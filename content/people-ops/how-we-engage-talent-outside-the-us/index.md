@@ -1,4 +1,4 @@
-# Ways we engage talent outside of the US
+# How we engage talent outside of the US
 Being an all-remote company without entities outside of the US yet, we adopt different ways of engaging talent across the world. Here we outline the different ways we do this outside of the US, and the considerations and limitations associated with each type, for hiring managers and referring teammates to be aware of.
 
 ## Employees of Sourcegraph subsidiaries (once available)
