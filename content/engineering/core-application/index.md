@@ -4,49 +4,43 @@
 
 While you could think this is an angry cloud, it's actually a fierce and determined one 😃.
 
-The core application team owns a number of [fundamental areas](#areas-of-ownership) in our product and code base.
-
-Our current work-streams are:
-
-1. **Core application**: Building, securing and scaling our multi-tenant hosted version of Sourcegraph for customers that do not want to deploy Sourcegraph on-premise. Also meeting the needs of larger and larger enterprises to support those deals (e.g. Perforce support)
-2. **Backend platform**: Make it easy for teammates of different experience levels to onboard and contribute to backend code. Hide and remove non essential complexity from engineers working on new product features and use cases. Promote and champion consistency and simplicity across all backend code by building shared tools, libraries and infrastructure for common use cases. Scale and maintain said infrastructure. Create leverage for and accelerate other teams.
-
 ## Areas of ownership
+The Core Application team has broad [area ownership](areas-of-ownership.md) within the Sourcegraph product delivery organization. We are responsible for [code host connection and repository management](areas-of-ownership.md#code-host-connections-and-repositories-management), [administration experience](areas-of-ownership.md#administration-experience), [licensing, finance and subscription management](areas-of-ownership.md#licensing-and-subscription-management), [authorization, authentication, and IAM](areas-of-ownership.md#identity-and-access-management). The team also owns other [platform-level developer enablement themes](areas-of-ownership.md#developer-enablement).
 
-- Authorization and authentication
-- Repository management (gitserver, repo-updater, src-expose)
-- Data storage and access libraries
-- GraphQL API
-- License generation and enforcement
-- Admin and user settings
-- Analytics
+## Members 
+
+<!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
+
+- [Ryan Phillips](../../company/team/index.md#ryan-phillips-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
+- [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
+- [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
+  - [Joe Chen](../../company/team/index.md#joe-chen)
+  - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
+  - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
+  - [Artem Ruts](../../company/team/index.md#artem-ruts-he-him)
+  - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
+  - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
+  - Milan Freml (Aug 9)
+  - Rafal (Oct 11)
+
+## How to contact the team and ask for help
+- Please ask questions and submit requests for assistance via [#core-application](https://sourcegraph.slack.com/archives/CHPC7UX16) Slack channel 
+- Use `@core-app` to mention the team in Slack
+- Use [team/core-application](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/core-application) label to tag the team in GitHub.
+- Requests for assistance from Customer Support and other teams are triaged, worked on, and resolved based on their priority level by a team member on [operational rotation](operational-rotation.md).
+- See [Core Application Support board](https://github.com/orgs/sourcegraph/projects/153) for information about all tracked requests and their current status. 
 
 ## [Goals](goals.md)
 
 See [goals](goals.md)
 
-## Contact
-
-- #core-application channel or @core-app in Slack
-- [team/core-application](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/core-application) label in GitHub.
-
-- #backend-platform channel in Slack
-- [team/backend-platform](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/core-application) label in GitHub.
-
-## Resources
-
-- [Cloud roadmap](https://sourcegraph.productboard.com/feature-board/2119755-cloud)
-- [GitHub Projects](https://github.com/orgs/sourcegraph/projects?query=is%3Aopen+Cloud+OR+Core+OR+Backend)
-- [Manual migrations](manual_migrations.md)
-
-## On-call
-
-- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+monitoring.ObservableOwnerCoreApplication&patternType=literal)
-- [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/01b8adfc-9b85-462b-a841-945791c17e9e/main)
-
 ## Processes
 
-We have two week cycles starting on Wednesdays. We do a sync planning the day before (Tuesday) where we determine what each teammate works on. We use JIRA to track that work. We do a sync retrospective before the planning meeting, and have a general team sync meeting every other Monday. We use Geekbot in the #core-application-sync channel for daily updates.
+We have two week sprints starting on Wednesdays. We do a sync planning the day before (Tuesday) where we determine what each teammate works on. We use [JIRA](https://sourcegraph.atlassian.net/secure/RapidBoard.jspa?rapidView=5&projectKey=COREAPP&view=planning&issueLimit=100) to track that work. We do a sync [retrospective](https://app.retrium.com/team-room/acf6e310-7bbb-45e0-8a9e-bbc1f4305077) before the planning meeting, and have a general team sync meeting every other Monday. We use Geekbot in the [#core-application-sync](https://sourcegraph.slack.com/archives/C01L84TMHMJ) Slack channel for daily updates.
+
+### Operational rotation - how do we provide support to other teams 
+
+We are establishing the [operational rotation](operational-rotation.md) to predictably deliver sprint goals and provide the necessary support to other teams.
 
 ## Team norms
 
@@ -77,17 +71,13 @@ To track GitHub PRs automatically in JIRA, use the JIRA ticket number anywhere i
 
 Feel free to tag `@core-app` on Slack or anyone directly as and when required. It is acceptable to tag people to get their attention. On the contrary it is also acceptable to turn off your notifications when you want to focus and do not want to be interrupted.
 
-## Members
+## On-call
 
-<!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
+- [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+monitoring.ObservableOwnerCoreApplication&patternType=literal)
+- [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/01b8adfc-9b85-462b-a841-945791c17e9e/main)
 
-- [Ryan Phillips](../../company/team/index.md#ryan-phillips-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-- [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
-- [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
-  - [Joe Chen](../../company/team/index.md#joe-chen)
-  - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
-  - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
-  - [Artem Ruts](../../company/team/index.md#artem-ruts-he-him)
-  - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
-  - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
-  - FQ4 hire
+## Resources
+
+- [Cloud roadmap](https://sourcegraph.productboard.com/feature-board/2119755-cloud)
+- [GitHub Projects](https://github.com/orgs/sourcegraph/projects?query=is%3Aopen+Cloud+OR+Core+OR+Backend)
+- [Manual migrations](manual_migrations.md)
