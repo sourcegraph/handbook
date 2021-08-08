@@ -2,13 +2,13 @@
 
 In support of our product/engineering Q3 objective to *Make cloud and enterprise successful at massive scale*, one way we will measure our success in achieving this goal is for the **Customer Support team to maintain 100% support issue resolution within 7 days while only requiring help (filing a #rfh Github issue) on 10% (measured during last month of quarter)**. To accomplish this, we will…
 
-|#|Status|Responsible|Task|
+|#|Status|Responsible|Project|
 |---|---|---|---|
 |1|In-progress|Warren|Add `src debug` command to `src-cli`|
 |2|In-progress|All CSEs|Make at least 45 doc updates/additions across the team|
 |3|In-progress|Giselle|Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App|
 |4|Not started|Adeola|Create cheat sheets of what logs are most needed in certain situations|
-|5|Not started|Beatrix|Make the [command generator](https://sourcegraph.github.io/support-tools/command-generator/beta/) customer-facing|
+|5|In-progress|Beatrix|Make the [command generator](https://sourcegraph.github.io/support-tools/command-generator/beta/) customer-facing and scalable|
 |6|Not started|Michael|Create database type solution to make it easy and reliable for CSEs to learn from past tickets|
 |7|Not started|Alex|Streamline key steps in CSE workflow|
 |8|In-progress|Carl|5 folks complete kubernetes certification|
@@ -22,6 +22,7 @@ In support of our product/engineering Q3 objective to *Make cloud and enterprise
 
 ### 2 Doc updates
 * Workgroup: All CSEs
+* Slack Channel: #wg-cse-tools
 * Details: Make at least 45 doc updates/additions across the team. These can be tied to cases or not. If not, be sure to link to the PR here:
 	* 
 
@@ -38,6 +39,7 @@ In support of our product/engineering Q3 objective to *Make cloud and enterprise
 
 ### 5 Command generator
 * Workgroup: Beatrix, Jason, Stompy, Adeola, Mariam, Kelvin
+* Details: Make the [command generator](https://sourcegraph.github.io/support-tools/command-generator/beta/) customer-facing and scalable. The goal is to develop a tool that can be later expanded to another tool seamlessly. 
 
 ### 6 CSE "database"
 * Workgroup: Michael, Jason, Ben, Gabe, Warren, Don
