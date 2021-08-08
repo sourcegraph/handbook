@@ -4,7 +4,7 @@ The Business Operations & Strategy (BizOps) team operates with the mission of dr
 
 ## Members
 
-- [Shaan Sheth](../../company/team/index.md#shaan-sheth-he-him), Director of Business Operations & Strategy
+  - [Dan Adler](../../company/team/index.md#dan-adler-he-him), VP Operations
   - [Eric Brody-Moore](../../company/team/index.md#eric-brody-moore), Business Operations Manager
   - [Farhan Attamimi](../../company/team/index.md#farhan-attamimi), Senior Data Operations Analyst
   - [Steph Hay](../../company/team/index.md#steph-hay-she-her), Senior Business Operations Analyst
@@ -12,8 +12,7 @@ The Business Operations & Strategy (BizOps) team operates with the mission of dr
 
 ## Functional areas
 
-- Product Operations
-- Customer Operations
+- Business Operations
 - [Data Operations](data_operations.md)
   - [Analytics](analytics.md)
 
