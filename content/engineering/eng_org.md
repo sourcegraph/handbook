@@ -65,7 +65,7 @@ Plans can change given new information!
 
 - [Nick Snyder](../company/team/index.md#nick-snyder-he-him), [VP Engineering](roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
     - Global code graph {#global-code-graph}
-        - Y.T. starting 2021-08-03. Nick acting director until then.
+        - [Yink Teo](../company/team/index.md#yink-teo-he-him) ([Director of Engineering](roles.md#director-of-engineering))
         - [Search core](search/core.md)
             - [Team: Search core](search/core.md#search-core-eng)
         - [Search product](search/product.md)
