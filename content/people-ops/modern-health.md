@@ -45,7 +45,7 @@ Based on our Sourcegraph plan with Modern Health, you and 3 of your dependents h
 
 ### Are my dependents eligible?
 
-Yes, coverage for dependents is included in your benefit.
+Yes, coverage for up to 3 dependents is included in your benefit.
 
 Dependents have the following complimentary sessions: 10 coaching sessions and 10 therapy sessions which they will receive separately from your reserved sessions.  
   
