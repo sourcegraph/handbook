@@ -38,6 +38,10 @@ See [goals](goals.md)
 
 See [onboarding](onboarding/index.md)
 
+## [Playbooks](playbooks/index.md)
+
+See [playbooks](playbooks/index.md)
+
 ## Processes
 
 We have two week sprints starting on Wednesdays. We do a sync planning the day before (Tuesday) where we determine what each teammate works on. We use [JIRA](https://sourcegraph.atlassian.net/secure/RapidBoard.jspa?rapidView=5&projectKey=COREAPP&view=planning&issueLimit=100) to track that work. We do a sync [retrospective](https://app.retrium.com/team-room/acf6e310-7bbb-45e0-8a9e-bbc1f4305077) before the planning meeting, and have a general team sync meeting every other Monday. We use Geekbot in the [#core-application-sync](https://sourcegraph.slack.com/archives/C01L84TMHMJ) Slack channel for daily updates.
