@@ -60,7 +60,7 @@ Communicate good candidates with any relevant parties. This could include other 
 
 ### Define the A/B test
 
-- Fill out all the following information in an [issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=AB-test&template=ab-test.md&title=A%2FB+test%3A+%3Cname%3E) with `A/B testing` as a linked project.
+- Fill out all the following information in an [issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=AB-test&template=ab-test.md&title=A%2FB+test%3A+%3Cname%3E), and add it to the [A/B testing project](https://github.com/orgs/sourcegraph/projects/192).
   - Define the target metric
   - Define the A, B (and more) versions
   - Define the length of the test, depending on the number of users you need, and check for statistical significance with a calculator ([example](https://www.optimizely.com/sample-size-calculator/)). Let BizOps know if you need to understand how much existing traffic there is to determine the expected length of the test
