@@ -4,6 +4,8 @@ Take a look at this high-level tutorial on how to edit the handbook. Here you wi
 
 <iframe src="https://drive.google.com/file/d/1SU0ACCm0dJZAK-OWxBqFeJvzvuwveZUT/preview" width="640" height="480" allow="autoplay"></iframe>
 
+If you cannot see the preview of the video properly, you can watch it [here](https://drive.google.com/file/d/1SU0ACCm0dJZAK-OWxBqFeJvzvuwveZUT/view?usp=sharing)
+
 You can also check out the steps here:
 
 If you want to make a change in the handbook, do it by creating a pull request (proposing an edit to the handbook). 
@@ -104,4 +106,3 @@ Finally and most importantly, **changes are not permanent**, so don’t be afrai
 
 Visit the handbook page on [editing the handbook](https://about.sourcegraph.com/handbook/editing) any time. You will find steps and videos that guide you through the process.
 
-[Video](https://youtu.be/MsIGvw0IEzo)
