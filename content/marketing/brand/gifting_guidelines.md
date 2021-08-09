@@ -9,7 +9,7 @@
 
 ## Branded swag
 
-Welcome to our Gifting Guidelines Page! Have a request for custom swag? Use the [Swag Request Form](https://app.asana.com/0/1200419124213353/list).
+Welcome to our Gifting Guidelines Page! Have a request for swag? Use the [Swag Request Form](https://app.asana.com/0/1200419124213353/list).
 
 >Note that adding new items to our inventory can take around 8+ weeks if a custom design is being created and applied to the item vs our standard branding and logo applications.
 
