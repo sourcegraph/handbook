@@ -6,6 +6,8 @@ Perforce is a version control system like Git, subversion, or mercurial. While g
 - To connect to the Perforce server, you'll need the Perforce cli installed locally. Use the command: `brew install --cask perforce`
 - The following environment variables configure your shell to point at the Perforce server. Set them to your `env` with the `export` command, or add them to your `.bashrc` or `.zshrc` file. <br />
 
+
+
 ```
 # .zshrc or .bashrc
 
@@ -21,6 +23,8 @@ Perforce dogfood is a service on our Sourcegraph dogfood cluster, for more info 
 ## Interacting with Perforce dogfood
 
 To add repos to the Perforce dogfood server follow the following procedure: <br />
+
+
 - [Dogfood Perforce server](#dogfood-perforce-server)
   - [Setting up](#setting-up)
   - [Interacting with Perforce dogfood](#interacting-with-perforce-dogfood)
