@@ -33,7 +33,7 @@ When your manager can make the case that you’ve had at least one quarter of hi
 Promotions from one level to another are considered in our quarterly [talent review](talent-review-process.md).
 An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
 
-You can learn more [here](talent-review-process.md#considerations-for-promotion).
+To learn more, see ["Considerations for promotion" in our talent review process](talent-review-process.md#considerations-for-promotion).
 
 <style>
   .container {
