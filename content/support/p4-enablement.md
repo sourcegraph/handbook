@@ -13,6 +13,7 @@ P4PORT=perforce.sgdev.org:1666 # This points the p4 cli at the dogfood server
 P4USER=admin                   # sets your user
 P4PASSWD=<session ticket>      # see details below, doesn't require string quotes
 P4EDITOR=/usr/bin/vim          # specifies the editor opened by some p4 commands
+
 ```
 
 Perforce dogfood is a service on our Sourcegraph dogfood cluster, for more info see its GCP [service details](https://console.cloud.google.com/kubernetes/service/us-central1-f/dogfood/tooling/perforce-server/overview?authuser=1&project=sourcegraph-dogfood).
@@ -34,7 +35,7 @@ To add repos to the Perforce dogfood server follow the following procedure:
 Interaction with the dogfood server requires authentication. Once you've set up your shell environment you'll need to generate a session ticket with your users password. You can find the [admin password](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/fac6hoq3ujb3xpxtllbijzyxta), and others on our shared 1Password account.
 
 1. Once your environment is set run `p4 ping` this will prompt you for the admin password, and is a good way to test your connection to the server.
-2. With your connection confirmed generate a session ticket with the following command: `p4 -u <p4.user> login -p -a` you'll be prompted for your user password, once you've entered it a session ticket will be printed to STDOUT. You may also run `p4 -u <p4.user> login -a` to set the ticket in `~/.p4tickets`, this allows you to skip step 3. This method will only work if you have no `P4PASSWD` env set.
+2. With your connection confirmed generate a session ticket with the following command: `p4 -u <p4.user> login -p -a` you'll be prompted for your user password, once you've entered it a session ticket will be printed to STDOUT. You may also run `p4 -u <p4.user> login -a` to set the ticket in `~/.p4tickets`, this allows you to skip setting `P4PASSWD` in your env, and will only work if you have no `P4PASSWD` variable in your env.
 3. Set the ticket generated in step 2 to your `P4PASSWD` env variable 
 4. p4 commands should no longer require a password. Note this ticket expires every 12 hours unless configured to do otherwise.
 
