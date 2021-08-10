@@ -49,6 +49,11 @@ Most "data pipelines" are SQL queries that turn raw ping data into clean dataset
 
 [Looker](https://sourcegraph.looker.com/) is a self-service tool with many pre-built reports and visualizations. The [onboarding doc](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md) is located in Looker. Reach out in the #analytics Slack channel if you have any questions, we're happy to help!
 
+## How to
+
+- Add metrics on [Sourcegraph Cloud](https://about.sourcegraph.com/handbook/ops/bizops/amplitude#adding-events-to-amplitude)?
+- Add metrics on [Sourcegraph on-prem](https://docs.sourcegraph.com/dev/background-information/adding_ping_data)?
+
 ### Quick links
 
 - [Sales](https://sourcegraph.looker.com/browse/boards/2)

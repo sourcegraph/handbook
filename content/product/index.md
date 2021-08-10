@@ -38,6 +38,7 @@ Product at Sourcegraph consists of [product management](product_management/index
 ### Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
+- [How to add metrics](../ops/bizops/analytics.md#How-to)
 
 ### Tools
 
