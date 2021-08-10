@@ -5,6 +5,7 @@ Perforce is a version control system like Git, subversion, or mercurial. While g
 ## Setting up
 - To connect to the Perforce server, you'll need the Perforce cli installed locally. Use the command: `brew install --cask perforce`
 - The following environment variables configure your shell to point at the Perforce server. Set them to your `env` with the `export` command, or add them to your `.bashrc` or `.zshrc` file.
+
 ```
 # .zshrc or .bashrc
 
@@ -13,6 +14,7 @@ P4USER=admin                   # sets your user
 P4PASSWD=<session ticket>      # see details below, doesn't require string quotes
 P4EDITOR=/usr/bin/vim          # specifies the editor opened by some p4 commands
 ```
+
 Perforce dogfood is a service on our Sourcegraph dogfood cluster, for more info see its GCP [service details](https://console.cloud.google.com/kubernetes/service/us-central1-f/dogfood/tooling/perforce-server/overview?authuser=1&project=sourcegraph-dogfood).
 
 ## Interacting with Perforce dogfood
