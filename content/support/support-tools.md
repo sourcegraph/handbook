@@ -38,6 +38,7 @@ There are some test environments created specifically for the Customer Support E
 * [Gerrit test instance ](https://gerrit.sgdev.org/)
 * [Bitbucket test instance ](https://bitbucket.sgdev.org/)
 * [Phabricator test instance ](https://phabricator.sgdev.org/)
+* [Dogfood Perforce](p4-enablement.md)
 
 > NOTE: You can find all the login credentials for the test instances in your 1Password account.
 
