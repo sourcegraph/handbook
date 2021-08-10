@@ -23,6 +23,11 @@ Creating a new managed instance involves following the steps below.
 1. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$COMPANY.sourcegraph.com` to the `default-global-address` IP (see ["Finding the external load balancer IP"](operations.md#finding-the-external-ips)) and follow the process there to `asdf exec terraform apply` it.
 1. Confirm all containers come up healthy (`docker ps` should report them as such)
 1. Create a PR for review.
+1. Create admin credentials in 1password:
+    - Open the 1password [Managed instances vault](https://my.1password.com/vaults/l35e5xtcfsk5suuj4vfj76hqpy/allitems) (ask @stephen, @bill, or @beyang to grant you access)
+    - **Add** > **Login** > enter **$COMPANY sourcegraph-admin** as the title
+      - **User:** `managed+$COMPANY@sourcegraph.com`
+      - **Password:** Change **length** to 40 and turn on symbols and digits > **Save**
 1. Access the Sourcegraph web UI ([instructions for port-forwarding](operations.md#port-forwarding-direct-access-to-caddy-jaeger-and-grafana))
 1. Set up the initial admin account (for use by the Sourcegraph team only)
    - Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
