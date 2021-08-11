@@ -36,7 +36,9 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
 - [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
 - [Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her) (Head of Customer Support - reporting to Beyang Liu, CTO)
-- 2 to-be-hired managers coming soon
+- BC (Manager) starting 2021-08-23
+- NO (Manager) starting 2021-08-23
+- TJ (Manager) starting 2021-08-23
 
 More details about each team member in [our team READMEs](support-bios.md).
 
@@ -114,7 +116,8 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
-* [Onboarding](customer-support-onboarding.md)
+* [CSE onboarding](customer-support-onboarding.md)
+* [Manager onboarding](customer-support-manager-onboarding.md) 
 * [Team README](support-bios.md)
 * [Team schedule](support-schedule.md)
 * [Team rituals](support-team-rituals.md)
