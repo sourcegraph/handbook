@@ -72,6 +72,11 @@ While the principle above is clear, how to apply it can be murky. Examples below
 - As a result, the Product and Marketing teams are the ones who are primarily responsible for the results of such a decision. In this case, greater impact will be felt on the Product and Engineering organizations versus Marketing, as they may have to reallocate teammates to this new team full-time.
 - Given the goal that would drive this decision is cross-functional, the heads of Marketing and Engineering should be consulted for input, or potentially even given [approver](#approvers) rights, but in this case, the [decider](#decider) is the head of the Product organization.
 
+#### Making a large change to the product
+
+- While the design of the overall product experience is a responsiblity of the product team, their work is dependant on execution by the engineering team. 
+- The [recommender](#recommenders) in these cases should consist of product and engineering team members responsible for the execution of the decision. The [decider](#decider) in this situation would be the designer or a product manager most closely responsible for the results of the effort.
+
 ## Highly cross-functional decisions
 
 There will be some situations where decisions have wide-reaching consequences for a number of teams. Changes to product pricing and packaging is a good example—it affects the sales team’s plans and drives a need for training; it affects product marketing and marketing research; it affects the finance team’s planning; it affects the product and engineering teams who have to build support for new packages; and more.
