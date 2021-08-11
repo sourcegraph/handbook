@@ -107,6 +107,8 @@ Our team is growing and to help our new teammates have the best onboarding exper
   - [Ólafur Páll Geirsson](../../company/team/index.md#olafurpg)
   - [TJ DeVries](../../company/team/index.md#tj-devries)
   - FQ3 hire
+  - FQ3 hire
+  - FQ4 hire
 
 ## Ownership
 
