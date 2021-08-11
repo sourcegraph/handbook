@@ -1055,6 +1055,19 @@
           37.79099803764377
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milan Freml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.269504547119137,
+          49.08297374955618
+        ]
+      }
     }
   ]
 }
