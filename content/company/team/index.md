@@ -1244,6 +1244,6 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 ## Ellie Dawson (she/her)
 - Sales Development Representative
 - Cincinnati, OH, USA  
-- Github: [elliedawson](https://github.com/elliedawson),
+- Github: [elliedawson](https://github.com/elliedawson)
 - [ellie.dawson@sourcegraph.com](mailto:ellie.dawson@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/elliefathman/)
--Ellie lives in Cincinnati, OH with her husband, Chase. After graduating from the University of Cincinnati, Ellie spent time as a technical recruiter working across a variety of skill sets. When she's not working, you can find her checking out the local restaurant scene, cycling and working out, reading, and playing with her pup, Holly!
+- Ellie lives in Cincinnati, OH with her husband, Chase. After graduating from the University of Cincinnati, Ellie spent time as a technical recruiter working across a variety of skill sets. When she's not working, you can find her checking out the local restaurant scene, cycling and working out, reading, and playing with her pup, Holly!
