@@ -1213,3 +1213,12 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - [yink@sourcegraph.com](mailto:yink@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/yinquanteo/), [@yinquanteo](https://twitter.com/yinquanteo), [GitHub](https://github.com/yinquanteo)
 - Start date: 2021-08-03
 - Yink is a Singapore🇸🇬 native and lives in San Francisco with his wife and [cat](http://instagram.com/maotheexplorer). He occassionally works on the road in his campervan. Before Sourcegraph, Yink held leadership roles at big and small tech companies and the Singapore military. Most recently, he led a product infrastructure org in Twitter Ads where he joined via an acquisition. He loves putting on sunblock to wakeboard, paddleboard, or kiteboard. If you come visit, he will probably make you a chirashi-don and matcha crème brûlée. Just bring some good 🍶/🍷/🧋. He dreams of the day Arsenal Football Club winning the Premier League. Yink has a B.S. in Electrical and Computer Engineering from Duke University.
+
+## Milan Freml (He/Him)
+
+- Software Engineer
+- Ružomberok, Žilinský, Slovakia 🇸🇰
+- GitHub: [kopancek](https://github.com/kopancek)
+- [you@sourcegraph.com](mailto:you@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/milan-freml)
+- Name pronounciation - almost the same as the city in Italy
+- Milan lives in a [small town](https://goo.gl/maps/vRzGwscRW66tsNdr6) in Slovakia with his wife and 2 small kids. He spent 4 years in Dublin, Ireland, where they have nice beer and whiskey, but he was not enjoying the rain much. Milan previously worked in Auth0 as a senior full stack engineer and before that in AWS in a similar role. He loves reading books 📚 (nowadays mostly science fiction and fantasy), cycling 🚲 (when it's not raining), traveling 🌄. He also cooks 👨‍🍳 and bakes bread and when kids allow, also drinks some 🍺 and plays some 🎮. He's also building his house 🏠
