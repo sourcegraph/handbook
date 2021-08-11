@@ -20,7 +20,7 @@ The Core Application team has broad [area ownership](areas-of-ownership.md) with
   - [Artem Ruts](../../company/team/index.md#artem-ruts-he-him)
   - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
   - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
-  - Milan Freml (Aug 9)
+  - [Milan Freml](../../company/team/index.md#milan-freml-he-him)
   - Rafal (Oct 11)
 
 ## How to contact the team and ask for help
