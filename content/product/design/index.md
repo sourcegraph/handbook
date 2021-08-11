@@ -1,132 +1,82 @@
-# Product Design
+# Product design
 
-<img width="60%" height="60%" src="design-team-logo.jpg" alt="Sourcegraph Design team logo">
+### Welcome to product design at Sourcegraph!
 
-The role of the product design team is to make validated decisions that enhance the user experience of Sourcegraph.
+The product design team exists to increase the value Sourcegraph delivers to its users.  We achieve this objective through thoughtful discovery, inspired design, careful validation, and close collaboration with all manner of roles throughout the company. 
 
-Here are a few of the things we strive to make true:
+We also seek to make it easier and more efficient to build Sourcegraph itself. Through the artifacts of our open process, we provide a forum where anyone in the company can provide valuable input that improves a project's outcome before a single line of code is written.
 
-- Advocate for our users by collaborating with them
-- Perform our due diligence when making design decisions, by researching and testing solutions within scope
-- Proactive, with a bias towards action
-- Communicate openly, and solicit feedback frequently
-- To be egoless when soliciting responses to our work
+## Team
 
-## Contact
+- [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) (she/her)
+- [Rob Rhyne](../../company/team/index.md#rob-rhyne) (he/him)
+- [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- S.L. (joining in August)
 
-- #design channel or @design-team on Slack
 
-## Working with design / requesting design work
+<img width="30%" height="30%" src="design-team-logo.jpg" alt="Sourcegraph Design team logo">
 
-Working with design should feel fluid, you should be able to open an issue or bring up a concern in Slack, and receive actionable feedback: either implementable, or a call to explore further.
+We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
-You should also not feel limited to words, images (sketches, or references made by editing the browser DOM) are also encouraged. 
+## Design team ethos
 
-### Tracking design priorities
+We know that we’re successful as a design team when we…
 
-The Design Team uses a [GitHub project board](https://github.com/orgs/sourcegraph/projects/66) for managing current and future work, design debt, and work requests.
+- **Collaborate effectively across disciplines to ship and iterate on a great product experience.** This means that we have a shared approach to the design process, that we build trust with each other and with our colleagues, and we consistently ship design solutions that solve product problems.
+- **Feel empowered to act with high agency to make our product, processes, and teams better.** Design is an inherently explorative and iterative process. We value high agency, and we have to actively create an environment of physiological safety, trust, and transparency.
+- **Advocate for and ship design outcomes that align with our [product design principles](../design_principles.md).**
+- **Improve Sourcegraph’s velocity by helping to ship more usable and delightful features in the first iteration.** Design often means more time up-front, but this reduces time-consuming rewrites, refactors, and technical and design debt that occurs when changes are made during development or after releases.
+- **Complete OKRs owned by our teams.** We’re successful when each of us is able to complete our OKRs in a sustainable way, while also contributing to the design team culture and rituals.
 
-Columns:
+## How we work
 
-- Design debt - issues connected to design debt that haven't been scheduled yet
-- **Backlog** - issues that need design work but don't have any development resources allocated and haven't been scheduled yet
-- **Coming soon** - no designer assigned yet, development resources have been allocated. Add **design deadline** to the issue, if possible
-- **Up next** - designer assigned, design work scheduled
-- In progress - design work actively being worked on
-- QA - design work done, designer is assisting the implementation
-- Measure success - design shipped, designer is working with the BizOps team to analyze the impact 
-- Done - success measured, all work completed to scope
+As a design team, we’re constantly reflecting and improving on how we work.
 
-### GitHub design labels
+### Design principles
 
-- **`needs-design`**: design work requests. Add to [Design priorities project](https://github.com/orgs/sourcegraph/projects/66) and if possible add a deadline.
-- **`design`**: design-oriented issues.
-- **`design-debt`**: issues connected to design debt.
-- **`design-docs`**: issues related to design documentation requirements.
+Our [product design principles](../design_principles.md) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
 
-### Requesting design work
+### Designing in the open
 
-If you need some design help:
+At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../company/values.md) to our work and thrive in our globally distributed, remote company.
 
-- Add the **`needs-design`** tag to your GitHub issue
-- Assign one of the designers if you know who will take care of the issue
-- Add your issue to the [design priorities project](https://github.com/orgs/sourcegraph/projects/66)
+Designing in the open means many things to us.
 
-Please clarify the urgency of the issue (adding a known deadline is encouraged) and if development resources have been allocated. It is important to focus the design team's attention on the work that can be implemented soon. 
+- **Our work and process is [transparent by default](../../company/values.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../company/values.md#high-agency) environment.
+- **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./reviewing_design/index.md).
+- **We create shared understanding**. We proactively communicate with teammates from all disciplines and backgrounds. We don't use jargon and don't expect others to have a deep design-specific understanding, and we look for gaps in understanding where we can help provide clarity.
 
-Use the #design Slack channel for any urgent matters or questions.
+Designing in the open is hard! As designers, it’s easy to want to hold back on sharing until we’re happy with what we have. It can be very uncomfortable for others to see the things we’re working on before we’re ready to share. But designing in the open also challenges us to improve our design communication and makes us better at collaborating asynchronously.
 
-## Lean UX design and velocity
+### Design process
 
-Sourcegraph ships. It has achieved product-market fit by hiring customer-focused employees, being truly agile in how it designs and develops features and by putting product in user’s hands and collecting feedback and usage metrics.
+Product design at Sourcegraph is low-process and highly adaptive. Every project is a little bit different, but we usually follow the same general approach where cross-disciplinary project teams move together through **Discovery** and **Delivery** phases.
 
-Design will support this key factor in Sourcegraph's success by introducing a lean experience design process.
 
-While design does adds time at the beginning of a project, it improves velocity in aggregate by helping ship more usable and delightful features in the first iteration. The assets generated by designers provide sales, engineers and stakeholders with the ability to test and modify a solution long before it is engineered. This  trait improves engineering velocity by reducing time-consuming rewrites, refactors and technical debt associated with changes made during development or after releases.
+- **The Discovery phase** provides space for the project team to collaborate on problem definition, [research](./research/index.md), ideation and experimentation, [testing](./research/index.md), and ultimately to converge on an outcome that the project team agrees to move forward into Delivery.
 
-## Design process
+- **The Delivery phase** is the tactical implementation of the outcome of the Discovery phase, usually by engineering, and results in shipping something that we can then [measure](./metrics/index.md) and evaluate.
 
-Our design process is documented here: **[Design process](design_process.md)**
+These discovery and delivery phases can be as large or as small as needed for the problem at hand. Often, the phases are implicit rather than clearly defined for smaller projects. The larger the effort, the more valuable it is to explicitly plan the activities that take place in each phase.
 
-## Design and interaction guidelines
+We avoid siloed work as much as possible. Instead of design and development phases, each discipline is involved end-to-end, and it’s likely that one discipline will be more involved than the others at different moments along the way. Similarly, we avoid hard handoffs as much as possible. When the Discovery phase is complete, every team member should have a deep understanding and agreement around what will move forward into Delivery and is responsible for shipping the project outcome.
 
-The process of designing for the Sourcegraph application has some special considerations. To help maintain consistency and reduce subjectivity we are documenting these items in our [design and interaction guidelines](./design-and-interaction-guidelines.md).
+- [Design artifacts](./artifacts/index.md)
+- [Visual design](./visual_design/index.md)
+- [Metrics](./metrics/index.md)
+- [Design critiques](./design_critiques/index.md) (Coming soon)
+- [Reviewing design](./reviewing_design/index.md)
+- [Intersecting with other teams](./intersecting_with_other_teams/index.md) (Coming soon)
+- [Research](./research/index.md)
+- [Tracking work](./tracking_work/index.md) (Coming soon)
+- [Requesting work](./requesting_work/index.md) (Coming soon)
+- [Team rituals](./team_rituals/index.md) (Coming soon)
+- [Design team onboarding](./onboarding/index.md) (Coming soon)
+- [Hiring](../roles/interviews/product_designer/index.md)
 
-## Design Principles
+## Toolkit
 
-Rules that help us make decisions in crucial moments of the design process.
-
-- **Always design with the advanced user in mind**
-
-Our users are developers who are accustomed to using complex interfaces. They are more knowledgeable and need less guidance than regular web users. They also have higher expectations and are less forgiving. We should aim to provide complex but comprehensive interfaces created for users with domain knowledge (examples to follow: Autodesk, Netlify, Vercel, Autocad, Blender, Maya, Unity, Photoshop, Indesign).
-
-- **Consider familiar patterns first**
-
-Whenever possible, use well-known patterns from products our users spend a lot of time in, like IDEs, code hosts, or other developer tools.
-
-- **Don't hesitate to innovate but remember to onboard**
-
-Sourcegraph offers a unique product so repeating the known patterns will often not be enough. If you came up with a custom solution that can take the experience to the next level, don’t hesitate to implement it. In those cases, remember to onboard the user. Show them how things work and trust them to follow. If necessary, provide additional docs. Onboarding should be treated as an element of the innovation, not as an afterthought.
-
-- **Strive for visual excellence**
-
-People are visual creatures. That remains true for our technical audience as well. Sourcegraph interface should feel pleasing, not overwhelming, and natural to use.
-
-- **Design today with the future in mind**
-
-Sourcegraph is growing at an extraordinary pace. Our designs need to be flexible enough to accommodate changes and improvements. Always choose the solutions that work today but can be easily adapted for the future development. Think in systems, not in screens. Our goal is to redesign as little as possible so our users do not have to adjust to frequent changes.
-
-- **Manage complexity**
-
-We need to handle the unavoidable complexity of our product. Our users should see Sourcegraph as a powerful and intuitive tool. Aim to remove obstacles and unnecessary elements from both flows and interfaces. Use just-in-time knowledge and contextual help to educate and empower. Enable shortcuts and customizations, especially for technical users accustomed to using keyboard navigation. Make it simple, not simplistic - simple things can be complex but easy to understand. Don't overlook the details by treating the problem with false simplicity.
-
-## Figma
-
-- Click 'C' whilst in Figma, or check the navigation bar in the top left hand corner and look for the comment icon; you can drop comments anywhere in a file, and the owner of the page will be notified via email
-
-## Internal resources
-
-Our internal resources are open, and the design team will welcome any feedback. Hesitating to leave feedback can block discussion, and stretch out time between brainstorming and action.
-
-- [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
-
-## How to make better UX design decisions
-
-As the product design team is still small and not able to address every problem efficiently, we have tried to simplify Jakob Nielsen's 10 general principles for interaction design. These principles are often referenced, and by referencing them yourself you can make better user experience decisions.
-
-- Make sure the user is always appropriately informed.
-- Use familiar language.
-- Follow real-world conventions when ordering things.
-- Make sure exits are available.
-- Follow platform conventions, search online to check established UX patterns.
-
-If you would like to dig a little deeper [here is a link to the article](https://www.nngroup.com/articles/ten-usability-heuristics/), each section is accompanied by a short video and/or a more in depth article.
-
-## External resources
-
-- [10 General principles for interaction design](https://www.interaction-design.org/literature/article/heuristic-evaluation-how-to-conduct-a-heuristic-evaluation)
-- [UX research cheat sheet](https://www.nngroup.com/articles/ux-research-cheat-sheet/)
-- [usability.gov](https://www.usability.gov/)
-- [Apple's human interface guidelines](https://developer.apple.com/design/human-interface-guidelines/)
-- [Google's material design](https://material.io/design/)
-- [Potential UX projects](https://docs.google.com/document/d/1LemO13R3f0Ku88WK8tFr7_Qo4teDA0Bebs8Y2TGkS3U/edit#heading=h.xsac5d1pz16w)
+- [Tools](./tools/index.md)
+- [Content guidelines](../../communication/content_guidelines/index.md)
+- [Documents and templates](./documents_templates/index.md)
+- [External resources](./external_resources/index.md)
