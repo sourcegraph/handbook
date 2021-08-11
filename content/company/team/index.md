@@ -1240,3 +1240,10 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - GitHub: [csbailey5t](https://github.com/csbailey5t)
 - [scott.bailey@sourcegraph.com](mailto:scott.bailey@sourcegraph.com), [Twitter](https://twitter.com/csbailey5t), [LinkedIn](https://www.linkedin.com/in/scott-bailey-b04822175/)
 - Scott lives with his wife, son, and two senior dogs in Raleigh. He's lived on both coasts of the United States, and previously worked in academic research libraries, teaching and coding at the intersection of data science and the digital humanities. He loves to cook, try new hot sauces, read philosophy, and go out swing dancing. 
+
+## Ellie Dawson (she/her)
+- Sales Development Representative
+- Cincinnati, OH, USA  
+- Github: [elliedawson](https://github.com/elliedawson),
+- [ellie.dawson@sourcegraph.com](mailto:ellie.dawson@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/elliefathman/)
+-Ellie lives in Cincinnati, OH with her husband, Chase. After graduating from the University of Cincinnati, Ellie spent time as a technical recruiter working across a variety of skill sets. When she's not working, you can find her checking out the local restaurant scene, cycling and working out, reading, and playing with her pup, Holly!
