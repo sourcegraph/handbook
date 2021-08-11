@@ -11,6 +11,7 @@
     - [Product marketing hierarchy](product_marketing_hierarchy.md)
     - [Product marketing roadmap](https://docs.google.com/spreadsheets/d/1268CYG4arbGT6F0Eyy4e-EY5CQgtopcS9OdAenkjtzY/edit#gid=0)
     - [Release post process](release_post_process.md)
+    - [Customer marketing](customer_marketing.md)
 - [Content Marketing](content/index.md)
     - [Editorial](content/editorial.md)
     - [Creating blog posts](content/creating_blog_posts.md)
