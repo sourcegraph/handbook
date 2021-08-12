@@ -15,7 +15,7 @@ You'll have to get some basics set up in your first few days:
 - Complete the onboarding for your role:
   - [Software engineer onboarding](software-engineer-onboarding.md)
   - [Engineering manager onboarding](engineering-manager-onboarding.md)
-- If you need access to Percy for visual testing, create an account by going to https://percy.io/invite-login and looging in with your GitHub account. Then ask on `#dev-chat` for an email invitation to our Percy org. **Do not create an account on Browserstack as this is not supported for our organization.**
+- If you need access to Percy for visual testing, create an account by going to https://percy.io/invite-login and logging in with your GitHub account. Then ask on `#dev-chat` for an email invitation to our Percy org. **Do not create an account on Browserstack as this is not supported for our organization.**
 
 ## Manager checklist
 
