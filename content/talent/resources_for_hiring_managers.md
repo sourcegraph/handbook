@@ -54,7 +54,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.  
    - Attendees: Recruiter, Hiring Manager, Candidate.
    - Agenda: 1. the Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them 2. the Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity 3. the Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity.  
-   - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and 2) schedule a follow up call to answer any questions.
+   - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday and exceptions require approval from VP of Talent, Noemi, and Inés) and 2) schedule a follow up call to answer any questions.
 - Following the offer call, Recruiter sends the offer summary to the candidate in an email.
 - To send an official offer, the Recruiter:
    - Updates the offer approval with the accurate start date
@@ -69,7 +69,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
    - Confirms that the start date and hired date are correct, ensuring accurate time-to-fill data.
    - Marks the candidate as "Hired" in Greenhouse.
    - Closes the job (if applicable).
-   - Sends a hire report to Ines, VP of Talent, and Hiring Manager.
+   - Sends a hire report to Inés, Noemi, VP of Talent, and Hiring Manager.
    - Exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
 
