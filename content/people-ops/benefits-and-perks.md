@@ -39,6 +39,9 @@ Your paycheck automatically includes a fixed reimbursement for $75 of mobile pho
 ### 🎧  Desk set-up 
 We want to ensure all teammates have a workspace that will make them comfortable and productive, so we offer a $2,000 [desk set-up budget](https://about.sourcegraph.com/handbook/people-ops/spending-company-money#desk-set-up) for all full-time teammates to provide them with any necessary equipment to make that possible.
 
+### 🏢 Co-working/office space 
+We understand that a designated work space can aid with productivity. We offer a $300-500 [monthly budget](https://about.sourcegraph.com/handbook/people-ops/spending-company-money#recurring-expenses) for renting a co-working space, including parking.
+
 ### 🚚 Moving
 
 Whether you are relocating to join us or just moving places after you have already joined, we give you a yearly $1,000 stipend for hiring professional movers to reduce the stress associated with moving.
