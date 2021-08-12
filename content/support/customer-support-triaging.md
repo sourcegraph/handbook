@@ -27,7 +27,7 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 * **Step 8:** If the case came in via Slack, change the requestor to the person who requested it. This is not necessary if the ticket came in via email. 
 
-* **Step9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. 
+* **Step9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
 ## FAQs
 
