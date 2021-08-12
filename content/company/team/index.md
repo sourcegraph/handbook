@@ -1247,3 +1247,10 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Github: [elliedawson](https://github.com/elliedawson)
 - [ellie.dawson@sourcegraph.com](mailto:ellie.dawson@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/elliefathman/)
 - Ellie lives in Cincinnati, OH with her husband, Chase. After graduating from the University of Cincinnati, Ellie spent time as a technical recruiter working across a variety of skill sets. When she's not working, you can find her checking out the local restaurant scene, cycling and working out, reading, and playing with her pup, Holly!
+
+## Elzanne Wentzel (she/her)
+- Customer Engineer
+- Amsterdam, The Netherlands 🇳🇱  
+- Github: [elzannewentzel](https://github.com/elzannewentzel)
+- [elzanne.wentzel@sourcegraph.com](mailto:elzanne.wentzel@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/l-zanne-wentzel/)
+- Elzanne grew up in the wine lands of Paarl and studied Digital Design in Cape Town. After a 2 year stint as a designer she taught herself to code ActionScript and never looked back. She crafted her development skills over the next 15 years at Stonewall+, Saatchi & Saatchi @Play and Quirk and then decided to join the land of cyclists and no mountains to pursue a career as Product Owner at Lobster Ink, an online learning company. She loves that Sourcegraph gives her the oppurtunity to combine all her skills! She also adores her cats and plants, enjoys a good thriller, loves arts and crafts and exploring the world with her partner. 
