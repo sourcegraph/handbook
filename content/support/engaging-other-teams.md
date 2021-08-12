@@ -54,6 +54,12 @@ Any other questions about monitoring and performance should be routed to the [Di
 
 Any questions about code host connections and repository syncing should be routed to the [Core application team](../engineering/core-application/index.md).
 
+EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
+- `Perforce` should be routed to the [Distribution team](../engineering/distribution/index.md)
+- `permission syncing` should be routed to the [Distribution team](../engineering/distribution/index.md)
+- `CVS` should be routed to the [Batch Changes team](../engineering/batch-changes/index.md)
+- `license enforcement/management` should be routed to the [Batch Changes team](../engineering/batch-changes/index.md) (though these should always go through the CE)
+
 Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be rounted to the [Extensibility team](../engineering/developer-insights/extensibility/index.md).
 
 ### Repository permissions
