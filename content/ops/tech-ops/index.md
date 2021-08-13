@@ -1,4 +1,4 @@
-# Tech Operations
+# Tech Operations (Tech Ops)
 
 The Tech Ops team helps implement, build, integrate, upgrade, and maintain all of our enterprise and internal applications. Tech Ops empowers the rest of the business to reach their goals by owning the systems that they rely on every day.
 
