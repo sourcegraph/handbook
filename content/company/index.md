@@ -5,6 +5,7 @@
   - [News](https://about.sourcegraph.com/news)
 - [Sourcegraph handbook](../index.md#company)
 - [All-remote](remote/index.md)
+- [Asynchronouse work](asynchronous-communication.md)
 - [Goals](goals/index.md)
 - [Strategy](strategy.md)
 - [Team](team.md)
