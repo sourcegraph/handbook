@@ -2,7 +2,10 @@
 
 Sourcegraph offers an Employee Assistance Program to all team members via [Modern Health](https://www.joinmodernhealth.com/). Modern Health provides technology and professional support to help reduce stress, feel more engaged, and be happier. Through Sourcegraph, you have access to 10 coaching sessions and 10 therapy sessions at no cost to you as well as 100+ digital programs & mediations and unlimited live provider-led group sessions or circles. You will also have the ability to give individual access to the Modern Health platform for up to 3 dependents.
 
-We will be recording a session on **Thursday, August 11th at 9am PT** for more information on how to best use Modern Health. We will post the recording here following the webinar.
+
+### How to use Modern Health & a demo:
+
+Learn how to use our mental health benefit by watching [this informational session and demo led by the team at Modern Health.](https://drive.google.com/file/d/1xA479OHsthciuRk1VR7xaqI0gGIaNsl3/view?usp=sharing)
 
 ### What does Modern Health offer?
 
