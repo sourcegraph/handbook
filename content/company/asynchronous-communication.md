@@ -6,7 +6,7 @@ Async simply means that work doesn’t happen at the same time for everyone. Asy
 
 **Videos**
 
-- [Why async?](https://drive.google.com/file/d/16N4cfAKaKL0ynxRzzJ3FW3AegPCkosMK/view?usp=sharing).
+- [Why async?](https://drive.google.com/file/d/16N4cfAKaKL0ynxRzzJ3FW3AegPCkosMK/view?usp=sharing)
 - [How to work asynchronously](https://drive.google.com/file/d/1Uo0PPxT5EjuBJz9t6rHT__SeVh9VLPKo/view?usp=sharing)
 - [Tips for working async at Sourcegraph](https://drive.google.com/file/d/16tUvJXGlSm1gOA3B6vwXxl-BGMqvBpm_/view?usp=sharing)
 
@@ -122,7 +122,7 @@ Each team should also have a section to explain how they do x, y and z asyncly. 
 
 ## How to choose sync vs async?
 
-<img width="60%" height="60%" src="onepager-async.jpg">
+<img width="60%" height="60%" src="onepager-async.svg">
 
 Synchronous meetings are best for bonding and feeling connected to your teammates (even beyond your immediate team), sensitive discussions that are more likely to be emotionally sensitive, and fast decision making when speed necessarily outweighs the benefit of having marginal time/thoughtfulness. Our teammates generally simply enjoy synchronous meetings because they get to spend some quality time with the people they work with. 
 
