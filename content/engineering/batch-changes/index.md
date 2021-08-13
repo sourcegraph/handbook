@@ -44,6 +44,7 @@ See our [goals and priorities](goals.md)
 We track and report anonymous, non-specific, aggregate metrics from Sourcegraph instances as defined in [pings](https://docs.sourcegraph.com/admin/pings).
 
 ### Key success metrics
+We track success metrics in a (private) [Looker dashboard](https://sourcegraph.looker.com/dashboards-next/174)
 
 | Outcome                                             | Metric
 |----------------------------------------------------|------------------------------------------------------------------------ |
