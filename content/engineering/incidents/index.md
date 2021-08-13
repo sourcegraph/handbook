@@ -10,9 +10,7 @@ Some examples of incidents:
 - The `main` build is broken.
 - A Sourcegraph team member feels like an incident might be present, but isn't certain or isn't able to confirm on their own.
 
-This document describes how we deal with operational incidents.
-
-<a href="https://drive.google.com/file/d/1kTZ-_N1ulx9Kf0vZyn5BWTrtipbvN9jH/preview"><img src="incident-flow-chart.png" alt="Incident flow chart"></a>
+[This document](https://drive.google.com/file/d/1kTZ-_N1ulx9Kf0vZyn5BWTrtipbvN9jH/preview) visualizes how we deal with operational incidents.
 
 ## Process
 
