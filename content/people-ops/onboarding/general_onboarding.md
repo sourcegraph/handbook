@@ -15,7 +15,7 @@ Considering the Onboarding checklist lives in Process St., this page contains an
 - **[Lattice](https://sourcegraph.latticehq.com/)**: We use this tool for our [teammate feedback cycles](../review-cycles/index.md) (takes place twice a year– Noemi will send out details) and the [Onboarding feedback milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding#onboarding-feedback-milestones) (these take place every month for three months).
 - **[1Password](https://1password.com/)**: Tool we use to share team passwords and store your own passwords.
 - **[Zoom](https://zoom.us/signin):** Our video communication tool. Set up your Zoom account and follow the [recommended settings](../../communication.md#video-calls).
-- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your device in our MDM (ask Cecily for your access code).
+- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your **Apple** device in our MDM and in FileVault (ask [Tech Ops](https://about.sourcegraph.com/handbook/ops/tech-ops) for instructions and your access code).
 - It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
 - **[Sourcegraph.com](https://sourcegraph.com)**: New teammates must create an account and ask in Slack [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) to be added to [the Sourcegraph organization](https://sourcegraph.com/organizations/sourcegraph/settings/members) so you get to test in-development features, etc.
 
