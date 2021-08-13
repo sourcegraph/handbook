@@ -332,7 +332,7 @@ To add yourself to this page:
 - Product Manager
 - Barcelona, Spain 🇪🇸 / Buenos Aires, Argentina 🇦🇷
 - [maria@sourcegraph.com](mailto:maria@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/mariaanacraig), [macraig](https://github.com/macraig), [pronounce my name 🔊](https://www.youtube.com/watch?v=-uVQtRQ-Khw)
-- María spends lots of time listening to old rock bands and hugging every dog she can find. Prior to Sourcegraph, she cofounded an EdTech startup in Argentina with the mission of closing the gap between traditional education and tech. She later joined another startup and lead the development of a real-time IoT predictive monitoring platform to help predict machine failure in industrial plants in Latin America. In her free time, María enjoys playing soccer or videogames with friends, attending live music shows, and watching animated movies and musicals.
+- María spends lots of time listening to old rock bands and hugging every dog she can find. Prior to Sourcegraph, she co-founded an EdTech startup in Argentina with the mission of closing the gap between traditional education and tech. She later joined another startup and led the development of a real-time IoT predictive monitoring platform to help predict machine failure in industrial plants in Latin America. In her free time, María enjoys playing soccer and video games with friends, attending live music shows, and watching animated movies and musicals.
 
 ## Chris Surdi
 
