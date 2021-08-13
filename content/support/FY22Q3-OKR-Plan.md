@@ -14,6 +14,8 @@ In support of our product/engineering Q3 objective to *Make cloud and enterprise
 |8|In-progress|Carl|5 folks complete kubernetes certification|
 |9|Not started|Virginia|Implement retro practice for all tickets that take longer than 7 days to solve|
 |10|Not started|Virginia|Provide enablement in how to navigate difficult conversations with customers|
+|11|In-progress|Adeola|CSE Onboarding updates V3|
+
 
 ## Task details
 ### 1 `src debug` command to `src-cli`
@@ -67,6 +69,11 @@ In support of our product/engineering Q3 objective to *Make cloud and enterprise
 * Workgroup: Virginia
 * Details: Provide enablement in how to navigate difficult conversations with customers (delivering hard to hear news, keeping calls productive and on time, etc)
 
+### 11 CSE Onboarding updates V3 
+* Workgroup: Adeola, TBD
+* Channel: [#wg-cse-onboarding](https://sourcegraph.slack.com/archives/C02B63GLKKL/p1628884183000300)
+* Details: Make additions or subtractions to CSE onboarding based on retros with all teammates. 
+  * [Working notes document](https://docs.google.com/document/d/1EJyXAk5PptGjZKtCK-4PHoxS_bMVHlEJmYF9v8wRTk8/edit#)  
 
 ## Progress update
 Progress update on how we are tracking toward our OKR to be provided 2021-08-27 and 2021-09-30
