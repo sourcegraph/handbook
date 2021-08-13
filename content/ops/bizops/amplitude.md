@@ -42,6 +42,7 @@ It’s sent through a [script](https://github.com/sourcegraph/Amplitude/blob/mai
 Event properties are attributes of a particular event. These are added to the ```amplitude_events_v5``` table as individual columns from this scheduled query. For example, here's a snippet that extracts event properties from both the argument field of an event, as well as an event itself. 
 
 The steps to adding additional event properties to the query/table:
+
 1. Create a [PR](https://github.com/sourcegraph/analytics/pull/266) to update the ```amplitude_events_v5``` [scheduled query](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/61cbb857-0000-2751-bbf2-94eb2c039f64/runs?project=telligentsourcegraph) with the new event properties. 
 2. Once another member of the team approves, open a blank BigQuery query editor, run the query, and then save the results to a new test table (e.g. amplitude_test_20210812).
 3. Create an [issue](https://github.com/sourcegraph/analytics/issues/271) for Data Engineering to upload a sample of the new test table to a test project in Amplitude.
@@ -83,6 +84,7 @@ Amplitude is built on top of our existing [eventLogger infrastructure](https://s
 1. A product/engineering team member should create an [issue](https://github.com/sourcegraph/analytics/issues/new?assignees=&labels=DataOps&template=request-tracking-additional-data.md&title=) with the events they would like added. 
 
 For BizOps to do:
+
 2. Create a [PR](https://github.com/sourcegraph/analytics/pull/264) to update the ```amplitude_events_v5``` [scheduled query](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/61cbb857-0000-2751-bbf2-94eb2c039f64/runs?project=telligentsourcegraph) with the new events. Once this is approved by another member of the team, you can update the scheduled query itself. DO NOT any configuration of the scheduled query (e.g. the schedule and the write preference).
 3. If we want to backfill events to Amplitude that are older than one day ago, we need to run this [INSERT statement](https://console.cloud.google.com/bigquery?pli=1&project=telligentsourcegraph&ws=!1m14!1m4!1m3!1stelligentsourcegraph!2sbquxjob_3a38e2f8_179cb5027f7!3sUS!1m4!4m3!1stelligentsourcegraph!2sdotcom_events!3samplitude_events_v2!1m3!8m2!1s839055276916!2sed7433a9cf0646a8a7c186c907b9accb&jobFilter=%255B%257B_22k_22_3A_22User%2520email_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22ericbm%2540sourcegraph.com_5C_22_22_2C_22s_22_3Atrue%257D%255D&sq=839055276916:ed7433a9cf0646a8a7c186c907b9accb), which will add specified events into ```sourcegraph_analytics.amplitude_events_v5```. When this is run, all prior occurrences (between the start date up until the day before yesterday) of the new event will be added to the table.
 5. Add the event to the [data map](https://docs.google.com/spreadsheets/d/171up68LIY1xQZTgBoA5FQpGO62Wg0a0wNNrm8ksVm4A/edit#gid=0).
