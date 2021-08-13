@@ -86,7 +86,7 @@ Get creative:
 
 ## Tips for working async at Sourcegraph
 
-You can read [Thorsten Ball](https://about.sourcegraph.com/handbook/company/team#sts=Thorsten%20Ball%20(he/him))’s [Communication rips for remote work](https://thorstenball.com/remote-communication/).
+You can read [Thorsten Ball](https://about.sourcegraph.com/handbook/company/team#sts=Thorsten%20Ball%20(he/him))’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
 
 Here are some tips and things you should keep in mind when working at Sourcegraph:
 
