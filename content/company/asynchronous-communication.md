@@ -4,6 +4,11 @@ Sourcegraph is an **all-remote** company which means we work from home or office
 
 Async simply means that work doesn’t happen at the same time for everyone. Asynchronous communication allows us to move forward and make decisions without having to meet to talk with everyone involved. In this page you will read about why we are async, the tools we use at Sourcegraph, and how we use them. We also explain how we communicate,tips on how to work asynchronously, and how we decide to be or not to be  async.
 
+**Videos**
+
+- [Why async?](https://drive.google.com/file/d/16N4cfAKaKL0ynxRzzJ3FW3AegPCkosMK/view?usp=sharing).
+- [How to work asynchronously](https://drive.google.com/file/d/1Uo0PPxT5EjuBJz9t6rHT__SeVh9VLPKo/view?usp=sharing)
+- [Tips for working async at Sourcegraph](https://drive.google.com/file/d/16tUvJXGlSm1gOA3B6vwXxl-BGMqvBpm_/view?usp=sharing)
 
 ## Why async?
 
