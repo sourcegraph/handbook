@@ -17,7 +17,9 @@ As we scale our team and our customer list, we need help with all of the applica
 - Create a robust IT support team that can manage global response and ensure the security of our software
 - Maintain a comprehensive systems architecture and asset register
 
+### Current Major Initiatives
 
+- [Okta SSO Implementation]
 - [Internal Security](internal_security.md)
 
 ## Team
