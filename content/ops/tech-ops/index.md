@@ -19,7 +19,7 @@ As we scale our team and our customer list, we need help with all of the applica
 
 ### Current Major Initiatives
 
-- [Okta SSO Implementation]
+- [Okta SSO Implementation](Okta.md) 
 - [Internal Security](internal_security.md)
 
 ## Team
