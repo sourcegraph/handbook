@@ -1,14 +1,17 @@
 ---
 ignoreDisconnectedPageCheck: true
 ---
+#OKTA
 
-# What is Okta?
+## What is Okta?
 
 From the Okta website:
+
 > Okta is the foundation for secure connections between people and technology. It’s a service that gives employees, customers, and partners secure access to the tools they need to do their most important work.
+
 Okta is an Identity and Single Sign-On (SSO) solution for applications and Cloud entities. It allows Sourcegraph to consolidate authentication and authorization to applications we use daily through a single dashboard and ensure a consistent, secure, and auditable login experience for all our Sourcegraph team members.
 
-### Current implementation status
+#### Current implementation status
 
 Tech Ops is currently building out the integration with BambooHR as the source of truth for identity. Once this is active we will begin rolling out access to applications through Okta one by one, starting with Docusign, Google Workspace, and Slack. Because Google and Slack will impact every single Sourcegraph teammate we ask that you activate your account ASAP. 
 
@@ -17,6 +20,7 @@ You should have received an activation email, if you haven’t please let #it-te
 ## How is Sourcegraph using Okta?
 
 Sourcegraph is using Okta for a few key goals:
+
 - Secure access to SaaS systems
 - Faster onboarding process
 - Consolidated & automated system access
@@ -55,7 +59,8 @@ Ask #it-help-ops for a temporary password to be issued. You will be given a temp
 ## I changed my phone and now can't do MFA, what do I do?
 
 No worries! You can easily reset your own MFA code for Okta if you did not wipe/return your old phone yet.
-1. Sign in to your Okta webpage by going to *[sourcegraph.okta.com](https://www.sourcegraph.okta.com)* on your old phone
+
+1. Sign in to your Okta webpage by going to <https://www.sourcegraph.okta.com)> on your old phone
 2. Use your email, password, and the MFA code on your old phone
 3. Once you're on the Okta webpage click on your name and then click settings
 4. Scroll down until you see "Extra Verification", once you're there click "remove" to disable that instance of Okta Verify 
