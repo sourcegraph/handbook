@@ -1254,3 +1254,11 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Github: [elzannewentzel](https://github.com/elzannewentzel)
 - [elzanne.wentzel@sourcegraph.com](mailto:elzanne.wentzel@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/l-zanne-wentzel/)
 - Elzanne grew up in the wine lands of Paarl and studied Digital Design in Cape Town. After a 2 year stint as a designer she taught herself to code ActionScript and never looked back. She crafted her development skills over the next 15 years at Stonewall+, Saatchi & Saatchi @Play and Quirk and then decided to join the land of cyclists and no mountains to pursue a career as Product Owner at Lobster Ink, an online learning company. She loves that Sourcegraph gives her the oppurtunity to combine all her skills! She also adores her cats and plants, enjoys a good thriller, loves arts and crafts and exploring the world with her partner. 
+
+## Ajay Sridhar (He/Him)
+
+- Senior Customer Engineer
+- London, UK 🇬🇧
+- Github: [ajaynz](https://github.com/ajaynz)
+- [ajay.sridhar@sourcegraph.com](mailto:ajay.sridhar@sourcegraph.com), [LinkedIn](https://linkedin.com/in/ajaysridhar/)
+- Ajay lives in the UK with his wife and daughter, he came over to Sourcegraph from prior sales roles at Puppe. He loves everything sports and cars, in his spare time you will either find him at the gym or doing somethign fun outdoor.
