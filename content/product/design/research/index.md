@@ -20,3 +20,7 @@ We've found that moderated user research goes more smoothly, and is more approac
 
 - [So you’re about to participate in user testing](../../user_research/user_research_participant.md)
 - [So you’re about to help us with user testing](../../user_research/user_research_observer.md)
+
+## Compensation for user research participants
+
+When it's the right choice to provide compensation for user research participants, we have an [established process you can bring into your research activity](../../user_research/user_research_compensation.md).
