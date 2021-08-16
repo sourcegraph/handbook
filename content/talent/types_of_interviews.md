@@ -155,6 +155,15 @@ In addition to the above interviews, some departments have department-specific i
   - Will you respond to the redlines and include comments to the customer explaining your reasoning for any redlines that you reject or modify? Please accept any redlines that you suggest that we agree to with a brief comment explaining why. 
   - In addition, please draft a short, casual note with your assessment that you would send to the account executive. Include a short issues list, with the prioritization of issues made clear.
 
+- TechOps: Tech Ops IT Engineer take-home project / Technical Interview
+  - The technical interview should be approximately:
+    - 25 min for questions from Nicky and Dan M
+    - 10 min questions from you to us
+    - 10 min to discuss a short take-home project (3 min presentation and 7 min discussion)
+  - Project: 
+    - We have a fully remote team. Tech Ops wants to ensure that our Team Members are appropriately protected from security threats. As part of the onboarding process we want to provide all new hires with a Security Checklist. What would you put on this checklist? 
+    - Please be prepared to present this recommendation on a detailed level in 3 minutes.
+
 ## Customer Support
 - Customer Support Manager
   -  Direct Report Interview
