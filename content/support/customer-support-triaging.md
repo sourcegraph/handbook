@@ -29,6 +29,8 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 * **Step9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
+* **Step 10:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take
+
 ## FAQs
 
 ### 1. Whose responsible for triaging?
