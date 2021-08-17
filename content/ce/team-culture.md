@@ -49,7 +49,7 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 
 - **How CE adds value to product:** CEs provide a data-driven view into customer concerns/questions, ad-hoc feedback shared whilst helping customers, and helps update documentation so customers (and we) have a single source of truth.
 - **How product adds value to CE:** Product educates CE on new features and helps clarify expected behavior questions.
-- **Collaboration overview:** CEs provide Product with feedback and feature requests; Product seeks inputs from customer through CEs.
+- **Collaboration overview:** CEs provide Product with feedback and feature requests; Product seeks inputs from customer through CEs. [More information on working with product](working-with-product.md).
 
 ### Marketing
 
@@ -66,13 +66,14 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 * CE team hangout (monthly on Thursdays): An open forum to ask questions, collaborate, and chat as a team.
 * Product & CE Requests & Feedback Themes (bi-weekly on Wednesdays): Feedback treads and requests between CE and Product.
 * CE <> Sales Office Hours (bi-weekly on Tuesdays): An open forum to discuss topics and answer questions from the sales team.
+* CE project planning and review (bi-weekly on Fridays): meeting for CEs to collaborate on internal projects
 
 ## OOO Protocols
 
 Prior to taking time off, CEs should:
 
-1. Log time off request in BambooHr
-1. Log their time off on the team calendar
+1. [Log time off request in Roots PTO](../people-ops/submitting-time-off.md)
+1. Log time off on the CE team google calendar
 1. Work with their manager to create a coverage plan
 1. Notify their customers through the appropriate channel of their upcoming OOO
 1. Update their slack status accordingly with OOO dates indicated
