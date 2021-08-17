@@ -23,6 +23,7 @@ The following is available to help us honor our [ethos and guiding principles](i
 	* 00:56:45 - Other ways to debug Sourcegraph: Jaeger request tracing
 	* 01:05:50 - Closing thoughts, where to go for help, etc.
 * [Debugging tips](debugging-tips.md)
+* [Debugging cheat sheet](debugging-cheat-sheet.md)
 * [Tracing](https://drive.google.com/file/d/17mnCqJWJ1C855hl73hV1Y5S-1EOzusgX/view?usp=sharing)
 * [Kubernetes crash course](https://drive.google.com/file/d/1mmD3NZaxAGiIwGLvYxK80DjuQco7z5JL/view?usp=sharing) (and the [slides](https://docs.google.com/presentation/d/155SXUleQP8X7tvhaxudkdxHuFXgFKy2d0AAu0GLUc1o/edit?usp=sharing))
 * [What does upgrading Sourcegraph look like](https://drive.google.com/file/d/1oIrKJPo9hvc2UMfpb-a57HV9fCYEcS9n/view)
