@@ -35,6 +35,7 @@ TODO
 The Business Operations team accepts work requests through [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). Any request that doesn't have an attached GitHub issue will not have an assigned individual and expected timeline, and won't be tracked by the team. 
 
 Examples of requests that require an issue:
+
 * requesting a new dashboard 
 * getting a question answered with data (e.g. "I would like to know the number of MAUs for the Batch Changes feature")
 * requesting analytics support for a new feature (e.g. "Can we start tracking page views of our case studies")
