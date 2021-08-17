@@ -28,6 +28,7 @@ In order to maintain healthy communication, we...
 * We honor that not everyone writes/speaks English as their first language and use Grammarly and HemingwayApp to help make sure we are saying what we intend
 * We rotate who facilitates our weekly planning/retro session so that we normalize hearing each other and noticing when someone isn't getting a chance to talk
 * We take turns each month auditing our section of the handbook to make sure it's current and accurate
+* We create succint title-like first posts and share details in the thread in #customer-support-internal. This is our most active channel and doing this makes it easier to find threads we might need a day or two later. We still make sure the handbook is our source of truth, not Slack; this just helps keep things easier to navigate whilst talking about multiple topics.
 
 ## Expectations
 In order to keep the air clear with each other, we do the following:
