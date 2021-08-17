@@ -1,9 +1,9 @@
 # Customer Engineering Team Culture
 
-CEs interact with most every other team at Sourcegraph. This page details those intersections as well as our team-specific operting procedures.
+CEs interact with most every other team at Sourcegraph. This page details those intersections as well as our team-specific operating procedures.
 
 
-* [How we interesect other teams](#how-we-intersect-other-teams)
+* [How we intersect other teams](#how-we-intersect-other-teams)
 * [Recurring Team Meetings](#recurring-team-meetings)
 * [Out of Office / Vacation / PTO Protocols](#ooo-protocols)
 * [Slack Channels](#ce-specific-slack-channels)
