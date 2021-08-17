@@ -4,13 +4,13 @@ This document lists the technologies used by the Distribution team, what they ar
 
 Also see [internal infrasturcture](./internal_infrastructure.md) and [tools](./tools/index.md) for specific infrastructure and tools.
 
-## Golang
+## Go
 
 **Use cases:** Services and applications
 
 **Best practices:**
 
-- Adhere to the [Sourcegraph Golang style guide](https://docs.sourcegraph.com/dev/background-information/languages/go)
+- Adhere to the [Sourcegraph Go style guide](https://docs.sourcegraph.com/dev/background-information/languages/go)
 
 ## Typescript
 
