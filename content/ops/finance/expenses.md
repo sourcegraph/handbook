@@ -16,6 +16,10 @@ Any expenses more than 90 days old require approval by People Ops and Finance.
 
 You will receive an invitation via email to our Expensify organization during your first week, please sign up using that link. (Please do not sign up manually, this will create an account but it will not be associated with the proper organization or expense policy and will result in delayed reimbursements). If you do not have an invite to Expensify within your first week, please contact People Ops. You will need to link a bank account to Expensify.
 
+## Teammates using Velocity Global
+
+Team members using Velocity Global will receive an email invitation to our Expensify organization during your first week. Please sign up using that link and do not sign up manually, this will create an account but it will not be associated with the proper organization or expense policy and will result in delayed reimbursements. Reimbursement via Velocity Global will not be paid upon approval as it is aligned with payroll cycles.
+
 ### When submitting an expense via Expensify
 
 - Create a report and add individual expenses to that report. 
