@@ -50,7 +50,7 @@ This continuity means we give customers consistent and high-quality service from
     - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
     - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
     - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
- - Americas - US East
+- Americas - US East
     - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
     - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
     - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
