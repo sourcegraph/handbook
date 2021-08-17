@@ -18,8 +18,8 @@ We strive for consistency across all interviews.
   -  Technical interview, if applicable
   -  **Cross-team collaboration interview**
   -  **Peer interview**
-  -  **Values interview**
   -  Leadership interview
+  -  **Values interview**
 - Reference checks / offer
 
 ## Structured interview questions
@@ -82,6 +82,13 @@ All departments are likely to have some or all of the below universal interview 
   -  Tell us about a recent project you worked on where you collaborate with people outside of your department
   -  Tell me about a project where you or your team had a disagreement with someone in another function
 
+## Leadership interview 
+- Interviewer: a member of the leadership team for the department.
+- Duration: 30-45 minutes.
+- Details: during this stage in the interview process, a member of the leadership team for the department will ask questions to gain more insight into the following areas: your grit, curiosity, passion, growth mindset, intelligence, and values.  They will also answer any final questions you may have! This is generally the last stage in our interview process.
+- Example questions: 
+  -  Coming soon
+
 ## Values interview 
 Read more about our values interview [here](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values). 
 
@@ -90,13 +97,6 @@ Read more about our values interview [here](https://about.sourcegraph.com/handbo
 - Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](https://about.sourcegraph.com/handbook/company/values).
 - Example questions: 
   -  We will ask behavioral-based, open-ended questions directly related to our values. 
-
-## Leadership interview 
-- Interviewer: a member of the leadership team for the department.
-- Duration: 30-45 minutes.
-- Details: during this stage in the interview process, a member of the leadership team for the department will ask questions to gain more insight into the following areas: your grit, curiosity, passion, growth mindset, intelligence, and values.  They will also answer any final questions you may have! This is generally the last stage in our interview process.
-- Example questions: 
-  -  Coming soon
 
 # Department specific interviews 
 
