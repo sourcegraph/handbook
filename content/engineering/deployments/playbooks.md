@@ -5,6 +5,7 @@
   - [Check what version of Sourcegraph is deployed](#check-what-version-of-sourcegraph-is-deployed)
 - [Sourcegraph.com](#sourcegraphcom)
   - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
+  - [Deploying to sourcegraph.com during 2021-08-19 code freeze](#deploying-to-sourcegraphcom-during-2021-08-19-code-freeze)
   - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
   - [Backing up & restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
   - [Invalidating all user sessions](#invalidating-all-user-sessions)
@@ -43,6 +44,14 @@ Every commit to the `release` branch (the default branch) on [deploy-sourcegraph
 Deploys on sourcegraph.com are currently [handled by Renovate](#renovate). The [Renovate dashboard](https://app.renovatebot.com/dashboard#github/sourcegraph/deploy-sourcegraph-dot-com) shows logs for previous runs and allows you to predict when the next run will happen.
 
 If you want to expedite a deploy, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `main` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
+
+### Deploying to sourcegraph.com during 2021-08-19 code freeze
+
+To ensure stability during a [code freeze](https://en.wikipedia.org/wiki/Freeze_(software_engineering), a separate `release/2021-08-19` branch will be created from `main`, with only approved commits to be `cherry-picked` onto this [branch](https://github.com/sourcegraph/sourcegraph/tree/release/2021-08-19) for release. To ensure any compability between the `main` and `release/2021-08-19` branches, **ALL** commits must first be merged to `main` and pass [CI](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) for being `cherry-picked`. All tests will be run on the `release/2021-08-19` branch and must pass before docker images are published to docker hub.
+
+During the code freeze, [Renovate](#renovate) will be disabled on **Wednesday 18 August 2021 at 12:00PM UTC** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/2021-08-19` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
+
+Once your PR has been merged, you can follow the deployment via [CI on the `release` branch](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/builds?branch=release).
 
 
 ### Rolling back sourcegraph.com
