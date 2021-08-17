@@ -72,7 +72,7 @@ WIP
 
 ### Business address and contact information
 
-**Address (for mail):** 548 Market St PMB 20739, San Francisco, CA 94104-5401
+**Address (for mail and corporate card billing):** 548 Market St PMB 20739, San Francisco, CA 94104-5401
 
 **Address (for contracts and paperwork):** Trellis Coworking: 981 Mission St, San Francisco, CA 94103
 
