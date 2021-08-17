@@ -134,7 +134,10 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 ## SLAs
 
-To honor our service level agreements (SLAs), we strive to maintain the response and resolution times below.
+Our default contractual service level agreeements (SLAs) are described below. Additionally, we have the following internal SLAs:
+
+* We aim to respond to all customers on all issues within 1 hour between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
+* We aim to resolve all issues within an average of no more than one week.
 
 #### For customers with on-premises/self-hosted Sourcegraph instances:
 
