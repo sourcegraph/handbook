@@ -30,3 +30,5 @@ The following is available to help us honor our [ethos and guiding principles](i
 * [How to deploy Sourcegraph to GCP with Kubernetes](https://drive.google.com/file/d/10uIp-rcN3nRa0FguScHU3NRrcXxgy6C7/view?usp=sharing)
 * [List of Sourcegraph Services in a Kubernetes Cluster](https://sourcegraph.github.io/support-tools/List%20of%20Pods/)
 * [List of Support Tools](https://sourcegraph.github.io/support-tools)
+* [Search crash course](https://drive.google.com/file/d/1OEDgTJAaaEL5N0bcxSbRbBrdi8FU_ZPN/view?usp=sharing)
+* [Search crash course: query lang](https://drive.google.com/file/d/1DOEKW279FbxipJCM6vDdKzly6epgNyyD/view?usp=sharing)
