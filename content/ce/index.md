@@ -27,8 +27,6 @@ This continuity means we give customers consistent and high-quality service from
 * [Team Culture](team-culture.md)
 * [Working with Customers](working-with-customers.md)
 * [Career Growth](career-growth.md)
-* [Working with Product](working-with-product.md)
-
 
 
 
@@ -36,22 +34,29 @@ This continuity means we give customers consistent and high-quality service from
 
 <!-- Alphabetically, by surname. -->
 
-- [Aimee Menne](../company/team/index.md#aimee-menne-she-her) (Director of Customer Engineering)
-- Customer Engineers (International/Non-US)
-  - [Christy Haragan](../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
-- Customer Engineers (US West)
-  - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
-  - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
-  - [Manuel Ucles](../company/team/index.md#manuel-ucles)
-  - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
-  - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
-  - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
-- Customer Engineers (US East)
-  - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
-  - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
-  - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
-  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
-  - [Shawn King](../company/team/index.md#shawn-king-he-him)
+- [Aimee Menne](../company/team/index.md#aimee-menne-she-her) (VP of Customer Engineering)
+- [Christy Haragan](../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
+- FQ3 CE Director, Americas
+- [FQ3 CE Manager, Americas](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
+- International - EMEA & APAC
+   - [Ajay Sridhar](../company/team/index.md#ajay-sridhar-he-him)
+   - [Elzanne Wentzel](../company/team/index.md#elzanne-wentzel-she-her)
+   - [FQ3 CE (Singapore)](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
+- Americas - US West
+    - [David Rohnow](../company/team/index.md#david-rohnow-he-him)
+    - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
+    - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
+    - [Manuel Ucles](../company/team/index.md#manuel-ucles)
+    - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
+    - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
+    - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
+ - Americas - US East
+    - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
+    - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
+    - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
+    - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
+    - [Shawn King](../company/team/index.md#shawn-king-he-him)
+    - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
 
 
 
