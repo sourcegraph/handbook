@@ -32,7 +32,7 @@ Hi team!  We are excited to kick off our [hyperlink job description] opening and
     - Team collaboration interview: _______
     - Peer interview: _______
     - Values interview: _______ 
-   - Department Head Interview: _______
+   - Leadership Interview: _______
 
 When choosing two people to be on the values interview, please keep in mind the following:
    - must have been here for 3+ months
