@@ -110,7 +110,7 @@ We advise spending within reason for the location you are visiting, with a $300 
 >  Spending over $300 USD per night requires additional approvals from  
 > Finance / People Ops. 
 > 
-> *Please send Finance/ People Ops an email with  your manager and
+> *Please send travel@sourcegraph.com an email with  your manager and
 > department VP cc’d including your proposal. In this   email, please
 > share screenshots from your research showing why your proposal would
 > be the most economical option given the surrounding  hotels. Finance
@@ -162,7 +162,7 @@ Please see below for a complete summary of spend limit, per diem, and hotel budg
 
 # How to get your trip approved
 
-Before booking trips, you must obtain budget approval by sending an email to  finance@sourcegraph.com  and  people-ops@sourcegraph.com  with your manager or director cc’d. If booking a trip with a group (i.e. team meet-up), we recommend group approval requests to reduce the number of requests required for each team member. 
+Before booking trips, you must obtain budget approval by sending an email to  travel@sourcegraph.com with your manager or director cc’d. If booking a trip with a group (i.e. team meet-up), we recommend group approval requests to reduce the number of requests required for each team member. 
 *Please include the following for individual or group travel requests:*
 
 -   Name(s) and Team Role(s):
@@ -176,7 +176,7 @@ As a reminder, travel is voluntary and no teammates are required to travel. Trip
 
 After your request has been submitted, you will receive approval from Finance via email within 1 business day.
 
-For any additional questions, please reach out to **#finance** or **#people-ops**. Also, you can post in #expense-inquiries via Slack.
+For any additional questions, please reach out to **#finance** and **#people-ops** at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
 
 ## Budget Template
 -   We have provided an easy-to-complete travel budget calculator for your next team trip. See our [Travel Budget Example](https://docs.google.com/spreadsheets/d/1az1m-V9ddhwlZ_jSHnoMtK0J4VO1Aeph0mKDNf6SsEY/edit#gid=0) for ideas when submitting requests.
