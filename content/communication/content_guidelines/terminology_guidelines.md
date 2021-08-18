@@ -6,10 +6,10 @@ We use certain words in a special way. This word list defines our terminology to
 
 We describe ourselves with a few different names depending on context, and we should use the right term at the right time.
 
-- **Sourcegraph**: Main product. Prefer using this name unless you need to be more precise.
-- **Self-hosted Sourcegraph instance**: Only if clarification between Sourcegraph Cloud, managed instances, and on-premises instances is required.
-- **Managed Sourcegraph instance**: Only if clarification between the Sourcegraph Cloud instance, self-hosted instances, and managed instances is required.
-- **Sourcegraph Cloud**: The public instance of Sourcegraph for open source code at [sourcegraph.com](https://sourcegraph.com).
+- **Sourcegraph**: Main product. This name is always preferred unless you need to clarify between the 3 deployment methods for Sourcegraph below.
+- **Sourcegraph self-hosted**: On-premises and self-managed version of Sourcegraph. 
+- **Sourcegraph cloud**: This is the cloud instance of Sourcegraph at [sourcegraph.com](https://sourcegraph.com), used both for open source search as well as individual accounts for connecting public or private code. 
+- **Managed Sourcegraph instance**: Private Sourcegraph instances managed and provisioned by the Sourcegraph team. 
 - **Sourcegraph integrations**: The general term for our integrations. When referencing specific integrations:
     - Sourcegraph(’s) Phabricator integration
     - Sourcegraph(’s) GitHub integration
