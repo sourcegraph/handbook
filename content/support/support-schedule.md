@@ -7,7 +7,9 @@ This starts by everyone on the team identifying their ideal working hours. If we
 Our schedule also makes it clear when folks on the team have dedicated heads-down focus time. Working out of a queue can be tiresome and to keep the team engaged and able to continuously grow, when each team member reaches 90 days, they choose a focus day. On their focus day, it's up to each person how they spend that time. They can work on their tickets, they can learn something, they can work on a project, they can rest -- everyone maintains their own agency in what they decide to do. And if ever it feels hard to do the thing someone wants, bring that to your manager and we can sort it out.
 
 ## Schedule
-Our schedule is reflected in the working hours set in our calendars and blocks held on our calendar for our focus blocks.
+Our schedule is reflected in the working hours set in our calendars and what day we reserve for our focus day.
+
+*Note: we can only have 3-4 folks with the same focus day. If you don't see the day you wanted, talk to your manager and we can see if a change is possible, otherwise, please select another day.*
 
 |Team member|Local hours|UTC hours|Pacific hours|Focus day|
 |---|---|---|---|---|
