@@ -119,8 +119,9 @@ We advise spending within reason for the location you are visiting, with a $300 
 ## Modes of transportation:
 
  - Economy class is recommended for booking all travel. *(If you need any higher tier of booking, reach out to Finance/People Ops for approval.)*
- - Travelers are encouraged to book flights at least 30 days in advance to avoid premium airfare pricing.
- - Book from travel providers that offer flexible cancellation policies and refundable rates, should your plans change at any time.
+ - Travelers must book flights at least 30 days in advance to avoid premium airfare pricing. *(If you need to book a flight on short notice, reach out to Finance/People Ops for approval.)*
+ - Book from travel providers that offer flexible cancellation policies and refundable rates, should your plans change at any time. 
+ - We strongly encourage obtaining travel insurance, especially in the Covid environment.
  - Sourcegraph will pay for flight to and from locations. Any changes made to your itinerary to extend your trip and change your flight itinerary will be out of pocket expenses.
  - Gas and parking would be considered reimbursable within the applicable budget (Category 2,3,5) travel.
  - When driving a personal vehicle to a company-sponsored event (Category 1, 4), the Company will reimburse based on current IRS standard mileage rate of $0.56 per mile for 2021. This reimbursement per mile incorporates not only the cost of the fuel, but also maintenance and wear and tear of the vehicle. Upon expense submission, please provide a calculation of miles driven to and from the event.
@@ -168,7 +169,8 @@ Before booking trips, you must obtain budget approval by sending an email to  fi
 -   Reason for travel (i.e. Team meet-up, conference, business travel, etc.):
 -   Location of travel:
 -   Dates of travel:
--   Cost - actual or estimate of reimbursable expenses (i.e. hotel, flight, food, transportation, etc.):
+-   Cost - actual or [estimate](https://docs.google.com/spreadsheets/d/1az1m-V9ddhwlZ_jSHnoMtK0J4VO1Aeph0mKDNf6SsEY/edit#gid=0) of reimbursable expenses (i.e. hotel, flight, food, transportation, etc.):
+-   Are the travel accomodations insured/refundable?:
 
 As a reminder, travel is voluntary and no teammates are required to travel. Trip requests made by a teammate should never be made against their own judgement or comfort level. 
 
