@@ -60,7 +60,8 @@ In support of our product/engineering Q3 objective to *Make cloud and enterprise
   * [Working notes document](https://docs.google.com/document/d/1D5_o08GFNZ318trY1hZkZHclBtXkzZrdNKn29a2_Uhc/edit#)
 
 ### 8 Kubernetes certification
-* Workgroup: Carl, Beatrix, Stompy, Ben, Gabe
+* Workgroup: Carl, Beatrix, Stompy, Ben, Gabe  
+* Channel: [wg-cse-k8-training](https://sourcegraph.slack.com/archives/C02BETMDNBD) 
 * Details: 5 folks on the team to complete certification and make a recommendation as to whether this should be required for the rest of the team
 
 ### 9 Long running issue retros
