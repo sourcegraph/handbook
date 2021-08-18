@@ -44,7 +44,7 @@ We are a [high agency](https://about.sourcegraph.com/handbook/company/values#hig
 > *For example: If you are attending a conference and see that a cheaper hotel is a half hour away from your conference venue, but you will need to pay for the taxi to the venue which would ultimately make your cost the same, book a more convenient option!*
 
 
-We also want you and expect you to use your full travel budgets each year! For this reason, they aren’t transferrable, and unused budget doesn’t roll over into the next year. These budgets are based on our [fiscal calendar](https://about.sourcegraph.com/handbook/ops/finance#fiscal-year-2022), so they will renew on January 31st each year.
+We also want you and expect you to use your full travel budgets each year! For this reason, they aren’t transferrable, and unused budget doesn’t roll over into the next year. These budgets are based on our [fiscal calendar](https://about.sourcegraph.com/handbook/ops/finance#fiscal-year-2022), so they will renew on February 1st each year.
     
 
 > *For example:*
