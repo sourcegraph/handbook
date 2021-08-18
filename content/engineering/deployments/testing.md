@@ -91,7 +91,8 @@ mkdir generated-cluster
 
 ./overlay-generate-cluster.sh namespaced generated-cluster
 
-gcloud container clusters create "${USER}"-testing --zone us-central1-a --num-nodes 3 --machine-type n1-standard-16 --disk-type pd-ssd --project $PROJECT
+gcloud container clusters create "${USER}"-testing --zone us-central1-a --num-nodes 3 \
+--machine-type n1-standard-16 --disk-type pd-ssd --project $PROJECT
 gcloud container clusters get-credentials "${USER}"-testing --zone us-central1-a --project $PROJECT
 
 kubectl create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user $(gcloud config get-value account)
@@ -110,7 +111,8 @@ timeout 5m kubectl -n ns-sourcegraph rollout status -w deployment/redis-store
 timeout 5m kubectl -n ns-sourcegraph rollout status -w statefulset/gitserver
 timeout 5m kubectl -n ns-sourcegraph rollout status -w deployment/sourcegraph-frontend
 
-kubectl -n ns-sourcegraph expose deployment sourcegraph-frontend --type=NodePort --name sourcegraph --type=LoadBalancer --port=3080 --target-port=3080
+kubectl -n ns-sourcegraph expose deployment sourcegraph-frontend --type=NodePort \
+--name sourcegraph --type=LoadBalancer --port=3080 --target-port=3080
 
 kubectl -n ns-sourcegraph describe service/sourcegraph
 ```

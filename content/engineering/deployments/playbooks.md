@@ -159,7 +159,8 @@ For database upgrades or other tasks that might cause some aspects of Sourcegrap
     {
 "dismissible": false,
 "location": "top",
-"message": "🚀 Sourcegraph is undergoing a scheduled upgrade ([what's changed?](https://about.sourcegraph.com/blog/)). You may be unable to perform some write actions during this time, such as updating your user settings."
+"message": "🚀 Sourcegraph is undergoing a scheduled upgrade.
+You may be unable to perform some write actions during this time, such as updating your user settings."
     },
 ]
 ```
