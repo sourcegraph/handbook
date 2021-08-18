@@ -62,7 +62,7 @@ The goal of triage is to either quickly resolve the incident using basic procedu
 
 ### Incident Lead
 
-The indicent lead is responsible for resolving the incident as quickly and safely as possible. They are the DRI coordinating the incident, tasked with driving it to resolution and ensuring clear internal and external communication with stalkholders and customers.
+The incident lead is responsible for resolving the incident as quickly and safely as possible. They are the DRI coordinating the incident, tasked with driving it to resolution and ensuring clear internal and external communication with stalkholders and customers.
 
 1. **Thank** the person who identified the incident.
 1. **Acknowledge ownership** of the incident in the relevant incident chatroom (i.e. "I'm on it").
