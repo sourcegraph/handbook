@@ -14,22 +14,19 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 	* If there is an action for CS, go to step 3
 	* If there is no action for CS, go to step 8
 
+* **Step 3:** If the case came in via Slack, change the requestor to the person who requested it. This is not necessary if the ticket came in via email. 
 
-* **Step 3:** Before you do anything else, if the case came in via Slack, you will need to manually trigger the SLA counter. To do so, leave the requester as the Zendesk Slack Bot and change from internal note to public reply and send "triggering SLA counter" as a public reply (send it by saving the case as "open." Don't worry, this goes to a no-reply email. If the case came in via email, this step isn't necessary. 
+* **Step 4:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision. 
 
-* **Step 4:** If the case came in via Slack, change the requestor to the person who requested it. This is not necessary if the ticket came in via email. 
+* **Step 5:** On the left panel, under *Tags*, select, *triaged*.
 
-* **Step 5:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision. 
+* **Step 6:** On the left panel, under the *Select Assignee* tab, pick *Assign to this group* and submit the ticket as open -- this will make sure the ticket lands in the *Unassigned queue* (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).  
 
-* **Step 6:** On the left panel, under *Tags*, select, *triaged*.
+* **Step 7:** If the case came in via Slack, change the requestor to the person who requested it. This is not necessary if the ticket came in via email. 
 
-* **Step 7:** On the left panel, under the *Select Assignee* tab, pick *Assign to this group* and submit the ticket as open -- this will make sure the ticket lands in the *Unassigned queue* (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).  
+* **Step 8:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
-* **Step 8:** If the case came in via Slack, change the requestor to the person who requested it. This is not necessary if the ticket came in via email. 
-
-* **Step9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
-
-* **Step 10:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take
+* **Step 9:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take
 
 ## FAQs
 
