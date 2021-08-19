@@ -125,7 +125,7 @@ Dan Luu summarized some [common themes from his own blog](http://danluu.com/prog
 
 #### Brainstorm board
 
-There are a lot of ideas on our [Miro board](https://miro.com/app/board/o9J_l9gAUM4=/). Feel free to use it for inspiration or let us know if you'd like to write about one of the topics! (Note: You may have be asked to request access to the board if you don't have Miro set up with your Sourcegraph email address yet.)
+There are a lot of ideas on our [Miro board](https://miro.com/app/board/o9J_l9gAUM4=/). Feel free to use it for inspiration or let us know if you'd like to write about one of the topics! (Note: You may be asked to request access to the board if you don't have Miro set up with your Sourcegraph email address yet.)
 
 
 
