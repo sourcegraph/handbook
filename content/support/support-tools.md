@@ -25,6 +25,12 @@ When you first start in support, the list of tools to set-up can feel like a lot
 * Krisp quiets background noise when on Zoom.
 * Grammarly and Hemingwayapp help us say what we intend and catch any typos we don't see.
 
+## sourcegraph.com admin access
+In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Adeola, Beatrix, Giselle, Stompy, and Warren. One of them can help!
+
+## Managed instance access
+In order to have good security and risk mitigation practices, only a subset of the team has access to managed instances (you can find which customers have a managed instance [here](https://about.sourcegraph.com/handbook/support/customer-exceptions)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help!
+
 ## Test Environments
 
 There are some test environments created specifically for the Customer Support Engineers to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
