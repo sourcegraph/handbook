@@ -85,9 +85,23 @@ Once you’re ready for an editor’s review, submit your draft in place of a pi
 
 ### What to write about for the Sourcegraph blog
 
-If you don't have a topic in mind, here's some inspiration. 
+Some questions to keep in mind when deciding what to write about in your blog post:
 
-#### Examples of great engineering posts
+- **What's in it for the reader?** One of our [Editorial principles](#editorial-principles) is to have an audience-first mentality. What do we expect them to gain from reading the post? 
+- **Would someone share this?** If you didn't work for Sourcegraph, would you be interested in the post? Would you click on it on Hacker News or share it with your peers?
+
+If you can answer both of these questions confidently, you're on your way to a great post!
+
+#### What makes a great engineering post?
+
+Below are some common elements and themes found in the posts that tend to draw the most traffic and get the most attention.
+
+- Debugging stories: Take the reader on a winding journey with a satisfying conclusion. These often feel like a treasure hunt, with some twists and red herrings along the way.
+- Stories of building, scaling, implementing, and improving: A behind-the-scenes look at how the team approached a technical challenge. These are especially compelling if covering how we built or improved on a popular feature. 
+- Hot takes: It's not advisable to be controversial just for the sake of it, but taking an opinionated, contrary stance on a popular topic, _backed by evidence and experience_, will usually get people interested (more examples [below](#themes)). 
+- Knowledge-sharing: Readers should be able to learn something from our blog that they can take away and apply to their own work. 
+
+##### Examples of great engineering posts
 
 Below are some examples of the types of blog post that are usually popular (from our blog and beyond):
 
@@ -97,10 +111,6 @@ Below are some examples of the types of blog post that are usually popular (from
 - [Scaling monorepo maintenance](https://github.blog/2021-04-29-scaling-monorepo-maintenance/)
 - [When AWS Autoscale Doesn’t](https://segment.com/blog/when-aws-autoscale-doesn-t/)
 - [The story of one latency spike](https://blog.cloudflare.com/the-story-of-one-latency-spike/)
-
-#### Brainstorm board
-
-There are a lot of ideas on our [Miro board](https://miro.com/app/board/o9J_l9gAUM4=/). Feel free to use it for inspiration or let us know if you'd like to write about one of the topics!
 
 #### Themes
 
@@ -112,6 +122,10 @@ Dan Luu summarized some [common themes from his own blog](http://danluu.com/prog
 - [Humans are human](http://danluu.com/postmortem-lessons/): humans make mistakes, [and systems must be designed to account for that](http://danluu.com/google-sre-book/)
 - [Computers will have faults](http://danluu.com/postmortem-lessons/), [and systems must be designed to account for that](http://danluu.com/limplock/)
 - [Is it just me](http://danluu.com/broken-builds/), [or is stuff really broken?](http://danluu.com/everything-is-broken/)
+
+#### Brainstorm board
+
+There are a lot of ideas on our [Miro board](https://miro.com/app/board/o9J_l9gAUM4=/). Feel free to use it for inspiration or let us know if you'd like to write about one of the topics! (Note: You may have be asked to request access to the board if you don't have Miro set up with your Sourcegraph email address yet.)
 
 
 
