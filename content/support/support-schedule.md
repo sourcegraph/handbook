@@ -20,7 +20,7 @@ Our schedule is reflected in the working hours set in our calendars and what day
 |Ben|9am - 5pm|14:00 - 22:00|7am - 3pm|TBD|
 |Carl|6am - 2pm|10:00 - 18:00|3am - 11am|TBD|
 |Don|10am - 6pm|14:00 - 22:00|7am - 3pm|TBD|
-|Gabe|9am - 5pm|16:00 - 24:00|9am - 5pm|TBD|
+|Gabe|9am - 5pm|16:00 - 24:00|9am - 5pm|Friday|
 |Giselle|8am - 4pm|15:00 - 23:00|8am - 4pm|Thursday|
 |Stompy|11am - 7pm|08:00 - 16:00|1am - 9am|Friday|
 |Mariam|9am - 5pm|08:00 - 16:00|1am - 9am|TBD|
