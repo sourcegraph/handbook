@@ -33,3 +33,8 @@
 
 - A number of teammates are on a contracting structure and will need to submit an invoice once a month for payment.
 - Submit monthly invoices as early as the 28th of the current month so that payments can be issued by the 5th of the next month.
+
+## Teammates with PEOs
+
+- The PEO will pay these teammates directly in their local currency via direct deposit and in accordance with local employment laws. As such, no invoice is required.
+
