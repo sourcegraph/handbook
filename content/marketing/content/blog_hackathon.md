@@ -47,4 +47,17 @@ Don't worry—you don't need to finish your submission on the day and we won't p
 
 ## Incentives and rewards
 
-To be confirmed—coming soon!
+### Snack stipend
+
+Participants can expense up to $15 for the snacks and beverages of your choice to keep you going on the day! Please see [Submitting expenses](../../ops/finance/expenses.md) for instructions.
+
+### Spot/door prizes
+
+We will be awarding prizes randomly throughout the day. Anyone who has been active in #blog-hackathon, joined a Zoom room, or indicated they've started a draft by linking it in the [Google doc](https://docs.google.com/document/d/1MmCy_9U0S75Ez_IJpxwGdiHjSKR6PH1PS61b8dLLtyI/edit?usp=sharing) is eligible to be randomly selected for a prize. Winners will be able to choose their prize (~$100 value) from a selection of travel & tech, wellness & cosmetics, kitchen & dining, and lifestyle gifts. 
+
+### Grand prize
+
+The team member who submits the blog post that gets the highest number of unique views in the two weeks from its publish date will be able to choose a grand prize (~$250 value) from a selection of travel & tech, wellness & cosmetics, kitchen & dining, and lifestyle gifts. 
+
+_This is the first iteration of the hackathon! In the future we hope to offer custom Sourcegraph swag as prizes._ 
+
