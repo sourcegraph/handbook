@@ -1262,3 +1262,13 @@ He likes to travel, visit places off the beaten path, and trek in the mountains.
 - Github: [ajaynz](https://github.com/ajaynz)
 - [ajay.sridhar@sourcegraph.com](mailto:ajay.sridhar@sourcegraph.com), [LinkedIn](https://linkedin.com/in/ajaysridhar/)
 - Ajay lives in the UK with his wife and daughter, he came over to Sourcegraph from prior sales roles at Puppe. He loves everything sports and cars, in his spare time you will either find him at the gym or doing somethign fun outdoor.
+
+
+## Leo Abreu (he/him)
+
+- Senior Customer Engineer
+- Matthews, NC, USA 🇺🇸
+- GitHub: [leo-abreu](https://github.com/leo-abreu)
+- [leo.abreu@sourcegraph.com](mailto:leo.abreu@sourcegraph.com), [LinkedIn](https://linkedin.com/in/leo-abreu/)
+- [pronounce my name 🔊](https://www.name-coach.com/leo-abreu)
+- Born in the Dominican Republic, raised in New York and New Jersey; Leo now lives just outside of Charlotte, NC with his wife and two children.  For most of his career, he worked in pre and post sales roles helping customer transform and automate devops processes.  With his oldest moving on to college, Leo is finding more time available on the weekends.  When he's is not attending his son's soccer matches, you might finding him dusting off his golf clubs; or tossing some cornhole bags in the backyard in one hand, with a beer in the other and alt rock tunes playing in the background.
