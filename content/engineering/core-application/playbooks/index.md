@@ -5,4 +5,5 @@ This page contains resources to help guide you through both common and uncommon 
 ## Databases
 
 - [Avoid blocking during DDL changes](avoid-blocking-during-ddl-changes.md)
+- [Listing Sourcegraph Cloud Users](getting-a-list-of-cloud-users.md)
 
