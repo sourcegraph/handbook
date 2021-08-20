@@ -13,7 +13,6 @@ The goal of these content guidelines is to help us to:
 - [Style & mechanics](./style_and_mechanics.md) helps us be clear and consistent in our writing.
 - [Terminology guidelines](./terminology_guidelines.md) give us a source of truth for which words to use.
 
-
 ## Effectiveness over correctness
 
 These content guidelines aren't about "correct" and "incorrect" writing. They are about effective writing for our target users. Of course, effectiveness involves correctness to some degree, but only correctness as judged by the audience, not as judged by an appeal to authority.
@@ -34,3 +33,4 @@ For further reading, see [linguistic prescription on Wikipedia](https://en.wikip
 - [Shopify Polaris](https://polaris.shopify.com/)
 - [Wire brand guidelines](https://brand-http.wire.com/text/tone-of-voice)
 - [Microcopy: The Complete Guide](https://www.microcopybook.com/)
+- [Google Technical Writing](https://developers.google.com/tech-writing/overview)
