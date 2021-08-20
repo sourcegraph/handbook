@@ -7,6 +7,16 @@ Block your calendars! The Content team invites team members from our Engineering
 
 This is a day dedicated to writing for the blog. If you've always wanted to contribute to the Sourcegraph blog but weren't sure where to start/couldn't make the time, the Blog Hackathon is for you!
 
+## Why a hackathon?
+
+Our blog is one of the most important channels for reaching people who don't know about Sourcegraph, and establishing us as a trusted, respected developer brand. 
+
+A third of our new business comes from website traffic, and we see the highest traffic coming from technical, developer-focused blog posts. When we announced [why we're indexing the OSS universe](https://about.sourcegraph.com/blog/why-index-the-oss-universe/) we had a nearly 1,700% increase in traffic to the blog. Views of [A 5x reduction in RAM usage with Zoekt memory optimizations](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/), which made the top 5 on Hacker News, account for nearly 60% of that traffic increase (with 4,166 unique views). 
+
+Our other top-performing blog post from the past three months is [How not to break a search engine or: What I learned about unglamorous engineering](https://about.sourcegraph.com/blog/how-not-to-break-a-search-engine-unglamorous-engineering/) (3,800 unique views). 
+
+So, we know that the best stories for our blog come from you, and the work you're doing to build Sourcegraph and make it better. We also know it can be hard to make time to write, or even know what to write about. That's why we're hosting a hackathon to make the space to dedicate to writing, and thinking about how to highlight the work you're doing on our blog. We hope you'll join us for the day (or even just an hour or two) so we can put our collective efforts into making our blog the best possible representation of the amazing work everyone is doing to bring Sourcegraph to developers everywhere 🎉 
+
 ## How it works
 
 ### What to expect on the day
