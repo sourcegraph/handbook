@@ -25,7 +25,7 @@ Our schedule is reflected in the working hours set in our calendars and what day
 |Stompy|11am - 7pm|08:00 - 16:00|1am - 9am|Friday|
 |Mariam|9am - 5pm|08:00 - 16:00|1am - 9am|TBD|
 |Warren|9am - 5pm|16:00 - 24:00|9am - 5pm|Monday|
-|Virginia|8am - 5pm|15:00 - 24:00|8am - 5pm|TBD|
+|Virginia|8am - 5pm|15:00 - 24:00|8am - 5pm|Friday|
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
