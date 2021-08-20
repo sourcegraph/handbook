@@ -70,3 +70,10 @@ Most "data pipelines" are SQL queries that turn raw ping data into clean dataset
 - **Discoverability of data**: Bookmarking, favoriting or adding the sales/customer engineering board, product/engineering board and server instances overview look (or some combination of them) to your Looker instance is the best solution right now. These are all kept up-to-date with the most relevant data for all teams.
 - **Speed**: Looker’s UI makes it easy to analyze data, but the result really complex SQL query that take awhile to run (especially on dashboards that are compiled of many separate queries). Fixing the performance issues is not currently a priority, but is something that we’ll get to when we grow the team out.
 - **Naming conventions**: We’re slowly working on making naming conventions of dashboards, graphs, data points, etc... more obvious. If you come across anything that isn’t clear, let us know!
+
+### Looker administration
+
+When adding a user to Looker, they need to be in both the group and role:
+- Marketing, people ops, talent users = View
+- CE, sales, product users = ‘All internal users, view and edit’
+
