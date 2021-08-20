@@ -10,15 +10,15 @@ There is a backlog and an active sprint at any given time.
 
 The active sprint board consists of the following columns. Tickets should consist of concrete deliverables. Each individual ticket is almost always going to result in a pull request on the Sourcegraph Learn repository. 
 
-| Column          | Explanation                                                       | 
-|-----------------|-------------------------------------------------------------------| 
-| Paused          | Work that gets out of scope or blocked in a current sprint        |
-| To do           | Planned work for a given sprint                                   |
-| In progress     | Work that is actively being worked on                             |
-| Review          | Work that is eady for review                                      |
-| Reviewing       | Work that is currently being reviewed                             |
-| Review complete | Review complete with feedback; at this point the ticket needs to be moved back to **In progress** or can be raised as a pull request |
-| Done            | Work that has been merged into the repository or is otherwise complete |
+| Column title      | Explanation |
+| ----------- | ----------- |
+| Paused      | Work that gets out of scope or blocked in a current sprint       |
+| To do   | Planned work for a given sprint          |
+| In progress      | Work that is actively being worked on         |
+| Review  | Work that is ready for review          |
+| Reviewing      | Work that is actively being reviewed         |
+| Review complete   | Review complete with feedback; at this point the ticket needs to be moved back to **In progress** or can be raised as a pull request        |
+| Done  | Work that has been merged into the repository or is otherwise complete        |
 
 ## Review process for content
 
