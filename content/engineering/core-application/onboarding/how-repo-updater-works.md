@@ -38,12 +38,14 @@ The service's key data structure is a [priority queue](https://sourcegraph.com/g
 ### Production instances
 
 There is [exactly one instance](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-dot-com@ec7effbc9491e3ee0c77c3d70ac3f2eb8cb34837/-/blob/base/repo-updater/repo-updater.Deployment.yaml?L17) of `repo-updater` running, by design. This allows us to:
+
 * Avoid expensive coordination issues
 * Respecting the aforementioned code host limits
 
 ### General dependencies
 
 Before `repo-updater` can begin accepting work, it needs to check that the following services are running and responsive to pings:
+
 1. [frontend](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/cmd/repo-updater/shared/main.go?L111-114) - implemented by the [internal API client](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/api/internal_client.go?L39-81)
 2. [gitserver instances](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/cmd/repo-updater/shared/main.go?L116-119) - implemented by the [gitserver client](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/gitserver/client.go?L445-458)
 
