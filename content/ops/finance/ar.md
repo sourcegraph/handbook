@@ -12,9 +12,17 @@ Accounts receivable (AR) is the balance of money due to Sourcegraph but not yet 
 
 The Finance team has identified invoicing delays occur primarily due to missing contact or PO information. As such, these delays can be resolved by sales teams performing the following:
 
--Ensuring the correct email address and contact information for the customer billing contact
+- Ensuring the correct email address and contact information for the customer billing contact at the time of invoice. 
 
--Determining whether a PO is required and, if required, having secured the PO at time of invoice.
+  - Please note our order forms include a billing address and AP contact form to be completed by the customer.
+
+  - Customers often have emails designated for payment correspondence with addresses such as finance, accounts-receivable, ar, billings, etc.
+
+- Determining whether a PO is required from the customer and, if required, having secured the PO at time of invoice. 
+
+  - We recommend sales team members to inquire about PO requirements as a deal is finalizing. Please note our order forms include a PO requirement box to be completed by the customer. 
+
+  - PO correspondence can be directed to ar@sourcegraph.com. Once the customer provides a PO, we can issue an invoice which includes the matching PO as reference for payment.
 
 ## AR Aging Analysis
 
