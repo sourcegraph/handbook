@@ -14,6 +14,7 @@ This is a day dedicated to writing for the blog. If you've always wanted to cont
 Please join #blog-hackathon on Slack, where we will share updates throughout the day. 
 
 - Feel free to brainstorm ideas and ask any questions in the Slack channel
+- We have a working doc with [blog post ideas](https://docs.google.com/document/d/1MmCy_9U0S75Ez_IJpxwGdiHjSKR6PH1PS61b8dLLtyI/edit?usp=sharing), check it out and add your name to anything you'd like to write about or add your own topic to the list so we know what you're working on!
 - We will open a Zoom room for people to drop in, hang out, and get advice or feedback on your ideas and drafts
 - We will be awarding spot prizes throughout the day
 
@@ -28,6 +29,8 @@ You can take part in the hackathon in a few ways:
 #### What to write about
 
 As with everything we do, [be customer driven](../../company/values.md#be-customer-driven). When choosing a topic, consider whether our core audience of developers would be interested in it. If you're a developer, would you click on this post if you saw it on Hacker News?
+
+Check out [our ideas doc](https://docs.google.com/document/d/1MmCy_9U0S75Ez_IJpxwGdiHjSKR6PH1PS61b8dLLtyI/edit?usp=sharing), which will be the source of truth for what posts everyone is working on. 
 
 Our [Editorial handbook also has some ideas and inspiration](editorial.md#what-to-write-about-for-the-sourcegraph-blog) to help you get started. 
 
