@@ -29,7 +29,9 @@ When you first start in support, the list of tools to set-up can feel like a lot
 In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Adeola, Beatrix, Giselle, Stompy, and Warren. One of them can help!
 
 ## Managed instance access
-In order to have good security and risk mitigation practices, only a subset of the team has access to managed instances (you can find which customers have a managed instance [here](https://about.sourcegraph.com/handbook/support/customer-exceptions)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help!
+In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](https://about.sourcegraph.com/handbook/support/support-managed-instances) (you can find which customers have a managed instance [here](https://about.sourcegraph.com/handbook/support/customer-exceptions)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help!
+
+Read more about working with managed instances [here](https://about.sourcegraph.com/handbook/support/support-managed-instances).
 
 ## Test Environments
 
