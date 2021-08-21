@@ -102,7 +102,10 @@ See [CEP - Pre-Sale Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiI
     - Finally, this process is a proactive way to ensure that SDRs are setting high-quality meetings for their AEs.
 
 ## Best Practices
-(TBD)
+- Sourcegraph + Prospect GitHub Demo
+    - Explanation of Vidyard Flow Video [link](https://drive.google.com/file/d/1rUJ32z2kzrzRhUGHIw_eDTgO55l1VzIt/view?usp=sharing)
+    - Adobe Example Video [link](https://drive.google.com/file/d/1lRM5PL9R5oqM-RD4NhSGN2ahvED_fQwA/view?usp=sharing)
+    - Script and Click Path [link](https://docs.google.com/document/d/1vL2gqp1-xlFkhIO4dNePA8lT0_T96W9fZFWAZkM9Vbo/edit?usp=sharing)
 
 ## Tech Stack
 
