@@ -24,6 +24,8 @@ The Finance team has identified invoicing delays occur primarily due to missing 
 
   - PO correspondence can be directed to ar@sourcegraph.com. Once the customer provides a PO, we can issue an invoice which includes the matching PO as reference for payment.
 
+- Please also note that invoice payment dates are based on the date of order form signature (i.e. net 30).
+
 ## AR Aging Analysis
 
 Please see our AR Aging Analysis process outlined [here](https://docs.google.com/document/d/1tfAL68QSI-ZDqBIIALzY5tVcRk_B8jabpSSAyAK5iGk/edit).
