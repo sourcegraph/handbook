@@ -42,8 +42,9 @@ This is done for each of our engineering levels.
 
 ## After the meeting
 
-Decisions regarding promotions are prioritized by the relevant decision-makers (EM, Director, VP), and made quickly. Promotions are communicated back to the ICs in a timely manner. Regardless of promotions, any qualitative feedback for an IC that came out of talent review is shared with them in their next one-on-one (if not sooner).
+Any qualitative feedback for an IC that came out of talent review is shared with them in their next one-on-one (if not sooner).
 
+For ICs being considered for promotion their manager will complete a [promotion request](#promotion-requests).
 It’s important that this process moves quickly! If we leave people wondering for a month or more if they will be getting a promotion, we’re creating needless anxiety and uncertainty.
 
 Finally, we should have a [retrospective](../../retrospectives/index.md) after each of these, so we can continue iterating and improving upon this process. We should also consider changes/clarifications to the [level descriptions](framework.md#levels) at this time, in case any of the existing definitions were cause for confusion.
@@ -52,10 +53,28 @@ Finally, we should have a [retrospective](../../retrospectives/index.md) after e
 
 Our [career development framework](framework.md) defines the levels that exist at Sourcegraph. Compensation for each of these levels is derived from Option Impact, a startup compensation tool that Sourcegraph and many other companies use to determine their compensation bands.
 
-## Considerations for promotion
+## Promotion requests
+
+Promotion requests are made immediately following the [talent review callibration meeting](#calibration-meeting).
+
+The Engineering Manager will complete a promotion request using the [promotion request template](https://docs.google.com/document/d/1DHyPtIooi0J2426iemzzTqLle9UBasrqLZPGET1O7Sc/edit) and submit it for approval.
+
+Following approval from the relevant decision-makers (EM, Director, VP), the promotion request is forwarded to the relevant teammates in PeopleOps (refer to [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)) for confirmation. Once confirmed by PeopleOps the promotion can be communicated to the teammate using the [promotion confirmation template](https://docs.google.com/document/d/1mkdJI6cSXWIHthSN_KQKBFSfxs9RQUg_4VCvwmk8FJQ/edit).
+
+Decisions regarding promotions are prioritized by the decision-makers, and made quickly. Promotions are communicated back to the ICs in a timely manner.
+
+### Considerations for promotion
 
 Teammates are considered for promotion to a new level when their manager can make the case that they have had at least one quarter of high performance at their current level, and one quarter performing at the next level. We want to avoid situations where someone is promoted to a level in which they struggle to meet expectations.
 
-The engineering levels describe performance expectations in 3 categories. It will be extremely rare for an engineer to be exactly at the same level in all of these categories. Since the levels describe the minimum expectations for each level, an engineer must meet the expectations for all categories before they can be considered for promotion.
+The [engineering levels](framework.md#levels) describe performance expectations in 3 categories. It will be extremely rare for an engineer to be exactly at the same level in all of these categories. Since the levels describe the minimum expectations for each level, an engineer must meet the expectations for all categories before they can be considered for promotion.
 
 This does imply a distinction between _high performance at current level_ vs. _ready for promotion_. A level N engineer who is consistently exceeding level N expectations in some areas, but whom we do not feel would be able to meet level N+1 expectations, should not be promoted (despite their high performance in some areas).
+
+## Compensation increase requests
+
+An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of a teammate exceeding expectations in their current level. 
+
+The Engineering Manager will complete a compensation increase request using the [compensation increase request template](https://docs.google.com/document/d/1nWFcPjCNALww3kwzl_1l6Gjhrpsl1QGZCHb0hTEkQxk/edit) and submit it for approval.
+
+Following approval from the relevant decision-makers (EM, Director, VP), the compensation increase request is forwarded to the relevant teammates in PeopleOps (refer to [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)) for confirmation. Once confirmed by PeopleOps the compensation increase can be communicated to the teammate using the [compensation increase confirmation template](https://docs.google.com/document/d/1X76t_ZTbmlqp4i9rJHXesYSECxZn5f_MZcUNtpj5aGU/edit).
