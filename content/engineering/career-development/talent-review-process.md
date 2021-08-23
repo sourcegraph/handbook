@@ -73,7 +73,7 @@ This does imply a distinction between _high performance at current level_ vs. _r
 
 ## Compensation increase requests
 
-An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of a teammate exceeding expectations in their current level. 
+An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of a teammate exceeding expectations in their current level.
 
 The Engineering Manager will complete a compensation increase request using the [compensation increase request template](https://docs.google.com/document/d/1nWFcPjCNALww3kwzl_1l6Gjhrpsl1QGZCHb0hTEkQxk/edit) and submit it for approval.
 

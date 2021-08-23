@@ -6,27 +6,27 @@ that serves the needs of customers running their own Sourcegraph instances.
 
 ## Continuous Releasability Contract
 
-* `main` branch is always releasable
-* Every new feature includes a feature flag
+- `main` branch is always releasable
+- Every new feature includes a feature flag
 
 ### `main` is always releasable
 
-Every change merged into `main` must preserve the releasability of `main`. *Releasable* means
+Every change merged into `main` must preserve the releasability of `main`. _Releasable_ means
 that the revision can be released to customers. In particular,
 
-* **Up-to-date changelog and docs**: The changelog and documentation reflect the current feature set.
-  * Docs must be updated as soon as a feature is merged and enabled.
-  * You can merge a feature without yet updating the docs if it is behind a disabled feature flag.
-* **QA**: Every feature has been QA'd by an appropriate set of users in an appropriate environment.
-  * Simple bug fixes should be tested at the very least by the author.
-  * Simple features should be tested by someone other than the author.
-  * Complex or scale-sensitive changes should be tested by multiple people on one of the dogfood instances.
-* **No regressions**: The regression test suite passes.
-  * The regression test suite is not run in CI, because it is time-consuming and somewhat flaky.
-  * The author should manually run the regression test suite before merging, *unless* they are
+- **Up-to-date changelog and docs**: The changelog and documentation reflect the current feature set.
+  - Docs must be updated as soon as a feature is merged and enabled.
+  - You can merge a feature without yet updating the docs if it is behind a disabled feature flag.
+- **QA**: Every feature has been QA'd by an appropriate set of users in an appropriate environment.
+  - Simple bug fixes should be tested at the very least by the author.
+  - Simple features should be tested by someone other than the author.
+  - Complex or scale-sensitive changes should be tested by multiple people on one of the dogfood instances.
+- **No regressions**: The regression test suite passes.
+  - The regression test suite is not run in CI, because it is time-consuming and somewhat flaky.
+  - The author should manually run the regression test suite before merging, _unless_ they are
     certain the change does not break the regression test suite AND introduces no new behavior.
-* **Up-to-date Regression test suite**: Every key workflow has a regression test.
-  * This means adding/updating regression tests when you add/update workflows.
+- **Up-to-date Regression test suite**: Every key workflow has a regression test.
+  - This means adding/updating regression tests when you add/update workflows.
 
 ### A feature flag is required for every new feature
 
@@ -36,11 +36,11 @@ field of site config.
 
 Feature flags achieve 2 things:
 
-* They allow us to maintain the Continuous Releasability Contract while still merging big features
+- They allow us to maintain the Continuous Releasability Contract while still merging big features
   into `main` (disabled behind the feature flag) before they are fully tested. This is useful if a
   feature needs to be deployed to a dogfood instance or beta-tested before being deemed
   release-ready.
-* They give us a quick mechanism to disable features if a feature inadvertently breaks the
+- They give us a quick mechanism to disable features if a feature inadvertently breaks the
   Releasability Contract. E.g., if we discover a critical bug in a new feature 1 day before release,
   we can immediately disable it to make the release deadline.
 
@@ -58,7 +58,7 @@ given feature, notify the Release Captain and together come up with a QA and rol
 minimize the period of time during which the Releasability Contract is broken. Here are some rules
 of thumb:
 
-* Do as much QA and testing as possible before merging into `main`.
-* Have a plan for quickly testing and fixing any issues that arise immediately after merging into
+- Do as much QA and testing as possible before merging into `main`.
+- Have a plan for quickly testing and fixing any issues that arise immediately after merging into
   `main`.
-* Make the change as much in advance of the release date as possible.
+- Make the change as much in advance of the release date as possible.

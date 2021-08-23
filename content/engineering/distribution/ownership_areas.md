@@ -48,7 +48,7 @@ To see what Distribution is currently prioritizing, see the [Distribution Goals]
 - [cluster installation docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/admin/install/cluster.md)
 - [Improving upgrades process](https://github.com/orgs/sourcegraph/projects/71)
 
-### Docker Compose & pure-docker installation & upgrade experience 
+### Docker Compose & pure-docker installation & upgrade experience
 
 - Docker-compose YAML & associated tooling
 - Pure-docker shell scripts & upgrade docs

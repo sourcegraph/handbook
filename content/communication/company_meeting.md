@@ -23,18 +23,21 @@ Company meeting is an effective way to:
 1. Always give brief background on your project or function, even if it sounds obvious.
    - This helps spread consistent, effective ways to talk about our company and product.
      - Example: "On Batch Changes, we heard from Acme Corp that..." vs. "Batch Changes let you make large-scale changes across all of your code. Acme Corp told us that..."
-	 - Example: "Marketing update: our new lead sources..." vs. "Marketing is about getting enterprise developers to know about and want to try Sourcegraph. Our new lead sources..."
+   - Example: "Marketing update: our new lead sources..." vs. "Marketing is about getting enterprise developers to know about and want to try Sourcegraph. Our new lead sources..."
    - Remember that other team members are new to the company and/or busy on their own projects.
 1. When speaking, remind people of your role. For example: `I'm Alice Zhao, a developer on the security team` or `I'm Bob Schmidt, and I run the website on our marketing team`.
 1. Don't make announcements or share other specific information that you expect everyone to remember.
-  - You can't assume everyone is attending company meeting and is paying attention.
-  - Use company meeting to give a reminder, but make sure the announcement is in [Slack](team_chat.md), in email, and/or on the calendar.
+
+- You can't assume everyone is attending company meeting and is paying attention.
+- Use company meeting to give a reminder, but make sure the announcement is in [Slack](team_chat.md), in email, and/or on the calendar.
+
 1. Sharing goal-oriented progress updates is OK, but don't share task-oriented progress updates.
-  - The interface between your team and other teams is your [goals](../company/goals/index.md), not your tasks.
-  - Focusing on tasks instead of goals overloads other people with irrelevant information. This makes them tune out and probably miss or forget the important information.
-  - Example:
-    - Good: "On GitLab support in Batch Changes, we fixed all 7 bugs reported by other team members and are shipping it to the first beta customers today."
-	- Bad: "We fixed an issue where API rate limits for merge requests would ... and another issue where the status from the GitLab webhook payload ..."
+
+- The interface between your team and other teams is your [goals](../company/goals/index.md), not your tasks.
+- Focusing on tasks instead of goals overloads other people with irrelevant information. This makes them tune out and probably miss or forget the important information.
+- Example:
+  - Good: "On GitLab support in Batch Changes, we fixed all 7 bugs reported by other team members and are shipping it to the first beta customers today."
+  - Bad: "We fixed an issue where API rate limits for merge requests would ... and another issue where the status from the GitLab webhook payload ..."
 
 ## Agenda
 

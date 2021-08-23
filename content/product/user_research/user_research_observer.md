@@ -22,6 +22,7 @@ As an observer, you’re playing a critical role in making the session successfu
 Here’s some tips for taking really good notes:
 
 - Focus on **observations**, like what you see and hear.
+
   - “They had trouble finding the button.”
   - “Looks confused.”
   - “Says they don’t understand the message.”
@@ -30,6 +31,7 @@ Here’s some tips for taking really good notes:
   - Instead of noting “They didn’t like the message,” capture “Describes the message as irritating.”
   - Instead of “Blue doesn’t work for the button,” capture “Doesn’t notice the button.”
 - **Indicate priority** if it makes sense.
+
   - “Totally failed to find the link 🚨”
 
 - **Nothing’s too small** to capture! After the session, the team will draw insights out of the observations.

@@ -19,7 +19,7 @@ We use a variety of CTAs, including:
 
 > **For developer-focused campaigns**, we speak directly to individual practitioners who are trying to solve specific Big Code problems that Sourcegraph can address (better code search, better code reviews, finding & fixing bugs faster, etc.)
 
-> **For manager-focused campaigns**, we speak to engineering managers who may have larger organizational challenges, such as onboarding new team members, finding security vulnerabilities, moving from monolith to microservices, etc. 
+> **For manager-focused campaigns**, we speak to engineering managers who may have larger organizational challenges, such as onboarding new team members, finding security vulnerabilities, moving from monolith to microservices, etc.
 
 When it’s possible to serve ads to specific personas at select companies (e.g., on LinkedIn, Bing display network through LinkedIn audience network), we serve ads to developers/managers at our Target Accounts.
 

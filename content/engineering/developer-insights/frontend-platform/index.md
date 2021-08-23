@@ -5,6 +5,7 @@ The Frontend platform team (part of the [Developer Insights](../index.md) org) d
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
+
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../../../engineering/roles/index.md#engineering-manager)) {#frontend-platform-eng}
   - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
@@ -25,6 +26,7 @@ Using and developing Sourcegraph is effortless.
 ## Responsibilities
 
 1. Frontend platform:
+
    - Creating and maintaining the Wildcard Component Library.
    - Owning the Sourcegraph web tech stack, tools, and patterns.
    - Documentation and training material to enable product teams and new hires to quickly learn how we do web development at Sourcegraph.
@@ -33,12 +35,12 @@ Using and developing Sourcegraph is effortless.
    - Track, measure, and improve cross-cutting frontend metrics like bundle size, [Web vitals](https://web.dev/vitals/), etc.
 
 2. The core user experience of the Sourcegraph product:
-    - Accessibility, navigation, and information hierarchy
-    - Performance and efficiency of the core UI
-    - All code browsing and code host-like views
-    - Code syntax highlighting
-    - Sourcegraph application homepage
-    - Support and enable other teams in all of the above.
+   - Accessibility, navigation, and information hierarchy
+   - Performance and efficiency of the core UI
+   - All code browsing and code host-like views
+   - Code syntax highlighting
+   - Sourcegraph application homepage
+   - Support and enable other teams in all of the above.
 
 ## Contact
 
@@ -77,15 +79,15 @@ We plan and track our day-to-day work on our [Kanban board](https://github.com/o
 
 - Incoming tickets (e.g. from other teams) are given the `team/frontend-platform` label. As part of our [triage process](#triage), these tickets are added to our board by the designated teammate.
 - Work is scheduled by adding a card to either the _Backlog (product)_ or the _Backlog (eng)_ column.
-   - _Backlog (product)_ is for work that directly contributes to product goals, and is refreshed and prioritized by the PM/EM.
-   - _Backlog (eng)_ is refreshed and prioritized by the engineers. This is the place for refactorings, developer experience improvements, etc.
+  - _Backlog (product)_ is for work that directly contributes to product goals, and is refreshed and prioritized by the PM/EM.
+  - _Backlog (eng)_ is refreshed and prioritized by the engineers. This is the place for refactorings, developer experience improvements, etc.
 - Work should not be moved into either column until it is ready for development. Tickets that require further input before an engineer can start working on them are put in the _Needs input_ column.
 - Tickets in the _Needs input_ column should be tagged with an appropriate label that describes what input is required:
-   - `needs-design`: if it needs input from the design team
-   - `needs-discussion`: if the issue should be discussed at the next Frontend Platform sync
-   - `needs-more-info`: if it's not clear yet what needs to be done
-   - `needs-prioritization`: if the issue is part of an active prioritization conversation, to be decided on soon
-   - `awaiting-reply`: if we're waiting on an answer to a specific question on the ticket
+  - `needs-design`: if it needs input from the design team
+  - `needs-discussion`: if the issue should be discussed at the next Frontend Platform sync
+  - `needs-more-info`: if it's not clear yet what needs to be done
+  - `needs-prioritization`: if the issue is part of an active prioritization conversation, to be decided on soon
+  - `awaiting-reply`: if we're waiting on an answer to a specific question on the ticket
 - When starting work, engineers pull cards from one of the _Backlog_ columns and move it to the _In Progress_ column. The other columns are self-explanatory 🙂
 
 ### Triage

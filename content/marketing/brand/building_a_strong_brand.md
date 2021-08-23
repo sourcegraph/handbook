@@ -1,6 +1,7 @@
 # Building a Strong Brand
 
 ## Introduction
+
 Brands that successfully align with their customers’ needs and wants have a well-defined audience and focus almost exclusively on forging meaningful connections with them. They may attract some tangential and aspirational customers as well, but it’s difficult to achieve a strong, authentic customer connection if a brand attempts to appeal to everyone equally.
 
 Brands with a tightly-formed and authentic identity can better align with their customers own needs and motivations, and earn more loyalty from their audience while also helping their customers solve their most pressing needs. This is the ultimate win/win situation for brands and customers.
@@ -16,15 +17,16 @@ The strongest brands are highly authentic, helpful, knowledgeable, and values-dr
 A strong brand can also help reduce perceived risks (performance, financial, opportunity/time, safety, social, and psychological) by authenticating the source of the product or service, and fulfilling the promise of the perceived value of the items being sold or used. Best of all, a strong brand can grow and evolve with its customers — without losing identity or values — because its ultimate goal is to help improve or simplify some aspect of their lives.
 
 ## Further reading on technology company branding:
-- [One secret that all great technology branding strategies have in common](https://medium.com/madison-ave-collective/one-secret-that-all-great-technology-branding-strategies-have-in-common-8125ac1b4c8b)  
-- [Why branding is important in tech](https://medium.com/@samanthatoy/why-branding-is-important-in-tech-17fd5aedb44f)  
-- [The 6 biggest branding errors most startups make](https://www.entrepreneur.com/article/277233)  
-- [The (other) 6 mistakes to avoid when building a brand](https://www.entrepreneur.com/article/271353)  
-- [The benefits of making brand guidelines public](https://www.brandingmag.com/2021/04/07/why-are-brands-no-longer-keeping-their-guidelines-under-lock-and-key/) 
 
+- [One secret that all great technology branding strategies have in common](https://medium.com/madison-ave-collective/one-secret-that-all-great-technology-branding-strategies-have-in-common-8125ac1b4c8b)
+- [Why branding is important in tech](https://medium.com/@samanthatoy/why-branding-is-important-in-tech-17fd5aedb44f)
+- [The 6 biggest branding errors most startups make](https://www.entrepreneur.com/article/277233)
+- [The (other) 6 mistakes to avoid when building a brand](https://www.entrepreneur.com/article/271353)
+- [The benefits of making brand guidelines public](https://www.brandingmag.com/2021/04/07/why-are-brands-no-longer-keeping-their-guidelines-under-lock-and-key/)
 
 ## Additional Resources:
-- [Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)  
-- [Why have a vision and mission statement?](brand_and_creative_team_mission_and_values.md)  
-- [Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)  
-- [Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)  
+
+- [Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)
+- [Why have a vision and mission statement?](brand_and_creative_team_mission_and_values.md)
+- [Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)
+- [Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)

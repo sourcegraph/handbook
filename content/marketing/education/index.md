@@ -8,17 +8,17 @@ The Developer Education team is dedicated to Sourcegraph’s long-term mission o
 
 ## Team
 
-* [Oluebube Princess Egbuna](https://about.sourcegraph.com/handbook/company/team#oluebube-princess-egbuna-she-her), Education Engineer
-* [Katy Juell](https://about.sourcegraph.com/handbook/company/team#katy-juell-she-her), Full Stack Engineer
-* [Lisa Tagliaferri](https://about.sourcegraph.com/handbook/company/team#lisa-tagliaferri-flexible), Director of Developer Education
-* [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team#marek-zaluski), Developer Education Engineer
+- [Oluebube Princess Egbuna](https://about.sourcegraph.com/handbook/company/team#oluebube-princess-egbuna-she-her), Education Engineer
+- [Katy Juell](https://about.sourcegraph.com/handbook/company/team#katy-juell-she-her), Full Stack Engineer
+- [Lisa Tagliaferri](https://about.sourcegraph.com/handbook/company/team#lisa-tagliaferri-flexible), Director of Developer Education
+- [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team#marek-zaluski), Developer Education Engineer
 
 ## Handbook links
 
- - [Learn Platform](learn-platform.md)
- - [Learn Platform Style](style.md)
- - [Team Process](process.md)
- - [DevEd Council](dev-ed-council.md)
+- [Learn Platform](learn-platform.md)
+- [Learn Platform Style](style.md)
+- [Team Process](process.md)
+- [DevEd Council](dev-ed-council.md)
 
 ## Get in touch
 

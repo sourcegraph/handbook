@@ -4,7 +4,7 @@ Joining customer and prospect calls is a valuable part of any new team member's 
 
 ## Types of calls
 
-While calendar events won't have one of these exact lables, knowing the types of calls will help you categorize calls so you can join the ones you'll find most helpful. 
+While calendar events won't have one of these exact lables, knowing the types of calls will help you categorize calls so you can join the ones you'll find most helpful.
 
 1. **New prospect:** the first call with a prospect, who may not know much about Sourcegraph. Often named "Intro Call." These can be useful for understanding how we communicate the value of Sourcegraph to buyers and admins.
 1. **Installation or technical check-in:** to walk through setting up Sourcegraph with a technical point of contact. These can be useful for learning what types of technical blockers users and admins encounter, and how we help solve them.
@@ -16,10 +16,10 @@ While calendar events won't have one of these exact lables, knowing the types of
 
 To join in on calls, you should first see which calls are happening that week and then Slack message the event organizer to ask if you can join. Look at Sales or CE team members' calendars to find calls. If the calendar invite was created by the prospect or customer, ask the Sales or CE team member before you add yourself.
 
-If you're working on a project and want to find calls about specific subjects, you can also post in the #CE and #Sales Slack channels that you're looking for those calls.  
+If you're working on a project and want to find calls about specific subjects, you can also post in the #CE and #Sales Slack channels that you're looking for those calls.
 
-You should feel comfortable asking to join any call – the call organizer will let you know if you can't join for any reason. If you're "joining a call," they'll expect that you will silently observe. 
+You should feel comfortable asking to join any call – the call organizer will let you know if you can't join for any reason. If you're "joining a call," they'll expect that you will silently observe.
 
 ## How to join calls to speak
 
-If you want to speak directly with customers or prospects, you should prepare a document with a list of questions, the account profile types you'd be interested in speaking with, and the purpose of the call. Share this document with the Sales and CE teams via Slack and work with them directly to set up or join calls. 
+If you want to speak directly with customers or prospects, you should prepare a document with a list of questions, the account profile types you'd be interested in speaking with, and the purpose of the call. Share this document with the Sales and CE teams via Slack and work with them directly to set up or join calls.

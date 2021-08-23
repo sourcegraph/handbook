@@ -23,7 +23,7 @@ Here’s what we use and how they fit together.
 - [Slack](https://sourcegraph.slack.com) is our primary internal communication tool.
 - [Google Meet](https://meet.google.com) and [Zoom](https://zoom.com) are our internal video calling tools. We default to Meet for product and design team calls, because it supports captions by default, which make our calls more inclusive for everyone.
 - [Loom](https://loom.com) is how we record and share video and screen recordings asynchronously.
-- [Google Calendar](https://calendar.google.com)  is for personal and shared calendars.
+- [Google Calendar](https://calendar.google.com) is for personal and shared calendars.
 - [Google Docs](https://docs.google.com) is where we write and collaborate on written content like RFCs.
 - [Google Slides](https://slides.google.com) is for slide decks and presentations.
 - [Google Sheets](https://sheets.google.com) is for spreadsheets.

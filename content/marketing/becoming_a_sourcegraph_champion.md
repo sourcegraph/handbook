@@ -4,14 +4,14 @@ The Sourcegraph Champion program offers developers an opportunity to share knowl
 
 ## Our Sourcegraph Champions are adept at:
 
-* Speaking about Sourcegraph at meetups & conferences.
-* Contributing to Sourcegraph open source code.
-* Writing and publishing articles on using Sourcegraph.
-* Creating and sharing educational content about using Sourcegraph.
-* Championing the adoption of Sourcegraph at companies.
-* Adopting Sourcegraph in Open Source projects.
-* Recommending and sharing Sourcegraph on social media channels.
-* Adopting Sourcegraph at Hackathons.
+- Speaking about Sourcegraph at meetups & conferences.
+- Contributing to Sourcegraph open source code.
+- Writing and publishing articles on using Sourcegraph.
+- Creating and sharing educational content about using Sourcegraph.
+- Championing the adoption of Sourcegraph at companies.
+- Adopting Sourcegraph in Open Source projects.
+- Recommending and sharing Sourcegraph on social media channels.
+- Adopting Sourcegraph at Hackathons.
 
 ## Sourcegraph Champion Perks:
 
@@ -21,4 +21,3 @@ The Sourcegraph Champion program offers developers an opportunity to share knowl
 - Special access to Sourcegraph events, including consideration for speaking engagements.
 
 Know someone that should be a Sourcegraph Champion? Please [nominate them.](https://forms.gle/QP6BBCpN1TwQfHzo6)
-

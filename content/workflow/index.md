@@ -230,7 +230,6 @@ See product comparisons and integrations with:
     <td class="gray"></td>
 </tr>
 
-
 <tr>
     <th>Other</th>
     <th colspan="20"></th>

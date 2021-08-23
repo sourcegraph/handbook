@@ -79,4 +79,4 @@ Why are we using "OKRs" again, when we previously said OKRs were jargon? Because
 
 > This does not yet apply because our most recent OKRs are not yet public.
 
-Do not include any specific financial numbers, customer names, or any other sensitive information in the public goals. Instead, use placeholders (such as *N<sub>0</sub>*, *N<sub>1</sub>*, and so on) and link to the definitions in a Google Doc that is only visible to Sourcegraph team members.
+Do not include any specific financial numbers, customer names, or any other sensitive information in the public goals. Instead, use placeholders (such as _N<sub>0</sub>_, _N<sub>1</sub>_, and so on) and link to the definitions in a Google Doc that is only visible to Sourcegraph team members.

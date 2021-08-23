@@ -18,7 +18,7 @@ Monitoring at Sourcegraph encapsulates:
 - Describing the overall health of Sourcegraph to site admins.
 - Making it clear to site admins _where to go next if Sourcegraph is not healthy_.
 
-It does *not* include:
+It does _not_ include:
 
 - Significant detail about what went wrong or the ability to identify individual problem cases: the goal is just to direct the site admin to the next step.
 - Solving a problem end-to-end: after looking at monitoring, admins MUST go elsewhere to solve the problem.
@@ -33,10 +33,10 @@ In stark contrast, we're putting together a monitoring system for people with ze
 
 To achieve this, our monitoring architecture is designed with the goal of providing a robust out-of-the-box monitoring experience that deployment admins can easily leverage. This goal includes:
 
-* **Ship understandable and actionable signals** - we want ensure that the metrics and dashboards we ship provide a clear indicator of whether something is wrong and what admins or Sourcegraph engineers can do to diagnose issues.
-* **Provide engineers at Sourcegraph the tooling to easily build monitoring** - our monitoring tooling is not just for customers, or the Distribution team: they should also serve the engineers by making it easy to create consistent and useful insights into the behaviour of both Sourcegraph Cloud and customer instances.
-* **Make alert notifications painless to configure** - we want minimize the number of Sourcegraph instances without any alerting set up. Alerts directly indicate issues that might impact user experience, and we want to ensure that deployment admins are equipped with the signals to help them provide their users with the best experience. This includes not requiring steps like port-forwarding or custom ConfigMaps for configuration.
-* **Dogfood the monitoring we ship as much as possible** - in the past, monitoring components have been difficult to use or completely broken since we do not rely on them heavily.
+- **Ship understandable and actionable signals** - we want ensure that the metrics and dashboards we ship provide a clear indicator of whether something is wrong and what admins or Sourcegraph engineers can do to diagnose issues.
+- **Provide engineers at Sourcegraph the tooling to easily build monitoring** - our monitoring tooling is not just for customers, or the Distribution team: they should also serve the engineers by making it easy to create consistent and useful insights into the behaviour of both Sourcegraph Cloud and customer instances.
+- **Make alert notifications painless to configure** - we want minimize the number of Sourcegraph instances without any alerting set up. Alerts directly indicate issues that might impact user experience, and we want to ensure that deployment admins are equipped with the signals to help them provide their users with the best experience. This includes not requiring steps like port-forwarding or custom ConfigMaps for configuration.
+- **Dogfood the monitoring we ship as much as possible** - in the past, monitoring components have been difficult to use or completely broken since we do not rely on them heavily.
 
 To see the architectural decisions made to support these goals, refer to the [Sourcegraph monitoring architecture](./monitoring_architecture.md#metrics).
 

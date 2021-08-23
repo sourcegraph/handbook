@@ -28,9 +28,9 @@ Let's break it down:
 
 1. Ask yourself: How confident am I that this won't happen again; that we have done something to ensure this customer and/or other customers will not have to deal with this issue in the future? If you are not super confident, how will you reassure the customer you have done what is in their best interest and maintain their trust?
 2. Not super confident ... remind yourself and your teammates in engineering what needs to be done.
-	1. We need to get the customer into a working state as soon as possible, always
-	2. Then, we need to figure out how lasting that fix is so we can gauge how to plan for a lasting fix
-	3. File a defect or product improvement in the public tracker (the nature of the issue will determine which) and the product/engineering team can schedule the work for the lasting fix in to an upcoming iteration
+   1. We need to get the customer into a working state as soon as possible, always
+   2. Then, we need to figure out how lasting that fix is so we can gauge how to plan for a lasting fix
+   3. File a defect or product improvement in the public tracker (the nature of the issue will determine which) and the product/engineering team can schedule the work for the lasting fix in to an upcoming iteration
 3. Share the GitHub link with the customer so they can follow along on progress and remind them they can ask for updates there, or in the shared Slack channel, or by emailing support@sourcegraph.com, or by talking with their CE.
 
 No one expects hard things to be solved over night. We just don't want to forget about or ignore hard things. We want to dig deep and help our teammates dig deep to find that precious root that holds all of the answers, that maintains an effortless customer experience ... that gets us even closer to realizing [our purpose](https://about.sourcegraph.com/handbook/company/strategy#purpose):

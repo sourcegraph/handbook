@@ -38,7 +38,6 @@ _Please note that we are not allowed to ask for pronouns during the interview pr
   - Person A: “thanks, they said their cat actually wrote most of the PR”
 - If there is no opportunity to correct someone in real time without being disruptive, a private follow-up later is also helpful.
 
-
 ## Additional resources
 
 - Boston Children’s Hospital - [Gender identity & pronoun use: A guide for pediatric health care professionals](https://notes.childrenshospital.org/clinicians-guide-gender-identity-pronoun-use/)

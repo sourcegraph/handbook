@@ -1,17 +1,18 @@
 # Guide to using Greenhouse
 
-## What is Greenhouse 
-[Greenhouse](https://www.greenhouse.io/) is Sourcegraphs's Applicant Tracking System (ATS). It is a collaborative tool designed to be used by everyone in the company, and is a convenient way to easily record feedback and use data to make great hires, faster.  
+## What is Greenhouse
+
+[Greenhouse](https://www.greenhouse.io/) is Sourcegraphs's Applicant Tracking System (ATS). It is a collaborative tool designed to be used by everyone in the company, and is a convenient way to easily record feedback and use data to make great hires, faster.
 
 ## How to log in
 
-1. Check your email for an invitation to Greenhouse.  
+1. Check your email for an invitation to Greenhouse.
 2. Navigate to greenhouse.io and select Sign In (you can also click [this link](https://app.greenhouse.io/users/sign_in)).
 3. Enter the email and password from your invitation.
 
 ## Greenhouse access
 
-- All teammates are granted Basic access, which allows you to submit and track referrals, interview candidates, and share jobs to social media.  If you believe you need a different level of access, please Slack @hiring.
+- All teammates are granted Basic access, which allows you to submit and track referrals, interview candidates, and share jobs to social media. If you believe you need a different level of access, please Slack @hiring.
 - Hiring Managers and Executives have access to view all candidates for any requisition where they're listed as a Hiring Manager.
 
 ## Integrations needed
@@ -26,7 +27,7 @@
 - Once you fill out this [form](https://forms.gle/13EraprAhpYz29dTA), Recruiting will open your job in Greenhouse and will get your job description posted to the [careers page](https://boards.greenhouse.io/sourcegraph91).
 - To view your jobs, click “All Jobs” at the top of your navigation bar.
 - To make an offer, please Slack Recruiting and they will enter the offer for approvals in Greenhouse.
-- You can use a @ mention to tag Recruiting.  Read more [here](https://support.greenhouse.io/hc/en-us/articles/360013153651--mentions).
+- You can use a @ mention to tag Recruiting. Read more [here](https://support.greenhouse.io/hc/en-us/articles/360013153651--mentions).
 
 ## How to use Greenhouse as an Interviewer
 
@@ -53,5 +54,3 @@
 ## Adding an Agency Recruiter to Greenhouse
 
 To add a new agency to Greenhouse, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-New-Agency). To add a new recruiter to an **existing agency**, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/200666389). To invite an existing agency to submit candidates, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/200666389-Invite-an-agency-recruiter-to-submit-candidates).
-
-

@@ -161,6 +161,7 @@ These commands assume you're on a local machine, and trying to access the live s
 #### Helpful aliases
 
 > Note: For the sourcegraph.com database you should refer to the instructions [here](../../deployments/playbooks.md#accessing-sourcegraph.com-database)
+
 ```bash
 alias dbpod='kubectl get pods --namespace=prod | grep pgsql | cut -d " " -f 1'
 alias proddb='kubectl exec -it --namespace=prod $(dbpod) -- psql -U sg -P pager=off';

@@ -1,4 +1,5 @@
 # How [repo-updater](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/tree/cmd/repo-updater) works
+
 - [How repo-updater works](#how-repo-updater-works)
   - [Purpose](#purpose)
     - [Overview](#overview)
@@ -8,7 +9,6 @@
     - [Cloud-specific dependencies](#cloud-specific-dependencies)
     - [Useful metrics](#useful-metrics)
 
-
 ## Purpose
 
 Sourcegraph mirrors repositories from code hosts. Code hosts may be SaaS products, such as GitHub or AWS CodeCommit, or local installations that are private to a customer's environment. The `repo-updater` service schedules repository synchronization activities using gitserver and any configured code hosts.
@@ -17,9 +17,9 @@ Sourcegraph mirrors repositories from code hosts. Code hosts may be SaaS product
 
 A `repo-updater` instance exposes an [HTTP server](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/cmd/repo-updater/repoupdater/server.go?L70-80) as its primary interface. This interface allows clients to schedule synchronization requests for the following:
 
-* Code host
-* Repository
-* Repository permission
+- Code host
+- Repository
+- Repository permission
 
 Although the majority of Git operations are issued directly to `gitserver`, clones and fetches are routed through `repo-updater` to ensure that code host limits and other concerns are respected.
 
@@ -27,11 +27,11 @@ As noted earlier, there are a variety of code hosts that Sourcegraph can integra
 
 The service's key data structure is a [priority queue](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/scheduler.go?L509-551) of repository updates. It implements the `heap.Interface` and the `sort.Interface` and functions in the following ways:
 
-* Updates are sorted using [simple heuristics](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/scheduler.go?L609-622) based on repository metadata
-* Queue positions can be modified in response to [explicit requests](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/scheduler.go?L368-377)
-* Priority levels can be set for [permissions and authorization updates](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/enterprise/cmd/repo-updater/internal/authz/request_queue.go?L9-12)
-* Updates are handled via [background worker jobs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/sync_worker.go?L32-94)
-* The [external_service_sync_jobs_with_next_sync_at view](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/sync_worker.go?L67) provides insights into the priority queue's activities and current depth
+- Updates are sorted using [simple heuristics](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/scheduler.go?L609-622) based on repository metadata
+- Queue positions can be modified in response to [explicit requests](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/scheduler.go?L368-377)
+- Priority levels can be set for [permissions and authorization updates](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/enterprise/cmd/repo-updater/internal/authz/request_queue.go?L9-12)
+- Updates are handled via [background worker jobs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/sync_worker.go?L32-94)
+- The [external_service_sync_jobs_with_next_sync_at view](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/repos/sync_worker.go?L67) provides insights into the priority queue's activities and current depth
 
 ## Miscellaneous
 
@@ -39,8 +39,8 @@ The service's key data structure is a [priority queue](https://sourcegraph.com/g
 
 There is [exactly one instance](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-dot-com@ec7effbc9491e3ee0c77c3d70ac3f2eb8cb34837/-/blob/base/repo-updater/repo-updater.Deployment.yaml?L17) of `repo-updater` running, by design. This allows us to:
 
-* Avoid expensive coordination issues
-* Respecting the aforementioned code host limits
+- Avoid expensive coordination issues
+- Respecting the aforementioned code host limits
 
 ### General dependencies
 

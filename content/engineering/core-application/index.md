@@ -5,9 +5,10 @@
 While you could think this is an angry cloud, it's actually a fierce and determined one 😃.
 
 ## Areas of ownership
+
 The Core Application team has broad [area ownership](areas-of-ownership.md) within the Sourcegraph product delivery organization. We are responsible for [code host connection and repository management](areas-of-ownership.md#code-host-connections-and-repositories-management), [administration experience](areas-of-ownership.md#administration-experience), [licensing, finance and subscription management](areas-of-ownership.md#licensing-and-subscription-management), [authorization, authentication, and IAM](areas-of-ownership.md#identity-and-access-management). The team also owns other [platform-level developer enablement themes](areas-of-ownership.md#developer-enablement).
 
-## Members 
+## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
 
@@ -24,11 +25,12 @@ The Core Application team has broad [area ownership](areas-of-ownership.md) with
   - Rafal (Oct 11)
 
 ## How to contact the team and ask for help
-- Please ask questions and submit requests for assistance via [#core-application](https://sourcegraph.slack.com/archives/CHPC7UX16) Slack channel 
+
+- Please ask questions and submit requests for assistance via [#core-application](https://sourcegraph.slack.com/archives/CHPC7UX16) Slack channel
 - Use `@core-app` to mention the team in Slack
 - Use [team/core-application](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/core-application) label to tag the team in GitHub.
 - Requests for assistance from Customer Support and other teams are triaged, worked on, and resolved based on their priority level by a team member on [operational rotation](operational-rotation.md).
-- See [Core Application Support board](https://github.com/orgs/sourcegraph/projects/153) for information about all tracked requests and their current status. 
+- See [Core Application Support board](https://github.com/orgs/sourcegraph/projects/153) for information about all tracked requests and their current status.
 
 ## [Goals](goals.md)
 
@@ -46,7 +48,7 @@ See [playbooks](playbooks/index.md)
 
 We have two week sprints starting on Wednesdays. We do a sync planning the day before (Tuesday) where we determine what each teammate works on. We use [JIRA](https://sourcegraph.atlassian.net/secure/RapidBoard.jspa?rapidView=5&projectKey=COREAPP&view=planning&issueLimit=100) to track that work. We do a sync [retrospective](https://app.retrium.com/team-room/acf6e310-7bbb-45e0-8a9e-bbc1f4305077) before the planning meeting, and have a general team sync meeting every other Monday. We use Geekbot in the [#core-application-sync](https://sourcegraph.slack.com/archives/C01L84TMHMJ) Slack channel for daily updates.
 
-### Operational rotation - how do we provide support to other teams 
+### Operational rotation - how do we provide support to other teams
 
 We are establishing the [operational rotation](operational-rotation.md) to predictably deliver sprint goals and provide the necessary support to other teams.
 
@@ -73,7 +75,6 @@ Consider setting up regular [office hours](https://support.google.com/calendar/a
 The team is currently experimenting with JIRA as our project tracker.
 
 To track GitHub PRs automatically in JIRA, use the JIRA ticket number anywhere in the branch name. So for example, if the ticket number is `COREAPP-42` and you name your branch `the-answer-to-everything-COREAPP-42`, the resulting PR from this branch will automatically be associated with the JIRA ticket.
-
 
 ### Tagging teammates
 

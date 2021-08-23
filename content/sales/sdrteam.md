@@ -5,17 +5,17 @@ The SDR Team (TBA)
 ## Members
 
 - [Nicholas Gage](../company/team/index.md#nicholas-gage-he-him), Head of Sales Development
-   - West Outbound SDRs
-      - [Quin "Q" Keough](../company/team/index.md#quin-keough)
-      - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
-      - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
-   - East Outbound SDRs
-      - [Sam Cregg](../company/team/index.md#sam-cregg)
-      - [Jenna Pierre](https://about.sourcegraph.com/handbook/company/team#jenna-pierre-she-her)
-      - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
-   - Inbound SDR
-      - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
-                  
+  - West Outbound SDRs
+    - [Quin "Q" Keough](../company/team/index.md#quin-keough)
+    - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
+    - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
+  - East Outbound SDRs
+    - [Sam Cregg](../company/team/index.md#sam-cregg)
+    - [Jenna Pierre](https://about.sourcegraph.com/handbook/company/team#jenna-pierre-she-her)
+    - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
+  - Inbound SDR
+    - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
+
 More SDRs coming soon...
 
 ## Quick Links
@@ -36,16 +36,16 @@ Description of how the sales team prospects into an account:
 
 **Outbounding General Principles**
 
-- We outbound using an account-based strategy. We engage prospects within the same company for a specific reason in order to determine if Sourcegraph will add value to their organization. 
+- We outbound using an account-based strategy. We engage prospects within the same company for a specific reason in order to determine if Sourcegraph will add value to their organization.
 - Use a copy of the AE/SDR Acct Planning Template doc [here](https://docs.google.com/spreadsheets/d/1pJiaUFk-KcRmEf9jfMjniHfyu6xsV--W/edit#gid=263328937). This document allows you to ensure constant communication between your sales counterpart (SDR/AE), and stay organized with building out your account list.
-- Outbounding is a never-ending process of learning how best to generate conversations with prospects. Constantly iterate the messages you use to start a conversation and don’t be afraid to try new things. 
+- Outbounding is a never-ending process of learning how best to generate conversations with prospects. Constantly iterate the messages you use to start a conversation and don’t be afraid to try new things.
 
 **Workflow Videos**
 
 - Steps of how to build out an account: [link](https://drive.google.com/file/d/1E7KzzJlmuDNSALyChhpRGs05i91ENH43/view)
-- Using Vidyard and GitHub to tailor messaging: Link (TBD) 
+- Using Vidyard and GitHub to tailor messaging: Link (TBD)
 - Call workflow: Link (TBD)
-  
+
 ## AE - New Opportunity Workflow Post Creation by SDR
 
 AE leads initial call and dispositions the opportunity accordingly:
@@ -60,7 +60,6 @@ AE leads initial call and dispositions the opportunity accordingly:
 - **Needs More Work** - if the Opportunity doesn’t meet the requirements of a Sales Accepted Opportunity, but we believe that it has the potential to reach this stage with additional progress, keep it in the initial stage and devise a plan b/t the AE & SDR to get it to Sales Accepted Opportunity.
 
   - Examples here: great account/need, but we have to get into a different contact or great opportunity but no next steps could be confirmed.
-
 
 ## SDR to AE Handoff
 
@@ -85,7 +84,7 @@ See [CEP - Pre-Sale Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiI
 **At the end of the call:**
 
 - AE wraps up the call and confirms next steps.
-  - Note: If towards the end of the call, the AE can't solidify next steps, the SDR may choose to step in as a *"second voice"* and attempt to pencil down next steps, but only if it makes sense.
+  - Note: If towards the end of the call, the AE can't solidify next steps, the SDR may choose to step in as a _"second voice"_ and attempt to pencil down next steps, but only if it makes sense.
 
 **After the call:**
 
@@ -93,19 +92,20 @@ See [CEP - Pre-Sale Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiI
   - Note: SDRs don't need to be cc'ed on all prospect emails, just the initial ones.
 - At this point, **the handoff to AE is now complete.**
 
-    - The purpose of this framework is to encourage a much more fluid introduction and transition from SDR to AE; this isn't meant to be a strict and rigid process, but rather a guide.
+  - The purpose of this framework is to encourage a much more fluid introduction and transition from SDR to AE; this isn't meant to be a strict and rigid process, but rather a guide.
 
-    - Sending the initial email opens the communication line between all parties, instead of having the proposed agenda appear only in the calendar invite.
+  - Sending the initial email opens the communication line between all parties, instead of having the proposed agenda appear only in the calendar invite.
 
-    - This process helps build a continuous rapport between the prospect and the SDRs. And in the event the prospect becomes unresponsive, the SDR can step in and attempt to revive the conversation. Or if the prospect has a question, and the AE isn't available, SDRs can provide back up support.
+  - This process helps build a continuous rapport between the prospect and the SDRs. And in the event the prospect becomes unresponsive, the SDR can step in and attempt to revive the conversation. Or if the prospect has a question, and the AE isn't available, SDRs can provide back up support.
 
-    - Finally, this process is a proactive way to ensure that SDRs are setting high-quality meetings for their AEs.
+  - Finally, this process is a proactive way to ensure that SDRs are setting high-quality meetings for their AEs.
 
 ## Best Practices
+
 - Sourcegraph + Prospect GitHub Demo
-    - Explanation of Vidyard Flow Video [link](https://drive.google.com/file/d/1rUJ32z2kzrzRhUGHIw_eDTgO55l1VzIt/view?usp=sharing)
-    - Adobe Example Video [link](https://drive.google.com/file/d/1lRM5PL9R5oqM-RD4NhSGN2ahvED_fQwA/view?usp=sharing)
-    - Script and Click Path [link](https://docs.google.com/document/d/1vL2gqp1-xlFkhIO4dNePA8lT0_T96W9fZFWAZkM9Vbo/edit?usp=sharing)
+  - Explanation of Vidyard Flow Video [link](https://drive.google.com/file/d/1rUJ32z2kzrzRhUGHIw_eDTgO55l1VzIt/view?usp=sharing)
+  - Adobe Example Video [link](https://drive.google.com/file/d/1lRM5PL9R5oqM-RD4NhSGN2ahvED_fQwA/view?usp=sharing)
+  - Script and Click Path [link](https://docs.google.com/document/d/1vL2gqp1-xlFkhIO4dNePA8lT0_T96W9fZFWAZkM9Vbo/edit?usp=sharing)
 
 ## Tech Stack
 
@@ -114,4 +114,4 @@ See [CEP - Pre-Sale Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiI
 - Linkedin Sales Navigator - Prospecting Tool
 - Zoominfo - Data Intelligence Tool
 - LeadiQ - Data Intelligence Tool
--Yesware-Data Intelligence Tool
+  -Yesware-Data Intelligence Tool

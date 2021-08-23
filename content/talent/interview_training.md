@@ -1,4 +1,4 @@
-## Interview Training 
+## Interview Training
 
 [Interview basics] Coming soon
 

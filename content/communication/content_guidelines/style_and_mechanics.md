@@ -186,7 +186,7 @@ Avoid any instructions or language that requires the user to see the layout or d
 ## Numbers
 
 - Spell out numbers 1-9 except for percentages and ranges.
-- Use numerals for 10 upwards. 
+- Use numerals for 10 upwards.
 - Always use the numeral for ordinals (numbers that tell the position of something in a list).
 
 <div class="usage">
@@ -699,15 +699,15 @@ A common error when writing questions is not constructing the sentence as a ques
 We describe ourselves with a few different names depending on context, and we should use the right term at the right time.
 
 - **Sourcegraph**: Main product. This name is always preferred unless you need to clarify between the 3 deployment methods for Sourcegraph below.
-- **Sourcegraph self-hosted**: On-premises and self-managed version of Sourcegraph. 
-- **Sourcegraph cloud**: This is the cloud instance of Sourcegraph at [sourcegraph.com](https://sourcegraph.com), used both for open source search as well as individual accounts for connecting public or private code. 
-- **Managed Sourcegraph instance**: Private Sourcegraph instances managed and provisioned by the Sourcegraph team. 
+- **Sourcegraph self-hosted**: On-premises and self-managed version of Sourcegraph.
+- **Sourcegraph cloud**: This is the cloud instance of Sourcegraph at [sourcegraph.com](https://sourcegraph.com), used both for open source search as well as individual accounts for connecting public or private code.
+- **Managed Sourcegraph instance**: Private Sourcegraph instances managed and provisioned by the Sourcegraph team.
 - **Sourcegraph integrations**: The general term for our integrations. When referencing specific integrations:
-    - Sourcegraph(’s) Phabricator integration
-    - Sourcegraph(’s) GitHub integration
-    - Sourcegraph(’s) browser extensions
-    - Sourcegraph(’s) Chrome extension
-    - Sourcegraph(’s) Firefox add-on
+  - Sourcegraph(’s) Phabricator integration
+  - Sourcegraph(’s) GitHub integration
+  - Sourcegraph(’s) browser extensions
+  - Sourcegraph(’s) Chrome extension
+  - Sourcegraph(’s) Firefox add-on
 - **Sourcegraph OSS**: When referring to the build result of the open source repository.
 
 You don't need to use the full name of the product each time you refer to it, but don't use a shortened name that could be confused with an official name.
@@ -749,9 +749,9 @@ Only use _we_ and _our_ (as in “our GitHub integration”) in informal documen
 
 ### Product names
 
-We capitalize product names. Qualify product names with `Sourcegraph $FEATURE` on first reference. Don't capitalize product names when referencing them generically or in context of taking an action. 
+We capitalize product names. Qualify product names with `Sourcegraph $FEATURE` on first reference. Don't capitalize product names when referencing them generically or in context of taking an action.
 
-List of product names: 
+List of product names:
 
 - Batch Changes
 - Code Insights
@@ -781,7 +781,7 @@ List of product names:
 
 ### Feature names
 
-We don't capitalize features or integrations. 
+We don't capitalize features or integrations.
 
 <div class="usage">
 <div class="item yes">
@@ -835,7 +835,6 @@ Refer to the natural noun of the product or feature directly.
 </ul>
 </div>
 </div>
-
 
 ## Writing about people
 

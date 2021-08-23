@@ -2,7 +2,7 @@
 
 Our passionate users provide a constant stream of thoughtful feedback and love engaging with us to help them and their teams solve their toughest problems. This trust and feedback is a gift, and we take it seriously and listen carefully to what users tell us.
 
-*This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](surfacing_product_feedback.md).*
+_This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](surfacing_product_feedback.md)._
 
 ## Sources of feedback
 
@@ -32,7 +32,7 @@ We have a few different email lists that are used to send us feedback.
 
 #### support@sourcegraph.com
 
-- **Purpose:** This email list is for customers to request help and connects to Zendesk. 
+- **Purpose:** This email list is for customers to request help and connects to Zendesk.
 - **Owner:** The Customer Support team is [responsible for all support issues](../support/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
 
 ### GitHub issues
@@ -53,7 +53,7 @@ We have a few different email lists that are used to send us feedback.
 ### Support tickets
 
 - **Purpose:** A path for existing customers to get responsive support.
-- **Owner:** CS team owns support tickets in Zendesk. If product team members want more insight into the support feedback, they can review [the support dashboard](https://sourcegraph.looker.com/dashboards-next/177) or scan the [customer issues repo](https://github.com/sourcegraph/customer/issues), and cross-reference both with slack searches in support channels. Additionally, at the end of every quarter, the Head of Customer Support provides the product team with a qualitative summary and links to details of the major support trends from the prior three months. 
+- **Owner:** CS team owns support tickets in Zendesk. If product team members want more insight into the support feedback, they can review [the support dashboard](https://sourcegraph.looker.com/dashboards-next/177) or scan the [customer issues repo](https://github.com/sourcegraph/customer/issues), and cross-reference both with slack searches in support channels. Additionally, at the end of every quarter, the Head of Customer Support provides the product team with a qualitative summary and links to details of the major support trends from the prior three months.
 
 ### Sales feedback
 
@@ -69,6 +69,7 @@ We have a few different email lists that are used to send us feedback.
 - **Owner:** The product manager on [feedback rotation](product_management/responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback.
 
 #### Browser Extension Uninstall Feedback
+
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
 - **Owner:** The browser extension product manager (currently the [Extensibility team product manager](../engineering/developer-insights/extensibility/index.md#members)) owns responding to this feedback.
 

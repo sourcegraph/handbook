@@ -8,7 +8,7 @@ Welcome to the distribution team! This document will guide you through distribut
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../company/goals/index.md), [values](../../company/values.md) and [code of conduct](../../communication/code_of_conduct.md),  as well as [Distributions’s mission and vision](https://about.sourcegraph.com/handbook/engineering/distribution).
+- Clear knowledge of the [company goals](../../company/goals/index.md), [values](../../company/values.md) and [code of conduct](../../communication/code_of_conduct.md), as well as [Distributions’s mission and vision](https://about.sourcegraph.com/handbook/engineering/distribution).
 - Know the expected outcome of each Distribution onboarding milestone.
 - Become familiar with Distribution [product](product.md), [tech stack](tech_stack.md) and [processes](recurring_processes.md).
 - Go through [General Onboarding](../../people-ops/onboarding/general_onboarding.md)
@@ -60,6 +60,7 @@ Welcome to the distribution team! This document will guide you through distribut
 - Confidently contributing to and closing team issues
 
 #### Tasks
+
 - Review the sourcegraph install docs and make any appropriate updates.
 - Shadow the release captain during the release process. Point out things that don't make sense, ask questions, in order to help us improve the process.
 - Take on new issues, and pair with other engineers.

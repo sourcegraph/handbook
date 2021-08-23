@@ -1,6 +1,6 @@
 # General onboarding checklist
 
-*We are in the process of creating a single, unified, structured onboarding checklist for each team, hosted in [Process St](https://app.process.st/reports). This means some teams will have one checklist while others may still have a general one (in Process St.) and a team specific one provided by their manager.*
+_We are in the process of creating a single, unified, structured onboarding checklist for each team, hosted in [Process St](https://app.process.st/reports). This means some teams will have one checklist while others may still have a general one (in Process St.) and a team specific one provided by their manager._
 
 - Watch the [new team member intro from the CEO](https://www.youtube.com/watch?v=EVHUGZe5uts)
 
@@ -21,9 +21,9 @@ Considering the Onboarding checklist lives in Process St., this page contains an
 
 ### U.S. based teammates
 
-- **[Expensify](https://www.expensify.com/signin):** To submit receipts for any work related expenses for reimbursement. Expensify will be linked to your *Sourcegraph email*.
-- **[Rippling](https://rippling.com/)**: To select your health plans, set up payment information, enter your I-9 information. Rippling will be linked to your *personal email*. 
-- **[Human Interest](https://humaninterest.com/):** To check on your 401k. 
+- **[Expensify](https://www.expensify.com/signin):** To submit receipts for any work related expenses for reimbursement. Expensify will be linked to your _Sourcegraph email_.
+- **[Rippling](https://rippling.com/)**: To select your health plans, set up payment information, enter your I-9 information. Rippling will be linked to your _personal email_.
+- **[Human Interest](https://humaninterest.com/):** To check on your 401k.
 
 Expensify, Rippling, and Human Interest are managed by our back office, Officengine. U.S. based teammates can contact Officengine directly for questions pertaining to **health insurance, dental insurance, vision insurance, life insurance, 401k, and payroll (including tax withholdings)**. To do this, use the [Sourcegraph support request](https://docs.google.com/forms/d/e/1FAIpQLSecCNJDd8r26WxjOK0AHIGEV1gfzN_tRdYnXr2heIejLN-BUg/viewform) form to input requests and _indicate their urgency_. This form feeds into Officengine's ticketing system and alerts their team via email. _Questions about **PTO/leave, family planning support, professional development, travel, and moving** go to the [People Ops](https://about.sourcegraph.com/handbook/people-ops) team directly._
 
@@ -35,7 +35,7 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
 
 - [Add your working hours to Google Calendar](https://calendar.google.com/calendar/r/settings) so your teammates know when it is safe to add meetings to your calendar.
 - Add any local [holidays](../holidays.md) you observe to your calendar so people know you're not working.
-- Under [Event Settings](https://calendar.google.com/calendar/u/0/r/settings), change the default guest permissions to  **"Modify event"** (this makes it easy for teammates to reschedule when necessary).
+- Under [Event Settings](https://calendar.google.com/calendar/u/0/r/settings), change the default guest permissions to **"Modify event"** (this makes it easy for teammates to reschedule when necessary).
   - Consider enabling "Speedy meetings" to build in a 5- or 10-minute break at the end of meetings.
 
 ![Modifying Google Calendar event settings](https://sourcegraphstatic.com/handbook/google-calendar-event-settings.png)
@@ -48,7 +48,7 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
 ## Learn how to contribute to the handbook
 
 - [Create an account on GitHub.com](https://github.com/join) if you don't already have one.
-   - Share your username with Inés so she can add you to the Sourcegraph GitHub account and appropriate teams.
+  - Share your username with Inés so she can add you to the Sourcegraph GitHub account and appropriate teams.
 - If you are not familiar with Git, complete the [Git introduction](git_intro.md).
 - Add yourself to the [team page](../../company/team/index.md).
   - Add a link to your team page bio to your Slack profile
@@ -56,11 +56,10 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
 
 ## Learn about Sourcegraph
 
-
 ### Communication and documentation
 
 - We're a handbook-first company. Learn all about the handbook on its [handbook page](../../usage.md).
-- We use Slack for team chat. Please read the [Slack handbook page](../../communication/team_chat.md) to understand what we use Slack for and how we use it. 
+- We use Slack for team chat. Please read the [Slack handbook page](../../communication/team_chat.md) to understand what we use Slack for and how we use it.
   - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels).
 - Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
 

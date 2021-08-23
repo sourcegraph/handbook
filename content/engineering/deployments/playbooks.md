@@ -53,7 +53,6 @@ During the code freeze, [Renovate](#renovate) will be disabled on **Wednesday 18
 
 Once your PR has been merged, you can follow the deployment via [CI on the `release` branch](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/builds?branch=release).
 
-
 ### Rolling back sourcegraph.com
 
 To roll back soucegraph.com, push a new commit to the `release` branch in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) that reverts the image tags and configuration to the desired state.
@@ -136,23 +135,25 @@ To restart the services powering about.sourcegraph.com and docs.sourcegraph.com:
 
 1. List the active pods with `kubectl get pods`. This should produce a list that includes items like the following:
 
-    ```
-    NAME                                     READY   STATUS      RESTARTS   AGE
-    about-sourcegraph-com-74f96c659b-t6lqp   1/1     Running     0          7m49s
-    docs-sourcegraph-com-5f97dd5db-7wrxm     1/1     Running     0          7m49s
-    ```
+   ```
+   NAME                                     READY   STATUS      RESTARTS   AGE
+   about-sourcegraph-com-74f96c659b-t6lqp   1/1     Running     0          7m49s
+   docs-sourcegraph-com-5f97dd5db-7wrxm     1/1     Running     0          7m49s
+   ```
 
-    The exact names will differ, but the general format will be the same.
+   The exact names will differ, but the general format will be the same.
+
 1. Delete the pods, being careful to copy the exact names from the output in the previous step. For example, with that output, you would run:
 
-    ```
-    kubectl delete pod about-sourcegraph-com-74f96c659b-t6lqp docs-sourcegraph-com-5f97dd5db-7wrxm
-    ```
+   ```
+   kubectl delete pod about-sourcegraph-com-74f96c659b-t6lqp docs-sourcegraph-com-5f97dd5db-7wrxm
+   ```
+
 1. Wait a moment, and check https://about.sourcegraph.com/ and https://docs.sourcegraph.com/.
 
 ### Creating banners for maintenance tasks
 
-For database upgrades or other tasks that might cause some aspects of Sourcegraph to be unavailable, we provide a banner across the top of the site. This can be done via editing __Global Settings__ with the following snippet.
+For database upgrades or other tasks that might cause some aspects of Sourcegraph to be unavailable, we provide a banner across the top of the site. This can be done via editing **Global Settings** with the following snippet.
 
 ```json
 "notices": [

@@ -8,6 +8,7 @@ The [Sourcegraph team](index.md) is distributed around the world!
 ## Adding to the team locations map
 
 ### Option 1
+
 To add your own location:
 
 1. Copy the contents of [`locations.geojson`](https://raw.githubusercontent.com/sourcegraph/about/main/handbook/company/team/locations.geojson)
@@ -15,42 +16,41 @@ To add your own location:
 1. Click the map pin icon (looks like a google map location) on the right side of the map, and drop it in your location.
 1. Scroll to the bottom of the text that you pasted in, where your new pin will appear.
 1. In the `properties` section, add your name: `"name": "<yourname>"`. The final result will look like:
-    ```
-    {
-        "type": "Feature",
-        "properties": {
-            "name": "<YOUR NAME>"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                <LONGITUDE>,
-                <LATITUDE>
-            ]
-        }
-    }
-    ```
+   ```
+   {
+       "type": "Feature",
+       "properties": {
+           "name": "<YOUR NAME>"
+       },
+       "geometry": {
+           "type": "Point",
+           "coordinates": [
+               <LONGITUDE>,
+               <LATITUDE>
+           ]
+       }
+   }
+   ```
 1. Copy the new JSON from the right side of the page with your updated info included, and use it to generate a PR for [this file](https://github.com/sourcegraph/about/blob/main/handbook/company/team/locations.geojson).
 
-
 ### Option 2
+
 1. Use [this site](https://www.latlong.net/) to get your city's latitude and longitude coordinates.
 1. Edit the following bit of JSON to include your name and coordinates (be sure to put longitude first):
-    ```
-      {
-        "type": "Feature",
-        "properties": {
-            "name": "<YOUR NAME>"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                <LONGITUDE>,
-                <LATITUDE>
-            ]
-        }
-    }
-    ```
+   ```
+     {
+       "type": "Feature",
+       "properties": {
+           "name": "<YOUR NAME>"
+       },
+       "geometry": {
+           "type": "Point",
+           "coordinates": [
+               <LONGITUDE>,
+               <LATITUDE>
+           ]
+       }
+   }
+   ```
 1. Edit [this file](https://github.com/sourcegraph/about/blob/main/handbook/company/team/locations.geojson). Paste in your JSON above the final two lines of the file, leaving the `] }` below what you pasted in.
 1. Open a PR for the file and assign a teammate to review.
-

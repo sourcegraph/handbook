@@ -4,7 +4,6 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 ## Team
 
-
 ### Members
 
 - [Dan Adler](../../company/team/index.md#dan-adler-he-him), VP Operations
@@ -47,6 +46,7 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 **Fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends**.
 
 ### Fiscal year 2022
+
 - **FY22 Q1**: 01 February, 2021 - 30 April, 2021
 - **FY22 Q2**: 01 May, 2021 - 31 July, 2021
 - **FY22 Q3**: 01 August, 2021 - 31 October, 2021
@@ -56,11 +56,11 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 - Financial statements
 - Metrics
-	- Quarterly and monthly [IARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=2006715807)
-	- [ARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1460993554)
-	- [Annualized net retention](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
-	- [Payback period & CAC efficiency](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
-	- [Burn ratio & ARR per employee](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
+  - Quarterly and monthly [IARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=2006715807)
+  - [ARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1460993554)
+  - [Annualized net retention](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
+  - [Payback period & CAC efficiency](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
+  - [Burn ratio & ARR per employee](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
 
 ## Definitions
 
@@ -78,11 +78,11 @@ Incremental [ARR](#arr) (IARR) is the change in ARR from one period to another.
 
 ### New IARR
 
-New [IARR](#iarr) is IARR from *new customers* (i.e., organizations that were **not** existing customers at the beginning of the period). See also [expansion IARR](#expansion-iarr).
+New [IARR](#iarr) is IARR from _new customers_ (i.e., organizations that were **not** existing customers at the beginning of the period). See also [expansion IARR](#expansion-iarr).
 
 ### Expansion IARR
 
-Expansion [IARR](#iarr) is IARR from *existing customers* (i.e., organizations that were already customers at the beginning of the period).
+Expansion [IARR](#iarr) is IARR from _existing customers_ (i.e., organizations that were already customers at the beginning of the period).
 
 If within a single period a new customer signs a contract which then grows in ARR before the end of the period, the total ending ARR is all considered [new IARR](#new-iarr), not expansion IARR. For example, if Acme Corp signs a $100k contract on February 3 and then the contract expands to $200k on March 5, all $200k would be considered new IARR for Q1.
 
@@ -120,7 +120,9 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 - [Submitting reimbursable expenses](expenses.md)
 
 ### Accounts Receivable
+
 - [AR Policy](ar.md)
 
 ### Fixed Assets
+
 - [Fixed Asset Policy](https://docs.google.com/document/d/155anVJgInRempR92LiiOwOIf2JJB5jj3b9ktrp8nznY/edit)

@@ -16,26 +16,26 @@ The TLS is provided by Cloudflare, which interacts weirdly with GHE's own HSTS h
 - css
 - elixir
 - erlang
-- go 
+- go
 - haskell
 - html
 - java
 - javascript
 - julia
 - kotlin
-- lua 
+- lua
 - matlab
 - ocaml
 - perl
-- php 
+- php
 - python
-- r 
+- r
 - ruby
 - rust
 - scala
 - shell
-- swift 
-- typescript 
+- swift
+- typescript
 
 For each repository in [ghe-repos.json](https://gist.github.com/sqs/4ba1382895928bd06db6076ce910bc3a), I used a script to
 
@@ -45,13 +45,13 @@ For each repository in [ghe-repos.json](https://gist.github.com/sqs/4ba138289592
 
 1. Upload the repository to a specific "sourcegraph-$LANGUAGE" organization (where $LANGUAGE is the primary language of the repository as identified by github.com), (e.x. the ["sourcegraph-go" organization](https://ghe.sgdev.org/sourcegraph-go) for https://ghe.sgdev.org/sourcegraph-go/gorilla-mux)
 
-This means that the ["sourcegraph" organization](https://ghe.sgdev.org/sourcegraph) is the superset of all repositores that exist on the instance (~35K repos), and each language-specific organization should contain only ~1000 repos. 
+This means that the ["sourcegraph" organization](https://ghe.sgdev.org/sourcegraph) is the superset of all repositores that exist on the instance (~35K repos), and each language-specific organization should contain only ~1000 repos.
 
-*Note: some repositories in [ghe-repos.json](https://gist.github.com/sqs/4ba1382895928bd06db6076ce910bc3a) might be missing from ghe.sgdev.org if my script ran into an error when trying to process them (too much load on the machine, too much load on ghe.sgdev.org, huge >100mb blobs in some repositories, etc.)*
+_Note: some repositories in [ghe-repos.json](https://gist.github.com/sqs/4ba1382895928bd06db6076ce910bc3a) might be missing from ghe.sgdev.org if my script ran into an error when trying to process them (too much load on the machine, too much load on ghe.sgdev.org, huge >100mb blobs in some repositories, etc.)_
 
 ## TODO
 
 Sections that still need to be written:
 
 - Ops/maintenance related issues
-- Firewall setup 
+- Firewall setup

@@ -7,7 +7,7 @@ This document describes how we release Sourcegraph.
 ### Releases
 
 **Sourcegraph releases are monthly.**
-A *release* refers to a minor version increase of Sourcegraph (e.g. `3.0.0` -> `3.1.0`).
+A _release_ refers to a minor version increase of Sourcegraph (e.g. `3.0.0` -> `3.1.0`).
 We create releases by 10am US Pacific Time on the 20th day of each month. ([why?](#why-the-20th))
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
@@ -17,7 +17,7 @@ These releases always ships on time, even if it's missing features or bug fixes 
 ### Patch releases
 
 **Sourcegraph patch releases are created as required.**
-A *patch release* refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`).
+A _patch release_ refers to a patch version increase of Sourcegraph (e.g. `3.0.0` -> `3.0.1`).
 
 These releases **never** require any manual migration steps.
 
@@ -128,9 +128,8 @@ This is because:
 
 In the future, we may introduce continuous releases if these issues become surmountable.
 
-
 ### Important dates
 
 The release branch will be cut on the last working day at 10am PST before the 20th of each month. If the 20th falls on a non-working day, the release captain will move the release forward to the first working day, as well as cutting the release branch the day before. The calendar events will reflect this.
 
-eg. The 20th of a given month falls on a Sunday, therefore the release will be moved forward to the first working day (the 18th) and the branch will cut the day before (the 17th). 
+eg. The 20th of a given month falls on a Sunday, therefore the release will be moved forward to the first working day (the 18th) and the branch will cut the day before (the 17th).

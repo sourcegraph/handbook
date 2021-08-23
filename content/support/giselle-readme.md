@@ -2,7 +2,6 @@
 
 > Many <del>Whelps!</del> Tickets! Handle It!
 
-
 #### Individual view on customer service/support
 
 Support work is one of the most challenging (and sometimes least appreciated) place to be because it combines both technical, communication, and personal challenges. It's often not as simple as solving a problem because there are so many aspects to consider.
@@ -13,7 +12,7 @@ Learning by doing > Doing then asking questions and/or reading/videos
 
 #### Communication style
 
-I appreciate honesty presented in a nice way, and I'll try to do the same. 
+I appreciate honesty presented in a nice way, and I'll try to do the same.
 
 #### Preferred way to collaborate
 
@@ -45,7 +44,7 @@ Doesn't bother me! I normally have slack notifications turned off on my phone so
 
 #### How folks can best show up for us when we seem off (give space, ask if work is the right place for us to be today, etc)
 
-Humor! I don't want to dwell on bad feelings so I appreciate silliness that lightens the mood. 
+Humor! I don't want to dwell on bad feelings so I appreciate silliness that lightens the mood.
 
 I also appreciate people being understanding that sometimes things aren't great and it may have nothing to do with work, then giving me time to come around.
 
@@ -67,14 +66,13 @@ Slowly working on a post bachelor's degree in Computer science. I'll get there s
 
 #### Something you fear
 
-My washing machine breaking. 
+My washing machine breaking.
 
 #### A quote you like
 
-> *"I think I can, I think I can, I think I can."* 
+> _"I think I can, I think I can, I think I can."_
 
 The Little Engine that Could
-
 
 #### How you eat fries (with or without ketchup (ketchup on the fries or on the side), etc)
 
@@ -82,4 +80,4 @@ Plain! Don't @ me.
 
 #### Your sun, moon, and rising signs
 
-*Looks suspiciously*.... You're trying to steal my secrets, aren't you? 
+_Looks suspiciously_.... You're trying to steal my secrets, aren't you?

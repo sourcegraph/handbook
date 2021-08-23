@@ -1,6 +1,6 @@
 # Editorial handbook
 
-## Editorial strategy 
+## Editorial strategy
 
 The FY22 Editorial Strategy for the Sourcegraph blog builds on our [FY22 Content Strategy](index.md).
 
@@ -10,15 +10,15 @@ In the context of content marketing, editorial content is defined by Power Digit
 
 Most technology brands have a corporate blog to support their content strategy, driving traffic through referrals and SEO, to build authority, credibility, and trust with their audience. Some brands have a separate engineering blog (for example, [Netflix](https://netflixtechblog.com/), [Uber](https://eng.uber.com/), [Airbnb](https://medium.com/airbnb-engineering)), which works well for consumer-facing brands whose customers are not necessarily interested in how the technology is built. For the most part however, corporate blogs tend to publish a blend of editorial and promotional content, ranging from tutorials and how-tos, engineering deep dives and product spotlights, to analyst report accolades, customer stories and company news.
 
-With so much potential content to share, an editorial strategy helps to guide our decision making. It forces us to keep our audience’s needs top of mind and ensure that each blog post is set up for success by always offering something of value to our readers, maintaining a high quality bar, and aligning with broader marketing themes and objectives. 
+With so much potential content to share, an editorial strategy helps to guide our decision making. It forces us to keep our audience’s needs top of mind and ensure that each blog post is set up for success by always offering something of value to our readers, maintaining a high quality bar, and aligning with broader marketing themes and objectives.
 
 ### Editorial principles
 
-The editorial strategy for Sourcegraph’s blog draws on the same [principles that inform our overall content strategy](index.md#content-principles): 
+The editorial strategy for Sourcegraph’s blog draws on the same [principles that inform our overall content strategy](index.md#content-principles):
 
-1. **Quality over quantity.** We do not sacrifice quality for quantity, and we take our reputation as a content producing company seriously. We respect our audiences’ time and thus, we respect the creative process and allow ample time for content creation. 
-1. **Audience-first mentality.** We prioritize the needs of our audience over our own. Our content offers useful and actionable information regardless of whether the reader uses Sourcegraph or not. Content marketing does not equal advertising. 
-1. **Keep it helpful and simple.** We make it easy to find, consume, and share our content. We create content that is intelligent, thoughtful, and accessible to all and apply user experience best practices. We don’t engage in fear mongering or share vapid content. 
+1. **Quality over quantity.** We do not sacrifice quality for quantity, and we take our reputation as a content producing company seriously. We respect our audiences’ time and thus, we respect the creative process and allow ample time for content creation.
+1. **Audience-first mentality.** We prioritize the needs of our audience over our own. Our content offers useful and actionable information regardless of whether the reader uses Sourcegraph or not. Content marketing does not equal advertising.
+1. **Keep it helpful and simple.** We make it easy to find, consume, and share our content. We create content that is intelligent, thoughtful, and accessible to all and apply user experience best practices. We don’t engage in fear mongering or share vapid content.
 
 All blog posts and other editorial content need to align with the above principles, and we will vet content at all stages of production to ensure it meets our editorial standards:
 
@@ -30,13 +30,13 @@ All blog posts and other editorial content need to align with the above principl
 
 In one sentence: "Insights, tips, and technology to help you hone your craft and grow your career."
 
-The Sourcegraph’s blog primary function is to serve our developer audience: to be a source of information, inspiration, and delight. We want to help make developers’ jobs easier by surfacing technology, tips, and ideas to improve efficiency, grow in their careers, and hone their craft. We will do this by applying the above [principles](#editorial-principles) rigorously to all content that we publish. 
+The Sourcegraph’s blog primary function is to serve our developer audience: to be a source of information, inspiration, and delight. We want to help make developers’ jobs easier by surfacing technology, tips, and ideas to improve efficiency, grow in their careers, and hone their craft. We will do this by applying the above [principles](#editorial-principles) rigorously to all content that we publish.
 
 The secondary function of the blog is to grow awareness of Sourcegraph’s brand. Fulfilling this function is a direct result of the first: we can’t establish Sourcegraph as a trusted, respected developer brand without serving our audience first.
 
 ### Priority content
 
-The buckets outlined below are an internal reference. 
+The buckets outlined below are an internal reference.
 
 1. **Inside Sourcegraph engineering:** How we built X, scaled Y, debugged Z. These are meaty deep dives into the process of building and iterating on Sourcegraph the product and engineering org. Got code snippets? Graphs and charts? Links to PRs? We’ll take them all.
 1. **Tutorials/how tos:** These practical posts show readers how to solve a problem or improve on a skill. Better code reviews, communication and collaboration advice, and productivity tips are examples of topics we might tackle here.
@@ -46,9 +46,9 @@ To view sample categories and feature stories, team members can check out the [E
 
 ## Editorial process
 
-Writing is a process, and thus, our publishing guidelines are designed to aid the writer in producing their best work while staying on track with the publishing schedule. Pitches and first drafts can vary greatly in format and completeness. Some people like to create an outline for their first draft, others prefer to just start writing. The more you write, the more familiar you will get with your own writing process. What’s important is that you write multiple drafts and get feedback on them. This is how ideas turn into fully formed, thoughtful articles. 
+Writing is a process, and thus, our publishing guidelines are designed to aid the writer in producing their best work while staying on track with the publishing schedule. Pitches and first drafts can vary greatly in format and completeness. Some people like to create an outline for their first draft, others prefer to just start writing. The more you write, the more familiar you will get with your own writing process. What’s important is that you write multiple drafts and get feedback on them. This is how ideas turn into fully formed, thoughtful articles.
 
-It’s important to have a publishing schedule so that we can deliver relevant content to our audience at relevant times. The editorial team strategically manages our publishing calendar to optimize article views and engagement. For example, if you are writing an article on Go and GopherCon is two months away, we can time the release of your article to coincide with other activity around the conference. This has the potential to bring more attention and readers to your post while the topic is trending. 
+It’s important to have a publishing schedule so that we can deliver relevant content to our audience at relevant times. The editorial team strategically manages our publishing calendar to optimize article views and engagement. For example, if you are writing an article on Go and GopherCon is two months away, we can time the release of your article to coincide with other activity around the conference. This has the potential to bring more attention and readers to your post while the topic is trending.
 
 ### Guidelines for contributing to Sourcegraph’s blog
 
@@ -62,7 +62,7 @@ If you have an original article idea that you want to write, start by submitting
 
 #### We interview you
 
-If you are short on time or less comfortable writing, a member of the content team can interview you and use the transcript to start an outline for you to work from. Please mention if you want to go this route when you fill out your [form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959). 
+If you are short on time or less comfortable writing, a member of the content team can interview you and use the transcript to start an outline for you to work from. Please mention if you want to go this route when you fill out your [form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959).
 
 #### Just submit an idea
 
@@ -87,7 +87,7 @@ Once you’re ready for an editor’s review, submit your draft in place of a pi
 
 Some questions to keep in mind when deciding what to write about in your blog post:
 
-- **What's in it for the reader?** One of our [Editorial principles](#editorial-principles) is to have an audience-first mentality. What do we expect them to gain from reading the post? 
+- **What's in it for the reader?** One of our [Editorial principles](#editorial-principles) is to have an audience-first mentality. What do we expect them to gain from reading the post?
 - **Would someone share this?** If you didn't work for Sourcegraph, would you be interested in the post? Would you click on it on Hacker News or share it with your peers?
 
 If you can answer both of these questions confidently, you're on your way to a great post!
@@ -97,9 +97,9 @@ If you can answer both of these questions confidently, you're on your way to a g
 Below are some common elements and themes found in the posts that tend to draw the most traffic and get the most attention.
 
 - Debugging stories: Take the reader on a winding journey with a satisfying conclusion. These often feel like a treasure hunt, with some twists and red herrings along the way.
-- Stories of building, scaling, implementing, and improving: A behind-the-scenes look at how the team approached a technical challenge. These are especially compelling if covering how we built or improved on a popular feature. 
-- Hot takes: It's not advisable to be controversial just for the sake of it, but taking an opinionated, contrary stance on a popular topic, _backed by evidence and experience_, will usually get people interested (more examples [below](#themes)). 
-- Knowledge-sharing: Readers should be able to learn something from our blog that they can take away and apply to their own work. 
+- Stories of building, scaling, implementing, and improving: A behind-the-scenes look at how the team approached a technical challenge. These are especially compelling if covering how we built or improved on a popular feature.
+- Hot takes: It's not advisable to be controversial just for the sake of it, but taking an opinionated, contrary stance on a popular topic, _backed by evidence and experience_, will usually get people interested (more examples [below](#themes)).
+- Knowledge-sharing: Readers should be able to learn something from our blog that they can take away and apply to their own work.
 
 ##### Examples of great engineering posts
 
@@ -126,6 +126,3 @@ Dan Luu summarized some [common themes from his own blog](http://danluu.com/prog
 #### Brainstorm board
 
 There are a lot of ideas on our [Miro board](https://miro.com/app/board/o9J_l9gAUM4=/). Feel free to use it for inspiration or let us know if you'd like to write about one of the topics! (Note: You may be asked to request access to the board if you don't have Miro set up with your Sourcegraph email address yet.)
-
-
-

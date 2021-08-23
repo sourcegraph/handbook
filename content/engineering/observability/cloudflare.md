@@ -10,7 +10,7 @@ Cloudflare Analytics provides a somewhat [limited](https://developers.cloudflare
 
 ### Tools
 
-Cloudflare recommends using [GraphiQL](https://www.electronjs.org/apps/graphiql), a lightweight electron app, to interface with their API due to its relative ease of use. Configuration instructions are [here](https://developers.cloudflare.com/analytics/graphql-api/getting-started). The auth key and email can be found [here](https://github.com/sourcegraph/infrastructure/blob/main/dns/providers.tf). The tool also helps enumerate the available parameters, and is quite useful for exploring the API. 
+Cloudflare recommends using [GraphiQL](https://www.electronjs.org/apps/graphiql), a lightweight electron app, to interface with their API due to its relative ease of use. Configuration instructions are [here](https://developers.cloudflare.com/analytics/graphql-api/getting-started). The auth key and email can be found [here](https://github.com/sourcegraph/infrastructure/blob/main/dns/providers.tf). The tool also helps enumerate the available parameters, and is quite useful for exploring the API.
 
 ### Available data
 

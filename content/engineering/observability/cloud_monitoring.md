@@ -1,6 +1,6 @@
 # Cloud monitoring
 
-We provide some internal tooling to make observing Sourcegraph cloud easier to 
+We provide some internal tooling to make observing Sourcegraph cloud easier to
 monitor.
 
 ## Version and Alert Annotations

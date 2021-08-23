@@ -45,6 +45,7 @@ Upon branch cut, create and test release candidates:
   N=1 yarn release release:create-candidate $N
   ```
 - [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.1` tag:
+
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
   - [ ] [QA pipeline](https://buildkite.com/sourcegraph/qa/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
   - [ ] [E2E pipeline](https://buildkite.com/sourcegraph/e2e/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
@@ -52,7 +53,6 @@ Upon branch cut, create and test release candidates:
 - [ ] File any failures and regressions in the pipelines as `release-blocker` issues and assign the appropriate teams.
 
 Revert or disable features that may cause delays. As necessary, `git cherry-pick` bugfix (not feature!) commits from `main` into the release branch. Continue to create new release candidates as necessary, until no more `release-blocker` issues remain.
-
 
 **Note**: You will need to re-check the above pipelines for any subsequent release candidates. You can see the Buildkite logs by tweaking the "branch" query parameter in the URLs to point to the desired release candidate. In general, the URL scheme looks like the following (replacing `N` in the URL):
 
@@ -91,10 +91,10 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 - [ ] From the [release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes), merge the release-publishing PRs created previously.
   - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
     - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph/releases) has the correct tag
- - [ ] For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
-    - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph-docker/releases) has the correct tag
-  - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
-    - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
+- [ ] For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
+  - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph-docker/releases) has the correct tag
+- For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
+  - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
 - [ ] Ask the product team (`#product`) to merge the blog post. Add the pull request to the release batch change:
   ```sh
   yarn release release:add-to-batch-change sourcegraph/about <pr-number>

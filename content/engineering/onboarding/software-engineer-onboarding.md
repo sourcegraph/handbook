@@ -9,8 +9,8 @@ Before you dive in to engineering tasks like reading and writing code, it is imp
 1. Read our [company values](../../company/values.md).
 2. Read our [engineering principles and practices](../principles-and-practices.md).
 3. Start reading [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) and [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) in any order (you can expense these books). As you are reading, share and discuss your thoughts with your team.
-    - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
-    - [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) - An entertaining self-account of Gordon MacKenzie's experience fostering creativity on his team at Hallmark Cards. Buy the hard copy. There are lots of fun illustrations and short stories. It is a quick read and probably unlike any other book you have read.
+   - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
+   - [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) - An entertaining self-account of Gordon MacKenzie's experience fostering creativity on his team at Hallmark Cards. Buy the hard copy. There are lots of fun illustrations and short stories. It is a quick read and probably unlike any other book you have read.
 
 ### Starter tasks
 
@@ -59,7 +59,6 @@ We have many resources available to help you onboard and gain context:
   - Read [Testing web code](https://docs.sourcegraph.com/dev/background-information/testing_web_code) to understand our preferred patterns and approaches for writing tests in the frontend. We recommend reading this before you write your first test in the frontend.
   - Read our [Styling UI](https://docs.sourcegraph.com/dev/background-information/web/styling) documentation to understand our CSS stack and the constraints we work within when styling UI. We highly recommend reading this before you start working on a frontend task, as it will make you more effective.
   - Read our [TypeScript programming patterns](https://docs.sourcegraph.com/dev/background-information/languages/typescript#typescript-programming-patterns) to understand what TypeScript patterns we follow that are not easily detected with lint rules.
-
 
 ## Weeks 4-6
 

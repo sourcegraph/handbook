@@ -1,8 +1,8 @@
 # Legal
 
-The legal team helps Sourcegraph grow responsibly. 
+The legal team helps Sourcegraph grow responsibly.
 
-We provide high-quality legal advice to every team. High-quality legal advice at Sourcegraph is: 
+We provide high-quality legal advice to every team. High-quality legal advice at Sourcegraph is:
 
 - Practical - enables teams to make decisions
 - Efficient - timely and avoids being a bottleneck or slowing down decisions
@@ -30,7 +30,7 @@ You can reach out to the legal team a few ways:
 - [legal@sourcegraph.com](mailto:legal@sourcegraph.com)
 - for sensitive matters, direct slack message, email, or phone call to your legal POC
 
-SLAs: give us about 1 business day to acknowledge receipt and give you an estimated turnaround time. If you don't hear back from us in about 1 business day, follow up to make sure we saw your request. If your request is time-sensitive, let us know the ideal turnaround time. 
+SLAs: give us about 1 business day to acknowledge receipt and give you an estimated turnaround time. If you don't hear back from us in about 1 business day, follow up to make sure we saw your request. If your request is time-sensitive, let us know the ideal turnaround time.
 
 We welcome your feedback and suggestions via any of the channels above.
 
@@ -40,28 +40,28 @@ To direct your contracts to the right team or teammate to review, approve, and s
 
 ## Outside counsel
 
-Before reaching out to our outside counsel, check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC. 
+Before reaching out to our outside counsel, check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
 
 ## What are we up to? FY'22 goals
 
 Objective 1: Enable the business to achieve its growth targets by managing an efficient contracting process while protecting the company
 
 - Turnaround 100% of customer contract reviews within 5 business days
-- Increase use of online terms by making our online terms more mutual 
+- Increase use of online terms by making our online terms more mutual
 - Establish a clear and efficient process for vendor contract reviews in partnership with Finance and other business stakeholders
 - Make signing Sourcegraph’s form NDA easier for customers and other third parties by setting up a Docusign PowerForm
-- Deliver legal enablement trainings proactively on an as-needed basis 
+- Deliver legal enablement trainings proactively on an as-needed basis
 
-Objective 2: Enable the company and its managers to provide teammate experiences that respect teammates’ rights 
+Objective 2: Enable the company and its managers to provide teammate experiences that respect teammates’ rights
 
-- Deliver employment legal enablement training to all managers annually or as part of their onboarding process  
+- Deliver employment legal enablement training to all managers annually or as part of their onboarding process
 - Build a user-friendly code of conduct that accounts for frequently asked questions by teammates in collaboration with People team, including whistleblower and anti-bribery policies
 - Notify all teammates of their privacy rights in a privacy notice
-- Provide legally compliant offer letters and consulting agreements, compensation plans, and separation agreements 
+- Provide legally compliant offer letters and consulting agreements, compensation plans, and separation agreements
 
 Objective 3: Enable the company to deliver products that respect customers’ and users’ rights and comply with the law
 
-- Provide contract templates that comply with data protection laws and advise the product and engineering teams on compliance requirements before the launch of Sourcegraph Cloud 
+- Provide contract templates that comply with data protection laws and advise the product and engineering teams on compliance requirements before the launch of Sourcegraph Cloud
 - Provide proactive advice to the business on the company’s data protection obligations
 - Provide proactive advice to the business on the company’s export compliance obligations
 

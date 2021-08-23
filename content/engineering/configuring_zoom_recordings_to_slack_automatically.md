@@ -41,4 +41,3 @@ Choose **Create filter** and set it to forward to the Slack channel email relay 
 Simply join the Zoom meeting URL and it should begin recording automatically. Say hi, and then leave the meeting. Zoom will send you an email with the recording and Gmail will forward it to Slack automatically:
 
 ![image](https://user-images.githubusercontent.com/3173176/86101192-c3100f80-ba6e-11ea-984c-2955860113e3.png)
-

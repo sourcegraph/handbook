@@ -17,6 +17,7 @@ This page documents the current goals and priorities of the [Search team](index.
 **Problem:** When attempting to use Sourcegraph for public code, users struggle with search syntax and discovering search use cases, leading to poor retention.
 
 ## Search core backend goals
+
 ### Sourcegraph Cloud returns valuable results on 5M repositories
 
 **Estimated completion:** October 1

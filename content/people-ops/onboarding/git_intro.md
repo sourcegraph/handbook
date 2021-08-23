@@ -1,6 +1,6 @@
 # Introductions to git and GitHub
 
-This guide is a resource for learning both git and GitHub, both of which are extremely useful to know as a part of the Sourcegraph team. We use git (a distributed source control system) and GitHub (a tool for hosting projects that use git) for our own software development, and using Sourcegraph (the product) also requires knowledge of git in many cases. 
+This guide is a resource for learning both git and GitHub, both of which are extremely useful to know as a part of the Sourcegraph team. We use git (a distributed source control system) and GitHub (a tool for hosting projects that use git) for our own software development, and using Sourcegraph (the product) also requires knowledge of git in many cases.
 
 ## Intro to GitHub
 

@@ -8,7 +8,7 @@ The handbook consists of Markdown files in the Git repository at [github.com/sou
 
 We don't expect everyone on the team to figure this out on their own. Other teammates are happy to help!
 
-- Any engineer at Sourcegraph can help. (The *code* that engineers write at Sourcegraph also consists of files in a Git repository, so engineers are very familiar with making these kinds of edits.)
+- Any engineer at Sourcegraph can help. (The _code_ that engineers write at Sourcegraph also consists of files in a Git repository, so engineers are very familiar with making these kinds of edits.)
 - [Teammates who have already made a handbook change](https://sourcegraph.com/github.com/sourcegraph/about/-/stats/contributors?path=handbook%2F) can help.
 - **Handbook support**: Ask the @handbook-support group in Slack (formerly called "handbook heroes"), including @eric, @aharvey, @virginia, @ines, and @jean, for handbook help (via DM, #handbook, or #any-question). They volunteered to help anyone with anything handbook-related! _If you too want to be part of handbook support, simply edit this page, add your name to the list and ping @handbook-support in the #handbook channel to inform them_
 - Ask in #handbook: `Who can screen-share with me to help me make an edit to the handbook?`
@@ -71,23 +71,23 @@ If you just need to edit a single page, you can do it entirely on the web.
 
 ### Handbook checks
 
->If you are running the handbook locally, you can run these checks before you push your commit, [explained in the readme](https://github.com/sourcegraph/about#handbook).
+> If you are running the handbook locally, you can run these checks before you push your commit, [explained in the readme](https://github.com/sourcegraph/about#handbook).
 
 On your Github pull request page, you'll notice a green checkmark or a red X-mark next to your commits. This information repeated at the end of the page with a "Some checks were not successful" in red or "All checks have passed" in green.
 
 These "checks" are automated formatting and structural rules that run on your new changes. The goal is to help you catch common errors before you merge your pull request to the handbook, because if a handbook user hits these errors when they are live, it's a poor experience.
 
-Ideally, you won't merge your pull request unless all checks have passed and are "green." If you see any red failed checks then you can click the red "X" and then click on the tooltip to be taken to more details ([example page with red X build](https://github.com/sourcegraph/about/pull/3564); [example details page](https://github.com/sourcegraph/about/runs/2976049292)). 
+Ideally, you won't merge your pull request unless all checks have passed and are "green." If you see any red failed checks then you can click the red "X" and then click on the tooltip to be taken to more details ([example page with red X build](https://github.com/sourcegraph/about/pull/3564); [example details page](https://github.com/sourcegraph/about/runs/2976049292)).
 
 If you're not sure what the error message means or can't determine how to fix it, you are welcome to ask for help in Slack's #handbook and optionally tag @handbook-support, but first refer to the common errors:
 
 #### Interpreting handbook check failures: most common examples
 
-- **Must link to .md files ([example](https://github.com/sourcegraph/about/runs/2976049292))**: `handbook/product/user_feedback.md: must link to .md file, not ../support/support-workflow` means that the error is in the file (handbook page) `handbook/product/user_feedback.md`, and the error is that there is a link to a URL rather than the markdown file of the page itself. 
-  - **Fix:** add an `.md` and make the link to `../support/support-workflow.md` instead of `../support/support-workflow`. 
-  - **Note:** if there is an anchor tag in the link, the `.md` goes before the anchor tag, like `../support/support-workflow.md#support-workflow`. 
-- **Disconnected page ([example](https://github.com/sourcegraph/about/runs/2975885844)):** `handbook/engineering/hiring/engineering-leadership.md: disconnected page (no inlinks from other pages)` means that the error is _not_ in the file `handbook/engineering/hiring/engineering-leadership.md`, but rather there are no pages in the handbook linking to this file page. 
-   - **Fix:** Determine if this page is still valuable, and if so, on which other handbook page to add a link to this page. If it's not obvious or you're not sure, you should post for help in #handbook and tag someone you think might know better (based on the content of the disconnected page). 
+- **Must link to .md files ([example](https://github.com/sourcegraph/about/runs/2976049292))**: `handbook/product/user_feedback.md: must link to .md file, not ../support/support-workflow` means that the error is in the file (handbook page) `handbook/product/user_feedback.md`, and the error is that there is a link to a URL rather than the markdown file of the page itself.
+  - **Fix:** add an `.md` and make the link to `../support/support-workflow.md` instead of `../support/support-workflow`.
+  - **Note:** if there is an anchor tag in the link, the `.md` goes before the anchor tag, like `../support/support-workflow.md#support-workflow`.
+- **Disconnected page ([example](https://github.com/sourcegraph/about/runs/2975885844)):** `handbook/engineering/hiring/engineering-leadership.md: disconnected page (no inlinks from other pages)` means that the error is _not_ in the file `handbook/engineering/hiring/engineering-leadership.md`, but rather there are no pages in the handbook linking to this file page.
+  - **Fix:** Determine if this page is still valuable, and if so, on which other handbook page to add a link to this page. If it's not obvious or you're not sure, you should post for help in #handbook and tag someone you think might know better (based on the content of the disconnected page).
 
 ## Edit multiple files or add a new file
 
@@ -112,6 +112,7 @@ A screen recording of how to make a new file and include it for review in the we
 ### macOS
 
 ### Github Desktop version
+
 Here's a screen recording of the steps (written out below) for macOS:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/diZUeHZhekc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -156,7 +157,7 @@ When adding a link to another handbook page, it is best practise to use relative
 
 You can also watch [it in Zoom](https://sourcegraph.zoom.us/rec/play/WCRDO_j9x4xw50xsjzBCWKIrL7eoAGBmDDOj7rdjkCIiDpRJ43rArVqrUy1tt4ybpg6fG9FEE0Flv49c.VqDasC2HEHZwRvFv?continueMode=true&_x_zm_rtaid=d0smscs5STuq8vNmHv40bg.1626856634998.9c37f9d9e5d2185652ba07f389dddf2d&_x_zm_rhtaid=329) with audio transcript.
 
-To sum up, the path described the location of the file, naming every directory before the file (called .md). Relative paths are a way of indicating where the file is. The program that reads the relative paths interprets links from where it is at the moment, so we need to make sure to indicate if the directory is different to the one we are at the moment. 
+To sum up, the path described the location of the file, naming every directory before the file (called .md). Relative paths are a way of indicating where the file is. The program that reads the relative paths interprets links from where it is at the moment, so we need to make sure to indicate if the directory is different to the one we are at the moment.
 
 Example:
 If we are linking the Buddy program handbook page (handbook/people-ops/onboarding/buddy-program.md) to the Onboarding for hiring managers page (handbook/people-ops/onboarding/onboarding-for-hiring-managers.md) we will only need to say **buddy-program.md** because they share the same directory.
@@ -165,7 +166,7 @@ However, if we want to link the Buddy program handbook page to Engineering onboa
 **Why do we do this?**
 While it is possible to use absolute URLs (ones that include the domain e.g. https://about.sourcegraph.com/handbook) to link to pages, if the domain changes, it is more difficult to update the URLs compared to using relative URLs.
 
-*Remember that if the .md file name changes or the directory changes (because you’ve moved the file to another team’s page, for example) you will need to update the path.*
+_Remember that if the .md file name changes or the directory changes (because you’ve moved the file to another team’s page, for example) you will need to update the path._
 
 ## Adding redirects
 
@@ -176,7 +177,7 @@ To add a redirect rule edit edit the following file: `/_resources/assets/redirec
 Redirect rules follows a simply syntax of: `from-path to-path 308`
 E.g. `/handbook/ce/support/ /handbook/support/ 308`
 
-The page that's being redirected _from_ must be deleted, or the build will break. 
+The page that's being redirected _from_ must be deleted, or the build will break.
 
 ## Running a local preview handbook site
 

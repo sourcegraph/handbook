@@ -1,6 +1,7 @@
 # A/B testing
 
 ## Why A/B testing
+
 A/B testing is a great way to test out which of two or more variants (A or B) of a website or product perform better. It’s frequently used as an experimentation methodology because it allows us to get rid of a number of statistical biases, and isolate the signal (an increase in a metric) from the noise (random fluctuations in the metric). The power of A/B testing comes from randomization: users are allocated randomly to the control group or A (no change) and a proposed improvement (B).
 
 Measuring a metric before/after a change (pre/post) sometimes doesn’t work, because many things are happening at the same time. If we launch a marketing campaign AND a feature to improve retention, and we see retention decrease, how do we know if it’s caused by poorly qualified traffic from the marketing campaign or by the feature not performing? By A/B testing features, we can still measure their impact in this situation as both A/B test variants would have seen, on average, the same amount of traffic from existing marketing channels and the new marketing campaign.
@@ -17,12 +18,11 @@ A/B tests take time and resources, and we can only run a few A/B tests at a time
 
 A/B testing is useful when there are several options to choose from, possibly with competing explanations on why they would work, but no clear winner.
 
-It’s no use A/B testing versions if we already know the result with high probability. Sometimes though, we will want to use A/B testing for things we know are important just to *quantify* impact (is it worth maintaining this?), as opposed to just *validate* (yes/no) impact.
+It’s no use A/B testing versions if we already know the result with high probability. Sometimes though, we will want to use A/B testing for things we know are important just to _quantify_ impact (is it worth maintaining this?), as opposed to just _validate_ (yes/no) impact.
 
 #### Measurement
 
 A/B testing requires a clear quantitative way to measure what is "better". A common advise is to pick a single, clear metric so that there is no ambiguity in deciding if the change `passed` or `failed`.
-
 
 #### Volume of users to reach statistical significance
 
@@ -42,7 +42,7 @@ Running A/B tests on a number of users that is too small is inefficient (waste t
 - Evaluating versions of button placement, CTAs, landing pages
 - Evaluating different messaging and positioning statements
 
-The higher the initial conversion percentage, the easier it will be to acheive a sample size quickly, but the tougher it could be to see a meaninful increase. 
+The higher the initial conversion percentage, the easier it will be to acheive a sample size quickly, but the tougher it could be to see a meaninful increase.
 
 #### Bad A/B test candidates
 
@@ -56,7 +56,7 @@ After you identify a good A/B test candidate:
 
 ### Communicating an A/B test candidate
 
-Communicate good candidates with any relevant parties. This could include other product/engineering teams that the A/B test could impact, such as but not limited to PMs, designers, BizOps. Posting the proposal in a public channel (#product, #product-led, #analytics) could be a good route to do this. 
+Communicate good candidates with any relevant parties. This could include other product/engineering teams that the A/B test could impact, such as but not limited to PMs, designers, BizOps. Posting the proposal in a public channel (#product, #product-led, #analytics) could be a good route to do this.
 
 ### Define the A/B test
 
@@ -67,8 +67,7 @@ Communicate good candidates with any relevant parties. This could include other 
   - Pick a feature flag name for your A/B test (eg. `w0-signup-optimisation`)
   - Set up the exact methodology (write the query, build the chart) for how this will be evaluated before the test launches to not introduce any bias in the evaluation
 - Label all the issues that will go into that A/B test with `AB-test/<flag-name>`. That way anyone can see what change are in a given A/B test, and what the name of the feature flag is. It will also make it easier to cleanup the flag when the test ends. [Example](https://github.com/orgs/sourcegraph/projects/181?card_filter_query=label%3Aab-test%2Fw0-signup-optimisation).
-- ***WIP: Follow the naming conventions when adding events***
-
+- **_WIP: Follow the naming conventions when adding events_**
 
 ### Setup the A/B test
 
@@ -77,11 +76,13 @@ Communicate good candidates with any relevant parties. This could include other 
 - Follow the steps to [add the events to Sourcegraph and Amplitude](amplitude.md#adding-events-to-amplitude)
 
 ### Analyze the A/B test
-Analyze, write a report in a source of truth, and link to that in the original A/B test ticket. You can use Amplitude (link to come) or [BigQuery/Sheets](https://docs.google.com/spreadsheets/d/1m31oBnqJKu9JVuHA27pZVA1sdv_tc2Vc36pvXwv6mhI/edit#gid=802294460) to evaluate A/B tests. 
+
+Analyze, write a report in a source of truth, and link to that in the original A/B test ticket. You can use Amplitude (link to come) or [BigQuery/Sheets](https://docs.google.com/spreadsheets/d/1m31oBnqJKu9JVuHA27pZVA1sdv_tc2Vc36pvXwv6mhI/edit#gid=802294460) to evaluate A/B tests.
 
 We use this [calculator](https://neilpatel.com/ab-testing-calculator/) to evaluate significance.
 
 ### Cleanup
+
 You should book some time for cleaning up after the A/B test. That can be either [removing the flag](https://docs.sourcegraph.com/dev/how-to/use_feature_flags#disable-or-delete-the-feature-flag) and rolling out the changes, or removing the changes altogether. You can create a ticket for this when defining the test if useful.
 
 ## Resources

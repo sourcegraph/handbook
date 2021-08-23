@@ -1,44 +1,63 @@
-#  Marketing Operations 
-The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MartTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable. Our goal is to make sure the systems support the strategy! For any questions related to marketing operations, reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com).
- 
- 
-## MarTech Stack
-As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today. 
+# Marketing Operations
 
-##  Lead Management
+The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MartTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable. Our goal is to make sure the systems support the strategy! For any questions related to marketing operations, reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com).
+
+## MarTech Stack
+
+As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today.
+
+## Lead Management
+
 This section encompasses how marketing qualified leads inbound as well as how we manage the lead lifecycle in partnership with Sales Operations.
 
 ### Lead Creation
+
 Marketing qualified leads inbound in the following ways:
+
 #### Contact Us Forms:
+
 - [Sourcegraph - Contact us to learn more about Sourcegraph enterprise](https://about.sourcegraph.com/contact/request-info/?form_submission_source=pricing-enterprise)
 - [Sourcegraph - Talk to a product specialist](https://about.sourcegraph.com/contact/sales)
+
 #### Demo Forms:
+
 - [Sourcegraph - Schedule a Batch Changes demo](https://about.sourcegraph.com/contact/request-batch-changes-demo/)
 - [Sourcegraph - Schedule a Sourcegraph demo](https://about.sourcegraph.com/contact/request-demo/)
+
 #### Big Code Survey:
+
 - [The Emergence of Big Code - download the free report](https://info.sourcegraph.com/emergence-of-big-code-2020-survey)
-#### Product (Private Install or Sourcegraph.com Account Sign Ups) Email- Only Leads*
-*(Backend web code set up by BizOps/CustomerOps passes prospect email address and tracking/sourcing data via API key from the product into Hubspot)
+
+#### Product (Private Install or Sourcegraph.com Account Sign Ups) Email- Only Leads\*
+
+\*(Backend web code set up by BizOps/CustomerOps passes prospect email address and tracking/sourcing data via API key from the product into Hubspot)
 
 - Private/Local Install
-This lead is created when a prospect copies and pastes the code from the “Search Your Own Code” CTA on the “Get Started” page and runs it on their machine, we capture an email address and share it with sales.
+  This lead is created when a prospect copies and pastes the code from the “Search Your Own Code” CTA on the “Get Started” page and runs it on their machine, we capture an email address and share it with sales.
 - Sourcegraph.com Account (Cloud)
-This lead is created when a prospect clicks on our CTA that says “Try Sourcegraph Cloud now” from the about.sourcegraph site. They are then taken to our product which is sourcegraph.com/search. If they click “Sign Up” on the top right of that page and create an account, we capture an email address and share it with sales.
+  This lead is created when a prospect clicks on our CTA that says “Try Sourcegraph Cloud now” from the about.sourcegraph site. They are then taken to our product which is sourcegraph.com/search. If they click “Sign Up” on the top right of that page and create an account, we capture an email address and share it with sales.
 
-### Lead Qualification by Intent  Score
-The activities above automatically generate a marketing qualified lead. However, we also have a scoring model that takes into account prospects who interact with landing pages and other marketing content. If a prospect interacts with Sourcegraph in multiple places, you may also see them score enough to trip the marketing qualified/intent  threshold and be passed to the inbound SDR team.
+### Lead Qualification by Intent Score
+
+The activities above automatically generate a marketing qualified lead. However, we also have a scoring model that takes into account prospects who interact with landing pages and other marketing content. If a prospect interacts with Sourcegraph in multiple places, you may also see them score enough to trip the marketing qualified/intent threshold and be passed to the inbound SDR team.
 You can see the specifics of our intent and product lead scoring in our working [lead scoring model here](https://docs.google.com/spreadsheets/d/1mAa2bueT8BrVjd5H5PQjKb7QMVFYObHYwg18ox02vsk/edit#gid=0) .
+
 ### Lead Lifecycle
+
 Marketing Operations is currently partnering with sales to implement a lead lifecycle program. Once the details are finalized, we will be updating this section.
- 
+
 ## Hubspot
+
 Hubspot is our marketing automation tool. It’s where we run all our email marketing campaigns, track engagement, score marketing qualified leads, and manage parts of the lead lifecycle from. Our goal is to keep this system aligned with Salesforce so that we’re staying current with processes to support the sales cycle.
+
 ### Hubspot Access
-Most everyone at the organization has access to Hubspot. If you do not and you would like access, you can reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com). Alternatively,  if you have a user seat, but are having difficulty completing an action due to your user role/permissions you can reach out as well.
+
+Most everyone at the organization has access to Hubspot. If you do not and you would like access, you can reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com). Alternatively, if you have a user seat, but are having difficulty completing an action due to your user role/permissions you can reach out as well.
 
 ### Request for Email Send via Hubspot
+
 If you are interested in getting an email sent through Hubspot to existing opt-in email addresses, please be sure to fill out our [Hubspot Email Send Request Form](https://form.asana.com?k=_YtJFC_Eo-NG8iOSEdNgVA&d=7195383522959). Once we receive your request, we will assess our email send schedule to see if we can accommodate your request and provide options and recommendations if it is a request that cannot be accommodated.
+
 ### Hubspot Technical Resources
 
 Hubspot is a fluid system, where we are always making updates to continue to improve our processes. Here are a few places you can go to review technical updates the marketing operations team is making within the system:
@@ -46,20 +65,21 @@ Hubspot is a fluid system, where we are always making updates to continue to imp
 
 ### Hubspot and UTM parameters
 
-The parameters that [HubSpot supports out of the box](https://knowledge.hubspot.com/settings/how-do-i-create-a-tracking-url)  are `utm_campaign`, `utm_source`, `utm_medium`, `utm_term`, and `utm_content`.
+The parameters that [HubSpot supports out of the box](https://knowledge.hubspot.com/settings/how-do-i-create-a-tracking-url) are `utm_campaign`, `utm_source`, `utm_medium`, `utm_term`, and `utm_content`.
 
 First Touchpoint is a custom marketing field we have created in Hubspot.. This fields help us determine the first touches marketing has with a prospect. There are supporting
 [Workflows](https://app.hubspot.com/workflows/2762526/flow/9011999/edit) set up in HubSpot to capture the latest conversion information, and copy this information to the ‘First event’ fields if they are blank/ unknown.
 
-### Dashboards and Marketing Analytics*
-*Of note, these are directional reports. Any organization-wide reports are done by BizOps and Finance.
+### Dashboards and Marketing Analytics\*
+
+\*Of note, these are directional reports. Any organization-wide reports are done by BizOps and Finance.
 
 The following tools are used currently for Marketing Analytics:
 
 - [Marketing Dashboard in Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z3t000001BU2XEAW/view?queryScope=userFolders)
 - Google Analytics
 - Looker
-We are in the process of improving this practice with the future hire of a Marketing Analyst.
+  We are in the process of improving this practice with the future hire of a Marketing Analyst.
 
 ## Digital Ad Conversion Flows
 
@@ -116,4 +136,3 @@ In LinkedIn Campaign Manager, add a Conversion. Here, you just specify the name 
 3. Google Tag Manager (part 2)
 
 In GTM, create a Tag of type `Custom Image` that mirrors the Conversion Goals in Microsoft Bing Ads and Google AdWords, using the Triggers you created in step 1. For each Tag, copy the pixel you got from creating the Conversion from LinkedIn Campaign Manager, and input the value in the Image URL field.
-

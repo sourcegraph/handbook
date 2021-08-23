@@ -1,4 +1,5 @@
 # Tips and tricks
+
 - [Tips and tricks](#tips-and-tricks)
   - [Git](#git)
     - [Debugging](#debugging)

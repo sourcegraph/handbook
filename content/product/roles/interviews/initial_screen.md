@@ -21,10 +21,10 @@ Review the candidate's resume, application responses, and any other links or inf
 
 - (1 min) Introduce yourself and let them know you would like to dig into their background for ~20 minutes, and then will leave 10 minutes after to ask any questions about Sourcegraph and the role.
 - (19 min) Learn about the candidate
-   - What interests you about Sourcegraph?
-   - What are you looking to get out of your next role?
-      - What is the most important thing you are hoping to learn/do?
-      - What are your expectations and aspirations for the role?
-   - [Role specific questions](https://github.com/sourcegraph/interviews/blob/master/product/initial-screen-role-specific.md)
+  - What interests you about Sourcegraph?
+  - What are you looking to get out of your next role?
+    - What is the most important thing you are hoping to learn/do?
+    - What are your expectations and aspirations for the role?
+  - [Role specific questions](https://github.com/sourcegraph/interviews/blob/master/product/initial-screen-role-specific.md)
 - (~10 min) Answer any questions that they have. Use this as an opportunity to get the candidate excited about Sourcegraph.
   - If you don't know the answer or think there is someone else who would be able to give a better answer, tell the candidate that you will write down their question and followup over email.

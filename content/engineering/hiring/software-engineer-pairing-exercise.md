@@ -34,7 +34,7 @@ The engineer leading the pairing exercise should choose a task to work on from [
 - take 30-60 minutes to complete
 - have multiple ways to extend it: more features, add tests, etc.
 
-Having ways to extend the exercise is important if you finish the exercise before the interview is over. Finishing the exercise is *not* a goal; the goal is to pair for as much of the interview as possible, since that provides the signal we are looking for. (This implies not finishing the exercise.)
+Having ways to extend the exercise is important if you finish the exercise before the interview is over. Finishing the exercise is _not_ a goal; the goal is to pair for as much of the interview as possible, since that provides the signal we are looking for. (This implies not finishing the exercise.)
 
 All candidates applying for the same position should pair on the same exercise with the same people.
 

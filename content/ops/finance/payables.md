@@ -8,12 +8,12 @@ Specific categories of purchases that are listed on the [spending company money 
 
 However, if you intend to make any other purchase that falls above the limits below, please refer to our [Company accounts payable policy](ap.md).
 
-|Amount (Annual Equivalent)|Approval Required|Recommend Method of Payment|
-|---|---|---|
-|$0 - $1,000|Does not require specific approval|Expensify / Remote.com / Brex / Bill.com|
-|$1,000 to $10,000|Needs to be approved by a director or above of your department|Brex / Bill.com via Sourcegraph AP team|
-|$10,000 or greater|Needs to be approved by a director or above of your department and Finance|Bill.com via Sourcegraph AP Team|
-|$50,000 or greater|Needs to be approved by a director or above of your department, Finance, and the VP of Operations|Bill.com via Sourcegraph AP Team|
+| Amount (Annual Equivalent) | Approval Required                                                                                 | Recommend Method of Payment              |
+| -------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| $0 - $1,000                | Does not require specific approval                                                                | Expensify / Remote.com / Brex / Bill.com |
+| $1,000 to $10,000          | Needs to be approved by a director or above of your department                                    | Brex / Bill.com via Sourcegraph AP team  |
+| $10,000 or greater         | Needs to be approved by a director or above of your department and Finance                        | Bill.com via Sourcegraph AP Team         |
+| $50,000 or greater         | Needs to be approved by a director or above of your department, Finance, and the VP of Operations | Bill.com via Sourcegraph AP Team         |
 
 ## Corporate credit cards
 
@@ -21,11 +21,11 @@ Managers and above are eligible to receive corporate credit cards for team purch
 
 Just [contact the finance team](index.md#contact) if you believe you are eligible for one and would like to have one. By default, the following monthly limits apply, but they can be raised if requested.
 
-|Role|Default monthly credit limit|
-|---|---|
-|Department leads (VP-level or above)|$10,000|
-|Managers and Directors|$1,000|
-|Analyst and Senior Analyst (with approval)|$500|
+| Role                                       | Default monthly credit limit |
+| ------------------------------------------ | ---------------------------- |
+| Department leads (VP-level or above)       | $10,000                      |
+| Managers and Directors                     | $1,000                       |
+| Analyst and Senior Analyst (with approval) | $500                         |
 
 It is not required to provide receipts for corporate purchases on Brex cards (i.e. vendor payments). For purchase of personal purchases above $50, (i.e. laptops, food, travel expenses), please upload a receipt.
 

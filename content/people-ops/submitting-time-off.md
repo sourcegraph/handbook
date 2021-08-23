@@ -1,6 +1,6 @@
 # How to record your paid time off (PTO)
 
-We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack. Please see below for a step by step breakdown: 
+We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack. Please see below for a step by step breakdown:
 
 1. Go to your Slack app and scroll down to "Apps" on the left-hand side
 2. Click on "PTO by Roots" (this will take you to your homepage, where you'll see any upcoming PTO events and buttons to create a new PTO event and option to chat with support)
@@ -16,5 +16,4 @@ We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which a
 
 **For additional resources from Roots, please see this [folder](https://drive.google.com/drive/folders/13GJGkLOtha_EtCAxBu7EGO13NCovaIcJ).**
 
-**For more information on our PTO philosophy and policy, please see [Paid time off and working hours](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours).** 
-
+**For more information on our PTO philosophy and policy, please see [Paid time off and working hours](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours).**

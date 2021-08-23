@@ -2,13 +2,11 @@
 
 This page captures best practices, playbooks, and processes for how CEs should work with customers.
 
-* [Tracking and Maintaining your Accounts](#account-tracking)
-* [Playbooks](#playbooks)
-  * [Customer Discovery](#customer-discovery)
-* [Processes](#processes)
-  * [Red Accounts](#red-accounts)
-
-
+- [Tracking and Maintaining your Accounts](#account-tracking)
+- [Playbooks](#playbooks)
+  - [Customer Discovery](#customer-discovery)
+- [Processes](#processes)
+  - [Red Accounts](#red-accounts)
 
 ## Account Tracking
 
@@ -36,12 +34,14 @@ As the team accountable for our customers' technical success, usage, and adoptio
 
 #### Overview
 
-For any account that is designated as having a health rating of red - either via [calculated score](https://sourcegraph.looker.com/dashboards-next/179?Customer+Engineer=&Account+Executive=&Unique+Server+ID=&Region=) or by a member of the account team - the AE and CE will jointly provide a current status of the account, identify any necessary asks of the business in order to best serve the customer, create an appropriate action plan, and track through to resolution (ideally promotion of the health from red to yellow or green). 
+For any account that is designated as having a health rating of red - either via [calculated score](https://sourcegraph.looker.com/dashboards-next/179?Customer+Engineer=&Account+Executive=&Unique+Server+ID=&Region=) or by a member of the account team - the AE and CE will jointly provide a current status of the account, identify any necessary asks of the business in order to best serve the customer, create an appropriate action plan, and track through to resolution (ideally promotion of the health from red to yellow or green).
 
 #### Red Accounts Process
+
 In slack, the #red-accounts channel has been created so that when the Customer Health field on the Salesforce Account record is set to Red, a post is auto-triggered in the slack channel and a corresponding row will be automatically added to the Account Tracker tab of the [Red Accounts](https://docs.google.com/spreadsheets/d/1eVgWhrtgH8WQGo_pRuMseqz-Bk1P1Bymrlkutzz5jEA/edit#gid=0) Google Sheet. The AE / CE will jointly fill in relevant information to understand current state, needs, and the intended actions. Any asks or needs against the intended action plan should be initiated via a thread on the auto-generated slack post; this allows for visibility and transparency.
 
 #### Roles and Responsibilities
+
 The CE will monitor the Customer Health dashboard and where appliable update the Customer Health field on the Salesforce Account record to red.
 
 Should an AE or CE feel that an account which isn't designated as red via the health dashboard, is in fact red for any reason (eg a champion leaves, etc) they should align, and the CE should update the Salesforce Account record to red.

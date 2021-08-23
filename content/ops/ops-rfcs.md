@@ -1,6 +1,6 @@
 # Operations requests for comment (OpsRFCs)
 
->Note: See our [engineering RFC documentation](../communication/rfcs/index.md) for more context on why and how we use requests for comment internally.
+> Note: See our [engineering RFC documentation](../communication/rfcs/index.md) for more context on why and how we use requests for comment internally.
 
 Ops RFCs help the operations team asynchronously provide context on a problem, create a project plan to address that problem, and solicit feedback from other members of our team.
 

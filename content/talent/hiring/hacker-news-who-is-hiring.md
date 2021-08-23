@@ -16,7 +16,7 @@ This is the comment that [Nick](../../company/team/index.md#nick-snyder-he-him) 
 > Transparency is a core value of ours and you can learn more about how we operate by reading our handbook: https://about.sourcegraph.com/handbook.
 >
 > If you want to make software development more accessible to everyone, we would love to review your application to one of our many open roles!
- https://boards.greenhouse.io/sourcegraph91
+> https://boards.greenhouse.io/sourcegraph91
 >
 > Other useful links...
 >

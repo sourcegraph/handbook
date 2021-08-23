@@ -24,7 +24,7 @@ Why do we not use title slides?
 1. Title slides delay the "time to a wow moment".
 1. It likely leads to inconsistencies. All title slides that we're currently showing on our site should be the same, if we are showing title slides. So, they'd all need to have the same layout, tone/voice of copy, timing, etc. It adds a large burden of maintenance that we don't want to take on.
 
-If you *really* think your video needs one, ask for help in the `#marketing` channel (and cite this handbook section and explain why you need one).
+If you _really_ think your video needs one, ask for help in the `#marketing` channel (and cite this handbook section and explain why you need one).
 
 ## Adding a screenshot
 
@@ -33,13 +33,13 @@ If you *really* think your video needs one, ask for help in the `#marketing` cha
 Whether you need a dedicated screenshot application or not depends on how often you plan to contribute visual content, and if you need things like annotations. Sourcegraph always encourages you to purchase the software you need to be successful, and this certainly applies to screenshots and screen recordings. Here is a brief overview of screenshot tools:
 
 - [Native macOS](https://support.apple.com/en-au/HT201361)<br/>
-Great for simple screenshots
+  Great for simple screenshots
 
 - [Snagit](https://www.techsmith.com/screen-capture.html)<br/>
-Great annotation tools
+  Great annotation tools
 
 - [Cleanshot](https://getcleanshot.com/)<br/>
-Nice workflow, great screenshot annotations (also does basic GIF and video recordings)
+  Nice workflow, great screenshot annotations (also does basic GIF and video recordings)
 
 ### Screenshot tips
 
@@ -60,13 +60,13 @@ A screen recording (screencast) is a great way to see a feature or flow in actio
 The reason to use a paid tool is more settings, export quality controls, and a nicer workflow for producing assets. If you’re planning on doing this more than once, it’s worth investing in a professional tool.
 
 - [Cleanshot](https://getcleanshot.com/)<br/>
-Export screen recordings to GIF or video and nice features such as hiding desktop icons and notifications during recordings automatically. It does not have any editing or annotation tools for screen recordings though.
+  Export screen recordings to GIF or video and nice features such as hiding desktop icons and notifications during recordings automatically. It does not have any editing or annotation tools for screen recordings though.
 
 - [Quicktime (videos only)](https://support.apple.com/en-au/guide/quicktime-player/qtp97b08e666/mac)<br/>
-Can capture a window, a selection of, or the entire screen, and in conjunction with the "Split Clip" functionality makes trimming the start and end easy. It’s a great tool that’s free on macOS.
+  Can capture a window, a selection of, or the entire screen, and in conjunction with the "Split Clip" functionality makes trimming the start and end easy. It’s a great tool that’s free on macOS.
 
 - [ScreenFlow](https://www.telestream.net/screenflow/overview.htm)<br/>
-Simply the best screen recording, editing, and production tool available. Designed primarily for video work (e.g. editing) but can export to GIF.
+  Simply the best screen recording, editing, and production tool available. Designed primarily for video work (e.g. editing) but can export to GIF.
 
 ### Screen recording tips
 
@@ -153,6 +153,12 @@ Uses Bootstrap for responsive sizing and adequate whitespace between adjacent el
 
 ```html
 <div class="container my-4 video-embed embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0" allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
+  <iframe
+    class="embed-responsive-item"
+    src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
+    allowfullscreen=""
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    frameborder="0"
+  ></iframe>
 </div>
 ```

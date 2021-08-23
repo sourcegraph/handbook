@@ -14,15 +14,15 @@ Here is a process that you can follow to disagree with a decision productively.
 
 1. Proactively try to understand the decision by reviewing available information (Slack conversations, [RFCs](https://about.sourcegraph.com/handbook/communication/rfcs)).
 1. Start a conversation with the decision maker. In this conversation:
-    - Communicate what information you reviewed in (1) and ask the decision maker to share any information or context that is missing from what you reviewed.
-    - State clearly that you disagree with the decision and your top 3 reasons for disagreeing. Share why you think these concerns are important or impactful.
-    - Ask the decision maker how they are thinking about tradeoffs and what they are optimizing for.
-    - Listen actively.
+   - Communicate what information you reviewed in (1) and ask the decision maker to share any information or context that is missing from what you reviewed.
+   - State clearly that you disagree with the decision and your top 3 reasons for disagreeing. Share why you think these concerns are important or impactful.
+   - Ask the decision maker how they are thinking about tradeoffs and what they are optimizing for.
+   - Listen actively.
 1. Choose a course of action:
-    - Agree and commit to the decision.
-    - Disagree and propose an alternative solution. If your proposal is not accepted, choose a different option.
-    - Disagree and commit to the decision. Document in an appropriate location (e.g., comment in the relevant Slack thread or relevant RFC) your disagreement, reasons for disagreeing, and the fact that you are committing to the decision.
-    - Disagree and perform a [clean escalation](#clean-escalation).
+   - Agree and commit to the decision.
+   - Disagree and propose an alternative solution. If your proposal is not accepted, choose a different option.
+   - Disagree and commit to the decision. Document in an appropriate location (e.g., comment in the relevant Slack thread or relevant RFC) your disagreement, reasons for disagreeing, and the fact that you are committing to the decision.
+   - Disagree and perform a [clean escalation](#clean-escalation).
 
 ## Interpersonal conflict
 
@@ -46,14 +46,13 @@ A shared understanding only requires that you _understand_ the other person’s 
 Here is a script you can use to build a shared understanding:
 
 1. Alice asks Bob to explain his point of view.
-    > It seems like we are in conflict about X. Could you please explain your point of view to me?
+   > It seems like we are in conflict about X. Could you please explain your point of view to me?
 1. Bob explains his point of view.
 1. Alice asks any questions that she has about Bob’s point of view so that she can better understand it. Alice does _not_ challenge Bob’s point of view, even if she disagrees with Bob. She is only seeking to understand.
 1. Alice says “I heard you say (repeat what Bob said). Is that right?”
 1. Bob either says “Yes” (and then the conversation repeats with the roles swapped), or he clarifies his point of view (and then Alice continues the conversation by repeating steps 3 and 4).
 
 If, after establishing a shared understanding, both parties are still unable to move forward, then they should start a clean escalation.
-
 
 ## Clean escalation
 
@@ -65,8 +64,8 @@ The mechanics are simple.
 1. They attempt to [resolve the conflict](#conflict-resolution) directly with each other.
 1. If they can’t resolve the conflict, then they come to a [shared understanding](#building-a-shared-understanding) of the situation and agree to cleanly escalate the conflict to their manager(s) _together_.
 1. The manager(s) verify that the pre-conditions for a clean escalation (i.e., the previous two steps) have been met.
-    - If so, the manager(s) can engage in a conversation to help resolve the conflict.
-    - If not, the manager(s) do not get involved in the conflict, and instead ask the involved parties to follow this documented clean escalation process.
+   - If so, the manager(s) can engage in a conversation to help resolve the conflict.
+   - If not, the manager(s) do not get involved in the conflict, and instead ask the involved parties to follow this documented clean escalation process.
 1. If the manager(s) are not able to resolve the conflict, they can cleanly escalate to the next level of management. This process continues until the issue is resolved.
 
 ---

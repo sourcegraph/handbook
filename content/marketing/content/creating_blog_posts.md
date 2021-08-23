@@ -39,7 +39,7 @@ tags: [blog]
 slug: the-blog-slug
 heroImage: /blog/thumbnail-image.jpg
 socialImage: Use to set large social image i.e.  https://about.sourcegraph.com/blog/sourcegraph-social-img.png
-canonical:  Use to override the canonical link i.e. https://www.fastcompany.com/90565930/im-deaf-and-this-is-what-happens-when-i-get-on-a-zoom-call
+canonical: Use to override the canonical link i.e. https://www.fastcompany.com/90565930/im-deaf-and-this-is-what-happens-when-i-get-on-a-zoom-call
 published: true
 ---
 
@@ -53,8 +53,8 @@ The data between the `---` is called front matter and is used to provide post me
 - The `tags` field should be left as `blog` until we incorporate filtering posts va tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
-- The `canonical` field is optional and only required to override the canonical link.  Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
-- The `socialImage` field is optional.  Use the full path to image in order to be read properly on Twitter and Facebook.  Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
+- The `canonical` field is optional and only required to override the canonical link. Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
+- The `socialImage` field is optional. Use the full path to image in order to be read properly on Twitter and Facebook. Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
 
 ## Adding images and other media
 
@@ -77,7 +77,13 @@ Uses Bootstrap for responsive sizing and adequate whitespace between adjacent el
 
 ```html
 <div class="container my-4 video-embed embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0" allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
+  <iframe
+    class="embed-responsive-item"
+    src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
+    allowfullscreen=""
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    frameborder="0"
+  ></iframe>
 </div>
 ```
 
@@ -91,11 +97,11 @@ It's recommended to run the development site to preview your blog post locally.
 
 Once your pull request is created, you can preview your blog post through the netlify build. To do so:
 
-* In your PR, on the 'conversation' tab
-* Find the checks at the bottom
-* Find the deploy/netlify check and click the details link
-* This will open a build of the Sourcegraph marketing website
-* Add /blog to the end of the url
+- In your PR, on the 'conversation' tab
+- Find the checks at the bottom
+- Find the deploy/netlify check and click the details link
+- This will open a build of the Sourcegraph marketing website
+- Add /blog to the end of the url
 
 ## Publishing your post
 
@@ -121,5 +127,3 @@ This video shows the process from start to finish, although only those with repo
   </div>
   <p style="text-align: center"><a href="https://www.youtube.com/watch?v=15hE2BCyMCQ" target="_blank">Watch on YouTube</a></p>
 </p>
-
-

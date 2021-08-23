@@ -3,7 +3,7 @@
 When a pull request is coming from a non-Sourcegrapher, it won’t trigger a CI
 build on Buildkite automatically because we want to review the code before it
 runs on our CI infrastructure. Please review the PR to ensure it doesn’t make
-any malicious changes to our build scripts. 
+any malicious changes to our build scripts.
 
 ## Triggering a build
 

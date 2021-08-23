@@ -33,22 +33,22 @@ Sometimes, we need to prioritize changes to our product on short notice due to n
 If the requested change is large enough that it would impact the planned [project roadmap](roadmap.md) of one or several [engineering teams](../engineering/index.md#teams), we should handle its prioritization as follows:
 
 1. The product manager should contact all relevant [engineering managers](../engineering/roles.md#engineering_manager), providing the following information in the form of an [RFC](../communication/rfcs/index.md):
-    - Description of the desired functionality.
-    - Context on why is this important: the customers or prospects that would benefit from the change, the size of the opportunity, and the risks of not doing this work.
-    - Desired timeline for the change: when do we need this by?
-    - Desired timeline for the evaluation: how soon do we need to know whether we can deliver this?
+   - Description of the desired functionality.
+   - Context on why is this important: the customers or prospects that would benefit from the change, the size of the opportunity, and the risks of not doing this work.
+   - Desired timeline for the change: when do we need this by?
+   - Desired timeline for the evaluation: how soon do we need to know whether we can deliver this?
 1. Engineering managers own providing a timely answer, either directly or by delegating evaluation of the request to a [software engineer](../engineering/roles.md#software-engineer) on their project team. If cross-team coordination is needed to evaluate the request, engineering managers own facilitating this coordination. The evaluation should be provided in the form of an [RFC](../communication/rfcs/index.md), or added to the original RFC provided by the product manager, and should include:
-    - An estimation of the amount of work needed to implement the request.
-    - If the amount of work needed spans more than one milestone, a proposed breakdown of incremental changes (for example, shipping a first functional but slow implementation in milestone N then working on performance in milestone N+1).
-    - An overview of work that would get deprioritized if we chose to prioritize the request.
-    - Any concerns raised by the request: stability, scalability, cost, performance.
-    - A recommendation on whether to move forward with prioritizing the request:
-        - OK to move forward.
-        - Recommend not moving forward: this may be because of outstanding concerns, or because prioritizing the request would lead to deprioritizing important engineering goals.
+   - An estimation of the amount of work needed to implement the request.
+   - If the amount of work needed spans more than one milestone, a proposed breakdown of incremental changes (for example, shipping a first functional but slow implementation in milestone N then working on performance in milestone N+1).
+   - An overview of work that would get deprioritized if we chose to prioritize the request.
+   - Any concerns raised by the request: stability, scalability, cost, performance.
+   - A recommendation on whether to move forward with prioritizing the request:
+     - OK to move forward.
+     - Recommend not moving forward: this may be because of outstanding concerns, or because prioritizing the request would lead to deprioritizing important engineering goals.
 1. Based on the evaluations provided by engineering manager, the product manager owns:
-    - Making a final decision on whether to prioritize the request.
-    - Communicating this decision to the engineering and sales/CE teams.
-1. Engineering managers own updating the project roadmap and iteration plans to reflect the product manager's decision. 
+   - Making a final decision on whether to prioritize the request.
+   - Communicating this decision to the engineering and sales/CE teams.
+1. Engineering managers own updating the project roadmap and iteration plans to reflect the product manager's decision.
 
 ## Prioritizing things that impact current iteration plans
 

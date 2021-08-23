@@ -1,8 +1,8 @@
 # How we use Salesforce
 
-This document describes how the sales team is using Salesforce. 
+This document describes how the sales team is using Salesforce.
 
-Note: Please refer to it as Salesforce (instead of SF or SFDC) in accordance with our [content guidelines](../communication/content_guidelines/style_and_mechanics.md#abbreviations-acronyms-latinisms-jargon). 
+Note: Please refer to it as Salesforce (instead of SF or SFDC) in accordance with our [content guidelines](../communication/content_guidelines/style_and_mechanics.md#abbreviations-acronyms-latinisms-jargon).
 
 Jump to:
 
@@ -18,7 +18,7 @@ Jump to:
 
 ## Salesforce access
 
-Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @business-team in #sales. 
+Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @business-team in #sales.
 
 ## About Salesforce objects
 
@@ -55,7 +55,7 @@ First Touchpoint is a slightly more granular version of Lead Source and is set a
 
 First Touchpoint values include:
 
-- Private Instance/Install (leads will go into "PP-Private Instance Markie" sequence) 
+- Private Instance/Install (leads will go into "PP-Private Instance Markie" sequence)
 - Sourcegraph.com Account/Cloud Sign-ups (leads will go into "CC-Cloud Signup Markie" sequence)
 - Contact/Demo Form
 - Inbound Email (support, contact)
@@ -106,7 +106,7 @@ If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use 
 - At this point, the Opportunity will be in Stage 1 - Interest
 - SDR schedules meeting with the Contact and the receiving AE.
 - SDR logs all pertinent information - call/email notes, research on contact/company, and any additional context that is helpful for the AE to be prepared for the initial call / understand the justification for creating an Opportunity
-SDR joins this initial call to make the AE intro and listen to the call for feedback
+  SDR joins this initial call to make the AE intro and listen to the call for feedback
 
 ### Inbound Lead-to-Opportunity Conversion Workflow
 
@@ -118,7 +118,7 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 - SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new)
 - At this point, the Opportunity will be in Stage 1 - Interest
 - SDR logs all pertinent information - call/email notes, research on contact/company, and any additional context that is helpful for the AE to be prepared for the initial call / understand the justification for creating an Opportunity
-SDR joins this initial call to make the AE intro and listen to the call for feedback
+  SDR joins this initial call to make the AE intro and listen to the call for feedback
 
 ### Rules of Engagement (ROE)
 
@@ -156,7 +156,7 @@ SDR joins this initial call to make the AE intro and listen to the call for feed
 5. The request has been submitted to your manager for approval. Click Finish.
 6. Once your manager approves the change, the Account will be removed from your name and unmarked as a Target Account.
 
-- [Remove Account  Video Example](https://screenrec.com/share/IMZG1ntb85)
+- [Remove Account Video Example](https://screenrec.com/share/IMZG1ntb85)
 
 ##### To exchange an account from your Target Accounts (exchanging is only necessary if you are at your max of 25 accounts):
 
@@ -180,13 +180,15 @@ This ensures that all deal-related communication is visible within the deal time
 If a deal comes through a referral or introduction, tell [BizOps](../ops/bizops/index.md) so an adjustment can be made in the database to reflect this.
 
 ### When a deal is won
+
 1. On 'New Business', make sure you have added products to the Opportunity following the linked demo: [Add Products Demo](https://screenrec.com/share/5EQcvILwON)
-2. Move the deal to ‘Closed Won’. 
-3. If you have added Products using Step 1, the Contract End Date will be set for you. If not, mark the ‘End of contract’ field with the last day of the contract. Salesforce will [automatically create a renewal deal](#renewal-deals) based on this date. 
-4. Ensure the appropriate 'deal won reason' fields reflect the main factors that contributed to the opportunity being won. 
+2. Move the deal to ‘Closed Won’.
+3. If you have added Products using Step 1, the Contract End Date will be set for you. If not, mark the ‘End of contract’ field with the last day of the contract. Salesforce will [automatically create a renewal deal](#renewal-deals) based on this date.
+4. Ensure the appropriate 'deal won reason' fields reflect the main factors that contributed to the opportunity being won.
 
 ### When a deal is lost
-1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../ops/bizops/index.md) about adding one. 
+
+1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../ops/bizops/index.md) about adding one.
 1. Expand upon the reason in the longform ‘Closed Lost Reason’ field.
 
 ### Recording outbound activity

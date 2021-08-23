@@ -22,7 +22,7 @@ Team members using Velocity Global will receive an email invitation to our Expen
 
 ### When submitting an expense via Expensify
 
-- Create a report and add individual expenses to that report. 
+- Create a report and add individual expenses to that report.
 - Upload receipts for each expense (required for all expenses above $25).
 - Ensure the date and description fields are properly filled out.
   - The date listed on your expense should be the date of purchase (not the date of submission).
@@ -42,6 +42,7 @@ Team members using Velocity Global will receive an email invitation to our Expen
 Contractors should also submit expense reports promptly at the end of each month, and include the expenses in their [monthly invoices](invoices.md). Once the expenses are approved, the full invoice can be paid.
 
 ## Internet, phone, and wellness benefits
+
 - For US based teammates: these fringe benefits are automatically added to your paycheck (the total amount is split up over both paychecks for the month), there is no need to submit them via Expensify.
 - For teammates based outside the US: you can have have these as fixed line items on your invoices and you will be paid for the full amount every month (receipts are not required for these fixed line items).
 - Fringe benefit amount (per month):

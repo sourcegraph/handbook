@@ -9,9 +9,10 @@ command for Sourcegraph and Gitlab CE in a Docker container.
 Launch a Sourcegraph instance with `dev/start.sh` or `enterprise/dev/start.sh`.
 
 If you need a TLS endpoint or reverse-proxy for your Sourcegraph instance (e.g. to example to debug secure-only cookies), [Caddy](https://caddyserver.com/) and
- [ngrok](https://dashboard.ngrok.com/get-started) are recommended.
+[ngrok](https://dashboard.ngrok.com/get-started) are recommended.
+
 > NOTE: If using a TLS endpoint, remember to update the external URL of the Sourcegraph instance in the site config.
- 
+
 ## Gitlab instance
 
 Use Docker to run a local GitLab CE instance:
@@ -41,8 +42,8 @@ On the Sourcegraph side add the Gitlab instance as an external service and check
 
 The two relevant docs are:
 
-* https://docs.sourcegraph.com/admin/external_service/gitlab#native-integration
-* https://docs.gitlab.com/ee/integration/sourcegraph.html
+- https://docs.sourcegraph.com/admin/external_service/gitlab#native-integration
+- https://docs.gitlab.com/ee/integration/sourcegraph.html
 
 You have to enable Sourcegraph integration in the rails console. Open a shell in the Gitlab container and execute `gitlab-rails console`.
 At the prompt enter `Feature.enable(:sourcegraph)`.
@@ -51,7 +52,7 @@ Follow the remaining steps from both docs.
 
 ## Testing
 
-Test code intelligence is working by viewing a file in GitLab and hovering over a token. If it doesn't appear to be working,  open the browser developer tools console and wait for a "code view added" log message. If this does not appear after 10 or so seconds, code intelligence has not been added to any code view(s).
+Test code intelligence is working by viewing a file in GitLab and hovering over a token. If it doesn't appear to be working, open the browser developer tools console and wait for a "code view added" log message. If this does not appear after 10 or so seconds, code intelligence has not been added to any code view(s).
 
 Clicking **Go to definition** should keep you inside GitLab, and ensure that it also takes you to the line where the token is defined.
 
@@ -59,7 +60,3 @@ Be sure to test code intelligence works in merge requests too! To create a merge
 
 Also test that code intelligence works on PRs, as well as viewing code files.
 Clicking on the hover will take you to the Sourcegraph instance to that point in code.
-
-  
-
- 

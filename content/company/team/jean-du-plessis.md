@@ -34,9 +34,11 @@ _(Hat tip to [Nick Snyder](nick.md) who inspired me to follow his example)_
 ## Feedback
 
 ### For me
+
 If you have any feedback, questions, concerns, or anything else that you want me to know about, please don't hesitate to contact me directly by sending me a message via email or Slack, or by scheduling a time for us to video chat.
 
 If you wish to remain anonymous, you may use the following form: https://forms.gle/Z7t5aF7WvWLwmRCSA
 
 ### For you
+
 If you are my report you can expect me to give you both positive and constructive improvement feedback regularly. I aim to praise my reports in public (Slack channels, team sync/retrospective meetings), but constructive improvement feedback will always be in private.

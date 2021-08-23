@@ -31,19 +31,19 @@ You'll have to get some basics set up in your first few days:
 Your manager will help you schedule the following training sessions:
 
 - Product demo
-    - Cloud vs. self-hosted
-    - Search (including code monitoring)
-    - Code intel (including the difference between search and precise)
-    - Sourcegraph and browser extensions
-    - Batch Changes
-    - Code insights
+  - Cloud vs. self-hosted
+  - Search (including code monitoring)
+  - Code intel (including the difference between search and precise)
+  - Sourcegraph and browser extensions
+  - Batch Changes
+  - Code insights
 - Review the [sales onboarding quiz](../../sales/onboarding/quiz.md)
 - Product analytics overview
-    - Event logger and pings overview
-    - On-prem deployment to Google BigQuery to Looker data flow
+  - Event logger and pings overview
+  - On-prem deployment to Google BigQuery to Looker data flow
 - Sales and marketing data overview (focused on the data instead of the tools)
 - GitHub and git walk-through (Q&A)
-    - Read through the [git intro](../../people-ops/onboarding/git_intro.md) and [add yourself](../../people-ops/onboarding/general_onboarding.md#learn-how-to-contribute-to-the-handbook) to the team page
+  - Read through the [git intro](../../people-ops/onboarding/git_intro.md) and [add yourself](../../people-ops/onboarding/general_onboarding.md#learn-how-to-contribute-to-the-handbook) to the team page
 
 ### Get to know fellow teammates
 
@@ -53,10 +53,10 @@ Your manager will help you schedule the following training sessions:
 ## Weeks 2 and 3
 
 - Your manager and you will work together to find good onboarding projects that combine your areas of interest with real problems we need to solve. These projects should include the following elements:
-    - Familiarize you with our tech stack (HubSpot/Salesforce for customer ops roles and BigQuery/Looker for product ops roles)
-    - Reinforce our product's value propositions
-    - Include collaboration with another team to start building familiarity with how other teams operate
-    - Be opportunities for you to get a quick win or two
+  - Familiarize you with our tech stack (HubSpot/Salesforce for customer ops roles and BigQuery/Looker for product ops roles)
+  - Reinforce our product's value propositions
+  - Include collaboration with another team to start building familiarity with how other teams operate
+  - Be opportunities for you to get a quick win or two
 - Continue asking questions about Sourcegraph (the company and product) and reinforcing our values and goals.
 - Look back at your onboarding material from week 1. It's a lot of new information, but it will become second nature over time with a little bit of repitition!
 - Think about how onboarding could be improved for the next person and make changes to it along the way. It will never be perfect, but it can always get better!

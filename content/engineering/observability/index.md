@@ -1,4 +1,4 @@
-# Observability at Sourcegraph 
+# Observability at Sourcegraph
 
 > **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 

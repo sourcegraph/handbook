@@ -17,7 +17,7 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 - Marketing.
 - And other stakeholders involved in the design process.
 
-## Our principles  
+## Our principles
 
 - **A personal tool within a larger workflow**  
   Sourcegraph is a powerful yet personal tool that exists within a larger workflow. Design for familiar patterns with thoughtful defaults, while embracing personalization and adaptability.

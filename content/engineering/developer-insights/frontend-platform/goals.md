@@ -1,11 +1,13 @@
 # Frontend Platform Goals and Roadmap
 
 The Frontend Platform team, by the nature of their purpose, do not follow a traditional product roadmap and instead focuses on high impact projects aligned with the company's OKRs.
+
 ## Goals for FY22
 
 See also our [completed goals](goals_completed.md).
 
 ### 1. Implement design refresh
+
 The design refresh of Sourcegraph will impact the whole platform and focus on visual adjustments. It will mainly impact the following areas: navigation, file, diff and code intel views.
 
 Why do we need a design refresh?
@@ -19,6 +21,7 @@ Why do we need a design refresh?
 ### 2. Make it easier to onboard and contribute to our frontend codebase
 
 We have heard feedback from many teammates (including new frontend engineers, as well as experienced backend engineers trying to make changes) that our frontend codebase is hard to ramp up on and contribute to.
+
 #### 2.1 Wildcard Component Library
 
 To provide a base for growth, maintaining consistency and enabling faster FE development, we need to better our system. We would like to do it by building a design system. In addition, by doing so we’re looking to pay off some of our design and technical debt.

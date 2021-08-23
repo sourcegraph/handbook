@@ -19,12 +19,15 @@ We have a flat hourly rate of **$60 USD / hour** for compensation in user resear
 While planning user research, if you feel it's the right choice to offer compensation for participants, the process is as follows:
 
 1. Identify: How long will each session be? Will the compensation be monetary, voucher-based, or a donation?
-  - It's okay to offer more than one form of compensation as a choice for participants.
-  - In screener surveys, it's a good idea to ask where the participant is based and what form of compensation they prefer.
+
+- It's okay to offer more than one form of compensation as a choice for participants.
+- In screener surveys, it's a good idea to ask where the participant is based and what form of compensation they prefer.
+
 1. Share your research plan and expected cost with Finance ([finance@sourcegraph.com](mailto:finance@sourcegraph.com)) to make sure the research budget is available and approved.
 1. Conduct your research!
 1. After the session, add the session information to the [Sourcegraph User Research Compensation spreadsheet (internal only)](https://docs.google.com/spreadsheets/d/1lQDF8_1XX372FhSE8gsE_XstpGPXrJl5ZhkBanc8dgQ/edit#gid=1160735453). Then, contact Finance ([finance@sourcegraph.com](mailto:finance@sourcegraph.com)) to let him know that new sessions are ready to be compensated.
-  - When the chosen compensation is a donation on the participant's behalf, forward the donation confirmation to the participant when available.
+
+- When the chosen compensation is a donation on the participant's behalf, forward the donation confirmation to the participant when available.
 
 Whoever is the DRI for the research initiative is accountable for making sure the end-to-end compensation process is followed and that the research participants are ultimately compensated.
 

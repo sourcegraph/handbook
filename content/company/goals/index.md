@@ -6,7 +6,6 @@ See "[Guidelines for goals](guidelines.md)" for more information about how we ch
 
 [**Sourcegraph OKR Tracker**](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit#gid=1699297878)
 
-
 <div id="goals-loading">
 	Compiling goals...
 	<br/>

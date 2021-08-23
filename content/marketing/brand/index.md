@@ -1,6 +1,7 @@
 # Brand
 
 ## Table of Contents
+
 1. [Building a Strong Brand](https://about.sourcegraph.com/handbook/marketing/brand/building_a_strong_brand)
 2. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
 3. [The Team](#the-team)
@@ -13,11 +14,13 @@
 10. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
 
 ## Function, Vision, Mission, and Values
+
 Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to elevate, activate and communicate the value of Sourcegraph to the world. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, offering full-service creative support with a rapid, flexible, iterative process that stems from a deep understanding of our products, our processes, and our people.
 
 In addition to increasing awareness and positive perception of the Sourcegraph brand, we strive to amplify the voices of our users and partners, by conceptualizing and producing best-in-class creative that leans heavily on storytelling and narrative to drive engagement and sharing. Our primary goal is to build and strengthen the connection between our brand and our audience as a means to increasing loyalty and retention by providing a better experience for our users.
 
 We are: <br>
+
 - Lean - small but efficient team that leverages vendors and contractors to scale support <br>
 - Agile - move fast, adapt, and change directions easily based on the market and goals <br>
 - Effective - strive for quantifiable results and outsized impact; everything has a “why”
@@ -37,45 +40,48 @@ Our team acts as liaison or point-of-contact with external entities when produci
 Our company values can be found [here](../../company/values.md). Our Brand Creative Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
 
 ## The Team
+
 Functional Areas: Design, illustration, animation, video production, copywriting, narrative, project management, brand strategy, market research, website development, and more.
 
-- Tommy Pesavento - Director of Brand / Creative Director    
-- Fabiana Castellanos - Project Coordinator, Brand    
+- Tommy Pesavento - Director of Brand / Creative Director
+- Fabiana Castellanos - Project Coordinator, Brand
 - Mustafa Ulker ~ a.k.a Moose - Senior Copywriter, Brand
-- Kristen Sundberg - Senior Manager, Social Media  
-- Sruti Dhulipala - Senior Manager, Global Brand Strategy 
+- Kristen Sundberg - Senior Manager, Social Media
+- Sruti Dhulipala - Senior Manager, Global Brand Strategy
 
- 
 To be hired:
-- Brand Planner   
-- Senior Brand Designer (Q2 FY22) 
-- Brand Designer  
-- Production Designer  
-- Creative Producer  
-- Motion Designer/Animator  
-- Multimedia Specialist  
-- Copywriter, Brand  
-- Digital Experience Manager  
-- Web Designer (UX/UI)  
-- Frontend Web Developer  
-- CMS Admin  
-- UX Researcher   
 
+- Brand Planner
+- Senior Brand Designer (Q2 FY22)
+- Brand Designer
+- Production Designer
+- Creative Producer
+- Motion Designer/Animator
+- Multimedia Specialist
+- Copywriter, Brand
+- Digital Experience Manager
+- Web Designer (UX/UI)
+- Frontend Web Developer
+- CMS Admin
+- UX Researcher
 
 ## Capabilities
+
 We deliver agency-caliber campaigns, creative, production, and results in support of every team within the company to drive awareness, engagement, and adoption.
 
 The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand and creative support for all internal teams and programs (i.e. People/HR, Product, Ops, Eng, etc.), as well as central brand communications, demand generation, content strategy and product marketing support. We sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our [Preferred Vendor Network](https://about.sourcegraph.com/handbook/marketing/brand/production_process#sourcegraph-preferred-vendor-network-aka-the-network), or simply The Network.
 
 Our capabilities include:
 
-*Branding*
+_Branding_
+
 - Brand management, brand identity design, logos, lockups, colors, etc.
 - Brand strategy, naming, positioning, packaging, narrative and market research
-	- [See Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives
+  - [See Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives
 - Maintain and update [Sourcegraph Brand Guidelines](brand_guidelines.md) and brand assets
 
-*Design*
+_Design_
+
 - Graphic design for print and digital media
 - Illustrations, iconography, infographics
 - Motion design and animation
@@ -83,37 +89,42 @@ Our capabilities include:
 - Print design and production, marketing collateral, swag
 - Swag procurement, design, and fulfillment
 
-*Photo/Video Production*
+_Photo/Video Production_
+
 - Video production, shooting (location and studio), storyboarding, proj. management
 - Sound design, audio production, mixing, sampling, mastering
 - VR/AR, 360º films, CGI, motion graphics, and animation
 - Photography, editing, retouching, and archiving
 
-*Website/Digital Experience*
+_Website/Digital Experience_
+
 - Maintain and update website, incl. integrations, testing and SEO
 - Website design, page design, campaign and landing pages, microsites
 - Interactive design, incl. data visualization and infographics
 - Email design and development
 - Digital marketing stack and B guidance, strategy, and execution
 
-*Events*
+_Events_
+
 - Event planning, strategy and design
 - Booth, stage or environmental design and production
 - Swag design and fulfillment planning. See our [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
 
-*Copy*
+_Copy_
+
 - Maintain and update brand style guide, voice and tone
 - Copywriting, editing and proofing for social media, ads, website, scripts, etc.
 - For blog posts, white papers, e-books, and other long-form serial content, please go to [Content Marketing](../content.md)
 
 ## Additional resources
+
 - [Brand & Creative Team Mission and Values](brand_and_creative_team_mission_and_values.md)
 - [Why have a vision and mission statement?](sourcegraph_in-house_brand_team.md)
 - [Benefits of Having an In-House Brand & Creative Team](sourcegraph_in-house_brand_team.md)
 - [Common challenges faced by in-house Brand & Creative teams](sourcegraph_in-house_brand_team.md)
 
-
 ## Open Questions
+
 This charter isn’t meant to have ALL the answers; rather, it’s meant to to be a living document that can change and adapt over time, while providing some frameworks and operational processes that help ensure smooth collaboration and successful partnering internally. A few of the top-of-mind questions that we still want to answer in the near term include:
 
 - How do we decide what to do in-house and when to bring agencies on board?

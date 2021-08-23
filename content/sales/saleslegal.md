@@ -1,6 +1,6 @@
 # How and when to engage with legal
 
-* **Never talk to an attorney from a customer account without our legal present!**
+- **Never talk to an attorney from a customer account without our legal present!**
 
 ### Conflict Check
 

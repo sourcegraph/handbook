@@ -18,6 +18,7 @@ WHERE user_emails.is_primary = true;
 ## Private Repository Related Queries
 
 ### Listing Cloud Users With Private Repository
+
 ```sql
 SELECT DISTINCT user_emails.email, users.display_name, users.created_at
 FROM user_emails
@@ -31,6 +32,7 @@ Note that we only get the distinct list of email, name and creation date. We als
 E.g. if a user has previously tried private repositories, but has since removed them from the DB, they will not be part of the list.
 
 ### Listing Cloud Users Without Private Repository
+
 ```sql
 SELECT DISTINCT user_emails.email, users.display_name, users.created_at
 FROM user_emails

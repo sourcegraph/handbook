@@ -55,7 +55,3 @@ Here are some examples of great demos previously shared:
 When your team ships something that would make a great demo, mention @demoday-schedule in your #progress post, or send a short message to #demoday and you’ll be added to the schedule. Kylie will reach out in advance to plan prep time.
 
 We will keep track of and will organize the schedule in [this demo day schedule](https://docs.google.com/spreadsheets/d/1Te8HQXbUP-LZzoeSG90sN_dWyRgvZEB96uJoKPNbZqg/edit?usp=sharing).
-
-
-
-

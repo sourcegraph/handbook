@@ -36,12 +36,12 @@ There is no formal process for creating a working group, but here are a few guid
 
 If you decide to go forward with the working group, announce it widely. Set up a dedicated communication channel to make sure that all impacted teams are informed and bought into the initiative, and to ask for frequent input. A **slack channel**, named with a `wg-` prefix, is recommended.
 
-
 ## Ending a working group
 
 After the outcome has been achieved, or after a given time period has elapsed, the working group should end. If the working group lives for too long (more than two quarters), it probably means that the outcome was too big and needs to be scoped down, or that responsibilities should be transferred to a team.
 
 When you end the working group
+
 - run a [retrospective](../retrospectives.md) if it's useful
 - write and share a wrap up, share the final outcome
 - archive the Slack channel

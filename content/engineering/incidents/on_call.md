@@ -9,7 +9,7 @@ We have an ops on-call rotation managed through [OpsGenie](https://opsgenie.com)
 1.  Identify the issue and collect information that might be useful for preventing the problem in the future (e.g. if a disk was full, what was it full with?).
     - This frequently involves running kubectl commands against our production cluster.
     - Make sure you have [setup access to kubernetes](https://about.sourcegraph.com/handbook/engineering/deployments#how-to-set-up-access-to-kubernetes) and know [how to perform operations](https://about.sourcegraph.com/handbook/engineering/deployments#kubectl-cheatsheet) like: looking at logs for a service, restarting a service, getting a command shell in a running pod (e.g. to look at what is on disk).
-1. If `about`, `/search`, or `docs` is fully unreachable, page Customer Support so they can help with customer and broader internal communication. You can do this from Slack with `/genie alert "______ is down" for customer-support`. Support assisting with communication will let you focus on solving the issue.
+1.  If `about`, `/search`, or `docs` is fully unreachable, page Customer Support so they can help with customer and broader internal communication. You can do this from Slack with `/genie alert "______ is down" for customer-support`. Support assisting with communication will let you focus on solving the issue.
 1.  Take steps to resolve the issue (e.g. if a disk was full, delete any data that is safe to delete to resolve the immediate issue) if you can.
     - Don't mark pages as "resolved". Wait for the underlying alert to auto resolve.
     - If you have unsuccessfully attempted to figure out how to resolve a page, the page hasn't auto resolved (many do), and the issue appears important (e.g. impacts users), then get help from someone else. Prefer to contact people who you know are already awake/working.
@@ -73,7 +73,7 @@ Sourcegraph Google account. External services are stored in 1Password.
 
 ## Alerts
 
-NOTE: Before adding any *critical* alert, please ensure it is good enough to wake you up
+NOTE: Before adding any _critical_ alert, please ensure it is good enough to wake you up
 at 3:30am. Good practice is to instrument first for a few days/week and check
 if your alert would fire only when it should.
 

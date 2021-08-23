@@ -74,6 +74,6 @@ Most "data pipelines" are SQL queries that turn raw ping data into clean dataset
 ### Looker administration
 
 When adding a user to Looker, they need to be in both the group and role:
+
 - Marketing, people ops, talent users = View
 - CE, sales, product users = ‘All internal users, view and edit’
-

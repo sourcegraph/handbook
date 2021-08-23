@@ -18,11 +18,11 @@ See "[What problems does Sourcegraph solve?](../marketing/messaging.md#what-prob
 
 This somewhat depends on which code host they're using. Look up the [product comparison with their code host](../workflow/index.md#other-tools) for details.
 
-Generally, though, code hosts offer very basic code search functionality that isn't *actually* very useful for developers. If someone asks this question, they probably don't use code search very frequently, because if they did use their code host's code search, they would be familiar with its shortcomings. It is very, very rare that someone asking this question is an avid user of their code host's code search and wants to know the feature-by-feature comparison.
+Generally, though, code hosts offer very basic code search functionality that isn't _actually_ very useful for developers. If someone asks this question, they probably don't use code search very frequently, because if they did use their code host's code search, they would be familiar with its shortcomings. It is very, very rare that someone asking this question is an avid user of their code host's code search and wants to know the feature-by-feature comparison.
 
 Here is a strategy for handling this question live (for simplicity, this assumes their code host is GitHub):
 
-> Well, first, how often do you use GitHub code search? [Their response is almost always "a few times a week" or less.] Makes total sense. The most helpful way to think about the difference is that with really good code search, you'd actually use code search many times *per day*. Sourcegraph becomes the first place you go to answer questions and unblock yourself while coding. I'll send you the public stats and docs (and the [Yelp usage chart](https://engineeringblog.yelp.com/2019/11/winning-the-hackathon-with-sourcegraph.html)) about code search usage inside our customers and Google and Facebook, which all have really good code search. We usually see around 10-20% of developers inside an organization immediately becoming daily code search users, and over the next few weeks or months as other developers get accustomed to it, that number grows to 60-90% of all developers.
+> Well, first, how often do you use GitHub code search? [Their response is almost always "a few times a week" or less.] Makes total sense. The most helpful way to think about the difference is that with really good code search, you'd actually use code search many times _per day_. Sourcegraph becomes the first place you go to answer questions and unblock yourself while coding. I'll send you the public stats and docs (and the [Yelp usage chart](https://engineeringblog.yelp.com/2019/11/winning-the-hackathon-with-sourcegraph.html)) about code search usage inside our customers and Google and Facebook, which all have really good code search. We usually see around 10-20% of developers inside an organization immediately becoming daily code search users, and over the next few weeks or months as other developers get accustomed to it, that number grows to 60-90% of all developers.
 >
 > - [If they want more specific feature information, run through the [Sourcegraph tour](https://docs.sourcegraph.com/getting-started/tour) and show them how Sourcegraph can answer questions that come up many times per day while coding.]
 > - [If they want to see these usage claims backed up by data, walk through the materials you mentioned with them live.]
@@ -60,7 +60,6 @@ Here's a comprehensive answer that you can trim down based on the prospective cu
 Kythe is a very low-level code intelligence system. It plays the same role as LSIF (which is what Sourcegraph uses instead of Kythe for code intelligence). Kythe is not a product that they can actually use. It doesn’t do code search, code browsing, code host integrations, batch changes, code insights, etc.
 
 It's like saying instead of Salesforce CRM we will just use InsightSquared (actually Kythe is even lower-level than InsightSquared, but you get the idea).
-
 
 ## Is Sourcegraph a platform, tool, or application?
 

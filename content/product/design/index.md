@@ -2,7 +2,7 @@
 
 ### Welcome to product design at Sourcegraph!
 
-The product design team exists to increase the value Sourcegraph delivers to its users.  We achieve this objective through thoughtful discovery, inspired design, careful validation, and close collaboration with all manner of roles throughout the company. 
+The product design team exists to increase the value Sourcegraph delivers to its users. We achieve this objective through thoughtful discovery, inspired design, careful validation, and close collaboration with all manner of roles throughout the company.
 
 We also seek to make it easier and more efficient to build Sourcegraph itself. Through the artifacts of our open process, we provide a forum where anyone in the company can provide valuable input that improves a project's outcome before a single line of code is written.
 
@@ -12,7 +12,6 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 - [Rob Rhyne](../../company/team/index.md#rob-rhyne) (he/him)
 - [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) (he/him) – [ReadMe](https://quinnkeast.com/readme)
 - S.L. (joining in August)
-
 
 <img width="30%" height="30%" src="design-team-logo.jpg" alt="Sourcegraph Design team logo">
 
@@ -51,7 +50,6 @@ Designing in the open is hard! As designers, it’s easy to want to hold back on
 ### Design process
 
 Product design at Sourcegraph is low-process and highly adaptive. Every project is a little bit different, but we usually follow the same general approach where cross-disciplinary project teams move together through **Discovery** and **Delivery** phases.
-
 
 - **The Discovery phase** provides space for the project team to collaborate on problem definition, [research](./research/index.md), ideation and experimentation, [testing](./research/index.md), and ultimately to converge on an outcome that the project team agrees to move forward into Delivery.
 

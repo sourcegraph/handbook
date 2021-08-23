@@ -1,10 +1,8 @@
 # Onboarding process for Hiring Managers
 
-As the company grows, new hires are joining almost every week. The onboarding process the new hire goes through requires actions from both PeopleOps and the Hiring Manager. Some Hiring Managers are doing this for the first time and they don’t know what the process looks like, here they will find the necessary information. 
-
+As the company grows, new hires are joining almost every week. The onboarding process the new hire goes through requires actions from both PeopleOps and the Hiring Manager. Some Hiring Managers are doing this for the first time and they don’t know what the process looks like, here they will find the necessary information.
 
 ## Before first day
-
 
 <table>
   <tr>
@@ -19,7 +17,8 @@ As the company grows, new hires are joining almost every week. The onboarding pr
 <li> We ask for their phone number, for account setup
 </ul>
 
-   And GitHub username, if they have one.
+And GitHub username, if they have one.
+
    </td>
    <td>PeopleOps
    </td>
@@ -70,10 +69,7 @@ Having this done before day one will make it easier for the new hire and an over
   </tr>
 </table>
 
-
-
 ## First day
-
 
 <table>
   <tr>
@@ -90,10 +86,7 @@ Having this done before day one will make it easier for the new hire and an over
   </tr>
 </table>
 
-
-
 ## Checklist
-
 
 <table>
   <tr>
@@ -109,6 +102,5 @@ Having this done before day one will make it easier for the new hire and an over
    </td>
   </tr>
 </table>
-
 
 For any extra context, information or suggestions, please contact Inés Roitman (@Ines)

@@ -31,12 +31,11 @@ If you enable email notifications for watched repositories then you will want to
 
 1. Create a filter that skips the inbox for any message from notifications@github.com that doesn't contain your email address (i.e. `from:(notifications@github.com) -{YOURNAME@sourcegraph.com}`). GitHub will explicitly cc your email address if and only if you are mentioned/involved in the thread. Only threads that involve you will appear in your inbox.
 
-    ![skip inbox filter example](gmail-filter-skip-inbox.png)
+   ![skip inbox filter example](gmail-filter-skip-inbox.png)
 
 2. Create a "GitHub" label for all notifications from GitHub (i.e. `from:(notifications@github.com)`). This allows you to browse threads that don't involve you (if you want).
 
-    ![GitHub label filter example](gmail-filter-github-label.png)
-
+   ![GitHub label filter example](gmail-filter-github-label.png)
 
 💡When creating these filters, select "Also, apply filter to matching conversations".
 
@@ -51,12 +50,10 @@ You may want to have Slack notify you in real-time when someone comments on your
 2. Open a direct message with the app and type `/github signin` and follow the prompts to sign into GitHub.
 
 3. Navigate to [https://github.com/settings/reminders/sourcegraph](https://github.com/settings/reminders/sourcegraph)
-![Real-time Notifications](real-time.png)
+   ![Real-time Notifications](real-time.png)
 
 #### Slack DM when mentioned on Github
 
 Zapier can integrate Github & Slack to send you a Direct Message when you are @mentioned on Github
 
-https://zapier.com/shared/9936678fd62d27141a02ab5482f2492003f508d5 
-
-
+https://zapier.com/shared/9936678fd62d27141a02ab5482f2492003f508d5

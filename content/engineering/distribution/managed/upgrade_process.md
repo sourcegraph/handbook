@@ -186,7 +186,7 @@ git --no-pager diff $NEW_DEPLOYMENT
 Address any merge conflicts in the `$NEW_DEPLOYMENT/` directory if needed.
 
 Also verify that no references remain for the old version - the script does not automatically apply changes to replicas.
-For each reference, ensure that the *entire* service entry is up to date (i.e. not just the version).
+For each reference, ensure that the _entire_ service entry is up to date (i.e. not just the version).
 You can list references like so (if nothing shows up, you should be good to go):
 
 ```sh
@@ -271,7 +271,6 @@ Remove the notice previously added to the global user settings:
 ../util/set-notice.sh none
 ```
 
-
 ## 11) Take down the old deployment
 
 Remove the old `$OLD_DEPLOYMENT` deployment and its data disk:
@@ -281,7 +280,6 @@ Remove the old `$OLD_DEPLOYMENT` deployment and its data disk:
 rm -rf $OLD_DEPLOYMENT/
 git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
 ```
-
 
 ## 13) Open a pull request to commit your changes
 

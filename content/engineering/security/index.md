@@ -26,7 +26,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 See [security goals and priorities](goals.md)
 
-----
+---
 
 ## Responsibilities
 
@@ -42,7 +42,7 @@ See [security goals and priorities](goals.md)
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
 - Respond to Security Incidents as per our [Security Incident Response Policy](./security-incident-response.md)
 
-----
+---
 
 ## How to work with us
 
@@ -55,14 +55,15 @@ Security questionnaires for new and existing customers should [follow the proces
 ### Questions and Support Requests
 
 Security questions and support requests should be raised in [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ):
-  1. Click the lightning bolt below the Slack message box in [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ)
-  2. Select an option at the top of the menu
-  3. Fill out the questions
-  4. Tag @security-support in the resulting thread if urgent
+
+1. Click the lightning bolt below the Slack message box in [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ)
+2. Select an option at the top of the menu
+3. Fill out the questions
+4. Tag @security-support in the resulting thread if urgent
 
 Reach out to us on [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) if you have any doubts, or for any reason feel like our process can't work for you in a particular case.
 
-----
+---
 
 ## How we work
 

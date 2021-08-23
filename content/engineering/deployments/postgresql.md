@@ -8,13 +8,11 @@ We currently run two separate databases. The `sg-cloud` database is the primary 
 
 You can also directly view the database in [GCP](https://console.cloud.google.com/sql/instances?project=sourcegraph-dev).
 
-We utilize the [Google Cloud SDK](https://cloud.google.com/sdk) utility [Cloud SQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy) to connect to our production databases. By default, our Cloud SQL databases are not accessible. 
+We utilize the [Google Cloud SDK](https://cloud.google.com/sdk) utility [Cloud SQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy) to connect to our production databases. By default, our Cloud SQL databases are not accessible.
 
 There are two ways of connecting: either using the `gcloud beta sql connect` command, which will use the `pgsql` client, or running the `cloud_sql_proxy` on a port locally to utilize your preferred tools.
 
-For read-only access, there is also an option of using [BigQuery](
-https://console.cloud.google.com/bigquery?sq=527047051561:67f2616f4acb4b7cb3639e4a97e2f4aa
-) and their `EXTERNAL_QUERY` syntax.
+For read-only access, there is also an option of using [BigQuery](https://console.cloud.google.com/bigquery?sq=527047051561:67f2616f4acb4b7cb3639e4a97e2f4aa) and their `EXTERNAL_QUERY` syntax.
 
 ## Connecting to Postgres
 
@@ -23,6 +21,7 @@ https://console.cloud.google.com/bigquery?sq=527047051561:67f2616f4acb4b7cb3639e
 If you didn't yet, [install Google Cloud SDK](https://cloud.google.com/sdk/docs/install). Ensure, that `gcloud` command is reachable on your path.
 
 Install the Cloud SQL proxy by running this command with `gcloud`:
+
 ```
   gcloud components install cloud_sql_proxy
 ```
@@ -36,6 +35,7 @@ You may use these gcloud commands to connect directly to the databases:
     gcloud beta sql connect --project sourcegraph-dev sg-cloud-732a936743 --user=dev-readonly -d=sg
   ```
 - Code intel db {[Password](https://start.1password.com/open/i?a=HEDEDSLHPBFGRBTKAKJWE23XX4&v=dnrhbauihkhjs5ag6vszsme45a&i=hbgj2dfajwj7cdiifk3zb2h2b4&h=my.1password.com)}
+
   ```
     gcloud beta sql connect --project sourcegraph-dev sg-cloud-code-intel-9fc67e507c  --user=dev-readonly -d=sg
   ```
@@ -45,17 +45,18 @@ You may use these gcloud commands to connect directly to the databases:
 ### Proxy for advanced use
 
 Run the `cloud_sql_proxy` against our production instance
+
 ```
   cloud_sql_proxy -instances=sourcegraph-dev:us-central1:sg-cloud-732a936743=tcp:5555
 ```
 
 Now, in a new terminal, run the command below. The database will be running on `localhost:5555`
 
-  ```
-    export PGPASSWORD='<$PASSWORD>'
-    psql -h localhost -p 5555 -d sg -U 'dev-readonly'
-  ```
-  
+```
+  export PGPASSWORD='<$PASSWORD>'
+  psql -h localhost -p 5555 -d sg -U 'dev-readonly'
+```
+
 Note, that to connect to `localhost:5555` you still need to supply the postgres password stored in 1Password (mentioned above).
 
 ## Example queries
@@ -75,9 +76,11 @@ Note, that to connect to `localhost:5555` you still need to supply the postgres 
 ## Performance monitoring
 
 We run a PgHero deployment as well you can use to analyze slow queries and overall database performance.
+
 ```
   kubectl port-forward -n monitoring svc/pghero 8080:80
 ```
+
 and then navigate to http://localhost:8080 to view the dashboard
 
 See additional Postgres tips in our [incident docs](../incidents/playbooks/index.md#postgreSQL-database-problems)

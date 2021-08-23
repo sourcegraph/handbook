@@ -46,6 +46,7 @@ See [goals and priorities](goals.md)
 Precise code intelligence specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use SQLite databases to store data specific to a particular LSIF index and Postgres to store all other data.
 
 ## How we do technical hiring
+
 - [Code Walkthrough](code-walkthrough.md)
 
 ## Team communication
@@ -64,7 +65,7 @@ The code intel team has defined a set of rituals that keeps the team connected a
 
 Our iterations last two weeks and are comprised of the following:
 
-- Planning Meeting: The first Monday of the iteration we hold a retro and planning meeting.  Our iterations are comprised of work taken from our [backlog](https://github.com/orgs/sourcegraph/projects/100).  Our in-flight iteration work is tracked in our iteration [board](https://github.com/orgs/sourcegraph/projects/101).
+- Planning Meeting: The first Monday of the iteration we hold a retro and planning meeting. Our iterations are comprised of work taken from our [backlog](https://github.com/orgs/sourcegraph/projects/100). Our in-flight iteration work is tracked in our iteration [board](https://github.com/orgs/sourcegraph/projects/101).
 - Team Sync Meeting: The second Monday of the iteration, the code intel team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the sync meeting, each team member should:
 
   1. Add any agenda items that should be discussed.

@@ -30,10 +30,10 @@ When we write in our shared voice, we are always:
 - Speak to, not down or up, to our customers
 
 **Note**: This section will be evolved as we continue to refine our brand identity.
-    
+
 ## Using tone
 
-We can express any given message in wildly different ways by combining voice and tone. 
+We can express any given message in wildly different ways by combining voice and tone.
 
 There are four dimensions of tone that we can use to adjust the tone of any given message:
 
@@ -68,7 +68,7 @@ Our **tone** comes through the words we use and how we string them together. Our
 - [The Four Dimensions of Tone of Voice](https://www.nngroup.com/articles/tone-of-voice-dimensions/) by NNG
 - [Tone of Voice](https://monzo.com/tone-of-voice/) by Monzo
 
-## Adapting to emotional context 
+## Adapting to emotional context
 
 ### Positive situations
 

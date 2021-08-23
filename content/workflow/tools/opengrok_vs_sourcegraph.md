@@ -8,13 +8,13 @@ Sourcegraph is a good replacement for OpenGrok for almost every organization.
 
 ## Pros
 
-* Simple interface
-* Support for non-Git repositories
-* Easy deployment (for Java shops)
+- Simple interface
+- Support for non-Git repositories
+- Easy deployment (for Java shops)
 
 ## Cons
 
-* Slow and difficult-to-manage indexing process (leading to stale results for users)
-* Poor support for searching/browsing multiple commits and branches
-* Poor scalability to many repositories and for large repositories
-* Inflexible and buggy API (using the new REST API)
+- Slow and difficult-to-manage indexing process (leading to stale results for users)
+- Poor support for searching/browsing multiple commits and branches
+- Poor scalability to many repositories and for large repositories
+- Inflexible and buggy API (using the new REST API)

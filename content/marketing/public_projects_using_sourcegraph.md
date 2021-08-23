@@ -1,10 +1,10 @@
 # Public projects using Sourcegraph
 
-Sourcegraph's [GraphQL API](https://docs.sourcegraph.com/api/graphql), [custom search pages](https://sourcegraph.com/cncf) (on request), and other search and browsing features power a growing number of public projects. 
+Sourcegraph's [GraphQL API](https://docs.sourcegraph.com/api/graphql), [custom search pages](https://sourcegraph.com/cncf) (on request), and other search and browsing features power a growing number of public projects.
 
 _Want to use Sourcegraph for your project but need help? Reach out to **TODO TODO**_
 
-## List of projects using Sourcegraph 
+## List of projects using Sourcegraph
 
 - [GitLab.com](https://gitlab.com/) uses Sourcegraph for [its code intelligence hovers](https://docs.gitlab.com/ee/integration/sourcegraph.html#sourcegraph-for-gitlabcom) on public code
 - [GitHub1s.com](https://github1s.com/) uses the Sourcegraph [GraphQL API](https://docs.sourcegraph.com/api/graphql) to power its search

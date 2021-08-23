@@ -39,14 +39,14 @@ spec:
       - min: 1
         max: 65535
   volumes:
-      - '*'
+    - '*'
   readOnlyRootFilesystem: true
-``` 
+```
 
 Save this yaml into `nonroot-policy.yaml` and add the policy to the cluster:
 
 ```shell script
-kubectl apply -f nonroot-policy.yaml 
+kubectl apply -f nonroot-policy.yaml
 ```
 
 From here on out we will do almost everything in a namespace. This is not strictly necessary (it works in the default namespace too)
@@ -77,7 +77,7 @@ We create a role for the pod security policy:
 
 ```shell script
 kubectl create role -n ns-sourcegraph nonroot:unprivileged --verb=use --resource=podsecuritypolicy --resource-name=nonroot-policy
-``` 
+```
 
 and then bind it to the fake user:
 
@@ -98,4 +98,3 @@ From here on you can impersonate the fake user by adding `--as=system:serviceacc
 ```shell script
 kubectl --as=system:serviceaccount:ns-sourcegraph:fake-user -n ns-sourcegraph get pods
 ```
-

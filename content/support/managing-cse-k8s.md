@@ -1,9 +1,8 @@
 # Managing CSE-GKE Kubernetes Instance
 
-
-Our Kubernetes(K8s) test instance is hosted on Google Kubernetes Engine (GKE) . 
-The instance was setup following the [instructions](https://docs.sourcegraph.com/admin/install/kubernetes) found on Sourcegraph.com. 
-To manage cloud resources and networking you must have access to Sourcegraph Google Cloud. 
+Our Kubernetes(K8s) test instance is hosted on Google Kubernetes Engine (GKE) .
+The instance was setup following the [instructions](https://docs.sourcegraph.com/admin/install/kubernetes) found on Sourcegraph.com.
+To manage cloud resources and networking you must have access to Sourcegraph Google Cloud.
 
 ## URL
 
@@ -11,7 +10,7 @@ You can access the instance by visiting [https://cse-k8s.sgdev.org/](https://cse
 
 ## Local Configuration
 
->WARNING: You are encouraged to use the GKE UI to acccess logs if you are not familiar with Kubernetes and Kubectl. Please see [here](https://sourcegraph.slack.com/archives/C01JR51JR5J/p1627511709407000?thread_ts=1627470003.341600&cid=C01JR51JR5J) for the URL to access logs.
+> WARNING: You are encouraged to use the GKE UI to acccess logs if you are not familiar with Kubernetes and Kubectl. Please see [here](https://sourcegraph.slack.com/archives/C01JR51JR5J/p1627511709407000?thread_ts=1627470003.341600&cid=C01JR51JR5J) for the URL to access logs.
 
 To access the CSE-GKE instance and run Kubernetes commands locally, you'll need to do the following:
 
@@ -20,9 +19,9 @@ To access the CSE-GKE instance and run Kubernetes commands locally, you'll need 
 3. Make sure you can access your cluster with kubectl by running the following command: ` kubectl config view`
 4. You should now have access to the CSE-GKE instance and run Kubernetes commands locally via kubectl.
 
->NOTE: The CSE-GKE instance is deployed to the `ns-sourcegraph` namespace. `beatrix-test` is the name of the cluster.
+> NOTE: The CSE-GKE instance is deployed to the `ns-sourcegraph` namespace. `beatrix-test` is the name of the cluster.
 
->WARNING: All your kubectl commands from now on are connected to the CSE-GKE Kubernetes Instance.
+> WARNING: All your kubectl commands from now on are connected to the CSE-GKE Kubernetes Instance.
 
 ## Upgrading CSE-GKE Kubernetes Instance
 

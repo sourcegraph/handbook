@@ -21,7 +21,7 @@ It is hard for developers to get good answers to API-related questions today, th
 - How do I use this API? Can I get a quick example?
 - How are other people using this API?
 
-We believe that API docs can address a missing step in the workflow of developers exploring open source libraries by providing in-context documentation and usage examples.  In addition it has the potential to create a powerful acquisition channel for Sourcegraph through strengthening our SEO.
+We believe that API docs can address a missing step in the workflow of developers exploring open source libraries by providing in-context documentation and usage examples. In addition it has the potential to create a powerful acquisition channel for Sourcegraph through strengthening our SEO.
 
 Today, we have an experimental version and we have built the LSIF infrastructure needed to create useful API docs and achieved a good level of technical validation in our ability to deliver rich docs and examples for Go and believe we can target that community to obtain value validation - in fact, because we have many Go developers at Sourcegraph we can get validation and early feedback internally.
 

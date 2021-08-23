@@ -3,6 +3,7 @@
 Google drive is the main repository for sales resources and the sales folder can be found [here](https://drive.google.com/drive/folders/17SzRMbyC1w7moCUMwm8bDt-veWUf3OrP)
 
 ## Frequently Requested Files
+
 - [Sourcegraph W9](https://drive.google.com/file/d/1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW/)
 - [Certificate of Incorporation](https://drive.google.com/u/0/uc?id=1q7AJT0k8Q5NJO5xN4v7iytaE3Gh6fYBb&export=download)
 - [Insurance Certificate](https://drive.google.com/u/0/uc?id=1fhzpOxJdu6EFhvv-36utwCibvm2o0lFj&export=download)
@@ -14,9 +15,9 @@ Please reach out to finance if you require assistance in completing the vendor o
 
 Sales templates for common use cases can be found in [Sales Template folder](https://drive.google.com/drive/folders/1eBfRzDDM-fonChy5kumN5m1aS-aZxlYM)
 
-### Cloning 
+### Cloning
 
-Please do not edit the templates directly -- create a copy and place it in a different location to work on.  Non-template files located in the Sales Template folder will be periodically relocated.
+Please do not edit the templates directly -- create a copy and place it in a different location to work on. Non-template files located in the Sales Template folder will be periodically relocated.
 
 ### Current Templates
 
@@ -33,13 +34,13 @@ The following templates are currently available:
 
 ### Updating Templates
 
-To update a template place the new template in the main Sales Template folder, name the file (beginning with the date format YYYY.MM.DD) then move the old template into the [Template Archive folder](https://drive.google.com/drive/folders/1iWmAocnXlNNXayN4E1ZB-J64I2-dgXGT).  Update the appropriate handbook link to the new template.
+To update a template place the new template in the main Sales Template folder, name the file (beginning with the date format YYYY.MM.DD) then move the old template into the [Template Archive folder](https://drive.google.com/drive/folders/1iWmAocnXlNNXayN4E1ZB-J64I2-dgXGT). Update the appropriate handbook link to the new template.
 
 ## Useful Links
 
- - [CE Account Ownership](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=0)
- - [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
- - [Order Form Reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing)
+- [CE Account Ownership](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=0)
+- [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
+- [Order Form Reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing)
 
 ## Customer Notes
 

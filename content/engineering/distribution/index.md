@@ -70,19 +70,19 @@ Find out [how we cover on-call](#on-call-Support).
 
 ### General questions
 
-  1. In [#distributioneers](https://sourcegraph.slack.com/archives/CJX299FGE), click the blue lightning bolt just below the Slack text field
-  2. At the top of the popup, select the type of request – "Ask a question"
-  3. Fill out the form!
-  4. Your responses will be posted in the channel, which is monitored by the member of the team on the support rotation ([see below](#how-we-cover-support-requests) for more info!)
-  5. We'll get back to you asap. But, if this is a **time sensitive question**, please tag `@distribution-support` in the thread in the channel.
+1. In [#distributioneers](https://sourcegraph.slack.com/archives/CJX299FGE), click the blue lightning bolt just below the Slack text field
+2. At the top of the popup, select the type of request – "Ask a question"
+3. Fill out the form!
+4. Your responses will be posted in the channel, which is monitored by the member of the team on the support rotation ([see below](#how-we-cover-support-requests) for more info!)
+5. We'll get back to you asap. But, if this is a **time sensitive question**, please tag `@distribution-support` in the thread in the channel.
 
 ### General support requests
 
-  1. In [#distributioneers](https://sourcegraph.slack.com/archives/CJX299FGE), click the blue lightning bolt just below the Slack text field
-  2. At the top of the popup, select the type of request – "Request support"
-  3. Fill out the form!
-  4. Your responses will be posted in the channel, which is monitored by the member of the team on the support rotation ([see below](#how-we-cover-support-requests) for more info!)
-  5. We'll get back to you asap. But, if this is a **time sensitive request**, please tag `@distribution-support` in the thread in the channel, or consider using the method outlined in ["Urgent customer incidents"](#urgent-customer-incidents) above if _really_ urgent.
+1. In [#distributioneers](https://sourcegraph.slack.com/archives/CJX299FGE), click the blue lightning bolt just below the Slack text field
+2. At the top of the popup, select the type of request – "Request support"
+3. Fill out the form!
+4. Your responses will be posted in the channel, which is monitored by the member of the team on the support rotation ([see below](#how-we-cover-support-requests) for more info!)
+5. We'll get back to you asap. But, if this is a **time sensitive request**, please tag `@distribution-support` in the thread in the channel, or consider using the method outlined in ["Urgent customer incidents"](#urgent-customer-incidents) above if _really_ urgent.
 
 ### How we cover support requests
 

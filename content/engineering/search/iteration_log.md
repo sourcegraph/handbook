@@ -8,9 +8,9 @@ This document contains the goals and work log for the search core team's 2-week 
 
 - **Owner(s):** $OWNER
 - **Outcomes:**
-    - $DESIRED_OUTCOME
+  - $DESIRED_OUTCOME
 - **Work log:**
-    - YYYY-MM-DD: $UPDATE
+  - YYYY-MM-DD: $UPDATE
 
 ## 2021-04-03 to 2021-05-14
 
@@ -22,12 +22,13 @@ This document contains the goals and work log for the search core team's 2-week 
 
 - **Owner(s):** Stefan, Keegan
 - **Outcomes:**
-    - Evaluate Solr and livegrep
+  - Evaluate Solr and livegrep
 - **Work log:**
-    - 2021-05-07: Found a promising setup with Solr. Content is not stored in the index, but instead repos stay stored on disk. Search retrieves tree-hashes of candidate documents, local searcher loads documents and runs regexp concurrently. Pros: smaller index, faster lookup, less network traffic. First results are promising. Will continue on Monday with more experiments.
-    - 2021-05-10: No updates from Keegan due to out of office. Keegan is on support, so instead will focus on other work (planning, misc tasks) which doesn't require deep focus. Intends to have a draft plan, which is our main deliverable from the research phase.
+  - 2021-05-07: Found a promising setup with Solr. Content is not stored in the index, but instead repos stay stored on disk. Search retrieves tree-hashes of candidate documents, local searcher loads documents and runs regexp concurrently. Pros: smaller index, faster lookup, less network traffic. First results are promising. Will continue on Monday with more experiments.
+  - 2021-05-10: No updates from Keegan due to out of office. Keegan is on support, so instead will focus on other work (planning, misc tasks) which doesn't require deep focus. Intends to have a draft plan, which is our main deliverable from the research phase.
 
 ### Misc
+
 - 2021-05-07 (Stefan): Support was very quiet this week.
   - Followed up on an old ticket [#291](https://github.com/sourcegraph/customer/issues/291): I wrote a small bash script to find a potential bad repo (Waiting for reply)
   - Apart from that I handled a request regarding confusion around '+' for filter chips (waiting for input from UX)[#20559](https://github.com/sourcegraph/sourcegraph/issues/20559)
@@ -40,9 +41,9 @@ This document contains the goals and work log for the search core team's 2-week 
 
 - **Owner(s):** Stefan
 - **Outcomes:**
-    - Validate Solr as possible search backend.
+  - Validate Solr as possible search backend.
 - **Work log:**
-    - 2021-04-23: Built a (CLI) prototype for code search based on a Solr backend. We could validate that it is feasable to support regexp search. The next question is to find out how Solr performs under realistic conditions and to compare the performance against zoekt.
+  - 2021-04-23: Built a (CLI) prototype for code search based on a Solr backend. We could validate that it is feasable to support regexp search. The next question is to find out how Solr performs under realistic conditions and to compare the performance against zoekt.
 
 ## 2021-04-05 to 2021-04-16
 
@@ -50,20 +51,20 @@ This document contains the goals and work log for the search core team's 2-week 
 
 - **Owner(s):** Ryan
 - **Outcomes:**
-    - Search results are ordered by a global importance metric.
+  - Search results are ordered by a global importance metric.
 - **Work log:**
-    - 2021-04-09: RFC 359 released & reviewed
-    - Implement Github popularity ranking for open source search.
-      - 2021-04-09: modified repoupdater and zoekt indexservers to compute the popularity of each repo and store it as part of each shard’s metadata.
+  - 2021-04-09: RFC 359 released & reviewed
+  - Implement Github popularity ranking for open source search.
+    - 2021-04-09: modified repoupdater and zoekt indexservers to compute the popularity of each repo and store it as part of each shard’s metadata.
 
 ### Exhaustive Search
 
 - **Owner(s):** Keegan, Stefan
 - **Outcomes:**
-    - Ready for external use.
+  - Ready for external use.
 - **Work log:**
-    - 2021-04-09: Descoped to remove result count work. Zoekt scheduler landed and tested. `count:all` landed. Next week we will do polish work, testing and documentation for exhaustive search.
-    - 2021-04-16: Lots of testing and polish work. Documentation also shipped. I regard this as ready for external use. May need some time to respond to internal testing next week.
+  - 2021-04-09: Descoped to remove result count work. Zoekt scheduler landed and tested. `count:all` landed. Next week we will do polish work, testing and documentation for exhaustive search.
+  - 2021-04-16: Lots of testing and polish work. Documentation also shipped. I regard this as ready for external use. May need some time to respond to internal testing next week.
 
 ### Customer Support
 

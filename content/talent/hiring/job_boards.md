@@ -12,6 +12,7 @@ We welcome suggestions for more places that we can post!
 - [Blind] Coming soon
 
 ## Additional job boards and coding bootcamps we have posted to in the past:
+
 - [Melanin.tech](https://melanin.tech/)
 - [Support Driven](https://supportdriven.com/)
 - [General Assembly](https://generalassemb.ly/)
@@ -20,6 +21,7 @@ We welcome suggestions for more places that we can post!
 - [PDXWIT](https://www.pdxwit.org/). Portland Oregon Women in Tech.
 
 ## Job boards we will consider in the future:
+
 We want to make sure our job postings reach a wide audience and that we're posting in multiple places without a large overlap in members from our existing job postings.
 
 - https://www.include.io/for-companies

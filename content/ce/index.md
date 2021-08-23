@@ -14,21 +14,17 @@ CEs are both "pre-sales" and "post-sales" because the moment that a sale occurs 
 
 This continuity means we give customers consistent and high-quality service from the moment we meet them. We minimize handoffs, which is good for customers and helps our team take pride in seeing their work through.
 
-
 ---
-
 
 ## References
 
-* [Current Team Members](#current-team-members)
-* [Open roles - Join us!](#open-roles)
-* [CE Education](education.md)
-* [New CE Onboarding](onboarding.md)
-* [Team Culture](team-culture.md)
-* [Working with Customers](working-with-customers.md)
-* [Career Growth](career-growth.md)
-
-
+- [Current Team Members](#current-team-members)
+- [Open roles - Join us!](#open-roles)
+- [CE Education](education.md)
+- [New CE Onboarding](onboarding.md)
+- [Team Culture](team-culture.md)
+- [Working with Customers](working-with-customers.md)
+- [Career Growth](career-growth.md)
 
 ## Current Team Members
 
@@ -39,30 +35,27 @@ This continuity means we give customers consistent and high-quality service from
 - FQ3 CE Director, Americas
 - [FQ3 CE Manager, Americas](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
 - International - EMEA & APAC
-   - [Ajay Sridhar](../company/team/index.md#ajay-sridhar-he-him)
-   - [Elzanne Wentzel](../company/team/index.md#elzanne-wentzel-she-her)
-   - [FQ3 CE (Singapore)](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
+  - [Ajay Sridhar](../company/team/index.md#ajay-sridhar-he-him)
+  - [Elzanne Wentzel](../company/team/index.md#elzanne-wentzel-she-her)
+  - [FQ3 CE (Singapore)](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - Americas - US West
-    - [David Rohnow](../company/team/index.md#david-rohnow-he-him)
-    - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
-    - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
-    - [Manuel Ucles](../company/team/index.md#manuel-ucles)
-    - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
-    - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
-    - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
+  - [David Rohnow](../company/team/index.md#david-rohnow-he-him)
+  - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
+  - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
+  - [Manuel Ucles](../company/team/index.md#manuel-ucles)
+  - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
+  - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
+  - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
 - Americas - US East
-    - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
-    - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
-    - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
-    - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
-    - [Shawn King](../company/team/index.md#shawn-king-he-him)
-    - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-
-
+  - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
+  - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
+  - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
+  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
+  - [Shawn King](../company/team/index.md#shawn-king-he-him)
+  - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
 
 ## Open Roles
 
 - [Customer Engineer - Remote, US](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
 - [Customer Engineer - Remote, Singapore](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - [Manager, Customer Engineering - Remote, US](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
-

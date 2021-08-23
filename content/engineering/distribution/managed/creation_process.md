@@ -4,7 +4,7 @@ Creating a new managed instance involves following the steps below.
 
 1. Create a issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
-    - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details
+   - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Set variables:
    - `export VERSION=vMAJOR.MINOR.PATH`
@@ -24,10 +24,10 @@ Creating a new managed instance involves following the steps below.
 1. Confirm all containers come up healthy (`docker ps` should report them as such)
 1. Create a PR for review.
 1. Create admin credentials in 1password:
-    - Open the 1password [Managed instances vault](https://my.1password.com/vaults/l35e5xtcfsk5suuj4vfj76hqpy/allitems) (ask @stephen, @bill, or @beyang to grant you access)
-    - **Add** > **Login** > enter **$COMPANY sourcegraph-admin** as the title
-      - **User:** `managed+$COMPANY@sourcegraph.com`
-      - **Password:** Change **length** to 40 and turn on symbols and digits > **Save**
+   - Open the 1password [Managed instances vault](https://my.1password.com/vaults/l35e5xtcfsk5suuj4vfj76hqpy/allitems) (ask @stephen, @bill, or @beyang to grant you access)
+   - **Add** > **Login** > enter **$COMPANY sourcegraph-admin** as the title
+     - **User:** `managed+$COMPANY@sourcegraph.com`
+     - **Password:** Change **length** to 40 and turn on symbols and digits > **Save**
 1. Access the Sourcegraph web UI ([instructions for port-forwarding](operations.md#port-forwarding-direct-access-to-caddy-jaeger-and-grafana))
 1. Set up the initial admin account (for use by the Sourcegraph team only)
    - Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
@@ -40,16 +40,16 @@ Creating a new managed instance involves following the steps below.
 1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](#access-through-the-gcp-load-balancer-as-a-user-would).
 1. In the site configuration, configure alerting to go to our `#alerts-managed-instances` Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
    ```
-		"observability.alerts": [
-			{
-				"level": "critical",
-				"notifier": {
-					"type": "slack",
-					"username": "$COMPANY",
-					"url": "$WEBHOOK_URL"
-				}
-			},
-		],
+   	"observability.alerts": [
+   		{
+   			"level": "critical",
+   			"notifier": {
+   				"type": "slack",
+   				"username": "$COMPANY",
+   				"url": "$WEBHOOK_URL"
+   			}
+   		},
+   	],
    ```
 1. Add an entry for the customer by adding their HubSpot link to the checklist in the [managed instances upgrade issue template](../../releases/upgrade_managed_issue_template.md).
 1. Contact #ce and ask that they generate / provide the relevant license key for the customer's instance, then set it in the site config.

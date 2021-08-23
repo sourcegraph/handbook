@@ -31,7 +31,7 @@ Please include the following content in your update:
 We're experimenting with showing short (<1m) demo videos (max 1 per week) during company meeting. If your team ships something that would make a great demo, send an update to engineering-team-status@ to let us know. Requirements:
 
 - 1 minute or less
-- Recorded 
+- Recorded
 - Voiceover that explains the problem that the feature solves and which specific customers had that problem
 - Just show a demo of the actual product as if you were showing a friend, you don't need to have slides or anything
 - Example:
@@ -49,7 +49,7 @@ Here are some books that multiple people on the team have read and recommend. If
 - [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756) - A model of how to think about what makes a highly effective team paired with a fictional story that illustrates the model.
 - [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) ([facilitated small group discussions](../support/support-values-enablement.md#part-2-deep-dive-on-be-welcoming-and-inclusive).
 
-## Promotion and compensation increase requests  
+## Promotion and compensation increase requests
 
 Refer to the [promotion request](career-development/talent-review-process.md#promotion-requests) and [compensation increase](career-development/talent-review-process.md#compensation-increase-requests) process information.
 
@@ -62,10 +62,11 @@ For teammates pursuing an Engineering Manager role but who lack the necessary pe
 Teammates who have reached the [IC3 level](career-development/framework.md#ic3) and have a track record of good performance at Sourcegraph, having been employed for at least six months, are eligible for a manager in training trial.
 The teammate should make their desire clear to their Engineering Manager so that when a relevant opportunity becomes available, they may be considered.
 
-Opportunities for a manager in training trial can come about through a current Engineering Manager position becoming vacant, an existing team splitting into two, or an Engineering Manager going on long-term PTO. 
+Opportunities for a manager in training trial can come about through a current Engineering Manager position becoming vacant, an existing team splitting into two, or an Engineering Manager going on long-term PTO.
 When an opportunity arises, the teammate's manager can nominate them for a manager in training trial to the Director of Engineering for the relevant org.
 
 There are some considerations to keep in mind to ensure that the teammate is set up for success:
+
 - The teammate's existing team should be in a position for them not to be involved as an IC for the whole duration of the trial period. Managers in training should not fulfill a dual role.
 - The team to be managed should comply with our [minimum viable team](eng_org.md#minimum-viable-team) criteria.
 - The team to be managed should have a dedicated and established Product Manager assigned to it.
@@ -75,7 +76,7 @@ There are some considerations to keep in mind to ensure that the teammate is set
 
 During the trial period, the manager in training will assume full Engineering Manager responsibility as outlined in the [Engineering Manager responsibilities](roles.md#engineering-manager).
 
-The teammate's manager, director, or another nominated manager/director will become their sponsoring manager for the duration of the trial period. The sponsoring manager must commit to providing extra support to the manager in training during the trial period, which will last 12 weeks. 
+The teammate's manager, director, or another nominated manager/director will become their sponsoring manager for the duration of the trial period. The sponsoring manager must commit to providing extra support to the manager in training during the trial period, which will last 12 weeks.
 The trial period may be extended if agreed to by the manager in training and the sponsoring manager. However, the trial period should not be extended to more than 16 weeks.
 
 The sponsoring manager will give the manager in training active coaching and feedback during weekly 1-1s and conduct bi-weekly 1-1s with the manager in training's direct reports to collect feedback and set them up for success.

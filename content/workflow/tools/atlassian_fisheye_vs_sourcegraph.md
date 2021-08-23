@@ -8,11 +8,11 @@ Sourcegraph is a good replacement for Fisheye as a code search tool when the pri
 
 ## Pros
 
-* Tight integration with the Atlassian suite of products, especially with builds from Atlassian Bamboo
-* Perforce support (as well as Git, Subversion, Mercurial, and CVS)
+- Tight integration with the Atlassian suite of products, especially with builds from Atlassian Bamboo
+- Perforce support (as well as Git, Subversion, Mercurial, and CVS)
 
 ## Cons
 
-* Common developer sentiment: "It feels like Fisheye’s code search is for managers to report on changes, not for developers in their daily workflow"
-* Poor integration with GitHub and GitLab
-* Deprioritized by Atlassian, with [only infrequent and minor feature releases](https://confluence.atlassian.com/fisheye/fisheye-releases-960155725.html)
+- Common developer sentiment: "It feels like Fisheye’s code search is for managers to report on changes, not for developers in their daily workflow"
+- Poor integration with GitHub and GitLab
+- Deprioritized by Atlassian, with [only infrequent and minor feature releases](https://confluence.atlassian.com/fisheye/fisheye-releases-960155725.html)

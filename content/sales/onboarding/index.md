@@ -10,7 +10,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - Salesforce
   - LinkedIn Sales Naviagtor
   - Chorus
-    -  Note:  To properly use Chorus make sure you are signed in to Zoom (You can use Zoom without being logged in, but Chorus may not work properly, so it is good to double check).  You also need to be signed in to stop Chorus from recording if requested from a customer.  Also see [this link for additional details on stopping Chorus recordings.](https://docs.chorus.ai/hc/en-us/articles/360051549574-How-can-I-stop-recording-or-turn-recording-off-for-a-call-)
+    - Note: To properly use Chorus make sure you are signed in to Zoom (You can use Zoom without being logged in, but Chorus may not work properly, so it is good to double check). You also need to be signed in to stop Chorus from recording if requested from a customer. Also see [this link for additional details on stopping Chorus recordings.](https://docs.chorus.ai/hc/en-us/articles/360051549574-How-can-I-stop-recording-or-turn-recording-off-for-a-call-)
   - Docusign
   - Sendoso
   - Outreach (Optional)
@@ -45,24 +45,28 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 ## Key targets for onboarding reps
 
 ### First 30 days
- - Pass the Demo certification
- - Pass the Pitch certification
- - Finalize your Target Account list with your manager
- - Establish an Outbound Propsecting Plan for 5 Target Accounts
+
+- Pass the Demo certification
+- Pass the Pitch certification
+- Finalize your Target Account list with your manager
+- Establish an Outbound Propsecting Plan for 5 Target Accounts
 
 ### 30-60 Days
-  - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
-  - Added 3 Qualified Opportunities to your pipeline in Salesforce
-  - Build a Strategic Account Plan for top Target Account
+
+- Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+- Added 3 Qualified Opportunities to your pipeline in Salesforce
+- Build a Strategic Account Plan for top Target Account
 
 ### 60-90 Days
-  - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
-  - Add 3 additional Qualified Opportunities to your pipeline in Salesforce
-  - Advance 2 opportunities into Technical and Business Validation
+
+- Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+- Add 3 additional Qualified Opportunities to your pipeline in Salesforce
+- Advance 2 opportunities into Technical and Business Validation
 
 ### 90-180 Days
-  - Complete 20 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
-  - $187k of Closed/Won IARR
+
+- Complete 20 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+- $187k of Closed/Won IARR
 
 ## Other helpful links
 

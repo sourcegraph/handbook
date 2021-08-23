@@ -34,7 +34,6 @@
 - [How engineering is organized](eng_org.md).
 - [Roles and responsibilities](roles.md)
 
-
 ## Communication
 
 For a list of engineering relevant Slack channels to join see the [team chat](../communication/team_chat.md#engineering) page in the handbook.

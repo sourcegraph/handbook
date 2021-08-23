@@ -10,16 +10,16 @@ Self-hosted deployments will use one of these three options, unless customers us
 
 ## Self hosted vs. managed instances
 
-The majority of our customers use a self-hosted instance—Sourcegraph is deployed to servers they control, using one of the three options listed in the previous section. However, for Enterprise customers, we do also offer the option for a managed instance. 
+The majority of our customers use a self-hosted instance—Sourcegraph is deployed to servers they control, using one of the three options listed in the previous section. However, for Enterprise customers, we do also offer the option for a managed instance.
 
-In a managed instance, we deploy Sourcegraph *for* the customer, in an isolated instance in our Google Cloud environment. (It's a single-tenant cloud.) We control installing it and upgrading it, but it’s segregated from any other instance. We charge a fee on top of their license fee to cover costs (based on lines of code, since the size of the git repo controls how much disk space we need to provision, which controls how much the instance costs us). Managed instances are controlled by the Distribution team. 
+In a managed instance, we deploy Sourcegraph _for_ the customer, in an isolated instance in our Google Cloud environment. (It's a single-tenant cloud.) We control installing it and upgrading it, but it’s segregated from any other instance. We charge a fee on top of their license fee to cover costs (based on lines of code, since the size of the git repo controls how much disk space we need to provision, which controls how much the instance costs us). Managed instances are controlled by the Distribution team.
 
-Managed instances are all currently docker-compose deployments, and as such are not technically high-availability. They can scale to the largest machine GCP offers, so they can be used by all but the very largest enterprises. [More info from Distribution](../engineering/distribution/managed.md). 
+Managed instances are all currently docker-compose deployments, and as such are not technically high-availability. They can scale to the largest machine GCP offers, so they can be used by all but the very largest enterprises. [More info from Distribution](../engineering/distribution/managed.md).
 
-Managed instances are only available to Enterprise customers. 
+Managed instances are only available to Enterprise customers.
 
 ## Cloud/dotcom
 
 Sourcegraph.com has two purposes. Users can sign up to it for free, and view public code that we’ve indexed. It’s also where employees manage license keys.
 
-Right now, it’s not possible for users to store private code on dotcom; this is slated to change in Q2 of 2021. All users are free users. Long term, we plan to offer the option for customers to store private code on dotcom, and to pay us to do so. Essentially, this would offer some of the benefits of a managed instance to customers that are too small for the Enterprise plan. (Unlike hosted instances, these would not be segregated instances—dotcom is a single instance, so this is a multitenant cloud.) Right now, however, this isn’t available. 
+Right now, it’s not possible for users to store private code on dotcom; this is slated to change in Q2 of 2021. All users are free users. Long term, we plan to offer the option for customers to store private code on dotcom, and to pay us to do so. Essentially, this would offer some of the benefits of a managed instance to customers that are too small for the Enterprise plan. (Unlike hosted instances, these would not be segregated instances—dotcom is a single instance, so this is a multitenant cloud.) Right now, however, this isn’t available.

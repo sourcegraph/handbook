@@ -16,7 +16,7 @@ We use the [monthly release blog post](https://about.sourcegraph.com/blog) as a 
 
 ### Local development of documentation only
 
-For local development of documentation, clone the main [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/).  The development environment for Sourcegraph, detailed in [Getting started with developing Sourcegraph](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md), is not required.
+For local development of documentation, clone the main [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/). The development environment for Sourcegraph, detailed in [Getting started with developing Sourcegraph](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md), is not required.
 
 After saving any changes or updates, documentation can be previewed locally with the following commands:
 

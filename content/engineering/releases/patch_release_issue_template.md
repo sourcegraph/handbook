@@ -52,10 +52,11 @@ git push origin $MAJOR.$MINOR
 Create and test the first release candidate:
 
 - [ ] Push a release candidate tag:
-    ```sh
-    N=1 yarn release release:create-candidate $N
-    ```
+  ```sh
+  N=1 yarn release release:create-candidate $N
+  ```
 - [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.1` tag:
+
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
   - [ ] [QA pipeline](https://buildkite.com/sourcegraph/qa/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
   - [ ] [E2E pipeline](https://buildkite.com/sourcegraph/e2e/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
@@ -74,9 +75,9 @@ Create and test the first release candidate:
 
 - [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on `main` and `$MAJOR.$MINOR` are accurate.
 - [ ] Tag the final release:
-    ```sh
-    yarn release release:create-candidate final
-    ```
+  ```sh
+  yarn release release:create-candidate final
+  ```
 - [ ] Ensure that the following pipelines all pass for the `v$MAJOR.$MINOR.$PATCH` tag:
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH)
   - [ ] [QA pipeline](https://buildkite.com/sourcegraph/qa/builds?branch=v$MAJOR.$MINOR.$PATCH)

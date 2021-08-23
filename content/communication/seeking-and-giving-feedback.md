@@ -6,10 +6,10 @@ Seeking and acting on feedback is crucial for making good decisions and deliveri
 
 When seeking feedback at Sourcegraph, it's important to:
 
-- Specifically say what *kind* of feedback you're seeking. A thumbs-up, thumbs-down? A gut call on the better of two approaches? A detailed critique?
-- Ask *specific questions* that you want feedback about.
-- Provide *context*. Make sure the specific problem and goal is clear.
-- State *where* you want the feedback, if that's not where you're requesting it. Example: you're requesting feedback in Slack but state that you want comments in a Figma rather than a threaded Slack reply. 
+- Specifically say what _kind_ of feedback you're seeking. A thumbs-up, thumbs-down? A gut call on the better of two approaches? A detailed critique?
+- Ask _specific questions_ that you want feedback about.
+- Provide _context_. Make sure the specific problem and goal is clear.
+- State _where_ you want the feedback, if that's not where you're requesting it. Example: you're requesting feedback in Slack but state that you want comments in a Figma rather than a threaded Slack reply.
 - Seek feedback according to [project roles](#project-roles).
 - After receiving feedback, follow up. Recognize contributions and share how you will move forward.
 

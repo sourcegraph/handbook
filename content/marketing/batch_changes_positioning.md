@@ -1,4 +1,4 @@
-# Batch Changes messaging and positioning 
+# Batch Changes messaging and positioning
 
 ## Overview
 
@@ -12,7 +12,7 @@
 
 Sourcegraph Batch Changes enables developers to automate and manage large-scale code changes across all of their repositories and code hosts.
 
-### Value driver: Accelerate developer velocity 
+### Value driver: Accelerate developer velocity
 
 #### Pains
 
@@ -36,7 +36,7 @@ When developers need to make changes across multiple repositories or workspaces:
 
 ## Personas
 
-- **Engineering leadership:** Efficiency gains; accelerate developer velocity 
+- **Engineering leadership:** Efficiency gains; accelerate developer velocity
 - **Infrastructure, platform and framework teams:** Getting other teams to make changes is really hard and time consuming
 - **Site reliability engineers:** Deploy & maintain services across hundreds of repos
 - **Security engineers:** Faster updates = less risk
@@ -46,10 +46,10 @@ When developers need to make changes across multiple repositories or workspaces:
 
 - **Security:** When problems occur with critical security updates, every hour that goes by increases risk. Batch Changes enables you to find any place where vulnerabilities exist and then refactor code to replace insecure functions, update vulnerable packages, or modify container configurations across hundreds of repositories.
 - **Configuration:** Quickly edit every CI, build, and other configuration files to make changes such as altering steps, migrating versions or changing base images.
-- **Refactoring:** Use language-aware tooling of your choice to perform complex refactors like updating an API and its function calls or replacing libraries entirely. 
-- **Ship Breaking changes:** When updating boilerplate code, internal libraries, or frameworks across a company, use Batch Changes to rollout the upgrade to all consumer repositories. 
+- **Refactoring:** Use language-aware tooling of your choice to perform complex refactors like updating an API and its function calls or replacing libraries entirely.
+- **Ship Breaking changes:** When updating boilerplate code, internal libraries, or frameworks across a company, use Batch Changes to rollout the upgrade to all consumer repositories.
 
-## Discovery 
+## Discovery
 
 When talking to a platform, infrastucture or developer experience team, or as a starting point:
 
@@ -74,8 +74,6 @@ If the developer does not know, default to:
 ### Interview guides
 
 How to have fruitful conversations with:
- 
+
 - [Customers with existing in-house tooling](https://docs.google.com/document/d/1MuPIUh9Hr7hR3eWsa_uyeZpyA9N_-G4xPJaywvidZeU)
 - [Customers with monorepos](https://docs.google.com/document/d/1jtDzkpTLer3Fbt__-SRB6RmFuo2YRuBFmyUSZ-H1A6I)
-
-

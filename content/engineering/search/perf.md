@@ -26,10 +26,11 @@ Underlined in red is the instrumentation we added:
 ![image](https://user-images.githubusercontent.com/187831/93611008-08890c80-f9ce-11ea-8613-a8802725acd8.png)
 
 Breaking down the above example which searches over 100k repos:
+
 - `resolveRepositories` fetches the list of repos to search from the database and resolves them against branch queries. In this example Sourcegraph.com copies an in memory cache of the list, and then creates the RepositoryRevision list. This takes 40ms.
 - `newIndexedSearchRequest` is the most significant chunk of
-time. It took 115ms. This decides which repos can go to zoekt vs
-searcher.
+  time. It took 115ms. This decides which repos can go to zoekt vs
+  searcher.
 - `zoekt.Search` indicates the RPC layer takes 40ms. We added logging to confirm 21ms is spent marshalling. Noticing when zoekt actually starts searching, there is another 20ms to unmarshal. This large cost is due to sending a list of all repos to search.
 - `shardedSearcher` is the actual search logic on zoekt. It only took 31ms (but is sharded out over 12 nodes).
 

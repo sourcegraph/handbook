@@ -22,36 +22,37 @@ This is the inspirational end game state for Batch Changes in 3 years:
 
 Users can focus on changing their code because Batch Changes provides the plumbing:
 
-* Finding the correct repositories in which to run code
-* Fetching the newest version of each repository
-* Running code in each repository
-* Turn the result into patches
-* Create pull requests from patches
-* Draft, keep track of and update a large number of pull requests
-* Re-running code when the base branch changes
+- Finding the correct repositories in which to run code
+- Fetching the newest version of each repository
+- Running code in each repository
+- Turn the result into patches
+- Create pull requests from patches
+- Draft, keep track of and update a large number of pull requests
+- Re-running code when the base branch changes
 
 Users provide the code to make the change, we provide the plumbing to turn it into a large-scale change and monitor its progress.
 
-* We take care of all the bits and pieces that would rob users of their time and that are not essential to the change they want to make.
-* We don't try to come up with fancy and seemingly magic ways of changing code (i.e. high-level tools to refactor code) before we get the fundamentals right (running users' code in thousands of repositories and turning that into thousands of pull requests).
-* We don't interfere with the code that produces a change. We provide the infrastructure to run it across all of your repositories and turn it into a large-scale code change.
+- We take care of all the bits and pieces that would rob users of their time and that are not essential to the change they want to make.
+- We don't try to come up with fancy and seemingly magic ways of changing code (i.e. high-level tools to refactor code) before we get the fundamentals right (running users' code in thousands of repositories and turning that into thousands of pull requests).
+- We don't interfere with the code that produces a change. We provide the infrastructure to run it across all of your repositories and turn it into a large-scale code change.
 
 ## Goals and priorities
 
 See our [goals and priorities](goals.md)
 
 ## Metrics
+
 We track and report anonymous, non-specific, aggregate metrics from Sourcegraph instances as defined in [pings](https://docs.sourcegraph.com/admin/pings).
 
 ### Key success metrics
+
 We track success metrics in a (private) [Looker dashboard](https://sourcegraph.looker.com/dashboards-next/174)
 
-| Outcome                                             | Metric
-|----------------------------------------------------|------------------------------------------------------------------------ |
-| Are developers using Batch Changes?                 | number of batch changes created, number of changesets published        |
-| Are batch changes successful?                       | merge rate of batch changes (changesets merged / changesets published) |
-| Is Batch Changes being adopted [broadly](#Vision)?  | number of monthly contributors and MAUs                                |
-
+| Outcome                                            | Metric                                                                 |
+| -------------------------------------------------- | ---------------------------------------------------------------------- |
+| Are developers using Batch Changes?                | number of batch changes created, number of changesets published        |
+| Are batch changes successful?                      | merge rate of batch changes (changesets merged / changesets published) |
+| Is Batch Changes being adopted [broadly](#Vision)? | number of monthly contributors and MAUs                                |
 
 ### Definitions
 
@@ -70,39 +71,40 @@ When I create a batch change to make large-scale code changes I want to _focus o
 
 ## Process
 
-* We prioritize our work in [this project](https://github.com/orgs/sourcegraph/projects/119). It is the responsibility of the PM and EM to keep this updated and correct.
+- We prioritize our work in [this project](https://github.com/orgs/sourcegraph/projects/119). It is the responsibility of the PM and EM to keep this updated and correct.
 
-* Each day, Slack reminds us to do our text check-in, which consists of a *short* message (it shouldn't take longer than a minute to write) in the reminder's thread. This should be a recap of what we have finished that day.
+- Each day, Slack reminds us to do our text check-in, which consists of a _short_ message (it shouldn't take longer than a minute to write) in the reminder's thread. This should be a recap of what we have finished that day.
 
-* One Big Thing: Each sprint, each engineer gets one big thing to work on — one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning project](https://github.com/orgs/sourcegraph/projects/119) into the current sprint to work on (or P1 if there are no P0s).
+- One Big Thing: Each sprint, each engineer gets one big thing to work on — one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning project](https://github.com/orgs/sourcegraph/projects/119) into the current sprint to work on (or P1 if there are no P0s).
 
-* Invariants and assumptions:
-  * Issues have the current milestone set if-and-only-if they are P0.
-  * An issue assigned to an engineer means that engineer is committing to finishing *in the current sprint*. Issues should be unassigned by default.
+- Invariants and assumptions:
+  - Issues have the current milestone set if-and-only-if they are P0.
+  - An issue assigned to an engineer means that engineer is committing to finishing _in the current sprint_. Issues should be unassigned by default.
 
 ### Sprint planning
 
 Our two-week sprints start every other Wednesday. We follow this process:
 
-* Before the iteration (sprint N+1) begins, we do pre-planning to make the most of our the planning meeting:
-  * EM creates the milestone for sprint N+1.
-  * EM checks for [untracked issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+no%3Aproject+label%3Ateam%2Fbatchers) and adds them to the "Needs prioritization" column of [our planning project](https://github.com/orgs/sourcegraph/projects/119).
-  * Everyone on the team looks through our planning project for any issues they do not expect to finish by the end of the sprint (EOD Tuesday), and set the next sprint's milestone.
-  * Engineers add/refine estimates to issues in the planning project. All estimates in GitHub are assumed to be upper-bound estimates. (A missing estimate means "between 1 second and 1 trillion years.")
-  * Everyone on the team reviews our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) for the current/next release.
+- Before the iteration (sprint N+1) begins, we do pre-planning to make the most of our the planning meeting:
 
-* We then have our planning meeting to determine our common goals for the iteration. The process for this is described in our [agenda doc](https://docs.google.com/document/d/1d4_WndknEd23BNUFG05-KEV4pq2MNx8mdZedVnZpLCg/edit#).
+  - EM creates the milestone for sprint N+1.
+  - EM checks for [untracked issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+no%3Aproject+label%3Ateam%2Fbatchers) and adds them to the "Needs prioritization" column of [our planning project](https://github.com/orgs/sourcegraph/projects/119).
+  - Everyone on the team looks through our planning project for any issues they do not expect to finish by the end of the sprint (EOD Tuesday), and set the next sprint's milestone.
+  - Engineers add/refine estimates to issues in the planning project. All estimates in GitHub are assumed to be upper-bound estimates. (A missing estimate means "between 1 second and 1 trillion years.")
+  - Everyone on the team reviews our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) for the current/next release.
 
-* After sprint planning, the team has a retro to discuss how the previous sprint went, and what changes we might want to our working agreements.
+- We then have our planning meeting to determine our common goals for the iteration. The process for this is described in our [agenda doc](https://docs.google.com/document/d/1d4_WndknEd23BNUFG05-KEV4pq2MNx8mdZedVnZpLCg/edit#).
+
+- After sprint planning, the team has a retro to discuss how the previous sprint went, and what changes we might want to our working agreements.
 
 ## Working Agreements
 
-* To avoid siloing of knowledge and to keep teammates happy, we make sure that everyone gets a chance to work in different areas of the codebase. In particular, we don't want tasks in area X to always default to person P.
-* We do not schedule team meetings on Fridays. (Folks are free to pair on Fridays if they want.)
-* We do not scramble to get last-minute changes in before branch-cut. (If it's a blocking issue, there's [a process for that](https://about.sourcegraph.com/handbook/engineering/releases#issues).)
-* If there is no agenda in our sync doc for our Wednesday and Thursday syncs by 5 minutes before the meeting starts, the meeting is automatically cancelled.
-* If a process isn't serving us, we are quick to shut it down.
-* We aim to improve the developer experience of working on the Batch Changes and the larger Sourcegraph codebase as we work on it. We do that by allowing ourselves to set aside time to implement improvements if we see a chance to do so. For example: it's okay to spend half a day improving our test tooling if we know that it will make things easier for us and others in the future.
+- To avoid siloing of knowledge and to keep teammates happy, we make sure that everyone gets a chance to work in different areas of the codebase. In particular, we don't want tasks in area X to always default to person P.
+- We do not schedule team meetings on Fridays. (Folks are free to pair on Fridays if they want.)
+- We do not scramble to get last-minute changes in before branch-cut. (If it's a blocking issue, there's [a process for that](https://about.sourcegraph.com/handbook/engineering/releases#issues).)
+- If there is no agenda in our sync doc for our Wednesday and Thursday syncs by 5 minutes before the meeting starts, the meeting is automatically cancelled.
+- If a process isn't serving us, we are quick to shut it down.
+- We aim to improve the developer experience of working on the Batch Changes and the larger Sourcegraph codebase as we work on it. We do that by allowing ourselves to set aside time to implement improvements if we see a chance to do so. For example: it's okay to spend half a day improving our test tooling if we know that it will make things easier for us and others in the future.
 
 ## Team Communication
 

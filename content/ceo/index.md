@@ -8,7 +8,6 @@ My personal site is [slack.org](https://slack.org).
 
 ### Spread code search
 
-
 We want to grow the number of people who use Sourcegraph. This is a leading indicator of progress toward our mission to make it so everyone can code.
 
 ### Grow revenue
@@ -69,7 +68,7 @@ How the interview will usually go:
 1. I'll say hello and do some small talk to build rapport. If you don't like small talk, feel free to tell me that and cut me off. :)
 1. I will describe my agenda for the call. If you have another agenda in mind, just say so.
    - "First, I'd like to share why we started Sourcegraph and got to this point, so you know what you'd be joining."
-   - "After that, I would like to talk about `__________` *(areas of discussion I decided on from my review)*."
+   - "After that, I would like to talk about `__________` _(areas of discussion I decided on from my review)_."
    - "I want to leave time at the end for any questions you have. Would you prefer to cover your questions now, or at the end?"
      - I don't like putting candidates on the spot for questions ("Do you have any questions for me right now?"), so I tell them in advance that they will have time for questions and give them the option (but not requirement) to ask immediately.
      - Most candidates do have thoughtful questions. If you are nervous because you aren't sure what to ask, then just ask to discuss topics that you care about, even if they aren't questions per se. I do want to see you engaging in the interview and don't want it to be 1-way.

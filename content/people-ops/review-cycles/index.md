@@ -1,7 +1,7 @@
 # Review cycles
 
-* [How to get the most out of review cycles](tips.md)
-* [Resources and guides for reviewers](resources.md)
+- [How to get the most out of review cycles](tips.md)
+- [Resources and guides for reviewers](resources.md)
 
 ## Why we do review cycles
 
@@ -18,6 +18,7 @@ If you joined Sourcegraph within the last month, many of the questions in the re
 Review cycles take place in March and September. They begin the first week of each of those months, and last for two weeks.
 
 ## 360 review cycle stages
+
 (All days exclude weekends)
 
 ### Peer selection (2 days)

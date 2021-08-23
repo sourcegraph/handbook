@@ -1,10 +1,8 @@
 ---
-title: "Sourcegraph {VERSION}: {TITLE}"
-author: {AUTHOR}
+title: 'Sourcegraph {VERSION}: {TITLE}'
+author: { AUTHOR }
 publishDate: 2020-MM-20T10:00-07:00
-tags: [
-  blog
-]
+tags: [blog]
 slug: sourcegraph-{VERSION}
 heroImage: https://about.sourcegraph.com/sourcegraph-mark.png
 published: false

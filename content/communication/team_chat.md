@@ -24,9 +24,9 @@ Exceptions:
 
 1. When using Slack for work-related purposes, avoid private messages. [Private messages discourage collaboration](https://blog.flowdock.com/2014/04/30/beware-of-private-conversations/). You might actually be contacting the wrong person, and they cannot easily redirect you to the right person. If the person is unavailable at the moment, it is less efficient because other people can't jump in and help. Use a public channel and mention the person or group you want to reach. This ensures it is easy for other people to chime in, involve other people if needed, and learn from whatever is discussed.
 1. If someone sends you a work-related private message, it is OK to let them know you'd like to take the conversation to a public channel, linking to this section of the handbook. The process might look something like:
-    - In the private message: <code>Thanks for reaching out. That's a great question/idea that I think the rest of the team could benefit from. I'm going to move this to #public-channel based on [our desire to avoid private messages](#avoid-private-messages).</code>
-    - In the appropriate public channel: `@person asked "question" in a DM, pulling that out here if anyone else has input.`
-    - Answer the question in a thread on that channel message, allowing others to benefit.
+   - In the private message: <code>Thanks for reaching out. That's a great question/idea that I think the rest of the team could benefit from. I'm going to move this to #public-channel based on [our desire to avoid private messages](#avoid-private-messages).</code>
+   - In the appropriate public channel: `@person asked "question" in a DM, pulling that out here if anyone else has input.`
+   - Answer the question in a thread on that channel message, allowing others to benefit.
 1. If you must send a work-related private message, [don't start a conversation with "Hi" or "Hey"](http://www.nohello.com/) because that interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously. If you truly need to have a synchronous communication, then start by asking for that explicitly, while mentioning the subject. For example: "I'm having trouble understanding issue XYZ. Can we talk about it quickly?".
 
 If you are a new member of the engineering team, you'll most likely want to join all of the channels in the engineering section below.
@@ -56,7 +56,7 @@ We have many Slack channels. You don't have to join them all, but here is a good
 Our goal is to facilitate open and transparent communication both within teams as well as between teams. Since these are two different audiences, we recommend that each team maintains two separate channels in Slack following these naming conventions:
 
 1. `${TEAMNAME}` is the default channel for discussing work that the team is doing and fielding questions from outside of the team. If you have a question to ask another team, ask it in their default channel.
-1. `{$TEAMNAME}-internal` is a secondary channel that the team can use to communicate about topics that are not related to the work of the team and clearly only relevant to members of the team itself (for example: social chit chat, notifying team you will be late to a team meeting, scheduling a team meeting or offsite). This channel is *not* for having internal team discussions about work the team is doing; those discussions are potentially relevant to people outside of the team and should be done in the default channel above. The team should treat this as their own channel, even if non-teammates have joined. We encourage teams to keep this channel public for transparency.
+1. `{$TEAMNAME}-internal` is a secondary channel that the team can use to communicate about topics that are not related to the work of the team and clearly only relevant to members of the team itself (for example: social chit chat, notifying team you will be late to a team meeting, scheduling a team meeting or offsite). This channel is _not_ for having internal team discussions about work the team is doing; those discussions are potentially relevant to people outside of the team and should be done in the default channel above. The team should treat this as their own channel, even if non-teammates have joined. We encourage teams to keep this channel public for transparency.
 
 If teams require additional channels they should follow the convention of prefixing the channel name with their team name. For example: `web-onboarding`
 
@@ -98,7 +98,7 @@ If teams require additional channels they should follow the convention of prefix
 
 All engineers should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- #dev-announce - Things that affect a majority of the dev team in some way (e.g. site or buildkite is down, we will have expected downtime, etc.). *You should read every message in here, and messages you post to it should have a high signal-noise ratio.*
+- #dev-announce - Things that affect a majority of the dev team in some way (e.g. site or buildkite is down, we will have expected downtime, etc.). _You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 - #dev-chat - Anything related to Sourcegraph development :).
 - #dev-ops - Discussing incidents and any other ops-related work.
 - #buildkite - Notifications about Buildkite / CI failures.
@@ -110,35 +110,35 @@ All engineers should join the following channels (feel free to adjust your notif
 
 You should also join channels mentioned in [your team's documentation](../engineering/index.md#teams)
 
-### Social 
+### Social
 
 These are some of our social channels. Feel free to whichever calls you.
 
-- #anime	- All things related to anime
-- #basketball	- All things hoops (NBA, NCAA, FIBA, etc.)
-- #best-timezone	Hangout channel for the european time zone. GIFs allowed!
-- #books	- Read books recommended by teammates and discuss them.
+- #anime - All things related to anime
+- #basketball - All things hoops (NBA, NCAA, FIBA, etc.)
+- #best-timezone Hangout channel for the european time zone. GIFs allowed!
+- #books - Read books recommended by teammates and discuss them.
 - #chess - For all chess lovers
-- #clothing -	Chit-chatting about clothes
-- #coffee	- For the love of coffee
-- #cooking	- All things cooking and food
-- #fantasyfootball	
-- #football-soccer	- General banter about the beautiful game ⚽️ (not this one 🏈)
-- #gaming	- For all gamers
-- #golf -	To all those golf fans here
-- #great-bandname -	“That’s a great bandname” — all the things we find that would make a great bandname
-- #keyboards-of-sourcegraph	- clack clack CLACK clack clack CLACK cl
-- #kids-of-sourcegraph	- A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
-- #memes-and-motivations	- Sometimes a funny meme or a powerful motivational video is good for the soul!
+- #clothing - Chit-chatting about clothes
+- #coffee - For the love of coffee
+- #cooking - All things cooking and food
+- #fantasyfootball
+- #football-soccer - General banter about the beautiful game ⚽️ (not this one 🏈)
+- #gaming - For all gamers
+- #golf - To all those golf fans here
+- #great-bandname - “That’s a great bandname” — all the things we find that would make a great bandname
+- #keyboards-of-sourcegraph - clack clack CLACK clack clack CLACK cl
+- #kids-of-sourcegraph - A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
+- #memes-and-motivations - Sometimes a funny meme or a powerful motivational video is good for the soul!
 - #mixology - To talk about the art of making drinks/drinks we enjoy
-- #motorsport	- For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor. 
+- #motorsport - For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor.
 - #music - Share your tunes.
-- #nomad-life -	For folks who use our async remote culture to travel around, whether just for a few weeks or as a lifestyle
-- #pets-of-sourcegraph -	Sometimes you need pictures of floof(s) to get through the day.
-- #photography-chat -	For photo-takey types
-- #plants-of-sourcegraph	- 🌲🌻
-- #side-project	- Working on a cool/challenging/fun side project? Tell us all about it here!
-- #ted-talks	- Share impactful ted talks here, with a brief description and time of the talk
-- #today-i-learned	-  Anything you learn or think is fascinating, please share.
-- #trash-tv	- For discussing TV and movies, but especially the stuff that's not good.
-- #virtual-coworking -	60 minute sessions to work quietly in tandem
+- #nomad-life - For folks who use our async remote culture to travel around, whether just for a few weeks or as a lifestyle
+- #pets-of-sourcegraph - Sometimes you need pictures of floof(s) to get through the day.
+- #photography-chat - For photo-takey types
+- #plants-of-sourcegraph - 🌲🌻
+- #side-project - Working on a cool/challenging/fun side project? Tell us all about it here!
+- #ted-talks - Share impactful ted talks here, with a brief description and time of the talk
+- #today-i-learned - Anything you learn or think is fascinating, please share.
+- #trash-tv - For discussing TV and movies, but especially the stuff that's not good.
+- #virtual-coworking - 60 minute sessions to work quietly in tandem

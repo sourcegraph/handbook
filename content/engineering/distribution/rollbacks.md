@@ -12,15 +12,15 @@ on a test cluster and to write down the first and last migration numbers in the 
 
 ### Migrations have to be invertible
 
-The migrations that fall in the necessary range for a rollback have to be invertible. This has to be checked both on the 
+The migrations that fall in the necessary range for a rollback have to be invertible. This has to be checked both on the
 DB and on the source code side. For example if the up migration drops a column then the down migration cannot recover
 that data. This could be ok if the column has NULLABLE values, and the code in the previous version can tolerate a column with NULL entries.
 
 If a migration in the range is not invertible then manual intervention is necessary. This involves for example populating
 a column with some default value. In some cases a down migration is not possible because it would break assumptions already
-made in code. 
+made in code.
 
-> It is good to check all the migrations involved in a rollback for being invertible. 
+> It is good to check all the migrations involved in a rollback for being invertible.
 
 ### Large tables
 
@@ -65,7 +65,7 @@ kubectl -n ns-sourcegraph exec $(kubectl -n ns-sourcegraph get pod -l app=pgsql 
 On the `pgsql` pod and `pgsql` container execute:
 
 ```shell
-PGSSLMODE=disable PGUSER=sg ./migrate -source file://<path to the unpacked migration dir> -database postgres://localhost:5432/sg down <number of migrations downward to previous version> 
+PGSSLMODE=disable PGUSER=sg ./migrate -source file://<path to the unpacked migration dir> -database postgres://localhost:5432/sg down <number of migrations downward to previous version>
 ```
 
 Once done, check the migration number again to see if it is at the expected previous version. Also check that the dirty DB flag is still `false`.

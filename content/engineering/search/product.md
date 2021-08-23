@@ -2,12 +2,12 @@
 
 The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results:
 
-  - Search field
-  - Search results UI
-  - Search contexts
-  - Query language, including structural search
-  - The search homepage, homepage panels
-  - Repogroup pages
+- Search field
+- Search results UI
+- Search contexts
+- Query language, including structural search
+- The search homepage, homepage panels
+- Repogroup pages
 
 It also owns a subset of features built on top of Sourcegraph search:
 
@@ -24,11 +24,11 @@ It also owns a subset of features built on top of Sourcegraph search:
 - We're hiring a [Product Manager](../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4003912004)) for this role. [Christina Forney](../../company/team/index.md#christina-forney-she-her) is involved in the meantime to help Loïc with prioritiation decisions. All new requests for this team should be routed through the EM (as acting PM).
 - [Rob Rhyne](../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) ([Product Designers](../../product/roles/index.md#product-designer))
 - [Loïc Guychard](../../company/team/index.md#loïc-guychard) ([Engineering Manager](../roles.md#engineering-manager)) {#search-product-eng} <!-- this anchor is used to render the eng org chart -->
-    - [Rijnard van Tonder](../../company/team/index.md#rijnard-van-tonder)
-    - [Juliana Peña](../../company/team/index.md#juliana-peña-she-her)
-    - [Rok Novosel](../../company/team/index.md#rok-novosel-he-him)
-    - [Camden Cheek](../../company/team/index.md#camden-cheek-hehim)
-    - F.K.
+  - [Rijnard van Tonder](../../company/team/index.md#rijnard-van-tonder)
+  - [Juliana Peña](../../company/team/index.md#juliana-peña-she-her)
+  - [Rok Novosel](../../company/team/index.md#rok-novosel-he-him)
+  - [Camden Cheek](../../company/team/index.md#camden-cheek-hehim)
+  - F.K.
 
 ## Processes
 
@@ -61,11 +61,11 @@ We use two main artifacts to plan iterations: our [planning document](https://do
 On the last Thursday of an iteration:
 
 - The EM for the team:
-    - Creates a GitHub project for the iteration.
-    - Creates a section in the [planning document](https://docs.google.com/document/d/1swnkQwd724IB_HP3_Mw3KkFnfl45t-PmWcNo_1gtkQM/edit#), outlining a draft of current projects / priorities.
+  - Creates a GitHub project for the iteration.
+  - Creates a section in the [planning document](https://docs.google.com/document/d/1swnkQwd724IB_HP3_Mw3KkFnfl45t-PmWcNo_1gtkQM/edit#), outlining a draft of current projects / priorities.
 - The team:
-    - Adds notes to the planning document outlining how they plan to contribute to current projects / priorities, adds any missing projects / priorities, adds any questions on missing context.
-    - Adds relevant issues to the GitHub project for the iteration, based on the content of the planning document.
+  - Adds notes to the planning document outlining how they plan to contribute to current projects / priorities, adds any missing projects / priorities, adds any questions on missing context.
+  - Adds relevant issues to the GitHub project for the iteration, based on the content of the planning document.
 
 We have asynchronous discussion in the planning document. On the first Monday of an iteration, during the team sync, we validate the current plan & the contents of the GitHub project together, thus officially starting the iteration.
 
@@ -99,4 +99,3 @@ We keep our iteration process fluid. We discuss any aspects that could be improv
 ### Retrospectives
 
 At the end of every iteration, we conduct a retrospective. Our retrospective notes can be found [here](https://docs.google.com/document/d/15F7OXwFTpLIvjPrJtNd0wRY49MtCUO-kMacpcIMlAWU/edit).
-

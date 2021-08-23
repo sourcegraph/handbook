@@ -6,12 +6,12 @@ Sourcegraph is a good replacement for Hound for almost every organization.
 
 ## Pros
 
-* Very simple deployment
-* Very simple interface
+- Very simple deployment
+- Very simple interface
 
 ## Cons
 
-* Apparent unmaintained status
-* Poor scalability to many repositories (both performance-wise and UX-wise)
-* Limited filtering available for search queries
-* No support for code navigation (code intelligence and/or ctags)
+- Apparent unmaintained status
+- Poor scalability to many repositories (both performance-wise and UX-wise)
+- Limited filtering available for search queries
+- No support for code navigation (code intelligence and/or ctags)

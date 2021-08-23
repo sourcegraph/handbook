@@ -6,10 +6,10 @@ The way the world creates code has shifted. We’ve entered the era of Big Code.
 
 Big Code is all about how code is growing in:
 
-* Volume – exponential increases in the amount of code
-* Variety – more complexity in the languages, tools, and processes for delivering software
-* Velocity – accelerated delivery cycles that mean code is changing faster and being shipped virtually every minute
-* Value – the reimagination of business models and practices through high-quality software
+- Volume – exponential increases in the amount of code
+- Variety – more complexity in the languages, tools, and processes for delivering software
+- Velocity – accelerated delivery cycles that mean code is changing faster and being shipped virtually every minute
+- Value – the reimagination of business models and practices through high-quality software
 
 This digital transformation led to countless innovations that improve the lives of people all over the world. But it’s been hard on developers.
 
@@ -55,10 +55,10 @@ Search is severely limited in traditional developer tools, such as editors and I
 
 Universal code search is different: a single, highly scalable way to explore, navigate, and analyze all of an organization's massive stores of code, regardless of system, repository, or language. It is uniquely suited to address Big Code’s four V’s:
 
-* Volume – code exploration, navigation, intelligence, and change management across the whole codebase.
-* Variety – the same functionality is available for every programming language, code host, etc.
-* Velocity – search all branches, diffs, and commits – code search across history, or get alerts about coming changes.
-* Value – improved developer productivity that drives more value for the entire enterprise.
+- Volume – code exploration, navigation, intelligence, and change management across the whole codebase.
+- Variety – the same functionality is available for every programming language, code host, etc.
+- Velocity – search all branches, diffs, and commits – code search across history, or get alerts about coming changes.
+- Value – improved developer productivity that drives more value for the entire enterprise.
 
 Instead of constantly searching in disparate codebases, developers use universal code search to discover and re-use existing code across repositories. They can understand and debug code, figure out the right library or service for a certain task, and share code links to help teammates with best practices.
 
@@ -70,11 +70,11 @@ In the era of Big Code, code search needs to be not only how developers discover
 
 To be effective, search must be universal across several dimensions:
 
-* All repositories
-* All programming languages
-* All code changes (commits, branches, and forks)
-* All file formats
-* All other developer tools that generate metadata about code (such as for logging, tracing, and profiling)
+- All repositories
+- All programming languages
+- All code changes (commits, branches, and forks)
+- All file formats
+- All other developer tools that generate metadata about code (such as for logging, tracing, and profiling)
 
 Universal code search meets these requirements, and all users have to do is search via a browser, shell, or inside popular tools like GitHub, GitLab, Bitbucket Server, Phabricator, Perforce, and Subversion. Results are instant.
 
@@ -90,9 +90,9 @@ Sourcegraph helps companies solve [Big Code problems](https://about.sourcegraph.
 
 ## Definitions
 
-* Code search - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
-* Code navigation - Guided traveling to find specific code via ad-hoc query (enables code discovery and exploration)
-* Code exploration - Find both known and unknown code, with code intelligence providing the contextual understanding
-* Code discovery - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed
-* Code intelligence - Display and share additional contextual information around code (allows code reviews with context)
-* Batch Changes - Make large-scale code changes
+- Code search - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
+- Code navigation - Guided traveling to find specific code via ad-hoc query (enables code discovery and exploration)
+- Code exploration - Find both known and unknown code, with code intelligence providing the contextual understanding
+- Code discovery - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed
+- Code intelligence - Display and share additional contextual information around code (allows code reviews with context)
+- Batch Changes - Make large-scale code changes

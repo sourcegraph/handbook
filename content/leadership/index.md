@@ -5,4 +5,3 @@ Leadership at Sourcegraph refers to characteristics we all must exhibit, as well
 ## 1-1
 
 See "[1-1](1-1.md)".
-
