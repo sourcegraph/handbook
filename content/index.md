@@ -63,6 +63,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Product Marketing](marketing/product_marketing.md)
 - [Content Marketing](marketing/content/index.md)
+  - [Editorial](marketing/content/editorial.md)
+  - [Creating and editing blog posts](marketing/content/creating_blog_posts.md)
+  - [Blog Hackathon](marketing/content/blog_hackathon.md)
 - [Demand Gen](marketing/demandgen.md)
 - [Developer Education](marketing/education.md)
 - [Brand](marketing/brand/index.md)
