@@ -50,24 +50,13 @@ Iterations start every other Monday.
 
 #### Planning artifacts
 
-We use two main artifacts to plan iterations: our [planning document](https://docs.google.com/document/d/1swnkQwd724IB_HP3_Mw3KkFnfl45t-PmWcNo_1gtkQM/edit#), and a GitHub project specific to the iteration. We think of their relative roles as follows:
-
-- The planning document is used as a discussion platform to agree on intended outcomes for the iteration. An intended outcome is not "issue #xxxx is closed", but rather "problem X is solved".
-- The GitHub project is an itemized representation of the work needed to accomplish the outcomes listed in the planning document.
-- If some items in the GitHub project are not closed by the end of the iteration, teammates should mention in their last weekly update of the iteration what this impact is on planned outcomes.
+We use a [GitHub project](https://github.com/orgs/sourcegraph/projects/181) to plan iterations. If some items in the GitHub project are not closed by the end of the iteration, teammates should mention in their last weekly update of the iteration what this impact is on planned outcomes.
 
 #### Planning a new iteration
 
-On the last Thursday of an iteration:
+On the last Thursday of an iteration: - The EM for the team creates a section for planning discussion in the [team sync meeting notes doc](https://docs.google.com/document/d/1fozHWMTKKbs_5ojE_i9xfCLDqac8CSb6XXgYTJI9_0I/edit#). The EM and the team add any questions on missing context. - The team adds any relevant issues to the "next" column of the [planning board](https://github.com/orgs/sourcegraph/projects/181).
 
-- The EM for the team:
-  - Creates a GitHub project for the iteration.
-  - Creates a section in the [planning document](https://docs.google.com/document/d/1swnkQwd724IB_HP3_Mw3KkFnfl45t-PmWcNo_1gtkQM/edit#), outlining a draft of current projects / priorities.
-- The team:
-  - Adds notes to the planning document outlining how they plan to contribute to current projects / priorities, adds any missing projects / priorities, adds any questions on missing context.
-  - Adds relevant issues to the GitHub project for the iteration, based on the content of the planning document.
-
-We have asynchronous discussion in the planning document. On the first Monday of an iteration, during the team sync, we validate the current plan & the contents of the GitHub project together, thus officially starting the iteration.
+We have asynchronous discussion in the meeting notes document. On the first Monday of an iteration, during the team sync, we validate the current plan & the contents of the GitHub project together, thus officially starting the iteration.
 
 #### Weekly updates
 
