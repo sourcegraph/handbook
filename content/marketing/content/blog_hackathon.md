@@ -1,6 +1,6 @@
 # Blog Hackathon
 
-- Save the date: 2021-08-25
+- Save the date: 2021-09-01
 - Slack channel: #blog-hackathon
 
 Block your calendars! The Content team invites team members from our Engineering, Product, Customer Support, and Customer Engineering orgs to take part in our first Blog Hackathon. 
