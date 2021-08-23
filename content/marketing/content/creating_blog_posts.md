@@ -1,6 +1,6 @@
 # Creating & editing blog posts with markdown and GitHub
 
-We want and encourage everyone at Sourcegraph to contribute to the blog and publishing a blog post is as simple as merging an approved pull request with your blog content.
+We want and encourage everyone at Sourcegraph to contribute to the blog. If you'd like to write for the blog, please check out how to [propose a blog post](editorial.md#editorial-process) in the Editorial handbook.
 
 ## Table of contents
 
@@ -22,7 +22,7 @@ The process for publishing a blog post is:
 1. Get your pull request approved (preferably by someone on the marketing team)
 1. Merge your pull request which will trigger an automatic production build and deploy
 
-> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published. As a general rule, reach out to the marketing team to give them a heads-up and use a Google doc to refine the content before adding it here.
+> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published. Please start by proposing your blog post idea to the Editorial team. The process is outlined in [the Editorial handbook](editorial.md#editorial-process).
 
 ## Adding a blog post
 
