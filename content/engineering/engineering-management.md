@@ -49,20 +49,44 @@ Here are some books that multiple people on the team have read and recommend. If
 - [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756) - A model of how to think about what makes a highly effective team paired with a fictional story that illustrates the model.
 - [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) ([facilitated small group discussions](../support/support-values-enablement.md#part-2-deep-dive-on-be-welcoming-and-inclusive).
 
-## Temporary Management Positions
+## Promotion requests
 
-We create temporary management positions when there is an organizational need. These may be filled by someone who is transitioning into the role (Interim Manager), experimenting with the role as they work on determining their career path (Acting Manager) or, someone who is just filling in and who is not interested in pursuing an Engineering Manager role long term (Acting Manager). This difference should be made explicit with the individual and team members before the temporary role is assigned.
+To be documented.
 
-### Acting Manager
+## Compensation increase requests
 
-An Acting Manager occupies a role temporarily and will move back to their original position after a set amount of time or other conditions. An Acting Manager may be experimenting with the role as a part of determining their career development path or could be filling in for a vacant role while we hire.
+To be documented.
 
-### Interim Manager
+## Transitioning from Individual Contributor to Engineering Manager
 
-Interim Manager positions are for teammates pursuing an Engineering Manager role long term but lack the necessary people management experience. The requirement is that, before moving into the role full time, they will make at least one successful hire. The official transition to Engineering Manager will not occur before 30 days after that new hire's start date, so that we can assess whether the hire was truly successful. If the new hire's success is indeterminate at the 30-day mark, we will continue to review until a firm decision is made. If the new hire is not successful, that does not mean that the Interim Manager cannot eventually move into the full-time role.
+For teammates pursuing an Engineering Manager role but who lack the necessary people management experience, we have defined the following transitioning guide that affords the candidate a "manager in training" opportunity to try out being an Engineering Manager for a trial period. The trial period will allow the teammate to determine if they want to commit to it long-term and verify that they would be good in the role.
 
-In some cases, it may not be practical, or headcount planning might not allow for the Interim Manager to make a new hire. In this case, the Interim Manager and the interim manager's manager should agree on success criteria based on the role's requirements.
+### Expressing interest in becoming an Engineering Manager
 
-Once the Interim Manager's first new hire has been at Sourcegraph for 30 days or other agreed success criteria have been met, their manager will formally review the Interim Manager.
+Teammates who have reached the [IC3 level](career-development/framework.md#ic3) and have a track record of good performance at Sourcegraph, having been employed for at least six months, are eligible for a manager in training trial.
+The teammate should make their desire clear to their Engineering Manager so that when a relevant opportunity becomes available, they may be considered.
 
-This process aims to have a determination made by the interim manager's manager about the promotion to a permanent manager role after the agreed success criteria have been satisfied. Generally, we aim to have the interim period not exceed four months before turning into a full-time position.
+Opportunities for a manager in training trial can come about through a current Engineering Manager position becoming vacant, an existing team splitting into two, or an Engineering Manager going on long-term PTO. 
+When an opportunity arises, the teammate's manager can nominate them for a manager in training trial to the Director of Engineering for the relevant org.
+
+There are some considerations to keep in mind to ensure that the teammate is set up for success:
+- The teammate's existing team should be in a position for them not to be involved as an IC for the whole duration of the trial period. Managers in training should not fulfill a dual role.
+- The team to be managed should comply with our [minimum viable team](eng_org.md#minimum-viable-team) criteria.
+- The team to be managed should have a dedicated and established Product Manager assigned to it.
+- The team to be managed should preferably not be one that the manager in training was an IC on.
+
+### Manager in training trial period
+
+During the trial period, the manager in training will assume full Engineering Manager responsibility as outlined in the [Engineering Manager responsibilities](roles.md#engineering-manager).
+
+The teammate's manager, director, or another nominated manager/director will become their sponsoring manager for the duration of the trial period. The sponsoring manager must commit to providing extra support to the manager in training during the trial period, which will last 12 weeks. 
+The trial period may be extended if agreed to by the manager in training and the sponsoring manager. However, the trial period should not be extended to more than 16 weeks.
+
+The sponsoring manager will give the manager in training active coaching and feedback during weekly 1-1s and conduct bi-weekly 1-1s with the manager in training's direct reports to collect feedback and set them up for success.
+Halfway through their trial period, the manager in training will receive an interim performance evaluation to help them identify strengths and shortcomings as an engineering manager and allow them to adjust if needed.
+
+The trial period can be canceled by the manager in training or the sponsoring manager at any time if it is not working out.
+
+### Becoming an Engineering Manager
+
+Suppose the trial period for the manager in training was determined to be successful, and they would like to commit to the role change. In that case, the sponsoring manager will submit a request for a formal role change using the [role change request template](https://docs.google.com/document/d/1nkRE5wxyYVIn8rVS2rOFDEZSlgs07eVJEfxxEu5hjuk/edit). Following approval from the relevant decision-makers (Director, VP), the role change request is forwarded to the relevant teammates in PeopleOps (refer to [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)) for confirmation. Once confirmed by PeopleOps the change can be communicated to the teammate and the company.
