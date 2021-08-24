@@ -12,8 +12,9 @@ The code insights team is responsible for building and delivering code insights 
   - [Vova Kulikov](https://about.sourcegraph.com/handbook/company/team#vova-kulikov-he-him) (Frontend Engineer)
   - [Justin Boyson](https://about.sourcegraph.com/handbook/company/team#justin-boyson-he-him) (Frontend Engineer)
   - [Coury Clark](../../../company/team/index.md#coury-clark-he-him) (Backend Engineer)
+  - C. B. joining 2020-08-13 as a Backend Engineer
 
-[We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4028726004)
+[We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
 
 ## Mission
 
