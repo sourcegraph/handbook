@@ -1314,3 +1314,11 @@ To add yourself to this page:
 - GitHub: [erzhtor](https://github.com/erzhtor/)
 - [erzhan.torokulov@sourcegraph.com](mailto:erzhan.torokulov@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/erzhtor/), [erzhtor.com](https://erzhtor.com/), [Pronounce my name 🔊](https://www.name-coach.com/erzhan-torokulov?preview=on)
 - Erzhan is a Software Engineer with industry experience building high-quality software solutions with a passion for learning. He has experience working on backend, frontend as well as mobile development. Outside work, he enjoys traveling and trying new things/activities.
+
+## Nick Moore (he/him/his)
+
+- Content Editor
+- Weymouth, Massachusettes, United States 🇺🇸
+- GitHub: [nickmyyz](https://github.com/nickmyyz/)
+- [nick.moore@sourcegraph.com](mailto:nick.moore@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nick-moore-b704a870/), [Twitter](https://twitter.com/nickwritesit)
+- Nick is a Content Editor who's passionate about creating content that appeals to developers, engineers, and other technical folks. He's worked in editorial and agency capacities, and has worked with small startups, large enterprises, and everything in between. He was born in New Hampshire, raised in Maine, and now lives in Massachusettes. Outside work, he enjoys reading books (especially horror novels), going on hikes, playing with his dog Finn, and listening to music (especially prog rock).
