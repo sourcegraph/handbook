@@ -29,6 +29,6 @@ The following is available to help us honor our [ethos and guiding principles](i
 - [What does upgrading Sourcegraph look like](https://drive.google.com/file/d/1oIrKJPo9hvc2UMfpb-a57HV9fCYEcS9n/view)
 - [How to deploy Sourcegraph to GCP with Kubernetes](https://drive.google.com/file/d/10uIp-rcN3nRa0FguScHU3NRrcXxgy6C7/view?usp=sharing)
 - [List of Sourcegraph Services in a Kubernetes Cluster](https://sourcegraph.github.io/support-tools/List%20of%20Pods/)
-- [List of Support Tools](https://sourcegraph.github.io/support-tools)
+- [List of Support Tools](support-tools.md)
 - [Search crash course](https://drive.google.com/file/d/1OEDgTJAaaEL5N0bcxSbRbBrdi8FU_ZPN/view?usp=sharing)
 - [Search crash course: query lang](https://drive.google.com/file/d/1DOEKW279FbxipJCM6vDdKzly6epgNyyD/view?usp=sharing)

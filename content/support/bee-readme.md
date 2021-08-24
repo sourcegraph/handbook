@@ -4,8 +4,7 @@
 
 ### View on Customer Support
 
-Omotenashi - _“Omote” means public face – an image you wish to present to outsiders. “Nashi” means nothing.
-Combining them means every service is from the bottom of the heart – honest, no hiding, no pretending. ([source](https://guide.michelin.com/sg/en/article/features/omotenashi))_
+Detective Bee on the job
 
 ### Preferred learning style
 
@@ -21,7 +20,7 @@ Observer.
 
 ### Approach to problems
 
-I prefer working out a problem on my own with minimun help, unless it's a topic that I have no knowledge on then I prefer working with someone who knows more.
+I prefer solving problems on my own with minimun help, unless it's a topic that I have no knowledge on then I prefer working with someone who knows more.
 
 ### Preferred way to be recognized
 
@@ -73,7 +72,8 @@ Birds 👀
 
 ### Favorite quote
 
-> You're already changed when you've decided to change - random anime quote
+> You're already changed when you've decided to change
+> -- random anime quote
 
 ### How I eat fries
 
