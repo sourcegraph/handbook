@@ -1306,3 +1306,11 @@ To add yourself to this page:
 - [leo.abreu@sourcegraph.com](mailto:leo.abreu@sourcegraph.com), [LinkedIn](https://linkedin.com/in/leo-abreu/)
 - [pronounce my name 🔊](https://www.name-coach.com/leo-abreu)
 - Born in the Dominican Republic, raised in New York and New Jersey; Leo now lives just outside of Charlotte, NC with his wife and two children. For most of his career, he worked in pre and post sales roles helping customer transform and automate devops processes. With his oldest moving on to college, Leo is finding more time available on the weekends. When he's is not attending his son's soccer matches, you might finding him dusting off his golf clubs; or tossing some cornhole bags in the backyard in one hand, with a beer in the other and alt rock tunes playing in the background.
+
+## Erzhan Torokulov (he/him)
+
+- Software Engineer
+- St. Petersburg, Russia 🇷🇺
+- GitHub: [erzhtor](https://github.com/erzhtor/)
+- [erzhan.torokulov@sourcegraph.com](mailto:erzhan.torokulov@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/erzhtor/), [erzhtor.com](https://erzhtor.com/), [Pronounce my name 🔊](https://www.name-coach.com/erzhan-torokulov?preview=on)
+- Erzhan is a Software Engineer with industry experience building high-quality software solutions with a passion for learning. He has experience working on backend, frontend as well as mobile development. Outside work, he enjoys traveling and trying new things/activities.
