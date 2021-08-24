@@ -78,6 +78,12 @@ As explained above, our customers are able to initiate conversations for help vi
 - **Those involved:** AE + CE + support > (Engineering) + Product
 - **Details:** Channels must be named with trial- or support- somewhere in the title to link to Zendesk. In some cases where the customer creates the channel in their Slack account, we need IT Tech Ops to set-up a special Zap. If a channel cannot be linked via automation, it is noted in our [Customer Exception list](customer-exceptions.md) and is manually triaged. Every new post in these channels automatically create a record in Zendesk via a Zapier integration (it does not create new tickets for every new comment in a thread). While that creates some noise, it also ensures nothing falls through the cracks and we are able to capture all conversations that happen and gather the associated data and insights -- plus, it’s easier to merge/delete in Zendesk than remember to manually send a Slack post to Zendesk. Our CEs are ultimately responsible for these channels and there is huge value-add for them to engage with customers here frequently. There is equal value in addressing customer questions/issues with reasonable responsiveness, and support is in a better position to do so. The special steps associated with these channels are outlined above.
 
+### #help channel in Community Slack account
+
+- **Purpose:** Provided as an avenue for our community members (champions, open source, SaaS offering users) to get help.
+- **Those involved:** Support, product, marketing (especially our community team)
+- **Details:** This is the one channel in our Community Slack account that is linked to Zendesk to create a ticket for each post. Support's role is to make sure no post gets left behind. Others at Sourcegraph may jump in and help, and that is great! We just want to make sure everyone gets the help they need.
+
 ### Internal Slack channel #customer-support
 
 - **Purpose:** Where the customer support team communicates with folks outside the team and vice versa. Always okay to ask questions here, collaborate on a customer issue, etc
