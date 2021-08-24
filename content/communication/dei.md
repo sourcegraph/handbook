@@ -1,4 +1,4 @@
-# Diversity, equity, and inclusion
+# How we create an environment where everyone feels welcome and has equal opportunity
 
 > At Sourcegraph, we want to make it so [everyone can code](../company/strategy.md), so that technology's benefits reach the whole world. To do that, and to even understand what's necessary to do that, our team needs to represent a diverse set of perspectives, experiences, and backgrounds. We also believe that talent is equally distributed, so we strive for our team to demonstrate that by being inclusive of and equitable toward all people. This page describes our efforts and commitments to work toward these outcomes, and we expect to improve and expand our plans here as we learn and grow.
 
@@ -6,53 +6,33 @@
 
 ---
 
-We have focused much of our efforts to-date on equity with:
+Sourcegraph’s first steps towards creating a diverse team came with the decision to work remotely, and engage the right talent regardless of the country, city and timezone they were located in. Besides allowing us access to talent across the globe, this decision enabled us to engage talent who are otherwise unable or unwilling to spend each day in an office, such as talent who take care of dependents at home, may not have access to transport, or have physical restrictions that making commuting difficult.
 
-- All-remote work (including home desk and coworking space benefits)
-- Asynchronous work
-- International hiring (any city, any country, any timezone)
-- Location-independent pay
-- In progress: Standardized compensation
-- In progress: Extended option exercise periods
+After deciding to work remotely, we also:
 
-Currently, we are focusing on inclusion to ensure that as we grow, Sourcegraph remains a place that people from all backgrounds feel they belong. During FY22Q1 (2021-02 to 2021-04), we will:
+- Chose to offer compensation that was independent of location
+- Made sure our talent was supported in working remotely - including offering home desk set-up,coworking space, and internet benefits.
+- Decided to Work asynchronously as much as reasonable, to ensure our teammates across time zones and working schedules are included in conversations and calls for input
 
-- Create `#DEI` focused channels (`#DEI-questions` and `#DEI-announcements`) channel where folks can ask questions, get help, share resources, and/or be kept up to date on our progress. The `#DEI-questions` channel will be staffed by folks responsible for working through answers and providing guidance.
-- Anonymously survey all employees to identify questions, feedback, and ideas that can be integrated into current and new plans related to DEI.
-- Screen for “Be welcoming and inclusive” value early in the hiring process
-  - Add it to our feedback form and any future rubrics
-  - Build in questions to recruiter and hiring manager screens to have specific checkpoints for evaluation
-    - Recommended questions to ask:
-      - What have you done to ensure co-workers feel a sense of belonging?
-      - How have you contributed to a diverse and inclusive workplace culture?
-      - Tell me about your experience working with a diverse team.
-      - How have you acted as an ally?
-- Building relationships with code schools and organizations focused on helping folks in underserved communities break into tech to help increase diversity in our candidate pipelines (as a first step toward later developing an apprenticeship program)
-- Launch standard of every employee reads and completes the exercises in Pamela Fuller’s book _The Leader’s Guide to Unconscious Bias_ receives hard conversations training {#unconscious-bias}
-  - Review book with leadership team to confirm this is the text we want to use
-  - All execs read and complete book/exercises + training
-  - Starting next cohort(s) (rest of leadership team) of 5-7 folks each
-  - Add to new hire onboarding for all new employees
-  - Create calendar for how all existing employees will complete a cohort
-- Start collecting and reporting on company demographics + belonging (showing data for hiring, existing employees, as well as those who have exited the company)
-- Engage a to-be-determined consultant for DEI-related training for all leaders
+Our initiatives since then have been focused on identifying and acting on the potential obstacles our teammates and candidates feeling welcome and having equal access to opportunity existing teams and hiring process - the most impactful steps we could take to reduce bias and discrimination from our processes and interactions.
 
-Additionally, managers will continue to prioritize hiring outreach to increase representation and we will hire a VP Talent and recruiters to further support priority of increasing representation during hiring.
+Up to and including FY22Q2, we:
 
-Looking ahead to the rest of FY22 and again, appreciating that this work is never done, we are also considering the following for focus:
+- Implemented standardised, benchmarked compensation criteria related to each role
+- Implemented screening for our “Be welcoming and inclusive” value throughout the hiring process, with questions asked by recruiters, hiring managers, and teammates: such as asking what candidates have done to ensure their co-workers feel a sense of belonging, how they’ve advocated for someone else, how they’ve contributed to building cultures of inclusivity in their previous workplaces.
+- Trained managers and teammates on how to identify and reduce their own unconscious bias while interviewing
+- Refined our guidelines around paid time off to be inclusive of multiple reasons for PTO: including wellbeing PTO, religious PTO, and life PTO.
+- Asked all teammates to participate in an anonymous survey around what could be improved in our culture and ways of working, allowing all teammates to provide feedback on what could enhance our value of being welcoming and inclusive
+- Identified an independent wellbeing provider that could provide wellbeing support for our teammates via counselling, coaching and external support groups.
 
-- Launch additional cohorts designed for ongoing learning, with a focus on putting learning into practice (required for leaders and optional for employees)
-- Create a handbook page providing additional guidance on referrals, noting that hiring managers assess referrals the same as any other candidate and offering guidance on how referrals can support our goals to have a more diverse candidate pool
-- Engage a to be determined consultant for ongoing practicum-based DEI-related training required for all leaders + determining additional areas of focus
-- Formalize employee resource groups (ERGs) so that folks from various backgrounds have safe places to seek and receive support
-- Engage Ruha Benjamin (Associate Professor of African American Studies at Princeton University) to do something with us about the concepts she shares in her book _Race After Technology_, which feel like an important set of concepts for us to internalize in support of realizing our purpose
-- Engage to be determined a consultant to review the entire handbook for coded language/ideas and create training materials to help us check for these ourselves
-- Develop an apprenticeship program (this will build on the relationships we are building with code schools and organizations focused on helping folks in underserved communities break into tech)
+For the remainder of FY22, we aim to roll out the following initiatives:
 
-Some of the outcomes we plan to achieve during this FY are (we will add more as we solidify plans for items on the lists above):
+- Job levelling across teams, aimed at ensuring our managers use skill-based criteria to assess each contributor’s level of impact and ensure that teammates are paid fairly for their level of impact
+- Launching Modern Health, our independent wellbeing provider, offering 10 counselling and coaching sessions per year for each of our employees, as well as access to a range of diverse support groups (COVID-19, LQBTQ+, Black Lives Matter, Asian communities, Latinx communities)
+- Building relationships with code schools and organizations focused on helping folks in underserved communities break into tech (as a first step toward later developing an apprenticeship program)
+- Provide detailed guidance to our teammates on how they can create their own internal support groups, how to purpose those support groups, and how to surface and escalate insights and ideas that will positively impact Sourcegraph as a whole.
 
-- Every employee at the company as of 2021-12-01 will complete our standard of every employee reads and completes the exercises in Pamela Fuller’s book _The Leader’s Guide to Unconscious Bias _+ receives hard conversations training
-- We are able to capture and regularly report on company demographics and belonging
-- The candidate pool for every position is comprised of at least N% candidates from underrepresented groups (we are working to measure and set this goal)
+We appreciate that this work will never be fully done, and will update this page as we identify, launch and complete future initiatives that will help us make Sourcegraph a place where all teammates feel they belong and can grow their careers.
 
-If at any point you have questions or feedback, you can always submit anonymously via our company meeting form (which is automatically posted to `#general` on Slack each week). We'll be creating DEI Slack channels for discussion and questions as well. If you are a candidate and have questions, you can email [hiring@sourcegraph.com](mailto:hiring@sourcegraph.com).
+We encourage all teammates to give us ideas and feedback at any time via their managers and/or the PeopleOps team. If appropriate, questions can be submitted anonymously via our company meeting form (which is automatically posted to `#general` on Slack each week).
+If you are a candidate and have questions, you can email [hiring@sourcegraph.com](mailto:hiring@sourcegraph.com).
