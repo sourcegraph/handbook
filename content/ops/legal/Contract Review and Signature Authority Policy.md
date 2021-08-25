@@ -50,7 +50,7 @@ SLAs - Turnaround time for legal review:
 SLAs - Turnaround time for legal review:
 
 - Sourcegraph Form - 3 business days
-- Customer Form - 5 business days
+- Customer Form - not accepted, requires a legal-to-legal call if customer pushes back
 - EOQ - Legal will attempt to expedite reviews in the last week of the quarter
 
 ### Vendor contracts
