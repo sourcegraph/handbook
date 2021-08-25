@@ -1094,6 +1094,19 @@
           59.92602795360136
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dan Ryan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88030242919922,
+          40.44511813759635
+        ]
+      }
     }
   ]
 }
