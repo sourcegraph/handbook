@@ -26,7 +26,7 @@ The **Operations group** is responsible for systems and analytics which support 
 - Rebecca Rissinger - Manager, Marketing Operations
 - Jake Sorensen - Program Lead, Demand Gen Campaigns
 - Lori Heyman - Contractor, Digital Marketing
-- (TBH) Senior Digital Marketing Manager
+- Erica Freckelton - Senior Digital Marketing Manager
+- Greg Bouton - Email + Automation Manager
 - (TBH) Growth Marketing Manager
 - (TBH) Marketing Analyst
-- (TBH) Email + Automation Manager
