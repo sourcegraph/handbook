@@ -8,7 +8,7 @@ We provide high-quality legal advice to every team. High-quality legal advice at
 - Efficient - timely and avoids being a bottleneck or slowing down decisions
 - Balanced - given in context and considers priorities, differing viewpoints, and competing interests
 
-We manage the company's legal risk. Legal risk includes lawsuits and investigations brought by a third party, which can be a customer, competitor, user, teammate, partner, vendor, or regulator. We enable teammates to identify and weigh legal risks, make informed decisions, and accept calculated risks.
+We manage the company's legal risk by anticipating major legal risks and building mitigation plans. Legal risk includes lawsuits and investigations brought by a third party, which can be a customer, competitor, user, teammate, partner, vendor, or regulator. We enable teammates to identify and weigh legal risks, make informed decisions, and accept calculated risks.
 
 We take initiatives that improve all teammates’ experiences working with the legal team.
 
