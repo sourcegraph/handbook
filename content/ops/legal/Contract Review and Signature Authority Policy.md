@@ -127,28 +127,14 @@ Check the [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
-  - Review:
-
-    - Legal
-    - Customer Engineer (CE) for security addenda or questionnaires
-
-  - Approve:
-
-    - Legal; and
-    - Finance for any non-standard payment terms including termination
-
+  - Review: (a) Legal and (b) Customer Engineer (CE) for security addenda or questionnaires
+  - Approve: (a) Legal and (b) Finance for any non-standard payment terms including termination
   - Sign: Director of Legal or VP Finance/Operations
 
 - Customer Form
 
-  - Review:
-
-    - Legal
-    - Customer Engineer (CE) for security addenda or questionnaires
-
-  - Approve:
-    - Legal; and
-    - Finance for any non-standard payment terms including termination
+  - Review: (a) Legal and (b) Customer Engineer (CE) for security addenda or questionnaires
+  - Approve: (a) Legal and (b) Finance for any non-standard payment terms including termination
   - Sign: Director of Legal or VP Finance/Operations
 
 Templates:
@@ -161,34 +147,18 @@ Templates:
 - Sourcegraph Form - Standard Terms (no redlines)
 
   - Review: None
-  - Approve:
-    - VP Budget Owner; and
-    - Finance for:
-      - Any purchases outside of the team budget
-      - Any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
   - Sign: VP Budget Owner
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
-  - Review:
-    - Finance for changes to fees, termination, or tax terms
-    - Legal for any other changes
-  - Approve:
-    - VP Budget Owner; and
-    - Finance for:
-      - Any purchases outside of the team budget
-      - Any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Review: (a) Finance for changes to fees, termination, or tax terms and (b) Legal for any other changes
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
   - Sign: VP Budget Owner
 
 - Vendor Form (including online click-through agreements)
-  - Review:
-    - Legal
-    - Finance for payment terms such as fees, termination, and tax terms
-  - Approve:
-    - VP Budget Owner; and
-    - Finance for:
-      - Any purchases outside of the team budget
-      - Any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Review: (a) Legal and (b) Finance for payment terms such as fees, termination, and tax terms
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
   - Sign: VP Budget Owner
 
 Templates:
@@ -201,11 +171,8 @@ Templates:
 
 - We don’t have Sourcegraph forms for partner contracts yet
 - Partner Form (including online click-through agreements)
-  - Review:
-    - Legal
-  - Approve:
-    - VP; and
-    - Finance
+  - Review: Legal
+  - Approve: VP and Finance
   - Sign: Director or VP
 
 ## Changes and delegation authority
