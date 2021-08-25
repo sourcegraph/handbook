@@ -1323,6 +1323,16 @@ To add yourself to this page:
 - [nick.moore@sourcegraph.com](mailto:nick.moore@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nick-moore-b704a870/), [Twitter](https://twitter.com/nickwritesit)
 - Nick is a Content Editor who's passionate about creating content that appeals to developers, engineers, and other technical folks. He's worked in editorial and agency capacities, and has worked with small startups, large enterprises, and everything in between. He was born in New Hampshire, raised in Maine, and now lives in Massachusettes. Outside work, he enjoys reading books (especially horror novels), going on hikes, playing with his dog Finn, and listening to music (especially prog rock).
 
+## Serina Clark (her/she/hers)
+
+- Director of Product - Platform & Infrastructure
+- Erie, Colorado, United States 🇺🇸
+- GitHub: [serinadawn](https://github.com/serinadawn/)
+- [serina.clark@sourcegraph.com](mailto:serina.clark@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/serinaclark/)
+- Name pronunciation (record an audio file from your phone [here](https://www.name-coach.com/))
+- I was born and raised in Steamboat Springs, CO. I love all things outdoors (hiking, biking, camping, swimming, you name it).  
+  I am passionate about travel and learning as much as a I can about other cultures. A few of the places I have spent significant time include; Saudi Arabia, Finland, France, and Mexico. Enabling software engineering teams to kick ass at development is what I love to do for work!!!
+
 ## Dan Ryan (he/him)
 
 - Senior Customer Engineer
