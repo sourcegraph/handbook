@@ -1323,6 +1323,13 @@ To add yourself to this page:
 - [nick.moore@sourcegraph.com](mailto:nick.moore@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nick-moore-b704a870/), [Twitter](https://twitter.com/nickwritesit)
 - Nick is a Content Editor who's passionate about creating content that appeals to developers, engineers, and other technical folks. He's worked in editorial and agency capacities, and has worked with small startups, large enterprises, and everything in between. He was born in New Hampshire, raised in Maine, and now lives in Massachusettes. Outside work, he enjoys reading books (especially horror novels), going on hikes, playing with his dog Finn, and listening to music (especially prog rock).
 
+## Erica Freckelton (she/her)
+
+- Senior Digital Marketing Manager
+- San Diego, California, United States 🇺🇸
+- [erica.freckelton@sourcegraph.com](mailto:erica.freckelton@sourcegraph.com), Github: [efreckelton](https://github.com/efreckelton), [LinkedIn](https://www.linkedin.com/in/ericafreckelton/)
+- Erica is a digital marketing strategist hailing from San Diego, CA. She and her trusty dog Zetty relocated from Nashville in 2020 to live with her boyfriend, Matt. You'll often catch her geeking out about digital consumer behavior, online trends, and search data. When not in front of a laptop, you'll probably find her in front of a book. Erica's one-third of the Real Friends Who Read Books, a biweekly book club podcast with her two oldest friends.
+
 ## Serina Clark (her/she/hers)
 
 - Director of Product - Platform & Infrastructure
