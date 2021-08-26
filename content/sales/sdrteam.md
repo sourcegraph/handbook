@@ -25,6 +25,7 @@ More SDRs coming soon...
 - [SDR Handoff Guide](#sdr-to-ae-handoff)
 - [Best Practices](#best-practices)
 - [Tech Stack](#tech-stack)
+- [Team Resources Folder](https://drive.google.com/drive/folders/1iTg6RUucNXqRH_R8XAFcZjBJrVsKlosY?usp=sharing)
 
 ## Inbound Workflow
 
@@ -114,4 +115,5 @@ See [CEP - Pre-Sale Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiI
 - Linkedin Sales Navigator - Prospecting Tool
 - Zoominfo - Data Intelligence Tool
 - LeadiQ - Data Intelligence Tool
-  -Yesware-Data Intelligence Tool
+- Postal.Io - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
+-
