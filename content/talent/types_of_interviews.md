@@ -296,6 +296,20 @@ In addition to the above interviews, some departments have department-specific i
   - You are not prohibited from using open-source libraries.
   - If we decide to move forward, we will schedule interviews with team members.
 
+- Core APP team coding exercise
+
+  - Duration: 1 hour
+  - Details: We designed [this synchronous exercise](https://github.com/sourcegraph/interviews/blob/master/engineering/coding/api-client/README.md) to measure your approach to coding a small API client in a paired setting.
+  - We will schedule a 60-minute timeframe to work with a Sourcegraph engineer.
+  - In this exercise you write an API client that processes data from a public, non-authenticated REST API with 1 route.
+  - The details of the assignment will be sent to you 2 hours before the interview.
+  - You may use the language of your choice.
+  - You can use your own development environment, and look up documentation on the internet.
+  - You can use any open-source libraries.
+  - We will be working in a paried setting, as if you would work in pair with a fellow engineer. We do not expect you to single handedly do all the work.
+
+If we decide to move forward, we will schedule interviews with team members.
+
 - Distribution exercise
 
   - Duration: 3 hours.
@@ -326,6 +340,12 @@ In addition to the above interviews, some departments have department-specific i
   - Interviewer(s): two members of the engineering department
   - Duration: 60-minutes.
   - Details: during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked wiht others, decisions you made, and what you'd do differently today.
+
+- Core APP Technical interview
+
+  - Interviewers(s): two members of the engineering department
+  - Duration: 45 minutes
+  - Details: This is a twist on the Technical interview in the Core APP team. It consists of open-ended questions, in order to get you to describe your mental model of designing a new system from scratch. We want to understand if you are making the right decisions when designing system architectures. We want to assess how you deal with ambiguity and how do you deal with tradeoffs, how do you approach problems of different scale and how you are able to communicate your choices to others.
 
 - Working Session
   - Interviewer(s): two members of the engineering department
