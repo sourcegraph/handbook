@@ -42,7 +42,7 @@ Upon branch cut, create and test release candidates:
 
 - [ ] Tag the first release candidate:
   ```sh
-  N=1 yarn release release:create-candidate $N
+  N=1; yarn release release:create-candidate $N
   ```
 - [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.1` tag:
 
