@@ -78,7 +78,7 @@ Note, that to connect to `localhost:5555` you still need to supply the postgres 
 We run a PgHero deployment as well you can use to analyze slow queries and overall database performance.
 
 ```
-  kubectl port-forward -n monitoring svc/pghero 8080:80
+  kubectl port-forward -n monitoring deploy/pghero 8080:8080
 ```
 
 and then navigate to http://localhost:8080 to view the dashboard
