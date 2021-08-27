@@ -9,7 +9,7 @@ In support of our product/engineering Q3 objective to _Make cloud and enterprise
 | 3   | In-progress | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                                                     |
 | 4   | In-progress | Adeola      | Create cheat sheets of what logs are most needed in certain situations                                                         |
 | 5   | In-progress | Beatrix     | Make the [command generator](https://sourcegraph.github.io/support-tools/command-generator/beta/) customer-facing and scalable |
-| 6   | Not started | Michael     | Create database type solution to make it easy and reliable for CSEs to learn from past tickets                                 |
+| 6   | In-progress | Michael     | Create database type solution to make it easy and reliable for CSEs to learn from past tickets                                 |
 | 7   | In-progress | Alex        | Streamline key steps in CSE workflow                                                                                           |
 | 8   | In-progress | Carl        | 5 folks complete kubernetes certification                                                                                      |
 | 9   | Not started | Virginia    | Implement retro practice for all tickets that take longer than 7 days to solve                                                 |
@@ -53,9 +53,10 @@ In support of our product/engineering Q3 objective to _Make cloud and enterprise
 ### 6 CSE "database"
 
 - Workgroup: Michael, Jason, Ben, Gabe, Warren, Don
-- Details: This is a big problem to tackle and will require agreeing to the problem statement, what needs to be true for the solution, and then brainstorming. A few things to consider already:
-  - Having a Guide/pool/database of all resolved tickets with specific keywords to easily identify what the troubleshooting steps are talking about, especially for frequent or complex cases where we can easily make reference to for faster customer resolution. Having a well documented case note( outlining thought process, and steps towards resolution) would really go a long way in achieving this.
+- Channel: [#wg-post-aux](https://sourcegraph.slack.com/archives/C02B9HR49U6)
+- Details: Having a Guide/pool/database of all resolved tickets with specific keywords to easily identify what the troubleshooting steps are talking about, especially for frequent or complex cases where we can easily make reference to for faster customer resolution. Having a well documented case note( outlining thought process, and steps towards resolution) would really go a long way in achieving this.
   - Place for documenting known historic bugs indexed to versions (thinking an md file in our github page), I don’t think the changelog is sufficient for this nor the upgrade pages on Docs.
+  - Ensuring we have a framework in place that accounts for data integrity and ensuring customer sensitive information are not exposed.
   - It will be interesting to assess the pros/cons of the solution being customer-facing or not and/or what can be customer-facing vs not
 
 ### 7 Streamline key steps in CSE workflow
