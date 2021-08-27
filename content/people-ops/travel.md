@@ -156,6 +156,8 @@ For business critical travel or travel required for your role, we offer a budget
 
 # How to get your trip approved
 
+[TripActions](TripActions.md)
+
 Before booking trips, you must obtain budget approval by sending an email to travel@sourcegraph.com with your manager or director cc’d. If booking a trip with a group (i.e. team meet-up), we recommend group approval requests to reduce the number of requests required for each team member.
 _Please include the following for individual or group travel requests:_
 
