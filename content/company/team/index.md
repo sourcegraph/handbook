@@ -693,9 +693,10 @@ To add yourself to this page:
 ## Beatrix Woo (she/her)
 
 - Customer Support Engineer
-- San Diego, CA, USA
-- - [beatrix@sourcegraph.com](mailto:beatrix@sourcegraph.com), [GitHub](https://github.com/abeatrix), [LinkedIn](https://www.linkedin.com/in/wbeatrix/) , [Pronounce my name 🔊](https://www.youtube.com/watch?v=aZWHsV96NqY)
-- Originally from Hong Kong, Beatrix is now residing in the sunny San Diego with her husband and their Shiba Inu, Goku. She has recently made a career change from the Financial industry after working for Morgan Stanley and Uber to pick up her old passion in coding. She is currently working toward her Master’s Degree in Software Engineering. In her free time, Beatrix likes to spend time with her family, learn about different technologies, build mechanical keyboards, and play League of Legends with friends.
+- San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
+- GitHub: [abeatrix](https://github.com/abeatrix)
+- [beatrix@sourcegraph.com](mailto:beatrix@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/wbeatrix/) , [Pronounce my name 🔊](https://www.youtube.com/watch?v=aZWHsV96NqY), [@3eatrix](https://www.twitter.com/3eatrix/)
+- Originally from Hong Kong, Beatrix is now residing in the sunny San Diego with her husband and their Shiba Inu, Goku. She was working as an analyst and has worked for Morgan Stanley and Uber before she picked up her old passion in coding. In her free time, Beatrix likes to spend time with her family, learn about different technologies, build mechanical keyboards, and play [League of Legends](https://na.op.gg/summoner/userName=biues) with friends.
 
 ## Stompy Mwendwa
 
