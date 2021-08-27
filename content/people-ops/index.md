@@ -9,6 +9,7 @@
 - [Inés Roitman](../company/team/index.md#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
 - [Cassie Melani](../company/team/index.md#cassie-melani-she-her), Teammate Success Manager
 - [Cecily Black](../company/team/index.md#cecily-black-she-her), People Operations Coordinator
+- [Mary Belzer](../company/team/index.md#mary-belzer-she-her), Handbook Product Manager
 
 ### Roles
 
