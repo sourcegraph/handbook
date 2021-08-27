@@ -13,12 +13,15 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 - **Step 1:** In the triage view, the first step is to open a ticket and understand the context of the message. Slow down and have a closer look at the content and the medium from which the message originated (emails tend to be rare). Is this related to another open issue? Is this a new issue? Is this not an issue at all?
 
-- **Step 2:** Identify if there is action for CS or not
+- **Step 2:** If the case came in via Slack (whether or primary account and the support- or trial- channels, or our Community account and the #help channel), change the requestor to the person who requested it. This is not necessary if the ticket came in via email.
 
-  - If there is an action for CS, go to step 3
+  - Sometimes it may be an internal person and that would be correct, unless our teammate is posting on behalf of the customer and then we would want to change it to the customer.
+  - When a CSE is assigned to a customer, this step will also trigger that CSE to appear as the assignee -- you may need to adjust this if that person is out -- and any backup CSEs to be added as a follower.
+
+- **Step 3:** Identify if there is action for CS or not
+
+  - If there is an action for CS, go to step 4
   - If there is no action for CS, go to step 8
-
-- **Step 3:** If the case came in via Slack (whether or primary account and the support- or trial- channels, or our Community account and the #help channel), change the requestor to the person who requested it. This is not necessary if the ticket came in via email.
 
 - **Step 4:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision.
 
