@@ -21,7 +21,7 @@ In support of our product/engineering Q3 objective to _Make cloud and enterprise
 ### 1 `src debug` command to `src-cli`
 
 - Workgroup: Warren, Tomas
-- Details: This command will create an archive (zip file) with the information we need most often in troubleshooting (values, logs, etc) so that we can ask for one thing and get the majority (if not all) the information we need while troubleshooting. We'll additionally need a way for customers to transfer us this file (it will probably be too big for slack). [This](https://github.com/sourcegraph/src-cli/blob/src-debugger/cmd/src/debug.go) is the repo.
+- Details: This command will create an archive (zip file) with the information we need most often in troubleshooting (values, logs, etc) so that we can ask for one thing and get the majority (if not all) the information we need while troubleshooting. We'll additionally need a way for customers to transfer us this file (it will probably be too big for slack). This is an MVP in accordance with the [observability RFC](https://docs.google.com/document/d/1KjV9pNkwCwqzV5ugW6Bn0eQDZw2L8lVuWaaf7IvVYgQ/edit#). Future plans involve encorperating grafana snapshots and jaeger tracing into this tool. You can see the code in the `src-cli` [src debugger](https://github.com/sourcegraph/src-cli/blob/src-debugger/cmd/src/debug.go) branch.
 
 ### 2 Doc updates
 
