@@ -14,9 +14,9 @@ There are two ways of connecting: either using the `gcloud beta sql connect` com
 
 For read-only access, there is also an option of using [BigQuery](https://console.cloud.google.com/bigquery?sq=527047051561:67f2616f4acb4b7cb3639e4a97e2f4aa) and their `EXTERNAL_QUERY` syntax.
 
-## Connecting to Postgres
+### Connecting to Postgres
 
-### Install the command line tools
+#### Install the command line tools
 
 If you didn't yet, [install Google Cloud SDK](https://cloud.google.com/sdk/docs/install). Ensure, that `gcloud` command is reachable on your path.
 
@@ -26,7 +26,7 @@ Install the Cloud SQL proxy by running this command with `gcloud`:
   gcloud components install cloud_sql_proxy
 ```
 
-### Command line only use (pgsql)
+#### Command line only use (pgsql)
 
 You may use these gcloud commands to connect directly to the databases:
 
@@ -42,7 +42,7 @@ You may use these gcloud commands to connect directly to the databases:
 
   Go to [Example Queries](#example-queries) to continue
 
-### Proxy for advanced use
+#### Proxy for advanced use
 
 Run the `cloud_sql_proxy` against our production instance
 
@@ -59,7 +59,7 @@ Now, in a new terminal, run the command below. The database will be running on `
 
 Note, that to connect to `localhost:5555` you still need to supply the postgres password stored in 1Password (mentioned above).
 
-## Example queries
+### Example queries
 
 > 🔥 You are directly interfacing with the production database. If you are unsure of any commands, please reach out in #dev-chat or #dev-ops.
 > Please prefer using the readonly user `frontend-dev`
@@ -73,7 +73,7 @@ Note, that to connect to `localhost:5555` you still need to supply the postgres 
     SELECT COUNT(*) FROM repo;
   ```
 
-## Performance monitoring
+### Performance monitoring
 
 We run a PgHero deployment as well you can use to analyze slow queries and overall database performance.
 
@@ -81,6 +81,20 @@ We run a PgHero deployment as well you can use to analyze slow queries and overa
   kubectl port-forward -n monitoring deploy/pghero 8080:8080
 ```
 
-and then navigate to http://localhost:8080 to view the dashboard
+And then navigate to http://localhost:8080 to view the dashboard
 
 See additional Postgres tips in our [incident docs](../incidents/playbooks/index.md#postgreSQL-database-problems)
+
+## Dogfood specific
+
+[Dogfood](https://k8s.sgdev.org) runs Sourcegraph completely on Kubernetes. You can port-forward the pgsql deployment:
+
+```
+  kubectl port-forward -n dogfood-k8s deploy/pgsql 8080:5432
+```
+
+And access it locally:
+
+```
+  pgcli -h localhost -p 8080 -d sg -U 'sg'
+```
