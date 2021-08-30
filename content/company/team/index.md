@@ -53,9 +53,9 @@ To add yourself to this page:
 ## Ryan Slade (he/him)
 
 - Software Engineer
-- Cape Town, South Africa 🇿🇦
+- Valencia, Spain 🇪🇸
 - [rslade@sourcegraph.com](mailto:rslade@sourcegraph.com), [@frefity](https://twitter.com/frefity), [LinkedIn](https://www.linkedin.com/in/ryan-slade-1bb36bb/)
-- Ryan enjoys spending time with his family, mountain biking and playing squash. Prior to Sourcegraph he helped develop a real time bidding system for online advertisers at Avocet and worked for a taxi hailing company in London, Hailo. He studied Computer Science at the University of Cape Town and has lived in the South Africa, the UK, Singapore and the US.
+- Ryan enjoys spending time with his family, mountain biking and playing squash. Prior to Sourcegraph he helped develop a real time bidding system for online advertisers at Avocet and worked for a taxi hailing company in London, Hailo. He studied Computer Science at the University of Cape Town and has lived in the South Africa, the UK, Singapore the US and Spain.
 
 ## Rijnard van Tonder
 

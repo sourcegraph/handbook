@@ -17,19 +17,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ryan Slade"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.45681935548782,
-          -34.03938697062592
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Keegan Carruthers-Smith"
       },
       "geometry": {
@@ -1110,7 +1097,7 @@
     },
     {
       "type": "Feature",
-     "properties": {
+      "properties": {
         "name": "Mary Belzer"
       },
       "geometry": {
@@ -1118,6 +1105,19 @@
         "coordinates": [
           -104.92050647735596,
           39.76873328671909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ryan Slade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3767967224121093,
+          39.47443172831845
         ]
       }
     }
