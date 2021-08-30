@@ -55,15 +55,16 @@ Refer to the [promotion request](career-development/talent-review-process.md#pro
 
 ## Transitioning from Individual Contributor to Engineering Manager
 
-For teammates pursuing an Engineering Manager role but who lack the necessary people management experience, we have defined the following transitioning guide that affords the candidate a "manager in training" opportunity to try out being an Engineering Manager for a trial period. The trial period will allow the teammate to determine if they want to commit to it long-term and verify that they would be good in the role.
+For teammates interested in becoming Engineering Managers who do not have prior experience in people management, we have defined a transition framework that affords this candidate a "Manager in training" opportunity for a trial period. This trial period will allow the teammate to gain exposure to management principles, determine if they would excel as an Engineering Manager, and help them envision committing to this career path long-term.
 
 ### Expressing interest in becoming an Engineering Manager
 
-Teammates who have reached the [IC3 level](career-development/framework.md#ic3) and have a track record of good performance at Sourcegraph, having been employed for at least six months, are eligible for a manager in training trial.
+Prerequisites for a manager in training trial: Teammates who have reached the IC4 level, have a track record of good performance at Sourcegraph, and have been a teammate at Sourcegraph for at least six months.
+
 The teammate should make their desire clear to their Engineering Manager so that when a relevant opportunity becomes available, they may be considered.
 
 Opportunities for a manager in training trial can come about through a current Engineering Manager position becoming vacant, an existing team splitting into two, or an Engineering Manager going on long-term PTO.
-When an opportunity arises, the teammate's manager can nominate them for a manager in training trial to the Director of Engineering for the relevant org.
+When an opportunity arises, the teammate's manager can nominate them for a manager in training trial by having a conversation with the Director of Engineering for the relevant org.
 
 There are some considerations to keep in mind to ensure that the teammate is set up for success:
 
@@ -77,12 +78,11 @@ There are some considerations to keep in mind to ensure that the teammate is set
 During the trial period, the manager in training will assume full Engineering Manager responsibility as outlined in the [Engineering Manager responsibilities](roles.md#engineering-manager).
 
 The teammate's manager, director, or another nominated manager/director will become their sponsoring manager for the duration of the trial period. The sponsoring manager must commit to providing extra support to the manager in training during the trial period, which will last 12 weeks.
-The trial period may be extended if agreed to by the manager in training and the sponsoring manager. However, the trial period should not be extended to more than 16 weeks.
 
 The sponsoring manager will give the manager in training active coaching and feedback during weekly 1-1s and conduct bi-weekly 1-1s with the manager in training's direct reports to collect feedback and set them up for success.
 Halfway through their trial period, the manager in training will receive an interim performance evaluation to help them identify strengths and shortcomings as an engineering manager and allow them to adjust if needed.
 
-The trial period can be canceled by the manager in training or the sponsoring manager at any time if it is not working out.
+The trial period can be ended at any time by either the manager in training or the sponsoring manager if either party feels like being an Engineering Manager may not be the best role for the trainee. If either party decides to end it, both the trainer and trainee should formulate a transition plan for the trainee to resign their duties and resume working with their original teams.
 
 ### Becoming an Engineering Manager
 
