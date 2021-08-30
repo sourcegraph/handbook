@@ -67,12 +67,10 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 - After the candidate signs the offer, the Recruiter sends a welcome email to the candidate and Cc's the Hiring Manager.
 - The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
 - The Recruiter takes the following steps:
-  - Declines all other candidates.
-  - Confirms that the start date and hired date are correct, ensuring accurate time-to-fill data.
-  - Marks the candidate as "Hired" in Greenhouse.
-  - Closes the job (if applicable).
-  - Sends a hire report to Inés, Noemi, VP of Talent, and Hiring Manager.
-  - Exports the candidate to Bamboo.
+  - 1 Declines all other candidates.
+  - 2 Confirms that the start date and hired date are correct, ensuring accurate time-to-fill data.
+  - 3 Confirms the candidate source information is accurate, ensuring accurate source data.
+  - 4 Click the "Mark Candidate as Hired" button found in the "Offer Details" section of the candidate's profile: 1. Select Close Reason 2. Click either "yes" or "no" in the "Keep Job Open" section" 3. Select "Yes" for "Make Candidate Private" 4. Selet "Yes" for "Export to BambooHR" 5. Email a summary of this candidate to: Inés, Noemi, VP of Talent, and Hiring Manager
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
 
 ## Using external recruiting agencies
