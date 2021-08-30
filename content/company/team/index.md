@@ -469,11 +469,11 @@ To add yourself to this page:
 ## Emily Chapman (she/her)
 
 - Customer Engineer
-- Los Angeles, USA, 🇺🇸
+- Portland, OR, USA, 🇺🇸
 - GitHub: [emchap](https://github.com/emchap)
 - [emily@sourcegraph.com](mailto:emily@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/emchap/)
 - [Name pronunciation](https://www.name-coach.com/emily-chapman-ec13ee64-97e1-4eb4-978f-59d672131b50)
-- Emily grew up in Atlanta, GA but now lives in Los Angeles. She started her career at Mailchimp/Mandrill before stints at Trello/Atlassian, Healthify, and Help Scout. She is the creator of [Lana Ipsum](http://lanaipsum.com/), a Lana Del Rey lorem ipsum generator. She is obsessed with the .horse TLD, localization of the sweet potato emoji (🍠), and the ways in which SMTP can run into encoding issues. In her free time she can be found either cooking, or trying to convince her very loud cat to be less loud. She has an Anthropology degree and knows a lot about bog bodies.
+- Emily grew up in Atlanta, GA but now lives in Portland, OR. She started her career at Mailchimp/Mandrill before stints at Trello/Atlassian, Healthify, and Help Scout. She is the creator of [Lana Ipsum](http://lanaipsum.com/), a Lana Del Rey lorem ipsum generator. She is obsessed with the .horse TLD, localization of the sweet potato emoji (🍠), and the ways in which SMTP can run into encoding issues. In her free time she can be found either cooking, or trying to convince her very loud cat to be less loud. She has an Anthropology degree and knows a lot about bog bodies.
 
 ## Erica Lindberg (she/her)
 
