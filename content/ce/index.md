@@ -39,19 +39,22 @@ This continuity means we give customers consistent and high-quality service from
   - [Elzanne Wentzel](../company/team/index.md#elzanne-wentzel-she-her)
   - [FQ3 CE (Singapore)](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - Americas - US West
-  - [David Rohnow](../company/team/index.md#david-rohnow-he-him)
   - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
   - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
+  - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
+  - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
+  - [David Rohnow](../company/team/index.md#david-rohnow-he-him)
+  - [Dan Ryan](../company/team/index.md#dan-ryan-he-him)
   - [Manuel Ucles](../company/team/index.md#manuel-ucles)
   - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
-  - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
-  - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
 - Americas - US East
-  - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
+  - [Leo Abreu](../company/team/index.md#leo-abreu-he-him)
   - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
+  - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
   - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
-  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
   - [Shawn King](../company/team/index.md#shawn-king-he-him)
+  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
+  - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
   - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
 
 ## Open Roles
