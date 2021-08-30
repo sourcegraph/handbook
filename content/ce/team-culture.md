@@ -5,7 +5,7 @@ CEs interact with most every other team at Sourcegraph. This page details those 
 - [How we intersect other teams](#how-we-intersect-other-teams)
 - [Recurring Team Meetings](#recurring-team-meetings)
 - [Out of Office / Vacation / PTO Protocols](#ooo-protocols)
-- [Slack Channels](#ce-specific-slack-channels)
+- [Relevant Slack Channels](#ce-specific-slack-channels)
 - [CE Forward-Looking Vision](#forward-vision)
 
 ---
@@ -16,9 +16,9 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 
 ### Sales
 
-- **How CE adds value to sales:** CEs are the right-hand team for Sales by serving as technical experts; CEs lead product demos, guide customers through trials/POCs, lead production deployments, focus on product usage and adoption, and build and nurture technical champions.
-- **How sales adds value to CE:** Sales, with their focus on the commercial relationship, introduces CEs to the customer relationship and helps CEs nurture the relationship.
-- **Collaboration overview:** Paired together on accounts throughout the customer journey.
+- **How CE adds value to sales:** CEs are the right-hand team for Sales by serving as technical experts and ultimately owning the technical win. CEs lead product demos, guide customers through trials, lead production deployments, capture customer technical requirements, closely monitor product usage and adoption, and build and nurture technical champions.
+- **How sales adds value to CE:** Sales, with their focus on the commercial relationship, introduces CEs to the customer relationship and helps CEs nurture the relationship. Both Sales Development Reps (SDRs) and Account Executives (AEs) share context with CEs prior to introducing them to the customer.
+- **Collaboration overview:** AEs and CEs are stably paired together on accounts throughout the customer journey. SDRs, during their prospecting efforts, are able to get support from the CE team via the @ce-sdr-collab slack user group. SDRs should post their question and tag this user group in the #ce slack channel. CEs in this user group are individuals on the CE team that are in their first 120 days; this provides great learning opportunities for the CE team to craft answers and confirm their product understanding; it in turn provides more structure and responsibility for responding to Q&As to help the SDR team be successful.
 
 ### Customer Support Engineers (CSEs)
 
