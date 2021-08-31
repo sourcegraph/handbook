@@ -15,6 +15,10 @@
 
 See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the People Ops team.
 
+### READMEs
+
+[People Ops READMEs](people-ops-bios.md)
+
 ### How to reach the right member of the People Ops team
 
 If you encounter a question at any point, we're here to help!
