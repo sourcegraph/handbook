@@ -1367,7 +1367,7 @@ To add yourself to this page:
 
 ## Greg Bouton (he/him/his)
 
-- Email & Automation Marketing Manager
+- Senior Email & Automation Marketing Manager
 - S. Hamilton, MA, United States 🇺🇸
 - GitHub: [GregBouton](https://github.com/GregBouton)
 - [greg.bouton@sourcegraph.com](mailto:greg.bouton@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/gregbouton/)
