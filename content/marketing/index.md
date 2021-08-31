@@ -93,6 +93,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
     - Lori Heyman, Digital Marketing Programs
     - Rebecca Rissinger, Manager, Marketing Operations
     - Jake Sorensen, Programs Lead, Demand Gen Campaigns
+    - [Greg Bouton](https://about.sourcegraph.com/handbook/company/team#greg-bouton-he-him-his), Senior Email & Automation Marketing Manager
   - Tommy Pesavento, Director of Brand Design
     - [Fabiana Castellanos](https://about.sourcegraph.com/handbook/company/team#fabiana-castellanos-she-her), Project Coordinator, Brand
     - [Sruti Dhulipala](https://www.linkedin.com/in/sruti-dhulipala/), Senior Manager, Global Brand Strategy
