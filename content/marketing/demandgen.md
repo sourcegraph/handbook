@@ -27,6 +27,6 @@ The **Operations group** is responsible for systems and analytics which support 
 - Jake Sorensen - Program Lead, Demand Gen Campaigns
 - Lori Heyman - Contractor, Digital Marketing
 - Erica Freckelton - Senior Digital Marketing Manager
-- Greg Bouton - Email + Automation Manager
+- Greg Bouton - Senior Email + Automation Manager
 - (TBH) Growth Marketing Manager
 - (TBH) Marketing Analyst
