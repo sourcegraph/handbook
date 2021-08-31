@@ -60,22 +60,30 @@ In the site admin panel, we have a Usage stats page that displays number of MAUs
 
 ## Sourcegraph Cloud
 
-### Funnel definitions
+### User status definitions
 
-| Status      | Description                                                                |
-| ----------- | -------------------------------------------------------------------------- |
-| Visitor     | A user who landed on Sourcegraph Cloud                                     |
-| Active      | A user who performed an activation qualifying event once in the timeperiod |
-| Retained    | A user who were active last month _and_ this month                         |
-| Churned     | A user who were active last month but not this month                       |
-| Resurrected | A user who were _not_ active last month but are active this month          |
-| Registered  | A user who created an account on Sourcegraph Cloud                         |
+| Status      | Description                                                                                            |
+| ----------- | ------------------------------------------------------------------------------------------------------ |
+| Visitor     | A user who landed on Sourcegraph Cloud                                                                 |
+| Active      | A user who performed an active event for the time period (see Amplitude for the list of active events) |
+| Retained    | A user who were active last month _and_ this month                                                     |
+| Churned     | A user who were active last month but not this month                                                   |
+| Resurrected | A user who were _not_ active last month but is active this month                                       |
+| Registered  | A user who created an account on Sourcegraph Cloud                                                     |
 
-##### Activation qualifying events
+### Key metrics
 
-Users activate if they perform one of these qualifying events:
+We track the following key metrics:
 
-| Product area              | Qualifying events                  | Description                                                                                         |
+- acquisition: number of visitors
+- activation: the percentage of visitors that had a successful initial experience.
+- retention: the number of active users retained time period over time period
+
+#### Activation
+
+Understanding what drives a successfull initial experience is currently a work in progress. As a placeholder, we currently define activation as the percentage of users that performed one of those qualifying events:
+
+| Product area              | Qualifying event                   | Description                                                                                         |
 | ------------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------- |
 | Searching for code        | `SearchSubmitted`                  | Submit a search                                                                                     |
 | Navigating the code graph | `findReferences`, `goToDefinition` | Click on go to definition or fin references. Hovering is excluded as it can be performed passively. |
