@@ -66,6 +66,7 @@ AE leads initial call and dispositions the opportunity accordingly:
 ## SDR to AE Handoff
 
 See [CEP - Pre-Sale Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/edit#gid=0) for more info.
+See [SDR/AE Meeting ROE](https://docs.google.com/document/d/1KP1ao_UBZS80s4o0lOM3xs9ldJkl_iD_0cAS3CoXxqc/edit?usp=sharing) for detailed guide on expectations for the AE/SDR roles Pre/During/Post meeting.
 
 **Before the first call with the prospect:**
 
