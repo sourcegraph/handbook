@@ -146,6 +146,31 @@ In addition to the above interviews, some departments have department-specific i
 
 ## BizOps, Finance, Legal, TechOps
 
+- BizOps: Director of Data & Analytics take-home project
+  - It’s 2021, and Sourcegraph is growing at a rapid pace. With the launch of Sourcegraph cloud and significant growth in sales of the existing self-hosted deployment option, the VP of Operations is asking you to prepare a plan for upgrading our data infrastructure to be prepared for the next several years of growth.
+  - We have a complex user journey that can touch a number of websites, apps, and integrations:
+  - Data sources:
+    - Websites
+      - About.sourcegraph.com: Sourcegraph’s marketing website (pages include: a splash homepage, our blog, about us, contact us, press, careers, terms of service, etc.)
+      - Learn.sourcegraph.com (learning and tutorials about code search)
+      - Docs.sourcegraph.com (documentation)
+      - Custom SEO landing pages
+      - And more...
+    - Core products:
+      - Sourcegraph.com: The cloud product, used for searching across the universe of open source code and users’ private repositories. Can be used as an actual product destination or simply as a demo as needed.
+      - Self-hosted Sourcegraph instances: Self-hosted webapps, using the same codebase as Sourcegraph.com, but deployed on-premises or in our customers’ private clouds. An example would be Uber’s private Sourcegraph instance—only accessible to Uber employees and contractors, and only containing Uber’s code. It would be accessible to Uber devs on an internal-only domain, like sourcegraph.uber.com.
+    - Integrations:
+      - Sourcegraph browser extensions: Chrome, Safari, and Firefox extensions that add Sourcegraph features to other websites where users view code (e.g. enhanced code views on sites like GitHub, GitLab, Bitbucket, and more).
+      - Sourcegraph editor extensions: downloadable plugins for desktop code editors, such as VS Code, Atom, and Vim, that add some Sourcegraph features locally.
+    - Key notes:
+      - The expectation for privacy is much higher for our downloaded products and self-hosted Sourcegraph instances. E.g. the customers who opt to host Sourcegraph themselves expect us not to track their users’ actions. Instead, we only collect aggregated telemetry from self-hosted Sourcegraph instances, with no individual user-level details.
+      - Consumers of this user journey data include nearly every part of the company, from product (core app engagement and product usage data), engineering (application performance data), marketing and sales (top of funnel data and user engagement data for outreach), customer success (customer health and engagement), and more.
+      - Our current traffic is ~100k monthly website visitors and cloud product users and ~40k monthly self-hosted instance users.
+    - Deliverables:
+      - Please design a high-level, conceptual data pipeline that would serve our business’s needs. Please name specific recommended tools (or options) to serve at each step of the pipeline. No need to write descriptions of every step, but please be prepared to answer questions about them.
+      - Please describe the basic structure of data at the beginning(s) and the end(s) of the pipeline, and be prepared to discuss the data transformations that take place along the way.
+      - Finally, please draw or describe (no real data required) the dashboards or reports that you would recommend providing to the CEO, the head of Product, and the head of Marketing each month.
+  - We recommend that you spend approximately 2 hours on this case study. Please feel free to reach out with any questions!
 - BizOps: Product Analyst take-home project
   - This exercise should take 2-3 hours to complete;please don’t take more than that!
   - Getting setup: You’ll be using Mode Analytics public datasets tocomplete this take-home project. Here are the steps to getting into the SQL workspace:
