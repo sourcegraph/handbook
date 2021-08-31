@@ -82,4 +82,4 @@ Sagittarius sun, Pisces moon, and Gemini rising.
 
 ### My enneagram
 
-Enneagram type 6: The Loyalist
+[Enneagram type 6: The Loyalist](https://www.enneagraminstitute.com/type-6)
