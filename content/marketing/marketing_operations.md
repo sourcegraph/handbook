@@ -4,7 +4,7 @@ The Marketing Operations Team at Sourcegraph is focused on the mechanics of how 
 
 ## MarTech Stack
 
-As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today.
+As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today. Martech login details can be [found here](https://docs.google.com/spreadsheets/d/1LhvprlawDG2sNa_ozO_BBQWroOropudoyVVRiqhBNLo/edit#gid=274864472).
 
 ## Lead Management
 
