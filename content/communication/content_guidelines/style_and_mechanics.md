@@ -307,13 +307,16 @@ An en dash is slightly wider than a hyphen (-) but narrower than an em dash (—
 
 ### Money
 
-When writing about US currency, use the dollar sign ($) before the amount. Omit the cents. Do not insert a space between the dollar sign and the number.
+When writing about US currency, use the dollar sign ($) before the amount. Prefer to omit the cents. Use commas to separate thousands, and when unavoidable, a period to separate the cents. Do not insert a space between the dollar sign and the number.
 
 <div class="usage">
 <div class="item yes">
 <h5>Yes</h5>
 <ul>
 <li>$10</li>
+<li>$42</li>
+<li>$1,500</li>
+<li>$149.99</li>
 </ul>
 </div>
 <div class="item no">
@@ -321,6 +324,8 @@ When writing about US currency, use the dollar sign ($) before the amount. Omit 
 <ul>
 <li>$10.00</li>
 <li>$ 42</li>
+<li>$1500</li>
+<li>$149,99</li>
 </ul>
 </div>
 </div>
