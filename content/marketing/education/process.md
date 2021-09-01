@@ -30,7 +30,7 @@ Content should be written in markdown, self-reviewed, and then passed to the **R
 
 When a piece is moved to the **Reviewing** stage, it is being reviewed. The piece should not be worked on by anyone other than the reviewer at this time. Reviewers should be in **commenting** mode, provide holistic feedback, and explain suggestions throughout.
 
-When a piece is moved to the **Review complete** stage, it is ready to be moved back to **In progress** for continued work, or can be raised as a pull request. Please review the comments on the ticket for next steps.
+When a piece is moved to the **Review complete** stage, it is ready to be moved back to **In progress** for continued work. _If it is publication-ready_, it can be raised as a pull request. Please review the comments on the ticket for next steps.
 
 Once a piece is in a pull request, it needs to be reviewed one final time to ensure that everything looks correct on the site (locally tested or reviewed via deploy preview) and that no errors were missed.
 
