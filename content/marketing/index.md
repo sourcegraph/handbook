@@ -90,10 +90,10 @@ The table below breaks down the capabilities of each team within Marketing. Once
     - [Katy Juell](../company/team/index.md#katy-juell-she-her), Full Stack Engineer
     - We will be hiring technical educators
   - [Sarah Reece](../company/team/index.md#sarah-reece-she-her), Director of Demand Generation
-    - Lori Heyman, Digital Marketing Programs
     - Rebecca Rissinger, Manager, Marketing Operations
     - Jake Sorensen, Programs Lead, Demand Gen Campaigns
     - [Greg Bouton](https://about.sourcegraph.com/handbook/company/team#greg-bouton-he-him-his), Senior Email & Automation Marketing Manager
+    - [Erica Freckelton](https://about.sourcegraph.com/handbook/company/team#erica-freckelton-she-her), Senior Digital Marketing Manager
   - Tommy Pesavento, Director of Brand Design
     - [Fabiana Castellanos](https://about.sourcegraph.com/handbook/company/team#fabiana-castellanos-she-her), Project Coordinator, Brand
     - [Sruti Dhulipala](https://www.linkedin.com/in/sruti-dhulipala/), Senior Manager, Global Brand Strategy
