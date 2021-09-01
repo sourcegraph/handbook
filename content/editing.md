@@ -179,6 +179,10 @@ E.g. `/handbook/ce/support/ /handbook/support/ 308`
 
 The page that's being redirected _from_ must be deleted, or the build will break.
 
+## Markdown Tips
+
+1. Spacing matters when it comes to tiered lists. To indent a line in a list, add two spaces before the dash or asterisk. Incorrect spacing still allow those bullets and indents to display, but spacing and sizing may look different from the rest of your document. See more under the "Lists" section under Examples [here](https://guides.github.com/features/mastering-markdown/).
+
 ## Running a local preview handbook site
 
 > NOTE: This is optional.
