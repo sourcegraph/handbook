@@ -150,26 +150,26 @@ In addition to the above interviews, some departments have department-specific i
   - It’s 2021, and Sourcegraph is growing at a rapid pace. With the launch of Sourcegraph cloud and significant growth in sales of the existing self-hosted deployment option, the VP of Operations is asking you to prepare a plan for upgrading our data infrastructure to be prepared for the next several years of growth.
   - We have a complex user journey that can touch a number of websites, apps, and integrations:
   - Data sources:
-    - Websites
-      - About.sourcegraph.com: Sourcegraph’s marketing website (pages include: a splash homepage, our blog, about us, contact us, press, careers, terms of service, etc.)
-      - Learn.sourcegraph.com (learning and tutorials about code search)
-      - Docs.sourcegraph.com (documentation)
-      - Custom SEO landing pages
-      - And more...
-    - Core products:
-      - Sourcegraph.com: The cloud product, used for searching across the universe of open source code and users’ private repositories. Can be used as an actual product destination or simply as a demo as needed.
-      - Self-hosted Sourcegraph instances: Self-hosted webapps, using the same codebase as Sourcegraph.com, but deployed on-premises or in our customers’ private clouds. An example would be Uber’s private Sourcegraph instance—only accessible to Uber employees and contractors, and only containing Uber’s code. It would be accessible to Uber devs on an internal-only domain, like sourcegraph.uber.com.
-    - Integrations:
-      - Sourcegraph browser extensions: Chrome, Safari, and Firefox extensions that add Sourcegraph features to other websites where users view code (e.g. enhanced code views on sites like GitHub, GitLab, Bitbucket, and more).
-      - Sourcegraph editor extensions: downloadable plugins for desktop code editors, such as VS Code, Atom, and Vim, that add some Sourcegraph features locally.
-    - Key notes:
-      - The expectation for privacy is much higher for our downloaded products and self-hosted Sourcegraph instances. E.g. the customers who opt to host Sourcegraph themselves expect us not to track their users’ actions. Instead, we only collect aggregated telemetry from self-hosted Sourcegraph instances, with no individual user-level details.
-      - Consumers of this user journey data include nearly every part of the company, from product (core app engagement and product usage data), engineering (application performance data), marketing and sales (top of funnel data and user engagement data for outreach), customer success (customer health and engagement), and more.
-      - Our current traffic is ~100k monthly website visitors and cloud product users and ~40k monthly self-hosted instance users.
-    - Deliverables:
-      - Please design a high-level, conceptual data pipeline that would serve our business’s needs. Please name specific recommended tools (or options) to serve at each step of the pipeline. No need to write descriptions of every step, but please be prepared to answer questions about them.
-      - Please describe the basic structure of data at the beginning(s) and the end(s) of the pipeline, and be prepared to discuss the data transformations that take place along the way.
-      - Finally, please draw or describe (no real data required) the dashboards or reports that you would recommend providing to the CEO, the head of Product, and the head of Marketing each month.
+  - Websites
+  - About.sourcegraph.com: Sourcegraph’s marketing website (pages include: a splash homepage, our blog, about us, contact us, press, careers, terms of service, etc.)
+  - Learn.sourcegraph.com (learning and tutorials about code search)
+  - Docs.sourcegraph.com (documentation)
+  - Custom SEO landing pages
+  - And more...
+  - Core products:
+  - Sourcegraph.com: The cloud product, used for searching across the universe of open source code and users’ private repositories. Can be used as an actual product destination or simply as a demo as needed.
+  - Self-hosted Sourcegraph instances: Self-hosted webapps, using the same codebase as Sourcegraph.com, but deployed on-premises or in our customers’ private clouds. An example would be Uber’s private Sourcegraph instance—only accessible to Uber employees and contractors, and only containing Uber’s code. It would be accessible to Uber devs on an internal-only domain, like sourcegraph.uber.com.
+  - Integrations:
+  - Sourcegraph browser extensions: Chrome, Safari, and Firefox extensions that add Sourcegraph features to other websites where users view code (e.g. enhanced code views on sites like GitHub, GitLab, Bitbucket, and more).
+  - Sourcegraph editor extensions: downloadable plugins for desktop code editors, such as VS Code, Atom, and Vim, that add some Sourcegraph features locally.
+  - Key notes:
+  - The expectation for privacy is much higher for our downloaded products and self-hosted Sourcegraph instances. E.g. the customers who opt to host Sourcegraph themselves expect us not to track their users’ actions. Instead, we only collect aggregated telemetry from self-hosted Sourcegraph instances, with no individual user-level details.
+  - Consumers of this user journey data include nearly every part of the company, from product (core app engagement and product usage data), engineering (application performance data), marketing and sales (top of funnel data and user engagement data for outreach), customer success (customer health and engagement), and more.
+  - Our current traffic is ~100k monthly website visitors and cloud product users and ~40k monthly self-hosted instance users.
+  - Deliverables:
+  - Please design a high-level, conceptual data pipeline that would serve our business’s needs. Please name specific recommended tools (or options) to serve at each step of the pipeline. No need to write descriptions of every step, but please be prepared to answer questions about them.
+  - Please describe the basic structure of data at the beginning(s) and the end(s) of the pipeline, and be prepared to discuss the data transformations that take place along the way.
+  - Finally, please draw or describe (no real data required) the dashboards or reports that you would recommend providing to the CEO, the head of Product, and the head of Marketing each month.
   - We recommend that you spend approximately 2 hours on this case study. Please feel free to reach out with any questions!
 - BizOps: Product Analyst take-home project
   - This exercise should take 2-3 hours to complete;please don’t take more than that!
@@ -187,19 +187,19 @@ In addition to the above interviews, some departments have department-specific i
 
   - The goal of the assignment is to give you a chance to demonstrate how you think, write, and negotiate while tackling issues that are top of mind for Sourcegraph and our customers.
   - Please see the attached MSA redlines (we will provide this to you if you get to this stage in the process) from our prospective customer, a CA-based tech company. Deal summary:
-    - On-premise instance
-    - 100K USD ACV
+  - On-premise instance
+  - 100K USD ACV
   - Will you respond to the redlines and include comments to the customer explaining your reasoning for any redlines that you reject or modify? Please accept any redlines that you suggest that we agree to with a brief comment explaining why.
   - In addition, please draft a short, casual note with your assessment that you would send to the account executive. Include a short issues list, with the prioritization of issues made clear.
 
 - TechOps: Tech Ops IT Engineer take-home project / Technical Interview
   - The technical interview should be approximately:
-    - 25 min for questions from Nicky and Dan M
-    - 10 min questions from you to us
-    - 10 min to discuss a short take-home project (3 min presentation and 7 min discussion)
+  - 25 min for questions from Nicky and Dan M
+  - 10 min questions from you to us
+  - 10 min to discuss a short take-home project (3 min presentation and 7 min discussion)
   - Project:
-    - We have a fully remote team. Tech Ops wants to ensure that our Team Members are appropriately protected from security threats. As part of the onboarding process we want to provide all new hires with a Security Checklist. What would you put on this checklist?
-    - Please be prepared to present this recommendation on a detailed level in 3 minutes.
+  - We have a fully remote team. Tech Ops wants to ensure that our Team Members are appropriately protected from security threats. As part of the onboarding process we want to provide all new hires with a Security Checklist. What would you put on this checklist?
+  - Please be prepared to present this recommendation on a detailed level in 3 minutes.
 
 ## Customer Support
 
@@ -221,9 +221,9 @@ In addition to the above interviews, some departments have department-specific i
   - Search
   - Intelligence
   - Using search and our intelligence features we’ll emulate a customer use case with you and ask you to demonstrate it live for us. We don’t expect you to know everything, so if you get stuck during the interview, show us how you go about researching in our docs to try and find the answer! This is as much about understanding how you approach and breakdown problems as it is getting to the correct answer. This will be followed by a short Q&A with the customer engineer to give you both a chance to get to know each other more.
-    - We’ll conduct the interview in the following format:
-      - 20 minutes: live use-case demonstration
-      - The customer engineer will ask you to perform a few basic search and intelligence functions
+  - We’ll conduct the interview in the following format:
+  - 20 minutes: live use-case demonstration
+  - The customer engineer will ask you to perform a few basic search and intelligence functions
   - You will be sharing your screen (both the Sourcegraph public instance and our docs)
   - 15 minutes: Q&A from customer engineer to learn more about you and your capabilities
   - 10 minutes: general Q&A with customer engineer
@@ -447,15 +447,15 @@ If we decide to move forward, we will schedule interviews with team members.
   - Duration: 60-minutes.
   - The Goal: The purpose of this working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
     Part 1: Methodology & Planning (20 Minutes)
-    - Coming out of our conversations we’ve taken an action item to better understand your campaign planning and activation methodology. - What are your ideas for a long-term, evergreen brand activation across the various digital channels? - What would a successful campaign look like? - How would you monitor and share results?
-      Part 2: Creativity & Collaboration (20 Minutes)
-    - We’ve just wrapped up our H2 off site where the brand team led a brainstorm about big ideas for a second half awareness campaign focused on quick wins targeting developers.
-    - Top 3 creative ideas to fuel digital marketing campaigns directed at a DevOps Audience. These creative ideas can be part of the long-term brand awareness plays, or quarterly campaigns
-      - Include your timeline for concept-to-execution
-      - What would your goals be for these quick win campaigns?
-      - What are some key deliverables you’d expect to see from these campaigns?
-      - Who will you collaborate with and why?
-      - How would you approach bridging these awareness activities with contact acquisition/product sign-ups?
+  - Coming out of our conversations we’ve taken an action item to better understand your campaign planning and activation methodology. - What are your ideas for a long-term, evergreen brand activation across the various digital channels? - What would a successful campaign look like? - How would you monitor and share results?
+    Part 2: Creativity & Collaboration (20 Minutes)
+  - We’ve just wrapped up our H2 off site where the brand team led a brainstorm about big ideas for a second half awareness campaign focused on quick wins targeting developers.
+  - Top 3 creative ideas to fuel digital marketing campaigns directed at a DevOps Audience. These creative ideas can be part of the long-term brand awareness plays, or quarterly campaigns
+  - Include your timeline for concept-to-execution
+  - What would your goals be for these quick win campaigns?
+  - What are some key deliverables you’d expect to see from these campaigns?
+  - Who will you collaborate with and why?
+  - How would you approach bridging these awareness activities with contact acquisition/product sign-ups?
   - NOTE: Please don't go overboard on preparation, plans, or detail. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 
 ## People Operations
