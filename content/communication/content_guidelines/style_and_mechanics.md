@@ -388,7 +388,6 @@ Use the country code, prefixed with `+`, without a space. Use spaces between set
 </ul>
 </div>
 </div>
-</div>
 
 ### Time
 
