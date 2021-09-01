@@ -44,9 +44,9 @@ We want to ensure all teammates have a workspace that will make them comfortable
 
 We understand that a designated work space can aid with productivity. We offer a $300-500 [monthly budget](https://about.sourcegraph.com/handbook/people-ops/spending-company-money#recurring-expenses) for renting a co-working space, including parking.
 
-### 🚚 Moving
+### 🚚 Moving help
 
-Whether you are relocating to join us or just moving places after you have already joined, we give you a yearly $1,000 stipend for hiring professional movers to reduce the stress associated with moving.
+Whether you are relocating to join us or simply moving to a new place after you have already joined, we offer a yearly $1,000 stipend for hiring professional movers to reduce the stress associated with moving. Should you choose to move yourself, you may use this stipend for purchasing or renting moving boxes and packing materials.
 
 ## Benefits
 
