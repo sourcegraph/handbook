@@ -1,3 +1,5 @@
+#Mary Belzer README
+
 ### My view on people
 
 I believe that all people are inherently creative, and capable of much more than we think. Our differences are what allows us to work together, and they should be discussed and embraced. I also believe I can learn something from everyone - everybody is a nerd about something, and everybody has something they can talk about for hours, and that’s really cool.
