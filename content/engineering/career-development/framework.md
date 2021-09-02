@@ -401,7 +401,9 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
       <td colspan="3" class="level-summary">
         A different IC role from levels 1-4, with a focus on technical leadership.<br>
-        This level is equivalent in impact to an <a href="../roles#engineering-manager">Engineering Manager</a>.
+        This level is equivalent in impact to an <a href="../roles#engineering-manager">Engineering Manager</a>.<br>
+        What impact at this level looks like may vary more between individuals than at preceding levels.<br>
+        We recommend <a href="https://drive.google.com/drive/folders/1fnw5gmlLDDZb9wDodY3KfcTaM3OOQL7G" target="_blank" rel="noopener noreferrer">our company’s copy of “Staff Engineer” by Will Larson</a> as reading material.
       </td>
     </tr>
     <tr class="category-summaries-row">
