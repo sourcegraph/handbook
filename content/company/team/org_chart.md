@@ -46,6 +46,8 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 ### [Sales Enablement](../../sales/sales-enablement.md)
 
+### [Value Engineering](../../sales/sales-enablement.md)
+
 ## Other teams: TODO
 
 Not all teams are listed here yet.
