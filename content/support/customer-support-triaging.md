@@ -16,12 +16,23 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 - **Step 2:** If the case came in via Slack (whether or primary account and the support- or trial- channels, or our Community account and the #help channel), change the requestor to the person who requested it. This is not necessary if the ticket came in via email.
 
   - Sometimes it may be an internal person and that would be correct, unless our teammate is posting on behalf of the customer and then we would want to change it to the customer.
-  - When a CSE is assigned to a customer, this step will also trigger that CSE to appear as the assignee -- you may need to adjust this if that person is out -- and any backup CSEs to be added as a follower (you don't see these auto populate until after you save the ticket (ie "submit as open").
+  - When a CSE is assigned to a customer, this step will also trigger that CSE and their backup to appear as a follower (you don't see these auto populate until after you save the ticket (ie "submit as open").
 
 - **Step 3:** Identify if there is action for CS or not
 
-  - If there is an action for CS, go to step 4
-  - If there is no action for CS, go to step 8
+  - If there is an action for CS, go to step 4. There is an action for CS if the issue is:
+    - to troubleshoot
+    - to explain how a feature works in the product/how to do a simple task in the product
+    - to anything related to security for a customer without a CE (free, cloud, teams, open source)
+    - to handle a feature request for a customer without a CE (free, cloud, teams, open source)
+  - If there is no action for CS, go to step 8. There is no action for CS if the issue:
+    - to handle anything related to licensing
+    - to handle anything related to security for a customer with a CE
+    - to handle a feature request for a customer with a CE
+    - to provide best practice guidance
+    - to answer questions related to proactive matters / account strategy
+
+  If it's not clear, post in #customer-support-triage and brainstorm the best path.
 
 - **Step 4:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision.
 
@@ -37,7 +48,7 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 ### 1. Whose responsible for triaging?
 
-Virginia, Stompy, and Carl are responsible for triaging. If needed, Adeola, Beatrix, and Warren can serve as back-up.
+Brielle, Nonso, Tamar, and Virginia. If needed, Adeola, Beatrix, Carl, Stompy, and Warren can serve as back-up.
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 
@@ -54,6 +65,8 @@ Short answer, No. Hopefully in the future, Zendesk will give us this feature; fo
 ### 5. Do we have anything to triage manually?
 
 Yes, we have a few customers listed in our [Customer Exception list](customer-exceptions.md) that we have to manually triage because we cannot automate the link from Slack to Zendesk. When a customer creates a support request in these channels, we have to manually create a Zendesk ticket and then triage that.
+
+We also look at the queues of anyone who is out that day to see if someone needs to fill-in (the original CSE keeps responsibility) -- great for when the CSE is out a day or two -- or we if we need to transition the case to another CSE --great for when the CSE is out a longer period of time.
 
 ### 6. What do I do when I see a company update in the triage queue?
 
