@@ -21,25 +21,27 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 
-- [Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her), Head of Customer Support - reporting to Beyang Liu, CTO
-  - Brielle Collins, Manager
-    - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
+[Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her), Head of Customer Support - reporting to Beyang Liu, CTO
+
+- Brielle Collins, Manager
+  - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
     - [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
     - [Mariam Adedeji](../company/team/index.md#mariam-adedeji-she-her)
     - [Michael Bali](../company/team/index.md#michael-bali-hehim)
     - [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
-  - [Nonso Obiano](../company/team/index.md#nonso-obiano), Manager
-    - [Amber Furbush](../company/team/index.md#amber-furbush-she-her)
-    - [Don Ellison](../company/team/index.md#donavon-ellison-he-him)
-    - [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
-    - [Jason Harris](../company/team/index.md#jason-harris-he-him)
-    - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
-  - Tamar Joyeux, Manager
-    - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste-he-him)
-    - [Beatrix Woo](../company/team/index.md#beatrix-woo-she-her)
-    - [Ben Gordon](../company/team/index.md#team#ben-gordon-he-him)
-    - [Carl Hicks](../company/team/index.md#carl-hicks-he-him)
-    - [Kelvin Lee](../company/team/index.md#kelvin-lee-he-him)
+
+* [Nonso Obiano](../company/team/index.md#nonso-obiano), Manager
+  - [Amber Furbush](../company/team/index.md#amber-furbush-she-her)
+  - [Don Ellison](../company/team/index.md#donavon-ellison-he-him)
+  - [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
+  - [Jason Harris](../company/team/index.md#jason-harris-he-him)
+  - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
+* Tamar Joyeux, Manager
+  - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste-he-him)
+  - [Beatrix Woo](../company/team/index.md#beatrix-woo-she-her)
+  - [Ben Gordon](../company/team/index.md#team#ben-gordon-he-him)
+  - [Carl Hicks](../company/team/index.md#carl-hicks-he-him)
+  - [Kelvin Lee](../company/team/index.md#kelvin-lee-he-him)
 
 More details about each team member in [our team READMEs](support-bios.md).
 
