@@ -4,6 +4,8 @@ As the VE & SE practice grows here at Sourcegraph, our charter is to help genera
 
 ## Team
 
+### Members
+
 - [Dudley Nostrand](https://github.com/sourcegraph/about/blob/main/handbook/company/team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
 - TBD (hiring a Sr. Advisor of Value Engineering)
 - Trey Sizemore (Sales Enablement Manager)
