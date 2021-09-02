@@ -597,7 +597,7 @@ To add yourself to this page:
 
 ## Murat Sutunc (he/him)
 
-- Interim Engineering Manager, Extensibility
+- Engineering Manager, Extensibility
 - Redwood City, CA, USA 🇺🇸
 - Name pronunciation: [muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)
 - [@muratsu](https://github.com/muratsu), [murat@sourcegraph.com](mailto:murat@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/muratsutunc)
@@ -1338,7 +1338,7 @@ To add yourself to this page:
 - GitHub: [serinadawn](https://github.com/serinadawn/)
 - [serina.clark@sourcegraph.com](mailto:serina.clark@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/serinaclark/)
 - Name pronunciation (record an audio file from your phone [here](https://www.name-coach.com/))
-- I was born and raised in Steamboat Springs, CO. I love all things outdoors (hiking, biking, camping, swimming, you name it).  
+- I was born and raised in Steamboat Springs, CO. I love all things outdoors (hiking, biking, camping, swimming, you name it).
   I am passionate about travel and learning as much as a I can about other cultures. A few of the places I have spent significant time include; Saudi Arabia, Finland, France, and Mexico. Enabling software engineering teams to kick ass at development is what I love to do for work!!!
 
 ## Dan Ryan (he/him)
