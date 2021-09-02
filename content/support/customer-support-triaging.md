@@ -20,17 +20,16 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 - **Step 3:** Identify if there is action for CS or not
 
-  - If there is an action for CS, go to step 4. There is an action for CS if the issue is:
-    - to troubleshoot
-    - to explain how a feature works in the product/how to do a simple task in the product
-    - to handle anything related to security for a customer without a CE (free, cloud, teams, open source)
-    - to handle a feature request for a customer without a CE (free, cloud, teams, open source)
-  - If there is no action for CS, go to step 8. There is no action for CS if the issue:
-    - to handle anything related to licensing
-    - to handle anything related to security for a customer with a CE
-    - to handle a feature request for a customer with a CE
-    - to provide best practice guidance
-    - to answer questions related to proactive matters / account strategy
+  - If there is an action for CS, got to Step 4. There is an action for CS if the action is to:
+    - troubleshoot
+    - explain how a feature works in the product/how to do something in the product
+    - handle anything related to security for a customer without a CE
+    - handle a feature request for a customer without a CE
+  - If there is no action for CS, go to step 8. There is no action for CS if the action is to:
+    - handle anything related to licensing
+    - handle anything related to security for a customer with a CE
+    - handle a feature request for a customer with a CE
+    - provide guidance on how to think about using Sourcegraph/drive adoption (ie more proactive in nature guidance)
 
   If it's not clear, post in #customer-support-triage and brainstorm the best path.
 
@@ -40,9 +39,9 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 - **Step 6:** On the left panel, under the _Select Assignee_ tab, pick _Assign to this group_ and submit the ticket as open -- this will make sure the ticket lands in the _Unassigned queue_ (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).
 
-- **Step 7:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
+- **Step 7:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take.
 
-- **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take
+- **Step 8:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
 ## FAQs
 
