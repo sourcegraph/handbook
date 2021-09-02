@@ -44,9 +44,9 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 ### [Sales strategy & operations](../../sales/sales-ops/index.md#members)
 
-### [Sales Enablement](../../sales/sales-enablement.md)
+### [Sales Enablement](../../sales/sales-enablement.md#members)
 
-### [Value Engineering](../../sales/sales-enablement.md)
+### [Value Engineering](../../sales/sales-enablement.md#members)
 
 ## Other teams: TODO
 
