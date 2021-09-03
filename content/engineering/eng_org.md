@@ -38,7 +38,7 @@ When teams grow and divide, we prefer to grow the org horizontally, not vertical
 
 ## Transferring teams
 
-If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager. Your manager will chat with you to understand what you want and then propose next steps.
+If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager. Your manager will chat with you to understand what you want and then propose next steps. See also [the process for switching teams](https://about.sourcegraph.com/handbook/people-ops/switching-teams).
 
 ## Current organization
 
