@@ -2,13 +2,13 @@
 
 ### My view on people
 
-I believe that the relationships one has with the people in their life is the single most important thing during our time here on earth. I strongly prioritize my own interpersonal relationships, and it is amazing to be part of a department, team, and company that believes and lives this sentiment.
+I believe that the relationships you have with the people in your life are essential to true happiness. I strongly prioritize my own interpersonal relationships, and it is amazing to be part of a department, team, and company that believes and lives this sentiment.
 
 ### Preferred learning styles
 
 I am definitely a hands-on learner. I learn best by doing a process myself or by watching someone do a process and trying it after.
 
-I also learn well through writing as long as the written format is digestible/organized, such as bullet points or an agenda (versus long paragraphs).
+I also learn well through writing as long as the written format is digestible/organized, such as in listed in bullet points or as an agenda (versus long paragraphs).
 
 ### Communication style
 
@@ -38,7 +38,7 @@ The random socializing that comes from sharing a space (this is hard without a p
 
 ### What kind of work do I find easiest to do when
 
-I focus best and prefer to work solo in the mornings, and tend to prefer meetings in the late morning/early afternoon.
+I focus best and prefer to do solo work in the morning, and tend to prefer having meetings in the late morning/early afternoon.
 
 ### How do I feel about getting messages after/outside of hours that are meant for me to see and respond to during active hours
 
@@ -50,11 +50,11 @@ I am not good at expressing when things aren’t going well personally, so if yo
 
 ### Things I am aware of that trigger anxious feelings/feelings of less than at work
 
-Making mistakes that affect my coworkers. I want to help my coworkers as much as I can. Feedback in all forms is greatly appreciated, as it helps alleviate any uncertainties I may have around a deliverable.
+Making mistakes that affect my coworkers. I want to help my coworkers as much as I can and highly value - and encourage - feedback in all forms.
 
 ### Areas of knowledge
 
-Work-wise: organized documentation, coordination, communication
+Work-wise: making information digestible, organized documentation, coordination, communication
 
 Life-wise: space, psychology, camping
 
@@ -84,4 +84,4 @@ Libra sun, Virgo moon, and Scorpio rising
 
 ### My enneagram
 
-Enneagram Type 7: Enthusiastic Visionary
+Type 7: Enthusiastic Visionary
