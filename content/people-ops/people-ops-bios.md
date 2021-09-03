@@ -4,3 +4,4 @@
 - Mary [README](mary-bio.md)
 - Cassie [README](cassie-bio.md)
 - Inés [README](ines-bio.md)
+- Cecily [README](cecily-bio.md)
