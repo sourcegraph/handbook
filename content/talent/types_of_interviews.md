@@ -314,119 +314,29 @@ The technical champion said there aren’t any initiatives driving this re-engag
 
 ## Engineering
 
-#### Technical Interview: Coding Skills
-
-- [60m]: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
-
-### Technical Interview: Architecture
-
-- [45m]: Two engineers from the team will work with you by verbally discussing how you would design a repository management web application. We will work with you in this collaborative session to think about and design the system togethre, looking for your natural intuation about building web apps and problem-solving as we throw various wrenches into the system.
-
 ### Assignments
 
-- Duration: max 3 hours.
-- Details: during this stage of the interview process, you will complete an asynchronous coding exercise. We will give you an overview of the exercise in advance. We will send you the details at a time of your choosing and you will have up to 3 hours to work on the exercise. You will be able to use your own development environment and look up documentation on the internet.
+- See more about coding exercises [here](https://about.sourcegraph.com/handbook/engineering/hiring/software-engineer-coding-exercise)
 
-#### TypeScript coding exercise
+### Technical Interview: General
 
-- Duration: 2 hours.
-- Details: We designed this exercise to measure your understanding of callbacks and asynchronous execution.
-- You will choose a two hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
-- At your chosen date and time, we will send you a zipped TypeScript project that contains instructions and some unit tests.
-- TypeScript is a superset of JavaScript, so if you are comfortable with JavaScript and have experience reading any typed language, then you should be fine. We recommend reading through the [TypeScript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html) if you aren't already familiar with TypeScript.
-- You should have Node.js (>=8.16.0) installed on your computer.
-- You can look up documentation on the Internet while you are coding.
-- You may use open-source libraries, but most candidates don't find it necessary. For some parts of the exercise, we'll explicitly require that you not use any.
-- After two hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
-- If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
-
-#### Frontend coding exercise
-
-- Duration: 3 hours.
-- Details: We designed this exercise to measure your understanding of building web UIs.
-- You will choose a three hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
-- The exercise asks you to implement a UI in a scaffold TypeScript **React** app.
-- We provide you with the code of the scaffold app, the URL of a working **backend API** to fetch data from and a link to a **Figma design** for the UI.
-- The backend exposes the same data over both a RESTful interface and a GraphQL endpoint. You can chose whichever of the two you are most comfortable with.
-- You can use your own development environment and lookup documentation on the internet.
-- You should have Node.js (>=14.0.0) installed on your computer.
-- If you have never worked with React or it's been a long time, we recommend brushing up on their basics a bit before taking the exercise.
-- There are no "advanced" React features needed to pass the exercise.
-- We will grade your submission on both the code (implementation) and the result (UI, functionality, etc), so we recommend to not compromise one over the other.
-- Apply the same standards to your solution you would to any solution you implement in a real-world production-ready app.
-- If you can't get the whole exercise done in the time box, cut scope and make informed trade-offs the same way you would for a "real" app and note them in your README.
-- Try to hand in a "well-rounded" submission that demonstrates your skills as well as possible.
-- If we decide to move forward, we schedule a one hour follow-up call to discuss your submission.
-
-#### Go coding exercise
-
-- Duration: 2 hours.
-- Details: We designed this exercise to measure your understanding of HTTP requests, concurrency, and error handling.
-- You will choose a two hour timeframe to independently work on the exercise. You can choose any day and time that works for you; there are no scheduling constraints.
-- At your chosen date and time, we will send you detailed instructions. You will be building a simple API server in Go that calls a JSON endpoint of another service and exposes a JSON endpoint of its own.
-- You should have a recent version of Go (≥ 1.11) installed on your computer.
-- You can look up documentation on the internet while you are coding.
-- You are not prohibited from using open-source libraries, but the problem is easily solved using only the Go standard library.
-- After two hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
-- If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
-
-#### CLI coding exercise
-
-- Duration: 90-minutes.
-- Details: We designed [this synchronous exercise](https://github.com/sourcegraph/interviews/blob/master/engineering/coding/simple-polling/README.md) to measure your approach to coding a small application in a paired setting.
-- We will schedule a 90-minute timeframe to work with a Sourcegraph engineer.
-- In this exercise you write a command-line application that processes a data file and computes some simple metrics.
-- The data file will be emailed to you 10-minutes prior to the interview.
-- You may use the language of your choice.
-- You can use your own development environment, and look up documentation on the internet.
-- You are not prohibited from using open-source libraries.
-- If we decide to move forward, we will schedule interviews with team members.
-
-#### Core APP team coding exercise
-
-- Duration: 1 hour
-- Details: We designed [this synchronous exercise](https://github.com/sourcegraph/interviews/blob/master/engineering/coding/api-client/README.md) to measure your approach to coding a small API client in a paired setting.
-- We will schedule a 60-minute timeframe to work with a Sourcegraph engineer.
-- In this exercise you write an API client that processes data from a public, non-authenticated REST API with 1 route.
-- The details of the assignment will be sent to you 2 hours before the interview.
-- You may use the language of your choice.
-- You can use your own development environment, and look up documentation on the internet.
-- You can use any open-source libraries.
-- We will be working in a paried setting, as if you would work in pair with a fellow engineer. We do not expect you to single handedly do all the work.
-- If we decide to move forward, we will schedule interviews with team members.
-
-#### Distribution exercise
-
-- Duration: 3 hours.
-- Details: We designed this exercise to measure your skills at integrating build and deployment workflows into a development lifecycle, as well as your ability to code a simple HTTP service.
-- You will choose a three hour timeframe to independently work on the exercise. You can choose any day and time that works for you; there are no scheduling constraints.
-- At your chosen date and time, we will send you detailed instructions. You will be building a simple pipeline to build and deploy a set of Go services and create a simple HTTP client in the language of your choice. We prefer to use Go or Typescript, but you can choose the language you feel more comfortable with.
-- You should have a recent version of Go (≥ 1.13) installed on your computer.
-- You should have a simple Kubernetes local cluster ([kind](https://kind.sigs.k8s.io/), [k3d](https://github.com/rancher/k3d), [minikube](https://minikube.sigs.k8s.io/docs/start/))
-- You can look up documentation on the internet while you are coding.
-- After three hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
-- If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
-
-#### Extensibility exercise
-
-- Duration: 2 hours.
-- Details: We designed this exercise to measure your ability to show logical thinking and apply that thinking towards a code implementation. There's no frontend UI work involved.
-- You will choose a two hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
-- At your chosen date and time, we will send you a zipped TypeScript project that contains instructions.
-- TypeScript is a superset of JavaScript, so if you are comfortable with JavaScript and have experience reading any typed language, then you should be fine. We recommend reading through the [TypeScript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html) if you aren't already familiar with TypeScript.
-- You should have Node.js (>=14) installed on your computer.
-- You can look up documentation on the Internet while you are coding.
-- You may use open-source libraries, but most candidates don't find it necessary.
-- After two hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
-- If we decide to move forward, we will schedule a followup call to discuss your code.
-
-#### Technical interview
-
-- Interviewer(s): two members of the engineering department
+- Interviewers: two members of the engineering department
 - Duration: 60-minutes.
 - Details: during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked wiht others, decisions you made, and what you'd do differently today.
 
-#### Working Session
+### Technical Interview: Coding Skills (Core Application Team)
+
+- Interviewers: two members of the Core Application team
+- Duration: 60-minutes.
+- Details: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
+
+### Technical Interview: Architecture (Core Application Team)
+
+- Interviewers: two members of the Core Application team
+- Duration: 45-minutes.
+- Details: Two engineers from the team will work with you by verbally discussing how you would design a repository management web application. We will work with you in this collaborative session to think about and design the system togethre, looking for your natural intuation about building web apps and problem-solving as we throw various wrenches into the system.
+
+### Working Session
 
 - Interviewer(s): two members of the engineering department
 - Duration: 60-minutes.
