@@ -50,6 +50,7 @@ We are **hiring recruiters**! View our open positions [here](https://boards.gree
   - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
   - [LinkedIn](https://about.sourcegraph.com/handbook/talent/hiring/linkedin), our sourcing tool
 - [Using recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
+- [Switching teams](https://about.sourcegraph.com/handbook/people-ops/switching-teams#switching-teams)
 
 ## [Resources for Teammates](https://about.sourcegraph.com/handbook/talent/resources_for_teammates)
 
@@ -61,6 +62,7 @@ We are **hiring recruiters**! View our open positions [here](https://boards.gree
 - [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training)
 - [Recruiting Tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools)
   - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
+- [Switching teams](https://about.sourcegraph.com/handbook/people-ops/switching-teams#switching-teams)
 
 ## [Resources for Recruiters](https://about.sourcegraph.com/handbook/talent/resources_for_recruiters)
 
@@ -77,3 +79,4 @@ We are **hiring recruiters**! View our open positions [here](https://boards.gree
 - Recruitment branding
   - [Where we post our jobs](https://about.sourcegraph.com/handbook/talent/hiring/job_boards)
 - [Metrics](https://about.sourcegraph.com/handbook/talent/recruiting_metrics)
+- [Switching teams](https://about.sourcegraph.com/handbook/people-ops/switching-teams#switching-teams)
