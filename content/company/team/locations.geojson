@@ -1120,6 +1120,19 @@
           39.47443172831845
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jason Yavorska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.497871398925781,
+          52.156452747510045
+        ]
+      }
     }
   ]
 }
