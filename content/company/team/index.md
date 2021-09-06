@@ -1415,3 +1415,11 @@ To add yourself to this page:
 - Diego lives in Barcelona, with his wife and two kids. He is passionate about technology, sci-fi movies and football(soccer).
 - In the last 10 years he lived in London (UK) and worked for tech startups and scale ups building teams and helping them improve their security posture.
 - Diego never misses a game of his local team FC Barcelona 🏟. In his spare time (if kids allow!) he likes to play football ⚽️, other sports like padel tennis 🎾 and sailing ⛵️ in the Costa Brava.
+
+## Andrew Hsu (he/him)
+
+- Customer Engineer
+- Los Angeles, California, United States 🇺🇸
+- GitHub: [superhsu](https://github.com/superhsu)
+- [andrew.hsu@sourcegraph.com](mailto:andrew.hsu@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/andrewjhsu/)
+- Andrew lives in Los Angeles, California, with his partner and their grumpy cat, Ginger. He has a passion for technology and sales. Growing up at a young age, he helped his cousins build and sell computers. Andrew has spent most of his career as a Sales Engineer. Before Sourcegraph, he helped sell observability software at Splunk. Outside of work, he enjoys traveling ✈️, spending time with family & friends, watching movies, playing competitive sports & e-sports.
