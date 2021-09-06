@@ -124,7 +124,7 @@ When in doubt, file in the private repo—issues can be moved over to the public
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 - Include customer quotes in mark down using a quote block. For example, `> quote goes here.`
 - Label it with `customer/$name` and `rfh`.
-- Assign the issue to the appropriate team you identified in the previous step.
+- Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.
 
 If it turns our to be a general issue affecting multiple deployments, create an issue in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose). The issue must not include any private information. It is okay to link any relevant private, customer specific issues. If not already linked to the relevant Zendesk tickets, do so.
 
