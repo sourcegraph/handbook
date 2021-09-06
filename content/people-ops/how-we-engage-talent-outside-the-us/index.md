@@ -44,7 +44,7 @@ The PEO will pay these employees directly in their local currency via direct dep
 
 ### Onboarding
 
-Employees via PEO/EOR are marked as hired in Greenhouse, have a start date that aligns with the cohort calendar, have a profile in Bamboo, and enjoy the same thorough general or team-specific onboarding enjoyed by all other teammates.
+Employees via PEO/EOR are marked as hired in Greenhouse, have a start date that aligns with the cohort calendar ([2021](https://docs.google.com/spreadsheets/d/1jJY3E7j31ZD7J-ouf3Gf-uioHCAXxe-0bBVLEmdtVGQ/edit#gid=0) & [2022](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0) ), have a profile in Bamboo, and enjoy the same thorough general or team-specific onboarding enjoyed by all other teammates.
 
 ## Contractors (where neither of the above options are viable)
 
@@ -88,7 +88,7 @@ Temporary contractors are paid via invoice on a monthly basis, in their local cu
 
 ### Onboarding
 
-Temporary contractors are marked as hired in Greenhouse, have a start date that aligns with the cohort calendar, and have a temporary profile in Bamboo, but typically they do not gain access to the thorough general or team-specific onboarding enjoyed by permanent teammates. Their onboarding usually includes a welcome email with information for their first day, and the onboarding checklist and resources, but excludes activities like being introduced in the company meeting, meet & greets, lunch & learns, buddies and feedback milestones. Access to Slack is also limited to “multi-channel guests” and specific channels requested by the hiring manager.
+Temporary contractors are marked as hired in Greenhouse, have a start date that aligns with the cohort calendar ([2021](https://docs.google.com/spreadsheets/d/1jJY3E7j31ZD7J-ouf3Gf-uioHCAXxe-0bBVLEmdtVGQ/edit#gid=0) & [2022](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0) ), and have a temporary profile in Bamboo, but typically they do not gain access to the thorough general or team-specific onboarding enjoyed by permanent teammates. Their onboarding usually includes a welcome email with information for their first day, and the onboarding checklist and resources, but excludes activities like being introduced in the company meeting, meet & greets, lunch & learns, buddies and feedback milestones. Access to Slack is also limited to “multi-channel guests” and specific channels requested by the hiring manager.
 
 Hiring managers should consult the Talent and People Ops team early if an exceptional situation requires a different onboarding process for reasons critical to the role, or if the role is expected to become a full-time role in the near future. Alternatively, it’s up to hiring managers to set up introductions and provide information as needed for the purpose of the temporary contract.
 
