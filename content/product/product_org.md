@@ -11,11 +11,11 @@ This page documents our current and planned future product org structure. Plans 
       - [Joel Kwartler](../company/team/index.md#joel-kwartler-he-him), Product Manager - [Code insights](../engineering/developer-insights/code-insights/index.md) and [Extensibility](../engineering/developer-insights/extensibility/index.md)
       - FQ2 [Product Manager (we're hiring!)](https://boards.greenhouse.io/sourcegraph91/jobs/4013259004) - Growth
       - FQ3 Product Manager - [Frontend platform](../engineering/developer-insights/frontend-platform/index.md)
-    - S.C. starting 2021-08-23, Platform and Infrastructure - Director of Product. Christina acting director until then.
-      - [Dan Mckean](../company/team/index.md##dan-mckean-he-him), Product Manager - [Security](../engineering/security/index.md) and [Distribution](../engineering/distribution/index.md). ([Dan's Readme!](dan-mckean-readme.md))
+    - [Serina Clark](../company/team/index.md#serina-clark-her-she-hers), Platform and Infrastructure - Director of Product
+      - [Dan Mckean](../company/team/index.md#dan-mckean-he-him), Product Manager - [Security](../engineering/security/index.md) and [Distribution](../engineering/distribution/index.md). ([Dan's Readme!](dan-mckean-readme.md))
       - [Ryan Phillips](https://about.sourcegraph.com/handbook/company/team#ryan-phillips-he-him), Product Manager - [Core application](../engineering/core-application/index.md)
       - FQ4 Product Manager (team expansion)
-    - J.Y. starting 2021-09-06, Director of Product - Global Code Graph. Christina acting director until then.
+    - [Jason Yavorska](../company/team/index.md#jason-yavorska-he-him), Director of Product - Global Code Graph
       - [María Craig](../company/team/index.md#maría-craig-she-her), Product Manager - [Code intelligence](../engineering/code-intelligence/index.md)
       - [Malo Marrec](../company/team/index.md#malo-marrec-he-him), Product Manager - [Batch Changes](../engineering/batch-changes/index.md)
       - FQ2 [Product Manager (we're hiring!)](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004) - [Search core](../engineering/search/core.md)
