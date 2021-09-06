@@ -1405,3 +1405,13 @@ To add yourself to this page:
 - GitHub: [tamarj0y](https://github.com/tamarj0y)
 - [tamar.joyeux@sourcegraph.com](mailto:tamar.joyeux@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/tamarj), [pronounce my name 🔊](https://www.name-coach.com/tamar-joyeux)
 - Tamar was born on the island of St. Lucia 🇱🇨. He then spent several years living and working in London, England. He recently (and somewhat reluctantly) settled in the PNW. Tamar currently lives with his wife and two kids in Camas, Washington. He enjoys running local trails, signing up for moderately lengthy ultramarathon races and a host of other outdoor themed activities. Tamar has spent most of his career in infrasturcture ops. Before Sourcegraph, he led an infrastructure and dev ops team at a US based fitness equipment manufacturer.
+
+## Diego Comas (he/him/his)
+
+- Security Engineering Manager
+- Barcelona, Spain 🇪🇸
+- GitHub: [dcomas](https://github.com/dcomas)
+- [diego.comas@sourcegraph.com](mailto:diego.comas@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/diegocomas)
+- Diego lives in Barcelona, with his wife and two kids. He is passionate about technology, sci-fi movies and football(soccer).
+- In the last 10 years he lived in London (UK) and worked for tech startups and scale ups building teams and helping them improve their security posture.
+- Diego never misses a game of his local team FC Barcelona 🏟. In his spare time (if kids allow!) he likes to play football ⚽️, other sports like padel tennis 🎾 and sailing ⛵️ in the Costa Brava.
