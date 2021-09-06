@@ -2,9 +2,12 @@
 
 Welcome to Sourcegraph! We are so excited to have you on the team. This page outlines what you'll need to do to get started.
 
-- [Onboarding buddy program](./buddy-program.md)
+### Links of interest
 
-For Hiring Managers, visit the [Onboarding process for Hiring Managers](onboarding-for-hiring-managers.md) page.
+- [Onboarding process for Hiring Managers](onboarding-for-hiring-managers.md) page.
+- Cohort calendar ([2021](https://docs.google.com/spreadsheets/d/1jJY3E7j31ZD7J-ouf3Gf-uioHCAXxe-0bBVLEmdtVGQ/edit#gid=0) & [2022](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0) start dates)
+- [Onboarding buddy program](./buddy-program.md)
+- [Onboarding Feedback Milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones)
 
 ## Guiding principles
 
@@ -70,7 +73,7 @@ Read about how we do this in [Onboarding Feedback Milestones](https://about.sour
 
 Hiring managers can refer to the [Onboarding process for Hiring Managers](onboarding-for-hiring-managers.md) page.
 
-1. One week prior to your first day, People Ops will send you a welcome email. Be sure to send them your address, phone number, shirt size, photo for your avatar, and for US teammates, the requested documentation.
+1. As soon as you sign your contract, the Talent team will send you an email linking to a form. Please, be sure to complete all the information withing 24hrs from receiving it.
 1. Order [your computer](../spending-company-money.md#computers).
 1. Order the [desk equipment](../spending-company-money.md#desk-set-up) you need to be productive working remotely.
 
