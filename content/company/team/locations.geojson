@@ -1133,6 +1133,19 @@
           52.156452747510045
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JH Chabran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.764042,
+          4.835659
+        ]
+      }
     }
   ]
 }

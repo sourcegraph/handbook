@@ -1423,3 +1423,12 @@ To add yourself to this page:
 - GitHub: [superhsu](https://github.com/superhsu)
 - [andrew.hsu@sourcegraph.com](mailto:andrew.hsu@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/andrewjhsu/)
 - Andrew lives in Los Angeles, California, with his partner and their grumpy cat, Ginger. He has a passion for technology and sales. Growing up at a young age, he helped his cousins build and sell computers. Andrew has spent most of his career as a Sales Engineer. Before Sourcegraph, he helped sell observability software at Splunk. Outside of work, he enjoys traveling ✈️, spending time with family & friends, watching movies, playing competitive sports & e-sports.
+
+## JH Chabran (he/him)
+
+- Software Engineer
+- Name Pronunciation: [/ʒiaʃ/](https://www.name-coach.com/jh-chabran)
+- Lyon, France 🇫🇷
+- Github: [jhchabran](https://github.com/jhchabran)
+- [jean-hadrien.chabran@sourcegraph.com](mailto:jean-hadrien.chabran@sourcegraph.com)
+- JH loves to learn new things all the time and to build software that helps other developers. He got into coding by learning how some developers managed to translate old video games through reverse engineering. In his free time, JH likes to experiment with new tools, play indie video games, take long walks with his (stubborn) Corgi and cook for his friends and family.
