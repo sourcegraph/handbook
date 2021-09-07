@@ -849,7 +849,7 @@ To add yourself to this page:
 - Product Manager, Distribution & Security
 - Shaftesbury (Dorset), UK 🇬🇧
 - GitHub: [dan-mckean](https://github.com/dan-mckean)
-- [Readme!](../../product/dan-mckean-readme.md)
+- [Readme!](../../product/readmes/dan-mckean-readme.md)
 - [dan.mckean@sourcegraph.com](mailto:dan.mckean@sourcegraph.com)
 - Dan grew up in the South of England, and (with a detour via London) ended up in Dorset in the south west, a county with beautiful coast (but lives as far from the sea as it's possible to get – though not deliberately!) He lives with his wife (Emma), four kids (7y, 5y, 2x14m) and 3-legged springer spaniel (9y). His spare time is largely spent chasing his twin identical boys in an effort to prevent injury. Any (genuinely) spare time is spent trying to make things out of wood.
 
@@ -1394,7 +1394,7 @@ To add yourself to this page:
 - Product Director for Global Code Graph
 - Leiden, NL 🇳🇱 and part of the year in Odessa, UA 🇺🇦
 - GitHub: [jyavorska](https://github.com/jyavorska)
-- [README](../../product/jyavorska-readme.md)
+- [README](../../product/readmes/jyavorska-readme.md)
 - [jason.yavorska@sourcegraph.com](mailto:jason.yavorska@sourcegraph.com), [Twitter](https://twitter.com/j4yav), [Lichess](https://lichess.org/@/j4yav), [LinkedIn](https://linkedin.com/in/jyavorska), [Personal Site](https://metaluna.io)
 - Jason was born in the United States, but moved to the Netherlands in 2015. A big part of that move was due to having a big interest in history and classical arts and music, and living here provides a nice base for exploration. He has an international family with most parts in the United States and Ukraine, so often is traveling between these places. He has two young children, a daughter and younger son, and enjoys food, travel, guitar, fantasy and science fiction books, and (retro) technology. His personal passion is [helping kids learn to code](https://metaluna.io/learn/).
 

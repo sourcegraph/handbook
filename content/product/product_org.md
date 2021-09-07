@@ -12,7 +12,7 @@ This page documents our current and planned future product org structure. Plans 
       - FQ2 [Product Manager (we're hiring!)](https://boards.greenhouse.io/sourcegraph91/jobs/4013259004) - Growth
       - FQ3 Product Manager - [Frontend platform](../engineering/developer-insights/frontend-platform/index.md)
     - [Serina Clark](../company/team/index.md#serina-clark-her-she-hers), Platform and Infrastructure - Director of Product
-      - [Dan Mckean](../company/team/index.md#dan-mckean-he-him), Product Manager - [Security](../engineering/security/index.md) and [Distribution](../engineering/distribution/index.md). ([Dan's Readme!](dan-mckean-readme.md))
+      - [Dan Mckean](../company/team/index.md#dan-mckean-he-him), Product Manager - [Security](../engineering/security/index.md) and [Distribution](../engineering/distribution/index.md). ([Dan's Readme!](./readmes/dan-mckean-readme.md))
       - [Ryan Phillips](https://about.sourcegraph.com/handbook/company/team#ryan-phillips-he-him), Product Manager - [Core application](../engineering/core-application/index.md)
       - FQ4 Product Manager (team expansion)
     - [Jason Yavorska](../company/team/index.md#jason-yavorska-he-him), Director of Product - Global Code Graph

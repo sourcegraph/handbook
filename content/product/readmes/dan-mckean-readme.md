@@ -1,10 +1,10 @@
 # Dan Mckean Readme
 
-[My bio on the team's page](../company/team/index.md##dan-mckean-he-him)
+[My bio on the team's page](../../company/team/index.md##dan-mckean-he-him)
 
 ## What I do at Sourcegraph
 
-I'm the PM (Product Manager) for [Distribution](../engineering/distribution/index.md) & [Security](../engineering/security/index.md)
+I'm the PM (Product Manager) for [Distribution](../../engineering/distribution/index.md) & [Security](../../engineering/security/index.md)
 
 ## About me!
 
