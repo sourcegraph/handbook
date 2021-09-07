@@ -1,10 +1,10 @@
 # Customer Engineering Onboarding
 
-Welcome to Sourcegraph - we're VERY excited to have you on the Customer Engineering team! This page describes the onboarding philosophy and process for new customer engineers as they onboarding, and outlines expectations and goals of onboarding as well as what success looks like 30 / 60 / 90 days in.
+Welcome to Sourcegraph - we're VERY excited to have you on the Customer Engineering team! This page describes the onboarding philosophy and process for new customer engineers as they onboarding, and outlines expectations and [goals of onboarding](#high-level-onboarding-overview) as well as what success looks like [30 / 60 / 90](#30-60-90-day-plan) days in.
 
 ## Company-wide and Customer Engineering-specific Onboarding
 
-Our goal is to have CEs fully ramped by the end of your 4th week. During your first 4 weeks, you will complete a variety of activities intended to both introduce you to the company as a whole, as well as provide you with the knowledge, tools, and support necessary to be a successful CE!
+Our goal is to have CEs fully ramped by the end of your 6th week. During your first 6 weeks, you will complete a variety of activities intended to both introduce you to the company as a whole, as well as provide you with the knowledge, tools, and support necessary to be a successful CE!
 
 ### Onboarding Tooling
 
@@ -29,19 +29,24 @@ Below are the goals and expectations for each week of your onboarding.
 
 - Continue orienting yourself to the company: all the different teams, our internal tooling and how we use it
 - Start to learn our processes (pre and post-sales), learn about the different templates that we have and how we use them
-- Identify customer calls to shadow for weeks 3 - 5
+- Identify customer calls to shadow for weeks 3 - 6
 
 ### Week 3 Goals:
 
-- This week is all about the product! Read docs, watch videos, apply what you have learned by using the product, demo parts of the product to your onboarding mentor
+- This week is all about the product! Read docs, watch videos, apply what you have learned by using the product, deep dive into parts of the product to your onboarding mentor
 
 ### Week 4 Goals:
 
-- Apply your product knowledge to our processes
+- Learn about how we differentiate from technologies like Github Search, Livegrep, OpenGrok and more
+- Go deeper in your understanding of Sourecgraph's products, learn how we should talk about Sourcegraph relative to the current technologies devs use
+
+### Week 5 Goals:
+
+- Start working towards your first product demo, begin working towards [Demo Certification](#ce-demo-certification)
 - Prepare for your first set of customer meetings that you'll lead
 - Check-in with your manager on your experience and near-term goals
 
-Beginning week 5, you'll look to lead your first customer meeting, with your onboarding mentor there to support you.
+Beginning week 6, you'll look to lead your first customer meeting, with your onboarding mentor there to support you. You'll have the support of your onboarding mentor or a more tenured CE until you reach [Demo Certification](#ce-demo-certification).
 
 ## 30 / 60 / 90 Day Plan
 
@@ -56,6 +61,7 @@ We want every CE to feel certain and comfortable with where they are at currentl
 
 #### 30 - 60 days:
 
+- Get [Demo Certified](#ce-demo-certification).
 - Actively participate in initial prospective calls: perform customer discovery, provide demos.
 - Be paired with 1-3 AEs with whom you should begin to build a rapport.
 
@@ -77,6 +83,7 @@ After day 90, your role expectations will then align to the pre-defined CE caree
 
 #### 30 - 60 days:
 
+- Get [Demo Certified](#ce-demo-certification).
 - Actively participate in initial prospective calls, performing customer discovery.
 - Lead customer demos tailored to their described needs.
 - Be paired with 1-3 AEs with whom you should begin to build a rapport and begin strategizing on book of business with.
@@ -90,3 +97,11 @@ After day 90, your role expectations will then align to the pre-defined CE caree
 - Drawing from previous experience, make internal contributions by identifying opportunities and proposing and delivering solutions.
 
 After day 90, your role expectations will then align to the pre-defined CE career ladders of your current level.
+
+## CE Demo Certification
+
+Each CE is expected to receive certification. Certification means new CEs have demonstrated full proficiency in each criteria area and are prepared to be able to successfully conduct customer meetings on their own.
+
+For certification, a [rubric](https://docs.google.com/spreadsheets/d/1goSKFCPSrRSxw3iVUWEryORdzail96quHcc6ZAwh1LY/edit#gid=0) exists to assess a new CE's demo competency as they onboard to Sourcegraph. Each time a new CE leads a demo session, they will be shadowed by a tenured CE. Both the shadowing CE and the CE manager (via Chorus recording) will watch the demo and fill out a demo certification rubric. This will help provide feedback and give the new CE specific areas of focus.
+
+A CE is considered "Demo Certified" when they have scored a rating of 3 on all of the core competencies by both the tenured shadow CE and the CE manager. (Scoring options include: 1 - Insufficiently Demonstrated, 2 - Partially Demonstrated, 3 - Fully Demonstrated).
