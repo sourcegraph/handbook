@@ -75,5 +75,7 @@ Most "data pipelines" are SQL queries that turn raw ping data into clean dataset
 
 When adding a user to Looker, they need to be in both the group and role:
 
-- Marketing, people ops, talent users = View
+- Marketing, customer support, people ops, talent users = View
 - CE, sales, product users = ‘All internal users, view and edit’
+- Any other teams not listed should default to 'View'
+- Generally, CE, sales, product, customer support and marketing receive accounts when joining the company
