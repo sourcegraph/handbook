@@ -1433,7 +1433,7 @@ To add yourself to this page:
 - [jean-hadrien.chabran@sourcegraph.com](mailto:jean-hadrien.chabran@sourcegraph.com)
 - JH loves to learn new things all the time and to build software that helps other developers. He got into coding by learning how some developers managed to translate old video games through reverse engineering. In his free time, JH likes to experiment with new tools, play indie video games, take long walks with his (stubborn) Corgi and cook for his friends and family.
 
-## Chris Wendt (he/him)
+## Chris Wendt
 
 - Software Engineer on Code Intelligence
 - Boulder, CO 🇺🇸
