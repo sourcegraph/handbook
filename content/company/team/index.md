@@ -1441,6 +1441,14 @@ To add yourself to this page:
 - [chris.wendt@sourcegraph.com](mailto:chris.wendt@sourcegraph.com), [Twitter](https://twitter.com/ChrisMWendt), [LinkedIn](https://www.linkedin.com/in/chrismwendt/)
 - Programming language enthusiast, speedcuber, SSBM player, guitar and piano player, and dog lover. He has worked on some solo projects ([CodeWing](https://codewing.dev/) and [CodeBook](https://codebook.page/)), a distributed data pipeline at Microsoft, search at GitHub, developer experience at ThoughtSpot, and earned his BS in Computer Science with a specialization in computer graphics from Purdue.
 
+## Mohammad Umer Alam (he/him)
+
+- Security Engineer
+- Staten Island, NY 🇺🇸
+- GitHub: mohammadualam
+- [mohammad.alam@sourcegraph.com](mailto:mohammad.alam@sourcegraph.com), [LinkedIn](https://linkedin.com/in/mohammadalam/)
+- Mohammad is an avid tinkerer of gadgets and networks. He enjoys taking apart old electronics☎️ and see how they tick. So passion for technology and in relation to it, security, comes naturally to him. He is also very enthusiastic about driving his Jeep Wrangler, although he has yet to go offroading with it. Mohammad also enjoys staying active via outdoor activities and taking part in recreational sports leagues. He is a diehard Yankees⚾️ fan and hopes that they can win another championship soon so he can attend the ticker-tape parade in NYC.
+
 ## Grace Bohl (she/her)
 
 - Corporate Recruiter
