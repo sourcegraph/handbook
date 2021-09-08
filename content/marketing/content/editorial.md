@@ -130,3 +130,24 @@ Dan Luu summarized some [common themes from his own blog](http://danluu.com/prog
 #### Brainstorm board
 
 There are a lot of ideas on our [Miro board](https://miro.com/app/board/o9J_l9gAUM4=/). Feel free to use it for inspiration or let us know if you'd like to write about one of the topics! (Note: You may be asked to request access to the board if you don't have Miro set up with your Sourcegraph email address yet.)
+
+## Blogs our devs trust
+
+According to a question asked in Slack, our devs would trust the information coming from the following company blogs if they saw a post in a Google search or on HackerNews.
+
+- [Fly.io](https://fly.io/blog/)
+- [Facebook Engineering](https://engineering.fb.com/)
+- [Netflix Tech Blog](https://netflixtechblog.com/)
+- [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)
+- [Google Developers](https://developers.googleblog.com/)
+- [Uber Engineering](https://eng.uber.com/)
+- [Dropbox.Tech](https://dropbox.tech/)
+- [Cloudflare](https://blog.cloudflare.com/)
+- [LogRocket](https://blog.logrocket.com/)
+- [Hasura](https://hasura.io/blog/)
+- [Discord](https://blog.discord.com/tagged/engineering)
+- [Prometheus](https://prometheus.io/blog/)
+- [Grafana](https://grafana.com/blog/)
+- [Shopify Engineering](https://shopify.engineering/)
+
+### Learnings: TODO
