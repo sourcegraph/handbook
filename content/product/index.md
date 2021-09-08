@@ -10,6 +10,7 @@ Product at Sourcegraph consists of [product management](product_management/index
 ## Planning
 
 - [Product team goals](goals.md)
+- [Special initiatives](initiatives.md)
 - [Roadmap](roadmap.md)
 
 ## Resources
