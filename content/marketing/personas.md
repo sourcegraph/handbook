@@ -1,6 +1,6 @@
 # Personas
 
-A persona is a set of people who share common problems and other traits. Instead of writing a blog post for a single specific person, or building a feature for a single specific person, we target broad sets of people ("personas") that we name and define here.
+A persona is a set of people who share common problems and other traits. Instead of writing a blog post for a single specific person, or building a feature for a single specific person, we target broad sets of people ("personas") that [we name and define here](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.gea500549b8_1_6).
 
 For general information about personas, see "[Personas for Product Management](https://svpg.com/personas-for-product-management/)".
 
