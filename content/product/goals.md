@@ -1,6 +1,4 @@
-# Product team
-
-## Team Goals
+# Product team goals
 
 Within the product organization, individual product engineering teams set their own goals.
 
