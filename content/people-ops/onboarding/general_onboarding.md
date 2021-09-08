@@ -51,8 +51,10 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
   - Share your username with Nate Tang so he can add you to the Sourcegraph GitHub account and appropriate teams. This step is required to make edits to the Handbook.
 - If you are not familiar with Git, complete the [Git introduction](git_intro.md).
 - Add yourself to the [team page](../../company/team/index.md).
-  - Make sure you've been added to Sourcegraph's github org first!
-  - Add a link to your team page bio to your Slack profile.
+- Make sure you've been added to Sourcegraph's github org first!
+  - If you aren't, you'll see this warning:
+    ![Fork Repository Warning](https://sourcegraphstatic.com/handbook/fork-repository-warning.png)
+- Add a link to your team page bio to your Slack profile.
 - Read Sourcegraph's [information security policy](https://about.sourcegraph.com/security) and acknowledge your acceptance: https://forms.gle/LUK1YtwAMJLhtRPi6.
 
 ## Learn about Sourcegraph
