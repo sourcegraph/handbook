@@ -4,7 +4,7 @@ Sourcegraph is an all-remote company, which means:
 
 - All teammates are encouraged to work remotely. Sourcegraph provides a budget for home offices or office spaces to teammates as needed.
 - We use our business office address in San Francisco to provide a mailing address, for corporate filings, and on-site workplaces as legally required.
-- We work asynchronously across time zones and continents.
+- We work [asynchronously](../asynchronous-communication.md) across time zones and continents.
   - You choose when you want to work. (Most people work the normal working hours for their timezone.)
   - You don't need to ask permission or tell anyone if you need to step out.
   - We try to limit the number of synchronous meetings, but there are some [company](../../communication/company_meeting.md) and team meetings that you need to attend which might be outside of your normal working hours. We do our best to optimize meeting times for all involved participants.
