@@ -42,8 +42,7 @@ Teams track the work they are doing in [GitHub Projects](https://github.com/orgs
     - [Support](https://github.com/orgs/sourcegraph/projects/153)
     - [Planning board](https://github.com/orgs/sourcegraph/projects/148)
   - Distribution
-    - [Distribution backlog board](https://github.com/orgs/sourcegraph/projects/68)
-    - [Find the latest Distribution sprint board](https://github.com/orgs/sourcegraph/projects?query=is%3Aopen+dist)
+    - [Distribution board](https://github.com/orgs/sourcegraph/projects/197)
 
 ## Planning artifacts
 
