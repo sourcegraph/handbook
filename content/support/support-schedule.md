@@ -30,6 +30,7 @@ _Note: we can only have 3-4 folks with the same focus day. If you don't see the 
 | Stompy      | 11am - 7pm  | 08:00 - 16:00 | 1am - 9am     | Friday    |
 | Warren      | 9am - 5pm   | 16:00 - 24:00 | 9am - 5pm     | Monday    |
 | Virginia    | 8am - 5pm   | 15:00 - 24:00 | 8am - 5pm     | Friday    |
+| Tamar       | 7am - 4pm   | 15:00 - 24:00 | 7am - 4pm     | TBD       |
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
