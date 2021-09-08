@@ -1146,6 +1146,19 @@
           4.835659
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mohammad Alam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11035239696503,
+          40.561848725014
+        ]
+      }
     }
   ]
 }
