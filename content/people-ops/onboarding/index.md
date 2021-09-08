@@ -1,6 +1,10 @@
 # Onboarding
 
-Welcome to Sourcegraph! We are so excited to have you on the team. This page outlines what you'll need to do to get started.
+Welcome to Sourcegraph! We are so excited you are part of the team or considering it. This page outlines what you'll need to do to get started.
+
+In order for us to create a beter onboarding experience for new teammates we have defined dates for people to start. You can check out our [New Cohort calendar](https://calendar.google.com/calendar/u/0?cid=Y182OTdwMnZyMnA3cmJnYzNrMTRiODAwc2gxZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t). _If you are planning to join us and these dates don't work for you, please contact the Talent team and let them know your situation._
+
+New teammates are paired with someone to connect that can share their experiences and advice to help make their transition a little smoother. You can read more about the [Onboarding buddy program here](./buddy-program.md)
 
 ### Links of interest
 
