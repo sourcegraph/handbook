@@ -2,15 +2,6 @@
 
 This page contains information that is relevant for how to do well at your job as a product manager. For information that is relevant to the whole company, including all product managers, check the index at the [product home](../index.md) page.
 
-## References
-
-- [Onboarding to the product team](../onboarding/index.md)
-- The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
-- Product documents (PDs)
-- [Product learnings](product_learning.md)
-- [Working with BizOps](../../ops/bizops/index.md#how-to-work-with-us)
-- [Recommended reading](../onboarding/recommended_reading.md)
-
 ## Product process
 
 ### Product planning
@@ -52,3 +43,13 @@ Each project, no matter how long-running, needs to plan to ship _something_ in e
 The reason for this is to avoid going for too long without customer feedback (from customers trying it) or even technical/product feedback (from performing the diligent work of polishing it to be ready to release). Lacking these critical checks means we will end up building something that doesn't solve people's problems or that is over-built.
 
 When we have relaxed this in the past, the results have been bad and the overwhelming feedback from retrospectives has been to release regularly.
+
+## References
+
+- [Sourcegraph's product design principles](./design_principles.md)
+- [Onboarding to the product team](../onboarding/index.md)
+- The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
+- Product documents (PDs)
+- [Product learnings](product_learning.md)
+- [Working with BizOps](../../ops/bizops/index.md#how-to-work-with-us)
+- [Recommended reading](../onboarding/recommended_reading.md)

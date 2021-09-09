@@ -44,7 +44,7 @@ See "[Guidelines for goals](guidelines.md)" for more information about how we ch
 
 #### [Code insights](../../engineering/developer-insights/code-insights/goals.md)
 
-## [Product](../../product/goals.md)
+## [Product](../../product/index.md#Goals)
 
 ---
 
