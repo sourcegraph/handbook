@@ -1159,6 +1159,19 @@
           40.561848725014
         ]
       }
+    },
+    { 
+      "type": "Feature", 
+      "properties": { 
+        "name": "Cesar Jimenez"
+      }, 
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [ 
+          -122.332069, 
+          47.606209 
+        ] 
+      } 
     }
   ]
 }
