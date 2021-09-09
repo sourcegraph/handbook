@@ -86,9 +86,8 @@ The table below breaks down the capabilities of each team within Marketing. Once
     - [Nick Moore](../company/team/index.md#nick-moore-he-him-his), Content Editor
   - [Lisa Tagliaferri](../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
     - [Marek Zaluski](../company/team/index.md#marek-zaluski), Developer Education Engineer
-    - [Oluebube Princess Egbuna](../company/team/index.md#oluebube-princess-egbuna-she-her), Education Engineer
     - [Katy Juell](../company/team/index.md#katy-juell-she-her), Full Stack Engineer
-    - We will be hiring technical educators
+    - We will be hiring developer educators
   - [Sarah Reece](../company/team/index.md#sarah-reece-she-her), Director of Demand Generation
     - Rebecca Rissinger, Manager, Marketing Operations
     - Jake Sorensen, Programs Lead, Demand Gen Campaigns
