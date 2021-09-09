@@ -13,7 +13,7 @@ Contracted for a specific period of time to cover a current but temporary busine
 Contracted as temporary contractors with the intention and possibility of converting to permanent full-time teammates.
 Hiring managers must have a clearly defined business case for opting into a temp-to-perm engagement vs. a permanent full-time teammate.
 
-In both cases, all contractor hires must be approved by the following teams prior to engaging specific contractors or starting a search process: [Talent](../../talent/index.md), [People Ops](../index.md), and [Finance](../../ops/finance/index.md).
+In both cases, all contractor hires must be approved by the following teams prior to engaging specific contractors or starting a search process: [People Ops](../index.md), Legal, [Finance](../../ops/finance/index.md), and [Talent](../../talent/index.md) (if starting a search).
 
 ### Talent and People Ops: First steps
 
