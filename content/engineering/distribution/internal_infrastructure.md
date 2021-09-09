@@ -30,7 +30,7 @@ Credentials: [1Password](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme
 
 ### Gitolite
 
-Git URL: gitolite.sgdev.org
+Git URL: git@gitolite.sgdev.org
 
 Credentials: [1Password](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/i5bm6syw45w2c33cvfrrlt4fhu)
 
