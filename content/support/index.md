@@ -37,7 +37,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
   - [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
   - [Jason Harris](../company/team/index.md#jason-harris-he-him)
   - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
-- Tamar Joyeux, Manager
+- [Tamar Joyeux](../company/team/index.md#tamar-joyeux), Manager
   - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste-he-him)
   - [Beatrix Woo](../company/team/index.md#beatrix-woo-she-her)
   - [Ben Gordon](../company/team/index.md#team#ben-gordon-he-him)
