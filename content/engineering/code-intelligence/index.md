@@ -108,7 +108,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
   - [Ólafur Páll Geirsson](../../company/team/index.md#olafurpg)
   - [TJ DeVries](../../company/team/index.md#tj-devries)
   - [Chris Wendt](../../company/team/index.md#chris-wendt)
-  - C.J. starting 2021-09-07
+  - [Cesar Jimenez](../../company/team/index.md#cesar-jimenez)
   - FQ3 hire
   - FQ4 hire
 
