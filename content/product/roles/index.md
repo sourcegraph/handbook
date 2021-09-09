@@ -73,9 +73,14 @@ Technical Writers plan, create, revise, and maintain developer documents and edu
 
 ## Director of Product
 
+Directors lead, grow, and develop Product Managers.
+
 ### Responsibilities
 
-TO DO
+- Lead and support the work of multiple Product Managers who are focused on defining and leading key initiatives critical to the success of Sourcegraph.
+- Recruit, hire, and grow excellent Product Managers.
+- Model, teach, and apply our values in everyday interactions.
+- Facilitate and sustain a healthy, inclusive team culture where everyone is set up to do their best work
 
 ## Director of Technical Writing
 
