@@ -2,7 +2,7 @@
 
 Our passionate users provide a constant stream of thoughtful feedback and love engaging with us to help them and their teams solve their toughest problems. This trust and feedback is a gift, and we take it seriously and listen carefully to what users tell us.
 
-_This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](surfacing_product_feedback.md)._
+_This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](../surfacing_product_feedback.md)._
 
 ## Sources of feedback
 
@@ -33,7 +33,7 @@ We have a few different email lists that are used to send us feedback.
 #### support@sourcegraph.com
 
 - **Purpose:** This email list is for customers to request help and connects to Zendesk.
-- **Owner:** The Customer Support team is [responsible for all support issues](../support/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
+- **Owner:** The Customer Support team is [responsible for all support issues](../../support/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
 
 ### GitHub issues
 
@@ -48,7 +48,7 @@ We have a few different email lists that are used to send us feedback.
 ### Slack
 
 - **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
-- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in [`#feedback`](https://sourcegraph.slack.com/archives/C0W2E592M). The product manager on [feedback rotation](product_management/responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](product_management/responding_to_user_feedback.md#slack-feedback-channel).
+- **Owner:** We [ask that teammates surface product feedback](../surfacing_product_feedback.md) in [`#feedback`](https://sourcegraph.slack.com/archives/C0W2E592M). The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](responding_to_user_feedback.md#slack-feedback-channel).
 
 ### Support tickets
 
@@ -66,17 +66,17 @@ We have a few different email lists that are used to send us feedback.
 #### NPS Survey
 
 - **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI.
-- **Owner:** The product manager on [feedback rotation](product_management/responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback.
+- **Owner:** The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback.
 
 #### Browser Extension Uninstall Feedback
 
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
-- **Owner:** The browser extension product manager (currently the [Extensibility team product manager](../engineering/developer-insights/extensibility/index.md#members)) owns responding to this feedback.
+- **Owner:** The browser extension product manager (currently the [Extensibility team product manager](../../engineering/developer-insights/extensibility/index.md#members)) owns responding to this feedback.
 
 ### CE feedback
 
 - **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
-- **Owner:** CE owns putting this feedback in the `#feedback` slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
+- **Owner:** CE owns putting this feedback in the `#feedback` slack channel the [same way](../surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
 
 ## Productboard
 

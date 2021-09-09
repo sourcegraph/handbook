@@ -24,7 +24,7 @@ We anticipate most delivery plans will:
 
 ## Process
 
-1. The delivery plan for each feature is created during planning (along with the [tracking issue](../engineering/tracking_issues.md) and prioritization discussions).
+1. The delivery plan for each feature is created during planning (along with the [tracking issue](../../engineering/tracking_issues.md) and prioritization discussions).
 1. When a developer's work is ready, they _immediately_ start following the delivery plan.
 
    - They do not check in with sales/product/marketing (e.g., "hey, feature XYZ is ready, can you ping the customer?" or "can you check the delivery plan to make sure it's still up to date before I send this email?") before doing so. This enforces that the delivery plan is written comprehensively beforehand and is kept up to date by sales/product/marketing if customer circumstances change. We are an all-remote company and need to avoid synchronous processes.

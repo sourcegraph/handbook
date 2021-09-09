@@ -1,6 +1,6 @@
 # Responding to user feedback
 
-The product team owns a number of [user feedback sources](../user_feedback.md).
+The product team owns a number of [user feedback sources](user_feedback.md).
 
 ## Cross-team communication and recording responses
 
