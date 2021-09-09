@@ -23,7 +23,7 @@ We know that we’re successful as a design team when we…
 
 - **Collaborate effectively across disciplines to ship and iterate on a great product experience.** This means that we have a shared approach to the design process, that we build trust with each other and with our colleagues, and we consistently ship design solutions that solve product problems.
 - **Feel empowered to act with high agency to make our product, processes, and teams better.** Design is an inherently explorative and iterative process. We value high agency, and we have to actively create an environment of physiological safety, trust, and transparency.
-- **Advocate for and ship design outcomes that align with our [product design principles](../product_management/design_principles.md).**
+- **Advocate for and ship design outcomes that align with our [product design principles](../product_management/index.md#sourcegraph-s-design-principles).**
 - **Improve Sourcegraph’s velocity by helping to ship more usable and delightful features in the first iteration.** Design often means more time up-front, but this reduces time-consuming rewrites, refactors, and technical and design debt that occurs when changes are made during development or after releases.
 - **Complete OKRs owned by our teams.** We’re successful when each of us is able to complete our OKRs in a sustainable way, while also contributing to the design team culture and rituals.
 
@@ -33,7 +33,7 @@ As a design team, we’re constantly reflecting and improving on how we work.
 
 ### Design principles
 
-Our [product design principles](../product_management/design_principles.md) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
+Our [product design principles](../product_management/index.md#sourcegraph-s-design-principles) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
 
 ### Designing in the open
 
