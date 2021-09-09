@@ -49,7 +49,7 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 
 ### Improve process for documentating product strategy
 
-Our current [product goals pages](index.md#Goals) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
+Our current [product goals pages](index.md#goals) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
 
 - Owner: Jason
 
