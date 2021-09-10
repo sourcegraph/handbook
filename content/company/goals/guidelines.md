@@ -2,12 +2,8 @@
 
 Our company goals are public:
 
-- [FY22 OKRs (not yet public)](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit#gid=1699297878)
-- Historical snapshots:
-  - [FY21-Q2](2021_q2.md)
-  - [FY21-Q1](2021_q1.md)
-  - [CY19-Q4](2019_q4.md)
-  - [CY19-Q3](2019_q3.md)
+- [Current OKRs](index.md)
+- [Historical snapshots](archive.md)
 
 ## Principles
 
@@ -76,7 +72,5 @@ You're probably hoping to read some deep insight about why certain goal-setting 
 Why are we using "OKRs" again, when we previously said OKRs were jargon? Because I (@sqs) have actually found using the terms "objective" and "key result" helpful in getting people to write down their goals more concisely and without listing tasks.
 
 ## Sensitive information
-
-> This does not yet apply because our most recent OKRs are not yet public.
 
 Do not include any specific financial numbers, customer names, or any other sensitive information in the public goals. Instead, use placeholders (such as _N<sub>0</sub>_, _N<sub>1</sub>_, and so on) and link to the definitions in a Google Doc that is only visible to Sourcegraph team members.
