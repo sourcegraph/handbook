@@ -10,10 +10,9 @@ Please first read [the customer-facing managed instance documentation](https://d
   - [Security](#security)
 - [Cost estimation](cost_estimation.md)
 - [Creating a managed instance](creation_process.md)
-- [Operations](operations.md)
+- [Managed instances operations](operations.md)
 - [Upgrading a managed instance](upgrade_process.md)
 - [FAQ](#faq)
-  - [FAQ: Why did we choose Docker Compose over Kubernetes deployments?](#faq-why-did-we-choose-docker-compose-over-kubernetes-deployments)
 
 ## Technical details
 

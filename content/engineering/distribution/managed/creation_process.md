@@ -1,6 +1,7 @@
 # Creating a managed instance
 
-Creating a new managed instance involves following the steps below.
+Creating a new [managed instance](./index.md) involves following the steps below.
+For basic operations like accessing an instance for these steps, see [managed instances operations](operations.md).
 
 1. Create a issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
