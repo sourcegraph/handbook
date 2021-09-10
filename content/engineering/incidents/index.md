@@ -87,6 +87,10 @@ After the incident is resolved:
 1. Create GitHub issues for any appropriate followup work.
 1. Schedule a [retrospective](../../retrospectives/index.md) if you think it would be valuable.
 
+## Incident Post-mortems
+
+- [3.30 Postgres Index Incident](./330_incident_retro.md)
+
 ## Go-to-market (license and subscription) issues
 
 If a customer is experiencing an issue related to their license key or subscription status, any member of the Sourcegraph team has authority to generate a new, valid license key for any customer for any number of users that is **valid for up to 7 days** in the [site-admin Subscriptions page on Sourcegraph.com](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). This will prevent the initial incident responder from being bottlenecked on a member of the go-to-market team that can validate the customer's subscription status.
