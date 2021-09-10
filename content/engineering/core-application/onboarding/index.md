@@ -53,7 +53,7 @@ We would like you to take the role of a **Directly Responsible Individual (DRI)*
 
 This month, you will also switch to **active participation in [operational rotation](../operational-rotation.md)** and join the team's rotation [schedule](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/b553cefc-2466-4ad2-ad0c-66937c790bbf). Please do not forget that your peers are here to help, and you can rely on their support and guidance, especially during your first shift.
 
-Finally, we would like to start **shadowing** your team members during **on-call rotation** and participate in responding to and resolving production incidents. This experience will prepare you for performing on-call duty once you finish your onboarding process.
+Finally, we would like you to start **shadowing** your team members during **on-call rotation** and participate in responding to and resolving production incidents. This experience will prepare you for performing on-call duty once you finish your onboarding process.
 
 ## Onboarding by Week
 
