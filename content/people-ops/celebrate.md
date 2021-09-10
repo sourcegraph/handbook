@@ -37,6 +37,9 @@ Sourcegraph encourages team members to take a day of vacation on their special d
 
 We’d also like to be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should check their employee’s BambooHR profile for their birthday and ask them personally if they’d like to celebrate it at work beforehand. With their permission, people managers will consult their team on an appropriate gift / gift card for the employee and can expense this using Expensify.
 
+To add the BambooHR "Birthdays" calendar to your Google Calendar, please use the following link by going to **Google Calendar > Settings > Add calendar > From URL >** paste link in **URL of calendar** box **> Add calendar**.
+https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665
+
 _Need a little help on what to get? Here’s a few of our favorite things:_
 
 - Ordering for breakfast or lunch! Send your teammate a giftcard for a local food delivery service in their area _(International)_
