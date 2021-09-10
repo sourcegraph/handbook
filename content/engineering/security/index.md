@@ -8,10 +8,9 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Members
 
-- [Dan Mckean](../../company/team/index.md#dan-mckean-he-him) (Product Manager)
-- FQ2 engineering manager hire, [Bill Creager](../../company/team/index.md#bill-creager) acting manager until then {#security-eng}
+- [Diego Comas](../../company/team/index.md#diego-comas-he-him-his)
   - [André Eleuterio](../../company/team/index.md#andré-eleuterio-hehim)
-  - FY2022 security engineer
+  - [Mohammad Umer Alam](../../company/team/index.md#mohammad-umer-alam-he-him)
   - FY2022 security engineer
   - FY2022 security engineer
 
