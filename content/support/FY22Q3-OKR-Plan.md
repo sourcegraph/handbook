@@ -1,6 +1,6 @@
 # FY22Q3 OKR Plan
 
-In support of our product/engineering Q3 objective to _Make cloud and enterprise successful at massive scale_, one way we will measure our success in achieving this goal is for the **Customer Support team to maintain 100% support issue resolution within 7 days while only requiring help (filing a #rfh Github issue) on 10% (measured weekly looking at last 30 days)**. To accomplish this, we will…
+In support of our product/engineering Q3 objective (see all OKRs [here](https://about.sourcegraph.com/handbook/company/goals/2022_q3) to _Make cloud and enterprise successful at massive scale_, one way we will measure our success in achieving this goal is for the **Customer Support team to maintain 100% support issue resolution within 7 days while only requiring help (filing a #rfh Github issue) on 10% (measured weekly looking at last 30 days)**. To accomplish this, we will…
 
 | #   | Status      | Responsible | Project                                                                                           |
 | --- | ----------- | ----------- | ------------------------------------------------------------------------------------------------- |
