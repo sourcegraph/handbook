@@ -1464,3 +1464,11 @@ To add yourself to this page:
 - Github: hjsizemore
 - [trey@sourcegraph.com](mailto:trey@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/treysizemore/)
 - Trey is currently living as a digital nomad, traveling the US in a 5th wheeler with his fiancée Paige and their 2 dogs Jack and Dash. He has 3 children (Sahara, Savannah, and Ethan) who he's immensely proud of and who are off on thier own adventures. Trey enjoys playing [pickleball] (https://www.usapa.org), tennis, and pretty much any gadget. He's always up for time at the beach 🏖, traveling to new destinations (and old favorites), and the occasional dad joke 😆
+
+## Cristina Birkel
+
+- Software Engineer
+- Cleveland, OH, United States 🇺🇸
+- Github: [CristinaBirkel](https://github.com/CristinaBirkel)
+- [cristina.birkel@sourcegraph.com](mailto:cristina.birkel@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/cristina-birkel)
+- During her career in software Cristina has tried on a number of hats, but has always found her way back to writing code. She's passionate about becoming the best version of herself, and loves reading books that help her grow. She eats a mostly paleo diet, has lost the ability to wear shoes that aren't zero-drop, and swears by Kari Pearce Power Abs. Her longest standing hobby is making music, with video games coming in at a close second. She lives in Cleveland, OH with her Canadian wife, a talkative manx cat and an anxious german shepherd.
