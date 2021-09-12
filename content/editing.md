@@ -71,6 +71,16 @@ If you just need to edit a single page, you can do it entirely on the web.
 1. When you're ready to publish the change and make it live, press the **Squash and merge** button, then press **Confirm squash and merge**.
 1. Wait up to 5 minutes for your change to be live on about.sourcegraph.com.
 
+### Announcing Handbook Changes
+
+All Handbook-related pull request information is automatically announced in the #handbook-updates Slack channel. This channel can get a bit noisy, so you may want to announce an important update in the #handbook-announce channel. To do this:
+
+1. Open your pull request
+1. Click the **Labels** section on the right side of the Github screen
+1. Search for "handbook-announce" and select it
+   - ![Announcing Handbook Changes](https://storage.googleapis.com/sourcegraph-assets/handbookannouncelabelimage.png)
+1. Merge your pull request
+
 ### Handbook checks
 
 > If you are running the handbook locally, you can run these checks before you push your commit, [explained in the readme](https://github.com/sourcegraph/about#handbook).
