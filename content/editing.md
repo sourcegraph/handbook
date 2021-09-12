@@ -27,6 +27,7 @@ Here's the process for getting a change published to the handbook. For detailed 
    - For minor edits, you can skip review.
 1. Wait for the necessary teammates to review and approve your pull request.
 1. Merge the pull request.
+   - If you forget to merge your pull request, you'll be reminded about it after 14 days of inactivity on that pull request. If the pull request sees another 7 days of inactivity, it will be automatically closed.
 1. Wait up to 5 minutes for your change to be live on about.sourcegraph.com.
 1. Use the #handbook-announce label to notify other people of important handbook updates on the #handbook-announce Slack channel.
 
