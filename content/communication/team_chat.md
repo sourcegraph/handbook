@@ -68,6 +68,8 @@ If teams require additional channels they should follow the convention of prefix
 - #progress - Share cool/interesting progress with the team
 - #thanks - Appreciate someone's work? You can thank them here! :) {#thanks}
 - #handbook - Updates to and discussion of [this handbook](../index.md)
+- #handbook-updates - Github updates from the Handbook repo.
+- #handbook-announce - Announcement of important changes to the Handbook.
 
 ### Product
 
