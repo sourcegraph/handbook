@@ -40,9 +40,9 @@ Your paycheck automatically includes a fixed reimbursement for $75 of mobile pho
 
 We want to ensure all teammates have a workspace that will make them comfortable and productive, so we offer a $2,000 [desk set-up budget](https://about.sourcegraph.com/handbook/people-ops/spending-company-money#desk-set-up) for all full-time teammates to provide them with any necessary equipment to make that possible.
 
-### 🏢 Co-working/office space 
+### 🏢 Co-working space
 
-We understand that a designated work space can aid with productivity. We offer a $300-500 [monthly budget](https://about.sourcegraph.com/handbook/people-ops/spending-company-money#recurring-expenses) for renting a co-working space, including parking.
+We offer our teammates a $300-500 [monthly budget](https://about.sourcegraph.com/handbook/people-ops/spending-company-money#recurring-expenses) to join a coworking space. Our intention is not for teammates to use this budget to rent set/permanent office spaces, but rather to have an alternative, flexible space from which to work if and when they may not be able to work from their homes productively. With the wide variety of coworking spaces and options available throughout the world, we ask that teammates stick to options within this budget, including all amenities and parking. We ask that teammates carry an additonal cost for more expensive options, locations and/or amenities, such as private offices within coworking spaces, which are often not necessary. We also encourage teammates to consider coworking spaces where subscriptions include access to their spaces in various locations, particularly for teammates who enjoy travelling. If your circumstances are exceptional and require spend outside of this budget, feel free to reach out to the PeopleOps team.
 
 ### 🚚 Moving help
 
