@@ -2,9 +2,7 @@
 
 ## Our ethos
 
-Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. Support is the go-to technical team for the Customer Engineering team, helping customers both pre- and post-sales.
-
-We show up for our customers, open source users, and teammates by living up to our Sourcegraph values and handbook, as well as these additional guiding principles …
+Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as these additional guiding principles …
 
 - Focusing on the impact we might have and aligning our decisions and actions to the impact we desire
 - Seeking/providing context so the why is clear
