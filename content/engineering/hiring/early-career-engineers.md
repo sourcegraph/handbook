@@ -139,8 +139,8 @@ However, the most important resource available to you is our amazing recruiting 
 - Avoid asking about gaps in the candidate's resume or why their path took the directions it did.
 - Keep in mind that what could look like "job hopping" (when a candidate has a few jobs on their resume where they only stayed a year or so) doesn't automatically indicate poor performance; there are lots of reasons candidates switch jobs frequently (self-discovery to try to figure out what they want to do; self-respect to get out of an unhealthy situation, etc.).
 - When preparing a question, consider if the question might inadvertently be too specific; in other words, does your question become harder to answer if a candidate lacks a certain educational, professional, technical, or cultural background? For example:
-- Instead of asking what a candidate's favorite class was, ask the candidate to share something interesting that they learned recently
-- Instead of asking the candidate how they've debugged an issue in production before, ask the candidate to describe a gnarly debugging experience they've had
+  - Instead of asking what a candidate's favorite class was, ask the candidate to share something interesting that they learned recently
+  - Instead of asking the candidate how they've debugged an issue in production before, ask the candidate to describe a gnarly debugging experience they've had
 - Take a moment to consider how different factors may impact your evaluation of the candidate that may not directly bear on their ability to perform in the role. For example, how might your perspective have differed if they:
   - were older/younger
   - spoke more/less familiarly
