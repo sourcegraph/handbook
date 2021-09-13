@@ -12,25 +12,31 @@ NOTE: Dates and timelines below are not considered commitments, these roadmaps a
 	<small>If the roadmaps do not appear, please <a href="https://github.com/sourcegraph/about/issues">report this issue</a> and include the output from your browser's devtools JavaScript console.</small>
 </div>
 
-## [Batch Changes roadmap](../engineering/batch-changes/goals.md#roadmap)
+## Code Graph
 
-## [Core application roadmap](../engineering/core-application/goals.md#roadmap)
+### [Search roadmap](../engineering/search/goals.md#roadmap)
 
-## [Code intel roadmap](../engineering/code-intelligence/goals.md#roadmap)
+### [Batch Changes roadmap](../engineering/batch-changes/goals.md#roadmap)
 
-## [Distribution roadmap](../engineering/distribution/goals.md#roadmap)
+### [Code intel roadmap](../engineering/code-intelligence/goals.md#roadmap)
 
-## [Search roadmap](../engineering/search/goals.md#roadmap)
+### [Code Insights roadmap](../engineering/developer-insights/code-insights/goals.md#roadmap)
 
-## [Security roadmap](../engineering/security/goals.md#roadmap)
+## Enablement
 
-## [Frontend platform roadmap](../engineering/developer-insights/frontend-platform/goals.md#roadmap)
+### [Distribution roadmap](../engineering/distribution/goals.md#roadmap)
 
-## [Extensibility roadmap](../engineering/developer-insights/extensibility/goals.md#roadmap)
+### [Frontend platform roadmap](../engineering/developer-insights/frontend-platform/goals.md#roadmap)
 
-## [Code Insights roadmap](../engineering/developer-insights/code-insights/goals.md#roadmap)
+## Cloud
 
-## [API docs roadmap](../engineering/developer-insights/api-docs/goals.md#roadmap)
+### [Core application roadmap](../engineering/core-application/goals.md#roadmap)
+
+### [API docs roadmap](../engineering/developer-insights/api-docs/goals.md#roadmap)
+
+### [Security roadmap](../engineering/security/goals.md#roadmap)
+
+### [Extensibility roadmap](../engineering/developer-insights/extensibility/goals.md#roadmap)
 
 ---
 
