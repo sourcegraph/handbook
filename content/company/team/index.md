@@ -621,7 +621,7 @@ To add yourself to this page:
 
 ## Dudley Nostrand
 
-- Senior Manager, Value Engineering
+- Senior Manager, Value Engineering & Sales Enablement
 - Hamilton, Massachusetts, USA
 - GitHub: [dnostrand](https://github.com/dnostrand)
 - dudley@sourcegraph.com, [LinkedIn](https://www.linkedin.com/in/dudleynostrand/)
