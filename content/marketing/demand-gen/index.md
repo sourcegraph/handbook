@@ -30,3 +30,5 @@ The **Operations group** is responsible for systems and analytics which support 
 - Greg Bouton - Senior Email + Automation Manager
 - (TBH) Growth Marketing Manager
 - (TBH) Marketing Analyst
+
+For information about teammate preferences, check out our individual [READMEs](demand-gen-bios.md).
