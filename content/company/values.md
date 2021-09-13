@@ -109,4 +109,20 @@ Our code and PRs are public, so lack of transparency is only obfuscation, not se
 
 ### Continuously grow
 
-You strive to continuously grow and learn by genuinely soliciting feedback early and often, and humbly reflecting on your past mistakes.
+You strive to continuously grow and learn.
+
+- You genuinely solicit feedback early and often.
+- You humbly reflect on past mistakes.
+- You actively seek out learning opportunities instead of avoiding them.
+- You identify gaps in knowledge and share them openly and honestly.
+
+Here are some ways that we support learning, teaching, and knowledge-sharing at Sourcegraph:
+
+- We aim to provide a high-quality [onboarding experience](../people-ops/onboarding/index.md) for new teammates by providing them with the learning materials and guidance they need to get started.
+- We have an [education budget](../people-ops/travel.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
+- We organize occasional hackathons internally, which are opportunities to learn, experiment, and share knowledge.
+- Product and Engineering teams host regular [Demo days](../product/demo_day.md) in which we share progress and learn from each other.
+- We teach each other new things in [Brain food sessions](../communication/index.md#brain-food)
+- We encourage self-directed growth.
+- We strive to support teammates who are interested in making career changes by [switching teams or roles.](../people-ops/switching-teams.md)
+- We have a framework for supporting [early-career engineers](../engineering/hiring/early-career-engineers.md).
