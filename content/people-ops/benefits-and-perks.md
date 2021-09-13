@@ -46,7 +46,7 @@ We offer our teammates a $300-500 [monthly budget](https://about.sourcegraph.com
 
 ### 🚚 Moving help
 
-Whether you are relocating to join us or simply moving to a new place after you have already joined, we offer a yearly $1,000 stipend for hiring professional movers to reduce the stress associated with moving. Should you choose to move yourself, you may use this stipend for purchasing or renting moving boxes and packing materials.
+Whether you are relocating to join us or simply moving to a new place after you have already joined, we offer a yearly $1,000 stipend for hiring professional movers to reduce the stress associated with moving. Should you choose to move yourself, you may use this stipend for purchasing/renting moving boxes, packing materials, and if needed, a moving van/truck.
 
 ## Benefits
 
