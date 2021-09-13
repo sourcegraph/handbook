@@ -2,6 +2,8 @@
 
 Features come in many different sizes and shapes, and the process for introducing new functionality ranges with these differences. For large or significantly impactful changes or changes that simply need a bit more time to bake, it is encouraged that the following rollout process is followed.
 
+Some features have a [beta or experimental label](../beta_and_experimental_feature_labels.md), you can read more about how that works there.
+
 ## Sourcegraph Cloud
 
 Sourcegraph Cloud is continuously deployed with all new updates to master. We maintain a [releasability contract](../../engineering/continuous_releasability.md) and require all new features to be released behind a feature flag to ensure that functionality can be turned off if a problem arises.
