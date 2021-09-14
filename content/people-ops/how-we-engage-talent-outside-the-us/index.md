@@ -96,17 +96,15 @@ To read more about Temporary contractors and how they are defined visit [this pa
 
 ## Visa sponsorship and immigration assistance
 
-=======
-
-## Work Visas
+### Visas
 
 Since our teammates can generally work from anywhere in the world, we sponsor visas for only roles that require the presence in a particular country as part of the job responsibilities. In such cases we will work to support teammates as much as possible, but if our PEOs do not sponsor the visa, an alternative solution may take multiple months to implement. We encourage hiring managers to let the Talent and People Ops teams know as early as possible, before the role is even opened, if such requirements exist.
 
-### For role-required reasons
+#### For role-required reasons
 
 In cases where a candidate or teammate's role within Sourcegraph would require their presence in a particular country, we will cover the costs of immigration assistance and work to support the candidate as much as possible. However, it is dependent on whether we, or our PEO partner, have the ability to sponsor the particular visa or immigration process. We encourage hiring managers to let the Talent and People Ops teams know as early as possible, even before the role is opened, if such requirements exist.
 
-### For personal reasons
+#### For personal reasons
 
 Since our teammates can generally work from anywhere in the world, we do not cover sponsorship and visa assistance costs for candidates and teammates who plan to move to or remain in a country where they require sponsorship or immigration assistance. However, if there is a role that is considered difficult to fill and a person posseses a unique skillset and/or particular experience level that is needed, the People Team, Talent Team, and Hiring Manager will make a decision on a case by case basis and may consider covering costs in some cases.
 
@@ -116,7 +114,7 @@ For candidates or teammates that do not currently hold a visa or permanent resid
 
 For teammates that do not currently hold a visa but are looking to initiate a case for a visa or other immigration assistance (e.g. permanent residency) for personal reasons, Sourcegraph will agree to initiate and sponsor the case for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating the visa or permanent residency petition. The candidate or teammate would carry the cost of transferring and sponsoring the case.
 
-# Sourcegraph will not initiate new petitions or cases for candidates unless they would be filling a difficult-to-hire role as mentioned above.
+#### Sourcegraph will not initiate new petitions or cases for candidates unless they would be filling a difficult-to-hire role as mentioned above.
 
 For candidates in need of US sponsorship that require a new visa, we will agree to sponsor new visas for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating a visa petition.
 
