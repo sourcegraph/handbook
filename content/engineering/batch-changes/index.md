@@ -81,21 +81,9 @@ When I create a batch change to make large-scale code changes I want to _focus o
   - Issues have the current milestone set if-and-only-if they are P0.
   - An issue assigned to an engineer means that engineer is committing to finishing _in the current sprint_. Issues should be unassigned by default.
 
-### Sprint planning
+## Sprint planning
 
-Our two-week sprints start every other Wednesday. We follow this process:
-
-- Before the iteration (sprint N+1) begins, we do pre-planning to make the most of our the planning meeting:
-
-  - EM creates the milestone for sprint N+1.
-  - EM checks for [untracked issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+no%3Aproject+label%3Ateam%2Fbatchers) and adds them to the "Needs prioritization" column of [our planning project](https://github.com/orgs/sourcegraph/projects/119).
-  - Everyone on the team looks through our planning project for any issues they do not expect to finish by the end of the sprint (EOD Tuesday), and set the next sprint's milestone.
-  - Engineers add/refine estimates to issues in the planning project. All estimates in GitHub are assumed to be upper-bound estimates. (A missing estimate means "between 1 second and 1 trillion years.")
-  - Everyone on the team reviews our [roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2263724-campaigns-releases) for the current/next release.
-
-- We then have our planning meeting to determine our common goals for the iteration. The process for this is described in our [agenda doc](https://docs.google.com/document/d/1d4_WndknEd23BNUFG05-KEV4pq2MNx8mdZedVnZpLCg/edit#).
-
-- After sprint planning, the team has a retro to discuss how the previous sprint went, and what changes we might want to our working agreements.
+Our two-week sprints start every other Wednesday. On the Tuesday before, we have our sprint planning meeting to determine our common goals for the iteration. The process for this is described in our [agenda doc](https://docs.google.com/document/d/1d4_WndknEd23BNUFG05-KEV4pq2MNx8mdZedVnZpLCg/edit#). After sprint planning, the team has a retro to discuss how the previous sprint went, and what changes we might want to our working agreements.
 
 ## Working Agreements
 
