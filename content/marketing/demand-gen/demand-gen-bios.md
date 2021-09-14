@@ -2,11 +2,11 @@
 
 Our README expands on our profile in [the company team directory](https://about.sourcegraph.com/handbook/company/team) and are meant to help us orient to one another.
 
-- [](https://about.sourcegraph.com/handbook/demand-gen/demand-gen-bios#Erica-README '#Erica-README')Erica README
-- [](https://about.sourcegraph.com/handbook/demand-gen/demand-gen-bios#Greg-README '#Greg-README')Greg README
-- [](https://about.sourcegraph.com/handbook/demand-gen/demand-gen-bios#Jake-README '#Jake-README')Jake README
-- [](https://about.sourcegraph.com/handbook/demand-gen/demand-gen-bios#Rebecca-README '#Rebecca-README')Rebecca README
-- [](https://about.sourcegraph.com/handbook/demand-gen/demand-gen-bios#Sarah-README '#Sarah-README')Sarah [README](./sarah-readme.md)
+- Erica README
+- Greg README
+- Jake README
+- Rebecca README
+- Sarah [README](./sarah-readme.md)
 
 ---
 
