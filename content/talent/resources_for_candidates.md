@@ -115,4 +115,5 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
   - A: We do not provide feedback to candidates at this time. We encourage you to read more about our [philosophy regarding sharing candidate feedback](https://about.sourcegraph.com/handbook/talent/hiring#sharing-interview-feedback).
 
 - Q: Do you provide Visa sponsorship?
-  - A: You can learn more about our Visa policy [here](https://about.sourcegraph.com/handbook/people-ops/visa-sponsorship). If you have any questions, please email recruiting@sourcegraph.com.
+
+  - A: You can learn more about our Visa policy [here](https://about.sourcegraph.com/handbook/people-ops/how-we-engage-talent-outside-the-us#work-visas). If you have any questions, please email recruiting@sourcegraph.com.
