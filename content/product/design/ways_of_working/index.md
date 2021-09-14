@@ -17,7 +17,7 @@ We often work as design consultants when the need arises. This might be because 
 
 Working as a design consultant gives us a way to contribute end-to-end on efforts that benefit from a product design perspective. What this means is a bit different for every consulting effort. Sometimes it means checking in with the team from time to time to share feedback. Other times, it means facilitating regular timeboxed design sessions with team members to share and explore design problems synchronously.
 
-It’s important than when we’re working as design consultants, we’re setting and managing expectations around time and outcomes. A consulting effort inherently can’t be as extensive or in-depth as it might be as an embedded designer, but it will unblock product efforts and help us to move forward towards our goals. Early design support, even in a consulting role, will help us as a company save aggregate time and effort in the future by making better design decisions early and avoiding future design and conceptual debt.
+It’s important that when we’re working as design consultants, we’re setting and managing expectations around time and outcomes. A consulting effort inherently can’t be as extensive or in-depth as it might be as an embedded designer, but it will unblock product efforts and help us to move forward towards our goals. Early design support, even in a consulting role, will help us as a company save aggregate time and effort in the future by making better design decisions early and avoiding future design and conceptual debt.
 
 ## Working as a product design team
 
