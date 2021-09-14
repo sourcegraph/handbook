@@ -1160,6 +1160,19 @@
         ]
       }
     },
+
+    { "type": "Feature",
+      "properties": {
+        "name": "Tamar Joyeux"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -122.402641,
+        45.585678
+       ]
+     }
+   },
     {
       "type": "Feature",
       "properties": {
@@ -1187,4 +1200,5 @@
       }
     }
   ]
+
 }
