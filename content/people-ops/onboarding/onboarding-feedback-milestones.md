@@ -61,7 +61,7 @@ _Set this up for three months after your start date, and check our handbook for 
 
 To help facilitate these onboarding feedback milestones, we have developed check-ins in Lattice that will be active at the end of month 1, 2 and 3. You will be given structured questions that serve as a guideline for you to have those important conversations pertinent to the onboarding process. The onboarding feedback milestones serve as a conversation guide and the answers serve as notes that you can reference to assess their onboarding success.
 
-The question or topic notes will be private and new teammates will not see what managers have written and that’s why at the end you will be prompted to complete a summary of your conversation. This summary will be shared with the teammate.
+The question or topic notes will **not** be private and new teammates will see what managers have written and the final summary of your conversation. Both the conversations notes and the summary will be shared with the teammate.
 
 Keep in mind managers may define expectations differently to fit the team, the most important thing is that teammates should feel they know what is expected of them, whether that is done through a 30/60/90 framework, personal OKRs, or through other means.
 
