@@ -12,7 +12,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](https://
 | 6   | In-progress | Michael     | Create database type solution to make it easy and reliable for CSEs to learn from past tickets    |
 | 7   | In-progress | Alex        | Streamline key steps in CSE workflow                                                              |
 | 8   | In-progress | Carl        | 5 folks complete kubernetes certification                                                         |
-| 9   | In-progress | Virginia    | Implement retro practice for all tickets that take longer than 7 days to solve                    |
+| 9   | In-progress | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                    |
 | 10  | Not started | Virginia    | Provide enablement in how to navigate difficult conversations with customers                      |
 | 11  | In-progress | Adeola      | CSE Onboarding updates V3                                                                         |
 
