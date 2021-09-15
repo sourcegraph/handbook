@@ -9,12 +9,12 @@ We receive tons of feature requests and bug reports, more than we can handle. Th
 - [Create a GitHub issue](https://github.com/sourcegraph/sourcegraph/issues/new/choose) OR [write an RFC](../../communication/rfcs/index.md).
   - Include as much detail as possible about the issue.
   - Provide context around urgency and priority.
-  - Link to the customer (if applicable) in HubSpot (see [below](#customer-requests)).
+  - Link to the customer (if applicable) in this [spreadsheet](https://docs.google.com/spreadsheets/d/1OEhzdMSlkGOaWyGKwdiAGlirsKKj9EN45Izn7kdKNTg/edit#gid=0)
   - Add the team label on the issue for the team that should be responsible for it.
 - Share with the team in any of the following ways:
   - Post link to the issue in Slack and ask the team to prioritize the issue in the next team sync (or let them know it is a P0 that should be handled immediately).
   - Send to the Product Manager to prioritize with the team.
-  - Add the item in suggestion mode to [the roadmap](../roadmap.md) in your best guess at relative priority. The team or PM will accept or update the priority of the item.
+  - Add the item to the [team's board](planning.md) for consideration
 
 ### Engineering prototyping
 
