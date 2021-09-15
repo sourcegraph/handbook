@@ -8,7 +8,7 @@ There is a backlog and an active sprint at any given time.
 
 ## Sprint board
 
-The active sprint board consists of the following columns. Tickets should consist of concrete deliverables. Each individual ticket is almost always going to result in a pull request on the Sourcegraph Learn repository.
+The active sprint board consists of the following columns. Tickets should consist of concrete deliverables. Each individual ticket is almost always going to result in a pull request on the Sourcegraph Learn repository. This process is the same for both code and content.
 
 | Column title    | Explanation                                                                                                                          |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -38,4 +38,10 @@ Once a piece is in a pull request, it needs to be reviewed one final time to ens
 
 ## Review process for code
 
-_Coming soon._
+_More coming soon._
+
+Prior to contributing new code, the team must review functionality, perform testing, and validate that the new code does not create unnecessary technical debt.
+
+All code must be tested locally by the reviewer before it is marked as approved.
+
+For requests outside of the team, please review [Developer Education requets](requests.md).
