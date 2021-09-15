@@ -118,6 +118,7 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 - [AP Policy](ap.md)
 - [Submitting an invoice (teammates based outside of US)](invoices.md)
 - [Submitting reimbursable expenses](expenses.md)
+- [Spending Company Money](spending-company-money.md)
 
 ### Accounts Receivable
 
