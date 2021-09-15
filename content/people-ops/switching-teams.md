@@ -1,4 +1,4 @@
-# Switching teams
+# Applying for a new role in a new team
 
 As Sourcegraph grows, we would like to support teammates who are interested in taking on new roles in other teams, if their skillset and aspirations are required in the team they wish to move to.
 
