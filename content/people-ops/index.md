@@ -50,7 +50,7 @@ WIP
 - [How we structure compensation](compensation/index.md)
   - [How to create an offer](compensation/offers.md)
   - [Equity and stock options FAQ](compensation/equity-faq.md)
-- [Expenses we cover](spending-company-money.md) (aka "Spending company money")
+- [Expenses we cover](../ops/finance/spending-company-money.md) (aka "Spending company money")
 - [Benefits and perks we offer](benefits-and-perks.md)
 - [Guidelines for travel](travel.md)
 - [Paid time off and working hours](paid-time-off-and-working-hours.md)
