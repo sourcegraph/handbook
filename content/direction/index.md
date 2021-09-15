@@ -4,7 +4,7 @@ Product strategy is the bridge (how we're going to get there) between our [visio
 
 Want to help us achieve these goals? [We're hiring!](https://github.com/sourcegraph/careers)
 
-## 2020 Product strategy
+## Product strategy
 
 This is our strategy for realizing our [1-year vision](../company/strategy.md#1-year-vision).
 
