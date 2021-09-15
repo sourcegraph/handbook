@@ -33,7 +33,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Product](product/index.md)
 
-- [Direction (2020 product strategy)](direction/index.md)
+- [Direction](direction/index.md)
 - [Product](product/index.md)
   - [Product Management](product/product_management/index.md)
   - [Product Design](product/design/index.md)
