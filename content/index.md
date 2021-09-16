@@ -62,7 +62,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Marketing](marketing/index.md)
 
-- [Product Marketing](marketing/product_marketing.md)
+- [Product Marketing](marketing/product-marketing/index.md)
 - [Content Marketing](marketing/content/index.md)
   - [Editorial](marketing/content/editorial.md)
   - [Creating and editing blog posts](marketing/content/creating_blog_posts.md)
