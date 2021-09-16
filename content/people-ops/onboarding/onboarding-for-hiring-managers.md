@@ -10,9 +10,6 @@ As the company grows, new hires are joining almost every week. The onboarding pr
 <p>
 <ul>
 <li> We confirm start date
-<li> We confirm email preference
-<li> We ask if the teammate prefers purchasing the laptop themselves or getting it with the company card
-<li> We ask for T-shirt size, for swag purposes, and address for shipping
 <li> We ask for a selfie
 <li> We ask for their phone number, for account setup
 </ul>
@@ -24,13 +21,13 @@ And GitHub username, if they have one.
    </td>
   </tr>
   <tr>
-   <td>About a week before the first day, the Hiring Manager needs to fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform?usp=sf_link">Google Form</a> with all the relevant tools, channels and groups the new hire needs to be added to be able to start on day one. Also, here is where the preferred Onboarding buddy is suggested.
+   <td>About a week before the first day, the Hiring Manager needs to fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform?usp=sf_link">Google Form</a> with all the relevant tools, channels and groups the new hire needs to be added to be able to start on day one. Also, here is where the Onboarding buddy is informed. <b>Please take the time to confirm with the buddy that they are willing and available before nominating them</b>.
    </td>
    <td>Hiring Manager
    </td>
   </tr>
-  <tr>
-   <td>The Thursday before they start, we create their Sourcegraph email. Once we have this we add them to:
+   <tr>
+   <td>Tech Ops will create their Sourcegraph email and add them to the basic onboarding tools:
 <p>
 <ul>
 <li> Slack
@@ -40,14 +37,21 @@ And GitHub username, if they have one.
 <li> Lattice
 <li> Process St.
    </ul>
-<p>
-And create a Check in meeting for new hires with PeopleOps after their first month.
    </td>
-   <td>PeopleOps
+   <td>Tech Ops
    </td>
   </tr>
   <tr>
-   <td>We will also let Hiring Managers know through the #teammate-announce channel in Slack that the email is live. Now you should:
+   <td>PeopleOps will communicate in #teammate-announce all new teammates starting the following week, including their role and live email.
+<p>
+  <p>
+They will also be added to these calendar events: Meet the founders, New teammate happy hour, Meet & Greet - New cohort, and a check in with PeopleOps on their one month mark.
+   </td>
+   <td>PeopleOps
+   </td>
+ 
+  <tr>
+   <td>Now that you have your new teammate's email you should:
 <p>
    <ul>
 <li> Create recurring 1:1 with new teammate
@@ -78,12 +82,6 @@ Having this done before day one will make it easier for the new hire and an over
    <td>Hiring Manager
    </td>
   </tr>
-  <tr>
-   <td>Once the new hire accepts their Lattice account, we will link them to their manager. Also, once they’ve accepted their 1password account, we’ll give them access and share the Shared vault with them.
-   </td>
-   <td>PeopleOps
-   </td>
-  </tr>
 </table>
 
 ## Checklist
@@ -99,6 +97,25 @@ Having this done before day one will make it easier for the new hire and an over
    <td>Checking the checklist before hand, will help keep in mind the content new hires will find there: the information they will be linked to, the tasks they have to complete and how much of the handbook they’ll cover.
    </td>
    <td>Hiring Manager
+   </td>
+  </tr>
+</table>
+
+## Impact reviews
+
+<table>
+  <tr>
+   <td>New teammates will go through their <a href="https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones"> Onboarding Feedback Milestones</a> on their first, second and third month with us. Please read the handbook page that walks you through what they are and why we find them valuable. 
+     <p>
+       You will use Lattice to take notes during the Milestones. You will be notified via email and through the Slack integration when it's time for you to have them. As per their onboarding checklist, teammates are responsible to schedule the meetings for you both to have the conversation. 
+   </td>
+   <td>Hiring Manager
+   </td>
+  </tr>
+  <tr>
+   <td>On the teammates 6 month mark, and every six months after that, manager and teammate will be part of the 360 impact review cycle.
+   </td>
+   <td>Hiring Manager & Teammate
    </td>
   </tr>
 </table>
