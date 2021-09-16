@@ -2,7 +2,7 @@
 ignoreDisconnectedPageCheck: true
 ---
 
-#OKTA
+# OKTA
 
 ## What is Okta?
 
@@ -15,6 +15,8 @@ Okta is an Identity and Single Sign-On (SSO) solution for applications and Cloud
 #### Current implementation status
 
 Tech Ops is currently building out the integration with BambooHR as the source of truth for identity. Once this is active we will begin rolling out access to applications through Okta one by one, starting with Docusign, Google Workspace, and Slack. Because Google and Slack will impact every single Sourcegraph teammate we ask that you activate your account ASAP.
+
+Please see our [Okta Project Plan] (https://docs.google.com/spreadsheets/d/1T7PUK4J94KgkW18cyjCBQZEkmVhFSDigRC8nuMV2EGU/edit?usp=sharing) for relevant timelines on app-specific and team-specific Okta integrations.
 
 You should have received an activation email, if you haven’t please let #it-tech-ops know and we can resend the invite.
 
@@ -48,6 +50,10 @@ Expect the sign-up process to take around 10 minutes. You will need to create lo
 
 Contact #it-tech-ops if you need assistance setting this up.
 
+## Can I use a different MFA option other than Okta Verify?
+
+Yes, we will be setting up enable TOTP and YubiKeys in addition to Okta Verify. Once we have successfully configured them you will see them listed when you set up 2FA. You can set up Okta Veify (or use 1Password's one-time passcode with Okta Verify) first and then once enable switch to TOTP or YubiKeys when they are ready.
+
 ## I forgot my password/my login doesn't work, what do I do?
 
 There is a "need help signing in?" button on the login screen. If you expand this there is a link to an automated password reset process via email.
@@ -76,6 +82,8 @@ Contact to #it-tech-ops and ask to have your account unlocked. As a precaution, 
 ## Why isn't an application I need available in Okta?
 
 Currently we don’t have any configured! But we will and we will also have an option for you to request access for an application from within Okta.
+
+Please see our [Okta Project Plan] (https://docs.google.com/spreadsheets/d/1T7PUK4J94KgkW18cyjCBQZEkmVhFSDigRC8nuMV2EGU/edit?usp=sharing) for relevant timelines on app-specific and team-specific Okta integrations.
 
 ## I have an application that uses a shared password for my team, can I move this to Okta?
 
