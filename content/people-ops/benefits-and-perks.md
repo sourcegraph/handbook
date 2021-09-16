@@ -22,7 +22,7 @@ We value and support teammates at all stages of life. We provide 16 weeks of pai
 
 ### 📚 Professional development
 
-In addition to on-the-job training, we offer a $1,000 yearly stipend for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [review and feedback cycles](review-cycles/index.md) for all teammates.
+In addition to on-the-job training, we offer a $1,000 yearly stipend for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](impact-reviews.md) for all teammates.
 
 ### ✈️ Travel
 

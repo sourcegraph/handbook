@@ -41,7 +41,7 @@ WIP
 - [Are you switching teams?](switching-teams.md)
 - [Are you leaving us?](leaving.md)
 - [How we manage remote work](../company/remote/index.md)
-- [How our Performance review cycles work](review-cycles/index.md)
+- [Impact review cycles](impact-reviews.md)
 - Hackathons: We don't have any company-wide hackathons planned. If you want to do one for your team, just propose it and find the right time. (See related "[Innovation time](../engineering/index.md#innovation-time)" for engineering, which could apply to any team if you think it would be good.)
 
 ## What we offer our teammates

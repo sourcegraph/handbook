@@ -12,7 +12,7 @@ Considering the Onboarding checklist lives in Process St., this page contains an
 - **[Greenhouse](https://www.greenhouse.io/):** Our recruiting tool for tracking candidates in the hiring pipeline.
 - **[Slack](https://slack.com/)**: Our team communication tool. For consistency, use `First Name (or preferred name) Preferred Last Name` as your display name on Slack.
 - **[GitHub](https://github.com/sourcegraph/)**: Access to our code and our handbook.
-- **[Lattice](https://sourcegraph.latticehq.com/)**: We use this tool for our [teammate feedback cycles](../review-cycles/index.md) (takes place twice a year– Noemi will send out details) and the [Onboarding feedback milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding#onboarding-feedback-milestones) (these take place every month for three months).
+- **[Lattice](https://sourcegraph.latticehq.com/)**: We use this tool for our [Impact review cycles](../impact-reviews.md) (takes place every six months based on your start date) and the [Onboarding feedback milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding#onboarding-feedback-milestones) (these take place every month for three months).
 - **[1Password](https://1password.com/)**: Tool we use to share team passwords and store your own passwords.
 - **[Zoom](https://zoom.us/signin):** Our video communication tool. Set up your Zoom account and follow the [recommended settings](../../communication.md#video-calls).
 - **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your **Apple** device in our MDM and in FileVault (ask [Tech Ops](https://about.sourcegraph.com/handbook/ops/tech-ops) for instructions and your access code).
