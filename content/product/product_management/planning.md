@@ -4,50 +4,7 @@ Planning is a continuous process of negotiation between product and engineering.
 
 ## Product / eng team backlogs
 
-Teams track the work they are doing in [GitHub Projects](https://github.com/orgs/sourcegraph/projects). Here are the direct links for each team:
-
-#### Global code graph
-
-- Code intelligence
-- [Batch changes](https://github.com/orgs/sourcegraph/projects/119): If you would like a team to prioritize an issue, please add it to the "Needs prioritization" column in this board.
-- Search core backend
-  - [Backlog](https://github.com/orgs/sourcegraph/projects/168)
-  - [Support](https://github.com/orgs/sourcegraph/projects/166)
-- Search product
-  - The Search team creates a new project board for each iteration. It is named like: "Search product :: \<date> iteration"
-  - [Support](https://github.com/orgs/sourcegraph/projects/165)
-  - [Design refresh](https://github.com/orgs/sourcegraph/projects/159)
-  - [Search contexts](https://github.com/orgs/sourcegraph/projects/113)
-  - [Standalone issues backlog](https://github.com/orgs/sourcegraph/projects/99)
-  - [Streaming search](https://github.com/orgs/sourcegraph/projects/120)
-  - [Graphqlbackeng refactor](https://github.com/orgs/sourcegraph/projects/172)
-  - [Exhaustive](https://github.com/orgs/sourcegraph/projects/172)
-  - [Playground](https://github.com/orgs/sourcegraph/projects/173)
-  - [Code monitoring](https://github.com/orgs/sourcegraph/projects/121)
-
-#### Developer insights
-
-- Code insights
-  - [Backend](https://github.com/orgs/sourcegraph/projects/122)
-  - [Current work](https://github.com/orgs/sourcegraph/projects/118)
-- Front end platform
-- Extensibility
-  - [Standalone issues backlog](https://github.com/orgs/sourcegraph/projects/116)
-  - [Current iteration](https://github.com/orgs/sourcegraph/projects/118)
-
-#### Platform and infrastructure
-
-- Security
-  - Security aren't using boards for active work management - [instead we're using Jira](https://sourcegraph.atlassian.net/secure/RapidBoard.jspa?rapidView=4&projectKey=SECURITY&view=planning&selectedIssue=SECURITY-27&epics=visible&issueLimit=100)
-  - Note that other teams are not currently expected to have access to this, but future use of it or other tools is in discussion.
-  - [Security Support Board](https://github.com/orgs/sourcegraph/projects/178)
-- Core application
-  - [Production testing of all authorization models](https://github.com/orgs/sourcegraph/projects/164)
-  - [Retro actions](https://github.com/orgs/sourcegraph/projects/162)
-  - [Support](https://github.com/orgs/sourcegraph/projects/153)
-  - [Planning board](https://github.com/orgs/sourcegraph/projects/148)
-- Distribution
-  - [Distribution board](https://github.com/orgs/sourcegraph/projects/197)
+You can find the backlogs for the product teams by visiting their [individual direction pages](../index.md#roadmap), which will contain a link. Different teams are using different tools and processes to plan their sprints, such as Jira, Productboard, or GitHub issues.
 
 ## Planning artifacts
 
