@@ -70,8 +70,7 @@ We are missing a single source of truth for what is currently on the roadmap. Ou
 
 Customer Engineering needs is looking to better undrestand the known boundaries of our product to effectively interact with prospetive customers. As a product team we are pulling together information of existing customer scale. This information combined with our product knowledge will help us proactively identify potential scale challenges.
 
--Owner: Christina
-
+- Owner: Christina
 - [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
 
 ### Other initiatives
