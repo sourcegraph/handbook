@@ -54,4 +54,7 @@ The VP of Engineering ensures that we have an effective engineering organization
 
 Switching between an individual contributor role and a people management role (or vice versa) is a role change (not a promotion or a demotion). Each role requires a different set of skills. Generally we expect people managers to have experience doing the role of their direct reports. If you wish to change roles, start a conversation with your manager and they will help come up with a personalized plan that makes sense for you and the team's situation.
 
-Refer to the section on [Temporary Management Positions](engineering-management.md#temporary-management-positions) for more information.
+Refer to the section on [transitioning from individual contributor to engineering manager](engineering-management.md##transitioning-from-individual-contributor-to-engineering-manager) for more information.
+
+For switching to a role in another engineering team or other department, see the company-wide [Applying for a new role in a new team
+](../people-ops/switching-teams.md) page.
