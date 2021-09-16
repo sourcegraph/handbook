@@ -4,7 +4,7 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 The Product team strives to make the following true:
 
-- The team is working on the most important things (listed in the [product roadmap](https://docs.google.com/document/d/1cBsE9801DcBF9chZyMnxRdolqM_1c2pPyGQz15QAvYI/edit?usp=sharing)) to execute on [our strategy](../direction/index.md) that is moving us forward on [our vision](../company/strategy.md).
+- The team is working on the most important things (listed in the [product roadmap](./index.md#roadmap)) to execute on [our strategy](../direction/index.md) that is moving us forward on [our vision](../company/strategy.md).
 - Each teammate has the customer and product context needed (about customer problems, likely future priorities, possible solutions, etc.) to perform their work effectively.
 - The product vision and roadmap are communicated well to teammates and everyone outside Sourcegraph.
 
@@ -14,16 +14,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap
 
-- [Roadmap](roadmap.md)
-
-## Metrics
-
-- [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
-- [How to add metrics](../ops/bizops/analytics.md#How-to)
-
-## Goals
-
-Within the product organization, individual product engineering teams set their own goals.
+Within the product organization, individual product engineering teams set their own goals and roadmaps, and each have a direction page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
 - Code Graph
   - [Search core and Search product](../engineering/search/goals.md)
@@ -43,6 +34,11 @@ Within the product organization, individual product engineering teams set their 
   - DevOps/SRE
   - [Extensibility](../engineering/developer-insights/extensibility/goals.md)
 
+## Metrics
+
+- [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
+- [How to add metrics](../ops/bizops/analytics.md#How-to)
+
 ## Product team initiatives
 
 Occasionally the product team takes on special initiatives that are not strictly tied to product delivery. Those are tracked here.
@@ -57,7 +53,7 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 
 ### Improve process for documentating product strategy
 
-Our current [product goals pages](index.md#goals) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
+Our current [product goals pages](index.md#roadmap) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
 
 - Owner: Jason
 - [Working Document](https://docs.google.com/document/d/15H6PeCF9c890TqQBc3gaDSk-GDE42SPzhokAlU5Lu8M/edit?usp=sharing)

@@ -30,7 +30,7 @@ Each team may decide how they would like to keep track of the backlog of issues,
 
 Sometimes, we need to prioritize changes to our product on short notice due to new information we have. This change could be to benefit [customers](../../sales/index.md#customer) or [prospects](../../sales/index.md#prospect), or could be a strategic initiative.
 
-If the requested change is large enough that it would impact the planned [project roadmap](../roadmap.md) of one or several [engineering teams](../../engineering/index.md#teams), we should handle its prioritization as follows:
+If the requested change is large enough that it would impact the planned [project roadmap](../index.md#roadmap) of one or several [engineering teams](../../engineering/index.md#teams), we should handle its prioritization as follows:
 
 1. The product manager should contact all relevant [engineering managers](../../engineering/roles.md#engineering_manager), providing the following information in the form of an [RFC](../../communication/rfcs/index.md):
    - Description of the desired functionality.
