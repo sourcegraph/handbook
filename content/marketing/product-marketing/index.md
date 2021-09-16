@@ -5,6 +5,7 @@
 1. [Team vision and principles](#team-vision-and-principles)
 1. [What we do](#what-we-do)
 1. [Working with other teams](#working-with-other-teams)
+1. [Meet the team](#meet-the-team)
 1. [Resources](#resources)
 
 ## Team vision and principles
@@ -39,9 +40,9 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 
 ## Meet the team
 
-- [Andy Schumeister](https://about.sourcegraph.com/handbook/company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
-- [Alex Isken](https://about.sourcegraph.com/handbook/company/team/index.md#alex-isken-he-him), Product Marketing Manager, Emerging Products
-- [Victoria Yunger](https://about.sourcegraph.com/handbook/company/team/index.md#victoria-yunger-she-her), Product Marketing Lead, Enterprise
+- [Andy Schumeister](https://about.sourcegraph.com/handbook/company/team/#andy-schumeister-he-him), Director of Product Marketing
+- [Alex Isken](https://about.sourcegraph.com/handbook/company/team/#alex-isken-he-him), Product Marketing Manager, Emerging Products
+- [Victoria Yunger](https://about.sourcegraph.com/handbook/company/team/#victoria-yunger-she-her), Product Marketing Lead, Enterprise
 - Hiring: [Senior Customer Marketing Manager](https://boards.greenhouse.io/sourcegraph91/jobs/4096458004)
 
 To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)
