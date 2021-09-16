@@ -7,7 +7,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Editing the handbook](editing.md)
 - [Handbook usage](usage.md)
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
-- [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits)
+- [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits) (or [this search](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/about%24+type:diff+rev:main) if you'd like to see diffs)
 
 ## [Company](company/index.md)
 
