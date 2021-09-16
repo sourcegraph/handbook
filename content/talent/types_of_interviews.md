@@ -528,11 +528,11 @@ Read more about our sales interview processes [here](https://about.sourcegraph.c
 
 ### **Regional Sales Director**
 
-#### RSD presentation
+#### RSD sales presentation
 
 - Interviewer(s): Hiring Manager + Account Executive(s).
 - Duration: 60-minutes.
-- Details: you will be preparing a 60-minute presentation, to be shared with the Hiring Manager and Account Executive(s) on the team. Please use [this presentation](https://docs.google.com/presentation/d/1d9yZwfTn72oRSZPcjt-mBVbkWR8kWBTyNI3xHKrypJg/edit#slide=id.g9f9a1da303_0_3) as a guide for the conversation. The goal of the presentation is to help us get to know you better as a person and as a professional. Primary themes include your bio/work history, how you approach building and process, and the types of customers with whom you’ve worked in the past. \*\* If you have any issues accessing the above presentation, please email recruiting@sourcegraph.com and we will help you!
+- Details: You will prepare a 60-minute presentation to be shared with the Hiring Manager and Account Executive(s) on the team. Please use [this presentation](https://docs.google.com/presentation/d/1d9yZwfTn72oRSZPcjt-mBVbkWR8kWBTyNI3xHKrypJg/edit#slide=id.g9f9a1da303_0_3) as a guide for the conversation. The goal of the presentation is to help us get to know you better as a person and as a professional. Primary themes include your bio/work history, how you approach building and process, and the types of customers with whom you’ve worked in the past. \*\* If you have any issues accessing the above presentation, please email recruiting@sourcegraph.com and we will help you!
 
 #### RSD team collaboration with Sales Development
 
