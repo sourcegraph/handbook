@@ -88,10 +88,6 @@ Generally, items in the roadmap will be big enough they require writing an RFC, 
 
 See [tracking issues](../../engineering/tracking_issues.md)
 
-### [Delivery plans](delivery_plans.md)
-
-See [delivery plans](delivery_plans.md).
-
 ### [Prioritizing](prioritizing.md)
 
 See [prioritizing](prioritizing.md).
