@@ -31,9 +31,9 @@ The support rotation can be viewed on Opsgenie: [search core schedule](https://s
 
 Should an engineer be unable to fulfill support responsibilities for any reason (for example, due to upcoming time off), they should swap with a teammate.
 
-## Iterations
+## Planning
 
-The search core team plans its work in **2-week iterations**.
+The search core team plans its work continuously (we don't do sprints/iterations).
 
 **Team syncs, plans and updates:**
 
@@ -42,17 +42,9 @@ The search core team plans its work in **2-week iterations**.
 - The team discusses the updates live during the sync.
 - Updates should be in prose and communicate progress made and pain points.
 
-### Planning an iteration
+**Backlog**
 
-Iterations start **every other Monday**.
-
-**On the last Friday of an iteration:**
-
-- The team holds its [retrospective](https://docs.google.com/document/d/1bzBJh-zPOw0_lZ-TbMpnAx-do5CoCTL8Z2V74WU-Rew/edit) for the previous iteration.
-
-**On the first Monday of an iteration:**
-
-- The team reviews the iteration plan during the team sync, and kicks off the iteration.
+We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/204/views/3?layout=board) to capture work items we've identified.
 
 ## Misc
 
