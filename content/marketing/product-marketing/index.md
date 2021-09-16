@@ -37,8 +37,19 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 | **Sales/CE**            | Messaging and positioning, use cases and value drivers, buyer personas, creating external collateral (pitch decks, one sheeters, case studies), product training, competitive intelligence, synthesizing and sharing customer feedback | PMM primarily focuses on “one:many” communication, whereas Sales/CE primarily focus on “one:one” communication. There may be times that PMM is brought in to support a strategic customer or prospect, but the team is not big enough to support every deal. |
 | **Marketing**           | Messaging and positioning, buyer personas, content development and review, subject matter expertise, marketing campaigns and programs                                                                                                  | Given that many members of the marketing team are relatively new, we’ll figure this out together as we work on key initiatives that span across the entire marketing org.                                                                                    |
 
+## Meet the team
+
+- [Andy Schumeister](https://about.sourcegraph.com/handbook/company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
+- [Alex Isken](https://about.sourcegraph.com/handbook/company/team/index.md#alex-isken-he-him), Product Marketing Manager, Emerging Products
+- [Victoria Yunger](https://about.sourcegraph.com/handbook/company/team/index.md#victoria-yunger-she-her), Product Marketing Lead, Enterprise
+- Hiring: [Senior Customer Marketing Manager](https://boards.greenhouse.io/sourcegraph91/jobs/4096458004)
+
+To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)
+
 ## Resources
 
 - [Marketing launch tiers](marketing_launch_tiers.md)
 - [Product marketing hierarchy](product_marketing_hierarchy.md)
 - [Batch Changes positioning](batch_changes_positioning.md)
+- [Release post process](release_post_process.md)
+- [Customer marketing](customer_marketing.md)
