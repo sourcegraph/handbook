@@ -493,57 +493,61 @@ The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and pos
 
 Read more about our sales interview processes [here](https://about.sourcegraph.com/handbook/sales/interviews).
 
-**Sales Development Representative:**
+### **Sales Development Representative:**
 
-- SDR writing assignment
-  - Interviewer(s): NA - this is a take home assignment.
-  - Duration: we expect this to take no more than 1 hour.
-  - Details: Specifically, you will be crafting a “cold call” email to a prospective customer, with the goal of securing a meeting. You can assume that this is the first time this person has ever heard of Sourcegraph.
-  - Step 1: Pick a new customer (not on our site/case studies, etc.).
-  - Step 2: Identify someone you would like to prospect into. Why did you choose
-  - Step 3: Create a “cold call” email to the person identified in step 2. Your goal is to secure a meeting with our team.
-  - Step 4: Submit your assignment within 24 hours by clicking “reply all” to this email.
-  - What to include in your assignment submission: Email Subject Line, Email Body & Explanation of your process: 1) Why did you choose this company? 2) Who are you targeting? (Insert Linkedin Profile link). Why did you choose this person? 3) Explain your approach. Why did you choose to craft the email this way?
+#### SDR writing assignment
 
-**Enterprise Account Executive**
+- Interviewer(s): NA - this is a take home assignment.
+- Duration: we expect this to take no more than 1 hour.
+- Details: Specifically, you will be crafting a “cold call” email to a prospective customer, with the goal of securing a meeting. You can assume that this is the first time this person has ever heard of Sourcegraph.
+- Step 1: Pick a new customer (not on our site/case studies, etc.).
+- Step 2: Identify someone you would like to prospect into. Why did you choose
+- Step 3: Create a “cold call” email to the person identified in step 2. Your goal is to secure a meeting with our team.
+- Step 4: Submit your assignment within 24 hours by clicking “reply all” to this email.
+- What to include in your assignment submission: Email Subject Line, Email Body & Explanation of your process: 1) Why did you choose this company? 2) Who are you targeting? (Insert Linkedin Profile link). Why did you choose this person? 3) Explain your approach. Why did you choose to craft the email this way?
 
-- Enterprise AE sales presentation
+### **Enterprise Account Executive**
 
-  - Interviewer(s): Coming soon.
-  - Duration: 60-minutes.
-  - Purpose: during the sales presentation, you will 1) walk the panel through a brief introduction/bio of yourself, 2) deep-dive into an enterprise deal you have led, and 3) present a pipeline generation plan (including 5 top target accounts you would pursue based on your understanding of Sourcegraph's value proposition, your personal relationships, and relevant information about the prospect companies that you believe lead to a high probability of engagement). The goal of this interview is for us to understand: 1) your past experience and skill set (via your intro), 2) whether you can command a sales process (via the deep-dive), and 3) your understanding of our value proposition and approach towards territory development. Very important: please use [this template](https://docs.google.com/presentation/d/1Tl5XdoMog8QEzEZFAHVHrOYAfjlOh7tomZKlVdxwGeA/edit#slide=id.g9288fdfdea_0_109) for your presentation and please check out the speaker notes - they have a lot of detail on what we are looking for! If you have any issues accessing the presentation, please email recruiting@sourcegraph.com.
+#### Enterprise AE sales presentation
 
-- Enterprise AE deal review
+- Interviewer(s): Hiring Manager + Account Executive(s)
+- Duration: 45-minutes.
+- Purpose: during the sales presentation, you will 1) walk the panel through a brief introduction/bio of yourself, 2) deep-dive into an enterprise deal you have led, and 3) present a pipeline generation plan (including 10 top target accounts you would pursue based on your understanding of Sourcegraph's value proposition, your personal relationships, and relevant information about the prospect companies that you believe lead to a high probability of engagement). The goal of this interview is for us to understand: 1) your past experience and skill set (via your intro), 2) whether you can command a sales process (via the deep-dive), and 3) your understanding of our value proposition and approach towards territory development. Very important: please use [this template](https://docs.google.com/presentation/d/1Tl5XdoMog8QEzEZFAHVHrOYAfjlOh7tomZKlVdxwGeA/edit#slide=id.g9288fdfdea_0_109) for your presentation and please check out the speaker notes - they have a lot of detail on what we are looking for! If you have any issues accessing the presentation, please email recruiting@sourcegraph.com.
 
-  - Interviewer(s): Coming soon.
-  - Duration: Coming soon.
-  - Purpose: as a part of our interview process, we ask that you prepare a 25-minute presentation reviewing a major deal you've successfully closed. We ask that you prepare to walk your interviewers through all aspects of the deal and your sales process, providing a step-by-step breakdown of how the deal was won and what skills/processes were employed. Feel free to include any challenges you faced, how you overcame them, and what stakeholders were involved, etc. Looking forward to hearing how you win!
+#### Enterprise AE deal review
 
-- Enterprise AE team collaboration with Customer Engineering
-  - Interviewer(s): Coming soon.
-  - Duration: Coming soon.
-  - Details: the purpose of this stage in the interview process is to evaluate your technical depth and aptitude for learning about the products you sell, as well as your ability to work effectively as a team with our Customer Engineers. Please come prepared to explain the technical underpinnings of the product(s) you sell today, how you work with Customer Engineers to learn more, and translate that into value to customers and prospects.
+- Interviewer(s): Coming soon.
+- Duration: Coming soon.
+- Purpose: as a part of our interview process, we ask that you prepare a 25-minute presentation reviewing a major deal you've successfully closed. We ask that you prepare to walk your interviewers through all aspects of the deal and your sales process, providing a step-by-step breakdown of how the deal was won and what skills/processes were employed. Feel free to include any challenges you faced, how you overcame them, and what stakeholders were involved, etc. Looking forward to hearing how you win!
 
-**Regional Sales Director**
+#### Enterprise AE team collaboration with Customer Engineering
 
-- RSD presentation
+- Interviewer(s): Coming soon.
+- Duration: Coming soon.
+- Details: the purpose of this stage in the interview process is to evaluate your technical depth and aptitude for learning about the products you sell, as well as your ability to work effectively as a team with our Customer Engineers. Please come prepared to explain the technical underpinnings of the product(s) you sell today, how you work with Customer Engineers to learn more, and translate that into value to customers and prospects.
 
-  - Interviewer(s): Hiring Manager + Account Executive(s).
-  - Duration: 45-minutes.
-  - Details: you will be preparing a 45-minute presentation, to be shared with the Hiring Manager and Account Executive(s) on the team. Please use [this presentation](https://docs.google.com/presentation/d/1d9yZwfTn72oRSZPcjt-mBVbkWR8kWBTyNI3xHKrypJg/edit#slide=id.g9f9a1da303_0_3) as a guide for the conversation. The goal of the presentation is to help us get to know you better as a person and as a professional. Primary themes include your bio/work history, how you approach building and process, and the types of customers with whom you’ve worked in the past. \*\* If you have any issues accessing the above presentation, please email recruiting@sourcegraph.com and we will help you!
+### **Regional Sales Director**
 
-- RSD team collaboration with Sales Development
-  - Interviewer(s): Head of Sales Development.
-  - Duration: 30-45 minutes.
-  - Details: during this stage in the interview process, you meet with our Head of SDR to discuss your approach to prospecting & pipe gen, and your experience partnering with the SDR team. Our team may share current strategies and challenges to understand how your past experience can help the team achieve success.
+#### RSD presentation
+
+- Interviewer(s): Hiring Manager + Account Executive(s).
+- Duration: 60-minutes.
+- Details: you will be preparing a 60-minute presentation, to be shared with the Hiring Manager and Account Executive(s) on the team. Please use [this presentation](https://docs.google.com/presentation/d/1d9yZwfTn72oRSZPcjt-mBVbkWR8kWBTyNI3xHKrypJg/edit#slide=id.g9f9a1da303_0_3) as a guide for the conversation. The goal of the presentation is to help us get to know you better as a person and as a professional. Primary themes include your bio/work history, how you approach building and process, and the types of customers with whom you’ve worked in the past. \*\* If you have any issues accessing the above presentation, please email recruiting@sourcegraph.com and we will help you!
+
+#### RSD team collaboration with Sales Development
+
+- Interviewer(s): Head of Sales Development.
+- Duration: 30-45 minutes.
+- Details: during this stage in the interview process, you meet with our Head of SDR to discuss your approach to prospecting & pipe gen, and your experience partnering with the SDR team. Our team may share current strategies and challenges to understand how your past experience can help the team achieve success.
 
 ## Talent
 
-- Recruiter assignment
-  - Interviewer(s): NA - this is a take home assignment.
-  - Duration: we expect this to take no more than 1 hour.
-  - Details: we want to ensure we understand your approach to proactively reaching out to and engaging with passive talent. Instructions:
-  - **Step 1.** You are the newly assigned Recruiter for the [pick a job on our website] role. As a first step, you'll want to have an intake meeting with the Hiring Manager. What questions do you plan to ask to gain a full understanding of the role?
-  - **Step 2.** We have posted the job and have received zero applicants, so we need to go out and recruit the right person. Please identify 5 target candidates and explain 1) how you found them (what search string(s) did you use) and 2) why are you are targeting them specifically?
-  - **Step 3.** As we know, rarely do we hear back from a candidate after our 1st message or call. Pick one of the above profiles and please describe your outreach "campaign." What steps will you take to engage with this candidate? Please 1) include example inmails, emails, voicemails etc, and 2) please explain your approach and why you chose to craft your outreach campaign in this way. Your ultimate goal is to secure a call with the candidate.
-  - **Step 4.** Good news! The candidate you messaged in step 3 is interested in having an exploratory conversation. How do you describe/sell Sourcegraph to them?
+#### Recruiter assignment
+
+- Interviewer(s): NA - this is a take home assignment.
+- Duration: we expect this to take no more than 1 hour.
+- Details: we want to ensure we understand your approach to proactively reaching out to and engaging with passive talent. Instructions:
+- **Step 1.** You are the newly assigned Recruiter for the [pick a job on our website] role. As a first step, you'll want to have an intake meeting with the Hiring Manager. What questions do you plan to ask to gain a full understanding of the role?
+- **Step 2.** We have posted the job and have received zero applicants, so we need to go out and recruit the right person. Please identify 5 target candidates and explain 1) how you found them (what search string(s) did you use) and 2) why are you are targeting them specifically?
+- **Step 3.** As we know, rarely do we hear back from a candidate after our 1st message or call. Pick one of the above profiles and please describe your outreach "campaign." What steps will you take to engage with this candidate? Please 1) include example inmails, emails, voicemails etc, and 2) please explain your approach and why you chose to craft your outreach campaign in this way. Your ultimate goal is to secure a call with the candidate.
+- **Step 4.** Good news! The candidate you messaged in step 3 is interested in having an exploratory conversation. How do you describe/sell Sourcegraph to them?
