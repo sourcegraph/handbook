@@ -109,7 +109,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
   - [TJ DeVries](../../company/team/index.md#tj-devries)
   - [Chris Wendt](../../company/team/index.md#chris-wendt)
   - [Cesar Jimenez](../../company/team/index.md#cesar-jimenez)
-  - FQ3 hire
+  - V.G. starting 2021-10-25
   - FQ4 hire
 
 ## Ownership
