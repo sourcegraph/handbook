@@ -85,6 +85,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 - [Benefits and perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks).
 - [Teammates bios](https://about.sourcegraph.com/handbook/company/team).
 - [Strategy and vision](https://about.sourcegraph.com/handbook/company/strategy).
+- [Asynchronous communication at Sourcegraph](https://about.sourcegraph.com/handbook/company/asynchronous-communication)
 
 # Candidate FAQ
 
