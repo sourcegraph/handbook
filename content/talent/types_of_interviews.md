@@ -315,7 +315,31 @@ You'll meet with two individual contributors on the CE team to learn about how y
 
 ### Working Session: Leadership Scenarios Interview, Live Working Session Instructions
 
-For this interview round, you will have an hour-long working session with the CE leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios. The working session will cover 4 prompts, approximately 10-12 minutes spent on each of them. Details will be provided in advance of the interview.
+For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios as a leader. The working session will cover 4 prompts, spending approximately 10-12 minutes on each of them. It is recommended you take time to prepare in advance based on the details below.
+
+A summary of the 4 prompts are provided below:
+
+1. Account/Deal Review: Two core responsibilities of this role are to perform regular reviews of your team’s book of business and making technical/strategic suggestions to unblock issues that arise. How will you go about performing such reviews with the members of your team? What are your expectations during these reviews; for net new prospects, for existing customers with upcoming renewals? From your past experiences, what do you expect your team to provide to you and on what cadence? Where is this information stored / maintained? If, on a net new deal, you uncover a deal-blocking technical requirement that we cannot fully meet, how do you handle that with your CE? With adjacent teams?
+
+2. Escalation Handling: You are receiving feedback from cross-functional leaders that there are concerns about one of your employees. Their paired Account Executive is requesting to be assigned with a new CE stating that they feel they are not able to progress deals forward due to lackluster performance by the CE during calls and demos. How do you handle this situation? What do you share with the CE? How would you understand if the CE needs to make changes? How would you work with them to improve performance and what would you do if you do not see the improvements you expect?
+
+3. Change Management: We are in a hyper-growth phase and there are several key initiatives that will likely be rolling out over the course of the next several quarters. A key responsibility of this role is to align and train your team, introduce, implement, and manage organizational change, and anticipate emerging needs to iterate quickly. One such initiative we expect to need to implement across the CE organization in the near future is introducing a subset of individuals with the technical skills to be able to test/validate customer edge cases prior to progressing a deal forward. This is outside the current CE responsibilities today and Product and Engineering believe that this is best served from within CE as the team responsible for the technical success of the customer. See below for more context on this prompt. How would you approach this change with your team? How will you uncover and handle objections from within the team? What will you do personally to oversee this broad initiative?
+
+4. Your 30-60-90 Day Plan: What would your personal 30 / 60 / 90 day plan be for joining the team as a leader? What would you personally need to ensure success executing against this 30 / 60 / 90 day plan? How will you communicate and ensure alignment with our leadership team during your 30 / 60 / 90 day plan?
+
+The agenda for the meeting will go as follows:
+
+- 0-2 mins: Intros and recap of this interview stage
+- 2-14 mins: Prompt 1
+- 14-26 mins: Prompt 2
+- 26-38 mins: Prompt 3
+- 38-50 mins: Prompt 4
+- 50-60 mins: Feedback and Q&A
+
+Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to faciliate this conversation or personal notes - whichever you feel is most appropriate.
+
+Prompt 3 additional notes:
+The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](https://about.sourcegraph.com/handbook/ce/working-with-customers). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](https://about.sourcegraph.com/handbook/ce/team-culture#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
 
 ## Engineering
 
