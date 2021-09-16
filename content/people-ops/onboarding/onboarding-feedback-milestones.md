@@ -27,41 +27,13 @@ Following our [standards of success](https://about.sourcegraph.com/handbook/peop
 
 ## New teammate: Getting the meetings understood & scheduled
 
-During the new teammates’ first week with us, they will find a task in their Process.St checklist called **Understanding your contribution**. This is what they’ll see:
-
-**_OKRs_**
-
-_In this section you’ll learn more about what goals & objectives we’re aiming to achieve in this quarter and this year (for Sourcegraph and your team), and get guidance on how to understand how you contribute to these and engage with your manager to get an idea of how you’re tracking._
-
-_[Here](https://about.sourcegraph.com/company/goals/2021_q2) you can read about our Objectives and key results, and [here](https://about.sourcegraph.com/company/goals/guidelines) you can read about why and how we define them._
-
-_You should check[ this sheet](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit#gid=1699297878) to read the OKRs for each team per quarter and see what your team is working on._
-
-**_Feedback Milestones_**
-
-_As part of our high-agency culture, we encourage you to own your career as much as possible - this includes asking for feedback on how you’re doing, and giving your manager feedback on what you need from them in order to succeed. You’ll chat to your manager a few times in your first weeks, but we’d like you to set up your first formal feedback milestones in your first three months with us._
-
-_The aim of these meetings is to open a two-way conversation between you and your manager about what’s on track and what needs action, both on your contribution and how well you’re living our shared values._
-
-_You must **set up three meetings** with your manager, each of them 30min long, using your Gmail calendar. Remember to include a Zoom call and name each of them as outlined below._
-
-**_Feedback milestone 1: (your name)/(your manager’s name)_**
-
-_Set this up for one month after your start date, and check our handbook for what to expect and how to prepare for this meeting._
-
-**_Feedback milestone 2: (your name)/(your manager’s name)_**
-
-_Set this up for two months after your start date, and check our handbook for what to expect and how to prepare for this meeting._
-
-**_Feedback milestone 3: (your name)/(your manager’s name)_**
-
-_Set this up for three months after your start date, and check our handbook for what to expect and how to prepare for this meeting._
+During the new teammates’ first week with us, they will find a task in their Process.St checklist called **Understanding your impact**. Visit your (or your direct report's) [Process.St](https://app.process.st/reports/saved-views/jximA08020M34hrr8fZGsQ) checklist to read more about it.
 
 ## Managers: What to expect
 
 To help facilitate these onboarding feedback milestones, we have developed check-ins in Lattice that will be active at the end of month 1, 2 and 3. You will be given structured questions that serve as a guideline for you to have those important conversations pertinent to the onboarding process. The onboarding feedback milestones serve as a conversation guide and the answers serve as notes that you can reference to assess their onboarding success.
 
-The question or topic notes will **not** be private and new teammates will see what managers have written and the final summary of your conversation. Both the conversations notes and the summary will be shared with the teammate.
+The question or topic notes will **not** be private and new teammates will see what managers have written as the conversations notes will be shared with the teammate. It is important to note that summaries are not required anymore at the end of your review.
 
 Keep in mind managers may define expectations differently to fit the team, the most important thing is that teammates should feel they know what is expected of them, whether that is done through a 30/60/90 framework, personal OKRs, or through other means.
 
@@ -78,5 +50,5 @@ Keep in mind managers may define expectations differently to fit the team, the m
 - Help me get a broad idea of how you’re doing
 - Talk me through what’s on track with 1) your OKRs and 2) how well you think you’re living our values? THEN manager feedback with examples and impact.
 - Talk me through what you think needs attention with 1) your OKRS and 2) how well you think you’re living our values? THEN manager feedback with examples and suggestions for development
-- Are you clear on your individual OKRs and the team’s OKRs, and next steps to getting there? Is there anything that might prevent you getting there?
+- Are you clear on your individual expectatios and the team’s OKRs, and next steps to getting there? Is there anything that might prevent you getting there?
 - What could I be doing 10% more of to help you succeed?
