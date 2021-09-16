@@ -76,7 +76,7 @@ The [Command Line Generator](https://github.com/sourcegraph/support-generator) i
 
 ### Sourcegraph Debugging Sheet (WIP)
 
-[Sourcegraph Debugging Sheet](https://sourcegraph.github.io/support-tools-internal/Debugging-Sheet/) is a cheatsheet designed to streamline the troubleshooting process by allowing CSE's to search for common topics discussed with our customers and first steps at troubleshoot them.
+[Sourcegraph Debugging Sheet](debugging-cheat-sheet.md) is a cheatsheet designed to streamline the troubleshooting process by allowing CSE's to search for common topics discussed with our customers and first steps at troubleshoot them.
 
 #### How to use:
 
