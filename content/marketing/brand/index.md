@@ -48,11 +48,12 @@ Functional Areas: Design, illustration, animation, video production, copywriting
 - Mustafa Ulker ~ a.k.a Moose - Senior Copywriter, Brand
 - Kristen Sundberg - Senior Manager, Social Media
 - Sruti Dhulipala - Senior Manager, Global Brand Strategy
+- Jessie Char - Senior Manager, Events & Experiences
+- Steph Zabala - Senior Brand Designer
 
 To be hired:
 
 - Brand Planner
-- Senior Brand Designer (Q2 FY22)
 - Brand Designer
 - Production Designer
 - Creative Producer
