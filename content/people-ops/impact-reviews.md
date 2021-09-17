@@ -193,4 +193,4 @@ For more information on how to use SBI and giving great feedback, [check out thi
 
 ## Questions?
 
-For any questions relating to our updated performance review cadence or Lattice, please Slack **#people-ops** or reach out directly to Cassie Melani.
+For any questions relating to our updated performance review cadence or Lattice, please Slack **#impactreviews** or reach out directly to Cassie Melani.
