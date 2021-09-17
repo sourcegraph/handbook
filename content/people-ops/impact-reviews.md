@@ -177,8 +177,7 @@ For more information on how to use SBI and giving great feedback, [check out thi
 
 - Video: [Understanding 360 Impact review cycles](https://drive.google.com/file/d/1Xyq26Pf-2XelHajUVzB4WH_hpnU4ZwNo/view?usp=sharing)
 - Video: [Demo of a manager and teammate going through the review cycle](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
-- [How to get the most out of review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles/tips)
-- [Resources and guides for reviewers](https://about.sourcegraph.com/handbook/people-ops/review-cycles/resources)
+- [Resources and guides for reviewers](https://drive.google.com/drive/folders/1Sd74Qp68U_eb9Yy91ThZDNfX5FJprw7j?usp=sharing)
 - [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit?usp=sharing)
 - [Opting out of being a peer reviewer](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)
 - [SBI and how to give great feedback](https://docs.google.com/document/d/1sT-eyNj7KnFQZyaJ7Uja6Hnqb1sXE-aq-Ayz4X_-8Zk/edit?usp=sharing)
