@@ -83,7 +83,7 @@ Each teammate has one fully-paid trip per year to meet up with an individual or 
 
 ## 4. Business/customer travel
 
-For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. We would include the following types of meetups:
+For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. Please note you cannot combine the [Teammate In-person Gathering budget](https://about-docsite.sourcegraph.com/handbook/people-ops/celebrate#teammate-in-person-gatherings) with Category 4 trips. We would include the following types of meetups in Category 4:
 
 - Customer Champion meetups
 - Director to Executive level meetups (no approval required)
