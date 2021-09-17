@@ -1,5 +1,11 @@
 # Code Intelligence goals and roadmap
 
+#### Quick links
+
+- [Planning board](https://github.com/orgs/sourcegraph/projects/100)
+- [Demo video](https://www.loom.com/share/b76c3ce971d9498197d4b664a20b20a8)
+- [Code intelligence documentation](https://docs.sourcegraph.com/code_intelligence)
+
 ## Goals
 
 ### Top goal: Build and scale the Global Code Graph
@@ -46,7 +52,7 @@ We’ve historically invested in broadening our span of supported languages. Thi
 - ✅ Ship C++ precise code intelligence
 - ✅ Ship Java precise code intelligence
 - ✅ Python exploration
-- 🔄 Ship Scala precise code intelligence (Q3)
+- ✅ Ship Scala precise code intelligence (Q3)
 - 🔄 Ship Kotlin precise code intelligence (Q3)
 
 **Languages we're planning to work on next:**
