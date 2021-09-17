@@ -62,7 +62,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Ways of working](./ways_of_working/index.md)
 - [Design artifacts](./artifacts/index.md)
 - [Visual design](./visual_design/index.md)
-- [Metrics](./metrics/index.md)
+- [Analytics and product design](./metrics/index.md)
 - [Design critiques](./design_critiques/index.md) (Coming soon)
 - [Reviewing design](./reviewing_design/index.md)
 - [Research](./research/index.md)

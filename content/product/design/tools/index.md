@@ -4,18 +4,22 @@ We use a lot of tools on the Sourcegraph design team. Many of them are tools we 
 
 Here’s what we use and how they fit together.
 
-## Product, design, and research
+## Product and design
 
 - [Figma](https://figma.com) is our primary design tool for all levels of fidelity and interactive prototyping.
 - [Excalidraw](https://plus.excalidraw.com) is our tool for collaborative low-fidelity sketching and ideation.
 - [Miro](https://miro.com) is our tool for collaborative whiteboard-style workshops.
+- [ProductBoard](https://sourcegraph.productboard.com) is where product teams aggregate all user feedback.
+
+## User research and data
+
 - [Usertesting.com](https://usertesting.com) is our tool for unmoderated user research, which includes participant sourcing.
 - [LookBack](https://lookback.io) is our tool for moderated user research and interviews.
 - [Calendly](https://calendly.com) is our tool for scheduling user interviews and sessions where it’s easier for the other participant to choose a time that works for them.
-- [ProductBoard](https://sourcegraph.productboard.com) is where we aggregate all feedback.
 - [Looker](http://sourcegraph.looker.com) is our data warehouse so we can connect different data sources and analyze anything we need to.
 - [Amplitude](https://analytics.amplitude.com/sourcegraph) is where we track and visualize events on the product.
 - [Airtable](https://airtable.com) is a database-like tool that can be handy for managing data in user research.
+- [Google Analytics](https://analytics.google.com) is a tool for tracking data on user interactions within our cloud product.
 
 ## Internal collaboration and communication
 
