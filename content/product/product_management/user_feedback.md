@@ -53,7 +53,7 @@ We have a few different email lists that are used to send us feedback.
 ### Support tickets
 
 - **Purpose:** A path for existing customers to get responsive support.
-- **Owner:** CS team owns support tickets in Zendesk. If product team members want more insight into the support feedback, they can review [the support dashboard](https://sourcegraph.looker.com/dashboards-next/177) or scan the [customer issues repo](https://github.com/sourcegraph/customer/issues), and cross-reference both with slack searches in support channels. Additionally, at the end of every quarter, the Head of Customer Support provides the product team with a qualitative summary and links to details of the major support trends from the prior three months.
+- **Owner:** CS team owns support tickets in Zendesk. If product team members want more insight into the support feedback, they can review [the support dashboard](https://sourcegraph.looker.com/dashboards-next/177) or scan the [customer issues repo](https://github.com/sourcegraph/customer/issues), and cross-reference both with slack searches in support channels. Additionally, at the end of every quarter, the Head of Customer Support provides the product team with [a qualitative summary](https://drive.google.com/drive/folders/12kZOFbnXX8vfzLvso1hO-lf-t-HzJIr-?usp=sharing) and links to details of the major support trends from the prior three months.
 
 ### Sales feedback
 
