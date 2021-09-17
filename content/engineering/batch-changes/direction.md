@@ -113,7 +113,7 @@ We have four main learnings from the first year of Batch Changes:
 
 # What's next and why
 
-## FY 20222 Q3 goals
+## FY 2022 Q3 goals
 
 This quarter, our main goal is to ship an alpha version of [Server-side Batch Changes](https://github.com/sourcegraph/sourcegraph/issues/21018) (SSBC), and to onboard one customer into a POC. SSBC is our top priority because:
 
