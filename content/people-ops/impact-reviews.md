@@ -2,6 +2,8 @@
 
 At Sourcegraph, we aim for ongoing, real-time career conversations so you feel empowered to own your growth and development. Our bi-annual 360 Impact reviews, done through Lattice, are only one part of this cycle and should act as a summary of the various feedback conversations you've had in-between.
 
+Video: [Understanding 360 Impact review cycles](https://drive.google.com/file/d/1Xyq26Pf-2XelHajUVzB4WH_hpnU4ZwNo/view?usp=sharing)
+
 ## Why call them Impact reviews?
 
 [High agency](https://about.sourcegraph.com/handbook/company/values#high-agency), [high quality](https://about.sourcegraph.com/handbook/company/values#high-quality), and [continuous growth](https://about.sourcegraph.com/handbook/company/values#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success - all resulting in continuous growth for each individual.
@@ -48,8 +50,6 @@ There are three different types of feedback: giving, receiving, and seeking feed
 To start this company-wide shift, we’d like all managers and their direct reports to include an element of feedback in their weekly or bi-weekly 1:1’s. These should be a safe space to give, receive and seek both positive and constructive feedback! As a best practice, we recommend keeping your 1:1’s with your managers/direct reports on a consistent cadence. The more you practice feedback and lead with radical candor, the easier it becomes to create an open, authentic, and transparent work environment.
 
 To help get you started, we will be hosting an interactive Sourcegraph Fundamentals class called Feedback 101 in October 2021 to help you unpack, understand, and practice giving, receiving, and seeking feedback. Stay tuned for a sign-up link here and for the post-class recording to be posted on this page as well.
-
-[insert video 1]
 
 ## Impact review stages
 
@@ -122,11 +122,11 @@ You can also use [the Informal Impact reviews template](https://docs.google.com/
 
 Log into Lattice using your Sourcegraph Google authenticator. You will be prompted to write different types of reviews through qualitative and quantitative questions on your dashboard.
 
-[insert video 2]
+Video: [Demo of a manager and teammate going through the review cycle in Lattice](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
 
 ### Writing your reviews using the SBI framework
 
-We encourage all reviewers to use the SBI framework for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you will automatically counteract some of the neurological responses activated by the limbic system when giving feedback.
+We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you will automatically counteract some of the neurological responses activated by the limbic system when giving feedback.
 
 Situation: the where and when (_shaping the context of the feedback_)
 
@@ -175,8 +175,8 @@ For more information on how to use SBI and giving great feedback, [check out thi
 
 # Resources for all teammates and managers:
 
-- Understanding 360 Impact review cycles
-- Demo of a manager and teammate going through the review cycle
+- Video: [Understanding 360 Impact review cycles](https://drive.google.com/file/d/1Xyq26Pf-2XelHajUVzB4WH_hpnU4ZwNo/view?usp=sharing)
+- Video: [Demo of a manager and teammate going through the review cycle](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
 - [How to get the most out of review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles/tips)
 - [Resources and guides for reviewers](https://about.sourcegraph.com/handbook/people-ops/review-cycles/resources)
 - [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit?usp=sharing)
