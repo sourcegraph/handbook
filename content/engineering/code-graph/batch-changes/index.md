@@ -50,13 +50,13 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Members
 
-- [Malo Marrec](../../company/team/index.md#malo-marrec-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-- [Rob Rhyne](../../company/team/index.md#rob-rhyne) ([Product Designer](../../product/roles/index.md#product-designer))
-- [Chris Pine](../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../roles.md#engineering-manager)) {#batch-changes-eng}
-  - [Thorsten Ball](../../company/team/index.md#thorsten-ball-he-him)
-  - [Adam Harvey](../../company/team/index.md#adam-harvey-he-him)
-  - [Erik Seliger](../../company/team/index.md#erik-seliger)
-  - [Kelli Rockwell](../../company/team/index.md#kelli-rockwell-she-her)
+- [Malo Marrec](../../../company/team/index.md#malo-marrec-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Chris Pine](../../../company/team/index.md#chris-pine-he-she-they-chris) ([Engineering Manager](../../roles.md#engineering-manager)) {#batch-changes-eng}
+  - [Thorsten Ball](../../../company/team/index.md#thorsten-ball-he-him)
+  - [Adam Harvey](../../../company/team/index.md#adam-harvey-he-him)
+  - [Erik Seliger](../../../company/team/index.md#erik-seliger)
+  - [Kelli Rockwell](../../../company/team/index.md#kelli-rockwell-she-her)
 
 ## Growth plan
 
@@ -72,7 +72,7 @@ We have no further plans to grow the team at this time.
   - [CE onboarding](ce-onboarding.md)
 - As a sales team member
   - (private) AE training: [recording](https://drive.google.com/file/d/10oeyEvKNKk4RdyJUtvc-rXcgcmGhSrc2/view?usp=sharing), [slides](https://docs.google.com/presentation/d/1N50kk1N712lvsWI_BrGB4WH8LHnOVYrkxqvRS9WubuA/edit#slide=id.g7d2aea8729_0_0)
-  - [Batch Changes positioning](../../marketing/product-marketing/batch_changes_positioning.md)
+  - [Batch Changes positioning](../../../marketing/product-marketing/batch_changes_positioning.md)
 
 ## Related links
 

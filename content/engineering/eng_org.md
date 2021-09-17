@@ -7,20 +7,20 @@ This page documents our current/planned engineering org structure. Plans can cha
 _As of 2021-09-13 [we reorganized the product and engineering teams](https://docs.google.com/document/d/1d8Z8zN6DjKHfXGaCQerKDeJo5qEVxBTku8RcZtw7Di4/edit#) (internal document) so some team pages are missing and need to be created. Until the handbook is updated, the source of truth for team assignments and hiring plans are in [this spreadsheet](https://docs.google.com/spreadsheets/d/1CIQYQDN2KFyHMmPEx3FqubapyXyapFp0B_DoDJtWvm8/edit#gid=0)._
 
 - [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](../../handbook/engineering/roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
-  - Code graph
-    - [Search core](../../handbook/engineering/search/core.md)
-    - [Search product](../../handbook/engineering/search/product.md)
-    - [Code intelligence](../../handbook/engineering/code-intelligence/index.md)
-    - [Batch Changes](../../handbook/engineering/batch-changes/index.md)
-    - [Code insights](../../handbook/engineering/developer-insights/code-insights/index.md)
+  - [Code graph](./code-graph/index.md)
+    - [Search core](./code-graph/search/core.md)
+    - [Search product](./code-graph/search/product.md)
+    - [Code intelligence](./code-graph/code-intelligence/index.md)
+    - [Batch Changes](./code-graph/batch-changes/index.md)
+    - [Code insights](./code-graph/code-insights/index.md)
   - Enablement
     - Repository management
     - Delivery
     - Developer experience
-    - [Frontend platform](../../handbook/engineering/developer-insights/frontend-platform/index.md)
+    - [Frontend platform](./developer-insights/frontend-platform/index.md)
   - Cloud
-    - Growth (includes [API docs](../../handbook/engineering/developer-insights/api-docs/index.md))
-    - [Security](../../handbook/engineering/security/index.md)
+    - Growth (includes [API docs](./developer-insights/api-docs/index.md))
+    - [Security](./security/index.md)
     - DevOps
     - Cloud SaaS
 

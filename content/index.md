@@ -41,20 +41,25 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Engineering](engineering/index.md)
 
-<!-- When updating the engineering team list below, please also update company/team/org_chart.md. -->
+<!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
 
-- [Engineering](engineering/index.md)
-  - [Batch Changes](engineering/batch-changes/index.md)
-  - [Core application](engineering/core-application/index.md)
-  - [Code intelligence](engineering/code-intelligence/index.md)
-  - [Distribution](engineering/distribution/index.md)
-  - [Search](engineering/search/index.md)
-  - [Security](engineering/security/index.md)
-  - [Developer Insights](engineering/developer-insights/index.md)
-    - [Code insights](engineering/developer-insights/code-insights/index.md)
-    - [Extensibility](engineering/developer-insights/extensibility/index.md)
-    - [Frontend platform](engineering/developer-insights/frontend-platform/index.md)
-    - [API docs](engineering/developer-insights/api-docs/index.md)
+- [Engineering](./engineering/index.md)
+  - [Code graph](./engineering/code-graph/index.md)
+    - [Search core](./engineering/code-graph/search/core.md)
+    - [Search product](./engineering/code-graph/search/product.md)
+    - [Code intelligence](./engineering/code-graph/code-intelligence/index.md)
+    - [Batch Changes](./engineering/code-graph/batch-changes/index.md)
+    - [Code insights](./engineering/code-graph/code-insights/index.md)
+  - Enablement
+    - Repository management
+    - Delivery
+    - Developer experience
+    - [Frontend platform](./engineering/developer-insights/frontend-platform/index.md)
+  - Cloud
+    - Growth (includes [API docs](./engineering/developer-insights/api-docs/index.md))
+    - [Security](./engineering/security/index.md)
+    - DevOps
+    - Cloud SaaS
 
 ### [Customer Support](support/index.md)
 

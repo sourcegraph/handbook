@@ -70,7 +70,7 @@ Our iterations last two weeks and are comprised of the following:
 
   1. Add any agenda items that should be discussed.
   1. Review any existing agenda items and be prepared to discuss them.
-  1. Update the current release [tracking issue](../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
+  1. Update the current release [tracking issue](../../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
 
 - Team Updates:
   1. Each day, our Daily Standup Bot prompts us to add a text check-in by answering what we worked on the day before, what we're planning to work on next, and if there are any current blockers.
@@ -80,15 +80,15 @@ We track most of our work as [issues on the Sourcegraph main repository](https:/
 
 ## New Engineer Onboarding
 
-Our team is growing and to help our new teammates have the best onboarding experience we have created additional material that builds on Sourcegraph's [general engineering onboarding](../onboarding.md) guide. We think will help you ramp up in all things code intel.
+Our team is growing and to help our new teammates have the best onboarding experience we have created additional material that builds on Sourcegraph's [general engineering onboarding](../../onboarding.md) guide. We think will help you ramp up in all things code intel.
 
 ### Weeks 1 - 4
 
 **Architecture Presentation**: An experienced code intel engineer will give a live presentation primarily to the new hire (and any other Sourcegraph teammate who’s interested) explaining the architecture of our systems at a high level.
 
-**Pair Programming**: Keeping inline with [engineering pairing sessions](../onboarding.md#pairing-sessions) we will support our new teammates by setting aside dedicated time every week for mentoring. This not only helps deliver guided learning but also is great for team and relationship building.
+**Pair Programming**: Keeping inline with [engineering pairing sessions](../../onboarding.md#pairing-sessions) we will support our new teammates by setting aside dedicated time every week for mentoring. This not only helps deliver guided learning but also is great for team and relationship building.
 
-**First Tasks**: The team has marked issues we believe are good first issues in [Github](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+label%3A%22good+first+issue%22++label%3A%22team%2Fcode-intelligence%22), following the [starter task process](../onboarding.md#starter-tasks) work with the code intel engineering manager to select three issues that you think are good ones for you to work on in your first 4 weeks.
+**First Tasks**: The team has marked issues we believe are good first issues in [Github](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+label%3A%22good+first+issue%22++label%3A%22team%2Fcode-intelligence%22), following the [starter task process](../../onboarding.md#starter-tasks) work with the code intel engineering manager to select three issues that you think are good ones for you to work on in your first 4 weeks.
 
 **Technical Design Docs & Diagrams**: We know that a picture is worth a thousand words and we will create visual diagrams to supplement our written documentation for the most critical or complex components and processes. This material is great for async learning and can provide a better understanding of the parts that make up the big picture. Check [code intel user documentation](https://docs.sourcegraph.com/code_intelligence) and [our journey with LSIF post](https://about.sourcegraph.com/blog/evolution-of-the-precise-code-intel-backend/) to understand the overall view. Browse through available documentation and diagrams in the [code intel developer documentation](https://docs.sourcegraph.com/dev/background-information/codeintel/) and [code intel Google drive](https://drive.google.com/drive/folders/1YF237FV_4fAeIS4D5aH9bxexft_bh16r) and learn how the Bundle Manager works or view Inter-service request diagrams.
 
@@ -100,15 +100,15 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../product/roles/index.md#product-manager))
-- [Sara Lee](../../company/team/index.md#sara-lee-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-- [Owen Convey](../../company/team/index.md#owen-convey-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#code-intelligence-eng}
-  - [Eric Fritz](../../company/team/index.md#eric-fritz-he-him)
-  - [Noah Santschi-Cooney](../../company/team/index.md#noah-santschi-cooney-he-him)
-  - [Ólafur Páll Geirsson](../../company/team/index.md#olafurpg)
-  - [TJ DeVries](../../company/team/index.md#tj-devries)
-  - [Chris Wendt](../../company/team/index.md#chris-wendt)
-  - [Cesar Jimenez](../../company/team/index.md#cesar-jimenez)
+- [María Craig](../../../company/team/index.md#maría-craig-she-her) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Sara Lee](../../../company/team/index.md#sara-lee-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Owen Convey](../../../company/team/index.md#owen-convey-he-him) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-intelligence-eng}
+  - [Eric Fritz](../../../company/team/index.md#eric-fritz-he-him)
+  - [Noah Santschi-Cooney](../../../company/team/index.md#noah-santschi-cooney-he-him)
+  - [Ólafur Páll Geirsson](../../../company/team/index.md#olafurpg)
+  - [TJ DeVries](../../../company/team/index.md#tj-devries)
+  - [Chris Wendt](../../../company/team/index.md#chris-wendt)
+  - [Cesar Jimenez](../../../company/team/index.md#cesar-jimenez)
   - V.G. starting 2021-10-25
   - FQ4 hire
 

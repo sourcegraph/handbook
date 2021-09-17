@@ -1,15 +1,18 @@
 # Developer Insights org
 
+> NOTE: The contents of this page and of the teams in the Developer Insights org are currently in the process of being moved to reflect the FY22Q3 reorg.
+> The Developer Insights org no longer exists as of 2021-09-13 and its teams are now part of other orgs.
+> For more details, see the [FY22 H2 Product/Eng org structure](https://docs.google.com/document/d/1d8Z8zN6DjKHfXGaCQerKDeJo5qEVxBTku8RcZtw7Di4/edit) document.
+
 ## Mission
 
-Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intelligence/index.md), [Code Insights](code-insights/index.md), and [API docs](api-docs/index.md)), [extended](extensibility/index.md) with other dev tools’ information, to where developers interact with code ([sourcegraph.com](https://sourcegraph.com/search), code hosts, and IDEs)
+Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-graph/code-intelligence/index.md), [Code Insights](../code-graph/code-insights/index.md), and [API docs](api-docs/index.md)), [extended](extensibility/index.md) with other dev tools’ information, to where developers interact with code ([sourcegraph.com](https://sourcegraph.com/search), code hosts, and IDEs)
 
 ## Teams
 
 1. [Frontend Platform](frontend-platform/index.md): the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph.
 2. [Extensibility](extensibility/index.md): our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
-3. [Code Insights](code-insights/index.md): empowering data-driven decisions in engineering organizations.
-4. [API Docs](api-docs/index.md): making Sourcegraph the standard developer reference for public code.
+3. [API Docs](api-docs/index.md): making Sourcegraph the standard developer reference for public code.
 
 ## Members
 
@@ -27,13 +30,6 @@ Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-intellig
     - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
     - [Murat Sutunc](../../company/team/index.md#murat-sutunc-he-him) (Interim [Engineering Manager](../roles.md#engineering-manager))
       - [TJ Kandala](../../company/team/index.md#tharuntej-kandala-he-him)
-  - [Code Insights](../developer-insights/code-insights/index.md)
-    - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-    - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-    - [Felix Becker](../../company/team/index.md#felix-becker) ([Engineering Manager](../roles.md#engineering-manager))
-      - [Vova Kulikov](../../company/team/index.md#vova-kulikov-he-him)
-      - [Coury Clark](../../company/team/index.md#coury-clark-he-him)
-      - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him) (joins from Frontend Platform in FQ2)
   - [API docs](../developer-insights/api-docs/index.md)
     - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this workstream
       - [Stephen Gutekanst](../../company/team/index.md#stephen-gutekanst)
