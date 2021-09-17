@@ -1,4 +1,4 @@
-# Team chat
+# Slack: Team chat
 
 We use Slack for team chat.
 
@@ -30,6 +30,21 @@ Exceptions:
 1. If you must send a work-related private message, [don't start a conversation with "Hi" or "Hey"](http://www.nohello.com/) because that interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously. If you truly need to have a synchronous communication, then start by asking for that explicitly, while mentioning the subject. For example: "I'm having trouble understanding issue XYZ. Can we talk about it quickly?".
 
 If you are a new member of the engineering team, you'll most likely want to join all of the channels in the engineering section below.
+
+## Avoid private channels
+
+By default all Slack channels are public. This is inline with our [company value to be open and transparent](../company/values/index.md#open-and-transparent) and facilitates collaboration and [async learning](../company/asynchronous-communication/index.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. Messages or files posted in a public channel can be searched by other team members.
+
+However, we understand that not everything discussed between team members should be public and there is a need for private channels. Private channels are for conversations that should not be open to all members. People must be added to a private channel by someone who's already a member of the channel. Messages or files posted in a private channel can only be searched by members of that channel.
+
+Private channels will automatically be created for the following categories of conversations:
+
+- Recruiting: Channels used for discussing specific positions where private candidate feedback and details will be discussed.
+- Management: Channels where managers can communicate about specific private or sensitive team situations.
+- Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
+- Internal: While we strongly encourage that every team keep these public by default and to use our `{$TEAMNAME}-internal` [naming convention](../communication/team_chat/index.md#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
+
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. This additional step is intended to ensure we are having one more conversation about why a channel should be made private and ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
 
 ## Send (and read) messages any time
 
