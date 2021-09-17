@@ -18,7 +18,7 @@ Within the product organization, individual product engineering teams set their 
 
 - Code Graph
   - [Search core and Search product](../engineering/search/goals.md)
-  - [Batch Changes](../engineering/batch-changes/goals.md)
+  - [Batch Changes](../engineering/batch-changes/direction.md)
   - [Code Intelligence](../engineering/code-intelligence/goals.md)
   - [Code Insights](../engineering/developer-insights/code-insights/goals.md)
 - Enablement
@@ -51,7 +51,7 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 - [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
-### Improve process for documentating product strategy
+### Improve process for documenting product strategy
 
 Our current [product goals pages](index.md#roadmap) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
 

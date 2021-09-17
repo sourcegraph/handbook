@@ -2,72 +2,15 @@
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/badgerhat.svg" width="300" height="300" align=right alt="Batchers Logo: badger in a silly hat">
 
-## Vision
+## Direction
 
-**Find code that needs to be changed and change it at scale by running code.**
-
-This is the inspirational end game state for Batch Changes in 3 years:
-
-- **Code invariants** - Describe a code pattern once, and your batch change will fix it everywhere, automatically, forever, thanks to its declarative model.
-- **Continuous maintenance** - Instead of deferring codebase maintenance to large, painful, and risky changes, Batch Changes lets developers introduce changes incrementally and in a safe and automated way. Much like CI/CD increased efficiency and reduced risk through small deployments, Batch Changes lets developers make incremental codebase-wide changes.
-- **In-editor and instant feedback** - Developers don’t leave the editor to create or be notified of changesets. Repository owners can discover and apply great code patterns faster. Linters are not enough: when you catch a new pattern, you want to make sure it's not introduced again (lint), but also fix it everywhere it already exists.
-- **Universal Batch Changes** - Make changes to public and private code. Open source projects can provide batch specs so that their dependents can seamlessly upgrade. Batch Changes eases upgrading in private and on-premise environments.
+- Vision, mission and strategy: [Batch Changes direction](direction.md)
+- [Key metrics](metrics.md)
 
 ## Contact
 
 - #batch-changes channel or @batchers on Slack.
 - [@sourcegraph/batchers](https://github.com/orgs/sourcegraph/teams/batchers) team or [team/batchers label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fbatchers) on GitHub.
-
-## Mission
-
-Users can focus on changing their code because Batch Changes provides the plumbing:
-
-- Finding the correct repositories in which to run code
-- Fetching the newest version of each repository
-- Running code in each repository
-- Turn the result into patches
-- Create pull requests from patches
-- Draft, keep track of and update a large number of pull requests
-- Re-running code when the base branch changes
-
-Users provide the code to make the change, we provide the plumbing to turn it into a large-scale change and monitor its progress.
-
-- We take care of all the bits and pieces that would rob users of their time and that are not essential to the change they want to make.
-- We don't try to come up with fancy and seemingly magic ways of changing code (i.e. high-level tools to refactor code) before we get the fundamentals right (running users' code in thousands of repositories and turning that into thousands of pull requests).
-- We don't interfere with the code that produces a change. We provide the infrastructure to run it across all of your repositories and turn it into a large-scale code change.
-
-## Goals and priorities
-
-See our [goals and priorities](goals.md)
-
-## Metrics
-
-We track and report anonymous, non-specific, aggregate metrics from Sourcegraph instances as defined in [pings](https://docs.sourcegraph.com/admin/pings).
-
-### Key success metrics
-
-We track success metrics in a (private) [Looker dashboard](https://sourcegraph.looker.com/dashboards-next/174)
-
-| Outcome                                            | Metric                                                                 |
-| -------------------------------------------------- | ---------------------------------------------------------------------- |
-| Are developers using Batch Changes?                | number of batch changes created, number of changesets published        |
-| Are batch changes successful?                      | merge rate of batch changes (changesets merged / changesets published) |
-| Is Batch Changes being adopted [broadly](#Vision)? | number of monthly contributors and MAUs                                |
-
-### Definitions
-
-- **Batch Changes MAU:** A visitor who triggers any event happening on a Sourcegraph Batch Changes property in a given month. In practice, we do not track CLI events, so this effectively only includes events in the GUI, or uploading a spec.
-- **Batch Changes monthly contributor:** A user that has taken an action to create or manage a batch change in a given month. In practice, a user that has previewed, or applied or closed a batch change in a given month. New actions that are added in the future, such as [comment, merge, publish](https://sourcegraph.productboard.com/roadmap/2263724-batch-changes-releases/features/6775792/portal) will be added.
-
-## Analogies
-
-Netlify and AWS Lambda solve difficult, repeatable problems for developers, removing overhead and enabling them to focus on the problems they are solving. In that regard, batch changes are to large-scale code changes what Netlify is to static site generation and AWS Lambda is to handling HTTP requests.
-
-When I write an AWS Lambda function I want to focus on which requests it receives and what response to send out. I don't want to worry about which server to run it on, how to scale it, secure it, add logging, keep track of its usage.
-
-When I deploy a static site on Netlify I want to focus on my site — its content and design — and not think about where it's deployed, how to get new SSL certificates, how to install dependencies to run the static site generator on a server, how to preview the site in a pull request.
-
-When I create a batch change to make large-scale code changes I want to _focus on the specific change I want to make across all of the code at my organization_. I don't want to worry about all of the overhead associated with execution, code hosts, and management of all things listed above.
 
 ## Process
 
