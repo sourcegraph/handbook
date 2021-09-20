@@ -46,6 +46,11 @@ The search core team plans its work continuously (we don't do sprints/iterations
 
 We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/204/views/3?layout=board) to capture work items we've identified.
 
+**Retrospective**
+
+The first Monday of every month we hold an informal retrospective. This is a time for us to look back at the last month and discuss progress and process.
+
 ## Misc
 
-[iteration log (deprecated)](./iteration_log.md)
+- [lab journal (private)](https://github.com/sourcegraph/search-scratch/blob/master/2021/journal.org)
+- [iteration log (deprecated)](./iteration_log.md)
