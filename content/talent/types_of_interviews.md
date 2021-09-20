@@ -16,7 +16,7 @@ We strive for consistency across all interviews.
   - Resume deep dive
   - Assignment review/working session, if applicable
   - Technical interview, if applicable
-  - **Cross-team collaboration interview**
+  - **Cross-functional team collaboration interview**
   - **Peer interview**
   - Leadership interview
   - **Values interview**
@@ -79,10 +79,10 @@ All departments are likely to have some or all of the below universal interview 
   - Tell us about the best team you've ever been a part of.
   - Tell us about a time when you had to put your team's interests above your own.
 
-## Cross-team collaboration interview
+## Cross-functional team collaboration interview
 
 - Interviewer(s): people outside of your respective department who you would cross-collaborate with regularly.
-- Duration: 30-45 minutes.
+- Duration: 30-60 minutes.
 - Details: during this stage of the interview process, you will meet with members of another team with whom you would partner regularly. The goal of this interview is to understand how you communicate and collaborate with cross-functional partners within Sourcegraph.
 - Example questions:
   - Tell us about a recent project you worked on where you collaborate with people outside of your department
@@ -351,15 +351,15 @@ The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and pos
 
 - Interviewers: two members of the engineering department
 - Duration: 60-minutes.
-- Details: during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked wiht others, decisions you made, and what you'd do differently today.
+- Details: during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
 
-### Technical Interview: Coding Skills (Core Application Team)
+### Technical Interview: Coding Skills (Repository Management Team)
 
 - Interviewers: two members of the Core Application team
 - Duration: 60-minutes.
 - Details: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
 
-### Technical Interview: Architecture (Core Application Team)
+### Technical Interview: Architecture (Repository Management Team)
 
 - Interviewers: two members of the Core Application team
 - Duration: 45-minutes.
