@@ -12,11 +12,23 @@ TODO
 
 ### Uploading graphics
 
-If your changes include any media, you’ll need to upload it to the Google Cloud Storage (GCP) blog bucket before sticking it in your markdown file. However, if the image is [less than 100kb](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/dev/documentation.md#adding-images-to-the-documentation) in size, it can be added to the /doc folder.
+#### Adding Images to Google Cloud Storage
+
+If your changes include any images or video, you’ll need to upload to the Google Cloud Storage (GCP) blog bucket before sticking it in your markdown file. However, if the image is [less than 100kb](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/dev/documentation.md#adding-images-to-the-documentation) in size, it can be added to the /doc folder.
 
 1. Once you have permissions set up, view the [sourcegraph-assets bucket](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true_)
-1. If you’re working on a blog, navigate to the **blog/** folder, then upload to the appropriate release folder. If your release folder is missing, go ahead and make a new one. If you’re working on documentation, we need to create a folder structure, and at time of writing, haven’t yet.
-1. The [https://sourcegraphstatic.com](https://sourcegraphstatic.com/) site serves content from the sourcegraph-assets Google Cloud Storage bucket. We are using this hostname instead of [https://storage.googleapis.com/sourcegraph-assets/](https://storage.googleapis.com/sourcegraph-assets/) because the latter is blocked by some ad blockers, which means our assets are not visible to many of our users. So the reference URL in the markdown will look like this: [https://sourcegraphstatic.com/blog/3.18/k8s-search-page.png](https://sourcegraphstatic.com/blog/3.18/k8s-search-page.png)
+   -If you don't have permission to view the contents of this link, ask the team in #it-tech-ops for Google Cloud Storage permissions to add images to the Handbook.
+1. Make sure your file has a unique name that clearly describes the image or video. There are lots of files in Google Storage, and you want to be able to identify yours easily.
+1. If you’re working on a blog, navigate to the **blog/** folder found in the link in step 1. Then, drag and drop your file to the appropriate release folder. If your release folder is missing, go ahead and make a new one.
+1. If you’re adding an image or video to Handbook documentation, navigate to the **handbook/** folder found in the link in step 1. Then, drag and drop your file.
+
+#### Adding Images from Google Cloud Storage to the Handbook
+
+1. In Google Cloud Storage, copy the URL for the image you want to include.
+   - You can do this by right clicking on the file name, and selecting "Copy link address".
+2. To insert your image into the Handbook, follow this format:
+   - `![Alt Text](Image URL)`
+3. Finish editing and [merge your changes as normal](../../editing.md#overview)
 
 ### Publishing changes
 
