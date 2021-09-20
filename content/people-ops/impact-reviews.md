@@ -5,8 +5,8 @@ At Sourcegraph, we aim for ongoing, real-time career conversations so you feel e
 Video: [Understanding 360 Impact review cycles](https://drive.google.com/file/d/1Xyq26Pf-2XelHajUVzB4WH_hpnU4ZwNo/view?usp=sharing)
 
 <video controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handook/impact-reviews/ understanding_360_impact_reviews.mp4" />
-  <track default kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handook/impact-reviews/ understanding_360_impact_reviews.vtt" />
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/understanding_360_impact_reviews.mp4" />
+  <track default kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/understanding_360_impact_reviews.vtt" />
 </video>
 
 ## Why call them Impact reviews?
@@ -130,8 +130,8 @@ Log into Lattice using your Sourcegraph Google authenticator. You will be prompt
 Video: [Demo of a manager and teammate going through the review cycle in Lattice](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
 
 <video controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handook/impact-reviews/lattice_demo.mp4" />
-  <track default kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handook/impact-reviews/lattice_demo.vtt" />
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/lattice_demo.mp4" />
+  <track default kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/lattice_demo.vtt" />
 </video>
 
 ### Writing your reviews using the SBI framework
