@@ -4,6 +4,8 @@ At Sourcegraph, we aim for ongoing, real-time career conversations so you feel e
 
 Video: [Understanding 360 Impact review cycles](https://drive.google.com/file/d/1Xyq26Pf-2XelHajUVzB4WH_hpnU4ZwNo/view?usp=sharing)
 
+<iframe src="https://drive.google.com/file/d/1Xyq26Pf-2XelHajUVzB4WH_hpnU4ZwNo/preview" width="640" height="480" allow="autoplay"></iframe>
+
 ## Why call them Impact reviews?
 
 [High agency](https://about.sourcegraph.com/handbook/company/values#high-agency), [high quality](https://about.sourcegraph.com/handbook/company/values#high-quality), and [continuous growth](https://about.sourcegraph.com/handbook/company/values#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success - all resulting in continuous growth for each individual.
@@ -123,6 +125,8 @@ You can also use [the Informal Impact reviews template](https://docs.google.com/
 Log into Lattice using your Sourcegraph Google authenticator. You will be prompted to write different types of reviews through qualitative and quantitative questions on your dashboard.
 
 Video: [Demo of a manager and teammate going through the review cycle in Lattice](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
+
+<iframe src="https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ### Writing your reviews using the SBI framework
 
