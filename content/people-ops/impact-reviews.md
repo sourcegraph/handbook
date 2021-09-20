@@ -71,7 +71,7 @@ _Best practice tip: We recognize that to make an impact, you must first develop 
 
 These cycles will run concurrently with your [Onboarding Feedback Milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones) on the following cadence:
 
-![Infographic describing cadence of Impact review cycle from start date to cycle launches](https://sourcegraphstatic.com/handbook/impact_review_infographic.svg)
+<object role="image" data="./impact_review_infographic.svg" width="960" height="540" aria-label="Infographic describing cadence of Impact review cycle from start date to cycle launches"></object>
 
 ### Selecting a peer reviewer
 
