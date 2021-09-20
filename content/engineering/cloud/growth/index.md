@@ -1,4 +1,8 @@
-# API docs workstream
+# Growth
+
+Currently the growth team is working on the API Doc workstream (as noted below). As we hire out this team we will be working on other growth opportunities as well
+
+## API docs workstream
 
 For now API docs, is a workstream rather than a team.
 
@@ -9,9 +13,11 @@ This workstream focuses on providing API docs for code repositories that are inf
 
 ## Members
 
-- [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#api-docs-eng}
+- [Bill Creager](../../../company/team/index.md#bill-creager) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#api-docs-eng}
   - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst)
-  - FQ4 backend engineer
+  - FQ3 full stack engineer
+  - FQ3 full stack engineer
+  - FQ3 full stack engineer
 
 ## Overview
 
@@ -34,11 +40,3 @@ Ultimately, our goal is to increase user retention through providing highly cont
 ## Goals
 
 [Goals and roadmap](goals.md)
-
-## Growth plan
-
-Depending on the success of this initiative against it's goals we plan to consider hiring another backend engineer in FQ4.
-
-## Processes
-
-TODO

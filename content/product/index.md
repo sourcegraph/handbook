@@ -29,10 +29,10 @@ Within the product organization, individual product engineering teams set their 
   - [Core application](../engineering/core-application/goals.md)
   - Cloud SaaS
   - Growth
-    - [API docs](../engineering/developer-insights/api-docs/goals.md)
-  - [Security](../engineering/security/goals.md)
+    - [API docs](../engineering/cloud/growth/goals.md)
+  - [Security](../engineering/cloud/security/goals.md)
   - DevOps/SRE
-  - [Extensibility](../engineering/developer-insights/extensibility/goals.md)
+  - [Extensibility](../engineering/cloud/extensibility/goals.md)
 
 ## Metrics
 

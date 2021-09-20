@@ -6,26 +6,23 @@
 
 ## Mission
 
-Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-graph/code-intelligence/index.md), [Code Insights](../code-graph/code-insights/index.md), and [API docs](api-docs/index.md)), [extended](extensibility/index.md) with other dev tools’ information, to where developers interact with code ([sourcegraph.com](https://sourcegraph.com/search), code hosts, and IDEs)
+Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-graph/code-intelligence/index.md) and [Code Insights](../code-graph/code-insights/index.md)
 
 ## Teams
 
-1. [Extensibility](extensibility/index.md): our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
-1. [API Docs](api-docs/index.md): making Sourcegraph the standard developer reference for public code.
+1. [Frontend Platform](../enablement/frontend-platform/index.md): the maintenance and expansion of the Sourcegraph web application. We also define and maintain the standards and tooling for how we do web development at Sourcegraph.
 
 ## Members
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
 
 - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](../roles.md#director-of-engineering))
-  - [Extensibility](../developer-insights/extensibility/index.md)
-    - [Joel Kwartler](../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../product/roles/index.md#product-manager)) is the acting PM for this team until we can hire a dedicated PM for it. Once that happens, Joel will focus entirely on code insights.
+  - [Frontend platform](../enablement/frontend-platform/index.md)
     - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-    - [Murat Sutunc](../../company/team/index.md#murat-sutunc-he-him) (Interim [Engineering Manager](../roles.md#engineering-manager))
-      - [TJ Kandala](../../company/team/index.md#tharuntej-kandala-he-him)
-  - [API docs](../developer-insights/api-docs/index.md)
-    - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) is the acting [Engineering Manager](../roles.md#engineering-manager) for this workstream
-      - [Stephen Gutekanst](../../company/team/index.md#stephen-gutekanst)
+    - [Patrick Dubroy](../../company/team/index.md#tom-ross-he-him) ([Engineering Manager](../roles.md#engineering-manager) and acting PM)
+      - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
+      - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
+      - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
 
 ## Strategy for FY22
 

@@ -62,7 +62,7 @@ Instead of using helm, we use [helmfile](https://github.com/roboll/helmfile). Th
 
 ### Kubectl
 
-Kubectl is used to interact with kubernetes clusters. For basic information see the existing [kubectl tips and tricks document](../../deployments/kubernetes.md). See the linked documents for examples of how kubectl is used to [configure](./playbooks.md#gke-deployment-playbooks) or [debug](./playbooks.md#debugging-logging).
+Kubectl is used to interact with kubernetes clusters. For basic information see the existing [kubectl tips and tricks document](../../../deployments/kubernetes.md). See the linked documents for examples of how kubectl is used to [configure](./playbooks.md#gke-deployment-playbooks) or [debug](./playbooks.md#debugging-logging).
 
 ## Projects
 

@@ -1,5 +1,7 @@
 # Core application team
 
+Note: This page is a work in progress to represent an updated organizational structure to facilitate future growth.
+
 <img width="70%" height="70%" src="logo.jpg" alt="Sourcegraph Cloud team logo">
 
 While you could think this is an angry cloud, it's actually a fierce and determined one 😃.
@@ -12,17 +14,13 @@ The Core Application team has broad [area ownership](areas-of-ownership.md) with
 
 <!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
 
-- [Ryan Phillips](../../company/team/index.md#ryan-phillips-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-- [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../product/roles/index.md#product-designer))
-- [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
-  - [Joe Chen](../../company/team/index.md#joe-chen)
+- [Dan McKean](../../company/team/index.md#dan-mckean-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
+- TBD ([Product Designer](../../product/roles/index.md#product-designer))
+- [Jean Du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
   - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
   - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
-  - [Artem Ruts](../../company/team/index.md#artem-ruts-he-him)
   - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
   - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
-  - [Milan Freml](../../company/team/index.md#milan-freml-he-him)
-  - Rafal (Oct 11)
 
 ## How to contact the team and ask for help
 

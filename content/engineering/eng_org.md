@@ -20,10 +20,10 @@ As of 2021-09-13 [we reorganized the product and engineering teams](https://docs
       - [Dev experience](./enablement/dev-experience/index.md)
       - [Frontend platform](./enablement/frontend-platform/index.md)
   - Cloud
-      - Growth (includes [API docs](./developer-insights/api-docs/index.md))
-      - [Security](./security/index.md)
-      - DevOps
-      - Cloud SaaS
+     - [Growth](./cloud/growth/index.md) (includes API-Docs)
+     - [Security](./cloud/security/index.md)
+     - [DevOps](./cloud/devops/index.md)
+     - [Cloud SaaS](./cloud/saas/index.md)
 
 [VP Eng team docs](vpe/index.md).
 
