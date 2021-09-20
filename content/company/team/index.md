@@ -706,14 +706,6 @@ To add yourself to this page:
 - [stompy@sourcegraph.com](mailto:stompy@sourcegraph.com), [@stompy_amare](https://twitter.com/stompy-amare), [stompymwendwa.com](https://stompymwendwa.com), [LinkedIn](https://www.linkedin.com/in/stompy-mwendwa), [pronounce my name 🔊](https://www.name-coach.com/stompy-mwendwa)
 - Stompy is from the Pride of Africa and previously worked in customer success roles prior to joining Sourcegraph. He is a CS graduate and fell in with computers playing around with MS-DOS in the mid-90s. Stompy loves helping people achieve their goals and is a staunch believer of the Swahili proverb: "Kusaidia ni moyo wala si utajiri" - Helping is of the heart, not of the pocket. When he's not working, he loves hopping onto motorcycles and going on adventures, watching/playing basketball(Go Lakers!), playing video games, listening to hip-hop and going out to eat.
 
-## Nishil Patel (he/him)
-
-- Enterprise Account Executive
-- Brooklyn, NY, USA 🇺🇸
-- GitHub: [nishil-patel1](https://github.com/nishil-patel1)
-- [nishil@sourcegraph.com](mailto:nishil@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nishilp)
-- Nishil (Nish) is a UK & US dual-citizen whom lives in Brooklyn's Clinton Hill neighborhood. Nish joins Sourcegraph from Sift, where he spent 4 years protecting digital businesses from fraud by building machine learning models. When not working, Nish can be found ranking NYC pizza joints, supporting Arsenal or competing with friends on Peloton. (Add me and let's ride! @ButtermilkCzar)
-
 ## Sam Cregg
 
 - Sales Development Rep
@@ -1068,14 +1060,6 @@ To add yourself to this page:
 - Github: [jasonhawkharris](https://github.com/jasonhawkharris), [LinkedIn](https://www.linkedin.com/in/jasonhawkharris/)
 - [jason.harris@sourcegraph.com](mailto:jason.harris@sourcegraph.com)
 - Jason is a musician and software engineer living in Los Angeles. He is married to a nurse practitioner named Ashley. He has two tabby cats, Pierre and Dmitri. They actively plan his demise. However, he suspects they'll never pull the trigger because they secretly love him, though they would never admit it.
-
-## Jenna Pierre (She/Her)
-
-- Sales Development Representative
-- Citizen of the world, currently based in Peru 🇵🇪
-- GitHub: [jennapierre](https://github.com/jennapierre), [LinkedIn](https://www.linkedin.com/in/jenna-pierre/)
-- [jenna@sourcegraph.com](mailto:jenna@sourcegraph.com)
-- Jenna is a wandering, global English teacher-turned Sales professional. She does not have any pets of her own because of her nomadic lifestyle, but she frequently wins the love of the foreign kitties she encounters with tuna and belly rubs. In her free time, Jenna enjoys reading on the beach, trying new recipes, and salsa dancing with whoever is close by.
 
 ## Michael Bali (He/Him)
 
