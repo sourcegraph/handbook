@@ -36,6 +36,12 @@ Build a code intelligence platform that understands code in all languages and pr
 
 See [goals and priorities](goals.md)
 
+## Overview
+
+The video below is a brief introduction to Code Intelligence at Sourcegraph explaining concepts such as the difference between search-based and precise code intelligence.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/fcaddfd333da487cb526a4fc99ead803" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ## Contact
 
 - #code-intel channel or @codeintel in Slack.
