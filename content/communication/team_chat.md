@@ -31,7 +31,7 @@ Exceptions:
 
 If you are a new member of the engineering team, you'll most likely want to join all of the channels in the engineering section below.
 
-## Avoid private channels
+## Use of private channels
 
 By default all Slack channels are public. This is inline with our [company value to be open and transparent](../company/values/index.md#open-and-transparent) and facilitates collaboration and [async learning](../company/asynchronous-communication/index.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. Messages or files posted in a public channel can be searched by other team members.
 
@@ -44,7 +44,7 @@ Private channels will automatically be created for the following categories of c
 - Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
 - Internal: While we strongly encourage that every team keep these public by default and to use our `{$TEAMNAME}-internal` [naming convention](../communication/team_chat/index.md#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. This additional step is intended to ensure we are having one more conversation about why a channel should be made private and ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step to have one more conversation about why a channel should be made private - ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
 
 ## Send (and read) messages any time
 
