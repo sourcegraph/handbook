@@ -24,7 +24,7 @@ Within the product organization, individual product engineering teams set their 
 - Enablement
   - Repository Management
   - [Distribution](../engineering/distribution/goals.md)
-  - [Frontend Platform](../engineering/developer-insights/frontend-platform/goals.md)
+  - [Frontend Platform](../engineering/enablement/frontend-platform/goals.md)
 - Cloud
   - [Core application](../engineering/core-application/goals.md)
   - Cloud SaaS

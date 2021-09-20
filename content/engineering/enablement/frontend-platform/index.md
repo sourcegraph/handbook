@@ -1,6 +1,6 @@
-# Frontend platform team
+# Frontend Platform team
 
-The Frontend platform team (part of the [Developer Insights](../index.md) org) defines and maintains the standards and tooling for web development at Sourcegraph.
+The Frontend Platform team (part of the [Enablement](../index.md) org) defines and maintains the standards and tools for web development at Sourcegraph.
 
 ## Members
 
@@ -14,7 +14,7 @@ The Frontend platform team (part of the [Developer Insights](../index.md) org) d
 
 ## Mission
 
-To empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness, by enabling and building a first-class web experience.
+To empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
 
 ## Vision
 
@@ -29,7 +29,7 @@ Using and developing Sourcegraph is effortless.
 
    - Creating and maintaining the Wildcard Component Library.
    - Owning the Sourcegraph web tech stack, tools, and patterns.
-   - Documentation and training material to enable product teams and new hires to quickly learn how we do web development at Sourcegraph.
+   - Documentation and training material enables product teams and new hires to learn how to do web development at Sourcegraph quickly.
    - Define and maintain how we test and deploy frontend code.
    - Ensuring an efficient and reliable frontend CI pipeline.
    - Track, measure, and improve cross-cutting frontend metrics like bundle size, [Web vitals](https://web.dev/vitals/), etc.
@@ -69,7 +69,7 @@ Here are some of the technologies we use to deliver on our goals:
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](https://about.sourcegraph.com/handbook/engineering/principles-and-practices) and [Developer Insights principles and practices](https://about.sourcegraph.com/handbook/engineering/developer-insights#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
+We inherit Sourcegraph's [engineering principles and practices](https://about.sourcegraph.com/handbook/engineering/principles-and-practices) and [Enablement principles and practices](https://about.sourcegraph.com/handbook/engineering/developer-insights#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
 
 ## Processes
 
@@ -77,9 +77,9 @@ We inherit Sourcegraph's [engineering principles and practices](https://about.so
 
 We plan and track our day-to-day work on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144). Our current process (last updated 2021-06-29) is as follows:
 
-- Incoming tickets (e.g. from other teams) are given the `team/frontend-platform` label. As part of our [triage process](#triage), these tickets are added to our board by the designated teammate.
+- Incoming tickets (e.g., from other teams) are given the `team/frontend-platform` label. As part of our [triage process](#triage), these tickets are added to our board by the designated teammate.
 - Work is scheduled by adding a card to either the _Backlog (product)_ or the _Backlog (eng)_ column.
-  - _Backlog (product)_ is for work that directly contributes to product goals, and is refreshed and prioritized by the PM/EM.
+  - _Backlog (product)_ is for work that directly contributes to product goals and is refreshed and prioritized by the PM/EM.
   - _Backlog (eng)_ is refreshed and prioritized by the engineers. This is the place for refactorings, developer experience improvements, etc.
 - Work should not be moved into either column until it is ready for development. Tickets that require further input before an engineer can start working on them are put in the _Needs input_ column.
 - Tickets in the _Needs input_ column should be tagged with an appropriate label that describes what input is required:
