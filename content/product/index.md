@@ -21,7 +21,7 @@ Within the product organization, individual product engineering teams set their 
   - [Batch Changes](../engineering/code-graph/batch-changes/direction.md)
   - [Code Intelligence](../engineering/code-graph/code-intelligence/goals.md)
   - [Code Insights](../engineering/code-graph/code-insights/goals.md)
-- Enablement
+- [Enablement](../engineering/enablement/index.md)
   - Repository Management
   - [Distribution](../engineering/distribution/goals.md)
   - [Frontend Platform](../engineering/enablement/frontend-platform/goals.md)
