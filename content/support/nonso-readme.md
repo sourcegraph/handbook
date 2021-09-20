@@ -68,7 +68,7 @@ I sometimes worry about not being good enough or failing at tasks. I however rea
 
 > Courage is not the absence of fear but the means to overcome it.
 
--Not sure who said this but it's something that I found to be true in my life.
+-Not sure who said this but it's something that I have found to be true in my life.
 
 ### How I eat fries
 
