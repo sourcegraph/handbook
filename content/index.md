@@ -43,23 +43,25 @@ The handbook is a living document and we expect every teammate to propose improv
 
 <!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
 
+<!-- Our markdown renderer is not spec-compliant and needs 4 spaces of indentation for nested lists, therefor we need to prettier-ignore. -->
+<!-- prettier-ignore -->
 - [Engineering](./engineering/index.md)
-  - [Code graph](./engineering/code-graph/index.md)
-    - [Search core](./engineering/code-graph/search/core.md)
-    - [Search product](./engineering/code-graph/search/product.md)
-    - [Code intelligence](./engineering/code-graph/code-intelligence/index.md)
-    - [Batch Changes](./engineering/code-graph/batch-changes/index.md)
-    - [Code insights](./engineering/code-graph/code-insights/index.md)
-  - Enablement
-    - Repository management
-    - Delivery
-    - Developer experience
-    - [Frontend platform](./engineering/enablement/frontend-platform/index.md)
-  - Cloud
-    - [Growth](./engineering/cloud/growth/index.md) (includes API docs)
-    - [Security](./engineering/cloud/security/index.md)
-    - [DevOps](./engineering/cloud/devops/index.md)
-    - [SaaS](./engineering/cloud/saas/index.md)
+    - [Code graph](./engineering/code-graph/index.md)
+      - [Search core](./engineering/code-graph/search/core.md)
+      - [Search product](./engineering/code-graph/search/product.md)
+      - [Code intelligence](./engineering/code-graph/code-intelligence/index.md)
+      - [Batch Changes](./engineering/code-graph/batch-changes/index.md)
+      - [Code insights](./engineering/code-graph/code-insights/index.md)
+    - Enablement
+      - Repository management
+      - Delivery
+      - Developer experience
+      - [Frontend platform](./engineering/enablement/frontend-platform/index.md)
+    - Cloud
+      - [Growth](./engineering/cloud/growth/index.md) (includes API docs)
+      - [Security](./engineering/cloud/security/index.md)
+      - [DevOps](./engineering/cloud/devops/index.md)
+      - [SaaS](./engineering/cloud/saas/index.md)
 
 ### [Customer Support](support/index.md)
 

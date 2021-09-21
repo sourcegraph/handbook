@@ -4,18 +4,20 @@ The SDR Team (TBA)
 
 ## Members
 
+<!-- Our markdown renderer is not spec-compliant and needs 4 spaces of indentation for nested lists, therefor we need to prettier-ignore. -->
+<!-- prettier-ignore -->
 - [Nicholas Gage](../company/team/index.md#nicholas-gage-he-him), Head of Sales Development
-  - West Outbound SDRs
-    - [Quin "Q" Keough](../company/team/index.md#quin-keough)
-    - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
-    - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
-    - [Brannon Rouse](https://about.sourcegraph.com/handbook/company/team#brannon-rouse)
-  - East Outbound SDRs
-    - [Sam Cregg](../company/team/index.md#sam-cregg)
-    - [Jenna Pierre](https://about.sourcegraph.com/handbook/company/team#jenna-pierre-she-her)
-    - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
-  - Inbound SDR
-    - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
+    - West Outbound SDRs
+      - [Quin "Q" Keough](../company/team/index.md#quin-keough)
+      - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
+      - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
+      - [Brannon Rouse](https://about.sourcegraph.com/handbook/company/team#brannon-rouse)
+    - East Outbound SDRs
+      - [Sam Cregg](../company/team/index.md#sam-cregg)
+      - [Jenna Pierre](https://about.sourcegraph.com/handbook/company/team#jenna-pierre-she-her)
+      - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
+    - Inbound SDR
+      - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
 
 More SDRs coming soon...
 

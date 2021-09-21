@@ -76,6 +76,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
 
 ## Members
 
+<!-- Our markdown renderer is not spec-compliant and needs 4 spaces of indentation for nested lists, therefor we need to prettier-ignore. -->
 <!-- prettier-ignore -->
 - [Kacie Jenkins](../company/team/index.md#kacie-jenkins-she-her), VP of Marketing
     - [Andy Schumeister](../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing

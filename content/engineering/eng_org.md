@@ -6,6 +6,7 @@ This page documents our current/planned engineering org structure. Plans can cha
 
 As of 2021-09-13 [we reorganized the product and engineering teams](https://docs.google.com/document/d/1d8Z8zN6DjKHfXGaCQerKDeJo5qEVxBTku8RcZtw7Di4/edit#) (internal document) so some team pages are missing and need to be created. Until the handbook is updated, the source of truth for team assignments and hiring plans are in [this spreadsheet](https://docs.google.com/spreadsheets/d/1CIQYQDN2KFyHMmPEx3FqubapyXyapFp0B_DoDJtWvm8/edit#gid=0).
 
+<!-- Our markdown renderer is not spec-compliant and needs 4 spaces of indentation for nested lists, therefor we need to prettier-ignore. -->
 <!-- prettier-ignore -->
 - [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](../../handbook/engineering/roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
   - [Code graph](./code-graph/index.md)
