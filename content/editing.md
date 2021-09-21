@@ -181,6 +181,15 @@ While it is possible to use absolute URLs (ones that include the domain e.g. htt
 
 _Remember that if the .md file name changes or the directory changes (because you’ve moved the file to another team’s page, for example) you will need to update the path._
 
+## Moving a Page (Web Interface)
+
+All of the following needs to occur within one pull request. See [this section](#multiple-changes-in-a-single-pr) for help on making multiple edits at once.
+
+1. Rename the file to indicate its new location as described in [Github's documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/moving-a-file-to-a-new-location)
+1. Address any errors in the [Handbook Checks](#handbook-checks). Since you are changing the location of a file, any existing links to that file will break. You may see errors like this:
+   ![Broken Link Errors](https://storage.googleapis.com/sourcegraph-assets/handbook/relocate-page-errors.png)
+1. [Add redirects](#adding-redirects) to account for any instance where someone may be directed to the old URL.
+
 ## Adding redirects
 
 When you change the location of content in the handbook it's important to add a redirect rule so that old URL to the content will automatically take users to the new URL.
