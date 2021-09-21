@@ -87,7 +87,6 @@ The table below breaks down the capabilities of each team within Marketing. Once
         - [Scott Bailey](../company/team/index.md#scott-bailey-he-him), Technical Content Marketing Manager
         - [Nick Moore](../company/team/index.md#nick-moore-he-him-his), Content Editor
     - [Lisa Tagliaferri](../company/team/index.md#lisa-tagliaferri-flexible), Director of Developer Education
-        - [Marek Zaluski](../company/team/index.md#marek-zaluski), Developer Education Engineer
         - [Katy Juell](../company/team/index.md#katy-juell-she-her), Full Stack Engineer
         - We will be hiring developer educators
     - [Sarah Reece](../company/team/index.md#sarah-reece-she-her), Director of Demand Generation

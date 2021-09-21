@@ -10,7 +10,6 @@ The Developer Education team is dedicated to Sourcegraph’s long-term mission o
 
 - [Katy Juell](https://about.sourcegraph.com/handbook/company/team#katy-juell-she-her), Full Stack Engineer
 - [Lisa Tagliaferri](https://about.sourcegraph.com/handbook/company/team#lisa-tagliaferri-flexible), Director of Developer Education
-- [Marek Zaluski](https://about.sourcegraph.com/handbook/company/team#marek-zaluski), Developer Education Engineer
 - We are hiring a [Developer Educator](https://boards.greenhouse.io/sourcegraph91/jobs/4104904004).
 
 ## Handbook links
