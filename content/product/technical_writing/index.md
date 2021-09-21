@@ -19,8 +19,9 @@ If your changes include any images or video, you’ll need to upload to the Goog
 1. Once you have permissions set up, view the [sourcegraph-assets bucket](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true_)
    -If you don't have permission to view the contents of this link, ask the team in #it-tech-ops for Google Cloud Storage permissions to add images to the Handbook.
 1. Make sure your file has a unique name that clearly describes the image or video. There are lots of files in Google Storage, and you want to be able to identify yours easily.
-1. If you’re working on a blog, navigate to the **blog/** folder found in the link in step 1. Then, drag and drop your file to the appropriate release folder. If your release folder is missing, go ahead and make a new one.
-1. If you’re adding an image or video to Handbook documentation, navigate to the **handbook/** folder found in the link in step 1. Then, drag and drop your file.
+1. If you’re working on a blog, navigate to the **blog/** folder found in the link in step 1. Navigate to the appropriate release folder - if your release folder is missing, go ahead and make a new one.
+1. If you’re adding an image or video to Handbook documentation, navigate to the **handbook/** folder found in the link in step 1.
+1. Click "Upload Files" to select your file, and click "Open".
 
 #### Adding Images from Google Cloud Storage to the Handbook
 
