@@ -1480,3 +1480,11 @@ To add yourself to this page:
 - Github: [wysg](https://github.com/wysg)
 - [win.yu@sourcegraph.com](mailto:win.yu@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/winyuglobal/)
 - After graduating from Middlebury College with a B.A . in Economics and a minor in South Asian studies, he worked at a few companies and also co-founded two schools in Burma. When not working, he loves spending time with family and friends, traveling, and swimming. He also loves keeping up with healthy meals.
+
+## Sam Jones
+
+- Senior Corporate & Commercial Counsel
+- Oakland, CA, United States 🇺🇸
+- GitHub: [srj427](https://github.com/srj427)
+- [sam.jones@sourcegraph.com](mailto:sam.jones@sourcegraph.com)
+- Sam is a San Francisco Bay Area native. Prior to joining Sourcegraph, Sam represented technology companies and investment firms in corporate transactional work including commercial contracts, M&A and corporate financings as both an in-house counsel and external advisor. He loves hiking and running with his dog Gigi, cooking and playing golf. Sam is also learning to brew beer and maintain a garden in his free time.
