@@ -12,6 +12,7 @@ This page documents our current org structure.
       - [Ryan Phillips](../company/team/index.md#ryan-phillips-he-him), Product Manager - Cloud
     - [Serina Clark](../company/team/index.md#serina-clark-her-she-hers), Director of Product - Enablement
       - [Dan Mckean](../company/team/index.md#dan-mckean-he-him), Product Manager - [Core application](../engineering/core-application/index.md) and [Distribution](../engineering/distribution/index.md). ([Dan's Readme!](./readmes/dan-mckean-readme.md))
+      - T.S. starting 2021-10-11, Technical Product Manager - [Frontend Platform](../engineering/enablement/frontend-platform/index.md) and [Dev Experience](../engineering/enablement/dev-experience/index.md)
     - [Jason Yavorska](../company/team/index.md#jason-yavorska-he-him), Director of Product - Code Graph
       - [María Craig](../company/team/index.md#maría-craig-she-her), Product Manager - [Code intelligence](../engineering/code-graph/code-intelligence/index.md)
       - [Malo Marrec](../company/team/index.md#malo-marrec-he-him), Product Manager - [Batch Changes](../engineering/code-graph/batch-changes/index.md)
