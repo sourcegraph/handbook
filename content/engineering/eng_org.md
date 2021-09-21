@@ -15,12 +15,12 @@ As of 2021-09-13 [we reorganized the product and engineering teams](https://docs
       - [Code intelligence](./code-graph/code-intelligence/index.md)
       - [Batch Changes](./code-graph/batch-changes/index.md)
       - [Code insights](./code-graph/code-insights/index.md)
-  - Enablement
+  - [Enablement](./enablement/index.md)
       - [Repo management](./enablement/repo-management/index.md)
       - [Delivery](./enablement/delivery/index.md)
       - [Dev experience](./enablement/dev-experience/index.md)
       - [Frontend platform](./enablement/frontend-platform/index.md)
-  - Cloud
+  - [Cloud](./cloud/index.md)
      - [Growth](./cloud/growth/index.md) (includes API-Docs)
      - [Security](./cloud/security/index.md)
      - [DevOps](./cloud/devops/index.md)
