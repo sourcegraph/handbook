@@ -1472,3 +1472,11 @@ To add yourself to this page:
 - GitHub: [benvenker](https://github.com/benvenker)
 - [ben.venker@sourcegraph.com](mailto:ben.venker@sourcegraph.com)
 - Ben socially engineered his way into his first product role and has been hooked ever since. He currently lives in St. Louis, MO, but has lived all over the country at various times. He enjoys hacking on personal dev projects, playing guitar, and getting completely engrossed in new, random pursuits.
+
+## Win Yu (he/his)
+
+- Technical Talent Sourcer
+- Yangon, Burma
+- Github: [wysg](https://github.com/wysg)
+- [win.yu@sourcegraph.com](mailto:win.yu@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/winyuglobal/)
+- After graduating from Middlebury College with a B.A . in Economics and a minor in South Asian studies, he worked at a few companies and also co-founded two schools in Burma. When not working, he loves spending time with family and friends, traveling, and swimming. He also loves keeping up with healthy meals.
