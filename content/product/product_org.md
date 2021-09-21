@@ -16,7 +16,7 @@ This page documents our current org structure.
       - [María Craig](../company/team/index.md#maría-craig-she-her), Product Manager - [Code intelligence](../engineering/code-graph/code-intelligence/index.md)
       - [Malo Marrec](../company/team/index.md#malo-marrec-he-him), Product Manager - [Batch Changes](../engineering/code-graph/batch-changes/index.md)
       - [Joel Kwartler](../company/team/index.md#joel-kwartler-he-him), Product Manager - [Code insights](../engineering/code-graph/code-insights/index.md) and
-      - [Ben Venker](../company/team/index.md#coming-soon) - [Search product](../engineering/code-graph/search/product.md)
+      - [Ben Venker](../company/team/index.md#ben-venker), Product Manager - [Search product](../engineering/code-graph/search/product.md)
   - [Product Design](roles/index.md#product-designer)
 
     - To be hired Director of Design. Christina acting director until then.
