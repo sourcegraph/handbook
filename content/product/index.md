@@ -74,6 +74,16 @@ Customer Engineering is looking to better undrestand the known boundaries of our
 - [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4617)
 
+### Improving how we communicate pre-release features
+
+We are working with the marketing and corporate communication teams to make sure that how we talk about features is clear leading up to release, especially when they are available early, and how we communicate when they become fully live.
+
+- Owner: Jason
+- [RFC 479: Communicating about product features that are not launched, and also not pre-released](https://docs.google.com/document/d/1_FFnKPBKgGI6fkAoxQUonjgoR6UcagclHqJakYJadRY/edit#)
+- [RFC 481: Should we convert formerly free preview features into paid ones at GA](https://docs.google.com/document/d/10r7fG-qton1uFlwHqRvgj12DD5AgsaF8yGiOf2JNQWQ/edit#heading=h.trqab8y0kufp)
+- [RFC 473: Decouple product and marketing launches/milestones for features that are available early](https://docs.google.com/document/d/1aZcalAUXZGl3GVEBBrUhNtbhMc4hQWy1_8UWHN6q4ys/edit#heading=h.trqab8y0kufp)
+- [RFC 480: Beta and experimental feature definitions/entry and exit criteria](https://docs.google.com/document/d/1T605IS77xwXjyHpCRYY9NBwTIlV9jmkZL3qwrDeTpog/edit#heading=h.trqab8y0kufp)
+
 ### Other initiatives
 
 There are a few other initiatives we will be tracking here soon:
