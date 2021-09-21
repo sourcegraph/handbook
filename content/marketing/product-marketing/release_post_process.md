@@ -24,7 +24,7 @@ go run ./bin/generate_changelog_items.go -versions 3.28 -i ../sourcegraph/CHANGE
 
 - If necessary, PMs make edits to the changelog based on what was actually shipped.
 - PMs add final assets.
-- Product marketing to package and draft the release post and share with Rebecca and Christina for review.
+- Product marketing to package and draft the release post and share with Rebecca, Andy, and Christina for review.
 
 **0-2 days after release ships**
 
