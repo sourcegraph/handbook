@@ -22,34 +22,32 @@ Visit the **Site-admin > Subscriptions** page, find the existing subscription, c
 
 First, the company's Sourcegraph administrator must create a Sourcegraph.com user account and provide their username. Once that is available,follow the steps below.
 
-- Sign in to Sourcegraph.com and visit the **Site-admin > Subscriptions** page and click **Create product subscription**.
-- Find the username and click the **Create product subscription** button.
-- Click **Generate new license manually**.
-- Add the appropriate tags to the input box (separated by commas, with no spaces). You will need to include:
-  - `plan:enterprise-0` or `plan:team-0` for Enterprise or Teams customers, respectively.
-  - `true-up` to allow the company to go over the user limit on the license. No tag is needed for hard cap.
-  - `mau` to indicate that the company is on a monthly usage-based billing model.
-  - `trial` to show an indicate in Sourcegraph that the company is on a trial.
-  - `batch-changes` for Batch Changes (formerly `campaigns`)
-  - `acls` for external Permission syncing from the code host. (Add this to all licenses.)
-  - `private-extension-registry` to allow for a private Extension registry. All Enterprise licenses should have this added.
-  - `remote-extensions-allow-disallow` to allow for the admin to enable/disable remote extensions. All Enterprise licenses should have this added.
-  - `monitoring` - Monitoring. All licenses should have this added.
-  - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
-  - `dev` for internal developer licenses
-  - The company's name (with dashes instead of spaces), to make it easy to search for a given license key in the future.
-  - Set the licensed number of users (note that if you added the `true-up` tag above, the company will be able to exceed this count, but administrators will see a warning) and the number of days that the license should be valid, and click **Generate license**.
-  - Finally, click on the **View as user** link, and share the resulting URL with the company.
+1. Sign in to sourcegraph.com.
+2. If the customer does not have a license yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account.
+3. Create an account with the username `CompanyName-UniqueId`. Replace `CompanyName` with the company name, and use the Unique ID from the Unique Account ID field on the Account record in Salesforce.
+4. Navigate to the [subscriptions page](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). If the user needs a new product subscription (new prospect doing a trial, or an existing prospect purchasing a production license for the first time), click **Create product subscription**. Search for the user you just created.
+5. Otherwise (renewals or expansions), just search for the user associated with the company, and click into the subscription ID (left-most column).
+6. In either case, click **Generate new license manually**. Fill out the license end date, number of users, and tags. For tags, see [License Key Tags](#license-key-tags) for a list you can just copy. Tags should be separated by commas, with no spaces. You will need to include:
 
-Phrased another way:
+- `plan:enterprise-0` or `plan:team-0` for Enterprise or Teams customers, respectively.
+- `true-up` to allow the company to go over the user limit on the license. No tag is needed for hard cap.
+- `mau` to indicate that the company is on a monthly usage-based billing model.
+- `trial` to show an indicate in Sourcegraph that the company is on a trial.
+- `batch-changes` for Batch Changes (formerly `campaigns`)
+- `acls` for external Permission syncing from the code host. (Add this to all licenses.)
+- `private-extension-registry` to allow for a private Extension registry. All Enterprise licenses should have this added.
+- `remote-extensions-allow-disallow` to allow for the admin to enable/disable remote extensions. All Enterprise licenses should have this added.
+- `monitoring` - Monitoring. All licenses should have this added.
+- `internal` for licenses used for internal sites (dotcom, k8s, etc.)
+- `dev` for internal developer licenses
+- The company's name (with dashes instead of spaces), to make it easy to search for a given license key in the future.
+- Set the licensed number of users (note that if you added the `true-up` tag above, the company will be able to exceed this count, but administrators will see a warning) and the number of days that the license should be valid, and click **Generate license**.
+- Finally, copy the license key, and share it with the company.
+
+### License key tags
 
 - **Enterprise Licenses**: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes` based on the context of the license.
 - **Teams Licenses**: Only applicable for team license renewals. Add `plan:team-0`,`acls`,`monitoring`, plus the customer name, to all Teams licenses.
-
-A typical email to send to a company is:
-
-> Hi,
-> I just created a new license key for you that you can find at \_\_\_! Just click **Reveal license key**, copy the key, and then save it to your Sourcegraph's site configuration in the `licenseKey` field.
 
 ## Future state
 
@@ -63,7 +61,7 @@ Unfortunately, once a license key is created, it cannot be disabled or deleted.
 
 If the company hasn't yet received or seen the license key, it's easy to hide it. Users can only ever see the latest key associated with their subscription. So just re-follow the steps above (from the "Click **Generate new license key manually**" step onwards) and they will never be able to see the previous key.
 
-However, if a company has already accessed and copied the key, there is nothing we can do to change it. As a result, try to minimize the duration and user count on keys to only that which is actually necessary. As an example, if you want to create an "unlimited" license for a company that has 100 employees, don't create a key that allows 999,999,999 to achieve that. This minimizes any risks of the key becoming exposed. Instead, create one that is close to the actual total, as we can always [create a new, larger key](#how-to-create-a-license-key-for-a-renewal-or-upgrade) for them in the future.
+However, if a company has already accessed and copied the key, there is nothing we can do to change it. As a result, try to minimize the duration and user count on keys to only that which is actually necessary. As an example, if you want to create an "unlimited" license for a company that has 100 employees, don't create a key that allows 999,999,999 to achieve that. This minimizes any risks of the key becoming exposed. Instead, create one that is close to the actual total, as we can always create a new, larger key for them in the future.
 
 ## Viewing current license keys
 
