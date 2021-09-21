@@ -26,7 +26,7 @@ If your changes include any images or video, you’ll need to upload to the Goog
 #### Adding Images from Google Cloud Storage to the Handbook
 
 1. In Google Cloud Storage, copy the URL for the image you want to include.
-   - You can do this by right clicking on the file name, and selecting "Copy link address".
+   - You can do this by clicking the file name to see more details, then copying the "Public URL".
 2. To insert your image into the Handbook, follow this format:
    - `![Alt Text](Image URL)`
 3. Finish editing and [merge your changes as normal](../../editing.md#overview)
