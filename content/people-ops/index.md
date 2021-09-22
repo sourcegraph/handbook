@@ -56,7 +56,6 @@ WIP
 - [Paid time off and working hours](paid-time-off-and-working-hours.md)
   - [Submitting time off](submitting-time-off.md)
 - [Bank and public holidays](holidays.md)
-- [Donations teammates can make](donations.md)
 - [Teammate Gatherings and Celebrations](celebrate.md)
 - [Employment verification](employment_verification.md)
 
