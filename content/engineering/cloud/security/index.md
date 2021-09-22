@@ -23,7 +23,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Goals and priorities
 
-See [security goals and priorities](goals.md)
+See [security goals and priorities](../../../direction/cloud/security/index.md)
 
 ---
 

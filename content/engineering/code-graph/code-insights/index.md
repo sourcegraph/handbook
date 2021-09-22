@@ -7,7 +7,7 @@ The code insights team is responsible for building and delivering code insights 
 ## Pages
 
 - [Processes](processes.md)
-- [Goals and Roadmap](goals.md)
+- [Goals and Roadmap](../../../direction/code-graph/code-insights/index.md)
 - [Product docs](https://docs.sourcegraph.com/code_insights)
 - [Development docs](https://docs.sourcegraph.com/dev/background-information/insights)
 

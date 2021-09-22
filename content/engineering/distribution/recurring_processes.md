@@ -29,7 +29,7 @@ At the beginning of each cycle, [we determine what work we plan to do](#planning
 **Async proposal (1 week before the planning meeting):** We start working on a draft set of projects and their required tasks for the next cycle. The idea here is to identify a superset of issues to be prioritized for this cycle, rather than to identify the exact set of issues.
 
 1. Kick-off async planning during our [weekly sync meeting](#weekly-distribution-team-sync).
-1. Review the current [goals and milestones](./goals.md), ensure those goals and milestones match are up to date, and match what you think we should be working on. If this is not the case, propose a new goal.
+1. Review the current [goals and milestones](../../direction/enablement/distribution/index.md), ensure those goals and milestones match are up to date, and match what you think we should be working on. If this is not the case, propose a new goal.
 1. Review the [open Distribution issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ateam%2Fdistribution+user%3Asourcegraph) and move all issues to the current cycle you think should be considered for prioritization.
    - If an issue is important but doesn't satisfy the goals, consider if the goal needs to be changed.
 1. Review [technical debt](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ateam%2Fdistribution+user%3Asourcegraph+label%3Adebt), [quality of life](https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ateam%2Fdistribution+user%3Asourcegraph+label%3Aquality-of-life) or [innovation issues](../../index.md#innovation-time) you would like to work on this cycle.
@@ -75,7 +75,7 @@ Mon @ 11am PST we hold an [internal
 team sync](https://docs.google.com/document/d/1otP6F8qfm2yNOW1hjTszkkuiYF1MGp31s5ATeA76ij4/edit) via Zoom. The goal is to:
 
 - Think about the problems we're solving by briefly going over what everyone is working on
-- Revisit our [goals](goals.md) and think about how we are tracking towards them when useful (and consider if they are still the right goals)
+- Revisit our [goals](../../direction/enablement/distribution/index.md) and think about how we are tracking towards them when useful (and consider if they are still the right goals)
 - Identify and address any topics & issues that warrant further discussion
 - Act as an opportunity / space for anyone to call out concerns, questions, etc. that they may have or suggest things we could be doing better, etc.
 - Serve as a space for others outside our team that work closely with us (e.g. people working on Cloud infrastructure) to interact with us face-to-face.

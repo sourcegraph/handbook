@@ -1,6 +1,6 @@
 # Distribution team goals
 
-Goals are continuously updated and reviewed. If you find these goals do not reflect our current priorities or are out of date, please update them as soon as possible or add it as a topic to our [weekly sync](recurring_processes.md#weekly-distribution-team-sync).
+Goals are continuously updated and reviewed. If you find these goals do not reflect our current priorities or are out of date, please update them as soon as possible or add it as a topic to our [weekly sync](../../../engineering/distribution/recurring_processes.md#weekly-distribution-team-sync).
 
 ## Goals
 
@@ -25,4 +25,4 @@ Our existing deployment pipelines to our Sourcegraph instances (such as Sourcegr
 
 ## Past goals
 
-We record past goals that we have completed [here](goals_completed.md).
+We record past goals that we have completed [here](../../../engineering/distribution/goals_completed.md).

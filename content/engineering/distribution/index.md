@@ -14,9 +14,9 @@ The distribution team is responsible for making Sourcegraph easy to deploy, scal
 
 Our team has two Slack channels, one public (#distributioneers) and one private (#distribution-team). **Our default is to use the public channel**. The #distribution-team channel will only be used for discussing internal team topics, like scheduling, retrospectives, how we do updates, etc.
 
-## [Goals](goals.md)
+## [Goals](../../direction/enablement/distribution/index.md)
 
-See [Goals](goals.md)
+See [Goals](../../direction/enablement/distribution/index.md)
 
 ## Details
 

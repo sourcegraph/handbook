@@ -1,6 +1,6 @@
 # Distribution team completed goals
 
-This page records goals completed by the Distribution team historically. See also our [current goals](goals.md).
+This page records goals completed by the Distribution team historically. See also our [current goals](../../direction/enablement/distribution/index.md).
 
 - [**2021**](#2021)
   - [FY-22-Q1](#FY-22-Q1)

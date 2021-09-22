@@ -60,3 +60,30 @@ Sourcegraph has access to the low level data needed to build insights that are h
 
 - Do research to understand what questions engineering leaders want to answer about their organization's code.
 - Add features to Sourcegraph that provide insights that are valuable to both leaders and developers.
+
+## Per-area direction pages
+
+Within this overall product direction, individual product areas set their own goals and roadmaps aligned to the [company OKRs](../company/goals/2022_q3.md), [Sourcegraph direction](../direction/index.md) and each have a direction page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
+
+### Code Graph
+
+- [Search core and Search product](code-graph/search/index.md)
+- [Batch Changes](code-graph/batch-changes/index.md)
+- [Code Intelligence](code-graph/code-intelligence/index.md)
+- [Code Insights](code-graph/code-insights/index.md)
+
+### Enablement
+
+- Repository Management
+- [Distribution](enablement/distribution/index.md)
+- [Frontend Platform](enablement/frontend-platform/index.md)
+
+### Cloud
+
+- [Core application](cloud/core-application/index.md)
+- Cloud SaaS
+- Growth
+  - [API docs](cloud/growth/index.md)
+- [Security](cloud/security/index.md)
+- DevOps/SRE
+- [Extensibility](cloud/extensibility/index.md)

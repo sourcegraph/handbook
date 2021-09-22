@@ -1,6 +1,6 @@
 # Search goals and priorities
 
-This page documents the current goals and priorities of the [Search team](index.md). See also our [completed goals](goals_completed.md).
+This page documents the current goals and priorities of the [Search team](../../../engineering/code-graph/search/index.md). See also our [completed goals](../../../engineering/code-graph/search/goals_completed.md).
 
 ## Search product goals
 

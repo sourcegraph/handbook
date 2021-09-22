@@ -4,7 +4,7 @@
 
 ## Direction
 
-- Vision, mission and strategy: [Batch Changes direction](direction.md)
+- Vision, mission and strategy: [Batch Changes direction](../../../direction/code-graph/batch-changes/index.md)
 - [Key metrics](metrics.md)
 
 ## Contact

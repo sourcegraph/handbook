@@ -30,9 +30,9 @@ The Core Application team has broad [area ownership](areas-of-ownership.md) with
 - Requests for assistance from Customer Support and other teams are triaged, worked on, and resolved based on their priority level by a team member on [operational rotation](operational-rotation.md).
 - See [Core Application Support board](https://github.com/orgs/sourcegraph/projects/153) for information about all tracked requests and their current status.
 
-## [Goals](goals.md)
+## [Goals](../../direction/cloud/core-application/index.md)
 
-See [goals](goals.md)
+See [goals](../../direction/cloud/core-application/index.md)
 
 ## [Onboarding](onboarding/index.md)
 

@@ -3,7 +3,7 @@
 The following is a breakdown of the areas of Sourcegraph that the [Distribution team](./index.md) owns, as well as relevant documentation and resources.
 Distribution team members may also be involved in other areas of Sourcegraph not mentioned here (i.e., you're not restricted just to the distribution team or working on just the areas of ownership assigned below).
 
-To see what Distribution is currently prioritizing, see the [Distribution Goals](./goals.md).
+To see what Distribution is currently prioritizing, see the [Distribution Goals](../../direction/enablement/distribution/index.md).
 
 ## Infrastucture
 

@@ -6,7 +6,7 @@ The team's goals and roadmap contain the features and customer signals that guid
 
 ## Goals for FY22
 
-See also our [completed goals](goals_completed.md).
+See also our [completed goals](../../../engineering/code-graph/code-insights/goals_completed.md).
 
 ### 1. Deliver a user-loved, revenue-capturing product
 

@@ -4,7 +4,7 @@ The Frontend Platform team, by the nature of their purpose, does not follow a tr
 
 ## Goals for FY22
 
-See also our [completed goals](goals_completed.md).
+See also our [completed goals](../../../engineering/enablement/frontend-platform/goals_completed.md).
 
 ### 1. Implement design refresh
 

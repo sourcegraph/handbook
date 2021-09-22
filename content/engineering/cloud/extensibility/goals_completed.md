@@ -1,6 +1,6 @@
 # Extensibility team completed goals
 
-This page records goals completed by the Extensibility team historically (started recording in FY-21-Q4). See also our [current goals](goals.md).
+This page records goals completed by the Extensibility team historically (started recording in FY-21-Q4). See also our [current goals](../../../direction/cloud/extensibility/index.md).
 
 - [**2021**](#2021)
   - [FY-21-Q4](#FY-21-Q4)
