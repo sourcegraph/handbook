@@ -84,7 +84,7 @@ SLAs - Turnaround time for legal review:
 
 ## What to do when the contract is fully signed
 
-Save a copy of the fully signed contract in the appropriate Google Drive folder:
+Save a copy of the fully signed contract in (1) the appropriate **Google Drive** folder and (2) **Salesforce** (for customer contracts):
 
 - [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) as Party Name-NDA-Year-Month-Date
 - [Customer contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) as Year-Month-Date-Customer-Contract Name
