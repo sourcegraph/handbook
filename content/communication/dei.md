@@ -1,4 +1,6 @@
-# How we create an environment where everyone feels welcome and has equal opportunity
+# Diversity, Equity, and Inclusion
+
+## How we create an environment where everyone feels welcome and has equal opportunity
 
 > At Sourcegraph, we want to make it so [everyone can code](../company/strategy.md), so that technology's benefits reach the whole world. To do that, and to even understand what's necessary to do that, our team needs to represent a diverse set of perspectives, experiences, and backgrounds. We also believe that talent is equally distributed, so we strive for our team to demonstrate that by being inclusive of and equitable toward all people. This page describes our efforts and commitments to work toward these outcomes, and we expect to improve and expand our plans here as we learn and grow.
 
@@ -11,7 +13,7 @@ Sourcegraph’s first steps towards creating a diverse team came with the decisi
 After deciding to work remotely, we also:
 
 - Chose to offer compensation that was independent of location
-- Made sure our talent was supported in working remotely - including offering home desk set-up,coworking space, and internet benefits.
+- Made sure our talent was supported in working remotely - including offering home desk set-up, coworking space, and internet benefits.
 - Decided to Work asynchronously as much as reasonable, to ensure our teammates across time zones and working schedules are included in conversations and calls for input
 
 Our initiatives since then have been focused on identifying and acting on the potential obstacles our teammates and candidates feeling welcome and having equal access to opportunity existing teams and hiring process - the most impactful steps we could take to reduce bias and discrimination from our processes and interactions.
