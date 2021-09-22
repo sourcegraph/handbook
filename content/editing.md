@@ -122,6 +122,33 @@ A screen recording of how to make a new file and include it for review in the we
 
 <iframe src="https://drive.google.com/file/d/16iYS-idCL5FEGwoldF7rOQElcidgzo8i/preview" width="560" height="315"></iframe>
 
+##### Steps:
+
+_This is just one path for creating a new page in the Handbook. These steps can be completed in a different order, or outside of the Github web interface._
+
+1. Navigate to the directory where you want to create your new page.
+
+   - If you aren't sure how to get there in Github, click "Edit This Page" on the Handbook page where you'd like to add your new page. Then, look for the file path towards the top of your Github page to click up into the directory:
+
+   ![Navigate to Directory](https://storage.googleapis.com/sourcegraph-assets/handbook/navigate-to-directory.png)
+
+2. Click Add File > Create New File
+3. Name your file.
+   -Make sure the name ends with ".md". This makes it a Markdown file. For example: editing.md
+4. Enter your content in Markdown. See [Markdown Resources](#markdown-resources) for help with formatting.
+5. Name your commit and your branch. Make note of your branch name, you'll need it in next steps.
+6. Click "Commit New File"
+7. Click on the dropdown arrow on the "Create Pull Request" button, and choose "Create Draft Pull Request". This will keep your PR from auto-notifying code owners or reviewers before it's ready. Then, click "Draft Pull Request".
+8. You'll likely see that the docsite check has failed. Click "Details" on the docsite check line to see more information. If your error says "disconnected page (no inlinks from other pages)", this means you need to create a link into this page. For other failures, see [Handbook Checks](#handbook-checks).
+9. In a new tab, navigate to the page where you want to create a link to your new page.
+   -You can do this in the same tab if you'd like, but it may be easier to keep your PR up in its own tab while you do this part.
+10. Click on the branch dropdown on the upper left side of your screen (it probably says "main"). Search for the branch you named when creating your first change, and select it.
+    ![Update Branch](https://storage.googleapis.com/sourcegraph-assets/handbook/update-branch.png)
+11. Click the pencil icon to edit your file.
+12. Create a [link using a relative path](#using-relative-paths-to-link-handbook-pages) in the appropriate location on your page.
+13. Commit your changes.
+14. Return to your PR, and the checks should rerun. Once checks pass, merge your changes.
+
 ### macOS
 
 ### Github Desktop version
