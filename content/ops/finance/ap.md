@@ -54,7 +54,7 @@ The table below presents the approval levels required for expenditure, based on 
 
 ##### How to Get Finance approval
 
-For procurement that exceeds an annual equivalent of $10,000, please send a quote, estimate, or contractual draft to the Finance team prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel.
+For procurement that exceeds an annual equivalent of $10,000, please send a quote, estimate, or contractual draft to the Finance team prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel. For contract review, see the [Contractual Execution](https://about.sourcegraph.com/handbook/ops/finance/ap#contractual-execution) section below.
 
 #### Go-to-market Stage
 
