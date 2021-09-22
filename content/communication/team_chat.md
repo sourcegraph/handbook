@@ -86,6 +86,10 @@ If teams require additional channels they should follow the convention of prefix
 - #handbook-updates - Github updates from the Handbook repo.
 - #handbook-announce - Announcement of important changes to the Handbook.
 
+### Employee Resource/Identity
+
+- #queer - Channel for LGBTQIA2+ folks—questioning welcome! Submit your email address to [this form](https://forms.gle/JABVzFYqkFkpU21u5) to be automatically added.
+
 ### Product
 
 - #design - How Sourcegraph looks visually
@@ -133,7 +137,7 @@ These are some of our social channels. Feel free to whichever calls you.
 
 - #anime - All things related to anime
 - #basketball - All things hoops (NBA, NCAA, FIBA, etc.)
-- #best-timezone Hangout channel for the european time zone. GIFs allowed!
+- #best-timezone - Hangout channel for the European time zone. GIFs allowed!
 - #books - Read books recommended by teammates and discuss them.
 - #chess - For all chess lovers
 - #clothing - Chit-chatting about clothes
