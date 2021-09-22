@@ -190,6 +190,11 @@ All of the following needs to occur within one pull request. See [this section](
    ![Broken Link Errors](https://storage.googleapis.com/sourcegraph-assets/handbook/relocate-page-errors.png)
 1. [Add redirects](#adding-redirects) to account for any instance where someone may be directed to the old URL.
 
+## Deleting a Page (Web Interface)
+
+See [this Github documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/deleting-files-in-a-repository#deleting-a-file) for deleting a file or directory through the web interface. You may encounter Handbook checks errors. Since you are changing the location of a file, any existing links to that file will break. You may see errors like this, which are explained in the [Handbook Checks](#handbook-checks) section of this page:
+![Broken Link Errors](https://storage.googleapis.com/sourcegraph-assets/handbook/relocate-page-errors.png)
+
 ## Adding redirects
 
 When you change the location of content in the handbook it's important to add a redirect rule so that old URL to the content will automatically take users to the new URL.
