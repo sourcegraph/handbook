@@ -36,7 +36,7 @@ In many cases, questions can span multiple teams. For example, a question about 
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`
 
-Any questions about deployment should be routed to the [Distribution team](../engineering/distribution/index.md).
+Any questions about deployment should be routed to the [Delivery team](../engineering/enablement/delivery/index.md).
 
 ### Monitoring, management, and performance optimization
 
@@ -44,7 +44,7 @@ Any questions about deployment should be routed to the [Distribution team](../en
 
 Questions about specific alerts and graph panels should be routed to the team that is responsible for the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
 
-Any other questions about monitoring and performance should be routed to the [Distribution team](../engineering/distribution/index.md).
+Any other questions about monitoring and performance should be routed to the [Delivery team](../engineering/enablement/delivery/index.md).
 
 ### Code host connections
 
