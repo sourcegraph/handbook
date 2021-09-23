@@ -31,6 +31,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
   - Recruiter schedules a 30-45 minute intake meeting with the Hiring Manager to kick off the search. This is a necessary step to ensure initial alignment and set our search up for success.
   - Recruiter opens the job in Greenhouse by copying the "Template" job and builds out the interview plan, adding all behavioral-based, structured questions directly into each interview stage. All interview stages should use the standard interview titles, found [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
   - Recruiter posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91) and LinkedIn. If you would like it posted in other locations, please ask your Recruiter or send a Slack message to @hiring. You can see a list of other job boards we are considering [here](hiring/job_boards.md).
+  - Recruiter starts the [Slack Kick-Off Process(https://about.sourcegraph.com/handbook/talent/resources_for_recruiters#slack-kick-off-process).
 
 ### 2. Recruiting Stage
 
