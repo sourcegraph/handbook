@@ -1488,3 +1488,11 @@ To add yourself to this page:
 - GitHub: [srj427](https://github.com/srj427)
 - [sam.jones@sourcegraph.com](mailto:sam.jones@sourcegraph.com)
 - Sam is a San Francisco Bay Area native. Prior to joining Sourcegraph, Sam represented technology companies and investment firms in corporate transactional work including commercial contracts, M&A and corporate financings as both an in-house counsel and external advisor. He loves hiking and running with his dog Gigi, cooking and playing golf. Sam is also learning to brew beer and maintain a garden in his free time.
+
+## Stephanie Zabala (she/her)
+
+- Principle Designer, Brand
+- Brooklyn, NY, United States 🇺🇸
+- GitHub: [stephzabala](https://github.com/stephzabala)
+- [steph.zabala@sourcegraph.com](mailto:steph.zabala@sourcegraph.com)
+- Steph is a designer based in NYC, originally from WA. She has a deep appreciation for creative work that is authentic, expressive, and artistic, along with a deep appreciation for butter, typography, and breakfast.
