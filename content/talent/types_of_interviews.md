@@ -53,7 +53,7 @@ All departments are likely to have some or all of the below universal interview 
 - Details: during this stage in the interview process, the Hiring Manager will introduce themself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and the candidate.
 - Example questions:
   - What did you do to prepare for this conversation?
-  - Why do want to be a [role title]? What are your longterm goals?
+  - Why do you want to be a [role title]? What are your longterm goals?
   - How would you explain what Sourcegraph does to a friend?
 
 ## Resume deep dive
