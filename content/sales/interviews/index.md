@@ -16,7 +16,8 @@ We publicly document our interview process for each of the different sales roles
      - 30-minute **Team-collaboration interview**: you meet with an Enterprise sales leader. This person manages the Account Executives to whom you’ll provide lead gen support.
      - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview).
      - 30-minute **Final interview**: this is a final interview with the Head of Sales Development to debrief on the interview process and ask any remaining questions.
-   - Part 3: 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
+   - Part 3:
+     - 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
 6. We check your references.
 7. We make you a job offer.
 
@@ -32,7 +33,8 @@ We know the above process looks like a lot, but we promise **we move quickly**! 
      - 45-minute **Presentation**: Learn more about our Enterprise AE presentation [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#enterprise-ae-sales-presentation)
      - 30-minute **Team-collaboration interview**: you meet with an Enterprise sales leader. This person manages the Account Executives to whom you’ll provide lead gen support.
      - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview).
-   - Part 2: 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
+   - Part 2:
+     - 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
 5. We check your references.
 6. We make you a job offer.
 
