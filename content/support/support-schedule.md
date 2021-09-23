@@ -23,7 +23,7 @@ _Note: we can only have 3-4 folks with the same focus day. If you don't see the 
 | Don         | 10am - 6pm  | 14:00 - 22:00 | 7am - 3pm     | Wednesday |
 | Gabe        | 9am - 5pm   | 16:00 - 24:00 | 9am - 5pm     | Friday    |
 | Giselle     | 8am - 4pm   | 15:00 - 23:00 | 8am - 4pm     | Thursday  |
-| Jason       | 7am - 3pm   | 12:00 - 20:00 | 5am - 1pm     | TBD       |
+| Jason       | 9am - 5pm   | 14:00 - 22:00 | 7am - 3pm     | TBD       |
 | Kelvin      | 11am - 7pm  | 18:00 - 02:00 | 11am - 7pm    | TBD       |
 | Mariam      | 9am - 5pm   | 08:00 - 16:00 | 1am - 9am     | TBD       |
 | Michael     | 8am - 4pm   | 07:00 - 15:00 | 12am - 8am    | TBD       |
