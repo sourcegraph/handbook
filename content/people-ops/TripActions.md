@@ -45,6 +45,12 @@ We understand that there may be a time when there is no way around booking a fli
 After 24 hours without any manual action (approved/denied), the booking will automatically be accepted.
 Please note all out-of-policy related questions can be sent to travel@sourcegraph.com and #expense-inquiries in Slack.
 
+## Do I need to use TripActions for booking my travel?
+
+Moving forward, TripActions will be our source of truth for booking travel. All teammate travel must be booked through this platform to be considered within your travel budgets. Any travel booked outside of TripActions unfortunately will not be reimbursed.
+
+Our shift to this platform is for ease of tracking budgets both for teammates on an individual level, and for managers on a team level. We are also able to use this platform to track the locations of teammates as they travel throughout the world so we can monitor their safety and the changing conditions of Covid-19 through their tool [_Sherpa_](https://tripactions.com/blog/tripactions-introduces-sherpa-integration-for-safer-travels).
+
 ## Travel Assistance
 
 ### 24/7 Global Travel Agent Support
