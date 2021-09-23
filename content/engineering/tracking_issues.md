@@ -1,19 +1,10 @@
 # Tracking issues
 
-## Table of contents
-
-1. [What is a tracking issue?](#what-is-a-tracking-issue)
-1. [Creating a tracking issue](#creating-a-tracking-issue)
-1. [Populating and maintaining a tracking issue](#populating-and-maintaining-a-tracking-issue)
-1. [Planning a milestone with a tracking issue](#planning-a-milestone-with-a-tracking-issue)
-1. [Progress updates](#progress-updates)
-1. [Contributing to the tracking issue tool](#contributing-to-the-tracking-issue-tool)
-
 ## What is a tracking issue?
 
-A tracking issue is a GitHub issue that captures the planned and on-going work of a team's milestone, project, RFC, goal or anything else of the sort. This artifact is a medium used for planning, progress check-ins and stakeholder communication.
+A tracking issue is a GitHub issue that captures the planned and on-going work of a team's milestone, project, RFC, goal or anything else of the sort. This artifact is a medium used for planning, progress check-ins and stakeholder communication. You can take a look at [examples of open tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Atracking) to get a sense of what they look like.
 
-You can take a look at [examples of open tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Atracking) to get a sense of what they look like.
+Note that this is an optional process; some teams use tracking issues and some teams do not. For those that do they will follow the procedures below.
 
 ## Creating a tracking issue
 
