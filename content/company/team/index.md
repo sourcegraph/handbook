@@ -1491,7 +1491,7 @@ To add yourself to this page:
 
 ## Stephanie Zabala (she/her)
 
-- Principle Designer, Brand
+- Principal Designer, Brand
 - Brooklyn, NY, United States 🇺🇸
 - GitHub: [stephzabala](https://github.com/stephzabala)
 - [steph.zabala@sourcegraph.com](mailto:steph.zabala@sourcegraph.com)
