@@ -54,8 +54,8 @@ Any questions about code host connections and repository syncing should be route
 
 EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 
-- `Perforce` should be routed to the [Distribution team](../engineering/distribution/index.md)
-- `permission syncing` should be routed to the [Distribution team](../engineering/distribution/index.md)
+- `Perforce` should be routed to the [Repo Management](../engineering/enablement/repo-management/index.md)
+- `permission syncing` should be routed to the [Repo Management](../engineering/enablement/repo-management/index.md)
 - `CVS` should be routed to the [Batch Changes team](../engineering/code-graph/batch-changes/index.md)
 - `license enforcement/management` should be routed to the [Batch Changes team](../engineering/code-graph/batch-changes/index.md) (though these should always go through the CE)
 
