@@ -5,7 +5,9 @@ We use GCP to provide cluster access. Install the `gcloud` cli tool from here: <
 Next, open a new terminal and set two environment variables for ergonomics for this tutorial.
 
 ```
-export CLOUDSDK_CORE_PROJECT=sourcegraph-dogfood && export CLOUDSDK_COMPUTE_REGION=us-central1 && CLOUDSDK_COMPUTE_REGION=us-central1-f;
+export CLOUDSDK_CORE_PROJECT=sourcegraph-dogfood
+export CLOUDSDK_COMPUTE_REGION=us-central1
+export CLOUDSDK_COMPUTE_REGION=us-central1-f
 ```
 
 Now, use `gcloud container clusters get-credentials dogfood` to gain cluster access for `kubectl`
