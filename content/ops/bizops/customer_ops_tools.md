@@ -102,11 +102,17 @@ We use Google Tag Manager to:
 
 ## Linking to customer or prospect names in public places
 
-It's often useful to include a customer or prospect name in a public RFC, GitHub issue, or other publicly-viewable place. In order to do so without leaking this information to the public, we use a private [Customer/Prospect Names Mapping Index](https://docs.google.com/spreadsheets/d/1OEhzdMSlkGOaWyGKwdiAGlirsKKj9EN45Izn7kdKNTg/edit#) Google sheet.
+It's often useful to include a customer or prospect name in a public RFC, GitHub issue, or other publicly-viewable place. In order to do so without leaking this information to the public, we use a [private GitHub repository](https://github.com/sourcegraph/accounts/issues) with issues representing customers. We don't use links to the salesforce account page because not all Sourcegraph team members have access to salesforce, whereas everybody has access to GitHub.
 
-To use it, copy a link to the cell with the name you want to include, and use that link in place of the customer name. For example, if the customer was "Sourcegraph", you might write: "We heard from [this customer](https://docs.google.com/spreadsheets/d/1OEhzdMSlkGOaWyGKwdiAGlirsKKj9EN45Izn7kdKNTg/edit#gid=0&range=A1901) that...".
+To use it, copy a link to the issue that represents the customer you want to reference. For example, if the customer was "Sourcegraph", you might write: "We heard from [this customer](https://github.com/sourcegraph/accounts/issues/8194) that...".
 
-Anyone can add new customers or prospects to the bottom of the index as necessary.
+For now, the list of accounts is maintained manually by @malomarrec. In the near future it will be automatically populated from Salesforce.
+
+### How to find all tickets related to a customer
+
+A benefit of using GitHub issues for referencing customers is that all GitHub issues linked to an account will automatically appear in the account issue:
+
+<img width="1187" alt="account_issue" src="https://user-images.githubusercontent.com/25070988/133835706-8dbb1497-e94a-4e63-acab-40be36b2fdde.png">
 
 ## Addendum
 

@@ -73,14 +73,6 @@ Important questions to ask while re-prioritizing and proposing solutions for cri
 - Can we do it "right"? How long would that take?
 - Are we already planning on solving this? How long until we work on this? Is that timeline acceptable?
 
-## Customer requests
+## How to reference customer names in public tickets
 
-Customer issues should reference the link to the company in HubSpot. **Note that the URL should never be hidden in a markdown link (such as `[company name](https://app.hubspot.com/contacts/XXXXXXX/company/XXXXXXX)`) as GitHub issue search doesn't search the full markdown, only the rendered text.**
-
-Please make sure the URL looks like `https://app.hubspot.com/contacts/XXXXXXX/**company**/XXXXXXX`. If the link ends in `/**deal**/XXXXXXX` or `/**ticket**/XXXXXXX` searches for the company's id won't return the comprehensive set of issues.
-
-### Finding all requests from a given customer
-
-Visit the company's page on HubSpot, copy the unique identifier at the end of the URL, and search in GitHub. All issues filed on behalf of the company will appear.
-
-> NOTE: Pro tip: use the [HubSpot Sourcegraph extension](https://sourcegraph.com/extensions/sourcegraph/hubspot) for autocompleting names and adding customer names to your view!
+Accounts (customer, prospect and lead) names are private, and should not be included in public GitHub tickets. See our process for [referencing private customer names in public places](../../ops/bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places).

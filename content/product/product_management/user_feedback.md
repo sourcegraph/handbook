@@ -40,6 +40,8 @@ We have a few different email lists that are used to send us feedback.
 - **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests) is often a developer's default place to leave feedback.
 - **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue follows the relevant team's process. For issues filed by someone outside Sourcegraph, the product manager on feedback rotation is responsible for labelling or raising to the right team.
 
+See [How to reference customer names in public tickets](prioritizing.md#how-to-reference-customer-names-in-public-tickets).
+
 ### Twitter
 
 - **Purpose:** Anyone can tweet about @Sourcegraph for public feedback. All tweets are in `#twitter` on Slack.
