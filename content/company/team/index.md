@@ -1496,3 +1496,11 @@ To add yourself to this page:
 - GitHub: [stephzabala](https://github.com/stephzabala)
 - [steph.zabala@sourcegraph.com](mailto:steph.zabala@sourcegraph.com)
 - Steph is a designer based in NYC, originally from WA. She has a deep appreciation for creative work that is authentic, expressive, and artistic, along with a deep appreciation for butter, typography, and breakfast.
+
+## Crystal Augustus (she/her)
+
+- Software Engineer, Delivery
+- Ashland, MA, United States 🇺🇸
+- GitHub: [caugustus-sourcegraph](https://github.com/caugustus-sourcegraph)
+- [crystal.augustus@sourcegraph.com](mailto:crystal.augustus@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/crystalaugustus/)
+- Crystal has a strong love for books and puns. Originally from Texas, she still misses the thunderstorms and breakfast tacos, but fall in New England more than makes up for it.
