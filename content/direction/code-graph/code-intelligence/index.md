@@ -42,7 +42,7 @@ Code intelligence lies at the very center of the product as a whole, providing t
 
 At the moment maturity varies depending on the area of ownership:
 
-- **Language indexers:** Maturity varies widely per language See [LSIF indexers documentation](https://docs.sourcegraph.com/code_intelligence/references/indexers).
+- **Language indexers:** Maturity varies widely per language. See [LSIF indexers documentation](https://docs.sourcegraph.com/code_intelligence/references/indexers).
 
 - **Code intelligence platform:** Viable with a solid foundation, we're currently working on scaling and improving performance to push the limits of precise indexing and build the Global Code Graph.
 
@@ -85,19 +85,22 @@ Recent key learnings:
 These tie back to [FY22 Q3 Product/Engineering OKRs](../../../company/goals/2022_q3.md#product-engineering)
 
 **Objective: Make cloud and enterprise successful at massive scale**
-**KR:** Increase the amount of LSIF indexed repos and dependencies on Cloud by 5x (Target: 50k).
-**KR:** 1 customer successfully enables auto-indexing and dependency navigation on their instance.
-**KR:** Add Scala and Kotlin support to increase JVM ecosystem coverage.
+
+- **KR:** Increase the amount of LSIF indexed repos and dependencies on Cloud by 5x (Target: 50k).
+- **KR:** 1 customer successfully enables auto-indexing and dependency navigation on their instance.
+- **KR:** Add Scala and Kotlin support to increase JVM ecosystem coverage.
 
 **Why?** During Q2 we validated our approach for cross-dependency navigation and slowly started building towards the Global Code Graph. For Q3, we want to double down on scaling the number of repositories and dependencies we index on Cloud while making sure we optimize the way we handle LSIF data and uploads. We also want to make sure we’re able to deliver the same top-notch navigation experience to our enterprise customers and will invest in making our approach scalable and performant for on-prem instances.
 
 **Objective: Build a delightful personalized product that devs love**
-**KR:** Solve at least 3 long-standing code navigation UX issues from our papercuts backlog.
+
+- **KR:** Solve at least 3 long-standing code navigation UX issues from our papercuts backlog.
 
 **Why?** Code navigation is a key part of a developer’s workflow, we want that experience to feel smooth and snappy, similar to the one you’d get in your favorite IDE. While we build up our code navigation team, we want to take a first stab at improving the current code navigation experience by tackling some long-standing UX papercuts.
 
 **Objective: Happy, effective, async team**
-**KR:** Hire and successfully onboard 3 engineers.
+
+- **KR:** Hire and successfully onboard 3 engineers.
 
 **Why?** Our goal is to own the end-to-end code navigation experience, which will result in clear ownership in some historically grey areas and faster iteration in code navigation-related issues and features. We want to build out the team skillset to own the vertical product slice.
 
@@ -105,12 +108,12 @@ These tie back to [FY22 Q3 Product/Engineering OKRs](../../../company/goals/2022
 
 #### Top level theme: Build and scale the Global Code Graph
 
-- Cross repository and dependency navigation
+- **Cross repository and dependency navigation**
   - We believe this is the global code graph’s killer feature. It elevates the code navigation experience to a new level of cross-project analysis. It includes enabling precise cross-repository navigation and the ability to navigate to any third party dependency a repository references. We're solving this initially on Sourcegraph Cloud and plan to replicate the same functionality for on-premise usage.
-- Auto-indexing and scaling the code graph
+- **Auto-indexing and scaling the code graph**
   - The current set up experience is not scalable for customers with a large amount of repositories. Enabling auto-indexing would mean a lower barrier for entry, a seamless experience and more engineers using precise code intelligence.
   - Building the code graph also means we need to generate and store increased amounts of LSIF data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
-- Ship precise language support
+- **Ship precise language support**
   - We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision.
 
 ### What's next and why
