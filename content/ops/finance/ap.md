@@ -118,9 +118,11 @@ Contract management should include:
 - Ensuring the key terms (price, term, owner) are stored in the contract register (discussed below)
 - Processing invoices for payment on a timely basis in line with agreed provisions in the contract
 
-##### Contract Register
+##### Supplier Folder & Contract Register
 
-The Sourcegraph Finance department will maintain a contract register to record expenditures valued at greater than $10,000 (annualized amount).
+Once a vendor agreement is signed, please create a new folder for the vendor in the [Suppliers drive](https://drive.google.com/drive/u/0/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) and upload the agreement.
+
+Furthermore, the Sourcegraph Finance department will maintain a contract register to record expenditures valued at greater than $10,000 (annualized amount).
 
 ##### Contract Renewals
 
