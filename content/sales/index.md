@@ -31,6 +31,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
 
 - [Gregg Stone](../company/team/index.md#gregg-stone) (VP of Sales)
 - [Dudley Nostrand](../company/team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
+  - [Trey Sizemore](../company/team/index.md#trey-sizemore-he-him) (Sales Enablement Manager)
 - [Scott Cambell](../company/team/index.md#scott-campbell-he-him) (Regional Director of East)
   - [Kai Passo](../company/team/index.md#kai-passo-he-him)
   - [Bill Kolman](../company/team/index.md#bill-kolman)
