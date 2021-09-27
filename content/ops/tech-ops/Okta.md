@@ -14,8 +14,6 @@ Okta is an Identity and Single Sign-On (SSO) solution for applications and Cloud
 
 #### Current implementation status
 
-Tech Ops is currently building out the integration with BambooHR as the source of truth for identity. Once this is active we will begin rolling out access to applications through Okta one by one, starting with Docusign, Google Workspace, and Slack. Because Google and Slack will impact every single Sourcegraph teammate we ask that you activate your account ASAP.
-
 Please see our [Okta Project Plan] (https://docs.google.com/spreadsheets/d/1T7PUK4J94KgkW18cyjCBQZEkmVhFSDigRC8nuMV2EGU/edit?usp=sharing) for relevant timelines on app-specific and team-specific Okta integrations.
 
 You should have received an activation email, if you haven’t please let #it-tech-ops know and we can resend the invite.
@@ -64,6 +62,8 @@ For YubiKey set up:
 There is a "need help signing in?" button on the login screen. If you expand this there is a link to an automated password reset process via email.
 We recommend that you store your Okta password in 1Password as well as your Security Questions there.
 
+If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password: Go to the our [Sourcegraph Okta Login page](https://www.sourcegraph.okta.com) > Forgot Password > enter your personal email address > Resset via Email https://sourcegraph.okta.com/signin/forgot-password
+
 ## I forgot my Security Questions, how do I reset my password?
 
 Ask #it-help-ops for a temporary password to be issued. You will be given a temporary password at which point you can reset your access.
@@ -78,17 +78,15 @@ No worries! You can easily reset your own MFA code for Okta if you did not wipe/
 4. Scroll down until you see "Extra Verification", once you're there click "remove" to disable that instance of Okta Verify
 5. Configure the new MFA code on your new phone
 
-Lost all your MFA Factors? Ask #it-tech-ops for an MFA Reset. Once your Factors have been reset, please set up Okta Verify again.
+Lost all your MFA Factors? Ask #it-tech-ops for an MFA Reset. Once your Factors have been reset, please set up MFA again.
 
 ## My Okta account has been locked out because of failed attempts, what do I do?
 
-Contact to #it-tech-ops and ask to have your account unlocked. As a precaution, you will also need to change your Okta Password.
+Being locked out of Okta will also mean you are locked out of Google and Slack. Tech-Ops-Admin@sourcegraph.com will receive an email saying you have been lock out but please send us a confirmation email from your personal email account so we know it was you. As a precaution, you will also need to change your Okta Password.
 
 ## Why isn't an application I need available in Okta?
 
-Currently we don’t have any configured! But we will and we will also have an option for you to request access for an application from within Okta.
-
-Please see our [Okta Project Plan] (https://docs.google.com/spreadsheets/d/1T7PUK4J94KgkW18cyjCBQZEkmVhFSDigRC8nuMV2EGU/edit?usp=sharing) for relevant timelines on app-specific and team-specific Okta integrations.
+Most likely because that system doesn't offer an SSO option or because we need to upgrade in order to enable the feature. Please feel free to ask us about it in the #it-tech-ops channel.
 
 ## I have an application that uses a shared password for my team, can I move this to Okta?
 
@@ -109,5 +107,7 @@ For Okta help, setup, and integration questions: #it-tech-ops Slack channel or <
 ### Who are the Okta Super Admins?
 
 [Nate Tang](https://about.sourcegraph.com/handbook/company/team#nate-tang-he-him), Tech Ops, nate@sourcegraph.com
+
+[Maureen Loughrey](https://about.sourcegraph.com/handbook/company/team), Tech Ops, maureen.loughrey@sourcegraph.com
 
 [Nicky Van Maanen](https://about.sourcegraph.com/handbook/company/team#nicky-van-maanen-she-her), Tech Ops, nicky@sourcegraph.com
