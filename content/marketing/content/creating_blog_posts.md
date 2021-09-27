@@ -1,7 +1,5 @@
 # Creating & editing blog posts with markdown and GitHub
 
-We want and encourage everyone at Sourcegraph to contribute to the blog. If you'd like to write for the blog, please check out how to [propose a blog post](editorial.md#editorial-process) in the Editorial handbook.
-
 ## Table of contents
 
 1. [Process overview](#process-overview)
@@ -14,15 +12,12 @@ We want and encourage everyone at Sourcegraph to contribute to the blog. If you'
 
 ## Process overview
 
-The process for publishing a blog post is:
+> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published. Please start by proposing your blog post idea to the Editorial team. The process is outlined in [the Editorial handbook](editorial.md#editorial-process). When your draft has been reviewed by an editor you can start adding your blog post as follows:
 
 1. Create the blog post file
 1. Create a pull request
 1. Confirm via the preview deployment site that everything is looking good (the `deploy/netlify — Deploy preview ready!` link in the checks section)
-1. Get your pull request approved (preferably by someone on the marketing team)
-1. Merge your pull request which will trigger an automatic production build and deploy
-
-> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published. Please start by proposing your blog post idea to the Editorial team. The process is outlined in [the Editorial handbook](editorial.md#editorial-process).
+1. Request a review from the editor who reviewed your draft
 
 ## Adding a blog post
 
