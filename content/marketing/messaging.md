@@ -80,6 +80,21 @@ Universal code search meets these requirements, and all users have to do is sear
 
 By solving some of the most pressing challenges in today’s fast-moving, intricately connected software organizations, universal code search is the right technology for the era of Big Code.
 
+## How is Sourcegraph different?
+
+See how Sourcegraph compares with and integrates to other solutions:
+
+- [Atlassian Fisheye](../workflow/tools/atlassian_fisheye_vs_sourcegraph.md)
+- [Bitbucket Cloud](../workflow/tools/bitbucket_cloud_vs_sourcegraph.md)
+- [Bitbucket Server](../workflow/tools/bitbucket_server_vs_sourcegraph.md)
+- [GitHub](../workflow/tools/github_vs_sourcegraph.md)
+- [GitLab](../workflow/tools/gitlab_vs_sourcegraph.md)
+- [Google Cloud Source Repositories](../workflow/tools/google_cloud_source_repositories_vs_sourcegraph.md)
+- [Hound](../workflow/tools/hound_vs_sourcegraph.md)
+- [Livegrep](../workflow/tools/livegrep_vs_sourcegraph.md)
+- [OpenGrok](../workflow/tools/opengrok_vs_sourcegraph.md)
+- [Phabricator](../workflow/tools/phabricator_vs_sourcegraph.md)
+
 ## Company overview
 
 Sourcegraph is a company that creates software to help every organization build software with the quality and efficiency of today's elite technology companies.
