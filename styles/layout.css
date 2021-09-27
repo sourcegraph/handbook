@@ -1,0 +1,269 @@
+/* GLOBAL */
+:root {
+    /* Brand guideline colors */
+    --sg-light-gray: #f4f7fb;
+    --sg-dark-gray: #6c757d;
+    --sg-space-black: #000000;
+
+    --sg-yellow-1: #fff2cf;
+    --sg-yellow-2: #ffdb45;
+    --sg-yellow-3: #ffc247;
+    --sg-yellow-4: #ff9933;
+
+    --sg-violet-1: #e8d1ff;
+    --sg-violet-2: #a112ff;
+    --sg-violet-3: #820dde;
+    --sg-violet-4: #6112a3;
+
+    --sg-red-1: #ffc9c9;
+    --sg-red-2: #ff5543;
+    --sg-red-3: #ed2e20;
+    --sg-red-4: #c22626;
+
+    --sg-blue-1: #c7ffff;
+    --sg-blue-2: #00cbec;
+    --sg-blue-3: #00a1c7;
+    --sg-blue-4: #005482;
+
+    --sg-plum-1: #bfbfff;
+    --sg-plum-2: #6b59ed;
+    --sg-plum-3: #5033e1;
+    --sg-plum-4: #3826cc;
+
+    /* Logo colors */
+    --sg-vermillion: var(--sg-red-2);
+    --sg-vivid-violet: var(--sg-violet-2);
+    --sg-sky-blue: var(--sg-blue-2);
+
+    --sg-lemon: var(--sg-yellow-2);
+    --sg-blurple: var(--sg-plum-3);
+    --sg-action-green: #17ab52;
+    --sg-alert-red: var(--sg-red-3);
+
+    --font-family: 'Source Sans Pro', sans-serif;
+    --font-family-code: 'Source Code', monospace;
+
+    --breakpoint-width: 900px;
+    --text-color: #242f30;
+    --link-color: #0055c5;
+    --link-hover-color: #1986ea;
+    --link-active-color: #1986ea;
+    --border-color: #e1e3e8;
+    --body-bg: var(--sg-light-gray);
+    --header-bg: #ffffff;
+    --width: 1200px;
+    --spacing: 1.25rem;
+    --logo-width: 120px;
+    --logo-height: 1.5rem;
+    --logo-padding-y: 0.25rem;
+    --header-height: calc(3rem + 1px);
+}
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* UTILITIES */
+.container {
+    max-width: var(--width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Scroll slightly beyond in-page anchor so that the fixed header doesn't obscure it. */
+:not(.anchor-inline):target {
+    /* Scroll so that header anchors are at the top of the viewport. */
+    scroll-margin-top: var(--header-height);
+}
+.anchor-inline:target {
+    /* Scroll so that inline anchors are at the center (vertically) of the viewport. */
+    scroll-margin-top: 50vh;
+}
+.anchor-inline + .anchor-inline-link::before {
+    content: '🔗';
+    width: 1rem;
+    height: 1rem;
+    padding-left: 0.2em;
+}
+.anchor-inline:target + .anchor-inline-link {
+    background-color: var(--sg-yellow-2);
+    border: solid 1px var(--sg-yellow-3);
+    display: inline-block;
+    padding: 0.1rem;
+    margin: -0.1rem;
+}
+
+/* HEADER */
+#header {
+    position: sticky;
+    height: var(--header-height);
+    top: 0;
+    z-index: 1;
+    background-color: var(--header-bg);
+    border-bottom: solid 1px var(--border-color);
+    padding-left: calc(0.5 * var(--spacing));
+}
+#header > .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#header #logo {
+    flex: 0 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    color: inherit;
+    text-decoration: none;
+    padding-top: var(--logo-padding-y);
+    padding-bottom: var(--logo-padding-y);
+    margin-right: 0.5rem;
+}
+#header #logo img {
+    width: var(--logo-width);
+    height: var(--logo-height);
+    margin-right: 7px;
+}
+#header nav {
+    flex: 1 0;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 0.25rem;
+    white-space: nowrap;
+}
+#header nav a {
+    padding: 0.25rem 0.4rem;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    border-top: solid 1px var(--border-color);
+    padding: calc(1.5 * var(--spacing)) 0;
+    font-size: 80%;
+}
+footer nav.links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+footer nav.links ul li {
+}
+footer a {
+    color: var(--text-muted);
+    white-space: nowrap;
+    padding: calc(0.25 * var(--spacing)) calc(0.5 * var(--spacing));
+    margin-bottom: calc(0.75 * var(--spacing));
+    margin-right: calc(0.75 * var(--spacing));
+}
+
+/* SEARCH */
+#search-form {
+    display: inline-flex;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+}
+
+#search-input,
+#search-button {
+    padding: 0.3rem;
+}
+
+#search-input {
+    -webkit-appearance: textfield;
+    border: 1px solid var(--border-color);
+    border-radius: 0;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 30rem;
+    /* the styles below are related to the Swiftype search integration */
+    height: initial;
+    padding-left: 30px;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    background-size: 1rem 1rem;
+    background-position: 0.5rem 0.6rem;
+    background-image: url(https://unpkg.com/@mdi/svg@5/svg/magnify.svg);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+
+@media (max-width: 465px) {
+    #search-input {
+        width: 15rem;
+    }
+
+    #header nav div {
+        margin-top: 1rem;
+    }
+}
+
+/* Account for wrapping nav */
+@media (max-width: 1029px) {
+    :root {
+        --header-height: 4.5rem;
+    }
+}
+@media (max-width: 754px) {
+    :root {
+        --header-height: 6.5rem;
+    }
+}
+
+#search-button {
+    background-color: var(--sg-plum-3);
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid var(--sg-plum-3);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#search-button:hover,
+#search-button:active,
+#search-button:focus {
+    background-color: var(--sg-plum-4);
+}
+
+/* PAGE */
+@media (max-width: 900px) {
+    .visible-sm {
+        display: unset;
+    }
+    .visible-lg {
+        display: none;
+    }
+}
+@media (min-width: 900px) {
+    .visible-sm {
+        display: none;
+    }
+    .visible-lg {
+        display: unset;
+    }
+}
+/* Cookiebot updates */
+button#CybotCookiebotDialogBodyButtonDetails {
+    text-decoration: none;
+}
+.container-md {
+    max-width: 1140px;
+}

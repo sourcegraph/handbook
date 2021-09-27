@@ -1,0 +1,35 @@
+{
+  "name": "sourcegraph-handbook",
+  "version": "0.0.1",
+  "description": "Our company handbook repository",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"it works fine on my computer\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourcegraph/handbook.git"
+  },
+  "keywords": [
+    "sourcegraph",
+    "handbook"
+  ],
+  "author": "Sourcegraph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourcegraph/handbook/issues"
+  },
+  "homepage": "https://github.com/sourcegraph/handbook#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
+  }
+}
