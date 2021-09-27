@@ -1,3 +1,3 @@
 # Tools
 
-See "[Other tools](../index.md#other-tools)" for comparisons between other tools and Sourcegraph.
+See "[Other tools](../../marketing/messaging/index.md#how-is-sourcegraph-different)" for comparisons between other tools and Sourcegraph.
