@@ -87,7 +87,7 @@ In the meantime, we are using a [tracking document](https://docs.google.com/docu
 - [Demo day](./demo_day.md)
 - [Beta and experimental feature labels](./beta_and_experimental_feature_labels.md)
 - [Personas](../marketing/personas.md)
-- The [Sourcegraph workflow](../workflow/index.md) describes how our product fits into the developer workflow.
+- [Sourcegraph messaging](../marketing/messaging/index.md)
 - Product documents (PDs)
   - [All PDs](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx) (Google Drive)
   - [How we use PDs](product_documents.md)
