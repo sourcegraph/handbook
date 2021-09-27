@@ -4,13 +4,20 @@ Hello, I’m Jason Yavorska and I’m the Product Director for Global Code Graph
 
 ## Logistics
 
-- I love thinking about technology, processes, personalities, and efficiency, but what really drives me is what Marc Andreessen described as [the one thing that matters](https://pmarchive.com/guide_to_startups_part4.html): the journey of finding and growing product market fit
-- I like to follow the [reasonable person principle](http://www.cs.cmu.edu/~weigand/staff/)
-- I have learned that working on things [iteratively](https://about.gitlab.com/handbook/values/#iteration) tends to get the best results
+- When managing Product Managers, I see myself in a coach/mentoring role with them with them as the visible experts. What I'll spend the rest of my time on is connecting dots (so I can inform my team), making sure we collaborate efficiently, and otherwise building/hiring a great group of people. This means that I'll typically work behind the scenes and avoid taking over; if you think it's helpful for me to do that in a specific situation, it's not a problem at all but please be direct and let me know.
+- I tend to be good at unblocking, helping break down problems into iterations, and generally helping move things forward - let me know if I can ever help you.
+- I always appreciate direct feedback, so don't worry about upsetting me and feel free to share bad news early.
+- I'm more likely to be optimistic than not, with a plan that we'll figure it out what we need to when we need to, so feel free bring me back to reality.
+- I tend to debate different perspectives to solve problems, including playing "Devil's Advocate". If that puts you off that's fine - just tell me and we’ll use another approach.
+
+## Reference
+
+These are some of my favorite product principles.
+
+- I love thinking about technology, processes, personalities, and efficiency, but what really drives me is what Marc Andreessen described as [the one thing that matters](https://pmarchive.com/guide_to_startups_part4.html): the journey of finding and growing product market fit.
+- I like to follow the [reasonable person principle](http://www.cs.cmu.edu/~weigand/staff/).
+- I have learned that working on things [iteratively](https://about.gitlab.com/handbook/values/#iteration) tends to get the best results.
 - Talking to customers in a way where they tell you the truth about what they actually are willing to pay for is a subtle skill. This [video](https://www.youtube.com/watch?v=MT4Ig2uqjTc) and [book](http://momtestbook.com/) can help you learn to do that better.
-- I always appreciate direct feedback, so don't worry about upsetting me and share bad news early
-- I'm more likely to be optimistic than not, so feel free bring me back to reality
-- I like to debate to solve problems, if that puts you off that's fine - tell me and we’ll use another approach
 
 ## Management Style
 
