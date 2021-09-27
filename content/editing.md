@@ -18,6 +18,8 @@ We don't expect everyone on the team to figure this out on their own. Other team
 
 Here's the process for getting a change published to the handbook. For detailed step-by-step instructions (intended for people who are new to Git), see the sections below.
 
+![Editing the Handbook Flow](https://storage.googleapis.com/sourcegraph-assets/handbook/Editing%20the%20Handbook.jpg)
+
 1. Make sure you've been added to [Sourcegraph's Github Org](https://github.com/sourcegraph/about). If you need access, contact Tech Ops in the #it-tech-ops Slack channel.
 1. Propose the edits you want to make by creating a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) on the Git repository at [github.com/sourcegraph/about](https://github.com/sourcegraph/about).
    - Because the [handbook is public](usage.md#why-make-this-handbook-public), anyone in the world can see your proposed edits.
