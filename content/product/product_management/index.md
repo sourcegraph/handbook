@@ -83,7 +83,7 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 ## References
 
 - [Onboarding to the product team](../onboarding/index.md)
-- The [Sourcegraph workflow](../../workflow/index.md) describes how our product fits into the developer workflow.
+- [Sourcegraph messaging](../../marketing/messaging/index.md)
 - [Product learnings](product_learning.md)
 - [Working with BizOps](../../ops/bizops/index.md#how-to-work-with-us)
 - [Recommended reading](../onboarding/recommended_reading.md)
