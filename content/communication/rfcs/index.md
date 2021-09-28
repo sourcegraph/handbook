@@ -1,139 +1,187 @@
 # Requests for comments (RFCs)
 
-We value writing down plans so that we can asynchronously communicate to and solicit feedback from our [all-remote](../../company/remote/index.md) team. A good plan communicates what problem is being solved, why that problem is being prioritized now, who will make the final decision(s), and what the plan is to solve the identified problem.
+**Quickstart**
 
-This document describes how we operationalize written planning through our RFC process. RFC literally means "Request for Comments" and you can think about it as exactly that, no more, no less.
+- Create a new RFC:
+  - The default format — [View](https://docs.google.com/document/d/1VV0ddLmMrcU2IWo_s4xm8Q8UtGnreyuhIRPJY0Dh5NI/edit) or [Duplicate](https://docs.google.com/document/d/1VV0ddLmMrcU2IWo_s4xm8Q8UtGnreyuhIRPJY0Dh5NI/copy)
+  - Framing problems, proposing solutions, and making decisions — [View](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/edit) or [Duplicate](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/copy)
+  - Surfacing a tension — [View](https://docs.google.com/document/d/1__E9bzW9eV7pnzhGfs4f_bOqWefYZKzI-m0rWrZ8nF4/edit) or [Duplicate](https://docs.google.com/document/d/1__E9bzW9eV7pnzhGfs4f_bOqWefYZKzI-m0rWrZ8nF4/copy)
+  - Proposal for adding data to pings — [View](https://docs.google.com/document/d/1dbR2ir-gKmpGRgnNphk6SxOkt1DNSCX2pjbOiPtcFBw/edit) or [Duplicate](https://docs.google.com/document/d/1dbR2ir-gKmpGRgnNphk6SxOkt1DNSCX2pjbOiPtcFBw/copy)
+  - Proposing process / handbook changes — [View](https://docs.google.com/document/d/1dbR2ir-gKmpGRgnNphk6SxOkt1DNSCX2pjbOiPtcFBw/edit) or [Duplicate](https://docs.google.com/document/d/1dbR2ir-gKmpGRgnNphk6SxOkt1DNSCX2pjbOiPtcFBw/copy)
+- [View all public RFCs](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa)
+- [View all private RFCs](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv)
 
-This process is designed to be lightweight so that it can be used for many purposes (e.g. product specs, policy decisions, technical discussion), and it is optimized for facilitating collaboration and feedback. In contrast, GitHub issues are best for tracking concrete bug reports or work that has already been scoped and planned (i.e. there isn't much remaining to discuss).
+---
 
-We encourage you to understand [how decisions are made at Sourcegraph](../decisions.md) before writing an RFC.
+We use RFCs to collaborate successfully as an [all-remote](../../company/remote/index.md) team.
 
-<i>All public RFCs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa). Some RFCs contain non-public information, and are in a [private Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv). For examples of public vs. non-public information, see our [transparency chart](https://about.sourcegraph.com/handbook/company/values#open-and-transparent).</i>
+RFCs give us a way to write down ideas and plans so we can communicate, collect thoughtful feedback from others on the team, and [make decisions](../decisions.md).
 
-## Status
+An “RFC” literally means a “Request for Comments.” Though RFCs at Sourcegraph can take many forms for different purposes, an RFC is ultimately just a document with a few attributes:
 
-Each RFC has a status that is in the title of the RFC (e.g. "RFC 1 WIP: Title"). The author is responsible for keeping the status updated.
+- The author’s name(s)
+- The date it was written
+- A sequential number
+- A status label
+- Is public to the world by default
+- Is a Google Doc
 
-| Status      | Description                                                                                                                                                                                                                                                                                                                                         |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| WIP         | The author is still drafting the RFC and it is not ready for review.                                                                                                                                                                                                                                                                                |
-| REVIEW      | The RFC is ready to be reviewed. The RFC explicitly lists who the [decider](../decisions.md#decider) is, if any [approvals](../decisions.md#approvers) are required (and by whom), and a requested timeline for those approvals.                                                                                                                    |
-| APPROVED    | All comment threads are resolved, all required approvals have been received, and the decision has been made to implement the RFC. It is in the author's best interest to avoid surprises at code review time by ensuring the RFC has a sufficient level of detail and has approval from all relevant stakeholders.                                  |
-| ABANDONED   | There are no plans to move forward with this RFC. The particular reason is communicated in the metadata section of the RFC. For example, the RFC may have failed to get the necessary approvals, it may be been superseded by another RFC, priorities may have changed, or we may not have resources to work on this RFC in the foreseeable future. |
-| IMPLEMENTED | This RFC has been implemented.                                                                                                                                                                                                                                                                                                                      |
+Our goal is for RFCs to be lightweight, low-process, and effortless to create and use. An RFC can be thought of as an asynchronous conversation. Unlike Slack, email, or other channels, using RFCs helps us because:
 
-A prose description of the status appears in the [metadata](#RFC-structure) of an RFC.
+- There’s no implicit demand for an immediate response.
+- Reviewers have time to consider and propose changes.
+- More people can collaborate at once without clashing.
+- RFCs are easily searchable and referable.
+- RFCs are retained indefinitely.
 
-## RFCs are sequentially numbered
+## When to use an RFC
 
-Each RFC is assigned a unique sequential number that appears in the title (e.g. "RFC 27: Standardizing RFCs"). This makes it easier to quickly reference specific RFCs in informal conversation (e.g. Slack, GitHub issues) and easier for readers to quickly find that document in a shared location (e.g. Google Drive). The sequential numbers also provide valuable information about the order in which RFCs were created.
+### Use an RFC when…
 
-When you are referring to an RFC with a group of people who might not be familiar with the contents of the RFC (e.g., a [weekly update](../../engineering/engineering-management.md#status-updates)), be descriptive of what the RFC does (if you have done a good job choosing a title for the RFC, then this is the title) instead of merely using the RFC number.
+- You want to frame a problem and propose a solution.
+- You want thoughtful feedback from team members on our globally-distributed remote team.
+- You want to surface an idea, tension, or feedback.
+- You want to define a project or design brief to drive project collaboration.
+- You need to surface and communicate around a highly cross-functional decision with our [formal decision-making process](../decisions.md).
 
-_"We finished standardizing the RFC process ([RFC 27](https://docs.google.com/document/d/1ym5c8G5JcrFf5s0QXJqQKBcZRziVAZZsxWdcUJ7Ukfw/edit))"_ is better than saying/writing _"RFC 27 is done"_.
+### Don’t use an RFC when…
 
-## RFCs are Google Docs
+- You want to discuss personal or sensitive topics one-on-one with another team member.
+- You want to [make a decision](../decisions.md) to change something where you are the decider. In the vast majority of cases, creating an RFC to explain yourself will be overkill. RFCs should only be used if a decision explicitly requires one of the bullets in the section above.
 
-It is valuable to standardize on a single system for publishing RFCs.
+## How we craft RFCs
 
-- It gives everyone on the team and outside of the team (i.e. customers) a consistent experience when authoring, commenting or reading RFCs.
-- It is easier to ensure that everyone has access to all RFCs if they are all in a single system.
-- It makes it easy to determine the next available RFC number when creating a new RFC.
-- It makes it easy/accessible for anyone to see what RFCs have been published recently.
+### RFCs are sequentially numbered
 
-We have standardized on using Google Docs for RFCs.
+Each RFC has a unique, sequential number that appears in the title (e.g. “RFC 485 Review: Rethinking RFCs.”) This makes it easier to quickly reference specific RFCs and easier for readers to quickly find that document in Google Drive. The sequential numbers also provide valuable context about the order in which RFCs were created.
 
-- We use Google Workspace at Sourcegraph so everyone already has access to all RFCs by default.
-- Google Docs is a common tool that many people (both current and future teammates) are already familiar with.
-- It provides a commenting experience that is better than the evaluated alternatives.
+### RFCs have a status
 
-Accepted tradeoffs:
+Each RFC has a status label in the title of the RFC (e.g. “RFC 227 WIP: Title.”) The author is responsible for keeping the title updated.
+These status labels help to provide more context for readers. They’re most helpful for readers to understand the RFC’s context and shape their feedback accordingly.
 
-- Google Docs does not support markdown and does not provide an ideal experience for embedding code snippets.
-  - Many RFCs don't require code snippets because they are higher level than "how are we going to implement this in code".
-  - Even RFCs about technical implementation details don't seem to be hindered by Google Docs lack of good snippet support.
-    - RFC 16 discusses the structure of the search API without getting into the weeds of the actual API.
-    - RFC 29 also discusses the structure of the search API without explicit code snippets. It is actually a rewrite of a Notion doc that did have a lot of snippets, and the Google Doc is actually much easier to understand.
-  - You can still put code snippets in Google Docs and get your point across. Using a monospace font helps.
-  - You can link to another tool where the code snippet can be better formatted (e.g. Gist, PR).
+We have a set of status labels we’ve found helpful in the past:
 
-Rejected alternatives:
+- **WIP**: The author is still drafting the RFC and it’s not ready for review.
+- **Review**: The Review label is used when the RFC is ready for comments and feedback.
+- **Approved**: When the RFC is for the purpose of making a decision, the Approved label indicates that the decision has been made.
+- **Implemented**: When the RFC is for the purpose of making a decision, the Implemented label indicates that the RFC’s proposal has been implemented.
+- **Closed**: When the RFC is for the purpose of collaboration or discussion but not necessarily to make a decision or propose a specific outcome that will eventually become Implemented, the Closed label indicates that the RFC is no longer an active collaborative artifact.
+- **Abandoned**: When the RFC is for the purpose of making a decision, and there are no plans to move forward with the RFC’s proposal, the Abandoned label indicates that the RFC has been purposefully set aside.
 
-- [Notion](https://www.notion.so)
-  - Comments on documents are too hidden and easy to miss.
-  - We would have to manage a separate account system or pay for SSO.
-- Markdown in git
-  - We actually [tried this for over a year](https://github.com/sourcegraph/docs-private) and stopped.
-  - GitHub PRs don't provide a good commenting experience.
-    - Can only comment on lines, not words.
-    - Suggestions are cumbersome to make/read.
-    - Even with recent improvements to collapse old threads, the PR activity page becomes cumbersome after a lot of discussion has happened on a document.
-  - It is higher friction to author and/or contribute to multiple RFCs due to either (1) the necessary git workflow or (2) the clunky editing experience in GitHub's UI.
+While these labels suggest that RFCs move through series of prescribed stages, this isn’t always the case. RFCs are low-process and can be used for all kinds of purposes that may not have an explicit, actionable outcome. Ultimately, the RFC itself should make it clear what the status and planned process is.
 
-## RFC structure
+If in doubt about the current status of an RFC, check the update history and contact the author.
 
-Effective RFCs contain the following information:
+### RFCs are public to the world by default
 
-- Title that includes the RFC number.
-  - The title is inlined in the Google Doc so that it is more visible and will not disappear if exported to a different format.
-- Metadata about the state of the RFC. Including but not limited to:
-  - **[Recommender](../decisions.md#recommneders):** The single person who is directly responsible for the content in the RFC, including identifying who the decider, input providers, and approvers are. This individual also has the responsibility of being a [recommender](../decisions.md#recommenders) for the final decision.
-    - The recommender ensures that:
-      - The RFC is well written.
-      - The right people review the RFC.
-      - Comments and feedback are addressed.
-      - The RFC progresses toward a resolution.
-    - The recommender frequently authors most of the document, but that is not a strict requirement. They may delegate responsibilities to other teammates.
-  - **Status:** A description of the current state or outcome of the RFC. Illustrative examples:
-    - "Still drafting this. I expect to share this with the web team September 6."
-    - "Collecting feedback. I will update the RFC on September 8 based on the feedback collected.
-    - "Updating RFC based on collected feedback. I expect to reshare the updated doc September 9.
-    - "We aren't going to pursue this RFC for the following reasons..."
-    - "The web team is going to implement this RFC in 3.8."
-    - "This RFC has been implemented."
-  - **[Decider](../decisions.md#decider):** The single person who is directly responsible for making a final decision on whether to move the RFC to APPROVED status and begin implementation.
-  - **[Input providers](../decisions.md#inputs):** The list of people that the author wants to make aware of the proposed change and is soliciting input from. These individuals are encouraged to review the RFC and provide input or ask questions, but have no explicit responsibility.
-  - **[Approvers](../decisions.md#approvers):** The list of people that the decision requires approval from before the final decision can be made and implemented. As noted in our [making decisions handbook page](../decisions.md#approvers), this list should be as short as possible to ensure fast decisions and clear ownership. The author should provide deadlines for those reviews (e.g. "Requested approvers: Alice and Bob can you please review by 10am PST on 2020-10-21") and is responsible for ensuring that the reviewers are aware of the review request (e.g. by sending them a Slack message or tagging them in a comment on the Google Doc).
-  - **Approvals:** A list of people who approve of this RFC. Anyone can express approval for an RFC, even if they are not in the "Requested reviewers" list; however, a RFC is not APPROVED until the RFC author receives approval from the people on the "Requested reviewers" list.
-  - **Team(s):** The team(s) that would be involved in implementing the RFC. You can still request review from people not on a listed team. Writing the team allows us to search RFCs by team using Google Docs's exact match string search. {#team-references}
-    - Everyone must use the same (case-insensitive) team name so a Google Docs search can find all of and only a team's RFCs. We use the team names listed on our [org chart](../../company/team/org_chart.md).
-    - Example: "Team: Web"
-    - Multi-team example: "Team: Web, Team: Customer Engineering". It's important to write "Team: " in front of each team when there are multiple teams so that a search for an exact match (using quotes) on "Team: [Team Name]" always returns.
-  - (optional) Links to any GitHub issues that capture work being done to implement this RFC.
-  - A good way to notify reviewers is to comment on their name and then assign them in the comment. This will send them an email and allow them to resolve the comment after their review.
-- **Background:** A sufficient, but minimal, amount of context necessary to frame the rest of the RFC. The content should be indisputable facts, not opinions or arguments. The facts should support the chosen definition of the problem and the constraints in the next section.
-- **Problem:** A description of the problem that this RFC is trying to address, the constraints that this RFC trying to satisfy, and why this problem is worth solving now.
-- **Proposed solution (optional):** A description of HOW to solve the problem. It is ok to omit this section if you just want to define a problem. This can be useful if you want help thinking of solutions or want to handoff ownership of this problem to someone else.
-- **Definition of success:** How do we know if this project was successful? Are there any metrics we need to start tracking? Link to the delivery plan for customer oriented features.
+[We value openness](https://about.sourcegraph.com/handbook/company#open-company). Transparency helps us to communicate with and gather feedback from our customers and across our team, and it holds everyone accountable for being inclusive, high-quality, and (thing).
 
-The precise format is not as important as the content itself. Ultimately RFCs are a tool to communicate and gather feedback, so optimize for that.
+All RFCs are public for anyone to read and comment by default, and for all Sourcegraph teammates to edit. These RFCs are located in our [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa).
 
-_For convenience, there is a [Google Docs Template](https://docs.google.com/document/d/1vUp1A-j5xxnPn_rv3x3rWo8tbXJhIA5NggHLU6UofUc/edit) that can be used when creating new RFCs._
+Sometimes, there’s information in RFCs that can’t be made public. These are located in our [private Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv).
 
-## RFCs are public
+- RFCs should never reference customer names directly, even if they are listed on our website. Instead, you can use our [process for linking to customer names in public places](../../ops/bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places). You can also use an arbitrary code name (e.g. “ACME,” “Customer X”) for each customer you need to reference in the RFC. Code names don’t need to be consistent across documents. The first usage of each code name should be linked to the actual customer.
+- If there is strategic or confidential information that shouldn’t be made public, you can put that information into a private document and link to it from the public RFC.
+- If most of the content of the RFC can’t be made public, then it is okay to make the RFC accessible only to the Sourcegraph team. To do this, add “PRIVATE” after the status in the title, move it to the [private RFCs Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv), and explain why it’s private within the RFC itself.
 
-[We value openness](https://about.sourcegraph.com/handbook/company#open-company). Transparency helps us communicate with and gather feedback from our customers, and it holds everyone accountable to a higher quality bar.
+For examples of public vs. non-public information, see our [transparency chart](https://about.sourcegraph.com/handbook/company/values#open-and-transparent).
 
-The default sharing state of documents in our [Google Drive's RFCs](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) folder will allow everyone to publicly read/comment, and all Sourcegraph teammates to edit.
+#### What should you do if non-public information is accidentally added or found in an RFC?
 
-<img src="link-sharing.png" width="300" alt="Google link sharing settings">
+Only Sourcegraph teammates are able to view the revision history of RFCs (as edit access is required to view revision history). This means if non-public information is found in a public RFC, all you need to do is remove that information. Similarly, comments that accidentally contain non-public information can be deleted.
 
-Sometimes there is information relevant to an RFC, but that information can't be made public.
+### RFCs are Google Docs
 
-- RFCs should never reference customer names directly, even if they are listed on our homepage. Instead, you can use our [process for linking to customer names in public places](../../ops/bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places). Optionally, use an arbitrary code name (e.g. "ACME", "Customer X") for each customer that you need to reference in the document. Code names do not need to be consistent across documents. The first usage of each code name should be linked to the actual customer.
-- If there is strategic information that shouldn't be public, you can post it in Slack and link to it from the public RFC.
-- If most of the content is non-public, then it is OK to make the RFC only accessible to the Sourcegraph team. Add "PRIVATE" after the [status](#status) in the title, move it to the [private RFCs folder in GDrive](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv), and explain why it's private in the doc.
+We use Google Docs for writing and collaborating on RFCs. Using a single system helps us because:
 
-Only Sourcegraph teammates are able to see the revision history of RFCs (because edit access is required for that). This means if sensitive information is found in the document all you need to do is remove that information. Comments that accidentally contain sensitive info can be deleted.
+- It gives our team and outside readers a consistent experience when writing, reading, and collaborating on RFCs.
+- It makes it easy for us to make sure everyone has access to all of our RFCs in a single location.
+- It’s intuitive and inclusive of all of our team members, regardless of prior technical experience.
+- It’s easy to determine the next sequential number when creating a new RFC.
+
+We know Google Docs don’t have all the features or capabilities we would like, such as markdown support and code snippets. We’ve considered and tried using other tools in the past, including Notion and markdown in git. However, in our experience, Google Docs provide the best overall experience within its constraints.
+
+Often, the ideas and proposals within RFCs progress into other collaborative artifacts: a usability improvement might be explored in a Figma file, a new feature might be captured in a series of GitHub issues, or a single RFC’s proposal might be carried out through a series of subsequent RFCs. It’s a best practice to update RFCs to include links and references to related artifacts.
+
+## RFC formats we’ve found helpful in the past
+
+The default RFC template is minimal and contains just the attributes you need to get started on a new RFC. However, we’ve found a few different structured formats and workflows to be helpful in achieving specific outcomes with RFCs.
+
+Instead of providing these formats in the default template, we document the RFC formats and workflows we’ve found helpful in the handbook. This way, we keep RFCs lightweight and flexible, but can also keep iterating and improving on formats that work well for specific needs.
+
+If you find that a new format works well for achieving a distinct goal and could be of use in the future, please add it to our list of formats.
+
+### The default format
+
+The default format has just the required attributes and can be used as the starting point for any RFC.
+
+[View the template](https://docs.google.com/document/d/1VV0ddLmMrcU2IWo_s4xm8Q8UtGnreyuhIRPJY0Dh5NI/edit) • [Duplicate](https://docs.google.com/document/d/1VV0ddLmMrcU2IWo_s4xm8Q8UtGnreyuhIRPJY0Dh5NI/copy)
+
+### Goal: Framing problems, proposing solutions, and making decisions
+
+This format is helpful for framing a problem, proposing solutions (or collecting feedback so as to propose a solution), and for ultimately [making decisions](../decisions.md).
+
+This is our typical format for defining what we feel is important to work on, and acts as a constant touchpoint throughout our work from conceptualization to implementation and measuring success.
+
+In this format, we find it helpful to include:
+
+- **Tags** for the people involved and their roles in the decision-making framework (including the [decider](../decisions.md#decider), input providers, approvers, and [approvals](../decisions.md#approvers)).
+- **Tags** for any teams that will be affected either directly or indirectly, and should have the opportunity to review and contribute to the RFC.
+- **Background**: Just enough context necessary to frame the rest of the RFC. The content should be indisputable facts, not opinion.
+- **Problem**: A description of the problem that this RFC is trying to address, the constraints, and why this problem is worth solving now.
+- **Proposed solution** (optional): A description of how to solve the problem. It’s okay to skip this section if you just want to define a problem. Otherwise, it can be helpful for thinking of solutions or to hand off ownership to someone else.
+- **Definition of success**: How do we know if this proposal was successful? Are there any metrics we need to start tracking?
+
+[View the template](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/edit) • [Duplicate](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/copy)
+
+### Goal: Surfacing a tension
+
+This format is helpful for surfacing a tension. A tension is somewhere between a problem, a feeling (of unease), and a person’s (unmet) needs. When tensions come up, they describe a sense there’s a gap between the current reality and an ideal potential future.
+
+Tensions are good, because they highlight where things might not be working so well, whether it’s an inefficiency or a blocker. They give us a way to identify them, and then we can then address them and make improvements. Tensions aren’t “problems,” but rather opportunities to grow.
+
+Many organizations wait until tensions are “big.” But if we identify tensions early, while they’re still small, they’re not only easier to address, they help us stay healthy and grow well.
+
+In this format, we find it helpful to include:
+
+- **My tension**: Make it personal—share your personal tension and how it affects you in your day-to-day work.
+- **My proposal**: Make it actionable—small as a first step, as specific as how you will do it and who helps you. Make it good enough for now, and safe enough to try.
+- **What happens if we do nothing**: How might this become “big” if we do nothing, and what consequences will that have?
+
+[View the template](https://docs.google.com/document/d/1__E9bzW9eV7pnzhGfs4f_bOqWefYZKzI-m0rWrZ8nF4/edit) • [Duplicate](https://docs.google.com/document/d/1__E9bzW9eV7pnzhGfs4f_bOqWefYZKzI-m0rWrZ8nF4/copy)
+
+### Goal: Proposal for adding data to pings
+
+This format is standard for adding new data to pings.
+
+In this format, we include:
+
+- **Background**: Just enough context necessary to frame the rest of the RFC. The content should be indisputable facts, not opinion.
+- **Problem**: A description of the problem that this RFC is trying to address, the constraints, and why this problem is worth solving now.
+- **Proposal**: What data should be added, including:
+  - The exact data fields you’re requesting to add
+  - The exact questions you’re trying to answer with this new data, and why existing data can’t answer those questions
+  - What the JSON payload looks like once those data fields are added
+
+[View the template](https://docs.google.com/document/d/1dbR2ir-gKmpGRgnNphk6SxOkt1DNSCX2pjbOiPtcFBw/edit) • [Duplicate](https://docs.google.com/document/d/1dbR2ir-gKmpGRgnNphk6SxOkt1DNSCX2pjbOiPtcFBw/copy)
+
+### Goal: Proposing process / handbook changes
+
+This format is helpful for discussing things that will ultimately result in a change to the handbook. While this format includes framing a problem and proposing a solution, its format helps us to make next steps very clear by anchoring it to a concrete proposal with a very clear next step after approval.
+
+In this format, we find it helpful to include:
+
+- **Tags** for the people involved and their roles in the decision-making framework (including the decider, input providers, approvers, and approvals).
+- **Tags** for any teams that will be affected either directly or indirectly, and should have the opportunity to review and contribute to the RFC.
+- **Background**: Just enough context necessary to frame the rest of the RFC. The content should be indisputable facts, not opinion.
+- **Problem**: A description of the problem that this RFC is trying to address, the constraints, and why this problem is worth solving now.
+- **Proposal, including a linked pull request**: A proposal for the change, including a link to a pull request on GitHub with the proposed changes reflected in the handbook. This helps anchor the discussion to a concrete proposal. For larger changes, the proposal should include and reflect the status of any rollout steps, such as presenting the changes to the company.
+
+This format helps us to keep the handbook our source of truth and makes the next step after approval very clear: just merge the PR.
+
+[View the template](https://docs.google.com/document/d/1zInJ9mn_SePKjS8dLHS1EDt2_gUEkCKD544bDDSuJek/edit) • [Duplicate](https://docs.google.com/document/d/1zInJ9mn_SePKjS8dLHS1EDt2_gUEkCKD544bDDSuJek/copy)
 
 ## External contributors
 
-If you are not a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or by tweeting [@sourcegraph](https://twitter.com/sourcegraph)) to create a document in the [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) and give you edit access. Then you own the document from there.
-
-## References
-
-- [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/)
-- [Shape Up](https://basecamp.com/shapeup/0.1-foreword)
-- [RFC 27: Standardizing RFCs](https://docs.google.com/document/d/1ym5c8G5JcrFf5s0QXJqQKBcZRziVAZZsxWdcUJ7Ukfw/edit?ts=5d77618b#)
-- [Go proposal template](https://github.com/golang/proposal/blob/master/design/TEMPLATE.md)
-- [Rust RFC template](https://github.com/rust-lang/rfcs/blob/master/0000-template.md)
+We invite external contributors to create and share RFCs with us. If you aren’t a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or tweeting [@sourcegraph](https://twitter.com/sourcegraph)) to create a new RFC in the [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) and give you edit access.

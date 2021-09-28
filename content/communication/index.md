@@ -27,7 +27,7 @@ These places are the source of truth for information at Sourcegraph. Information
 The following places are not sources of truth. Treat documents and conversations in these places as "scratchpads" or documents that were true at creation time but aren't expected to be up-to-date. Any changes resulting from these places need to be reflected in a [source of truth](#sources-of-truth):
 
 - [Slack](team_chat.md)
-- [RFCs](rfcs/index.md)
+- [Requests for comments (RFCs)](rfcs/index.md)
 - Email
 - Zoom recordings
 - Meeting notes
