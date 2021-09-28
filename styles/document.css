@@ -1,6 +1,6 @@
 /* PAGE */
 @media (min-width: 900px) {
-    #page > .container {
+    #page .container {
         display: flex;
         flex-direction: row-reverse;
         margin-top: 1rem;

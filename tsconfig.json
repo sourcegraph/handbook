@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+
+    // Starting with a lenient config as we're converting from JS->TS
+    "allowJs": true,
+    "noImplicitAny": false,
+
+    "jsx": "preserve",
+    "outDir": "out",
+    "noEmit": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "strict": false,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules"],
+}
