@@ -30,6 +30,8 @@ Revenue is important to us as a company because, without revenue, we don't have 
 - Who is the likely buyer of this feature, and how well does it correlate with our ideal customer profile?
 - How does this feature fit into our pricing model? Are parts of it free and paid and, if so, what is the upgrade path?
 - Are there other things we should consider doing that would have a bigger impact on the business instead?
+- How will the feature convert visitors to users, and what is those user's path to generating revenue?
+- How will you track this funnel?
 
 All of this is not to say that we don't prioritize features that drive monthly active users, or that we are myopically focused on driving revenue up. It's just that we are stewards of the business, and we want to build a long-term sustainable business and this requires making investments, experiments, and bets that we think will drive future revenue. Not all bets and experiments will be successful, and that is ok! What is important is that:
 
