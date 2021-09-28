@@ -7,6 +7,7 @@ import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
 import rehypeExtractToc, { Toc } from '@stefanprobst/rehype-extract-toc'
 import rehypeRaw from 'rehype-raw'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 import { select } from 'hast-util-select'
 import { toString } from 'hast-util-to-string'
@@ -26,6 +27,7 @@ export default async function markdownToHtml(markdown: string): Promise<{ conten
         .use(rehypeExtractTitleFromH1)
         // Add ToC metadata to result
         .use(rehypeExtractToc)
+        .use(rehypeAutolinkHeadings, { properties: { class: 'anchor', ariaHidden: true, tabIndex: -1 } })
         .use(rehypeStringify)
         .process(markdown)
 
