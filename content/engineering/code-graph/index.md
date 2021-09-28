@@ -15,7 +15,7 @@ Each team within our org implements a different _verb_ on the code graph:
 
 ## Useful links
 
-- [Product Strategy](../../direction/code-graph/index.md)
+- [Product Strategy – Mission/Vision/Focus Areas](../../direction/code-graph/index.md)
 
 ## Contact
 
