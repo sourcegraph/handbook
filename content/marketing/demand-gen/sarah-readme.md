@@ -8,7 +8,7 @@ When I think of demand gen, our job is to amplify a compelling brand and high-va
 
 ### Preferred learning styles
 
-I prefer to take in information verbally (through written or spoken word), process information for myself visually (love a whiteboard or blank sheet of printer paper), and master information physically (by doing or teaching).
+I learn best through repetitive observation. Fun fact: I tie my shoes upside down. I learned to mimic the movements of the folks who tied my shoes for me as a little kid. But, given my vantage point, I learned to repeat them but... backwards. As a learn by observing and doing now, I'm quick to ask clarifying questions and practice reflective listening so I make sure I'm interpreting what I'm seeing and hearing accurately.
 
 ### Communication style
 
