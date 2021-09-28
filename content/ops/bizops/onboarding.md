@@ -15,10 +15,8 @@ You'll have to get some basics set up in your first few days:
 - [Sourcegraph values](../../company/values.md)
 - [Sourcegraph strategy](../../company/strategy.md)
 - [Sourcegraph direction (1 year plan)](../../direction/index.md)
-- [Sourcegraph FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb)
+- [Sourcegraph OKRs](../../company/goals/index.md)
 - [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/63)
-- [CustomerOps project tracker](https://docs.google.com/spreadsheets/d/16YKiI5-jn5xH8t1n7z3pC-4AQfJnOsZLlgJfWj2RlY4/edit#gid=0)
-- [BizOps @ Sourcegraph deck](https://docs.google.com/presentation/d/1B8TIkOsFXUofLKcwu3ZKUuFgSe7si_HNFXj8Qne4_ug/edit#slide=id.gb969c13690_0_15)
 
 ### Understand Sourcegraph communication and documentation standards
 
@@ -38,6 +36,7 @@ Your manager will help you schedule the following training sessions:
   - Batch Changes
   - Code insights
 - Review the [sales onboarding quiz](../../sales/onboarding/quiz.md)
+- Check out the [Dev Pain Sessions](https://drive.google.com/drive/u/0/folders/167Umyjs25fHPonju2ctWhtrkADDQ1WSJ) in the Know Thy Dev sales enablement program for a deep dive into how Sourcegraph solves common developer pains. These videos are long so I recommend skipping to the parts the CEs are demoing and listening at at >1x speed
 - Product analytics overview
   - Event logger and pings overview
   - On-prem deployment to Google BigQuery to Looker data flow
