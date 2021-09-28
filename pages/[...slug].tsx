@@ -73,17 +73,17 @@ function TableOfContents({ toc }: { toc: Toc }) {
     )
 }
 
+function getFullSlugPath(slug: string | string[]) {
+    if (typeof slug === 'string') {
+        return slug
+    }
+    return slug.join('/')
+}
+
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     // make this work w folders
-    const post = await getPagesBySlug(params.slug[0], [
-        'title',
-        'date',
-        'slug',
-        'author',
-        'content',
-        'ogImage',
-        'coverImage',
-    ])
+    const fullPath = getFullSlugPath(params.slug)
+    const post = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
 
     const { content, toc } = await markdownToHtml(post.content || '')
 
@@ -101,10 +101,13 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 export const getStaticPaths: GetStaticPaths = async () => {
     const posts = await loadAllPages(['slug'])
 
+    console.log({ posts: posts.map(p => p.slug) })
+
     const paths = {
         paths: posts.map(post => ({
             params: {
-                slug: [post.slug],
+                // The slug is an array of directories in the path.
+                slug: post.slug.split('/'),
             },
         })),
         fallback: false,
