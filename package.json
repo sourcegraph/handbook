@@ -28,7 +28,10 @@
   "homepage": "https://github.com/sourcegraph/handbook#readme",
   "dependencies": {
     "@stefanprobst/rehype-extract-toc": "^2.0.1",
+    "chrono-node": "^2.3.2",
     "gray-matter": "^4.0.3",
+    "hast-util-find-and-replace": "^4.0.0",
+    "hastscript": "^7.0.2",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -39,6 +42,7 @@
     "remark-html": "^13.0.1",
     "remark-parse": "^10.0.0",
     "remark-rehype": "^9.1.0",
+    "tippy.js": "^6.3.1",
     "unified": "^10.1.0"
   },
   "devDependencies": {

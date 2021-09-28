@@ -440,6 +440,11 @@
   dependencies:
     esquery "^1.0.1"
 
+"@popperjs/core@^2.8.3":
+  version "2.10.1"
+  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.10.1.tgz#728ecd95ab207aab8a9a4e421f0422db329232be"
+  integrity sha512-HnUhk1Sy9IuKrxEMdIRCxpIqPw6BFsbYSEUO9p/hNw5sMld/+3OLMWQP80F8/db9qsv3qUjs7ZR5bS/R+iinXw==
+
 "@sourcegraph/eslint-config@^0.25.1":
   version "0.25.1"
   resolved "https://registry.npmjs.org/@sourcegraph/eslint-config/-/eslint-config-0.25.1.tgz#e6cf1f79cf64d9e3e231aa8160160514b30da98b"
@@ -1143,6 +1148,13 @@ chokidar@3.5.1:
   optionalDependencies:
     fsevents "~2.3.1"
 
+chrono-node@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.npmjs.org/chrono-node/-/chrono-node-2.3.2.tgz#794f2ada1f75fe3da216501031812c0f3dd23c71"
+  integrity sha512-uZkVtF8dJ7llRzk3zrjGjV524I6NvojqMYk30tIfnUQ8ODrL8wvi/E2iEOTfcyiJaLf0dGDu9XVqNkVFNDMPCA==
+  dependencies:
+    dayjs "^1.10.0"
+
 ci-info@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
@@ -1368,6 +1380,11 @@ data-uri-to-buffer@3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz#594b8973938c5bc2c33046535785341abc4f3636"
   integrity sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==
+
+dayjs@^1.10.0:
+  version "1.10.7"
+  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
+  integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
 
 debug@2, debug@^2.6.9:
   version "2.6.9"
@@ -1628,6 +1645,11 @@ escape-string-regexp@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
+
+escape-string-regexp@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
+  integrity sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==
 
 eslint-ast-utils@^1.1.0:
   version "1.1.0"
@@ -2276,6 +2298,15 @@ hast-to-hyperscript@^10.0.0:
     unist-util-is "^5.0.0"
     web-namespaces "^2.0.0"
 
+hast-util-find-and-replace@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/hast-util-find-and-replace/-/hast-util-find-and-replace-4.0.0.tgz#356a9b1b650ce58f972a56bb0f88ab2729c9858e"
+  integrity sha512-2RLkp/t+pfBsW4hKCSdZfGt8GX6/y0WpVt5yy9wHWG7SJnhOR1HWSRMHwflJ1ZvfwQunE4h9XK2JDWKFJUfUZQ==
+  dependencies:
+    escape-string-regexp "^5.0.0"
+    hast-util-is-element "^2.0.0"
+    unist-util-visit-parents "^4.0.0"
+
 hast-util-from-parse5@^7.0.0:
   version "7.1.0"
   resolved "https://registry.npmjs.org/hast-util-from-parse5/-/hast-util-from-parse5-7.1.0.tgz#c129dd3a24dd8a867ab8a029ca47e27aa54864b7"
@@ -2407,7 +2438,7 @@ hast-util-whitespace@^2.0.0:
   resolved "https://registry.npmjs.org/hast-util-whitespace/-/hast-util-whitespace-2.0.0.tgz#4fc1086467cc1ef5ba20673cb6b03cec3a970f1c"
   integrity sha512-Pkw+xBHuV6xFeJprJe2BBEoDV+AvQySaz3pPDRUs5PNZEMQjpXJJueqrpcHIXxnWTcAGi/UOCgVShlkY6kLoqg==
 
-hastscript@^7.0.0:
+hastscript@^7.0.0, hastscript@^7.0.2:
   version "7.0.2"
   resolved "https://registry.npmjs.org/hastscript/-/hastscript-7.0.2.tgz#d811fc040817d91923448a28156463b2e40d590a"
   integrity sha512-uA8ooUY4ipaBvKcMuPehTAB/YfFLSSzCwFSwT6ltJbocFUKH/GDHLN+tflq7lSRf9H86uOuxOFkh1KgIy3Gg2g==
@@ -4581,6 +4612,13 @@ timers-browserify@2.0.12, timers-browserify@^2.0.4:
   integrity sha512-9phl76Cqm6FhSX9Xe1ZUAMLtm1BLkKj2Qd5ApyWkXzsMRaA7dgr81kf4wJmQf/hAvg8EEyJxDo3du/0KlhPiKQ==
   dependencies:
     setimmediate "^1.0.4"
+
+tippy.js@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.1.tgz#3788a007be7015eee0fd589a66b98fb3f8f10181"
+  integrity sha512-JnFncCq+rF1dTURupoJ4yPie5Cof978inW6/4S6kmWV7LL9YOSEVMifED3KdrVPEG+Z/TFH2CDNJcQEfaeuQww==
+  dependencies:
+    "@popperjs/core" "^2.8.3"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
