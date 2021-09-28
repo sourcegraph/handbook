@@ -13,7 +13,6 @@ const pagesDirectory = join(process.cwd(), '_pages')
 
 export async function getPagesSlug() {
     return (await getAllPages2()).map(page => page.pagePath)
-}
 
 async function loadFileBySlug(slug: string): Promise<{ contents: string; path: string }> {
     const fullPathForIndexPage = join(pagesDirectory, slug, 'index.md')
@@ -50,8 +49,6 @@ export async function getPagesBySlug(slug, fields = []): Promise<Page> {
 
 export async function getAllPages(fields = []) {
     const slugs = await getPagesSlug()
-
-    console.log({ slugs })
 
     const pages = slugs.map(slug => getPagesBySlug(slug, fields))
     // sort pages by date in descending order
