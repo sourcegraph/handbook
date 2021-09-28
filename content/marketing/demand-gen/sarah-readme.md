@@ -14,6 +14,10 @@ I prefer to take in information verbally (through written or spoken word), proce
 
 I default to open, direct conversation. It's guaranteed I have a point of view in most situations and I will often share freely. I am conscious of creating space for others to weigh in first as I can easily be the person who is quick to volunteer an answer or opinion. I can be a bit of a Hermione Granger, if you know what I mean.
 
+### How I manage my calendar
+
+A nonlinear workday works best for me. I keep my calendar open for meetings between 11a and 5:30P EST Monday, Tuesday and Thursday and I block my calendar from recurring/pre-scheduled meetings on Wednesdays and Fridays. Beyond dedicated meeting time, I allow my work to flow based on my energy levels, what I feel inspired to do, and (of course) deadlines. If you see me online early or late, please don't interpret that to mean you should be online or repsonsive as well.
+
 ### Preferred way to collaborate
 
 A well-written RFC is a delight to read, review, and comment in.
