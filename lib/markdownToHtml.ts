@@ -18,8 +18,5 @@ export default async function markdownToHtml(markdown: string): Promise<{ conten
         .use(rehypeStringify)
         .process(markdown)
 
-    // const tocProcessor = remark().use(extractToc, { keys: ['data'] })
-    // const tocNode = tocProcessor.parse(markdown)
-    // const tocTree = tocProcessor.runSync(tocNode)
     return { content: result.toString(), toc: result.data.toc as Toc }
 }
