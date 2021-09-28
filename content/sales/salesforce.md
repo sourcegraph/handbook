@@ -171,6 +171,20 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 
 ## Opportunity Object
 
+### New Business Meetings
+
+An important metric for tracking Sales performance is "New Business Meetings" or NBMs. The target for NBMs is 7 a month for a ramped AE.
+
+New Business Meetings are considered to be the initial meeting for a new business opportunity -- these can be net new customers or expansions on existing customers, but there can only be 1 NBM for a given sales opportunity. That means that every opportunity at Stage 1 or beyond counts as a New Business Meeting for tracking purposes in Salesforce.
+
+This also means that if a meeting is held, but no Opportunity is created, it doesn't count as a new NBM. For reporting and tracking purposes, the date of the NBM is not the date the actual meeting took place, but the date when an opportunty reached (or was created in) stage 1 or beyond.
+
+### Qualified Pipeline
+
+Any opportunity in Salesforce that reaches stage 2 or beyond is considered to be a Qualified Opportunity. Our pipeline metrics and reporting only consider Qualified Opportunities -- opportunities in Stage 0 or 1 do not count in our pipeline metrics.
+
+The date an opportunity becomes qualified is the date it moves into Stage 2 or beyond -- this date, and not the create date of the opportunity, is the date that is used for cycle time and other pipeline analysis.
+
 ### Associating contacts to opportunities
 
 All of the contacts important to an opportunity should be linked. This should include the technical decision-maker, the economic decision-maker (if they are different) and the original member who introduced Sourcegraph to the organization.
