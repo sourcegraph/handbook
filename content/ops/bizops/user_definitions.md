@@ -50,9 +50,21 @@ Additional Resources:
 
 Our metrics infrastructure (Looker) gets user counts from our event_logs table (either directly or indirectly).
 
-#### On-Prem Instances
+### On-Prem Instances
+
+#### Active users
 
 In each ping, instances will send a site_activity.DAUs, site_activity.WAUs, and site_activity.MAUs field which represent daily, weekly, and monthly user counts on an instance. These numbers are taken from the `event_logs` table of the instance, and count the number of distinct user IDs that executed any action on the instance in a given time period. These are sent back to us in the form of pings, which is what shows up in Looker. See the [`activeUsers` function](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%407eeeb9b+func+activeUsers&patternType=literal) for the implementation and SQL query.
+
+#### Total user accounts
+
+Instances also send back `total_user_accounts`, which is the number of user accounts. This number excludes users that have been either soft or hard deleted. It uses [UserStore](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@8c8d7ffd6261c5b884eea6804147cb3425a4601c/-/blob/internal/database/users.go?L777:72), which retrieves all non-deleted users.
+
+#### Discrepencies between MAUs and total user accounts
+
+Some [accounts' reports](https://sourcegraph.looker.com/dashboards-next/167?Unique+Server+ID=Sourcegraph&Salesforce+Unique+ID=) will show a MAU number higher than their number of user accounts. This is typically an indication that their users are tightly managed (deleted and created frequently) through automation by the instance admin, and can be confirmed by looking at the instance overview this account will have a high number of deleted users in the `Number of users added, deleted, retained and churned users` chart.
+
+The reason this happens is when a user is deleted and later added back within the same month, they are counted as two MAUs. MAU reporting relies on user_id and is not unique to users' email addresses.
 
 #### In-app site admin [usage stats page](https://sourcegraph.com/site-admin/usage-statistics)
 
