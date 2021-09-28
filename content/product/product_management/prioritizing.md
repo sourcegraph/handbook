@@ -20,6 +20,22 @@ We receive tons of feature requests and bug reports, more than we can handle. Th
 
 Sometimes there is a general product area that the CEO/CTO/Product Manager/CE/Sales seem interested in, and a developer is passionate/inspired/excited about it and wants to work on prototyping in that area. The developer has total freedom for a couple months to work on it part-time as long as they make progress in prototyping with the Sales and CE teams and are showing progress to customers regularly. The sole test will be, if we ask the Sales/CE teams "is $DEVELOPER's prototype/project drawing interest in customer calls and is $DEVELOPER iterating on it well in response to feedback?"
 
+## Revenue considerations
+
+Revenue is important to us as a company because, without revenue, we don't have a stable business. Whenever you consider introducing a new feature, you should think through how this feature will help us grow. For example:
+
+- What is the story that ties my work to future revenue?
+  - What is the revenue opportunity? (more is better)
+  - How long will it take to realize that revenue? (sooner is better)
+- Who is the likely buyer of this feature, and how well does it correlate with our ideal customer profile?
+- How does this feature fit into our pricing model? Are parts of it free and paid and, if so, what is the upgrade path?
+- Are there other things we should consider doing that would have a bigger impact on the business instead?
+
+All of this is not to say that we don't prioritize features that drive monthly active users, or that we are myopically focused on driving revenue up. It's just that we are stewards of the business, and we want to build a long-term sustainable business and this requires making investments, experiments, and bets that we think will drive future revenue. Not all bets and experiments will be successful, and that is ok! What is important is that:
+
+1. We continue making bets like these
+1. These bets are prioritized and staffed proportionally to the opportunity (they shouldn't disproportionally take resources away from other things that are more likely/guaranteed to yield revenue on shorter time horizons).
+
 ## Prioritizing bug fixes and small tasks
 
 Bugs and issues from customers come up regularly and need to be prioritized. Many of these tasks are quick (< 1 day) and should be prioritized within the iteration. Larger tasks should be added to the project roadmap. Customer issues should include context about how important that customer is, and how important this particular issue is to the customer so that teams can effectively prioritize. The goal is not to have the engineering teams jump at every customer request, but to thoughtfully triage them when compared to the rest of the work they have slated. If there is any ambiguity in importance, the PM can be consulted to help make prioritization decisions.
