@@ -11,6 +11,7 @@ import { getPagesBySlug, getAllPages } from '../lib/api'
 import Head from 'next/head'
 import markdownToHtml from '../lib/markdownToHtml'
 import { Toc } from '@stefanprobst/rehype-extract-toc'
+import { GetStaticPaths, GetStaticProps } from 'next'
 
 export default function Post({ post, morePosts, preview }) {
     const router = useRouter()
@@ -72,7 +73,7 @@ function TableOfContents({ toc }: { toc: Toc }) {
     )
 }
 
-export async function getStaticProps({ params }) {
+export const getStaticProps: GetStaticProps = async ({ params }) => {
     // make this work w folders
     const post = getPagesBySlug(params.slug[0], ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
 
@@ -89,17 +90,15 @@ export async function getStaticProps({ params }) {
     }
 }
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
     const posts = getAllPages(['slug'])
 
     const paths = {
-        paths: posts.map(post => {
-            return {
-                params: {
-                    slug: [post.slug],
-                },
-            }
-        }),
+        paths: posts.map(post => ({
+            params: {
+                slug: [post.slug],
+            },
+        })),
         fallback: false,
     }
 
