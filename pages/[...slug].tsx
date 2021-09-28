@@ -6,7 +6,7 @@ import ErrorPage from 'next/error'
 // import Header from '../../components/header'
 // import PostHeader from '../../components/post-header'
 // import Layout from '../../components/layout'
-import { getPagesBySlug, loadAllPages } from '../lib/api'
+import { getPagesBySlug, loadAllPages, LoadedPage } from '../lib/api'
 // import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import markdownToHtml from '../lib/markdownToHtml'
@@ -14,8 +14,18 @@ import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
-export default function Post({ post, morePosts, preview }) {
+interface PageWithMetadata extends LoadedPage {
+    title: string
+    toc: Toc
+
+    /** Rendered HTML. */
+    content: string
+}
+
+export default function Post({ post }: { post: PageWithMetadata }) {
     const router = useRouter()
+    console.log(post)
+    const slugParts = post.slug.split('/')
     if (!router.isFallback && !post?.slug) {
         return <ErrorPage statusCode={404} />
     }
@@ -29,36 +39,33 @@ export default function Post({ post, morePosts, preview }) {
                     <h4>On this page:</h4>
                     <TableOfContents toc={post.toc} />
                 </nav>
-                <section id="content">
+                <div id="content">
                     {post.content ? (
                         <>
-                            <nav id="breadcrumbs" className="breadcrumbs">
-                                {/* {{range $index, $e := .Breadcrumbs}}
-                  <a href="{{$e.URL}}" class="{{if $e.IsActive}}active{{end}}">
-                    {{if eq $index 0}}
-                      Home
-                    {{else}}
-                      {{$e.Label}}
-                    {{end}}
-                  </a> {{if not $e.IsActive}}/{{end}}
-                {{end}} */}
+                            <nav id="breadcrumbs" className="breadcrumbs" aria-label="Breadcrumbs">
+                                {slugParts.map((part, index) => {
+                                    const href = '/' + slugParts.slice(0, index + 1).join('/')
+                                    const isActive = index === slugParts.length - 1
+                                    return (
+                                        <React.Fragment key={href}>
+                                            <a
+                                                href={href}
+                                                className={isActive ? 'active' : undefined}
+                                                aria-current={isActive ? 'page' : undefined}
+                                            >
+                                                {part}
+                                            </a>{' '}
+                                            {!isActive && '/ '}
+                                        </React.Fragment>
+                                    )
+                                })}
                             </nav>
-                            <div className="markdown-body" dangerouslySetInnerHTML={{ __html: post.content }}></div>
+                            <main className="markdown-body" dangerouslySetInnerHTML={{ __html: post.content }}></main>
                         </>
                     ) : (
-                        <>
-                            {/* {{if .ContentVersionNotFoundError}}
-                <h1>Version not found</h1>
-                <p>The version <code>{{.ContentVersion}}</code> was not found.</p>
-              {{else if .ContentPageNotFoundError}}
-                <h1>Page not found</h1>
-                <p>The page <code>{{.ContentPagePath}}</code> was not found.</p>
-              {{else}}<h1>Unexpected error</h1>
-              {{end}} */}
-                            <h1>Unexpected error</h1>
-                        </>
+                        <h1>Unexpected error</h1>
                     )}
-                </section>
+                </div>
             </div>
         </>
     )
