@@ -1,3 +1,4 @@
+import React from 'react'
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 // import Container from '../../components/container'
@@ -60,12 +61,12 @@ function TableOfContents({ toc }: { toc: Toc }) {
     return (
         <ul>
             {toc.map(node => (
-                <>
+                <React.Fragment key={node.id}>
                     <li>
                         <a href={'#' + node.id}>{node.value}</a>
                     </li>
                     {node.children && <TableOfContents toc={node.children} />}
-                </>
+                </React.Fragment>
             ))}
         </ul>
     )
