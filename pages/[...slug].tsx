@@ -46,6 +46,7 @@ export default function Page({ page }: PageProps) {
                     {page.content ? (
                         <>
                             <nav id="breadcrumbs" className="breadcrumbs" aria-label="Breadcrumbs">
+                                <a href="/">Home</a> /{' '}
                                 {slugParts.map((part, index) => {
                                     const href = '/' + slugParts.slice(0, index + 1).join('/')
                                     const isActive = index === slugParts.length - 1
