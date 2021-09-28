@@ -6,7 +6,7 @@ import ErrorPage from 'next/error'
 // import Header from '../../components/header'
 // import PostHeader from '../../components/post-header'
 // import Layout from '../../components/layout'
-import { getPagesBySlug, getAllPages } from '../lib/api'
+import { getPagesBySlug, loadAllPages } from '../lib/api'
 // import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import markdownToHtml from '../lib/markdownToHtml'
@@ -97,7 +97,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         },
     }
 }
-
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const posts = await getAllPages(['slug'])

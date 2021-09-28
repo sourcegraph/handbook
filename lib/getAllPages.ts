@@ -8,8 +8,10 @@ function markdownFilePathToPagePath(markdownFilePath: string): string {
     return markdownFilePath.replace(/\.md$/, '')
 }
 
-export default async function getAllPages(): Promise<{ markdownFilePath: string; pagePath: string }[]> {
-    const files = await globby('**/*.md', { cwd: '_pages' })
+export default async function getAllPages(
+    baseDirectory: string
+): Promise<{ markdownFilePath: string; pagePath: string }[]> {
+    const files = await globby('**/*.md', { cwd: baseDirectory })
     return files.map(file => ({
         markdownFilePath: file,
         pagePath: markdownFilePathToPagePath(file),

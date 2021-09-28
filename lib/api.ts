@@ -1,7 +1,7 @@
 import fs from 'fs/promises'
 import { join } from 'path'
 import matter from 'gray-matter'
-import getAllPages2 from './getAllPages'
+import getAllPages from './getAllPages'
 
 interface Page {
     path: string
@@ -12,7 +12,9 @@ interface Page {
 const pagesDirectory = join(process.cwd(), '_pages')
 
 export async function getPagesSlug() {
-    return (await getAllPages2()).map(page => page.pagePath)
+    const allPages = await getAllPages(pagesDirectory)
+    return allPages.map(page => page.pagePath)
+}
 
 async function loadFileBySlug(slug: string): Promise<{ contents: string; path: string }> {
     const fullPathForIndexPage = join(pagesDirectory, slug, 'index.md')
@@ -47,7 +49,7 @@ export async function getPagesBySlug(slug, fields = []): Promise<Page> {
     return items
 }
 
-export async function getAllPages(fields = []) {
+export async function loadAllPages(fields = []) {
     const slugs = await getPagesSlug()
 
     const pages = slugs.map(slug => getPagesBySlug(slug, fields))
