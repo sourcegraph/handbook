@@ -8,12 +8,12 @@ import { getAllPages } from '../lib/api'
 // import { CMS_NAME } from '../lib/constants'
 
 export default function Index({ allPages }) {
-  const heroPost = allPages[0]
-  const morePosts = allPages.slice(1)
-  return (
-    <>
-      foo
-      {/* <Layout>
+    const heroPost = allPages[0]
+    const morePosts = allPages.slice(1)
+    return (
+        <>
+            foo
+            {/* <Layout>
         <Head>
           <title>Next.js Blog Example with {CMS_NAME}</title>
         </Head>
@@ -32,14 +32,14 @@ export default function Index({ allPages }) {
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout> */}
-    </>
-  )
+        </>
+    )
 }
 
 export async function getStaticProps() {
-  const allPages = getAllPages(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
+    const allPages = await getAllPages(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
 
-  return {
-    props: { allPages },
-  }
+    return {
+        props: { allPages },
+    }
 }

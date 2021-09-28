@@ -74,7 +74,15 @@ function TableOfContents({ toc }: { toc: Toc }) {
 
 export async function getStaticProps({ params }) {
     // make this work w folders
-    const post = getPagesBySlug(params.slug[0], ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
+    const post = await getPagesBySlug(params.slug[0], [
+        'title',
+        'date',
+        'slug',
+        'author',
+        'content',
+        'ogImage',
+        'coverImage',
+    ])
 
     const { content, toc } = await markdownToHtml(post.content || '')
 
@@ -90,7 +98,9 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const posts = getAllPages(['slug'])
+    const posts = await getAllPages(['slug'])
+
+    console.log({ posts: posts.map(post => post.slug) })
 
     const paths = {
         paths: posts.map(post => {

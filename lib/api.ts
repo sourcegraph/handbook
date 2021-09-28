@@ -1,43 +1,60 @@
-import fs from 'fs'
+import fs from 'fs/promises'
 import { join } from 'path'
 import matter from 'gray-matter'
+import getAllPages2 from './getAllPages'
+
+interface Page {
+    path: string
+    content: string
+    slug: string
+}
 
 const pagesDirectory = join(process.cwd(), '_pages')
 
-export function getPagesSlug() {
-  return fs.readdirSync(pagesDirectory)
+export async function getPagesSlug() {
+    return (await getAllPages2()).map(page => page.pagePath)
 }
 
-export function getPagesBySlug(slug, fields = []) {
-  const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = join(pagesDirectory, `${realSlug}.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
-
-  const items = {}
-
-  // Ensure only the minimal needed data is exposed
-  fields.forEach(field => {
-    if (field === 'slug') {
-      items[field] = realSlug
+async function loadFileBySlug(slug: string): Promise<{ contents: string; path: string }> {
+    const fullPathForIndexPage = join(pagesDirectory, slug, 'index.md')
+    try {
+        const contents = await fs.readFile(fullPathForIndexPage, 'utf8')
+        return {
+            contents,
+            path: fullPathForIndexPage,
+        }
+    } catch (error) {
+        const fullPathForPage = join(pagesDirectory, `${slug}.md`)
+        const contents = await fs.readFile(fullPathForPage, 'utf8')
+        return {
+            contents,
+            path: fullPathForPage,
+        }
     }
-    if (field === 'content') {
-      items[field] = content
-    }
-
-    if (typeof data[field] !== 'undefined') {
-      items[field] = data[field]
-    }
-  })
-
-  return items
 }
 
-export function getAllPages(fields = []) {
-  const slugs = getPagesSlug()
+export async function getPagesBySlug(slug, fields = []): Promise<Page> {
+    const { contents, path } = await loadFileBySlug(slug)
+    const realSlug = slug.replace(/\.md$/, '')
 
-  const pages = slugs.map(slug => getPagesBySlug(slug, fields))
-  // sort pages by date in descending order
-  // .sort((page1, page2) => (page1.date > page2.date ? -1 : 1))
-  return pages
+    const { data, content } = matter(contents)
+
+    const items = {
+        content: content ?? '',
+        path,
+        slug: realSlug ?? '',
+    }
+
+    return items
+}
+
+export async function getAllPages(fields = []) {
+    const slugs = await getPagesSlug()
+
+    console.log({ slugs })
+
+    const pages = slugs.map(slug => getPagesBySlug(slug, fields))
+    // sort pages by date in descending order
+    // .sort((page1, page2) => (page1.date > page2.date ? -1 : 1))
+    return Promise.all(pages)
 }
