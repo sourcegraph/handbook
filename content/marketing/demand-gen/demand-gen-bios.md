@@ -15,6 +15,7 @@ The format, style, order, etc is up to each of us. Just make sure to include the
 - Individual view on demand generation
 - Preferred learning styles
 - Communication style
+- How I manage my calendar (working days/hours, split schedule, nonlinear, etc.)
 - Preferred way to collaborate
 - How you approach problems
 - Preferred way to be recognized/appreciated
