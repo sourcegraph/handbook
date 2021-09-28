@@ -1,4 +1,4 @@
-## How to edit the handbook
+# How to edit the handbook
 
 Take a look at this high-level tutorial on how to edit the handbook. Here you will learn about some common terms, steps and tips on how to edit the handbook.
 
