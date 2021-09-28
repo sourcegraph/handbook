@@ -8,6 +8,8 @@
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
+    "prettier": "prettier '**/{*.{js?(on),ts?(x),md,scss},.*.js?(on)}' --write --list-different",
+    "prettier-check": "yarn -s run prettier --write=false",
     "test": "echo \"it works fine on my computer\" && exit 1"
   },
   "repository": {
@@ -31,5 +33,9 @@
     "react-dom": "^17.0.2",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "@sourcegraph/prettierrc": "^3.0.3",
+    "prettier": "^2.4.1"
   }
 }

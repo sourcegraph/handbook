@@ -134,6 +134,11 @@
   dependencies:
     "@napi-rs/triples" "^1.0.3"
 
+"@sourcegraph/prettierrc@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/@sourcegraph/prettierrc/-/prettierrc-3.0.3.tgz#51bfa9b2588fe35121593fa877143e6373028289"
+  integrity sha512-FQ1/Ued4I02R0JkrHHofDN163juVxUnPALzfxPZrDZUHv+c3jHjfZhmTHEz+Wd+g3b7MFk0fkj36nZSnvPyU8A==
+
 "@types/mdast@^3.0.0":
   version "3.0.10"
   resolved "https://registry.npmjs.org/@types/mdast/-/mdast-3.0.10.tgz#4724244a82a4598884cbbe9bcfd73dff927ee8af"
@@ -1634,6 +1639,11 @@ postcss@8.2.15:
     colorette "^1.2.2"
     nanoid "^3.1.23"
     source-map "^0.6.1"
+
+prettier@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
+  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"

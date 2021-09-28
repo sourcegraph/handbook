@@ -12,7 +12,7 @@ export default function Index({ allPages }) {
   const morePosts = allPages.slice(1)
   return (
     <>
-        foo
+      foo
       {/* <Layout>
         <Head>
           <title>Next.js Blog Example with {CMS_NAME}</title>
@@ -37,14 +37,7 @@ export default function Index({ allPages }) {
 }
 
 export async function getStaticProps() {
-  const allPages = getAllPages([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-  ])
+  const allPages = getAllPages(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
 
   return {
     props: { allPages },

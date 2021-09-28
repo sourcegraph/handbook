@@ -93,7 +93,6 @@ Being [handbook-first](#why-handbook-first) requires the handbook to be up to da
 
 We chose Markdown files in a Git repository for the handbook because it allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing.md).
 
-
 ## Why make this handbook public?
 
 Sourcegraph is an [open product, an open company, and open source](company/index.md#sourcegraph-open-product-open-company-open-source). Our company principles, strategies, and processes are all publicly documented.

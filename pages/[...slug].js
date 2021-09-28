@@ -17,16 +17,12 @@ export default function Post({ post, morePosts, preview }) {
   }
   return (
     <div className="container">
-		  <nav id="index">
-			  {/* {{template "index" .}} */}
-		  </nav>
-	    <section id="content">
-        {
-          post.content
-          ?
-            <>
-              <nav id="breadcrumbs" className="breadcrumbs">
-                {/* {{range $index, $e := .Breadcrumbs}}
+      <nav id="index">{/* {{template "index" .}} */}</nav>
+      <section id="content">
+        {post.content ? (
+          <>
+            <nav id="breadcrumbs" className="breadcrumbs">
+              {/* {{range $index, $e := .Breadcrumbs}}
                   <a href="{{$e.URL}}" class="{{if $e.IsActive}}active{{end}}">
                     {{if eq $index 0}}
                       Home
@@ -35,12 +31,12 @@ export default function Post({ post, morePosts, preview }) {
                     {{end}}
                   </a> {{if not $e.IsActive}}/{{end}}
                 {{end}} */}
-              </nav>
-              <div className="markdown-body" dangerouslySetInnerHTML={{__html:post.content}}></div>
-            </>
-          :
-            <>
-              {/* {{if .ContentVersionNotFoundError}}
+            </nav>
+            <div className="markdown-body" dangerouslySetInnerHTML={{ __html: post.content }}></div>
+          </>
+        ) : (
+          <>
+            {/* {{if .ContentVersionNotFoundError}}
                 <h1>Version not found</h1>
                 <p>The version <code>{{.ContentVersion}}</code> was not found.</p>
               {{else if .ContentPageNotFoundError}}
@@ -48,9 +44,9 @@ export default function Post({ post, morePosts, preview }) {
                 <p>The page <code>{{.ContentPagePath}}</code> was not found.</p>
               {{else}}<h1>Unexpected error</h1>
               {{end}} */}
-              <h1>Unexpected error</h1>
-            </>
-        }
+            <h1>Unexpected error</h1>
+          </>
+        )}
       </section>
     </div>
   )
@@ -58,15 +54,7 @@ export default function Post({ post, morePosts, preview }) {
 
 export async function getStaticProps({ params }) {
   // make this work w folders
-  const post = getPagesBySlug(params.slug[0], [
-    'title',
-    'date',
-    'slug',
-    'author',
-    'content',
-    'ogImage',
-    'coverImage',
-  ])
+  const post = getPagesBySlug(params.slug[0], ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
 
   const content = await markdownToHtml(post.content || '')
 
@@ -84,15 +72,15 @@ export async function getStaticPaths() {
   const posts = getAllPages(['slug'])
 
   const paths = {
-    paths: posts.map((post) => {
+    paths: posts.map(post => {
       return {
         params: {
-          slug: [ post.slug ],
+          slug: [post.slug],
         },
       }
     }),
     fallback: false,
-  };
+  }
 
-  return paths;
+  return paths
 }
