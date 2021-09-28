@@ -95,6 +95,8 @@ For example, save customer contracts as 2021-06-21 Customer-OF and MSA. Save NDA
 
 For click-through agreements, forward confirmation emails to legal@sourcegraph.com. If none, then email legal@sourcegraph.com confirming that you accepted the click-through terms.
 
+For Salesforce, go to the opportunity and click on the "Files" link. On the far right of the page is "Add Files". Add the signed order form here. From there complete the other fields in Salesforce and switch the Stage to "7 - Closed Won".
+
 ## Who reviews, approves, and signs each contract type
 
 ### NDAs (for customers, vendors, partners)
