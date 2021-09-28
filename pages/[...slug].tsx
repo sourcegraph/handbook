@@ -12,6 +12,7 @@ import Head from 'next/head'
 import markdownToHtml from '../lib/markdownToHtml'
 import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
+import omitUndefinedFields from '../lib/omitUndefinedFields'
 
 export default function Post({ post, morePosts, preview }) {
     const router = useRouter()
@@ -19,16 +20,20 @@ export default function Post({ post, morePosts, preview }) {
         return <ErrorPage statusCode={404} />
     }
     return (
-        <div className="container">
-            <nav id="index">
-                <h4>On this page:</h4>
-                <TableOfContents toc={post.toc} />
-            </nav>
-            <section id="content">
-                {post.content ? (
-                    <>
-                        <nav id="breadcrumbs" className="breadcrumbs">
-                            {/* {{range $index, $e := .Breadcrumbs}}
+        <>
+            <Head>
+                <title>{post.title}</title>
+            </Head>
+            <div className="container">
+                <nav id="index">
+                    <h4>On this page:</h4>
+                    <TableOfContents toc={post.toc} />
+                </nav>
+                <section id="content">
+                    {post.content ? (
+                        <>
+                            <nav id="breadcrumbs" className="breadcrumbs">
+                                {/* {{range $index, $e := .Breadcrumbs}}
                   <a href="{{$e.URL}}" class="{{if $e.IsActive}}active{{end}}">
                     {{if eq $index 0}}
                       Home
@@ -37,12 +42,12 @@ export default function Post({ post, morePosts, preview }) {
                     {{end}}
                   </a> {{if not $e.IsActive}}/{{end}}
                 {{end}} */}
-                        </nav>
-                        <div className="markdown-body" dangerouslySetInnerHTML={{ __html: post.content }}></div>
-                    </>
-                ) : (
-                    <>
-                        {/* {{if .ContentVersionNotFoundError}}
+                            </nav>
+                            <div className="markdown-body" dangerouslySetInnerHTML={{ __html: post.content }}></div>
+                        </>
+                    ) : (
+                        <>
+                            {/* {{if .ContentVersionNotFoundError}}
                 <h1>Version not found</h1>
                 <p>The version <code>{{.ContentVersion}}</code> was not found.</p>
               {{else if .ContentPageNotFoundError}}
@@ -50,11 +55,12 @@ export default function Post({ post, morePosts, preview }) {
                 <p>The page <code>{{.ContentPagePath}}</code> was not found.</p>
               {{else}}<h1>Unexpected error</h1>
               {{end}} */}
-                        <h1>Unexpected error</h1>
-                    </>
-                )}
-            </section>
-        </div>
+                            <h1>Unexpected error</h1>
+                        </>
+                    )}
+                </section>
+            </div>
+        </>
     )
 }
 
@@ -81,27 +87,25 @@ function getFullSlugPath(slug: string | string[]) {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-    // make this work w folders
     const fullPath = getFullSlugPath(params.slug)
     const post = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
 
-    const { content, toc } = await markdownToHtml(post.content || '')
+    const { content, title, toc } = await markdownToHtml(post.body || '')
 
     return {
-        props: {
+        props: omitUndefinedFields({
             post: {
                 ...post,
+                title,
                 content,
                 toc,
             },
-        },
+        }),
     }
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
     const posts = await loadAllPages(['slug'])
-
-    console.log({ posts: posts.map(p => p.slug) })
 
     const paths = {
         paths: posts.map(post => ({

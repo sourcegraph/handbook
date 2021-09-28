@@ -3,43 +3,70 @@
 // import HeroPost from '../components/hero-post'
 // import Intro from '../components/intro'
 // import Layout from '../components/layout'
-import { loadAllPages } from '../lib/api'
+import { buildPagesTree, loadAllPages, Page, DirectoryNode, parsePage, ParsedPage } from '../lib/api'
+import omitUndefinedFields from '../lib/omitUndefinedFields'
 // import Head from 'next/head'
 // import { CMS_NAME } from '../lib/constants'
 
-export default function Index({ allPages }) {
+function DirectoryItem(props: { node: DirectoryNode<ParsedPage> }) {
+    return (
+        <li>
+            <code>{props.node.name}</code>{' '}
+            {props.node.indexPage && (
+                <a href={`/${props.node.indexPage.slug}`}>{props.node.indexPage.title || 'Untitled'}</a>
+            )}
+            <ul>
+                {props.node.pages.map(page => (
+                    <li key={page.slug}>
+                        <a href={`/${page.slug}`}>
+                            {page.title || 'Untitled'} (/{page.slug})
+                        </a>
+                    </li>
+                ))}
+            </ul>
+            <ul>
+                {props.node.subdirectories.map(node => (
+                    <DirectoryItem key={node.name} node={node} />
+                ))}
+            </ul>
+        </li>
+    )
+}
+
+interface IndexProps {
+    allPages: ParsedPage[]
+    tree: DirectoryNode<ParsedPage>
+}
+export default function Index({ allPages, tree }: IndexProps) {
     const heroPost = allPages[0]
     const morePosts = allPages.slice(1)
     return (
-        <>
-            foo
-            {/* <Layout>
-        <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
-        </Head>
-        <Container>
-          <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </Container>
-      </Layout> */}
-        </>
+        <div className="container">
+            <section id="content">
+                <h2>Debug: list of all pages:</h2>
+                <ul>
+                    {allPages.map(page => (
+                        <li key={page.slug}>
+                            <a href={`/${page.slug}`}>
+                                {page.title ?? `Untitled (${page.slug})`} {page.isIndexPage && '(index.md)'}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+                <h2>Debug: Tree view</h2>
+                <ul>
+                    <DirectoryItem node={tree} />
+                </ul>
+            </section>
+        </div>
     )
 }
 
 export async function getStaticProps() {
     const allPages = await loadAllPages(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
-
+    const parsedPages = await Promise.all(allPages.map(page => parsePage(page)))
+    const tree = buildPagesTree<ParsedPage>(parsedPages)
     return {
-        props: { allPages },
+        props: omitUndefinedFields({ allPages: parsedPages, tree }),
     }
 }
