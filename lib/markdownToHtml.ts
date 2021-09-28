@@ -2,6 +2,7 @@ import { unified, Plugin } from 'unified'
 import { VFile } from 'vfile'
 import { Root as HastRoot } from 'hast'
 import remarkParse from 'remark-parse'
+import remarkGfm from 'remark-gfm'
 import remarkRehype from 'remark-rehype'
 import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
@@ -16,6 +17,7 @@ export default async function markdownToHtml(markdown: string): Promise<{ conten
     const result = await unified()
         // Parse markdown
         .use(remarkParse)
+        .use(remarkGfm)
         // Convert Markdown AST -> HTML AST
         .use(remarkRehype, { allowDangerousHtml: true })
         // Parse Markdown that was included _within_ HTML
