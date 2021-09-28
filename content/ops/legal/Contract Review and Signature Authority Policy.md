@@ -95,7 +95,7 @@ For example, save customer contracts as 2021-06-21 Customer-OF and MSA. Save NDA
 
 For click-through agreements, forward confirmation emails to legal@sourcegraph.com. If none, then email legal@sourcegraph.com confirming that you accepted the click-through terms.
 
-For Salesforce, go to the opportunity and click on the "Files" link. On the far right of the page is "Add Files". Add the signed order form here. From there complete the other fields in Salesforce and switch the Stage to "7 - Closed Won".
+For Salesforce, complete the opportunity with the following steps: 1) go to the opportunity and click on the "Files" link near the top of the page. On the far right of the "Files" page is "Add Files". 2) Go back to the opportunity and at the top right click the "Add Products" link. Fill out the info in the link and pay attention to the monthly/yearly period options so that they are consistent. 3) Go back to the opportunity and complete the other fields in the opportunity as follows: switch the Stage to "7 - Closed Won"; next scroll down to the "Financial Details" and "Opportunity Close Out" sections and add the appropriate "ACV", "Closed Won Reason", "Start of Contract" and "End of Contract". Save and you should be done.
 
 ## Who reviews, approves, and signs each contract type
 
