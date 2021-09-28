@@ -79,7 +79,7 @@ If you just need to edit a single page, you can do it entirely on the web.
 1. Select teammates to review using the **Reviewers** button on the right side of the pull request page.
 1. Wait for teammates to review, comment on, and approve your pull request.
 1. When you're ready to publish the change and make it live, press the **Squash and merge** button, then press **Confirm squash and merge**.
-1. Wait up to 5 minutes for your change to be live on about.sourcegraph.com.
+1. Wait for your change to be live on about.sourcegraph.com. This can take anywhere from a few minutes to a few hours.
 
 ### Announcing Handbook Changes
 
