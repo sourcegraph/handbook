@@ -99,7 +99,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const posts = await getAllPages(['slug'])
+    const posts = await loadAllPages(['slug'])
 
     const paths = {
         paths: posts.map(post => ({
