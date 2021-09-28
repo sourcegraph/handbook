@@ -22,25 +22,28 @@ interface PageWithMetadata extends LoadedPage {
     content: string
 }
 
-export default function Post({ post }: { post: PageWithMetadata }) {
+interface PageProps {
+    page: PageWithMetadata
+}
+
+export default function Page({ page }: PageProps) {
     const router = useRouter()
-    console.log(post)
-    const slugParts = post.slug.split('/')
-    if (!router.isFallback && !post?.slug) {
+    if (!router.isFallback && !page?.slug) {
         return <ErrorPage statusCode={404} />
     }
+    const slugParts = page.slug.split('/')
     return (
         <>
             <Head>
-                <title>{post.title}</title>
+                <title>{page.title}</title>
             </Head>
             <div className="container">
                 <nav id="index">
                     <h4>On this page:</h4>
-                    <TableOfContents toc={post.toc} />
+                    <TableOfContents toc={page.toc} />
                 </nav>
                 <div id="content">
-                    {post.content ? (
+                    {page.content ? (
                         <>
                             <nav id="breadcrumbs" className="breadcrumbs" aria-label="Breadcrumbs">
                                 {slugParts.map((part, index) => {
@@ -60,7 +63,7 @@ export default function Post({ post }: { post: PageWithMetadata }) {
                                     )
                                 })}
                             </nav>
-                            <main className="markdown-body" dangerouslySetInnerHTML={{ __html: post.content }}></main>
+                            <main className="markdown-body" dangerouslySetInnerHTML={{ __html: page.content }}></main>
                         </>
                     ) : (
                         <h1>Unexpected error</h1>
@@ -93,16 +96,16 @@ function getFullSlugPath(slug: string | string[]) {
     return slug.join('/')
 }
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
     const fullPath = getFullSlugPath(params.slug)
-    const post = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
+    const page = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
 
-    const { content, title, toc } = await markdownToHtml(post.body || '')
+    const { content, title, toc } = await markdownToHtml(page.body || '')
 
     return {
         props: omitUndefinedFields({
-            post: {
-                ...post,
+            page: {
+                ...page,
                 title,
                 content,
                 toc,
@@ -112,10 +115,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const posts = await loadAllPages(['slug'])
+    const pages = await loadAllPages(['slug'])
 
     const paths = {
-        paths: posts.map(post => ({
+        paths: pages.map(post => ({
             params: {
                 // The slug is an array of directories in the path.
                 slug: post.slug.split('/'),
