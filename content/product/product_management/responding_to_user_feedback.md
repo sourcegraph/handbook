@@ -22,7 +22,9 @@ A detailed explanation of the current process and the suggested reply structures
 
 ### GitHub issues created by third parties
 
-We label and forward issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. [This GitHub search](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) is a fast way to find these issues.
+The PM on feedback rotation labels and forwards issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. [This GitHub search](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) is a fast way to find these issues.
+
+All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage.
 
 ### Slack [`#feedback`](https://sourcegraph.slack.com/archives/C0W2E592M) channel
 
