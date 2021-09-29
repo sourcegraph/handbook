@@ -1,0 +1,33 @@
+name: Stale pull requests
+
+on:
+  schedule:
+    - cron: '30 0,6,12,18 * * 1-5'
+
+jobs:
+  stale:
+    name: Notify authors or close stale pull requests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v4
+        with:
+          days-before-pr-stale: 14
+          days-before-pr-close: 7
+          days-before-issue-close: -1
+          days-before-issue-stale: -1
+          stale-pr-label: stale
+          exempt-pr-labels: bot,pinned
+          operations-per-run: 60
+          stale-pr-message: |
+            Hey there! It looks like this pull request has been sitting for a long time. Keep in mind that when you make a pull request, the change doesn't actually go live until you **merge** the pull request. This needs to be done by you (the pull request author) as soon as you feel like you got the appropriate amount of review/approvals that make you confident with the change. For example: adding yourself to the team page doesn't require anyone's review and you can merge directly, while when proposing a change to your team's processes you'll probably want to get your team's review (and need to request review from your team explicitly, so they get notified).
+
+            Please see whether you want to **merge** this pull request, **close** it and discard the change, or **remind** the people you would like review from.
+
+            You can find more help on our [Editing the handbook](https://about.sourcegraph.com/handbook/editing) handbook page.
+
+            Thank you! \\(^-^)/
+          close-pr-message: |
+            Since there were no updates in the past 7 days, this pull request is being automatically closed.
+            If this is a mistake, you can simply click the **Reopen** button to reopen the pull request.
+
+            Thank you! \\(^-^)/

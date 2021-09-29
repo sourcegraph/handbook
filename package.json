@@ -7,6 +7,7 @@
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
+    "typecheck": "tsc -p .",
     "prettier": "prettier '**/{*.{js?(on),ts?(x),md,scss},.*.js?(on)}' --write --list-different",
     "prettier-check": "yarn -s run prettier --write=false",
     "eslint": "eslint 'src/**/*.{ts,tsx}'",

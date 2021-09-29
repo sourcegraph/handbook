@@ -1,0 +1,47 @@
+name: Prettier
+
+# This action works with pull requests and pushes
+on:
+  - push
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    name: Format all files nicely
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          # Make sure the actual branch is checked out when running on pull requests
+          ref: ${{ github.head_ref }}
+          persist-credentials: false
+
+      # Set up correct version of node from .nvmrc (upgraded by Renovate)
+      - name: Read .nvmrc
+        id: nvmrc
+        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '${{ steps.nvmrc.outputs.NODE_VERSION }}'
+          cache: yarn
+
+      # Make sure @sourcegraph/prettierrc is installed
+      - run: yarn
+
+      - name: Read prettier version
+        id: prettier_version
+        uses: notiz-dev/github-action-json-property@release
+        with:
+          path: package.json
+          prop_path: devDependencies.prettier
+
+      - name: Prettier
+        uses: creyD/prettier_action@v3.3
+        with:
+          # Take prettier version from package.json to stay in sync and support upgrades through Renovate
+          prettier_version: ${{steps.prettier_version.outputs.prop}}
+          prettier_options: --write **/*.{js,css,scss,ts,tsx,md,html,yml,yaml,json}
+          commit_message: squash! Prettier
+        env:
+          GITHUB_TOKEN: ${{ secrets.PRETTIER_ACTION_GITHUB_TOKEN }}
