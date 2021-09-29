@@ -355,15 +355,15 @@ The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and pos
 
 ### Technical Interview: Coding Skills (Repository Management Team)
 
-- Interviewers: two members of the Core Application team
+- Interviewers: two members of the Repository Management Team team
 - Duration: 60-minutes.
 - Details: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
 
-### Technical Interview: Architecture (Repository Management Team)
+### Technical Interview: Architecture
 
-- Interviewers: two members of the Core Application team
-- Duration: 45-minutes.
-- Details: Two engineers from the team will work with you by verbally discussing how you would design a repository management web application. We will work with you in this collaborative session to think about and design the system togethre, looking for your natural intuation about building web apps and problem-solving as we throw various wrenches into the system.
+- Interviewers: two members of the team you are interviewing for
+- Duration: 60-minutes.
+- Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuation about building systems and problem-solving as we throw various wrenches into the system.
 
 ### Working Session
 
