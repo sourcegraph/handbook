@@ -34,7 +34,19 @@
     },
     "rules": {
       "import/no-default-export": "off"
-    }
+    },
+    "overrides": [
+      {
+        "files": "*.config.js",
+        "env": {
+          "node": true
+        },
+        "rules": {
+          "@typescript-eslint/require-await": "off",
+          "require-await": "off"
+        }
+      }
+    ]
   },
   "dependencies": {
     "@stefanprobst/rehype-extract-toc": "^2.0.1",
