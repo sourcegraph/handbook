@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 
 import { getPagesBySlug, loadAllPages, LoadedPage } from '../lib/api'
+import { CONTENT_FOLDER } from '../lib/constants'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
@@ -38,13 +39,13 @@ export default function Page({ page }: PageProps): JSX.Element {
                     <TableOfContents toc={page.toc} />
                     <a
                         className="page-btn"
-                        href={`https://github.com/sourcegraph/handbook/edit/main/_pages/${page.slug}`}
+                        href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}`}
                     >
                         Edit this page
                     </a>{' '}
                     <a
                         className="page-btn"
-                        href={`https://github.com/sourcegraph/handbook/commits/main/_pages/${page.slug}`}
+                        href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}`}
                     >
                         History
                     </a>

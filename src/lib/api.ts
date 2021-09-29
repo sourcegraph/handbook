@@ -4,6 +4,7 @@ import { join } from 'path'
 import { Toc } from '@stefanprobst/rehype-extract-toc'
 import matter from 'gray-matter'
 
+import { CONTENT_FOLDER } from './constants'
 import getAllPages from './getAllPages'
 import markdownToHtml from './markdownToHtml'
 
@@ -24,7 +25,7 @@ export interface ParsedPage extends LoadedPage {
     html: string
 }
 
-const pagesDirectory = join(process.cwd(), '_pages')
+const pagesDirectory = join(process.cwd(), CONTENT_FOLDER)
 
 export async function getPagesSlug(): Promise<string[]> {
     const allPages = await getAllPages(pagesDirectory)
