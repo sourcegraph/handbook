@@ -1,0 +1,18 @@
+name: All links are valid
+
+on: push
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          folder-path: ./content
+          # Don't check external links, because those could go down without a change on our side,
+          # making builds non-reproducable.
+          # TODO: Add a check for external links in a cronjob that could report to Slack.
+          config-file: .github/workflows/link-check-internal.json
