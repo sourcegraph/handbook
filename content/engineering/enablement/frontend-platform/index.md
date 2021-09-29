@@ -94,7 +94,7 @@ We plan and track our day-to-day work on our [Kanban board](https://github.com/o
 
 We have a weekly rotation for triaging and refining issues. During their week on rotation, the on-duty teammate is responsible for triaging and clarifying any new issues that have been reported. We aim to do the following on a daily basis:
 
-1. Click the "+ Add cards" button and search for `is:issue is:open label:team/frontend-platform` to find all open issues for the Frontend Platform team that are not yet on our board. For each issue that is found, drag the card into the _Inbox_ column on our board.
+1. Click the "+ Add cards" button and search for `is:issue is:open label:team/frontend-platform -label:"good first issue" -label:gitstart` to find all open issues for the Frontend Platform team that are not yet on our board. For each issue that is found, drag the card into the _Inbox_ column on our board.
 2. For each issue in the _Inbox_ column, consider the following:
    - Is it clear what needs to be done? If not, ask for clarification on the ticket, apply an appropriate label (e.g., `needs-more-info`), and move the ticket to the _Needs input_ column.
    - Is it clearly something that should be done by the Frontend Platform team? If not, tag other teams (using the appropriate `team/xyz` label) and have a discussion about which is the best team to own the issue. Or you can add the `needs-discussion` label and discuss it with the team at an upcoming meeting (e.g. Frontend Platform sync or FPT coffee).
