@@ -41,6 +41,18 @@ export default function Page({ page }: PageProps) {
                 <nav id="index">
                     <h4>On this page:</h4>
                     <TableOfContents toc={page.toc} />
+                    <a
+                        className="page-btn"
+                        href={`https://github.com/sourcegraph/handbook/edit/main/_pages/${page.slug}`}
+                    >
+                        Edit this page
+                    </a>{' '}
+                    <a
+                        className="page-btn"
+                        href={`https://github.com/sourcegraph/handbook/commits/main/_pages/${page.slug}`}
+                    >
+                        History
+                    </a>
                 </nav>
                 <div id="content">
                     {page.content ? (
