@@ -10,3 +10,5 @@ This is a collaboration between Core Application and Customer Support where they
   - Debugging locally: How to reproduce and locate an issue in the code base and database?
 - [Session 4: Investigating CI check failures of a PR](https://drive.google.com/file/d/1qUKU1KA1zzfigsoWZ_gYiggbyFKEzCOT/view?usp=sharing)
   - Intro to CI checks on buildkite and how to navigate CI failures.
+- [Session 5: Writing Unit Tests](https://drive.google.com/drive/folders/1FOIAjM57I6XVjN3JQuQItb-IWAAbcm9Z?usp=sharing)
+  - Intro to writing unit tests for debugging purpose
