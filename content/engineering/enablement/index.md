@@ -2,7 +2,7 @@
 
 ## Mission
 
-TODO
+Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph.
 
 ## Teams
 
