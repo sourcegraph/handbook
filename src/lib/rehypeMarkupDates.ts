@@ -1,7 +1,7 @@
 import { parse } from 'chrono-node'
 import { findAndReplace, Node } from 'hast-util-find-and-replace'
-import { Plugin } from 'unified'
 import { h } from 'hastscript'
+import { Plugin } from 'unified'
 
 // For examples, see:
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time#valid_datetime_values
