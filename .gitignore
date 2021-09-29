@@ -121,3 +121,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Generated at build time
+public/robots.txt
+public/sitemap.xml
