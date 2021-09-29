@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
-    "build": "node src/scripts/generate-redirects.mjs && next build",
+    "generate-redirects": "node src/scripts/generate-redirects.mjs",
+    "netlify-build": "yarn run generate-redirects && next build",
+    "build": "next build",
     "start": "next start",
     "check-internal-links": "find ./content -name \\*.md -exec markdown-link-check --config .github/workflows/link-check-internal.json --quiet {} \\;",
     "check-all-links": "find ./content -name \\*.md -exec markdown-link-check --quiet {} \\;",

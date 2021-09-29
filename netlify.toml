@@ -1,5 +1,5 @@
 [build]
-command = "yarn run build"
+command = "yarn run netlify-build"
 publish = "out"
 
 [[plugins]]
