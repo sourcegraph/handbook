@@ -52,10 +52,10 @@ The handbook is a living document and we expect every teammate to propose improv
       - [Code intelligence](./engineering/code-graph/code-intelligence/index.md)
       - [Batch Changes](./engineering/code-graph/batch-changes/index.md)
       - [Code insights](./engineering/code-graph/code-insights/index.md)
-    - Enablement
-      - Repository management
-      - Delivery
-      - Developer experience
+     - [Enablement](./engineering/enablement/index.md)
+      - [Repo management](./engineering/enablement/repo-management/index.md)
+      - [Delivery](./engineering/enablement/delivery/index.md)
+      - [Dev experience](./engineering/enablement/dev-experience/index.md)
       - [Frontend platform](./engineering/enablement/frontend-platform/index.md)
     - Cloud
       - [Growth](./engineering/cloud/growth/index.md) (includes API docs)
