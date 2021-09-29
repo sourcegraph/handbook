@@ -1,8 +1,7 @@
 {
   "name": "sourcegraph-handbook",
-  "version": "0.0.1",
+  "private": true,
   "description": "Our company handbook repository",
-  "main": "index.js",
   "scripts": {
     "dev": "next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
@@ -10,6 +9,7 @@
     "start": "next start",
     "prettier": "prettier '**/{*.{js?(on),ts?(x),md,scss},.*.js?(on)}' --write --list-different",
     "prettier-check": "yarn -s run prettier --write=false",
+    "eslint": "eslint 'src/**/*.{ts,tsx}'",
     "test": "echo \"it works fine on my computer\" && exit 1"
   },
   "repository": {
@@ -21,11 +21,20 @@
     "handbook"
   ],
   "author": "Sourcegraph",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/sourcegraph/handbook/issues"
   },
   "homepage": "https://github.com/sourcegraph/handbook#readme",
+  "eslintConfig": {
+    "extends": "@sourcegraph/eslint-config",
+    "parserOptions": {
+      "project": "tsconfig.json"
+    },
+    "rules": {
+      "import/no-default-export": "off"
+    }
+  },
   "dependencies": {
     "@stefanprobst/rehype-extract-toc": "^2.0.1",
     "@types/unist": "^2.0.6",

@@ -1,14 +1,9 @@
-// import Container from '../components/container'
-// import MoreStories from '../components/more-stories'
-// import HeroPost from '../components/hero-post'
-// import Intro from '../components/intro'
-// import Layout from '../components/layout'
+import React from 'react'
+
 import { buildPagesTree, loadAllPages, Page, DirectoryNode, parsePage, ParsedPage } from '../lib/api'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
-// import Head from 'next/head'
-// import { CMS_NAME } from '../lib/constants'
 
-function DirectoryItem(props: { node: DirectoryNode<ParsedPage> }) {
+function DirectoryItem(props: { node: DirectoryNode<ParsedPage> }): JSX.Element {
     return (
         <li>
             <code>{props.node.name}</code>{' '}
@@ -37,7 +32,7 @@ interface IndexProps {
     allPages: ParsedPage[]
     tree: DirectoryNode<ParsedPage>
 }
-export default function Index({ allPages, tree }: IndexProps) {
+export default function Index({ allPages, tree }: IndexProps): JSX.Element {
     const heroPost = allPages[0]
     const morePosts = allPages.slice(1)
     return (
@@ -62,7 +57,7 @@ export default function Index({ allPages, tree }: IndexProps) {
     )
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(): Promise<{ props: { allPages: ParsedPage[]; tree: DirectoryNode<Page> } }> {
     const allPages = await loadAllPages(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
     const parsedPages = await Promise.all(allPages.map(page => parsePage(page)))
     const tree = buildPagesTree<ParsedPage>(parsedPages)

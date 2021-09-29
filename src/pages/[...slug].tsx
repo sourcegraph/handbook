@@ -1,17 +1,12 @@
-import React from 'react'
-import { useRouter } from 'next/router'
-import ErrorPage from 'next/error'
-// import Container from '../../components/container'
-// import PostBody from '../../components/post-body'
-// import Header from '../../components/header'
-// import PostHeader from '../../components/post-header'
-// import Layout from '../../components/layout'
-import { getPagesBySlug, loadAllPages, LoadedPage } from '../lib/api'
-// import PostTitle from '../../components/post-title'
-import Head from 'next/head'
-import markdownToHtml from '../lib/markdownToHtml'
 import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
+import ErrorPage from 'next/error'
+import Head from 'next/head'
+import { useRouter } from 'next/router'
+import React from 'react'
+
+import { getPagesBySlug, loadAllPages, LoadedPage } from '../lib/api'
+import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
 interface PageWithMetadata extends LoadedPage {
@@ -26,7 +21,7 @@ interface PageProps {
     page: PageWithMetadata
 }
 
-export default function Page({ page }: PageProps) {
+export default function Page({ page }: PageProps): JSX.Element {
     const router = useRouter()
     if (!router.isFallback && !page?.slug) {
         return <ErrorPage statusCode={404} />
@@ -76,7 +71,7 @@ export default function Page({ page }: PageProps) {
                                     )
                                 })}
                             </nav>
-                            <main className="markdown-body" dangerouslySetInnerHTML={{ __html: page.content }}></main>
+                            <main className="markdown-body" dangerouslySetInnerHTML={{ __html: page.content }} />
                         </>
                     ) : (
                         <h1>Unexpected error</h1>
@@ -87,7 +82,7 @@ export default function Page({ page }: PageProps) {
     )
 }
 
-function TableOfContents({ toc }: { toc: Toc }) {
+function TableOfContents({ toc }: { toc: Toc }): JSX.Element {
     return (
         <ul>
             {toc.map(node => (
@@ -102,7 +97,7 @@ function TableOfContents({ toc }: { toc: Toc }) {
     )
 }
 
-function getFullSlugPath(slug: string | string[]) {
+function getFullSlugPath(slug: string | string[]): string {
     if (typeof slug === 'string') {
         return slug
     }

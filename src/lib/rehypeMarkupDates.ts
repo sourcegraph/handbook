@@ -1,14 +1,14 @@
-import { Plugin } from 'unified'
-import { findAndReplace, Node } from 'hast-util-find-and-replace'
-import { h } from 'hastscript'
 import { parse } from 'chrono-node'
+import { findAndReplace, Node } from 'hast-util-find-and-replace'
+import { Plugin } from 'unified'
+import { h } from 'hastscript'
 
 // For examples, see:
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time#valid_datetime_values
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Date_and_time_formats
 
 /** Month string: MM-DD */
-const monthPattern = /[0-1][1-9]-[0-3][1-9]/
+const monthPattern = /[01][1-9]-[0-3][1-9]/
 
 /** Week string: YYYY-WXX */
 const weekPattern = /\d{4}-W\d?\d/
@@ -21,7 +21,7 @@ const onlyTimePattern = new RegExp('^' + timePattern.source + '$')
 const dateTimePattern = /\d{4}-\d{2}(-\d{2}([ T]?[0-2]?\d:\d\d(:\d\d(\.\d+)?)?(Z|[+-]\d\d:?\d\d)?)?)?/
 
 /** Fiscal year with optional quarter or half */
-const fiscalYearPattern = /FY[' -]?(\d{2,4})(?:[' -]?(?:F?Q([1-4])|H([1-2])))?/
+const fiscalYearPattern = /FY[ '-]?(\d{2,4})(?:[ '-]?(?:F?Q([1-4])|H([12])))?/
 
 /** Fiscal quarter only */
 const fiscalQuarterPattern = /F?Q([1-4])/
@@ -43,6 +43,7 @@ const datePattern = new RegExp(
 /**
  * Rehype plugin to wrap various datetime strings with `<time>` elements with a programmatically readable `datetime` attribute.
  */
+// eslint-disable-next-line unicorn/consistent-function-scoping
 export const rehypeMarkupDates: Plugin = () => root =>
     findAndReplace(root as Node, datePattern, (match: string) => {
         const fiscalInterval = parseFiscalInterval(match)

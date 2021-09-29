@@ -2,11 +2,13 @@ import '../styles/layout.css'
 import '../styles/document.css'
 import '../styles/search.css'
 import '../styles/content.css'
+import { AppProps } from 'next/dist/shared/lib/router/router'
 import Head from 'next/head'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
+
 import { registerDateTooltips } from '../lib/dateHighlighter'
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     useEffect(() => {
         registerDateTooltips()
     }, [])

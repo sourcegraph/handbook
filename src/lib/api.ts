@@ -1,11 +1,11 @@
 import fs from 'fs/promises'
 import { join } from 'path'
-import matter from 'gray-matter'
-import getAllPages from './getAllPages'
-import { Parent, Root } from 'hast'
-import { VFile } from 'vfile'
-import markdownToHtml from './markdownToHtml'
+
 import { Toc } from '@stefanprobst/rehype-extract-toc'
+import matter from 'gray-matter'
+
+import getAllPages from './getAllPages'
+import markdownToHtml from './markdownToHtml'
 
 export interface Page {
     path: string
@@ -26,7 +26,7 @@ export interface ParsedPage extends LoadedPage {
 
 const pagesDirectory = join(process.cwd(), '_pages')
 
-export async function getPagesSlug() {
+export async function getPagesSlug(): Promise<string[]> {
     const allPages = await getAllPages(pagesDirectory)
     return allPages.map(page => page.pagePath)
 }
@@ -41,7 +41,7 @@ async function loadFileBySlug(slug: string): Promise<LoadedPage> {
             slug,
             isIndexPage: true,
         }
-    } catch (error) {
+    } catch {
         const fullPathForPage = join(pagesDirectory, `${slug}.md`)
         const body = await fs.readFile(fullPathForPage, 'utf8')
         return {
@@ -61,7 +61,7 @@ export async function getPagesBySlug(slug, fields = []): Promise<LoadedPage> {
     return { ...page, frontMatter: data, body: content }
 }
 
-export async function loadAllPages(fields = []) {
+export async function loadAllPages(fields = []): Promise<LoadedPage[]> {
     const slugs = await getPagesSlug()
     const pages = slugs.map(slug => getPagesBySlug(slug, fields))
     // sort pages by date in descending order
@@ -84,7 +84,7 @@ export function buildPagesTree<P extends Page = Page>(pages: P[]): DirectoryNode
         subdirectories: [],
     }
 
-    for (let page of pages) {
+    for (const page of pages) {
         const directoryParts = page.slug.split('/').slice(0, -1)
         const parentDirectory = findOrCreateDirectoryNode(root, directoryParts)
 

@@ -1,7 +1,8 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import React from 'react'
 
 export default class MyDocument extends Document {
-    render() {
+    public override render(): JSX.Element {
         return (
             <Html lang="en">
                 <Head>
@@ -41,7 +42,7 @@ export default class MyDocument extends Document {
             });
             gtag("set", "ads_data_redaction", true);`,
                         }}
-                    ></script>
+                    />
 
                     {/* Google Tag Manager */}
                     <script
@@ -58,7 +59,7 @@ export default class MyDocument extends Document {
               f.parentNode.insertBefore(j, f);
             })(window, document, 'script', 'dataLayer', 'GTM-TB4NLS7');`,
                         }}
-                    ></script>
+                    />
 
                     <script
                         id="Cookiebot"
@@ -66,7 +67,7 @@ export default class MyDocument extends Document {
                         data-cbid="fb31dc3e-afb3-4be8-ae84-7090bba7797d"
                         data-blockingmode="auto"
                         type="text/javascript"
-                    ></script>
+                    />
                 </Head>
                 <body>
                     {/* Google Tag Manager (noscript) */}
@@ -137,7 +138,7 @@ export default class MyDocument extends Document {
 
             _st('install','JAPrEEBxHhYT4SnMJQmX','2.0.0');`,
                         }}
-                    ></script>
+                    />
                     {/* <script type="module" src="{{asset "dateHighlighter.js"}}"></script> */}
                 </body>
             </Html>
