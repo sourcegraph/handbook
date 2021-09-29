@@ -1,4 +1,4 @@
-name: All links are valid
+name: All links between pages are valid
 
 on: push
 
