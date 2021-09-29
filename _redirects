@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+# /home              /
+# /blog/my-post.php  /blog/my-post
+# /news              /blog
+# /cuties            https://www.petsofnetlify.com
