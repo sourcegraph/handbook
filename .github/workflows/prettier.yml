@@ -1,4 +1,4 @@
-name: Prettier
+name: Format all files nicely
 
 # This action works with pull requests and pushes
 on:
@@ -7,7 +7,6 @@ on:
 jobs:
   prettier:
     runs-on: ubuntu-latest
-    name: Format all files nicely
     steps:
       - name: Checkout
         uses: actions/checkout@v2

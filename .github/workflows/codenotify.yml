@@ -1,13 +1,12 @@
-name: Codenotify
+name: Notify teammates listed in CODENOTIFY files of the changes
 
 on:
   pull_request_target:
     types: [opened, synchronize, ready_for_review]
 
 jobs:
-  codenotify:
+  notify:
     runs-on: ubuntu-latest
-    name: Notify teammates listed in CODENOTIFY files of the changes
     steps:
       - uses: actions/checkout@v2
         with:

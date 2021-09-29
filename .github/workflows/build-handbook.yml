@@ -1,4 +1,4 @@
-name: Build
+name: Handbook builds correctly
 
 on:
   - push
@@ -16,9 +16,8 @@ jobs:
   #       run: node_modules/.bin/geojsonhint < ./handbook/company/team/locations.geojson
 
   # Put everything under one job to not clutter the GitHub status checks list.
-  handbook:
+  build:
     runs-on: ubuntu-latest
-    name: Handbook builds correctly
     steps:
       - uses: actions/checkout@v2
 
