@@ -15,6 +15,8 @@ const nextConfig = {
       permanent: false,
     }))
   },
+
+  generateBuildId: () => 'build',
 }
 
 module.exports = nextConfig
