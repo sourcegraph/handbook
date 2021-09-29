@@ -1,12 +1,11 @@
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   redirects: async () => [
-    {
-      source: '/testredirect',
-      destination: '/usage',
-    },
+    // {
+    //   source: '/example-source',
+    //   destination: '/example-dest',
+    //   permanent: false,
+    // },
   ],
 }
 
