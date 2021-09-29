@@ -76,7 +76,6 @@ const fiscalIntervalPattern = new RegExp(`^(?:${fiscalYearPattern.source}|${fisc
  */
 function parseFiscalInterval(input: string): { start: string; end: string } | null {
     const match = input.match(fiscalIntervalPattern)
-    console.log({ input, match })
     if (!match) {
         return null
     }
