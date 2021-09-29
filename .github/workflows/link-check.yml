@@ -1,4 +1,4 @@
-name: All links between pages are valid
+name: Check all links between pages are valid
 
 on: push
 

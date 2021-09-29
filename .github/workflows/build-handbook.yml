@@ -1,4 +1,4 @@
-name: Handbook builds correctly
+name: Check handbook builds correctly
 
 on:
   - push
