@@ -4,7 +4,7 @@ import '../styles/search.css'
 import '../styles/content.css'
 import Head from 'next/head'
 import { useEffect } from 'react'
-import { registerDateTooltips } from '../lib/dateHighligher'
+import { registerDateTooltips } from '../lib/dateHighlighter'
 
 export default function MyApp({ Component, pageProps }) {
     useEffect(() => {
