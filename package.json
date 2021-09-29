@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
-    "build": "next build",
+    "build": "node src/scripts/generate-redirects.mjs && next build",
     "start": "next start",
     "typecheck": "tsc -p .",
     "prettier": "prettier '**/{*.{js?(on),ts?(x),md,scss},.*.js?(on)}' --write --list-different",
@@ -30,7 +30,13 @@
   "eslintConfig": {
     "extends": "@sourcegraph/eslint-config",
     "parserOptions": {
-      "project": "tsconfig.json"
+      "project": "tsconfig.json",
+      "extraFileExtensions": [
+        ".mjs"
+      ]
+    },
+    "env": {
+      "node": true
     },
     "rules": {
       "import/no-default-export": "off"
@@ -38,12 +44,18 @@
     "overrides": [
       {
         "files": "*.config.js",
-        "env": {
-          "node": true
-        },
         "rules": {
           "@typescript-eslint/require-await": "off",
           "require-await": "off"
+        }
+      },
+      {
+        "files": "*.mjs",
+        "rules": {
+          "import/extensions": [
+            "error",
+            "always"
+          ]
         }
       }
     ]
@@ -52,6 +64,7 @@
     "@stefanprobst/rehype-extract-toc": "^2.0.1",
     "@types/unist": "^2.0.6",
     "chrono-node": "^2.3.2",
+    "execa": "^5.1.1",
     "gray-matter": "^4.0.3",
     "hast": "^1.0.0",
     "hast-util-find-and-replace": "^4.0.0",

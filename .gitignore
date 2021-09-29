@@ -1,4 +1,8 @@
 node_modules
+
+# Redirects for Netlify are generated pre-publish in generate-redirects.mjs from Git history
+_redirects
+
 # Logs
 logs
 *.log

@@ -20,6 +20,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
   },
-  "include": ["src/**/*", "./*.js"],
+  "include": ["src/**/*", "**/*.js", "**/*.mjs"],
   "exclude": ["node_modules"],
 }
