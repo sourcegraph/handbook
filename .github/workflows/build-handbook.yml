@@ -4,16 +4,17 @@ on:
   - push
 
 jobs:
-  geojson:
-    name: Teammate locations file is valid
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-      - name: install geojsonhint
-        run: yarn add @mapbox/geojsonhint@3.0.0
-      - name: geojsonhint
-        run: node_modules/.bin/geojsonhint < ./handbook/company/team/locations.geojson
+  # geojson:
+  #   name: Teammate locations file is valid
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: actions/setup-node@v2
+  #     - name: install geojsonhint
+  #       run: yarn add @mapbox/geojsonhint@3.0.0
+  #     - name: geojsonhint
+  #       run: node_modules/.bin/geojsonhint < ./handbook/company/team/locations.geojson
+
   # Put everything under one job to not clutter the GitHub status checks list.
   handbook:
     runs-on: ubuntu-latest
