@@ -103,7 +103,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
         - Mate Gyorffy, Web Developer (contractor)
         - _We are building a brand team_
     - [Samson Goddy](../company/team/index.md#samson-goddy-he-him), Director of Community
-        - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Content Engineer
+        - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Community Advocate
         - [Prosper Otemuyiwa](../company/team/index.md#prosper-otemuyiwa-he-him), Staff Developer Evangelist
         - Amarachi Emmanuela Azubuike, Social Media Community Manager (contractor)
         - We will be hiring developer advocates
