@@ -12,4 +12,6 @@ const lines =
     movedPages.map(({ source, destination }) => `${source} ${destination}`).join('\n') +
     '\n'
 
+console.log('Redirects:\n', lines)
+
 await fs.writeFile(new URL('../../_redirects', import.meta.url), lines)
