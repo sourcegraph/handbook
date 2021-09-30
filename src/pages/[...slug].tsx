@@ -36,7 +36,7 @@ export default function Page({ page }: PageProps): JSX.Element {
     if (!router.isFallback && !page?.slug) {
         return <ErrorPage statusCode={404} />
     }
-    const slugParts = page.slug.split('/')
+    const slugParts = page.slug.split('/').filter(Boolean)
     return (
         <>
             <Head>
@@ -52,20 +52,21 @@ export default function Page({ page }: PageProps): JSX.Element {
                     {page.content ? (
                         <>
                             <nav id="breadcrumbs" className="breadcrumbs" aria-label="Breadcrumbs">
-                                <a href="/">Handbook</a> /{' '}
+                                <a href="/">Handbook</a>
                                 {slugParts.map((part, index) => {
                                     const href = '/' + slugParts.slice(0, index + 1).join('/')
                                     const isActive = index === slugParts.length - 1
                                     return (
                                         <React.Fragment key={href}>
+                                            {' '}
+                                            /{' '}
                                             <a
                                                 href={href}
                                                 className={isActive ? 'active' : undefined}
                                                 aria-current={isActive ? 'page' : undefined}
                                             >
                                                 {part}
-                                            </a>{' '}
-                                            {!isActive && '/ '}
+                                            </a>
                                         </React.Fragment>
                                     )
                                 })}
