@@ -127,6 +127,6 @@ function findOrCreateDirectoryNode(node: DirectoryNode, path: string[]): Directo
 }
 
 export async function parsePage(page: LoadedPage): Promise<ParsedPage> {
-    const { content, title, toc } = await markdownToHtml(page.body)
+    const { content, title, toc } = await markdownToHtml(page.body, page.path, page.isIndexPage)
     return { ...page, html: content, title, toc }
 }
