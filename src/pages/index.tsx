@@ -24,6 +24,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
                 title,
                 content,
                 toc,
+                lastUpdated: '',
             },
         }),
     }
