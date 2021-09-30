@@ -33,21 +33,23 @@ export async function getPagesSlug(): Promise<string[]> {
 }
 
 async function loadFileBySlug(slug: string): Promise<LoadedPage> {
-    const fullPathForIndexPage = join(pagesDirectory, slug, 'index.md')
+    const relativePathForIndexPage = join(slug, 'index.md')
+    const fullPathForIndexPage = join(pagesDirectory, relativePathForIndexPage)
     try {
         const body = await fs.readFile(fullPathForIndexPage, 'utf8')
         return {
             body,
-            path: fullPathForIndexPage,
+            path: relativePathForIndexPage,
             slug,
             isIndexPage: true,
         }
     } catch {
-        const fullPathForPage = join(pagesDirectory, `${slug}.md`)
+        const relativePathForPage = `${slug}.md`
+        const fullPathForPage = join(pagesDirectory, relativePathForPage)
         const body = await fs.readFile(fullPathForPage, 'utf8')
         return {
             body,
-            path: fullPathForPage,
+            path: relativePathForPage,
             slug,
             isIndexPage: false,
         }
@@ -56,7 +58,6 @@ async function loadFileBySlug(slug: string): Promise<LoadedPage> {
 
 export async function getPagesBySlug(slug: string, fields: string[] = []): Promise<LoadedPage> {
     const page = await loadFileBySlug(slug)
-
     const { data, content } = matter(page.body)
 
     return { ...page, frontMatter: data, body: content }
