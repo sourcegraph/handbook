@@ -1,0 +1,4 @@
+# See https://github.com/sourcegraph/codenotify for documentation
+
+product.md @sourcegraph/search-product
+core.md @sourcegraph/search-core
