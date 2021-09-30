@@ -122,6 +122,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# macOS
+.DS_Store
+
 # Generated at build time
 public/robots.txt
 public/sitemap.xml
