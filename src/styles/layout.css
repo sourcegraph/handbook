@@ -218,21 +218,6 @@ footer a {
     gap: 1rem;
 }
 
-#search-button {
-    background-color: var(--sg-plum-3);
-    color: #ffffff;
-    cursor: pointer;
-    border: 1px solid var(--sg-plum-3);
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-
-#search-button:hover,
-#search-button:active,
-#search-button:focus {
-    background-color: var(--sg-plum-4);
-}
-
 /* PAGE */
 @media (max-width: 900px) {
     .visible-sm {
