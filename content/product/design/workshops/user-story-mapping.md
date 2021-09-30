@@ -1,7 +1,8 @@
 # User story mapping workshop
 
 User story mapping is a fantastic technique for capturing a broad understanding of a project or effort and breaking it down into actionable milestones or iterations. Often, bigger efforts have complex dependencies that may not be easily understood in isolation. The user story mapping process helps the team to think about the effort with an underlying structure and ultimately decide how to approach the work.
-You can use whatever tools work for you—I’ve used physical whiteboards, Miro, Mural, and even Figma for this in the past, though I mostly use Miro at Sourcegraph. It’s less about the tools and more about the process.
+
+You can use whatever tools work for you—physical whiteboards, Miro, Mural, and even Figma. We mostly use Miro at Sourcegraph. It’s less about the tools and more about the process.
 
 ## Details
 
@@ -47,6 +48,8 @@ It's helpful to start workshops with some kind of warmup activity. These are usu
 A warmup that works really well for user story mapping workshops provides sticky notes with everyone’s name on them ready to go. They first need to find that sticky, and drag it to some other space on the canvas. Then, they should replace their name in the note with the name of a household object (like a “toaster”). Next, they should make a copy of the note, and then in that note, add a use for that object. With a 1-minute timer, everyone should then generate as many different possible uses for that object they can think of. Often, this can be pretty entertaining when folks run out of obvious uses and have to start being creative (a toaster can make toast, warm a croissant, kick off a Rube Goldberg machine, warm your feet…).
 
 When the timer’s up, we’ll go around and share which object we chose, and our top 3 uses. In Miro, the facilitator should use this to also “Bring everyone to me” when inviting someone to share.
+
+This warmup can be found ready to go in the [user story mapping workshop template](https://miro.com/app/board/o9J_lt5g2dk=/?invite_link_id=811943998911).
 
 By the end of the warmup, folks will:
 
