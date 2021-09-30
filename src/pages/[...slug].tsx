@@ -5,6 +5,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import React from 'react'
 
+import { TableOfContents } from '../components/TableOfContents'
 import { getPagesBySlug, loadAllPages, LoadedPage } from '../lib/api'
 import { CONTENT_FOLDER } from '../lib/constants'
 import markdownToHtml from '../lib/markdownToHtml'
@@ -34,9 +35,9 @@ export default function Page({ page }: PageProps): JSX.Element {
                 <title>{page.title}</title>
             </Head>
             <div className="container">
-                <nav id="index">
+                <nav id="right-sidebar">
                     <h4 className="sidebar-heading">On this page</h4>
-                    <TableOfContents toc={page.toc} />
+                    <TableOfContents toc={page.toc} className="table-of-contents" />
                     <a
                         className="page-btn"
                         href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}`}
@@ -80,21 +81,6 @@ export default function Page({ page }: PageProps): JSX.Element {
                 </div>
             </div>
         </>
-    )
-}
-
-function TableOfContents({ toc }: { toc: Toc }): JSX.Element {
-    return (
-        <ul>
-            {toc.map(node => (
-                <React.Fragment key={node.id}>
-                    <li>
-                        <a href={node.id && `#${node.id}`}>{node.value}</a>
-                    </li>
-                    {node.children && <TableOfContents toc={node.children} />}
-                </React.Fragment>
-            ))}
-        </ul>
     )
 }
 
