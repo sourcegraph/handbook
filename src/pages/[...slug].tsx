@@ -39,13 +39,13 @@ export default function Page({ page }: PageProps): JSX.Element {
                     <h4 className="sidebar-heading">On this page</h4>
                     <TableOfContents toc={page.toc} className="table-of-contents" />
                     <a
-                        className="page-btn"
+                        className="d-block py-1"
                         href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}`}
                     >
                         Edit this page
                     </a>{' '}
                     <a
-                        className="page-btn"
+                        className="d-block py-1"
                         href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}`}
                     >
                         History

@@ -8,11 +8,12 @@
 /* GLOBAL */
 :root {
     /* Wildcard Design System colors */
-    --gray-01: #F9FAFB;
-    --gray-02: #F0F1F2;
-    --gray-05: #A6B6D9;
-    --gray-07: #5E6E8C;
-    --gray-08: #343A4D;
+    --gray-01: #f9fafb;
+    --gray-02: #f0f1f2;
+    --gray-05: #a6b6d9;
+    --gray-04: #dbe2f0;
+    --gray-07: #5e6e8c;
+    --gray-08: #343a4d;
 
     /* Brand guideline colors */
     --sg-light-gray: #f4f7fb;
@@ -59,7 +60,7 @@
 
     --breakpoint-width: 900px;
     --text-color: var(--gray-08);
-    --link-color: #0B70DB;
+    --link-color: #0b70db;
     --link-hover-color: #1986ea;
     --link-active-color: #1986ea;
     --border-color: var(--gray-02);

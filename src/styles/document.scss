@@ -3,25 +3,23 @@
     #page .container {
         display: flex;
         flex-direction: row-reverse;
-        margin-top: 1rem;
     }
     #right-sidebar {
         flex: 1 1 calc(var(--width) * 0.15);
         position: sticky;
-        top: var(--header-height);
-        max-height: calc(100vh - var(--header-height) - 2 * var(--index-spacing));
+        top: calc(var(--header-height) + var(--index-margin-top));
+        max-height: calc(100vh - var(--header-height) - var(--index-margin-top));
     }
 }
 
 /* INDEX */
 :root {
-    --index-border-color: #dadcdf;
     --index-spacing: var(--spacing);
     --index-margin-top: 2rem;
 }
 #right-sidebar {
-    padding: var(--index-spacing);
     margin-top: var(--index-margin-top);
+    padding: 0.5rem 1rem;
     overflow-y: auto;
 }
 
@@ -47,6 +45,8 @@
 .table-of-contents {
     padding-left: 0;
     margin-left: -0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--gray-04);
 
     &,
     & ul {
@@ -89,19 +89,10 @@
 }
 
 #content > .breadcrumbs {
+    margin-top: 1rem;
     font-size: 0.875rem;
 }
 #content > .breadcrumbs > .active {
     color: inherit;
     opacity: 0.8;
-}
-
-/* PAGE BUTTON */
-.page-btn {
-    display: inline-block;
-    font-size: 90%;
-    color: inherit;
-    border: solid 1px var(--index-border-color);
-    padding: 0.2rem 0.4rem;
-    border-radius: 2px;
 }
