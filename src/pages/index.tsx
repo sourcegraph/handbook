@@ -1,7 +1,6 @@
 import { GetStaticProps } from 'next'
 
-// import { getPagesBySlug } from '../lib/api'
-
+import { getPagesBySlug } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
@@ -13,23 +12,17 @@ import Page, { PageProps } from './[...slug]'
  * because `[...slug]` doesn't match the root `/` path.
  */
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
-    const markdown = `
-        # Sourcegraph Handbook
+    // This resolves to `index.md` in the root of the content directory.
+    const page = await getPagesBySlug('/')
 
-        This is a placeholder file for the root index of the handbook.
-    `
-
-    const { content, title, toc } = await markdownToHtml(markdown)
+    const { content, title, toc } = await markdownToHtml(page.body || '')
 
     return {
         props: omitUndefinedFields({
             page: {
+                ...page,
                 title,
                 content,
-                body: '',
-                path: '',
-                slug: '',
-                isIndexPage: true,
                 toc,
             },
         }),
