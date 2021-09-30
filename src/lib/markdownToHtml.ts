@@ -1,3 +1,4 @@
+import * as path from 'path'
 import * as url from 'url'
 
 import rehypeExtractToc, { Toc } from '@stefanprobst/rehype-extract-toc'
@@ -18,7 +19,11 @@ import { VFile } from 'vfile'
 
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 
-export default async function markdownToHtml(markdown: string): Promise<{ content: string; title?: string; toc: Toc }> {
+export default async function markdownToHtml(
+    markdown: string,
+    contextUrlPath: string,
+    isIndexPage: boolean
+): Promise<{ content: string; title?: string; toc: Toc }> {
     const result = await unified()
         // Parse markdown
         .use(remarkParse)
@@ -31,7 +36,7 @@ export default async function markdownToHtml(markdown: string): Promise<{ conten
         // Trim .md suffix from links
         .use(rehypeUrl, {
             selectors: ['a[href]'],
-            inspectEach: rewriteLinkUrl,
+            inspectEach: urlMatch => rewriteLinkUrl(urlMatch, contextUrlPath, isIndexPage),
         })
         // Add IDs to headings
         .use(rehypeSlug)
@@ -49,17 +54,33 @@ export default async function markdownToHtml(markdown: string): Promise<{ conten
 /**
  * Rewrite links to `.md` files and to `index.md` files.
  */
-function rewriteLinkUrl(match: UrlMatch): void {
+function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: boolean): void {
     // Use lenient URL parser since the URL can be relative. Make sure to preserve hash fragment.
     const parsedUrl: url.UrlObject = url.parse(match.url)
     if (parsedUrl.hostname) {
         // Ignore absolute links
         return
     }
+
+    // index.md files are rendered as the output for the *parent* folder.
+    // Therefor links within the index.md files need to be rewritten to be relative to the parent folder,
+    // instead of relative to the index.md file.
+    if (
+        parsedUrl.pathname &&
+        !parsedUrl.pathname?.startsWith('/') &&
+        isOnIndexPage &&
+        contextUrlPath !== '' &&
+        contextUrlPath !== '/'
+    ) {
+        const baseName = path.posix.basename(contextUrlPath)
+        parsedUrl.pathname = `./${baseName}/${parsedUrl.pathname}`
+    }
+
     // Rewrite index.md references to point to the directory
     if (parsedUrl.pathname?.match(/(^|\/)index\.md$/)) {
         parsedUrl.pathname = url.resolve(parsedUrl.pathname, '.') || '.'
     }
+
     parsedUrl.pathname = parsedUrl.pathname
         // Remove .md suffix
         ?.replace(/\.md$/, '')

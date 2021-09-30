@@ -123,7 +123,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
             ))) ||
         []
 
-    const { content, title, toc } = await markdownToHtml(page.body || '')
+    const { content, title, toc } = await markdownToHtml(page.body || '', fullPath, page.isIndexPage)
 
     return {
         props: omitUndefinedFields({

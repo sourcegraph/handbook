@@ -15,7 +15,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
     // This resolves to `index.md` in the root of the content directory.
     const page = await getPagesBySlug('/')
 
-    const { content, title, toc } = await markdownToHtml(page.body || '')
+    const { content, title, toc } = await markdownToHtml(page.body || '', '', true)
 
     return {
         props: omitUndefinedFields({
