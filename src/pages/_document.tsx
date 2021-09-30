@@ -1,3 +1,4 @@
+import ExternalLinkIcon from 'mdi-react/ExternalLinkIcon'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import React from 'react'
 
@@ -78,27 +79,25 @@ export default class MyDocument extends Document {
                             <a href="/" id="logo">
                                 <img src="/static/sourcegraph-logo.svg" alt="Sourcegraph logo" />
                             </a>
-                            <nav>
-                                <form id="search-form" method="get" action="/search">
-                                    {/* <input type="search" id="search-input" name="q" value="{{block "query" .}}{{end}}" */}
-                                    <input
-                                        type="search"
-                                        id="search-input"
-                                        name="q"
-                                        defaultValue=""
-                                        placeholder="Search handbook..."
-                                        spellCheck="false"
-                                        className="st-default-search-input"
-                                    />
-                                    <button id="search-button" type="submit">
-                                        Search
-                                    </button>
-                                </form>
-                                <div>
-                                    <a href="https://about.sourcegraph.com">About Sourcegraph</a>
-                                    <a href="https://sourcegraph.com">Sourcegraph.com</a>
-                                </div>
-                            </nav>
+                            <form id="search-form" method="get" action="/search">
+                                <input
+                                    type="search"
+                                    id="search-input"
+                                    name="q"
+                                    defaultValue=""
+                                    placeholder="Quick search for anything"
+                                    spellCheck="false"
+                                    className="st-default-search-input"
+                                />
+                            </form>
+                            <div className="header-external-links">
+                                <a href="https://about.sourcegraph.com">
+                                    About Sourcegraph <ExternalLinkIcon size="1em" className="text-muted" />
+                                </a>{' '}
+                                <a href="https://sourcegraph.com">
+                                    Sourcegraph.com <ExternalLinkIcon size="1em" className="text-muted" />
+                                </a>
+                            </div>
                         </div>
                     </header>
 

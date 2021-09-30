@@ -54,7 +54,7 @@ export default function Page({ page }: PageProps): JSX.Element {
                     {page.content ? (
                         <>
                             <nav id="breadcrumbs" className="breadcrumbs" aria-label="Breadcrumbs">
-                                <a href="/">Home</a> /{' '}
+                                <a href="/">Handbook</a> /{' '}
                                 {slugParts.map((part, index) => {
                                     const href = '/' + slugParts.slice(0, index + 1).join('/')
                                     const isActive = index === slugParts.length - 1

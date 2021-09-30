@@ -1,5 +1,11 @@
 /* GLOBAL */
 :root {
+    /* Wildcard Design System colors */
+    --gray-01: #F9FAFB;
+    --gray-02: #F0F1F2;
+    --gray-05: #A6B6D9;
+    --gray-07: #5E6E8C;
+
     /* Brand guideline colors */
     --sg-light-gray: #f4f7fb;
     --sg-dark-gray: #6c757d;
@@ -45,18 +51,19 @@
 
     --breakpoint-width: 900px;
     --text-color: #242f30;
-    --link-color: #0055c5;
+    --link-color: #0B70DB;
     --link-hover-color: #1986ea;
     --link-active-color: #1986ea;
-    --border-color: #e1e3e8;
-    --body-bg: var(--sg-light-gray);
+    --border-color: var(--gray-02);
+    --body-bg: var(--gray-01);
     --header-bg: #ffffff;
+    --left-sidebar-width: 13.75rem;
+    --left-sidebar-margin-right: 3.75rem;
     --width: 1200px;
     --spacing: 1.25rem;
-    --logo-width: 120px;
-    --logo-height: 1.5rem;
+    --logo-height: 1.75rem;
     --logo-padding-y: 0.25rem;
-    --header-height: calc(3rem + 1px);
+    --header-height: 4.5rem;
 }
 body {
     margin: 0;
@@ -112,17 +119,19 @@ a:hover {
     top: 0;
     z-index: 1;
     background-color: var(--header-bg);
-    border-bottom: solid 1px var(--border-color);
-    padding-left: calc(0.5 * var(--spacing));
+    display: flex;
+    align-items: center;
 }
+
 #header > .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
 }
 #header #logo {
-    flex: 0 0;
+    flex: 0 0 auto;
+    width: var(--left-sidebar-width);
+    margin-right: var(--left-sidebar-margin-right);
     display: flex;
     align-items: center;
     white-space: nowrap;
@@ -133,7 +142,6 @@ a:hover {
     margin-right: 0.5rem;
 }
 #header #logo img {
-    width: var(--logo-width);
     height: var(--logo-height);
     margin-right: 7px;
 }
@@ -176,7 +184,8 @@ footer a {
 
 /* SEARCH */
 #search-form {
-    display: inline-flex;
+    flex: 1 1 auto;
+    display: flex;
     margin-bottom: 0;
     margin-right: 0.5rem;
 }
@@ -189,43 +198,24 @@ footer a {
 #search-input {
     -webkit-appearance: textfield;
     border: 1px solid var(--border-color);
-    border-radius: 0;
-    border-right: none;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    width: 30rem;
+    color: var(--gray-07);
+    border-radius: 6px;
+    height: 2.25rem;
+    padding: 0;
+    padding-left: 2.5rem;
     /* the styles below are related to the Swiftype search integration */
-    height: initial;
-    padding-left: 30px;
     font-family: var(--font-family);
     font-size: 1rem;
-    background-size: 1rem 1rem;
-    background-position: 0.5rem 0.6rem;
+    background-size: 1.25rem 1.25rem;
+    background-position: 0.75rem 0.5rem;
     background-image: url(https://unpkg.com/@mdi/svg@5/svg/magnify.svg);
     background-repeat: no-repeat;
     background-clip: padding-box;
 }
 
-@media (max-width: 465px) {
-    #search-input {
-        width: 15rem;
-    }
-
-    #header nav div {
-        margin-top: 1rem;
-    }
-}
-
-/* Account for wrapping nav */
-@media (max-width: 1029px) {
-    :root {
-        --header-height: 4.5rem;
-    }
-}
-@media (max-width: 754px) {
-    :root {
-        --header-height: 6.5rem;
-    }
+.header-external-links {
+    display: flex;
+    gap: 1rem;
 }
 
 #search-button {

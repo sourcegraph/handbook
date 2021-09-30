@@ -58,11 +58,7 @@
 #content {
     flex: 8 4;
     min-width: 0;
-    background-color: white;
-    padding: var(--spacing) var(--spacing) calc(3 * var(--spacing));
-    border-radius: 3px;
     margin-bottom: 1rem;
-    border: 1px solid var(--border-color);
 }
 
 #content > .breadcrumbs:empty {
@@ -70,10 +66,7 @@
 }
 
 #content > .breadcrumbs {
-    font-size: 90%;
-}
-#content > .breadcrumbs {
-    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
 }
 #content > .breadcrumbs > .active {
     color: inherit;

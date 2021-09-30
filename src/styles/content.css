@@ -354,11 +354,6 @@ abbr[title] {
     outline-width: 0;
 }
 
-.markdown-body h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
 .markdown-body img {
     border-style: none;
 }
@@ -520,10 +515,6 @@ abbr[title] {
     content: '';
 }
 
-.markdown-body > :first-child {
-    margin-top: 0 !important;
-}
-
 .markdown-body > :last-child {
     margin-bottom: 0 !important;
 }
@@ -612,7 +603,7 @@ abbr[title] {
 .markdown-body :is(h1, h2, h3, h4, h5, h6) {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.25;
 }
 
@@ -623,13 +614,14 @@ abbr[title] {
 
 .markdown-body h1,
 .markdown-body h2 {
-    padding-bottom: 0.3em;
-    border-bottom: 1px solid #eaecef;
+    margin-bottom: 1.5rem;
 }
 
 /* Brand Guideline H3 + bottom border. Anything larger would be too large/long for the page title. */
 .markdown-body h1 {
-    font-size: 1.875;
+    font-size: 2rem;
+    padding-bottom: 0.75em;
+    border-bottom: 2px solid #eaecef;
 }
 
 /* Deviation from Brand Guidelines, in between H3 and H4. */
@@ -680,7 +672,7 @@ abbr[title] {
 }
 
 .markdown-body li + li {
-    margin-top: 0.25em;
+    margin-top: 0.5em;
 }
 
 .markdown-body dl {
