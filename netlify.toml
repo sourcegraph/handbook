@@ -2,9 +2,6 @@
 command = "yarn run netlify-build"
 publish = "out"
 
-[[plugins]]
-package = "@netlify/plugin-nextjs"
-
 [functions]
 node_bundler = "esbuild"
 external_node_modules = ["@ampproject/toolbox-optimizer"]
