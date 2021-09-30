@@ -921,3 +921,41 @@ body:not(.is-docsite) .visible-product {
 .markdown-body .tone-sample h3 {
     margin-top: 0;
 }
+
+.edit-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #5e6e8c;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+.edit-title {
+    color: #343a4d;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.edit-seperator {
+    border: 1px solid #dbe2f0;
+    margin: 0;
+}
+
+.avatar-set {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatar {
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.12);
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    border-radius: 9999px;
+}
