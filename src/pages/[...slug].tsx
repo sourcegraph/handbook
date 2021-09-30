@@ -25,6 +25,7 @@ export interface PageWithMetadata extends LoadedPage {
     /** Rendered HTML. */
     content: string
     authors?: Author[]
+    lastUpdated?: string
 }
 
 export interface PageProps {
@@ -96,6 +97,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 
     const fullPath = getFullSlugPath(params.slug)
     const page = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
+    let lastUpdated: string
     const authors = await fetch(
         `https://api.github.com/repos/sourcegraph/handbook/commits?path=content/${page.path}`
     ).then(async response => {
@@ -103,6 +105,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
             commit: {
                 author: {
                     name: string
+                    date: string
                 }
             }
             author: {
@@ -113,6 +116,9 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
         }
 
         const commitData = (await response.json()) as GitHubCommitData[]
+
+        // GitHub returns most recent commit first, so just grab the first date
+        lastUpdated = commitData[0].commit.author.date
 
         return (
             commitData
@@ -141,6 +147,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
                 content,
                 toc,
                 authors,
+                lastUpdated,
             },
         }),
     }
