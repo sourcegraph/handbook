@@ -78,7 +78,7 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../ops/bizops/amplitude.md)
-- [Release blog post template](./release_blog_post_template.md)
+- [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
 
 ## References
 
