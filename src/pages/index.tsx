@@ -24,9 +24,12 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
     return {
         props: omitUndefinedFields({
             page: {
-                ...page,
                 title,
                 content,
+                body: '',
+                path: '',
+                slug: '',
+                isIndexPage: true,
                 toc,
             },
         }),
