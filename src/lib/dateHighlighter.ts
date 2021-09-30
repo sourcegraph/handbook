@@ -34,7 +34,7 @@ function formatDateTime(dateTime: string): string {
     }
 
     // Handle all other possible values with a lenient parser.
-    const parsed = parse(dateTime)[0]?.start
+    const parsed = parse(dateTime)?.[0]?.start
     if (!parsed) {
         return dateTime
     }

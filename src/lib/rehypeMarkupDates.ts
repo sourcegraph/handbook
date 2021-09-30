@@ -56,7 +56,7 @@ export const rehypeMarkupDates: Plugin = () => root =>
 
         if (onlyTimePattern.test(match)) {
             // Use a parser to handle timezone name references like UTC, PST, MT, ET, CET, CEST, ...
-            const parsed = parse(match)?.[0].start
+            const parsed = parse(match)?.[0]?.start
             if (!parsed) {
                 return match
             }
