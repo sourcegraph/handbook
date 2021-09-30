@@ -21,7 +21,8 @@
     }
 
     &:focus-within {
-        border-color: var(--link-color);
+        border-color: #0b70db;
+        box-shadow: 0 0 0 2px rgba(#0b70db, 0.5);
     }
 
     @include media-breakpoint-down(sm) {
