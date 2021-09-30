@@ -1,0 +1,13 @@
+$text-muted: var(--gray-05);
+
+@import 'bootstrap/scss/bootstrap';
+// @import 'bootstrap/scss/functions';
+// @import 'bootstrap/scss/variables';
+// @import 'bootstrap/scss/mixins';
+// @import 'bootstrap/scss/utilities';
+// @import 'bootstrap/scss/reboot';
+
+@import './layout.scss';
+@import './search.scss';
+@import './document.scss';
+@import './content.scss';

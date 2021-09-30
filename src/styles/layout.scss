@@ -1,10 +1,3 @@
-@import 'bootstrap/scss/bootstrap';
-// @import 'bootstrap/scss/functions';
-// @import 'bootstrap/scss/variables';
-// @import 'bootstrap/scss/mixins';
-// @import 'bootstrap/scss/utilities';
-// @import 'bootstrap/scss/reboot';
-
 /* GLOBAL */
 :root {
     /* Wildcard Design System colors */
@@ -176,41 +169,6 @@ footer a {
     padding: calc(0.25 * var(--spacing)) calc(0.5 * var(--spacing));
     margin-bottom: calc(0.75 * var(--spacing));
     margin-right: calc(0.75 * var(--spacing));
-}
-
-/* SEARCH */
-#search-form {
-    flex: 1 1 auto;
-    display: flex;
-    margin-bottom: 0;
-    margin-right: 0.5rem;
-}
-
-#search-input,
-#search-button {
-    padding: 0.3rem;
-}
-
-#search-input {
-    -webkit-appearance: textfield;
-    border: 1px solid var(--border-color);
-    color: var(--gray-07);
-    border-radius: 6px;
-    height: 2.25rem;
-    padding: 0;
-    padding-left: 2.5rem;
-    /* the styles below are related to the Swiftype search integration */
-    font-family: var(--font-family);
-    font-size: 1rem;
-    background-size: 1.25rem 1.25rem;
-    background-position: 0.75rem 0.5rem;
-    background-image: url(https://unpkg.com/@mdi/svg@5/svg/magnify.svg);
-    background-repeat: no-repeat;
-    background-clip: padding-box;
-
-    @include media-breakpoint-down(sm) {
-        flex: 1 1 100%;
-    }
 }
 
 .header-external-links {

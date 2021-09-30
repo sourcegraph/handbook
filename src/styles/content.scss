@@ -12,6 +12,16 @@ abbr[title] {
     cursor: help;
 }
 
+kbd {
+    border-radius: 4px;
+    border: 1px solid var(--gray-04);
+    color: var(--gray-07);
+    background: transparent;
+    font-size: 0.875em;
+    padding: 0.125em 0.375em;
+    border-radius: 4px;
+}
+
 .pre-wrap {
     white-space: pre-wrap;
 }

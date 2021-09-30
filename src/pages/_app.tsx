@@ -1,7 +1,4 @@
-import '../styles/layout.scss'
-import '../styles/document.scss'
-import '../styles/search.scss'
-import '../styles/content.scss'
+import '../styles/index.scss'
 import { AppProps } from 'next/dist/shared/lib/router/router'
 import Head from 'next/head'
 import Script from 'next/script';
@@ -12,6 +9,11 @@ import { registerDateTooltips } from '../lib/dateHighlighter'
 export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     useEffect(() => {
         registerDateTooltips()
+        window.addEventListener('keydown', event => {
+            if (event.key === 'k' && (event.metaKey || event.ctrlKey)) {
+                document.querySelector<HTMLButtonElement>('.search-button')!.click()
+            }
+        })
     }, [])
 
     return (

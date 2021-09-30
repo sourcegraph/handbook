@@ -1,4 +1,5 @@
 import ExternalLinkIcon from 'mdi-react/ExternalLinkIcon'
+import SearchIcon from 'mdi-react/SearchIcon'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import React from 'react'
 
@@ -32,17 +33,11 @@ export default class MyDocument extends Document {
                                 <img src="/static/sourcegraph-mark.svg" alt="" className="d-inline d-sm-none" />
                                 <img src="/static/sourcegraph-logo.svg" alt="" className="d-none d-sm-inline" />
                             </a>
-                            <form id="search-form" method="get" action="/search">
-                                <input
-                                    type="search"
-                                    id="search-input"
-                                    name="q"
-                                    defaultValue=""
-                                    placeholder="Quick search for anything"
-                                    spellCheck="false"
-                                    className="st-default-search-input"
-                                />
-                            </form>
+                            <button type="button" className="search-button st-search-show-outputs">
+                                <SearchIcon size="1.1em" className="text-muted" />
+                                Quick search for anything
+                                <kbd className="d-xs-none">⌘K</kbd>
+                            </button>
                             <div className="header-external-links">
                                 <a href="https://about.sourcegraph.com">
                                     About Sourcegraph <ExternalLinkIcon size="1em" className="text-muted" />
