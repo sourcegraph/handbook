@@ -132,7 +132,6 @@ a:hover {
 
 #header > .container {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
 }
 #header #logo {
@@ -146,26 +145,14 @@ a:hover {
     text-decoration: none;
     padding-top: var(--logo-padding-y);
     padding-bottom: var(--logo-padding-y);
-    margin-right: 0.5rem;
+
+    @include media-breakpoint-down(lg) {
+        width: auto;
+        margin-right: 1rem;
+    }
 }
 #header #logo img {
     height: var(--logo-height);
-    margin-right: 7px;
-}
-#header nav {
-    flex: 1 0;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-right: 0.25rem;
-    white-space: nowrap;
-}
-#header nav a {
-    padding: 0.25rem 0.4rem;
-    text-decoration: none;
 }
 
 /* FOOTER */
@@ -218,11 +205,19 @@ footer a {
     background-image: url(https://unpkg.com/@mdi/svg@5/svg/magnify.svg);
     background-repeat: no-repeat;
     background-clip: padding-box;
+
+    @include media-breakpoint-down(sm) {
+        flex: 1 1 100%;
+    }
 }
 
 .header-external-links {
     display: flex;
     gap: 1rem;
+
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
 }
 
 /* PAGE */

@@ -67,8 +67,9 @@ export default class MyDocument extends Document {
                     style="display:none;visibility:hidden"></iframe></noscript> */}
                     <header id="header">
                         <div className="container">
-                            <a href="/" id="logo">
-                                <img src="/static/sourcegraph-logo.svg" alt="Sourcegraph logo" />
+                            <a href="/" id="logo" aria-label="Handbook home">
+                                <img src="/static/sourcegraph-mark.svg" alt="" className="d-inline d-sm-none" />
+                                <img src="/static/sourcegraph-logo.svg" alt="" className="d-none d-sm-inline" />
                             </a>
                             <form id="search-form" method="get" action="/search">
                                 <input
