@@ -8,7 +8,6 @@ const nextConfig = {
   // See src/scripts/generate-redirects.js
   redirects: async () => {
     const movedPagesFromHistory = await getMovedPagesFromHistory()
-    console.log(movedPagesFromHistory)
     return movedPagesFromHistory.map(({ source, destination }) => ({
       source,
       destination,
