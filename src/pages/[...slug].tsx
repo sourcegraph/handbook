@@ -114,13 +114,20 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 
         const commitData = (await response.json()) as GitHubCommitData[]
 
-        return commitData.map(
-            ({ commit, author }): Author => ({
-                name: commit.author.name,
-                username: author.login,
-                avatar: author.avatar_url,
-                url: author.html_url,
-            })
+        return (
+            commitData
+                // filter for unique authors
+                .filter(
+                    (data, index, self) => index === self.findIndex(({ author }) => author.login === data.author.login)
+                )
+                .map(
+                    ({ commit, author }): Author => ({
+                        name: commit.author.name,
+                        username: author.login,
+                        avatar: author.avatar_url,
+                        url: author.html_url,
+                    })
+                )
         )
     })
 
