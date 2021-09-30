@@ -18,6 +18,8 @@ jobs:
   # Put everything under one job to not clutter the GitHub status checks list.
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_COLOR: 3
     steps:
       - uses: actions/checkout@v2
         with:
