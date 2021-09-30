@@ -4,6 +4,7 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 #### Quick links
 
+- [Code Graph overall direction](../index.md)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/119)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)

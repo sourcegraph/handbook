@@ -1,6 +1,6 @@
 # Code Graph
 
-The Code Graph organization comprises teams working on search, insights, code intelligence, and batch changes, and this page describes the overarching mission and strategy that ties them together. Each one also has an individual direction page, indexed from our [direction home page](../index.md#code-graph), that describes what they are working on and why in more detail.
+Code Graph comprises teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md). This page describes the overarching mission and strategy that ties them together, and each linked team also provides a detailed direction page with where they are headed next and why. There is also a whole-company [Sourcegraph direction](../index.md) available.
 
 ## Mission
 
@@ -22,7 +22,7 @@ We build the Code Graph to make working with code easier, regardless of how much
 
 ## Focus Areas
 
-We are focused on several themes to help make our one year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product area is delivering, take a look at the individual team direction pages, as indexed on our [direction home page](../index.md#code-graph)
+We are focused on several themes to help make our one year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product area is delivering, take a look at the individual team direction pages linked at the [top of this page](#code-graph).
 
 ### Make the power of the Code Graph easier to find and use
 

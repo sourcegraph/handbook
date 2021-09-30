@@ -4,6 +4,7 @@ Sourcegraph aims to be the best tool for universal code search, and the Search t
 
 Quicklinks:
 
+- [Code Graph overall direction](../index.md)
 - [Search Product backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fsearch-product/) <!-- Update links with your page -->
 - [Search Core backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fsearch-core)
 - [Completed goals](../../../engineering/code-graph/search/goals_completed.md))
