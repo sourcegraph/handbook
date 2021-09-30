@@ -12,7 +12,7 @@ jobs:
           FORCE_COLOR: 3
         with:
           use-quiet-mode: 'yes'
-          use-verbose-mode: 'yes'
+          use-verbose-mode: 'no'
           folder-path: ./content
           # Don't check external links, because those could go down without a change on our side,
           # making builds non-reproducable.
