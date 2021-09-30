@@ -16,23 +16,22 @@ export default class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap"
                         rel="stylesheet"
                     />
-                    {/* <script type="text/javascript" src="{{asset "scripts.js"}}"></script> */}
 
                     {/* Google Consent Mode and Cookiebot */}
                     <script
                         data-cookieconsent="ignore"
                         dangerouslySetInnerHTML={{
                             __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-              dataLayer.push(arguments);
-            }
-            gtag("consent", "default", {
-              ad_storage: "denied",
-              analytics_storage: "denied",
-              wait_for_update: 500
-            });
-            gtag("set", "ads_data_redaction", true);`,
+                                window.dataLayer = window.dataLayer || [];
+                                function gtag() {
+                                dataLayer.push(arguments);
+                                }
+                                gtag("consent", "default", {
+                                ad_storage: "denied",
+                                analytics_storage: "denied",
+                                wait_for_update: 500
+                                });
+                                gtag("set", "ads_data_redaction", true);`,
                         }}
                     />
 
@@ -41,15 +40,15 @@ export default class MyDocument extends Document {
                         data-cookieconsent="ignore"
                         dangerouslySetInnerHTML={{
                             __html: `(function (w, d, s, l, i) {
-              w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                  new Date().getTime(), event: 'gtm.js'
-              });
-              var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-              j.async = true;
-              j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-              f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-TB4NLS7');`,
+                                w[l] = w[l] || []; w[l].push({
+                                    'gtm.start':
+                                    new Date().getTime(), event: 'gtm.js'
+                                });
+                                var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                                j.async = true;
+                                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                                f.parentNode.insertBefore(j, f);
+                                })(window, document, 'script', 'dataLayer', 'GTM-TB4NLS7');`,
                         }}
                     />
 
@@ -63,8 +62,16 @@ export default class MyDocument extends Document {
                 </Head>
                 <body>
                     {/* Google Tag Manager (noscript) */}
-                    {/* <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB4NLS7" height="0" width="0"
-                    style="display:none;visibility:hidden"></iframe></noscript> */}
+                    <noscript>
+                        {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
+                        <iframe
+                            src="https://www.googletagmanager.com/ns.html?id=GTM-TB4NLS7"
+                            height="0"
+                            width="0"
+                            // eslint-disable-next-line react/forbid-dom-props
+                            style={{ display: 'none', visibility: 'hidden' }}
+                        />
+                    </noscript>
                     <header id="header">
                         <div className="container">
                             <a href="/" id="logo" aria-label="Handbook home">
@@ -122,15 +129,14 @@ export default class MyDocument extends Document {
                         type="text/javascript"
                         dangerouslySetInnerHTML={{
                             __html: `
-            (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-            (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-            e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-            })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+                                (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+                                (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+                                e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+                                })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
 
-            _st('install','JAPrEEBxHhYT4SnMJQmX','2.0.0');`,
+                                _st('install','JAPrEEBxHhYT4SnMJQmX','2.0.0');`,
                         }}
                     />
-                    {/* <script type="module" src="{{asset "dateHighlighter.js"}}"></script> */}
                 </body>
             </Html>
         )
