@@ -24,34 +24,56 @@
     margin-top: var(--index-margin-top);
     overflow-y: auto;
 }
+
+.sidebar-heading {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+
 @media (min-width: 900px) {
     #index {
         max-width: 17rem;
     }
 }
-#index > h3.version {
-    font-weight: bold;
-    font-size: 100%;
-    opacity: 0.7;
-    margin-bottom: 0;
-}
-#index > h4 {
-    opacity: 0.8;
-    font-weight: normal;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-#index > ul {
-    margin-top: 0.75rem;
-    margin-bottom: 1rem;
-}
 
-#index > ul ul {
-    margin-top: 0.25rem;
-    padding-left: 20px;
-}
-#index > ul li {
-    margin-bottom: 0.25rem;
+#index {
+    margin-left: 3.75rem;
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    a {
+        color: var(--gray-07);
+        display: block;
+        border-radius: 4px;
+        padding: 0.25rem 0.5rem;
+        &:hover {
+            text-decoration: none;
+            background: var(--gray-02);
+        }
+    }
+
+    > ul {
+        margin-left: -0.5rem;
+        ul {
+            padding-left: 1.5rem;
+        }
+        li {
+        }
+        > ul {
+            padding-left: 0;
+        }
+    }
+
+    > ul > li:first-child {
+        font-weight: 600;
+    }
 }
 
 /* CONTENT */

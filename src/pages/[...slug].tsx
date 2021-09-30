@@ -35,7 +35,7 @@ export default function Page({ page }: PageProps): JSX.Element {
             </Head>
             <div className="container">
                 <nav id="index">
-                    <h4>On this page:</h4>
+                    <h4 className="sidebar-heading">On this page</h4>
                     <TableOfContents toc={page.toc} />
                     <a
                         className="page-btn"

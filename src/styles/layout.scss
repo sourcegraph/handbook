@@ -12,6 +12,7 @@
     --gray-02: #F0F1F2;
     --gray-05: #A6B6D9;
     --gray-07: #5E6E8C;
+    --gray-08: #343A4D;
 
     /* Brand guideline colors */
     --sg-light-gray: #f4f7fb;
@@ -57,7 +58,7 @@
     --font-family-code: 'Source Code', monospace;
 
     --breakpoint-width: 900px;
-    --text-color: #242f30;
+    --text-color: var(--gray-08);
     --link-color: #0B70DB;
     --link-hover-color: #1986ea;
     --link-active-color: #1986ea;
