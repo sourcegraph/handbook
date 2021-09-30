@@ -33,11 +33,15 @@ export default class MyDocument extends Document {
                                 <img src="/static/sourcegraph-mark.svg" alt="" className="d-inline d-sm-none" />
                                 <img src="/static/sourcegraph-logo.svg" alt="" className="d-none d-sm-inline" />
                             </a>
-                            <button type="button" className="search-button st-search-show-outputs">
-                                <SearchIcon size="1.1em" className="text-muted" />
-                                Quick search for anything
-                                <kbd className="d-xs-none">⌘K</kbd>
-                            </button>
+                            <form className="search-field">
+                                <SearchIcon size="1.1em" className="text-muted search-icon" />
+                                <input
+                                    type="search"
+                                    placeholder="Quick search for anything"
+                                    className="search-input st-default-search-input"
+                                />
+                                <kbd className="d-xs-none search-shortcut">⌘K</kbd>
+                            </form>
                             <div className="header-external-links">
                                 <a href="https://about.sourcegraph.com">
                                     About Sourcegraph <ExternalLinkIcon size="1em" className="text-muted" />
