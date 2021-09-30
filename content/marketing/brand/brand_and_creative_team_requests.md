@@ -30,7 +30,7 @@ _Have questions about the form or need help filling it out? Email us at brand@so
 - Brand management, brand identity design, logos, lockups, colors, etc.
 - Brand strategy, naming, positioning, packaging, narrative and market research
   See [Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives
-- [Maintain and update Sourcegraph brand guidelines](brand_guidelines.md) and brand assets
+- [Maintain and update Sourcegraph brand guidelines](brand_guidelines/index.md) and brand assets
 
 ### Design
 

@@ -2,7 +2,7 @@
 
 ## Sourcegraph deployments
 
-Internal deployments are documented in the [deployments](../deployments.md).
+Internal deployments are documented in the [deployments](../deployments/index.md).
 
 ## Code host testing instances
 

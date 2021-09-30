@@ -8,7 +8,7 @@ As of 2021-09-13 [we reorganized the product and engineering teams](https://docs
 
 <!-- Our markdown renderer is not spec-compliant and needs 4 spaces of indentation for nested lists, therefor we need to prettier-ignore. -->
 <!-- prettier-ignore -->
-- [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](../../handbook/engineering/roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
+- [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](./roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
   - [Code graph](./code-graph/index.md)
       - [Search core](./code-graph/search/core.md)
       - [Search product](./code-graph/search/product.md)

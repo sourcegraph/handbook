@@ -21,7 +21,7 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Careers](https://boards.greenhouse.io/sourcegraph91)
 - [CEO](ceo/index.md)
 - [Communication](communication/index.md)
-  - [Content guidelines](communication/content_guidelines.md)
+  - [Content guidelines](communication/content_guidelines/index.md)
 - [Customer-first](company/customer-first.md)
 
 ## Teams at Sourcegraph
@@ -75,7 +75,7 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Creating and editing blog posts](marketing/content/creating_blog_posts.md)
   - [Blog Hackathon](marketing/content/blog_hackathon.md)
 - [Demand Gen](marketing/demand-gen/index.md)
-- [Developer Education](marketing/education.md)
+- [Developer Education](marketing/education/index.md)
 - [Brand](marketing/brand/index.md)
 - [Community Relations](marketing/community_relations.md)
 

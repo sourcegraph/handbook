@@ -6,7 +6,7 @@
 2. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
 3. [The Team](#the-team)
 4. [Capabilities](#capabilities)
-5. [Brand Guidelines](brand_guidelines.md)
+5. [Brand Guidelines](brand_guidelines/index.md)
 6. [Brand and Creative Request Forms](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests)
 7. [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
 8. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
@@ -35,7 +35,7 @@ Projects are categorized on a 5-tier basis based on strategy, scope, and visibil
 
 The Brand Team works closely with Product, Sales, Marketing, People, and Operations teams org-wide (among others), and is a key stakeholder in overall organizational messaging, strategy, and outbound engagement initiatives, as well as internally-facing messaging and branded programs or experiences.
 
-Our team acts as liaison or point-of-contact with external entities when producing branded content, sponsorships, or partnerships in accordance with [Sourcegraph’s Brand Guidelines](brand_guidelines.md).
+Our team acts as liaison or point-of-contact with external entities when producing branded content, sponsorships, or partnerships in accordance with [Sourcegraph’s Brand Guidelines](brand_guidelines/index.md).
 
 Our company values can be found [here](../../company/values.md). Our Brand Creative Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
 
@@ -79,7 +79,7 @@ _Branding_
 - Brand management, brand identity design, logos, lockups, colors, etc.
 - Brand strategy, naming, positioning, packaging, narrative and market research
   - [See Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives
-- Maintain and update [Sourcegraph Brand Guidelines](brand_guidelines.md) and brand assets
+- Maintain and update [Sourcegraph Brand Guidelines](brand_guidelines/index.md) and brand assets
 
 _Design_
 
@@ -115,7 +115,7 @@ _Copy_
 
 - Maintain and update brand style guide, voice and tone
 - Copywriting, editing and proofing for social media, ads, website, scripts, etc.
-- For blog posts, white papers, e-books, and other long-form serial content, please go to [Content Marketing](../content.md)
+- For blog posts, white papers, e-books, and other long-form serial content, please go to [Content Marketing](../content/index.md)
 
 ## Additional resources
 

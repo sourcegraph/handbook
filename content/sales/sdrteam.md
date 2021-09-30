@@ -32,7 +32,7 @@ More SDRs coming soon...
 
 ## Inbound Workflow
 
-See [How we use Salesforce](../../handbook/sales/salesforce/index.md#how-we-use-salesforce) to learn more about SDR Inbound Workflow.
+See [How we use Salesforce](./salesforce.md#how-we-use-salesforce) to learn more about SDR Inbound Workflow.
 
 ## Outbound Workflow
 

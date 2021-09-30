@@ -8,7 +8,7 @@
 - [Asynchronous work](asynchronous-communication.md)
 - [Goals](goals/index.md)
 - [Strategy](strategy.md)
-- [Team](team.md)
+- [Team](team/index.md)
 - [Values](values.md)
 - [Being a customer-first company](customer-first.md)
 
@@ -34,4 +34,4 @@ Open company doesn't mean that everything is public; only principles, strategies
 
 ## Open source
 
-To learn more about what **open source** means at Sourcegraph, see the [open source FAQs](../../handbook/community/faq.md) and [license documentation](https://github.com/sourcegraph/sourcegraph#license).
+To learn more about what **open source** means at Sourcegraph, see the [open source FAQs](../community/faq.md) and [license documentation](https://github.com/sourcegraph/sourcegraph#license).

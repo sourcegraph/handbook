@@ -40,7 +40,7 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 ### [Sales team](../../sales/index.md#members)
 
-### [SDR team](../../sales/sdrteam/index.md#members)
+### [SDR team](../../sales/sdrteam.md#members)
 
 ### [Sales strategy & operations](../../sales/sales-ops/index.md#members)
 

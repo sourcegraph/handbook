@@ -47,7 +47,7 @@ Our current process is as follows:
 
 ### Releases
 
-Despite following two-week iterations, our [releases are monthly on the 20th](../../releases.md#releases) and we may sometimes need to order tasks in a way that we can get important projects into the next release.
+Despite following two-week iterations, our [releases are monthly on the 20th](../../releases/index.md#releases) and we may sometimes need to order tasks in a way that we can get important projects into the next release.
 
 We also intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM.
 

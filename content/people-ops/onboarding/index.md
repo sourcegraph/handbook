@@ -89,7 +89,7 @@ See [General onboarding checklist](general_onboarding.md).
 
 ## Team specific onboarding
 
-- [Engineers](../../engineering/onboarding.md)
+- [Engineers](../../engineering/onboarding/index.md)
 - [Customer Engineers](../../ce/onboarding.md)
 - [Customer Support Engineers](../../support/customer-support-onboarding.md)
 - [Customer Support Managers](../../support/customer-support-manager-onboarding.md)

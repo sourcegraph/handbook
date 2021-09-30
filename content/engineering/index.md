@@ -1,6 +1,6 @@
 # Engineering
 
-- [Onboarding](onboarding.md)
+- [Onboarding](onboarding/index.md)
 - [Principles and practices](principles-and-practices.md)
 - [Engineering management](engineering-management.md)
 - RFCs (requests for comment)

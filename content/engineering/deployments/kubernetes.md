@@ -31,7 +31,7 @@ If you see the following when running `kubectl` commands:
 
 > Unable to connect to the server: x509: certificate signed by unknown authority
 
-Just run the appropriate `gcloud container clusters get-credentials` command listed at the [top of this document](../deployments.md#deployments) again to reauthenticate.
+Just run the appropriate `gcloud container clusters get-credentials` command listed at the [top of this document](../deployments/index.md#deployments) again to reauthenticate.
 
 ## Scaling Kubernetes clusters
 

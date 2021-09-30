@@ -16,7 +16,7 @@ Working groups bring structure and clarity on delivering a specific outcome. A w
 Like any structure, it creates some overhead, so we should avoid superfluous working groups. Before creating one consider:
 
 - is the initiative critical to achieving our goals?
-- does the initiative require sustained work and coordination over time? If you just need review and alignment, consider writing an [RFC](rfcs.md).
+- does the initiative require sustained work and coordination over time? If you just need review and alignment, consider writing an [RFC](rfcs/index.md).
 - is the initiative important for multiple teams or functions?
 - are existing communication channels insufficient to achieve the outcome?
 
@@ -42,6 +42,6 @@ After the outcome has been achieved, or after a given time period has elapsed, t
 
 When you end the working group
 
-- run a [retrospective](../retrospectives.md) if it's useful
+- run a [retrospective](../retrospectives/index.md) if it's useful
 - write and share a wrap up, share the final outcome
 - archive the Slack channel

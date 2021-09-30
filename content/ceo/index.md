@@ -28,7 +28,7 @@ See "[Roles of the CEO](roles.md)".
 
 ### Scheduling time with me
 
-If possible, let's talk [asynchronously and publicly](../communication.md). If you need to schedule a time to speak with me, the best way is to contact Katerina Nikolova, my Chief of Staff.
+If possible, let's talk [asynchronously and publicly](../communication/index.md). If you need to schedule a time to speak with me, the best way is to contact Katerina Nikolova, my Chief of Staff.
 
 My preferred working hours are 08:00-17:30 US Pacific Time.
 
@@ -41,7 +41,7 @@ If you need me to review something (such as a blog post or plan), please state:
 
 This is to avoid me jumping in and making low-level wording fixes when you're looking for high-level strategy input.
 
-If the document to be reviewed isn't private, please post the review request with the context above [publicly](../communication.md). Other people involved may have relevant context of their own to share.
+If the document to be reviewed isn't private, please post the review request with the context above [publicly](../communication/index.md). Other people involved may have relevant context of their own to share.
 
 ### Asking me to send an email
 

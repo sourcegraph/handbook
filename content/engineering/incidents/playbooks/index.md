@@ -25,7 +25,7 @@ Certain states like `Terminated` is not very clearly indicated in Google Cloud C
 
 ## Restarting pods
 
-This action is also referred to as "bouncing pods" or to "bounce a pod". Follow the steps to [authenticate kubectl](../../deployments.md) and perform a restart using kubectl to restart the desired deployment:
+This action is also referred to as "bouncing pods" or to "bounce a pod". Follow the steps to [authenticate kubectl](../../deployments/index.md) and perform a restart using kubectl to restart the desired deployment:
 
 ```sh
 kubectl rollout restart deployment/$SERVICE
@@ -156,7 +156,7 @@ We provide two sets of instructions here, shell commands and PostgreSQL commands
 
 ### Shell commands
 
-These commands assume you're on a local machine, and trying to access the live systems. Also refer to the [deployment page's Kubernetes section](../../deployments.md#kubernetes) for kubectl tips.
+These commands assume you're on a local machine, and trying to access the live systems. Also refer to the [deployment page's Kubernetes section](../../deployments/index.md#kubernetes) for kubectl tips.
 
 #### Helpful aliases
 
