@@ -254,9 +254,7 @@ If you want to upload a large file (such as a large image, video, or audio recor
 
 When adding a link to another handbook page, it is best practise to use relative paths. A relative path refers to a location that is relative to a current directory. You can take a look at this video of Jean explaining relative paths and how they work.
 
-<iframe src="https://drive.google.com/file/d/1V84J62tCZuqq8BZKCdq9pJMT9bVb5rmY/preview" width="640" height="480" allow="autoplay"></iframe>
-
-You can also watch [it in Zoom](https://sourcegraph.zoom.us/rec/play/WCRDO_j9x4xw50xsjzBCWKIrL7eoAGBmDDOj7rdjkCIiDpRJ43rArVqrUy1tt4ybpg6fG9FEE0Flv49c.VqDasC2HEHZwRvFv?continueMode=true&_x_zm_rtaid=d0smscs5STuq8vNmHv40bg.1626856634998.9c37f9d9e5d2185652ba07f389dddf2d&_x_zm_rhtaid=329) with audio transcript.
+<video controls src="https://sourcegraphstatic.com/sourcegraph-assets/handbook/Relative paths in the handbook.mp4"></video>
 
 To sum up, the path described the location of the file, naming every directory before the file (called .md). Relative paths are a way of indicating where the file is. The program that reads the relative paths interprets links from where it is at the moment, so we need to make sure to indicate if the directory is different to the one we are at the moment.
 
