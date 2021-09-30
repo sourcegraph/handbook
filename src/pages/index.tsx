@@ -12,10 +12,13 @@ import Page, { PageProps } from './[...slug]'
  * because `[...slug]` doesn't match the root `/` path.
  */
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
-    // This resolves to `index.md` in the root of the content directory.
-    const page = await getPagesBySlug('/')
+    const markdown = `
+        # Sourcegraph Handbook
 
-    const { content, title, toc } = await markdownToHtml(page.body || '')
+        This is a placeholder file for the root index of the handbook.
+    `
+
+    const { content, title, toc } = await markdownToHtml(markdown)
 
     return {
         props: omitUndefinedFields({
