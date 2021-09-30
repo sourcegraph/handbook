@@ -11,7 +11,24 @@ interface EditSectionProps {
 
 const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
     if (!page.authors) {
-        return null
+        return (
+            <section className="edit-section">
+                <div>
+                    Updated 2 days ago •{' '}
+                    <Link
+                        href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}.md`}
+                    >
+                        History
+                    </Link>
+                </div>
+
+                <hr className="edit-seperator" />
+
+                <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}.md`}>
+                    Edit this page on GitHub
+                </Link>
+            </section>
+        )
     }
 
     const AVATARS_TO_DISPLAY = 3

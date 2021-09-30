@@ -24,7 +24,7 @@ export interface PageWithMetadata extends LoadedPage {
 
     /** Rendered HTML. */
     content: string
-    authors: Author[]
+    authors?: Author[]
 }
 
 export interface PageProps {
@@ -90,39 +90,39 @@ function getFullSlugPath(slug: string | string[]): string {
 }
 
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
-    const fullPath = getFullSlugPath(params.slug!)
+    if (!params || !params.slug) {
+        throw new Error('Missing slug')
+    }
+
+    const fullPath = getFullSlugPath(params.slug)
     const page = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
-    const remotePath = page.path.match(/content\/(.*)/)
-    const authors =
-        (remotePath &&
-            (await fetch(`https://api.github.com/repos/sourcegraph/handbook/commits?path=${remotePath[0]}`).then(
-                async response => {
-                    interface GitHubCommitData {
-                        commit: {
-                            author: {
-                                name: string
-                            }
-                        }
-                        author: {
-                            login: string
-                            avatar_url: string
-                            html_url: string
-                        }
-                    }
-
-                    const commitData = (await response.json()) as GitHubCommitData[]
-
-                    return commitData.map(
-                        ({ commit, author }): Author => ({
-                            name: commit.author.name,
-                            username: author.login,
-                            avatar: author.avatar_url,
-                            url: author.html_url,
-                        })
-                    )
+    const authors = await fetch(
+        `https://api.github.com/repos/sourcegraph/handbook/commits?path=content/${page.path}`
+    ).then(async response => {
+        interface GitHubCommitData {
+            commit: {
+                author: {
+                    name: string
                 }
-            ))) ||
-        []
+            }
+            author: {
+                login: string
+                avatar_url: string
+                html_url: string
+            }
+        }
+
+        const commitData = (await response.json()) as GitHubCommitData[]
+
+        return commitData.map(
+            ({ commit, author }): Author => ({
+                name: commit.author.name,
+                username: author.login,
+                avatar: author.avatar_url,
+                url: author.html_url,
+            })
+        )
+    })
 
     const { content, title, toc } = await markdownToHtml(page.body || '', fullPath, page.isIndexPage)
 
