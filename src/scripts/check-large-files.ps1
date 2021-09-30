@@ -4,7 +4,7 @@ param (
     [string] $BaseRef,
 
     [Parameter(Mandatory)]
-    [number] $PullRequestNumber,
+    [int] $PullRequestNumber,
 
     [Parameter(Mandatory)]
     [SecureString] $GitHubToken
