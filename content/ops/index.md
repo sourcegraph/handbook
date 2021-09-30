@@ -1,9 +1,6 @@
 # Operations
 
 - [Onboarding](onboarding.md)
-- Operations RFCs (requests for comment)
-  - [All operations RFC documents](https://drive.google.com/drive/folders/1BFW91sECBDIyrq2XLm5zEgJjfadpDpaR) (Google Drive)
-  - [How we use operations RFCs](ops-rfcs.md)
 
 ## Mission
 
