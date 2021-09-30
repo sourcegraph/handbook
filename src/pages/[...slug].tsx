@@ -11,7 +11,7 @@ import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
 interface PageWithMetadata extends LoadedPage {
-    title: string
+    title?: string
     toc: Toc
 
     /** Rendered HTML. */
@@ -89,7 +89,7 @@ function TableOfContents({ toc }: { toc: Toc }): JSX.Element {
             {toc.map(node => (
                 <React.Fragment key={node.id}>
                     <li>
-                        <a href={'#' + node.id}>{node.value}</a>
+                        <a href={node.id && `#${node.id}`}>{node.value}</a>
                     </li>
                     {node.children && <TableOfContents toc={node.children} />}
                 </React.Fragment>
@@ -106,7 +106,7 @@ function getFullSlugPath(slug: string | string[]): string {
 }
 
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
-    const fullPath = getFullSlugPath(params.slug)
+    const fullPath = getFullSlugPath(params!.slug!)
     const page = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
 
     const { content, title, toc } = await markdownToHtml(page.body || '')

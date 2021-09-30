@@ -3,7 +3,7 @@ import tippy from 'tippy.js'
 
 export function registerDateTooltips(): void {
     tippy('time', {
-        content: getDateTooltip,
+        content: element => getDateTooltip(element as HTMLTimeElement),
         placement: 'bottom-start',
         arrow: false,
         duration: 0,

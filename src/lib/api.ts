@@ -20,7 +20,7 @@ export interface LoadedPage extends Page {
 }
 
 export interface ParsedPage extends LoadedPage {
-    title: string
+    title?: string
     toc: Toc
     html: string
 }
@@ -54,7 +54,7 @@ async function loadFileBySlug(slug: string): Promise<LoadedPage> {
     }
 }
 
-export async function getPagesBySlug(slug, fields = []): Promise<LoadedPage> {
+export async function getPagesBySlug(slug: string, fields: string[] = []): Promise<LoadedPage> {
     const page = await loadFileBySlug(slug)
 
     const { data, content } = matter(page.body)
@@ -62,7 +62,7 @@ export async function getPagesBySlug(slug, fields = []): Promise<LoadedPage> {
     return { ...page, frontMatter: data, body: content }
 }
 
-export async function loadAllPages(fields = []): Promise<LoadedPage[]> {
+export async function loadAllPages(fields: string[] = []): Promise<LoadedPage[]> {
     const slugs = await getPagesSlug()
     const pages = slugs.map(slug => getPagesBySlug(slug, fields))
     // sort pages by date in descending order

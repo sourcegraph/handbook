@@ -483,6 +483,11 @@
   resolved "https://registry.npmjs.org/@sourcegraph/prettierrc/-/prettierrc-3.0.3.tgz#51bfa9b2588fe35121593fa877143e6373028289"
   integrity sha512-FQ1/Ued4I02R0JkrHHofDN163juVxUnPALzfxPZrDZUHv+c3jHjfZhmTHEz+Wd+g3b7MFk0fkj36nZSnvPyU8A==
 
+"@sourcegraph/tsconfig@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/@sourcegraph/tsconfig/-/tsconfig-4.0.1.tgz#5965ec41771d2ac5b23b6e0d919cee3e70485840"
+  integrity sha512-G/xsejsR84G5dj3kHJ7svKBo9E5tWl96rUHKP94Y2UDtA7BzUhAYbieM+b9ZUpIRt66h3+MlYbG5HK4UI2zDzw==
+
 "@stefanprobst/rehype-extract-toc@^2.0.1":
   version "2.0.1"
   resolved "https://registry.npmjs.org/@stefanprobst/rehype-extract-toc/-/rehype-extract-toc-2.0.1.tgz#4fa8cd5976425d99d69c55bb6acfe7eee4ee41cb"

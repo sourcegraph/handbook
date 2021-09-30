@@ -33,8 +33,6 @@ interface IndexProps {
     tree: DirectoryNode<ParsedPage>
 }
 export default function Index({ allPages, tree }: IndexProps): JSX.Element {
-    const heroPost = allPages[0]
-    const morePosts = allPages.slice(1)
     return (
         <div className="container">
             <section id="content">

@@ -1,6 +1,7 @@
 import { parse } from 'chrono-node'
 import { findAndReplace, Node } from 'hast-util-find-and-replace'
 import { h } from 'hastscript'
+import { Element } from 'hastscript/lib/core'
 import { Plugin } from 'unified'
 
 // For examples, see:
@@ -45,7 +46,8 @@ const datePattern = new RegExp(
  */
 // eslint-disable-next-line unicorn/consistent-function-scoping
 export const rehypeMarkupDates: Plugin = () => root =>
-    findAndReplace(root as Node, datePattern, (match: string) => {
+    findAndReplace(root as Node, datePattern, (argument1: unknown): Element | string => {
+        const match = argument1 as string
         const fiscalInterval = parseFiscalInterval(match)
         if (fiscalInterval) {
             return h('time', { datetime: fiscalInterval.start, 'data-interval-end': fiscalInterval.end }, match)
@@ -58,16 +60,16 @@ export const rehypeMarkupDates: Plugin = () => root =>
             if (!parsed) {
                 return match
             }
-            dateTime = `${formatInt(parsed.get('hour'), 2)}:${formatInt(parsed.get('minute'), 2)}`
+            dateTime = `${formatInt(parsed.get('hour')!, 2)}:${formatInt(parsed.get('minute')!, 2)}`
             if (parsed.isCertain('second')) {
-                dateTime += `:${parsed.get('second')}`
+                dateTime += `:${parsed.get('second')!}`
             }
             if (parsed.isCertain('timezoneOffset')) {
-                dateTime += `:${parsed.get('timezoneOffset')}`
+                dateTime += `:${parsed.get('timezoneOffset')!}`
             }
         }
 
-        return h('time', { datetime: match }, match)
+        return h('time', { datetime: dateTime }, match)
     })
 
 const fiscalIntervalPattern = new RegExp(`^(?:${fiscalYearPattern.source}|${fiscalQuarterPattern.source})$`)

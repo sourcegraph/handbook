@@ -96,6 +96,7 @@
   "devDependencies": {
     "@sourcegraph/eslint-config": "^0.25.1",
     "@sourcegraph/prettierrc": "^3.0.3",
+    "@sourcegraph/tsconfig": "^4.0.1",
     "@types/react": "^17.0.24",
     "eslint": "^7.32.0",
     "markdown-link-check": "^3.8.7",

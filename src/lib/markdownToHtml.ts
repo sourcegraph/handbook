@@ -1,8 +1,9 @@
 import * as url from 'url'
 
 import rehypeExtractToc, { Toc } from '@stefanprobst/rehype-extract-toc'
-import { Root as HastRoot } from 'hast'
+import { Node } from 'hast'
 import { select } from 'hast-util-select'
+import { HastNode } from 'hast-util-select/lib/types'
 import { toString } from 'hast-util-to-string'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeRaw from 'rehype-raw'
@@ -50,7 +51,7 @@ export default async function markdownToHtml(markdown: string): Promise<{ conten
  */
 function rewriteLinkUrl(match: UrlMatch): void {
     // Use lenient URL parser since the URL can be relative. Make sure to preserve hash fragment.
-    const parsedUrl = url.parse(match.url)
+    const parsedUrl: url.UrlObject = url.parse(match.url)
     if (parsedUrl.hostname) {
         // Ignore absolute links
         return
@@ -66,15 +67,15 @@ function rewriteLinkUrl(match: UrlMatch): void {
         // earlier to save a redirect
         .replace(/\/$/, '')
 
-    match.node.properties.href = url.format(parsedUrl)
+    match.node.properties!.href = url.format(parsedUrl)
 }
 
 /**
  * For parity with Docsite, extract the title from the first H1 heading.
  */
 const rehypeExtractTitleFromH1: Plugin = () =>
-    function transformer(tree: HastRoot, file: VFile) {
-        const titleElement = select('h1', tree)
+    function transformer(tree: Node, file: VFile) {
+        const titleElement = select('h1', tree as HastNode)
         if (titleElement) {
             file.data.title = toString(titleElement)
         }
