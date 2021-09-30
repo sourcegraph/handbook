@@ -19,7 +19,7 @@ interface PageWithMetadata extends LoadedPage {
     content: string
 }
 
-interface PageProps {
+export interface PageProps {
     page: PageWithMetadata
 }
 
