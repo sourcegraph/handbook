@@ -1,7 +1,9 @@
 import { GetStaticProps } from 'next'
+
 import { getPagesBySlug } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
+
 import Page, { PageProps } from './[...slug]'
 
 /**
