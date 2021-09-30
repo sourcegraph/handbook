@@ -13,7 +13,7 @@ This is the area of responsibility for each organization:
 
 - Sales is responsible for establishing, retaining, and growing our commercial relationship with customers.
 - Customer Engineering (aka CE) is responsible for educating our users on how to use Sourcegraph, providing proactive technical expertise, and is overall accountable for our customers’ success, usage, and adoption of our products.
-- Customer Support (aka CS) is responsible for satisfying support SLAs for customers pre-sales (1 hour) and post-sales (defined contractual [SLAs](https://about.sourcegraph.com/handbook/support#slas)) between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (this will expand to 24/5 support as the team grows over the course of FY22).
+- Customer Support (aka CS) is responsible for satisfying support SLAs for customers pre-sales (1 hour) and post-sales (defined contractual [SLAs](https://about.sourcegraph.com/handbook/support#slas)) between 9:00 UTC - 0:00 UTC (2am PT - 5pm PT) Monday-Friday (this will expand to 24/5 support as the team grows over the course of FY22).
 - Product is responsible for the overall success of the product, including prioritization of support-driven, eng-driven, and product-driven efforts
 - Engineering is responsible for giving accurate time estimates (necessary for effective prioritization) and providing enough engineering capacity to respond to interrupts (high-urgency bug fix requests filed by CS).
 
