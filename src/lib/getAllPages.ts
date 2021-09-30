@@ -1,7 +1,7 @@
 import globby from 'globby'
 
 function markdownFilePathToPagePath(markdownFilePath: string): string {
-    if (markdownFilePath.endsWith('index.md')) {
+    if (markdownFilePath.endsWith('/index.md')) {
         return markdownFilePath.replace(/\/index.md$/, '')
     }
 
