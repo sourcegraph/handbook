@@ -9,7 +9,7 @@ export default async function getGitHistory(
 ): Promise<(Record<'hash' | 'authorName' | 'committerDateRel' | 'status', string> & { files: string[] })[]> {
     const filepath = path.join(CONTENT_FOLDER, file)
 
-    const log = gitlog({
+    const log = await gitlog({
         repo: '.',
         number: 100,
         file: filepath,
@@ -19,27 +19,57 @@ export default async function getGitHistory(
     return log
 }
 
+interface CommitSummary {
+    hash: string
+    authorName: string
+    time: string
+}
+
 export interface GitHistorySummary {
-    creator: string | undefined
-    createdTimeAgo: string | undefined
-    latestCommitId: string
-    lateCommitTimeAgo: string
+    creationCommit?: CommitSummary
+    latestCommit?: CommitSummary
     contributorNames: string[]
+}
+
+function findCreationCommit(
+    log: Record<'hash' | 'authorName' | 'committerDateRel' | 'status', string>[]
+): CommitSummary | undefined {
+    const commit = log.find(({ status }) => status.includes('A'))
+    if (!commit) {
+        return
+    }
+
+    return {
+        hash: commit.hash,
+        authorName: commit.authorName,
+        time: commit.committerDateRel,
+    }
+}
+
+function findLatestCommit(
+    log: Record<'hash' | 'authorName' | 'committerDateRel' | 'status', string>[]
+): CommitSummary | undefined {
+    const commit = log.find(({ status }) => status.includes('M'))
+    if (!commit) {
+        return
+    }
+
+    return {
+        hash: commit.hash,
+        authorName: commit.authorName,
+        time: commit.committerDateRel,
+    }
 }
 
 export async function getGitHistoryStats(file: string): Promise<GitHistorySummary> {
     const history = await getGitHistory(file)
-    const creationCommit = history.find(commit => commit.status.includes('A'))
-    const latestCommit = history[0]
-    const contributors = history
+    const contributorsNames = history
         .map(commit => commit.authorName)
         .filter((value, index, self) => self.indexOf(value) === index)
 
     return {
-        creator: creationCommit?.authorName,
-        createdTimeAgo: creationCommit?.committerDateRel,
-        latestCommitId: latestCommit?.hash,
-        lateCommitTimeAgo: latestCommit?.committerDateRel,
-        contributorNames: contributors,
+        creationCommit: findCreationCommit(history),
+        latestCommit: findLatestCommit(history),
+        contributorNames: contributorsNames,
     }
 }

@@ -8,12 +8,14 @@ import React from 'react'
 import { TableOfContents } from '../components/TableOfContents'
 import { getPagesBySlug, loadAllPages, LoadedPage } from '../lib/api'
 import { CONTENT_FOLDER } from '../lib/constants'
+import { getGitHistoryStats as getGitHistorySummary, GitHistorySummary } from '../lib/getGitHistory'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
 interface PageWithMetadata extends LoadedPage {
     title?: string
     toc: Toc
+    history?: GitHistorySummary
 
     /** Rendered HTML. */
     content: string
@@ -50,6 +52,32 @@ export default function Page({ page }: PageProps): JSX.Element {
                     >
                         History
                     </a>
+                    {page.history?.latestCommit && (
+                        <p>
+                            <a
+                                href={`https://github.com/sourcegraph/handbook/commit/${page.history.latestCommit.hash}`}
+                            >
+                                Last updated
+                            </a>{' '}
+                            {page.history.latestCommit.time} by {page.history.latestCommit.authorName}.
+                        </p>
+                    )}
+                    {page.history?.creationCommit && (
+                        <p>
+                            <a
+                                href={`https://github.com/sourcegraph/handbook/commit/${page.history.creationCommit.hash}`}
+                            >
+                                Page created
+                            </a>{' '}
+                            {page.history.creationCommit.time} by {page.history.creationCommit.authorName}.
+                        </p>
+                    )}
+                    <p>Contributors to this page:</p>
+                    <ul>
+                        {page.history?.contributorNames.map(name => (
+                            <li key={name}>{name}</li>
+                        ))}
+                    </ul>
                 </nav>
                 <div id="content">
                     {page.content ? (
@@ -94,7 +122,7 @@ function getFullSlugPath(slug: string | string[]): string {
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
     const fullPath = getFullSlugPath(params!.slug!)
     const page = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
-
+    const history = await getGitHistorySummary(page.path)
     const { content, title, toc } = await markdownToHtml(page.body || '')
 
     return {
@@ -104,6 +132,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
                 title,
                 content,
                 toc,
+                history,
             },
         }),
     }
