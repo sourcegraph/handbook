@@ -10,6 +10,10 @@ interface EditSectionProps {
 }
 
 const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
+    if (!page.authors) {
+        return null
+    }
+
     const AVATARS_TO_DISPLAY = 3
     const moreAuthors = page.authors.length - AVATARS_TO_DISPLAY
     const authors = page.authors.slice(0, AVATARS_TO_DISPLAY)
