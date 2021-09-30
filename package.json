@@ -6,7 +6,7 @@
     "dev": "next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "generate-redirects": "node src/scripts/generate-redirects.mjs",
-    "netlify-build": "yarn run generate-redirects && next build && next-sitemap",
+    "netlify-build": "yarn run generate-redirects && yarn run copy-assets && next build && next-sitemap",
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
@@ -16,7 +16,8 @@
     "prettier": "prettier '**/{*.{js?(on),ts?(x),md,scss},.*.js?(on)}' --write --list-different",
     "prettier-check": "yarn -s run prettier --write=false",
     "eslint": "eslint 'src/**/*.{ts,tsx}'",
-    "test": "echo \"it works fine on my computer\" && exit 1"
+    "test": "echo \"it works fine on my computer\" && exit 1",
+    "copy-assets": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node src/scripts/copy-assets.ts"
   },
   "repository": {
     "type": "git",
@@ -67,6 +68,7 @@
   },
   "dependencies": {
     "@stefanprobst/rehype-extract-toc": "^2.0.1",
+    "@types/mkdirp": "^1.0.2",
     "@types/unist": "^2.0.6",
     "bootstrap": "^5.1.1",
     "chrono-node": "^2.3.2",
@@ -78,6 +80,7 @@
     "hast-util-to-string": "^2.0.0",
     "hastscript": "^7.0.2",
     "mdi-react": "^7.5.0",
+    "mkdirp": "^1.0.4",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -92,6 +95,7 @@
     "remark-parse": "^10.0.0",
     "remark-rehype": "^9.1.0",
     "tippy.js": "^6.3.1",
+    "ts-node": "^10.2.1",
     "unified": "^10.1.0",
     "vfile": "^5.1.0"
   },
