@@ -40,13 +40,13 @@ export default function Page({ page }: PageProps): JSX.Element {
                     <TableOfContents toc={page.toc} className="table-of-contents" />
                     <a
                         className="d-block py-1"
-                        href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}`}
+                        href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.path}`}
                     >
                         Edit this page
                     </a>{' '}
                     <a
                         className="d-block py-1"
-                        href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}`}
+                        href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.path}`}
                     >
                         History
                     </a>
