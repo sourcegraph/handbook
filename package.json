@@ -68,6 +68,7 @@
   "dependencies": {
     "@stefanprobst/rehype-extract-toc": "^2.0.1",
     "@types/unist": "^2.0.6",
+    "bootstrap": "^5.1.1",
     "chrono-node": "^2.3.2",
     "execa": "^5.1.1",
     "gray-matter": "^4.0.3",

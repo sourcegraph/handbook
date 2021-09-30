@@ -16,15 +16,6 @@ export default class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap"
                         rel="stylesheet"
                     />
-                    <link
-                        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-                        rel="stylesheet"
-                        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-                        crossOrigin="anonymous"
-                    />
-                    {/* <!-- Keep version in sync with tippy.js imports in JS --> */}
-                    <link rel="stylesheet" type="text/css" href="https://cdn.skypack.dev/tippy.js@6/dist/tippy.css" />
-                    <link rel="stylesheet" type="text/css" href="https://cdn.skypack.dev/tippy.js@6/themes/light.css" />
                     {/* <script type="text/javascript" src="{{asset "scripts.js"}}"></script> */}
 
                     {/* Google Consent Mode and Cookiebot */}
