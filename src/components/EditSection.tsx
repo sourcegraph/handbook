@@ -1,3 +1,4 @@
+import { formatDistanceToNow } from 'date-fns'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -10,23 +11,31 @@ interface EditSectionProps {
 }
 
 const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
+    const LastUpdated: React.FunctionComponent = () =>
+        (page.lastUpdated && (
+            <div>
+                Updated {formatDistanceToNow(new Date(page.lastUpdated))} ago •{' '}
+                <Link href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}.md`}>
+                    History
+                </Link>
+            </div>
+        )) ||
+        null
+
+    const EditOnGithub: React.FunctionComponent = () => (
+        <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}.md`}>
+            Edit this page on GitHub
+        </Link>
+    )
+
     if (!page.authors) {
         return (
             <section className="edit-section">
-                <div>
-                    Updated 2 days ago •{' '}
-                    <Link
-                        href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}.md`}
-                    >
-                        History
-                    </Link>
-                </div>
+                <LastUpdated />
 
-                <hr className="edit-seperator" />
+                {page.lastUpdated && <hr className="edit-seperator" />}
 
-                <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}.md`}>
-                    Edit this page on GitHub
-                </Link>
+                <EditOnGithub />
             </section>
         )
     }
@@ -49,18 +58,11 @@ const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
                 ))}
                 {moreAuthors > 0 && <span>+ {moreAuthors} more</span>}
             </div>
-            <div>
-                Updated 2 days ago •{' '}
-                <Link href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}.md`}>
-                    History
-                </Link>
-            </div>
+            <LastUpdated />
 
             <hr className="edit-seperator" />
 
-            <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}.md`}>
-                Edit this page on GitHub
-            </Link>
+            <EditOnGithub />
         </section>
     )
 }
