@@ -61,7 +61,7 @@ export default class MyDocument extends Document {
                             <div className="container">
                                 <nav className="links external">
                                     <ul>
-                                        <li>© 2021 Sourcegraph</li>
+                                        <li>&copy; {new Date().getFullYear()} Sourcegraph</li>
                                         <li>
                                             <a href="https://about.sourcegraph.com">About Sourcegraph</a>
                                         </li>
