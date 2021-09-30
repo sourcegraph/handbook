@@ -16,6 +16,9 @@ const nextConfig = {
   },
 
   generateBuildId: () => 'build',
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+  },
 }
 
 module.exports = nextConfig

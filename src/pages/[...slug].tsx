@@ -5,18 +5,26 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import React from 'react'
 
+import EditSection from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
 import { getPagesBySlug, loadAllPages, LoadedPage } from '../lib/api'
-import { CONTENT_FOLDER } from '../lib/constants'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
-interface PageWithMetadata extends LoadedPage {
+export interface Author {
+    name: string
+    username: string
+    avatar: string
+    url: string
+}
+
+export interface PageWithMetadata extends LoadedPage {
     title?: string
     toc: Toc
 
     /** Rendered HTML. */
     content: string
+    authors: Author[]
 }
 
 export interface PageProps {
@@ -38,18 +46,7 @@ export default function Page({ page }: PageProps): JSX.Element {
                 <nav id="right-sidebar">
                     <h4 className="sidebar-heading">On this page</h4>
                     <TableOfContents toc={page.toc} className="table-of-contents" />
-                    <a
-                        className="d-block py-1"
-                        href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.path}`}
-                    >
-                        Edit this page
-                    </a>{' '}
-                    <a
-                        className="d-block py-1"
-                        href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.path}`}
-                    >
-                        History
-                    </a>
+                    <EditSection page={page} />
                 </nav>
                 <div id="content">
                     {page.content ? (
@@ -92,8 +89,39 @@ function getFullSlugPath(slug: string | string[]): string {
 }
 
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
-    const fullPath = getFullSlugPath(params!.slug!)
+    const fullPath = getFullSlugPath(params.slug!)
     const page = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
+    const remotePath = page.path.match(/content\/(.*)/)
+    const authors =
+        (remotePath &&
+            (await fetch(`https://api.github.com/repos/sourcegraph/handbook/commits?path=${remotePath[0]}`).then(
+                async response => {
+                    interface GitHubCommitData {
+                        commit: {
+                            author: {
+                                name: string
+                            }
+                        }
+                        author: {
+                            login: string
+                            avatar_url: string
+                            html_url: string
+                        }
+                    }
+
+                    const commitData = (await response.json()) as GitHubCommitData[]
+
+                    return commitData.map(
+                        ({ commit, author }): Author => ({
+                            name: commit.author.name,
+                            username: author.login,
+                            avatar: author.avatar_url,
+                            url: author.html_url,
+                        })
+                    )
+                }
+            ))) ||
+        []
 
     const { content, title, toc } = await markdownToHtml(page.body || '')
 
@@ -104,6 +132,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
                 title,
                 content,
                 toc,
+                authors,
             },
         }),
     }
