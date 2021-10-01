@@ -2,7 +2,9 @@ name: Format all files nicely
 
 # This action works with pull requests and pushes
 on:
-  - push
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   prettier:
