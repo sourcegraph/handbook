@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { buildPagesTree, loadAllPages, Page, DirectoryNode, parsePage, ParsedPage } from '../lib/api'
+import { TableOfContents } from '../components/TableOfContents'
+import { buildPageTree, loadAllPages, Page, DirectoryNode, parsePage, ParsedPage, getLastSlugPart } from '../lib/api'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
 function DirectoryItem(props: { node: DirectoryNode<ParsedPage> }): JSX.Element {
@@ -8,14 +9,18 @@ function DirectoryItem(props: { node: DirectoryNode<ParsedPage> }): JSX.Element 
         <li>
             <code>{props.node.name}</code>{' '}
             {props.node.indexPage && (
-                <a href={`/${props.node.indexPage.slug}`}>{props.node.indexPage.title || 'Untitled'}</a>
+                <a title={props.node.indexPage.path} href={`/${props.node.indexPage.slug}`}>
+                    {props.node.indexPage.title || 'Untitled'} {props.node.indexPage.isIndexPage && ' (index.md)'}
+                </a>
             )}
             <ul>
                 {props.node.pages.map(page => (
                     <li key={page.slug}>
-                        <a href={`/${page.slug}`}>
-                            {page.title || 'Untitled'} (/{page.slug})
+                        <code>{getLastSlugPart(page.slug)}</code>{' '}
+                        <a title={page.path} href={`/${page.slug}`}>
+                            {page.title || 'Untitled'} (/{page.slug}) {page.isIndexPage && ' (index)'}
                         </a>
+                        <TableOfContents className="italic" hrefPrefix={`/${page.slug}`} toc={page.toc} />
                     </li>
                 ))}
             </ul>
@@ -37,7 +42,7 @@ export default function Index({ allPages, tree }: IndexProps): JSX.Element {
         <div className="container">
             <section id="content">
                 <h2>Debug: list of all pages:</h2>
-                <ul>
+                {/* <ul>
                     {allPages.map(page => (
                         <li key={page.slug}>
                             <a href={`/${page.slug}`}>
@@ -45,7 +50,7 @@ export default function Index({ allPages, tree }: IndexProps): JSX.Element {
                             </a>
                         </li>
                     ))}
-                </ul>
+                </ul> */}
                 <h2>Debug: Tree view</h2>
                 <ul>
                     <DirectoryItem node={tree} />
@@ -56,9 +61,16 @@ export default function Index({ allPages, tree }: IndexProps): JSX.Element {
 }
 
 export async function getStaticProps(): Promise<{ props: { allPages: ParsedPage[]; tree: DirectoryNode<Page> } }> {
-    const allPages = await loadAllPages(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
+    const allPages = await loadAllPages()
+
     const parsedPages = await Promise.all(allPages.map(page => parsePage(page)))
-    const tree = buildPagesTree<ParsedPage>(parsedPages)
+
+    const tree = buildPageTree<ParsedPage>(parsedPages)
+    const root = parsedPages.find(page => page.path === 'index.md')
+    if (root) {
+        tree.indexPage = root
+    }
+
     return {
         props: omitUndefinedFields({ allPages: parsedPages, tree }),
     }

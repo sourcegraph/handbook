@@ -79,21 +79,27 @@ export interface DirectoryNode<P extends Page = Page> {
     subdirectories: DirectoryNode<P>[]
 }
 
-export function buildPagesTree<P extends Page = Page>(pages: P[]): DirectoryNode {
-    const root: DirectoryNode = {
+export function buildPageTree<P extends Page = Page>(pages: P[]): DirectoryNode<P> {
+    const root: DirectoryNode<P> = {
         name: '',
         pages: [],
         subdirectories: [],
     }
 
-    for (const page of pages) {
-        const directoryParts = page.slug.split('/').slice(0, -1)
-        const parentDirectory = findOrCreateDirectoryNode(root, directoryParts)
+    // Sort pages alphabetically by name
+    const sortedPages = pages.sort((page1, page2) =>
+        getLastSlugPart(page1.slug) > getLastSlugPart(page2.slug) ? 1 : -1
+    )
 
-        // TODO This logic isn't quite right, because I think it conflates the
-        // idea of an "index page" which is just an `index.md` with a "parent
-        // node" which can be either `foo/index.md` or `foo.md` alonside a
-        // `foo/` directory.
+    for (const page of sortedPages) {
+        const slugPathParts = page.slug.split('/')
+
+        // For index pages, the directory path is the entire slug path. For all
+        // other pages, the directory path is the slug path excluding the last
+        // part (because the last part is the "file" name).
+        const directoryPathParts = page.isIndexPage ? slugPathParts : slugPathParts.slice(0, -1)
+        const parentDirectory = findOrCreateDirectoryNode(root, directoryPathParts)
+
         if (page.isIndexPage) {
             parentDirectory.indexPage = page
         } else {
@@ -129,4 +135,9 @@ function findOrCreateDirectoryNode(node: DirectoryNode, path: string[]): Directo
 export async function parsePage(page: LoadedPage): Promise<ParsedPage> {
     const { content, title, toc } = await markdownToHtml(page.body, page.path, page.isIndexPage)
     return { ...page, html: content, title, toc }
+}
+
+export function getLastSlugPart(slug: string): string {
+    const parts = slug.split('/')
+    return parts[parts.length - 1]
 }
