@@ -6,6 +6,7 @@ import { Node } from 'hast'
 import { select } from 'hast-util-select'
 import { HastNode } from 'hast-util-select/lib/types'
 import { toString } from 'hast-util-to-string'
+import { Root as MdastRoot, Content as MdastContent } from 'mdast'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeRaw from 'rehype-raw'
 import rehypeSlug from 'rehype-slug'
@@ -41,6 +42,7 @@ export default async function markdownToHtml(
         // Parse markdown
         .use(remarkParse)
         .use(remarkGfm)
+        .use(remarkSpecialNoteBlocks)
         // Convert Markdown AST -> HTML AST
         .use(remarkRehype, { allowDangerousHtml: true })
         // Parse Markdown that was included _within_ HTML
@@ -115,3 +117,33 @@ const rehypeExtractTitleFromH1: Plugin = () =>
             file.data.title = toString(titleElement)
         }
     }
+
+/**
+ * Note blockquote syntax, originally from docsite. Any blockquote starting with
+ * "> NOTE:" is converted to <aside class="note">...</aside>.
+ */
+const remarkSpecialNoteBlocks: Plugin<void[], MdastRoot> = () =>
+    function (tree, file: VFile) {
+        for (const node of tree.children) {
+            if (isSpecialNoteBlockquote(node)) {
+                // TODO: This overwrites the `hProperties` to add the class
+                // name. Improve it by adding the class name while respecting
+                // existing `hProperties` or existing classes.
+                node.data = { ...node.data, hName: 'aside', hProperties: { class: 'note' } }
+            }
+        }
+    }
+
+function isSpecialNoteBlockquote(node: MdastContent): boolean {
+    if (node.type !== 'blockquote') {
+        return false
+    }
+    const child = node.children[0]
+    if (child.type === 'paragraph') {
+        const text = child.children[0]
+        if (text.type === 'text') {
+            return text.value.startsWith('NOTE:')
+        }
+    }
+    return false
+}
