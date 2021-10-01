@@ -70,7 +70,11 @@ The incident lead is responsible for resolving the incident as quickly and safel
 
 The owner of the incident may delegate tasks to other available/working engineers if necessary but should make a best effort to minimize the number of other engineers who get interrupted by the incident. This delegated work preempts work unrelated to operational incidents.
 
-If the issue can not be quickly resolved (via rollback or other means) and if it is a severe problem with sourcegraph.com, then create an issue on sourcegraph/sourcegraph and tweet from the Sourcegraph account (e.g. https://twitter.com/sourcegraph/status/1101603205203484672, https://twitter.com/sourcegraph/status/1101606401753792512, https://twitter.com/sourcegraph/status/1101621105620529153).
+If the issue can not be quickly resolved (via rollback or other means) and if it is a severe problem with sourcegraph.com, then create an issue on sourcegraph/sourcegraph and tweet from the Sourcegraph account, e.g.:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Only <a href="https://t.co/4J5rrvuJbX">https://t.co/4J5rrvuJbX</a> is experiencing issues. Self-hosted Sourcegraph instances are not affected.</p>&mdash; Sourcegraph (@sourcegraph) <a href="https://twitter.com/sourcegraph/status/1101606401753792512?ref_src=twsrc%5Etfw">March 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Signing in to <a href="https://t.co/SQkErCgegd">https://t.co/SQkErCgegd</a> now works as expected. If you are interested to know why you can subscribe to this issue: <a href="https://t.co/OUHCn8nI3E">https://t.co/OUHCn8nI3E</a><br><br>Thanks for your patience!</p>&mdash; Sourcegraph (@sourcegraph) <a href="https://twitter.com/sourcegraph/status/1101621105620529153?ref_src=twsrc%5Etfw">March 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### False positives
 
