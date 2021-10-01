@@ -60,7 +60,7 @@ See [Goals](../../direction/enablement/distribution/index.md)
 
 ### Urgent customer incidents
 
-If you think that an incident might be impacting more than just one customer, please follow the guidance in the [incident process](https://about.sourcegraph.com/handbook/engineering/incidents).
+If you think that an incident might be impacting more than just one customer, please follow the guidance in the [incident process](../incidents/index.md).
 
 Otherwise, if the incident is isolated to one customer (whether that be a managed instance or a self-hosted deployment) please proceed as follows.
 

@@ -16,7 +16,7 @@ We take initiatives that improve all teammates’ experiences working with the l
 
 ### Members
 
-- [Tammy Zhu](https://about.sourcegraph.com/handbook/company/team#tammy-zhu-she-her), Director of Legal
+- [Tammy Zhu](../../company/team/index.md#tammy-zhu-she-her), Director of Legal
 
 ### Roles
 

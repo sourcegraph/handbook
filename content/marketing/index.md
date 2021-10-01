@@ -91,10 +91,10 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Sarah Reece](../company/team/index.md#sarah-reece-she-her), Director of Demand Generation
     - Rebecca Rissinger, Manager, Marketing Operations
     - Jake Sorensen, Programs Lead, Demand Gen Campaigns
-    - [Greg Bouton](https://about.sourcegraph.com/handbook/company/team#greg-bouton-he-him-his), Senior Email & Automation Marketing Manager
-    - [Erica Freckelton](https://about.sourcegraph.com/handbook/company/team#erica-freckelton-she-her), Senior Digital Marketing Manager
+    - [Greg Bouton](../company/team/index.md#greg-bouton-he-him-his), Senior Email & Automation Marketing Manager
+    - [Erica Freckelton](../company/team/index.md#erica-freckelton-she-her), Senior Digital Marketing Manager
   - Tommy Pesavento, Director of Brand Design
-    - [Fabiana Castellanos](https://about.sourcegraph.com/handbook/company/team#fabiana-castellanos-she-her), Project Coordinator, Brand
+    - [Fabiana Castellanos](../company/team/index.md#fabiana-castellanos-she-her), Project Coordinator, Brand
     - [Sruti Dhulipala](https://www.linkedin.com/in/sruti-dhulipala/), Senior Manager, Global Brand Strategy
     - [Mustafa (Moose) Ulker](https://www.linkedin.com/in/mooooose/), Senior Copywriter
     - [Kristen Sundberg](https://www.linkedin.com/in/kristensundberg/), Senior Manager, Social Media

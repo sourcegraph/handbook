@@ -35,7 +35,7 @@ Take the first 20-30 minutes of the session to have an unstructured, introductor
 
 - What problem is your teammate trying to solve?
 - Why is that problem important? What team goal does it fit under?
-- What are relevant [RFCs](https://about.sourcegraph.com/handbook/communication/rfcs), [PDs](https://about.sourcegraph.com/handbook/product/product_documents), GitHub issues or documentation pages?
+- What are relevant [RFCs](../../communication/rfcs/index.md), [PDs](../../product/product_documents.md), GitHub issues or documentation pages?
 - What parts of our codebase need to be changed to solve this problem?
 - How will we test the code being changed?
 - Will there be future work needed after solving this problem? How could you contribute?

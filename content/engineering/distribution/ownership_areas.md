@@ -31,7 +31,7 @@ To see what Distribution is currently prioritizing, see the [Distribution Goals]
 
 **Related**
 
-- [release process](https://about.sourcegraph.com/handbook/engineering/releases)
+- [release process](../releases/index.md)
 - [release tooling](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/release)
 
 ## Deployment

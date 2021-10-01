@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-1. [Building a Strong Brand](https://about.sourcegraph.com/handbook/marketing/brand/building_a_strong_brand)
+1. [Building a Strong Brand](./building_a_strong_brand.md)
 2. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
 3. [The Team](#the-team)
 4. [Capabilities](#capabilities)
 5. [Brand Guidelines](brand_guidelines/index.md)
-6. [Brand and Creative Request Forms](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests)
-7. [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
+6. [Brand and Creative Request Forms](./brand_and_creative_team_requests.md)
+7. [Gifting Guidelines](./gifting_guidelines.md)
 8. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
 9. [Creative Brief template](https://docs.google.com/document/d/1iCCzdXtR8AkO2ehNS-zaDM-zgy337mYlQIvsF4cOssA/edit) (.GDOC)
 10. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
@@ -25,7 +25,7 @@ We are: <br>
 - Agile - move fast, adapt, and change directions easily based on the market and goals <br>
 - Effective - strive for quantifiable results and outsized impact; everything has a “why”
 
-Projects are categorized on a 5-tier basis based on strategy, scope, and visibility. These tiers are broken down in more detail [here](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests#project-tiers).
+Projects are categorized on a 5-tier basis based on strategy, scope, and visibility. These tiers are broken down in more detail [here](./brand_and_creative_team_requests.md#project-tiers).
 
 - Tier 1 - Large-scale, high-priority external projects that require creative strategy development
 - Tier 2 - Externally-facing but lower-priority; previously-approved concept but new deliverable; new concept internal projects
@@ -70,7 +70,7 @@ To be hired:
 
 We deliver agency-caliber campaigns, creative, production, and results in support of every team within the company to drive awareness, engagement, and adoption.
 
-The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand and creative support for all internal teams and programs (i.e. People/HR, Product, Ops, Eng, etc.), as well as central brand communications, demand generation, content strategy and product marketing support. We sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our [Preferred Vendor Network](https://about.sourcegraph.com/handbook/marketing/brand/production_process#sourcegraph-preferred-vendor-network-aka-the-network), or simply The Network.
+The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand and creative support for all internal teams and programs (i.e. People/HR, Product, Ops, Eng, etc.), as well as central brand communications, demand generation, content strategy and product marketing support. We sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our [Preferred Vendor Network](./production_process.md#sourcegraph-preferred-vendor-network-aka-the-network), or simply The Network.
 
 Our capabilities include:
 
@@ -109,7 +109,7 @@ _Events_
 
 - Event planning, strategy and design
 - Booth, stage or environmental design and production
-- Swag design and fulfillment planning. See our [Gifting Guidelines](https://about.sourcegraph.com/handbook/marketing/brand/gifting_guidelines)
+- Swag design and fulfillment planning. See our [Gifting Guidelines](./gifting_guidelines.md)
 
 _Copy_
 

@@ -11,9 +11,9 @@ Arguments:
 
 # $MAJOR.$MINOR.$PATCH managed instances upgrade
 
-These [managed instances](https://about.sourcegraph.com/handbook/engineering/distribution/managed) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
+These [managed instances](../distribution/managed/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
-To perform these upgrades, follow the [managed instances upgrade process](https://about.sourcegraph.com/handbook/engineering/distribution/managed/upgrade_process).
+To perform these upgrades, follow the [managed instances upgrade process](../distribution/managed/upgrade_process.md).
 Make sure to upgrade internal instances before customer instances.
 
 ---

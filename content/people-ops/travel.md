@@ -2,7 +2,7 @@
 
 # Phase II: Teammate Travel Meetup Guidelines
 
-As of June 16th 2021, we have resumed reimbursing travel per our [team travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel#2-team-travel) for travel and in-person events that are permitted by law. We want this to be gradual, and all events must be completely optional.
+As of June 16th 2021, we have resumed reimbursing travel per our [team travel budgets](./travel.md#2-team-travel) for travel and in-person events that are permitted by law. We want this to be gradual, and all events must be completely optional.
 
 As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. Choosing to travel or meet is an incredibly personal decision, and we support team members who may not be interested in meeting up at this time.
 
@@ -30,15 +30,15 @@ Our policy until now has been to suspend travel/meetup reimbursement and for man
 
 # Travel budgets
 
-Sourcegraph is an [all-remote](https://about.sourcegraph.com/handbook/company/remote) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
+Sourcegraph is an [all-remote](../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
 
 Team meetups are very important for building cohesiveness in remote teams and spreading Sourcegraph culture across the company.
 
-We are a [high agency](https://about.sourcegraph.com/handbook/company/values#high-agency) team. Be economical in choosing your accommodations, modes of transportation, and where you’ll be dining. We understand that there may be limits, and we urge you to find options that are both convenient for you while being reasonable reimbursements for the company.
+We are a [high agency](../company/values.md#high-agency) team. Be economical in choosing your accommodations, modes of transportation, and where you’ll be dining. We understand that there may be limits, and we urge you to find options that are both convenient for you while being reasonable reimbursements for the company.
 
 > _For example: If you are attending a conference and see that a cheaper hotel is a half hour away from your conference venue, but you will need to pay for the taxi to the venue which would ultimately make your cost the same, book a more convenient option!_
 
-We also want you and expect you to use your full travel budgets each year! For this reason, they aren’t transferrable, and unused budget doesn’t roll over into the next year. These budgets are based on our [fiscal calendar](https://about.sourcegraph.com/handbook/ops/finance#fiscal-year-2022), so they will renew on February 1st each year.
+We also want you and expect you to use your full travel budgets each year! For this reason, they aren’t transferrable, and unused budget doesn’t roll over into the next year. These budgets are based on our [fiscal calendar](../ops/finance/index.md#fiscal-year-2022), so they will renew on February 1st each year.
 
 > _For example:_
 >
@@ -46,7 +46,7 @@ We also want you and expect you to use your full travel budgets each year! For t
 > - A teammate cannot use their team budget for individual travel.
 > - A teammate cannot skip the winter holiday party to get a longer stay at the spring/summer company-wide event.
 
-Most importantly, when planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](https://about.sourcegraph.com/handbook/company/values)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
+Most importantly, when planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../company/values.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
 
 **There are five types of company-sponsored, company-paid travel:**
 

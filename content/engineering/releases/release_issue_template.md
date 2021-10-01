@@ -27,7 +27,7 @@ This release is scheduled for **$RELEASE_DATE**.
   yarn release release:status
   ```
 
-Do the [branch cut](https://about.sourcegraph.com/handbook/engineering/releases#release-branches) for the release:
+Do the [branch cut](./index.md#release-branches) for the release:
 
 - [ ] Update the changelog and merge the generated pull request:
   ```sh
@@ -106,7 +106,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
 
 ## Post-release
 
-Notify the next [release captain](https://about.sourcegraph.com/handbook/engineering/releases#release-captain) that they are on duty for the next release. They should complete the steps in this section.
+Notify the next [release captain](./index.md#release-captain) that they are on duty for the next release. They should complete the steps in this section.
 
 - [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the current release.
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.

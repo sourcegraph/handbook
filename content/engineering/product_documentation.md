@@ -46,7 +46,7 @@ For large images and other binary assets, upload them to the `sourcegraph-assets
 
 ### Administration documentation
 
-This advice currently pertains to [Sourcegraph administration documentation](https://docs.sourcegraph.com/admin) and [Distribution documentation](https://about.sourcegraph.com/handbook/engineering/distribution).
+This advice currently pertains to [Sourcegraph administration documentation](https://docs.sourcegraph.com/admin) and [Distribution documentation](./distribution/index.md).
 
 - Try to avoid repeating information. Instead, find the most relevant home for a piece of information, and link to it from where you want it so that the information can be easily found and referenced from other places.
   - e.g. [Deployments playbooks](deployments/playbooks.md), [Managed instances operations](./distribution/managed/operations.md), [Docker Compose operations guides](https://docs.sourcegraph.com/admin/install/docker-compose/operations)

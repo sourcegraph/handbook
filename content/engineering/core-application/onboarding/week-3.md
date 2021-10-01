@@ -6,7 +6,7 @@
 
 ## Activities
 
-You're halfway done with your first month at Sourcegraph! Time flies, doesn't it? This week is about helping you deliver with [high agency](https://about.sourcegraph.com/handbook/company/values#high-agency) and [high quality](https://about.sourcegraph.com/handbook/company/values#high-quality).
+You're halfway done with your first month at Sourcegraph! Time flies, doesn't it? This week is about helping you deliver with [high agency](../../../company/values.md#high-agency) and [high quality](../../../company/values.md#high-quality).
 
 Here's where you'll spend your time in week 3:
 

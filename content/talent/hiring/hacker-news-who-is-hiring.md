@@ -20,9 +20,9 @@ This is the comment that [Nick](../../company/team/index.md#nick-snyder-he-him) 
 >
 > Other useful links...
 >
-> Our mission: https://about.sourcegraph.com/handbook/company/strategy
+> Our mission: ../../company/strategy.md
 >
-> Our values: https://about.sourcegraph.com/handbook/company/values
+> Our values: ../../company/values.md
 >
 > Our customers: https://about.sourcegraph.com/customers/
 >

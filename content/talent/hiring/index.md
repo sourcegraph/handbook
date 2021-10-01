@@ -8,7 +8,7 @@
 1. We want our hiring process to be fair to all candidates.
    - We recognize that the way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
-   - We leverage [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) to record our interviews, ensuring there is an objective record of the interview that can be referenced when making a hiring decision.
+   - We leverage [BrightHire](./guide_to_using_brighthire.md) to record our interviews, ensuring there is an objective record of the interview that can be referenced when making a hiring decision.
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 1. Hiring managers own the hiring process for their team.
@@ -23,7 +23,7 @@ For any members of a hiring team, please see [this page](../index.md#the-talent-
 
 - We use Greenhouse as our applicant tracking system. Please see this [guide to using Greenhouse.](guide_to_using_greenhouse.md) (in progress)
 - We utilize LinkedIn Recruiter and TopFunnel as our sourcing platforms. Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](linkedin.md).
-- We use BrightHire to record our interviews. Learn more about BrightHire [here](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire).
+- We use BrightHire to record our interviews. Learn more about BrightHire [here](./guide_to_using_brighthire.md).
 - We use Ashby as a metrics tool.
 
 ## Using external recruiting agencies
@@ -67,7 +67,7 @@ We don't share specific reasons or feedback if we decide not to move forward in 
 
 If any interviewer is asked by a candidate for interview feedback, they may respond with the following message:
 
-> I understand the desire to receive feedback from our interview process, but unfortunately we are not in a position to give it. Here is some public documentation to that effect: https://about.sourcegraph.com/handbook/talent/hiring#sharing-interview-feedback.
+> I understand the desire to receive feedback from our interview process, but unfortunately we are not in a position to give it. Here is some public documentation to that effect: ./index.md#sharing-interview-feedback.
 
 ## Respecting time
 

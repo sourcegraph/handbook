@@ -15,7 +15,7 @@ export const rehypeSlackChannels: Plugin = () => root =>
         root as Node,
         slackChannelPattern,
         (...args: unknown[]): ElementContent[] => {
-            const [match, prefix, channelName, suffix] = args as string[]
+            const [, prefix, channelName, suffix] = args as string[]
             return [
                 { type: 'text', value: prefix },
                 h(

@@ -6,7 +6,7 @@
 
 ## Activities
 
-Congratulations on wrapping up your first month! This week is about [continuously growing](https://about.sourcegraph.com/handbook/company/values#continuously-grow), and continuing to make Sourcegraph [welcoming and inclusive](https://about.sourcegraph.com/handbook/company/values#be-welcoming-and-inclusive).
+Congratulations on wrapping up your first month! This week is about [continuously growing](../../../company/values.md#continuously-grow), and continuing to make Sourcegraph [welcoming and inclusive](../../../company/values.md#be-welcoming-and-inclusive).
 
 Here's where you'll spend your time in week 4:
 

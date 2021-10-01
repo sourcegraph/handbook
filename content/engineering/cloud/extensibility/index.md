@@ -103,7 +103,7 @@ This column represents issues that we’ve acknowledged but are currently not pl
 This column exists for our design partners to track their issues.
 sorted by priority (descending)
 Items should be assigned to alicja & eng
-Our kanplan methodology gives us the ability to refine the backlog while continuously delivering quality software. We benefit from flexible planning, clearer focus, and total transparency because our board represents our priorities. We also communicate our team updates with the broader engineering org [every two weeks](https://about.sourcegraph.com/handbook/engineering/engineering-management#status-updates).
+Our kanplan methodology gives us the ability to refine the backlog while continuously delivering quality software. We benefit from flexible planning, clearer focus, and total transparency because our board represents our priorities. We also communicate our team updates with the broader engineering org [every two weeks](../../engineering-management.md#status-updates).
 
 ### Tracking Issues
 
@@ -138,7 +138,7 @@ The team follow's the [default code review guidelines](https://docs.sourcegraph.
 
 #### Cross-functional reviews
 
-Engineers will often need reviews from teammates from other functions. For example, a pull request can benefit from visual review from a designer. In such cases, the author should be sure to request the PR review as well as tag the requested cross-functional reviewer(s) in their PR description, along with what exactly they need reviewed and when they need it to be reviewed by (e.g. "@Joelkw can you review the banner copy by the end of the week?"). See our [general guidelines on seeking feedback](https://about.sourcegraph.com/handbook/communication/seeking-and-giving-feedback#seeking-feedback).
+Engineers will often need reviews from teammates from other functions. For example, a pull request can benefit from visual review from a designer. In such cases, the author should be sure to request the PR review as well as tag the requested cross-functional reviewer(s) in their PR description, along with what exactly they need reviewed and when they need it to be reviewed by (e.g. "@Joelkw can you review the banner copy by the end of the week?"). See our [general guidelines on seeking feedback](../../../communication/seeking-and-giving-feedback.md#seeking-feedback).
 
 ### Feature freeze
 

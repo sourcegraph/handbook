@@ -1,6 +1,6 @@
 # Onboarding Feedback Milestones
 
-The People Ops team wants to better support new teammates and managers by opening a two-way conversation between them throughout the [onboarding process](https://about.sourcegraph.com/handbook/people-ops/onboarding) about what’s on track and what needs action, both on the new teammates' contribution and how well they’re living our shared values.
+The People Ops team wants to better support new teammates and managers by opening a two-way conversation between them throughout the [onboarding process](./index.md) about what’s on track and what needs action, both on the new teammates' contribution and how well they’re living our shared values.
 
 Feedback check-ins are now part of the onboarding process. We want to help teammates succeed by having structured monthly feedback sessions with their managers during their first 3 months.
 
@@ -8,7 +8,7 @@ This will help teammates understand their performance and how well they’ve bee
 
 In order for this to work, managers must define expectations, goals and responsibilities for each role before the new teammate starts. The new teammate must know about them and if any change at any point, they must be notified. This will set a guide for both the teammate and the manager on every meeting. If the expectations are not up to date, talk about them. (Do you think these changes are appropriate? Should this goal be modified?). Managers should go through the set goals, tasks, expectations set for the 30/60/90 days and provide positive feedback and talk about opportunities for growth
 
-Following our [standards of success](https://about.sourcegraph.com/handbook/people-ops/onboarding#onboarding-standards-and-success), these conversations should take into consideration onboarding expectations, onboarding experience, and onboarding effectiveness.
+Following our [standards of success](./index.md#onboarding-standards-and-success), these conversations should take into consideration onboarding expectations, onboarding experience, and onboarding effectiveness.
 
 ## Purpose of each milestone
 

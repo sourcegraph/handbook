@@ -67,7 +67,7 @@ Here are some of the technologies we use to deliver on our goals:
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](https://about.sourcegraph.com/handbook/engineering/principles-and-practices) and [Enablement principles and practices](https://about.sourcegraph.com/handbook/engineering/developer-insights#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
+We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement principles and practices](../../developer-insights/index.md#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
 
 ## Processes
 
@@ -128,7 +128,7 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 
 ### Meetings
 
-We inherit Sourcegraph's [meeting principles](https://about.sourcegraph.com/handbook/communication#internal-meetings) and [asynchronous communication guidelines](https://about.sourcegraph.com/handbook/company/asynchronous-communication#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
+We inherit Sourcegraph's [meeting principles](../../../communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../company/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
 
 - Meeting agenda:
   - The meeting leader prepares the agenda at least 24 hours in advance in a shared Google document.

@@ -6,7 +6,7 @@
 
 ## Activities
 
-You completed your first week - great job! The first week is always a whirlwind of documents and tasks, so this week we will calm things down a bit. The focus is on [working as a team](https://about.sourcegraph.com/handbook/company/values#work-as-a-team) and [being open and transparent](https://about.sourcegraph.com/handbook/company/values#open-and-transparent).
+You completed your first week - great job! The first week is always a whirlwind of documents and tasks, so this week we will calm things down a bit. The focus is on [working as a team](../../../company/values.md#work-as-a-team) and [being open and transparent](../../../company/values.md#open-and-transparent).
 
 Here's where you'll spend your time in week 2:
 

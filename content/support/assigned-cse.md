@@ -4,7 +4,7 @@ There are certain situations where it just makes sense to assign a Customer Supp
 
 If you feel a customer should have an assigned CSE, post in #customer-support. The CS leadership team will coordinate with the CE and Sales leadership team to vet the request. In order to provide optimal support for all customers, we can only have ~20 customers (post- and pre- / long-term and temporary) with an assigned CSE.
 
-Customers selected for CSE assignment (whether post-sales strategic customers or pre-sales customers) and the CSEs assigned are listed in [our customer exceptions page](https://about.sourcegraph.com/handbook/support/customer-exceptions).
+Customers selected for CSE assignment (whether post-sales strategic customers or pre-sales customers) and the CSEs assigned are listed in [our customer exceptions page](./customer-exceptions.md).
 
 All customers with an assigned CSE (whether internal in nature only or communicated to the customer), benefit from the following:
 

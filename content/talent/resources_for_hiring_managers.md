@@ -16,8 +16,8 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 ## The interview process
 
-- [The interview process](https://about.sourcegraph.com/handbook/talent/interview_process).
-- [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
+- [The interview process](./interview_process.md).
+- [Types of interviews](./types_of_interviews.md).
 
 ### 1. Opening a new job
 
@@ -29,9 +29,9 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 - Once the Hiring Manager completes the above steps, the Recruiter takes the below actions:
   - Recruiter schedules a 30-45 minute intake meeting with the Hiring Manager to kick off the search. This is a necessary step to ensure initial alignment and set our search up for success.
-  - Recruiter opens the job in Greenhouse by copying the "Template" job and builds out the interview plan, adding all behavioral-based, structured questions directly into each interview stage. All interview stages should use the standard interview titles, found [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
+  - Recruiter opens the job in Greenhouse by copying the "Template" job and builds out the interview plan, adding all behavioral-based, structured questions directly into each interview stage. All interview stages should use the standard interview titles, found [here](./types_of_interviews.md).
   - Recruiter posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91) and LinkedIn. If you would like it posted in other locations, please ask your Recruiter or send a Slack message to @hiring. You can see a list of other job boards we are considering [here](hiring/job_boards.md).
-  - Recruiter starts the [Slack Kick-Off Process](https://about.sourcegraph.com/handbook/talent/resources_for_recruiters#slack-kick-off-process).
+  - Recruiter starts the [Slack Kick-Off Process](./resources_for_recruiters.md#slack-kick-off-process).
 
 ### 2. Recruiting Stage
 
@@ -96,8 +96,8 @@ The folder to store agency contracts can be found [here](https://drive.google.co
 
 You can see a list of all recruiting tools [here](hiring/index.md#recruiting-tools). If you need a tool not listed, please Slack #hiring to request it.
 
-- Guide to using [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire), our interview recording tool
-- Guide to using [Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse), our applicant tracking system
+- Guide to using [BrightHire](./hiring/guide_to_using_brighthire.md), our interview recording tool
+- Guide to using [Greenhouse](./hiring/guide_to_using_greenhouse.md), our applicant tracking system
 
 ## Providing interview feedback
 
@@ -105,7 +105,7 @@ Please put your written feedback into Greenhouse as soon as possible following t
 
 All feedback must be submitted in Greenhouse before discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
-We want to ensure that teammates score candidates in a consistent fashion which is why we have [definitions](https://about.sourcegraph.com/handbook/talent/interview_process#providing-interview-feedback) for what the following ratings mean: 1. Strong yes 2. Yes 3. No 4. Strong no.
+We want to ensure that teammates score candidates in a consistent fashion which is why we have [definitions](./interview_process.md#providing-interview-feedback) for what the following ratings mean: 1. Strong yes 2. Yes 3. No 4. Strong no.
 
 ## Interview debriefs
 

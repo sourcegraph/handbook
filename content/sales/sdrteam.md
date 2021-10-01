@@ -8,12 +8,12 @@ The SDR Team (TBA)
   - West Outbound SDRs
     - [Quin "Q" Keough](../company/team/index.md#quin-keough)
     - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
-    - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
-    - [Brannon Rouse](https://about.sourcegraph.com/handbook/company/team#brannon-rouse)
+    - [Zach Naidu](../company/team/index.md#zach-naidu)
+    - [Brannon Rouse](../company/team/index.md#brannon-rouse)
   - East Outbound SDRs
     - [Sam Cregg](../company/team/index.md#sam-cregg)
-    - [Jenna Pierre](https://about.sourcegraph.com/handbook/company/team#jenna-pierre-she-her)
-    - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
+    - [Jenna Pierre](../company/team/index.md#jenna-pierre-she-her)
+    - [Zach Naidu](../company/team/index.md#zach-naidu)
   - Inbound SDR
     - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
 

@@ -6,7 +6,7 @@ The social media manager also plays an integral role in helping our values-drive
 
 ## How to contact your Social Media Manager
 
-There are so many folks contributing to [Marketing](https://about.sourcegraph.com/handbook/marketing#who-to-go-to-for-what) @ Sourcegraph. But if you want to contact the Social Media Team, we recommend you star or join these channels in Slack:
+There are so many folks contributing to [Marketing](./index.md#who-to-go-to-for-what) @ Sourcegraph. But if you want to contact the Social Media Team, we recommend you star or join these channels in Slack:
 
 #social-media-action channel: Send urgent social media related requests, questions, or industry updates to this channel. If you need something that requires an action to be taken- you’re in the right place.
 
@@ -49,7 +49,7 @@ It is critical that Sourcegraph team members understand that there is a separati
 
 ## Shortening URLs
 
-The social media team is often asked to shorten URLs for team members. [You can learn more about that here.](https://about.sourcegraph.com/handbook/communication#shortening-urls)
+The social media team is often asked to shorten URLs for team members. [You can learn more about that here.](../communication/index.md#shortening-urls)
 
 ## Social during an incident
 

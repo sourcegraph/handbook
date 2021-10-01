@@ -10,7 +10,7 @@ We are an [all-remote team](../company/remote/index.md) so you have flexible wor
 
 ### 🏖️ Flexible PTO
 
-We have a flexible Paid Time Off (PTO) policy with mandatory annual vacation time that encourages our team to recharge when they need to. Read more about our philosophy on [mandatory vacation time](https://about.sourcegraph.com/blog/why-vacation-at-tech-companies-should-be-mandatory-better-code-happier-people) and [PTO](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours).
+We have a flexible Paid Time Off (PTO) policy with mandatory annual vacation time that encourages our team to recharge when they need to. Read more about our philosophy on [mandatory vacation time](https://about.sourcegraph.com/blog/why-vacation-at-tech-companies-should-be-mandatory-better-code-happier-people) and [PTO](./paid-time-off-and-working-hours.md).
 
 ### 🏃 Wellness
 

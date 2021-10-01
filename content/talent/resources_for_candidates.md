@@ -12,15 +12,15 @@ We are growing rapidly and post new jobs on a weekly basis. We encourage you to 
 
 ### Sourcegraph's culture
 
-We are an [all-remote company](https://about.sourcegraph.com/handbook/company/remote) with teammates across the globe. Our [company values](https://about.sourcegraph.com/handbook/company/values) are the beliefs and principles that help us achieve our [goals & mission](https://about.sourcegraph.com/handbook/company/strategy#mission), and build an [inclusive team](https://about.sourcegraph.com/handbook/company/values#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview).
+We are an [all-remote company](../company/remote/index.md) with teammates across the globe. Our [company values](../company/values.md) are the beliefs and principles that help us achieve our [goals & mission](../company/strategy.md#mission), and build an [inclusive team](../company/values.md#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](./types_of_interviews.md#values-interview).
 
 ### Benefits, perks, and compensation
 
-We want our teammates to be happy, healthy, and productive, which is why we strive to provide competitive [benefits and perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks). In addition, we are committed to paying all teammates [equitably and competitively](https://about.sourcegraph.com/handbook/people-ops/compensation), and always determine our offers based on market data, **not** your past compensation.
+We want our teammates to be happy, healthy, and productive, which is why we strive to provide competitive [benefits and perks](../people-ops/benefits-and-perks.md). In addition, we are committed to paying all teammates [equitably and competitively](../people-ops/compensation/index.md), and always determine our offers based on market data, **not** your past compensation.
 
 ### Sourcegraph hiring values
 
-We believe all candidates are deserving of a fair, equitable, and enjoyable interview experience. You can read more about our hiring values [here](https://about.sourcegraph.com/handbook/talent/hiring#values-and-practices).
+We believe all candidates are deserving of a fair, equitable, and enjoyable interview experience. You can read more about our hiring values [here](./hiring/index.md#values-and-practices).
 
 ### Candidate experience
 
@@ -29,10 +29,10 @@ We know that interviewing can be stressful and that a lot of time and energy is 
 Specifically, we aim to provide a positive candidate experience by...
 
 - Treating all candidates with respect at all stages, regardless of hiring outcome.
-- Writing our job descriptions as clearly as possible to ensure you have a good understanding of the job and the impact you would make in the role. All job descriptions are written in an [inclusive format](https://about.sourcegraph.com/handbook/talent/interview_process#creating-a-job-description), encouraging candidates from all walks of life to apply.
-- Ensuring that our interview process is structured, that all interview questions [are planned](https://about.sourcegraph.com/handbook/talent/interview_process#creating-an-interview-plann) in advance of all interviews.
-- [Recording our interviews](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) to ensure we are focused on what you are saying, and not on taking notes.
-- Providing candidates with the tools to be successful in an interview, including transparency around our [interview process](https://about.sourcegraph.com/handbook/talent/interview_process), information about what to expect at a given [stage of the interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews), and resources on [how to prepare](https://about.sourcegraph.com/handbook/talent/how_to_prepare_for_candidates) for the interview.
+- Writing our job descriptions as clearly as possible to ensure you have a good understanding of the job and the impact you would make in the role. All job descriptions are written in an [inclusive format](./interview_process.md#creating-a-job-description), encouraging candidates from all walks of life to apply.
+- Ensuring that our interview process is structured, that all interview questions [are planned](./interview_process.md#creating-an-interview-plann) in advance of all interviews.
+- [Recording our interviews](./hiring/guide_to_using_brighthire.md) to ensure we are focused on what you are saying, and not on taking notes.
+- Providing candidates with the tools to be successful in an interview, including transparency around our [interview process](./interview_process.md), information about what to expect at a given [stage of the interview](./types_of_interviews.md), and resources on [how to prepare](./how_to_prepare_for_candidates.md) for the interview.
 - Offering clear, honest and consistent communication throughout all stages of the interview process. We try our best to get back to you quickly and will never waste your time if we know we're not moving you forward in our process.
 - Maintaining a respectful process for rejecting job applicants who do not move forward in the interview process or receive an offer.
 - Smoothly transitioning new hires into the onboarding process.
@@ -47,12 +47,12 @@ Candidates are welcome to re-apply for roles at any time. The talent team will r
 
 ### Early-career Engineering Hiring
 
-Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](https://about.sourcegraph.com/handbook/engineering/hiring/early-career-engineers)
+Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../engineering/hiring/early-career-engineers.md)
 
 # Interviewing at Sourcegraph
 
-- [Our interview process](https://about.sourcegraph.com/handbook/talent/interview_process).
-- [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
+- [Our interview process](./interview_process.md).
+- [Types of interviews](./types_of_interviews.md).
 
 # How to prepare for an interview
 
@@ -64,7 +64,7 @@ We leverage Zoom for our video interviews. Please make sure to test Zoom prior t
 
 ### Interview recording
 
-We believe that candidates should be assessed based on merit, not our memory. Our interview recording tool, [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire), allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve.
+We believe that candidates should be assessed based on merit, not our memory. Our interview recording tool, [BrightHire](./hiring/guide_to_using_brighthire.md), allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve.
 
 - 1. We record our interviews so we can focus on the conversation, not taking notes, and run a better hiring process.
 - 2. Memory recall actually declines to 44% one hour after an interview. We want to make sure that we are basing our hiring decisions on your merit, and not our memory.
@@ -76,26 +76,26 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 ### Types of interviews
 
-- We encourage you to read about the [different types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
+- We encourage you to read about the [different types of interviews](./types_of_interviews.md) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
 
 ### Helpful links
 
-- We are a [transparant](https://about.sourcegraph.com/handbook/marketing/messaging) company and everything we do lives in our [Handbook](https://about.sourcegraph.com/handbook). We encourage you to read through it prior to your interview.
-- Our [messaging and definitions](https://about.sourcegraph.com/handbook/marketing/messaging) should help you better understand what Sourcegraph does.
-- [Benefits and perks](https://about.sourcegraph.com/handbook/people-ops/benefits-and-perks).
-- [Teammates bios](https://about.sourcegraph.com/handbook/company/team).
-- [Strategy and vision](https://about.sourcegraph.com/handbook/company/strategy).
-- [Asynchronous communication at Sourcegraph](https://about.sourcegraph.com/handbook/company/asynchronous-communication)
+- We are a [transparant](../marketing/messaging.md) company and everything we do lives in our [Handbook](https://about.sourcegraph.com/handbook). We encourage you to read through it prior to your interview.
+- Our [messaging and definitions](../marketing/messaging.md) should help you better understand what Sourcegraph does.
+- [Benefits and perks](../people-ops/benefits-and-perks.md).
+- [Teammates bios](../company/team/index.md).
+- [Strategy and vision](../company/strategy.md).
+- [Asynchronous communication at Sourcegraph](../company/asynchronous-communication.md)
 
 # Candidate FAQ
 
 - Q: How is Sourcegraph doing from a financial standpoint?
 
-  - A: Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions). To learn more about our company financials, click [here](https://about.sourcegraph.com/handbook/talent/hiring#sharing-company-financials).
+  - A: Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions). To learn more about our company financials, click [here](./hiring/index.md#sharing-company-financials).
 
 - Q: Can I work from anywhere?
 
-  - A: Yes, Sourcegraph is an all-remote company. Unless indicated explicitly in the job description, we are a remote-first company and do not have a preference regarding your location. You can read more about our all-remote philosophy, as well as our path to all remote and tips for working remotely [here](https://about.sourcegraph.com/handbook/company/remote).
+  - A: Yes, Sourcegraph is an all-remote company. Unless indicated explicitly in the job description, we are a remote-first company and do not have a preference regarding your location. You can read more about our all-remote philosophy, as well as our path to all remote and tips for working remotely [here](../company/remote/index.md).
 
 - Q: When can I expect to hear feedback?
 
@@ -103,18 +103,18 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 - Q: Why does Sourcegraph record interviews?
 
-  - A: We use [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#what-is-brighthire), an interview recording tool, to record all interviews. We do this because we believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve. Have questions? To read our FAQ, [click here](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#candidate-faq).
+  - A: We use [BrightHire](./hiring/guide_to_using_brighthire.md#what-is-brighthire), an interview recording tool, to record all interviews. We do this because we believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve. Have questions? To read our FAQ, [click here](./hiring/guide_to_using_brighthire.md#candidate-faq).
 
 - Q: What should I wear to an interview?
   - A: We are a casual company and we encourage your to dress comfortably!
 - Q: Does Sourcegraph check references?
 
-  - A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent. You can read more about our reference check process [here](https://about.sourcegraph.com/handbook/talent/hiring/reference_check_questions).
+  - A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent. You can read more about our reference check process [here](./hiring/reference_check_questions.md).
 
 - Q: Does Sourcegraph provide feedback to candidates who don't receive an offer?
 
-  - A: We do not provide feedback to candidates at this time. We encourage you to read more about our [philosophy regarding sharing candidate feedback](https://about.sourcegraph.com/handbook/talent/hiring#sharing-interview-feedback).
+  - A: We do not provide feedback to candidates at this time. We encourage you to read more about our [philosophy regarding sharing candidate feedback](./hiring/index.md#sharing-interview-feedback).
 
 - Q: Do you provide Visa sponsorship?
 
-  - A: You can learn more about our Visa policy [here](https://about.sourcegraph.com/handbook/people-ops/how-we-engage-talent-outside-the-us#work-visas). If you have any questions, please email recruiting@sourcegraph.com.
+  - A: You can learn more about our Visa policy [here](../people-ops/how-we-engage-talent-outside-the-us/index.md#work-visas). If you have any questions, please email recruiting@sourcegraph.com.

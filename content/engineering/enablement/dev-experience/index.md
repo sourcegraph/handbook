@@ -41,7 +41,7 @@ TODO
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](https://about.sourcegraph.com/handbook/engineering/principles-and-practices) and [Enablement org's principles and practices](https://about.sourcegraph.com/handbook/engineering/developer-insights#principles-and-practices). In addition, we have a few processes and practices specific to our team as detailed below.
+We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../../developer-insights/index.md#principles-and-practices). In addition, we have a few processes and practices specific to our team as detailed below.
 
 ## Processes
 

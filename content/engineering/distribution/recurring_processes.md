@@ -67,7 +67,7 @@ At the end of each sprint, the team performs a [retrospective](../../retrospecti
 
 ### Company meeting
 
-As with everyone at Sourcegraph, we join the [weekly company meeting](https://about.sourcegraph.com/handbook/communication/company_meeting) (when timezone permits, watching the recording otherwise).
+As with everyone at Sourcegraph, we join the [weekly company meeting](../../communication/company_meeting.md) (when timezone permits, watching the recording otherwise).
 
 ### Weekly Distribution team sync
 

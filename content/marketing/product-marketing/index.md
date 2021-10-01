@@ -40,9 +40,9 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 
 ## Meet the team
 
-- [Andy Schumeister](https://about.sourcegraph.com/handbook/company/team/#andy-schumeister-he-him), Director of Product Marketing
-- [Alex Isken](https://about.sourcegraph.com/handbook/company/team/#alex-isken-he-him), Product Marketing Manager, Emerging Products
-- [Victoria Yunger](https://about.sourcegraph.com/handbook/company/team/#victoria-yunger-she-her), Product Marketing Lead, Enterprise
+- [Andy Schumeister](../../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
+- [Alex Isken](../../company/team/index.md#alex-isken-he-him), Product Marketing Manager, Emerging Products
+- [Victoria Yunger](../../company/team/index.md#victoria-yunger-she-her), Product Marketing Lead, Enterprise
 - Hiring: [Senior Customer Marketing Manager](https://boards.greenhouse.io/sourcegraph91/jobs/4096458004)
 
 To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)

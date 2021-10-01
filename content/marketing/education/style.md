@@ -50,7 +50,7 @@ Sourcegraph Learn tutorials and other resources have the following characteristi
   - No errors in copy
   - Punctuation that helps with readability
 
-See also Sourcegraph [Style and mechanics](https://about.sourcegraph.com/handbook/communication/content_guidelines/style_and_mechanics).
+See also Sourcegraph [Style and mechanics](../../communication/content_guidelines/style_and_mechanics.md).
 
 ## Resource types
 

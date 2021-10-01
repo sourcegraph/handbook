@@ -13,7 +13,7 @@ Welcome to our Gifting Guidelines Page! Have a request for swag? Use the [Swag R
 
 > Note that adding new items to our inventory can take around 8+ weeks if a custom design is being created and applied to the item vs our standard branding and logo applications.
 
-> Make sure that you comply with our [anti-corruption/anti-bribery policy](https://about.sourcegraph.com/handbook/people-ops/anti-corruption) and reach out to #legal slack channel or legal@sourcegraph.com with any questions.
+> Make sure that you comply with our [anti-corruption/anti-bribery policy](../../people-ops/anti-corruption.md) and reach out to #legal slack channel or legal@sourcegraph.com with any questions.
 
 **Branded swag** are lower-cost items with our logo on them. This includes socks, stickers, notebooks, t-shirts and tumblers. It is a great way to thank someone for advocating for Sourcegraph in their company, or to recognize something special that they have done for us or our community. These items are available through [Printfection](https://www.printfection.com/swag/) with weight- and location-based global shipping.
 

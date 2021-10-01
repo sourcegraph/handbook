@@ -1,6 +1,6 @@
 # Demand Gen Team README
 
-Our README expands on our profile in [the company team directory](https://about.sourcegraph.com/handbook/company/team) and are meant to help us orient to one another.
+Our README expands on our profile in [the company team directory](../../company/team/index.md) and are meant to help us orient to one another.
 
 - Erica README
 - Greg README
@@ -35,4 +35,4 @@ The format, style, order, etc is up to each of us. Just make sure to include the
 
 ---
 
-All credit for the idea of team READMEs, including the page layout and copy, goes to the [Customer Support](https://about.sourcegraph.com/handbook/support/support-bios) team
+All credit for the idea of team READMEs, including the page layout and copy, goes to the [Customer Support](../../support/support-bios.md) team

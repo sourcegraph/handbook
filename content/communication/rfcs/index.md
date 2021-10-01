@@ -75,7 +75,7 @@ If in doubt about the current status of an RFC, check the update history and con
 
 ### RFCs are public to the world by default
 
-[We value openness](https://about.sourcegraph.com/handbook/company#open-company). Transparency helps us to communicate with and gather feedback from our customers and across our team, and it holds everyone accountable for being inclusive, high-quality, and (thing).
+[We value openness](../../company/index.md#open-company). Transparency helps us to communicate with and gather feedback from our customers and across our team, and it holds everyone accountable for being inclusive, high-quality, and (thing).
 
 All RFCs are public for anyone to read and comment by default, and for all Sourcegraph teammates to edit. These RFCs are located in our [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa).
 
@@ -85,7 +85,7 @@ Sometimes, there’s information in RFCs that can’t be made public. These are 
 - If there is strategic or confidential information that shouldn’t be made public, you can put that information into a private document and link to it from the public RFC.
 - If most of the content of the RFC can’t be made public, then it is okay to make the RFC accessible only to the Sourcegraph team. To do this, add “PRIVATE” after the status in the title, move it to the [private RFCs Google Drive folder](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv), and explain why it’s private within the RFC itself.
 
-For examples of public vs. non-public information, see our [transparency chart](https://about.sourcegraph.com/handbook/company/values#open-and-transparent).
+For examples of public vs. non-public information, see our [transparency chart](../../company/values.md#open-and-transparent).
 
 #### What should you do if non-public information is accidentally added or found in an RFC?
 

@@ -9,9 +9,9 @@ At Sourcegraph, we aim for ongoing, real-time career conversations so you feel e
 
 ## Why call them Impact reviews?
 
-[High agency](https://about.sourcegraph.com/handbook/company/values#high-agency), [high quality](https://about.sourcegraph.com/handbook/company/values#high-quality), and [continuous growth](https://about.sourcegraph.com/handbook/company/values#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success - all resulting in continuous growth for each individual.
+[High agency](../company/values.md#high-agency), [high quality](../company/values.md#high-quality), and [continuous growth](../company/values.md#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success - all resulting in continuous growth for each individual.
 
-Continuous growth begins on your first day here at Sourcegraph. To equip you with the tools to champion your own growth, we’ve set up [Onboarding Feedback Milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones) to track your progress in onboarding during your first, second, and third month. We’d like you to start practicing the concept of continuous feedback in these first three monthly checkpoints so you can shift into the mindset of continuous growth before you begin your first review cycle.
+Continuous growth begins on your first day here at Sourcegraph. To equip you with the tools to champion your own growth, we’ve set up [Onboarding Feedback Milestones](./onboarding/onboarding-feedback-milestones.md) to track your progress in onboarding during your first, second, and third month. We’d like you to start practicing the concept of continuous feedback in these first three monthly checkpoints so you can shift into the mindset of continuous growth before you begin your first review cycle.
 
 Ultimately, these cycles are referred to as “Impact reviews” because they reveal the impact that you are making on a company-wide level, at a team level, and most importantly, at a personal level.
 
@@ -65,7 +65,7 @@ To help get you started, we will be hosting an interactive Sourcegraph Fundament
 
 ## Impact review stages
 
-After you’ve moved through each of your three [Onboarding Feedback Milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones) and you arrive at month six of your Sourcegraph journey, you will use your Sourcegraph login for [Lattice](https://lattice.com/) to conduct your 360 Impact review cycles! You will receive an email when your review cycle is set to begin prompting you to nominate your peer reviewers.
+After you’ve moved through each of your three [Onboarding Feedback Milestones](./onboarding/onboarding-feedback-milestones.md) and you arrive at month six of your Sourcegraph journey, you will use your Sourcegraph login for [Lattice](https://lattice.com/) to conduct your 360 Impact review cycles! You will receive an email when your review cycle is set to begin prompting you to nominate your peer reviewers.
 
 The 360 Impact review process covers a few key types of feedback as mentioned above:
 
@@ -76,7 +76,7 @@ The 360 Impact review process covers a few key types of feedback as mentioned ab
 
 _Best practice tip: We recognize that to make an impact, you must first develop goals that drive specific outcomes. Engaging in quarterly goal setting in tandem with your Impact reviews will give each teammate direction, certainty, and velocity in prioritizing their goals. If you’d like to create quarterly goals to align with your manager on, use our series of templates in our [Goal setting folder](https://drive.google.com/drive/folders/1EA0uJ5eroG8NMKtv315c5aumFNB1K7AD)._
 
-These cycles will run concurrently with your [Onboarding Feedback Milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones) on the following cadence:
+These cycles will run concurrently with your [Onboarding Feedback Milestones](./onboarding/onboarding-feedback-milestones.md) on the following cadence:
 
 <object role="image" data="impact_review_infographic.svg" width="960" height="540" aria-label="Infographic describing cadence of Impact review cycle from start date to cycle launches"></object>
 
@@ -151,7 +151,7 @@ Impact: the so-what (_effect on emotion and work_)
 
 The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
-In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](https://about.sourcegraph.com/handbook/company/values#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
+In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](../company/values.md#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
 
 For more information on how to use SBI and giving great feedback, [check out this resource](https://docs.google.com/document/d/1sT-eyNj7KnFQZyaJ7Uja6Hnqb1sXE-aq-Ayz4X_-8Zk/edit)!
 

@@ -49,7 +49,7 @@ See [security goals and priorities](../../../direction/cloud/security/index.md)
 
 We're always happy for teams to [request security code reviews](secure-code-review.md).
 
-Security questionnaires for new and existing customers should [follow the process here](https://about.sourcegraph.com/handbook/sales/salessecurity) - feel free to message us on #security too.
+Security questionnaires for new and existing customers should [follow the process here](../../../sales/salessecurity.md) - feel free to message us on #security too.
 
 ### Questions and Support Requests
 
