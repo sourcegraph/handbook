@@ -74,7 +74,7 @@ We sequentialize and parallelize projects in a way that we can _plan_ projects (
 We will however make sure to never have multiple projects in planning phase at the same time, as this leads to cognitive overload while also delivering on an implementation for another projects.
 This means a teammate may have to think at most about 2 projects at any given time: one that is being implemented, and one that is being planned, and a teammate will never have to implement more than one larger project at the same time.
 
-<object data="./project_planning.svg" width="1100" height="263" aria-label="Diagram showing three example projects going through all three project phases, with each product and design phase in parallel to the implementation phase of the previous project."></object>
+<object data="project_planning.svg" width="1100" height="263" aria-label="Diagram showing three example projects going through all three project phases, with each product and design phase in parallel to the implementation phase of the previous project."></object>
 
 #### Tracking issues
 

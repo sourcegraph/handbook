@@ -20,6 +20,17 @@ import { VFile } from 'vfile'
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 import { rehypeSlackChannels } from './rehypeSlackChannels'
 
+const urlSelectors = [
+    'a[href]',
+    'img[src]',
+    'video[src]',
+    'audio[src]',
+    'source[src]',
+    'track[src]',
+    'object[data]',
+    'link[href]',
+]
+
 export default async function markdownToHtml(
     markdown: string,
     contextUrlPath: string,
@@ -37,7 +48,7 @@ export default async function markdownToHtml(
         .use(rehypeSlackChannels)
         // Trim .md suffix from links
         .use(rehypeUrl, {
-            selectors: ['a[href]'],
+            selectors: urlSelectors,
             inspectEach: urlMatch => rewriteLinkUrl(urlMatch, contextUrlPath, isIndexPage),
         })
         // Add IDs to headings
@@ -90,7 +101,7 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         // earlier to save a redirect
         .replace(/\/$/, '')
 
-    match.node.properties!.href = url.format(parsedUrl)
+    match.node.properties![match.propertyName!] = url.format(parsedUrl)
 }
 
 /**

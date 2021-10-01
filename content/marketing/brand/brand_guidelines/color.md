@@ -278,8 +278,8 @@ Use supporting colors for added tonality and awareness within website UI.
 When creating a layout, the logo should be the primary object that informs the rest of the layout.
 Once the logo is placed, add appropriate colors keeping in mind that our vibrant colors can quickly become visually overwhelming.
 
-<object role="image" data="./color/color_use_1.svg" style="max-width: 22rem" alt="Example 1 of Sourcegraph color usage in marketing material"></object>
-<object role="image" data="./color/color_use_2.svg" style="max-width: 22rem" alt="Example 2 of Sourcegraph color usage in marketing material"></object>
+<object role="image" data="color_use_1.svg" style="max-width: 22rem" alt="Example 1 of Sourcegraph color usage in marketing material"></object>
+<object role="image" data="color_use_2.svg" style="max-width: 22rem" alt="Example 2 of Sourcegraph color usage in marketing material"></object>
 
 ### Color use for website UI
 
@@ -328,27 +328,27 @@ Do not alter existing colors or add new colors to the palette. Use color to your
 <div style="display: grid; grid-template-columns: repeat(auto-fit, 16rem); gap: 1rem">
   <figure class="color-misuse">
     <figcaption>Do not add new colors to the brand palette.</figcaption>
-    <object role="image" data="./color/color_misuse_new_colors.svg"></object>
+    <object role="image" data="color_misuse_new_colors.svg"></object>
   </figure>
   <figure class="color-misuse">
     <figcaption>Do not use too many colors in a design.</figcaption>
-    <object role="image" data="./color/color_misuse_too_many_colors.svg"></object>
+    <object role="image" data="color_misuse_too_many_colors.svg"></object>
   </figure>
   <figure class="color-misuse">
     <figcaption>Do not set text in a color that does not meet ADA requirements.</figcaption>
-    <object role="image" data="./color/color_misuse_ada.svg"></object>
+    <object role="image" data="color_misuse_ada.svg"></object>
   </figure>
   <figure class="color-misuse">
     <figcaption>Do not use Sourcegraph primary blue, or any other brand colors that don’t meet ADA compliance for text or UI elements.</figcaption>
-    <object role="image" data="./color/color_misuse_ada_ui.svg"></object>
+    <object role="image" data="color_misuse_ada_ui.svg"></object>
   </figure>
   <figure class="color-misuse">
     <figcaption>Do not saturate a design with color.</figcaption>
-    <object role="image" data="./color/color_misuse_saturate.svg"></object>
+    <object role="image" data="color_misuse_saturate.svg"></object>
   </figure>
   <figure class="color-misuse">
     <figcaption>Do not set the logo on a color or gradient that does not have sufficient contrast.</figcaption>
-    <object role="image" data="./color/color_misuse_contrast.svg"></object>
+    <object role="image" data="color_misuse_contrast.svg"></object>
   </figure>
 </div>
 

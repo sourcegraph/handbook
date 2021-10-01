@@ -8,7 +8,7 @@
 
 ## How we express our brand
 
-<object role="img" data="./how_we_express_our_brand.svg" width="555" height="514" style="float: right; margin-left: 2rem; max-width: 32rem; aspect-ratio: 555 / 514"></object>
+<object role="img" data="how_we_express_our_brand.svg" width="555" height="514" style="float: right; margin-left: 2rem; max-width: 32rem; aspect-ratio: 555 / 514"></object>
 
 Our brand is at the root of everything we do. It’s how we behave, communicate, look, and interact, across digital and real-world touch-points. Each element of our brand works together to demonstrate who we are and what we believe in.
 
