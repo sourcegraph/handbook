@@ -41,7 +41,7 @@ All items in our inventory are the same ones found in our new hire kits, but not
 2. The Brand team will review your request. _Note: all requests will be reviewed on a case-by-case basis factoring in current inventory levels and use cases_
 3. If your request is approved, you will receive a link from The Brand Team via Slack. Links are sent every Thursday (Swag day!).
 4. Send the link to your recipient. They will redeem their gift and add their own shipping address.
-5. If you would like to get notified when redemptions happen, contact The Brand Team through the [#swag](https://sourcegraph.slack.com/archives/C01SVQUPDAN) channel.
+5. If you would like to get notified when redemptions happen, contact The Brand Team through the #swag channel.
 
 ## Available Inventory
 

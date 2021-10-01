@@ -121,7 +121,7 @@ To help set you, the hiring team, and your candidates up for success, we offer t
 
 What follows is a collection of tips for each stage of the interview process for you and your team to use once you are ready to start the hiring process.
 
-However, the most important resource available to you is our amazing recruiting team! The [#hiring](https://sourcegraph.slack.com/archives/C168VP0FM) slack channel is your direct line of communication with this team to ask questions, practice giving an interview with someone, or get any other support you need. Hiring managers and folks who have participated in early-career interviewing are also always encouraged to help out!
+However, the most important resource available to you is our amazing recruiting team! The #hiring slack channel is your direct line of communication with this team to ask questions, practice giving an interview with someone, or get any other support you need. Hiring managers and folks who have participated in early-career interviewing are also always encouraged to help out!
 
 #### Tips for preparing your interview kit and scorecard
 
@@ -164,7 +164,7 @@ To further train your bias-catching muscle, check out [Pamela Fuller's The Leade
 - Remind the candidate to take their time if they need to.
 - Err on the side of providing too many hints or too much positive encouragement over not delivering enough.
 - Focus on the candidate's thought process as much as their answers; often, understanding their thought process tells you more about their ability to learn and onboard than their direct answers.
-- Practice giving an interview in advance, and seek feedback from [#hiring](https://sourcegraph.slack.com/archives/C168VP0FM) on any questions or topics you're not sure about covering!
+- Practice giving an interview in advance, and seek feedback from #hiring on any questions or topics you're not sure about covering!
 
 ## Set up early-career teammates for success
 

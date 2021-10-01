@@ -44,7 +44,7 @@ _The extensibility team has many ownership areas, but not all of them are under 
 
 ## Contact
 
-- [#extensibility](https://app.slack.com/client/T02FSM7DL/C01LZKLRF0C) channel or @extensibility on Slack
+- #extensibility channel or @extensibility on Slack
 - [team/extensibility](https://github.com/sourcegraph/sourcegraph/labels/team%2Fextensibility) label and [@sourcegraph/extensibility](https://github.com/orgs/sourcegraph/teams/extensibility) team on GitHub.
 
 ## Goals

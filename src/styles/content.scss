@@ -11,7 +11,6 @@ abbr[title] {
     text-underline-offset: 0.2em;
     cursor: help;
 }
-
 kbd {
     border-radius: 4px;
     border: 1px solid var(--gray-04);
@@ -39,6 +38,19 @@ kbd {
     line-height: 1.5;
     word-wrap: break-word;
     tab-size: 2;
+}
+
+// Copied from Slack's CSS
+.markdown-body .slack-channel {
+    border-radius: 3px;
+    background: rgba(48, 149, 192, 0.1);
+    color: rgb(18, 100, 163);
+    padding: 0 2px 1px 2px;
+    &:hover {
+        text-decoration: none;
+        background: rgba(29, 155, 209, 0.2);
+        color: rgb(11, 76, 140);
+    }
 }
 
 /* SYNTAX HIGLIGHTING */

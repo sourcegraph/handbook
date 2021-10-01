@@ -73,7 +73,7 @@ Find out [how we cover on-call](#on-call-Support).
 
 ### General questions
 
-1. In [#distributioneers](https://sourcegraph.slack.com/archives/CJX299FGE), click the blue lightning bolt just below the Slack text field
+1. In #distributioneers, click the blue lightning bolt just below the Slack text field
 2. At the top of the popup, select the type of request – "Ask a question"
 3. Fill out the form!
 4. Your responses will be posted in the channel, which is monitored by the member of the team on the support rotation ([see below](#how-we-cover-support-requests) for more info!)
@@ -82,7 +82,7 @@ Find out [how we cover on-call](#on-call-Support).
 ### General (non-urgent) support requests
 
 1. Ensure there is an GitHub issue logged for the problem
-2. In [#distributioneers](https://sourcegraph.slack.com/archives/CJX299FGE), click the blue lightning bolt just below the Slack text field
+2. In #distributioneers, click the blue lightning bolt just below the Slack text field
 3. At the top of the popup, select the type of request – "Request support"
 4. Fill out the form!
 5. Your responses will be posted in the channel, which is monitored by the member of the team on the support rotation ([see below](#how-we-cover-support-requests) for more info!)

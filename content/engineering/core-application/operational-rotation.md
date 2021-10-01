@@ -11,7 +11,7 @@ We are establishing the **operational rotation** to predictably deliver sprint g
 ## Responsibilities of the engineer on operation rotation
 
 - Be responsible for all types of interruption work so other team members can focus on sprint goals.
-- Provide customer support by working on support requests for help ([#rfh](https://github.com/sourcegraph/customer/issues?q=label%3Ateam%2Fcore-application+label%3Arfh) in GitHub)
+- Provide customer support by working on support requests for help (#rfh
 - Answer questions and provide support to other teams on [#core-application](https://sourcegraph.slack.com/archives/CHPC7UX16) and [#ask-prod-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W) Slack channels
 - Review and merge PRs from other teams
 - Regularly update the team about the current state of support escalations, SLAs, and any risks connected with interruption work.

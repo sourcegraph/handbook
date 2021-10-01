@@ -35,7 +35,7 @@ Specifically not included:
 
 ## Contact
 
-- [#delivery](https://sourcegraph.slack.com/archives/C01N83PS4TU) channel or @delivery-team in Slack.
+- #delivery channel or @delivery-team in Slack.
 - [team/delivery](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdelivery) label and [@sourcegraph/delivery](https://github.com/orgs/sourcegraph/teams/delivery) team on GitHub.
 
 ## Growth plan

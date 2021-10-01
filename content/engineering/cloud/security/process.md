@@ -1,6 +1,6 @@
 # Security - How we manage our work
 
-Our processes are in a period of change, so if in doubt, please reach out to us directly in Slack at [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ).
+Our processes are in a period of change, so if in doubt, please reach out to us directly in Slack at #security.
 
 ## Contents
 

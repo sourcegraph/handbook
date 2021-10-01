@@ -18,6 +18,7 @@ import { unified, Plugin } from 'unified'
 import { VFile } from 'vfile'
 
 import { rehypeMarkupDates } from './rehypeMarkupDates'
+import { rehypeSlackChannels } from './rehypeSlackChannels'
 
 export default async function markdownToHtml(
     markdown: string,
@@ -33,6 +34,7 @@ export default async function markdownToHtml(
         // Parse Markdown that was included _within_ HTML
         .use(rehypeRaw)
         .use(rehypeMarkupDates)
+        .use(rehypeSlackChannels)
         // Trim .md suffix from links
         .use(rehypeUrl, {
             selectors: ['a[href]'],
