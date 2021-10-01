@@ -22,8 +22,8 @@
 
 Helpful links:
 
-* [VP Eng team docs](vpe/index.md)
-* [Engineering team and hiring plan](https://docs.google.com/spreadsheets/d/1CIQYQDN2KFyHMmPEx3FqubapyXyapFp0B_DoDJtWvm8/edit#gid=0) (internal doc)
+- [VP Eng team docs](vpe/index.md)
+- [Engineering team and hiring plan](https://docs.google.com/spreadsheets/d/1CIQYQDN2KFyHMmPEx3FqubapyXyapFp0B_DoDJtWvm8/edit#gid=0) (internal doc)
 
 ## Philosophy
 
