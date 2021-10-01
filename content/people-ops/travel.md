@@ -149,7 +149,7 @@ For any anticipated spending over $1,000 USD, please follow the above steps and 
 
 We advise spending within reason for the location you are visiting, with a $300 USD per night maximum spend limit (including taxes, fees, and parking).
 
-> Spending over $300 USD per night requires additional approvals from  
+> Spending over $300 USD per night requires additional approvals from
 > Finance / People Ops.
 >
 > _Please send travel@sourcegraph.com an email with your manager and
@@ -221,7 +221,7 @@ As a reminder, travel is voluntary and no teammates are required to travel. Trip
 
 After your request has been submitted, you will receive approval from Finance via email within 1 business day.
 
-For any additional questions, please reach out to **#finance** and **#people-ops** at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
+For any additional questions, please reach out to #finance and #people-ops at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
 
 ## Budget Template
 
