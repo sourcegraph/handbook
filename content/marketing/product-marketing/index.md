@@ -24,7 +24,7 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 | :------------------------------------------------------------ | :--------------------------------------------------------------------- |
 | GTM launches/New Product Introduction (NPI)                   | Product roadmap                                                        |
 | Product messaging and positioning                             | Company messaging and positioning                                      |
-| Pricing and packaging (this is shared with Sales and Product) | Sales collateral (pitch deck, outbound messaging) and sales enablement |
+| Pricing and packaging (this is shared with Ops and Product)   | Sales collateral (pitch deck, outbound messaging) and sales enablement |
 | Customer advocacy and marketing                               | Community and developer education                                      |
 | Analyst relations                                             | PR (drive for new products)                                            |
 | Use cases and value drivers                                   | Buyer personas (drive for new products)                                |
@@ -47,9 +47,15 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 
 To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)
 
+## Product launch templates and resources
+
+- [Product marketing brief](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#): Messaging and positioning doc for new products/features.
+- [Naming process](https://handbook.sourcegraph.com/marketing/brand/naming_process_for_products_features_and_programs): Best practices/process for naming new products/features. 
+- [Marketing launch tiers](marketing_launch_tiers.md): Guidance for establishing the launch tier for new products/features. 
+
+
 ## Resources
 
-- [Marketing launch tiers](marketing_launch_tiers.md)
 - [Product marketing hierarchy](product_marketing_hierarchy.md)
 - [Product marketing roadmap](product-marketing-roadmap.md)
 - [Batch Changes positioning](batch_changes_positioning.md)
