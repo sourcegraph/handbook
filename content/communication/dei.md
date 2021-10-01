@@ -36,5 +36,5 @@ For the remainder of FY22, we aim to roll out the following initiatives:
 
 We appreciate that this work will never be fully done, and will update this page as we identify, launch and complete future initiatives that will help us make Sourcegraph a place where all teammates feel they belong and can grow their careers.
 
-We encourage all teammates to give us ideas and feedback at any time via their managers and/or the PeopleOps team. If appropriate, questions can be submitted anonymously via our company meeting form (which is automatically posted to `#general` on Slack each week).
+We encourage all teammates to give us ideas and feedback at any time via their managers and/or the PeopleOps team. If appropriate, questions can be submitted anonymously via our company meeting form (which is automatically posted to #general on Slack each week).
 If you are a candidate and have questions, you can email [hiring@sourcegraph.com](mailto:hiring@sourcegraph.com).

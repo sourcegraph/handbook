@@ -6,7 +6,7 @@ The product team owns a number of [user feedback sources](user_feedback.md).
 
 We check both HubSpot and Salesforce before replying to feedback to ensure another team has not already replied. We bcc all of our email replies to feedback into HubSpot and Salesforce so everyone can reference the communication.
 
-If there are questions or takeaways that might impact a customer or prospect relationship, such as if the feedback is particularly strong (positive or negative) or timely, we also sometimes notify the relevant Sales/CE team member with a threaded reply in the `#feedback` channel in Slack.
+If there are questions or takeaways that might impact a customer or prospect relationship, such as if the feedback is particularly strong (positive or negative) or timely, we also sometimes notify the relevant Sales/CE team member with a threaded reply in the #feedback channel in Slack.
 
 ## Feedback rotation
 
@@ -26,7 +26,7 @@ The PM on feedback rotation labels and forwards issues that others create to the
 
 All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage.
 
-### Slack [`#feedback`](https://sourcegraph.slack.com/archives/C0W2E592M) channel
+### Slack #feedback channel
 
 For both self-contained product feedback slack posts and for new GitHub issues with #feedback labels (which automatically cross-post to Slack), the product manager on feedback rotation:
 
