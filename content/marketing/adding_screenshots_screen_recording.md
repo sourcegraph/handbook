@@ -25,7 +25,7 @@ Why do we not use title slides?
 1. Title slides delay the "time to a wow moment".
 1. It likely leads to inconsistencies. All title slides that we're currently showing on our site should be the same, if we are showing title slides. So, they'd all need to have the same layout, tone/voice of copy, timing, etc. It adds a large burden of maintenance that we don't want to take on.
 
-If you _really_ think your video needs one, ask for help in the `#marketing` channel (and cite this handbook section and explain why you need one).
+If you _really_ think your video needs one, ask for help in the #marketing channel (and cite this handbook section and explain why you need one).
 
 ## Adding a screenshot
 

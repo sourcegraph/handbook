@@ -44,13 +44,13 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 
 ### Twitter
 
-- **Purpose:** Anyone can tweet about @Sourcegraph for public feedback. All tweets are in `#twitter` on Slack.
+- **Purpose:** Anyone can tweet about @Sourcegraph for public feedback. All tweets are in #twitter on Slack.
 - **Owner:** Marketing.
 
 ### Slack
 
 - **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
-- **Owner:** We [ask that teammates surface product feedback](../surfacing_product_feedback.md) in [`#feedback`](https://sourcegraph.slack.com/archives/C0W2E592M). The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](responding_to_user_feedback.md#slack-feedback-channel).
+- **Owner:** We [ask that teammates surface product feedback](../surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](responding_to_user_feedback.md#slack-feedback-channel).
 
 ### Support tickets
 
@@ -78,7 +78,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 ### CE feedback
 
 - **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
-- **Owner:** CE owns putting this feedback in the `#feedback` slack channel the [same way](../surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
+- **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](../surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
 
 ## Productboard
 

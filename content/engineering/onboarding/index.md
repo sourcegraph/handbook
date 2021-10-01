@@ -15,7 +15,7 @@ You'll have to get some basics set up in your first few days:
 - Complete the onboarding for your role:
   - [Software engineer onboarding](software-engineer-onboarding.md)
   - [Engineering manager onboarding](engineering-manager-onboarding.md)
-- If you need access to Percy for visual testing, ask on `#dev-chat` for an invitation to our org.
+- If you need access to Percy for visual testing, ask on #dev-chat for an invitation to our org.
 
 ## Manager checklist
 

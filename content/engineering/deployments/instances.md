@@ -31,7 +31,7 @@ This deployment also includes our [documentation](https://docs.sourcegraph.com/)
   ```
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/cloud)
-- Alerts: `#alerts-cloud` and [OpsGenie](../incidents/on_call.md)
+- Alerts: #alerts-cloud and [OpsGenie](../incidents/on_call.md)
 - [Playbooks](./playbooks.md#sourcegraph-com)
 
 ## k8s.sgdev.org
@@ -52,7 +52,7 @@ Learn more in [deployment basics](./index.md#deployment-basics).
   ```
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/dogfood)
-- Alerts: `#alerts-dogfood-k8s`
+- Alerts: #alerts-dogfood-k8s
 - [Playbooks](./playbooks.md#k8s-sgdev-org)
 
 ## Managed instances
