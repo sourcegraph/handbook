@@ -9,7 +9,7 @@ export function TableOfContents({ toc, className }: { toc: Toc; className?: stri
                     <li>
                         <a href={node.id && `#${node.id}`}>{node.value}</a>
                     </li>
-                    {node.children && <TableOfContents toc={node.children} />}
+                    {node.children && node.depth <= 3 && <TableOfContents toc={node.children} />}
                 </React.Fragment>
             ))}
         </ul>
