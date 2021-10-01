@@ -5,7 +5,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import React from 'react'
 
-import EditSection from '../components/EditSection'
+import { EditSection } from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
 import { getPageBySlugPath, loadAllPages, LoadedPage } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
@@ -59,8 +59,10 @@ export default function Page({ page }: PageProps): JSX.Element {
             </Head>
             <div className="container">
                 <nav id="right-sidebar">
-                    <h4 className="sidebar-heading">On this page</h4>
-                    <TableOfContents toc={page.toc} className="table-of-contents" />
+                    <section className="right-sidebar-section">
+                        <h4 className="sidebar-heading">On this page</h4>
+                        <TableOfContents toc={page.toc} className="table-of-contents" />
+                    </section>
                     <EditSection page={page} />
                 </nav>
                 <div id="content">

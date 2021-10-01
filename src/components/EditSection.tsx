@@ -9,61 +9,52 @@ interface EditSectionProps {
     page: PageWithMetadata
 }
 
-const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
-    const LastUpdated: React.FunctionComponent = () =>
-        (page.lastUpdated && (
+const AVATARS_TO_DISPLAY = 8
+
+export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => (
+    <section className="right-sidebar-section edit-section">
+        {page.authors && (
+            <>
+                <h4 className="sidebar-heading mb-0">Contributors</h4>
+                <div className="avatar-set">
+                    {page.authors.slice(0, AVATARS_TO_DISPLAY).map(author => (
+                        <a
+                            href={author.url}
+                            className="avatar"
+                            title={author.name}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            key={author.username}
+                        >
+                            <img
+                                alt={`Avatar of ${author.name}`}
+                                src={`${author.avatar}&s=72`}
+                                width="36"
+                                height="36"
+                            />
+                        </a>
+                    ))}
+                    {page.authors.length - AVATARS_TO_DISPLAY > 0 && (
+                        <span>+ {page.authors.length - AVATARS_TO_DISPLAY} more</span>
+                    )}
+                </div>
+            </>
+        )}
+        {page.lastUpdated && (
             <div>
-                Updated {formatDistanceToNow(new Date(page.lastUpdated))} ago •{' '}
-                <Link href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}.md`}>
+                Updated <time dateTime={page.lastUpdated}>{formatDistanceToNow(new Date(page.lastUpdated))} ago</time>{' '}
+                <span className="text-muted mx-1" aria-hidden="true">
+                    •
+                </span>{' '}
+                <Link href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.path}`}>
                     History
                 </Link>
             </div>
-        )) ||
-        null
-
-    const EditOnGithub: React.FunctionComponent = () => (
-        <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.slug}.md`}>
-            Edit this page on GitHub
-        </Link>
-    )
-
-    if (!page.authors) {
-        return (
-            <section className="edit-section">
-                <LastUpdated />
-
-                {page.lastUpdated && <hr className="edit-seperator" />}
-
-                <EditOnGithub />
-            </section>
-        )
-    }
-
-    const AVATARS_TO_DISPLAY = 3
-    const moreAuthors = page.authors.length - AVATARS_TO_DISPLAY
-    const authors = page.authors.slice(0, AVATARS_TO_DISPLAY)
-
-    return (
-        <section className="edit-section">
-            <h5 className="edit-title">Maintained by</h5>
-            <div className="avatar-set">
-                {authors.map(author => (
-                    <Link key={author.username} href={author.url}>
-                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                        <a className="avatar" title={author.name} target="_blank" rel="noreferrer noopener">
-                            <img alt={`Avatar of ${author.name}`} src={author.avatar} width="36" height="36" />
-                        </a>
-                    </Link>
-                ))}
-                {moreAuthors > 0 && <span>+ {moreAuthors} more</span>}
-            </div>
-            <LastUpdated />
-
-            <hr className="edit-seperator" />
-
-            <EditOnGithub />
-        </section>
-    )
-}
-
-export default EditSection
+        )}
+        <div className="sidebar-bottom-links">
+            <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.path}`}>
+                Edit this page on GitHub
+            </Link>
+        </div>
+    </section>
+)
