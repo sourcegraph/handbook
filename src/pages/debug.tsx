@@ -20,7 +20,7 @@ function DirectoryItem(props: { node: DirectoryNode<ParsedPage> }): JSX.Element 
                         <a title={page.path} href={`/${page.slug}`}>
                             {page.title || 'Untitled'} (/{page.slug}) {page.isIndexPage && ' (index)'}
                         </a>
-                        <TableOfContents className="italic" hrefPrefix={`/${page.slug}`} toc={page.toc} />
+                        <TableOfContents className="fst-italic" hrefPrefix={`/${page.slug}`} toc={page.toc} />
                     </li>
                 ))}
             </ul>
