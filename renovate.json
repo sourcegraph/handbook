@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>sourcegraph/renovate-config"],
-  "reviewers": ["team:handbook-devs"]
+  "reviewers": ["team:handbook-devs"],
+  "labels": ["🤖 bot", "🏗️ Handbook website"]
 }
