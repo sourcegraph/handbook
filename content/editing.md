@@ -274,24 +274,11 @@ All of the following needs to occur within one pull request. See [this section](
 1. Rename the file to indicate its new location as described in [Github's documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/moving-a-file-to-a-new-location)
 1. Address any errors in the [Handbook Checks](#handbook-checks). Since you are changing the location of a file, any existing links to that file will break. You may see errors like this:
    ![Broken Link Errors](https://storage.googleapis.com/sourcegraph-assets/handbook/relocate-page-errors.png)
-1. [Add redirects](#adding-redirects) to account for any instance where someone may be directed to the old URL.
 
 ## Deleting a Page (Web Interface)
 
 See [this Github documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/deleting-files-in-a-repository#deleting-a-file) for deleting a file or directory through the web interface. You may encounter Handbook checks errors. Since you are changing the location of a file, any existing links to that file will break. You may see errors like this, which are explained in the [Handbook Checks](#handbook-checks) section of this page:
 ![Broken Link Errors](https://storage.googleapis.com/sourcegraph-assets/handbook/relocate-page-errors.png)
-
-## Adding redirects
-
-When you change the location of content in the handbook it's important to add a redirect rule so that old URL to the content will automatically take users to the new URL.
-
-To add a redirect rule:
-
-1. Edit the following file: [`/_resources/assets/redirects`](https://github.com/sourcegraph/about/blob/main/_resources/assets/redirects)
-1. Add your redirect rule. Redirect rules follows a simply syntax of: `from-path to-path 308`
-   - E.g. `/handbook/ce/support/ /handbook/support/ 308`
-1. Commit your changes, create a pull request, and merge as normal.
-   - **Tip:** The page that's being redirected _from_ must be deleted, or the build will break.
 
 ## Markdown Tips
 
