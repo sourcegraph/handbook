@@ -1,4 +1,4 @@
-# 📘 Sourcegraph handbook
+# 📘 Sourcegraph handbook <a href="https://app.netlify.com/sites/sourcegraph-handbook/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/4c81a998-33b5-4357-a593-479e21bb10f3/deploy-status" align="right"></a>
 
 The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It’s publicly visible because we are an [open company](https://about.sourcegraph.com/handbook/company#open-company).
 
