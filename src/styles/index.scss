@@ -1,5 +1,11 @@
 $text-muted: var(--gray-05);
 
+// Syntax highlighting is provided by highlight.js
+// - https://github.com/highlightjs/highlight.js/
+// List of available CSS themes:
+// - https://github.com/highlightjs/highlight.js/tree/main/src/styles
+@import 'highlight.js/styles/a11y-light.css';
+
 @import 'bootstrap/scss/bootstrap';
 // @import 'bootstrap/scss/functions';
 // @import 'bootstrap/scss/variables';
