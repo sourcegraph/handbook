@@ -9,7 +9,7 @@ Frequently used links:
 <div class="container my-4 video-embed embed-responsive embed-responsive-16by9">
   <iframe
     class="embed-responsive-item"
-    src="https://www.youtube-nocookie.com/embed/${Q8tUXKU66Sk}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
+    src="https://www.youtube-nocookie.com/embed/Q8tUXKU66Sk?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
     allowfullscreen=""
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     frameborder="0"
