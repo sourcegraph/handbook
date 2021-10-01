@@ -7,6 +7,7 @@ import { select } from 'hast-util-select'
 import { HastNode } from 'hast-util-select/lib/types'
 import { toString } from 'hast-util-to-string'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
+import rehypeHighlight from 'rehype-highlight'
 import rehypeRaw from 'rehype-raw'
 import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
@@ -52,6 +53,8 @@ export default async function markdownToHtml(
             selectors: urlSelectors,
             inspectEach: urlMatch => rewriteLinkUrl(urlMatch, contextUrlPath, isIndexPage),
         })
+        // Apply syntax highlighting for code blocks
+        .use(rehypeHighlight, { ignoreMissing: true })
         // Add IDs to headings
         .use(rehypeSlug)
         // Extract title from H1 and attach as `vfile.data.title`
