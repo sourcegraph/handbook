@@ -441,9 +441,17 @@ kbd {
     }
 
     :is(video, object, iframe) {
-        aspect-ratio: attr(width) / attr(height);
+        max-width: 100%;
         width: 100%;
         height: auto;
+    }
+
+    iframe {
+        // Set the most usual aspect ratio (16/9) for video player embeds (YouTube/GDrive/...) as a default.
+        // Can be overridden using the `style` attribute.
+        // This is important for <iframe>s but not for <video>s, <img>s or SVG <object>s, because <iframe>s do
+        // NOT automatically scale based on their intrinsic size, while <video>, <img> and SVG <object> do.
+        aspect-ratio: 16 / 9;
     }
 
     .drop-shadow {
