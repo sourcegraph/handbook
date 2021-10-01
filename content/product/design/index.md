@@ -75,7 +75,6 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Intersecting with other teams](./intersecting_with_other_teams/index.md) (Coming soon)
 - [Design critiques](./design_critiques/index.md) (Coming soon)
 
-
 ## Toolkit
 
 - [Tools](./tools/index.md)
@@ -85,6 +84,6 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [External resources](./external_resources/index.md)
 
 ## Other
+
 - [Design team onboarding](./onboarding/index.md) (Coming soon)
 - [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
-
