@@ -6,7 +6,7 @@ on:
 
 jobs:
   large-files:
-    runs-on: ubuntu-latest
+    runs-on: macos-11
     steps:
       - uses: actions/checkout@v2
         with:
@@ -15,11 +15,12 @@ jobs:
       - name: Check for large files
         uses: Amadevus/pwsh-script@v2
         env:
-          BASE_REF: ${{ github.base_ref }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           script: |
             $global:ProgressPreference = 'SilentlyContinue'
+            $global:InformationPreference = 'Continue'
+
             Set-StrictMode -Version 3.0
 
             Install-Module PowerGit -Force -ErrorAction Stop
@@ -27,4 +28,6 @@ jobs:
 
             $PSDefaultParameterValues['*:GitHub*'] = ConvertTo-SecureString -String $env:GITHUB_TOKEN -AsPlainText -Force
 
-            ./src/scripts/check-large-files.ps1 -BaseRef $env:BASE_REF -PullRequestNumber $github.event.pull_request.number
+            $baseRef = $github.base_ref
+            git branch $BaseRef "origin/$BaseRef"
+            ./src/scripts/check-large-files.ps1 -BaseRef $baseRef -PullRequestNumber $github.event.pull_request.number
