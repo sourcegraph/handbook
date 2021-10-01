@@ -49,7 +49,7 @@
       <circle cx="276.9" cy="223.7" r="46" fill="black" />
     </mask>
     <g id="Circles" mask="url(#circles-center-cutout)">
-      <a href="/handbook/marketing/brand/brand_guidelines/brand-expression#brand-voice" target="_top">
+      <a href="/marketing/brand/brand_guidelines/brand-expression#brand-voice" target="_top">
         <g id="Brand_voice_circle" aria-label="Top-left blue circle">
           <circle id="Blue_circle" class="circle stroke-sky-blue" cx="159.8" cy="158.4" r="140.5" />
           <text transform="matrix(1 0 0 1 70.9427 122.5575)">
@@ -60,7 +60,7 @@
           </text>
         </g>
       </a>
-      <a href="/handbook/marketing/brand/brand_guidelines/brand-expression#brand-story" target="_top">
+      <a href="/marketing/brand/brand_guidelines/brand-expression#brand-story" target="_top">
         <g id="Brand_story_circle" aria-label="Top-right violet circle">
           <circle id="Violet_circle" class="circle stroke-vivid-violet" cx="395.2" cy="158.4" r="140.5" />
           <text transform="matrix(1 0 0 1 335.9323 122.5577)">
