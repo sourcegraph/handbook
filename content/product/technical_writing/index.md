@@ -21,11 +21,11 @@ If your changes include any images or video, you’ll need to upload to the Goog
 1. If you’re working on a blog, navigate to the **blog/** folder found in the link in step 1. Navigate to the appropriate release folder - if your release folder is missing, go ahead and make a new one.
 1. Click "Upload Files" to select your file, and click "Open".
 
-For more detailed information on adding graphics to the Handbook, see [this page](content/editing/handbook-images-video.md)
+For more detailed information on adding graphics to the Handbook, see [this page](../editing/handbook-images-video.md)
 
 ### Publishing changes
 
-The publishing process for the website, handbook, and docs is the same as the one listed in [editing the handbook](content/editing/editing.md).
+The publishing process for the website, handbook, and docs is the same as the one listed in [editing the handbook](../editing/editing.md).
 
 ### Local previews
 
