@@ -29,6 +29,7 @@ const urlSelectors = [
     'track[src]',
     'object[data]',
     'link[href]',
+    'script[src]',
 ]
 
 export default async function markdownToHtml(
