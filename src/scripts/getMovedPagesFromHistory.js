@@ -17,7 +17,7 @@ async function getMovedPagesFromHistory() {
         )
       return { source, destination }
     })
-    .filter(({ source, destination }) => destination !== source)
+    .filter(({ source, destination }) => destination.toLowerCase() !== source.toLowerCase())
 
   return movedFilesFromHistory
 }
