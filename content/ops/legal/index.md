@@ -16,7 +16,7 @@ We take initiatives that improve all teammates’ experiences working with the l
 
 ### Members
 
-- [Tammy Zhu](https://about.sourcegraph.com/handbook/company/team#tammy-zhu-she-her), Director of Legal
+- [Tammy Zhu](../../company/team/index.md#tammy-zhu-she-her), Director of Legal
 
 ### Roles
 
@@ -77,3 +77,4 @@ Objective 5: Enable the business to make informed decisions about IP strategy
 - Help the business weigh ways to protect against patent trolls and other infringement suits
 - Keep the business informed about open source license rights and risks
 - Provide a well-managed trademark registration program
+

@@ -33,7 +33,7 @@ If your changes include any images or video, you’ll need to upload to the Goog
 
 ### Publishing changes
 
-The publishing process for the website, handbook, and docs is the same as the one listed in [editing the handbook](https://about.sourcegraph.com/handbook/editing).
+The publishing process for the website, handbook, and docs is the same as the one listed in [editing the handbook](../../editing.md).
 
 ### Local previews
 
@@ -58,3 +58,4 @@ Run `make docsite-check` to verify your changes and catch any broken links.
 1. Go into the `website` sub-directory
 1. Run `yarn start`
 1. Preview at [localhost 8000](http://localhost:8000/)
+

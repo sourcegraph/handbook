@@ -6,7 +6,7 @@ The social media manager also plays an integral role in helping our values-drive
 
 ## How to contact your Social Media Manager
 
-There are so many folks contributing to [Marketing](https://about.sourcegraph.com/handbook/marketing#who-to-go-to-for-what) @ Sourcegraph. But if you want to contact the Social Media Team, we recommend you star or join these channels in Slack:
+There are so many folks contributing to [Marketing](./index.md#who-to-go-to-for-what) @ Sourcegraph. But if you want to contact the Social Media Team, we recommend you star or join these channels in Slack:
 
 #social-media-action channel: Send urgent social media related requests, questions, or industry updates to this channel. If you need something that requires an action to be taken- you’re in the right place.
 
@@ -49,7 +49,7 @@ It is critical that Sourcegraph team members understand that there is a separati
 
 ## Shortening URLs
 
-The social media team is often asked to shorten URLs for team members. [You can learn more about that here.](https://about.sourcegraph.com/handbook/communication#shortening-urls)
+The social media team is often asked to shorten URLs for team members. [You can learn more about that here.](../communication/index.md#shortening-urls)
 
 ## Social during an incident
 
@@ -58,3 +58,4 @@ The social media manager has the authority to use Sourcegraph’s high agency va
 That said, the social media team may pause all brand channel social posts at a given moment. This practice is called “going dark” and we will use this strategy to avoid our brand flooding social media feeds during a given time.
 
 When this practice is being used, all scheduled posts will be moved to drafts. The social media manager will review drafts and assess if the social copy feels relevant, or not. Time-sensitive posts will be rescheduled first. We also have the agency to determine if a particular post will not be rescheduled. It is possible social copy may need to be updated depending on the cultural impact.
+

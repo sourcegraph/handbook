@@ -6,7 +6,7 @@
 
 ## Activities
 
-Congratulations on wrapping up your first month! This week is about [continuously growing](https://about.sourcegraph.com/handbook/company/values#continuously-grow), and continuing to make Sourcegraph [welcoming and inclusive](https://about.sourcegraph.com/handbook/company/values#be-welcoming-and-inclusive).
+Congratulations on wrapping up your first month! This week is about [continuously growing](../../../company/values.md#continuously-grow), and continuing to make Sourcegraph [welcoming and inclusive](../../../company/values.md#be-welcoming-and-inclusive).
 
 Here's where you'll spend your time in week 4:
 
@@ -21,3 +21,4 @@ At the end of the week, you'll have achieved the following outcomes:
 1. You'll have sufficient knowledge to train others on Sourcegraph's architecture.
 2. You'll understand how to navigate our systems and services fluidly.
 3. You'll [leave the campground better than you found it](https://deviq.com/principles/boy-scout-rule) for the next employee.
+

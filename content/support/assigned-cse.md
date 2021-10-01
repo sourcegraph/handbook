@@ -4,7 +4,7 @@ There are certain situations where it just makes sense to assign a Customer Supp
 
 If you feel a customer should have an assigned CSE, post in #customer-support. The CS leadership team will coordinate with the CE and Sales leadership team to vet the request. In order to provide optimal support for all customers, we can only have ~20 customers (post- and pre- / long-term and temporary) with an assigned CSE.
 
-Customers selected for CSE assignment (whether post-sales strategic customers or pre-sales customers) and the CSEs assigned are listed in [our customer exceptions page](https://about.sourcegraph.com/handbook/support/customer-exceptions).
+Customers selected for CSE assignment (whether post-sales strategic customers or pre-sales customers) and the CSEs assigned are listed in [our customer exceptions page](./customer-exceptions.md).
 
 All customers with an assigned CSE (whether internal in nature only or communicated to the customer), benefit from the following:
 
@@ -29,3 +29,4 @@ A few other details (mostly for CS):
 - An assignment is never permanent. A CSE can ask for a transition for a variety of reasons -- including they are stagnating, not being as exposed to different issue types. The best way to ensure an expedite transition is maintaining customer documentation.
 - Being assigned doesn’t mean you are expected to know everything. Say you don’t know with confidence, follow-up quickly with confidence, and that will maintain trust with the customer.
 - The CS team is welcome to adopt whatever practices we find valuable from being assigned to a wider customer audience. For example, if we see value in solving issues faster because of a certain kind of customer documentation, we can replicate that. Or, if we see value in a customer having an assigned CSE that was not requested by CE or Sales, we can make that happen, too.
+

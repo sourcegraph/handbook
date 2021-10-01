@@ -28,7 +28,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 ### Launch
 
 1. **Enable for all Sourcegraph Cloud users**
-   - Follow the steps in this [document](https://about.sourcegraph.com/handbook/engineering/distribution/update_sourcegraph_website) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
+   - Follow the steps in this [document](../../engineering/distribution/update_sourcegraph_website.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
    - In the PR that pushes changes live, add everyone who gave appproval for launch as reviewers.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
@@ -55,3 +55,4 @@ Features that are specific to Sourcegraph Server and can't be tested on Sourcegr
 1. **Announce to customers they can enable the feature flag:** Let customers know that they can turn on the feature.
 1. **Enable the feature flag:** We turn on the flag by default.
 1. **Remove the feature flag:** Follow the [post-launch](#post-launch) process.
+

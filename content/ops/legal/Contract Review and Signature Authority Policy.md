@@ -141,7 +141,7 @@ Check the [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3
 
 Templates:
 
-- See [Sales Resources Templates](https://about.sourcegraph.com/handbook/sales/salesresources#sales-templates)
+- See [Sales Resources Templates](../../sales/salesresources.md#sales-templates)
 - For other templates, reach out to Legal
 
 ### Vendor contracts (Sourcegraph pays a third party for products or services)
@@ -149,18 +149,18 @@ Templates:
 - Sourcegraph Form - Standard Terms (no redlines)
 
   - Review: None
-  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and contracts requiring Finance approval per [Paying Bills](../finance/payables.md)
   - Sign: VP Budget Owner
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
   - Review: (a) Finance for changes to fees, termination, or tax terms and (b) Legal for any other changes
-  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../finance/payables.md)
   - Sign: VP Budget Owner
 
 - Vendor Form (including online click-through agreements)
   - Review: (a) Legal and (b) Finance for payment terms such as fees, termination, and tax terms
-  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../finance/payables.md)
   - Sign: VP Budget Owner
 
 Templates:
@@ -182,3 +182,4 @@ Templates:
 Changes to the signing authorities above require written approval by the CEO.
 
 Exception: for vendor and partner contracts, authorized signers may delegate such authority to teammates in manager-level roles or above, in writing with a copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
+

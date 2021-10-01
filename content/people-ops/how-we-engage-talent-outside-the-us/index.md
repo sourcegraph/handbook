@@ -84,7 +84,7 @@ Due to their classification as temporary contractors, they are not eligible for 
 
 ### Payments
 
-Temporary contractors are paid via invoice on a monthly basis, in their local currency, through Veem or Bill.com. They are required to [submit an invoice](https://about.sourcegraph.com/handbook/ops/finance/invoices) at the end of each month with the work completed as agreed in their temporary contractor agreement.
+Temporary contractors are paid via invoice on a monthly basis, in their local currency, through Veem or Bill.com. They are required to [submit an invoice](../../ops/finance/invoices.md) at the end of each month with the work completed as agreed in their temporary contractor agreement.
 
 ### Onboarding
 
@@ -121,3 +121,4 @@ For candidates in need of US sponsorship that require a new visa, we will agree 
 Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
 
 Any questions? Contact the People Ops team in #people-ops on Slack or people-ops@sourcegraph.com via email!
+

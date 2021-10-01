@@ -23,60 +23,61 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 We are **hiring recruiters**! View our open positions [here](https://boards.greenhouse.io/sourcegraph91).
 
-## [Resources for Candidates](https://about.sourcegraph.com/handbook/talent/resources_for_candidates)
+## [Resources for Candidates](./resources_for_candidates.md)
 
-- [Open positions](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#how-to-apply)
-- [Company values](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#our-company-values)
-- [Perks, benefits & compensation](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#benefits-and-perks)
-- [How to prepare for your interview](https://about.sourcegraph.com/handbook/talent/resources_for_candidates)
-- [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews)
-- [Candidate FAQ](https://about.sourcegraph.com/handbook/talent/resources_for_candidates#candidate-faq)
+- [Open positions](./resources_for_candidates.md#how-to-apply)
+- [Company values](./resources_for_candidates.md#our-company-values)
+- [Perks, benefits & compensation](./resources_for_candidates.md#benefits-and-perks)
+- [How to prepare for your interview](./resources_for_candidates.md)
+- [Types of interviews](./types_of_interviews.md)
+- [Candidate FAQ](./resources_for_candidates.md#candidate-faq)
 
-## [Resources for Hiring Managers](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
-
-- The interview process
-  - [The interview process](https://about.sourcegraph.com/handbook/talent/interview_process)
-  - [Types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews)
-  - [Opening a new job](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers#the-interview-process)
-  - [Writing a job description](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers#the-interview-process)
-  - [Creating an interview plan](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers#the-interview-process)
-  - [Scheduling an interview](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers#scheduling)
-  - [Extending an offer](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers#3-offer-stage)
-- Interviewing
-  - [Hiring manager screen](https://about.sourcegraph.com/handbook/talent/types_of_interviews#hiring-manager-screen)
-  - [Interview training](https://about.sourcegraph.com/handbook/talent/interview_training)
-- [Recruiting tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools)
-  - [Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse), our ATS
-  - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
-  - [LinkedIn](https://about.sourcegraph.com/handbook/talent/hiring/linkedin), our sourcing tool
-- [Using recruitment agencies](https://about.sourcegraph.com/handbook/talent/hiring)
-- [Switching teams](https://about.sourcegraph.com/handbook/people-ops/switching-teams#switching-teams)
-
-## [Resources for Teammates](https://about.sourcegraph.com/handbook/talent/resources_for_teammates)
-
-- [How to refer a candidate](https://about.sourcegraph.com/handbook/talent/hiring#making-a-referral)
-- Interviewing
-  - [Peer interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#peer-interview)
-  - [Team collaboration interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#team-collaboration-interview)
-  - [Values interview](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values)
-- [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training)
-- [Recruiting Tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools)
-  - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
-- [Switching teams](https://about.sourcegraph.com/handbook/people-ops/switching-teams#switching-teams)
-
-## [Resources for Recruiters](https://about.sourcegraph.com/handbook/talent/resources_for_recruiters)
+## [Resources for Hiring Managers](./resources_for_hiring_managers.md)
 
 - The interview process
-  - [Kicking off a new search](https://about.sourcegraph.com/handbook/talent/resources_for_recruiters)
+  - [The interview process](./interview_process.md)
+  - [Types of interviews](./types_of_interviews.md)
+  - [Opening a new job](./resources_for_hiring_managers.md#the-interview-process)
+  - [Writing a job description](./resources_for_hiring_managers.md#the-interview-process)
+  - [Creating an interview plan](./resources_for_hiring_managers.md#the-interview-process)
+  - [Scheduling an interview](./resources_for_hiring_managers.md#scheduling)
+  - [Extending an offer](./resources_for_hiring_managers.md#3-offer-stage)
 - Interviewing
-  - [Recruiter screen](https://about.sourcegraph.com/handbook/talent/types_of_interviews#recruiter-screen)
-- [Interview training & best practices](https://about.sourcegraph.com/handbook/talent/interview_training)
-- [Recruiting tools](https://about.sourcegraph.com/handbook/talent/hiring#recruiting-tools)
-  - [Greenhouse](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_greenhouse), our ATS
-  - [BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#guide-to-using-brighthire), our interview recording tool
+  - [Hiring manager screen](./types_of_interviews.md#hiring-manager-screen)
+  - [Interview training](./interview_training.md)
+- [Recruiting tools](./hiring/index.md#recruiting-tools)
+  - [Greenhouse](./hiring/guide_to_using_greenhouse.md), our ATS
+  - [BrightHire](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire), our interview recording tool
+  - [LinkedIn](./hiring/linkedin.md), our sourcing tool
+- [Using recruitment agencies](./hiring/index.md)
+- [Switching teams](../people-ops/switching-teams.md#switching-teams)
+
+## [Resources for Teammates](./resources_for_teammates.md)
+
+- [How to refer a candidate](./hiring/index.md#making-a-referral)
+- Interviewing
+  - [Peer interview](./types_of_interviews.md#peer-interview)
+  - [Team collaboration interview](./types_of_interviews.md#team-collaboration-interview)
+  - [Values interview](./hiring/evaluating_values.md)
+- [Interview training & best practices](./interview_training.md)
+- [Recruiting Tools](./hiring/index.md#recruiting-tools)
+  - [BrightHire](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire), our interview recording tool
+- [Switching teams](../people-ops/switching-teams.md#switching-teams)
+
+## [Resources for Recruiters](./resources_for_recruiters.md)
+
+- The interview process
+  - [Kicking off a new search](./resources_for_recruiters.md)
+- Interviewing
+  - [Recruiter screen](./types_of_interviews.md#recruiter-screen)
+- [Interview training & best practices](./interview_training.md)
+- [Recruiting tools](./hiring/index.md#recruiting-tools)
+  - [Greenhouse](./hiring/guide_to_using_greenhouse.md), our ATS
+  - [BrightHire](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire), our interview recording tool
   - [Ashby](https://app.ashbyhq.com/access), our metrics tool
   - LinkedIn Recruiter, our sourcing tool
 - Recruitment branding
-  - [Where we post our jobs](https://about.sourcegraph.com/handbook/talent/hiring/job_boards)
+  - [Where we post our jobs](./hiring/job_boards.md)
 - [Metrics](https://about.sourcegraph.com/handbook/talent/recruiting_metrics)
-- [Switching teams](https://about.sourcegraph.com/handbook/people-ops/switching-teams#switching-teams)
+- [Switching teams](../people-ops/switching-teams.md#switching-teams)
+

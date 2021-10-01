@@ -21,7 +21,7 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 #### Team-specific totals
 
 - We expect new [Design team](../../product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
-- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](https://about.sourcegraph.com/handbook/ce) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
+- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
 
@@ -93,6 +93,7 @@ You will not need permission for choosing which co-working space you’d like to
 
 **Laptop upgrade:** if your laptop is 4 years or older, you are eligible for a new laptop (same budget as new laptop applies).
 
-**Travel expenses:** please see our page on [travel budgets](https://about.sourcegraph.com/handbook/people-ops/travel).
+**Travel expenses:** please see our page on [travel budgets](../../people-ops/travel.md).
 
 Find out how to submit your expenses [here](expenses.md).
+

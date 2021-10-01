@@ -16,10 +16,10 @@ The code insights team is responsible for building and delivering code insights 
 - [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - [Vova Kulikov](https://about.sourcegraph.com/handbook/company/team#vova-kulikov-he-him) (Frontend Engineer)
-  - [Justin Boyson](https://about.sourcegraph.com/handbook/company/team#justin-boyson-he-him) (Frontend Engineer)
+  - [Vova Kulikov](../../../company/team/index.md#vova-kulikov-he-him) (Frontend Engineer)
+  - [Justin Boyson](../../../company/team/index.md#justin-boyson-he-him) (Frontend Engineer)
   - [Coury Clark](../../../company/team/index.md#coury-clark-he-him) (Backend Engineer)
-  - [Cristina Birkel](https://about.sourcegraph.com/handbook/company/team#cristina-birkel) (Backend Engineer)
+  - [Cristina Birkel](../../../company/team/index.md#cristina-birkel) (Backend Engineer)
 
 [We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
 
@@ -82,3 +82,4 @@ In late 2020, after the initial validation, and using the frontend-only function
 In early 2021, seeing continued validation and opportunity, Code Insights became its own team separate from the "web team" (now 2021's Developer Insights org).
 
 In mid-2021 we made the first engineering hires to grow Code Insights to a full engineering team and bring the product to market.
+

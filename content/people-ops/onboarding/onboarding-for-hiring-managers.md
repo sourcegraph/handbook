@@ -105,7 +105,7 @@ Having this done before day one will make it easier for the new hire and an over
 
 <table>
   <tr>
-   <td>New teammates will go through their <a href="https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones"> Onboarding Feedback Milestones</a> on their first, second and third month with us. Please read the handbook page that walks you through what they are and why we find them valuable. 
+   <td>New teammates will go through their <a href="./onboarding-feedback-milestones.md"> Onboarding Feedback Milestones</a> on their first, second and third month with us. Please read the handbook page that walks you through what they are and why we find them valuable. 
      <p>
        You will use Lattice to take notes during the Milestones. You will be notified via email and through the Slack integration when it's time for you to have them. As per their onboarding checklist, teammates are responsible to schedule the meetings for you both to have the conversation. 
    </td>
@@ -121,3 +121,4 @@ Having this done before day one will make it easier for the new hire and an over
 </table>
 
 For any extra context, information or suggestions, please contact Inés Roitman (@Ines)
+

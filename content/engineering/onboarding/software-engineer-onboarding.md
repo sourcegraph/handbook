@@ -35,7 +35,7 @@ Take the first 20-30 minutes of the session to have an unstructured, introductor
 
 - What problem is your teammate trying to solve?
 - Why is that problem important? What team goal does it fit under?
-- What are relevant [RFCs](https://about.sourcegraph.com/handbook/communication/rfcs), [PDs](https://about.sourcegraph.com/handbook/product/product_documents), GitHub issues or documentation pages?
+- What are relevant [RFCs](../../communication/rfcs/index.md), [PDs](../../product/product_documents.md), GitHub issues or documentation pages?
 - What parts of our codebase need to be changed to solve this problem?
 - How will we test the code being changed?
 - Will there be future work needed after solving this problem? How could you contribute?
@@ -84,3 +84,4 @@ At Sourcegraph, you'll be expected to own the problems your team is solving, and
 ## Give feedback on your onboarding
 
 You should be discussing your onboarding progress every week with your manager. At the end of week 6 at Sourcegraph, spend one hour summarizing your onboarding experience (what has gone well, what was challenging, what would help you moving forward). Write down your thoughts and discuss them in your next 1-1 with your manager. Take your time to answer thoughtfully — your answers will be very important to make sure our onboarding process is even better for future hires!
+

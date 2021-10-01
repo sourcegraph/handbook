@@ -102,4 +102,5 @@ You can see [this short video](https://youtu.be/Q8tUXKU66Sk) that explains how c
 
 Finally and most importantly, **changes are not permanent**, so don’t be afraid to edit the handbook. If you are not happy with something you’ve merged or made a mistake, we can roll it back! Just reach out to someone in the #handbook or #any-questions Slack channels and anyone will be happy to help.
 
-Visit the handbook page on [editing the handbook](https://about.sourcegraph.com/handbook/editing) any time. You will find steps and videos that guide you through the process.
+Visit the handbook page on [editing the handbook](../editing.md) any time. You will find steps and videos that guide you through the process.
+

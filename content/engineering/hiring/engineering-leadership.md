@@ -25,7 +25,7 @@ Questions:
 
 Measure:
 
-- Does this person model and facilitate [continuous growth](https://about.sourcegraph.com/handbook/company/values#continuously-grow).
+- Does this person model and facilitate [continuous growth](../../company/values.md#continuously-grow).
 
 Questions:
 
@@ -62,3 +62,4 @@ Questions:
   - Would you call the outcome a success?
   - What did you learn from the situation? Is there anything you wish you had done differently?
 - How do you attract, hire, and retain excellent engineers?
+

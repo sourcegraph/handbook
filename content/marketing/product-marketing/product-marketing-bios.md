@@ -1,6 +1,6 @@
 # Product Marketing Team READMEs
 
-Our READMEs expands on our profile in [the company team directory](https://about.sourcegraph.com/handbook/company/team) and are meant to help us orient to one another.
+Our READMEs expands on our profile in [the company team directory](../../company/team/index.md) and are meant to help us orient to one another.
 
 - Alex README
 - Andy README
@@ -31,4 +31,5 @@ The format, style, order, etc is up to each of us. Just make sure to include the
 
 ---
 
-All credit for the idea of team READMEs, including the page layout and copy, goes to the [Customer Support](https://about.sourcegraph.com/handbook/support/support-bios) team
+All credit for the idea of team READMEs, including the page layout and copy, goes to the [Customer Support](../../support/support-bios.md) team
+

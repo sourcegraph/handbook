@@ -5,16 +5,16 @@ We publicly document our interview process for each of the different sales roles
 ## SDR interview process
 
 1. You apply.
-2. 30-minute **Recruiter screen**: you meet with a Recruiter on the talent team. Click [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#recruiter-screen) to see what to expect during a Recruiter screen.
-3. 45-minute **Hiring manager screen**: during this initial call, the Head of Sales Development will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you. You can read more about our Hiring Manager screens [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#hiring-manager-screen).
-4. **Assignment stage**: we send you a writing assignment to be completed in 24-hours. Learn more about our SDR assignment [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#sales).
+2. 30-minute **Recruiter screen**: you meet with a Recruiter on the talent team. Click [here](../../talent/types_of_interviews.md#recruiter-screen) to see what to expect during a Recruiter screen.
+3. 45-minute **Hiring manager screen**: during this initial call, the Head of Sales Development will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you. You can read more about our Hiring Manager screens [here](../../talent/types_of_interviews.md#hiring-manager-screen).
+4. **Assignment stage**: we send you a writing assignment to be completed in 24-hours. Learn more about our SDR assignment [here](../../talent/types_of_interviews.md#sales).
 5. We schedule 3.5-hours of **remote interviews** over Zoom.
    - Part 1:
-     - 1-hour **Resume deep-dive**: we take a deep dive into your background, past to present. Learn more about the resume deep dive [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#resume-deep-dive).
+     - 1-hour **Resume deep-dive**: we take a deep dive into your background, past to present. Learn more about the resume deep dive [here](../../talent/types_of_interviews.md#resume-deep-dive).
    - Part 2:
-     - 30-minute **Peer interview**: you meet with two members of the SDR team to learn more about what they look for in a peer, and what it’s like to work at Sourcegraph. Learn more about the peer interview [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#peer-interview).
+     - 30-minute **Peer interview**: you meet with two members of the SDR team to learn more about what they look for in a peer, and what it’s like to work at Sourcegraph. Learn more about the peer interview [here](../../talent/types_of_interviews.md#peer-interview).
      - 30-minute **Team-collaboration interview**: you meet with an Enterprise sales leader. This person manages the Account Executives to whom you’ll provide lead gen support.
-     - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview).
+     - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](../../talent/types_of_interviews.md#values-interview).
      - 30-minute **Final interview**: this is a final interview with the Head of Sales Development to debrief on the interview process and ask any remaining questions.
    - Part 3:
      - 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
@@ -26,13 +26,13 @@ We know the above process looks like a lot, but we promise **we move quickly**! 
 ## AE interview process (3.5 hours total)
 
 1. You apply.
-2. 30-minute **Recruiter screen**: you meet with a Recruiter on the talent team. Click [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#recruiter-screen) to see what to expect during a Recruiter screen.
-3. 45-minute **Hiring manager screen**: during this initial call, the Head of Sales Development will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you. You can read more about our Hiring Manager screens [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#hiring-manager-screen).
+2. 30-minute **Recruiter screen**: you meet with a Recruiter on the talent team. Click [here](../../talent/types_of_interviews.md#recruiter-screen) to see what to expect during a Recruiter screen.
+3. 45-minute **Hiring manager screen**: during this initial call, the Head of Sales Development will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you. You can read more about our Hiring Manager screens [here](../../talent/types_of_interviews.md#hiring-manager-screen).
 4. We schedule ~2-hours of **remote interviews** over Zoom.
    - Part 1:
-     - 45-minute **Presentation**: Learn more about our Enterprise AE presentation [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#enterprise-ae-sales-presentation)
+     - 45-minute **Presentation**: Learn more about our Enterprise AE presentation [here](../../talent/types_of_interviews.md#enterprise-ae-sales-presentation)
      - 30-minute **Team-collaboration interview**: you meet with an Enterprise sales leader. This person manages the Account Executives to whom you’ll provide lead gen support.
-     - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview).
+     - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](../../talent/types_of_interviews.md#values-interview).
    - Part 2:
      - 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
 5. We check your references.
@@ -41,3 +41,4 @@ We know the above process looks like a lot, but we promise **we move quickly**! 
 ## The AE interview cookbook
 
 Interviewing an AE from the Sourcegraph side? Check out the [AE Interview Cookbook](https://docs.google.com/document/d/112zt2yaMRcl6BPmHY4nGplojZEVwKW4I-szoXu0fXPM/)!
+

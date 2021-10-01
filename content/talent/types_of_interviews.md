@@ -4,7 +4,7 @@ The below information is intended to help our candidates prepare for each step o
 
 ## The interview process
 
-Our hiring managers work with their [assigned recruiter](https://about.sourcegraph.com/handbook/talent#talent-team-members) to create an optimal interview plan for their role. Below is an example. All steps in bold are strongly encouraged.
+Our hiring managers work with their [assigned recruiter](./index.md#talent-team-members) to create an optimal interview plan for their role. Below is an example. All steps in bold are strongly encouraged.
 
 All role-specific interview processes are documented at the end of each [job description](https://boards.greenhouse.io/sourcegraph91).
 We strive for consistency across all interviews.
@@ -24,7 +24,7 @@ We strive for consistency across all interviews.
 
 ## Structured interview questions
 
-We ask structured questions for all interviews, meaning that all candidates are asked the same questions in an effort to reduce bias and to even the playing-field. The interview [may be recorded](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) so that we can focus on the candidate, not taking notes, and ensure that we're delivering a great interview experience. If a candidate prefers not to be recorded during the interview, they can let us know - the structure of the interview and decision-making process will remain the same and the decision not to be recorded will have no weight on their candidacy.
+We ask structured questions for all interviews, meaning that all candidates are asked the same questions in an effort to reduce bias and to even the playing-field. The interview [may be recorded](./hiring/guide_to_using_brighthire.md) so that we can focus on the candidate, not taking notes, and ensure that we're delivering a great interview experience. If a candidate prefers not to be recorded during the interview, they can let us know - the structure of the interview and decision-making process will remain the same and the decision not to be recorded will have no weight on their candidacy.
 
 # Universal interviews
 
@@ -98,11 +98,11 @@ All departments are likely to have some or all of the below universal interview 
 
 ## Values interview
 
-Read more about our values interview [here](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values).
+Read more about our values interview [here](./hiring/evaluating_values.md).
 
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
-- Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](https://about.sourcegraph.com/handbook/company/values).
+- Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../company/values.md).
 - Example questions:
   - We will ask behavioral-based, open-ended questions directly related to our values.
 
@@ -134,7 +134,7 @@ In addition to the above interviews, some departments have department-specific i
 
   Some background info:
 
-  - Team org: [Sales team](https://about.sourcegraph.com/handbook/sales) and [Marketing team](https://about.sourcegraph.com/handbook/marketing)
+  - Team org: [Sales team](../sales/index.md) and [Marketing team](../marketing/index.md)
   - [Publicly referenceable customer logos](https://about.sourcegraph.com/customers/)
   - Everything at [Sourcegraph](https://about.sourcegraph.com/) and our [handbook](https://about.sourcegraph.com/handbook) should be assumed to be accurate and up to date.
 
@@ -339,13 +339,13 @@ The agenda for the meeting will go as follows:
 Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to faciliate this conversation or personal notes - whichever you feel is most appropriate.
 
 Prompt 3 additional notes:
-The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](https://about.sourcegraph.com/handbook/ce/working-with-customers). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](https://about.sourcegraph.com/handbook/ce/team-culture#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
+The [CE](../ce/index.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../ce/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../ce/team-culture.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
 
 ## Engineering
 
 ### Assignments
 
-- See more about coding exercises [here](https://about.sourcegraph.com/handbook/engineering/hiring/software-engineer-coding-exercise)
+- See more about coding exercises [here](../engineering/hiring/software-engineer-coding-exercise.md)
 
 ### Technical Interview: General
 
@@ -433,13 +433,13 @@ The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and pos
 
 - Working session
 
-  - Interviewer(s): [Christina Forney](https://about.sourcegraph.com/handbook/company/team#christina-forney-she-her), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
+  - Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney-she-her), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
   - Duration: 1 hour
   - Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time.We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
 
 - Meet your team
 
-  - Interviewer(s): Depending on the org, 2-3 [Product Managers](https://about.sourcegraph.com/handbook/product#product).
+  - Interviewer(s): Depending on the org, 2-3 [Product Managers](../product/index.md#product).
   - Duration: 45 min
   - Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
 
@@ -452,34 +452,34 @@ The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and pos
 
 - Design collaboration
 
-  - Interviewer: [Product designer](https://about.sourcegraph.com/handbook/product/product_org)
+  - Interviewer: [Product designer](../product/product_org.md)
   - Duration: 30 mins
   - Details: In this interview, you will meet with one of the Product Designers to discuss how you've worked with Design and other cross funcitonal teams in the past. We will ask questions about your philsophy on technical writing and documentation and how you lead and evalgelize your ideas throughout an organization. We're looking for how you prioriize and productize documentation, and how you would go about doing so in our handbook-first company.
 
 - Engineering collaboration
 
-  - Interviewer: [Engineering manager](https://about.sourcegraph.com/handbook/engineering/eng_org#planned-organization)
+  - Interviewer: [Engineering manager](../engineering/eng_org.md#planned-organization)
   - Duration: 30 mins
   - Details: In this interview, you will meet with one of the Engineering managers to discuss how you've worked closely with Engineering and other cross funcitonal teams in the past to build the best technical documentation. We have a unique opportunity to create an interesting integrated docs experience with our product. We'd like to discuss that vision and how you would be able to help us achieve this vision.
 
 - Marketing collaboration
 
-  - Interviewer: [Marketing team member](https://about.sourcegraph.com/handbook/company/team/org_chart#sts=Marketing)
+  - Interviewer: [Marketing team member](../company/team/org_chart.md#sts=Marketing)
   - Duration: 30 mins
   - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 
 - Customer support collaboration
-  - Interviewer: [Virginia Ulrich](https://about.sourcegraph.com/handbook/support/virginia-readme), Head of CS
+  - Interviewer: [Virginia Ulrich](../support/virginia-readme.md), Head of CS
   - Duration: 30 mins
   - Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross funcitonal teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
 
 **Product manager**
 
-- Async writing project [(RFC Project)](https://about.sourcegraph.com/handbook/product/roles/interviews/product_manager/pm_rfc_project)
+- Async writing project [(RFC Project)](../product/roles/interviews/product_manager/pm_rfc_project.md)
 
-  - Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](https://about.sourcegraph.com/handbook/product) will review your RFC and discuss it with you in the next round of interviews.
+  - Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](../product/index.md) will review your RFC and discuss it with you in the next round of interviews.
   - Duration: ~1 hour
-  - Details: This is a take home writing assignment to see how you communicate and think about product problems. Below is the prompt on the project. [Here's how we will measure the project](https://about.sourcegraph.com/handbook/product/roles/interviews/product_manager/pm_rfc_project):
+  - Details: This is a take home writing assignment to see how you communicate and think about product problems. Below is the prompt on the project. [Here's how we will measure the project](../product/roles/interviews/product_manager/pm_rfc_project.md):
   - Please write a Request for comments (RFC) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/product area.
   - It should have our standard RFC structure from the handbook, or see the RFC template: Background, Problem, Proposed solution, and Definition of success. However, our handbook states that the precise format is not as important as the content itself, so feel free to improve upon this format as necessary.
   - Aim for about one page of writing (don’t go over two pages) with standard styling. This is long enough to give us the signal we want, while at the same time is short enough that you don’t experience “writer’s block” and can write it in one sitting. We expect this to take you ~1 hour.
@@ -488,7 +488,7 @@ The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and pos
 
 - Product interview
 
-  - Interviewer(s): [Product Manager and a Product Designer](https://about.sourcegraph.com/handbook/product) who were not the reviewers of the RFC.
+  - Interviewer(s): [Product Manager and a Product Designer](../product/index.md) who were not the reviewers of the RFC.
   - Duration: 1 hour
   - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will have about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -501,21 +501,21 @@ The [CE](https://about.sourcegraph.com/handbook/ce) organization is pre- and pos
 
 - Portfolio review
 
-  - Interviewer(s): [Two Product Designers](https://about.sourcegraph.com/handbook/product).
+  - Interviewer(s): [Two Product Designers](../product/index.md).
   - Duration: 1 hour
-  - Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](https://about.sourcegraph.com/handbook/product/roles/interviews/product_designer/pd_portfolio_review).
+  - Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../product/roles/interviews/product_designer/pd_portfolio_review.md).
 
 - Design exercise
-  - Interviewer(s): [Product Manager, Product Designers](https://about.sourcegraph.com/handbook/product), and a Frontend engineer.
+  - Interviewer(s): [Product Manager, Product Designers](../product/index.md), and a Frontend engineer.
   - Duration: 2 hours
-  - Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](https://about.sourcegraph.com/handbook/product/roles/interviews/product_designer/pd_design_exercise).
+  - Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../product/roles/interviews/product_designer/pd_design_exercise.md).
   - The interview is in 2 parts. Below is the prompt:
   - Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
   - Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
 
 ## Sales
 
-Read more about our sales interview processes [here](https://about.sourcegraph.com/handbook/sales/interviews).
+Read more about our sales interview processes [here](../sales/interviews/index.md).
 
 ### **Sales Development Representative:**
 
@@ -575,3 +575,4 @@ Read more about our sales interview processes [here](https://about.sourcegraph.c
 - **Step 2.** We have posted the job and have received zero applicants, so we need to go out and recruit the right person. Please identify 5 target candidates and explain 1) how you found them (what search string(s) did you use) and 2) why are you are targeting them specifically?
 - **Step 3.** As we know, rarely do we hear back from a candidate after our 1st message or call. Pick one of the above profiles and please describe your outreach "campaign." What steps will you take to engage with this candidate? Please 1) include example inmails, emails, voicemails etc, and 2) please explain your approach and why you chose to craft your outreach campaign in this way. Your ultimate goal is to secure a call with the candidate.
 - **Step 4.** Good news! The candidate you messaged in step 3 is interested in having an exploratory conversation. How do you describe/sell Sourcegraph to them?
+

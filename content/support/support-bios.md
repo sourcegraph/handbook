@@ -1,6 +1,6 @@
 # Support Team README
 
-Our README expands on our profile in [the company team directory](https://about.sourcegraph.com/handbook/company/team) and are meant to help us orient to one another.
+Our README expands on our profile in [the company team directory](../company/team/index.md) and are meant to help us orient to one another.
 
 - Adeola [README](adeola-readme.md)
 - Alex [README](alex-readme.md)
@@ -42,3 +42,4 @@ The format, style, order, etc is up to each of us. Just make sure to include the
 - A quote you like
 - How you eat fries (with or without ketchup (ketchup on the fries or on the side), etc)
 - Your sun, moon, and rising signs
+

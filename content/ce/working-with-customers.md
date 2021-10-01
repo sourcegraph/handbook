@@ -33,7 +33,7 @@ The initial conversation(s) with a customer can vary in length and scope, but al
 #### Resources
 
 - [Customer discovery playbook](#customer-discovery)
-- [Demo education resources](https://about.sourcegraph.com/handbook/ce/education#trainings-and-demos)
+- [Demo education resources](./education.md#trainings-and-demos)
 
 ### Capturing Techincal Requirements
 
@@ -70,13 +70,13 @@ Many customers send security questionnaires to complete. They are required to pr
 4. Talk to your region's CE in charge of security reviews. Have them take a pass at it and review it. Please ensure timelines are properly communicated and enough notice is given to all involved stakeholders.
 5. If the Security CE feels it necessary, they may involve the product manager on the security team. Typically this involves asking one-off questions in the security [source of truth document](https://docs.google.com/spreadsheets/d/1xtjGzKExX9bEYBrsSyOcHFa-rm0SmB53hWnDKueVJjI/edit?usp=sharing), but they may also request full security questionnaire reviews. Note that full reviews may require extra time to get prioritized and worked on by the security team.
 
-The current CE's in charge of security questionnaires are [Max Wiederholt](https://about.sourcegraph.com/handbook/company/team#max-wiederholt-he-him) for US West / APAC and [Shawn King](https://about.sourcegraph.com/handbook/company/team#shawn-king-he-him) for US East / EMEA. We occasionally rotate team members in this role.
+The current CE's in charge of security questionnaires are [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him) for US West / APAC and [Shawn King](../company/team/index.md#shawn-king-he-him) for US East / EMEA. We occasionally rotate team members in this role.
 
 ### License Keys
 
 CEs are the team responsible for generating and maintaining license keys for customers. Here's some useful resources on how to do that:
 
-- [Creating and maintaining license keys for customers](https://about.sourcegraph.com/handbook/ce/license_keys)
+- [Creating and maintaining license keys for customers](./license_keys.md)
 - [Recording of creating a new key for demo.sourcegraph.com](https://drive.google.com/file/d/1fYsBqdzdBLd0mzAu2FJxrWznRX0k-iqr/view?usp=sharing)
 
 ### Trial / POC
@@ -206,3 +206,4 @@ The CE will monitor the Customer Health dashboard and where appliable update the
 Should an AE or CE feel that an account which isn't designated as red via the health dashboard, is in fact red for any reason (eg a champion leaves, etc) they should align, and the CE should update the Salesforce Account record to red.
 
 Both the AE and CE are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
+

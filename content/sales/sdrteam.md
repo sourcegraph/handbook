@@ -8,12 +8,12 @@ The SDR Team (TBA)
   - West Outbound SDRs
     - [Quin "Q" Keough](../company/team/index.md#quin-keough)
     - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
-    - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
-    - [Brannon Rouse](https://about.sourcegraph.com/handbook/company/team#brannon-rouse)
+    - [Zach Naidu](../company/team/index.md#zach-naidu)
+    - [Brannon Rouse](../company/team/index.md#brannon-rouse)
   - East Outbound SDRs
     - [Sam Cregg](../company/team/index.md#sam-cregg)
-    - [Jenna Pierre](https://about.sourcegraph.com/handbook/company/team#jenna-pierre-she-her)
-    - [Zach Naidu](https://about.sourcegraph.com/handbook/company/team#zach-naidu)
+    - [Jenna Pierre](../company/team/index.md#jenna-pierre-she-her)
+    - [Zach Naidu](../company/team/index.md#zach-naidu)
   - Inbound SDR
     - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
 
@@ -119,3 +119,4 @@ See [SDR/AE Meeting ROE](https://docs.google.com/document/d/1KP1ao_UBZS80s4o0lOM
 - LeadiQ - Data Intelligence Tool
 - Postal.Io - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
 -
+

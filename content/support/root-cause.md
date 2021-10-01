@@ -33,8 +33,9 @@ Let's break it down:
    3. File a defect or product improvement in the public tracker (the nature of the issue will determine which) and the product/engineering team can schedule the work for the lasting fix in to an upcoming iteration
 3. Share the GitHub link with the customer so they can follow along on progress and remind them they can ask for updates there, or in the shared Slack channel, or by emailing support@sourcegraph.com, or by talking with their CE.
 
-No one expects hard things to be solved over night. We just don't want to forget about or ignore hard things. We want to dig deep and help our teammates dig deep to find that precious root that holds all of the answers, that maintains an effortless customer experience ... that gets us even closer to realizing [our purpose](https://about.sourcegraph.com/handbook/company/strategy#purpose):
+No one expects hard things to be solved over night. We just don't want to forget about or ignore hard things. We want to dig deep and help our teammates dig deep to find that precious root that holds all of the answers, that maintains an effortless customer experience ... that gets us even closer to realizing [our purpose](../company/strategy.md#purpose):
 
 > We want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress.
 
 Again, you got this!
+

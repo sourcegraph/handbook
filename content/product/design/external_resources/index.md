@@ -7,4 +7,5 @@ The design team curates a list of external resources we find useful to reference
 - [usability.gov](https://www.usability.gov/)
 - [Apple's human interface guidelines](https://developer.apple.com/design/human-interface-guidelines/)
 - [Google's material design](https://material.io/design/)
-- [Recommended product and design books](https://about.sourcegraph.com/handbook/product/onboarding/recommended_reading) (feel free to add to the list!)
+- [Recommended product and design books](../../onboarding/recommended_reading.md) (feel free to add to the list!)
+

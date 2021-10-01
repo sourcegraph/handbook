@@ -116,7 +116,7 @@ There is currently no process defining how custom additions should be made to ou
 
 Notifiers for alerts are configured via the [`deploy-sourcegraph-dot-com` frontend ConfigMap for `site.json`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/frontend/sourcegraph-frontend.ConfigMap.yaml#L5188-L5274).
 
-Alerts go to the [`#alerts`](https://sourcegraph.slack.com/archives/CSCFMFXS5)channel, with critical alerts going to [OpsGenie](https://about.sourcegraph.com/handbook/engineering/incidents/on_call). Critical alerts are assigned responders in OpsGenie based on the `owner` field of each alert - the mapping of `owner` to engineering team can be found in the Sourcegraph Cloud site configuration.
+Alerts go to the [`#alerts`](https://sourcegraph.slack.com/archives/CSCFMFXS5)channel, with critical alerts going to [OpsGenie](../incidents/on_call.md). Critical alerts are assigned responders in OpsGenie based on the `owner` field of each alert - the mapping of `owner` to engineering team can be found in the Sourcegraph Cloud site configuration.
 
 _Rationale for per-team alerts_: See [RFC 189](https://docs.google.com/document/d/1noZf86g2QwTbFNt3XSSbMg36D-_HCptP1thMzZsgt2Q/edit) for an overview, and [#12010](https://github.com/sourcegraph/sourcegraph/issues/12010) for the specifics of how and why this is implemented in Sourcegraph.
 
@@ -136,3 +136,4 @@ _Rationale for Blackbox Exporter_: Site24x7 has been a source of flaky alerts, o
 ### Cloudflare Analytics
 
 [Cloudflare Analytics](https://www.cloudflare.com/analytics/) is used to extract useful data about the performance of our WAF, as well as the overall traffic distribution to our instances. Note that the retention of analytics data is relatively short due to the [limits](https://developers.cloudflare.com/analytics/graphql-api/limits) on our plan. See [our Cloudflare developer guide](./cloudflare.md) for more details on how to use the analytics API.
+

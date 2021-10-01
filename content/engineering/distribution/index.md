@@ -60,7 +60,7 @@ See [Goals](../../direction/enablement/distribution/index.md)
 
 ### Urgent customer incidents
 
-If you think that an incident might be impacting more than just one customer, please follow the guidance in the [incident process](https://about.sourcegraph.com/handbook/engineering/incidents).
+If you think that an incident might be impacting more than just one customer, please follow the guidance in the [incident process](../incidents/index.md).
 
 Otherwise, if the incident is isolated to one customer (whether that be a managed instance or a self-hosted deployment) please proceed as follows.
 
@@ -117,3 +117,4 @@ We have a 24x7 OpsGenie rotation to respond to [incidents](../incidents/index.md
 
 - [Alerts owned by this team](https://sourcegraph.com/search?q=repo:%5Egithub.com/sourcegraph/sourcegraph%24+file:monitoring/.*+%7B:%5B_%5D%2C+Owner:+monitoring.ObservableOwnerDistribution%2C+:%5B_%5D%7D+OR+%28:%5B_%5D%2C+monitoring.ObservableOwnerDistribution%29+count:1000&patternType=structural)
 - [OpsGenie rotation](https://sourcegraph.app.opsgenie.com/teams/dashboard/aa59eba4-9b34-45ea-9515-c4dab4cbdac9/main)
+

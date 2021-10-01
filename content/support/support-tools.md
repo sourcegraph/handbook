@@ -33,9 +33,9 @@ In order to have good security and risk mitigation practices, only a subset of t
 
 ## Managed instance access
 
-In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](https://about.sourcegraph.com/handbook/support/support-managed-instances) (you can find which customers have a managed instance [here](https://about.sourcegraph.com/handbook/support/customer-exceptions)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help!
+In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](./support-managed-instances.md) (you can find which customers have a managed instance [here](./customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help!
 
-Read more about working with managed instances [here](https://about.sourcegraph.com/handbook/support/support-managed-instances).
+Read more about working with managed instances [here](./support-managed-instances.md).
 
 ## Test Environments
 
@@ -178,7 +178,7 @@ We have a few automations set-up to streamline our workflow:
 
 - When you reply to a ticket, it auto-assigns to you, so you don't have to worry about remembering to click "take it" to assign it to yourself
 - The signature is built-in and is your name followed by Sourcegraph Support in the second line
-- When triage sets the requestor and they are part of an organization where we have an assigned CSE, the CSE is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](https://about.sourcegraph.com/handbook/support/customer-exceptions).
+- When triage sets the requestor and they are part of an organization where we have an assigned CSE, the CSE is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](./customer-exceptions.md).
 
 ### Apps
 
@@ -206,3 +206,4 @@ We do not use guide for our documentation, but must have it activated so custome
 - Removed search bar
 - Modified text on home page
 - Modified error messages
+

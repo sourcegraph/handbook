@@ -2,7 +2,7 @@
 
 ## What we want to measure
 
-Will the candidate be successful in our all-remote environment in which the majority of communication happens in written form (Slack messages, [RFCs](https://about.sourcegraph.com/handbook/communication/rfcs), GitHub issues, pull request and commit messages).
+Will the candidate be successful in our all-remote environment in which the majority of communication happens in written form (Slack messages, [RFCs](../../../../communication/rfcs/index.md), GitHub issues, pull request and commit messages).
 
 - Is the candidate able to see and communicate the big picture in an inspiring way?
 - Does the RFC communicate the product vision and explain why this is an important problem to solve?
@@ -22,7 +22,7 @@ Candidates are sent the following prompt after they pass the intro call:
 
 > The next step of our interview process is to have you complete a take home writing exercise.
 >
-> Please write a [Request for comments (RFC)](https://about.sourcegraph.com/handbook/communication/rfcs) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/product area.
+> Please write a [Request for comments (RFC)](../../../../communication/rfcs/index.md) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/product area.
 >
 > It should have our standard [RFC structure](https://github.com/sourcegraph/about/blob/master/handbook/communication/rfcs/index.md#rfc-structure) from the handbook, or see the [RFC template](https://docs.google.com/document/d/1vUp1A-j5xxnPn_rv3x3rWo8tbXJhIA5NggHLU6UofUc/edit): Background, Problem, Proposed solution, and Definition of success. However, our handbook states that the precise format is not as important as the content itself, so feel free to improve upon this format as necessary.
 >
@@ -31,3 +31,4 @@ Candidates are sent the following prompt after they pass the intro call:
 > What's important is that the writing is clear and easy to understand. It should show us that you _care_ about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way.
 >
 > The challenge is to explain something to a reader that doesn't have the same context as you have, just like you would in a proposal for a new feature.
+

@@ -31,7 +31,7 @@ To see what Distribution is currently prioritizing, see the [Distribution Goals]
 
 **Related**
 
-- [release process](https://about.sourcegraph.com/handbook/engineering/releases)
+- [release process](../releases/index.md)
 - [release tooling](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/release)
 
 ## Deployment
@@ -133,3 +133,4 @@ Also see [observability](#observability).
 - [Jaeger in single-container](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:cmd/server+jaeger&patternType=literal) deployments
 
 Also see [observability](#observability).
+

@@ -51,7 +51,7 @@ Most "data pipelines" are SQL queries that turn raw ping data into clean dataset
 
 ## How to
 
-- Add metrics on [Sourcegraph Cloud](https://about.sourcegraph.com/handbook/ops/bizops/amplitude#adding-events-to-amplitude)?
+- Add metrics on [Sourcegraph Cloud](./amplitude.md#adding-events-to-amplitude)?
 - Add metrics on [Sourcegraph on-prem](https://docs.sourcegraph.com/dev/background-information/adding_ping_data)?
 
 ### Quick links
@@ -79,3 +79,4 @@ When adding a user to Looker, they need to be in both the group and role:
 - CE, sales, product users = ‘All internal users, view and edit’
 - Any other teams not listed should default to 'View'
 - Generally, CE, sales, product, customer support and marketing receive accounts when joining the company
+

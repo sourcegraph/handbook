@@ -53,22 +53,23 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 
 ### 30-60 Days
 
-- Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+- Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](../index.md#target-opportunity-profile))
 - Added 3 Qualified Opportunities to your pipeline in Salesforce
 - Build a Strategic Account Plan for top Target Account
 
 ### 60-90 Days
 
-- Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+- Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](../index.md#target-opportunity-profile))
 - Add 3 additional Qualified Opportunities to your pipeline in Salesforce
 - Advance 2 opportunities into Technical and Business Validation
 
 ### 90-180 Days
 
-- Complete 20 New Business meetings (meetings should meet our [Target Opportunity Profile](https://about.sourcegraph.com/handbook/sales#target-opportunity-profile))
+- Complete 20 New Business meetings (meetings should meet our [Target Opportunity Profile](../index.md#target-opportunity-profile))
 - $187k of Closed/Won IARR
 
 ## Other helpful links
 
 - [GitLab sales training](https://about.gitlab.com/handbook/sales/training/)
   - [Additional resources](https://about.gitlab.com/handbook/sales/training/additional-resources/)
+

@@ -12,7 +12,7 @@ As a company, we use [Process.st](https://app.process.st/reports/) to guide each
 
 ### Onboarding Support
 
-Each new CE is paired with two individuals during their onboarding time: an [onboarding buddy](https://about.sourcegraph.com/handbook/people-ops/onboarding/buddy-program) and an onboarding mentor. Your onboarding buddy is assigned as part of our company-wide onboarding program. For the CE team, this will be a peer from an adjacent team with whom you'll work closely. Your onboarding mentor will be someone from the CE team with whom you'll have regular check-ins and will be there to help guide you. Both of these assignments will be indicated in your Process.st checklist.
+Each new CE is paired with two individuals during their onboarding time: an [onboarding buddy](../people-ops/onboarding/buddy-program.md) and an onboarding mentor. Your onboarding buddy is assigned as part of our company-wide onboarding program. For the CE team, this will be a peer from an adjacent team with whom you'll work closely. Your onboarding mentor will be someone from the CE team with whom you'll have regular check-ins and will be there to help guide you. Both of these assignments will be indicated in your Process.st checklist.
 
 ## High-level Onboarding Overview
 
@@ -105,3 +105,4 @@ Each CE is expected to receive certification. Certification means new CEs have d
 For certification, a [rubric](https://docs.google.com/spreadsheets/d/1goSKFCPSrRSxw3iVUWEryORdzail96quHcc6ZAwh1LY/edit#gid=0) exists to assess a new CE's demo competency as they onboard to Sourcegraph. Each time a new CE leads a demo session, they will be shadowed by a tenured CE. Both the shadowing CE and the CE manager (via Chorus recording) will watch the demo and fill out a demo certification rubric. This will help provide feedback and give the new CE specific areas of focus.
 
 A CE is considered "Demo Certified" when they have scored a rating of 3 on all of the core competencies by both the tenured shadow CE and the CE manager. (Scoring options include: 1 - Insufficiently Demonstrated, 2 - Partially Demonstrated, 3 - Fully Demonstrated).
+

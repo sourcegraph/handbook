@@ -6,6 +6,7 @@
 
 [Values interview training] Coming soon
 
-- [Providing feedback](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values)
+- [Providing feedback](./hiring/evaluating_values.md)
 
 [Resume Deep Dive training] Coming soon
+

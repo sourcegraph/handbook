@@ -4,21 +4,21 @@ All role-specific interview processes are documented at the end of each [job des
 
 ## Standard interview process
 
-Our hiring managers work with their [assigned recruiter](https://about.sourcegraph.com/handbook/talent#talent-team-members) to create an optimal interview plan for their role. Below is an example. All steps in bold are strongly encouraged.
+Our hiring managers work with their [assigned recruiter](./index.md#talent-team-members) to create an optimal interview plan for their role. Below is an example. All steps in bold are strongly encouraged.
 
-We strive for consistency across all interviews. Read more about our interviews [here](https://about.sourcegraph.com/handbook/talent/types_of_interviews)
+We strive for consistency across all interviews. Read more about our interviews [here](./types_of_interviews.md)
 
-- [**Recruiter screen**](https://about.sourcegraph.com/handbook/talent/types_of_interviews#recruiter-screen)
-- [**Hiring manager screen**](https://about.sourcegraph.com/handbook/talent/types_of_interviews#hiring-manager-screen)
+- [**Recruiter screen**](./types_of_interviews.md#recruiter-screen)
+- [**Hiring manager screen**](./types_of_interviews.md#hiring-manager-screen)
 - Assignment, if applicable
 - In-depth Interview stage:
-  - [Resume deep dive](https://about.sourcegraph.com/handbook/talent/types_of_interviews#resume-deep-dive) (aka Topgrade)
+  - [Resume deep dive](./types_of_interviews.md#resume-deep-dive) (aka Topgrade)
   - Assignment review/working session, if applicable
   - Technical interview, if applicable
-  - [**Team collaboration interview**](https://about.sourcegraph.com/handbook/talent/types_of_interviews#team-collaboration-interview)
-  - [**Peer interview**](https://about.sourcegraph.com/handbook/talent/types_of_interviews#peer-interview)
-  - [**Values interview**](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview)
-- [Department head interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#department-head-interview-30-45-minutes)
+  - [**Team collaboration interview**](./types_of_interviews.md#team-collaboration-interview)
+  - [**Peer interview**](./types_of_interviews.md#peer-interview)
+  - [**Values interview**](./types_of_interviews.md#values-interview)
+- [Department head interview](./types_of_interviews.md#department-head-interview-30-45-minutes)
 - Reference checks / offer
 
 ## Creating a job description
@@ -39,7 +39,7 @@ Best practices for writing a job description
 
 Creating a structured interview process is critical to our DEI efforts. Research shows that structured interviews are up to **twice as effective** at predicting job performance than unstructured ones, and ultimately help us hire faster. Structuring interviews with a standardized set of questions also allows for a more fair and impartial way of assessing candidates, which helps remove unconscious biases.
 
-Before creating your interview plan, you may find it helpful to read about the [types of interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews) other hiring managers have leveraged in the past.
+Before creating your interview plan, you may find it helpful to read about the [types of interviews](./types_of_interviews.md) other hiring managers have leveraged in the past.
 
 Q: Is creating an interview plan required for all Hiring Managers?
 
@@ -64,7 +64,7 @@ To schedule an interview with a candidate, please work with your recruiter or Sl
 
 ## Providing interview feedback
 
-Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) to revisit key points during the interview when providing feedback.
+Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](./hiring/guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback.
 
 All feedback must be submitted in Greenhouse **before** discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
@@ -94,3 +94,4 @@ When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/article
 ## Interview debriefs
 
 We conduct debriefs after a candidate finishes interviews. The debrief can either take place via a private Slack channel or via a Zoom debrief meeting. Should the hiring manager decide to not need a debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate’s Greenhouse profile stating the reason and/or context for the decision.
+

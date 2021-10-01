@@ -71,7 +71,7 @@ Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using 
 
 Details for all the above programs/campaigns can be found [here](https://docs.google.com/spreadsheets/d/1IQbXQYKkwbGvG0ZN2YNLcfpkHGsbxnyl9EDbd7GXmew/edit?usp=sharing) (internal link only).
 
-We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See details [here](https://about.sourcegraph.com/handbook/marketing/ad_conversion_flows).
+We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See details [here](./ad_conversion_flows.md).
 
 ### Insertion Order Process
 
@@ -83,3 +83,4 @@ We capture/measure the results of our paid campaigns using tags in Google Tag Ma
 
 1. Invoices are received via email from our advertising partners.
 2. We send invoices to <finance@sourcegraph.com>, and include a copy of the signed insertion order as backup for the invoice.
+

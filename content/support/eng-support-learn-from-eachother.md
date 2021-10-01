@@ -17,7 +17,7 @@ Some folks in engineering offer office hours and those can be useful for a CSE t
 
 ## Pairings
 
-Pairings are different from rotations in that they are usually ad-hoc in nature and there is an event that results in a pairing being useful. For example, [the events outlined by the Batch Changes team](https://about.sourcegraph.com/handbook/engineering/code-graph/batch-changes/supporting-batch-changes#support-pairing) or working on a ticket together. This is very much a “I have something useful for you” or “I have a question for you” and the best step for all involved is to work closely together on it, pairing style. A pairing could also happen while support follows the protocol to [engage other teams](engaging-other-teams.md). While that protocol is designed to foster our remote-first culture and allow for folks to work across timezone and asynchronously, the CSE or engineering team member can always initiate the idea of pairing on an issue if the situation/issue seems like it would benefit from it.
+Pairings are different from rotations in that they are usually ad-hoc in nature and there is an event that results in a pairing being useful. For example, [the events outlined by the Batch Changes team](../engineering/code-graph/batch-changes/supporting-batch-changes.md#support-pairing) or working on a ticket together. This is very much a “I have something useful for you” or “I have a question for you” and the best step for all involved is to work closely together on it, pairing style. A pairing could also happen while support follows the protocol to [engage other teams](engaging-other-teams.md). While that protocol is designed to foster our remote-first culture and allow for folks to work across timezone and asynchronously, the CSE or engineering team member can always initiate the idea of pairing on an issue if the situation/issue seems like it would benefit from it.
 
 ## Team to team retros
 
@@ -59,7 +59,7 @@ We have a shared responsibility to maintain and improve docs.sourcegraph.com. Wh
 When we work on documentation, we…
 
 - ...remind ourselves that the vision set forth by our product team for our docs is to align with the the organizational approach outlined in https://documentation.divio.com/, especially [the how-to section](https://documentation.divio.com/how-to-guides/) and [their examples](https://docs.divio.com/en/latest/how-to/) (how-to is the doc type we create/improve the most)
-- ...remind ourselves of [the guidelines for contributing to product documentation](https://about.sourcegraph.com/handbook/engineering/product_documentation), as well as [the content creation guidelines](https://about.sourcegraph.com/handbook/communication/content_guidelines)
+- ...remind ourselves of [the guidelines for contributing to product documentation](../engineering/product_documentation.md), as well as [the content creation guidelines](../communication/content_guidelines/index.md)
 - ...note that troubleshooting documentation falls into the category of how-to documentation as outlined in the vision above
 - ...ensure that every page in our docs to have a single purpose (it may take us awhile to redo what is there, but keep this in mind for creating/revising)
 - ...ensure that if we move a page, we add a redirect for the old URL [here](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/_resources/assets/redirects)
@@ -84,3 +84,4 @@ Our [Frontend Platform team](https://about.sourcegraph.com/handbook/engineering/
 9. Start with issues with the `good first issue` label
 10. Chat with Virginia about your plan
 11. Let Patrick (engineering manager of the team) know which ticket you’d like to work on
+

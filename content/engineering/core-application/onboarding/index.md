@@ -23,7 +23,7 @@ The first days and weeks on a new team can be daunting. There's a lot of informa
 
 [Don't panic!](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Don't_Panic) We've set up these onboarding materials to help ease you into your role, and you'll find that your coworkers are more than happy to assist you however they can. We don't expect you to become an expert overnight — take some time to read the materials, experiment with the code and ask us lots of questions!
 
-> Please ensure you've familiarized yourself with the [General Onboarding](https://about.sourcegraph.com/handbook/people-ops/onboarding#for-all-new-teammates) and [Engineering Onboarding](https://about.sourcegraph.com/handbook/engineering/onboarding#engineering-onboarding) documents. The materials on this page are geared toward the [Core Application team](https://about.sourcegraph.com/handbook/engineering/core-application).
+> Please ensure you've familiarized yourself with the [General Onboarding](../../../people-ops/onboarding/index.md#for-all-new-teammates) and [Engineering Onboarding](../../onboarding/index.md#engineering-onboarding) documents. The materials on this page are geared toward the [Core Application team](../index.md).
 
 ## Onboarding goals and milestones
 
@@ -83,3 +83,4 @@ The core application team owns services that are fundamental to Sourcegraph's op
 - [Learning resources](learning-resources.md)
 - [Devtools we love](devtools-we-love.md)
 - [Tips and tricks](tips-and-tricks.md)
+

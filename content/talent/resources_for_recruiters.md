@@ -33,9 +33,9 @@ The intake meeting is intended for the Hiring Manager and the Recruiter to get o
 - Any additional information
 - Job description
 
-**Step 2:** Please review the [interview plan](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1808593536) and ensure all interview sections are completed and consistent with our [Types of Interviews](https://about.sourcegraph.com/handbook/talent/types_of_interviews).
+**Step 2:** Please review the [interview plan](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1808593536) and ensure all interview sections are completed and consistent with our [Types of Interviews](./types_of_interviews.md).
 
-In addition to reviewing these topics during the intake meeting, the Recruiter and the Hiring Manager will select the [Values Interview](https://about.sourcegraph.com/handbook/talent/hiring/evaluating_values) Panel. Using [this document](https://docs.google.com/spreadsheets/d/1NUDEjzud_GxocjKkd__m0hTf21tN3OIgOwtk_OjhV20/edit?ts=60e4c3bd#gid=0), the Recruiter and the Hiring Manager select two people who are highlighted in green (indicating that they have been here for 3 months or longer). When choosing two people to be on the Values Interview, please keep in mind the following:
+In addition to reviewing these topics during the intake meeting, the Recruiter and the Hiring Manager will select the [Values Interview](./hiring/evaluating_values.md) Panel. Using [this document](https://docs.google.com/spreadsheets/d/1NUDEjzud_GxocjKkd__m0hTf21tN3OIgOwtk_OjhV20/edit?ts=60e4c3bd#gid=0), the Recruiter and the Hiring Manager select two people who are highlighted in green (indicating that they have been here for 3 months or longer). When choosing two people to be on the Values Interview, please keep in mind the following:
 
 - must have been here for 3+ months
 - must be two people from different departments
@@ -60,24 +60,24 @@ As a next step, please:
 1. Review the below interview process and qualifications
 2. Please share this post to social media to help drive applicants to the role
 3. Please review these pages in the handbook:
-   1. [The interview process](https://about.sourcegraph.com/handbook/talent/interview_process)
-   2. [Resources for hiring managers](https://about.sourcegraph.com/handbook/talent/resources_for_hiring_managers)
-   3. [Feedback definitions](https://about.sourcegraph.com/handbook/talent/interview_process#overall-recommendation)
-4. Please review our [Guide to Using BrightHire](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) and ensure you download the BrightHire Chrome extension.
+   1. [The interview process](./interview_process.md)
+   2. [Resources for hiring managers](./resources_for_hiring_managers.md)
+   3. [Feedback definitions](./interview_process.md#overall-recommendation)
+4. Please review our [Guide to Using BrightHire](./hiring/guide_to_using_brighthire.md) and ensure you download the BrightHire Chrome extension.
 
 Interview process / hiring team:
 
-- [30m] [Recruiter screen](https://about.sourcegraph.com/handbook/talent/types_of_interviews#sts=Recruiter%20screen): \_\_
-- [30-60m] [Hiring Manager screen](https://about.sourcegraph.com/handbook/talent/types_of_interviews#hiring-manager-screen): \_\_
+- [30m] [Recruiter screen](./types_of_interviews.md#sts=Recruiter%20screen): \_\_
+- [30-60m] [Hiring Manager screen](./types_of_interviews.md#hiring-manager-screen): \_\_
 - Assignment, if applicable: \_\_
 - In-depth Interview Stage:
-  - [1h] [Resume Deep Dive](https://about.sourcegraph.com/handbook/talent/types_of_interviews#resume-deep-dive): \_\_
+  - [1h] [Resume Deep Dive](./types_of_interviews.md#resume-deep-dive): \_\_
   - [30m] Assignment review/working session, if applicable: \_\_
   - [60-120m] Technical interview, if applicable: \_\_
-  - [30-60m] [Cross-functional Team collaboration interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#cross-team-collaboration-interview): \_\_
-  - [30m] [Peer interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#peer-interview): \_\_
-- [30m] [Values interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#values-interview): \_\_
-- [15-30m] [Leadership Interview](https://about.sourcegraph.com/handbook/talent/types_of_interviews#leadership-interview): \_\_
+  - [30-60m] [Cross-functional Team collaboration interview](./types_of_interviews.md#cross-team-collaboration-interview): \_\_
+  - [30m] [Peer interview](./types_of_interviews.md#peer-interview): \_\_
+- [30m] [Values interview](./types_of_interviews.md#values-interview): \_\_
+- [15-30m] [Leadership Interview](./types_of_interviews.md#leadership-interview): \_\_
 
 At a high level, here is an overview of what we’re looking for in this hire. @hiringmanager, please add any additional insight that will be helpful for the hiring team to keep in mind as they interview candidates!
 
@@ -120,3 +120,4 @@ It is much better to copy and paste the entire post and then give the author cre
 Avoid including links directly in your posts. Anything that takes the user away from LinkedIn is discouraged... so instead, add the link as a comment.
 
 [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
+

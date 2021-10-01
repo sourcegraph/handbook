@@ -6,7 +6,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 
 ## Manager checklist
 
-- Visit the [Onboarding process for Hiring Managers](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-for-hiring-managers) page to understand the workflow with People Ops.
+- Visit the [Onboarding process for Hiring Managers](../../people-ops/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
 - Create onboarding Google doc and copy in this page to customize week 2-4 tasks and have a personal checklist for the new teammate.
 - Update onboarding doc Week 2-4 with initial projects.
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
@@ -48,12 +48,12 @@ Remember:
 
 - Schedule individual meetings with each person on the [Product team](../index.md#members)
 - Schedule individual meetings with each person on the engineering team you'll be working most closely with ( this will be in your specific onboarding docs)
-- Schedule a meeting with the [Head of Customer Support](https://about.sourcegraph.com/handbook/company/team#virginia-ulrich-she-her)
+- Schedule a meeting with the [Head of Customer Support](../../company/team/index.md#virginia-ulrich-she-her)
 - Get up to speed on what your team is working on
   - Team handbook page(s), to learn about the team and its internal processes
-    - [Product](https://about.sourcegraph.com/handbook/product)
-    - [Product management](https://about.sourcegraph.com/handbook/product/product_management)
-    - [Product design](https://about.sourcegraph.com/handbook/product/design)
+    - [Product](../index.md)
+    - [Product management](../product_management/index.md)
+    - [Product design](../design/index.md)
     - [Product process](https://about.sourcegraph.com/handbook/product/product_management/product_process)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
   - Team sync docs
@@ -75,7 +75,7 @@ Remember:
 - Read about [search queries](https://docs.sourcegraph.com/code-search) and perform your first searches.
 - Work through the questions from the [Sales Onboarding Quiz](../../sales/onboarding/quiz.md) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have or knowledge gaps with your manager.
 - Record yourself completing the Sales [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit#).
-- [How to make configuration changes to sourcegraph.com](https://about.sourcegraph.com/handbook/engineering/distribution/update_sourcegraph_website)
+- [How to make configuration changes to sourcegraph.com](../../engineering/distribution/update_sourcegraph_website.md)
 
 ### Get to know our customers
 
@@ -96,7 +96,7 @@ Remember:
   - Watch [Figma for Sourcegraphers part 2 (intro to the Wildcard Design System)](https://drive.google.com/file/d/1kfT3PVvTag_e0RXLAt6nndf6fS2n1Slv/view)
   - Read [Figma developers guide](https://www.smashingmagazine.com/2020/09/figma-developers-guide/)
 - Looker
-  - [How Sourcegraph uses Looker](https://about.sourcegraph.com/handbook/ops/bizops/analytics#using-looker)
+  - [How Sourcegraph uses Looker](../../ops/bizops/analytics.md#using-looker)
 - UserTesting.com
   - Walk through UserTesting.com with one of the designers on the team
 
@@ -110,7 +110,7 @@ Remember:
 
 - Read the [content guidelines](../../communication/content_guidelines/index.md) for contributing to the handbook, product docs, and product copy
 - Google Cloud Storage access: Ask in #product to be added to the `gcp-assets-users` group.
-- **Screenshot/GIF making software**: See the [handbook](https://about.sourcegraph.com/handbook/marketing/adding_screenshots_screen_recording) for guidelines about software. Expense the program that works for you when you need it.
+- **Screenshot/GIF making software**: See the [handbook](../../marketing/adding_screenshots_screen_recording.md) for guidelines about software. Expense the program that works for you when you need it.
 - [Product documentation guidelines](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/dev/documentation.md)
 - [Docs to Markdown add-on for Google Docs](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
 
@@ -156,3 +156,4 @@ You'll find we have a strong base to work from, but we are in the early stages o
 
 - Let’s talk about your strengths, interests, areas you’re excited about, as well as what will help drive the team and company goals!
   - Use this document to record issues you'd like to work on as you discover them during your onboarding
+

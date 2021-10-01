@@ -19,7 +19,7 @@ You'll have to get some basics set up in your first few days:
 
 ## Manager checklist
 
-For Hiring Managers, visit the [Onboarding process for Hiring Managers](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-for-hiring-managers) page.
+For Hiring Managers, visit the [Onboarding process for Hiring Managers](../../people-ops/onboarding/onboarding-for-hiring-managers.md) page.
 
 Your manager should complete the following steps when you join:
 
@@ -39,3 +39,4 @@ Your manager should complete the following steps when you join:
 
   - [Site24x7](https://www.site24x7.com) (optional; recommended for Distribution team members)
   - [HoneyComb.io](https://www.honeycomb.io/)
+

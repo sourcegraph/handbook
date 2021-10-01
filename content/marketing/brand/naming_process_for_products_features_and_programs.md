@@ -6,9 +6,9 @@ Naming can be tricky. Not only do you need something that explains your product 
 
 ## Overview
 
-The “Full” or [Tier 1](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests#tier-1-large-scale-high-priority-external-projects-that-require-creative-strategy-development) process includes enough time to review and provide feedback on proposed names, or to help generate some viable options, as well as running a legal and localization search and conducting some external research to better understand how a name might land with our target audience. This process would be beneficial for Tier 1 or Tier 2 products, programs, and features
+The “Full” or [Tier 1](./brand_and_creative_team_requests.md#tier-1-large-scale-high-priority-external-projects-that-require-creative-strategy-development) process includes enough time to review and provide feedback on proposed names, or to help generate some viable options, as well as running a legal and localization search and conducting some external research to better understand how a name might land with our target audience. This process would be beneficial for Tier 1 or Tier 2 products, programs, and features
 
-The “Light” or [Tier 2](https://about.sourcegraph.com/handbook/marketing/brand/brand_and_creative_team_requests#tier-2-externally-facing-but-lower-priority-previously-approved-concept-but-new-deliverable-new-concept-internal-projects) process provides at a minimum enough time to do a brief search and competitive analysis, and a 24- to 48-hour sprint to provide alternative options if any obstacles are uncovered in the initial brief search. We also provide tools and guidelines for anyone creating something that needs a name to run the Tier 2 process more or less self-powered.
+The “Light” or [Tier 2](./brand_and_creative_team_requests.md#tier-2-externally-facing-but-lower-priority-previously-approved-concept-but-new-deliverable-new-concept-internal-projects) process provides at a minimum enough time to do a brief search and competitive analysis, and a 24- to 48-hour sprint to provide alternative options if any obstacles are uncovered in the initial brief search. We also provide tools and guidelines for anyone creating something that needs a name to run the Tier 2 process more or less self-powered.
 
 Our goal is to make this as simple and seamless as possible while accounting for the challenges of naming things and remaining aligned on our goal of elevating and spreading awareness of the Sourcegraph brand.
 
@@ -70,7 +70,7 @@ After you’ve selected a name and it’s been approved for use, how does it sho
 
 Following our [Product Hierarchy](https://about.sourcegraph.com/handbook/marketing/product_marketing_hierarchy) chart in the [Handbook](https://about.sourcegraph.com/handbook), all Level 1 products, events, and programs should be capitalized. Examples: Universal Code Search, Batch Changes, Code Insights. This would also include Level 1 and externally-facing media we produce such as our podcast, a web series, and white papers or e-books. Another way to think about capitalization is, is this “thing” a proper vs a common noun? For instance, an annual Sourcegraph company picnic might be simply styled in lowercase, whereas the “Sourcegraph Summer Celebration” would benefit from using initial caps.
 
-[See the Capitalization Guide in the Handbook](https://about.sourcegraph.com/handbook/communication/content_guidelines/style_and_mechanics#product-names)
+[See the Capitalization Guide in the Handbook](../../communication/content_guidelines/style_and_mechanics.md#product-names)
 
 When in doubt, reach out to the Marketing team and we can help identify if the name will benefit from capitalization, or if the product or program falls in a gray area.
 
@@ -135,3 +135,4 @@ An example naming scorecard for the Full Naming Process described above:
 Still have questions? Reach out to brand@sourcegraph.com or sign up for [Marketing Office Hours](https://docs.google.com/spreadsheets/d/1o8rHntP0j6-JFryhc0_g6MKEI6l3dZE7NTKasyQx46M/edit#gid=0). If you’re ready to request a naming sprint, simply use the [Creative Request Form](https://docs.google.com/forms/d/e/1FAIpQLSd4OKq9asQNWiTUtRXZrTfyRd8nylWUXvpIhIoCoWTryKNZGA/viewform).
 
 Thanks for helping us continue to build a successful brand that empowers and resonates with our users!
+

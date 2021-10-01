@@ -12,7 +12,7 @@ When you are challenging a decision, it is important to do so in a constructive 
 
 Here is a process that you can follow to disagree with a decision productively.
 
-1. Proactively try to understand the decision by reviewing available information (Slack conversations, [RFCs](https://about.sourcegraph.com/handbook/communication/rfcs)).
+1. Proactively try to understand the decision by reviewing available information (Slack conversations, [RFCs](./rfcs/index.md)).
 1. Start a conversation with the decision maker. In this conversation:
    - Communicate what information you reviewed in (1) and ask the decision maker to share any information or context that is missing from what you reviewed.
    - State clearly that you disagree with the decision and your top 3 reasons for disagreeing. Share why you think these concerns are important or impactful.
@@ -71,3 +71,4 @@ The mechanics are simple.
 ---
 
 > The clean escalation process is based on LinkedIn’s clean escalation policy that Fred Kofman wrote about in [How to Escalate Disagreements Cleanly – A Coaching Conversation](https://www.linkedin.com/pulse/how-escalate-disagreements-cleanly-coaching-77-fred-kofman/). The inline video walks through an edge case to give a better insight into how this process works in practice. It is worth watching before you initiate your first clean escalation.
+

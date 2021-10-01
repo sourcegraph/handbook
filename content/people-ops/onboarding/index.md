@@ -11,7 +11,7 @@ New teammates are paired with someone to connect that can share their experience
 - [Onboarding process for Hiring Managers](onboarding-for-hiring-managers.md) page.
 - Cohort calendar ([2021](https://docs.google.com/spreadsheets/d/1jJY3E7j31ZD7J-ouf3Gf-uioHCAXxe-0bBVLEmdtVGQ/edit#gid=0) & [2022](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0) start dates)
 - [Onboarding buddy program](./buddy-program.md)
-- [Onboarding Feedback Milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones)
+- [Onboarding Feedback Milestones](./onboarding-feedback-milestones.md)
 
 ## Guiding principles
 
@@ -71,7 +71,7 @@ The People Ops team wants to help managers support their teammates better, in or
 
 We also want to support managers in gathering insight of their teammate’s progress and development.
 
-Read about how we do this in [Onboarding Feedback Milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones)
+Read about how we do this in [Onboarding Feedback Milestones](./onboarding-feedback-milestones.md)
 
 ## Before you start at Sourcegraph
 
@@ -96,3 +96,4 @@ See [General onboarding checklist](general_onboarding.md).
 - [Sales team](../../sales/onboarding/index.md)
 - [Product team](../../product/onboarding/index.md)
 - [Business Operations & Strategy](../../ops/bizops/onboarding.md)
+

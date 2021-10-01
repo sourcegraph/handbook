@@ -8,7 +8,7 @@ We have an ops on-call rotation managed through [OpsGenie](https://opsgenie.com)
 1.  Acknowledge pages promptly. If you do not acknowledge within 10 minutes, someone else will get paged.
 1.  Identify the issue and collect information that might be useful for preventing the problem in the future (e.g. if a disk was full, what was it full with?).
     - This frequently involves running kubectl commands against our production cluster.
-    - Make sure you have [setup access to kubernetes](https://about.sourcegraph.com/handbook/engineering/deployments#how-to-set-up-access-to-kubernetes) and know [how to perform operations](https://about.sourcegraph.com/handbook/engineering/deployments#kubectl-cheatsheet) like: looking at logs for a service, restarting a service, getting a command shell in a running pod (e.g. to look at what is on disk).
+    - Make sure you have [setup access to kubernetes](../deployments/index.md#how-to-set-up-access-to-kubernetes) and know [how to perform operations](../deployments/index.md#kubectl-cheatsheet) like: looking at logs for a service, restarting a service, getting a command shell in a running pod (e.g. to look at what is on disk).
 1.  If `about`, `/search`, or `docs` is fully unreachable, page Customer Support so they can help with customer and broader internal communication. You can do this from Slack with `/genie alert "______ is down" for customer-support`. Support assisting with communication will let you focus on solving the issue.
 1.  Take steps to resolve the issue (e.g. if a disk was full, delete any data that is safe to delete to resolve the immediate issue) if you can.
     - Don't mark pages as "resolved". Wait for the underlying alert to auto resolve.
@@ -90,3 +90,4 @@ data from.
   Sourcegraph codebase? eg p95 open connections to pgsql. Then see [adding monitoring](../observability/monitoring.md#adding-monitoring).
 - Do you need to validate a core user flow? Use
   [e2etest](https://github.com/sourcegraph/sourcegraph/blob/master/test/e2e/README.md)
+

@@ -192,7 +192,7 @@ Our goal at Modern Health is to find someone that you feel you can do good work 
 - You have unlimited access to your coach over text and/or email.
 - Coaching and therapy sessions are held over video/phone.
 - If you need to miss a scheduled session please let your coach/therapist know at least 24 hours before your appointment. If you cancel after that time, or miss the session, it will count towards your total covered sessions.
-- Remember that the [Sourcegraph PTO policy](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours#paid-time-off-and-working-hours) is meant to enable you to make time for your mental health. Team members should feel empowered to make an appointment for coaching or therapy in the middle of the day or take time off to attend an appointment. We have various emojis in Slack that you can denote as your status while you do this. Simply type in “coaching” or “therapy” to start the emoji as an indication to your peers that you are prioritizing your mental health during a block of time.
+- Remember that the [Sourcegraph PTO policy](./paid-time-off-and-working-hours.md#paid-time-off-and-working-hours) is meant to enable you to make time for your mental health. Team members should feel empowered to make an appointment for coaching or therapy in the middle of the day or take time off to attend an appointment. We have various emojis in Slack that you can denote as your status while you do this. Simply type in “coaching” or “therapy” to start the emoji as an indication to your peers that you are prioritizing your mental health during a block of time.
 
 **What do I do if I need support in between sessions?**
 Beyond sessions, your coach is available through chat to check in on your progress toward your goals, as well as provide ad hoc support when situations come up that you might need advice on, but don’t need a full session for. To chat with your coach, click the blue text bubble on the bottom center of the mobile app.
@@ -220,3 +220,4 @@ What do I do in a crisis? If you are experiencing a crisis (e.g., thoughts about
 - emergency responders (911 or the [appropriate local emergency number for your area](https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers))
 - in the US/Canada, https://suicidepreventionlifeline.org/ or 1-800-273-8255) or [a crisis line in your area](https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines)
 - head to the nearest emergency room.
+
