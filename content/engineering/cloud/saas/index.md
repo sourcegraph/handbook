@@ -21,7 +21,7 @@ The cloud SaaS team at Sourcegraph owns anything associated with our goal of bui
 ## How to contact the team and ask for help
 
 - For cloud users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
-- For internal Sourcegraph teammates, join us in [#cloud-saas](https://sourcegraph.slack.com/archives/C025BKWFPDY) to ask questions or request help from our team.
+- For internal Sourcegraph teammates, join us in #cloud-saas to ask questions or request help from our team.
 - For cloud users with feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include "Cloud Feature Request:" in your subject line.
 
 ## Goals

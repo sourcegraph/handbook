@@ -92,11 +92,11 @@ We default to asynchronous communication in Slack, Google Docs, and GitHub issue
 
 In addition to team-specific channels, we communicate in the following org-wide channels in Slack:
 
-[#enablement-org](https://sourcegraph.slack.com/archives/C02DUPNT7GW): Used primarily for org-wide communication and for other orgs to reach out for cross-org collaboration.
+#enablement-org: Used primarily for org-wide communication and for other orgs to reach out for cross-org collaboration.
 
-[#enablement-social](https://sourcegraph.slack.com/archives/C02EVQDKU3F): Our weekly social check-in (facilitated through Geekbot) goes into this channel and random conversations, banter, jokes, etc., are all welcome here.
+#enablement-social goes into this channel and random conversations, banter, jokes, etc., are all welcome here.
 
-[#enablement-leadership](https://sourcegraph.slack.com/archives/C02DJAE0GE8): This channel is for the Engineering and Product Managers to discuss higher-level matters impacting the whole org.
+#enablement-leadership: This channel is for the Engineering and Product Managers to discuss higher-level matters impacting the whole org.
 
 #### Slack acknowledgment
 
@@ -121,7 +121,7 @@ You should provide a written response unless it's a simple yes/no question, in w
 
 ### Weekly Slack check-ins
 
-We use [Geekbot](https://geekbot.com/) to facilitate a once-a-week (on a Monday) social check-in where we ask teammates across the org the share a bit about what goes on in their life in the [#enablement-social](https://sourcegraph.slack.com/archives/C02EVQDKU3F) Slack channel. We also use this opportunity to build camaraderie between team members by sharing some non-work-related aspects of our lives.
+We use [Geekbot](https://geekbot.com/) to facilitate a once-a-week (on a Monday) social check-in where we ask teammates across the org the share a bit about what goes on in their life in the #enablement-social Slack channel. We also use this opportunity to build camaraderie between team members by sharing some non-work-related aspects of our lives.
 
 Participation in sharing is voluntary.
 

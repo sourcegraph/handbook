@@ -12,7 +12,7 @@ We are establishing the **operational rotation** to predictably deliver sprint g
 
 - Be responsible for all types of interruption work so other team members can focus on sprint goals.
 - Provide customer support by working on support requests for help (#rfh
-- Answer questions and provide support to other teams on [#core-application](https://sourcegraph.slack.com/archives/CHPC7UX16) and [#ask-prod-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W) Slack channels
+- Answer questions and provide support to other teams on #core-application Slack channels
 - Review and merge PRs from other teams
 - Regularly update the team about the current state of support escalations, SLAs, and any risks connected with interruption work.
 - Keep the [support project](https://github.com/orgs/sourcegraph/projects/153#card-65409816) organized and up to date.

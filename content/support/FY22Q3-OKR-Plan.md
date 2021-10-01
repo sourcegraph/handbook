@@ -32,7 +32,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](https://
 ### 3 Retro key Q2 tickets
 
 - Workgroup: Giselle, Gabe, Alex
-- Channel: [#wg-q2-ticket-retro](https://sourcegraph.slack.com/archives/C02A8B3CEH1)
+- Channel: #wg-q2-ticket-retro
 - Details: The goal is to see what we can change within CS and/or if we have requests of any other teams
   - Go through [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) May 1, 2021 - July 31, 2021
   - [Working notes document](https://docs.google.com/document/d/1cxjPXLxtwZ_TXy66Dv0fl-E96ko3WsY5ERVn9nXyNL0/edit)
@@ -41,7 +41,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](https://
 ### 4 What logs, when cheat sheets
 
 - Workgroup: Adeola, Amber, Stompy
-- Channel: [#wg-cse-debug](https://sourcegraph.slack.com/archives/C02AV535N6Q/p1628549418000200)
+- Channel: #wg-cse-debug
 - Details: Create a more simplified and streamlined troubleshooting process by outlining common customer issues and highlighting what services and logs are related to certain issues and generalizing initial troubleshooting steps.
   - [Working notes document](https://docs.google.com/document/d/13S8OH7Rm3xmxE8ttm6EJMV4bsPWRdWdv17VnBvuThUs/edit)
 
@@ -53,7 +53,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](https://
 ### 6 CSE "database"
 
 - Workgroup: Michael, Jason, Ben, Gabe, Warren, Don
-- Channel: [#wg-post-aux](https://sourcegraph.slack.com/archives/C02B9HR49U6)
+- Channel: #wg-post-aux
 - Details: Having a Guide/pool/database of all resolved tickets with specific keywords to easily identify what the troubleshooting steps are talking about, especially for frequent or complex cases where we can easily make reference to for faster customer resolution. Having a well documented case note( outlining thought process, and steps towards resolution) would really go a long way in achieving this.
   - Place for documenting known historic bugs indexed to versions (thinking an md file in our github page), I don’t think the changelog is sufficient for this nor the upgrade pages on Docs.
   - Ensuring we have a framework in place that accounts for data integrity and ensuring customer sensitive information are not exposed.
@@ -62,7 +62,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](https://
 ### 7 Streamline key steps in CSE workflow
 
 - Workgroup: Alex, Kelvin, Carl, Warren
-- Channel: [#wg-cse-automation](https://sourcegraph.slack.com/archives/C029SMU63PZ)
+- Channel: #wg-cse-automation
 - Details: How can we improve the experience of writing an issue summary for our Slack thread, writing an issue summary for Zendesk, and writing an issue summary for Github, could we make this more DRY? Easier to search?
   - [Working notes document](https://docs.google.com/document/d/1D5_o08GFNZ318trY1hZkZHclBtXkzZrdNKn29a2_Uhc/edit#)
 
@@ -87,7 +87,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](https://
 ### 11 CSE Onboarding updates V3
 
 - Workgroup: Adeola, TBD
-- Channel: [#wg-cse-onboarding](https://sourcegraph.slack.com/archives/C02B63GLKKL/p1628884183000300)
+- Channel: #wg-cse-onboarding
 - Details: Make additions or subtractions to CSE onboarding based on retros with all teammates.
   - [Working notes document](https://docs.google.com/document/d/1EJyXAk5PptGjZKtCK-4PHoxS_bMVHlEJmYF9v8wRTk8/edit#)
 

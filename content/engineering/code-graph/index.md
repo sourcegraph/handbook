@@ -19,5 +19,5 @@ Each team within our org implements a different _verb_ on the code graph:
 
 ## Contact
 
-- [#code-graph](https://sourcegraph.slack.com/archives/C02E3R101L3) channel in Slack
+- #code-graph channel in Slack
 - [@sourcegraph/code-graph](https://github.com/orgs/sourcegraph/teams/code-graph) handle on GitHub

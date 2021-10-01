@@ -35,7 +35,7 @@ Ultimately, our goal is to increase user retention through providing highly cont
 
 ## Contact
 
-- [#sourcegraph-for-public-code](https://sourcegraph.slack.com/archives/C01PXV54BH9) channel in Slack.
+- #sourcegraph-for-public-code channel in Slack.
 
 ## Goals
 

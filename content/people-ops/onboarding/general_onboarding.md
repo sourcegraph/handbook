@@ -17,7 +17,7 @@ Considering the Onboarding checklist lives in Process St., this page contains an
 - **[Zoom](https://zoom.us/signin):** Our video communication tool. Set up your Zoom account and follow the [recommended settings](../../communication/index.md#video-calls).
 - **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your **Apple** device in our MDM and in FileVault (ask [Tech Ops](https://about.sourcegraph.com/handbook/ops/tech-ops) for instructions and your access code).
 - It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
-- **[Sourcegraph.com](https://sourcegraph.com)**: New teammates must create an account and ask in Slack [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) to be added to [the Sourcegraph organization](https://sourcegraph.com/organizations/sourcegraph/settings/members) so you get to test in-development features, etc.
+- **[Sourcegraph.com](https://sourcegraph.com)**: New teammates must create an account and ask in Slack #it-tech-ops so you get to test in-development features, etc.
 
 ### U.S. based teammates
 

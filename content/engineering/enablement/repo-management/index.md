@@ -39,7 +39,7 @@ Temporary custody of authentication, efforts largely limited to support and main
 
 ## Contact
 
-- [#repo-management](https://sourcegraph.slack.com/archives/C01N83PS4TU) channel or @repo-management-team in Slack.
+- #repo-management channel or @repo-management-team in Slack.
 - [team/repo-management](https://github.com/sourcegraph/sourcegraph/labels/team%2Frepo-management) label and [@sourcegraph/repo-management](https://github.com/orgs/sourcegraph/teams/repo-management) team on GitHub.
 
 ## Growth plan

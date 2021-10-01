@@ -60,7 +60,7 @@ For more information about code insights, see the original [product document](ht
 
 ## Contact
 
-- [#code-insights](https://sourcegraph.slack.com/archives/C014ZCKMCAV) channel or @codeinsights in Slack.
+- #code-insights channel or @codeinsights in Slack.
 - [team/code-insights](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights) label on GitHub.
 
 ## Useful browser bookmarks ⭐️

@@ -24,7 +24,7 @@ TODO
 
 ## Contact
 
-- [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channel or @dev-experience-team in Slack.
+- #dev-experience channel or @dev-experience-team in Slack.
 - [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and [@sourcegraph/dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience) team on GitHub.
 
 ## Goals

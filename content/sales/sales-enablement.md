@@ -40,4 +40,4 @@ As the VE & SE practice grows here at Sourcegraph, our charter is to help genera
 
 ## Contact Us
 
-Slack Channel [#value-engineering](https://sourcegraph.slack.com/archives/C01TETER682) or [#sales-enablement](https://sourcegraph.slack.com/archives/C029GHNLLAK)
+Slack Channel #value-engineering

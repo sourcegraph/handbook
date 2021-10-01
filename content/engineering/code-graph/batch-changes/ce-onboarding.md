@@ -19,7 +19,7 @@ General [CE onboarding](../../../ce/onboarding.md)
 
 ## Part 2: Use Batch Changes
 
-- If you are blocked at any time during onboarding, ask for help in [#batch-changes](https://sourcegraph.slack.com/archives/CMMTWQQ49). If you are blocked, others will be as well and we want to know about it.
+- If you are blocked at any time during onboarding, ask for help in #batch-changes. If you are blocked, others will be as well and we want to know about it.
 - Feel free to document your onboarding experience and share it back with the Batch Changes team so that we can make this even better!
 - In this tutorial, we will use [demo.sourcegraph.com](https://demo.sourcegraph.com) as our environment. You should have access by default using SSO.
 - Tip: Use the docs extensively to complete the tutorial steps.

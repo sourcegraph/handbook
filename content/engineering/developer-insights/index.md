@@ -105,9 +105,9 @@ We default to asynchronous communication in Slack, Google Docs and GitHub issues
 
 In addition to team specific channels, we communicate in the following org-wide channels in Slack:
 
-[#developer-insights-internal](https://sourcegraph.slack.com/archives/C01EM5J1NF8): Our weekly check-in (facilited through Geekbot) go into this channel as well as all org-wide commmunication. Random conversations, banter, jokes etc. are all welcome here.
+#developer-insights-internal go into this channel as well as all org-wide commmunication. Random conversations, banter, jokes etc. are all welcome here.
 
-[#developer-insights-org-leadership](https://sourcegraph.slack.com/archives/C01P1TVDJR4): This channel is for the Engineering Managers, Product Managers and Product Designers to discuss higher-level matters impacting the whole org.
+#developer-insights-org-leadership: This channel is for the Engineering Managers, Product Managers and Product Designers to discuss higher-level matters impacting the whole org.
 
 #### Slack acknowledgment
 
@@ -136,7 +136,7 @@ We have a [shared events calendar](https://calendar.google.com/calendar/u/0?cid=
 
 ### Weekly Slack check-ins
 
-We use [Geekbot](https://geekbot.com/) to facilitate a once-a-week (on a Monday) check-in where we ask teammates across the org the share their goals for the week are in the [#developer-insights-internal](https://sourcegraph.slack.com/archives/C01EM5J1NF8) Slack channel. We also use this opportunity to build camaraderie between team members by sharing some non-work related aspects of our lives with each other.
+We use [Geekbot](https://geekbot.com/) to facilitate a once-a-week (on a Monday) check-in where we ask teammates across the org the share their goals for the week are in the #developer-insights-internal Slack channel. We also use this opportunity to build camaraderie between team members by sharing some non-work related aspects of our lives with each other.
 
 All teammates are expected to be part of this channel, and should read the updates, to stay up-to-date with what their teammates are working on.
 
