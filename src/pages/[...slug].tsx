@@ -124,6 +124,9 @@ async function getGitHubCommitData(pagePath: string): Promise<{ lastUpdated: str
         // GitHub returns most recent commit first, so just grab the first date
         lastUpdated: commitData?.[0]?.commit?.author?.date,
         authors: commitData
+            // Filter out occasional null authors (not sure if it's a GitHub API
+            // bug, it only seems to happen in authenticated requests)
+            ?.filter(data => !!data.author)
             ?.filter(
                 // filter for unique authors
                 (data, index, self) => index === self.findIndex(({ author }) => author.login === data.author.login)
