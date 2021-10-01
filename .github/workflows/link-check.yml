@@ -3,7 +3,7 @@ name: Check all links between pages are valid
 on: push
 
 jobs:
-  markdown-link-check:
+  link-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
