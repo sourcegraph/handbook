@@ -13,7 +13,7 @@ const AVATARS_TO_DISPLAY = 8
 
 export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => (
     <section className="right-sidebar-section edit-section">
-        {page.authors && (
+        {page.authors && page.authors.length > 0 && (
             <>
                 <h4 className="sidebar-heading mb-0">Contributors</h4>
                 <div className="avatar-set">
