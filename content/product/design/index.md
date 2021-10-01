@@ -59,18 +59,22 @@ These discovery and delivery phases can be as large or as small as needed for th
 
 We avoid siloed work as much as possible. Instead of design and development phases, each discipline is involved end-to-end, and it’s likely that one discipline will be more involved than the others at different moments along the way. Similarly, we avoid hard handoffs as much as possible. When the Discovery phase is complete, every team member should have a deep understanding and agreement around what will move forward into Delivery and is responsible for shipping the project outcome.
 
+## Process
+
 - [Ways of working](./ways_of_working/index.md)
 - [Design artifacts](./artifacts/index.md)
 - [Visual design](./visual_design/index.md)
 - [Analytics and product design](./metrics/index.md)
-- [Design critiques](./design_critiques/index.md) (Coming soon)
-- [Reviewing design](./reviewing_design/index.md)
 - [Research](./research/index.md)
-- [Intersecting with other teams](./intersecting_with_other_teams/index.md)
-- [Team rituals](./team_rituals/index.md)
-- [Design team onboarding](./onboarding/index.md) (Coming soon)
-- [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
 - [Surfacing design needs](./surfacing_design_needs/index.md)
+
+## Collaboration
+
+- [Team rituals](./team_rituals/index.md)
+- [Reviewing design](./reviewing_design/index.md)
+- [Intersecting with other teams](./intersecting_with_other_teams/index.md) (Coming soon)
+- [Design critiques](./design_critiques/index.md) (Coming soon)
+
 
 ## Toolkit
 
@@ -79,3 +83,8 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Content guidelines](../../communication/content_guidelines/index.md)
 - [Documents and templates](./documents_templates/index.md)
 - [External resources](./external_resources/index.md)
+
+## Other
+- [Design team onboarding](./onboarding/index.md) (Coming soon)
+- [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
+
