@@ -1,10 +1,6 @@
 # Engineering org
 
-This page documents our current/planned engineering org structure. Plans can change!
-
 ## Current organization
-
-As of 2021-09-13 [we reorganized the product and engineering teams](https://docs.google.com/document/d/1d8Z8zN6DjKHfXGaCQerKDeJo5qEVxBTku8RcZtw7Di4/edit#) (internal document) so some team pages are missing and need to be created. Until the handbook is updated, the source of truth for team assignments and hiring plans are in [this spreadsheet](https://docs.google.com/spreadsheets/d/1CIQYQDN2KFyHMmPEx3FqubapyXyapFp0B_DoDJtWvm8/edit#gid=0).
 
 - [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](./roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
   - [Code graph](./code-graph/index.md)
@@ -19,12 +15,15 @@ As of 2021-09-13 [we reorganized the product and engineering teams](https://docs
     - [Dev experience](./enablement/dev-experience/index.md)
     - [Frontend platform](./enablement/frontend-platform/index.md)
   - [Cloud](./cloud/index.md)
-    - [Growth](./cloud/growth/index.md) (includes API-Docs)
+    - [Growth](./cloud/growth/index.md)
     - [Security](./cloud/security/index.md)
     - [DevOps](./cloud/devops/index.md)
     - [Cloud SaaS](./cloud/saas/index.md)
 
-[VP Eng team docs](vpe/index.md).
+Helpful links:
+
+- [VP Eng team docs](vpe/index.md)
+- [Engineering team and hiring plan](https://docs.google.com/spreadsheets/d/1CIQYQDN2KFyHMmPEx3FqubapyXyapFp0B_DoDJtWvm8/edit#gid=0) (internal doc)
 
 ## Philosophy
 
@@ -62,4 +61,4 @@ When teams grow and divide, we prefer to grow the org horizontally, not vertical
 
 ## Transferring teams
 
-If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager. Your manager will chat with you to understand what you want and then propose next steps. See also [the process for switching teams](../people-ops/switching-teams.md).
+If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager to figure out next steps. If you don't feel comfortable talking to your current manager for any reason, please reach out to your manager's manager, or someone in people ops. See also [the process for switching teams](../people-ops/switching-teams.md).
