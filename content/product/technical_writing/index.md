@@ -25,7 +25,7 @@ For more detailed information on adding graphics to the Handbook, see [this page
 
 ### Publishing changes
 
-The publishing process for the website, handbook, and docs is the same as the one listed in [editing the handbook](../../editing.md).
+The publishing process for the website, handbook, and docs is the same as the one listed in [editing the handbook](../editing/editing.md).
 
 ### Local previews
 

@@ -29,3 +29,4 @@ If you just need to edit a single page, you can do it entirely on the web.
 1. When you're ready to publish the change and make it live, press the **Squash and merge** button, then press **Confirm squash and merge**.
    - If you forget to merge your pull request, you'll be reminded about it after 14 days of inactivity on that pull request. If the pull request sees another 7 days of inactivity, it will be automatically closed.
 1. Wait for your change to be live on about.sourcegraph.com. This can take anywhere from a few minutes to a few hours.
+    - Live deployment status: [![Netlify Status](https://api.netlify.com/api/v1/badges/4c81a998-33b5-4357-a593-479e21bb10f3/deploy-status)](https://app.netlify.com/sites/sourcegraph-handbook/deploys)
