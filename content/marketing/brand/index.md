@@ -137,4 +137,3 @@ This charter isn’t meant to have ALL the answers; rather, it’s meant to to b
 - How can we prove the value of the service we provide to ensure earlier involvement?
 - How does our team think about creativity and the creative process?
 - Who are the final decision-makers for brand-level changes, updates, or launches?
-

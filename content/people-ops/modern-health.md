@@ -220,4 +220,3 @@ What do I do in a crisis? If you are experiencing a crisis (e.g., thoughts about
 - emergency responders (911 or the [appropriate local emergency number for your area](https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers))
 - in the US/Canada, https://suicidepreventionlifeline.org/ or 1-800-273-8255) or [a crisis line in your area](https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines)
 - head to the nearest emergency room.
-

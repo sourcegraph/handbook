@@ -110,4 +110,3 @@ The table below breaks down the capabilities of each team within Marketing. Once
 ## Open Roles
 
 See the [marketing roles](roles/index.md) for open positions.
-

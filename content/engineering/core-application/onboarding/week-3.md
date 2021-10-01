@@ -21,4 +21,3 @@ At the end of the week, you'll have achieved the following outcomes:
 1. You'll have influenced the upcoming iteration, and helped us define where we go next.
 2. You'll have the confidence to take on more complex, challenging tasks.
 3. You'll be able to more deeply discuss our services and their interactions.
-

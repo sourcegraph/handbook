@@ -83,4 +83,3 @@ The core application team owns services that are fundamental to Sourcegraph's op
 - [Learning resources](learning-resources.md)
 - [Devtools we love](devtools-we-love.md)
 - [Tips and tricks](tips-and-tricks.md)
-

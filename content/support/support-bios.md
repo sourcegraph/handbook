@@ -42,4 +42,3 @@ The format, style, order, etc is up to each of us. Just make sure to include the
 - A quote you like
 - How you eat fries (with or without ketchup (ketchup on the fries or on the side), etc)
 - Your sun, moon, and rising signs
-

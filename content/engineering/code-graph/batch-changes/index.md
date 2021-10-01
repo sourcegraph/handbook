@@ -84,4 +84,3 @@ We have no further plans to grow the team at this time.
 ## Attribution
 
 Our team logo was designed using resources from [Flaticon](https://www.flaticon.com/).
-

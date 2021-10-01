@@ -58,4 +58,3 @@ The social media manager has the authority to use Sourcegraph’s high agency va
 That said, the social media team may pause all brand channel social posts at a given moment. This practice is called “going dark” and we will use this strategy to avoid our brand flooding social media feeds during a given time.
 
 When this practice is being used, all scheduled posts will be moved to drafts. The social media manager will review drafts and assess if the social copy feels relevant, or not. Time-sensitive posts will be rescheduled first. We also have the agency to determine if a particular post will not be rescheduled. It is possible social copy may need to be updated depending on the cultural impact.
-

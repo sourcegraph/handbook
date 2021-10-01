@@ -133,4 +133,3 @@ Also see [observability](#observability).
 - [Jaeger in single-container](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:cmd/server+jaeger&patternType=literal) deployments
 
 Also see [observability](#observability).
-

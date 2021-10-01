@@ -82,4 +82,3 @@ In late 2020, after the initial validation, and using the frontend-only function
 In early 2021, seeing continued validation and opportunity, Code Insights became its own team separate from the "web team" (now 2021's Developer Insights org).
 
 In mid-2021 we made the first engineering hires to grow Code Insights to a full engineering team and bring the product to market.
-

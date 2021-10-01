@@ -103,4 +103,3 @@ This includes design work that can be done by the individual, such as business c
 - [Gifting guidelines](gifting_guidelines.md)
 - [Creative Brief template](https://docs.google.com/document/d/1iCCzdXtR8AkO2ehNS-zaDM-zgy337mYlQIvsF4cOssA/edit) (.GDOC)
 - [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
-

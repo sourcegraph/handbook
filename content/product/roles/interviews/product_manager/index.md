@@ -17,4 +17,3 @@ _Total interview time: 4.5 hours + ~1 hour project_
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
 Go back to the [careers page](https://boards.greenhouse.io/sourcegraph91) for all open positions.
-

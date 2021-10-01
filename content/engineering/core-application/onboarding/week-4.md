@@ -21,4 +21,3 @@ At the end of the week, you'll have achieved the following outcomes:
 1. You'll have sufficient knowledge to train others on Sourcegraph's architecture.
 2. You'll understand how to navigate our systems and services fluidly.
 3. You'll [leave the campground better than you found it](https://deviq.com/principles/boy-scout-rule) for the next employee.
-

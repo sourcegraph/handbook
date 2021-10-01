@@ -62,4 +62,3 @@ Questions:
   - Would you call the outcome a success?
   - What did you learn from the situation? Is there anything you wish you had done differently?
 - How do you attract, hire, and retain excellent engineers?
-

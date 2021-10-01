@@ -121,4 +121,3 @@ For candidates in need of US sponsorship that require a new visa, we will agree 
 Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
 
 Any questions? Contact the People Ops team in #people-ops on Slack or people-ops@sourcegraph.com via email!
-

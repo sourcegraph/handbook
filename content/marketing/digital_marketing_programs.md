@@ -83,4 +83,3 @@ We capture/measure the results of our paid campaigns using tags in Google Tag Ma
 
 1. Invoices are received via email from our advertising partners.
 2. We send invoices to <finance@sourcegraph.com>, and include a copy of the signed insertion order as backup for the invoice.
-

@@ -95,4 +95,3 @@ No. When using our Giveaway campaign the customer will input their size, so you 
 **Do you ship internationally?**
 
 Yes. Printfection offers international shipping to 213 countries. Learn more about it [here](https://help.printfection.com/hc/en-us/articles/201462224-International-shipping?mobile_site=true)
-

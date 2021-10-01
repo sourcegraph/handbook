@@ -77,4 +77,3 @@ Please let me know if this is something you're both willing to participate in an
 # Resources for candidates
 
 Coming soon
-

@@ -185,4 +185,3 @@ This format helps us to keep the handbook our source of truth and makes the next
 ## External contributors
 
 We invite external contributors to create and share RFCs with us. If you aren’t a Sourcegraph team member, just ask one of us (by [filing an issue](https://github.com/sourcegraph/sourcegraph/issues) or tweeting [@sourcegraph](https://twitter.com/sourcegraph)) to create a new RFC in the [RFCs Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) and give you edit access.
-

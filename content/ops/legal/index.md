@@ -77,4 +77,3 @@ Objective 5: Enable the business to make informed decisions about IP strategy
 - Help the business weigh ways to protect against patent trolls and other infringement suits
 - Keep the business informed about open source license rights and risks
 - Provide a well-managed trademark registration program
-

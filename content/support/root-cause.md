@@ -38,4 +38,3 @@ No one expects hard things to be solved over night. We just don't want to forget
 > We want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress.
 
 Again, you got this!
-

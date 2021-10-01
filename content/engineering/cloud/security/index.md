@@ -67,4 +67,3 @@ Reach out to us on #security if you have any doubts, or for any reason feel like
 ## How we work
 
 [Read about our methodology and process.](process.md)
-

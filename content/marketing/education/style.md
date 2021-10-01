@@ -112,4 +112,3 @@ In the sample above, the `print()` function is briefly explained as well as the 
 ## Code style
 
 _Coming soon_.
-

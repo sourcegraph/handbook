@@ -94,4 +94,3 @@ When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/article
 ## Interview debriefs
 
 We conduct debriefs after a candidate finishes interviews. The debrief can either take place via a private Slack channel or via a Zoom debrief meeting. Should the hiring manager decide to not need a debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate’s Greenhouse profile stating the reason and/or context for the decision.
-

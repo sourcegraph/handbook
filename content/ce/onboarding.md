@@ -105,4 +105,3 @@ Each CE is expected to receive certification. Certification means new CEs have d
 For certification, a [rubric](https://docs.google.com/spreadsheets/d/1goSKFCPSrRSxw3iVUWEryORdzail96quHcc6ZAwh1LY/edit#gid=0) exists to assess a new CE's demo competency as they onboard to Sourcegraph. Each time a new CE leads a demo session, they will be shadowed by a tenured CE. Both the shadowing CE and the CE manager (via Chorus recording) will watch the demo and fill out a demo certification rubric. This will help provide feedback and give the new CE specific areas of focus.
 
 A CE is considered "Demo Certified" when they have scored a rating of 3 on all of the core competencies by both the tenured shadow CE and the CE manager. (Scoring options include: 1 - Insufficiently Demonstrated, 2 - Partially Demonstrated, 3 - Fully Demonstrated).
-

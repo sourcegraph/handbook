@@ -71,4 +71,3 @@ The mechanics are simple.
 ---
 
 > The clean escalation process is based on LinkedIn’s clean escalation policy that Fred Kofman wrote about in [How to Escalate Disagreements Cleanly – A Coaching Conversation](https://www.linkedin.com/pulse/how-escalate-disagreements-cleanly-coaching-77-fred-kofman/). The inline video walks through an edge case to give a better insight into how this process works in practice. It is worth watching before you initiate your first clean escalation.
-

@@ -43,4 +43,3 @@ _Please note that we are not allowed to ask for pronouns during the interview pr
 - Boston Children’s Hospital - [Gender identity & pronoun use: A guide for pediatric health care professionals](https://notes.childrenshospital.org/clinicians-guide-gender-identity-pronoun-use/)
 - Conscious Style Guide - [Gender, Sex + Sexuality](https://consciousstyleguide.com/gender-sex-sexuality/)
 - Personal pronoun examples - [Pronoun Island](http://pronoun.is/)
-

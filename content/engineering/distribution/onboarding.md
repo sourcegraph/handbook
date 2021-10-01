@@ -88,4 +88,3 @@ Welcome to the distribution team! This document will guide you through distribut
 
 - Develop any new material required to help others level up and understand our product
 - Add to the teams planning and OKRs
-

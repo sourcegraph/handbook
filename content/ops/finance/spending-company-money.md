@@ -96,4 +96,3 @@ You will not need permission for choosing which co-working space you’d like to
 **Travel expenses:** please see our page on [travel budgets](../../people-ops/travel.md).
 
 Find out how to submit your expenses [here](expenses.md).
-

@@ -121,4 +121,3 @@ Having this done before day one will make it easier for the new hire and an over
 </table>
 
 For any extra context, information or suggestions, please contact Inés Roitman (@Ines)
-

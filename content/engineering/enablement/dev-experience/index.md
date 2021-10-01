@@ -46,4 +46,3 @@ We inherit Sourcegraph's [engineering principles and practices](../../principles
 ## Processes
 
 TODO
-

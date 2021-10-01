@@ -136,4 +136,3 @@ _Rationale for Blackbox Exporter_: Site24x7 has been a source of flaky alerts, o
 ### Cloudflare Analytics
 
 [Cloudflare Analytics](https://www.cloudflare.com/analytics/) is used to extract useful data about the performance of our WAF, as well as the overall traffic distribution to our instances. Note that the retention of analytics data is relatively short due to the [limits](https://developers.cloudflare.com/analytics/graphql-api/limits) on our plan. See [our Cloudflare developer guide](./cloudflare.md) for more details on how to use the analytics API.
-

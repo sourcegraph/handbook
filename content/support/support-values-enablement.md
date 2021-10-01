@@ -134,4 +134,3 @@ Sometimes things go wrong or something happens where a conversation that feels d
 - (15 minutes) Facilitator shares a scenario. Ask cohort to quietly write how they would initiate a hard conversation about it, using the guidance in the (revised) code of conduct
 - (30 minutes) Pick one or two drafts from the last section and as a group, imagine how someone might respond, and in turn, how you could respond
 - (25 minutes) Open Q&A -- anything goes; if the facilitator doesn’t know the answer, they own following up after
-

@@ -41,4 +41,3 @@ We know the above process looks like a lot, but we promise **we move quickly**! 
 ## The AE interview cookbook
 
 Interviewing an AE from the Sourcegraph side? Check out the [AE Interview Cookbook](https://docs.google.com/document/d/112zt2yaMRcl6BPmHY4nGplojZEVwKW4I-szoXu0fXPM/)!
-

@@ -55,4 +55,3 @@ Features that are specific to Sourcegraph Server and can't be tested on Sourcegr
 1. **Announce to customers they can enable the feature flag:** Let customers know that they can turn on the feature.
 1. **Enable the feature flag:** We turn on the flag by default.
 1. **Remove the feature flag:** Follow the [post-launch](#post-launch) process.
-

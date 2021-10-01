@@ -226,4 +226,3 @@ For any additional questions, please reach out to #finance and #people-ops at tr
 ## Budget Template
 
 - We have provided an easy-to-complete travel budget calculator for your next team trip. See our [Travel Budget Example](https://docs.google.com/spreadsheets/d/1az1m-V9ddhwlZ_jSHnoMtK0J4VO1Aeph0mKDNf6SsEY/edit#gid=0) for ideas when submitting requests.
-

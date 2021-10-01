@@ -31,4 +31,3 @@ Candidates are sent the following prompt after they pass the intro call:
 > What's important is that the writing is clear and easy to understand. It should show us that you _care_ about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way.
 >
 > The challenge is to explain something to a reader that doesn't have the same context as you have, just like you would in a proposal for a new feature.
-

@@ -260,4 +260,3 @@ Provide constant constructive feedback. Use the [Onboarding Feedback Milestones]
 Keep in mind that feedback is very powerful, and we should think twice before giving it. Sometimes you need to ask yourself if the feedback you are offering is about your preference or a mentorship moment. (e.g., you might love the Oxford comma. Technically, it's not required, so giving that feedback would be more about your personal preference).
 
 Finally, make them part of the conversation and their learning process.
-

@@ -98,4 +98,3 @@ Progress update on how we are tracking toward our OKR can be found [here](https:
 ## Final summary
 
 To be provided at quarter end
-

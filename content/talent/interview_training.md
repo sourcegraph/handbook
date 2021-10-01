@@ -9,4 +9,3 @@
 - [Providing feedback](./hiring/evaluating_values.md)
 
 [Resume Deep Dive training] Coming soon
-

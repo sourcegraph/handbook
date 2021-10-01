@@ -22,4 +22,3 @@ Furthermore, we put together collateral to introduce internal teams to the produ
 
 - Sourcegraph team member: Please take our [1-minute roadmap survey](https://forms.gle/iThv46xrtwFN4Qr69) to let us know what's working in the roadmap deck and what can be optimized.
 - Sourcegraph customer: Please reach out to your Account Executive for detailed information about the roadmap. If you have any product feedback for us or any feature requests, we'd love to hear from you! Please shoot us a note at feedback@sourcegraph.com.
-

@@ -52,4 +52,3 @@ Keep in mind managers may define expectations differently to fit the team, the m
 - Talk me through what you think needs attention with 1) your OKRS and 2) how well you think you’re living our values? THEN manager feedback with examples and suggestions for development
 - Are you clear on your individual expectatios and the team’s OKRs, and next steps to getting there? Is there anything that might prevent you getting there?
 - What could I be doing 10% more of to help you succeed?
-

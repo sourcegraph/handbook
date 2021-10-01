@@ -29,4 +29,3 @@ A few other details (mostly for CS):
 - An assignment is never permanent. A CSE can ask for a transition for a variety of reasons -- including they are stagnating, not being as exposed to different issue types. The best way to ensure an expedite transition is maintaining customer documentation.
 - Being assigned doesn’t mean you are expected to know everything. Say you don’t know with confidence, follow-up quickly with confidence, and that will maintain trust with the customer.
 - The CS team is welcome to adopt whatever practices we find valuable from being assigned to a wider customer audience. For example, if we see value in solving issues faster because of a certain kind of customer documentation, we can replicate that. Or, if we see value in a customer having an assigned CSE that was not requested by CE or Sales, we can make that happen, too.
-

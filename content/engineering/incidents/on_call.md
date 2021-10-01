@@ -90,4 +90,3 @@ data from.
   Sourcegraph codebase? eg p95 open connections to pgsql. Then see [adding monitoring](../observability/monitoring.md#adding-monitoring).
 - Do you need to validate a core user flow? Use
   [e2etest](https://github.com/sourcegraph/sourcegraph/blob/master/test/e2e/README.md)
-

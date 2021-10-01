@@ -144,4 +144,3 @@ As explained above, our customers are able to initiate conversations for help vi
 - **Those involved:** Marketing > Support
 - **Details:** Support team members join via personal email addresses. Marketing monitors posts a link to anything they need us to handle in the #customer-support Slack channel. Support will also create a ticket in Zendesk to track these so we get a better understanding of volume over time. Currently we join the following:
   - Gophers
-

@@ -162,4 +162,3 @@ If you think your meeting could be replaced by async work, talk to your teammate
 If you conclude that a synchronous meeting is the best solution, then remember to **_always_** have an agenda, document what was spoken about, record it, and share the recording promptly afterwards. It should be a shared responsibility of all attendees to take notes of discussion in the agenda so that people who didn’t or couldn’t attend can catch up and participate. Share the results with everyone who’s affected by or interested in this and finally record it in the proper [source of truth](../communication/index.md#sources-of-truth).
 
 **But above all, once the meeting is done, reconsider the synchronous value of it and if it could have been done asynchronously.**
-

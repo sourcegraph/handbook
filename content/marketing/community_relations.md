@@ -41,4 +41,3 @@ Playing an active role in broadening our reach in the community, building authen
 - [How to become a Sourcegraph Champion](./becoming_a_sourcegraph_champion.md)
 - [Public projects using Sourcegraph](./public_projects_using_sourcegraph.md)
 - [Adding a community landing page](./oss_community_pages.md)
-

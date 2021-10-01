@@ -84,4 +84,3 @@ Our [Frontend Platform team](https://about.sourcegraph.com/handbook/engineering/
 9. Start with issues with the `good first issue` label
 10. Chat with Virginia about your plan
 11. Let Patrick (engineering manager of the team) know which ticket you’d like to work on
-

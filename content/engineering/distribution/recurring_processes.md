@@ -115,4 +115,3 @@ At the start of your day (local time) distribution members are expected to post 
 > https://github.com/sourcegraph/sourcegraph/pull/9331 turned out much harder than I thought, it may slip this release, I could use another set of eyes on this
 
 The goal of this update is to ensure we're discussing things as a team, asking for help when appropriate, reflecting on our progress, and giving others the opportunity to provide help and guidance.
-

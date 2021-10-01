@@ -25,4 +25,3 @@ To initiate a conflict check draft and send a short email with the following inf
 > Timeframe [Standard or Urgent]
 
 Back to the [Sales](./index.md) directory.
-

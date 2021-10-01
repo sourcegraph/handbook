@@ -206,4 +206,3 @@ The CE will monitor the Customer Health dashboard and where appliable update the
 Should an AE or CE feel that an account which isn't designated as red via the health dashboard, is in fact red for any reason (eg a champion leaves, etc) they should align, and the CE should update the Salesforce Account record to red.
 
 Both the AE and CE are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
-

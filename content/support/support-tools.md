@@ -206,4 +206,3 @@ We do not use guide for our documentation, but must have it activated so custome
 - Removed search bar
 - Modified text on home page
 - Modified error messages
-

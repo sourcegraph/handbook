@@ -22,4 +22,3 @@ At the end of the week, you'll have achieved the following outcomes:
 1. You'll have Sourcegraph running in your fully-configured development environment.
 2. You'll understand the major components of Sourcegraph and how they work together at a high level.
 3. You'll know how the team organizes work, shares progress and ships code to production.
-

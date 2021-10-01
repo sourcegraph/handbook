@@ -113,4 +113,3 @@ It is okay to reach out to these prospective candidates. Do not mention their cu
 ## Policy for candidates re-applying to roles
 
 Candidates are able to re-apply for roles at any time. The hiring team will review all relevant information, including past interviews, when considering a person's candidacy.
-

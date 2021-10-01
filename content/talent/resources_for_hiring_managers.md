@@ -120,4 +120,3 @@ Even if candidates prefer to batch all their interviews together, it might not b
 If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates and the candidate's time.
 
 To schedule an interview with a candidate, please reach work with your recruiter or Slack @hiring. You can see a list of Recruiters [here](index.md#talent-team-members).
-

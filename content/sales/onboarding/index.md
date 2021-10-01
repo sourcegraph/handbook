@@ -72,4 +72,3 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 
 - [GitLab sales training](https://about.gitlab.com/handbook/sales/training/)
   - [Additional resources](https://about.gitlab.com/handbook/sales/training/additional-resources/)
-

@@ -79,4 +79,3 @@ When adding a user to Looker, they need to be in both the group and role:
 - CE, sales, product users = ‘All internal users, view and edit’
 - Any other teams not listed should default to 'View'
 - Generally, CE, sales, product, customer support and marketing receive accounts when joining the company
-

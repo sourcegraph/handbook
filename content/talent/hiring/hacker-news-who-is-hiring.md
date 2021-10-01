@@ -33,4 +33,3 @@ This is the comment that [Nick](../../company/team/index.md#nick-snyder-he-him) 
 > News about us: https://about.sourcegraph.com/news/
 >
 > Series C funding: https://about.sourcegraph.com/blog/series-c-with-sequoia/
-

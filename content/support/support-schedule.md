@@ -41,4 +41,3 @@ We list pacific hours here in support of our contractual SLAs being listed in pa
 - **Lasting adjustments** can be discussed in our weekly 1:1s.
 
 If an adjustment creates a gap in covering our SLAs, we will figure it out!
-

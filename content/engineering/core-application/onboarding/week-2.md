@@ -21,4 +21,3 @@ At the end of the week, you'll have achieved the following outcomes:
 1. You'll have worked closely with multiple team members to deliver value.
 2. You'll have gained a deeper knowledge of one of our services.
 3. You'll understand how to use Sourcegraph itself to tackle work efficiently.
-

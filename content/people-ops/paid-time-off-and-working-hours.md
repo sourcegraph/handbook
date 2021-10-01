@@ -36,4 +36,3 @@ If you need extended time that will impact your ability to deliver your work or 
 When you’ve decided how to take your paid time off, capture the paid time off in Roots and select the appropriate category. This will update your availability in Slack and Google Calendar. Please update your availability across all other channels including Google Mail and let any relevant stakeholders know you won’t be available. We want to capture your time off in Roots so we can stay compliant with countries where we’re required to track paid time off, but more importantly, so we can measure if our paid time off offering is effective at the company level and across all teams and departments.
 
 Questions and/or unusual situations can be directed to the People Ops team, either via email (people-ops@sourcegraph.com) or Slack (#people-ops), who are happy to provide guidance!
-

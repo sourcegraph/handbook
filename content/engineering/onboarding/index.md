@@ -39,4 +39,3 @@ Your manager should complete the following steps when you join:
 
   - [Site24x7](https://www.site24x7.com) (optional; recommended for Distribution team members)
   - [HoneyComb.io](https://www.honeycomb.io/)
-

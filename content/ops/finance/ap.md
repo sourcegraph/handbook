@@ -143,4 +143,3 @@ For hourly-based contracts, such as with a third-party contractor, please notify
 ##### Managing Conflicts of Interest
 
 Any actual, potential or perceived conflict of interest that has the potential to unfairly affect or influence the proper outcome of the procurement process, must be identified and documented in the purchase order requisition.
-

@@ -95,4 +95,3 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Finance & Accounting](ops/finance/index.md)
 - [Legal](ops/legal/index.md)
 - [Tech Ops](ops/tech-ops/index.md)
-

@@ -28,4 +28,3 @@ In support of our product/engineering Q2 objective to _provide a solid organizat
 
 ##Final summary
 We maintained 100% support issue resolution in 6 days while only requiring help (filing a #rfh Github issue) on 20% overall and 13% as measured in July only ... as a result of the work done above!
-

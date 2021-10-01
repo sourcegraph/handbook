@@ -118,4 +118,3 @@ Notify the next [release captain](./index.md#release-captain) that they are on d
 - [ ] Close this issue.
 
 **Note:** If a patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.1%3A+) be filled out and approved first.
-

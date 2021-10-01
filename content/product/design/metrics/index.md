@@ -36,4 +36,3 @@ Google Analytics access can be provided by #it-tech-ops
 ## Defining events
 
 Sourcegraph events are typically defined by product designers in design files. See the [defining metrics](./defining-metrics.md) page for more information.
-

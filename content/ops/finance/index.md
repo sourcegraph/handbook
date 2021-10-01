@@ -127,4 +127,3 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 ### Fixed Assets
 
 - [Fixed Asset Policy](https://docs.google.com/document/d/155anVJgInRempR92LiiOwOIf2JJB5jj3b9ktrp8nznY/edit)
-

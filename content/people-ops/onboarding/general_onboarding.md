@@ -74,4 +74,3 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
 - Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../../company/remote/teammate-recommended_productivity_hacks.md).
 
 Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
-
