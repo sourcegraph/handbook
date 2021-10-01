@@ -50,7 +50,9 @@ $ kubectl describe pod sourcegraph-frontend-XXX-XXXX
 ```
 
 (Note: to the exact name of the pod you can either use tab autocomplete with kubectl, assuming it has been enabled, or do a kubectl get pods to get the name of any frontend pod)
-![output](carbon.svg 'Describe output')
+
+<!-- TODO: add back screenshot. This file was automatically removed during the handbook migration because it was very large. -->
+<!-- ![output](carbon.svg 'Describe output') -->
 
 This contains information on the current state of all containers currently running on the pod.
 
