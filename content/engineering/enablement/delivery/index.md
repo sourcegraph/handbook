@@ -8,8 +8,6 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Members
 
-<!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-
 - [Dan Mckeen](../../../company/team/index.md#dan-mckeen-he-him) (acting [Product Manager](../../../product/roles/index.md#product-manager))
 - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
   - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)

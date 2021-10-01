@@ -10,8 +10,6 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ## Members
 
-<!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-
 - [Dan Mckeen](../../../company/team/index.md#dan-mckeen-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
   - [Alan Harris](../../../company/team/index.md#alan-harris)

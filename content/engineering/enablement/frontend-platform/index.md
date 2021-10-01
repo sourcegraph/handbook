@@ -4,8 +4,6 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Members
 
-<!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../../../engineering/roles.md#engineering-manager)) {#frontend-platform-eng}
   - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)

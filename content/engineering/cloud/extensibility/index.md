@@ -4,8 +4,6 @@ The extensibility team owns our code host and third-party integrations (includin
 
 ## Members
 
-<!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-
 - [Sara Lee](../../../company/team/index.md#sara-lee-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Murat Sutunc](../../../company/team/index.md#murat-sutunc-he-him) ([Engineering Manager](../../roles.md#engineering-manager)) {#extensibility-eng}
   - [TJ Kandala](../../../company/team/index.md#tharuntej-kandala-he-him)

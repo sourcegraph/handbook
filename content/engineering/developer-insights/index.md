@@ -14,8 +14,6 @@ Bring Sourcegraph’s insights into your codebase ([Code Intel](../code-graph/co
 
 ## Members
 
-<!-- Due to the markdown renderer that we use, the indentation here is sensitive. If you want to change the indentation, check that it renders correctly locally with `make serve` -->
-
 - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](../roles.md#director-of-engineering))
   - [Frontend platform](../enablement/frontend-platform/index.md)
     - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
