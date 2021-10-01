@@ -62,7 +62,7 @@ Here are some key ways to contact us:
 - On GitHub, mention or assign issues to the [@sourcegraph/code-intel](https://github.com/orgs/sourcegraph/teams/code-intel) team.
 - On GitHub, view our [backlog](https://github.com/orgs/sourcegraph/projects/100) of work.
 - On GitHub, view our [current iteration](https://github.com/orgs/sourcegraph/projects/101).
-- On Slack, use the [#code-intel](https://app.slack.com/client/T02FSM7DL/CHXHX7XAS) channel.
+- On Slack, use the #code-intel channel.
 - On Google Drive, we use the [Code Intel](https://drive.google.com/drive/folders/1YF237FV_4fAeIS4D5aH9bxexft_bh16r) directory.
 
 ## Team process

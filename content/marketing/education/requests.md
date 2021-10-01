@@ -6,7 +6,7 @@ We welcome requests and collaboration across teams.
 
 If you have an idea for educational content, and it is ok for that request to live publicly, please [file an issue on our repo](https://github.com/sourcegraph/learn/issues/new?assignees=&labels=&template=educational-content.md&title=Content).
 
-If you would like to submit an idea internally, please fill out a document, as below, and share it with us in the [#developer-education](https://app.slack.com/client/T02FSM7DL/C026GJE9DDX?cdn_fallback=1) Slack channel.
+If you would like to submit an idea internally, please fill out a document, as below, and share it with us in the #developer-education Slack channel.
 
 ## Internal educational content request format
 

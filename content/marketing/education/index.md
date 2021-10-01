@@ -22,6 +22,6 @@ The Developer Education team is dedicated to Sourcegraph’s long-term mission o
 
 ## Get in touch
 
-Summon us with @dev-ed on Slack, chat with us in the [#developer-education](https://app.slack.com/client/T02FSM7DL/C026GJE9DDX/user_groups/S023NTWTTEX) channel, or follow the Learn platform progress in [#sourcegraph-learn](https://app.slack.com/client/T02FSM7DL/C02173Y7JGH/user_groups/S023NTWTTEX).
+Summon us with @dev-ed on Slack, chat with us in the #developer-education channel, or follow the Learn platform progress in #sourcegraph-learn.
 
 If you have an idea for educational content, please [file an issue on our repo](https://github.com/sourcegraph/learn/issues/new?assignees=&labels=&template=educational-content.md&title=Content). For more details on requests, contributing, or filing a bug report, see [Developer Education requests](requests.md).
