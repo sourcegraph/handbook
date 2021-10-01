@@ -2,7 +2,7 @@
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/d30dc796396b45bc97a12e9cf4377924" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-### Steps: 
+### Steps:
 
 1. Accept GitHub's email invite to the Sourcegraph org (you should be a member of [the `Everyone` group](https://github.com/orgs/sourcegraph/teams/everyone) in Sourcegraph's GitHub organization).
 1. Go to the bottom right of this page and click "Edit this page."

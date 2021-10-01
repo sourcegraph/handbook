@@ -10,17 +10,14 @@ The Handbook deployment process runs fairly quickly, and your changes are deploy
 
 You can [clear your cache](https://support.google.com/accounts/answer/32050?hl=en&co=GENIE.Platform%3DDesktop), try viewing your page in an [incognito window](https://support.google.com/chrome/answer/95464?hl=en&co=GENIE.Platform%3DDesktop), or ask a teammate if they can see your changes if you’re still not seeing them after a few hours.
 
-
 ## Why do I need to keep updating my branch?
 
 You may see the following message:
 
+- Your branch is out-of-date with the base branch.
 
-
-* Your branch is out-of-date with the base branch.
-
-![Branch is Out of Date](https://storage.googleapis.com/sourcegraph-assets/branch-out-of-date.png) 
+![Branch is Out of Date](https://storage.googleapis.com/sourcegraph-assets/branch-out-of-date.png)
 
 This means someone else has made changes on the main branch that you need to pull into your branch to move forward. If you were to merge your branch as is, your changes could conflict with the changes made by another teammate. Clicking “Update branch” will trigger Handbook Checks to run again, and you can then merge your changes.
 
-The best way to avoid this is to merge your changes often. Sometimes on commonly edited pages (like the [Team page}(RELATIVE PATH)), this is hard to avoid. 
+The best way to avoid this is to merge your changes often. Sometimes on commonly edited pages (like the [Team page}(RELATIVE PATH)), this is hard to avoid.

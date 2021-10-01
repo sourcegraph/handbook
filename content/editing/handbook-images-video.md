@@ -1,30 +1,22 @@
 ## Adding Images or Video to the Handbook
 
-
 ## Images
-
 
 ### Adding Images to Google Cloud Storage
 
-
-
-1. View the [sourcegraph-assets bucket](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true_) 
-    * If you don’t have permission to view the contents of this link, ask the team in #it-tech-ops for Google Cloud Storage permissions to add images to the Handbook.
+1. View the [sourcegraph-assets bucket](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true_)
+   - If you don’t have permission to view the contents of this link, ask the team in #it-tech-ops for Google Cloud Storage permissions to add images to the Handbook.
 2. Make sure your file has a unique name that clearly describes the image or video. There are lots of files in Google Cloud Storage, and you want to be able to identify yours easily.
 3. Navigate to the handbook/ folder found in the link in step 1. You can scroll through the list or search.
 4. Click “Upload Files” to select your file, and click “Open”.
 
-
 ### Adding Images from Google Cloud Storage to the Handbook
 
-
-
 1. In Google Cloud Storage, copy the URL for the image you want to include.
-    * You can do this by clicking the file name to see more details, then copying the “Public URL”.
+   - You can do this by clicking the file name to see more details, then copying the “Public URL”.
 2. To insert your image into the Handbook, follow this format:
-    * `![Alt Text](Image URL)`
+   - `![Alt Text](Image URL)`
 3. Finish editing and [merge your changes as normal](edit-a-single-file.md).
-
 
 ## Videos
 

@@ -19,18 +19,21 @@ We don't expect everyone on the team to figure this out on their own. Other team
    <iframe src="https://drive.google.com/file/d/1SU0ACCm0dJZAK-OWxBqFeJvzvuwveZUT/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Basics
-   - [Github Basics](../people-ops/onboarding/git_intro.md)
-   - [Markdown Tips & Resources](markdown-resources.md)
-   - [Reviewing & Approving Another Peron's Proposal](reviewing-a-proposal.md)
-   - [Announcing Important Updates](announcing-handbook-updates.md)
+
+- [Github Basics](../people-ops/onboarding/git_intro.md)
+- [Markdown Tips & Resources](markdown-resources.md)
+- [Reviewing & Approving Another Peron's Proposal](reviewing-a-proposal.md)
+- [Announcing Important Updates](announcing-handbook-updates.md)
 
 ## Editing
+
 ![Editing the Handbook Flow](https://storage.googleapis.com/sourcegraph-assets/handbook/Editing%20the%20Handbook.jpg)
+
 - [Editing a Single File](edit-a-single-file.md)
 - [Adding Yourself to the Team Page](add-yourself-to-team-page.md)
 - [Editing Multiple Files in a Single Pull Request](multiple-changes-single-pr.md)
-   - [Creating a New Page](adding-new-files.md)
-   - [Making Additional Edits After Creating a Pull Request](changes-after-pr.md)
+  - [Creating a New Page](adding-new-files.md)
+  - [Making Additional Edits After Creating a Pull Request](changes-after-pr.md)
 - [Adding Images or Video](handbook-images-video.md)
 - [Linking Within the Handbook](linking-within-handbook.md)
 - [Moving a Page](move-a-page.md)

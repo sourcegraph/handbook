@@ -10,7 +10,7 @@ A screen recording of how to make multiple changes in a single PR in the web int
 
 ### Steps:
 
-*This is just one path for making multiple changes in a single PR in the Handbook. These steps can be completed in a different order, or outside of the Github web interface.*
+_This is just one path for making multiple changes in a single PR in the Handbook. These steps can be completed in a different order, or outside of the Github web interface._
 
 1. Visit the first handbook page you want to edit on about.sourcegraph.com.
 1. Press the **Edit this page** button in the sidebar.

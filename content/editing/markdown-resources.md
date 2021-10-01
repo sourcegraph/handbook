@@ -1,6 +1,5 @@
 # Markdown Tips & Resources
 
-
 ## What is Markdown?
 
 Markdown is a text markup language to allow plain text to convert to styled text using common conventions, such as _italics_ or ~~strikethrough~~. It’s just a shortcut to edit text (bolding, italicizing, underlining, etc.) without having to click the buttons on a toolbar. We use Markdown to [edit the Sourcegraph Handbook](editing.md).

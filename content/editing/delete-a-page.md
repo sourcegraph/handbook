@@ -1,4 +1,4 @@
-# Deleting a Page 
+# Deleting a Page
 
 ### GitHub Web Interface
 
