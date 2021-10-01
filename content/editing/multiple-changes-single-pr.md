@@ -2,7 +2,7 @@
 
 To make edits to multiple files and submit all of the edits as a group to be reviewed together, you will follow a more complex process than when editing a single file. This also is required for [adding new files](adding-new-files.md).
 
-> NOTE: These steps are not exhaustively documented. Please [ask for help](editing.md#how-to-get-help) as many times as you need to until you feel comfortable with this process.
+> NOTE: These steps are not exhaustively documented. Please [ask for help](../editing.md#how-to-get-help) as many times as you need to until you feel comfortable with this process.
 
 A screen recording of how to make multiple changes in a single PR in the web interface for GitHub:
 

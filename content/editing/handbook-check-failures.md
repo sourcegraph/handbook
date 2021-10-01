@@ -12,7 +12,7 @@ These "checks" are automated formatting and structural rules that run on your ne
 
 Ideally, you won't merge your pull request unless all checks have passed and are "green."
 
-If you see any red failed checks then you can click “Details” to see the error that caused the check to fail. ([example page with red X build](https://github.com/sourcegraph/about/pull/3564); [example details page](<[https://github.com/sourcegraph/about/runs/2976049292](https://github.com/sourcegraph/about/runs/2976049292)>)). You’ll see something like this:
+If you see any red failed checks then you can click “Details” to see the error that caused the check to fail. You’ll see something like this:
 
 ![Handbook Check Failure Example](https://storage.googleapis.com/sourcegraph-assets/handbook/relocate-page-errors.png)
 

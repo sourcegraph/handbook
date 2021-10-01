@@ -20,30 +20,30 @@ We don't expect everyone on the team to figure this out on their own. Other team
 
 ## Basics
 
-- [Github Basics](../people-ops/onboarding/git_intro.md)
-- [Markdown Tips & Resources](markdown-resources.md)
-- [Reviewing & Approving Another Peron's Proposal](reviewing-a-proposal.md)
-- [Announcing Important Updates](announcing-handbook-updates.md)
+- [Github Basics](people-ops/onboarding/git_intro.md)
+- [Markdown Tips & Resources](editing/markdown-resources.md)
+- [Reviewing & Approving Another Peron's Proposal](editing/reviewing-a-proposal.md)
+- [Announcing Important Updates](editing/announcing-handbook-updates.md)
 
 ## Editing
 
 ![Editing the Handbook Flow](https://storage.googleapis.com/sourcegraph-assets/handbook/Editing%20the%20Handbook.jpg)
 
-- [Editing a Single File](edit-a-single-file.md)
-- [Adding Yourself to the Team Page](add-yourself-to-team-page.md)
-- [Editing Multiple Files in a Single Pull Request](multiple-changes-single-pr.md)
-  - [Creating a New Page](adding-new-files.md)
-  - [Making Additional Edits After Creating a Pull Request](changes-after-pr.md)
-- [Adding Images or Video](handbook-images-video.md)
-- [Linking Within the Handbook](linking-within-handbook.md)
-- [Moving a Page](move-a-page.md)
-- [Delete a Page](delete-a-page.md)
+- [Editing a Single File](editing/edit-a-single-file.md)
+- [Adding Yourself to the Team Page](editing/editing/add-yourself-to-team-page.md)
+- [Editing Multiple Files in a Single Pull Request](editing/multiple-changes-single-pr.md)
+  - [Creating a New Page](editing/adding-new-files.md)
+  - [Making Additional Edits After Creating a Pull Request](editing/changes-after-pr.md)
+- [Adding Images or Video](editing/handbook-images-video.md)
+- [Linking Within the Handbook](editing/linking-within-handbook.md)
+- [Moving a Page](editing/move-a-page.md)
+- [Delete a Page](editing/delete-a-page.md)
 
 ## Troubleshooting & Tools
 
-- [Handbook Check Failures](handbook-check-failures.md)
-- [Running a Local Preview](run-a-local-preview.md)
-- [Handbook Editing FAQs](handbook-edit-faqs.md)
+- [Handbook Check Failures](editing/handbook-check-failures.md)
+- [Running a Local Preview](editing/run-a-local-preview.md)
+- [Handbook Editing FAQs](editing/handbook-edit-faqs.md)
 
 ## Handbook feedback
 

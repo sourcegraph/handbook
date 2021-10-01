@@ -10,9 +10,9 @@ If you just need to edit a single page, you can do it entirely on the web.
 
 1. Visit the handbook page you want to edit on handbook.sourcegraph.com.
 1. Press the **Edit this page on GitHub** button in the sidebar.
-   - If you don't see it, you may be viewing a page on about.sourcegraph.com that is not part of the handbook. Handbook pages all have the same design as the [main handbook page](../index.md). If it has a different design, [ask for help](editing.md#how-to-get-help).
+   - If you don't see it, you may be viewing a page on about.sourcegraph.com that is not part of the handbook. Handbook pages all have the same design as the [main handbook page](../index.md). If it has a different design, [ask for help](../editing.md#how-to-get-help).
 1. In the text editor, make your edits.
-   - The document is in a format called Markdown that lets you use headings, links, bold, lists, etc., in a plain text file. See [Markdown Tips & Tricks](markdown-resources.md) and feel free to [ask for help](editing.md#how-to-get-help).
+   - The document is in a format called Markdown that lets you use headings, links, bold, lists, etc., in a plain text file. See [Markdown Tips & Tricks](markdown-resources.md) and feel free to [ask for help](../editing.md#how-to-get-help).
 1. Switch back and forth to the **Preview changes** tab at the top of the editor to see the nicely rendered page with your edits applied.
    - Deletions are shown in red, changes are shown in orange, and additions are shown in green.
 1. When you're happy with your edits, scroll to the bottom of the page to the **Commit changes** box.
