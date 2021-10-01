@@ -111,6 +111,7 @@ async function getGitHubCommitData(pagePath: string): Promise<{ lastUpdated: str
     const commitData = (await response.json()) as GitHubCommitData[]
 
     if (!commitData || response.status !== 200) {
+        console.error('Erro fetching contributors from GitHub', commitData)
         return null
     }
 
