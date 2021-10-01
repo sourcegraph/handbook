@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next'
 
-import { getPagesBySlug } from '../lib/api'
+import { getPageBySlugPath } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
@@ -13,7 +13,7 @@ import Page, { PageProps } from './[...slug]'
  */
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
     // This resolves to `index.md` in the root of the content directory.
-    const page = await getPagesBySlug('/')
+    const page = await getPageBySlugPath('/')
 
     const { content, title, toc } = await markdownToHtml(page.body || '', '', true)
 

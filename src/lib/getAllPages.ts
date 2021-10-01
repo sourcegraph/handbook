@@ -1,6 +1,6 @@
 import globby from 'globby'
 
-function markdownFilePathToPagePath(markdownFilePath: string): string {
+function markdownFilePathToSlugPath(markdownFilePath: string): string {
     if (markdownFilePath.endsWith('/index.md')) {
         return markdownFilePath.replace(/\/index.md$/, '')
     }
@@ -10,10 +10,10 @@ function markdownFilePathToPagePath(markdownFilePath: string): string {
 
 export default async function getAllPages(
     baseDirectory: string
-): Promise<{ markdownFilePath: string; pagePath: string }[]> {
+): Promise<{ markdownFilePath: string; slugPath: string }[]> {
     const files = await globby('**/*.md', { cwd: baseDirectory })
     return files.map(file => ({
         markdownFilePath: file,
-        pagePath: markdownFilePathToPagePath(file),
+        slugPath: markdownFilePathToSlugPath(file),
     }))
 }

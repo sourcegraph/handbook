@@ -27,12 +27,12 @@ export interface ParsedPage extends LoadedPage {
 
 const pagesDirectory = join(process.cwd(), CONTENT_FOLDER)
 
-export async function getPagesSlug(): Promise<string[]> {
+export async function getAllPageSlugPaths(): Promise<string[]> {
     const allPages = await getAllPages(pagesDirectory)
-    return allPages.map(page => page.pagePath)
+    return allPages.map(page => page.slugPath)
 }
 
-async function loadFileBySlug(slug: string): Promise<LoadedPage> {
+async function loadFileBySlugPath(slug: string): Promise<LoadedPage> {
     const relativePathForIndexPage = join(slug, 'index.md')
     const fullPathForIndexPage = join(pagesDirectory, relativePathForIndexPage)
     try {
@@ -56,16 +56,16 @@ async function loadFileBySlug(slug: string): Promise<LoadedPage> {
     }
 }
 
-export async function getPagesBySlug(slug: string, fields: string[] = []): Promise<LoadedPage> {
-    const page = await loadFileBySlug(slug)
+export async function getPageBySlugPath(slug: string, fields: string[] = []): Promise<LoadedPage> {
+    const page = await loadFileBySlugPath(slug)
     const { data, content } = matter(page.body)
 
     return { ...page, frontMatter: data, body: content }
 }
 
 export async function loadAllPages(fields: string[] = []): Promise<LoadedPage[]> {
-    const slugs = await getPagesSlug()
-    const pages = slugs.map(slug => getPagesBySlug(slug, fields))
+    const slugs = await getAllPageSlugPaths()
+    const pages = slugs.map(slug => getPageBySlugPath(slug, fields))
     // sort pages by date in descending order
     // .sort((page1, page2) => (page1.date > page2.date ? -1 : 1))
     return Promise.all(pages)

@@ -7,7 +7,7 @@ import React from 'react'
 
 import EditSection from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
-import { getPagesBySlug, loadAllPages, LoadedPage } from '../lib/api'
+import { getPageBySlugPath, loadAllPages, LoadedPage } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
@@ -18,6 +18,20 @@ export interface Author {
     url: string
 }
 
+interface GitHubCommitData {
+    commit: {
+        author: {
+            name: string
+            date: string
+        }
+    }
+    author: {
+        login: string
+        avatar_url: string
+        html_url: string
+    }
+}
+
 export interface PageWithMetadata extends LoadedPage {
     title?: string
     toc: Toc
@@ -25,7 +39,7 @@ export interface PageWithMetadata extends LoadedPage {
     /** Rendered HTML. */
     content: string
     authors?: Author[]
-    lastUpdated: string
+    lastUpdated?: string
 }
 
 export interface PageProps {
@@ -90,52 +104,43 @@ function getFullSlugPath(slug: string | string[]): string {
     return slug.join('/')
 }
 
+async function getGitHubCommitData(pagePath: string): Promise<{ lastUpdated: string; authors: Author[] } | null> {
+    const response = await fetch(`https://api.github.com/repos/sourcegraph/handbook/commits?path=content/${pagePath}`)
+    const commitData = (await response.json()) as GitHubCommitData[]
+
+    if (!commitData || response.status !== 200) {
+        return null
+    }
+
+    console.log('commitData', commitData)
+
+    return {
+        // GitHub returns most recent commit first, so just grab the first date
+        lastUpdated: commitData?.[0]?.commit?.author?.date,
+        authors: commitData
+            ?.filter(
+                // filter for unique authors
+                (data, index, self) => index === self.findIndex(({ author }) => author.login === data.author.login)
+            )
+            .map(
+                ({ commit, author }): Author => ({
+                    name: commit.author.name,
+                    username: author.login,
+                    avatar: author.avatar_url,
+                    url: author.html_url,
+                })
+            ),
+    }
+}
+
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
     if (!params || !params.slug) {
         throw new Error('Missing slug')
     }
 
     const fullPath = getFullSlugPath(params.slug)
-    const page = await getPagesBySlug(fullPath, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage'])
-    let lastUpdated = ''
-    const authors = await fetch(
-        `https://api.github.com/repos/sourcegraph/handbook/commits?path=content/${page.path}`
-    ).then(async response => {
-        interface GitHubCommitData {
-            commit: {
-                author: {
-                    name: string
-                    date: string
-                }
-            }
-            author: {
-                login: string
-                avatar_url: string
-                html_url: string
-            }
-        }
-
-        const commitData = (await response.json()) as GitHubCommitData[]
-
-        // GitHub returns most recent commit first, so just grab the first date
-        lastUpdated = commitData[0].commit.author.date
-
-        return (
-            commitData
-                // filter for unique authors
-                .filter(
-                    (data, index, self) => index === self.findIndex(({ author }) => author.login === data.author.login)
-                )
-                .map(
-                    ({ commit, author }): Author => ({
-                        name: commit.author.name,
-                        username: author.login,
-                        avatar: author.avatar_url,
-                        url: author.html_url,
-                    })
-                )
-        )
-    })
+    const page = await getPageBySlugPath(fullPath)
+    const commitData = await getGitHubCommitData(fullPath)
 
     const { content, title, toc } = await markdownToHtml(page.body || '', fullPath, page.isIndexPage)
 
@@ -146,8 +151,8 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
                 title,
                 content,
                 toc,
-                authors,
-                lastUpdated,
+                authors: commitData?.authors,
+                lastUpdated: commitData?.lastUpdated,
             },
         }),
     }

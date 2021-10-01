@@ -12,7 +12,7 @@ interface EditSectionProps {
 
 const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
     const LastUpdated: React.FunctionComponent = () =>
-        (page.lastUpdated !== '' && (
+        (page.lastUpdated && (
             <div>
                 Updated {formatDistanceToNow(new Date(page.lastUpdated))} ago •{' '}
                 <Link href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.slug}.md`}>
@@ -33,7 +33,7 @@ const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
             <section className="edit-section">
                 <LastUpdated />
 
-                {page.lastUpdated !== '' && <hr className="edit-seperator" />}
+                {page.lastUpdated && <hr className="edit-seperator" />}
 
                 <EditOnGithub />
             </section>
