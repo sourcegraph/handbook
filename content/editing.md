@@ -30,7 +30,7 @@ We don't expect everyone on the team to figure this out on their own. Other team
 ![Editing the Handbook Flow](https://storage.googleapis.com/sourcegraph-assets/handbook/Editing%20the%20Handbook.jpg)
 
 - [Editing a Single File](editing/edit-a-single-file.md)
-- [Adding Yourself to the Team Page](editing/editing/add-yourself-to-team-page.md)
+- [Adding Yourself to the Team Page](editing/add-yourself-to-team-page.md)
 - [Editing Multiple Files in a Single Pull Request](editing/multiple-changes-single-pr.md)
   - [Creating a New Page](editing/adding-new-files.md)
   - [Making Additional Edits After Creating a Pull Request](editing/changes-after-pr.md)

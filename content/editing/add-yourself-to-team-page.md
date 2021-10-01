@@ -15,7 +15,7 @@
 ## Full Name (pronouns)
 
 - Role(s)
-- City, region, country, country flag emoji (optional: add yourself to [the team locations map](locations.md)!)
+- City, region, country, country flag emoji (optional: add yourself to [the team locations map](../company/team/locations.md)!)
 - GitHub: username
 - [you@sourcegraph.com](mailto:you@sourcegraph.com), other social media links (if any)
 - Name pronunciation (record an audio file from your phone [here](https://www.name-coach.com/))
