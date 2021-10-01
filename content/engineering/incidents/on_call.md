@@ -53,10 +53,13 @@ It is recommended to import the schedule into your calendar.
 
 To import to Google Calendar:
 
-- Copy the webcal url from OpsGenie:
-  ![copy-schedule-link.gif](copy-schedule-link.gif)
-- Add calendar from URL
-  ![gcal.gif](gcal.gif)
+1. Copy the webcal url from OpsGenie:
+
+   <video autoplay muted loop playsinline src="https://sourcegraphstatic.com/handbook/engineering/on_call/copy-schedule-link.mp4" width="1038" height="266"></video>
+
+2. Add calendar from URL:
+
+   <video autoplay muted loop playsinline src="https://sourcegraphstatic.com/handbook/engineering/on_call/gcal.mp4" width="1440" height="900"></video>
 
 ## Resources
 
