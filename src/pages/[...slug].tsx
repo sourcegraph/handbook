@@ -107,7 +107,12 @@ function getFullSlugPath(slug: string | string[]): string {
 }
 
 async function getGitHubCommitData(pagePath: string): Promise<{ lastUpdated: string; authors: Author[] } | null> {
-    const response = await fetch(`https://api.github.com/repos/sourcegraph/handbook/commits?path=content/${pagePath}`)
+    if (!process.env.GITHUB_TOKEN) {
+        console.warn('No GITHUB_TOKEN env var set, performing unauthenticated API request')
+    }
+    const response = await fetch(`https://api.github.com/repos/sourcegraph/handbook/commits?path=content/${pagePath}`, {
+        headers: process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {},
+    })
     const commitData = (await response.json()) as GitHubCommitData[]
 
     if (!commitData || response.status !== 200) {
