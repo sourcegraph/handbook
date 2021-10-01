@@ -41,17 +41,10 @@ export default function Index({ allPages, tree }: IndexProps): JSX.Element {
     return (
         <div className="container">
             <section id="content">
-                <h2>Debug: list of all pages:</h2>
-                {/* <ul>
-                    {allPages.map(page => (
-                        <li key={page.slug}>
-                            <a href={`/${page.slug}`}>
-                                {page.title ?? `Untitled (${page.slug})`} {page.isIndexPage && '(index.md)'}
-                            </a>
-                        </li>
-                    ))}
-                </ul> */}
-                <h2>Debug: Tree view</h2>
+                <h1>Handbook Dashboard</h1>
+                <h2>Statistics</h2>
+                <p>The handbook contains {allPages.length} pages.</p>
+                <h2>Tree view</h2>
                 <ul>
                     <DirectoryItem node={tree} />
                 </ul>
