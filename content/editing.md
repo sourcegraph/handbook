@@ -2,7 +2,7 @@
 
 Every Sourcegraph teammate will be editing the Sourcegraph handbook frequently to keep information up-to-date and participate in important changes in the company. This guide helps everyone learn how to edit the handbook.
 
-The handbook consists of Markdown files in the Git repository at [github.com/sourcegraph/about](https://github.com/sourcegraph/about). ([Why not a wiki or Google Docs?](usage.md#wiki-and-google-docs-handbooks-become-stale))
+The handbook consists of Markdown files in the Git repository at [github.com/sourcegraph/handbook](https://github.com/sourcegraph/handbook/tree/main/content). ([Why not a wiki or Google Docs?](usage.md#wiki-and-google-docs-handbooks-become-stale))
 
 ## How to get help
 
@@ -30,7 +30,8 @@ Here's the process for getting a change published to the handbook. For detailed 
 1. Wait for the necessary teammates to review and approve your pull request.
 1. Merge the pull request.
    - If you forget to merge your pull request, you'll be reminded about it after 14 days of inactivity on that pull request. If the pull request sees another 7 days of inactivity, it will be automatically closed.
-1. Wait up to 5 minutes for your change to be live on about.sourcegraph.com.
+1. Wait up to 5 minutes for your change to be live on handbook.sourcegraph.com.<br>
+   Live deployment status: [![Netlify Status](https://api.netlify.com/api/v1/badges/4c81a998-33b5-4357-a593-479e21bb10f3/deploy-status)](https://app.netlify.com/sites/sourcegraph-handbook/deploys)
 1. Use the #handbook-announce label to notify other people of important handbook updates on the #handbook-announce Slack channel.
 
 **Is this your first time using GitHub? Do you not feel confortable editing the handbook?** Visit [this handbook page](editing/first-steps-to-edit-handbook.md) to read about basic concepts and steps.
