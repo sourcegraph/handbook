@@ -30,7 +30,7 @@ We choose to start our process top-down with a [direction document](#direction-d
 
 Failure modes to avoid:
 
-* Orgs and teams accept direction and OKR drafts as given instead of a starting point for discussion. This failure mode is the equivalent of a top-down planning process with no round-trip.
+- Orgs and teams accept direction and OKR drafts as given instead of a starting point for discussion. This failure mode is the equivalent of a top-down planning process with no round-trip.
 
 ### Accounting for non-customer facing engineering work
 
@@ -40,9 +40,8 @@ This means that engineering doesn't need an explict KR to justify investment wor
 
 Failure modes to avoid:
 
-* Engineering works on investments that aren't actually going to help us move faster toward short and long term goals.
-* Engineering doesn't proactively reserve time to work on necessary technical investments and our ability to deliver product improvements decreases over time.
-
+- Engineering works on investments that aren't actually going to help us move faster toward short and long term goals.
+- Engineering doesn't proactively reserve time to work on necessary technical investments and our ability to deliver product improvements decreases over time.
 
 ## Process
 
