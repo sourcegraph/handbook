@@ -112,8 +112,6 @@ async function getGitHubCommitData(pagePath: string): Promise<{ lastUpdated: str
         return null
     }
 
-    console.log('commitData', commitData)
-
     return {
         // GitHub returns most recent commit first, so just grab the first date
         lastUpdated: commitData?.[0]?.commit?.author?.date,
