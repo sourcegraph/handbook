@@ -13,18 +13,23 @@ param (
 $limit = 100KB
 
 $repo = Find-GitRepository
+$base = Get-GitCommit $BaseRef
 
 $largeChanges =
   # Get all commits between HEAD and the base ref
-  Get-GitCommit -Until $BaseRef |
+  Get-GitCommit -Since HEAD -Until $base.Sha |
   # Compare commit to the parent
-  ForEach-Object { Compare-GitTree -ReferenceRevision $_.Parents[0].Id -DifferenceRevision $_.Id } |
+  ForEach-Object { Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -First 1).Sha -DifferenceRevision $_.Sha } |
   # Flatten changes collection
   ForEach-Object { $_ } |
   # Ignore deleted files and files outside the content/ folder
   Where-Object { $_.Status -ne 'Deleted' -and $_.Path -like 'content/*' } |
   # Filter for binary blobs larger than the limit
-  Where-Object { $blob = $repo.Lookup($_.Oid); $blob.Size -gt $limit -and $blob.IsBinary }
+  Where-Object {
+    $blob = $repo.Lookup($_.Oid)
+    Write-Information "$($_.Path) $($blob.Size) $($_.IsBinary)"
+    $blob.Size -gt $limit -and $blob.IsBinary
+  }
 
 if ($largeChanges) {
   $existingComment = $repo | Get-GitHubComment -Number $PullRequestNumber | Where-Object { $_.User.type -eq 'Bot' -and $_.Body -match 'large binary files' } | Select-Object -First 1
