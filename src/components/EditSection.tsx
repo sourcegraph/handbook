@@ -1,5 +1,4 @@
 import { formatDistanceToNow } from 'date-fns'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -52,7 +51,7 @@ const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
                     <Link key={author.username} href={author.url}>
                         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <a className="avatar" title={author.name} target="_blank" rel="noreferrer noopener">
-                            <Image alt={`Avatar of ${author.name}`} src={author.avatar} width="36" height="36" />
+                            <img alt={`Avatar of ${author.name}`} src={author.avatar} width="36" height="36" />
                         </a>
                     </Link>
                 ))}
