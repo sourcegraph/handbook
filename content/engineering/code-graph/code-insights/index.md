@@ -2,7 +2,7 @@
 
 The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
 
-<img src="./screenshot.svg" alt="Screenshot of a code insights dashboard with graphs" width="1141" height="391" style="width: 100%; height: auto" />
+<img src="https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/code_insights/screenshot.svg" alt="Screenshot of a code insights dashboard with graphs" width="1141" height="391" style="width: 100%; height: auto" />
 
 ## Pages
 
