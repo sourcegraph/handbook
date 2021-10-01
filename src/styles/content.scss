@@ -369,14 +369,11 @@ kbd {
 
     li {
         word-wrap: break-all;
+        margin-top: 0.5em;
     }
 
     li > p {
-        margin-top: 16px;
-    }
-
-    li + li {
-        margin-top: 0.5em;
+        margin-top: 1em;
     }
 
     dl {
@@ -408,23 +405,25 @@ kbd {
         z-index: 2;
     }
 
-    table th {
-        font-weight: 600;
-    }
+    table {
+        th {
+            font-weight: 600;
+        }
 
-    table th,
-    table td {
-        padding: 6px 13px;
-        border: 1px solid #dfe2e5;
-    }
+        th,
+        td {
+            padding: 6px 13px;
+            border: 1px solid #dfe2e5;
+        }
 
-    table tr {
-        background-color: #fff;
-        border-top: 1px solid #c6cbd1;
-    }
+        tr {
+            background-color: #fff;
+            border-top: 1px solid #c6cbd1;
+        }
 
-    table tr:nth-child(2n) {
-        background-color: #f6f8fa;
+        tr:nth-child(2n) {
+            background-color: #f6f8fa;
+        }
     }
 
     img {
@@ -441,7 +440,7 @@ kbd {
         padding-right: 20px;
     }
 
-    :is(video, object) {
+    :is(video, object, iframe) {
         aspect-ratio: attr(width) / attr(height);
         width: 100%;
         height: auto;
