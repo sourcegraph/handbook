@@ -1,26 +1,31 @@
 import React from 'react'
 
 import { TableOfContents } from '../components/TableOfContents'
-import { buildPageTree, loadAllPages, Page, DirectoryNode, parsePage, ParsedPage, getLastSlugPart } from '../lib/api'
+import { buildPageTree, loadAllPages, Page, DirectoryNode, parsePage, ParsedPage } from '../lib/api'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
+
+// This may be too much; disable it for now.
+const showTocInTree = false
 
 function DirectoryItem(props: { node: DirectoryNode<ParsedPage> }): JSX.Element {
     return (
         <li>
             <code>{props.node.name}</code>{' '}
             {props.node.indexPage && (
-                <a title={props.node.indexPage.path} href={`/${props.node.indexPage.slug}`}>
+                <a title={props.node.indexPage.path} href={`/${props.node.indexPage.slugPath}`}>
                     {props.node.indexPage.title || 'Untitled'} {props.node.indexPage.isIndexPage && ' (index.md)'}
                 </a>
             )}
             <ul>
                 {props.node.pages.map(page => (
-                    <li key={page.slug}>
-                        <code>{getLastSlugPart(page.slug)}</code>{' '}
-                        <a title={page.path} href={`/${page.slug}`}>
-                            {page.title || 'Untitled'} (/{page.slug}) {page.isIndexPage && ' (index)'}
+                    <li key={page.slugPath}>
+                        <code>{page.fileSlug}</code>{' '}
+                        <a title={page.path} href={`/${page.slugPath}`}>
+                            {page.title || 'Untitled'} (/{page.slugPath}) {page.isIndexPage && ' (index)'}
                         </a>
-                        <TableOfContents className="fst-italic" hrefPrefix={`/${page.slug}`} toc={page.toc} />
+                        {showTocInTree && (
+                            <TableOfContents className="fst-italic" hrefPrefix={`/${page.slugPath}`} toc={page.toc} />
+                        )}
                     </li>
                 ))}
             </ul>
@@ -58,7 +63,7 @@ export async function getStaticProps(): Promise<{ props: { allPages: ParsedPage[
 
     const parsedPages = await Promise.all(allPages.map(page => parsePage(page)))
 
-    const tree = buildPageTree<ParsedPage>(parsedPages)
+    const { tree, nodes } = buildPageTree<ParsedPage>(parsedPages)
     const root = parsedPages.find(page => page.path === 'index.md')
     if (root) {
         tree.indexPage = root
