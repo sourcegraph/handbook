@@ -8,7 +8,7 @@ I’m fascinated by how people learn and work differently. I firmly believe that
 
 ### Preferred learning styles
 
-I learn by reading and doing. It’s helpful for me to see examples of successful work so I have a guiding light. I prefer to learn on my own rather than in a group, so I can take the time I need to try things and absorb as much information as possible. I like to trial-and-error my way through things so I can learn the pitfalls and know what to watch for along the way.
+I learn by reading and doing. It’s helpful for me to see examples of successful work so I have a guiding light. I prefer to learn on my own rather than in a group, so I can take the time I need to try things and absorb as much information as possible. I like to trial-and-error my way through things so I can learn the pitfalls and know what to watch for along the way!
 
 ### Communication style
 
