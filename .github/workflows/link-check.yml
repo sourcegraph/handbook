@@ -7,7 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        name: Checkout repository
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        name: Check all links between pages are valid
         env:
           FORCE_COLOR: 3
           NPM_CONFIG_LOGLEVEL: silent
