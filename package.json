@@ -94,6 +94,7 @@
     "rehype-stringify": "^9.0.2",
     "rehype-url-inspector": "^2.0.2",
     "remark-extract-toc": "^1.1.0",
+    "remark-footnotes": "^4.0.1",
     "remark-gfm": "^2.0.0",
     "remark-parse": "^10.0.0",
     "remark-rehype": "^9.1.0",
