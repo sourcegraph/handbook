@@ -13,7 +13,6 @@ import rehypeRaw from 'rehype-raw'
 import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
 import rehypeUrl, { UrlMatch } from 'rehype-url-inspector'
-import remarkFootnotes from 'remark-footnotes'
 import remarkGfm from 'remark-gfm'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
@@ -44,7 +43,6 @@ export default async function markdownToHtml(
         // Parse markdown
         .use(remarkParse)
         .use(remarkGfm)
-        .use(remarkFootnotes, { inlineNotes: true })
         .use(remarkSpecialNoteBlocks)
         // Convert Markdown AST -> HTML AST
         .use(remarkRehype, { allowDangerousHtml: true })
