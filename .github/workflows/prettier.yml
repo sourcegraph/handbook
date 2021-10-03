@@ -48,4 +48,4 @@ jobs:
           prettier_options: --write **/*.{js,css,scss,ts,tsx,md,html,yml,yaml,json}
           commit_message: squash! Prettier
         env:
-          GITHUB_TOKEN: ${{ secrets.PRETTIER_ACTION_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.WRITE_ACCESS_GITHUB_TOKEN }}
