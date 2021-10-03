@@ -21,6 +21,7 @@ import { VFile } from 'vfile'
 
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 import { rehypeSlackChannels } from './rehypeSlackChannels'
+import { rehypeSmartypants } from './rehypeSmartypants'
 
 const urlSelectors = [
     'a[href]',
@@ -48,6 +49,7 @@ export default async function markdownToHtml(
         .use(remarkRehype, { allowDangerousHtml: true })
         // Parse Markdown that was included _within_ HTML
         .use(rehypeRaw)
+        .use(rehypeSmartypants, { backticks: false, dashes: 'oldschool' })
         .use(rehypeMarkupDates)
         .use(rehypeSlackChannels)
         // Trim .md suffix from links

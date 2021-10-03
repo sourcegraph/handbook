@@ -97,9 +97,12 @@
     "remark-gfm": "^3.0.0",
     "remark-parse": "^10.0.0",
     "remark-rehype": "^10.0.0",
+    "retext": "^8.1.0",
+    "retext-smartypants": "^5.1.0",
     "tippy.js": "^6.3.2",
     "ts-node": "^10.2.1",
     "unified": "^10.1.0",
+    "unist-util-visit": "^4.1.0",
     "vfile": "^5.1.0"
   },
   "devDependencies": {
