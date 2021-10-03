@@ -95,7 +95,6 @@
     "rehype-url-inspector": "^2.0.2",
     "remark-extract-toc": "^1.1.0",
     "remark-gfm": "^2.0.0",
-    "remark-html": "^13.0.1",
     "remark-parse": "^10.0.0",
     "remark-rehype": "^9.1.0",
     "tippy.js": "^6.3.2",
