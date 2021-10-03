@@ -15,6 +15,6 @@ jobs:
         with:
           persist-credentials: false
       - name: Update branches
-        uses: brainly/autoupdate-branch@2.0.0
+        uses: felixfbecker/action-autoupdate-branch@patch-1
         with:
           repo-token: '${{ secrets.WRITE_ACCESS_GITHUB_TOKEN }}'
