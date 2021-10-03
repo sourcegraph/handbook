@@ -3421,15 +3421,6 @@ mdast-util-find-and-replace@^2.0.0:
     unist-util-is "^5.0.0"
     unist-util-visit-parents "^4.0.0"
 
-mdast-util-footnote@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/mdast-util-footnote/-/mdast-util-footnote-1.0.0.tgz#438945250e97572cb5ff97f9ae52dca9ad13afa7"
-  integrity sha512-DBQervPt/8PZOebnKZu2dXsLXgKHfCirW5BIR824z4tGujWQ4gMMASPEEKqgCpoeDO0WS691Eqbv/HKGvw6Vmw==
-  dependencies:
-    "@types/mdast" "^3.0.0"
-    mdast-util-to-markdown "^1.0.0"
-    micromark-util-normalize-identifier "^1.0.0"
-
 mdast-util-from-markdown@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-1.0.2.tgz#7c793bb96b053d12f032e37382ae989efb70ee66"
@@ -3576,20 +3567,6 @@ micromark-core-commonmark@^1.0.0, micromark-core-commonmark@^1.0.1:
     micromark-util-symbol "^1.0.0"
     micromark-util-types "^1.0.1"
     parse-entities "^3.0.0"
-    power-assert "^1.0.0"
-
-micromark-extension-footnote@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/micromark-extension-footnote/-/micromark-extension-footnote-1.0.1.tgz#e4d33935059d2413293d68786ac9577cda8bf4ee"
-  integrity sha512-aCMJQu64MqOPF6csOQN7HF/JwIk/HDg49xGcQap6ZpWTlVsi7iQPeitEUwvikfpvi1KuJ4g8FFc/7J86Mh/V6w==
-  dependencies:
-    micromark-core-commonmark "^1.0.0"
-    micromark-factory-space "^1.0.0"
-    micromark-util-character "^1.0.0"
-    micromark-util-chunked "^1.0.0"
-    micromark-util-normalize-identifier "^1.0.0"
-    micromark-util-resolve-all "^1.0.0"
-    micromark-util-symbol "^1.0.0"
     power-assert "^1.0.0"
 
 micromark-extension-gfm-autolink-literal@^1.0.0:
@@ -4838,16 +4815,6 @@ remark-extract-toc@^1.1.0:
   integrity sha512-vfjGmkFcPqTvoEmGN/oKPnU57xlvXWJZKllqsUl8z2ZkSGjoQ1YoQGLt9cWH23AV3htJ2ED9l5NNukHigJP69Q==
   dependencies:
     unist-util-index "^2.0.0"
-
-remark-footnotes@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/remark-footnotes/-/remark-footnotes-4.0.1.tgz#17d3c87ddc240924e8b4590b34a3d79aa8ede50c"
-  integrity sha512-He6YzQFk/Wu2KgfjI80EyPXjt/G+WFaYfUH+xapqPQBdm3aTdEyzosXXv9a2FbTxGqgOfJ4q/TCB46v+wofRpQ==
-  dependencies:
-    "@types/mdast" "^3.0.0"
-    mdast-util-footnote "^1.0.0"
-    micromark-extension-footnote "^1.0.0"
-    unified "^10.0.0"
 
 remark-gfm@^3.0.0:
   version "3.0.0"
