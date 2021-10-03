@@ -6,6 +6,7 @@
 1. [What we do](#what-we-do)
 1. [Working with other teams](#working-with-other-teams)
 1. [Meet the team](#meet-the-team)
+1. [Product launch templates and resources](#product-launch-templates-and-resources)
 1. [Resources](#resources)
 
 ## Team vision and principles
