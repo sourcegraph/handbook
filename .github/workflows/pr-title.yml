@@ -2,7 +2,7 @@ name: Check pull request title is descriptive
 
 on:
   pull_request:
-    types: [opened, edited, reopened]
+    types: [opened, edited, synchronize, reopened]
 
 jobs:
   pr-title:
