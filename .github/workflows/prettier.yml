@@ -25,6 +25,7 @@ jobs:
         run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
 
       - uses: actions/setup-node@v2
+        name: Set up NodeJS
         with:
           node-version: '${{ steps.nvmrc.outputs.NODE_VERSION }}'
           # Fails with error in post step: Cache folder path is retrieved for yarn but doesn't exist on disk: /home/runner/.cache/yarn/v6
@@ -32,6 +33,7 @@ jobs:
 
       # Make sure @sourcegraph/prettierrc is installed
       - run: yarn
+        name: Install dependencies
 
       - name: Read prettier version
         id: prettier_version
