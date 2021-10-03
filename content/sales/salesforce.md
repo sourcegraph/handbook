@@ -18,7 +18,7 @@ Jump to:
 
 ## Salesforce access
 
-Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @business-team in #sales.
+Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @sales-operations in #it-tech-ops.
 
 ## About Salesforce objects
 
