@@ -16,14 +16,15 @@ This page contains information that is relevant for how to do well at your job a
 
 ### Definitions
 
-<dl>
-    <dt>Product priorities</dt>
-    <dd>An ordered list of problem statements or outcomes that product has evidence is important</dt>
-    <dt>Roadmap</dt>
-    <dd>The tasks and timeline for when each will be worked on</dt>
-    <dt>Backlog</dt>
-    <dd>The ordered list of items to be tackled after items on the roadmap are complete.</dt>
-</dl>
+- Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
+- Roadmap: The tasks and timeline for when each will be worked on
+- Backlog: The ordered list of items to be tackled after items on the roadmap are complete
+
+Launch tier levels are also an important concept to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
+
+## Communications
+
+Product team members are empowered to communicate directly with customers, internal stakeholders, or anyone else. Sometimes it can be helpful to have someone review your communication before sending it, especially if it is going to a wide or unfamiliar audience. If you want, the Marketing and PR teams are available to help any time: simply ask in #marketing and someone will be happy to review your communication.
 
 ## Release early, release often
 
