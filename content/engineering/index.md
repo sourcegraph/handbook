@@ -15,6 +15,7 @@
   - [Releases](releases/index.md)
     - [Release issue template](releases/release_issue_template.md)
   - [External contributions](external_contributions.md)
+  - [Licenses](licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
 - Tooling
   - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
@@ -29,7 +30,6 @@
 - [Career development](career-development/index.md)
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
-- [Allowed open source licenses](licenses.md)
 
 ## Org chart
 
