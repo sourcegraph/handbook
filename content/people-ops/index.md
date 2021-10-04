@@ -33,7 +33,7 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 
 ## Goals & Current Work
 
-See People Ops OKRs [here](../company/goals/2022_q3#people-ops).
+See People Ops OKRs [here](../company/goals/2022_q3.md#people-ops).
 
 See how we manage project and updates [here](people-ops-project-management.md).
 
