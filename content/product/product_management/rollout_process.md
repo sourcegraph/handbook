@@ -37,7 +37,7 @@ Within the document and as part of keeping in sync, you should track the followi
 - Any beta/experimental phases that are planned, including which components of the beta will remain free or become paid
 - What (if any) parts of the feature will have public communications minimized so that they can be used by PR/marketing around the launch
 
-It’s expected that these points will change over the period heading towards launch; the purpose is not to get everything right but to stay on the same page on the important points as they evolve. The same procedure would also be followed for milestone-type features, such as hitting a certain repository indexing milestone, but the document would be relatively simpler in that case.
+It’s expected that these points will change over the period heading towards launch; the purpose is not to get everything right from the beginning and lock it in, but to stay on the same page on the important points as they evolve. The same procedure would also be followed for milestone-type features, such as hitting a certain repository indexing milestone, but the document would be relatively simpler in that case.
 
 ## Sourcegraph Cloud
 
