@@ -1,10 +1,40 @@
 # User metrics definitions
 
-## On-premise
+We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (turning them into active users), and retention (keeping them month to month).
 
-### Metrics definitions
+Specific targets for FY22 can be found on the [product home page](../../product/index.md#goals).
 
-**On premise**: a user is considered 'active' when they are signed-in and trigger any event over the specified time period. This could be anything from a page view inside the product to a hover using one of Sourcegraph's browser extensions to a code monitoring email notification.
+## User states
+
+Users can be in a number of different states. We track the following categories for each month. The descriptions below are framed as though we're talking about MAU, but the same definitions apply to whatever period is being considered.
+
+| Metric      | Description                                                      | Cloud | On-prem |
+| ----------- | ---------------------------------------------------------------- | ----- | ------- |
+| Visitor     | Users who accessed the site                                      | ✔️    |         |
+| Activated   | Users who have established the core habit of the product         | ✔     |         |
+| Active      | Users who performed a qualifying event (see below)               | ✔️    | ✔️      |
+| Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      |
+| Churned     | Users who were active last month but not this month              | ✔️    | ✔️      |
+| Resurrected | Users who were _not_ active last month but are active this month | ✔️    | ✔️      |
+| Created     | Users whose account was created this month                       | ✔️    | ✔️      |
+| Deleted     | Users whose account was deleted this month                       | ✔️    | ✔️      |
+
+### What is a visitor?
+
+A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page.) This is important to measure because each of these users is potentially an active user, but it's also important that we don't count anyone who uses the product as an active user so that we can measure success of our features that are intended to convert them.
+What is an activated user?
+
+An activated user is a user who has established the core habit of the product. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as a user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established). Activation is this entire journey. Our current definition is the user performs a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active), but this needs to be iterated on.
+
+### What is an active user?
+
+An active user is differentiated from a visitor by performing a qualifying event, which are intended to represent someone who has actively **engaged with** and **received value** from the product; something that takes a user from their first Search to establishing a habit around the core value proposition of the app. Qualifying events are [listed as 'Active' in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=live)
+
+Qualifying events are not intended to be difficult, or prove that someone is a heavy user of the product. They are carefully selected to represent activities that are important to realizing the value of Sourcegraph.
+
+Performing any single activity in the above list makes a user "active" for the time period being measured.
+
+## Time periods
 
 Time periods we track:
 
@@ -12,26 +42,16 @@ Time periods we track:
 - Weekly active user (WAU)
 - Monthly active user (MAU)
 
-### Growth metrics user categories
+Monthly is the most common reference frame we use.
 
-We track the following categories in pings for each month. The explanations are framed as though we're talking about the current month, but apply to any given month.
-
-| Metric      | Description                                                      |
-| ----------- | ---------------------------------------------------------------- |
-| Retained    | Users who were active last month _and_ this month                |
-| Churned     | Users who were active last month but not this month              |
-| Resurrected | Users who were _not_ active last month but are active this month |
-| Created     | Users whose account was created this month                       |
-| Deleted     | Users whose account was deleted this month                       |
-
-### Engagement ratios
+## Engagement ratios
 
 | Metric  | Description                                                                                                                                                                                    |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | DAU/MAU | The ratio of average DAUs over a month to the number of MAUs in the corresponding month. If the ratio is 0.4 or 40%, the average user used Sourcegraph 12 days per month (30 days \* .4 = 12). |
 | DAU/WAU | The ratio of average DAUs over a week to the number of WAUs in the corresponding week. If the ratio is 0.4 or 40%, the average user used Sourcegraph 2.8 days per week (7 days \* .4 = 2.8).   |
 
-### Customer Health Score
+## Customer Health Score
 
 The customer health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:
 
@@ -52,58 +72,13 @@ Our metrics infrastructure (Looker) gets user counts from our event_logs table (
 
 ### On-Prem Instances
 
-#### Active users
-
 In each ping, instances will send a site_activity.DAUs, site_activity.WAUs, and site_activity.MAUs field which represent daily, weekly, and monthly user counts on an instance. These numbers are taken from the `event_logs` table of the instance, and count the number of distinct user IDs that executed any action on the instance in a given time period. These are sent back to us in the form of pings, which is what shows up in Looker. See the [`activeUsers` function](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%407eeeb9b+func+activeUsers&patternType=literal) for the implementation and SQL query.
 
-#### Total user accounts
-
-Instances also send back `total_user_accounts`, which is the number of user accounts. This number excludes users that have been either soft or hard deleted. It uses [UserStore](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@8c8d7ffd6261c5b884eea6804147cb3425a4601c/-/blob/internal/database/users.go?L777:72), which retrieves all non-deleted users.
-
-#### Discrepencies between MAUs and total user accounts
-
-Some [accounts' reports](https://sourcegraph.looker.com/dashboards-next/167?Unique+Server+ID=Sourcegraph&Salesforce+Unique+ID=) will show a MAU number higher than their number of user accounts. This is typically an indication that their users are tightly managed (deleted and created frequently) through automation by the instance admin, and can be confirmed by looking at the instance overview this account will have a high number of deleted users in the `Number of users added, deleted, retained and churned users` chart.
-
-The reason this happens is when a user is deleted and later added back within the same month, they are counted as two MAUs. MAU reporting relies on user_id and is not unique to users' email addresses.
-
-#### In-app site admin [usage stats page](https://sourcegraph.com/site-admin/usage-statistics)
+### In-app site admin [usage stats page](https://sourcegraph.com/site-admin/usage-statistics)
 
 In the site admin panel, we have a Usage stats page that displays number of MAUs. This pulls data from Redis, which gets populated by our `usagestatsdeprecated` package. This was an old way of collecting data, and is not reliable. This is a known issue, and will be fixed to use the `event_logs` table.
 
-## Sourcegraph Cloud
-
-### User status definitions
-
-| Status      | Description                                                                                            |
-| ----------- | ------------------------------------------------------------------------------------------------------ |
-| Visitor     | A user who landed on Sourcegraph Cloud                                                                 |
-| Active      | A user who performed an active event for the time period (see Amplitude for the list of active events) |
-| Retained    | A user who were active last month _and_ this month                                                     |
-| Churned     | A user who were active last month but not this month                                                   |
-| Resurrected | A user who were _not_ active last month but is active this month                                       |
-| Registered  | A user who created an account on Sourcegraph Cloud                                                     |
-
-### Key metrics
-
-We track the following key metrics:
-
-- acquisition: number of visitors
-- activation: the percentage of visitors that had a successful initial experience.
-- retention: the number of active users retained time period over time period
-
-#### Activation
-
-Understanding what drives a successfull initial experience is currently a work in progress. As a placeholder, we currently define activation as the percentage of users that performed one of those qualifying events:
-
-| Product area              | Qualifying event                   | Description                                                                                         |
-| ------------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Searching for code        | `SearchSubmitted`                  | Submit a search                                                                                     |
-| Navigating the code graph | `findReferences`, `goToDefinition` | Click on go to definition or fin references. Hovering is excluded as it can be performed passively. |
-| Code Insight              | TBD                                | TBD at launch on cloud                                                                              |
-| Batch Changes             | TBD                                | TBD at launch on cloud                                                                              |
-| API docs                  | TBD                                | TBD                                                                                                 |
-
-### How are metrics calculated
+## How are metrics calculated
 
 Our metrics infrastructure (Looker) gets user counts from our event_logs table (either directly or indirectly). We use the same method as on-premise for calculating user counts, pulling from the Sourcegraph Cloud `event_logs` table. We track unauthenticated users using their `anonymous_user_id`. This is a separate column which contains an anonymous ID, which is stored in a cookie for users that visit Sourcegraph.com. Therefore, for all charts that track Cloud active users, unauthenticated users are included in these counts.
 
