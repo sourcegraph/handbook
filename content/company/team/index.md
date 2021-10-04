@@ -1498,3 +1498,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [caugustus-sourcegraph](https://github.com/caugustus-sourcegraph)
 - [crystal.augustus@sourcegraph.com](mailto:crystal.augustus@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/crystalaugustus/)
 - Crystal has a strong love for books and puns. Originally from Texas, she still misses the thunderstorms and breakfast tacos, but fall in New England more than makes up for it.
+
+## Kemper Hamilton (she/her)
+
+- Recruiting Operations Specialist
+- Austin, TX, United States 🇺🇸
+- GitHub: [kemperhamilton](https://github.com/kemperhamilton)
+- [kemper.hamilton@sourcegraph.com](mailto:kemper.hamilton@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/kemperhamilton/)
+- Kemper has been an Austinite for ten years and is about to begin a 6 month digital nomad adventure. She loves traveling, listening to live music, spending time outdoors, and she is a cheese & charcuterie enthusiast 🧀 She has experience in corporate communications, operations, and recruitment.
