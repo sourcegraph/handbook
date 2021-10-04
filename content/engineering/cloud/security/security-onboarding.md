@@ -24,7 +24,7 @@
   - Understanding adding security steps to pipeline
 - Download and setup Burpsuite community edition on your laptop
 - Valuable docs to read:
-  - Docs.sourcegraph.com
+  - https://docs.sourcegraph.com
   - Sourcegraph demo video
 
 <strong>Acceptance Criteria</strong>
