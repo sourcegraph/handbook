@@ -8,12 +8,10 @@ Repo management handles our support without a rota - that is to say there is no 
 
 **Simple questions guidelines:**
 
-<div style="text-left: 1em;">
 Feel free to direct simple questions to us in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) in Slack
 - This channel is regularly checked
 - So please do **NOT** directly message or CC an engineer - this is to try and protect their focus
 - Instead, if it's urgent,  please @ either [the PM or the EM](index.md#members) in the question in the channel
-</div>
 
 **Support request guidelines:**
 
