@@ -15,7 +15,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Engaging with Legal](saleslegal.md)
 - [Engaging with Security](salessecurity.md)
 
-## ne, data, and models
+## Pipeline, data, and models
 
 - [Transactions](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=0)
 - [FY21 plan](https://docs.google.com/spreadsheets/d/1EkZ7O69-2jbgtacoFDrY8L6rP73Hlqp_syyVCnmGAFA/edit#gid=1071026049)

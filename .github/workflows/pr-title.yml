@@ -1,0 +1,27 @@
+name: Check pull request title is descriptive
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  pr-title:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: morrisoncole/pr-lint-action@v1.5.1
+        with:
+          title-regex: ^(?!(Update|Create|Delete) [\w_\-/]+\.md$)
+          on-failed-regex-fail-action: true
+          on-failed-regex-request-changes: false
+          on-failed-regex-create-review: true
+          on-failed-regex-comment: |
+            Hey there!
+            Looks like you kept GitHub's placeholder commit message "${{ github.event.pull_request.title }}".
+            To be able to merge this pull request, please edit the title to a descriptive, concise summary of the change.
+            Think about not just _which file_ you changed, but _what change_ you made to it.
+            A descriptive title helps teammates find changes that were made to a file when viewing the file history.
+
+            You can edit the pull request title by clicking the "Edit" button to the far right of the title.
+
+            Thank you! \\(^-^)/
+          repo-token: '${{ secrets.GITHUB_TOKEN }}'
