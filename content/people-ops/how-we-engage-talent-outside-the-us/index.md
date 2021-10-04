@@ -64,7 +64,7 @@ Contractors are not eligible for all employee benefits (e.g. healthcare, life in
 
 ### Payments
 
-Contractors submit an invoice at the end of each month in Veem or Bill.com, including any reimbursable and recurring expenses.
+Contractors submit an invoice at the end of each month via email to Sourcegraph@Bill.com, with finance@sourcegraph.com copied on all emails. All invoices will be paid through Veem. You should have received an invite to your personal email for a Veem account as part of onboarding. 
 
 ### Onboarding
 
@@ -84,7 +84,7 @@ Due to their classification as temporary contractors, they are not eligible for 
 
 ### Payments
 
-Temporary contractors are paid via invoice on a monthly basis, in their local currency, through Veem or Bill.com. They are required to [submit an invoice](../../ops/finance/invoices.md) at the end of each month with the work completed as agreed in their temporary contractor agreement.
+Temporary contractors are paid via invoice on a monthly basis, in their local currency, Bill.com and get paid via Veem. They are required to [submit an invoice](../../ops/finance/invoices.md) at the end of each month with the work completed as agreed in their temporary contractor agreement.
 
 ### Onboarding
 
