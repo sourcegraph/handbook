@@ -6,8 +6,8 @@ This page documents which licenses are usable at Sourcegraph. For questions, ple
 
 All Sourcegraph code should generally be licensed under either:
 
-* The [Apache license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.apache)
-* The [Sourcegraph enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise)
+- The [Apache license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.apache)
+- The [Sourcegraph enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise)
 
 Which one to choose is a decision that your team, manager, and product/leadership should agree on. In general core value adds should be enterprise-licensed, while utilities, support libraries, etc. that are unlikely to benefit potential competitors should be Apache licensed.
 
