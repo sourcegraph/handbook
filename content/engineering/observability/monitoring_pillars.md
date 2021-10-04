@@ -66,8 +66,6 @@ Monitoring tooling at Sourcegraph is developed to encourage the following guidel
 
 Before trying to circumvent the guidelines enforced by our monitoring tooling, please keep in mind that these pillars are defined to help us achieve our [goals](#long-term-vision) and alleviate [pain points we have encountered in the past](#history). Each of the above pillars are documented with detailed explanations, recommendations for what you can do, and exceptions where applicable.
 
-To make significant changes to the monitoring tooling, please reach out to the [Distribution team](../distribution/index.md) or open a PR to this page!
-
 ### Dashboards should only be created with the monitoring generator
 
 Creating dashboards outside of the monitoring generator, such as with the Grafana WYSIWYG editor, is discouraged. All metrics should be presented in a set of uniform, standard ways that every site admin can understand.
