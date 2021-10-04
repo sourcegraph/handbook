@@ -42,7 +42,7 @@ interface IndexProps {
     allPages: ParsedPage[]
     tree: DirectoryNode<ParsedPage>
 }
-export default function MetaPage({ allPages, tree }: IndexProps): JSX.Element {
+export default function Index({ allPages, tree }: IndexProps): JSX.Element {
     return (
         <div className="container">
             <section id="content">
