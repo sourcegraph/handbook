@@ -58,4 +58,4 @@ We also have a set of [guiding principles](../../../direction/enablement/repo-ma
 
 ## Processes
 
-TODO
+Read more about [how this team works](processes.md).
