@@ -141,7 +141,7 @@ Check the [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3
 
 Templates:
 
-- See [Sales Resources Templates](../../sales/salesresources.md#sales-templates)
+- See [Sales Resources Templates](../sales/salesresources.md#sales-templates)
 - For other templates, reach out to Legal
 
 ### Vendor contracts (Sourcegraph pays a third party for products or services)

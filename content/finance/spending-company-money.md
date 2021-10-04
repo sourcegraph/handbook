@@ -93,6 +93,6 @@ You will not need permission for choosing which co-working space you’d like to
 
 **Laptop upgrade:** if your laptop is 4 years or older, you are eligible for a new laptop (same budget as new laptop applies).
 
-**Travel expenses:** please see our page on [travel budgets](../../people-ops/travel.md).
+**Travel expenses:** please see our page on [travel budgets](../people-ops/travel.md).
 
 Find out how to submit your expenses [here](expenses.md).
