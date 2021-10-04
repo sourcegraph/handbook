@@ -14,7 +14,7 @@ How we communicate about features is important, especially as it relates to feat
 
 ### Pre-release features
 
-It's important we communicate clearly about pre-release features so that we do not cause confusion around customers thinking features are generally available, that they aren't going to change, or even that they couldn't be taken away if we find they aren't working.
+We always aim to communicate clearly about pre-release features so that we do not cause confusion around customers thinking features are generally available, that they aren't going to change, or even that they couldn't be taken away if we find they aren't working.
 
 1. Prior to the official launch of the feature, we should focus in communication on the problems we are solving, rather than that feature x will definitely include scope y and/or be delivered on z date. For example, we can talk about our ultimate goal of xMM repos indexed and the reason why we are focused on it, or how we’re working on helping teams problems around a specific batch changes use case, and that we're looking for feedback. This can (and should) include some specifics, but that doesn’t need to be the emphasis because people care more about the problems we’re solving anyway.
 1. Whenever communicating publicly about pre-release features, we should use the [beta and experimental labels](../beta_and_experimental_feature_labels.md) so we don’t create confusion, and be sure we note that final capabilities of the feature might change. This includes social media, on the website, documentation, release post, changelog, handbook, in the app, or anywhere else. Documentation, as it is long-lived and not tied to a moment in time, should indicate when a feature became generally available.
