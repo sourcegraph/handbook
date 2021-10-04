@@ -75,6 +75,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Resources for recruiters](./talent/index.md#resources-for-recruiters)
 
 ### [Business Operations & Strategy](bizops/index.md)
+
 - [How to work with us](bizops/index.md#how-to-work-with-us)
 - [Analytics issue tracker](https://github.com/sourcegraph/analytics/issues)
 - Teams
@@ -82,11 +83,13 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Analytics](bizops/analytics.md)
 
 ### [Finance & Accounting](finance/index.md)
+
 - [Financial terms and definitions](finance/index.md#definitions)
 - [Accounting](finance/index.md#accounting)
 
 ### [Legal](legal/index.md)
 
 ### [Tech Ops](tech-ops/index.md)
+
 - [Internal security](tech-ops/internal_security.md)
 - [Single sign on (Okta)](tech-ops/Okta.md)
