@@ -20,7 +20,7 @@ This page contains information that is relevant for how to do well at your job a
 - Roadmap: The tasks and timeline for when each will be worked on
 - Backlog: The ordered list of items to be tackled after items on the roadmap are complete
 
-Launch tier levels are also an important concept to be aware of, and definitions are documented on the [marketing launch page](../marketing/product-marketing/marketing_launch_tiers.md).
+Launch tier levels are also an important concept to be aware of, and definitions are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
 
 ## Release early, release often
 
