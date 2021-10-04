@@ -23,7 +23,7 @@ Public beta testing by its nature involves sharing more detail, showing and lett
 
 ### L1 launches and milestones
 
-L1 launches ([full definition in marketing handbook](../../marketing/product-marketing/marketing_launch_tiers#l1-launch)) are special: we don't do them frequently, but when we do we engage an additional layer of collaboration around them to avoid misunderstandings around how these important features will move from development to general availability.
+L1 launches ([full definition in marketing handbook](../../marketing/product-marketing/marketing_launch_tiers.md#l1-launch)) are special: we don't do them frequently, but when we do we engage an additional layer of collaboration around them to avoid misunderstandings around how these important features will move from development to general availability.
 
 1. Two months prior to an L1 feature’s planned release date, a collaboration document (a Google doc is fine) should be opened and shared with marketing, product, PR, and any other teams who have a role in the launch, depending on the feature.
 1. At the same time, a regular sync should be created for the team. This could be a sync meeting, async Slack channel, a mix or other approach, as long as everyone agrees.
