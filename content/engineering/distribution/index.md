@@ -1,15 +1,15 @@
 # Distribution team
 
-# Distribution are no longer 1 team and have devided into three teams. 
+# Distribution are no longer 1 team and have devided into three teams.
 
 While these pages still remian (due to a lot of useful resources that have yet to be migrated) there new teams are as follows:
+
 - [Delivery](../enablement/delivery/index.md)
   - Ownership: Customer deployments, whether self-hosted or on-prem, and our customer releases of Sourcegraph
 - [Developer Experience](../enablement/dev-experience/index.md)
   - Ownership: Systems and tooling for our internal engineering teams
 - [Cloud Devops](../cloud/devops/index.md)
   - Ownership: sourcegraph.com health and monitoring
-
 
 # Old Content
 
