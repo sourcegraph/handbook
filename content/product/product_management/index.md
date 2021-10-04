@@ -22,6 +22,10 @@ This page contains information that is relevant for how to do well at your job a
 
 Launch tier levels are also an important concept to be aware of, and definitions are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
 
+## Communications
+
+Product team members are empowered to communicate directly with customers, internal stakeholders, or anyone else. Sometimes it can be helpful to have someone review your communication before sending it, especially if it is going to a wide or unfamiliar audience. If you want, the Marketing and PR teams are available to help any time: simply ask in #marketing and someone will be happy to review your communication.
+
 ## Release early, release often
 
 Each project, no matter how long-running, needs to plan to ship _something_ in each release. The "something" depends on the project. We strongly prefer for it to be a minimal viable feature that is enabled by default. The next best thing is to ship something that is feature-flagged off by default. When possible, larger features should be merged mid-cycle to solicit feedback from the team and customers before the release is cut.
