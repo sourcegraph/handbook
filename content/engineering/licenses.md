@@ -29,4 +29,4 @@ We avoid using code and libraries under copyleft licenses. If you can't find an 
 - Mozilla Public License (ok for internal use)
 - Anything else not on the permissive license list
 
-If it's for internal use only and not for distribution to users/customers, then tell the legal team and the licenses above will likely be approved.
+If it's for internal use only and not for distribution to users/customers, then tell the legal team and the licenses marked "ok for internal use" above will likely be approved.

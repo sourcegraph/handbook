@@ -2,6 +2,8 @@
 
 We're an [all-remote](../company/remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
+- [Decision making at Sourcegraph](decisions.md)
+
 ## Sources of truth
 
 These places are the source of truth for information at Sourcegraph. Information in these places is expected to be accurate and up-to-date:
@@ -12,7 +14,6 @@ These places are the source of truth for information at Sourcegraph. Information
   - [about.sourcegraph.com](https://about.sourcegraph.com)
   - [Sourcegraph handbook](../index.md)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
-- [Decision making](decisions.md)
 - [Creating a working group for cross-team projects](working-group.md)
 - [Roadmap](../product/index.md#roadmap)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
@@ -21,6 +22,7 @@ These places are the source of truth for information at Sourcegraph. Information
 - [Salesforce](https://sourcegraph2020.lightning.force.com/)
 - [Looker](http://sourcegraph.looker.com/)
 - [Customer legal contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm)
+- [BambooHR](https://sourcegraph.bamboohr.com/) (org chart and teammate data)
 
 ### Scratchpads and ephemeral information (non-sources of truth)
 
