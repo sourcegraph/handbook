@@ -18,19 +18,15 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 ## [Marketing](../../marketing/index.md#members)
 
-## Operations
+## [People Ops](../../people-ops/index.md#people-ops-team-members)
 
-<!-- When updating the ops team list below, please also update handbook/index.md. -->
+## [Business Operations & Strategy](../../bizops/index.md#members)
 
-### [People Ops](../../people-ops/index.md#people-ops-team-members)
+## [Finance & Accounting](../../finance/index.md#members)
 
-### [Business Operations & Strategy](../../ops/bizops/index.md#members)
+## [Legal](../../legal/index.md#members)
 
-### [Finance & Accounting](../../ops/finance/index.md#members)
-
-### [Legal](../../ops/legal/index.md#members)
-
-### [Tech Ops](../../ops/tech-ops/index.md#members)
+## [Tech Ops](../../tech-ops/index.md#members)
 
 ## Sales
 

@@ -29,7 +29,7 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
 
 ### Teammates based outside of U.S.
 
-- **[Veem](https://veem.com/)**: To receive monthly payments and work related expenses' reimbursement. See detailed instructions for invoicing [here](../../ops/finance/invoices.md).
+- **[Veem](https://veem.com/)**: To receive monthly payments and work related expenses' reimbursement. See detailed instructions for invoicing [here](../../finance/invoices.md).
 
 ## Configure Google Calendar
 
