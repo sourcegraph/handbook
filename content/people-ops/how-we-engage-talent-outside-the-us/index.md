@@ -64,7 +64,7 @@ Contractors are not eligible for all employee benefits (e.g. healthcare, life in
 
 ### Payments
 
-Contractors submit an invoice at the end of each month via email to Sourcegraph@Bill.com, with finance@sourcegraph.com copied on all emails. All invoices will be paid through Veem. You should have received an invite to your personal email for a Veem account as part of onboarding. 
+Contractors submit an invoice at the end of each month via email to Sourcegraph@Bill.com, with finance@sourcegraph.com copied on all emails. All invoices will be paid through Veem. You should have received an invite to your personal email for a Veem account as part of onboarding.
 
 ### Onboarding
 
