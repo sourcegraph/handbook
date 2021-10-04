@@ -16,7 +16,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Direction
 
-[Find out about the Repo Management team’s vision, guiding principles, current status quo, and strategic plans](direction.md)
+[Find out about the Repo Management team’s vision, guiding principles, current status quo, and strategic plans](../../../direction/enablement/delivery/index.md)
 
 ## Responsibilities
 
@@ -48,7 +48,7 @@ TODO
 
 We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../../developer-insights/index.md#principles-and-practices).
 
-We also have a set of [guiding principles](direction.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
+We also have a set of [guiding principles](../../../direction/enablement/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
 
 ## Processes
 
