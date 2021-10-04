@@ -1,6 +1,6 @@
 # Org chart
 
-The org chart is generated automatically. [Need to edit it?](#how-to-edit)
+The org chart is generated automatically from team pages in the handbook ([need to edit it?](#how-to-edit)). Sourcegraph teammates can see a complete and up-to-date org chart for the entire company in [BambooHR](https://sourcegraph.bamboohr.com/).
 
 <div id="org-chart-loading">
 	Generating org chart...
