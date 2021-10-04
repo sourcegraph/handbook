@@ -31,9 +31,11 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 
 - [List of all Sourcegraph team members](../company/team/index.md)
 
-## Goals
+## Goals & Current Work
 
-WIP
+See People Ops OKRs [here](../company/goals/2022_q3#people-ops).
+
+See how we manage project and updates [here](people-ops-project-management.md).
 
 ## Things you need to know about working here
 
