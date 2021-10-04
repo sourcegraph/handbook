@@ -6,7 +6,7 @@
     "dev": "next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "generate-redirects": "node src/scripts/generate-redirects.mjs",
-    "netlify-build": "yarn run generate-redirects && yarn run copy-assets && next build && next export && next-sitemap",
+    "netlify-build": "yarn run copy-assets && next build && next export && next-sitemap && yarn run generate-redirects",
     "build": "next build",
     "postbuild": "next-sitemap",
     "check-internal-links": "find ./content -name \\*.md -exec markdown-link-check --config .github/workflows/link-check-internal.json --quiet {} \\;",
