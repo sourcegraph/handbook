@@ -1,6 +1,6 @@
 # Repo Management Direction
 
-This page outlines the vision, strategy, and goals of the [Repository Management team](index.md).
+This page outlines the vision, strategy, and goals of the [Repository Management team](../../../engineering/enablement/repo-management/index.md).
 
 ---
 
