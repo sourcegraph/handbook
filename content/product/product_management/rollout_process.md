@@ -4,6 +4,10 @@ Features come in many different sizes and shapes, and the process for introducin
 
 Some features have a [beta or experimental label](../beta_and_experimental_feature_labels.md), you can read more about how that works there.
 
+## Launch Tiers
+
+Product features fall into different buckets depending on how much engagement with marketing is needed. Definitions for [L1, L2, and L3 launches](../marketing/product-marketing/marketing_launch_tiers.md) can be found in the marketing handbook.
+
 ## Sourcegraph Cloud
 
 Sourcegraph Cloud is continuously deployed with all new updates to master. We maintain a [releasability contract](../../engineering/continuous_releasability.md) and require all new features to be released behind a feature flag to ensure that functionality can be turned off if a problem arises.
