@@ -2,7 +2,6 @@
 
 ## Setup
 
-
 - Set up your [local development environment](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md).
   - If you encounter any issues, ask for help in #dev-chat and then update the documentation to reflect the resolution (so the next engineer that we hire doesn’t run into the same problem).
 - **Setup Github and **[Configure your GitHub notifications](https://about.sourcegraph.com/handbook/engineering/github-notifications):
@@ -28,9 +27,7 @@
   - https://docs.sourcegraph.com
   - Sourcegraph demo video
 
-
 ## Acceptance Criteria
-
 
 - You are able to run Sourcegraph code locally with dev-private
 - You are able to run tf plan on the sourcegraph/infrastructure repository
