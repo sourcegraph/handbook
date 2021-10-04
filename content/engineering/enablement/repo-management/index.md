@@ -18,7 +18,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ## Direction
 
-[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](direction.md)
+[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../direction/enablement/repo-management/index.md)
 
 ## Responsibilities
 
