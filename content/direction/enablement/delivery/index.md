@@ -1,6 +1,6 @@
 # Delivery Direction
 
-This page outlines the vision, strategy, and goals of the [Delivery team](../../../engineering/enablement/delivery.index.md).
+This page outlines the vision, strategy, and goals of the [Delivery team](../../../engineering/enablement/delivery/index.md).
 
 ---
 
