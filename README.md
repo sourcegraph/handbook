@@ -24,19 +24,15 @@ yarn dev
 
 ## Check links locally
 
-We use [markdown-link-check](https://github.com/tcort/markdown-link-check) for link checking at build time using the GitHub action defined [here](./.github/workflows/link-check.yml). If you want to run it locally, from the root of the repository you can run a command like this one to validate links in all the markdown files:
+We use [markdown-link-check](https://github.com/tcort/markdown-link-check) for link checking at build time in [the `link-check` GitHub action](.github/workflows/link-check.yml). If you want to run it locally, from the root of the repository you can run this command:
 
-```
-find content -name '*.md' |xargs -n1 yarn run markdown-link-check -c .github/workflows/link-check-internal.json
-```
+    yarn check-internal-links
 
-This can be slow, so you can also check a single file by running this command, replacing `path_to_file` with the file you want to validate.
+This can be slow, so you can also check a single file by running this command, replacing `path_to_file` with the file you want to validate:
 
-```
-yarn exec markdown-link-check -c .github/workflows/link-check-internal.json <path_to_file>
-```
-
-The [configuration file](./.github/workflows/link-check-internal.json tells the link checker to not validate external links. If you wish to have them checked, you can remove the `-c .github/workflows/link-check-internal.json` portion of the command invocations above.
+    yarn markdown-link-check <path_to_file>
+    
+Note that this will also check external links, which the GitHub action ignores. If you wish to ignore those, add `-c .github/workflows/link-check-internal.json` to the command.
 
 ## Build
 
