@@ -1505,4 +1505,4 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Portland, Oregon, United States 🇺🇸
 - GitHub: [stephanx](https://github.com/stephanx)
 - [stephan.budge@sourcegraph.com](mailto:stephan.budge@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/stephanbudge/)
-- Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years.  Later, he taught English in Santiago, Chile for four years.  After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.
+- Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years. Later, he taught English in Santiago, Chile for four years. After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.
