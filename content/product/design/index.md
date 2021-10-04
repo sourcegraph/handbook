@@ -66,6 +66,10 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Visual design](./visual_design/index.md)
 - [Analytics and product design](./metrics/index.md)
 - [Research](./research/index.md)
+- [Intersecting with other teams](./intersecting_with_other_teams/index.md)
+- [Team rituals](./team_rituals/index.md)
+- [Design team onboarding](./onboarding/index.md)
+- [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
 - [Surfacing design needs](./surfacing_design_needs/index.md)
 
 ## Collaboration

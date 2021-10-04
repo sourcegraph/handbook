@@ -2,15 +2,7 @@
 
 This page contains brief bios of our team. Teammates may also have a personal documentation page in this directory that is named according to their Sourcegraph email address (e.g. you@sourcegraph.com -> you.md).
 
-## Adding Yourself to the Team Page
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/d30dc796396b45bc97a12e9cf4377924" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-1. Accept GitHub's email invite to the Sourcegraph org (you should be a member of [the `Everyone` group](https://github.com/orgs/sourcegraph/teams/everyone) in Sourcegraph's GitHub organization).
-1. Go to the bottom right of this page and click "Edit this page."
-1. In the edit view, copy the following template, paste it at the end of the edit view, and make it about yourself! Look at others' bios for examples.
-1. Under "Commit changes" at the bottom of the page, replace the "Update index.md" text with a summary of your change, e.g., Add Alex to team page.
-1. Click the green "Commit changes" button. If you do not see the green "Commit Changes" button, refer to step 1. Successful changes will become visible shortly (but not immediately).
+For help adding yourself to this page, check out [these instructions](../../editing/add-yourself-to-team-page.md).
 
 **You can find the bio template below (all fields are optional).**
 
@@ -1506,3 +1498,11 @@ This page contains brief bios of our team. Teammates may also have a personal do
 - GitHub: [caugustus-sourcegraph](https://github.com/caugustus-sourcegraph)
 - [crystal.augustus@sourcegraph.com](mailto:crystal.augustus@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/crystalaugustus/)
 - Crystal has a strong love for books and puns. Originally from Texas, she still misses the thunderstorms and breakfast tacos, but fall in New England more than makes up for it.
+
+## Stephan Budge (he/him)
+
+- Engineering Manager, Delivery
+- Portland, Oregon, United States 🇺🇸
+- GitHub: [stephanx](https://github.com/stephanx)
+- [stephan.budge@sourcegraph.com](mailto:stephan.budge@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/stephanbudge/)
+- Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years. Later, he taught English in Santiago, Chile for four years. After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.

@@ -4,7 +4,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate.
 
-- [Editing the handbook](editing.md)
+- [Editing the handbook](editing/index.md)
 - [Handbook usage](usage.md)
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 - [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits) (or [this search](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/about%24+type:diff+rev:main) if you'd like to see diffs)
@@ -44,22 +44,7 @@ The handbook is a living document and we expect every teammate to propose improv
 <!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
 
 - [Engineering](./engineering/index.md)
-  - [Code graph](./engineering/code-graph/index.md)
-    - [Search core](./engineering/code-graph/search/core.md)
-    - [Search product](./engineering/code-graph/search/product.md)
-    - [Code intelligence](./engineering/code-graph/code-intelligence/index.md)
-    - [Batch Changes](./engineering/code-graph/batch-changes/index.md)
-    - [Code insights](./engineering/code-graph/code-insights/index.md)
-  - [Enablement](./engineering/enablement/index.md)
-    - [Repo management](./engineering/enablement/repo-management/index.md)
-    - [Delivery](./engineering/enablement/delivery/index.md)
-    - [Dev experience](./engineering/enablement/dev-experience/index.md)
-    - [Frontend platform](./engineering/enablement/frontend-platform/index.md)
-  - Cloud
-    - [Growth](./engineering/cloud/growth/index.md) (includes API docs)
-    - [Security](./engineering/cloud/security/index.md)
-    - [DevOps](./engineering/cloud/devops/index.md)
-    - [SaaS](./engineering/cloud/saas/index.md)
+  - [Engineering orgs and teams](./engineering/eng_org.md)
 
 ### [Customer Support](support/index.md)
 

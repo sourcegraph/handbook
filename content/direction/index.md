@@ -72,9 +72,10 @@ Within this overall product direction, individual product areas set their own go
 
 ### Enablement
 
-- Repository Management
-- [Distribution](enablement/distribution/index.md)
+- [Delivery](enablement/delivery/index.md)
+- Dev Experience
 - [Frontend Platform](enablement/frontend-platform/index.md)
+- [Repo Management](enablement/repo-management/index.md)
 
 ### Cloud
 
