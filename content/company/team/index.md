@@ -1498,3 +1498,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [caugustus-sourcegraph](https://github.com/caugustus-sourcegraph)
 - [crystal.augustus@sourcegraph.com](mailto:crystal.augustus@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/crystalaugustus/)
 - Crystal has a strong love for books and puns. Originally from Texas, she still misses the thunderstorms and breakfast tacos, but fall in New England more than makes up for it.
+
+## Stephan Budge (he/him)
+
+- Engineering Manager, Delivery
+- Portland, Oregon, United States 🇺🇸
+- GitHub: [stephanx](https://github.com/stephanx)
+- [stephan.budge@sourcegraph.com](mailto:stephan.budge@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/stephanbudge/)
+- Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years.  Later, he taught English in Santiago, Chile for four years.  After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.
