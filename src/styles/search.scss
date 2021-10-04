@@ -67,24 +67,34 @@
     }
 }
 
-.st-ui-type-heading {
-    font-size: 0.875rem !important;
-    font-weight: bold !important;
-}
-
-.st-ui-type-detail {
-    color: var(--gray-07) !important;
-    font-size: 0.875rem !important;
-}
-
 .st-keyboard-active-item {
     background: var(--gray-02) !important;
 }
 
-.st-query-present {
+.st-ui-autocomplete .st-query-present {
     border-radius: 6px !important;
     border: 1px solid var(--border-color) !important;
     box-shadow: 0px 4px 24px -6px rgba(36, 41, 54, 0.12) !important;
+
+    .st-ui-type-heading {
+        font-size: 0.875rem !important;
+        font-weight: bold !important;
+    }
+
+    .st-ui-type-detail {
+        color: var(--gray-07) !important;
+        font-size: 0.875rem !important;
+    }
+}
+
+a.st-ui-result {
+    .st-ui-type-heading,
+    .st-ui-type-detail {
+        em {
+            box-shadow: none !important;
+            background-color: var(--sg-yellow-1) !important;
+        }
+    }
 }
 
 .st-ui-injected-overlay-container {
