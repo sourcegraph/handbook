@@ -1,6 +1,17 @@
 # Distribution team
 
-<img align="right" src="https://user-images.githubusercontent.com/3173176/92966535-955f2380-f42c-11ea-8723-2aa60c55b2db.png" height="500px" alt="Sourcegraph Distribution team logo"></img>
+# Distribution are no longer 1 team and have devided into three teams.
+
+While these pages still remian (due to a lot of useful resources that have yet to be migrated) there new teams are as follows:
+
+- [Delivery](../enablement/delivery/index.md)
+  - Ownership: Customer deployments, whether self-hosted or on-prem, and our customer releases of Sourcegraph
+- [Developer Experience](../enablement/dev-experience/index.md)
+  - Ownership: Systems and tooling for our internal engineering teams
+- [Cloud Devops](../cloud/devops/index.md)
+  - Ownership: sourcegraph.com health and monitoring
+
+# Old Content
 
 The distribution team is responsible for making Sourcegraph easy to deploy, scale, monitor, and debug. We solve the most challenging problems our customers face deploying Sourcegraph on-premise in a variety of environments, and on [Sourcegraph.com](https://sourcegraph.com/search) - the largest Sourcegraph instance in the world.
 
