@@ -18,7 +18,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ## Direction
 
-[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](direction.md)
+[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../direction/enablement/repo-management/index.md)
 
 ## Responsibilities
 
@@ -54,7 +54,7 @@ TODO
 
 We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](direction.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
+We also have a set of [guiding principles](../../../direction/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
 
 ## Processes
 
