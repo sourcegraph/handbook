@@ -34,6 +34,10 @@ Qualifying events are not intended to be difficult, or prove that someone is a h
 
 Performing any single activity in the above list makes a user "active" for the time period being measured.
 
+### What is a retained user?
+
+A user is retained if they were active within a measured period if they were active in both the current and previous periods.
+
 ## Time periods
 
 Time periods we track:
