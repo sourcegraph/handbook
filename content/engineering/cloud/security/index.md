@@ -26,8 +26,8 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 See [security goals and priorities](../../../direction/cloud/security/index.md)
 
 ## Onboarding
-- New members onboarding guide: Link Here
 
+- New members onboarding guide: Link Here
 
 ---
 
