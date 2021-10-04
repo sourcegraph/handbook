@@ -16,7 +16,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Direction
 
-[Find out about the Repo Management team’s vision, guiding principles, current status quo, and strategic plans](direction.md)
+[Find out about the Repo Management team’s vision, guiding principles, current status quo, and strategic plans](../../../direction/delivery/index.md)
 
 ## Responsibilities
 
