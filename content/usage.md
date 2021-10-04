@@ -91,7 +91,7 @@ Being [handbook-first](#why-handbook-first) requires the handbook to be up to da
 1. Many handbook changes require updating references and mentions across multiple pages (e.g., changing a product usage metric's name or a dashboard's URL might require updates to 10+ pages across the product, marketing, and sales sections). In wikis and Google Docs, there is no easy way to propose a _group_ of changes to multiple sections or pages. In Google Docs, for example, each edit operation is shown separately. As a result, people making and reviewing edits can easily miss other places that need to be updated.
 1. Many handbook changes are collaborative and need to be reviewed, revised, and commented on by other teammates. Wikis don't make this easy or possible, and Google Docs has very limited review and no revision capabilities.
 
-We chose Markdown files in a Git repository for the handbook because it allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing.md).
+We chose Markdown files in a Git repository for the handbook because it allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing/index.md).
 
 ## Why make this handbook public?
 
