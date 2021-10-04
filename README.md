@@ -31,7 +31,7 @@ We use [markdown-link-check](https://github.com/tcort/markdown-link-check) for l
 This can be slow, so you can also check a single file by running this command, replacing `path_to_file` with the file you want to validate:
 
     yarn markdown-link-check <path_to_file>
-    
+
 Note that this will also check external links, which the GitHub action ignores. If you wish to ignore those, add `-c .github/workflows/link-check-internal.json` to the command.
 
 ## Build
