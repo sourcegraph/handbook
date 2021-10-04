@@ -13,7 +13,6 @@ import rehypeRaw from 'rehype-raw'
 import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
 import rehypeUrl, { UrlMatch } from 'rehype-url-inspector'
-import remarkFootnotes from 'remark-footnotes'
 import remarkGfm from 'remark-gfm'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
@@ -22,6 +21,7 @@ import { VFile } from 'vfile'
 
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 import { rehypeSlackChannels } from './rehypeSlackChannels'
+import { rehypeSmartypants } from './rehypeSmartypants'
 
 const urlSelectors = [
     'a[href]',
@@ -44,12 +44,12 @@ export default async function markdownToHtml(
         // Parse markdown
         .use(remarkParse)
         .use(remarkGfm)
-        .use(remarkFootnotes, { inlineNotes: true })
         .use(remarkSpecialNoteBlocks)
         // Convert Markdown AST -> HTML AST
         .use(remarkRehype, { allowDangerousHtml: true })
         // Parse Markdown that was included _within_ HTML
         .use(rehypeRaw)
+        .use(rehypeSmartypants, { backticks: false, dashes: 'oldschool' })
         .use(rehypeMarkupDates)
         .use(rehypeSlackChannels)
         // Trim .md suffix from links
