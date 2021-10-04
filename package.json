@@ -9,7 +9,6 @@
     "netlify-build": "yarn run generate-redirects && yarn run copy-assets && next build && next export && next-sitemap",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "start": "next start",
     "check-internal-links": "find ./content -name \\*.md -exec markdown-link-check --config .github/workflows/link-check-internal.json --quiet {} \\;",
     "check-all-links": "find ./content -name \\*.md -exec markdown-link-check --quiet {} \\;",
     "typecheck": "tsc -p .",

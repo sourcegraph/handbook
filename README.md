@@ -19,5 +19,19 @@ yarn
 Then start the handbook:
 
 ```
-yarn start
+yarn dev
 ```
+
+## Build
+
+During deployment, the `netlify-build` script gets executed. To simulate the build process, you can run it locally:
+
+```
+yarn netlify-build
+```
+
+The output will be in the `out` directory.
+
+## Deployment to production
+
+The repository is configured to automatically deploy the `main` branch to production on Netlify.
