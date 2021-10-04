@@ -26,7 +26,7 @@ We have heard feedback from many teammates (including new frontend engineers and
 
 We need to better our system to provide a base for growth, maintain consistency, and enable faster FE development. We want to do it by building a design system. In addition, by doing so, we're looking to pay off some of our design and technical debt.
 
-Why? test test
+Why?
 Components system ➡️ consistent UX, faster delivery, better accessibility ➡️ better adoption, customer retention, more sales ➡️ Increased revenue
 
 #### 2.2 Frontend data fetching improvements
