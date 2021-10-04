@@ -16,8 +16,8 @@ We take initiatives that improve all teammates’ experiences working with the l
 
 ### Members
 
-- [Tammy Zhu](../../company/team/index.md#tammy-zhu-she-her), Director of Legal
-- [Sam Jones](../../company/team/index.md#sam-jones), Director of Legal
+- [Tammy Zhu](../company/team/index.md#tammy-zhu-she-her), Director of Legal
+- [Sam Jones](../company/team/index.md#sam-jones), Director of Legal
 
 ### Roles
 
@@ -37,7 +37,7 @@ We welcome your feedback and suggestions via any of the channels above.
 
 ## Contract review and signature authority policy
 
-To direct your contracts to the right team or teammate to review, approve, and sign, click [here](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy).
+To direct your contracts to the right team or teammate to review, approve, and sign, click [here](Contract%20Review%20and%20Signature%20Authority%20Policy.md).
 
 ## Outside counsel
 
@@ -71,7 +71,7 @@ Objective 4: Enable the company to grow responsibly
 - Identify and advise on 100% of corporate compliance risks that the company faces including securities laws, disclosure requirements, and international business registrations
 - Secure high-quality legal advice on strategic decisions such as financings, M&A, and international expansion
 - Secure high-quality legal advice relating to teammate equity such as granting, exercising, and selling equity and different types of equity (options vs. RSUs)
-- Provide a [signature authority policy](https://about.sourcegraph.com/handbook/ops/legal/Contract%20Review%20and%20Signature%20Authority%20Policy) ✅
+- Provide a [signature authority policy](Contract%20Review%20and%20Signature%20Authority%20Policy.md) ✅
 
 Objective 5: Enable the business to make informed decisions about IP strategy
 

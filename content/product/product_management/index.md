@@ -78,7 +78,7 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 - [Direction page template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/direction_template.md) - a template for a product direction page, covering vision, strategy and short term direction ([example](direction_template.md))
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
-- [Amplitude](../../ops/bizops/amplitude.md)
+- [Amplitude](../../bizops/amplitude.md)
 - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
 
 ## References
@@ -86,5 +86,5 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 - [Onboarding to the product team](../onboarding/index.md)
 - [Sourcegraph messaging](../../marketing/messaging.md)
 - [Product learnings](product_learning.md)
-- [Working with BizOps](../../ops/bizops/index.md#how-to-work-with-us)
+- [Working with BizOps](../../bizops/index.md#how-to-work-with-us)
 - [Recommended reading](../onboarding/recommended_reading.md)
