@@ -1,13 +1,18 @@
+import { readdirSync, readFileSync, existsSync } from 'fs'
+import { join } from 'path'
+
 import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import ErrorPage from 'next/error'
 import Head from 'next/head'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
 
 import { EditSection } from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
 import { getPageBySlugPath, loadAllPages, LoadedPage } from '../lib/api'
+import { CONTENT_FOLDER } from '../lib/constants'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
 
@@ -32,9 +37,16 @@ interface GitHubCommitData {
     }
 }
 
+interface LeftNav {
+    title: string
+    path: string
+    children?: LeftNav[]
+}
+
 export interface PageWithMetadata extends LoadedPage {
     title?: string
     toc: Toc
+    leftNav: LeftNav[]
 
     /** Rendered HTML. */
     content: string
@@ -52,6 +64,8 @@ export default function Page({ page }: PageProps): JSX.Element {
         return <ErrorPage statusCode={404} />
     }
     const slugParts = page.slugPath.split('/').filter(Boolean)
+
+    const isCurrentPath = (nav: LeftNav): boolean => nav.path === router.asPath
     return (
         <>
             <Head>
@@ -94,6 +108,26 @@ export default function Page({ page }: PageProps): JSX.Element {
                         <h1>Unexpected error</h1>
                     )}
                 </div>
+                <nav id="left-sidebar">
+                    <ul>
+                        {page.leftNav.map(nav => (
+                            <>
+                                <li key={nav.path} className={isCurrentPath(nav) ? 'open' : undefined}>
+                                    <Link href={nav.path}>{nav.title}</Link>
+                                </li>
+                                {nav.children && isCurrentPath(nav) && (
+                                    <ul>
+                                        {nav.children.map(child => (
+                                            <li key={child.path}>
+                                                <Link href={child.path}>{child.title}</Link>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </>
+                        ))}
+                    </ul>
+                </nav>
             </div>
         </>
     )
@@ -147,6 +181,41 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
         throw new Error('Missing slug')
     }
 
+    const topLevelPaths = readdirSync(join(process.cwd(), CONTENT_FOLDER), { withFileTypes: true })
+        .filter(directory => directory.isDirectory())
+        .map(directory => directory.name)
+
+    const leftNav: LeftNav[] = topLevelPaths
+        .map(path => {
+            const pathToIndex = join(process.cwd(), CONTENT_FOLDER, path, 'index.md')
+
+            if (!existsSync(pathToIndex)) {
+                return
+            }
+
+            const contents = readFileSync(pathToIndex, 'utf8')
+            const heading = contents.match(/^# (.*)$/m)?.[1]
+
+            if (!heading) {
+                return
+            }
+
+            const h2Headings = contents
+                .match(/^## (.*)$/gm)
+                ?.map(h2Heading => h2Heading.replace(/^## /, '').replace(/\[(.*)]/m, '$1'))
+            const children: LeftNav[] | undefined = h2Headings?.map(h2Heading => ({
+                title: h2Heading,
+                path: `/${path}#${h2Heading.replace(/[\s_]+/g, '-').toLocaleLowerCase()}`,
+            }))
+
+            return {
+                title: heading,
+                path: `/${path}`,
+                children,
+            }
+        })
+        .filter(Boolean) as LeftNav[]
+
     const fullPath = getFullSlugPath(params.slug)
     const page = await getPageBySlugPath(fullPath)
     const commitData = await getGitHubCommitData(fullPath)
@@ -162,6 +231,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
                 toc,
                 authors: commitData?.authors,
                 lastUpdated: commitData?.lastUpdated,
+                leftNav,
             },
         }),
     }
