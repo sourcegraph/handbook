@@ -21,7 +21,7 @@ L1 launches are reserved for the most important product announcements of the yea
 - Are typically goaled on revenue and/or product adoption
 - Receive full marketing and sales support
 
-The L1 designation can also be used for major company announcements (funding, acquisitions, IPO, etc.), and product milestones (such as xMM repos indexed).
+The L1 designation can also be used for major company announcements (funding, acquisitions, IPO, etc.) and product milestones (such as xMM repos indexed).
 
 PMM should be embedded with the product team as early as possible for L1 launches.
 
