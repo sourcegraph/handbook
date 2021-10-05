@@ -48,7 +48,7 @@ Company meeting is an effective way to:
 1. Changelog from last week (owner: @christina)
 1. Progress on our [company goals](../company/goals/index.md) (owner: @sqs)
 1. Product metrics update (owner: @ericbm)
-1. All customer [bookings](../ops/finance/index.md#booking) and churn since the previous company meeting (owner: @tommy, @gregg presents)
+1. All customer [bookings](../finance/index.md#booking) and churn since the previous company meeting (owner: @tommy, @gregg presents)
 1. New and expansion pipeline: include full table, discuss only significant changes since the previous company meeting (owner: @joe kirscher, @gregg presents)
 1. Hiring: Open roles we're hiring for, offers extended/accepted/rejected (owner: @david)
 1. What's new in the [handbook](../index.md) (owner: @dan)

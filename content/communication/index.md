@@ -2,6 +2,8 @@
 
 We're an [all-remote](../company/remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
+- [Decision making at Sourcegraph](decisions.md)
+
 ## Sources of truth
 
 These places are the source of truth for information at Sourcegraph. Information in these places is expected to be accurate and up-to-date:
@@ -12,7 +14,6 @@ These places are the source of truth for information at Sourcegraph. Information
   - [about.sourcegraph.com](https://about.sourcegraph.com)
   - [Sourcegraph handbook](../index.md)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
-- [Decision making](decisions.md)
 - [Creating a working group for cross-team projects](working-group.md)
 - [Roadmap](../product/index.md#roadmap)
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
@@ -21,6 +22,7 @@ These places are the source of truth for information at Sourcegraph. Information
 - [Salesforce](https://sourcegraph2020.lightning.force.com/)
 - [Looker](http://sourcegraph.looker.com/)
 - [Customer legal contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm)
+- [BambooHR](https://sourcegraph.bamboohr.com/) (org chart and teammate data)
 
 ### Scratchpads and ephemeral information (non-sources of truth)
 
@@ -132,7 +134,7 @@ If you need to deprecate just part of a Google Doc, replace the deprecated porti
 ## Writing
 
 1. Always use [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) in all writing and legal documents because other formats [lead to online confusion](http://xkcd.com/1179/). Use `yyyy-mm-dd`, for example 2020-04-13, and never 04-13-2020, 13-04-2020, 2020/04/13, nor April 13, 2020. Even if you use an unambiguous alternative format, it is still harder to search for a date, sort on a date, and for other team members to know we use the ISO standard. For months use `yyyy-mm`, so 2020-01 for January 2020.
-1. When referring to a fiscal year, prefix the year with `FY` (e.g., `FY21` for fiscal year 2021). Sourcegraph's fiscal year starts on February 1 and ends January 31. {#fiscal-year} Note that fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends (so `FY21` refers to February 1, 2020 through January 31, 2021). [Learn more about fiscal years](../ops/finance/index.md#fiscal-years).
+1. When referring to a fiscal year, prefix the year with `FY` (e.g., `FY21` for fiscal year 2021). Sourcegraph's fiscal year starts on February 1 and ends January 31. {#fiscal-year} Note that fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends (so `FY21` refers to February 1, 2020 through January 31, 2021). [Learn more about fiscal years](../finance/index.md#fiscal-years).
 
 - FY\_\_ (e.g., `FY21` is fiscal year 2021, which means 2020-02-01 through 2021-01-31)
 - FY\_\_-Q1 (e.g., `FY21-Q1`) is February 1 through April 30
@@ -174,6 +176,6 @@ If you have an idea for a session, add an event to the calendar and invite the e
 4. Choose **Insert image** and then **Web Address (URL)** and enter https://user-images.githubusercontent.com/3173176/115082082-2d892380-9eba-11eb-9606-6c4b9c4eb465.png then choose **Small** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like this, and clicking the Sourcegraph logo should bring you to sourcegraph.com:
-7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://about.sourcegraph.com/handbook/company/careers
+7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://handbook.sourcegraph.com/careers.
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/3173176/115082263-7a6cfa00-9eba-11eb-93ba-61b72de8b30b.png">
