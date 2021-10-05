@@ -1507,3 +1507,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [stephanx](https://github.com/stephanx)
 - [stephan.budge@sourcegraph.com](mailto:stephan.budge@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/stephanbudge/)
 - Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years. Later, he taught English in Santiago, Chile for four years. After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.
+
+## Amber Smokowski 
+
+- Executive Business Partner, VP of Sales and VP of Marketing
+- From Longmont, CO, United States 🏔 , currently traveling the US full-time ✈️
+- GitHub: [ambersmo](https://github.com/ambersmo)
+- [amber.smokowski@sourcegraph.com](mailto:amber.smokowski@sourcegraph.com), [linkedin](https://www.linkedin.com/in/ambersmo/) 
+- Amber is a digital nomad, with a passion for overpriced lattes and tabacco candles. In her free time, you'll find Amber and her boyfriend of 6 years, Jordan, on a constant pursuit to fill their bellies with the world's best foods (Indian, Mexican, and Italian are some of her favorites). Prior to Sourcegraph, Amber was working for an early stage travel startup out of Boulder, CO, USA where she found her passion for "doing work that moves the needle" and surrounding herself with smart people. It's a goal of hers to craft conversations that hit on the most substantial parts of people and never ask anyone what they do for a living.
