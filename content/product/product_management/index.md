@@ -14,13 +14,15 @@ This page contains information that is relevant for how to do well at your job a
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
 
-### Definitions
+### Glossary
 
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
 - Backlog: The ordered list of items to be tackled after items on the roadmap are complete
+- Department: A top-level organizational unit of people, such as Sales, Product or Marketing.
+- Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
 
-Launch tier levels are also an important concept to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
+Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
 
 ## Communications
 
