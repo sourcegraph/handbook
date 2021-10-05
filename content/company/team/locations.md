@@ -7,6 +7,8 @@ The [Sourcegraph team](index.md) is distributed around the world!
 
 ## Adding to the team locations map
 
+Note: this is optional! If you elect to add your location to the map, follow the instructions below. However, it is not mandatory to add this to your bio.
+
 ### Option 1
 
 To add your own location:
