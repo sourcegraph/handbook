@@ -117,4 +117,4 @@ Reach out to the People Ops team if you have any questions about structuring.
 
 Employees are paid twice per month (on the 15th and the last day of the month if those are weekdays, or the Fridays before those days if not), via Rippling.
 
-All contractors [submit invoices monthly](../../ops/finance/invoices.md).
+All contractors [submit invoices monthly](../../finance/invoices.md).

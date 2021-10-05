@@ -180,13 +180,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [felix@sourcegraph.com](mailto:felix@sourcegraph.com), [felixfbecker](https://github.com/felixfbecker), [Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)
 - Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
 
-## Quin Keough
-
-- SDR
-- Phoenix AZ, USA 🇺🇸
-- [quin@sourcegraph.com](mailto:quin@sourcegraph.com), [quinwith1n](https://github.com/qwith1n)
-- Quin has always loved traveling and seeing the world. He lives in Phoenix with his wife and 2 french bulldogs. Quin also enjoys most sports, especially ping pong, reading, and playing his guitar. Although his French bulldogs do not enjoy it when he attempts to play the guitar.
-
 ## Asdine El Hrychy
 
 - First name is pronounced _as-deen_, last name _el-ree-tchee_
@@ -1498,3 +1491,19 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [caugustus-sourcegraph](https://github.com/caugustus-sourcegraph)
 - [crystal.augustus@sourcegraph.com](mailto:crystal.augustus@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/crystalaugustus/)
 - Crystal has a strong love for books and puns. Originally from Texas, she still misses the thunderstorms and breakfast tacos, but fall in New England more than makes up for it.
+
+## Kemper Hamilton (she/her)
+
+- Recruiting Operations Specialist
+- Austin, TX, United States 🇺🇸
+- GitHub: [kemperhamilton](https://github.com/kemperhamilton)
+- [kemper.hamilton@sourcegraph.com](mailto:kemper.hamilton@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/kemperhamilton/)
+- Kemper has been an Austinite for ten years and is about to begin a 6 month digital nomad adventure. She loves traveling, listening to live music, spending time outdoors, and she is a cheese & charcuterie enthusiast 🧀 She has experience in corporate communications, operations, and recruitment.
+
+## Stephan Budge (he/him)
+
+- Engineering Manager, Delivery
+- Portland, Oregon, United States 🇺🇸
+- GitHub: [stephanx](https://github.com/stephanx)
+- [stephan.budge@sourcegraph.com](mailto:stephan.budge@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/stephanbudge/)
+- Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years. Later, he taught English in Santiago, Chile for four years. After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.

@@ -31,5 +31,5 @@ Welcome to Sourcegraph!
 ### Get to know our tools
 
 - Get access to our Salesforce, and read [how we use it](../salesforce.md)
-- Review [our financial models](../../ops/finance/index.md#sources-of-truth) by visiting the links in our finance handbook, including our current annual plan, our ARR tracker, and our expansion ARR tracker and forecast
+- Review [our financial models](../../finance/index.md#sources-of-truth) by visiting the links in our finance handbook, including our current annual plan, our ARR tracker, and our expansion ARR tracker and forecast
 - Review our recent [board decks](https://drive.google.com/drive/folders/1UeBRZght8of2RUhDVghl9t6Qj_uVghYo)
