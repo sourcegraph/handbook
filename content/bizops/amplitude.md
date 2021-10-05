@@ -2,10 +2,10 @@
 
 ## How do I get started?
 
-1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named ```Sourcegraph```). If you don't have an account, shoot a message to @ericbm or request one during login.
+1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named `Sourcegraph`). If you don't have an account, shoot a message to @ericbm or request one during login.
 1. Watch this [short walkthrough](https://drive.google.com/file/d/1J_xSAd1SevMcM0wv3RD_uxtuv8UF8etA/view?usp=sharing) by @ericbm with a couple members of our marketing team. It goes over the data in Amplitude and how to build many different kinds of analyses. You can also read the Amplitude documentation for [building analyses](https://help.amplitude.com/hc/en-us/categories/360003165371-Build-and-share-your-analysis) and/or check out some of our [tutorials](https://drive.google.com/drive/folders/1cdcUe2e4bnYjxr9xqV6-pCsOOPIEMqGI).
 1. Check out the [Product team space](https://analytics.amplitude.com/sourcegraph/space/nldziax/all) for existing dashboards.
-1. Ask BizOps for help if you have any questions, and/or post in #analytics-review if you have a work-in-progress analysis you want someone else's eyes on. 
+1. Ask BizOps for help if you have any questions, and/or post in #analytics-review if you have a work-in-progress analysis you want someone else's eyes on.
 
 ## Why are we using Amplitude?
 
@@ -83,7 +83,7 @@ If an additional user property is added to this table, it will only be applied t
 
 Amplitude is built on top of our existing [eventLogger infrastructure](https://sourcegraph.com/search?q=context:global+eventLogger.log%28+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+&patternType=literal), so we consider an event to be anything logged by this. We use [object action framework in Proper Case](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/) for our naming. For example, in eventLogger this would show up as 'SearchSubmitted', and in Amplitude it's converted to 'Search Submitted'.
 
-All events from eventLogger are sent to Amplitude except if explicitely added to a denylist in the scheduled query.  
+All events from eventLogger are sent to Amplitude except if explicitely added to a denylist in the scheduled query.
 
 ## A/B testing in Amplitude
 
