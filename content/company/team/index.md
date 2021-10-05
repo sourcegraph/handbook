@@ -180,13 +180,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [felix@sourcegraph.com](mailto:felix@sourcegraph.com), [felixfbecker](https://github.com/felixfbecker), [Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)
 - Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
 
-## Quin Keough
-
-- SDR
-- Phoenix AZ, USA 🇺🇸
-- [quin@sourcegraph.com](mailto:quin@sourcegraph.com), [quinwith1n](https://github.com/qwith1n)
-- Quin has always loved traveling and seeing the world. He lives in Phoenix with his wife and 2 french bulldogs. Quin also enjoys most sports, especially ping pong, reading, and playing his guitar. Although his French bulldogs do not enjoy it when he attempts to play the guitar.
-
 ## Asdine El Hrychy
 
 - First name is pronounced _as-deen_, last name _el-ree-tchee_
