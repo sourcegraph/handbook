@@ -83,9 +83,9 @@ Be sure to make the timeframe you choose to use clear, whether a quarter or roll
 
 What are the measurable goals this team is going after in the chosen time period.
 
-### Themes
+### Focus areas
 
-What are high level themes, and why? What are the groupings of features/problems to solve that you are focusing on in that period? How do they relate to the goals you have
+What are high level focus areas, and why? What are the groupings of features/problems to solve that you are focusing on in that period? How do they relate to the goals you have
 
 > Examples:
 >
@@ -93,16 +93,16 @@ What are high level themes, and why? What are the groupings of features/problems
 > - Cloud-first
 > - Adoption
 
-- Theme
-  - Theme extra detail
-- Theme
-  - Theme extra detail
-- Theme
-  - Theme extra detail
+- Focus area
+  - Focus area extra detail
+- Focus area
+  - Focus area extra detail
+- Focus area
+  - Focus area extra detail
 
 ### What's next and why
 
-More detailed plans related back to the themes and goals. If your time frame covers more than a quarter, it would be valuable to give some indication of time within the plans in this section, to help others appreciate the likely ETA of value.
+More detailed plans related back to the focus areas and goals. If your time frame covers more than a quarter, it would be valuable to give some indication of time within the plans in this section, to help others appreciate the likely ETA of value.
 
 ### What we're not working on & why
 
