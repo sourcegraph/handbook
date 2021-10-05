@@ -1,5 +1,9 @@
 # Prioritizing
 
+## Personas
+
+We use personas to understand our users and what they need as we prioritize our work. More can be read on the [personas page](../../marketing/personas.md) in the marketing handbook, which also links to a presentation with the actual personas in it.
+
 ## Saying "no"
 
 We receive tons of feature requests and bug reports, more than we can handle. This means we must frequently say "no" or prioritize things less urgently than some people would like. Our job is to find the most important things to work on.
