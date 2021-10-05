@@ -10,27 +10,28 @@ Should you have questions on any of these systems, you can post in #people-ops o
 
 **Resources:**
 
- - **Running a pre-built report:** you have access to a pre-built "Manager starter report" that lists all of your direct reports by team and includes full names, pronouns, birthdays, hire date, compensation and more). You can reference this [short video](https://drive.google.com/file/d/19mtcdTK0PgB-YOkODgda3ibLpzY3oyBw/view?usp=sharing) for a step by step walkthrough.
- - **Running a custom report:** you also have access to run a custom report based on any other fields you would find helpful by clicking "New Report" in the "Reports" tab.
- - **Adding celebration calendars:** to add anniversary and birthday calendars to your Google calendar, use the following workflow for each calendar: 
-    - Go to [Google Calendar](https://calendar.google.com/)
-    - Click **Settings**
-    - Click **Add calendar**
-    - Click **From URL**
-    - Copy and paste link in **URL of calendar** box
-    - Click **Add calendar**.
-   
-   **Celebration calendars**
-   - **Anniversaries:** [https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86](https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86)
-   - **Birthdays:** [https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665](https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665) 
+- **Running a pre-built report:** you have access to a pre-built "Manager starter report" that lists all of your direct reports by team and includes full names, pronouns, birthdays, hire date, compensation and more). You can reference this [short video](https://drive.google.com/file/d/19mtcdTK0PgB-YOkODgda3ibLpzY3oyBw/view?usp=sharing) for a step by step walkthrough.
+- **Running a custom report:** you also have access to run a custom report based on any other fields you would find helpful by clicking "New Report" in the "Reports" tab.
+- **Adding celebration calendars:** to add anniversary and birthday calendars to your Google calendar, use the following workflow for each calendar:
 
+  - Go to [Google Calendar](https://calendar.google.com/)
+  - Click **Settings**
+  - Click **Add calendar**
+  - Click **From URL**
+  - Copy and paste link in **URL of calendar** box
+  - Click **Add calendar**.
+
+  **Celebration calendars**
+
+  - **Anniversaries:** [https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86](https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86)
+  - **Birthdays:** [https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665](https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665)
 
 ## Lattice
 
 [Lattice](https://sourcegraph.latticehq.com/login?message=session) is the system we use for formal feedback such as:
 
-* [Onboarding feedback milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months. 
-* [360 Impact reviews](https://about.sourcegraph.com/handbook/people-ops/impact-reviews), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
+- [Onboarding feedback milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
+- [360 Impact reviews](https://about.sourcegraph.com/handbook/people-ops/impact-reviews), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
 
 Note: if you are a new manager and require access to past review history for your direct reports, please contact People Ops.
 
@@ -60,14 +61,15 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 ## TripActions
 
-[TripActions](https://tripactions.com/) is the platform we use for booking all company-sponsored  travel and accommodations. As a manager, you will be able to view your team's travel budget usage, review travel requests, and receive alerts for any out of policy bookings for your direct reports.
+[TripActions](https://tripactions.com/) is the platform we use for booking all company-sponsored travel and accommodations. As a manager, you will be able to view your team's travel budget usage, review travel requests, and receive alerts for any out of policy bookings for your direct reports.
 
 **Resources:**
 
 - [Booking travel through TripActions](https://handbook.sourcegraph.com/people-ops/tripactions#booking-travel-through-tripactions)
 
 ## Assemble [WIP]
+
 [Assemble](https://www.assemble.inc/) is the platform we use for storing compensation band information for every department and role we currently have. Assemble serves two main functions for managers:
 
-* **Hiring:** it stores the compensation data of each level for the role(s) you are hiring for.
-* **Leveling and calibration:** it's integrated with BambooHR, so you are able to view your direct reports compensation against our current bands. It visualizes the compensation band data to easily identify discrepancies and trends. 
+- **Hiring:** it stores the compensation data of each level for the role(s) you are hiring for.
+- **Leveling and calibration:** it's integrated with BambooHR, so you are able to view your direct reports compensation against our current bands. It visualizes the compensation band data to easily identify discrepancies and trends.
