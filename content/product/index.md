@@ -19,7 +19,7 @@ The roadmap for the product organization as well as individual teams can be foun
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
-- [How to add metrics](../ops/bizops/analytics.md#How-to)
+- [How to add metrics](../bizops/analytics.md#How-to)
 
 ## Product team initiatives
 

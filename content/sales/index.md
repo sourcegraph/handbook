@@ -69,7 +69,7 @@ See [roles](./roles/index.md) page.
 
 ## Definitions
 
-See [finance definitions](../ops/finance/index.md#definitions) for definitions of financial terms such as [ARR](../ops/finance/index.md#ARR), [IARR](../ops/finance/index.md#IARR), [bookings](../ops/finance/index.md#booking) and more.
+See [finance definitions](../finance/index.md#definitions) for definitions of financial terms such as [ARR](../finance/index.md#ARR), [IARR](../finance/index.md#IARR), [bookings](../finance/index.md#booking) and more.
 
 ### Customer
 

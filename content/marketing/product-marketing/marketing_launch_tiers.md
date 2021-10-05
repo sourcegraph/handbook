@@ -4,7 +4,7 @@ All product and feature launches should be assigned a launch tier of L1, L2, or 
 
 The marketing launch tier should be established as early in the product development lifecycle as possible (during beta at the latest).
 
-In reviewing the [PMM Roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) monthly, product and marketing leadership determine which features contained therein are L1, L2, or L3 levels. The tier of a given upcoming feature can always be found (once determined) in the row at the bottom of each feature slide.
+In reviewing the [PMM Roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) monthly, product and marketing leadership determine which features contained therein are L1, L2, or L3 levels. The tier of a given upcoming feature can always be found (once determined) in the talk track section of each feature slide.
 
 ## L1 launch
 

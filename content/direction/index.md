@@ -1,6 +1,6 @@
 # Sourcegraph direction
 
-Product strategy is the bridge (how we're going to get there) between our [vision](../company/strategy.md) (where we're headed) and the [individual team and org directions](index.md##per-area-direction-pages) (what we are going to do).
+Product strategy is the bridge (how we're going to get there) between our [vision](../company/strategy.md) (where we're headed) and the [individual team and org directions](index.md#per-area-direction-pages) (what we are going to do).
 
 Want to help us achieve these goals? [We're hiring!](https://github.com/sourcegraph/careers)
 
