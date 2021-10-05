@@ -1507,3 +1507,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [stephanx](https://github.com/stephanx)
 - [stephan.budge@sourcegraph.com](mailto:stephan.budge@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/stephanbudge/)
 - Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years. Later, he taught English in Santiago, Chile for four years. After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.
+
+## Marisa Kanemoto (she/her)
+
+- Product Designer
+- Berkeley, California, United States 🇺🇸
+- GitHub: [marisak](https://github.com/marisak)
+- [marisa.kanemoto@sourcegraph.com](mailto:marisa.kanemoto@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/marisa-kanemoto/), [Website](https://marisa-design.com)
+- Marisa grew up in the Bay Area and happily resides in Berkeley with her partner. She's enthusiastic about reading sci-fi and fantasy novels, and helps to moderate an online figure drawing community. Marisa is eagerly awaiting a Bay Area WNBA team.
