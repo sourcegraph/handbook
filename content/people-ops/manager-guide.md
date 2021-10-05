@@ -1,8 +1,8 @@
 # Manager accounts guide
 
-As a manager, you will have manager-specific permissions for several different accounts, which will allow you to access specific information about your team in order to better support them. This page is intended to be a resource for managers to help them navigate these different accounts and systems. In these systems you will be able to find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
+As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your team in order to better support them. This page is intended to be a resource to help you navigate these different accounts. In these accounts you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
 
-For questions about these systems, please reach out to [People Ops](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
+For questions about these systems, please reach out to People Ops by referencing [this sheet](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
 
 ## BambooHR
 
