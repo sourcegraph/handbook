@@ -11,6 +11,6 @@ If we are linking the Buddy program handbook page (handbook/people-ops/onboardin
 However, if we want to link the Buddy program handbook page to Engineering onboarding page (handbook/engineering/onboarding.md) we would need to use ../ to go back in the directory and then indicate the correct path: **../../engineering/onboarding.md**
 
 **Why do we do this?**
-While it is possible to use absolute URLs (ones that include the domain e.g. https://about.sourcegraph.com/handbook) to link to pages, if the domain changes, it is more difficult to update the URLs compared to using relative URLs.
+While it is possible to use absolute URLs (ones that include the domain e.g. https://handbook.sourcegraph.com) to link to pages, if the domain changes, it is more difficult to update the URLs compared to using relative URLs.
 
 _Remember that if the .md file name changes or the directory changes (because you’ve moved the file to another team’s page, for example) you will need to update the path._

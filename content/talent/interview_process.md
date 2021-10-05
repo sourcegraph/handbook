@@ -60,7 +60,7 @@ Even if candidates prefer to batch all their interviews together, it might not b
 
 If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates' and the candidate's time.
 
-To schedule an interview with a candidate, please work with your recruiter or Slack @hiring. You can see a list of Recruiters [here](https://about.sourcegraph.com/handbook/talent/hiring/how_recruiting_interfaces_with_hiring_managers#the-talent-team).
+To schedule an interview with a candidate, please work with your recruiter or Slack @hiring. You can see a [list of Recruiters](index.md#talent-team-members).
 
 ## Providing interview feedback
 

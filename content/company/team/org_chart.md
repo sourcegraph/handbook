@@ -1,6 +1,6 @@
 # Org chart
 
-The org chart is generated automatically. [Need to edit it?](#how-to-edit)
+The org chart is generated automatically from team pages in the handbook ([need to edit it?](#how-to-edit)). Sourcegraph teammates can see a complete and up-to-date org chart for the entire company in [BambooHR](https://sourcegraph.bamboohr.com/).
 
 <div id="org-chart-loading">
 	Generating org chart...
@@ -18,19 +18,15 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 ## [Marketing](../../marketing/index.md#members)
 
-## Operations
+## [People Ops](../../people-ops/index.md#people-ops-team-members)
 
-<!-- When updating the ops team list below, please also update handbook/index.md. -->
+## [Business Operations & Strategy](../../bizops/index.md#members)
 
-### [People Ops](../../people-ops/index.md#people-ops-team-members)
+## [Finance & Accounting](../../finance/index.md#members)
 
-### [Business Operations & Strategy](../../ops/bizops/index.md#members)
+## [Legal](../../legal/index.md#members)
 
-### [Finance & Accounting](../../ops/finance/index.md#members)
-
-### [Legal](../../ops/legal/index.md#members)
-
-### [Tech Ops](../../ops/tech-ops/index.md#members)
+## [Tech Ops](../../tech-ops/index.md#members)
 
 ## Sales
 

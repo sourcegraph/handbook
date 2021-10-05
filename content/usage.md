@@ -7,7 +7,7 @@
    - If the handbook has what you need, you're done!
    - If the handbook is missing what you need or is inaccurate/outdated, ask for help (on Slack, Zoom, etc.) and ensure the handbook is updated.
 
-Join the #handbook Slack channel to see proposed changes.
+Join the #handbook-updates Slack channel to see proposed changes.
 
 ## Handbook guidelines
 
@@ -23,7 +23,7 @@ Join the #handbook Slack channel to see proposed changes.
 1. If you want to change a guideline or process, propose an edit to the handbook (by creating a pull request). Discuss the change on the pull request.
    - Don't discuss or draft the changes in some other channel (Slack, Google Doc, etc.) first. If (for example) you start discussing a proposed change on Slack and then create a PR, you'll end up with half of the discussion on Slack and the other half on the PR, which results in confusion and duplication.
    - The pull request is where you justify and describe the change; your edits to handbook content should reflect the final state that you want. For example, to propose changing the format of our company meeting, edit [company_meeting.md](communication/company_meeting.md) to be how you'd like, instead of adding a new section to that file to propose your changes. As a reviewer, keep in mind that a pull request with a definitively written edit is still just a proposal that's up for discussion.
-   - Learn [how to propose an edit the handbook](editing.md).
+   - Learn [how to propose an edit the handbook](editing/index.md).
 1. If someone replies to a question with a newly typed-out answer that differs from what's in the handbook, gently ask them to either follow what's in the handbook or propose an edit to the handbook.
 1. To announce a changed or newly documented process, post a link (in Slack, and elsewhere as needed) to the merged commit that contains the before-and-after changes to the handbook.
    - In your message announcing the change, just include `[Handbook/process] change:`, the commit message subject, and the link. Don't write a separate summary of the change (if you feel the need to do so, you should have used a better commit message).
@@ -50,35 +50,29 @@ To be handbook-first, we need to be very diligent about maintaining the handbook
 
 ## Searching the handbook
 
-Search the handbook using the search box in the top navigation on https://about.sourcegraph.com/handbook.
+Search the handbook using the search box in the top navigation on https://handbook.sourcegraph.com.
 
-### Google Chrome
+### Chrome/Firefox search shortcut
 
-If you use Google Chrome, you can add a Sourcegraph handbook search shortcut to the address bar.
-
-#### Setup
+For Google Chrome:
 
 1. Open Chrome settings > **Manage search engines** (or go to chrome://settings/searchEngines directly).
 1. Next to "Other search engines", press the **Add** button.
 1. In the "Add search engine" form, enter:
    - Search engine: `Sourcegraph handbook`
    - Keyword: `hb` (or some other shortcut of your choosing)
-   - URL with %s in place of query: `https://about.sourcegraph.com/handbook#stq=%s`
+   - URL with %s in place of query: `https://handbook.sourcegraph.com/#stq=%s`
 1. Press the **Add** button.
 
-### Firefox
+For Firefox:
 
-If you use Firefox, you can add a Sourcegraph handbook search shortcut to the address bar
-
-#### Setup
-
-1. Right-click the search bar on https://about.sourcegraph.com/handbook.
+1. Right-click the search bar on https://handbook.sourcegraph.com.
 1. Choose `Add a keyword for this Search`.
 1. Enter a keyword that you would like to use (e.g. `hb`).
 1. Open your bookmarks and edit the handbook bookmark that was just created
-1. Change the URL on the bookmark to `https://about.sourcegraph.com/handbook#stq=%s`
+1. Change the URL on the bookmark to `https://handbook.sourcegraph.com/#stq=%s`
 
-### Usage
+Then, to use the browser search shortcut:
 
 1. Focus in Chrome’s or Firefox's address bar (by clicking, tapping, or pressing <kbd>⌘L</kbd> on macOS or <kbd>Ctrl+L</kbd> on Linux).
 1. Type the keyword you entered previously (e.g., `hb`) then press <kbd>Tab</kbd>.
@@ -91,7 +85,7 @@ Being [handbook-first](#why-handbook-first) requires the handbook to be up to da
 1. Many handbook changes require updating references and mentions across multiple pages (e.g., changing a product usage metric's name or a dashboard's URL might require updates to 10+ pages across the product, marketing, and sales sections). In wikis and Google Docs, there is no easy way to propose a _group_ of changes to multiple sections or pages. In Google Docs, for example, each edit operation is shown separately. As a result, people making and reviewing edits can easily miss other places that need to be updated.
 1. Many handbook changes are collaborative and need to be reviewed, revised, and commented on by other teammates. Wikis don't make this easy or possible, and Google Docs has very limited review and no revision capabilities.
 
-We chose Markdown files in a Git repository for the handbook because it allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing.md).
+We chose Markdown files in a Git repository for the handbook because it allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing/index.md).
 
 ## Why make this handbook public?
 

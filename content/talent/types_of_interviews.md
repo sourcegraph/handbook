@@ -136,7 +136,7 @@ In addition to the above interviews, some departments have department-specific i
 
   - Team org: [Sales team](../sales/index.md) and [Marketing team](../marketing/index.md)
   - [Publicly referenceable customer logos](https://about.sourcegraph.com/customers/)
-  - Everything at [Sourcegraph](https://about.sourcegraph.com/) and our [handbook](https://about.sourcegraph.com/handbook) should be assumed to be accurate and up to date.
+  - Everything at [Sourcegraph](https://about.sourcegraph.com/) and our [handbook](https://handbook.sourcegraph.com) should be assumed to be accurate and up to date.
 
   A few pointers:
 
