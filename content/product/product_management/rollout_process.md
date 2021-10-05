@@ -38,7 +38,9 @@ Within the document and as part of keeping in sync, you should track the followi
 - What (if any) parts of the feature will have public communications minimized so that they can be used by PR/marketing around the launch
 
 It’s expected that these points will change over the period heading towards launch; the purpose is not to get everything right from the beginning and lock it in, but to stay on the same page on the important points as they evolve. The same procedure would also be followed for milestone-type features, such as hitting a certain repository indexing milestone, but the document would be relatively simpler in that case.
+1. Product, product marketing, and comms will work together on the launch and comms plan for every stage through GA to ensure a cohesive message for prospects, customers, and the market. 
 
+1. All customer-facing/public comms should be reviewed by marketing for L1 launches. 
 ## Sourcegraph Cloud
 
 Sourcegraph Cloud is continuously deployed with all new updates to master. We maintain a [releasability contract](../../engineering/continuous_releasability.md) and require all new features to be released behind a feature flag to ensure that functionality can be turned off if a problem arises.
