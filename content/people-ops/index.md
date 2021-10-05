@@ -69,6 +69,12 @@ WIP
 - [Mental health and wellness initiatives](mental-health.md)
 - [Modern Health](modern-health.md)
 
+## Manager training and development
+
+This section will house various resources and videos for manager training and development. More coming soon!
+
+- [Manager accounts guide](manager-guide.md)
+
 ## Other policies
 
 - [Anti-corruption/anti-bribery](anti-corruption.md)
