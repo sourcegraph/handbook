@@ -6,7 +6,7 @@ We want our teammates to be happy, healthy, and productive. In order to best sup
 
 ### 🏡 All remote
 
-We are an [all-remote team](../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](../ops/finance/spending-company-money.md).
+We are an [all-remote team](../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](../finance/spending-company-money.md).
 
 ### 🏖️ Flexible PTO
 
@@ -38,11 +38,11 @@ Your paycheck automatically includes a fixed reimbursement for $75 of mobile pho
 
 ### 🎧 Desk set-up
 
-We want to ensure all teammates have a workspace that will make them comfortable and productive, so we offer a $2,000 [desk set-up budget](../ops/finance/spending-company-money.md#desk-set-up) for all full-time teammates to provide them with any necessary equipment to make that possible.
+We want to ensure all teammates have a workspace that will make them comfortable and productive, so we offer a $2,000 [desk set-up budget](../finance/spending-company-money.md#desk-set-up) for all full-time teammates to provide them with any necessary equipment to make that possible.
 
 ### 🏢 Co-working space
 
-We offer our teammates a $300-500 [monthly budget](../ops/finance/spending-company-money.md#recurring-expenses) to join a coworking space. Our intention is not for teammates to use this budget to rent set/permanent office spaces, but rather to have an alternative, flexible space from which to work if and when they may not be able to work from their homes productively. With the wide variety of coworking spaces and options available throughout the world, we ask that teammates stick to options within this budget, including all amenities and parking - teammates absorb any additonal cost for more expensive options, locations and/or amenities, such as private offices within coworking spaces, which are often not necessary. We also encourage teammates to consider coworking spaces where subscriptions include access to their spaces in various locations, particularly for teammates who enjoy travelling. If your circumstances are exceptional and require spend outside of this budget, feel free to reach out to the PeopleOps team.
+We offer our teammates a $300-500 [monthly budget](../finance/spending-company-money.md#recurring-expenses) to join a coworking space. Our intention is not for teammates to use this budget to rent set/permanent office spaces, but rather to have an alternative, flexible space from which to work if and when they may not be able to work from their homes productively. With the wide variety of coworking spaces and options available throughout the world, we ask that teammates stick to options within this budget, including all amenities and parking - teammates absorb any additonal cost for more expensive options, locations and/or amenities, such as private offices within coworking spaces, which are often not necessary. We also encourage teammates to consider coworking spaces where subscriptions include access to their spaces in various locations, particularly for teammates who enjoy travelling. If your circumstances are exceptional and require spend outside of this budget, feel free to reach out to the PeopleOps team.
 
 ### 🚚 Moving help
 

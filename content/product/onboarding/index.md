@@ -96,7 +96,7 @@ Remember:
   - Watch [Figma for Sourcegraphers part 2 (intro to the Wildcard Design System)](https://drive.google.com/file/d/1kfT3PVvTag_e0RXLAt6nndf6fS2n1Slv/view)
   - Read [Figma developers guide](https://www.smashingmagazine.com/2020/09/figma-developers-guide/)
 - Looker
-  - [How Sourcegraph uses Looker](../../ops/bizops/analytics.md#using-looker)
+  - [How Sourcegraph uses Looker](../../bizops/analytics.md#using-looker)
 - UserTesting.com
   - Walk through UserTesting.com with one of the designers on the team
 
