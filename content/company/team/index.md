@@ -180,7 +180,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [felix@sourcegraph.com](mailto:felix@sourcegraph.com), [felixfbecker](https://github.com/felixfbecker), [Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)
 - Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
 
-
 ## Asdine El Hrychy
 
 - First name is pronounced _as-deen_, last name _el-ree-tchee_
