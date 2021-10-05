@@ -13,7 +13,7 @@ This is the comment that [Nick](../../company/team/index.md#nick-snyder-he-him) 
 >
 > We are an equal opportunity workplace and our all-remote team is spread across the world. We embrace diversity and welcome people from all backgrounds and communities.
 >
-> Transparency is a core value of ours and you can learn more about how we operate by reading our handbook: https://about.sourcegraph.com/handbook.
+> Transparency is a core value of ours and you can learn more about how we operate by reading our handbook: https://handbook.sourcegraph.com.
 >
 > If you want to make software development more accessible to everyone, we would love to review your application to one of our many open roles!
 > https://boards.greenhouse.io/sourcegraph91

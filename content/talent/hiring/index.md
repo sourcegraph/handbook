@@ -48,7 +48,7 @@ The source-of-truth for our open positions is [our careers page](https://boards.
 
 ## Job descriptions
 
-Each job description focuses on the impact a candidate will make vs. a list of requirements. Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies. You can read more about our job description philosophy [here](https://about.sourcegraph.com/handbook/talent/hiring/interview_process#creating-a-job-description).
+Each job description focuses on the impact a candidate will make vs. a list of requirements. Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies. You can read more about our job description philosophy [here](../interview_process.md#creating-a-job-description).
 
 We want a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, apply anyway! We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 
