@@ -20,7 +20,7 @@ We build the Code Graph to make working with code easier, regardless of how much
 
 > We want to make using Sourcegraph to understand and modify code so easy that anyone can do it, including people not traditionally considered developers. We want to [democratize coding](../../company/strategy.md#10-year-vision) by making it so that everyone in the company can engage with the organization's code, safely making changes to implement their department's priorities and interests, without need for an intermediary to do it for them.
 
-## Focus Areas
+## Themes
 
 We are focused on several themes to help make our one year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product area is delivering, take a look at the individual team direction pages linked at the [top of this page](#code-graph).
 
