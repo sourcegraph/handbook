@@ -29,7 +29,7 @@ According to [The Case for 'Developer Experience'](https://future.a16z.com/the-c
 - Abstraction tools, which simplify tasks away by providing building blocks, sane defaults, and frameworks to build on. Most existing developer tools are of this variety.
 - Complexity-exploring tools, which help with complex problems such as finding and fixing issues in existing, heterogeneous software systems. I.e., ones that were created using the existing tools developers use today, with different languages, frameworks, and versions in constant flux, all interacting with each other.
 
-This emerging need for complexity-exploring tooling is one we see Sourcegraph playing an important role in. "The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden, and we are mindfully designing our the Code Graph to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution."
+This emerging need for complexity-exploring tooling is one we see Sourcegraph playing an important role in. "The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden”, and we are mindfully designing our the Code Graph to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution.
 
 Practically, this means a few things as we think about how the Code Graph should work:
 
