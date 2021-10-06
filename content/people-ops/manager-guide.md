@@ -1,71 +1,75 @@
 # Manager accounts guide
 
-As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your team in order to better support them. This page is intended to be a resource to help you navigate these different accounts. In these accounts you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
+As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your direct reports in order to better support them. This page is intended to be a resource to help you navigate these different accounts and systems, which hold important and sensisitive information about your teams. In these systems you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
 
-For questions about these systems, please reach out to People Ops by referencing [this sheet](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
+Should you have questions on any of these systems, you can post in [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) on Slack or reach out to the appropriate contact in our [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
 
 ## BambooHR
 
-[BambooHR](https://sourcegraph.bamboohr.com/login.php?r=%2Fhome%2F) is our source of truth for all teammate data and information.
-
-**When to use:**
-
-- To view information like start dates, compensation, titles, birthdays, and anniversaries for your team.
+[BambooHR](https://sourcegraph.bamboohr.com/login.php?r=%2Fhome%2F) is the source of truth for all teammate data and information. As a manager, your permissions allow you to view information and run reports on fields like start dates, compensation, titles, birthdays, and anniversaries for your direct reports and skip-level reports.
 
 **Resources:**
 
-- **Running reports:** to run reports in BambooHR, reference this [step-by-step guide](https://drive.google.com/file/d/19mtcdTK0PgB-YOkODgda3ibLpzY3oyBw/view?usp=sharing).
-- **Viewing celebrations calendars:** to add teammate anniversary and birthday calendars to your Google calendar, use the links below and perform the following workflow _per each link_: go to [Google Calendar](https://calendar.google.com/), click **Settings**, click **Add calendar**, click **From URL**, copy and paste link in **URL of calendar** box, click **Add calendar**.
-  - Anniversaries: [https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86](https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86)
-  - Birthdays: [https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665](https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665)
+- **Running a pre-built report:** you have access to a pre-built "Manager starter report" that lists all of your direct reports by team and includes full names, pronouns, birthdays, hire date, compensation and more). You can reference this [short video](https://drive.google.com/file/d/19mtcdTK0PgB-YOkODgda3ibLpzY3oyBw/view?usp=sharing) for a step by step walkthrough.
+- **Running a custom report:** you also have access to run a custom report based on any other fields you would find helpful by clicking "New Report" in the "Reports" tab.
+- **Adding celebration calendars:** to add anniversary and birthday calendars to your Google calendar, use the following workflow for each calendar:
+
+  - Go to [Google Calendar](https://calendar.google.com/)
+  - Click **Settings**
+  - Click **Add calendar**
+  - Click **From URL**
+  - Copy and paste link in **URL of calendar** box
+  - Click **Add calendar**.
+
+  **Celebration calendars**
+
+  - **Anniversaries:** [https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86](https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86)
+  - **Birthdays:** [https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665](https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665)
 
 ## Lattice
 
-[Lattice](https://sourcegraph.latticehq.com/login?message=session) houses our [Onboarding feedback milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones) and [360 Impact reviews](https://about.sourcegraph.com/handbook/people-ops/impact-reviews).
+[Lattice](https://sourcegraph.latticehq.com/login?message=session) is the system we use for formal feedback such as:
 
-**When to use:**
+- [Onboarding feedback milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
+- [360 Impact reviews](https://about.sourcegraph.com/handbook/people-ops/impact-reviews), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
 
-- To track your new direct report’s progress in onboarding during their first, second, and third month.
-- To complete 360 Impact reviews for each of your direct reports, which are launched automatically every 6 months following from a teammate's start date.
+Note: if you are a new manager and require access to past review history for your direct reports, please contact People Ops.
 
 **Resources:**
 
-- **Navigating Lattice:** to see how to navigate Lattice as a manager, watch [this video](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing).
+- [Impact review resources](https://handbook.sourcegraph.com/people-ops/impact-reviews#resources-for-all-teammates-and-managers)
+- [Navigating Lattice as a manager](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
 
 ## Process Street
 
-[Process Street](https://app.process.st/login) hosts onboarding checklists for all teammates to complete during their onboarding process.
-
-**When to use:**
-
-- To monitor the onboarding progress of your new direct report as you and your direct report work through tasks.
+[Process Street](https://app.process.st/login) is the system that hosts our onboarding and offboarding checklists and tasks. As a manager, you will be tagged in important tasks within these checklists to set your direct reports are set up for success, and it will be your responsibility to ensure all necessary tasks assigned to you are completed in a timely mannger to ensure a smooth onboarding and offboarding.
 
 **Resources:**
 
-- **Onboarding checklist:** to view onboarding steps that all new hires have to go through, visit [this page](https://about.sourcegraph.com/handbook/people-ops/onboarding).
+- [Onboarding checklist](https://about.sourcegraph.com/handbook/people-ops/onboarding)
 
 ## Roots
 
-[Roots](https://www.tryroots.io/pto) is our paid time off (PTO) management system, hosted in Slack.
+[Roots](https://www.tryroots.io/pto) is our paid time off (PTO) management system that is hosted within Slack. Roots allows all teammates to notify their manager and delegate any tasks during their PTO to appropriate teammates directly via Slack's interface. As a manager, you are able to pull reports on your team's historical and upcoming PTO.
 
-**When to use:**
-
-- To view and pull reports on all PTO, both upcoming and history, for your team.
+Please note: we do _not_ use BambooHR's PTO request system. If your direct report submits a PTO request via BambooHR, please hit "reject" and direct them to Roots to resubmit.
 
 **Resources:**
 
-- **Running reports:** to run reports in Roots, reference this [document](https://docs.google.com/document/d/1yP1gwuGnCIS7BlSqTV8wJKmRH0WeOVHDvsJbVNpYWb4/edit).
-- **PTO policy:** to review our PTO policy, visit [this page](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours).
+- [Roots Manager overview](https://docs.google.com/document/d/1yP1gwuGnCIS7BlSqTV8wJKmRH0WeOVHDvsJbVNpYWb4/edit)
+- [Sourcegraph PTO policy](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours)
 
 ## TripActions
 
-[TripActions](https://tripactions.com/) is where we book all company-sponsored hotels, lodging, flights, and transportation.
-
-**When to use:**
-
-- To review travel budget usage of your direct reports.
-- To review any out of policy bookings for your direct reports. You will receive an alert via email if this happens.
+[TripActions](https://tripactions.com/) is the platform we use for booking all company-sponsored travel and accommodations. As a manager, you will be able to view your team's travel budget usage, review travel requests, and receive alerts for any out of policy bookings for your direct reports.
 
 **Resources:**
 
-- **TripActions handbook page:** to see more details on TripActions, visit [this page](https://about.sourcegraph.com/handbook/people-ops/TripActions).
+- [Booking travel through TripActions](https://handbook.sourcegraph.com/people-ops/tripactions#booking-travel-through-tripactions)
+
+## Assemble [WIP]
+
+[Assemble](https://www.assemble.inc/) is the platform we use for storing compensation band information for every department and role we currently have. Assemble serves two main functions for managers:
+
+- **Hiring:** it stores the compensation data of each level for the role(s) you are hiring for.
+- **Leveling and calibration:** it's integrated with BambooHR, so you are able to view your direct reports compensation against our current bands. It visualizes the compensation band data to easily identify discrepancies and trends.
