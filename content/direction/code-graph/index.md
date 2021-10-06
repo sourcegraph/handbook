@@ -24,12 +24,12 @@ We build the Code Graph to make working with code easier, regardless of how much
 
 ### Abstraction vs. complexity
 
-There are two ways to think about categories of developer tools or features today:
+According to [The Case for 'Developer Experience'](https://future.a16z.com/the-case-for-developer-experience/) (by [Jean Yang](https://twitter.com/jeanqasaur)), there are two ways to think about categories of developer tools or features today:
 
 - Abstraction tools, which simplify tasks away by providing building blocks, sane defaults, and frameworks to build on. Most existing developer tools are of this variety.
 - Complexity-exploring tools, which help with complex problems such as finding and fixing issues in existing, heterogeneous software systems. I.e., ones that were created using the existing tools developers use today, with different languages, frameworks, and versions in constant flux, all interacting with each other.
 
-This emerging need for complexity-exploring tooling is one we see Sourcegraph playing an important role in. The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden, and we are mindfully designing our the Code Graph to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution.
+This emerging need for complexity-exploring tooling is one we see Sourcegraph playing an important role in. "The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden”, and we are mindfully designing our the Code Graph to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution.
 
 Practically, this means a few things as we think about how the Code Graph should work:
 
@@ -37,7 +37,7 @@ Practically, this means a few things as we think about how the Code Graph should
 1. By surfacing relationships (not just code itself, but data types, configution, and more) we help you build a clear, meaningful model of your software.
 1. We make this information easy to explore by revealing complexity as needed, with the most relevant information up front, easy to understand, and easy to share.
 
-If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code. You can read more on this principle in [The Case for 'Developer Experience'](https://future.a16z.com/the-case-for-developer-experience/) (by [Jean Yang](https://twitter.com/jeanqasaur)).
+If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code.
 
 ## Themes
 
