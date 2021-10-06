@@ -170,8 +170,11 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 export const getStaticPaths: GetStaticPaths = async () => {
     const pages = await loadAllPages(['slug'])
 
+    // Omit the root index path because it's rendered by `index.tsx`.
+    const pagesWithoutRootIndex = pages.filter(p => p.slugPath !== '');
+
     const paths = {
-        paths: pages.map(post => ({
+        paths: pagesWithoutRootIndex.map(post => ({
             params: {
                 // The slug is an array of directories in the path.
                 slug: post.slugPath.split('/'),
