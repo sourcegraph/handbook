@@ -1,6 +1,11 @@
 import globby from 'globby'
 
 function markdownFilePathToSlugPath(markdownFilePath: string): string {
+    if (markdownFilePath === 'index.md') {
+        // Special case: the root index
+        markdownFilePath = ''
+    }
+
     if (markdownFilePath.endsWith('/index.md')) {
         return markdownFilePath.replace(/\/index.md$/, '')
     }
