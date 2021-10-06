@@ -22,7 +22,7 @@ The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-s
   - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
   - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
 - [Delivery](delivery/index.md)
-  - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../roles.md#engineering-manager))
+  - [Stephan Budge](../../company/company/team/index.md#stephan-budge-hehim) ([Engineering Manager](../roles.md#engineering-manager))
   - [Dan Mckean](../../company/team/index.md#dan-mckeen-he-him) (acting [Product Manager](../../product/roles/index.md#product-manager))
   - [Geoffrey Gilmore](../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../company/team/index.md#dave-try)
@@ -40,6 +40,10 @@ The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-s
   - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
   - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
   - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
+- Engineering Education
+  - Marek Zaluski 
+- Sourcegraph Handbook
+  - [Mary Belzer](../../company/team/index.md#mary-belzer-sheher) ([Product Manager](../../product/roles/index.md#product-manager))
 
 ## Principles and practices
 
