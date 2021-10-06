@@ -33,9 +33,9 @@ This emerging need for complexity-exploring tooling is one we see Sourcegraph pl
 
 Practically, this means a few things as we think about how the Code Graph should work:
 
-1. Sourcegraph fits in to your existing ecosystem – wherever you host your code, whatever language it's in, or however many repos you use. 
+1. Sourcegraph fits in to your existing ecosystem – wherever you host your code, whatever language it's in, or however many repos you use.
 1. By surfacing relationships (not just code itself, but data types, configution, and more) we help you build a clear, meaningful model of your software.
-1. We make this information easy to explore by revealing complexity as needed, with the most relevant information up front, easy to understand, and easy to share. 
+1. We make this information easy to explore by revealing complexity as needed, with the most relevant information up front, easy to understand, and easy to share.
 
 If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code. You can read more on this principle in this article from a16z on [the case for developer experience](https://future.a16z.com/the-case-for-developer-experience/).
 
