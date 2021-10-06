@@ -41,7 +41,7 @@ The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-s
   - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
   - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
 - Engineering Education
-  - Marek Zaluski 
+  - Marek Zaluski
 - Sourcegraph Handbook
   - [Mary Belzer](../../company/team/index.md#mary-belzer-sheher) ([Product Manager](../../product/roles/index.md#product-manager))
 
