@@ -39,7 +39,7 @@ Practically, this means a few things as we think about how the Code Graph should
 
 If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code. You can read more on this principle in this article from a16z on [the case for developer experience](https://future.a16z.com/the-case-for-developer-experience/).
 
-## Focus Areas
+## Themes
 
 We are focused on several themes to help make our one year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product area is delivering, take a look at the individual team direction pages linked at the [top of this page](#code-graph).
 

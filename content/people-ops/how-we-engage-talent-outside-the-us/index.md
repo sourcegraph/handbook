@@ -64,7 +64,7 @@ Contractors are not eligible for all employee benefits (e.g. healthcare, life in
 
 ### Payments
 
-Contractors submit an invoice at the end of each month in Veem or Bill.com, including any reimbursable and recurring expenses.
+Contractors submit an invoice at the end of each month (including any reimbursable and recurring expenses) via email to our accounting team, Sourcegraph@Bill.com, with finance@sourcegraph.com copied. All invoices will be paid through Veem.
 
 ### Onboarding
 
