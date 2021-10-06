@@ -28,7 +28,7 @@ Launch tier levels (L1, L2, and L3) are also an important term to be aware of, a
 
 Product team members are empowered to communicate directly with customers, internal stakeholders, or anyone else. Sometimes it can be helpful to have someone review your communication before sending it, especially if it is going to a wide or unfamiliar audience. If you want, the Marketing and PR teams are available to help any time: simply ask in #marketing and someone will be happy to review your communication.
 
-When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
+When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
 
 ## Release early, release often
 
