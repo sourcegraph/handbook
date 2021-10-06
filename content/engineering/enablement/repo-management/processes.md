@@ -20,7 +20,7 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
 
 1. Make sure there is an issue - if there's not, please create one and include:
    - A short description of the ask
-   - A more detailed explanation of the background, the context and the channelneg that needs solving
+   - A more detailed explanation of the background, the context and the challenge that needs solving
    - Any guidance related to the impact this is having
    - Any extra information that could help us solve or prioritize this
 2. Ensure lable `team/repo-management` is added to the issue
