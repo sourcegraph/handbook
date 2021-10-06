@@ -37,7 +37,7 @@ Practically, this means a few things as we think about how the Code Graph should
 1. By surfacing relationships (not just code itself, but data types, configution, and more) we help you build a clear, meaningful model of your software.
 1. We make this information easy to explore by revealing complexity as needed, with the most relevant information up front, easy to understand, and easy to share.
 
-If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code. You can read more on this principle in this article from a16z on [the case for developer experience](https://future.a16z.com/the-case-for-developer-experience/).
+If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code. You can read more on this principle in [The Case for 'Developer Experience'](https://future.a16z.com/the-case-for-developer-experience/) (by [Jean Yang](https://twitter.com/jeanqasaur)).
 
 ## Themes
 
