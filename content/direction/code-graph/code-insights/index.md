@@ -35,21 +35,21 @@ To deliver on our mission, we will:
 
 #### 1 Year vision
 
-> Any Sourcegraph user can create code insights for their code to answer any question that can be known with a Sourcegraph search, and export/find/receive this information wherever they need. For example, Code Insights answers immediate questions of goal tracking, development velocity, and code health. 
+> Any Sourcegraph user can create code insights for their code to answer any question that can be known with a Sourcegraph search, and export/find/receive this information wherever they need. For example, Code Insights answers immediate questions of goal tracking, development velocity, and code health.
 
 #### 3 Year vision
 
-> Sourcegraph Code Insights provide Sourcegraph-built custom metrics and can combine with or import all other data sources about your code to be the singular home for any high-level question, impact, or code analysis. For example, Code Insights provides static analysis or computation metrics for your codebase, and directly integrate with build systems and other performance metrics to do cross-metric analysis. 
+> Sourcegraph Code Insights provide Sourcegraph-built custom metrics and can combine with or import all other data sources about your code to be the singular home for any high-level question, impact, or code analysis. For example, Code Insights provides static analysis or computation metrics for your codebase, and directly integrate with build systems and other performance metrics to do cross-metric analysis.
 
 #### 10 year vision
 
-> Code Insights is the foundation upon which all developers everywhere naturally track, measure, learn, predict, and optimize their engineering and codebase – the best practices of big data become the best practices for managing big code. For example, developers use Code Insights to proactively affect code outcomes from performance and defect rates to organizational hiring and developer velocity, and Code Insights-based metrics become the standard measure of a codebase, the same way NPS is for products or CAC is for marketing. 
+> Code Insights is the foundation upon which all developers everywhere naturally track, measure, learn, predict, and optimize their engineering and codebase – the best practices of big data become the best practices for managing big code. For example, developers use Code Insights to proactively affect code outcomes from performance and defect rates to organizational hiring and developer velocity, and Code Insights-based metrics become the standard measure of a codebase, the same way NPS is for products or CAC is for marketing.
 
 ### Guiding principles
 
 ### Code Insights is built first for engineering leaders
 
-The answer to "why are building Code Insights _now_, ahead of other cool projects Sourcegraph can pursue?" is that Code Insights serves the needs of engineering leaders. 
+The answer to "why are building Code Insights _now_, ahead of other cool projects Sourcegraph can pursue?" is that Code Insights serves the needs of engineering leaders.
 
 Having features directly valuable to engineering leaders will impact our sales cycle speed, our prospecting and marketing conversion rates, and our ability to deliver on our mission. Currently, engineering leaders often champion Sourcegraph either because they personally used code search in the pastor because their team loves Sourcegraph. Code Insights aims to create engineering leader champions who want Sourcegraph for themselves, because they want Code Insights.
 
