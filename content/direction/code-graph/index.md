@@ -20,6 +20,25 @@ We build the Code Graph to make working with code easier, regardless of how much
 
 > We want to make using Sourcegraph to understand and modify code so easy that anyone can do it, including people not traditionally considered developers. We want to [democratize coding](../../company/strategy.md#10-year-vision) by making it so that everyone in the company can engage with the organization's code, safely making changes to implement their department's priorities and interests, without need for an intermediary to do it for them.
 
+## Principles
+
+### Abstraction vs. complexity
+
+There are two ways to think about categories of developer tools or features today:
+
+- Abstraction tools, which simplify tasks away by providing building blocks, sane defaults, and frameworks to build on. Most existing developer tools are of this variety.
+- Complexity-exploring tools, which help with complex problems such as finding and fixing issues in existing, heterogeneous software systems. I.e., ones that were created using the existing tools developers use today, with different languages, frameworks, and versions in constant flux, all interacting with each other.
+
+This emerging need for complexity-exploring tooling is one we see Sourcegraph playing an important role in. The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden, and we are mindfully designing our the Code Graph to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution.
+
+Practically, this means a few things as we think about how the Code Graph should work:
+
+1. Sourcegraph fits in to your existing ecosystem – wherever you host your code, whatever language it's in, or however many repos you use.
+1. By surfacing relationships (not just code itself, but data types, configution, and more) we help you build a clear, meaningful model of your software.
+1. We make this information easy to explore by revealing complexity as needed, with the most relevant information up front, easy to understand, and easy to share.
+
+If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code. You can read more on this principle in this article from a16z on [the case for developer experience](https://future.a16z.com/the-case-for-developer-experience/).
+
 ## Themes
 
 We are focused on several themes to help make our one year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product area is delivering, take a look at the individual team direction pages linked at the [top of this page](#code-graph).
