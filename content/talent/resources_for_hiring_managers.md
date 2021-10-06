@@ -71,7 +71,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
   - 1 Declines all other candidates.
   - 2 Confirms that the start date and hired date are correct, ensuring accurate time-to-fill data.
   - 3 Confirms the candidate source information is accurate, ensuring accurate source data.
-  - 4 Click the "Mark Candidate as Hired" button found in the "Offer Details" section of the candidate's profile: 1. Select Close Reason 2. Click either "yes" or "no" in the "Keep Job Open" section" 3. Select "Yes" for "Make Candidate Private" 4. Selet "Yes" for "Export to BambooHR" 5. Email a summary of this candidate to: "Obboarding Email", Carly Jones (VP of Talent), and the Hiring Manager. 
+  - 4 Click the "Mark Candidate as Hired" button found in the "Offer Details" section of the candidate's profile: 1. Select Close Reason 2. Click either "yes" or "no" in the "Keep Job Open" section" 3. Select "Yes" for "Make Candidate Private" 4. Selet "Yes" for "Export to BambooHR" 5. Email a summary of this candidate to: "Obboarding Email", Carly Jones (VP of Talent), and the Hiring Manager.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
 
 ## Using external recruiting agencies
