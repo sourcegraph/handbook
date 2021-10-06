@@ -10,7 +10,7 @@ The following is true as of 2021-10-06.
 
 Feel free to direct simple questions to us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) in Slack.
 
-- This channel *is* regularly checked and well monitored
+- This channel _is_ regularly checked and well monitored
 - So please do **NOT** directly message or CC an engineer - this is to try and protect their focus
 - Instead, if it’s urgent, please @ either the PM or the EM in the question in the channel and we'll ensure it gets the best response
 
@@ -27,8 +27,8 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
 3. Ensure that the issue is added to the "[Delivery](https://github.com/orgs/sourcegraph/projects/205)" board in GitHub
 4. Anything without a status is checked and triaged weekly - so this is enough for feature requests or less urgent issues
 5. If you think this needs eyes 👀 sooner
-    - Within a few hours ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
-    - ASAP ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) and CC `@distribution-support`
+   - Within a few hours ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
+   - ASAP ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) and CC `@distribution-support`
 
 > ℹ️ If `@distribution-support` is missing, it's like we've moved over to per-team support handles, so try `@delivery-support`
 
