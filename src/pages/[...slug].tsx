@@ -171,7 +171,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const pages = await loadAllPages(['slug'])
 
     // Omit the root index path because it's rendered by `index.tsx`.
-    const pagesWithoutRootIndex = pages.filter(p => p.slugPath !== '');
+    const pagesWithoutRootIndex = pages.filter(p => p.slugPath !== '')
 
     const paths = {
         paths: pagesWithoutRootIndex.map(post => ({
