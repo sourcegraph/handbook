@@ -4,7 +4,7 @@ Code Graph comprises teams working on [Search](./search/index.md), [Code Insight
 
 ## Mission
 
-We build the Code Graph to make working with code easier, regardless of how much you have, how complex it is, where you store it, or even how technical you are.
+We build the Code Graph to make finding, understanding, and editing code easier, regardless of how much you have, how complex it is, where you store it, or even how technical you are.
 
 ## Vision
 
