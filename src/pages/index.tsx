@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next'
+
 import Page, { PageProps, getStaticProps as getStaticPropsForSlug } from './[...slug]'
 
 /**
@@ -6,8 +7,7 @@ import Page, { PageProps, getStaticProps as getStaticPropsForSlug } from './[...
  * same page component as `[...slug].tsx`, and it's a special case simply
  * because `[...slug]` doesn't match the root `/` path.
  */
-export const getStaticProps: GetStaticProps<PageProps> = async context => {
-    return getStaticPropsForSlug({ ...context, params: { slug: '/' } })
-}
+export const getStaticProps: GetStaticProps<PageProps> = async context =>
+    getStaticPropsForSlug({ ...context, params: { slug: '/' } })
 
 export default Page
