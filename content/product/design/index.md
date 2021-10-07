@@ -63,7 +63,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 
 - [Ways of working](./ways_of_working/index.md)
 - [Design artifacts](./artifacts/index.md)
-- [Visual design](./visual_design/index.md)
+- [Wildcard design system](./wildcard_design_system/index.md)
 - [Analytics and product design](./metrics/index.md)
 - [Research](./research/index.md)
 - [Intersecting with other teams](./intersecting_with_other_teams/index.md)
@@ -85,6 +85,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Workshops](./workshops/index.md)
 - [Content guidelines](../../communication/content_guidelines/index.md)
 - [Documents and templates](./documents_templates/index.md)
+- [Visual design checklist](./visual_design_checklist.md) 
 - [External resources](./external_resources/index.md)
 
 ## Other
