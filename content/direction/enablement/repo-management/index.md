@@ -125,25 +125,28 @@ Note that the time periods are rolling time periods and the plans here are revie
 ### Mid term (6m)
 
 #### GitServer HA Cont.
+
 Continued from [above](#gitserver-ha)
 
 **What:**
+
 1. Better support for monorepos, likely through better utilisation of ability to replicate or shard monorepos across multiple GitServer instances within Sourcegraph
 
-**Why:** 
+**Why:**
 Support our largest customers in a robusy and reliable way, no matter how many repos and what size.
 
 #### Gerrit Permissions syncing
+
 **What:**
 Gerrit supports permissions more granular than just repo-level. Since that's all that's currently supported in Sourcegraph for any other code host<sup>1</sup>, we may stop there, but this depends on ongoing research about what customers need from the support.
 
 **Why:**
-Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246) - but still [confirming](https://github.com/sourcegraph/sourcegraph/issues/23563) the nuances of the support needed. Currently investigating the value to other customers who are known Gerrit users, and the depth of support needed. 
-
+Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246) - but still [confirming](https://github.com/sourcegraph/sourcegraph/issues/23563) the nuances of the support needed. Currently investigating the value to other customers who are known Gerrit users, and the depth of support needed.
 
 <sup>1</sup>(With the exception of Perforce which utilizes a hack where directories with more graunlar permissions appear as repos within Sourcegraph).
 
 #### BB Cloud permissions
+
 **What:**
 Support permissions syncing for BitBucket Cloud.
 
