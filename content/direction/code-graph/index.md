@@ -1,4 +1,4 @@
-# Code Graph
+# Code Graph direction
 
 Code Graph comprises teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md). This page describes the overarching mission and strategy that ties them together, and each linked team also provides a detailed direction page with where they are headed next and why. There is also a whole-company [Sourcegraph direction](../index.md) available.
 
@@ -34,7 +34,7 @@ This emerging need for complexity-exploring tooling is one we see Sourcegraph pl
 Practically, this means a few things as we think about how the Code Graph should work:
 
 1. Sourcegraph fits in to your existing ecosystem – wherever you host your code, whatever language it's in, or however many repos you use.
-1. By surfacing relationships (not just code itself, but data types, configution, and more) we help you build a clear, meaningful model of your software.
+1. By surfacing relationships (not just code itself, but data types, configuration, and more) we help you build a clear, meaningful model of your software.
 1. We make this information easy to explore by revealing complexity as needed, with the most relevant information up front, easy to understand, and easy to share.
 
 If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code.
