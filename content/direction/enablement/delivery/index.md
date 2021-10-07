@@ -24,7 +24,6 @@ Setting up and running Sourcegraph is trivial but superbly flexible, supporting 
 
 Customers are no more than 1 release behind the most recent release of Sourcegraph. Customers can seemlessly migrate between our supported deployment options with their changing business needs.
 
-
 ## Guiding principles
 
 These are the principles that guide the work we do in delivery. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
