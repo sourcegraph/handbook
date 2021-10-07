@@ -39,3 +39,10 @@ Site admin’s are a critical part of our success. We want to ensure configuring
 ### Expand support of code management systems
 
 As we broaden our reach, prospects and customers look to us to support a large variety of code management systems. We want to provide our user base the means to simply, easily, and reliably connect to all common code management systems.
+
+## Team specific pages
+
+- [Repo Management](../../engineering/enabement/repo-management/index.md) - [Direction page](repo-management/index.md)
+- [Delivery](../../engineering/enabement/delivery/index.md) - [Direction page](delivery/index.md)
+- [Dev Experience](../../engineering/enabement/dev-experience/index.md)
+- [Frontend Platform](../../engineering/enabement/frontend-platform/index.md) - [Direction page](frontend-platform/index.md)
