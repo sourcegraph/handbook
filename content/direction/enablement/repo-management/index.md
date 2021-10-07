@@ -62,11 +62,10 @@ TODO
 
 - Monorepo support
   - **Problem:** A major priority is to start supporting repositories that are massive in scale. Today, this does not work simply because the machines take too long to process unindexed searches, even with a MASSIVE machine.
-- Phabricator support
+- [Phabricator support](https://github.com/sourcegraph/sourcegraph/issues/25111)
   - **Problem:** Phabricator support within Sourcegraph was never properly implemented, resulting in limited support.
-- Bitbucket Cloud permission syncing
+- [Bitbucket Cloud permission syncing](https://github.com/sourcegraph/sourcegraph/issues/19782)
   - **Problem:** Atlassian are ending support for BitBucket Server and staring moving all customers to the Cloud. But Sourcegraph doesn't currently support native permission syncing for BitBucket Cloud.
-- ***
 
 # Strategy and plans
 
@@ -98,7 +97,7 @@ Note that the time periods are rolling time periods and the plans here are revie
 
 - **Current status:** In progress
 - **Expected effort:** <5% team time
-- Most of the previously considered work actually resides with other teams, so our role in this will largely be support.|
+- Most of the previously considered work actually resides with other teams, so our role in this will largely be support.
 
 #### GitServer HA
 
@@ -120,12 +119,38 @@ Note that the time periods are rolling time periods and the plans here are revie
 - [x] Support Perforce wildcard permission syncing (completed by the Distribution team - [docs](https://docs.sourcegraph.com/admin/repo/perforce#wildcards))
 - [ ] Improved git-p4 repo syncing performance
   - Close collaboration between Distribution team and [large customer](https://github.com/sourcegraph/accounts/issues/6716)
-  - Were able to make massive headway updating git-p4, but the customer have produced an even faster C++ version
-  - Aim is for us to take over responsibility
+  - We were able to make massive headway updating git-p4, but the customer have produced an even faster C++ version
+  - Currently in the process of adopting this into our product for use behind a feature flag - [GH Issue](https://github.com/sourcegraph/sourcegraph/issues/25583)
 
 ### Mid term (6m)
 
-TODO
+#### GitServer HA Cont.
+Continued from [above](#gitserver-ha)
+
+**What:**
+1. Better support for monorepos, likely through better utilisation of ability to replicate or shard monorepos across multiple GitServer instances within Sourcegraph
+
+**Why:** 
+Support our largest customers in a robusy and reliable way, no matter how many repos and what size.
+
+#### Gerrit Permissions syncing
+**What:**
+Gerrit supports permissions more granular than just repo-level. Since that's all that's currently supported in Sourcegraph for any other code host<sup>1</sup>, we may stop there, but this depends on ongoing research about what customers need from the support.
+
+**Why:**
+Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246) - but still [confirming](https://github.com/sourcegraph/sourcegraph/issues/23563) the nuances of the support needed. Currently investigating the value to other customers who are known Gerrit users, and the depth of support needed. 
+
+
+<sup>1</sup>(With the exception of Perforce which utilizes a hack where directories with more graunlar permissions appear as repos within Sourcegraph).
+
+#### BB Cloud permissions
+**What:**
+Support permissions syncing for BitBucket Cloud.
+
+[GitHub Issue](https://github.com/sourcegraph/sourcegraph/issues/19782)
+
+**Why:**
+Currently blocking expansion for at least [one large customer](https://github.com/sourcegraph/customer/issues/288) as well as being strategically valuable as Atlassian have announce EOL for BB Server, meaning many other BB Server customers will likely move to BB Cloud and want this support.
 
 ### Long term (12m)
 
