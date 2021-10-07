@@ -85,7 +85,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Workshops](./workshops/index.md)
 - [Content guidelines](../../communication/content_guidelines/index.md)
 - [Documents and templates](./documents_templates/index.md)
-- [Visual design checklist](./visual_design_checklist.md) 
+- [Visual design checklist](./visual_design_checklist.md)
 - [External resources](./external_resources/index.md)
 
 ## Other
