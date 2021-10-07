@@ -50,6 +50,8 @@ There are just a few places where a review is required; these should include you
 - Updates on feature deprecation
 - Speaking to press
 
+Unless the change is extremely wide in impact (a large about site update, a major press outlet, or a major pricing change), you do not need to continue blocking on marketing or product director review after 3 full business days have passed from the review request. 
+
 ### Talking about customers publicly
 
 When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
