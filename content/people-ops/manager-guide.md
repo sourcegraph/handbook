@@ -1,6 +1,6 @@
 # Manager accounts guide
 
-As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your direct reports in order to better support them. This page is intended to be a resource to help you navigate these different accounts and systems, which hold important and sensitive information about your teams. In these systems you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
+As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your direct reports in order to better support them. This page is intended to be a resource to help you navigate these different accounts, which hold important and sensitive information about your teams. In these accounts you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
 
 Should you have questions on any of these systems, you can post in [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) on Slack or reach out to the appropriate contact in our [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
 
