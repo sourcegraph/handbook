@@ -43,6 +43,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Creating blog posts](content/creating_blog_posts.md)
   - [Editing blog posts](content/creating_blog_posts.md#editing-blog-posts)
   - [Blog Hackathon](content/blog_hackathon.md)
+  - [Web series](content/web_series.md)
 
 - [Demand Gen](./demand-gen/index.md)
 
