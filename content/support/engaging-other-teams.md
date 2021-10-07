@@ -188,6 +188,8 @@ If the issue is a defect, we trust our teammates in product and engineering to s
 
 Ask the engineer helping you to see if they would like to work directly with the customer. If so, we can add them in cc on the Zendesk ticket (if the origin was the support@ email) or @ them in the relevant customer-facing Slack thread. We never want to be an unnecessary go-between, but depending on the issue, we also don't want to erode the customer's trust in your ability. It's okay that you need help and it's also okay to position that as your desire to talk with your teammates (as described in step 1).
 
+It's also okay to share with the engineering helping you that you would appreciate chatting over Slack more casually or that you would appreciate a Zoom call. You are working with them, it's okay to collaborate like you would any member of the team! If you want to learn more about something that comes up, just share that. Our teammates in engineering will be happy to engage in more robust ways than just the back and forth in the Github issue.
+
 ### Resolution
 
 Even when engineering is helping, you are accountable for the work and it is your job to reach resolution as outlined in our [workflow](support-workflow.md).
