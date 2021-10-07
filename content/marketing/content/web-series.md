@@ -41,7 +41,7 @@ There will be a set structure that we apply to each event to create a consistent
 - When: The second and fourth Wednesday of every month at 11:00am PT / 6:00 PM UTC
 - Where: [Twitch](https://www.twitch.tv/sourcegraph/)
 - Host: TJ DeVries, Thorsten Ball
-- Moderator: TBD 
+- Moderator: TBD
 - Directly responsible team: Content marketing
 - Project manager: Jenny Bergen, Manager, Content Marketing
 - Project planning: [Asana Portfolio]
