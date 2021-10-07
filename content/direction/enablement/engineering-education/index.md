@@ -7,6 +7,7 @@ This page outlines the vision, strategy and goals of the [Engineering education 
 ## Mission, Vision & Guiding Principles
 
 ### Mission
+
 We want every engineer at Sourcegraph to feel engaged, motivated, and productive while having all the context and technical knowledge they need in order to deliver high-quality work.
 
 We make this happen by getting engineers onboarded quickly and efficiently, providing resources and environments for engineers to [continuously grow](../../../company/values.md#continuously-grow), helping technical knowledge flow [openly and freely](../../../company/values.md#open-and-transparent) within teams and across teams, and driving a culture of learning and knowledge sharing at Sourcegraph.
