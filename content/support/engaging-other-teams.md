@@ -11,18 +11,18 @@ When we need help, we seek it consistently, following the steps outlined here. W
 It can feel a little weird at first. Everyone else is just working Slack, why can't I? That is not true. As we grow and scale, every team gets to have a say in how they are engaged. For example, Marketing has a form, so too does recruiting. This is what helps engineering scale and it also helps us! A few more reasons to help this make sense:
 
 1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into Github helps us suss out our performance as well as room for growth.
-2. Most of the the things we need to ask are not one and done ... they so quickly turn into long back and forth given that most questions require that level of attention and are just tricky enough; so even a simple question (if it's related to a case) counts. 
-3. Engineering works in Github and while Slack is great, it's more helpful if they can refer to a Github issue to pick up where they left off, etc. This is also helpful for us for our long running cases. 
+2. Most of the the things we need to ask are not one and done ... they so quickly turn into long back and forth given that most questions require that level of attention and are just tricky enough; so even a simple question (if it's related to a case) counts.
+3. Engineering works in Github and while Slack is great, it's more helpful if they can refer to a Github issue to pick up where they left off, etc. This is also helpful for us for our long running cases.
 4. The #ask-product-eng Slack channel doesn't have a SLA. So if a question is meant to help a customer, we lose all mechanisms for accountability to make sure we are getting responses back in line with our SLAs to be sure customers are not left hanging.
-5. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the Github issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc. 
+5. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the Github issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc.
 
-At no point are we meant to be gate keepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-product-eng Slack channel is for! 
+At no point are we meant to be gate keepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-product-eng Slack channel is for!
 
 And that may make you wonder when a CSE would use the #ask-product-eng Slack channel. Simple, not for anything attached to a case. Longer answer:
 
-* ...for your own curiosity as you are learning (a question you have that is not driven from a case)
-* ...as you work on an OKR project
-* ...maybe if you get curious after filing a Github issue and you have a tangentially related issue -- just say that when you post ("I have a Github issue, but this more for my own curiosity...")
+- ...for your own curiosity as you are learning (a question you have that is not driven from a case)
+- ...as you work on an OKR project
+- ...maybe if you get curious after filing a Github issue and you have a tangentially related issue -- just say that when you post ("I have a Github issue, but this more for my own curiosity...")
 
 (If you are wondering if this means you can't talk to engineering outside of Github, goodness no! See Step 5 the "collaboration" section for more on how to work directly with engineering once you have filed a Github issue.)
 
@@ -50,9 +50,8 @@ When you need help, post in our #customer-support-internal Slack channel first t
 
 A couple of notes before to help you get started in figuring out which team will be best to help:
 
-* In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Delivery, Repo Management, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
-* For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all).
-
+- In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Delivery, Repo Management, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
+- For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all).
 
 ### Deployment
 
