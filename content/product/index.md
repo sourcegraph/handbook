@@ -68,7 +68,6 @@ We are working with the marketing and corporate communication teams to make sure
 There are a few other initiatives we will be tracking here soon:
 
 - CE / Product communication and prioritization improvements on feedback
-- Make sure our current product process is documented
 - Experimentation and improvements to planning
 - Consolidation and simplification of tooling
 
