@@ -14,17 +14,23 @@ This page contains information that is relevant for how to do well at your job a
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
 
-### Definitions
+### Glossary
 
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
 - Backlog: The ordered list of items to be tackled after items on the roadmap are complete
+- Department: A top-level organizational unit of people, such as Sales, Product or Marketing.
+- Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
 
-Launch tier levels are also an important concept to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
+Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
 
 ## Communications
 
+### Feature roll-outs
+
 Communications around feature roll-out are especially important, and are documented on[the rollout process](./rollout_process.md#communications) page.
+
+### Talking to customers and stakeholders
 
 In general, product team members are empowered to communicate directly with customers and stakeholders. Sometimes it can be helpful to have someone review your communication before sending it, especially if it is going to a wide or unfamiliar audience. If you want, the Marketing and PR teams are available to help any time: simply ask in #marketing and someone will be happy to review your communication.
 
@@ -38,7 +44,11 @@ There are just a few places where a review is required; these should include you
 - Updates on feature deprecation
 - Speaking to press
 
-# Release early, release often
+### Talking about customers publicly
+
+When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
+
+## Release early, release often
 
 Each project, no matter how long-running, needs to plan to ship _something_ in each release. The "something" depends on the project. We strongly prefer for it to be a minimal viable feature that is enabled by default. The next best thing is to ship something that is feature-flagged off by default. When possible, larger features should be merged mid-cycle to solicit feedback from the team and customers before the release is cut.
 
