@@ -38,7 +38,6 @@ There are just a few places where a review is required; these should include you
 - Updates on feature deprecation
 - Speaking to press
 
-
 # Release early, release often
 
 Each project, no matter how long-running, needs to plan to ship _something_ in each release. The "something" depends on the project. We strongly prefer for it to be a minimal viable feature that is enabled by default. The next best thing is to ship something that is feature-flagged off by default. When possible, larger features should be merged mid-cycle to solicit feedback from the team and customers before the release is cut.
