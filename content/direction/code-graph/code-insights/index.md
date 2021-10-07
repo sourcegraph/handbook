@@ -85,7 +85,7 @@ Code Insights is not for trying to track an individual's output and whether or n
 **What this looks like:**
 
 - We don't build features that would primarily be used for evaluating individuals' performance
-- We won't market or sell code insights as a performance management tool
+- We won't market or sell code insights as a performance management tool for your team members: it's for looking at the bigger picture, not measuring people
 
 **What this does _not_ look like:**
 
