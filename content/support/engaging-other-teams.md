@@ -186,4 +186,4 @@ For any questions about license key extension, the CE team is responsible. See t
 
 **Keywords**: `usage`, `users`, `DAU`, `WAU`, `MAU`
 
-Any questions about usage statistics should be routed to the [BizOps team](../ops/bizops/index.md).
+Any questions about usage statistics should be routed to the [BizOps team](../bizops/index.md).

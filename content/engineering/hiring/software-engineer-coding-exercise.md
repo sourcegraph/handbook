@@ -18,6 +18,22 @@ We designed this exercise to measure your understanding of callbacks and asynchr
 
 If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
 
+## Frontend live-coding exercise
+
+We designed this exercise to measure your understanding of building web UIs.
+
+- We will schedule a 90-minute timeframe to work with a Sourcegraph engineer.
+- The exercise asks you to implement a UI in a scaffold TypeScript **React** app.
+- We provide you with the code of the scaffold app, the URL of a working **backend API** to fetch data from and a link to a **Figma design** for the UI.
+- The backend exposes data over both a RESTful interface.
+- You can lookup documentation on the internet.
+
+If you have never worked with React or it's been a long time, we recommend brushing up on their basics a bit before taking the exercise.
+There are no "advanced" React features needed to pass the exercise.
+
+We will grade your submission on both the code (implementation) and the result (UI, functionality, etc), so we recommend to not compromise one over the other.
+Apply the same standards to your solution you would to any solution you implement in a real-world production-ready app.
+
 ## Frontend coding exercise
 
 We designed this exercise to measure your understanding of building web UIs.

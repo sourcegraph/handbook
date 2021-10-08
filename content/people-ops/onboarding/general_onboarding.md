@@ -15,7 +15,7 @@ Considering the Onboarding checklist lives in Process St., this page contains an
 - **[Lattice](https://sourcegraph.latticehq.com/)**: We use this tool for our [Impact review cycles](../impact-reviews.md) (takes place every six months based on your start date) and the [Onboarding feedback milestones](./index.md#onboarding-feedback-milestones) (these take place every month for three months).
 - **[1Password](https://1password.com/)**: Tool we use to share team passwords and store your own passwords.
 - **[Zoom](https://zoom.us/signin):** Our video communication tool. Set up your Zoom account and follow the [recommended settings](../../communication/index.md#video-calls).
-- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your **Apple** device in our MDM and in FileVault (ask [Tech Ops](../../ops/tech-ops/index.md) for instructions and your access code).
+- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your **Apple** device in our MDM and in FileVault (ask [Tech Ops](../../tech-ops/index.md) for instructions and your access code).
 - It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
 - **[Sourcegraph.com](https://sourcegraph.com)**: New teammates must create an account and ask in Slack #it-tech-ops so you get to test in-development features, etc.
 
@@ -29,7 +29,7 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
 
 ### Teammates based outside of U.S.
 
-- **[Veem](https://veem.com/)**: To receive monthly payments and work related expenses' reimbursement. See detailed instructions for invoicing [here](../../ops/finance/invoices.md).
+- **[Veem](https://veem.com/)**: To receive monthly payments and work related expenses' reimbursement. See detailed instructions for invoicing [here](../../finance/invoices.md).
 
 ## Configure Google Calendar
 

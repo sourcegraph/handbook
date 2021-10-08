@@ -1,5 +1,9 @@
 # Prioritizing
 
+## Personas
+
+We use personas to understand our users and what they need as we prioritize our work. More can be read on the [personas page](../../marketing/personas.md) in the marketing handbook, which also links to a presentation with the actual personas in it.
+
 ## Saying "no"
 
 We receive tons of feature requests and bug reports, more than we can handle. This means we must frequently say "no" or prioritize things less urgently than some people would like. Our job is to find the most important things to work on.
@@ -93,4 +97,4 @@ Important questions to ask while re-prioritizing and proposing solutions for cri
 
 ## How to reference customer names in public tickets
 
-Accounts (customer, prospect and lead) names are private, and should not be included in public GitHub tickets. See our process for [referencing private customer names in public places](../../ops/bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places).
+Accounts (customer, prospect and lead) names are private, and should not be included in public GitHub tickets. See our process for [referencing private customer names in public places](../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places).

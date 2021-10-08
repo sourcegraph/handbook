@@ -7,7 +7,7 @@
    - If the handbook has what you need, you're done!
    - If the handbook is missing what you need or is inaccurate/outdated, ask for help (on Slack, Zoom, etc.) and ensure the handbook is updated.
 
-Join the #handbook Slack channel to see proposed changes.
+Join the #handbook-updates Slack channel to see proposed changes.
 
 ## Handbook guidelines
 
@@ -50,35 +50,29 @@ To be handbook-first, we need to be very diligent about maintaining the handbook
 
 ## Searching the handbook
 
-Search the handbook using the search box in the top navigation on https://about.sourcegraph.com/handbook.
+Search the handbook using the search box in the top navigation on https://handbook.sourcegraph.com.
 
-### Google Chrome
+### Chrome/Firefox search shortcut
 
-If you use Google Chrome, you can add a Sourcegraph handbook search shortcut to the address bar.
-
-#### Setup
+For Google Chrome:
 
 1. Open Chrome settings > **Manage search engines** (or go to chrome://settings/searchEngines directly).
 1. Next to "Other search engines", press the **Add** button.
 1. In the "Add search engine" form, enter:
    - Search engine: `Sourcegraph handbook`
    - Keyword: `hb` (or some other shortcut of your choosing)
-   - URL with %s in place of query: `https://about.sourcegraph.com/handbook#stq=%s`
+   - URL with %s in place of query: `https://handbook.sourcegraph.com/#stq=%s`
 1. Press the **Add** button.
 
-### Firefox
+For Firefox:
 
-If you use Firefox, you can add a Sourcegraph handbook search shortcut to the address bar
-
-#### Setup
-
-1. Right-click the search bar on https://about.sourcegraph.com/handbook.
+1. Right-click the search bar on https://handbook.sourcegraph.com.
 1. Choose `Add a keyword for this Search`.
 1. Enter a keyword that you would like to use (e.g. `hb`).
 1. Open your bookmarks and edit the handbook bookmark that was just created
-1. Change the URL on the bookmark to `https://about.sourcegraph.com/handbook#stq=%s`
+1. Change the URL on the bookmark to `https://handbook.sourcegraph.com/#stq=%s`
 
-### Usage
+Then, to use the browser search shortcut:
 
 1. Focus in Chrome’s or Firefox's address bar (by clicking, tapping, or pressing <kbd>⌘L</kbd> on macOS or <kbd>Ctrl+L</kbd> on Linux).
 1. Type the keyword you entered previously (e.g., `hb`) then press <kbd>Tab</kbd>.

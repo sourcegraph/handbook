@@ -26,9 +26,9 @@ As we scale our team and our customer list, we need help with all of the applica
 
 ### Members
 
-- [Maureen Loughrey](../../company/team/index.md), Tech Operations Engineer
-- [Nate Tang](../../company/team/index.md#nate-tang-he-him), Tech Ops Analyst
-- [Nicky Van Maanen](../../company/team/index.md#nicky-van-maanen-she-her), Tech Operations Manager
+- [Maureen Loughrey](../company/team/index.md), Tech Operations Engineer
+- [Nate Tang](../company/team/index.md#nate-tang-he-him), Tech Ops Analyst
+- [Nicky Van Maanen](../company/team/index.md#nicky-van-maanen-she-her), Tech Operations Manager
 
 ### Roles
 

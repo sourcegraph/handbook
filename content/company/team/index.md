@@ -180,13 +180,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [felix@sourcegraph.com](mailto:felix@sourcegraph.com), [felixfbecker](https://github.com/felixfbecker), [Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)
 - Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
 
-## Quin Keough
-
-- SDR
-- Phoenix AZ, USA 🇺🇸
-- [quin@sourcegraph.com](mailto:quin@sourcegraph.com), [quinwith1n](https://github.com/qwith1n)
-- Quin has always loved traveling and seeing the world. He lives in Phoenix with his wife and 2 french bulldogs. Quin also enjoys most sports, especially ping pong, reading, and playing his guitar. Although his French bulldogs do not enjoy it when he attempts to play the guitar.
-
 ## Asdine El Hrychy
 
 - First name is pronounced _as-deen_, last name _el-ree-tchee_
@@ -1498,3 +1491,36 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [caugustus-sourcegraph](https://github.com/caugustus-sourcegraph)
 - [crystal.augustus@sourcegraph.com](mailto:crystal.augustus@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/crystalaugustus/)
 - Crystal has a strong love for books and puns. Originally from Texas, she still misses the thunderstorms and breakfast tacos, but fall in New England more than makes up for it.
+
+## Kemper Hamilton (she/her)
+
+- Recruiting Operations Specialist
+- Austin, TX, United States 🇺🇸
+- GitHub: [kemperhamilton](https://github.com/kemperhamilton)
+- [kemper.hamilton@sourcegraph.com](mailto:kemper.hamilton@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/kemperhamilton/)
+- Kemper has been an Austinite for ten years and is about to begin a 6 month digital nomad adventure. She loves traveling, listening to live music, spending time outdoors, and she is a cheese & charcuterie enthusiast 🧀 She has experience in corporate communications, operations, and recruitment.
+
+## Stephan Budge (he/him)
+
+- Engineering Manager, Delivery
+- Portland, Oregon, United States 🇺🇸
+- GitHub: [stephanx](https://github.com/stephanx)
+- [stephan.budge@sourcegraph.com](mailto:stephan.budge@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/stephanbudge/)
+- Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years. Later, he taught English in Santiago, Chile for four years. After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.
+
+## Marisa Kanemoto (she/her)
+
+- Product Designer
+- Berkeley, California, United States 🇺🇸
+- GitHub: [marisak](https://github.com/marisak)
+- [marisa.kanemoto@sourcegraph.com](mailto:marisa.kanemoto@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/marisa-kanemoto/), [Website](https://marisa-design.com)
+- Marisa grew up in the Bay Area and happily resides in Berkeley with her partner. She's enthusiastic about reading sci-fi and fantasy novels, and helps to moderate an online figure drawing community. Marisa is eagerly awaiting a Bay Area WNBA team.
+
+## Bob Roudebush (he/him)
+
+- Customer Engineering Director - Americas
+- Indianapolis, Indiana, United States 🇺🇸
+- GitHub: [RoudyBob](https://github.com/RoudyBob)
+- [bob.roudebush@sourcegraph.com](mailto:bob.roudebush@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/bobroudebush/)
+- How to say my last name: [Roudebush](https://www.howtopronounce.com/roudebush)
+- Bob has been a resident of the Hoosier State his entire life and currently resides in Indianapolis, IN with his wife and two sons. The two sons are currently away at college but still drop by when they want a home-cooked mean or have laundry to be done. Bob is a former "Microsoftie" and "X-Googler" and has had the benefit of getting to have many different interesting jobs at those companies and others. He's a big fan of family boardgame night, an avid trail runner, and consumes as many books, podcasts, and Kentucky bourbons as his remaining time will allow.
