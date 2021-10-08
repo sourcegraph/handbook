@@ -16,7 +16,7 @@ These releases always ships on time, even if it's missing features or bug fixes 
 
 ### When we release
 
-The release branch will be cut on the last working day at 10am PST before the 20th of each month. 
+The release branch will be cut on the last working day at 10am PST before the 20th of each month.
 
 If the 20th falls on a non-working day, the release captain will move the release earlier, to the last working day before the 20th, as well as cutting the release branch the day before that. The calendar events will reflect this.
 
