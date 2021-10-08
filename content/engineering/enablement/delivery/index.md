@@ -21,19 +21,18 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 ## Responsibilities
 
 - Deployments methods
-- Enterprise deployments
+- [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
 - [Managed instances](./managed/index.md)
-- Sourcegraph releases
-- Deployment documentation
-- Deployment configuration and configuration orchestration (Kustomize)
+- [Sourcegraph releases](../../releases/index.md)
+- Deployment configuration and configuration orchestration ([Kustomize](https://docs.sourcegraph.com/admin/install/kubernetes))
 
 Specifically not included:
 
-- The release pipeline that serves sourcegraph.com
+- The release pipeline that serves sourcegraph.com - [Cloud Software-as-a-Service Team](../../cloud/devops/index.md)
 
 ## Contact
 
-- #delivery channel or @delivery-team in Slack.
+- [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel or @delivery-team in Slack.
 - [team/delivery](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdelivery) label and [@sourcegraph/delivery](https://github.com/orgs/sourcegraph/teams/delivery) team on GitHub.
 
 ## Growth plan
