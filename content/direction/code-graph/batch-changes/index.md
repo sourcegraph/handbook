@@ -138,7 +138,7 @@ This quarter, our main goal is to iterate on the [Experimental](https://docs.sou
 
 We will iterate as we learn, but our focus will be on:
 - SSBC reliably works at the scale of 1,000s of changesets
-- Users get a great editing experience
+- Users get a great editing experience, including a few basic templates
 - Users get a great debugging experience
 - Admins are able to setup SSBC in a reasonable amount of time
 - Admins can manage (monitor, view queue, etc) executors
