@@ -53,6 +53,12 @@ This diagram provides a high-level overview of the tools we use:
 
 For more info on our data stack tools, see the [analytics page](analytics.md).
 
+### Pings information
+
+Pings are the telemetry we receive from on-prem instances. 
+- [List of pings](https://docs.sourcegraph.com/admin/pings)
+- [Adding, changing and debugging pings](https://docs.sourcegraph.com/dev/background-information/adding_ping_data)
+
 ## Roadmap
 
 View our [roadmap for FY22](https://docs.google.com/spreadsheets/d/11YecHmJQb6yM3O3WZRgkWe5cA3xtvU3wNyEBKHkbBCQ/edit?usp=sharing). If you have requests, suggestions, or ideas for the roadmap, please post in the #bizops Slack channel, or create an issue in the [analytics repository](https://github.com/sourcegraph/analytics).
