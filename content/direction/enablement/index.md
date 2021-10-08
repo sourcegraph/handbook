@@ -1,6 +1,6 @@
 # Enablement direction
 
-The Enablement organization comprises teams working on the technical foundations for developing our product.  This page describes the overarching mission and strategy that ties these teams together. Each team has an individual direction page that describes what they are working on and why in more detail.  Our direction home page details our directions as well as indexes individual team direction pages.
+The Enablement organization comprises teams working on the technical foundations for developing our product. This page describes the overarching mission and strategy that ties these teams together. Each team has an individual direction page that describes what they are working on and why in more detail. Our direction home page details our directions as well as indexes individual team direction pages.
 
 ## Mission
 
@@ -14,7 +14,7 @@ Our mission is to provide the right technical foundations critical to the succes
 
 ### Three year vision
 
-> A frictionless experience developing and utilizing Sourcegraph, such that we are able to iterate Sourcegraph rapidly, in turn enabling customers to effortlessly experience the value Sourcegraph offers.  
+> A frictionless experience developing and utilizing Sourcegraph, such that we are able to iterate Sourcegraph rapidly, in turn enabling customers to effortlessly experience the value Sourcegraph offers.
 
 ### Ten year vision
 
@@ -26,22 +26,23 @@ We are focused on several themes to help make our one-year vision a reality. The
 
 ### Make it easier to contribute to our frontend codebase
 
-Developing a component system leads to a consistent user experience, faster delivery, and more inclusive design.  To ensure better adoption and customer satisfaction with our product we are also focused on improving page rendering performance and perceived performance when a user interacts with the application.
+Developing a component system leads to a consistent user experience, faster delivery, and more inclusive design. To ensure better adoption and customer satisfaction with our product we are also focused on improving page rendering performance and perceived performance when a user interacts with the application.
 
 ### Reduce friction in deployment and upgrade
 
-Enable Sourcegraph customers and prospects to easily access the value our product provides without experiencing friction during the install & upgrade process.  Ensure Sourcegraph can be run by any user with a standard engineering background at scale and with ease.  Set clear expectations with customers / prospects on the environment requirements necessary to manage Sourcegraph at the scale they seek.
+Enable Sourcegraph customers and prospects to easily access the value our product provides without experiencing friction during the install & upgrade process. Ensure Sourcegraph can be run by any user with a standard engineering background at scale and with ease. Set clear expectations with customers / prospects on the environment requirements necessary to manage Sourcegraph at the scale they seek.
 
 ### Strengthen support of code management systems
 
-As we broaden our reach, prospects and customers look to us to support a large variety of code management systems, in a way that is robust and scalable.  We want to provide our user base the means to simply, easily, and reliably connect to all common code management systems.
+As we broaden our reach, prospects and customers look to us to support a large variety of code management systems, in a way that is robust and scalable. We want to provide our user base the means to simply, easily, and reliably connect to all common code management systems.
 
 ### Enrich education and documentation systems
-Our company as well as user base is growing rapidly.  We want to see all people in our ecosystem succeed and to do so we need enriched education and documentation systems.
+
+Our company as well as user base is growing rapidly. We want to see all people in our ecosystem succeed and to do so we need enriched education and documentation systems.
 
 ### Improve our continuous integration pipeline
 
-When our CI pipeline breaks we need clearer indications of what is causing the failures so that we can quickly take action on resolving the issues.  
+When our CI pipeline breaks we need clearer indications of what is causing the failures so that we can quickly take action on resolving the issues.
 
 ## Team specific pages
 
