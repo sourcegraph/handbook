@@ -4,7 +4,7 @@ We have teams working on [Search](./search/index.md), [Code Insights](./code-ins
 
 ## Mission
 
-We build our product to make finding, understanding, and editing code easier, regardless of how much you have, how complex it is, where you store it, or even how technical you are.
+We want to make finding, understanding, and editing code easier, regardless of how much you have, how complex it is, where you store it, or even how technical you are.
 
 ## Vision
 
