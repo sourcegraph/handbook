@@ -127,6 +127,8 @@ Besides configuration, we there are lots of requests for [mounting files on batc
 
 ## FY 2022 Q4 goals
 
+### Top priority: server side Batch Changes
+
 This quarter, our main goal is to iterate on the [Experimental](https://docs.sourcegraph.com/admin/beta_and_experimental_features) release of [Server-side Batch Changes](https://github.com/sourcegraph/sourcegraph/issues/21018) (SSBC), and to onboard three early customers into a POC. We are focusing hard on SSBC because:
 
 - It is essential for Batch Changes to work at [Enterprise scale](#enterprise-scale), and Enterprise customers with 10,000s of repositories have a degraded experience today, because they cannot create batch changes with 1,000s of changesets or resource-intensive batch changes in a reasonable amount of time. Server-side Batch Changes will directly impact key customers and prospects such as [1](https://github.com/sourcegraph/customers/issues/1), [2](https://github.com/sourcegraph/customers/issues/3), [3](https://github.com/sourcegraph/customers/issues/2) and [4](https://github.com/sourcegraph/customers/issues/6).
@@ -140,6 +142,8 @@ We will iterate as we learn, but our focus will be on:
 - Users get a great debugging experience.
 - Admins are able to setup SSBC in a reasonable amount of time.
 - Admins can manage (monitor, view queue, etc) executors.
+
+### Other priorities
 
 After SSBC, this is our ordered list of priorities:
 
