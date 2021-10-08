@@ -15,7 +15,7 @@ To see what Distribution is currently prioritizing, see the [Distribution Goals]
 
 - [Internal infrastructure](./internal_infrastructure.md)
 - [Instances](../deployments/instances.md)
-- [Managed instances](./managed/index.md)
+- [Managed instances](../enablement/delivery/managed/index.md)
 - [Infrastructure repository](https://github.com/sourcegraph/infrastructure): all sorts of Terraform stuff
 - [CI build scripts](https://sourcegraph.com/search?q=repo%3A%5Egithub%5C.com%2Fsourcegraph%2Fsourcegraph%24+file%3Abuild.sh%7C%2Fci%2F+count%3A1000&patternType=literal)
 - [CI pipeline generator](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+file:%5Eenterprise/dev/ci/ci+count:1000&patternType=literal)

@@ -22,7 +22,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 - Deployments methods
 - Enterprise deployments
-- Managed instances
+- [Managed instances](./managed/index.md)
 - Sourcegraph releases
 - Deployment documentation
 - Deployment configuration and configuration orchestration (Kustomize)
