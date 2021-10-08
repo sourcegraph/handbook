@@ -114,14 +114,12 @@ We have five main learnings from the first year of Batch Changes:
 - The job to be done (JTBD) for our customers is changing code at a large-scale. To do so, they need to automate a code change, apply it, then track it to completion. Batch Changes today is addressing applying and tracking changes, but the first many customers ask is "how do I write code that makes change x". To solve for our customers JTBD, we will need to provide an answer to that question.
 - As users get more sophisticated and work on large, more complex batch changes, debugging and iteration cycle time become the bottleneck
 
-
 # What's next and why
 
 ### Top customer, support, sales, and marketing issues
 
 - We are planning to allow users to [Mount file on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851) after many customer requests.
 - We want to [nudge users to ask site-admins to setup webhooks](https://github.com/sourcegraph/sourcegraph/issues/24310). Most customers forget to setup [webhooks](https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits), which degrades trial experience and creates a lot of support load.
-
 
 ## FY 2022 Q4 goals
 
@@ -130,8 +128,6 @@ This quarter, our main goal is to ship an alpha version of [Server-side Batch Ch
 - It is essential for Batch Changes to work at [Enterprise scale](#enterprise-scale). Enterprise customers with 10,000s of repositories have a degraded experience today, because they cannot create batch changes with 1,000s of changesets or resource-intensive batch changes in a reasonable amount of time. Server-side Batch Changes will directly impact key customers and prospects such as [1](https://github.com/sourcegraph/customers/issues/1), [2](https://github.com/sourcegraph/customers/issues/3), [3](https://github.com/sourcegraph/customers/issues/2) and [4](https://github.com/sourcegraph/customers/issues/6).
 - It will shift the setup burden from the user to the site-admin. Once site-admins have setup SSBC, any user can run a batch change from the GUI in a few clicks. That will unlock improvements to [Discovery and onboarding](#discovery-and-onboarding) such as creating batch changes from a template directly from the GUI. Creating a guided, self-serve onboarding is a prerequisite for [Cloud](#cloud).
 - It unlocks [key vision items](https://docs.google.com/document/d/1MnfaA9P7mtur7aQbMvy2x96_zy_IrOhY-MbGUo5I5wk/edit#heading=h.25ypvomeex1g) that will make using Sourcegraph an incredible experience and delight our customers, as well as [low-effort usage patterns](#adoption-through-low-effort-usage-patterns).
-
-
 
 ### What we are iterating on
 
@@ -146,4 +142,3 @@ This quarter, our main goal is to ship an alpha version of [Server-side Batch Ch
 - **Bitbucket cloud**: Batch Changes currently supports Bitbucket server, but not Bitbucket cloud. We plan to add bitbucket Cloud ([#24199](https://github.com/sourcegraph/sourcegraph/issues/24199)) in the future as it would increase our addressable market and is requested by some customers and prospects. We are not prioritizing it this quarter, because we focus on making Batch Changes great at [Enterprise scale](#enterprise-scale) before increasing our addressable market.
 
 - Education material about code change tools. Helping our customers find and select a code change tool that suits their needs is a very common ask, and something we think could drive adoption. We don’t have bandwidth for this this quarter though.
-
