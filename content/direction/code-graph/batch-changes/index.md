@@ -117,7 +117,13 @@ We have five main learnings from the first year of Batch Changes:
 
 # What's next and why
 
-## FY 2022 Q3 goals
+### Top customer, support, sales, and marketing issues
+
+- We are planning to allow users to [Mount file on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851) after many customer requests.
+- We want to [nudge users to ask site-admins to setup webhooks](https://github.com/sourcegraph/sourcegraph/issues/24310). Most customers forget to setup [webhooks](https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits), which degrades trial experience and creates a lot of support load.
+
+
+## FY 2022 Q4 goals
 
 This quarter, our main goal is to ship an alpha version of [Server-side Batch Changes](https://github.com/sourcegraph/sourcegraph/issues/21018) (SSBC), and to onboard one customer into a POC. SSBC is our top priority because:
 
@@ -125,21 +131,11 @@ This quarter, our main goal is to ship an alpha version of [Server-side Batch Ch
 - It will shift the setup burden from the user to the site-admin. Once site-admins have setup SSBC, any user can run a batch change from the GUI in a few clicks. That will unlock improvements to [Discovery and onboarding](#discovery-and-onboarding) such as creating batch changes from a template directly from the GUI. Creating a guided, self-serve onboarding is a prerequisite for [Cloud](#cloud).
 - It unlocks [key vision items](https://docs.google.com/document/d/1MnfaA9P7mtur7aQbMvy2x96_zy_IrOhY-MbGUo5I5wk/edit#heading=h.25ypvomeex1g) that will make using Sourcegraph an incredible experience and delight our customers, as well as [low-effort usage patterns](#adoption-through-low-effort-usage-patterns).
 
-### Top customer, support, sales, and marketing issues
 
-- We are planning to allow users to [Mount file on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851) after many customer requests.
-- We want to [nudge users to ask site-admins to setup webhooks](https://github.com/sourcegraph/sourcegraph/issues/24310). Most customers forget to setup [webhooks](https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits), which degrades trial experience and creates a lot of support load.
 
 ### What we are iterating on
 
 - We are iterating on [bulk actions](https://github.com/orgs/sourcegraph/projects/119?card_filter_query=label%3Abulk-action), to move it from a minimal experience to something that customers love. We lack bandwidth to make radical improvements, but we plan to ship a small increment.
-
-### Non Batch Changes work
-
-This quarter, we are taking on some work outside the scope of Batch Changes to support key business needs.
-
-- Licensing and gating, see [FY22 Q3: Licensing and tier enforcement](https://docs.google.com/document/d/1o_glLsehadoQQa7bap7Ve5pW_KS30xDgcdq79Fcn4Ow/edit#heading=h.rrqx4mdnmg3q) (private).
-- Minimal [CVS support](https://github.com/orgs/sourcegraph/projects/119?card_filter_query=label%3Acvs), to unblock an important [customer](https://github.com/sourcegraph/customers/issues/5).
 
 ### What we are not working on
 
@@ -147,4 +143,7 @@ This quarter, we are taking on some work outside the scope of Batch Changes to s
 
 - **Adding a permission model**: Batch Changes currently only supports the site-admin and user roles. While finer-grained permissions will likely be needed to reach broad adoption in large companies, we are prioritizing building a product that supports [Enterprise scale](#enterprise-scale) before adding to the permission model. When Server-side Batch Changes is in beta and the user experience at a very large-scale allows for broad adoption, we can reconsider adding more complex permissions and control over who uses Batch Changes.
 
+- **Bitbucket cloud**: Batch Changes currently supports Bitbucket server, but not Bitbucket cloud. We plan to add bitbucket Cloud ([#24199](https://github.com/sourcegraph/sourcegraph/issues/24199)) in the future as it would increase our addressable market and is requested by some customers and prospects. We are not prioritizing it this quarter, because we focus on making Batch Changes great at [Enterprise scale](#enterprise-scale) before increasing our addressable market.
+
 - Education material about code change tools. Helping our customers find and select a code change tool that suits their needs is a very common ask, and something we think could drive adoption. We don’t have bandwidth for this this quarter though.
+
