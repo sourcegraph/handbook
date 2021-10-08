@@ -16,8 +16,6 @@ While these pages still remian (due to a lot of useful resources that have yet t
 ## Details
 
 - [Product & personas](product.md)
-- [Ownership areas](ownership_areas.md)
-- [Recurring processes](recurring_processes.md)
 - [Internal infrastructure](internal_infrastructure.md)
 - [Tools](tools/index.md)
 - [Tech stack](tech_stack.md)
