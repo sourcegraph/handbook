@@ -9,7 +9,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 ## Members
 
 - [Dan Mckeen](../../../company/team/index.md#dan-mckeen-he-him) (acting [Product Manager](../../../product/roles/index.md#product-manager))
-- [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
+- [Stephan Budge](../../../company/team/index.md#stephan-budge-hehim) ([Engineering Manager](../../roles.md#engineering-manager))
   - [Geoffrey Gilmore](../../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../../company/team/index.md#dave-try)
   - [Crystal Augustus](../../../company/team/index.md#crystal-augustus)
