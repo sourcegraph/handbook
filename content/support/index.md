@@ -48,7 +48,7 @@ More details about each team member in [our team READMEs](support-bios.md).
 
 ## We know that we are successful when we …
 
-### At the team level and at a very high level... 
+### At the team level and at a very high level...
 
 We always want the following to be true:
 
@@ -59,7 +59,7 @@ We always want the following to be true:
   - [FY22Q2 OKR plan](FY22Q2-OKR-Plan.md)
   - [FY22Q3 OKR plan](FY22Q3-OKR-Plan.md)
 
-### As an individual CSE... 
+### As an individual CSE...
 
 As I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
 
