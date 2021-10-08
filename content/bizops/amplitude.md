@@ -88,3 +88,26 @@ All events from eventLogger are sent to Amplitude except if explicitely added to
 ## A/B testing in Amplitude
 
 Each A/B test has a user property where the A/B test is true or false (true = they saw the variant, false = they saw the original). See the page on [A/B testing](ab-testing.md) for more information about experimentation at Sourcegraph.
+
+## Using Amplitude FAQs
+
+### How do I find what an event is named in Sourcegraph's code?
+
+Most times you can search in the 'Select event' dropdown and you'll find the event you're looking for. If you can't, or are unsure what the Amplitude event corresponds to, keep reading!
+
+To figure out the event's name in code, follow these steps (or [watch this video](https://drive.google.com/file/d/1R1oAc82nZULfxtr_KsIPBT4K08YHEwLa/view?usp=sharing):
+
+To find what a button, page view or action is named
+1. Open Safari
+2. Enable developer mode (preferences -> advanced)
+3. Go to sourcegraph.com
+4. Show the JavaScript console
+5. Enter ```localStorage.eventLogDebug = "true"```
+6. Start using Sourcegraph and click/view the event you're looking for!
+
+### Where should I save charts?
+
+There are three levels to where a chart can be saved. 
+1. To create a private chart, uncheck 'Make Discoverable' in the chart's dropdown ("More")
+2. You can create charts that are discoverable and public, but not as easily accessible to other teammates
+3. Add charts to Team Spaces if you want them to be easily accessible to teammates
