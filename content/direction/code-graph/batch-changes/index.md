@@ -147,3 +147,4 @@ This quarter, our main goal is to ship an alpha version of [Server-side Batch Ch
 
 - Education material about code change tools. Helping our customers find and select a code change tool that suits their needs is a very common ask, and something we think could drive adoption. We don’t have bandwidth for this this quarter though.
 
+- **Integrating with other features**: in the future, we want Batch Changes to fit in an integrated Sourcegraph experience. A code insights could include a batch change to track and fix a bad code pattern. Code monitoring could be used to trigger batch changes. The code graph could be used to change code across repositories. SSBC tends to be a prerequisite for this type of experiences, as they require triggering and executing a batch change. We intend to focus on building that unified experience once SSBC is in Beta and has a small user base.
