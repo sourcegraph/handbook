@@ -42,7 +42,7 @@ Note: if you are a new manager and require access to past review history for you
 
 ## Process Street
 
-[Process Street](https://app.process.st/login) is the system that hosts our onboarding and offboarding checklists and tasks. As a manager, you will be tagged in important tasks within these checklists to set your direct reports are set up for success, and it will be your responsibility to ensure all necessary tasks assigned to you are completed in a timely mannger to ensure a smooth onboarding and offboarding.
+[Process Street](https://app.process.st/login) is the system that hosts our onboarding and offboarding checklists and tasks. As a manager, you will be tagged in important tasks within these checklists to set your direct reports up for success, and it will be your responsibility to ensure all necessary tasks assigned to you are completed in a timely manner to ensure a smooth onboarding and offboarding.
 
 **Resources:**
 
