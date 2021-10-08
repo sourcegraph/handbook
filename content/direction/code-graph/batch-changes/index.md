@@ -118,10 +118,10 @@ We have five main learnings from the first year of Batch Changes:
 
 ### Top customer, support, sales, and marketing issues
 
-Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CEs and CSEs. The top issues surfaced to the Batch Changes team, as well as the top issues handled by CSEs and CEs are:
+Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CEs and CSEs. The top issues surfaced to CSE, CE and Product are:
 
-- Reports that changesets are not syncing frequently enough as well as feature requests for a bulk sync operation ([#21458](https://github.com/sourcegraph/sourcegraph/issues/21548)), that indicate that users think changesets do not sync properly. The current root cause is that users forget to setup [webhooks](<(https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits)>).
-- Users struggling to configure credentials, and getting confused by the various options (code host token, global service account, personal access token)
+- Changesets are not syncing frequently enough. There also are many feature requests for a bulk sync operation ([#21458](https://github.com/sourcegraph/sourcegraph/issues/21548)), that indicate that users think changesets do not sync properly. The current root cause is that users forget to setup [webhooks](<(https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits)>).
+- Users struggle to configure credentials, and get confused by the various options (code host token, global service account, personal access token).
 
 Besides configuration, we there are lots of requests for [mounting files on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851).
 
@@ -135,21 +135,21 @@ This quarter, our main goal is to iterate on the [Experimental](https://docs.sou
 
 We will iterate as we learn, but our focus will be on:
 
-- SSBC reliably works at the scale of 1,000s of changesets
-- Users get a great editing experience, including a few basic templates
-- Users get a great debugging experience
-- Admins are able to setup SSBC in a reasonable amount of time
-- Admins can manage (monitor, view queue, etc) executors
+- SSBC reliably works at the scale of 1,000s of changesets.
+- Users get a great editing experience, including a few basic templates.
+- Users get a great debugging experience.
+- Admins are able to setup SSBC in a reasonable amount of time.
+- Admins can manage (monitor, view queue, etc) executors.
 
 Besides SSBC, this is our ordered list of priorities:
 
 1. Build a minimal version of fork support ([#17879](https://github.com/sourcegraph/sourcegraph/issues/17879)). Users in companies with many changesets tend to run into write-permission issues when creating batch changes. This can be solved by creating forks. Besides, the permission model of [#565](https://github.com/sourcegraph/accounts/issues/565), [#544](https://github.com/sourcegraph/accounts/issues/544) and [#4778](https://github.com/sourcegraph/accounts/issues/4778) and likely other similar large scale customers, requires forks. Forks are necessary along with SSBC to allow large customers to create very large batch changes.
 1. Tackle the top configuration issues encountered by customers:
-   1. Nudge users to setup webhooks ([#24310](https://github.com/sourcegraph/sourcegraph/issues/24310))
+   1. Nudge users to setup webhooks ([#24310](https://github.com/sourcegraph/sourcegraph/issues/24310)).
    1. Simplify credential management. We plan to remove (deprecated) using the codehost token for Batch Changes ( [#25394](https://github.com/sourcegraph/sourcegraph/issues/25394)), and change the docs and in-product wording to clarify credential usage.
 1. Iterate on [bulk actions](https://github.com/orgs/sourcegraph/projects/119?card_filter_query=label%3Abulk-action), to move it from a minimal experience to something that customers love. We lack bandwidth to make radical improvements, but we plan to ship small increments, as well as start tracking bulk action metrics ([#23882](https://github.com/sourcegraph/sourcegraph/issues/23882)).
 1. (Rolled over from Q3) We are planning to allow users to [Mount file on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851) after many customer requests.
-1. Handle permission errors more gracefully (likely with [#24999](https://github.com/sourcegraph/sourcegraph/issues/24999s) and maybe with [#24307](https://github.com/sourcegraph/sourcegraph/issues/24307)). As we onboard larger customers, including on SSBC, permission errors are increasingly frequent, causing large batch changes to fail after hours of execution
+1. Handle permission errors more gracefully (likely with [#24999](https://github.com/sourcegraph/sourcegraph/issues/24999s) and maybe with [#24307](https://github.com/sourcegraph/sourcegraph/issues/24307)). As we onboard larger customers, including on SSBC, permission errors are increasingly frequent, causing large batch changes to fail after hours of execution.
 1. **Experiment:** We assume that if we provide low-effort entry points into the product, users will get into Batch Changes and some will become long-term users. This will increase the value batch change creates, and increase stickiness. We want to start testing this assumption as it may take several test and learn cycles to get to the final experience that works. We may timebox a small experiment like this if we are able to deliver on our other priorities.
 
 ### What we are not working on
