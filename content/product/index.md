@@ -40,7 +40,7 @@ Our current [product goals pages](index.md#roadmap) are not always up to date so
 - Owner: Jason
 - [Working Document](https://docs.google.com/document/d/15H6PeCF9c890TqQBc3gaDSk-GDE42SPzhokAlU5Lu8M/edit?usp=sharing)
 
-### ✅  Public facing roadmap (DONE)
+### ✅ Public facing roadmap (DONE)
 
 We are missing a single source of truth for what is currently on the roadmap. Our customers as well as Sales, Customer Engineering, Customer Support, and Marketing all need to know what is on the roadmap. Today we use several methods to track our roadmap making any one source unreliable. The end goal is to have a single source of truth that is referenced as needed.
 
