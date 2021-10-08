@@ -141,7 +141,7 @@ We will iterate as we learn, but our focus will be on:
 - Admins are able to setup SSBC in a reasonable amount of time.
 - Admins can manage (monitor, view queue, etc) executors.
 
-Besides SSBC, this is our ordered list of priorities:
+After SSBC, this is our ordered list of priorities:
 
 1. Build a minimal version of fork support ([#17879](https://github.com/sourcegraph/sourcegraph/issues/17879)). Users in companies with many changesets tend to run into write-permission issues when creating batch changes. This can be solved by creating forks. Besides, the permission model of [#565](https://github.com/sourcegraph/accounts/issues/565), [#544](https://github.com/sourcegraph/accounts/issues/544) and [#4778](https://github.com/sourcegraph/accounts/issues/4778) and likely other similar large scale customers, requires forks. Forks are necessary along with SSBC to allow large customers to create very large batch changes.
 1. Tackle the top configuration issues encountered by customers:
