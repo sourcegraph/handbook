@@ -95,7 +95,7 @@ Each A/B test has a user property where the A/B test is true or false (true = th
 
 Most times you can search in the 'Select event' dropdown and you'll find the event you're looking for. If you can't, or are unsure what the Amplitude event corresponds to, keep reading!
 
-To figure out the event's name in code, follow these steps (or [watch this video](https://drive.google.com/file/d/1R1oAc82nZULfxtr_KsIPBT4K08YHEwLa/view?usp=sharing):
+To figure out an event's name is in code or to confirm whether an existing event in Amplitude is the correct one, follow these steps (or [watch this video](https://drive.google.com/file/d/1R1oAc82nZULfxtr_KsIPBT4K08YHEwLa/view?usp=sharing)) :
 
 To find what a button, page view or action is named
 
