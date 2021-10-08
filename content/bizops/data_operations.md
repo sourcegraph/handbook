@@ -55,7 +55,8 @@ For more info on our data stack tools, see the [analytics page](analytics.md).
 
 ### Pings information
 
-Pings are the telemetry we receive from on-prem instances. 
+Pings are the telemetry we receive from on-prem instances.
+
 - [List of pings](https://docs.sourcegraph.com/admin/pings)
 - [Adding, changing and debugging pings](https://docs.sourcegraph.com/dev/background-information/adding_ping_data)
 
