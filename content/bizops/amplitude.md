@@ -110,6 +110,6 @@ To find what a button, page view or action is named
 
 There are three levels to where a chart can be saved.
 
-1. To create a private chart, uncheck 'Make Discoverable' in the chart's dropdown ("More"). 
-2. To create a chart that is discoverable by other teammates but not as easily accessible unless they search (or you send them a link), just create a chart. This is Amplitude's default. 
-3. Add charts to Team Spaces if you want them to be easily accessible to teammates. 
+1. To create a private chart, uncheck 'Make Discoverable' in the chart's dropdown ("More").
+2. To create a chart that is discoverable by other teammates but not as easily accessible unless they search (or you send them a link), just create a chart. This is Amplitude's default.
+3. Add charts to Team Spaces if you want them to be easily accessible to teammates.
