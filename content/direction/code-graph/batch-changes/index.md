@@ -61,7 +61,7 @@ We have the overarching goal to [level up our enterprise-ready features](../inde
 To drive enterprise success and stickiness, we need to:
 
 - Deliver a great experience in creating changesets at enterprise scale (10,000s repositories), resulting in more users onboarding batch changes.
-- Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth
+- Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth.
 - Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key success metric.
 
 ### Discovery and onboarding
