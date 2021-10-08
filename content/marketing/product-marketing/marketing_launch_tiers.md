@@ -6,6 +6,11 @@ The marketing launch tier should be established as early in the product developm
 
 In reviewing the [PMM Roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) monthly, product and marketing leadership determine which features contained therein are L1, L2, or L3 levels. The tier of a given upcoming feature can always be found (once determined) in the talk track section of each feature slide.
 
+## Product management procedures
+
+The product management team has documentation on how communication works for pre-release (beta/experimental) and L1 features in the [product management handbook](../../product/product_management/rollout_process.md#communication).
+There is also documentation available on the [meaning of the beta and experimental pre-release labels](../../product/beta_and_experimental_feature_labels.md).
+
 ## L1 launch
 
 L1 launches are reserved for the most important product announcements of the year. L1 launches:
@@ -16,7 +21,7 @@ L1 launches are reserved for the most important product announcements of the yea
 - Are typically goaled on revenue and/or product adoption
 - Receive full marketing and sales support
 
-The L1 designation can also be used for major company announcements (funding, acquisitions, IPO, etc.).
+The L1 designation can also be used for major company announcements (funding, acquisitions, IPO, etc.) and product milestones (such as xMM repos indexed).
 
 PMM should be embedded with the product team as early as possible for L1 launches.
 

@@ -2,7 +2,9 @@
 
 ## Our ethos
 
-Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as these additional guiding principles …
+Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as by honoring our...
+
+### guiding principles:
 
 - Focusing on the impact we might have and aligning our decisions and actions to the impact we desire
 - Seeking/providing context so the why is clear
@@ -46,7 +48,9 @@ More details about each team member in [our team READMEs](support-bios.md).
 
 ## We know that we are successful when we …
 
-At the team level and at a very high level, we always want the following to be true:
+### At the team level and at a very high level...
+
+We always want the following to be true:
 
 - **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 - **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
@@ -55,7 +59,9 @@ At the team level and at a very high level, we always want the following to be t
   - [FY22Q2 OKR plan](FY22Q2-OKR-Plan.md)
   - [FY22Q3 OKR plan](FY22Q3-OKR-Plan.md)
 
-As an individual CSE, as I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
+### As an individual CSE...
+
+As I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
 
 1. I enact our company values and team guiding principles in all of my work (customer communication, workflow, internal communication, etc)
 2. I take an average of at least 1 new case each day (5-7 a week); as volume allows
