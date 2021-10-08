@@ -1515,3 +1515,12 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [marisak](https://github.com/marisak)
 - [marisa.kanemoto@sourcegraph.com](mailto:marisa.kanemoto@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/marisa-kanemoto/), [Website](https://marisa-design.com)
 - Marisa grew up in the Bay Area and happily resides in Berkeley with her partner. She's enthusiastic about reading sci-fi and fantasy novels, and helps to moderate an online figure drawing community. Marisa is eagerly awaiting a Bay Area WNBA team.
+
+## Bob Roudebush (he/him)
+
+- Customer Engineering Director - Americas
+- Indianapolis, Indiana, United States 🇺🇸
+- GitHub: [RoudyBob](https://github.com/RoudyBob)
+- [bob.roudebush@sourcegraph.com](mailto:bob.roudebush@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/bobroudebush/)
+- How to say my last name: [Roudebush](https://www.howtopronounce.com/roudebush)
+- Bob has been a resident of the Hoosier State his entire life and currently resides in Indianapolis, IN with his wife and two sons. The two sons are currently away at college but still drop by when they want a home-cooked meal or have laundry to be done. Bob is a former "Microsoftie" and "X-Googler" and has had the benefit of having many different interesting jobs at those companies and few others. He's a big fan of family board game night, an avid trail runner, and consumes as many books, podcasts, and Kentucky bourbons as his remaining time will allow.
