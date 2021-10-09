@@ -28,9 +28,9 @@ The People Ops team manages their projects through a team [Trello Board](https:/
 2. At the beginning of the People Ops weekly team meeting, one person quickly reads through all cards in the following columns:
    1. In Progress
    2. On Hold/Blocked
-3. Assignees of each card should respond with the following: 
+3. Assignees of each card should respond with the following:
    1. **On Track:** the project is moving along as expected and I do not need support from other teammates at this time. This can be true for an On Hold/Blocked item if action is already underway to unblock.
    2. **Off Track:** the project is running behind, blocked, or otherwise not going as expected.
-5. After all relevant card updates have been given, each “Off Track” card is a discussion topic with the goal being to help get the project back on track. This can take several forms: Adjusting due date, pulling in additional resources, changing scope of the project, etc.
+4. After all relevant card updates have been given, each “Off Track” card is a discussion topic with the goal being to help get the project back on track. This can take several forms: Adjusting due date, pulling in additional resources, changing scope of the project, etc.
 
 This should take about 5-10 minutes at the beginning of our weekly People Ops internal sync meeting!
