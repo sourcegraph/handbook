@@ -1454,7 +1454,7 @@ For help adding yourself to this page, check out [these instructions](../../edit
 
 ## Ben Venker
 
-- Send me more code monitor alerts! - Search Product
+- Product Manager - Search Product
 - St. Louis, MO, United States 🇺🇸
 - GitHub: [benvenker](https://github.com/benvenker)
 - [ben.venker@sourcegraph.com](mailto:ben.venker@sourcegraph.com)
