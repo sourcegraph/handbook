@@ -1524,3 +1524,12 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [bob.roudebush@sourcegraph.com](mailto:bob.roudebush@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/bobroudebush/)
 - How to say my last name: [Roudebush](https://www.howtopronounce.com/roudebush)
 - Bob has been a resident of the Hoosier State his entire life and currently resides in Indianapolis, IN with his wife and two sons. The two sons are currently away at college but still drop by when they want a home-cooked meal or have laundry to be done. Bob is a former "Microsoftie" and "X-Googler" and has had the benefit of having many different interesting jobs at those companies and few others. He's a big fan of family board game night, an avid trail runner, and consumes as many books, podcasts, and Kentucky bourbons as his remaining time will allow.
+
+## Nancy Shah (she/her)
+
+- Senior Customer Engineer - East Americas
+- Oakton, VA, United States 🇺🇸
+- GitHub: [nancy4dev](https://github.com/nancy4dev)
+- [nancy@sourcegraph.com](mailto:nancy.shahh@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nancy-s-97b71859/)
+- How to say my last name: [Shah](https://www.howtopronounce.com/shah)
+- Nancy grew up in upstate New York, but has lived in the DC Metro Area for most of her life.  She appreciates the peacefulness of newly fallen snow as well as the warmth of the sunshine.  She enjoys the beach as much as the mountains. You can find Nancy swimming, climbing, drinking coffee, binge watching TV shows, trying out the latest vegan recipes, and making her own skin/hair care products.  Her favorite things are blankets and cozy socks.
