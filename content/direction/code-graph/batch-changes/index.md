@@ -13,21 +13,21 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 #### 1-year vision
 
-> Enterprise developers can easily create changesets across many repositories and codehosts, and track them to completion.
+Enterprise developers can easily create changesets across many repositories and codehosts, and track them to completion. We will know that we have successfully accomplished this when most of Sourcegraph's customer base use Batch Changes.
 
 #### 3-year vision
 
-> Developers can easily create changesets across many repositories and codehosts, and track them to completion.
+Developers can easily create changesets across many repositories and codehosts, and track them to completion.
 
 #### 10-year vision
 
-> Automated code changes are a common practice for all developers.
+Automated code changes are a common practice for all developers.
 
 ## Mission & Strategy
 
 ### Mission
 
-We allow developers to focus on changing their code, without having to do any plumbing. We help them drive changesets to completion without having to rely on spreadsheets and painful coordination. Later on, we want to make it easier to write and run code that changes code.
+We allow developers to focus on changing their code, without having to do any plumbing (building scripts to interact with codehosts and integrate with other tools and workflow). We help them drive changesets to completion without having to rely on spreadsheets and painful coordination. Later on, we want to make it easier to write and run code that changes code.
 
 ### Strategy
 
@@ -35,7 +35,7 @@ To deliver our vision, we will:
 
 - First, get adopted by the Sourcegraph customer base, including large enterprises. We will target customers with advanced practices and workflow, and collaborate with them to build a category-defining product that all other companies will use. This is what we are doing today.
 - Concurrently, spread usage (MAUs) within our customer base, and make sure we deliver on our success metric (changesets merged).
-- Then, create low-effort entry points into Batch Changes, and allow users unfamiliar with the practice of automating code changes to onboard with a smooth learning curve. Make onboarding Batch Changes self-serve for most users, to help our customers be successful and prepare for launching on Cloud.
+- Then, create low time-to-value entry points into Batch Changes, and allow users unfamiliar with the practice of automating code changes to onboard with a smooth learning curve. Make onboarding Batch Changes self-serve for most users, to help our customers be successful and prepare for launching on Cloud.
 - Then, release Batch Changes on Sourcegraph Cloud, and test and learn how we can serve individuals and smaller teams.
 - Eventually, address the problem end to end by becoming the go-to place for code change tools and recipes.
 
@@ -43,13 +43,7 @@ To deliver our vision, we will:
 
 ## Themes
 
-To deliver the strategy, here are the themes we want to focus on for the next 3 years:
-
-- [Enterprise scale](#enterprise-scale)
-- [Discovery and onboarding](#discovery-and-onboarding)
-- [Adoption through low-effort usage patterns](#adoption-through-low-effort-usage-patterns)
-- [Cloud](#cloud)
-- [Automate common code changes](#automate-common-code-changes)
+To deliver the strategy, here are the themes we want to focus on for the next 3 years.
 
 ### Enterprise scale
 
@@ -62,7 +56,7 @@ To drive enterprise success and stickiness, we need to:
 
 - Deliver a great experience in creating changesets at enterprise scale (10,000s repositories), resulting in more users onboarding batch changes.
 - Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth.
-- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key success metric.
+- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../engineering/code-graph/batch-changes/metrics.md).
 
 ### Discovery and onboarding
 
@@ -72,21 +66,21 @@ As we go to market, our install base of customers with Batch Changes enabled is 
 - Provide pathways from Search into Batch Changes.
 - Make onboarding self-serve and provide easy ways to get started.
 
-### Adoption through low-effort usage patterns
+### Adoption through low time-to-value usage patterns
 
 The main use case for Batch Changes today is to automate creating changesets at scale, then track them to completion. This requires some time investment from users to get familiar with Batch Changes, and also to write the code required to automate code changes. This is great for the platform engineer persona or users that feel the urgency to adopt, but it does not allow for less committed users to discover Batch Changes and form habits.
 
-We have heard from customers that tracking and managing changesets created _outside_ of batch changes is very valuable as it replaces manual tasks: track the status of changes across many teams and make sure they get merged. We think there is an opportunity to offer a low-effort entry point into Batch Changes by allowing users to import changesets easily, and use the tracking and management functions.
+We have heard from customers that tracking and managing changesets created _outside_ of batch changes is very valuable as it replaces manual tasks: track the status of changes across many teams and make sure they get merged. We think there is an opportunity to offer a low time-to-value entry point into Batch Changes by allowing users to import changesets easily, and use the tracking and management functions.
 
 We also think we can deliver our vision by offering a way to change code across repositories, without writing code, and directly from the Sourcegraph navigation UI.
 
-We plan to drive usage (MAUs) by implementing low-effort, high-frequency use cases.
+We plan to drive usage (MAUs) by implementing low time-to-value, high-frequency use cases.
 
 ### Cloud
 
 We plan to achieve feature parity on Sourcegraph Cloud, including Batch Changes. There are two prerequisites for Batch Changes on Sourcegraph Cloud to be successful:
 
-- Reducing time to value. Sourcegraph Cloud's user base will be primarily individual and commercial customers, at least at the beginning. Today, the value of Batch Changes increases exponentially with the size of a customer's codebase and team. Most customers with a smaller team and codebase do not face a big enough pain to invest the time and effort required to adopt Batch Changes in its present state. To be successful on Sourcegraph Cloud we need to make the time to value of Batch Changes shorter and drive [Adoption through low-effort usage patterns](#adoption-through-low-effort-usage-patterns).
+- Reducing time to value. Sourcegraph Cloud's user base will be primarily individual and commercial customers, at least at the beginning. Today, the value of Batch Changes increases exponentially with the size of a customer's codebase and team. Most customers with a smaller team and codebase do not face a big enough pain to invest the time and effort required to adopt Batch Changes in its present state. To be successful on Sourcegraph Cloud we need to make the time to value of Batch Changes shorter and drive [Adoption through low time-to-value usage patterns](#adoption-through-low-time-to-value-usage-patterns).
 - Improving [Discovery and onboarding](#discovery-and-onboarding).
 
 ### Automate common code changes
@@ -109,7 +103,7 @@ Over the first year, we have discovered a repeatable playbook: a platform engine
 We have five main learnings from the first year of Batch Changes:
 
 - The key success metric for customers is the number of changesets opened by Batch Changes that eventually get merged. To be successful, we need to increase adoption, and the merge rate of changesets.
-- We have discovered that importing, tracking and managing existing changesets that were not created by Batch Changes, is perceived as very useful by customers. However, importing changesets today is clumsy, so this workflow is not very frequently used. We need to improve it and validate the value of this use case. If successful, it could create a low-friction, low-effort entry point into Batch Changes for new users and increase usage frequency and stickiness.
+- We have discovered that importing, tracking and managing existing changesets that were not created by Batch Changes, is perceived as very useful by customers. However, importing changesets today is clumsy, so this workflow is not very frequently used. We need to improve it and validate the value of this use case. If successful, it could create a low-friction, low time-to-value entry point into Batch Changes for new users and increase usage frequency and stickiness.
 - Batch changes works great for teams with 1,000s of repositories, but gets clumsy to use for companies with 10,000s repositories.
 - The job to be done (JTBD) for our customers is changing code at a large-scale. To do so, they need to automate a code change, apply it, then track it to completion. Batch Changes today is addressing applying and tracking changes, but the first many customers ask is "how do I write code that makes change x". To solve for our customers JTBD, we will need to provide an answer to that question.
 - As users get more sophisticated and work on large, more complex batch changes, debugging and iteration cycle time become the bottleneck
@@ -133,7 +127,7 @@ This quarter, our main goal is to iterate on the [Experimental](https://docs.sou
 
 - It is essential for Batch Changes to work at [Enterprise scale](#enterprise-scale), and Enterprise customers with 10,000s of repositories have a degraded experience today, because they cannot create batch changes with 1,000s of changesets or resource-intensive batch changes in a reasonable amount of time. Server-side Batch Changes will directly impact key customers and prospects such as [1](https://github.com/sourcegraph/customers/issues/1), [2](https://github.com/sourcegraph/customers/issues/3), [3](https://github.com/sourcegraph/customers/issues/2) and [4](https://github.com/sourcegraph/customers/issues/6).
 - It will shift the setup burden from the user to the site-admin. Once site-admins have setup SSBC, any user can run a batch change from the GUI in a few clicks. That will unlock improvements to [Discovery and onboarding](#discovery-and-onboarding) such as creating batch changes from a template directly from the GUI instead of having a "cold start". Creating a guided, self-serve onboarding is a prerequisite for [Cloud](#cloud).
-- It unlocks [key vision items](https://docs.google.com/document/d/1MnfaA9P7mtur7aQbMvy2x96_zy_IrOhY-MbGUo5I5wk/edit#heading=h.25ypvomeex1g) that will make using Sourcegraph an incredible experience and delight our customers, as well as [low-effort usage patterns](#adoption-through-low-effort-usage-patterns).
+- It unlocks [key vision items](https://docs.google.com/document/d/1MnfaA9P7mtur7aQbMvy2x96_zy_IrOhY-MbGUo5I5wk/edit#heading=h.25ypvomeex1g) that will make using Sourcegraph an incredible experience and delight our customers, as well as [low time-to-value usage patterns](#adoption-through-low-time-to-value-usage-patterns).
 
 We will iterate as we learn, but our focus will be on:
 
@@ -154,7 +148,7 @@ After SSBC, this is our ordered list of priorities:
 1. Iterate on [bulk actions](https://github.com/orgs/sourcegraph/projects/119?card_filter_query=label%3Abulk-action), to move it from a minimal experience to something that customers love. We lack bandwidth to make radical improvements, but we plan to ship small increments, as well as start tracking bulk action metrics ([#23882](https://github.com/sourcegraph/sourcegraph/issues/23882)).
 1. (Rolled over from Q3) We are planning to allow users to [Mount file on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851) after many customer requests.
 1. Handle permission errors more gracefully (likely with [#24999](https://github.com/sourcegraph/sourcegraph/issues/24999s) and maybe with [#24307](https://github.com/sourcegraph/sourcegraph/issues/24307)). As we onboard larger customers, including on SSBC, permission errors are increasingly frequent, causing large batch changes to fail after hours of execution.
-1. **Experiment:** We assume that if we provide low-effort entry points into the product, users will get into Batch Changes and some will become long-term users. This will increase the value batch change creates, and increase stickiness. We want to start testing this assumption as it may take several test and learn cycles to get to the final experience that works. We may timebox a small experiment like this if we are able to deliver on our other priorities.
+1. **Experiment:** We assume that if we provide low time-to-value entry points into the product, users will get into Batch Changes and some will become long-term users. This will increase the value batch change creates, and increase stickiness. We want to start testing this assumption as it may take several test and learn cycles to get to the final experience that works. We may timebox a small experiment like this if we are able to deliver on our other priorities.
 
 ### What we are not working on
 
