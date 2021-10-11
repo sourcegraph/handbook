@@ -601,7 +601,7 @@ In HTML, using `<q></q>` will automatically apply the correct quotation marks fo
 
 Watch out for dumb quotation marks (`'` and `"`). These are a relic of typewriters, and can be identified by how they’re straight rather than curly. Always use typographic quotation marks (`‘` and `’`, `“` and `”`).<br>
 
-In Markdown content in our handbook you don't need to worry about this rule: dumb quotation marks are automatically replaced with typographic quotation marks.
+In Markdown content in our handbook and blog you don't need to worry about this rule: dumb quotation marks are automatically replaced with typographic quotation marks.
 In HTML, the easiest way to add the appropriate typographic quotation marks is to wrap the quote in `<q></q>` instead of manually quoting.
 
 <div class="usage">
