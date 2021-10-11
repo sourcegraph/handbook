@@ -56,10 +56,10 @@ Our high-level roadmap is blurry; we aim to work on the most impactful problems.
   - Tactic: Evaluate and decide if we continue with OkayHQ.
   - OKR: Those metrics are sufficient to corroborate existing DX hypotheses (or invalidate them).
 
-## Next (6-12 months)
+### Next (6-12 months)
 
 We are currently drafting opportunities and projects we plan to explore over next year in our [strategy draft document](https://docs.google.com/document/d/1IrIe7NUEr_0RscvWDuvtjAKFRIp4agpc_in1_6T5WBQ/edit#).
 
-## Later
+### Later
 
 We are currently drafting future bets in our [strategy draft document](https://docs.google.com/document/d/1IrIe7NUEr_0RscvWDuvtjAKFRIp4agpc_in1_6T5WBQ/edit#).
