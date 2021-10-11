@@ -15,7 +15,7 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 Enterprise developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.
 
-We are focusing on enterprises first because the intensity of the pain increases with the size and age of a codebase, and with the number of teams working on it. Enterprises tend to be the places where those conditions exist and the need is the most intense currently. That allows us to be adopted and learn fast, and solve the most valuable problems with users that operate in a very large codebase. Some enterprises also have existing tooling that we can replace, serving as a validation that we are moving in the right direction. We will know we have achieved this vision when a large fraction of Sourcegraph's customers use Batch Changes.
+We are focusing on enterprises first because the intensity of the pain increases with the size and age of a codebase, and with the number of teams working on it. Enterprises tend to be the places where those conditions exist and the need is the most intense currently. That allows us to be adopted fast, learn fast, and solve the most valuable problems for users that operate in a very large codebase. Some enterprises also have existing tooling that we can replace, serving as a validation that we are moving in the right direction.
 
 #### 3-year vision
 
