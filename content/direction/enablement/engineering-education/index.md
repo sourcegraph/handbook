@@ -8,9 +8,9 @@ This page outlines the vision, strategy and goals of the [Engineering education 
 
 ### Mission
 
-We want every engineer at Sourcegraph to feel engaged, motivated, and productive while having all the context and technical knowledge they need in order to deliver high-quality work.
+Engineering Education's mission is to get engineers onboarded quickly and efficiently, help technical knowledge flow [openly and freely](../../../company/values.md#open-and-transparent) within teams and across teams, provide resources and environments for engineers to [continuously grow](../../../company/values.md#continuously-grow), and drive a culture of learning and knowledge sharing at Sourcegraph.
 
-We make this happen by getting engineers onboarded quickly and efficiently, providing resources and environments for engineers to [continuously grow](../../../company/values.md#continuously-grow), helping technical knowledge flow [openly and freely](../../../company/values.md#open-and-transparent) within teams and across teams, and driving a culture of learning and knowledge sharing at Sourcegraph.
+We want every engineer at Sourcegraph to feel that they have all the context and technical knowledge they need in order to deliver [high-quality](../../../company/values.md#high-quality) work, and feel that they are continuously growing personally and professionally.
 
 ### Vision
 
@@ -30,10 +30,12 @@ Teammates choose to join Sourcegraph because we are publicly known for providing
 
 These are the principles that guide the work we do in Engineering Education. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
 
-- We lead by example by sharing what we’re learning and by teaching others.
+- We prefer clear and concrete communication over abstract words.
 - We encourage innovation and experimentation.
 - Learning is active. It is not our role to train teammates, but to facilitate - their learning. We prefer to create learning environments rather than doing top-down training.
-- Learning is collaborative. We encourage and equip others in their journey of educating peers.
+- Learning is collaborative. We encourage and equip others in their journey of educating their peers.
+- We value [continuous growth](../../../company/values.md#continuously-grow) in everything we do.
+- We lead by example by sharing what we’re learning and by teaching others.
 
 ## Where we are now
 
