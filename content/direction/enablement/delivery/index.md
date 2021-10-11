@@ -56,7 +56,7 @@ TODO
 > ⚠️ Please see below in [Strategy and plans](#strategy-and-plans) for more information on which problems are actually in scope of the team.
 
 - The primary customer and support problem is one of the ease with which Sourcegraph can be installed and upgrades
-  - This spans multiple sub problems, but a high level overview of the pain [can be read here](https://docs.google.com/document/d/1vTesgi6MQQXKI0xBuu5nCpgPPcUd2o6_1bmrhFiSW_c/edit)
+  - This spans multiple sub problems, but a high level overview of the pain [can be read here](https://docs.google.com/document/d/1RPcTHbEDaKbPC0p0HaCLBMeLyz-18do9LZ4KRt_ZagU/edit#)
 
 TODO add more specific customer/support problem information
 
@@ -64,13 +64,11 @@ TODO add more specific customer/support problem information
 
 ## Goals
 
-TODO
+🎯 Increase the percentage of customers adoption new releases within 1 month
 
-🎯 Goal 1
+🎯 Reduce the average number of issues raised relating to POC or Production deployments
 
-🎯 Goal 2
-
-🎯 Goal 3
+🎯 TBD
 
 ## Themes
 
@@ -80,14 +78,12 @@ TODO
 
 > More detailed plans related back to the themes and goals. If your time frame covers more than a quarter, it would be valuable to give some indication of time within the plans in this section, to help others appreciate the likely ETA of value.
 
-> ℹ️ The plans for this team are currently being worked out and the following summarizes the current plans.
-
 Note that the time periods are rolling time periods and the plans here are reviewed and updated monthly.
 
 ### Short term (3m)
 
-- [ ] Deployment, configuration and upgrade methods
-  - See more information in the [business summary of the problem](https://docs.google.com/document/d/1vTesgi6MQQXKI0xBuu5nCpgPPcUd2o6_1bmrhFiSW_c/edit)
+- [ ] Redcued friction in deployments and upgrades
+  - See more information in the [problem statement [WIP]](https://docs.google.com/document/d/1RPcTHbEDaKbPC0p0HaCLBMeLyz-18do9LZ4KRt_ZagU/edit#)
 
 ### Mid term (6m)
 

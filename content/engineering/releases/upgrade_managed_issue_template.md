@@ -11,9 +11,9 @@ Arguments:
 
 # $MAJOR.$MINOR.$PATCH managed instances upgrade
 
-These [managed instances](../distribution/managed/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
+These [managed instances](../enablement/delivery/managed/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
-To perform these upgrades, follow the [managed instances upgrade process](../distribution/managed/upgrade_process.md).
+To perform these upgrades, follow the [managed instances upgrade process](../enablement/delivery/managed/upgrade_process.md).
 Make sure to upgrade internal instances before customer instances.
 
 ---

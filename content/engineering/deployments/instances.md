@@ -5,11 +5,11 @@ Information about Sourcegraph's different instances.
 - [sourcegraph.com](instances.md#sourcegraph-com) is our production deployment.
 - [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers.
   This deployment also contains all of our private code.
-- [Managed instances](../distribution/managed/index.md) are deployments of Sourcegraph we manage for customers.
+- [Managed instances](../enablement/delivery/managed/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
 
-For deployments of Sourcegraph we manage for customers, see [managed instances](../distribution/managed/index.md).
+For deployments of Sourcegraph we manage for customers, see [managed instances](../enablement/delivery/managed/index.md).
 
 Also see [playbooks](./playbooks.md) for common actions related to operating our Sourcegraph deployments.
 
@@ -57,7 +57,7 @@ Learn more in [deployment basics](./index.md#deployment-basics).
 
 ## Managed instances
 
-[Managed instances](../distribution/managed/index.md) are deployments of Sourcegraph we manage for customers.
+[Managed instances](../enablement/delivery/managed/index.md) are deployments of Sourcegraph we manage for customers.
 We also maintain some internal managed instances for various use cases.
 
 ### demo.sourcegraph.com
@@ -66,12 +66,12 @@ This deployment is used by Sourcegraph CE for demos.
 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-demo)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/demo)
-- [Operations](../distribution/managed/operations.md)
+- [Operations](../enablement/delivery/managed/operations.md)
 
 ### devmanaged.sourcegraph.com
 
-This deployment is a [managed instance](../distribution/managed/index.md) used by Distribution for experimenting with managed instances in general.
+This deployment is a [managed instance](../enablement/delivery/managed/index.md) used by Distribution for experimenting with managed instances in general.
 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-dev)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/dev)
-- [Operations](../distribution/managed/operations.md)
+- [Operations](../enablement/delivery/managed/operations.md)
