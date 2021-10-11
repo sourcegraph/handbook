@@ -423,6 +423,10 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
       - What are some key deliverables you’d expect to see?
   - Part 3: Q&A
 
+- Developer Educator working session
+  - Duration: 60-minutes.
+  - During this stage in the interview process, we try to get a sense of your approach and thought process about curriculum and writing. You will be given a curriculum and short tutorial draft to review for the first 30 minutes of the session, after which you and the hiring manager will take the last 30 minutes to go through your thoughts about that approach and talk about your feedback and what you would add.
+
 ## People Operations
 
 - Coming soon
