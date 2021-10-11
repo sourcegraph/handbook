@@ -22,6 +22,7 @@ TODO
 
 - #dev-experience channel or @dev-experience-team in Slack.
 - [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and [@sourcegraph/dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience) team on GitHub.
+  - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label.
 
 ## Growth plan
 
@@ -35,6 +36,8 @@ TODO
 
 _This section is a work in progress._
 
+- Internal team channel in #dev-experience-internal
 - [Planning board](https://github.com/orgs/sourcegraph/projects/212)
 - [Team sync](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
 - [Newsletter](https://docs.google.com/document/d/1O5iUZ3cQ4c7sGhlFHDW2MXpfgLzIPFszN1jgXFUKNRo/edit#)
+- Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
