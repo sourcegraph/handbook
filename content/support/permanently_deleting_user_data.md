@@ -13,7 +13,7 @@ You can request this via support@sourcegraph.com
 The support team member is responsible for delegating to other teams by following the steps below. If the request came in through another team, you should inform the user that only our support team support@sourcegraph.com can handle such requests.
 
 1. **Verify the user's identity:** It is extremely important that we only delete a user's data if it is actually tied to the email address the request came from. That is the only way we know the user actually owns that user account. If a request from "alice@gmail.com" is asking us to delete their account data for "aliceb@gmail.com" or for "the username alice", we could mistakenly delete the wrong user OR it could even be a malicious request. To solve this, **only reference the email address that the request came from when communicating with other teams below.**
-2. **Deleting data from Hubspot and Salesforce:** Post **in #it-tech-ops**:
+2. **Deleting data from Hubspot and Salesforce:** Post **in #sales-ops**:
 
 > Hi team! We've recieved a request to permanently delete a user's data (for GDPR or other reasons), can you please ensure their data is deleted from both Hubspot and Salesforce?
 >
