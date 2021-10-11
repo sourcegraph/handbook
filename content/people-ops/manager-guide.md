@@ -1,6 +1,6 @@
 # Manager accounts guide
 
-As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your direct reports in order to better support them. This page is intended to be a resource to help you navigate these different accounts and systems, which hold important and sensisitive information about your teams. In these systems you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
+As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your direct reports in order to better support them. This page is intended to be a resource to help you navigate these different accounts, which hold important and sensitive information about your teams. In these accounts you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
 
 Should you have questions on any of these systems, you can post in [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) on Slack or reach out to the appropriate contact in our [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
 
@@ -42,7 +42,7 @@ Note: if you are a new manager and require access to past review history for you
 
 ## Process Street
 
-[Process Street](https://app.process.st/login) is the system that hosts our onboarding and offboarding checklists and tasks. As a manager, you will be tagged in important tasks within these checklists to set your direct reports are set up for success, and it will be your responsibility to ensure all necessary tasks assigned to you are completed in a timely mannger to ensure a smooth onboarding and offboarding.
+[Process Street](https://app.process.st/login) is the system that hosts our onboarding and offboarding checklists and tasks. As a manager, you will be tagged in important tasks within these checklists to set your direct reports up for success, and it will be your responsibility to ensure all necessary tasks assigned to you are completed in a timely manner to ensure a smooth onboarding and offboarding.
 
 **Resources:**
 
