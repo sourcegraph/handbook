@@ -12,7 +12,7 @@ The Developer Experience team (part of the [Enablement](../index.md) org) is a t
 
 ## Direction
 
-See our [Developer experience direction](../../../direction/enablement/dev-experience/index.md) to learn about our vission, mission, guiding principles, and overall direction.
+See the [Developer Experience team direction](../../../direction/enablement/dev-experience/index.md) to learn about our vission, mission, guiding principles, and overall direction.
 
 ## Responsibilities
 
