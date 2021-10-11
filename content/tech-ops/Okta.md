@@ -62,9 +62,10 @@ For YubiKey set up:
 There is a "need help signing in?" button on the login screen. If you expand this there is a link to an automated password reset process via email.
 We recommend that you store your Okta password in 1Password as well as your Security Questions there.
 
-If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password: 
+If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password:
+
 1. Go to the our [Sourcegraph Okta Login page](https://www.sourcegraph.okta.com)
-2. [Forgot Password](https://sourcegraph.okta.com/signin/forgot-password) 
+2. [Forgot Password](https://sourcegraph.okta.com/signin/forgot-password)
 3. Enter your personal email address
 4. Reset via Email
 5. Go to your personal email account
