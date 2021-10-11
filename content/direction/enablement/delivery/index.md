@@ -8,7 +8,7 @@ This page outlines the vision, strategy, and goals of the [Delivery team](../../
 
 ## Mission
 
-Enable any Sourcegraph prospect or customer to use Sourcegraph in a way fits within their environment and allows them to easily access the value that our product provides. Make it as easy as possible for customers to access the value of Sourcegraph's latest developments through a simple upgrade process
+Enable any Sourcegraph prospect or customer to use Sourcegraph in a way fits within their environment and allows them to easily access the value that our product provides. Make it as easy as possible for customers to access the value of Sourcegraph's latest developments through a simple upgrade process.
 
 ## Vision
 
