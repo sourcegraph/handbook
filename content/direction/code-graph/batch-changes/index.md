@@ -13,15 +13,21 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 #### 1-year vision
 
-Enterprise developers can easily create changesets across many repositories and codehosts, and track them to completion. We will know that we have successfully accomplished this when most of Sourcegraph's customer base use Batch Changes.
+Enterprise developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.
+
+We are focusing on enterprises first because the intensity of the pain increases with the size and age of a codebase, and with the number of teams working on it. Enterprises tend to be the places where those conditions exist and the need is the most intense currently. That allows us to be adopted and learn fast, and solve the most valuable problems with users that operate in a very large codebase. Some enterprises also have existing tooling that we can replace, serving as a validation that we are moving in the right direction. We will know we have achieved this vision when a large fraction of Sourcegraph's customers use Batch Changes.
 
 #### 3-year vision
 
-Developers can easily create changesets across many repositories and codehosts, and track them to completion.
+Developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.
+
+Once we have created a product that is a leader for enterprises, we will focus on making it available to the largest number of developers possible.
 
 #### 10-year vision
 
 Automated code changes are a common practice for all developers.
+
+Making that happen requires two layers. First, making it easy to run code to create changesets across many repositories and codehosts, provided you know how to write code that changes code. We will have achieved this with our 3-year vision. Second, writing code that changes code, or more generally making describing code changes easier. To deliver our 10-year vision, we will create interfaces that makes it easy to describe code changes and create an experience that makes it as intuitive to change code on the entire codebase as in an IDE.
 
 ## Mission & Strategy
 
