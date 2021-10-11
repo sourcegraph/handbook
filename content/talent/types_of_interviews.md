@@ -401,6 +401,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
   - NOTE: Please don't go overboard on preparation, plans, or detail. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 
 - Program Manager, Demand Gen Campaigns working session
+
   - Duration: 60-minutes.
   - Part 1: Creativity & Collaboration (20 Minutes)
     - Coming out of our conversations we’ve taken an action item to better understand your creative campaign planning and activation methodology.
