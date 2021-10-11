@@ -23,9 +23,9 @@ We inherit Sourcegraph's [engineering principles and practices](../../principles
 - **We bandage first, then plan for surgery.** Fix local problems first, then generalize if and only if it makes sense.
   - What we cannot take upon right now, we make its status clear and provide stewardship.
     - We should never refuse to fix a "now" problem in favour of a long-term solution, only to cancel the fix because the priorities changed in between. More than not addressing the issue at hand, it prevents our users from fixing the problem for themselves in the meantime.
-  - We deliver small and iterative  experiments and collect feedback. We communicate regularly on their status to enable others to provide inputs. We should reap the benefits of what we work on as we go, not at the end.
+  - We deliver small and iterative experiments and collect feedback. We communicate regularly on their status to enable others to provide inputs. We should reap the benefits of what we work on as we go, not at the end.
 - **We listen and observe.** Our users often know best what's immediately good for them because they are the ones experiencing it every day.
-We are not a dependency. We actively seek to avoid blocking product teams. We focus on improving and expediting progress, not being critical to it.
+  We are not a dependency. We actively seek to avoid blocking product teams. We focus on improving and expediting progress, not being critical to it.
 
 ## Measuring success
 

@@ -33,7 +33,7 @@ TODO
 
 ## Processes
 
-*This section is a work in progress.*
+_This section is a work in progress._
 
 - [Planning board](https://github.com/orgs/sourcegraph/projects/212)
 - [Team sync](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
