@@ -19,7 +19,7 @@ We are focusing on enterprises first because the intensity of the pain increases
 
 #### 3-year vision
 
-Developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.
+Bring the same experience to all developers
 
 Once we have created a product that is a leader for enterprises, we will focus on making it available to the largest number of developers possible.
 
