@@ -1,6 +1,6 @@
-# Developer experience direction
+# Developer Experience team direction
 
-This page outlines the vision, strategy, and goals of the [Developer experience team](../../../engineering/enablement/dev-experience/index.md).
+This page outlines the vision, strategy, and goals of the [Developer Experience team](../../../engineering/enablement/dev-experience/index.md).
 
 ## Mission
 

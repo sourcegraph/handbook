@@ -1,6 +1,6 @@
-# Dev Experience team
+# Developer Experience team
 
-The Dev Experience team (part of the [Enablement](../index.md) org) is a team focused on improving the developer experience of Sourcegraph.
+The Developer Experience team (part of the [Enablement](../index.md) org) is a team focused on improving the developer experience of Sourcegraph.
 
 ## Members
 
