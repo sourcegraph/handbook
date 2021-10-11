@@ -2,19 +2,21 @@
 
 ### My view on demand generation
 
-Demand Generation is a collaboration between marketing and sales where you support one another. There's an open line of communication so we can each do our jobs to the best possible capacity. Wins should be celebrated across the organization together!
+Demand Generation consists of the strategies companies put into place to drive brand awareness, affinity, and a community of humans that love your product. It's a shared partnership across the org to move prospects through the buy-in journey.
+
+I'm really digging conversations going on in the ether around how product-led marketers should be thinking about demand gen. Here's [one of my favorite podcast episodes](https://podcasts.apple.com/us/podcast/197-navigating-the-blended-funnel-demand-gen-live-s2-x52/id1511588213?i=1000537786577) on the topic incase you're curious to learn more!
 
 ### Preferred learning styles
 
-I'm a lifelong, curious learner. With that, I ask many questions and love getting hands-on to rip things apart and put them back together.
+I'm really visual so I learn by seeing and doing. I love getting hands-on to take things apart and put them back together. Oh and you may neeed me to cool it on the questions from time to time because I can be a very curious data detective.
 
 ### Communication style
 
-Working at an async company can be challenging for me from time to time. Being someone that thinks through things technically, I'm used to having direct conversations with people to get to the bottom of why something is the way it is. Sometimes I struggle when it comes to written communication because I often worry that I'm not expressing myself in the best way possible.
+Working at an async company can be challenging for me from time to time. Being someone that thinks things through technically, I'm used to having direct conversations with people to get to the bottom of why something is the way it is. Sometimes I struggle when it comes to written communication because I often worry that I'm not expressing myself in the best way possible.
 
 ### How I manage my calendar
 
-As a mom, I do the best I can. I'm available for meetings from 9:30 am to 5:30 pm EST. If I have to shift my schedule around, I do the best to communicate that and hop on earlier in the am or later in the evening to get things done.
+I'm available for meetings from 9:30 am to 5:30 pm EST/1:30 pm to 9:30 pm UTC Monday-Friday. If I have to shift my schedule around, I do the best to communicate that. You'll often find if I can't stick to those hours on any given day, I'll hop on earlier in the am or later in the evening to get things done.
 
 ### Preferred way to collaborate
 
@@ -30,7 +32,8 @@ A thank you goes a long way for me! It's always nice to have people tell me othe
 
 ### Thoughts/feelings/preferences when it comes to asking for help
 
-If you need help, just ask! I'll do the best I can do to solve the problem, and when I don't know how to fix something, I'll transparently admit it and help you figure out who is best to help!
+If I need help, I'll typically try to find the answer myself before reaching out to someone to ask.
+If you need help, just ask! I'll do the best I can do to solve the problem and when I don't know the answer, I'll transparently admit it and help you figure out who is best to help!
 
 ### What I find enjoyable at work
 
@@ -38,7 +41,7 @@ My best days at work are when I can solve a big problem or run through a bunch o
 
 ### How do I feel about getting messages after/outside of hours that are meant for me to see and respond to during active hours
 
-I'm not great at setting boundaries, but I do try to prioritize the importance of things. It depends on what the message is about. If I think it's critical to accomplish at that moment, I'll hop in and roll up my sleeves.
+I'm not great at setting boundaries, but I do try to prioritize the importance of things. If it's critical ask, I'll hop in and roll up my sleeves.
 
 ### How folks can best show up for me when I seem off
 
@@ -58,7 +61,7 @@ I'm always learning by reading articles and listening to podcasts on how to be a
 
 ### Current personal project
 
-Raising my son!
+Raising my son. Oh, and I'm also training to become a better runner!
 
 ### Something I fear
 
@@ -72,7 +75,7 @@ All you need is love.
 
 ### How I eat fries
 
-Ranch, blue cheese, ketchup, or honey mustard are all appropriate dressings for me! I typically grab a cluster of fries and dip them all at once to be efficient.
+Ranch, blue cheese, ketchup, or honey mustard are all appropriate dipping sauces for me! I typically grab a cluster of fries and dip them all at once to be efficient.
 
 ### My sun, moon, and rising signs
 
