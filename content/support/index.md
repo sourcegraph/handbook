@@ -24,6 +24,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 [Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her), Head of Customer Support - reporting to Beyang Liu, CTO
 
 - [Brielle Collins](../company/team/index.md#brielle-collins), Manager
+
   - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
   - [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
   - [Mariam Adedeji](../company/team/index.md#mariam-adedeji-she-her)
