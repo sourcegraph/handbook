@@ -58,6 +58,6 @@ To add a new agency to Greenhouse, follow [these instructions](https://support.g
 ## How to use Tags in Greenhouse
 
 - Why
-Update Soon
+  Update Soon
 - How
-Update soon
+  Update soon
