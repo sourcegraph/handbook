@@ -34,10 +34,24 @@ TODO
 
 ## Processes
 
-_This section is a work in progress._
+To collaborate, we use the following:
 
 - Internal team channel in #dev-experience-internal
 - [Planning board](https://github.com/orgs/sourcegraph/projects/212)
 - [Team sync](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
 - [Newsletter](https://docs.google.com/document/d/1O5iUZ3cQ4c7sGhlFHDW2MXpfgLzIPFszN1jgXFUKNRo/edit#)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
+- [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
+
+### Work allocation
+
+We aim allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../direction/enablement/dev-experience/index.md), so as a rule of thumb, every 2 weeks:
+
+- We aim to spend **up to 30%** (~3 days) of our time on making proactive impact.
+- If **over 50%** (~5 days) of our time is spent *outside* of planned work, we opt to discuss the scope and priority of the work with the team first.
+
+### Rituals
+
+_This section is a work in progress._
+
+We currently have weekly sync meetings and biweekly retrospectives.
