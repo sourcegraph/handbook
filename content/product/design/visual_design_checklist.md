@@ -13,7 +13,7 @@ This checklist ensures that our designs are consistent, accessible, and optimize
   - Color blindness check
   - Contrast check should meet AA standard for small text
 - Create dark mode compositions, if there are not existing dark mode designs in Wildcard
-- Consider preparing redlines or an interaction delivery writeup for the following :
+- Consider preparing redlines or an interaction delivery writeup for the following:
   - Margin and padding
   - Animation
   - Keyboard behavior
