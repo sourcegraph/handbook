@@ -74,14 +74,15 @@ If you are a US taxpayer, you must download your 83(b) elections from Carta and 
 To receive a stamped copy of your 83(b) form for your records, below is a template letter you can mail to the IRS along with two signed copies of your 83(b) forms and a postage-paid return envelope.
 
 > {Date}
-
+>
 > Department of the Treasury
+> 
 > {Address provided in Carta 83(b) instructions}
-
+>
 > To whom it may concern:
-
+>
 > I’ve enclosed two copies of my 83(b) election in connection with my early exercise of Sourcegraph, Inc. common stock. I would like to receive a date-stamped copy, which you can send me using the enclosed postage-paid return envelope.
-
+>
 > {Your name}
 
 You can find more information about 83(b) elections [here](https://carta.com/blog/fixing-83b-elections/).
