@@ -1536,8 +1536,8 @@ For help adding yourself to this page, check out [these instructions](../../edit
 
 ## Michal Sennett (she/her)
 
-* Strategic Projects Manager, Engineering
-* Dallas, TX, USA 🇺🇸
-* GitHub: [msennett22](https://github.com/msennett22)
-* [michal.sennett@sourcegraph.com](mailto:michal.sennett@sourcegraph.com)
-* Michal lives in Dallas with her husband Josh, and two dogs, Jet (labrador mix) and Jax (chiweenie)! She has held diverse roles ranging from Employee Engagement, Project Management, Career Coaching, Customer Success and Sales. Michal has a passion for hosting people and planning unique experiences.  She loves traveling and learning about new cultures, especially by eating their cuisine. 
+- Strategic Projects Manager, Engineering
+- Dallas, TX, USA 🇺🇸
+- GitHub: [msennett22](https://github.com/msennett22)
+- [michal.sennett@sourcegraph.com](mailto:michal.sennett@sourcegraph.com)
+- Michal lives in Dallas with her husband Josh, and two dogs, Jet (labrador mix) and Jax (chiweenie)! She has held diverse roles ranging from Employee Engagement, Project Management, Career Coaching, Customer Success and Sales. Michal has a passion for hosting people and planning unique experiences. She loves traveling and learning about new cultures, especially by eating their cuisine.
