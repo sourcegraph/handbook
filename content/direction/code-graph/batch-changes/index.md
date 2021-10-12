@@ -64,7 +64,7 @@ To drive enterprise success and stickiness, we need to:
 - Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth.
 - Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../engineering/code-graph/batch-changes/metrics.md).
 
-### Discovery and onboarding
+### Discovery, setup and onboarding
 
 As we go to market, our install base of customers with Batch Changes enabled is growing. Often, a few teams have adopted Batch Changes in a given company, because they were the ones feeling the need at the time. That team is frequently used to making large-scale code changes and building automation, so adopting Batch Changes is easier for them and they later turn into evangelists inside the company. In order to go beyond that beachhead user base within a company, we want to make Batch Changes more discoverable, and self-serve for new users, both as a way to drive adoption within customers and increase value and stickiness, but also to prepare for the self-serve model of Batch Changes on Sourcegraph Cloud. We plan to:
 
