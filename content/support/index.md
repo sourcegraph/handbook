@@ -132,6 +132,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Manager onboarding](customer-support-manager-onboarding.md)
 - [Team README](support-bios.md)
 - [Team schedule](support-schedule.md)
+- [Organizational structure](support-org-structure.md)
 - [Team rituals](support-team-rituals.md)
 - [Workflow](support-workflow.md)
 - [Prioritization](support-prioritization.md)
