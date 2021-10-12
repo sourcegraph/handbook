@@ -46,3 +46,4 @@ As we broaden our reach, prospects and customers look to us to support a large v
 - [Delivery](../../engineering/enablement/delivery/index.md) - [Direction page](delivery/index.md)
 - [Dev Experience](../../engineering/enablement/dev-experience/index.md)
 - [Frontend Platform](../../engineering/enablement/frontend-platform/index.md) - [Direction page](frontend-platform/index.md)
+- [Handbook Direction Page](handbook/index.md)
