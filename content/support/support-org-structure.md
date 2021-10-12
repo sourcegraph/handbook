@@ -1,5 +1,29 @@
 # How we approach our org structure
 
+Harvard psychologist J. Richard Hackman’s research on [why larger teams lead to reduced ability to get stuff done](https://hbr.org/2009/05/why-teams-dont-work) yields the key to understanding why solving this problem matters. As you add people to a group, it’s not the number of people that creates the problem ... It's the communication links needed to have the right level of knowledge to do our best work. The formula is:
+
+`(the number of people(the number of people-1))/2`
+
+Janet Choi at Buffer writes about this in more detail [here](https://buffer.com/resources/small-teams-why-startups-often-win-against-google-and-facebook-the-science-behind-why-smaller-teams-get-more-done/).
+
+There is also the matter of [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar%27s_number), which is a suggested cognitive limit to the number of people with whom you can maintain a stable relationship. Our Sourcegraph relationships are just one set of relationships in our lives. If the suggested limit is 150 people, then it starts to become clear why this problem only continues to feel bigger and bigger as a team grows. Basically, once a team grows beyond 50 people, feeling informed, knowing who to work with and how, getting help, so many things we need to do every day ... start to feel really hard. 
+
+For a team, this is usually solved by building a leadership layer in and moving to teams within a team.
+
+At Sourcegraph, we are [all-remote](https://about.sourcegraph.com/handbook/company/remote), global, and [asynchronous by default](https://about.sourcegraph.com/handbook/company/asynchronous-communication); we also desire that folks show up for each other with [high agency](https://about.sourcegraph.com/handbook/company/values#high-agency). This foundation creates an opportunity to solve for the number of communication links required and create a high functioning, successful team with psychological ease that is far larger than the usual limits of 5-10 folks. Dunbar’s Number will still come into play, but formalizing a team within a team structure can come much later (more around 35-40 folks, instead of 10-15). This will help us avoid silos and continue building on the foundation of closeness that is very present at the team’s current 19 person size.
+
+So, we reimagined our Customer Support organizational structure for our current team of 19 folks and up to 35-40 folks, throwing aside conventions, building off of being all-remote, global,  asynchronous by default, and desiring high agency, and determined a solution where the following is true:
+
+- CS maintains an open, healthy team that continues gifting psychological ease to seek help without hesitation
+- CS leadership functions as a unit of coaches, building deep relationships with those who report directly to them and strong relationships with those who do not; always checking ego and accepting feedback with grace to center the wellbeing and success of each individual on the team
+- CSEs have a primary coach (their manager, who they report to) and are also supported by the rest of leadership
+- CSEs never have to wait for their particular manager to be online to get help when they are stuck; any leader online can help
+- CSEs have opportunities to work with all of their peers and are not limited just to those who report to the same manager
+- Everyone gets to participate in team rituals during a “prime” hour in honor of their chosen schedule and not at the very start or every end of the day only just because “time zones are hard” for synchronous rituals
+- Everyone remains aligned and consistent where it matters, ensures effective and thorough asynchronous communication, and exercises thoughtful high agency and creativity as much as possible
+
+This is what we came up with...
+
 If you’ve played sports, watched sports, or just watched Ted Lasso, you have enough context to draw on to understand the overarching idea for this reimagining of our CS org structure is to model how we organize more after a sports team than a traditional, strict hierarchy-based corporate team. For example, in [baseball](<https://en.wikipedia.org/wiki/Coach_(baseball)>), you have a head coach (the team manager), a bench coach, a pitching coach, a bullpen coach, a hitting coach, and base coaches. The pitching coach is the primary coach for the pitchers; the hitting coach is the primary coach for those who go to bat (technically this is all players in National League, but that is another RFC for MLB on why National League is more interesting than American League baseball 🙃). The idea is the same here … every CSE reports to one manager and that manager is their primary coach (see “after” org chart in the background section). But like baseball, that manager is not the only leader a CSE works with, talks with, collaborates with; and also like baseball, managers practice a [first-team](https://stevenarmstrong.ca/uncategorized/firstteam/) approach.
 
 Coaches…
