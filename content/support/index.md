@@ -26,10 +26,10 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - [Brielle Collins](../company/team/index.md#brielle-collins), Manager
 
   - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
-    - [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
-    - [Mariam Adedeji](../company/team/index.md#mariam-adedeji-she-her)
-    - [Michael Bali](../company/team/index.md#michael-bali-hehim)
-    - [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
+  - [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
+  - [Mariam Adedeji](../company/team/index.md#mariam-adedeji-she-her)
+  - [Michael Bali](../company/team/index.md#michael-bali-hehim)
+  - [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
 
 - [Nonso Obiano](../company/team/index.md#nonso-obiano), Manager
   - [Amber Furbush](../company/team/index.md#amber-furbush-she-her)
@@ -145,7 +145,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 ## SLAs
 
-Our default contractual service level agreeements (SLAs) are described below. Additionally, we have the following internal SLAs:
+Our default contractual service level agreeements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
 
 - We aim to respond to all customers on all issues within 1 hour between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
 - We aim to resolve all issues within an average of no more than one week.
