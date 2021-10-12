@@ -17,7 +17,7 @@ This checklist ensures that our designs are consistent, accessible, and optimize
   - Margin and padding
   - Animation
   - Keyboard behavior
-- Due to the low number of mobile and table visitors (< 3%) design comps for these sizes are generally not required
+- Provide mockups to support the responsive behaviour. Even though the number of mobile and tablet visitors is relatively low, resizing the browser window to 1/2 and 1/3 width is a common use case. In addition, our objective is to provide a fully responsive platform. Note that there is no need to create a responsive version of every mockup. It's enough to include selected layouts that may be challenging to translate to smaller screen sizes.
   - If responsive behavior is an important consideration to your designs, describe expected behavior of layout for tablet and mobile screensizes
 
 ## User experience considerations
