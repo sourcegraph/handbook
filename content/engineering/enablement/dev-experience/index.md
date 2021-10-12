@@ -48,7 +48,7 @@ To collaborate, we use the following:
 We aim allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../direction/enablement/dev-experience/index.md), so as a rule of thumb, every 2 weeks:
 
 - We aim to spend **up to 30%** (~3 days) of our time on making proactive impact.
-- If **over 50%** (~5 days) of our time is spent *outside* of planned work, we opt to discuss the scope and priority of the work with the team first.
+- If **over 50%** (~5 days) of our time is spent _outside_ of planned work, we opt to discuss the scope and priority of the work with the team first.
 
 ### Rituals
 
