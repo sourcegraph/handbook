@@ -76,7 +76,7 @@ To receive a stamped copy of your 83(b) form for your records, below is a templa
 > {Date}
 >
 > Department of the Treasury
-> 
+>
 > {Address provided in Carta 83(b) instructions}
 >
 > To whom it may concern:
