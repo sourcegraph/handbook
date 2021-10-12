@@ -1,4 +1,4 @@
-# Vendr - our procurement partner for all Saas software 
+# Vendr - our procurement partner for all Saas software
 
 Vendr will serve two functions for us:
 
