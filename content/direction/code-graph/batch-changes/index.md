@@ -64,7 +64,7 @@ To drive enterprise success and stickiness, we need to:
 - Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth.
 - Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../engineering/code-graph/batch-changes/metrics.md).
 
-### Discovery, setup and onboarding
+### Discovery, configuration and onboarding
 
 As we go to market, our install base of customers with Batch Changes enabled is growing. Often, a few teams have adopted Batch Changes in a given company, because they were the ones feeling the need at the time. That team is frequently used to making large-scale code changes and building automation, so adopting Batch Changes is easier for them and they later turn into evangelists inside the company. In order to go beyond that beachhead user base within a company, we want to make Batch Changes more discoverable, and self-serve for new users, both as a way to drive adoption within customers and increase value and stickiness, but also to prepare for the self-serve model of Batch Changes on Sourcegraph Cloud. We plan to:
 
@@ -87,7 +87,7 @@ We plan to drive usage (MAUs) by implementing low time-to-value, high-frequency 
 We plan to achieve feature parity on Sourcegraph Cloud, including Batch Changes. There are two prerequisites for Batch Changes on Sourcegraph Cloud to be successful:
 
 - Reducing time to value. Sourcegraph Cloud's user base will be primarily individual and commercial customers, at least at the beginning. Today, the value of Batch Changes increases exponentially with the size of a customer's codebase and team. Most customers with a smaller team and codebase do not face a big enough pain to invest the time and effort required to adopt Batch Changes in its present state. To be successful on Sourcegraph Cloud we need to make the time to value of Batch Changes shorter and drive [Adoption through low time-to-value usage patterns](#adoption-through-low-time-to-value-usage-patterns).
-- Improving [Discovery and onboarding](#discovery-and-onboarding).
+- Improving [Discovery, configuration and onboarding](#discovery-configuration-and-onboarding).
 
 ### Automate common code changes
 
@@ -132,7 +132,7 @@ Besides configuration, there are lots of requests for [mounting files on batch c
 This quarter, our main goal is to iterate on the [Experimental](https://docs.sourcegraph.com/admin/beta_and_experimental_features) release of [Server-side Batch Changes](https://github.com/sourcegraph/sourcegraph/issues/21018) (SSBC), and to onboard three early customers into a POC. We are focusing hard on SSBC because:
 
 - It is essential for Batch Changes to work at [Enterprise scale](#enterprise-scale), and Enterprise customers with 10,000s of repositories have a degraded experience today, because they cannot create batch changes with 1,000s of changesets or resource-intensive batch changes in a reasonable amount of time. Server-side Batch Changes will directly impact key customers and prospects such as [1](https://github.com/sourcegraph/customers/issues/1), [2](https://github.com/sourcegraph/customers/issues/3), [3](https://github.com/sourcegraph/customers/issues/2) and [4](https://github.com/sourcegraph/customers/issues/6).
-- It will shift the setup burden from the user to the site-admin. Once site-admins have setup SSBC, any user can run a batch change from the GUI in a few clicks. That will unlock improvements to [Discovery and onboarding](#discovery-and-onboarding) such as creating batch changes from a template directly from the GUI instead of having a "cold start". Creating a guided, self-serve onboarding is a prerequisite for [Cloud](#cloud).
+- It will shift the setup burden from the user to the site-admin. Once site-admins have setup SSBC, any user can run a batch change from the GUI in a few clicks. That will unlock improvements to [Discovery, onboarding and onboarding](#discovery-configuration-and-onboarding) such as creating batch changes from a template directly from the GUI instead of having a "cold start". Creating a guided, self-serve onboarding is a prerequisite for [Cloud](#cloud).
 - It unlocks [key vision items](https://docs.google.com/document/d/1MnfaA9P7mtur7aQbMvy2x96_zy_IrOhY-MbGUo5I5wk/edit#heading=h.25ypvomeex1g) that will make using Sourcegraph an incredible experience and delight our customers, as well as [low time-to-value usage patterns](#adoption-through-low-time-to-value-usage-patterns).
 
 We will iterate as we learn, but our focus will be on:
