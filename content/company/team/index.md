@@ -136,7 +136,8 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Lisbon, Portugal 🇵🇹 / Berlin, Germany 🇩🇪
 - [tomas@sourcegraph.com](mailto:tomas@sourcegraph.com), [tsenart](https://github.com/tsenart), [@tsenart](https://twitter.com/tsenart), [LinkedIn](https://www.linkedin.com/in/tsenart/)
 - Name pronunciation: /[to.ˈmas](http://ipa-reader.xyz/?text=to.%CB%88mas&voice=Cristiano)/
-- Tomás started fiddling with computers because he was fascinated with how hackers were depicted in Hollywood movies. He has since moved on to not only build distributed systems but also distributed teams. Before Sourcegraph he's been at companies like Apple, Mesosphere, Thomson Reuters and Soundcloud. In his free time he likes to spend time with his partner, play Chess and Rocket League, eat great food, hit the gym and read books.
+- Tomás started fiddling with computers because he was fasci
+  d with how hackers were depicted in Hollywood movies. He has since moved on to not only build distributed systems but also distributed teams. Before Sourcegraph he's been at companies like Apple, Mesosphere, Thomson Reuters and Soundcloud. In his free time he likes to spend time with his partner, play Chess and Rocket League, eat great food, hit the gym and read books.
 
 ## Geoffrey Gilmore
 
@@ -831,12 +832,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [Readme!](../../product/readmes/dan-mckean-readme.md)
 - [dan.mckean@sourcegraph.com](mailto:dan.mckean@sourcegraph.com)
 - Dan grew up in the South of England, and (with a detour via London) ended up in Dorset in the south west, a county with beautiful coast (but lives as far from the sea as it's possible to get – though not deliberately!) He lives with his wife (Emma), four kids (7y, 5y, 2x14m) and 3-legged springer spaniel (9y). His spare time is largely spent chasing his twin identical boys in an effort to prevent injury. Any (genuinely) spare time is spent trying to make things out of wood.
-
-## Nate Tang (he/him)
-
-- Tech Ops Analyst
-- San Clemente, California, USA 🇺🇸
-- Nate grew up in Orange County, California but has traveled all across the world, most recently to Peru. In his free time, he likes to swim, practice yoga, and go on hikes.
 
 ## Cassie Melani (she/her)
 
