@@ -116,4 +116,4 @@ There are three levels to where a chart can be saved.
 
 ### What are Team Spaces?
 
-Team Spaces are a collection of charts, dashboards and notebooks that are relevant to a specific group (Amplitude's version of a folder system). By joining one, you'll be notified of every new analysis that a teammate adds to the space (and they'll be notified of yours, as well). You can see all of our Team Spaces [here](https://analytics.amplitude.com/sourcegraph/team-spaces). 
+Team Spaces are a collection of charts, dashboards and notebooks that are relevant to a specific group (Amplitude's version of a folder system). By joining one, you'll be notified of every new analysis that a teammate adds to the space (and they'll be notified of yours, as well). You can see all of our Team Spaces [here](https://analytics.amplitude.com/sourcegraph/team-spaces).
