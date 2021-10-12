@@ -4,9 +4,9 @@ The Engineering Education team is part of the [Enablement](../index.md) org with
 
 ## Mission
 
-We want every engineer at Sourcegraph to feel engaged, motivated, and productive while having all the context and technical knowledge they need in order to deliver [high-quality](../../../company/values.md#high-quality) work.
+> Engineering Education's mission is to get engineers onboarded quickly and efficiently, help technical knowledge flow [openly and freely](../../../company/values.md#open-and-transparent) within teams and across teams, provide resources and environments for engineers to [continuously grow](../../../company/values.md#continuously-grow), and drive a culture of learning and knowledge sharing at Sourcegraph.
 
-We make this happen by getting engineers onboarded quickly and efficiently, providing resources and environments for engineers to [continuously grow](../../../company/values.md#continuously-grow), helping technical knowledge flow [openly and freely](../../../company/values.md#open-and-transparent) within teams and across teams, and driving a culture of learning and knowledge sharing at Sourcegraph.
+Learn more about mission, goals, and direction on the [Engineering Education direction page](../../../direction/enablement/engineering-education/index.md)
 
 ## Members
 
