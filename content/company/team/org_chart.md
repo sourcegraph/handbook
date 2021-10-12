@@ -1,6 +1,6 @@
 # Org chart
 
-The org chart is generated automatically. [Need to edit it?](#how-to-edit)
+The org chart is generated automatically from team pages in the handbook ([need to edit it?](#how-to-edit)). Sourcegraph teammates can see a complete and up-to-date org chart for the entire company in [BambooHR](https://sourcegraph.bamboohr.com/).
 
 <div id="org-chart-loading">
 	Generating org chart...
@@ -18,19 +18,15 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 ## [Marketing](../../marketing/index.md#members)
 
-## Operations
+## [People Ops](../../people-ops/index.md#people-ops-team-members)
 
-<!-- When updating the ops team list below, please also update handbook/index.md. -->
+## [Business Operations & Strategy](../../bizops/index.md#members)
 
-### [People Ops](../../people-ops/index.md#people-ops-team-members)
+## [Finance & Accounting](../../finance/index.md#members)
 
-### [Business Operations & Strategy](../../ops/bizops/index.md#members)
+## [Legal](../../legal/index.md#members)
 
-### [Finance & Accounting](../../ops/finance/index.md#members)
-
-### [Legal](../../ops/legal/index.md#members)
-
-### [Tech Ops](../../ops/tech-ops/index.md#members)
+## [Tech Ops](../../tech-ops/index.md#members)
 
 ## Sales
 
@@ -42,7 +38,7 @@ The org chart is generated automatically. [Need to edit it?](#how-to-edit)
 
 ### [Sales strategy & operations](../../sales/sales-ops/index.md#members)
 
-### [Value Engineering & Sales Enablement](../../sales/sales-enablement.md#value-engineering-sales-enablement)
+### [Value Engineering & Sales Enablement](../../sales/sales-enablement.md#value-engineering--sales-enablement)
 
 ## Other teams: TODO
 
@@ -67,6 +63,16 @@ async function getPageOrgChart(pageUrl) {
 
 	const resp = await fetch(pageUrl)
 	const doc = new DOMParser().parseFromString(await resp.text(), "text/html")
+
+  // Add base to make sure relative URLs are resolved correctly
+  const base = doc.createElement('base')
+  base.setAttribute('href', pageUrl)
+  doc.head.append(base)
+  for (const link of doc.querySelectorAll('a[href]')) {
+    // Resolve link href to absolute URL
+    link.setAttribute('href', link.href)
+  }
+
 	const section = doc.getElementById(sectionId)
 	if (!section) {
 		const error = document.createElement('p')
@@ -115,20 +121,6 @@ Promise.all(
 		headerLink.href = headerLinkUrl.toString()
 	}
 })
-
-async function getPageOrgList(pageUrl) {
-	const sectionId = pageUrl.replace(/^.*#/, '')
-
-	const resp = await fetch(pageUrl)
-	const doc = new DOMParser().parseFromString(await resp.text(), "text/html")
-	const section = doc.getElementById(sectionId)
-	if (!section) {
-		const error = document.createElement('p')
-		error.innerText = `Error generating org chart: page at ${pageUrl} has no section with ID ${sectionId}.`
-		return error
-	}
-    return section.parentNode
-}
 
 const teamAnchors = Array.from(document.querySelectorAll('a')).filter(a => a.innerText.startsWith('Team: '))
 Promise.all(

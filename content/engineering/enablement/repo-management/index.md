@@ -18,7 +18,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ## Direction
 
-[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](direction.md)
+[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../direction/enablement/repo-management/index.md)
 
 ## Responsibilities
 
@@ -42,6 +42,8 @@ Temporary custody of authentication, efforts largely limited to support and main
 - #repo-management channel or @repo-management-team in Slack.
 - [team/repo-management](https://github.com/sourcegraph/sourcegraph/labels/team%2Frepo-management) label and [@sourcegraph/repo-management](https://github.com/orgs/sourcegraph/teams/repo-management) team on GitHub.
 
+For information on how to contact us for support, or how we handle support, please see [our processes](processes.md).
+
 ## Growth plan
 
 TODO
@@ -54,8 +56,8 @@ TODO
 
 We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](direction.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
+We also have a set of [guiding principles](../../../direction/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
 
 ## Processes
 
-TODO
+Read more about [how this team works](processes.md).

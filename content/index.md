@@ -4,7 +4,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate.
 
-- [Editing the handbook](editing.md)
+- [Editing the handbook](editing/index.md)
 - [Handbook usage](usage.md)
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 - [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits) (or [this search](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/about%24+type:diff+rev:main) if you'd like to see diffs)
@@ -74,9 +74,22 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Resources for teammates](./talent/index.md#resources-for-teammates)
 - [Resources for recruiters](./talent/index.md#resources-for-recruiters)
 
-### [Operations](ops/index.md)
+### [Business Operations & Strategy](bizops/index.md)
 
-- [Business Operations & Strategy](ops/bizops/index.md)
-- [Finance & Accounting](ops/finance/index.md)
-- [Legal](ops/legal/index.md)
-- [Tech Ops](ops/tech-ops/index.md)
+- [How to work with us](bizops/index.md#how-to-work-with-us)
+- [Analytics issue tracker](https://github.com/sourcegraph/analytics/issues)
+- Teams
+  - [Data operations](bizops/data_operations.md)
+  - [Analytics](bizops/analytics.md)
+
+### [Finance & Accounting](finance/index.md)
+
+- [Financial terms and definitions](finance/index.md#definitions)
+- [Accounting](finance/index.md#accounting)
+
+### [Legal](legal/index.md)
+
+### [Tech Ops](tech-ops/index.md)
+
+- [Internal security](tech-ops/internal_security.md)
+- [Single sign on (Okta)](tech-ops/Okta.md)

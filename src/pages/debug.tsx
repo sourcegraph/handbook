@@ -1,21 +1,31 @@
 import React from 'react'
 
-import { buildPagesTree, loadAllPages, Page, DirectoryNode, parsePage, ParsedPage } from '../lib/api'
+import { TableOfContents } from '../components/TableOfContents'
+import { buildPageTree, loadAllPages, Page, DirectoryNode, parsePage, ParsedPage } from '../lib/api'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
+
+// This may be too much; disable it for now.
+const showTocInTree = false
 
 function DirectoryItem(props: { node: DirectoryNode<ParsedPage> }): JSX.Element {
     return (
         <li>
             <code>{props.node.name}</code>{' '}
             {props.node.indexPage && (
-                <a href={`/${props.node.indexPage.slug}`}>{props.node.indexPage.title || 'Untitled'}</a>
+                <a title={props.node.indexPage.path} href={`/${props.node.indexPage.slugPath}`}>
+                    {props.node.indexPage.title || 'Untitled'} {props.node.indexPage.isIndexPage && ' (index.md)'}
+                </a>
             )}
             <ul>
                 {props.node.pages.map(page => (
-                    <li key={page.slug}>
-                        <a href={`/${page.slug}`}>
-                            {page.title || 'Untitled'} (/{page.slug})
+                    <li key={page.slugPath}>
+                        <code>{page.fileSlug}</code>{' '}
+                        <a title={page.path} href={`/${page.slugPath}`}>
+                            {page.title || 'Untitled'} (/{page.slugPath}) {page.isIndexPage && ' (index)'}
                         </a>
+                        {showTocInTree && (
+                            <TableOfContents className="fst-italic" hrefPrefix={`/${page.slugPath}`} toc={page.toc} />
+                        )}
                     </li>
                 ))}
             </ul>
@@ -32,21 +42,14 @@ interface IndexProps {
     allPages: ParsedPage[]
     tree: DirectoryNode<ParsedPage>
 }
-export default function Index({ allPages, tree }: IndexProps): JSX.Element {
+export default function MetaPage({ allPages, tree }: IndexProps): JSX.Element {
     return (
         <div className="container">
             <section id="content">
-                <h2>Debug: list of all pages:</h2>
-                <ul>
-                    {allPages.map(page => (
-                        <li key={page.slug}>
-                            <a href={`/${page.slug}`}>
-                                {page.title ?? `Untitled (${page.slug})`} {page.isIndexPage && '(index.md)'}
-                            </a>
-                        </li>
-                    ))}
-                </ul>
-                <h2>Debug: Tree view</h2>
+                <h1>Handbook Dashboard</h1>
+                <h2>Statistics</h2>
+                <p>The handbook contains {allPages.length} pages.</p>
+                <h2>Tree view</h2>
                 <ul>
                     <DirectoryItem node={tree} />
                 </ul>
@@ -56,9 +59,16 @@ export default function Index({ allPages, tree }: IndexProps): JSX.Element {
 }
 
 export async function getStaticProps(): Promise<{ props: { allPages: ParsedPage[]; tree: DirectoryNode<Page> } }> {
-    const allPages = await loadAllPages(['title', 'date', 'slug', 'author', 'coverImage', 'excerpt'])
+    const allPages = await loadAllPages()
+
     const parsedPages = await Promise.all(allPages.map(page => parsePage(page)))
-    const tree = buildPagesTree<ParsedPage>(parsedPages)
+
+    const { tree } = buildPageTree<ParsedPage>(parsedPages)
+    const root = parsedPages.find(page => page.path === 'index.md')
+    if (root) {
+        tree.indexPage = root
+    }
+
     return {
         props: omitUndefinedFields({ allPages: parsedPages, tree }),
     }

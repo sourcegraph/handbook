@@ -1,6 +1,6 @@
 # Sourcegraph direction
 
-Product strategy is the bridge (how we're going to get there) between our [vision](../company/strategy.md) (where we're headed) and the [individual team and org directions](index.md##per-area-direction-pages) (what we are going to do).
+Product strategy is the bridge (how we're going to get there) between our [vision](../company/strategy.md) (where we're headed) and the [individual team and org directions](index.md#per-area-direction-pages) (what we are going to do).
 
 Want to help us achieve these goals? [We're hiring!](https://github.com/sourcegraph/careers)
 
@@ -70,11 +70,13 @@ Within this overall product direction, individual product areas set their own go
 - [Code Intelligence](code-graph/code-intelligence/index.md)
 - [Code Insights](code-graph/code-insights/index.md)
 
-### Enablement
+### [Enablement](enablement/index.md)
 
-- Repository Management
-- [Distribution](enablement/distribution/index.md)
+- [Delivery](enablement/delivery/index.md)
+- Dev Experience
 - [Frontend Platform](enablement/frontend-platform/index.md)
+- [Repo Management](enablement/repo-management/index.md)
+- [Engineering Education](enablement/engineering-education/index.md)
 
 ### Cloud
 

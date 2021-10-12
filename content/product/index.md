@@ -19,7 +19,7 @@ The roadmap for the product organization as well as individual teams can be foun
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
-- [How to add metrics](../ops/bizops/analytics.md#How-to)
+- [How to add metrics](../bizops/analytics.md#How-to)
 
 ## Product team initiatives
 
@@ -33,7 +33,7 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 - [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
-### Improve process for documenting product strategy
+### ✅ Improve process for documenting product strategy (DONE)
 
 Our current [product goals pages](index.md#roadmap) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
 
@@ -56,21 +56,19 @@ Customer Engineering is looking to better undrestand the known boundaries of our
 - [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4617)
 
-### Improving how we communicate pre-release features
+### ✅ Improving how we communicate pre-release features (DONE)
 
 We are working with the marketing and corporate communication teams to make sure that how we talk about features is clear leading up to release, especially when they are available early, and how we communicate when they become fully live.
 
 - Owner: Jason
-- [RFC 481: Should we convert formerly free preview features into paid ones at GA](https://docs.google.com/document/d/10r7fG-qton1uFlwHqRvgj12DD5AgsaF8yGiOf2JNQWQ/edit#heading=h.trqab8y0kufp)
 - [RFC 473: Decouple product and marketing launches/milestones for features that are available early](https://docs.google.com/document/d/1aZcalAUXZGl3GVEBBrUhNtbhMc4hQWy1_8UWHN6q4ys/edit#heading=h.trqab8y0kufp)
-- [RFC 480: Beta and experimental feature definitions/entry and exit criteria](https://docs.google.com/document/d/1T605IS77xwXjyHpCRYY9NBwTIlV9jmkZL3qwrDeTpog/edit#heading=h.trqab8y0kufp)
+- Implemented via [https://github.com/sourcegraph/handbook/pull/83](https://github.com/sourcegraph/handbook/pull/83)
 
 ### Other initiatives
 
 There are a few other initiatives we will be tracking here soon:
 
 - CE / Product communication and prioritization improvements on feedback
-- Make sure our current product process is documented
 - Experimentation and improvements to planning
 - Consolidation and simplification of tooling
 

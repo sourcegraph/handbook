@@ -48,10 +48,10 @@ export interface PageProps {
 
 export default function Page({ page }: PageProps): JSX.Element {
     const router = useRouter()
-    if (!router.isFallback && !page?.slug) {
+    if (!router.isFallback && !page?.slugPath) {
         return <ErrorPage statusCode={404} />
     }
-    const slugParts = page.slug.split('/').filter(Boolean)
+    const slugParts = page.slugPath.split('/').filter(Boolean)
     return (
         <>
             <Head>
@@ -174,7 +174,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         paths: pages.map(post => ({
             params: {
                 // The slug is an array of directories in the path.
-                slug: post.slug.split('/'),
+                slug: post.slugPath.split('/'),
             },
         })),
         fallback: false,
