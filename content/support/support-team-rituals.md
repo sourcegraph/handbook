@@ -15,8 +15,8 @@ In order to stay in touch throughout the week and support each other, we share t
 
 In order to get some purposeful face-time in with each other, we convene synchronously over Zoom each week for...
 
-- **CS team [planning and retrospective](https://docs.google.com/document/d/1dy5rIY5F4nQoScwH9sTEg7iQd66_oVP5bdWD3MhG2k4/edit#)** where we consider what is going well vs not, discuss, brainstorm, and share important information
-- **Cheers round table** to gather and share something we are thankful for to end the week
+- **CS team [planning and retrospective](https://docs.google.com/document/d/1dy5rIY5F4nQoScwH9sTEg7iQd66_oVP5bdWD3MhG2k4/edit#)** where we consider what is going well vs not, discuss, brainstorm, and share important information; more details in on our [organizational structure page](support-org-structure.md).
+- **Weekly social gathering** to gather and just chat as humans; more details in on our [organizational structure page](support-org-structure.md).
 - [**Collaboration time**](collaboration-time.md) to discuss cases that we need help with, things we've learned that we're excited about and would like to share with the team
 - **Weekly support donut pairing** is an auto pairing for those in the #customer-support-weekly-pairing channel to get paired together for a social chat.
 
