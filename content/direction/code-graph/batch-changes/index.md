@@ -19,7 +19,7 @@ We are focusing on enterprises first because the intensity of the pain increases
 
 #### 3-year vision
 
-Bring the same experience to all developers
+Bring the same experience to all developers.
 
 Once we have created a product that is a leader for enterprises, we will focus on making it available to the largest number of developers possible.
 
@@ -112,7 +112,7 @@ We have five main learnings from the first year of Batch Changes:
 - We have discovered that importing, tracking and managing existing changesets that were not created by Batch Changes, is perceived as very useful by customers. However, importing changesets today is clumsy, so this workflow is not very frequently used. We need to improve it and validate the value of this use case. If successful, it could create a low-friction, low time-to-value entry point into Batch Changes for new users and increase usage frequency and stickiness.
 - Batch changes works great for teams with 1,000s of repositories, but gets clumsy to use for companies with 10,000s repositories.
 - The job to be done (JTBD) for our customers is changing code at a large-scale. To do so, they need to automate a code change, apply it, then track it to completion. Batch Changes today is addressing applying and tracking changes, but the first many customers ask is "how do I write code that makes change x". To solve for our customers JTBD, we will need to provide an answer to that question.
-- As users get more sophisticated and work on large, more complex batch changes, debugging and iteration cycle time become the bottleneck
+- As users get more sophisticated and work on large, more complex batch changes, debugging and iteration cycle time become the bottlenecks.
 
 # What's next and why
 
@@ -120,10 +120,10 @@ We have five main learnings from the first year of Batch Changes:
 
 Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CEs and CSEs. The top issues surfaced to CSE, CE and Product are:
 
-- Changesets are not syncing frequently enough. There also are many feature requests for a bulk sync operation ([#21458](https://github.com/sourcegraph/sourcegraph/issues/21548)), that indicate that users think changesets do not sync properly. The current root cause is that users forget to setup [webhooks](https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits).
+- Changesets are not syncing frequently enough. There also are many feature requests for a bulk sync operation ([#21458](https://github.com/sourcegraph/sourcegraph/issues/21548)), that indicate that users think changesets do not sync properly. The current root cause is that users haven't set up [webhooks](https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits).
 - Users struggle to configure credentials, and get confused by the various options (code host token, global service account, personal access token).
 
-Besides configuration, we there are lots of requests for [mounting files on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851).
+Besides configuration, there are lots of requests for [mounting files on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851).
 
 ## FY 2022 Q4 goals
 
@@ -150,7 +150,7 @@ After SSBC, this is our ordered list of priorities:
 1. Build a minimal version of fork support ([#17879](https://github.com/sourcegraph/sourcegraph/issues/17879)). Users in companies with many changesets tend to run into write-permission issues when creating batch changes. This can be solved by creating forks. Besides, the permission model of [#565](https://github.com/sourcegraph/accounts/issues/565), [#544](https://github.com/sourcegraph/accounts/issues/544) and [#4778](https://github.com/sourcegraph/accounts/issues/4778) and likely other similar large scale customers, requires forks. Forks are necessary along with SSBC to allow large customers to create very large batch changes.
 1. Tackle the top configuration issues encountered by customers:
    1. Nudge users to setup webhooks ([#24310](https://github.com/sourcegraph/sourcegraph/issues/24310)).
-   1. Simplify credential management. We plan to remove using the codehost token for Batch Changes ( [#25394](https://github.com/sourcegraph/sourcegraph/issues/25394)) that we deprecated in 3.29, and change the docs and in-product wording to clarify credential usage.
+   1. Simplify credential management. We plan to remove using the codehost token for Batch Changes ([#25394](https://github.com/sourcegraph/sourcegraph/issues/25394)) that we deprecated in 3.29, and change the docs and in-product wording to clarify credential usage.
 1. Iterate on [bulk actions](https://github.com/orgs/sourcegraph/projects/119?card_filter_query=label%3Abulk-action), to move it from a minimal experience to something that customers love. We lack bandwidth to make radical improvements, but we plan to ship small increments, as well as start tracking bulk action metrics ([#23882](https://github.com/sourcegraph/sourcegraph/issues/23882)).
 1. (Rolled over from Q3) We are planning to allow users to [Mount file on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851) after many customer requests.
 1. Handle permission errors more gracefully (likely with [#24999](https://github.com/sourcegraph/sourcegraph/issues/24999s) and maybe with [#24307](https://github.com/sourcegraph/sourcegraph/issues/24307)). As we onboard larger customers, including on SSBC, permission errors are increasingly frequent, causing large batch changes to fail after hours of execution.
@@ -162,8 +162,8 @@ After SSBC, this is our ordered list of priorities:
 
 - **Adding a permission model**: Batch Changes currently only supports the site-admin and user roles. While finer-grained permissions will likely be needed to reach broad adoption in large companies, we are prioritizing building a product that supports [Enterprise scale](#enterprise-scale) before adding to the permission model. When Server-side Batch Changes is in beta and the user experience at a very large-scale allows for broad adoption, we can reconsider adding more complex permissions and control over who uses Batch Changes.
 
-- **Bitbucket cloud**: Batch Changes currently supports Bitbucket server, but not Bitbucket cloud. We plan to add bitbucket Cloud ([#24199](https://github.com/sourcegraph/sourcegraph/issues/24199)) in the future as it would increase our addressable market and is requested by some customers and prospects. We are not prioritizing it this quarter, because we focus on making Batch Changes great at [Enterprise scale](#enterprise-scale) before increasing our addressable market.
+- **Bitbucket Cloud**: Batch Changes currently supports Bitbucket Server, but not Bitbucket Cloud. We plan to add Bitbucket Cloud ([#24199](https://github.com/sourcegraph/sourcegraph/issues/24199)) in the future as it would increase our addressable market and is requested by some customers and prospects. We are not prioritizing it this quarter, because we focus on making Batch Changes great at [Enterprise scale](#enterprise-scale) before increasing our addressable market.
 
 - Education material about code change tools. Helping our customers find and select a code change tool that suits their needs is a very common ask, and something we think could drive adoption. We don’t have bandwidth for this this quarter though.
 
-- **Integrating with other features**: in the future, we want Batch Changes to fit in an integrated Sourcegraph experience. A code insights could include a batch change to track and fix a bad code pattern. Code monitoring could be used to trigger batch changes. The code graph could be used to change code across repositories. SSBC tends to be a prerequisite for this type of experiences, as they require triggering and executing a batch change. We intend to focus more on building that unified experience once SSBC is in Beta and has a small user base.
+- **Integrating with other features**: In the future, we want Batch Changes to fit in an integrated Sourcegraph experience. A code insights could include a batch change to track and fix a bad code pattern. Code monitoring could be used to trigger batch changes. The code graph could be used to change code across repositories. SSBC tends to be a prerequisite for this type of experiences, as they require triggering and executing a batch change. We intend to focus more on building that unified experience once SSBC is in Beta and has a small user base.
