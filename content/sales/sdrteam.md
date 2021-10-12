@@ -9,6 +9,7 @@ The SDR Team (TBA)
     - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
     - [Zach Naidu](../company/team/index.md#zach-naidu)
     - [Brannon Rouse](../company/team/index.md#brannon-rouse)
+    - [Carter Jaenichen](../company/team/index.md#carter-jaenichen)
   - East Outbound SDRs
     - [Sam Cregg](../company/team/index.md#sam-cregg)
     - [Ellie Dawson](../company/team/index.md#ellie-dawson-she-her)
