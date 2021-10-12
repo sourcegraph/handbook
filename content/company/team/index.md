@@ -1533,3 +1533,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [nancy@sourcegraph.com](mailto:nancy.shahh@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nancy-s-97b71859/)
 - How to say my last name: [Shah](https://www.howtopronounce.com/shah)
 - Nancy grew up in upstate New York, but has lived in the DC Metro Area for most of her life. She appreciates the peacefulness of newly fallen snow as well as the warmth of the sunshine. She enjoys the beach as much as the mountains. You can find Nancy swimming, climbing, drinking coffee, binge watching TV shows, trying out the latest vegan recipes, and making her own skin/hair care products. Her favorite things are blankets and cozy socks.
+
+## Michal Sennett (she/her)
+
+* Strategic Projects Manager, Engineering
+* Dallas, TX, USA 🇺🇸
+* GitHub: [msennett22](https://github.com/msennett22)
+* [michal.sennett@sourcegraph.com](mailto:michal.sennett@sourcegraph.com)
+* Michal lives in Dallas with her husband Josh, and two dogs, Jet (labrador mix) and Jax (chiweenie)! She has held diverse roles ranging from Employee Engagement, Project Management, Career Coaching, Customer Success and Sales. Michal has a passion for hosting people and planning unique experiences.  She loves traveling and learning about new cultures, especially by eating their cuisine. 
