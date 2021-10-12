@@ -58,7 +58,7 @@ Sourcegraph has a variety of content deemed valuable. And organic social is bein
 
 ## Sharing blog posts
 
-The content team should create a task under the Social Media Requests: Organic Asana project. The DRI can use [this template](https://app.asana.com/0/1200960005454857/1200974621451675/f). To consolidate tasks, the blog editor will create a monthly task of upcoming blogs. And then create subtasks for each blog. It is under the subtask where the social media manager will collaborate and provide suggested social campaigns. Once the blog editor approves, the social media manager schedules the posts under drafts in Sprout Social. Once the blog is published live, they should notify the social media manager via Slack signaling to push drafts to the calendar. 
+The content team should create a task under the Social Media Requests: Organic Asana project. The DRI can use [this template](https://app.asana.com/0/1200960005454857/1200974621451675/f). To consolidate tasks, the managing editor of the blog will create a monthly parent task of upcoming blogs. As blog posts are scheduled, the editor of a post will create a subtask for it and attach it to the parent task. It is under the subtask where the social media manager will collaborate with the editor of the post and provide suggested social campaigns. Once the editor approves, the social media manager schedules the posts under drafts in Sprout Social. Once the blog is published live, they should notify the social media manager via Slack signaling to push drafts to the calendar. 
 
 On a quarterly basis the social media team will identify the best performing blogs. The top 2-3 blogs will then be reintroduced and scheduled to publish on Sourcegraph Brand Social Channels.
 
