@@ -97,6 +97,14 @@ Our compensation bands are brought together by the People Ops team from multiple
 - The bands are shared with each department lead, who has the ability to manually adjust bands where desired (for example, to interpolate where the data is rough or based on a low sample size, to create bands for roles that don't have corresponding categories in Option Impact, to make adjustments for their particular hiring needs based on their experience, etc.).
 - The Talent and People Ops teams review and sign off on the final approved numbers.
 
+See [Compensation change approvals](./compensation-change-approvals.md) for more.
+
+### How bands are changed
+
+Bands are owned by each department lead. [Bands can be changed by that individual with finance approval](./compensation-change-approvals.md) (to ensure team budgets reflect the change).
+
+Proposed changes to bands should come with evidence of market changes (e.g. from benchmark data sources, candidate polling, etc.) and evidence that the existing bands are negatively affecting our hiring.
+
 ### Making out-of-band offers
 
 Bands are resources for hiring managers to use—they are not intended to be permanent or set in stone. Unique situations may exist where bands don't make sense for various reasons, from lack of granularity for niche roles, to bad data.
@@ -104,6 +112,8 @@ Bands are resources for hiring managers to use—they are not intended to be per
 Hiring managers that want to make offers outside of the 75th to 90th percentile cash compensation or outside of +/- 5% of the 75th percentile gross option value must receive approval from their department heads and the People Ops team.
 
 While hiring managers have the ability to make an out-of-band offer actually in-band simply by changing the level that they hire someone at, we discourage using this tactic, as it can lead to misaligned expectations between the manager and the new teammate.
+
+See [Compensation change approvals](./compensation-change-approvals.md) for more.
 
 ## Employment versus contracting: compensation differences
 
