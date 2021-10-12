@@ -12,6 +12,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 - [Rob Rhyne](../../company/team/index.md#rob-rhyne) (he/him)
 - [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) (he/him) – [ReadMe](https://quinnkeast.com/readme)
 - [Sara Lee](../../company/team/index.md#sara-lee-she-her) (she/her)
+- [Marisa Kanemoto](../../company/team/index.md#marisa-kanemoto-sheher) (she/her)
 
 <img width="30%" height="30%" src="design-team-logo.jpg" alt="Sourcegraph Design team logo">
 
@@ -23,7 +24,7 @@ We know that we’re successful as a design team when we…
 
 - **Collaborate effectively across disciplines to ship and iterate on a great product experience.** This means that we have a shared approach to the design process, that we build trust with each other and with our colleagues, and we consistently ship design solutions that solve product problems.
 - **Feel empowered to act with high agency to make our product, processes, and teams better.** Design is an inherently explorative and iterative process. We value high agency, and we have to actively create an environment of physiological safety, trust, and transparency.
-- **Advocate for and ship design outcomes that align with our [product design principles](../product_management/index.md#sourcegraph-s-design-principles).**
+- **Advocate for and ship design outcomes that align with our [product design principles](../product_management/index.md#sourcegraphs-design-principles).**
 - **Improve Sourcegraph’s velocity by helping to ship more usable and delightful features in the first iteration.** Design often means more time up-front, but this reduces time-consuming rewrites, refactors, and technical and design debt that occurs when changes are made during development or after releases.
 - **Complete OKRs owned by our teams.** We’re successful when each of us is able to complete our OKRs in a sustainable way, while also contributing to the design team culture and rituals.
 
@@ -33,7 +34,7 @@ As a design team, we’re constantly reflecting and improving on how we work.
 
 ### Design principles
 
-Our [product design principles](../product_management/index.md#sourcegraph-s-design-principles) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
+Our [product design principles](../product_management/index.md#sourcegraphs-design-principles) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
 
 ### Designing in the open
 

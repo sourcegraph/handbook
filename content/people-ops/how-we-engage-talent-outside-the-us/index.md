@@ -46,11 +46,11 @@ The PEO will pay these employees directly in their local currency via direct dep
 
 Employees via PEO/EOR are marked as hired in Greenhouse, have a start date that aligns with the cohort calendar ([2021](https://docs.google.com/spreadsheets/d/1jJY3E7j31ZD7J-ouf3Gf-uioHCAXxe-0bBVLEmdtVGQ/edit#gid=0) & [2022](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0) ), have a profile in Bamboo, and enjoy the same thorough general or team-specific onboarding enjoyed by all other teammates.
 
-## Contractors (where neither of the above options are viable)
+## Contractors
 
 We engage contractors for certain projects on an as-needed basis.
 
-We also engage teammates outside the US as contractors where no Sourcegraph subsidiary or PEO is in place. If appropriate, Sourcegraph may convert these contractors to employees of Sourcegraph subsidiaries or PEOs once available or after a certain period of time.
+We also engage teammates outside the US as contractors. If appropriate, Sourcegraph may convert these contractors to employees of Sourcegraph subsidiaries or PEOs once available or after a certain period of time.
 
 ### Contracts
 
@@ -64,7 +64,7 @@ Contractors are not eligible for all employee benefits (e.g. healthcare, life in
 
 ### Payments
 
-Contractors submit an invoice at the end of each month in Veem or Bill.com, including any reimbursable and recurring expenses.
+Contractors submit an invoice at the end of each month (including any reimbursable and recurring expenses) via email to our accounting team, Sourcegraph@Bill.com, with finance@sourcegraph.com copied. All invoices will be paid through Veem.
 
 ### Onboarding
 

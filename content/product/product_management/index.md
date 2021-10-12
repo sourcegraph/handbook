@@ -14,17 +14,45 @@ This page contains information that is relevant for how to do well at your job a
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
 
-### Definitions
+### Direction page updates
+
+We use [direction pages](../../direction/index.md#per-area-direction-pages) to communicate where each of our product teams is headed, for the areas of the product that they work on. Newly created teams should begin documenting the scope of their team as well as their mission, vision, and more by creating one of these pages as part of the process of forming.
+
+All in-place product engineering teams should have their own direction page, and should update it on a monthly cadence (at the same time the [PMM roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) is updated) by proposing a new pull request to update their content. Everyone on the team should be invited to contribute, and the update should be shared with important stakeholders. This helps us keep everyone aligned, and ensures we have a single source of truth for our product directions. The specific day of the month that the team updates the doc is up to the team internally to decide, the important part is that it is never more than a month out of date.
+
+## Glossary
 
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
 - Backlog: The ordered list of items to be tackled after items on the roadmap are complete
+- Department: A top-level organizational unit of people, such as Sales, Product or Marketing.
+- Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
 
-Launch tier levels are also an important concept to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
+Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
 
 ## Communications
 
-Product team members are empowered to communicate directly with customers, internal stakeholders, or anyone else. Sometimes it can be helpful to have someone review your communication before sending it, especially if it is going to a wide or unfamiliar audience. If you want, the Marketing and PR teams are available to help any time: simply ask in #marketing and someone will be happy to review your communication.
+### Feature roll-outs
+
+Communications around feature roll-out are especially important, and are documented on[the rollout process](./rollout_process.md#communications) page.
+
+### Talking to customers and stakeholders
+
+In general, product team members are empowered to communicate directly with customers and stakeholders. Sometimes it can be helpful to have someone review your communication before sending it, especially if it is going to a wide or unfamiliar audience. If you want, the Marketing and PR teams are available to help any time: simply ask in #marketing and someone will be happy to review your communication.
+
+There are just a few places where a review is required; these should include your product director and someone from the marketing team:
+
+- Release posts/blog posts (review process already includes this, so nothing special to be done here)
+- Social media using the official accounts, including YouTube
+- Public presentations/events/speaking engagements
+- [about.sourcegraph.com](https://about.sourcegraph.com) site updates
+- Updates on pricing/packaging changes
+- Updates on feature deprecation
+- Speaking to press
+
+### Talking about customers publicly
+
+When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
 
 ## Release early, release often
 
