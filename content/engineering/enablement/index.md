@@ -10,6 +10,7 @@ Our mission is to provide technical foundations critical to the business, our cu
 - [Delivery](delivery/index.md)
 - [Dev Experience](dev-experience/index.md)
 - [Frontend Platform](frontend-platform/index.md)
+- [Engineering Education](engineering-education/index.md)
 
 ## Org Chart
 
@@ -40,7 +41,7 @@ The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-s
   - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
   - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
   - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
-- Engineering Education
+- [Engineering Education](engineering-education/index.md)
   - [Marek Zaluski](../../company/team/index.md#marek-zaluski)
 - Sourcegraph Handbook
   - [Mary Belzer](../../company/team/index.md#mary-belzer-sheher) ([Product Manager](../../product/roles/index.md#product-manager))

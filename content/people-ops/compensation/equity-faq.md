@@ -6,7 +6,7 @@ Sourcegraph currently only provides equity to teammates in the form of options.
 
 By default, all option grants vest monthly over four years with a 1-year cliff. This means that 25% of your grant will vest on the 1-year anniversary of the vesting start date, and the remaining 75% vest in equal (1/48th of the total) amounts on a monthly basis.
 
-Teammates classified as employees receive incentive stock options (ISOs) to the maximum degree possible, while teammates classified as contractors receive non-qualified (or non-statutory) stock options (NSOs).
+US employees receive incentive stock options (ISOs) to the maximum degree possible, while all other teammates receive non-qualified (or non-statutory) stock options (NSOs). The reason is that ISOs are a creation of the US tax system and available only to employees.
 
 All option holders have the right to early exercise their options in Carta. This gives you the ability to pay to exercise options before they have vested, which can provide certain tax benefits in certain locations. Speak to your own financial and/or tax advisors to understand the implications.
 
@@ -15,6 +15,10 @@ All option holders have the right to early exercise their options in Carta. This
 Sourcegraph cannot make recommendations or provide advice related to your option grants. Please speak to your own financial and/or tax advisors!
 
 ## FAQ
+
+### What if my options in Carta are incorrect (such as I have the wrong number of options or the wrong type of options)?
+
+Email [our Carta admin](https://docs.google.com/document/d/1i-JS8Vv2uvvUyUqxiW-PSemvhsg9kjs3evsPzFFYi5k/edit?usp=sharing) and cc your legal POC or legal@sourcegraph.com, depending on the sensitivity of your question.
 
 ### Is there any weird tax stuff for [me|non-US teammates|contractors|part-time teammates|etc.]?
 
@@ -26,7 +30,12 @@ Unfortunately, we cannot answer this question publicly due to confidentiality pr
 
 ### How much time do I have to exercise the stock options that have vested if I leave?
 
-Currently, our stock option plan allows teammates to exercise options for 3 months after leaving. We recognize that as our valuation grows, it can be prohibitively expensive to exercise options, and so we are evaluating changes that would extend this timeline. Any changes here would require board of directors approval, and no proposal is finalized yet, but we do hope to make this longer in the future.
+All teammates who join us after May 2021 will have ten (10) years from the date of grant to exercise vested options.
+
+For teammates who joined us May 2021 or earlier:
+
+- NSOs: ten (10) years from the date of grant to exercise vested NSOs
+- ISOs: three (3) months after leaving to exercise vested ISOs, which Sourcegraph at its discretion may extend on a case-by-case basis.
 
 ### So, exactly how valuable are my options today?
 
@@ -57,6 +66,26 @@ As an example of how this could work in practice, imagine a teammate already has
 Timing your exercises can have tax implications or benefits.
 
 Unfortunately, we cannot provide personal financial or tax advice. Please speak to your own tax advisor.
+
+### If I early exercise my options, should I file an 83(b) election?
+
+If you are a US taxpayer, you must download your 83(b) elections from Carta and file them with the IRS within thirty (30) days of the date of your early exercise if you want to avoid owing additional taxes on any subsequent gains in the value of your options upon vesting.
+
+To receive a stamped copy of your 83(b) form for your records, below is a template letter you can mail to the IRS along with two signed copies of your 83(b) forms and a postage-paid return envelope.
+
+> {Date}
+>
+> Department of the Treasury
+>
+> {Address provided in Carta 83(b) instructions}
+>
+> To whom it may concern:
+>
+> I’ve enclosed two copies of my 83(b) election in connection with my early exercise of Sourcegraph, Inc. common stock. I would like to receive a date-stamped copy, which you can send me using the enclosed postage-paid return envelope.
+>
+> {Your name}
+
+You can find more information about 83(b) elections [here](https://carta.com/blog/fixing-83b-elections/).
 
 ### What percentage of the company does each share represent, including common stock, restricted stock, outstanding options, etc.?
 

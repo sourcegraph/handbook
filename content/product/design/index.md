@@ -12,6 +12,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 - [Rob Rhyne](../../company/team/index.md#rob-rhyne) (he/him)
 - [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) (he/him) – [ReadMe](https://quinnkeast.com/readme)
 - [Sara Lee](../../company/team/index.md#sara-lee-she-her) (she/her)
+- [Marisa Kanemoto](../../company/team/index.md#marisa-kanemoto-sheher) (she/her)
 
 <img width="30%" height="30%" src="design-team-logo.jpg" alt="Sourcegraph Design team logo">
 
