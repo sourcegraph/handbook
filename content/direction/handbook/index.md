@@ -10,13 +10,12 @@
 
 # ProductArea Direction
 
-This page outlines the vision, strategy and goals of the ProductArea team. You can use this section to describe what your scope is, and where your product is today.
+Sourcegraph is a Handbook first company. The Handbook is our source of truth, and a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and functional.
+This page outlines the vision, strategy, and goals of the Handbook team.
 
 Quicklinks:
 
-- [ProductArea Backlog](https://about.sourcegraph.com/) <!-- Update links with your page -->
-- [Latest demo](https://about.sourcegraph.com/)
-- [Documentation](https://about.sourcegraph.com/)
+- [Productboard (Internal only)](https://sourcegraph.productboard.com/feature-board/3424445-handbook)
 
 ## Mission, Vision & Guiding Principles
 
