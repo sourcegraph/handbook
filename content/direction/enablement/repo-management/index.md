@@ -63,29 +63,33 @@ TODO
 Note that these are order by approximate known revenue impacted - but that the figures are likely not to be representive of the total value, and so the order in which these get address may not correlate with the order here.
 
 ### Perforce support
-  - **Approximate revenue impacted:** $1.6m
-  - [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkT1nEAF/view)
+
+- **Approximate revenue impacted:** $1.6m
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkT1nEAF/view)
 
 ### Gerrit Permissions syncing
-  - **Approximate revenue impacted:** $110k
-  - **Problem:** Lack of support for Gerrit permissions
-  - [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000Il6IFEAZ/view)
+
+- **Approximate revenue impacted:** $110k
+- **Problem:** Lack of support for Gerrit permissions
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000Il6IFEAZ/view)
 
 ### [Phabricator support](https://github.com/sourcegraph/sourcegraph/issues/25111)
-  - **Approximate revenue impacted:** $100k
-  - **Problem:** Phabricator support within Sourcegraph was never properly implemented, resulting in limited support.
-  - [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxK8EAJ/view)
+
+- **Approximate revenue impacted:** $100k
+- **Problem:** Phabricator support within Sourcegraph was never properly implemented, resulting in limited support.
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxK8EAJ/view)
 
 ### [Bitbucket Cloud permission syncing](https://github.com/sourcegraph/sourcegraph/issues/19782)
-  - **Approximate revenue impacted:** $90k
-  - **Problem:** Atlassian are ending support for BitBucket Server and staring moving all customers to the Cloud. But Sourcegraph doesn't currently support native permission syncing for BitBucket Cloud.
-  - [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxMkEAJ/view)
+
+- **Approximate revenue impacted:** $90k
+- **Problem:** Atlassian are ending support for BitBucket Server and staring moving all customers to the Cloud. But Sourcegraph doesn't currently support native permission syncing for BitBucket Cloud.
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxMkEAJ/view)
 
 ### Monorepo support
-  - **Approximate revenue impacted:** $80k
-  - **Problem:** A major priority is to start supporting repositories that are massive in scale. Today, this does not work simply because the machines take too long to process unindexed searches, even with a MASSIVE machine.
-  - [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxLlEAJ/view)
 
+- **Approximate revenue impacted:** $80k
+- **Problem:** A major priority is to start supporting repositories that are massive in scale. Today, this does not work simply because the machines take too long to process unindexed searches, even with a MASSIVE machine.
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxLlEAJ/view)
 
 # Strategy and plans
 
@@ -117,7 +121,7 @@ Note that the time periods are rolling time periods and the plans here are revie
 
 - **Current status:** In progress
 - **Expected effort:** <5% team time
-- **Why:** Monorepos are commonplace but exert a huge toll on systems like ours - so much so that customers feel a significant ammount of pain and with 
+- **Why:** Monorepos are commonplace but exert a huge toll on systems like ours - so much so that customers feel a significant ammount of pain and with
 - Most of the previously considered work actually resides with other teams, so our role in this will largely be support.
 
 #### GitServer HA
