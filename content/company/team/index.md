@@ -1544,3 +1544,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [keelyaguayo](https://github.com/keelyaguayo)
 - [keely.aguayo@sourcegraph.com](mailto:keely.aguayo@sourcegraph.com)
 - Keely lives in New Orleans with her husband, Chris, their four sons: Sullivan, Anderson, Miller, and Wilder, and a 14 year old Bichon Frise named Elle.
+
+## Erika Heidi (she/her)
+
+- Senior Developer Advocate, Community
+- The Hague, Netherlands 🇳🇱
+- GitHub: [erikaheidi](https://github.com/erikaheidi)
+- [erika.heidi@sourcegraph.com](mailto:erika.heidi@sourcegraph.com), [Twitter](https://twitter.com/erikaheidi), [LinkedIn](https://www.linkedin.com/in/erikaheidi/)
+- Erika is a Brazilian living in The Hague (Netherlands) with her husband and one daughter. With a background in Linux systems and software engineering, Erika is passionate about open source, online communities, and the intersections of art and code. Erika loves writing, teaching, and creating. Apart from coding, Erika enjoys tinkering with 3D printers, drawing and painting, and going for a bike ride when the weather is good.
