@@ -49,6 +49,7 @@ WIP
 - [How we structure compensation](compensation/index.md)
   - [How to create an offer](compensation/offers.md)
   - [Equity and stock options FAQ](compensation/equity-faq.md)
+  - [Compensation change approvals](compensation/compensation-change-approvals.md)
 - [Expenses we cover](../finance/spending-company-money.md) (aka "Spending company money")
 - [Benefits and perks we offer](benefits-and-perks.md)
 - [Guidelines for travel](travel.md)
