@@ -1,28 +1,8 @@
 # Sourcegraph strategy
 
-Everything we do stems from our [purpose](#purpose), to make it so **everyone can code**. We'll accomplish that over the next 30 years by following our strategy:
-
-- 30 years
-  - [Purpose](#purpose)
-  - [Mission](#mission)
-  - [Values](#values)
-  - [Big Code](#big-code)
-- 10 years
-  - [10-year vision: democratize coding](#10-year-vision)
-- 5 years
-  - [5-year vision: democratize code](#5-year-vision)
-- 3 years
-  - [3-year vision: democratize code search](#3-year-vision)
-  - [Principles](#principles)
-  - [Assumptions](#assumptions)
-- 1 year
-  - [1-year vision](#1-year-vision)
-  - [Product direction](#product-direction)
-  - [Goals](#goals)
-
 ## Purpose
 
-We want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress.
+We want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress. We'll accomplish that over the next 30 years by following our strategy.
 
 ### Background
 
@@ -63,7 +43,7 @@ Sourcegraph is the one place to find and fix things across all code.
 - When you need to find something in or about your code (which happens many times per day), you usually start on Sourcegraph.
 - To spread adoption of a new dev tool/practice or make a large-scale code change, you use Sourcegraph because you trust everyone uses it.
 
-### 3-year vision: democratize code search {#3-year-vision}
+### 3-year vision: democratize code search
 
 We will make universal code search accessible to everyone.
 
@@ -76,7 +56,7 @@ Code search is a powerful tool that becomes indispensable when you work on large
 - Sourcegraph becomes a natural hub to distribute other dev tools, due to its extensibility and the fact that the average developer using Sourcegraph does so several times per day.
 - Sourcegraph provides analytics about what parts of the code are changing and makes this view accessible to every individual developer.
 
-### 5-year vision: democratize code {#5-year-vision}
+### 5-year vision: democratize code
 
 We will make the universal code graph accessible to everyone.
 
@@ -88,7 +68,7 @@ The universe of code is exploding, but to any given person, most of that univers
 - You can discover and more easily use libraries, with data about who uses them and how they're used.
 - Sourcegraph understands how the entire codebase of an organization is evolving and makes this accessible to codebase owners. The health and overall status of the codebase is no longer opaque to engineering leaders.
 
-### 10-year-vision: democratize coding {#10-year-vision}
+### 10-year-vision: democratize coding
 
 We will make it so coding is a universal skill (just like universal literacy). This requires not only making coding easier but also introducing more widely available economic incentives--letting anyone earn a living coding from anywhere in the world.
 

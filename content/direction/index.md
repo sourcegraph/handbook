@@ -76,6 +76,7 @@ Within this overall product direction, individual product areas set their own go
 - Dev Experience
 - [Frontend Platform](enablement/frontend-platform/index.md)
 - [Repo Management](enablement/repo-management/index.md)
+- [Engineering Education](enablement/engineering-education/index.md)
 
 ### Cloud
 
