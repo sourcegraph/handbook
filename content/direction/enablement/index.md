@@ -34,7 +34,7 @@ Enable Sourcegraph customers and prospects to easily access the value our produc
 
 ### Strengthen support of code management systems
 
-As we broaden our reach, prospects and customers look to us to support a large variety of code management systems, in a way that is robust and scalable. We want to provide our user base the means to simply, easily, and reliably connect to all common code management systems.
+As we broaden our reach, prospects and customers look to us to support a large variety of source code management (SCM) systems, in a way that is robust and scalable. We want to provide our user base the means to simply, easily, and reliably connect to all common SCMs.
 
 ### Enrich education and documentation systems
 
