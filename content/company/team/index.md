@@ -817,13 +817,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Name pronunciation: /[ˈkɛl.i ˈɹɑk.wɛl](http://ipa-reader.xyz/?text=%CB%88k%C9%9Bl.i%20%CB%88%C9%B9%C9%91k.w%C9%9Bl&voice=Joanna)/
 - Kelli grew up in Arizona before slowly making her way up the west coast US from LA to SF to Seattle, WA. She became a "professional web developer" before she was even qualified to babysit, getting paid in Neopoints to make Neopets layouts and community fan pages for her online friends as a pre-teen. She is definitely not addicted to [bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) (or “boba”, as it’s called on the west coast) and professes that she could stop at any time. When she's not consuming boba, she plays tennis, attends developer conferences and meet-ups, travels for the food, completes jigsaw puzzles, and tries to convince her hypoallergenic cat, Calla, to cuddle with her while coding.
 
-## Katerina Nikolova (she/her)
-
-- Chief of Staff to the CEO and Co-founder at Sourcegraph
-- Walnut Creek, California, USA 🇺🇸
-- [katerina@sourcegraph.com](mailto:katerina@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/katerinanikolova/)
-- Katerina was raised in Bulgaria, but moved to Belgium at age 19 and moved to various countries ever since. She has lived in France, China and Dubai. She currently lives in Walnut Creek (East Bay) with her two daughters Nia and Jennifer. Her spare time is occupied by hiking, biking, playing, and travelling with her daughters. She started her career as a flight attendant for Emirates Airlines in the United Arab Emirates, but moved on to supporting executives after relocating to the U.S. She has worked at Chevron, Stanford, Alibaba and Credit Karma before joining Sourcegraph. Katerina obtained her Bachelor in Mass Communications from UC Berkeley and a Master in Public Administration from San Francisco State University. She has a passion for fashion, music and fun events that bring people together.
-
 ## Dan Mckean (he/him)
 
 - Product Manager, Distribution & Security
