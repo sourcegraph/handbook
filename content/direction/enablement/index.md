@@ -42,7 +42,7 @@ Our company, as well as our user base, is growing rapidly. We want to see all pe
 
 ### Improve our continuous integration pipeline
 
-When our CI pipeline breaks we need clearer indications of what is causing the failures so that we can quickly take action on resolving the issues.
+When our CI pipeline breaks we need clear indications and rich observability of what is causing the failures so that we can quickly take action on resolving the issues.
 
 ## Team specific pages
 
