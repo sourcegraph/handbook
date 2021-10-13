@@ -1536,3 +1536,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [msennett22](https://github.com/msennett22)
 - [michal.sennett@sourcegraph.com](mailto:michal.sennett@sourcegraph.com)
 - Michal lives in Dallas with her husband Josh, and two dogs, Jet (labrador mix) and Jax (chiweenie)! She has held diverse roles ranging from Employee Engagement, Project Management, Career Coaching, Customer Success and Sales. Michal has a passion for hosting people and planning unique experiences. She loves traveling and learning about new cultures, especially by eating their cuisine.
+
+## Keely Aguayo (she/her)
+
+- Payroll Manager
+- New Orleans, LA, USA 🇺🇸
+- GitHub: [keelyaguayo](https://github.com/keelyaguayo)
+- [keely.aguayo@sourcegraph.com](mailto:keely.aguayo@sourcegraph.com)
+- Keely lives in New Orleans with her husband, Chris, their four sons: Sullivan, Anderson, Miller, and Wilder, and a 14 year old Bichon Frise named Elle.
