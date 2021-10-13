@@ -18,7 +18,7 @@ We want to make finding, understanding, and editing code easier, regardless of h
 
 ### Ten year vision
 
-> We want to make using Sourcegraph to understand and modify code so easy that anyone can do it, including people not traditionally considered developers. We want to [democratize coding](../../company/strategy.md#10-year-vision) by making it so that everyone in the company can engage with the organization's code, safely making changes to implement their department's priorities and interests, without need for an intermediary to do it for them.
+> We want to make using Sourcegraph to understand and modify code so easy that anyone can do it, including people not traditionally considered developers. We want to [democratize coding](../index.md#ten-year-vision) by making it so that everyone in the company can engage with the organization's code, safely making changes to implement their department's priorities and interests, without need for an intermediary to do it for them.
 
 ## Principles
 
@@ -59,4 +59,4 @@ Our product solves real problems today, but investing in the polish, user experi
 
 ### Scale for Big Code
 
-We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../../company/strategy.md#big-code).
+We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../index.md#big-code).

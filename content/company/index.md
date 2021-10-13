@@ -7,7 +7,7 @@
 - [All-remote](remote/index.md)
 - [Asynchronous work](asynchronous-communication.md)
 - [Goals](goals/index.md)
-- [Strategy](strategy.md)
+- [Direction](../direction/index.md)
 - [Team](team/index.md)
 - [Values](values.md)
 - [Being a customer-first company](customer-first.md)
