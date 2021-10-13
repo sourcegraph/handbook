@@ -50,7 +50,7 @@ We aim allow teammates the flexibility to work on incoming requests, tackle proa
 - We aim to spend **up to 30%** (~3 days) of our time on making proactive impact.
 - If **over 50%** (~5 days) of our time is spent _outside_ of planned work, we opt to discuss the scope and priority of the work with the team first.
 
-### Rituals
+### Meetings
 
 _This section is a work in progress._
 
