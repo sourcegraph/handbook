@@ -45,7 +45,7 @@ Go to **Confirm health of Sourcegraph.com**
 - Check that https://sourcegraph.com/site-admin shows a large number of users, repositories, etc. indicating postgres data exists.
 - Check that the following are online and working:
   - https://about.sourcegraph.com
-  - https://about.sourcegraph.com/handbook
+  - https://handbook.sourcegraph.com
   - https://docs.sourcegraph.com
   - https://sgdev.org
   - https://about-docsite.sourcegraph.com/

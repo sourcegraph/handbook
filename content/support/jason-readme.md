@@ -48,21 +48,29 @@ Receiving negative feedback in a private space is fine with me, and welcome, but
 
 ### Technical areas of knowledge
 
-Javascript/React/Node.js - Expert
-Python - Serviceable
-Java - Serviceable
-Golang - Novice
-MongoDB - Expert
-PostgreSQL - Serviceable
-GraphQL - Serviceable
+- **Proficient**
+  - HTML CSS/SCSS
+  - JavaScript (express, node, react)
+  - Python
+  - Mongo DB
+- **Serviceable**
+  - PostgreSQL
+  - GraphQL
+  - TypeScript
+  - yaml
+- **Experience with**
+  - Java
+  - Golang
+  - PHP
+  - Data Structures and Algorithms
 
 ### Technical areas of interest to learn
 
-Golang, Kubernetes, Security, Deeper understanding of CS in general
+Golang, TypeScript, Kubernetes, Security
 
 ### Current personal project
 
-Nothing at the moment. Very much in learning mode.
+Building out the infrastructure for a service that allows touring musicians and their teams to better manage life on the road.
 
 ### Something you fear
 

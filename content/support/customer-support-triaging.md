@@ -50,7 +50,9 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 ### 1. Whose responsible for triaging?
 
-Brielle, Nonso, Tamar, and Virginia. If needed, Adeola, Beatrix, Carl, Stompy, and Warren can serve as back-up.
+Nonso 08:00 - 14:00 UTC (Stompy as backup)
+Stompy 14:00 - 15:00 UTC (Tamar, Brielle, Nonso as backup)
+Virginia 15:00 - 24:00 UTC (Tamar, Brielle as backup)
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 

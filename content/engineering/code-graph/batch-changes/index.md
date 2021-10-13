@@ -14,11 +14,11 @@
 
 ## Process
 
-- We prioritize our work in [this project](https://github.com/orgs/sourcegraph/projects/119). It is the responsibility of the PM and EM to keep this updated and correct.
+- We prioritize our work in [our planning board](https://github.com/orgs/sourcegraph/projects/216). It is the responsibility of the PM and EM to keep this updated and correct.
 
 - Each day, Slack reminds us to do our text check-in, which consists of a _short_ message (it shouldn't take longer than a minute to write) in the reminder's thread. This should be a recap of what we have finished that day.
 
-- One Big Thing: Each sprint, each engineer gets one big thing to work on — one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning project](https://github.com/orgs/sourcegraph/projects/119) into the current sprint to work on (or P1 if there are no P0s).
+- One Big Thing: Each sprint, each engineer gets one big thing to work on — one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning board](https://github.com/orgs/sourcegraph/projects/216) into the current sprint to work on (or P1 if there are no P0s).
 
 - Invariants and assumptions:
   - Issues have the current milestone set if-and-only-if they are P0.

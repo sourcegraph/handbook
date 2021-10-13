@@ -78,5 +78,4 @@ We are **hiring recruiters**! View our open positions [here](https://boards.gree
   - LinkedIn Recruiter, our sourcing tool
 - Recruitment branding
   - [Where we post our jobs](./hiring/job_boards.md)
-- [Metrics](https://about.sourcegraph.com/handbook/talent/recruiting_metrics)
 - [Switching teams](../people-ops/switching-teams.md#switching-teams)

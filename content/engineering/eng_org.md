@@ -16,6 +16,7 @@
     - [Frontend platform](./enablement/frontend-platform/index.md)
   - [Cloud](./cloud/index.md)
     - [Growth](./cloud/growth/index.md)
+    - [Extensibility](./cloud/extensibility/index.md)
     - [Security](./cloud/security/index.md)
     - [DevOps](./cloud/devops/index.md)
     - [Cloud SaaS](./cloud/saas/index.md)

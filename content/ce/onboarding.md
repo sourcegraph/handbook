@@ -63,7 +63,7 @@ We want every CE to feel certain and comfortable with where they are at currentl
 
 - Get [Demo Certified](#ce-demo-certification).
 - Actively participate in initial prospective calls: perform customer discovery, provide demos.
-- Be paired with 1-3 AEs with whom you should begin to build a rapport.
+- Be paired with 1 AE with whom you should begin to build a rapport.
 
 #### 60 - 90 days:
 
@@ -86,7 +86,7 @@ After day 90, your role expectations will then align to the pre-defined CE caree
 - Get [Demo Certified](#ce-demo-certification).
 - Actively participate in initial prospective calls, performing customer discovery.
 - Lead customer demos tailored to their described needs.
-- Be paired with 1-3 AEs with whom you should begin to build a rapport and begin strategizing on book of business with.
+- Be paired with 1 AE with whom you should begin to build a rapport and begin strategizing on book of business with.
 
 #### 60 - 90 days:
 
