@@ -1031,6 +1031,7 @@
       }
     },
     {
+
       "type": "Feature",
       "properties": {
         "name": "Yink Teo"
@@ -1211,7 +1212,7 @@
           41.38299120166604
         ]
       }
-    },    
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1220,8 +1221,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.300700,
+          4.3007,
           52.070499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name" :"Adam Greenhalgh"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.82674407958983,
+          40.721502075213955
         ]
       }
     }
