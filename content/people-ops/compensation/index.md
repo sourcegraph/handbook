@@ -15,7 +15,7 @@ We use third-party market data as a key input for each role and level within tha
 - [Employment versus contracting: compensation differences](#employment-versus-contracting-compensation-differences)
 - [How to create an offer](offers.md)
 - [Equity and stock options FAQ](equity-faq.md)
-- [How to notify People Ops of compensation changes](https://forms.gle/hzbHVCG1ZGmGRq1N6)
+- [How to notify People Ops of compensation changes](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform)
 
 ## Components of compensation
 
