@@ -1,38 +1,18 @@
-# Company sponsored events (team and company-wide)
+# Company sponsored travel
 
-# Phase II: Teammate Travel Meetup Guidelines
+Sourcegraph is an [all-remote](../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.  
 
-As of June 16th 2021, we have resumed reimbursing travel per our [team travel budgets](./travel.md#2-team-travel) for travel and in-person events that are permitted by law. We want this to be gradual, and all events must be completely optional.
+## Travel Planning Guidelines
 
-As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. Choosing to travel or meet is an incredibly personal decision, and we support team members who may not be interested in meeting up at this time.
-
-## Guidelines
-
-- All individual teammates can continue to plan and coordinate events.
-- Managers may now plan meetups
-
-  - Managers must actively gauge the level of comfort within their teams for both the activities you’ll be engaging in, and how you plan on meeting up. _Be inclusive of different interests in the group._
-  - Managers must be aware that not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. _Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person._
-
-- All meetups will continue to remain completely optional for all attendees.
+ - When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
+  - For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
+- All meetups are to remain completely optional for all attendees.
+  - Due to the current circumstances of Covid-19, everyone is experiencing comfort on differing levels. It is important to honor boundaries around comfort during this time. For more information on adhering to proper Covid-19 protocols during your trip planning, please review the Sherpa feature in TripActions.
 - Use your best judgement and defer to local jurisdictions in determining the number of attendees.
+- When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../company/values.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
 - Follow local laws, customs, and safety regulations during every step of the meetup process.
-- Assume people don’t want to shake hands, hug, high-five, etc.
-- Don’t ask about other people’s private health choices or condition attendance on those factors (_such as vaccination status_).
 
-**_Please notify People Ops (people-ops@sourcegraph.com) before you start planning an event._**
-
-## How we came to this decision:
-
-Our policy until now has been to suspend travel/meetup reimbursement and for managers to not organize team events. _Why not a blanket “no meetup” policy?_ On principle, we don’t think any company can or should forbid people from meeting up on their personal time. Although Covid-19 continues to deeply affect each person and region, we needed to establish a policy to meet the team’s needs. 82% of team members surveyed (49 respondents) said they’d feel comfortable attending an in-person meetup (_either now or within the next few months, with some conditions_), and 84% of team members said Sourcegraph should start allowing in-person team meetups and travel. With most team members in favor of starting to travel, we didn’t want _only_ local meetups to start, because that wouldn’t be inclusive to people who don’t live near other team members. We decided to change the policy to start allowing travel/meetup reimbursement.
-
-**\*For any questions, clarifications, or approvals around trips you’ll be taking, please email **people-ops@sourcegraph.com**.\***
-
-# Travel budgets
-
-Sourcegraph is an [all-remote](../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
-
-Team meetups are very important for building cohesiveness in remote teams and spreading Sourcegraph culture across the company.
+# Travel budget philosophy
 
 We are a [high agency](../company/values.md#high-agency) team. Be economical in choosing your accommodations, modes of transportation, and where you’ll be dining. We understand that there may be limits, and we urge you to find options that are both convenient for you while being reasonable reimbursements for the company.
 
@@ -44,9 +24,6 @@ We also want you and expect you to use your full travel budgets each year! For t
 >
 > - A teammate cannot reallocate the budget from a company-wide event to an individual trip.
 > - A teammate cannot use their team budget for individual travel.
-> - A teammate cannot skip the winter holiday party to get a longer stay at the spring/summer company-wide event.
-
-Most importantly, when planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../company/values.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
 
 **There are five types of company-sponsored, company-paid travel:**
 
@@ -203,23 +180,9 @@ For business critical travel or travel required for your role, we offer a budget
 - This benefit exists to support our teammates who have dependents by giving them the certainty of knowing that their dependents will be taken care of while they are on business critical company travel.
 - For any additional questions, please reach out to Finance and People Ops.
 
-# How to get your trip approved
+# How to get your trip approved in TripActions
 
 [TripActions](TripActions.md)
-
-Before booking trips, you must obtain budget approval by sending an email to travel@sourcegraph.com with your manager or director cc’d. If booking a trip with a group (i.e. team meet-up), we recommend group approval requests to reduce the number of requests required for each team member.
-_Please include the following for individual or group travel requests:_
-
-- Name(s) and Team Role(s):
-- Reason for travel (i.e. Team meet-up, conference, business travel, etc.):
-- Location of travel:
-- Dates of travel:
-- Cost - actual or [estimate](https://docs.google.com/spreadsheets/d/1az1m-V9ddhwlZ_jSHnoMtK0J4VO1Aeph0mKDNf6SsEY/edit#gid=0) of reimbursable expenses (i.e. hotel, flight, food, transportation, etc.):
-- Are the travel accomodations insured/refundable?:
-
-As a reminder, travel is voluntary and no teammates are required to travel. Trip requests made by a teammate should never be made against their own judgement or comfort level.
-
-After your request has been submitted, you will receive approval from Finance via email within 1 business day.
 
 For any additional questions, please reach out to #finance and #people-ops at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
 
