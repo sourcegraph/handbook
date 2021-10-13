@@ -511,19 +511,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Katerina Nikolova"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.06192,
-          37.90176
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Dudley Nostrand"
       },
       "geometry": {
