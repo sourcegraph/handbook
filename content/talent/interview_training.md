@@ -20,6 +20,8 @@ Agenda:
 A quick disclaimer as I jump in: this training is not intended only as an opportunity for me to share what I know. I am still learning and evolving, and I encourage you to identify gaps in the training and share things that we should incorporate moving forward.  
 It is very important to train everybody on how to interview and best practices. Not only does it ensure a consistently positive experience for our candidates - which results in better hires - it allows us to ensure we are running an inclusive process for every candidate regardless of background. On top of that, it protects us from a legal standpoint.
 
+### Unconscious Bias
+
 ![Alt Text](<https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(3).png>)
 
 We recognize the need to cultivate diversity and help close the opportunity gap for job seekers. Our goal is to reduce bias and remove barriers that are built into the hiring process. In order to do so, we must be cognizant of our unconscious biases.
@@ -78,6 +80,8 @@ Our recruiters, confirmation templates, and interviewers need to make it clear t
 
 Please see BrightHire frequently asked questions [here](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire#teammate-faq).
 
+### The Legal Rules
+
 ![Alt Text](<https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(11).png>)
 
 Another reason why having structured interview questions is because it helps us avoid asking illegal questions. We understand that sometimes conversations can get off track, however, so we want you to be aware of the legal rules.
@@ -117,6 +121,8 @@ Candidates can say things that would be completely inappropriate or uncomfortabl
 Since Sourcegraph is an all-remote company, some questions might arise around where candidates are located or whether they’ve worked remotely before. These are questions that should be covered by the talent team in the recruiter screen. By the time a candidate gets to the in-depth interview process, we should feel confident that they know that we're a remote first environment, they're comfortable with that, and we've assessed that. Any specific questions you ask need to directly relate to their ability to succeed in the role. If you ask about their ability to effectively manage teams remotely, that is okay. It’s not asking them where they live or where they’re from. It’s asking them, are you comfortable working remotely and where would you be working remotely from? You can ask them to talk to you about their experience managing teams in diverse locations or their experience working remotely in general. You can also ask if they are comfortable with a certain number of overlap in their working hours given we often work out of different timezones. Those are questions that directly relate to their ability to be successful at Sourcegraph.
 
 Interviewing takes practice and some of these questions can get into the gray area. It's not always black and white and it can be hard. I've been interviewing for a long time and I even find myself trying to backtrack and redirect in a polite way. It takes a lot of practice and we don't always get it right, but I'm just excited that you are all invested in learning and becoming better. We'll keep pulling out resources that can help support you so that you feel safe going into interviews and providing a strong candidate experience.
+
+### The Values Interview
 
 ![Alt Text](<https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(15).png>)
 
@@ -225,6 +231,8 @@ There are plenty of companies that pull interviewers into a room and stack rank 
 Ultimately, it's ideal if you can interview two or three people and you are a yes on all of them against the clear guidelines and questions that we've provided. It's ultimately up to the hiring manager to make the final call as to who they're going to be moving forward with. Our goal is to put in structure to prevent that bias and establish definitions so we're all speaking the same language.
 
 Lastly, be mindful about what you leave in your interview form. There should be nothing illegal, like “diversity hire.” Candidates have the right to request access to this information. All written feedback should follow the same set of rules and guidelines that were addressed in our interview question do’s and don’ts. A good rule of thumb, again, is to think, “does what I'm about to write directly relate to their ability to do the job?”
+
+### Candidate Experience
 
 ![Alt Text](<https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(26).png>)
 
