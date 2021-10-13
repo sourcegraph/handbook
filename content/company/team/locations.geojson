@@ -1198,6 +1198,19 @@
           41.38299120166604
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erika Heidi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.300700,
+          52.070499
+        ]
+      }
     }
   ]
 
