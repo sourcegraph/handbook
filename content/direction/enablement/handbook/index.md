@@ -80,19 +80,17 @@ The next six months are focused on better defining the Handbook as a product and
 
 ### Themes
 
-- Theme
-  - Theme extra detail
-- Theme
-  - Theme extra detail
-- Theme
-  - Theme extra detail
+- Navigation
+  - WIP
+- Search
+  - WIP
+- Onboarding
+  - WIP
+- Support
 
 ### What's next and why
-
-More detailed plans related back to the themes and goals. If your time frame covers more than a quarter, it would be valuable to give some indication of time within the plans in this section, to help others appreciate the likely ETA of value.
+WIP
 
 ### What we're not working on & why
 
-What are we explicitly not working on? Are there frequent requests from customers or other teams we are choosing not to take on? Making that explicit makes other teams understand the strategy and reduces back and forth.
-
-If there is a time component (e.g. "We're not working on this this Q but likely to pick it up next Q"), call it out.
+WIP
