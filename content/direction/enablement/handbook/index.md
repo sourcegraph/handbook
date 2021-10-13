@@ -85,6 +85,7 @@ The next six months are focused on better defining the Handbook as a product and
 The Handbook is a source of truth for lots of company information, and users must be able to find what they're looking for quickly. Intuitive navigatoin is essential for browsing and discovering content.
 
 We will:
+
 - Build and refine a [navigation sidebar](https://github.com/sourcegraph/handbook/issues/7).
 - Explore options for featuring related content.
 - Build a Handbook home page to better showcase featured or popular pages, and guide the user to the right content.
@@ -95,6 +96,7 @@ We will:
 Current search works best when you know exactly what you're looking for. The Handbook needs a reliable search solution that helps guide users to the right content.
 
 We will:
+
 - Evaluate the current search provider, [Swiftype](https://app.swiftype.com/engines/handbook/overview) to determine if it's the best solution for our needs.
   - If we stay with Swiftype: review & refine search rules.
   - If we choose another solution: implement.
@@ -104,6 +106,7 @@ We will:
 Onboarding should set teammates up for success in contributing to the Handbook, no matter their technical background. We'll provide resources and recommendations for learning about and making changes to the Handbook.
 
 We will:
+
 - Evaluate current Handbook onboarding documentation and tasks.
 - Explore ways to expand Handbook onboarding beyond adding yourself to the team page.
 
@@ -112,6 +115,7 @@ We will:
 Ongoing support for Handbook users is essential in keeping it up-to-date. Support documentation should be accessible to every type of learner, and Handbook users should have a clear escalation path for help with the Handbook.
 
 We will:
+
 - Explore ways to provide better in-the-moment support when teammates are working through an issue.
 - Establish Handbook Office Hours as a regular forum for teammates to get help with the Handbook, or see demos of new features.
 
