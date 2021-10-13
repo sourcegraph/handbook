@@ -18,7 +18,7 @@ Our mission is to provide the right technical foundations critical to the succes
 
 ### Ten year vision
 
-> Sourcegraph is a thought leader in the development and delivery of developer tooling, whether SaaS or self-hosted, and we are regularly copied or consulted to advise on our best practices for rapidly shipping easily accessible and high-value products.
+> Sourcegraph is a thought leader in developing and delivering developer tooling, whether SaaS or self-hosted, and we are regularly copied or consulted to advise on our best practices for rapidly shipping easily accessible and high-value products.
 
 ## Focus Areas
 
