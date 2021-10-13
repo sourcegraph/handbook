@@ -1562,6 +1562,7 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Frey has spent the past 10 years in Tokyo, Japan. Despite this he knows very little about manga and anime. He does love motorcycles however, specfically Japanese ones. Passionate about recuitment and matching the right people with the right roles. Spent most of his recuritment career with startups and fast growing companies.
 
 ## Simon Waterer (he/him)
+
 - Senior Customer Engineer
 - London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
 - GitHub: [simoncwaterer] (https://github.com/simoncwaterer)
