@@ -1570,8 +1570,9 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Simon lives in Buckinghamshire near Oxford, though he grew up in Edinburgh. He likes most sports but especially cricket, rugby and F1. He lives with his wife Julie, cats Tabatha and Sadie and Willow the 1 year old sprocker spaniel. He loves spending time outdoors taking the dog for a walk, walking around with a bag of golf clubs - and one day maybe able to do both. He has worked across a range of technologies including object and NoSQL databses, high performance and grid computing.
 
 ## Adam Greenhalgh (he/him)
+
 - Marketing Operations Analyst
-- Salt Lake City,Utah, United States  
+- Salt Lake City,Utah, United States
 - GitHub: [Adammaxla]
-- [adam.greenhalgh@sourcegraph.com](mailto:you@sourcegraph.com), 
-- Adam is from Park City, Utah and has lived in a few different cities since including New York City,Los Angeles, and currently - Salt Lake city. Adam received an MBA from the University of Utah in 2017 and has 4 years of experience in marketing strategy,analytics and operations. Adam likes to travel and enjoys finding new restaurants. He also has picked up a bunch of Hobbies since returning to Utah that include Mountain Biking, Hiking, Skiing/Snowboarding and golfing. He is excited about a side project he is working on that involves growing a quality crewneck sweatshirt business. 
+- [adam.greenhalgh@sourcegraph.com](mailto:you@sourcegraph.com),
+- Adam is from Park City, Utah and has lived in a few different cities since including New York City,Los Angeles, and currently - Salt Lake city. Adam received an MBA from the University of Utah in 2017 and has 4 years of experience in marketing strategy,analytics and operations. Adam likes to travel and enjoys finding new restaurants. He also has picked up a bunch of Hobbies since returning to Utah that include Mountain Biking, Hiking, Skiing/Snowboarding and golfing. He is excited about a side project he is working on that involves growing a quality crewneck sweatshirt business.
