@@ -89,6 +89,7 @@ The next six months are focused on better defining the Handbook as a product and
 - Support
 
 ### What's next and why
+
 WIP
 
 ### What we're not working on & why
