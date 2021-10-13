@@ -6,7 +6,8 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 - [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
 
-Technical Recruiting Team 
+Technical Recruiting Team
+
 - [Devon Coords](../company/team/index.md#devon-coords-she-her), Director, Technical Recruiting
   - Engineering
   - Product
@@ -19,7 +20,8 @@ Technical Recruiting Team
   - Interview scheduling for technical recruiters
   - Recruitment branding
 
-Corporate Recruiting Team 
+Corporate Recruiting Team
+
 - [Kelsey Nagel](../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
   - Marketing
   - Finance
