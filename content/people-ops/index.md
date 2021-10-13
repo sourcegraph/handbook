@@ -9,7 +9,6 @@
 - [Inés Roitman](../company/team/index.md#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
 - [Cassie Melani](../company/team/index.md#cassie-melani-she-her), Teammate Success Manager
 - [Cecily Black](../company/team/index.md#cecily-black-she-her), People Operations Coordinator
-- [Mary Belzer](../company/team/index.md#mary-belzer-she-her), Handbook Product Manager
 
 ### People Ops team READMEs
 
@@ -50,6 +49,7 @@ WIP
 - [How we structure compensation](compensation/index.md)
   - [How to create an offer](compensation/offers.md)
   - [Equity and stock options FAQ](compensation/equity-faq.md)
+  - [Compensation change approvals](compensation/compensation-change-approvals.md)
 - [Expenses we cover](../finance/spending-company-money.md) (aka "Spending company money")
 - [Benefits and perks we offer](benefits-and-perks.md)
 - [Guidelines for travel](travel.md)

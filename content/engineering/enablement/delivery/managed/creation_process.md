@@ -52,14 +52,14 @@ For basic operations like accessing an instance for these steps, see [managed in
    		},
    	],
    ```
-1. Add an entry for the customer by adding their HubSpot link to the checklist in the [managed instances upgrade issue template](../../releases/upgrade_managed_issue_template.md).
+1. Add an entry for the customer by adding their HubSpot link to the checklist in the [managed instances upgrade issue template](../../../releases/upgrade_managed_issue_template.md).
 1. Contact #ce and ask that they generate / provide the relevant license key for the customer's instance, then set it in the site config.
 
 ## Giving the customer access
 
 To provide the customer access to the instance:
 
-1. Work with [#ce](../../../ce/index.md) to ask the customer:
+1. Work with [#ce](../../../../ce/index.md) to ask the customer:
    1. If their instance should be protected by SSO only, or SSO + IP-restricted access. If the latter, what IP addresses / CIDR ranges should be allowed (e.g. the source IPs of their corporate VPN, usually their infrastructure or IT teams can provide this).
    1. Who should be the recipient of the initial site admin account creation link? This will let them configure the admin password, which they will need to store somewhere securely, and is used for them to set up SSO as well as for them to get access if at any point SSO is not working. They can create more password or SSO-based admin accounts later as desired.
 1. Create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](operations.md).

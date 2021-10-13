@@ -56,7 +56,7 @@ TODO
 
 We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](../../../direction/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
+We also have a set of [guiding principles](../../../direction/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
 
 ## Processes
 

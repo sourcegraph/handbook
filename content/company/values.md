@@ -55,7 +55,7 @@ High-quality isn't the opposite of iterative. You can keep quality high while st
 
 ### Be welcoming and inclusive
 
-You make people from all groups and backgrounds feel comfortable belonging to our team and community. You understand that diversity is having a seat at the table, inclusion is having a voice, and belonging is having that voice be heard. You are actively against racism and bias.
+You make people from all groups and backgrounds feel comfortable belonging to our team and community. You understand that diversity is having a seat at the table, inclusion is having a voice, and belonging is having that voice be heard. You are acting against racism and bias.
 
 - In order for us to realize our purpose, our team must have diverse perspectives that are truly heard.
 - In order for everyone to feel safe sharing their perspective, truly having a voice, and being heard, we must all continuously confront our unconscious biases by identifying them ourselves, graciously accepting when they are identified for us, and doing the work to ensure our biases do not inform our conduct and decision-making.

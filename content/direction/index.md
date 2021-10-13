@@ -70,12 +70,13 @@ Within this overall product direction, individual product areas set their own go
 - [Code Intelligence](code-graph/code-intelligence/index.md)
 - [Code Insights](code-graph/code-insights/index.md)
 
-### Enablement
+### [Enablement](enablement/index.md)
 
 - [Delivery](enablement/delivery/index.md)
 - Dev Experience
 - [Frontend Platform](enablement/frontend-platform/index.md)
 - [Repo Management](enablement/repo-management/index.md)
+- [Engineering Education](enablement/engineering-education/index.md)
 
 ### Cloud
 
