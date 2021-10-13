@@ -49,7 +49,7 @@ The Handbook team is new, and up until now the Handbook has been owned by everyo
 
 During a Hackathon in Q3, huge strides were made by moving the Handbook from docsite to next.js. This will allow for easier development in the future, and within the Hackathon time frame allowed for adding new features like the "Contributers" section, and providing users a full preview of their changes.
 
-Much of Q3 was spent in discovery: learning what people like and don't like about the Handbook in its current state. Through early analysis using [Productboard](https://sourcegraph.productboard.com/feature-board/3424445-handbook), we believe improving navigation and the editing experience will have the highest impact to users. 
+Much of Q3 was spent in discovery: learning what people like and don't like about the Handbook in its current state. Through early analysis using [Productboard](https://sourcegraph.productboard.com/feature-board/3424445-handbook), we believe improving navigation and the editing experience will have the highest impact to users.
 
 ### Top customer, support, sales and marketing issues
 
@@ -73,8 +73,8 @@ The next six months are focused on better defining the Handbook as a product and
 #### FY22Q4
 
 - **Objective:** Finding content in the Handbook is intuitive and reliable.
-- **Why?** The Handbook is a source of truth at Sourcegraph, and it’s the primary resource for teammates, candidates and customers to learn more about the company. 
-- **How does this align with overall [product direction](../../index.md)** Enables all teammates at Sourcegraph to be more efficient and accelerate the time it takes to provide value to customers. 
+- **Why?** The Handbook is a source of truth at Sourcegraph, and it’s the primary resource for teammates, candidates and customers to learn more about the company.
+- **How does this align with overall [product direction](../../index.md)** Enables all teammates at Sourcegraph to be more efficient and accelerate the time it takes to provide value to customers.
   - **Key Result 1:** Reduce percentage of searches with no click throughs.
 - **How will this be measured?** Through insights already provided by Swiftype.
 
