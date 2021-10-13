@@ -14,7 +14,7 @@ Our mission is to provide the right technical foundations critical to the succes
 
 ### Three year vision
 
-> A frictionless experience developing and utilizing Sourcegraph, such that we are able to iterate Sourcegraph rapidly, in turn enabling customers to effortlessly experience the value Sourcegraph offers.
+> A frictionless experience developing and utilizing Sourcegraph, such that we can iterate on and release more product value rapidly, in turn enabling customers to experience the value Sourcegraph offers effortlessly.
 
 ### Ten year vision
 
