@@ -396,7 +396,7 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [oconvey@sourcegraph.com](mailto:oconvey@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/owenconvey/)
 - Owen was born and raised in England and has been residing in Barcelona since 2012. He spends a lot of time watching Rugby, playing with his young daughter and tinkering with his laptop. Prior to Sourcegraph, he was a manager at Help Scout and loves empowering and motivating autonomous engineering teams. His Achilles' heel is most definitely pizza.
 
-## Virginia Ulrich (she/her)
+## Virginia Ulrich (she/they)
 
 - Head of Customer Support
 - Portland, Oregon, United States 🇺🇸
