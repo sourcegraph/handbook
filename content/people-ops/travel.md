@@ -1,11 +1,11 @@
 # Company sponsored travel
 
-Sourcegraph is an [all-remote](../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.  
+Sourcegraph is an [all-remote](../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
 
 ## Travel Planning Guidelines
 
- - When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
-  - For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
+- When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
+- For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
 - All meetups are to remain completely optional for all attendees.
   - Due to the current circumstances of Covid-19, everyone is experiencing comfort on differing levels. It is important to honor boundaries around comfort during this time. For more information on adhering to proper Covid-19 protocols during your trip planning, please review the Sherpa feature in TripActions.
 - Use your best judgement and defer to local jurisdictions in determining the number of attendees.
