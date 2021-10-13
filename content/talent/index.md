@@ -5,10 +5,23 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 ## Talent Team Members
 
 - [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
-- [Devon Coords](../company/team/index.md#devon-coords-she-her), Senior Technical Recruiter, Team Lead
+
+Technical Recruiting Team
+
+- [Devon Coords](../company/team/index.md#devon-coords-she-her), Director, Technical Recruiting
   - Engineering
   - Product
   - Support
+- [Frey Andersson], Technical Recruiter
+  - Engineering
+- [Win Yu](https://handbook.sourcegraph.com/company/team#win-yu-hehis), Technical Talent Sourcer
+  - Talent research for the technical recruiting team
+- [Kemper Hamilton](https://handbook.sourcegraph.com/company/team#kemper-hamilton-sheher), Recruitment Operations Specialist
+  - Interview scheduling for technical recruiters
+  - Recruitment branding
+
+Corporate Recruiting Team
+
 - [Kelsey Nagel](../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
   - Marketing
   - Finance
@@ -18,10 +31,10 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Marija Petrovic](../company/team/index.md#marija-petrovic-she-her), Senior Sales Recruiter, Team Lead
   - Sales
   - Customer Engineering
+- [Grace Bohl](https://handbook.sourcegraph.com/company/team#grace-bohl-sheher), Sales Recruiter
+  - Sales
 - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
-  - Interview scheduling for all departments
-
-We are **hiring recruiters**! View our open positions [here](https://boards.greenhouse.io/sourcegraph91).
+  - Interview scheduling for corporate recruiters
 
 ## [Resources for Candidates](./resources_for_candidates.md)
 
