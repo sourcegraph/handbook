@@ -1569,7 +1569,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [simon.waterer@sourcegraph.com](mailto:simon.waterer@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/simonwaterer/)
 - Simon lives in Buckinghamshire near Oxford, though he grew up in Edinburgh. He likes most sports but especially cricket, rugby and F1. He lives with his wife Julie, cats Tabatha and Sadie and Willow the 1 year old sprocker spaniel. He loves spending time outdoors taking the dog for a walk, walking around with a bag of golf clubs - and one day maybe able to do both. He has worked across a range of technologies including object and NoSQL databses, high performance and grid computing.
 
-
 ## Adam Greenhalgh (he/him)
 
 - Marketing Operations Analyst
@@ -1586,4 +1585,3 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [david.sandy@sourcegraph.com](mailto:david.sandy@sourcegraph.com)
 - David spends his time playing video games, watching Netflix/Hulu, playing chess, MTG, reading World War II history and performing other mandatory nerd related activites.
   He lives with his fiance and their two cats: Pixel and Bing (after Bing Crosby -- not the search engine).
-
