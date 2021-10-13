@@ -53,6 +53,10 @@ _Need a little help on what to get? Here’s a few of our favorite things:_
 
 Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
+## Sending gifts via mail
+
+If you require a teammate's address to send a gift, please ask the teammate directly if they are comfortable sharing their address for gift purposes. (While People Ops and managers do have access to address information, it is considered confidential and just as with other information of sensitive nature, we are unable to share it as with others).
+
 _Happy celebrating!_
 
 ---
