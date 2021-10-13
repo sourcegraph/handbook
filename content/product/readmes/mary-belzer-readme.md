@@ -83,10 +83,6 @@ The ocean! It’s horrifying!
 
 Hot sauce on everything
 
-### My sun, moon, and rising signs
-
-Scorpio sun, Libra moon, Pisces rising
-
 ### My enneagram
 
 [Enneagram 2: The Helper](https://www.enneagraminstitute.com/type-2)
