@@ -59,7 +59,7 @@ Our [values](../company/values.md) are the principles and beliefs that help us a
 
 - Trying Sourcegraph (to prove it works and is valuable) is free and (if you want) self-service.
 - If your organization is getting value from Sourcegraph with a lot of users, our [pricing](https://about.sourcegraph.com/pricing) is designed so that we earn money from you. This lets us invest in improving our product.
-- All users at a given customer are on the same pricing tier. This is simpler than having users at different tiers and encourages us to build things that are broadly valuable.  
+- All users at a given customer are on the same pricing tier. This is simpler than having users at different tiers and encourages us to build things that are broadly valuable.
 
 ## One year vision
 
