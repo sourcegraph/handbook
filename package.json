@@ -9,7 +9,7 @@
     "netlify-build": "yarn run copy-assets && next build && next export && next-sitemap && yarn run generate-redirects",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "check-internal-links": "find ./content -name \\*.md -exec markdown-link-check --config .github/workflows/link-check-internal.json --quiet {} \\;",
+    "check-internal-links": "find ./content -name '*.md' |xargs -I {} -n 1 markdown-link-check --config .github/workflows/link-check-internal.json --quiet '{}' |grep -e '^FILE' -e 'Status:'",
     "check-all-links": "find ./content -name \\*.md -exec markdown-link-check --quiet {} \\;",
     "typecheck": "tsc -p .",
     "prettier": "prettier '**/{*.{js?(on),ts?(x),md,scss},.*.js?(on)}' --write --list-different",
