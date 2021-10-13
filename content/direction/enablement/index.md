@@ -38,7 +38,7 @@ As we broaden our reach, prospects and customers look to us to support a large v
 
 ### Enrich education and documentation systems
 
-Our company as well as user base is growing rapidly. We want to see all people in our ecosystem succeed and to do so we need enriched education and documentation systems.
+Our company, as well as our user base, is growing rapidly. We want to see all people in our ecosystem succeed, and to do so, we need enriched education and documentation systems.
 
 ### Improve our continuous integration pipeline
 
