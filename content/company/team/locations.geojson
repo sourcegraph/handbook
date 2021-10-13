@@ -1207,8 +1207,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.11263918876648,
-          44.93895393091371
+          -81.73553466796875,
+          41.38299120166604
+        ]
+      }
+    },    
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erika Heidi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.300700,
+          52.070499
         ]
       }
     }

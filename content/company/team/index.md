@@ -1552,3 +1552,19 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [erikaheidi](https://github.com/erikaheidi)
 - [erika.heidi@sourcegraph.com](mailto:erika.heidi@sourcegraph.com), [Twitter](https://twitter.com/erikaheidi), [LinkedIn](https://www.linkedin.com/in/erikaheidi/)
 - Erika is a Brazilian living in The Hague (Netherlands) with her husband and one daughter. With a background in Linux systems and software engineering, Erika is passionate about open source, online communities, and the intersections of art and code. Erika loves writing, teaching, and creating. Apart from coding, Erika enjoys tinkering with 3D printers, drawing and painting, and going for a bike ride when the weather is good.
+
+## Frey Andersson
+
+- Technical Recruiter
+- Tokyo, Japan 🇯🇵
+- GitHub: [LordFriccoFro](https://github.com/Lordfriccofro)
+- [frey.andersson@sourcegraph.com](mailto:frey.andersson@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/frey-andersson-781a082a//)
+- Frey has spent the past 10 years in Tokyo, Japan. Despite this he knows very little about manga and anime. He does love motorcycles however, specfically Japanese ones. Passionate about recuitment and matching the right people with the right roles. Spent most of his recuritment career with startups and fast growing companies.
+
+## Simon Waterer (he/him)
+
+- Senior Customer Engineer
+- London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+- GitHub: [simoncwaterer] (https://github.com/simoncwaterer)
+- [simon.waterer@sourcegraph.com](mailto:simon.waterer@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/simonwaterer/)
+- Simon lives in Buckinghamshire near Oxford, though he grew up in Edinburgh. He likes most sports but especially cricket, rugby and F1. He lives with his wife Julie, cats Tabatha and Sadie and Willow the 1 year old sprocker spaniel. He loves spending time outdoors taking the dog for a walk, walking around with a bag of golf clubs - and one day maybe able to do both. He has worked across a range of technologies including object and NoSQL databses, high performance and grid computing.
