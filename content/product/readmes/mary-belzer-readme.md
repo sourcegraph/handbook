@@ -89,4 +89,4 @@ Scorpio sun, Libra moon, Pisces rising
 
 ### My enneagram
 
-[Enneagram 8: The Challenger](https://www.enneagraminstitute.com/type-8)
+[Enneagram 2: The Helper](https://www.enneagraminstitute.com/type-2)
