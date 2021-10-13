@@ -50,3 +50,4 @@ When our CI pipeline breaks we need clear indications and rich observability of 
 - [Delivery](../../engineering/enablement/delivery/index.md) - [Direction page](delivery/index.md)
 - [Dev Experience](../../engineering/enablement/dev-experience/index.md)
 - [Frontend Platform](../../engineering/enablement/frontend-platform/index.md) - [Direction page](frontend-platform/index.md)
+- [Handbook Direction Page](handbook/index.md)
