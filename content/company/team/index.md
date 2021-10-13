@@ -1576,4 +1576,4 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [david-sandy](https://github.com/david-sandy)
 - [david.sandy@sourcegraph.com](mailto:david.sandy@sourcegraph.com)
 - David spends his time playing video games, watching Netflix/Hulu, playing chess, MTG, reading World War II history and performing other mandatory nerd related activites.
-He lives with his fiance and their two cats: Pixel and Bing (after Bing Crosby -- not the search engine).
+  He lives with his fiance and their two cats: Pixel and Bing (after Bing Crosby -- not the search engine).
