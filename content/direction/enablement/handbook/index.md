@@ -16,7 +16,7 @@ Quicklinks:
 
 The Handbook serves as a [source of truth](../../../communication#sources-of-truth.md) for company policies, team process, strategy and more. We live our value of [being open and transparent](../../../company/values.md#open-and-transparent) by keeping the Handbook public.
 
-**We help Sourcegraph teammates** find and document information quickly by providing a smooth navigation experience and an accessible contribution process. An easy-to-use Handbook is essential for teammates to be efficient in their daily work and engaging with customers.
+**We help Sourcegraph teammates** find and document information quickly by providing a smooth navigation experience and an accessible contribution process. An easy-to-use Handbook is essential for teammates to be efficient in their daily work and while engaging with customers.
 
 **We help Sourcegraph candidates** learn more about the company during their application and interview process by keeping our Handbook public.
 
@@ -45,11 +45,11 @@ The Handbook serves as a [source of truth](../../../communication#sources-of-tru
 
 ## Where we are now
 
-The Handbook team is new, and up until now the Handbook has been owned by everyone. As a result, the product is relatively immature and needs defining. Features are relatively basic, and it functions similarly to a simple wiki. Above all, we need to start treating the Handbook like any other product at Sourcegraph. With dedicated focus, we believe the Handbook can remain a pillar of the Sourcegraph culture and grow in value as a tool for internal and external stakeholders.
+The Handbook team is new, and up until now the Handbook has been owned by everyone. As a result, the product is relatively immature and needs defining. Features are basic, and it functions similarly to a simple wiki. With dedicated focus, we believe the Handbook can remain a pillar of the Sourcegraph culture and grow in value as a tool for internal and external stakeholders.
 
-During a Hackathon in Q3, huge strides were made by moving the Handbook from docsite to next.js. This will allow for easier development in the future, and within the Hackathon time frame allowed for adding new features like the "Contributers" section, and providing users a full preview of their changes.
+During a Hackathon in FY22Q3, huge strides were made by refactoring the Handbook. This will allow for easier development in the future, and within the Hackathon time frame allowed for adding new features like the "Contributers" section, and providing users a full preview of their changes.
 
-Much of Q3 was spent in discovery: learning what people like and don't like about the Handbook in its current state. Through early analysis using [Productboard](https://sourcegraph.productboard.com/feature-board/3424445-handbook), we believe improving navigation and the editing experience will have the highest impact to users.
+Much of FY22Q3 was spent in discovery: learning what people like and don't like about the Handbook in its current state. Through early analysis using [Productboard](https://sourcegraph.productboard.com/feature-board/3424445-handbook), we believe improving navigation and the editing experiences will have the highest impact to users.
 
 ### Top customer, support, sales and marketing issues
 
@@ -66,7 +66,7 @@ The only analytics currently being tracked regularly are around search, via (Swi
 
 ## Strategy and Plans
 
-The next six months are focused on better defining the Handbook as a product and team, as well as enhancing existing functionality like discovering and editing content.
+The next three months are focused on better defining the Handbook as a product and team, as well as enhancing existing functionality like discovering and editing content.
 
 ### Goals
 
@@ -87,10 +87,14 @@ The next six months are focused on better defining the Handbook as a product and
 - Onboarding
   - WIP
 - Support
+  -WIP
 
 ### What's next and why
 
-WIP
+- Home Page
+- Evaluate search providor
+- Enhance Handbook support (group and office hours)
+- Update onboarding
 
 ### What we're not working on & why
 
