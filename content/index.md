@@ -13,7 +13,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [All-remote](company/remote/index.md)
 - [Asynchronous communication](company/asynchronous-communication.md)
-- [Strategy](company/strategy.md)
+- [Strategy](company/strategy/index.md)
 - [Goals](company/goals/index.md)
 - [Team](company/team/index.md)
   - [Org chart](company/team/org_chart.md)
@@ -34,7 +34,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Product](product/index.md)
 
-- [Direction](direction/index.md)
+- [Strategy](company/strategy/index.md)
 - [Product](product/index.md)
   - [Product Management](product/product_management/index.md)
   - [Product Design](product/design/index.md)

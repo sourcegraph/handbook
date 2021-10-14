@@ -4,7 +4,7 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 The Product team strives to make the following true:
 
-- The team is working on the most important things (listed in the [product roadmap](./index.md#roadmap)) to execute on [our strategy](../direction/index.md) that is moving us forward on [our vision](../company/strategy.md).
+- The team is working on the most important things (listed in the [product roadmap](./index.md#roadmap)) to execute on [our strategy](../company/strategy/index.md).
 - Each teammate has the customer and product context needed (about customer problems, likely future priorities, possible solutions, etc.) to perform their work effectively.
 - The product vision and roadmap are communicated well to teammates and everyone outside Sourcegraph.
 
@@ -14,7 +14,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap
 
-The roadmap for the product organization as well as individual teams can be found on the [Sourcegraph direction page](../direction/index.md).
+The product strategy for the company as well as individual teams can be found on the [Sourcegraph strategy page](../company/strategy/index.md), and contains where we're headed as well as what we're working on next. There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available.
 
 ## Metrics
 
@@ -35,7 +35,7 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 
 ### ✅ Improve process for documenting product strategy (DONE)
 
-Our current [product goals pages](index.md#roadmap) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
+Our current [product goals pages](index.md#roadmap) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product strategy components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
 
 - Owner: Jason
 - [Working Document](https://docs.google.com/document/d/15H6PeCF9c890TqQBc3gaDSk-GDE42SPzhokAlU5Lu8M/edit?usp=sharing)
