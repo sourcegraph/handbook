@@ -1558,7 +1558,7 @@ For help adding yourself to this page, check out [these instructions](../../edit
 
 - Senior Customer Engineer
 - London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-- GitHub: [simoncwaterer] (https://github.com/simoncwaterer)
+- GitHub: [simoncwaterer](https://github.com/simoncwaterer)
 - [simon.waterer@sourcegraph.com](mailto:simon.waterer@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/simonwaterer/)
 - Simon lives in Buckinghamshire near Oxford, though he grew up in Edinburgh. He likes most sports but especially cricket, rugby and F1. He lives with his wife Julie, cats Tabatha and Sadie and Willow the 1 year old sprocker spaniel. He loves spending time outdoors taking the dog for a walk, walking around with a bag of golf clubs - and one day maybe able to do both. He has worked across a range of technologies including object and NoSQL databses, high performance and grid computing.
 
