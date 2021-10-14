@@ -4,10 +4,6 @@ Our README expands on our profile in [the company team directory](../company/tea
 
 - Aimee [README](aimee-readme.md)
 
-
-
-
-
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 
 - Individual view on customer engineering
