@@ -4,10 +4,9 @@ We are changing how we do company meeting in Oct 2021. We don't yet have all the
 
 Update shared on Slack:
 
-> We’re over 230 people now and the weekly company meeting is due for a refresh to give a more engaging look at what’s going on and how we're doing. Starting Tue Oct 26 at 3pm UTC we’re moving the meeting to a 45 mins bi-weekly cadence (yes, it’ll be on Tuesdays moving forward so more people are able to make it and to give teams more time to get the latest updates at the start of the week). Since we’re moving to every other week, we won’t have a company meeting next week. 
+> We’re over 230 people now and the weekly company meeting is due for a refresh to give a more engaging look at what’s going on and how we're doing. Starting Tue Oct 26 at 3pm UTC we’re moving the meeting to a 45 mins bi-weekly cadence (yes, it’ll be on Tuesdays moving forward so more people are able to make it and to give teams more time to get the latest updates at the start of the week). Since we’re moving to every other week, we won’t have a company meeting next week.
 >
 > You can expect a bit of a change of content too — we’ll be highlighting things like customer stories, in-progress product demos, investor and customer guest appearances, and marketing campaigns. If you have any feedback or questions, let me know!
-
 
 ## Recordings
 
