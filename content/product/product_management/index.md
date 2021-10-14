@@ -14,11 +14,11 @@ This page contains information that is relevant for how to do well at your job a
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
 
-### Direction page updates
+### Strategy page updates
 
-We use [direction pages](../../direction/index.md#per-area-direction-pages) to communicate where each of our product teams is headed, for the areas of the product that they work on. Newly created teams should begin documenting the scope of their team as well as their mission, vision, and more by creating one of these pages as part of the process of forming.
+We use [strategy pages](../../company/strategy/index.md#per-area-strategy-pages) to communicate where each of our product teams is headed, for the areas of the product that they work on. Newly created teams should begin documenting the scope of their team as well as their mission, vision, and more by creating one of these pages as part of the process of forming.
 
-All in-place product engineering teams should have their own direction page, and should update it on a monthly cadence (at the same time the [PMM roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) is updated) by proposing a new pull request to update their content. Everyone on the team should be invited to contribute, and the update should be shared with important stakeholders. This helps us keep everyone aligned, and ensures we have a single source of truth for our product directions. The specific day of the month that the team updates the doc is up to the team internally to decide, the important part is that it is never more than a month out of date.
+All in-place product engineering teams should have their own strategy page, and should update it on a monthly cadence (at the same time the [PMM roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) is updated) by proposing a new pull request to update their content. Everyone on the team should be invited to contribute, and the update should be shared with important stakeholders. This helps us keep everyone aligned, and ensures we have a single source of truth for our product directions. The specific day of the month that the team updates the doc is up to the team internally to decide, the important part is that it is never more than a month out of date.
 
 ## Glossary
 
@@ -103,7 +103,7 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 
 ## Tools/Templates
 
-- [Direction page template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/direction_template.md) - a template for a product direction page, covering vision, strategy and short term direction ([example](direction_template.md))
+- [Strategy page template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/strategy_template.md) - a template for a product strategy page, covering vision, strategy and short term direction ([example](strategy_template.md))
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../bizops/amplitude.md)
