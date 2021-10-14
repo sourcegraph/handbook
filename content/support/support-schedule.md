@@ -16,7 +16,7 @@ _Note: we can only have 3-4 folks with the same focus day. If you don't see the 
 | ----------- | ----------- | ------------- | ------------- | --------- |
 | Adeola      | 10am - 6pm  | 14:00 - 22:00 | 7am - 3pm     | Friday    |
 | Alex        | 9am - 5pm   | 13:00 - 21:00 | 6am - 2pm     | Monday    |
-| Amber       | 9am - 5pm   | 15:00 - 23:00 | 8am - 4pm     | TBA       |
+| Amber       | 9am - 5pm   | 15:00 - 23:00 | 8am - 4pm     | Monday    |
 | Beatrix     | 7am - 3pm   | 14:00 - 22:00 | 7am - 3pm     | Wednesday |
 | Ben         | 9am - 5pm   | 14:00 - 22:00 | 7am - 3pm     | Friday    |
 | Carl        | 6am - 2pm   | 10:00 - 18:00 | 3am - 11am    | Thursday  |
