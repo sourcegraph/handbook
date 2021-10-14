@@ -30,9 +30,10 @@ Should you have questions on any of these systems, you can post in [#people-ops]
 
 #### Org/role changes
 
-When big changes occur we cannot do it in bulk, so it’s important for managers to share with us documents proactively, before the change is live so the changes are effective by the announcement date, otherwise we risk delays in the changes being reflected properly. 
+When big changes occur we cannot do it in bulk, so it’s important for managers to share with us documents proactively, before the change is live so the changes are effective by the announcement date, otherwise we risk delays in the changes being reflected properly.
 
 We must update BambooHR whenever there is a change in:
+
 - Title
 - Manager
 - Role
@@ -66,7 +67,6 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 These are automatic, so they will be set to the current manager of the new teammate on their 30/60/90 days marks. If there’s a change in the structure, it’s important to let [People Ops know]() who the person doing the feedback with the new teammate will be. This applies to redistributing (like changing managers) or when a new manager for the team is hired.
 
-
 ### Process Street
 
 [Process Street](https://app.process.st/login) is the system that hosts our onboarding and offboarding checklists and tasks. As a manager, you will be tagged in important tasks within these checklists to set your direct reports up for success, and it will be your responsibility to ensure all necessary tasks assigned to you are completed in a timely manner to ensure a smooth onboarding and offboarding.
@@ -77,9 +77,9 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 #### Org/role changes
 
-Process Street allows users to use conditional logic - we hide or show content depending on a person’s responsibilities, title, role, and/or start date, so changes to any of these mean that Process Street needs to be updated. This allows new teammates to view their onboarding checklist properly, instead of missing their role-specific onboarding or being served the wrong type of onboarding checklist. 
+Process Street allows users to use conditional logic - we hide or show content depending on a person’s responsibilities, title, role, and/or start date, so changes to any of these mean that Process Street needs to be updated. This allows new teammates to view their onboarding checklist properly, instead of missing their role-specific onboarding or being served the wrong type of onboarding checklist.
 
-Managers assigned to teammates also need to be updated and sometimes even the content needs to be too. 
+Managers assigned to teammates also need to be updated and sometimes even the content needs to be too.
 
 ### Roots
 
@@ -108,6 +108,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 - **Leveling and calibration:** it's integrated with BambooHR, so you are able to view your direct reports compensation against our current bands. It visualizes the compensation band data to easily identify discrepancies and trends.
 
 ### Other
+
 Other tools that need to be updated when there is an org change (including managers, tiles, and more) are:
 
 - **General tools - Tech Ops**
@@ -123,13 +124,13 @@ Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the inform
 
 When to complete this form?
 
-* If someone in your team has a change in: 
-    * title 
-    * compensation 
-    * manager
-    * becomes a manager.
-* If someone in your team is changing to a different team.
-* If you are planning to restructure your team or org.
-* If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change).
+- If someone in your team has a change in:
+  - title
+  - compensation
+  - manager
+  - becomes a manager.
+- If someone in your team is changing to a different team.
+- If you are planning to restructure your team or org.
+- If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change).
 
 Please complete this [Google form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the changes that are happening. If you have any questions, please contact #people-ops in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
