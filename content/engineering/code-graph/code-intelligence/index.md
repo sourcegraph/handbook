@@ -32,9 +32,9 @@ To be the point of discovery for the knowledge graph for all source code.
 
 Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights, and batch changes.
 
-## [Goals](../../../direction/code-graph/code-intelligence/index.md)
+## [Goals](../../../company/strategy/code-graph/code-intelligence/index.md)
 
-See [goals and priorities](../../../direction/code-graph/code-intelligence/index.md)
+See [goals and priorities](../../../company/strategy/code-graph/code-intelligence/index.md)
 
 ## Overview
 
