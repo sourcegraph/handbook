@@ -60,12 +60,36 @@ TODO
 
 > ⚠️ Please see below in [Strategy and plans](#strategy-and-plans) for more information on which problems are actually in scope of the team.
 
-- Monorepo support
-  - **Problem:** A major priority is to start supporting repositories that are massive in scale. Today, this does not work simply because the machines take too long to process unindexed searches, even with a MASSIVE machine.
-- [Phabricator support](https://github.com/sourcegraph/sourcegraph/issues/25111)
-  - **Problem:** Phabricator support within Sourcegraph was never properly implemented, resulting in limited support.
-- [Bitbucket Cloud permission syncing](https://github.com/sourcegraph/sourcegraph/issues/19782)
-  - **Problem:** Atlassian are ending support for BitBucket Server and staring moving all customers to the Cloud. But Sourcegraph doesn't currently support native permission syncing for BitBucket Cloud.
+Note that these are order by approximate known revenue impacted - but that the figures are likely not to be representive of the total value, and so the order in which these get address may not correlate with the order here.
+
+### Perforce support
+
+- **Approximate revenue impacted:** $1.6m
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkT1nEAF/view)
+
+### Gerrit Permissions syncing
+
+- **Approximate revenue impacted:** $110k
+- **Problem:** Lack of support for Gerrit permissions
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000Il6IFEAZ/view)
+
+### [Phabricator support](https://github.com/sourcegraph/sourcegraph/issues/25111)
+
+- **Approximate revenue impacted:** $100k
+- **Problem:** Phabricator support within Sourcegraph was never properly implemented, resulting in limited support.
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxK8EAJ/view)
+
+### [Bitbucket Cloud permission syncing](https://github.com/sourcegraph/sourcegraph/issues/19782)
+
+- **Approximate revenue impacted:** $90k
+- **Problem:** Atlassian are ending support for BitBucket Server and staring moving all customers to the Cloud. But Sourcegraph doesn't currently support native permission syncing for BitBucket Cloud.
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxMkEAJ/view)
+
+### Monorepo support
+
+- **Approximate revenue impacted:** $80k
+- **Problem:** A major priority is to start supporting repositories that are massive in scale. Today, this does not work simply because the machines take too long to process unindexed searches, even with a MASSIVE machine.
+- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxLlEAJ/view)
 
 # Strategy and plans
 
@@ -97,12 +121,15 @@ Note that the time periods are rolling time periods and the plans here are revie
 
 - **Current status:** In progress
 - **Expected effort:** <5% team time
+- **Why:** Monorepos are commonplace but exert a huge toll on systems like ours - so much so that customers feel a significant ammount of pain and with
 - Most of the previously considered work actually resides with other teams, so our role in this will largely be support.
 
 #### GitServer HA
 
 - **Current status:** In progress
 - **Expected effort:** ~50% team time
+- **Why:** Code host connectivity, scalability and reliability is at the heart of our product, underpinning literally all other features. As we scale the size of customers we’re trying to win and delight, we cannot avoid tactical work to expand our functional coverage (which code hosts we support and how completely), but we also need to ensure Sourcegraph can handle the current and future challenges that the largest customers will throw at it with regards to the size of their repos, number of repos and performance required.
+
 - This is partially in aid of monorepo support, and partly system resilience.
 - More information and problem context available [here](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#).
 
@@ -115,6 +142,7 @@ Note that the time periods are rolling time periods and the plans here are revie
 
 - **Current status:** In progress
 - **Expected effort:** ~10% team time
+- **Why:** Support our largest customers in a robust and reliable way, no matter how many repos and what size.
 
 - [x] Support Perforce wildcard permission syncing (completed by the Distribution team - [docs](https://docs.sourcegraph.com/admin/repo/perforce#wildcards))
 - [ ] Improved git-p4 repo syncing performance
@@ -130,18 +158,19 @@ Continued from [above](#gitserver-ha)
 
 **What:**
 
-1. Better support for monorepos, likely through better utilisation of ability to replicate or shard monorepos across multiple GitServer instances within Sourcegraph
+1. Better support for monorepos, likely through better utilization of ability to replicate or shard monorepos across multiple GitServer instances within Sourcegraph
 
 **Why:**
-Support our largest customers in a robusy and reliable way, no matter how many repos and what size.
+Support our largest customers in a robust and reliable way, no matter how many repos and what size.
 
 #### Gerrit Permissions syncing
 
 **What:**
-Gerrit supports permissions more granular than just repo-level. Since that's all that's currently supported in Sourcegraph for any other code host<sup>1</sup>, we may stop there, but this depends on ongoing research about what customers need from the support.
+Gerrit supports permissions more granular than just repo-level. Since this is needed to properly (in a long term way) support Perforce too, we're expecting to do work to change our internal model to support more granualr permissions, then add Gerrit support properly on top of this.
 
 **Why:**
-Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246) - but still [confirming](https://github.com/sourcegraph/sourcegraph/issues/23563) the nuances of the support needed. Currently investigating the value to other customers who are known Gerrit users, and the depth of support needed.
+Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246).
+Currently [investigating](https://github.com/sourcegraph/sourcegraph/issues/23563) the value to other customers who are known Gerrit users, and the depth of support needed.
 
 <sup>1</sup>(With the exception of Perforce which utilizes a hack where directories with more graunlar permissions appear as repos within Sourcegraph).
 

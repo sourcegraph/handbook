@@ -511,19 +511,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Katerina Nikolova"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.06192,
-          37.90176
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Dudley Nostrand"
       },
       "geometry": {
@@ -1031,6 +1018,7 @@
       }
     },
     {
+
       "type": "Feature",
       "properties": {
         "name": "Yink Teo"
@@ -1160,19 +1148,19 @@
         ]
       }
     },
-
-    { "type": "Feature",
+    {
+      "type": "Feature",
       "properties": {
         "name": "Tamar Joyeux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.402641,
+          45.585678
+        ]
+      }
     },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        -122.402641,
-        45.585678
-       ]
-     }
-   },
     {
       "type": "Feature",
       "properties": {
@@ -1198,7 +1186,43 @@
           41.38299120166604
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "David Sandy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.73553466796875,
+          41.38299120166604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erika Heidi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3007,
+          52.070499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name" :"Adam Greenhalgh"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.82674407958983,
+          40.721502075213955
+        ]
+      }
     }
   ]
-
 }
