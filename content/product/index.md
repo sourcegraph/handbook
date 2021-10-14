@@ -14,7 +14,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap
 
-The roadmap for the product organization as well as individual teams can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
+The product strategy for the company as well as individual teams can be found on the [Sourcegraph strategy page](../company/strategy/index.md), and contains where we're headed as well as what we're working on next. There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available.
 
 ## Metrics
 
