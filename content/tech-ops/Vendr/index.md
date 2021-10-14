@@ -3,9 +3,7 @@
 Vendr will serve two functions for us:
 
 - A portal to store details about our Saas contracts (expiration dates, costs, contacts, etc)
-- A trusted partner who will provide us valuable information about our existing and future suppliers and ensure that we are getting the advantageous pricing and terms
-
-We hope that by partnering with Vendr we will be able to continue to encourage our teams to buy the systems they need while also providing visibility into our tech stack from a process and cost savings perspective.
+- A trusted partner who will provide valuable insights into our Saas suppliers and ensure that we are getting the advantageous pricing and terms
 
 Why we teamed up with a procurement partner in 2021:
 
@@ -23,9 +21,9 @@ What we hope to achieve through a partnership with Vendr:
 
 What will Vendr do for us:
 
-- New SaaS contract support
-  - **Negotiations**: A Vendr Executive Buyer negotiates this deal on Sourcegraph’s behalf directly with the supplier. This includes routing contract components to Sourcegraph Legal, Security, and Finance for sign off
-- **Background support**: Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
+- SaaS contract support
+  - **Negotiations**: A Vendr Executive Buyer negotiates on Sourcegraph’s behalf directly with the supplier. This includes routing contract components to Sourcegraph Legal, Security, and Finance for sign off
+  - ***Background support**: Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
 - **Renewal reminders** (90 - 120 days before expiration)
 - **Competitive market intelligence**
 
@@ -48,7 +46,7 @@ When to reach out to Vendr:
 - Upgrading mid-term with a significant jump in cost
 - Renewing an existing software (over $5K) that hasn’t yet been negotiated by Vendr
 
-##Types of Vendr Support
+## Types of Vendr Support
 
 - Supplier facing negotiations
 - Background negotiation support
