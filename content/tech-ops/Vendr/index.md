@@ -23,7 +23,7 @@ What will Vendr do for us:
 
 - SaaS contract support
   - **Negotiations**: A Vendr Executive Buyer negotiates on Sourcegraph’s behalf directly with the supplier. This includes routing contract components to Sourcegraph Legal, Security, and Finance for sign off
-  - ***Background support**: Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
+  - **\*Background support**: Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
 - **Renewal reminders** (90 - 120 days before expiration)
 - **Competitive market intelligence**
 
