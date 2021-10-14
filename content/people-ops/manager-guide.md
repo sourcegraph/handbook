@@ -2,7 +2,7 @@
 
 As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your direct reports in order to better support them. This page is intended to be a resource to help you navigate these different accounts, which hold important and sensitive information about your teams and guide you on how to notify team changes. In these accounts you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
 
-It is also important to bring light to all the processes that are affected and we have to update when there is a change in the org chart. The goal is to help teammates, particularly managers, understand everything that happens behind the scenes and the importance of notifying People Ops with enough time. If you know there is a change in the org chart happening soon, please let People Ops know so we can prepare in advance. Go to the [How to notify People Ops of an org/role change section](#how-to-notify-people-ops-of-a-change) for more information.
+It is also important to bring light to all the processes that are affected and we have to update when there is a change in the org chart. The goal is to help teammates, particularly managers, understand everything that happens behind the scenes and the importance of notifying People Ops with enough time. If you know there is a change in the org chart happening soon, please let People Ops know so we can prepare in advance. Go to the [How to notify People Ops of an org/role change section](#how-to-notify-people-ops-of-an-org-and-role-change) for more information.
 
 Should you have questions on any of these systems, you can post in [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) on Slack or reach out to the appropriate contact in our [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
 
@@ -28,7 +28,7 @@ Should you have questions on any of these systems, you can post in [#people-ops]
   - **Anniversaries:** [https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86](https://sourcegraph.bamboohr.com/feeds/feed.php?id=ba40afc0f26a932ee6759039ff63ec86)
   - **Birthdays:** [https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665](https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665)
 
-#### Org/role changes
+#### Impact of org and role changes
 
 When big changes occur we cannot do it in bulk, so it’s important for managers to share with us documents proactively, before the change is live so the changes are effective by the announcement date, otherwise we risk delays in the changes being reflected properly.
 
@@ -57,7 +57,7 @@ Note: if you are a new manager and require access to past review history for you
 - [Impact review resources](https://handbook.sourcegraph.com/people-ops/impact-reviews#resources-for-all-teammates-and-managers)
 - [Navigating Lattice as a manager](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
 
-#### Org/role changes
+#### Impact of org and role changes
 
 **360 Impact Review Cycles**
 
@@ -75,7 +75,7 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 - [Onboarding checklist](https://about.sourcegraph.com/handbook/people-ops/onboarding)
 
-#### Org/role changes
+#### Impact of org and role changes
 
 Process Street allows users to use conditional logic - we hide or show content depending on a person’s responsibilities, title, role, and/or start date, so changes to any of these mean that Process Street needs to be updated. This allows new teammates to view their onboarding checklist properly, instead of missing their role-specific onboarding or being served the wrong type of onboarding checklist.
 
@@ -118,7 +118,7 @@ Other tools that need to be updated when there is an org change (including manag
 - **Assemble**
 - **Expensify**
 
-## How to notify People Ops of a change
+## How to notify People Ops of an org and role change
 
 Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the information required. This will notify People Ops of any changes you’ll make.
 
