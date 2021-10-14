@@ -56,7 +56,7 @@ caddy:
   volumes:
     - 'caddy:/caddy-storage'
     #
-    # Comment out the following line when using HTTPS with either Let's Encrypt or custom certficates
+    # Comment out the following line when using HTTPS with either Let's Encrypt or custom certificates
     # - '../caddy/builtins/http.Caddyfile:/etc/caddy/Caddyfile'
     #
     # Uncomment the following line when using HTTPS with Let's Encrypt's staging environment
@@ -69,10 +69,10 @@ caddy:
     # Uncomment the following line when using HTTPS with custom certificates
     # - '../caddy/builtins/https.custom-cert.Caddyfile:/etc/caddy/Caddyfile'
     #
-    # Uncomment / update the following line when using HTTPS with custom certficates
+    # Uncomment / update the following line when using HTTPS with custom certificates
     # - '/LOCAL/CERT/PATH.pem:/sourcegraph.pem'
     #
-    # Uncomment / update the following line when using HTTPS with custom certficates
+    # Uncomment / update the following line when using HTTPS with custom certificates
     # - '/LOCAL/KEY/PATH.key:/sourcegraph.key'
   ports:
     - '0.0.0.0:80:80'
