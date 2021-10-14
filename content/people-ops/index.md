@@ -74,6 +74,7 @@ WIP
 This section will soon contain [training resources for our managers](https://handbook.sourcegraph.com/company/goals/2022_q3#people-ops) to help them understand how to develop their teams, give coaching and feedback, and navigate the challenging situations that come up in teams. More coming soon!
 
 - [Manager accounts guide](manager-guide.md)
+  -  [How to notify People Ops of an org/role change section](manager-guide.md#how-to-notify-people-ops-of-a-change)
 
 ## Other policies
 
