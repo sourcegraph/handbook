@@ -2,7 +2,7 @@
 
 As a manager you will have manager-specific permissions for several different accounts, which will allow you access to specific information about your direct reports in order to better support them. This page is intended to be a resource to help you navigate these different accounts, which hold important and sensitive information about your teams and guide you on how to notify team changes. In these accounts you will find information on your team’s compensation, compensation bands, impact reviews, birthdays, PTO history, and more.
 
-It is also important to bring light to all the processes that are affected and we have to update when there is a change in the org chart. The goal is to help teammates, particularly managers, understand everything that happens behind the scenes and the importance of notifying People Ops with enough time. If you know there is a change in the org chart happening soon, please let People Ops know so we can prepare in advance. Go to the [How to notify People Ops of an org/role change section](manager-guide#how-to-notify-People-Ops-of-a-change) for more information.
+It is also important to bring light to all the processes that are affected and we have to update when there is a change in the org chart. The goal is to help teammates, particularly managers, understand everything that happens behind the scenes and the importance of notifying People Ops with enough time. If you know there is a change in the org chart happening soon, please let People Ops know so we can prepare in advance. Go to the [How to notify People Ops of an org/role change section](#how-to-notify-people-ops-of-a-change) for more information.
 
 Should you have questions on any of these systems, you can post in [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) on Slack or reach out to the appropriate contact in our [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0).
 
@@ -61,11 +61,11 @@ Note: if you are a new manager and require access to past review history for you
 
 **360 Impact Review Cycles**
 
-These are automatic, so they will be set to the current manager of the new teammate every 6 months after their start date. If there’s a change in the structure, it’s important to let [People Ops know]() who the manager doing the feedback with the new teammate will be. This applies to redistributing (like changing managers) or when a new manager for the team is hired.
+These are automatic, so they will be set to the current manager of the new teammate every 6 months after their start date. If there’s a change in the structure, it’s important to let [People Ops know](#how-to-notify-people-ops-of-a-change) who the manager doing the feedback with the new teammate will be. This applies to redistributing (like changing managers) or when a new manager for the team is hired.
 
 **Onboarding Feedback Milestones**
 
-These are automatic, so they will be set to the current manager of the new teammate on their 30/60/90 days marks. If there’s a change in the structure, it’s important to let [People Ops know]() who the person doing the feedback with the new teammate will be. This applies to redistributing (like changing managers) or when a new manager for the team is hired.
+These are automatic, so they will be set to the current manager of the new teammate on their 30/60/90 days marks. If there’s a change in the structure, it’s important to let [People Ops know](#how-to-notify-people-ops-of-a-change) who the person doing the feedback with the new teammate will be. This applies to redistributing (like changing managers) or when a new manager for the team is hired.
 
 ### Process Street
 
