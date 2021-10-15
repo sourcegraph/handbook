@@ -1,6 +1,6 @@
 # Search team completed goals
 
-This page records goals completed by the Search team historically. See also our [current goals](../../../direction/code-graph/search/index.md).
+This page records goals completed by the Search team historically. See also our [current goals](../../../company/strategy/code-graph/search/index.md).
 
 - [**FY-2021**](#FY-2021)
   - [FY-21-Q3](#FY-20-Q3)
