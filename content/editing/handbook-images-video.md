@@ -1,4 +1,4 @@
-## Adding Images or Video to the Handbook
+# Adding Images or Video to the Handbook
 
 ## Images
 
