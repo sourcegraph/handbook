@@ -1578,11 +1578,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [david.sandy@sourcegraph.com](mailto:david.sandy@sourcegraph.com)
 - David spends his time playing video games, watching Netflix/Hulu, playing chess, MTG, reading World War II history and performing other mandatory nerd related activites.
   He lives with his fiance and their two cats: Pixel and Bing (after Bing Crosby -- not the search engine).
-  
+
 ## DeVon Thompson (she/her)
 
-- Customer Engineer 
-- Baltimore, MD, US 🇺🇸 
+- Customer Engineer
+- Baltimore, MD, US 🇺🇸
 - GitHub: [Deethompson](https://github.com/deethompson)
 - [devon.thompson@sourcegraph](mailto:devon.thompson@sourcegraph.com)
-- DeVon is a native of the Baltimore/D.C. metropolitan area. Before joining Sourcegraph she worked as a Support Engineer. DeVon was previously a biomedical laboratory technician and Project Manager before moving into tech. DeVon loves being active whether running, biking, swimming and is a fan of the Washington Wizards and Baltimore Ravens. She loves to read and is passionate about travel and movies. DeVon also loves to help people who are interested in making a career in technology. 
+- DeVon is a native of the Baltimore/D.C. metropolitan area. Before joining Sourcegraph she worked as a Support Engineer. DeVon was previously a biomedical laboratory technician and Project Manager before moving into tech. DeVon loves being active whether running, biking, swimming and is a fan of the Washington Wizards and Baltimore Ravens. She loves to read and is passionate about travel and movies. DeVon also loves to help people who are interested in making a career in technology.
