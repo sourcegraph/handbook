@@ -28,7 +28,7 @@ This page documents our current org structure.
       - [Quinn Keast](../company/team/index.md#quinn-keast-he-him), Product Designer - [Core application](../engineering/core-application/index.md) and [Search (Code monitoring & contexts)](../engineering/code-graph/search/index.md)
       - [Sara Lee](../company/team/index.md#sara-lee-she-her), Product Designer - [Code intel](../engineering/code-graph/code-intelligence/index.md), [Extensibility](../engineering/cloud/extensibility/index.md)
 
-      - M.K. starting 2021-10-06
+      - [Marisa Kanemoto](../company/team/index.md#marisa-kanemoto-she-her), Product Designer - [Search](../engineering/code-graph/search/index.md)
 
   - [Technical Writing](roles/index.md#technical-writer)
     - To be hired Head of Technical Writing. Christina acting lead until then.
