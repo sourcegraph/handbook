@@ -55,7 +55,7 @@ When to reach out to Vendr:
 
 ## How-to steps
 
-[Loging in & privileges](..vendr/login.md)
-[Reviewing your tech stack](..vendr/tech_stack_review.md) 
-[Adding an supplier to the portal](..vendr/adding_supplier.md)
-[Submitting an intake form](..vendr/intake_form.md)
+- [Loging in & privileges](..vendr/login.md)
+- [Reviewing your tech stack](..vendr/tech_stack_review.md)
+- [Adding an supplier to the portal](..vendr/adding_supplier.md)
+- [Submitting an intake form](..vendr/intake_form.md)
