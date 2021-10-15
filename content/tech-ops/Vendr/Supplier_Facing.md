@@ -11,7 +11,7 @@ What you will need to get started:
 - You have at least 15 business days prior to your deadline
 - Vendr needs this much time to handle the negotiations and route to our Legal, Security, and Finance teams for approval and sign off of additional contract components
 
-If you have all this then you can submit an **intake form** (link) through the portal.
+If you have all this then you can submit an [intake form](..vendr/intake_form) through the portal.
 
 Process: This chart is intended to show who is responsible for completing each task when negotiating contracting using a Vendr Executive Buyer
 
