@@ -10,9 +10,9 @@ The Developer Experience team (part of the [Enablement](../index.md) org) is a t
   - [JH Chabran](../../../company/team/index.md#jh-chabran-he-him)
   - [Robert Lin](../../../company/team/index.md#robert-lin)
 
-## Direction
+## Strategy
 
-See the [Developer Experience team direction](../../../direction/enablement/dev-experience/index.md) to learn about our vission, mission, guiding principles, and overall direction.
+See the [Developer Experience team strategy](../../../company/strategy/enablement/dev-experience/index.md) to learn about our vission, mission, guiding principles, and overall direction.
 
 ## Responsibilities
 
@@ -45,7 +45,7 @@ To collaborate, we use the following:
 
 ### Work allocation
 
-We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../direction/enablement/dev-experience/index.md), so as a rule of thumb:
+We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../company/strategy/enablement/dev-experience/index.md), so as a rule of thumb:
 
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.

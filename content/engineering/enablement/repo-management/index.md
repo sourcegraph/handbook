@@ -16,9 +16,9 @@ We also have temporary custody of Authentication, with the aspiration being to s
   - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
   - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta-he-him)
 
-## Direction
+## Strategy
 
-[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../direction/enablement/repo-management/index.md)
+[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../company/strategy/enablement/repo-management/index.md)
 
 ## Responsibilities
 
@@ -56,7 +56,7 @@ TODO
 
 We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](../../../direction/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
+We also have a set of [guiding principles](../../../company/strategy/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
 
 ## Processes
 
