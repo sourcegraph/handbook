@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <!-- Note: 16 characters max, so "Sourcegraph Handbook" is too long. -->
+  <ShortName>Handbook</ShortName>
+  <LongName>Sourcegraph Handbook</LongName>
+  <Description>Search the Sourcegraph handbook</Description>
+  <Language>en-US</Language>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <!-- Note: URLs must be absolute. -->
+  <!-- Favicon should be 64px and must not be larger than 10KB -->
+  <Image width="64" height="64" type="image/png">https://handbook.sourcegraph.com/static/sourcegraph-mark_64.png</Image>
+  <Url type="text/html" rel="results" template="https://handbook.sourcegraph.com/#stq={searchTerms}" />
+  <moz:SearchForm>https://handbook.sourcegraph.com/#stq</moz:SearchForm>
+  <!-- Self-updates -->
+  <Url type="application/opensearchdescription+xml" method="get" rel="self" template="https://handbook.sourcegraph.com/opensearch.xml" />
+  <!-- Example -->
+  <Query role="example" searchTerms="values" />
+</OpenSearchDescription>

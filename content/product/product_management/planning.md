@@ -4,7 +4,7 @@ Planning is a continuous process of negotiation between product and engineering.
 
 ## Product / eng team backlogs
 
-You can find the backlogs for the product teams by visiting their [individual direction pages](../index.md#roadmap). For tracking implementation teams are using different tools and processes to plan their work, such as Jira, Productboard, or GitHub issues.
+You can find the backlogs for the product teams by visiting their [individual strategy pages](../index.md#roadmap). For tracking implementation teams are using different tools and processes to plan their work, such as Jira, Productboard, or GitHub issues.
 
 ## Planning artifacts
 
@@ -35,7 +35,7 @@ The roadmap is:
 
 Teams should work on the next thing at the top of the roadmap and should not jump around. If there is a desire to work on something lower on the roadmap, that should be elevated during team meetings and the change in priority should be discussed. That item should be moved in the roadmap based on the outcome of the discussion.
 
-We ask that teams leverage the [Direction page template](direction_template.md) when creating and updating their team's page in [the roadmap](../index.md#roadmap).
+We ask that teams leverage the [Strategy page template](strategy_template.md) when creating and updating their team's page in [the roadmap](../index.md#roadmap).
 
 ### OKRs and One-pagers
 

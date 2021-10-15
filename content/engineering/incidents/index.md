@@ -67,6 +67,7 @@ The incident lead is responsible for resolving the incident as quickly and safel
 1. **Thank** the person who identified the incident.
 1. **Acknowledge ownership** of the incident in the relevant incident chatroom (i.e. "I'm on it").
 1. **Communicate** intended next steps (e.g. "I plan to...") and keep the incident status and summary up to date (e.g. "We tried ... which resulted in ...") in the incident chat room.
+1. **Ensure** that another person has acknowledged and is ready to take over as the incident lead when the current lead is leaving (e.g., "It's the end of my workday soon. Logan, can you take over from here? ... Yes I can")
 
 The owner of the incident may delegate tasks to other available/working engineers if necessary but should make a best effort to minimize the number of other engineers who get interrupted by the incident. This delegated work preempts work unrelated to operational incidents.
 

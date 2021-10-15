@@ -1,6 +1,6 @@
 # Community Relations
 
-At Sourcegraph, our mission is to make it so [everyone can code](../company/strategy.md#purpose). The community relations team supports our mission by implementing community outreach programs, organizing events, and supporting our community’s contributions to Sourcegraph. The team’s ultimate goal is to contribute to understanding and smooth collaboration within our community. We also support the [Developer Education](./education/index.md) team to increase technical literacy.
+At Sourcegraph, our mission is to make it so [everyone can code](../company/strategy/index.md#purpose). The community relations team supports our mission by implementing community outreach programs, organizing events, and supporting our community’s contributions to Sourcegraph. The team’s ultimate goal is to contribute to understanding and smooth collaboration within our community. We also support the [Developer Education](./education/index.md) team to increase technical literacy.
 
 ## Our team runs:
 

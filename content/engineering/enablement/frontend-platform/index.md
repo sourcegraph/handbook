@@ -47,7 +47,7 @@ Using and developing Sourcegraph is effortless.
 
 ## Goals
 
-[Goals](../../../direction/enablement/frontend-platform/index.md)
+[Goals](../../../company/strategy/enablement/frontend-platform/index.md)
 
 ## Growth plan
 

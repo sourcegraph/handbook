@@ -179,6 +179,7 @@ We have a few automations set-up to streamline our workflow:
 - When you reply to a ticket, it auto-assigns to you, so you don't have to worry about remembering to click "take it" to assign it to yourself
 - The signature is built-in and is your name followed by Sourcegraph Support in the second line
 - When triage sets the requestor and they are part of an organization where we have an assigned CSE, the CSE is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](./customer-exceptions.md).
+- Per our [customer exceptions page](./customer-exceptions.md), we have a few customers who have access to Zendesk and they can close their own tickets. When this happens, they are able to bypass the required fields where we gather data. To ensure proper data collection, we have an email notification that is sent to the CSE responsible for the ticket that the customer has closed the ticket and to please go back to it and fill in the required data fields.
 
 ### Apps
 

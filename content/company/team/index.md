@@ -136,7 +136,8 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Lisbon, Portugal 🇵🇹 / Berlin, Germany 🇩🇪
 - [tomas@sourcegraph.com](mailto:tomas@sourcegraph.com), [tsenart](https://github.com/tsenart), [@tsenart](https://twitter.com/tsenart), [LinkedIn](https://www.linkedin.com/in/tsenart/)
 - Name pronunciation: /[to.ˈmas](http://ipa-reader.xyz/?text=to.%CB%88mas&voice=Cristiano)/
-- Tomás started fiddling with computers because he was fascinated with how hackers were depicted in Hollywood movies. He has since moved on to not only build distributed systems but also distributed teams. Before Sourcegraph he's been at companies like Apple, Mesosphere, Thomson Reuters and Soundcloud. In his free time he likes to spend time with his partner, play Chess and Rocket League, eat great food, hit the gym and read books.
+- Tomás started fiddling with computers because he was fasci
+  d with how hackers were depicted in Hollywood movies. He has since moved on to not only build distributed systems but also distributed teams. Before Sourcegraph he's been at companies like Apple, Mesosphere, Thomson Reuters and Soundcloud. In his free time he likes to spend time with his partner, play Chess and Rocket League, eat great food, hit the gym and read books.
 
 ## Geoffrey Gilmore
 
@@ -395,7 +396,7 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [oconvey@sourcegraph.com](mailto:oconvey@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/owenconvey/)
 - Owen was born and raised in England and has been residing in Barcelona since 2012. He spends a lot of time watching Rugby, playing with his young daughter and tinkering with his laptop. Prior to Sourcegraph, he was a manager at Help Scout and loves empowering and motivating autonomous engineering teams. His Achilles' heel is most definitely pizza.
 
-## Virginia Ulrich (she/her)
+## Virginia Ulrich (she/they)
 
 - Head of Customer Support
 - Portland, Oregon, United States 🇺🇸
@@ -816,13 +817,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Name pronunciation: /[ˈkɛl.i ˈɹɑk.wɛl](http://ipa-reader.xyz/?text=%CB%88k%C9%9Bl.i%20%CB%88%C9%B9%C9%91k.w%C9%9Bl&voice=Joanna)/
 - Kelli grew up in Arizona before slowly making her way up the west coast US from LA to SF to Seattle, WA. She became a "professional web developer" before she was even qualified to babysit, getting paid in Neopoints to make Neopets layouts and community fan pages for her online friends as a pre-teen. She is definitely not addicted to [bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) (or “boba”, as it’s called on the west coast) and professes that she could stop at any time. When she's not consuming boba, she plays tennis, attends developer conferences and meet-ups, travels for the food, completes jigsaw puzzles, and tries to convince her hypoallergenic cat, Calla, to cuddle with her while coding.
 
-## Katerina Nikolova (she/her)
-
-- Chief of Staff to the CEO and Co-founder at Sourcegraph
-- Walnut Creek, California, USA 🇺🇸
-- [katerina@sourcegraph.com](mailto:katerina@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/katerinanikolova/)
-- Katerina was raised in Bulgaria, but moved to Belgium at age 19 and moved to various countries ever since. She has lived in France, China and Dubai. She currently lives in Walnut Creek (East Bay) with her two daughters Nia and Jennifer. Her spare time is occupied by hiking, biking, playing, and travelling with her daughters. She started her career as a flight attendant for Emirates Airlines in the United Arab Emirates, but moved on to supporting executives after relocating to the U.S. She has worked at Chevron, Stanford, Alibaba and Credit Karma before joining Sourcegraph. Katerina obtained her Bachelor in Mass Communications from UC Berkeley and a Master in Public Administration from San Francisco State University. She has a passion for fashion, music and fun events that bring people together.
-
 ## Dan Mckean (he/him)
 
 - Product Manager, Distribution & Security
@@ -831,12 +825,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [Readme!](../../product/readmes/dan-mckean-readme.md)
 - [dan.mckean@sourcegraph.com](mailto:dan.mckean@sourcegraph.com)
 - Dan grew up in the South of England, and (with a detour via London) ended up in Dorset in the south west, a county with beautiful coast (but lives as far from the sea as it's possible to get – though not deliberately!) He lives with his wife (Emma), four kids (7y, 5y, 2x14m) and 3-legged springer spaniel (9y). His spare time is largely spent chasing his twin identical boys in an effort to prevent injury. Any (genuinely) spare time is spent trying to make things out of wood.
-
-## Nate Tang (he/him)
-
-- Tech Ops Analyst
-- San Clemente, California, USA 🇺🇸
-- Nate grew up in Orange County, California but has traveled all across the world, most recently to Peru. In his free time, he likes to swim, practice yoga, and go on hikes.
 
 ## Cassie Melani (she/her)
 
@@ -1515,3 +1503,78 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [marisak](https://github.com/marisak)
 - [marisa.kanemoto@sourcegraph.com](mailto:marisa.kanemoto@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/marisa-kanemoto/), [Website](https://marisa-design.com)
 - Marisa grew up in the Bay Area and happily resides in Berkeley with her partner. She's enthusiastic about reading sci-fi and fantasy novels, and helps to moderate an online figure drawing community. Marisa is eagerly awaiting a Bay Area WNBA team.
+
+## Bob Roudebush (he/him)
+
+- Customer Engineering Director - Americas
+- Indianapolis, Indiana, United States 🇺🇸
+- GitHub: [RoudyBob](https://github.com/RoudyBob)
+- [bob.roudebush@sourcegraph.com](mailto:bob.roudebush@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/bobroudebush/)
+- How to say my last name: [Roudebush](https://www.howtopronounce.com/roudebush)
+- Bob has been a resident of the Hoosier State his entire life and currently resides in Indianapolis, IN with his wife and two sons. The two sons are currently away at college but still drop by when they want a home-cooked meal or have laundry to be done. Bob is a former "Microsoftie" and "X-Googler" and has had the benefit of having many different interesting jobs at those companies and few others. He's a big fan of family board game night, an avid trail runner, and consumes as many books, podcasts, and Kentucky bourbons as his remaining time will allow.
+
+## Nancy Shah (she/her)
+
+- Senior Customer Engineer - East Americas
+- Oakton, VA, United States 🇺🇸
+- GitHub: [nancy4dev](https://github.com/nancy4dev)
+- [nancy@sourcegraph.com](mailto:nancy.shahh@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/nancy-s-97b71859/)
+- How to say my last name: [Shah](https://www.howtopronounce.com/shah)
+- Nancy grew up in upstate New York, but has lived in the DC Metro Area for most of her life. She appreciates the peacefulness of newly fallen snow as well as the warmth of the sunshine. She enjoys the beach as much as the mountains. You can find Nancy swimming, climbing, drinking coffee, binge watching TV shows, trying out the latest vegan recipes, and making her own skin/hair care products. Her favorite things are blankets and cozy socks.
+
+## Michal Sennett (she/her)
+
+- Strategic Projects Manager, Engineering
+- Dallas, TX, USA 🇺🇸
+- GitHub: [msennett22](https://github.com/msennett22)
+- [michal.sennett@sourcegraph.com](mailto:michal.sennett@sourcegraph.com)
+- Michal lives in Dallas with her husband Josh, and two dogs, Jet (labrador mix) and Jax (chiweenie)! She has held diverse roles ranging from Employee Engagement, Project Management, Career Coaching, Customer Success and Sales. Michal has a passion for hosting people and planning unique experiences. She loves traveling and learning about new cultures, especially by eating their cuisine.
+
+## Keely Aguayo (she/her)
+
+- Payroll Manager
+- New Orleans, LA, USA 🇺🇸
+- GitHub: [keelyaguayo](https://github.com/keelyaguayo)
+- [keely.aguayo@sourcegraph.com](mailto:keely.aguayo@sourcegraph.com)
+- Keely lives in New Orleans with her husband, Chris, their four sons: Sullivan, Anderson, Miller, and Wilder, and a 14 year old Bichon Frise named Elle.
+
+## Erika Heidi (she/her)
+
+- Senior Developer Advocate, Community
+- The Hague, Netherlands 🇳🇱
+- GitHub: [erikaheidi](https://github.com/erikaheidi)
+- [erika.heidi@sourcegraph.com](mailto:erika.heidi@sourcegraph.com), [Twitter](https://twitter.com/erikaheidi), [LinkedIn](https://www.linkedin.com/in/erikaheidi/)
+- Erika is a Brazilian living in The Hague (Netherlands) with her husband and one daughter. With a background in Linux systems and software engineering, Erika is passionate about open source, online communities, and the intersections of art and code. Erika loves writing, teaching, and creating. Apart from coding, Erika enjoys tinkering with 3D printers, drawing and painting, and going for a bike ride when the weather is good.
+
+## Frey Andersson
+
+- Technical Recruiter
+- Tokyo, Japan 🇯🇵
+- GitHub: [LordFriccoFro](https://github.com/Lordfriccofro)
+- [frey.andersson@sourcegraph.com](mailto:frey.andersson@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/frey-andersson-781a082a//)
+- Frey has spent the past 10 years in Tokyo, Japan. Despite this he knows very little about manga and anime. He does love motorcycles however, specfically Japanese ones. Passionate about recuitment and matching the right people with the right roles. Spent most of his recuritment career with startups and fast growing companies.
+
+## Simon Waterer (he/him)
+
+- Senior Customer Engineer
+- London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+- GitHub: [simoncwaterer](https://github.com/simoncwaterer)
+- [simon.waterer@sourcegraph.com](mailto:simon.waterer@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/simonwaterer/)
+- Simon lives in Buckinghamshire near Oxford, though he grew up in Edinburgh. He likes most sports but especially cricket, rugby and F1. He lives with his wife Julie, cats Tabatha and Sadie and Willow the 1 year old sprocker spaniel. He loves spending time outdoors taking the dog for a walk, walking around with a bag of golf clubs - and one day maybe able to do both. He has worked across a range of technologies including object and NoSQL databses, high performance and grid computing.
+
+## Adam Greenhalgh (he/him)
+
+- Marketing Operations Analyst
+- Salt Lake City,Utah, United States
+- GitHub: [Adammaxla]
+- [adam.greenhalgh@sourcegraph.com](mailto:you@sourcegraph.com),
+- Adam is from Park City, Utah and has lived in a few different cities since including New York City,Los Angeles, and currently - Salt Lake city. Adam received an MBA from the University of Utah in 2017 and has 4 years of experience in marketing strategy,analytics and operations. Adam likes to travel and enjoys finding new restaurants. He also has picked up a bunch of Hobbies since returning to Utah that include Mountain Biking, Hiking, Skiing/Snowboarding and golfing. He is excited about a side project he is working on that involves growing a quality crewneck sweatshirt business.
+
+## David Sandy (he/him)
+
+- Security Engineer
+- St. Paul, MN, US 🇺🇸
+- GitHub: [david-sandy](https://github.com/david-sandy)
+- [david.sandy@sourcegraph.com](mailto:david.sandy@sourcegraph.com)
+- David spends his time playing video games, watching Netflix/Hulu, playing chess, MTG, reading World War II history and performing other mandatory nerd related activites.
+  He lives with his fiance and their two cats: Pixel and Bing (after Bing Crosby -- not the search engine).
