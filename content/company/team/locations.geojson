@@ -1237,6 +1237,19 @@
           51.77782464156521
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taylor Sperry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98054504394531,
+          39.73913836310703
+        ]
+      }
     }
   ]
 }
