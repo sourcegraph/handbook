@@ -120,7 +120,8 @@ Other tools that need to be updated when there is an org change (including manag
 
 ## How to notify People Ops of an org and role change
 
-Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the information required. This will notify People Ops of any changes you’ll make.
+Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the changes that are happening. This will notify People Ops.
+If you have any questions, please contact #people-ops in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
 
 When to complete this form?
 
@@ -132,5 +133,3 @@ When to complete this form?
 - If someone in your team is changing to a different team.
 - If you are planning to restructure your team or org.
 - If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change).
-
-Please complete this [Google form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the changes that are happening. If you have any questions, please contact #people-ops in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
