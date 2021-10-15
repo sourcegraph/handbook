@@ -17,6 +17,8 @@ Vendr has a video for [How to submit an intake](https://vimeo.com/587847826/8417
 
 6. Follow the steps in the intake form - make sure to fill out **all** the fields.
 
+![Buy](https://storage.googleapis.com/sourcegraph-assets/Vendr%20-%20Buy%20%231.jpg)
+
 ## What is typically covered on the intake form:
 
 **General:** Please provide a high-level description of what you’d like Vendr to purchase on your behalf.
