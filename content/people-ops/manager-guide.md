@@ -121,7 +121,7 @@ Other tools that need to be updated when there is an org change (including manag
 ## How to notify People Ops of an org and role change
 
 Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the changes that are happening. This will notify People Ops.
-If you have any questions, please contact #people-ops in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
+If you have any questions, please contact #people-ops in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). If the change implies someone changing team or manager, the new manager is the one who should complete the form.
 
 When to complete this form?
 
