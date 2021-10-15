@@ -39,4 +39,4 @@ Ultimately, our goal is to increase user retention through providing highly cont
 
 ## Goals
 
-[Goals and roadmap](../../../direction/cloud/growth/index.md)
+[Goals and roadmap](../../../company/strategy/cloud/growth/index.md)
