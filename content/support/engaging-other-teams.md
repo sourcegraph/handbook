@@ -139,7 +139,7 @@ Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../en
 
 ### Code Insights
 
-**Keywords**: `insights`, `visualization`, `tracking`, `migrations`, `measuring`, `technical debt`
+**Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
 
 Any questions about Code Insights should be routed to the [Code Insights Team](../engineering/code-graph/code-insights/index.md)
 
