@@ -1592,5 +1592,5 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Technical Product Manager
 - Denver, CO, USA 🇺🇸
 - GitHub: [taylorsperry](https://github.com/taylorsperry)
-- [taylor.sperry@sourcegraph](mailto:taylor.sperry@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/taylor-sperry/)
+- [taylor.sperry@sourcegraph.com](mailto:taylor.sperry@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/taylor-sperry/)
 - Taylor spent many years as a book editor in NYC before quitting her job with absolutely no plan and landing at the Turing School of Software and Design in her hometown of Denver, CO. She joins Sourcegraph after a stint helping build enterprise software as an engineer at Workiva. She's happiest in a kitchen full of people (always a sous chef, never the chef), or outside with her nose in a book, a podcast in her ears, or skis on her feet.
