@@ -41,7 +41,7 @@ What Vendr will not handle for us:
 
 When to reach out to Vendr:
 
-- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](..vendr/supplier_facing.md) OR at least 5 business days before your deadline for [background support](..vendr/background_support.md) 
+- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](..vendr/supplier_facing.md) OR at least 5 business days before your deadline for [background support](..vendr/background_support.md)
 - Purchasing new software over $5K
 - Upgrading mid-term with a significant jump in cost
 - Renewing an existing software (over $5K) that hasn’t yet been negotiated by Vendr
@@ -49,8 +49,8 @@ When to reach out to Vendr:
 ## Types of Vendr Support
 
 - [Supplier facing negotiations](..vendr/supplier_facing.md)
-- [Background negotiation support](..vendr/background_support.md) 
-- [Renewals](..vendr/renewals.md) 
+- [Background negotiation support](..vendr/background_support.md)
+- [Renewals](..vendr/renewals.md)
 - [Competitive market intelligence](..vendr/market_intel.md)
 
 ## How-to steps
