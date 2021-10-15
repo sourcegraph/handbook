@@ -5,7 +5,7 @@ This page explains the strategy behind the content we publish on the Sourcegraph
 ### Related handbook pages
 
 - [Editorial process (including how to submit a blog post)](editorial-process.md)
-- [Blog handbook](creating_blog_posts.md)
+- [Blog handbook](../creating_blog_posts.md)
 
 The FY22 Editorial Strategy for the Sourcegraph blog builds on our [FY22 Content Strategy](index.md).
 

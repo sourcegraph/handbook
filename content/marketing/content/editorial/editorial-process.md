@@ -5,7 +5,7 @@ This page explains how team members can contribute to Sourcegraph's blog, includ
 ### Related handbook pages
 
 - [Editorial strategy](editorial-strategy.md)
-- [Blog handbook](creating_blog_posts.md)
+- [Blog handbook](../creating_blog_posts.md)
 
 Writing is a process, and thus, our editorial process is designed to aid the writer in producing their best work while staying on track with the publishing schedule. Pitches and first drafts can vary greatly in format and completeness. Some people like to create an outline for their first draft, others prefer to just start writing. The more you write, the more familiar you will get with your own writing process. What’s important is that you write multiple drafts and get feedback on them. This is how ideas turn into fully formed, thoughtful articles.
 

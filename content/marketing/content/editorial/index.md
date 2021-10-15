@@ -1,6 +1,6 @@
 # Editorial handbook
 
-The Editorial team (part of the [Content Marketing](/marketing/content.md) team) is primarily responsible for the strategy and management of Sourcegraph's [blog](https://about.sourcegraph.com/blog/).
+The Editorial team (part of the [Content Marketing](../index.md) team) is primarily responsible for the strategy and management of Sourcegraph's [blog](https://about.sourcegraph.com/blog/).
 
 ## Team members
 
