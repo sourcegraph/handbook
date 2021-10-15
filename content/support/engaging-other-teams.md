@@ -137,6 +137,12 @@ The cloud team is a newly formed team at Sourcegraph focused on rapidly scaling 
 
 Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../engineering/cloud/saas/index.md) via the [#cloud-saas slack channel](https://sourcegraph.slack.com/archives/C025BKWFPDY).
 
+### Code Insights
+
+**Keywords**: `insights`, `visualization`, `tracking`, `migrations`, `measuring`, `technical debt`
+
+Any questions about Code Insights should be routed to the [Code Insights Team](../engineering/code-graph/code-insights/index.md)
+
 ## Step 4: File a Github issue
 
 It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering work load planning, and our team's experience.
