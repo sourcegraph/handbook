@@ -100,15 +100,31 @@ There are a lot of ideas on our [Miro board](https://miro.com/app/board/o9J_l9gA
 
 This section covers how the editorial team plans, organizes, and executes work on the Sourcegraph blog.
 
-### Asana
+### Project management
 
-We work in three main projects:
+We work in three main Asana projects:
 
 - [FY22 Content Operations](https://app.asana.com/0/1199959077348208/1199959077348208) – this is where most of our planning and organization happens
 - [Marketing Content Calendar](https://app.asana.com/0/1200972415267795/1200972415267795) – this is where we surface planned content to the rest of the marketing org
 - [Content Ideas](https://app.asana.com/0/1200484301601757/1200484301601757) – this is where we capture ideas for future blog posts and where we triage pitches. Once we decide to actively work on something, we add tasks from here to the Content Operations project.
 
-#### Lifecycle of a blog post
+- As soon as you intend to work on a blog post, either create a blog post task using the template, or add an existing task to the [FY22 Content Operations](https://app.asana.com/0/1199959077348208/1199959077348208) project.
+- Fill out all necessary fields and complete any tasks already taken care of.
+- Make sure there is a date or a date range applied to the parent task, and add the task to the [Marketing Content Calendar](https://app.asana.com/0/1200972415267795/1200972415267795) project in the relevant section, so our teammates can see what's coming up.
+- All subtasks should have due dates and assignees.
 
-- As soon as we intend to work on a blog post, we either create a blog post task using the template, or add an existing task to the [FY22 Content Operations](https://app.asana.com/0/1199959077348208/1199959077348208) project.
--
+#### Illustrations
+
+We can commission a custom illustration or animation for blog post hero images. There is an Asana task for this as part of the blog post template. When planning a blog post, you should consider whether a custom image is needed and some potential themes or ideas about how we can represent the story. If collaborating with other team members (for example, you interviewed people for the story or someone else actually wrote it) it's best to ask them if they have ideas about how to illustrate the post.
+
+At a minimum, we can share a summary and/or the first draft of the post in the illustration task description. When we're ready for a designer to get started, ping Fabiana on the task and let her know when we're planning to publish the post.
+
+#### Social promotion
+
+There is an Asana task for social promotion of new blog posts in the blog post task template. You need to add this to the [Social Media Requests: Organic](https://app.asana.com/0/1200960005454857/1200960005454857) project, as a subtask of the monthly blog posts task.
+
+At a minimum, we can share the first draft of the post in the description of the social promotion task. This will help Kristen draft initial posts about the blog post. Ideally, we can help her further with suggested copy or other ideas about how to promote (graphic assets we will have, possible polls or other opportunities for engagement).
+
+By suggesting Twitter copy we have a better chance of the post being promoted on the day of publishing.
+
+After publishing the blog post, there is a task for the editor to share the live URL in #social-media-action. This will alert Kristen that she can proceed with social promotion.
