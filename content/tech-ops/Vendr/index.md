@@ -22,13 +22,13 @@ What we hope to achieve through a partnership with Vendr:
 What will Vendr do for us:
 
 - SaaS contract support
-  - **Negotiations**: A Vendr Executive Buyer negotiates on Sourcegraph’s behalf directly with the supplier. This includes routing contract components to Sourcegraph Legal, Security, and Finance for sign off
-  - **\*Background support**: Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
-- **Renewal reminders** (90 - 120 days before expiration)
-- **Competitive market intelligence**
+  - [Negotiations:](..vendr/supplier_facing.md) A Vendr Executive Buyer negotiates on Sourcegraph’s behalf directly with the supplier. This includes routing contract components to Sourcegraph Legal, Security, and Finance for sign off
+  - [Background support:](..vendr/background_support.md) Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
+- [Renewal reminders](..vendr/renewals.md) (90 - 120 days before expiration)
+- [Competitive market intelligence](..vendr/market_intel.md)
 
 Who can use Vendr:
-Anyone at Sourcegraph can submit an **intake form**. [Procurement approval policies](https://handbook.sourcegraph.com/finance/ap#approval-levels) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
+Anyone at Sourcegraph can submit an [intake form]..vendr/intake_form.md. [Procurement approval policies](https://handbook.sourcegraph.com/finance/ap#approval-levels) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
 
 What Vendr will not handle for us:
 
@@ -41,21 +41,21 @@ What Vendr will not handle for us:
 
 When to reach out to Vendr:
 
-- Ideally more than 15 business days before your deadline if you want Vendr to **negotiate the contract** OR at least 5 business days before your deadline for **background facing support**
+- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](..vendr/supplier_facing.md) OR at least 5 business days before your deadline for [background support](..vendr/background_support.md) 
 - Purchasing new software over $5K
 - Upgrading mid-term with a significant jump in cost
 - Renewing an existing software (over $5K) that hasn’t yet been negotiated by Vendr
 
 ## Types of Vendr Support
 
-- Supplier facing negotiations
-- Background negotiation support
-- Renewals
-- Competitive market intelligence
+- [Supplier facing negotiations](..vendr/supplier_facing.md)
+- [Background negotiation support](..vendr/background_support.md) 
+- [Renewals](..vendr/renewals.md) 
+- [Competitive market intelligence](..vendr/market_intel.md)
 
 ## How-to steps
 
-Loging in & privileges
-Reviewing your tech stack
-Adding an supplier to the portal
-Submitting an intake form
+[Loging in & privileges](..vendr/login.md)
+[Reviewing your tech stack](..vendr/tech_stack_review.md) 
+[Adding an supplier to the portal](..vendr/adding_supplier.md)
+[Submitting an intake form](..vendr/intake_form.md)
