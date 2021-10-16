@@ -55,7 +55,7 @@ When to reach out to Vendr:
 
 ## How-to steps
 
-- [Loging in & privileges](login.md)
+- [Login in & privileges](login.md)
 - [Reviewing your tech stack](tech_stack_review.md)
 - [Adding an supplier to the portal](adding_supplier.md)
 - [Submitting an intake form](intake_form.md)
