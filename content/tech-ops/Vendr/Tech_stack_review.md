@@ -21,6 +21,6 @@ If you don’t see one of your suppliers listed in your portal:
 1. [Search](https://sourcegraph.vendr.com/suppliers/search) the supplier
 
 - If you see there is a green check box next to the supplier but you cannot see the details contact it-tech-ops in Slack and we can assign you to that Supplier so that you can see the details
-- If you do not see a green check box, follow the steps for [Adding an supplier to the portal](..vendr/adding_supplier.md)
+- If you do not see a green check box, follow the steps for [Adding an supplier to the portal](adding_supplier.md)
 
 ![Green button](https://storage.googleapis.com/sourcegraph-assets/Vendr%20-%20Green%2Bbuy.jpg)
