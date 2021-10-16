@@ -1,6 +1,6 @@
 # Handbook strategy
 
-Sourcegraph is a Handbook first company. The Handbook is our source of truth, and a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and functional.
+Sourcegraph is a Handbook first company. The Handbook is our source of truth, and a living document. We expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and functional.
 
 This page outlines the vision, strategy, and goals of the Handbook team.
 
@@ -30,7 +30,7 @@ The Handbook serves as a [source of truth](../../../../communication#sources-of-
 
 #### 3 Year vision
 
-> The Handbook is not only a resource for answering sprcific questions, but also for browsing to learn about what's going on at Sourcegraph. Interactive content provides tailored onboarding and learning experiences to be used during the full span of one's career at Sourcegraph. It's a visually pleasing and functional artifact of the current state of the company and team.
+> The Handbook is not only a resource for answering specific questions, but also for browsing to learn about what's going on at Sourcegraph. Interactive content provides tailored onboarding and learning experiences to be used during the full span of one's career at Sourcegraph. It's a visually pleasing and functional artifact of the current state of the company and team.
 
 #### 10 year vision
 
@@ -45,7 +45,7 @@ The Handbook serves as a [source of truth](../../../../communication#sources-of-
 
 ## Where we are now
 
-The Handbook team is new, and up until now the Handbook has been owned by everyone. As a result, the product is relatively immature and needs defining. Features are basic, and it functions similarly to a simple wiki. With dedicated focus, we believe the Handbook can remain a pillar of the Sourcegraph culture and grow in value as a tool for internal and external stakeholders.
+The Handbook team is new, and up until now the Handbook has been owned by everyone. The product is relatively immature and needs defining. Features are basic, and it functions similarly to a simple wiki. With dedicated focus, we believe the Handbook can remain a pillar of the Sourcegraph culture and grow in value as a tool for internal and external stakeholders.
 
 During a Hackathon in FY22Q3, huge strides were made by refactoring the Handbook. This will allow for easier development in the future, and within the Hackathon time frame allowed for adding new features like the "Contributers" section, and providing users a full preview of their changes.
 
@@ -74,7 +74,7 @@ The next six months are focused on better defining the Handbook as a product and
 
 - **Objective:** Finding content in the Handbook is intuitive and reliable.
 - **Why?** The Handbook is a source of truth at Sourcegraph, and it’s the primary resource for teammates, candidates and customers to learn more about the company.
-- **How does this align with overall [product strategy](../../index.md)** Enables all teammates at Sourcegraph to be more efficient and accelerate the time it takes to provide value to customers.
+- **How does this align with the overall [product strategy](../../index.md)?** This enables all teammates at Sourcegraph to be more efficient and accelerate the time it takes to provide value to customers.
   - **Key Result 1:** Reduce percentage of searches with no click throughs.
 - **How will this be measured?** Through insights already provided by Swiftype.
 
@@ -82,14 +82,14 @@ The next six months are focused on better defining the Handbook as a product and
 
 #### Navigation
 
-The Handbook is a source of truth for lots of company information, and users must be able to find what they're looking for quickly. Intuitive navigatoin is essential for browsing and discovering content.
+The Handbook is a source of truth for lots of company information, and users must be able to find what they're looking for quickly. Intuitive navigation is essential for browsing and discovering content.
 
 We will:
 
 - Build and refine a [navigation sidebar](https://github.com/sourcegraph/handbook/issues/7).
-- Explore options for featuring related content.
-- Build a Handbook home page to better showcase featured or popular pages, and guide the user to the right content.
 - Evaluate the information architecture of the Handbook and implement changes as needed.
+- Explore options for presenting related content.
+- Build a Handbook home page to better showcase featured or popular pages, and guide the user to the content they're looking for.
 
 #### Search
 
@@ -118,6 +118,14 @@ We will:
 
 - Explore ways to provide better in-the-moment support when teammates are working through an issue.
 - Establish Handbook Office Hours as a regular forum for teammates to get help with the Handbook, or see demos of new features.
+
+#### Handbook Team
+
+The Handbook team is new, and currently a team of one. We need to understand the resources required to support this strategy over time.
+
+We will:
+
+- Evaluate needs and put together a team & resourcing plan to hopefully put into action in FY23.
 
 ### What we're not working on & why
 
