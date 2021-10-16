@@ -28,7 +28,7 @@ What will Vendr do for us:
 - [Competitive market intelligence](market_intel.md)
 
 Who can use Vendr:
-Anyone at Sourcegraph can submit an [intake form]..vendr/intake_form.md. [Procurement approval policies](https://handbook.sourcegraph.com/finance/ap#approval-levels) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
+Anyone at Sourcegraph can submit an [intake form]..vendr/intake_form.md. [Procurement approval policies](../finance/ap#approval-levels) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
 
 What Vendr will not handle for us:
 
@@ -41,7 +41,7 @@ What Vendr will not handle for us:
 
 When to reach out to Vendr:
 
-- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](..vendr/supplier_facing.md) OR at least 5 business days before your deadline for [background support](..vendr/background_support.md)
+- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](supplier_facing.md) OR at least 5 business days before your deadline for [background support](background_support.md)
 - Purchasing new software over $5K
 - Upgrading mid-term with a significant jump in cost
 - Renewing an existing software (over $5K) that hasn’t yet been negotiated by Vendr
