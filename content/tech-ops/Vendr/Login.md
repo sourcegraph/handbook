@@ -1,6 +1,6 @@
 # How to login & privileges
 
-Everyone at Sourcegraph has the ability to log into Vendr through [Okta](content/tech-ops/okta.md). If you don’t see the title in your Okta portal you can request it via Self-Service or by contacting IT-Tech-Ops in Slack.
+Everyone at Sourcegraph has the ability to log into Vendr through [Okta](tech-ops/Okta.md). If you don’t see the title in your Okta portal you can request it via Self-Service or by contacting IT-Tech-Ops in Slack.
 
 Sourcegraph accounts have two levels of permissions. Admin and Owner.
 
