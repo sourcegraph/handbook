@@ -28,7 +28,7 @@ What will Vendr do for us:
 - [Competitive market intelligence](market_intel.md)
 
 Who can use Vendr:
-Anyone at Sourcegraph can submit an [intake form](intake_form.md)[Procurement approval policies](finance/ap.md) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
+Anyone at Sourcegraph can submit an [intake form](intake_form.md)[Procurement approval policies](./finance/payables.md) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
 
 What Vendr will not handle for us:
 
