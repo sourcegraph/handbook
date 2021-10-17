@@ -14,9 +14,9 @@ Product work solves new user problems by adding features and workflows.
 
 Examples:
 
-* New code host support
-* New search syntax
-* Precise code intel for new languages
+- New code host support
+- New search syntax
+- Precise code intel for new languages
 
 ### Scale work
 
@@ -24,9 +24,9 @@ Scale work enables and improves the quality of our product as usage increases.
 
 Examples:
 
-* Index more code on Sourcegraph Cloud
-* Multi-zone deployments to improve the performance of our product to more users
-* Developer tooling that increases the productivity of our engineering team 
+- Index more code on Sourcegraph Cloud
+- Multi-zone deployments to improve the performance of our product to more users
+- Developer tooling that increases the productivity of our engineering team
 
 ### Risk work
 
@@ -34,9 +34,9 @@ Risk work decreses the operational, security, or regulatory risk.
 
 Examples:
 
-* Multi-zone deployments to reduce the likelihood that our site goes down
-* Security certifications like SOC 2, ISO 27001
-* Regulation requrements like GDPR, CCPA
+- Multi-zone deployments to reduce the likelihood that our site goes down
+- Security certifications like SOC 2, ISO 27001
+- Regulation requrements like GDPR, CCPA
 
 ### What about tech debt?
 
@@ -46,22 +46,22 @@ Engineering exists to deliver solutions to user problems, so the most meaningful
 
 Instead of talking about tech debt generically, it is more productive to talk about specific work that needs to be done which will result in specific value to our business, now or in the future.
 
-* ❌  "We have some tech debt that we need to pay down"
-* ❌  "We should spend 30% of our time paying down tech debt"
-* ✅  "Doing X will result in Y impact to our business" where X is a description of specific work that needs to be done, and Y is a description of how that work is going to result in a valuable outcome for our business.
+- ❌ "We have some tech debt that we need to pay down"
+- ❌ "We should spend 30% of our time paying down tech debt"
+- ✅ "Doing X will result in Y impact to our business" where X is a description of specific work that needs to be done, and Y is a description of how that work is going to result in a valuable outcome for our business.
 
 With the correct frame ✅, addressing tech debt turns into one of the other kinds of work.
 
-* Addressing tech debt can be product work when doing it now is on the fastest path toward delivering a product improvement.
-* Addressing tech debt can be scale work when addressing it will increase our ability to deliver more value to our customers faster over time.
-* Addressing tech debt can be risk work when it helps us reduce the possiblity of failure modes that would negatively impact the business.
+- Addressing tech debt can be product work when doing it now is on the fastest path toward delivering a product improvement.
+- Addressing tech debt can be scale work when addressing it will increase our ability to deliver more value to our customers faster over time.
+- Addressing tech debt can be risk work when it helps us reduce the possiblity of failure modes that would negatively impact the business.
 
 Here are questions to ask whenever you hear the phrase "tech debt":
 
-* How is this slowing us down?
-* What is the specific work that will address this?
-* How will doing this work translate into a positive impact to our customers and our business, now or in the future?
+- How is this slowing us down?
+- What is the specific work that will address this?
+- How will doing this work translate into a positive impact to our customers and our business, now or in the future?
 
 Further reading:
 
-* https://www.bigeng.io/why-the-way-we-look-at-technical-debt-is-wrong/
+- https://www.bigeng.io/why-the-way-we-look-at-technical-debt-is-wrong/
