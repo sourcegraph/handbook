@@ -92,7 +92,7 @@ When you choose these 2-3 reviewers, you should consider:
 
 _Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
 
-Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates.
+Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates. If you would like to add more reviewers than our current cap of 3, please reach out to the #impact-reviews Slack channel and our Lattice Admins can override this limit.
 
 As a best practice, all teammates are encouraged to share their reviewer’s names with their managers beforehand to align on their choices and rationale for choosing them.
 
