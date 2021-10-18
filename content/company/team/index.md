@@ -1602,3 +1602,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [rafax](https://github.com/rafax)
 - [rafal.gajdulewicz@sourcegraph.com](mailto:rafal.gajdulewicz@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/gajdulewicz/)
 - Rafal lives in Warsaw, Poland with his wife & 2 sons. Before Sourcegraph, Rafal worked as Software Engineer at Google, building UIs for Kubernetes-related products. In his free time, Rafal enjoys riding bicycles and motorcycles, surfing and snowboarding.
+
+## Lauren Chapman (she/her)
+
+- Security Engineer
+- New Brunswick, Canada 🇨🇦
+- GitHub: [deflncha](https://github.com/deflncha)
+- [lauren.chapman@sourcegraph.com](mailto:lauren.chapman@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/chapman-lauren-202/)
+- Lauren lives in eastern Canada in the small province of New Brunswick with her two kitties Piper & Momo 🐱. Prior to Sourcegraph she worked as a Software Developer, Application Support Specialist, and Application Security Specialist - wearing many different "hats" over her career. In her free time shes loves board games (Catan, Forbidden Island, Pandemic) and to read personal biographies. Lauren also loves to talk about and advocate for mental health, therapy, and meditation 🪴 - all of which have been instrumental in her life.
