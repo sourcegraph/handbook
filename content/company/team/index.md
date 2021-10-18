@@ -1594,3 +1594,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [taylorsperry](https://github.com/taylorsperry)
 - [taylor.sperry@sourcegraph.com](mailto:taylor.sperry@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/taylor-sperry/)
 - Taylor spent many years as a book editor in NYC before quitting her job with absolutely no plan and landing at the Turing School of Software and Design in her hometown of Denver, CO. She joins Sourcegraph after a stint helping build enterprise software as an engineer at Workiva. She's happiest in a kitchen full of people (always a sous chef, never the chef), or outside with her nose in a book, a podcast in her ears, or skis on her feet.
+
+## Rafal Gajdulewicz (he/him)
+
+- Software Engineer
+- Warsaw, Poland 🇵🇱
+- GitHub: [rafax](https://github.com/rafax)
+- [rafal.gajdulewicz@sourcegraph.com](mailto:rafal.gajdulewicz@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/gajdulewicz/)
+- Rafal lives in Warsaw, Poland with his wife & 2 sons. Before Sourcegraph, Rafal worked as Software Engineer at Google, building UIs for Kubernetes-related products. In his free time, Rafal enjoys riding bicycles and motorcycles, surfing and snowboarding.
