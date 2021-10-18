@@ -47,7 +47,7 @@ As our users are primarily developers, our own Sourcegraph developers are great 
 Use the following methods to identify internal research subjects:
 
 - Post a request in #dev-chat, #ce, #community-chat or #customer support with information about the area you are researching
-- Often, developers have little bandwith for new requests. Making direct requests of specific developers tends to yeild a higher response rate
+- Often, developers have little bandwith for new requests. Making direct requests of specific developers tends to yield a higher response rate
 
 ## External users
 
