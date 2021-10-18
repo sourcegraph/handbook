@@ -163,4 +163,3 @@ https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/asy
   <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
   <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
 </video>
-
