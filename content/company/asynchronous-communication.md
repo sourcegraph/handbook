@@ -4,17 +4,6 @@ Sourcegraph is an **all-remote** company which means we work from home or office
 
 Async simply means that work doesn’t happen at the same time for everyone. Asynchronous communication allows us to move forward and make decisions without having to meet to talk with everyone involved. In this page you will read about why we are async, the tools we use at Sourcegraph, and how we use them. We also explain how we communicate, tips on how to work asynchronously, and how we decide to be or not to be async.
 
-### Videos
-
-<!--
-Note for editors: All videos embedded on this page (and their captions) are uploaded to (and can be updated at):
-https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/async-communication;tab=objects?project=sourcegraph-dev
--->
-
-- [Why async?](https://drive.google.com/file/d/16N4cfAKaKL0ynxRzzJ3FW3AegPCkosMK/view?usp=sharing)
-- [How to work asynchronously](https://drive.google.com/file/d/1Uo0PPxT5EjuBJz9t6rHT__SeVh9VLPKo/view?usp=sharing)
-- [Tips for working async at Sourcegraph](https://drive.google.com/file/d/16tUvJXGlSm1gOA3B6vwXxl-BGMqvBpm_/view?usp=sharing)
-
 ## Why async?
 
 **We are respectful of people’s time and responsibilities.** All of us have different working styles and strategies of being productive. We also have our personal responsibilities and timelines. We need to be conscious that our teammate might be a caregiver and scheduling a meeting might mean they have to choose between work and their loved ones.
@@ -31,53 +20,49 @@ https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/asy
 
 **We need to.** We are a growing all remote, global company. Adopting an asynchronous way of working and communicating is the only way for us to be successful. It is hard and it takes time adjusting, but it is worth it.
 
+### Videos
+
+<!--
+Note for editors: All videos embedded on this page (and their captions) are uploaded to (and can be updated at):
+https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/async-communication;tab=objects?project=sourcegraph-dev
+-->
+
+#### Why async?
+
 <video width="1920" height="1080" controls crossorigin>
   <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.mp4">
   <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.vtt" default>
 </video>
 
-## How to work asynchronously
-
-### Tools
-
-#### Artifacts
-
-Asynchronous communication is most effective when there’s a place for communication to occur over time. We use [RFCs](../communication/rfcs/index.md), Google Docs, GitHub issues, and Asana tasks as artifacts. Artifacts give us time to go away and give thoughtful consideration and can act as a record of how we [made decisions](../communication/decisions.md).
-
-Decisions are made in artifacts. While decisions can be initiated or discussed in synchronous sessions when it makes sense, **making** the decision in an artifact helps others to understand the context around the decision and provide feedback or ask questions in a self-contained space. It also avoids requiring people to be in the meetings themselves to participate in decision-making. Decisions discussed in synchronous meetings should be consciously shared with all interested parties, giving them the opportunity to share opinions and objections in the relevant artifact. Take some time to read about [how we make decisions at Sourcegraph](../communication/decisions.md).
-
-#### Sources of truth
-
-Even though we use artifacts to communicate over time, it is important to note that they are not sources of truth. They are used during the creation and production process and are extremely rich in context, however, the final conclusion and what we share with everyone else must live in one of our [sources of truth](../communication/index.md#sources-of-truth). The information in these places is expected to be accurate and up-to-date.
-
-And remember: we are handbook-first. Google Docs, RFCs, GitHub issues, and Slack conversations are not considered sources of truth—they are ephemeral scratchpads in which decisions can be made, but nobody should be expected to read every RFC to learn how to do something. Regardless of where a decision was made (be it one of the artifacts or a meeting), it must be committed to the handbook.
-
-#### Slack
-
-Slack is our [team chat](../communication/team_chat.md) and a big part of our day-to-day workflow, however, it is not one of our sources of truth. Because most of our channels are public and open to everyone to see, supporting our value of being [open and transparent](./values.md#open-and-transparent), Slack tends to be our default method of communication.
-
-You don’t have to join every open channel available, but if you do, be mindful of what to pay attention to and how much time you spend reading threads that might not be helpful to you or your work. This takes some time and we recommend talking to teammates to understand what works best for you.
-
-Slack can feel like a synchronous way of communication and people might feel they need to respond right away, but remember we are remote and async. Teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for them, and they are also free to read messages whenever is convenient for them. There is no expectation that people will be immediately responsive.
-
-A good practice is to send one message with your request directly, instead of sending “[Hey, how’s it going](https://www.nohello.com/)?” and waiting for the other person to reply to send the actual message. That interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously.
-
-Be mindful:
-
-- Use [threads](../communication/team_chat.md#use-threads-instead-of-channel-wide-responses) to respond to a message or continue a conversation about the same topic. This prevents everyone in the channel from getting notifications every time you post something. It makes it easier to share a thread for context when the conversation starts somewhere else too. It’s also more inclusive, allowing teammates to contribute to the discussion later. A best practice in any channel is titling your thread with: “Thread: [insert topic here]” and replying below in your thread what the context is.
-- If a conversation takes place in a thread that will most likely end in a decision, be sure to notify those people who are affected, but not participating in it. They might have missed it or might be out at the moment. Be sure to share it with everyone and give some prudent time for them to read it. Remember we don’t expect everyone to be responsive right away.
-- A Slack thread is not an artifact. As soon as you realize that there's folks who could contribute to the discussion who aren't around or don't have visibility into it, it should move out of Slack.
-- Handles are a great way to notify people and teams. To avoid mass-notifying folks, it's best to tag the specific individuals who would be interested/affected by the conversation. And if you're not sure who to tag from a specific group, just ask. i.e. 'Should someone from Marketing Ops weigh in here?’ Avoid using the @channel and @here functions in Slack as little as possible, as there’s a strong possibility that teammates in the channel may be in time zones where they are asleep.
-- [Default to using public channels for work-related discussion](../communication/team_chat.md#avoid-private-messages). Even if you intend a message for someone specific, other team members may benefit from reading the discussion or may be able to contribute to it. If you have a question, you may get an answer more quickly from someone in your own time zone than if you DM someone outside of their working hours.
-
-Finally, remember Slack is _not_ a source of truth. Something said or mentioned in Slack, does not automatically make it true. It has to be documented and available for everyone to read.
+#### How to work async
 
 <video width="1280" height="720" controls crossorigin>
   <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.mp4">
   <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.vtt" default>
 </video>
 
-### Communication
+#### Tips for working async
+
+<video width="1280" height="720" controls crossorigin>
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
+  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
+</video>
+
+## How we work asynchronously
+
+The basic flow for decisions is that we use an **artifact** as a temporary place to have a discussion, and then we update our **sources of truth** with the outcome.
+
+### Artifacts
+
+Async is most effective when there’s a place for communication to occur over time. We use [RFCs](../communication/rfcs/index.md), Google Docs, Pull Requests, GitHub issues, and Asana tasks as artifacts. Artifacts give us time to go away and give thoughtful consideration and can act as a record of how we [made decisions](../communication/decisions.md).
+
+While decisions can be initiated or discussed in synchronous sessions when it makes sense, **making** the decision in an artifact helps others to understand the context around the decision and provide feedback or ask questions in a self-contained space. It also avoids requiring people to be in the meetings themselves to participate in decision-making. Decisions discussed in synchronous meetings should be consciously shared with all interested parties, giving them the opportunity to share opinions and objections in the relevant artifact. Take some time to read about [how we make decisions at Sourcegraph](../communication/decisions.md).
+
+### Single sources of truth
+
+Even though we use artifacts to communicate over time, it is important to note that they are not sources of truth. They are used during the creation and production process and are extremely rich in context, however, the final conclusion and what we share with everyone else must live in one of our [sources of truth](../communication/index.md#sources-of-truth) and nobody should be expected to read everything in Slack or every RFC to know what's going on. The information in these places is expected to be accurate and up-to-date, and not be repeated in multiple sources of truth (when they need to reference each other, they do so through links).
+
+### General tips
 
 One of the hardest things about async work is to be sure everyone who’s affected by your work can see it and knows it exists. Socializing decisions and information with other teams is hard. While artifacts like RFCs are wonderful for the directly involved or affected team members, they’re more things that folks have to pay attention to—or choose _not_ to pay attention to, which still takes time and mental energy. Unfortunately, we can’t always predict what information other team members may need. Think about how you might help other teams find the information they need.
 
@@ -89,16 +74,9 @@ Get creative:
 - Record short videos with face cams (and captions) that don't need hours of production effort, we can create a little slide deck for such a video.
 - Replace synchronous presentations with a recording, including slides and written context and provide a place where teammates can ask questions asynchronously. You can even include a time period for questions (for example: questions will be received and answered until Friday 4pm UTC)
 
-## Tips for working async at Sourcegraph
+You can read [Thorsten Ball](./team/index.md#sts=Thorsten%20Ball%20%28he/him%29)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/). 
 
-You can read [Thorsten Ball](./team/index.md#sts=Thorsten%20Ball%20%28he/him%29)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
-
-Here are some tips and things you should keep in mind when working at Sourcegraph:
-
-<video width="1280" height="720" controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
-  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
-</video>
+Additionally, here are some other tips we've found work well:
 
 - **Remove bias toward one time zone.** Use UTC to indicate time. Don’t expect everyone to know your timezone or convert theirs to yours. We use UTC to be as inclusive as possible.
 - **Provide context**. This takes time, but documentation is key. Hand off everything with as much context as possible so that your colleagues don’t need any more input for the next ~12+ hours. Are you working collaboratively with someone who wakes up in ~9 hours? Make it clear to them what you're missing, what you’ve done, what you haven’t and why. It doesn’t have to be extensive and detailed, it just needs to have the information the other person will need for them to collaborate with you and continue with their work. You can add a note that says for example: “I like your work! I added this section and suggested some changes here. I didn’t include xxx because of what we talked about in this thread _[link to thread]_ last week.”
@@ -127,11 +105,25 @@ Here are some tips and things you should keep in mind when working at Sourcegrap
 
 Each team should also have a section to explain how they do x, y and z asyncly. Define processes and communication channels. For example, how does the design team work? What is the decision making process?
 
-## How to choose sync vs async?
+#### Working with Slack
 
-<center>
-<object role="document" width="1133" height="1889" title="One pager: Async versus sync communication" data="onepager-async.svg" style="width: 80%"></object>
-</center>
+Slack is our [team chat](../communication/team_chat.md) and a big part of our day-to-day workflow, however, it is not one of our sources of truth. Because most of our channels are public and open to everyone to see, supporting our value of being [open and transparent](./values.md#open-and-transparent), Slack tends to be our default method of communication. All of the above principles around communication apply, but there are also some more:
+
+- You don’t have to join every open channel available, but if you do, be mindful of what to pay attention to and how much time you spend reading threads that might not be helpful to you or your work. This takes some time and we recommend talking to teammates to understand what works best for you.
+- Slack can feel like a synchronous way of communication and people might feel they need to respond right away, but remember we are remote and async. Teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for them, and they are also free to read messages whenever is convenient for them. There is no expectation that people will be immediately responsive.
+- A good practice is to send one message with your request directly, instead of sending “[Hey, how’s it going](https://www.nohello.com/)?” and waiting for the other person to reply to send the actual message. That interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously.
+
+Be mindful:
+
+- Use [threads](../communication/team_chat.md#use-threads-instead-of-channel-wide-responses) to respond to a message or continue a conversation about the same topic. This prevents everyone in the channel from getting notifications every time you post something. It makes it easier to share a thread for context when the conversation starts somewhere else too. It’s also more inclusive, allowing teammates to contribute to the discussion later. A best practice in any channel is titling your thread with: “Thread: [insert topic here]” and replying below in your thread what the context is.
+- If a conversation takes place in a thread that will most likely end in a decision, be sure to notify those people who are affected, but not participating in it. They might have missed it or might be out at the moment. Be sure to share it with everyone and give some prudent time for them to read it. Remember we don’t expect everyone to be responsive right away.
+- A Slack thread is not an artifact. As soon as you realize that there's folks who could contribute to the discussion who aren't around or don't have visibility into it, it should move out of Slack.
+- Handles are a great way to notify people and teams. To avoid mass-notifying folks, it's best to tag the specific individuals who would be interested/affected by the conversation. And if you're not sure who to tag from a specific group, just ask. i.e. 'Should someone from Marketing Ops weigh in here?’ Avoid using the @channel and @here functions in Slack as little as possible, as there’s a strong possibility that teammates in the channel may be in time zones where they are asleep.
+- [Default to using public channels for work-related discussion](../communication/team_chat.md#avoid-private-messages). Even if you intend a message for someone specific, other team members may benefit from reading the discussion or may be able to contribute to it. If you have a question, you may get an answer more quickly from someone in your own time zone than if you DM someone outside of their working hours.
+
+Finally, remember Slack is _not_ a source of truth. Something said or mentioned in Slack, does not automatically make it true. It should follow the process of being discussed as an artifact and merged to a source of truth like any other decision.
+
+### How and when we use sync meetings
 
 Synchronous meetings are best for bonding and feeling connected to your teammates (even beyond your immediate team), sensitive discussions that are more likely to be emotionally sensitive, and fast decision making when speed necessarily outweighs the benefit of having marginal time/thoughtfulness. Our teammates generally simply enjoy synchronous meetings because they get to spend some quality time with the people they work with.
 
@@ -151,6 +143,12 @@ This is why we have different synchronous social activities that help us build c
 When creating intentional synchronous meetings make sure they have a clear purpose and outcome, as well as an _agenda_. By writing down the purpose and agenda, we might also discover if it’d be more effective done asynchronously, or we might reinforce the value of the synchronous format. Furthermore, the agenda is where we should write down the topics and minutes: what was discussed, what did we conclude and what the next steps are.
 
 Sometimes, an initial team-building sync at the start of a project can be extremely helpful and be the starting point for an iteration of asynchronous activities and interactions. The goal of this synchronous meeting should be clear and recorded for teammates who cannot join.
+
+### When to choose sync vs async?
+
+<center>
+<object role="document" width="1133" height="1889" title="One pager: Async versus sync communication" data="onepager-async.svg" style="width: 80%"></object>
+</center>
 
 Now the biggest question: how do we know if this meeting should be done synchronously or asynchronously? Ask yourself:
 
