@@ -34,7 +34,7 @@ https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/asy
   <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.vtt" default>
 </video>
 
-#### How to work async
+#### How we work async
 
 <video width="1280" height="720" controls crossorigin>
   <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.mp4">
