@@ -16,7 +16,7 @@ The cloud SaaS team at Sourcegraph owns anything associated with our goal of bui
   - [Joe Chen](../../../company/team/index.md#joe-chen)
   - [Artem Ruts](../../../company/team/index.md#artem-ruts-he-him)
   - [Milan Freml](../../../company/team/index.md#milan-freml-he-him)
-  - Rafal (Oct 11)
+  - [Rafal Gajdulewicz](../../../company/team/index.md#rafal-gajdulewicz-he-him)
 
 ## How to contact the team and ask for help
 
