@@ -22,6 +22,7 @@ Playing an active role in broadening our reach in the community, building authen
 - [Prosper Otemuyiwa](../company/team/index.md#prosper-otemuyiwa-he-him), Staff Developer Evangelist
 - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Community Advocate
 - Amarachi Emmanuela Azubuike, Social Media Community Manager
+- [Erika Heidi](../company/team/index.md#erika-heidi-sheher), Senior Developer Advocate
 
 ## Contact
 
