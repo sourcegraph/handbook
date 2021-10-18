@@ -114,7 +114,7 @@ In addition to the above interviews, some departments have department-specific i
 
 - Executive Business Partner working session scenario
 
-  - Interviewer(s): Kacie Jenkins, Katerina Nikolova, Gregg Stone, and Kelsey Nagel
+  - Interviewer(s): Kacie Jenkins, Gregg Stone, and Kelsey Nagel
   - Duration: 60-minutes.
   - Details: The goal of this working session is to give us all a sense of what it would be like to work together. Below is a hypothetical situation that we would like to play out during this 60-minute session.
 

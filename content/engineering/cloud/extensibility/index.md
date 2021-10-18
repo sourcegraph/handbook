@@ -31,6 +31,18 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
+          <a href="https://handbook.sourcegraph.com/company/team#beatrix-woo-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Beatrix Woo</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+        <div style="text-align: center; font-size: 12px;">(starting 15/11)</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
           <a href="https://handbook.sourcegraph.com/company/team#erzhan-torokulov-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
@@ -54,17 +66,6 @@ The extensibility team owns our code host and third-party integrations (includin
       <div>
         <div>
           <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-violet.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">We're Hiring!</a></div>
-        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">Software Engineer</a></div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div>
-          <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -78,7 +79,7 @@ The extensibility team owns our code host and third-party integrations (includin
 ## Pages
 
 - [Processes](processes.md)
-- [Goals](../../../direction/cloud/extensibility/index.md)
+- [Goals](../../../company/strategy/cloud/extensibility/index.md)
 - Product docs
   - [Browser Extensions](https://docs.sourcegraph.com/integration/browser_extension)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
@@ -99,7 +100,7 @@ Sourcegraph powers your first stop for any information about your code, for any 
 
 ## Responsibilities
 
-_The extensibility team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the extensibility team. You can find our current priorities in our [goals page](../../../direction/cloud/extensibility/index.md)._
+_The extensibility team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the extensibility team. You can find our current priorities in our [goals page](../../../company/strategy/cloud/extensibility/index.md)._
 
 1. Sourcegraph extensions
    - Providing a Sourcegraph extension API that enables developers to bring data from their favorite developer tools into their Sourcegraph workflow.

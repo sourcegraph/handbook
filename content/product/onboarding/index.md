@@ -103,7 +103,7 @@ Remember:
 ### Understand company and team goals
 
 - [Sourcegraph values](../../company/values.md)
-- [Sourcegraph master plan](../../company/strategy.md)
+- [Sourcegraph strategy](../../company/strategy/index.md)
 - [OKR Tracker](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit?ts=607a3f2e#gid=1699297878)
 
 ### Get ready to contribute to the docs
