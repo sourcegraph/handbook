@@ -4,8 +4,6 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-### Product planning
-
 - [Planning](planning.md) - how we do planning and the artifacts we use to plan.
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
