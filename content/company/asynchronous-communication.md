@@ -132,7 +132,7 @@ This is why we have different synchronous social activities that help us build c
 - [Team gatherings and celebrations](../people-ops/celebrate.md)
 - [Social channels on Slack](../communication/team_chat.md#social)
 
-#### How to run sync meetings when you need one
+#### How to run sync meetings
 
 We also can have synchronous meetings for non-bonding reasons when needed; they are not the enemy and can provide a ton of value. Make sure to be inclusive and respectful of other people's time when you schedule them. When creating intentional synchronous meetings make sure they have a clear purpose and outcome, as well as an _agenda_. By writing down the purpose and agenda, we might also discover if it’d be more effective done asynchronously, or we might reinforce the value of the synchronous format. Furthermore, the agenda is where we should write down the topics and minutes: what was discussed, what did we conclude and what the next steps are.
 
