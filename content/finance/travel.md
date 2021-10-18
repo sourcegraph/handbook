@@ -11,6 +11,7 @@ Sourcegraph is an [all-remote](../company/remote/index.md) company. This means w
 - Use your best judgement and defer to local jurisdictions in determining the number of attendees.
 - When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../company/values.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
 - Follow local laws, customs, and safety regulations during every step of the meetup process.
+- The Company will reimburse testing for Covid-19 when traveling for Company events. The typical reimbursed test is approximately $25 per person per trip.
 
 # Travel budget philosophy
 
