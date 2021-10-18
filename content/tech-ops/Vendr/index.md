@@ -23,7 +23,7 @@
 
 - SaaS contract support
   - [Negotiations:](Supplier_Facing.md) A Vendr Executive Buyer negotiates on Sourcegraph’s behalf directly with the supplier. This includes routing contract components to Sourcegraph Legal, Security, and Finance for sign off
-  - **Background support:** Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
+  - [Background support:](background_support.md) Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
 - [Renewal reminders](Renewals.md) (90 - 120 days before expiration)
 - [Competitive market intelligence](Market_Intel.md)
 
@@ -44,7 +44,7 @@ Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 
 ## When to reach out to Vendr:
 
-- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](Supplier_Facing.md) OR at least 5 business days before your deadline for **background support**
+- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](Supplier_Facing.md) OR at least 5 business days before your deadline for [background support:](background_support.md)
 - Purchasing new software over $5K
 - Upgrading mid-term with a significant jump in cost
 - Renewing an existing software (over $5K) that hasn’t yet been negotiated by Vendr
@@ -52,7 +52,7 @@ Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 ## Types of Vendr Support
 
 - [Supplier facing negotiations](Supplier_Facing.md)
-- **Background negotiation support**
+- [Background support:](background_support.md)
 - [Renewals](Renewals.md)
 - [Competitive market intelligence](Market_Intel.md)
 
