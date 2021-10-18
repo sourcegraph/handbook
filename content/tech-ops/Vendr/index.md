@@ -44,7 +44,7 @@ Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 
 ## When to reach out to Vendr:
 
-- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](Supplier_Facing.md) OR at least 5 business days before your deadline for [background support:](background_support.md)
+- Ideally more than 15 business days before your deadline if you want Vendr to [negotiate the contract](Supplier_Facing.md) OR at least 5 business days before your deadline for [background support](background_support.md)
 - Purchasing new software over $5K
 - Upgrading mid-term with a significant jump in cost
 - Renewing an existing software (over $5K) that hasn’t yet been negotiated by Vendr
@@ -52,7 +52,7 @@ Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 ## Types of Vendr Support
 
 - [Supplier facing negotiations](Supplier_Facing.md)
-- [Background support:](background_support.md)
+- [Background support](background_support.md)
 - [Renewals](Renewals.md)
 - [Competitive market intelligence](Market_Intel.md)
 
