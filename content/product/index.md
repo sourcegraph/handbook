@@ -18,7 +18,7 @@ The product strategy and what we're working on next can be found on the [Sourceg
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
-- [User metrics definitions](../bizops/user_definitions)
+- [User metrics definitions](../bizops/user_definitions.md)
 - [How to add metrics](../bizops/analytics.md#How-to)
 
 ## Product team initiatives
