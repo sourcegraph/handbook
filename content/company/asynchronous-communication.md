@@ -109,7 +109,7 @@ Now the biggest question: how do we know if this meeting should be done synchron
 - Is this meeting to gather feedback or green light? Would sending an email to all the stakeholders or creating a GitHub issue provide everyone with enough information for them to approve it?
 - Is this meeting to gather feedback and make a decision together because it is time-sensitive?
 
-If you think your meeting could be replaced by async work, talk to your teammates and explain clearly what you need, what you don’t know and what your expected outcome is. 
+If you think your meeting could be replaced by async work, talk to your teammates and explain clearly what you need, what you don’t know and what your expected outcome is.
 
 ### Sync meetings for bonding
 
@@ -163,4 +163,3 @@ https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/asy
   <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
   <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
 </video>
-
