@@ -25,7 +25,7 @@ _Note: we can only have 3-4 folks with the same focus day. If you don't see the 
 | Giselle     | 8am - 4pm   | 15:00 - 23:00 | 8am - 4pm     | Thursday  |
 | Jason       | 9am - 5pm   | 14:00 - 22:00 | 7am - 3pm     | Thursday  |
 | Kelvin      | 11am - 7pm  | 18:00 - 02:00 | 11am - 7pm    | TBD       |
-| Mariam      | 9am - 5pm   | 08:00 - 16:00 | 1am - 9am     | TBD       |
+| Mariam      | 9am - 5pm   | 08:00 - 16:00 | 1am - 9am     | Monday    |
 | Michael     | 8am - 4pm   | 07:00 - 15:00 | 12am - 8am    | Friday    |
 | Stompy      | 1pm - 9pm   | 11:00 - 18:00 | 3am - 11am    | Friday    |
 | Warren      | 9am - 5pm   | 16:00 - 24:00 | 9am - 5pm     | Monday    |
