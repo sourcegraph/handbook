@@ -42,6 +42,7 @@ The blog post should be published when the first version that includes the depre
 
 Beyond just publishing the blog post, and effort should be made to notify customers that the deprecation will occur. This can be done in different ways, and it depends on how impactful the deprecation will be. Some possibilities include:
 
+- Updating product documentation
 - Marking the feature in-product with a warning/link to the blog post
 - Proactively contacting customers invidually who we know use the feature
 - Proactively contacting all customers via email
