@@ -70,7 +70,7 @@ Additionally, here are some other tips we've found work well:
 - **Invest in your writing**. It takes more time, but it gives people time to read/think about what you said versus react immediately and it is scalable.
 - **Set timing expectations**. Add parameters like response time and due dates to ensure progress.
 - **Give yourself time**. Give yourself time to adjust to this new way of working - and to do this type of work. Thoughtfully crafting, reading, and responding to async communication takes longer (in the upfront) than the rapid back-and-forth of real-time conversation.
-- **Synchronous meetings.** Consider synchronous meetings when needed. Synchronous meetings are not the enemy and can provide a ton of value. Make sure to be inclusive and respectful of other people's time when you schedule them.
+- Sometimes, an initial team-building sync at the start of a project can be extremely helpful and be the starting point for an iteration of asynchronous activities and interactions. The goal of this synchronous meeting should be clear and recorded for teammates who cannot join.
 - **Not getting much feedback is ok**. It's important that you solicit feedback in the appropriate places, but sometimes you don't hear much back in return. This can be because you hit the nail on the head the first time, or maybe even just that people are busy and didn't get a chance to review it. You shouldn't block on this, or everything will grind to a halt. An exception to this is when making a [one way door decision](https://www.inc.com/jeff-haden/amazon-founder-jeff-bezos-this-is-how-successful-people-make-such-smart-decisions.html), which are big decisions that are hard to reverse - in that case you should be sure to get confirmation from the right people to go ahead.
 - **Share what changed**. If a decision was made async, it's important to get the word out. Although it can feel like oversharing, especially for a remote company it's important to repeat yourself and hit the important communication channels with the news. Otherwise, it's easy to miss.
 - **Rely on the handbook as the source of truth**. A lot of decisions we make (perhaps nearly all of them) should end up with updating the handbook. If all of us maintain the handbook, it will remain a wonderful resource to find out the latest thinking on any topic. If we let it go, people will lose trust, and it will no longer be an effective way to document decisions. If you see something out of date or that we no longer practice in the handbook, prioritize updating it.
@@ -95,7 +95,23 @@ Be mindful:
 
 Finally, remember Slack is _not_ a source of truth. Something said or mentioned in Slack, does not automatically make it true. It should follow the process of being discussed as an artifact and merged to a source of truth like any other decision.
 
-### When we use sync meetings
+### How to choose sync vs async
+
+<center>
+<object role="document" width="1133" height="1889" title="One pager: Async versus sync communication" data="onepager-async.svg" style="width: 80%"></object>
+</center>
+
+Now the biggest question: how do we know if this meeting should be done synchronously or asynchronously? Ask yourself:
+
+- What do we want to achieve?
+- Can the desired outcome be broken down into smaller tasks? If yes, maybe this could be an iteration of async interactions.
+- Can the desired outcome be achieved by teammates working independently using one of the artifacts, like an RFC? Then maybe the best path here is to create an RFC, communicate to all the stakeholders, and set a due date for them to provide feedback.
+- Is this meeting to gather feedback or green light? Would sending an email to all the stakeholders or creating a GitHub issue provide everyone with enough information for them to approve it?
+- Is this meeting to gather feedback and make a decision together because it is time-sensitive?
+
+If you think your meeting could be replaced by async work, talk to your teammates and explain clearly what you need, what you don’t know and what your expected outcome is. 
+
+### Sync meetings for bonding
 
 Synchronous meetings are best for bonding and feeling connected to your teammates (even beyond your immediate team), sensitive discussions that are more likely to be emotionally sensitive, and fast decision making when speed necessarily outweighs the benefit of having marginal time/thoughtfulness. Our teammates generally simply enjoy synchronous meetings because they get to spend some quality time with the people they work with.
 
@@ -112,29 +128,13 @@ This is why we have different synchronous social activities that help us build c
 - [Team gatherings and celebrations](../people-ops/celebrate.md)
 - [Social channels on Slack](../communication/team_chat.md#social)
 
-When creating intentional synchronous meetings make sure they have a clear purpose and outcome, as well as an _agenda_. By writing down the purpose and agenda, we might also discover if it’d be more effective done asynchronously, or we might reinforce the value of the synchronous format. Furthermore, the agenda is where we should write down the topics and minutes: what was discussed, what did we conclude and what the next steps are.
+## Sync meetings for other purposes
 
-Sometimes, an initial team-building sync at the start of a project can be extremely helpful and be the starting point for an iteration of asynchronous activities and interactions. The goal of this synchronous meeting should be clear and recorded for teammates who cannot join.
+We also can have synchronous meetings for non-bonding reasons when needed; they are not the enemy and can provide a ton of value. Make sure to be inclusive and respectful of other people's time when you schedule them. When creating intentional synchronous meetings make sure they have a clear purpose and outcome, as well as an _agenda_. By writing down the purpose and agenda, we might also discover if it’d be more effective done asynchronously, or we might reinforce the value of the synchronous format. Furthermore, the agenda is where we should write down the topics and minutes: what was discussed, what did we conclude and what the next steps are.
 
-### How to choose sync vs async
+If you conclude that a synchronous meeting is the best solution, then remember to **_always_** record it, and share the recording promptly afterwards. It should be a shared responsibility of all attendees to take notes of discussion in the agenda so that people who didn’t or couldn’t attend can catch up and participate. Share the results with everyone who’s affected by or interested in this and finally record it in the proper [source of truth](../communication/index.md#sources-of-truth).
 
-<center>
-<object role="document" width="1133" height="1889" title="One pager: Async versus sync communication" data="onepager-async.svg" style="width: 80%"></object>
-</center>
-
-Now the biggest question: how do we know if this meeting should be done synchronously or asynchronously? Ask yourself:
-
-- What do we want to achieve?
-- Can the desired outcome be broken down into smaller tasks? If yes, maybe this could be an iteration of async interactions.
-- Can the desired outcome be achieved by teammates working independently using one of the artifacts, like an RFC? Then maybe the best path here is to create an RFC, communicate to all the stakeholders, and set a due date for them to provide feedback.
-- Is this meeting to gather feedback or green light? Would sending an email to all the stakeholders or creating a GitHub issue provide everyone with enough information for them to approve it?
-- Is this meeting to gather feedback and make a decision together because it is time-sensitive?
-
-If you think your meeting could be replaced by async work, talk to your teammates and explain clearly what you need, what you don’t know and what your expected outcome is.
-
-If you conclude that a synchronous meeting is the best solution, then remember to **_always_** have an agenda, document what was spoken about, record it, and share the recording promptly afterwards. It should be a shared responsibility of all attendees to take notes of discussion in the agenda so that people who didn’t or couldn’t attend can catch up and participate. Share the results with everyone who’s affected by or interested in this and finally record it in the proper [source of truth](../communication/index.md#sources-of-truth).
-
-**But above all, once the meeting is done, reconsider the synchronous value of it and if it could have been done asynchronously.**
+Once the meeting is done, take a moment to consider the synchronous value of it and if it really could have been done asynchronously after all.
 
 # Videos
 
@@ -163,3 +163,4 @@ https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/asy
   <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
   <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
 </video>
+
