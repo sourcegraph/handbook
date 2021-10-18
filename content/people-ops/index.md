@@ -52,7 +52,7 @@ WIP
   - [Compensation change approvals](compensation/compensation-change-approvals.md)
 - [Expenses we cover](../finance/spending-company-money.md) (aka "Spending company money")
 - [Benefits and perks we offer](benefits-and-perks.md)
-- [Guidelines for travel](travel.md)
+- [Guidelines for travel](../finance/travel.md)
 - [Paid time off and working hours](paid-time-off-and-working-hours.md)
   - [Submitting time off](submitting-time-off.md)
 - [Bank and public holidays](holidays.md)
