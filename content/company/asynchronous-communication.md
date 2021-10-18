@@ -1,4 +1,4 @@
-# Asynchronous communication at Sourcegraph
+# Asynchronous communication
 
 Sourcegraph is an **all-remote** company which means we work from home or office spaces, but do not have a physical office we all go to together. Moreover, we are also a **global company**, which means we are spread all over [the world](./team/locations.md). So not only do we not share an office, most of the time, we don’t even share time zones. For this reason, we use **asynchronous (async)** forms of communication as much as possible and conduct synchronous meetings only when it’s really necessary.
 
