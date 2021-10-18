@@ -1,6 +1,6 @@
 # Submitting an intake form
 
-Intake forms are required for all deals that go through Vendr regardless if it is [supplier-facing](supplier_facing.md) or [background support](background_support.md)
+Intake forms are required for all deals that go through Vendr regardless if it is [supplier-facing negotiations](Supplier_Facing.md) or **background support**
 
 Vendr has a video for [How to submit an intake](https://vimeo.com/587847826/8417a2eb8e) or else follow these steps:
 
@@ -39,9 +39,9 @@ What type of licenses/volume do you want and do you expect to need it all on day
 
 **Involvement:** How will Vendr be involved?
 
-- [Negotiation:](supplier_facing.md) A Vendr Executive Buyer negotiates this deal on my behalf directly with the supplier. Please note: Vendr may need to assist via Background Support if it's not possible to move through your internal approval process before the selected due date.
-- [Background Support:](background_support.md) Vendr works with me in the background to provide strategic guidance, supplier-specific insights, and positioning. Please note: Per Vendr's Rules of Engagement, this is how Vendr supports deals with less than 15 business days of lead time.
-- [Competition:](market_intel.md) Help your Buyer understand the competitive landscape of this purchase.
+- [Negotiation:](Supplier_Facing.md) A Vendr Executive Buyer negotiates this deal on my behalf directly with the supplier. Please note: Vendr may need to assist via Background Support if it's not possible to move through your internal approval process before the selected due date.
+- **Background Support:** Vendr works with me in the background to provide strategic guidance, supplier-specific insights, and positioning. Please note: Per Vendr's Rules of Engagement, this is how Vendr supports deals with less than 15 business days of lead time.
+- [Competition:](Market_Intel.md) Help your Buyer understand the competitive landscape of this purchase.
 
 **Misc.:**
 
