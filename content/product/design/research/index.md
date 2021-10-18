@@ -44,7 +44,7 @@ After research is complete, we publish our findings in the research in the [user
 
 As our users are primarily developers, our own Sourcegraph developers are great interview participants. (However, we need to remember that our own developers are generally very experienced in the area of code search, which results in implicit bias that we must account for in synthesis.)
 
-Use the followign methods to identify internal research subjects:
+Use the following methods to identify internal research subjects:
 
 - Post a request in #dev-chat, #ce, #community-chat or #customer support with information about the area you are researching
 - Often, developers have little bandwith for new requests. Making direct requests of specific developers tends to yeild a higher response rate
