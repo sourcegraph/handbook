@@ -28,7 +28,8 @@
 - [Competitive market intelligence](Market_Intel.md)
 
 ## Who can use Vendr:
-Anyone at Sourcegraph can submit an [intake form](Intake_Form.md). 
+
+Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 
 [Procurement approval policies](https://handbook.sourcegraph.com/finance/ap#sts=AP%20Policy) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
 
