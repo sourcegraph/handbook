@@ -4,6 +4,34 @@ Sourcegraph is an **all-remote** company which means we work from home or office
 
 Async simply means that work doesn’t happen at the same time for everyone. Asynchronous communication allows us to move forward and make decisions without having to meet to talk with everyone involved. In this page you will read about why we are async, the tools we use at Sourcegraph, and how we use them. We also explain how we communicate, tips on how to work asynchronously, and how we decide to be or not to be async.
 
+## Videos
+
+<!--
+Note for editors: All videos embedded on this page (and their captions) are uploaded to (and can be updated at):
+https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/async-communication;tab=objects?project=sourcegraph-dev
+-->
+
+### Why do we use async?
+
+<video width="1920" height="1080" controls crossorigin>
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.mp4">
+  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.vtt" default>
+</video>
+
+### How we work async
+
+<video width="1280" height="720" controls crossorigin>
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.mp4">
+  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.vtt" default>
+</video>
+
+### Tips for working async
+
+<video width="1280" height="720" controls crossorigin>
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
+  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
+</video>
+
 ## Why async?
 
 **We are respectful of people’s time and responsibilities.** All of us have different working styles and strategies of being productive. We also have our personal responsibilities and timelines. We need to be conscious that our teammate might be a caregiver and scheduling a meeting might mean they have to choose between work and their loved ones.
@@ -139,31 +167,3 @@ We also can have synchronous meetings for non-bonding reasons when needed; they 
 If you conclude that a synchronous meeting is the best solution, then remember to **_always_** record it, and share the recording promptly afterwards. It should be a shared responsibility of all attendees to take notes of discussion in the agenda so that people who didn’t or couldn’t attend can catch up and participate. Share the results with everyone who’s affected by or interested in this and finally record it in the proper [source of truth](../communication/index.md#sources-of-truth).
 
 Once the meeting is done, take a moment to consider the synchronous value of it and if it really could have been done asynchronously after all.
-
-## Videos
-
-<!--
-Note for editors: All videos embedded on this page (and their captions) are uploaded to (and can be updated at):
-https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/async-communication;tab=objects?project=sourcegraph-dev
--->
-
-### Why do we use async?
-
-<video width="1920" height="1080" controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.mp4">
-  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.vtt" default>
-</video>
-
-### How we work async
-
-<video width="1280" height="720" controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.mp4">
-  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.vtt" default>
-</video>
-
-### Tips for working async
-
-<video width="1280" height="720" controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
-  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
-</video>
