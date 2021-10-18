@@ -30,7 +30,7 @@ I don’t mind public “kudos” but a sincere 1:1 “thank you” for specific
 
 ### How to convince me to do something
 
-Let me try to break it. I love to debate ideas, and “riff” off one another until I am comfortable with and have convinced myself of the idea. I want to see data. 
+Let me try to break it. I love to debate ideas, and “riff” off one another until I am comfortable with and have convinced myself of the idea. I want to see data.
 
 ### Thoughts/feelings/preferences when it comes to asking for help
 
@@ -42,11 +42,11 @@ I prefer to get feedback and give feedback privately. I want people to be honest
 
 ### What I find enjoyable at work
 
-Digging into details and making sense of information (like solving problems, formulating an approach, etc.) both individually but also with small groups where we can “riff” off one another. There’s nothing more energizing than a small group of creative people digging into “ideate” on something. 
+Digging into details and making sense of information (like solving problems, formulating an approach, etc.) both individually but also with small groups where we can “riff” off one another. There’s nothing more energizing than a small group of creative people digging into “ideate” on something.
 
 ### What kind of work do I find easiest to do when
 
-Detail oriented, focus work - when I’m fresh and there are no distractions (usually mornings but also after hours when there aren’t new demands on my attention and I can ignore everything but what I’m working on). 
+Detail oriented, focus work - when I’m fresh and there are no distractions (usually mornings but also after hours when there aren’t new demands on my attention and I can ignore everything but what I’m working on).
 
 Things that don’t require a bunch of attention or engagement - afternoon. My energy level is sometimes a little lower and it’s harder to focus on things.
 
