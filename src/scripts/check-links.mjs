@@ -58,7 +58,7 @@ for (const filePath of filePaths) {
         }
 
         if (err) {
-            let message = `Invalid link: ${chalk.underline(link)}. `
+            let message = `Link destination not found: ${chalk.underline(link)}. `
             if (isRelativeLink(link)) {
                 const resolvedPath = path.relative(contentFolderPath, fileURLToPath(absoluteDestination))
                 if (resolvedPath !== path.normalize(link)) {
