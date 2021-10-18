@@ -20,34 +20,6 @@ Async simply means that work doesn’t happen at the same time for everyone. Asy
 
 **We need to.** We are a growing all remote, global company. Adopting an asynchronous way of working and communicating is the only way for us to be successful. It is hard and it takes time adjusting, but it is worth it.
 
-### Videos
-
-<!--
-Note for editors: All videos embedded on this page (and their captions) are uploaded to (and can be updated at):
-https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/async-communication;tab=objects?project=sourcegraph-dev
--->
-
-#### Why do we use async?
-
-<video width="1920" height="1080" controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.mp4">
-  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.vtt" default>
-</video>
-
-#### How we work async
-
-<video width="1280" height="720" controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.mp4">
-  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.vtt" default>
-</video>
-
-#### Tips for working async
-
-<video width="1280" height="720" controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
-  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
-</video>
-
 ## How we work asynchronously
 
 The basic flow for decisions is that we use an **artifact** as a temporary place to have a discussion, and then we update our **sources of truth** with the outcome.
@@ -123,7 +95,7 @@ Be mindful:
 
 Finally, remember Slack is _not_ a source of truth. Something said or mentioned in Slack, does not automatically make it true. It should follow the process of being discussed as an artifact and merged to a source of truth like any other decision.
 
-### How and when we use sync meetings
+### When we use sync meetings
 
 Synchronous meetings are best for bonding and feeling connected to your teammates (even beyond your immediate team), sensitive discussions that are more likely to be emotionally sensitive, and fast decision making when speed necessarily outweighs the benefit of having marginal time/thoughtfulness. Our teammates generally simply enjoy synchronous meetings because they get to spend some quality time with the people they work with.
 
@@ -144,7 +116,7 @@ When creating intentional synchronous meetings make sure they have a clear purpo
 
 Sometimes, an initial team-building sync at the start of a project can be extremely helpful and be the starting point for an iteration of asynchronous activities and interactions. The goal of this synchronous meeting should be clear and recorded for teammates who cannot join.
 
-### When to choose sync vs async?
+### How to choose sync vs async
 
 <center>
 <object role="document" width="1133" height="1889" title="One pager: Async versus sync communication" data="onepager-async.svg" style="width: 80%"></object>
@@ -163,3 +135,32 @@ If you think your meeting could be replaced by async work, talk to your teammate
 If you conclude that a synchronous meeting is the best solution, then remember to **_always_** have an agenda, document what was spoken about, record it, and share the recording promptly afterwards. It should be a shared responsibility of all attendees to take notes of discussion in the agenda so that people who didn’t or couldn’t attend can catch up and participate. Share the results with everyone who’s affected by or interested in this and finally record it in the proper [source of truth](../communication/index.md#sources-of-truth).
 
 **But above all, once the meeting is done, reconsider the synchronous value of it and if it could have been done asynchronously.**
+
+# Videos
+
+<!--
+Note for editors: All videos embedded on this page (and their captions) are uploaded to (and can be updated at):
+https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/async-communication;tab=objects?project=sourcegraph-dev
+-->
+
+### Why do we use async?
+
+<video width="1920" height="1080" controls crossorigin>
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.mp4">
+  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.vtt" default>
+</video>
+
+### How we work async
+
+<video width="1280" height="720" controls crossorigin>
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.mp4">
+  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/how_to_async.vtt" default>
+</video>
+
+### Tips for working async
+
+<video width="1280" height="720" controls crossorigin>
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.mp4">
+  <track kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/async_tips.vtt" default>
+</video>
+
