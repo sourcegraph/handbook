@@ -33,14 +33,6 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 - [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
-### ✅ Improve process for documenting product strategy (DONE)
-
-Our current [product goals pages](index.md#roadmap) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product strategy components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
-
-- Owner: Jason
-- [Working Document](https://docs.google.com/document/d/15H6PeCF9c890TqQBc3gaDSk-GDE42SPzhokAlU5Lu8M/edit?usp=sharing)
-- [Pull Request](https://github.com/sourcegraph/about/pull/4599/files)
-
 ### Public facing roadmap
 
 We are missing a single source of truth for what is currently on the roadmap. Our customers as well as Sales, Customer Engineering, Customer Support, and Marketing all need to know what is on the roadmap. Today we use several methods to track our roadmap making any one source unreliable. The end goal is to have a single source of truth that is referenced as needed.
@@ -55,14 +47,6 @@ Customer Engineering is looking to better undrestand the known boundaries of our
 - Owner: Christina
 - [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4617)
-
-### ✅ Improving how we communicate pre-release features (DONE)
-
-We are working with the marketing and corporate communication teams to make sure that how we talk about features is clear leading up to release, especially when they are available early, and how we communicate when they become fully live.
-
-- Owner: Jason
-- [RFC 473: Decouple product and marketing launches/milestones for features that are available early](https://docs.google.com/document/d/1aZcalAUXZGl3GVEBBrUhNtbhMc4hQWy1_8UWHN6q4ys/edit#heading=h.trqab8y0kufp)
-- Implemented via [https://github.com/sourcegraph/handbook/pull/83](https://github.com/sourcegraph/handbook/pull/83)
 
 ### Other initiatives
 
