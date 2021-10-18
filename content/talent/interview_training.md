@@ -6,7 +6,7 @@
 
 Hi everyone, my name is Carly Jones and I am the VP of talent here at Sourcegraph. I’m excited to be here today to talk about interviewing! Interview training is something that we all need - even the most experienced interviewers - because interviewing takes practice and the more we talk about it and learn from each other, the better we will all become.
 
-![Alt Text](<https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(1).png>)
+![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(1).png)
 
 Agenda:
 
@@ -15,7 +15,7 @@ Agenda:
 3. We're going to jump into the Values Interview. We’ve had a lot of different ways in which we've been assessing values in the past. We're now bringing it all together and making it standardized.
 4. Finally, we’re going to discuss the importance of candidate experience.
 
-![Alt Text](<https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(2).png>)
+![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(4).png)
 
 A quick disclaimer as I jump in: this training is not intended only as an opportunity for me to share what I know. I am still learning and evolving, and I encourage you to identify gaps in the training and share things that we should incorporate moving forward.  
 It is very important to train everybody on how to interview and best practices. Not only does it ensure a consistently positive experience for our candidates - which results in better hires - it allows us to ensure we are running an inclusive process for every candidate regardless of background. On top of that, it protects us from a legal standpoint.
