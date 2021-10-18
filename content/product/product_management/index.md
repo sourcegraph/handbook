@@ -12,6 +12,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Tracking user feedback](user_feedback.md) - sources of feedback and how we keep track of that feedback.
 - [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
+- [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
 
 ### Strategy pages
@@ -97,6 +98,5 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 
 - [Onboarding to the product team](../onboarding/index.md)
 - [Sourcegraph messaging](../../marketing/messaging.md)
-- [Product learnings](product_learning.md)
 - [Working with BizOps](../../bizops/index.md#how-to-work-with-us)
 - [Recommended reading](../onboarding/recommended_reading.md)
