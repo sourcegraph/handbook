@@ -136,7 +136,7 @@ If you conclude that a synchronous meeting is the best solution, then remember t
 
 Once the meeting is done, take a moment to consider the synchronous value of it and if it really could have been done asynchronously after all.
 
-# Videos
+## Videos
 
 <!--
 Note for editors: All videos embedded on this page (and their captions) are uploaded to (and can be updated at):
