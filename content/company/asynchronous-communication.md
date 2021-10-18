@@ -27,7 +27,7 @@ Note for editors: All videos embedded on this page (and their captions) are uplo
 https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/async-communication;tab=objects?project=sourcegraph-dev
 -->
 
-#### Why async?
+#### Why do we use async?
 
 <video width="1920" height="1080" controls crossorigin>
   <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/async-communication/why_async.mp4">
