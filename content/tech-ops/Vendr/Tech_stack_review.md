@@ -1,4 +1,4 @@
-#Reviewing your tech stack
+# Reviewing your tech stack
 
 Every system owner is responsible for making sure their tech stack is accurate in Vendr. This means that all the software you have purchased is reflected in the portal and that the renewal dates are accurate for each deal.
 
