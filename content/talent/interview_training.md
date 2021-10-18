@@ -6,7 +6,7 @@
 
 Hi everyone, my name is Carly Jones and I am the VP of talent here at Sourcegraph. I’m excited to be here today to talk about interviewing! Interview training is something that we all need - even the most experienced interviewers - because interviewing takes practice and the more we talk about it and learn from each other, the better we will all become.
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(1).png)
+![Alt Text](<https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20(1).png>)
 
 Agenda:
 
