@@ -4,7 +4,7 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 The Product team strives to make the following true:
 
-- The team is working on the most important things (listed in the [product roadmap](./index.md#roadmap)) to execute on [our strategy](../company/strategy/index.md).
+- The team is working on the most important things to execute on [our strategy](../company/strategy/index.md).
 - Each teammate has the customer and product context needed (about customer problems, likely future priorities, possible solutions, etc.) to perform their work effectively.
 - The product vision and roadmap are communicated well to teammates and everyone outside Sourcegraph.
 
