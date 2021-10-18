@@ -1602,3 +1602,10 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [rafax](https://github.com/rafax)
 - [rafal.gajdulewicz@sourcegraph.com](mailto:rafal.gajdulewicz@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/gajdulewicz/)
 - Rafal lives in Warsaw, Poland with his wife & 2 sons. Before Sourcegraph, Rafal worked as Software Engineer at Google, building UIs for Kubernetes-related products. In his free time, Rafal enjoys riding bicycles and motorcycles, surfing and snowboarding.
+
+## Amber Smokowski 
+- Executive Business Partner, Sales and Marketing 
+- Full Time Traveller  ✈️ from Longmont, CO, USA 🏔
+- GitHub: [ambersmo](https://github.com/ambersmo)
+- [amber.smokowski@sourcegraph.com](mailto:amber.smokowski@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/ambersmo)
+- Amber is a digital nomad, with a love for overpriced cappuccinos and candles. In her free time, you'll find Amber and her boyfriend of 6 years, Jordan, on a constant pursuit to fill their bellies with the world's best foods (Indian, Mexican, and Italian are some of her favorites). Prior to Sourcegraph, Amber was working for an early stage travel startup out of Boulder, CO, USA where she found her passion for "doing work that moves the needle" and surrounding herself with smart people. It's a goal of hers to craft conversations that hit on the most substantial parts of people and never ask anyone what they do for a living.
