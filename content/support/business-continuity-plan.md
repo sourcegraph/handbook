@@ -3,10 +3,12 @@
 Our [SLAs](https://handbook.sourcegraph.com/support#slas) by themselves do not provide our customers the reassurance they deserve to know that we have practices and protocols in place that guarantee the availability of our support services. To this end, this page describes the details of how we maintain business continuity from a support services perspective.
 
 ## Team redundancy
-Our team is located in several geographies around the world as a byproduct of being an [all-remote](https://handbook.sourcegraph.com/company/remote#all-remote) company. This means that we are protected from geography-specific disasters. If a member of our team is experiencing a power outage, for example, every other member of the team is located at a different location, ensuring this redundancy. 
+
+Our team is located in several geographies around the world as a byproduct of being an [all-remote](https://handbook.sourcegraph.com/company/remote#all-remote) company. This means that we are protected from geography-specific disasters. If a member of our team is experiencing a power outage, for example, every other member of the team is located at a different location, ensuring this redundancy.
 
 ## Services availability
-We use Zendesk to manage our support workflow. Customers have several ways to engage us (outlined [here](https://handbook.sourcegraph.com/support/support-workflow#all-the-details-about-all-the-methods-via-which-our-customers-can-ask-for-help). This means that if Zendesk is unavailable, we have the original service as back-up (most commonly either Slack or the Gmail inbox for support@sourcegraph.com). 
+
+We use Zendesk to manage our support workflow. Customers have several ways to engage us (outlined [here](https://handbook.sourcegraph.com/support/support-workflow#all-the-details-about-all-the-methods-via-which-our-customers-can-ask-for-help). This means that if Zendesk is unavailable, we have the original service as back-up (most commonly either Slack or the Gmail inbox for support@sourcegraph.com).
 
 If ever a customer was worried that we were having issues and uncertain we had received notification of their request for help, our customers can request having the phone number of their assigned account executive or customer engineer as a back-up for them to meet any internal business continuity plans they (our customer) may have.
 
