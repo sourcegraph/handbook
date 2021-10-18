@@ -23,4 +23,4 @@ jobs:
         env:
           FORCE_COLOR: 3
           NPM_CONFIG_LOGLEVEL: silent
-        run: yarn check-links
+        run: yarn -s check-links

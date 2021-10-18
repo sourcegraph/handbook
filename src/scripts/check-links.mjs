@@ -8,6 +8,7 @@ import chalk from 'chalk'
 import glob from 'globby'
 import lineColumn from 'line-column'
 import _checkMarkdownLinks from 'markdown-link-check'
+import stripAnsi from 'strip-ansi'
 
 const checkMarkdownLinks = promisify(_checkMarkdownLinks)
 
@@ -112,7 +113,7 @@ if (!errorsReported) {
  */
 function reportError(errorMessage, location) {
     if (process.env.GITHUB_ACTION) {
-        githubAction.error(errorMessage, location)
+        githubAction.error(stripAnsi(errorMessage), location)
     } else {
         console.log(`❌ ${chalk.red.bold(formatLocation(location))} ${chalk.red(errorMessage)}`)
     }
