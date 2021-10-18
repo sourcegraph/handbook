@@ -4,9 +4,8 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 The Product team strives to make the following true:
 
-- The team is working on the most important things to execute on [our strategy](../company/strategy/index.md).
+- The team is working on the most important things to execute on [our strategy](../company/strategy/index.md), and that this is communicated well to teammates and everyone outside of sourcegraph.
 - Each teammate has the customer and product context needed (about customer problems, likely future priorities, possible solutions, etc.) to perform their work effectively.
-- The product vision and roadmap are communicated well to teammates and everyone outside Sourcegraph.
 
 ## Contact
 
@@ -14,11 +13,12 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap
 
-The product strategy for the company as well as individual teams can be found on the [Sourcegraph strategy page](../company/strategy/index.md), and contains where we're headed as well as what we're working on next. There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available.
+The product strategy and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md). There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
 
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
+- [User metrics definitions](../bizops/user_definitions)
 - [How to add metrics](../bizops/analytics.md#How-to)
 
 ## Product team initiatives
