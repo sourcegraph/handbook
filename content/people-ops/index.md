@@ -46,7 +46,7 @@ WIP
   - [Equity and stock options FAQ](compensation/equity-faq.md)
   - [Compensation change approvals](compensation/compensation-change-approvals.md)
 - [Benefits and perks we offer](benefits-and-perks.md)
-- [Guidelines for travel](travel.md)
+- [Guidelines for travel](../finance/travel.md)
 - [Paid time off and working hours](paid-time-off-and-working-hours.md)
   - [Submitting time off](submitting-time-off.md)
 - [Bank and public holidays](holidays.md)
@@ -68,4 +68,8 @@ WIP
 This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](https://handbook.sourcegraph.com/company/goals/2022_q3#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
 
 - [Manager accounts guide](manager-guide.md)
+
 - [Compensation change approvals](compensation/compensation-change-approvals.md)
+
+  - [How to notify People Ops of an org and role change section](manager-guide.md##how-to-notify-people-ops-of-an-org-and-role-change)
+

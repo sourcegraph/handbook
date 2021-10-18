@@ -54,7 +54,7 @@ For help adding yourself to this page, check out [these instructions](../../edit
 ## Rijnard van Tonder
 
 - Software Engineer
-- Phoenix, AZ, USA 🇺🇸
+- Las Vegas, NV, USA 🇺🇸
 - [rijnard@sourcegraph.com](mailto:rijnard@sourcegraph.com), [@rvtond](https://twitter.com/rvtond), [LinkedIn](https://www.linkedin.com/in/rijnard), [pronounce my name 🔊](https://www.name-coach.com/rijnard)
 - Rijnard just wants to stop the proliferation of bad code. Seriously, it's out of control. His favorite color is OCaml, and he collects stamps and flashlights. He currently lives a pretty untethered life while working for Sourcegraph. Incidentally, this aligns well with his goal of building future thinking dev tools that improve the state of software. Rijnard holds a PhD in Computer Science from Carnegie Mellon University, where his research focused on automated bug finding and bug fixing.
 
@@ -1578,3 +1578,35 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [david.sandy@sourcegraph.com](mailto:david.sandy@sourcegraph.com)
 - David spends his time playing video games, watching Netflix/Hulu, playing chess, MTG, reading World War II history and performing other mandatory nerd related activites.
   He lives with his fiance and their two cats: Pixel and Bing (after Bing Crosby -- not the search engine).
+
+## DeVon Thompson (she/her)
+
+- Customer Engineer
+- Baltimore, MD, US 🇺🇸
+- GitHub: [Deethompson](https://github.com/deethompson)
+- [devon.thompson@sourcegraph](mailto:devon.thompson@sourcegraph.com)
+- DeVon is a native of the Baltimore/D.C. metropolitan area. Before joining Sourcegraph she worked as a Support Engineer. DeVon was previously a biomedical laboratory technician and Project Manager before moving into tech. DeVon loves being active whether running, biking, swimming and is a fan of the Washington Wizards and Baltimore Ravens. She loves to read and is passionate about travel and movies. DeVon also loves to help people who are interested in making a career in technology.
+
+## Taylor Sperry (she/her)
+
+- Technical Product Manager
+- Denver, CO, USA 🇺🇸
+- GitHub: [taylorsperry](https://github.com/taylorsperry)
+- [taylor.sperry@sourcegraph.com](mailto:taylor.sperry@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/taylor-sperry/)
+- Taylor spent many years as a book editor in NYC before quitting her job with absolutely no plan and landing at the Turing School of Software and Design in her hometown of Denver, CO. She joins Sourcegraph after a stint helping build enterprise software as an engineer at Workiva. She's happiest in a kitchen full of people (always a sous chef, never the chef), or outside with her nose in a book, a podcast in her ears, or skis on her feet.
+
+## Rafal Gajdulewicz (he/him)
+
+- Software Engineer
+- Warsaw, Poland 🇵🇱
+- GitHub: [rafax](https://github.com/rafax)
+- [rafal.gajdulewicz@sourcegraph.com](mailto:rafal.gajdulewicz@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/gajdulewicz/)
+- Rafal lives in Warsaw, Poland with his wife & 2 sons. Before Sourcegraph, Rafal worked as Software Engineer at Google, building UIs for Kubernetes-related products. In his free time, Rafal enjoys riding bicycles and motorcycles, surfing and snowboarding.
+
+## Lauren Chapman (she/her)
+
+- Security Engineer
+- New Brunswick, Canada 🇨🇦
+- GitHub: [deflncha](https://github.com/deflncha)
+- [lauren.chapman@sourcegraph.com](mailto:lauren.chapman@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/chapman-lauren-202/)
+- Lauren lives in eastern Canada in the small province of New Brunswick with her two kitties Piper & Momo 🐱. Prior to Sourcegraph she worked as a Software Developer, Application Support Specialist, and Application Security Specialist - wearing many different "hats" over her career. In her free time shes loves board games (Catan, Forbidden Island, Pandemic) and to read personal biographies. Lauren also loves to talk about and advocate for mental health, therapy, and meditation 🪴 - all of which have been instrumental in her life.

@@ -137,6 +137,12 @@ The cloud team is a newly formed team at Sourcegraph focused on rapidly scaling 
 
 Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../engineering/cloud/saas/index.md) via the [#cloud-saas slack channel](https://sourcegraph.slack.com/archives/C025BKWFPDY).
 
+### Code Insights
+
+**Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
+
+Any questions about Code Insights should be routed to the [Code Insights Team](../engineering/code-graph/code-insights/index.md)
+
 ## Step 4: File a Github issue
 
 It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering work load planning, and our team's experience.
@@ -152,6 +158,8 @@ When in doubt, file in the private repo—issues can be moved over to the public
 
 - Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CSE New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
+- Include Sourcegraph version number.
+- Include name of the extension along with the extension version number when filing issues with the extensibility team.
 - Include customer quotes in mark down using a quote block. For example, `> quote goes here.`
 - Label it with `customer/$name` and `rfh`.
 - Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.
