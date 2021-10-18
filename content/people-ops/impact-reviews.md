@@ -100,6 +100,8 @@ As a best practice, all teammates are encouraged to share their reviewer’s nam
 
 Each review should take an average of 30-45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
 
+_As a note_: For any managers who have inherited a new direct report and are not listed as their current manager, please reach out to Cassie Melani on Slack or reach out on our #impact-reviews Slack channel.
+
 ### Submitting feedback as a manager
 
 **Managers**: You will be able to review all peer feedback given to each of your direct reports during the review cycle before writing your manager review and summary remarks. Once all of your reviews are submitted, you will be prompted to share the completed review packets with your direct report and we encourage you to set up a time to discuss the packet during your next 1:1. In the spirit of transparency, when you share your packet with your direct report they will be able to see all peer feedback and manager feedback - everyone included in the review process will be able to see each part of the review.
@@ -207,4 +209,4 @@ For more information on how to use SBI and giving great feedback, [check out thi
 
 ## Questions?
 
-For any questions relating to our updated performance review cadence or Lattice, please Slack #impactreviews or reach out directly to Cassie Melani.
+For any questions relating to our updated performance review cadence or Lattice, please Slack #impact-reviews or reach out directly to Cassie Melani.
