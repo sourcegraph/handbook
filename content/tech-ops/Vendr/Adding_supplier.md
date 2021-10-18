@@ -1,6 +1,6 @@
 # Adding an supplier to our Vendr portal:
 
-1. Sign into Vendr
+1. Sign into Vendr through Okta
 2. Go to the [shopping cart](https://sourcegraph.vendr.com/suppliers/search) on the left hand side
 3. Search for the new supplier
 4. Click on ADD TO STACK for existing suppliers who haven’t yet been added to the Vendr app
