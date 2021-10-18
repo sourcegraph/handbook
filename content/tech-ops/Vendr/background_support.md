@@ -11,7 +11,7 @@ What you will need to get started:
 - At least 5 business days prior to your deadline if you want background support for your negotiation
 - You have a quote (which is over $5K) and or terms that you want to share with Vendr
 
-If you have this then you can submit an intake form (link) through the portal
+If you have this then you can submit an [intake form](Intake_Form.md) through the portal
 
 Process: This chart is intended to show who is responsible for completing each task
 
