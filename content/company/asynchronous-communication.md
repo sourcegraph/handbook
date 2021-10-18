@@ -95,11 +95,15 @@ Be mindful:
 
 Finally, remember Slack is _not_ a source of truth. Something said or mentioned in Slack, does not automatically make it true. It should follow the process of being discussed as an artifact and merged to a source of truth like any other decision.
 
-### How to choose sync vs async
+### When to use sync meetings
+
+We've talked above about how to do things async, but sometimes you might need (or think you need) a sync meeting. This section can help.
 
 <center>
 <object role="document" width="1133" height="1889" title="One pager: Async versus sync communication" data="onepager-async.svg" style="width: 80%"></object>
 </center>
+
+#### Deciding between sync and async
 
 Now the biggest question: how do we know if this meeting should be done synchronously or asynchronously? Ask yourself:
 
@@ -111,7 +115,7 @@ Now the biggest question: how do we know if this meeting should be done synchron
 
 If you think your meeting could be replaced by async work, talk to your teammates and explain clearly what you need, what you don’t know and what your expected outcome is.
 
-### Sync meetings for bonding
+#### Sync meetings for bonding
 
 Synchronous meetings are best for bonding and feeling connected to your teammates (even beyond your immediate team), sensitive discussions that are more likely to be emotionally sensitive, and fast decision making when speed necessarily outweighs the benefit of having marginal time/thoughtfulness. Our teammates generally simply enjoy synchronous meetings because they get to spend some quality time with the people they work with.
 
@@ -128,7 +132,7 @@ This is why we have different synchronous social activities that help us build c
 - [Team gatherings and celebrations](../people-ops/celebrate.md)
 - [Social channels on Slack](../communication/team_chat.md#social)
 
-## Sync meetings for other purposes
+#### How to run sync meetings when you need one
 
 We also can have synchronous meetings for non-bonding reasons when needed; they are not the enemy and can provide a ton of value. Make sure to be inclusive and respectful of other people's time when you schedule them. When creating intentional synchronous meetings make sure they have a clear purpose and outcome, as well as an _agenda_. By writing down the purpose and agenda, we might also discover if it’d be more effective done asynchronously, or we might reinforce the value of the synchronous format. Furthermore, the agenda is where we should write down the topics and minutes: what was discussed, what did we conclude and what the next steps are.
 
