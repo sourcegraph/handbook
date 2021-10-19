@@ -24,7 +24,7 @@ If you're not sure what the error message means or can't determine how to fix it
 
 #### Must link to .md file
 
-- ([example](https://github.com/sourcegraph/about/runs/2976049292))
+- [Example](https://github.com/sourcegraph/about/runs/2976049292)
 - Your error contains text like this:
   - `handbook/product/user_feedback.md: must link to .md file, not ../support/support-workflow`
 - Breaking down the error:
@@ -37,7 +37,7 @@ If you're not sure what the error message means or can't determine how to fix it
 
 #### Disconnected page / No inlinks
 
-- ([example](https://github.com/sourcegraph/about/runs/2975885844))
+- [Example](https://github.com/sourcegraph/about/runs/2975885844)
 - Your error contains text like this:
   - `handbook/engineering/hiring/engineering-leadership.md: disconnected page (no inlinks from other pages)`
 - Breaking down the error:
