@@ -10,7 +10,7 @@ I learn by doing, typically. But I can also watch someone do an activity and pic
 
 ### Communication style
 
-Clear, precise, as simple as possible. I prefer when people are direct with me; whether its good or bad, I would rather someone tell me directly and as soon as possible. If I know about something I feel empowered to do something about it (in whatever capacity I may have).  
+Clear, precise, as simple as possible. I prefer when people are direct with me; whether its good or bad, I would rather someone tell me directly and as soon as possible. If I know about something I feel empowered to do something about it (in whatever capacity I may have).
 
 ### Preferred way to collaborate
 
@@ -39,7 +39,7 @@ I'm happy for people to ask me for help. I will want to understand the ask, and 
 
 ### How I like to give and receive feedback
 
-Direct constant feedback is best. By making it a habit, it's easy to course correct. We should explain what is the expectation? What is the observed gap? What are some examples? 
+Direct constant feedback is best. By making it a habit, it's easy to course correct. We should explain what is the expectation? What is the observed gap? What are some examples?
 
 Feedback should be two way. It should be given in a friendly manner, and with the understanding it's to help, not to critise. It takes two-way trust to feel comfortable feeling that way.
 
@@ -89,7 +89,7 @@ Getting football (soccer) fit again. I used to play for a team a few years back,
 
 ### Something I fear
 
-Zombies. I know they're not real, but the very concept of them give me the creeps. 
+Zombies. I know they're not real, but the very concept of them give me the creeps.
 
 ### A quote I find powerful
 
