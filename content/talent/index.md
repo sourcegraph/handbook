@@ -60,7 +60,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## [Resources for Recruiting Operations](./resources_for_recruiting_operations.md)
 
-- [How to schedule an interview](./resources_for_recruiting_operations#how-to-schedule-an-interview.md)
+- [How to schedule an interview](./resources_for_recruiting_operations.md#how-to-schedule-an-interview)
 
 ## Talent Team Members
 
