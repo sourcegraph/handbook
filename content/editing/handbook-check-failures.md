@@ -42,7 +42,7 @@ If you're not sure what the error message means or can't determine how to fix it
      - This is telling you that there are no links in the Handbook to your new page. This throws an error because unless someone has a link directly to your page, or knows to search for it, there will be no way for them to discover the content. Requiring links helps ensure your content will be surfaced to the right audiences.
   - **To Fix:** Determine if this page is still valuable, and if so, on which other handbook page to add a link to this page. If it’s not obvious or you’re not sure, you should post for help in #handbook and tag someone you think might know better (based on the content of the disconnected page).
   - See [this page](linking-within-handbook.md) to learn how to use relative paths to link Handbook pages. This helps us maintain links over time more easily than pasting a URL.
-#### **Broken Link:**
+#### **Broken Link**
   - Your error contains text like this:
    - `handbook/company/orgchart.md: broken link to /sales/sales-ops#members`
   - Breaking down the error:
