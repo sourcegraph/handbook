@@ -47,7 +47,7 @@ If you're not sure what the error message means or can't determine how to fix it
    - `handbook/company/orgchart.md: broken link to /sales/sales-ops#members`
   - Breaking down the error:
    - `handbook/company/orgchart.md`
-      ` \* This is telling you what file is causing the failure. In this case, it’s something within the “Org Chart” page nested under the “Company” page.
+      - ` \* This is telling you what file is causing the failure. In this case, it’s something within the “Org Chart” page nested under the “Company” page.
    - `broken link to /sales/sales-ops#members`
     - This is telling you that the link to the “Sales Ops” page is broken. This can happen when a page is moved or deleted, and that link path no longer works.
   - **To Fix: **Visit the page where the broken link exists. Find that link within the page, and update the relative path to reflect the new location of the page. Or, if the page has been deleted, remove the link altogether. As always, don’t hesitate to ask @handbook-support in the #handbook Slack channel for help.
