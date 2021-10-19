@@ -1,6 +1,6 @@
 # Booking travel through TripActions
 
-TripActions is our source of truth for booking Company trips. All teammate travel (i.e. flights, hotel, rental cars, trains) must be booked through this platform to be considered within your travel budgets. Any travel booked outside of TripActions unfortunately will not be reimbursed. 
+TripActions is our source of truth for booking Company trips. All teammate travel (i.e. flights, hotel, rental cars, trains) must be booked through this platform to be considered within your travel budgets. Any travel booked outside of TripActions unfortunately will not be reimbursed.
 
 All Company travel costs incurred in TripActions will be added to a Sourcegraph invoice, and no credit card is needed. While it is possible to find a cheaper flight outside of TripActions, we get overall better rates in the aggregate with the buying power of the whole company.
 
@@ -30,7 +30,7 @@ Below are steps to help you get set up with your TripActions account.
 
 ## Dynamic Pricing
 
-We setup our bookings policy within TripActions as a benchmark based on the market prices for selected destination and travel dates. For any accomodation search, TripAction looks at all reasonable results and then calculates a Median Price, or fair price, for the search called the "Price to Beat." For bookings under the "Price to Beat," the Company provides rewards points (i.e. Amazon gift card) as shown within TripActions. 
+We setup our bookings policy within TripActions as a benchmark based on the market prices for selected destination and travel dates. For any accomodation search, TripAction looks at all reasonable results and then calculates a Median Price, or fair price, for the search called the "Price to Beat." For bookings under the "Price to Beat," the Company provides rewards points (i.e. Amazon gift card) as shown within TripActions.
 
 ## Booking shows Out of Policy
 
