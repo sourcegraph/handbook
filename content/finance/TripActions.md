@@ -38,7 +38,7 @@ If you receive an out-of-policy notification upon booking, an email will be sent
 
 ## New Teammates Joining Trips
 
-If you are planning a trip and would like to include a new teammate who has not yet been onboarded, we can support their inclusion through guest bookings. We have designated TripActions delegates for each department, and as such, these teammates can assist with sending guest invitations. You will need to provide location and dates when requesting a guest invitation. Please reach out to travel@sourcegraph.com or #expense-inquiries in Slack for any questions.
+If you are planning a trip and would like to include a new teammate who has not yet been onboarded but will be onboarded by the trip date, we can support their inclusion through guest bookings. We have designated TripActions delegates for each department, and as such, these teammates can assist with sending guest invitations. You will need to provide location and dates when requesting a guest invitation. Please reach out to travel@sourcegraph.com or #expense-inquiries in Slack for any questions.
 
 ## Travel Assistance
 
