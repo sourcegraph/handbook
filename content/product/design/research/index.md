@@ -53,7 +53,7 @@ Use the following methods to identify internal research subjects:
 
 Relying on internal users can lead to introducing bias into your research, yet sourcing external users for feedback is one of the most difficult parts of the research process. The following are methods product and design use to source research candidates:
 
-- Outreach on social media, either through our platform or via active and influential accounts
+- Outreach on social media, either through our platform (ask for a post in #social-media-action) or via active and influential accounts such as the CTO, CEO, or members of your team. 
 - The #feedback Slack channel can be a source of participants for specific issues
   - Use Productboard to identify multiple feedback entries related to a single issue
 - Consult customer engineering or support to identify customers who may be interested or have feedback on the area of research. Additionally, the following methods are helpful when locating customers to interview:
