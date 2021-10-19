@@ -203,12 +203,14 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **US teammates:**
 
-- You will update your home address **and** work address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F) and in [Rippling](https://app.rippling.com/insurance/employee/qle/init). To make sure your change is reflected in time for the following payroll, and to ensure you are taxed correctly, please submit your change at least one week before the payroll date.
+- You will update your home address **and** work address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F) and in [Rippling](https://app.rippling.com/insurance/employee/qle/init). 
+  - **Note:** to make sure your change is reflected in time for the following payroll, and to ensure you are taxed correctly, please submit your change at least _seven calendar days_ before the payroll date.
   - **Note:** California-based teammates, if you were on the Kaiser Permanente insurance plan in California and have moved out of state, you will also need to re-enroll in health benefits (Blue Shield) via [Rippling](https://app.rippling.com/insurance/employee/qle/init).
 
 **Non-US teammates:**
 
-- Please update your home address **and** work address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F). To make sure your change is reflected in time for the following payroll, please submit your change at least one week before the payroll date.
+- Please update your home address **and** work address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F). 
+  -  **Note:** to make sure your change is reflected in time for the following payroll, please submit your change at least _seven calendar days_ before the payroll date.
 
 ### Q. Where and when do I receive my BambooHR invite?
 
@@ -235,7 +237,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **US teammates:**
 
-- You are eligible to enroll immediately upon hire, and can make changes or updates at any point. You can enroll in Rippling (if you see a Human Interest single-sign-in option) or in Human Interest [after receiving your invite](https://github.com/sourcegraph/handbook/new/main/content/people-ops#q-where-and-when-do-i-receive-my-human-interest-invitation).
+- You are eligible to enroll immediately upon hire and can make changes or updates at any point. You will enroll in Human Interest ([after receiving your invite](https://github.com/sourcegraph/handbook/new/main/content/people-ops#q-where-and-when-do-i-receive-my-human-interest-invitation)) or via Rippling (if you see a Human Interest single-sign-in option on your [dashboard](https://app.rippling.com/dashboard)).
 
 **Non-US teammates:**
 
