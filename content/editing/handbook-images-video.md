@@ -22,7 +22,7 @@
 
 2. To insert your image into the Handbook, follow this format:
    - `![Alt Text](Image URL)`
-   - `Alt Text`is a description of your image. Learn more [here](https://blog.hubspot.com/marketing/image-alt-text).
+   - `Alt Text`is a description of your image. Learn more [here](https://moz.com/learn/seo/alt-text).
    - `Image URL` is the URL you copied in step 1. It will look something like this: `https://storage.googleapis.com/sourcegraph-assets/handbook/adding-images-demo.png`
 3. Finish editing and [merge your changes as normal](edit-a-single-file.md).
 
