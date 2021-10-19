@@ -4,6 +4,7 @@ Our README expands on our profile in [the company team directory](../company/tea
 
 - Aimee [README](aimee-readme.md)
 - Bob [README](bob-readme.md)
+- Christy [README](christy-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 
