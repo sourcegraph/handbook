@@ -7,22 +7,23 @@
 ### Adding Images to Google Cloud Storage
 
 1. View the [sourcegraph-assets bucket](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true_)
-    - If you don’t have permission to view the contents of this link, ask the team in #it-tech-ops for Google Cloud Storage permissions to add images to the Handbook.
+   - If you don’t have permission to view the contents of this link, ask the team in #it-tech-ops for Google Cloud Storage permissions to add images to the Handbook.
 2. Make sure your file has a unique name that clearly describes the image or video. There are lots of files in Google Cloud Storage, and you want to be able to identify yours easily.
-    - Avoid special characters or spaces as they can sometimes interfere with Markdown rendering. For example:
-      - `adding-images-screenshot`
-4. Navigate to the handbook/ folder found in the link in step 1. You can scroll through the list or search.
-5. Click “Upload Files” to select your file, and click “Open”.
+   - Avoid special characters or spaces as they can sometimes interfere with Markdown rendering. For example:
+     - `adding-images-screenshot`
+3. Navigate to the handbook/ folder found in the link in step 1. You can scroll through the list or search.
+4. Click “Upload Files” to select your file, and click “Open”.
 
 ### Adding Images from Google Cloud Storage to the Handbook
 
 1. In Google Cloud Storage, copy the URL for the image you want to include.
-    - You can do this by clicking the file name to see more details, then copying the “Public URL”.
+
+   - You can do this by clicking the file name to see more details, then copying the “Public URL”.
 
 2. To insert your image into the Handbook, follow this format:
-    - `![Alt Text](Image URL)`
-     - `Alt Text`is a description of your image. Learn more [here](https://blog.hubspot.com/marketing/image-alt-text).
-     - `Image URL` is the URL you copied in step 1. It will look something like this: `https://storage.googleapis.com/sourcegraph-assets/handbook/adding-images-demo.png`
+   - `![Alt Text](Image URL)`
+   - `Alt Text`is a description of your image. Learn more [here](https://blog.hubspot.com/marketing/image-alt-text).
+   - `Image URL` is the URL you copied in step 1. It will look something like this: `https://storage.googleapis.com/sourcegraph-assets/handbook/adding-images-demo.png`
 3. Finish editing and [merge your changes as normal](edit-a-single-file.md).
 
 ## Videos
