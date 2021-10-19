@@ -26,6 +26,10 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 
 **U.S. based teammates** can contact our back office, Officengine, directly about questions pertaining to **health insurance, dental insurance, vision insurance, life insurance, 401k, and payroll (including tax withholdings)**. To do this, use the [Sourcegraph support request](https://docs.google.com/forms/d/e/1FAIpQLSecCNJDd8r26WxjOK0AHIGEV1gfzN_tRdYnXr2heIejLN-BUg/viewform) form to input requests and indicate their urgency. This form feeds into Officengine's ticketing system and alerts their team via email. _Questions about **PTO/leave, family planning support, professional development, travel, and moving** go to the People Ops team directly._
 
+### People Ops frequently asked questions (FAQs)
+
+[People Ops FAQs](people-ops-faqs.md)
+
 ## Goals
 
 WIP
