@@ -166,12 +166,12 @@ We ask you to use your best judgment when traveling and spending company money. 
 
 Please see below for a complete summary of spend limit, per diem, and hotel budget guidelines for each type of trip. The best practice is to plan your trip in accordance with the per diem and hotel policy, in order to efficiently use the spending budget allowed. Costs incurred will only be reimbursed to spending limits provided (or the applicable guidance), so it is up to the individual/team how to best allocate that spending allowance for their trips.
 
-| Trip Category     | Total Spend Limit | Per Diem?        | Hotel Budget?    |
-| ----------------- | ----------------- | ---------------- | ---------------- |
-| Company-wide      | N/A               | Yes              | Yes              |
+| Trip Category     | Total Spend Limit | Per Diem?                        | Hotel Budget?                    |
+| ----------------- | ----------------- | -------------------------------- | -------------------------------- |
+| Company-wide      | N/A               | Yes                              | Yes                              |
 | Team              | $4,000            | Recommended if under budget only | Recommended if under budget only |
 | Individual        | $2,500            | Recommended if under budget only | Recommended if under budget only |
-| Business/Customer | N/A               | Yes              | Yes              |
+| Business/Customer | N/A               | Yes                              | Yes                              |
 | Education         | $1,000            | Recommended if under budget only | Recommended if under budget only |
 
 ## Dependent care budget:
@@ -183,7 +183,7 @@ For business critical travel or travel required for your role, we offer a budget
 
 # How to book your trip in TripActions
 
-TripActions is our source of truth for booking travel. All teammate travel must be booked through this platform to be considered within your travel budgets. Please refer to our [TripActions](TripActions.md) guide which covers topics including: account setup, how to book a trip, bookings policy, etc. 
+TripActions is our source of truth for booking travel. All teammate travel must be booked through this platform to be considered within your travel budgets. Please refer to our [TripActions](TripActions.md) guide which covers topics including: account setup, how to book a trip, bookings policy, etc.
 
 For any additional questions, please reach out to #finance and #people-ops at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
 
