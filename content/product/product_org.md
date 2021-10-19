@@ -22,7 +22,7 @@ This page documents our current org structure.
     - To be hired Director of Design. Christina acting director until then.
       - [Rob Rhyne](../company/team/index.md#rob-rhyne), Product Designer - [Batch Changes](../engineering/code-graph/batch-changes/index.md) and [Search](../engineering/code-graph/search/index.md)
       - [Alicja Suska](../company/team/index.md#alicja-suska-she-her), Product Designer - [Frontend Platform](../engineering/enablement/frontend-platform/index.md), [Extensibility](../engineering/cloud/extensibility/index.md), [Code Insights](../engineering/code-graph/code-insights/index.md)
-      - [Quinn Keast](../company/team/index.md#quinn-keast-he-him), Product Designer - [Core application](../engineering/core-application/index.md) and [Search (Code monitoring & contexts)](../engineering/code-graph/search/index.md)
+      - [Quinn Keast](../company/team/index.md#quinn-keast-he-him), Product Designer - [Cloud SaaS](../engineering/core-application/index.md) and [Search (Code monitoring & contexts)](../engineering/code-graph/search/index.md)
       - [Sara Lee](../company/team/index.md#sara-lee-she-her), Product Designer - [Code intel](../engineering/code-graph/code-intelligence/index.md), [Extensibility](../engineering/cloud/extensibility/index.md)
       - [Marisa Kanemoto](../company/team/index.md#marisa-kanemoto-she-her), Product Designer - [Search](../engineering/code-graph/search/index.md)
   - [Technical Writing](roles/index.md#technical-writer)

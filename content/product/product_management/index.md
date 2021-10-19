@@ -65,25 +65,6 @@ The reason for this is to avoid going for too long without customer feedback (fr
 
 When we have relaxed this in the past, the results have been bad and the overwhelming feedback from retrospectives has been to release regularly.
 
-## Sourcegraph’s design principles
-
-Sourcegraph’s product design principles are how we express our shared vision and values while designing for our product.
-
-We use our principles to:
-
-- To help our team make **consistent decisions**.
-- To **provide constraints** that lead to better outcomes.
-- To **resolve ambiguity** when faced with options that provide value among different dimensions.
-- To build a **shared vision** across our design and product team.
-
-Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZITYypSAJJ63Ir_fFPxJfTtidJmsrxUXW7o/edit#) with members of the design, product, and frontend application teams, and will benefit:
-
-- Designers.
-- Product managers.
-- Engineers.
-- Marketing.
-- And other stakeholders involved in the design process.
-
 ## Tools/Templates
 
 - [Strategy page template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/strategy_template.md) - a template for a product strategy page, covering vision, strategy and short term direction ([example](strategy_template.md))
