@@ -143,6 +143,8 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Enablement](support-enablement.md)
 - [Tools](support-tools.md)
 - [Assigned CSEs](assigned-cse.md)
+- [Process: Permanently deleting user data](permanently_deleting_user_data.md)
+- [Business continuity](business-continuity-plan.md)
 
 ## SLAs
 
