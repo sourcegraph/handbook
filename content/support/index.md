@@ -138,7 +138,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Prioritization](support-prioritization.md)
 - [Customer exceptions](customer-exceptions.md)
 - [Engaging other teams](engaging-other-teams.md)
-- [P0 incident response](p0-Incident-Response.md)
+- [Serving as messenger during incidents](https://handbook.sourcegraph.com/engineering/incidents)
 - [Triaging](customer-support-triaging.md)
 - [Enablement](support-enablement.md)
 - [Tools](support-tools.md)
