@@ -57,7 +57,7 @@ Relying on internal users can lead to introducing bias into your research, yet s
 - The #feedback Slack channel can be a source of participants for specific issues
   - Use Productboard to identify multiple feedback entries related to a single issue
 - Consult customer engineering or support to identify customers who may be interested or have feedback on the area of research. Additionally, the following methods are helpful when locating customers to interview:
-  - Searching Slack support channels for users interested in the product space
+  - Searching Slack support channels (#support-{customer-name}) for users interested in the product space
   - Posting a request in the support channels of customers who are users of or interested in using the feature
   - Searching Productboard or Chorus.ai for mentions of the feature in question
 - Consider running the test on usertesting.com
