@@ -169,10 +169,10 @@ Please see below for a complete summary of spend limit, per diem, and hotel budg
 | Trip Category     | Total Spend Limit | Per Diem?        | Hotel Budget?    |
 | ----------------- | ----------------- | ---------------- | ---------------- |
 | Company-wide      | N/A               | Yes              | Yes              |
-| Team              | $4,000            | Recommended only | Recommended only |
-| Individual        | $2,500            | Recommended only | Recommended only |
+| Team              | $4,000            | Recommended if under budget only | Recommended if under budget only |
+| Individual        | $2,500            | Recommended if under budget only | Recommended if under budget only |
 | Business/Customer | N/A               | Yes              | Yes              |
-| Education         | $1,000            | Recommended Only | Recommended only |
+| Education         | $1,000            | Recommended if under budget only | Recommended if under budget only |
 
 ## Dependent care budget:
 
@@ -181,9 +181,9 @@ For business critical travel or travel required for your role, we offer a budget
 - This benefit exists to support our teammates who have dependents by giving them the certainty of knowing that their dependents will be taken care of while they are on business critical company travel.
 - For any additional questions, please reach out to Finance and People Ops.
 
-# How to get your trip approved in TripActions
+# How to book your trip in TripActions
 
-[TripActions](TripActions.md)
+TripActions is our source of truth for booking travel. All teammate travel must be booked through this platform to be considered within your travel budgets. Please refer to our [TripActions](TripActions.md) guide which covers topics including: account setup, how to book a trip, bookings policy, etc. 
 
 For any additional questions, please reach out to #finance and #people-ops at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
 
