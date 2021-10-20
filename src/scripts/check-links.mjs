@@ -12,6 +12,9 @@ import stripAnsi from 'strip-ansi'
 
 const checkMarkdownLinks = promisify(_checkMarkdownLinks)
 
+const absoluteHandbookUrlPrefixPattern =
+    /^https?:\/\/(handbook\.sourcegraph\.com\/|about\.sourcegraph\.com\/(handbook|company)\/)/
+
 const repoBasePath = path.resolve(fileURLToPath(import.meta.url), '../../..')
 const contentFolderPath = path.join(repoBasePath, 'content')
 
@@ -72,20 +75,18 @@ for (const filePath of filePaths) {
 
         // Check links are absolute
 
-        // const absoluteHandbookUrlPrefixPattern =
-        //     /^https?:\/\/(handbook\.sourcegraph\.com\/|about\.sourcegraph\.com\/(handbook|company)\/)/
-        // if (absoluteHandbookUrlPrefixPattern.test(link)) {
-        //     const handbookDestinationPath = link.replace(absoluteHandbookUrlPrefixPattern, '')
-        //     const absoluteDestinationPath = path.join(contentFolderPath, handbookDestinationPath)
-        //     const relativeLink = path.relative(absoluteFilePath, absoluteDestinationPath).replace(/\\/g, '/')
-        //     reportError(
-        //         `Absolute handbook link found: ${chalk.underline(link)}. ` +
-        //             `Handbook links must always be ${chalk.italic('relative')}. ` +
-        //             `Replace this URL with "${chalk.underline(relativeLink)}". ` +
-        //             'For more help, see https://handbook.sourcegraph.com/editing/linking-within-handbook.',
-        //         location
-        //     )
-        // }
+        if (absoluteHandbookUrlPrefixPattern.test(link)) {
+            const handbookDestinationPath = link.replace(absoluteHandbookUrlPrefixPattern, '')
+            const absoluteDestinationPath = path.join(contentFolderPath, handbookDestinationPath)
+            const relativeLink = path.relative(absoluteFilePath, absoluteDestinationPath).replace(/\\/g, '/')
+            reportError(
+                `Absolute handbook link found: ${chalk.underline(link)}. ` +
+                    `Handbook links must always be ${chalk.italic('relative')}. ` +
+                    `Replace this URL with "${chalk.underline(relativeLink)}". ` +
+                    'For more help, see https://handbook.sourcegraph.com/editing/linking-within-handbook.',
+                location
+            )
+        }
     }
 }
 
