@@ -61,7 +61,7 @@ For Google Chrome:
 1. In the "Add search engine" form, enter:
    - Search engine: `Sourcegraph handbook`
    - Keyword: `hb` (or some other shortcut of your choosing)
-   - URL with %s in place of query: `./index.md#stq=%s`
+   - URL with %s in place of query: `https://handbook.sourcegraph.com#stq=%s`
 1. Press the **Add** button.
 
 For Firefox:
@@ -70,7 +70,7 @@ For Firefox:
 1. Choose `Add a keyword for this Search`.
 1. Enter a keyword that you would like to use (e.g. `hb`).
 1. Open your bookmarks and edit the handbook bookmark that was just created
-1. Change the URL on the bookmark to `./index.md#stq=%s`
+1. Change the URL on the bookmark to `https://handbook.sourcegraph.com#stq=%s`
 
 Then, to use the browser search shortcut:
 
