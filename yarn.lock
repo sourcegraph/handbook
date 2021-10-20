@@ -663,6 +663,11 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
+"@types/relateurl@^0.2.29":
+  version "0.2.29"
+  resolved "https://registry.npmjs.org/@types/relateurl/-/relateurl-0.2.29.tgz#68ccecec3d4ffdafb9c577fe764f912afc050fe6"
+  integrity sha512-QSvevZ+IRww2ldtfv1QskYsqVVVwCKQf1XbwtcyyoRvLIQzfyPhj/C+3+PKzSDRdiyejaiLgnq//XTkleorpLg==
+
 "@types/scheduler@*":
   version "0.16.2"
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
@@ -4880,6 +4885,11 @@ rehype-url-inspector@^2.0.2:
   integrity sha512-mMbllcH41iweCClditEVD+dCntCdItKJh+ajh8XdjhdaPPvHOy0RW0Fa1Il4+Zq0yvAaqG/dGCrlDyW79X/rhA==
   dependencies:
     "@jsdevtools/rehype-url-inspector" "2.0.2"
+
+relateurl@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.npmjs.org/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
+  integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
 remark-extract-toc@^1.1.0:
   version "1.1.0"
