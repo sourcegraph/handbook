@@ -39,12 +39,12 @@ The first Sourcegraph teammate (regardless of their role) that becomes aware of 
 
 ### Severity levels
 
-We currently have 2 severity levels for incidents that require this workflow and both of these levels are considered a severity 1 per [our contractual SLAs](https://about.sourcegraph.com/handbook/support#slas), we just break them down a bit more for internal delineation:
+We currently have 2 severity levels for incidents that require this workflow and both of these levels are considered a severity 1 per [our contractual SLAs](../../support/index.md#slas), we just break them down a bit more for internal delineation:
 
 1. **Critical** - Issues causing very high impact to customers. Immediate response is required. Examples include a full outage, or a data breach.
 2. **Major** - Issues causing significant impact. Immediate response is usually required. We might have some workarounds that mitigate the impact on customers. Examples include an important sub-system failing.
 
-Severity level 2 issues [our contractual SLAs](https://about.sourcegraph.com/handbook/support#slas) (aka, minor issues) should not use this workflow (these go through the usual support/feedback processes.
+Severity level 2 issues [our contractual SLAs](../../support/index.md#slas) (aka, minor issues) should not use this workflow (these go through the usual support/feedback processes.
 
 ### How to identify folks to serve in incident lead and messenger roles
 
@@ -73,7 +73,7 @@ The incident lead is responsible for resolving the incident as quickly and safel
      - Merge the PR as soon as CI passes (don’t block on review).
    - [Fix failed database migration on sourcegraph.com](https://github.com/sourcegraph/sourcegraph/tree/main/migrations#dirty-schema)
    - [How to resolve “Sourcegraph.com is deleted entirely”](playbooks/dotcom_deleted_entirely.md)
-5. If rolling back and or reverting commits doesn’t resolve the incident, then identify the most logical [resolution owner](https://about.sourcegraph.com/handbook/engineering/incidents#ownership) given what you know (this may be yourself) and have that person acknowledge ownership in the incident chatroom (i.e. “I’m on it”).
+5. If rolling back and or reverting commits doesn’t resolve the incident, then identify the most logical resolution owner given what you know (this may be yourself) and have that person acknowledge ownership in the incident chatroom (i.e. “I’m on it”).
    - The person who has made recent changes to the affected product/code/system.
    - The person who owns the affected product/code/system.
    - The on-call engineer.
