@@ -88,7 +88,12 @@ export default function Page({ page }: PageProps): JSX.Element {
                                     )
                                 })}
                             </nav>
-                            <main className="markdown-body" dangerouslySetInnerHTML={{ __html: page.content }} />
+                            <main
+                                className="markdown-body"
+                                data-swiftype-name="body"
+                                data-swiftype-type="text"
+                                dangerouslySetInnerHTML={{ __html: page.content }}
+                            />
                         </>
                     ) : (
                         <h1>Unexpected error</h1>
