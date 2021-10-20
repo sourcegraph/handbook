@@ -83,7 +83,7 @@ You will not need permission for choosing which co-working space you’d like to
 > co-working space is more than $500 USD, please get approval from People Ops
 > and Finance via email.
 
-**Education and professional development (conferences, courses):** $1000 USD/year (if your professional development conference, event, or purchase exceeds this amount, simply notify People Ops & Finance via email with the anticipated cost to obtain approval).
+**Education and professional development (conferences, courses):** $1000 USD/year (if your professional development conference, event, or purchase exceeds this amount, simply notify People Ops & Finance via email with the anticipated cost to obtain approval). If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance, but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to Finance for approval prior to booking.
 
 **Moving (moving, packing, shipping, etc.):** $1000/year
 

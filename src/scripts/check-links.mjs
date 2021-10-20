@@ -8,12 +8,17 @@ import chalk from 'chalk'
 import glob from 'globby'
 import lineColumn from 'line-column'
 import _checkMarkdownLinks from 'markdown-link-check'
+import RelateUrl from 'relateurl'
 import stripAnsi from 'strip-ansi'
 
 const checkMarkdownLinks = promisify(_checkMarkdownLinks)
 
+const absoluteHandbookUrlPrefixPattern =
+    /^https?:\/\/(handbook\.sourcegraph\.com\/|about\.sourcegraph\.com\/(handbook|company)\/)/
+
 const repoBasePath = path.resolve(fileURLToPath(import.meta.url), '../../..')
 const contentFolderPath = path.join(repoBasePath, 'content')
+const contentFolderFileUrl = pathToFileURL(contentFolderPath)
 
 const filePaths = await glob('**/*.md', { cwd: contentFolderPath })
 
@@ -72,20 +77,34 @@ for (const filePath of filePaths) {
 
         // Check links are absolute
 
-        // const absoluteHandbookUrlPrefixPattern =
-        //     /^https?:\/\/(handbook\.sourcegraph\.com\/|about\.sourcegraph\.com\/(handbook|company)\/)/
-        // if (absoluteHandbookUrlPrefixPattern.test(link)) {
-        //     const handbookDestinationPath = link.replace(absoluteHandbookUrlPrefixPattern, '')
-        //     const absoluteDestinationPath = path.join(contentFolderPath, handbookDestinationPath)
-        //     const relativeLink = path.relative(absoluteFilePath, absoluteDestinationPath).replace(/\\/g, '/')
-        //     reportError(
-        //         `Absolute handbook link found: ${chalk.underline(link)}. ` +
-        //             `Handbook links must always be ${chalk.italic('relative')}. ` +
-        //             `Replace this URL with "${chalk.underline(relativeLink)}". ` +
-        //             'For more help, see https://handbook.sourcegraph.com/editing/linking-within-handbook.',
-        //         location
-        //     )
-        // }
+        if (absoluteHandbookUrlPrefixPattern.test(link)) {
+            const destinationFileUrl = new URL(
+                link.replace(absoluteHandbookUrlPrefixPattern, contentFolderFileUrl.href + '/')
+            )
+            try {
+                // Should the URL point to an index file?
+                if ((await fs.stat(destinationFileUrl)).isDirectory()) {
+                    destinationFileUrl.pathname += '/index.md'
+                }
+            } catch (error) {
+                if (error.code !== 'ENOENT') {
+                    throw error
+                }
+                // If there was no directory with that name, it should point to a .md file
+                destinationFileUrl.pathname += '.md'
+            }
+            const relativeUrl = RelateUrl.relate(fileUrl.href, destinationFileUrl.href, {
+                output: RelateUrl.PATH_RELATIVE,
+                removeDirectoryIndexes: false,
+            })
+            reportError(
+                `Absolute handbook link found: ${chalk.underline(link)}\u200B. ` +
+                    `Handbook links must always be ${chalk.italic('relative')}. ` +
+                    `Replace this URL with "${chalk.underline(relativeUrl)}". ` +
+                    'For more help, see https://handbook.sourcegraph.com/editing/linking-within-handbook',
+                location
+            )
+        }
     }
 }
 
@@ -122,7 +141,7 @@ function reportError(errorMessage, location) {
 }
 
 /**
- * @param {githubAction.AnnotationProperties} position
+ * @param {githubAction.AnnotationProperties} location
  */
 function formatLocation(location) {
     return [location.file, location.startLine, location.startColumn].filter(Boolean).join(':')

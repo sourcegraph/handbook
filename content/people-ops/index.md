@@ -69,7 +69,7 @@ WIP
 
 ## Manager resources
 
-This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](https://handbook.sourcegraph.com/company/goals/2022_q3#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
+This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](../company/goals/2022_q3.md#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
 
 - [Manager accounts guide](manager-guide.md)
 
