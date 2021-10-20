@@ -54,7 +54,7 @@ Remember:
     - [Product](../index.md)
     - [Product management](../product_management/index.md)
     - [Product design](../design/index.md)
-    - [Product process](https://about.sourcegraph.com/handbook/product/product_management/product_process)
+    - [Product process](../product_management/index.md)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
   - Team sync docs
     - Your calendar will be automatically populated with your team’s meetings. In the meeting invites, you will find corresponding docs that you should read for context.
@@ -156,3 +156,4 @@ You'll find we have a strong base to work from, but we are in the early stages o
 
 - Let’s talk about your strengths, interests, areas you’re excited about, as well as what will help drive the team and company goals!
   - Use this document to record issues you'd like to work on as you discover them during your onboarding
+

@@ -36,7 +36,7 @@ Surveys allow researchers to ask questions at a scale that isn't possible with o
 
 # Publishing results
 
-After research is complete, we publish our findings in the research in the [user research library](https://handbook.sourcegraph.com/product/user_research#user-research-library) or share the resulting artifacts with the project team, and the broader company via internal channels. Research findings are valuable for future reference, so it's worth making sure they're [well-crafted asynchronous design artifacts](../artifacts/index.md).
+After research is complete, we publish our findings in the research in the [user research library](../../user_research/index.md#user-research-library) or share the resulting artifacts with the project team, and the broader company via internal channels. Research findings are valuable for future reference, so it's worth making sure they're [well-crafted asynchronous design artifacts](../artifacts/index.md).
 
 # User Research Participants
 
@@ -72,3 +72,4 @@ We've found that moderated user research goes more smoothly, and is more approac
 ## Compensation for user research participants
 
 When it's the right choice to provide compensation for user research participants, we have an [established process you can bring into your research activity](../../user_research/user_research_compensation.md).
+

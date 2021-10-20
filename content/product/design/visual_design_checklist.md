@@ -8,7 +8,7 @@ This checklist ensures that our designs are consistent, accessible, and optimize
 
 - Ensure spacing is consistent and matches the 8pt grid system
 - Ensure text, colors and other styles match and use existing styles in Wildcard, if possible.
-  - If adding new styles, ensure that they meet our [accessibility standards](https://handbook.sourcegraph.com/product/design/design-and-interaction-guidelines#accessibility-standards) and add them to Wildcard
+  - If adding new styles, ensure that they meet our [accessibility standards](./design-and-interaction-guidelines.md#accessibility-standards) and add them to Wildcard
 - Review designs for accessibility:
   - Color blindness check
   - Contrast check should meet AA standard for small text
@@ -32,3 +32,4 @@ Improvements to the Sourcegraph user experience should consider the following in
 - Has the change’s effect on the CLI been considered?
   - Does the language in the UI map to the language in the CLI?
   - Does the documentation reflect the change?
+

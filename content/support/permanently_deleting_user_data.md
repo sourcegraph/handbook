@@ -18,7 +18,7 @@ This will involve coordinating with multiple teams to get all the data deleted f
 
 ### In the product: how to nuke a user account
 
-If the request is for a Sourcegraph.com account, engage [one of your teammates who has access](https://handbook.sourcegraph.com/support/support-tools#sourcegraphcom-admin-access) (it requires site admin).
+If the request is for a Sourcegraph.com account, engage [one of your teammates who has access](./support-tools.md#sourcegraphcom-admin-access) (it requires site admin).
 
 If the request is for a customers' on-prem instance, the site admin of that instance is the only one who can perform that action and they will need to follow the steps outlined here.
 
@@ -34,3 +34,4 @@ If the request is for a customers' on-prem instance, the site admin of that inst
 <img width="394" alt="image" src="https://user-images.githubusercontent.com/3173176/136848928-d474b16d-a80f-4bfe-be20-3e64c6d3a254.png">
 
 5. All data associated with that user has now been deleted!
+

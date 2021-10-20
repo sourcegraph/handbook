@@ -9,7 +9,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#sara-lee-sheher" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#sara-lee-sheher" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -20,7 +20,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#murat-sutunc-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#murat-sutunc-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -31,7 +31,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#beatrix-woo-sheher" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#beatrix-woo-sheher" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -43,7 +43,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#erzhan-torokulov-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#erzhan-torokulov-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -54,7 +54,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#tharuntej-kandala-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#tharuntej-kandala-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -145,3 +145,4 @@ In November 2019, [Sourcegraph partnered with GitLab to create a native integrat
 In December 2020, [Sourcegraph released a Safari Extension](https://apps.apple.com/us/app/sourcegraph-for-safari/id1543262193) to support Safari users with our browser extension, in addition to Chrome and Firefox.
 
 In early 2021, the Extensibility team was formed as an offshoot of the "web team" (which became the 2021 Developer Insights org) because the product direction, support and maintenance, validation, and future promises of Sourcegraph's browser extensions, native code host integrations, and Sourcegraph extensions required and deserved the resources of its own team.
+

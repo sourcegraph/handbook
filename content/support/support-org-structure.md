@@ -10,7 +10,7 @@ There is also the matter of [Dunbar’s Number](https://en.wikipedia.org/wiki/Du
 
 For a team, this is usually solved by building a leadership layer in and moving to teams within a team.
 
-At Sourcegraph, we are [all-remote](https://about.sourcegraph.com/handbook/company/remote), global, and [asynchronous by default](https://about.sourcegraph.com/handbook/company/asynchronous-communication); we also desire that folks show up for each other with [high agency](https://about.sourcegraph.com/handbook/company/values#high-agency). This foundation creates an opportunity to solve for the number of communication links required and create a high functioning, successful team with psychological ease that is far larger than the usual limits of 5-10 folks. Dunbar’s Number will still come into play, but formalizing a team within a team structure can come much later (more around 35-40 folks, instead of 10-15). This will help us avoid silos and continue building on the foundation of closeness that is very present at the team’s current 19 person size.
+At Sourcegraph, we are [all-remote](../company/remote/index.md), global, and [asynchronous by default](../company/asynchronous-communication.md); we also desire that folks show up for each other with [high agency](../company/values.md#high-agency). This foundation creates an opportunity to solve for the number of communication links required and create a high functioning, successful team with psychological ease that is far larger than the usual limits of 5-10 folks. Dunbar’s Number will still come into play, but formalizing a team within a team structure can come much later (more around 35-40 folks, instead of 10-15). This will help us avoid silos and continue building on the foundation of closeness that is very present at the team’s current 19 person size.
 
 So, we reimagined our Customer Support organizational structure for our current team of 19 folks and up to 35-40 folks, throwing aside conventions, building off of being all-remote, global, asynchronous by default, and desiring high agency, and determined a solution where the following is true:
 
@@ -51,7 +51,7 @@ Every member of CS has a regular weekly 1:1 with the manager to whom they report
 
 ## Career roadmapping/support
 
-Every member of CS works with their manager to start creating their personal [career roadmap](https://handbook.sourcegraph.com/support/career-roadmap) when they reach their 90 day milestone. The practice starts the same for everyone, answering a series of questions that touch on and go beyond typical career questions. Each manager pushes the folks to whom they are primarily responsible to think through their plans and helps them identify who else in the organization/beyond can help support them to get to where they want to go.
+Every member of CS works with their manager to start creating their personal [career roadmap](./career-roadmap.md) when they reach their 90 day milestone. The practice starts the same for everyone, answering a series of questions that touch on and go beyond typical career questions. Each manager pushes the folks to whom they are primarily responsible to think through their plans and helps them identify who else in the organization/beyond can help support them to get to where they want to go.
 
 It is very likely that other managers on the team may be brought in to support someone’s career roadmap as a secondary coach with a speciality in some area relevant to that member of the team.
 
@@ -124,3 +124,4 @@ When our team reaches 40 folks, we will iterate on the org structure proposed he
 - Validating that CSEs continue to ask each other questions, seeking and giving each other help
 - Checking to see if over time, everyone has formed stronger/deeper relationships with each member of the team than they have now
 - Checking in to see if CSEs feel at ease regardless of what leaders they are working with, talking to
+

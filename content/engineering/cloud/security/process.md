@@ -11,7 +11,7 @@ Our processes are in a period of change, so if in doubt, please reach out to us 
 
 ## Principles
 
-1. [Goals](https://about.sourcegraph.com/company/goals/guidelines) are something we strive for, whilst tracking and communicating progress.
+1. [Goals](../../../company/goals/guidelines.md) are something we strive for, whilst tracking and communicating progress.
 2. A work item is a piece of work (e.g., writing code, hiring a new teammate, deploying a new tool) that makes progress toward achieving a goal.
 3. Releases may be made up of N workitems, that may impact Y goals. Whilst this is true, we communicate both internally and externally progress towards those goals.
 4. Security by its various nature has constraints on how public it's work can be. The Security team are currently trialing Jira for our execution of work - work in Jira is not currently visible, but out [high level plans](../../../company/strategy/cloud/security/index.md) are still public.
@@ -45,3 +45,4 @@ Jira is intended only for **planned** work.
 - Small items that don't fit with the strategic roadmap, but that need to be done soon
 - Bugs
 - Asks from internal teams (e.g. support or consultation)
+

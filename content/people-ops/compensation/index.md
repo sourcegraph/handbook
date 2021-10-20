@@ -53,7 +53,7 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 
 We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../index.md) before making them.
 
-Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](https://about.sourcegraph.com/handbook/people-ops/review-cycles/index.md) process.
+Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../impact-reviews.md) process.
 
 ### Negotiating should not be needed
 
@@ -128,3 +128,4 @@ Reach out to the People Ops team if you have any questions about structuring.
 Employees are paid twice per month (on the 15th and the last day of the month if those are weekdays, or the Fridays before those days if not), via Rippling.
 
 All contractors [submit invoices monthly](../../finance/invoices.md).
+

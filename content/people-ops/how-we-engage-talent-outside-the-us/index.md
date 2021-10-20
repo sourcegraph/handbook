@@ -72,7 +72,7 @@ Contractors generally don’t go through team-specific onboarding, except for fu
 
 ## Temporary Contractors (very short-term, likely less than 3 months)
 
-As we’re building a company for the long-term, we rarely take on temporary contractors in any country (including the US) unless under exceptional circumstances, like once-off projects or to cover for an existing teammate on an extended leave. [Temporary contractors](https://about.sourcegraph.com/handbook/people-ops/global-employment-structures/temporary-contractors) are independent contractors who supply work or services to us on an “as needed” basis, use their own systems and tools to do so, and invoice us monthly for the work they’ve done. While we strive to make them feel welcome and support their success in their short time with us, they are not considered teammates, and some of their access to our systems, meetings and benefits may be limited.
+As we’re building a company for the long-term, we rarely take on temporary contractors in any country (including the US) unless under exceptional circumstances, like once-off projects or to cover for an existing teammate on an extended leave. [Temporary contractors](./temporary-contractors.md) are independent contractors who supply work or services to us on an “as needed” basis, use their own systems and tools to do so, and invoice us monthly for the work they’ve done. While we strive to make them feel welcome and support their success in their short time with us, they are not considered teammates, and some of their access to our systems, meetings and benefits may be limited.
 
 ### Contracts
 
@@ -121,3 +121,4 @@ For candidates in need of US sponsorship that require a new visa, we will agree 
 Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
 
 Any questions? Contact the People Ops team in #people-ops on Slack or people-ops@sourcegraph.com via email!
+

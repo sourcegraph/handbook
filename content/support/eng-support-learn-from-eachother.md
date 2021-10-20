@@ -71,7 +71,7 @@ Some engineering teams have a way for a CSE to take on a scope-bound project (li
 
 ### If you are interested in frontend development...
 
-Our [Frontend Platform team](https://about.sourcegraph.com/handbook/engineering/web/frontend-platform) welcomes you to:
+Our [Frontend Platform team](../engineering/enablement/frontend-platform/index.md) welcomes you to:
 
 1. Learn [Typescript](https://www.typescriptlang.org/) and [React](https://reactjs.org/)
 2. Learn how to write unit tests with [Jest](https://jestjs.io/docs/getting-started)
@@ -84,3 +84,4 @@ Our [Frontend Platform team](https://about.sourcegraph.com/handbook/engineering/
 9. Start with issues with the `good first issue` label
 10. Chat with Virginia about your plan
 11. Let Patrick (engineering manager of the team) know which ticket you’d like to work on
+
