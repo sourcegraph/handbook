@@ -47,14 +47,14 @@ BambooHR is integrated with multiple systems (Lattice, Rippling, Okta). If Bambo
 
 [Lattice](https://sourcegraph.latticehq.com/login?message=session) is the system we use for formal feedback such as:
 
-- [Onboarding feedback milestones](https://about.sourcegraph.com/handbook/people-ops/onboarding/onboarding-feedback-milestones), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
-- [360 Impact reviews](https://about.sourcegraph.com/handbook/people-ops/impact-reviews), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
+- [Onboarding feedback milestones](onboarding/onboarding-feedback-milestones.md), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
+- [360 Impact reviews](impact-reviews.md), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
 
 Note: if you are a new manager and require access to past review history for your direct reports, please contact People Ops.
 
 **Resources:**
 
-- [Impact review resources](https://handbook.sourcegraph.com/people-ops/impact-reviews#resources-for-all-teammates-and-managers)
+- [Impact review resources](impact-reviews.md#resources-for-all-teammates-and-managers)
 - [Navigating Lattice as a manager](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
 
 #### Impact of org and role changes
@@ -73,7 +73,7 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 **Resources:**
 
-- [Onboarding checklist](https://about.sourcegraph.com/handbook/people-ops/onboarding)
+- [Onboarding checklist](onboarding/index.md)
 
 #### Impact of org and role changes
 
@@ -90,7 +90,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 **Resources:**
 
 - [Roots Manager overview](https://docs.google.com/document/d/1yP1gwuGnCIS7BlSqTV8wJKmRH0WeOVHDvsJbVNpYWb4/edit)
-- [Sourcegraph PTO policy](https://about.sourcegraph.com/handbook/people-ops/paid-time-off-and-working-hours)
+- [Sourcegraph PTO policy](paid-time-off-and-working-hours.md)
 
 ### TripActions
 
@@ -98,7 +98,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 **Resources:**
 
-- [Booking travel through TripActions](https://handbook.sourcegraph.com/people-ops/tripactions#booking-travel-through-tripactions)
+- [Booking travel through TripActions](../finance/TripActions.md#booking-travel-through-tripactions)
 
 ### Assemble [WIP]
 
