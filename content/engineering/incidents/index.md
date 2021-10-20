@@ -5,9 +5,9 @@ An incident is any unplanned event that causes a service disruption. Identifying
 Some examples of incidents:
 
 - sourcegraph.com is down or a critical feature is broken (e.g. sign-in, search, code intel).
-- We have a severity 1 issue (per [our standard SLA definition](https://about.sourcegraph.com/handbook/support#slas)) that impacts all/many self-hosted instances
-- We have a severity 1 issue (per [our standard SLA definition](https://about.sourcegraph.com/handbook/support#slas)) that impacts all/many managed instances
-- We have a severity 1 issue (per [our standard SLA definition](https://about.sourcegraph.com/handbook/support#slas)) that impacts all/many Cloud/SaaS users
+- We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many self-hosted instances
+- We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many managed instances
+- We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many Cloud/SaaS users
   instance is down or a critical feature is broken.
 - There is a security issue with Sourcegraph.
 - A Sourcegraph team member feels like an incident might be present, but isn't certain or isn't able to confirm on their own.
@@ -72,7 +72,7 @@ The incident lead is responsible for resolving the incident as quickly and safel
      - Tag the owner of the reverted commit as a reviewer of the PR.
      - Merge the PR as soon as CI passes (don’t block on review).
    - [Fix failed database migration on sourcegraph.com](https://github.com/sourcegraph/sourcegraph/tree/main/migrations#dirty-schema)
-   - [How to resolve “Sourcegraph.com is deleted entirely”](https://about.sourcegraph.com/handbook/engineering/incidents/playbooks/dotcom_deleted_entirely)
+   - [How to resolve “Sourcegraph.com is deleted entirely”](playbooks/dotcom_deleted_entirely.md)
 5. If rolling back and or reverting commits doesn’t resolve the incident, then identify the most logical [resolution owner](https://about.sourcegraph.com/handbook/engineering/incidents#ownership) given what you know (this may be yourself) and have that person acknowledge ownership in the incident chatroom (i.e. “I’m on it”).
    - The person who has made recent changes to the affected product/code/system.
    - The person who owns the affected product/code/system.
@@ -127,7 +127,7 @@ In some incidents, we may learn that we need to pause a release.
 After the incident is resolved, the incident lead:
 
 1. Update the incident status and close.
-2. Confirms that the messenger updated any customer communication channels, internal threads.or channels (outside of the incident channel) and social media posts (with marketing’s approval and if necessary) with the latest information.
+2. Confirms that the messenger updated any customer communication channels, internal threads, or channels (outside of the incident channel) and social media posts (with marketing’s approval and if necessary) with the latest information.
 3. Update and close and relevant public GitHub issues.
 4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish in Incidents folder in Google Drive.
 5. Create GitHub issues for any appropriate followup work.
