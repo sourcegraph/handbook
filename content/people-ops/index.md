@@ -72,4 +72,3 @@ This section currently includes resources that were specifically created to help
 - [Compensation change approvals](compensation/compensation-change-approvals.md)
 
   - [How to notify People Ops of an org and role change section](manager-guide.md##how-to-notify-people-ops-of-an-org-and-role-change)
-

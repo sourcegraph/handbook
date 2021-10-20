@@ -91,4 +91,3 @@ Y’all heard of National Coney Island – not the place in Brooklyn – the one
 ### Your sun, moon, and rising signs
 
 I know I’m a Leo, and that I’ve been meaning to find my birth certificate and download Costar for a minute now so I can figure out the rest and play along, but alas, here we are.
-

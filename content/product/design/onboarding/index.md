@@ -29,4 +29,3 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
 
 - Use the [Project Template](https://www.figma.com/file/JzufQnpTQtreyfnA3qpmfz/Project-Template?node-id=246%3A11) (read more in [Documents and Templates](../documents_templates/index.md))
 - Remember to add the Project card
-

@@ -34,4 +34,3 @@ If the request is for a customers' on-prem instance, the site admin of that inst
 <img width="394" alt="image" src="https://user-images.githubusercontent.com/3173176/136848928-d474b16d-a80f-4bfe-be20-3e64c6d3a254.png">
 
 5. All data associated with that user has now been deleted!
-

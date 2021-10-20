@@ -95,4 +95,3 @@ Corporate Recruiting Team
   - Sales
 - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
   - Interview scheduling for corporate recruiters
-

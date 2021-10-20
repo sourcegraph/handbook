@@ -124,4 +124,3 @@ When our team reaches 40 folks, we will iterate on the org structure proposed he
 - Validating that CSEs continue to ask each other questions, seeking and giving each other help
 - Checking to see if over time, everyone has formed stronger/deeper relationships with each member of the team than they have now
 - Checking in to see if CSEs feel at ease regardless of what leaders they are working with, talking to
-

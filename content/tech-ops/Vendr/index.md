@@ -62,4 +62,3 @@ Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 - [Reviewing your tech stack](Tech_stack_review.md)
 - [Adding an supplier to the portal](Adding_supplier.md)
 - [Submitting an intake form](Intake_Form.md)
-

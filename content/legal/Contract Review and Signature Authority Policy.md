@@ -182,4 +182,3 @@ Templates:
 Changes to the signing authorities above require written approval by the CEO.
 
 Exception: for vendor and partner contracts, authorized signers may delegate such authority to teammates in manager-level roles or above, in writing with a copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
-

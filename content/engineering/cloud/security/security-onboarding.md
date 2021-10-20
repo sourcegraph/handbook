@@ -47,4 +47,3 @@
 - Complete hands on tasks assigned to you as a starter task
 - Capture traffic via Burpsuite for analysis
 - Rotated secrets per instructions above
-

@@ -45,4 +45,3 @@ Jira is intended only for **planned** work.
 - Small items that don't fit with the strategic roadmap, but that need to be done soon
 - Bugs
 - Asks from internal teams (e.g. support or consultation)
-

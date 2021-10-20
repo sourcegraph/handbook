@@ -11,4 +11,3 @@ Sourcegraph accounts have two levels of permissions. Admin and Owner.
 **Owners:** Owners can only see the details for the deals they have been tagged to or have submitted themselves.
 
 [Portal Demo (for Members)](https://vimeo.com/manage/videos/587870593/695eac85be)
-

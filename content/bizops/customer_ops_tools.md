@@ -201,4 +201,3 @@ More useful links for the HubSpot to Salesforce integration:
 - [HubSpot to Salesforce data flow spreadsheet](https://docs.google.com/spreadsheets/d/1Jw-t7y0Rmni-vR9gy28Ewy6IVzwu9JyJjW2pwDQOPJk/edit#gid=0)
 - [Sync settings](https://app.hubspot.com/integrations-settings/2762526/installed/salesforce/syncsettings)
 - [Marketing conversion actions spreadsheet](https://docs.google.com/spreadsheets/d/1tKRToLb2WRhVKJojTMQIj28TaLQfB58F57QQh5IICbU/edit#gid=0)
-

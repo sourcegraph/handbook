@@ -156,4 +156,3 @@ You'll find we have a strong base to work from, but we are in the early stages o
 
 - Let’s talk about your strengths, interests, areas you’re excited about, as well as what will help drive the team and company goals!
   - Use this document to record issues you'd like to work on as you discover them during your onboarding
-

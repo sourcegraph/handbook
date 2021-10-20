@@ -135,4 +135,3 @@ An example naming scorecard for the Full Naming Process described above:
 Still have questions? Reach out to brand@sourcegraph.com or sign up for [Marketing Office Hours](https://docs.google.com/spreadsheets/d/1o8rHntP0j6-JFryhc0_g6MKEI6l3dZE7NTKasyQx46M/edit#gid=0). If you’re ready to request a naming sprint, simply use the [Creative Request Form](https://docs.google.com/forms/d/e/1FAIpQLSd4OKq9asQNWiTUtRXZrTfyRd8nylWUXvpIhIoCoWTryKNZGA/viewform).
 
 Thanks for helping us continue to build a successful brand that empowers and resonates with our users!
-

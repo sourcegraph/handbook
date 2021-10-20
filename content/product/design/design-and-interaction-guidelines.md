@@ -103,4 +103,3 @@ We aim for [WCAG Level AA Conformance](https://www.w3.org/WAI/WCAG2AA-Conformanc
   - Header alignment
 - Copy
   - [Follow the Sourcegraph style guide](../../communication/content_guidelines/index.md)
-

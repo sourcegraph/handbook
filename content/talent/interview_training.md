@@ -179,4 +179,3 @@ Every candidate is going to get surveyed with these questions, which are automat
 **Any questions?** Please do not hesitate to reach out to us in the #hiring Slack channel.
 
 **Need practice?** Please reach out to @hiring and we can either mock interview or lead an interview and you can shadow.
-

@@ -15,4 +15,3 @@ If ever a customer was worried that we were having issues and uncertain we had r
 ## Review and testing
 
 The support team reviews this page for accuracy on a quarterly cadence. If a customer would like to initiate testing of how we maintain continuity, they can request to do so and we will run a test meaningful to that customer.
-

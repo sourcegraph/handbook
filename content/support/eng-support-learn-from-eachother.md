@@ -84,4 +84,3 @@ Our [Frontend Platform team](../engineering/enablement/frontend-platform/index.m
 9. Start with issues with the `good first issue` label
 10. Chat with Virginia about your plan
 11. Let Patrick (engineering manager of the team) know which ticket you’d like to work on
-

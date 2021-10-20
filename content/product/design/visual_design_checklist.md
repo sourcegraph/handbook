@@ -32,4 +32,3 @@ Improvements to the Sourcegraph user experience should consider the following in
 - Has the change’s effect on the CLI been considered?
   - Does the language in the UI map to the language in the CLI?
   - Does the documentation reflect the change?
-
