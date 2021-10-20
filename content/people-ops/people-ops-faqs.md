@@ -38,20 +38,20 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. How do I submit expense reports?
 
-- You can find information on how to submit expenses for reimbursement [here](https://handbook.sourcegraph.com/finance/expenses). **Note:** there are different processes for expensing depending on your employment structure.
-  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](https://handbook.sourcegraph.com/finance) if you require additional information.
+- You can find information on how to submit expenses for reimbursement [here](../finance/expenses.md). **Note:** there are different processes for expensing depending on your employment structure.
+  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](../finance/index.md) if you require additional information.
 
 ### Q. Do I have to expense perks or are these already added to my pay?
 
 **US teammates:**
 
 - Some perks (internet, phone, and wellness) are automatically added to your pay while other perks (professional development, coworking space, moving, desk set-up, family planning) require you to expense them.
-  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](https://handbook.sourcegraph.com/finance) if you require additional information.
+  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](../finance/index.md) if you require additional information.
 
 **Non-US teammates:**
 
 - **Contractors:**
-  - All expensed perks must be added as a separate line item in your monthly invoice. For instructions on how to submit an invoice, visit [this page](https://handbook.sourcegraph.com/finance/invoices).
+  - All expensed perks must be added as a separate line item in your monthly invoice. For instructions on how to submit an invoice, visit [this page](../finance/invoices.md).
 - **PEO employees:**
   - **Remote:**
     - All expensed perks must be submitted via Remote’s platform in order for them to be included in your monthly pay.
