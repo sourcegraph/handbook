@@ -18,13 +18,13 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. How do I have Sourcegraph verify my employment?
 
-- For instructions on how to have Sourcegraph verify your employment, please visit [this page](https://handbook.sourcegraph.com/people-ops/employment_verification).
+- For instructions on how to have Sourcegraph verify your employment, please visit [this page](employment_verification.md).
 
 ## Equity plan
 
 ### Q. Where can I find information about Sourcegraph’s options and equity compensation?
 
-- You can find information on Sourcegraph’s options and equity compensation [here](https://about.sourcegraph.com/handbook/people-ops/compensation/equity-faq).
+- You can find information on Sourcegraph’s options and equity compensation [here](employment_verification.md).
 
 ### Q. When and where do I get my Carta invite?
 
@@ -38,20 +38,20 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. How do I submit expense reports?
 
-- You can find information on how to submit expenses for reimbursement [here](https://about.sourcegraph.com/handbook/ops/finance/expenses). **Note:** there are different processes for expensing depending on your employment structure.
-  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](https://about.sourcegraph.com/handbook/ops/finance) if you require additional information.
+- You can find information on how to submit expenses for reimbursement [here](../ops/finance/expenses.md). **Note:** there are different processes for expensing depending on your employment structure.
+  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](../ops/finance.md) if you require additional information.
 
 ### Q. Do I have to expense perks or are these already added to my pay?
 
 **US teammates:**
 
 - Some perks (internet, phone, and wellness) are automatically added to your pay while other perks (professional development, coworking space, moving, desk set-up, family planning) require you to expense them.
-  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](https://about.sourcegraph.com/handbook/ops/finance) if you require additional information.
+  - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](../ops/finance.md) if you require additional information.
 
 **Non-US teammates:**
 
 - **Contractors:**
-  - All expensed perks must be added as a separate line item in your monthly invoice. For instructions on how to submit an invoice, visit [this page](https://handbook.sourcegraph.com/finance/invoices).
+  - All expensed perks must be added as a separate line item in your monthly invoice. For instructions on how to submit an invoice, visit [this page](../finance/invoices.md).
 - **PEO employees:**
   - **Remote:**
     - All expensed perks must be submitted via Remote’s platform in order for them to be included in your monthly pay.
@@ -191,7 +191,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. Can Sourcegraph sponsor my immigration?
 
-- You can find more information on our sponsorship and immigration policies [here](https://about.sourcegraph.com/handbook/people-ops/how-we-engage-talent-outside-the-us#visa-sponsorship-and-immigration-assistance).
+- You can find more information on our sponsorship and immigration policies [here](how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
 
 ### Q. What will happen if I fall out of status during the renewal process?
 
@@ -228,8 +228,8 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **Non-US teammates:**
 
-- On a monthly basis through Veem. To be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](https://about.sourcegraph.com/handbook/ops/finance/invoices).
-  - **Note:** if Veem is not supported by your country we have other payment methods, like a direct monthly wire. If this is the case, please reach out to [Inés Roitman](https://handbook.sourcegraph.com/company/team#in%C3%A9s-roitman-sheher) at [ines@sourcegraph.com](mailto:ines@sourcegraph.com).
+- On a monthly basis through Veem. To be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../ops/finance/invoices.md).
+  - **Note:** if Veem is not supported by your country we have other payment methods, like a direct monthly wire. If this is the case, please reach out to [Inés Roitman](../company/team/index.md#in%C3%A9s-roitman-sheher) at [ines@sourcegraph.com](mailto:ines@sourcegraph.com).
 
 ## Retirement
 
