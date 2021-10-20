@@ -1,6 +1,6 @@
 ### Individual view on demand generation
 
-I’m all-in on creating phenomenal digital experiences worth showing up and sticking around for. [Sarah’s README](https://handbook.sourcegraph.com/marketing/demand-gen/sarah-readme) said “When I talk about demand here, I’m talking about the economic principle which refers to a person’s desire to purchase and willingness to pay, ideally, a premium. Demand is created with positioning, imagery, contexts, language. It’s all about the vibe, y’know?” \
+I’m all-in on creating phenomenal digital experiences worth showing up and sticking around for. [Sarah’s README](./sarah-readme.md) said “When I talk about demand here, I’m talking about the economic principle which refers to a person’s desire to purchase and willingness to pay, ideally, a premium. Demand is created with positioning, imagery, contexts, language. It’s all about the vibe, y’know?” \
  \
 From a digital perspective, this starts with ensuring when I drive someone from a campaign to our website, we’re about to deliver an experience that delights and adds value, regardless of where they go. Cultivating a digital experience worth returning to takes time, constant attention, and optimization. Something many marketers overlook when it comes to demand generation is what we aren’t doing is just as important as what we are doing. From a digital vantage point, I’m also searching for the moments we’re unintentionally creating friction for our buyers, eroding the demand we’re working so hard to generate.
 

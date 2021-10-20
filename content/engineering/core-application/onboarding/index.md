@@ -17,9 +17,7 @@
 
 The first days and weeks on a new team can be daunting. There's a lot of information to absorb, and sometimes it feels like catching up to everyone else is going to be a challenge.
 
-<p align=center>
-    <img src="https://about.sourcegraph.com/handbook/engineering/core-application/logo.jpg" height=250 />
-</p> <!-- TODO: use a relative img etc. -->
+<!-- TODO: Add back logo -->
 
 [Don't panic!](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Don't_Panic) We've set up these onboarding materials to help ease you into your role, and you'll find that your coworkers are more than happy to assist you however they can. We don't expect you to become an expert overnight — take some time to read the materials, experiment with the code and ask us lots of questions!
 
