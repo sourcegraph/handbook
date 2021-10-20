@@ -108,12 +108,6 @@ As explained above, our customers are able to initiate conversations for help vi
 - **Those involved:** Product > support (if necessary)
 - **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../product/product_management/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps.
 
-### hi@ email
-
-- **Purpose:** A general email that is mostly spam, but support triages to make sure nothing falls through the cracks
-- **Those involved:** Support + others as needed
-- **Details:** same as support@ email
-
 ### Support contracts
 
 - **Purpose:** Agreed upon contracts to provide with dedicated support.
@@ -130,7 +124,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
 - **Those involved:** Product > support (if necessary)
-- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../product/product_management/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../product/product_management/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
 
 ### @sourcegraph Twitter (and other social)
 
