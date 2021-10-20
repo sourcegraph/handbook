@@ -31,10 +31,11 @@
 ### Current personal project
 
 ### Something I fear
+
 Heights, but more specifically, looking at things flying away from the ground. Balloons and kites are the worst.
 
 ### A quote I like
 
-
 ### My favorite candy
+
 Anything with peanut butter.
