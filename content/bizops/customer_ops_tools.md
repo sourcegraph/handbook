@@ -68,7 +68,7 @@ Salesforce is also a CRM. This is what our sales team uses and relies on heavily
 
 Given that go-to-market focused teams at Sourcegraph consider Salesforce to be the source of truth for all data pertaining to prospects and customers, we use this tool for virtually all customer ops reporting. Below, we elaborate on the key terms, definitions, and workflows pertaining to current lead, contact, opportunity, and customer reporting efforts that are not documented elsewhere in the handbook.
 
-For additional color on how we use Salesforce at Sourcegraph, see this [page](https://handbook.sourcegraph.com/sales/salesforce).
+For additional color on how we use Salesforce at Sourcegraph, see this [page](../sales/salesforce.md).
 
 **_Key Salesforce Objects_**
 

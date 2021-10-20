@@ -88,7 +88,7 @@ _This professional development budget includes:_
 
 **\*Best practice tip:** Request budget approval from your manager before booking any professional development opportunities.\*
 
-If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager.
+If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to Finance for approval PRIOR to booking.
 
 ### Obtaining Manager Approval:
 
