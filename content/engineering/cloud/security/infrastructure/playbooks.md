@@ -314,7 +314,7 @@ If Elastic runs out of disk, the [alias may be deleted](https://discuss.elastic.
 
 ### Debugging terraform
 
-Basic Terraform errors that are common to run into. See [terraform playbooks](https://about.sourcegraph.com/handbook/engineering/languages/extended_guide/terraform) for uncommon terraform issues.
+Basic Terraform errors that are common to run into. See [terraform playbooks](https://docs.sourcegraph.com/dev/background-information/languages/extended_guide/terraform) for uncommon terraform issues.
 
 If you get the error `Unsupported Terraform Core version [...] required_version = "A.B.C"`, or the error `Error: Error loading state: state snapshot was created by Terraform vA.B.C, which is newer than current vX.Y.Z; upgrade to Terraform vA.B.C or greater to work with this state`, that means you need to use the specific terraform version `A.B.C`. An easy solution is to run `tfenv use A.B.C`.
 
