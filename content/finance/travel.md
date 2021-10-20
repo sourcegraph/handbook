@@ -11,6 +11,7 @@ Sourcegraph is an [all-remote](../company/remote/index.md) company. This means w
 - Use your best judgement and defer to local jurisdictions in determining the number of attendees.
 - When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../company/values.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
 - Follow local laws, customs, and safety regulations during every step of the meetup process.
+- The Company will reimburse testing for Covid-19 when traveling for Company events. The typical reimbursed test is approximately $25 per person per trip.
 
 # Travel budget philosophy
 
@@ -87,7 +88,7 @@ _This professional development budget includes:_
 
 **\*Best practice tip:** Request budget approval from your manager before booking any professional development opportunities.\*
 
-If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager.
+If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to Finance for approval PRIOR to booking.
 
 ### Obtaining Manager Approval:
 
@@ -165,13 +166,13 @@ We ask you to use your best judgment when traveling and spending company money. 
 
 Please see below for a complete summary of spend limit, per diem, and hotel budget guidelines for each type of trip. The best practice is to plan your trip in accordance with the per diem and hotel policy, in order to efficiently use the spending budget allowed. Costs incurred will only be reimbursed to spending limits provided (or the applicable guidance), so it is up to the individual/team how to best allocate that spending allowance for their trips.
 
-| Trip Category     | Total Spend Limit | Per Diem?        | Hotel Budget?    |
-| ----------------- | ----------------- | ---------------- | ---------------- |
-| Company-wide      | N/A               | Yes              | Yes              |
-| Team              | $4,000            | Recommended only | Recommended only |
-| Individual        | $2,500            | Recommended only | Recommended only |
-| Business/Customer | N/A               | Yes              | Yes              |
-| Education         | $1,000            | Recommended Only | Recommended only |
+| Trip Category     | Total Spend Limit | Per Diem?                        | Hotel Budget?                    |
+| ----------------- | ----------------- | -------------------------------- | -------------------------------- |
+| Company-wide      | N/A               | Yes                              | Yes                              |
+| Team              | $4,000            | Recommended if under budget only | Recommended if under budget only |
+| Individual        | $2,500            | Recommended if under budget only | Recommended if under budget only |
+| Business/Customer | N/A               | Yes                              | Yes                              |
+| Education         | $1,000            | Recommended if under budget only | Recommended if under budget only |
 
 ## Dependent care budget:
 
@@ -180,9 +181,9 @@ For business critical travel or travel required for your role, we offer a budget
 - This benefit exists to support our teammates who have dependents by giving them the certainty of knowing that their dependents will be taken care of while they are on business critical company travel.
 - For any additional questions, please reach out to Finance and People Ops.
 
-# How to get your trip approved in TripActions
+# How to book your trip in TripActions
 
-[TripActions](TripActions.md)
+TripActions is our source of truth for booking travel. All teammate travel must be booked through this platform to be considered within your travel budgets. Please refer to our [TripActions](TripActions.md) guide which covers topics including: account setup, how to book a trip, bookings policy, etc.
 
 For any additional questions, please reach out to #finance and #people-ops at travel@sourcegraph.com. Also, you can post in #expense-inquiries via Slack.
 

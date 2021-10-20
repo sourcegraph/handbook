@@ -3,6 +3,8 @@
 Our README expands on our profile in [the company team directory](../company/team/index.md) and are meant to help us orient to one another.
 
 - Aimee [README](aimee-readme.md)
+- Bob [README](bob-readme.md)
+- Christy [README](christy-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 
