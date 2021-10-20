@@ -1,6 +1,6 @@
 # Resources for Recruiting Operations
 
-The Talent team at Sourcegraph is on a mission to create an incredible candidate experience, hire the best talent, and uphold our [company values](https://handbook.sourcegraph.com/company/values). This wouldn’t be possible without our Recruiting Operations Specialists! This page will explain the Recruiting Operations Specialist role and outline the best practices for coordinating interviews.
+The Talent team at Sourcegraph is on a mission to create an incredible candidate experience, hire the best talent, and uphold our [company values](../company/values.md). This wouldn’t be possible without our Recruiting Operations Specialists! This page will explain the Recruiting Operations Specialist role and outline the best practices for coordinating interviews.
 
 ## Who We Work With:
 
@@ -11,9 +11,9 @@ In order to help attract top global talent, Recruiting Operations Specialists al
 ## Platforms We Use:
 
 - [Google Calendar](https://calendar.google.com/): To send interview invitations to our lovely Sourcegraph interviewers
-- [Greenhouse](https://handbook.sourcegraph.com/talent/hiring/guide_to_using_greenhouse): To access candidate information, interview structure, job details, and schedule interviews.
+- [Greenhouse](./hiring/guide_to_using_greenhouse.md): To access candidate information, interview structure, job details, and schedule interviews.
 - [Gmail](https://mail.google.com/): To communicate with candidates
-- [BrightHire](https://handbook.sourcegraph.com/talent/hiring/guide_to_using_brighthire)
+- [BrightHire](./hiring/guide_to_using_brighthire.md)
 - [Slack](https://slack.com/): To communicate with the Talent team and the rest of the Sourcegraph team
 - [Calendly](https://calendly.com/)
 - Talent Wall (page coming soon)
@@ -24,14 +24,14 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 How Recruiters Submit Interview Requests:
 
-- When a candidate has passed the [Recruiter Screen](https://handbook.sourcegraph.com/talent/types_of_interviews#recruiter-screen) stage of the Interview Process, the Recruiter will request interview scheduling from a coordinator.
+- When a candidate has passed the [Recruiter Screen](./types_of_interviews.md#recruiter-screen) stage of the Interview Process, the Recruiter will request interview scheduling from a coordinator.
   - Currently requests are submitted in the private ‘talent-scheduling-and-offers’ Slack channel (subject to change).
-  - The interview schedule request needs to include the following information: Candidate name, Job Title, [Interview Type](https://handbook.sourcegraph.com/talent/types_of_interviews), Candidate Availability, and any relevant notes.
+  - The interview schedule request needs to include the following information: Candidate name, Job Title, [Interview Type](./types_of_interviews.md), Candidate Availability, and any relevant notes.
 - The coordinator will provide scheduling status updates (typically done via emoji on the recruiter’s Slack message with the schedule request)
 
 How All Other Teammates Submit Interview Requests:
 
-- Simply let the appropriate Recruiter and/or Recruiting Operations Specialist know what you would like scheduled in whatever format is easiest for you (email, slack, tagging them in Greenhouse, etc.). Please include the candidate’s full name and which [types of interviews](https://handbook.sourcegraph.com/talent/types_of_interviews#resume-deep-dive) you would like scheduled. We will let you know if we have any follow up questions!
+- Simply let the appropriate Recruiter and/or Recruiting Operations Specialist know what you would like scheduled in whatever format is easiest for you (email, slack, tagging them in Greenhouse, etc.). Please include the candidate’s full name and which [types of interviews](./types_of_interviews.md#resume-deep-dive) you would like scheduled. We will let you know if we have any follow up questions!
   - If you do not hear back from us in 24-48 hours, please send a kind reminder over Slack!
 
 ## Interview Scheduling:
@@ -60,10 +60,10 @@ How All Other Teammates Submit Interview Requests:
 - Provide candidates with at least a 15 minute break after two hours of interviews, if possible
 - Schedule interviews using the candidate’s earliest availability within reason
 - Unless specified, interview sections can be scheduled in any order. For example, the peer interview does not have to be completed prior to the cross-functional collaboration interview.
-  - However, there are exceptions to the rule. The recruiter will tell you which sections are needed and if a specific order is required. Typically the [Leadership Interview(s)](https://handbook.sourcegraph.com/talent/types_of_interviews#leadership-interview) are saved for last.
+  - However, there are exceptions to the rule. The recruiter will tell you which sections are needed and if a specific order is required. Typically the [Leadership Interview(s)](./types_of_interviews.md#leadership-interview) are saved for last.
 - Confirm that all interviews scheduled within the next 24 hours have been accepted by interviewers and confirmed by candidates.
   - You can quickly confirm in Google Calendar by opening the “Interviews” calendar, clicking on each interview, and ensuring that all the panelists have a green checkmark next to their name.
-- Utilize tools like [TextExpander](https://handbook.sourcegraph.com/company/remote/teammate-recommended_productivity_hacks#other-tools) or [Text Blaze](https://blaze.today/) for things you tend to type or hyperlink often
+- Utilize tools like [TextExpander](../company/remote/teammate-recommended_productivity_hacks.md#other-tools) or [Text Blaze](https://blaze.today/) for things you tend to type or hyperlink often
 - Always seek to improve!
   - Look for opportunities to make your workflow more efficient and if someone has an idea, listen.
 
@@ -71,10 +71,10 @@ How All Other Teammates Submit Interview Requests:
 
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
-- [Christina Forney](https://handbook.sourcegraph.com/company/team#christina-forney-sheher), VP Product: [Kylie Fligstein](https://handbook.sourcegraph.com/company/team#kylie-fligstein-sheher)
-- [Kacie Jenkins](https://handbook.sourcegraph.com/company/team#kacie-jenkins-sheher), VP Marketing: [Amber Furbush](https://handbook.sourcegraph.com/company/team#amber-furbush-sheher)
-- [Gregg Stone](https://handbook.sourcegraph.com/company/team#gregg-stone), VP Sales: [Amber Furbush](https://handbook.sourcegraph.com/company/team#amber-furbush-sheher)
-- [Nick Snyder](https://handbook.sourcegraph.com/company/team#nick-snyder-hehim), VP Engineering: Mahal
+- [Christina Forney](../company/team/index.md#christina-forney-sheher), VP Product: [Kylie Fligstein](../company/team/index.md#kylie-fligstein-sheher)
+- [Kacie Jenkins](../company/team/index.md#kacie-jenkins-sheher), VP Marketing: [Amber Furbush](../company/team/index.md#amber-furbush-sheher)
+- [Gregg Stone](../company/team/index.md#gregg-stone), VP Sales: [Amber Furbush](../company/team/index.md#amber-furbush-sheher)
+- [Nick Snyder](../company/team/index.md#nick-snyder-hehim), VP Engineering: Mahal
 
 ### How to Select a Values Interview Panel:
 
@@ -85,7 +85,7 @@ Coming Soon!
 1. Once you’ve sent out all of the interview invitations to the appropriate Sourcegraph panelists, refresh the candidate’s Greenhouse profile.
 2. Click “Send Interview Confirmation” above the candidate’s availability.
    1. If you receive a candidate’s availability outside of Greenhouse (phone, text, email, etc.), you may not see an option to “send interview confirmation email” in Greenhouse. In these cases, simply click “not requested” or “not received” next to availability and update it to “availability received”. You should then see the option to “send interview confirmation email.”
-3. The email template will auto-populate. You’ll only need to edit the following: 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d 3. We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder. 4. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](https://handbook.sourcegraph.com/talent/types_of_interviews) and the [interviewer names](https://handbook.sourcegraph.com/company/team).
+3. The email template will auto-populate. You’ll only need to edit the following: 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d 3. We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder. 4. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](./types_of_interviews.md) and the [interviewer names](../company/team/index.md).
 4. Send Email
 
 #### For Cloud Saas Technical Interviews Only
@@ -114,7 +114,7 @@ When scheduling a Cloud Saas Technical Interview, you will also need to schedule
 2. Click “Resend Interview Confirmation” above the candidate’s availability.
 3. The email template will auto-populate again. 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d
 4. Adjust the subject line to include “UPDATED”
-5. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](https://handbook.sourcegraph.com/talent/types_of_interviews) and the [interviewer names](https://handbook.sourcegraph.com/company/team)
+5. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](./types_of_interviews.md) and the [interviewer names](../company/team/index.md)
 6. Send Email
 
 ## How to Generate an Offer Letter
@@ -148,4 +148,4 @@ Recruiting Operations Specialists follow the steps below to send weekly candidat
   - [AngelList](https://angel.co/company/sourcegraph)
   - Hacker News
   - Women Who Code
-    - Please see the full list of job boards where we post our open positions [here](https://handbook.sourcegraph.com/talent/hiring/job_boards)!
+    - Please see the full list of job boards where we post our open positions [here](./hiring/job_boards.md)!
