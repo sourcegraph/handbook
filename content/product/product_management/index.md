@@ -72,6 +72,7 @@ When we have relaxed this in the past, the results have been bad and the overwhe
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../bizops/amplitude.md)
 - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
+- [Running remote hackathons](../../company/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
 
 ## References
 
