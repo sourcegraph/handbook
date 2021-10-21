@@ -25,6 +25,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [CustomerOps Tools Overview](customer_ops_tools.md)
 - [Amplitude overview](amplitude.md)
 - [A/B testing](ab-testing.md)
+- [Guide to user journey mapping](../product/user_journey_maps.md)
 
 ## Goals
 
@@ -62,6 +63,14 @@ A BizOps team member will triage and assign issues to the relevant team member.
 
 For _time-sensitive_ and _urgent_ requests, please tag the issue with the `urgent` label. This will make the GitHub issue appear in the #analytics channel in Slack to ensure visibility, where you can follow up with more details/asks.
 
+### What a great request looks like
+
+- **The problem:** We don't have a great high-level dashboard for the product/eng leadership team to get a pulse on our product KPIs. 
+- **End state:** [PDF of a sketch](https://drive.google.com/file/d/1X2VKoWUvJpLS7LMMkG3bmhA7DJkXVujB/view) and a [doc of all the metrics](https://docs.google.com/document/d/111lB3rPDU3DHiiu4fc8MCVAK_-b20HL9cM4BkIkbmk8/edit#). 
+- **The why:** This will play a part in prioritizing product/eng projects, understanding feature adoption, progress towards OKRs, etc
+- **Timeline:** By 2021-10-22 for a first draft would be ideal!
+- **People:** Nick and Christina will be responsible for usage of the dashboard and suggesting modifications. This will be delivered (automatically) into #TBD Slack channel every Monday. 
+
 ### General contact
 
 To get in touch with us, or ask for our input or help:
@@ -79,3 +88,4 @@ We use [GitHub issues in the Sourcegraph analytics repository](https://github.co
 - **#business-ops-internal** for internal BizOps communication
 - **#analytics** for anything related to analytics; not just the Business Operations team (e.g the impact on a shift from HubSpot to Marketo, sharing a deliverable that has cross-functional impact, or a question related to data you don’t know where to ask). This channel has previously been a catch-all for Business Operations, and we'll be pushing you all towards business-ops for those topics
 - **#analytics-review** for help with self-service and WIP data projects (questions about the data, requests for peer review). Although we do expect to be involved in this quite a bit, it’s not just meant to get feedback from Business Operations. We will also be using this channel to have our work peer reviewed and collaborate with other folks from different parts of the business! Anybody comfortable enough with data can be a peer reviewer or answer questions
+- **#data-eng-ops** for Data Ops communication
