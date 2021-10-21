@@ -95,5 +95,5 @@ I have so many quotes that sum up a perspective I have, an ideal I aspire to or 
 1. Learner
 2. Competition
 3. Focus
-4. Responsibilit
+4. Responsibility
 5. Achiever
