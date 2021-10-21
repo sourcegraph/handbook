@@ -1,8 +1,9 @@
 import * as path from 'path'
 import * as url from 'url'
 
+import * as _rehypeSection from '@agentofuser/rehype-section'
 import rehypeExtractToc, { Toc } from '@stefanprobst/rehype-extract-toc'
-import { Node } from 'hast'
+import { Node, Root } from 'hast'
 import { select } from 'hast-util-select'
 import { HastNode } from 'hast-util-select/lib/types'
 import { toString } from 'hast-util-to-string'
@@ -22,6 +23,9 @@ import { VFile } from 'vfile'
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 import { rehypeSlackChannels } from './rehypeSlackChannels'
 import { rehypeSmartypants } from './rehypeSmartypants'
+
+// Workaround for https://github.com/agentofuser/rehype-section/issues/85
+const { default: rehypeSection } = _rehypeSection
 
 const urlSelectors = [
     'a[href]',
@@ -61,6 +65,8 @@ export default async function markdownToHtml(
         .use(rehypeHighlight, { ignoreMissing: true })
         // Add IDs to headings
         .use(rehypeSlug)
+        // Wrap sections (as denoted by headings) in <section> elements
+        .use<[], Root, Root>(rehypeSection)
         // Extract title from H1 and attach as `vfile.data.title`
         .use(rehypeExtractTitleFromH1)
         // Add ToC metadata to result
