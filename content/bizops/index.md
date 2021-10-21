@@ -65,11 +65,11 @@ For _time-sensitive_ and _urgent_ requests, please tag the issue with the `urgen
 
 ### What a great request looks like
 
-- **The problem:** We don't have a great high-level dashboard for the product/eng leadership team to get a pulse on our product KPIs. 
-- **End state:** [PDF of a sketch](https://drive.google.com/file/d/1X2VKoWUvJpLS7LMMkG3bmhA7DJkXVujB/view) and a [doc of all the metrics](https://docs.google.com/document/d/111lB3rPDU3DHiiu4fc8MCVAK_-b20HL9cM4BkIkbmk8/edit#). 
+- **The problem:** We don't have a great high-level dashboard for the product/eng leadership team to get a pulse on our product KPIs.
+- **End state:** [PDF of a sketch](https://drive.google.com/file/d/1X2VKoWUvJpLS7LMMkG3bmhA7DJkXVujB/view) and a [doc of all the metrics](https://docs.google.com/document/d/111lB3rPDU3DHiiu4fc8MCVAK_-b20HL9cM4BkIkbmk8/edit#).
 - **The why:** This will play a part in prioritizing product/eng projects, understanding feature adoption, progress towards OKRs, etc
 - **Timeline:** By 2021-10-22 for a first draft would be ideal!
-- **People:** Nick and Christina will be responsible for usage of the dashboard and suggesting modifications. This will be delivered (automatically) into #TBD Slack channel every Monday. 
+- **People:** Nick and Christina will be responsible for usage of the dashboard and suggesting modifications. This will be delivered (automatically) into #TBD Slack channel every Monday.
 
 ### General contact
 
