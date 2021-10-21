@@ -54,7 +54,7 @@ Examples of requests that require an issue:
 GitHub issues help us manage requests by including as much relevant information as possible. Please use the relevant issue template in the repository and fill out the requested information. If no template matches, create a blank issue and include as many details around your request as possible. These points are normally useful:
 
 - **The problem:** Describe the problem or question you have.
-- **End state:** What is the end state of the project? What decisions will be made? Be as specific as possible (i.e. if the end state is a graph, draw out the graph).
+- **End state:** What is the end state of the project? What decisions will be made? Be as specific as possible (i.e. if the end state is a graph, draw out the graph in Figma, on paper and upload a PDF, etc)
 - **The why:** What will this request be used for? How does it support [Sourcegraph's company and team goals](../company/goals/index.md)?
 - **Timeline:** What's the timeline of the project? Is it urgent? When does this need to be delivered, and how will it be followed up upon in the future?
 - **People:** Who is involved, and what are the expectations of each person? Who will be responsible for driving the project forward? Does each person have the necessary bandwidth to uphold the expecations asked of them?
