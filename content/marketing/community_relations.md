@@ -1,6 +1,6 @@
 # Community Relations
 
-At Sourcegraph, our mission is to make it so [everyone can code](../company/strategy.md#purpose). The community relations team supports our mission by implementing community outreach programs, organizing events, and supporting our community’s contributions to Sourcegraph. The team’s ultimate goal is to contribute to understanding and smooth collaboration within our community. We also support the [Developer Education](./education/index.md) team to increase technical literacy.
+At Sourcegraph, our mission is to make it so [everyone can code](../company/strategy/index.md#purpose). The community relations team supports our mission by implementing community outreach programs, organizing events, and supporting our community’s contributions to Sourcegraph. The team’s ultimate goal is to contribute to understanding and smooth collaboration within our community. We also support the [Developer Education](./education/index.md) team to increase technical literacy.
 
 ## Our team runs:
 
@@ -22,6 +22,7 @@ Playing an active role in broadening our reach in the community, building authen
 - [Prosper Otemuyiwa](../company/team/index.md#prosper-otemuyiwa-he-him), Staff Developer Evangelist
 - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz-she-her), Community Advocate
 - Amarachi Emmanuela Azubuike, Social Media Community Manager
+- [Erika Heidi](../company/team/index.md#erika-heidi-sheher), Senior Developer Advocate
 
 ## Contact
 

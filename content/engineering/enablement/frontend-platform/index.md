@@ -4,6 +4,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Members
 
+- [Taylor Sperry](../../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
 - [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../../../engineering/roles.md#engineering-manager)) {#frontend-platform-eng}
   - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
@@ -47,7 +48,7 @@ Using and developing Sourcegraph is effortless.
 
 ## Goals
 
-[Goals](../../../direction/enablement/frontend-platform/index.md)
+[Goals](../../../company/strategy/enablement/frontend-platform/index.md)
 
 ## Growth plan
 

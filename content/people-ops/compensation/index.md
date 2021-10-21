@@ -15,7 +15,7 @@ We use third-party market data as a key input for each role and level within tha
 - [Employment versus contracting: compensation differences](#employment-versus-contracting-compensation-differences)
 - [How to create an offer](offers.md)
 - [Equity and stock options FAQ](equity-faq.md)
-- [How to notify People Ops of compensation changes](https://forms.gle/hzbHVCG1ZGmGRq1N6)
+- [How to notify People Ops of compensation changes](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform)
 
 ## Components of compensation
 
@@ -53,7 +53,7 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 
 We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../index.md) before making them.
 
-Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](https://about.sourcegraph.com/handbook/people-ops/review-cycles/index.md) process.
+Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../impact-reviews.md) process.
 
 ### Negotiating should not be needed
 

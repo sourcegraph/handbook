@@ -92,13 +92,15 @@ When you choose these 2-3 reviewers, you should consider:
 
 _Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
 
-Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates.
+Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates. If you would like to add more reviewers than our current cap of 3, please reach out to the #impact-reviews Slack channel and our Lattice Admins can override this limit.
 
 As a best practice, all teammates are encouraged to share their reviewer’s names with their managers beforehand to align on their choices and rationale for choosing them.
 
 **Managers**: People managers will only need to select 1-2 peer reviewers for this upcoming cycle. The bulk of your time should be spent giving feedback to your direct report(s) and actively thinking through ways to help them grow.
 
 Each review should take an average of 30-45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
+
+_As a note_: For any managers who have inherited a new direct report and are not listed as their current manager, please reach out to Cassie Melani on Slack or reach out on our #impact-reviews Slack channel.
 
 ### Submitting feedback as a manager
 
@@ -207,4 +209,4 @@ For more information on how to use SBI and giving great feedback, [check out thi
 
 ## Questions?
 
-For any questions relating to our updated performance review cadence or Lattice, please Slack #impactreviews or reach out directly to Cassie Melani.
+For any questions relating to our updated performance review cadence or Lattice, please Slack #impact-reviews or reach out directly to Cassie Melani.

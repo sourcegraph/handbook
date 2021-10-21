@@ -54,7 +54,7 @@ Remember:
     - [Product](../index.md)
     - [Product management](../product_management/index.md)
     - [Product design](../design/index.md)
-    - [Product process](https://about.sourcegraph.com/handbook/product/product_management/product_process)
+    - [Product process](../product_management/index.md)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
   - Team sync docs
     - Your calendar will be automatically populated with your team’s meetings. In the meeting invites, you will find corresponding docs that you should read for context.
@@ -103,7 +103,7 @@ Remember:
 ### Understand company and team goals
 
 - [Sourcegraph values](../../company/values.md)
-- [Sourcegraph master plan](../../company/strategy.md)
+- [Sourcegraph strategy](../../company/strategy/index.md)
 - [OKR Tracker](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit?ts=607a3f2e#gid=1699297878)
 
 ### Get ready to contribute to the docs

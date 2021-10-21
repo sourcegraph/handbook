@@ -137,6 +137,12 @@ The cloud team is a newly formed team at Sourcegraph focused on rapidly scaling 
 
 Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../engineering/cloud/saas/index.md) via the [#cloud-saas slack channel](https://sourcegraph.slack.com/archives/C025BKWFPDY).
 
+### Code Insights
+
+**Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
+
+Any questions about Code Insights should be routed to the [Code Insights Team](../engineering/code-graph/code-insights/index.md)
+
 ## Step 4: File a Github issue
 
 It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering work load planning, and our team's experience.
@@ -152,6 +158,8 @@ When in doubt, file in the private repo—issues can be moved over to the public
 
 - Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CSE New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
+- Include Sourcegraph version number.
+- Include name of the extension along with the extension version number when filing issues with the extensibility team.
 - Include customer quotes in mark down using a quote block. For example, `> quote goes here.`
 - Label it with `customer/$name` and `rfh`.
 - Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.
@@ -173,7 +181,7 @@ Selecting priority is more of an art than a science. Start with the issue and it
 
 After you file the Github issue, alert the relevant engineering team you did so in Slack. Keep it simple and always provide 1) a brief description of what you need, 2) link to the Github issue, and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
-- When posting in the Delivery team's Slack channel, use @distribution-support to contact the on-call dev (if @delivery-support does not exist)
+- When posting in the Delivery team's Slack channel, please do not @ mention any of the team Slack handles at this time (as of 2021-10-20); the team is navigating the recent org changes and would prefer to not have such a trigger pulling them away from focus. They will absolutely respond in a timely fashion and appreciate us deviating from the usual protocol of including an @ mention as explained [here](../engineering/enablement/delivery/processes.md). They also understand remembering NOT to do this is extra cognitive load and we will revert to a standard process as soon as we are able.
 - When posting in Batcher Changes team's Slack channel, use @batchers-support
 - When posting for Repository Management, be sure to do so in the #repo-management channel and use @core-app-support (if @repo-management-support doesn't exist)
 - When posting for Cloud/SaaS, be sure to do so in the #cloud-saas channel and use @cloud-saas

@@ -11,7 +11,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 - Google calendar is for your calendar, as well as shared calendars (like the CS team calendar).
 - Asana is for our project tracking as a team
 - Gsuite is for drafts, slide decks, and spreadsheets.
-- Lattice is to facilitate our for our twice yearly [review cycles](https://about.sourcegraph.com/handbook/people-ops/review-cycles).
+- Lattice is to facilitate our for our twice yearly [review cycles](../people-ops/impact-reviews.md).
 - Greenhouse is for hiring.
 - Grammarly and Hemingwayapp help us say what we intend.
 - Otter.ai makes it easier for everyone to follow along during Zoom calls.
@@ -33,7 +33,7 @@ In order to have good security and risk mitigation practices, only a subset of t
 
 ## Managed instance access
 
-In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](./support-managed-instances.md) (you can find which customers have a managed instance [here](./customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help!
+In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](./support-managed-instances.md) (you can find which customers have a managed instance [here](./customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help! If it's a p1 issue and none of them are available, simply request the logs in the #delivery Slack channel from the Delivery team.
 
 Read more about working with managed instances [here](./support-managed-instances.md).
 
