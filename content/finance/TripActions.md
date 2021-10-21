@@ -38,7 +38,7 @@ If you receive an out-of-policy notification upon booking, an email will be sent
 
 ## New Teammates Joining Trips
 
-If you are planning a trip and would like to include a new teammate who has not yet been onboarded but will be onboarded by the trip date, we can support their inclusion through guest bookings. Keep in mind that teammates can only join trips after their start date. 
+If you are planning a trip and would like to include a new teammate who has not yet been onboarded but will be onboarded by the trip date, we can support their inclusion through guest bookings. Keep in mind that teammates can only join trips after their start date.
 
 We have designated TripActions delegates for each department and onboarding, and as such, these teammates can assist with sending guest invitations. You will need to provide location and dates when requesting a guest invitation. Please reachout to the onboarding team or Inés (@Ines and [ines@sourcegraph.com](mailto:ines@sourcegraph.com) ) to ask for a guest invite in cases where the start date coincides with a trip or teammates won't have enough time between start date and trip date to book everything.
 
