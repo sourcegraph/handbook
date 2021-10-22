@@ -39,8 +39,6 @@ During a Hackathon in FY22Q3, huge strides were made by refactoring the Handbook
 
 The only analytics currently being tracked regularly are around search, via (Swiftype)[https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12]. Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle). With the addition of google analytics we expect to have clearer insight into handbook improvement opportunities.
 
-Much of FY22Q3 was spent in discovery: learning what people like and don't like about the Handbook in its current state. Through early analysis using [Productboard](https://sourcegraph.productboard.com/feature-board/3424445-handbook), we believe improving navigation and the editing experiences will have the highest impact to users.
-
 ### Top customer issues
 
 - The most reported customer issue is finding things in the Handbook. Search doesn't always produce the results you're expecting, there isn't a menu through which to browse the site, and the organization of information doesn't always make sense.
