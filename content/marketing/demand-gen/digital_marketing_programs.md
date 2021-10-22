@@ -72,7 +72,7 @@ Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using 
 
 Details for all the above programs/campaigns can be found [here](https://docs.google.com/spreadsheets/d/1IQbXQYKkwbGvG0ZN2YNLcfpkHGsbxnyl9EDbd7GXmew/edit?usp=sharing) (internal link only).
 
-We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See details [here](./ad_conversion_flows.md).
+We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See details [here](../ad_conversion_flows.md).
 
 ### Insertion Order Process
 
