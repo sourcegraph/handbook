@@ -25,11 +25,11 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
 
     Object.keys(product_areas).forEach((product_area) => {
         maturity_content += "\n## " + product_areas[product_area].title + "\n"
-        maturity_content += "[" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_maturity_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
-        maturity_content += "[" + product_areas[product_area].title + " Strategy](" + make_maturity_link_relative(product_areas[product_area].strategy_link) + ")\n"
         if (product_areas[product_area].description) {
-            maturity_content += "\n__" + product_areas[product_area].description + "__\n"
+            maturity_content += "\n_" + product_areas[product_area].description + "_\n"
         }
+        maturity_content += "\n[" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_maturity_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
+        maturity_content += "[" + product_areas[product_area].title + " Strategy](" + make_maturity_link_relative(product_areas[product_area].strategy_link) + ")\n"
         if (product_areas[product_area].limitations_text) {
             maturity_content += "\n- Limitations: " + product_areas[product_area].limitations_text + "\n"
         }
@@ -37,11 +37,11 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
         Object.keys(features).forEach((feature) => {
             if (features[feature].product_area == product_area) {
                 maturity_content += "\n### " + features[feature].title + "\n"
-                if (features[feature].documentation_link) {
-                    maturity_content += "[Documentation](" + make_maturity_link_relative(features[feature].documentation_link) + ")\n"
-                }
                 if (features[feature].description) {
-                    maturity_content += "__" + features[feature].description + "__\n"
+                    maturity_content += "\n_" + features[feature].description + "_\n"
+                }
+                if (features[feature].documentation_link) {
+                    maturity_content += "\n[Documentation](" + make_maturity_link_relative(features[feature].documentation_link) + ")\n"
                 }
                 maturity_content += "\n- Maturity: " + maturity_levels[features[feature].maturity].title + "\n"
                 if (features[feature].available_in) {
