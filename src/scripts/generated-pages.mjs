@@ -11,19 +11,23 @@ function yaml_load(file) {
     }
 }
 
+function make_maturity_link_relative(link) {
+    return ".." + link
+}
+
 function generate_maturity(features, maturity_levels, pricing_tiers, product_areas, product_orgs) {
     const maturity_file = 'content/product/maturity.md';
     var maturity_content = "# Product Features & Maturity\n";
 
     Object.keys(product_areas).forEach((product_area) => {
         maturity_content += "\n## " + product_areas[product_area].title + "\n"
-        maturity_content += "[" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + product_orgs[product_areas[product_area].product_org].strategy_link + ") | "
-        maturity_content += "[" + product_areas[product_area].title + " Strategy](" + product_areas[product_area].strategy_link + ")\n"
+        maturity_content += "[" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_maturity_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
+        maturity_content += "[" + product_areas[product_area].title + " Strategy](" + make_maturity_link_relative(product_areas[product_area].strategy_link) + ")\n"
         if (product_areas[product_area].description) {
             maturity_content += "\n__" + product_areas[product_area].description + "__\n"
         }
         if (product_areas[product_area].limitations_link) {
-            maturity_content += "\n- Limitations: " + product_areas[product_area].limitations_link + "\n"
+            maturity_content += "\n- Limitations: " + make_maturity_link_relative(product_areas[product_area].limitations_link) + "\n"
         }
 
         Object.keys(features).forEach((feature) => {
