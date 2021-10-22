@@ -83,7 +83,7 @@ Additionally, our [product design principles](../../product/design/product_desig
 
 ## Where we're at now
 
-You can see a list of features and their maturity on our [feature maturity page](../product/maturity.md).
+You can see a list of features and their maturity on our [feature maturity page](../../product/maturity.md).
 
 ## One year vision
 
