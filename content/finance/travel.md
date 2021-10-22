@@ -51,7 +51,7 @@ _9am-12pm: Breakfast + Team collaboration time
 5-6pm: Solo time
 6-8pm: Team dinner_
 
-Factor in as much time to spend together during the trip and leave room for solo-exploring/recharging separate from the group. 
+Factor in as much time to spend together during the trip and leave room for solo-exploring/recharging separate from the group.
 
 - This is designed to allow each team to hold at least one event every six months (in addition to the company-wide events above).
 - This budget can be used for travel _(airfare, trains, etc.)_, lodging _(hotels, rental homes, etc.)_, events, meals and entertainment.
