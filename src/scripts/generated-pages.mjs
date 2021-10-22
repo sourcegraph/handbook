@@ -90,9 +90,10 @@ function make_tiers_link_relative(link) {
 function generate_tiers_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs) {
     const tiers_file = 'content/product/features_by_tier.md';
     var tiers_content = "# Product Features by Tier\n";
-    tiers_content += "This is a complete list of features by pricing tier. Each item will link you to our documentation,\n"
-    tiers_content += "and you can also see what level of maturity each feature is at.\n"
-    tiers_content += "You may also be interested in seeing [features by maturity](maturity.md).\n"
+    tiers_content += "The consumer facing pricing page is on our [about site pricing page](https://about.sourcegraph.com/pricing).\n"
+    tiers_content += "This page is a complete reference of features by pricing tier; each item will link you to our documentation,\n"
+    tiers_content += "and you can also see what level of maturity each feature is currently at.\n"
+    tiers_content += "You may also be interested in seeing the [feature maturity page](maturity.md).\n"
 
     Object.keys(pricing_tiers).forEach((pricing_tier) => {
         tiers_content += "\n## " + pricing_tiers[pricing_tier].title + "\n"
