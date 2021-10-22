@@ -45,12 +45,20 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
                 }
                 maturity_content += "\n- Maturity: " + maturity_levels[features[feature].maturity].title + "\n"
                 if (features[feature].available_in) {
-                    maturity_content += "- Available in: " + JSON.stringify(features[feature].available_in) + "\n" //TODO render this properly
+                    maturity_content += "- Available in: "
+                    Object.keys(pricing_tiers).forEach((pricing_tier) => {
+                        if (features[feature].available_in[pricing_tier]) {
+                            maturity_content += "[" + pricing_tiers[pricing_tier].title + "](" + make_maturity_link_relative(pricing_tiers[pricing_tier].info_link) + "), "
+                        }
+                    });
+                    maturity_content = maturity_content.substring(0, maturity_content.length - 2);
+                    maturity_content += "\n"
                 }
                 if (features[feature].limitations_text) {
                     maturity_content += "- Limitations: " + features[feature].limitations_text + "\n"
                 }
                 if (features[feature].compatibility) {
+                    console.log(features[feature].compatibility)
                     maturity_content += "- Compatible with: "
                     Object.keys(code_hosts).forEach((code_host) => {
                         if (features[feature].compatibility[code_host]) {
