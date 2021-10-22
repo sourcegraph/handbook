@@ -9,7 +9,7 @@ Some examples of incidents:
 - We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many managed instances
 - We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many Cloud/SaaS users
   instance is down or a critical feature is broken.
-- There is a security issue with Sourcegraph.
+- There is a security issue with Sourcegraph (and if so, pleaes also follow [our security disclosure process](../../engineering/cloud/security/reporting-vulnerabilities#how-we-disclose-security-vulnerabilities).
 - A Sourcegraph team member feels like an incident might be present, but isn't certain or isn't able to confirm on their own.
 - We need to do critical proactive 1-to-many communication to all self-hosted customers (for example, making them aware of something they need to do in a certain upgrade like [the prep needed before upgrading to 3.31](https://docs.sourcegraph.com/admin/migration/3_31)) -- over time, as we do more of this, we will likely create a separate process for this
 
@@ -31,9 +31,8 @@ The first Sourcegraph teammate (regardless of their role) that becomes aware of 
    - this will create a new chatroom in Slack where all other communication should occur
 3. If you are not a member of product, engineering, or customer support, type the following into the Slack channel to page someone who can complete the rest of this list (otherwise proceed to the next step): `/genie alert we have an incident, please help for customer-support`
 4. Identify folks to serve in the following roles (see [how to identify folks to serve in incident lead and messenger roles](#how-to-identify-folks-to-serve-in-incident-lead-and-messenger-roles)
-
-- [Incident Lead](#incident-lead-roles-and-responsibilities)
-- [Messenger](#messenger-roles-and-responsibilities)
+   - [Incident Lead](#incident-lead-roles-and-responsibilities)
+   - [Messenger](#messenger-roles-and-responsibilities)
 
 5. Stay involved to help, or thank the incident lead and messenger and leave them to it
 
@@ -81,6 +80,8 @@ The incident lead is responsible for resolving the incident as quickly and safel
 
 The incident lead may delegate tasks to other available/working engineers if necessary but should make a best effort to minimize the number of other engineers who get interrupted by the incident. This delegated work takes priority over work unrelated to operational incidents.
 
+If it's a security related issue, it's best to also loop in the security team.
+
 ### Messenger roles and responsibilities
 
 The messenger is only needed for incidents with customer-facing impact. The messenger is almost always a member of customer support or engineering (someone who is not in the role of incident lead) who is able to witness the incident lead work (in the dedicated Slack channel and/or on any huddle calls) and (with minimal progress-interrupting questions) translates what they witness to:
@@ -110,6 +111,7 @@ The messenger is only needed for incidents with customer-facing impact. The mess
 - Posts in #marketing for all customer-impact incidents and tag @marketing-incident. This will give marketing visibility into all issues and the team can determine how to respond/what action is necessary. It's okay that they don't respond right away -- most incidents do not require that of our marketing teammates.
 - Posts in #general if the issue is severe enough it’s better to err on broader internal communicationIn some cases, an issue is so severe we need to do executive level communication.
 - In these cases, the messenger loops in a member of @cs-leadership who will help by handling this. The messenger reminds them to include all department heads and for marketing to also include our director of global communication in addition to the head of marketing).
+- For security related issues they also follow [our security disclosure process](../../engineering/cloud/security/reporting-vulnerabilities#how-we-disclose-security-vulnerabilities)
 
 ### False positives
 
