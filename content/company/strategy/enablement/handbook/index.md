@@ -22,20 +22,6 @@ The Handbook serves as a [source of truth](../../../../communication#sources-of-
 
 **We help Sourcegraph current and potential customers** learn more about the company they're working with by publishing and maintaining [public](../../../values.md#open-and-transparent) documentation.
 
-### Vision
-
-#### 1 Year vision
-
-> The Handbook is every Sourcegraph teammate's go-to source for answering their questions, and the team is enabled to create and maintain content as they see fit.
-
-#### 3 Year vision
-
-> The Handbook is not only a resource for answering specific questions, but also for browsing to learn about what's going on at Sourcegraph. Interactive content provides tailored onboarding and learning experiences to be used during the full span of one's career at Sourcegraph. It's a visually pleasing and functional artifact of the current state of the company and team.
-
-#### 10 year vision
-
-> The Sourcegraph Handbook is an industry standard for documentation, and has inspired other companies to embrace a culture of high agency and transparency with a tool like this.
-
 ### Guiding principles
 
 - **The Handbook can ve viewed by anyone.** One of our Sourcegraph values is [transparency](../../../values.md#open-and-transparent). We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
