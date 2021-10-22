@@ -128,3 +128,4 @@ dist
 # Generated at build time
 public/robots.txt
 public/sitemap.xml
+content/product/maturity.md

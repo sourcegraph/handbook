@@ -1,4 +1,4 @@
-- literal_search:
+literal_search:
   title: 'Literal Search'
   description: ''
   product_area: search
@@ -22,7 +22,7 @@
     perforce: true
     cvs: true
 
-- regexp_search:
+regexp_search:
   title: 'Regular Expression Search'
   description: ''
   product_area: search
@@ -46,7 +46,7 @@
     perforce: true
     cvs: true
 
-- structural_search:
+structural_search:
   title: 'Structural Search'
   description: ''
   product_area: search
@@ -70,7 +70,7 @@
     perforce: true
     cvs: true
 
-- diff_commit_search:
+diff_commit_search:
   title: 'Diff/Commit Search'
   description: ''
   product_area: search
@@ -94,7 +94,7 @@
     perforce: true
     cvs: true
 
-- code_monitoring:
+code_monitoring:
   title: 'Code Monitoring'
   description: ''
   product_area: search
@@ -118,7 +118,7 @@
     perforce: true
     cvs: true
 
-- code_monitoring_email_notifications:
+code_monitoring_email_notifications:
   title: 'Code Monitoring E-mail Notifications'
   description: ''
   product_area: search
@@ -142,7 +142,7 @@
     perforce: true
     cvs: true
 
-- code_monitoring_webhooks:
+code_monitoring_webhooks:
   title: 'Code Monitoring Webhooks'
   description: ''
   product_area: search
@@ -164,7 +164,7 @@
     perforce: false
     cvs: false
 
-- saved_searches:
+saved_searches:
   title: 'Saved Searches'
   description: ''
   product_area: search
@@ -188,7 +188,7 @@
     perforce: true
     cvs: true
 
-- search_contexts:
+search_contexts:
   title: 'Search Contexts'
   description: ''
   product_area: search
@@ -212,7 +212,7 @@
     perforce: true
     cvs: true
 
-- search_based_code_intelligence:
+search_based_code_intelligence:
   title: 'Search-based Code Intelligence'
   description: ''
   product_area: code_intelligence
@@ -236,7 +236,7 @@
     perforce: true
     cvs: true
 
-- precise_code_intelligence_go:
+precise_code_intelligence_go:
   title: 'Precise Code Intelligence for Go'
   description: ''
   product_area: code_intelligence
@@ -260,7 +260,7 @@
     perforce: true
     cvs: true
 
-- precise_code_intelligence_jsts:
+precise_code_intelligence_jsts:
   title: 'Precise Code Intelligence for JavaScript/TypeScript'
   description: ''
   product_area: code_intelligence
@@ -284,7 +284,7 @@
     perforce: true
     cvs: true
 
-- precise_code_intelligence_java_scala:
+precise_code_intelligence_java_scala:
   title: 'Precise Code Intelligence for Java & Scala'
   description: ''
   product_area: code_intelligence
@@ -306,7 +306,7 @@
     perforce: false
     cvs: false
 
-- precise_code_intelligence_c_cpp:
+precise_code_intelligence_c_cpp:
   title: 'Precise Code Intelligence for C/C++'
   description: ''
   product_area: code_intelligence
@@ -330,7 +330,7 @@
     perforce: true
     cvs: true
 
-- precise_code_intelligence_python:
+precise_code_intelligence_python:
   title: 'Precise Code Intelligence for Python'
   description: ''
   product_area: code_intelligence
@@ -352,7 +352,7 @@
     perforce: false
     cvs: false
 
-- precise_code_intelligence_csharp:
+precise_code_intelligence_csharp:
   title: 'Precise Code Intelligence for C#'
   description: ''
   product_area: code_intelligence
@@ -374,7 +374,7 @@
     perforce: false
     cvs: false
 
-- precise_code_intelligence_ruby:
+precise_code_intelligence_ruby:
   title: 'Precise Code Intelligence for JavaScript/TypeScript'
   description: ''
   product_area: code_intelligence
@@ -396,7 +396,7 @@
     perforce: false
     cvs: false
 
-- batch_changes:
+batch_changes:
   title: 'Batch Changes'
   description: ''
   product_area: batch_changes
@@ -419,7 +419,7 @@
     perforce: false
     cvs: false
 
-- code_insights:
+code_insights:
   title: 'Code Insights'
   description: ''
   product_area: code_insights
@@ -442,7 +442,7 @@
     perforce: true
     cvs: true
 
-- soc_ii_type_ii:
+soc_ii_type_ii:
   title: 'SOC II Type II'
   description: ''
   product_area: security
@@ -464,7 +464,7 @@
     perforce: false
     cvs: false
 
-- repository_syncing:
+repository_syncing:
   title: 'Repository Syncing'
   description: ''
   product_area: repository_management
@@ -488,7 +488,7 @@
     perforce: false
     cvs: false
 
-- repository_permissions:
+repository_permissions:
   title: 'Repository Permissions'
   description: ''
   product_area: repository_management
@@ -512,7 +512,7 @@
     perforce: true
     cvs: false
 
-- user_authentication:
+user_authentication:
   title: 'User Authentication'
   description: ''
   product_area: repository_management
@@ -536,7 +536,7 @@
     perforce: false
     cvs: false
 
-- browser_extension:
+browser_extension:
   title: 'Browser Extension'
   description: ''
   product_area: repository_management
@@ -560,7 +560,7 @@
     perforce: false
     cvs: false
 
-- native_integration:
+native_integration:
   title: 'Native Integration'
   description: ''
   product_area: repository_management
@@ -584,7 +584,7 @@
     perforce: false
     cvs: false
 
-- single_container_deployment:
+single_container_deployment:
   title: 'Single Container Deployment'
   description: ''
   product_area: deployment
@@ -608,7 +608,7 @@
     perforce: true
     cvs: true
 
-- docker_compose_deployment:
+docker_compose_deployment:
   title: 'Docker Compose Deployment'
   description: ''
   product_area: deployment
@@ -632,7 +632,7 @@
     perforce: true
     cvs: true
 
-- kubernetes_deployment:
+kubernetes_deployment:
   title: 'Kubernetes Deployment'
   description: ''
   product_area: deployment
@@ -656,7 +656,7 @@
     perforce: true
     cvs: true
 
-- prebuilt_extensions:
+prebuilt_extensions:
   title: 'Pre-built Extensions'
   description: ''
   product_area: extensions
@@ -680,7 +680,7 @@
     perforce: true
     cvs: true
 
-- custom_extensions:
+custom_extensions:
   title: 'Custom Extensions'
   description: ''
   product_area: extensions

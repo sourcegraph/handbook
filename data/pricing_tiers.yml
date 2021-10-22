@@ -1,9 +1,9 @@
 #TODO do we need OSS here?
 
-- free:
+free:
   title: 'Free'
   info_link: 'https://about.sourcegraph.com/pricing/'
 
-- enterprise:
+enterprise:
   title: 'Enterprise'
   info_link: 'https://about.sourcegraph.com/pricing/'

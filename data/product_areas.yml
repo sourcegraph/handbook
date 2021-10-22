@@ -1,53 +1,53 @@
-- search:
+search:
   title: 'Search'
   description: ''
   product_org: code_graph
   limitations_link: '400k is biggest customer scale, but 1m repositories is a conservative estimate of what we can support' #TODO add to docs and convert to link
   strategy_link: '/company/strategy/code_graph/search'
 
-- code_intelligence:
+code_intelligence:
   title: 'Code Intelligence'
   description: ''
   product_org: code_graph
   limitations_link: false
   strategy_link: '/company/strategy/code_graph/code-intelligence'
 
-- batch_changes:
+batch_changes:
   title: 'Batch Changes'
   description: ''
   product_org: code_graph
   limitations_link: false
   strategy_link: '/company/strategy/code-graph/batch-changes'
 
-- code_insights:
+code_insights:
   title: 'Code Insights'
   description: ''
   product_org: code_graph
   limitations_link: false
   strategy_link: '/company/strategy/code-graph/code-insights'
 
-- security:
+security:
   title: 'Security'
   description: ''
   product_org: cloud
   limitations_link: false
   strategy_link: '/company/strategy/cloud/security'
 
-- extensions:
+extensions:
   title: 'Extensions'
   description: ''
   product_org: cloud
   limitations_link: false
   strategy_link: '/company/strategy/cloud/extensibility'
 
-- repository_management:
+repository_management:
   title: 'Repository Management'
   description: ''
   product_org: enablement
   limitations_link: false
   strategy_link: '/company/strategy/enablement/repo-management'
 
-- deployment:
+deployment:
   title: 'Deployment'
   description: ''
   product_org: enablement
