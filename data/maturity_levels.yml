@@ -1,19 +1,14 @@
 ga:
   title: '✅ Generally Available'
-  description: ''
 
 beta:
   title: '✨ Beta'
-  description: ''
 
 experimental:
   title: '🔬 Experimental'
-  description: ''
 
 not_implemented:
   title: '🔮 Not Implemented'
-  description: 'This feature is not (yet) implemented in the product.'
 
 deprecated:
   title: '⚠️ Deprecated'
-  description: 'This feature has been deprecated.'
