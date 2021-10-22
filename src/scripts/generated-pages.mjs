@@ -17,8 +17,8 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
 
     Object.keys(product_areas).forEach((product_area) => {
         maturity_content += "\n## " + product_areas[product_area].title + "\n"
-        maturity_content += "[" + product_orgs[product_areas[product_area].product_org].title + " Strategy Page](" + product_orgs[product_areas[product_area].product_org].strategy_link + ") | "
-        maturity_content += "[" + product_areas[product_area].title + " Strategy Page](" + product_areas[product_area].strategy_link + ")\n"
+        maturity_content += "[" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + product_orgs[product_areas[product_area].product_org].strategy_link + ") | "
+        maturity_content += "[" + product_areas[product_area].title + " Strategy](" + product_areas[product_area].strategy_link + ")\n"
         if (product_areas[product_area].description) {
             maturity_content += "\n__" + product_areas[product_area].description + "__\n"
         }
