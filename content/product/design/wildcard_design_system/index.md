@@ -1,24 +1,29 @@
 # Wildcard Design System
 
-We use [Wildcard](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0), Sourcegraph’s design system, to create visual design artifacts in Figma. Designers utilize components from Wildcard whenever possible to ensure consistent design across Sourcegraph and efficient development time. We also use [Chromatic](https://www.chromatic.com/library?appId=5f0f381c0e50750022dc6bf7) to manage our storybook. 
+We use [Wildcard](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0), Sourcegraph’s design system, to create visual design artifacts in Figma. Designers utilize components from Wildcard whenever possible to ensure consistent design across Sourcegraph and efficient development time. We also use [Chromatic](https://www.chromatic.com/library?appId=5f0f381c0e50750022dc6bf7) to manage our storybook.
 
-## Libraries 
-The [Wildcard Design System](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0) is the primary library to use in order to have access to all of our components and styles. The [Helpers and Tooling](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/%F0%9F%9B%A0Project-Tools?node-id=72%3A20) also contains useful components like redlines and annotation.  
+## Libraries
 
-## Basic Tokens 
-Text: 
-- We use SF PRO for all text. [Download SF PRO](https://drive.google.com/drive/folders/1X1hwQr4lGGVn5BDe4f09q_xRqboQZpsQ) and install it to your laptop. 
-  - You may also need the [Figma font installer](https://www.figma.com/downloads/) if you use Figma in the browser instead of on desktop. 
-- All text styles are available through Wildcard text styles. 
-- The style definitions for our text styles are in the Sticker Sheet. 
+The [Wildcard Design System](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0) is the primary library to use in order to have access to all of our components and styles. The [Helpers and Tooling](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/%F0%9F%9B%A0Project-Tools?node-id=72%3A20) also contains useful components like redlines and annotation.
 
-Colors: 
+## Basic Tokens
+
+Text:
+
+- We use SF PRO for all text. [Download SF PRO](https://drive.google.com/drive/folders/1X1hwQr4lGGVn5BDe4f09q_xRqboQZpsQ) and install it to your laptop.
+  - You may also need the [Figma font installer](https://www.figma.com/downloads/) if you use Figma in the browser instead of on desktop.
+- All text styles are available through Wildcard text styles.
+- The style definitions for our text styles are in the Sticker Sheet.
+
+Colors:
+
 - There are four groups of colors used in Wildcard: Root, Semantic, Brand, and Open Color (OC).
-- Of these groups, the Semantic colors are the ones to be used in day-to-day design work. 
-- The style defitions for the Root and Semantic color styles are in the Sticker Sheet. The Open Color definitions are in the Colors page. 
+- Of these groups, the Semantic colors are the ones to be used in day-to-day design work.
+- The style defitions for the Root and Semantic color styles are in the Sticker Sheet. The Open Color definitions are in the Colors page.
 
 Space:
-- Sourcegraph uses an 8-point grid. 
+
+- Sourcegraph uses an 8-point grid.
 
 ## Adding a component
 
