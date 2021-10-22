@@ -1,0 +1,204 @@
+- literal_search:
+  title: "Literal Search"
+  description: ""
+  product_area: search
+  maturity: ga
+  available_in:
+    - free
+    - enterprise
+  documentation_link: "https://docs.sourcegraph.com/code_search/reference/queries"
+  limitations_link: false
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+- regexp_search:
+  title: "Regular Expression Search"
+  description: ""
+  product_area: search
+  maturity: ga
+  available_in:
+    - free
+    - enterprise
+  documentation_link: "https://docs.sourcegraph.com/code_search/reference/queries"
+  limitations_link: false
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+- structural_search:
+  title: "Structural Search"
+  description: ""
+  product_area: search
+  maturity: ga
+  available_in:
+    - free
+    - enterprise
+  documentation_link: "https://docs.sourcegraph.com/code_search/reference/queries"
+  limitations_link: "Works for up to 1m repos depending on the query, but performance is unpredictable for certain queries at even a handful (~200) repositories. There doesn't seem to be anything consistent about the problem queries." #TODO add to docs and convert to link
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+- diff_commit_search:
+  title: "Diff/Commit Search"
+  description: ""
+  product_area: search
+  maturity: ga
+  available_in:
+    - free
+    - enterprise
+  documentation_link: "https://docs.sourcegraph.com/code_search/reference/queries"
+  limitations_link: "WIP to remove limit; 50 repositories is the current max" #TODO add to docs and convert to link
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+- code_monitoring:
+  title: "Code Monitoring"
+  description: ""
+  product_area: search
+  maturity: ga
+  available_in:
+    - free
+    - enterprise  
+  documentation_link: "https://docs.sourcegraph.com/code_monitoring"
+  limitations_link: "Limited by diff/commit search scale, limit to 50 repositories. No shared code monitors, only individual." #TODO add to docs and convert to link
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+- code_monitoring_email_notifications:
+  title: "Code Monitoring E-mail Notifications"
+  description: ""
+  product_area: search
+  maturity: ga
+  available_in:
+    - free
+    - enterprise
+  documentation_link: "https://docs.sourcegraph.com/code_monitoring"
+  limitations_link: "Recipients limited to the owning user. Can't email to other members of organization/instance." #TODO add to docs and convert to link
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+- code_monitoring_webhooks:
+  title: "Code Monitoring Webhooks"
+  description: ""
+  product_area: search
+  maturity: not_implemented
+  available_in: false
+  documentation_link: false
+  limitations_link: false
+  compatibility:
+    gitlab_com: false
+    gitlab_enterprise: false
+    github_com: false
+    bitbucket_server: false
+    bitbucket_cloud: false
+    phabricator: false
+    codecommit: false
+    gitolite: false
+    gerrit: false
+    perforce: false
+    cvs: false
+
+- saved_searches:
+  title: "Saved Searches"
+  description: ""
+  product_area: search
+  maturity: deprecated
+  available_in:
+    - free
+    - enterprise
+  documentation_link: "https://docs.sourcegraph.com/code_search/explanations/features#saved-searches"
+  limitations_link: "This is/has been being deprecated and replaced by code monitoring." #TODO add to docs and convert to link
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true 
+
+- search_contexts:
+  title: "Search Contexts"
+  description: ""
+  product_area: search
+  maturity: ga
+  available_in:
+    - free
+    - enterprise
+  documentation_link: "https://docs.sourcegraph.com/code_search/explanations/features#search-contexts"
+  limitations_link: "Cannot currently share search contexts with other org members." #TODO add to docs and convert to link
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true     
