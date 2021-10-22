@@ -45,12 +45,14 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
                 }
                 maturity_content += "\n- Maturity: " + maturity_levels[features[feature].maturity].title + "\n"
                 if (features[feature].available_in) {
-                    maturity_content += "- Available in: " + features[feature].available_in + "\n" //TODO render this properly
+                    maturity_content += "- Available in: " + JSON.stringify(features[feature].available_in) + "\n" //TODO render this properly
                 }
                 if (features[feature].limitations_link) {
                     maturity_content += "- Limitations: " + features[feature].limitations_link + "\n" //TODO render as links
                 }
-                //TODO render compatibility matrix
+                if (features[feature].compatibility) {
+                    maturity_content += "- Compatibility: " + JSON.stringify(features[feature].compatibility) + "\n" //TODO render properly
+                }
             }
         });
     });
