@@ -24,6 +24,7 @@ The **Campaigns group** is primarily responsible for the strategy and activation
 - [Digital Marketing Marketing](./digital_marketing_programs.md)
 
 The **Operations group** is responsible for systems and analytics which support the marketing organization.
+
 - [Marketing Operations](./marketing_operations.md)
 
 - Sarah Reece - Director, Demand Generation
