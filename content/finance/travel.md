@@ -43,12 +43,19 @@ Each teammate has two fully-paid trips (flights, lodging, food, transportation) 
 
 ### 2. Team travel
 
-Each team is allocated $4,000 USD per year per teammate for team meetups (minimum two members of the team).
+Each team is allocated $4,000 USD per year per teammate for team meetups (minimum two members of the team). The primary purpose of Team travel is to effectively build relationships with the people you work with on your teams. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. TIn planning your Team travel, feel free to reference a sample agenda below:
+
+_9am-12pm: Breakfast + Team collaboration time
+12pm-1pm: Team lunch
+1-4pm: Team bonding activities
+5-6pm: Solo time
+6-8pm: Team dinner_
+
+Factor in as much time to spend together during the trip and leave room for solo-exploring/recharging separate from the group.
 
 - This is designed to allow each team to hold at least one event every six months (in addition to the company-wide events above).
 - This budget can be used for travel _(airfare, trains, etc.)_, lodging _(hotels, rental homes, etc.)_, events, meals and entertainment.
 - Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive of all of the groups interests.
-- Reserve plenty of time for just hanging out, touring around, and having fun. Quality time with each other is important.
 - If one individual is a member of multiple teams, they will receive the same amount for each of their teams.
 - The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
 
