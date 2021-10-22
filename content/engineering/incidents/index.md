@@ -31,6 +31,7 @@ The first Sourcegraph teammate (regardless of their role) that becomes aware of 
    - this will create a new chatroom in Slack where all other communication should occur
 3. If you are not a member of product, engineering, or customer support, type the following into the Slack channel to page someone who can complete the rest of this list (otherwise proceed to the next step): `/genie alert we have an incident, please help for customer-support`
 4. Identify folks to serve in the following roles (see [how to identify folks to serve in incident lead and messenger roles](#how-to-identify-folks-to-serve-in-incident-lead-and-messenger-roles)
+
    - [Incident Lead](#incident-lead-roles-and-responsibilities)
    - [Messenger](#messenger-roles-and-responsibilities)
 
