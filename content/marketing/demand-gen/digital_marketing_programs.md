@@ -86,4 +86,5 @@ We capture/measure the results of our paid campaigns using tags in Google Tag Ma
 2. We send invoices to <finance@sourcegraph.com>, and include a copy of the signed insertion order as backup for the invoice.
 
 ### Reporting
+
 While we work on a consolidated dashboard, you can find monthly search and social reports in this [Google drive](https://drive.google.com/drive/u/0/folders/1Tdyn6Pf2ZA2Dej7akxAcgSy2td9cBxxY) and contribution to pipeline in this [Salesforce report](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z3t000001BU2XEAW/view)
