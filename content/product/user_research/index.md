@@ -32,5 +32,5 @@
   - [Research summary slides](https://docs.google.com/presentation/d/1b1sa88dqmXIKB3_1stHYuj14ts4qptb5Gyym1goO2wQ/edit#slide=id.g7a4352b37a_0_90)
   - [User journey map](https://www.figma.com/file/7RHdxmVzzCqrXYOEC9dY4u/Initial-search-user-journey?node-id=62%3A0)
   - Loom discussing the research [part 1](https://www.loom.com/share/f775af94c06a4446a31fcc600332f2f5), [part 2](https://www.loom.com/share/13e0e6d2e035409db1173c13428f090a), [part 3](https://www.loom.com/share/8907c7413b6a4162a5cb819d9584d908)
-- **Search use cases** - A document describing the categories of search use cases and specific use cases for each category.
+- **Search use cases** - A document describing the high level categories of code search use cases and use cases for each category. It also provides user studies for use cases where available.
   - [Search use cases](https://docs.google.com/document/d/1JWR5tQrq8df6OMNdYFk6tPPdVDadZgcMQbB-kdaYKBk/edit#heading=h.ivm56981fogr)
