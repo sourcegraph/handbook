@@ -2,23 +2,24 @@
 
 ### My view on demand generation
 
-Demand Gen is great because it impacts growth through many different tools: storytelling,analytics,creativity,messaging,tooling,processes,and more. It also creates a lot of opportunities for cross-functional work in a business. It's something you have to stragecially think about, and something you have to be creative about at the same time. 
+Demand Gen is great because it impacts growth through many different tools: storytelling,analytics,creativity,messaging,tooling,processes,and more. It also creates a lot of opportunities for cross-functional work in a business. It's something you have to stragecially think about, and something you have to be creative about at the same time.
+
 ### Preferred learning styles
 
-I learn a bunch of different ways - but the most effective is the following process: hearing it, then reading it, and then doing it. In meetings I am looking generally for context, and some how to's. I digest information best from reading it, I retain info by doing it. 
+I learn a bunch of different ways - but the most effective is the following process: hearing it, then reading it, and then doing it. In meetings I am looking generally for context, and some how to's. I digest information best from reading it, I retain info by doing it.
 
 ### Communication style
 
-My brain works in a non - linear way, so when I am in a meeting I am thinking of 100 random different ways to do something.  Sometimes it is hard for me in the moment to reach up in my mind and articulate the universe of thoughts I have on a subject. I sometimes will talk out my thoughts, which is helpful but it's not always the right time to do that.  I can seem quiet in meetings sometime, because I am processing everything. That doesn't mean I don't have an input,it's just I am making sure I understand the presenter and myself.  It's best for me to think, then stop organize and articulate what I am thinking. Writing things out is usually my best way articulating ideas/strategy etc.. However, I love talking and listening for context on why and what?
-If there is every any tension or any type of conflict, I much prefer talking in person. 
+My brain works in a non - linear way, so when I am in a meeting I am thinking of 100 random different ways to do something. Sometimes it is hard for me in the moment to reach up in my mind and articulate the universe of thoughts I have on a subject. I sometimes will talk out my thoughts, which is helpful but it's not always the right time to do that. I can seem quiet in meetings sometime, because I am processing everything. That doesn't mean I don't have an input,it's just I am making sure I understand the presenter and myself. It's best for me to think, then stop organize and articulate what I am thinking. Writing things out is usually my best way articulating ideas/strategy etc.. However, I love talking and listening for context on why and what?
+If there is every any tension or any type of conflict, I much prefer talking in person.
 
 ### Preferred way to collaborate
 
-I find that the there are a lot of different ways to collobarate, and some are relevant for different moments. Somteimes, I think it is really helpful to get a problem in the moment with a group with little pre-work and do a brainstorm to knock out any bias that may inhibit creativity. I also think it's helpful when making a decision that is backed with data that people are prepped with for the meeting in order to collaborate effectively. Defined roles are always a big help. The intrinsic value of feeling like you're contributing on a team while collobarating is an amazing feeling. 
+I find that the there are a lot of different ways to collobarate, and some are relevant for different moments. Somteimes, I think it is really helpful to get a problem in the moment with a group with little pre-work and do a brainstorm to knock out any bias that may inhibit creativity. I also think it's helpful when making a decision that is backed with data that people are prepped with for the meeting in order to collaborate effectively. Defined roles are always a big help. The intrinsic value of feeling like you're contributing on a team while collobarating is an amazing feeling.
 
 ### How I approach problems
 
--Gather information and context. 
+-Gather information and context.
 -Give my brain a chance to think about problem without structure.
 -Write down my structure and plan of approach.
 -Begin to solve problem.
@@ -29,26 +30,26 @@ I find that the there are a lot of different ways to collobarate, and some are r
 
 ### Preferred way to be recognized/appreciated
 
-I was the kid that when I scored a goal in little league soccer i'd be trying so hard to not show that I was smiling, I tried to play it cool. However, it was super obvious how stoked I was. I like to know when I have hit a home run, but I don't always know how to react. It's also important for me to hear and feel that someone genuinely is appreciative of something I have done. I also like to tell people how much help they have given me and what they mean to me as well. 
+I was the kid that when I scored a goal in little league soccer i'd be trying so hard to not show that I was smiling, I tried to play it cool. However, it was super obvious how stoked I was. I like to know when I have hit a home run, but I don't always know how to react. It's also important for me to hear and feel that someone genuinely is appreciative of something I have done. I also like to tell people how much help they have given me and what they mean to me as well.
 
 ### Thoughts/feelings/preferences when it comes to asking for help
 
-I don't mind asking for help, and really hope people ask for help from me when they need it. 
+I don't mind asking for help, and really hope people ask for help from me when they need it.
 
 ### What I find enjoyable at work
 
 -Spending time working with teammates, accomplishing something as a team feels amazing.
 -When I figure out something hard techincally.
 -When I am able to sit down and focus on a problem.
--Learning about what people are focused on, understanding the context and story behind the numbers I get to pull. 
+-Learning about what people are focused on, understanding the context and story behind the numbers I get to pull.
 
 ### What kind of work do I find easiest to do
 
-Talking to people and asking the right questions about what is important on a strategical level. I also feel very comfortable brainstorming. 
+Talking to people and asking the right questions about what is important on a strategical level. I also feel very comfortable brainstorming.
 
 ### How do I feel about getting messages after/outside of hours that are meant for me to see and respond to during active hours
 
-My average day and weekend, I prefer not to work at night or on the weekends. However, when it is needed- I am more than happy to make sure something gets done. Also - feel free to communicate whenever, I am not shy to ask if something needs to be done right away or if it can wait. And a lot of times, I can answer a question super fast so I dont mind. 
+My average day and weekend, I prefer not to work at night or on the weekends. However, when it is needed- I am more than happy to make sure something gets done. Also - feel free to communicate whenever, I am not shy to ask if something needs to be done right away or if it can wait. And a lot of times, I can answer a question super fast so I dont mind.
 
 ### How folks can best show up for me when I seem off
 
@@ -56,7 +57,7 @@ Ask me whats going on? Usually, talking to someone about whatever and getting so
 
 ### Things I am aware of that trigger anxious feelings/feelings of less than at work
 
-When I feel like I don't fully understand something and am expected to all the sudden build a dashboard! Or when a dashboard is the answer to everyone's problems. 
+When I feel like I don't fully understand something and am expected to all the sudden build a dashboard! Or when a dashboard is the answer to everyone's problems.
 
 ### Marketing areas of knowledge
 
@@ -64,20 +65,19 @@ BI, analyzing marketing strategies, sql, EQ, funnel metrics,
 
 ### Marketing areas of interest to learn
 
-Customer journey mapping 
+Customer journey mapping
 
 ### Current personal project
 
-I am selling crewneck sweatshirts on the side for fun. sweatshirt-season.com 
+I am selling crewneck sweatshirts on the side for fun. sweatshirt-season.com
 
 ### Something I fear
 
-That I live 3.2 miles away from the zoo, which at any moment the Gorillas could escape and ultimately end my life as I know it.  I also am kind of scared of Mandy Moore. 
+That I live 3.2 miles away from the zoo, which at any moment the Gorillas could escape and ultimately end my life as I know it. I also am kind of scared of Mandy Moore.
 
 ### A quote I like
 
 You can escape competition through authenticity, when you realize that no one can compete with you on being you. - Naval
-
 
 ### How I eat fries
 
