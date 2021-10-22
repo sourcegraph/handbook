@@ -55,7 +55,7 @@ I don't mind asking for help, and really hope people ask for help from me when t
 
 ### What kind of work do I find easiest to do
 
-Brainstorming and working with people to determine what is needed, also find building dashboards easy. 
+Brainstorming and working with people to determine what is needed, also find building dashboards easy.
 
 ### How do I feel about getting messages after/outside of hours that are meant for me to see and respond to during active hours
 
