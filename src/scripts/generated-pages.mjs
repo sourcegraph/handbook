@@ -58,11 +58,10 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
                     maturity_content += "- Limitations: " + features[feature].limitations_text + "\n"
                 }
                 if (features[feature].compatibility) {
-                    console.log(features[feature].compatibility)
                     maturity_content += "- Compatible with: "
                     Object.keys(code_hosts).forEach((code_host) => {
                         if (features[feature].compatibility[code_host]) {
-                            maturity_content += code_hosts[code_host].title + ", "
+                            maturity_content += "[" + code_hosts[code_host].title + "](" + make_maturity_link_relative(code_hosts[code_host].info_link) + "), "
                         }
                     });
                     maturity_content = maturity_content.substring(0, maturity_content.length - 2);
