@@ -1,4 +1,4 @@
-## Aimee Menne
+## Bob Roudebush
 
 ### My view on customer engineering
 
@@ -92,4 +92,8 @@ I have so many quotes that sum up a perspective I have, an ideal I aspire to or 
 
 ### My Strengthsfinder results
 
-1. Learner; 2. Competition; 3. Focus; 4. Responsibility; 5. Achiever
+1. Learner
+2. Competition
+3. Focus
+4. Responsibility
+5. Achiever
