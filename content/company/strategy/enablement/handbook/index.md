@@ -51,7 +51,7 @@ The Handbook team is new, and up until now the Handbook has been owned by everyo
 
 During a Hackathon in FY22Q3, huge strides were made by refactoring the Handbook. This refector allows for easier development in the future, added a "Contributors" section to each page in the handbook, and provided users a full preview of their changes.
 
-The only analytics currently being tracked regularly are around search, via (Swiftype)[https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12]. Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle).  With the addition of google analytics we expect to have clearer insight into handbook improvement opportunities.
+The only analytics currently being tracked regularly are around search, via (Swiftype)[https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12]. Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle). With the addition of google analytics we expect to have clearer insight into handbook improvement opportunities.
 
 Much of FY22Q3 was spent in discovery: learning what people like and don't like about the Handbook in its current state. Through early analysis using [Productboard](https://sourcegraph.productboard.com/feature-board/3424445-handbook), we believe improving navigation and the editing experiences will have the highest impact to users.
 
@@ -62,15 +62,15 @@ Much of FY22Q3 was spent in discovery: learning what people like and don't like 
 
 ## Strategy and Plans
 
-The next six months are focused on better defining the Handbook as a product and team.  While forming our team we will enhance existing functionality like discovering and editing content.
+The next six months are focused on better defining the Handbook as a product and team. While forming our team we will enhance existing functionality like discovering and editing content.
 
 ### Goals
 
 #### FY22Q4
 
 - **Objective:** Produce search results that are more helpful to the end user.
-- **Why?** The Handbook is the primary resource of content for teammates, candidates and customers to learn more about the company.  As the main source of truth for Sourcegraph it is critical end users can easily find content.
-  - **Key Result 1:** Increase the number of click throughs on Handbook search results. 
+- **Why?** The Handbook is the primary resource of content for teammates, candidates and customers to learn more about the company. As the main source of truth for Sourcegraph it is critical end users can easily find content.
+  - **Key Result 1:** Increase the number of click throughs on Handbook search results.
 - **How will this be measured?** Today Swiftype analytics shows that we have a 10% click through rate.
 - **How does this align with the overall [product strategy](../../index.md)?** This enables all teammates at Sourcegraph to be more efficient and accelerate the time it takes to provide value to customers.
 
