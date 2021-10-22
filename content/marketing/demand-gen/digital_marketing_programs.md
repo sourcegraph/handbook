@@ -11,7 +11,7 @@ Paid digital programs at Sourcegraph generate demand through awareness and acqui
 
 We use a variety of CTAs, including:
 
-- Product trials [Search Code](https://sourcegraph.com/search), [Deploy Locally] (https://about.sourcegraph.com/#get-started), [Sign-up for Sourcegraph](https://sourcegraph.com/sign-up) – these are designed to increase product use, especially among new users, for both the local install and Cloud product
+- Product trials [Search Code](https://sourcegraph.com/search), [Deploy Locally](https://about.sourcegraph.com/#get-started), [Sign-up for Sourcegraph](https://sourcegraph.com/sign-up) – these are designed to increase product use, especially among new users, for both the local install and Cloud product
 - [Blog content](https://about.sourcegraph.com/blog/) – these campaigns offer educational content from the Sourcegraph blog to enable developers to increase their skills and think of Sourcegraph as a developer resource
 - Testimonial content & [case studies](https://about.sourcegraph.com/case-studies/) – testimonial quotes from customers and case study offers provide third-party credibility for both individual developers and their managers
 
@@ -84,3 +84,6 @@ We capture/measure the results of our paid campaigns using tags in Google Tag Ma
 
 1. Invoices are received via email from our advertising partners.
 2. We send invoices to <finance@sourcegraph.com>, and include a copy of the signed insertion order as backup for the invoice.
+
+### Reporting
+While we work on a consolidated dashboard, you can find monthly search and social reports in this [Google drive](https://drive.google.com/drive/u/0/folders/1Tdyn6Pf2ZA2Dej7akxAcgSy2td9cBxxY) and contribution to pipeline in this [Salesforce report](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z3t000001BU2XEAW/view)
