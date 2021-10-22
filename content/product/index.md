@@ -17,7 +17,7 @@ The product strategy and what we're working on next can be found on the [Sourceg
 
 ## Feature Maturity
 
-We have an page listing our [features and maturity levels](maturity.md).
+We have a page listing our [features and maturity levels](maturity.md).
 
 ## Metrics
 
