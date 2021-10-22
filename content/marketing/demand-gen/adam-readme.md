@@ -15,7 +15,7 @@ If there is every any tension or any type of conflict, I much prefer talking in 
 
 ### Preferred way to collaborate
 
-I like to work with people,sharing ideas verbally,brainstorming sessions,google docs,defined roles, it's all good. 
+I like to work with people,sharing ideas verbally,brainstorming sessions,google docs,defined roles, it's all good.
 
 ### How I approach problems
 
@@ -49,7 +49,7 @@ Talking to people and asking the right questions about what is important on a st
 
 ### How do I feel about getting messages after/outside of hours that are meant for me to see and respond to during active hours
 
-I prefer not to work at night or on the weekends. However; when it is needed, I am more than happy to make sure something gets done.  Feel free to communicate whenever, I am not shy to ask if something needs to be done right away or if it can wait. If it's a easy quick answer, I don't mind answering it.
+I prefer not to work at night or on the weekends. However; when it is needed, I am more than happy to make sure something gets done. Feel free to communicate whenever, I am not shy to ask if something needs to be done right away or if it can wait. If it's a easy quick answer, I don't mind answering it.
 
 ### How folks can best show up for me when I seem off
 
@@ -57,7 +57,7 @@ Ask me whats going on? Talking to someone about whatever usually helps me and ge
 
 ### Things I am aware of that trigger anxious feelings/feelings of less than at work
 
-When I feel like I don't fully understand something and am expected to all the sudden build a dashboard! Or when a dashboard is the answer to everyone's problems. Don't get me wrong, love dashboards - just sometimes I feel like it becomes a crutch or isn't thought out. 
+When I feel like I don't fully understand something and am expected to all the sudden build a dashboard! Or when a dashboard is the answer to everyone's problems. Don't get me wrong, love dashboards - just sometimes I feel like it becomes a crutch or isn't thought out.
 
 ### Marketing areas of knowledge
 
