@@ -76,6 +76,33 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
     });
 }
 
+function make_tiers_link_relative(link) {
+    if (link.substring(0, 4) == "http") {
+        return link
+    } else {
+        return ".." + link
+    }
+}
+
+function generate_tiers(features, maturity_levels, pricing_tiers, product_areas, product_orgs) {
+    const tiers_file = 'content/product/features_by_tier.md';
+    var tiers_content = "# Product Features by Tier\n";
+
+    Object.keys(pricing_tiers).forEach((pricing_tier) => {
+        tiers_content += "\n## " + pricing_tiers[pricing_tier].title + "\n"
+
+        Object.keys(features).forEach((feature) => {
+            if (features[feature].available_in[pricing_tier]) {
+                tiers_content += "- " + features[feature].title + "\n"
+            }
+        });
+    });
+    writeFile(tiers_file, tiers_content, function (err) {
+        if (err) throw err;
+        console.log('Created ' + tiers_file);
+    });
+}
+
 // Load YAML files
 const features = yaml_load('data/features.yml');
 const maturity_levels = yaml_load('data/maturity_levels.yml');
@@ -85,4 +112,5 @@ const product_orgs = yaml_load('data/product_orgs.yml');
 const code_hosts = yaml_load('data/code_hosts.yml');
 
 generate_maturity(features, maturity_levels, pricing_tiers, product_areas, product_orgs);
+generate_tiers(features, maturity_levels, pricing_tiers, product_areas, product_orgs);
 
