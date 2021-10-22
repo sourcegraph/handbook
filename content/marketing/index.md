@@ -48,8 +48,8 @@ The table below breaks down the capabilities of each team within Marketing. Once
 - [Demand Gen](./demand-gen/index.md)
 
   - [Account Based Experience](demand-gen/account_based_experience.md)
-  - [Digital Marketing Programs](digital_marketing_programs.md)
-  - [Marketing operations](marketing_operations.md)
+  - [Digital Marketing Programs](demand-gen/digital_marketing_programs.md)
+  - [Marketing operations](demand-gen/marketing_operations.md)
 
 - [Developer Education](education/index.md)
 
