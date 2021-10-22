@@ -1,0 +1,35 @@
+gitlab_com:
+  title: "GitLab.com"
+
+gitlab_enterprise:
+  title: "GitLab Enterprise"
+
+github_com:
+  title: "GitHub.com"
+
+github_enterprise:
+  title: "GitHub Enterprise"
+
+bitbucket_Server:
+  title: "BitBucket Server"
+
+bitbucket_cloud:
+  title: "BitBucket Cloud"
+
+phabricator:
+  title: "Phabricator"
+
+codecommit:
+  title: "AWS CodeCommit"
+
+gitolite:
+  title: "Gitolite"
+
+gerrit:
+  title: "Gerrit"
+
+perforce:
+  title: "Perforce"
+
+cvs:
+  title: "CVS"

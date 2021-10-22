@@ -47,11 +47,18 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
                 if (features[feature].available_in) {
                     maturity_content += "- Available in: " + JSON.stringify(features[feature].available_in) + "\n" //TODO render this properly
                 }
-                if (features[feature].limitations_link) {
-                    maturity_content += "- Limitations: " + features[feature].limitations_link + "\n" //TODO render as links
+                if (features[feature].limitations_text) {
+                    maturity_content += "- Limitations: " + features[feature].limitations_text + "\n"
                 }
                 if (features[feature].compatibility) {
-                    maturity_content += "- Compatibility: " + JSON.stringify(features[feature].compatibility) + "\n" //TODO render properly
+                    maturity_content += "- Compatible with: "
+                    Object.keys(code_hosts).forEach((code_host) => {
+                        if (features[feature].compatibility[code_host]) {
+                            maturity_content += code_hosts[code_host].title + ", "
+                        }
+                    });
+                    maturity_content = maturity_content.substring(0, maturity_content.length - 2);
+                    maturity_content += "\n"
                 }
             }
         });
@@ -68,6 +75,7 @@ const maturity_levels = yaml_load('data/maturity_levels.yml');
 const pricing_tiers = yaml_load('data/pricing_tiers.yml');
 const product_areas = yaml_load('data/product_areas.yml');
 const product_orgs = yaml_load('data/product_orgs.yml');
+const code_hosts = yaml_load('data/code_hosts.yml');
 
 generate_maturity(features, maturity_levels, pricing_tiers, product_areas, product_orgs);
 
