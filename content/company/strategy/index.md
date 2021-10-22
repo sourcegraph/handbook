@@ -81,6 +81,10 @@ Additionally, our [product design principles](../../product/design/product_desig
 - If your organization is getting value from Sourcegraph with a lot of users, our [pricing](https://about.sourcegraph.com/pricing) is designed so that we earn money from you. This lets us invest in improving our product.
 - All users at a given customer are on the same pricing tier. This is simpler than having users at different tiers and encourages us to build things that are broadly valuable.
 
+## Where we're at now
+
+You can see a list of features and their maturity on our [feature maturity page](../product/maturity.md).
+
 ## One year vision
 
 > Problem statement: In large and complex codebases ([Big Code](#big-code)), it's hard for developers to discover, understand, and fix code.
