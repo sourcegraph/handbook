@@ -20,6 +20,8 @@ The Demand Generation team is organized into two functional groups: **Campaigns*
 
 The **Campaigns group** is primarily responsible for the strategy and activation of our demand generation campaigns across multiple marketing channels.
 
+- [Account-Based Experiences](./account_based_experience.md) aka ABX
+
 The **Operations group** is responsible for systems and analytics which support the marketing organization.
 
 - Sarah Reece - Director, Demand Generation
