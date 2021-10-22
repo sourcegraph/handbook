@@ -2,32 +2,32 @@
 
 ### Strategy
 
-Paid digital programs at Sourcegraph are focused on both awareness and lead gen:
+Paid digital programs at Sourcegraph generate demand through awareness and acquisition strategies:
 
-- Awareness – get the message out about Sourcegraph and Universal Code Search to developers worldwide
-- Lead gen – generate inquiries/leads (i.e., email addresses) using high-intent offers
+- Awareness – get the message out about Sourcegraph and our products to developers worldwide
+- Acquisition – deliver value through product sign-ups, demos, and other high-impact offers
 
 ### Offers
 
 We use a variety of CTAs, including:
 
-- Product trials [Try Sourcegraph](https://about.sourcegraph.com/get-started/), [Search Open Source Code on Sourcegraph Cloud](https://sourcegraph.com/search) – these are designed to generate usage/testing of the Sourcegraph product, for both the local install and Cloud product
+- Product trials [Search Code](https://sourcegraph.com/search), [Deploy Locally] (https://about.sourcegraph.com/#get-started), [Sign-up for Sourcegraph](https://sourcegraph.com/sign-up) – these are designed to increase product use, especially among new users, for both the local install and Cloud product
 - [Blog content](https://about.sourcegraph.com/blog/) – these campaigns offer educational content from the Sourcegraph blog to enable developers to increase their skills and think of Sourcegraph as a developer resource
 - Testimonial content & [case studies](https://about.sourcegraph.com/case-studies/) – testimonial quotes from customers and case study offers provide third-party credibility for both individual developers and their managers
 
 ### Audiences
 
-> **For developer-focused campaigns**, we speak directly to individual practitioners who are trying to solve specific Big Code problems that Sourcegraph can address (better code search, better code reviews, finding & fixing bugs faster, etc.)
+> **For developer-focused campaigns**, we speak directly to individual practitioners who are trying to solve specific problems that Sourcegraph can address (better code search, better code reviews, finding & fixing bugs faster, etc.)
 
-> **For manager-focused campaigns**, we speak to engineering managers who may have larger organizational challenges, such as onboarding new team members, finding security vulnerabilities, moving from monolith to microservices, etc.
+> **For manager-focused campaigns**, we speak to engineering leads and managers who may have larger organizational challenges, such as onboarding new team members, finding security vulnerabilities, moving from monolith to microservices, etc.
 
-When it’s possible to serve ads to specific personas at select companies (e.g., on LinkedIn, Bing display network through LinkedIn audience network), we serve ads to developers/managers at our Target Accounts.
+When it’s possible to serve ads to specific personas at select companies (e.g., on LinkedIn, Bing display network through LinkedIn audience network, Triblio), we serve ads to developers/managers at our Target Accounts.
 
 ### Goals
 
 - **Web-based awareness programs** – when clickthrough ads are being served on developer-facing websites or networks, our goals are to see Sourcegraph website visitors (traffic) from those ads and multiple page visits/actions (engagements) taken by those visitors, which shows interest in learning more about Sourcegraph
-- **Podcast sponsorships and other sponsorships** that don’t provide clickthrough opportunities – we consider these awareness campaigns only, as part of our overall community building efforts
-- **Lead gen campaigns** designed to generate inquiries/leads are measured by the number of high-intent actions taken that generate email inquiries, including submitting a Contact Us / Request for Demo form, downloading the free/open-source version of Sourcegraph, or signing up for a Sourcegraph.com Account to save searches on our web-based Cloud product.
+- **Podcast sponsorships and other sponsorships** that don’t provide clickthrough opportunities – we consider these awareness campaigns only, as part of our overall demand creation efforts
+- **Acquisition campaigns** designed to generate leads are measured by the number of leads created as a result of the campaign. A lead is created when a person does a high-intent action such as submitting a Contact Us / Request for Demo form, downloading the free/open-source version of Sourcegraph, or signing up for a Sourcegraph.com Account to save searches on our web-based Cloud product.
 
 ### Channels
 
@@ -45,6 +45,7 @@ We run (or have run) ads/sponsorships on the following channels in order to rais
 - [StackShare](https://stackshare.io/feed)
 - [DevsOps'Ish](https://devopsish.com/)
 - [Hanselman](https://www.hanselman.com/)
+- [Cassidoo](https://cassidoo.co/)
 
 #### Developer-Facing Podcasts
 
