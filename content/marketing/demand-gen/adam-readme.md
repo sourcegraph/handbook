@@ -2,20 +2,20 @@
 
 ### My view on demand generation
 
-Demand Gen is great because it impacts growth through many different tools: storytelling,analytics,creativity,messaging,tooling,processes,and more. It also creates a lot of opportunities for cross-functional work in a business. It's something you have to stragecially think about, and something you have to be creative about at the same time.
+Demand Gen is great because it impacts growth through many different tools: storytelling,analytics,creativity,messaging,tooling,processes,and more. It also creates a lot of opportunities for cross-functional work in a business. It's something you have to stragecially think about, and something you have to be creative about.
 
 ### Preferred learning styles
 
-I learn a bunch of different ways - but the most effective is the following process: hearing it, then reading it, and then doing it. In meetings I am looking generally for context, and some how to's. I digest information best from reading it, I retain info by doing it.
+I learn a bunch of different ways - but the most effective is the following process: hearing it, then reading it, and then doing it. In meetings I am looking generally for context. I digest information best from reading it, I retain info by doing it.
 
 ### Communication style
 
-My brain works in a non - linear way, so when I am in a meeting I am thinking of 100 random different ways to do something. Sometimes it is hard for me in the moment to reach up in my mind and articulate the universe of thoughts I have on a subject. I sometimes will talk out my thoughts, which is helpful but it's not always the right time to do that. I can seem quiet in meetings sometime, because I am processing everything. That doesn't mean I don't have an input,it's just I am making sure I understand the presenter and myself. It's best for me to think, then stop organize and articulate what I am thinking. Writing things out is usually my best way articulating ideas/strategy etc.. However, I love talking and listening for context on why and what?
+My brain works in a non - linear way; so when I am in a meeting, I am thinking of 100 random different ways to do something. Sometimes it is hard for me in the moment to reach up in my mind and articulate the universe of thoughts I have on a subject. I sometimes will talk out my thoughts, which is helpful but it's not always the right time to do that. I can seem quiet in meetings sometimes, this is because I am likely processing the info and my thoughts on it. It doesn't mean I don't have an input,it's just I am making sure I understand the presenter and myself. It's best for me to think, then stop to organize and articulate what I am thinking. Writing things out is usually my best way articulating ideas/strategy etc.. However, I love talking and listening for context on why and what?
 If there is every any tension or any type of conflict, I much prefer talking in person.
 
 ### Preferred way to collaborate
 
-I find that the there are a lot of different ways to collobarate, and some are relevant for different moments. Somteimes, I think it is really helpful to get a problem in the moment with a group with little pre-work and do a brainstorm to knock out any bias that may inhibit creativity. I also think it's helpful when making a decision that is backed with data that people are prepped with for the meeting in order to collaborate effectively. Defined roles are always a big help. The intrinsic value of feeling like you're contributing on a team while collobarating is an amazing feeling.
+I like to work with people,sharing ideas verbally,brainstorming sessions,google docs,defined roles, it's all good. 
 
 ### How I approach problems
 
@@ -38,7 +38,7 @@ I don't mind asking for help, and really hope people ask for help from me when t
 
 ### What I find enjoyable at work
 
--Spending time working with teammates, accomplishing something as a team feels amazing.
+-Spending time working with teammates.
 -When I figure out something hard techincally.
 -When I am able to sit down and focus on a problem.
 -Learning about what people are focused on, understanding the context and story behind the numbers I get to pull.
@@ -49,15 +49,15 @@ Talking to people and asking the right questions about what is important on a st
 
 ### How do I feel about getting messages after/outside of hours that are meant for me to see and respond to during active hours
 
-My average day and weekend, I prefer not to work at night or on the weekends. However, when it is needed- I am more than happy to make sure something gets done. Also - feel free to communicate whenever, I am not shy to ask if something needs to be done right away or if it can wait. And a lot of times, I can answer a question super fast so I dont mind.
+I prefer not to work at night or on the weekends. However; when it is needed, I am more than happy to make sure something gets done.  Feel free to communicate whenever, I am not shy to ask if something needs to be done right away or if it can wait. If it's a easy quick answer, I don't mind answering it.
 
 ### How folks can best show up for me when I seem off
 
-Ask me whats going on? Usually, talking to someone about whatever and getting some reassurance is good. I can be hard on myself.
+Ask me whats going on? Talking to someone about whatever usually helps me and getting some reassurance is good. I can be hard on myself. You can also ask me if I've been to yoga recently, cause if not I may seem off.
 
 ### Things I am aware of that trigger anxious feelings/feelings of less than at work
 
-When I feel like I don't fully understand something and am expected to all the sudden build a dashboard! Or when a dashboard is the answer to everyone's problems.
+When I feel like I don't fully understand something and am expected to all the sudden build a dashboard! Or when a dashboard is the answer to everyone's problems. Don't get me wrong, love dashboards - just sometimes I feel like it becomes a crutch or isn't thought out. 
 
 ### Marketing areas of knowledge
 
