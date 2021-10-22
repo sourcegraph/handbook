@@ -7,7 +7,7 @@ function yaml_load(file) {
         return load(readFileSync(file, 'utf8'));
     } catch (e) {
         console.log(e);
-        exit();
+        exit(-1);
     }
 }
 
