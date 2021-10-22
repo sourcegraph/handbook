@@ -30,8 +30,8 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
         if (product_areas[product_area].description) {
             maturity_content += "\n__" + product_areas[product_area].description + "__\n"
         }
-        if (product_areas[product_area].limitations_link) {
-            maturity_content += "\n- Limitations: " + make_maturity_link_relative(product_areas[product_area].limitations_link) + "\n"
+        if (product_areas[product_area].limitations_text) {
+            maturity_content += "\n- Limitations: " + product_areas[product_area].limitations_text + "\n"
         }
 
         Object.keys(features).forEach((feature) => {
