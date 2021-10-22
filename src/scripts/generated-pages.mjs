@@ -12,7 +12,11 @@ function yaml_load(file) {
 }
 
 function make_maturity_link_relative(link) {
-    return ".." + link
+    if (link.substring(0, 4) == "http") {
+        return link
+    } else {
+        return ".." + link
+    }
 }
 
 function generate_maturity(features, maturity_levels, pricing_tiers, product_areas, product_orgs) {
@@ -34,7 +38,7 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
             if (features[feature].product_area == product_area) {
                 maturity_content += "\n### " + features[feature].title + "\n"
                 if (features[feature].documentation_link) {
-                    maturity_content += "[Documentation](" + features[feature].documentation_link + ")\n"
+                    maturity_content += "[Documentation](" + make_maturity_link_relative(features[feature].documentation_link) + ")\n"
                 }
                 if (features[feature].description) {
                     maturity_content += "__" + features[feature].description + "__\n"
@@ -46,7 +50,7 @@ function generate_maturity(features, maturity_levels, pricing_tiers, product_are
                 if (features[feature].limitations_link) {
                     maturity_content += "- Limitations: " + features[feature].limitations_link + "\n" //TODO render as links
                 }
-                //TODO render compatibility matrix (maybe, or maybe that should go on another page)
+                //TODO render compatibility matrix
             }
         });
     });
