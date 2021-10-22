@@ -5,13 +5,13 @@
 Paid digital programs at Sourcegraph generate demand through awareness and acquisition strategies:
 
 - Awareness – get the message out about Sourcegraph and our products to developers worldwide
-- Acquisition – deliver value through product sign-ups, demos, and other high-impact offers 
+- Acquisition – deliver value through product sign-ups, demos, and other high-impact offers
 
 ### Offers
 
 We use a variety of CTAs, including:
 
-- Product trials  [Search Code](https://sourcegraph.com/search), [Deploy Locally] (https://about.sourcegraph.com/#get-started), [Sign-up for Sourcegraph](https://sourcegraph.com/sign-up) – these are designed to increase product use, especially among new users, for both the local install and Cloud product
+- Product trials [Search Code](https://sourcegraph.com/search), [Deploy Locally] (https://about.sourcegraph.com/#get-started), [Sign-up for Sourcegraph](https://sourcegraph.com/sign-up) – these are designed to increase product use, especially among new users, for both the local install and Cloud product
 - [Blog content](https://about.sourcegraph.com/blog/) – these campaigns offer educational content from the Sourcegraph blog to enable developers to increase their skills and think of Sourcegraph as a developer resource
 - Testimonial content & [case studies](https://about.sourcegraph.com/case-studies/) – testimonial quotes from customers and case study offers provide third-party credibility for both individual developers and their managers
 
