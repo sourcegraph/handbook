@@ -1,6 +1,7 @@
 # Product Features by Tier
 
 ## Free
+
 - Literal Search
 - Regular Expression Search
 - Structural Search
@@ -25,6 +26,7 @@
 - Custom Extensions
 
 ## Enterprise
+
 - Literal Search
 - Regular Expression Search
 - Structural Search
