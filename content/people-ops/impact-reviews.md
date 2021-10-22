@@ -164,7 +164,7 @@ For more information on how to use SBI and giving great feedback, [check out thi
 - What are you most proud of in the past six months?
 - In the past six months, how have you made an impact and contributed to your team’s success? Give specific examples.
 - In the past six months, what company value have you embodied the most? Give specific examples.
-- Over the next 6 months, what is something that can I do 10% better?
+- Over the next 6 months, what is something that you can do 10% better?
 - In the next six months, what company value do you want to embody more? How do you plan on working towards embodying it more?
 - What would you like to learn more about in the next 6 months to help you further succeed in your role? Describe what you’d like to learn.
 
