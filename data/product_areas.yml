@@ -1,48 +1,48 @@
 - search:
-  title: "Search"
-  description: ""
+  title: 'Search'
+  description: ''
   product_org: code_graph
-  limitations_link: "400k is biggest customer scale, but 1m repositories is a conservative estimate of what we can support" #TODO add to docs and convert to link
-  strategy_link: "/company/strategy/code_graph/search"
+  limitations_link: '400k is biggest customer scale, but 1m repositories is a conservative estimate of what we can support' #TODO add to docs and convert to link
+  strategy_link: '/company/strategy/code_graph/search'
 
 - code_intelligence:
-  title: "Code Intelligence"
-  description: ""
+  title: 'Code Intelligence'
+  description: ''
   product_org: code_graph
-  strategy_link: "/company/strategy/code_graph/code-intelligence"
+  strategy_link: '/company/strategy/code_graph/code-intelligence'
 
 - batch_changes:
-  title: "Batch Changes"
-  description: ""
+  title: 'Batch Changes'
+  description: ''
   product_org: code_graph
-  strategy_link: "/company/strategy/code-graph/batch-changes"
+  strategy_link: '/company/strategy/code-graph/batch-changes'
 
 - code_insights:
-  title: "Code Insights"
-  description: ""
+  title: 'Code Insights'
+  description: ''
   product_org: code_graph
-  strategy_link: "/company/strategy/code-graph/code-insights"
+  strategy_link: '/company/strategy/code-graph/code-insights'
 
 - security:
-  title: "Security"
-  description: ""
+  title: 'Security'
+  description: ''
   product_org: cloud
-  strategy_link: "/company/strategy/cloud/security"
+  strategy_link: '/company/strategy/cloud/security'
 
 - extensions:
-  title: "Extensions"
-  description: ""
+  title: 'Extensions'
+  description: ''
   product_org: cloud
-  strategy_link: "/company/strategy/cloud/extensibility"
+  strategy_link: '/company/strategy/cloud/extensibility'
 
 - repository_management:
-  title: "Repository Management"
-  description: ""
+  title: 'Repository Management'
+  description: ''
   product_org: enablement
-  strategy_link: "/company/strategy/enablement/repo-management"
+  strategy_link: '/company/strategy/enablement/repo-management'
 
 - deployment:
-  title: "Deployment"
-  description: ""
+  title: 'Deployment'
+  description: ''
   product_org: enablement
-  strategy_link: "/company/strategy/enablement/delivery"
+  strategy_link: '/company/strategy/enablement/delivery'
