@@ -35,8 +35,8 @@
   product_org: cloud
   strategy_link: "/company/strategy/cloud/extensibility"
 
-- code_hosts:
-  title: "Code Hosts"
+- repository_management:
+  title: "Repository Management"
   description: ""
   product_org: enablement
   strategy_link: "/company/strategy/enablement/repo-management"
