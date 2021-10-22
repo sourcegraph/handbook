@@ -8,7 +8,8 @@ The Demand Generation at Sourcegraph is focused on building engagement with our 
 
 <p>Developers are a fiercely loyal audience. Creating affinity and trust is the hardest part for a dev-focused business so that’s the part we’re going to focus on. We firmly believe that focusing our efforts on delighting the people who interact with us will result in the highest long term yields as a business. </p>
 
-<p>Our strategy is to put the people we’re talking to at the center of the experience. From unknown visitor through to known contact, sales engagement, and post-purchase - our goal is to be delightful. For more on our thoughts about delight and demand, check out the minifesto [here](https://docs.google.com/presentation/d/1g7LkmjDDM9Ky1JTbRBMSamHMJbhXu90A9rXoKhZb-ho/edit?usp=sharing) (internal link).</p>
+<p>Our strategy is to put the people we’re talking to at the center of the experience. From unknown visitor through to known contact, sales engagement, and post-purchase - our goal is to be delightful. 
+For more on our thoughts about delight and demand, check out the [minifesto](https://docs.google.com/presentation/d/1g7LkmjDDM9Ky1JTbRBMSamHMJbhXu90A9rXoKhZb-ho/edit?usp=sharing) (internal link).</p>
 
 #### What does “be delightful” look like in practice?
 
