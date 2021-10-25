@@ -104,10 +104,10 @@ At a high level, here is an overview of what we’re looking for in this hire. @
   - Attendees: Recruiter, Hiring Manager, Candidate.
 - Prior to the call, Recruiter generates the correct Offer Summary document in Greenhouse, downloads the document, and sends to VP Talent and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
 - Agenda:
-   - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them
-   - The Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity
-   - Tthe Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity
-   - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and schedule a follow up call to answer any questions.
+  - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them
+  - The Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity
+  - Tthe Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity
+  - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and schedule a follow up call to answer any questions.
 - Following the offer call, Recruiter sends the offer summary to the candidate in an email.
 - To send an official offer, the Recruiter
   - Updates the offer approval with the accurate start date
