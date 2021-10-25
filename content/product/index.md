@@ -23,10 +23,6 @@ We have a several feature matrix pages:
 - [Features by tier](features_tiers.md)
 - [Features by code host compatibility](features_compatibility.md)
 
-## Features by tier
-
-You can see [what features are in which pricing tier](features_by_tier.md)
-
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
