@@ -68,17 +68,17 @@ We have run multiple [Sponsored Content campaigns on LinkedIn](https://www.linke
 - [Big Code Survey](https://info.sourcegraph.com/emergence-of-big-code-2020-survey) (PDF download - served to individual developers/managers at Target Accounts)
 - [Better onboarding](https://about.sourcegraph.com/blog/better-onboarding-how-to-prevent-codebase-overwhelm/) (blog post - served to individual developers at Target Accounts)
 
-Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using testimonial quotes and case study content) that is served to engineers/managers at companies in Salesforce deal stages 4-6.
+Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using testimonial quotes and case study content) that is served to engineers/managers at companies in Salesforce deal stages 0-3.
 
-Details for all the above programs/campaigns can be found [here](https://docs.google.com/spreadsheets/d/1IQbXQYKkwbGvG0ZN2YNLcfpkHGsbxnyl9EDbd7GXmew/edit?usp=sharing) (internal link only).
+Details for all the above programs/campaigns can be found in [Google drive](https://docs.google.com/spreadsheets/d/1IQbXQYKkwbGvG0ZN2YNLcfpkHGsbxnyl9EDbd7GXmew/edit?usp=sharing) (internal link only).
 
-We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See details [here](../ad_conversion_flows.md).
+We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See [more details](../ad_conversion_flows.md).
 
 ### Insertion Order Process
 
 1. We negotiate insertion orders/contracts for our advertising placements with our media partners
 2. Electronic copies of the insertion orders are sent to Sarah Reece (Demand Gen Director) for electronic signature
-3. Copies of signed insertion orders are loaded to the Google drive [here](https://drive.google.com/drive/u/1/folders/1TChjJOeg94NxUc7pUbSdm6vTFNvYaG27) (internal link only).
+3. Copies of signed insertion orders are loaded to the [Google drive](https://drive.google.com/drive/u/1/folders/1TChjJOeg94NxUc7pUbSdm6vTFNvYaG27) (internal link only).
 
 ### Billing Process
 
