@@ -3,8 +3,8 @@ ga:
   definition: 'Available as a normal product feature.'
 
 partial_ga:
-  title: 'Partially Available ☑️'
-  definition: 'Available, but can be limited in some significant ways.'
+  title: 'Partially Available 🐣'
+  definition: 'Available, but may be limited in some significant ways.'
 
 beta:
   title: 'Beta ✨'
