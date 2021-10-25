@@ -19,9 +19,9 @@ The product strategy and what we're working on next can be found on the [Sourceg
 
 We have a several feature reference matrices:
 
-- [Features by maturity](features_maturity.md)
-- [Features by tier](features_tiers.md)
-- [Features by code host compatibility](features_compatibility.md)
+- [Features by maturity](feature_maturity.md)
+- [Features by tier](feature_tiers.md)
+- [Features by code host compatibility](feature_compatibility.md)
 
 ## Metrics
 

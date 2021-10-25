@@ -20,12 +20,12 @@ function make_product_link_relative(link) {
 }
 
 function generate_maturity_page(features, maturity_levels, product_areas, product_orgs) {
-    const tiers_file = 'content/product/features_maturity.md';
+    const tiers_file = 'content/product/feature_maturity.md';
     var page_content = "# Product Features by Maturity\n";
     page_content += "This page is intended as a reference of features by maturity level; each item will link you to our documentation,\n"
     page_content += "and you can also see what level of maturity each feature is currently at.\n"
-    page_content += "You may also be interested in seeing our [feature compatibility](features_compatibility.md)\n"
-    page_content += "or [feature tiers](features_tiers.md) matrices.\n"
+    page_content += "You may also be interested in seeing our [feature compatibility](feature_compatibility.md)\n"
+    page_content += "or [feature tiers](feature_tiers.md) matrices.\n"
 
     page_content += "\n## Maturity Definitions\n"
     page_content += "\nSee feature documentation for specifics on any limitations/plans for removal.\n"
@@ -66,14 +66,14 @@ function generate_maturity_page(features, maturity_levels, product_areas, produc
 }
 
 function generate_tiers_page(features, pricing_tiers, product_areas, product_orgs) {
-    const tiers_file = 'content/product/features_tiers.md';
+    const tiers_file = 'content/product/feature_tiers.md';
     var page_content = "# Product Features by Tier\n";
     page_content += "The consumer facing pricing page is on our [about site pricing page](https://about.sourcegraph.com/pricing)\n"
     page_content += "and contains a marketing-focused list of features rather than the complete list here.\n"
     page_content += "This page is intended as a reference of features by pricing tier; each item will link you to our documentation,\n"
     page_content += "and you can also see what level of maturity each feature is currently at.\n"
-    page_content += "You may also be interested in seeing our [feature compatibility](features_compatibility.md) or\n"
-    page_content += "[feature maturity](features_maturity.md) matrices.\n"
+    page_content += "You may also be interested in seeing our [feature compatibility](feature_compatibility.md) or\n"
+    page_content += "[feature maturity](feature_maturity.md) matrices.\n"
 
     page_content += "\n## Pricing Tiers\n"
     page_content += "\nYou can learn more about our pricing tiers here:\n"
@@ -129,11 +129,11 @@ function generate_tiers_page(features, pricing_tiers, product_areas, product_org
 }
 
 function generate_compatibility_page(features, product_areas, product_orgs, code_hosts) {
-    const tiers_file = 'content/product/features_compatibility.md';
+    const tiers_file = 'content/product/feature_compatibility.md';
     var page_content = "# Product Feature Compatibility\n";
     page_content += "This page is intended as a reference of features by code host compatibility; each item will link you to our documentation.\n"
-    page_content += "You may also be interested in seeing our [feature tier](features_tiers.md) or\n"
-    page_content += "[feature maturity](features_maturity.md) matrices.\n"
+    page_content += "You may also be interested in seeing our [feature tier](feature_tiers.md) or\n"
+    page_content += "[feature maturity](feature_maturity.md) matrices.\n"
 
     page_content += "\n## Code Hosts\n"
     page_content += "\nSourcegraph tracks compatibility with a number of external code hosts:\n"

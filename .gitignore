@@ -128,6 +128,6 @@ dist
 # Generated at build time
 public/robots.txt
 public/sitemap.xml
-content/product/features_maturity.md
-content/product/features_tiers.md
-content/product/features_compatibility.md
+content/product/feature_maturity.md
+content/product/feature_tiers.md
+content/product/feature_compatibility.md
