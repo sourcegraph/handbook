@@ -109,3 +109,5 @@ For certification, a [rubric](https://docs.google.com/spreadsheets/d/1goSKFCPSrR
 A CE is considered "Demo Certified" when they have scored a rating of 3 on all of the core competencies by both the tenured shadow CE and the CE manager. (Scoring options include: 1 - Insufficiently Demonstrated, 2 - Partially Demonstrated, 3 - Fully Demonstrated).
 
 Once certified, a CE no longer needs to have a shadow on customer demos. They are still encouraged to meet weekly with their mentor throughout their first 90 days as they continue to face new parts of the pre and post-sales cycles. Mentors or other more senior CE's are always free to help in more advanced conversations as needed.
+
+Test
