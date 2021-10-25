@@ -10,7 +10,7 @@ The [Wildcard Design System](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/W
 
 Text:
 
-- We use SF PRO for all text. [Download SF PRO](https://drive.google.com/drive/folders/1X1hwQr4lGGVn5BDe4f09q_xRqboQZpsQ) and install it to your laptop.
+- We use SF Pro for all text. [Download SF Pro](https://drive.google.com/drive/folders/1X1hwQr4lGGVn5BDe4f09q_xRqboQZpsQ) and install it on your system.
   - You may also need the [Figma font installer](https://www.figma.com/downloads/) if you use Figma in the browser instead of on desktop.
 - All text styles are available through Wildcard text styles.
 - The style definitions for our text styles are in the Sticker Sheet.
