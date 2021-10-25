@@ -79,7 +79,7 @@ git push origin release
 ### Disable Renovate
 
 1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json5) and comment out the file.
-1. Ensure that no Renovate PRs are currently pending to update the images.
+1. Ensure that no Renovate PRs are currently pending to update the images [here](https://github.com/sourcegraph/sourcegraph/pulls/app%2Frenovate)
 1. After the incident, revert your commit and uncomment the file.
 
 ### Backing up & restoring a Cloud SQL instance (production databases)
