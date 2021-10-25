@@ -17,7 +17,7 @@ The product strategy and what we're working on next can be found on the [Sourceg
 
 ## Feature reference
 
-We have a several feature matrix pages:
+We have a several feature reference matrices:
 
 - [Features by maturity](features_maturity.md)
 - [Features by tier](features_tiers.md)
