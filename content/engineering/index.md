@@ -8,6 +8,7 @@
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
 - Practices & Philosophy
+  - [Planning](planning.md)
   - [Customer Issues](../support/engaging-other-teams.md)
   - [Incidents](incidents/index.md)
   - [Product documentation](product_documentation.md)
