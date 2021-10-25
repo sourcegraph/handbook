@@ -136,7 +136,7 @@ function generate_compatibility_page(features, product_areas, product_orgs, code
     page_content += "[feature maturity](features_maturity.md) matrices.\n"
 
     page_content += "\n## Code Hosts\n"
-    page_content += "\nSourcegraph track compatibility with a number of external code hosts:\n"
+    page_content += "\nSourcegraph tracks compatibility with a number of external code hosts:\n"
     Object.keys(code_hosts).forEach((code_host) => {
         page_content += "- [" + code_hosts[code_host].title + "](" + code_hosts[code_host].info_link + ")\n"
     });
