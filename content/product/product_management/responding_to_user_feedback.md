@@ -26,7 +26,7 @@ The PM on feedback rotation labels and forwards issues that others create to the
 
 All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage.
 
-If you find an issue thast is really a support request, you can:
+If you find an issue that is really a support request, you can:
 
 1. Post a comment directing the user to email support@sourcegraph.com so we can help them (that way we don't have to constantly remind the user to not post anything posing a security risk AND it's a gentle way to validate whether the issue is still an issue for them)
 1. Create an email with that user in copy and send it to support@sourcegraph.com on their behalf
