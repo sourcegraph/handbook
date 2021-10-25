@@ -102,13 +102,16 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
   - Attendees: Recruiter, Hiring Manager, Candidate.
-  - Prior to the call, Recruiter drafts an Offer Summary and sends to VP Talent and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
-  - Agenda: 1. the Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them 2. the Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity 3. the Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity.
-  - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and 2) schedule a follow up call to answer any questions.
+- Prior to the call, Recruiter generates the correct Offer Summary document in Greenhouse, downloads the document, and sends to VP Talent and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
+- Agenda:
+   - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them
+   - The Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity
+   - Tthe Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity
+   - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and schedule a follow up call to answer any questions.
 - Following the offer call, Recruiter sends the offer summary to the candidate in an email.
 - To send an official offer, the Recruiter
-  - 1.  updates the offer approval with the accurate start date
-  - 2.  tags the VP Talent and the Recruitment Operations Specialist in the notes section: "@Carly @Trevor please send this [US/Non-US] offer letter"
+  - Updates the offer approval with the accurate start date
+  - Tags the VP Talent and the Recruitment Operations Specialist in the notes section: "@VP Talent @Recruitment Operations Specialist please send this [US/Non-US] offer letter"
 - The official offer is sent to the candidate via Docusign.
 
 ## After the offer
