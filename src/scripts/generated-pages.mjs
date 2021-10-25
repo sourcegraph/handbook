@@ -27,6 +27,11 @@ function generate_maturity_page(features, maturity_levels, pricing_tiers, produc
     page_content += "You may also be interested in seeing our [feature compatibility](features_compatibility.md)\n"
     page_content += "or [feature tiers](features_tiers.md) matrices.\n"
 
+    page_content += "\n## Maturity Definitions\n"
+    Object.keys(maturity_levels).forEach((maturity_level) => {
+        page_content += "- " + maturity_levels[maturity_level].title + ": " + maturity_levels[maturity_level].definition + "\n"
+    });
+
     Object.keys(product_areas).forEach((product_area) => {
         page_content += "\n## " + product_areas[product_area].title + "\n"
         if (product_areas[product_area].description) {
