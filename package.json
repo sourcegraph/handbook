@@ -6,7 +6,7 @@
     "dev": "next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "generate-redirects": "node src/scripts/generate-redirects.mjs",
-    "netlify-build": "yarn run copy-assets && next build && next export && next-sitemap && yarn run generate-redirects",
+    "netlify-build": "yarn run copy-assets && next build && next-sitemap && next export && yarn run generate-redirects",
     "build": "next build",
     "postbuild": "next-sitemap",
     "check-links": "node src/scripts/check-links.mjs",
