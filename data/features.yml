@@ -7,7 +7,6 @@ literal_search:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_search/reference/queries'
-  limitations_text: false
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -31,7 +30,6 @@ regexp_search:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_search/reference/queries'
-  limitations_text: false
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -55,7 +53,6 @@ structural_search:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_search/reference/queries'
-  limitations_text: "Works for up to 1m repos depending on the query, but performance is unpredictable for certain queries at even a handful (~200) repositories. There doesn't seem to be anything consistent about the problem queries." #TODO add to docs and convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -79,7 +76,6 @@ diff_commit_search:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_search/reference/queries'
-  limitations_text: 'WIP to remove limit; 50 repositories is the current max' #TODO add to docs and convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -103,7 +99,6 @@ code_monitoring:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_monitoring'
-  limitations_text: 'Limited by diff/commit search scale, limit to 50 repositories. No shared code monitors, only individual.' #TODO add to docs and convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -127,7 +122,6 @@ code_monitoring_email_notifications:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_monitoring'
-  limitations_text: "Recipients limited to the owning user. Can't email to other members of organization/instance." #TODO add to docs and convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -149,7 +143,6 @@ code_monitoring_webhooks:
   maturity: not_implemented
   available_in: false
   documentation_link: false
-  limitations_text: false
   compatibility: false
 
 saved_searches:
@@ -161,7 +154,6 @@ saved_searches:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_search/explanations/features#saved-searches'
-  limitations_text: 'This is/has been being deprecated and replaced by code monitoring.' #TODO add to docs and convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -185,7 +177,6 @@ search_contexts:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_search/explanations/features#search-contexts'
-  limitations_text: 'Cannot currently share search contexts with other org members.' #TODO add to docs and convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -209,7 +200,6 @@ search_based_code_intelligence:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence'
-  limitations_text: 'https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence#what-languages-are-supported'
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -233,7 +223,6 @@ precise_code_intelligence_go:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
-  limitations_text: 'No auto-indexing or dependency navigation.' #TODO link to docs
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -257,7 +246,6 @@ precise_code_intelligence_jsts:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
-  limitations_text: 'Customers may run into some issues. No auto-indexing or dependency navigation.' #TODO convert to link to documentation for limitation
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -279,7 +267,6 @@ precise_code_intelligence_java_scala:
   maturity: not_implemented
   available_in: false
   documentation_link: false
-  limitations_text: 'No auto-indexing or dependency navigation. No cross-repo support. Supports Gradle, Maven and sbt projects. Kotlin is not yet supported but will be part of this package; it is in development with Beta support by early Q4.' #TODO convert to link to documentation for limitation
   compatibility: false
 
 precise_code_intelligence_c_cpp:
@@ -291,7 +278,6 @@ precise_code_intelligence_c_cpp:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
-  limitations_text: "No auto-indexing or dependency navigation. No cross-repo support. The build systems for C and C++ are wide ranging and frequently customized. The indexer supports the most common build tools, however there is custom work required for this to work. Based on our previous experiences with fragmented and custom setups, we cannot ensure support without a previous case by case assessment of the customer's setup." #TODO convert to link to documentation for limitation
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -313,7 +299,6 @@ precise_code_intelligence_python:
   maturity: not_implemented
   available_in: false
   documentation_link: false
-  limitations_text: false
   compatibility: false
 
 precise_code_intelligence_csharp:
@@ -323,7 +308,6 @@ precise_code_intelligence_csharp:
   maturity: not_implemented
   available_in: false
   documentation_link: false
-  limitations_text: false
   compatibility: false
 
 precise_code_intelligence_ruby:
@@ -333,7 +317,6 @@ precise_code_intelligence_ruby:
   maturity: not_implemented
   available_in: false
   documentation_link: false
-  limitations_text: false
   compatibility: false
 
 batch_changes:
@@ -344,7 +327,6 @@ batch_changes:
   available_in:
     enterprise: true
   documentation_link: '???' #TODO add
-  limitations_text: 'Limited to <1,000 repositories. No src-cli support on Windows. Monorepo support is considered experimental. Server-side changes are not supported. https://docs.sourcegraph.com/batch_changes/references/requirements#code-hosts' #TODO convert to single link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -367,7 +349,6 @@ code_insights:
   available_in:
     enterprise: true
   documentation_link: '???' #TODO add
-  limitations_text: 'Real-time live preview search insights for up to ~50-70 repos listed manually. Custom search query insights over all repositories has limitations defined at https://docs.sourcegraph.com/code_insights/explanations/current_limitations_of_code_insights. Language pie charts work only on one repo. GraphQL API exists but not yet fully documented; exports dont work for insights running "in real time" over <50 repos (but you can always run those over all repos and filter down); only exports aggregated data. There are performance speed calculations, some slight feature parity limitations between <70 repo insights and "all repo" insights, and detailed notes on why an insight might not match a manual search.	We have only tested up to 26.4k repos so have caution at scales >50,000 repos. Deployment via Docker is not supported. A Timescale database is required.' #TODO convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -389,7 +370,6 @@ soc_ii_type_ii:
   maturity: not_implemented
   available_in: false
   documentation_link: '???' #TODO add
-  limitations_text: 'ETA mid-2022' #TODO convert to link
   compatibility: false
 
 repository_syncing:
@@ -401,7 +381,6 @@ repository_syncing:
     free: true
     enterprise: true
   documentation_link: '???' #TODO add
-  limitations_text: 'Phabricator is supported but requires reading note about mirroring repos at https://docs.sourcegraph.com/admin/external_service/phabricator. Gerrit has some limitations. Perforce has out of the box configuration in Sourcegraph, but is still in beta and being validated. CVS currently requires src-expose.' #TODO convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -425,7 +404,6 @@ repository_permissions:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/admin/repo/permissions'
-  limitations_text: 'For Perforce we support down to directory level with wildcard permissions, but not file level.' #TODO convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -449,7 +427,6 @@ user_authentication:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/admin/config/authorization_and_authentication'
-  limitations_text: false
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -473,7 +450,6 @@ browser_extension:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/integration/browser_extension'
-  limitations_text: false
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -497,7 +473,6 @@ native_integration:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/integration'
-  limitations_text: 'GitLab requires every user to opt in to this setting, so even if an admin turns it on by default, each user will also need to turn it on by default to get native hovers inside of the code host.' #TODO convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -521,7 +496,6 @@ single_container_deployment:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/admin/install/docker'
-  limitations_text: 'Only intended for trials and POC deployments - not for long term production use by paying customers.' #TODO convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -545,7 +519,6 @@ docker_compose_deployment:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/admin/install/docker-compose'
-  limitations_text: 'Minimum Docker version: v20.10.0. Minimum version of Docker Compose: v1.22.0. More caveats at https://docs.sourcegraph.com/admin/install/docker-compose#docker-compose' #TODO convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -569,7 +542,6 @@ kubernetes_deployment:
     free: true
     enterprise: true
   documentation_link: 'https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started'
-  limitations_text: 'Can orchestrate using Kustomize, but not Helm. Recommended for Sourcegraph Enterprise license - uou can run through these instructions without one, but you must obtain a license for instances of more than 10 users. Minimum Kubernetes version: v1.15 and kubectl v1.15 or later. More on caveats/requirements at https://docs.sourcegraph.com/admin/install/kubernetes#kubernetes' #TODO convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -593,7 +565,6 @@ prebuilt_extensions:
     free: true
     enterprise: true
   documentation_link: '???' #TODO add
-  limitations_text: 'Only extensions not marked as experimental in the index are considered generally available.' #TODO convert to link
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -617,7 +588,6 @@ custom_extensions:
     free: true
     enterprise: true
   documentation_link: '???' #TODO add
-  limitations_text: 'https://docs.sourcegraph.com/extensions/authoring'
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true

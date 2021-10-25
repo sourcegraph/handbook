@@ -23,7 +23,7 @@ function generate_maturity_page(features, maturity_levels, pricing_tiers, produc
     const maturity_file = 'content/product/maturity.md';
     var maturity_content = "# Product Features & Maturity\n";
     maturity_content += "This page shows the complete list of top-level features, organized by product area,\n"
-    maturity_content += "along with code host compatibility, any limitations, and the pricing tiers it is available in.\n"
+    maturity_content += "along with code host compatibility and the pricing tiers it is available in.\n"
     maturity_content += "You may also be interested in seeing [features by pricing tier](features_by_tier.md).\n"
 
     Object.keys(product_areas).forEach((product_area) => {
@@ -33,9 +33,6 @@ function generate_maturity_page(features, maturity_levels, pricing_tiers, produc
         }
         maturity_content += "\n[" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_maturity_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
         maturity_content += "[" + product_areas[product_area].title + " Strategy](" + make_maturity_link_relative(product_areas[product_area].strategy_link) + ")\n"
-        if (product_areas[product_area].limitations_text) {
-            maturity_content += "\n- Limitations: " + product_areas[product_area].limitations_text + "\n"
-        }
 
         Object.keys(features).forEach((feature) => {
             if (features[feature].product_area == product_area) {
@@ -56,9 +53,6 @@ function generate_maturity_page(features, maturity_levels, pricing_tiers, produc
                     });
                     maturity_content = maturity_content.substring(0, maturity_content.length - 2);
                     maturity_content += "\n"
-                }
-                if (features[feature].limitations_text) {
-                    maturity_content += "- Limitations: " + features[feature].limitations_text + "\n"
                 }
                 if (features[feature].compatibility) {
                     maturity_content += "- Compatible with: "

@@ -2,54 +2,46 @@ search:
   title: 'Search'
   description: 'Description to be added'
   product_org: code_graph
-  limitations_text: '400k is biggest customer scale, but 1m repositories is a conservative estimate of what we can support' #TODO add to docs and convert to link
   strategy_link: '/company/strategy/code-graph/search/index.md'
 
 code_intelligence:
   title: 'Code Intelligence'
   description: 'Description to be added'
   product_org: code_graph
-  limitations_text: false
   strategy_link: '/company/strategy/code-graph/code-intelligence/index.md'
 
 batch_changes:
   title: 'Batch Changes'
   description: 'Description to be added'
   product_org: code_graph
-  limitations_text: false
   strategy_link: '/company/strategy/code-graph/batch-changes/index.md'
 
 code_insights:
   title: 'Code Insights'
   description: 'Description to be added'
   product_org: code_graph
-  limitations_text: false
   strategy_link: '/company/strategy/code-graph/code-insights/index.md'
 
 security:
   title: 'Security'
   description: 'Description to be added'
   product_org: cloud
-  limitations_text: false
   strategy_link: '/company/strategy/cloud/security/index.md'
 
 extensions:
   title: 'Extensions'
   description: 'Description to be added'
   product_org: cloud
-  limitations_text: false
   strategy_link: '/company/strategy/cloud/extensibility/index.md'
 
 repository_management:
   title: 'Repository Management'
   description: 'Description to be added'
   product_org: enablement
-  limitations_text: false
   strategy_link: '/company/strategy/enablement/repo-management/index.md'
 
 deployment:
   title: 'Deployment'
   description: 'Description to be added'
   product_org: enablement
-  limitations_text: false
   strategy_link: '/company/strategy/enablement/delivery/index.md'
