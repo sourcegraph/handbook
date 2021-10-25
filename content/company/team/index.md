@@ -511,15 +511,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [olafurpg@sourcegraph.com](mailto:olafurpg@sourcegraph.com), [GitHub](https://github.com/olafurpg), [Twitter](https://twitter.com/olafurpg), [LinkedIn](https://linkedin.com/in/olafurpg).
 - Olaf is an Icelander who was born in Sweden and lives in Norway with his wife who he met at a sauna in Finland. Prior to Sourcegraph, Olaf worked on Scala developer tooling such as Scalafmt (code formatter), Scalafix (refactoring and linting tool), Metals (language server), BSP (Build Server Protocol) and SemanticDB (data model about code). In his spare time, Olaf likes to make delicious food and run in the woods.
 
-## Felipe Janer (he/him)
-
-- Software Engineer
-- Cali, Colombia 🇨🇴
-- GitHub: [5h1rU](https://github.com/5h1rU)
-- [felipe@sourcegraph.com](mailto:felipe@sourcegraph.com)
-- [name pronunciation](http://ipa-reader.xyz/?text=%2Ffeˈlipe%2F&voice=Joey) 🔊
-- Felipe lives in Cali, Colombia. He worked remotely for several New York based companies for almost eight years. This experience allowed him to build products from the ground, take critical technical decisions, lead projects, code a lot, and learn in the process. Outside of work, he loves to work out and watch every America de Cali soccer match.
-
 ## Malo Marrec (he/him)
 
 - Product Manager
@@ -763,13 +754,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [kmorris50](https://github.com/kmorris50)
 - [kendrick@sourcegraph.com](mailto:kendrick@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/kendrick-morris-3563b993)
 - Kendrick grew up in Houston, TX and now resides in San Francisco, CA. He graduated with a degree in Economics-Accounting & Government from Claremont McKenna College. Prior to Sourcegraph, Kendrick worked in the Deloitte San Francisco audit practice and currently holds a CPA license in California. He enjoys listening to podcasts, collecting vintage basketball cards, and driving just about anywhere for good barbecue.
-
-## John Harwell
-
-- Account Executive
-- Atlanta, GA USA 🇺🇸
-- [john.harwell@sourcegraph.com](mailto:john.harwell@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/john-s-harwell/)
-- John enjoys spending time with his wife, Nicole, and 2 sons, Isaac and Owen, playing games (sports, board, card, video, puzzles, etc.), attending concerts, and traveling to new places. John has been in SaaS sales his entire professional career, much of that time in the project management space.
 
 ## Christy Haragan (she/her)
 
@@ -1045,14 +1029,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [alex.jean-baptiste@sourcegraph.com](mailto:alex.jean-baptiste@sourcegraph.com)
 - [Name pronunciation](https://www.name-coach.com/alex-jean-baptiste)
 - Alex is a Haitian-American 🇭🇹🇺🇸 information technologist and writer from Miami, Florida🌴. He is passionate about the arts. He enjoys hiking trails, visiting museums, and performing comedy🤣. He is done writing.
-
-## Zach Naidu
-
-- Sales Development Representative
-- San Francisco, California USA 🇺🇸
-- GitHub: [zachnaidu](https://github.com/zachnaidu)
-- [zach@sourcegraph.com](mailto:zach@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/zachnaidu/), [Twitter](https://twitter.com/ZachNaidu)
-- Zach is a native of Dallas, Texas and loves all things sports - especially the Dallas Mavericks. From a family of six with three loving sisters (Kaitlin, Chandler, and Olivia), Zach enjoys golfing, pickup basketball, and tossing a football. He was a sports columnist in college and also enjoys playing board/card games and competing in fantasy football with high school and college friends.
 
 ## Kelvin Lee (He/Him)
 
