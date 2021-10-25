@@ -1,18 +1,18 @@
-partial_ga:
-  title: 'Partially Available ☑️'
-  definition: 'Available, but limited in some significant ways. See documentation for details.'
-
 ga:
   title: 'Generally Available ✅'
-  definition: 'Available and not limited in any significant way.'  
+  definition: 'Available as a normal product feature.'  
+
+partial_ga:
+  title: 'Partially Available ☑️'
+  definition: 'Available, but can be limited in some significant ways.'
 
 beta:
   title: 'Beta ✨'
-  definition: 'Available in pre-release form on a limited basis as it nears launch.'
+  definition: 'Available in pre-release form on a limited basis.'
 
 experimental:
   title: 'Experimental 🔬'
-  definition: 'Available in pre-release form, with significant caveats. See documentation for details.'
+  definition: 'Available in pre-release form, with significant caveats.'
 
 not_implemented:
   title: 'Not Implemented 🔮'
@@ -20,4 +20,4 @@ not_implemented:
 
 deprecated:
   title: 'Deprecated ⚠️'
-  definition: 'This is a feature we are deprecating and plan to remove. See documentation for alternatives.'
+  definition: 'This is a feature we are deprecating and plan to remove.'
