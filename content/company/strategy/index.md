@@ -81,11 +81,9 @@ Additionally, our [product design principles](../../product/design/product_desig
 - If your organization is getting value from Sourcegraph with a lot of users, our [pricing](https://about.sourcegraph.com/pricing) is designed so that we earn money from you. This lets us invest in improving our product.
 - All users at a given customer are on the same pricing tier. This is simpler than having users at different tiers and encourages us to build things that are broadly valuable.
 
-A complete list of feature areas for each pricing tier can be found on [our product pricing reference](../../product/features_by_tier.md).
-
 ## Where we're at now
 
-You can see a list of features and their maturity on our [feature maturity page](../../product/maturity.md).
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature reference page](../../product/index.md#feature-reference).
 
 ## One year vision
 

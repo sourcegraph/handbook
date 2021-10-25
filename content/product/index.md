@@ -15,9 +15,13 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 The product strategy and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md). There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
 
-## Feature maturity
+## Feature reference
 
-We have a page listing our [features and maturity levels](maturity.md).
+We have a several feature matrix pages:
+
+- [Features by maturity](features_maturity.md)
+- [Features by tier](features_tiers.md)
+- [Features by code host compatibility](features_compatibility.md)
 
 ## Features by tier
 
