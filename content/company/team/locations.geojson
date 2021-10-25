@@ -1250,6 +1250,19 @@
           39.73913836310703
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Rafal Gajdulewicz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.023197174072266,
+          52.18087924523222
+        ]
+      }
     }
   ]
 }
