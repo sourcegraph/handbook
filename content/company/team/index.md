@@ -336,13 +336,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [joel@sourcegraph.com](mailto:joel@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/joelkwartler), [Github](https://github.com/Joelkw)
 - Joel is a west coast fanboy who grew up in Oregon and has since lived in Seattle, SF, and LA. He's bounced around the startup + design world at places like Figma and IDEO, and got a bachelor's in C.S. at Harvard. After hours, you might find him doing stand up, pretending he knows piano, or waking up way too early to take photographs. He's made the _Forbes 30 Under 30 List of Best Joel Kwartlers_ for 5 of the past 8 years.
 
-## Alan Harris (he/him)
-
-- Software Engineer
-- Arlington, VA, USA 🇺🇸
-- [alan@sourcegraph.com](mailto:alan@sourcegraph.com), [robot](https://github.com/flying-robot)
-- Alan lives in the DC metro area with his wife, cat and somewhat excessive collection of books. When not illuminated by the gentle glow of a monitor, you'll probably find him toiling away behind a drum kit or watching yet another horror movie from the 1980s (seriously, they're fantastic). Just a regular dude, and totally not three chipmunks in a trench coat.
-
 ## Joe Kirscher (he/him)
 
 - Strategy & Operations Manager
