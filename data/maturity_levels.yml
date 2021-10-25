@@ -1,17 +1,17 @@
 partial_ga:
-  title: '☑️ Partially Available'
+  title: 'Partially Available ☑️'
 
 ga:
-  title: '✅ Generally Available'
+  title: 'Generally Available ✅'
 
 beta:
-  title: '✨ Beta'
+  title: 'Beta ✨'
 
 experimental:
-  title: '🔬 Experimental'
+  title: 'Experimental 🔬'
 
 not_implemented:
-  title: '🔮 Not Implemented'
+  title: 'Not Implemented 🔮'
 
 deprecated:
-  title: '⚠️ Deprecated'
+  title: 'Deprecated ⚠️'

@@ -1,6 +1,6 @@
 literal_search:
   title: 'Literal Search'
-  description: 'Literal search interprets search patterns literally to simplify searching for words or punctuation.'
+  description: ''
   product_area: search
   maturity: ga
   available_in:
@@ -23,7 +23,7 @@ literal_search:
 
 regexp_search:
   title: 'Regular Expression Search'
-  description: 'Description to be added'
+  description: ''
   product_area: search
   maturity: ga
   available_in:
@@ -46,7 +46,7 @@ regexp_search:
 
 structural_search:
   title: 'Structural Search'
-  description: 'Description to be added'
+  description: ''
   product_area: search
   maturity: ga
   available_in:
@@ -69,7 +69,7 @@ structural_search:
 
 diff_commit_search:
   title: 'Diff/Commit Search'
-  description: 'Description to be added'
+  description: ''
   product_area: search
   maturity: ga
   available_in:
@@ -92,7 +92,7 @@ diff_commit_search:
 
 code_monitoring:
   title: 'Code Monitoring'
-  description: 'Description to be added'
+  description: ''
   product_area: search
   maturity: ga
   available_in:
@@ -115,7 +115,7 @@ code_monitoring:
 
 code_monitoring_email_notifications:
   title: 'Code Monitoring E-mail Notifications'
-  description: 'Description to be added'
+  description: ''
   product_area: search
   maturity: ga
   available_in:
@@ -138,7 +138,7 @@ code_monitoring_email_notifications:
 
 code_monitoring_webhooks:
   title: 'Code Monitoring Webhooks'
-  description: 'Description to be added'
+  description: ''
   product_area: search
   maturity: not_implemented
   available_in: false
@@ -147,7 +147,7 @@ code_monitoring_webhooks:
 
 saved_searches:
   title: 'Saved Searches'
-  description: 'Description to be added'
+  description: ''
   product_area: search
   maturity: deprecated
   available_in:
@@ -170,7 +170,7 @@ saved_searches:
 
 search_contexts:
   title: 'Search Contexts'
-  description: 'Description to be added'
+  description: ''
   product_area: search
   maturity: ga
   available_in:
@@ -193,7 +193,7 @@ search_contexts:
 
 search_based_code_intelligence:
   title: 'Search-based Code Intelligence'
-  description: 'Description to be added'
+  description: ''
   product_area: code_intelligence
   maturity: ga
   available_in:
@@ -216,7 +216,7 @@ search_based_code_intelligence:
 
 precise_code_intelligence_go:
   title: 'Precise Code Intelligence for Go'
-  description: 'Description to be added'
+  description: ''
   product_area: code_intelligence
   maturity: ga
   available_in:
@@ -239,7 +239,7 @@ precise_code_intelligence_go:
 
 precise_code_intelligence_jsts:
   title: 'Precise Code Intelligence for JavaScript/TypeScript'
-  description: 'Description to be added'
+  description: ''
   product_area: code_intelligence
   maturity: ga
   available_in:
@@ -262,7 +262,7 @@ precise_code_intelligence_jsts:
 
 precise_code_intelligence_java_scala:
   title: 'Precise Code Intelligence for Java & Scala'
-  description: 'Description to be added'
+  description: ''
   product_area: code_intelligence
   maturity: not_implemented
   available_in: false
@@ -271,7 +271,7 @@ precise_code_intelligence_java_scala:
 
 precise_code_intelligence_c_cpp:
   title: 'Precise Code Intelligence for C/C++'
-  description: 'Description to be added'
+  description: ''
   product_area: code_intelligence
   maturity: ga
   available_in:
@@ -294,7 +294,7 @@ precise_code_intelligence_c_cpp:
 
 precise_code_intelligence_python:
   title: 'Precise Code Intelligence for Python'
-  description: 'Description to be added'
+  description: ''
   product_area: code_intelligence
   maturity: not_implemented
   available_in: false
@@ -303,7 +303,7 @@ precise_code_intelligence_python:
 
 precise_code_intelligence_csharp:
   title: 'Precise Code Intelligence for C#'
-  description: 'Description to be added'
+  description: ''
   product_area: code_intelligence
   maturity: not_implemented
   available_in: false
@@ -312,7 +312,7 @@ precise_code_intelligence_csharp:
 
 precise_code_intelligence_ruby:
   title: 'Precise Code Intelligence for Ruby'
-  description: 'Description to be added'
+  description: ''
   product_area: code_intelligence
   maturity: not_implemented
   available_in: false
@@ -321,7 +321,7 @@ precise_code_intelligence_ruby:
 
 batch_changes:
   title: 'Batch Changes'
-  description: 'Description to be added'
+  description: ''
   product_area: batch_changes
   maturity: ga
   available_in:
@@ -343,7 +343,7 @@ batch_changes:
 
 code_insights:
   title: 'Code Insights'
-  description: 'Description to be added'
+  description: ''
   product_area: code_insights
   maturity: beta
   available_in:
@@ -365,7 +365,7 @@ code_insights:
 
 soc_ii_type_ii:
   title: 'SOC II Type II'
-  description: 'Description to be added'
+  description: ''
   product_area: security
   maturity: not_implemented
   available_in: false
@@ -374,7 +374,7 @@ soc_ii_type_ii:
 
 repository_syncing:
   title: 'Repository Syncing'
-  description: 'Description to be added'
+  description: ''
   product_area: repository_management
   maturity: ga
   available_in:
@@ -397,7 +397,7 @@ repository_syncing:
 
 repository_permissions:
   title: 'Repository Permissions'
-  description: 'Description to be added'
+  description: ''
   product_area: repository_management
   maturity: ga
   available_in:
@@ -420,7 +420,7 @@ repository_permissions:
 
 user_authentication:
   title: 'User Authentication'
-  description: 'Description to be added'
+  description: ''
   product_area: repository_management
   maturity: ga
   available_in:
@@ -443,7 +443,7 @@ user_authentication:
 
 browser_extension:
   title: 'Browser Extension'
-  description: 'Description to be added'
+  description: ''
   product_area: repository_management
   maturity: ga
   available_in:
@@ -466,7 +466,7 @@ browser_extension:
 
 native_integration:
   title: 'Native Integration'
-  description: 'Description to be added'
+  description: ''
   product_area: repository_management
   maturity: ga
   available_in:
@@ -489,7 +489,7 @@ native_integration:
 
 single_container_deployment:
   title: 'Single Container Deployment'
-  description: 'Description to be added'
+  description: ''
   product_area: deployment
   maturity: ga
   available_in:
@@ -512,7 +512,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: 'Docker Compose Deployment'
-  description: 'Description to be added'
+  description: ''
   product_area: deployment
   maturity: ga
   available_in:
@@ -535,7 +535,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: 'Kubernetes Deployment'
-  description: 'Description to be added'
+  description: ''
   product_area: deployment
   maturity: ga
   available_in:
@@ -558,7 +558,7 @@ kubernetes_deployment:
 
 prebuilt_extensions:
   title: 'Pre-built Extensions'
-  description: 'Description to be added'
+  description: ''
   product_area: extensions
   maturity: ga
   available_in:
@@ -581,7 +581,7 @@ prebuilt_extensions:
 
 custom_extensions:
   title: 'Custom Extensions'
-  description: 'Description to be added'
+  description: ''
   product_area: extensions
   maturity: ga
   available_in:

@@ -11,7 +11,7 @@ function yaml_load(file) {
     }
 }
 
-function make_maturity_link_relative(link) {
+function make_product_link_relative(link) {
     if (link.substring(0, 4) == "http") {
         return link
     } else {
@@ -20,86 +20,151 @@ function make_maturity_link_relative(link) {
 }
 
 function generate_maturity_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs) {
-    const maturity_file = 'content/product/maturity.md';
-    var maturity_content = "# Product Features & Maturity\n";
-    maturity_content += "This page shows the complete list of top-level features, organized by product area,\n"
-    maturity_content += "along with code host compatibility and the pricing tiers it is available in.\n"
-    maturity_content += "You may also be interested in seeing [features by pricing tier](features_by_tier.md).\n"
+    const tiers_file = 'content/product/features_maturity.md';
+    var page_content = "# Product Features by Maturity\n";
+    page_content += "This page is intended as a reference of features by maturity level; each item will link you to our documentation,\n"
+    page_content += "and you can also see what level of maturity each feature is currently at.\n"
+    page_content += "You may also be interested in seeing our [feature compatibility](features_compatibility.md)\n"
+    page_content += "or [feature tiers](features_tiers.md) matrices.\n"
 
     Object.keys(product_areas).forEach((product_area) => {
-        maturity_content += "\n## " + product_areas[product_area].title + "\n"
+        page_content += "\n## " + product_areas[product_area].title + "\n"
         if (product_areas[product_area].description) {
-            maturity_content += "\n_" + product_areas[product_area].description + "_\n"
+            page_content += "\n_" + product_areas[product_area].description + "_"
         }
-        maturity_content += "\n[" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_maturity_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
-        maturity_content += "[" + product_areas[product_area].title + " Strategy](" + make_maturity_link_relative(product_areas[product_area].strategy_link) + ")\n"
+        page_content += " ([" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_product_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
+        page_content += "[" + product_areas[product_area].title + " Strategy](" + make_product_link_relative(product_areas[product_area].strategy_link) + "))\n"
+
+        page_content += "\n|Feature|Maturity|\n"
+        page_content += "|-------|--------|\n"
 
         Object.keys(features).forEach((feature) => {
             if (features[feature].product_area == product_area) {
-                maturity_content += "\n### " + features[feature].title + "\n"
-                if (features[feature].description) {
-                    maturity_content += "\n_" + features[feature].description + "_\n"
-                }
                 if (features[feature].documentation_link) {
-                    maturity_content += "\n[Documentation](" + make_maturity_link_relative(features[feature].documentation_link) + ")\n"
+                    page_content += "|[" + features[feature].title + "](" + make_product_link_relative(features[feature].documentation_link) + ")"
+                } else {
+                    page_content += "|" + features[feature].title
                 }
-                maturity_content += "\n- Maturity: " + maturity_levels[features[feature].maturity].title + "\n"
-                if (features[feature].available_in) {
-                    maturity_content += "- Available in: "
-                    Object.keys(pricing_tiers).forEach((pricing_tier) => {
-                        if (features[feature].available_in[pricing_tier]) {
-                            maturity_content += "[" + pricing_tiers[pricing_tier].title + "](" + make_maturity_link_relative(pricing_tiers[pricing_tier].info_link) + "), "
-                        }
-                    });
-                    maturity_content = maturity_content.substring(0, maturity_content.length - 2);
-                    maturity_content += "\n"
+                if (features[feature].description) {
+                    page_content += ": _" + features[feature].description + "_"
                 }
-                if (features[feature].compatibility) {
-                    maturity_content += "- Compatible with: "
-                    Object.keys(code_hosts).forEach((code_host) => {
-                        if (features[feature].compatibility[code_host]) {
-                            maturity_content += "[" + code_hosts[code_host].title + "](" + make_maturity_link_relative(code_hosts[code_host].info_link) + "), "
-                        }
-                    });
-                    maturity_content = maturity_content.substring(0, maturity_content.length - 2);
-                    maturity_content += "\n"
-                }
-            }
+                page_content += "|" + maturity_levels[features[feature].maturity].title + "|\n"
+            };
         });
     });
-    writeFile(maturity_file, maturity_content, function (err) {
-        if (err) throw err;
-        console.log('Created ' + maturity_file);
-    });
-}
 
-function make_tiers_link_relative(link) {
-    if (link.substring(0, 4) == "http") {
-        return link
-    } else {
-        return ".." + link
-    }
+    writeFile(tiers_file, page_content, function (err) {
+        if (err) throw err;
+        console.log('Created ' + tiers_file);
+    });
 }
 
 function generate_tiers_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs) {
-    const tiers_file = 'content/product/features_by_tier.md';
-    var tiers_content = "# Product Features by Tier\n";
-    tiers_content += "The consumer facing pricing page is on our [about site pricing page](https://about.sourcegraph.com/pricing).\n"
-    tiers_content += "This page is a complete reference of features by pricing tier; each item will link you to our documentation,\n"
-    tiers_content += "and you can also see what level of maturity each feature is currently at.\n"
-    tiers_content += "You may also be interested in seeing the [feature maturity page](maturity.md).\n"
+    const tiers_file = 'content/product/features_tiers.md';
+    var page_content = "# Product Features by Tier\n";
+    page_content += "The consumer facing pricing page is on our [about site pricing page](https://about.sourcegraph.com/pricing)\n"
+    page_content += "and contains a marketing-focused list of features rather than the complete list here.\n"
+    page_content += "This page is intended as a reference of features by pricing tier; each item will link you to our documentation,\n"
+    page_content += "and you can also see what level of maturity each feature is currently at.\n"
+    page_content += "You may also be interested in seeing our [feature compatibility](features_compatibility.md) or\n"
+    page_content += "[feature maturity](features_maturity.md) matrices.\n"
 
-    Object.keys(pricing_tiers).forEach((pricing_tier) => {
-        tiers_content += "\n## " + pricing_tiers[pricing_tier].title + "\n"
+    Object.keys(product_areas).forEach((product_area) => {
+        page_content += "\n## " + product_areas[product_area].title + "\n"
+        if (product_areas[product_area].description) {
+            page_content += "\n_" + product_areas[product_area].description + "_"
+        }
+        page_content += " ([" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_product_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
+        page_content += "[" + product_areas[product_area].title + " Strategy](" + make_product_link_relative(product_areas[product_area].strategy_link) + "))\n"
+
+        page_content += "\n|Feature|"
+        Object.keys(pricing_tiers).forEach((pricing_tier) => {
+            page_content += pricing_tiers[pricing_tier].title + " |"
+        });
+        page_content += "\n|-------|"
+        Object.keys(pricing_tiers).forEach((pricing_tier) => {
+            page_content += "-|"
+        });
+        page_content += "\n"
 
         Object.keys(features).forEach((feature) => {
-            if (features[feature].available_in[pricing_tier]) {
-                tiers_content += "- [" + features[feature].title + "](" + make_tiers_link_relative(features[feature].documentation_link) + ")"
-                tiers_content += ": " + maturity_levels[features[feature].maturity].title + "\n"
-            }
+            if (features[feature].product_area == product_area) {
+                if (features[feature].documentation_link) {
+                    page_content += "|[" + features[feature].title + "](" + make_product_link_relative(features[feature].documentation_link) + ")"
+                } else {
+                    page_content += "|" + features[feature].title
+                }
+                if (features[feature].description) {
+                    page_content += ": _" + features[feature].description + "_"
+                }
+                page_content += "|"
+                Object.keys(pricing_tiers).forEach((pricing_tier) => {
+                    if (features[feature].available_in[pricing_tier]) {
+                        page_content += "✔️|"
+                    } else {
+                        page_content += " |"
+                    }
+                });
+                page_content += "\n"
+            };
         });
     });
-    writeFile(tiers_file, tiers_content, function (err) {
+
+    writeFile(tiers_file, page_content, function (err) {
+        if (err) throw err;
+        console.log('Created ' + tiers_file);
+    });
+}
+
+function generate_compatibility_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs, code_hosts) {
+    const tiers_file = 'content/product/features_compatibility.md';
+    var page_content = "# Product Feature Compatibility\n";
+    page_content += "This page is intended as a reference of features by code host compatibility; each item will link you to our documentation.\n"
+    page_content += "You may also be interested in seeing our [feature tier](features_tiers.md) or\n"
+    page_content += "[feature maturity](features_maturity.md) matrices.\n"
+
+    Object.keys(product_areas).forEach((product_area) => {
+        page_content += "\n## " + product_areas[product_area].title + "\n"
+        if (product_areas[product_area].description) {
+            page_content += "\n_" + product_areas[product_area].description + "_"
+        }
+        page_content += " ([" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_product_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
+        page_content += "[" + product_areas[product_area].title + " Strategy](" + make_product_link_relative(product_areas[product_area].strategy_link) + "))\n"
+
+        page_content += "\n|Feature|"
+        Object.keys(code_hosts).forEach((code_host) => {
+            page_content += code_hosts[code_host].title + " |"
+        });
+        page_content += "\n|-------|"
+        Object.keys(code_hosts).forEach((code_host) => {
+            page_content += "-|"
+        });
+        page_content += "\n"
+
+        Object.keys(features).forEach((feature) => {
+            if (features[feature].product_area == product_area) {
+                if (features[feature].documentation_link) {
+                    page_content += "|[" + features[feature].title + "](" + make_product_link_relative(features[feature].documentation_link) + ")"
+                } else {
+                    page_content += "|" + features[feature].title
+                }
+                if (features[feature].description) {
+                    page_content += ": _" + features[feature].description + "_"
+                }
+                page_content += "|"
+                Object.keys(code_hosts).forEach((code_host) => {
+                    if (features[feature].compatibility[code_host]) {
+                        page_content += "✔️|"
+                    } else {
+                        page_content += " |"
+                    }
+                });
+                page_content += "\n"
+            };
+        });
+    });
+
+    writeFile(tiers_file, page_content, function (err) {
         if (err) throw err;
         console.log('Created ' + tiers_file);
     });
@@ -115,4 +180,5 @@ const code_hosts = yaml_load('data/code_hosts.yml');
 
 generate_maturity_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs);
 generate_tiers_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs);
+generate_compatibility_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs, code_hosts)
 
