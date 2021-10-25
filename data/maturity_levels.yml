@@ -1,6 +1,6 @@
 ga:
   title: 'Generally Available ✅'
-  definition: 'Available as a normal product feature.'  
+  definition: 'Available as a normal product feature.'
 
 partial_ga:
   title: 'Partially Available ☑️'
