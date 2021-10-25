@@ -108,10 +108,10 @@ At a high level, here is an overview of what we’re looking for in this hire. @
   - The Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity
   - Tthe Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity
   - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and schedule a follow up call to answer any questions.
-- Following the offer call, Recruiter sends the offer summary to the candidate in an email.
+- Following the offer call, Recruiter sends the offer summary to the candidate in an email with Hiring Manager cc'ed.
 - To send an official offer, the Recruiter
   - Updates the offer approval with the accurate start date
-  - Tags the VP Talent and the Recruitment Operations Specialist in the notes section: "@VP Talent @Recruitment Operations Specialist please send this [US/Non-US] offer letter"
+  - Tags the VP Talent and the Recruitment Operations Specialist in the Talent Offers Slack channel: "@VP Talent @Recruitment Operations Specialist please send this [US/Non-US] offer letter. Open Date: ** Source: ** "
 - The official offer is sent to the candidate via Docusign.
 
 ## After the offer
