@@ -1,4 +1,4 @@
-# Wildcard Design System
+# Wildcard design system
 
 We use [Wildcard](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0), Sourcegraph’s design system, to create visual design artifacts in Figma. Designers utilize components from Wildcard whenever possible to ensure consistent design across Sourcegraph and efficient development time. We also use [Chromatic](https://www.chromatic.com/library?appId=5f0f381c0e50750022dc6bf7) to manage our storybook.
 
