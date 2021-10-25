@@ -1,4 +1,4 @@
-const getMovedPagesFromHistory = require('./src/scripts/getMovedPagesFromHistory')
+import { getMovedPagesFromHistory } from './src/scripts/getMovedPagesFromHistory.mjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

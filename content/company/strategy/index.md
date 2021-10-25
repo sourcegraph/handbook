@@ -48,6 +48,26 @@ Our [values](../values.md) are the principles and beliefs that help us achieve o
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
+Additionally, our [product design principles](../../product/design/product_design_principles.md) are:
+
+- **A personal tool within a larger workflow**<br />
+  Sourcegraph is a powerful yet personal tool that exists within a larger workflow. Design for familiar patterns with thoughtful defaults, while embracing personalization and adaptability.
+
+- **Made for everyone**<br />
+  Our purpose is to make it so everyone can code. This demands we make Sourcegraph accessible and useful for all developers through universal, inclusive design.
+
+- **Gracefully manage complexity**<br />
+  Sourcegraph supports complex product requirements, but also empowers users to manage this complexity for their individual needs.
+
+- **Code as content**<br />
+  More time is spent reading than writing code. Elevate the craft of code as content.
+
+- **Trust is earned**<br />
+  Sourcegraph is the source of truth, but this trust is earned. Accuracy, transparency, recency, and honesty together work to uphold this source of truth.
+
+- **Create momentum**<br />
+  Help developers create and maintain flow. To do this, Sourcegraph must be fast in every way. We design purposefully to help users iterate and build momentum.
+
 ### Assumptions
 
 - Sufficiently good code search will be useful to every developer many times per day (on average). It may take a while to convert any specific person into a frequent code search power user, but it will happen eventually.

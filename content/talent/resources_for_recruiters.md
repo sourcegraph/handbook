@@ -88,13 +88,18 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:
 
-## Extending an offer
+## Creating an offer
 
 - Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
   - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
+- Recruiter [creates an offer in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer)
+- Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
 - Recruiter submits offer for approval in Greenhouse.
-  - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
+  - Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
+
+## Extending an offer
+
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
   - Attendees: Recruiter, Hiring Manager, Candidate.
   - Prior to the call, Recruiter drafts an Offer Summary and sends to VP Talent and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
@@ -110,7 +115,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 - After the candidate signs the offer, the Recruiter sends a welcome email to the candidate and Cc's the Hiring Manager.
 - The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
-- The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Ines, VP of Talent, and Hiring Manager, and exports the candidate to Bamboo.
+- The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Onboarding Email, Hiring Manager, VP Talent and Talent Team Manager (if applicable), and exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
 
 ## LinkedIn posting best practices

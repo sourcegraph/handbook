@@ -9,7 +9,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#sara-lee-sheher" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#sara-lee-sheher" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -20,7 +20,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#murat-sutunc-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#murat-sutunc-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -31,7 +31,19 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#erzhan-torokulov-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#beatrix-woo-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Beatrix Woo</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+        <div style="text-align: center; font-size: 12px;">(starting 15/11)</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#erzhan-torokulov-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -42,23 +54,12 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#tharuntej-kandala-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#tharuntej-kandala-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">TJ Kandala</div>
         <div style="text-align: center; font-size: 12px;">Software Engineer</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div>
-          <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-violet.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">We're Hiring!</a></div>
-        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">Software Engineer</a></div>
       </div>
     </div>
     <div class="col" style="flex: 1;">

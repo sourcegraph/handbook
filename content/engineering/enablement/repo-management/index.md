@@ -12,7 +12,6 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 - [Dan Mckeen](../../../company/team/index.md#dan-mckeen-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
-  - [Alan Harris](../../../company/team/index.md#alan-harris)
   - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
   - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta-he-him)
 
@@ -24,7 +23,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ### Code host / repository management
 
-Including maintainance, development, support and advice for:
+Including maintenance, development, support, and advice for:
 
 - Code host connections
 - Code replication into Sourcegraph

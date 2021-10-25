@@ -54,7 +54,7 @@ Remember:
     - [Product](../index.md)
     - [Product management](../product_management/index.md)
     - [Product design](../design/index.md)
-    - [Product process](https://about.sourcegraph.com/handbook/product/product_management/product_process)
+    - [Product process](../product_management/index.md)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
   - Team sync docs
     - Your calendar will be automatically populated with your team’s meetings. In the meeting invites, you will find corresponding docs that you should read for context.
