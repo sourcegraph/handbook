@@ -111,7 +111,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Following the offer call, Recruiter sends the offer summary to the candidate in an email with Hiring Manager cc'ed.
 - To send an official offer, the Recruiter
   - Updates the offer approval with the accurate start date
-  - Tags the VP Talent and the Recruitment Operations Specialist in the Talent Offers Slack channel: "@VP Talent @Recruitment Operations Specialist please send this [US/Non-US] offer letter. Open Date: __ Source: __ "
+  - Tags the VP Talent and the Recruitment Operations Specialist in the Talent Offers Slack channel: "@VP Talent @Recruitment Operations Specialist please send this [US/Non-US] offer letter. Open Date: ** Source: ** "
 - The official offer is sent to the candidate via Docusign.
 
 ## After the offer
