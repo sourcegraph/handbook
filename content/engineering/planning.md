@@ -2,15 +2,15 @@
 
 ## Kinds of work
 
-There are three different kinds of work to consider when planning work: product work, scale work, and risk work.
+There are three different kinds of work to consider when planning work: feature work, scale work, and risk work.
 
 A good plan achieves a healthy balance between these kinds of work. Exactly what that balance is depends on circumstances and can vary over time, but it is important to not neglect any of these categories.
 
 To balance work across these areas, it is important to prioritize based on the outcomes and expected impact those outcomes will have on our business and customers, now and over time.
 
-### Product work
+### Feature work
 
-Product work solves new user problems by adding features and workflows.
+Feature work solves new user problems by adding capabilities and workflows.
 
 Examples:
 
@@ -52,7 +52,7 @@ Instead of talking about tech debt generically, it is more productive to talk ab
 
 With the correct frame ✅, addressing tech debt turns into one of the other kinds of work.
 
-- Addressing tech debt can be product work when doing it now is on the fastest path toward delivering a product improvement.
+- Addressing tech debt can be feature work when doing it now is on the fastest path toward delivering a product improvement.
 - Addressing tech debt can be scale work when addressing it will increase our ability to deliver more value to our customers faster over time.
 - Addressing tech debt can be risk work when it helps us reduce the possiblity of failure modes that would negatively impact the business.
 
