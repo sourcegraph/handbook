@@ -1587,3 +1587,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [jplahn](https://github.com/jplahn)
 - [jordan.plahn@sourcegraph.com](mailto:jordan.plahn@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/jplahn)
 - Jordan lives in Seattle, WA with his fiancée and fluffy Newfoundland. He was born in Houston, but lived in other countries for 12 years while growing up (Thailand, Egypt, Scotland). Jordan loves to explore the beautiful mountains of Washingotn, travel and eat, play golf, and spend way too much time (and money) chasing the perfect espresso shot. Before Sourcegraph, Jordan worked at Amazon for 6 years as a Software Engineer, Product Manager, and Engineering Manager.
+
+## Varun Gandhi (he/him)
+
+- Software Engineer
+- Berkeley, CA, USA
+- GitHub: [varungandhi-src](https://github.com/varungandhi-src)
+- [varun.gandhi@sourcegraph.com](mailto:varun.gandhi@sourcegraph.com), [Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)
+- After training as a physicist, Varun decided to take a hard left turn after being enamored by functional programming and compilers. Loving all things related to developer tools, Varun worked on the Swift compiler before joining Sourcegraph. In his spare time, Varun may be found learning a new language, watching a movie at the cinema, bopping to some kpop, or animatedly gesticulating at an Arsenal game.
