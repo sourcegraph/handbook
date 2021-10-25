@@ -75,6 +75,12 @@ function generate_tiers_page(features, maturity_levels, pricing_tiers, product_a
     page_content += "You may also be interested in seeing our [feature compatibility](features_compatibility.md) or\n"
     page_content += "[feature maturity](features_maturity.md) matrices.\n"
 
+    page_content += "\n## Pricing Tiers\n"
+    page_content += "\nYou can learn more about our pricing tiers here:\n"
+    Object.keys(pricing_tiers).forEach((pricing_tier) => {
+        page_content += "- [" + pricing_tiers[pricing_tier].title + "](" + pricing_tiers[pricing_tier].info_link + ")\n"
+    });
+
     Object.keys(product_areas).forEach((product_area) => {
         page_content += "\n## " + product_areas[product_area].title + "\n"
         if (product_areas[product_area].description) {
