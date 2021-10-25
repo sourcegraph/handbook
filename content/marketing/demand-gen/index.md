@@ -13,7 +13,7 @@ For more on our thoughts about delight and demand, check out the [minifesto](htt
 
 #### What does “be delightful” look like in practice?
 
-> **Reduce Friction** - between the developer and the product, between the site visitor and the thing they’re looking for, between the prospect and sales </p>  **Provide value** - in the form of information and educational opportunities, connection and access to like-minded folks, and entertainment whenever possible</p>  **Have respect** - for our audience’s time, attention, and personal information</p>  **Be transparent** - with how we’re using our audience’s information, what to expect from us, and how to opt out at any time
+> **Reduce Friction** - between the developer and the product, between the site visitor and the thing they’re looking for, between the prospect and sales </p> **Provide value** - in the form of information and educational opportunities, connection and access to like-minded folks, and entertainment whenever possible</p> **Have respect** - for our audience’s time, attention, and personal information</p> **Be transparent** - with how we’re using our audience’s information, what to expect from us, and how to opt out at any time
 
 ## How we're organized
 
@@ -29,6 +29,7 @@ The **Operations group** is responsible for systems and analytics which support 
 - [Marketing Operations](./marketing_operations.md)
 
 ## Meet the team
+
 - Sarah Reece - Director, Demand Generation
 - Rebecca Rissinger - Manager, Marketing Operations
 - Greg Bouton - Senior Email + Automation Manager
