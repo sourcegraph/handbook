@@ -129,6 +129,12 @@ function generate_compatibility_page(features, maturity_levels, pricing_tiers, p
     page_content += "You may also be interested in seeing our [feature tier](features_tiers.md) or\n"
     page_content += "[feature maturity](features_maturity.md) matrices.\n"
 
+    page_content += "\n## Code Hosts\n"
+    page_content += "\nSourcegraph track compatibility with a number of external code hosts:\n"
+    Object.keys(code_hosts).forEach((code_host) => {
+        page_content += "- [" + code_hosts[code_host].title + "](" + code_hosts[code_host].info_link + ")\n"
+    });
+
     Object.keys(product_areas).forEach((product_area) => {
         page_content += "\n## " + product_areas[product_area].title + "\n"
         if (product_areas[product_area].description) {
