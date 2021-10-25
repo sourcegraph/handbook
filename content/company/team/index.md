@@ -1603,3 +1603,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [deflncha](https://github.com/deflncha)
 - [lauren.chapman@sourcegraph.com](mailto:lauren.chapman@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/chapman-lauren-202/)
 - Lauren lives in eastern Canada in the small province of New Brunswick with her two kitties Piper & Momo 🐱. Prior to Sourcegraph she worked as a Software Developer, Application Support Specialist, and Application Security Specialist - wearing many different "hats" over her career. In her free time shes loves board games (Catan, Forbidden Island, Pandemic) and to read personal biographies. Lauren also loves to talk about and advocate for mental health, therapy, and meditation 🪴 - all of which have been instrumental in her life.
+
+## Jordan Plahn (he/him)
+
+- Engineering Manager
+- Seattle, WA, USA 🇺🇸
+- GitHub: [jplahn](https://github.com/jplahn)
+- [jordan.plahn@sourcegraph.com](mailto:jordan.plahn@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/jplahn)
+- Jordan lives in Seattle, WA with his fiancée and fluffy Newfoundland. He was born in Houston, but lived in other countries for 12 years while growing up (Thailand, Egypt, Scotland). Jordan loves to explore the beautiful mountains of Washingotn, travel and eat, play golf, and spend way too much time (and money) chasing the perfect espresso shot. Before Sourcegraph, Jordan worked at Amazon for 6 years as a Software Engineer, Product Manager, and Engineering Manager.
