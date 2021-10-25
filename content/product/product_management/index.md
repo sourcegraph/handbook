@@ -23,7 +23,7 @@ All product engineering teams should have their own strategy page, and should up
 
 ### Feature data
 
-We have a several [feature matrix pages](../index.md#feature-reference) that are backed by data in the [data folder of the handbook project](https://github.com/sourcegraph/handbook). Product managers should keep these files up to date as part of their monthly direction page updates, as needed.
+We have several [feature matrix pages](../index.md#feature-reference) that are backed by data in the [data folder of the handbook project](https://github.com/sourcegraph/handbook). Product managers should keep these files up to date as part of their monthly direction page updates, as needed.
 
 ## Glossary
 
