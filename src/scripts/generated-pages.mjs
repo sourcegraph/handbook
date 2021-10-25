@@ -19,7 +19,7 @@ function make_product_link_relative(link) {
     }
 }
 
-function generate_maturity_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs) {
+function generate_maturity_page(features, maturity_levels, product_areas, product_orgs) {
     const tiers_file = 'content/product/features_maturity.md';
     var page_content = "# Product Features by Maturity\n";
     page_content += "This page is intended as a reference of features by maturity level; each item will link you to our documentation,\n"
@@ -65,7 +65,7 @@ function generate_maturity_page(features, maturity_levels, pricing_tiers, produc
     });
 }
 
-function generate_tiers_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs) {
+function generate_tiers_page(features, pricing_tiers, product_areas, product_orgs) {
     const tiers_file = 'content/product/features_tiers.md';
     var page_content = "# Product Features by Tier\n";
     page_content += "The consumer facing pricing page is on our [about site pricing page](https://about.sourcegraph.com/pricing)\n"
@@ -128,7 +128,7 @@ function generate_tiers_page(features, maturity_levels, pricing_tiers, product_a
     });
 }
 
-function generate_compatibility_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs, code_hosts) {
+function generate_compatibility_page(features, product_areas, product_orgs, code_hosts) {
     const tiers_file = 'content/product/features_compatibility.md';
     var page_content = "# Product Feature Compatibility\n";
     page_content += "This page is intended as a reference of features by code host compatibility; each item will link you to our documentation.\n"
@@ -196,7 +196,7 @@ const product_areas = yaml_load('data/product_areas.yml');
 const product_orgs = yaml_load('data/product_orgs.yml');
 const code_hosts = yaml_load('data/code_hosts.yml');
 
-generate_maturity_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs);
-generate_tiers_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs);
-generate_compatibility_page(features, maturity_levels, pricing_tiers, product_areas, product_orgs, code_hosts)
+generate_maturity_page(features, maturity_levels, product_areas, product_orgs);
+generate_tiers_page(features, pricing_tiers, product_areas, product_orgs);
+generate_compatibility_page(features, product_areas, product_orgs, code_hosts)
 
