@@ -38,7 +38,6 @@ The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-s
   - [Patrick Dubroy](../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../roles.md#engineering-manager))
   - [Taylor Sperry](../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
-  - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
   - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
 - [Engineering Education](engineering-education/index.md)
   - [Marek Zaluski](../../company/team/index.md#marek-zaluski)
