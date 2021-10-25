@@ -64,6 +64,7 @@ For more information about code insights, see the original [product document](ht
 - [team/code-insights](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights) label on GitHub.
 - [Code Insights Events](https://calendar.google.com/calendar/u/0?cid=Y19kOWFyMHUzZ3BpbnVpNjRiMDRpNjc3bm1qY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
   - Teammates should add this calendar (calendar ID `c_d9ar0u3gpinui64b04i677nmjc@group.calendar.google.com`) as an additional calendar in the [Roots PTO Slack app](../../../people-ops/submitting-time-off.md) so that their PTO is visible to their team on the team calendar.
+- code-insights-team@sourcegraph.com Google group for mentioning in Google Docs and calendar invites.
 
 ## Useful browser bookmarks ⭐️
 
