@@ -4,7 +4,7 @@ partial_ga:
 
 ga:
   title: 'Generally Available ✅'
-  definition: 'Available and not limited in any significant way.'  
+  definition: 'Available and not limited in any significant way.'
 
 beta:
   title: 'Beta ✨'
