@@ -40,6 +40,8 @@ We try to avoid moving features from free to paid as this can be difficult to ex
 
 It is much better to move a feature from paid to free, so if unsure you can start a feature as paid and move it down to free later if it ends up not being an actual driver of revenue.
 
+If you do decide to move a feature from free to paid, please confirm with Product Leadership first.
+
 ## Choosing between free and enterprise
 
 This section is to be determined; in the meantime please work with Product Leadership to determine which tier a new major feature should go into.
