@@ -43,7 +43,7 @@ If we achieve these points, we can make it easy for developers to get things don
 
 ## Themes & Goals
 
-We are focused on several themes to help make our one year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product area is delivering, take a look at the individual team strategy pages linked at the [top of this page](#code-graph).
+We are focused on several themes to help make our one year vision a reality. They are not listed in priority order. To see how these play into what any particular product area is delivering, take a look at the individual team strategy pages linked at the [top of this page](#code-graph).
 
 We also set our goals around these themes, sou can see current (Q4 2021) goals as a bullet list in each theme.
 
