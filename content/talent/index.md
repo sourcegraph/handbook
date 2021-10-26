@@ -58,6 +58,10 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [Where we post our jobs](./hiring/job_boards.md)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
+## [Resources for Recruiting Operations](./resources_for_recruiting_operations.md)
+
+- [How to schedule an interview](./resources_for_recruiting_operations.md#how-to-schedule-an-interview)
+
 ## Talent Team Members
 
 - [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
@@ -68,11 +72,11 @@ Technical Recruiting Team
   - Engineering
   - Product
   - Support
-- [Frey Andersson], Technical Recruiter
+- [Frey Andersson](../company/team/index.md#frey-andersson), Technical Recruiter
   - Engineering
-- [Win Yu](https://handbook.sourcegraph.com/company/team#win-yu-hehis), Technical Talent Sourcer
+- [Win Yu](../company/team/index.md#win-yu-hehis), Technical Talent Sourcer
   - Talent research for the technical recruiting team
-- [Kemper Hamilton](https://handbook.sourcegraph.com/company/team#kemper-hamilton-sheher), Recruitment Operations Specialist
+- [Kemper Hamilton](../company/team/index.md#kemper-hamilton-sheher), Recruitment Operations Specialist
   - Interview scheduling for technical recruiters
   - Recruitment branding
 
@@ -87,7 +91,11 @@ Corporate Recruiting Team
 - [Marija Petrovic](../company/team/index.md#marija-petrovic-she-her), Senior Sales Recruiter, Team Lead
   - Sales
   - Customer Engineering
-- [Grace Bohl](https://handbook.sourcegraph.com/company/team#grace-bohl-sheher), Sales Recruiter
+- [Grace Bohl](../company/team/index.md#grace-bohl-sheher), Sales Recruiter
   - Sales
 - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
   - Interview scheduling for corporate recruiters
+
+## Recruitment Branding & Social Media
+
+- Coming Soon...

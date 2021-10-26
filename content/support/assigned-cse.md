@@ -2,7 +2,7 @@
 
 There are certain situations where it just makes sense to assign a Customer Support Engineer to work with a customer (vs handling all issues from the customer round-robin by anyone on the team). For example, we have a couple handfuls of customers we deem strategic in nature. We also have a couple handfuls of pre-sales customers where we know they will benefit from a more high-touch experience.
 
-If you feel a customer should have an assigned CSE, post in #customer-support. The CS leadership team will coordinate with the CE and Sales leadership team to vet the request. In order to provide optimal support for all customers, we can only have ~20 customers (post- and pre- / long-term and temporary) with an assigned CSE.
+If you feel a customer should have an assigned CSE, post in #customer-support. The CS leadership team will coordinate with the CE and Sales leadership team to vet the request. In order to provide optimal support for all customers, we can only have ~15 customers (post- and pre- / long-term and temporary) with an assigned CSE.
 
 Customers selected for CSE assignment (whether post-sales strategic customers or pre-sales customers) and the CSEs assigned are listed in [our customer exceptions page](./customer-exceptions.md).
 

@@ -49,7 +49,7 @@ For convenience, Grafana is served on `/-/debug/grafana` on all Sourcegraph depl
 Edits through the web UI are prohibited, for two reasons:
 
 1. We do not want customers, or ourselves, to introduce dashboards or modifications through the Grafana web UI (see [monitoring pillars: long-term-vision](./monitoring_pillars.md#long-term-vision))
-1. Services served via reverse-proxy in this manner could be vulnerable to [cross-site request forgery (CSRF)](https://owasp.org/www-community/attacks/csrf), which is complicated to resolve ([#6075](https://github.com/sourcegraph/sourcegraph/issues/6075)) without just forbidding all POST requests.
+1. Services served via reverse-proxy in this manner could be vulnerable to [cross-site request forgery (CSRF)](https://owasp.org/www-community/attacks/csrf), which is complicated to resolve (#6075) without just forbidding all POST requests.
 1. The [monitoring generator](#monitoring-generator) creates provisioned dashboards that, once loaded, cannot be edited in Grafana (technical limitation in Grafana.)
 
 ### Sourcegraph Prometheus
@@ -87,7 +87,7 @@ Alertmanager is bundled in `sourcegraph/prometheus`, and notifications are confi
 
 _Rationale for notifiers in site configuration_: Due to the limitations of [admin reverse-proxies](#admin-reverse-proxy), alerts cannot be configured without port-forwarding or custom ConfigMaps, something we [want to avoid](./monitoring_pillars.md#long-term-vision).
 
-_Rationale for Alertmanager_: An approach for notifiers using Grafana was considered, but had some issues outlined in [#11832](https://github.com/sourcegraph/sourcegraph/pull/11832), so Alertmanager was selected as our notification provider.
+_Rationale for Alertmanager_: An approach for notifiers using Grafana was considered, but had some issues outlined in #11832, so Alertmanager was selected as our notification provider.
 
 _Rationale for silencing in site configuration_: Similar to the [Grafana admin reverse-proxy](#admin-reverse-proxy), silencing using the Alertmanager UI would require port-forwarding, something we [want to avoid](./monitoring_pillars.md#long-term-vision).
 
@@ -118,7 +118,7 @@ Notifiers for alerts are configured via the [`deploy-sourcegraph-dot-com` fronte
 
 Alerts go to the #alerts channel, with critical alerts going to [OpsGenie](../incidents/on_call.md). Critical alerts are assigned responders in OpsGenie based on the `owner` field of each alert - the mapping of `owner` to engineering team can be found in the Sourcegraph Cloud site configuration.
 
-_Rationale for per-team alerts_: See [RFC 189](https://docs.google.com/document/d/1noZf86g2QwTbFNt3XSSbMg36D-_HCptP1thMzZsgt2Q/edit) for an overview, and [#12010](https://github.com/sourcegraph/sourcegraph/issues/12010) for the specifics of how and why this is implemented in Sourcegraph.
+_Rationale for per-team alerts_: See [RFC 189](https://docs.google.com/document/d/1noZf86g2QwTbFNt3XSSbMg36D-_HCptP1thMzZsgt2Q/edit) for an overview, and #12010 for the specifics of how and why this is implemented in Sourcegraph.
 
 ### Blackbox Exporter
 
@@ -131,7 +131,7 @@ Prometheus scrapes Blackbox Exporter every 30s, which will send a request to end
 
 Alerts are configured separately via the [`deploy-sourcegraph-dotcom` prometheus ConfigMap for `sourcegraph_dotcom_rules.yml`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/prometheus/prometheus.ConfigMap.yaml#L511)
 
-_Rationale for Blackbox Exporter_: Site24x7 has been a source of flaky alerts, outlined in [#10742](https://github.com/sourcegraph/sourcegraph/issues/10742) and more broadly in [#11966](https://github.com/sourcegraph/sourcegraph/issues/11966). In an effort increase reliablity and broaden the scope of our monitoring, Blackbox Exporter was selected as it integrates well into our existing Prometheus and Alertmanager stack.
+_Rationale for Blackbox Exporter_: Site24x7 has been a source of flaky alerts, outlined in #10742 and more broadly in #11966. In an effort increase reliablity and broaden the scope of our monitoring, Blackbox Exporter was selected as it integrates well into our existing Prometheus and Alertmanager stack.
 
 ### Cloudflare Analytics
 

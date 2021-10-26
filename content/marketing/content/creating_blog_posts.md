@@ -12,7 +12,7 @@
 
 ## Process overview
 
-> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published. Please start by proposing your blog post idea to the Editorial team. The process is outlined in [the Editorial handbook](editorial.md#editorial-process). When your draft has been reviewed by an editor you can start adding your blog post as follows:
+> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published. Please start by proposing your blog post idea to the Editorial team. The process is outlined in [the Editorial handbook](../content/editorial/editorial-process.md). When your draft has been reviewed by an editor you can start adding your blog post as follows:
 
 1. Create the blog post file
 1. Create a pull request
