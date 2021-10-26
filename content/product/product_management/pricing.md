@@ -36,7 +36,7 @@ We offer three deployment models for the product, but as a default practice we p
 
 We try to avoid moving features from free to paid as this can be difficult to explain to customers. At that point, you're taking something away from people which is something that we don't want to do. It creates a bad feeling, and also can be complex when dealing with an open core product (a feature may have been contributed to the free version, and making it paid can feel like unfair monetization of something that was donated.)
 
-It is much better to move a feature from paid to free, so if unsure you can start a feature as paid and move it down to free later if it ends up not being an actual driver of revenue. 
+It is much better to move a feature from paid to free, so if unsure you can start a feature as paid and move it down to free later if it ends up not being an actual driver of revenue.
 
 ## Choosing between free and enterprise
 
