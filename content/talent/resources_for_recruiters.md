@@ -131,6 +131,6 @@ Avoid including links directly in your posts. Anything that takes the user away 
 
 ## Sourcing Outreach Best Practices
 
-Our goal is drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals. 
+Our goal is drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
 
-[Here's](https://docs.google.com/presentation/d/1cwPWbk_w2uRWsz_DuUJy_Jz_pVuSpM6pmZnfPU6cf4c/edit#slide=id.p2) a guide on creating a Recruiting Outreach Campaign. 
+[Here's](https://docs.google.com/presentation/d/1cwPWbk_w2uRWsz_DuUJy_Jz_pVuSpM6pmZnfPU6cf4c/edit#slide=id.p2) a guide on creating a Recruiting Outreach Campaign.
