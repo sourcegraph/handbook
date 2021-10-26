@@ -48,4 +48,4 @@ This section is to be determined; in the meantime please work with Product Leade
 
 ## Choosing the price for add-on features
 
-This section is to be determined; in the meantime please work with Product Leadership to determine the price for new major features that will be charged as add-ons.
+This section is to be determined; in the meantime please work with Product Leadership to determine the price for new  features that will be charged as add-ons.
