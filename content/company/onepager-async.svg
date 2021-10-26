@@ -144,7 +144,7 @@
           </text>
           <text role="listitem" transform="matrix(381 0 0 381 297561 438531)">
             <tspan x="0" y="0">Document in a</tspan>
-            <a href="https://about.sourcegraph.com/handbook/communication#sources-of-truth" xml:space="preserve"><tspan>source of </tspan><tspan x="0" dy="29">truth</tspan></a>
+            <a href="/communication#sources-of-truth" xml:space="preserve" target="_top"><tspan>source of </tspan><tspan x="0" dy="29">truth</tspan></a>
             <tspan> and share results</tspan>
             <tspan x="0" dy="29">with pertinent teammates</tspan>
           </text>
