@@ -1610,4 +1610,3 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [jjeffwarner](https://github.com/jjeffwarner)
 - [jeff.warner@sourcegraph.com](mailto:jeff.warner@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/jjeffwarner)
 - Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
--
