@@ -210,7 +210,7 @@ precise_code_intelligence_jsts:
   title: 'Precise Code Intelligence for JavaScript/TypeScript'
   description: ''
   product_area: code_intelligence
-  maturity: ga
+  maturity: partial_ga
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
   compatibility:
     gitlab_com: true
@@ -230,15 +230,15 @@ precise_code_intelligence_java_scala:
   title: 'Precise Code Intelligence for Java & Scala'
   description: ''
   product_area: code_intelligence
-  maturity: not_implemented
-  documentation_link: false
+  maturity: ga
+  documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
   compatibility: false
 
 precise_code_intelligence_c_cpp:
   title: 'Precise Code Intelligence for C/C++'
   description: ''
   product_area: code_intelligence
-  maturity: ga
+  maturity: partial_ga
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
   compatibility:
     gitlab_com: true
