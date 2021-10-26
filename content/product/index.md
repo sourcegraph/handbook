@@ -21,6 +21,7 @@ We have several feature reference matrices:
 
 - [Features by maturity](feature_maturity.md)
 - [Features by code host compatibility](feature_compatibility.md)
+- [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
 
 ## Metrics
 
