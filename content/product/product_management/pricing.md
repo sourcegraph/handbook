@@ -2,6 +2,10 @@
 
 This is a guide for product managers on how to think about pricing and tiering your features.
 
+## Strategy
+
+Our top-level strategy for pricing can be found on the [company strategy page]../../company/strategy#pricing)
+
 ## Pricing tiers
 
 We have two pricing tiers, free (for up to ten users) and enterprise. Our free tier allows users to try the product in a self-service way before they buy, and enterprise allows us to charge our users in a fair, understandable way once they see the value.
