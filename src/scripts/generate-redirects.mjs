@@ -2,7 +2,7 @@
 
 import fs from 'fs/promises'
 
-import getMovedPagesFromHistory from './getMovedPagesFromHistory.js'
+import { getMovedPagesFromHistory } from './getMovedPagesFromHistory.mjs'
 
 const movedPages = await getMovedPagesFromHistory()
 
@@ -14,4 +14,4 @@ const lines =
 
 console.log('Redirects:\n', lines)
 
-await fs.writeFile(new URL('../../_redirects', import.meta.url), lines)
+await fs.writeFile(new URL('../../out/_redirects', import.meta.url), lines)

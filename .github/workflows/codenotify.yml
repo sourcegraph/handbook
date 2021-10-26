@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        name: Checkout repository
         with:
           ref: ${{ github.event.pull_request.head.sha }}
       - uses: sourcegraph/codenotify@v0.4
+        name: Notify teammates listed in CODENOTIFY files of the changes
         env:
           GITHUB_TOKEN: ${{ secrets.CODENOTIFY_GITHUB_TOKEN }}

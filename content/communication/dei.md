@@ -2,7 +2,7 @@
 
 ## How we create an environment where everyone feels welcome and has equal opportunity
 
-> At Sourcegraph, we want to make it so [everyone can code](../company/strategy.md), so that technology's benefits reach the whole world. To do that, and to even understand what's necessary to do that, our team needs to represent a diverse set of perspectives, experiences, and backgrounds. We also believe that talent is equally distributed, so we strive for our team to demonstrate that by being inclusive of and equitable toward all people. This page describes our efforts and commitments to work toward these outcomes, and we expect to improve and expand our plans here as we learn and grow.
+> At Sourcegraph, we want to make it so [everyone can code](../company/strategy/index.md), so that technology's benefits reach the whole world. To do that, and to even understand what's necessary to do that, our team needs to represent a diverse set of perspectives, experiences, and backgrounds. We also believe that talent is equally distributed, so we strive for our team to demonstrate that by being inclusive of and equitable toward all people. This page describes our efforts and commitments to work toward these outcomes, and we expect to improve and expand our plans here as we learn and grow.
 
 — Quinn Slack (CEO/co-founder)
 
@@ -36,5 +36,5 @@ For the remainder of FY22, we aim to roll out the following initiatives:
 
 We appreciate that this work will never be fully done, and will update this page as we identify, launch and complete future initiatives that will help us make Sourcegraph a place where all teammates feel they belong and can grow their careers.
 
-We encourage all teammates to give us ideas and feedback at any time via their managers and/or the PeopleOps team. If appropriate, questions can be submitted anonymously via our company meeting form (which is automatically posted to `#general` on Slack each week).
+We encourage all teammates to give us ideas and feedback at any time via their managers and/or the PeopleOps team. If appropriate, questions can be submitted anonymously via our company meeting form (which is automatically posted to #general on Slack each week).
 If you are a candidate and have questions, you can email [hiring@sourcegraph.com](mailto:hiring@sourcegraph.com).

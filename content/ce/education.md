@@ -15,7 +15,6 @@ This page (WIP) provides new and existing CEs alike important trainings and demo
 
 ## Product-Centric Topics
 
-- [User deletion](delete_users_guide.md)
 - [Creating and maintaining license keys for customers](license_keys.md)
 - [Moving off the insiders build](leaving-insiders-build.md)
 - [Enterprise vs. Open Source Sourcegraph](enterprise-vs-oss.md)

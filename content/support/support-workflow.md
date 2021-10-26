@@ -20,7 +20,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
    4. Talking with the CE who is assigned (listed in the Salesforce app in Zendesk), if one is assigned
    5. Looking at the customer health and customer engagement ratings (the Salesforce app in Zendesk)
    6. Looking at the other Salesforce data surfaced in Zendesk and even looking in Salesforce if you feel compelled
-   7. The special notes in Zendesk (which should always match what we have in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit)
+   7. Looking ofr special notes about the customer in our [Exceptions for Customers document](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit)
    8. Relevant Looker dashboards (for example [the distribution board](https://sourcegraph.looker.com/dashboards-next/163))
    9. Looking at other recent cases
    10. To find which Sourcegraph version a company is running, visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436), find the row for the customer's instance, and look at the version number in the row's **Latest Version** column. Some customer instances are offline or only [provide critical telemtry](https://docs.sourcegraph.com/admin/pings#critical-telemetry). The [full list is in Google Drive](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit). If you don't see a customer in the Looker dashboard or the Google list, ask in #analytics on Slack.
@@ -28,9 +28,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
 
    Spend 10-15 minutes just orienting to that customer before even looking at the details of the issue.
 
-6. **The CSE does two extra things ASAP if the ticket originated from Slack.** Our trial- and support- channels are where our enterprise customers can work with anyone at Sourcegraph. This means not everything that comes into Zendesk via this medium will be for us (we use a Zapier integration that creates a new Zendesk ticket for each new post in a channel).
-
-   Virginia is primarily responsible for triaging new tickets and moving things over to our unassigned queue for step 5 above. Even after triage, since these are our Enterprise customers, we do one of the following ASAP:
+6. **The CSE does two extra things ASAP if the ticket originated from Slack.** Our trial- and support- channels are where our enterprise customers can work with anyone at Sourcegraph. This means not everything that comes into Zendesk via this medium will be for us (we use a Zapier integration that creates a new Zendesk ticket for each new post in a channel) -- you can see more details about our triage process [here](./customer-support-triaging.md).
 
    1. **Signal accountability.** Comment in the thread from the customer in Slack with something along the lines of: "I'll help you with this. I need a few minutes to dig in and then I'll share my thoughts with you/see what questions I have." -- to signal your accountability to the CE and let the customer know we are on it. The goal is for this to be super quick and then you move on to the real initial response after you have had more time to dig in.
    2. **Taking accountability for more than one issue at a time.** If you see a customer has posted a few questions at once, go ahead and take accountability for them all. Often when customers do this the issues end up being related and it will be a better experience for everyone involved if the same person handles them all. This may require you to get help on other tickets and that is okay! Just let the team know and we will figure it out.
@@ -42,16 +40,18 @@ Things happen pretty much in this order...and at every step, our decisions and a
    1. Ask our teammates in our #customer-support-internal Slack channel.
    2. If we collectively don't know the answer, then we engage engineering following the steps outlined [here](engaging-other-teams.md).
 
+For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all).
+
 9. **The CSE resolves the issue.** We don't consider something resolved unless the customer does/would. Resolution happens in a few ways. Only when one of these is true do we designate a case "closed" in Zendesk -- and if we were working in Slack, we leave that channel.
 
    1. We help the customer figure out what they need to do and they confirm they have done it and agree the issue is resolved `AND` we complete any internal tasks born from working on the ticket (like updating documentation or filing a GitHub issue for a docs update).
    2. We identify a workaround to get the customer on their way `AND` we file a defect or product improvement (in the public GitHub tracker) to address the underlying root cause (read [an open letter about root cause](root-cause.md) for inspiration) and share the link with the customer.
    3. We help the customer figure out what they need to do and they stop responding. After a couple of attempts, if we are confident the issue would be solved, `AND` we complete any internal tasks born from working on the ticket (like updating documentation), we go ahead and consider it resolved. Often in these situations we give the CE a heads-up of our decision.
    4. We identify a defect, engineering fixes it, the customer confirms the issue is resolved `OR` we share the public defect link with the customer (always do this when possible instead of keeping the case open) `AND` we complete any internal tasks born from working on the ticket (like updating documentation). Until then, we consider the case open and while engineering prioritizes the defect for a fix, we place the case "on-hold" in Zendesk.
-   5. We confirm the "issue" is a feature request and file it (for customers without a CE assigned) and share the link with the customer `OR` tag in the CE to handle the request `AND` we complete any internal tasks born from working on the ticket (like updating documentation). _Note: We have a bit to figure out still about the feature request workflow._
+   5. We confirm the "issue" is a feature request and tag in the CE to handle the request if there is a CE assigned to the customer `OR` file it in the public repo (for customers without a CE assigned) and share the link with the customer `AND` we complete any internal tasks born from working on the ticket (like updating documentation).
    6. If we are still working on finding the answer and the customer stops responding, we email a couple more times to see if they had a chance to look at our last response. If they still don't respond, and they have a CE, talk with them to see if they have another way to get in touch and see what's going on. If not, or if the customer does not have a CE, `AND` we complete any internal tasks born from working on the ticket (like updating documentation), then it's okay to close the ticket at this point.
 
-10. **While we work, we keep Zendesk, Slack, and/or Salesforce up-to-date.** If a ticket originates in Slack, you'll still need to keep Zendesk up to date. Switch the requestor to the person asking for help in Slack so that the issue ties to the right customer. Use the internal notes function in Zendesk to leave notes for yourself to track your progress and decisions (these will also appear in Salesforce for others to see). A summary of what happened should be obvious in Zendesk even if all the work happened in Slack. Also, we will often learn details about a customer's environment, etc that we should keep in Salesforce. We update and enter new such data in Salesforce as we learn it via a Google Form as outlined [here](../ops/bizops/customer_environment_questions.md) and/or the account info doc in [the customer notes folder](https://drive.google.com/drive/u/0/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0), if one exists (be sure to talk to the CE as part of updating it, in the event that what you are updating ends up being invaluable information to them for what else may be happening with the account). This data is then rendered in Zendesk so we don't have to ask the customer for it again. Zendesk also always reflects where we are at in our process by using the status function:
+10. **While we work, we keep Zendesk, Slack, and/or Salesforce up-to-date.** If a ticket originates in Slack, you'll still need to keep Zendesk up to date. Switch the requestor to the person asking for help in Slack so that the issue ties to the right customer. Use the internal notes function in Zendesk to leave notes for yourself to track your progress and decisions (these will also appear in Salesforce for others to see). A summary of what happened should be obvious in Zendesk even if all the work happened in Slack. Also, we will often learn details about a customer's environment, etc that we should keep in Salesforce. We update and enter new such data in Salesforce as we learn it via a Google Form as outlined [here](../bizops/customer_environment_questions.md) and/or the account info doc in [the customer notes folder](https://drive.google.com/drive/u/0/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0), if one exists (be sure to talk to the CE as part of updating it, in the event that what you are updating ends up being invaluable information to them for what else may be happening with the account). This data is then rendered in Zendesk so we don't have to ask the customer for it again. Zendesk also always reflects where we are at in our process by using the status function:
 
     1. New = a CSE has yet to taken accountability
     2. Open = a CSE is accountable for the next step
@@ -108,12 +108,6 @@ As explained above, our customers are able to initiate conversations for help vi
 - **Those involved:** Product > support (if necessary)
 - **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../product/product_management/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps.
 
-### hi@ email
-
-- **Purpose:** A general email that is mostly spam, but support triages to make sure nothing falls through the cracks
-- **Those involved:** Support + others as needed
-- **Details:** same as support@ email
-
 ### Support contracts
 
 - **Purpose:** Agreed upon contracts to provide with dedicated support.
@@ -130,7 +124,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
 - **Those involved:** Product > support (if necessary)
-- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../product/product_management/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../product/product_management/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
 
 ### @sourcegraph Twitter (and other social)
 

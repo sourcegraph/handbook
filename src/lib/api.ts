@@ -9,8 +9,24 @@ import getAllPages from './getAllPages'
 import markdownToHtml from './markdownToHtml'
 
 export interface Page {
+    /**
+     * The location of the source file, relative to `CONTENT_FOLDER`.
+     */
     path: string
-    slug: string
+
+    /**
+     * URL path (possibly with subdirectories) where the page is located.
+     */
+    slugPath: string
+
+    /**
+     * The last part of the slug path.
+     */
+    fileSlug: string
+
+    /**
+     * Indicates if the source file is an `index.md` file (in any subdirectory).
+     */
     isIndexPage: boolean
 }
 
@@ -32,25 +48,27 @@ export async function getAllPageSlugPaths(): Promise<string[]> {
     return allPages.map(page => page.slugPath)
 }
 
-async function loadFileBySlugPath(slug: string): Promise<LoadedPage> {
-    const relativePathForIndexPage = join(slug, 'index.md')
+async function loadFileBySlugPath(slugPath: string): Promise<LoadedPage> {
+    const relativePathForIndexPage = join(slugPath, 'index.md')
     const fullPathForIndexPage = join(pagesDirectory, relativePathForIndexPage)
     try {
         const body = await fs.readFile(fullPathForIndexPage, 'utf8')
         return {
             body,
             path: relativePathForIndexPage,
-            slug,
+            slugPath,
+            fileSlug: getLastSlugPart(slugPath),
             isIndexPage: true,
         }
     } catch {
-        const relativePathForPage = `${slug}.md`
+        const relativePathForPage = `${slugPath}.md`
         const fullPathForPage = join(pagesDirectory, relativePathForPage)
         const body = await fs.readFile(fullPathForPage, 'utf8')
         return {
             body,
             path: relativePathForPage,
-            slug,
+            slugPath,
+            fileSlug: getLastSlugPart(slugPath),
             isIndexPage: false,
         }
     }
@@ -79,21 +97,34 @@ export interface DirectoryNode<P extends Page = Page> {
     subdirectories: DirectoryNode<P>[]
 }
 
-export function buildPagesTree<P extends Page = Page>(pages: P[]): DirectoryNode {
-    const root: DirectoryNode = {
+export function buildPageTree<P extends Page = Page>(
+    pages: P[]
+): { tree: DirectoryNode<P>; nodes: DirectoryNode<P>[] } {
+    const tree: DirectoryNode<P> = {
         name: '',
         pages: [],
         subdirectories: [],
     }
+    const nodes: DirectoryNode<P>[] = []
 
-    for (const page of pages) {
-        const directoryParts = page.slug.split('/').slice(0, -1)
-        const parentDirectory = findOrCreateDirectoryNode(root, directoryParts)
+    // Sort pages alphabetically by name
+    const sortedPages = pages.sort((page1, page2) =>
+        getLastSlugPart(page1.slugPath) > getLastSlugPart(page2.slugPath) ? 1 : -1
+    )
 
-        // TODO This logic isn't quite right, because I think it conflates the
-        // idea of an "index page" which is just an `index.md` with a "parent
-        // node" which can be either `foo/index.md` or `foo.md` alonside a
-        // `foo/` directory.
+    for (const page of sortedPages) {
+        const slugPathParts = page.slugPath.split('/')
+
+        // For index pages, the directory path is the entire slug path. For all
+        // other pages, the directory path is the slug path excluding the last
+        // part (because the last part is the "file" name).
+        const directoryPathParts = page.isIndexPage ? slugPathParts : slugPathParts.slice(0, -1)
+        const parentDirectory = findOrCreateDirectoryNode(tree, directoryPathParts)
+
+        if (!nodes.includes(parentDirectory)) {
+            nodes.push(parentDirectory)
+        }
+
         if (page.isIndexPage) {
             parentDirectory.indexPage = page
         } else {
@@ -101,10 +132,10 @@ export function buildPagesTree<P extends Page = Page>(pages: P[]): DirectoryNode
         }
     }
 
-    return root
+    return { tree, nodes }
 }
 
-function findOrCreateDirectoryNode(node: DirectoryNode, path: string[]): DirectoryNode {
+function findOrCreateDirectoryNode<P extends Page = Page>(node: DirectoryNode<P>, path: string[]): DirectoryNode<P> {
     if (path.length === 0) {
         return node
     }
@@ -129,4 +160,9 @@ function findOrCreateDirectoryNode(node: DirectoryNode, path: string[]): Directo
 export async function parsePage(page: LoadedPage): Promise<ParsedPage> {
     const { content, title, toc } = await markdownToHtml(page.body, page.path, page.isIndexPage)
     return { ...page, html: content, title, toc }
+}
+
+export function getLastSlugPart(slug: string): string {
+    const parts = slug.split('/')
+    return parts[parts.length - 1]
 }

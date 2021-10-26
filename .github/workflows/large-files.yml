@@ -9,6 +9,7 @@ jobs:
     runs-on: macos-11
     steps:
       - uses: actions/checkout@v2
+        name: Checkout repository
         with:
           fetch-depth: 0 # We analyze Git history
 

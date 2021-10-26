@@ -4,7 +4,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate.
 
-- [Editing the handbook](editing.md)
+- [Editing the handbook](editing/index.md)
 - [Handbook usage](usage.md)
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 - [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits) (or [this search](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/about%24+type:diff+rev:main) if you'd like to see diffs)
@@ -13,7 +13,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [All-remote](company/remote/index.md)
 - [Asynchronous communication](company/asynchronous-communication.md)
-- [Strategy](company/strategy.md)
+- [Strategy](company/strategy/index.md)
 - [Goals](company/goals/index.md)
 - [Team](company/team/index.md)
   - [Org chart](company/team/org_chart.md)
@@ -23,6 +23,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Communication](communication/index.md)
   - [Content guidelines](communication/content_guidelines/index.md)
 - [Customer-first](company/customer-first.md)
+- [General office information](company/general-office-info.md)
 
 ## Teams at Sourcegraph
 
@@ -34,7 +35,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Product](product/index.md)
 
-- [Direction](direction/index.md)
+- [Strategy](company/strategy/index.md)
 - [Product](product/index.md)
   - [Product Management](product/product_management/index.md)
   - [Product Design](product/design/index.md)
@@ -44,22 +45,7 @@ The handbook is a living document and we expect every teammate to propose improv
 <!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
 
 - [Engineering](./engineering/index.md)
-  - [Code graph](./engineering/code-graph/index.md)
-    - [Search core](./engineering/code-graph/search/core.md)
-    - [Search product](./engineering/code-graph/search/product.md)
-    - [Code intelligence](./engineering/code-graph/code-intelligence/index.md)
-    - [Batch Changes](./engineering/code-graph/batch-changes/index.md)
-    - [Code insights](./engineering/code-graph/code-insights/index.md)
-  - [Enablement](./engineering/enablement/index.md)
-    - [Repo management](./engineering/enablement/repo-management/index.md)
-    - [Delivery](./engineering/enablement/delivery/index.md)
-    - [Dev experience](./engineering/enablement/dev-experience/index.md)
-    - [Frontend platform](./engineering/enablement/frontend-platform/index.md)
-  - Cloud
-    - [Growth](./engineering/cloud/growth/index.md) (includes API docs)
-    - [Security](./engineering/cloud/security/index.md)
-    - [DevOps](./engineering/cloud/devops/index.md)
-    - [SaaS](./engineering/cloud/saas/index.md)
+  - [Engineering orgs and teams](./engineering/eng_org.md)
 
 ### [Customer Support](support/index.md)
 
@@ -69,9 +55,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Product Marketing](marketing/product-marketing/index.md)
 - [Content Marketing](marketing/content/index.md)
-  - [Editorial](marketing/content/editorial.md)
+  - [Editorial](marketing/content/editorial/index.md)
   - [Creating and editing blog posts](marketing/content/creating_blog_posts.md)
-  - [Blog Hackathon](marketing/content/blog_hackathon.md)
+  - [Blog Hackathon](marketing/content/editorial/blog_hackathon.md)
 - [Demand Gen](marketing/demand-gen/index.md)
 - [Developer Education](marketing/education/index.md)
 - [Brand](marketing/brand/index.md)
@@ -89,9 +75,22 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Resources for teammates](./talent/index.md#resources-for-teammates)
 - [Resources for recruiters](./talent/index.md#resources-for-recruiters)
 
-### [Operations](ops/index.md)
+### [Business Operations & Strategy](bizops/index.md)
 
-- [Business Operations & Strategy](ops/bizops/index.md)
-- [Finance & Accounting](ops/finance/index.md)
-- [Legal](ops/legal/index.md)
-- [Tech Ops](ops/tech-ops/index.md)
+- [How to work with us](bizops/index.md#how-to-work-with-us)
+- [Analytics issue tracker](https://github.com/sourcegraph/analytics/issues)
+- Teams
+  - [Data operations](bizops/data_operations.md)
+  - [Analytics](bizops/analytics.md)
+
+### [Finance & Accounting](finance/index.md)
+
+- [Financial terms and definitions](finance/index.md#definitions)
+- [Accounting](finance/index.md#accounting)
+
+### [Legal](legal/index.md)
+
+### [Tech Ops](tech-ops/index.md)
+
+- [Internal security](tech-ops/internal_security.md)
+- [Single sign on (Okta)](tech-ops/Okta.md)

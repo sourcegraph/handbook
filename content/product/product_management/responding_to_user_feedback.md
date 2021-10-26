@@ -6,7 +6,7 @@ The product team owns a number of [user feedback sources](user_feedback.md).
 
 We check both HubSpot and Salesforce before replying to feedback to ensure another team has not already replied. We bcc all of our email replies to feedback into HubSpot and Salesforce so everyone can reference the communication.
 
-If there are questions or takeaways that might impact a customer or prospect relationship, such as if the feedback is particularly strong (positive or negative) or timely, we also sometimes notify the relevant Sales/CE team member with a threaded reply in the `#feedback` channel in Slack.
+If there are questions or takeaways that might impact a customer or prospect relationship, such as if the feedback is particularly strong (positive or negative) or timely, we also sometimes notify the relevant Sales/CE team member with a threaded reply in the #feedback channel in Slack.
 
 ## Feedback rotation
 
@@ -22,11 +22,16 @@ A detailed explanation of the current process and the suggested reply structures
 
 ### GitHub issues created by third parties
 
-The PM on feedback rotation labels and forwards issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. [This GitHub search](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) is a fast way to find these issues.
+The PM on feedback rotation labels and forwards issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. Searching GitHub for [issues with no label](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) or [issues with the `needs-team-triage` label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Aneeds-team-triage) are fast ways to find these issues.
 
 All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage.
 
-### Slack [`#feedback`](https://sourcegraph.slack.com/archives/C0W2E592M) channel
+If you find an issue that is really a support request, you can:
+
+1. Post a comment directing the user to email support@sourcegraph.com so we can help them (that way we don't have to constantly remind the user to not post anything posing a security risk AND it's a gentle way to validate whether the issue is still an issue for them)
+1. Create an email with that user in copy and send it to support@sourcegraph.com on their behalf
+
+### Slack #feedback channel
 
 For both self-contained product feedback slack posts and for new GitHub issues with #feedback labels (which automatically cross-post to Slack), the product manager on feedback rotation:
 

@@ -1,0 +1,20 @@
+name: Update all pull requests that have automerge enabled
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-branch:
+    name: Update all pull requests that have automerge enabled
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Update branches
+        uses: felixfbecker/action-autoupdate-branch@patch-1
+        with:
+          repo-token: '${{ secrets.WRITE_ACCESS_GITHUB_TOKEN }}'

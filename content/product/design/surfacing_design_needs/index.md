@@ -6,7 +6,7 @@ From time to time, we need to surface **extrinsic** design needs. This happens w
 
 To surface something for the product design team:
 
-- On Slack, tag the team with `@design-team` or post in `#design`
+- On Slack, tag the team with `@design-team` or post in #design
 - On GitHub, add the label `needs-design` [TODO: add a link to GitHub Design Board and labels)
 - In Google Docs or emails, use the group `design@sourcegraph.com`
 

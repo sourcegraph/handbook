@@ -10,6 +10,7 @@ Our mission is to provide technical foundations critical to the business, our cu
 - [Delivery](delivery/index.md)
 - [Dev Experience](dev-experience/index.md)
 - [Frontend Platform](frontend-platform/index.md)
+- [Engineering Education](engineering-education/index.md)
 
 ## Org Chart
 
@@ -18,28 +19,30 @@ The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-s
 - [Repo Management](repo-management/index.md)
   - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../roles.md#engineering-manager))
   - [Dan Mckean](../../company/team/index.md#dan-mckeen-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-  - [Alan Harris](../../company/team/index.md#alan-harris)
   - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
   - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
 - [Delivery](delivery/index.md)
-  - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../roles.md#engineering-manager))
+  - [Stephan Budge](../../company/team/index.md#stephan-budge-hehim) ([Engineering Manager](../roles.md#engineering-manager))
   - [Dan Mckean](../../company/team/index.md#dan-mckeen-he-him) (acting [Product Manager](../../product/roles/index.md#product-manager))
   - [Geoffrey Gilmore](../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../company/team/index.md#dave-try)
   - [Crystal Augustus](../../company/team/index.md#crystal-augustus)
 - [Dev Experience](dev-experience/index.md)
   - [Patrick Dubroy](../../company/team/index.md#patrick-dubroy-he-him) (acting [Engineering Manager](../roles.md#engineering-manager))
-  - T.S. staring 2021-10-11 (Technical Product Manager) ([Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) acting [Product Manager](../../product/roles/index.md#product-manager) until T.S. starts)
+  - [Taylor Sperry](../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
   - [JH Chabran](../../company/team/index.md#jh-chabran-he-him)
   - [Robert Lin](../../company/team/index.md#robert-lin)
 - [Frontend Platform](frontend-platform/index.md)
   - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-  - [Patrick Dubroy](../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../roles.md#engineering-manager) and acting PM until T.S. starts)
-  - T.S. staring 2021-10-11 (Technical Product Manager)
+  - [Patrick Dubroy](../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../roles.md#engineering-manager))
+  - [Taylor Sperry](../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
-  - [Felipe Janer](../../company/team/index.md#felipe-janer-he-him)
   - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
+- [Engineering Education](engineering-education/index.md)
+  - [Marek Zaluski](../../company/team/index.md#marek-zaluski)
+- Sourcegraph Handbook
+  - [Mary Belzer](../../company/team/index.md#mary-belzer-sheher) ([Product Manager](../../product/roles/index.md#product-manager))
 
 ## Principles and practices
 

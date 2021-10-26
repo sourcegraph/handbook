@@ -95,7 +95,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
   - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph-docker/releases) has the correct tag
 - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
   - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
-- [ ] Ask the product team (`#product`) to merge the blog post. Add the pull request to the release batch change:
+- [ ] Ask the product team (#product) to merge the blog post. Add the pull request to the release batch change:
   ```sh
   yarn release release:add-to-batch-change sourcegraph/about <pr-number>
   ```
