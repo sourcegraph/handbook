@@ -11,7 +11,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 - Update onboarding doc Week 2-4 with initial projects.
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
-  - Invite to GitHub teams, including [@sourcegraph/everyone](https://github.com/orgs/sourcegraph/teams/everyone)
+  - Invite to GitHub teams, including @sourcegraph/everyone
   - Figma
   - Productboard
   - Looker

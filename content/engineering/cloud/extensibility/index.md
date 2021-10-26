@@ -118,7 +118,7 @@ _The extensibility team has many ownership areas, but not all of them are under 
 ## Contact
 
 - #extensibility channel or @extensibility on Slack
-- [team/extensibility](https://github.com/sourcegraph/sourcegraph/labels/team%2Fextensibility) label and [@sourcegraph/extensibility](https://github.com/orgs/sourcegraph/teams/extensibility) team on GitHub.
+- [team/extensibility](https://github.com/sourcegraph/sourcegraph/labels/team%2Fextensibility) label and @sourcegraph/extensibility team on GitHub.
 
 ## Tech stack
 

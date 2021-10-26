@@ -44,7 +44,7 @@ Using and developing Sourcegraph is effortless.
 ## Contact
 
 - #frontend-platform channel or @frontendplatform in Slack.
-- [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and [@sourcegraph/frontend-platform](https://github.com/orgs/sourcegraph/teams/frontend-platform) team on GitHub.
+- [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and @sourcegraph/frontend-platform team on GitHub.
 
 ## Goals
 
