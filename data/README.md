@@ -9,5 +9,4 @@ The data for features is heirarchical, and flows in this order:
 There is also reference data used to know what the set of maturity levels and pricing tiers are:
 
 - [maturity_levels.yml](maturity_levels.yml)
-- [pricing_tiers.yml](pricing_tiers.yml)
 - [code_hosts.yml](code_hosts.yml)
