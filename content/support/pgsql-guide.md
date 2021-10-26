@@ -27,18 +27,24 @@ Running queries against this database should be used as a backup debugging optio
 
 ### Kubernetes:
 
-- kubectl exec -ti PGSQL_CONTAINER_NAME -- psql -U sg
+```
+kubectl exec -ti PGSQL_CONTAINER_NAME -- psql -U sg
+```
 
 ### Docker-Compose:
 
-- docker-compose exec -it pgsql psql -U sg
+```
+docker-compose exec -it pgsql psql -U sg
+```
 
 ### Single-Container:
 
-- docker ps -a
-- Identify the Sourcegraph container id
-- docker exec -it CONTAINER_ID bash
-- psql -U sg
+```
+docker ps -a
+  Identify the Sourcegraph container id
+docker exec -it CONTAINER_ID bash
+psql -U sg
+```
 
 ## Common Database Commands
 
