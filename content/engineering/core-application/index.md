@@ -16,7 +16,6 @@ The Core Application team has broad [area ownership](areas-of-ownership.md) with
 - TBD ([Product Designer](../../product/roles/index.md#product-designer))
 - [Jean Du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
   - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
-  - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
   - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
   - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
 

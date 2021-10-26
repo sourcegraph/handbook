@@ -20,4 +20,4 @@ Each team within our org implements a different _verb_ on the code graph:
 ## Contact
 
 - #code-graph channel in Slack
-- [@sourcegraph/code-graph](https://github.com/orgs/sourcegraph/teams/code-graph) handle on GitHub
+- @sourcegraph/code-graph handle on GitHub
