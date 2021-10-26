@@ -1,6 +1,5 @@
 literal_search:
   title: 'Literal Search'
-  description: ''
   product_area: search
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_search/reference/queries'
@@ -20,7 +19,6 @@ literal_search:
 
 regexp_search:
   title: 'Regular Expression Search'
-  description: ''
   product_area: search
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_search/reference/queries'
@@ -40,7 +38,6 @@ regexp_search:
 
 structural_search:
   title: 'Structural Search'
-  description: ''
   product_area: search
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_search/reference/queries'
@@ -60,7 +57,6 @@ structural_search:
 
 diff_commit_search:
   title: 'Diff/Commit Search'
-  description: ''
   product_area: search
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_search/reference/queries'
@@ -80,7 +76,6 @@ diff_commit_search:
 
 code_monitoring:
   title: 'Code Monitoring'
-  description: ''
   product_area: search
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_monitoring'
@@ -100,7 +95,6 @@ code_monitoring:
 
 code_monitoring_email_notifications:
   title: 'Code Monitoring E-mail Notifications'
-  description: ''
   product_area: search
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_monitoring'
@@ -120,7 +114,6 @@ code_monitoring_email_notifications:
 
 code_monitoring_webhooks:
   title: 'Code Monitoring Webhooks'
-  description: ''
   product_area: search
   maturity: not_implemented
   documentation_link: false
@@ -128,7 +121,6 @@ code_monitoring_webhooks:
 
 saved_searches:
   title: 'Saved Searches'
-  description: ''
   product_area: search
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_search/explanations/features#saved-searches'
@@ -148,7 +140,6 @@ saved_searches:
 
 search_contexts:
   title: 'Search Contexts'
-  description: ''
   product_area: search
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_search/explanations/features#search-contexts'
@@ -168,7 +159,6 @@ search_contexts:
 
 search_based_code_intelligence:
   title: 'Search-based Code Intelligence'
-  description: ''
   product_area: code_intelligence
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence'
@@ -188,7 +178,6 @@ search_based_code_intelligence:
 
 precise_code_intelligence_go:
   title: 'Precise Code Intelligence for Go'
-  description: ''
   product_area: code_intelligence
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
@@ -208,7 +197,6 @@ precise_code_intelligence_go:
 
 precise_code_intelligence_jsts:
   title: 'Precise Code Intelligence for JavaScript/TypeScript'
-  description: ''
   product_area: code_intelligence
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
@@ -228,7 +216,6 @@ precise_code_intelligence_jsts:
 
 precise_code_intelligence_java_scala:
   title: 'Precise Code Intelligence for Java & Scala'
-  description: ''
   product_area: code_intelligence
   maturity: not_implemented
   documentation_link: false
@@ -236,7 +223,6 @@ precise_code_intelligence_java_scala:
 
 precise_code_intelligence_c_cpp:
   title: 'Precise Code Intelligence for C/C++'
-  description: ''
   product_area: code_intelligence
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
@@ -256,7 +242,6 @@ precise_code_intelligence_c_cpp:
 
 precise_code_intelligence_python:
   title: 'Precise Code Intelligence for Python'
-  description: ''
   product_area: code_intelligence
   maturity: not_implemented
   documentation_link: false
@@ -264,7 +249,6 @@ precise_code_intelligence_python:
 
 precise_code_intelligence_csharp:
   title: 'Precise Code Intelligence for C#'
-  description: ''
   product_area: code_intelligence
   maturity: not_implemented
   documentation_link: false
@@ -272,7 +256,6 @@ precise_code_intelligence_csharp:
 
 precise_code_intelligence_ruby:
   title: 'Precise Code Intelligence for Ruby'
-  description: ''
   product_area: code_intelligence
   maturity: not_implemented
   documentation_link: false
@@ -280,7 +263,6 @@ precise_code_intelligence_ruby:
 
 batch_changes:
   title: 'Batch Changes'
-  description: ''
   product_area: batch_changes
   maturity: ga
   documentation_link: '???' #TODO add
@@ -300,7 +282,6 @@ batch_changes:
 
 code_insights:
   title: 'Code Insights'
-  description: ''
   product_area: code_insights
   maturity: beta
   documentation_link: '???' #TODO add
@@ -320,7 +301,6 @@ code_insights:
 
 soc_ii_type_ii:
   title: 'SOC II Type II'
-  description: ''
   product_area: security
   maturity: not_implemented
   documentation_link: '???' #TODO add
@@ -328,7 +308,6 @@ soc_ii_type_ii:
 
 repository_syncing:
   title: 'Repository Syncing'
-  description: ''
   product_area: repository_management
   maturity: ga
   documentation_link: '???' #TODO add
@@ -348,7 +327,6 @@ repository_syncing:
 
 repository_permissions:
   title: 'Repository Permissions'
-  description: ''
   product_area: repository_management
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/admin/repo/permissions'
@@ -368,7 +346,6 @@ repository_permissions:
 
 user_authentication:
   title: 'User Authentication'
-  description: ''
   product_area: repository_management
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/admin/config/authorization_and_authentication'
@@ -388,7 +365,6 @@ user_authentication:
 
 browser_extension:
   title: 'Browser Extension'
-  description: ''
   product_area: repository_management
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/integration/browser_extension'
@@ -408,7 +384,6 @@ browser_extension:
 
 native_integration:
   title: 'Native Integration'
-  description: ''
   product_area: repository_management
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/integration'
@@ -428,7 +403,6 @@ native_integration:
 
 single_container_deployment:
   title: 'Single Container Deployment'
-  description: ''
   product_area: deployment
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/admin/install/docker'
@@ -448,7 +422,6 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: 'Docker Compose Deployment'
-  description: ''
   product_area: deployment
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/admin/install/docker-compose'
@@ -468,7 +441,6 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: 'Kubernetes Deployment'
-  description: ''
   product_area: deployment
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started'
@@ -488,7 +460,6 @@ kubernetes_deployment:
 
 prebuilt_extensions:
   title: 'Pre-built Extensions'
-  description: ''
   product_area: extensions
   maturity: ga
   documentation_link: '???' #TODO add
@@ -508,7 +479,6 @@ prebuilt_extensions:
 
 custom_extensions:
   title: 'Custom Extensions'
-  description: ''
   product_area: extensions
   maturity: ga
   documentation_link: '???' #TODO add
