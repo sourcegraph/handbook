@@ -1,6 +1,6 @@
 # Pricing features
 
-This is a guide for product managers on how to think about pricing and tiering your features.
+This is a guide for product managers on how to think about pricing and tiering your features. [Deprecation of features](deprecation_process.md) is a separate topic with its own page.
 
 ## Strategy
 
