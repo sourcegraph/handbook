@@ -58,10 +58,11 @@ Only use _we_ and _our_ (as in “our GitHub integration”) in informal documen
 ## Writing about our customers
 
 We use the following terms to delineate different customer segments:
-* Enterprise: the segment of companies with 500+ developers
-* Commercial: the segment of companies between 50 and 500 developers
-* Midmarket: synonymous with "Commercial"; prefer to use "Commercial
-* SMB: the segment of the market between 2 and 50 developers
+
+- Enterprise: the segment of companies with 500+ developers
+- Commercial: the segment of companies between 50 and 500 developers
+- Midmarket: synonymous with "Commercial"; prefer to use "Commercial
+- SMB: the segment of the market between 2 and 50 developers
 
 ## Term usage
 
