@@ -12,7 +12,7 @@ This section encompasses how marketing qualified leads inbound as well as how we
 
 ### Lead Creation
 
-Marketing qualified leads inbound in the following ways:
+Marketing leads inbound in the following ways:
 
 #### Contact Us Forms:
 
@@ -39,7 +39,7 @@ Marketing qualified leads inbound in the following ways:
 
 ### Lead Qualification by Intent Score
 
-The activities above automatically generate a marketing qualified lead. However, we also have a scoring model that takes into account prospects who interact with landing pages and other marketing content. If a prospect interacts with Sourcegraph in multiple places, you may also see them score enough to trip the marketing qualified/intent threshold and be passed to the inbound SDR team.
+The activities above automatically generate leads. However, we also have a scoring model that takes into account prospects who interact with landing pages and other marketing content. If a prospect interacts with Sourcegraph in multiple places, you may also see them score enough to trip the marketing qualified/intent threshold and be passed to the inbound SDR team. We also apply scoring when actions are taken within the product. When someone trips a threshold for product actions they are considered a product qualified lead.
 You can see the specifics of our intent and product lead scoring in our working [lead scoring model here](https://docs.google.com/spreadsheets/d/1mAa2bueT8BrVjd5H5PQjKb7QMVFYObHYwg18ox02vsk/edit#gid=0) .
 
 ### Lead Lifecycle
@@ -79,6 +79,18 @@ As we continue to grow, users will also be added to our Hubspot instance. In ord
 
 If you are interested in getting an email sent through Hubspot to existing opt-in email addresses, please be sure to fill out our [Hubspot Email Send Request Form](https://form.asana.com?k=_YtJFC_Eo-NG8iOSEdNgVA&d=7195383522959). Once we receive your request, we will assess our email send schedule to see if we can accommodate your request and provide options and recommendations if it is a request that cannot be accommodated.
 
+### Hubspot Integrations
+
+- Salesforce: This is how we pass lead and marketing data over to the sales organization.
+
+- Postal.io: This account-based marketing tool is how we send gifts and mailings out to prospects. The integration with Hubspot allows us to automate email messaging workflows before or after gifts are sent or received. Today, we are not running any automated email messaging via this integration.
+
+- Triblio: This account-based marketing tool is how we target specific accounts for digital advertising. The integration with Hubspot allows us to create target lists within Hubspot and share them with Triblio.
+
+- Typeform: This marketing tool is how we create forms, surveys, and quizzes for our prospects. The integration with Hubspot allows us to send prospect answers and data into fields in Hubspot. Setting up this data flow lets us capture important information about our prospects, increase their intent scores based on responses, and surface important prospect responses to Sales when appropriate. As long as your Typeform asks for a person's email address, we can send responses to Hubspot. Reach out to us if you are interested in integrating forms, surveys, or quizzes with Hubspot.
+
+- Orbit: This marketing tool is how we understand our community's interactions with Sourcegraph. The integration with Hubspot allows us to create user activities in Orbit when community members take specific actions. Today, anytime someone submits their information on our [Dev Tool Time page](https://info.sourcegraph.com/dev-tool-time), an activity is created for that person in Orbit.
+
 ### Hubspot Technical Resources
 
 Hubspot is a fluid system, where we are always making updates to continue to improve our processes. Here are a few places you can go to review technical updates the marketing operations team is making within the system:
@@ -95,20 +107,19 @@ First Touchpoint is a custom marketing field we have created in Hubspot.. This f
 
 \*Of note, these are directional reports. Any organization-wide reports are done by BizOps and Finance.
 
-The following tools are used currently for Marketing Analytics:
+We are actively working on creating reports in the following tools. As soon as these are live, we'll be providing links to the reports.
 
-- [Marketing Dashboard in Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z3t000001BU2XEAW/view?queryScope=userFolders)
+- Salesforce
 - Google Analytics
 - Looker
-  We are in the process of improving this practice with the future hire of a Marketing Analyst.
 
 ## Digital Ad Conversion Flows
 
 We run advertisements on several platforms, including Google, Bing, and LinkedIn. We measure the effectiveness of our digital advertisements by tracking the number of key actions taken by users that land on our site from ads. These key actions are called conversion goals. Goals include actions like filling out a form, signing up for an account, or conducting a search on Sourcegraph.com.
 
-This document describes how we set up and measure conversion goals for digital advertising campaigns for each major platform. At a high level, we set up Tags in Google Tag Manager that fire events when certain actions are conducted on our site. These events are then sent to the respective ad platform, where we define goals by matching on these events.
+At a high level, we set up Tags in Google Tag Manager that fire events when certain actions are conducted on our site. These events are then sent to the respective ad platform, where we define goals by matching on these events.
 
-There is some assumed knowledge here about Google Tag Manager (GTM) concepts: Tags and Triggers. Please read the GTM documentation to learn more.
+There is some assumed knowledge here about Google Tag Manager (GTM) concepts: Tags and Triggers.
 
 ### Google Ads
 
