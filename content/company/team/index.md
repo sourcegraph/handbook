@@ -1603,3 +1603,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [erinlaio](https://github.com/erinlaio)
 - [erin.laio@sourcegraph.com](mailto:erin.laio@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/erin-laio/)
 - Erin lives in Andover, Massachusetts just north of Boston with her husband, 2 sons and her cheagle (made up breed) Penny. During quarentine she decided to make it a goal to craft the perfect vodka martini which took a lot less time than expected. Turns out finding the right ratio between two ingredients isn't that challenging but she's been enjoying the fruits of her labor ever since. Prior to Sourcegraph she worked at HubSpot for 5+ years as an Executive Assistant. Outside of work she loves to bake anything gluten free and start new craft projects she never finishes (currently working on a needlepoint, resin coasters and jewelry).
+
+## Jeff Warner (he/him)
+
+- Engineering Manager for Search Core
+- GitHub: [jjeffwarner](https://github.com/jjeffwarner)
+- [jeff.warner@sourcegraph.com](mailto:jeff.warner@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/jjeffwarner)
+- Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
+- 
