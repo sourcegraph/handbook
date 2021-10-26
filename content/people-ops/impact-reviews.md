@@ -132,7 +132,6 @@ You can also use [the Informal Impact reviews template](https://docs.google.com/
 
 _Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence. Our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by this point. _
 
-
 ## How to use Lattice
 
 Log into Lattice using your Sourcegraph Google authenticator. You will be prompted to write different types of reviews through qualitative and quantitative questions on your dashboard.
