@@ -2,7 +2,7 @@
 
 import fs from 'fs/promises'
 
-import getMovedPagesFromHistory from './getMovedPagesFromHistory.js'
+import { getMovedPagesFromHistory } from './getMovedPagesFromHistory.mjs'
 
 const movedPages = await getMovedPagesFromHistory()
 

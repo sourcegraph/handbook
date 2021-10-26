@@ -2,15 +2,15 @@
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/badgerhat.svg" width="300" height="300" align=right alt="Batchers Logo: badger in a silly hat">
 
-## Direction
+## Strategy
 
-- Vision, mission and strategy: [Batch Changes direction](../../../direction/code-graph/batch-changes/index.md)
+- Vision, mission and strategy: [Batch Changes strategy](../../../company/strategy/code-graph/batch-changes/index.md)
 - [Key metrics](metrics.md)
 
 ## Contact
 
 - #batch-changes channel or @batchers on Slack.
-- [@sourcegraph/batchers](https://github.com/orgs/sourcegraph/teams/batchers) team or [team/batchers label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fbatchers) on GitHub.
+- @sourcegraph/batchers team or [team/batchers label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fbatchers) on GitHub.
 
 ## Process
 

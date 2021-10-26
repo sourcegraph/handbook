@@ -92,13 +92,15 @@ When you choose these 2-3 reviewers, you should consider:
 
 _Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
 
-Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates.
+Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates. If you would like to add more reviewers than our current cap of 3, please reach out to the #impact-reviews Slack channel and our Lattice Admins can override this limit.
 
 As a best practice, all teammates are encouraged to share their reviewer’s names with their managers beforehand to align on their choices and rationale for choosing them.
 
 **Managers**: People managers will only need to select 1-2 peer reviewers for this upcoming cycle. The bulk of your time should be spent giving feedback to your direct report(s) and actively thinking through ways to help them grow.
 
 Each review should take an average of 30-45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
+
+_As a note_: For any managers who have inherited a new direct report and are not listed as their current manager, please reach out to Cassie Melani on Slack or reach out on our #impact-reviews Slack channel.
 
 ### Submitting feedback as a manager
 
@@ -114,8 +116,6 @@ As we move into a new cadence of 360 Impact review cycles, you may find that the
 
 In the event that you’d like to conduct an informal Impact review, [use this resource to learn about holding an informal cycle for yourself](https://docs.google.com/document/d/1YrsjivLAKZ4SQKvXNM0riZn7aiyJTupb0ce6UFRvIog/edit) and [use this resource as a template to document your reviews](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit).
 
-_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself._
-
 There are three components to feedback: giving it to others, receiving it yourself, and seeking it out. Keep in mind that feedback is a muscle, and works best when you regularly strengthen it by giving and receiving it often. The concept you will be using in this informal review process is around “seeking feedback” which will help you inform your own working style, positive trends, and areas for improvement.
 
 We recommend that you as the reviewee set time with your manager to discuss feedback between both parties. If you would like to conduct reviews with stakeholders (either in the event that you are seeking promotion, would like additional information on how you show up in your peer relationships, or are simply curious), it is recommended that you book time with at least 2-3 peers as 30-45 minute calendar invites.
@@ -129,6 +129,8 @@ In all instances, we recommend documenting these items in [this Informal Impact 
 After you have documented your informal Impact review, this process will be complete. After you complete your informal review, a best practice is to share with any reviewers that you’d like to keep the door open for feedback and empower them to share feedback in the moment and often. The point of each review cycle is not to open the floodgates for feedback that you haven’t received yet, but more importantly to synthesize trends that you’ve already had conversations about and are aware of.
 
 You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
+
+_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence. Our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by this point. _
 
 ## How to use Lattice
 
@@ -162,7 +164,7 @@ For more information on how to use SBI and giving great feedback, [check out thi
 - What are you most proud of in the past six months?
 - In the past six months, how have you made an impact and contributed to your team’s success? Give specific examples.
 - In the past six months, what company value have you embodied the most? Give specific examples.
-- Over the next 6 months, what is something that can I do 10% better?
+- Over the next 6 months, what is something that you can do 10% better?
 - In the next six months, what company value do you want to embody more? How do you plan on working towards embodying it more?
 - What would you like to learn more about in the next 6 months to help you further succeed in your role? Describe what you’d like to learn.
 
@@ -207,4 +209,4 @@ For more information on how to use SBI and giving great feedback, [check out thi
 
 ## Questions?
 
-For any questions relating to our updated performance review cadence or Lattice, please Slack #impactreviews or reach out directly to Cassie Melani.
+For any questions relating to our updated performance review cadence or Lattice, please Slack #impact-reviews or reach out directly to Cassie Melani.

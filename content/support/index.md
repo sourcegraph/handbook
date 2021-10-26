@@ -71,6 +71,8 @@ As I complete my first 90 days (if not sooner), I know I am successful in my day
 6. I rarely have more than 5 active cases at a time
 7. I work toward team self-sufficiency by always asking my teammates for input/help before engaging engineering and by ensuring what I learn along the way is reflected in our docs or the handbook (whichever is most relevant)
 
+You can see how you are performing toward some of these metrics by determining your Zendesk assignee ID ([instructions](https://support.zendesk.com/hc/en-us/articles/360044278093-How-can-I-locate-an-agent-ID-in-Support-) and filtering [our Looker dashboard](https://sourcegraph.looker.com/dashboards-next/177) on your ID.
+
 If ever you feel like success isn’t possible as outlined above, talk to your manager. Their job is to help figure out a path forward so you can feel like your favorite self whilst working (and hopefully whilst enjoying all other aspects of life, too!).
 
 In addition, we also use several additional key performance indicators (KPIs) to help us uncover any team health issues as quickly as possible and look at any interesting trends that could result in product, practice, and/or staffing improvements. For example:
@@ -132,20 +134,23 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Manager onboarding](customer-support-manager-onboarding.md)
 - [Team README](support-bios.md)
 - [Team schedule](support-schedule.md)
+- [Organizational structure](support-org-structure.md)
 - [Team rituals](support-team-rituals.md)
 - [Workflow](support-workflow.md)
 - [Prioritization](support-prioritization.md)
 - [Customer exceptions](customer-exceptions.md)
 - [Engaging other teams](engaging-other-teams.md)
-- [P0 incident response](p0-Incident-Response.md)
+- [Serving as messenger during incidents](../engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
 - [Enablement](support-enablement.md)
 - [Tools](support-tools.md)
 - [Assigned CSEs](assigned-cse.md)
+- [Process: Permanently deleting user data](permanently_deleting_user_data.md)
+- [Business continuity](business-continuity-plan.md)
 
 ## SLAs
 
-Our default contractual service level agreeements (SLAs) are described below. Additionally, we have the following internal SLAs:
+Our default contractual service level agreeements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
 
 - We aim to respond to all customers on all issues within 1 hour between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
 - We aim to resolve all issues within an average of no more than one week.

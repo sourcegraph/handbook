@@ -25,7 +25,7 @@ We believe that in this increasingly technical world, code should be transparent
 
 <span style="font-size: larger">To make it so <strong class="text-vivid-violet">everyone can code</strong>, we will create tools, networks, and incentives for coding at <strong class="text-vivid-violet">ever-larger scale</strong>.</span>
 
-Read more about [our mission in the handbook](../../../company/strategy.md).
+Read more about [our mission in the handbook](../../../company/strategy/index.md#mission).
 
 ### Values
 

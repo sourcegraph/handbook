@@ -101,7 +101,7 @@ For Salesforce, complete the opportunity with the following steps: 1) go to the 
 
 ### NDAs (for customers, vendors, partners)
 
-- [Sourcegraph Form - Standard Terms](https://drive.google.com/file/d/1M6UA8ro-qsdrj9fiB7wkJlD2jpy8epDI/view) (no redlines)
+- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (no redlines)
   - Review: None
   - Approve: None
   - Sign: Director of Legal, VP, or Director
@@ -149,18 +149,18 @@ Templates:
 - Sourcegraph Form - Standard Terms (no redlines)
 
   - Review: None
-  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and contracts requiring Finance approval per [Paying Bills](../finance/payables.md)
   - Sign: VP Budget Owner
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
   - Review: (a) Finance for changes to fees, termination, or tax terms and (b) Legal for any other changes
-  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../finance/payables.md)
   - Sign: VP Budget Owner
 
 - Vendor Form (including online click-through agreements)
   - Review: (a) Legal and (b) Finance for payment terms such as fees, termination, and tax terms
-  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](https://about.sourcegraph.com/handbook/ops/finance/payables)
+  - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../finance/payables.md)
   - Sign: VP Budget Owner
 
 Templates:

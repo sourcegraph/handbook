@@ -63,12 +63,17 @@
         padding-left: 1.5rem;
     }
 
-    > ul {
+    > li > ul {
         padding-left: 0;
+
+        ul:not(.active) {
+            display: none;
+        }
     }
 
-    > li:first-child {
+    li.active > a {
         font-weight: 600;
+        color: var(--gray-08);
     }
 }
 
@@ -126,4 +131,9 @@
 #content > .breadcrumbs > .active {
     color: inherit;
     opacity: 0.8;
+}
+
+/* Ensure no content goes outside of wrapper within markdown body */
+.markdown-body .headingWrapper {
+    overflow-x: auto;
 }

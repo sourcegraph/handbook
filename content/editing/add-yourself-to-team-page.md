@@ -5,7 +5,7 @@
 ### Steps:
 
 1. Accept GitHub's email invite to the Sourcegraph org (you should be a member of [the `Everyone` group](https://github.com/orgs/sourcegraph/teams/everyone) in Sourcegraph's GitHub organization).
-1. Go to the bottom right of this page and click "Edit this page."
+1. Go to the bottom right of [the team page](../company/team/index.md) and click "Edit this page."
 1. In the edit view, copy the following template, paste it at the end of the edit view, and make it about yourself! Look at others' bios for examples.
 1. Under "Commit changes" at the bottom of the page, replace the "Update index.md" text with a summary of your change, e.g., Add Alex to team page.
 1. Click the green "Commit changes" button. If you do not see the green "Commit Changes" button, refer to step 1. Successful changes will become visible shortly (but not immediately).
