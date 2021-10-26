@@ -1,123 +1,130 @@
-import { load } from 'js-yaml';
-import { readFileSync, writeFile } from 'fs';
-import { exit } from 'process';
+/* eslint-disable @typescript-eslint/restrict-template-expressions */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
-function yaml_load(file) {
-    try {
-        return load(readFileSync(file, 'utf8'));
-    } catch (e) {
-        console.log(e);
-        exit(-1);
-    }
+import { readFile, writeFile } from 'fs/promises'
+
+import { load } from 'js-yaml'
+
+/**
+ * @param {string} file
+ * @returns {Promise<any>}
+ */
+async function readYamlFile(file) {
+    return load(await readFile(file, 'utf8'))
 }
 
-function make_product_link_relative(link) {
-    if (link.substring(0, 4) == "http") {
+/**
+ * @param {string} link
+ * @returns {string}
+ */
+function createRelativeProductLink(link) {
+    if (link.startsWith('http')) {
         return link
-    } else {
-        return ".." + link
     }
+    return `..${link}`
 }
 
-function generate_maturity_page(features, maturity_levels, product_areas, product_orgs) {
-    const tiers_file = 'content/product/feature_maturity.md';
-    var page_content = "# Product Features by Maturity\n";
-    page_content += "This page is intended as a reference of features by maturity level; each item will link you to our documentation,\n"
-    page_content += "and you can also see what level of maturity each feature is currently at.\n"
-    page_content += "You may also be interested in seeing our [feature compatibility](feature_compatibility.md) matrix.\n"
+async function generateMaturityPage(features, maturityLevels, productAreas, productOrgs) {
+    const tiersFilePath = 'content/product/feature_maturity.md'
+    let pageContent = '# Product Features by Maturity\n'
+    pageContent +=
+        'This page is intended as a reference of features by maturity level; each item will link you to our documentation,\n'
+    pageContent += 'and you can also see what level of maturity each feature is currently at.\n'
+    pageContent +=
+        'You may also be interested in seeing our [feature compatibility](feature_compatibility.md) matrix.\n'
 
-    page_content += "\n## Maturity Definitions\n"
-    page_content += "\nSee feature documentation for specifics on any limitations/plans for removal.\n"
-    Object.keys(maturity_levels).forEach((maturity_level) => {
-        page_content += "- " + maturity_levels[maturity_level].title + ": " + maturity_levels[maturity_level].definition + "\n"
-    });
+    pageContent += '\n## Maturity Definitions\n'
+    pageContent += '\nSee feature documentation for specifics on any limitations/plans for removal.\n'
+    for (const maturityLevel of Object.values(maturityLevels)) {
+        pageContent += `- ${maturityLevel.title}: ${maturityLevel.definition}\n`
+    }
 
-    Object.keys(product_areas).forEach((product_area) => {
-        page_content += "\n## " + product_areas[product_area].title + "\n"
-        page_content += " ([" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_product_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
-        page_content += "[" + product_areas[product_area].title + " Strategy](" + make_product_link_relative(product_areas[product_area].strategy_link) + "))\n"
+    for (const [productAreaName, productArea] of Object.entries(productAreas)) {
+        pageContent += `\n## ${productArea.title}\n`
+        const strategyUrl = createRelativeProductLink(productOrgs[productArea.product_org].strategy_link)
+        pageContent += ` ([${productOrgs[productArea.product_org].title} Strategy](${strategyUrl}) | `
+        pageContent += `[${productArea.title} Strategy](${createRelativeProductLink(productArea.strategy_link)}))\n`
 
-        page_content += "\n|Feature|Maturity|\n"
-        page_content += "|-------|--------|\n"
+        pageContent += '\n|Feature|Maturity|\n'
+        pageContent += '|-------|--------|\n'
 
-        Object.keys(features).forEach((feature) => {
-            if (features[feature].product_area == product_area) {
-                if (features[feature].documentation_link) {
-                    page_content += "|[" + features[feature].title + "](" + make_product_link_relative(features[feature].documentation_link) + ")"
+        for (const feature of Object.values(features)) {
+            if (feature.product_area === productAreaName) {
+                if (feature.documentation_link) {
+                    const url = createRelativeProductLink(feature.documentation_link)
+                    pageContent += `|[${feature.title}](${url})`
                 } else {
-                    page_content += "|" + features[feature].title
+                    pageContent += `|${feature.title}`
                 }
-                page_content += "|" + maturity_levels[features[feature].maturity].title + "|\n"
-            };
-        });
-    });
+                pageContent += `|${maturityLevels[feature.maturity].title}|\n`
+            }
+        }
+    }
 
-    writeFile(tiers_file, page_content, function (err) {
-        if (err) throw err;
-        console.log('Created ' + tiers_file);
-    });
+    await writeFile(tiersFilePath, pageContent)
+    console.log('Created ' + tiersFilePath)
 }
 
-function generate_compatibility_page(features, product_areas, product_orgs, code_hosts) {
-    const tiers_file = 'content/product/feature_compatibility.md';
-    var page_content = "# Product Feature Compatibility\n";
-    page_content += "This page is intended as a reference of features by code host compatibility; each item will link you to our documentation.\n"
-    page_content += "You may also be interested in seeing our [feature maturity](feature_maturity.md) matrix.\n"
+async function generateCompatibilityPage(features, productAreas, productOrgs, codeHosts) {
+    const tiersFile = 'content/product/feature_compatibility.md'
+    let pageContent = '# Product Feature Compatibility\n'
+    pageContent +=
+        'This page is intended as a reference of features by code host compatibility; each item will link you to our documentation.\n'
+    pageContent += 'You may also be interested in seeing our [feature maturity](feature_maturity.md) matrix.\n'
 
-    page_content += "\n## Code Hosts\n"
-    page_content += "\nSourcegraph tracks compatibility with a number of external code hosts:\n"
-    Object.keys(code_hosts).forEach((code_host) => {
-        page_content += "- [" + code_hosts[code_host].title + "](" + code_hosts[code_host].info_link + ")\n"
-    });
+    pageContent += '\n## Code Hosts\n'
+    pageContent += '\nSourcegraph tracks compatibility with a number of external code hosts:\n'
+    for (const codeHost of Object.values(codeHosts)) {
+        pageContent += `- [${codeHost.title}](${codeHost.info_link})\n`
+    }
 
-    Object.keys(product_areas).forEach((product_area) => {
-        page_content += "\n## " + product_areas[product_area].title + "\n"
-        page_content += " ([" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_product_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
-        page_content += "[" + product_areas[product_area].title + " Strategy](" + make_product_link_relative(product_areas[product_area].strategy_link) + "))\n"
+    for (const [productAreaName, productArea] of Object.entries(productAreas)) {
+        pageContent += `\n## ${productArea.title}\n`
+        const productOrg = productOrgs[productArea.product_org]
+        const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
+        pageContent += ` ([${productOrgs[productArea.product_org].title} Strategy](${strategyUrl}) | `
+        pageContent += `[${productArea.title} Strategy](${createRelativeProductLink(productArea.strategy_link)}))\n`
 
-        page_content += "\n|Feature|"
-        Object.keys(code_hosts).forEach((code_host) => {
-            page_content += code_hosts[code_host].title + " |"
-        });
-        page_content += "\n|-------|"
-        Object.keys(code_hosts).forEach((code_host) => {
-            page_content += "-|"
-        });
-        page_content += "\n"
+        pageContent += '\n|Feature|'
+        for (const codeHost of Object.values(codeHosts)) {
+            pageContent += `${codeHost.title} |`
+        }
+        pageContent += '\n|-------|'
+        for (const codeHost of Object.values(codeHosts)) {
+            pageContent += '-|'
+        }
+        pageContent += '\n'
 
-        Object.keys(features).forEach((feature) => {
-            if (features[feature].product_area == product_area) {
-                if (features[feature].documentation_link) {
-                    page_content += "|[" + features[feature].title + "](" + make_product_link_relative(features[feature].documentation_link) + ")"
+        for (const feature of Object.values(features)) {
+            if (feature.product_area === productAreaName) {
+                if (feature.documentation_link) {
+                    pageContent += `|[${feature.title}](${createRelativeProductLink(feature.documentation_link)})`
                 } else {
-                    page_content += "|" + features[feature].title
+                    pageContent += `|${feature.title}`
                 }
-                page_content += "|"
-                Object.keys(code_hosts).forEach((code_host) => {
-                    if (features[feature].compatibility[code_host]) {
-                        page_content += "✔️|"
+                pageContent += '|'
+                for (const codeHostName of Object.keys(codeHosts)) {
+                    if (feature.compatibility[codeHostName]) {
+                        pageContent += '✔️|'
                     } else {
-                        page_content += " |"
+                        pageContent += ' |'
                     }
-                });
-                page_content += "\n"
-            };
-        });
-    });
+                }
+                pageContent += '\n'
+            }
+        }
+    }
 
-    writeFile(tiers_file, page_content, function (err) {
-        if (err) throw err;
-        console.log('Created ' + tiers_file);
-    });
+    await writeFile(tiersFile, pageContent)
+    console.log('Created ' + tiersFile)
 }
 
 // Load YAML files
-const features = yaml_load('data/features.yml');
-const maturity_levels = yaml_load('data/maturity_levels.yml');
-const product_areas = yaml_load('data/product_areas.yml');
-const product_orgs = yaml_load('data/product_orgs.yml');
-const code_hosts = yaml_load('data/code_hosts.yml');
+const features = await readYamlFile('data/features.yml')
+const maturityLevels = await readYamlFile('data/maturity_levels.yml')
+const productAreas = await readYamlFile('data/product_areas.yml')
+const productOrgs = await readYamlFile('data/product_orgs.yml')
+const codeHosts = await readYamlFile('data/code_hosts.yml')
 
-generate_maturity_page(features, maturity_levels, product_areas, product_orgs);
-generate_compatibility_page(features, product_areas, product_orgs, code_hosts)
-
+await generateMaturityPage(features, maturityLevels, productAreas, productOrgs)
+await generateCompatibilityPage(features, productAreas, productOrgs, codeHosts)

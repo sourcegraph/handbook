@@ -88,6 +88,7 @@ for (const filePath of filePaths) {
                 }
             } catch (error) {
                 if (error.code !== 'ENOENT') {
+                    // eslint-disable-next-line etc/throw-error, rxjs/throw-error
                     throw error
                 }
                 // If there was no directory with that name, it should point to a .md file
