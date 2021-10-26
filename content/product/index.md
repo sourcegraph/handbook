@@ -53,7 +53,7 @@ Customer Engineering is looking to better undrestand the known boundaries of our
 
 - Owner: Christina
 - [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [Pull Request](https://github.com/sourcegraph/about/pull/4617)
+- [Pull Request](https://github.com/sourcegraph/handbook/pull/455)
 
 ### Other initiatives
 

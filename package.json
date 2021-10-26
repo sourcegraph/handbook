@@ -98,6 +98,7 @@
     "relateurl": "^0.2.7",
     "remark-extract-toc": "^1.1.0",
     "remark-gfm": "^3.0.0",
+    "remark-github": "^11.2.0",
     "remark-parse": "^10.0.0",
     "remark-rehype": "^10.0.0",
     "retext": "^8.1.0",

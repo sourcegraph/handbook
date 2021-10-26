@@ -18,16 +18,18 @@ Some specific guidelines for writing headings and subheadings:
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Get started with code search</li>
-</ul>
+
+##### Yes
+
+- Get started with code search
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Get Started with Code Search.</li>
-</ul>
+
+##### No
+
+- Get Started with Code Search.
+
 </div>
 </div>
 
@@ -37,16 +39,18 @@ For labels and microcopy, prioritize short and actionable content by removing ar
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Install now</li>
-</ul>
+
+##### Yes
+
+- Install now
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Install this extension</li>
-</ul>
+
+##### No
+
+- Install this extension
+
 </div>
 </div>
 
@@ -62,16 +66,18 @@ Start sentences with strong verbs that help users understand what they will do. 
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Add repositories from your code host.</li>
-</ul>
+
+##### Yes
+
+- Add repositories from your code host.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Repositories from your code host will appear here after you add them.</li>
-</ul>
+
+##### No
+
+- Repositories from your code host will appear here after you add them.
+
 </div>
 </div>
 
@@ -81,16 +87,18 @@ Look for combinations of verbs and nouns that can be replaced by a single verb.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li><strong>Search</strong> for your repo to get started.</li>
-</ul>
+
+##### Yes
+
+- **Search** for your repo to get started.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li><strong>Make a search</strong> for your repo to get started.</li>
-</ul>
+
+##### No
+
+- **Make a search** for your repo to get started.
+
 </div>
 </div>
 
@@ -100,16 +108,18 @@ Give users confidence about what they should do.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Add your repos from your code host and start searching code.</li>
-</ul>
+
+##### Yes
+
+- Add your repos from your code host and start searching code.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Add your repos from your code host and you can start searching code.</li>
-</ul>
+
+##### No
+
+- Add your repos from your code host and you can start searching code.
+
 </div>
 </div>
 
@@ -121,16 +131,18 @@ Always write button labels in sentence case.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Create new batch change</li>
-</ul>
+
+##### Yes
+
+- Create new batch change
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Create New Batch Change</li>
-</ul>
+
+##### No
+
+- Create New Batch Change
+
 </div>
 </div>
 
@@ -140,18 +152,20 @@ When buttons enable user actions, the formula is `verb` + `noun`.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Add repo</li>
-<li>Explore extensions</li>
-</ul>
+
+##### Yes
+
+- Add repo
+- Explore extensions
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Add</li>
-<li>Explore</li>
-</ul>
+
+##### No
+
+- Add
+- Explore
+
 </div>
 </div>
 
@@ -161,16 +175,18 @@ When buttons are used as calls to action in confirmations, the formula `verb` + 
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Discard changes? <strong>Cancel / Discard</strong></li>
-</ul>
+
+##### Yes
+
+- Discard changes? **Cancel / Discard**
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Discard changes? <strong>No / Yes</strong></li>
-</ul>
+
+##### No
+
+- Discard changes? **No / Yes**
+
 </div>
 </div>
 
@@ -184,16 +200,18 @@ The length of a button label when the button’s purpose is conversion isn’t u
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Start searching code now</li>
-</ul>
+
+##### Yes
+
+- Start searching code now
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Try now</li>
-</ul>
+
+##### No
+
+- Try now
+
 </div>
 </div>
 
@@ -207,16 +225,15 @@ Buttons can also be an opportunity to use microcopy to create a more positive ex
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>I tried, I’m stuck, I need help</li>
-</ul>
+
+##### Yes
+
+- I tried, I’m stuck, I need help
 
 Instead of <sup>\*</sup>
 
-<ul>
-<li>Get help</li>
-</ul>
+- Get help
+
 </div>
 </div>
 
@@ -232,18 +249,20 @@ Links should provide information about what to expect about the associated actio
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>See <a href="#_" aria-disabled="true">how to add repositories</a>.</li>
-</ul>
+
+##### Yes
+
+- See <a href="#_" aria-disabled="true">how to add repositories</a>.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Want to add repositories? <a href="#_" aria-disabled="true">Click here</a>.</li>
-<li>See <a href="#_" aria-disabled="true">this page</a> for how to add repositories.</li>
-<li>See <a href="#_" aria-disabled="true">documentation</a> for how to add repositories.</li>
-</ul>
+
+##### No
+
+- Want to add repositories? <a href="#_" aria-disabled="true">Click here</a>.
+- See <a href="#_" aria-disabled="true">this page</a> for how to add repositories.
+- See <a href="#_" aria-disabled="true">documentation</a> for how to add repositories.
+
 </div>
 </div>
 
@@ -253,16 +272,18 @@ Links in full sentences shouldn’t link the whole sentence, but instead only th
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Learn how to <a href="#_" aria-disabled="true">create your first batch change</a>.</li>
-</ul>
+
+##### Yes
+
+- Learn how to <a href="#_" aria-disabled="true">create your first batch change</a>.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li><a href="#_" aria-disabled="true">Learn how to create your first batch change</a>.</li>
-</ul>
+
+##### No
+
+- <a href="#_" aria-disabled="true">Learn how to create your first batch change</a>.
+
 </div>
 </div>
 
@@ -272,17 +293,19 @@ Links that aren’t in full sentences should be treated similarly to buttons, an
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li><a href="#_" aria-disabled="true">View all search options</a></li>
-<li><a href="#_" aria-disabled="true">Forgot password?</a></li>
-</ul>
+
+##### Yes
+
+- <a href="#_" aria-disabled="true">View all search options</a>
+- <a href="#_" aria-disabled="true">Forgot password?</a>
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li><a href="#_" aria-disabled="true">View all search options.</a>.</li>
-</ul>
+
+##### No
+
+- <a href="#_" aria-disabled="true">View all search options.</a>.
+
 </div>
 </div>
 
@@ -302,16 +325,18 @@ Keep it conversational. Adjusting the tone of voice to be more formal rather tha
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Password must contain at least 12 characters</li>
-</ul>
+
+##### Yes
+
+- Password must contain at least 12 characters
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Password format is invalid (minimum 12 characters)</li>
-</ul>
+
+##### No
+
+- Password format is invalid (minimum 12 characters)
+
 </div>
 </div>
 
@@ -321,16 +346,18 @@ Again, keep it conversational. We’d never say “error!” in conversation if 
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Sorry, we couldn’t save your changes. Try again?</li>
-</ul>
+
+##### Yes
+
+- Sorry, we couldn’t save your changes. Try again?
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Failed to save changes.</li>
-</ul>
+
+##### No
+
+- Failed to save changes.
+
 </div>
 </div>
 
@@ -354,16 +381,18 @@ Confirmation message **titles** should:
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Discard unsaved changes?</li>
-</ul>
+
+##### Yes
+
+- Discard unsaved changes?
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Discard?</li>
-</ul>
+
+##### No
+
+- Discard?
+
 </div>
 </div>
 
@@ -375,16 +404,18 @@ Confirmation message **body content** should:
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>This can’t be undone</li>
-</ul>
+
+##### Yes
+
+- This can’t be undone
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>If you discard changes, your list will remain unchanged.</li>
-</ul>
+
+##### No
+
+- If you discard changes, your list will remain unchanged.
+
 </div>
 </div>
 
@@ -394,16 +425,18 @@ Confirmation message **calls to action** should:
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Discard changes? <strong>Cancel / Discard</strong></li>
-</ul>
+
+##### Yes
+
+- Discard changes? **Cancel / Discard**
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Discard changes? <strong>No / Yes</strong></li>
-</ul>
+
+##### No
+
+- Discard changes? **No / Yes**
+
 </div>
 </div>
 
@@ -427,16 +460,18 @@ Imagine if we let people share a book recommendation. When the recommendation is
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Your new code monitor is now watching for events.</li>
-</ul>
+
+##### Yes
+
+- Your new code monitor is now watching for events.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Code monitor successfully created.</li>
-</ul>
+
+##### No
+
+- Code monitor successfully created.
+
 </div>
 </div>
 
@@ -454,16 +489,18 @@ Avoid using negative words or phrases. Empty states are transitional and reveal 
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Your saved searches will appear here</li>
-</ul>
+
+##### Yes
+
+- Your saved searches will appear here
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Oops, you have no saved searches</li>
-</ul>
+
+##### No
+
+- Oops, you have no saved searches
+
 </div>
 </div>
 
@@ -473,16 +510,18 @@ If relevant, tell users exactly how to start using a feature and provide an acti
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Your saved searches will appear here. <a href="#_" aria-disabled="true">Create your first saved search!</a></li>
-</ul>
+
+##### Yes
+
+- Your saved searches will appear here. <a href="#_" aria-disabled="true">Create your first saved search!</a>
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>No saved searches</li>
-</ul>
+
+##### No
+
+- No saved searches
+
 </div>
 </div>
 
@@ -508,10 +547,11 @@ When the response to an input field might be from a wide range of options, place
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Search by language, repo, or organization</li>
-</ul>
+
+##### Yes
+
+- Search by language, repo, or organization
+
 </div>
 </div>
 
@@ -521,10 +561,11 @@ Sometimes, an example will make it easier for users to understand how to answer 
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Such as “repo:sourcegraph/sourcegraph”</li>
-</ul>
+
+##### Yes
+
+- Such as “repo:sourcegraph/sourcegraph”
+
 </div>
 </div>
 
@@ -544,15 +585,17 @@ This is particularly important for helper messages on input fields.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>8–12 characters</li>
-</ul>
+
+##### Yes
+
+- 8–12 characters
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Password must be between 8–12 characters</li>
-</ul>
+
+##### No
+
+- Password must be between 8–12 characters
+
 </div>
 </div>

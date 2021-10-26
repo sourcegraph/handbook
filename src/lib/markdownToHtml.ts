@@ -15,6 +15,7 @@ import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
 import rehypeUrl, { UrlMatch } from 'rehype-url-inspector'
 import remarkGfm from 'remark-gfm'
+import remarkGitHub from 'remark-github'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import { unified, Plugin } from 'unified'
@@ -49,6 +50,23 @@ export default async function markdownToHtml(
         .use(remarkParse)
         .use(remarkGfm)
         .use(remarkSpecialNoteBlocks)
+        // Automatically link and shorten GitHub issues, PRs, repos etc like on GitHub
+        .use(remarkGitHub, {
+            mentionStrong: false,
+            repository: 'sourcegraph/sourcegraph', // Default repository if only issue/PR number is used
+            buildUrl: (values, defaultBuildUrl) => {
+                if (values.type === 'mention') {
+                    if (values.user.startsWith('sourcegraph/')) {
+                        // Team handle. remark-github doesn't handle those correctly natively.
+                        const [, teamName] = values.user.split('/')
+                        return `https://github.com/orgs/sourcegraph/teams/${teamName}`
+                    }
+                    // When @user handles are used in the handbook, they often mean a Slack handle, not a GitHub username
+                    return false
+                }
+                return defaultBuildUrl(values)
+            },
+        })
         // Convert Markdown AST -> HTML AST
         .use(remarkRehype, { allowDangerousHtml: true })
         // Parse Markdown that was included _within_ HTML
