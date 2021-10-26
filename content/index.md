@@ -24,6 +24,7 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Content guidelines](communication/content_guidelines/index.md)
 - [Customer-first](company/customer-first.md)
 - [General office information](company/general-office-info.md)
+- [Community](community/index.md)
 
 ## Teams at Sourcegraph
 
