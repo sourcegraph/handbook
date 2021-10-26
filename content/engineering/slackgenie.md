@@ -12,11 +12,11 @@ in the group are in Do Not Disturb. Multiple people can be in the rotation at on
 
 - Create a Slack User Group and add the team members you want in the rotation.
 - Update the [slackgenie config](https://sourcegraph.com/github.com/sourcegraph/background-jobs/-/blob/slackgenie/config.yaml) to include the new User Group.
-- Under the Teams tab in Opsgenie, select Add Team. 
-- On the page for your new team, use the On-call tab to update the rotation with participants from your Slack User Group. 
-- Use the Integration tab to connect the rotation to Slack.   
+- Under the Teams tab in Opsgenie, select Add Team.
+- On the page for your new team, use the On-call tab to update the rotation with participants from your Slack User Group.
+- Use the Integration tab to connect the rotation to Slack.
 
 ### Helpful tips
 
 - You can override an Opsgenie schedule manually via "Take on-call for an hour" in the Opsgenie UI
-or messaging the Opsgenie slackbot.
+  or messaging the Opsgenie slackbot.
