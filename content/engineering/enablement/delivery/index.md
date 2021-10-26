@@ -45,7 +45,7 @@ TODO
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../../developer-insights/index.md#principles-and-practices).
+We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
 We also have a set of [guiding principles](../../../company/strategy/enablement/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
 
