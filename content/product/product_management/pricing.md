@@ -12,13 +12,13 @@ We have two pricing tiers, free (for up to ten users) and enterprise. Our free t
 
 ## Add-on features
 
-We also sell add-on features that are at additional cost to the enterprise tier, such as Batch Changes. This allows for flexibility in the features that our customers want to pay for, where if they don't see the value of something they don't need to pay for it. This helps them manage their usage and cost.
+We also sell add-on features that are at additional cost to the enterprise tier, such as Batch Changes. This allows for flexibility where if they don't see the value of something they don't need to pay for it.
 
 ## Philosophy
 
 ### Role of the free tier
 
-A lot of our features are available in our free tier, so that people can really see the value of the product before they buy. Instead of limiting access to what they are able to do (which limits the value they get out of the free tier), we limit the number of users to ten so that they need to upgrade if they are really start using it at their company. We believe that the product is so great that, once adoption starts, it will continue and these companies will convert to paying customers.
+A lot of our features are available in our free tier so that people can really see the value of the product before they buy. Instead of limiting access to what they are able to do (which limits the value they get out of the free tier), we limit the number of users to ten so that they need to upgrade if they are really start using it at their company. We believe that the product is so great that, once adoption starts, it will continue and these companies will convert to paying customers.
 
 ### Difference between Cloud, Enterprise, and OSS
 
@@ -36,7 +36,7 @@ To avoid these scenarios we should be mindful of the user experience at each ste
 
 ### Avoid moving features from free to paid
 
-We try to avoid moving features from free to paid as this can be difficult to explain to customers. At that point, you're taking something away from people which is something that we don't want to do. It creates a bad feeling, and also can be complex when dealing with an open core product (a feature may have been contributed to the free version, and making it paid can feel like unfair monetization of something that was donated.)
+We try to avoid moving features from free to paid as this can be difficult to explain to customers. At that point, you're taking something away from people which is something that we don't want to do. It creates a bad feeling and also can be complex when dealing with an open core product (a feature may have been contributed to the free version and making it paid can feel like unfair monetization of something that was donated.)
 
 It is much better to move a feature from paid to free, so if unsure you can start a feature as paid and move it down to free later if it ends up not being an actual driver of revenue.
 
