@@ -9,10 +9,15 @@ Please first read [the customer-facing managed instance documentation](https://d
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
   - [Security](#security)
 - [Cost estimation](cost_estimation.md)
+- [Requesting a managed instance](#requesting-a-managed-instance)
 - [Creating a managed instance](creation_process.md)
 - [Managed instances operations](operations.md)
 - [Upgrading a managed instance](upgrade_process.md)
 - [FAQ](#faq)
+
+## Requesting a managed instance
+
+After [determining a managed instance is what a customer/prospect wants](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo in order to start the setup process for the customer/prospect.
 
 ## Technical details
 
