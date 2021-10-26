@@ -122,7 +122,7 @@ code_monitoring_webhooks:
 saved_searches:
   title: 'Saved Searches'
   product_area: search
-  maturity: deprecated
+  maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_search/explanations/features#saved-searches'
   compatibility:
     gitlab_com: true
