@@ -45,9 +45,9 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
   - [Interview process for each department](interview_process.md)
 - The hiring team (including the Recruiter, Hiring Manager, and all other interviewers) debriefs and makes final hiring decision.
   - This can be done in a synchronous fashion via a debrief Zoom meeting, or asynchronously via Slack.
-    - **Engineering Hiring Managers** are responsible for communicating your hiring decisions to the rest of the interview team to stay informed and calibrate for future hiring decisions. 
+    - **Engineering Hiring Managers** are responsible for communicating your hiring decisions to the rest of the interview team to stay informed and calibrate for future hiring decisions.
       - Post your note in your private Slack channels.
-      - Your note should provide context for why we've decided to hire someone, or why we've decided *not* to hire someone. 
+      - Your note should provide context for why we've decided to hire someone, or why we've decided _not_ to hire someone.
       - Once it's been posted in Slack, paste your note into Greenhouse so it lives on the candidate page forever.
 
 ### 3. Offer stage
