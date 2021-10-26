@@ -19,7 +19,7 @@ Users can be in a number of different states. We track the following categories 
 
 ### What is a visitor?
 
-A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page.) This is important to measure because each of these users is potentially an active user, but it's also important that we don't count anyone who uses the product as an active user so that we can measure success of our features that are intended to convert them.
+A visitor is a unique person (unique to the instance being measured) who showed up on the site and did anything (or nothing at all, apart from viewing the page.) This is important to measure because each of these users is potentially an active user, but it's also important that we don't count anyone who uses the product as an active user so that we can measure success of our features that are intended to convert them.
 What is an activated user?
 
 An activated user is a user who has established the core habit of the product. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as a user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established). Activation is this entire journey. Our current definition is the user performs a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active), but this needs to be iterated on.
