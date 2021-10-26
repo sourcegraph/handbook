@@ -34,9 +34,6 @@ function generate_maturity_page(features, maturity_levels, product_areas, produc
 
     Object.keys(product_areas).forEach((product_area) => {
         page_content += "\n## " + product_areas[product_area].title + "\n"
-        if (product_areas[product_area].description) {
-            page_content += "\n_" + product_areas[product_area].description + "_"
-        }
         page_content += " ([" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_product_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
         page_content += "[" + product_areas[product_area].title + " Strategy](" + make_product_link_relative(product_areas[product_area].strategy_link) + "))\n"
 
@@ -49,9 +46,6 @@ function generate_maturity_page(features, maturity_levels, product_areas, produc
                     page_content += "|[" + features[feature].title + "](" + make_product_link_relative(features[feature].documentation_link) + ")"
                 } else {
                     page_content += "|" + features[feature].title
-                }
-                if (features[feature].description) {
-                    page_content += ": _" + features[feature].description + "_"
                 }
                 page_content += "|" + maturity_levels[features[feature].maturity].title + "|\n"
             };
@@ -78,9 +72,6 @@ function generate_compatibility_page(features, product_areas, product_orgs, code
 
     Object.keys(product_areas).forEach((product_area) => {
         page_content += "\n## " + product_areas[product_area].title + "\n"
-        if (product_areas[product_area].description) {
-            page_content += "\n_" + product_areas[product_area].description + "_"
-        }
         page_content += " ([" + product_orgs[product_areas[product_area].product_org].title + " Strategy](" + make_product_link_relative(product_orgs[product_areas[product_area].product_org].strategy_link) + ") | "
         page_content += "[" + product_areas[product_area].title + " Strategy](" + make_product_link_relative(product_areas[product_area].strategy_link) + "))\n"
 
@@ -100,9 +91,6 @@ function generate_compatibility_page(features, product_areas, product_orgs, code
                     page_content += "|[" + features[feature].title + "](" + make_product_link_relative(features[feature].documentation_link) + ")"
                 } else {
                     page_content += "|" + features[feature].title
-                }
-                if (features[feature].description) {
-                    page_content += ": _" + features[feature].description + "_"
                 }
                 page_content += "|"
                 Object.keys(code_hosts).forEach((code_host) => {
