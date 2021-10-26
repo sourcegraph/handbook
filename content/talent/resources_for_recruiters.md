@@ -129,8 +129,8 @@ Avoid including links directly in your posts. Anything that takes the user away 
 
 [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
 
-## Candidate Engagement Best Practices 
+## Candidate Engagement Best Practices
 
-Candidates rarely respond on the first outreach. Recruiters will create an outreach engagement strategy with a sequence of messages and or/content at touch points delivered to a highly targeted candidate at predefined intervals. 
+Candidates rarely respond on the first outreach. Recruiters will create an outreach engagement strategy with a sequence of messages and or/content at touch points delivered to a highly targeted candidate at predefined intervals.
 
 [Here's](https://docs.google.com/presentation/d/1cwPWbk_w2uRWsz_DuUJy_Jz_pVuSpM6pmZnfPU6cf4c/edit?usp=sharing) a guide to crafting Recruiting Drip Campaigns with more helpful tips!
