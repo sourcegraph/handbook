@@ -16,7 +16,8 @@ Please first read [the customer-facing managed instance documentation](https://d
 - [FAQ](#faq)
 
 ## Requesting a managed instance
-Customer Engineers working with customers or prospects interested in using a managed instance, should submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo. 
+
+Customer Engineers working with customers or prospects interested in using a managed instance, should submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo.
 
 ## Technical details
 
