@@ -99,3 +99,7 @@ Note that the index refresh interval is 30 seconds.
 #### Elastic logging stage
 
 To implement in #17281.
+
+#### Playbooks
+
+See playbooks [here](playbooks.md).
