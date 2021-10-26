@@ -121,10 +121,16 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Onboarding Email, Hiring Manager, VP Talent and Talent Team Manager (if applicable), and exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
 
-## LinkedIn posting best practices
+## LinkedIn Posting Best Practices
 
 It is much better to copy and paste the entire post and then give the author credit by tagging them. Long story short, avoid resharing and copy/paste instead.
 
 Avoid including links directly in your posts. Anything that takes the user away from LinkedIn is discouraged... so instead, add the link as a comment.
 
 [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
+
+## Passive Candidate Engagement Best Practices 
+
+Candidates rarely respond on the first outreach. Recruiters will create an outreach engagement strategy with a sequence of messages and or/content at touch points delivered to a highly targeted candidate at predefined intervals. 
+
+[Here's](https://docs.google.com/presentation/d/1cwPWbk_w2uRWsz_DuUJy_Jz_pVuSpM6pmZnfPU6cf4c/edit?usp=sharing) a guide to crafting Recruiting Drip Campaigns with more helpful tips!
