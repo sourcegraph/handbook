@@ -14,7 +14,7 @@ github_enterprise:
   title: 'GitHub Enterprise'
   info_link: 'https://github.com'
 
-bitbucket_Server:
+bitbucket_server:
   title: 'BitBucket Server'
   info_link: 'https://bitbucket.org/'
 
