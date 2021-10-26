@@ -85,3 +85,4 @@ Feel free to tag `@core-app` on Slack or anyone directly as and when required. I
 - [Cloud roadmap](https://sourcegraph.productboard.com/feature-board/2119755-cloud)
 - [GitHub Projects](https://github.com/orgs/sourcegraph/projects?query=is%3Aopen+Cloud+OR+Core+OR+Backend)
 - [Manual migrations](manual_migrations.md)
+- [Hiring](hiring/index.md)

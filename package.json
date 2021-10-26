@@ -13,9 +13,9 @@
     "check-links": "yarn run generated-pages && node src/scripts/check-links.mjs",
     "check-all-links": "yarn run generated-pages && find ./content -name \\*.md -exec markdown-link-check --quiet {} \\;",
     "typecheck": "tsc -p .",
-    "prettier": "prettier '**/{*.{js?(on),ts?(x),md,scss},.*.js?(on)}' --write --list-different",
+    "prettier": "prettier '**/{*.{?(m)[tj]s?(x),json,md,scss},.*.js?(on)}' --write --list-different",
     "prettier-check": "yarn -s run prettier --write=false",
-    "eslint": "eslint 'src/**/*.{ts,tsx}'",
+    "eslint": "eslint 'src/**/*.?(m)[jt]s?(x)'",
     "test": "echo \"it works fine on my computer\" && exit 1",
     "copy-assets": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node src/scripts/copy-assets.ts"
   },
