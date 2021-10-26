@@ -55,6 +55,14 @@ Always title case our name. Don’t abbreviate or add a space to our name.
 
 Only use _we_ and _our_ (as in “our GitHub integration”) in informal documents. In documentation or marketing material, depending on the context, just avoid it, or use “the” or “Sourcegraph”.
 
+## Writing about our customers
+
+We use the following terms to delineate different customer segments:
+* Enterprise: the segment of companies with 500+ developers
+* Commercial: the segment of companies between 50 and 500 developers
+* Midmarket: synonymous with "Commercial"; prefer to use "Commercial
+* SMB: the segment of the market between 2 and 50 developers
+
 ## Term usage
 
 | Use this             | Not this                                         | Why?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
