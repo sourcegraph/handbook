@@ -30,7 +30,18 @@
 
 The easiest way to add a video to the Handbook is to embed it. Most video hosting sites, like Youtube or Loom, include an “embed” option in their sharing menu. The link should look something like this:
 
-`&lt;div style="position: relative; padding-bottom: 56.25%; height: 0;">&lt;iframe src="video URL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">&lt;/iframe>&lt;/div>`
+```html
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    src="video URL"
+    frameborder="0"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  ></iframe>
+</div>
+```
 
 Copy and paste that link into your markdown file as you would any other piece of text. Check your handbook page after merging your changes to verify your video is playing correctly.
 
