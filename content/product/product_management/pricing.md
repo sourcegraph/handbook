@@ -20,17 +20,19 @@ We also sell add-on features that are at additional cost to the enterprise tier,
 
 A lot of our features are available in our free tier, so that people can really see the value of the product before they buy. Instead of limiting access to what they are able to do (which limits the value they get out of the free tier), we limit the number of users to ten so that they need to upgrade if they are really start using it at their company. We believe that the product is so great that, once adoption starts, it will continue and these companies will convert to paying customers.
 
-### Clear upgrade path
+### Difference between Cloud, Enterprise, and OSS
+
+See the [try it now section](https://github.com/sourcegraph/sourcegraph#try-it-now) in the Sourcegraph repository for information on the difference between these offerings.
+
+For non-Cloud Enterprise, we offer two deployment models for the product: self-managed or managed. As a default practice we provide consistency in feature-based availability and cost across all enterprise versions. Operational costs may be passed on to the customer depending on the deployment model, but that does not play a factor in per-feature pricing.
+
+### Maintaining a clear upgrade path
 
 Our upgrade path from free -> enterprise -> add-ons should be logical and make sense for the user. For example, having features that only large enterprises use in the free tier doesn't make a lot of sense; the people in that tier aren't benefiting from it, and we miss the chance to add clear value to our enterprise tier for enterprise customers.
 
 Conversely, gating a lot of important daily use cases out of free (or even enterprise) can make it feel like these features don't provide real value.
 
 To avoid these scenarios we should be mindful of the user experience at each step in the upgrade path, and ensure there is a flow that makes sense for each product area.
-
-### Cloud, on-prem, and managed
-
-We offer three deployment models for the product, but as a default practice we provide consistency in feature-based availability and cost across all three. Operational costs are passed on to the customer depending on the deployment model, but that does play a factor in feature pricing.
 
 ### Avoid moving features from free to paid
 
