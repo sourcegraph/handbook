@@ -68,7 +68,7 @@ Here are some of the technologies we use to deliver on our goals:
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement principles and practices](../../developer-insights/index.md#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
+We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
 
 ## Processes
 
