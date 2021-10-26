@@ -52,17 +52,17 @@ We also set our goals around these themes, sou can see current (Q4 2021) goals a
 Learning what's possible and how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases and interests for which they would benefit from exploring. Making onboarding and interaction easier also helps our users and sales teams demonstrate the value of our product more quickly than is possible today.
 
 - Measure and increase [WAU](../../../bizops/user_definitions) for product areas that are important to paid adoption by 15%. For most teams this will require understanding and improving time-to-value as a driver for increasing active users. (All Teams)
-- Make it easier to adopt Batch Changes by fixing top three changeset syncing and permission configuration issues. ([Batch Changes](./batch-changes/index.md)) 
-- 3 customers with >1 Search Notebook, demonstrating initial traction for this feature and proving the value of Search Notebooks for sharing explanations of code. ([Search Product](./search/index.md)) 
+- Make it easier to adopt Batch Changes by fixing top three changeset syncing and permission configuration issues. ([Batch Changes](./batch-changes/index.md))
+- 3 customers with >1 Search Notebook, demonstrating initial traction for this feature and proving the value of Search Notebooks for sharing explanations of code. ([Search Product](./search/index.md))
 
 ### Level up our enterprise-ready features
 
 How our product works in terms of pricing, upgrade paths, auditing, single sign-on, access control, and so on are essential for enterprise customers with large, complex organizations. In partnership with our Cloud team, we're focused on ensuring that these elements of our product meet and exceed these needs so that when it comes to rolling out Sourcegraph the logistics of getting set up don't get in the way of realizing the value of Big Code search.
 
-- Get a Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature ([Code Insights](./code-insights/index.md)) 
-- Enable out-of-the-box cross-repo and dependency navigation for 3 customers by successfully moving them to on-prem auto-indexing. ([Code intelligence](./code-intelligence/index.md)) 
-- Enable powerful automation and notification use cases e.g. by adding webhook and Slack integrations to Code Monitors and getting a Q1 2022 upgrade commitment from 3 customers. ([Search Product](./search/index.md)) 
-- Improve precise code intelligence actions coverage by going from 3 to 5 officially ready languages (e.g., adding Kotlin and TS/JS), representing the languages in ~50% of all actions. ([Code intelligence](./code-intelligence/index.md)) 
+- Get a Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature ([Code Insights](./code-insights/index.md))
+- Enable out-of-the-box cross-repo and dependency navigation for 3 customers by successfully moving them to on-prem auto-indexing. ([Code intelligence](./code-intelligence/index.md))
+- Enable powerful automation and notification use cases e.g. by adding webhook and Slack integrations to Code Monitors and getting a Q1 2022 upgrade commitment from 3 customers. ([Search Product](./search/index.md))
+- Improve precise code intelligence actions coverage by going from 3 to 5 officially ready languages (e.g., adding Kotlin and TS/JS), representing the languages in ~50% of all actions. ([Code intelligence](./code-intelligence/index.md))
 
 ### Deliver a unified experience
 
@@ -74,6 +74,6 @@ Our product solves real problems today, but investing in the polish, user experi
 
 We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../index.md#big-code).
 
-- Make Sourcegraph Search work well with large monorepos, unlocking X revenue for enterprise sales in Y period (P75 time to first result for unindexed search on monorepos larger than 200GB is < 10s and <2s for indexed, time to indexing is always <30 minutes, and ranked search results are available for monorepos.) ([Search Core](./search/index.md)) 
-- Three customers use server side Batch Changes to create 200+ changeset batch changes, proving that it is enabling large-scale use cases and revenue. ([Batch Changes](./batch-changes/index.md)) 
-- At least one customer issue was solved with the help of `src debug`, which makes observability better for on-prem and makes Customer Support’s job easier. ([Search Core](./search/index.md)) 
+- Make Sourcegraph Search work well with large monorepos, unlocking X revenue for enterprise sales in Y period (P75 time to first result for unindexed search on monorepos larger than 200GB is < 10s and <2s for indexed, time to indexing is always <30 minutes, and ranked search results are available for monorepos.) ([Search Core](./search/index.md))
+- Three customers use server side Batch Changes to create 200+ changeset batch changes, proving that it is enabling large-scale use cases and revenue. ([Batch Changes](./batch-changes/index.md))
+- At least one customer issue was solved with the help of `src debug`, which makes observability better for on-prem and makes Customer Support’s job easier. ([Search Core](./search/index.md))
