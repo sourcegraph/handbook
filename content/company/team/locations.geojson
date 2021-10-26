@@ -1250,6 +1250,32 @@
           39.73913836310703
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Rafal Gajdulewicz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.023197174072266,
+          52.18087924523222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Varun Gandhi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27100849151611,
+          37.8639447129692
+        ]
+      }
     }
   ]
 }

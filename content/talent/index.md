@@ -72,7 +72,7 @@ Technical Recruiting Team
   - Engineering
   - Product
   - Support
-- [Frey Andersson], Technical Recruiter
+- [Frey Andersson](../company/team/index.md#frey-andersson), Technical Recruiter
   - Engineering
 - [Win Yu](../company/team/index.md#win-yu-hehis), Technical Talent Sourcer
   - Talent research for the technical recruiting team
@@ -95,3 +95,7 @@ Corporate Recruiting Team
   - Sales
 - [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
   - Interview scheduling for corporate recruiters
+
+## Recruitment Branding & Social Media
+
+- Coming Soon...
