@@ -4955,6 +4955,17 @@ remark-gfm@^3.0.0:
     micromark-extension-gfm "^2.0.0"
     unified "^10.0.0"
 
+remark-github@^11.2.0:
+  version "11.2.0"
+  resolved "https://registry.npmjs.org/remark-github/-/remark-github-11.2.0.tgz#45dfc40f02941a4ba51682aa0bf44fa5ae720f6e"
+  integrity sha512-3c/pSLPktel3ZskD8QYRBz9oqOeqSoUPAcafXGs6Sz9mIUdtAe6hGYfwUzjFF7Zmwv5QfXfa2TXbMUqmgxwK2w==
+  dependencies:
+    "@types/mdast" "^3.0.0"
+    mdast-util-find-and-replace "^2.0.0"
+    mdast-util-to-string "^3.0.0"
+    unified "^10.0.0"
+    unist-util-visit "^4.0.0"
+
 remark-parse@^10.0.0:
   version "10.0.0"
   resolved "https://registry.npmjs.org/remark-parse/-/remark-parse-10.0.0.tgz"
