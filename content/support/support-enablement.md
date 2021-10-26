@@ -32,5 +32,5 @@ The following is available to help us honor our [ethos and guiding principles](i
 - [List of Support Tools](support-tools.md)
 - [Search crash course](https://drive.google.com/file/d/1OEDgTJAaaEL5N0bcxSbRbBrdi8FU_ZPN/view?usp=sharing)
 - [Search crash course: query lang](https://drive.google.com/file/d/1DOEKW279FbxipJCM6vDdKzly6epgNyyD/view?usp=sharing)
-- [Navigating the PGSQL Database](content/support/pgsql-guide.md)
+- [Navigating the PGSQL Database](pgsql-guide.md)
 - [Additional Resources for learning Kubernetes and Docker](k8s-resources.md)
