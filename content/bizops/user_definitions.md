@@ -46,6 +46,10 @@ Time periods we track:
 
 Monthly is the most common reference frame we use.
 
+## Unique Sourcegraph users
+
+For some of our metrics we want to identify unique users across our products and instances. For this purpose, unique users of Sourcegraph are defined as having a common email address across any number of instances. For example, a@b.com on an on-prem instance and a@b.com on Sourcegraph.com would be considered the same user for the purposes of this metric. Note that most measures don't have this constraint, and any that do will include the term "Unique Sourcegraph Users" in the name of the metric.
+
 ## Engagement ratios
 
 | Metric  | Description                                                                                                                                                                                    |
