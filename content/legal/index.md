@@ -41,7 +41,7 @@ To direct your contracts to the right team or teammate to review, approve, and s
 
 ## Outside counsel
 
-Before reaching out to our outside counsel, check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
+Before reaching out to our [outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing), check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
 
 ## What are we up to? FY'22 goals
 

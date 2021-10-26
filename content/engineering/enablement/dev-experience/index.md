@@ -4,7 +4,7 @@ The Developer Experience team (part of the [Enablement](../index.md) org) is a t
 
 ## Members
 
-- Taylor Sperry (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Taylor Sperry](../../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
 - [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
   - [JH Chabran](../../../company/team/index.md#jh-chabran-he-him)
@@ -21,7 +21,7 @@ TODO
 ## Contact
 
 - #dev-experience channel or @dev-experience-team in Slack.
-- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and [@sourcegraph/dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience) team on GitHub.
+- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team on GitHub.
   - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label.
 
 ## Growth plan

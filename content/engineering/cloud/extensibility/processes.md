@@ -49,6 +49,15 @@ The team inspects how the last Sprint went with regards to individuals, interact
 
 These discussion items are captured on our [retrospective document](https://docs.google.com/document/d/1uLR_2ICQB3jSCtQ3ebpQqvUYg11IIm0ZRJ5LoZ_wp2M/edit). Once discussed, we work together on identifying the most helpful changes to improve our effectiveness. The most impactful improvements are addressed as soon as possible. They may even be added to the Sprint Backlog for the next Sprint.
 
+## Sprint Cleanup
+
+After each sprint, there are some manual tasks that are needed to be done before we start a new sprint.
+
+1. Create a new Sprint (milestone) on [GitHub](https://github.com/sourcegraph/sourcegraph/milestones). The title should be "Extensibility X" where X is +2 from last completed sprint. There should be an explanation with the format "Extensibility Sprint from 2021/11/08 - 2021/11/19", that starts on a Monday and finished in 2 weeks at Friday. This Friday should be saved as the "Due Date"
+2. Once the milestone is created, visit the [Current Iteration](https://github.com/orgs/sourcegraph/projects/213/views/1) board. If there are items on the Proposed, In Progress, or Blocked group, change their milestone to the upcoming milestone. Once all items are in Done, update the tab view query to filter this new milestone (eg change it from "milestone:"Extensibility 1" to milestone:"Extensibility 2"). Make sure to save the new view.
+3. Once the [Current Iteration](https://github.com/orgs/sourcegraph/projects/213/views/1) board is updated, make sure to update the [Next Iteration](https://github.com/orgs/sourcegraph/projects/213/views/2) board query. Don't forget to save the view.
+4. Lastly, go back to the [Milestones](https://github.com/sourcegraph/sourcegraph/milestones?state=open) page and find the milestone that has just finished. Make sure that all the items are closed. If there are any open items, make sure to move them to the current milestone and close the milestone.
+
 ## Product Feedback
 
 Specific product feedback about well-defined, small features can be found directly in the corresponding GitHub board tab. (eg [Browser Extension](https://github.com/orgs/sourcegraph/projects/213/views/6))
