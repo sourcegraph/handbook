@@ -1,14 +1,14 @@
 # Navigating the PGSQL Database
 
-## The PGSQL Database
+## The PGSQL database
 
-The pgsql database is Sourcegraph's main database. It contains the majority of the application data with the exception of code-intel and code-insights data.
+The PGSQL database is Sourcegraph's main database. It contains the majority of the application data with the exception of code-intel and code-insights data.
 
 ## When to run queries against the PGSQL database
 
 Running queries against this database should be used as a backup debugging option after exhausting the available search options exposed through the GraphQL API. The GraphQL API is both easier and safer to use than SQL.
 
-## What data can be found by querying the PGSQL Database
+## What data can be found by querying the PGSQL database
 
 - users
 - repositories
@@ -23,7 +23,7 @@ Running queries against this database should be used as a backup debugging optio
 - access tokens
 - plus many more relational data
 
-## Connecting to the PGSQL Database
+## Connecting to the PGSQL database
 
 ### Kubernetes:
 
@@ -46,7 +46,7 @@ docker exec -it CONTAINER_ID bash
 psql -U sg
 ```
 
-## Common Database Commands
+## Common database commands
 
 | Command       | Usage                                                                |
 | ------------- | -------------------------------------------------------------------- |
@@ -55,14 +55,14 @@ psql -U sg
 | \x            | enable expanded display (makes reading individual table rows easier) |
 | \q            | exit from the psql shell                                             |
 
-## Commonly Queried Tables
+## Commonly queried tables
 
 | Table            | Usage                                                        |
 | ---------------- | ------------------------------------------------------------ |
 | users            | check existence of accounts, get user id for further queries |
 | repo_permissions | determine which repos a user is granted acccess to           |
 
-## Example Queries
+## Example queries
 
 ### Determine number of users with access to a specific repository
 
