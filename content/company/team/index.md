@@ -1595,3 +1595,11 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [varungandhi-src](https://github.com/varungandhi-src)
 - [varun.gandhi@sourcegraph.com](mailto:varun.gandhi@sourcegraph.com), [Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)
 - After training as a physicist, Varun decided to take a hard left turn after being enamored by functional programming and compilers. Loving all things related to developer tools, Varun worked on the Swift compiler before joining Sourcegraph. In his spare time, Varun may be found learning a new language, watching a movie at the cinema, bopping to some kpop, or animatedly gesticulating at an Arsenal game.
+
+## Erin Laio (she/her)
+
+- Senior Executive Business Partner
+- Andover, MA, USA
+- GitHub: [erinlaio](https://github.com/erinlaio)
+- [erin.laio@sourcegraph.com](mailto:erin.laio@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/erin-laio/)
+- Erin lives in Andover, Massachusetts just north of Boston with her husband, 2 sons and her cheagle (made up breed) Penny.  During quarentine she decided to make it a goal to craft the perfect vodka martini which took a lot less time than expected.  Turns out finding the right ratio between two ingredients isn't that challenging but she's been enjoying the fruits of her labor ever since.  Prior to Sourcegraph she worked at HubSpot for 5+ years as an Executive Assistant.  Outside of work she loves to bake anything gluten free and start new craft projects she never finishes (currently working on a needlepoint, resin coasters and jewelry).
