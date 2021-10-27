@@ -37,7 +37,7 @@ Performing any single activity in the above list makes a user "active" for the t
 
 ### What is a retained user?
 
-A user is retained if they qalified as an active user (as defined above) within a measured period if they were active in both the current and previous periods.
+A user is retained if they qualified as an active user (as defined above) within both the current and previous periods.
 
 ## Time periods
 
