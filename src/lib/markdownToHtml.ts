@@ -4,9 +4,11 @@ import * as url from 'url'
 import * as _rehypeSection from '@agentofuser/rehype-section'
 import rehypeExtractToc, { Toc } from '@stefanprobst/rehype-extract-toc'
 import { Node, Root } from 'hast'
+import { isElement } from 'hast-util-is-element'
 import { select } from 'hast-util-select'
 import { HastNode } from 'hast-util-select/lib/types'
 import { toString } from 'hast-util-to-string'
+import { h } from 'hastscript'
 import { Root as MdastRoot, Content as MdastContent } from 'mdast'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeHighlight from 'rehype-highlight'
@@ -17,8 +19,9 @@ import rehypeUrl, { UrlMatch } from 'rehype-url-inspector'
 import remarkGfm from 'remark-gfm'
 import remarkGitHub from 'remark-github'
 import remarkParse from 'remark-parse'
-import remarkRehype from 'remark-rehype'
+import remarkRehype, { HastRoot } from 'remark-rehype'
 import { unified, Plugin } from 'unified'
+import { visit } from 'unist-util-visit'
 import { VFile } from 'vfile'
 
 import { rehypeMarkupDates } from './rehypeMarkupDates'
@@ -74,6 +77,8 @@ export default async function markdownToHtml(
         .use(rehypeSmartypants, { backticks: false, dashes: 'oldschool' })
         .use(rehypeMarkupDates)
         .use(rehypeSlackChannels)
+        // Wrap all tables in Bootstrap's responsive helper to make them scroll instead of overflowing
+        .use(rehypeResponsiveTables)
         // Trim .md suffix from links
         .use(rehypeUrl, {
             selectors: urlSelectors,
@@ -151,8 +156,8 @@ const rehypeExtractTitleFromH1: Plugin = () =>
  * Note blockquote syntax, originally from docsite. Any blockquote starting with
  * "> NOTE:" is converted to <aside class="note">...</aside>.
  */
-const remarkSpecialNoteBlocks: Plugin<void[], MdastRoot> = () =>
-    function (tree, file: VFile) {
+const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
+    function (tree) {
         for (const node of tree.children) {
             if (isSpecialNoteBlockquote(node)) {
                 // TODO: This overwrites the `hProperties` to add the class
@@ -162,6 +167,18 @@ const remarkSpecialNoteBlocks: Plugin<void[], MdastRoot> = () =>
             }
         }
     }
+
+/**
+ * Wraps all `<table>`s in `<div class="table-responsive">` for horizontal scrolling.
+ */
+// eslint-disable-next-line unicorn/consistent-function-scoping
+const rehypeResponsiveTables: Plugin<[], HastRoot> = () => tree => {
+    visit(tree, (node, index, parent) => {
+        if (isElement(node, 'table')) {
+            parent!.children[index!] = h('div.table-responsive', node)
+        }
+    })
+}
 
 function isSpecialNoteBlockquote(node: MdastContent): boolean {
     if (node.type !== 'blockquote') {
