@@ -1,6 +1,6 @@
 # Accessing Managed Instances
 
-In order to have good security and risk mitigation practices, only a subset of our CSE's have access to managed instances. If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help!
+In order to have good security and risk mitigation practices, only a subset of our CSE's have access to managed instances. If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, Mariam, and Kelvin. One of them can help!
 
 If you are a CSE being trained to work with managed instances, read ahead.
 
@@ -24,6 +24,6 @@ Should you find yourself in a situation where you need to login to a customer's 
 
 ## Requesting Help
 
-It is important to do everything we can to solve issues with managed instances ourselves, but realistically, this won't always be the case. As a general reminder, if you are stuck on an issue, always engage your CSE teammates first. Specifically, reach out to Mariam, Don or Jason and request help. If they can't figure out what's going on, work with them to engage the distribution team in the way they've asked [here](./engaging-other-teams.md).
+It is important to do everything we can to solve issues with managed instances ourselves, but realistically, this won't always be the case. As a general reminder, if you are stuck on an issue, always engage your CSE teammates first. Specifically, reach out to Mariam, Don, Jason, or Kelvin and request help. If they can't figure out what's going on, work with them to engage the distribution team in the way they've asked [here](./engaging-other-teams.md).
 
 To be clear, there is nothing wrong with engaging the distribution team, as long as it is the last step in our process towards finding a solution, and that it only be taken when absolutely necessary.
