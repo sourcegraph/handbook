@@ -9,7 +9,7 @@ Users can be in a number of different states. We track the following categories 
 | Metric      | Description                                                      | Cloud | On-prem |
 | ----------- | ---------------------------------------------------------------- | ----- | ------- |
 | Visitor     | Users who accessed the site                                      | ✔️    |         |
-| Activated   | Users who have established the core habit of the product         | ✔     |         |
+| Activated   | Users who have established the core habit of the product         | ✔️    |         |
 | Active      | Users who performed a qualifying event (see below)               | ✔️    | ✔️      |
 | Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      |
 | Churned     | Users who were active last month but not this month              | ✔️    | ✔️      |
