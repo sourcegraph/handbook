@@ -36,11 +36,11 @@ All teammates at Sourcegraph leverage a recording tool called BrightHire to stan
 
 Please see BrightHire frequently asked questions [here](./hiring/guide_to_using_brighthire.md).
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%288%29.png)
+![Image listing Brighthire features such as recording, transcribing and analyzing interviews, guiding interviewers, capturing highlights, and automating coaching](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%288%29.png)
 
 ### 3. Leading a legal interview
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2811%29.png)
+![Slide that says "The Legal Rules"](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2811%29.png)
 
 Another reason we have pre-determined, structured interview questions is because it helps us avoid asking illegal questions. As an interviewer, all questions provided to you in your Greenhouse interview scorecard are written in a legal fashion. However, we understand that sometimes conversations can get off track or there are situations where you need to ask follow up questions to get to the root of an answer, so we want you to be aware of the legal rules.
 
@@ -50,7 +50,7 @@ Example questions such as “Do you have children?," "What does your partner do 
 
 So where do we draw the line? A common interview question to ask is “tell me about yourself and walk me through your background.” If a candidate openly shares personal information that relates to the “topics to avoid” list below, the best thing to say is, “That’s interesting, thank you for sharing.” Then, redirect the conversation back to topics that **directly relate to a candidate’s ability to do the job**. You can ask about candidates and their background, so long as it deals with their ability to perform the duties of the role.
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2813%29.png)
+![Image listing topics to avoid such as children, age, ethnicity, illness, politics, gender, sexual orientation, religion, disabilities, etc.](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2813%29.png)
 
 FAQ:
 
@@ -61,7 +61,7 @@ FAQ:
 
 To ensure that your question is phrased in a legal way, always ask yourself “does my question directly relate to the candidate’s ability to perform the duties required and succeed in the role?” If you can confidently say “yes,” then feel free to ask!
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2814%29.png)
+![Slide reminding viewers to always ask themselves whether their question directly relates to the candidate's ability to succeed in the role. If not, it's best not to ask](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2814%29.png)
 
 Please review federal EEO laws, your state’s employment laws, and your internal counsel when necessary.
 
@@ -81,7 +81,7 @@ These are some pillar steps that every single candidate goes through, regardless
 
 ### Logistics: running an interview
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2822%29.png)
+![Screenshot showing where the "Interview with Brighthire" button and the Greenhouse scorecard link are located on an interview calendar invite](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2822%29.png)
 
 When you get scheduled for any interview, you are going to receive a calendar invitation.
 
@@ -100,7 +100,7 @@ How to kick off your interview:
 
 - Launch BrightHire from Google Calendar by clicking the “interview with BrightHire” button. It will pull up both the Zoom recording as well as your Chrome extension which will guide you through your structured questions.
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2823%29.png)
+![Image showing the ideal interview structure of first developing rapport, introductions, and agenda. Second, asking behavioral-based questions. Third, answering questions, building more rapport, and selling Sourcegraph](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2823%29.png)
 
 This is the ideal structure for all interviews:
 
@@ -124,7 +124,7 @@ At the end of the interview, be prepared to honestly answer any questions the ca
 
 The only time that selling can go awry is if we give any indication that they're going to get an offer, and then they don't get an offer. We need to be careful that when we're selling, we're not saying things like, “when you join us” or “I'm so excited to work with you.” Instead, we should say, “here is why Sourcegraph is so great” or “here is why I'm so excited to be here and these are some reasons why I decided to join Sourcegraph.”
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2824%29.png)
+![Image showing the "Interview Funnel" of asking an open ended question, listening, narrowing down to a specific area, listening, finding out motivations and achievements, listening, then summarizing and seeking agreement](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2824%29.png)
 
 All questions that we ask should start with “Tell me…” to ensure they are open-ended and prevent a “yes” or “no” answer. We use the interview funnel for each question, as follows: we start with an open ended question, narrow down to a specific area and listen for how the candidate goes about it, discover the candidate’s motivations, listen for the candidate’s achievements, then summarize the answer back to the candidate and seek agreement (see chart).
 
@@ -142,7 +142,7 @@ It is your responsibility to make the candidate feel comfortable and remind them
 
 ### Providing feedback
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2825%29.png)
+![Screenshot of our Greenhouse scorecard and a reminder that a structured scorecard prevents judging candidates based on gut instinct and feelings](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2825%29.png)
 
 - Please provide feedback as soon as possible, ideally no later than 24 hours after the interview, so that we can move quickly and ensure a positive candidate experience. You can use Brighthire to review the interview and copy / paste notes at a later time, but please try your best to get in the habit of submitting feedback directly after the interview since recall reduces by 44% after one hour. Feedback is best when you use the attributes to help score responses.
 - Most importantly, please do not talk to anybody else about their feedback if you were in a panel interview. If somebody went right before you went right after you, please don't ask for their feedback until you have officially filled yours out. That is a surefire way to introduce bias into your decision making. You should feel conviction in your process and your assessment of the candidate. If we notice that some candidate has gotten a couple yeses and a no, we will bring the team together to talk about it and determine why that happened. We can leverage BrightHire again here to see if there was a miscommunication or if their story was inconsistent. BrightHire will allow us to dig deeper if the panel did not agree on a decision.
@@ -156,7 +156,7 @@ Lastly, be mindful about what you leave in your interview form. There should be 
 
 ### Candidate Experience
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2826%29.png)
+![Slide that says "The Candidate Experience"](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2826%29.png)
 
 We've all been interviewed before and every experience is different. Whether or not you get the job, you'll always remember how you were treated by the company. 83% of candidates say that an unimpressive interview can make them change their mind about a potential employer. Since job seekers are empowered to be selective when considering opportunities, the experience they have during the recruitment process is crucial.
 
@@ -164,17 +164,17 @@ It's important to ensure that any candidate who interviews with Sourcegraph has 
 
 Candidates are understandably nervous and the interview process can be really stressful. Your attitude should convey that everything you do is to help them succeed and not fail. Creating a five star experience requires you to make sure your candidate's needs are met at every step of the hiring process. Conveying a consistent message about the value of your company and leading with kindness in every interaction is critical to Sourcegraph’s hiring brand.
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2827%29.png)
+![Image stating the goal that every candidate should exit interviews feeling good and thinking that sourcegraph is THE place to work. Strategies for accomplishing this include the sandwich technique, transparency, and pacing yourself so the candidate has time to ask questions.](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2827%29.png)
 
 We want to make sure that every single candidate who interviews with us, regardless of hiring outcome, feels good. Be sure to provide them with an experience where they was to go tell their friends, their family, their networks and say, “despite the fact that I didn't get hired, Sourcegraph seems like an incredible company, I felt super respected throughout the process, and it was the best interview experience that I've ever had, bar none.”
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2828%29.png)
+![Side showing example candidate survey questions such as: "overall my interview experience was a positive one" and "The position was clearly explained to me".](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2828%29.png)
 
 We use an anonymous candidate survey through Greenhouse to gather data and feedback on our candidate experience and recruiting process. [Click here](https://www.greenhouse.io/guidance/a-quick-guide-to-improving-candidate-experience-with-candidate-surveys) to see more information about the Greenhouse candidate survey.
 
 Every candidate is going to get surveyed with these questions, which are automatically sent 24 hours after we have either hired or rejected them. We are able to pull reports to see where we're hitting the mark and where we're missing the mark, which, of course we're going to take immediate action to rectify and put processes in place to make it better.
 
-![Alt Text](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2829%29.png)
+![Slide stating "Questions?"](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2829%29.png)
 
 **Any questions?** Please do not hesitate to reach out to us in the #hiring Slack channel.
 
