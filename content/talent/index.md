@@ -64,6 +64,82 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## Talent Team Members
 
+<section>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Carly Jones" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Carly Jones</div>
+        <div style="text-align: center; font-size: 12px;">VP of Talent</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Devon-Bitmoji.jpg" alt="Picture of Devon Coords" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Devon Coords</div>
+        <div style="text-align: center; font-size: 12px;">Director, Technical Recruiting</div>
+        <div style="text-align: center; font-size: 10px;">Engineering, Product, and Customer Support</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#frey-andersson" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Frey Andersson" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Frey Andersson</div>
+        <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
+        <div style="text-align: center; font-size: 10px;">Engineering</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#win-yu-hehis" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of win Yu" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Win Yu</div>
+        <div style="text-align: center; font-size: 12px;">Technical Talent Sourcer</div>
+        <div style="text-align: center; font-size: 10px;">Talent Research for the Technical Recruiting Team</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Kemper Hamilton" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Kemper Hamilton</div>
+        <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
+        <div style="text-align: center; font-size: 10px;">Product and Engineering</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Kelsey-Bitmoji.jpg" alt="Picture of Kelsey Nagel" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Kelsey Nagel</div>
+        <div style="text-align: center; font-size: 12px;">Corporate Recruiter</div>
+        <div style="text-align: center; font-size: 10px;">Marketing, Finance, Legal, BizOps, and People Ops</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 - [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
 
 Technical Recruiting Team
