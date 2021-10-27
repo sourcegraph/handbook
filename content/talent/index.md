@@ -105,7 +105,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
       <div>
         <div>
           <a href="../../../company/team/index.md#win-yu-hehis" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of win Yu" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Win Yu" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Win Yu</div>
@@ -138,39 +138,79 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
       </div>
     </div>
   </div>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Marija Petrovic" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Marija Petrovic</div>
+        <div style="text-align: center; font-size: 12px;">Senior Sales Recruiter, Team Lead</div>
+        <div style="text-align: center; font-size: 10px;">Sales and Customer Engineering </div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-Bitmoji.jpg" alt="Picture of Grace Bohl" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Grace Bohl</div>
+        <div style="text-align: center; font-size: 12px;">Sales Recruiter</div>
+        <div style="text-align: center; font-size: 10px;">Sales</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Trevor Houghton" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Trevor Houghton</div>
+        <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
+        <div style="text-align: center; font-size: 10px;">Corporate Functions</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
+        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
+        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
+        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+      </div>
+    </div>
+  </div>
 </section>
 
-- [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
-
-Technical Recruiting Team
-
-- [Devon Coords](../company/team/index.md#devon-coords-she-her), Director, Technical Recruiting
-  - Engineering
-  - Product
-  - Support
-- [Frey Andersson](../company/team/index.md#frey-andersson), Technical Recruiter
-  - Engineering
-- [Win Yu](../company/team/index.md#win-yu-hehis), Technical Talent Sourcer
-  - Talent research for the technical recruiting team
-- [Kemper Hamilton](../company/team/index.md#kemper-hamilton-sheher), Recruitment Operations Specialist
-  - Interview scheduling for technical recruiters
-  - Recruitment branding
-
-Corporate Recruiting Team
-
-- [Kelsey Nagel](../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
-  - Marketing
-  - Finance
-  - Legal
-  - BizOps
-  - People Operations
-- [Marija Petrovic](../company/team/index.md#marija-petrovic-she-her), Senior Sales Recruiter, Team Lead
-  - Sales
-  - Customer Engineering
-- [Grace Bohl](../company/team/index.md#grace-bohl-sheher), Sales Recruiter
-  - Sales
-- [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
-  - Interview scheduling for corporate recruiters
 
 ## Recruitment Branding & Social Media
 
