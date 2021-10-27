@@ -70,7 +70,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
       <div>
         <div>
           <a href="../../../company/team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Carly Jones" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Carly-Bitmoji.png" alt="Picture of Carly Jones" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Carly Jones</div>
@@ -143,7 +143,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
       <div>
         <div>
           <a href="../../../company/team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Marija Petrovic" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Marija-Bitmoji.png" alt="Picture of Marija Petrovic" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Marija Petrovic</div>
