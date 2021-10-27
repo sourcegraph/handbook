@@ -22,9 +22,9 @@ Unconscious biases cause us to make a snap judgment of a candidate within the fi
 
 So in interviewing, the question becomes: how do we prevent them from impacting our hiring decisions? In other words, how do we rely on data and facts to make decisions, rather than our gut?
 
-- 1. The first way that we can prevent unconscious bias is to take the Harvard implicit bias test. We strongly encourage all our teammates to take this test if you're interested in learning more about your personal biases. It's okay that we all have these, but awareness of them should work towards reducing them to the best of our ability.
-- 2. The second way to prevent unconscious bias is to consider likeability. We tend to want to hire people who remind us of ourselves. Make sure you're asking yourself, does the person I'm interviewing have the innate will, skill, and values to succeed in the role? We should not hire based on whether they grew up in the same place, have the same hobbies, etc. We really should not be leveraging those things to make a decision one way or another.
-- 3. Finally, stick to an interview script. Our hiring managers work hard at the beginning of every process to create an interview plan. An interview plan is a structured interview process that every candidate goes through regardless of background and it ensures that they are all asked the exact same questions to level the playing field. Asking those structured interview questions helps to reduce bias from affecting our decision making.
+1. The first way that we can prevent unconscious bias is to take the [Harvard implicit bias test](https://implicit.harvard.edu/implicit/takeatest.html). We strongly encourage all our teammates to take this test if you're interested in learning more about your personal biases. It's okay that we all have these, but awareness of them should work towards reducing them to the best of our ability.
+2. The second way to prevent unconscious bias is to consider likeability. We tend to want to hire people who remind us of ourselves. Make sure you're asking yourself, does the person I'm interviewing have the innate will, skill, and values to succeed in the role? We should not hire based on whether they grew up in the same place, have the same hobbies, etc. We really should not be leveraging those things to make a decision one way or another.
+3. Finally, stick to an interview script. Our hiring managers work hard at the beginning of every process to create an [interview plan](resources_for_hiring_managers.md#the-interview-process). An interview plan is a structured interview process that every candidate goes through regardless of background and it ensures that they are all asked the exact same questions to level the playing field. Asking those structured interview questions helps to reduce bias from affecting our decision making.
 
 ### 2. Structured interviewing
 
@@ -32,7 +32,7 @@ Research has shown, time and time again, that establishing a consistent set of i
 
 All of our questions are written in a behavioral-based, open-ended format, and **all candidates are asked the exact same questions**. The best way to create an open ended question is to just put, “tell me” in front of every single question you ask. For example, “tell me a time when, tell me how, or tell me why.” It is important to ensure they’re behavioral based questions that are specific about past experiences. This helps us predict future behavior. At Sourcegraph, we should try to avoid any hypothetical questions.
 
-All teammates at Sourcegraph leverage a recording tool called BrightHire to standardize our process and reduce bias. [This video](https://www.loom.com/share/8be5ba749fc045faafd577998bdeabf7) explains the benefits of BrightHire. We believe that candidates should be assessed based on their merits, not our memories. BrightHire allows us to recall key details, revise initial impressions, and replace implicit bias with explicit evidence. BrightHire rides along in your phone and Zoom interviews with an interactive notepad. All you need is the Chrome extension and Zoom and you’re all set. It allows us to pull all of those structured questions that our hiring manager created right into your Zoom meeting.
+All teammates at Sourcegraph leverage a recording tool called Brighthire to standardize our process and reduce bias. [This video](https://www.loom.com/share/8be5ba749fc045faafd577998bdeabf7) explains the benefits of BrightHire. We believe that candidates should be assessed based on their merits, not our memories. BrightHire allows us to recall key details, revise initial impressions, and replace implicit bias with explicit evidence. BrightHire rides along in your phone and Zoom interviews with an interactive notepad. All you need is the Chrome extension and Zoom and you’re all set. It allows us to pull all of those structured questions that our hiring manager created right into your Zoom meeting.
 
 Please see BrightHire frequently asked questions [here](./hiring/guide_to_using_brighthire.md).
 
@@ -42,7 +42,7 @@ Please see BrightHire frequently asked questions [here](./hiring/guide_to_using_
 
 ![Slide that says "The Legal Rules"](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2811%29.png)
 
-Another reason we have pre-determined, structured interview questions is because it helps us avoid asking illegal questions. As an interviewer, all questions provided to you in your Greenhouse interview scorecard are written in a legal fashion. However, we understand that sometimes conversations can get off track or there are situations where you need to ask follow up questions to get to the root of an answer, so we want you to be aware of the legal rules.
+Another reason we have pre-determined, structured interview questions is because it helps us avoid asking illegal questions. As an interviewer, all questions provided to you in your Greenhouse interview scorecard are written in a legal fashion. However, we understand that sometimes conversations can get off track or there are situations where you need to ask follow up questions to get to the root of an answer, so we want you to be aware of the legal rules. Please review federal EEO laws, your state and country's employment laws, and your internal counsel when necessary.
 
 ### What questions are illegal?
 
@@ -73,7 +73,7 @@ Now that you have an understanding of 1. Unconscious bias 2. Structured intervie
 
 These are some pillar steps that every single candidate goes through, regardless of which position they're interviewing for.
 
-- The recruiter screen is where we talk about compensation, questions around location, and conduct an overall qualification assessment to make sure that candidates are going to be a strong fit based on our alignment with the hiring manager.
+- The recruiter screen is where we talk about compensation and conduct an overall qualification assessment to make sure that candidates are going to be a strong fit based on our alignment with the hiring manager.
 - We then transition to a hiring manager screen. This is normally 30 minutes. If we're doing a deep dive, sometimes it's 60 minutes.
 - We then transition candidates to an assessment for some roles, but not all. The talent team will work with the hiring manager to determine if there's an assessment stage and will depend on them to build it out.
 - Next is the in-depth interview stage. This is not standardized for all roles. One of the things we're rolling out in a kind of beta testing with some hiring managers is what's known as a resume deep dive or a topgrade. Some studies have shown that this reduces a mishire rate of over 50% down to 10%. I'll train people who are interested and then once we've tested it enough internally we can determine if it makes sense to have that be mandatory across all interviews at Sourcegraph.
@@ -98,7 +98,7 @@ How to prepare for your interview:
 
 How to kick off your interview:
 
-- Launch BrightHire from Google Calendar by clicking the “interview with BrightHire” button. It will pull up both the Zoom recording as well as your Chrome extension which will guide you through your structured questions.
+- Launch BrightHire from Google Calendar by clicking the “Interview with BrightHire” button. It will pull up both the Zoom recording as well as your Chrome extension which will guide you through your structured questions.
 
 ![Image showing the ideal interview structure of first developing rapport, introductions, and agenda. Second, asking behavioral-based questions. Third, answering questions, building more rapport, and selling Sourcegraph](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2823%29.png)
 
@@ -138,13 +138,13 @@ If you ask a candidate to tell you a problem that they identified and then took 
 
 Whatever it takes to drill down to actually get an answer that allows you to confidently determine that they either embody a particular value or they do not. Those follow up questions are not scripted and it’s where interviewers will need to be mindful of the legal training.
 
-It is your responsibility to make the candidate feel comfortable and remind them that this is not a marathon. They should take a pause and think about their answer. I've been a candidate, too, and sometimes you just want to answer everything and not take your time to think about it. If I notice that a candidate is getting nervous or starting to slip up on their words, it is perfectly fine to say, “I want you to take a breath and take a pause. This is just a conversation, and it is equally as important for you to ask me questions and get to know me. So please take a second and feel free to regroup.” Often candidates are able to decompress and calm down and they end up doing great.
+It is your responsibility to make the candidate feel comfortable and remind them that this is not a marathon. They should take a pause and think about their answer. We've all been a candidate, too, and sometimes you just want to answer everything and not take your time to think about it. If you notice that a candidate is getting nervous or starting to slip up on their words, it is perfectly fine to say, “I want you to take a breath and take a pause. This is just a conversation, and it is equally as important for you to ask me questions and get to know me. So please take a second and feel free to regroup.” Often candidates are able to decompress and calm down and they end up doing great.
 
 ### Providing feedback
 
 ![Screenshot of our Greenhouse scorecard and a reminder that a structured scorecard prevents judging candidates based on gut instinct and feelings](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2825%29.png)
 
-- Please provide feedback as soon as possible, ideally no later than 24 hours after the interview, so that we can move quickly and ensure a positive candidate experience. You can use Brighthire to review the interview and copy / paste notes at a later time, but please try your best to get in the habit of submitting feedback directly after the interview since recall reduces by 44% after one hour. Feedback is best when you use the attributes to help score responses.
+- Please provide feedback as soon as possible, ideally no later than 24 hours after the interview, so that we can move quickly and ensure a positive candidate experience. You can use **Brighthire** to review the interview and copy / paste notes at a later time, but please try your best to get in the habit of submitting feedback directly after the interview since recall reduces by 44% after one hour. Feedback is best when you use the attributes to help score responses.
 - Most importantly, please do not talk to anybody else about their feedback if you were in a panel interview. If somebody went right before you went right after you, please don't ask for their feedback until you have officially filled yours out. That is a surefire way to introduce bias into your decision making. You should feel conviction in your process and your assessment of the candidate. If we notice that some candidate has gotten a couple yeses and a no, we will bring the team together to talk about it and determine why that happened. We can leverage BrightHire again here to see if there was a miscommunication or if their story was inconsistent. BrightHire will allow us to dig deeper if the panel did not agree on a decision.
 - Please leverage the definitions in this interview feedback [overall recommendation guide](./interview_process.md#overall-recommendation) when rating candidates in Greenhouse. It’s natural to want to make hiring decisions based on comparison points. As you talk to more people, you can start to understand where certain candidates fall in comparison. That being said, we should avoid the “shopping effect” - where we feel like we need to talk to five or 10 candidates in order to make a hiring decision. Sometimes it’s the first candidate we talk to that’s the best fit, and by the time we’ve talked to all of the other folks, we’ve lost that person.
 
@@ -172,7 +172,7 @@ We want to make sure that every single candidate who interviews with us, regardl
 
 We use an anonymous candidate survey through Greenhouse to gather data and feedback on our candidate experience and recruiting process. [Click here](https://www.greenhouse.io/guidance/a-quick-guide-to-improving-candidate-experience-with-candidate-surveys) to see more information about the Greenhouse candidate survey.
 
-Every candidate is going to get surveyed with these questions, which are automatically sent 24 hours after we have either hired or rejected them. We are able to pull reports to see where we're hitting the mark and where we're missing the mark, which, of course we're going to take immediate action to rectify and put processes in place to make it better.
+Every candidate is going to get surveyed with these questions, which are automatically sent 48 hours after we have either hired or rejected them. We are able to pull reports to see where we're hitting the mark and where we're missing the mark, which, of course we're going to take immediate action to rectify and put processes in place to make it better.
 
 ![Slide stating "Questions?"](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%2829%29.png)
 
