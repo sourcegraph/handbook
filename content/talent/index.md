@@ -211,7 +211,6 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   </div>
 </section>
 
-
 ## Recruitment Branding & Social Media
 
 - Coming Soon...
