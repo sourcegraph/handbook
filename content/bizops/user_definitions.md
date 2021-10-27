@@ -44,7 +44,7 @@ Time periods we track:
 - Weekly active user (WAU)
 - Monthly active user (MAU)
 
-Monthly is the most common reference frame we use.
+Monthly is the most common reference frame we use, although we also use weekly within quarterly OKRs to help ensure we are able to impact the metric within the time period.
 
 ## Unique Sourcegraph users
 
