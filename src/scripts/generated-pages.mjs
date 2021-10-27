@@ -62,7 +62,7 @@ async function generateMaturityPage(features, maturityLevels, productAreas, prod
     }
 
     await writeFile(tiersFilePath, pageContent)
-    console.log('Created ' + tiersFilePath)
+    console.log('  ' + tiersFilePath)
 }
 
 async function generateCompatibilityPage(features, productAreas, productOrgs, codeHosts) {
@@ -116,8 +116,10 @@ async function generateCompatibilityPage(features, productAreas, productOrgs, co
     }
 
     await writeFile(tiersFile, pageContent)
-    console.log('Created ' + tiersFile)
+    console.log('  ' + tiersFile)
 }
+
+console.log('Creating generated pages..')
 
 // Load YAML files
 const features = await readYamlFile('data/features.yml')
@@ -129,4 +131,4 @@ const codeHosts = await readYamlFile('data/code_hosts.yml')
 await generateMaturityPage(features, maturityLevels, productAreas, productOrgs)
 await generateCompatibilityPage(features, productAreas, productOrgs, codeHosts)
 
-console.log("Successfully created all generated pages.\n")
+console.log('Successfully created all generated pages.\n')
