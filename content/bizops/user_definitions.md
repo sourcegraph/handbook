@@ -1,6 +1,6 @@
 # User metrics definitions
 
-We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (turning them into active users), and retention (keeping them month to month).
+We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (turning them into active users), and retention (user remains active in our product).
 
 ## User states
 
@@ -19,14 +19,11 @@ Users can be in a number of different states. We track the following categories 
 
 ### What is a visitor?
 
-A visitor is a unique person (unique to the instance being measured) who showed up on the site and did anything (or nothing at all, apart from viewing the page.) This is important to measure because each of these users is potentially an active user, but it's also important that we don't count anyone who uses the product as an active user so that we can measure success of our features that are intended to convert them.
-What is an activated user?
-
-An activated user is a user who has established the core habit of the product. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as a user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established). Activation is this entire journey. Our current definition is the user performs a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active), but this needs to be iterated on.
+A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page). Currrently a unique person cannot be identified between our on-premises & cloud solution, in other words when aggregating data across our deployment solution one person could be counted as a "unique person" twice.  It is important to measure unique visitor because each of these visitors is potentially an active user.  It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
 
 ### What is an active user?
 
-An active user is differentiated from a visitor by performing a qualifying event, which are intended to represent someone who has actively **engaged with** and **received value** from the product; something that takes a user from their first Search to establishing a habit around the core value proposition of the app. Qualifying events are [listed as 'Active' in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=live)
+An activated user is a user who has established the core habit of the product. An active user is differentiated from a visitor by performing a qualifying event, which are intended to represent someone who has actively **engaged with** and **received value** from the product; something that takes a user from their first Search to establishing a habit around the core value proposition of the app. Qualifying events are [listed as 'Active' in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=live)
 
 Qualifying events are not intended to be difficult, or prove that someone is a heavy user of the product. They are carefully selected to represent activities that are important to realizing the value of Sourcegraph.
 
@@ -34,7 +31,7 @@ Performing any single activity in the above list makes a user "active" for the t
 
 ### What is a retained user?
 
-A user is retained if they were active within a measured period if they were active in both the current and previous periods.
+A user is retained if they qalified as an active user (as defined above) within a measured period if they were active in both the current and previous periods.
 
 ## Time periods
 
@@ -43,8 +40,6 @@ Time periods we track:
 - Daily active user (DAU)
 - Weekly active user (WAU)
 - Monthly active user (MAU)
-
-Monthly is the most common reference frame we use, although we also use weekly within quarterly OKRs to help ensure we are able to impact the metric within the time period.
 
 ## Unique Sourcegraph users
 
@@ -74,7 +69,7 @@ Additional Resources:
 
 ## How are users calculated?
 
-Our metrics infrastructure (Looker) gets user counts from our event_logs table (either directly or indirectly).
+Our metrics infrastructure gets user counts from our event_logs table (either directly or indirectly).
 
 ### On-Prem Instances
 
