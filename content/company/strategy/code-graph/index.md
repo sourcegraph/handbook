@@ -51,7 +51,7 @@ We also set our goals around these themes, sou can see current (Q4 2021) goals a
 
 Learning what's possible and how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases and interests for which they would benefit from exploring. Making onboarding and interaction easier also helps our users and sales teams demonstrate the value of our product more quickly than is possible today.
 
-- Measure and increase [WAU](../../../bizops/user_definitions.md) for product areas that are important to paid adoption by 15%. For most teams this will require understanding and improving time-to-value as a driver for increasing active users. (All Teams)
+- Measure and increase [WAU](../../../bizops/user_definitions.md) for [customer facing product areas](https://github.com/sourcegraph/handbook/blob/main/data/product_areas.yml) by 15%. For most teams this will require understanding and improving time-to-value as a driver for increasing active users. (All Teams)
 - Make it easier to adopt Batch Changes by fixing top three changeset syncing and permission configuration issues. ([Batch Changes](./batch-changes/index.md))
 - 3 customers with >1 Search Notebook, demonstrating initial traction for this feature and proving the value of Search Notebooks for sharing explanations of code. ([Search Product](./search/index.md))
 
