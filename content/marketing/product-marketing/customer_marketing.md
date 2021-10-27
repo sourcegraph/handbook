@@ -18,3 +18,4 @@ We're always looking to share how our customers use Sourcegraph. If there's a cu
 
 - [Customer Advisory Board overview](https://docs.google.com/document/d/1zj7cqhRYvkeTOPLrh4FqF9VoEwZjA9aFPBffGd2EF9w/edit)
 - [Customer story roadmap](https://app.asana.com/0/1199993720289911/board)
+- [Approved customer quotes](https://docs.google.com/spreadsheets/d/1A4B_4SlFZllMEQ6183TrjP2vWt935eJ08EcPI59MUkE/edit#gid=0)
