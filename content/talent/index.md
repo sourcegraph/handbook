@@ -13,11 +13,13 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## [Resources for Hiring Managers](./resources_for_hiring_managers.md)
 
-- [The interview process](./interview_process.md)
-  - [Types of interviews](./types_of_interviews.md)
+- How to kick off a new search
   - [Opening a new job](./resources_for_hiring_managers.md#the-interview-process)
   - [Writing a job description](./resources_for_hiring_managers.md#the-interview-process)
   - [Creating an interview plan](./resources_for_hiring_managers.md#the-interview-process)
+  - [Who is my Recruiter?](https://handbook.sourcegraph.com/talent#talent-team-members)
+- [The interview process](./interview_process.md)
+  - [Types of interviews](./types_of_interviews.md)
   - [Scheduling an interview](./resources_for_hiring_managers.md#scheduling)
   - [Extending an offer](./resources_for_hiring_managers.md#3-offer-stage)
 - Interviewing
