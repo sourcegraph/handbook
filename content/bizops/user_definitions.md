@@ -1,6 +1,6 @@
 # User metrics definitions
 
-We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (turning them into active users), and retention (user remains active in our product).
+We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (turning them into active users), and retention (user remains active).
 
 ## User states
 
