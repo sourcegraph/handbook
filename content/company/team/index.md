@@ -1505,7 +1505,7 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Orange County, CA, USA 🇺🇸
 - GitHub: [carterjaenichen](https://github.com/carterjaenichen)
 - [carter.jaenichen@sourcegraph.com](mailto:carter.jaenichen@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/carterjaenichen/)
-- Carter lives in Orange County, CA with his girlfriend Kelsey, and 3 dogs (Dogs are awesome). He loves sports, specifically football, basketball, golf, and snowboarding. He is striving to grow personally, professionally, and financially. Carter is people's person and loves meeting new people; probably the reason he is pursuing a career in sales.
+- Carter lives in Orange County, CA with his girlfriend Kelsey, and 3 dogs (Dogs are awesome). He loves sports, specifically football, basketball, golf, and snowboarding. He is striving to grow personally, professionally, and financially. Carter is an extrovert and loves meeting new people; probably the reason he is pursuing a career in sales.
 
 ## Keely Aguayo (she/her)
 
