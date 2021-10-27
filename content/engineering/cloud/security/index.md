@@ -18,12 +18,12 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 - [security@sourcegraph.com](mailto:security@sourcegraph.com)
 - #security channel Slack.
-- [@sourcegraph/security](https://github.com/orgs/sourcegraph/teams/security) on GitHub.
+- @sourcegraph/security on GitHub.
 - [report a vulnerability](reporting-vulnerabilities.md)
 
 ## Goals and priorities
 
-See [security goals and priorities](../../../direction/cloud/security/index.md)
+See [security goals and priorities](../../../company/strategy/cloud/security/index.md)
 
 ## Onboarding
 

@@ -58,6 +58,7 @@ We always want the following to be true:
 - **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.**
   - [FY22Q2 OKR plan](FY22Q2-OKR-Plan.md)
   - [FY22Q3 OKR plan](FY22Q3-OKR-Plan.md)
+  - [FY22Q4 OKR plan](FY22Q4-OKR-Plan.md)
 
 ### As an individual CSE...
 
@@ -70,6 +71,8 @@ As I complete my first 90 days (if not sooner), I know I am successful in my day
 5. I resolve the cases for which I am responsible in 7 days or less (on average)
 6. I rarely have more than 5 active cases at a time
 7. I work toward team self-sufficiency by always asking my teammates for input/help before engaging engineering and by ensuring what I learn along the way is reflected in our docs or the handbook (whichever is most relevant)
+
+You can see how you are performing toward some of these metrics by determining your Zendesk assignee ID ([instructions](https://support.zendesk.com/hc/en-us/articles/360044278093-How-can-I-locate-an-agent-ID-in-Support-) and filtering [our Looker dashboard](https://sourcegraph.looker.com/dashboards-next/177) on your ID.
 
 If ever you feel like success isn’t possible as outlined above, talk to your manager. Their job is to help figure out a path forward so you can feel like your favorite self whilst working (and hopefully whilst enjoying all other aspects of life, too!).
 
@@ -134,15 +137,18 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Team schedule](support-schedule.md)
 - [Organizational structure](support-org-structure.md)
 - [Team rituals](support-team-rituals.md)
+- [How we plan our OKRs](quarterly-planning.md)
 - [Workflow](support-workflow.md)
 - [Prioritization](support-prioritization.md)
 - [Customer exceptions](customer-exceptions.md)
 - [Engaging other teams](engaging-other-teams.md)
-- [P0 incident response](p0-Incident-Response.md)
+- [Serving as messenger during incidents](../engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
 - [Enablement](support-enablement.md)
 - [Tools](support-tools.md)
 - [Assigned CSEs](assigned-cse.md)
+- [Process: Permanently deleting user data](permanently_deleting_user_data.md)
+- [Business continuity](business-continuity-plan.md)
 
 ## SLAs
 
