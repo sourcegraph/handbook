@@ -21,6 +21,10 @@ We also use [per-area strategy pages](../../company/strategy/index.md#per-area-s
 
 All product engineering teams should have their own strategy page, and should update it on a monthly cadence (at the same time the [PMM roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) is updated) by proposing a new pull request to update their content. Everyone on the team should be invited to contribute, and the update should be shared with important stakeholders. This helps us keep everyone aligned, and ensures we have a single source of truth for our product directions. The specific day of the month that the team updates the doc is up to the team internally to decide, the important part is that it is never more than a month out of date.
 
+### Feature data
+
+We have several [feature matrix pages](../index.md#feature-reference) that are backed by data in the [data folder of the handbook project](https://github.com/sourcegraph/handbook). Product managers should keep these files up to date as part of their monthly direction page updates, as needed.
+
 ## Glossary
 
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
@@ -65,25 +69,6 @@ The reason for this is to avoid going for too long without customer feedback (fr
 
 When we have relaxed this in the past, the results have been bad and the overwhelming feedback from retrospectives has been to release regularly.
 
-## Sourcegraph’s design principles
-
-Sourcegraph’s product design principles are how we express our shared vision and values while designing for our product.
-
-We use our principles to:
-
-- To help our team make **consistent decisions**.
-- To **provide constraints** that lead to better outcomes.
-- To **resolve ambiguity** when faced with options that provide value among different dimensions.
-- To build a **shared vision** across our design and product team.
-
-Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZITYypSAJJ63Ir_fFPxJfTtidJmsrxUXW7o/edit#) with members of the design, product, and frontend application teams, and will benefit:
-
-- Designers.
-- Product managers.
-- Engineers.
-- Marketing.
-- And other stakeholders involved in the design process.
-
 ## Tools/Templates
 
 - [Strategy page template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/strategy_template.md) - a template for a product strategy page, covering vision, strategy and short term direction ([example](strategy_template.md))
@@ -91,6 +76,7 @@ Our principles were [co-created](https://docs.google.com/document/d/1zRbtZR68ZIT
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../bizops/amplitude.md)
 - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
+- [Running remote hackathons](../../company/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
 
 ## References
 

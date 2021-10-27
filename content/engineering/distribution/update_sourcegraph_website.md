@@ -14,7 +14,7 @@ Our site configuration contains many secrets like OAuth credentials. It is [stor
 1. Create a new secret version with the updated site configuration. Disable all previous versions.
 1. Run `terraform plan` in `sourcegraph/infrastructure/cloud`. You should see only the `frontend-secrets` resource being changed.
 1. Run `terraform apply` to apply the changes in our Cloud cluster
-1. Run `kubectl rollout restart -n prod deployments/sourcegraph-frontend`. Make sure you are connected to the Cloud cluster with `kubectl config current-context`.
+1. Run `kubectl rollout restart -n prod deployments/sourcegraph-frontend` and `kubectl rollout restart -n prod deployments/sourcegraph-frontend-internal`. Make sure you are connected to the Cloud cluster with `kubectl config current-context`.
 
 ### External services connections
 

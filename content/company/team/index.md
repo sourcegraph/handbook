@@ -54,7 +54,7 @@ For help adding yourself to this page, check out [these instructions](../../edit
 ## Rijnard van Tonder
 
 - Software Engineer
-- Phoenix, AZ, USA 🇺🇸
+- Las Vegas, NV, USA 🇺🇸
 - [rijnard@sourcegraph.com](mailto:rijnard@sourcegraph.com), [@rvtond](https://twitter.com/rvtond), [LinkedIn](https://www.linkedin.com/in/rijnard), [pronounce my name 🔊](https://www.name-coach.com/rijnard)
 - Rijnard just wants to stop the proliferation of bad code. Seriously, it's out of control. His favorite color is OCaml, and he collects stamps and flashlights. He currently lives a pretty untethered life while working for Sourcegraph. Incidentally, this aligns well with his goal of building future thinking dev tools that improve the state of software. Rijnard holds a PhD in Computer Science from Carnegie Mellon University, where his research focused on automated bug finding and bug fixing.
 
@@ -336,13 +336,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [joel@sourcegraph.com](mailto:joel@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/joelkwartler), [Github](https://github.com/Joelkw)
 - Joel is a west coast fanboy who grew up in Oregon and has since lived in Seattle, SF, and LA. He's bounced around the startup + design world at places like Figma and IDEO, and got a bachelor's in C.S. at Harvard. After hours, you might find him doing stand up, pretending he knows piano, or waking up way too early to take photographs. He's made the _Forbes 30 Under 30 List of Best Joel Kwartlers_ for 5 of the past 8 years.
 
-## Alan Harris (he/him)
-
-- Software Engineer
-- Arlington, VA, USA 🇺🇸
-- [alan@sourcegraph.com](mailto:alan@sourcegraph.com), [robot](https://github.com/flying-robot)
-- Alan lives in the DC metro area with his wife, cat and somewhat excessive collection of books. When not illuminated by the gentle glow of a monitor, you'll probably find him toiling away behind a drum kit or watching yet another horror movie from the 1980s (seriously, they're fantastic). Just a regular dude, and totally not three chipmunks in a trench coat.
-
 ## Joe Kirscher (he/him)
 
 - Strategy & Operations Manager
@@ -517,15 +510,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - Drøbak, Norway 🇳🇴
 - [olafurpg@sourcegraph.com](mailto:olafurpg@sourcegraph.com), [GitHub](https://github.com/olafurpg), [Twitter](https://twitter.com/olafurpg), [LinkedIn](https://linkedin.com/in/olafurpg).
 - Olaf is an Icelander who was born in Sweden and lives in Norway with his wife who he met at a sauna in Finland. Prior to Sourcegraph, Olaf worked on Scala developer tooling such as Scalafmt (code formatter), Scalafix (refactoring and linting tool), Metals (language server), BSP (Build Server Protocol) and SemanticDB (data model about code). In his spare time, Olaf likes to make delicious food and run in the woods.
-
-## Felipe Janer (he/him)
-
-- Software Engineer
-- Cali, Colombia 🇨🇴
-- GitHub: [5h1rU](https://github.com/5h1rU)
-- [felipe@sourcegraph.com](mailto:felipe@sourcegraph.com)
-- [name pronunciation](http://ipa-reader.xyz/?text=%2Ffeˈlipe%2F&voice=Joey) 🔊
-- Felipe lives in Cali, Colombia. He worked remotely for several New York based companies for almost eight years. This experience allowed him to build products from the ground, take critical technical decisions, lead projects, code a lot, and learn in the process. Outside of work, he loves to work out and watch every America de Cali soccer match.
 
 ## Malo Marrec (he/him)
 
@@ -770,13 +754,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [kmorris50](https://github.com/kmorris50)
 - [kendrick@sourcegraph.com](mailto:kendrick@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/kendrick-morris-3563b993)
 - Kendrick grew up in Houston, TX and now resides in San Francisco, CA. He graduated with a degree in Economics-Accounting & Government from Claremont McKenna College. Prior to Sourcegraph, Kendrick worked in the Deloitte San Francisco audit practice and currently holds a CPA license in California. He enjoys listening to podcasts, collecting vintage basketball cards, and driving just about anywhere for good barbecue.
-
-## John Harwell
-
-- Account Executive
-- Atlanta, GA USA 🇺🇸
-- [john.harwell@sourcegraph.com](mailto:john.harwell@sourcegraph.com), [Linkedin](https://www.linkedin.com/in/john-s-harwell/)
-- John enjoys spending time with his wife, Nicole, and 2 sons, Isaac and Owen, playing games (sports, board, card, video, puzzles, etc.), attending concerts, and traveling to new places. John has been in SaaS sales his entire professional career, much of that time in the project management space.
 
 ## Christy Haragan (she/her)
 
@@ -1052,14 +1029,6 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [alex.jean-baptiste@sourcegraph.com](mailto:alex.jean-baptiste@sourcegraph.com)
 - [Name pronunciation](https://www.name-coach.com/alex-jean-baptiste)
 - Alex is a Haitian-American 🇭🇹🇺🇸 information technologist and writer from Miami, Florida🌴. He is passionate about the arts. He enjoys hiking trails, visiting museums, and performing comedy🤣. He is done writing.
-
-## Zach Naidu
-
-- Sales Development Representative
-- San Francisco, California USA 🇺🇸
-- GitHub: [zachnaidu](https://github.com/zachnaidu)
-- [zach@sourcegraph.com](mailto:zach@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/zachnaidu/), [Twitter](https://twitter.com/ZachNaidu)
-- Zach is a native of Dallas, Texas and loves all things sports - especially the Dallas Mavericks. From a family of six with three loving sisters (Kaitlin, Chandler, and Olivia), Zach enjoys golfing, pickup basketball, and tossing a football. He was a sports columnist in college and also enjoys playing board/card games and competing in fantasy football with high school and college friends.
 
 ## Kelvin Lee (He/Him)
 
@@ -1603,9 +1572,51 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [rafal.gajdulewicz@sourcegraph.com](mailto:rafal.gajdulewicz@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/gajdulewicz/)
 - Rafal lives in Warsaw, Poland with his wife & 2 sons. Before Sourcegraph, Rafal worked as Software Engineer at Google, building UIs for Kubernetes-related products. In his free time, Rafal enjoys riding bicycles and motorcycles, surfing and snowboarding.
 
+
 ## Amber Smokowski 
 - Executive Business Partner, Sales and Marketing 
 - Full Time Traveller  ✈️ from Longmont, CO, USA 🏔
 - GitHub: [ambersmo](https://github.com/ambersmo)
 - [amber.smokowski@sourcegraph.com](mailto:amber.smokowski@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/ambersmo)
 - Amber is a digital nomad, with a love for overpriced cappuccinos and candles. In her free time, you'll find Amber and her boyfriend of 6 years, Jordan, on a constant pursuit to fill their bellies with the world's best foods (Indian, Mexican, and Italian are some of her favorites). Prior to Sourcegraph, Amber was working for an early stage travel startup out of Boulder, CO, USA where she found her passion for "doing work that moves the needle" and surrounding herself with smart people. It's a goal of hers to craft conversations that hit on the most substantial parts of people and never ask anyone what they do for a living.
+
+## Lauren Chapman (she/her)
+
+- Security Engineer
+- New Brunswick, Canada 🇨🇦
+- GitHub: [deflncha](https://github.com/deflncha)
+- [lauren.chapman@sourcegraph.com](mailto:lauren.chapman@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/chapman-lauren-202/)
+- Lauren lives in eastern Canada in the small province of New Brunswick with her two kitties Piper & Momo 🐱. Prior to Sourcegraph she worked as a Software Developer, Application Support Specialist, and Application Security Specialist - wearing many different "hats" over her career. In her free time shes loves board games (Catan, Forbidden Island, Pandemic) and to read personal biographies. Lauren also loves to talk about and advocate for mental health, therapy, and meditation 🪴 - all of which have been instrumental in her life.
+
+## Jordan Plahn (he/him)
+
+- Engineering Manager
+- Seattle, WA, USA 🇺🇸
+- GitHub: [jplahn](https://github.com/jplahn)
+- [jordan.plahn@sourcegraph.com](mailto:jordan.plahn@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/jplahn)
+- Jordan lives in Seattle, WA with his fiancée and fluffy Newfoundland. He was born in Houston, but lived in other countries for 12 years while growing up (Thailand, Egypt, Scotland). Jordan loves to explore the beautiful mountains of Washingotn, travel and eat, play golf, and spend way too much time (and money) chasing the perfect espresso shot. Before Sourcegraph, Jordan worked at Amazon for 6 years as a Software Engineer, Product Manager, and Engineering Manager.
+
+## Varun Gandhi (he/him)
+
+- Software Engineer
+- Berkeley, CA, USA
+- GitHub: [varungandhi-src](https://github.com/varungandhi-src)
+- [varun.gandhi@sourcegraph.com](mailto:varun.gandhi@sourcegraph.com), [Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)
+- After training as a physicist, Varun decided to take a hard left turn after being enamored by functional programming and compilers. Loving all things related to developer tools, Varun worked on the Swift compiler before joining Sourcegraph. In his spare time, Varun may be found learning a new language, watching a movie at the cinema, bopping to some kpop, or animatedly gesticulating at an Arsenal game.
+
+## Erin Laio (she/her)
+
+- Senior Executive Business Partner
+- Andover, MA, USA
+- GitHub: [erinlaio](https://github.com/erinlaio)
+- [erin.laio@sourcegraph.com](mailto:erin.laio@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/erin-laio/)
+- Erin lives in Andover, Massachusetts just north of Boston with her husband, 2 sons and her cheagle (made up breed) Penny. During quarentine she decided to make it a goal to craft the perfect vodka martini which took a lot less time than expected. Turns out finding the right ratio between two ingredients isn't that challenging but she's been enjoying the fruits of her labor ever since. Prior to Sourcegraph she worked at HubSpot for 5+ years as an Executive Assistant. Outside of work she loves to bake anything gluten free and start new craft projects she never finishes (currently working on a needlepoint, resin coasters and jewelry).
+
+## Jeff Warner (he/him)
+
+- Engineering Manager for Search Core
+- GitHub: [jjeffwarner](https://github.com/jjeffwarner)
+- [jeff.warner@sourcegraph.com](mailto:jeff.warner@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/jjeffwarner)
+- Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
+-
+

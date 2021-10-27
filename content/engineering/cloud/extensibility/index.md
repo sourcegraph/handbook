@@ -9,7 +9,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#sara-lee-sheher" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#sara-lee-sheher" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -20,7 +20,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#murat-sutunc-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#murat-sutunc-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -31,7 +31,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#beatrix-woo-sheher" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#beatrix-woo-sheher" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -43,7 +43,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#erzhan-torokulov-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#erzhan-torokulov-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -54,7 +54,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://handbook.sourcegraph.com/company/team#tharuntej-kandala-hehim" target="_blank" rel="noopener">
+          <a href="../../../company/team/index.md#tharuntej-kandala-hehim" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -118,7 +118,7 @@ _The extensibility team has many ownership areas, but not all of them are under 
 ## Contact
 
 - #extensibility channel or @extensibility on Slack
-- [team/extensibility](https://github.com/sourcegraph/sourcegraph/labels/team%2Fextensibility) label and [@sourcegraph/extensibility](https://github.com/orgs/sourcegraph/teams/extensibility) team on GitHub.
+- [team/extensibility](https://github.com/sourcegraph/sourcegraph/labels/team%2Fextensibility) label and @sourcegraph/extensibility team on GitHub.
 
 ## Tech stack
 
