@@ -132,8 +132,3 @@
     color: inherit;
     opacity: 0.8;
 }
-
-/* Ensure no content goes outside of wrapper within markdown body */
-.markdown-body .headingWrapper {
-    overflow-x: auto;
-}
