@@ -31,7 +31,7 @@ TO BE FILLED IN BY 2021-10-29.
 - Workgroup: Brielle, Nonso, Tamar, Virginia
 - Details: CS leadership will launch 3 types of case review practices in advance of 2021-12-09 in order to impact KR1:
   1.  Peer reviews (similar to the idea of code reviews)
-  2.  Manager reviews
+  2.  Manager reviews (which include self-review)
   3.  Retros on cases that take longer than a week to resolve (finishing what we started in Q3)
 
 ### 2 Healthy habits
