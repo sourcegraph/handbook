@@ -50,14 +50,19 @@ If you're not sure what the error message means or can't determine how to fix it
 
 #### Broken Link
 
-- Your error contains text like this:
-  - `handbook/company/orgchart.md: broken link to /sales/sales-ops#members`
+- The `check all links between pages are valid` Handbook check has failed.
+![Broken link Handbook check failure](https://storage.googleapis.com/sourcegraph-assets/handbook/broken-link-failure.png)
+- Click "details" to see more information, and you should see something like this:
+![Broken link error details](https://storage.googleapis.com/sourcegraph-assets/handbook/broken-link-details.png)
 - Breaking down the error:
-  - `handbook/company/orgchart.md`
-  - \* This is telling you what file is causing the failure. In this case, it’s something within the “Org Chart” page nested under the “Company” page.
-  - `broken link to /sales/sales-ops#members`
-  - This is telling you that the link to the “Sales Ops” page is broken. This can happen when a page is moved or deleted, and that link path no longer works.
-- **To Fix: **Visit the page where the broken link exists. Find that link within the page, and update the relative path to reflect the new location of the page. Or, if the page has been deleted, remove the link altogether. As always, don’t hesitate to ask @handbook-support in the #handbook Slack channel for help.
+  - `readmes/mary-belzer-readme.md`
+    - This is telling you that the link to the “Mary Belzer Readme” page is broken. This can happen when a page is moved or deleted, and that link path no longer works.
+- **To Fix: 
+  - First, you need to find the page where the broken link lives. In your PR, click the "Files Changed" tab.
+  - Scroll down until you see an error like this:
+![Broken link page details](https://storage.googleapis.com/sourcegraph-assets/handbook/broken-link-page-detail.png)
+  - This is telling you the broken link is on the `content/product/product-org.md` page.
+  - Visit the page where the broken link exists. Find that link within the page, and [update the relative path](linking-within-handbook.md) to reflect the new location of the page. Or, if the page has been deleted, remove the link altogether. As always, don’t hesitate to ask @handbook-support in the #handbook Slack channel for help.
 
 ### Merge Conflicts
 
