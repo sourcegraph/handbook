@@ -16,7 +16,7 @@ Whether hiring an internal candidate (someone who already works at Sourcegraph) 
 
 What does that mean?
 
-- All candidates go through the same interview process, regardless of whether they are an internal teammate or external applicant. The only difference is: internal candidates can skip the Values Interview, given that we have a pulse on this already. 
+- All candidates go through the same interview process, regardless of whether they are an internal teammate or external applicant. The only difference is: internal candidates can skip the Values Interview, given that we have a pulse on this already.
 - The role should be kicked off following the steps outlined [here](/talent/resources_for_hiring_managers#1-opening-a-new-job). The role and expectations for the role need to be clearly defined and written down in the form of a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
 - The team and interviewers are aligned on role expectations and how we are going to measure those things. An interview plan must be created and predetermined structured interview questions should be asked to all candidates.
 - We ensure that the person we hire meets the expectations of the role.
@@ -34,7 +34,7 @@ Because of these, we encourage our hiring managers to consider internal candidat
 
 ## Equitable process
 
-If a hiring manager from a team would like to invite someone from another team to consider an open role they have, they should follow the below steps: 
+If a hiring manager from a team would like to invite someone from another team to consider an open role they have, they should follow the below steps:
 
 1. In order to also ensure an equitable process and account for the reality that no one hiring manager would know the career ambitions of everyone at Sourcegraph, the hiring manager should post in #hiring that they are hiring for a role and, as with any role, we are happy to consider internal candidates, and that anyone interested should let them and their current manager know.
 1. If you, as a hiring manager, have a specific teammate in mind for the role, the next step is to schedule time with the person’s existing manager to confirm 1) that they are supportive, 2) ensure they are in good standing, and 3) align on transition timing plan assuming the teammate is offered the new job.
