@@ -11,7 +11,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
 ## Members
 
 - [Dan Mckeen](../../../company/team/index.md#dan-mckeen-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Jean du Plessis](../../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
+- [Jordan Plahn](../../../company/team/index.md#jordan-plahn-hehim) ([Engineering Manager](../../roles.md#engineering-manager))
   - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
   - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta-he-him)
 
