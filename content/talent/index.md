@@ -129,7 +129,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
       <div>
         <div>
           <a href="../../../company/team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Kelsey-Bitmoji.jpg" alt="Picture of Kelsey Nagel" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Kelsey-%20Bitmoji.jpg" alt="Picture of Kelsey Nagel" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Kelsey Nagel</div>
@@ -155,7 +155,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
       <div>
         <div>
           <a href="../../../company/team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-Bitmoji.jpg" alt="Picture of Grace Bohl" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-%20Bitmoji.jpg" alt="Picture of Grace Bohl" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Grace Bohl</div>
@@ -167,7 +167,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
       <div>
         <div>
           <a href="../../../company/team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Trevor Houghton" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg" alt="Picture of Trevor Houghton" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Trevor Houghton</div>
