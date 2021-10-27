@@ -70,6 +70,8 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Design team onboarding](./onboarding/index.md)
 - [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
 - [Surfacing design needs](./surfacing_design_needs/index.md)
+- [Design and Interaction Guidleines](design-and-interaction-guidelines.md)
+- [Design Process](design_process.md)
 
 ## Collaboration
 
