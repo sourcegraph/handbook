@@ -2,7 +2,7 @@
 
 This page describes processes and tips for holding remote hackathons. Everything on this page should be taken as a suggestion – you can decide whether or not something should apply to an individual future hackathon.
 
-See also [Blog Hackathon](../../marketing/content/editorial/blog_hackathon) which describes how the content team has run hackathons.
+See also [Blog Hackathon](../../marketing/content/editorial/blog_hackathon.md) which describes how the content team has run hackathons.
 
 ## Size
 
