@@ -21,7 +21,7 @@ christina_forney:
   role: 'VP Product'
   location: 'Woodside, CA, USA 🇺🇸'
   github: '[christinaforney](https://github.com/christinaforney)'
-  pronunciation: 'Name pronunciation: [krɪsˈtiːnə ˈfɔrnɪ](http://ipa-reader.xyz/?text=kr%C9%AAs%CB%88ti%CB%90n%C9%99%20%CB%88f%C9%94rn%C9%AA&voice=Kendra)'
+  pronunciation: '[krɪsˈtiːnə ˈfɔrnɪ](http://ipa-reader.xyz/?text=kr%C9%AAs%CB%88ti%CB%90n%C9%99%20%CB%88f%C9%94rn%C9%AA&voice=Kendra)'
   links: '[christina@sourcegraph.com](mailto:christina@sourcegraph.com), [@christina4nee](https://twitter.com/christina4nee), [LinkedIn](https://www.linkedin.com/in/christinaforney)'
   description: 'Christina loves riding and spending time with her two horses, Comet and Bentley. Prior to Sourcegraph, she merged her love of horses and software development by running product and engineering at an equine nutrition company. At Sourcegraph, she has returned to her roots and passion for developer productivity tools.'
 
@@ -89,7 +89,7 @@ joe_chen:
 vanesa_ortiz:
   name: 'Vanesa Ortiz'
   pronouns: 'she/her'
-  pronunciation: 'Name pronunciation: /[ˈvanɛsa ɔɹˈtiz](http://ipa-reader.xyz/?text=%5B%CB%88van%C9%9Bsa%20%C9%94%C9%B9%CB%88tiz%5D&voice=Penelope)/'
+  pronunciation: '/[ˈvanɛsa ɔɹˈtiz](http://ipa-reader.xyz/?text=%5B%CB%88van%C9%9Bsa%20%C9%94%C9%B9%CB%88tiz%5D&voice=Penelope)/'
   role: 'Community Advocate'
   location: 'San Francisco, CA, USA 🇺🇸'
   github: '[vanesa](https://github.com/vanesa)'
@@ -148,7 +148,7 @@ tomás_senart:
   location: 'Lisbon, Portugal 🇵🇹 / Berlin, Germany 🇩🇪'
   github: '[tsenart](https://github.com/tsenart)'
   links: '[tomas@sourcegraph.com](mailto:tomas@sourcegraph.com), [@tsenart](https://twitter.com/tsenart), [LinkedIn](https://www.linkedin.com/in/tsenart/)'
-  pronunciation: 'Name pronunciation: /[to.ˈmas](http://ipa-reader.xyz/?text=to.%CB%88mas&voice=Cristiano)/'
+  pronunciation: '/[to.ˈmas](http://ipa-reader.xyz/?text=to.%CB%88mas&voice=Cristiano)/'
   description: 'Tomás started fiddling with computers because he was fascinated with how hackers were depicted in Hollywood movies. He has since moved on to not only build distributed systems but also distributed teams. Before Sourcegraph he’s been at companies like Apple, Mesosphere, Thomson Reuters and Soundcloud. In his free time he likes to spend time with his partner, play Chess and Rocket League, eat great food, hit the gym and read books.'
 
 geoffrey_gilmore:
@@ -250,7 +250,7 @@ adam_harvey:
   location: 'Vancouver, Canada 🇨🇦'
   github: '[LawnGnome](https://github.com/LawnGnome)'
   links: '[aharvey@sourcegraph.com](mailto:aharvey@sourcegraph.com), [@LGnome](https://twitter.com/LGnome)'
-  pronunciation: 'Name pronunciation: [/ˈadəm hˈɑːvi/](http://ipa-reader.xyz/?text=%CB%88ad%C9%99m%20h%CB%88%C9%91%CB%90vi&voice=Brian)'
+  pronunciation: '[/ˈadəm hˈɑːvi/](http://ipa-reader.xyz/?text=%CB%88ad%C9%99m%20h%CB%88%C9%91%CB%90vi&voice=Brian)'
   description: "Adam plays cricket, yells at hockey teams, and spends an inordinate amount of time convincing his golden retriever to drop things. He started his technology journey with an IBM XT in the 80s, and never looked back once he discovered the GW-BASIC `RENUM` command. Technologically, Adam enjoys programming language design, convincing runtimes to work on hardware they weren't designed to, and deluding himself that abusing CSS animations is exactly what his film degree qualified him to do."
 
 mark_muldez:
@@ -325,7 +325,7 @@ chris_pine:
   location: 'Portland, OR, USA 🇺🇸'
   github: '[Github](https://github.com/chrispine)'
   links: '[chrispine@sourcegraph.com](mailto:chrispine@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/chris-pine-4b188272/), [Twitter](https://twitter.com/OtherChrisPine)'
-  pronunciation: 'Name pronunciation: /[kɹɪs paɪn](http://ipa-reader.xyz/?text=k%C9%B9%C9%AAs%20pa%C9%AAn&voice=Joanna)/'
+  pronunciation: '/[kɹɪs paɪn](http://ipa-reader.xyz/?text=k%C9%B9%C9%AAs%20pa%C9%AAn&voice=Joanna)/'
   description: "Chris started his career making games, working on Civilization III and Alpha Centauri. Chris also spent several years working at Opera Software in Norway, mainly on Opera's Ecmascript engine. Somewhere in there, Chris accidentally wrote a book, [Learn to Program](https://pragprog.com/titles/ltp3/learn-to-program-third-edition/). At New Relic, Chris moved into management, and (much to his surprise) loved it! Chris lives with his spouse (Katy), their three kids (C, Ruby, and Apl), three rats, a little dog, and an ancient grey cat. Hobbies include the boardgame Go, failing to play the guitar, and spiritual inquiry (mostly Tao, Zen, and Alan Watts). Chris really (like really) loves parentheses."
 
 gregg_stone:
@@ -341,7 +341,7 @@ noah_santschi-cooney:
   pronouns: 'he/him'
   role: 'Software Engineer'
   location: 'Wexford, Ireland 🇮🇪'
-  pronunciation: 'Name pronunciation: /[noʊə santʃi kuːnɪ](http://ipa-reader.xyz/?text=no%CA%8A%C9%99%20sant%CA%83i%20ku%CB%90n%C9%AA&voice=Amy)/'
+  pronunciation: '/[noʊə santʃi kuːnɪ](http://ipa-reader.xyz/?text=no%CA%8A%C9%99%20sant%CA%83i%20ku%CB%90n%C9%AA&voice=Amy)/'
   github: '[strum355](https://github.com/strum355)'
   links: '[noah@sourcegraph.com](mailto:noah@sourcegraph.com), [LinkedIn](https://linkedin.com/in/strum355), [Twitter](https://twitter.com/strum355)'
   description: 'Noah is a half Swiss 🇨🇭 half Irish 🇮🇪 UCC CS graduate who spends his time evangelising the Actor model, containers (not of the shipping variety), his favourite programming languages and complaining about subpar editor experiences. Sometime in the past, the last point drove him over the edge and into the world of language servers. Previously he was Performance Engineering Intern at Teamwork, Frontend/DevOps at CloudCIX and Head Systems Administrator at UCC Netsoc, the college tech/gaming society.'
@@ -386,7 +386,7 @@ joel_kwartler:
   pronouns: 'he/him'
   role: 'Product Manager'
   location: 'Los Angeles, CA, USA 🇺🇸'
-  pronunciation: 'Name pronunciation: [ʤoʊl kwɔrtlɜr](http://ipa-reader.xyz/?text=%CA%A4o%CA%8Al%20kw%C9%94rtl%C9%9Cr&voice=Joey)'
+  pronunciation: '[ʤoʊl kwɔrtlɜr](http://ipa-reader.xyz/?text=%CA%A4o%CA%8Al%20kw%C9%94rtl%C9%9Cr&voice=Joey)'
   github: '[Github](https://github.com/Joelkw)'
   links: '[joel@sourcegraph.com](mailto:joel@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/joelkwartler), ([Current Goals](https://docs.google.com/document/d/1W9XAQ7eEu4GcuDgFFqhAhmbq8VmkATh4gzfS_dBxoyc))'
   description: "Joel is a west coast fanboy who grew up in Oregon and has since lived in Seattle, SF, and LA. He's bounced around the startup + design world at places like Figma and IDEO, and got a bachelor's in C.S. at Harvard. After hours, you might find him doing stand up, pretending he knows piano, or waking up way too early to take photographs. He's made the _Forbes 30 Under 30 List of Best Joel Kwartlers_ for 5 of the past 8 years."
@@ -425,7 +425,7 @@ artem_ruts:
   location: 'Pittsburgh, PA, USA 🇺🇸'
   github: '[artemruts](https://github.com/artemruts)'
   links: '[artem@sourcegraph.com](mailto:artem@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/artemruts/)'
-  pronunciation: 'Name pronunciation: /[arˈtʲɵm ruts](http://ipa-reader.xyz/?text=ar%CB%88t%CA%B2%C9%B5m%20ruts)/'
+  pronunciation: '/[arˈtʲɵm ruts](http://ipa-reader.xyz/?text=ar%CB%88t%CA%B2%C9%B5m%20ruts)/'
   description: 'Artem is a Software Engineer from Belarus with a Master’s in Computer Science. Before teaming up with Sourcegraph, Artem dazzled the IT crowd at Wayfair and, prior to that, Thomson Reuters. Avid believers in lifelong learning, Artem and his awesome wife currently enjoy dabbling in blocks, balls, and trucks with their infant daughter. In his rare and fleeting free time, you might be able to catch him rollerblading (though you’d have to be awfully fast) or studying foreign languages.'
 
 jean_du_plessis:
@@ -434,7 +434,7 @@ jean_du_plessis:
   role: 'Engineering Manager, Web'
   location: 'Cape Town, South Africa 🇿🇦'
   github: '[jeanduplessis](https://github.com/jeanduplessis)'
-  pronunciation: 'Name pronunciation: [ʒɑ̃n dy plɛsi](http://ipa-reader.xyz/?text=%CA%92%C9%91%CC%83n%20dy%20pl%C9%9Bsi&voice=Joey)'
+  pronunciation: '[ʒɑ̃n dy plɛsi](http://ipa-reader.xyz/?text=%CA%92%C9%91%CC%83n%20dy%20pl%C9%9Bsi&voice=Joey)'
   links: '[jean@sourcegraph.com](mailto:jean@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/jeandp), [manager docs](jean-du-plessis.md),'
   description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 16 years of which he's been a manager for 7. Prior to Sourcegraph, he was a manager at GitLab."
 
@@ -463,7 +463,7 @@ virginia_ulrich:
   location: 'Portland, Oregon, United States 🇺🇸'
   github: 'virginiaulrich'
   links: '[virginia@sourcegraph.com](mailto:virginia@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/virginiaulrich/)'
-  pronunciation: 'Name pronunciation: vr ji nyuh oo l ri ch'
+  pronunciation: 'vr ji nyuh oo l ri ch'
   description: 'Virginia lives with her partner (Vinh) and two cats, Little Miss Gable (tuxedo) and Hercules Mulligan (orange tabby). She derives joy from the tiny beautiful moments of human connection, hikes across the city and out in nature, and cooking for others. She studied literature and discovered her love of computer science quite by accident. With many years in customer service in various forms, Virginia can geek out for hours about the philosophy of 👍 customer support, the importance of compassion > empathy, and all things involving people helping other people.'
 
 scott_campbell:
@@ -473,7 +473,7 @@ scott_campbell:
   location: 'Asheville, North Carolina, United States 🇺🇸'
   github: 'spc74'
   links: '[scott@sourcegraph.com](mailto:scott@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/scottpcampbell/)'
-  pronunciation: 'Name pronunciation: s k AH t k ae m b u hl'
+  pronunciation: 's k AH t k ae m b u hl'
   description: "Scott lives in Asheville, NC with his wife and youngest daughter. He has two other older children that are in college and graduated from college, respectively. He's had a long career in engineering and sales capacities with various software companies, large and small. He possesses a natural curiousity to deeply understand his customer's challenges and help them apply technology to materially impact their business. Outside of work, Scott enjoys nearly any activity involving water or mountains, including snowboarding, hiking, biking and wake surfing. He also enjoys rooting for his alma mater Texas A&M Aggies football team, landscaping and traveling to explore new parts of the world."
 
 tommy_o_donnell:
@@ -662,7 +662,7 @@ murat_sutunc:
   pronouns: 'he/him'
   role: 'Engineering Manager, Extensibility'
   location: 'Redwood City, CA, USA 🇺🇸'
-  pronunciation: 'Name pronunciation: [muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)'
+  pronunciation: '[muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)'
   github: '[@muratsu](https://github.com/muratsu)'
   links: '[murat@sourcegraph.com](mailto:murat@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/muratsutunc)'
   description: 'Murat started his career at Microsoft working on web standards. He worked on the JavaScript runtime engine and was a founding team member of the TypeScript language. After Microsoft, he founded a venture-backed company and eventually found his way to the Bay Area. Outside of work, Murat is passionate about cooking, finance, and video games.'
@@ -674,7 +674,7 @@ lisa_tagliaferri:
   location: 'New York City 🗽'
   github: '[GitHub](https://github.com/ltagliaferri)'
   links: '[lisa@sourcegraph.com](mailto:lisa@sourcegraph.com), [lisatagliaferri.org](https://lisatagliaferri.org), [@lisaironcutter](https://twitter.com/lisaironcutter), [LinkedIn](https://www.linkedin.com/in/lisa-tagliaferri/)'
-  pronunciation: 'Name pronunciation: tal YA feh ree'
+  pronunciation: 'tal YA feh ree'
   description: 'Lisa wants to make tech more accessible through education and community building. She previously led the Developer Education/Community team at DigitalOcean, and wrote very popular open access books on Python programming and machine learning. An interdisciplinary researcher and teacher, Lisa earned her PhD from the City University of New York, and held postdoctoral positions at MIT and Harvard. A native New Yorker, she is interested in both public transportation and complicated street parking signage.'
 
 jon_kishpaugh:
@@ -916,7 +916,7 @@ kelli_rockwell:
   location: 'Seattle, WA, USA 🇺🇸'
   github: '[courier-new](https://github.com/courier-new)'
   links: '[kelli@sourcegraph.com](mailto:kelli@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/kellirockwell/), [Twitter](https://twitter.com/courierneue)'
-  pronunciation: 'Name pronunciation: /[ˈkɛl.i ˈɹɑk.wɛl](http://ipa-reader.xyz/?text=%CB%88k%C9%9Bl.i%20%CB%88%C9%B9%C9%91k.w%C9%9Bl&voice=Joanna)/'
+  pronunciation: '/[ˈkɛl.i ˈɹɑk.wɛl](http://ipa-reader.xyz/?text=%CB%88k%C9%9Bl.i%20%CB%88%C9%B9%C9%91k.w%C9%9Bl&voice=Joanna)/'
   description: "Kelli grew up in Arizona before slowly making her way up the west coast US from LA to SF to Seattle, WA. She became a 'professional web developer' before she was even qualified to babysit, getting paid in Neopoints to make Neopets layouts and community fan pages for her online friends as a pre-teen. She is definitely not addicted to [bubble tea](https://en.wikipedia.org/wiki/Bubble_tea) (or “boba”, as it’s called on the west coast) and professes that she could stop at any time. When she's not consuming boba, she plays tennis, attends developer conferences and meet-ups, travels for the food, completes jigsaw puzzles, and tries to convince her hypoallergenic cat, Calla, to cuddle with her while coding."
 
 dan_mckean:
