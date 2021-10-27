@@ -84,16 +84,16 @@ By solving some of the most pressing challenges in today’s fast-moving, intric
 
 See how Sourcegraph compares with and integrates to other solutions:
 
-- [Atlassian Fisheye](../workflow/tools/atlassian_fisheye_vs_sourcegraph.md)
-- [Bitbucket Cloud](../workflow/tools/bitbucket_cloud_vs_sourcegraph.md)
-- [Bitbucket Server](../workflow/tools/bitbucket_server_vs_sourcegraph.md)
-- [GitHub](../workflow/tools/github_vs_sourcegraph.md)
-- [GitLab](../workflow/tools/gitlab_vs_sourcegraph.md)
-- [Google Cloud Source Repositories](../workflow/tools/google_cloud_source_repositories_vs_sourcegraph.md)
-- [Hound](../workflow/tools/hound_vs_sourcegraph.md)
-- [Livegrep](../workflow/tools/livegrep_vs_sourcegraph.md)
-- [OpenGrok](../workflow/tools/opengrok_vs_sourcegraph.md)
-- [Phabricator](../workflow/tools/phabricator_vs_sourcegraph.md)
+- [Atlassian Fisheye](tools/atlassian_fisheye_vs_sourcegraph.md)
+- [Bitbucket Cloud](tools/bitbucket_cloud_vs_sourcegraph.md)
+- [Bitbucket Server](tools/bitbucket_server_vs_sourcegraph.md)
+- [GitHub](tools/github_vs_sourcegraph.md)
+- [GitLab](tools/gitlab_vs_sourcegraph.md)
+- [Google Cloud Source Repositories](tools/google_cloud_source_repositories_vs_sourcegraph.md)
+- [Hound](tools/hound_vs_sourcegraph.md)
+- [Livegrep](tools/livegrep_vs_sourcegraph.md)
+- [OpenGrok](tools/opengrok_vs_sourcegraph.md)
+- [Phabricator](tools/phabricator_vs_sourcegraph.md)
 
 ## Company overview
 
