@@ -128,3 +128,5 @@ const codeHosts = await readYamlFile('data/code_hosts.yml')
 
 await generateMaturityPage(features, maturityLevels, productAreas, productOrgs)
 await generateCompatibilityPage(features, productAreas, productOrgs, codeHosts)
+
+console.log("Successfully created all generated pages.\n")
