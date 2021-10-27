@@ -9,7 +9,7 @@ Users can be in a number of different states. We track the following categories 
 | Metric      | Description                                                      | Cloud | On-prem |
 | ----------- | ---------------------------------------------------------------- | ----- | ------- |
 | Visitor     | Users who accessed the site                                      | ✔️    |         |
-| Activated   | Users who have established the core habit of the product         | ✔     |         |
+| Activated   | Users who have established the core habit of the product         | ✔️    |         |
 | Active      | Users who performed a qualifying event (see below)               | ✔️    | ✔️      |
 | Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      |
 | Churned     | Users who were active last month but not this month              | ✔️    | ✔️      |
@@ -44,7 +44,7 @@ Time periods we track:
 - Weekly active user (WAU)
 - Monthly active user (MAU)
 
-Monthly is the most common reference frame we use.
+Monthly is the most common reference frame we use, although we also use weekly within quarterly OKRs to help ensure we are able to impact the metric within the time period.
 
 ## Unique Sourcegraph users
 
