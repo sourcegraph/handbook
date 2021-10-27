@@ -30,10 +30,10 @@ This document contains the goals and work log for the search core team's 2-week 
 ### Misc
 
 - 2021-05-07 (Stefan): Support was very quiet this week.
-  - Followed up on an old ticket [#291](https://github.com/sourcegraph/customer/issues/291): I wrote a small bash script to find a potential bad repo (Waiting for reply)
-  - Apart from that I handled a request regarding confusion around '+' for filter chips (waiting for input from UX)[#20559](https://github.com/sourcegraph/sourcegraph/issues/20559)
-- 2021-05-07 (Stefan): Moved filter chips fror `archived:yes` and `fork:yes` from the repo carousel to the dynamic filter carousel [#20655](https://github.com/sourcegraph/sourcegraph/issues/20655)
-- 2021-05-10 (Keegan): Fixed bug in how we convert `repo:` regex filters into database queries. [#20389](https://github.com/sourcegraph/sourcegraph/issues/20389)
+  - Followed up on an old ticket sourcegraph/customer#291: I wrote a small bash script to find a potential bad repo (Waiting for reply)
+  - Apart from that I handled a request regarding confusion around '+' for filter chips (waiting for input from UX)#20559
+- 2021-05-07 (Stefan): Moved filter chips fror `archived:yes` and `fork:yes` from the repo carousel to the dynamic filter carousel #20655
+- 2021-05-10 (Keegan): Fixed bug in how we convert `repo:` regex filters into database queries. #20389
 
 ## 2021-04-19 to 2021-04-30
 
@@ -71,4 +71,4 @@ This document contains the goals and work log for the search core team's 2-week 
 - **Rotation:**
   - 2021-04-12: Stefan
 - **Work log:**
-  - 2021-04-06: Fixed major regression in 3.26.1 where partial result sets for large repos are returned. Release a new patch release. [#19733](https://github.com/sourcegraph/sourcegraph/issues/19733)
+  - 2021-04-06: Fixed major regression in 3.26.1 where partial result sets for large repos are returned. Release a new patch release. #19733
