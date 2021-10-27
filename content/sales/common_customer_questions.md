@@ -29,7 +29,7 @@ Here is a strategy for handling this question live (for simplicity, this assumes
 
 ## Should I deploy using Docker or to a cluster?
 
-> Start with the Docker quickstart (https://docs.sourcegraph.com/#quickstart) to try out Sourcegraph locally. When you're ready to deploy Sourcegraph for your organization, deploy using Docker (https://docs.sourcegraph.com/admin/install/docker) in most cases. The cluster deployment (https://docs.sourcegraph.com/admin/install/cluster) is easy to migrate to later for high scalability and high availability. Of course, if you just prefer deploying on Kubernetes, then starting with the cluster deployment is fine.
+> Start with the Docker quickstart (https://docs.sourcegraph.com/#quickstart) to try out Sourcegraph locally. When you're ready to deploy Sourcegraph for your organization, deploy using Docker (https://docs.sourcegraph.com/admin/install/docker) in most cases. The cluster deployment (https://docs.sourcegraph.com/admin/install/kubernetes) is easy to migrate to later for high scalability and high availability. Of course, if you just prefer deploying on Kubernetes, then starting with the cluster deployment is fine.
 
 ## Does Sourcegraph respect GitHub (or other code host) permissions?
 
