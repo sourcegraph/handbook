@@ -6,7 +6,7 @@
 1. Add yourself to the [team.yml](https://github.com/sourcegraph/handbook/blob/main/data/team.yml") by modifying the example below
 1. In the edit view, copy the example, paste it at the end of the edit view, and make it about yourself! Look at others' bios for more examples.
 1. Under "Commit changes" at the bottom of the page, replace the "Update team.yml" text with a summary of your change, e.g., Add Alex to team page.
-1. Click the green "Commit changes" button. If you do not see the green "Commit Changes" button, refer to step 1. Successful changes will become visible shortly at https://handbook.sourcegraph.com/company/team (but not immediately).
+1. Click the green "Commit changes" button. If you do not see the green "Commit Changes" button, refer to step 1. Successful changes will become visible shortly (but not immediately).
 
 **You can find an example template below that uses all availabe features. All fields except name are optional, and you can use markdown and emojis inside all the non-name fields.**
 
