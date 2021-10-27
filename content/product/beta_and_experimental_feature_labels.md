@@ -59,3 +59,7 @@ Ask yourself:
 **Rarely**, sometimes we use a different label when a feature is in `Beta` in order to benefit from limiting initial rollout without invoking users' connotations with the word "Beta."
 
 For example: a feature may be ready for GA on a security and functional level, but we want to test the UX before entering GA. We don't want users to incorrectly assume the security isn't robust by attaching a `Beta` label, but we do need to communicate limited availability and possible UX polishing. Traditionally, we use the term `Early Access` for these cases.
+
+## Communicating about pre-release features
+
+Whatever label above is being used, be sure to follow the [communication guidelines for pre-release features](./product_management/rollout_process.md#pre-release-features).

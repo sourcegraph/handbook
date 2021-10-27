@@ -114,7 +114,7 @@ In addition to the above interviews, some departments have department-specific i
 
 - Executive Business Partner working session scenario
 
-  - Interviewer(s): Kacie Jenkins, Katerina Nikolova, Gregg Stone, and Kelsey Nagel
+  - Interviewer(s): Kacie Jenkins, Gregg Stone, and Kelsey Nagel
   - Duration: 60-minutes.
   - Details: The goal of this working session is to give us all a sense of what it would be like to work together. Below is a hypothetical situation that we would like to play out during this 60-minute session.
 
@@ -136,7 +136,7 @@ In addition to the above interviews, some departments have department-specific i
 
   - Team org: [Sales team](../sales/index.md) and [Marketing team](../marketing/index.md)
   - [Publicly referenceable customer logos](https://about.sourcegraph.com/customers/)
-  - Everything at [Sourcegraph](https://about.sourcegraph.com/) and our [handbook](https://about.sourcegraph.com/handbook) should be assumed to be accurate and up to date.
+  - Everything at [Sourcegraph](https://about.sourcegraph.com/) and our [handbook](https://handbook.sourcegraph.com) should be assumed to be accurate and up to date.
 
   A few pointers:
 
@@ -401,6 +401,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
   - NOTE: Please don't go overboard on preparation, plans, or detail. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 
 - Program Manager, Demand Gen Campaigns working session
+
   - Duration: 60-minutes.
   - Part 1: Creativity & Collaboration (20 Minutes)
     - Coming out of our conversations we’ve taken an action item to better understand your creative campaign planning and activation methodology.
@@ -423,9 +424,21 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
       - What are some key deliverables you’d expect to see?
   - Part 3: Q&A
 
+- Developer Educator working session
+  - Duration: 60-minutes.
+  - During this stage in the interview process, we try to get a sense of your approach and thought process about curriculum and writing. You will be given a curriculum and short tutorial draft to review for the first 30 minutes of the session, after which you and Lisa will take the last 30 minutes to go through your thoughts about that approach and talk about your feedback and what you would add.
+
 ## People Operations
 
-- Coming soon
+- Senior People Partner working session
+  - Duration: 60-minutes.
+  - Our working session is designed to give us more insight into how you'd think about and approach typical scenarios you might be called on to provide support to managers on. We've detailed three scenarios for you to walk us through the way you'd think and respond to each scenario. For each scenario please walk us though:
+    - How would you approach this situation and why? What risks or concerns does each scenario present?
+    - Who would you involve, why and how?
+    - What feedback would you give the manager concerned?
+    - What, if anything, might be changed internally based on this situation arising?
+  - We will provide the detailed scenarios via email 24 hours before your scheduled interview.
+  - Note you don't need to submit anything (in writing or presentation) ahead of the interview - just structure your thoughts and talk us through it! We'll ask questions as they come up.
 
 ## Product
 

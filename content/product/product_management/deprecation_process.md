@@ -10,7 +10,7 @@ You should first determine the potential impact of the feature deprecation:
 - Are any Sourcegraph teams using the feature, or a subset of its code?
 - Are any sales prospects specifically interested in the feature?
 
-If the answers to these questions suggest that deprecation is the best path forward, you should next document the deprecation.
+Be sure to talk to the the parties above and ensure you really understand the impact of the deprecation. If the answers to these questions confirm that deprecation is the best path forward, you should next document the deprecation.
 
 ## Documenting a feature's deprecation
 
@@ -37,3 +37,12 @@ Only after sharing this deprecation internally should you do any engineering wor
 ## Publishing the blog post
 
 The blog post should be published when the first version that includes the deprecation is released. The release blog post changelog section should link to the deprecation post.
+
+## Notifying customers
+
+Beyond just publishing the blog post, and effort should be made to notify customers that the deprecation will occur (note that this should follow the [normal guidelines for communicating with customers](index.md#talking-to-customers-and-stakeholders)). How you communicate can be done in different ways, and it depends on how impactful the deprecation will be. Some possibilities include:
+
+- Updating product documentation
+- Marking the feature in-product with a warning/link to the blog post
+- Proactively contacting customers invidually who we know use the feature
+- Proactively contacting all customers via email

@@ -65,12 +65,18 @@ export const rehypeMarkupDates: Plugin = () => root =>
                 dateTime += `:${parsed.get('second')!}`
             }
             if (parsed.isCertain('timezoneOffset')) {
-                dateTime += `:${parsed.get('timezoneOffset')!}`
+                dateTime += `${formatTimezoneOffset(parsed.get('timezoneOffset')!)}`
             }
         }
 
         return h('time', { datetime: dateTime }, match)
     })
+
+function formatTimezoneOffset(totalMinutes: number): string {
+    const hours = Math.trunc(totalMinutes / 60)
+    const minutes = Math.abs(totalMinutes) % 60
+    return `${formatInt(hours, 2)}:${formatInt(minutes, 2)}`
+}
 
 const fiscalIntervalPattern = new RegExp(`^(?:${fiscalYearPattern.source}|${fiscalQuarterPattern.source})$`)
 
@@ -127,5 +133,9 @@ function parseFiscalInterval(input: string): { start: string; end: string } | nu
 }
 
 function formatInt(int: number, digits: number): string {
-    return int.toString().padStart(digits, '0')
+    let formatted = Math.abs(int).toString().padStart(digits, '0')
+    if (int < 0) {
+        formatted = `-${formatted}`
+    }
+    return formatted
 }

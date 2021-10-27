@@ -18,7 +18,7 @@ Jump to:
 
 ## Salesforce access
 
-Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @business-team in #sales.
+Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @sales-operations in #it-tech-ops.
 
 ## About Salesforce objects
 
@@ -191,7 +191,7 @@ All of the contacts important to an opportunity should be linked. This should in
 
 This ensures that all deal-related communication is visible within the deal timeline for teammates to quickly get context surrounding the deal. This also allows us to evaluate the effectiveness of marketing channels and sales touchpoints that our team has with an organization. How we reached the person(s) who introduced Sourcegraph to their organization is one of the most important factors in evaluating the success of marketing activities.
 
-If a deal comes through a referral or introduction, tell [BizOps](../ops/bizops/index.md) so an adjustment can be made in the database to reflect this.
+If a deal comes through a referral or introduction, tell [BizOps](../bizops/index.md) so an adjustment can be made in the database to reflect this.
 
 ### When a deal is won
 
@@ -202,7 +202,7 @@ If a deal comes through a referral or introduction, tell [BizOps](../ops/bizops/
 
 ### When a deal is lost
 
-1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../ops/bizops/index.md) about adding one.
+1. Update the ‘Closed Lost Dropdown’ property to reflect the reason. If the reason doesn’t exist in the dropdown, you can talk to [BizOps](../bizops/index.md) about adding one.
 1. Expand upon the reason in the longform ‘Closed Lost Reason’ field.
 
 ### Recording outbound activity
@@ -236,8 +236,11 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 
 ### Leads to Accounts/Contacts/Opportunities
 
-- Leads created by Outbound efforts (not allocated to target Accounts) are put into an automated round robin process when they are cconverted.
-- Leads handled through our inbound queue (not allocated to target Accounts) are currently run through a manual round robin process prior to conversion.
+- All leads are put into an automated round robin process when they are converted in order to identify the AE owner
+  - There are seperate queues for Inbound leads (by Region) and unassigned Outbound leads (by SDR / AE pairing)
+- Round robin spots are used when a meeting with a lead is scheduled, the outcome of the meeting does not matter
+- Consultants should not count in the round robin, and the SDR team should not convert consultant leads into the round robin queue
+  - If a consultant does slip through, the scenario will be assessed on a one-off basis by Sales Ops and Sales Management
 
 ## Renewal deals
 

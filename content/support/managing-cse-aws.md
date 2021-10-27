@@ -7,7 +7,7 @@ Our CSE Docker Compose test instance is hosted on an Amazon EC2 server instance.
 <br>
 <br>
 
-## SSH to instance to run Docker CLI commands
+## SSH into instance to run Docker CLI commands
 
 To access the CSE-AWS server and run Docker commands you'll need to create a Secure Shell (SSH) connection. Instructions to configure this connection are found below:
 

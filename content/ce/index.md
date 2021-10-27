@@ -23,6 +23,7 @@ This continuity means we give customers consistent and high-quality service from
 - [CE Education](education.md)
 - [New CE Onboarding](onboarding.md)
 - [Team Culture](team-culture.md)
+- [CE Tools](ce-tools.md)
 - [Working with Customers](working-with-customers.md)
 - [Career Growth](career-growth.md)
 
@@ -32,21 +33,24 @@ This continuity means we give customers consistent and high-quality service from
 
 - [Aimee Menne](../company/team/index.md#aimee-menne-she-her) (VP of Customer Engineering)
 - [Christy Haragan](../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
-- FQ3 CE Director, Americas
+- [Bob Roudebush](../company/team/index.md#bob-roudebush-hehim) (Director of Customer Engineering, Americas)
 - [FQ3 CE Manager, Americas](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
 - International - EMEA & APAC
   - [Ajay Sridhar](../company/team/index.md#ajay-sridhar-he-him)
   - [Elzanne Wentzel](../company/team/index.md#elzanne-wentzel-she-her)
+  - [Simon Waterer](../company/team/index.md#simon-waterer-hehim)
   - [FQ3 CE (Singapore)](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - Americas - US West
   - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
   - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
   - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
+  - [Andrew Hsu](../company/team/index.md#andrew-hsu-hehim)
   - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
   - [David Rohnow](../company/team/index.md#david-rohnow-he-him)
   - [Dan Ryan](../company/team/index.md#dan-ryan-he-him)
   - [Manuel Ucles](../company/team/index.md#manuel-ucles)
   - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
+  - [FQ4 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
 - Americas - US East
   - [Leo Abreu](../company/team/index.md#leo-abreu-he-him)
   - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
@@ -54,11 +58,11 @@ This continuity means we give customers consistent and high-quality service from
   - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
   - [Shawn King](../company/team/index.md#shawn-king-he-him)
   - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
-  - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-  - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
+  - [Nancy Shah](../company/team/index.md#nancy-shah-sheher)
+
+More details about our team members in [our team READMEs](ce-bios.md).
 
 ## Open Roles
 
 - [Customer Engineer - Remote, US](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-- [Customer Engineer - Remote, Singapore](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - [Manager, Customer Engineering - Remote, US](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)

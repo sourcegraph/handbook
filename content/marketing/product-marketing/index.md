@@ -6,6 +6,7 @@
 1. [What we do](#what-we-do)
 1. [Working with other teams](#working-with-other-teams)
 1. [Meet the team](#meet-the-team)
+1. [Product launch templates and resources](#product-launch-templates-and-resources)
 1. [Resources](#resources)
 
 ## Team vision and principles
@@ -50,7 +51,7 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 ## Product launch templates and resources
 
 - [Product marketing brief](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#): Messaging and positioning doc for new products/features.
-- [Naming process](https://handbook.sourcegraph.com/marketing/brand/naming_process_for_products_features_and_programs): Best practices/process for naming new products/features.
+- [Naming process](../brand/naming_process_for_products_features_and_programs.md): Best practices/process for naming new products/features.
 - [Marketing launch tiers](marketing_launch_tiers.md): Guidance for establishing the launch tier for new products/features.
 
 ## Resources

@@ -12,7 +12,7 @@ Next, you'll need to install the Google Cloud Platform (GCP) SDK locally. Instru
 
 To check and see if you've installed the GCP SDK correctly, enter the command `gcloud version` in your terminal. It should return the current version of your SDK. If so, congratulations. You now have the ability to start up virtual machines for each managed instance, and begin debugging.
 
-Next, read the [managed instances operations](../engineering/distribution/managed/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
+Next, read the [managed instances operations](../engineering/enablement/delivery/managed/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
 
 # Other Important Notes
 
