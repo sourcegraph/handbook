@@ -19,7 +19,7 @@ Last Updated [2020-09-17 Fri 16:30]
 
 Implemented tracing on zoektIndexedRepos and on our RPC layer. We ended up
 implementing what we think is a nice pattern
-([#13951](https://github.com/sourcegraph/sourcegraph/pull/13951)).
+(#13951).
 
 Underlined in red is the instrumentation we added:
 
@@ -139,13 +139,13 @@ First thing to accomplish is establishing a baseline of performance we want to m
 
 Some links to discussions around zoekt performance:
 
-- zoekt: ideas to improve performance and memory usage [#10445](https://github.com/sourcegraph/sourcegraph/issues/10445)
+- zoekt: ideas to improve performance and memory usage #10445
 - Reduce memory usage of zoekt-webserver [google/zoekt#86](https://github.com/google/zoekt/issues/86)
-- index: Use roaring bitmaps for content posting lists [zoekt#10](https://github.com/sourcegraph/zoekt/pull/10)
+- index: Use roaring bitmaps for content posting lists sourcegraph/zoekt#10
 - [Indexing all OSS Code · search · Sourcegraph](https://github.com/orgs/sourcegraph/teams/search/discussions/3)
 - [Ideas for longer term code search infrastructure projects · search · Sourcegraph](https://github.com/orgs/sourcegraph/teams/search/discussions/1)
 - [3.17 search backend planning · search · Sourcegraph](https://github.com/orgs/sourcegraph/teams/search/discussions/2)
 - [The first notes on search being a product in Sourcegraph · Cloud · Sourcegraph](https://github.com/orgs/sourcegraph/teams/cloud/discussions/2)
-- sourcegraph.com search performance regularly poor [#9359](https://github.com/sourcegraph/sourcegraph/issues/9359)
-- searching for rare strings with count:x qualifier in large installation (xxx k repos) times out [#11395](https://github.com/sourcegraph/sourcegraph/issues/11395)
+- sourcegraph.com search performance regularly poor #9359
+- searching for rare strings with count:x qualifier in large installation (xxx k repos) times out #11395
 - RFC 30: Zoekt Horizontal Scaling [RFC 30](https://docs.google.com/document/d/18w8T_KzYxQye8wg1g01QpMOX4_ERTtbOxMBRYaOEkmk)

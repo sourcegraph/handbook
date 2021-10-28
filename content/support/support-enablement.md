@@ -7,6 +7,7 @@ The following is available to help us honor our [ethos and guiding principles](i
 - [Career roadmapping](career-roadmap.md)
 - [How engineering and support learn from each other](eng-support-learn-from-eachother.md)
 - [Debugging tips](debugging-tips.md)
+- [Navigating the PGSQL Database](pgsql-guide.md)
 ## Videos
 - [High level overview created with CS in mind](https://drive.google.com/file/d/1Veat9m5gb8O0fL37b-lD5rl5fKToTmb6/view?usp=sharing) ([*timestamps*](video-timestamps/high-level-overview-index.md))
 - [Intro to Jaeger & Tracing](https://drive.google.com/file/d/17mnCqJWJ1C855hl73hV1Y5S-1EOzusgX/view?usp=sharing)
@@ -19,3 +20,6 @@ The following is available to help us honor our [ethos and guiding principles](i
 ## Informational Pages
 - [List of Sourcegraph Services in a Kubernetes Cluster](https://sourcegraph.github.io/support-tools/List%20of%20Pods/)
 - [List of Support Tools](support-tools.md)
+- [Additional Resources for learning Kubernetes and Docker](k8s-resources.md)
+- [List of Sourcegraph Services in a Kubernetes Cluster](https://sourcegraph.github.io/support-tools-internal/List%20of%20Pods/)
+

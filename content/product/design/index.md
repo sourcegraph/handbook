@@ -14,8 +14,6 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 - [Sara Lee](../../company/team/index.md#sara-lee-she-her) (she/her)
 - [Marisa Kanemoto](../../company/team/index.md#marisa-kanemoto-sheher) (she/her)
 
-<img width="30%" height="30%" src="design-team-logo.jpg" alt="Sourcegraph Design team logo">
-
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
 ## Design team ethos
@@ -24,7 +22,7 @@ We know that we’re successful as a design team when we…
 
 - **Collaborate effectively across disciplines to ship and iterate on a great product experience.** This means that we have a shared approach to the design process, that we build trust with each other and with our colleagues, and we consistently ship design solutions that solve product problems.
 - **Feel empowered to act with high agency to make our product, processes, and teams better.** Design is an inherently explorative and iterative process. We value high agency, and we have to actively create an environment of physiological safety, trust, and transparency.
-- **Advocate for and ship design outcomes that align with our [product design principles](../product_management/index.md#sourcegraphs-design-principles).**
+- **Advocate for and ship design outcomes that align with our [product design principles](./product_design_principles.md).**
 - **Improve Sourcegraph’s velocity by helping to ship more usable and delightful features in the first iteration.** Design often means more time up-front, but this reduces time-consuming rewrites, refactors, and technical and design debt that occurs when changes are made during development or after releases.
 - **Complete OKRs owned by our teams.** We’re successful when each of us is able to complete our OKRs in a sustainable way, while also contributing to the design team culture and rituals.
 
@@ -72,6 +70,8 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Design team onboarding](./onboarding/index.md)
 - [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
 - [Surfacing design needs](./surfacing_design_needs/index.md)
+- [Design and Interaction Guidleines](design-and-interaction-guidelines.md)
+- [Design Process](design_process.md)
 
 ## Collaboration
 

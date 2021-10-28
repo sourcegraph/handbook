@@ -28,9 +28,7 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
 4. Anything without a status is checked and triaged weekly - so this is enough for feature requests or less urgent issues
 5. If you think this needs eyes 👀 sooner
    - Within a few hours ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
-   - ASAP ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) and CC `@distribution-support`
-
-> ℹ️ If `@distribution-support` is missing, it's like we've moved over to per-team support handles, so try `@delivery-support`
+   - ASAP ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) and CC `@delivery-support`
 
 ## How we work
 

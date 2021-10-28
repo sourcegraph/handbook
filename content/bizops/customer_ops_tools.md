@@ -68,45 +68,37 @@ Salesforce is also a CRM. This is what our sales team uses and relies on heavily
 
 Given that go-to-market focused teams at Sourcegraph consider Salesforce to be the source of truth for all data pertaining to prospects and customers, we use this tool for virtually all customer ops reporting. Below, we elaborate on the key terms, definitions, and workflows pertaining to current lead, contact, opportunity, and customer reporting efforts that are not documented elsewhere in the handbook.
 
-For additional color on how we use Salesforce at Sourcegraph, see this [page](https://handbook.sourcegraph.com/sales/salesforce).
+For additional color on how we use Salesforce at Sourcegraph, see this [page](../sales/salesforce.md).
 
 **_Key Salesforce Objects_**
 
 <table>
-  <tr>
-   <td><strong>Salesforce Object</strong>
-   </td>
-   <td><strong>Description</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Lead
-   </td>
-   <td>Leads are single individuals that have not been qualified, and therefore are not associated with an account or opportunity. In order for a lead to be converted into a contact, it must be associated with a specific account. A lead can only be converted into a contact, it cannot be both a lead and a contact.
-<p>
+<tr>
+<th>Salesforce Object</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>Lead</td>
+<td>
+
+Leads are single individuals that have not been qualified, and therefore are not associated with an account or opportunity. In order for a lead to be converted into a contact, it must be associated with a specific account. A lead can only be converted into a contact, it cannot be both a lead and a contact.
 
 It is important to note that Salesforce functionality limits connecting lead data to accounts. The only way to transfer data associated with a lead to a specific account is to first convert the lead to an account and contact (with or without an opportunity).
 
-   </td>
-  </tr>
-  <tr>
-   <td>Contact
-   </td>
-   <td>Contacts are individuals associated with a particular account and, where possible, opportunity. Contacts can be added manually or converted from pre-existing leads. Contacts from each individual opportunity are aggregated at the account level.
-   </td>
-  </tr>
-  <tr>
-   <td>Account
-   </td>
-   <td>Accounts represent the ultimate parent organization of any set of related companies input into Salesforce. Accounts are created before opportunities and all opportunities must be associated with an account. By default, in Salesforce, lead objects are not associated with accounts. We utilize a custom automation which attempts to associate leads to the accounts they likely represent, but this automation does sometimes have errors.  
-   </td>
-  </tr>
-  <tr>
-   <td>Opportunity
-   </td>
-   <td>When a lead has revenue potential, it is converted into an opportunity. Opportunities can also be created manually, without first requiring the conversion of a lead by navigating to the contact and creating a new opportunity from the related opportunities list.
-   </td>
-  </tr>
+</td>
+</tr>
+<tr>
+  <td>Contact</td>
+  <td>Contacts are individuals associated with a particular account and, where possible, opportunity. Contacts can be added manually or converted from pre-existing leads. Contacts from each individual opportunity are aggregated at the account level.</td>
+</tr>
+<tr>
+  <td>Account</td>
+  <td>Accounts represent the ultimate parent organization of any set of related companies input into Salesforce. Accounts are created before opportunities and all opportunities must be associated with an account. By default, in Salesforce, lead objects are not associated with accounts. We utilize a custom automation which attempts to associate leads to the accounts they likely represent, but this automation does sometimes have errors.</td>
+</tr>
+<tr>
+  <td>Opportunity</td>
+  <td>When a lead has revenue potential, it is converted into an opportunity. Opportunities can also be created manually, without first requiring the conversion of a lead by navigating to the contact and creating a new opportunity from the related opportunities list.</td>
+</tr>
 </table>
 
 **Attribution Reporting**
