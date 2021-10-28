@@ -12,7 +12,7 @@ We have two pricing tiers, free (for up to ten users) and enterprise. Our free t
 
 ## Add-on features
 
-We also sell add-on features that are at additional cost to the enterprise tier, such as Batch Changes. This allows for flexibility where if they don't see the value of something they don't need to pay for it.
+We also sell add-on features that are at additional cost to the enterprise tier, such as Batch Changes. These are higher tier features that can be optionally added.
 
 ## Philosophy
 
