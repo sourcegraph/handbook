@@ -44,7 +44,7 @@ If you do decide to move a feature from free to paid, please confirm with Produc
 
 ## Choosing between free and enterprise
 
-This section is to be determined; in the meantime please work with Product Leadership to determine which tier a new major feature should go into.
+This section is to be determined; in the meantime please work with Product Marketing and Product Leadership to determine which tier a new major feature should go into.
 
 ## Choosing the price for add-on features
 
