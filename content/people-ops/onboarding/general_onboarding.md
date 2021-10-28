@@ -57,20 +57,4 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
 - Add a link to your team page bio to your Slack profile.
 - Read Sourcegraph's [information security policy](https://about.sourcegraph.com/security) and acknowledge your acceptance: https://forms.gle/LUK1YtwAMJLhtRPi6.
 
-## Learn about Sourcegraph
 
-### Communication and documentation
-
-- We're a handbook-first company. Learn all about the handbook on its [handbook page](../../usage.md).
-- We use Slack for team chat. Please read the [Slack handbook page](../../communication/team_chat.md) to understand what we use Slack for and how we use it.
-  - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels).
-- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
-
-### Other resources
-
-- Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
-- Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
-- Learn how we can (and cannot) [reference our customers externally](../../sales/index.md#customer)
-- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../../company/remote/teammate-recommended_productivity_hacks.md).
-
-Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
