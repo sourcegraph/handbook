@@ -36,7 +36,7 @@ Active users can be further optionally segmented into **registered** or **non-re
 
 For some of our metrics we want to identify unique users across on-prem and cloud instances. For this purpose, unique users of Sourcegraph is a way to correlate registered users who have a common email address across any number of instances. For example, a@b.com on an on-prem instance and a@b.com on Sourcegraph.com would be considered the same user for the purposes of this metric. Note that most measures don't have this constraint, and any that do will include the term "Unique Sourcegraph Users" in the name of the metric.
 
-### What is a retained active user?
+#### What is a retained active user?
 
 An active user is retained if they were performed actions that qualify them as an active user in both the current and previous periods.
 
