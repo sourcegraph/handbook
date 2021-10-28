@@ -28,15 +28,15 @@ An active user is differentiated from a visitor by performing a qualifying event
 
 Qualifying events are not intended to be difficult, or prove that someone is a heavy/power user of the product. They are carefully selected to represent activities that are important to realizing the value of Sourcegraph.
 
-#### Registered or non-registered users
+#### Registered or non-registered active users
 
 Active users can be further optionally segmented into **registered** or **non-registered** users, which indicates they are logged in.
 
-#### Unique Sourcegraph users
+#### Unique Sourcegraph active users
 
 For some of our metrics we want to identify unique users across on-prem and cloud instances. For this purpose, unique users of Sourcegraph is a way to correlate registered users who have a common email address across any number of instances. For example, a@b.com on an on-prem instance and a@b.com on Sourcegraph.com would be considered the same user for the purposes of this metric. Note that most measures don't have this constraint, and any that do will include the term "Unique Sourcegraph Users" in the name of the metric.
 
-### What is a retained user?
+### What is a retained active user?
 
 An active user is retained if they were performed actions that qualify them as an active user in both the current and previous periods.
 
