@@ -111,9 +111,6 @@ All feedback must be submitted in Greenhouse before discussing with anyone. This
 
 We want to ensure that teammates score candidates in a consistent fashion which is why we have [definitions](./interview_process.md#providing-interview-feedback) for what the following ratings mean: 1. Strong yes 2. Yes 3. No 4. Strong no.
 
-## Interview debriefs
-
-We conduct debriefs after a candidate finishes interviews. The debrief can either take place via a private Slack channel or via a Zoom debrief meeting. Should the hiring manager decide to not need a debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate’s Greenhouse profile stating the reason and/or context for the decision.
 
 ## Scheduling
 
