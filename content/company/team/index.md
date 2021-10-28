@@ -1499,6 +1499,14 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - [michal.sennett@sourcegraph.com](mailto:michal.sennett@sourcegraph.com)
 - Michal lives in Dallas with her husband Josh, and two dogs, Jet (labrador mix) and Jax (chiweenie)! She has held diverse roles ranging from Employee Engagement, Project Management, Career Coaching, Customer Success and Sales. Michal has a passion for hosting people and planning unique experiences. She loves traveling and learning about new cultures, especially by eating their cuisine.
 
+## Carter Jaenichen
+
+- Sales Development Representative
+- Orange County, CA, USA 🇺🇸
+- GitHub: [carterjaenichen](https://github.com/carterjaenichen)
+- [carter.jaenichen@sourcegraph.com](mailto:carter.jaenichen@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/carterjaenichen/)
+- Carter lives in Orange County, CA with his girlfriend Kelsey, and 3 dogs (Dogs are awesome). He loves sports, specifically football, basketball, golf, and snowboarding. He is striving to grow personally, professionally, and financially. Carter is an extrovert and loves meeting new people; probably the reason he is pursuing a career in sales.
+
 ## Keely Aguayo (she/her)
 
 - Payroll Manager
@@ -1610,4 +1618,3 @@ For help adding yourself to this page, check out [these instructions](../../edit
 - GitHub: [jjeffwarner](https://github.com/jjeffwarner)
 - [jeff.warner@sourcegraph.com](mailto:jeff.warner@sourcegraph.com), [LinkedIn](https://www.linkedin.com/in/jjeffwarner)
 - Jeff lives in Denver, Colorado with his wife. Originally from the land of bourbon and horse racing (Louisville, Kentucky), in 2016, he decided to exchange all the bourbon places for craft beer places and moved to Denver. His career has included places such as Sony, Bank of America, Charter Cable, Ibotta, a number of startups including his own, and 12 iOS apps on the Apple Store. He loves to snow ski during the winter, especially with his three grown kids, and take long bike rides in the summer. He and his wife will hike pretty much any time of the year because the mountains are calling and we must go.
--
