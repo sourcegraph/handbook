@@ -1,6 +1,6 @@
 ## Michael Bali
 
-[Bio on team page](index.md#michael-bali)
+[Bio on team page](../index.md#michael-bali)
 
 ### View on Customer Support
 
