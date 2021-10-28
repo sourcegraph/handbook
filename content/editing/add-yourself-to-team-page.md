@@ -19,5 +19,5 @@ marie_curie:
   github: 'marie_curie'
   links: '[marie_curie@sourcegraph.com](mailto:marie_curie@sourcegraph.com)'
   pronunciation: 'https://forvo.com/word/marie_curie/'
-  description: "I am a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. I was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. My husband, Pierre Curie, was a co-winner on her first Nobel Prize, making us the first ever married couple to win the Nobel Prize and launching the Curie family legacy of five Nobel Prizes. I was, in 1906, the first woman to become a professor at the University of Paris."
+  description: 'I am a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. I was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. My husband, Pierre Curie, was a co-winner on her first Nobel Prize, making us the first ever married couple to win the Nobel Prize and launching the Curie family legacy of five Nobel Prizes. I was, in 1906, the first woman to become a professor at the University of Paris.'
 ```
