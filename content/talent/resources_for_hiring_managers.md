@@ -111,7 +111,6 @@ All feedback must be submitted in Greenhouse before discussing with anyone. This
 
 We want to ensure that teammates score candidates in a consistent fashion which is why we have [definitions](./interview_process.md#providing-interview-feedback) for what the following ratings mean: 1. Strong yes 2. Yes 3. No 4. Strong no.
 
-
 ## Scheduling
 
 We are flexible when it comes to scheduling interviews because we are all-remote and we don't need to schedule all interviews back-to-back (unlike typical onsite interviews at other companies). Some candidates like spreading interviews out (e.g., across multiple days and/or having breaks between interviews on the same day) and others prefer to batch them as much as possible to get it over with. _Ask the candidate what their ideal interview schedule looks like and then try to accommodate those preferences as much as possible (given interviewer availability)_.
