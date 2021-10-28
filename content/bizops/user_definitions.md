@@ -20,7 +20,7 @@ There is also a special state, **activated**, which is permanent once triggered 
 
 ### What is a visitor?
 
-A visitor is a unique person (unique to the instance being measured) who accessed the product, but did not complete any qualifying actions that would turn them into an active user. This is important to measure because each of these visitors is potentially an active user, but it's also important that we don't count everyone who visits the product as an active user so that we can measure success of our features that are intended to convert them.
+A visitor is a person (unique to the instance being measured, except in the case of "unique Sourcegraph users" as defined below) who accessed the product, but did not complete any qualifying actions that would turn them into an active user. This is important to measure because each of these visitors is potentially an active user, but it's also important that we don't count everyone who visits the product as an active user so that we can measure success of our features that are intended to convert them.
 
 ### What is an active user?
 
