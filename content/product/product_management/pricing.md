@@ -18,7 +18,7 @@ We also sell add-on features that are at additional cost to the enterprise tier,
 
 ### Role of the free tier
 
-This is changing soon and will be updated.
+Coming soon.
 
 ### Difference between Cloud, Enterprise, and OSS
 
