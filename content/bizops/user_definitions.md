@@ -16,7 +16,7 @@ People using Sourcegraph can be segmented into a number of different states, the
 | Created     | Users whose account was created this month                         | ✔️     | ✔️       |
 | Deleted     | Users whose account was deleted this month                         | ✔️     | ✔️       |
 
-There is also a special state, **activated**, which is permanent once triggered.
+There is also a special state, **activated**, which is permanent once triggered and can apply to any of the above states.
 
 ### What is a visitor?
 
