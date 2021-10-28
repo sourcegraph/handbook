@@ -38,7 +38,7 @@ For some of our metrics we want to identify unique users across on-prem and clou
 
 #### What is a retained active user?
 
-An active user is retained if they were performed actions that qualify them as an active user in both the current and previous periods.
+An active user is retained if they were performed actions that qualify them as an active user in both the current and previous periods. Our standard retention timeframe is four weeks. This aligns with our method of billing which measures Monthly Active Users. 
 
 ### What is an activated user?
 
