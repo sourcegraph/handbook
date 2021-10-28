@@ -18,7 +18,7 @@ We also sell add-on features that are at additional cost to the enterprise tier,
 
 ### Role of the free tier
 
-A lot of our features are available in our free tier so that people can really see the value of the product before they buy. Instead of limiting access to what they are able to do (which limits the value they get out of the free tier), we limit the number of users to ten so that they need to upgrade if they are really start using it at their company. We believe that the product is so great that, once adoption starts, it will continue and these companies will convert to paying customers.
+This is changing soon and will be updated.
 
 ### Difference between Cloud, Enterprise, and OSS
 
