@@ -42,7 +42,7 @@ An active user is retained if they were performed actions that qualify them as a
 
 ### What is an activated user?
 
-Unlike active users, which are terms meaningful within a specific time period, "activated" is a special state for any active user that is permanent once triggered.
+Unlike **active** users, which is a term meaningful within a specific time period, "activated" is a special state that is permanent once triggered.
 
 An activated user is defined as anyone who has ever done a specific series of actions that we know are highly correlated with retention. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as an active user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established).
 
