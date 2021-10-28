@@ -8,13 +8,13 @@ Users can be in a number of different states. We track the following categories 
 
 | Metric      | Description                                                        | Cloud | On-prem |
 | ----------- | ------------------------------------------------------------------ | ----- | ------- |
-| Visitor     | Anyone who accessed the product                                    | ✔️     |         |
-| Active User | Visitors who additionally performed a qualifying event (see below) | ✔️     | ✔️       |
-| Retained    | Users who were active last month _and_ this month                  | ✔️     | ✔️       |
-| Churned     | Users who were active last month but not this month                | ✔️     | ✔️       |
-| Resurrected | Users who were _not_ active last month but are active this month   | ✔️     | ✔️       |
-| Created     | Users whose account was created this month                         | ✔️     | ✔️       |
-| Deleted     | Users whose account was deleted this month                         | ✔️     | ✔️       |
+| Visitor     | Anyone who accessed the product                                    | ✔️    |         |
+| Active User | Visitors who additionally performed a qualifying event (see below) | ✔️    | ✔️      |
+| Retained    | Users who were active last month _and_ this month                  | ✔️    | ✔️      |
+| Churned     | Users who were active last month but not this month                | ✔️    | ✔️      |
+| Resurrected | Users who were _not_ active last month but are active this month   | ✔️    | ✔️      |
+| Created     | Users whose account was created this month                         | ✔️    | ✔️      |
+| Deleted     | Users whose account was deleted this month                         | ✔️    | ✔️      |
 
 There is also one special state, activated, which is permanent once triggered.
 
@@ -42,7 +42,7 @@ An active user is retained if they were performed actions that qualify them as a
 
 ### What is an activated user?
 
-Unlike active users, which are terms meaningful within a specific time period, "activated" is a special state for any active user that is permanent once triggered. 
+Unlike active users, which are terms meaningful within a specific time period, "activated" is a special state for any active user that is permanent once triggered.
 
 An activated user is defined as anyone who has ever done a specific series of actions that we know are highly correlated with retention. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as an active user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established).
 
@@ -60,8 +60,8 @@ The different time periods are used depending on the length of the relevant cont
 
 ## Engagement ratios
 
-| Metric  | Description                                                                                                                                                                                    |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Metric  | Description                                                                                                                                                                                           |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | DAU/MAU | The ratio of average DAUs over a month to the number of MAUs in the corresponding month. If the ratio is 0.4 or 40%, the average active user used Sourcegraph 12 days per month (30 days \* .4 = 12). |
 | DAU/WAU | The ratio of average DAUs over a week to the number of WAUs in the corresponding week. If the ratio is 0.4 or 40%, the average active user used Sourcegraph 2.8 days per week (7 days \* .4 = 2.8).   |
 
@@ -69,11 +69,11 @@ The different time periods are used depending on the length of the relevant cont
 
 The customer health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:
 
-| Metric                  | Description                                                                            |
-| ----------------------- | -------------------------------------------------------------------------------------- |
-| MAU/Total User Accounts | Used as a measure of monthly adoption within a customer’s total licensed active user base |
+| Metric                  | Description                                                                                           |
+| ----------------------- | ----------------------------------------------------------------------------------------------------- |
+| MAU/Total User Accounts | Used as a measure of monthly adoption within a customer’s total licensed active user base             |
 | DAU/MAU                 | Used as a measure of overall engagement / stickiness of the platform within an account's active users |
-| Net Promoter Score      | Used as a measure of sentiment toward the platform among a customer’s active users of Sourcegraph |
+| Net Promoter Score      | Used as a measure of sentiment toward the platform among a customer’s active users of Sourcegraph     |
 
 Additional Resources:
 
