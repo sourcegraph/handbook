@@ -75,5 +75,6 @@ Our product solves real problems today, but investing in the polish, user experi
 We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../index.md#big-code).
 
 - Make Sourcegraph Search work well with Salesforce-scale monorepos; some examples of achieving this could be P75 time to first result for unindexed search on monorepos larger than 200GB is < 10s and <2s for indexed, time to indexing is always <30 minutes, and we understand how search results should be ranked for monorepos. ([Search Core](./search/index.md))
+- Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts. ([Search Core](./search/index.md))
 - Three customers use server side Batch Changes to create 200+ changeset batch changes, proving that it is enabling large-scale use cases and revenue. ([Batch Changes](./batch-changes/index.md))
 - At least one customer issue was solved with the help of `src debug`, which makes observability better for on-prem and makes Customer Support’s job easier. ([Search Core](./search/index.md))
