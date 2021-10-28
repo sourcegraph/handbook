@@ -27,4 +27,3 @@ The following is available to help us honor our [ethos and guiding principles](i
 - [List of Sourcegraph Services in a Kubernetes Cluster](https://sourcegraph.github.io/support-tools/List%20of%20Pods/)
 - [List of Support Tools](support-tools.md)
 - [Additional Resources for learning Kubernetes and Docker](k8s-resources.md)
-- [List of Sourcegraph Services in a Kubernetes Cluster](https://sourcegraph.github.io/support-tools-internal/List%20of%20Pods/)
