@@ -11,7 +11,7 @@
 
 You can find an example template below that uses all available features.
 
- All fields except name are optional, and you can use markdown and emojis inside all the non-name fields. If you aren't comfortable with markdown, you can check out our [tips and tricks page](markdown-resources.md)
+All fields except name are optional, and you can use markdown and emojis inside all the non-name fields. If you aren't comfortable with markdown, you can check out our [tips and tricks page](markdown-resources.md)
 
 ```yaml
 marie_curie:
