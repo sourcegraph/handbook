@@ -66,13 +66,11 @@ If you're not sure what the error message means or can't determine how to fix it
 
 ### YAML validation errors
 
-YAML validation errors can happen when you are editing the `.yml` files under `/data`, such as when you are adding yourself to the team page.
+YAML validation errors can happen when you are editing the `.yml` files under `/data`, such as when you are adding yourself to the team page. These errors will throw `YAMLException`s, and there will be a few lines of the file and (usually) an arrow pointing exactly to where the problem is.
 
 #### Indentation errors
 
-If indentation is wrong, you will receive a `YAMLException: bad indentation of a mapping entry` error. It will list the lines with the incorrect indentation immediately following.
-
-To fix these, you need to make sure that you indent two spaces underneath any heading.
+If indentation is wrong, you will receive a `YAMLException: bad indentation of a mapping entry` error. To fix these, you need to make sure that you always indent two spaces underneath any heading.
 
 ```
 yarn run v1.22.15
@@ -95,11 +93,11 @@ YAMLException: bad indentation of a mapping entry (20:3)
 
 #### Quoting errors
 
-If you have an incorrect quote, you will also receive a `YAMLException: bad indentation of a mapping entry`, but the error message will point to the extra/unbalanced quote. In the example below, there is an extra single quote inside the single quoted string.
+If you have an incorrect quote, you will also receive a `YAMLException: bad indentation of a mapping entry`, but the arrow will point to the extra/unbalanced quote. In the example below, there is an extra single quote inside the single quoted string.
 
 To fix this, you could delete the extra quote if you didn't intend it to be there. If you do want it there, you could change the name row to use double quotes on the outside, like this: `name: "Christina 'Forney"` (if you want double quotes inside you should use single quotes outside.)
 
-Sometimes, depending on the quoting error (or if you have multiple errors) these can get tricky to resolve. If you feel stuck check with the #handbook Slack channel for help.
+Sometimes, depending on the quoting error (especially if you have multiple errors) these can get tricky to resolve. If you feel stuck check with the #handbook Slack channel for help.
 
 ```
 yarn run v1.22.15
