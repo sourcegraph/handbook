@@ -82,7 +82,7 @@ file:///home/jason/code/handbook/node_modules/js-yaml/dist/js-yaml.mjs:1273
          ^
 YAMLException: bad indentation of a mapping entry (20:3)
 
- 17 | 
+ 17 |
  18 | christina_forney:
  19 | name: 'Christina Forney'
  20 |   pronouns: 'she/her'
@@ -110,7 +110,7 @@ file:///home/jason/code/handbook/node_modules/js-yaml/dist/js-yaml.mjs:1273
 YAMLException: bad indentation of a mapping entry (19:21)
 
  16 |   description: 'Beyang Liu is CTO and cofounder of  ...
- 17 | 
+ 17 |
  18 | christina_forney:
  19 |   name: 'Christina 'Forney'
 --------------------------^
