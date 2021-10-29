@@ -11,7 +11,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    - `export VERSION=vMAJOR.MINOR.PATH`
    - `export COMPANY=$COMPANY`
    - `export PROJECT_ID=sourcegraph-managed-$COMPANY`
-1. Check out a new branch: `git checkout $COMPANY/create-instance`
+1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
 1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/gcp-tfstate/gcp-tfstate.tf` according to the TODO comments within, commit the result.
 1. Ensure you are using the version of Terraform indicated in `.tool-versions` using `tfenv`
