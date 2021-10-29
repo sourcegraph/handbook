@@ -30,7 +30,7 @@ _In these review cycles, you will be asked to give and receive the following rev
 
 ### Timing:
 
-Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year.
+Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year. Unfortunately, Lattice only supports Pacific Time, and not our company standard of UTC. As such, the review cycle completes at 12:00pm midnight PT on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
 
 We expect that all teammates will carve out time to put thought into writing out their reviews, and writing the reviews of their peers. We encourage all reviewers to designate around 30 minutes per review on their calendars as a calendar block called: “Writing peer reviews - do not book.” We encourage all teammates during this time to respect those review calendar blocks.
 
@@ -116,8 +116,6 @@ As we move into a new cadence of 360 Impact review cycles, you may find that the
 
 In the event that you’d like to conduct an informal Impact review, [use this resource to learn about holding an informal cycle for yourself](https://docs.google.com/document/d/1YrsjivLAKZ4SQKvXNM0riZn7aiyJTupb0ce6UFRvIog/edit) and [use this resource as a template to document your reviews](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit).
 
-_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself._
-
 There are three components to feedback: giving it to others, receiving it yourself, and seeking it out. Keep in mind that feedback is a muscle, and works best when you regularly strengthen it by giving and receiving it often. The concept you will be using in this informal review process is around “seeking feedback” which will help you inform your own working style, positive trends, and areas for improvement.
 
 We recommend that you as the reviewee set time with your manager to discuss feedback between both parties. If you would like to conduct reviews with stakeholders (either in the event that you are seeking promotion, would like additional information on how you show up in your peer relationships, or are simply curious), it is recommended that you book time with at least 2-3 peers as 30-45 minute calendar invites.
@@ -131,6 +129,8 @@ In all instances, we recommend documenting these items in [this Informal Impact 
 After you have documented your informal Impact review, this process will be complete. After you complete your informal review, a best practice is to share with any reviewers that you’d like to keep the door open for feedback and empower them to share feedback in the moment and often. The point of each review cycle is not to open the floodgates for feedback that you haven’t received yet, but more importantly to synthesize trends that you’ve already had conversations about and are aware of.
 
 You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
+
+_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence. Our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by this point. _
 
 ## How to use Lattice
 
