@@ -8,7 +8,7 @@ No other information (class names, source code, etc) was sent or logged in Sourc
 
 The latest version (21.10.21.1959) was released on 2021-10-21 with the bug removed. On 2021-10-21 at 21:00 UTC, we identified a bug in our code that caused us to send private repository names to our sourcegraph.com instance logs.
 
-As of 2021-10-29, all logs on Sourcegraph systems have been purged. All impacted customers will be notified when this is complete.
+As of 2021-10-29, all logs on Sourcegraph systems have been purged.
 
 We are working with our 3rd party providers (Sentry, Honeycomb, Grafana Cloud, and GCP) to have them purge logs in advance of our normal log rotation schedule. If you would like to be notified when this purge is complete, please let us know by emailing support@sourcegraph.com.
 
