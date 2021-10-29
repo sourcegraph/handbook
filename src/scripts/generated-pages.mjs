@@ -144,8 +144,8 @@ async function generateTeamPage(teamMembers) {
             }
             pageContent += '\n\n'
         } else if (teamMember.location) {
-                pageContent += ` (${teamMember.location})\n\n`
-            }
+            pageContent += ` (${teamMember.location})\n\n`
+        }
         if (teamMember.description) {
             pageContent += `${teamMember.description}\n`
         }
@@ -156,7 +156,13 @@ async function generateTeamPage(teamMembers) {
             pageContent += `- Pronunciation: ${teamMember.pronunciation}\n`
         }
         if (teamMember.github) {
-            pageContent += `- GitHub: ${teamMember.github}\n`
+            if (teamMember.github.includes('[')) {
+                // already contains markdown link
+                pageContent += `- GitHub: ${teamMember.github}\n`
+            } else {
+                pageContent += `- GitHub: [${teamMember.github}](https://github.com/${teamMember.github})\n`
+            }
+
         }
         if (teamMember.links) {
             pageContent += `- Links: ${teamMember.links}\n`
