@@ -92,7 +92,7 @@ dev_experience:
   title: 'Developer experience'
   product_org: cloud
   strategy_link: ''
-  pm: taylor_sperry_sheher
+  pm: taylor_sperry
   issue_labels:
     - team/dev-experience
 
@@ -100,6 +100,6 @@ frontend_platform:
   title: 'Frontend Platform'
   product_org: enablement
   strategy_link: ''
-  pm: taylor_sperry_sheher
+  pm: taylor_sperry
   issue_labels:
     - team/frontend-platform
