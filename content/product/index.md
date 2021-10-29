@@ -61,7 +61,7 @@ Customer Engineering is looking to better undrestand the known boundaries of our
 There are a few other initiatives we will be tracking here soon:
 
 - CE / Product communication and prioritization improvements on feedback
-- [Experimentation and improvements to planning](./planning_experimentation.md)
+- Experimentation and improvements to planning
 - Consolidation and simplification of tooling
 
 In the meantime, we are using a [tracking document](https://docs.google.com/document/d/1ezjeAV2wnUKfXQjHE-Cy9eZ7i4HX2mty1zuE4VcGGGo/edit#) for these.
