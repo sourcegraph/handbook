@@ -11,7 +11,7 @@
 
 You can find an example template below that uses all available features.
 
-All fields except name are optional, you can use markdown and emojis inside all the fields except `name`, `github`, and `email`. The order of fields doesn't matter. If you aren't comfortable with markdown, you can check out our [tips and tricks page](markdown-resources.md). If you receive errors during the build, check the [handbook check failures page](handbook-check-failures.md).
+All fields except name are optional, and you can use markdown and emojis inside all the fields except `name`, `github`, and `email`. The order of fields doesn't matter. If you aren't comfortable with markdown, you can check out our [tips and tricks page](markdown-resources.md). If you receive errors during the build, check the [handbook check failures page](handbook-check-failures.md).
 
 Indentation is also important with YAML, there should be two spaces before every line with a field. Quoting is also important, if you use a single quote inside your description you should use a double quote outside (i.e., `description: "this is Marie's bio"`, or a single quote outside if you want to use double quotes inside (i.e., `description: 'This is the "best" bio'`). If you get stuck on YAML parsing errors check in the #handbook channel and lots of people can help.
 
