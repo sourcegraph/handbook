@@ -24,6 +24,8 @@ A detailed explanation of the current process and the suggested reply structures
 
 The PM on feedback rotation labels and forwards issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. The list of team labels is available using [this search](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F). Searching GitHub for [issues with no label](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) or [issues with the `needs-team-triage` label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Aneeds-team-triage) are fast ways to find these issues.
 
+#### Issues without a clear owner
+
 All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage.
 
 If you are unsure about what team should own a specific issue or if there is a gap in product areas of ownership:
@@ -32,6 +34,8 @@ If you are unsure about what team should own a specific issue or if there is a g
 1. Once we have identified what team should own this issue, the team can add it to their strategy page's "what we're not working on" to communicate that it owns these issues but they are not a priority.
 
 Don't hesitate to post if unsure, clarifying ownership and identifying gaps is helpful to everybody.
+
+#### Issues that are support requests
 
 If you find an issue that is really a support request, you can:
 
