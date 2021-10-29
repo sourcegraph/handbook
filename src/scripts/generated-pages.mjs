@@ -149,23 +149,20 @@ async function generateTeamPage(teamMembers) {
         if (teamMember.description) {
             pageContent += `${teamMember.description}\n`
         }
+        if (teamMember.email) {
+            pageContent += `- Email: [${teamMember.email}](mailto:${teamMember.email})\n`
+        }
+        if (teamMember.github) {
+            pageContent += `- GitHub: [${teamMember.github}](https://github.com/${teamMember.github})\n`
+        }
         if (teamMember.pronouns) {
             pageContent += `- Pronouns: ${teamMember.pronouns}\n`
         }
         if (teamMember.pronunciation) {
             pageContent += `- Pronunciation: ${teamMember.pronunciation}\n`
         }
-        if (teamMember.github) {
-            if (teamMember.github.includes('[')) {
-                // already contains markdown link
-                pageContent += `- GitHub: ${teamMember.github}\n`
-            } else {
-                pageContent += `- GitHub: [${teamMember.github}](https://github.com/${teamMember.github})\n`
-            }
-
-        }
         if (teamMember.links) {
-            pageContent += `- Links: ${teamMember.links}\n`
+            pageContent += `- Other links: ${teamMember.links}\n`
         }
     }
     await writeFile(teamFile, pageContent)
