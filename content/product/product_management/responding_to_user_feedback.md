@@ -28,9 +28,9 @@ The PM on feedback rotation labels and forwards issues that others create to the
   `needs-team-triage` label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Aneeds-team-triage)
 - Find the [list of team labels](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F).
 
-#### Issues without a clear owner
-
 All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage.
+
+#### Issues without a clear owner
 
 If you are unsure about what team should own a specific issue or if there is a gap in product areas of ownership:
 
