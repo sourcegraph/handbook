@@ -153,12 +153,7 @@ async function generateTeamPage(teamMembers) {
             pageContent += `- Email: [${teamMember.email}](mailto:${teamMember.email})\n`
         }
         if (teamMember.github) {
-            if (teamMember.github.includes('[')) {
-                // already contains markdown link
-                pageContent += `- GitHub: ${teamMember.github}\n`
-            } else {
-                pageContent += `- GitHub: [${teamMember.github}](https://github.com/${teamMember.github})\n`
-            }
+            pageContent += `- GitHub: [${teamMember.github}](https://github.com/${teamMember.github})\n`
         }
         if (teamMember.pronouns) {
             pageContent += `- Pronouns: ${teamMember.pronouns}\n`
