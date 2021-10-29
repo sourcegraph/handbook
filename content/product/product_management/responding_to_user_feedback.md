@@ -22,7 +22,11 @@ A detailed explanation of the current process and the suggested reply structures
 
 ### GitHub issues created by third parties
 
-The PM on feedback rotation labels and forwards issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. The list of team labels is available using [this search](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F). Searching GitHub for [issues with no label](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) or [issues with the `needs-team-triage` label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Aneeds-team-triage) are fast ways to find these issues.
+The PM on feedback rotation labels and forwards issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels.
+
+- Find [new issues to triage](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) or [issues with the
+  `needs-team-triage` label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Aneeds-team-triage)
+- Find the [list of team labels](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F).
 
 #### Issues without a clear owner
 
