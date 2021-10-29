@@ -30,9 +30,7 @@ ssh -i .ssh/cse-aws.pem ec2-user@ec2-18-219-230-121.us-east-2.compute.amazonaws.
 
 ## Upgrading CSE-AWS
 
-**TODO: CSE-AWS was created from a clone of [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/) instead of a fork :(, this creates added difficulty in upgrading the instance and redeploying from a fork may be a good task for the future.**
-
-Upgrading CSE-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/updates/docker_compose) for upgrading a compose instance, stop the instance (`docker-compose down --remove-orphans`), checkout the latest release tag (`git checkout`), and then start the instance (`docker-compose up -d`).
+Upgrading CSE-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/install/docker-compose/operations#upgrade) for upgrading a compose instance. The EC2 instance points at a [fork of deploy-sourcegraph-docker](https://github.com/DaedalusG/deploy-sourcegraph-docker).
 
 **Note: When connection to the EC2 server via SSH your user does not have permissions to run many git commands, you'll need to run git commands with `sudo` or switch to the root user with `sudo su`**
 

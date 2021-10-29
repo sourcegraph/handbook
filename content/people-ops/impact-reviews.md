@@ -30,7 +30,7 @@ _In these review cycles, you will be asked to give and receive the following rev
 
 ### Timing:
 
-Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year.
+Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year. Unfortunately, Lattice only supports Pacific Time, and not our company standard of UTC. As such, the review cycle completes at 12:00pm midnight PT on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
 
 We expect that all teammates will carve out time to put thought into writing out their reviews, and writing the reviews of their peers. We encourage all reviewers to designate around 30 minutes per review on their calendars as a calendar block called: “Writing peer reviews - do not book.” We encourage all teammates during this time to respect those review calendar blocks.
 
