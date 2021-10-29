@@ -3,7 +3,7 @@ search:
   product_org: code_graph
   strategy_link: '/company/strategy/code-graph/search/index.md'
   pm: ben_venker
-  issue_label:
+  issue_labels:
     - team/search-product
     - team/search-core
     - team/search
@@ -13,7 +13,7 @@ code_intelligence:
   product_org: code_graph
   strategy_link: '/company/strategy/code-graph/code-intelligence/index.md'
   pm: maría_craig
-  issue_label:
+  issue_labels:
     - team/code-intelligence
 
 batch_changes:
@@ -21,7 +21,7 @@ batch_changes:
   product_org: code_graph
   strategy_link: '/company/strategy/code-graph/batch-changes/index.md'
   pm: malo_marrec
-  issue_label:
+  issue_labels:
     - team/batchers
 
 code_insights:
@@ -29,7 +29,7 @@ code_insights:
   product_org: code_graph
   strategy_link: '/company/strategy/code-graph/code-insights/index.md'
   pm: joel_kwartler
-  issue_label:
+  issue_labels:
     - team/code-insights
 
 security:
@@ -37,7 +37,7 @@ security:
   product_org: cloud
   strategy_link: '/company/strategy/cloud/security/index.md'
   pm: diego_comas
-  issue_label:
+  issue_labels:
     - team/security
 
 extensions:
@@ -45,7 +45,7 @@ extensions:
   product_org: cloud
   strategy_link: '/company/strategy/cloud/extensibility/index.md'
   pm: murat_sutunc
-  issue_label:
+  issue_labels:
     - team/extensiblity
 
 repository_management:
@@ -53,24 +53,21 @@ repository_management:
   product_org: enablement
   strategy_link: '/company/strategy/enablement/repo-management/index.md'
   pm: dan_mckean
-  issue_label:
+  issue_labels:
     - team/repo-management
-
 
 deployment:
   title: 'Deployment'
   product_org: enablement
   strategy_link: '/company/strategy/enablement/delivery/index.md'
   pm: dan_mckean
-  issue_label:
+  issue_labels:
     - team/delivery
 
 cloud-saas:
   title: 'Cloud'
   product_org: cloud
   strategy_link: ''
-  pm: dan_mckean
-  issue_label:
-    - team/delivery
-
-
+  pm: ryan_phillips
+  issue_labels:
+    - team/cloud-saas
