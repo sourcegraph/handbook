@@ -61,7 +61,7 @@ How our product works in terms of pricing, upgrade paths, auditing, single sign-
 
 - Get a Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature ([Code Insights](./code-insights/index.md))
 - Enable out-of-the-box cross-repo and dependency navigation for 3 customers by successfully moving them to on-prem auto-indexing. ([Code intelligence](./code-intelligence/index.md))
-- Enable powerful automation and notification use cases e.g. by adding webhook and Slack integrations to Code Monitors and getting a Q1 upgrade commitment from 3 customers. ([Search Product](./search/index.md))
+- Enable powerful automation and notification use cases (e.g. by adding webhook and Slack integrations) to Code Monitors and getting a Q1 usage commitment from 3 customers. ([Search Product](./search/index.md))
 - Improve precise code intelligence actions coverage by going from 3 to 5 languages (adding Kotlin and TS/JS), representing the languages in ~50% of all actions. ([Code intelligence](./code-intelligence/index.md))
 
 ### Deliver a unified experience
