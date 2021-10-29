@@ -60,6 +60,7 @@ Customer Engineering is looking to better undrestand the known boundaries of our
 
 There are a few other initiatives we will be tracking here soon:
 
+- Product management and product design impact ladders (started [here](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing))
 - CE / Product communication and prioritization improvements on feedback
 - Experimentation and improvements to planning
 - Consolidation and simplification of tooling
