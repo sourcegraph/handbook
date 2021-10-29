@@ -35,7 +35,7 @@ All issues labeled with a team's name are [automatically added](https://github.c
 If you are unsure about what team should own a specific issue or if there is a gap in product areas of ownership:
 
 1. Post in #product to identify who should own it.
-1. Once we have identified what team should own this issue, the team can add it to their strategy page's "what we're not working on" to communicate that it owns these issues but they are not a priority.
+1. Once we have identified what team should own this issue, the team can add it to their strategy page's "what we're not working on" to communicate that it owns these issues but they are not a priority, or update their priorities to include it if they plan to do so.
 
 Don't hesitate to post if unsure, clarifying ownership and identifying gaps is helpful to everybody.
 
