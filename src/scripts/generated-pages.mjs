@@ -44,6 +44,10 @@ async function generateMaturityPage(features, maturityLevels, productAreas, prod
         const strategyUrl = createRelativeProductLink(productOrgs[productArea.product_org].strategy_link)
         pageContent += ` ([${productOrgs[productArea.product_org].title} Strategy](${strategyUrl}) | `
         pageContent += `[${productArea.title} Strategy](${createRelativeProductLink(productArea.strategy_link)}))\n`
+        if (productArea.pm) {
+            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name.toLowerCase().replace(/\s+/g, '-')}`
+            pageContent += `\nProduct Manager: [${teamMembers[productArea.pm].name}](${bioLink})`
+        }
 
         pageContent += '\n|Feature|Maturity|\n'
         pageContent += '|-------|--------|\n'
@@ -84,6 +88,10 @@ async function generateCompatibilityPage(features, productAreas, productOrgs, co
         const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
         pageContent += ` ([${productOrgs[productArea.product_org].title} Strategy](${strategyUrl}) | `
         pageContent += `[${productArea.title} Strategy](${createRelativeProductLink(productArea.strategy_link)}))\n`
+        if (productArea.pm) {
+            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name.toLowerCase().replace(/\s+/g, '-')}`
+            pageContent += `\nProduct Manager: [${teamMembers[productArea.pm].name}](${bioLink})`
+        }
 
         pageContent += '\n|Feature|'
         for (const codeHost of Object.values(codeHosts)) {
@@ -119,6 +127,45 @@ async function generateCompatibilityPage(features, productAreas, productOrgs, co
     console.log('  ' + tiersFile)
 }
 
+async function generateTeamPage(teamMembers) {
+    const teamFile = 'content/company/team/index.md'
+    let pageContent = '# Sourcegraph team\n'
+    pageContent +=
+        'This page contains brief bios of our team. Teammates may also have a personal documentation page in this directory that is named according to their Sourcegraph email address(e.g.you@sourcegraph.com -> you.md).\n'
+    pageContent +=
+        'For help adding yourself to this page, check out [these instructions](../../editing/add-yourself-to-team-page.md).\n'
+
+    for (const teamMember of Object.values(teamMembers)) {
+        pageContent += `\n## ${teamMember.name}\n`
+        if (teamMember.role) {
+            pageContent += `${teamMember.role}`
+            if (teamMember.location) {
+                pageContent += ` (${teamMember.location})`
+            }
+            pageContent += '\n\n'
+        } else if (teamMember.location) {
+                pageContent += ` (${teamMember.location})\n\n`
+            }
+        if (teamMember.description) {
+            pageContent += `${teamMember.description}\n`
+        }
+        if (teamMember.pronouns) {
+            pageContent += `- Pronouns: ${teamMember.pronouns}\n`
+        }
+        if (teamMember.pronunciation) {
+            pageContent += `- Pronunciation: ${teamMember.pronunciation}\n`
+        }
+        if (teamMember.github) {
+            pageContent += `- GitHub: ${teamMember.github}\n`
+        }
+        if (teamMember.links) {
+            pageContent += `- Links: ${teamMember.links}\n`
+        }
+    }
+    await writeFile(teamFile, pageContent)
+    console.log('  ' + teamFile)
+}
+
 console.log('Creating generated pages..')
 
 // Load YAML files
@@ -127,8 +174,10 @@ const maturityLevels = await readYamlFile('data/maturity_levels.yml')
 const productAreas = await readYamlFile('data/product_areas.yml')
 const productOrgs = await readYamlFile('data/product_orgs.yml')
 const codeHosts = await readYamlFile('data/code_hosts.yml')
+const teamMembers = await readYamlFile('data/team.yml')
 
-await generateMaturityPage(features, maturityLevels, productAreas, productOrgs)
-await generateCompatibilityPage(features, productAreas, productOrgs, codeHosts)
+await generateMaturityPage(features, maturityLevels, productAreas, productOrgs, teamMembers)
+await generateCompatibilityPage(features, productAreas, productOrgs, codeHosts, teamMembers)
+await generateTeamPage(teamMembers)
 
 console.log('Successfully created all generated pages.\n')

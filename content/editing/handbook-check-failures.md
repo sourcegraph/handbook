@@ -50,14 +50,73 @@ If you're not sure what the error message means or can't determine how to fix it
 
 #### Broken Link
 
-- Your error contains text like this:
-  - `handbook/company/orgchart.md: broken link to /sales/sales-ops#members`
+- The `check all links between pages are valid` Handbook check has failed.
+  ![Broken link Handbook check failure](https://storage.googleapis.com/sourcegraph-assets/handbook/broken-link-failure.png)
+- Click "details" to see more information, and you should see something like this:
+  ![Broken link error details](https://storage.googleapis.com/sourcegraph-assets/handbook/broken-link-details.png)
 - Breaking down the error:
-  - `handbook/company/orgchart.md`
-  - \* This is telling you what file is causing the failure. In this case, it’s something within the “Org Chart” page nested under the “Company” page.
-  - `broken link to /sales/sales-ops#members`
-  - This is telling you that the link to the “Sales Ops” page is broken. This can happen when a page is moved or deleted, and that link path no longer works.
-- **To Fix: **Visit the page where the broken link exists. Find that link within the page, and update the relative path to reflect the new location of the page. Or, if the page has been deleted, remove the link altogether. As always, don’t hesitate to ask @handbook-support in the #handbook Slack channel for help.
+  - `readmes/mary-belzer-readme.md`
+    - This is telling you that the link to the “Mary Belzer Readme” page is broken. This can happen when a page is moved or deleted, and that link path no longer works.
+- \*\*To Fix:
+  - First, you need to find the page where the broken link lives. In your PR, click the "Files Changed" tab.
+  - Scroll down until you see an error like this:
+    ![Broken link page details](https://storage.googleapis.com/sourcegraph-assets/handbook/broken-link-page-detail.png)
+  - This is telling you the broken link is on the `content/product/product-org.md` page.
+  - Visit the page where the broken link exists. Find that link within the page, and [update the relative path](linking-within-handbook.md) to reflect the new location of the page. Or, if the page has been deleted, remove the link altogether. As always, don’t hesitate to ask @handbook-support in the #handbook Slack channel for help.
+
+### YAML validation errors
+
+YAML validation errors can happen when you are editing the `.yml` files under `/data`, such as when you are adding yourself to the team page. These errors will throw `YAMLException`s, and there will be a few lines of the file and (usually) an arrow pointing exactly to where the problem is.
+
+#### Indentation errors
+
+If indentation is wrong, you will receive a `YAMLException: bad indentation of a mapping entry` error. To fix these, you need to make sure that you always indent two spaces underneath any heading.
+
+```
+yarn run v1.22.15
+$ node src/scripts/generated-pages.mjs
+Creating generated pages..
+
+file:///home/jason/code/handbook/node_modules/js-yaml/dist/js-yaml.mjs:1273
+  return new exception(message, mark);
+         ^
+YAMLException: bad indentation of a mapping entry (20:3)
+
+ 17 |
+ 18 | christina_forney:
+ 19 | name: 'Christina Forney'
+ 20 |   pronouns: 'she/her'
+--------^
+ 21 |   role: 'VP Product'
+ 22 |   location: 'Woodside, CA, USA 🇺🇸'
+```
+
+#### Quoting errors
+
+If you have an incorrect quote, you will also receive a `YAMLException: bad indentation of a mapping entry`, but the arrow will point to the extra/unbalanced quote. In the example below, there is an extra single quote inside the single quoted string.
+
+To fix this, you could delete the extra quote if you didn't intend it to be there. If you do want it there, you could change the name row to use double quotes on the outside, like this: `name: "Christina 'Forney"` (if you want double quotes inside you should use single quotes outside.)
+
+Sometimes, depending on the quoting error (especially if you have multiple errors) these can get tricky to resolve. If you feel stuck check with the #handbook Slack channel for help.
+
+```
+yarn run v1.22.15
+$ node src/scripts/generated-pages.mjs
+Creating generated pages..
+
+file:///home/jason/code/handbook/node_modules/js-yaml/dist/js-yaml.mjs:1273
+  return new exception(message, mark);
+         ^
+YAMLException: bad indentation of a mapping entry (19:21)
+
+ 16 |   description: 'Beyang Liu is CTO and cofounder of  ...
+ 17 |
+ 18 | christina_forney:
+ 19 |   name: 'Christina 'Forney'
+--------------------------^
+ 20 |   pronouns: 'she/her'
+ 21 |   role: 'VP Product'
+```
 
 ### Merge Conflicts
 
