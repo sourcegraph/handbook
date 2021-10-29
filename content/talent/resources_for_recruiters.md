@@ -102,7 +102,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
   - Attendees: Recruiter, Hiring Manager, Candidate.
-- Prior to the call, Recruiter generates the correct Offer Summary document in Greenhouse, downloads the document, and sends to VP Talent and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
+- Prior to the call, Recruiter generates the correct Offer Summary document in Greenhouse, downloads the document, and sends to VP Talent and/or Director, Technical Recruiting and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
 - Agenda:
   - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them
   - The Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity

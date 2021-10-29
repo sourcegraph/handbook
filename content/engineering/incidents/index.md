@@ -139,6 +139,7 @@ After the incident is resolved, the incident lead:
 ## Incident Post-mortems
 
 - [3.30 Postgres Index Incident](./330_incident_retro.md)
+- [Extensibility Repo Name Logging Incident](./extensibility_repo_name_log.md)
 
 ## Go-to-market (license and subscription) issues
 
