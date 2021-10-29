@@ -1,6 +1,6 @@
 ## Beatrix "Bee" Woo
 
-[Bio on team page](index.md#beatrix-woo)
+[Bio on team page](../index.md#beatrix-woo)
 
 ### View on Customer Support
 
