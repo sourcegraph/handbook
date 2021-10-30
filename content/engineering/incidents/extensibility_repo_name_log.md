@@ -45,10 +45,10 @@ Correct, you were not impacted.
 We can provide an example if this is helpful for you. Please email support@sourcegraph.com.
 
 **Is there any way for an admin to tell if and who is using the browser extension?**
-Yes. Your IT team can identify users with affected version and force upgrade the extension (instructions) to the latest (version 21.10.21.1959). If needed, here are the instructions for users to update manually.
+Yes. Your IT team can identify users with affected version and force upgrade the extension ([instructions](https://support.google.com/chrome/a/answer/7679871?hl=en&ref_topic=9023448)) to the latest (version 21.10.21.1959). If needed, here are [the instructions](https://support.cloudhq.net/how-to-manually-update-chrome-extensions/) for users to update manually.
 
 **Can admins disable users’ ability to use the extension?**
-Yes. Here are the instructions if you want IT to forbid using the extensions.
+Yes. Here are [the instructions](https://support.google.com/chrome/a/answer/9296680?hl=en&ref_topic=9023098) if you want IT to forbid using the extensions.
 
 **Can I get a list of my repos that were exposed?**
 We wish we could provide this to provide complete transparency of impact. However, due the volume of logs, we opted to sacrifice visibility of the exposed information and orient toward purging logs as quickly as possible.
