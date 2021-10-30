@@ -2,6 +2,8 @@
 
 Planning is a continuous negotiation between product and engineering. Teams should review the [strategy page for their area](../../company/strategy/index.md#per-area-strategy-pages) weekly with the [Product Manager](../roles/index.md#product-manager) and update it at least monthly. The roadmap will become less specific and focus more on the problems we are looking to solve the further out it gets because we expect to learn a lot between defining the problem and implementation. As implementation details change and we learn more about the solution to the problem we are aiming to solve, the product manager is responsible for communicating clearly what changes.
 
+[Pricing features](pricing.md) is a complicated topic and has its own page.
+
 ## Product / eng team backlogs
 
 You can find the backlogs for the product teams by visiting their [individual strategy pages](../../company/strategy/index.md#per-area-strategy-pages). Teams are using different tools and processes to plan and track their work such as Jira, Productboard, or GitHub issues.

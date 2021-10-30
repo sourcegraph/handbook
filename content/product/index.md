@@ -15,6 +15,14 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 The product strategy and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md). There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
 
+## Feature reference
+
+We have several feature reference matrices:
+
+- [Features by maturity](feature_maturity.md)
+- [Features by code host compatibility](feature_compatibility.md)
+- [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
+
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
@@ -46,12 +54,13 @@ Customer Engineering is looking to better undrestand the known boundaries of our
 
 - Owner: Christina
 - [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [Pull Request](https://github.com/sourcegraph/about/pull/4617)
+- [Pull Request](https://github.com/sourcegraph/handbook/pull/455)
 
 ### Other initiatives
 
 There are a few other initiatives we will be tracking here soon:
 
+- Product management and product design impact ladders (started [here](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing))
 - CE / Product communication and prioritization improvements on feedback
 - Experimentation and improvements to planning
 - Consolidation and simplification of tooling

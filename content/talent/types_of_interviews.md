@@ -430,7 +430,15 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 ## People Operations
 
-- Coming soon
+- Senior People Partner working session
+  - Duration: 60-minutes.
+  - Our working session is designed to give us more insight into how you'd think about and approach typical scenarios you might be called on to provide support to managers on. We've detailed three scenarios for you to walk us through the way you'd think and respond to each scenario. For each scenario please walk us though:
+    - How would you approach this situation and why? What risks or concerns does each scenario present?
+    - Who would you involve, why and how?
+    - What feedback would you give the manager concerned?
+    - What, if anything, might be changed internally based on this situation arising?
+  - We will provide the detailed scenarios via email 24 hours before your scheduled interview.
+  - Note you don't need to submit anything (in writing or presentation) ahead of the interview - just structure your thoughts and talk us through it! We'll ask questions as they come up.
 
 ## Product
 
@@ -474,7 +482,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
   - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 
 - Customer support collaboration
-  - Interviewer: [Virginia Ulrich](../support/virginia-readme.md), Head of CS
+  - Interviewer: [Virginia Ulrich](../support/team-readmes/virginia-readme.md), Head of CS
   - Duration: 30 mins
   - Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross funcitonal teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
 

@@ -64,34 +64,153 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## Talent Team Members
 
-- [Carly Jones](../company/team/index.md#carly-jones-she-her), VP of Talent
+<section>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Carly-Bitmoji.png" alt="Picture of Carly Jones" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Carly Jones</div>
+        <div style="text-align: center; font-size: 12px;">VP of Talent</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Devon-Bitmoji.jpg" alt="Picture of Devon Coords" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Devon Coords</div>
+        <div style="text-align: center; font-size: 12px;">Director, Technical Recruiting</div>
+        <div style="text-align: center; font-size: 10px;">Engineering, Product, and Customer Support</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#frey-andersson" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Frey Andersson" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Frey Andersson</div>
+        <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
+        <div style="text-align: center; font-size: 10px;">Engineering</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#win-yu-hehis" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Win Yu" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Win Yu</div>
+        <div style="text-align: center; font-size: 12px;">Technical Talent Sourcer</div>
+        <div style="text-align: center; font-size: 10px;">Talent Research for the Technical Recruiting Team</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture of Kemper Hamilton" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Kemper Hamilton</div>
+        <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
+        <div style="text-align: center; font-size: 10px;">Product and Engineering</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Kelsey-%20Bitmoji.jpg" alt="Picture of Kelsey Nagel" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Kelsey Nagel</div>
+        <div style="text-align: center; font-size: 12px;">Corporate Recruiter</div>
+        <div style="text-align: center; font-size: 10px;">Marketing, Finance, Legal, BizOps, and People Ops</div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Marija-Bitmoji.png" alt="Picture of Marija Petrovic" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Marija Petrovic</div>
+        <div style="text-align: center; font-size: 12px;">Senior Sales Recruiter, Team Lead</div>
+        <div style="text-align: center; font-size: 10px;">Sales and Customer Engineering </div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-%20Bitmoji.jpg" alt="Picture of Grace Bohl" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Grace Bohl</div>
+        <div style="text-align: center; font-size: 12px;">Sales Recruiter</div>
+        <div style="text-align: center; font-size: 10px;">Sales</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="../../../company/team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg" alt="Picture of Trevor Houghton" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Trevor Houghton</div>
+        <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
+        <div style="text-align: center; font-size: 10px;">Corporate Functions</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
+        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
+        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
+        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-Technical Recruiting Team
+## Recruitment Branding & Social Media
 
-- [Devon Coords](../company/team/index.md#devon-coords-she-her), Director, Technical Recruiting
-  - Engineering
-  - Product
-  - Support
-- [Frey Andersson], Technical Recruiter
-  - Engineering
-- [Win Yu](../company/team/index.md#win-yu-hehis), Technical Talent Sourcer
-  - Talent research for the technical recruiting team
-- [Kemper Hamilton](../company/team/index.md#kemper-hamilton-sheher), Recruitment Operations Specialist
-  - Interview scheduling for technical recruiters
-  - Recruitment branding
-
-Corporate Recruiting Team
-
-- [Kelsey Nagel](../company/team/index.md#kelsey-nagel-she-her), Corporate Recruiter
-  - Marketing
-  - Finance
-  - Legal
-  - BizOps
-  - People Operations
-- [Marija Petrovic](../company/team/index.md#marija-petrovic-she-her), Senior Sales Recruiter, Team Lead
-  - Sales
-  - Customer Engineering
-- [Grace Bohl](../company/team/index.md#grace-bohl-sheher), Sales Recruiter
-  - Sales
-- [Trevor Houghton](../company/team/index.md#trevor-houghton-he-him), Recruitment Operations Specialist
-  - Interview scheduling for corporate recruiters
+- Coming Soon...
