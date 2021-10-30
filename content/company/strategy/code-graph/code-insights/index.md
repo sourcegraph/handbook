@@ -28,30 +28,30 @@ We bring **the best practices of big data to challenges of big code**, turning a
 To deliver on our mission, we will:
 
 - Build a robust Code Insights product offering that is configurable yet simple enough to answer many different engineering leaders' specific questions
-- Continually track usage and feedback to grow the product in its most valuable directions
-- Be intentional with how we publicly launch Code Insights to make sure this story is immediately clear
 - Build towards a Cloud product offering after launching publicly to self-hosted customers
-- Build new major features that help answer the second- and third-stage level of questions about a codebase
+- Build new major features that help answer the second- and third-stage level of questions about a codebase, like proactively surfacing new patterns or providing the ability combine insights with metrics from external systems
 
 ### Vision
 
 #### 1 Year vision
 
-> Any Sourcegraph user can create code insights for their code to answer any question that can be known with a Sourcegraph search, and export/find/recieve this information wherever they need.
+> Any Sourcegraph user can create code insights for their code to answer any question that can be known with a Sourcegraph search, and export/find/receive this information wherever they need. For example, Code Insights answers immediate questions of goal tracking, development velocity, and code health.
 
 #### 3 Year vision
 
-> Sourcegraph Code Insights provide Sourcegraph-built custom value metrics and combines with all other data sources about your code to be the singular home for any high-level question, impact, or code analysis.
+> Sourcegraph Code Insights provide Sourcegraph-built custom metrics and can combine with or import all other data sources about your code to be the singular home for any high-level question, impact, or code analysis. For example, Code Insights provides static analysis or computation metrics for your codebase, and directly integrate with build systems and other performance metrics to do cross-metric analysis.
 
 #### 10 year vision
 
-> Code Insights is the foundation upon which all developers everywhere naturally track, measure, learn, predict, and optimize their engineering and codebase – the best practices of big data become the best practices for managing big code.
+> Code Insights is the foundation upon which all developers everywhere naturally track, measure, learn, predict, and optimize their engineering and codebase – the best practices of big data become the best practices for managing big code. For example, developers use Code Insights to proactively affect code outcomes from performance and defect rates to organizational hiring and developer velocity, and Code Insights-based metrics become the standard measure of a codebase, the same way NPS is for products or CAC is for marketing.
 
 ### Guiding principles
 
 ### Code Insights is built first for engineering leaders
 
 The answer to "why are building Code Insights _now_, ahead of other cool projects Sourcegraph can pursue?" is that Code Insights serves the needs of engineering leaders.
+
+Having features directly valuable to engineering leaders will impact our sales cycle speed, our prospecting and marketing conversion rates, and our ability to deliver on our mission. Currently, engineering leaders often champion Sourcegraph either because they personally used code search in the pastor because their team loves Sourcegraph. Code Insights aims to create engineering leader champions who want Sourcegraph for themselves, because they want Code Insights.
 
 Engineer leaders may not need to use Sourcegraph directly for code search (though their teams do), but they do need to answer questions about their code that Sourcegraph, via Code Insights, is well-positioned to serve.
 
@@ -85,8 +85,7 @@ Code Insights is not for trying to track an individual's output and whether or n
 **What this looks like:**
 
 - We don't build features that would primarily be used for evaluating individuals' performance
-- On a case by case basis, we might even intentionally build features to _block_ our other features from being used for this purpose, if the need ever arises
-- We won't market or sell code insights under false pretenses that this is a valid use case for this feature
+- We won't market or sell code insights as a performance management tool for your team members: it's for looking at the bigger picture, not measuring people
 
 **What this does _not_ look like:**
 
