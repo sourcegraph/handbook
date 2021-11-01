@@ -132,7 +132,7 @@ After the incident is resolved, the incident lead:
 1. Update the incident status and close.
 2. Confirms that the messenger updated any customer communication channels, internal threads, or channels (outside of the incident channel) and social media posts (with marketing’s approval and if necessary) with the latest information.
 3. Update and close and relevant public GitHub issues.
-4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish in Incidents folder in Google Drive.
+4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish it in the [Incidents]](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F) folder in Google Drive.
 5. Create GitHub issues for any appropriate followup work.
 6. Schedule a [retrospective](../../retrospectives/index.md) if you think it would be valuable.
 
