@@ -80,3 +80,4 @@ The following rules should be applied when selecting the page to display to user
 - If the user has seen the feature and there is content in the section, the page should display the index of feature content
 - If the user has seen the feature and there is no content in the section, the getting started page will display
 - If the feature is not available in the instance, it will display for all users at all times
+- The feature home page and the getting started view should have the same URL. For example, both the batch changes list and the batch changes getting started page are available at `/batch-changes`. Clicking the tabs at the top switches between the standard home page and the getting started page without modifying the URL.
