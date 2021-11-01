@@ -2,11 +2,9 @@
 
 ## Support
 
-Support for Delivery is in a state of transition. In in doubt about the process, please do ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
+Any questions, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
 
-The following is true as of 2021-10-06.
-
-### Requesting our support
+### Simple questions or queries
 
 Feel free to direct simple questions to us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) in Slack.
 
@@ -14,21 +12,33 @@ Feel free to direct simple questions to us in [#delivery](https://sourcegraph.sl
 - So please do **NOT** directly message or CC an engineer - this is to try and protect their focus
 - Instead, if it’s urgent, please @ either the PM or the EM in the question in the channel and we'll ensure it gets the best response
 
-### Support request guidelines
+### Making a formal support request
 
 Support requests related to our [areas of ownership](index.md#responsibilities) should follow this process:
 
-1. Make sure there is an issue - if there's not, please create one and include:
+1. Make sure there is an issue in Github:
    - A short description of the ask
    - A more detailed explanation of the background, the context and the challenge that needs solving
    - Any guidance related to the impact this is having
    - Any extra information that could help us solve or prioritize this
 2. Ensure lable `team/delivery` is added to the issue
 3. Ensure that the issue is added to the "[Delivery](https://github.com/orgs/sourcegraph/projects/205)" board in GitHub
-4. Anything without a status is checked and triaged weekly - so this is enough for feature requests or less urgent issues
-5. If you think this needs eyes 👀 sooner
-   - Within a few hours ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
-   - ASAP ➡️ message in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) and CC `@delivery-support`
+4. Message us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) and CC `@delivery-support`
+   - 🙏 Please do not cc individual engineers - this is to try and preserve focus
+
+> ⚠️ Please note that feature requests (classified as anything not currently officially supported) will be triaged by the PM of the team, and are not handled as part of the teams support rotation.<br><br>If an issue is submitted as a support request for something not officially supported, the person on the rota will advise the person who submitted it of this, and CC the PM. 
+
+### How we manage support
+
+- We have a Slack handle `@delivery-support` with 1 engineer (on weekly rotation), plus the EM and the PM (the latter two more for review, visibility, and support for the engineer).
+- The engineer on our support rotation is responsible for primary triage
+  - Only [incidents](../../incidents/index.md) and urgent/critical support issues can jump to the front of the queue (P1)
+  - Only urgent & critical support issues are allowed to spill over from the engineer on the support rotation to other engineers in the team
+  - All other issues are handled only by the on-rotation engineer on a prioritized basis
+  - Only in exceptional circumstances (with EM or PM agreement) should more engineers get involved (e.g. very high support load)
+  - Other engineers avoid involvement in support issues, unless asked to engage by another member of the team
+- If any support issue is at risk of suffering due to prioritization calls, the engineer will communicate this to the CS responsible for the issue
+- If multiple issues are at risk of suffering, the engineer will escalate to the EM or PM of the team
 
 ## How we work
 
