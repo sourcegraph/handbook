@@ -354,7 +354,7 @@ user_authentication:
     gitlab_enterprise: true
     github_com: true
     github_enterprise: true
-    bitbucket_server: true
+    bitbucket_server: false
     bitbucket_cloud: false
     phabricator: false
     codecommit: false
