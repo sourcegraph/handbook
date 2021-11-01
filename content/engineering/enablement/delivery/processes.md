@@ -26,7 +26,7 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
 4. Message us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) and CC `@delivery-support`
    - 🙏 Please do not cc individual engineers - this is to try and preserve focus
 
-> ⚠️ Please note that feature requests (classified as anything not currently officially supported) will be triaged by the PM of the team, and are not handled as part of the teams support rotation.<br><br>If an issue is submitted as a support request for something not officially supported, the person on the rota will advise the person who submitted it of this, and CC the PM. 
+> ⚠️ Please note that feature requests (classified as anything not currently officially supported) will be triaged by the PM of the team, and are not handled as part of the teams support rotation.<br><br>If an issue is submitted as a support request for something not officially supported, the person on the rota will advise the person who submitted it of this, and CC the PM.
 
 ### How we manage support
 
