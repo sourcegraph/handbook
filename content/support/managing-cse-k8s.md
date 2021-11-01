@@ -25,11 +25,11 @@ To access the CSE-GKE instance and run Kubernetes commands locally, you'll need 
 
 ## Upgrading CSE-GKE Kubernetes Instance
 
-We are currently deployed using this [forked repository](https://github.com/abeatrix/deploy-sourcegraph). To upgrade the instance:
+We are currently deployed using this [deploy-sourcegraph-cse-k8s repository](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s). To upgrade the instance:
 
-1. Clone the [forked repository](https://github.com/abeatrix/deploy-sourcegraph) from Beatrix's GitHub account to your local machine.
+1. Clone the [deploy-sourcegraph-cse-k8s repository](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s) to your local machine.
 2. `cd` into the newly cloned directory.
-3. Make sure you are on the main branch: `git checkout main`
+3. Make sure you are on the main branch: `git checkout master`
 4. Get the latest version of Sourcegraph from the [upstream](https://github.com/sourcegraph/deploy-sourcegraph/) by running `git fetch upstream`
 5. Merge the latest update from upstream to the release branch: `git checkout release`
 6. Choose which version you want to deploy from the [Sourcegraph release page](https://github.com/sourcegraph/deploy-sourcegraph/releases) then run: `git merge $NEW_VERSION`
