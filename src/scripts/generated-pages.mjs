@@ -116,7 +116,9 @@ async function generateCompatibilityPage(features, productAreas, productOrgs, co
                 }
                 pageContent += '|'
                 for (const codeHostName of Object.keys(codeHosts)) {
-                    if (feature.compatibility[codeHostName]) {
+                    if (feature.compatibility === undefined) {
+                        pageContent += ' |'
+                    } else if (feature.compatibility[codeHostName]) {
                         pageContent += '✔️|'
                     } else {
                         pageContent += ' |'
