@@ -284,7 +284,7 @@ code_insights:
   title: 'Code Insights'
   product_area: code_insights
   maturity: beta
-  documentation_link: 'https://docs.sourcegraph.com/code_insights' #TODO add
+  documentation_link: 'https://docs.sourcegraph.com/code_insights'
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -462,7 +462,7 @@ prebuilt_extensions:
   title: 'Pre-built Extensions'
   product_area: extensions
   maturity: ga
-  documentation_link: 'https://docs.sourcegraph.com/extensions' #TODO add
+  documentation_link: 'https://docs.sourcegraph.com/extensions'
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -481,7 +481,7 @@ custom_extensions:
   title: 'Custom Extensions'
   product_area: extensions
   maturity: ga
-  documentation_link: 'https://docs.sourcegraph.com/extensions/authoring' #TODO add
+  documentation_link: 'https://docs.sourcegraph.com/extensions/authoring'
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
