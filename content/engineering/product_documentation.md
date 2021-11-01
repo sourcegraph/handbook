@@ -64,7 +64,7 @@ Deployment documentation should be structured as follows:
   - "Sourcegraph with X" (`admin/install/X/index.md`). Includes:
     - Installation (`#installation`): how to install Sourcegraph with this method. Can link out to separate guide(s) where appropriate.
       - This gets featured here because a customer will likely only encounter installation once.
-      - Simiarly, "Migration to X" (`admin/install/X/migrate.md`) should be in its own page because a custoemr will likely only encounter it once.
+      - Similarly, "Migration to X" (`admin/install/X/migrate.md`) should be in its own page because a custoemr will likely only encounter it once.
     - About (`#about`): links to background info, some basic ideas, etc.
   - "Operations guides for Sourcegraph with X" (`admin/install/X/operations.md`). This page should be the go-to page for "I need to do something with my X deployment".
     - See [administration documentation best practices](#administration-documentation).
