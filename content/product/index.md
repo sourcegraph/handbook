@@ -19,7 +19,7 @@ The product strategy and what we're working on next can be found on the [Sourceg
 
 We have a matrix of product areas:
 
-- [Product area reference](feature_areas.md)
+- [Product area reference](product_areas.md)
 
 We also have several feature reference matrices:
 
