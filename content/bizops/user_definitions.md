@@ -21,7 +21,7 @@ There is also a special state, **activated**, which is permanent once triggered 
 
 ### What is a visitor?
 
-A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page). Currrently a unique person cannot be identified between our on-premises & cloud solution, in other words when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitor because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
+A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page). Currently a unique person cannot be identified between our on-premises & cloud solution, in other words when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitor because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
 
 ### What is an active user?
 
@@ -58,10 +58,6 @@ Time periods we track:
 - Monthly active user (MAU)
 
 The different time periods are used depending on the length of the relevant context (for example, a marketing campaign that runs for a week might track DAU while our yearly goals might track MAU.)
-
-## Unique Sourcegraph users
-
-For some of our metrics we want to identify unique users across on-prem and cloud instances. For this purpose, unique users of Sourcegraph are defined as having a common email address across any number of instances. For example, a@b.com on an on-prem instance and a@b.com on Sourcegraph.com would be considered the same user for the purposes of this metric. Note that most measures don't have this constraint, and any that do will include the term "Unique Sourcegraph Users" in the name of the metric.
 
 ## Engagement ratios
 

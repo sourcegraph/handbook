@@ -30,7 +30,7 @@ A/B testing requires a large enough number of users to get statistically signifi
 
 If you want to A/B test over a part of the product that does not receive a lot of traffic and therefore needs a much bigger impact on the metric to be statistically significant, the variant tested generally needs to be much more ambitious and thoughtful (e.g. removing 75% of steps in a sign-up flow instead of changing the color of a button).
 
-For example, retention fluctuates week over week for "random" reasons we don't understand. The more users, the smaller those "random" fluctuations will be: this will make it possible to decide wether a change caused by an experiment was likely random, or likely caused by the experiment.
+For example, retention fluctuates week over week for "random" reasons we don't understand. The more users, the smaller those "random" fluctuations will be: this will make it possible to decide whether a change caused by an experiment was likely random, or likely caused by the experiment.
 
 Running A/B tests on a number of users that is too small is inefficient (waste time to setup the A/B test), inconclusive (the result will be that no conclusion can be made) and sometimes counterproductive (miscommunicated, an insignificant A/B test leads teammates to draw conclusions that aren't valid and can be hard to debunk). In that case, it's better to choose another method, such as user interviews.
 
@@ -42,7 +42,7 @@ Running A/B tests on a number of users that is too small is inefficient (waste t
 - Evaluating versions of button placement, CTAs, landing pages
 - Evaluating different messaging and positioning statements
 
-The higher the initial conversion percentage, the easier it will be to acheive a sample size quickly, but the tougher it could be to see a meaninful increase.
+The higher the initial conversion percentage, the easier it will be to achieve a sample size quickly, but the tougher it could be to see a meaningful increase.
 
 #### Bad A/B test candidates
 
