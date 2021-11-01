@@ -130,7 +130,7 @@ After you have documented your informal Impact review, this process will be comp
 
 You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
 
-_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
+\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
 
 Additionally, our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by that point in time. We will keep the templates live for you to seek feedback inbetween future cycles.
 
