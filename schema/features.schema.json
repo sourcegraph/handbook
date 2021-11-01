@@ -18,6 +18,7 @@
         "format": "uri"
       },
       "compatibility": {
+        "type": "object",
         "additionalProperties": {
           "type": "boolean"
         }
