@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "product_org": {
+        "type": "string"
+      },
+      "strategy_link": {
+        "type": "string",
+        "format": "uri-reference"
+      },
+      "pm": {
+        "type": "string"
+      }
+    },
+    "required": ["title", "product_org", "strategy_link", "pm"]
+  }
+}
