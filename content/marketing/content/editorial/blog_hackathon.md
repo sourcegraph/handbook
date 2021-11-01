@@ -1,6 +1,6 @@
 # Blog Hackathon
 
-- Save the date: 2021-09-01
+- Next date TBD: We are working on planning the next event, which will likely take place early in FY23.
 - Slack channel: #blog-hackathon
 
 Block your calendars! The Content team invites team members from our Engineering, Product, Customer Support, and Customer Engineering orgs to take part in our first Blog Hackathon.

@@ -49,6 +49,10 @@ There is **no** expectation that people will be responsive over the weekend/vaca
 Tip: [Configure](../../engineering/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
 After that it is just a matter of not checking your work email (or Slack) at times that you don’t want to do work. Slack has settings to pause notifications, and you can remove work email from your phone if that would help you not check it during non-work times.
 
+## Remote hackathons
+
+Just because we're remote, does not mean we don't have hackathons. Teams, organizations, and departments across Sourcegraph – including product + engineering, business operations, and customer engineering – have held [remote hackathons](remote_hackathons.md).
+
 ## Helpful links
 
 - [Our journey to all-remote](https://about.sourcegraph.com/blog/our-journey-to-all-remote)

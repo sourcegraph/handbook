@@ -6,7 +6,6 @@ Next, open a new terminal and set two environment variables for ergonomics for t
 
 ```
 export CLOUDSDK_CORE_PROJECT=sourcegraph-dogfood
-export CLOUDSDK_COMPUTE_REGION=us-central1
 export CLOUDSDK_COMPUTE_REGION=us-central1-f
 ```
 

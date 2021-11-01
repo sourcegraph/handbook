@@ -21,7 +21,7 @@ TODO
 ## Contact
 
 - #dev-experience channel or @dev-experience-team in Slack.
-- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and [@sourcegraph/dev-experience](https://github.com/orgs/sourcegraph/teams/dev-experience) team on GitHub.
+- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team on GitHub.
   - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label.
 
 ## Growth plan

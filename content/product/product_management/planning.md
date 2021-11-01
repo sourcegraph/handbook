@@ -2,6 +2,8 @@
 
 Planning is a continuous negotiation between product and engineering. Teams should review the [strategy page for their area](../../company/strategy/index.md#per-area-strategy-pages) weekly with the [Product Manager](../roles/index.md#product-manager) and update it at least monthly. The roadmap will become less specific and focus more on the problems we are looking to solve the further out it gets because we expect to learn a lot between defining the problem and implementation. As implementation details change and we learn more about the solution to the problem we are aiming to solve, the product manager is responsible for communicating clearly what changes.
 
+[Pricing features](pricing.md) is a complicated topic and has its own page.
+
 ## Product / eng team backlogs
 
 You can find the backlogs for the product teams by visiting their [individual strategy pages](../../company/strategy/index.md#per-area-strategy-pages). Teams are using different tools and processes to plan and track their work such as Jira, Productboard, or GitHub issues.
@@ -55,3 +57,21 @@ See [tracking issues](../../engineering/tracking_issues.md)
 ### [Prioritizing](prioritizing.md)
 
 See [prioritizing](prioritizing.md).
+
+### Experimentation and improvements to planning
+
+#### Using the AARRR Framework to facilitate feature lifecycle planning
+
+Features are no different than products in their need to acquire visitors, activate users, retain those users, expand via referral and other viral means and generate revenue for the business.
+
+To improve planning so that teams consider these stages as part of feature development, some product teams are experimenting with Dave McClure's pirate framework. This framework condenses these phases into an easy to remember (if not comical sounding) mnemonic:
+
+- Acquisition - grow the number of users using the feature
+- Activation - improve the number of users who see value
+- Retention - ensure activated users come back to the feature
+- Referral - ensure your users invite other users
+- Revenue - understand how the feature contributes back to the business.
+
+Learn more about the framework with this [introduction](https://medium.com/@ginoarendsz/an-introduction-to-the-aarrr-framework-b8570d6ae0d2) or Dave McClure's [slide deck on the topic](https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version).
+
+To leverage the framework, teams are incorporating the metrics in [product documents](https://docs.google.com/document/d/1-TIKwwQd2eQEH0PCuBhOitLcm31Pdx5NmCShVj6JqyU/edit#bookmark=id.gp24i8rlesx), [user stories](https://miro.com/app/board/o9J_ltNMJnI=/) and in reporting such as [Amplitude notebooks](https://analytics.amplitude.com/sourcegraph/notebook/h7td539?source=sidebar).

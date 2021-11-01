@@ -9,6 +9,7 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 - [Dan Adler](../company/team/index.md#dan-adler-he-him), VP Operations
 - [Tommy O Donnell](../company/team/index.md#tommy-o-donnell-he-him), Manager, Financial Planning & Analysis
 - [Kendrick Morris](../company/team/index.md#kendrick-morris-he-him), Finance & Operations Analyst
+- [Keely Aguayo](../company/team/index.md#keely-aguayo-she-her), Payroll Manager
 
 ### Roles
 

@@ -17,7 +17,7 @@ Our mission is to provide technical foundations critical to the business, our cu
 The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-she-hers) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](../roles.md#director-of-engineering))
 
 - [Repo Management](repo-management/index.md)
-  - [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) (acting [Engineering Manager](../roles.md#engineering-manager))
+  - [Jordan Plahn](../../company/team/index.md#jordan-plahn-hehim) ([Engineering Manager](../roles.md#engineering-manager))
   - [Dan Mckean](../../company/team/index.md#dan-mckeen-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
   - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
   - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)

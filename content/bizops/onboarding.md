@@ -56,7 +56,7 @@ Your manager will help you schedule the following training sessions:
   - Include collaboration with another team to start building familiarity with how other teams operate
   - Be opportunities for you to get a quick win or two
 - Continue asking questions about Sourcegraph (the company and product) and reinforcing our values and goals.
-- Look back at your onboarding material from week 1. It's a lot of new information, but it will become second nature over time with a little bit of repitition!
+- Look back at your onboarding material from week 1. It's a lot of new information, but it will become second nature over time with a little bit of repetition!
 - Think about how onboarding could be improved for the next person and make changes to it along the way. It will never be perfect, but it can always get better!
 
 ## Week 4

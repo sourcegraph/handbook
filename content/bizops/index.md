@@ -76,7 +76,7 @@ For _time-sensitive_ and _urgent_ requests, please tag the issue with the `urgen
 To get in touch with us, or ask for our input or help:
 
 - Post in one of our [slack channels](#slack-channels), or mention @business-ops in any channel
-- Tag [@sourcegraph/bizops](https://github.com/orgs/sourcegraph/teams/bizops) in existing GitHub issues
+- Tag @sourcegraph/bizops in existing GitHub issues
 
 ## How we work
 

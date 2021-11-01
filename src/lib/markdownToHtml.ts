@@ -4,9 +4,11 @@ import * as url from 'url'
 import * as _rehypeSection from '@agentofuser/rehype-section'
 import rehypeExtractToc, { Toc } from '@stefanprobst/rehype-extract-toc'
 import { Node, Root } from 'hast'
+import { isElement } from 'hast-util-is-element'
 import { select } from 'hast-util-select'
 import { HastNode } from 'hast-util-select/lib/types'
 import { toString } from 'hast-util-to-string'
+import { h } from 'hastscript'
 import { Root as MdastRoot, Content as MdastContent } from 'mdast'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeHighlight from 'rehype-highlight'
@@ -15,9 +17,11 @@ import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
 import rehypeUrl, { UrlMatch } from 'rehype-url-inspector'
 import remarkGfm from 'remark-gfm'
+import remarkGitHub from 'remark-github'
 import remarkParse from 'remark-parse'
-import remarkRehype from 'remark-rehype'
+import remarkRehype, { HastRoot } from 'remark-rehype'
 import { unified, Plugin } from 'unified'
+import { visit } from 'unist-util-visit'
 import { VFile } from 'vfile'
 
 import { rehypeMarkupDates } from './rehypeMarkupDates'
@@ -49,6 +53,23 @@ export default async function markdownToHtml(
         .use(remarkParse)
         .use(remarkGfm)
         .use(remarkSpecialNoteBlocks)
+        // Automatically link and shorten GitHub issues, PRs, repos etc like on GitHub
+        .use(remarkGitHub, {
+            mentionStrong: false,
+            repository: 'sourcegraph/sourcegraph', // Default repository if only issue/PR number is used
+            buildUrl: (values, defaultBuildUrl) => {
+                if (values.type === 'mention') {
+                    if (values.user.startsWith('sourcegraph/')) {
+                        // Team handle. remark-github doesn't handle those correctly natively.
+                        const [, teamName] = values.user.split('/')
+                        return `https://github.com/orgs/sourcegraph/teams/${teamName}`
+                    }
+                    // When @user handles are used in the handbook, they often mean a Slack handle, not a GitHub username
+                    return false
+                }
+                return defaultBuildUrl(values)
+            },
+        })
         // Convert Markdown AST -> HTML AST
         .use(remarkRehype, { allowDangerousHtml: true })
         // Parse Markdown that was included _within_ HTML
@@ -56,6 +77,8 @@ export default async function markdownToHtml(
         .use(rehypeSmartypants, { backticks: false, dashes: 'oldschool' })
         .use(rehypeMarkupDates)
         .use(rehypeSlackChannels)
+        // Wrap all tables in Bootstrap's responsive helper to make them scroll instead of overflowing
+        .use(rehypeResponsiveTables)
         // Trim .md suffix from links
         .use(rehypeUrl, {
             selectors: urlSelectors,
@@ -133,8 +156,8 @@ const rehypeExtractTitleFromH1: Plugin = () =>
  * Note blockquote syntax, originally from docsite. Any blockquote starting with
  * "> NOTE:" is converted to <aside class="note">...</aside>.
  */
-const remarkSpecialNoteBlocks: Plugin<void[], MdastRoot> = () =>
-    function (tree, file: VFile) {
+const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
+    function (tree) {
         for (const node of tree.children) {
             if (isSpecialNoteBlockquote(node)) {
                 // TODO: This overwrites the `hProperties` to add the class
@@ -144,6 +167,18 @@ const remarkSpecialNoteBlocks: Plugin<void[], MdastRoot> = () =>
             }
         }
     }
+
+/**
+ * Wraps all `<table>`s in `<div class="table-responsive">` for horizontal scrolling.
+ */
+// eslint-disable-next-line unicorn/consistent-function-scoping
+const rehypeResponsiveTables: Plugin<[], HastRoot> = () => tree => {
+    visit(tree, (node, index, parent) => {
+        if (isElement(node, 'table')) {
+            parent!.children[index!] = h('div.table-responsive', node)
+        }
+    })
+}
 
 function isSpecialNoteBlockquote(node: MdastContent): boolean {
     if (node.type !== 'blockquote') {

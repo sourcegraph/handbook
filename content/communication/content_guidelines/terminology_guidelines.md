@@ -22,16 +22,18 @@ You don't need to use the full name of the product each time you refer to it, bu
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Use the Phabricator integration to get Sourcegraph features in code review.</li>
-</ul>
+
+##### Yes
+
+- Use the Phabricator integration to get Sourcegraph features in code review.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Use the Sourcegraph Phabricator integration to get Sourcegraph features in code review. <em>(sounds repetitive and stilted)</em></li>
-</ul>
+
+##### No
+
+- Use the Sourcegraph Phabricator integration to get Sourcegraph features in code review. _(sounds repetitive and stilted)_
+
 </div>
 </div>
 
@@ -39,17 +41,19 @@ Always title case our name. Don’t abbreviate or add a space to our name.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Sourcegraph</li>
-</ul>
+
+##### Yes
+
+- Sourcegraph
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>SG</li>
-<li>Source Graph</li>
-</ul>
+
+##### No
+
+- SG
+- Source Graph
+
 </div>
 </div>
 

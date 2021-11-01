@@ -10,7 +10,7 @@
 ## Contact
 
 - #batch-changes channel or @batchers on Slack.
-- [@sourcegraph/batchers](https://github.com/orgs/sourcegraph/teams/batchers) team or [team/batchers label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fbatchers) on GitHub.
+- @sourcegraph/batchers team or [team/batchers label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ateam%2Fbatchers) on GitHub.
 
 ## Process
 

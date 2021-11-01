@@ -23,6 +23,7 @@ This continuity means we give customers consistent and high-quality service from
 - [CE Education](education.md)
 - [New CE Onboarding](onboarding.md)
 - [Team Culture](team-culture.md)
+- [CE Tools](ce-tools.md)
 - [Working with Customers](working-with-customers.md)
 - [Career Growth](career-growth.md)
 

@@ -2,6 +2,9 @@ import exec from 'execa'
 
 import { encodeURIPathComponent } from './uri.mjs'
 
+/**
+ * @returns {Promise<{ source: string, destination: string }[]>}
+ */
 export async function getMovedPagesFromHistory() {
     const result = await exec('git', ['log', '--name-status', '--pretty=', '--diff-filter=R', 'content'])
 

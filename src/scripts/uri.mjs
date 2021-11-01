@@ -10,4 +10,4 @@
  * @returns {string} The path component with special characters encoded.
  */
 export const encodeURIPathComponent = component =>
-  component.split('/').map(encodeURIComponent).join('/').replace(/%2B/g, '+')
+    component.split('/').map(encodeURIComponent).join('/').replace(/%2B/g, '+')

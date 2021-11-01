@@ -5,6 +5,7 @@ This page contains information that is relevant for how to do well at your job a
 ## Product process
 
 - [Planning](planning.md) - how we do planning and the artifacts we use to plan.
+- [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Tracking user feedback](user_feedback.md) - sources of feedback and how we keep track of that feedback.
@@ -20,6 +21,10 @@ Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) tha
 We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) to communicate where each of our product teams is headed, for the areas of the product that they work on. Newly created teams should begin documenting the scope of their team as well as their mission, vision, principles, and more by creating one of these pages as part of the process of forming.
 
 All product engineering teams should have their own strategy page, and should update it on a monthly cadence (at the same time the [PMM roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) is updated) by proposing a new pull request to update their content. Everyone on the team should be invited to contribute, and the update should be shared with important stakeholders. This helps us keep everyone aligned, and ensures we have a single source of truth for our product directions. The specific day of the month that the team updates the doc is up to the team internally to decide, the important part is that it is never more than a month out of date.
+
+### Feature data
+
+We have several [feature matrix pages](../index.md#feature-reference) that are backed by data in the [data folder of the handbook project](https://github.com/sourcegraph/handbook). Product managers should keep these files up to date as part of their monthly direction page updates, as needed.
 
 ## Glossary
 
@@ -72,6 +77,7 @@ When we have relaxed this in the past, the results have been bad and the overwhe
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../bizops/amplitude.md)
 - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
+- [Running remote hackathons](../../company/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
 
 ## References
 
