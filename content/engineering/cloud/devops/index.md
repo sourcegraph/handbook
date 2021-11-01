@@ -25,8 +25,6 @@ TBA
 
 ## Goals
 
-
-
 ### Working Principles
 
 TBA
