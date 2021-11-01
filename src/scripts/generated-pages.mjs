@@ -169,6 +169,41 @@ async function generateTeamPage(teamMembers) {
     console.log('  ' + teamFile)
 }
 
+async function generateProductAreasPage(teamMembers,productAreas,productOrgs) {
+    const productAreasFilePath = 'content/product/product_areas.md'
+    let pageContent = '# Sourcegraph product areas\n'
+    pageContent +=
+        'This page contains a list of the product areas at Sourcegraph, and the labels used in their issues \n'
+
+    for (const productArea of Object.values(productAreas)) {
+        pageContent += `\n\n## ${productArea.title}\n`
+        if (productArea.product_org) {
+            const strategyUrl = createRelativeProductLink(productOrgs[productArea.product_org].strategy_link)
+            pageContent += `- Organization: [${productOrgs[productArea.product_org].title}](${strategyUrl})\n`
+        }
+        if (productArea.pm) {
+            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name.toLowerCase().replace(/\s+/g, '-')}`
+            pageContent += `- Product Manager: [${teamMembers[productArea.pm].name}](${bioLink})`
+        }
+        if (productArea.issue_labels) {
+            for(let index = 0; index < productArea.issue_labels.length; index++){
+                if(index===0){
+                    pageContent+='\n- Issue labels: '
+                }
+                if(index<productArea.issue_labels.length-1){
+                    pageContent+= `[${productArea.issue_labels[index]}](https://github.com/sourcegraph/sourcegraph/labels/${productArea.issue_labels[index]}), `
+                }
+                if(index===productArea.issue_labels.length-1){
+                    pageContent+= `[${productArea.issue_labels[index]}](https://github.com/sourcegraph/sourcegraph/labels/${productArea.issue_labels[index]})`
+                    pageContent+='\n'
+                }
+            }
+        }
+    }
+    await writeFile(productAreasFilePath, pageContent)
+    console.log('  ' + productAreasFilePath)
+}
+
 console.log('Creating generated pages..')
 
 // Load YAML files
@@ -182,5 +217,6 @@ const teamMembers = await readYamlFile('data/team.yml')
 await generateMaturityPage(features, maturityLevels, productAreas, productOrgs, teamMembers)
 await generateCompatibilityPage(features, productAreas, productOrgs, codeHosts, teamMembers)
 await generateTeamPage(teamMembers)
+await generateProductAreasPage(teamMembers,productAreas,productOrgs)
 
 console.log('Successfully created all generated pages.\n')
