@@ -2,13 +2,17 @@
 
 ## Why can't I edit the page through the site-admin page anymore
 
-The configuration is stored in GSM (Google Secret Manager) as encrypted secrets so that they can only be modified by member of the team with permission to make changes and are not stored unencryted at rest.
+Site configuration for sourcegraph.com is split into two files. One contains non-sensitive configurations and the other production secrets such as GitHub OAuth credentials.
 
 ## Making changes to the website configuration
 
-### Site configuration
+### Non-sensitive configurations
 
-Our site configuration contains many secrets like OAuth credentials. It is [stored in GSM](https://console.cloud.google.com/security/secret-manager/secret/SITE_JSON/versions?project=sourcegraph-dev) in the `sourcegraph-dev` project. To update Site Config for our Cloud deployment, follow these steps:
+Non-sensitve configurations are stored in a [ConfigMap](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/frontend/non-sensitive-site-config.ConfigMap.yaml) and are updated through our standard git flow.
+
+### Sensitive configurations
+
+Our site configuration contains many secrets like OAuth credentials. It is [stored in GSM](https://console.cloud.google.com/security/secret-manager/secret/SITE_JSON/versions?project=sourcegraph-dev) in the `sourcegraph-dev` project. To update secrets in site config for our Cloud deployment, follow these steps:
 
 1. In GSM, copy the contents of the latest version of the secret and make the necessary changes.
 1. Create a new secret version with the updated site configuration. Disable all previous versions.
