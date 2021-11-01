@@ -83,7 +83,7 @@ If an additional user property is added to this table, it will only be applied t
 
 Amplitude is built on top of our existing [eventLogger infrastructure](https://sourcegraph.com/search?q=context:global+eventLogger.log%28+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+&patternType=literal), so we consider an event to be anything logged by this. We use [object action framework in Proper Case](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/) for our naming. For example, in eventLogger this would show up as 'SearchSubmitted', and in Amplitude it's converted to 'Search Submitted'.
 
-All events from eventLogger are sent to Amplitude except if explicitely added to a denylist in the scheduled query.
+All events from eventLogger are sent to Amplitude except if explicitly added to a denylist in the scheduled query.
 
 ## A/B testing in Amplitude
 
