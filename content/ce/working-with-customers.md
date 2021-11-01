@@ -155,7 +155,7 @@ At times a customer may raise a feature request or provide product feedback. It 
 
 #### Resources
 
-- [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z3t000000p9TjEAI/view?queryScope=userFolders)
+- [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders)
 
 ### Account Management
 
