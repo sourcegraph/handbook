@@ -219,7 +219,6 @@ precise_code_intelligence_java_scala:
   product_area: code_intelligence
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
-  compatibility: false
 
 precise_code_intelligence_c_cpp:
   title: 'Precise Code Intelligence for C/C++'
