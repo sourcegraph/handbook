@@ -24,6 +24,7 @@
         "type": "string"
       },
       "compatibility": {
+        "type": "object",
         "additionalProperties": {
           "type": "boolean"
         }
