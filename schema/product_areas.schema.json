@@ -7,10 +7,12 @@
         "type": "string"
       },
       "strategy_link": {
-        "type": "string",
-        "format": "uri-reference"
+        "type": "string"
       }
     },
-    "required": ["title", "strategy_link"]
+    "required": [
+      "title",
+      "strategy_link"
+    ]
   }
 }

@@ -11,11 +11,17 @@
       },
       "maturity": {
         "type": "string",
-        "enum": ["ga", "partial_ga", "beta", "experimental", "not_implemented", "deprecated"]
+        "enum": [
+          "ga",
+          "partial_ga",
+          "beta",
+          "experimental",
+          "not_implemented",
+          "deprecated"
+        ]
       },
       "documentation_link": {
-        "type": "string",
-        "format": "uri"
+        "type": "string"
       },
       "compatibility": {
         "additionalProperties": {
@@ -23,6 +29,10 @@
         }
       }
     },
-    "required": ["title", "product_area", "maturity", "documentation_link", "compatibility"]
+    "required": [
+      "title",
+      "product_area",
+      "maturity"
+    ]
   }
 }

@@ -6,17 +6,17 @@
       "title": {
         "type": "string"
       },
-      "product_org": {
-        "type": "string"
-      },
       "strategy_link": {
-        "type": "string",
-        "format": "uri-reference"
+        "type": "string"
       },
       "pm": {
         "type": "string"
       }
     },
-    "required": ["title", "product_org", "strategy_link", "pm"]
+    "required": [
+      "title",
+      "strategy_link",
+      "pm"
+    ]
   }
 }

@@ -7,10 +7,12 @@
         "type": "string"
       },
       "info_link": {
-        "type": "string",
-        "format": "uri"
+        "type": "string"
       }
     },
-    "required": ["title", "info_link"]
+    "required": [
+      "title",
+      "info_link"
+    ]
   }
 }
