@@ -1,8 +1,10 @@
+# yaml-language-server: $schema=../schema/team.schema.json
+
 quinn_slack:
   name: 'Quinn Slack'
   role: '[CEO](../../ceo/index.md), Cofounder, Board of Directors'
   location: 'Mill Valley, CA, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'sqs@sourcegraph.com'
   links: '[slack.org](https://slack.org), [@sqs](https://twitter.com/sqs), [LinkedIn](https://www.linkedin.com/in/quinnslack)'
   pronouns: '[he](http://pronoun.is/he)'
@@ -12,7 +14,7 @@ beyang_liu:
   name: 'Beyang Liu'
   role: 'CTO, Cofounder, Board of Directors'
   location: 'San Francisco, CA, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'beyang@sourcegraph.com'
   links: '[@beyang](https://twitter.com/beyang), [LinkedIn](https://www.linkedin.com/in/beyang-liu)'
   description: 'Beyang Liu is CTO and cofounder of Sourcegraph. Prior to Sourcegraph, Beyang was a software engineer at Palantir Technologies, where he developed new data analysis software on a small, customer-facing team working with Fortune 500 companies. Beyang studied Computer Science at Stanford, where he published research in probabilistic graphical models and computer vision at the Stanford AI Lab and thoroughly enjoyed his compilers course.'
@@ -32,7 +34,7 @@ stephen_gutekanst:
   name: 'Stephen Gutekanst'
   role: 'Internal Contributor / Software Engineer'
   location: 'Phoenix, AZ, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'stephen@sourcegraph.com'
   links: '[@slimsag](https://twitter.com/slimsag), [LinkedIn](https://www.linkedin.com/in/slimsag)'
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/stephen-gutekanst)'
@@ -43,7 +45,7 @@ ryan_slade:
   pronouns: 'he/him'
   role: 'Software Engineer'
   location: 'Valencia, Spain 🇪🇸'
-  github: false
+  github: ''
   email: 'rslade@sourcegraph.com'
   links: '[@frefity](https://twitter.com/frefity), [LinkedIn](https://www.linkedin.com/in/ryan-slade-1bb36bb/)'
   description: 'Ryan enjoys spending time with his family, mountain biking and playing squash. Prior to Sourcegraph he helped develop a real time bidding system for online advertisers at Avocet and worked for a taxi hailing company in London, Hailo. He studied Computer Science at the University of Cape Town and has lived in the South Africa, the UK, Singapore the US and Spain.'
@@ -52,7 +54,7 @@ rijnard_van_tonder:
   name: 'Rijnard van Tonder'
   role: 'Software Engineer'
   location: 'Las Vegas, NV, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'rijnard@sourcegraph.com'
   links: '[@rvtond](https://twitter.com/rvtond), [LinkedIn](https://www.linkedin.com/in/rijnard)'
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/rijnard)'
@@ -174,7 +176,7 @@ geoffrey_gilmore:
   location: 'San Francisco, CA, USA 🇺🇸'
   github: 'ggilmore'
   email: 'geoffrey@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Geoffrey is an MIT graduate who enjoys kicking people in his spare time.'
 
 farhan_attamimi:
@@ -183,7 +185,7 @@ farhan_attamimi:
   location: 'Singapore 🇸🇬'
   github: 'attfarhan'
   email: 'farhan@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Farhan writes code to pass the time while impatiently waiting for Manchester United to return to glory.'
 
 erik_seliger:
@@ -202,14 +204,14 @@ kai_passo:
   location: 'Atlanta, GA, USA 🇺🇸'
   github: 'kpsource'
   email: 'kai@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Kai enjoys time with his family, sailing, and vacationing in Maine (for lobster, sea glass, and amazing sunsets). In terms of work, he focuses on helping customers solve business problems and providing an exceptional customer experience.'
 
 rob_rhyne:
   name: 'Rob Rhyne'
   role: 'Senior Product Designer'
   location: 'Oceanside, CA, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'rob@sourcegraph.com'
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
   description: 'Rob is a designer, developer, and accidental salesman with a penchant for solving business problems with usable design and code. When not making products, he is raising two boys with his wife, working on his boat, or fishing offshore for anything that makes good poke.'
@@ -230,7 +232,7 @@ asdine_el_hrychy:
   location: 'Ajaccio, France 🇫🇷/ Dubai, UAE 🇦🇪'
   github: 'asdine'
   email: 'asdine@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Asdine loves experimenting and building bizarre software while enjoying an entire pot of coffee. Before Sourcegraph, he was writing tools and frameworks for his colleagues at Heetch. He also hates dogs, especially the small ones, essentially because they hate him.'
 
 dave_try:
@@ -239,7 +241,7 @@ dave_try:
   location: 'Ibague, Colombia 🇨🇴/ Sydney, Australia 🇦🇺'
   github: 'davejrt'
   email: 'dave@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Dave likes riding his bike up hill, drinking coffee and travelling. After graduating University and getting his start as a Unix system administrator, he still has a soft spot for Solaris and enjoys solving problems on large scale infrastructure.'
 
 dax_mcdonald:
@@ -319,7 +321,7 @@ stefan_hengl:
   location: 'Berlin, Germany 🇩🇪'
   github: 'stefanhengl'
   email: 'stefan@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Stefan lives in Berlin with his wife and two children. Prior to Sourcegraph, Stefan was a software engineer at Zalando and SAP, where he worked on data pipelines and low-latency, high-throughput microservices. He graduated in Physics but eventually realized that software engineering is his true passion. In his free time, Stefan enjoys cooking, plays chess with his daughter, and dreams about building a house in the wilderness of Norway.'
 
 quinn_keast:
@@ -350,7 +352,7 @@ tharuntej_kandala:
   location: 'Jacksonville, FL, USA 🇺🇸'
   github: 'tjkandala'
   email: 'tj@sourcegraph.com'
-  links: false
+  links: ''
   pronunciation: 'Call him "TJ"'
   description: 'TJ was born in India before he was brought to the swamp. He strives to bridge the gap between Developer Experience and User Experience in modern web applications. Outside of work, he loves to code and dunk basketballs by the ocean.'
 
@@ -369,7 +371,7 @@ gregg_stone:
   name: 'Gregg Stone'
   role: 'VP of Sales'
   location: 'San Francisco, CA'
-  github: false
+  github: ''
   email: 'gregg@sourcegraph.com'
   links: '[LinkedIn](https://www.linkedin.com/in/stonegregg)'
   description: 'Gregg lives in San Francisco with his wife Heather and two kids Liv & Gavin. He moved to San Francisco 13 years ago. He started his sales career at Salesforce, before moving on to several startup tech companies. He enjoys spending time with his family, golfing, hiking, swimming, and skiing. He grew up in NC and graduated from NC State with a degree in Finance.'
@@ -389,7 +391,7 @@ bill_kolman:
   name: 'Bill Kolman'
   role: 'Account Executive'
   location: 'New York, New York'
-  github: false
+  github: ''
   email: 'Bill@sourcegraph.com'
   links: '[LinkedIn](https://www.linkedin.com/in/william-kolman/)'
   description: "Bill lives in Long Island City, Queens with his wife, daughter, and dog. He has been in tech related sales since 2008. Most recently he has been working in early stage startups, building businesses from the ground up in the eastern US. Bill is an avid bicyclist, so when he's not evangelizing Sourcegraph or studying the newest trends in technology, he is probably exploring the 5 boroughs on his bike."
@@ -399,7 +401,7 @@ owen_brennan:
   pronouns: 'he/him'
   role: 'Account Executive'
   location: 'Boise, Idaho, USA'
-  github: false
+  github: ''
   email: 'owen@sourcegraph.com'
   links: '[LinkedIn](https://www.linkedin.com/in/owenbrennan/)'
   description: "Owen has worked in early-stage technology sales for almost his entire career. He's passionate about helping customers resolve their unique business challenges, and fostering a long-term impact for them. Outside of work, Owen can be found with his family exploring his home State of Idaho: hiking, fly fishing, rafting and snowboarding."
@@ -420,8 +422,8 @@ chris_surdi:
   role: 'Account Executive'
   location: 'San Francisco, Ca, USA, 🇺🇸'
   email: 'chris.surdi@sourcegraph.com'
-  links: false
-  github: false
+  links: ''
+  github: ''
   description: "I’m a serial entrepreneur and angel employee with a passion for disruptive technology and sales. I live north of San Francisco with my wife Meliza and three kids - Truson, Kaison and Crimson. I'm originally from back East and moved out to the West Coast in 2003 to be involved in startups, technology, and innovation. I'm grateful to say I'm doing everything I've set myself out to achieve at this point."
 
 joel_kwartler:
@@ -440,9 +442,9 @@ joe_kirscher:
   pronouns: 'he/him'
   role: 'Strategy & Operations Manager'
   location: 'Mountain View, CA, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'joe.kirscher@sourcegraph.com'
-  links: false
+  links: ''
   description: "Joe grew up in Nebraska before coming out to California for college. He has grown to love the mild weather and wine country around the Bay Area, which is fortunate, because he doesn't play football so they won't let him back into Nebraska. After a couple years of consulting, he then spent a total of 10 years working in Sales Operations at Yahoo and FireEye and is now excited to help Sourcegraph scale up!"
 
 kacie_jenkins:
@@ -450,7 +452,7 @@ kacie_jenkins:
   pronouns: 'she/her'
   role: 'VP of Marketing'
   location: 'Sea Ranch, CA, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'kacie@sourcegraph.com'
   links: '[@mskaciej](https://twitter.com/mskaciej), [LinkedIn](https://www.linkedin.com/in/kaciejenkins)'
   description: 'Kacie lives on the northern California coast with her partner Brooks and their feisty little pup, Beatrix (Bebe). Prior to Sourcegraph, Kacie led global marketing at Ace Hotel Group, where she launched the first AI-generated hotel lobby soundscape in partnership with Bjork and Microsoft. As VP of Marketing at Fastly, she helped grow Fastly from a 25-person startup into a global, publicly-traded company. She has memorized the Joy of Cooking chocolate chip cookie recipe, and always has a song playing in her head.'
@@ -492,7 +494,7 @@ eli_rothschild:
   pronouns: 'He/Him'
   role: 'Account Executive'
   location: 'New York, New York (Currently in Boca Raton, FL)'
-  github: false
+  github: ''
   email: 'eli@sourcegraph.com'
   links: '[LinkedIn](https://www.linkedin.com/in/eli-rothschild-b922824a/)'
   description: 'Eli was raised in Baltimore, MD, has been in New York City since 2007. He has been in SaaS sales with early stage to high growth companies for a majority of his professional career. Prior to joining Sourcegraph, Eli was an Enterprise Account Executive at Segment, and previously at Mixpanel during similar stages of company growth. When not listening to the latest tech and business podcasts, Eli is a student of U.S and World history, enjoys playing chess, following his favorite sports teams, and traveling.'
@@ -627,7 +629,7 @@ tom_ross:
   location: 'York, North Yorkshire, UK 🇬🇧'
   github: 'umpox'
   email: 'tom@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Tom lives in York, UK with his girlfriend (also a developer) and their two cats (Gus & Leo). He stumbled upon his love for the web when starting an internship, before realising that he had to support Internet Explorer 8. Since then, Tom has enjoyed building powerful web-applications and, prior to Sourcegraph, has been a developer at DAZN and Sky. In his free time, he enjoys supporting his soccer team Liverpool FC, swimming, and following various forms of motorsport.'
 
 greg_bastis:
@@ -665,7 +667,7 @@ malo_marrec:
   pronouns: 'he/him'
   role: 'Product Manager'
   location: 'Paris, France 🇫🇷'
-  github: false
+  github: ''
   email: 'malo@sourcegraph.com'
   links: '[Linkedin](https://www.linkedin.com/in/malo-marrec)'
   description: 'Malo lives in Paris, France after some time in the Bay Area. Prior to Sourcegraph, he bounced around a few early stage startups building infrastucture and developer tools. Malo graduated with an MS from Stanford, and an MS from Ecole Centrale Paris. Outside of work, he kite surfs and reads a ton of books.'
@@ -776,9 +778,9 @@ tammy_zhu:
   pronouns: 'she/her'
   role: 'Director of Legal'
   location: 'San Francisco, CA, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'tammy@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Tammy joins Sourcegraph after years of counseling technology companies on matters including products, litigation, commercial contracts, data privacy, M&A, startup financing, and regulatory filings and investigations. She enjoys creative writing, reading fiction, solo traveling, watching basketball, and baking sourdough during the pandemic.'
 
 warren_gifford:
@@ -878,7 +880,7 @@ sam_cregg:
   name: 'Sam Cregg'
   role: 'Sales Development Rep'
   location: 'Boston, MA, USA :us:'
-  github: false
+  github: ''
   email: 'samcregg@sourcegraph.com'
   links: '[LinkedIn](https://www.linkedin.com/in/sam-cregg/)'
   description: 'Sam enjoys golfing, boating and being outdoors. Prior to Sourcegraph, Sam worked at IBM in a variety of sales roles including Hybrid Cloud, IoT and Blockchain. He loves to travel and hopes to do more in the coming years. He is a big Boston sports fan who is orginally from Topsfield, MA but now lives in the North End of Boston.'
@@ -976,7 +978,7 @@ christy_haragan:
   pronouns: 'she/her'
   role: 'Director of Customer Engineering - International'
   location: 'London, UK 🇬🇧'
-  github: false
+  github: ''
   email: 'christy@sourcegraph.com'
   links: '[Linkedin](https://www.linkedin.com/in/christy-haragan/)'
   description: 'Christy used to enjoy playing football (before Covid lockdown; hopefully she can update this in the future once calmer times occur), skiing, running, and yoga. She has been a CTO and co-founder of an app-startup and has a masters degree in Computer Science from the University of York.'
@@ -986,7 +988,7 @@ rebecca_dodd:
   pronouns: 'she/her'
   role: 'Senior Managing Editor'
   location: 'Bristol, UK 🇬🇧'
-  github: false
+  github: ''
   email: 'rebecca@sourcegraph.com'
   links: '[LinkedIn](https://www.linkedin.com/in/rebecca-lee-dodd/)'
   description: "Originally from Cape Town, South Africa, Rebecca started her career in journalism before finding her way into tech via content marketing. Prior to Sourcegraph she worked at GitLab for over four years and managed their company blog. An enthusiastic traveller, Rebecca has a custom Google Map of every city she's ever visited, complete with colour-coded pins of the best coffee shops and restaurants. Ask her for recommendations!"
@@ -997,7 +999,7 @@ carly_jones:
   role: 'VP, Talent'
   location: 'Denver, CO USA 🇺🇸'
   github: 'carlyj0nes'
-  email: false
+  email: ''
   description: 'Carly is a Denver native who went to college in Vermont (Middlebury), lived in Washington, DC for 5 years, and has since returned home to Colorado. Prior to Sourcegraph, she gained experience leading talent teams at high growth startups and is passionate about all things talent acquisition. When not working, you can find Carly tackling a DIY project, practicing her golf game, spending time outdoors, and traveling.'
 
 rafal_leszczynski:
@@ -1047,7 +1049,7 @@ rebecca_rissinger:
   location: 'Red Bank, New Jersey, USA'
   github: 'rebecca-rissinger'
   email: 'Rebecca.Rissinger@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Rebecca lives in Red Bank, NJ with her husband Jon. They have a son named Declan and two dog children- Lucky and Sassy. Rebecca needs coffee to function and misses traveling desperately. She loves soccer, almost any outdoor activity, concerts, and anything sweet.'
 
 ryan_phillips:
@@ -1075,9 +1077,9 @@ coury_clark:
   pronouns: 'He/Him'
   role: 'Software Engineer, Code Insights'
   location: 'Phoenix, AZ, USA'
-  github: false
+  github: ''
   email: 'coury@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Born and raised in Arizona, currently living in Phoenix. He learned to fly airplanes when he was 12 years old at a local glider club, and got his pilot’s license in both gliders and single engine airplanes in his teens. He started programming in c++ with a desire to make video games, and spent some time learning that he is a terrible 3D artist in Maya. Since then, Coury has loved exploring the complexities of software engineering, and has decided he is still a terrible artist (in any dimension). In his free time he likes to play music on piano / guitar, explore new foods through cooking, spend time birding and doing photography, and hanging out with his wife and cat.'
 
 aimee_menne:
@@ -1184,7 +1186,7 @@ debbie_johnstone:
   pronouns: 'she/her'
   role: 'VP People'
   location: 'Amsterdam, Netherlands 🇳🇱'
-  github: false
+  github: ''
   email: 'debbie@sourcegraph.com'
   links: '[Linkedin](https://www.linkedin.com/in/debbie-johnstone-58901a1b/)'
   description: "Originally from Cape Town, South Africa, Debbie is still adjusting to the climate in Amsterdam, where she relocated two years ago with her grumpy 13-year old cocker Spaniel, Mercy. You'll find her either hopping from country to country, or riding a bike to do yoga or meet friends in Vondelpark. Debbie is an avid student of the Enneagram, so chat to her about it if you've ever done one!"
@@ -1203,7 +1205,7 @@ nate_maynard:
   pronouns: 'He/Him'
   role: 'Customer Engineer'
   location: 'Denver, Colorado, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'nate.maynard@sourcegraph.com'
   links: '[Linkedin](https://www.linkedin.com/in/namaynard/)'
   description: 'Originally from Massachusetts, Nate currently is enjoying the more open spaces of the United States out west. Having moved from San Francisco to Denver in October of 2021 he likes to live close to the mountians reducing his commute from 4 hours to 2 trading the Sierras for the Rockies. Nate also enjoys spending time with friends playing golf, cycling, and playing video games. His professional passion is explaining techincal products and concepts to both technical and non techincal people.'
@@ -1213,7 +1215,7 @@ jenny_bergen:
   pronouns: 'she/her'
   role: 'Manager, Content Marketing'
   location: 'Denver, Colorado, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'jenny@sourcegraph.com'
   links: '[@jennybergen](https://www.twitter.com/jennybergen), [LinkedIn](https://www.linkedin.com/in/jenniferbergen/)'
   description: "Jenny lives outside of Denver with her husband and their aloof dog, Rufus. She grew up in the Boulder, CO area and spent five years in NYC as a tech journalist (PCMag, ZDNet, Digital Trends) after college before returning home to Colorado to start the second chapter of her career as a content marketer. Jenny is an avid music lover and 'met' her husband at a concert in NYC (a Craigslist Missed Connection did the rest). She enjoys cooking and baking, pretending she's a restaurant critic, researching everything, and being in nature. She also is Team Oxford comma and hopes you are, too."
@@ -1225,7 +1227,7 @@ carl_hicks:
   location: 'Washington, DC, USA 🇺🇸'
   github: 'hicksca'
   email: 'carl@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Carl lives in Washington, DC. When not working, you will generally find him spending time with his two sons or building mechanical keyboards. Before Sourcegraph, Carl worked as a consultant at IBM working focusing on internal IaaS cloud services.'
 
 kelsey_nagel:
@@ -1234,7 +1236,7 @@ kelsey_nagel:
   role: 'Corporate Recruiter'
   location: 'Minneapolis, MN USA :us:'
   github: 'kelseynagel'
-  email: false
+  email: ''
   description: "Kelsey is a North Dakota native living in Minneapolis with her husband and two dogs, Crew and Nash. She is an avid Recruiter, bringing 5 years of talent acquisition experience in high growth companies before joining Sourcegraph. When not working, you'll find Kelsey travelling, spending time on lakes in Minnesota summers, and trying new Sushi restaurants."
 
 gabe_torres:
@@ -1264,7 +1266,7 @@ amber_furbush:
   location: 'Commerce City, CO, US us'
   github: 'amberfurbush0317'
   email: 'amber@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Amber joins Sourcegraph previously worked in customer success roles prior to joining Sourcegraph. In her free time, Amber likes to spend time with her family, learn about different technologies, history and making new friends.'
 
 ben_gordon:
@@ -1323,9 +1325,9 @@ kelvin_lee:
   pronouns: 'He/Him'
   role: 'Customer Support Engineer'
   location: '(Northern) California, USA 🇺🇸'
-  github: false
+  github: ''
   email: 'kelvin@sourcegraph.com'
-  links: false
+  links: ''
   pronunciation: '[Name pronunciation](https://www.howtopronounce.com/kelvin)'
   description: "Kelvin is a person who doesn't know how to describe himself. He often takes time in answering 'How are you doing?'"
 
@@ -1386,7 +1388,7 @@ shawn_king:
   location: 'Rochester, MN USA 🇺🇸'
   github: 'shawnplusplus'
   email: 'shawn@sourcegraph.com'
-  links: false
+  links: ''
   description: "Originally from Fargo, ND, Shawn lives in Rochester with his wife Katie, son Harrison, and two dogs Tucker and Charlie. His careeer goal is to make technology more accessible and easy to understand for everyone. When he's not working, he can be found at the lake in the summer with his family, reading a book, and in the long Minnesota winters, doing all things hockey."
 
 kristen_sundberg:
@@ -1403,7 +1405,7 @@ mustafa_ulker:
   name: 'Mustafa Ulker (Moose)'
   role: 'Senior Copywriter/Creative'
   location: 'Los Angeles,USA 🇺🇸'
-  github: false
+  github: ''
   email: 'moose@sourcegraph.com'
   links: '[Linkedin](https://www.linkedin.com/in/mooooose/)'
   description: "My grandpa was quite a famous storyteller, as well as my grandma; my dad and my mom too. So, I found myself telling stories to my brother when I was five. Since then I never stopped. -30 Years Later— I'm creating and telling stories for global brands. Nothing has changed. I just add some taglines and hashtags at the end. www.mustafaulker.com"
@@ -1443,9 +1445,9 @@ sruti_dhulipala:
   pronouns: 'She/Her'
   role: '👋 Senior Manager, Global Brand Strategy'
   location: '🌴 Los Angeles, California, USA'
-  links: false
-  github: false
-  email: false
+  links: ''
+  github: ''
+  email: ''
   description: "👀 I’m always fascinated by the intersection of technology, culture, brands, and human behavior. I love keeping a pulse on trends as they are often great predictors of innovation. 🌱 I’m currently learning permaculture, yoga, and very recently, how to use GitHub! ✨ I’m looking to collaborate on all things related to awareness, brand perception, and adoption of Sourcegraph. I've spent over 12 years imparting my expertise and passion in scaling strategic initiatives that foster product engagement for a plethora of innovative brands (including Theranos!) My background in consulting, service design, brand strategy, and advertising give me a unique perspective to develop compelling brand narratives, cultivating an enriched connection with users and translating that into measured business impact. Specialties: Service Design, Design Thinking, Ethnographic Research, Enterprise Digital Strategy and Transformation, Experience Design, Organizational Culture Change Management, Brand Strategy, Product Marketing, Product Launch, Go-To-Market, Communications Planning."
 
 victoria_yunger:
@@ -1484,7 +1486,7 @@ rami_hamdan:
   location: 'Albuquerque, NM from Palestine 🇵🇸'
   github: 'ZrnH'
   email: 'rami@sourcegraph.com'
-  links: false
+  links: ''
   description: "Rami is an experienced Technical Solutions Architect with a knack for solving complex problems using different tools and lots of jokes. In their spare time they love to take advantage of the beautiful NM outdoors with their very sweet doggie. Rami loves to cook traditional Palestinain food for their friends and family and spends lots of time perfecting recipes. They also love to exercise and cycle, and they're always looking for new climbing buddies."
 
 yink_teo:
@@ -1665,7 +1667,7 @@ brielle_collins:
   location: 'Chicago, Illinois 🇺🇸'
   github: 'Brielle-C'
   email: 'brielle.collins@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Brielle Enjoys reading and occasionally writing short stories. She loves to binge-watch series and anime has a soft spot in her heart. She is the youngest of 4 and is a super aunt to all of her nieces and nephews. Brielle is very family-oriented and enjoys spending time at home with friends and family, although she was born in the Summer months Fall is her favorite season. She currently lives is searching for a dog to be a pet mom to. Brielle identifies as a Gryffindor and is a tea enthusiast, her favorite is David’s Tea Pomegranate blend.'
 
 jason_yavorska:
@@ -1716,7 +1718,7 @@ jh_chabran:
   location: 'Lyon, France 🇫🇷'
   github: 'jhchabran'
   email: 'jean-hadrien.chabran@sourcegraph.com'
-  links: false
+  links: ''
   description: 'JH loves to learn new things all the time and to build software that helps other developers. He got into coding by learning how some developers managed to translate old video games through reverse engineering. In his free time, JH likes to experiment with new tools, play indie video games, take long walks with his (stubborn) Corgi and cook for his friends and family.'
 
 chris_wendt:
@@ -1745,7 +1747,7 @@ grace_bohl:
   location: 'Denver, CO 🇺🇸'
   github: 'gracebohl'
   email: 'you@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Grace is a Chicago, IL native and moved to Denver over 4 years ago. Prior to Sourcegraph, Grace gained experience recruiting in high growth SaaS companies such as Xactly Corp and Slack. When not working, Grace enjoys taking advantage of everything Colorado has to offer such as hiking, camping and snowboarding. In her free time, she enjoys going on walks, cooking, traveling and hanging with family and friends.'
 
 cesar_jimenez:
@@ -1792,7 +1794,7 @@ ben_venker:
   location: 'St. Louis, MO, United States 🇺🇸'
   github: 'benvenker'
   email: 'ben.venker@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Ben socially engineered his way into his first product role and has been hooked ever since. He currently lives in St. Louis, MO, but has lived all over the country at various times. He enjoys hacking on personal dev projects, playing guitar, and getting completely engrossed in new, random pursuits.'
 
 win_yu:
@@ -1811,7 +1813,7 @@ sam_jones:
   location: 'Oakland, CA, United States 🇺🇸'
   github: 'srj427'
   email: 'sam.jones@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Sam is a San Francisco Bay Area native. Prior to joining Sourcegraph, Sam represented technology companies and investment firms in corporate transactional work including commercial contracts, M&A and corporate financings as both an in-house counsel and external advisor. He loves hiking and running with his dog Gigi, cooking and playing golf. Sam is also learning to brew beer and maintain a garden in his free time.'
 
 stephanie_zabala:
@@ -1821,7 +1823,7 @@ stephanie_zabala:
   location: 'Brooklyn, NY, United States 🇺🇸'
   github: 'stephzabala'
   email: 'steph.zabala@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Steph is a designer based in NYC, originally from WA. She has a deep appreciation for creative work that is authentic, expressive, and artistic, along with a deep appreciation for butter, typography, and breakfast.'
 
 crystal_augustus:
@@ -1893,7 +1895,7 @@ michal_sennett:
   location: 'Dallas, TX, USA 🇺🇸'
   github: 'msennett22'
   email: 'michal.sennett@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Michal lives in Dallas with her husband Josh, and two dogs, Jet (labrador mix) and Jax (chiweenie)! She has held diverse roles ranging from Employee Engagement, Project Management, Career Coaching, Customer Success and Sales. Michal has a passion for hosting people and planning unique experiences. She loves traveling and learning about new cultures, especially by eating their cuisine.'
 
 keely_aguayo:
@@ -1903,7 +1905,7 @@ keely_aguayo:
   location: 'New Orleans, LA, USA 🇺🇸'
   github: 'keelyaguayo'
   email: 'keely.aguayo@sourcegraph.com'
-  links: false
+  links: ''
   description: 'Keely lives in New Orleans with her husband, Chris, their four sons: Sullivan, Anderson, Miller, and Wilder, and a 14 year old Bichon Frise named Elle.'
 
 erika_heidi:
@@ -1952,7 +1954,7 @@ david_sandy:
   location: 'St. Paul, MN, US 🇺🇸'
   github: 'david-sandy'
   email: 'david.sandy@sourcegraph.com'
-  links: false
+  links: ''
   description: 'David spends his time playing video games, watching Netflix/Hulu, playing chess, MTG, reading World War II history and performing other mandatory nerd related activites.'
 
 devon_thompson:
@@ -1962,7 +1964,7 @@ devon_thompson:
   location: 'Baltimore, MD, US 🇺🇸'
   github: 'Deethompson'
   email: 'devon.thompson@sourcegraph.com'
-  links: false
+  links: ''
   description: 'DeVon is a native of the Baltimore/D.C. metropolitan area. Before joining Sourcegraph she worked as a Support Engineer. DeVon was previously a biomedical laboratory technician and Project Manager before moving into tech. DeVon loves being active whether running, biking, swimming and is a fan of the Washington Wizards and Baltimore Ravens. She loves to read and is passionate about travel and movies. DeVon also loves to help people who are interested in making a career in technology.'
 
 taylor_sperry:

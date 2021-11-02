@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=../schema/features.schema.json
+
 literal_search:
   title: 'Literal Search'
   product_area: search
@@ -116,8 +118,6 @@ code_monitoring_webhooks:
   title: 'Code Monitoring Webhooks'
   product_area: search
   maturity: not_implemented
-  documentation_link: false
-  compatibility: false
 
 saved_searches:
   title: 'Saved Searches'
@@ -219,7 +219,6 @@ precise_code_intelligence_java_scala:
   product_area: code_intelligence
   maturity: ga
   documentation_link: 'https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence'
-  compatibility: false
 
 precise_code_intelligence_c_cpp:
   title: 'Precise Code Intelligence for C/C++'
@@ -244,22 +243,16 @@ precise_code_intelligence_python:
   title: 'Precise Code Intelligence for Python'
   product_area: code_intelligence
   maturity: not_implemented
-  documentation_link: false
-  compatibility: false
 
 precise_code_intelligence_csharp:
   title: 'Precise Code Intelligence for C#'
   product_area: code_intelligence
   maturity: not_implemented
-  documentation_link: false
-  compatibility: false
 
 precise_code_intelligence_ruby:
   title: 'Precise Code Intelligence for Ruby'
   product_area: code_intelligence
   maturity: not_implemented
-  documentation_link: false
-  compatibility: false
 
 batch_changes:
   title: 'Batch Changes'
@@ -303,14 +296,11 @@ soc_ii_type_ii:
   title: 'SOC II Type II'
   product_area: security
   maturity: not_implemented
-  documentation_link: '???' #TODO add
-  compatibility: false
 
 repository_syncing:
   title: 'Repository Syncing'
   product_area: repository_management
   maturity: ga
-  documentation_link: '???' #TODO add
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true

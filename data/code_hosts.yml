@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=../schema/code_hosts.schema.json
+
 gitlab_com:
   title: 'GitLab.com'
   info_link: 'https://gitlab.com'
