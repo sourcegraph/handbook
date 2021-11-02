@@ -1,47 +1,49 @@
+# yaml-language-server: $schema=../schema/product_areas.schema.json
+
 search:
-  title: 'Search'
+  title: Search
   product_org: code_graph
-  strategy_link: '/company/strategy/code-graph/search/index.md'
+  strategy_link: /company/strategy/code-graph/search/index.md
   pm: ben_venker
 
 code_intelligence:
-  title: 'Code Intelligence'
+  title: Code Intelligence
   product_org: code_graph
-  strategy_link: '/company/strategy/code-graph/code-intelligence/index.md'
+  strategy_link: /company/strategy/code-graph/code-intelligence/index.md
   pm: maría_craig
 
 batch_changes:
-  title: 'Batch Changes'
+  title: Batch Changes
   product_org: code_graph
-  strategy_link: '/company/strategy/code-graph/batch-changes/index.md'
+  strategy_link: /company/strategy/code-graph/batch-changes/index.md
   pm: malo_marrec
 
 code_insights:
-  title: 'Code Insights'
+  title: Code Insights
   product_org: code_graph
-  strategy_link: '/company/strategy/code-graph/code-insights/index.md'
+  strategy_link: /company/strategy/code-graph/code-insights/index.md
   pm: joel_kwartler
 
 security:
-  title: 'Security'
+  title: Security
   product_org: cloud
-  strategy_link: '/company/strategy/cloud/security/index.md'
+  strategy_link: /company/strategy/cloud/security/index.md
   pm: diego_comas
 
 extensions:
-  title: 'Extensions'
+  title: Extensions
   product_org: cloud
-  strategy_link: '/company/strategy/cloud/extensibility/index.md'
+  strategy_link: /company/strategy/cloud/extensibility/index.md
   pm: murat_sutunc
 
 repository_management:
-  title: 'Repository Management'
+  title: Repository Management
   product_org: enablement
-  strategy_link: '/company/strategy/enablement/repo-management/index.md'
+  strategy_link: /company/strategy/enablement/repo-management/index.md
   pm: dan_mckean
 
 deployment:
-  title: 'Deployment'
+  title: Deployment
   product_org: enablement
-  strategy_link: '/company/strategy/enablement/delivery/index.md'
+  strategy_link: /company/strategy/enablement/delivery/index.md
   pm: dan_mckean
