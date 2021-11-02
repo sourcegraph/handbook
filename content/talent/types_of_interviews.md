@@ -555,6 +555,23 @@ Read more about our sales interview processes [here](../sales/interviews/index.m
 - Step 4: Submit your assignment within 24 hours by clicking “reply all” to this email.
 - What to include in your assignment submission: Email Subject Line, Email Body & Explanation of your process: 1) Why did you choose this company? 2) Who are you targeting? (Insert Linkedin Profile link). Why did you choose this person? 3) Explain your approach. Why did you choose to craft the email this way?
 
+#### SDR mock cold call 
+
+
+
+As part of the interview process we would like to do a 'mock cold-call'. Don't worry! We are not expecting you to be an expert (you will be after joining us, that's the fun part).
+
+The important part is diving right in and having fun. At the end we will ask you how you think it went and provide some feedback as well. For who you are calling: feel free to select anyone, a good suggestion would be the prospect you wrote your cold email to (most people do this).
+
+For structure:
+
+* Permission based opener- get permission to continue the call
+* Problem Statement- pique curiosity
+* Closing- ask for the meeting
+
+A great resource on structure (including some great walkthrough videos) from [Belal Batrawy](https://www.linkedin.com/in/belbatrawy/) are on [this doc](https://docs.google.com/document/d/1Zwe8VXXr2bazlHGLtR6zv_I0bxq-WPX5E_Go4DcCVKE/edit).
+
+
 ### **Enterprise Account Executive**
 
 #### Enterprise AE sales presentation
