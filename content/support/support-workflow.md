@@ -90,6 +90,11 @@ As explained above, our customers are able to initiate conversations for help vi
 - **Those involved:** Support + anyone who has questions, needs to collaborate
 - **Details:** This is a primary collaboration space for us to work with folks across the company and them to work with us.
 
+### Hubspot "talk to a dev" form
+- **Purpose:** Initially this button in the app was an experiment that sort of turned into a thing and now the link lives elsewhere, so here we are!
+- **Those involved:** Support > marketing (if necessary)
+- **Details:** Most of what comes in are help requests; but if anything looks more marketing related in nature, we loop marketing in by engaging them in the #marketing Slack channel and @ mentioning @marketing-operations.
+
 ### NPS responses
 
 - **Purpose:** We have a form embedded in the product to inquire with customers how they feel about the product every so often.
