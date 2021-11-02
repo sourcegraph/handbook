@@ -61,7 +61,7 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
                 <Link href="https://github.com/sourcegraph/handbook/edit/main/data/product_areas.yml">
                     Edit this data on GitHub
                 </Link>
-            )}            
+            )}
             {page.path === 'product/feature_maturity.md' && (
                 <Link href="https://github.com/sourcegraph/handbook/edit/main/data/features.yml">
                     Edit this data on GitHub
