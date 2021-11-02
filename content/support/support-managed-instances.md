@@ -4,6 +4,10 @@ In order to have good security and risk mitigation practices, only a subset of o
 
 If you are a CSE being trained to work with managed instances, read ahead.
 
+## Required Access
+
+To fully access managed instances, follow these [docs](../engineering/enablement/delivery/managed/index.md#access)
+
 ## Google Cloud Platform SDK/CLI
 
 To work with managed instances, you'll need acccess to Sourcegraph's Google Cloud Console and access to all managed instances therein. Reach out to Dax from distribution and request access to the "gcp-managed" group.
