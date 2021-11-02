@@ -180,6 +180,8 @@ async function generateProductAreasPage(teamMembers, productAreas, productOrgs) 
     let pageContent = '# Sourcegraph product areas\n'
     pageContent +=
         'This page contains a list of the product orgs and areas at Sourcegraph, and important information about them.\n'
+    pageContent += 'You may also be interested in seeing our [feature maturity](feature_maturity.md) or\n'        
+    pageContent += '[feature code host compatibility](feature_compatibility.md) matrices.\n'
 
     for (const [productOrgName, productOrg] of Object.entries(productOrgs)) {
         pageContent += `\n## ${productOrg.title}\n\n`
