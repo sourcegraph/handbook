@@ -67,41 +67,37 @@ deployment:
     - team/delivery
 
 cloud_saas:
-  title: 'Cloud'
+  title: Cloud
   product_org: cloud
-  strategy_link: ''
   pm: ryan_phillips
   issue_labels:
     - team/cloud-saas
 
 cloud_growth:
-  title: 'Cloud Growth'
+  title: Cloud Growth
   product_org: cloud
-  strategy_link: ''
   pm: anna_mikhova
   issue_labels:
     - team/cloud-growth
 
 devops:
-  title: 'DevOps/SRE'
+  title: DevOps/SRE
   product_org: cloud
-  strategy_link: ''
   pm: bill_creager
   issue_labels:
     - team/devops
 
 dev_experience:
-  title: 'Developer experience'
+  title: Developer Experience
   product_org: cloud
-  strategy_link: ''
   pm: taylor_sperry
   issue_labels:
     - team/dev-experience
 
 frontend_platform:
-  title: 'Frontend Platform'
+  title: Frontend Platform
+  strategy_link: /company/strategy/enablement/frontend-platform
   product_org: enablement
-  strategy_link: ''
   pm: taylor_sperry
   issue_labels:
     - team/frontend-platform
