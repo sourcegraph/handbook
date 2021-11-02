@@ -72,7 +72,7 @@ When we have relaxed this in the past, the results have been bad and the overwhe
 
 ## Tools/Templates
 
-- [Strategy page template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/strategy_template.md) - a template for a product strategy page, covering vision, strategy and short term direction ([example](strategy_template.md))
+- [Strategy page template](https://github.com/sourcegraph/about/blob/main/page_templates/strategy_template.md) - a template for a [product strategy page](../../company/strategy/index.md), covering vision, strategy and short term direction.
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../bizops/amplitude.md)
