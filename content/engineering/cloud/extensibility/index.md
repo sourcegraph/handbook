@@ -83,7 +83,7 @@ The extensibility team owns our code host and third-party integrations (includin
 - Products
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
-  - [IDE Extensions](https://docs.sourcegraph.com/integration/editor)
+  - [IDE Extensions](ide-extensions/index.md)
 
 ## Vision
 
