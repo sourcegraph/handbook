@@ -11,9 +11,11 @@ The Product team strives to make the following true:
 
 You can reach us at the #product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](surfacing_product_feedback.md) page.
 
-## Roadmap
+## Roadmap & Strategy
 
-The product strategy and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md). There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
+The product strategy with how we think about prioritization and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
+
+There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
 
 ## Feature reference
 
