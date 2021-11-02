@@ -140,6 +140,13 @@ export default function Page({ page }: PageProps): JSX.Element {
                                 dangerouslySetInnerHTML={{ __html: page.content }}
                                 ref={markdownBodyReference}
                             />
+                            {/* Related content */}
+                            <script
+                                data-st-module="em_uRFPahAtp2Z--FzaaYyq"
+                                src="//s.swiftypecdn.com/modules/v1/embed.js"
+                                async={true}
+                                defer={true}
+                            />
                         </>
                     ) : (
                         <h1>Unexpected error</h1>
