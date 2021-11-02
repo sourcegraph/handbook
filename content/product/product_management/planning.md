@@ -38,7 +38,7 @@ The roadmap/strategy is:
 
 Teams should work on what their strategy page says they will work on next, and not just leave it behind to work on other things. If there is a desire to work on something else, the change should be discussed and merged to the page.
 
-We ask that teams leverage the [Strategy page template](strategy_template.md) when creating and updating content.
+We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
 
 ### OKRs
 
