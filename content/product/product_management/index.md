@@ -34,10 +34,6 @@ In addition to updating the strategy pages monthly, at the same time the team sh
 
 The last thing teams should review and update monthly are the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/), in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [feature reference pages](../index.md#feature-reference)
 
-### Feature data
-
-We have several [feature matrix pages](../index.md#feature-reference) that are backed by data in the [data folder of the handbook project](https://github.com/sourcegraph/handbook). Product managers should keep these files up to date as part of their monthly direction page updates, as needed.
-
 ## Glossary
 
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
