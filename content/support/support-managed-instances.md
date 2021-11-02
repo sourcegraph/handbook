@@ -12,7 +12,7 @@ To fully access managed instances, follow these [docs](../engineering/enablement
 
 After you've followed the docs in the 'required access' section and received the access to all necessary credentials, reach out to Dom, Mariam, Kelvin or Jason to set up a thirty minute tutorial that will take you through the most important aspects of accessing managed instances.
 
-If all of us happen to be outside of working hours when you need a tutorial, [watch this video](https://drive.google.com/file/d/1JdC-OEfng-X0tBKYjsrFn0XNHTbhE2pB/view?usp=sharing) as a supplement. That said, it would still be good to schedule some time to meet with one of us when we're back online. 
+If all of us happen to be outside of working hours when you need a tutorial, [watch this video](https://drive.google.com/file/d/1JdC-OEfng-X0tBKYjsrFn0XNHTbhE2pB/view?usp=sharing) as a supplement. That said, it would still be good to schedule some time to meet with one of us when we're back online.
 
 ## Google Cloud Platform SDK/CLI
 
