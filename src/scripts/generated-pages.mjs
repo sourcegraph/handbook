@@ -186,7 +186,7 @@ async function generateProductAreasPage(teamMembers, productAreas, productOrgs) 
     for (const [productOrgName, productOrg] of Object.entries(productOrgs)) {
         pageContent += `\n## ${productOrg.title}\n\n`
         if (productOrg.strategy_link) {
-            pageContent += `- [Strategy Page](${productOrg.strategy_link})\n`
+            pageContent += `- [Strategy Page](${createRelativeProductLink(productOrg.strategy_link)})\n`
         }
         if (productOrg.strategy_link) {
             const bioLink = `../company/team/index.md#${teamMembers[productOrg.pm].name
@@ -198,7 +198,7 @@ async function generateProductAreasPage(teamMembers, productAreas, productOrgs) 
             if (productArea.product_org === productOrgName) {
                 pageContent += `\n\n### ${productArea.title}\n`
                 if (productArea.pm) {
-                    pageContent += `- [Strategy Page](${productArea.strategy_link})\n`
+                    pageContent += `- [Strategy Page](${createRelativeProductLink(productArea.strategy_link)})\n`
                 }
                 if (productArea.pm) {
                     const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name
