@@ -36,7 +36,7 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
   - provide guidance on how to think about using Sourcegraph/drive adoption (ie more proactive in nature guidance)
 
   If it's not clear, post in #customer-support-triage and brainstorm the best path.
-  
+
   If it's from the Hubspot form and for marketing, engage them in the #marketing Slack channel and @ mention @marketing-operations.
 
 - **Step 4:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision.
