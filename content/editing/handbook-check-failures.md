@@ -64,9 +64,9 @@ If you're not sure what the error message means or can't determine how to fix it
   - This is telling you the broken link is on the `content/product/product-org.md` page.
   - Visit the page where the broken link exists. Find that link within the page, and [update the relative path](linking-within-handbook.md) to reflect the new location of the page. Or, if the page has been deleted, remove the link altogether. As always, don’t hesitate to ask @handbook-support in the #handbook Slack channel for help.
 
-### YAML validation errors
+### YAML build errors
 
-YAML validation errors can happen when you are editing the `.yml` files under `/data`, such as when you are adding yourself to the team page. These errors will throw `YAMLException`s, and there will be a few lines of the file and (usually) an arrow pointing exactly to where the problem is.
+YAML build errors can happen when you are editing the `.yml` files under `/data`, such as when you are adding yourself to the team page. These errors will throw `YAMLException`s, and there will be a few lines of the file and (usually) an arrow pointing exactly to where the problem is.
 
 #### Indentation errors
 
@@ -117,6 +117,26 @@ YAMLException: bad indentation of a mapping entry (19:21)
  20 |   pronouns: 'she/her'
  21 |   role: 'VP Product'
 ```
+
+### YAML schema validation errors
+
+It's also possible for the YAML schema validation job to fail. This will result in a log like the following:
+
+```
+yarn run v1.22.15
+$ find data -name *.yml | sed -E "s/data\/(.*).yml/\1/" | xargs -I '{}' ajv -d data/{}.yml -s schema/{}.schema.json --errors=text
+data/code_hosts.yml valid
+data/maturity_levels.yml valid
+data/team.yml valid
+data/features.yml valid
+data/product_areas.yml invalid
+data/search must have required property 'title'
+data/product_orgs.yml valid
+```
+
+The file with invalid YAML will be reported as invalid, and the error will be listed following that line. In the above example, the `data/search` entry is missing a required property - its title.
+
+If you are confused by the error message you're seeing you can always reach out for help in #handbook.
 
 ### Merge Conflicts
 
