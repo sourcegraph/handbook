@@ -102,9 +102,9 @@ for (const filePath of filePaths) {
             })
             reportError(
                 `Absolute handbook link found: ${chalk.underline(link)}\u200B. ` +
-                `Handbook links must always be ${chalk.italic('relative')}. ` +
-                `Replace this URL with "${chalk.underline(relativeUrl)}". ` +
-                'For more help, see https://handbook.sourcegraph.com/editing/linking-within-handbook',
+                    `Handbook links must always be ${chalk.italic('relative')}. ` +
+                    `Replace this URL with "${chalk.underline(relativeUrl)}". ` +
+                    'For more help, see https://handbook.sourcegraph.com/editing/linking-within-handbook',
                 location
             )
         }

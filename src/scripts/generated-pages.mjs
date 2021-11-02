@@ -45,7 +45,9 @@ async function generateMaturityPage(features, maturityLevels, productAreas, prod
         pageContent += ` ([${productOrgs[productArea.product_org].title} Strategy](${strategyUrl}) | `
         pageContent += `[${productArea.title} Strategy](${createRelativeProductLink(productArea.strategy_link)}))\n`
         if (productArea.pm) {
-            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name.toLowerCase().replace(/\s+/g, '-')}`
+            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name
+                .toLowerCase()
+                .replace(/\s+/g, '-')}`
             pageContent += `\nProduct Manager: [${teamMembers[productArea.pm].name}](${bioLink})`
         }
 
@@ -89,7 +91,9 @@ async function generateCompatibilityPage(features, productAreas, productOrgs, co
         pageContent += ` ([${productOrgs[productArea.product_org].title} Strategy](${strategyUrl}) | `
         pageContent += `[${productArea.title} Strategy](${createRelativeProductLink(productArea.strategy_link)}))\n`
         if (productArea.pm) {
-            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name.toLowerCase().replace(/\s+/g, '-')}`
+            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name
+                .toLowerCase()
+                .replace(/\s+/g, '-')}`
             pageContent += `\nProduct Manager: [${teamMembers[productArea.pm].name}](${bioLink})`
         }
 
@@ -112,7 +116,9 @@ async function generateCompatibilityPage(features, productAreas, productOrgs, co
                 }
                 pageContent += '|'
                 for (const codeHostName of Object.keys(codeHosts)) {
-                    if (feature.compatibility[codeHostName]) {
+                    if (feature.compatibility === undefined) {
+                        pageContent += ' |'
+                    } else if (feature.compatibility[codeHostName]) {
                         pageContent += '✔️|'
                     } else {
                         pageContent += ' |'
