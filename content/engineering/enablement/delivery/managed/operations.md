@@ -13,6 +13,7 @@ To create a managed instance, see [managed instances creation process](creation_
   - [Port-forwarding](#port-forwarding)
   - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
   - [Finding the external IPs](#finding-the-external-ips)
+  - [Accessing the web-app of the instance](#accessing-the-web-app-of-the-instance)
 - [Instance technicalities](#instance-technicalities)
   - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
   - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
@@ -130,6 +131,14 @@ default-nat-manual-ip-1  $NAT_IP_TWO     EXTERNAL                    us-central1
 
 - `$GLOBAL_IP` is the IP address that `$CUSTOMER.sourcegraph.com` should point to, it is the address of the GCP Load Balancer.
 - `$NAT_IP_ONE` and `$NAT_IP_TWO` are the external IPs from which egress traffic from the deployment will originate from. These are the addresses from which Sourcegraph will access the customer's code host, and as such the customer will need to allow them access to e.g. their internal code host.
+
+### Accessing the web-app of the instance
+
+This isn't highly technical, and just boils down to discovery.
+
+You can find the instance's web URL by going to [this GitHub repository](https://github.com/sourcegraph/deploy-sourcegraph-managed), and looking at the customer's `terraform.tfvars` file. The value listed under `domain` is the URL you can use to navigate to the web-app. As for actually logging in, you will need to have account credentials shared with you via 1password. Ask #it-tech-ops in Slack.
+
+If you are running into a 403 forbidden error, you may be running into an exception... See if [this](https://docs.google.com/document/d/1E0E2t2voiPHh4EioBBJpyB-nXbJihm3bCyIct-pY2mc/edit) document address your needs. If it doesn't, you may need to seek additional help.
 
 ## Instance technicalities
 
