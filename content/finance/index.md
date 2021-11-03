@@ -113,11 +113,14 @@ We work with an outsourced accounting firm named [Officengine](https://officengi
 
 Reach out to the [Finance team](#team) for an introduction if needed.
 
-### Accounts Payable & Expenses
+### Accounts Payable
 
 - [Paying Company bills](payables.md)
 - [AP Policy](ap.md)
 - [Submitting an invoice (teammates based outside of US)](invoices.md)
+
+### Travel & Expenses
+
 - [Submitting reimbursable expenses](expenses.md)
 - [Spending Company Money](spending-company-money.md)
 - [Travel Policy](travel.md)
