@@ -1,6 +1,6 @@
 # CSE Onboarding Mentor
 
-As an onboarding mentor your goal is to be the onboarding mentor you'd love to have when starting a new role. 
+As an onboarding mentor your goal is to be the onboarding mentor you'd love to have when starting a new role.
 Be as patient, as detailed, and as relevant as you would want someone to be with you when joining a company and learning about your day-to-day.
 
 During the duration of your time as a mentor, you are able to pull back some availability for taking new tickets, unless you feel that a ticket that comes in may be a good learning example for yourself and your mentee to talk through.
@@ -14,6 +14,7 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 ## Week 1
 
 ### 1st meeting (you decide the day):
+
 - Fun intros! Get to know your mentee
 - How has your week been?
 - Do you have any questions?
@@ -26,6 +27,7 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 ## Week 2
 
 ### 2nd meeting (middle of the week):
+
 - How are you following along with Process St. and the handbook guide?
 - Do you have any questions?
 - Talk about the teams we interact with the most
@@ -38,6 +40,7 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Give your mentee a high level overview of your favorite things about Sourcegraph, Sourcegraph in general and begin to use it together so they can start to get their hands dirty.
 
 ### 3rd meeting (end of the week):
+
 - Quick check in
 - Do you have any questions?
 - How do you feel about starting your third week?
@@ -47,6 +50,7 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 ## Week 3
 
 ### 4th meeting (early in the week):
+
 - Zendesk walkthrough - taking a ticket, Email vs. Slack, ticket fields for closing..etc.
 - Explain current tickets you are working on
 - Pair on tickets, calls, CE meetings etc.
@@ -57,26 +61,30 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Talk about managed instances
 - Do you have any questions?
 
-### 5th meeting (end of the week): 
+### 5th meeting (end of the week):
+
 - How was your week?
 - Have you been getting to meet members of our team?
 - Ticket follow up from earlier in the week.. Introduction to any new tickets, repeat process of explaining
 - How ready do you feel about taking tickets?
 - Is there anything that you feel up to this point that would make you feel better prepared? Anything else you feel we should have covered prior to this point? (Take note and share with management)
 - Comment on any nice things you’ve noticed or picked up about the way they work. If any
-- Congratulate them on ending their third week! It’s ticket time! *Evil laugh*
+- Congratulate them on ending their third week! It’s ticket time! _Evil laugh_
 
 ## Week 4
 
-### 6th meeting(early in the week): 
+### 6th meeting(early in the week):
+
 - Assist them with their first few tickets. Make it clear that you aren’t to solve their tickets but to show them how to find information they need, suggest theories, how to ask for information, troubleshooting tips, communicate with customers, SLA, talk about engaging engineering and our metrics briefly, remind them where we go to learn how to interact with teams if needed, github issue creation.. Etc.
 
-### 7th meeting (middle of the week): 
+### 7th meeting (middle of the week):
+
 - How are your tickets going?
 - Do you have any questions?
 - What do you feel is working well for you? Anything not working well?
 
-### 8th meeting (end of the week): 
+### 8th meeting (end of the week):
+
 - How are your tickets going?
 - Have you closed any tickets?
 - Do you have any questions?
