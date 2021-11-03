@@ -45,7 +45,7 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 
 - Quick check in
 - Do you have any questions?
-- - How do you feel about the end of the first week expectations set [here](customer-support-onboarding.md#by-the-end-of-your-second-week-the-following-will-be-true)?
+- How do you feel about the end of the first week expectations set [here](customer-support-onboarding.md#by-the-end-of-your-second-week-the-following-will-be-true)?
 - How do you feel about going into your third week?
 - Anything new or neat you discovered about Sourcegraph since the last meeting you want to talk about?
 - Offer support
