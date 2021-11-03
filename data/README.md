@@ -1,6 +1,6 @@
 This folder contains the source of truth for product information used in the handbook, such as maturity pages.
 
-The data for features is heirarchical, and flows in this order:
+The data for features is hierarchical, and flows in this order:
 
 1. [product_orgs.yml](product_orgs.yml)
 1. [product_areas.yml](product_areas.yml)

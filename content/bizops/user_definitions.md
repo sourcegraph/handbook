@@ -1,26 +1,27 @@
 # User metrics definitions
 
-We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (turning them into active users), and retention (keeping them month to month).
+We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (visitor experience aha! moment), and retention (user remains active).
 
 ## User states
 
 People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly):
 
-| Metric      | Description                                                        | Cloud | On-prem |
-| ----------- | ------------------------------------------------------------------ | ----- | ------- |
-| Visitor     | Anyone who accessed the product                                    | ✔️    |         |
-| Active User | Visitors who additionally performed a qualifying event (see below) | ✔️    | ✔️      |
-| Retained    | Users who were active last month _and_ this month                  | ✔️    | ✔️      |
-| Churned     | Users who were active last month but not this month                | ✔️    | ✔️      |
-| Resurrected | Users who were _not_ active last month but are active this month   | ✔️    | ✔️      |
-| Created     | Users whose account was created this month                         | ✔️    | ✔️      |
-| Deleted     | Users whose account was deleted this month                         | ✔️    | ✔️      |
+| Metric      | Description                                                      | Cloud | On-prem |
+| ----------- | ---------------------------------------------------------------- | ----- | ------- |
+| Visitor     | Anyone who accessed the product                                  | ✔️    |         |
+| Active User | Visitors who performed a qualifying activation event (see below) | ✔️    | ✔️      |
+| Registered  | A user who created an account on Sourcegraph Cloud.              | ✔️    |         |
+| Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      |
+| Churned     | Users who were active last month but not this month              | ✔️    | ✔️      |
+| Resurrected | Users who were _not_ active last month but are active this month | ✔️    | ✔️      |
+| Created     | Users whose account was created this month                       | ✔️    | ✔️      |
+| Deleted     | Users whose account was deleted this month                       | ✔️    | ✔️      |
 
 There is also a special state, **activated**, which is permanent once triggered and can apply to any of the above states. For example, you can have an activated active user or even an activated deleted user.
 
 ### What is a visitor?
 
-A visitor is a person (unique to the instance being measured, except in the case of "unique Sourcegraph users" as defined below) who accessed the product, but did not complete any qualifying actions that would turn them into an active user. This is important to measure because each of these visitors is potentially an active user, but it's also important that we don't count everyone who visits the product as an active user so that we can measure success of our features that are intended to convert them.
+A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page). Currently a unique person cannot be identified between our on-premises & cloud solution, in other words when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitor because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
 
 ### What is an active user?
 
