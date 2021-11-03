@@ -9,6 +9,17 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
+          <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-sky-blue.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">We're Hiring!</a></div>
+        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">Product Manager</a></div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
           <a href="../../../company/team/index.md#sara-lee-sheher" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
