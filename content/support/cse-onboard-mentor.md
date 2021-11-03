@@ -1,11 +1,13 @@
 # CSE Onboarding Mentor
 
-As an onboarding mentor your goal is to be the onboarding mentor you'd love to have when starting a new role.
+As an onboarding mentor, your goal is to be the onboarding mentor you would love to have when starting a new role.
 Be as patient, as detailed, and as relevant as you would want someone to be with you when joining a company and learning about your day-to-day.
 
 During the duration of your time as a mentor, you are able to pull back some availability for taking new tickets, unless you feel that a ticket that comes in may be a good learning example for yourself and your mentee to talk through.
 
-Remember, this isn’t a chore or something that is “taking up your time”. This is something we all need to do to support each other as well as something we all appreciate having or would like to have when joining a new team or company. The more you can be there for your mentee, the stronger the CSE team will continue to be. If you feel you cannot be an effective mentee for whatever reason, let management know ahead of time.
+Don't ever feel pressured to know everything when you're a mentor. If you are asked a question by your mentee that you are unsure of, be sure to be honest about your uncertainty and tell him or her that you will reach out to places where you can find the right answer.
+
+Remember, being an oboarding mentee is not a chore or something that is “taking up your time”. This is something we all need to do to support each other. The more you can be there for your mentee, the stronger the CSE team will continue to be. If you feel you cannot be an effective mentee for whatever reason, let management know ahead of time.
 
 # Meeting cadence and guidelines:
 
