@@ -19,6 +19,7 @@ The [feedback workflow doc](https://docs.google.com/document/d/1TTRjK-CL38fdCvrV
 We do our best to respond to any actionable feedback within 24 hours.
 
 A detailed explanation of the current process and the suggested reply structures can be found in the [feedback workflow doc](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#heading=h.vihl64g0qa6a). As a general rule:
+
 - Any customer feedback should be routed to CE.
 - Any feedback related to troubleshooting issues or a user having trouble to figure out how something works should be routed to CSE.
 - Any product feedback that are not from our customers, or customer feedback that we want to connect with, should be routed to the area's PM or EM.
@@ -54,7 +55,7 @@ If you find an issue that is really a support request, you can:
 For both self-contained product feedback slack posts and for new GitHub issues with #feedback labels (which automatically cross-post to Slack), the product manager on feedback rotation:
 
 - Sends the feedback to Productboard
-- If the feedback is coming from a customer, tags the relevant account's stakeholders – usually the CE and/or AE – in the Slack thread. If you are unsure of the account's name, you can copy the _SiteId_ and run a query in the [Server instances dashboard](https://sourcegraph.looker.com/explore/sourcegraph_events/server_update_check_pings?qid=MSjrlRQ1WrOhqRRMLAFe3S&toggle=fil). If you are unsure about account ownership, you can search for the account's name in [Salesforce](sourcegraph2020.lightning.force.com/lightning/page/home) where you fill find its AE and CE.  
+- If the feedback is coming from a customer, tags the relevant account's stakeholders – usually the CE and/or AE – in the Slack thread. If you are unsure of the account's name, you can copy the _SiteId_ and run a query in the [Server instances dashboard](https://sourcegraph.looker.com/explore/sourcegraph_events/server_update_check_pings?qid=MSjrlRQ1WrOhqRRMLAFe3S&toggle=fil). If you are unsure about account ownership, you can search for the account's name in [Salesforce](sourcegraph2020.lightning.force.com/lightning/page/home) where you fill find its AE and CE.
 
 ### Feedback email list
 
