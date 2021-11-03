@@ -20,7 +20,7 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Fun intros! Get to know your mentee
 - How has your week been?
 - Do you have any questions?
-- How do you feel about the end of the first week expectations set here?
+- How do you feel about the end of the first week expectations set [here](customer-support-onboarding.md#by-the-end-of-your-first-week-the-following-will-be-true)?
 - Discuss the Handbook
 - Help with planning and organizing their second week
 - Reiterate how you plan to support them
@@ -45,7 +45,8 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 
 - Quick check in
 - Do you have any questions?
-- How do you feel about starting your third week?
+- - How do you feel about the end of the first week expectations set [here](customer-support-onboarding.md#by-the-end-of-your-second-week-the-following-will-be-true)?
+- How do you feel about going into your third week?
 - Anything new or neat you discovered about Sourcegraph since the last meeting you want to talk about?
 - Offer support
 
@@ -69,8 +70,8 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Have you been getting to meet members of our team?
 - Ticket follow up from earlier in the week.. Introduction to any new tickets, repeat process of explaining
 - How ready do you feel about taking tickets?
-- Is there anything that you feel up to this point that would make you feel better prepared? Anything else you feel we should have covered prior to this point? (Take note and share with management)
-- Comment on any nice things you’ve noticed or picked up about the way they work. If any
+- Is there anything that you feel up to this point that would make you feel better prepared? Anything else you feel we should have covered prior to this point? (Take note and share with management or make the edits you see fit on your own)
+- Comment on any nice things you’ve noticed or picked up about the way they work. (If any)
 - Congratulate them on ending their third week! It’s ticket time! _Evil laugh_
 
 ## Week 4
