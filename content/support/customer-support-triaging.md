@@ -13,10 +13,11 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 - **Step 1:** In the triage view, the first step is to open a ticket and understand the context of the message. Slow down and have a closer look at the content and the medium from which the message originated (emails tend to be rare). Is this related to another open issue? Is this a new issue? Is this not an issue at all?
 
-- **Step 2:** If the case came in via Slack (whether or primary account and the support- or trial- channels, or our Community account and the #help channel), change the requestor to the person who requested it. This is not necessary if the ticket came in via email.
+- **Step 2:** If the case came in via Slack (whether or primary account and the support- or trial- channels, or our Community account and the #help channel, or the Hubspot "talk to a dev" form), change the requestor to the person who requested it. This is not necessary if the ticket came in via email.
 
   - Sometimes it may be an internal person and that would be correct, unless our teammate is posting on behalf of the customer and then we would want to change it to the customer.
   - When a CSE is assigned to a customer, this step will also trigger that CSE and their backup to appear as a follower (you don't see these auto populate until after you save the ticket (ie "submit as open").
+  - For the Hubspot form, we will also need to change the subject from "[Sourcegraph] Contact reconversion by submitting on HubSpot Form "Contact Us | Talk to a Dev" to something more useful for the person asking for help, like "Sourcegraph help request" -- that way they look at the email when a member of the team answers them.
 
 - **Step 3:** Identify if there is action for CS or not
 
@@ -36,6 +37,8 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
   If it's not clear, post in #customer-support-triage and brainstorm the best path.
 
+  If it's from the Hubspot form and for marketing, engage them in the #marketing Slack channel and @ mention @marketing-operations.
+
 - **Step 4:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision.
 
 - **Step 5:** On the left panel, under _Tags_, select, _triaged_.
@@ -50,7 +53,9 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
 ### 1. Whose responsible for triaging?
 
-Brielle, Nonso, Tamar, and Virginia. If needed, Adeola, Beatrix, Carl, Stompy, and Warren can serve as back-up.
+Nonso 08:00 - 14:00 UTC (Stompy as backup)
+Stompy 14:00 - 15:00 UTC (Tamar, Brielle, Nonso as backup)
+Virginia 15:00 - 24:00 UTC (Tamar, Brielle as backup)
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 

@@ -54,3 +54,10 @@
 ## Adding an Agency Recruiter to Greenhouse
 
 To add a new agency to Greenhouse, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-New-Agency). To add a new recruiter to an **existing agency**, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/200666389). To invite an existing agency to submit candidates, follow [these instructions](https://support.greenhouse.io/hc/en-us/articles/200666389-Invite-an-agency-recruiter-to-submit-candidates).
+
+## How to use Tags in Greenhouse
+
+- Why
+  Update Soon
+- How
+  Update soon

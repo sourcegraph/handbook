@@ -12,7 +12,7 @@ How to deploy and update logging k8s deployments.
 
 #### Deploy pubsubbeats
 
-This deploys pubsubbeats. Currently this will deploy it to production, but these documents will be updated to reflect environment-specific deployments in [#17281](https://github.com/sourcegraph/sourcegraph/issues/17281). Note that this will update an existing k8s deployment if one already exists.
+This deploys pubsubbeats. Currently this will deploy it to production, but these documents will be updated to reflect environment-specific deployments in #17281. Note that this will update an existing k8s deployment if one already exists.
 
 1. Install [helmfile](https://github.com/roboll/helmfile)
 2. Get access to the logging cluster by running `gcloud container clusters get-credentials --region us-central1-f --project sourcegraph-security-logging logging`
@@ -20,7 +20,7 @@ This deploys pubsubbeats. Currently this will deploy it to production, but these
 
 ### Logging staging
 
-To implement in [#17281](https://github.com/sourcegraph/sourcegraph/issues/17281).
+To implement in #17281.
 
 ## GCP deployment playbooks
 
@@ -51,7 +51,7 @@ These should be one-offs. Never do this unless the project is irretrievably brok
 
 #### Staging infrastructure
 
-To implement in [#17281](https://github.com/sourcegraph/sourcegraph/issues/17281).
+To implement in #17281.
 
 #### Production infrastructure
 
@@ -72,7 +72,7 @@ This requires multiple steps to properly configure. Most of these are going to b
 
 This should never need to happen after initial cluster creation.
 
-Currently only documented for production logging, but these documents will be updated to reflect environment-specific deployments in [#17281](https://github.com/sourcegraph/sourcegraph/issues/17281).
+Currently only documented for production logging, but these documents will be updated to reflect environment-specific deployments in #17281.
 
 This assumes that you have the json-formatted [service account key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) for the `pubsubbeat-subscriber`service account, the username & password for the elastic `pubsubbeat` user, and the [elastic cloud ID](https://www.elastic.co/guide/en/cloud/current/ec-cloud-id.html) on hand.
 
@@ -294,7 +294,7 @@ If some pubsubbeat logs aren't being sent to elastic, try to find the logs in th
 
 ### Debugging logging stage
 
-To implement in [#17281](https://github.com/sourcegraph/sourcegraph/issues/17281).
+To implement in #17281.
 
 ####
 
@@ -314,7 +314,7 @@ If Elastic runs out of disk, the [alias may be deleted](https://discuss.elastic.
 
 ### Debugging terraform
 
-Basic Terraform errors that are common to run into. See [terraform playbooks](https://about.sourcegraph.com/handbook/engineering/languages/extended_guide/terraform) for uncommon terraform issues.
+Basic Terraform errors that are common to run into. See [terraform playbooks](https://docs.sourcegraph.com/dev/background-information/languages/extended_guide/terraform) for uncommon terraform issues.
 
 If you get the error `Unsupported Terraform Core version [...] required_version = "A.B.C"`, or the error `Error: Error loading state: state snapshot was created by Terraform vA.B.C, which is newer than current vX.Y.Z; upgrade to Terraform vA.B.C or greater to work with this state`, that means you need to use the specific terraform version `A.B.C`. An easy solution is to run `tfenv use A.B.C`.
 

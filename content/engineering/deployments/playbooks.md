@@ -7,6 +7,7 @@
   - [Deploying to sourcegraph.com](#deploying-to-sourcegraph-com)
   - [Deploying to sourcegraph.com during 2021-08-19 code freeze](#deploying-to-sourcegraph-com-during-2021-08-19-code-freeze)
   - [Rolling back sourcegraph.com](#rolling-back-sourcegraph-com)
+  - [Disabling Renovate on sourcegraph.com](#disable-renovate)
   - [Backing up & restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
   - [Invalidating all user sessions](#invalidating-all-user-sessions)
   - [Accessing sourcegraph.com database](#accessing-sourcegraph-com-database)
@@ -75,9 +76,11 @@ git push origin release
 
 🚨 You also need to disable auto-deploys to prevent Renovate from automatically merging in image digest updates so that the site doesn't roll-forward.
 
-1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) and remove the `"extends:["default:automergeDigest"]` entry for the "Sourcegraph Docker images" group ([example](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/commit/0eb16fd9e3ddfcf3a3c75ccdda0e7eddabf19c7a)).
-1. Once you have fixed the issue in the `main` branch of [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph), re-enable auto-deploys by reverting your change to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json) from step 1.
-1. Go to [open pull requests](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/pulls/app%2Frenovate) and ensure there no pending renovate PR's without an automerge label. If there are, apply the automerge label to the PR's to ensure the `release` branch is continuously updated.
+### Disable Renovate
+
+1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json5) and comment out the file.
+1. Ensure that no Renovate PRs are currently pending to update the images [here](https://github.com/sourcegraph/sourcegraph/pulls/app%2Frenovate)
+1. After the incident, revert your commit and uncomment the file.
 
 ### Backing up & restoring a Cloud SQL instance (production databases)
 

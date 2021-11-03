@@ -47,7 +47,7 @@ Most "data pipelines" are SQL queries that turn raw ping data into clean dataset
 
 ## Using Looker
 
-[Looker](https://sourcegraph.looker.com/) is a self-service tool with many pre-built reports and visualizations. The [onboarding doc](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md) is located in Looker. Reach out in the #analytics Slack channel if you have any questions, we're happy to help!
+[Looker](https://sourcegraph.looker.com/) is a self-service tool with many pre-built reports and visualizations. The [onboarding doc](https://sourcegraph.looker.com/projects/sourcegraph_events/documents/1_home.md) is located in Looker. Reach out in the #analytics Slack channel if you have any questions, we're happy to help!
 
 ## How to
 

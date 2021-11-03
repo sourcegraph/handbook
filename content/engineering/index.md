@@ -8,6 +8,7 @@
   - [How we use RFCs](../communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
 - Practices & Philosophy
+  - [Planning](planning.md)
   - [Customer Issues](../support/engaging-other-teams.md)
   - [Incidents](incidents/index.md)
   - [Product documentation](product_documentation.md)
@@ -19,6 +20,7 @@
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
 - Tooling
   - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
+  - [Slackgenie](slackgenie.md)
 - Infrastructure
   - [Cloud environments](environments.md)
   - [Deployments](deployments/index.md)

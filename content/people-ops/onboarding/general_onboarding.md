@@ -15,7 +15,7 @@ Considering the Onboarding checklist lives in Process St., this page contains an
 - **[Lattice](https://sourcegraph.latticehq.com/)**: We use this tool for our [Impact review cycles](../impact-reviews.md) (takes place every six months based on your start date) and the [Onboarding feedback milestones](./index.md#onboarding-feedback-milestones) (these take place every month for three months).
 - **[1Password](https://1password.com/)**: Tool we use to share team passwords and store your own passwords.
 - **[Zoom](https://zoom.us/signin):** Our video communication tool. Set up your Zoom account and follow the [recommended settings](../../communication/index.md#video-calls).
-- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your **Apple** device in our MDM and in FileVault (ask [Tech Ops](../../tech-ops/index.md) for instructions and your access code).
+- **[Jamf Now](https://sourcegraph.jamfcloud.com/)**: Enroll your **Apple** device in our MDM and in FileVault (follow [these instructions](../../tech-ops/internal_security.md#jamf-policy) for setting them up).
 - It might not be immediately necessary, but if you ever need to click a HubSpot link just ask for access in #sales.
 - **[Sourcegraph.com](https://sourcegraph.com)**: New teammates must create an account and ask in Slack #it-tech-ops so you get to test in-development features, etc.
 
@@ -48,7 +48,7 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
 ## Learn how to contribute to the handbook
 
 - [Create an account on GitHub.com](https://github.com/join) if you don't already have one.
-  - Share your username with Nate Tang so he can add you to the Sourcegraph GitHub account and appropriate teams. This step is required to make edits to the Handbook.
+  - Share your username in #it-tech-ops so they can add you to the Sourcegraph GitHub account and appropriate teams. This step is required to make edits to the Handbook.
 - If you are not familiar with Git, complete the [Git introduction](git_intro.md).
 - Add yourself to the [team page](../../company/team/index.md).
 - Make sure you've been added to Sourcegraph's github org first!
@@ -56,21 +56,3 @@ Expensify, Rippling, and Human Interest are managed by our back office, Officeng
     ![Fork Repository Warning](https://sourcegraphstatic.com/handbook/fork-repository-warning.png)
 - Add a link to your team page bio to your Slack profile.
 - Read Sourcegraph's [information security policy](https://about.sourcegraph.com/security) and acknowledge your acceptance: https://forms.gle/LUK1YtwAMJLhtRPi6.
-
-## Learn about Sourcegraph
-
-### Communication and documentation
-
-- We're a handbook-first company. Learn all about the handbook on its [handbook page](../../usage.md).
-- We use Slack for team chat. Please read the [Slack handbook page](../../communication/team_chat.md) to understand what we use Slack for and how we use it.
-  - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels).
-- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
-
-### Other resources
-
-- Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
-- Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
-- Learn how we can (and cannot) [reference our customers externally](../../sales/index.md#customer)
-- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../../company/remote/teammate-recommended_productivity_hacks.md).
-
-Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!

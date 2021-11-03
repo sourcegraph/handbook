@@ -11,19 +11,20 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 - [Diego Comas](../../../company/team/index.md#diego-comas-he-him-his)
   - [André Eleuterio](../../../company/team/index.md#andré-eleuterio-hehim)
   - [Mohammad Umer Alam](../../../company/team/index.md#mohammad-umer-alam-he-him)
-  - LC (joining 2021-10-15)
+  - [Lauren Chapman](../../../company/team/index.md#lauren-chapman)
+  - [David Sandy](../../../company/team/index.md#david-sandy)
   - FY2022 security engineer
 
 ## Contact
 
 - [security@sourcegraph.com](mailto:security@sourcegraph.com)
 - #security channel Slack.
-- [@sourcegraph/security](https://github.com/orgs/sourcegraph/teams/security) on GitHub.
+- @sourcegraph/security on GitHub.
 - [report a vulnerability](reporting-vulnerabilities.md)
 
 ## Goals and priorities
 
-See [security goals and priorities](../../../direction/cloud/security/index.md)
+See [security goals and priorities](../../../company/strategy/cloud/security/index.md)
 
 ## Onboarding
 

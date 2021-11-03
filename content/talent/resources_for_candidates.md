@@ -12,7 +12,7 @@ We are growing rapidly and post new jobs on a weekly basis. We encourage you to 
 
 ### Sourcegraph's culture
 
-We are an [all-remote company](../company/remote/index.md) with teammates across the globe. Our [company values](../company/values.md) are the beliefs and principles that help us achieve our [goals & mission](../company/strategy.md#mission), and build an [inclusive team](../company/values.md#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](./types_of_interviews.md#values-interview).
+We are an [all-remote company](../company/remote/index.md) with teammates across the globe. Our [company values](../company/values.md) are the beliefs and principles that help us achieve our [strategy](../company/strategy/index.md#mission), and build an [inclusive team](../company/values.md#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](./types_of_interviews.md#values-interview).
 
 ### Benefits, perks, and compensation
 
@@ -84,7 +84,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 - Our [messaging and definitions](../marketing/messaging.md) should help you better understand what Sourcegraph does.
 - [Benefits and perks](../people-ops/benefits-and-perks.md).
 - [Teammates bios](../company/team/index.md).
-- [Strategy and vision](../company/strategy.md).
+- [Strategy](../company/strategy/index.md).
 - [Asynchronous communication at Sourcegraph](../company/asynchronous-communication.md)
 
 # Candidate FAQ

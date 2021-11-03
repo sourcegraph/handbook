@@ -40,7 +40,7 @@ We're experimenting with showing short (<1m) demo videos (max 1 per week) during
 
 ## Book recommendations
 
-Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../people-ops/travel.md#professional-development-and-education) and read them!
+Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../finance/travel.md#professional-development-and-education) and read them!
 
 - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
 - [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) - An entertaining self-account of Gordon MacKenzie's experience fostering creativity on his team at Hallmark Cards. Buy the hard copy. There are lots of fun illustrations and short stories. It is a quick read and probably unlike any other book you have read.

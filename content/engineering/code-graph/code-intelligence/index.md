@@ -32,9 +32,9 @@ To be the point of discovery for the knowledge graph for all source code.
 
 Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights, and batch changes.
 
-## [Goals](../../../direction/code-graph/code-intelligence/index.md)
+## [Goals](../../../company/strategy/code-graph/code-intelligence/index.md)
 
-See [goals and priorities](../../../direction/code-graph/code-intelligence/index.md)
+See [goals and priorities](../../../company/strategy/code-graph/code-intelligence/index.md)
 
 ## Overview
 
@@ -59,7 +59,7 @@ Precise code intelligence specific services are written in Go and code intellige
 
 Here are some key ways to contact us:
 
-- On GitHub, mention or assign issues to the [@sourcegraph/code-intel](https://github.com/orgs/sourcegraph/teams/code-intel) team.
+- On GitHub, mention or assign issues to the @sourcegraph/code-intel team.
 - On GitHub, view our [backlog](https://github.com/orgs/sourcegraph/projects/100) of work.
 - On GitHub, view our [current iteration](https://github.com/orgs/sourcegraph/projects/101).
 - On Slack, use the #code-intel channel.
@@ -115,7 +115,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
   - [TJ DeVries](../../../company/team/index.md#tj-devries)
   - [Chris Wendt](../../../company/team/index.md#chris-wendt)
   - [Cesar Jimenez](../../../company/team/index.md#cesar-jimenez)
-  - V.G. starting 2021-10-25
+  - [Varun Gandhi](../../../company/team/index.md#varun-gandhi)
   - FQ4 hire
 
 ## Ownership

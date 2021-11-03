@@ -15,9 +15,9 @@ Each team within our org implements a different _verb_ on the code graph:
 
 ## Useful links
 
-- [Product Strategy – Mission/Vision/Focus Areas](../../direction/code-graph/index.md)
+- [Product Strategy – Mission/Vision/Focus Areas](../../company/strategy/code-graph/index.md)
 
 ## Contact
 
 - #code-graph channel in Slack
-- [@sourcegraph/code-graph](https://github.com/orgs/sourcegraph/teams/code-graph) handle on GitHub
+- @sourcegraph/code-graph handle on GitHub

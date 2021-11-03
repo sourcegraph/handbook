@@ -12,7 +12,7 @@ We create releases by 10am US Pacific Time on the 20th day of each month. ([why?
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
-These releases always ships on time, even if it's missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
+These releases always ship on time, even if they're missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
 
 ### When we release
 

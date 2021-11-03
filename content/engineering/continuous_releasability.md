@@ -28,6 +28,8 @@ that the revision can be released to customers. In particular,
 - **Up-to-date Regression test suite**: Every key workflow has a regression test.
   - This means adding/updating regression tests when you add/update workflows.
 
+[What to do if the `main` branch builds are failing and it is not in a releasable state?](https://docs.sourcegraph.com/dev/background-information/testing_principles#broken-builds-on-the-main-branch)
+
 ### A feature flag is required for every new feature
 
 The preferred feature flag mechanism is the

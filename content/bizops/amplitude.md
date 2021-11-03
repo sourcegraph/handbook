@@ -2,10 +2,10 @@
 
 ## How do I get started?
 
-1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named `Sourcegraph`). If you don't have an account, shoot a message to @ericbm or request one during login.
+1. Login to [our workspace](https://analytics.amplitude.com/sourcegraph) (named `Sourcegraph`). If you don't have an account, post in #it-tech-ops or request one during login.
 1. Watch this [short walkthrough](https://drive.google.com/file/d/1J_xSAd1SevMcM0wv3RD_uxtuv8UF8etA/view?usp=sharing) by @ericbm with a couple members of our marketing team. It goes over the data in Amplitude and how to build many different kinds of analyses. You can also read the Amplitude documentation for [building analyses](https://help.amplitude.com/hc/en-us/categories/360003165371-Build-and-share-your-analysis) and/or check out some of our [tutorials](https://drive.google.com/drive/folders/1cdcUe2e4bnYjxr9xqV6-pCsOOPIEMqGI).
-1. Check out the [Product team space](https://analytics.amplitude.com/sourcegraph/space/nldziax/all) for existing dashboards.
-1. Ask BizOps for help if you have any questions, and/or post in #analytics-review if you have a work-in-progress analysis you want someone else's eyes on.
+1. Look at all the [Team Spaces](https://analytics.amplitude.com/sourcegraph/team-spaces) and join whichever ones are relevant to you. Learn more about Team Spaces [here](#what-are-team-spaces).
+1. Read the [Sourcegraph <> Amplitude FAQs](#faqs), [Amplitude help center](https://help.amplitude.com/hc/en-us) or Ask BizOps for help if you have any questions. As a reminder, you can always post in #analytics-review if you have a work-in-progress analysis you want someone else's eyes on.
 
 ## Why are we using Amplitude?
 
@@ -83,8 +83,37 @@ If an additional user property is added to this table, it will only be applied t
 
 Amplitude is built on top of our existing [eventLogger infrastructure](https://sourcegraph.com/search?q=context:global+eventLogger.log%28+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+&patternType=literal), so we consider an event to be anything logged by this. We use [object action framework in Proper Case](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/) for our naming. For example, in eventLogger this would show up as 'SearchSubmitted', and in Amplitude it's converted to 'Search Submitted'.
 
-All events from eventLogger are sent to Amplitude except if explicitely added to a denylist in the scheduled query.
+All events from eventLogger are sent to Amplitude except if explicitly added to a denylist in the scheduled query.
 
 ## A/B testing in Amplitude
 
 Each A/B test has a user property where the A/B test is true or false (true = they saw the variant, false = they saw the original). See the page on [A/B testing](ab-testing.md) for more information about experimentation at Sourcegraph.
+
+## Using Amplitude FAQs
+
+### How do I find what an event is named in Sourcegraph's code?
+
+Most times you can search in the 'Select event' dropdown and you'll find the event you're looking for. If you can't, or are unsure what the Amplitude event corresponds to, keep reading!
+
+To figure out an event's name is in code or to confirm whether an existing event in Amplitude is the correct one, follow these steps (or [watch this video](https://drive.google.com/file/d/1R1oAc82nZULfxtr_KsIPBT4K08YHEwLa/view?usp=sharing)) :
+
+To find what a button, page view or action is named
+
+1. Open Safari
+2. Enable developer mode (preferences -> advanced)
+3. Go to sourcegraph.com
+4. Show the JavaScript console
+5. Enter `localStorage.eventLogDebug = "true"`
+6. Start using Sourcegraph and click/view the event you're looking for!
+
+### Where should I save charts?
+
+There are three levels to where a chart can be saved.
+
+1. To create a private chart, uncheck 'Make Discoverable' in the chart's dropdown ("More").
+2. To create a chart that is discoverable by other teammates but not as easily accessible unless they search (or you send them a link), just create a chart. This is Amplitude's default.
+3. Add charts to Team Spaces if you want them to be easily accessible to teammates.
+
+### What are Team Spaces?
+
+Team Spaces are a collection of charts, dashboards and notebooks that are relevant to a specific group (Amplitude's version of a folder system). By joining one, you'll be notified of every new analysis that a teammate adds to the space (and they'll be notified of yours, as well). You can see all of our Team Spaces [here](https://analytics.amplitude.com/sourcegraph/team-spaces).

@@ -2,7 +2,10 @@
 
 When adding a link to another handbook page, it is best practise to use relative paths. A relative path refers to a location that is relative to a current directory. You can take a look at this video of Jean explaining relative paths and how they work.
 
-<video controls src="https://storage.googleapis.com/sourcegraph-assets/handbook/Relative%20paths%20in%20the%20handbook.mp4"></video>
+<video controls crossorigin>
+  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/Relative-paths-in-the-handbook.mp4" />
+  <track default kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/Relative-paths-in-the-handbook.vtt" />
+</video>
 
 To sum up, the path described the location of the file, naming every directory before the file (called .md). Relative paths are a way of indicating where the file is. The program that reads the relative paths interprets links from where it is at the moment, so we need to make sure to indicate if the directory is different to the one we are at the moment.
 

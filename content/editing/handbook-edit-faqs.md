@@ -20,4 +20,12 @@ You may see the following message:
 
 This means someone else has made changes on the main branch that you need to pull into your branch to move forward. If you were to merge your branch as is, your changes could conflict with the changes made by another teammate. Clicking “Update branch” will trigger Handbook Checks to run again, and you can then merge your changes.
 
-The best way to avoid this is to merge your changes often. Sometimes on commonly edited pages (like the [Team page}(RELATIVE PATH)), this is hard to avoid.
+The best way to avoid this is to merge your changes often. Sometimes on commonly edited pages (like the [Team page](../company/team/index.md)), this is hard to avoid.
+
+## What does it mean to enable auto-merge?
+
+When you create a pull request, you should see a button titled "Enable auto-merge" where Handbook checks are running:
+
+![Enable automerge](https://storage.googleapis.com/sourcegraph-assets/handbook/enable%20auto%20merge.png)
+
+Clicking this button means your change will automatically be merged in for you once all checks have passed. If any checks fail, you'll get an email notification if your Github account is set up to do so. This is a great way to "set it and forget it" after you make changes in the Handbook, to avoid leaving a PR open for a long time and running into merge conflicts.

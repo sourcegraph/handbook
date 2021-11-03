@@ -95,7 +95,7 @@ You can use a [local Grafana](#connecting-grafana-to-a-remote-prometheus-instanc
 
 Once deployed, you should be able to see your changes in [sourcegraph.com](https://sourcegraph.com/-/debug/grafana).
 
-> **Warning**: Sourcegraph's Grafana UI does not allow direct changes due to a CSRF issue ([sourcegraph#6075](https://github.com/sourcegraph/sourcegraph/issues/6075)).
+> **Warning**: Sourcegraph's Grafana UI does not allow direct changes due to a CSRF issue (sourcegraph/sourcegraph#6075).
 
 ## Grafana
 

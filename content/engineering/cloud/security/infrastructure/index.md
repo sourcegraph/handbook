@@ -48,7 +48,7 @@ Logging configuration exists in many different places at present, which makes it
 
 #### Logging stage
 
-To implement in [#17281](https://github.com/sourcegraph/sourcegraph/issues/17281).
+To implement in #17281.
 
 Will likely be similar to the above [logging infrastructure](#logging).
 
@@ -76,7 +76,7 @@ Currently ingests all stackdriver logs from the projects `sourcegraph-dev`(cloud
 
 ### sourcegraph-security-logging-stage
 
-To implement in [#17281](https://github.com/sourcegraph/sourcegraph/issues/17281).
+To implement in #17281.
 
 This is a testbed to allow us to test changes to logs without risking production logs. This pushes logs to the [stage logging environment](#elastic-logging-stage), so that they don't pollute production logs in [elastic](#elastic-cloud).
 
@@ -98,4 +98,8 @@ Note that the index refresh interval is 30 seconds.
 
 #### Elastic logging stage
 
-To implement in [#17281](https://github.com/sourcegraph/sourcegraph/issues/17281).
+To implement in #17281.
+
+#### Playbooks
+
+See playbooks [here](playbooks.md).

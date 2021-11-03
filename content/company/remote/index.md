@@ -30,7 +30,7 @@ At Sourcegraph, we support these kinds of interactions in many ways. Here are a 
 
 1. We use https://donut.com to schedule 1-1s between random teammates each week.
 1. In addition to our weekly company meeting, weekly team meetings, and regular 1-1s with your manager, teams schedule regular optional "watercooler" meetings with no agenda where teammates can join and chit-chat. Teammates also frequently hop on a video chat to chat, pair program, or work through an issue together (just like you would in an office).
-1. We have [travel budgets](../../people-ops/travel.md) so teammates can meet up with their team to bond.
+1. We have [travel budgets](../../finance/travel.md) so teammates can meet up with their team to bond.
 
 ### Is it harder to support less experienced teammates on an all-remote team?
 
@@ -48,6 +48,10 @@ There is **no** expectation that people will be responsive over the weekend/vaca
 
 Tip: [Configure](../../engineering/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
 After that it is just a matter of not checking your work email (or Slack) at times that you don’t want to do work. Slack has settings to pause notifications, and you can remove work email from your phone if that would help you not check it during non-work times.
+
+## Remote hackathons
+
+Just because we're remote, does not mean we don't have hackathons. Teams, organizations, and departments across Sourcegraph – including product + engineering, business operations, and customer engineering – have held [remote hackathons](remote_hackathons.md).
 
 ## Helpful links
 

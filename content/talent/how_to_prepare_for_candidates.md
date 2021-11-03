@@ -16,7 +16,7 @@ Coming soon
 - Our [messaging and definitions](../marketing/messaging.md) should help you better understand what Sourcegraph does.
 - Our [handbook](https://handbook.sourcegraph.com). We encourage you to read through it prior to your interview.
 - [Teammates bios](../company/team/index.md).
-- Our [strategy and vision](../company/strategy.md).
+- Our [strategy](../company/strategy/index.md).
 - Additional links coming soon
 
 ## Types of interviews

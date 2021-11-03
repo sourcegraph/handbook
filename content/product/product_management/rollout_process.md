@@ -4,6 +4,8 @@ Features come in many different sizes and shapes, and the process for introducin
 
 Some features have a [beta or experimental label](../beta_and_experimental_feature_labels.md), you can read more about how that works there.
 
+[Pricing features](pricing.md) is a complicated topic and has its own page.
+
 ## Launch Tiers
 
 Product features fall into different buckets depending on how much engagement with marketing is needed. Definitions for [L1, L2, and L3 launches](../../marketing/product-marketing/marketing_launch_tiers.md) can be found in the marketing handbook.
@@ -67,7 +69,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 ### Launch
 
 1. **Enable for all Sourcegraph Cloud users**
-   - Follow the steps in this [document](../../engineering/distribution/update_sourcegraph_website.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
+   - Follow the steps in this [document](../../engineering/cloud/devops/update_sourcegraph_website.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
    - In the PR that pushes changes live, add everyone who gave appproval for launch as reviewers.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.

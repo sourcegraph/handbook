@@ -9,7 +9,7 @@ Together, they own the end-to-end Sourcegraph search experience.
 
 ## Search goals and priorities
 
-See [goals and priorities](../../../direction/code-graph/search/index.md) for the core and product teams.
+See [goals and priorities](../../../company/strategy/code-graph/search/index.md) for the core and product teams.
 
 ## Vision
 

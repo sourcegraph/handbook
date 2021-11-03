@@ -6,6 +6,7 @@ This guide will allow you to debug one of our running services in the [dogfood](
 
 - [Debugging](#debugging)
   - [Gain-access-to-the-cluster](./tutorial.md#gain-access-to-the-cluster)
+- [Tutorial](tutorial.md)
 
 ## Intro to crictl
 

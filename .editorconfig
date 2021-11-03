@@ -5,5 +5,5 @@ charset = utf-8
 indent_style = space
 indent_size = 2
 
-[*.{ts,tsx,css,scss}]
+[*.{ts,tsx,mjs,css,scss}]
 indent_size = 4

@@ -2,4 +2,4 @@
 
 > NOTE: This is optional.
 
-See the [handbook section](https://github.com/sourcegraph/about#handbook) in the repository README.
+See the [repository README](https://github.com/sourcegraph/handbook).
