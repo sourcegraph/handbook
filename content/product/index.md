@@ -11,17 +11,24 @@ The Product team strives to make the following true:
 
 You can reach us at the #product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](surfacing_product_feedback.md) page.
 
-## Roadmap
+## Roadmap & Strategy
 
-The product strategy and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md). There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
+The product strategy with how we think about prioritization and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
 
-## Feature reference
+There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
 
-We have several feature reference matrices:
+## Product area and feature matrices
+
+We have a matrix of product areas:
+
+- [Product area reference](product_areas.md)
+
+We also have several feature reference matrices:
 
 - [Features by maturity](feature_maturity.md)
 - [Features by code host compatibility](feature_compatibility.md)
 - [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
+- [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
 
 ## Metrics
 
@@ -48,18 +55,11 @@ We are missing a single source of truth for what is currently on the roadmap. Ou
 - Owner: Serina
 - [Working Document](https://docs.google.com/document/d/1dsJ_0aXyPTE-vUDR9fIwVYEq1UBYN-rtH75qtI91pdg/edit#)
 
-### Defining our product maturity
-
-Customer Engineering is looking to better undrestand the known boundaries of our product to effectively interact with prospetive customers. As a product team we are pulling together information of existing customer scale. This information combined with our product knowledge will help us proactively set expectations.
-
-- Owner: Christina
-- [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [Pull Request](https://github.com/sourcegraph/handbook/pull/455)
-
 ### Other initiatives
 
 There are a few other initiatives we will be tracking here soon:
 
+- Product management and product design impact ladders (started [here](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing))
 - CE / Product communication and prioritization improvements on feedback
 - Experimentation and improvements to planning
 - Consolidation and simplification of tooling

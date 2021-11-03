@@ -52,9 +52,34 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
             </div>
         )}
         <div className="sidebar-bottom-links">
-            <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.path}`}>
-                Edit this page on GitHub
-            </Link>
+            {page.path === 'company/team/index.md' && (
+                <Link href="https://github.com/sourcegraph/handbook/edit/main/data/team.yml">
+                    Edit this data on GitHub
+                </Link>
+            )}
+            {page.path === 'product/product_areas.md' && (
+                <Link href="https://github.com/sourcegraph/handbook/edit/main/data/product_areas.yml">
+                    Edit this data on GitHub
+                </Link>
+            )}
+            {page.path === 'product/feature_maturity.md' && (
+                <Link href="https://github.com/sourcegraph/handbook/edit/main/data/features.yml">
+                    Edit this data on GitHub
+                </Link>
+            )}
+            {page.path === 'product/feature_compatibility.md' && (
+                <Link href="https://github.com/sourcegraph/handbook/edit/main/data/features.yml">
+                    Edit this data on GitHub
+                </Link>
+            )}
+            {page.path !== 'company/team/index.md' &&
+                page.path !== 'product/feature_maturity.md' &&
+                page.path !== 'product/product_areas.md' &&
+                page.path !== 'product/feature_compatibility.md' && (
+                    <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.path}`}>
+                        Edit this page on GitHub
+                    </Link>
+                )}
         </div>
     </section>
 )
