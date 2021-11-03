@@ -203,14 +203,13 @@ In addition to the above interviews, some departments have department-specific i
 
 ## Customer Support
 
-- Customer Support Manager
-  - Direct Report Interview
-  - During this stage of the interview process, we will get an understanding of your leadership capabilities
-  - Example questions:
-  - Tell us about how you created trust with your last team
-  - Tell us what you do when someone makes a mistake
-  - Technical Savvy Interview
-  - During this stage of the interview process, we will discuss our product, customers, and technology and determine if you will be effective in a technology leadership role.
+### Collaboration and communication skills
+
+Similar to the general peer interview (you will talk to a member of the support team), but with a specific focus. The purpose of this conversation is to get a sense of how they approach collaboration and communication. We look for someone who can collaborate equally well with customers (software engineers) and teammates in any role (from sales to product), is able to modify collaboration and communication methods depending on who they are working with/talking to, and who is adept at communicating about complex things in a way that is easy to understand.
+
+### Technical knowledge and troubleshooting skills
+
+Similar to the general peer interview (you will talk to a member of the support team), but with a specific focus. The purpose of this conversation is to get a sense of how they approach technical troubleshooting. We look for someone who is very curious, more of a problem solver than a builder, who can truly hit the ground running, and once onboarded requires very little assistance from engineering.
 
 ## Customer Engineering (IC)
 
