@@ -136,7 +136,7 @@ default-nat-manual-ip-1  $NAT_IP_TWO     EXTERNAL                    us-central1
 
 This isn't highly technical, and just boils down to discovery.
 
-You can find the instance's web URL by going to [this GitHub repository](https://github.com/sourcegraph/deploy-sourcegraph-managed), and looking at the customer's `terraform.tfvars` file. The value listed under `domain` is the URL you can use to navigate to the web-app.
+You can find the instance's web URL by going to [this GitHub repository](https://github.com/sourcegraph/deploy-sourcegraph-managed), and looking at the customer's `terraform.tfvars` file. The value listed under `domain` is the URL you can use to navigate to the web-app. As for actually logging in, you will need to have account credentials shared with you via 1password. Ask #it-tech-ops in Slack.
 
 If you are running into a 403 forbidden error, you may be running into an exception... See if [this](https://docs.google.com/document/d/1E0E2t2voiPHh4EioBBJpyB-nXbJihm3bCyIct-pY2mc/edit) document address your needs. If it doesn't, you may need to seek additional help.
 
