@@ -32,11 +32,11 @@ To see how individual teams fit into the flywheel, please see [the full deck](ht
 
 ![PLG flywheel current state](https://storage.googleapis.com/sourcegraph-assets/handbook/product-led%20growth/plg-flywheel-current-state.png)
 
+### FY22 Q4
+
+![PLG flywheel FY22 Q4](https://storage.googleapis.com/sourcegraph-assets/handbook/product-led%20growth/plg-flywheel-fy22q4.png)
+
 ### FY23 Q1
-
-![PLG flywheel FY23 Q1](https://storage.googleapis.com/sourcegraph-assets/handbook/product-led%20growth/plg-flywheel-fy22q4.png)
-
-### FY23 Q2
 
 ![PLG flywheel FY23 Q1](https://storage.googleapis.com/sourcegraph-assets/handbook/product-led%20growth/plg-flywheel-fy23q1.png)
 
@@ -54,7 +54,7 @@ Cloud SaaS:
 Extensibility:
 - [Extensibility Team - Cloud Org](https://docs.google.com/document/u/0/d/16pZ2QIRW2rvYVtyxuqWR91DTgReIdrOAAa_bX5q9kR8/edit)
 
-### Internal resources
+### External resources
 
 - [productled.org - the flywheel](https://www.productled.org/foundations/the-product-led-growth-flywheel#Chap4)
 - [OpenView partners PLG overview](https://openviewpartners.com/product-led-growth/#.YV8dU12SkTX)
