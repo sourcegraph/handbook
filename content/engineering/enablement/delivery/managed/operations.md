@@ -133,6 +133,7 @@ default-nat-manual-ip-1  $NAT_IP_TWO     EXTERNAL                    us-central1
 - `$NAT_IP_ONE` and `$NAT_IP_TWO` are the external IPs from which egress traffic from the deployment will originate from. These are the addresses from which Sourcegraph will access the customer's code host, and as such the customer will need to allow them access to e.g. their internal code host.
 
 ### Accessing the web-app of the instance
+
 This isn't highly technical, and just boils down to discovery.
 
 You can find the instance's web URL by going to [this GitHub repository](https://github.com/sourcegraph/deploy-sourcegraph-managed), and looking at the customer's `terraform.tfvars` file. The value listed under `domain` is the URL you can use to navigate to the web-app.
