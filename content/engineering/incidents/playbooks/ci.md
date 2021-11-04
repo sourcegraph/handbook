@@ -80,6 +80,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 #### Actions
 
 1. Identify the error in common with the recent builds on [Buildkite](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main).
+    - 💡 See [How to use loki here](#actions-4)
 1. Find the build where the problem appeared for the first time.
     - 💡 Often it's the first build that became red, but check that the error is the same to be sure.
 1. Is this an external failure or an internal one?
@@ -183,9 +184,10 @@ This page lists common failures scenarios and provide a step by step guide to ge
   1. Scope the time window to `7 Days` to make sure to find previous occurrences if there are any
   1. Enter a query such as `{app="buildkite"} |= "your error message"` where "your error message" is a string that identiy approximately the failure cause observed in the failing step.
   1. Is there a build that failed exactly like this?  
-    - **Yes**: 
-      1. 💡 Double check that you're looking at that the same step by inspecting the labels of message (click on the line to make them visible)
-      1. **Yes**, that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
+      - **Yes**: 
+          1. 💡 Double check that you're looking at that the same step by inspecting the labels of message (click on the line to make them visible)
+          1. **Yes**, that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
+      - **No**: it's not a flake, reach out the team owning those tests.
 
 
 ### Restarting the agents
