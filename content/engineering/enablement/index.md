@@ -2,7 +2,7 @@
 
 ## Mission
 
-Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph.  For a deep dive into our mission see our [strategy page](../../strategy/enablement/index.md)
+Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph. For a deep dive into our mission see our [strategy page](../../strategy/enablement/index.md)
 
 ## Team
 
@@ -38,7 +38,7 @@ The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-s
 
 ## Principles and practices
 
-In addition to the [engineering principles and practices](../principles-and-practices.md), the Enablement org follows the following principles and practices. Each team is afforded the freedom to operate as best they see fit to achieve their goals.  Below are principles and practices all teams in the Enablement org follow.
+In addition to the [engineering principles and practices](../principles-and-practices.md), the Enablement org follows the following principles and practices. Each team is afforded the freedom to operate as best they see fit to achieve their goals. Below are principles and practices all teams in the Enablement org follow.
 
 ### Unblocking others is your highest priority
 
@@ -117,20 +117,21 @@ Participation in sharing is voluntary.
 
 #### Status updates
 
-Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../engineering-management.md#status-updates) by the Monday following their team's retrospective.  This should happen at least once a month.
+Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../engineering-management.md#status-updates) by the Monday following their team's retrospective. This should happen at least once a month.
 
 #### Leadership sync
 
 To stay aligned as an organization the directors, engineering managers, and product managers are prompted with the following question in the #enablement-leaderhip channel weekly:
-  - Monday 
-    - What are your priorities?
-    - Any highlights on team priorites?
-    - Any challenges?
-  - Friday 
-    - What progress do you want to share on your priorities from Monday?
-    - What challenges did you face this week?
- 
- On Thursday we meet as a leadership team to review progress on our [OKRs](../../strategy/enablement/index.md) and update the [Product/Engineering FY22Q4 Tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gf8321d95d6_3_34).  In addtion we review updates on our [KPIs](https://docs.google.com/spreadsheets/d/1-yP2TT6m8VfZDKFSf9xgA9T_hBpjzQsRFv9-vt_jcpA/edit#gid=0).  If we do not have a large enough cohort to hold a zoom meeting we drive the conversation asyncrhonously.
+
+- Monday
+  - What are your priorities?
+  - Any highlights on team priorites?
+  - Any challenges?
+- Friday
+  - What progress do you want to share on your priorities from Monday?
+  - What challenges did you face this week?
+
+On Thursday we meet as a leadership team to review progress on our [OKRs](../../strategy/enablement/index.md) and update the [Product/Engineering FY22Q4 Tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gf8321d95d6_3_34). In addtion we review updates on our [KPIs](https://docs.google.com/spreadsheets/d/1-yP2TT6m8VfZDKFSf9xgA9T_hBpjzQsRFv9-vt_jcpA/edit#gid=0). If we do not have a large enough cohort to hold a zoom meeting we drive the conversation asyncrhonously.
 
 ### Health reports
 
@@ -142,4 +143,3 @@ The report is a confidential update between the Director and the Engineering Man
 1. Identifies areas of concern that could lead to proactive intervention to mitigate concerns
 
 The report is not used for judging the team's performance or the manager, and its intention is solely to inform and trigger dialogue. Managers are not expected to provide exhaustive notes but rather a high-level summary.
-
