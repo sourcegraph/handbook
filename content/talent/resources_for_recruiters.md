@@ -123,9 +123,13 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 ## LinkedIn posting best practices
 
-It is much better to copy and paste the entire post and then give the author credit by tagging them. Long story short, avoid resharing and copy/paste instead.
+Instead of resharing a post, it is much better to copy and paste the entire post and then give the author credit by tagging them.
 
 Avoid including links directly in your posts. Anything that takes the user away from LinkedIn is discouraged... so instead, add the link as a comment.
+
+If you're looking for Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
+
+Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. Thank you for helping us attract and hire the best talent!
 
 [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
 

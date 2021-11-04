@@ -53,9 +53,9 @@ The next six months are focused on better defining the Handbook as a product and
 #### FY22Q4
 
 - **Objective:** Produce search results that are more helpful to the end user.
-- **Why?** The Handbook is the primary resource of content for teammates, candidates and customers to learn more about the company. As the main source of truth for Sourcegraph it is critical end users can easily find content.
-  - **Key Result 1:** Increase the number of click throughs on Handbook search results.
-- **How will this be measured?** Today Swiftype analytics shows that we have a 10% click through rate.
+- **Why?** Our objective is to increase content discovery in the Handbook. We believe that a higher percentage click through rate is directly correlated to search results matching what people are looking for.
+  - **Key Result 1:** Increase the number of click throughs on Handbook search results to 90%.
+- **How will this be measured?** [Swiftype analytics](https://app.swiftype.com/engines/handbook/analytics/insights) can provide us a clickthrough rate over a given period..
 - **How does this align with the overall [product strategy](../../index.md)?** This enables all teammates at Sourcegraph to be more efficient and accelerate the time it takes to provide value to customers.
 
 ### Themes (and What's Next and why)

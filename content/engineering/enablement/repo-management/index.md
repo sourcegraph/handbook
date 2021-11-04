@@ -14,11 +14,16 @@ We also have temporary custody of Authentication, with the aspiration being to s
 - [Jordan Plahn](../../../company/team/index.md#jordan-plahn-hehim) ([Engineering Manager](../../roles.md#engineering-manager))
   - [Ryan Slade](../../../company/team/index.md#ryan-slade-he-him)
   - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta-he-him)
-  - M.L. joining Nov 15
+  - M.W. joining Nov 15
+  - A.O. joining Nov 22
 
 ## Strategy
 
 [Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../company/strategy/enablement/repo-management/index.md)
+
+## Onboarding
+
+Check out our [onboarding guide](onboarding.md).
 
 ## Responsibilities
 

@@ -149,7 +149,7 @@ Expanding Sourcegraph to a new team or unlocking new enterprise features could i
 
 ### Ongoing Customer Support
 
-While our CSE team is primarily responsible for reactive technical support, we help keep an eye out on Slack for any questions or issues that come through. You can view any CSE support issues in Zendesk by using our SFDC <> Zendesk integration. Go to the Account page in Salesforce and click the "Zendesk" tab to view.
+While our CS team is primarily responsible for reactive technical support, we help keep an eye out on Slack for any questions or issues that come through. You can view any support issues in Zendesk by using our SFDC <> Zendesk integration. Go to the Account page in Salesforce and click the "Zendesk" tab to view.
 
 At times a customer may raise a feature request or provide product feedback. It is our responsibility as CEs to gather that feedback and share with the product teams.
 

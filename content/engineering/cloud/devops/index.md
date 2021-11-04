@@ -12,8 +12,8 @@ The Cloud DevOps team is responsible for the infrastructure used to host Sourceg
 
 - [Bill Creager](../../../company/team/index.md#bill-creater) (acting [Engineering Manager]
   - [Dax McDonald](../../../company/team/index.md#dax-mcdonald-he-him)
-  - FQ3 Hire
-  - FQ3 Hire
+  - [DD] Start Nov 22
+  - [FH] Starts Dec 6
 
 ## Content
 
