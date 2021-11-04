@@ -1,6 +1,6 @@
 # CI Playbook
 
-- **Maintainers**: [DevX Team](../../engineering/enablement/dev-experience/index.md).
+- **Maintainers**: [DevX Team](../../enablement/dev-experience/index.md).
 - **Audience**: any software engineer, no prior infrastructure knowlegde required. 
 - **TL;DR** This document sums up what to do in various scenarios that can block the CI.
 
@@ -13,7 +13,7 @@ In order to handle problems with the CI, the following elements are necessary:
 - Have access to the `sourcegraph-ci` _project_ on Google Cloud Platform.
   - See [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) 
 - Have the CLI `gcloud` tool installed and have authenticated yourself.
-  - See [Gain access to the cluster](../../engineering/deployments/debugging/tutorial/index.md)
+  - See [Gain access to the cluster](../../deployments/debugging/tutorial/index.md)
 - (Optional) Install [K9s](https://k9scli.io) for easier interactions with the _pods_.
 
 ## Overview
@@ -47,7 +47,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 4. Is that a real failure or a flake?
     1. Restart that step. Maybe it will fail again, but if it doesn't it'll save you time. 
         - 💡 You can go to 3. while it runs. 
-    1. See [Is that a failure or a flake scenario](is-this-a-failure-or-a-flake)
+    1. See [Is that a failure or a flake scenario](#is-this-a-failure-or-a-flake)
     1. Did restarting it fixed the problem?
         - **Yes**: that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
         - **No**: see next point.
