@@ -13,9 +13,9 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap & Strategy
 
-The product strategy with how we think about prioritization and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
+The public strategy containing our mission, vision, how we think about prioritization, and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
 
-There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
+Our roadmap (internal only) can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/1). There is also a [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which contains upcoming and recently launched important customer-facing features from the OKR and roadmap tracker, and a [key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only) which contains status information on key accounts.
 
 ## Product area and feature matrices
 
