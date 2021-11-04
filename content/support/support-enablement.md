@@ -10,6 +10,7 @@ The following is available to help us honor our [ethos and guiding principles](i
 - [Debugging tips](debugging-tips.md)
 - [Navigating the PGSQL Database](pgsql-guide.md)
 - [How to deploy Sourcegraph to GCP with Kubernetes](enablement/gcp-sg-k8s.md)
+- [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
 
 ## Videos
 
