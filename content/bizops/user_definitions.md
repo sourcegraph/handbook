@@ -4,30 +4,40 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 ## User states
 
-People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly):
+People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.  
 
-| Metric      | Description                                                      | Cloud | On-prem |
-| ----------- | ---------------------------------------------------------------- | ----- | ------- |
-| Visitor     | Anyone who accessed the product                                  | ✔️    |         |
-| Active User | Visitors who performed a qualifying activation event (see below) | ✔️    | ✔️      |
-| Registered  | A user who created an account on Sourcegraph Cloud.              | ✔️    |         |
-| Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      |
-| Churned     | Users who were active last month but not this month              | ✔️    | ✔️      |
-| Resurrected | Users who were _not_ active last month but are active this month | ✔️    | ✔️      |
-| Created     | Users whose account was created this month                       | ✔️    | ✔️      |
-| Deleted     | Users whose account was deleted this month                       | ✔️    | ✔️      |
-
-There is also a special state, **activated**, which is permanent once triggered and can apply to any of the above states. For example, you can have an activated active user or even an activated deleted user.
+| Metric      | Description                                                      | Cloud | On-prem | Pings data point |
+| ----------- | ---------------------------------------------------------------- | ----- | ------- | ---------------- |
+| [Visitor](#what-is-a-visitor)     | Anyone who accessed the product                                  | ✔️    |         | user_count |
+| [Active]((#what-is-an-active-user)) | Users who performed a qualifying activation event (see below) | ✔️    | n/a      | n/a |
+| Activated | Users who have completed a specific series of actions that indicate they have developed the habit  | ✔️    | n/a      | n/a |
+| Registered  | A user with a created an account                                 | ✔️    | ✔️        | registered_user |
+| Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      | retained_users |
+| Churned     | Users who were active last month but not this month              | ✔️    | ✔️      | churned_users | 
+| Resurrected | Users who were _not_ active last month but are active this month | ✔️    | ✔️      | resurrected_users |
+| Created     | Users whose account was created this month                       | ✔️    | ✔️      | created_users |
+| Deleted     | Users whose account was deleted this month                       | ✔️    | ✔️      | deleted_users |
 
 ### What is a visitor?
 
-A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page). Currently a unique person cannot be identified between our on-premises & cloud solution, in other words when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitor because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
+A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page). Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
 
 ### What is an active user?
 
 An active user is differentiated from a visitor by performing a qualifying event. These events are intended to represent someone who has **engaged with** and **received value** from the product; something that takes a person from their first search to establishing a habit around the core value proposition of the app. Qualifying events are [listed as 'Active' in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=live), and performing any single activity in that list makes a visitor an active user for the time period being measured.
 
-Qualifying events are not intended to be difficult, or prove that someone is a heavy/power user of the product. They are carefully selected to represent activities that are important to realizing the value of Sourcegraph.
+Qualifying events are not intended to be difficult, or prove that someone is a heavy/power user of the product. They are carefully selected to represent activities that indicate realized value from Sourcegraph.
+
+| Metric      | What                                                      | Events |
+| ----------- | ---------------------------------------------------------------- | ----- |
+| Search     | Viewed search results, receive a code monitoring notification      | ```ViewSearchResults``` ```CodeMonitorEmailLinkClicked``` ```Saved Search Notification Sent``` ```ViewManageCodeMonitorPage``` ```SavedSearchCreated``` ```SavedSearchUpdated```  | 
+| Navigation     | View a file, view a repository                                 | ```ViewBlob``` ```ViewRepository``` ```ViewTree``` |
+| Code intelligence | Hovered                                                     | ```hover``` |
+| Extensibility  | A user who created an account on Sourcegraph Cloud.            | ```GoToCodeHostClicked``` ```editor.open.file``` |
+| Batch changes    | Created or viewed a batch change                             | TBD |
+| Code insights     | Created or viewed a code insight         | TBD |
+
+
 
 #### Registered or non-registered active users
 
@@ -37,17 +47,15 @@ Active users can be further optionally segmented into **registered** or **non-re
 
 For some of our metrics we want to identify unique users across on-prem and cloud instances. For this purpose, unique users of Sourcegraph is a way to correlate registered users who have a common email address across any number of instances. For example, a@b.com on an on-prem instance and a@b.com on Sourcegraph.com would be considered the same user for the purposes of this metric. Note that most measures don't have this constraint, and any that do will include the term "Unique Sourcegraph Users" in the name of the metric.
 
-#### What is a retained active user?
-
-An active user is retained if they were performed actions that qualify them as an active user in both the current and previous periods. Our standard retention timeframe is four weeks. This aligns with our method of billing which measures Monthly Active Users.
-
 ### What is an activated user?
 
 Unlike **active** users, which is a term meaningful within a specific time period, **activated** is a special state that is permanent once triggered.
 
-An activated user is defined as anyone who has ever done a specific series of actions that we know are highly correlated with retention. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as an active user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established).
+An activated user is defined as anyone who has ever done a specific series of actions that ends in habit creation using Sourcegraph within their workflows. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as an active user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established).
 
-Activation is this entire journey, and our current definition is that someone has performed a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active).
+Activation is this entire journey, and our current definition is that someone has performed a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active). 
+
+**Note**: There can be a ton of improvement in this definition. It will be more like they've completed 20 searches across repositories they've added to Sourcegraph, but we need to do some research into what correlates highly with retention. 
 
 ## Time periods
 
