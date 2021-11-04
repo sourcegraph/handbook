@@ -16,9 +16,7 @@ This page contains information that is relevant for how to do well at your job a
 
 ### Keeping strategy up to date
 
-Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents.
-
-In addition to this shared content, each team has a set of sources of truth (that do not overlap) that they should update regularly:
+Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of sources of truth (that do not overlap) that they should update regularly:
 
 #### OKR and roadmap tracking
 
@@ -37,7 +35,7 @@ We also use [per-area strategy pages](../../company/strategy/index.md#per-area-s
 
 The last thing teams should review and update monthly are the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/), in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [feature reference pages](../index.md#feature-reference).
 
-Part of the product data is an internal-only list of [what's supported](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279), which contains extended product information for our Sales and Support teams. This should also be reviewed as feature capabilities evolve.
+Part of the product data is an internal-only list of [what's supported](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279), which contains extended product information for our Sales and Support teams. This should also be manually reviewed and updated as feature capabilities evolve.
 
 ## Glossary
 
