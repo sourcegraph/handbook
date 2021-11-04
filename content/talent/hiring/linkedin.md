@@ -37,3 +37,5 @@ After the hiring manager and recruiter work together on setting up the search cr
 Only candidates we decide to engage will be added into Greenhouse.
 
 [LinkedIn Posting Best Practices](../resources_for_recruiters.md#linkedin-posting-best-practices)
+
+[Hiring Manager Education Course](https://training.talent.linkedin.com/hiring-managers-guide-to-success-with-linkedin-recruiter)
