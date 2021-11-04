@@ -50,8 +50,7 @@ US base teammates need to place their order via [this form](https://forms.gle/1P
 **Non US teammates**
 Non US teammates will be responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](https://handbook.sourcegraph.com/finance/expenses).
 
-
-Different specs are required repending on your role, please see below for necessary specs corresponding to your role. 
+Different specs are required repending on your role, please see below for necessary specs corresponding to your role.
 
 ### Customer Engineering team laptops:
 
@@ -87,7 +86,6 @@ Different specs are required repending on your role, please see below for necess
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 If you need to update any specs, please reach out to your manager and [People Ops](mailto:people-ops@sourcegraph.com) for approval.
-
 
 ### Other computer
 
