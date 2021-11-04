@@ -9,7 +9,7 @@ This project exists to create a database of resolved tickets that Sourcegraph in
 - Enable Sourcegraph search functionality to rapidly find closed Zendesk tickets.
 - Increase ticket closing velocity by increasing access to proven solutions.
 - Give context to potential root cause earlier in the ticket solving process.
-- Increase CSE onboarding speed by enabling focused searching for tickets by service, root cause, version, etc.. to find common issues in each problem space.
+- Increase Application Engineer onboarding speed by enabling focused searching for tickets by service, root cause, version, etc.. to find common issues in each problem space.
 - Formal template encourages good record-keeping practices, including recording all troubleshooting steps.
 - Increases the time span for information retention, as GitHub will retain these records long after Slack has archived them.
 
