@@ -33,7 +33,6 @@ After updating this content, you should ensure it is reflected in the manually c
 
 We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a framework for each team's prioritization, to document the trade-offs between goals the teams are making, and to communicate where they are headed in the longer term not in terms of specific deliverables but in terms of strategy.
 
-These are updated monthly by each team, but wouldn't normally change too much each month. They are updated via a pull request, that anyone on the team can contribute to, and that can be shared with stakeholders as a summary of the change.
 
 #### Product data
 
