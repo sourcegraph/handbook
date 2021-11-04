@@ -8,7 +8,7 @@ People using Sourcegraph can be segmented into a number of different states, the
 
 | Metric                         | Description                                                                                       | Cloud | On-prem | Pings data point                        |
 | ------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- |
-| [Visitor](#visitor)            | Anyone who accessed the product                                                                   | ✔️    | ✔️       | `site_activity.MAU.UserCount`           |
+| [Visitor](#visitor)            | Anyone who accessed the product                                                                   | ✔️    | ✔️      | `site_activity.MAU.UserCount`           |
 | [Active](#active-user)         | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     |
 | [Activated](#activated-user)   | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     |
 | [Registered](#registered-user) | A user with a created an account                                                                  | ✔️    | ✔️      | `site_activity.MAU.RegisteredUserCount` |
@@ -28,14 +28,14 @@ An active user is differentiated from a visitor by performing a qualifying event
 
 Qualifying events are not intended to be difficult, or prove that someone is a heavy/power user of the product. They are carefully selected to represent activities that indicate realized value from Sourcegraph.
 
-| Metric            | What                                                          | Events                                                                                                                                                   |
-| ----------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Metric            | What                                                                       | Events                                                                                                                                                   |
+| ----------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Search            | Viewed search results, receive a code monitoring/saved search notification | `ViewSearchResults` `CodeMonitorEmailLinkClicked` `Saved Search Notification Sent` `ViewManageCodeMonitorPage` `SavedSearchCreated` `SavedSearchUpdated` |
-| Navigation        | View a file/repository/tree                                | `ViewBlob` `ViewRepository` `ViewTree`                                                                                                                   |
-| Code intelligence | Hovered                                                       | `hover`                                                                                                                                                  |
-| Extensibility     | Using Sourcegraph outside of the app           | `GoToCodeHostClicked` `editor.open.file`                                                                                                                 |
-| Batch changes     | Created or viewed a batch change                              | TBD                                                                                                                                                      |
-| Code insights     | Created or viewed a code insight                              | TBD                                                                                                                                                      |
+| Navigation        | View a file/repository/tree                                                | `ViewBlob` `ViewRepository` `ViewTree`                                                                                                                   |
+| Code intelligence | Hovered                                                                    | `hover`                                                                                                                                                  |
+| Extensibility     | Using Sourcegraph outside of the app                                       | `GoToCodeHostClicked` `editor.open.file`                                                                                                                 |
+| Batch changes     | Created or viewed a batch change                                           | TBD                                                                                                                                                      |
+| Code insights     | Created or viewed a code insight                                           | TBD                                                                                                                                                      |
 
 #### Unique Sourcegraph active users
 
