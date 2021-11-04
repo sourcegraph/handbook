@@ -4,21 +4,36 @@ Product at Sourcegraph consists of [product management](product_management/index
 
 The Product team strives to make the following true:
 
-- The team is working on the most important things (listed in the [product roadmap](./index.md#roadmap)) to execute on [our strategy](../direction/index.md) that is moving us forward on [our vision](../company/strategy.md).
+- The team is working on the most important things to execute on [our strategy](../company/strategy/index.md), and that this is communicated well to teammates and everyone outside of sourcegraph.
 - Each teammate has the customer and product context needed (about customer problems, likely future priorities, possible solutions, etc.) to perform their work effectively.
-- The product vision and roadmap are communicated well to teammates and everyone outside Sourcegraph.
 
 ## Contact
 
 You can reach us at the #product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](surfacing_product_feedback.md) page.
 
-## Roadmap
+## Roadmap & Strategy
 
-The roadmap for the product organization as well as individual teams can be found on the [Sourcegraph direction page](../direction/index.md).
+The public strategy containing our mission, vision, how we think about prioritization, and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
+
+There is also a [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which contains upcoming and recently launched important customer-facing features from the OKR and roadmap tracker, and a [key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only) which contains status information on key accounts.
+
+## Product area and feature matrices
+
+We have a matrix of product areas:
+
+- [Product area reference](product_areas.md)
+
+We also have several feature reference matrices:
+
+- [Features by maturity](feature_maturity.md)
+- [Features by code host compatibility](feature_compatibility.md)
+- [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
+- [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
 
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
+- [User metrics definitions](../bizops/user_definitions.md)
 - [How to add metrics](../bizops/analytics.md#How-to)
 
 ## Product team initiatives
@@ -33,43 +48,18 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 - [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
-### ✅ Improve process for documenting product strategy (DONE)
+### Product managmenet and Product design impact ladders
 
-Our current [product goals pages](index.md#roadmap) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
-
-- Owner: Jason
-- [Working Document](https://docs.google.com/document/d/15H6PeCF9c890TqQBc3gaDSk-GDE42SPzhokAlU5Lu8M/edit?usp=sharing)
-
-### ✅ Public facing roadmap (DONE)
-
-We are missing a single source of truth for what is currently on the roadmap. Our customers as well as Sales, Customer Engineering, Customer Support, and Marketing all need to know what is on the roadmap. Today we use several methods to track our roadmap making any one source unreliable. The end goal is to have a single source of truth that is referenced as needed.
-
-- Owner: Serina
-- [Working Document](https://docs.google.com/document/d/1dsJ_0aXyPTE-vUDR9fIwVYEq1UBYN-rtH75qtI91pdg/edit#)
-
-### Defining our product maturity
-
-Customer Engineering is looking to better undrestand the known boundaries of our product to effectively interact with prospetive customers. As a product team we are pulling together information of existing customer scale. This information combined with our product knowledge will help us proactively set expectations.
+To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
 
 - Owner: Christina
-- [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [Pull Request](https://github.com/sourcegraph/about/pull/4617)
-
-### ✅ Improving how we communicate pre-release features (DONE)
-
-We are working with the marketing and corporate communication teams to make sure that how we talk about features is clear leading up to release, especially when they are available early, and how we communicate when they become fully live.
-
-- Owner: Jason
-- [RFC 473: Decouple product and marketing launches/milestones for features that are available early](https://docs.google.com/document/d/1aZcalAUXZGl3GVEBBrUhNtbhMc4hQWy1_8UWHN6q4ys/edit#heading=h.trqab8y0kufp)
-- Implemented via [https://github.com/sourcegraph/handbook/pull/83](https://github.com/sourcegraph/handbook/pull/83)
+-[Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
 ### Other initiatives
 
 There are a few other initiatives we will be tracking here soon:
-
 - CE / Product communication and prioritization improvements on feedback
-- Experimentation and improvements to planning
-- Consolidation and simplification of tooling
+
 
 In the meantime, we are using a [tracking document](https://docs.google.com/document/d/1ezjeAV2wnUKfXQjHE-Cy9eZ7i4HX2mty1zuE4VcGGGo/edit#) for these.
 

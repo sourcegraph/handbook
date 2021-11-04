@@ -1,0 +1,103 @@
+# yaml-language-server: $schema=../schema/product_areas.schema.json
+
+search:
+  title: Search
+  product_org: code_graph
+  strategy_link: /company/strategy/code-graph/search/index.md
+  pm: ben_venker
+  issue_labels:
+    - team/search-product
+    - team/search-core
+    - team/search
+
+code_intelligence:
+  title: Code Intelligence
+  product_org: code_graph
+  strategy_link: /company/strategy/code-graph/code-intelligence/index.md
+  pm: maría_craig
+  issue_labels:
+    - team/code-intelligence
+
+batch_changes:
+  title: Batch Changes
+  product_org: code_graph
+  strategy_link: /company/strategy/code-graph/batch-changes/index.md
+  pm: malo_marrec
+  issue_labels:
+    - team/batchers
+
+code_insights:
+  title: Code Insights
+  product_org: code_graph
+  strategy_link: /company/strategy/code-graph/code-insights/index.md
+  pm: joel_kwartler
+  issue_labels:
+    - team/code-insights
+
+security:
+  title: Security
+  product_org: cloud
+  strategy_link: /company/strategy/cloud/security/index.md
+  pm: diego_comas
+  issue_labels:
+    - team/security
+
+extensions:
+  title: Extensions
+  product_org: cloud
+  strategy_link: /company/strategy/cloud/extensibility/index.md
+  pm: murat_sutunc
+  issue_labels:
+    - team/extensiblity
+
+repository_management:
+  title: Repository Management
+  product_org: enablement
+  strategy_link: /company/strategy/enablement/repo-management/index.md
+  pm: dan_mckean
+  issue_labels:
+    - team/repo-management
+
+deployment:
+  title: Deployment
+  product_org: enablement
+  strategy_link: /company/strategy/enablement/delivery/index.md
+  pm: dan_mckean
+  issue_labels:
+    - team/delivery
+
+cloud_saas:
+  title: Cloud
+  product_org: cloud
+  pm: ryan_phillips
+  issue_labels:
+    - team/cloud-saas
+
+cloud_growth:
+  title: Cloud Growth
+  product_org: cloud
+  pm: anna_mikhova
+  issue_labels:
+    - team/cloud-growth
+
+devops:
+  title: DevOps/SRE
+  product_org: cloud
+  pm: bill_creager
+  issue_labels:
+    - team/devops
+
+dev_experience:
+  title: Developer Experience
+  product_org: cloud
+  pm: taylor_sperry
+  issue_labels:
+    - team/dev-experience
+
+frontend_platform:
+  title: Frontend Platform
+  strategy_link: /company/strategy/enablement/frontend-platform
+  product_org: enablement
+  pm: taylor_sperry
+  issue_labels:
+    - team/frontend-platform

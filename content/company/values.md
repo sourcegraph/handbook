@@ -1,6 +1,6 @@
 # Sourcegraph values
 
-These values are the beliefs and principles that help us achieve our [goals](goals/index.md) and [vision](strategy.md#vision) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
+These values are the beliefs and principles that help us achieve our [goals](goals/index.md) and [strategy](../company/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
 
 - [**Be customer driven**](#be-customer-driven): You proactively work on the right things by continuously orienting your goals around delivering value to your customers.
 - [**Work as a team**](#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
@@ -46,7 +46,7 @@ You are responsible for finding out what high-quality work looks like and delive
 
 - If you don’t know what high quality looks like, it's your responsibility to find out (for example, by asking teammates and stakeholders).
 - If you don’t have the time to produce high-quality work, then it's your responsibility to take more time or cut scope (and communicate this), so that you can produce high-quality work.
-- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../people-ops/travel.md#professional-development-and-education), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
+- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../finance/travel.md#professional-development-and-education), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
 - If you need help producing high-quality work, it is your responsibility to get that help.
 
 If we discover that we've produced something that does not meet our quality bar, we'll roll it back (for example, revert a commit, roll back a deployment, or unpublish content) until we can make it high quality. If that's not possible, we'll prioritize improving it.
@@ -119,7 +119,7 @@ You strive to continuously grow and learn.
 Here are some ways that we support learning, teaching, and knowledge-sharing at Sourcegraph:
 
 - We aim to provide a high-quality [onboarding experience](../people-ops/onboarding/index.md) for new teammates by providing them with the learning materials and guidance they need to get started.
-- We have an [education budget](../people-ops/travel.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
+- We have an [education budget](../finance/travel.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
 - We organize occasional hackathons internally, which are opportunities to learn, experiment, and share knowledge.
 - Product and Engineering teams host regular [Demo days](../product/demo_day.md) in which we share progress and learn from each other.
 - We teach each other new things in [Brain food sessions](../communication/index.md#brain-food)

@@ -5,7 +5,7 @@
 ### People Ops team members
 
 - [Debbie Johnstone](../company/team/index.md#debbie-johnstone-she-her), VP of People
-- [Noemi Mercado](../company/team/index.md#noemi-mercado-she-her), Head of People Operations
+- [Noemi Mercado](../company/team/index.md#noemi-mercado-she-her), People Operations Manager
 - [Inés Roitman](../company/team/index.md#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
 - [Cassie Melani](../company/team/index.md#cassie-melani-she-her), Teammate Success Manager
 - [Cecily Black](../company/team/index.md#cecily-black-she-her), People Operations Coordinator
@@ -26,13 +26,15 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 
 **U.S. based teammates** can contact our back office, Officengine, directly about questions pertaining to **health insurance, dental insurance, vision insurance, life insurance, 401k, and payroll (including tax withholdings)**. To do this, use the [Sourcegraph support request](https://docs.google.com/forms/d/e/1FAIpQLSecCNJDd8r26WxjOK0AHIGEV1gfzN_tRdYnXr2heIejLN-BUg/viewform) form to input requests and indicate their urgency. This form feeds into Officengine's ticketing system and alerts their team via email. _Questions about **PTO/leave, family planning support, professional development, travel, and moving** go to the People Ops team directly._
 
-### Meet the Sourcegraph team
+### People Ops frequently asked questions (FAQs)
 
-- [List of all Sourcegraph team members](../company/team/index.md)
+[People Ops FAQs](people-ops-faqs.md)
 
-## Goals
+## Goals & Current Work
 
-WIP
+See People Ops OKRs [here](../company/goals/2022_q3.md#people-ops).
+
+See how we manage project and updates [here](people-ops-project-management.md).
 
 ## Things you need to know about working here
 
@@ -41,7 +43,6 @@ WIP
 - [Are you leaving us?](leaving.md)
 - [How we manage remote work](../company/remote/index.md)
 - [Impact review cycles](impact-reviews.md)
-- Hackathons: We don't have any company-wide hackathons planned. If you want to do one for your team, just propose it and find the right time. (See related "[Innovation time](../engineering/index.md#innovation-time)" for engineering, which could apply to any team if you think it would be good.)
 
 ## What we offer our teammates
 
@@ -49,9 +50,9 @@ WIP
 - [How we structure compensation](compensation/index.md)
   - [How to create an offer](compensation/offers.md)
   - [Equity and stock options FAQ](compensation/equity-faq.md)
-- [Expenses we cover](../finance/spending-company-money.md) (aka "Spending company money")
+  - [Compensation change approvals](compensation/compensation-change-approvals.md)
 - [Benefits and perks we offer](benefits-and-perks.md)
-- [Guidelines for travel](travel.md)
+- [Guidelines for travel](../finance/travel.md)
 - [Paid time off and working hours](paid-time-off-and-working-hours.md)
   - [Submitting time off](submitting-time-off.md)
 - [Bank and public holidays](holidays.md)
@@ -68,30 +69,12 @@ WIP
 - [Mental health and wellness initiatives](mental-health.md)
 - [Modern Health](modern-health.md)
 
-## Manager training and development
+## Manager resources
 
-This section will soon contain [training resources for our managers](https://handbook.sourcegraph.com/company/goals/2022_q3#people-ops) to help them understand how to develop their teams, give coaching and feedback, and navigate the challenging situations that come up in teams. More coming soon!
+This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](../company/goals/2022_q3.md#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
 
 - [Manager accounts guide](manager-guide.md)
 
-## Other policies
+- [Compensation change approvals](compensation/compensation-change-approvals.md)
 
-- [Anti-corruption/anti-bribery](anti-corruption.md)
-
-## General office information
-
-### Business address and contact information
-
-**Address (for mail):** 548 Market St PMB 20739, San Francisco, CA 94104-5401
-
-**Address (for contracts, paperwork, and corporate card billing):** Trellis Coworking: 981 Mission St, San Francisco, CA 94103
-
-**Phone Number:** (650) 273-5591
-
-**DUNS Number:** 117775232
-
-**Tax ID:** For the Tax ID, refer to [Sourcegraph W9](https://drive.google.com/file/d/1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW/)
-
-**NAICS code:** 541512
-
-**SIC code:** 7373
+  - [How to notify People Ops of an org and role change section](manager-guide.md##how-to-notify-people-ops-of-an-org-and-role-change)

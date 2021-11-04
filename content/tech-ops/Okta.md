@@ -14,7 +14,7 @@ Okta is an Identity and Single Sign-On (SSO) solution for applications and Cloud
 
 #### Current implementation status
 
-Please see our [Okta Project Plan] (https://docs.google.com/spreadsheets/d/1T7PUK4J94KgkW18cyjCBQZEkmVhFSDigRC8nuMV2EGU/edit?usp=sharing) for relevant timelines on app-specific and team-specific Okta integrations.
+Please see our [Okta Project Plan](https://docs.google.com/spreadsheets/d/1T7PUK4J94KgkW18cyjCBQZEkmVhFSDigRC8nuMV2EGU/edit?usp=sharing) for relevant timelines on app-specific and team-specific Okta integrations.
 
 You should have received an activation email, if you haven’t please let #it-tech-ops know and we can resend the invite.
 
@@ -62,7 +62,14 @@ For YubiKey set up:
 There is a "need help signing in?" button on the login screen. If you expand this there is a link to an automated password reset process via email.
 We recommend that you store your Okta password in 1Password as well as your Security Questions there.
 
-If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password: Go to the our [Sourcegraph Okta Login page](https://www.sourcegraph.okta.com) > Forgot Password > enter your personal email address > Resset via Email https://sourcegraph.okta.com/signin/forgot-password
+If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password:
+
+1. Go to the our [Sourcegraph Okta Login page](https://www.sourcegraph.okta.com)
+2. [Forgot Password](https://sourcegraph.okta.com/signin/forgot-password)
+3. Enter your personal email address
+4. Reset via Email
+5. Go to your personal email account
+6. Follow the directions from Okta for resetting you password
 
 ## I forgot my Security Questions, how do I reset my password?
 
@@ -72,7 +79,7 @@ Ask #it-help-ops for a temporary password to be issued. You will be given a temp
 
 No worries! You can easily reset your own MFA code for Okta if you did not wipe/return your old phone yet.
 
-1. Sign in to your Okta webpage by going to <https://www.sourcegraph.okta.com)> on your old phone
+1. Sign in to your Okta webpage by going to <https://www.sourcegraph.okta.com> on your old phone
 2. Use your email, password, and the MFA code on your old phone
 3. Once you're on the Okta webpage click on your name and then click settings
 4. Scroll down until you see "Extra Verification", once you're there click "remove" to disable that instance of Okta Verify

@@ -30,6 +30,7 @@ The following targets and actions are out-of-scope:
 - Social engineering against Sourcegraph users and employees
 - Denial of Service
 - Credential Stuffing
+- SPF/DMARC reports
 - Spamming
 
 **Categories**

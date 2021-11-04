@@ -39,23 +39,30 @@ We welcome your feedback and suggestions via any of the channels above.
 
 To direct your contracts to the right team or teammate to review, approve, and sign, click [here](Contract%20Review%20and%20Signature%20Authority%20Policy.md).
 
+## Legal training
+
+Legal training for managers on performance management
+
+- [Video](https://drive.google.com/file/d/1EMACLoxWxjRCw1iKUizkaU26xBrsQ7rx/view?usp=sharing)
+- [Slides](https://drive.google.com/file/d/1-BDwOV8I4a2dGUhxClCi9we-CbHln7aJ/view?usp=sharing)
+
 ## Outside counsel
 
-Before reaching out to our outside counsel, check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
+Before reaching out to our [outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing), check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
 
 ## What are we up to? FY'22 goals
 
 Objective 1: Enable the business to achieve its growth targets by managing an efficient contracting process while protecting the company
 
 - Turnaround 100% of customer contract reviews within 5 business days
-- Increase use of online terms by making our online terms more mutual
+- Increase use of online terms by making our online terms more mutual ✅
 - Establish a clear and efficient process for vendor contract reviews in partnership with Finance and other business stakeholders
-- Make signing Sourcegraph’s form NDA easier for customers and other third parties by setting up a Docusign PowerForm
+- Make signing Sourcegraph’s form NDA easier for customers and other third parties by setting up a Docusign PowerForm ✅
 - Deliver legal enablement trainings proactively on an as-needed basis
 
 Objective 2: Enable the company and its managers to provide teammate experiences that respect teammates’ rights
 
-- Deliver employment legal enablement training to all managers annually or as part of their onboarding process
+- Deliver employment legal enablement training to all managers annually or as part of their onboarding process ✅
 - Build a user-friendly code of conduct that accounts for frequently asked questions by teammates in collaboration with People team, including whistleblower and anti-bribery policies
 - Notify all teammates of their privacy rights in a privacy notice
 - Provide legally compliant offer letters and consulting agreements, compensation plans, and separation agreements
@@ -75,6 +82,6 @@ Objective 4: Enable the company to grow responsibly
 
 Objective 5: Enable the business to make informed decisions about IP strategy
 
-- Help the business weigh ways to protect against patent trolls and other infringement suits
-- Keep the business informed about open source license rights and risks
+- Help the business weigh ways to protect against patent trolls and other infringement suits ✅
+- Keep the business informed about open source license rights and risks ✅
 - Provide a well-managed trademark registration program

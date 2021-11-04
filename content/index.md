@@ -13,7 +13,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [All-remote](company/remote/index.md)
 - [Asynchronous communication](company/asynchronous-communication.md)
-- [Strategy](company/strategy.md)
+- [Strategy](company/strategy/index.md)
 - [Goals](company/goals/index.md)
 - [Team](company/team/index.md)
   - [Org chart](company/team/org_chart.md)
@@ -23,6 +23,9 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Communication](communication/index.md)
   - [Content guidelines](communication/content_guidelines/index.md)
 - [Customer-first](company/customer-first.md)
+- [General office information](company/general-office-info.md)
+- [Community](community/index.md)
+- [Leadership](leadership/index.md)
 
 ## Teams at Sourcegraph
 
@@ -34,7 +37,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Product](product/index.md)
 
-- [Direction](direction/index.md)
+- [Strategy](company/strategy/index.md)
 - [Product](product/index.md)
   - [Product Management](product/product_management/index.md)
   - [Product Design](product/design/index.md)
@@ -54,9 +57,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Product Marketing](marketing/product-marketing/index.md)
 - [Content Marketing](marketing/content/index.md)
-  - [Editorial](marketing/content/editorial.md)
+  - [Editorial](marketing/content/editorial/index.md)
   - [Creating and editing blog posts](marketing/content/creating_blog_posts.md)
-  - [Blog Hackathon](marketing/content/blog_hackathon.md)
+  - [Blog Hackathon](marketing/content/editorial/blog_hackathon.md)
 - [Demand Gen](marketing/demand-gen/index.md)
 - [Developer Education](marketing/education/index.md)
 - [Brand](marketing/brand/index.md)

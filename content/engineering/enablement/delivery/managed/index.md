@@ -8,11 +8,17 @@ Please first read [the customer-facing managed instance documentation](https://d
   - [Deployment type and scaling](#deployment-type-and-scaling)
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
   - [Security](#security)
+  - [Access](#access)
 - [Cost estimation](cost_estimation.md)
+- [Requesting a managed instance](#requesting-a-managed-instance)
 - [Creating a managed instance](creation_process.md)
 - [Managed instances operations](operations.md)
 - [Upgrading a managed instance](upgrade_process.md)
 - [FAQ](#faq)
+
+## Requesting a managed instance
+
+After [determining a managed instance is what a customer/prospect wants](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo in order to start the setup process for the customer/prospect.
 
 ## Technical details
 
@@ -43,6 +49,14 @@ See also: [Dev FAQ: Why did we choose Docker Compose over Kubernetes deployments
 - **VM/SSH access**: Only Sourcegraph personnel will have access to the actual GCP VM, this is done securely through GCP IAP TCP proxy access only. Sourcegraph personnel can make changes or provide data from the VM upon request by the customer.
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
 - **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
+
+### Access
+
+- To perform the steps outlined in these docs you will need to be a member of:
+  - The google group [gcp-managed](https://groups.google.com/a/sourcegraph.com/g/gcp-managed/members)
+  - 1Password Vaults `Customer managed instances` & `Internal managed instances`
+
+Access can be requested in #it-tech-ops WITH manager approval.
 
 ### Configuration management
 

@@ -88,35 +88,53 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:
 
-## Extending an offer
+## Creating an offer
 
 - Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
   - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
+- Recruiter [creates an offer in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer)
+- Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
 - Recruiter submits offer for approval in Greenhouse.
-  - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
+  - Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
+
+## Extending an offer
+
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
   - Attendees: Recruiter, Hiring Manager, Candidate.
-  - Prior to the call, Recruiter drafts an Offer Summary and sends to VP Talent and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
-  - Agenda: 1. the Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them 2. the Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity 3. the Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity.
-  - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and 2) schedule a follow up call to answer any questions.
-- Following the offer call, Recruiter sends the offer summary to the candidate in an email.
+- Prior to the call, Recruiter generates the correct Offer Summary document in Greenhouse, downloads the document, and sends to VP Talent and/or Director, Technical Recruiting and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
+- Agenda:
+  - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them
+  - The Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity
+  - Tthe Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity
+  - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and schedule a follow up call to answer any questions.
+- Following the offer call, Recruiter sends the offer summary to the candidate in an email with Hiring Manager cc'ed.
 - To send an official offer, the Recruiter
-  - 1.  updates the offer approval with the accurate start date
-  - 2.  tags the VP Talent and the Recruitment Operations Specialist in the notes section: "@Carly @Trevor please send this [US/Non-US] offer letter"
+  - Updates the offer approval with the accurate start date
+  - Tags the VP Talent and the Recruitment Operations Specialist in the Talent Offers Slack channel: "@VP Talent @Recruitment Operations Specialist please send this [US/Non-US] offer letter. Open Date: ** Source: ** "
 - The official offer is sent to the candidate via Docusign.
 
 ## After the offer
 
 - After the candidate signs the offer, the Recruiter sends a welcome email to the candidate and Cc's the Hiring Manager.
 - The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
-- The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Ines, VP of Talent, and Hiring Manager, and exports the candidate to Bamboo.
+- The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Onboarding Email, Hiring Manager, VP Talent and Talent Team Manager (if applicable), and exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
 
 ## LinkedIn posting best practices
 
-It is much better to copy and paste the entire post and then give the author credit by tagging them. Long story short, avoid resharing and copy/paste instead.
+Instead of resharing a post, it is much better to copy and paste the entire post and then give the author credit by tagging them.
 
 Avoid including links directly in your posts. Anything that takes the user away from LinkedIn is discouraged... so instead, add the link as a comment.
 
+If you're looking for Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
+
+Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. Thank you for helping us attract and hire the best talent!
+
 [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
+
+## Sourcing Outreach Best Practices
+
+Our goal is drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
+
+[Here's](https://docs.google.com/presentation/d/1cwPWbk_w2uRWsz_DuUJy_Jz_pVuSpM6pmZnfPU6cf4c/edit#slide=id.p2) a guide on creating a Recruiting Outreach Campaign.

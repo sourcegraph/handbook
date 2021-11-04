@@ -45,10 +45,14 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
   - [Interview process for each department](interview_process.md)
 - The hiring team (including the Recruiter, Hiring Manager, and all other interviewers) debriefs and makes final hiring decision.
   - This can be done in a synchronous fashion via a debrief Zoom meeting, or asynchronously via Slack.
+  - Hiring Managers are responsible for communicating your hiring decisions to the rest of the interview team to stay informed and calibrate for future hiring decisions.
+    - Post your note in the private Slack channel for the role.
+    - Your note should provide context for why we've decided to hire someone, or why we've decided _not_ to hire someone.
+    - Once it's been posted in Slack, paste your note into Greenhouse so it lives on the candidate page forever.
 
 ### 3. Offer stage
 
-- Once finalist is identified, Recruiter completes references.
+- Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
   - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
 - Recruiter submits offer for approval in Greenhouse.
@@ -106,10 +110,6 @@ Please put your written feedback into Greenhouse as soon as possible following t
 All feedback must be submitted in Greenhouse before discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
 We want to ensure that teammates score candidates in a consistent fashion which is why we have [definitions](./interview_process.md#providing-interview-feedback) for what the following ratings mean: 1. Strong yes 2. Yes 3. No 4. Strong no.
-
-## Interview debriefs
-
-We conduct debriefs after a candidate finishes interviews. The debrief can either take place via a private Slack channel or via a Zoom debrief meeting. Should the hiring manager decide to not need a debrief (e.g. the feedback was overwhelmingly positive or negative), the hiring manager should post to the candidate’s Greenhouse profile stating the reason and/or context for the decision.
 
 ## Scheduling
 

@@ -26,7 +26,7 @@ In addition to on-the-job training, we offer a $1,000 yearly stipend for educati
 
 ### ✈️ Travel
 
-We have generous [company, team, and individual travel budgets](travel.md) to encourage you to connect face to face with your teammates regularly.
+We have generous [company, team, and individual travel budgets](../finance/travel.md) to encourage you to connect face to face with your teammates regularly.
 
 ### 🌐 Internet
 
