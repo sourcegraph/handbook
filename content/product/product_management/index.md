@@ -20,15 +20,20 @@ Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) tha
 
 In addition to this shared content, each team has a set of sources of truth (that do not overlap) that they should update regularly:
 
+#### OKR and roadmap tracking
+
+We have a [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/1) (internal only) in GitHub. Each month you should work with your engineering manager to update this content, which is the source of truth for goal and roadmap tracking.
+
+After updating this content, you should ensure it is reflected in the manually created slide decks which rely on this information:
+
+- The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which contains upcoming and recently launched important customer-facing features from the OKR and roadmap tracker.
+- The [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only) contains status information on key accounts.
+
 #### Per-area strategy pages
 
-We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) to communicate where each of our product teams is headed, for the areas of the product that they work on. Newly created teams should begin documenting the scope of their team as well as their mission, vision, principles, and more by creating one of these pages as part of the process of forming. Having a page like this will help you ensure your own framework for prioritization is clear, and can also be a resource for those outside your team who want to understand why you are working on what you are.
+We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) to communicate where each of our product teams is headed beyond the near-term roadmap, for the areas of the product that they work on. Newly created teams should begin documenting the scope of their team as well as their mission, vision, principles, and more by creating one of these pages as part of the process of forming. Having a page like this will help you ensure your own framework for prioritization is clear, and can also be a resource for those outside your team who want to understand why you are working on what you are.
 
 These are updated monthly by each team, but wouldn't normally change too much each month. They are updated via a pull request, that anyone on the team can contribute to, and that can be shared with stakeholders as a summary of the change.
-
-#### PMM Roadmap slides
-
-In addition to updating the strategy pages monthly, at the same time the team should also update the [PMM roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which contains upcoming important customer-facing features.
 
 #### Product data
 
