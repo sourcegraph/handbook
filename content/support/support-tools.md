@@ -139,6 +139,8 @@ When you close a ticket, these are the required fields you must populate:
 
 - **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to our OKRs to improve our docs.
 - **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion.
+- **Have you written a case summary?** Holds the team accountable for populating the [resolved case database](zendesk-ticket-exporter.md)
+- **Have you uploaded the summary to the GitHub repository?** Holds the team accountable for populating the [resolved case database](zendesk-ticket-exporter.md)
 - **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 - **Official type:** Designates whether this is a question, defect report, or help request
 - **Official priority:** Designates whether the priority is p1 or p2 per our definitions outlined in our [prioritization guidelines](support-prioritization.md).
