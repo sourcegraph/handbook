@@ -1,11 +1,22 @@
 # Extensibility team
 
-The extensibility team owns our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions).
+The extensibility team owns our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions). Our mission is to bring the value of Sourcegraph to everywhere you work with code and to bring the value of other developer tools into Sourcegraph.
 
 ## Members
 
 <section>
   <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-sky-blue.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">We're Hiring!</a></div>
+        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">Product Manager</a></div>
+      </div>
+    </div>
     <div class="col" style="flex: 1;">
       <div>
         <div>
@@ -76,19 +87,14 @@ The extensibility team owns our code host and third-party integrations (includin
   </div>
 </section>
 
-## Pages
+## Important Links
 
 - [Processes](processes.md)
 - [Goals](../../../company/strategy/cloud/extensibility/index.md)
-- Product docs
-  - [Browser Extensions](https://docs.sourcegraph.com/integration/browser_extension)
+- Products
+  - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
-  - [IDE Extensions](https://docs.sourcegraph.com/integration/editor)
-  - [Code host integrations](https://docs.sourcegraph.com/integration)
-
-## Mission
-
-Our mission is to bring the value of Sourcegraph to everywhere you work with code and to bring the value of other developer tools into Sourcegraph.
+  - [IDE Extensions](ide-extensions/index.md)
 
 ## Vision
 
@@ -107,9 +113,9 @@ _The extensibility team has many ownership areas, but not all of them are under 
    - Build and maintain useful Sourcegraph extensions.([Sourcegraph-maintained extensions](https://docs.sourcegraph.com/dev/background-information/sourcegraph_extensions); [video demos](https://www.youtube.com/watch?v=en9kmvPqpIU&list=PL6zLuuRVa1_gYlZ0H4O0MbJ0Pi7ugH63s)).
    - Documentation and tutorials that enable third-party developers to create actively useful extensions.
    - Building and maintaining the extensions registry, discovery paths, and extensions developer toolsets, to create an ecosystem around Sourcegraph extensions.
-1. Code host integrations
+1. [Code host integrations](https://docs.sourcegraph.com/integration)
    - Add native support for Sourcegraph in code hosts (for example: [GitLab native integration](https://docs.sourcegraph.com/integration/gitlab#gitlab-ui-native-integration)) when possible, so all users of a Sourcegraph instance can get features like code intelligence on their code host without individual setup.
-1. Browser extensions
+1. [Browser extensions](browser-extensions/index.md)
    - Develop and maintain [browser extensions](https://docs.sourcegraph.com/integration/browser_extension) that surface code intelligence and other Sourcegraph features on code hosts (for example: Github).
 1. IDE and other third-party code view integrations
    - Develop and maintain IDE integrations that bring Sourcegraph functionality right to your IDE

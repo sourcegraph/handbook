@@ -86,30 +86,7 @@ We are in a candidate driven market. Candidates have many different opportunitie
 - Please fill out your Greenhouse Scorecard following the interview.
 - To ensure that bias doesn't impact your decision-making, please be sure to fill out your scorecard before discussing with anyone.
 - To learn more about providing feedback, [click here](../interview_process.md#providing-interview-feedback).
-
-# Best Practices
-
-![Image showing the Interview Funnel of asking an open ended question, listening,narrowing down to a specific area, listening, and discovering the candidate's motivations and achievements, then summarizing it back to them and seeking agreement](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20-%20best%20practices.png)
-
-All questions that we ask in the Values Interview should start with “Tell me…” to ensure they are open-ended and prevent a “yes” or “no” answer. We use the interview funnel for each question, as follows: we start with an open ended question, narrow down to a specific area and listen for how the candidate goes about it, discover the candidate’s motivations, listen for the candidate’s achievements, then summarize the answer back to the candidate and seek agreement (see chart).
-
-**Best practices:**
-
-- We may need to dig deeper and drill down to determine whether candidates embody a specific value, but interviewers can still phrase questions as “tell me”
-- Remind candidates that they can pause if they need to think of an example
-- If you notice that a candidate is getting nervous, it’s okay to say, “take a breath, take a pause, it is just as important for you to ask me questions and it is for me to ask you”
-
-If you ask a candidate to tell you a problem that they identified and then took the initiative to solve, and the candidate says, “the problem was that things were falling through the cracks” and then stops - we’re not going to be able to walk away from that answer thinking that they nailed it or failed it. Interviewers are going to need to dig deeper. Think about using the “tell me about” phrasing as a way to drill down to get to the root of the answer. To follow up on that answer, you could say, “tell me, how did you identify that things were falling through the cracks? Tell me, why was that a problem? Tell me, what did you do to fix that problem? Tell me, what initiative did you take?”
-
-Whatever it takes to drill down to actually get an answer that allows you to confidently determine that they either embody a particular value or they do not. Those follow up questions are not scripted and it’s where interviewers will need to be mindful of the legal training. For example, you should avoid saying, “tell me how your outside hobbies affected your ability to solve this problem of things slipping through the cracks.”
-
-What if we are interviewing candidates who are early in their career and do not have specific work examples? We recommend that you leave it open ended, but you can advise them to use examples from internships or college to draw upon.
-
-One of ​​Sourcegraph’s values is to be “customer driven.” Candidates early in their career who haven't had a job may not understand what that means. For example, recruiters technically don't deal with our external customers, but they consider every single team member at Sourcegraph to be their internal customers. We can phrase that question to candidates early in their career as, “maybe your internal customer at the time who you were delivering something to was your professor? What problem did they pose to you and what did you do about it?” As we look to formulate these questions, we're going to make sure that they are applicable to a diverse background pool, not just people who are dealing with external customers or who have had robust work experience.
-
-I also like to remind my candidates that this is not a marathon. They should take a pause and think about their answer. I've been a candidate, too, and sometimes you just want to answer everything and not take your time to think about it. If I notice that a candidate is getting nervous or starting to slip up on their words, it is perfectly fine to say, “I want you to take a breath and take a pause. This is just a conversation, and it is equally as important for you to ask me questions and get to know me. So please take a second and feel free to regroup.” Often candidates are able to decompress and calm down and they end up doing great.
-
-[Here](https://app4.greenhouse.io/plans/4005818004/process/edit_) is an example of Nick’s interview plan for the Director of Engineering role. This gives you a glimpse into what it looks like on the backend for a hiring manager to establish a set of structured interview questions so we are set up for success. In this example, every step of the process has focus attributes and interview questions. This is what is going to guide our interviewers every step of the way. This is a great example of what a thoughtful and well built out plan looks like. It will allow every candidate that goes through the process to have a standardized, streamlined, consistent, and fair process.
+- For Best Practices, [click here](../interview_training.md#end-of-interview---answer-questions--rapport-build).
 
 # Resources for recruiters
 

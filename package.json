@@ -17,7 +17,8 @@
     "prettier-check": "yarn -s run prettier --write=false",
     "eslint": "eslint 'src/**/*.?(m)[jt]s?(x)'",
     "test": "echo \"it works fine on my computer\" && exit 1",
-    "copy-assets": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node src/scripts/copy-assets.ts"
+    "copy-assets": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node src/scripts/copy-assets.ts",
+    "validate-data": "find data -name *.yml | sed -E \"s/data\\/(.*).yml/\\1/\" | xargs -I '{}' ajv -d data/{}.yml -s schema/{}.schema.json --errors=text"
   },
   "repository": {
     "type": "git",
@@ -116,8 +117,9 @@
     "@sourcegraph/prettierrc": "^3.0.3",
     "@sourcegraph/tsconfig": "^4.0.1",
     "@types/line-column": "1.0.0",
-    "@types/react": "17.0.33",
+    "@types/react": "17.0.34",
     "@types/relateurl": "0.2.29",
+    "ajv-cli": "^5.0.0",
     "chalk": "^4.1.2",
     "eslint": "^7.32.0",
     "line-column": "^1.0.2",

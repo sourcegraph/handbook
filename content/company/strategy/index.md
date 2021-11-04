@@ -36,7 +36,7 @@ Our [goals](../goals/index.md) describe what each of us is working toward now (s
 
 Our [values](../values.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
 
-### Principles
+## Principles
 
 - Sourcegraph is universal code search, not universal "everything" search. Any additional data types in our search need to be relevant to the software development workflow.
 - We want every developer, not just a specific niche audience, to use Sourcegraph.
@@ -68,14 +68,14 @@ Additionally, our [product design principles](../../product/design/product_desig
 - **Create momentum**<br />
   Help developers create and maintain flow. To do this, Sourcegraph must be fast in every way. We design purposefully to help users iterate and build momentum.
 
-### Assumptions
+## Assumptions
 
 - Sufficiently good code search will be useful to every developer many times per day (on average). It may take a while to convert any specific person into a frequent code search power user, but it will happen eventually.
 - Code search that is _exclusively_ for public/open-source code is not actually that useful because most people spend most of their time working on their organization's internal code.
 - Any given developer will only pick one code search tool to use. Any given company will standardize on a single code search tool.
   - Therefore, to avoid fragmentation, Sourcegraph should be not only _much_ better than the alternatives, but also _not worse_ in any significant way.
 
-### Pricing
+## Pricing
 
 - Trying Sourcegraph (to prove it works and is valuable) is free and (if you want) self-service.
 - If your organization is getting value from Sourcegraph with a lot of users, our [pricing](https://about.sourcegraph.com/pricing) is designed so that we earn money from you. This lets us invest in improving our product.

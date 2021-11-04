@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "product_area": {
+        "type": "string"
+      },
+      "maturity": {
+        "type": "string",
+        "enum": ["ga", "partial_ga", "beta", "experimental", "not_implemented", "deprecated"]
+      },
+      "documentation_link": {
+        "type": "string"
+      },
+      "compatibility": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "boolean"
+        }
+      }
+    },
+    "required": ["title", "product_area", "maturity"]
+  }
+}

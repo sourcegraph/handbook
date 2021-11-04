@@ -26,6 +26,7 @@ We are committed to learning in an open and transparent way from this incident. 
 - Introduce a rollout process for our extensions (browser, IDE, etc). This process is defined for [our core-sourcegraph releases](../../product/product_management/rollout_process.md), but not yet defined for extensions.
 - Create a privacy working group within Sourcegraph to identify additional measures our teams can take to ensure the privacy of our customers is maintained.
 - Introduce security and privacy trainings for all new and existing engineers at Sourcegraph.
+- Log extension versions so an admin can easily determine which user is using what version
 
 #### Engineering Tooling/Testing:
 

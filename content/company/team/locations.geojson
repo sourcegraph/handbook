@@ -1276,6 +1276,19 @@
           37.8639447129692
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Jeff Warner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.990250,
+          39.739235
+        ]
+      }
     }
   ]
 }
