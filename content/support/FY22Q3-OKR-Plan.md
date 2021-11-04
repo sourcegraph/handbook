@@ -2,19 +2,19 @@
 
 In support of our product/engineering Q3 objective (see all OKRs [here](../company/goals/2022_q3.md) to _Make cloud and enterprise successful at massive scale_, one way we will measure our success in achieving this goal is for the **Customer Support team to maintain 100% support issue resolution within 7 days while only requiring help (filing a #rfh Github issue) on 10% (measured weekly looking at last 30 days)**. To accomplish this, we will…
 
-| #   | Status      | Responsible | Project                                                                                                         |
-| --- | ----------- | ----------- | --------------------------------------------------------------------------------------------------------------- |
-| 1   | 🚫 | Warren      | Add `src debug` command to `src-cli`                                                                            |
-| 2   | 🚫 | All CS      | Make at least 45 doc updates/additions across the team                                                          |
-| 3   | 🚫 | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                                      |
-| 4   | ✅ | Adeola      | Create [cheat sheets](../../support/debugging-cheat-sheet.md) of what logs are most needed in certain situations                                          |
-| 5   | ✅   | Beatrix     | Make the [command generator](https://command-generator.netlify.app/) customer-facing and scalable               |
-| 6   | ✅ | Michael     | Create [a database type solution](../../support/zendesk-ticket-exporter) to make it easy and reliable for application engineers to learn from past tickets |
-| 7   | 🚫 | Alex        | Streamline key steps in CS workflow                                                                             |
-| 8   | 🚫 | Carl        | 5 folks complete kubernetes certification                                                                       |
-| 9   | 🚫 | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                                  |
-| 10  | 🚫 | Virginia    | Provide enablement in how to navigate difficult conversations with customers                                    |
-| 11  | ✅ | Adeola      | [CS Onboarding updates V3](../../support/cs-onboard-mentor)                                                                                        |
+| #   | Status | Responsible | Project                                                                                                                                                    |
+| --- | ------ | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 🚫     | Warren      | Add `src debug` command to `src-cli`                                                                                                                       |
+| 2   | 🚫     | All CS      | Make at least 45 doc updates/additions across the team                                                                                                     |
+| 3   | 🚫     | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                                                                                 |
+| 4   | ✅     | Adeola      | Create [cheat sheets](../../support/debugging-cheat-sheet.md) of what logs are most needed in certain situations                                           |
+| 5   | ✅     | Beatrix     | Make the [command generator](https://command-generator.netlify.app/) customer-facing and scalable                                                          |
+| 6   | ✅     | Michael     | Create [a database type solution](../../support/zendesk-ticket-exporter) to make it easy and reliable for application engineers to learn from past tickets |
+| 7   | 🚫     | Alex        | Streamline key steps in CS workflow                                                                                                                        |
+| 8   | 🚫     | Carl        | 5 folks complete kubernetes certification                                                                                                                  |
+| 9   | 🚫     | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                                                                             |
+| 10  | 🚫     | Virginia    | Provide enablement in how to navigate difficult conversations with customers                                                                               |
+| 11  | ✅     | Adeola      | [CS Onboarding updates V3](../../support/cs-onboard-mentor)                                                                                                |
 
 ## Task details
 
@@ -103,11 +103,11 @@ Given that we finished onboarding 10 new members of the team, as well as started
 
 Here are a few things the team will be able to use in Q4 to continue working toward our definitions of support and also realize our [Q4 OKR](../../support/fy22q4-okr-plan):
 
-1. A [cheat sheet](../../support/debugging-cheat-sheet.md) of what logs are most needed in certain situations   
+1. A [cheat sheet](../../support/debugging-cheat-sheet.md) of what logs are most needed in certain situations
 2. A customer-facing and scalable [command generator app](https://command-generator.netlify.app/)
 3. [Onboarding improvements](../../support/cs-onboard-mentor)
 4. And the pièce de résistance, [a database of resolved tickets](../../support/zendesk-ticket-exporter) using the power of Sourcegraph (aka an entire new use case for our product!)
 
-Finally, not related to our OKRs or definitions of success, Q3 also saw two members of the team accept offers to move into dev teams. You know the support team is respected when moves like this start happening. 
+Finally, not related to our OKRs or definitions of success, Q3 also saw two members of the team accept offers to move into dev teams. You know the support team is respected when moves like this start happening.
 
-It's been another good quarter with lots of growing, learning, and getting there. 
+It's been another good quarter with lots of growing, learning, and getting there.
