@@ -33,7 +33,6 @@ After updating this content, you should ensure it is reflected in the manually c
 
 We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a framework for each team's prioritization, to document the trade-offs between goals the teams are making, and to communicate where they are headed in the longer term not in terms of specific deliverables but in terms of strategy. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
 
-
 #### Product data
 
 The last thing teams should review and update monthly are the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/), in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [feature reference pages](../index.md#feature-reference).
