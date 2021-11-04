@@ -77,6 +77,7 @@ Getting started pages are presented to viewers of major Sourcegraph feature page
 The following rules should be applied when selecting the page to display to users:
 
 - If the user has not seen the feature, the feature should display the getting started page
+- If the user has not seen the feature but there is content available in this section, a modified getting started page should be displayed
 - If the user has seen the feature and there is content in the section, the page should display the index of feature content
 - If the user has seen the feature and there is no content in the section, the getting started page will display
 - If the feature is not available in the instance, it will display for all users at all times
