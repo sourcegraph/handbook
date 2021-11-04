@@ -101,7 +101,7 @@ During Q3, we averaged resolution time of 7.5 days and engaged engineering 13% o
 
 Given that we finished onboarding 10 new members of the team, as well as started to onboard 3 new managers on the team, our performance for Q3 is nothing to balk at. It is performance we can be proud of. We may not be where we want to be just yet, but we are so close and it's ours to have in Q4. Additionally, we made 29 doc updates -- not the 45 we thought might be possible, it's more than double the 11 updates we did the quarter prior.
 
-Here are a few things the team will be able to use in Q4 to continue working toward our definitions of support and also realize our [Q4 OKR](fy22q4-okr-plan.md):
+Here are a few things the team will be able to use in Q4 to continue working toward our definitions of support and also realize our [Q4 OKR](FY22Q4-OKR-Plan.md):
 
 1. A [cheat sheet](debugging-cheat-sheet.md) of what logs are most needed in certain situations
 2. A customer-facing and scalable [command generator app](https://command-generator.netlify.app/)
