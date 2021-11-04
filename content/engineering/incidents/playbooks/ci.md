@@ -174,10 +174,10 @@ This page lists common failures scenarios and provide a step by step guide to ge
 #### Actions
 
 1. Immediately restart the faulty step.
-  - 💡 It will save you time while you're looking at the logs.
-  - Is the step passing now?
-    - **Yes**: See [Spotted a flake scenario](#spotted-a-flake)
-    - **No**: Give it another try, and see next point.
+    - 💡 It will save you time while you're looking at the logs.
+    - Is the step passing now?
+      - **Yes**: See [Spotted a flake scenario](#spotted-a-flake)
+      - **No**: Give it another try, and see next point.
 1. Check on [Grafana](https://sourcegraph.grafana.net/explore?orgId=1&left=%5B%22now-12h%22,%22now%22,%22grafanacloud-sourcegraph-logs%22,%7B%22refId%22:%22A%22,%22expr%22:%22%7Bapp%3D%5C%22buildkite%5C%22%7D%22%7D%5D) if there are any occurrences of the failures that were previously observed:
   1. Go the the "Explore" section
   1. Make sure to select `grafanacloud-sourcegraph-logs` in the dropdown at the top of page.
