@@ -28,10 +28,6 @@ This is a new game. Companies that master this will thrive. Companies that don't
 
 To make it so [everyone can code](#purpose), we will create tools, networks, and incentives for coding at ever-larger scale.
 
-## Goals
-
-Our [goals](../goals/index.md) describe what each of us is working toward now (so that we succeed in our long-term mission).
-
 ## Values
 
 Our [values](../values.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
@@ -186,7 +182,7 @@ Coding itself is a technology, and we anticipate the technology adoption curve w
 
 ## Per-area strategy pages
 
-Within this overall product strategy, individual product areas set their own goals and roadmaps aligned to the [company OKRs](../goals/2022_q3.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
+Within this overall product strategy, individual product areas set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
 ### [Code Graph](code-graph/index.md)
 
