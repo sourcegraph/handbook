@@ -6,7 +6,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../compa
 | --- | ------ | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | 🚫     | Warren      | Add `src debug` command to `src-cli`                                                                                                            |
 | 2   | 🚫     | All CS      | Make at least 45 doc updates/additions across the team                                                                                          |
-| 3   | 🚫     | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                                                                      |
+| 3   | ✅     | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                                                                      |
 | 4   | ✅     | Adeola      | Create [cheat sheets](debugging-cheat-sheet.md) of what logs are most needed in certain situations                                              |
 | 5   | ✅     | Beatrix     | Make the [command generator](https://command-generator.netlify.app/) customer-facing and scalable                                               |
 | 6   | ✅     | Michael     | Create [a database type solution](zendesk-ticket-exporter.md) to make it easy and reliable for application engineers to learn from past tickets |
@@ -104,7 +104,7 @@ Given that we finished onboarding 10 new members of the team, as well as started
 Here are a few things the team will be able to use in Q4 to continue working toward our definitions of support and also realize our [Q4 OKR](FY22Q4-OKR-Plan.md):
 
 1. A [cheat sheet](debugging-cheat-sheet.md) of what logs are most needed in certain situations
-2. A customer-facing and scalable [command generator app](https://command-generator.netlify.app/)
+2. A customer-facing and scalable [command generator app](https://sourcegraph.github.io/support-generator/)
 3. [Onboarding improvements](cs-onboard-mentor.md)
 4. And the pièce de résistance, [a database of resolved tickets](zendesk-ticket-exporter.md) using the power of Sourcegraph (aka an entire new use case for our product!)
 
