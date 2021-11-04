@@ -1,6 +1,6 @@
 # User metrics definitions
 
-We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (visitor experience aha! moment), and retention (user remains active).
+We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (visitor experiences habit creation), and retention (user remains active).
 
 ## User states
 
@@ -8,21 +8,21 @@ People using Sourcegraph can be segmented into a number of different states, the
 
 | Metric      | Description                                                      | Cloud | On-prem | Pings data point |
 | ----------- | ---------------------------------------------------------------- | ----- | ------- | ---------------- |
-| [Visitor](#what-is-a-visitor)     | Anyone who accessed the product                                  | ✔️    |         | user_count |
-| [Active]((#what-is-an-active-user)) | Users who performed a qualifying activation event (see below) | ✔️    | n/a      | n/a |
-| Activated | Users who have completed a specific series of actions that indicate they have developed the habit  | ✔️    | n/a      | n/a |
-| Registered  | A user with a created an account                                 | ✔️    | ✔️        | registered_user |
-| Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      | retained_users |
-| Churned     | Users who were active last month but not this month              | ✔️    | ✔️      | churned_users | 
-| Resurrected | Users who were _not_ active last month but are active this month | ✔️    | ✔️      | resurrected_users |
-| Created     | Users whose account was created this month                       | ✔️    | ✔️      | created_users |
-| Deleted     | Users whose account was deleted this month                       | ✔️    | ✔️      | deleted_users |
+| [Visitor](#visitor)     | Anyone who accessed the product                                  | ✔️    |         | ```site_activity.MAU.UserCount``` |
+| [Active](#active-user) | Users who performed a qualifying activation event (see below) | ✔️    | n/a      | n/a |
+| [Activated](#activated-user) | Users who have completed a specific series of actions that indicate they have developed the habit  | ✔️    | n/a      | n/a |
+| [Registered](#registered-user)  | A user with a created an account                                 | ✔️    | ✔️        | ```site_activity.MAU.RegisteredUserCount``` |
+| Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      | ```growth_statistics.RetainedUsers``` |
+| Churned     | Users who were active last month but not this month              | ✔️    | ✔️      | ```growth_statistics.ChurnedUsers``` | 
+| Resurrected | Users who were _not_ active last month but are active this month | ✔️    | ✔️      | ```growth_statistics.ResurrectedUsers``` |
+| Created     | Users whose account was created this month                       | ✔️    | ✔️      | ```growth_statistics.CreatedUsers``` |
+| Deleted     | Users whose account was deleted this month                       | ✔️    | ✔️      | ```growth_statistics.DeletedUsers``` |
 
-### What is a visitor?
+### Visitor
 
 A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page). Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
 
-### What is an active user?
+### Active user
 
 An active user is differentiated from a visitor by performing a qualifying event. These events are intended to represent someone who has **engaged with** and **received value** from the product; something that takes a person from their first search to establishing a habit around the core value proposition of the app. Qualifying events are [listed as 'Active' in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=live), and performing any single activity in that list makes a visitor an active user for the time period being measured.
 
@@ -37,17 +37,16 @@ Qualifying events are not intended to be difficult, or prove that someone is a h
 | Batch changes    | Created or viewed a batch change                             | TBD |
 | Code insights     | Created or viewed a code insight         | TBD |
 
-
-
-#### Registered or non-registered active users
-
-Active users can be further optionally segmented into **registered** or **non-registered** users, which indicates they are logged in.
-
 #### Unique Sourcegraph active users
 
 For some of our metrics we want to identify unique users across on-prem and cloud instances. For this purpose, unique users of Sourcegraph is a way to correlate registered users who have a common email address across any number of instances. For example, a@b.com on an on-prem instance and a@b.com on Sourcegraph.com would be considered the same user for the purposes of this metric. Note that most measures don't have this constraint, and any that do will include the term "Unique Sourcegraph Users" in the name of the metric.
 
-### What is an activated user?
+### Registered user
+
+Active users can be further optionally segmented into **registered** or **non-registered** users, which indicates they are logged in.
+
+
+### Activated user
 
 Unlike **active** users, which is a term meaningful within a specific time period, **activated** is a special state that is permanent once triggered.
 
