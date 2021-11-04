@@ -18,7 +18,7 @@ These values are the beliefs and principles that help us achieve our [goals](goa
 
 You earn and keep the trust of our customers by putting their interests first, ahead of Sourcegraph's interests and your team's interests. Over the long term, we need to be a customer-funded business, and you'll help us get there by being customer-first.
 
-- We are not engineering-driven. We are not sales-driven. Being customer-first unites us all (engineering, sales, and every other team).
+- We are not engineering-first. We are not sales-first. Being customer-first unites us all (engineering, sales, and every other team).
 - When you're building the product, being customer-first means you solve real problems for customers who use, love, and appreciate what you build. You aren't working on abstract tech that will never be used.
 - When you're marketing, selling, and supporting the product, you know the entire team values you and affirmatively decided to join a customer-first company. We are not one of those developer-facing companies where "how to make money and serve customers" is an unpleasant afterthought.
 - Avoid being <abbr title="A prospect is a company that is not yet a customer.">prospect</abbr>-first when possible. Solve a problem for existing customers (not prospects) first. You can be much more iterative and get much better feedback from existing customers, which means you'll build a better solution and will have happy customer references. This wins prospects better than if you were narrowly prospect-first.
