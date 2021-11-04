@@ -37,10 +37,6 @@ Enable Sourcegraph customers and prospects to easily access the value our produc
 
 - FY22Q4 Key Result - 3 customers have provisioned production-ready solutions in less than a week
 
-### Strengthen support of code management systems
-
-As we broaden our reach, prospects and customers look to us to support a large variety of source code management (SCM) systems, in a way that is robust and scalable. We want to provide our user base the means to simply, easily, and reliably connect to all common SCMs.
-
 ### Enrich education and documentation systems
 
 Our company, as well as our user base, is growing rapidly. We want to see all people in our ecosystem succeed, and to do so, we need enriched education and documentation systems.
@@ -53,6 +49,16 @@ Our company, as well as our user base, is growing rapidly. We want to see all pe
 When our CI pipeline breaks we need clear indications and rich observability of what is causing the failures so that we can quickly take action on resolving the issues.
 
 - FY22Q4 Key Result - Main branch is red for less than 1h per day for sourcegraph/sourcegraph.
+
+### Strengthen support of code management systems
+
+As we broaden our reach, prospects and customers look to us to support a large variety of source code management (SCM) systems, in a way that is robust and scalable. We want to provide our user base the means to simply, easily, and reliably connect to all common SCMs.
+
+### Improve the reliablity and performance of our code host connections and code storage
+
+Code host connectivity, scalability, and reliability underpin all other features within Sourcegraph. We need to ensure Sourcegraph can handle the size and quantity of repositories that future customers own and ensure we can meet any performance requirements customers have that impact code host connections and code storage.
+
+- FY22Q4 Key Result - Key customer gets to a technical win in Q4
 
 ## Team specific pages
 
