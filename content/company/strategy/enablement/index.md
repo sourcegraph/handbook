@@ -27,13 +27,15 @@ We are focused on several themes to help make our one-year vision a reality. The
 ### Make it easier to contribute to our frontend codebase
 
 Developing a component system leads to a consistent user experience, faster delivery, and more inclusive design. To ensure better adoption and customer satisfaction with our product we are also focused on improving page rendering performance and perceived performance when a user interacts with the application.
-  - FY22Q4 Key Result - All reusable components from the [Wildard Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=908%3A0) are implement and document.  At the beginning of FY22Q4 there were 12 compoenets implemented.
-  - FY22Q4 Key Result - Our developers confirm a high productivity rating (4+ average) when using the Wildcard component library.  There is no baseline today.
+
+- FY22Q4 Key Result - All reusable components from the [Wildard Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=908%3A0) are implement and document. At the beginning of FY22Q4 there were 12 compoenets implemented.
+- FY22Q4 Key Result - Our developers confirm a high productivity rating (4+ average) when using the Wildcard component library. There is no baseline today.
 
 ### Reduce friction in deployment and upgrade
 
 Enable Sourcegraph customers and prospects to easily access the value our product provides without experiencing friction during the install & upgrade process. Ensure Sourcegraph can be run by any user with a standard engineering background at scale and with ease. Set clear expectations with customers / prospects on the environment requirements necessary to manage Sourcegraph at the scale they seek.
-  - FY22Q4 Key Result - 3 customers have provisioned production-ready solutions in less than a week
+
+- FY22Q4 Key Result - 3 customers have provisioned production-ready solutions in less than a week
 
 ### Strengthen support of code management systems
 
@@ -42,13 +44,15 @@ As we broaden our reach, prospects and customers look to us to support a large v
 ### Enrich education and documentation systems
 
 Our company, as well as our user base, is growing rapidly. We want to see all people in our ecosystem succeed, and to do so, we need enriched education and documentation systems.
-  - FY22Q4 Key Result - Time to 10th pull request(TT10PR) merged by new engineers in sourcegraph/sourcegraph is less than 30 days.  There is no baseline today.
-  - FY22Q4 Key Result - Increase the number of click-throughs on the Handbook search results to 90%.  Today the click-through rate on search results is roughly 25%
+
+- FY22Q4 Key Result - Time to 10th pull request(TT10PR) merged by new engineers in sourcegraph/sourcegraph is less than 30 days. There is no baseline today.
+- FY22Q4 Key Result - Increase the number of click-throughs on the Handbook search results to 90%. Today the click-through rate on search results is roughly 25%
 
 ### Improve our continuous integration pipeline
 
 When our CI pipeline breaks we need clear indications and rich observability of what is causing the failures so that we can quickly take action on resolving the issues.
-  - FY22Q4 Key Result - Main branch is red for less than 1h per day for sourcegraph/sourcegraph.
+
+- FY22Q4 Key Result - Main branch is red for less than 1h per day for sourcegraph/sourcegraph.
 
 ## Team specific pages
 
