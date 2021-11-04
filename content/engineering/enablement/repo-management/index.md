@@ -21,6 +21,9 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 [Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../company/strategy/enablement/repo-management/index.md)
 
+## Onboarding
+Check out our onboarding guide [here](onboarding.md).
+
 ## Responsibilities
 
 ### Code host / repository management
