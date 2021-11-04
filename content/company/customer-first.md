@@ -1,6 +1,10 @@
 # Being a customer-first company
 
-Some companies are engineering-first or sales-first, meaning they consider how that part of the organization needs to work to be successful and everything else is informed from there. Sourcegraph is a customer-first company. Our goal is to always do what is in the best interest of the customer while simultaneously setting up Sourcegraph and each team within it for long-term success. This handbook page documents what this means and how it plays out day to day.
+Some companies are engineering-first or sales-first, meaning they consider how that part of the organization needs to work to be successful and everything else is informed from there. Sourcegraph is a [customer-first company](values.md#customer-first):
+
+> You earn and keep the trust of our customers by putting their interests first, ahead of Sourcegraph's interests and your team's interests. Over the long term, we need to be a customer-funded business, and you'll help us get there by being customer-first.
+
+This handbook page documents what this means and how it plays out day to day.
 
 Simply, this all boils down to two things we want to be true and can often feel competing:
 
