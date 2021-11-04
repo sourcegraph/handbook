@@ -4,19 +4,19 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 ## User states
 
-People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.  
+People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.
 
-| Metric      | Description                                                      | Cloud | On-prem | Pings data point |
-| ----------- | ---------------------------------------------------------------- | ----- | ------- | ---------------- |
-| [Visitor](#visitor)     | Anyone who accessed the product                                  | ✔️    |         | ```site_activity.MAU.UserCount``` |
-| [Active](#active-user) | Users who performed a qualifying activation event (see below) | ✔️    | n/a      | n/a |
-| [Activated](#activated-user) | Users who have completed a specific series of actions that indicate they have developed the habit  | ✔️    | n/a      | n/a |
-| [Registered](#registered-user)  | A user with a created an account                                 | ✔️    | ✔️        | ```site_activity.MAU.RegisteredUserCount``` |
-| Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      | ```growth_statistics.RetainedUsers``` |
-| Churned     | Users who were active last month but not this month              | ✔️    | ✔️      | ```growth_statistics.ChurnedUsers``` | 
-| Resurrected | Users who were _not_ active last month but are active this month | ✔️    | ✔️      | ```growth_statistics.ResurrectedUsers``` |
-| Created     | Users whose account was created this month                       | ✔️    | ✔️      | ```growth_statistics.CreatedUsers``` |
-| Deleted     | Users whose account was deleted this month                       | ✔️    | ✔️      | ```growth_statistics.DeletedUsers``` |
+| Metric                         | Description                                                                                       | Cloud | On-prem | Pings data point                        |
+| ------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- |
+| [Visitor](#visitor)            | Anyone who accessed the product                                                                   | ✔️    |         | `site_activity.MAU.UserCount`           |
+| [Active](#active-user)         | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     |
+| [Activated](#activated-user)   | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     |
+| [Registered](#registered-user) | A user with a created an account                                                                  | ✔️    | ✔️      | `site_activity.MAU.RegisteredUserCount` |
+| Retained                       | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       |
+| Churned                        | Users who were active last month but not this month                                               | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        |
+| Resurrected                    | Users who were _not_ active last month but are active this month                                  | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    |
+| Created                        | Users whose account was created this month                                                        | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        |
+| Deleted                        | Users whose account was deleted this month                                                        | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        |
 
 ### Visitor
 
@@ -28,14 +28,14 @@ An active user is differentiated from a visitor by performing a qualifying event
 
 Qualifying events are not intended to be difficult, or prove that someone is a heavy/power user of the product. They are carefully selected to represent activities that indicate realized value from Sourcegraph.
 
-| Metric      | What                                                      | Events |
-| ----------- | ---------------------------------------------------------------- | ----- |
-| Search     | Viewed search results, receive a code monitoring notification      | ```ViewSearchResults``` ```CodeMonitorEmailLinkClicked``` ```Saved Search Notification Sent``` ```ViewManageCodeMonitorPage``` ```SavedSearchCreated``` ```SavedSearchUpdated```  | 
-| Navigation     | View a file, view a repository                                 | ```ViewBlob``` ```ViewRepository``` ```ViewTree``` |
-| Code intelligence | Hovered                                                     | ```hover``` |
-| Extensibility  | A user who created an account on Sourcegraph Cloud.            | ```GoToCodeHostClicked``` ```editor.open.file``` |
-| Batch changes    | Created or viewed a batch change                             | TBD |
-| Code insights     | Created or viewed a code insight         | TBD |
+| Metric            | What                                                          | Events                                                                                                                                                   |
+| ----------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Search            | Viewed search results, receive a code monitoring notification | `ViewSearchResults` `CodeMonitorEmailLinkClicked` `Saved Search Notification Sent` `ViewManageCodeMonitorPage` `SavedSearchCreated` `SavedSearchUpdated` |
+| Navigation        | View a file, view a repository                                | `ViewBlob` `ViewRepository` `ViewTree`                                                                                                                   |
+| Code intelligence | Hovered                                                       | `hover`                                                                                                                                                  |
+| Extensibility     | A user who created an account on Sourcegraph Cloud.           | `GoToCodeHostClicked` `editor.open.file`                                                                                                                 |
+| Batch changes     | Created or viewed a batch change                              | TBD                                                                                                                                                      |
+| Code insights     | Created or viewed a code insight                              | TBD                                                                                                                                                      |
 
 #### Unique Sourcegraph active users
 
@@ -44,7 +44,6 @@ For some of our metrics we want to identify unique users across on-prem and clou
 ### Registered user
 
 Active users can be further optionally segmented into **registered** or **non-registered** users, which indicates they are logged in.
-
 
 ### Activated user
 
