@@ -16,25 +16,21 @@ This page contains information that is relevant for how to do well at your job a
 
 ### Keeping strategy up to date
 
-Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents.
+Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update monthly:
 
-In addition to this shared content, each team has a set of sources of truth (that do not overlap) that they should update regularly:
+#### OKR and roadmap tracking
+
+Each month you should work with your team to update your plans. After updating, you should ensure it is reflected in the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which is used by marketing to share with customers.
 
 #### Per-area strategy pages
 
-We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) to communicate where each of our product teams is headed, for the areas of the product that they work on. Newly created teams should begin documenting the scope of their team as well as their mission, vision, principles, and more by creating one of these pages as part of the process of forming. Having a page like this will help you ensure your own framework for prioritization is clear, and can also be a resource for those outside your team who want to understand why you are working on what you are.
-
-These are updated monthly by each team, but wouldn't normally change too much each month. They are updated via a pull request, that anyone on the team can contribute to, and that can be shared with stakeholders as a summary of the change.
-
-#### PMM Roadmap slides
-
-In addition to updating the strategy pages monthly, at the same time the team should also update the [PMM roadmap](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which contains upcoming important customer-facing features.
+We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
 
 #### Product data
 
 The last thing teams should review and update monthly are the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/), in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [feature reference pages](../index.md#feature-reference).
 
-Part of the product data is an internal-only list of [what's supported](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279), which contains extended product information for our Sales and Support teams. This should also be reviewed as feature capabilities evolve.
+Part of the product data is a (internal-only) list of [what's supported](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279), which contains extended product information for our Sales and Support teams. This should also be manually reviewed and updated as feature capabilities evolve.
 
 ## Glossary
 
