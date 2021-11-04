@@ -5,16 +5,16 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../compa
 | #   | Status      | Responsible | Project                                                                                           |
 | --- | ----------- | ----------- | ------------------------------------------------------------------------------------------------- |
 | 1   | In-progress | Warren      | Add `src debug` command to `src-cli`                                                              |
-| 2   | In-progress | All CSEs    | Make at least 45 doc updates/additions across the team                                            |
+| 2   | In-progress | All CS    | Make at least 45 doc updates/additions across the team                                            |
 | 3   | In-progress | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                        |
 | 4   | In-progress | Adeola      | Create cheat sheets of what logs are most needed in certain situations                            |
 | 5   | Completed   | Beatrix     | Make the [command generator](https://command-generator.netlify.app/) customer-facing and scalable |
-| 6   | In-progress | Michael     | Create database type solution to make it easy and reliable for CSEs to learn from past tickets    |
-| 7   | In-progress | Alex        | Streamline key steps in CSE workflow                                                              |
+| 6   | In-progress | Michael     | Create database type solution to make it easy and reliable for application engineers to learn from past tickets    |
+| 7   | In-progress | Alex        | Streamline key steps in CS workflow                                                              |
 | 8   | In-progress | Carl        | 5 folks complete kubernetes certification                                                         |
 | 9   | In-progress | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                    |
 | 10  | Not started | Virginia    | Provide enablement in how to navigate difficult conversations with customers                      |
-| 11  | In-progress | Adeola      | CSE Onboarding updates V3                                                                         |
+| 11  | In-progress | Adeola      | CS Onboarding updates V3                                                                         |
 
 ## Task details
 
@@ -25,8 +25,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../compa
 
 ### 2 Doc updates
 
-- Workgroup: All CSEs
-- Slack Channel: #wg-cse-tools
+- Workgroup: n/a -- all CS
 - Details: Make at least 45 doc updates/additions across the team. These can be tied to cases or not. If not, be sure to link to the PR here:
 
 ### 3 Retro key Q2 tickets

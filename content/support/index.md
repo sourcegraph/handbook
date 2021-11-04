@@ -2,7 +2,7 @@
 
 ## Our ethos
 
-Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as by honoring our...
+Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. The team is comprised of application engineers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as by honoring our...
 
 ### guiding principles:
 
@@ -60,7 +60,7 @@ We always want the following to be true:
   - [FY22Q3 OKR plan](FY22Q3-OKR-Plan.md)
   - [FY22Q4 OKR plan](FY22Q4-OKR-Plan.md)
 
-### As an individual CSE...
+### As an individual application engineer...
 
 As I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
 
@@ -95,7 +95,7 @@ We are a [customer-first company](../company/customer-first.md). We work alongsi
 - **How CE adds value to support:** CE has nuanced context that is valuable to how support works with a customer; CE can also help clarify / remind customers we need information (during regularly scheduled calls) on the more tricky issues.
 - **Collaboration overview:** We can think of CE and support as work best friends, working closely together every day, primarily communicating in Slack. CEs (or others -- including customers -- but primarily CEs) may engage support at any point during the pre-sales and post-sales process to share context to help support best serve our customers.
 
-### Software Engineers (SWEs)
+### Engineering
 
 - **How support adds value to SWEs:** Support handles the majority of customer issues, reducing the amount of time engineering has to be reactive and providing a more data-driven view into the source of recurring issues/questions; support also handles the majority of internal and external communication during a critical p0 incident (letting engineering stay focused on solving the issue).
 - **How SWEs adds value to support:** SWEs create a high quality product and when needed, helps support when they get stuck (this should be more rare than frequent), and helps uplevel support via planned training sessions, periodic pairing, deep-dives on new features/products, etc.
@@ -131,7 +131,7 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
-- [CSE onboarding](customer-support-onboarding.md)
+- [CS application engineer onboarding](customer-support-onboarding.md)
 - [Manager onboarding](customer-support-manager-onboarding.md)
 - [Team README](support-bios.md)
 - [Team schedule](support-schedule.md)
@@ -146,8 +146,8 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Triaging](customer-support-triaging.md)
 - [Enablement](support-enablement.md)
 - [Tools](support-tools.md)
-- [Assigned CSEs](assigned-cse.md)
-- [Process: Permanently deleting user data](permanently_deleting_user_data.md)
+- [Assigned application engineers](assigned-app-eng.md)
+- [Permanently deleting user data](permanently_deleting_user_data.md)
 - [Business continuity](business-continuity-plan.md)
 
 ## SLAs

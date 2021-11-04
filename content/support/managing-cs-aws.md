@@ -1,17 +1,17 @@
-# Managing CSE-AWS Docker Compose
+# Managing CS-AWS Docker Compose
 
-Our CSE Docker Compose test instance is hosted on an Amazon EC2 server instance. The instance was setup following the [instructions](https://docs.sourcegraph.com/admin/install/docker-compose/aws) found on Sourcegraph.com. To manage cloud resources and networking you must have Sourcegraph AWS/EC2 IAM credentials, learn more [here](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/jgyewom5scogqn6ru53jn2hw2i). You can access the instance from the Url below:
+Our CS Docker Compose test instance is hosted on an Amazon EC2 server instance. The instance was setup following the [instructions](https://docs.sourcegraph.com/admin/install/docker-compose/aws) found on Sourcegraph.com. To manage cloud resources and networking you must have Sourcegraph AWS/EC2 IAM credentials, learn more [here](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/jgyewom5scogqn6ru53jn2hw2i). You can access the instance from the Url below:
 
 ## [https://cse-aws-test.sgdev.org/](https://cse-aws-test.sgdev.org/)
-
+(note the URL reflects the former title on the team)
 <br>
 <br>
 
 ## SSH into instance to run Docker CLI commands
 
-To access the CSE-AWS server and run Docker commands you'll need to create a Secure Shell (SSH) connection. Instructions to configure this connection are found below:
+To access the CS-AWS server and run Docker commands you'll need to create a Secure Shell (SSH) connection. Instructions to configure this connection are found below:
 
-1. Create a directory from which you'll run commands to access CSE AWS:<br>`$ mkdir cse-aws`
+1. Create a directory from which you'll run commands to access CS AWS:<br>`$ mkdir cse-aws`
 2. Within `cse-aws` create a file `cse-aws.pem`:<br>`$ touch cse-aws.pem`
 3. Populate `cse-aws.pem` with its RSA private key by copying the key from [1Password](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/jrsavvo7cgknvzbnefya5oba3i) into the file with your editor of choice. Copy the whole block including `-----BEGIN RSA PRIVATE KEY-----` and `-----END RSA PRIVATE KEY-----`.
 4. Finally set its permissions such that only the root user can read it:<br>`$ chmod 400 cse-aws.pem`<br>
@@ -28,13 +28,13 @@ You may also add the pem key to a `.ssh` directory and use the following command
 ssh -i .ssh/cse-aws.pem ec2-user@ec2-18-219-230-121.us-east-2.compute.amazonaws.com
 ```
 
-## Upgrading CSE-AWS
+## Upgrading CS-AWS
 
-Upgrading CSE-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/install/docker-compose/operations#upgrade) for upgrading a compose instance. The EC2 instance points at a [fork of deploy-sourcegraph-docker](https://github.com/DaedalusG/deploy-sourcegraph-docker).
+Upgrading CS-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/install/docker-compose/operations#upgrade) for upgrading a compose instance. The EC2 instance points at a [fork of deploy-sourcegraph-docker](https://github.com/DaedalusG/deploy-sourcegraph-docker).
 
 **Note: When connection to the EC2 server via SSH your user does not have permissions to run many git commands, you'll need to run git commands with `sudo` or switch to the root user with `sudo su`**
 
-CSE-AWS is a standard Sourcegraph Docker Compose deployment. Its only divergence from the standard repo can be found in its Caddy configuration. In Docker Compose deployments Caddy is used to manage HTTPS certificate generation. The below code block is a snippet of the `docker-compose.yaml` found in `deploy-sourcegraph-docker/docker-compose`. **You'll need to make sure the caddy container specification in `docker-compose.yaml` matchs the code below after checking out the most recent release tag.**
+CS-AWS is a standard Sourcegraph Docker Compose deployment. Its only divergence from the standard repo can be found in its Caddy configuration. In Docker Compose deployments Caddy is used to manage HTTPS certificate generation. The below code block is a snippet of the `docker-compose.yaml` found in `deploy-sourcegraph-docker/docker-compose`. **You'll need to make sure the caddy container specification in `docker-compose.yaml` matchs the code below after checking out the most recent release tag.**
 
 ```yaml
 caddy:
