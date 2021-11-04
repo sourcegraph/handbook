@@ -7,14 +7,14 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../compa
 | 1   | 🚫     | Warren      | Add `src debug` command to `src-cli`                                                                                                                       |
 | 2   | 🚫     | All CS      | Make at least 45 doc updates/additions across the team                                                                                                     |
 | 3   | 🚫     | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                                                                                 |
-| 4   | ✅     | Adeola      | Create [cheat sheets](../../support/debugging-cheat-sheet.md) of what logs are most needed in certain situations                                           |
+| 4   | ✅     | Adeola      | Create [cheat sheets](debugging-cheat-sheet.md) of what logs are most needed in certain situations                                           |
 | 5   | ✅     | Beatrix     | Make the [command generator](https://command-generator.netlify.app/) customer-facing and scalable                                                          |
-| 6   | ✅     | Michael     | Create [a database type solution](../../support/zendesk-ticket-exporter) to make it easy and reliable for application engineers to learn from past tickets |
+| 6   | ✅     | Michael     | Create [a database type solution](zendesk-ticket-exporter.md) to make it easy and reliable for application engineers to learn from past tickets |
 | 7   | 🚫     | Alex        | Streamline key steps in CS workflow                                                                                                                        |
 | 8   | 🚫     | Carl        | 5 folks complete kubernetes certification                                                                                                                  |
 | 9   | 🚫     | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                                                                             |
 | 10  | 🚫     | Virginia    | Provide enablement in how to navigate difficult conversations with customers                                                                               |
-| 11  | ✅     | Adeola      | [CS Onboarding updates V3](../../support/cs-onboard-mentor)                                                                                                |
+| 11  | ✅     | Adeola      | [CS Onboarding updates V3](cs-onboard-mentor.md)                                                                                                |
 
 ## Task details
 
@@ -101,12 +101,12 @@ During Q3, we averaged resolution time of 7.5 days and engaged engineering 13% o
 
 Given that we finished onboarding 10 new members of the team, as well as started to onboard 3 new managers on the team, our performance for Q3 is nothing to balk at. It is performance we can be proud of. We may not be where we want to be just yet, but we are so close and it's ours to have in Q4. Additionally, we made 29 doc updates -- not the 45 we thought might be possible, it's more than double the 11 updates we did the quarter prior.
 
-Here are a few things the team will be able to use in Q4 to continue working toward our definitions of support and also realize our [Q4 OKR](../../support/fy22q4-okr-plan):
+Here are a few things the team will be able to use in Q4 to continue working toward our definitions of support and also realize our [Q4 OKR](fy22q4-okr-plan.md):
 
-1. A [cheat sheet](../../support/debugging-cheat-sheet.md) of what logs are most needed in certain situations
+1. A [cheat sheet](debugging-cheat-sheet.md) of what logs are most needed in certain situations
 2. A customer-facing and scalable [command generator app](https://command-generator.netlify.app/)
-3. [Onboarding improvements](../../support/cs-onboard-mentor)
-4. And the pièce de résistance, [a database of resolved tickets](../../support/zendesk-ticket-exporter) using the power of Sourcegraph (aka an entire new use case for our product!)
+3. [Onboarding improvements](cs-onboard-mentor.md)
+4. And the pièce de résistance, [a database of resolved tickets](zendesk-ticket-exporter.md) using the power of Sourcegraph (aka an entire new use case for our product!)
 
 Finally, not related to our OKRs or definitions of success, Q3 also saw two members of the team accept offers to move into dev teams. You know the support team is respected when moves like this start happening.
 
