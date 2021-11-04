@@ -55,7 +55,7 @@ If you find an issue that is really a support request, you can:
 For both self-contained product feedback slack posts and for new GitHub issues with #feedback labels (which automatically cross-post to Slack), the product manager on feedback rotation:
 
 - Sends the feedback to Productboard
-- If the feedback is coming from a customer, tags the relevant account's stakeholders – usually the CE and/or AE – in the Slack thread. If you are unsure of the account's name, you can copy the _SiteId_ and run a query in the [Server instances dashboard](https://sourcegraph.looker.com/explore/sourcegraph_events/server_update_check_pings?qid=MSjrlRQ1WrOhqRRMLAFe3S&toggle=fil). If you are unsure about account ownership, you can search for the account's name in [Salesforce](sourcegraph2020.lightning.force.com/lightning/page/home) where you fill find its AE and CE.
+- If the feedback is coming from a customer, tags the relevant account's stakeholders – usually the CE and/or AE – in the Slack thread. If you are unsure of the account's name, you can copy the _SiteId_ and run a query in the [Server instances dashboard](https://sourcegraph.looker.com/explore/sourcegraph_events/server_update_check_pings?qid=MSjrlRQ1WrOhqRRMLAFe3S&toggle=fil). If you are unsure about account ownership, you can search for the account's name in [Salesforce](https://sourcegraph2020.lightning.force.com/one/one.app) where you fill find its AE and CE.
 
 ### Feedback email list
 
