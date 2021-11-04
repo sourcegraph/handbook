@@ -52,9 +52,9 @@ Unlike **active** users, which is a term meaningful within a specific time perio
 
 An activated user is defined as anyone who has ever done a specific series of actions that ends in habit creation using Sourcegraph within their workflows. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as an active user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established).
 
-Activation is this entire journey, and our current definition is that someone has performed a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active). 
+Activation is this entire journey, and our current definition is that someone has performed a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active).
 
-**Note**: There can be a ton of improvement in this definition. It will be more like they've completed 20 searches across repositories they've added to Sourcegraph, but we need to do some research into what correlates highly with retention. 
+**Note**: There can be a ton of improvement in this definition. It will be more like they've completed 20 searches across repositories they've added to Sourcegraph, but we need to do some research into what correlates highly with retention.
 
 ## Time periods
 
