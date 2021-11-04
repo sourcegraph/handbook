@@ -20,7 +20,7 @@ Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) tha
 
 #### OKR and roadmap tracking
 
-Each month you should work with your team to update your plans and status. After updating, you should ensure it is reflected in the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which is used by marketing to share with customers.
+Each month you should work with your team to update your plans. After updating, you should ensure it is reflected in the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which is used by marketing to share with customers.
 
 #### Per-area strategy pages
 
