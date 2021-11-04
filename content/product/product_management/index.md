@@ -24,7 +24,7 @@ Each month you should work with your team to update your plans. After updating, 
 
 #### Per-area strategy pages
 
-We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a narrative framework for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
+We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a [narrative] framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
 
 #### Product data
 
