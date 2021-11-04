@@ -4,19 +4,19 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 ## User states
 
-People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.  
+People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.
 
-| Metric      | Description                                                      | Cloud | On-prem | Pings data point |
-| ----------- | ---------------------------------------------------------------- | ----- | ------- | ---------------- |
-| [Visitor](#what-is-a-visitor)     | Anyone who accessed the product                                  | ✔️    |         | user_count |
-| [Active]((#what-is-an-active-user)) | Users who performed a qualifying activation event (see below) | ✔️    | n/a      | n/a |
-| Activated | Users who have completed a specific series of actions that indicate they have developed the habit  | ✔️    | n/a      | n/a |
-| Registered  | A user with a created an account                                 | ✔️    | ✔️        | registered_user |
-| Retained    | Users who were active last month _and_ this month                | ✔️    | ✔️      | retained_users |
-| Churned     | Users who were active last month but not this month              | ✔️    | ✔️      | churned_users | 
-| Resurrected | Users who were _not_ active last month but are active this month | ✔️    | ✔️      | resurrected_users |
-| Created     | Users whose account was created this month                       | ✔️    | ✔️      | created_users |
-| Deleted     | Users whose account was deleted this month                       | ✔️    | ✔️      | deleted_users |
+| Metric                                | Description                                                                                       | Cloud | On-prem | Pings data point  |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------- | ----- | ------- | ----------------- |
+| [Visitor](#what-is-a-visitor)         | Anyone who accessed the product                                                                   | ✔️    |         | user_count        |
+| [Active](<(#what-is-an-active-user)>) | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a               |
+| Activated                             | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a               |
+| Registered                            | A user with a created an account                                                                  | ✔️    | ✔️      | registered_user   |
+| Retained                              | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | retained_users    |
+| Churned                               | Users who were active last month but not this month                                               | ✔️    | ✔️      | churned_users     |
+| Resurrected                           | Users who were _not_ active last month but are active this month                                  | ✔️    | ✔️      | resurrected_users |
+| Created                               | Users whose account was created this month                                                        | ✔️    | ✔️      | created_users     |
+| Deleted                               | Users whose account was deleted this month                                                        | ✔️    | ✔️      | deleted_users     |
 
 ### What is a visitor?
 
@@ -28,16 +28,14 @@ An active user is differentiated from a visitor by performing a qualifying event
 
 Qualifying events are not intended to be difficult, or prove that someone is a heavy/power user of the product. They are carefully selected to represent activities that indicate realized value from Sourcegraph.
 
-| Metric      | What                                                      | Events |
-| ----------- | ---------------------------------------------------------------- | ----- |
-| Search     | Viewed search results, receive a code monitoring notification      | ```ViewSearchResults``` ```CodeMonitorEmailLinkClicked``` ```Saved Search Notification Sent``` ```ViewManageCodeMonitorPage``` ```SavedSearchCreated``` ```SavedSearchUpdated```  | 
-| Navigation     | View a file, view a repository                                 | ```ViewBlob``` ```ViewRepository``` ```ViewTree``` |
-| Code intelligence | Hovered                                                     | ```hover``` |
-| Extensibility  | A user who created an account on Sourcegraph Cloud.            | ```GoToCodeHostClicked``` ```editor.open.file``` |
-| Batch changes    | Created or viewed a batch change                             | TBD |
-| Code insights     | Created or viewed a code insight         | TBD |
-
-
+| Metric            | What                                                          | Events                                                                                                                                                   |
+| ----------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Search            | Viewed search results, receive a code monitoring notification | `ViewSearchResults` `CodeMonitorEmailLinkClicked` `Saved Search Notification Sent` `ViewManageCodeMonitorPage` `SavedSearchCreated` `SavedSearchUpdated` |
+| Navigation        | View a file, view a repository                                | `ViewBlob` `ViewRepository` `ViewTree`                                                                                                                   |
+| Code intelligence | Hovered                                                       | `hover`                                                                                                                                                  |
+| Extensibility     | A user who created an account on Sourcegraph Cloud.           | `GoToCodeHostClicked` `editor.open.file`                                                                                                                 |
+| Batch changes     | Created or viewed a batch change                              | TBD                                                                                                                                                      |
+| Code insights     | Created or viewed a code insight                              | TBD                                                                                                                                                      |
 
 #### Registered or non-registered active users
 
@@ -53,9 +51,9 @@ Unlike **active** users, which is a term meaningful within a specific time perio
 
 An activated user is defined as anyone who has ever done a specific series of actions that ends in habit creation using Sourcegraph within their workflows. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as an active user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established).
 
-Activation is this entire journey, and our current definition is that someone has performed a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active). 
+Activation is this entire journey, and our current definition is that someone has performed a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active).
 
-**Note**: There can be a ton of improvement in this definition. It will be more like they've completed 20 searches across repositories they've added to Sourcegraph, but we need to do some research into what correlates highly with retention. 
+**Note**: There can be a ton of improvement in this definition. It will be more like they've completed 20 searches across repositories they've added to Sourcegraph, but we need to do some research into what correlates highly with retention.
 
 ## Time periods
 
