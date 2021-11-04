@@ -104,7 +104,7 @@ For many group sizes/dynamics, it might make sense to set up separate slack chan
 
 ### Share that you're doing a hackathon!
 
-Hackathons encompass many of the Sourcegraph values – high agency, working as a team, being customer first, continuous learning – and you should share that you're doing a hackathon with the whole company! (Plus, if you share it, then you're adding "communicating openly and transparently"!)
+Hackathons encompass many of the Sourcegraph values – high agency, working as a team, being customer-first, continuous learning – and you should share that you're doing a hackathon with the whole company! (Plus, if you share it, then you're adding "communicating openly and transparently"!)
 
 People will be excited to follow along, attend the demo presentations, or contribute excitement/ideas/questions to any idea pre-planning docs.
 
