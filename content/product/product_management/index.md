@@ -27,7 +27,7 @@ We have a [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegra
 
 #### Per-area strategy pages
 
-We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a framework for each team's prioritization, to document the trade-offs between goals the teams are making, and to communicate where they are headed in the longer term not in terms of specific deliverables but in terms of strategy. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
+We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a narrative framework for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
 
 #### Product data
 
