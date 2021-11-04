@@ -67,7 +67,7 @@ A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU
 
 ## Information Security Guidelines for posting Logs
 
-Since we are encouraging Application Engineer’s to upload relevant sections of logs to the private Sourcegraph GitHub repository, we have additional security responsibilities to prevent uploading sensitive customer data. These are WIP guidelines for uploading logs. These guidelines will be linked to or embedded in the macro for CSE visibility.
+Since we are encouraging Application Engineer’s to upload relevant sections of logs to the private Sourcegraph GitHub repository, we have additional security responsibilities to prevent uploading sensitive customer data. These are WIP guidelines for uploading logs. These guidelines will be linked to or embedded in the macro for Application Engineer visibility.
 
 ### Information that CANNOT be present in github:
 
