@@ -52,14 +52,13 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 
 To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
 
-- Owner: Christina
--[Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
+- Owner: Christina -[Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
 ### Other initiatives
 
 There are a few other initiatives we will be tracking here soon:
-- CE / Product communication and prioritization improvements on feedback
 
+- CE / Product communication and prioritization improvements on feedback
 
 In the meantime, we are using a [tracking document](https://docs.google.com/document/d/1ezjeAV2wnUKfXQjHE-Cy9eZ7i4HX2mty1zuE4VcGGGo/edit#) for these.
 
