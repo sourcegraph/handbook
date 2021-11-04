@@ -31,7 +31,7 @@ After updating this content, you should ensure it is reflected in the manually c
 
 #### Per-area strategy pages
 
-We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) to communicate where each of our product teams is headed beyond the near-term roadmap, for the areas of the product that they work on. Newly created teams should begin documenting the scope of their team as well as their mission, vision, principles, and more by creating one of these pages as part of the process of forming. Having a page like this will help you ensure your own framework for prioritization is clear, and can also be a resource for those outside your team who want to understand why you are working on what you are.
+We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a framework for each team's prioritization, to document the trade-offs between goals the teams are making, and to communicate where they are headed in the longer term not in terms of specific deliverables but in terms of strategy.
 
 These are updated monthly by each team, but wouldn't normally change too much each month. They are updated via a pull request, that anyone on the team can contribute to, and that can be shared with stakeholders as a summary of the change.
 
