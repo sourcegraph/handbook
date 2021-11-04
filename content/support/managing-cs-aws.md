@@ -3,6 +3,7 @@
 Our CS Docker Compose test instance is hosted on an Amazon EC2 server instance. The instance was setup following the [instructions](https://docs.sourcegraph.com/admin/install/docker-compose/aws) found on Sourcegraph.com. To manage cloud resources and networking you must have Sourcegraph AWS/EC2 IAM credentials, learn more [here](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/jgyewom5scogqn6ru53jn2hw2i). You can access the instance from the Url below:
 
 ## [https://cse-aws-test.sgdev.org/](https://cse-aws-test.sgdev.org/)
+
 (note the URL reflects the former title on the team)
 <br>
 <br>

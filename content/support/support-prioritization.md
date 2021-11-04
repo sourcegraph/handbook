@@ -6,7 +6,6 @@ We have many factors to consider in order to determine priorities and as such, w
 
 All work is assigned a priority per these definitions:
 
-
 - **p1:** All customer (including those in the pre-sales process) reported issues per our contractual p1 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas) (even Cloud customers, though we don't have SLAs for them at this time).
 - **p2:** All customer (including those in the pre-sales process) reported issues per our contractual p2 service level agreement definition [here](../support/index.md#our-service-level-agreements-slas).
 - **p3:** Any internally identified goals/tasks/projects.

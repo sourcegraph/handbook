@@ -13,7 +13,7 @@ Some folks in engineering offer office hours and those can be useful for an appl
 ## Team rotations
 
 - **Application engineers rotate on other engineering teams.** Depending on interest and timing with all involved, application engineer may also do rotations in other teams. These will be carefully coordinated to make sure that we always have enough help available to our customers. If an application engineer is interested, they can start the process by talking with their manager to determine next steps.
-- **Members of engineering rotate on support.** There is tons of value in working directly with customers and seeing the variety of questions and issues that come up across our entire customer base. Any member of engineering who is interested in working in support for a day or even a week, just needs to let the support team in #customer-support-internal and we will make it happen. 
+- **Members of engineering rotate on support.** There is tons of value in working directly with customers and seeing the variety of questions and issues that come up across our entire customer base. Any member of engineering who is interested in working in support for a day or even a week, just needs to let the support team in #customer-support-internal and we will make it happen.
 
 ## Pairings
 
