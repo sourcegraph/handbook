@@ -25,7 +25,6 @@ In order to get some purposeful face-time in with each other, we convene synchro
 In order to maintain healthy communication, we...
 
 - We populate and refer to our [team README](support-bios.md) to orient ourselves for working with each other
-- We use otter.ai when we are on Zoom with each other to make it easier for everyone to follow along with the conversation
 - We honor that not everyone writes/speaks English as their first language and use Grammarly and HemingwayApp to help make sure we are saying what we intend
 - We rotate who facilitates our weekly planning/retro session so that we normalize hearing each other and noticing when someone isn't getting a chance to talk
 - We take turns each month auditing our section of the handbook to make sure it's current and accurate

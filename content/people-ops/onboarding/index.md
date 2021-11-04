@@ -110,7 +110,7 @@ See [General onboarding checklist](general_onboarding.md).
 
 - [Engineers](../../engineering/onboarding/index.md)
 - [Customer Engineers](../../ce/onboarding.md)
-- [Customer Support Engineers](../../support/customer-support-onboarding.md)
+- [Customer Support](../../support/customer-support-onboarding.md)
 - [Customer Support Managers](../../support/customer-support-manager-onboarding.md)
 - [Sales team](../../sales/onboarding/index.md)
 - [Product team](../../product/onboarding/index.md)
