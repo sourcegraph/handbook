@@ -2,7 +2,7 @@
 
 These values are the beliefs and principles that help us achieve our [goals](goals/index.md) and [strategy](../company/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
 
-- [**Be customer driven**](#be-customer-driven): You earn and keep the trust of our customers by putting their interests first (ahead of Sourcegraph's interests and your team's interests).
+- [**Be customer-driven**](#be-customer-driven): You earn and keep the trust of our customers by putting their interests first.
 - [**Work as a team**](#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
 - [**High agency**](#high-agency): You have the power and the responsibility to improve Sourcegraph as a company and as a product. You deliver regardless of the circumstances.
 - [**High quality**](#high-quality): You are responsible for finding out what high-quality work looks like and producing that high-quality work iteratively.
