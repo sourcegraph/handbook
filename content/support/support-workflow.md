@@ -70,7 +70,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Monitoring alerts trigger a page to make sure we know immediately about all outages (`about`, /`search` on sourcegraph.com, or `docs` is fully unreachable).
 - **Those involved:** Software engineers > support
-- **Details:** Initial pages trigger for the software engineer who is on-call. If it’s a system outage (about, /search, or docs is fully unreachable), the software developer pages support as outlined in our [on-call practice](../engineering/incidents/on_call.md). Support will help troubleshoot (gathering information from any customers who report the issue) and handle internal (alerting stakeholders)/external (direct and status page posting) communications as outlined in our [p0 incident response](p0-Incident-Response.md).
+- **Details:** Initial pages trigger for the software engineer who is on-call. If it’s a system outage (about, /search, or docs is fully unreachable), the software developer pages support as outlined in our [on-call practice](../engineering/incidents/on_call.md). Support will help troubleshoot (gathering information from any customers who report the issue) and handle internal (alerting stakeholders)/external (direct and status page posting) communications as outlined in our [serving as messenger during incidents](../engineering/incidents/index.md).
 
 ### Customer Slack channels #trial-[customer] and #support-[customer]
 
