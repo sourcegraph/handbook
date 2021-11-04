@@ -140,6 +140,7 @@ We have unlimited LinkedIn Recruiter licenses for all Sourcegraph teammates. A r
 If you would like a recruiter license, please let your recruiter know and we will get your account activated!
 
 Resources to learn more about using your LinkedIn Recruiter License:
+
 - [Beginner User Curriculum](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Flinkedin-recruiter-for-new-users-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ZZ53ap8WeBM1COR76EWDX0vdjCKnh1Q%2Bhm93VruCXrE%3D&reserved=0)
 - [Experienced User Curriculum](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Fleverage-the-full-power-of-linkedin-recruiter-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=agxl%2B4%2BMf5nGXhHMDCfq%2F5cP2Ecw3qVW9%2B%2BKQrY%2FFSM%3D&reserved=0)
 
