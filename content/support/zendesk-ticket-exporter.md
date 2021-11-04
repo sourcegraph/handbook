@@ -15,7 +15,7 @@ This project exists to create a database of resolved tickets that Sourcegraph in
 
 ## Video Demo
 
-A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU8654q16Zbm/view) on how to write and add case summaries].
+A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU8654q16Zbm/view) on how to write and add case summaries.
 
 ## Growth Areas
 
