@@ -1,4 +1,4 @@
-# Customer Support onboarding mentor
+# Customer Support Onboarding Mentor
 
 As an onboarding mentor to a new member of the Customer Support team, your goal is to be the onboarding mentor you would love to have when starting a new role.
 Be as patient, as detailed, and as relevant as you would want someone to be with you when joining a company and learning about your day-to-day.
