@@ -2,7 +2,7 @@
 
 ## Mission
 
-Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph. For a deep dive into our mission see our [strategy page](../../strategy/enablement/index.md)
+Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph. For a deep dive into our mission see our [strategy page](../../company/strategy/enablement/index.md)
 
 ## Team
 
@@ -131,7 +131,7 @@ To stay aligned as an organization the directors, engineering managers, and prod
   - What progress do you want to share on your priorities from Monday?
   - What challenges did you face this week?
 
-On Thursday we meet as a leadership team to review progress on our [OKRs](../../strategy/enablement/index.md) and update the [Product/Engineering FY22Q4 Tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gf8321d95d6_3_34). In addtion we review updates on our [KPIs](https://docs.google.com/spreadsheets/d/1-yP2TT6m8VfZDKFSf9xgA9T_hBpjzQsRFv9-vt_jcpA/edit#gid=0). If we do not have a large enough cohort to hold a zoom meeting we drive the conversation asyncrhonously.
+On Thursday we meet as a leadership team to review progress on our [OKRs](../../company/strategy/enablement/index.md) and update the [Product/Engineering FY22Q4 Tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gf8321d95d6_3_34). In addtion we review updates on our [KPIs](https://docs.google.com/spreadsheets/d/1-yP2TT6m8VfZDKFSf9xgA9T_hBpjzQsRFv9-vt_jcpA/edit#gid=0). If we do not have a large enough cohort to hold a zoom meeting we drive the conversation asyncrhonously.
 
 ### Health reports
 
