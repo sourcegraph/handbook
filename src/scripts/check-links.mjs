@@ -108,6 +108,16 @@ for (const filePath of filePaths) {
                 location
             )
         }
+
+        // Check anchors
+
+        if (link.includes('#')) {
+            const relativeTarget = new URL(link, fileUrl.href)
+            if (relativeTarget.href.startsWith('file://')) {
+                console.log('===')
+                console.log(`from ${fileUrl.href} to ${relativeTarget.href}`)
+            }
+        }
     }
 }
 
