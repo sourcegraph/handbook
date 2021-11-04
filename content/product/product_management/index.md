@@ -18,6 +18,10 @@ This page contains information that is relevant for how to do well at your job a
 
 Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update monthly:
 
+#### OKR and roadmap tracking
+
+Each month you should work with your team to update your plans and status. After updating, you should ensure it is reflected in the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which is used by marketing to share with customers.
+
 #### Per-area strategy pages
 
 We also use [per-area strategy pages](../../company/strategy/index.md#per-area-strategy-pages) as a narrative framework for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
