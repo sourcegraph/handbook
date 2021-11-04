@@ -1,4 +1,4 @@
-# Support Business Continuity Plan
+# Support business continuity plan (BCP)
 
 Our [SLAs](./index.md#slas) by themselves do not provide our customers the reassurance they deserve to know that we have practices and protocols in place that guarantee the availability of our support services. To this end, this page describes the details of how we maintain business continuity from a support services perspective.
 

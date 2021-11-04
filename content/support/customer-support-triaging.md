@@ -16,7 +16,7 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 - **Step 2:** If the case came in via Slack (whether or primary account and the support- or trial- channels, or our Community account and the #help channel, or the Hubspot "talk to a dev" form), change the requestor to the person who requested it. This is not necessary if the ticket came in via email.
 
   - Sometimes it may be an internal person and that would be correct, unless our teammate is posting on behalf of the customer and then we would want to change it to the customer.
-  - When a CSE is assigned to a customer, this step will also trigger that CSE and their backup to appear as a follower (you don't see these auto populate until after you save the ticket (ie "submit as open").
+  - When an application engineer is assigned to a customer, this step will also trigger that application engineer and their backup to appear as a follower (you don't see these auto populate until after you save the ticket (ie "submit as open").
   - For the Hubspot form, we will also need to change the subject from "[Sourcegraph] Contact reconversion by submitting on HubSpot Form "Contact Us | Talk to a Dev" to something more useful for the person asking for help, like "Sourcegraph help request" -- that way they look at the email when a member of the team answers them.
 
 - **Step 3:** Identify if there is action for CS or not
