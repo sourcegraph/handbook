@@ -2,7 +2,7 @@
 
 - **Maintainers**: [DevX Team](../../engineering/enablement/dev-experience/index.md).
 - **Audience**: any software engineer, no prior infrastructure knowlegde required. 
-- **TL;DR** This document sums up what to do in multiple scenarios that can block the CI.
+- **TL;DR** This document sums up what to do in various scenarios that can block the CI.
 
 See also: [Continuous Integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration) in our product documentation.
 
@@ -18,7 +18,7 @@ In order to handle problems with the CI, the following elements are necessary:
 
 ## Overview
 
-The CI is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevX team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous. 
+The CI is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevX team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous.
 
 This page lists common failures scenarios and provide a step by step guide to get the CI back in an operational state. 
 
@@ -42,15 +42,15 @@ This page lists common failures scenarios and provide a step by step guide to ge
     - Look for a failure explanation: it can be a test that failed or a command that return a non zero exit code.
 3. Check the previous builds on the `main` branch on [Buildkite](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main)
     1. Are they failing with the same exact error?
-        - Yes: see the [Builds are failing in the `main` branch with the same error](#builds-are-all-failing-on-the-main-branch-with-the-same-error)
-        - No: see next point.
+        - **Yes**: see the [Builds are failing in the `main` branch with the same error](#builds-are-all-failing-on-the-main-branch-with-the-same-error)
+        - **No**: see next point.
 4. Is that a real failure or a flake?
     1. Restart that step. Maybe it will fail again, but if it doesn't it'll save you time. 
         - 💡 You can go to 3. while it runs. 
     1. See [Is that a failure or a flake scenario](is-this-a-failure-or-a-flake)
     1. Did restarting it fixed the problem?
-        - Yes: that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
-        - No: see next point.
+        - **Yes**: that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
+        - **No**: see next point.
     1. Does the failure points to problem with the code that was shipped on that commit?
         1. Yes, and it's a very quick fix that can get merged promptly: 
             1. Write a short message on [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) and tell others that you're fixing it. 
@@ -65,7 +65,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
             1. Reach out a member of the team responsible for that test. 
             2. go for a. or b. from the previous points.
       1. No, and there is suspicion of a flake.
-          - Yes: that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
+          - **Yes**: that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
 
 ### Builds are all failing on the `main` branch with the same error
 
@@ -85,21 +85,21 @@ This page lists common failures scenarios and provide a step by step guide to ge
 1. Is this an external failure or an internal one?
     - 💡 External failures are about downloading a dependency like a package in a script or a in a Dockerfile. Often they'll manifest in the form of an HTTP error.
     - 💡 If unsure, ask for help on [#dev-chat](https://sourcegraph.slack.com/archives/C07KZF47K).
-    - Yes, it's an external failure:
+    - **Yes**, it's an external failure:
         1. See the [SSH into an agent scenario](#sshing-into-an-agent)
         1. Try to reproduce the faulty HTTP request so you can observe what's the problem. Is it the same failure?
-            - Yes: Do you know how to fix it? If no escalate by creating an incident (`/incident` on Slack).
-            - No: escalate by creating an incident (`/incident` on Slack).
-    - No, it's an internal failure:
+            - **Yes**: Do you know how to fix it? If **no** escalate by creating an incident (`/incident` on Slack).
+            - **No**: escalate by creating an incident (`/incident` on Slack).
+    - **No**, it's an internal failure:
         1. Is it involving faulty state in the agents? (a given tool is not found where it should have been present, or have incorrect version)
             1. Launch `k9s` and select an agent, they are named like `buildkite-agent-xxxxxxxxxx-yyyyy`
             1. Press `s` to SSH on it.
             1. Inspect the state on the faulty agent. Take note of what you see.
           1. Try to find an agent that recently successfully ran the faulty step (look for a green build on the `main` branch) 
-              1. Can you see a difference? If yes take note. 
+              1. Can you see a difference? If **yes** take note. 
           1. Do you know how to fix it?
-              - Yes: apply the fix.
-              - No: Restart the agents to see if it fixes the problem. See [Restarting the agents](#restarting-the-agents)
+              - **Yes**: apply the fix.
+              - **No**: Restart the agents to see if it fixes the problem. See [Restarting the agents](#restarting-the-agents)
                   - Does it fix the problem? If no, escalate by creating an incident (`/incident` on Slack).
 
 ### Build are failing on the `main` branch with different errors
@@ -144,8 +144,8 @@ This page lists common failures scenarios and provide a step by step guide to ge
   - Is this a Docker image build step?
     - 💡 This should really not be happening. 
     - Is the error about the Docker daemon?
-      - If yes, this is a CI infrastructure flake. Ping `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
-      - If no: reach out to the team owning that Docker image *immediately*.
+      - **Yes**, this is a CI infrastructure flake. Ping `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
+      - **No**: reach out to the team owning that Docker image *immediately*.
   - Anything else
     - Take note of the failing step and go to next point.
 1. Is that flake related to the CI infrastructure?
@@ -153,7 +153,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
     - Docker daemon not being reachable.
     - Missing tools that we use to run the steps, such as `go`, `node`, `comby`, ...
     - Errors from `asdf`, which is used to manage the above tools.
-  - If yes: ping `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
+  - **Yes**: ping `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
     - If nodoby is online to help:
       - Reach out for help in [#dev-chat](https://sourcegraph.slack.com/archives/C07KZF47K) 
       - Try [Restarting the agents](#restarting-the-agents) and restart the build.
@@ -175,17 +175,17 @@ This page lists common failures scenarios and provide a step by step guide to ge
 1. Immediately restart the faulty step.
   - 💡 It will save you time while you're looking at the logs.
   - Is the step passing now?
-    - Yes: See [Spotted a flake scenario](#spotted-a-flake)
-    - No: Give it another try, and see next point.
+    - **Yes**: See [Spotted a flake scenario](#spotted-a-flake)
+    - **No**: Give it another try, and see next point.
 1. Check on [Grafana](https://sourcegraph.grafana.net/explore?orgId=1&left=%5B%22now-12h%22,%22now%22,%22grafanacloud-sourcegraph-logs%22,%7B%22refId%22:%22A%22,%22expr%22:%22%7Bapp%3D%5C%22buildkite%5C%22%7D%22%7D%5D) if there are any occurrences of the failures that were previously observed:
   1. Go the the "Explore" section
   1. Make sure to select `grafanacloud-sourcegraph-logs` in the dropdown at the top of page.
   1. Scope the time window to `7 Days` to make sure to find previous occurrences if there are any
   1. Enter a query such as `{app="buildkite"} |= "your error message"` where "your error message" is a string that identiy approximately the failure cause observed in the failing step.
   1. Is there a build that failed exactly like this?  
-    - Yes: 
-      1. Double check that you're looking at that the same step by inspecting the labels of message (click on the line to make them visible)
-      1. If yes, that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
+    - **Yes**: 
+      1. 💡 Double check that you're looking at that the same step by inspecting the labels of message (click on the line to make them visible)
+      1. **Yes**, that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
 
 
 ### Restarting the agents
@@ -202,7 +202,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 1. In a different terminal, run `kubectl -n buildkite rollout restart deployment buildkite-agent`.
 1. Wait a bit to see the agents restarting completely. 
 1. Restart the faulty build and observe it the problem is fixed or not. 
-  - If necessary: escalate by creating an incident (`/incident` on Slack).
+    - If necessary: escalate by creating an incident (`/incident` on Slack).
 
 ### SSH'ing into an agent
 
