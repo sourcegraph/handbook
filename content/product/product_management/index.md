@@ -22,7 +22,7 @@ In addition to this shared content, each team has a set of sources of truth (tha
 
 #### OKR and roadmap tracking
 
-We have a [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/1) (internal only) in GitHub. Each month you should work with your engineering manager to update this content, which is the source of truth for goal and roadmap tracking.
+We have a [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/1) (internal only) in GitHub. Each month you should work with your team to update this content, which is the source of truth for goal and roadmap tracking.
 
 After updating this content, you should ensure it is reflected in the manually created slide decks which rely on this information:
 
