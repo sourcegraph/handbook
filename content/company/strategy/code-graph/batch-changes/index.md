@@ -46,6 +46,12 @@ To deliver our vision, we will:
 - Then, release Batch Changes on Sourcegraph Cloud, and test and learn how we can serve individuals and smaller teams.
 - Eventually, address the problem end to end by becoming the go-to place for code change tools and recipes.
 
+## Competitive landscape
+
+Our primary competition comes from companies building internal tools to apply and track code changes. Individuals also build scripts around [git-xargs](https://github.com/gruntwork-io/git-xargs) or [turbolift](https://github.com/Skyscanner/turbolift) to create changesets, then tend to outgrow it when they scale usage (lack of changeset tracking, collaboration, reproducibility). Every tool relies on a search engine to return matches, so being integrated with Sourcegraph search is a key competitive advantage.
+
+We expect to see more vertical competition, first focusing on building refactoring frameworks focused on a language ecosystem, then moving into the tooling space. [Moderne](https://moderne.io/)/[openrewrite](https://github.com/openrewrite/rewrite) is the first significant example of this, focused on the Java ecosystem. We are committed to remaining language-agnostic, which includes using Batch Changes to apply and track changesets created with openrewrite or any other refactoring framework. We also think there is an opportunity in leveraging precise code intelligence to create radically better code change tools that support many languages in the future.
+
 # Guiding Principles
 
 ## Themes
