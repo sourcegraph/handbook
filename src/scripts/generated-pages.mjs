@@ -40,34 +40,40 @@ async function generateMaturityPage(features, maturityLevels, productTeams, prod
     }
 
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
-        pageContent += `\n## ${productTeam.title}\n`
+        console.log(`checking ${productTeamName}`)
+        var featureCount = 0
+        var areaContent = `\n## ${productTeam.title}\n`
         if (productOrgs[productTeam.product_org].strategy_link) {
             const strategyUrl = createRelativeProductLink(productOrgs[productTeam.product_org].strategy_link)
-            pageContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
+            areaContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
         }
         if (productTeam.strategy_link) {
-            pageContent += `[${productTeam.title} Strategy](${createRelativeProductLink(productTeam.strategy_link)}))\n`
+            areaContent += `[${productTeam.title} Strategy](${createRelativeProductLink(productTeam.strategy_link)}))\n`
         }
         if (productTeam.pm) {
             const bioLink = `../company/team/index.md#${teamMembers[productTeam.pm].name
                 .toLowerCase()
                 .replace(/\s+/g, '-')}`
-            pageContent += `\nProduct Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
+            areaContent += `\nProduct Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
         }
 
-        pageContent += '\n|Feature|Maturity|\n'
-        pageContent += '|-------|--------|\n'
+        areaContent += '\n|Feature|Maturity|\n'
+        areaContent += '|-------|--------|\n'
 
         for (const feature of Object.values(features)) {
             if (feature.product_team === productTeamName) {
+                featureCount++
                 if (feature.documentation_link) {
                     const url = createRelativeProductLink(feature.documentation_link)
-                    pageContent += `|[${feature.title}](${url})`
+                    areaContent += `|[${feature.title}](${url})`
                 } else {
-                    pageContent += `|${feature.title}`
+                    areaContent += `|${feature.title}`
                 }
-                pageContent += `|${maturityLevels[feature.maturity].title}|\n`
+                areaContent += `|${maturityLevels[feature.maturity].title}|\n`
             }
+        }
+        if (featureCount > 0) {
+            pageContent += areaContent
         }
     }
 
@@ -89,51 +95,56 @@ async function generateCompatibilityPage(features, productTeams, productOrgs, co
     }
 
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
-        pageContent += `\n## ${productTeam.title}\n`
+        var featureCount = 0
+        var areaContent = `\n## ${productTeam.title}\n`
         const productOrg = productOrgs[productTeam.product_org]
         if (productOrg.strategy_link) {
             const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
-            pageContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
+            areaContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
         }
         if (productTeam.strategy_link) {
-            pageContent += `[${productTeam.title} Strategy](${createRelativeProductLink(productTeam.strategy_link)}))\n`
+            areaContent += `[${productTeam.title} Strategy](${createRelativeProductLink(productTeam.strategy_link)}))\n`
         }
         if (productTeam.pm) {
             const bioLink = `../company/team/index.md#${teamMembers[productTeam.pm].name
                 .toLowerCase()
                 .replace(/\s+/g, '-')}`
-            pageContent += `\nProduct Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
+            areaContent += `\nProduct Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
         }
 
-        pageContent += '\n|Feature|'
+        areaContent += '\n|Feature|'
         for (const codeHost of Object.values(codeHosts)) {
-            pageContent += `${codeHost.title} |`
+            areaContent += `${codeHost.title} |`
         }
-        pageContent += '\n|-------|'
+        areaContent += '\n|-------|'
         for (const codeHost of Object.values(codeHosts)) {
-            pageContent += '-|'
+            areaContent += '-|'
         }
-        pageContent += '\n'
+        areaContent += '\n'
 
         for (const feature of Object.values(features)) {
             if (feature.product_team === productTeamName) {
+                featureCount++
                 if (feature.documentation_link) {
-                    pageContent += `|[${feature.title}](${createRelativeProductLink(feature.documentation_link)})`
+                    areaContent += `|[${feature.title}](${createRelativeProductLink(feature.documentation_link)})`
                 } else {
-                    pageContent += `|${feature.title}`
+                    areaContent += `|${feature.title}`
                 }
-                pageContent += '|'
+                areaContent += '|'
                 for (const codeHostName of Object.keys(codeHosts)) {
                     if (feature.compatibility === undefined) {
-                        pageContent += ' |'
+                        areaContent += ' |'
                     } else if (feature.compatibility[codeHostName]) {
-                        pageContent += '✔️|'
+                        areaContent += '✔️|'
                     } else {
-                        pageContent += ' |'
+                        areaContent += ' |'
                     }
                 }
-                pageContent += '\n'
+                areaContent += '\n'
             }
+        }
+        if (featureCount > 0) {
+            pageContent += areaContent
         }
     }
 
