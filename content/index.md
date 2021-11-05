@@ -1,3 +1,8 @@
+---
+title: Sourcegraph Handbook
+description: The Sourcegraph handbook describes how we (Sourcegraph teammates) work.
+---
+
 # Sourcegraph handbook
 
 The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](company/index.md#open-company).
