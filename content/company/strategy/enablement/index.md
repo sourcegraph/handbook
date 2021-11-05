@@ -22,7 +22,7 @@ Our mission is to provide the right technical foundations critical to the succes
 
 ## Focus Areas
 
-We are focused on several themes to help make our one-year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product area is delivering, take a look at the individual team strategy pages, as indexed on our [strategy home page](../index.md#enablement)
+We are focused on several themes to help make our one-year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product team is delivering, take a look at the individual team strategy pages, as indexed on our [strategy home page](../index.md#enablement)
 
 ### Make it easier to contribute to our frontend codebase
 

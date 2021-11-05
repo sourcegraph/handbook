@@ -1,22 +1,22 @@
 # Strategy page template
 
-> ℹ️  The following is a template for use on the pages of specific product & engineering teams, used to record and share the vision and strategy and ultimately organize and communicate your thinking around prioritization. Some sections may be more applicable to customer-facing product areas, such as the analyst and competitive landscape, so feel free to customize or remove any sections that you know are not relevant to your strategy.
+> ℹ️  The following is a template for use on the pages of specific product & engineering teams, used to record and share the vision and strategy and ultimately organize and communicate your thinking around prioritization. Some sections may be more applicable to customer-facing product teams, such as the analyst and competitive landscape, so feel free to customize or remove any sections that you know are not relevant to your strategy.
 
-> Copy to your team's page and complete accordingly. Other sources of truth (such as Q3 one-pagers, existing goals pages) should have their content integrated here and then be marked as deprecated. Be sure to also replace instances of `ProductArea` with your actual product area name. Unless otherwise specified, each section should be a paragraph or two but you're welcome to use your own judgement if you think a deeper dive is appropriate.
+> Copy to your team's page and complete accordingly. Other sources of truth (such as Q3 one-pagers, existing goals pages) should have their content integrated here and then be marked as deprecated. Be sure to also replace instances of `ProductArea` with your actual product team name. Unless otherwise specified, each section should be a paragraph or two but you're welcome to use your own judgement if you think a deeper dive is appropriate.
 
-> As you write this document, keep in mind that focusing on problems to solve more than lists of features tends to be a better way to approach communicating with people interested in your product area (customers, sales, analysts, etc.) as it leaves room for learning between what you know now and what you deliver in the end. This is not to say you never talk about features, but especially as you get [further out in planning](https://medium.com/@jobv/the-nearsighted-roadmap-57fa57b5906a) the blend of features vs. problems to solve should move more towards the latter.
+> As you write this document, keep in mind that focusing on problems to solve more than lists of features tends to be a better way to approach communicating with people interested in your product team (customers, sales, analysts, etc.) as it leaves room for learning between what you know now and what you deliver in the end. This is not to say you never talk about features, but especially as you get [further out in planning](https://medium.com/@jobv/the-nearsighted-roadmap-57fa57b5906a) the blend of features vs. problems to solve should move more towards the latter.
 
 > Be sure also to explain [why something is part of your strategy](https://medium.com/leadership-motivation-and-impact/the-power-of-starting-with-why-f8e491392ef8). What you are doing is interesting, but why you have chosen that of all the possibilities is often even more enlightening.
 
 ---
 
-# ProductArea Strategy
+# ProductTeam Strategy
 
 This page outlines the vision, strategy and goals of the ProductArea team. You can use this section to describe what your scope is, and where your product is today.
 
 Quicklinks:
 
-- [ProductArea Backlog](https://about.sourcegraph.com/) <!-- Update links with your page -->
+- [ProductTeam Backlog](https://about.sourcegraph.com/) <!-- Update links with your page -->
 - [Latest demo](https://about.sourcegraph.com/)
 - [Documentation](https://about.sourcegraph.com/)
 
@@ -68,13 +68,13 @@ Describe the target by which we prioritize:
 
 ### Competitive landscape
 
-- Who is the competition for this product area?
+- Who is the competition for this product team?
 - What recent developments in competition is impacting sales, marketing and product strategy?
 
 ### Analyst landscape
 
-- If you are not currently involved with analyst discussions for your product area, you can reach out to Christina for context here and to stay in the loop in the future.
-- Are there analysts tracking this product area?
+- If you are not currently involved with analyst discussions for your product team, you can reach out to Christina for context here and to stay in the loop in the future.
+- Are there analysts tracking what this product team works on?
 - How are analysts positioning the product? What are areas of improvement?
 
 ## Strategy and Plans
