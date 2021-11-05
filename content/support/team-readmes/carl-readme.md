@@ -1,6 +1,6 @@
 ## Carl Hicks
 
-[Bio on team page](../../company/team/index.md#carl-hicks-he-him)
+[Bio on team page](../../company/team/index.md#carl-hicks)
 
 ### View on Customer Support
 

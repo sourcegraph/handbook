@@ -41,7 +41,7 @@ A few notes for CE:
 - If a CE feels compelled to let a customer know CS will help them, they should do so without using loaded terms like “ASAP” or that sign up CS for something they may not be able to honor
   - _Let me chat with members of our engineering and support team. I'll bring them up to speed on the situation and I should have a follow-up for you in a few hours at most. Please let me know if anything comes up in the meantime that I should look into._
   - When the CS makes first contact with the customer after taking the lead on the issue, they should first establish the context that has already been transfered. _Hey $CUSTOMER, $CE brought me up to speed on the issue. First off, let me say I'm sorry you ran into this issue and thanks for working with us to resolve this. My priority from here is to get this resolved ASAP. Here's what I understand is the situation..._
-- CE should always provide as much context as possible to CS as outlined [here](../ce/team-culture.md#customer-support-engineers-cses)
+- CE should always provide as much context as possible to CS as outlined [here](../ce/team-culture.md#customer-support-cs)
 
 A few notes for CS:
 
