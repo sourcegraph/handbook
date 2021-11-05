@@ -457,7 +457,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Working session
 
-  - Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney-she-her), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
+  - Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
   - Duration: 1 hour
   - Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time.We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
 
@@ -488,7 +488,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Marketing collaboration
 
-  - Interviewer: [Marketing team member](../company/team/org_chart.md#sts=Marketing)
+  - Interviewer: [Marketing team member](../company/team/org_chart.md#marketing)
   - Duration: 30 mins
   - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 

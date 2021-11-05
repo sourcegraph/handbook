@@ -3,8 +3,8 @@
 Total interview time: 5 hrs
 
 1. [30 min] **[Initial screen](../initial_screen.md)**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
-1. [30 min] **[Hiring manager screen](../hm_intro_call.md)**: with [Christina Forney](../../../../company/team/index.md#christina-forney-she-her), VP Product to elaborate on your previous experiences.
-1. [1 hr] **[Resume deep dive](../../../../talent/types_of_interviews.md#sts=Resume%20deep%20dive)** with [Christina Forney](../../../../company/team/index.md#christina-forney-she-her), VP Product
+1. [30 min] **[Hiring manager screen](../hm_intro_call.md)**: with [Christina Forney](../../../../company/team/index.md#christina-forney), VP Product to elaborate on your previous experiences.
+1. [1 hr] **[Resume deep dive](../../../../talent/types_of_interviews.md#resume-deep-dive)** with [Christina Forney](../../../../company/team/index.md#christina-forney), VP Product
 1. [2.5 hrs "Onsite"]
    - [30 min] **Design collaboration**: Discuss your experiences cross-collaborating with a [Product Designer](../../../product_org.md)
    - [30 min] **Marketing collaboration**: Meet your a member of the [Marketing team](../../../../marketing/index.md#members)

@@ -79,7 +79,7 @@ Additionally, our [product design principles](../../product/design/product_desig
 
 ## Where we're at now
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature reference pages](../../product/index.md#feature-reference).
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature reference pages](../../product/index.md#product-area-and-feature-reference).
 
 ## One year vision
 

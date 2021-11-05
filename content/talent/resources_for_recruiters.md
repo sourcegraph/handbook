@@ -67,7 +67,7 @@ As a next step, please:
 
 Interview process / hiring team:
 
-- [30m] [Recruiter screen](./types_of_interviews.md#sts=Recruiter%20screen): \_\_
+- [30m] [Recruiter screen](./types_of_interviews.md#recruiter-screen): \_\_
 - [30-60m] [Hiring Manager screen](./types_of_interviews.md#hiring-manager-screen): \_\_
 - Assignment, if applicable: \_\_
 - In-depth Interview Stage:

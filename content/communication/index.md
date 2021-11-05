@@ -148,7 +148,7 @@ If you need to deprecate just part of a Google Doc, replace the deprecated porti
 ## Handling conflicts
 
 - [Conflict resolution](./conflicts.md)
-- [Clean escalation](./conflicts.md#clean-resolution)
+- [Clean escalation](./conflicts.md#clean-escalation)
 - [Customer ethics policy](customer_ethics.md)
 
 ## Brain Food

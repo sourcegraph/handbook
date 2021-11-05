@@ -64,6 +64,19 @@ If you're not sure what the error message means or can't determine how to fix it
   - This is telling you the broken link is on the `content/product/product-org.md` page.
   - Visit the page where the broken link exists. Find that link within the page, and [update the relative path](linking-within-handbook.md) to reflect the new location of the page. Or, if the page has been deleted, remove the link altogether. As always, don’t hesitate to ask @handbook-support in the #handbook Slack channel for help.
 
+#### Anchor reference warnings
+
+You may see messages when links are being checked that look like this:
+
+```
+Warning: Anchor reference from ./content/engineering/incidents/playbooks/index.md to ./content/engineering/deployments/index.md (#kubernetes) missing
+Warning: Anchor reference from ./content/marketing/content/editorial/editorial-strategy.md to ./content/marketing/content/editorial/index.md (#content-principles) missing
+```
+
+These will not cause a failure with the build, but indicate that there is a reference to an anchor (i.e., a specific section on the page) that is not valid. To use the first example above, the Playbooks page refers to a section on the Deployments page called Kubernetes, but that section isn't there.
+
+It's easy to end up with orphaned anchors as content changes, so if you see these warnings and now how to fix them please do. Sometimes the link should be updated to a new page where the content moved, the anchor should be renamed to whatever the section was renamed to, or the anchor should simply be removed.
+
 ### YAML build errors
 
 YAML build errors can happen when you are editing the `.yml` files under `/data`, such as when you are adding yourself to the team page. These errors will throw `YAMLException`s, and there will be a few lines of the file and (usually) an arrow pointing exactly to where the problem is.
