@@ -28,15 +28,11 @@ This is a new game. Companies that master this will thrive. Companies that don't
 
 To make it so [everyone can code](#purpose), we will create tools, networks, and incentives for coding at ever-larger scale.
 
-## Goals
-
-Our [goals](../goals/index.md) describe what each of us is working toward now (so that we succeed in our long-term mission).
-
 ## Values
 
 Our [values](../values.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
 
-### Principles
+## Principles
 
 - Sourcegraph is universal code search, not universal "everything" search. Any additional data types in our search need to be relevant to the software development workflow.
 - We want every developer, not just a specific niche audience, to use Sourcegraph.
@@ -68,14 +64,14 @@ Additionally, our [product design principles](../../product/design/product_desig
 - **Create momentum**<br />
   Help developers create and maintain flow. To do this, Sourcegraph must be fast in every way. We design purposefully to help users iterate and build momentum.
 
-### Assumptions
+## Assumptions
 
 - Sufficiently good code search will be useful to every developer many times per day (on average). It may take a while to convert any specific person into a frequent code search power user, but it will happen eventually.
 - Code search that is _exclusively_ for public/open-source code is not actually that useful because most people spend most of their time working on their organization's internal code.
 - Any given developer will only pick one code search tool to use. Any given company will standardize on a single code search tool.
   - Therefore, to avoid fragmentation, Sourcegraph should be not only _much_ better than the alternatives, but also _not worse_ in any significant way.
 
-### Pricing
+## Pricing
 
 - Trying Sourcegraph (to prove it works and is valuable) is free and (if you want) self-service.
 - If your organization is getting value from Sourcegraph with a lot of users, our [pricing](https://about.sourcegraph.com/pricing) is designed so that we earn money from you. This lets us invest in improving our product.
@@ -83,7 +79,7 @@ Additionally, our [product design principles](../../product/design/product_desig
 
 ## Where we're at now
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature reference pages](../../product/index.md#feature-reference).
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature reference pages](../../product/index.md#product-area-and-feature-reference).
 
 ## One year vision
 
@@ -186,7 +182,7 @@ Coding itself is a technology, and we anticipate the technology adoption curve w
 
 ## Per-area strategy pages
 
-Within this overall product strategy, individual product areas set their own goals and roadmaps aligned to the [company OKRs](../goals/2022_q3.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
+Within this overall product strategy, individual product areas set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
 ### [Code Graph](code-graph/index.md)
 

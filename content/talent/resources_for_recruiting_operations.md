@@ -71,10 +71,10 @@ How All Other Teammates Submit Interview Requests:
 
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
-- [Christina Forney](../company/team/index.md#christina-forney-sheher), VP Product: [Kylie Fligstein](../company/team/index.md#kylie-fligstein-sheher)
-- [Kacie Jenkins](../company/team/index.md#kacie-jenkins-sheher), VP Marketing: [Amber Furbush](../company/team/index.md#amber-furbush-sheher)
-- [Gregg Stone](../company/team/index.md#gregg-stone), VP Sales: [Amber Furbush](../company/team/index.md#amber-furbush-sheher)
-- [Nick Snyder](../company/team/index.md#nick-snyder-hehim), VP Engineering: Mahal
+- [Christina Forney](../company/team/index.md#christina-forney), VP Product: [Kylie Fligstein](../company/team/index.md#kylie-fligstein)
+- [Kacie Jenkins](../company/team/index.md#kacie-jenkins), VP Marketing: [Amber Furbush](../company/team/index.md#amber-furbush)
+- [Gregg Stone](../company/team/index.md#gregg-stone), VP Sales: [Amber Furbush](../company/team/index.md#amber-furbush)
+- [Nick Snyder](../company/team/index.md#nick-snyder), VP Engineering: Mahal
 
 ### How to Select a Values Interview Panel:
 

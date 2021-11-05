@@ -2,7 +2,7 @@
 
 ## Current organization
 
-- [Nick Snyder](index.md#nick-snyder-he-him), [VP Engineering](./roles.md#vp-engineering) (reports to [Beyang Liu](index.md#beyang-liu), CTO)
+- [Nick Snyder](index.md#nick-snyder), [VP Engineering](./roles.md#vp-engineering) (reports to [Beyang Liu](../company/team/index.md#beyang-liu), CTO)
   - [Code graph](./code-graph/index.md)
     - [Search core](./code-graph/search/core.md)
     - [Search product](./code-graph/search/product.md)

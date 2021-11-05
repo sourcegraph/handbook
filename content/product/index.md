@@ -48,21 +48,17 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 - [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
-### Public facing roadmap
+### Product managmenet and Product design impact ladders
 
-We are missing a single source of truth for what is currently on the roadmap. Our customers as well as Sales, Customer Engineering, Customer Support, and Marketing all need to know what is on the roadmap. Today we use several methods to track our roadmap making any one source unreliable. The end goal is to have a single source of truth that is referenced as needed.
+To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
 
-- Owner: Serina
-- [Working Document](https://docs.google.com/document/d/1dsJ_0aXyPTE-vUDR9fIwVYEq1UBYN-rtH75qtI91pdg/edit#)
+- Owner: Christina -[Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
 ### Other initiatives
 
 There are a few other initiatives we will be tracking here soon:
 
-- Product management and product design impact ladders (started [here](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing))
 - CE / Product communication and prioritization improvements on feedback
-- Experimentation and improvements to planning
-- Consolidation and simplification of tooling
 
 In the meantime, we are using a [tracking document](https://docs.google.com/document/d/1ezjeAV2wnUKfXQjHE-Cy9eZ7i4HX2mty1zuE4VcGGGo/edit#) for these.
 
