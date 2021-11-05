@@ -117,15 +117,15 @@ for (const filePath of filePaths) {
                 const targetFile = relativeTarget.pathname
                 const targetAnchor = decodeURI(relativeTarget.href.split('#')[1])
                 const fileContent = await fs.readFile(targetFile, 'utf8')
-                const re = new RegExp('^#+ \\[*' + targetAnchor.replace(/\-/g, ' '), 'im')
+                const regex = new RegExp('^#+ \\[*' + targetAnchor.replace(/-/g, ' '), 'im')
                 if (
                     !fileContent
                         // this reimplements the rules for generating markdown ids
                         // better would be to render the markdown to html and check of ids
                         // directly
-                        .replace(/[\:\,\(\)\&\;\_\*\.\"]/g, '')
-                        .replace(/\-/g, ' ')
-                        .match(re)
+                        .replace(/["&()*,.:;_]/g, '')
+                        .replace(/-/g, ' ')
+                        .match(regex)
                 ) {
                     console.log(
                         `Warning: Anchor reference from ${fileUrl.pathname.replace(
