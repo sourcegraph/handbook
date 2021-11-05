@@ -91,6 +91,12 @@ If you need to update any specs, please reach out to your manager and [People Op
 
 - If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com), but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
 
+### Laptop upgrade
+
+If your laptop is 2 years or older, you are eligible for a new laptop (same budget as new laptop applies). Please fill out [this form](https://forms.gle/1PVxXwLJ9WFJvref9) if you want to proceed with getting a new laptop now.
+
+If you would like to upgrade to the new M1 Pro but you have had your current laptop for less than two years, please reach out to [Tech Ops](mailto:tech-ops@sourcegraph.com) and [Finance](mailto:finance@sourcegraph.com). Manager approval is required to explain the business need.
+
 ## Recurring expenses
 
 **Software/SaaS/cloud:** please check with the appropriate team and manager to ask if we already have a subscription or licenses to the software. If not, please get @sourcegraph/people-ops's approval for software or a subscription that would cost more than $500 per year.
@@ -118,8 +124,6 @@ You will not need permission for choosing which co-working space you’d like to
 ## Other expenses:
 
 **Laptop repairs:** if your laptop requires repairs, we cover up to $500 a year on repairs. If necessary repairs exceed the yearly budget please reach out to @sourcegraph/people-ops's for approval.
-
-**Laptop upgrade:** if your laptop is 4 years or older, you are eligible for a new laptop (same budget as new laptop applies).
 
 **Travel expenses:** please see our page on [travel budgets](../finance/travel.md).
 
