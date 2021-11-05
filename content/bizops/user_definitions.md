@@ -6,22 +6,23 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.
 
-| Metric                         | Description                                                                                                                                | Cloud | On-prem | Pings data point                        | Type*
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | ----- | ------- | --------------------------------------- | --------------------------- |
-| [Visitor](#visitor)            | Anyone who accessed the product                                                                                                            | ✔️    | ✔️      | `site_activity.MAU.UserCount`           | Activity |
-| [Active (Cloud)](#active-user)         | Users who performed a qualifying activation event (see below)                                                                              | ✔️    | n/a     | n/a                                     | Activity |
-| [Activated (Cloud)](#activated-user)   | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     | Characteristic |
-| [Registered](#registered-user) | A user with a created an account                                                                                                           | ✔️    | ✔️      | `site_activity.MAU.RegisteredUserCount` | Characteristic |
-| Retained                       | Users who were active last month _and_ this month                                                                                          | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity |
-| Churned                        | Users who were active last month but not this month                                                                                        | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity |
-| Resurrected                    | Users who were _not_ active last month but are active this month                                                                           | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity |
-| Created                        | Users whose account was created this month                                                                                                 | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity |
-| Deleted                        | Users whose account was deleted this month                                                                                                 | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity |
+| Metric                               | Description                                                                                       | Cloud | On-prem | Pings data point                        | Type\*         |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- | -------------- |
+| [Visitor](#visitor)                  | Anyone who accessed the product                                                                   | ✔️    | ✔️      | `site_activity.MAU.UserCount`           | Activity       |
+| [Active (Cloud)](#active-user)       | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     | Activity       |
+| [Activated (Cloud)](#activated-user) | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     | Characteristic |
+| [Registered](#registered-user)       | A user with a created an account                                                                  | ✔️    | ✔️      | `site_activity.MAU.RegisteredUserCount` | Characteristic |
+| Retained                             | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
+| Churned                              | Users who were active last month but not this month                                               | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
+| Resurrected                          | Users who were _not_ active last month but are active this month                                  | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
+| Created                              | Users whose account was created this month                                                        | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
+| Deleted                              | Users whose account was deleted this month                                                        | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
 
-****Types***
+\***_Types_**
+
 - Activity: How active a user is
 - MoM Activity: Month over month usage activity descriptor
-- Characteristic: a permanent user characteristic (except for creation/deletion of an account) 
+- Characteristic: a permanent user characteristic (except for creation/deletion of an account)
 
 ### Visitor
 
