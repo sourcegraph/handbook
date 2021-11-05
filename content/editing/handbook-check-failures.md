@@ -142,7 +142,7 @@ data/code_hosts.yml valid
 data/maturity_levels.yml valid
 data/team.yml valid
 data/features.yml valid
-data/product_areas.yml invalid
+data/product_teams.yml invalid
 data/search must have required property 'title'
 data/product_orgs.yml valid
 ```
