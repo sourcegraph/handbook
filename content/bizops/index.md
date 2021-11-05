@@ -27,7 +27,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [A/B testing](ab-testing.md)
 - [Guide to user journey mapping](../product/user_journey_maps.md)
 - [Guide to product-led growth](product_led_growth.md)
-- [Customer data policy](https://handbook.sourcegraph.com/bizops/customer_data_policy)
+- [Customer data policy](customer_data_policy.md)
 
 ## Goals
 
