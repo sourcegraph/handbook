@@ -93,7 +93,7 @@ If you need to update any specs, please reach out to your manager and [People Op
 
 ### Laptop upgrade
 
-If your laptop is 2 years or older, you are eligible for a new laptop (same budget as new laptop applies). Please fill out [this form](https://forms.gle/1PVxXwLJ9WFJvref9) if you want to proceed with getting a new laptop now.
+If your laptop is 2 years or older, you are eligible for a new laptop (same budget as new laptop applies). Please fill out [this form](https://forms.gle/1PVxXwLJ9WFJvref9) if you want to proceed with getting a new laptop.
 
 If you would like to upgrade to the new M1 Pro but you have had your current laptop for less than two years, please reach out to [Tech Ops](mailto:tech-ops@sourcegraph.com) and [Finance](mailto:finance@sourcegraph.com). Manager approval is required to explain the business need.
 
