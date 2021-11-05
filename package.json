@@ -84,7 +84,7 @@
     "hast-util-select": "^5.0.1",
     "hast-util-to-string": "^2.0.0",
     "hastscript": "^7.0.2",
-    "highlight.js": "^11.2.0",
+    "highlight.js": "^11.3.1",
     "js-yaml": "^4.1.0",
     "mdi-react": "^7.5.0",
     "mkdirp": "^1.0.4",
