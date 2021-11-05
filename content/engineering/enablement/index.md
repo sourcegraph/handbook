@@ -2,51 +2,43 @@
 
 ## Mission
 
-Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph.
+Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph. For a deep dive into our mission see our [strategy page](../../company/strategy/enablement/index.md)
 
-## Teams
+## Team
 
-- [Repo Management](repo-management/index.md)
-- [Delivery](delivery/index.md)
-- [Dev Experience](dev-experience/index.md)
-- [Frontend Platform](frontend-platform/index.md)
-- [Engineering Education](engineering-education/index.md)
-
-## Org Chart
-
-The org is lead by [Serina Clark](../../company/team/index.md#serina-clark-her-she-hers) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Director of Engineering](../roles.md#director-of-engineering))
+The org is lead by [Serina Clark](../../company/team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../company/team/index.md#jean-du-plessis) ([Director of Engineering](../roles.md#director-of-engineering))
 
 - [Repo Management](repo-management/index.md)
-  - [Jordan Plahn](../../company/team/index.md#jordan-plahn-hehim) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Dan Mckean](../../company/team/index.md#dan-mckeen-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
-  - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
-  - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
+  - [Jordan Plahn](../../company/team/index.md#jordan-plahn) ([Engineering Manager](../roles.md#engineering-manager))
+  - [Dan Mckean](../../company/team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
+  - [Ryan Slade](../../company/team/index.md#ryan-slade)
+  - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta)
 - [Delivery](delivery/index.md)
-  - [Stephan Budge](../../company/team/index.md#stephan-budge-hehim) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Dan Mckean](../../company/team/index.md#dan-mckeen-he-him) (acting [Product Manager](../../product/roles/index.md#product-manager))
+  - [Dan Mckean](../../company/team/index.md#dan-mckean) (acting [Product Manager](../../product/roles/index.md#product-manager))
+  - TBH ([Engineering Manager](../roles.md#engineering-manager))
   - [Geoffrey Gilmore](../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../company/team/index.md#dave-try)
   - [Crystal Augustus](../../company/team/index.md#crystal-augustus)
 - [Dev Experience](dev-experience/index.md)
-  - [Patrick Dubroy](../../company/team/index.md#patrick-dubroy-he-him) (acting [Engineering Manager](../roles.md#engineering-manager))
-  - [Taylor Sperry](../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../product/roles/index.md#product-manager))
+  - [Patrick Dubroy](../../company/team/index.md#patrick-dubroy) (acting [Engineering Manager](../roles.md#engineering-manager))
+  - [Taylor Sperry](../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
-  - [JH Chabran](../../company/team/index.md#jh-chabran-he-him)
+  - [JH Chabran](../../company/team/index.md#jh-chabran)
   - [Robert Lin](../../company/team/index.md#robert-lin)
 - [Frontend Platform](frontend-platform/index.md)
-  - [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../product/roles/index.md#product-designer))
-  - [Patrick Dubroy](../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Taylor Sperry](../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../product/roles/index.md#product-manager))
-  - [Tom Ross](../../company/team/index.md#tom-ross-he-him)
-  - [Valery Bugakov](../../company/team/index.md#valery-bugakov-he-him)
+  - [Alicja Suska](../../company/team/index.md#alicja-suska) ([Product Designer](../../product/roles/index.md#product-designer))
+  - [Patrick Dubroy](../../company/team/index.md#patrick-dubroy) ([Engineering Manager](../roles.md#engineering-manager))
+  - [Taylor Sperry](../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
+  - [Tom Ross](../../company/team/index.md#tom-ross)
+  - [Valery Bugakov](../../company/team/index.md#valery-bugakov)
 - [Engineering Education](engineering-education/index.md)
   - [Marek Zaluski](../../company/team/index.md#marek-zaluski)
 - Sourcegraph Handbook
-  - [Mary Belzer](../../company/team/index.md#mary-belzer-sheher) ([Product Manager](../../product/roles/index.md#product-manager))
+  - [Mary Belzer](../../company/team/index.md#mary-belzer) ([Product Manager](../../product/roles/index.md#product-manager))
 
 ## Principles and practices
 
-In addition to the [engineering principles and practices](../principles-and-practices.md), the Enablement org follows the following principles and practices.
+In addition to the [engineering principles and practices](../principles-and-practices.md), the Enablement org follows the following principles and practices. Each team is afforded the freedom to operate as best they see fit to achieve their goals. Below are principles and practices all teams in the Enablement org follow.
 
 ### Unblocking others is your highest priority
 
@@ -83,11 +75,6 @@ Reviewers should try to review promptly, allowing everyone involved in the pull 
 
 If the pull request's author has not heard anything after one day, a new reviewer should be assigned.
 
-## Processes
-
-Each team is afforded the freedom to operate as best they see fit to achieve their goals.
-The following processes apply to all teams in Developer Insights.
-
 ### Communication
 
 We recognize that frequent, open communication is key to the success of every team, especially in an all-remote environment.
@@ -122,15 +109,29 @@ _When acknowledging a question:_
 
 You should provide a written response unless it's a simple yes/no question, in which case `:thumbs-up:` (👍)/`:thumbs-down:` (👎) is acceptable.
 
-### Weekly Slack check-ins
+#### Weekly Slack check-ins
 
 We use [Geekbot](https://geekbot.com/) to facilitate a once-a-week (on a Monday) social check-in where we ask teammates across the org the share a bit about what goes on in their life in the #enablement-social Slack channel. We also use this opportunity to build camaraderie between team members by sharing some non-work-related aspects of our lives.
 
 Participation in sharing is voluntary.
 
-### Status updates
+#### Status updates
 
-Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../engineering-management.md#status-updates) by the Monday following their team's retrospective.
+Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../engineering-management.md#status-updates) by the Monday following their team's retrospective. This should happen at least once a month.
+
+#### Leadership sync
+
+To stay aligned as an organization the directors, engineering managers, and product managers are prompted with the following question in the #enablement-leaderhip channel weekly:
+
+- Monday
+  - What are your priorities?
+  - Any highlights on team priorites?
+  - Any challenges?
+- Friday
+  - What progress do you want to share on your priorities from Monday?
+  - What challenges did you face this week?
+
+On Thursday we meet as a leadership team to review progress on our [OKRs](../../company/strategy/enablement/index.md) and update the [Product/Engineering FY22Q4 Tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gf8321d95d6_3_34). In addtion we review updates on our [KPIs](https://docs.google.com/spreadsheets/d/1-yP2TT6m8VfZDKFSf9xgA9T_hBpjzQsRFv9-vt_jcpA/edit#gid=0). If we do not have a large enough cohort to hold a zoom meeting we drive the conversation asyncrhonously.
 
 ### Health reports
 

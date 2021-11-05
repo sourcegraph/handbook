@@ -23,7 +23,7 @@ To notify the above-mentioned teams, please submit an email to people-ops@source
 - Contract duration
 - Payment details (rate, frequency)
 - Expected start date
-- Do they require that we sign their vendor contract or are they willing to sign our [template service contract](../../legal/Contract%20Review%20and%20Signature%20Authority%20Policy.md#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services)?
+- Do they require that we sign their vendor contract or are they willing to sign our [template service contract](../../legal/ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services)?
 - Confirmation that this has been approved by the head of department
 
 ### Talent and People Ops: First steps

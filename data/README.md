@@ -3,7 +3,7 @@ This folder contains the source of truth for product information used in the han
 The data for features is hierarchical, and flows in this order:
 
 1. [product_orgs.yml](product_orgs.yml)
-1. [product_areas.yml](product_areas.yml)
+1. [product_teams.yml](product_teams.yml)
 1. [features.yml](features.yml)
 
 There is also reference data used to know what the set of maturity levels and pricing tiers are:

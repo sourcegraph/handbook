@@ -52,7 +52,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 ### 3. Offer stage
 
-- Once finalist is identified, Recruiter completes references.
+- Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
   - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
 - Recruiter submits offer for approval in Greenhouse.

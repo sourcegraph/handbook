@@ -8,11 +8,11 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Team
 
-- [Alicja Suska](../../company/team/index.md#alicja-suska-she-her) (she/her)
+- [Alicja Suska](../../company/team/index.md#alicja-suska) (she/her)
 - [Rob Rhyne](../../company/team/index.md#rob-rhyne) (he/him)
-- [Quinn Keast](../../company/team/index.md#quinn-keast-he-him) (he/him) – [ReadMe](https://quinnkeast.com/readme)
-- [Sara Lee](../../company/team/index.md#sara-lee-she-her) (she/her)
-- [Marisa Kanemoto](../../company/team/index.md#marisa-kanemoto-sheher) (she/her)
+- [Quinn Keast](../../company/team/index.md#quinn-keast) (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- [Sara Lee](../../company/team/index.md#sara-lee) (she/her)
+- [Marisa Kanemoto](../../company/team/index.md#marisa-kanemoto) (she/her)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -68,7 +68,6 @@ We avoid siloed work as much as possible. Instead of design and development phas
 - [Intersecting with other teams](./intersecting_with_other_teams/index.md)
 - [Team rituals](./team_rituals/index.md)
 - [Design team onboarding](./onboarding/index.md)
-- [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
 - [Surfacing design needs](./surfacing_design_needs/index.md)
 - [Design and Interaction Guidleines](design-and-interaction-guidelines.md)
 - [Design Process](design_process.md)

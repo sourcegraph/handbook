@@ -119,7 +119,7 @@ We have five main learnings from the first year of Batch Changes:
 
 ### Top customer, support, sales, and marketing issues
 
-Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CEs and CSEs. The top issues surfaced to CSE, CE and Product are:
+Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CE and CS. The top issues surfaced to CS, CE and Product are:
 
 - Changesets are not syncing frequently enough. There also are many feature requests for a bulk sync operation ([#21458](https://github.com/sourcegraph/sourcegraph/issues/21548)), that indicate that users think changesets do not sync properly. The current root cause is that users haven't set up [webhooks](https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits).
 - Users struggle to configure credentials, and get confused by the various options (code host token, global service account, personal access token).
