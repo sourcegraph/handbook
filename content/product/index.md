@@ -19,7 +19,7 @@ There is also a [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8W
 
 ## Product team and feature matrices
 
-We have a matrix of product teams:
+We have a list of product teams:
 
 - [Product team reference](product_teams.md)
 
