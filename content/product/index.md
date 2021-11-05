@@ -1,6 +1,6 @@
 # Product
 
-The product team at Sourcegraph consists of [product management](product_management/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md). 
+The product team at Sourcegraph consists of [product management](product_management/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md).
 
 The Product team strives to make the following true:
 
@@ -14,8 +14,8 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 ## Roadmap & Strategy
 
 - The [Sourcegraph strategy page](../company/strategy/index.md) containing our mission, vision, how we think about prioritization
-- The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features 
-- We track our key result for the current quarter with the following two artifact. 
+- The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
+- We track our key result for the current quarter with the following two artifact.
   - [GitHub project tracking board](https://github.com/orgs/sourcegraph/projects/214/views/1)
   - [Prod/Eng level OKR tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing).
 
@@ -54,9 +54,8 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 
 To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
 
-- Owner: Christina 
+- Owner: Christina
 - [Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
-
 
 ## References
 
@@ -72,6 +71,5 @@ To help guide people within the product organization on career growth we are cre
   - [How we use RFCs](../communication/rfcs/index.md)
 - [User research](./user_research/index.md)
 - [Product licensing](licensing.md)
-- [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only) 
+- [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
 - [Product Gaps Dasbhoard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
-
