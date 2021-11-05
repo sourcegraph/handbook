@@ -13,8 +13,8 @@ const AVATARS_TO_DISPLAY = 8
 
 const GENERATED_PAGE_DATA = {
     'company/team/index.md': 'team.yml',
-    'product/feature_maturity.md': 'product_areas.yml',
-    'product/product_areas.md': 'features.yml',
+    'product/feature_maturity.md': 'features.yml',
+    'product/product_teams.md': 'product_teams.yml',
     'product/feature_compatibility.md': 'features.yml',
 }
 
@@ -64,19 +64,20 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
             </div>
         )}
         <div className="sidebar-bottom-links">
-            {Object.keys(GENERATED_PAGE_DATA).map(pagePath => {
+            {Object.entries(GENERATED_PAGE_DATA).map(([pagePath, yamlFile]) => {
                 if (page.path === pagePath) {
                     return (
                         <Link
-                            href={`https://github.com/sourcegraph/handbook/edit/main/data/${GENERATED_PAGE_DATA[pagePath]}`}
+                            href={`https://github.com/sourcegraph/handbook/edit/main/data/${yamlFile}`}
                         >
                             Edit this page
                         </Link>
                     )
                 }
+                return null
             })}
 
-            {!Object.keys(GENERATED_PAGE_DATA).includes(page.path) && (
+            {!Object.prototype.hasOwnProperty.call(GENERATED_PAGE_DATA, page.path) && (
                 <Link
                     href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.path.replace(
                         /^\//,
