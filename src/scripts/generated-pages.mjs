@@ -183,7 +183,7 @@ async function generateTeamPage(teamMembers) {
     console.log('  ' + teamFile)
 }
 
-async function generateproductTeamsPage(teamMembers, productTeams, productOrgs) {
+async function generateProductTeamsPage(teamMembers, productTeams, productOrgs) {
     const productTeamsFilePath = 'content/product/product_teams.md'
     let pageContent = '# Sourcegraph product teams\n'
     pageContent +=
@@ -249,6 +249,6 @@ const teamMembers = await readYamlFile('data/team.yml')
 await generateMaturityPage(features, maturityLevels, productTeams, productOrgs, teamMembers)
 await generateCompatibilityPage(features, productTeams, productOrgs, codeHosts, teamMembers)
 await generateTeamPage(teamMembers)
-await generateproductTeamsPage(teamMembers, productTeams, productOrgs)
+await generateProductTeamsPage(teamMembers, productTeams, productOrgs)
 
 console.log('Successfully created all generated pages.\n')
