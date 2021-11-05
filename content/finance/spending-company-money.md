@@ -81,7 +81,7 @@ Different specs are required repending on your role, please see below for necess
 
 - Apple MacBook Pro - 14.2" M1 Pro - 16 GB RAM, 512 GB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-14-apple-m1-pro-chip-16-gb-ram-512-gb-ssd-spac/6738971?enkwrd=6738971)
-- Apple MacBook Pro - 16.2" M1 Pro - 16 GB RAM, 512 GB SSD 
+- Apple MacBook Pro - 16.2" M1 Pro - 16 GB RAM, 512 GB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-pro-16-gb-ram-512-gb-ssd-us/6738963?enkwrd=6738963)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
