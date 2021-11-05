@@ -109,7 +109,7 @@
     "ts-node": "^10.2.1",
     "unified": "^10.1.0",
     "unist-util-visit": "^4.1.0",
-    "vfile": "^5.1.0"
+    "vfile": "^5.2.0"
   },
   "devDependencies": {
     "@actions/core": "^1.6.0",
