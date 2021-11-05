@@ -40,7 +40,6 @@ async function generateMaturityPage(features, maturityLevels, productTeams, prod
     }
 
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
-        console.log(`checking ${productTeamName}`)
         let featureCount = 0
         let areaContent = `\n## ${productTeam.title}\n`
         if (productOrgs[productTeam.product_org].strategy_link) {
