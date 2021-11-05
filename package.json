@@ -106,7 +106,7 @@
     "retext": "^8.1.0",
     "retext-smartypants": "^5.1.0",
     "tippy.js": "^6.3.2",
-    "ts-node": "^10.2.1",
+    "ts-node": "^10.4.0",
     "unified": "^10.1.0",
     "unist-util-visit": "^4.1.0",
     "vfile": "^5.1.0"
