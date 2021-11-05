@@ -58,8 +58,8 @@ repository_management:
   issue_labels:
     - team/repo-management
 
-deployment:
-  title: Deployment
+delivery:
+  title: Delivery
   product_org: enablement
   strategy_link: /company/strategy/enablement/delivery/index.md
   pm: dan_mckean
@@ -89,7 +89,7 @@ devops:
 
 dev_experience:
   title: Developer Experience
-  product_org: cloud
+  product_org: enablement
   pm: taylor_sperry
   issue_labels:
     - team/dev-experience
