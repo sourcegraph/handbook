@@ -89,7 +89,7 @@ If you need to update any specs, please reach out to your manager and [People Op
 
 ### Other computer
 
-- If you want something different (such as a desktop computer), that is obviously fine. If it's more expensive than the laptops listed above, please check with your manager and [People Ops](mailto:people-ops@sourcegraph.com) first.
+- If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com) but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
 
 ## Recurring expenses
 
