@@ -19,7 +19,7 @@ Our roadmap (internal only) can be found at our [high-level OKR and roadmap trac
 
 ## Product team and feature matrices
 
-We have a matrix of product teams:
+We have a list of product teams:
 
 - [Product team reference](product_teams.md)
 
