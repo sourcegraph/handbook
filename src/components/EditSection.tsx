@@ -11,6 +11,13 @@ interface EditSectionProps {
 
 const AVATARS_TO_DISPLAY = 8
 
+const GENERATED_PAGE_DATA = {
+    'company/team/index.md': 'team.yml',
+    'product/feature_maturity.md': 'product_areas.yml',
+    'product/product_areas.md': 'features.yml',
+    'product/feature_compatibility.md': 'features.yml',
+}
+
 export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => (
     <section className="right-sidebar-section edit-section">
         {page.authors && page.authors.length > 0 && (
@@ -46,40 +53,25 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
                 <span className="text-muted mx-1" aria-hidden="true">
                     •
                 </span>{' '}
-                <Link href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.path}`}>
+                <Link href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${page.path.replace(/^\//, '')}`}>
                     History
                 </Link>
             </div>
         )}
         <div className="sidebar-bottom-links">
-            {page.path === 'company/team/index.md' && (
-                <Link href="https://github.com/sourcegraph/handbook/edit/main/data/team.yml">
-                    Edit this data on GitHub
-                </Link>
-            )}
-            {page.path === 'product/product_teams.md' && (
-                <Link href="https://github.com/sourcegraph/handbook/edit/main/data/product_teams.yml">
-                    Edit this data on GitHub
-                </Link>
-            )}
-            {page.path === 'product/feature_maturity.md' && (
-                <Link href="https://github.com/sourcegraph/handbook/edit/main/data/features.yml">
-                    Edit this data on GitHub
-                </Link>
-            )}
-            {page.path === 'product/feature_compatibility.md' && (
-                <Link href="https://github.com/sourcegraph/handbook/edit/main/data/features.yml">
-                    Edit this data on GitHub
-                </Link>
-            )}
-            {page.path !== 'company/team/index.md' &&
-                page.path !== 'product/feature_maturity.md' &&
-                page.path !== 'product/product_teams.md' &&
-                page.path !== 'product/feature_compatibility.md' && (
-                    <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.path}`}>
-                        Edit this page on GitHub
+            {Object.keys(GENERATED_PAGE_DATA).map(pagePath => {
+                if (page.path === pagePath) {
+                    return <Link href={`https://github.com/sourcegraph/handbook/edit/main/data/${GENERATED_PAGE_DATA[pagePath]}`} >
+                        Edit this page
                     </Link>
-                )}
+                }
+            })}
+
+            {!Object.keys(GENERATED_PAGE_DATA).includes(page.path) && (
+                <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${page.path.replace(/^\//, '')}`}>
+                    Edit this page
+                </Link>
+            )}
         </div>
     </section>
 )

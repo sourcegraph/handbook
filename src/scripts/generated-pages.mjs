@@ -197,7 +197,7 @@ async function generateProductTeamsPage(teamMembers, productTeams, productOrgs) 
     const productTeamsFilePath = 'content/product/product_teams.md'
     let pageContent = '# Sourcegraph product teams\n'
     pageContent +=
-        'This page contains a list of the product orgs and teams at Sourcegraph, and important information about them.\n'
+        'This page contains a list of the product orgs and areas at Sourcegraph, and important information about them.\n'
     pageContent += 'You may also be interested in seeing our [feature maturity](feature_maturity.md) or\n'
     pageContent += '[feature code host compatibility](feature_compatibility.md) matrices.\n'
 
@@ -256,6 +256,7 @@ const productOrgs = await readYamlFile('data/product_orgs.yml')
 const codeHosts = await readYamlFile('data/code_hosts.yml')
 const teamMembers = await readYamlFile('data/team.yml')
 
+// WARNING: If you add a new generated page please update GENERATED_PAGE_DATA in src/components/EditSection.tsx
 await generateMaturityPage(features, maturityLevels, productTeams, productOrgs, teamMembers)
 await generateCompatibilityPage(features, productTeams, productOrgs, codeHosts, teamMembers)
 await generateTeamPage(teamMembers)
