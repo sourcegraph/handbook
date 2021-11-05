@@ -24,7 +24,7 @@ We have a [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegra
 
 Weekly (by Friday 19:00 UTC):
 
-- The [OKR slide deck](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) which contains an easy to read version of the information in the tracker. This document contains only OKRs at the product/engineering level, not individual org OKRs.
+- The [OKR slide deck](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) which contains an easy to read version of the information in the tracker. This document contains only OKRs at the product/engineering level, not individual org OKRs, and is updated by Product Directors (based on the updates provided by product teams).
 
 Monthly:
 
