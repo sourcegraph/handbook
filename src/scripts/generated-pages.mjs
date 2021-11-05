@@ -41,8 +41,8 @@ async function generateMaturityPage(features, maturityLevels, productTeams, prod
 
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
         console.log(`checking ${productTeamName}`)
-        var featureCount = 0
-        var areaContent = `\n## ${productTeam.title}\n`
+        let featureCount = 0
+        let areaContent = `\n## ${productTeam.title}\n`
         if (productOrgs[productTeam.product_org].strategy_link) {
             const strategyUrl = createRelativeProductLink(productOrgs[productTeam.product_org].strategy_link)
             areaContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
@@ -95,8 +95,8 @@ async function generateCompatibilityPage(features, productTeams, productOrgs, co
     }
 
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
-        var featureCount = 0
-        var areaContent = `\n## ${productTeam.title}\n`
+        let featureCount = 0
+        let areaContent = `\n## ${productTeam.title}\n`
         const productOrg = productOrgs[productTeam.product_org]
         if (productOrg.strategy_link) {
             const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
