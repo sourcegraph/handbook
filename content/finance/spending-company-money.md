@@ -45,7 +45,7 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 Once your contract is signed, you will need to get your Sourcegraph computer. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
 
 **US based teammates**
-US base teammates need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+US based teammates need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
 **Non US teammates**
 Non US teammates will be responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](expenses.md).
@@ -62,7 +62,7 @@ Different specs are required repending on your role, please see below for necess
 
 ### Product team laptops:
 
-- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 512 GB SSD
+- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference]()
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
@@ -70,8 +70,6 @@ Different specs are required repending on your role, please see below for necess
 
 - Apple MacBook Pro - 16.2" M1 Max - 64 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-mbp-16-m1m-10c32c-64-1tb-sg/6740562?enkwrd=6740562)
-- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
-  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 ### Customer Support team laptops:
@@ -83,13 +81,15 @@ Different specs are required repending on your role, please see below for necess
 
 - Apple MacBook Pro - 14.2" M1 Pro - 16 GB RAM, 512 GB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-14-apple-m1-pro-chip-16-gb-ram-512-gb-ssd-spac/6738971?enkwrd=6738971)
+- Apple MacBook Pro - 16.2" M1 Pro - 16 GB RAM, 512 GB SSD 
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-pro-16-gb-ram-512-gb-ssd-us/6738963?enkwrd=6738963)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 If you need to update any specs, please reach out to your manager and [People Ops](mailto:people-ops@sourcegraph.com) for approval.
 
 ### Other computer
 
-- If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com) but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
+- If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com), but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
 
 ## Recurring expenses
 
