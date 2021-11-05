@@ -1,3 +1,8 @@
+---
+title: How to use the handbook
+description: Guidance on how to get the most out of the Sourcegraph handbook
+---
+
 # How to use the handbook
 
 ## Usage
