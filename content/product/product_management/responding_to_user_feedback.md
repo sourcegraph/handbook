@@ -21,8 +21,8 @@ We do our best to respond to any actionable feedback within 24 hours.
 A detailed explanation of the current process and the suggested reply structures can be found in the [feedback workflow doc](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#heading=h.vihl64g0qa6a). As a general rule:
 
 - Any customer feedback should be routed to CE.
-- Any feedback related to troubleshooting issues or a user having trouble to figure out how something works should be routed to CSE.
-- Any product feedback that are not from our customers, or customer feedback that we want to connect with, should be routed to the area's PM or EM.
+- Any feedback related to troubleshooting issues or a user having trouble to figure out how something works should be routed to application engineers.
+- Any product feedback that is not from our customers, or that we may want to follow up on, should be routed to the relevant PM or EM.
 
 ### GitHub issues created by third parties
 
