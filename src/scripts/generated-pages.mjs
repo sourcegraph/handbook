@@ -197,7 +197,7 @@ async function generateProductTeamsPage(teamMembers, productTeams, productOrgs) 
     const productTeamsFilePath = 'content/product/product_teams.md'
     let pageContent = '# Sourcegraph product teams\n'
     pageContent +=
-        'This page contains a list of the product orgs and areas at Sourcegraph, and important information about them.\n'
+        'This page contains a list of the product orgs and teams at Sourcegraph, and important information about them.\n'
     pageContent += 'You may also be interested in seeing our [feature maturity](feature_maturity.md) or\n'
     pageContent += '[feature code host compatibility](feature_compatibility.md) matrices.\n'
 
