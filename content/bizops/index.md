@@ -11,11 +11,11 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Members
 
-- [Dan Adler](../company/team/index.md#dan-adler-he-him), VP Operations
+- [Dan Adler](../company/team/index.md#dan-adler), VP Operations
 - [Eric Brody-Moore](../company/team/index.md#eric-brody-moore), Business Operations Manager
 - [Farhan Attamimi](../company/team/index.md#farhan-attamimi), Senior Data Operations Analyst
-- [Steph Hay](../company/team/index.md#steph-hay-she-her), Senior Business Operations Analyst
-- [Kelsey Brown](../company/team/index.md#kelsey-brown-she-her), Senior Business Operations Analyst
+- [Steph Hay](../company/team/index.md#steph-hay), Senior Business Operations Analyst
+- [Kelsey Brown](../company/team/index.md#kelsey-brown), Senior Business Operations Analyst
 - **Hiring**: [Director of Data and Analytics](https://boards.greenhouse.io/sourcegraph91/jobs/4084968004)
 
 ## Resources
@@ -26,6 +26,8 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [Amplitude overview](amplitude.md)
 - [A/B testing](ab-testing.md)
 - [Guide to user journey mapping](../product/user_journey_maps.md)
+- [Guide to product-led growth](product_led_growth.md)
+- [Customer data policy](customer_data_policy.md)
 
 ## Goals
 

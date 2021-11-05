@@ -4,11 +4,11 @@
 
 ### People Ops team members
 
-- [Debbie Johnstone](../company/team/index.md#debbie-johnstone-she-her), VP of People
-- [Noemi Mercado](../company/team/index.md#noemi-mercado-she-her), People Operations Manager
-- [Inés Roitman](../company/team/index.md#in%c3%a9s-roitman-she-her), Onboarding and Training Manager
-- [Cassie Melani](../company/team/index.md#cassie-melani-she-her), Teammate Success Manager
-- [Cecily Black](../company/team/index.md#cecily-black-she-her), People Operations Coordinator
+- [Debbie Johnstone](../company/team/index.md#debbie-johnstone), VP of People
+- [Noemi Mercado](../company/team/index.md#noemi-mercado), People Operations Manager
+- [Inés Roitman](../company/team/index.md#in%c3%a9s-roitman), Onboarding and Training Manager
+- [Cassie Melani](../company/team/index.md#cassie-melani), Teammate Success Manager
+- [Cecily Black](../company/team/index.md#cecily-black), People Operations Coordinator
 
 ### People Ops team READMEs
 
@@ -30,9 +30,11 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 
 [People Ops FAQs](people-ops-faqs.md)
 
-## Goals
+## Goals & Current Work
 
-WIP
+See People Ops OKRs [here](../company/goals/2022_q3.md#people-ops).
+
+See how we manage project and updates [here](people-ops-project-management.md).
 
 ## Things you need to know about working here
 

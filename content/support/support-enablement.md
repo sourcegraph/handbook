@@ -10,6 +10,7 @@ The following is available to help us honor our [ethos and guiding principles](i
 - [Debugging tips](debugging-tips.md)
 - [Navigating the PGSQL Database](pgsql-guide.md)
 - [How to deploy Sourcegraph to GCP with Kubernetes](enablement/gcp-sg-k8s.md)
+- [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
 
 ## Videos
 
@@ -21,6 +22,7 @@ The following is available to help us honor our [ethos and guiding principles](i
 - [How to deploy Sourcegraph to GCP with Kubernetes](https://drive.google.com/file/d/10uIp-rcN3nRa0FguScHU3NRrcXxgy6C7/view?usp=sharing) _note that #distribution is now defunct and if you have further questions on how to get up a cluster you should consult #delivery , #dev-ops and/or #dev-experience_
 - [Search crash course](https://drive.google.com/file/d/1OEDgTJAaaEL5N0bcxSbRbBrdi8FU_ZPN/view?usp=sharing)
 - [Search crash course: query lang](https://drive.google.com/file/d/1DOEKW279FbxipJCM6vDdKzly6epgNyyD/view?usp=sharing)
+- [How to fix a database corruption on a Kubernetes instance](https://drive.google.com/file/d/1NlAA6nKp4W_iKU9TWga1OtUje3Ua85n0/view?usp=sharing)
 
 ## Informational Pages
 

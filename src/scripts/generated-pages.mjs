@@ -24,7 +24,7 @@ function createRelativeProductLink(link) {
     return `..${link}`
 }
 
-async function generateMaturityPage(features, maturityLevels, productAreas, productOrgs) {
+async function generateMaturityPage(features, maturityLevels, productTeams, productOrgs) {
     const tiersFilePath = 'content/product/feature_maturity.md'
     let pageContent = '# Product Features by Maturity\n'
     pageContent +=
@@ -39,29 +39,40 @@ async function generateMaturityPage(features, maturityLevels, productAreas, prod
         pageContent += `- ${maturityLevel.title}: ${maturityLevel.definition}\n`
     }
 
-    for (const [productAreaName, productArea] of Object.entries(productAreas)) {
-        pageContent += `\n## ${productArea.title}\n`
-        const strategyUrl = createRelativeProductLink(productOrgs[productArea.product_org].strategy_link)
-        pageContent += ` ([${productOrgs[productArea.product_org].title} Strategy](${strategyUrl}) | `
-        pageContent += `[${productArea.title} Strategy](${createRelativeProductLink(productArea.strategy_link)}))\n`
-        if (productArea.pm) {
-            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name.toLowerCase().replace(/\s+/g, '-')}`
-            pageContent += `\nProduct Manager: [${teamMembers[productArea.pm].name}](${bioLink})`
+    for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
+        let featureCount = 0
+        let areaContent = `\n## ${productTeam.title}\n`
+        if (productOrgs[productTeam.product_org].strategy_link) {
+            const strategyUrl = createRelativeProductLink(productOrgs[productTeam.product_org].strategy_link)
+            areaContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
+        }
+        if (productTeam.strategy_link) {
+            areaContent += `[${productTeam.title} Strategy](${createRelativeProductLink(productTeam.strategy_link)}))\n`
+        }
+        if (productTeam.pm) {
+            const bioLink = `../company/team/index.md#${teamMembers[productTeam.pm].name
+                .toLowerCase()
+                .replace(/\s+/g, '-')}`
+            areaContent += `\nProduct Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
         }
 
-        pageContent += '\n|Feature|Maturity|\n'
-        pageContent += '|-------|--------|\n'
+        areaContent += '\n|Feature|Maturity|\n'
+        areaContent += '|-------|--------|\n'
 
         for (const feature of Object.values(features)) {
-            if (feature.product_area === productAreaName) {
+            if (feature.product_team === productTeamName) {
+                featureCount++
                 if (feature.documentation_link) {
                     const url = createRelativeProductLink(feature.documentation_link)
-                    pageContent += `|[${feature.title}](${url})`
+                    areaContent += `|[${feature.title}](${url})`
                 } else {
-                    pageContent += `|${feature.title}`
+                    areaContent += `|${feature.title}`
                 }
-                pageContent += `|${maturityLevels[feature.maturity].title}|\n`
+                areaContent += `|${maturityLevels[feature.maturity].title}|\n`
             }
+        }
+        if (featureCount > 0) {
+            pageContent += areaContent
         }
     }
 
@@ -69,7 +80,7 @@ async function generateMaturityPage(features, maturityLevels, productAreas, prod
     console.log('  ' + tiersFilePath)
 }
 
-async function generateCompatibilityPage(features, productAreas, productOrgs, codeHosts) {
+async function generateCompatibilityPage(features, productTeams, productOrgs, codeHosts) {
     const tiersFile = 'content/product/feature_compatibility.md'
     let pageContent = '# Product Feature Compatibility\n'
     pageContent +=
@@ -82,44 +93,57 @@ async function generateCompatibilityPage(features, productAreas, productOrgs, co
         pageContent += `- [${codeHost.title}](${codeHost.info_link})\n`
     }
 
-    for (const [productAreaName, productArea] of Object.entries(productAreas)) {
-        pageContent += `\n## ${productArea.title}\n`
-        const productOrg = productOrgs[productArea.product_org]
-        const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
-        pageContent += ` ([${productOrgs[productArea.product_org].title} Strategy](${strategyUrl}) | `
-        pageContent += `[${productArea.title} Strategy](${createRelativeProductLink(productArea.strategy_link)}))\n`
-        if (productArea.pm) {
-            const bioLink = `../company/team/index.md#${teamMembers[productArea.pm].name.toLowerCase().replace(/\s+/g, '-')}`
-            pageContent += `\nProduct Manager: [${teamMembers[productArea.pm].name}](${bioLink})`
+    for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
+        let featureCount = 0
+        let areaContent = `\n## ${productTeam.title}\n`
+        const productOrg = productOrgs[productTeam.product_org]
+        if (productOrg.strategy_link) {
+            const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
+            areaContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
+        }
+        if (productTeam.strategy_link) {
+            areaContent += `[${productTeam.title} Strategy](${createRelativeProductLink(productTeam.strategy_link)}))\n`
+        }
+        if (productTeam.pm) {
+            const bioLink = `../company/team/index.md#${teamMembers[productTeam.pm].name
+                .toLowerCase()
+                .replace(/\s+/g, '-')}`
+            areaContent += `\nProduct Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
         }
 
-        pageContent += '\n|Feature|'
+        areaContent += '\n|Feature|'
         for (const codeHost of Object.values(codeHosts)) {
-            pageContent += `${codeHost.title} |`
+            areaContent += `${codeHost.title} |`
         }
-        pageContent += '\n|-------|'
+        areaContent += '\n|-------|'
         for (const codeHost of Object.values(codeHosts)) {
-            pageContent += '-|'
+            areaContent += '-|'
         }
-        pageContent += '\n'
+        areaContent += '\n'
 
         for (const feature of Object.values(features)) {
-            if (feature.product_area === productAreaName) {
+            if (feature.product_team === productTeamName) {
+                featureCount++
                 if (feature.documentation_link) {
-                    pageContent += `|[${feature.title}](${createRelativeProductLink(feature.documentation_link)})`
+                    areaContent += `|[${feature.title}](${createRelativeProductLink(feature.documentation_link)})`
                 } else {
-                    pageContent += `|${feature.title}`
+                    areaContent += `|${feature.title}`
                 }
-                pageContent += '|'
+                areaContent += '|'
                 for (const codeHostName of Object.keys(codeHosts)) {
-                    if (feature.compatibility[codeHostName]) {
-                        pageContent += '✔️|'
+                    if (feature.compatibility === undefined) {
+                        areaContent += ' |'
+                    } else if (feature.compatibility[codeHostName]) {
+                        areaContent += '✔️|'
                     } else {
-                        pageContent += ' |'
+                        areaContent += ' |'
                     }
                 }
-                pageContent += '\n'
+                areaContent += '\n'
             }
+        }
+        if (featureCount > 0) {
+            pageContent += areaContent
         }
     }
 
@@ -169,18 +193,73 @@ async function generateTeamPage(teamMembers) {
     console.log('  ' + teamFile)
 }
 
+async function generateProductTeamsPage(teamMembers, productTeams, productOrgs) {
+    const productTeamsFilePath = 'content/product/product_teams.md'
+    let pageContent = '# Sourcegraph product teams\n'
+    pageContent +=
+        'This page contains a list of the product orgs and teams at Sourcegraph, and important information about them.\n'
+    pageContent += 'You may also be interested in seeing our [feature maturity](feature_maturity.md) or\n'
+    pageContent += '[feature code host compatibility](feature_compatibility.md) matrices.\n'
+
+    for (const [productOrgName, productOrg] of Object.entries(productOrgs)) {
+        pageContent += `\n## ${productOrg.title}\n\n`
+        if (productOrg.strategy_link) {
+            pageContent += `- [Strategy Page](${createRelativeProductLink(productOrg.strategy_link)})\n`
+        }
+        if (productOrg.strategy_link) {
+            const bioLink = `../company/team/index.md#${teamMembers[productOrg.pm].name
+                .toLowerCase()
+                .replace(/\s+/g, '-')}`
+            pageContent += `- Product Director: [${teamMembers[productOrg.pm].name}](${bioLink})\n`
+        }
+        for (const productTeam of Object.values(productTeams)) {
+            if (productTeam.product_org === productOrgName) {
+                pageContent += `\n\n### ${productTeam.title}\n`
+                if (productTeam.strategy_link) {
+                    pageContent += `- [Strategy Page](${createRelativeProductLink(productTeam.strategy_link)})\n`
+                }
+                if (productTeam.pm) {
+                    const bioLink = `../company/team/index.md#${teamMembers[productTeam.pm].name
+                        .toLowerCase()
+                        .replace(/\s+/g, '-')}`
+                    pageContent += `- Product Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
+                }
+                if (productTeam.issue_labels) {
+                    for (let index = 0; index < productTeam.issue_labels.length; index++) {
+                        if (index === 0) {
+                            pageContent += '\n- Issue labels: '
+                        }
+                        if (index < productTeam.issue_labels.length - 1) {
+                            pageContent += `[${productTeam.issue_labels[index]}](https://github.com/sourcegraph/sourcegraph/labels/${productTeam.issue_labels[index]}), `
+                        }
+                        if (index === productTeam.issue_labels.length - 1) {
+                            pageContent += `[${productTeam.issue_labels[index]}](https://github.com/sourcegraph/sourcegraph/labels/${productTeam.issue_labels[index]})`
+                            pageContent += '\n'
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    await writeFile(productTeamsFilePath, pageContent)
+    console.log('  ' + productTeamsFilePath)
+}
+
 console.log('Creating generated pages..')
 
 // Load YAML files
 const features = await readYamlFile('data/features.yml')
 const maturityLevels = await readYamlFile('data/maturity_levels.yml')
-const productAreas = await readYamlFile('data/product_areas.yml')
+const productTeams = await readYamlFile('data/product_teams.yml')
 const productOrgs = await readYamlFile('data/product_orgs.yml')
 const codeHosts = await readYamlFile('data/code_hosts.yml')
 const teamMembers = await readYamlFile('data/team.yml')
 
-await generateMaturityPage(features, maturityLevels, productAreas, productOrgs, teamMembers)
-await generateCompatibilityPage(features, productAreas, productOrgs, codeHosts, teamMembers)
+// WARNING: If you add a new generated page please update GENERATED_PAGE_DATA in src/components/EditSection.tsx
+await generateMaturityPage(features, maturityLevels, productTeams, productOrgs, teamMembers)
+await generateCompatibilityPage(features, productTeams, productOrgs, codeHosts, teamMembers)
 await generateTeamPage(teamMembers)
+await generateProductTeamsPage(teamMembers, productTeams, productOrgs)
 
 console.log('Successfully created all generated pages.\n')

@@ -18,7 +18,7 @@ It can feel a little weird at first. Everyone else is just working Slack, why ca
 
 At no point are we meant to be gate keepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-product-eng Slack channel is for!
 
-And that may make you wonder when a CSE would use the #ask-product-eng Slack channel. Simple, not for anything attached to a case. Longer answer:
+And that may make you wonder when an application engineer would use the #ask-product-eng Slack channel. Simple, not for anything attached to a case. Longer answer:
 
 - ...for your own curiosity as you are learning (a question you have that is not driven from a case)
 - ...as you work on an OKR project
@@ -156,7 +156,7 @@ We maintain two issue trackers:
 
 When in doubt, file in the private repo—issues can be moved over to the public repo if needed. And remember, a customer includes those we are working with during the sales process (not just those who have already signed a contract with us).
 
-- Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CSE New Issue template
+- Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CS New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 - Include Sourcegraph version number.
 - Include name of the extension along with the extension version number when filing issues with the extensibility team.
@@ -181,7 +181,7 @@ Selecting priority is more of an art than a science. Start with the issue and it
 
 After you file the Github issue, alert the relevant engineering team you did so in Slack. Keep it simple and always provide 1) a brief description of what you need, 2) link to the Github issue, and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
-- When posting in the Delivery team's Slack channel, please do not @ mention any of the team Slack handles at this time (as of 2021-10-20); the team is navigating the recent org changes and would prefer to not have such a trigger pulling them away from focus. They will absolutely respond in a timely fashion and appreciate us deviating from the usual protocol of including an @ mention as explained [here](../engineering/enablement/delivery/processes.md). They also understand remembering NOT to do this is extra cognitive load and we will revert to a standard process as soon as we are able.
+- When posting in the Delivery team's Slack channel, use @delivery-support
 - When posting in Batcher Changes team's Slack channel, use @batchers-support
 - When posting for Repository Management, be sure to do so in the #repo-management channel and use @core-app-support (if @repo-management-support doesn't exist)
 - When posting for Cloud/SaaS, be sure to do so in the #cloud-saas channel and use @cloud-saas

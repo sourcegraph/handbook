@@ -10,7 +10,7 @@ Several data points are needed to work out the cost:
 - Number of repositories
 - Number of those repositories that are monorepos
 
-These data points are also listed in the CSE [managed instance request template](https://github.com/sourcegraph/customer/blob/master/.github/ISSUE_TEMPLATE/new_managed_instance.md).
+These data points are also listed in the CS [managed instance request template](https://github.com/sourcegraph/customer/blob/master/.github/ISSUE_TEMPLATE/new_managed_instance.md).
 
 | Cost estimate  | Description                                                                                          |
 | -------------- | ---------------------------------------------------------------------------------------------------- |

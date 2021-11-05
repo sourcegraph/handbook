@@ -69,7 +69,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 ### Launch
 
 1. **Enable for all Sourcegraph Cloud users**
-   - Follow the steps in this [document](../../engineering/distribution/update_sourcegraph_website.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
+   - Follow the steps in this [document](../../engineering/cloud/devops/update_sourcegraph_website.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
    - In the PR that pushes changes live, add everyone who gave appproval for launch as reviewers.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.

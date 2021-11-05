@@ -40,6 +40,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Interview training & best practices](./interview_training.md)
 - [Recruiting Tools](./hiring/index.md#recruiting-tools)
   - [BrightHire](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire), our interview recording tool
+  - [TalentWall](./hiring/guide_to_using_talentwall.md#guide-to-using-talentwall)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
 ## [Resources for Recruiters](./resources_for_recruiters.md)

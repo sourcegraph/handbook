@@ -2,19 +2,19 @@
 
 In support of our product/engineering Q3 objective (see all OKRs [here](../company/goals/2022_q3.md) to _Make cloud and enterprise successful at massive scale_, one way we will measure our success in achieving this goal is for the **Customer Support team to maintain 100% support issue resolution within 7 days while only requiring help (filing a #rfh Github issue) on 10% (measured weekly looking at last 30 days)**. To accomplish this, we will…
 
-| #   | Status      | Responsible | Project                                                                                           |
-| --- | ----------- | ----------- | ------------------------------------------------------------------------------------------------- |
-| 1   | In-progress | Warren      | Add `src debug` command to `src-cli`                                                              |
-| 2   | In-progress | All CSEs    | Make at least 45 doc updates/additions across the team                                            |
-| 3   | In-progress | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                        |
-| 4   | In-progress | Adeola      | Create cheat sheets of what logs are most needed in certain situations                            |
-| 5   | Completed   | Beatrix     | Make the [command generator](https://command-generator.netlify.app/) customer-facing and scalable |
-| 6   | In-progress | Michael     | Create database type solution to make it easy and reliable for CSEs to learn from past tickets    |
-| 7   | In-progress | Alex        | Streamline key steps in CSE workflow                                                              |
-| 8   | In-progress | Carl        | 5 folks complete kubernetes certification                                                         |
-| 9   | In-progress | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                    |
-| 10  | Not started | Virginia    | Provide enablement in how to navigate difficult conversations with customers                      |
-| 11  | In-progress | Adeola      | CSE Onboarding updates V3                                                                         |
+| #   | Status | Responsible | Project                                                                                                                                         |
+| --- | ------ | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 🚫     | Warren      | Add `src debug` command to `src-cli`                                                                                                            |
+| 2   | 🚫     | All CS      | Make at least 45 doc updates/additions across the team                                                                                          |
+| 3   | ✅     | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                                                                      |
+| 4   | ✅     | Adeola      | Create [cheat sheets](debugging-cheat-sheet.md) of what logs are most needed in certain situations                                              |
+| 5   | ✅     | Beatrix     | Make the [command generator](https://command-generator.netlify.app/) customer-facing and scalable                                               |
+| 6   | ✅     | Michael     | Create [a database type solution](zendesk-ticket-exporter.md) to make it easy and reliable for application engineers to learn from past tickets |
+| 7   | 🚫     | Alex        | Streamline key steps in CS workflow                                                                                                             |
+| 8   | 🚫     | Carl        | 5 folks complete kubernetes certification                                                                                                       |
+| 9   | 🚫     | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                                                                  |
+| 10  | 🚫     | Virginia    | Provide enablement in how to navigate difficult conversations with customers                                                                    |
+| 11  | ✅     | Adeola      | [CS Onboarding updates V3](cs-onboard-mentor.md)                                                                                                |
 
 ## Task details
 
@@ -25,8 +25,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../compa
 
 ### 2 Doc updates
 
-- Workgroup: All CSEs
-- Slack Channel: #wg-cse-tools
+- Workgroup: n/a -- all CS
 - Details: Make at least 45 doc updates/additions across the team. These can be tied to cases or not. If not, be sure to link to the PR here:
 
 ### 3 Retro key Q2 tickets
@@ -94,8 +93,21 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../compa
 
 ## Progress update
 
-Progress update on how we are tracking toward our OKR can be found [here](https://docs.google.com/spreadsheets/d/11SJb0KdkT0Kmp0epjSkJ1TnzuWilnLEhILGrjl9kFCU/edit#gid=0), which is also linked in [the product/engineering tracker](https://docs.google.com/spreadsheets/d/1M7xgQuKTkxhAlOU2bZgnp5EjJgptwxNJXBkOJaomm5w/edit?usp=sharing).
+Progress update on how we are tracking toward our OKR can be found [here](https://docs.google.com/spreadsheets/d/11SJb0KdkT0Kmp0epjSkJ1TnzuWilnLEhILGrjl9kFCU/edit#gid=0).
 
 ## Final summary
 
-To be provided at quarter end
+During Q3, we averaged resolution time of 7.5 days and engaged engineering 13% of the time. While we did not meet our OKR, that does not mean we failed. This quarter has allowed us more finite clarity on where we need to invest in Q4 and Q1, as well as completing the foundation of the team. Additionally, most of the projects we did to help us realize our OKR were only just completed within the last week of the quarter, meaning our results from this quarter were largely without the benefit these projects will bring.
+
+Given that we finished onboarding 10 new members of the team, as well as started to onboard 3 new managers on the team, our performance for Q3 is nothing to balk at. It is performance we can be proud of. We may not be where we want to be just yet, but we are so close and it's ours to have in Q4. Additionally, we made 29 doc updates -- not the 45 we thought might be possible, it's more than double the 11 updates we did the quarter prior.
+
+Here are a few things the team will be able to use in Q4 to continue working toward our definitions of support and also realize our [Q4 OKR](FY22Q4-OKR-Plan.md):
+
+1. A [cheat sheet](debugging-cheat-sheet.md) of what logs are most needed in certain situations
+2. A customer-facing and scalable [command generator app](https://sourcegraph.github.io/support-generator/)
+3. [Onboarding improvements](cs-onboard-mentor.md)
+4. And the pièce de résistance, [a database of resolved tickets](zendesk-ticket-exporter.md) using the power of Sourcegraph (aka an entire new use case for our product!)
+
+Finally, not related to our OKRs or definitions of success, Q3 also saw two members of the team accept offers to move into dev teams. You know the support team is respected when moves like this start happening.
+
+It's been another good quarter with lots of growing, learning, and getting there.
