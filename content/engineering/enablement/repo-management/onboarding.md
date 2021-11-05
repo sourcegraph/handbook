@@ -21,7 +21,7 @@ This onboarding guide will provide the frame and you will paint the rest of the 
 
 ## Onboarding goals and milestones
 
-Your onboarding will take 3 months to complete, after which you will feel more confident in your abilities to have an impact on our team and within Sourcegraph. This process will require both your High Agency and our commitment to support you throughout the process. 
+Your onboarding will take 3 months to complete, after which you will feel more confident in your abilities to have an impact on our team and within Sourcegraph. This process will require both your High Agency and our commitment to support you throughout the process.
 
 We've broken down your onboarding into 30/60/90 day themes to help you stay focused on the most important outcome of each month.
 
