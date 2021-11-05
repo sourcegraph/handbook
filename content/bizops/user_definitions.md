@@ -10,7 +10,7 @@ People using Sourcegraph can be segmented into a number of different states, the
 | ------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- |
 | [Visitor](#visitor)            | Anyone who accessed the product                                                                   | ✔️    | ✔️      | `site_activity.MAU.UserCount`           |
 | [Active](#active-user)         | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     |
-| [Activated](#activated-user)   | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     |
+| [Activated](#activated-user)   | Users who have completed a specific series of actions that indicate they have developed the habit. This is a permanent state once applied. | ✔️    | n/a     | n/a                                     |
 | [Registered](#registered-user) | A user with a created an account                                                                  | ✔️    | ✔️      | `site_activity.MAU.RegisteredUserCount` |
 | Retained                       | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       |
 | Churned                        | Users who were active last month but not this month                                               | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        |
@@ -20,7 +20,7 @@ People using Sourcegraph can be segmented into a number of different states, the
 
 ### Visitor
 
-A visitor is a unique person who showed up on the site and did anything (or nothing at all, apart from viewing the page). Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
+A visitor is a unique person who showed up on the site and did anything, even just viewing the page. Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
 
 ### Active user
 
