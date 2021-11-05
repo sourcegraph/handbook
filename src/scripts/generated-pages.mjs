@@ -256,6 +256,7 @@ const productOrgs = await readYamlFile('data/product_orgs.yml')
 const codeHosts = await readYamlFile('data/code_hosts.yml')
 const teamMembers = await readYamlFile('data/team.yml')
 
+// WARNING: If you add a new generated page please update GENERATED_PAGE_DATA in src/components/EditSection.tsx
 await generateMaturityPage(features, maturityLevels, productTeams, productOrgs, teamMembers)
 await generateCompatibilityPage(features, productTeams, productOrgs, codeHosts, teamMembers)
 await generateTeamPage(teamMembers)
