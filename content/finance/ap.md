@@ -90,7 +90,7 @@ Sourcegraph employees should also inquire as to whether customer references / te
 
 ##### NDAs (Vendors)
 
-The best practice is to share and sign our [NDA](https://drive.google.com/file/d/1M6UA8ro-qsdrj9fiB7wkJlD2jpy8epDI/view) with every vendor when you begin conversations and before you disclose confidential business information. Once you have a fully signed NDA, save a copy in our [NDA folder](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) as Vendor Name-NDA-Year-Month-Day. For NDA signatory authority, see our [contract review and signature authority policy](../legal/Contract%20Review%20and%20Signature%20Authority%20Policy.md#ndas-for-customers-vendors-partners).
+The best practice is to share and sign our [NDA](https://drive.google.com/file/d/1M6UA8ro-qsdrj9fiB7wkJlD2jpy8epDI/view) with every vendor when you begin conversations and before you disclose confidential business information. Once you have a fully signed NDA, save a copy in our [NDA folder](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) as Vendor Name-NDA-Year-Month-Day. For NDA signatory authority, see our [contract review and signature authority policy](../legal/ContractReviewandSignatureAuthorityPolicy.md#ndas-for-customers-vendors-partners).
 
 ##### Commercial Negotiations
 
@@ -107,7 +107,7 @@ The table below highlights different commercial terms of a procurement negotiati
 
 ##### Contract Management
 
-Supplier contracts must be reviewed and approved by Sourcegraph Legal team prior to signing in accordance with our legal team's [contract review policy](../legal/Contract%20Review%20and%20Signature%20Authority%20Policy.md#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services). Designated buyers should submit a brief summary of key commercial terms (term, price, auto renewal, etc.) to legal along with the contract for signing.
+Supplier contracts must be reviewed and approved by Sourcegraph Legal team prior to signing in accordance with our legal team's [contract review policy](../legal/ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services). Designated buyers should submit a brief summary of key commercial terms (term, price, auto renewal, etc.) to legal along with the contract for signing.
 
 Contract management should include:
 

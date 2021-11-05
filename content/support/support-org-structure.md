@@ -16,15 +16,15 @@ So, we reimagined our Customer Support organizational structure for our current 
 
 - CS maintains an open, healthy team that continues gifting psychological ease to seek help without hesitation
 - CS leadership functions as a unit of coaches, building deep relationships with those who report directly to them and strong relationships with those who do not; always checking ego and accepting feedback with grace to center the wellbeing and success of each individual on the team
-- CSEs have a primary coach (their manager, who they report to) and are also supported by the rest of leadership
-- CSEs never have to wait for their particular manager to be online to get help when they are stuck; any leader online can help
-- CSEs have opportunities to work with all of their peers and are not limited just to those who report to the same manager
+- Application engineers have a primary coach (their manager, who they report to) and are also supported by the rest of leadership
+- Application engineers never have to wait for their particular manager to be online to get help when they are stuck; any leader online can help
+- Application engineers have opportunities to work with all of their peers and are not limited just to those who report to the same manager
 - Everyone gets to participate in team rituals during a “prime” hour in honor of their chosen schedule and not at the very start or every end of the day only just because “time zones are hard” for synchronous rituals
 - Everyone remains aligned and consistent where it matters, ensures effective and thorough asynchronous communication, and exercises thoughtful high agency and creativity as much as possible
 
 This is what we came up with...
 
-If you’ve played sports, watched sports, or just watched Ted Lasso, you have enough context to draw on to understand the overarching idea for this reimagining of our CS org structure is to model how we organize more after a sports team than a traditional, strict hierarchy-based corporate team. For example, in [baseball](<https://en.wikipedia.org/wiki/Coach_(baseball)>), you have a head coach (the team manager), a bench coach, a pitching coach, a bullpen coach, a hitting coach, and base coaches. The pitching coach is the primary coach for the pitchers; the hitting coach is the primary coach for those who go to bat (technically this is all players in National League, but that is another RFC for MLB on why National League is more interesting than American League baseball 🙃). The idea is the same here … every CSE reports to one manager and that manager is their primary coach (see “after” org chart in the background section). But like baseball, that manager is not the only leader a CSE works with, talks with, collaborates with; and also like baseball, managers practice a [first-team](https://stevenarmstrong.ca/uncategorized/firstteam/) approach.
+If you’ve played sports, watched sports, or just watched Ted Lasso, you have enough context to draw on to understand the overarching idea for this reimagining of our CS org structure is to model how we organize more after a sports team than a traditional, strict hierarchy-based corporate team. For example, in [baseball](<https://en.wikipedia.org/wiki/Coach_(baseball)>), you have a head coach (the team manager), a bench coach, a pitching coach, a bullpen coach, a hitting coach, and base coaches. The pitching coach is the primary coach for the pitchers; the hitting coach is the primary coach for those who go to bat (technically this is all players in National League, but that is another RFC for MLB on why National League is more interesting than American League baseball 🙃). The idea is the same here … every application engineer reports to one manager and that manager is their primary coach (see “after” org chart in the background section). But like baseball, that manager is not the only leader an application engineer works with, talks with, collaborates with; and also like baseball, managers practice a [first-team](https://stevenarmstrong.ca/uncategorized/firstteam/) approach.
 
 Coaches…
 
@@ -57,9 +57,9 @@ It is very likely that other managers on the team may be brought in to support s
 
 ## Getting help
 
-If a CSE needs help, they have the following avenues:
+If an application engineer needs help, they have the following avenues:
 
-- If it’s technical, they post in #customer-support-internal to get help from their fellow CSEs
+- If it’s technical, they post in #customer-support-internal to get help from their fellow application engineers
 - If it’s about how to handle a particular situation, they should go to their manager. If their manager is not online, they can either create a post in #customer-support-internal and @ mention @cs-leadership for another manager online to help and either work in that thread or request that whomever is going to help DM them if they need to chat privately,
 
 We want to have a global team where folks can work anywhere in the world. We never want that to mean someone has to wait to get the help that they need.
@@ -72,9 +72,9 @@ For both weekly planning/retros and ad-hoc team meetings, each manager will faci
 - 16:00 UTC (facilitated by Brielle)
 - 18:00 UTC (facilitated by Tamar)
 
-The CSEs in attendance at each session will change monthly based on what works best for each CSE that month. Each CSE has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
+The CSEs in attendance at each session will change monthly based on what works best for each application engineer that month. Each application engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
 
-At the end of each month, everyone participates in a quick Slack vote on which times will work for them in the coming month. Based on this, which CSEs participate in what time is identified randomly and each manager adjusts the invite for which they are responsible to reflect the correct participants for that month.
+At the end of each month, everyone participates in a quick Slack vote on which times will work for them in the coming month. Based on this, which application engineers participate in what time is identified randomly and each manager adjusts the invite for which they are responsible to reflect the correct participants for that month.
 
 This model will let folks continue to work with and bond with folks across the team and not be limited just to those who report to the same manager.
 
@@ -94,7 +94,7 @@ The idea here is that any member of the leadership team may share/solicit import
 
 ## Group projects
 
-For our OKRs and other initiatives, various CSEs will need to collaborate together in various group formations. Folks can work with folks across the entire team and will never be limited just to the folks who report to the same manager.
+For our OKRs and other initiatives, various application engineers will need to collaborate together in various group formations. Folks can work with folks across the entire team and will never be limited just to the folks who report to the same manager.
 
 ## Social gatherings
 
@@ -121,6 +121,6 @@ When our team reaches 40 folks, we will iterate on the org structure proposed he
 - Any retros scheduled to specifically assess how the org structure is working or not
 - Validating that ouur #customer-support-internal Slack channel remains vibrant
 - Validating that our #cs-social Slack channel remains vibrant
-- Validating that CSEs continue to ask each other questions, seeking and giving each other help
+- Validating that application engineers continue to ask each other questions, seeking and giving each other help
 - Checking to see if over time, everyone has formed stronger/deeper relationships with each member of the team than they have now
-- Checking in to see if CSEs feel at ease regardless of what leaders they are working with, talking to
+- Checking in to see if application engineers feel at ease regardless of what leaders they are working with, talking to

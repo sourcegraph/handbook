@@ -40,14 +40,14 @@ We're experimenting with showing short (<1m) demo videos (max 1 per week) during
 
 ## Book recommendations
 
-Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../finance/travel.md#professional-development-and-education) and read them!
+Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../finance/travel.md#5-professional-development-stipend-and-educational-travel) and read them!
 
 - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
 - [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) - An entertaining self-account of Gordon MacKenzie's experience fostering creativity on his team at Hallmark Cards. Buy the hard copy. There are lots of fun illustrations and short stories. It is a quick read and probably unlike any other book you have read.
 - [Radical Candor](https://www.radicalcandor.com/the-book/) - How to be a great leader by caring personally and challenging directly.
 - [An Elegant Puzzle](https://lethain.com/elegant-puzzle/) - A field manual on how to do engineering management. Reads like a well structured markdown file.
 - [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756) - A model of how to think about what makes a highly effective team paired with a fictional story that illustrates the model.
-- [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) ([facilitated small group discussions](../support/support-values-enablement.md#part-2-deep-dive-on-be-welcoming-and-inclusive).
+- [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) ([facilitated small group discussions](../support/support-values-enablement.md#part-2---deep-dive-on-be-welcoming-and-inclusive).
 
 ## Promotion and compensation increase requests
 

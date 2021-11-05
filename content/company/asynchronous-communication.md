@@ -74,7 +74,7 @@ Get creative:
 - Record short videos with face cams (and captions) that don't need hours of production effort, we can create a little slide deck for such a video.
 - Replace synchronous presentations with a recording, including slides and written context and provide a place where teammates can ask questions asynchronously. You can even include a time period for questions (for example: questions will be received and answered until Friday 4pm UTC)
 
-You can read [Thorsten Ball](./team/index.md#sts=Thorsten%20Ball%20%28he/him%29)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
+You can read [Thorsten Ball](./team/index.md#thorsten-ball)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
 
 Additionally, here are some other tips we've found work well:
 

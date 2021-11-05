@@ -13,9 +13,9 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap & Strategy
 
-The product strategy with how we think about prioritization and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
+The public strategy containing our mission, vision, how we think about prioritization, and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
 
-There is also an (internal only) [roadmap presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) available which highlights major features coming next as well as what was recently shipped.
+There is also a [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which contains upcoming and recently launched important customer-facing features from the OKR and roadmap tracker, and a [key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only) which contains status information on key accounts.
 
 ## Product area and feature matrices
 
@@ -48,21 +48,17 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 - [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
-### Public facing roadmap
+### Product managmenet and Product design impact ladders
 
-We are missing a single source of truth for what is currently on the roadmap. Our customers as well as Sales, Customer Engineering, Customer Support, and Marketing all need to know what is on the roadmap. Today we use several methods to track our roadmap making any one source unreliable. The end goal is to have a single source of truth that is referenced as needed.
+To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
 
-- Owner: Serina
-- [Working Document](https://docs.google.com/document/d/1dsJ_0aXyPTE-vUDR9fIwVYEq1UBYN-rtH75qtI91pdg/edit#)
+- Owner: Christina -[Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
 ### Other initiatives
 
 There are a few other initiatives we will be tracking here soon:
 
-- Product management and product design impact ladders (started [here](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing))
 - CE / Product communication and prioritization improvements on feedback
-- Experimentation and improvements to planning
-- Consolidation and simplification of tooling
 
 In the meantime, we are using a [tracking document](https://docs.google.com/document/d/1ezjeAV2wnUKfXQjHE-Cy9eZ7i4HX2mty1zuE4VcGGGo/edit#) for these.
 
