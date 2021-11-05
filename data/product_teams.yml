@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../schema/product_areas.schema.json
+# yaml-language-server: $schema=../schema/product_teams.schema.json
 
 search:
   title: Search
