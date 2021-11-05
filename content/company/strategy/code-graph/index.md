@@ -45,7 +45,7 @@ If we achieve these points, we can make it easy for developers to get things don
 
 We are focused on several themes to help make our one year vision a reality. They are not listed in priority order. To see how these play into what any particular product area is delivering, take a look at the individual team strategy pages linked at the [top of this page](#code-graph).
 
-We also set our goals around these themes, you can see current FY21-Q4 goals as a bullet list in each theme. The team listed after each goal is the primary team responsible for implementing the goal, but in the end we achieve these together and will support each other as needed to make them reality. The current status can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only) or on the [slides version of the same content](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) (also internal only).
+We also set our goals around these themes, you can see current FY22-Q4 goals as a bullet list in each theme. The team listed after each goal is the primary team responsible for implementing the goal, but in the end we achieve these together and will support each other as needed to make them reality. The current status can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only) or on the [slides version of the same content](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) (also internal only).
 
 ### Make the power of our features easier to find and use
 
