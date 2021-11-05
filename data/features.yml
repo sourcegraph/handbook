@@ -2,7 +2,7 @@
 
 literal_search:
   title: Literal Search
-  product_area: search
+  product_team: search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   compatibility:
@@ -21,7 +21,7 @@ literal_search:
 
 regexp_search:
   title: Regular Expression Search
-  product_area: search
+  product_team: search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   compatibility:
@@ -40,7 +40,7 @@ regexp_search:
 
 structural_search:
   title: Structural Search
-  product_area: search
+  product_team: search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   compatibility:
@@ -59,7 +59,7 @@ structural_search:
 
 diff_commit_search:
   title: Diff/Commit Search
-  product_area: search
+  product_team: search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   compatibility:
@@ -78,7 +78,7 @@ diff_commit_search:
 
 code_monitoring:
   title: Code Monitoring
-  product_area: search
+  product_team: search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   compatibility:
@@ -97,7 +97,7 @@ code_monitoring:
 
 code_monitoring_email_notifications:
   title: Code Monitoring E-mail Notifications
-  product_area: search
+  product_team: search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   compatibility:
@@ -116,12 +116,12 @@ code_monitoring_email_notifications:
 
 code_monitoring_webhooks:
   title: Code Monitoring Webhooks
-  product_area: search
+  product_team: search
   maturity: not_implemented
 
 saved_searches:
   title: Saved Searches
-  product_area: search
+  product_team: search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#saved-searches
   compatibility:
@@ -140,7 +140,7 @@ saved_searches:
 
 search_contexts:
   title: Search Contexts
-  product_area: search
+  product_team: search
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#search-contexts
   compatibility:
@@ -159,7 +159,7 @@ search_contexts:
 
 search_based_code_intelligence:
   title: Search-based Code Intelligence
-  product_area: code_intelligence
+  product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
   compatibility:
@@ -178,7 +178,7 @@ search_based_code_intelligence:
 
 precise_code_intelligence_go:
   title: Precise Code Intelligence for Go
-  product_area: code_intelligence
+  product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   compatibility:
@@ -197,7 +197,7 @@ precise_code_intelligence_go:
 
 precise_code_intelligence_jsts:
   title: Precise Code Intelligence for JavaScript/TypeScript
-  product_area: code_intelligence
+  product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   compatibility:
@@ -216,13 +216,13 @@ precise_code_intelligence_jsts:
 
 precise_code_intelligence_java_scala:
   title: Precise Code Intelligence for Java & Scala
-  product_area: code_intelligence
+  product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
 
 precise_code_intelligence_c_cpp:
   title: Precise Code Intelligence for C/C++
-  product_area: code_intelligence
+  product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   compatibility:
@@ -241,22 +241,22 @@ precise_code_intelligence_c_cpp:
 
 precise_code_intelligence_python:
   title: Precise Code Intelligence for Python
-  product_area: code_intelligence
+  product_team: code_intelligence
   maturity: not_implemented
 
 precise_code_intelligence_csharp:
   title: Precise Code Intelligence for C#
-  product_area: code_intelligence
+  product_team: code_intelligence
   maturity: not_implemented
 
 precise_code_intelligence_ruby:
   title: Precise Code Intelligence for Ruby
-  product_area: code_intelligence
+  product_team: code_intelligence
   maturity: not_implemented
 
 batch_changes:
   title: Batch Changes
-  product_area: batch_changes
+  product_team: batch_changes
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/batch_changes
   compatibility:
@@ -275,7 +275,7 @@ batch_changes:
 
 code_insights:
   title: Code Insights
-  product_area: code_insights
+  product_team: code_insights
   maturity: beta
   documentation_link: https://docs.sourcegraph.com/code_insights
   compatibility:
@@ -294,12 +294,12 @@ code_insights:
 
 soc_ii_type_ii:
   title: SOC II Type II
-  product_area: security
+  product_team: security
   maturity: not_implemented
 
 repository_syncing:
   title: Repository Syncing
-  product_area: repository_management
+  product_team: repository_management
   maturity: ga
   compatibility:
     gitlab_com: true
@@ -317,7 +317,7 @@ repository_syncing:
 
 repository_permissions:
   title: Repository Permissions
-  product_area: repository_management
+  product_team: repository_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/repo/permissions
   compatibility:
@@ -336,7 +336,7 @@ repository_permissions:
 
 user_authentication:
   title: User Authentication
-  product_area: repository_management
+  product_team: repository_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   compatibility:
@@ -355,7 +355,7 @@ user_authentication:
 
 browser_extension:
   title: Browser Extension
-  product_area: repository_management
+  product_team: repository_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   compatibility:
@@ -374,7 +374,7 @@ browser_extension:
 
 native_integration:
   title: Native Integration
-  product_area: repository_management
+  product_team: repository_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration
   compatibility:
@@ -393,7 +393,7 @@ native_integration:
 
 single_container_deployment:
   title: Single Container Deployment
-  product_area: deployment
+  product_team: deployment
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   compatibility:
@@ -412,7 +412,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: Docker Compose Deployment
-  product_area: deployment
+  product_team: deployment
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   compatibility:
@@ -431,7 +431,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: Kubernetes Deployment
-  product_area: deployment
+  product_team: deployment
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   compatibility:
@@ -450,7 +450,7 @@ kubernetes_deployment:
 
 prebuilt_extensions:
   title: Pre-built Extensions
-  product_area: extensions
+  product_team: extensions
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions
   compatibility:
@@ -469,7 +469,7 @@ prebuilt_extensions:
 
 custom_extensions:
   title: Custom Extensions
-  product_area: extensions
+  product_team: extensions
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions/authoring
   compatibility:

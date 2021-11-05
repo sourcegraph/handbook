@@ -1,6 +1,6 @@
 # Product
 
-Product at Sourcegraph consists of [product management](product_management/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md). Each of these links will take you to a page with information on how that team works internally; this page contains information that is relevant to the whole company.
+The product team at Sourcegraph consists of [product management](product_management/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md).
 
 The Product team strives to make the following true:
 
@@ -13,17 +13,19 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap & Strategy
 
-The public strategy containing our mission, vision, how we think about prioritization, and what we're working on next can be found on the [Sourcegraph strategy page](../company/strategy/index.md).
+- The [Sourcegraph strategy page](../company/strategy/index.md) containing our mission, vision, how we think about prioritization
+- The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
+- We track our key result for the current quarter with the following two artifact.
+  - [GitHub project tracking board](https://github.com/orgs/sourcegraph/projects/214/views/1)
+  - [Prod/Eng level OKR tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing).
 
-There is also a [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which contains upcoming and recently launched important customer-facing features from the OKR and roadmap tracker, and a [key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only) which contains status information on key accounts.
+## Product team
 
-## Product area and feature matrices
+- [Product team reference](product_teams.md)
+- [How product is organized](product_org.md)
+- [Roles and responsibilities](roles/index.md) of the product team
 
-We have a matrix of product areas:
-
-- [Product area reference](product_areas.md)
-
-We also have several feature reference matrices:
+## Feature matrices
 
 - [Features by maturity](feature_maturity.md)
 - [Features by code host compatibility](feature_compatibility.md)
@@ -52,20 +54,8 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 
 To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
 
-- Owner: Christina -[Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
-
-### Other initiatives
-
-There are a few other initiatives we will be tracking here soon:
-
-- CE / Product communication and prioritization improvements on feedback
-
-In the meantime, we are using a [tracking document](https://docs.google.com/document/d/1ezjeAV2wnUKfXQjHE-Cy9eZ7i4HX2mty1zuE4VcGGGo/edit#) for these.
-
-## Org chart
-
-- [How product is organized](product_org.md)
-- [Roles and responsibilities](roles/index.md) of the product team
+- Owner: Christina
+- [Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
 ## References
 
@@ -81,3 +71,5 @@ In the meantime, we are using a [tracking document](https://docs.google.com/docu
   - [How we use RFCs](../communication/rfcs/index.md)
 - [User research](./user_research/index.md)
 - [Product licensing](licensing.md)
+- [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
+- [Product Gaps Dasbhoard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
