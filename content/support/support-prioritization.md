@@ -27,6 +27,8 @@ Sometimes we have too much work to keep it simple. In these situations, we will 
 
 When we have a normal amount of work, we help when help is needed and even with a SLA of 24 hour response time, we still strive to get back to customers (including pre-sales) within a couple of hours most of the time.
 
+When we have an unusually large amount of work or more folks are out than normal, it is fine if customers (including pre-sales) have to wait. In such situations, we will communicate proactively, letting them know that we have team members arriving in another few hours who will be able to help them.
+
 ## Priority assignment
 
 Priority is always assigned by us, sometimes with input from the customer and/or other internal teams/practices/contractual obligations. We will only expect engineering to drop everything for p1 if it really cannot wait a day. Either way, the idea is that we expect very few p1 issues overall, so the need to drop everything should be rare. This also means that it’s okay for p2 issues to sit a bit before engineering takes a look and decides timing for work. The onus will be on support to provide all the necessary context for engineering to decide how to handle p2 issues.
