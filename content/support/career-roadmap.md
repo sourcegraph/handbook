@@ -2,7 +2,7 @@
 
 There are two aspects of career roadmapping:
 
-1. Progressing the role/team of Customer Support Engineer
+1. Progressing the role/team of application engineer
 2. Thinking through longer term plans and how to move into something outside of the team
 
 This page focuses on the latter, for now. It will be updated to also focus on the former once the career levels are complete for Customer Support (estimated delivery in FY22Q3).

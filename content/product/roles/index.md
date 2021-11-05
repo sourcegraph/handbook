@@ -18,8 +18,8 @@ You will **own an area of the product**\* and:
 - Collaborate with, support, and motivate their team to plan and build the solutions to customer problems.
 - Add value to the user by surfacing real problems and improving the user’s workflow as a developer.
 - Gather customer feedback to validate priorities, improve documentation, and define product requirements.
-- Make sure the development team for the product area is working on the most impactful things.
-- Maintain a roadmap, backlog, and curate and solicit feedback for the product area.
+- Make sure the development team is working on the most impactful things.
+- Maintain a roadmap, backlog, and curate and solicit feedback for your product team.
 - Communicate product ideas clearly by focusing on the problems that are being solved, the outcomes, and how we will measure success.
 - Be transparent in your internal and external communication. Sourcegraph is open source, so most discussions are public or in channels where you communicate directly with our customers.
 - Uphold your side of the [PM – EM partnership responsibilities](product_manager_engineering_manager_responsibilities.md).

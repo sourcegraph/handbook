@@ -6,7 +6,7 @@
       "title": {
         "type": "string"
       },
-      "product_area": {
+      "product_team": {
         "type": "string"
       },
       "maturity": {
@@ -23,6 +23,6 @@
         }
       }
     },
-    "required": ["title", "product_area", "maturity"]
+    "required": ["title", "product_team", "maturity"]
   }
 }
