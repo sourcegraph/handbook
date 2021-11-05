@@ -19,7 +19,7 @@ const GENERATED_PAGE_DATA = {
 }
 
 export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page }) => {
-    const pagePath = page.path.replace(/^\//, '');
+    const pagePath = page.path.replace(/^\//, '')
 
     return (
         <section className="right-sidebar-section edit-section">
@@ -52,13 +52,12 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
             )}
             {page.lastUpdated && (
                 <div>
-                    Updated <time dateTime={page.lastUpdated}>{formatDistanceToNow(new Date(page.lastUpdated))} ago</time>{' '}
+                    Updated{' '}
+                    <time dateTime={page.lastUpdated}>{formatDistanceToNow(new Date(page.lastUpdated))} ago</time>{' '}
                     <span className="text-muted mx-1" aria-hidden="true">
                         •
                     </span>{' '}
-                    <Link
-                        href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${pagePath}`}
-                    >
+                    <Link href={`https://github.com/sourcegraph/handbook/commits/main/${CONTENT_FOLDER}/${pagePath}`}>
                         History
                     </Link>
                 </div>
@@ -79,9 +78,7 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
                 })}
 
                 {!Object.prototype.hasOwnProperty.call(GENERATED_PAGE_DATA, pagePath) && (
-                    <Link
-                        href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${pagePath}`}
-                    >
+                    <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${pagePath}`}>
                         Edit this page
                     </Link>
                 )}
