@@ -109,13 +109,31 @@ for (const filePath of filePaths) {
             )
         }
 
-        // Check anchors
+        // Check markdown anchors (warning only since this might not be super resilient)
 
-        if (link.includes('#')) {
+        if (link.includes('.md#')) {
             const relativeTarget = new URL(link, fileUrl.href)
             if (relativeTarget.href.startsWith('file://')) {
-                console.log('===')
-                console.log(`from ${fileUrl.href} to ${relativeTarget.href}`)
+                const targetFile = relativeTarget.pathname
+                const targetAnchor = decodeURI(relativeTarget.href.split('#')[1])
+                const fileContent = await fs.readFile(targetFile, 'utf8')
+                const re = new RegExp('^#+ \\[*' + targetAnchor.replace(/\-/g, ' '), 'im')
+                if (
+                    !fileContent
+                        // this reimplements the rules for generating markdown ids
+                        // better would be to render the markdown to html and check of ids
+                        // directly
+                        .replace(/[\:\,\(\)\&\;\_\*\.\"]/g, '')
+                        .replace(/\-/g, ' ')
+                        .match(re)
+                ) {
+                    console.log(
+                        `Warning: Anchor reference from ${fileUrl.pathname.replace(
+                            process.cwd(),
+                            '.'
+                        )} to ${targetFile.replace(process.cwd(), '.')} (#${targetAnchor}) missing`
+                    )
+                }
             }
         }
     }

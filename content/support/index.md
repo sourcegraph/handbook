@@ -21,28 +21,28 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 
-[Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her), Head of Customer Support - reporting to Beyang Liu, CTO
+[Virginia Ulrich](../company/team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
 
 - [Brielle Collins](../company/team/index.md#brielle-collins), Manager
 
   - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
-  - [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
-  - [Mariam Adedeji](../company/team/index.md#mariam-adedeji-she-her)
-  - [Michael Bali](../company/team/index.md#michael-bali-hehim)
-  - [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
+  - [Gabe Torres](../company/team/index.md#team#gabe-torres)
+  - [Mariam Adedeji](../company/team/index.md#mariam-adedeji)
+  - [Michael Bali](../company/team/index.md#michael-bali)
+  - [Warren Gifford](../company/team/index.md#warren-gifford)
 
 - [Nonso Obiano](../company/team/index.md#nonso-obiano), Manager
-  - [Amber Furbush](../company/team/index.md#amber-furbush-she-her)
-  - [Don Ellison](../company/team/index.md#donavon-ellison-he-him)
-  - [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
-  - [Jason Harris](../company/team/index.md#jason-harris-he-him)
+  - [Amber Furbush](../company/team/index.md#amber-furbush)
+  - [Don Ellison](../company/team/index.md#donavon-ellison)
+  - [Giselle Northy](../company/team/index.md#giselle-northy)
+  - [Jason Harris](../company/team/index.md#jason-harris)
   - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
 - [Tamar Joyeux](../company/team/index.md#tamar-joyeux), Manager
-  - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste-he-him)
-  - [Beatrix Woo](../company/team/index.md#beatrix-woo-she-her)
-  - [Ben Gordon](../company/team/index.md#team#ben-gordon-he-him)
-  - [Carl Hicks](../company/team/index.md#carl-hicks-he-him)
-  - [Kelvin Lee](../company/team/index.md#kelvin-lee-he-him)
+  - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste)
+  - [Beatrix Woo](../company/team/index.md#beatrix-woo)
+  - [Ben Gordon](../company/team/index.md#team#ben-gordon)
+  - [Carl Hicks](../company/team/index.md#carl-hicks)
+  - [Kelvin Lee](../company/team/index.md#kelvin-lee)
 
 More details about each team member in [our team READMEs](support-bios.md).
 
