@@ -2,7 +2,7 @@
 
 These values are the beliefs and principles that help us achieve our [goals](goals/index.md) and [strategy](../company/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
 
-- [**Be customer driven**](#be-customer-driven): You proactively work on the right things by continuously orienting your goals around delivering value to your customers.
+- [**Customer-first**](#customer-first): You earn and keep the trust of our customers by putting their interests first.
 - [**Work as a team**](#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
 - [**High agency**](#high-agency): You have the power and the responsibility to improve Sourcegraph as a company and as a product. You deliver regardless of the circumstances.
 - [**High quality**](#high-quality): You are responsible for finding out what high-quality work looks like and producing that high-quality work iteratively.
@@ -14,9 +14,15 @@ These values are the beliefs and principles that help us achieve our [goals](goa
 
 ## Values in detail
 
-### Be customer driven
+### Customer-first
 
-You proactively work on the right things by continuously orienting your goals around delivering value to your customers.
+You earn and keep the trust of our customers by putting their interests first, ahead of Sourcegraph's interests and your team's interests. Over the long term, we need to be a customer-funded business, and you'll help us get there by being customer-first.
+
+- We are not engineering-first. We are not sales-first. Being customer-first unites us all (engineering, sales, and every other team).
+- When you're building the product, being customer-first means you solve real problems for customers who use, love, and appreciate what you build. You aren't working on abstract tech that will never be used.
+- When you're marketing, selling, and supporting the product, you know the entire team values you and affirmatively decided to join a customer-first company. We are not one of those developer-facing companies where "how to make money and serve customers" is an unpleasant afterthought.
+- Avoid being <abbr title="A prospect is a company that is not yet a customer.">prospect</abbr>-first when possible. Solve a problem for existing customers (not prospects) first. You can be much more iterative and get much better feedback from existing customers, which means you'll build a better solution and will have happy customer references. This wins prospects better than if you were narrowly prospect-first.
+- For more, see "[Being a customer-first company](customer-first.md)".
 
 ### Work as a team
 
