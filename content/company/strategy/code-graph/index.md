@@ -43,15 +43,15 @@ If we achieve these points, we can make it easy for developers to get things don
 
 ## Themes & Goals
 
-We are focused on several themes to help make our one year vision a reality. They are not listed in priority order. To see how these play into what any particular product area is delivering, take a look at the individual team strategy pages linked at the [top of this page](#code-graph).
+We are focused on several themes to help make our one year vision a reality. They are not listed in priority order. To see how these play into what any particular product team is delivering, take a look at the individual team strategy pages linked at the [top of this page](#code-graph).
 
-We also set our goals around these themes, you can see current (Q4 2021) goals as a bullet list in each theme. The team listed after each goal is the primary team responsible for implementing the goal, but in the end we achieve these together and will support each other as needed to make them reality.
+We also set our goals around these themes, you can see current FY22-Q4 goals as a bullet list in each theme. The team listed after each goal is the primary team responsible for implementing the goal, but in the end we achieve these together and will support each other as needed to make them reality. The current status can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only) or on the [slides version of the same content](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) (also internal only).
 
 ### Make the power of our features easier to find and use
 
 Learning what's possible and how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases and interests for which they would benefit from exploring. Making onboarding and interaction easier also helps our users and sales teams demonstrate the value of our product more quickly than is possible today.
 
-- Measure and increase [WAU](../../../bizops/user_definitions.md) for [customer facing product areas](https://github.com/sourcegraph/handbook/blob/main/data/product_areas.yml) by 15%. For most teams this will require understanding and improving time-to-value as a driver for increasing active users. (All Teams)
+- Measure and increase [WAU](../../../bizops/user_definitions.md) for [customer facing product teams](https://github.com/sourcegraph/handbook/blob/main/data/product_teams.yml) by 15%. For most teams this will require understanding and improving time-to-value as a driver for increasing active users. (All Teams)
 - Make it easier to adopt Batch Changes by fixing top three changeset syncing and permission configuration issues. ([Batch Changes](./batch-changes/index.md))
 - 3 customers with >1 Search Notebook, demonstrating initial traction for this feature and proving the value of Search Notebooks for sharing explanations of code. ([Search Product](./search/index.md))
 
@@ -66,7 +66,7 @@ How our product works in terms of pricing, upgrade paths, auditing, single sign-
 
 ### Deliver a unified experience
 
-Our product solves real problems today, but investing in the polish, user experience, and cross-feature functionality within our product area to make the experience lovable and help us deliver solutions that are more than the sum of the parts. Code insights can lead you to a more detailed search, from which you might launch a more advanced semantic analysis. From here, you might use batch changes to remediate a problem and then document everything you've done in a search notebook. This flow works today, but we can do more to connect these experiences in ways that deliver more value than engaging with them separately.
+Our product solves real problems today, but investing in the polish, user experience, and cross-feature functionality within our product teams to make the experience lovable and help us deliver solutions that are more than the sum of the parts. Code insights can lead you to a more detailed search, from which you might launch a more advanced semantic analysis. From here, you might use batch changes to remediate a problem and then document everything you've done in a search notebook. This flow works today, but we can do more to connect these experiences in ways that deliver more value than engaging with them separately.
 
 - No goal in this quarter since we are improving our measurement capability; we expect to have more focus here in Q1.
 

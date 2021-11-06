@@ -1,4 +1,4 @@
-# Customer Support Manager Onboarding
+# Customer Support manager onboarding
 
 Welcome to Sourcegraph, to the Product and Engineering department, and the Customer Support team! This document provides an overview of the outcomes you will achieve while you work on your onboarding. The specific tasks in support of these outcomes are found in [Process Street](https://app.process.st/reports). If you ever feel like an outcome is not true, share that with your manager or the team, and we will figure out how to make sure it is true and improve the onboarding for the next new teammate.
 
@@ -23,7 +23,7 @@ As you go through onboarding, take your time. The first few weeks are all about 
 
 ## By the end of your third week, the following will be true...
 
-- You are starting to understand the day-to-day of a Customer Support Engineer
+- You are starting to understand the day-to-day of an application engineer
 - You are starting to build trust with your team
 - You are starting to build trust with your peers
 

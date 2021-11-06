@@ -52,7 +52,7 @@ You are responsible for finding out what high-quality work looks like and delive
 
 - If you don’t know what high quality looks like, it's your responsibility to find out (for example, by asking teammates and stakeholders).
 - If you don’t have the time to produce high-quality work, then it's your responsibility to take more time or cut scope (and communicate this), so that you can produce high-quality work.
-- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../finance/travel.md#professional-development-and-education), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
+- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../finance/travel.md#5-professional-development-stipend-and-educational-travel), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
 - If you need help producing high-quality work, it is your responsibility to get that help.
 
 If we discover that we've produced something that does not meet our quality bar, we'll roll it back (for example, revert a commit, roll back a deployment, or unpublish content) until we can make it high quality. If that's not possible, we'll prioritize improving it.
@@ -107,7 +107,7 @@ It is totally legitimate to want to create "breathing room" for a new thought or
 
 > My team has goals and plans for the future, but I am hesitant to put this in the handbook because I don't want to promise anything to our customers and I don't want competitors copying us.
 
-We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](goals/guidelines.md#choosing-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
+We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](goals/guidelines.md#how-we-set-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
 
 > I am working on improving the security of our product, but I feel uncomfortable clearly documenting what I am doing (e.g., in public status updates, issues, PR descriptions, the changelog) because I am worried that it will make Sourcegraph look bad.
 

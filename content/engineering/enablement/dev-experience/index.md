@@ -4,10 +4,10 @@ The Developer Experience team (part of the [Enablement](../index.md) org) is a t
 
 ## Members
 
-- [Taylor Sperry](../../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
+- [Taylor Sperry](../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy) (acting [Engineering Manager](../../roles.md#engineering-manager))
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
-  - [JH Chabran](../../../company/team/index.md#jh-chabran-he-him)
+  - [JH Chabran](../../../company/team/index.md#jh-chabran)
   - [Robert Lin](../../../company/team/index.md#robert-lin)
 
 ## Strategy

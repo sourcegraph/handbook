@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Our overall purpose is we want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress. This page describes how we are going to achieve that goal, and the [individual team and org strategies](index.md#per-area-strategy-pages) describe what we're doing in each of our product areas.
+Our overall purpose is we want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress. This page describes how we are going to achieve that goal, and the [individual team and org strategies](index.md#per-team-strategy-pages) describe what we're doing in each of our product teams.
 
 Want to help us achieve these goals? [We're hiring!](https://github.com/sourcegraph/careers)
 
@@ -27,10 +27,6 @@ This is a new game. Companies that master this will thrive. Companies that don't
 ## Mission
 
 To make it so [everyone can code](#purpose), we will create tools, networks, and incentives for coding at ever-larger scale.
-
-## Goals
-
-Our [goals](../goals/index.md) describe what each of us is working toward now (so that we succeed in our long-term mission).
 
 ## Values
 
@@ -83,7 +79,7 @@ Additionally, our [product design principles](../../product/design/product_desig
 
 ## Where we're at now
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature reference pages](../../product/index.md#feature-reference).
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature reference pages](../../product/index.md#product-team-and-feature-reference).
 
 ## One year vision
 
@@ -184,9 +180,9 @@ Coding itself is a technology, and we anticipate the technology adoption curve w
 - Non-technical people can use Sourcegraph to gain an understanding of what a piece of code does and modify it. E.g., a salesperson can look up a function that encodes a piece of automation in the sales process and change it to align with updated sales priorities for the quarter.
 - Sourcegraph provides a discovery and marketplace mechanism for authors of useful shared libraries to distribute and make a living off of novel source code and algorithms.
 
-## Per-area strategy pages
+## Per-team strategy pages
 
-Within this overall product strategy, individual product areas set their own goals and roadmaps aligned to the [company OKRs](../goals/2022_q3.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
+Within this overall product strategy, individual product teams set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
 ### [Code Graph](code-graph/index.md)
 

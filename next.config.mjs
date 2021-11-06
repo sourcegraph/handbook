@@ -19,6 +19,7 @@ const nextConfig = {
     images: {
         domains: ['avatars.githubusercontent.com'],
     },
+    swcMinify: true,
 }
 
-module.exports = nextConfig
+export default nextConfig
