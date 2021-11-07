@@ -106,7 +106,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
   - A: We use [BrightHire](./hiring/guide_to_using_brighthire.md#what-is-brighthire), an interview recording tool, to record all interviews. We do this because we believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve. Have questions? To read our FAQ, [click here](./hiring/guide_to_using_brighthire.md#candidate-faq).
 
 - Q: What should I wear to an interview?
-  - A: We are a casual company and we encourage your to dress comfortably!
+  - A: We are a casual company and we encourage you to dress comfortably!
 - Q: Does Sourcegraph check references?
 
   - A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent. You can read more about our reference check process [here](./hiring/reference_check_questions.md).
