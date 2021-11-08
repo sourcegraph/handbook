@@ -84,7 +84,7 @@ Recent key learnings:
 
 ### FY22 Q4 goals
 
-These tie back to [FY22 Q4 Product/Engineering OKRs](../../../goals/2022_q4.md#product-engineering)
+These tie back to [FY22 Q4 Product/Engineering OKRs](../../../goals/2022_Q4.md#product-engineering)
 
 **Objective: Make the power of our features easier to find and use**
 
