@@ -2,7 +2,7 @@
 
 The extension team within Sourcegraph’s cloud organization was working on a feature called Browser Extension fallback to Sourcegraph.com (Github: link).
 
-Our goal is to create useful extensions for Sourcegraph users, whether they are using on-prem enterprise instances or Sourcegraph.com. Recently, we launched a new version of the Chrome and Firefox extension which introduced a bug that resulted in the Chrome and Firefox extensions defaulting to Sourcegraph Cloud, rather than checking on-prem.
+Our goal is to create useful extensions for Sourcegraph users, whether they are using on-prem enterprise instances or Sourcegraph.com. Recently, we launched a new version of the Chrome and Firefox extension (version 21.10.15.1603) which introduced a bug that resulted in the Chrome and Firefox extensions defaulting to Sourcegraph Cloud, rather than checking on-prem.
 
 No other information (class names, source code, etc) was sent or logged in Sourcegraph.com databases. Cloud users had no way to access this information; the information is only available to a limited set of Sourcegraph employees with certain database and log access.
 
