@@ -4,16 +4,17 @@ The SDR Team (TBA)
 
 ## Members
 
-- [Nicholas Gage](../company/team/index.md#nicholas-gage-he-him), Head of Sales Development
+- [Nicholas Gage](../company/team/index.md#nicholas-gage), Head of Sales Development
   - West Outbound SDRs
-    - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley-he-him)
+    - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley)
     - [Zach Naidu](../company/team/index.md#zach-naidu)
     - [Brannon Rouse](../company/team/index.md#brannon-rouse)
+    - [Carter Jaenichen](../company/team/index.md#carter-jaenichen)
   - East Outbound SDRs
     - [Sam Cregg](../company/team/index.md#sam-cregg)
-    - [Ellie Dawson](../company/team/index.md#ellie-dawson-she-her)
+    - [Ellie Dawson](../company/team/index.md#ellie-dawson)
   - Inbound and EMEA SDR
-    - [Mark "Markie" Muldez](../company/team/index.md#mark-muldez-he-him)
+    - [Mark "Markie" Muldez](../company/team/index.md#mark-markie-muldez)
 
 More SDRs coming soon...
 

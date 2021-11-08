@@ -1,0 +1,487 @@
+# yaml-language-server: $schema=../schema/features.schema.json
+
+literal_search:
+  title: Literal Search
+  product_team: search
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+regexp_search:
+  title: Regular Expression Search
+  product_team: search
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+structural_search:
+  title: Structural Search
+  product_team: search
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+diff_commit_search:
+  title: Diff/Commit Search
+  product_team: search
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+code_monitoring:
+  title: Code Monitoring
+  product_team: search
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_monitoring
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+code_monitoring_email_notifications:
+  title: Code Monitoring E-mail Notifications
+  product_team: search
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_monitoring
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+code_monitoring_webhooks:
+  title: Code Monitoring Webhooks
+  product_team: search
+  maturity: not_implemented
+
+saved_searches:
+  title: Saved Searches
+  product_team: search
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#saved-searches
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+search_contexts:
+  title: Search Contexts
+  product_team: search
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#search-contexts
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+search_based_code_intelligence:
+  title: Search-based Code Intelligence
+  product_team: code_intelligence
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+precise_code_intelligence_go:
+  title: Precise Code Intelligence for Go
+  product_team: code_intelligence
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+precise_code_intelligence_jsts:
+  title: Precise Code Intelligence for JavaScript/TypeScript
+  product_team: code_intelligence
+  maturity: partial_ga
+  documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+precise_code_intelligence_java_scala:
+  title: Precise Code Intelligence for Java & Scala
+  product_team: code_intelligence
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+
+precise_code_intelligence_c_cpp:
+  title: Precise Code Intelligence for C/C++
+  product_team: code_intelligence
+  maturity: partial_ga
+  documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+precise_code_intelligence_python:
+  title: Precise Code Intelligence for Python
+  product_team: code_intelligence
+  maturity: not_implemented
+
+precise_code_intelligence_csharp:
+  title: Precise Code Intelligence for C#
+  product_team: code_intelligence
+  maturity: not_implemented
+
+precise_code_intelligence_ruby:
+  title: Precise Code Intelligence for Ruby
+  product_team: code_intelligence
+  maturity: not_implemented
+
+batch_changes:
+  title: Batch Changes
+  product_team: batch_changes
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/batch_changes
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: false
+    phabricator: false
+    codecommit: false
+    gitolite: false
+    gerrit: false
+    perforce: false
+    cvs: false
+
+code_insights:
+  title: Code Insights
+  product_team: code_insights
+  maturity: beta
+  documentation_link: https://docs.sourcegraph.com/code_insights
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+soc_ii_type_ii:
+  title: SOC II Type II
+  product_team: security
+  maturity: not_implemented
+
+repository_syncing:
+  title: Repository Syncing
+  product_team: repository_management
+  maturity: ga
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+repository_permissions:
+  title: Repository Permissions
+  product_team: repository_management
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/admin/repo/permissions
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: false
+    phabricator: false
+    codecommit: false
+    gitolite: false
+    gerrit: false
+    perforce: true
+    cvs: false
+
+user_authentication:
+  title: User Authentication
+  product_team: repository_management
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: false
+    bitbucket_cloud: false
+    phabricator: false
+    codecommit: false
+    gitolite: false
+    gerrit: false
+    perforce: false
+    cvs: false
+
+browser_extension:
+  title: Browser Extension
+  product_team: repository_management
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/integration/browser_extension
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: false
+    gitolite: false
+    gerrit: true
+    perforce: false
+    cvs: false
+
+native_integration:
+  title: Native Integration
+  product_team: repository_management
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/integration
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: false
+    github_enterprise: false
+    bitbucket_server: true
+    bitbucket_cloud: false
+    phabricator: true
+    codecommit: false
+    gitolite: false
+    gerrit: false
+    perforce: false
+    cvs: false
+
+single_container_deployment:
+  title: Single Container Deployment
+  product_team: deployment
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/admin/install/docker
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+docker_compose_deployment:
+  title: Docker Compose Deployment
+  product_team: deployment
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+kubernetes_deployment:
+  title: Kubernetes Deployment
+  product_team: deployment
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+prebuilt_extensions:
+  title: Pre-built Extensions
+  product_team: extensions
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/extensions
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+
+custom_extensions:
+  title: Custom Extensions
+  product_team: extensions
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/extensions/authoring
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true

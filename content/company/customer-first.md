@@ -1,6 +1,10 @@
 # Being a customer-first company
 
-Some companies are engineering-first or sales-first, meaning they consider how that part of the organization needs to work to be successful and everything else is informed from there. Sourcegraph is a customer-first company. Our goal is to always do what is in the best interest of the customer while simultaneously setting up Sourcegraph and each team within it for long-term success. This handbook page documents what this means and how it plays out day to day.
+Some companies are engineering-first or sales-first, meaning they consider how that part of the organization needs to work to be successful and everything else is informed from there. Sourcegraph is a [customer-first company](values.md#customer-first):
+
+> You earn and keep the trust of our customers by putting their interests first, ahead of Sourcegraph's interests and your team's interests. Over the long term, we need to be a customer-funded business, and you'll help us get there by being customer-first.
+
+This handbook page documents what this means and how it plays out day to day.
 
 Simply, this all boils down to two things we want to be true and can often feel competing:
 
@@ -41,7 +45,7 @@ A few notes for CE:
 - If a CE feels compelled to let a customer know CS will help them, they should do so without using loaded terms like “ASAP” or that sign up CS for something they may not be able to honor
   - _Let me chat with members of our engineering and support team. I'll bring them up to speed on the situation and I should have a follow-up for you in a few hours at most. Please let me know if anything comes up in the meantime that I should look into._
   - When the CS makes first contact with the customer after taking the lead on the issue, they should first establish the context that has already been transfered. _Hey $CUSTOMER, $CE brought me up to speed on the issue. First off, let me say I'm sorry you ran into this issue and thanks for working with us to resolve this. My priority from here is to get this resolved ASAP. Here's what I understand is the situation..._
-- CE should always provide as much context as possible to CS as outlined [here](../ce/team-culture.md#customer-support-engineers-cses)
+- CE should always provide as much context as possible to CS as outlined [here](../ce/team-culture.md#customer-support-cs)
 
 A few notes for CS:
 

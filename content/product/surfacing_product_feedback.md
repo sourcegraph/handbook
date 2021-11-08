@@ -2,9 +2,15 @@
 
 > If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../support/engaging-other-teams.md).
 
-CEs, CSEs, Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback with the product team.
+CEs, application engineers (CS), Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback with the product team.
 
-We deeply value this feedback, so we make this process as frictionless for teammates as possible:
+We deeply value this feedback, so we make this process as frictionless for teammates as possible. Team members can submit a product gap to share any new feedback internally with the team.
+
+## What IS a Product Gap?
+
+It is important to distinguish all customer feedback you receive from what would be considered a product gap. A product gap would be some feedback you collect from a prospect during your initial sales cycle, or from an existing customer, that could be within the expected scope of work for our Product and Engineering team. This especially pertains to either new feature requests or enhancements to existing features that could likely be incorporated in to our roadmap. In contrast, a product gap is NOT a bug nor should it be a potential request that falls well outside the scope of Sourcegraph intended use and function.
+
+It is vitally important when created a product gap, and a submission record (to tie a gap to a customer), that we offer additional details like the true level of impact this gap has on a customer and what their current workaround may be, if any. This information arms our Product team with the critical detail that can determine if and when a request is accepted for work, so be sure to provide as much context as possible.
 
 ## Create a Product Gap and a Submission in Salesforce
 

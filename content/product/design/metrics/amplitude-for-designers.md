@@ -1,6 +1,6 @@
 # Amplitude for designers
 
-Amplitude provides session-based event data of Sourcegraph **cloud** features (please note: data from private instances is not available in Amplitude, use Looker instead). This guide describes several key concepts and provides a tutorial on how designers can use Amplitude in the discovery process in addition to measuring results.
+Amplitude provides session-based event data of Sourcegraph **Cloud** features (please note: data from private instances is not available in Amplitude, use Looker instead). This guide describes several key concepts and provides a tutorial on how designers can use Amplitude in the discovery process in addition to measuring results.
 
 ## Key concepts
 

@@ -38,7 +38,7 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ### [Sales strategy & operations](../../sales/sales-ops/index.md#members)
 
-### [Value Engineering & Sales Enablement](../../sales/sales-enablement.md#value-engineering-sales-enablement)
+### [Value Engineering & Sales Enablement](../../sales/sales-enablement.md)
 
 ## Other teams: TODO
 
@@ -63,6 +63,16 @@ async function getPageOrgChart(pageUrl) {
 
 	const resp = await fetch(pageUrl)
 	const doc = new DOMParser().parseFromString(await resp.text(), "text/html")
+
+  // Add base to make sure relative URLs are resolved correctly
+  const base = doc.createElement('base')
+  base.setAttribute('href', pageUrl)
+  doc.head.append(base)
+  for (const link of doc.querySelectorAll('a[href]')) {
+    // Resolve link href to absolute URL
+    link.setAttribute('href', link.href)
+  }
+
 	const section = doc.getElementById(sectionId)
 	if (!section) {
 		const error = document.createElement('p')
@@ -111,20 +121,6 @@ Promise.all(
 		headerLink.href = headerLinkUrl.toString()
 	}
 })
-
-async function getPageOrgList(pageUrl) {
-	const sectionId = pageUrl.replace(/^.*#/, '')
-
-	const resp = await fetch(pageUrl)
-	const doc = new DOMParser().parseFromString(await resp.text(), "text/html")
-	const section = doc.getElementById(sectionId)
-	if (!section) {
-		const error = document.createElement('p')
-		error.innerText = `Error generating org chart: page at ${pageUrl} has no section with ID ${sectionId}.`
-		return error
-	}
-    return section.parentNode
-}
 
 const teamAnchors = Array.from(document.querySelectorAll('a')).filter(a => a.innerText.startsWith('Team: '))
 Promise.all(

@@ -7,18 +7,18 @@ The code insights team is responsible for building and delivering code insights 
 ## Pages
 
 - [Processes](processes.md)
-- [Goals and Roadmap](../../../direction/code-graph/code-insights/index.md)
+- [Goals and Roadmap](../../../company/strategy/code-graph/code-insights/index.md)
 - [Product docs](https://docs.sourcegraph.com/code_insights)
 - [Development docs](https://docs.sourcegraph.com/dev/background-information/insights)
 
 ## Members
 
-- [Joel Kwartler](../../../company/team/index.md#joel-kwartler-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Joel Kwartler](../../../company/team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - [Vova Kulikov](../../../company/team/index.md#vova-kulikov-he-him) (Frontend Engineer)
-  - [Justin Boyson](../../../company/team/index.md#justin-boyson-he-him) (Frontend Engineer)
-  - [Coury Clark](../../../company/team/index.md#coury-clark-he-him) (Backend Engineer)
+  - [Vova Kulikov](../../../company/team/index.md#vova-kulikov) (Frontend Engineer)
+  - [Justin Boyson](../../../company/team/index.md#justin-boyson) (Frontend Engineer)
+  - [Coury Clark](../../../company/team/index.md#coury-clark) (Backend Engineer)
   - [Cristina Birkel](../../../company/team/index.md#cristina-birkel) (Backend Engineer)
 
 [We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
@@ -62,6 +62,12 @@ For more information about code insights, see the original [product document](ht
 
 - #code-insights channel or @codeinsights in Slack.
 - [team/code-insights](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights) label on GitHub.
+- @sourcegraph/code-insights team on GitHub. We also have two specific GitHub groups to reduce notification spam from pull requests:
+  - @sourcegraph/code-insights-frontend for only the frontend engineers on the team
+  - @sourcegraph/code-insights-backend for only the backend engineers on the team
+- [Code Insights Events](https://calendar.google.com/calendar/u/0?cid=Y19kOWFyMHUzZ3BpbnVpNjRiMDRpNjc3bm1qY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
+  - _Teammates should add this calendar (calendar ID `c_d9ar0u3gpinui64b04i677nmjc@group.calendar.google.com`) as an additional calendar in the [Roots PTO Slack app](../../../people-ops/submitting-time-off.md) so that their PTO is visible to their team on the team calendar (and disable adding their manager directly to the calendar invite)._
+- code-insights-team@sourcegraph.com Google group for mentioning in Google Docs and calendar invites.
 
 ## Useful browser bookmarks ⭐️
 
@@ -71,7 +77,7 @@ The following bookmarks are useful to add to your browser's bookmark bar if you'
 - [New code insights issue](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights&projects=sourcegraph/118) (pre-fills labels and project)
 - <a href="javascript:location.search='?expand=1&template=developer_insights.md&labels=team/code-insights'">Use Developer Insights PR template</a> (bookmarklet, run on the open-PR GitHub page to add our checklist template)
 - [Code Insights GDrive folder](https://drive.google.com/drive/folders/16DrxdYnJAQ-fCIy3n1DXheReqWNV5U12) (all our documents are here or linked from here)
-- [Code Insights Roadmap](https://sourcegraph.productboard.com/roadmap/2809900-code-insights-features-timeline-roadmap)
+- [Code Insights Roadmap](https://sourcegraph.productboard.com/roadmap/3362047-code-insights-beta-to-ga)
 
 ## History
 

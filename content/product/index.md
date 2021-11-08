@@ -1,24 +1,41 @@
 # Product
 
-Product at Sourcegraph consists of [product management](product_management/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md). Each of these links will take you to a page with information on how that team works internally; this page contains information that is relevant to the whole company.
+The product team at Sourcegraph consists of [product management](product_management/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md).
 
 The Product team strives to make the following true:
 
-- The team is working on the most important things (listed in the [product roadmap](./index.md#roadmap)) to execute on [our strategy](../direction/index.md) that is moving us forward on [our vision](../company/strategy.md).
+- The team is working on the most important things to execute on [our strategy](../company/strategy/index.md), and that this is communicated well to teammates and everyone outside of sourcegraph.
 - Each teammate has the customer and product context needed (about customer problems, likely future priorities, possible solutions, etc.) to perform their work effectively.
-- The product vision and roadmap are communicated well to teammates and everyone outside Sourcegraph.
 
 ## Contact
 
 You can reach us at the #product channel or @product-team on Slack. If you have ideas you want to pass on to the product team, check out the [surfacing product feedback](surfacing_product_feedback.md) page.
 
-## Roadmap
+## Roadmap & Strategy
 
-The roadmap for the product organization as well as individual teams can be found on the [Sourcegraph direction page](../direction/index.md).
+- The [Sourcegraph strategy page](../company/strategy/index.md) containing our mission, vision, how we think about prioritization
+- The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
+- We track our key result for the current quarter with the following two artifact.
+  - [GitHub project tracking board](https://github.com/orgs/sourcegraph/projects/214/views/1)
+  - [Prod/Eng level OKR tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing).
+
+## Product team
+
+- [Product team reference](product_teams.md)
+- [How product is organized](product_org.md)
+- [Roles and responsibilities](roles/index.md) of the product team
+
+## Feature matrices
+
+- [Features by maturity](feature_maturity.md)
+- [Features by code host compatibility](feature_compatibility.md)
+- [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
+- [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
 
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
+- [User metrics definitions](../bizops/user_definitions.md)
 - [How to add metrics](../bizops/analytics.md#How-to)
 
 ## Product team initiatives
@@ -33,53 +50,12 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 - [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
-### Improve process for documenting product strategy
+### Product managmenet and Product design impact ladders
 
-Our current [product goals pages](index.md#roadmap) are not always up to date so can't be relied upon by the rest of the organization. They are also mixed in with other engineering team content so it can be hard to find the product direction components. We need to update and organize these pages, and then want to improve this process so that the goals pages are the always updated source of truth.
-
-- Owner: Jason
-- [Working Document](https://docs.google.com/document/d/15H6PeCF9c890TqQBc3gaDSk-GDE42SPzhokAlU5Lu8M/edit?usp=sharing)
-- [Pull Request](https://github.com/sourcegraph/about/pull/4599/files)
-
-### Public facing roadmap
-
-We are missing a single source of truth for what is currently on the roadmap. Our customers as well as Sales, Customer Engineering, Customer Support, and Marketing all need to know what is on the roadmap. Today we use several methods to track our roadmap making any one source unreliable. The end goal is to have a single source of truth that is referenced as needed.
-
-- Owner: Serina
-- [Working Document](https://docs.google.com/document/d/1dsJ_0aXyPTE-vUDR9fIwVYEq1UBYN-rtH75qtI91pdg/edit#)
-
-### Defining our product maturity
-
-Customer Engineering is looking to better undrestand the known boundaries of our product to effectively interact with prospetive customers. As a product team we are pulling together information of existing customer scale. This information combined with our product knowledge will help us proactively set expectations.
+To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
 
 - Owner: Christina
-- [Working Document](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [Pull Request](https://github.com/sourcegraph/about/pull/4617)
-
-### Improving how we communicate pre-release features
-
-We are working with the marketing and corporate communication teams to make sure that how we talk about features is clear leading up to release, especially when they are available early, and how we communicate when they become fully live.
-
-- Owner: Jason
-- [RFC 481: Should we convert formerly free preview features into paid ones at GA](https://docs.google.com/document/d/10r7fG-qton1uFlwHqRvgj12DD5AgsaF8yGiOf2JNQWQ/edit#heading=h.trqab8y0kufp)
-- [RFC 473: Decouple product and marketing launches/milestones for features that are available early](https://docs.google.com/document/d/1aZcalAUXZGl3GVEBBrUhNtbhMc4hQWy1_8UWHN6q4ys/edit#heading=h.trqab8y0kufp)
-- [RFC 480: Beta and experimental feature definitions/entry and exit criteria](https://docs.google.com/document/d/1T605IS77xwXjyHpCRYY9NBwTIlV9jmkZL3qwrDeTpog/edit#heading=h.trqab8y0kufp)
-
-### Other initiatives
-
-There are a few other initiatives we will be tracking here soon:
-
-- CE / Product communication and prioritization improvements on feedback
-- Make sure our current product process is documented
-- Experimentation and improvements to planning
-- Consolidation and simplification of tooling
-
-In the meantime, we are using a [tracking document](https://docs.google.com/document/d/1ezjeAV2wnUKfXQjHE-Cy9eZ7i4HX2mty1zuE4VcGGGo/edit#) for these.
-
-## Org chart
-
-- [How product is organized](product_org.md)
-- [Roles and responsibilities](roles/index.md) of the product team
+- [Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
 ## References
 
@@ -95,3 +71,5 @@ In the meantime, we are using a [tracking document](https://docs.google.com/docu
   - [How we use RFCs](../communication/rfcs/index.md)
 - [User research](./user_research/index.md)
 - [Product licensing](licensing.md)
+- [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
+- [Product Gaps Dasbhoard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)

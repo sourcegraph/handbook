@@ -6,9 +6,10 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 ### Members
 
-- [Dan Adler](../company/team/index.md#dan-adler-he-him), VP Operations
-- [Tommy O Donnell](../company/team/index.md#tommy-o-donnell-he-him), Manager, Financial Planning & Analysis
-- [Kendrick Morris](../company/team/index.md#kendrick-morris-he-him), Finance & Operations Analyst
+- [Dan Adler](../company/team/index.md#dan-adler), VP Operations
+- [Tommy O Donnell](../company/team/index.md#tommy-o-donnell), Manager, Financial Planning & Analysis
+- [Kendrick Morris](../company/team/index.md#kendrick-morris), Finance & Operations Analyst
+- [Keely Aguayo](../company/team/index.md#keely-aguayo), Payroll Manager
 
 ### Roles
 
@@ -112,13 +113,17 @@ We work with an outsourced accounting firm named [Officengine](https://officengi
 
 Reach out to the [Finance team](#team) for an introduction if needed.
 
-### Accounts Payable & Expenses
+### Accounts Payable
 
 - [Paying Company bills](payables.md)
 - [AP Policy](ap.md)
 - [Submitting an invoice (teammates based outside of US)](invoices.md)
+
+### Travel & Expenses
+
 - [Submitting reimbursable expenses](expenses.md)
 - [Spending Company Money](spending-company-money.md)
+- [Travel Policy](travel.md)
 
 ### Accounts Receivable
 

@@ -41,9 +41,9 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 
 ## Meet the team
 
-- [Andy Schumeister](../../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
-- [Alex Isken](../../company/team/index.md#alex-isken-he-him), Product Marketing Manager, Emerging Products
-- [Victoria Yunger](../../company/team/index.md#victoria-yunger-she-her), Product Marketing Lead, Enterprise
+- [Andy Schumeister](../../company/team/index.md#andy-schumeister), Director of Product Marketing
+- [Alex Isken](../../company/team/index.md#alex-isken), Product Marketing Manager, Emerging Products
+- [Victoria Yunger](../../company/team/index.md#victoria-yunger), Product Marketing Lead, Enterprise
 - Hiring: [Senior Customer Marketing Manager](https://boards.greenhouse.io/sourcegraph91/jobs/4096458004)
 
 To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)
@@ -51,7 +51,7 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 ## Product launch templates and resources
 
 - [Product marketing brief](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#): Messaging and positioning doc for new products/features.
-- [Naming process](https://handbook.sourcegraph.com/marketing/brand/naming_process_for_products_features_and_programs): Best practices/process for naming new products/features.
+- [Naming process](../brand/naming_process_for_products_features_and_programs.md): Best practices/process for naming new products/features.
 - [Marketing launch tiers](marketing_launch_tiers.md): Guidance for establishing the launch tier for new products/features.
 
 ## Resources

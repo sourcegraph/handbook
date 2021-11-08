@@ -12,7 +12,15 @@ We create releases by 10am US Pacific Time on the 20th day of each month. ([why?
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
-These releases always ships on time, even if it's missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
+These releases always ship on time, even if they're missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
+
+### When we release
+
+The release branch will be cut on the last working day at 10am PST before the 20th of each month.
+
+If the 20th falls on a non-working day, the release captain will move the release earlier, to the last working day before the 20th, as well as cutting the release branch the day before that. The calendar events will reflect this.
+
+eg. The 20th of a given month falls on a Sunday, therefore the release will be moved earlier to the last working day before the 20th (the 18th) and the branch will cut the day before that (the 17th).
 
 ### Patch releases
 
@@ -127,9 +135,3 @@ This is because:
 - We haven't built the automated testing and update infrastructure to make continuous customer releases reliable.
 
 In the future, we may introduce continuous releases if these issues become surmountable.
-
-### Important dates
-
-The release branch will be cut on the last working day at 10am PST before the 20th of each month. If the 20th falls on a non-working day, the release captain will move the release forward to the first working day, as well as cutting the release branch the day before. The calendar events will reflect this.
-
-eg. The 20th of a given month falls on a Sunday, therefore the release will be moved forward to the first working day (the 18th) and the branch will cut the day before (the 17th).

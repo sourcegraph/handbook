@@ -1,6 +1,6 @@
 # Customer marketing
 
-## What is customer marketing
+## What is customer marketing?
 
 Customer marketing collaborates with marketing, sales, customer engineering, and product teams to tell compelling customer stories and run customer programs, like our Customer Advisory Board, that create value for developers and Sourcegraph.
 
@@ -14,7 +14,18 @@ Keep in mind, this applies to personal posts on Twitter or LinkedIn.
 
 We're always looking to share how our customers use Sourcegraph. If there's a customer story you'd like to tell, submit a request [here](https://form.asana.com?k=hNaq42PNshdQ1FjjEUKjLA&d=7195383522959).
 
-## Resources
+## Customer marketing resources
+
+- [Customer story roadmap](https://app.asana.com/0/1199993720289911/board)
+- [Approved customer quotes](https://docs.google.com/spreadsheets/d/1A4B_4SlFZllMEQ6183TrjP2vWt935eJ08EcPI59MUkE/edit#gid=0)
+
+## Customer Advisory Board
+
+Sourcegraph's Customer Advisory Board is comrpised of engineering leaders from our strategic customers. The advisory board meets quarterly to discuss common challenges, share best practices, and provide feedback on our roadmap. We'll open up nominations for new CAB members every quarter. If you have any questions, please join the #customer-adivsory-board Slack channel.
+
+Check out these resources to learn more about the program and takeaways from past meetings:
 
 - [Customer Advisory Board overview](https://docs.google.com/document/d/1zj7cqhRYvkeTOPLrh4FqF9VoEwZjA9aFPBffGd2EF9w/edit)
-- [Customer story roadmap](https://app.asana.com/0/1199993720289911/board)
+- [CAB member roster](https://docs.google.com/document/d/1o19rw1D4Ip6u5zf2qXTBlroB84m2eJF-nU2QIq5Wleg/edit#)
+- [2021-06-22 meeting resources](https://drive.google.com/drive/folders/15fZ4AqzqYkmz_dEOZGvcUhUehBg2DcDH?usp=sharing): This folder contains the meeting agenda, notes, and takeaways from the 2021-06-22 CAB meeting.
+- [2021-10-19 meeting resources](https://drive.google.com/drive/folders/1aiRsbhaBCUlbTomFza9_kFCWZqQoK6vs?usp=sharing): This folder contains the meeting agenda, notes, and takeaways from the 2021-10-19 CAB meeting.

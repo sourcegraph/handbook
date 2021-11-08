@@ -11,7 +11,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 - Update onboarding doc Week 2-4 with initial projects.
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
-  - Invite to GitHub teams, including [@sourcegraph/everyone](https://github.com/orgs/sourcegraph/teams/everyone)
+  - Invite to GitHub teams, including @sourcegraph/everyone
   - Figma
   - Productboard
   - Looker
@@ -48,13 +48,13 @@ Remember:
 
 - Schedule individual meetings with each person on the [Product team](../index.md#members)
 - Schedule individual meetings with each person on the engineering team you'll be working most closely with ( this will be in your specific onboarding docs)
-- Schedule a meeting with the [Head of Customer Support](../../company/team/index.md#virginia-ulrich-she-her)
+- Schedule a meeting with the [Head of Customer Support](../../company/team/index.md#virginia-ulrich)
 - Get up to speed on what your team is working on
   - Team handbook page(s), to learn about the team and its internal processes
     - [Product](../index.md)
     - [Product management](../product_management/index.md)
     - [Product design](../design/index.md)
-    - [Product process](https://about.sourcegraph.com/handbook/product/product_management/product_process)
+    - [Product process](../product_management/index.md)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
   - Team sync docs
     - Your calendar will be automatically populated with your team’s meetings. In the meeting invites, you will find corresponding docs that you should read for context.
@@ -75,7 +75,7 @@ Remember:
 - Read about [search queries](https://docs.sourcegraph.com/code-search) and perform your first searches.
 - Work through the questions from the [Sales Onboarding Quiz](../../sales/onboarding/quiz.md) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have or knowledge gaps with your manager.
 - Record yourself completing the Sales [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit#).
-- [How to make configuration changes to sourcegraph.com](../../engineering/distribution/update_sourcegraph_website.md)
+- [How to make configuration changes to sourcegraph.com](../../engineering/cloud/devops/update_sourcegraph_website.md)
 
 ### Get to know our customers
 
@@ -103,7 +103,7 @@ Remember:
 ### Understand company and team goals
 
 - [Sourcegraph values](../../company/values.md)
-- [Sourcegraph master plan](../../company/strategy.md)
+- [Sourcegraph strategy](../../company/strategy/index.md)
 - [OKR Tracker](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit?ts=607a3f2e#gid=1699297878)
 
 ### Get ready to contribute to the docs

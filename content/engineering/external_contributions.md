@@ -23,8 +23,8 @@ again.
 
 ## Option 2: In the Buildkite web interface
 
-1. Find the full length SHA of the latest commit, e.g. `ae724a83f8b6fc5628a4e8efcbb62975ed7b4c33` for [#8234](https://github.com/sourcegraph/sourcegraph/pull/8234).
-1. Find the branch name, e.g. `8160-http-warning` (trim `Akarshit:` prefix) for [#8234](https://github.com/sourcegraph/sourcegraph/pull/8234).
+1. Find the full length SHA of the latest commit, e.g. `ae724a83f8b6fc5628a4e8efcbb62975ed7b4c33` for #8234.
+1. Find the branch name, e.g. `8160-http-warning` (trim `Akarshit:` prefix) for #8234.
 1. Go to https://buildkite.com/sourcegraph/sourcegraph and click on **New Build** on the top-right menu.
 1. Fill in message (could be anything, copy the pull request title is better), commit SHA and branch.
 1. Click on **Create Build**, then the build status should be updated in the pull request checks.

@@ -1,9 +1,9 @@
 import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
+import { NextSeo } from 'next-seo'
 import ErrorPage from 'next/error'
-import Head from 'next/head'
 import { useRouter } from 'next/router'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 
 import { EditSection } from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
@@ -46,20 +46,63 @@ export interface PageProps {
     page: PageWithMetadata
 }
 
+const HEADING_SELECTOR = 'h1, h2, h3, h4, h5, h6'
+
 export default function Page({ page }: PageProps): JSX.Element {
+    const markdownBodyReference = useRef<HTMLElement>(null)
+    const tocReference = useRef<HTMLElement>(null)
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            entries => {
+                for (const entry of entries) {
+                    const tocLink = tocReference.current?.querySelector<HTMLAnchorElement>(
+                        `a[href="#${entry.target.querySelector(HEADING_SELECTOR)!.id}"]`
+                    )
+                    const listItem = tocLink?.parentElement
+                    if (entry.intersectionRatio > 0) {
+                        // Visible: Mark <li> item and all ancestors (<li>s, <ul>s) as active
+                        for (
+                            let parent = listItem;
+                            parent && parent !== tocReference.current;
+                            parent = parent.parentElement
+                        ) {
+                            parent.classList.add('active')
+                        }
+                    } else {
+                        // Not visible: Mark <li> item and all children as inactive
+                        listItem?.classList.toggle('active', false)
+                        for (const descendentItem of listItem?.querySelectorAll('ul, li') ?? []) {
+                            descendentItem.classList.remove('active')
+                        }
+                    }
+                }
+            },
+            {
+                // Header height
+                rootMargin: '-72px 0px 0px 0px',
+            }
+        )
+        const headings = markdownBodyReference.current?.querySelectorAll(HEADING_SELECTOR)
+        for (const heading of headings ?? []) {
+            const section = heading.parentElement!
+            observer.observe(section)
+        }
+        return () => observer.disconnect()
+    })
+
     const router = useRouter()
     if (!router.isFallback && !page?.slugPath) {
         return <ErrorPage statusCode={404} />
     }
+
     const slugParts = page.slugPath.split('/').filter(Boolean)
+
     return (
         <>
-            <Head>
-                <title>{page.title}</title>
-            </Head>
+            <NextSeo title={page.frontMatter?.title || page.title} description={page.frontMatter?.description} />
             <div className="container">
                 <nav id="right-sidebar">
-                    <section className="right-sidebar-section">
+                    <section className="right-sidebar-section" ref={tocReference}>
                         <h4 className="sidebar-heading">On this page</h4>
                         <TableOfContents toc={page.toc} className="table-of-contents" />
                     </section>
@@ -88,7 +131,20 @@ export default function Page({ page }: PageProps): JSX.Element {
                                     )
                                 })}
                             </nav>
-                            <main className="markdown-body" dangerouslySetInnerHTML={{ __html: page.content }} />
+                            <main
+                                className="markdown-body"
+                                data-swiftype-name="body"
+                                data-swiftype-type="text"
+                                dangerouslySetInnerHTML={{ __html: page.content }}
+                                ref={markdownBodyReference}
+                            />
+                            {/* Related content */}
+                            <script
+                                data-st-module="em_uRFPahAtp2Z--FzaaYyq"
+                                src="//s.swiftypecdn.com/modules/v1/embed.js"
+                                async={true}
+                                defer={true}
+                            />
                         </>
                     ) : (
                         <h1>Unexpected error</h1>

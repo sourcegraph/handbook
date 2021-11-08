@@ -8,7 +8,25 @@ When we need help, we seek it consistently, following the steps outlined here. W
 - Exhaust our collective expertise
 - Minimize the time added to the customer experience whilst they wait for help
 
-At no point are we meant to be gate keepers or go-betweens. Generally, when a CE needs help, they will come to us. They may also still go directly to engineering for other questions they have. And when we engage engineering, if the CE wants to be included, be sure to do so. This is especially relevant for customers still in the pre-sales process where everything is just a bit more sensitive.
+It can feel a little weird at first. Everyone else is just working Slack, why can't I? That is not true. As we grow and scale, every team gets to have a say in how they are engaged. For example, Marketing has a form, so too does recruiting. This is what helps engineering scale and it also helps us! A few more reasons to help this make sense:
+
+1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into Github helps us suss out our performance as well as room for growth.
+2. Most of the the things we need to ask are not one and done ... they so quickly turn into long back and forth given that most questions require that level of attention and are just tricky enough; so even a simple question (if it's related to a case) counts.
+3. Engineering works in Github and while Slack is great, it's more helpful if they can refer to a Github issue to pick up where they left off, etc. This is also helpful for us for our long running cases.
+4. The #ask-product-eng Slack channel doesn't have a SLA. So if a question is meant to help a customer, we lose all mechanisms for accountability to make sure we are getting responses back in line with our SLAs to be sure customers are not left hanging.
+5. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the Github issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc.
+
+At no point are we meant to be gate keepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-product-eng Slack channel is for!
+
+And that may make you wonder when an application engineer would use the #ask-product-eng Slack channel. Simple, not for anything attached to a case. Longer answer:
+
+- ...for your own curiosity as you are learning (a question you have that is not driven from a case)
+- ...as you work on an OKR project
+- ...maybe if you get curious after filing a Github issue and you have a tangentially related issue -- just say that when you post ("I have a Github issue, but this more for my own curiosity...")
+
+(If you are wondering if this means you can't talk to engineering outside of Github, goodness no! See Step 5 the "collaboration" section for more on how to work directly with engineering once you have filed a Github issue.)
+
+And now that this is all clear, here is our practice:
 
 ## Step 1: Gather all the details/context and set expectations with the customer
 
@@ -30,7 +48,11 @@ When you need help, post in our #customer-support-internal Slack channel first t
 
 ## Step 3: Identify which team can help you
 
-In many cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Distribution, Cloud, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
+A couple of notes before to help you get started in figuring out which team will be best to help:
+
+- In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Delivery, Repo Management, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
+- For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging product + engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all. Also, for these features we're still figuring out how users expect them to work, so often "bugs" are informative to understand product or education gaps in the feature – you're helping the team by surfacing them directly).
+  `
 
 ### Deployment
 
@@ -115,6 +137,12 @@ The cloud team is a newly formed team at Sourcegraph focused on rapidly scaling 
 
 Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../engineering/cloud/saas/index.md) via the [#cloud-saas slack channel](https://sourcegraph.slack.com/archives/C025BKWFPDY).
 
+### Code Insights
+
+**Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
+
+Any questions about Code Insights should be routed to the [Code Insights Team](../engineering/code-graph/code-insights/index.md)
+
 ## Step 4: File a Github issue
 
 It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering work load planning, and our team's experience.
@@ -128,8 +156,10 @@ We maintain two issue trackers:
 
 When in doubt, file in the private repo—issues can be moved over to the public repo if needed. And remember, a customer includes those we are working with during the sales process (not just those who have already signed a contract with us).
 
-- Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CSE New Issue template
+- Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CS New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
+- Include Sourcegraph version number.
+- Include name of the extension along with the extension version number when filing issues with the extensibility team.
 - Include customer quotes in mark down using a quote block. For example, `> quote goes here.`
 - Label it with `customer/$name` and `rfh`.
 - Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.
@@ -151,7 +181,7 @@ Selecting priority is more of an art than a science. Start with the issue and it
 
 After you file the Github issue, alert the relevant engineering team you did so in Slack. Keep it simple and always provide 1) a brief description of what you need, 2) link to the Github issue, and 3) the context around timeline (for example: it's okay to look at this tomorrow or later in the week).
 
-- When posting in the Delivery team's Slack channel, use @distribution-support to contact the on-call dev (if @delivery-support does not exist)
+- When posting in the Delivery team's Slack channel, use @delivery-support
 - When posting in Batcher Changes team's Slack channel, use @batchers-support
 - When posting for Repository Management, be sure to do so in the #repo-management channel and use @core-app-support (if @repo-management-support doesn't exist)
 - When posting for Cloud/SaaS, be sure to do so in the #cloud-saas channel and use @cloud-saas
@@ -165,6 +195,8 @@ If the issue is a defect, we trust our teammates in product and engineering to s
 ### Collaboration
 
 Ask the engineer helping you to see if they would like to work directly with the customer. If so, we can add them in cc on the Zendesk ticket (if the origin was the support@ email) or @ them in the relevant customer-facing Slack thread. We never want to be an unnecessary go-between, but depending on the issue, we also don't want to erode the customer's trust in your ability. It's okay that you need help and it's also okay to position that as your desire to talk with your teammates (as described in step 1).
+
+It's also okay to share with the engineering helping you that you would appreciate chatting over Slack more casually or that you would appreciate a Zoom call. You are working with them, it's okay to collaborate like you would any member of the team! If you want to learn more about something that comes up, just share that. Our teammates in engineering will be happy to engage in more robust ways than just the back and forth in the Github issue.
 
 ### Resolution
 

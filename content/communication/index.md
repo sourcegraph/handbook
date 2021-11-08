@@ -12,10 +12,9 @@ These places are the source of truth for information at Sourcegraph. Information
 - [sourcegraph/sourcegraph repository](https://github.com/sourcegraph/sourcegraph)
 - [sourcegraph/about repository](https://github.com/sourcegraph/sourcegraph)
   - [about.sourcegraph.com](https://about.sourcegraph.com)
-  - [Sourcegraph handbook](../index.md)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
-- [Creating a working group for cross-team projects](working-group.md)
-- [Roadmap](../product/index.md#roadmap)
+- [sourcegraph/handbook repository](https://github.com/sourcegraph/handbook)
+  - [Sourcegraph handbook](../index.md) which contains lots of things, like [how to create a working group for cross-team projects](working-group.md), [Strategy](../company/strategy/index.md), individual team handbooks, and more.
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [productboard](https://sourcegraph.productboard.com/)
 - [HubSpot](https://app.hubspot.com) (only contacts, not companies and deals)
@@ -149,7 +148,7 @@ If you need to deprecate just part of a Google Doc, replace the deprecated porti
 ## Handling conflicts
 
 - [Conflict resolution](./conflicts.md)
-- [Clean escalation](./conflicts.md#clean-resolution)
+- [Clean escalation](./conflicts.md#clean-escalation)
 - [Customer ethics policy](customer_ethics.md)
 
 ## Brain Food
@@ -176,6 +175,6 @@ If you have an idea for a session, add an event to the calendar and invite the e
 4. Choose **Insert image** and then **Web Address (URL)** and enter https://user-images.githubusercontent.com/3173176/115082082-2d892380-9eba-11eb-9606-6c4b9c4eb465.png then choose **Small** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like this, and clicking the Sourcegraph logo should bring you to sourcegraph.com:
-7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://handbook.sourcegraph.com/careers.
+7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://about.sourcegraph.com/careers.
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/3173176/115082263-7a6cfa00-9eba-11eb-93ba-61b72de8b30b.png">

@@ -12,13 +12,12 @@ The Core Application team has broad [area ownership](areas-of-ownership.md) with
 
 ## Members
 
-- [Dan McKean](../../company/team/index.md#dan-mckean-he-him) ([Product Manager](../../product/roles/index.md#product-manager))
+- [Dan McKean](../../company/team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
 - TBD ([Product Designer](../../product/roles/index.md#product-designer))
-- [Jean Du Plessis](../../company/team/index.md#jean-du-plessis-he-him) ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
-  - [Ryan Slade](../../company/team/index.md#ryan-slade-he-him)
-  - [Alan Harris](../../company/team/index.md#alan-harris-he-him)
+- [Jean Du Plessis](../../company/team/index.md#jean-du-plessis) ([Engineering Manager](../roles.md#engineering-manager)) {#core-application-eng}
+  - [Ryan Slade](../../company/team/index.md#ryan-slade)
   - [Asdine El Hrychy](../../company/team/index.md#asdine-el-hrychy)
-  - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta-he-him)
+  - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta)
 
 ## How to contact the team and ask for help
 
@@ -28,9 +27,9 @@ The Core Application team has broad [area ownership](areas-of-ownership.md) with
 - Requests for assistance from Customer Support and other teams are triaged, worked on, and resolved based on their priority level by a team member on [operational rotation](operational-rotation.md).
 - See [Core Application Support board](https://github.com/orgs/sourcegraph/projects/153) for information about all tracked requests and their current status.
 
-## [Goals](../../direction/cloud/core-application/index.md)
+## [Goals](../../company/strategy/cloud/core-application/index.md)
 
-See [goals](../../direction/cloud/core-application/index.md)
+See [goals](../../company/strategy/cloud/core-application/index.md)
 
 ## [Onboarding](onboarding/index.md)
 
@@ -86,3 +85,4 @@ Feel free to tag `@core-app` on Slack or anyone directly as and when required. I
 - [Cloud roadmap](https://sourcegraph.productboard.com/feature-board/2119755-cloud)
 - [GitHub Projects](https://github.com/orgs/sourcegraph/projects?query=is%3Aopen+Cloud+OR+Core+OR+Backend)
 - [Manual migrations](manual_migrations.md)
+- [Hiring](hiring/index.md)

@@ -1,6 +1,6 @@
 # CEO
 
-I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibilities and how to get what you need from me. It's intended to be helpful to our team and as a linkable reference to answer common questions (I don't expect everyone to [memorize](../usage.md#links) this page).
+I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibilities and how to get what you need from me. It's intended to be helpful to our team and as a linkable reference to answer common questions (I don't expect everyone to [memorize](../usage.md) this page).
 
 My personal site is [slack.org](https://slack.org).
 
@@ -28,7 +28,7 @@ See "[Roles of the CEO](roles.md)".
 
 ### Scheduling time with me
 
-If possible, let's talk [asynchronously and publicly](../communication/index.md). If you need to schedule a time to speak with me, the best way is to contact Katerina Nikolova, my Chief of Staff.
+If possible, let's talk [asynchronously and publicly](../communication/index.md).
 
 My preferred working hours are 08:00-17:30 US Pacific Time.
 

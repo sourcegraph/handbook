@@ -2,5 +2,7 @@
 
 ### GitHub Web Interface
 
-See [this Github documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/deleting-files-in-a-repository#deleting-a-file) for deleting a file or directory through the web interface. You may encounter Handbook checks errors. Since you are changing the location of a file, any existing links to that file will break. You may see errors like this, which are explained in the [Handbook Checks](#handbook-checks) section of this page:
-![Broken Link Errors](https://storage.googleapis.com/sourcegraph-assets/handbook/relocate-page-errors.png)
+1. See [this Github documentation](https://docs.github.com/en/repositories/working-with-files/managing-files/deleting-files-in-a-repository#deleting-a-file) for deleting a file or directory through the web interface.
+1. Wait for Handbook checks to run. When you delete a page, any existing links to that page will break. You'll probably see a failure like this:
+   ![Broken link handbook check failure](https://storage.googleapis.com/sourcegraph-assets/handbook/broken-link-failure.png)
+1. Check out the "Broken Links" section on the [Handbook Checks page](handbook-check-failures.md#broken-link) for guidance on how to resolve these. They can be a bit tedious and hard to track down, so remember you can always ask the #handbook Slack channel for help.

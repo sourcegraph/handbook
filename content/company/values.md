@@ -1,8 +1,8 @@
 # Sourcegraph values
 
-These values are the beliefs and principles that help us achieve our [goals](goals/index.md) and [vision](strategy.md#vision) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
+These values are the beliefs and principles that help us achieve our [goals](goals/index.md) and [strategy](../company/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
 
-- [**Be customer driven**](#be-customer-driven): You proactively work on the right things by continuously orienting your goals around delivering value to your customers.
+- [**Customer-first**](#customer-first): You earn and keep the trust of our customers by putting their interests first.
 - [**Work as a team**](#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
 - [**High agency**](#high-agency): You have the power and the responsibility to improve Sourcegraph as a company and as a product. You deliver regardless of the circumstances.
 - [**High quality**](#high-quality): You are responsible for finding out what high-quality work looks like and producing that high-quality work iteratively.
@@ -14,9 +14,15 @@ These values are the beliefs and principles that help us achieve our [goals](goa
 
 ## Values in detail
 
-### Be customer driven
+### Customer-first
 
-You proactively work on the right things by continuously orienting your goals around delivering value to your customers.
+You earn and keep the trust of our customers by putting their interests first, ahead of Sourcegraph's interests and your team's interests. Over the long term, we need to be a customer-funded business, and you'll help us get there by being customer-first.
+
+- We are not engineering-first. We are not sales-first. Being customer-first unites us all (engineering, sales, and every other team).
+- When you're building the product, being customer-first means you solve real problems for customers who use, love, and appreciate what you build. You aren't working on abstract tech that will never be used.
+- When you're marketing, selling, and supporting the product, you know the entire team values you and affirmatively decided to join a customer-first company. We are not one of those developer-facing companies where "how to make money and serve customers" is an unpleasant afterthought.
+- Avoid being <abbr title="A prospect is a company that is not yet a customer.">prospect</abbr>-first when possible. Solve a problem for existing customers (not prospects) first. You can be much more iterative and get much better feedback from existing customers, which means you'll build a better solution and will have happy customer references. This wins prospects better than if you were narrowly prospect-first.
+- For more, see "[Being a customer-first company](customer-first.md)".
 
 ### Work as a team
 
@@ -46,7 +52,7 @@ You are responsible for finding out what high-quality work looks like and delive
 
 - If you don’t know what high quality looks like, it's your responsibility to find out (for example, by asking teammates and stakeholders).
 - If you don’t have the time to produce high-quality work, then it's your responsibility to take more time or cut scope (and communicate this), so that you can produce high-quality work.
-- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../people-ops/travel.md#professional-development-and-education), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
+- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../finance/travel.md#5-professional-development-stipend-and-educational-travel), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
 - If you need help producing high-quality work, it is your responsibility to get that help.
 
 If we discover that we've produced something that does not meet our quality bar, we'll roll it back (for example, revert a commit, roll back a deployment, or unpublish content) until we can make it high quality. If that's not possible, we'll prioritize improving it.
@@ -55,7 +61,7 @@ High-quality isn't the opposite of iterative. You can keep quality high while st
 
 ### Be welcoming and inclusive
 
-You make people from all groups and backgrounds feel comfortable belonging to our team and community. You understand that diversity is having a seat at the table, inclusion is having a voice, and belonging is having that voice be heard. You are actively against racism and bias.
+You make people from all groups and backgrounds feel comfortable belonging to our team and community. You understand that diversity is having a seat at the table, inclusion is having a voice, and belonging is having that voice be heard. You are acting against racism and bias.
 
 - In order for us to realize our purpose, our team must have diverse perspectives that are truly heard.
 - In order for everyone to feel safe sharing their perspective, truly having a voice, and being heard, we must all continuously confront our unconscious biases by identifying them ourselves, graciously accepting when they are identified for us, and doing the work to ensure our biases do not inform our conduct and decision-making.
@@ -101,7 +107,7 @@ It is totally legitimate to want to create "breathing room" for a new thought or
 
 > My team has goals and plans for the future, but I am hesitant to put this in the handbook because I don't want to promise anything to our customers and I don't want competitors copying us.
 
-We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](goals/guidelines.md#choosing-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
+We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](goals/guidelines.md#how-we-set-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
 
 > I am working on improving the security of our product, but I feel uncomfortable clearly documenting what I am doing (e.g., in public status updates, issues, PR descriptions, the changelog) because I am worried that it will make Sourcegraph look bad.
 
@@ -119,7 +125,7 @@ You strive to continuously grow and learn.
 Here are some ways that we support learning, teaching, and knowledge-sharing at Sourcegraph:
 
 - We aim to provide a high-quality [onboarding experience](../people-ops/onboarding/index.md) for new teammates by providing them with the learning materials and guidance they need to get started.
-- We have an [education budget](../people-ops/travel.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
+- We have an [education budget](../finance/travel.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
 - We organize occasional hackathons internally, which are opportunities to learn, experiment, and share knowledge.
 - Product and Engineering teams host regular [Demo days](../product/demo_day.md) in which we share progress and learn from each other.
 - We teach each other new things in [Brain food sessions](../communication/index.md#brain-food)

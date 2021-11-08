@@ -10,13 +10,13 @@ The cloud SaaS team at Sourcegraph owns anything associated with our goal of bui
 
 ## Members
 
-- [Ryan Phillips](../../../company/team/index.md#ryan-phillips-he-him) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Quinn Keast](../../../company/team/index.md#quinn-keast-he-him) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Rafal Leszczynski](../../../company/team/index.md#rafal-leszczynski-he-him) ([Engineering Manager](../../roles.md#engineering-manager))
+- [Ryan Phillips](../../../company/team/index.md#ryan-phillips) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Quinn Keast](../../../company/team/index.md#quinn-keast) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Rafal Leszczynski](../../../company/team/index.md#rafal-leszczynski) ([Engineering Manager](../../roles.md#engineering-manager))
   - [Joe Chen](../../../company/team/index.md#joe-chen)
-  - [Artem Ruts](../../../company/team/index.md#artem-ruts-he-him)
-  - [Milan Freml](../../../company/team/index.md#milan-freml-he-him)
-  - Rafal (Oct 11)
+  - [Artem Ruts](../../../company/team/index.md#artem-ruts)
+  - [Milan Freml](../../../company/team/index.md#milan-freml)
+  - [Rafal Gajdulewicz](../../../company/team/index.md#rafal-gajdulewicz)
 
 ## How to contact the team and ask for help
 

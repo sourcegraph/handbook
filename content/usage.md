@@ -1,3 +1,8 @@
+---
+title: How to use the handbook
+description: Guidance on how to get the most out of the Sourcegraph handbook
+---
+
 # How to use the handbook
 
 ## Usage
@@ -50,33 +55,31 @@ To be handbook-first, we need to be very diligent about maintaining the handbook
 
 ## Searching the handbook
 
-Search the handbook using the search box in the top navigation on https://handbook.sourcegraph.com.
+Search the handbook using the search box in the top navigation on https://handbook.sourcegraph.com or by pressing <kbd>⌘</kbd>+<kbd>K</kbd>.
 
-### Chrome/Firefox search shortcut
+### Browser quicksearch
 
-For Google Chrome:
+The handbook supports quicksearch from your browser's address bar.
+Simply start typing "handbook" into your address bar, hit <kbd>tab</kbd>, enter your search term and hit <kbd>return</kbd>.
 
-1. Open Chrome settings > **Manage search engines** (or go to chrome://settings/searchEngines directly).
-1. Next to "Other search engines", press the **Add** button.
-1. In the "Add search engine" form, enter:
-   - Search engine: `Sourcegraph handbook`
-   - Keyword: `hb` (or some other shortcut of your choosing)
-   - URL with %s in place of query: `https://handbook.sourcegraph.com/#stq=%s`
-1. Press the **Add** button.
+#### Chrome
 
-For Firefox:
+The handbook search is detected automatically, no setup required.
 
-1. Right-click the search bar on https://handbook.sourcegraph.com.
-1. Choose `Add a keyword for this Search`.
-1. Enter a keyword that you would like to use (e.g. `hb`).
-1. Open your bookmarks and edit the handbook bookmark that was just created
-1. Change the URL on the bookmark to `https://handbook.sourcegraph.com/#stq=%s`
+<video loop autoplay muted playsinline src="https://sourcegraphstatic.com/handbook/search/chrome.mp4"></video>
 
-Then, to use the browser search shortcut:
+#### Safari
 
-1. Focus in Chrome’s or Firefox's address bar (by clicking, tapping, or pressing <kbd>⌘L</kbd> on macOS or <kbd>Ctrl+L</kbd> on Linux).
-1. Type the keyword you entered previously (e.g., `hb`) then press <kbd>Tab</kbd>.
-1. Type in a query and press <kbd>Enter</kbd>.
+The handbook search is detected automatically, no setup required.
+
+<video loop autoplay muted playsinline src="https://sourcegraphstatic.com/handbook/search/safari.mp4"></video>
+
+#### Firefox
+
+Firefox requires a one-time confirmation to add the search shortcut.
+Focus your address bar, and click the Sourcegraph logo with the small "+" icon at the bottom of the suggestions panel where it says "This time, search with:".
+
+<video loop autoplay muted playsinline src="https://sourcegraphstatic.com/handbook/search/firefox.mp4"></video>
 
 ## Wiki and Google Docs handbooks become stale
 

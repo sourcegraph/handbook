@@ -8,21 +8,13 @@ We use personas to understand our users and what they need as we prioritize our 
 
 We receive tons of feature requests and bug reports, more than we can handle. This means we must frequently say "no" or prioritize things less urgently than some people would like. Our job is to find the most important things to work on.
 
-## How do I get something prioritized by our product team?
+## How do I get feedback to the product team that I need to get prioritized?
 
-- [Create a GitHub issue](https://github.com/sourcegraph/sourcegraph/issues/new/choose) OR [write an RFC](../../communication/rfcs/index.md).
-  - Include as much detail as possible about the issue.
-  - Provide context around urgency and priority.
-  - Link to the customer (if applicable) in this [spreadsheet](https://docs.google.com/spreadsheets/d/1OEhzdMSlkGOaWyGKwdiAGlirsKKj9EN45Izn7kdKNTg/edit#gid=0)
-  - Add the team label on the issue for the team that should be responsible for it.
-- Share with the team in any of the following ways:
-  - Post link to the issue in Slack and ask the team to prioritize the issue in the next team sync (or let them know it is a P0 that should be handled immediately).
-  - Send to the Product Manager to prioritize with the team.
-  - Add the item to the [team's board](planning.md) for consideration
+See our instructions for [surfacing product feedback](../surfacing_product_feedback.md).
 
 ### Engineering prototyping
 
-Sometimes there is a general product area that the CEO/CTO/Product Manager/CE/Sales seem interested in, and a developer is passionate/inspired/excited about it and wants to work on prototyping in that area. The developer has total freedom for a couple months to work on it part-time as long as they make progress in prototyping with the Sales and CE teams and are showing progress to customers regularly. The sole test will be, if we ask the Sales/CE teams "is $DEVELOPER's prototype/project drawing interest in customer calls and is $DEVELOPER iterating on it well in response to feedback?"
+Sometimes there is a general product area that your team owns that the CEO/CTO/Product Manager/CE/Sales seem interested in, and a developer is passionate/inspired/excited about it and wants to work on prototyping in that area. The developer has total freedom for a couple months to work on it part-time as long as they make progress in prototyping with the Sales and CE teams and are showing progress to customers regularly. The sole test will be, if we ask the Sales/CE teams "is $DEVELOPER's prototype/project drawing interest in customer calls and is $DEVELOPER iterating on it well in response to feedback?"
 
 ## Revenue considerations
 
