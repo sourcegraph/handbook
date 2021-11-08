@@ -1,9 +1,10 @@
-import { load } from 'js-yaml'
 import { readFile } from 'fs/promises'
 
+import { load } from 'js-yaml'
+
 /**
- * @param {string} file
- * @returns {Promise<any>}
+ * @param file
+ * @returns
  */
 async function readYamlFile(file: string): Promise<any> {
     return load(await readFile(file, 'utf8'))
@@ -20,7 +21,7 @@ export async function generateMaturityDefinitions(): string {
     const maturityLevels = await readYamlFile('data/maturity_levels.yml')
     let pageContent = ''
     for (const maturityLevel of Object.values(maturityLevels)) {
-        pageContent += `- ${maturityLevel.title}: ${maturityLevel.definition}\n`
+        pageContent += `- ${String(maturityLevel.title)}: ${String(maturityLevel.definition)}\n`
     }
     return pageContent
 }
@@ -34,19 +35,23 @@ export async function generateFeatureMaturityLevels(): string {
     let pageContent = ''
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
         let featureCount = 0
-        let areaContent = `\n### ${productTeam.title}\n`
+        let areaContent = `\n### ${String(productTeam.title)}\n`
         if (productOrgs[productTeam.product_org].strategy_link) {
             const strategyUrl = createRelativeProductLink(productOrgs[productTeam.product_org].strategy_link)
-            areaContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
+            areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
+                strategyUrl
+            )}) | `
         }
         if (productTeam.strategy_link) {
-            areaContent += `[${productTeam.title} Strategy](${createRelativeProductLink(productTeam.strategy_link)}))\n`
+            areaContent += `[${String(productTeam.title)} Strategy](${createRelativeProductLink(
+                productTeam.strategy_link
+            )}))\n`
         }
         if (productTeam.pm) {
-            const bioLink = `../company/team/index.md#${teamMembers[productTeam.pm].name
-                .toLowerCase()
-                .replace(/\s+/g, '-')}`
-            areaContent += `\nProduct Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
+            const bioLink = `../company/team/index.md#${String(
+                teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
+            )}`
+            areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
         }
 
         areaContent += '\n|Feature|Maturity|\n'
@@ -57,11 +62,11 @@ export async function generateFeatureMaturityLevels(): string {
                 featureCount++
                 if (feature.documentation_link) {
                     const url = createRelativeProductLink(feature.documentation_link)
-                    areaContent += `|[${feature.title}](${url})`
+                    areaContent += `|[${String(feature.title)}](${String(url)})`
                 } else {
-                    areaContent += `|${feature.title}`
+                    areaContent += `|${String(feature.title)}`
                 }
-                areaContent += `|${maturityLevels[feature.maturity].title}|\n`
+                areaContent += `|${String(maturityLevels[feature.maturity].title)}|\n`
             }
         }
         if (featureCount > 0) {
@@ -80,25 +85,29 @@ export async function generateFeatureCodeHostCompatibilities(): string {
     let pageContent = ''
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
         let featureCount = 0
-        let areaContent = `\n### ${productTeam.title}\n`
+        let areaContent = `\n### ${String(productTeam.title)}\n`
         const productOrg = productOrgs[productTeam.product_org]
         if (productOrg.strategy_link) {
             const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
-            areaContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
+            areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
+                strategyUrl
+            )}) | `
         }
         if (productTeam.strategy_link) {
-            areaContent += `[${productTeam.title} Strategy](${createRelativeProductLink(productTeam.strategy_link)}))\n`
+            areaContent += `[${String(productTeam.title)} Strategy](${createRelativeProductLink(
+                productTeam.strategy_link
+            )}))\n`
         }
         if (productTeam.pm) {
-            const bioLink = `../company/team/index.md#${teamMembers[productTeam.pm].name
-                .toLowerCase()
-                .replace(/\s+/g, '-')}`
-            areaContent += `\nProduct Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
+            const bioLink = `../company/team/index.md#${String(
+                teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
+            )}`
+            areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
         }
 
         areaContent += '\n|Feature|'
         for (const codeHost of Object.values(codeHosts)) {
-            areaContent += `${codeHost.title} |`
+            areaContent += `${String(codeHost.title)} |`
         }
         areaContent += '\n|-------|'
         for (const codeHost of Object.values(codeHosts)) {
@@ -110,9 +119,11 @@ export async function generateFeatureCodeHostCompatibilities(): string {
             if (feature.product_team === productTeamName) {
                 featureCount++
                 if (feature.documentation_link) {
-                    areaContent += `|[${feature.title}](${createRelativeProductLink(feature.documentation_link)})`
+                    areaContent += `|[${String(feature.title)}](${createRelativeProductLink(
+                        feature.documentation_link
+                    )})`
                 } else {
-                    areaContent += `|${feature.title}`
+                    areaContent += `|${String(feature.title)}`
                 }
                 areaContent += '|'
                 for (const codeHostName of Object.keys(codeHosts)) {
@@ -138,74 +149,76 @@ export async function generateCodeHostsList(): string {
     const codeHosts = await readYamlFile('data/code_hosts.yml')
     let pageContent = ''
     for (const codeHost of Object.values(codeHosts)) {
-        pageContent += `- [${codeHost.title}](${codeHost.info_link})\n`
+        pageContent += `- [${String(codeHost.title)}](${String(codeHost.info_link)})\n`
     }
     return pageContent
 }
 
-export async function generateTeamMembersList() {
+export async function generateTeamMembersList(): string {
     const teamMembers = await readYamlFile('data/team.yml')
     let pageContent = ''
     for (const teamMember of Object.values(teamMembers)) {
-        pageContent += `\n## ${teamMember.name}\n`
+        pageContent += `\n## ${String(teamMember.name)}\n`
         if (teamMember.role) {
-            pageContent += `${teamMember.role}`
+            pageContent += `${String(teamMember.role)}`
             if (teamMember.location) {
-                pageContent += ` (${teamMember.location})`
+                pageContent += ` (${String(teamMember.location)})`
             }
             pageContent += '\n\n'
         } else if (teamMember.location) {
-            pageContent += ` (${teamMember.location})\n\n`
+            pageContent += ` (${String(teamMember.location)})\n\n`
         }
         if (teamMember.description) {
-            pageContent += `${teamMember.description}\n`
+            pageContent += `${String(teamMember.description)}\n`
         }
         if (teamMember.email) {
-            pageContent += `- Email: [${teamMember.email}](mailto:${teamMember.email})\n`
+            pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
         }
         if (teamMember.github) {
-            pageContent += `- GitHub: [${teamMember.github}](https://github.com/${teamMember.github})\n`
+            pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
         }
         if (teamMember.pronouns) {
-            pageContent += `- Pronouns: ${teamMember.pronouns}\n`
+            pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
         }
         if (teamMember.pronunciation) {
-            pageContent += `- Pronunciation: ${teamMember.pronunciation}\n`
+            pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
         }
         if (teamMember.links) {
-            pageContent += `- Other links: ${teamMember.links}\n`
+            pageContent += `- Other links: ${String(teamMember.links)}\n`
         }
     }
     return pageContent
 }
 
-export async function generateProductTeamsList() {
+export async function generateProductTeamsList(): string {
     const productTeams = await readYamlFile('data/product_teams.yml')
     const productOrgs = await readYamlFile('data/product_orgs.yml')
     const teamMembers = await readYamlFile('data/team.yml')
     let pageContent = ''
     for (const [productOrgName, productOrg] of Object.entries(productOrgs)) {
-        pageContent += `\n### ${productOrg.title}\n\n`
+        pageContent += `\n### ${String(productOrg.title)}\n\n`
         if (productOrg.strategy_link) {
             pageContent += `- [Strategy Page](${createRelativeProductLink(productOrg.strategy_link)})\n`
         }
         if (productOrg.strategy_link) {
-            const bioLink = `../company/team/index.md#${teamMembers[productOrg.pm].name
-                .toLowerCase()
-                .replace(/\s+/g, '-')}`
-            pageContent += `- Product Director: [${teamMembers[productOrg.pm].name}](${bioLink})\n`
+            const bioLink = `../company/team/index.md#${String(
+                teamMembers[productOrg.pm].name.toLowerCase().replace(/\s+/g, '-')
+            )}`
+            pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLink)})\n`
         }
         for (const productTeam of Object.values(productTeams)) {
             if (productTeam.product_org === productOrgName) {
-                pageContent += `\n\n### ${productTeam.title}\n`
+                pageContent += `\n\n### ${String(productTeam.title)}\n`
                 if (productTeam.strategy_link) {
                     pageContent += `- [Strategy Page](${createRelativeProductLink(productTeam.strategy_link)})\n`
                 }
                 if (productTeam.pm) {
-                    const bioLink = `../company/team/index.md#${teamMembers[productTeam.pm].name
-                        .toLowerCase()
-                        .replace(/\s+/g, '-')}`
-                    pageContent += `- Product Manager: [${teamMembers[productTeam.pm].name}](${bioLink})`
+                    const bioLink = `../company/team/index.md#${String(
+                        teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
+                    )}`
+                    pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(
+                        bioLink
+                    )})`
                 }
                 if (productTeam.issue_labels) {
                     for (let index = 0; index < productTeam.issue_labels.length; index++) {
@@ -213,10 +226,18 @@ export async function generateProductTeamsList() {
                             pageContent += '\n- Issue labels: '
                         }
                         if (index < productTeam.issue_labels.length - 1) {
-                            pageContent += `[${productTeam.issue_labels[index]}](https://github.com/sourcegraph/sourcegraph/labels/${productTeam.issue_labels[index]}), `
+                            pageContent += `[${String(
+                                productTeam.issue_labels[index]
+                            )}](https://github.com/sourcegraph/sourcegraph/labels/${String(
+                                productTeam.issue_labels[index]
+                            )}), `
                         }
                         if (index === productTeam.issue_labels.length - 1) {
-                            pageContent += `[${productTeam.issue_labels[index]}](https://github.com/sourcegraph/sourcegraph/labels/${productTeam.issue_labels[index]})`
+                            pageContent += `[${String(
+                                productTeam.issue_labels[index]
+                            )}](https://github.com/sourcegraph/sourcegraph/labels/${String(
+                                productTeam.issue_labels[index]
+                            )})`
                             pageContent += '\n'
                         }
                     }

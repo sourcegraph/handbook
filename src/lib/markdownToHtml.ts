@@ -24,10 +24,10 @@ import { unified, Plugin } from 'unified'
 import { visit } from 'unist-util-visit'
 import { VFile } from 'vfile'
 
+import * as generatedMarkdown from './generatedMarkdown'
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 import { rehypeSlackChannels } from './rehypeSlackChannels'
 import { rehypeSmartypants } from './rehypeSmartypants'
-import * as generatedMarkdown from './generatedMarkdown.ts'
 
 // Workaround for https://github.com/agentofuser/rehype-section/issues/85
 const { default: rehypeSection } = _rehypeSection
@@ -50,7 +50,7 @@ export default async function markdownToHtml(
     isIndexPage: boolean
 ): Promise<{ content: string; title?: string; toc: Toc }> {
     // Pre-insert generated markdown
-    markdown = await insertGeneratedMarkdown(markdown)
+    markdown = await Promise.resolve(insertGeneratedMarkdown(markdown))
     const result = await unified()
         // Parse markdown
         .use(remarkParse)
@@ -198,24 +198,30 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
 }
 
 async function insertGeneratedMarkdown(markdown: string): string {
-    if (markdown.match(/{{generator:/) {
+    if (markdown.match(/{{generator:/)) {
         markdown = markdown.replace(
             /{{generator:maturity_definitions}}/gi,
-            await generatedMarkdown.generateMaturityDefinitions()
+            await Promise.resolve(generatedMarkdown.generateMaturityDefinitions())
         )
         markdown = markdown.replace(
             /{{generator:feature_maturity_levels}}/gi,
-            await generatedMarkdown.generateFeatureMaturityLevels()
+            await Promise.resolve(generatedMarkdown.generateFeatureMaturityLevels())
         )
         markdown = markdown.replace(
             /{{generator:feature_code_host_compatibilities}}/gi,
-            await generatedMarkdown.generateFeatureCodeHostCompatibilities()
+            await Promise.resolve(generatedMarkdown.generateFeatureCodeHostCompatibilities())
         )
-        markdown = markdown.replace(/{{generator:code_hosts_list}}/gi, await generatedMarkdown.generateCodeHostsList())
-        markdown = markdown.replace(/{{generator:team_members_list}}/gi, await generatedMarkdown.generateTeamMembersList())
+        markdown = markdown.replace(
+            /{{generator:code_hosts_list}}/gi,
+            await Promise.resolve(generatedMarkdown.generateCodeHostsList())
+        )
+        markdown = markdown.replace(
+            /{{generator:team_members_list}}/gi,
+            await Promise.resolve(generatedMarkdown.generateTeamMembersList())
+        )
         markdown = markdown.replace(
             /{{generator:product_teams_list}}/gi,
-            await generatedMarkdown.generateProductTeamsList()
+            await Promise.resolve(generatedMarkdown.generateProductTeamsList())
         )
     }
     return markdown
