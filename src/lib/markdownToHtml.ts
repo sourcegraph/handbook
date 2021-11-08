@@ -48,7 +48,7 @@ export default async function markdownToHtml(
     markdown: string,
     contextUrlPath: string,
     isIndexPage: boolean
-): Promise<{ content: string; title?: string; toc: Toc, internalLinks?: string[] }> {
+): Promise<{ content: string; title?: string; toc: Toc; internalLinks?: string[] }> {
     // Pre-insert generated markdown
     markdown = await Promise.resolve(insertGeneratedMarkdown(markdown))
     const result = await unified()
