@@ -95,7 +95,6 @@ These tie back to [FY22 Q4 Product/Engineering OKRs](../../../goals/2022_q4.md#p
 - **KR:** Enable out-of-the-box cross-repo and dependency navigation for 3 customers by successfully moving them to on-prem auto-indexing.
 - **KR:** Improve precise code intelligence actions coverage by going from 3 to 5 languages (adding Kotlin and TS/JS), representing the languages in ~50% of all actions.
 
-
 ### Themes
 
 #### Top level theme: Build and scale the Global Code Graph
@@ -112,6 +111,7 @@ These tie back to [FY22 Q4 Product/Engineering OKRs](../../../goals/2022_q4.md#p
   - Begin measuring and reporting time-to-value as a metric so that we can understand and improve retention, activation, and sign-ups, and know where the high ROI items are for delivering a unified experience in future quarters.
 
 ### What's next and why
+
 - **Adding precise Python support:** Given its extense usage both at customers and in the market, we intend to add support for this language in the near term.
 
 ### What we're not working on & why
