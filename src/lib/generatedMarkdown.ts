@@ -17,7 +17,7 @@ function createRelativeProductLink(link: string): string {
     return `..${link}`
 }
 
-export async function generateMaturityDefinitions(): string {
+export async function generateMaturityDefinitions(): Promise<string> {
     const maturityLevels = await readYamlFile('data/maturity_levels.yml')
     let pageContent = ''
     for (const maturityLevel of Object.values(maturityLevels)) {
@@ -26,7 +26,7 @@ export async function generateMaturityDefinitions(): string {
     return pageContent
 }
 
-export async function generateFeatureMaturityLevels(): string {
+export async function generateFeatureMaturityLevels(): Promise<string> {
     const features = await readYamlFile('data/features.yml')
     const maturityLevels = await readYamlFile('data/maturity_levels.yml')
     const productTeams = await readYamlFile('data/product_teams.yml')
@@ -76,7 +76,7 @@ export async function generateFeatureMaturityLevels(): string {
     return pageContent
 }
 
-export async function generateFeatureCodeHostCompatibilities(): string {
+export async function generateFeatureCodeHostCompatibilities(): Promise<string> {
     const features = await readYamlFile('data/features.yml')
     const productTeams = await readYamlFile('data/product_teams.yml')
     const productOrgs = await readYamlFile('data/product_orgs.yml')
@@ -145,7 +145,7 @@ export async function generateFeatureCodeHostCompatibilities(): string {
     return pageContent
 }
 
-export async function generateCodeHostsList(): string {
+export async function generateCodeHostsList(): Promise<string> {
     const codeHosts = await readYamlFile('data/code_hosts.yml')
     let pageContent = ''
     for (const codeHost of Object.values(codeHosts)) {
@@ -154,7 +154,7 @@ export async function generateCodeHostsList(): string {
     return pageContent
 }
 
-export async function generateTeamMembersList(): string {
+export async function generateTeamMembersList(): Promise<string> {
     const teamMembers = await readYamlFile('data/team.yml')
     let pageContent = ''
     for (const teamMember of Object.values(teamMembers)) {
@@ -190,7 +190,7 @@ export async function generateTeamMembersList(): string {
     return pageContent
 }
 
-export async function generateProductTeamsList(): string {
+export async function generateProductTeamsList(): Promise<string> {
     const productTeams = await readYamlFile('data/product_teams.yml')
     const productOrgs = await readYamlFile('data/product_orgs.yml')
     const teamMembers = await readYamlFile('data/team.yml')

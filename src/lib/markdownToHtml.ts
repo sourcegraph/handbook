@@ -197,7 +197,7 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
     return false
 }
 
-async function insertGeneratedMarkdown(markdown: string): string {
+async function insertGeneratedMarkdown(markdown: string): Promise<string> {
     if (markdown.match(/{{generator:/)) {
         markdown = markdown.replace(
             /{{generator:maturity_definitions}}/gi,
