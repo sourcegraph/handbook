@@ -56,11 +56,9 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
                 </div>
             )}
             <div className="sidebar-bottom-links">
-                {!Object.prototype.hasOwnProperty.call(pagePath) && (
-                    <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${pagePath}`}>
-                        Edit this page
-                    </Link>
-                )}
+                <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${pagePath}`}>
+                    Edit this page
+                </Link>
             </div>
         </section>
     )
