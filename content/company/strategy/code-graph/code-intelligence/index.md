@@ -110,6 +110,7 @@ These tie back to [FY22 Q4 Product/Engineering OKRs](../../../goals/2022_q4.md#p
   - We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision. We're currently focusing on shipping Kotlin, Protobuf and a revamped version of our JS/TS indexer. Our next step is adding auto-indexing and cross dependency navigation for JS and TS to our on-prem offeting.
 - **Improve the user experience of code navigation and code intelligence**
   - Begin measuring and reporting time-to-value as a metric so that we can understand and improve retention, activation, and sign-ups, and know where the high ROI items are for delivering a unified experience in future quarters.
+  - Conduct research that helps us understand adoption drivers and painpoints with the aim of identifying concrete improvements to increase discoverability and enhance the navigation experience.
 
 ### What's next and why
 - **Adding precise Python support:** Given its extense usage both at customers and in the market, we intend to add support for this language in the near term.
