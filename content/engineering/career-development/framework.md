@@ -429,7 +429,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
           <li>Sets the technical vision for their team, and influences the broader technical vision.</li>
           <li>Initiates and drives cross-team projects that enable higher quality work.</li>
           <li>Provides oversight, coaching, and guidance through code and design reviews, both on and off the team.</li>
-          <li>Acts as a trusted advisor, drawing on functional expertise to inform customer-driven strategy.</li>
+          <li>Acts as a trusted advisor, drawing on functional expertise to inform customer-first strategy.</li>
         </ul>
       </td>
       <td class="behaviors execution">
