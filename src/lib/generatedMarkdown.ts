@@ -1,47 +1,40 @@
-/* eslint-disable @typescript-eslint/restrict-template-expressions */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-
-import { readFile, writeFile } from 'fs/promises'
-
 import { load } from 'js-yaml'
+import { readFile } from 'fs/promises'
 
 /**
  * @param {string} file
  * @returns {Promise<any>}
  */
-async function readYamlFile(file) {
+async function readYamlFile(file: string): Promise<any> {
     return load(await readFile(file, 'utf8'))
 }
 
-/**
- * @param {string} link
- * @returns {string}
- */
-function createRelativeProductLink(link) {
+function createRelativeProductLink(link: string): string {
     if (link.startsWith('http')) {
         return link
     }
     return `..${link}`
 }
 
-async function generateMaturityPage(features, maturityLevels, productTeams, productOrgs) {
-    const tiersFilePath = 'content/product/feature_maturity.md'
-    let pageContent = '# Product Features by Maturity\n'
-    pageContent +=
-        'This page is intended as a reference of features by maturity level; each item will link you to our documentation,\n'
-    pageContent += 'and you can also see what level of maturity each feature is currently at.\n'
-    pageContent +=
-        'You may also be interested in seeing our [feature compatibility](feature_compatibility.md) matrix.\n'
-
-    pageContent += '\n## Maturity Definitions\n'
-    pageContent += '\nSee feature documentation for specifics on any limitations/plans for removal.\n'
+export async function generateMaturityDefinitions(): string {
+    const maturityLevels = await readYamlFile('data/maturity_levels.yml')
+    let pageContent = ''
     for (const maturityLevel of Object.values(maturityLevels)) {
         pageContent += `- ${maturityLevel.title}: ${maturityLevel.definition}\n`
     }
+    return pageContent
+}
 
+export async function generateFeatureMaturityLevels(): string {
+    const features = await readYamlFile('data/features.yml')
+    const maturityLevels = await readYamlFile('data/maturity_levels.yml')
+    const productTeams = await readYamlFile('data/product_teams.yml')
+    const productOrgs = await readYamlFile('data/product_orgs.yml')
+    const teamMembers = await readYamlFile('data/team.yml')
+    let pageContent = ''
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
         let featureCount = 0
-        let areaContent = `\n## ${productTeam.title}\n`
+        let areaContent = `\n### ${productTeam.title}\n`
         if (productOrgs[productTeam.product_org].strategy_link) {
             const strategyUrl = createRelativeProductLink(productOrgs[productTeam.product_org].strategy_link)
             areaContent += ` ([${productOrgs[productTeam.product_org].title} Strategy](${strategyUrl}) | `
@@ -75,27 +68,19 @@ async function generateMaturityPage(features, maturityLevels, productTeams, prod
             pageContent += areaContent
         }
     }
-
-    await writeFile(tiersFilePath, pageContent)
-    console.log('  ' + tiersFilePath)
+    return pageContent
 }
 
-async function generateCompatibilityPage(features, productTeams, productOrgs, codeHosts) {
-    const tiersFile = 'content/product/feature_compatibility.md'
-    let pageContent = '# Product Feature Compatibility\n'
-    pageContent +=
-        'This page is intended as a reference of features by code host compatibility; each item will link you to our documentation.\n'
-    pageContent += 'You may also be interested in seeing our [feature maturity](feature_maturity.md) matrix.\n'
-
-    pageContent += '\n## Code Hosts\n'
-    pageContent += '\nSourcegraph tracks compatibility with a number of external code hosts:\n'
-    for (const codeHost of Object.values(codeHosts)) {
-        pageContent += `- [${codeHost.title}](${codeHost.info_link})\n`
-    }
-
+export async function generateFeatureCodeHostCompatibilities(): string {
+    const features = await readYamlFile('data/features.yml')
+    const productTeams = await readYamlFile('data/product_teams.yml')
+    const productOrgs = await readYamlFile('data/product_orgs.yml')
+    const teamMembers = await readYamlFile('data/team.yml')
+    const codeHosts = await readYamlFile('data/code_hosts.yml')
+    let pageContent = ''
     for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
         let featureCount = 0
-        let areaContent = `\n## ${productTeam.title}\n`
+        let areaContent = `\n### ${productTeam.title}\n`
         const productOrg = productOrgs[productTeam.product_org]
         if (productOrg.strategy_link) {
             const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
@@ -146,19 +131,21 @@ async function generateCompatibilityPage(features, productTeams, productOrgs, co
             pageContent += areaContent
         }
     }
-
-    await writeFile(tiersFile, pageContent)
-    console.log('  ' + tiersFile)
+    return pageContent
 }
 
-async function generateTeamPage(teamMembers) {
-    const teamFile = 'content/company/team/index.md'
-    let pageContent = '# Sourcegraph team\n'
-    pageContent +=
-        'This page contains brief bios of our team. Teammates may also have a personal documentation page in this directory that is named according to their Sourcegraph email address(e.g.you@sourcegraph.com -> you.md).\n'
-    pageContent +=
-        'For help adding yourself to this page, check out [these instructions](../../editing/add-yourself-to-team-page.md).\n'
+export async function generateCodeHostsList(): string {
+    const codeHosts = await readYamlFile('data/code_hosts.yml')
+    let pageContent = ''
+    for (const codeHost of Object.values(codeHosts)) {
+        pageContent += `- [${codeHost.title}](${codeHost.info_link})\n`
+    }
+    return pageContent
+}
 
+export async function generateTeamMembersList() {
+    const teamMembers = await readYamlFile('data/team.yml')
+    let pageContent = ''
     for (const teamMember of Object.values(teamMembers)) {
         pageContent += `\n## ${teamMember.name}\n`
         if (teamMember.role) {
@@ -189,20 +176,16 @@ async function generateTeamPage(teamMembers) {
             pageContent += `- Other links: ${teamMember.links}\n`
         }
     }
-    await writeFile(teamFile, pageContent)
-    console.log('  ' + teamFile)
+    return pageContent
 }
 
-async function generateProductTeamsPage(teamMembers, productTeams, productOrgs) {
-    const productTeamsFilePath = 'content/product/product_teams.md'
-    let pageContent = '# Sourcegraph product teams\n'
-    pageContent +=
-        'This page contains a list of the product orgs and teams at Sourcegraph, and important information about them.\n'
-    pageContent += 'You may also be interested in seeing our [feature maturity](feature_maturity.md) or\n'
-    pageContent += '[feature code host compatibility](feature_compatibility.md) matrices.\n'
-
+export async function generateProductTeamsList() {
+    const productTeams = await readYamlFile('data/product_teams.yml')
+    const productOrgs = await readYamlFile('data/product_orgs.yml')
+    const teamMembers = await readYamlFile('data/team.yml')
+    let pageContent = ''
     for (const [productOrgName, productOrg] of Object.entries(productOrgs)) {
-        pageContent += `\n## ${productOrg.title}\n\n`
+        pageContent += `\n### ${productOrg.title}\n\n`
         if (productOrg.strategy_link) {
             pageContent += `- [Strategy Page](${createRelativeProductLink(productOrg.strategy_link)})\n`
         }
@@ -241,25 +224,5 @@ async function generateProductTeamsPage(teamMembers, productTeams, productOrgs) 
             }
         }
     }
-
-    await writeFile(productTeamsFilePath, pageContent)
-    console.log('  ' + productTeamsFilePath)
+    return pageContent
 }
-
-console.log('Creating generated pages..')
-
-// Load YAML files
-const features = await readYamlFile('data/features.yml')
-const maturityLevels = await readYamlFile('data/maturity_levels.yml')
-const productTeams = await readYamlFile('data/product_teams.yml')
-const productOrgs = await readYamlFile('data/product_orgs.yml')
-const codeHosts = await readYamlFile('data/code_hosts.yml')
-const teamMembers = await readYamlFile('data/team.yml')
-
-// WARNING: If you add a new generated page please update GENERATED_PAGE_DATA in src/components/EditSection.tsx
-await generateMaturityPage(features, maturityLevels, productTeams, productOrgs, teamMembers)
-await generateCompatibilityPage(features, productTeams, productOrgs, codeHosts, teamMembers)
-await generateTeamPage(teamMembers)
-await generateProductTeamsPage(teamMembers, productTeams, productOrgs)
-
-console.log('Successfully created all generated pages.\n')
