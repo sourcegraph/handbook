@@ -152,7 +152,7 @@ export async function generateTeamMembersList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
-    pageContent += `\n## ${String(teamMember.name)}\n`
+    pageContent += `\n### ${String(teamMember.name)}\n`
     if (teamMember.role) {
       pageContent += `${String(teamMember.role)}`
       if (teamMember.location) {
@@ -202,7 +202,7 @@ export async function generateProductTeamsList() {
     }
     for (const productTeam of Object.values(productTeams)) {
       if (productTeam.product_org === productOrgName) {
-        pageContent += `\n\n### ${String(productTeam.title)}\n`
+        pageContent += `\n\n#### ${String(productTeam.title)}\n`
         if (productTeam.strategy_link) {
           pageContent += `- [Strategy Page](${String(createRelativeProductLink(productTeam.strategy_link))})\n`
         }
