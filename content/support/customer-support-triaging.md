@@ -9,6 +9,8 @@ What this means is that the customer issue needs to be understood before it’s 
 
 In order to set-up the team for success meeting our internal 1-hour SLA, it is critical that the triage team triages every ticket that comes in within ~10 minutes of it coming in.
 
+That said, there may be times when we have unusally large amount of work or more folks are out than normal and it is fine customers have to wait. In such [situations](support-prioritization.md#:~:text=When%20we%20have%20an%20unusually%20large%20amount%20of%20work%20or%20more%20folks%20are%20out%20than%20normal%2C%20it%20is%20fine%20if%20customers%20(including%20pre-sales)%20have%20to%20wait.%20In%20such%20situations%2C%20we%20will%20communicate%20proactively%2C%20letting%20them%20know%20that%20we%20have%20team%20members%20arriving%20in%20another%20few%20hours%20who%20will%20be%20able%20to%20help%20them.), the person triaging can help set expectations and invite the customer to share whether there is more urgency than may be immediately apparent.
+
 ## How to triage like a pro
 
 - **Step 1:** In the triage view, the first step is to open a ticket and understand the context of the message. Slow down and have a closer look at the content and the medium from which the message originated (emails tend to be rare). Is this related to another open issue? Is this a new issue? Is this not an issue at all?
