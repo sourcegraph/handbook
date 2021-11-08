@@ -110,7 +110,7 @@ export async function generateFeatureCodeHostCompatibilities(): Promise<string> 
             areaContent += `${String(codeHost.title)} |`
         }
         areaContent += '\n|-------|'
-        for (const codeHost of Object.values(codeHosts)) {
+        for (let i = 0; i < Object.values(codeHosts).length; i++) {
             areaContent += '-|'
         }
         areaContent += '\n'
