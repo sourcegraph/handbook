@@ -52,5 +52,6 @@ This month, you will also switch to active participation in operational rotation
 ## Service Tours
 
 - [How gitserver works](how-gitserver-works.md)
+- [How repo updater works](how-repo-updater-works.md)
 
 ## Extras
