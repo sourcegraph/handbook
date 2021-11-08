@@ -47,8 +47,6 @@ We would like you to take the role of a Directly Responsible Individual (DRI) fo
 
 This month, you will also switch to active participation in operational rotation and join the team’s rotation schedule. Please do not forget that your peers are here to help, and you can rely on their support and guidance, especially during your first shift.
 
-## Onboarding by Week
-
 ## Service Tours
 
 - [How gitserver works](how-gitserver-works.md)
