@@ -24,6 +24,7 @@ import { unified, Plugin } from 'unified'
 import { visit } from 'unist-util-visit'
 import { VFile } from 'vfile'
 
+import * as generatedMarkdown from './generatedMarkdown'
 import { rehypeMarkupDates } from './rehypeMarkupDates'
 import { rehypeSlackChannels } from './rehypeSlackChannels'
 import { rehypeSmartypants } from './rehypeSmartypants'
@@ -48,6 +49,8 @@ export default async function markdownToHtml(
     contextUrlPath: string,
     isIndexPage: boolean
 ): Promise<{ content: string; title?: string; toc: Toc }> {
+    // Pre-insert generated markdown
+    markdown = await Promise.resolve(insertGeneratedMarkdown(markdown))
     const result = await unified()
         // Parse markdown
         .use(remarkParse)
@@ -192,4 +195,34 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
         }
     }
     return false
+}
+
+async function insertGeneratedMarkdown(markdown: string): Promise<string> {
+    if (markdown.match(/{{generator:/)) {
+        markdown = markdown.replace(
+            /{{generator:maturity_definitions}}/gi,
+            await Promise.resolve(generatedMarkdown.generateMaturityDefinitions())
+        )
+        markdown = markdown.replace(
+            /{{generator:feature_maturity_levels}}/gi,
+            await Promise.resolve(generatedMarkdown.generateFeatureMaturityLevels())
+        )
+        markdown = markdown.replace(
+            /{{generator:feature_code_host_compatibilities}}/gi,
+            await Promise.resolve(generatedMarkdown.generateFeatureCodeHostCompatibilities())
+        )
+        markdown = markdown.replace(
+            /{{generator:code_hosts_list}}/gi,
+            await Promise.resolve(generatedMarkdown.generateCodeHostsList())
+        )
+        markdown = markdown.replace(
+            /{{generator:team_members_list}}/gi,
+            await Promise.resolve(generatedMarkdown.generateTeamMembersList())
+        )
+        markdown = markdown.replace(
+            /{{generator:product_teams_list}}/gi,
+            await Promise.resolve(generatedMarkdown.generateProductTeamsList())
+        )
+    }
+    return markdown
 }
