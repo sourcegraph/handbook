@@ -49,13 +49,9 @@ Temporary custody of authentication, efforts largely limited to support and main
 
 For information on how to contact us for support, or how we handle support, please see [our processes](processes.md).
 
-## Growth plan
+## Processes
 
-TODO
-
-## Tech stack
-
-TODO
+Read more about [how this team works](processes.md).
 
 ## Principles
 
@@ -63,6 +59,3 @@ We inherit Sourcegraph's [engineering principles and practices](../../principles
 
 We also have a set of [guiding principles](../../../company/strategy/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
 
-## Processes
-
-Read more about [how this team works](processes.md).
