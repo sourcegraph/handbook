@@ -89,6 +89,7 @@ When you choose these 2-3 reviewers, you should consider:
 - Which peers can speak directly to my growth opportunities? Have I had a difficult conversation with someone and would like to include them as a reviewer to obtain constructive feedback?
 - Who have I collaborated with recently who has had a direct line of vision into my work? Have we worked together recently on a project? You are encouraged to choose reviewers who have insight into your recent work, rather than people you simply talk to often at Sourcegraph.
 - Include one reviewer whose review you’re scared to read! This is a best practice and will broaden your perspective and build self-awareness.
+- All peer reviewers should have been at Sourcegraph for at least two months before you ask them to review you.
 
 _Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
 
