@@ -68,6 +68,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Demand Gen](marketing/demand-gen/index.md)
 - [Developer Education](marketing/education/index.md)
 - [Brand](marketing/brand/index.md)
+- [Social Media](marketing/socialmedia.md) 
 - [Community Relations](marketing/community_relations.md)
 
 ### [Sales](sales/index.md)
