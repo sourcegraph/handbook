@@ -47,7 +47,7 @@ At the moment maturity varies depending on the area of ownership:
 
 - **Code intelligence platform:** We're currently focusing on delivering an out-of-the-box precise code intelligence solution to a small number of eager customers.
 
-- **Code navigation:** Baseline features are implemented but have a considerable amount of debt and room for improvement. We're currently focusing on researching and implementating features that will make the overall navigation experience snappier, more intuitive and complete.
+- **Code navigation:** Baseline features are implemented but have a considerable amount of debt and room for improvement. We're currently focusing on researching and implementing features that will make the overall navigation experience faster and more intuitive.
 
 In the last few months we’ve:
 
