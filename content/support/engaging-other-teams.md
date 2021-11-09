@@ -151,7 +151,7 @@ It can seem duplicative, but it's just as important when we need help as it is w
 
 We maintain two issue trackers:
 
-1. [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) for private issues that affect a particular customer and our requests for help (RFHs).
+1. [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) for private issues that affect a particular customer and are requests for help (RFHs).
 2. [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph/issues) for public issues affecting the general product.
 
 When in doubt, file in the private repo—issues can be moved over to the public repo if needed. And remember, a customer includes those we are working with during the sales process (not just those who have already signed a contract with us).
