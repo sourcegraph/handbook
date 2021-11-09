@@ -86,10 +86,6 @@ YAML build errors can happen when you are editing the `.yml` files under `/data`
 If indentation is wrong, you will receive a `YAMLException: bad indentation of a mapping entry` error. To fix these, you need to make sure that you always indent two spaces underneath any heading.
 
 ```
-yarn run v1.22.15
-$ node src/scripts/generated-pages.mjs
-Creating generated pages..
-
 file:///home/jason/code/handbook/node_modules/js-yaml/dist/js-yaml.mjs:1273
   return new exception(message, mark);
          ^
@@ -113,10 +109,6 @@ To fix this, you could delete the extra quote if you didn't intend it to be ther
 Sometimes, depending on the quoting error (especially if you have multiple errors) these can get tricky to resolve. If you feel stuck check with the #handbook Slack channel for help.
 
 ```
-yarn run v1.22.15
-$ node src/scripts/generated-pages.mjs
-Creating generated pages..
-
 file:///home/jason/code/handbook/node_modules/js-yaml/dist/js-yaml.mjs:1273
   return new exception(message, mark);
          ^

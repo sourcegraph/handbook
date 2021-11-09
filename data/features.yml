@@ -364,11 +364,11 @@ browser_extension:
     github_com: true
     github_enterprise: true
     bitbucket_server: true
-    bitbucket_cloud: false
+    bitbucket_cloud: true
     phabricator: true
     codecommit: false
     gitolite: false
-    gerrit: false
+    gerrit: true
     perforce: false
     cvs: false
 
