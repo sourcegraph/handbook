@@ -57,7 +57,7 @@ The word license is ambiguous: the answer to "what's the license of this user?" 
 
 "Free user" is also ambiguous, as it can refer to a Sourcegraph OSS user, or a Sourcegraph Enterprise user on a Free plan.
 
-"Enterprise user" is ambiguous as well, as it can refer to a Sourcegraph Enterprise user (on any plan), or specifically to a Sourcegraph Enterise user on an Enteprise plan. "Enterprise customer" is similarly ambiguous.
+"Enterprise user" is ambiguous as well, as it can refer to a Sourcegraph Enterprise user (on any plan), or specifically to a Sourcegraph Enterprise user on an Enterprise plan. "Enterprise customer" is similarly ambiguous.
 
 To prevent confusion, avoid using "License" or "Free user". Instead, say:
 
