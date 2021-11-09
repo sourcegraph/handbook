@@ -13,7 +13,7 @@ In order to handle problems with the CI, the following elements are necessary:
 - Have access to the `sourcegraph-ci` _project_ on Google Cloud Platform.
   - See [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) 
 - Have the CLI `gcloud` tool installed and have authenticated yourself.
-  - See [Gain access to the cluster](../../deployments/debugging/tutorial/index.md)
+  - See [Gain access to the cluster](../../deployments/debugging/tutorial.md)
 - (Optional) Install [K9s](https://k9scli.io) for easier interactions with the _pods_.
 
 ## Overview
