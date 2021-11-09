@@ -16,7 +16,10 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 **Here are our best practices for celebrating your teammate’s anniversaries:**
 
-- People Ops to send a branded Sourcegraph gift to teammates on their anniversary each year
+- **Starting January 2022** managers can send Loop & Tie collections to teammates on their anniversary each year. To create a Loop & Tie account, please reach out to Fabiana Castellanos at fabiana@sourcegraph.com. **Please note:** 
+  - Through December 2021 People Ops will send a branded Sourcegraph gift to teammates on their anniversary.
+  - There are both US and international Loop & Tie collections, please be mindful to choose the correct collection when sending these out.
+  - As a manager you can choose a different anniversary gift for your direct report as long as it abides by the [gift amount policy](https://handbook.sourcegraph.com/people-ops/celebrate#gift-amount-policy-for-anniversaries) detailed below.
 
 - Managers to create a [Kudoboard](https://www.kudoboard.com/) for their teammate to gather signatures and well wishes in an email deliverable card. We have an annual subscription to Kudoboard. You can find our Sourcegraph credentials in 1Password under Kudoboard or by searching ‘_kudoboard_’ or ‘_birthday_’.
 - When creating the Kudoboard, the format should include:
@@ -31,13 +34,30 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
   - [ ] Anyone who teammate regularly works with
 
+## Gift amount policy for anniversaries
+
+Anniversary gifts should not exceed the following amounts per teammate and per year:
+- Year 1: $25 USD
+- Year 2: $50 USD
+- Year 3: $75 USD
+- Year 4: $100 USD
+- Year 5: $150 USD
+- Year 6: $200 USD
+- Year 7 and above: $250 USD
+
 ## Birthdays
 
 Sourcegraph encourages team members to take a day of vacation on their special day in alignment with our [**Paid Time Off Policy**](https://docs.google.com/document/d/1nqkTF_e32wx_WMw5Y1a2C8iyh-iRtIcC9Mc54YwPSko/edit). If your celebration happens to fall over a weekend please be sure to take an alternate day such as the Friday prior or the Monday after.
 
 We’d also like to be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should check their employee’s BambooHR profile for their birthday and ask them personally if they’d like to celebrate it at work beforehand. With their permission, people managers will consult their team on an appropriate gift / gift card for the employee and can expense this using Expensify.
 
-To add the BambooHR "Birthdays" calendar to your Google Calendar, please use this link (https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665) by going to **Google Calendar** > **Settings** > **Add calendar** > **From URL** > paste link in **URL of calendar** box > **Add calendar**.
+To add the BambooHR "Birthdays" calendar to your Google Calendar, please use this link (https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665) and perform the following steps:
+- Go to **Google Calendar**
+- Click **Settings**
+- Click **Add calendar**
+- Click **From URL**
+- Paste link in **URL of calendar** box
+- Click **Add calendar**.
 
 _Need a little help on what to get? Here’s a few of our favorite things:_
 
