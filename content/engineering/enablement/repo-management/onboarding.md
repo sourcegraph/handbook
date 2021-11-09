@@ -31,7 +31,7 @@ The central theme for the first month is learning. During these 30 days, your go
 
 You will meet many people, read multiple documents, solve small, well-defined technical challenges, and be exposed to a ton of new information. We understand this might feel overwhelming, so please relax and don’t stress. This first month is the time for learning and growth.
 
-Take a look at the [First Month plan](first-month.md) here. 
+Take a look at the [First Month plan](first-month.md) here.
 
 ### Second Month
 
