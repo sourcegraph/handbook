@@ -83,7 +83,7 @@ A complete list of feature areas by maturity, tier, or by code host compatibilit
 
 ## FY23 strategy
 
-> Target ~5-7(TBD) specific use cases for existing customers first to grow ARR ~___x(TBD).
+> Target ~5-7(TBD) specific use cases for existing customers first to grow ARR ~\_\_\_x(TBD).
 
 See the ["FY23 strategy"](https://docs.google.com/document/d/11ot7RoJ18mmjeP8Zb4TJMJsdQf5ZmGErkPq1VDW80d4/edit) doc for full details. (We will copy this doc into the handbook when it is finished being edited.)
 
