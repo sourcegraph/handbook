@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=../schema/code_hosts.schema.json
+
+gitlab_com:
+  title: GitLab.com
+  info_link: https://gitlab.com
+
+gitlab_enterprise:
+  title: GitLab Enterprise
+  info_link: https://gitlab.com
+
+github_com:
+  title: GitHub.com
+  info_link: https://github.com
+
+github_enterprise:
+  title: GitHub Enterprise
+  info_link: https://github.com
+
+bitbucket_server:
+  title: BitBucket Server
+  info_link: https://bitbucket.org/
+
+bitbucket_cloud:
+  title: BitBucket Cloud
+  info_link: https://bitbucket.org/
+
+phabricator:
+  title: Phabricator
+  info_link: https://www.phacility.com/phabricator/
+
+codecommit:
+  title: AWS CodeCommit
+  info_link: https://aws.amazon.com/codecommit
+
+gitolite:
+  title: Gitolite
+  info_link: https://gitolite.com/
+
+gerrit:
+  title: Gerrit
+  info_link: https://www.gerritcodereview.com/
+
+perforce:
+  title: Perforce
+  info_link: https://www.perforce.com/
+
+cvs:
+  title: CVS
+  info_link: http://cvs.nongnu.org/

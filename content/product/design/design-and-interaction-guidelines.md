@@ -102,4 +102,4 @@ We aim for [WCAG Level AA Conformance](https://www.w3.org/WAI/WCAG2AA-Conformanc
 - Tables
   - Header alignment
 - Copy
-  - [Follow the Sourcegraph style guide](https://about.sourcegraph.com/handbook/communication/style_guide)
+  - [Follow the Sourcegraph style guide](../../communication/content_guidelines/index.md)

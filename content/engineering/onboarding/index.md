@@ -26,7 +26,7 @@ Your manager should complete the following steps when you join:
 - Schedule a recurring [1-1](../../leadership/1-1.md).
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
-    - Invite to relevant GitHub teams, including [@sourcegraph/everyone](https://github.com/orgs/sourcegraph/teams/everyone).
+    - Invite to relevant GitHub teams, including @sourcegraph/everyone.
   - [Productboard](https://sourcegraph.productboard.com)
   - [Figma](https://figma.com)
   - Add the user to the `gcp-engineering` [group](https://console.cloud.google.com/iam-admin/groups?orgonly=true&project=&folder=&organizationId=1006954638239&supportedpurview=organizationId) so they have access to our [Google Cloud Platform](../environments.md).

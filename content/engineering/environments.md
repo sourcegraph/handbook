@@ -24,6 +24,8 @@ Contains projects used by individual engineers. Engineers are expected to remove
 
 Generally, these projects should be short-lived and shutdown by the engineer when it is no longer needed (this will delete all resources in the project). Longer lived projects should be put in another folder and distribution should be contacted for review.
 
+_Note: Customer Support team members should provision clusters within the cse-k8s project._
+
 #### Sourcegraph Cloud
 
 Sourcegraph Cloud projects.

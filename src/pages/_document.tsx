@@ -10,12 +10,18 @@ export default class MyDocument extends Document {
                 <Head>
                     <link rel="icon" type="image/png" href="/static/sourcegraph-mark.png" />
                     <link rel="icon" type="image/svg+xml" href="/static/sourcegraph-mark.svg" />
-                    <link rel="apple-touch-icon" href="sourcegraph-mark.png" />
+                    <link rel="apple-touch-icon" href="/static/sourcegraph-mark.png" />
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                     <link
                         href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap"
                         rel="stylesheet"
+                    />
+                    <link
+                        rel="search"
+                        type="application/opensearchdescription+xml"
+                        title="Handbook"
+                        href="/opensearch.xml"
                     />
 
                     <script

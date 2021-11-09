@@ -17,7 +17,7 @@ We facilitate [high agency](../company/values.md#high-agency) engineers by shari
 
 The default owner of any technical decision is the person or team that owns the work implied by the decision.
 
-If ownership is unclear, ask your manager (or in an approriate channel) "Do we have a designated owner for X?".
+If ownership is unclear, ask your manager (or in an appropriate channel) "Do we have a designated owner for X?".
 
 If agreement cannot be reached on a decision, then perform a [clean escalation](../communication/conflicts.md).
 

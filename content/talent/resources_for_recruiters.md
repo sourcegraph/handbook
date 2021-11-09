@@ -67,7 +67,7 @@ As a next step, please:
 
 Interview process / hiring team:
 
-- [30m] [Recruiter screen](./types_of_interviews.md#sts=Recruiter%20screen): \_\_
+- [30m] [Recruiter screen](./types_of_interviews.md#recruiter-screen): \_\_
 - [30-60m] [Hiring Manager screen](./types_of_interviews.md#hiring-manager-screen): \_\_
 - Assignment, if applicable: \_\_
 - In-depth Interview Stage:
@@ -88,35 +88,64 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:
 
-## Extending an offer
+## Creating an offer
 
 - Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
   - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
+- Recruiter [creates an offer in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer)
+- Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
 - Recruiter submits offer for approval in Greenhouse.
-  - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
+  - Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
+
+## Extending an offer
+
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
   - Attendees: Recruiter, Hiring Manager, Candidate.
-  - Prior to the call, Recruiter drafts an Offer Summary and sends to VP Talent and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
-  - Agenda: 1. the Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them 2. the Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity 3. the Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity.
-  - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and 2) schedule a follow up call to answer any questions.
-- Following the offer call, Recruiter sends the offer summary to the candidate in an email.
+- Prior to the call, Recruiter generates the correct Offer Summary document in Greenhouse, downloads the document, and sends to VP Talent and/or Director, Technical Recruiting and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
+- Agenda:
+  - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them
+  - The Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity
+  - Tthe Hiring Manager and Recruiter answers any questions and asks how the candidate is feeling about the opportunity
+  - Before ending the call, be sure to determine a potential start date (all start dates should fall on a cohort Monday) and schedule a follow up call to answer any questions.
+- Following the offer call, Recruiter sends the offer summary to the candidate in an email with Hiring Manager cc'ed.
 - To send an official offer, the Recruiter
-  - 1.  updates the offer approval with the accurate start date
-  - 2.  tags the VP Talent and the Recruitment Operations Specialist in the notes section: "@Carly @Trevor please send this [US/Non-US] offer letter"
+  - Updates the offer approval with the accurate start date
+  - Tags the VP Talent and the Recruitment Operations Specialist in the Talent Offers Slack channel: "@VP Talent @Recruitment Operations Specialist please send this [US/Non-US] offer letter. Open Date: ** Source: ** "
 - The official offer is sent to the candidate via Docusign.
 
 ## After the offer
 
 - After the candidate signs the offer, the Recruiter sends a welcome email to the candidate and Cc's the Hiring Manager.
 - The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
-- The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Ines, VP of Talent, and Hiring Manager, and exports the candidate to Bamboo.
+- The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Onboarding Email, Hiring Manager, VP Talent and Talent Team Manager (if applicable), and exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
 
 ## LinkedIn posting best practices
 
-It is much better to copy and paste the entire post and then give the author credit by tagging them. Long story short, avoid resharing and copy/paste instead.
+Instead of resharing a post, it is much better to copy and paste the entire post and then give the author credit by tagging them.
 
 Avoid including links directly in your posts. Anything that takes the user away from LinkedIn is discouraged... so instead, add the link as a comment.
 
+If you're looking for Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
+
+Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. Thank you for helping us attract and hire the best talent!
+
 [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
+
+## LinkedIn Recruiter Licenses
+
+We have unlimited LinkedIn Recruiter licenses for all Sourcegraph teammates. A recruiter license allows you to view unlimited candidate profiles and send unlimited messages to prospective candidates. This is a helpful tool for hiring managers or any teammates who want to help with recruiting outreach efforts.
+
+If you would like a recruiter license, please let your recruiter know and we will get your account activated!
+
+Resources to learn more about using your LinkedIn Recruiter License:
+
+- [Beginner User Curriculum](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Flinkedin-recruiter-for-new-users-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ZZ53ap8WeBM1COR76EWDX0vdjCKnh1Q%2Bhm93VruCXrE%3D&reserved=0)
+- [Experienced User Curriculum](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Fleverage-the-full-power-of-linkedin-recruiter-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=agxl%2B4%2BMf5nGXhHMDCfq%2F5cP2Ecw3qVW9%2B%2BKQrY%2FFSM%3D&reserved=0)
+
+## Sourcing Outreach Best Practices
+
+Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
+
+[Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.

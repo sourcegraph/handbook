@@ -1,6 +1,6 @@
 # Code insights team completed goals
 
-This page records goals completed by the code insights team historically (started recording in FY-21-Q4). See also our [current goals](../../../direction/code-graph/code-insights/index.md).
+This page records goals completed by the code insights team historically (started recording in FY-21-Q4). See also our [current goals](../../../company/strategy/code-graph/code-insights/index.md).
 
 - [**2021**](#2021)
   - [FY-21-Q4](#FY-21-Q4)
@@ -9,7 +9,7 @@ This page records goals completed by the code insights team historically (starte
 
 ### FY-21-Q4
 
-1. ✅ Three customers give us qualitative feedback after using our code insights prototypes to guide the initial product direction.
+1. ✅ Three customers give us qualitative feedback after using our code insights prototypes to guide the initial product strategy.
 
    - **Outcome:** We have a list of potential features and their likely value that we can use to achieve our initial adoption milestones ([Productboard view](https://sourcegraph.productboard.com/feature-board/2327586-code-insights-next-objective)).
 

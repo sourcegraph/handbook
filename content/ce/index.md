@@ -23,6 +23,7 @@ This continuity means we give customers consistent and high-quality service from
 - [CE Education](education.md)
 - [New CE Onboarding](onboarding.md)
 - [Team Culture](team-culture.md)
+- [CE Tools](ce-tools.md)
 - [Working with Customers](working-with-customers.md)
 - [Career Growth](career-growth.md)
 
@@ -30,35 +31,38 @@ This continuity means we give customers consistent and high-quality service from
 
 <!-- Alphabetically, by surname. -->
 
-- [Aimee Menne](../company/team/index.md#aimee-menne-she-her) (VP of Customer Engineering)
-- [Christy Haragan](../company/team/index.md#christy-haragan-she-her) (Director of Customer Engineering, International)
-- FQ3 CE Director, Americas
+- [Aimee Menne](../company/team/index.md#aimee-menne) (VP of Customer Engineering)
+- [Christy Haragan](../company/team/index.md#christy-haragan) (Director of Customer Engineering, International)
+- [Bob Roudebush](../company/team/index.md#bob-roudebush) (Director of Customer Engineering, Americas)
 - [FQ3 CE Manager, Americas](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
 - International - EMEA & APAC
-  - [Ajay Sridhar](../company/team/index.md#ajay-sridhar-he-him)
-  - [Elzanne Wentzel](../company/team/index.md#elzanne-wentzel-she-her)
+  - [Ajay Sridhar](../company/team/index.md#ajay-sridhar)
+  - [Elzanne Wentzel](../company/team/index.md#elzanne-wentzel)
+  - [Simon Waterer](../company/team/index.md#simon-waterer)
   - [FQ3 CE (Singapore)](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - Americas - US West
-  - [Emily Chapman](../company/team/index.md#emily-chapman-she-her)
-  - [Jonah Dueck](../company/team/index.md#jonah-dueck-he-him)
-  - [Rami Hamdan](../company/team/index.md#rami-hamdan-they-them)
-  - [Nate Maynard](../company/team/index.md#nate-maynard-he-him)
-  - [David Rohnow](../company/team/index.md#david-rohnow-he-him)
-  - [Dan Ryan](../company/team/index.md#dan-ryan-he-him)
+  - [Emily Chapman](../company/team/index.md#emily-chapman)
+  - [Jonah Dueck](../company/team/index.md#jonah-dueck)
+  - [Rami Hamdan](../company/team/index.md#rami-hamdan)
+  - [Andrew Hsu](../company/team/index.md#andrew-hsu)
+  - [Nate Maynard](../company/team/index.md#nate-maynard)
+  - [David Rohnow](../company/team/index.md#david-rohnow)
+  - [Dan Ryan](../company/team/index.md#dan-ryan)
   - [Manuel Ucles](../company/team/index.md#manuel-ucles)
-  - [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him)
+  - [Max Wiederholt](../company/team/index.md#max-wiederholt)
+  - [FQ4 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
 - Americas - US East
-  - [Leo Abreu](../company/team/index.md#leo-abreu-he-him)
-  - [Bill Caplan](../company/team/index.md#bill-caplan-he-him)
-  - [Alex Fogg](../company/team/index.md#alex-fogg-he-him)
-  - [Christine Lovett](../company/team/index.md#christine-lovett-she-her)
-  - [Shawn King](../company/team/index.md#shawn-king-he-him)
-  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin-he-him)
-  - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-  - [FQ3 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
+  - [Leo Abreu](../company/team/index.md#leo-abreu)
+  - [Bill Caplan](../company/team/index.md#bill-caplan)
+  - [Alex Fogg](../company/team/index.md#alex-fogg)
+  - [Christine Lovett](../company/team/index.md#christine-lovett)
+  - [Shawn King](../company/team/index.md#shawn-king)
+  - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin)
+  - [Nancy Shah](../company/team/index.md#nancy-shah)
+
+More details about our team members in [our team READMEs](ce-bios.md).
 
 ## Open Roles
 
 - [Customer Engineer - Remote, US](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
-- [Customer Engineer - Remote, Singapore](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - [Manager, Customer Engineering - Remote, US](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)

@@ -4,11 +4,12 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Members
 
-- [Alicja Suska](../../../company/team/index.md#alicja-suska-she-her) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) ([Engineering Manager](../../../engineering/roles.md#engineering-manager)) {#frontend-platform-eng}
-  - [Tom Ross](../../../company/team/index.md#tom-ross-he-him)
-  - [Felipe Janer](../../../company/team/index.md#felipe-janer-he-him)
-  - [Valery Bugakov](../../../company/team/index.md#valery-bugakov-he-him)
+- [Taylor Sperry](../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy) ([Engineering Manager](../../../engineering/roles.md#engineering-manager)) {#frontend-platform-eng}
+  - [Tom Ross](../../../company/team/index.md#tom-ross)
+  - [Felipe Janer](../../../company/team/index.md#felipe-janer)
+  - [Valery Bugakov](../../../company/team/index.md#valery-bugakov)
 
 ## Mission
 
@@ -43,11 +44,11 @@ Using and developing Sourcegraph is effortless.
 ## Contact
 
 - #frontend-platform channel or @frontendplatform in Slack.
-- [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and [@sourcegraph/frontend-platform](https://github.com/orgs/sourcegraph/teams/frontend-platform) team on GitHub.
+- [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and @sourcegraph/frontend-platform team on GitHub.
 
 ## Goals
 
-[Goals](../../../direction/enablement/frontend-platform/index.md)
+[Goals](../../../company/strategy/enablement/frontend-platform/index.md)
 
 ## Growth plan
 
@@ -67,7 +68,7 @@ Here are some of the technologies we use to deliver on our goals:
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement principles and practices](../../developer-insights/index.md#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
+We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
 
 ## Processes
 

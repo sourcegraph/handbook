@@ -6,7 +6,7 @@
 
 ## Activities
 
-Welcome to the team! This week is all about being [customer-driven](../../../company/values.md#be-customer-driven).
+Welcome to the team! This week is all about being [customer-first](../../../company/values.md#customer-first).
 
 These activities are where most of your time will be spent during week 1:
 

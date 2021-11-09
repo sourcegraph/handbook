@@ -1,6 +1,6 @@
 # Requesting a security review
 
-Security code reviews differ from [peer code reviews](https://about.sourcegraph.com/handbook/engineering/code_reviews), as they are usually on large blocks of code, and after the fact. Architectural reviews should occur prior to a merge to main. These reviews bring a second set of eyes, with dedicated focus to the problem.
+Security code reviews differ from [peer code reviews](https://docs.sourcegraph.com/dev/background-information/code_reviews), as they are usually on large blocks of code, and after the fact. Architectural reviews should occur prior to a merge to main. These reviews bring a second set of eyes, with dedicated focus to the problem.
 
 ## Conducting a review
 

@@ -30,7 +30,7 @@ _In these review cycles, you will be asked to give and receive the following rev
 
 ### Timing:
 
-Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year.
+Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year. As our company standard, our review cycles run on UTC. The review cycle completes at 12:00pm midnight UTC on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
 
 We expect that all teammates will carve out time to put thought into writing out their reviews, and writing the reviews of their peers. We encourage all reviewers to designate around 30 minutes per review on their calendars as a calendar block called: “Writing peer reviews - do not book.” We encourage all teammates during this time to respect those review calendar blocks.
 
@@ -82,23 +82,26 @@ These cycles will run concurrently with your [Onboarding Feedback Milestones](./
 
 ### Selecting a peer reviewer
 
-**Teammates**: All teammates will select 2-3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers.
+**Teammates**: All teammates will select 2-3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers. If you'd like to increase your number of reviewers, reach out to #impact-reviews on Slack with your reviewer name and who you'd like to add to your roster.
 
 When you choose these 2-3 reviewers, you should consider:
 
 - Which peers can speak directly to my growth opportunities? Have I had a difficult conversation with someone and would like to include them as a reviewer to obtain constructive feedback?
 - Who have I collaborated with recently who has had a direct line of vision into my work? Have we worked together recently on a project? You are encouraged to choose reviewers who have insight into your recent work, rather than people you simply talk to often at Sourcegraph.
 - Include one reviewer whose review you’re scared to read! This is a best practice and will broaden your perspective and build self-awareness.
+- All peer reviewers should have been at Sourcegraph for at least two months before you ask them to review you.
 
 _Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
 
-Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates.
+Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates. If you would like to add more reviewers than our current cap of 3, please reach out to the #impact-reviews Slack channel and our Lattice Admins can override this limit.
 
 As a best practice, all teammates are encouraged to share their reviewer’s names with their managers beforehand to align on their choices and rationale for choosing them.
 
 **Managers**: People managers will only need to select 1-2 peer reviewers for this upcoming cycle. The bulk of your time should be spent giving feedback to your direct report(s) and actively thinking through ways to help them grow.
 
 Each review should take an average of 30-45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
+
+_As a note_: For any managers who have inherited a new direct report and are not listed as their current manager, please reach out to Cassie Melani on Slack or reach out on our #impact-reviews Slack channel.
 
 ### Submitting feedback as a manager
 
@@ -114,8 +117,6 @@ As we move into a new cadence of 360 Impact review cycles, you may find that the
 
 In the event that you’d like to conduct an informal Impact review, [use this resource to learn about holding an informal cycle for yourself](https://docs.google.com/document/d/1YrsjivLAKZ4SQKvXNM0riZn7aiyJTupb0ce6UFRvIog/edit) and [use this resource as a template to document your reviews](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit).
 
-_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself._
-
 There are three components to feedback: giving it to others, receiving it yourself, and seeking it out. Keep in mind that feedback is a muscle, and works best when you regularly strengthen it by giving and receiving it often. The concept you will be using in this informal review process is around “seeking feedback” which will help you inform your own working style, positive trends, and areas for improvement.
 
 We recommend that you as the reviewee set time with your manager to discuss feedback between both parties. If you would like to conduct reviews with stakeholders (either in the event that you are seeking promotion, would like additional information on how you show up in your peer relationships, or are simply curious), it is recommended that you book time with at least 2-3 peers as 30-45 minute calendar invites.
@@ -130,6 +131,10 @@ After you have documented your informal Impact review, this process will be comp
 
 You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
 
+\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
+
+Additionally, our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by that point in time. We will keep the templates live for you to seek feedback inbetween future cycles.
+
 ## How to use Lattice
 
 Log into Lattice using your Sourcegraph Google authenticator. You will be prompted to write different types of reviews through qualitative and quantitative questions on your dashboard.
@@ -141,15 +146,13 @@ Log into Lattice using your Sourcegraph Google authenticator. You will be prompt
 
 ### Writing your reviews using the SBI framework
 
-We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you will automatically counteract some of the neurological responses activated by the limbic system when giving feedback.
+We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you can counteract some of the stress-inducing responses activated by the limbic system or _your threat zone_. Feedback helps us _continuously grow_ and it's important to live that value by being specific and actionable in your feedback. The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
 Situation: the where and when (_shaping the context of the feedback_)
 
 Behavior: the observable action (_what you observed directly, not your interpretation_)
 
 Impact: the so-what (_effect on emotion and work_)
-
-The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
 In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](../company/values.md#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
 
@@ -162,7 +165,7 @@ For more information on how to use SBI and giving great feedback, [check out thi
 - What are you most proud of in the past six months?
 - In the past six months, how have you made an impact and contributed to your team’s success? Give specific examples.
 - In the past six months, what company value have you embodied the most? Give specific examples.
-- Over the next 6 months, what is something that can I do 10% better?
+- Over the next 6 months, what is something that you can do 10% better?
 - In the next six months, what company value do you want to embody more? How do you plan on working towards embodying it more?
 - What would you like to learn more about in the next 6 months to help you further succeed in your role? Describe what you’d like to learn.
 
@@ -207,4 +210,4 @@ For more information on how to use SBI and giving great feedback, [check out thi
 
 ## Questions?
 
-For any questions relating to our updated performance review cadence or Lattice, please Slack #impactreviews or reach out directly to Cassie Melani.
+For any questions relating to our updated performance review cadence or Lattice, please Slack #impact-reviews or reach out directly to Cassie Melani.

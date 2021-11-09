@@ -6,3 +6,4 @@ Tooling owned by the distribution team.
 - [GHE Feeder](./ghe_feeder.md)
 - [Monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator)
 - [Release tool](./release.md)
+- [Google cloud](../gcp.md)

@@ -7,20 +7,20 @@
 - [All-remote](remote/index.md)
 - [Asynchronous work](asynchronous-communication.md)
 - [Goals](goals/index.md)
-- [Strategy](strategy.md)
+- [Strategy](strategy/index.md)
 - [Team](team/index.md)
 - [Values](values.md)
 - [Being a customer-first company](customer-first.md)
 
 # Sourcegraph: open product, open company, open source
 
-As part of making Sourcegraph open source, we now build Sourcegraph ([product direction](../direction/index.md) and [issues](http://github.com/sourcegraph/sourcegraph/issues/)) as an **open product**, and **open company**. Our [website](https://github.com/sourcegraph/about) and [documentation](https://github.com/sourcegraph/sourcegraph/tree/master/doc) is now open source which holds product- and company-related docs.
+As part of making Sourcegraph open source, we build Sourcegraph with a public ([ strategy](../company/strategy/index.md) and [issues](http://github.com/sourcegraph/sourcegraph/issues/)). As an **open product**, and **open company**, our [website](https://github.com/sourcegraph/about) and [documentation](https://github.com/sourcegraph/sourcegraph/tree/master/doc) is now open source which holds product- and company-related docs.
 
 Here's how we define these terms:
 
 ## Open product
 
-This means the [product direction](../direction/index.md) is public and open for input.
+This means the [product strategy](../company/strategy/index.md) is public and open for input.
 
 You might not realize it, but the products you use every day are not just open source; they are also open products. Products like [Kubernetes](https://github.com/kubernetes/kubernetes/milestones?direction=asc&sort=due_date) and [Visual Studio Code](https://github.com/Microsoft/vscode/wiki/Iteration-Plans) do all their product planning in the open. They get useful input from the community and make it easy to integrate and rely on their products.
 
