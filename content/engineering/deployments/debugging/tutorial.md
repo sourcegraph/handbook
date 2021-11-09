@@ -2,6 +2,8 @@
 
 We use GCP to provide cluster access. Install the `gcloud` cli tool from here: <https://cloud.google.com/sdk/gcloud>. Ensure that the cli install folder is on your path. It installs other tools like `kubectl` that we use.
 
+## Cloud Cluster
+
 Next, open a new terminal and set two environment variables for ergonomics for this tutorial.
 
 ```
@@ -37,7 +39,7 @@ dogfood-server    Active   77d
 ...
 ```
 
----
+## CI Cluster
 
 If you want to access the CI cluster instead of Dogfood, you can run the following commands instead:
 
