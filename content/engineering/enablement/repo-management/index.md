@@ -60,4 +60,5 @@ We inherit Sourcegraph's [engineering principles and practices](../../principles
 We also have a set of [guiding principles](../../../company/strategy/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
 
 ## Internal
-[Internal page](internal.md) geared towards Repo Management team members. 
+
+[Internal page](internal.md) geared towards Repo Management team members.
