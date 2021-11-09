@@ -13,7 +13,7 @@ Which one to choose is a decision that your team, manager, and product/leadershi
 
 ### Open Source philosophy
 
-Sourcegraph has an open core business model: it develops Sourcegraph OSS as well as Sourcegraph Enterprise. Like any open core company, we balance the need to serve a strong community, with the need to build a sustainable business that can continuously invest in its products. We are [open and transparent](https://handbook.sourcegraph.com/company/values#open-and-transparent), so we strive to clearly communicate our decisions to make a feature open source or not.
+Sourcegraph has an open core business model: it develops Sourcegraph OSS as well as Sourcegraph Enterprise. Like any open core company, we balance the need to serve a strong community, with the need to build a sustainable business that can continuously invest in its products. We are [open and transparent](../company/values.md#open-and-transparent), so we strive to clearly communicate our decisions to make a feature open source or not.
 
 In general core value adds should be enterprise-licensed, while utilities, support libraries, etc. that are unlikely to benefit potential competitors should be Apache licensed.
 
