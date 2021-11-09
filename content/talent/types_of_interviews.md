@@ -439,6 +439,19 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 - Feel free to reach out to Andy with any questions.
 
+- Senior Customer Marketing Manager working session
+- Duration: 60-minutes.
+- The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. 
+  - Part 1: Driving engagement with our Customer Advisory Board members
+The first part of the meeting will be with Andy Schumeister (Director of Product Marketing), Victoria Yunger (Product Marketing Lead, Enterprise), and Alex Isken (Product Marketing Manager, Cloud). 
+  - First, you’ll share your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
+  - Then, we’d like to hear your ideas for how we can drive engagement with our Customer Advisory Board members in-between meetings in order to provide even more value for members.   
+  - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're also looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation. You’ll also have an opportunity to ask the team questions during this portion.
+
+  - Part 2: Setting you up for success 
+  - Then, you’ll meet 1:1 with Andy where you’ll have a chance to discuss the role and share what you need to be successful: tools, resources/special budget for anything, specific commitments from other teams, anything from Andy, etc.)
+ 
+
 ## People Operations
 
 - Senior People Partner working session
