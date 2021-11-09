@@ -1,6 +1,6 @@
 # Debugging cheat sheet
 
-The following document exists to help CS debug commonly encountered customer issues. It's purpose is to simplify the troubleshooting process in the form of step-by-step processes to take when working with folks who need our help.
+The following document exists to help CS debug commonly encountered customer issues. It's purpose is to simplify the troubleshooting process in the form of hinting first stops of where to explore when working to solve issues raised by our customers.
 
 <!--
 Template table for all sections! :)
