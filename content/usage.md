@@ -101,4 +101,3 @@ Portions of this documentation are derived from [GitLab's handbook](https://docs
 ## Handbook feedback
 
 We're constantly iterating on what the best version of our Sourcegraph handbook might look like. Is it easy to use? Do you find what you're looking for? Let us know [here](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link).
-
