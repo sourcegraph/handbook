@@ -20,7 +20,7 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
   - Through December 2021 People Ops will send a branded Sourcegraph gift to teammates on their anniversary.
   - There are both US and international Loop & Tie collections, please be mindful to choose the correct collection when sending these out.
-  - As a manager you can choose a different anniversary gift for your direct report as long as it abides by the [gift amount policy](https://handbook.sourcegraph.com/people-ops/celebrate#gift-amount-policy-for-anniversaries) detailed below.
+  - As a manager you can choose a different anniversary gift for your direct report as long as it abides by the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
 - Managers to create a [Kudoboard](https://www.kudoboard.com/) for their teammate to gather signatures and well wishes in an email deliverable card. We have an annual subscription to Kudoboard. You can find our Sourcegraph credentials in 1Password under Kudoboard or by searching ‘_kudoboard_’ or ‘_birthday_’.
 - When creating the Kudoboard, the format should include:
