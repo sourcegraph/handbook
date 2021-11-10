@@ -7,7 +7,7 @@ This page describes our different cloud environments.
 We utilize multiple Google Cloud projects and folders to organize our workloads and manage access control for our engineers, as well as limit the scope of roles and service accounts across projects.
 
 All **Permanent** Projects and permissions are defined in [infrastructure/gcp](https://github.com/sourcegraph/infrastructure/tree/main/gcp).
-Temporary projects should be created as needed in [Engineering Projects](Engineering-Projects)
+Temporary projects should be created as needed in [Engineering Projects](#engineering-projects)
 
 ### Root Projects
 
