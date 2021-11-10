@@ -3,6 +3,18 @@ title: How to use the handbook
 description: Guidance on how to get the most out of the Sourcegraph handbook
 ---
 
+# Handbook Usage & Principles
+
+## What is the Handbook?
+
+### Guiding Principles
+
+### Handbook Audience
+
+## What does it mean to be Handbook-first?
+
+--new version above this line--
+
 # How to use the handbook
 
 ## Usage
@@ -52,34 +64,6 @@ To be handbook-first, we need to be very diligent about maintaining the handbook
 1. Anyone can propose improvements to a written-down process.
 1. New teammates can onboard more quickly by reading our handbook to understand background information and processes.
 1. When you go on vacation or to sleep, you can relax knowing that nobody will be blocked while you're not working.
-
-## Searching the handbook
-
-Search the handbook using the search box in the top navigation on https://handbook.sourcegraph.com or by pressing <kbd>⌘</kbd>+<kbd>K</kbd>.
-
-### Browser quicksearch
-
-The handbook supports quicksearch from your browser's address bar.
-Simply start typing "handbook" into your address bar, hit <kbd>tab</kbd>, enter your search term and hit <kbd>return</kbd>.
-
-#### Chrome
-
-The handbook search is detected automatically, no setup required.
-
-<video loop autoplay muted playsinline src="https://sourcegraphstatic.com/handbook/search/chrome.mp4"></video>
-
-#### Safari
-
-The handbook search is detected automatically, no setup required.
-
-<video loop autoplay muted playsinline src="https://sourcegraphstatic.com/handbook/search/safari.mp4"></video>
-
-#### Firefox
-
-Firefox requires a one-time confirmation to add the search shortcut.
-Focus your address bar, and click the Sourcegraph logo with the small "+" icon at the bottom of the suggestions panel where it says "This time, search with:".
-
-<video loop autoplay muted playsinline src="https://sourcegraphstatic.com/handbook/search/firefox.mp4"></video>
 
 ## Wiki and Google Docs handbooks become stale
 
