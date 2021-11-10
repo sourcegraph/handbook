@@ -1090,7 +1090,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.990250,
+          -104.99025,
           39.739235
         ]
       }
@@ -1254,7 +1254,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name":"Rafal Gajdulewicz"
+        "name": "Rafal Gajdulewicz"
       },
       "geometry": {
         "type": "Point",
@@ -1280,13 +1280,26 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "Jeff Warner"
+        "name": "Jeff Warner"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.990250,
+          -104.99025,
           39.739235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dan Diemer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.35347080230713,
+          48.405388823588375
         ]
       }
     }
