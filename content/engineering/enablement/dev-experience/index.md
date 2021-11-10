@@ -43,6 +43,10 @@ To collaborate, we use the following:
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
 - [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
 
+Playbooks maintained by the team:
+
+- [CI playbook](../../incidents/playbooks/ci.md)
+
 ### Work allocation
 
 We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../company/strategy/enablement/dev-experience/index.md), so as a rule of thumb:
