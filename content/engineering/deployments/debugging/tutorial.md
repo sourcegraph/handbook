@@ -2,6 +2,8 @@
 
 We use GCP to provide cluster access. Install the `gcloud` cli tool from here: <https://cloud.google.com/sdk/gcloud>. Ensure that the cli install folder is on your path. It installs other tools like `kubectl` that we use.
 
+## Cloud Cluster
+
 Next, open a new terminal and set two environment variables for ergonomics for this tutorial.
 
 ```
@@ -9,7 +11,7 @@ export CLOUDSDK_CORE_PROJECT=sourcegraph-dogfood
 export CLOUDSDK_COMPUTE_REGION=us-central1-f
 ```
 
-Now, use `gcloud container clusters get-credentials dogfood` to gain cluster access for `kubectl`
+Now, use `gcloud container clusters get-credentials dogfood` to gain cluster access for `kubectl`.
 
 Some basic commands to ensure everything is working (these commands assume an admin context which may not always be the case)
 
@@ -37,7 +39,45 @@ dogfood-server    Active   77d
 ...
 ```
 
-Now, change to the `dogfood-k8s` namespace via `kubectl config set-context --current --namespace=dogfood-k8s` to work with workloads in that namespace.
+## CI Cluster
+
+If you want to access the CI cluster instead of Dogfood, you can run the following commands instead:
+
+```
+export CLOUDSDK_CORE_PROJECT=sourcegraph-ci
+export CLOUDSDK_COMPUTE_REGION=us-central1-c
+```
+
+Now, use `gcloud container clusters get-credentials default-buildkite` to gain cluster access for `kubectl`.
+
+Some basic commands to ensure everything is working (these commands assume an admin context which may not always be the case)
+
+```
+$ kubectl get pods -A
+NAMESPACE     NAME                                                   READY   STATUS    RESTARTS   AGE
+buildkite     athens-athens-proxy-66b89589bd-9297x                   1/1     Running   0          34d
+buildkite     buildkite-agent-69d759c9b7-2dqhg                       3/3     Running   0          149m
+buildkite     buildkite-agent-69d759c9b7-4629q                       3/3     Running   0          117m
+buildkite     buildkite-agent-69d759c9b7-49zs7                       3/3     Running   0          2d1h
+...
+```
+
+```
+$ kubectl get namespaces
+NAME              STATUS   AGE
+buildkite         Active   407d
+cluster-ci-5686   Active   39d
+cluster-ci-5687   Active   38d
+cluster-ci-5963   Active   28d
+cluster-ci-5967   Active   28d
+default           Active   407d
+kube-node-lease   Active   407d
+kube-public       Active   407d
+kube-system       Active   407d
+...
+```
+
+Now, change to the `buildkite` namespace via `kubectl config set-context --current --namespace=buildkite` to work with workloads in that namespace.
 Note: You do not need to switch the namespace to access workloads in other namespaces, you can use `-n ${NAMESPACE}` with your command to access other namespaces.
 
 ## Describe a pod
