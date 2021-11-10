@@ -70,7 +70,7 @@ Many customers send security questionnaires to complete. They are required to pr
 4. Talk to your region's CE in charge of security reviews. Have them take a pass at it and review it. Please ensure timelines are properly communicated and enough notice is given to all involved stakeholders.
 5. If the Security CE feels it necessary, they may involve the product manager on the security team. Typically this involves asking one-off questions in the security [source of truth document](https://docs.google.com/spreadsheets/d/1xtjGzKExX9bEYBrsSyOcHFa-rm0SmB53hWnDKueVJjI/edit?usp=sharing), but they may also request full security questionnaire reviews. Note that full reviews may require extra time to get prioritized and worked on by the security team.
 
-The current CE's in charge of security questionnaires are [Max Wiederholt](../company/team/index.md#max-wiederholt-he-him) for US West / APAC and [Shawn King](../company/team/index.md#shawn-king-he-him) for US East / EMEA. We occasionally rotate team members in this role.
+The current CE's in charge of security questionnaires are [Max Wiederholt](../company/team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../company/team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
 
 ### License Keys
 
@@ -149,7 +149,7 @@ Expanding Sourcegraph to a new team or unlocking new enterprise features could i
 
 ### Ongoing Customer Support
 
-While our CSE team is primarily responsible for reactive technical support, we help keep an eye out on Slack for any questions or issues that come through. You can view any CSE support issues in Zendesk by using our SFDC <> Zendesk integration. Go to the Account page in Salesforce and click the "Zendesk" tab to view.
+While our CS team is primarily responsible for reactive technical support, we help keep an eye out on Slack for any questions or issues that come through. You can view any support issues in Zendesk by using our SFDC <> Zendesk integration. Go to the Account page in Salesforce and click the "Zendesk" tab to view.
 
 At times a customer may raise a feature request or provide product feedback. It is our responsibility as CEs to gather that feedback and share with the product teams.
 

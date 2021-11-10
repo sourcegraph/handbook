@@ -1,13 +1,13 @@
-# CSE Onboarding Mentor
+# Customer Support Onboarding Mentor
 
-As an onboarding mentor, your goal is to be the onboarding mentor you would love to have when starting a new role.
+As an onboarding mentor to a new member of the Customer Support team, your goal is to be the onboarding mentor you would love to have when starting a new role.
 Be as patient, as detailed, and as relevant as you would want someone to be with you when joining a company and learning about your day-to-day.
 
 During the duration of your time as a mentor, you are able to pull back some availability for taking new tickets, unless you feel that a ticket that comes in may be a good learning example for yourself and your mentee to talk through.
 
 Don't ever feel pressured to know everything when you're a mentor. If you are asked a question by your mentee that you are unsure of, be sure to be honest about your uncertainty and tell him or her that you will reach out to places where you can find the right answer.
 
-Remember, being an oboarding mentee is not a chore or something that is “taking up your time”. This is something we all need to do to support each other. The more you can be there for your mentee, the stronger the CSE team will continue to be. If you feel you cannot be an effective mentee for whatever reason, let management know ahead of time.
+Remember, being an onboarding mentee is not a chore or something that is “taking up your time.” This is something we all need to do to support each other. The more you can be there for your mentee, the stronger the CS team will continue to be. If you feel you cannot be an effective mentee for whatever reason, let management know ahead of time.
 
 # Meeting cadence and guidelines:
 
@@ -34,8 +34,8 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Do you have any questions?
 - Talk about the teams we interact with the most
 - Discuss the Handbook
-- Discuss CSE day to day
-- Discuss main CSE tools like Slack(main channels) and Github
+- Discuss CS day to day
+- Discuss main CS tools like Slack(main channels) and Github
 - What is your learning style?
 - How do you feel about your knowledge of Sourcegraph so far?
 - What are you really looking forward to learning about the product?

@@ -32,7 +32,7 @@
 
 Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 
-[Procurement approval policies](../../finance/ap.md#sts=AP%20Policy) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
+[Procurement approval policies](../../finance/ap.md#ap-policy) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
 
 ## What Vendr will not handle for us:
 
@@ -59,7 +59,7 @@ Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 
 ## How-to steps
 
-- [Login in & privileges](Login.md)
+- [Logging in & privileges](Login.md)
 - [Reviewing your tech stack](Tech_stack_review.md)
 - [Adding an supplier to the portal](Adding_supplier.md)
 - [Submitting an intake form](Intake_Form.md)

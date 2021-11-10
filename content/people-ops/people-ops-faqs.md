@@ -229,7 +229,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 **Non-US teammates:**
 
 - On a monthly basis through Veem. To be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../finance/invoices.md).
-  - **Note:** if Veem is not supported by your country we have other payment methods, like a direct monthly wire. If this is the case, please reach out to [Inés Roitman](../company/team/index.md#in%C3%A9s-roitman-sheher) at [ines@sourcegraph.com](mailto:ines@sourcegraph.com).
+  - **Note:** if Veem is not supported by your country we have other payment methods, like a direct monthly wire. If this is the case, please reach out to [Inés Roitman](../company/team/index.md#in%C3%A9s-roitman) at [ines@sourcegraph.com](mailto:ines@sourcegraph.com).
 
 ## Retirement
 
@@ -276,13 +276,3 @@ This page is meant as a resource to find answers to questions frequently asked b
   - Please contact Cecily Black at [cecily@sourcegraph.com](mailto:cecily@sourcegraph.com).
 - **All other swag:**
   - Please post in [#swag](https://sourcegraph.slack.com/archives/C01SVQUPDAN).
-
-## Washington Long-Term Care Act
-
-### Q. What is the Washington Long-Term Care Act?
-
-- Washington State has passed the Long-Term Care Act mandating public long-term care benefits for Washington residents. The Long-Term Care Act was created to reduce pressure on the Medicaid system and will be paid for by a 0.58% tax on employee wages. All Washington residents will be taxed on this by default. For more information, visit [this page](https://www.coldstream.com/blog/2021/04/26/new-washington-state-long-term-care-act/).
-
-### Q. How do I opt out of the Long-Term Care Act?
-
-- You have **one** opportunity to opt out of this tax by having a long-term care insurance policy in place by November 1st, 2021. To opt out, please provide proof of purchase of a long-term care insurance policy to People Ops at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).

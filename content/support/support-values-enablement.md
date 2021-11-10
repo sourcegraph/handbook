@@ -1,6 +1,6 @@
 # Support values enablement
 
-This 3 part series is designed to ensure that as a team, we have a common vocabulary and understanding for upholding our [Sourcegraph values](../company/values.md). New team members complete the series as part of initial onboarding.
+This 3 part optional series is designed to ensure that as a team, we have a common vocabulary and understanding for upholding our [Sourcegraph values](../company/values.md). New team members complete the series as part of initial onboarding.
 
 ## Part 1 - Thought-sharing and initial reactions
 

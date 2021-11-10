@@ -1,3 +1,8 @@
+---
+title: How to use the handbook
+description: Guidance on how to get the most out of the Sourcegraph handbook
+---
+
 # How to use the handbook
 
 ## Usage
@@ -96,16 +101,3 @@ Portions of this documentation are derived from [GitLab's handbook](https://docs
 ## Handbook feedback
 
 We're constantly iterating on what the best version of our Sourcegraph handbook might look like. Is it easy to use? Do you find what you're looking for? Let us know [here](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link).
-
-## Handbook site troubleshooting
-
-If the handbook is loading slowly, deleting the pod sometimes helps. It occurs after e.g. ~16 days of the pod being alive:
-
-```
-$ kubectl get pods -A | grep about
-default         about-sourcegraph-com-6d9b8dc9d5-llmh6                      1/1     Running     0          16d
-$ kubectl -n default delete pod about-sourcegraph-com-6d9b8dc9d5-llmh6
-pod "about-sourcegraph-com-6d9b8dc9d5-llmh6" deleted
-```
-
-You can access a console to execute the above commands via GCP: https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud/details?project=sourcegraph-dev

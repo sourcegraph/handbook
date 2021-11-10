@@ -765,7 +765,7 @@ tammy_zhu:
 warren_gifford:
   name: Warren Gifford
   pronouns: he/him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Portland, OR, USA 🇺🇸
   github: DaedalusG
   email: warren@sourcegraph.com
@@ -786,7 +786,7 @@ valery_bugakov:
 giselle_northy:
   name: Giselle Northy
   pronouns: she/her
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Sherwood, OR, USA 🇺🇸
   github: northyg
   email: giselle@sourcegraph.com
@@ -817,7 +817,7 @@ alex_fogg:
 
 adeola_akinsiku:
   name: Adeola Akinsiku
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Atlanta, GA, USA 🇺🇸
   github: adeola-ak
   email: adeola@sourcegraph.com
@@ -837,7 +837,7 @@ patrick_dubroy:
 beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
-  role: Customer Support Engineer
+  role: Application Engineer
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
@@ -847,7 +847,7 @@ beatrix_woo:
 
 stompy_mwendwa:
   name: Stompy Mwendwa
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Nairobi, Kenya 🇰🇪
   github: airamare01
   email: stompy@sourcegraph.com
@@ -1198,7 +1198,7 @@ jenny_bergen:
 carl_hicks:
   name: Carl Hicks
   pronouns: He/Him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Washington, DC, USA 🇺🇸
   github: hicksca
   email: carl@sourcegraph.com
@@ -1216,7 +1216,7 @@ kelsey_nagel:
 gabe_torres:
   name: Gabe Torres
   pronouns: He/Him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Los Angeles, CA, USA 🇺🇸
   github: gabtorre
   email: gabe@sourcegraph.com
@@ -1236,8 +1236,8 @@ suki_randhawa:
 amber_furbush:
   name: Amber Furbush
   pronouns: She/her
-  role: Customer Support Engineer
-  location: Commerce City, CO, US us
+  role: Application Engineer
+  location: Commerce City, CO, US
   github: amberfurbush0317
   email: amber@sourcegraph.com
 
@@ -1246,7 +1246,7 @@ amber_furbush:
 ben_gordon:
   name: Ben Gordon
   pronouns: He/Him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Chicago IL, USA 🇺🇸
   github: benjaminwgordon
   email: ben.gordon@sourcegraph.com
@@ -1256,7 +1256,7 @@ ben_gordon:
 donavon_ellison:
   name: Donavon Ellison
   pronouns: He/Him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Acworth, GA USA
   github: donavonelli
   email: don@sourcegraph.com
@@ -1266,7 +1266,7 @@ donavon_ellison:
 jason_harris:
   name: Jason Harris
   pronouns: He/Him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Los Angeles, CA USA
   github: jasonhawkharris
   email: jason.harris@sourcegraph.com
@@ -1276,7 +1276,7 @@ jason_harris:
 michael_bali:
   name: Michael Bali
   pronouns: He/Him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Lagos, Nigeria 🇳🇬
   github: topebali
   email: michael.bali@sourcegraph.com
@@ -1286,7 +1286,7 @@ michael_bali:
 alex_jean-baptiste:
   name: Alex Jean-Baptiste
   pronouns: He/Him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Atlanta, Georgia USA 🇺🇸
   github: alexAtSourcegraph
   email: alex.jean-baptiste@sourcegraph.com
@@ -1297,7 +1297,7 @@ alex_jean-baptiste:
 kelvin_lee:
   name: Kelvin Lee
   pronouns: He/Him
-  role: Customer Support Engineer
+  role: Application Engineer
   location: (Northern) California, USA 🇺🇸
   email: kelvin@sourcegraph.com
   pronunciation: '[Name pronunciation](https://www.howtopronounce.com/kelvin)'
@@ -1306,7 +1306,7 @@ kelvin_lee:
 mariam_adedeji:
   name: Mariam Adedeji
   pronouns: She/Her
-  role: Customer Support Engineer
+  role: Application Engineer
   location: Lagos, Nigeria 🇳🇬
   github: rhiam
   email: mariam@sourcegraph.com
@@ -1806,16 +1806,6 @@ kemper_hamilton:
   links: '[LinkedIn](https://www.linkedin.com/in/kemperhamilton/)'
   description: Kemper has been an Austinite for ten years and is about to begin a 6 month digital nomad adventure. She loves traveling, listening to live music, spending time outdoors, and she is a cheese & charcuterie enthusiast 🧀 She has experience in corporate communications, operations, and recruitment.
 
-stephan_budge:
-  name: Stephan Budge
-  pronouns: he/him
-  role: Engineering Manager, Delivery
-  location: Portland, Oregon, United States 🇺🇸
-  github: stephanx
-  email: stephan.budge@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/stephanbudge/)'
-  description: Stephan joined the Marines at 18 as a saxophonist, and was stationed in Okinawa, Japan for three years. Later, he taught English in Santiago, Chile for four years. After ten years in the San Francisco Bay area, he moved to Portland, Oregon, where he raises three chickens, three cats, and a few eyebrows wherever he goes.
-
 marisa_kanemoto:
   name: Marisa Kanemoto
   pronouns: she/her
@@ -2007,3 +1997,23 @@ amber_smokowski:
   github: ambersmo
   email: amber.smokowski@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/ambersmo)'
+
+jagna_feierabend:
+  name: Jagna Feierabend
+  role: Sales Development Representative (EMEA)
+  location: London, United Kingdom
+  github: jfeierabend
+  email: jagna.feierabend@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/jagna-feierabend-656385140/)'
+  description: Jagna is based in London, UK but calls rural Northern Germany her home. She enjoys spending time in nature hiking or cycling (and probably paragliding, but that hypothesis unfortunately still needs testing). Her passion for musical instruments makes it hard for her to get proficient at one before picking up another. So she plays a bit of the piano, clarinet, cello and lately the guitar.
+
+dan_diemer:
+  name: Dan Diemer
+  email: dan.diemer@sourcegraph.com
+  github: dhdiemer
+  pronouns: he/him
+  role: Senior Customer Engineer
+  location: Whitefish, MT
+  links: '[LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
+  pronunciation: Dee-mer
+  description: Dan lives in Whitefish, MT with his partner Zaidee, cat Poe, and dog Calvin. Dan studied Computer Science in college but quickly realized being a developer was not for him. Moving to a Solutions Engineer role, Dan began working more with customers and diving into Dev Ops and product deployment. Outside of work, Dan loves beating his friends at video games, skiing, listening to/ writing music, talking hockey, playing water polo, and trying goalie in whatever sport will take him next.

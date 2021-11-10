@@ -1,4 +1,4 @@
-# Submitting a invoice (teammates based outside of US)
+# Submitting an invoice (teammates based outside of US)
 
 ## How to Create an Invoice:
 

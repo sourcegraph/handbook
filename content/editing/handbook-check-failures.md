@@ -26,9 +26,9 @@ If you're not sure what the error message means or can't determine how to fix it
 
 - [Example](https://github.com/sourcegraph/about/runs/2976049292)
 - Your error contains text like this:
-  - `handbook/product/user_feedback.md: must link to .md file, not ../support/support-workflow`
+  - `handbook/product/user_stakeholder_feedback.md: must link to .md file, not ../support/support-workflow`
 - Breaking down the error:
-  - `handbook/product/user_feedback.md:`
+  - `handbook/product/user_stakeholder_feedback.md:`
   - This is telling you what file is causing the failure. In this case, it’s something happening within in the “User Feedback” Handbook page file, nested under the “Product” section of the Handbook.
   - `must link to .md file, not ../support/support-workflow `
   - This is telling you that you must link to an .md file, rather than just a URL. See [this page](linking-within-handbook.md) for more information about linking.
@@ -64,6 +64,19 @@ If you're not sure what the error message means or can't determine how to fix it
   - This is telling you the broken link is on the `content/product/product-org.md` page.
   - Visit the page where the broken link exists. Find that link within the page, and [update the relative path](linking-within-handbook.md) to reflect the new location of the page. Or, if the page has been deleted, remove the link altogether. As always, don’t hesitate to ask @handbook-support in the #handbook Slack channel for help.
 
+#### Anchor reference warnings
+
+You may see messages when links are being checked that look like this:
+
+```
+Warning: Anchor reference from ./content/engineering/incidents/playbooks/index.md to ./content/engineering/deployments/index.md (#kubernetes) missing
+Warning: Anchor reference from ./content/marketing/content/editorial/editorial-strategy.md to ./content/marketing/content/editorial/index.md (#content-principles) missing
+```
+
+These will not cause a failure with the build, but indicate that there is a reference to an anchor (i.e., a specific section on the page) that is not valid. To use the first example above, the Playbooks page refers to a section on the Deployments page called Kubernetes, but that section isn't there.
+
+It's easy to end up with orphaned anchors as content changes, so if you see these warnings and now how to fix them please do. Sometimes the link should be updated to a new page where the content moved, the anchor should be renamed to whatever the section was renamed to, or the anchor should simply be removed.
+
 ### YAML build errors
 
 YAML build errors can happen when you are editing the `.yml` files under `/data`, such as when you are adding yourself to the team page. These errors will throw `YAMLException`s, and there will be a few lines of the file and (usually) an arrow pointing exactly to where the problem is.
@@ -73,10 +86,6 @@ YAML build errors can happen when you are editing the `.yml` files under `/data`
 If indentation is wrong, you will receive a `YAMLException: bad indentation of a mapping entry` error. To fix these, you need to make sure that you always indent two spaces underneath any heading.
 
 ```
-yarn run v1.22.15
-$ node src/scripts/generated-pages.mjs
-Creating generated pages..
-
 file:///home/jason/code/handbook/node_modules/js-yaml/dist/js-yaml.mjs:1273
   return new exception(message, mark);
          ^
@@ -100,10 +109,6 @@ To fix this, you could delete the extra quote if you didn't intend it to be ther
 Sometimes, depending on the quoting error (especially if you have multiple errors) these can get tricky to resolve. If you feel stuck check with the #handbook Slack channel for help.
 
 ```
-yarn run v1.22.15
-$ node src/scripts/generated-pages.mjs
-Creating generated pages..
-
 file:///home/jason/code/handbook/node_modules/js-yaml/dist/js-yaml.mjs:1273
   return new exception(message, mark);
          ^
@@ -129,7 +134,7 @@ data/code_hosts.yml valid
 data/maturity_levels.yml valid
 data/team.yml valid
 data/features.yml valid
-data/product_areas.yml invalid
+data/product_teams.yml invalid
 data/search must have required property 'title'
 data/product_orgs.yml valid
 ```
