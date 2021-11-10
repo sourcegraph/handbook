@@ -18,7 +18,7 @@ description: Guidance on how to get the most out of the Sourcegraph handbook
 
 Sourcegraph is an [open company](../company.md#open-company) and we value [transparency](../company/values.md#open-andtransparent). As such, we keep the Handbook public.
 
-The **primary** intended audience for the Handbook is Sourcegraph teammates. 
+The **primary** intended audience for the Handbook is Sourcegraph teammates.
 
 The **secondary** intended audience for the Handbook is Sourcegraph candidates.
 
