@@ -1,27 +1,26 @@
 # Security Onboarding **🧑‍💻**
 
-Welcome to the Security Team 🥳 
+Welcome to the Security Team 🥳
 
-Congrats on taking your first steps towards a new chapter in your cyber security career! Our team is here to support and guide you on this journey so never hesitate to reach out in the team Slack channel **#security-internal**. 
+Congrats on taking your first steps towards a new chapter in your cyber security career! Our team is here to support and guide you on this journey so never hesitate to reach out in the team Slack channel **#security-internal**.
 
-Below you'll find some steps to get your local development enviroment setup, common tools installed etc. 
-
+Below you'll find some steps to get your local development enviroment setup, common tools installed etc.
 
 ## Sourcegraph - Local Enviroment Setup
 
-The first step is to get your local copy of Sourcegraph running. 
+The first step is to get your local copy of Sourcegraph running.
+
 - [SG local Setup](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md). [_If you encounter any issues, ask for help in #dev-chat and then update the documentation to reflect the resolution (so the next engineer that we hire doesn’t run into the same problem)_]
 
 ## Useful Slack Channels
 
 Sourcegraph as a whole uses Slack heavily for daily communication. Here are some recommended channels to join to make sure you're kept in the loop.
-- #security - This is our public channel where other teams can contact us with questions / support requests. 
+
+- #security - This is our public channel where other teams can contact us with questions / support requests.
 - #security-internal - This is our teams "private" channel (all channels are visible to all) where our team can collaborate with each other asynchronously, share interesting news, ocassional memes, or to just say hello 😄
-- #security-team-sync - Each day an app within Slack called Geekbot asks each teammate for an update on the previous day. This is where the updates are posted.  
-- #security-monitoring - This is where our automated monitoring alerts are posted. 
-- #incidents - This is where product incidents are posted. A useful channel if you get engaged for an incident and need context. 
-
-
+- #security-team-sync - Each day an app within Slack called Geekbot asks each teammate for an update on the previous day. This is where the updates are posted.
+- #security-monitoring - This is where our automated monitoring alerts are posted.
+- #incidents - This is where product incidents are posted. A useful channel if you get engaged for an incident and need context.
 
 - [Configure your GitHub notifications](../../github-notifications/index.md):
   - Request access to Sourcegraph organization
