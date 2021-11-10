@@ -48,3 +48,9 @@ Copy and paste that link into your markdown file as you would any other piece of
 ## Uploading Other Large Files
 
 If you want to upload a large file (such as a large image, video, or audio recording) and make it available in the handbook, upload the file to Google Drive and then get a shareable link to the file on Google Drive. Add that link to the handbook. Don't add large files to the handbook repository itself (because Git is not a good way to store large non-text files).
+
+## Should I ever store these types of files in a Handbook directory?
+
+When working with SVGs, you may want to store an image directly in a Handbook directory, rather than in Google Cloud Storage. SVGs are a superior file format for things like diagrams, flowcharts, logos, illustrations that contain text etc because the text is accessible, the image scales and stays super sharp, and the file size is much smaller (faster loading times!). Because they are not binary but text and small in file size, these can be committed directly to the repo. **Where possible, using SVGs and adding it directly to the repo is the preferred method.** You can see an example [here](https://github.com/sourcegraph/handbook/tree/381c0b0d29fdef62028d7a2fa495a3870ac3efce/content/marketing/brand/brand_guidelines/color).
+
+Images that are not vector-based, e.g. photos (taken with a camera) or most screenshots, are binary and have larger file sizes. Common file formats are JPG, PNG, GIF. Git cannot store these efficiently and they would increase the repository size a lot. Even if they are deleted later, they will forever remain in the history, so it's important to never add these to the repo in the first place. **So, binary files like JPG and PNG should always be uploaded to sourcegraph-assets on Google Cloud Storage.**
