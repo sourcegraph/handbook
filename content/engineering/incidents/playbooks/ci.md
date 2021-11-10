@@ -94,9 +94,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
         - **No**: escalate by creating an incident (`/incident` on Slack).
    - **No**, it's an internal failure:
      1. Is it involving faulty state in the agents? (a given tool is not found where it should have been present, or have incorrect version)
-        1. Launch `k9s` and select an agent, they are named like `buildkite-agent-xxxxxxxxxx-yyyyy`
-        1. Press `s` to SSH on it.
-        1. Inspect the state on the faulty agent. Take note of what you see.
+        - See the [SSH into an agent scenario](#sshing-into-an-agent)
      1. Try to find an agent that recently successfully ran the faulty step (look for a green build on the `main` branch)
         1. Can you see a difference? If **yes** take note.
      1. Do you know how to fix it?
@@ -124,7 +122,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
       1. Edit the [manifest](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/buildkite/kubernetes/buildkite-autoscaler/buildkite-autoscaler.Deployment.yaml?L32-35) to set `1` on both maximum and mininimum agent count.
       1. `cd buildkite/kubernetes/buildkite-autoscaler`
       1. Run `kubectl apply -n buildkite -f buildkite-autoscaler.Deployment.yaml`
-      1. Run `k9s` and wait for the agents to be downscaled. Kill them if necessary.
+      1. Use`kubectl get pods -w` to observe the currently running agents (`k9s` works here too).
    1. From there, any change and build will run on a single agent, allowing you to observe the behaviour live.
 
 ### Spotted a flake
@@ -205,7 +203,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 #### Actions
 
-1. Use`kubectl get pods -w` to observe the currently running agents (`k9s` works here too).
+1. Use `kubectl get pods -w` to observe the currently running agents (`k9s` works here too).
 1. In a different terminal, run `kubectl -n buildkite rollout restart deployment buildkite-agent`.
 1. Wait a bit to see the agents restarting completely.
 1. Restart the faulty build and observe it the problem is fixed or not.
