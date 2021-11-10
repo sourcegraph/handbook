@@ -3,20 +3,19 @@
 ## Documentation
 
 1. [Creating developer account for browser extensions](#creating-developer-accounts-for-browser-extensions)
-    - [Chrome](#create-for-chrome)
-    - [Firefox](#create-for-firefox)
-    - [Safari](#create-for-safari)
+   - [Chrome](#create-for-chrome)
+   - [Firefox](#create-for-firefox)
+   - [Safari](#create-for-safari)
 1. [Releasing Browser Extensions](#releasing-browser-extensions)
-    - [Chrome](#chrome)
-    - [Firefox](#firefox)
-    - [Safari](#safari)
+   - [Chrome](#chrome)
+   - [Firefox](#firefox)
+   - [Safari](#safari)
 
 ## Creating developer accounts for browser extensions
 
 Before releasing the browser extensions, you need to create developer accounts for the respecting platforms.
 
 ### <span id="create-for-chrome">Chrome</span>
-
 
 1. Join to our sg-chrome-ext-devs [google group](https://groups.google.com/g/sg-chrome-ext-devs/).
 1. Register a new account on the [Chrome Web Store](https://chrome.google.com/webstore/devconsole/register?hl=en). This step might require a small fee to register, you can expense this fee using the team budget.
@@ -32,13 +31,12 @@ Before releasing the browser extensions, you need to create developer accounts f
 
 1. Ask a team member to add you to our Apple Developer group. They can send you an invitation from [App Store Connect](https://appstoreconnect.apple.com/) portal.
 
-
 ## Manual Testing Checklist
 
 - [ ] Test installation on browsers
-    - [ ] [Chrome](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#chrome)
-    - [ ] [Firefox](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#firefox-manual)
-    - [ ] [Safari](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#safari)
+  - [ ] [Chrome](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#chrome)
+  - [ ] [Firefox](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#firefox-manual)
+  - [ ] [Safari](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#safari)
 
 ## Releasing Browser Extensions
 
@@ -61,12 +59,12 @@ Release Steps:
 1. When the `bext/release` branch is updated, our build pipeline will trigger a build for the Firefox extension (take a note of the commit sha, we'll need it later).
 1. The buildkite will, similar to Chrome, run a task named <code>🚀<img src="https://buildkiteassets.com/emojis/img-buildkite-64/firefox.png" style="width: 1.23em; height: 1.23em; margin-left: 0.05em; margin-right: 0.05em; vertical-align: -0.2em; background-color: transparent;"/> Extension release</code>.
 1. Once the release task is finished check the [add-on developer hub](https://addons.mozilla.org/en-US/developers/addon/sourcegraph-for-firefox/versions).
-    1. If the currently build version is available and in "Approved" state then we are done.
-    1. If it is in other state, then:
-        1. We need to upload an non-minified version of the extension to the add-on developer hub.
-        1. To create this non-minified package, on your local git copy, navigate to `sourcegraph/client/browser/scripts/`, open the file `create-source-zip.js`, and modify the `commitId` variable (use the sha from earlier).
-        1. Once the variable is modified, run this script by `node create-source-zip.js`. It will generate a `sourcegraph.zip` in the folder.
-        1. Navigate to the [add-on developer hub](https://addons.mozilla.org/en-US/developers/addon/sourcegraph-for-firefox/versions), click on the pending version, upload the zip that was just created and `Save Changes`.
+   1. If the currently build version is available and in "Approved" state then we are done.
+   1. If it is in other state, then:
+      1. We need to upload an non-minified version of the extension to the add-on developer hub.
+      1. To create this non-minified package, on your local git copy, navigate to `sourcegraph/client/browser/scripts/`, open the file `create-source-zip.js`, and modify the `commitId` variable (use the sha from earlier).
+      1. Once the variable is modified, run this script by `node create-source-zip.js`. It will generate a `sourcegraph.zip` in the folder.
+      1. Navigate to the [add-on developer hub](https://addons.mozilla.org/en-US/developers/addon/sourcegraph-for-firefox/versions), click on the pending version, upload the zip that was just created and `Save Changes`.
 
 ### Safari
 
