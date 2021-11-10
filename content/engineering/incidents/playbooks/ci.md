@@ -221,6 +221,5 @@ This page lists common failures scenarios and provide a step by step guide to ge
 #### Actions
 
 1. SSH into an agent to reproduce the problem:
-1. Launch `k9s` and select an agent, they are named like `buildkite-agent-xxxxxxxxxx-yyyyy`
-1. Press `s` to SSH on it.
+1. Use `kubectl exec -it buildkite-agent-xxxx-yyyy` to open a shell 
 1. You will be prompted with which pod to `exec` onto, select the agent itself.
