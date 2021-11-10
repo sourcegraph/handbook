@@ -2,6 +2,10 @@
 
 Many of these tips require kubectl usage - you can refer to the [deployment page's Kubernetes section](../../deployments/kubernetes.md) to help you get set up and started with basic commands.
 
+## CI playbook
+
+Refer to the [CI incidents playbook](./ci.md)
+
 ## Figure out why a pod is in CrashLoopBackoff
 
 `CrashLoopBackoff` indicates that a service is repeatedly failing to start. Instead of using Google Cloud Console to check the logs, the best way to figure out why a pod is in this state is to use the following commands:
