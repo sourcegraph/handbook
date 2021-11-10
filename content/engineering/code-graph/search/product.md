@@ -23,7 +23,7 @@ To learn more about our goals, see the [Search Product strategy](../../../compan
 
 ## Team members
 
-- [Ben Venker](.../.../.../company/team/index.md#ben-venker) ([Product Manager](../../roles.md#product-manager))
+- [Ben Venker](../../../company/team/index.md#ben-venker) ([Product Manager](../../roles.md#product-manager))
 - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../../company/team/index.md#quinn-keast) ([Product Designers](../../../product/roles/index.md#product-designer))
 - [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../../roles.md#engineering-manager)) {#search-product-eng} <!-- this anchor is used to render the eng org chart -->
   - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
