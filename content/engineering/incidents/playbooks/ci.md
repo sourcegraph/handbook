@@ -205,7 +205,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 #### Actions
 
-1. Open `k9s` to observe the currently running agents.
+1. Use`kubectl get pods -w` to observe the currently running agents (`k9s` works here too).
 1. In a different terminal, run `kubectl -n buildkite rollout restart deployment buildkite-agent`.
 1. Wait a bit to see the agents restarting completely.
 1. Restart the faulty build and observe it the problem is fixed or not.
