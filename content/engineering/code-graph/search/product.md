@@ -14,6 +14,8 @@ It also owns a subset of features built on top of Sourcegraph search:
 - Code monitoring
 - Saved searches
 
+To learn more about our goals, see the [Search Product strategy](../../../company/strategy/code-graph/search/product.md) page.
+
 ## Contact
 
 - #search channel or @search-product on Slack.
