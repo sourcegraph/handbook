@@ -17,7 +17,7 @@ Sourcegraph's mission is to make it so that everyone can code. The Search teams'
 
 #### 1 Year vision
 
-> Enterprise customers of Sourcegraph actively use our differentiating code search features. Sourcegraph Cloud enables federated search over several code hosts beyond GitHub and GitLab, with relevant results.
+> Enterprise customers of Sourcegraph actively use our differentiated code search features. Sourcegraph Cloud enables federated search over several code hosts beyond GitHub and GitLab, with relevant results.
 
 #### 3 Year vision
 
