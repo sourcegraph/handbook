@@ -14,7 +14,10 @@ In order to handle problems with the CI, the following elements are necessary:
   - See [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
 - Have the CLI `gcloud` tool installed and have authenticated yourself.
   - See [Gain access to the cluster](../../deployments/debugging/tutorial.md)
-- (Optional) Install [K9s](https://k9scli.io) for easier interactions with the _pods_.
+- Have `kubectl` installed.
+  - 💡 You can set the default namespace to `buildkite` to avoid always appending the `-n buildkite` flag to `kubectl` commands.
+    - `kubectl config set-context --current --namespace=buildkite`
+  - (Optional) Install [K9s](https://k9scli.io) for easier interactions with the _pods_.
 
 ## Overview
 
@@ -122,7 +125,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
       1. Edit the [manifest](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/buildkite/kubernetes/buildkite-autoscaler/buildkite-autoscaler.Deployment.yaml?L32-35) to set `1` on both maximum and mininimum agent count.
       1. `cd buildkite/kubernetes/buildkite-autoscaler`
       1. Run `kubectl apply -n buildkite -f buildkite-autoscaler.Deployment.yaml`
-      1. Use`kubectl get pods -w` to observe the currently running agents (`k9s` works here too).
+      1. Use`kubectl get pods -n buildkite -w` to observe the currently running agents (`k9s` works here too).
    1. From there, any change and build will run on a single agent, allowing you to observe the behaviour live.
 
 ### Spotted a flake
@@ -203,7 +206,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 #### Actions
 
-1. Use `kubectl get pods -w` to observe the currently running agents (`k9s` works here too).
+1. Use `kubectl get pods -n buildkite -w` to observe the currently running agents (`k9s` works here too).
 1. In a different terminal, run `kubectl -n buildkite rollout restart deployment buildkite-agent`.
 1. Wait a bit to see the agents restarting completely.
 1. Restart the faulty build and observe it the problem is fixed or not.
@@ -218,6 +221,6 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 #### Actions
 
-1. SSH into an agent to reproduce the problem:
-1. Use `kubectl exec -it buildkite-agent-xxxx-yyyy` to open a shell
+1. Use `kubectl get pods -n buildkite -w` to observe the currently running agents and the pod name (`k9s` works here too).
+1. Use `kubectl exec -n buildkite -it buildkite-agent-xxxx-yyyy` to open a shell
 1. You will be prompted with which pod to `exec` onto, select the agent itself.
