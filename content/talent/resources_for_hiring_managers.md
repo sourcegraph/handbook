@@ -4,6 +4,10 @@
 
 Each hiring manager has an [assigned recruiter](index.md#talent-team-members) for their hiring needs. If you are unsure which Recruiter you should partner with, please Slack @hiring to inquire.
 
+## Partnering with sourcing
+
+Coming soon...
+
 ## Estimated time-to-hire
 
 It is our goal to fill our openings as quickly as possible while maintaining a high quality bar and a strong candidate experience. Our time-to-fill goal is an average of 45 days. This means that the timespan from intake meeting to candidate offer acceptance (when a candidate signs their offer letter) should be, on average, 45 days or less.

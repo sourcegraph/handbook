@@ -31,6 +31,8 @@ The central theme for the first month is learning. During these 30 days, your go
 
 You will meet many people, read multiple documents, solve small, well-defined technical challenges, and be exposed to a ton of new information. We understand this might feel overwhelming, so please relax and don’t stress. This first month is the time for learning and growth.
 
+Take a look at the [First Month plan](first-month.md) here.
+
 ### Second Month
 
 We will give you more ownership and opportunities to make an impact. While learning will still be the central theme, you can expect more complex problems to solve. You will also get your first project assigned, requiring you to collaborate with other teams, think about planning, execution, risk management, technical design, and other factors.
@@ -47,8 +49,9 @@ We would like you to take the role of a Directly Responsible Individual (DRI) fo
 
 This month, you will also switch to active participation in operational rotation and join the team’s rotation schedule. Please do not forget that your peers are here to help, and you can rely on their support and guidance, especially during your first shift.
 
-## Onboarding by Week
-
 ## Service Tours
+
+- [How gitserver works](how-gitserver-works.md)
+- [How repo updater works](how-repo-updater-works.md)
 
 ## Extras

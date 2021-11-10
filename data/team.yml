@@ -1997,3 +1997,23 @@ amber_smokowski:
   github: ambersmo
   email: amber.smokowski@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/ambersmo)'
+
+jagna_feierabend:
+  name: Jagna Feierabend
+  role: Sales Development Representative (EMEA)
+  location: London, United Kingdom
+  github: jfeierabend
+  email: jagna.feierabend@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/jagna-feierabend-656385140/)'
+  description: Jagna is based in London, UK but calls rural Northern Germany her home. She enjoys spending time in nature hiking or cycling (and probably paragliding, but that hypothesis unfortunately still needs testing). Her passion for musical instruments makes it hard for her to get proficient at one before picking up another. So she plays a bit of the piano, clarinet, cello and lately the guitar.
+
+dan_diemer:
+  name: Dan Diemer
+  email: dan.diemer@sourcegraph.com
+  github: dhdiemer
+  pronouns: he/him
+  role: Senior Customer Engineer
+  location: Whitefish, MT
+  links: '[LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
+  pronunciation: Dee-mer
+  description: Dan lives in Whitefish, MT with his partner Zaidee, cat Poe, and dog Calvin. Dan studied Computer Science in college but quickly realized being a developer was not for him. Moving to a Solutions Engineer role, Dan began working more with customers and diving into Dev Ops and product deployment. Outside of work, Dan loves beating his friends at video games, skiing, listening to/ writing music, talking hockey, playing water polo, and trying goalie in whatever sport will take him next.
