@@ -89,7 +89,7 @@ Our competitive landscape in the search space is sparse at the moment, but there
 
 There are also existing open source projects that may be “good enough” for many users. While we don’t believe these pose a serious threat to our enterprise business, they are competitors with our Cloud offering and, to the extent users prefer those experiences, we need to consider how to compete against them for attention and usage.
 
-As the scope of the Search teams expands, we'll face competition in new areas. Some examples are onboarding new developers and enabling responses to codebase changes. There are both new entrants (Swimm) and incumbents (Zapier, IFTTT) in those spaces, but we believe we are uniquely positioned to deliver differentiated solutions to those problems. 
+As the scope of the Search teams expands, we'll face competition in new areas. Some examples are onboarding new developers and enabling responses to codebase changes. There are both new entrants (Swimm) and incumbents (Zapier, IFTTT) in those spaces, but we believe we are uniquely positioned to deliver differentiated solutions to those problems.
 
 ## Where we are now, what's next, and why
 
