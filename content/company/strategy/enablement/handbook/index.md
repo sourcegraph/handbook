@@ -35,7 +35,7 @@ The Handbook team is new, and up until now the Handbook has been owned by everyo
 
 During a Hackathon in FY22Q3, huge strides were made by refactoring the Handbook. This refector allows for easier development in the future, added a "Contributors" section to each page in the handbook, and provided users a full preview of their changes.
 
-The only analytics currently being tracked regularly are around search, via (Swiftype)[https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12]. Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle). With the addition of google analytics we expect to have clearer insight into handbook improvement opportunities.
+The only analytics currently being tracked regularly are around search, via [Swiftype](https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12). Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle). With the addition of google analytics we expect to have clearer insight into handbook improvement opportunities.
 
 ### Top customer issues
 
