@@ -5,7 +5,7 @@ Sourcegraph aims to be the best tool for universal code search, and the Search t
 Quicklinks:
 
 - [Code Graph overall strategy](../index.md)
-- [Completed goals](../../../../engineering/code-graph/search/goals_completed.md))
+- [Completed goals](../../../../engineering/code-graph/search/goals_completed.md)
 - [Latest demo](https://www.youtube.com/watch?v=XLfE2YuRwvw)
 - [Documentation](https://docs.sourcegraph.com/code_search/)
 
