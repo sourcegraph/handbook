@@ -60,7 +60,7 @@ Everyone deserves access to high quality code search; as such, our code search i
 
 - Ensure this interface is accessible to all skill levels and WCAG compliant
 
-#### Code search shold be fast
+#### Code search should be fast
 
 For any search product to be effectively used, in addition to the above, it must be fast. We will continually improve our search performance so users get results back fast regardless of the the size of data we index.
 
