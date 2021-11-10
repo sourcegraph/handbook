@@ -1,6 +1,6 @@
 # Tracking & sharing user feedback
 
-Our passionate users provide a constant stream of thoughtful feedback and love engaging with us to help them and their teams solve their toughest problems. This trust and feedback is a gift, and we take it seriously and listen carefully to what users tell us.
+Our passionate users and stakeholders, both internal and external, provide a constant stream of thoughtful feedback and love engaging with us to help them and their teams solve their toughest problems. This trust and feedback is a gift, and we take it seriously and listen carefully to what users tell us.
 
 _This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](../surfacing_product_feedback.md)._
 
@@ -11,7 +11,7 @@ _This page is most relevant to product team members. If you want to know how to 
 - [Twitter](#twitter)
 - [Slack](#slack)
 - [Support tickets](#support-tickets)
-- [Sales feedback](#sales-feedback)
+- [Sales/CE feedback](#salesce-feedback)
 - [HubSpot forms](#hubspot-forms)
 - [NPS survey](#nps-survey)
 - [Browser extension uninstall feedback](#browser-extension-uninstall-feedback)
@@ -57,11 +57,12 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 - **Purpose:** A path for existing customers to get responsive support.
 - **Owner:** CS team owns support tickets in Zendesk. If product team members want more insight into the support feedback, they can review [the support dashboard](https://sourcegraph.looker.com/dashboards-next/177) or scan the [customer issues repo](https://github.com/sourcegraph/customer/issues), and cross-reference both with slack searches in support channels. Additionally, at the end of every quarter, the Head of Customer Support provides the product team with [a qualitative summary](https://drive.google.com/drive/folders/12kZOFbnXX8vfzLvso1hO-lf-t-HzJIr-?usp=sharing) and links to details of the major support trends from the prior three months.
 
-### Sales feedback
+### Sales/CE feedback
 
 - **Purpose:** Customers and prospects often give product feedback on calls with sales members.
-
 - **Owner:** The Sales team owns feedback from sales calls.
+
+The Sales and CE teams also provide a [product gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HH53EAG/view) (internal only) that tracks features that are impacting deals.
 
 ### Hubspot forms
 
