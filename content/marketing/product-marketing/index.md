@@ -28,7 +28,7 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 | Pricing and packaging (this is shared with Ops and Product) | Sales collateral (pitch deck, outbound messaging) and sales enablement |
 | Customer advocacy and marketing                             | Community and developer education                                      |
 | Analyst relations                                           | PR                                                                     |
-| Use cases                                                   | Buyer personas (drive for new products)                                |
+| Use cases                                                   | Buyer personas (drive for new products)                                |
 | Partner marketing                                           | Demand generation efforts, content marketing, brand design             |
 
 ## Working with other teams
