@@ -18,7 +18,7 @@ It can feel a little weird at first. Everyone else is just working Slack, why ca
 
 At no point are we meant to be gate keepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-product-eng Slack channel is for!
 
-And that may make you wonder when a CSE would use the #ask-product-eng Slack channel. Simple, not for anything attached to a case. Longer answer:
+And that may make you wonder when an application engineer would use the #ask-product-eng Slack channel. Simple, not for anything attached to a case. Longer answer:
 
 - ...for your own curiosity as you are learning (a question you have that is not driven from a case)
 - ...as you work on an OKR project
@@ -156,7 +156,7 @@ We maintain two issue trackers:
 
 When in doubt, file in the private repo—issues can be moved over to the public repo if needed. And remember, a customer includes those we are working with during the sales process (not just those who have already signed a contract with us).
 
-- Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CSE New Issue template
+- Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CS New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 - Include Sourcegraph version number.
 - Include name of the extension along with the extension version number when filing issues with the extensibility team.

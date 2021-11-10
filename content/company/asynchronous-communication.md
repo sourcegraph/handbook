@@ -1,6 +1,6 @@
 # Asynchronous communication
 
-Sourcegraph is an **all-remote** company which means we work from home or office spaces, but do not have a physical office we all go to together. Moreover, we are also a **global company**, which means we are spread all over [the world](./team/locations.md). So not only do we not share an office, most of the time, we don’t even share time zones. For this reason, we use **asynchronous (async)** forms of communication as much as possible and conduct synchronous meetings only when it’s really necessary.
+Sourcegraph is an [**all-remote**](remote/index.md) company which means we work from home or office spaces, but do not have a physical office we all go to together. Moreover, we are also a **global company**, which means we are spread all over [the world](./team/locations.md). So not only do we not share an office, most of the time, we don’t even share time zones. For this reason, we use **asynchronous (async)** forms of communication as much as possible and conduct synchronous meetings only when it’s really necessary.
 
 Async simply means that work doesn’t happen at the same time for everyone. Asynchronous communication allows us to move forward and make decisions without having to meet to talk with everyone involved. In this page you will read about why we are async, the tools we use at Sourcegraph, and how we use them. We also explain how we communicate, tips on how to work asynchronously, and how we decide to be or not to be async.
 
@@ -74,7 +74,7 @@ Get creative:
 - Record short videos with face cams (and captions) that don't need hours of production effort, we can create a little slide deck for such a video.
 - Replace synchronous presentations with a recording, including slides and written context and provide a place where teammates can ask questions asynchronously. You can even include a time period for questions (for example: questions will be received and answered until Friday 4pm UTC)
 
-You can read [Thorsten Ball](./team/index.md#sts=Thorsten%20Ball%20%28he/him%29)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
+You can read [Thorsten Ball](./team/index.md#thorsten-ball)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
 
 Additionally, here are some other tips we've found work well:
 

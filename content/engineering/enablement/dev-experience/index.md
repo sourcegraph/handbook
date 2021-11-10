@@ -4,10 +4,10 @@ The Developer Experience team (part of the [Enablement](../index.md) org) is a t
 
 ## Members
 
-- [Taylor Sperry](../../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
+- [Taylor Sperry](../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy) (acting [Engineering Manager](../../roles.md#engineering-manager))
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
-  - [JH Chabran](../../../company/team/index.md#jh-chabran-he-him)
+  - [JH Chabran](../../../company/team/index.md#jh-chabran)
   - [Robert Lin](../../../company/team/index.md#robert-lin)
 
 ## Strategy
@@ -20,17 +20,10 @@ TODO
 
 ## Contact
 
-- #dev-experience channel or @dev-experience-team in Slack.
-- [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team on GitHub.
-  - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label.
-
-## Growth plan
-
-TODO
-
-## Tech stack
-
-TODO
+- **Discussions and questions**: #dev-experience channel and [developer experience GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)
+- **[Support](#support)**: `@dev-experience-support` in Slack
+- **GitHub**: [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team.
+  - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](https://github.com/orgs/sourcegraph/projects/212).
 
 ## Processes
 
@@ -59,3 +52,31 @@ We aim to allow teammates the flexibility to work on incoming requests, tackle p
 _This section is a work in progress._
 
 We currently have weekly sync meetings and biweekly retrospectives.
+
+### Support
+
+Support is handled through the `@dev-experience-support` handle in Slack.
+Support on-call responsibilities on this team include:
+
+- Urgent questions and issues
+- [Build pipeline support](#build-pipeline-support)
+
+#### Build pipeline support
+
+Build pipeline support pertains to our [continuous integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration).
+This responsibility can be described as that of a "build sheriff" - the goal is to have someone lead on identifying the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
+
+As a build sheriff, the on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests), and ensure issues are followed up on:
+
+1. Infer the owner based on the contents of the issue, e.g. through product names and other context, and reach out for assistance:
+   1. If a team can be inferred, ping the `@$TEAM-support` handle in Slack for assistance, escalating to `@$TEAM` if no support handle or teammate is available.
+   2. If no team is easily inferred, ping the most recent author via `git blame` where relevant for assistance.
+2. Guide the teammate towards a resolution for the issue by following our [broken builds process](https://docs.sourcegraph.com/dev/background-information/testing_principles#broken-builds-on-the-main-branch) (also see [Continuous integration: Flakes](https://docs.sourcegraph.com/dev/background-information/continuous_integration#flakes)).
+
+## Growth plan
+
+TODO
+
+## Tech stack
+
+TODO

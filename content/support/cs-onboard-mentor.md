@@ -1,13 +1,13 @@
-# CSE Onboarding Mentor
+# Customer Support Onboarding Mentor
 
-As an onboarding mentor, your goal is to be the onboarding mentor you would love to have when starting a new role.
+As an onboarding mentor to a new member of the Customer Support team, your goal is to be the onboarding mentor you would love to have when starting a new role.
 Be as patient, as detailed, and as relevant as you would want someone to be with you when joining a company and learning about your day-to-day.
 
 During the duration of your time as a mentor, you are able to pull back some availability for taking new tickets, unless you feel that a ticket that comes in may be a good learning example for yourself and your mentee to talk through.
 
 Don't ever feel pressured to know everything when you're a mentor. If you are asked a question by your mentee that you are unsure of, be sure to be honest about your uncertainty and tell him or her that you will reach out to places where you can find the right answer.
 
-Remember, being an oboarding mentee is not a chore or something that is “taking up your time”. This is something we all need to do to support each other. The more you can be there for your mentee, the stronger the CSE team will continue to be. If you feel you cannot be an effective mentee for whatever reason, let management know ahead of time.
+Remember, being an onboarding mentee is not a chore or something that is “taking up your time.” This is something we all need to do to support each other. The more you can be there for your mentee, the stronger the CS team will continue to be. If you feel you cannot be an effective mentee for whatever reason, let management know ahead of time.
 
 # Meeting cadence and guidelines:
 
@@ -20,7 +20,7 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Fun intros! Get to know your mentee
 - How has your week been?
 - Do you have any questions?
-- How do you feel about the end of the first week expectations set here?
+- How do you feel about the end of the first week expectations set [here](customer-support-onboarding.md#by-the-end-of-your-first-week-the-following-will-be-true)?
 - Discuss the Handbook
 - Help with planning and organizing their second week
 - Reiterate how you plan to support them
@@ -34,8 +34,8 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Do you have any questions?
 - Talk about the teams we interact with the most
 - Discuss the Handbook
-- Discuss CSE day to day
-- Discuss main CSE tools like Slack(main channels) and Github
+- Discuss CS day to day
+- Discuss main CS tools like Slack(main channels) and Github
 - What is your learning style?
 - How do you feel about your knowledge of Sourcegraph so far?
 - What are you really looking forward to learning about the product?
@@ -45,7 +45,8 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 
 - Quick check in
 - Do you have any questions?
-- How do you feel about starting your third week?
+- How do you feel about the end of the first week expectations set [here](customer-support-onboarding.md#by-the-end-of-your-second-week-the-following-will-be-true)?
+- How do you feel about going into your third week?
 - Anything new or neat you discovered about Sourcegraph since the last meeting you want to talk about?
 - Offer support
 
@@ -69,8 +70,8 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 - Have you been getting to meet members of our team?
 - Ticket follow up from earlier in the week.. Introduction to any new tickets, repeat process of explaining
 - How ready do you feel about taking tickets?
-- Is there anything that you feel up to this point that would make you feel better prepared? Anything else you feel we should have covered prior to this point? (Take note and share with management)
-- Comment on any nice things you’ve noticed or picked up about the way they work. If any
+- Is there anything that you feel up to this point that would make you feel better prepared? Anything else you feel we should have covered prior to this point? (Take note and share with management or make the edits you see fit on your own)
+- Comment on any nice things you’ve noticed or picked up about the way they work. (If any)
 - Congratulate them on ending their third week! It’s ticket time! _Evil laugh_
 
 ## Week 4

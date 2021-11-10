@@ -1,6 +1,6 @@
 # An open letter about root cause
 
-Dear Customer Support Engineer,
+Dear Application Engineer,
 
 You are here because it's been tough lately. Your days feel harder. The dopamine loop your brain needs to let you feel successful took a detour and you are losing your way. You know you still care about our customers, how could you not? So, what is it?
 

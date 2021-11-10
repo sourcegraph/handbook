@@ -89,6 +89,7 @@ When you choose these 2-3 reviewers, you should consider:
 - Which peers can speak directly to my growth opportunities? Have I had a difficult conversation with someone and would like to include them as a reviewer to obtain constructive feedback?
 - Who have I collaborated with recently who has had a direct line of vision into my work? Have we worked together recently on a project? You are encouraged to choose reviewers who have insight into your recent work, rather than people you simply talk to often at Sourcegraph.
 - Include one reviewer whose review you’re scared to read! This is a best practice and will broaden your perspective and build self-awareness.
+- All peer reviewers should have been at Sourcegraph for at least two months before you ask them to review you.
 
 _Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
 
@@ -145,15 +146,13 @@ Log into Lattice using your Sourcegraph Google authenticator. You will be prompt
 
 ### Writing your reviews using the SBI framework
 
-We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you will automatically counteract some of the neurological responses activated by the limbic system when giving feedback.
+We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you can counteract some of the stress-inducing responses activated by the limbic system or _your threat zone_. Feedback helps us _continuously grow_ and it's important to live that value by being specific and actionable in your feedback. The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
 Situation: the where and when (_shaping the context of the feedback_)
 
 Behavior: the observable action (_what you observed directly, not your interpretation_)
 
 Impact: the so-what (_effect on emotion and work_)
-
-The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
 In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](../company/values.md#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
 

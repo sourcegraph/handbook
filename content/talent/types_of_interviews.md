@@ -439,6 +439,19 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 - Feel free to reach out to Andy with any questions.
 
+- Senior Customer Marketing Manager working session
+- Duration: 60-minutes.
+- The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals.
+
+  - Part 1: Driving engagement with our Customer Advisory Board members
+    The first part of the meeting will be with Andy Schumeister (Director of Product Marketing), Victoria Yunger (Product Marketing Lead, Enterprise), and Alex Isken (Product Marketing Manager, Cloud).
+  - First, you’ll share your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
+  - Then, we’d like to hear your ideas for how we can drive engagement with our Customer Advisory Board members in-between meetings in order to provide even more value for members.
+  - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're also looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation. You’ll also have an opportunity to ask the team questions during this portion.
+
+  - Part 2: Setting you up for success
+  - Then, you’ll meet 1:1 with Andy where you’ll have a chance to discuss the role and share what you need to be successful: tools, resources/special budget for anything, specific commitments from other teams, anything from Andy, etc.)
+
 ## People Operations
 
 - Senior People Partner working session
@@ -457,7 +470,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Working session
 
-  - Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney-she-her), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
+  - Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
   - Duration: 1 hour
   - Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time.We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
 
@@ -488,7 +501,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Marketing collaboration
 
-  - Interviewer: [Marketing team member](../company/team/org_chart.md#sts=Marketing)
+  - Interviewer: [Marketing team member](../company/team/org_chart.md#marketing)
   - Duration: 30 mins
   - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 
@@ -504,7 +517,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
   - Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](../product/index.md) will review your RFC and discuss it with you in the next round of interviews.
   - Duration: ~1 hour
   - Details: This is a take home writing assignment to see how you communicate and think about product problems. Below is the prompt on the project. [Here's how we will measure the project](../product/roles/interviews/product_manager/pm_rfc_project.md):
-  - Please write a Request for comments (RFC) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/product area.
+  - Please write a Request for comments (RFC) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/team.
   - It should have our standard RFC structure from the handbook, or see the RFC template: Background, Problem, Proposed solution, and Definition of success. However, our handbook states that the precise format is not as important as the content itself, so feel free to improve upon this format as necessary.
   - Aim for about one page of writing (don’t go over two pages) with standard styling. This is long enough to give us the signal we want, while at the same time is short enough that you don’t experience “writer’s block” and can write it in one sitting. We expect this to take you ~1 hour.
   - What’s important is that the writing is clear and easy to understand. It should show us that you care about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way.
