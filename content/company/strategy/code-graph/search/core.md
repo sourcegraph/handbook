@@ -26,6 +26,7 @@ In FQ3, we grew the Sourcegraph Cloud global index to 2.1M repositories, includi
 **Monorepo performance** is a recurrent pain point for large Enterprise customers. Unindexed monorepo performance is still poor, and several facets of search on large monorepos cause significant load on gitserver.
 
 **Code host coverage**: we've chosen to make progress towards [indexing the entire OSS universe](https://about.sourcegraph.com/blog/why-index-the-oss-universe/) by indexing repositories from different code hosts, which we see as a better increment towards making sourcegraph.com a universal code search engine than our previous goal of scaling the global index to 5.5M repositories (see "what we're not working on" below).
+
 #### What we're not working on and why
 
 - Further scaling the Sourcegraph Cloud global index by adding more repositories from GitHub: low-star repos can contain a lot of strange things, and may be only tangentially related to code (i.e., wikipedia dumps, other non-code data stores that only the author uses). This has a knock-on effect to relevancy, scaling, and performance. In addition, by adding repositories from the "popular long tail", we are not really delivering on the promise of letting people search their own code: for many developers, this would amount to searching 0-1 star repositories (example), which means complete coverage is still 28+M repos.
