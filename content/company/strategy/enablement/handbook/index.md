@@ -29,8 +29,6 @@ The Handbook serves as a [source of truth](../../../../communication#sources-of-
 - **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, [we work as a team](../../../values.md#work-as-a-team). No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
 - **The Handbook is a source of truth** at Sourcegraph, and information there is expected to be accurate and up-to-date.
 
-We draw inspiration from the [Gitlab Handbook](https://about.gitlab.com/handbook/).
-
 ## Where we are now
 
 The Handbook team is new, and up until now the Handbook has been owned by everyone. The handbook is relatively immature and needs defining. Features are basic, and it functions similarly to a simple wiki. With dedicated focus, we believe the Handbook can remain a pillar of the Sourcegraph culture and grow in value as a tool for internal and external stakeholders.
