@@ -82,6 +82,7 @@ We believe code search should be universal–meaning it should make the entire u
 
 - Index the open source code universe
 - Provide access to that universe through our own open source code search software
+
 ## Competitive landscape
 
 Our competitive landscape in the search space is sparse at the moment, but there are serious potential competitors we need to monitor–GitHub is the elephant in the room. It’s very likely they only need to release “good enough” code search to deal Sourcegraph’s search product a serious blow. While we believe our solution will remain far superior to whatever GitHub releases, there is a real risk that the switching costs of using Sourcegraph will be too high for users to switch, if GitHub’s search improves significantly.
