@@ -25,7 +25,7 @@ Recruiting Admins will manage permissions and creation of Hiring Leader & Depart
 - Step 3: Your Recruiting Partner will set up your Department’s Recruiting Pipeline Dashboard & Analytics Dashboard. When you log in, you will have access to all of the relevant information regarding your team’s recruiting pipeline and analytics. Hiring leaders do not have access to build or create individual reports. If you are looking for information that you cannot find in your pre-set custom dashboards, work with your Recruiting Partner to determine if additional insights can be added to your dashboard.
 - Step 4: You can access your TalentWall Recruiting Pipeline and Analytics dashboard at any point to review the progress of your open roles and action candidates accordingly.
 
-**If you have any questions please reach out to [@]**(https://sourcegraph.slack.com/team/U027MRJS0CE)Recruiting or @TechOpps
+**If you have any questions please reach out to @Recruiting or @TechOpps
 
 ## How our Recruiters use TalentWall:
 
