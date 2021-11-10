@@ -11,7 +11,7 @@ _This page is most relevant to product team members. If you want to know how to 
 - [Twitter](#twitter)
 - [Slack](#slack)
 - [Support tickets](#support-tickets)
-- [Sales/CE feedback](#sales-ce-feedback)
+- [Sales/CE feedback](#salesce-feedback)
 - [HubSpot forms](#hubspot-forms)
 - [NPS survey](#nps-survey)
 - [Browser extension uninstall feedback](#browser-extension-uninstall-feedback)
