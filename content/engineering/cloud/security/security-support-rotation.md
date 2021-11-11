@@ -53,11 +53,11 @@ We receive Bug Bounty reports through security@sourcegraph.com. We're looking in
 
 Relevant links:
 <<<<<<< HEAD
-- [Bug bounty policy](reporting-vulnerabilities.md)
-=======
+
+- # [Bug bounty policy](reporting-vulnerabilities.md)
 
 - [Bug bounty policy](https://handbook.sourcegraph.com/engineering/cloud/security/reporting-vulnerabilities)
->>>>>>> 810b7311300a87cf8e596eaa00dcc3b10d2216e1
+  > > > > > > > 810b7311300a87cf8e596eaa00dcc3b10d2216e1
 - [Vulnerability Management Process](https://docs.google.com/document/d/1kz_OPNjbwGAdCOmFAj2l6RkweFqJQNwV9pLfrzMhD-o/edit#heading=h.xi1of12kq9by)
 - [Vulnerability Management Policy](https://docs.google.com/document/d/1kz_OPNjbwGAdCOmFAj2l6RkweFqJQNwV9pLfrzMhD-o/edit#heading=h.xi1of12kq9by)
 
