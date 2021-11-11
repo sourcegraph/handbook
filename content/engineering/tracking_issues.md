@@ -4,7 +4,7 @@
 
 A tracking issue is a GitHub issue that captures the planned and on-going work of a team's milestone, project, RFC, goal or anything else of the sort. This artifact is a medium used for planning, progress check-ins and stakeholder communication. You can take a look at [examples of open tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Atracking) to get a sense of what they look like.
 
-Note that this is an optional process; some teams use tracking issues and some teams do not. For those that do they will follow the procedures below. Everyone, regardless if they use tracking issues or not, will follow the overall procedures for tracking outlined on the [Product & Engineering planning](../../product-engineering/planning.md).
+Note that this is an optional process; some teams use tracking issues and some teams do not. For those that do they will follow the procedures below. Everyone, regardless if they use tracking issues or not, will follow the overall procedures for tracking outlined on the [Product & Engineering planning](../product-engineering/planning.md).
 
 ## Creating a tracking issue
 
