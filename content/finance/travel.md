@@ -183,7 +183,7 @@ Please see below for a complete summary of spend limit, per diem, and hotel budg
 
 ### Dependent care budget:
 
-If you're required by us to travel for something business critical and incur unexpected and/or unreasonable expenses for dependents, we may consider contributing to the cost of care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you. If you’re interested in using this benefit, reach out to the People team or Finance to discuss your situation. If approved, costs will be reimbursed via expense claims. 
+If you're required by us to travel for something business critical and incur unexpected and/or unreasonable expenses for dependents, we may consider contributing to the cost of care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you. If you’re interested in using this benefit, reach out to the People team or Finance to discuss your situation. If approved, costs will be reimbursed via expense claims.
 
 ## How to book your trip in TripActions
 
