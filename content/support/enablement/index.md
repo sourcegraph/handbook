@@ -4,14 +4,14 @@ The following is available to help us honor our [ethos and guiding principles](.
 
 ## Docs
 
-- [Values enablement](support-values-enablement.md)
+- [Values enablement](../support-values-enablement.md)
 - [Career roadmapping](career-roadmap.md)
 - [How engineering and support learn from each other](eng-support-learn-from-eachother.md)
 - [Debugging tips](debugging-tips.md)
 - [Navigating the PGSQL Database](pgsql-guide.md)
 - [How to deploy Sourcegraph to GCP with Kubernetes](gcp-sg-k8s.md)
 - [How to run a Kubernetes instance locally using minikube](minikube.md)
-- [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
+- [How to Write Case Summaries for Resolved Tickets](enablement/zendesk-ticket-exporter.md)
 
 ## Videos
 
