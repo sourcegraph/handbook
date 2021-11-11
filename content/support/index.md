@@ -71,7 +71,7 @@ As I complete my first 90 days (if not sooner), I know I am successful in my day
 5. I resolve the cases for which I am responsible in 7 days or less (on average)
 6. I rarely have more than 5 active cases at a time
 7. I work toward team self-sufficiency by always asking my teammates for input/help before engaging engineering and by ensuring what I learn along the way is reflected in our docs or the handbook (whichever is most relevant)
-8. I provide a summary of my cases to populate our [resolved case database](zendesk-ticket-exporter.md)
+8. I provide a summary of my cases to populate our [resolved case database](enablement/zendesk-ticket-exporter.md)
 
 You can see how you are performing toward some of these metrics by determining your Zendesk assignee ID ([instructions](https://support.zendesk.com/hc/en-us/articles/360044278093-How-can-I-locate-an-agent-ID-in-Support-) and filtering [our Looker dashboard](https://sourcegraph.looker.com/dashboards-next/177) on your ID.
 
