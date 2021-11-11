@@ -34,6 +34,6 @@ For repositories such as `sourcegraph/sourcegraph` you should make pull requests
 
 Once you have the basics down, you can look into the [full reference docs](https://git-scm.com/docs) and [glossary](https://git-scm.com/docs/gitglossary).
 
-Other Sourcegraph resources for learning git include our [glossary](./glossary.md) and [editing the handbook tutorials](../../editing/index.md).
+Other Sourcegraph resources for learning git include our [glossary](./glossary.md) and [editing the handbook tutorials](../../handbook/editing/index.md).
 
 For more information on git beyond these links, you can ask most teammates (including all engineers) or ask questions in the #dev-chat and #handbook channels.
