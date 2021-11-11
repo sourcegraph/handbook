@@ -23,7 +23,7 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 
 ### Intended Audience
 
-Sourcegraph is an [open company](../../company.md#open-company) and we value [transparency](../company/values.md#open-andtransparent). As such, we keep the Handbook public.
+Sourcegraph is an [open company](../company.md#open-company) and we value [transparency](../company/values.md#open-andtransparent). As such, we keep the Handbook public.
 
 The **primary** intended audience for the Handbook is Sourcegraph teammates.
 
@@ -51,7 +51,7 @@ To be handbook-first, we must:
 - [Announce important changes](editing/announcing-handbook-updates.md) in the appropriate channels. Ensure everyone who needs to be aware of the change is made aware.
 - If you want to change a guideline or process, propose an edit to the handbook (by creating a pull request). Discuss and justify the change on the pull request.
   - Do this rather than discussing or drafting the changes in some other channel (Slack, Google Doc, etc.) first. If (for example) you start discussing a proposed change on Slack and then create a PR, you'll end up with half of the discussion on Slack and the other half on the PR, which results in confusion and duplication.
-  - **Note:** In some cases, it might make sense to start with an [RFC](../communication/rfcs.md). In any case, before changes are implemented, they must be documented in the handbook.
+  - **Note:** In some cases, it might make sense to start with an [RFC](../communication/rfcs/index.md). In any case, before changes are implemented, they must be documented in the handbook.
 - Follow the [content guidelines](../communication/content_guidelines/index.md).
 
 ## Why do we use Git? Why not a wiki or Google Docs?
