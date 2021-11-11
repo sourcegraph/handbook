@@ -12,6 +12,8 @@ For basic operations like accessing an instance for these steps, see [managed in
    - `export VERSION=vMAJOR.MINOR.PATH`
    - `export COMPANY=$COMPANY`
    - `export PROJECT_ID=sourcegraph-managed-$COMPANY`
+   - `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
+     - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
 1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/gcp-tfstate/gcp-tfstate.tf` according to the TODO comments within, commit the result.
@@ -54,21 +56,21 @@ For basic operations like accessing an instance for these steps, see [managed in
    	],
    ```
 1. Add an entry for the customer by adding their HubSpot link to the checklist in the [managed instances upgrade issue template](../../../releases/upgrade_managed_issue_template.md).
-1. Contact #ce and ask that they generate / provide the relevant license key for the customer's instance, then set it in the site config.
+1. Contact the CE who requested the instance and ask that they generate / provide the relevant license key for the customer's instance, then set it in the site config. If the requesting CE is unavailable or this was an internal instance, ask #ce for assistance.
 
 ## Giving the customer access
 
 To provide the customer access to the instance:
 
-1. Work with [#ce](../../../../ce/index.md) to ask the customer:
+1. Work with the requesting CE or [#ce](../../../../ce/index.md) to ask the customer:
    1. If their instance should be protected by SSO only, or SSO + IP-restricted access. If the latter, what IP addresses / CIDR ranges should be allowed (e.g. the source IPs of their corporate VPN, usually their infrastructure or IT teams can provide this).
    1. Who should be the recipient of the initial site admin account creation link? This will let them configure the admin password, which they will need to store somewhere securely, and is used for them to set up SSO as well as for them to get access if at any point SSO is not working. They can create more password or SSO-based admin accounts later as desired.
 1. Create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](operations.md).
 1. Prepare the initial admin account for the customer:
    1. Go to `/site-admin/users` and hit "Create user", and fill in the appropriate values.
-   1. Copy the generated link and send it to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically.
+   1. Copy the generated link and send it to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Keep in mind this link will expire after 4 hours.
    1. Go to `/site-admin/users` and promote the created account to site admin.
 
 ## Configuring SSO and repositories
 
-Distribution usually hands off to CE at this point, they will schedule a call with the customer (including a distribution member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding repos, configuring SSO, and inviting users.
+Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a delivery team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding repos, configuring SSO, and inviting users.
