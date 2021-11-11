@@ -8,36 +8,6 @@ This page documents resources that are relevant and valuable to anyone on the en
 - #leadership-chat is a public channel (not specific to engineering) where anyone can discuss and share information of general interest to leadership at Sourcegraph.
 - #manager-team is a private channel where managers across functions can solicit advice from and share info with fellow managers about topics that they do not feel comfortable discussing in #leadership-chat for any reason.
 
-## Status updates
-
-The goal of status updates is to communicate each team's progress toward their OKRs and roadmap items.
-
-Engineering managers send an update to [engineering-team-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status) after each iteration retrospective. Teams have different iteration cadences, and as such, we do not expect updates to come through on the same day, but it should follow soon after you have completed your retrospective for the iteration.
-
-You may send an update anytime (you don't need to wait for the end of an iteration). It might help communicate the achievement of an important milestone or significant change of plans mid-iteration.
-
-Delegate to someone else on your team to send the update when you are on vacation.
-
-While any teammate can join the group to receive these updates, your target audience is up (your manager) and out (your peers). You can also cc your team.
-
-Please include the following content in your update:
-
-- The email subject should contain the team name and the date (e.g., "Search update 2020-10-14") so each update starts a distinct email thread (otherwise, they get grouped in the Google Groups UI).
-- Follow the [3Ps](https://en.wikipedia.org/wiki/Progress,_plans,_problems) approach to reporting on the _Progress_, ~~Problems~~ _Challenges_, and _Plans_ against the team's goals.
-- Managers should favor a prose style communication over a changelog style update.
-
-### Company meeting demos
-
-We're experimenting with showing short (<1m) demo videos (max 1 per week) during company meeting. If your team ships something that would make a great demo, send an update to engineering-team-status@ to let us know. Requirements:
-
-- 1 minute or less
-- Recorded
-- Voiceover that explains the problem that the feature solves and which specific customers had that problem
-- Just show a demo of the actual product as if you were showing a friend, you don't need to have slides or anything
-- Example:
-  - https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/70Dr1h7Ixe4
-  - https://sourcegraph.slack.com/archives/CHEKCRWKV/p1615424478168600
-
 ## Book recommendations
 
 Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../finance/travel.md#5-professional-development-stipend-and-educational-travel) and read them!
