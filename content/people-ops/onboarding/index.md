@@ -42,24 +42,30 @@ This is a basic breakdown of our expectations for providing a smooth onboarding 
 
 ### Onboarding experience
 
+#### Onboarding survey
+
 Surveys are conducted at the 3-month mark to collect feedback from all new teammates to make sure that their onboarding experience is properly equipping them with the support and resources necessary for them to be successful in their new role.
 
-#### Onboarding content
+_Onboarding experience - Survey questions:_
 
-Survey questions:
+- Was the onboarding process successful in helping you become productive as fast as possible?
+- Was the general onboarding process successful in helping you become productive as fast as possible?
+- Was the specific onboarding process successful in helping you become productive as fast as possible?
+
+_Onboarding content - Survey questions:_
 
 - Was there anything that was not provided in your onboarding that you think should have been?
 - Did the onboarding process provide you the tools to carry out your role?
 - Did you have the resources to use them properly?
 - Did you have the necessary check-ins with your manager and teammates to ask questions, have shadowing sessions, etc?
 
-#### Onboarding format and presentation
-
-Survey questions:
+_Onboarding format and presentation - Survey questions:_
 
 - Was the onboarding platform (Process.st) intuitive and easy to follow?
 - Was the format easy to follow?
 - Was each task and its purpose communicated clearly?
+
+[Here](https://docs.google.com/spreadsheets/d/1UVfc47SEhH_DhvqMvA9iYDVhCjnynDiJI_5GcsnwU_4/edit?usp=sharing) you can find dashboards with the onboarding survey results.
 
 #### Mid-onboarding check-in
 
