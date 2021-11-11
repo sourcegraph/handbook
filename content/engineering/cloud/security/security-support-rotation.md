@@ -49,7 +49,7 @@ Our team gets tagged for reviewing PRs in the @security team in GitHub. PR revie
 We receive Bug Bounty reports through security@sourcegraph.com. We're looking into moving to a managed platform soon but until then we manage the full circle from initial communications through arranging the payment.
 
 Relevant links:
-- [Bug bounty policy](https://handbook.sourcegraph.com/engineering/cloud/security/reporting-vulnerabilities)
+- [Bug bounty policy](reporting-vulnerabilities.md)
 - [Vulnerability Management Process](https://docs.google.com/document/d/1kz_OPNjbwGAdCOmFAj2l6RkweFqJQNwV9pLfrzMhD-o/edit#heading=h.xi1of12kq9by)
 - [Vulnerability Management Policy](https://docs.google.com/document/d/1kz_OPNjbwGAdCOmFAj2l6RkweFqJQNwV9pLfrzMhD-o/edit#heading=h.xi1of12kq9by)
 
