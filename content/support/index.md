@@ -134,7 +134,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 - [CS application engineer onboarding](customer-support-onboarding.md)
 - [Manager onboarding](customer-support-manager-onboarding.md)
-- [Team README](support-bios.md)
+- [Team README](bios/index.md)
 - [Team schedule](support-schedule.md)
 - [Organizational structure](support-org-structure.md)
 - [Team rituals](support-team-rituals.md)
@@ -145,7 +145,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Engaging other teams](engaging-other-teams.md)
 - [Serving as messenger during incidents](../engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
-- [Enablement](support-enablement.md)
+- [Enablement](enablement/index.md)
 - [Tools](support-tools.md)
 - [Assigned application engineers](assigned-app-eng.md)
 - [Permanently deleting user data](permanently_deleting_user_data.md)
