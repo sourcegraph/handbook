@@ -22,7 +22,7 @@ This guide is a resource for learning both git and GitHub, both of which are ext
 
 To visualize the git flow, there's [an article version](https://guides.github.com/introduction/flow/) and [a video version](https://www.youtube.com/watch?v=47E-jcuQz5c&index=1&list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4).
 
-To visualize the Handbook git flow specifically, see the diagram [here](../../editing/index.md#overview).
+To visualize the Handbook git flow specifically, see the diagram [here](../../handbook/editing/index.md#overview).
 
 [Video introduction to GitHub](https://www.youtube.com/watch?v=sz6zfrQpCQg)
 
