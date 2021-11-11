@@ -66,11 +66,11 @@ TODO add link to source of this info
 | Product Marketing is DRI                                                                                 | Product Management is DRI                                                        |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Customer and market-facing                                                                               | Development and product-facing                                                   |
-| Defining the roadmap | Providing important market context to the roadmap |
+| Defining the roadmap                                                                                     | Providing important market context to the roadmap                                |
 | Receives new product info and product updates from product management teams                              | Delivers new product info and product updates to product marketing team          |
 | Responsible for aligning product packaging and messaging with market demands                             | Responsible for aligning product requirements with market demands                |
 | Defines key value props and messaging of new and updated products to sales, marketing, and support teams | Delivers technical aspects of new and updated products to product marketing team |
-| Closest allies are product management, marketing, and sales                                                          | Closest allies are the development team and product marketing                    |
+| Closest allies are product management, marketing, and sales                                              | Closest allies are the development team and product marketing                    |
 
 Shared areas of ownership where both teams contribute are:
 
