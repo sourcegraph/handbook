@@ -4,22 +4,23 @@ Sourcegraph is an [all-remote](../company/remote/index.md) company. This means w
 
 ## Travel Planning Guidelines
 
+- Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your teammates. If you're not sure, consult your manager. 
 - When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
 - For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
 - All meetups are to remain completely optional for all attendees.
   - Due to the current circumstances of Covid-19, everyone is experiencing comfort on differing levels. It is important to honor boundaries around comfort during this time. For more information on adhering to proper Covid-19 protocols during your trip planning, please review the Sherpa feature in TripActions.
-- Use your best judgement and defer to local jurisdictions in determining the number of attendees.
+- Use your best judgement and defer to local jurisdictions in determining the number of attendees and restrictions you may need to abide by.
 - When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../company/values.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
 - Follow local laws, customs, and safety regulations during every step of the meetup process.
 - The Company will reimburse testing for Covid-19 when traveling for Company events. The typical reimbursed test is approximately $25 per person per trip.
 
 ## Travel budget philosophy
 
-We are a [high agency](../company/values.md#high-agency) team. Be economical in choosing your accommodations, modes of transportation, and where you’ll be dining. We understand that there may be limits, and we urge you to find options that are both convenient for you while being reasonable reimbursements for the company.
+We are a [high agency](../company/values.md#high-agency) team. Be economical in choosing your accommodation, modes of transportation, and where you’ll be dining. We understand that there may be limits, and we urge you to find options that are both convenient for you while being reasonable regarding reimbursements for the company.
 
 > _For example: If you are attending a conference and see that a cheaper hotel is a half hour away from your conference venue, but you will need to pay for the taxi to the venue which would ultimately make your cost the same, book a more convenient option!_
 
-We also want you and expect you to use your full travel budgets each year! For this reason, they aren’t transferrable, and unused budget doesn’t roll over into the next year. These budgets are based on our [fiscal calendar](../finance/index.md#fiscal-year-2022), so they will renew on February 1st each year.
+Travel budgets are not transferable between types and are based on our [fiscal calendar](../finance/index.md#fiscal-year-2022)year. That means unused budget doesn’t roll over into the next year, but they will renew on February 1st each year. 
 
 > _For example:_
 >
@@ -28,22 +29,22 @@ We also want you and expect you to use your full travel budgets each year! For t
 
 **There are five types of company-sponsored, company-paid travel:**
 
-1.  Company-wide travel
-2.  Team travel
-3.  Individual travel
-4.  Business/customer travel
-5.  Professional development/ educational travel
+1.  Company-wide travel (intended for company-arranged, company-wide meet-ups)
+2.  Team travel (intended for you to connect with the team to which you belong)
+3.  Individual travel (intended for you to build relationships with teammates in the wider company)
+4.  Business/customer travel (intended for business-related events or customer meetings)
+5.  Professional development/ educational travel (intended for you to incorporate travel into a development opportunity if necessary)
 
 ### 1. Company-wide travel
 
-Each teammate has two fully-paid trips (flights, lodging, food, transportation) to the chosen locations of company meet-ups each year.
+This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammate has two fully-paid trips (flights, lodging, food, transportation) to the chosen locations of company meet-ups each year.
 
 - Winter party _(typically held in San Francisco)_
 - Spring/summer event
 
 ### 2. Team travel
 
-Each team is allocated $4,000 USD per year per teammate for team meetups (minimum two members of the team). The primary purpose of Team travel is to effectively build relationships with the people you work with on your teams. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. TIn planning your Team travel, feel free to reference a sample agenda below:
+Each team is allocated $4,000 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
 _9am-12pm: Breakfast + Team collaboration time
 12pm-1pm: Team lunch
@@ -61,9 +62,9 @@ Factor in as much time to spend together during the trip and leave room for solo
 
 ### 3. Individual travel
 
-Each teammate has one fully-paid trip per year to meet up with an individual or a group, and this can include anyone in the company.
+Each teammate has one fully-paid trip per year to meet up with an individual or a group. The intention for this travel is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Consider using this to spend time with a teammate from another team, with whom you work closely or with whom a personal meeting may be beneficial. 
 
-- People Ops and Finance will approve trips in excess of $2,500 for certain circumstances.
+- People Ops and Finance may approve trips in excess of $2,500 for certain circumstances.
 - This trip is _in addition_ to the other benefits mentioned on this page.
 
 ### 4. Business/customer travel
