@@ -44,7 +44,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
   - [Carl Hicks](../company/team/index.md#carl-hicks)
   - [Kelvin Lee](../company/team/index.md#kelvin-lee)
 
-More details about each team member in [our team READMEs](support-bios.md).
+More details about each team member in [our team READMEs](bios/index.md).
 
 ## We know that we are successful when we …
 

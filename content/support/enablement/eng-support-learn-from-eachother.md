@@ -47,7 +47,7 @@ If the donut app pairs two engineers, we can do some swapping to ensure CS and e
 Whenever a software engineer or an application engineer has the desire/time to create training materials they feel will help CS and that can be available on-demand (written or video), it’s as easy as:
 
 1. Create it
-2. Upload it to [the enablement folder](https://drive.google.com/drive/folders/1SSOwnsX_yNFadod88AQOxmFiINDgYoRr) in the CS shared drive and/or on the handbook CS [enablement page](support-enablement.md)
+2. Upload it to [the enablement folder](https://drive.google.com/drive/folders/1SSOwnsX_yNFadod88AQOxmFiINDgYoRr) in the CS shared drive and/or on the handbook CS [enablement page](enablement/index.md)
 
 ## Documentation
 
