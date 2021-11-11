@@ -148,6 +148,7 @@ minikube delete
 
 ## Resources
 
+- [Video walkthrough](https://drive.google.com/file/d/1t4lFa6PwPkkXFiGVrS3ST-NnkH99OqOL/view?usp=sharing)
 - [Customizations](https://docs.sourcegraph.com/admin/install/kubernetes/configure#customizations)
 - [Introduction to Kubectl and Kustomize](https://kubectl.docs.kubernetes.io/guides/introduction/)
 - [List of commonly used Kubernetes commands](https://sourcegraph.github.io/support-generator/)
