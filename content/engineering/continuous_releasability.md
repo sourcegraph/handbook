@@ -64,3 +64,11 @@ of thumb:
 - Have a plan for quickly testing and fixing any issues that arise immediately after merging into
   `main`.
 - Make the change as much in advance of the release date as possible.
+
+## Build Sheriff
+
+Because contributing healthy code is a responsibility shared by all engineers at Sourcegraph, we use OpsGenie to schedule a weekly Build Sheriff rotation that assignes engineering teams the responsiblity of monitoring the [main pipeline](https://buildkite.com/sourcegraph/sourcegraph). Engineering Managers will be tagged in the rotations and can decide with their teams the best way to assign responsibilities during their week on call. 
+
+For each day on rotation, the Build Sheriff will monitor the main pipeline by checking for failures in the #buildkite-main channel. If a build has failed, the Build Sheriff will follow the processes specified in the [CI Playbook](incidents/playbooks/ci.md). 
+
+**Note**: It is _not_ the responsibility of the Build Sheriff to fix PRs that cause a build failure. The team/person that merged the PR is responsible for resolving the issue once they've been made aware of it. 
