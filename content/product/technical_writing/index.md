@@ -23,7 +23,7 @@ If your changes include any images or video, you’ll need to upload to the Goog
 
 ### Publishing changes
 
-The publishing process for the website, handbook, and docs is the same as the one listed in [editing the handbook](../../editing/index.md#editing-the-handbook).
+The publishing process for the website, handbook, and docs is the same as the one listed in [editing the handbook](../../handbook/editing/index.md#editing-the-handbook).
 
 ### Local previews
 
