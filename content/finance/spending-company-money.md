@@ -54,10 +54,8 @@ Different specs are required repending on your role, please see below for necess
 
 ### Customer Engineering team laptops:
 
-- Apple MacBook Pro - 14.2" M1 Pro - 16 GB RAM, 1 TB SSD
-  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-14.2-m1-pro-16-gb-ram-1-tb-ssd-us/6738975?enkwrd=6738975)
-- Apple MacBook Pro - 16.2" M1 Pro - 16 GB RAM, 1 TB SSD
-  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-pro-16-gb-ram-1-tb-ssd-us/6738957?enkwrd=6738957)
+- Apple MacBook Pro - 16.2" M1 Pro - 32 GB RAM, 1 TB SSD
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 ### Product team laptops:
