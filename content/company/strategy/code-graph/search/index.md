@@ -15,19 +15,17 @@ Sourcegraph's mission is to make it so that everyone can code. The Search teams'
 
 ## Vision
 
-Sourcegraph search is a critical part of development workflows because it provides the most precise, relevant search results and empowers users to code with confidence.
-
 #### 1 Year vision
 
-> Developers can find all the code they need and code search is a critical part of their workflow, increasing individual and team productivity.
+> Enterprise customers of Sourcegraph actively use our differentiated code search features. Sourcegraph Cloud enables federated search over several code hosts beyond GitHub and GitLab, with relevant results.
 
 #### 3 Year vision
 
-> Developers look to Sourcegraph search as the bastion of quality code search and code content: we have the best code search and the best search results.
+> Search powers [unified](../index.md#deliver-a-unified-experience) use cases of Sourcegraph, at any Enterprise scale and across the entire OSS universe.
 
 #### 10 year vision
 
-> Code search is ubiquitous–a constant companion for users of all levels–empowering them to create and modify software.
+> Code search is a cornerstone of [universal coding literacy](../../index.md#ten-year-vision-democratize-coding).
 
 ## Guiding principles
 
@@ -45,6 +43,8 @@ Code search should be:
 Our competitive landscape in the search space is sparse at the moment, but there are serious potential competitors we need to monitor–GitHub is the elephant in the room. It’s very likely they only need to release “good enough” code search to deal Sourcegraph’s search product a serious blow. While we believe our solution will remain far superior to whatever GitHub releases, there is a real risk that the switching costs of using Sourcegraph will be too high for users to switch, if GitHub’s search improves significantly.
 
 There are also existing open source projects that may be “good enough” for many users. While we don’t believe these pose a serious threat to our enterprise business, they are competitors with our Cloud offering and, to the extent users prefer those experiences, we need to consider how to compete against them for attention and usage.
+
+As the scope of the Search teams expands, we'll face competition in new areas. Some examples are onboarding new developers and enabling responses to codebase changes. There are both new entrants (Swimm) and incumbents (Zapier, IFTTT) in those spaces, but we believe our unique approach to search positions us to deliver differentiated solutions by leveraging the distinct advantages of our code graph, such as its [unified experience](../index.md#deliver-a-unified-experience): [Notebooks](https://sourcegraph.com/search/notebook) as onboarding documentation can be created from code searches, browsed alongside the user’s code, and searched alongside the user’s code. [Code monitors](https://sourcegraph.com/code-monitoring) can eventually integrate with Batch changes and Code insights, to allow users to directly change the pattern they’re monitoring from Sourcegraph, and visualize instances of this pattern in their codebase over time.
 
 ## Where we are now, what's next, and why
 
