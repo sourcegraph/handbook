@@ -2,7 +2,7 @@
 
 Every Sourcegraph teammate will be editing the Sourcegraph handbook frequently to keep information up-to-date and participate in important changes in the company. This guide helps everyone learn how to edit the handbook.
 
-The handbook consists of Markdown files in the Git repository at [github.com/sourcegraph/handbook](https://github.com/sourcegraph/handbook/tree/main/content). ([Why not a wiki or Google Docs?](../usage.md#wiki-and-google-docs-handbooks-become-stale))
+The handbook consists of Markdown files in the Git repository at [github.com/sourcegraph/handbook](https://github.com/sourcegraph/handbook/tree/main/content). ([Why not a wiki or Google Docs?](../index.md#why-do-we-use-git-why-not-a-wiki-or-google-docs))
 
 ## How to get help
 
