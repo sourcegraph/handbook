@@ -53,6 +53,34 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 
 Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
 
+## Collaboration
+
+Product Management tends to collaborate with a lot of different groups. Beyond our shared [work as a team value](../../company/values.md#work-as-a-team), there are some teams where collaboration is especially important or can be unclear so we have documented high level practices around how we work together.
+
+### Product Management & Marketing
+
+Product Managemetn and Marketing must work close together to successfully create and launch products. Because of this, it's important to be clear on what the shared and unique responsibilities are within the working relationship.
+
+TODO add link to source of this info
+
+| Product Marketing is DRI                                                                                 | Product Management is DRI                                                        |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Customer and market-facing                                                                               | Development and product-facing                                                   |
+| Receives new product info and product updates from product management teams                              | Delivers new product info and product updates to product marketing team          |
+| Responsible for aligning product packaging and messaging with market demands                             | Responsible for aligning product requirements with market demands                |
+| Defines key value props and messaging of new and updated products to sales, marketing, and support teams | Delivers technical aspects of new and updated products to product marketing team |
+| Closest allies are product management and sales                                                          | Closest allies are the development team and product marketing                    |
+
+Shared areas of ownership where both teams contribute are:
+
+- [Pricing and tiering/packaging](./pricing.md)
+- Market research, including personas, ideal customer profiles, etc.
+- Competitive positioning and analysis
+- [Go to market planning](./rollout_process.md)
+- [Customer communications](#talking-to-customers-and-stakeholders)
+
+Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../communication/conflicts.md#clean-escalation) process to get to the best decision.
+
 ## Communications
 
 ### Feature roll-outs
