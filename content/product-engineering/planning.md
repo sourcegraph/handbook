@@ -5,6 +5,7 @@
     - [Annual planning process](#annual-planning-process)
     - [Quarterly planning process](#quarterly-planning-process)
   - [Sharing progress](#sharing-progress)
+    - [Status definitions](#status-definitions)
     - [GitHub project tracker](#github-project-tracker)
     - [OKR slides](#okr-slides)
     - [Monthly team updates](#monthly-team-updates)
@@ -46,6 +47,16 @@ There are a few ways we track plans and celebrate progress at Sourcegraph.
 - The [OKR slides](#okr-slides) contain the top level product and engineering results that the VPs and Directors review and discuss on a weekly basis.
 - The [monthly team update](#monthly-team-updates) communicate a high-level narrative/summary to the rest of the company about what the team accomplished since the last monthly update and what is up next.
 - [Monthly demo days](demo-day.md) are a great opportunity for engineers to highlight and share with a broad audience the specific things they shipped. It is really fun!
+
+### Status definitions
+
+| Status        | Description                                 |
+| ------------- | ------------------------------------------- |
+| ⛔️ Off track | <75% confidence we will achieve the goal    |
+| 😬 At risk    | 75-89% confidence we will achieve the goal  |
+| 🟢 On track   | 90-100% confidence we will achieve the goal |
+| 🚀 Done       | We have achieved the goal!                  |
+| ☠️ Cancelled  | We are no longer pursuing this goal         |
 
 ### GitHub project tracker
 
