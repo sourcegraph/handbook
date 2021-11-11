@@ -66,7 +66,7 @@ First released in 2016, the [Browser Extension](https://about.sourcegraph.com/bl
 
 ## Important Links
 
-- Changelog (todo)
+- [Changelog](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser/CHANGELOG.md)
 - [Release Process](release-process.md)
 - Metrics (todo)
 - [User Docs](https://docs.sourcegraph.com/integration/browser_extension)
