@@ -24,6 +24,7 @@ The following is available to help us honor our [ethos and guiding principles](.
 - [Search crash course](https://drive.google.com/file/d/1OEDgTJAaaEL5N0bcxSbRbBrdi8FU_ZPN/view?usp=sharing)
 - [Search crash course: query lang](https://drive.google.com/file/d/1DOEKW279FbxipJCM6vDdKzly6epgNyyD/view?usp=sharing)
 - [How to fix a database corruption on a Kubernetes instance](https://drive.google.com/file/d/1NlAA6nKp4W_iKU9TWga1OtUje3Ua85n0/view?usp=sharing)
+- [How to deploy Sourcegraph locally with minikube](https://drive.google.com/file/d/1t4lFa6PwPkkXFiGVrS3ST-NnkH99OqOL/view?usp=sharing)
 
 ## Informational Pages
 
