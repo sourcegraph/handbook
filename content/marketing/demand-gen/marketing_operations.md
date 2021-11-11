@@ -1,6 +1,6 @@
 # Marketing Operations
 
-The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MartTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable. Our goal is to make sure the systems support the strategy! 
+The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MartTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable. Our goal is to make sure the systems support the strategy!
 
 If you need to reach us regarding anything mentioned on this page, you can tag @marketing-operations on slack and someone from the team will jump in to assist you!
 
@@ -106,8 +106,8 @@ First Touchpoint is a custom marketing field we have created in Hubspot.. This f
 [Workflows](https://app.hubspot.com/workflows/2762526/flow/9011999/edit) set up in HubSpot to capture the latest conversion information, and copy this information to the ‘First event’ fields if they are blank/ unknown.
 
 ### Hubspot User Data Deletion (GDPR requests, etc.)
-Sometimes prospects and customers will ask us to delete their email address and data because they want it done, or as part of GDPR compliance. We take these requests seriously, and you can read more about how we process these requests over in [this section of the handbook](https://handbook.sourcegraph.com/support/permanently_deleting_user_data).
 
+Sometimes prospects and customers will ask us to delete their email address and data because they want it done, or as part of GDPR compliance. We take these requests seriously, and you can read more about how we process these requests over in [this section of the handbook](https://handbook.sourcegraph.com/support/permanently_deleting_user_data).
 
 ### Dashboards and Marketing Analytics\*
 
