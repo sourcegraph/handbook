@@ -9,12 +9,12 @@
     - [Serina Clark](../company/team/index.md#serina-clark), Director of Product - Enablement
     - [Jason Yavorska](../company/team/index.md#jason-yavorska), Director of Product - Code Graph
     - [Kylie Fligstein](../company/team/index.md#kylie-fligstein), Product operations specialist
-  - [Nick Snyder](../../company/team/index.md#nick-snyder), [VP Engineering](../roles.md#vp-engineering)
-    - [Bill Creager](../../company/team/index.md#bill-creager), [Director of Engineering](../roles.md#director-of-engineering), Cloud
-    - [Jean du Plessis](../../company/team/index.md#jean-du-plessis), [Director of Engineering](../roles.md#engineering-manager), Enablement
-    - [Yink Teo](../../company/team/index.md#yink-teo), [Director of Engineering](../roles.md#director-of-engineering), [Code Graph](../code-graph/index.md)
-    - [Michal Sennett](../../company/team/index.md#michal-sennett), Strategic Project Manager
-  - [Virginia Ulrich](../../company/team/index.md#virginia-ulrich), Head of Customer Support
+  - [Nick Snyder](../company/team/index.md#nick-snyder), [VP Engineering](../engineering/roles.md#vp-engineering)
+    - [Bill Creager](../company/team/index.md#bill-creager), [Director of Engineering](../engineering/roles.md#director-of-engineering), Cloud
+    - [Jean du Plessis](../company/team/index.md#jean-du-plessis), [Director of Engineering](../engineering/roles.md#engineering-manager), Enablement
+    - [Yink Teo](../company/team/index.md#yink-teo), [Director of Engineering](../engineering/roles.md#director-of-engineering), [Code Graph](../engineering/code-graph/index.md)
+    - [Michal Sennett](../company/team/index.md#michal-sennett), Strategic Project Manager
+  - [Virginia Ulrich](../company/team/index.md#virginia-ulrich), Head of Customer Support
 
 Full org chart:
 

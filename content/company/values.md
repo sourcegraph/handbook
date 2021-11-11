@@ -127,7 +127,7 @@ Here are some ways that we support learning, teaching, and knowledge-sharing at 
 - We aim to provide a high-quality [onboarding experience](../people-ops/onboarding/index.md) for new teammates by providing them with the learning materials and guidance they need to get started.
 - We have an [education budget](../finance/travel.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
 - We organize occasional hackathons internally, which are opportunities to learn, experiment, and share knowledge.
-- Product and Engineering teams host regular [Demo days](../product/demo_day.md) in which we share progress and learn from each other.
+- Product and Engineering teams host regular [Demo days](../product-engineering/demo-day.md) in which we share progress and learn from each other.
 - We teach each other new things in [Brain food sessions](../communication/index.md#brain-food)
 - We encourage self-directed growth.
 - We strive to support teammates who are interested in making career changes by [switching teams or roles.](../people-ops/switching-teams.md)
