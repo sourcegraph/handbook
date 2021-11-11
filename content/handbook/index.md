@@ -8,6 +8,7 @@ description: Guidance on how to get the most out of the Sourcegraph handbook
 ## What is the Handbook?
 
 The Sourcegraph Handbook is centralized documentation system for how we work. We are a [handbook-first company](#what-does-it-mean-to-be-handbook-first) because:
+
 1. A written process is followed more closely and frequently than an informal one, which leads to more people and iterations to improve it.
 1. We believe anyone can and should propose improvements to a written-down process. Learn [how to propose an edit the handbook](editing/index.md).
 1. New teammates can onboard more quickly by reading our handbook to understand background information and processes.
@@ -24,7 +25,7 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 
 Sourcegraph is an [open company](../company.md#open-company) and we value [transparency](../company/values.md#open-andtransparent). As such, we keep the Handbook public.
 
-The **primary** intended audience for the Handbook is Sourcegraph teammates. 
+The **primary** intended audience for the Handbook is Sourcegraph teammates.
 
 The **secondary** intended audience for the Handbook is Sourcegraph candidates.
 
@@ -35,6 +36,7 @@ Content intended for users of the Sourcegraph product should be part of [Sourceg
 Being handbook-first means using the handbook as the source of truth for answers and processes.
 
 To be handbook-first, we must:
+
 - Default to the handbook when looking for information about a business process or policy.
 - Rely on the handbook being accurate and up-to-date.
 - Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurrate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
