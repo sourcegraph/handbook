@@ -14,4 +14,4 @@ If someone has selected you as a reviewer or an approver, you will receive a not
 
 ### Can I review and comment on a proposal, even if I wasn't asked?
 
-Yes! Our repo is public, and you can see new Handbook proposals in the #handbook-updates Slack channel. If something looks interesting to you, you're welcome to review and give feedback. In alignment with our [values](../company/values.md) to work as a team, act with high agency, and be open and transparent, teammates are encouraged to review and comment on proposals where they feel they can add value.
+Yes! Our repo is public, and you can see new Handbook proposals in the #handbook-updates Slack channel. If something looks interesting to you, you're welcome to review and give feedback. In alignment with our [values](../../company/values.md) to work as a team, act with high agency, and be open and transparent, teammates are encouraged to review and comment on proposals where they feel they can add value.
