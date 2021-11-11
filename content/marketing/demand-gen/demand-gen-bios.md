@@ -36,4 +36,4 @@ The format, style, order, etc is up to each of us. Just make sure to include the
 
 ---
 
-All credit for the idea of team READMEs, including the page layout and copy, goes to the [Customer Support](../../support/support-bios.md) team
+All credit for the idea of team READMEs, including the page layout and copy, goes to the [Customer Support](../../support/bios/index.md) team
