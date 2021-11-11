@@ -25,7 +25,7 @@ Full org chart:
 
 The CTO team meets every Monday 1-1:30pm PT to discuss agenda items.
 
-## Product and engineering VP team sync
+## VP team sync
 
 The product and engineering VPs and Director team meets every Monday 8-9am PT.
 

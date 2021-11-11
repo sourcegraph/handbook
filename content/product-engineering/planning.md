@@ -28,35 +28,33 @@ We go through this full process in Q4 and a lightweight version of this every qu
 ### Quarterly planning process
 
 This is the planning process we do each quarter.
-
-| Week of quarter    | Action                                                                                                                                                                                                                 |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Week 7             | Gather input from stakeholders on upcoming priorities <li>VPP/VPE gather input from exec team on important problems to solve next quarter <li>Product/Eng Directors gather input from teams on next quarter priorities |
-| Week 8             | Draft department level OKRs <li>VPP/VPE & Product/Eng Directors meeting to draft OKRs<li>VPP/VPE share and get feedback from exec team                                                                                 |
-| Week 9             | Revise department level OKRs<li>VPP/VPE & Product/Eng Directors meeting to revise final draft of OKRS                                                                                                                  |
-| Week 10            | Finalize OKRs<li>VPP/VPE get exec team buy in to finalize and approve OKRs<li>OKRs added to the handbook & communicated on Slack                                                                                       |
-| Week 12            | Prepare for end of quarter retrospective<li>Product/Eng Directors gather input from their teams on OKR progress and fill out OKR scorecard                                                                             |
-| Week 13            | End of quarter retrospective<li>VPP/VPE & Product/Eng Directors retro previous quarter<li>VPP/VPE and CTO Team retro previous quarter & finalize OKR scorecard                                                         |
-| Week 1 New Quarter | Kick off new quarter<li>VPP/VPE share previous quarter OKR scorecard to Product/Eng Department <li>Communicate department OKRs for upcoming quarter at Company kick off                                                |
+| Week | Action |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Week 7 of current quarter<br>5 weeks until next quarter | Gather input from stakeholders on upcoming priorities <li>VPP/VPE gather input from exec team on important problems to solve next quarter <li>Product/Eng Directors gather input from teams on next quarter priorities |
+| Week 8 of current quarter<br>4 weeks until next quarter | Draft department level OKRs <li>VPP/VPE & Product/Eng Directors create first draft of OKRs during [VP team sync](team.md#vp-team-sync)<li>VPP/VPE share with exec team and integrate feedback<li>Product/Eng Directors share with their orgs and integrate feedback |
+| Week 9 of current quarter<br>3 weeks until next quarter | Revise department level OKRs<li>VPP/VPE & Product/Eng Directors discuss and revise OKRs during [VP team sync](team.md#vp-team-sync)<li>VPP/VPE share updates with exec team and integrate feedback<li>Product/Eng Directors share updates with their orgs and integrate feedback |
+| Week 10 of current quarter<br>2 weeks until next quarter | Finalize OKRs<li>VPP/VPE & Product/Eng Directors align on final OKRs during [VP team sync](team.md#vp-team-sync)<li>VPP/VPE get exec team buy in to finalize and approve OKRs<li>OKRs added to the handbook & communicated on Slack |
+| Week 12 of current quarter<br>1 week until next quarter | End of quarter retrospective<li>VPP/VPE & Product/Eng Directors retro previous quarter<li>VPP/VPE and CTO team retro previous quarter & finalize OKR scorecard |
+| Week 1 of new quarter | Kick off new quarter<li>VPP/VPE share previous quarter OKR scorecard to Product/Eng Department <li>Communicate department OKRs for upcoming quarter at Company kick off |
 
 ## Sharing progress
 
 There are a few ways we track plans and celebrate progress at Sourcegraph.
 
 - The [GitHub project tracker](#github-project-tracker) is **the source of truth** for all key results in product and engineering.
-- The [OKR slides](#okr-slides) contain the top level product and engineering results that the VPs and Directors review and discuss on a weekly basis.
-- The [monthly team update](#monthly-team-updates) communicate a high-level narrative/summary to the rest of the company about what the team accomplished since the last monthly update and what is up next.
+- [OKR slides](#okr-slides) contain the top level product and engineering results that the VPs and Directors review and discuss on a weekly basis.
+- [Monthly team updates](#monthly-team-updates) communicate a high-level narrative/summary to the rest of the company about what each team in product/eng accomplished since the last monthly update and what is up next.
 - [Monthly demo days](demo-day.md) are a great opportunity for engineers to highlight and share with a broad audience the specific things they shipped. It is really fun!
 
 ### Status definitions
 
-| Status        | Description                                 |
-| ------------- | ------------------------------------------- |
-| ⛔️ Off track | <75% confidence we will achieve the goal    |
-| 😬 At risk    | 75-89% confidence we will achieve the goal  |
-| 🟢 On track   | 90-100% confidence we will achieve the goal |
-| 🚀 Done       | We have achieved the goal!                  |
-| ☠️ Cancelled  | We are no longer pursuing this goal         |
+| Status        | Description                                  |
+| ------------- | -------------------------------------------- |
+| 🟢 On track   | 90-100% confidence we will achieve the goal. |
+| 😬 At risk    | 75-89% confidence we will achieve the goal.  |
+| ⛔️ Off track | <75% confidence we will achieve the goal.    |
+| 🚀 Done       | We have achieved the goal!                   |
+| ☠️ Cancelled  | We are no longer pursuing this goal.         |
 
 ### GitHub project tracker
 
@@ -90,9 +88,9 @@ Expectations:
 
 ### OKR slides
 
-The OKR tracker slides are a living document that is updated once a week to communicate that current state of top level product and engineering key results for the current quarter. It only contains 1 week's worth of updates. Each slide has an owner, and that owner is responsible for updating that slide at the end of each week so it can be reviewed at the [VP team sync](#vp-team-sync) on Monday.
+The OKR tracker slides are a living document that is updated once a week to communicate that current state of top level product and engineering key results for the current quarter. It only contains 1 week's worth of updates. Each slide has an owner, and that owner is responsible for updating that slide at the end of each week.
 
-The slides are reviewed and discussed each week in the [VP team sync](#vp-team-sync) so we can celebrate wins, identify risks, and course correct if necessary.
+The slides are reviewed and discussed each week in the [VP team sync](team.md#vp-team-sync) so we can celebrate wins, identify risks, and course correct if necessary.
 
 After the slides are reviewed, they are copied to a seprate slide deck to capture week-over-week progress.
 
@@ -103,7 +101,7 @@ Slides:
 
 ### Monthly team updates
 
-Monthly team updates communicate a high-level narrative/summary to the rest of the company about what the team accomplished since the last monthly update and what is up next.
+Monthly team updates communicate a high-level narrative/summary to the rest of the company about what each team in product/eng accomplished since the last monthly update and what is up next.
 
 The engineering manager of each team is responsible for sending an update to [engineering-team-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status) by the end of the week that contains the first day of each month. EMs may delegate to someone else on the team to send the update.
 
@@ -139,4 +137,4 @@ The purpose of our quarterly OKR retrospectives is to create a shared safe space
     - What didn’t go well (struggles and challenges) for yourself and for your team?
     - What did you and/or your team learn?
 - Deliverable
-  - Finalized OKR Scorecard deck ready to be shared with the company
+  - Finalized OKR scorecard deck ready to be shared with the company
