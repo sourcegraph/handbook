@@ -1,25 +1,25 @@
 # Support Team README
 
-Our README expands on our profile in [the company team directory](../company/team/index.md) and are meant to help us orient to one another.
+Our README expands on our profile in [the company team directory](../../company/team/index.md) and are meant to help us orient to one another.
 
-- Adeola [README](team-readmes/adeola-readme.md)
-- Alex [README](team-readmes/alex-readme.md)
-- Amber [README](team-readmes/amber-readme.md)
-- Beatrix [README](team-readmes/bee-readme.md)
-- Ben [README](team-readmes/ben-readme.md)
-- Carl [README](team-readmes/carl-readme.md)
-- Don [README](team-readmes/Don-readme.md)
-- Gabe [README](team-readmes/gabe-readme.md)
-- Giselle [README](team-readmes/giselle-readme.md)
-- Jason [README](team-readmes/jason-readme.md)
-- Kelvin Lee [README](team-readmes/kelvin-lee-readme.md)
-- Mariam [README](team-readmes/mariam-readme.md)
-- Michael [README](team-readmes/michael-readme.md)
-- Stompy [README](team-readmes/stompy-readme.md)
-- Warren [README](team-readmes/warren-readme.md)
-- Virginia [README](team-readmes/virginia-readme.md)
-- Nonso [README](team-readmes/nonso-readme.md)
-- Brielle [README](team-readmes/brielle-readme.md)
+- Adeola [README](adeola-readme.md)
+- Alex [README](alex-readme.md)
+- Amber [README](amber-readme.md)
+- Beatrix [README](bee-readme.md)
+- Ben [README](ben-readme.md)
+- Carl [README](carl-readme.md)
+- Don [README](Don-readme.md)
+- Gabe [README](gabe-readme.md)
+- Giselle [README](giselle-readme.md)
+- Jason [README](jason-readme.md)
+- Kelvin Lee [README](kelvin-lee-readme.md)
+- Mariam [README](mariam-readme.md)
+- Michael [README](michael-readme.md)
+- Stompy [README](stompy-readme.md)
+- Warren [README](warren-readme.md)
+- Virginia [README](virginia-readme.md)
+- Nonso [README](nonso-readme.md)
+- Brielle [README](brielle-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 

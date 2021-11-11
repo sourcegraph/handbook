@@ -506,7 +506,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
   - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 
 - Customer support collaboration
-  - Interviewer: [Virginia Ulrich](../support/team-readmes/virginia-readme.md), Head of CS
+  - Interviewer: [Virginia Ulrich](../support/bios/virginia-readme.md), Head of CS
   - Duration: 30 mins
   - Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross funcitonal teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
 
