@@ -59,7 +59,6 @@ To help guide people within the product organization on career growth we are cre
 
 ## References
 
-- [Demo day](./demo_day.md)
 - [Beta and experimental feature labels](./beta_and_experimental_feature_labels.md)
 - [Personas](../marketing/personas.md)
 - [Sourcegraph messaging](../marketing/messaging.md)
