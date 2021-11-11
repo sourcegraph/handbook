@@ -1,8 +1,10 @@
 # Planning
 
-Planning is a continuous negotiation between product and engineering. Teams should review the [strategy page for their area](../../company/strategy/index.md#per-team-strategy-pages) weekly with the [Product Manager](../roles/index.md#product-manager) and update it at least monthly. The roadmap will become less specific and focus more on the problems we are looking to solve the further out it gets because we expect to learn a lot between defining the problem and implementation. As implementation details change and we learn more about the solution to the problem we are aiming to solve, the product manager is responsible for communicating clearly what changes.
+Planning is a continuous negotiation between product and engineering. Our overall documentation for how we do planning and OKRs can be found on the [Product & Engineering planning](../../product-engineering/planning.md) page.
 
-[Pricing features](pricing.md) is a complicated topic and has its own page.
+## How to price features
+
+It's important to think about how your features will go to market, but [pricing features](pricing.md) is a complicated topic and has its own page.
 
 ## Product / eng team backlogs
 
@@ -10,7 +12,7 @@ You can find the backlogs for the product teams by visiting their [individual st
 
 ## Planning artifacts
 
-Planning requires several artifacts for communicating. This section clarifies how each artifact is used in the planning process.
+Planning requires several artifacts for communicating. This section clarifies how each artifact is used in the planning process. The [Product & Engineering planning](../../product-engineering/planning.md) page has full details on the artifacts that are produced during planning.
 
 ### Goals
 
@@ -39,10 +41,6 @@ The roadmap/strategy is:
 Teams should work on what their strategy page says they will work on next, and not just leave it behind to work on other things. If there is a desire to work on something else, the change should be discussed and merged to the page.
 
 We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
-
-### OKRs
-
-To ensure our team objectives are aligned with the company objectives at each fiscal quarter boundary the product and engineering organization collaborate with leadership on team OKRs. This generally happens (for the next quarter) in the last weeks of the current fiscal quarter. As the quarter progresses the product manager is responsible for communicating progress towards our objectives in the [OKR tracker](https://docs.google.com/spreadsheets/d/1M7xgQuKTkxhAlOU2bZgnp5EjJgptwxNJXBkOJaomm5w/edit#gid=628032573) so that we can stay aligned.
 
 ### RFCs
 
