@@ -51,7 +51,7 @@ Every member of CS has a regular weekly 1:1 with the manager to whom they report
 
 ## Career roadmapping/support
 
-Every member of CS works with their manager to start creating their personal [career roadmap](./career-roadmap.md) when they reach their 90 day milestone. The practice starts the same for everyone, answering a series of questions that touch on and go beyond typical career questions. Each manager pushes the folks to whom they are primarily responsible to think through their plans and helps them identify who else in the organization/beyond can help support them to get to where they want to go.
+Every member of CS works with their manager to start creating their personal [career roadmap](enablement/career-roadmap.md) when they reach their 90 day milestone. The practice starts the same for everyone, answering a series of questions that touch on and go beyond typical career questions. Each manager pushes the folks to whom they are primarily responsible to think through their plans and helps them identify who else in the organization/beyond can help support them to get to where they want to go.
 
 It is very likely that other managers on the team may be brought in to support someone’s career roadmap as a secondary coach with a speciality in some area relevant to that member of the team.
 

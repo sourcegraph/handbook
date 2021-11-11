@@ -20,7 +20,7 @@ You may see the following message:
 
 This means someone else has made changes on the main branch that you need to pull into your branch to move forward. If you were to merge your branch as is, your changes could conflict with the changes made by another teammate. Clicking “Update branch” will trigger Handbook Checks to run again, and you can then merge your changes.
 
-The best way to avoid this is to merge your changes often. Sometimes on commonly edited pages (like the [Team page](../company/team/index.md)), this is hard to avoid.
+The best way to avoid this is to merge your changes often. Sometimes on commonly edited pages (like the [Team page](../../company/team/index.md)), this is hard to avoid.
 
 ## What does it mean to enable auto-merge?
 
