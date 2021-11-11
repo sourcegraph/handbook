@@ -59,7 +59,7 @@ Product Management tends to collaborate with a lot of different groups. Beyond o
 
 ### Product Management & Marketing
 
-Product Managemetn and Marketing must work close together to successfully create and launch products. Because of this, it's important to be clear on what the shared and unique responsibilities are within the working relationship.
+Product Management and Marketing must work closely together to successfully create and launch products. Because of this, it's important to be clear on what the shared and unique responsibilities are within the working relationship.
 
 TODO add link to source of this info
 
