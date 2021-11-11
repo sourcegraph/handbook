@@ -1,6 +1,6 @@
 # Support values enablement
 
-This 3 part optional series is designed to ensure that as a team, we have a common vocabulary and understanding for upholding our [Sourcegraph values](../company/values.md). New team members complete the series as part of initial onboarding.
+This 3 part optional series is designed to ensure that as a team, we have a common vocabulary and understanding for upholding our [Sourcegraph values](../../company/values.md). New team members complete the series as part of initial onboarding.
 
 ## Part 1 - Thought-sharing and initial reactions
 
@@ -129,7 +129,7 @@ Sometimes things go wrong or something happens where a conversation that feels d
 
 - (10 minutes) Introduction round robin: Name, role at Sourcegraph, something from the last week that brought you joy
 - (10 minutes) Framing: Facilitator walks through the reason why we do this training -- highlighting that we know most folks never get any kind of formal training in having difficult conversations and this meant to help with that
-- (15 minutes) Ask cohort to quietly read [the code of conduct](../communication/code_of_conduct.md), [our company page about conflict resolution](../communication/conflicts.md), and [this about difficult conversations](https://community.supercats.org/post/course-8-difficult-conversations-6029e47be1194460b1c7417e) and see if they have questions
+- (15 minutes) Ask cohort to quietly read [the code of conduct](../../communication/code_of_conduct.md), [our company page about conflict resolution](../../communication/conflicts.md), and [this about difficult conversations](https://community.supercats.org/post/course-8-difficult-conversations-6029e47be1194460b1c7417e) and see if they have questions
 - (15 minutes) Sharing round robin 1: Share 3 examples of conversations you find difficult and what makes them difficult for you (facilitator takes notes while this is happening to show the depth and scope at the end, summarizing that this stuff can run deep and touch on things that often have nothing really to do with the conversation itself -- for example, past trauma)
 - (15 minutes) Facilitator shares a scenario. Ask cohort to quietly write how they would initiate a hard conversation about it, using the guidance in the (revised) code of conduct
 - (30 minutes) Pick one or two drafts from the last section and as a group, imagine how someone might respond, and in turn, how you could respond
