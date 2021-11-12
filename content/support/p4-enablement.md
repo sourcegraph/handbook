@@ -192,4 +192,4 @@ pass12349ers
 
 ### GUI tools
 
-You can download the Helix Admin Tool [here](https://www.perforce.com/downloads/administration-tool) which makes it easier to configure users, permissions etc.
+You can download the [Helix Admin Tool](https://www.perforce.com/downloads/administration-tool) which makes it easier to configure users, permissions, etc.
