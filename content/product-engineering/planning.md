@@ -19,10 +19,10 @@ We go through this full process in Q4 and a lightweight version of this every qu
 
 | Week of quarter | Action                                                                                                                                                         |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Week 2          | Draft annual vision document for next year <ul> <li>VPP/VPE draft annual vision doc</li> </ul>                                                                                  |
-| Week 3          | Gather input from stakeholders <ul> <li>VPP/VPE get feedback from exec team and key stakeholders</li></ul>                                                                     |
-| Week 4          | Update annual vision <ul> <li>VPP/VPE update annual vision draft based on feedback</li></ul>                                                                                  |
-| Week 5          | Share & gather feedback <ul> <li>VPP/VPE share annual vision with Product/Eng Directors and gather feedback</li></ul>                                                          |
+| Week 2          | Draft annual vision document for next year <ul> <li>VPP/VPE draft annual vision doc</li> </ul>                                                                 |
+| Week 3          | Gather input from stakeholders <ul> <li>VPP/VPE get feedback from exec team and key stakeholders</li></ul>                                                     |
+| Week 4          | Update annual vision <ul> <li>VPP/VPE update annual vision draft based on feedback</li></ul>                                                                   |
+| Week 5          | Share & gather feedback <ul> <li>VPP/VPE share annual vision with Product/Eng Directors and gather feedback</li></ul>                                          |
 | Week 6          | Finalize annual vision document <ul> <li>VPs update and finalize based on feedback</li> <li>Annual vision added to handbook & communicated on Slack</li> </ul> |
 
 ### Quarterly planning process
