@@ -2026,3 +2026,12 @@ carson_hopkins:
   role: Senior Customer Engineer
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
+
+kevin_wojkovich:
+  name: Kevin Wojkovich
+  email: kevin.wojkovich@sourcegraph.com
+  github: kevinwojo
+  pronouns: he/him
+  role: Software Engineer, Delivery
+  location: Chicago, IL, USA 🇺🇸
+  description: Kevin lives in the Rogers Park neigborhood in Chicago, IL. He's worked within the DevOps and Infrastructure space across many industries including crytpocurrency, finance, retail, and law enforcement. When not working, Kevin enjoys biking, going to the gym, cooking, bread-making, and watching cartoons.
