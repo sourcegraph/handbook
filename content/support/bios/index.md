@@ -2,10 +2,8 @@
 
 Our README expands on our profile in [the company team directory](../../company/team/index.md) and are meant to help us orient to one another.
 
-- Adeola [README](adeola-readme.md)
 - Alex [README](alex-readme.md)
 - Amber [README](amber-readme.md)
-- Beatrix [README](bee-readme.md)
 - Ben [README](ben-readme.md)
 - Carl [README](carl-readme.md)
 - Don [README](Don-readme.md)
