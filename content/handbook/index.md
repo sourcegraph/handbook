@@ -52,7 +52,8 @@ To be handbook-first, we must:
 - If you want to change a guideline or process, propose an edit to the handbook (by creating a pull request). Discuss and justify the change on the pull request.
   - Do this rather than discussing or drafting the changes in some other channel (Slack, Google Doc, etc.) first. If (for example) you start discussing a proposed change on Slack and then create a PR, you'll end up with half of the discussion on Slack and the other half on the PR, which results in confusion and duplication.
   - **Note:** In some cases, it might make sense to start with an [RFC](../communication/rfcs/index.md). In any case, before changes are implemented, they must be documented in the handbook.
-- Follow the [Sourcegraph content guidelines for consistent voice and style](../communication/content_guidelines/index.md).
+- Follow the [Sourcegraph content guidelines](../communication/content_guidelines/index.md) for consistent voice and style.
+- Follow the [Handbook Content Best Practices](editing/handbook-content-best-practices.md) for help with structuring your content, and deciding where it should live.
 
 ## Why do we use Git? Why not a wiki or Google Docs?
 
