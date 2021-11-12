@@ -25,7 +25,6 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 - [Brielle Collins](../company/team/index.md#brielle-collins), Manager
 
-  - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
   - [Gabe Torres](../company/team/index.md#team#gabe-torres)
   - [Mariam Adedeji](../company/team/index.md#mariam-adedeji)
   - [Michael Bali](../company/team/index.md#michael-bali)
@@ -39,7 +38,6 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
   - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
 - [Tamar Joyeux](../company/team/index.md#tamar-joyeux), Manager
   - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste)
-  - [Beatrix Woo](../company/team/index.md#beatrix-woo)
   - [Ben Gordon](../company/team/index.md#team#ben-gordon)
   - [Carl Hicks](../company/team/index.md#carl-hicks)
   - [Kelvin Lee](../company/team/index.md#kelvin-lee)
