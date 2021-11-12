@@ -1,2 +1,1 @@
 # Handbook Content Best Practices
-
