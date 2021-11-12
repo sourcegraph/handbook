@@ -1,6 +1,6 @@
 # Handbook Check Failures
 
-> If you are running the handbook locally, you can run these checks before you push your commit, [explained in the readme](../../README.md).
+> If you are running the handbook locally, you can run these checks before you push your commit, [explained in the readme](../../../README.md).
 
 On your Github pull request page, you'll notice a green checkmark or a red X-mark next to your commits. This information repeated at the end of the page with a "Some checks were not successful" in red or "All checks have passed" in green.
 
@@ -26,9 +26,9 @@ If you're not sure what the error message means or can't determine how to fix it
 
 - [Example](https://github.com/sourcegraph/about/runs/2976049292)
 - Your error contains text like this:
-  - `handbook/product/user_feedback.md: must link to .md file, not ../support/support-workflow`
+  - `handbook/product/user_stakeholder_feedback.md: must link to .md file, not ../support/support-workflow`
 - Breaking down the error:
-  - `handbook/product/user_feedback.md:`
+  - `handbook/product/user_stakeholder_feedback.md:`
   - This is telling you what file is causing the failure. In this case, it’s something happening within in the “User Feedback” Handbook page file, nested under the “Product” section of the Handbook.
   - `must link to .md file, not ../support/support-workflow `
   - This is telling you that you must link to an .md file, rather than just a URL. See [this page](linking-within-handbook.md) for more information about linking.

@@ -1,6 +1,6 @@
 # Responding to user feedback
 
-The product team owns a number of [user feedback sources](user_feedback.md).
+The product team owns a number of [user & stakeholder feedback sources](user_stakeholder_feedback.md).
 
 ## Cross-team communication and recording responses
 
@@ -59,7 +59,7 @@ For both self-contained product feedback slack posts and for new GitHub issues w
 
 ### Feedback email list
 
-The PM on feedback rotation owns keeping track, replying and/or forwarding any relevant feedback that comes through the feedback@sourcegraph.com [mailing list](user_feedback.md#feedbacksourcegraphcom) to the area's PM (or EM in the case that the team .
+The PM on feedback rotation owns keeping track, replying and/or forwarding any relevant feedback that comes through the feedback@sourcegraph.com [mailing list](user_stakeholder_feedback.md#feedbacksourcegraphcom) to the area's PM (or EM in the case that the team .
 
 ## Browser uninstall form feedback
 
