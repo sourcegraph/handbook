@@ -30,7 +30,7 @@ That said, there may be times when we have unusally large amount of work or more
   - handle anything related to security for a customer without a CE
   - handle a feature request for a customer without a CE
 
-  If there is no action for CS, go to step 8. There is no action for CS if the action is to:
+  If there is no action for CS, go to step 9. There is no action for CS if the action is to:
 
   - handle anything related to licensing
   - handle anything related to security for a customer with a CE
@@ -41,15 +41,17 @@ That said, there may be times when we have unusally large amount of work or more
 
   If it's from the Hubspot form and for marketing, engage them in the #marketing Slack channel and @ mention @marketing-operations.
 
-- **Step 4:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision.
+- **Step 4:** If it's from Hubspot, change the subject to "Sourcegraph help request"
 
-- **Step 5:** On the left panel, under _Tags_, select, _triaged_.
+- **Step 5:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision.
 
-- **Step 6:** On the left panel, under the _Select Assignee_ tab, pick _Assign to this group_ and submit the ticket as open -- this will make sure the ticket lands in the _Unassigned queue_ (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).
+- **Step 6:** On the left panel, under _Tags_, select, _triaged_.
 
-- **Step 7:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take.
+- **Step 7:** On the left panel, under the _Select Assignee_ tab, pick _Assign to this group_ and submit the ticket as open -- this will make sure the ticket lands in the _Unassigned queue_ (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).
 
-- **Step 8:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
+- **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take.
+
+- **Step 9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
 ## FAQs
 
