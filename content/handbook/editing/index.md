@@ -24,6 +24,7 @@ We don't expect everyone on the team to figure this out on their own. Other team
 - [Markdown Tips & Resources](markdown-resources.md)
 - [Reviewing & Approving Another Peron's Proposal](reviewing-a-proposal.md)
 - [Announcing Important Updates](announcing-handbook-updates.md)
+- [Handbook Content Best Practices](handbook-content-best-practices.md)
 
 ## Editing
 
