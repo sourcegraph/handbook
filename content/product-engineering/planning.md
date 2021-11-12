@@ -23,7 +23,7 @@ We go through this full process in Q4 and a lightweight version of this every qu
 | Week 3          | Gather input from stakeholders<li>VPP/VPE get feedback from exec team and key stakeholders                                                |
 | Week 4          | Update annual vision <li>VPP/VPE update annual vision draft based on feedback                                                             |
 | Week 5          | Share & gather feedback <li>VPP/VPE share annual vision with Product/Eng Directors and gather feedback                                    |
-| Week 6          | Finalize annual vision document <li>VPs update and finalize based on feedback <li>Annual vision added to handbook & communicated on Slack |
+| Week 6          | Finalize annual vision document <ul> <li>VPs update and finalize based on feedback</li> <li>Annual vision added to handbook & communicated on Slack</li> </ul> |
 
 ### Quarterly planning process
 
