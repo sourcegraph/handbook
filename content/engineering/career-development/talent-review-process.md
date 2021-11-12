@@ -15,7 +15,7 @@
 
 ## Cadence
 
-**Talent review is performed once per quarter.** More frequent than quarterly is not enough time for significant growth to occur for most ICs, and is thus not a good use of <a href="../roles#engineering-manager"><abbr title="Engineering Manager">EM</abbr></a> effort: too much cost for not enough benefit.
+**Talent review is performed in the first month of each fiscal quarter (February, May, August, November).** More frequent than quarterly is not enough time for significant growth to occur for most ICs, and is thus not a good use of <a href="../roles#engineering-manager"><abbr title="Engineering Manager">EM</abbr></a> effort: too much cost for not enough benefit.
 Less frequent than quarterly raises the stakes too high: “I just started this new role right before Talent Review. If it’s not enough time for me to demonstrate my increased impact, I’ll have to wait another 6 months before I’m considered again!”
 
 ## Pre-work
