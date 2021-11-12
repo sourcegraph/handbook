@@ -29,7 +29,7 @@ Reach out to the [content curators](#content-curators) for help if you're unsure
 
 To determine where your content should go:
 
-1. Consider the **primary** viewer. Since our handbook is public, anyone can read the content, but you probably have an intended audience in mind. If your content is a company-wide policy or process, it probably belongs in a directory holding company-wide content. If it's a policy or process only your team uses, it probably fits best in your team directory. -**Note:** If your primary viewer is a user of the Sourcegraph product, it should live in the [Sourcegraph Docs](docs.sourcegraph.com).
+1. Consider the **primary** viewer. Since our handbook is public, anyone can read the content, but you probably have an intended audience in mind. If your content is a company-wide policy or process, it probably belongs in a directory holding company-wide content. If it's a policy or process only your team uses, it probably fits best in your team directory. -**Note:** If your primary viewer is a user of the Sourcegraph product, it should live in the [Sourcegraph Docs](https://docs.sourcegraph.com/).
 1. Determine what type of content you are creating. Is it a process describing how we work? Is it a policy that must be followed? Look for a directory with similar types of content. Like content should live together.
 
 Reach out to the [content curators](#content-curators) for help if you're unsure.
