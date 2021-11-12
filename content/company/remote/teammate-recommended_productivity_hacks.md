@@ -30,7 +30,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 
 ### Chrome
 
-- **Create lots of custom search shortcuts**: You can create these for any website, and we recommend setting up the [handbook search shortcut](../../usage.md#setup) and the [Sourcegraph.com search shortcut](https://docs.sourcegraph.com/integration/browser_search_engine#google-chrome). Other popular search shortcuts are Google Drive, GitHub issues search, or Salesforce.
+- **Create lots of custom search shortcuts**: You can create these for any website, and we recommend setting up the [handbook search shortcut](../../handbook/handbook-tips.md#searching-the-handbook) and the [Sourcegraph.com search shortcut](https://docs.sourcegraph.com/integration/browser_search_engine#google-chrome). Other popular search shortcuts are Google Drive, GitHub issues search, or Salesforce.
 - **Use a tab manager** like [Tabbs](https://chrome.google.com/webstore/detail/tabbs/cicnbbdlbjaoioilpbdioeeaockgbhfi) or [Tabli](https://chrome.google.com/webstore/detail/tabli/igeehkedfibbnhbfponhjjplpkeomghi).
 - **Set up a separate [Chrome profile](https://support.google.com/chrome/answer/2364824?co=GENIE.Platform%3DDesktop&hl=en)** so you can keep your work and personal bookmarks and autocompletes/shortcuts separate.
 

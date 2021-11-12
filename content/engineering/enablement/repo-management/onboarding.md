@@ -55,3 +55,8 @@ This month, you will also switch to active participation in operational rotation
 - [How repo updater works](how-repo-updater-works.md)
 
 ## Extras
+
+- [Onboarding Google Drive](https://drive.google.com/drive/folders/1PhGxAl4HNZkoMhMM9_680FYbxkWWBnN6)
+- [Dev tools we love](dev-tools-we-love.md)
+- [Learning Resources](learning-resources.md)
+- [Tips and Tricks](tips-and-tricks.md)

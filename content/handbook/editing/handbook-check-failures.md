@@ -1,6 +1,6 @@
 # Handbook Check Failures
 
-> If you are running the handbook locally, you can run these checks before you push your commit, [explained in the readme](../../README.md).
+> If you are running the handbook locally, you can run these checks before you push your commit, [explained in the readme](../../../README.md).
 
 On your Github pull request page, you'll notice a green checkmark or a red X-mark next to your commits. This information repeated at the end of the page with a "Some checks were not successful" in red or "All checks have passed" in green.
 
