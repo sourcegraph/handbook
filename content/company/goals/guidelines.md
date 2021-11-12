@@ -20,10 +20,11 @@ We believe:
 
 ## How we set goals
 
-- We set company-wide OKRs for the entire year and for each quarter.
-- Also, each team sets its own OKRs for the entire year and for each quarter.
+- For annual planning, instead of OKRs (which imply an unrealistic level of certainty for the next year), we will set a small number of goals with a clear primary one and a written 1-3-5-year vision.
+- We set company-wide OKRs for each quarter.
+- Also, each team sets its own OKRs for each quarter.
 - Quarterly OKRs are set just before the quarter starts. (We don't try to set them too far in advance.)
-- At the end of each quarter (and whenever needed), we review the entire-year OKRs to assess our progress and change them if they're no longer relevant or realistic.
+- At the end of each quarter (and whenever needed), we review the the annual plan to assess our progress and change it if parts are no longer relevant or realistic.
 
 ### What are OKRs?
 

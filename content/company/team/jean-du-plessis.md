@@ -1,6 +1,6 @@
 # Jean du Plessis
 
-[Bio on team page](index.md#jean-du-plessis-he-him)
+[Bio on team page](index.md#jean-du-plessis)
 
 ## Management style
 

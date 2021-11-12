@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "pronouns": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string"
+      },
+      "location": {
+        "type": "string"
+      },
+      "github": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "links": {
+        "type": "string"
+      },
+      "pronunciation": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    },
+    "required": ["name"]
+  }
+}

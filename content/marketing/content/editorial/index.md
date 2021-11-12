@@ -4,7 +4,7 @@ The Editorial team (part of the [Content Marketing](../index.md) team) is primar
 
 ## Team members
 
-- [Rebecca Dodd](../../../company/team/index.md#rebecca-dodd-sheher), Senior Managing Editor
+- [Rebecca Dodd](../../../company/team/index.md#rebecca-dodd), Senior Managing Editor
 - [Nick Moore](../../../company/team/index.md##nick-moore-hehimhis), Content Editor
 
 ## Handbook pages

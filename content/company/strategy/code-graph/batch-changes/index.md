@@ -5,6 +5,7 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 #### Quick links
 
 - [Code Graph overall strategy](../../../../engineering/code-graph/batch-changes/index.md)
+- [Batch Changes team page](../../../../engineering/code-graph/batch-changes)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
@@ -44,6 +45,14 @@ To deliver our vision, we will:
 - Then, create low time-to-value entry points into Batch Changes, and allow users unfamiliar with the practice of automating code changes to onboard with a smooth learning curve. Make onboarding Batch Changes self-serve for most users, to help our customers be successful and prepare for launching on Cloud.
 - Then, release Batch Changes on Sourcegraph Cloud, and test and learn how we can serve individuals and smaller teams.
 - Eventually, address the problem end to end by becoming the go-to place for code change tools and recipes.
+
+## Competitive landscape
+
+Our primary competition comes from companies building internal tools to apply and track code changes. Individual users inside companies also build scripts around [git-xargs](https://github.com/gruntwork-io/git-xargs) or [turbolift](https://github.com/Skyscanner/turbolift) to create changesets, then tend to outgrow it when they scale usage (lack of changeset tracking, collaboration, reproducibility). Every tool relies on a search engine to return matches, so being integrated with Sourcegraph search is a key competitive advantage for Batch Changes.
+
+We expect to see more vertical competition from companies focused on a language ecosystem, that enter the market by building refactoring frameworks for a given language ecosystem, then competing with Batch Changes on tooling to apply and track code changes. [Moderne](https://moderne.io/)/[openrewrite](https://github.com/openrewrite/rewrite) is the first significant example of this, focused on the Java ecosystem.
+
+We are committed to remaining language-agnostic, which includes using Batch Changes to apply and track changesets created with frameworks such as openrewrite or any other refactoring framework. We also think there is an opportunity in leveraging precise code intelligence to create radically better code change tools that support many languages in the future.
 
 # Guiding Principles
 
@@ -118,7 +127,7 @@ We have five main learnings from the first year of Batch Changes:
 
 ### Top customer, support, sales, and marketing issues
 
-Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CEs and CSEs. The top issues surfaced to CSE, CE and Product are:
+Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CE and CS. The top issues surfaced to CS, CE and Product are:
 
 - Changesets are not syncing frequently enough. There also are many feature requests for a bulk sync operation ([#21458](https://github.com/sourcegraph/sourcegraph/issues/21548)), that indicate that users think changesets do not sync properly. The current root cause is that users haven't set up [webhooks](https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits).
 - Users struggle to configure credentials, and get confused by the various options (code host token, global service account, personal access token).

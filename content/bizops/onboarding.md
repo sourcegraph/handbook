@@ -19,7 +19,7 @@ You'll have to get some basics set up in your first few days:
 
 ### Understand Sourcegraph communication and documentation standards
 
-- We're a handbook-first company. Learn all about the handbook on its [handbook page](../usage.md).
+- We're a handbook-first company. Learn all about the handbook on its [handbook page](../handbook/index.md).
 - Join relevant Slack channels. The main channels are [listed in the handbook](../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with.
 - Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../communication/rfcs/index.md).
 
@@ -56,7 +56,7 @@ Your manager will help you schedule the following training sessions:
   - Include collaboration with another team to start building familiarity with how other teams operate
   - Be opportunities for you to get a quick win or two
 - Continue asking questions about Sourcegraph (the company and product) and reinforcing our values and goals.
-- Look back at your onboarding material from week 1. It's a lot of new information, but it will become second nature over time with a little bit of repitition!
+- Look back at your onboarding material from week 1. It's a lot of new information, but it will become second nature over time with a little bit of repetition!
 - Think about how onboarding could be improved for the next person and make changes to it along the way. It will never be perfect, but it can always get better!
 
 ## Week 4

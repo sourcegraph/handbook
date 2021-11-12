@@ -32,7 +32,7 @@ Within the business pillar there exists three core responsibility areas:
 
 The technology pillar embodies the skills necessary to solve customer problems.
 
-Within the techonology pillar there exists three core responsibility areas:
+Within the technology pillar there exists three core responsibility areas:
 
 - Technical Aptitude
 - Product Knowledge

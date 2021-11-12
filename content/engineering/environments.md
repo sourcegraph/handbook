@@ -6,7 +6,8 @@ This page describes our different cloud environments.
 
 We utilize multiple Google Cloud projects and folders to organize our workloads and manage access control for our engineers, as well as limit the scope of roles and service accounts across projects.
 
-All Projects and permissions are defined in [infrastructure/gcp](https://github.com/sourcegraph/infrastructure/tree/main/gcp).
+All **Permanent** Projects and permissions are defined in [infrastructure/gcp](https://github.com/sourcegraph/infrastructure/tree/main/gcp).
+Temporary projects should be created as needed in [Engineering Projects](#engineering-projects)
 
 ### Root Projects
 
@@ -23,6 +24,8 @@ These projects contain per-project permissions.
 Contains projects used by individual engineers. Engineers are expected to remove all their resources once they are done testing. All projects must be prefixed with `$name-` (the name of the owner).
 
 Generally, these projects should be short-lived and shutdown by the engineer when it is no longer needed (this will delete all resources in the project). Longer lived projects should be put in another folder and distribution should be contacted for review.
+
+_Note: Customer Support team members should provision clusters within the cse-k8s project._
 
 #### Sourcegraph Cloud
 

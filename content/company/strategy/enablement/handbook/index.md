@@ -29,15 +29,13 @@ The Handbook serves as a [source of truth](../../../../communication#sources-of-
 - **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, [we work as a team](../../../values.md#work-as-a-team). No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
 - **The Handbook is a source of truth** at Sourcegraph, and information there is expected to be accurate and up-to-date.
 
-We draw inspiration from the [Gitlab Handbook](https://about.gitlab.com/handbook/).
-
 ## Where we are now
 
 The Handbook team is new, and up until now the Handbook has been owned by everyone. The handbook is relatively immature and needs defining. Features are basic, and it functions similarly to a simple wiki. With dedicated focus, we believe the Handbook can remain a pillar of the Sourcegraph culture and grow in value as a tool for internal and external stakeholders.
 
 During a Hackathon in FY22Q3, huge strides were made by refactoring the Handbook. This refector allows for easier development in the future, added a "Contributors" section to each page in the handbook, and provided users a full preview of their changes.
 
-The only analytics currently being tracked regularly are around search, via (Swiftype)[https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12]. Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle). With the addition of google analytics we expect to have clearer insight into handbook improvement opportunities.
+The only analytics currently being tracked regularly are around search, via [Swiftype](https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12). Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle). With the addition of google analytics we expect to have clearer insight into handbook improvement opportunities.
 
 ### Top customer issues
 
@@ -53,9 +51,9 @@ The next six months are focused on better defining the Handbook as a product and
 #### FY22Q4
 
 - **Objective:** Produce search results that are more helpful to the end user.
-- **Why?** The Handbook is the primary resource of content for teammates, candidates and customers to learn more about the company. As the main source of truth for Sourcegraph it is critical end users can easily find content.
-  - **Key Result 1:** Increase the number of click throughs on Handbook search results.
-- **How will this be measured?** Today Swiftype analytics shows that we have a 10% click through rate.
+- **Why?** Our objective is to increase content discovery in the Handbook. We believe that a higher percentage click through rate is directly correlated to search results matching what people are looking for.
+  - **Key Result 1:** Increase the number of click throughs on Handbook search results to 90%.
+- **How will this be measured?** [Swiftype analytics](https://app.swiftype.com/engines/handbook/analytics/insights) can provide us a clickthrough rate over a given period..
 - **How does this align with the overall [product strategy](../../index.md)?** This enables all teammates at Sourcegraph to be more efficient and accelerate the time it takes to provide value to customers.
 
 ### Themes (and What's Next and why)

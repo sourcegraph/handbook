@@ -30,7 +30,7 @@ _In these review cycles, you will be asked to give and receive the following rev
 
 ### Timing:
 
-Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year.
+Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year. As our company standard, our review cycles run on UTC. The review cycle completes at 12:00pm midnight UTC on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
 
 We expect that all teammates will carve out time to put thought into writing out their reviews, and writing the reviews of their peers. We encourage all reviewers to designate around 30 minutes per review on their calendars as a calendar block called: “Writing peer reviews - do not book.” We encourage all teammates during this time to respect those review calendar blocks.
 
@@ -82,13 +82,14 @@ These cycles will run concurrently with your [Onboarding Feedback Milestones](./
 
 ### Selecting a peer reviewer
 
-**Teammates**: All teammates will select 2-3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers.
+**Teammates**: All teammates will select 2-3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers. If you'd like to increase your number of reviewers, reach out to #impact-reviews on Slack with your reviewer name and who you'd like to add to your roster.
 
 When you choose these 2-3 reviewers, you should consider:
 
 - Which peers can speak directly to my growth opportunities? Have I had a difficult conversation with someone and would like to include them as a reviewer to obtain constructive feedback?
 - Who have I collaborated with recently who has had a direct line of vision into my work? Have we worked together recently on a project? You are encouraged to choose reviewers who have insight into your recent work, rather than people you simply talk to often at Sourcegraph.
 - Include one reviewer whose review you’re scared to read! This is a best practice and will broaden your perspective and build self-awareness.
+- All peer reviewers should have been at Sourcegraph for at least two months before you ask them to review you.
 
 _Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
 
@@ -130,7 +131,9 @@ After you have documented your informal Impact review, this process will be comp
 
 You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
 
-_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence. Our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by this point. _
+\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
+
+Additionally, our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by that point in time. We will keep the templates live for you to seek feedback inbetween future cycles.
 
 ## How to use Lattice
 
@@ -143,15 +146,13 @@ Log into Lattice using your Sourcegraph Google authenticator. You will be prompt
 
 ### Writing your reviews using the SBI framework
 
-We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you will automatically counteract some of the neurological responses activated by the limbic system when giving feedback.
+We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you can counteract some of the stress-inducing responses activated by the limbic system or _your threat zone_. Feedback helps us _continuously grow_ and it's important to live that value by being specific and actionable in your feedback. The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
 Situation: the where and when (_shaping the context of the feedback_)
 
 Behavior: the observable action (_what you observed directly, not your interpretation_)
 
 Impact: the so-what (_effect on emotion and work_)
-
-The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
 In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](../company/values.md#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
 

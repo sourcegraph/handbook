@@ -1,6 +1,6 @@
 # Licensing
 
-Licensing at Sourcegraph can be confusing: the word "license" (or "licence", for the non-Americans in the crowd) is used in two overlapping contexts within Sourcegraph:
+Licensing at Sourcegraph can be confusing: the word "license" (or "licence") is used in two overlapping contexts within Sourcegraph:
 
 1. The software license under which our users obtain and potentially modify our source code, and
 2. The [team or enterprise plan](https://about.sourcegraph.com/pricing) that users are paying for on Sourcegraph Enterprise, which is controlled via a [license key](../ce/license_keys.md). (The Free plan does not have a license key.)
@@ -57,7 +57,7 @@ The word license is ambiguous: the answer to "what's the license of this user?" 
 
 "Free user" is also ambiguous, as it can refer to a Sourcegraph OSS user, or a Sourcegraph Enterprise user on a Free plan.
 
-"Enterprise user" is ambiguous as well, as it can refer to a Sourcegraph Enterprise user (on any plan), or specifically to a Sourcegraph Enterise user on an Enteprise plan.
+"Enterprise user" is ambiguous as well, as it can refer to a Sourcegraph Enterprise user (on any plan), or specifically to a Sourcegraph Enterprise user on an Enterprise plan. "Enterprise customer" is similarly ambiguous.
 
 To prevent confusion, avoid using "License" or "Free user". Instead, say:
 

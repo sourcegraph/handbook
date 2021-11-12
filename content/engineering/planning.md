@@ -30,13 +30,13 @@ Examples:
 
 ### Risk work
 
-Risk work decreses the operational, security, or regulatory risk.
+Risk work decreases the operational, security, or regulatory risk.
 
 Examples:
 
 - Multi-zone deployments to reduce the likelihood that our site goes down
 - Security certifications like SOC 2, ISO 27001
-- Regulation requrements like GDPR, CCPA
+- Regulation requirements like GDPR, CCPA
 
 ### What about tech debt?
 
@@ -54,7 +54,7 @@ With the correct frame ✅, addressing tech debt turns into one of the other kin
 
 - Addressing tech debt can be feature work when doing it now is on the fastest path toward delivering a product improvement.
 - Addressing tech debt can be scale work when addressing it will increase our ability to deliver more value to our customers faster over time.
-- Addressing tech debt can be risk work when it helps us reduce the possiblity of failure modes that would negatively impact the business.
+- Addressing tech debt can be risk work when it helps us reduce the possibility of failure modes that would negatively impact the business.
 
 Here are questions to ask whenever you hear the phrase "tech debt":
 

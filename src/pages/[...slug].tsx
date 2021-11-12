@@ -1,7 +1,7 @@
 import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
+import { NextSeo } from 'next-seo'
 import ErrorPage from 'next/error'
-import Head from 'next/head'
 import { useRouter } from 'next/router'
 import React, { useEffect, useRef } from 'react'
 
@@ -99,9 +99,7 @@ export default function Page({ page }: PageProps): JSX.Element {
 
     return (
         <>
-            <Head>
-                <title>{page.title}</title>
-            </Head>
+            <NextSeo title={page.frontMatter?.title || page.title} description={page.frontMatter?.description} />
             <div className="container">
                 <nav id="right-sidebar">
                     <section className="right-sidebar-section" ref={tocReference}>
@@ -139,6 +137,13 @@ export default function Page({ page }: PageProps): JSX.Element {
                                 data-swiftype-type="text"
                                 dangerouslySetInnerHTML={{ __html: page.content }}
                                 ref={markdownBodyReference}
+                            />
+                            {/* Related content */}
+                            <script
+                                data-st-module="em_uRFPahAtp2Z--FzaaYyq"
+                                src="//s.swiftypecdn.com/modules/v1/embed.js"
+                                async={true}
+                                defer={true}
                             />
                         </>
                     ) : (
