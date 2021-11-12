@@ -70,7 +70,7 @@ Recent key learnings:
 
 ### Competitive landscape
 
-- **Code hosts:** The most relevant code hosts have navigation features, mostly powered by imprecise code intelligence. They have good out-of-the-box support, but their chosen technical path prioritizes wider language breath sacrificing accuracy. Our precise code intelligence approach focuses on having 100% accuracy by implementing LSIF indexers. So far none of our competitors have mimicked the approach, but as precise code navigation gains traction this is a potential risk.
+- **Code hosts:** Both GitHub and GitLab have navigation features, mostly powered by imprecise code intelligence. They have good out-of-the-box support, but their chosen technical path prioritizes wider language breath sacrificing accuracy. Our precise code intelligence approach focuses on having 100% accuracy by implementing LSIF indexers. So far none of our competitors have mimicked the approach, but as precise code navigation gains traction this is a potential risk.
 - **IDEs:** Code navigation is a core part of a developer’s workflow and most IDEs have advanced navigation features we cannot avoid competing with. Most developers expect Sourcegraph’s code navigation to have feature parity with their favorite IDE.
 - **Other navigation tools:** These are usually focused on a small scope of languages, none of them have reached wide usage or compete directly with our current value proposition yet.
 
