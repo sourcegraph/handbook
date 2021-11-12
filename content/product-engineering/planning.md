@@ -17,12 +17,12 @@
 
 We go through this full process in Q4 and a lightweight version of this every quarter to review and make necessary updates.
 
-| Week of quarter | Action                                                                                                                                    |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Week 2          | Draft annual vision document for next year<li>VPP/VPE draft annual vision doc                                                             |
-| Week 3          | Gather input from stakeholders<li>VPP/VPE get feedback from exec team and key stakeholders                                                |
-| Week 4          | Update annual vision <li>VPP/VPE update annual vision draft based on feedback                                                             |
-| Week 5          | Share & gather feedback <li>VPP/VPE share annual vision with Product/Eng Directors and gather feedback                                    |
+| Week of quarter | Action                                                                                                                                                         |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Week 2          | Draft annual vision document for next year<li>VPP/VPE draft annual vision doc                                                                                  |
+| Week 3          | Gather input from stakeholders<li>VPP/VPE get feedback from exec team and key stakeholders                                                                     |
+| Week 4          | Update annual vision <li>VPP/VPE update annual vision draft based on feedback                                                                                  |
+| Week 5          | Share & gather feedback <li>VPP/VPE share annual vision with Product/Eng Directors and gather feedback                                                         |
 | Week 6          | Finalize annual vision document <ul> <li>VPs update and finalize based on feedback</li> <li>Annual vision added to handbook & communicated on Slack</li> </ul> |
 
 ### Quarterly planning process
