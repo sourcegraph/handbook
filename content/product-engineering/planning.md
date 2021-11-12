@@ -19,10 +19,10 @@ We go through this full process in Q4 and a lightweight version of this every qu
 
 | Week of quarter | Action                                                                                                                                                         |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Week 2          | Draft annual vision document for next year<li>VPP/VPE draft annual vision doc                                                                                  |
-| Week 3          | Gather input from stakeholders<li>VPP/VPE get feedback from exec team and key stakeholders                                                                     |
-| Week 4          | Update annual vision <li>VPP/VPE update annual vision draft based on feedback                                                                                  |
-| Week 5          | Share & gather feedback <li>VPP/VPE share annual vision with Product/Eng Directors and gather feedback                                                         |
+| Week 2          | Draft annual vision document for next year <ul> <li>VPP/VPE draft annual vision doc</li> </ul>                                                                                  |
+| Week 3          | Gather input from stakeholders <ul> <li>VPP/VPE get feedback from exec team and key stakeholders</li></ul>                                                                     |
+| Week 4          | Update annual vision <ul> <li>VPP/VPE update annual vision draft based on feedback</li></ul>                                                                                  |
+| Week 5          | Share & gather feedback <ul> <li>VPP/VPE share annual vision with Product/Eng Directors and gather feedback</li></ul>                                                          |
 | Week 6          | Finalize annual vision document <ul> <li>VPs update and finalize based on feedback</li> <li>Annual vision added to handbook & communicated on Slack</li> </ul> |
 
 ### Quarterly planning process
@@ -30,12 +30,12 @@ We go through this full process in Q4 and a lightweight version of this every qu
 This is the planning process we do each quarter.
 | Week | Action |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Week 7 of current quarter<br>5 weeks until next quarter | Gather input from stakeholders on upcoming priorities <li>VPP/VPE gather input from exec team on important problems to solve next quarter <li>Product/Eng Directors gather input from teams on next quarter priorities |
-| Week 8 of current quarter<br>4 weeks until next quarter | Draft department level OKRs <li>VPP/VPE & Product/Eng Directors create first draft of OKRs during [VP team sync](team.md#vp-team-sync)<li>VPP/VPE share with exec team and integrate feedback<li>Product/Eng Directors share with their orgs and integrate feedback |
-| Week 9 of current quarter<br>3 weeks until next quarter | Revise department level OKRs<li>VPP/VPE & Product/Eng Directors discuss and revise OKRs during [VP team sync](team.md#vp-team-sync)<li>VPP/VPE share updates with exec team and integrate feedback<li>Product/Eng Directors share updates with their orgs and integrate feedback |
-| Week 10 of current quarter<br>2 weeks until next quarter | Finalize OKRs<li>VPP/VPE & Product/Eng Directors align on final OKRs during [VP team sync](team.md#vp-team-sync)<li>VPP/VPE get exec team buy in to finalize and approve OKRs<li>OKRs added to the handbook and [company strategy and sub-pages](../company/strategy/index.md) updated & communicated on Slack |
-| Week 12 of current quarter<br>1 week until next quarter | End of quarter retrospective<li>VPP/VPE & Product/Eng Directors retro previous quarter<li>VPP/VPE and CTO team retro previous quarter & finalize OKR scorecard |
-| Week 1 of new quarter | Kick off new quarter<li>VPP/VPE share previous quarter OKR scorecard to Product/Eng Department <li>Communicate department OKRs for upcoming quarter at Company kick off |
+| Week 7 of current quarter<br>5 weeks until next quarter | Gather input from stakeholders on upcoming priorities <ul> <li>VPP/VPE gather input from exec team on important problems to solve next quarter</li> <li>Product/Eng Directors gather input from teams on next quarter priorities</li> </ul> |
+| Week 8 of current quarter<br>4 weeks until next quarter | Draft department level OKRs <ul> <li>VPP/VPE & Product/Eng Directors create first draft of OKRs during [VP team sync](team.md#vp-team-sync)</li> <li>VPP/VPE share with exec team and integrate feedback</li> <li>Product/Eng Directors share with their orgs and integrate feedback</li> </ul> |
+| Week 9 of current quarter<br>3 weeks until next quarter | Revise department level OKRs<ul> <li>VPP/VPE & Product/Eng Directors discuss and revise OKRs during [VP team sync](team.md#vp-team-sync)<li>VPP/VPE share updates with exec team and integrate feedback</li> <li>Product/Eng Directors share updates with their orgs and integrate feedback</li> </ul> |
+| Week 10 of current quarter<br>2 weeks until next quarter | Finalize OKRs<ul> <li>VPP/VPE & Product/Eng Directors align on final OKRs during [VP team sync](team.md#vp-team-sync)</li> <li>VPP/VPE get exec team buy in to finalize and approve OKRs</li> <li>OKRs added to the handbook & communicated on Slack</li> </ul> |
+| Week 12 of current quarter<br>1 week until next quarter | End of quarter retrospective<ul> <li>VPP/VPE & Product/Eng Directors retro previous quarter</li> <li>VPP/VPE and CTO team retro previous quarter & finalize OKR scorecard</li> </ul> |
+| Week 1 of new quarter | Kick off new quarter<ul> <li>VPP/VPE share previous quarter OKR scorecard to Product/Eng Department </li> <li>Communicate department OKRs for upcoming quarter at Company kick off</li> </ul> |
 
 ## Sharing progress
 
