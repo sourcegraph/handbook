@@ -60,3 +60,4 @@ This month, you will also switch to active participation in operational rotation
 - [Dev tools we love](dev-tools-we-love.md)
 - [Learning Resources](learning-resources.md)
 - [Tips and Tricks](tips-and-tricks.md)
+- [Sourcegraph Technical Background Info](https://docs.sourcegraph.com/dev/background-information)
