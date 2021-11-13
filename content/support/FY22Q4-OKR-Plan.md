@@ -16,11 +16,11 @@ To accomplish our OKR, we will…
 
 TO BE FILLED IN BY 2021-10-29.
 
-| #   | Status      | Responsible   | Project        |
-| --- | ----------- | ------------- | -------------- |
-| 1   | In-progress | CS leadership | Case reviews   |
-| 2   | In-progress | CS leadership | Healthy habits |
-| 3   | In-progress | Application engineers | Enablement |
+| #   | Status      | Responsible           | Project        |
+| --- | ----------- | --------------------- | -------------- |
+| 1   | In-progress | CS leadership         | Case reviews   |
+| 2   | In-progress | CS leadership         | Healthy habits |
+| 3   | In-progress | Application engineers | Enablement     |
 
 ## Task details
 
@@ -42,17 +42,18 @@ TO BE FILLED IN BY 2021-10-29.
 
 - Workgroup: All application engineers
 - Details: Each application engineer will work to complete as many enablement courses as possible and add them to our [enablement](enablement/index.md) page as they complete them. Our goal is to complete the following crash courses by end of November (and then more to come in December and January!):
-	- Perforce (Alex)
-	- RDS databases (Amber)
-	- GraphQL (Ben)
-	- Prometheus (Don)
-	- Scaling (Gabe)
-	- Code insights (Giselle)
-	- Docker/docker-compose migrations (Jason)
-	- CodeIntel (Kelvin)
-	- Docker/docker-compose deploy (Mariam)
-	- Kubernetes migrations (Michael)
-	- Marketplace extensions (Stompy)
-	- Kubernetes deploy (Warren)
 
-	A crash course is something lasting and referenced from the handbook ... either a video (harder to update over time but also super useful and/or written materials) ... so more like Youtube -- all at the application engineer's preference. It's okay for folks to experiment and see what works.
+  - Perforce (Alex)
+  - RDS databases (Amber)
+  - GraphQL (Ben)
+  - Prometheus (Don)
+  - Scaling (Gabe)
+  - Code insights (Giselle)
+  - Docker/docker-compose migrations (Jason)
+  - CodeIntel (Kelvin)
+  - Docker/docker-compose deploy (Mariam)
+  - Kubernetes migrations (Michael)
+  - Marketplace extensions (Stompy)
+  - Kubernetes deploy (Warren)
+
+  A crash course is something lasting and referenced from the handbook ... either a video (harder to update over time but also super useful and/or written materials) ... so more like Youtube -- all at the application engineer's preference. It's okay for folks to experiment and see what works.
