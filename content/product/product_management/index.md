@@ -63,14 +63,14 @@ Product Management and Marketing must work closely together to successfully crea
 
 TODO add link to source of this info
 
-| Product Marketing is DRI                                                                                 | Product Management is DRI                                                                              |
-| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [Customer-first](../../company/values#customer-first) with orientation towards market                    | [Customer-first](../../company/values#customer-first) with orientation towards product and engineering |
-| Providing important market context to the roadmap                                                        | Defining the roadmap                                                                                   |
-| Receives new product info and product updates from product management teams                              | Delivers new product info and product updates to product marketing team                                |
-| Responsible for aligning product packaging and messaging with market demands                             | Responsible for aligning product requirements with market demands                                      |
-| Defines key value props and messaging of new and updated products to sales, marketing, and support teams | Delivers technical aspects of new and updated products to product marketing team                       |
-| Closest allies are product management, marketing, and sales                                              | Closest allies are the development team, customer support, customer engineering, and product marketing |
+| Product Marketing is DRI                                                                                 | Product Management is DRI                                                                                 |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [Customer-first](../../company/values.md#customer-first) with orientation towards market                 | [Customer-first](../../company/values.md#customer-first) with orientation towards product and engineering |
+| Providing important market context to the roadmap                                                        | Defining the roadmap                                                                                      |
+| Receives new product info and product updates from product management teams                              | Delivers new product info and product updates to product marketing team                                   |
+| Responsible for aligning product packaging and messaging with market demands                             | Responsible for aligning product requirements with market demands                                         |
+| Defines key value props and messaging of new and updated products to sales, marketing, and support teams | Delivers technical aspects of new and updated products to product marketing team                          |
+| Closest allies are product management, marketing, and sales                                              | Closest allies are the development team, customer support, customer engineering, and product marketing    |
 
 Shared areas of ownership where both teams contribute are:
 
