@@ -7,7 +7,7 @@ Our objective this quarter is to:
 We will measure this via the following key results:
 
 - Anyone on the team will be able to review all open cases and say “yes” we are honoring [our guiding principles](index.md#guiding-principles) and [definitions of success](index.md#we-know-that-we-are-successful-when-we) at least 95% of the time (first test of this will be 2021-12-09 and weekly from there).
-- All application engineers will have a sentiment of at least a 2 in at least X% of the technical competency areas outlined in our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit?usp=sharing).
+- All application engineers will have a sentiment of at least a 2 in at least 60% of the technical competency areas outlined in our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit?usp=sharing).
 - All application engineers honor their weekly focus day at least 90% of the time and have taken at least 20-30 days off by the end of the quarter (20 for those who started in June/July; 30 for those who started in February/March).
 
 We will track our progress weekly in [our tracker](https://docs.google.com/spreadsheets/d/1bXOm-oj9VyQwQtIvEfTI3ZRlDV2G5mDCTPBVporbQI8/edit?usp=sharing).
@@ -20,9 +20,7 @@ TO BE FILLED IN BY 2021-10-29.
 | --- | ----------- | ------------- | -------------- |
 | 1   | In-progress | CS leadership | Case reviews   |
 | 2   | In-progress | CS leadership | Healthy habits |
-| 3   | TBD         | TBD           | TBD            |
-| 4   | TBD         | TBD           | TBD            |
-| 5   | TBD         | TBD           | TBD            |
+| 3   | In-progress | Application engineers | Enablement |
 
 ## Task details
 
@@ -40,23 +38,21 @@ TO BE FILLED IN BY 2021-10-29.
 - Workgroup: Brielle, Nonso, Tamar
 - Details: CS leadership will dig in with each member of the team to understand what needs to shift (mindset or practices) in order to make it easy to honor taking a focus day and taking time off as needed.
 
-### 3 TBD
+### 3 Enablement
 
-- Workgroup:
-- Facilitator:
-- Slack channel:
-- Details:
+- Workgroup: All application engineers
+- Details: Each application engineer will work to complete as many enablement courses as possible and add them to our [enablement](enablement/index.md) page as they complete them. Our goal is to complete the following crash courses by end of November (and then more to come in December and January!):
+	- Perforce (Alex)
+	- RDS databases (Amber)
+	- GraphQL (Ben)
+	- Prometheus (Don)
+	- Scaling (Gabe)
+	- Code insights (Giselle)
+	- Docker/docker-compose migrations (Jason)
+	- CodeIntel (Kelvin)
+	- Docker/docker-compose deploy (Mariam)
+	- Kubernetes migrations (Michael)
+	- Marketplace extensions (Stompy)
+	- Kubernetes deploy (Warren)
 
-### 4 TBD
-
-- Workgroup:
-- Facilitator:
-- Slack channel:
-- Details:
-
-### 5 TBD
-
-- Workgroup:
-- Facilitator:
-- Slack channel:
-- Details:
+	A crash course is something lasting and referenced from the handbook ... either a video (harder to update over time but also super useful and/or written materials) ... so more like Youtube -- all at the application engineer's preference. It's okay for folks to experiment and see what works.
