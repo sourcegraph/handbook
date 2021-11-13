@@ -2,6 +2,23 @@
 
 The following is available to help us honor our [ethos and guiding principles](../index.md) with ease and/or outgrow ourselves.
 
+## Foundation
+
+| Competency                      | Crash course | Hands-on |
+| ------------------------------- | ------------ | -------- |
+| CodeIntel                       | Go here      |          |
+| Code insights                   | Go here      |          |
+| Docker/docker-compose deploy    | Go here      |          |
+| Docker/docker-compose migration | Go here      |          |
+| GraphQL                         | Go here      |          |
+| Kubernetes deploy               | Go here      |          |
+| Kubernetes migration            | Go here      |          |
+| Marketplace extensions          | Go here      |          |
+| Prometheus                      | Go here      |          |
+| Perforce                        | Go here      |          |
+| RDS databases                   | Go here      |          |
+| Scaling                         | Go here      |          |
+
 ## Docs
 
 - [Values enablement](../support-values-enablement.md)
