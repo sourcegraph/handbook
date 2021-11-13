@@ -131,7 +131,7 @@ For what we have learned so far and how we are operationalizing those learnings,
 
 - The biggest issues customers face, and that we're addressing, are the yet-to-be-built product gaps. See the docs page for [Current Limitations of Code Insights](https://docs.sourcegraph.com/code_insights/explanations/current_limitations_of_code_insights) for an up-to-date list.
 - Internally, the main task for Code Insights is determining the pricing and packaging ([Pricing RFC](https://docs.google.com/document/d/1v-IH6FFdT2CfDv5QBEguSfjQvk2WvPrwRBaqCSq7g8Q/edit?pli=1#))
-- Code Insights has pings reliability issues due to the brittle analytic implementation in the early prototypes. We're currently fixing this and establishing [dedicated pings developer documentation](https://docs.sourcegraph.com/dev/background-information/insights/code_insights_pings). 
+- Code Insights has pings reliability issues due to the brittle analytic implementation in the early prototypes. We're currently fixing this and establishing [dedicated pings developer documentation](https://docs.sourcegraph.com/dev/background-information/insights/code_insights_pings).
 
 ### Competitive landscape
 
@@ -153,7 +153,7 @@ The next six months are focused on building a product that can quickly prove out
 
 #### FY22Q4
 
-- OKR: Get at least 1 Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature 
+- OKR: Get at least 1 Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature
 
 _See also [completed goals](../../../../engineering/code-graph/code-insights/goals_completed.md)_
 
