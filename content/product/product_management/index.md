@@ -65,7 +65,7 @@ TODO add link to source of this info
 
 | Product Marketing is DRI                                                                                 | Product Management is DRI                                                                              |
 | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Customer and market-facing                                                                               | Development and product-facing                                                                         |
+| [Customer-first](../../company/values#customer-first) with orientation towards market                                                                               | [Customer-first](../../company/values#customer-first) with orientation towards product and engineering    
 | Providing important market context to the roadmap                                                        | Defining the roadmap                                                                                   |
 | Receives new product info and product updates from product management teams                              | Delivers new product info and product updates to product marketing team                                |
 | Responsible for aligning product packaging and messaging with market demands                             | Responsible for aligning product requirements with market demands                                      |
