@@ -130,8 +130,9 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
-- [CS application engineer onboarding](customer-support-onboarding.md)
+- [Application engineer onboarding](customer-support-onboarding.md)
 - [Manager onboarding](customer-support-manager-onboarding.md)
+- [Career levels](cs-career-levels.md)
 - [Team README](bios/index.md)
 - [Team schedule](support-schedule.md)
 - [Organizational structure](support-org-structure.md)
