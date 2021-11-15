@@ -45,6 +45,7 @@ We don't expect everyone on the team to figure this out on their own. Other team
 - [Handbook Check Failures](handbook-check-failures.md)
 - [Running a Local Preview](run-a-local-preview.md)
 - [Handbook Editing FAQs](handbook-edit-faqs.md)
+- [Handbook Tips](../handbook-tips.md)
 
 ## Handbook feedback
 
