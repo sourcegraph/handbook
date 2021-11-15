@@ -23,7 +23,7 @@ To learn more about our goals, see the [Search Product strategy](../../../compan
 
 ## Team members
 
-- We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4003912004)) for this role. [Christina Forney](../../../company/team/index.md#christina-forney) is involved in the meantime to help Loïc with prioritiation decisions. All new requests for this team should be routed through the EM (as acting PM).
+- [Ben Venker](../../../company/team/index.md#ben-venker) ([Product Manager](../../roles.md#product-manager))
 - [Rob Rhyne](../../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../../company/team/index.md#quinn-keast) ([Product Designers](../../../product/roles/index.md#product-designer))
 - [Loïc Guychard](../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../../roles.md#engineering-manager)) {#search-product-eng} <!-- this anchor is used to render the eng org chart -->
   - [Rijnard van Tonder](../../../company/team/index.md#rijnard-van-tonder)
@@ -52,11 +52,11 @@ Iterations start every other Monday.
 
 #### Planning artifacts
 
-We use a [GitHub project](https://github.com/orgs/sourcegraph/projects/181) to plan iterations. If some items in the GitHub project are not closed by the end of the iteration, teammates should mention in their last weekly update of the iteration what this impact is on planned outcomes.
+We use ZenHub sprints to plan iterations. If some items in the ZenHub sprint project are not closed by the end of the iteration, teammates should mention in their last weekly update of the iteration what this impact is on planned outcomes.
 
 #### Planning a new iteration
 
-On the last Thursday of an iteration: - The EM for the team creates a section for planning discussion in the [team sync meeting notes doc](https://docs.google.com/document/d/1fozHWMTKKbs_5ojE_i9xfCLDqac8CSb6XXgYTJI9_0I/edit#). The EM and the team add any questions on missing context. - The team adds any relevant issues to the "next" column of the [planning board](https://github.com/orgs/sourcegraph/projects/181).
+On the last Thursday of an iteration: - The EM for the team creates a section for planning discussion in the [team sync meeting notes doc](https://docs.google.com/document/d/1fozHWMTKKbs_5ojE_i9xfCLDqac8CSb6XXgYTJI9_0I/edit#). The EM and the team add any questions on missing context. - The team adds any relevant issues to the "next" column of the [planning board](https://app.zenhub.com/workspaces/search-product-61302e38f801dc0012e2e050/board?labels=team%2Fsearch-product&repos=41288708).
 
 We have asynchronous discussion in the meeting notes document. On the first Monday of an iteration, during the team sync, we validate the current plan & the contents of the GitHub project together, thus officially starting the iteration.
 
