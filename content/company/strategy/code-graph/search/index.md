@@ -52,6 +52,8 @@ Search has achieved product market fit and is used by thousands of developers at
 
 Internally, as Sourcegraph’s offerings grow, search becomes increasingly critical to the success of other products and features. For example, Code Insights and Batch Changes rely on core functionality provided by search, and also feel the pain of its limitations. Search will strive to enable the success of other products and teams while maintaining focus on our core mission.
 
+[FY2021 Q4 Roadmap](https://app.productplan.com/pr/Gkvre8UGfdmM93rKHeVoGTP0ZboBns_s)
+
 For more details, see:
 
 - [Search Core strategy](./core.md)

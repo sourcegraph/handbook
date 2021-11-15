@@ -9,7 +9,7 @@ Total interview time: 5 hrs
    - [30 min] **Design collaboration**: Discuss your experiences cross-collaborating with a [Product Designer](../../../product_org.md)
    - [30 min] **Marketing collaboration**: Meet your a member of the [Marketing team](../../../../marketing/index.md#members)
    - [30 min] **Engineering collaboration**: Meet with an [Engineering manager](../../../../engineering/eng_org.md#planned-organization)
-   - [30 min] **Customer support collaboration**: Meet with [Virginia Ulrich](../../../../support/team-readmes/virginia-readme.md), Head of Customer Support
+   - [30 min] **Customer support collaboration**: Meet with [Virginia Ulrich](../../../../support/bios/virginia-readme.md), Head of Customer Support
    - [30 min] **Values interview**: Meet with someone from the Sourcegraph team (outside of your organization) to discover how you've demonstrated our values in the past.
 1. [30 min] **Final Call**: with [Beyang Liu](../../../../company/team/index.md#beyang-liu), CTO
 1. We make you a job offer!
