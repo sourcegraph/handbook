@@ -25,6 +25,7 @@ For any members of a hiring team, please see [this page](../index.md#the-talent-
 - We utilize LinkedIn Recruiter and TopFunnel as our sourcing platforms. Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](linkedin.md).
 - We use BrightHire to record our interviews. Learn more about BrightHire [here](./guide_to_using_brighthire.md).
 - We use Ashby as a metrics tool.
+- We use [Talentwall](guide-to-using-talentwall.md) for candidate pipeline management.
 
 ## Using external recruiting agencies
 
