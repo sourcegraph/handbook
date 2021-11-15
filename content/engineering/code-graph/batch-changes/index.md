@@ -57,6 +57,7 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
   - [Adam Harvey](../../../company/team/index.md#adam-harvey)
   - [Erik Seliger](../../../company/team/index.md#erik-seliger)
   - [Kelli Rockwell](../../../company/team/index.md#kelli-rockwell)
+  - [Adeola Akinsiku](../../../company/team/index.md#adeola-akinsiku)
 
 ## Growth plan
 
