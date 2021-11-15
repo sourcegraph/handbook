@@ -1,5 +1,11 @@
 # Product and engineering strategy
 
+## FY23
+
+[Our top-level company strategy for next year is a work-in-progress](https://docs.google.com/document/d/11ot7RoJ18mmjeP8Zb4TJMJsdQf5ZmGErkPq1VDW80d4/edit#).
+
+## FY22 Q4
+
 Sourcegraph is a product that developers love, and once we land inside an organization usage grows organically! To set us up to grow our business in FY23 we need to repeatably drive more users to the point where they are using Sourcegraph on their private code with their team. To achieve this outcome, we are going to pursue three strategic objectives in FQ4.
 
 - Accelerate and improve results of sales process
