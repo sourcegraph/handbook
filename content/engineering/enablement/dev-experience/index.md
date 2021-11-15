@@ -31,7 +31,7 @@ _This section is a work in progress._
 - **GitHub**: [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team.
   - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](https://github.com/orgs/sourcegraph/projects/212).
 
-> NOTE: When referring to this team, prefer to use *Dev Experience* or *DevX* - only use *developer experience* or *dx* when referring to developer experience in general.
+> NOTE: When referring to this team, prefer to use _Dev Experience_ or _DevX_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
 
 ## Processes
 
