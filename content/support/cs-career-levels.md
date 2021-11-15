@@ -128,7 +128,7 @@ Promotions from one level to another are considered in our quarterly talent revi
     <!-- IC1 -->
     <tr>
       <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
-      <td colspan="3" class="level-summary">You are focused on learning, growth, and establishing yourself as a contributing member of the support team.</td>
+      <td colspan="3" class="level-summary">You are focused on learning, growth, and establishing yourself as a contributing member of the team.</td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
