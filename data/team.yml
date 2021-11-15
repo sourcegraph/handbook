@@ -2052,3 +2052,12 @@ olivia_simpson:
   role: Program Manager, Demand Generation Campaigns
   location: New York, NY, USA
   description: Olivia is originally from Park Ridge, IL, but now lives in Manhattan with her fluffy corgi. Prior to joining Sourcegraph, Olivia held different roles at high-growth startups, where she discovered a passion for demand generation marketing. In her free time, she enjoys walking her dog in Central Park, meeting up with friends, and finding fun new Peloton rides to try!
+
+amy_johnson:
+  name: Amy Johnson
+  email: amy.johnson@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/amy-johnson-2367a4137/)'
+  github: amyjohnsonSG
+  role: Accountant
+  location: Trabuco Canyon, CA, USA
+  description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
