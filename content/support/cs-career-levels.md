@@ -41,7 +41,7 @@ Promotions from one level to another are considered in our quarterly talent revi
     --category-color: var(--proficiency-color);
   }
   .delivery {
-    --category-color: var(--execution-color);
+    --category-color: var(--delivery-color);
   }
   .teamwork {
     --category-color: var(--teamwork-color);
