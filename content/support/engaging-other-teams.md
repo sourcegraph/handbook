@@ -11,12 +11,12 @@ When we need help, we seek it consistently, following the steps outlined here. W
 It can feel a little weird at first. Everyone else is just working Slack, why can't I? That is not true. As we grow and scale, every team gets to have a say in how they are engaged. For example, Marketing has a form, so too does recruiting. This is what helps engineering scale and it also helps us! A few more reasons to help this make sense:
 
 1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into Github helps us suss out our performance as well as room for growth.
-2. Most of the the things we need to ask are not one and done ... they so quickly turn into long back and forth given that most questions require that level of attention and are just tricky enough; so even a simple question (if it's related to a case) counts.
+2. Most of the things we need to ask are not one and done ... they so quickly turn into long back and forth given that most questions require that level of attention and are just tricky enough; so even a simple question (if it's related to a case) counts.
 3. Engineering works in Github and while Slack is great, it's more helpful if they can refer to a Github issue to pick up where they left off, etc. This is also helpful for us for our long running cases.
 4. The #ask-product-eng Slack channel doesn't have a SLA. So if a question is meant to help a customer, we lose all mechanisms for accountability to make sure we are getting responses back in line with our SLAs to be sure customers are not left hanging.
 5. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the Github issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc.
 
-At no point are we meant to be gate keepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-product-eng Slack channel is for!
+At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-product-eng Slack channel is for!
 
 And that may make you wonder when an application engineer would use the #ask-product-eng Slack channel. Simple, not for anything attached to a case. Longer answer:
 
@@ -81,7 +81,7 @@ EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 - `CVS` should be routed to the [Batch Changes team](../engineering/code-graph/batch-changes/index.md)
 - `license enforcement/management` should be routed to the [Batch Changes team](../engineering/code-graph/batch-changes/index.md) (though these should always go through the CE)
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be rounted to the [Extensibility team](../engineering/cloud/extensibility/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Extensibility team](../engineering/cloud/extensibility/index.md).
 
 ### Repository permissions
 
@@ -145,14 +145,14 @@ Any questions about Code Insights should be routed to the [Code Insights Team](.
 
 ## Step 4: File a Github issue
 
-It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering work load planning, and our team's experience.
+It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering workload planning, and our team's experience.
 
 ### Select the right issue tracker
 
 We maintain two issue trackers:
 
-1. [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) for private issues that affect a particular customer and our requests for help (RFHs).
-2. [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph/issues) for public issues affecting the general product.
+1. [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) for private issues/questions that affect a particular customer and all requests for help (RFHs).
+2. [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph/issues) for public issues affecting the general product (you may file one at the end of the case, but usually you start with the customer repo while you work to understand if the issue is a defect that would affect other customers).
 
 When in doubt, file in the private repo—issues can be moved over to the public repo if needed. And remember, a customer includes those we are working with during the sales process (not just those who have already signed a contract with us).
 
@@ -160,11 +160,11 @@ When in doubt, file in the private repo—issues can be moved over to the public
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 - Include Sourcegraph version number.
 - Include name of the extension along with the extension version number when filing issues with the extensibility team.
-- Include customer quotes in mark down using a quote block. For example, `> quote goes here.`
-- Label it with `customer/$name` and `rfh`.
+- Include customer quotes in markdown using a quote block. For example, `> quote goes here.`
+- Label it with `customer/$name` and `rfh (request for help from CS)`.
 - Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.
 
-If it turns our to be a general issue affecting multiple deployments, create an issue in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose). The issue must not include any private information. It is okay to link any relevant private, customer specific issues. If not already linked to the relevant Zendesk tickets, do so.
+If it turns out to be a general issue affecting multiple deployments, create an issue in the [public issue tracker](https://github.com/sourcegraph/sourcegraph/issues/new/choose). The issue must not include any private information. It is okay to link any relevant private, customer specific issues. If not already linked to the relevant Zendesk tickets, do so.
 
 ### Add the priority label
 
