@@ -2,6 +2,10 @@
 
 In order to have good security and risk mitigation practices, only a subset of our application engineers have access to managed instances. If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, Mariam, and Kelvin. One of them can help!
 
+A quick note before reading the rest of this page: Customers with managed instances cannot pull their own logs, and in many cases, the customer we're dealing with is not a site-admin, so they can't access site-admin priveleges either. 
+
+Please make absolute sure regardless of the customer, that they are not working with a managed instance. If they are, and you are unaware, asking for logs may end up sounding like a silly question to them, and cause the customer to lose confidence in our ability as Application Engineers. If you are unsure after looking through salesforce and looker whether a customer does or does not have a managed instance, please reach out to Don, Jason, Mariam or Kelvin and they will be able to confirm for you. 
+
 If you are an application engineer being trained to work with managed instances, read ahead.
 
 ## Required access
