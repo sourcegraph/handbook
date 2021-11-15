@@ -51,7 +51,7 @@ The following places are not sources of truth. Treat documents and conversations
 
 #### Scheduling meetings with Google Calendar
 
-Before you start, please make sure you've [configured your Google Calendar settings](../people-ops/onboarding/general_onboarding.md#configure-google-calendar) as described in the onboarding guidelines.
+Before you start, please make sure you've [configured your Google Calendar settings](https://handbook.sourcegraph.com/company/remote/teammate-recommended_productivity_hacks#configure-google-calendar) as described in the onboarding guidelines.
 
 - When creating the Google Calendar event:
   - Use the "Find a Time" feature to see when you and other meeting attendees are all available.
