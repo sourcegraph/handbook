@@ -61,7 +61,6 @@ Product Management collaborates with a lot of different groups. Beyond our share
 
 Product Management and Marketing must work closely together to successfully create and launch products. Because of this, it's important to be clear on what the shared and unique responsibilities are within the working relationship.
 
-
 | Product Marketing is DRI                                                                                 | Product Management is DRI                                                                                 |
 | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | [Customer-first](../../company/values.md#customer-first) with orientation towards market                 | [Customer-first](../../company/values.md#customer-first) with orientation towards product and engineering |
