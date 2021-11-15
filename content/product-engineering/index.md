@@ -6,7 +6,7 @@ The roles of [Product](../product/index.md) and [Engineering](../engineering/ind
 
 ## Index
 
-- [Current direction](direction.md)
+- [Current strategy](strategy.md)
 - [Planning process](planning.md)
 - [Current team](team.md)
 
