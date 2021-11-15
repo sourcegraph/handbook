@@ -68,9 +68,9 @@ export default function Index({ allPages, tree }: IndexProps): JSX.Element {
 
                 <h2>Pages without backlinks: {pagesWithoutBacklinks.length}</h2>
                 <ul>
-                    {pagesWithoutBacklinks.map(p => (
-                        <li>
-                            <a href={`/${p.slugPath}`}>{p.title}</a> ({p.path})
+                    {pagesWithoutBacklinks.map(page => (
+                        <li key={page.path}>
+                            <a href={`/${page.slugPath}`}>{page.title}</a> ({page.path})
                         </li>
                     ))}
                 </ul>
