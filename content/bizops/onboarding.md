@@ -8,7 +8,7 @@ Welcome! We're so excited to have you join the BizOps team. This document outlin
 
 You'll have to get some basics set up in your first few days:
 
-- Complete the [general onboarding](../people-ops/onboarding/general_onboarding.md).
+- Complete the [Process St onboarding](https://app.process.st/reports/).
 
 ### Understand company and team mission, values and goals
 
