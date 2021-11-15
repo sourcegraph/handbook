@@ -12,7 +12,7 @@ There are currently seven levels for support at Sourcegraph. A level is composed
 
 It’s important to understand that what is listed in the level descriptions are example behaviors, and not checkboxes for promotion. Doing everything listed there is neither necessary nor sufficient for a promotion. The expectation is that you demonstrate a level of impact consistently over a span of months within each of the category descriptions for your level. The [magnitude of your impact](https://about.sourcegraph.com/blog/software-engineer-career-paths/) is ultimately the measure of your career growth.
 
-In most cases, a level builds on the expectations from the preceding levels: someone at level 2 must also meet the level 1 expectations. In addition to what is listed there, we expect support engineers at all levels to exhibit [our Sourcegraph values](../../company/values.md).
+In most cases, a level builds on the expectations from the preceding levels: someone at level 2 must also meet the level 1 expectations. In addition to what is listed there, we expect support engineers at all levels to exhibit our Sourcegraph company values.
 
 Rather than precede each bullet point with “consistently,” we leave it as implicit and we define this as _X happening consistently over a period of at least 3-6 months_. It’s great to do something once, but the real measure of impact is if you are able to do that again and again over a substantial enough period of time.
 
