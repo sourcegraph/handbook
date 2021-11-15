@@ -32,6 +32,7 @@
 - [Career development](career-development/index.md)
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
+- [Core Application Operational Rotation](core-application/operational-rotation.md)
 
 ## Org chart
 
