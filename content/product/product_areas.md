@@ -65,7 +65,7 @@ You may also be interested in seeing our [feature maturity](feature_maturity.md)
 - Product Manager: [Bill Creager](../company/team/index.md#bill-creager)
 - Issue labels: [team/devops](https://github.com/sourcegraph/sourcegraph/labels/team/devops)
 
-### Developer Experience
+### Dev Experience
 
 - Product Manager: [Taylor Sperry](../company/team/index.md#taylor-sperry)
 - Issue labels: [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team/dev-experience)

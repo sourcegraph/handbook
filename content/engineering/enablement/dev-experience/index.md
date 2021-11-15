@@ -1,22 +1,28 @@
-# Developer Experience team
+# Dev Experience team
 
-The Developer Experience team (part of the [Enablement](../index.md) org) is a team focused on improving the developer experience of Sourcegraph.
+The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph as part of the [Enablement](../index.md) org.
 
 ## Members
 
 - [Taylor Sperry](../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy) (acting [Engineering Manager](../../roles.md#engineering-manager))
+- Kristen Stretch ([Engineering Manager](../../roles.md#engineering-manager))
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
   - [JH Chabran](../../../company/team/index.md#jh-chabran)
   - [Robert Lin](../../../company/team/index.md#robert-lin)
 
-## Strategy
+## [Strategy](../../../company/strategy/enablement/dev-experience/index.md)
 
-See the [Developer Experience team strategy](../../../company/strategy/enablement/dev-experience/index.md) to learn about our vission, mission, guiding principles, and overall direction.
+- [Mission](../../../company/strategy/enablement/dev-experience/index.md#mission)
+- [Vision](../../../company/strategy/enablement/dev-experience/index.md#vision)
+- [Guiding principles](../../../company/strategy/enablement/dev-experience/index.md#guiding-principles)
+- [Measuring success](../../../company/strategy/enablement/dev-experience/index.md#measuring-success)
+- [Roadmap](../../../company/strategy/enablement/dev-experience/index.md#roadmap)
 
 ## Responsibilities
 
-TODO
+_This section is a work in progress._
+
+- [Continuous integration playbook](../../incidents/playbooks/ci.md)
 
 ## Contact
 
@@ -24,6 +30,8 @@ TODO
 - **[Support](#support)**: `@dev-experience-support` in Slack
 - **GitHub**: [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team.
   - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](https://github.com/orgs/sourcegraph/projects/212).
+
+> NOTE: When referring to this team, prefer to use *Dev Experience* or *DevX* - only use *developer experience* or *dx* when referring to developer experience in general.
 
 ## Processes
 
@@ -35,10 +43,6 @@ To collaborate, we use the following:
 - [Newsletter](https://docs.google.com/document/d/1O5iUZ3cQ4c7sGhlFHDW2MXpfgLzIPFszN1jgXFUKNRo/edit#)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
 - [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
-
-Playbooks maintained by the team:
-
-- [CI playbook](../../incidents/playbooks/ci.md)
 
 ### Work allocation
 
