@@ -99,6 +99,13 @@ Slides:
 - [FY22 Q4 (current week)](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gfca47eca53_0_184)
 - [FY22 Q4 (week over week history)](https://docs.google.com/presentation/d/1d36d47VFSZzQWIhdkZt3JZ3pNUk766yy8iwkFfVpTyY/edit)
 
+### Weekly team updates
+
+These are due each Friday by 19:00 UTC.
+
+- Update the [GitHub project tracker](#github-project-tracker)
+- Update the [OKR slides](#okr-slides)
+
 ### Monthly team updates
 
 Monthly team updates communicate a high-level narrative/summary to the rest of the company about what each team in product/eng accomplished since the last monthly update and what is up next.
