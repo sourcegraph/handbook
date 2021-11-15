@@ -1,12 +1,12 @@
 # Planning
 
-Planning is a continuous negotiation between product and engineering. Teams should review the [strategy page for their area](../../company/strategy/index.md#per-area-strategy-pages) weekly with the [Product Manager](../roles/index.md#product-manager) and update it at least monthly. The roadmap will become less specific and focus more on the problems we are looking to solve the further out it gets because we expect to learn a lot between defining the problem and implementation. As implementation details change and we learn more about the solution to the problem we are aiming to solve, the product manager is responsible for communicating clearly what changes.
+Planning is a continuous negotiation between product and engineering. Teams should review the [strategy page for their area](../../company/strategy/index.md#per-team-strategy-pages) weekly with the [Product Manager](../roles/index.md#product-manager) and update it at least monthly. The roadmap will become less specific and focus more on the problems we are looking to solve the further out it gets because we expect to learn a lot between defining the problem and implementation. As implementation details change and we learn more about the solution to the problem we are aiming to solve, the product manager is responsible for communicating clearly what changes.
 
 [Pricing features](pricing.md) is a complicated topic and has its own page.
 
 ## Product / eng team backlogs
 
-You can find the backlogs for the product teams by visiting their [individual strategy pages](../../company/strategy/index.md#per-area-strategy-pages). Teams are using different tools and processes to plan and track their work such as Jira, Productboard, or GitHub issues.
+You can find the backlogs for the product teams by visiting their [individual strategy pages](../../company/strategy/index.md#per-team-strategy-pages). Teams are using different tools and processes to plan and track their work such as Jira, Productboard, or GitHub issues.
 
 ## Planning artifacts
 
@@ -18,7 +18,7 @@ Planning requires several artifacts for communicating. This section clarifies ho
 
 ### Strategy Pages
 
-[The per-team strategy pages](../../company/strategy/index.md#per-area-strategy-pages) are a roadmap where we track and prioritize larger projects that we intend to finish in the next 3-12 months.
+[The per-team strategy pages](../../company/strategy/index.md#per-team-strategy-pages) are a roadmap where we track and prioritize larger projects that we intend to finish in the next 3-12 months.
 
 Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
 

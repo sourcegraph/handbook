@@ -51,7 +51,7 @@ The following places are not sources of truth. Treat documents and conversations
 
 #### Scheduling meetings with Google Calendar
 
-Before you start, please make sure you've [configured your Google Calendar settings](../people-ops/onboarding/general_onboarding.md#configure-google-calendar) as described in the onboarding guidelines.
+Before you start, please make sure you've [configured your Google Calendar settings](../handbook/editing/add-yourself-to-team-page.md) as described in the onboarding guidelines.
 
 - When creating the Google Calendar event:
   - Use the "Find a Time" feature to see when you and other meeting attendees are all available.
@@ -148,7 +148,7 @@ If you need to deprecate just part of a Google Doc, replace the deprecated porti
 ## Handling conflicts
 
 - [Conflict resolution](./conflicts.md)
-- [Clean escalation](./conflicts.md#clean-resolution)
+- [Clean escalation](./conflicts.md#clean-escalation)
 - [Customer ethics policy](customer_ethics.md)
 
 ## Brain Food

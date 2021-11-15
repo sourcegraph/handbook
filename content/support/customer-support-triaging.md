@@ -9,6 +9,8 @@ What this means is that the customer issue needs to be understood before it’s 
 
 In order to set-up the team for success meeting our internal 1-hour SLA, it is critical that the triage team triages every ticket that comes in within ~10 minutes of it coming in.
 
+That said, there may be times when we have unusally large amount of work or more folks are out than normal and it is fine customers have to wait. In such [situations](<support-prioritization.md#:~:text=When%20we%20have%20an%20unusually%20large%20amount%20of%20work%20or%20more%20folks%20are%20out%20than%20normal%2C%20it%20is%20fine%20if%20customers%20(including%20pre-sales)%20have%20to%20wait.%20In%20such%20situations%2C%20we%20will%20communicate%20proactively%2C%20letting%20them%20know%20that%20we%20have%20team%20members%20arriving%20in%20another%20few%20hours%20who%20will%20be%20able%20to%20help%20them.>), the person triaging can help set expectations and invite the customer to share whether there is more urgency than may be immediately apparent.
+
 ## How to triage like a pro
 
 - **Step 1:** In the triage view, the first step is to open a ticket and understand the context of the message. Slow down and have a closer look at the content and the medium from which the message originated (emails tend to be rare). Is this related to another open issue? Is this a new issue? Is this not an issue at all?
@@ -28,7 +30,7 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
   - handle anything related to security for a customer without a CE
   - handle a feature request for a customer without a CE
 
-  If there is no action for CS, go to step 8. There is no action for CS if the action is to:
+  If there is no action for CS, go to step 9. There is no action for CS if the action is to:
 
   - handle anything related to licensing
   - handle anything related to security for a customer with a CE
@@ -39,15 +41,17 @@ In order to set-up the team for success meeting our internal 1-hour SLA, it is c
 
   If it's from the Hubspot form and for marketing, engage them in the #marketing Slack channel and @ mention @marketing-operations.
 
-- **Step 4:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision.
+- **Step 4:** If it's from Hubspot, change the subject to "Sourcegraph help request"
 
-- **Step 5:** On the left panel, under _Tags_, select, _triaged_.
+- **Step 5:** Leave an internal note that says "In CS queue for helping" and share any other context for the team. This note also syncs to Salesforce so that CEs know our triaging decision.
 
-- **Step 6:** On the left panel, under the _Select Assignee_ tab, pick _Assign to this group_ and submit the ticket as open -- this will make sure the ticket lands in the _Unassigned queue_ (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).
+- **Step 6:** On the left panel, under _Tags_, select, _triaged_.
 
-- **Step 7:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take.
+- **Step 7:** On the left panel, under the _Select Assignee_ tab, pick _Assign to this group_ and submit the ticket as open -- this will make sure the ticket lands in the _Unassigned queue_ (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).
 
-- **Step 8:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
+- **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take.
+
+- **Step 9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
 ## FAQs
 

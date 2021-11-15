@@ -67,7 +67,7 @@ As a next step, please:
 
 Interview process / hiring team:
 
-- [30m] [Recruiter screen](./types_of_interviews.md#sts=Recruiter%20screen): \_\_
+- [30m] [Recruiter screen](./types_of_interviews.md#recruiter-screen): \_\_
 - [30-60m] [Hiring Manager screen](./types_of_interviews.md#hiring-manager-screen): \_\_
 - Assignment, if applicable: \_\_
 - In-depth Interview Stage:
@@ -148,4 +148,4 @@ Resources to learn more about using your LinkedIn Recruiter License:
 
 Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
 
-[Here's](https://docs.google.com/presentation/d/1cwPWbk_w2uRWsz_DuUJy_Jz_pVuSpM6pmZnfPU6cf4c/edit#slide=id.p2) a guide on creating a Recruiting Outreach Campaign.
+[Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.

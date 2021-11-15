@@ -1,7 +1,7 @@
 import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
+import { NextSeo } from 'next-seo'
 import ErrorPage from 'next/error'
-import Head from 'next/head'
 import { useRouter } from 'next/router'
 import React, { useEffect, useRef } from 'react'
 
@@ -99,9 +99,7 @@ export default function Page({ page }: PageProps): JSX.Element {
 
     return (
         <>
-            <Head>
-                <title>{page.title}</title>
-            </Head>
+            <NextSeo title={page.frontMatter?.title || page.title} description={page.frontMatter?.description} />
             <div className="container">
                 <nav id="right-sidebar">
                     <section className="right-sidebar-section" ref={tocReference}>
@@ -228,8 +226,11 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 export const getStaticPaths: GetStaticPaths = async () => {
     const pages = await loadAllPages(['slug'])
 
+    // Omit the root index path because it's rendered by `index.tsx`.
+    const pagesWithoutRootIndex = pages.filter(page => page.slugPath !== '')
+
     const paths = {
-        paths: pages.map(post => ({
+        paths: pagesWithoutRootIndex.map(post => ({
             params: {
                 // The slug is an array of directories in the path.
                 slug: post.slugPath.split('/'),
