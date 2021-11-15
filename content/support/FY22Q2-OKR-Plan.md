@@ -8,7 +8,7 @@ In support of our product/engineering Q2 objective to _provide a solid organizat
 4. 🚫 (we completed 30 updates in Q2 and will have a similar task for Q3) Make at least 50 doc updates/additions based on tickets that the team resolves (where a doc would have helped resolve it faster)
 5. ✅ Complete how-to troubleshooting documentation for at least 5 of the most common issues we see from some combination of issues resulting from distribution, core app, search, and/or extensibility ([dirty database](https://docs.sourcegraph.com/admin/how-to/dirty_database),[gather Kubernetes logs](https://github.com/sourcegraph/sourcegraph/pull/21901), [troubleshooting extensions](https://github.com/sourcegraph/sourcegraph/pull/21720), [monitoring guide](https://github.com/sourcegraph/sourcegraph/pull/20999), [pod evictions](https://github.com/sourcegraph/sourcegraph/pull/21374))
 6. ✅ Publish “what we test + recommend” document (aka “what we support)
-7. ✅ Receive crash course in at least 3 of these topics (available on our [enablement page](./support-enablement.md))
+7. ✅ Receive crash course in at least 3 of these topics (available on our [enablement page](enablement/index.md))
    1. Linking the basics of Sourcegraph to debugging.
    2. Something like starting with the basics of Sourcegraph, going into components of the product, then a high level intro of the more technical stuff on how to troubleshoot and debug.
    3. Anything that would give us a solid grasp of where to get started with a variety of issues, walkthroughs of various tools we can use (or have customers use), like how to use Grafana to troubleshoot customer issues like xyz…

@@ -25,7 +25,6 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 - [Brielle Collins](../company/team/index.md#brielle-collins), Manager
 
-  - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
   - [Gabe Torres](../company/team/index.md#team#gabe-torres)
   - [Mariam Adedeji](../company/team/index.md#mariam-adedeji)
   - [Michael Bali](../company/team/index.md#michael-bali)
@@ -39,12 +38,11 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
   - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
 - [Tamar Joyeux](../company/team/index.md#tamar-joyeux), Manager
   - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste)
-  - [Beatrix Woo](../company/team/index.md#beatrix-woo)
   - [Ben Gordon](../company/team/index.md#team#ben-gordon)
   - [Carl Hicks](../company/team/index.md#carl-hicks)
   - [Kelvin Lee](../company/team/index.md#kelvin-lee)
 
-More details about each team member in [our team READMEs](support-bios.md).
+More details about each team member in [our team READMEs](bios/index.md).
 
 ## We know that we are successful when we …
 
@@ -71,7 +69,7 @@ As I complete my first 90 days (if not sooner), I know I am successful in my day
 5. I resolve the cases for which I am responsible in 7 days or less (on average)
 6. I rarely have more than 5 active cases at a time
 7. I work toward team self-sufficiency by always asking my teammates for input/help before engaging engineering and by ensuring what I learn along the way is reflected in our docs or the handbook (whichever is most relevant)
-8. I provide a summary of my cases to populate our [resolved case database](zendesk-ticket-exporter.md)
+8. I provide a summary of my cases to populate our [resolved case database](enablement/zendesk-ticket-exporter.md)
 
 You can see how you are performing toward some of these metrics by determining your Zendesk assignee ID ([instructions](https://support.zendesk.com/hc/en-us/articles/360044278093-How-can-I-locate-an-agent-ID-in-Support-) and filtering [our Looker dashboard](https://sourcegraph.looker.com/dashboards-next/177) on your ID.
 
@@ -134,7 +132,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 - [CS application engineer onboarding](customer-support-onboarding.md)
 - [Manager onboarding](customer-support-manager-onboarding.md)
-- [Team README](support-bios.md)
+- [Team README](bios/index.md)
 - [Team schedule](support-schedule.md)
 - [Organizational structure](support-org-structure.md)
 - [Team rituals](support-team-rituals.md)
@@ -145,7 +143,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Engaging other teams](engaging-other-teams.md)
 - [Serving as messenger during incidents](../engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
-- [Enablement](support-enablement.md)
+- [Enablement](enablement/index.md)
 - [Tools](support-tools.md)
 - [Assigned application engineers](assigned-app-eng.md)
 - [Permanently deleting user data](permanently_deleting_user_data.md)

@@ -9,8 +9,8 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate.
 
-- [Editing the handbook](editing/index.md)
-- [Handbook usage](usage.md)
+- [Editing the handbook](handbook/editing/index.md)
+- [Handbook usage & principles](handbook/index.md)
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 - [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits) (or [this search](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/about%24+type:diff+rev:main) if you'd like to see diffs)
 
