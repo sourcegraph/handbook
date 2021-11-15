@@ -58,12 +58,23 @@ interface IndexProps {
     tree: DirectoryNode<ParsedPage>
 }
 export default function Index({ allPages, tree }: IndexProps): JSX.Element {
+    const pagesWithoutBacklinks = allPages.filter(page => page.backlinks.length === 0)
     return (
         <div className="container">
             <section id="content">
                 <h1>Handbook Dashboard</h1>
                 <h2>Statistics</h2>
                 <p>The handbook contains {allPages.length} pages.</p>
+
+                <h2>Pages without backlinks: {pagesWithoutBacklinks.length}</h2>
+                <ul>
+                    {pagesWithoutBacklinks.map(p => (
+                        <li>
+                            <a href={`/${p.slugPath}`}>{p.title}</a> ({p.path})
+                        </li>
+                    ))}
+                </ul>
+
                 <h2>Tree view</h2>
                 <ul>
                     <DirectoryItem node={tree} />
