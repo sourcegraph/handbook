@@ -41,7 +41,7 @@ Your manager will help you schedule the following training sessions:
   - On-prem deployment to Google BigQuery to Looker data flow
 - Sales and marketing data overview (focused on the data instead of the tools)
 - GitHub and git walk-through (Q&A)
-  - Read through the [git intro](../people-ops/onboarding/git_intro.md) and [add yourself](../people-ops/onboarding/general_onboarding.md#learn-how-to-contribute-to-the-handbook) to the team page
+  - Read through the [git intro](../people-ops/onboarding/git_intro.md) and [add yourself](https://handbook.sourcegraph.com/handbook/editing/add-yourself-to-team-page) to the team page
 
 ### Get to know fellow teammates
 
