@@ -1,6 +1,6 @@
 # Product and engineering direction
 
-Sourcegraph is a product that developers love, and once we land inside an organization usage grows organically! To set us up to grow our business by ~X (TODO update when finalized) in FY23 we need to repeatably drive more users to the point where they are using Sourcegraph on their private code with their team. To achieve this outcome, we are going to pursue three strategic objectives in FQ4.
+Sourcegraph is a product that developers love, and once we land inside an organization usage grows organically! To set us up to grow our business in FY23 we need to repeatably drive more users to the point where they are using Sourcegraph on their private code with their team. To achieve this outcome, we are going to pursue three strategic objectives in FQ4.
 
 - Accelerate and improve results of sales process
 - Expand the market for code search by providing clear value to new users and smaller customers
