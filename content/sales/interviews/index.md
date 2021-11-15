@@ -11,7 +11,7 @@ We publicly document our interview process for each of the different sales roles
 5. We schedule 2.5-hours of **remote interviews** over Zoom.
    - Part 1 (1 hour):
      - 30-miute **Resume deep-dive**: we take a deep dive into your background, past to present. Learn more about the resume deep dive [here](../../talent/types_of_interviews.md#resume-deep-dive).
-     - 10-minute **Mock cold call**: Pretend to be an SDR at Sourcegraph and pitch to a prospect of your choosing. Learn more about the Mock cold call [here](https://handbook.sourcegraph.com/talent/types_of_interviews#sdr-mock-cold-call). 
+     - 10-minute **Mock cold call**: Pretend to be an SDR at Sourcegraph and pitch to a prospect of your choosing. Learn more about the Mock cold call [here](https://handbook.sourcegraph.com/talent/types_of_interviews#sdr-mock-cold-call).
      - 5-minute homework assignment debrief
      - 15-minute open Q&A
    - Part 2 (1 hour):
