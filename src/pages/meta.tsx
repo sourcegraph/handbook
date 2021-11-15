@@ -59,6 +59,8 @@ interface IndexProps {
 }
 export default function Index({ allPages, tree }: IndexProps): JSX.Element {
     const pagesWithoutBacklinks = allPages.filter(page => page.backlinks.length === 0)
+    const pagesWithoutTitle = allPages.filter(page => !page.title)
+
     return (
         <div className="container">
             <section id="content">
@@ -68,9 +70,20 @@ export default function Index({ allPages, tree }: IndexProps): JSX.Element {
 
                 <h2>Pages without backlinks: {pagesWithoutBacklinks.length}</h2>
                 <ul>
-                    {pagesWithoutBacklinks.map(p => (
-                        <li>
-                            <a href={`/${p.slugPath}`}>{p.title}</a> ({p.path})
+                    {pagesWithoutBacklinks.map(page => (
+                        <li key={page.path}>
+                            <a href={`/${page.slugPath}`}>
+                                {page.title || 'Untitled'} ({page.path})
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+
+                <h2>Pages without a title: {pagesWithoutTitle.length}</h2>
+                <ul>
+                    {pagesWithoutTitle.map(page => (
+                        <li key={page.path}>
+                            <a href={`/${page.slugPath}`}>{page.path}</a>
                         </li>
                     ))}
                 </ul>
