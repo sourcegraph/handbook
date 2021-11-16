@@ -21,7 +21,7 @@ The Cloud DevOps team is responsible for the infrastructure used to host Sourceg
 
 ## How to contact the team and ask for help
 
-The best way to contact the cloud-devops team is in the #cloud-devops slack channel. 
+The best way to contact the cloud-devops team is in the #cloud-devops slack channel.
 
 ## Goals
 
