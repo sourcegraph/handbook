@@ -188,16 +188,9 @@ The purpose of our quarterly OKR retrospectives is to create a shared safe space
 
 Teams should work on what their strategy page says they will work on next, and not just leave it behind to work on other things. If there is a desire to work on something else, the change should be discussed and merged to the page. We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
 
-## Related content
+## Experimentation and improvements to planning
 
-- It's important to think about how your features will go to market, but [pricing features](../product/product_management/pricing.md) is a complicated topic and has its own page.
-- You can find the backlogs for the product teams by visiting their [individual strategy pages](../company/strategy/index.md#per-team-strategy-pages). Teams are using different tools and processes to plan and track their work such as Jira, Productboard, or GitHub issues.
-- See also [tracking issues](../engineering/tracking_issues.md)
-- See also [prioritizing](../product/product_management/prioritizing.md)
-
-### Experimentation and improvements to planning
-
-#### Using the AARRR Framework to facilitate feature lifecycle planning
+### Using the AARRR Framework to facilitate feature lifecycle planning
 
 Features are no different than products in their need to acquire visitors, activate users, retain those users, expand via referral and other viral means and generate revenue for the business.
 
@@ -212,3 +205,10 @@ To improve planning so that teams consider these stages as part of feature devel
 Learn more about the framework with this [introduction](https://medium.com/@ginoarendsz/an-introduction-to-the-aarrr-framework-b8570d6ae0d2) or Dave McClure's [slide deck on the topic](https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version).
 
 To leverage the framework, teams are incorporating the metrics in [product documents](https://docs.google.com/document/d/1-TIKwwQd2eQEH0PCuBhOitLcm31Pdx5NmCShVj6JqyU/edit#bookmark=id.gp24i8rlesx), [user stories](https://miro.com/app/board/o9J_ltNMJnI=/) and in reporting such as [Amplitude notebooks](https://analytics.amplitude.com/sourcegraph/notebook/h7td539?source=sidebar).
+
+## Related content
+
+- It's important to think about how your features will go to market, but [pricing features](../product/product_management/pricing.md) is a complicated topic and has its own page.
+- You can find the backlogs for the product teams by visiting their [individual strategy pages](../company/strategy/index.md#per-team-strategy-pages). Teams are using different tools and processes to plan and track their work such as Jira, Productboard, or GitHub issues.
+- See also [tracking issues](../engineering/tracking_issues.md)
+- See also [prioritizing](../product/product_management/prioritizing.md)
