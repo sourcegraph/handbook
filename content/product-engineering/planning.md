@@ -12,7 +12,7 @@ Properties of a good plan:
 
 To acheive a good plan, our planning process based on the following principles:
 
-- Everyone on our team has context and insights that are valuable to inputs into the planning process.
+- Everyone on our team has context and insights that are valuable inputs into the planning process.
 - success we want to understand and be able to measure the impact and value the work we commit to will have on customers, our internal teams, and the overall success of Sourcegraph.
 - Arriving at a good plan is an iterative process that is neither exclusively top-down nor exclusively bottom-up because there is a cyclical information dependency. Company level strategy is informed by what is working and not working about our business (context our teams have), and team plans are informed by what our company level strategy is (a decision ultimately owned by our CEO).
 
