@@ -88,7 +88,7 @@ devops:
     - team/devops
 
 dev_experience:
-  title: Developer Experience
+  title: Dev Experience
   product_org: enablement
   pm: taylor_sperry
   issue_labels:

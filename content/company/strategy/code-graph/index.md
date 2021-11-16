@@ -1,51 +1,14 @@
 # Code Graph strategy
 
-We have teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the overarching mission and strategy that ties them together, but each linked team also provides a more detailed strategy page with what they are working on next and why. There is also a whole-company [Sourcegraph strategy](../index.md) available.
+We have teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together, but each linked page provides a more detailed strategy for that team including what they are working on next and why. There is also a whole-company [Sourcegraph strategy](../index.md) available to which all of this is aligned.
 
 ## Mission
 
-We want to make finding, understanding, and editing code easier, regardless of how much you have, how complex it is, where you store it, or even how technical you are.
-
-## Vision
-
-### One year vision
-
-> We want to ensure that we are solving the most critical problems for our enterprise users, focusing on retaining existing and acquiring new enterprise customers. By providing as much value as possible to them, we can grow the business while solving the hardest scaling and complexity problems for everyone.
-
-### Three year vision
-
-> We imagine a much more connected experience, not just in terms of the kinds of searching that you're able to do, but in how we can offer suggestions for interesting searches and what you can do with the results. Expanding on capabilities we've introduced recently, such as semantic search, insights, and batch changes, we will offer an unparalleled solution for searching and making decisions across branches, repositories, and even code hosts, beyond even what's possible today.
-
-### Ten year vision
-
-> We want to make using Sourcegraph to understand and modify code so easy that anyone can do it, including people not traditionally considered developers. We want to [democratize coding](../index.md#ten-year-vision) by making it so that everyone in the company can engage with the organization's code, safely making changes to implement their department's priorities and interests, without need for an intermediary to do it for them.
-
-## Principles
-
-### Abstraction vs. complexity
-
-According to [The Case for 'Developer Experience'](https://future.a16z.com/the-case-for-developer-experience/) (by [Jean Yang](https://twitter.com/jeanqasaur)), there are two ways to think about categories of developer tools or features today:
-
-- Abstraction tools, which simplify tasks away by providing building blocks, sane defaults, and frameworks to build on. Most existing developer tools are of this variety.
-- Complexity-exploring tools, which help with complex problems such as finding and fixing issues in existing, heterogeneous software systems. I.e., ones that were created using the existing tools developers use today, with different languages, frameworks, and versions in constant flux, all interacting with each other.
-
-This emerging need for complexity-exploring tooling is one we see Sourcegraph playing an important role in. "The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden" ([_The Case for 'Developer Experience' by Jean Yang_][1]), and we are mindfully designing our user experience to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution.
-
-Practically, this means a few things as we think about how our product should work:
-
-1. Sourcegraph fits in to your existing ecosystem – wherever you host your code, whatever language it's in, or however many repos you use.
-1. By surfacing relationships (not just code itself, but data types, configuration, and more) we help you build a clear, meaningful model of your software.
-1. We make this information easy to explore by revealing complexity as needed, with the most relevant information up front, easy to understand, and easy to share.
-
-If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code.
-
-[1]: https://future.a16z.com/the-case-for-developer-experience/
+Make finding, understanding, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are. We will achieve this by creating a flow that ties insights, searching, and changes together.
 
 ## Themes & Goals
 
-We are focused on several themes to help make our one year vision a reality. They are not listed in priority order. To see how these play into what any particular product team is delivering, take a look at the individual team strategy pages linked at the [top of this page](#code-graph).
-
-We also set our goals around these themes, you can see current FY22-Q4 goals as a bullet list in each theme. The team listed after each goal is the primary team responsible for implementing the goal, but in the end we achieve these together and will support each other as needed to make them reality. The current status can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only) or on the [slides version of the same content](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) (also internal only).
+We are focused on several themes that bridge all of our teams to help make our one year vision a reality. We also set our goals around these themes, so you can see current FY22-Q4 goals as a bullet list in each theme. The team listed after each goal is the primary team responsible for implementing the goal, but in the end we achieve these together and will support each other as needed to make them reality. The current status can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only) or on the [slides version of the same content](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) (also internal only). Note that none of these goals or themes are listed in priority order.
 
 ### Make the power of our features easier to find and use
 
@@ -84,3 +47,24 @@ We have more and more large customers dealing with a lot of code and complexity 
 - Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts. ([Search Core](./search/index.md))
 - Three customers use server side Batch Changes to create 200+ changeset batch changes, proving that it is enabling large-scale use cases and revenue. ([Batch Changes](./batch-changes/index.md))
 - At least one customer issue was solved with the help of `src debug`, which makes observability better for on-prem and makes Customer Support’s job easier. ([Search Core](./search/index.md))
+
+## Principles
+
+### Abstraction vs. complexity
+
+According to [The Case for 'Developer Experience'](https://future.a16z.com/the-case-for-developer-experience/) (by [Jean Yang](https://twitter.com/jeanqasaur)), there are two ways to think about categories of developer tools or features today:
+
+- Abstraction tools, which simplify tasks away by providing building blocks, sane defaults, and frameworks to build on. Most existing developer tools are of this variety.
+- Complexity-exploring tools, which help with complex problems such as finding and fixing issues in existing, heterogeneous software systems. I.e., ones that were created using the existing tools developers use today, with different languages, frameworks, and versions in constant flux, all interacting with each other.
+
+This emerging need for complexity-exploring tooling is one we see Sourcegraph playing an important role in. "The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden" ([_The Case for 'Developer Experience' by Jean Yang_][1]), and we are mindfully designing our user experience to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution.
+
+Practically, this means a few things as we think about how our product should work:
+
+1. Sourcegraph fits in to your existing ecosystem – wherever you host your code, whatever language it's in, or however many repos you use.
+1. By surfacing relationships (not just code itself, but data types, configuration, and more) we help you build a clear, meaningful model of your software.
+1. We make this information easy to explore by revealing complexity as needed, with the most relevant information up front, easy to understand, and easy to share.
+
+If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code.
+
+[1]: https://future.a16z.com/the-case-for-developer-experience/
