@@ -236,6 +236,10 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             /{{generator:product_teams_list}}/gi,
             await Promise.resolve(generatedMarkdown.generateProductTeamsList())
         )
+        markdown = markdown.replace(
+            /{{generator:reporting_structure.christina_forney}}/gi,
+            await Promise.resolve(generatedMarkdown.generateReportingStructure('christina_forney'))
+        )
     }
     return markdown
 }
