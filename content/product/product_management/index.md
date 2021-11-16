@@ -32,18 +32,6 @@ The last thing teams should review and update monthly are the product [data file
 
 Part of the product data is a (internal-only) list of [what's supported](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279), which contains extended product information for our Sales and Support teams. This should also be manually reviewed and updated as feature capabilities evolve.
 
-## Glossary
-
-- Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
-- Roadmap: The tasks and timeline for when each will be worked on
-- Backlog: The ordered list of items to be tackled after items on the roadmap are complete
-- Department: A top-level organizational unit of people, such as Sales, Product or Marketing.
-- Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
-- Team: A well-defined product team that works to deliver features for one or more product areas.
-- Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
-
-Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
-
 ## Communications
 
 ### Feature roll-outs

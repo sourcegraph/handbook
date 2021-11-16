@@ -33,13 +33,21 @@ TODO(nick): write more here
 
 ## Definitions
 
-Our [strategy](strategy.md) is a concise description of how product and engineering contribute to the top-level company objectives. It sets a clear direction so we stay focused on what is important and have appropriate trade-off discussions if necessary.
-
-[OKRs](../company/goals/guidelines.md) define how we measure success.
-
-**Roadmap items** are the concrete high-level things that we are delivering to achieve success (as measured by OKRs).
+- Strategy: Our [strategy](strategy.md) is a concise description of how product and engineering contribute to the top-level company objectives. It sets a clear direction so we stay focused on what is important and have appropriate trade-off discussions if necessary.
+- OKRs: [OKRs](../company/goals/guidelines.md) define how we measure success.
+- Roadmap items: The concrete high-level things that we are delivering to achieve success (as measured by OKRs).
 
 In short, the strategy is the WHY, the OKRs are the WHAT, and roadmap items are the HOW.
+
+### Related terminology
+
+- Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
+- Backlog: The ordered list of items to be tackled after items on the roadmap are complete
+- Department: A top-level organizational unit of people, such as Sales, Product or Marketing.
+- Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
+- Team: A well-defined product team that works to deliver features for one or more product areas.
+- Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
+- Launch tiers (L1, L2, and L3): Different levels of attention and planning that features we are launching get. This is documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
 
 ## Annual planning process
 
