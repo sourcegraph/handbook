@@ -67,7 +67,7 @@ As a next step, please:
 
 Interview process / hiring team:
 
-- [30m] [Recruiter screen](./types_of_interviews.md#sts=Recruiter%20screen): \_\_
+- [30m] [Recruiter screen](./types_of_interviews.md#recruiter-screen): \_\_
 - [30-60m] [Hiring Manager screen](./types_of_interviews.md#hiring-manager-screen): \_\_
 - Assignment, if applicable: \_\_
 - In-depth Interview Stage:
@@ -133,8 +133,19 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
 
 [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
 
+## LinkedIn Recruiter Licenses
+
+We have unlimited LinkedIn Recruiter licenses for all Sourcegraph teammates. A recruiter license allows you to view unlimited candidate profiles and send unlimited messages to prospective candidates. This is a helpful tool for hiring managers or any teammates who want to help with recruiting outreach efforts.
+
+If you would like a recruiter license, please let your recruiter know and we will get your account activated!
+
+Resources to learn more about using your LinkedIn Recruiter License:
+
+- [Beginner User Curriculum](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Flinkedin-recruiter-for-new-users-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ZZ53ap8WeBM1COR76EWDX0vdjCKnh1Q%2Bhm93VruCXrE%3D&reserved=0)
+- [Experienced User Curriculum](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Fleverage-the-full-power-of-linkedin-recruiter-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=agxl%2B4%2BMf5nGXhHMDCfq%2F5cP2Ecw3qVW9%2B%2BKQrY%2FFSM%3D&reserved=0)
+
 ## Sourcing Outreach Best Practices
 
-Our goal is drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
+Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
 
-[Here's](https://docs.google.com/presentation/d/1cwPWbk_w2uRWsz_DuUJy_Jz_pVuSpM6pmZnfPU6cf4c/edit#slide=id.p2) a guide on creating a Recruiting Outreach Campaign.
+[Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.

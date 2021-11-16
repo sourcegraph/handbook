@@ -1,6 +1,6 @@
 # Asynchronous communication
 
-Sourcegraph is an **all-remote** company which means we work from home or office spaces, but do not have a physical office we all go to together. Moreover, we are also a **global company**, which means we are spread all over [the world](./team/locations.md). So not only do we not share an office, most of the time, we don’t even share time zones. For this reason, we use **asynchronous (async)** forms of communication as much as possible and conduct synchronous meetings only when it’s really necessary.
+Sourcegraph is an [**all-remote**](remote/index.md) company which means we work from home or office spaces, but do not have a physical office we all go to together. Moreover, we are also a **global company**, which means we are spread all over [the world](./team/locations.md). So not only do we not share an office, most of the time, we don’t even share time zones. For this reason, we use **asynchronous (async)** forms of communication as much as possible and conduct synchronous meetings only when it’s really necessary.
 
 Async simply means that work doesn’t happen at the same time for everyone. Asynchronous communication allows us to move forward and make decisions without having to meet to talk with everyone involved. In this page you will read about why we are async, the tools we use at Sourcegraph, and how we use them. We also explain how we communicate, tips on how to work asynchronously, and how we decide to be or not to be async.
 
@@ -74,7 +74,7 @@ Get creative:
 - Record short videos with face cams (and captions) that don't need hours of production effort, we can create a little slide deck for such a video.
 - Replace synchronous presentations with a recording, including slides and written context and provide a place where teammates can ask questions asynchronously. You can even include a time period for questions (for example: questions will be received and answered until Friday 4pm UTC)
 
-You can read [Thorsten Ball](./team/index.md#sts=Thorsten%20Ball%20%28he/him%29)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
+You can read [Thorsten Ball](./team/index.md#thorsten-ball)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
 
 Additionally, here are some other tips we've found work well:
 
@@ -88,7 +88,7 @@ Additionally, here are some other tips we've found work well:
 - **Share things while they’re still in work-in-progress**. Aim for progress, not perfection. We all want to get things done first and then share, but so much feedback can be collected and comments can be made while you are offline. You can make notes on your work stating something is going to change or you are waiting for X to go on with a certain section to notify reviewers of the state of your work.
 - **Never assume.** It is best to include more context than to give room to misinterpretation.
 - **Share**. Don’t make others hunt for information.
-- **Communicate your work preferences.** We all work differently and have preferred ways of communication. Let your teammates know, this will help everyone be more empathetic and conscious about collaboration. Create a rudimentary README that clarifies how you work. [The support team has some great examples](../support/support-bios.md).
+- **Communicate your work preferences.** We all work differently and have preferred ways of communication. Let your teammates know, this will help everyone be more empathetic and conscious about collaboration. Create a rudimentary README that clarifies how you work. [The support team has some great examples](../support/bios/index.md).
 - **Summarize**. If your documentation ends up being too long, consider adding a summary, in the beginning, to help people consider if this is what they are looking for.
 - **Consider which tool to use**. Think about what you are working on and which is the best tool to discuss it, iterate and communicate.
 - **Know when _not_ to meet**. Ask yourself: is this meeting necessary or could we work on it asynchronously?

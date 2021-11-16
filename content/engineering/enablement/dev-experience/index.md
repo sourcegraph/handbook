@@ -4,10 +4,10 @@ The Developer Experience team (part of the [Enablement](../index.md) org) is a t
 
 ## Members
 
-- [Taylor Sperry](../../../company/team/index.md#taylor-sperry-sheher) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy-he-him) (acting [Engineering Manager](../../roles.md#engineering-manager))
+- [Taylor Sperry](../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Patrick Dubroy](../../../company/team/index.md#patrick-dubroy) (acting [Engineering Manager](../../roles.md#engineering-manager))
   - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
-  - [JH Chabran](../../../company/team/index.md#jh-chabran-he-him)
+  - [JH Chabran](../../../company/team/index.md#jh-chabran)
   - [Robert Lin](../../../company/team/index.md#robert-lin)
 
 ## Strategy
@@ -35,6 +35,10 @@ To collaborate, we use the following:
 - [Newsletter](https://docs.google.com/document/d/1O5iUZ3cQ4c7sGhlFHDW2MXpfgLzIPFszN1jgXFUKNRo/edit#)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
 - [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
+
+Playbooks maintained by the team:
+
+- [CI playbook](../../incidents/playbooks/ci.md)
 
 ### Work allocation
 
