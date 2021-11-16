@@ -1,4 +1,4 @@
-# CI Playbook
+# Continuous integration playbook
 
 - **Maintainers**: [DevX Team](../../enablement/dev-experience/index.md).
 - **Audience**: any software engineer, no prior infrastructure knowlegde required.
