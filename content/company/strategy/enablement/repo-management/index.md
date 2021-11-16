@@ -38,32 +38,22 @@ Note that these are order by approximate known revenue impacted - but that the f
 
 #### Perforce support
 
-- **Approximate revenue impacted:**
-- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkT1nEAF/view)
+- **Approximate revenue impacted:** [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkT1nEAF/view)
 
 #### Gerrit Permissions syncing
 
-- **Approximate revenue impacted:**
+- **Approximate revenue impacted:** [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000Il6IFEAZ/view)
 - **Problem:** Lack of support for Gerrit permissions
-- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000Il6IFEAZ/view)
 
 #### [Phabricator support](https://github.com/sourcegraph/sourcegraph/issues/25111)
 
-- **Approximate revenue impacted:**
+- **Approximate revenue impacted:** [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxK8EAJ/view)
 - **Problem:** Phabricator support within Sourcegraph was never properly implemented, resulting in limited support.
-- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxK8EAJ/view)
 
 #### [Bitbucket Cloud permission syncing](https://github.com/sourcegraph/sourcegraph/issues/19782)
 
-- **Approximate revenue impacted:**
+- **Approximate revenue impacted:** [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxMkEAJ/view)
 - **Problem:** Atlassian are ending support for BitBucket Server and staring moving all customers to the Cloud. But Sourcegraph doesn't currently support native permission syncing for BitBucket Cloud.
-- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxMkEAJ/view)
-
-#### Monorepo support
-
-- **Approximate revenue impacted:** $80k
-- **Problem:** A major priority is to start supporting repositories that are massive in scale. Today, this does not work simply because the machines take too long to process unindexed searches, even with a MASSIVE machine.
-- [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxLlEAJ/view)
 
 # Strategy and plans
 
@@ -76,7 +66,7 @@ Note that the time periods are rolling time periods and the plans here are revie
 #### Monorepo support
 
 - **Current status:** In progress
-- **Expected effort:** <5% team time (our role is largely support)
+- **Expected effort:** <5% team time (our role is largely in support of the [Search team](../../code-graph/search) who owns this work)
 - **Why:** Monorepos are commonplace but exert a huge toll on systems like ours - so much so that customers feel a significant ammount of pain and with
 
 #### [GitServer HA](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#)
@@ -85,7 +75,10 @@ Note that the time periods are rolling time periods and the plans here are revie
 - **Expected effort:** ~50% team time
 - **Why:** Code host connectivity, scalability and reliability is at the heart of our product, underpinning literally all other features. As we scale the size of customers we’re trying to win and delight, we cannot avoid tactical work to expand our functional coverage (which code hosts we support and how completely), but we also need to ensure Sourcegraph can handle the current and future challenges that the largest customers will throw at it with regards to the size of their repos, number of repos and performance required. This is partially in aid of monorepo support, and partly system resilience.
 
--[x] Current work is related to replacing the hashing algorithm to prevent the redistribution (rebalancing) of repos across the available Gitservers when a Gitserver is added or removed. -[ ] Next step is to trial repo duplication (copies on more than one Gitserver) in Sourcegraph.com -[ ] After that, making control of the replication factor customer editable (likely not in Q3) -[ ] Future work (Not within Q3) - sharding monorepos across multiple Gitservers
+-[x] Current work is related to replacing the hashing algorithm to prevent the redistribution (rebalancing) of repos across the available Gitservers when a Gitserver is added or removed. 
+-[ ] Next step is to trial repo duplication (copies on more than one Gitserver) in Sourcegraph.com 
+-[ ] After that, making control of the replication factor customer editable (likely not in Q3) 
+-[ ] Future work (Not within Q3) - sharding monorepos across multiple Gitservers
 
 #### Perforce support
 
