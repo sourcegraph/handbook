@@ -45,7 +45,7 @@ See the [Operations OKRs](../company/goals/2022_Q4.md#operations-bizops-finance-
 
 ### Goals roadmap
 
-We also work on projects outside of our specific key results that fall within overall themes of our OKRs (Upgrade systems and automate processes, Proactively help the business make better decisions, Build an operational foundation to prepare for Sourcegraph Cloud). The full list of non-ad-hoc projects and timelines can be found on the [BizOps roadmap](https://docs.google.com/spreadsheets/d/1xowFAuRQfQTnJ6ntoznVFE-MjtIwAzsLK_9asoIyGis/edit#gid=0).  
+We also work on projects outside of our specific key results that fall within overall themes of our OKRs (Upgrade systems and automate processes, Proactively help the business make better decisions, Build an operational foundation to prepare for Sourcegraph Cloud). The full list of non-ad-hoc projects and timelines can be found on the [BizOps roadmap](https://docs.google.com/spreadsheets/d/1xowFAuRQfQTnJ6ntoznVFE-MjtIwAzsLK_9asoIyGis/edit#gid=0).
 
 ## How to work with us
 
