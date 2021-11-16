@@ -1,6 +1,7 @@
 # SDR Team
 
-The SDR team at Sourcegraph is built to source high quality pipeline for the broader sales org. 
+The SDR team at Sourcegraph is built to source high quality pipeline for the broader sales org.
+
 ## Members
 
 - [Nicholas Gage](../company/team/index.md#nicholas-gage), Head of Sales Development
@@ -19,7 +20,7 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
     - Open
   - EMEA SDRs
     - [Jagna Feierabend](../company/team/index.md#jagna-feierabend)
-    - Open 
+    - Open
   - APAC SDRs
     - Open
   - Commercial SDRs
@@ -124,4 +125,3 @@ See [SDR/AE Meeting ROE](https://docs.google.com/document/d/1KP1ao_UBZS80s4o0lOM
 - Zoominfo - Data Intelligence Tool
 - LeadiQ - Data Intelligence Tool
 - Postal.Io - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
-
