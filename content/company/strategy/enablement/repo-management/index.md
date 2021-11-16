@@ -16,7 +16,8 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ### 1 Year vision
 
-> Sourcegraph provides the means to simply, easily, and reliably connect to all common code management systems, allowing you to use any of Sourcegraph’s brilliant functionality with any of your code, regardless of its storage system. Our support of different code hosts scales to the biggest companies with minimal customizations.
+> Sourcegraph provides the means to simply, easily, and reliably connect to all common code management systems, allowing you to use any of Sourcegraph’s brilliant functionality with any of your code, regardless of its storage system. Our support of different code hosts scales to the biggest companies with minimal customizations. 
+
 > Sourcegraph’s own engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization.
 
 ### 3 Year vision
@@ -39,22 +40,22 @@ Note that these are order by approximate known revenue impacted - but that the f
 
 #### Perforce support
 
-- **[Approximate revenue impacted:](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkT1nEAF/view)**
+- [Approximate revenue impacted](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkT1nEAF/view)
 
 #### Gerrit Permissions syncing
 
 - **Why** Lack of support for Gerrit permissions
-- Approximate revenue impacted: [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000Il6IFEAZ/view)
+- [Approximate revenue impacted](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000Il6IFEAZ/view)
 
 #### [Phabricator support](https://github.com/sourcegraph/sourcegraph/issues/25111)
 
 - **Why:** Phabricator support within Sourcegraph was never properly implemented, resulting in limited support.
-- Approximate revenue impacted: [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxK8EAJ/view)
+- [Approximate revenue impacted](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxK8EAJ/view)
 
 #### [Bitbucket Cloud permission syncing](https://github.com/sourcegraph/sourcegraph/issues/19782)
 
 - **Why:** Atlassian are ending support for BitBucket Server and staring moving all customers to the Cloud. But Sourcegraph doesn't currently support native permission syncing for BitBucket Cloud.
-- Approximate revenue impacted: [Salesforce Product Gap](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxMkEAJ/view)
+- [Approximate revenue impacted](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxMkEAJ/view)
 
 # Strategy and plans
 
