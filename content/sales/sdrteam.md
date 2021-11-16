@@ -125,3 +125,64 @@ See [SDR/AE Meeting ROE](https://docs.google.com/document/d/1KP1ao_UBZS80s4o0lOM
 - Zoominfo - Data Intelligence Tool
 - LeadiQ - Data Intelligence Tool
 - Postal.Io - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
+
+## SDR Promotion Process
+The SDR promotion path and process is designed to serve as a pipeline of top talent into other parts of the sales organization and business at large. It is highly objective and provides clear visibility into what expectations should be for career advancement within the SDR team. 
+
+**Process overview:**
+- Headcount openings/start dates are communicated to SDR team
+- Candidates submit application to interview
+- Applications are approved based on requirements
+- Interview dates are scheduled
+- Candidates are given live feedback and notified of decision
+- Transition planning begins for approved promotions 
+
+**Interview process:**
+
+**Requirements to interview**
+- Approval from direct manager on performance and values alignment
+  - 3 consecutive quarters of proven delivery and performance in sales development, resulting in quota attainment.
+  - Any exception will be on a ‘needs of the business’ basis and require SVP approval
+    - e.g. a rep is on track and has an unexpected life event that requires time off that was unexpected
+    - e.g. a rep has been on track and has a change in support structure that requires a ‘mini-ramp” (moving territories/segments/etc.)
+ - Consistent demonstrations of Sourcegraph Core Values
+    - Be customer driven: You proactively work on the right things by continuously orienting your goals around delivering value to your customers.
+    - Work as a team: You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
+    - High agency: You have the power and the responsibility to improve Sourcegraph as a company and as a product. You deliver regardless of the circumstances.
+    - High quality: You are responsible for finding out what high-quality work looks like and producing that high-quality work iteratively.
+    - Be welcoming and inclusive: You make people from all groups and backgrounds feel comfortable belonging to our team and community.
+    - Open and transparent: You proactively communicate in an open and transparent way.
+**Interview-** a one hour presentation including a mock sales meeting
+ - Attendees (mock presentation roles):
+    - Hiring Manager (Decision Maker)
+    - VP of Sales (Engineer)
+    - CE leader (Engineering Leader)
+    - Current manager (no role, observer only)
+ - 1 Hour presentation that covers the following: 
+    - Why are you ready to be an AE at Sourcegraph? 1-2 slides (5 mins)
+      - About you
+      - Why sales?
+      - Performance in SDR role to date 2~ slides (10 mins)
+      - Results/KPIs/Partnering with your AE
+      - Pipeline generation process 
+    - Mock Discovery Call- (45 mins)
+      - Based on customer prompt, position Sourcegraph to a group evaluating bringing in the tool (25 mins)
+    - Q&A + Feedback (20 mins)
+**Decision meeting**
+ - Candidate will receive prompt feedback on strengths and areas for improvement 
+    - Decision will be delivered including preliminary start date
+    - If candidate does not pass through, documented plan for areas to improve will be delivered by current manager 
+    - If candidate does pass through, transition planning will begin 
+ - Start dates will be semi-annual on 2/1 and 8/1
+
+**Scoring Criteria for Presentation:**
+Communication- candidate presentation is paced well, transitions are smooth,  concepts are clear, everyone is included and heard, filler words are minimal, confidence is apparent 
+Problem Discovery - candidate uses active listening and curiosity to uncover customer pain points
+Solution Mapping - candidate aligns specific aspects of the Sourcegraph solution to expressed customer needs with an eye towards collecting information that will inform a subsequent demo
+Objection handling- candidate clarifies and responds to objections without derailing the presentation
+Next Steps - candidate concludes with next steps that overcome objections and initiates a process that will conclude with a timely close.
+
+[Example prompt and call recordings are located here.](https://docs.google.com/document/d/1SbXuR_Eo42KOXJZBAICr84dXQrBFKHE5Q8ZQFsRlLvE/edit?usp=sharing)
+
+This above process is the template for progression from SDR to Commercial AE. Further iterations will be forthcoming and outlined in this section of the handbook. This page also serves as a framework for the SDR promotion process into other parts of the business (e.g. Marketing).
+
