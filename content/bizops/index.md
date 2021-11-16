@@ -32,7 +32,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Goals
 
-See the [Operations OKRs](../company/goals/2022_q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the six OKRs specific to the BizOps team:
+See the [Operations OKRs](../company/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the six OKRs specific to the BizOps team:
 
 - **KR:** Complete a migration off of BigQuery for ETLs (to dbt, Airflow, or similar)
 - **KR:** Every product team, go-to-market team and company-wide has at least one automated KPI dashboard sent into Slack
