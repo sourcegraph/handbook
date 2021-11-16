@@ -6,6 +6,8 @@ This page documents our current org structure. For a list of product teams and w
 
 {{generator:reporting_structure.christina_forney}}
 
+<!-- The content for this page comes from team.yml using reports_to relationships -->
+
 ## Open positions
 
 - [Product Design](roles/index.md#product-designer)
