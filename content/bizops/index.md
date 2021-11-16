@@ -32,7 +32,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Goals
 
-See the [Operations OKRs](../company/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the six OKRs specific to the BizOps team:
+See the [Operations OKRs](../company/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
 
 - **KR:** Complete a migration off of BigQuery for ETLs (to dbt, Airflow, or similar)
 - **KR:** Every product team, go-to-market team and company-wide has at least one automated KPI dashboard sent into Slack
@@ -42,6 +42,10 @@ See the [Operations OKRs](../company/goals/2022_Q4.md#operations-bizops-finance-
 - **KR:** TBD: Working on getting sales insights and recommendations scoped so we list specific things to be delivered
 
 **Note:** TBD KRs are not fully scoped and therefore intentionally vague, but are on this list because it's something we will likely spend time on in Q4
+
+### Goals roadmap
+
+We also work on projects outside of our specific key results that fall within overall themes of our OKRs (Upgrade systems and automate processes, Proactively help the business make better decisions, Build an operational foundation to prepare for Sourcegraph Cloud). The full list of non-ad-hoc projects and timelines can be found on the [BizOps roadmap](https://docs.google.com/spreadsheets/d/1xowFAuRQfQTnJ6ntoznVFE-MjtIwAzsLK_9asoIyGis/edit#gid=0).  
 
 ## How to work with us
 
