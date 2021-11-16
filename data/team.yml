@@ -19,6 +19,7 @@ beyang_liu:
 
 christina_forney:
   name: Christina Forney
+  reports_to: beyang_liu
   pronouns: she/her
   role: VP Product
   location: Woodside, CA, USA 🇺🇸
@@ -201,6 +202,7 @@ kai_passo:
 
 rob_rhyne:
   name: Rob Rhyne
+  reports_to: christina_forney
   role: Senior Product Designer
   location: Oceanside, CA, USA 🇺🇸
   email: rob@sourcegraph.com
@@ -294,6 +296,7 @@ christine_lovett:
 
 alicja_suska:
   name: Alicja Suska
+  reports_to: christina_forney
   pronouns: she/her
   pronunciation: /aˈlʲit͡s.ja/
   role: Product Designer
@@ -314,6 +317,7 @@ stefan_hengl:
 
 quinn_keast:
   name: Quinn Keast
+  reports_to: christina_forney
   pronouns: he/him
   role: Product Designer
   location: Berlin, Germany 🇩🇪
@@ -396,6 +400,7 @@ owen_brennan:
 
 maría_craig:
   name: María Craig
+  reports_to: jason_yavorska
   pronouns: she/her
   role: Product Manager
   location: Barcelona, Spain 🇪🇸 / Buenos Aires, Argentina 🇦🇷
@@ -414,6 +419,7 @@ chris_surdi:
 
 joel_kwartler:
   name: Joel Kwartler
+  reports_to: jason_yavorska
   pronouns: he/him
   role: Product Manager
   location: Los Angeles, CA, USA 🇺🇸
@@ -646,6 +652,7 @@ seth_hoover:
 
 malo_marrec:
   name: Malo Marrec
+  reports_to: jason_yavorska
   pronouns: he/him
   role: Product Manager
   location: Paris, France 🇫🇷
@@ -695,6 +702,7 @@ manuel_ucles:
 
 kylie_fligstein:
   name: Kylie Fligstein
+  reports_to: christina_forney
   pronouns: she/her
   role: Executive Business Partner to VP of Product
   location: Oakland, CA, USA 🇺🇸
@@ -1002,6 +1010,7 @@ kelli_rockwell:
 
 dan_mckean:
   name: Dan Mckean
+  reports_to: serina_clark
   pronouns: he/him
   role: Product Manager, Distribution & Security
   location: Shaftesbury (Dorset), UK 🇬🇧
@@ -1031,6 +1040,7 @@ rebecca_rissinger:
 
 ryan_phillips:
   name: Ryan Phillips
+  reports_to: anna_mikhova
   pronouns: He/Him
   role: Product Manager, Core App
   location: San Francisco, CA, USA 🇺🇸
@@ -1439,6 +1449,7 @@ luke_taylor:
 
 anna_mikhova:
   name: Anna Mikhova
+  reports_to: christina_forney
   role: Director of Product
   location: Salt Lake City, UT, USA 🇺🇸
   github: anna-mikhova
@@ -1570,6 +1581,7 @@ erica_freckelton:
 
 serina_clark:
   name: Serina Clark
+  reports_to: christina_forney
   pronouns: her/she/hers
   role: Director of Product - Platform & Infrastructure
   location: Erie, Colorado, United States 🇺🇸
@@ -1591,6 +1603,7 @@ dan_ryan:
 
 mary_belzer:
   name: Mary Belzer
+  reports_to: serina_clark
   pronouns: she/her
   role: Handbook Product Manager
   location: Denver, Colorado, United States 🇺🇸
@@ -1637,6 +1650,7 @@ brielle_collins:
 
 jason_yavorska:
   name: Jason Yavorska
+  reports_to: christina_forney
   pronouns: he/him
   role: Product Director for Global Code Graph
   location: Leiden, NL 🇳🇱 and part of the year in Odessa, UA 🇺🇦
@@ -1743,6 +1757,7 @@ cristina_birkel:
 
 sara_lee:
   name: Sara Lee
+  reports_to: christina_forney
   pronouns: she/her
   role: Product Designer
   location: Chapel Hill, NC, United States 🇺🇸
@@ -1753,6 +1768,7 @@ sara_lee:
 
 ben_venker:
   name: Ben Venker
+  reports_to: jason_yavorska
   role: Product Manager - Search Product
   location: St. Louis, MO, United States 🇺🇸
   github: benvenker
@@ -1808,6 +1824,7 @@ kemper_hamilton:
 
 marisa_kanemoto:
   name: Marisa Kanemoto
+  reports_to: christina_forney
   pronouns: she/her
   role: Product Designer
   location: Berkeley, California, United States 🇺🇸
@@ -1914,6 +1931,7 @@ devon_thompson:
 
 taylor_sperry:
   name: Taylor Sperry
+  reports_to: serina_clark
   pronouns: she/her
   role: Technical Product Manager
   location: Denver, CO, USA 🇺🇸
