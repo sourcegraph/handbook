@@ -1,6 +1,6 @@
-# Developer Experience team strategy
+# Dev Experience team strategy
 
-This page outlines the vision, strategy, and goals of the [Developer Experience team](../../../../engineering/enablement/dev-experience/index.md).
+This page outlines the vision, strategy, and goals of the [Dev Experience team](../../../../engineering/enablement/dev-experience/index.md).
 
 ## Mission
 
