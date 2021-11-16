@@ -16,7 +16,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ### 1 Year vision
 
-> Sourcegraph provides the means to simply, easily, and reliably connect to all common code management systems, allowing you to use any of Sourcegraph’s brilliant functionality with any of your code, regardless of its storage system. Our support of different code hosts scales to the biggest companies with minimal customizations. 
+> Sourcegraph provides the means to simply, easily, and reliably connect to all common code management systems, allowing you to use any of Sourcegraph’s brilliant functionality with any of your code, regardless of its storage system. Our support of different code hosts scales to the biggest companies with minimal customizations.
 > Sourcegraph’s own engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization.
 
 ### 3 Year vision
