@@ -16,6 +16,10 @@ We also sell add-on features that are at additional cost to the enterprise tier,
 
 ## Philosophy
 
+### What goes into open source
+
+See our [open source philosophy](../../engineering/licenses.md#open-source-philosophy)
+
 ### Role of the free tier
 
 Coming soon.
