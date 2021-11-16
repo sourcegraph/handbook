@@ -12,7 +12,7 @@ The SDR Team (TBA)
   - East Outbound SDRs
     - [Sam Cregg](../company/team/index.md#sam-cregg)
     - [Ellie Dawson](../company/team/index.md#ellie-dawson)
-    - [Daniel Gwyn] 
+    - [Daniel Gwyn]
   - Inbound SDR
     - [Mark "Markie" Muldez](../company/team/index.md#mark-markie-muldez)
   - EMEA SDR
