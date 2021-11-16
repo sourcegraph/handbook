@@ -75,9 +75,9 @@ Note that the time periods are rolling time periods and the plans here are revie
 - **Expected effort:** ~50% team time
 - **Why:** Code host connectivity, scalability and reliability is at the heart of our product, underpinning literally all other features. As we scale the size of customers we’re trying to win and delight, we cannot avoid tactical work to expand our functional coverage (which code hosts we support and how completely), but we also need to ensure Sourcegraph can handle the current and future challenges that the largest customers will throw at it with regards to the size of their repos, number of repos and performance required. This is partially in aid of monorepo support, and partly system resilience.
 
-- [x] Current work is related to replacing the hashing algorithm to prevent the redistribution (rebalancing) of repos across the available Gitservers when a Gitserver is added or removed. 
-- [ ] Next step is to trial repo duplication (copies on more than one Gitserver) in Sourcegraph.com 
-- [ ] After that, making control of the replication factor customer editable (likely not in Q3) 
+- [x] Current work is related to replacing the hashing algorithm to prevent the redistribution (rebalancing) of repos across the available Gitservers when a Gitserver is added or removed.
+- [ ] Next step is to trial repo duplication (copies on more than one Gitserver) in Sourcegraph.com
+- [ ] After that, making control of the replication factor customer editable (likely not in Q3)
 - [ ] Future work (Not within Q3) - sharding monorepos across multiple Gitservers
 
 #### Perforce support
