@@ -6,6 +6,9 @@
       "name": {
         "type": "string"
       },
+      "reports_to": {
+        "type": "string"
+      },
       "pronouns": {
         "type": "string"
       },
