@@ -55,17 +55,19 @@ See [security goals and priorities](../../../company/strategy/cloud/security/ind
 In an effort to work closely with our teammates and shift security focus more into the development process, we are pleased to introduce the Security Ambassador program which will align each one of our security engineers with an engineering organization.
 
 - **What does this mean?**
+
   - The ambassador assigned to your organization will become very knowledgable on your team's work.
   - The ambassador will help you integrate security thought-processes into your workflow.
   - The ambassador will become your primary point of contact regarding any security concerns that may arise in your development process.
   - The ambassador will be available to join any planning, testing and implementation meetings where their input might be beneficial.
 
-
 - **Why?**
+
   - This will allow you to get quicker responses to your security questions and concerns from someone who has a deeper understanding of your team's work.
   - This will allow us to produce a more secure product by integrating security into the early stages of product development.
 
 - **Does this mean I can't talk to anyone else on the security team?**
+
   - Absolutely not. You are welcome to reach out to anyone in the security team at anytime. We encourage everyone to use the #security slack channel.
 
 - **Who is the ambassador for my team?**
@@ -183,7 +185,6 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
   </tr>
   </table>
-
 
 ### Security Questionnaires
 
