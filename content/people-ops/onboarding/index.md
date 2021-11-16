@@ -108,10 +108,6 @@ You will be able to submit an expense reimbursement for the computer and desk eq
 
 Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
 
-## General onboarding checklist
-
-See [General onboarding checklist](general_onboarding.md).
-
 ## Team specific onboarding
 
 - [Engineers](../../engineering/onboarding/index.md)

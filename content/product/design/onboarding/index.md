@@ -2,7 +2,7 @@
 
 Welcome to the Design Team!
 
-Having gone though [the general onboarding](../../../people-ops/onboarding/general_onboarding.md) and [the Product onboarding](../../onboarding/index.md), it's time for the Design onboarding!
+Having gone though [the Process St onboarding](https://app.process.st/reports/) and [the Product onboarding](../../onboarding/index.md), it's time for the Design onboarding!
 
 Your perspective as both a new user of Sourcegraph and a new teammate is very valuable to us. Please keep notes on any issues you encounter as you are onboarding and learning the product. We’ll use those notes to improve the product and process.
 

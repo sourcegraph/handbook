@@ -102,7 +102,9 @@ SDR dedupes the lead to look for recent activity, open/recently closed opportuni
 If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
 - If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
-- SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on a round-robin of their supported AEs.
+- SDR uses the "Assign AE" button to automatically assign the correct AE to the Lead. This process handles checking for existing Account ownership and round robin assignment.
+- SDR schedules meeting with the Lead and the assigned AE.
+- SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on the assigned AE.
 - At this point, the Opportunity will be in Stage 1 - Interest
 - SDR schedules meeting with the Contact and the receiving AE.
 - SDR logs all pertinent information - call/email notes, research on contact/company, and any additional context that is helpful for the AE to be prepared for the initial call / understand the justification for creating an Opportunity
@@ -113,9 +115,9 @@ If an Outbound Lead meets the “Target Opportunity Profile” criteria, we use 
 If a Lead meets the “Target Opportunity Profile” criteria, we use the following process for converting the lead and getting an AE connected with the prospect:
 
 - If not alredy completed, the SDR completes the "Qual Interview". [See video tutorial](https://screenrec.com/share/KOEzvMaNWf)
-- SDR confirms the receiving AE of the Opportunity using the [AE Round-Robin Tracker](https://docs.google.com/spreadsheets/d/1Uqx3GSLFzzAptrMaowVJLkViAdOQ3gimUL8PVBm8EkQ/edit#gid=0)
-- SDR schedules meeting with the Lead and the receiving AE
-- SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new)
+- SDR uses the "Assign AE" button to automatically assign the correct AE to the Lead. This process handles checking for existing Account ownership and round robin assignment.
+- SDR schedules meeting with the Lead and the assigned AE.
+- SDR creates the Opportunity in Salesforce by converting the lead to an Account/Contact/Opportunity (Note: be sure to convert into existing Account if one exists vs. creating a new). Salesforce will automatically assign the Account, Contact, and Opportunity based on the assigned AE.
 - At this point, the Opportunity will be in Stage 1 - Interest
 - SDR logs all pertinent information - call/email notes, research on contact/company, and any additional context that is helpful for the AE to be prepared for the initial call / understand the justification for creating an Opportunity
   SDR joins this initial call to make the AE intro and listen to the call for feedback
