@@ -69,17 +69,14 @@ After you’ve moved through each of your three [Onboarding Feedback Milestones]
 
 Timeline of stages:
 
--**Peer selection:** 5 business days
--**Self, peer, and upwards reviews:** 7 business days
--**Manager reviews:** 5 business days, then manager will release feedback packet to you
--**Meet with manager to discuss feedback packet:** after your cycle concludes
+-**Peer selection:** 5 business days -**Self, peer, and upwards reviews:** 7 business days -**Manager reviews:** 5 business days, then manager will release feedback packet to you -**Meet with manager to discuss feedback packet:** after your cycle concludes
 
 The 360 Impact review process covers a few key types of feedback as mentioned above:
 
 - **Self-review:** you will review yourself
 - **Peer review**: 2-3 stakeholders will review you
 - **Upwards review:** you will review your manager
-- **Manager review:** your manager will review you 
+- **Manager review:** your manager will review you
 
 _Best practice tip: We recognize that to make an impact, you must first develop goals that drive specific outcomes. Engaging in quarterly goal setting in tandem with your Impact reviews will give each teammate direction, certainty, and velocity in prioritizing their goals. If you’d like to create quarterly goals to align with your manager on, use our series of templates in our [Goal setting folder](https://drive.google.com/drive/folders/1EA0uJ5eroG8NMKtv315c5aumFNB1K7AD)._
 
