@@ -31,9 +31,9 @@ We are an all-remote company and favor asynchronous communication, it is importa
     - **#it-tech-ops**
   - [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers) - Our CI (Continuous Integration) pipelines host.
     - Self-serve via google auth
-  - [Cloudflare](https://dash.cloudflare.com/login) - Our CDN / WAF / DNS provider. 
+  - [Cloudflare](https://dash.cloudflare.com/login) - Our CDN / WAF / DNS provider.
     - **#security** or you can reach out in **#internal-security**
-  - [Jira](https://sourcegraph.atlassian.net/jira/) - Our teams kanban board for planned work management. 
+  - [Jira](https://sourcegraph.atlassian.net/jira/) - Our teams kanban board for planned work management.
     - **#security** or you can reach out in **#internal-security**
 
 ## Sourcegraph - Local Enviroment Setup
@@ -44,7 +44,7 @@ It's much easier to test and debug code locally. Follow the below guide to get S
 
 ### Sourcegraph - Browser Search Engine
 
-Our browser extension has a handy search shortcut letting you quickly search using Sourcegraph. This can be a life saver if you need to quickly find something! 
+Our browser extension has a handy search shortcut letting you quickly search using Sourcegraph. This can be a life saver if you need to quickly find something!
 
 - [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine)
 
@@ -62,28 +62,30 @@ Our private code repositories can only be searched using our internal dev instan
    - For prod and other clusters it’s just a matter of adding the other kubeconfigs
 4. Download and setup [Burpsuite community edition](https://portswigger.net/burp/communitydownload) on your laptop.
    - You can use [this Burp project](https://drive.google.com/file/d/1__fpwVbzUyuZinbrJnEJSVe3WM1ANpxQ/view?usp=sharing) already configured for Sourcegraph.
-   - Try to capture some traffic in your local sourcegraph instance such as logging in. 
+   - Try to capture some traffic in your local sourcegraph instance such as logging in.
 
 **Tip:** The browser extension FoxyProxy makes it much easier to quickly switch between Burps proxy 😉
 
 ## Training
 
-### Golang 
+### Golang
+
 Sourcegraph is built primarily using [Golang](https://golang.org/) if you are unfamiliar with Go it's definitely worth spending some time here to ensure you understand the basics. Go is similar to C but has some syntax differences as well as a replacement for traditional threads called Goroutines. Take your time and step through the below tutorials:
+
 - [Go Intro](https://www.w3schools.com/go/go_introduction.php)
 - [Intro to Goroutines & Channels](https://golangbot.com/goroutines/)
 
 ## Onboarding Tasks
 
-Alright! Time to get our hands dirty 👷 
+Alright! Time to get our hands dirty 👷
 Work through and complete the below onboarding tasks. It's not expected for you to master these on your first run through so please reach out to the team if you'd like someone to pair with for support 😃
 
 ### Explore the Product
 
-The more familiar you are with Sourcegraph and it's components the better! Spend some time code surfing and try to step through a certain feature or component. 
+The more familiar you are with Sourcegraph and it's components the better! Spend some time code surfing and try to step through a certain feature or component.
 
 - Run some sample searches with help from our [product documentation](https://docs.sourcegraph.com).
-- Run a [Batch Change](https://docs.sourcegraph.com/batch_changes/quickstart) to update multiple repos at once! 
+- Run a [Batch Change](https://docs.sourcegraph.com/batch_changes/quickstart) to update multiple repos at once!
 
 ### Buildkite
 
@@ -94,8 +96,9 @@ Explore our Continious Integration (CI) platform [Buildkite](https://buildkite.c
 It’s a common ask of the Security team to rotate or help rotate production secrets. We have extensive documentation about [Secret Management at Sourcegraph](https://docs.google.com/document/d/1Qm5P4KbyVMP_KyPvud0qyqUb43RK3lTFMjAeE6623Nw/edit#heading=h.2xk4w97izb7i). Don’t worry about how to create new secrets unless you’re interested in the setup. For now what matters is focusing on the <code>Rotating Secrets</code> and <code>Secret Types</code> sections.
 
 The goal is rotating two production secrets. You can choose any in these categories:
-  - <strong>A secret in [sourcegraph.com](http://sourcegraph.com/) site-config</strong>: Sourcegraph instances may contain secrets such as OAuth creds in the site-config file. Choose one secret from dotcom’s site-config and rotate. Hint: Avoid the GitLab OAuth creds - go for GitHub OAuth or SMTP credentials.
-  - <strong>Any secret in our production pods or CI</strong>: Besides site-config, it’s important to know how to rotate secrets that we use as env vars in our pods. Look for any secrets that you think are a good idea to rotate in the <code>deploy-sourcegraph-dotcom</code> or <code>infrastructure</code> repositories. [This search ](https://k8s.sgdev.org/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/%28deploy-sourcegraph-dot-com%7Cinfrastructure%29+file:%28base%7Cbuildkite%29+file:%5C.Deployment%5C.yaml%24+secretKeyRef&patternType=regexp)can serve as a starting point to find some secrets to rotate.
+
+- <strong>A secret in [sourcegraph.com](http://sourcegraph.com/) site-config</strong>: Sourcegraph instances may contain secrets such as OAuth creds in the site-config file. Choose one secret from dotcom’s site-config and rotate. Hint: Avoid the GitLab OAuth creds - go for GitHub OAuth or SMTP credentials.
+- <strong>Any secret in our production pods or CI</strong>: Besides site-config, it’s important to know how to rotate secrets that we use as env vars in our pods. Look for any secrets that you think are a good idea to rotate in the <code>deploy-sourcegraph-dotcom</code> or <code>infrastructure</code> repositories. [This search ](https://k8s.sgdev.org/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/%28deploy-sourcegraph-dot-com%7Cinfrastructure%29+file:%28base%7Cbuildkite%29+file:%5C.Deployment%5C.yaml%24+secretKeyRef&patternType=regexp)can serve as a starting point to find some secrets to rotate.
 
 **Note:** This requires having completed the set up part of your Security onboarding. Dig through our code, GCP, 1Password and especially the Secret Management doc.
 
@@ -104,10 +107,11 @@ The goal is rotating two production secrets. You can choose any in these categor
 Skim through our support rotation page in the [handbook](https://handbook.sourcegraph.com/engineering/cloud/security/security-support-rotation). This is meant as a reference so no need to memorize anything 🙂
 
 ## Resources:
-  - [Docs.sourcegraph.com](https://docs.sourcegraph.com)
-  - [Secret Management Doc](https://docs.google.com/document/d/1Qm5P4KbyVMP_KyPvud0qyqUb43RK3lTFMjAeE6623Nw/edit#heading=h.2xk4w97izb7i)
-  - [Security support rotation](https://handbook.sourcegraph.com/engineering/cloud/security/security-support-rotation)
-  - Sourcegraph demo video
+
+- [Docs.sourcegraph.com](https://docs.sourcegraph.com)
+- [Secret Management Doc](https://docs.google.com/document/d/1Qm5P4KbyVMP_KyPvud0qyqUb43RK3lTFMjAeE6623Nw/edit#heading=h.2xk4w97izb7i)
+- [Security support rotation](https://handbook.sourcegraph.com/engineering/cloud/security/security-support-rotation)
+- Sourcegraph demo video
 
 ## Acceptance Criteria
 
