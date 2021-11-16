@@ -51,6 +51,8 @@ We also set our goals around these themes, you can see current FY22-Q4 goals as 
 
 Learning what's possible and how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases and interests for which they would benefit from exploring. Making onboarding and interaction easier also helps our users and sales teams demonstrate the value of our product more quickly than is possible today.
 
+As the market matures, it’s likely we will face competition from companies that vertically specialise in a language ecosystem. It will be important to monitor these to ensure we understand the key innovations, bringing them in (and generalizing them to all languages where possible.) We want to do all languages well, and differentiate on supporting all the languages you use. We don't want to do find ourselves in a situation where we are doing all languages, but doing them poorly.
+
 - Measure and increase [WAU](../../../bizops/user_definitions.md) for [customer facing product teams](https://github.com/sourcegraph/handbook/blob/main/data/product_teams.yml) by 15%. For most teams this will require understanding and improving time-to-value as a driver for increasing active users. (All Teams)
 - Make it easier to adopt Batch Changes by fixing top three changeset syncing and permission configuration issues. ([Batch Changes](./batch-changes/index.md))
 - 3 customers with >1 Search Notebook, demonstrating initial traction for this feature and proving the value of Search Notebooks for sharing explanations of code. ([Search Product](./search/index.md))
@@ -66,9 +68,13 @@ How our product works in terms of pricing, upgrade paths, auditing, single sign-
 
 ### Deliver a unified experience
 
-Our product solves real problems today, but investing in the polish, user experience, and cross-feature functionality within our product teams to make the experience lovable and help us deliver solutions that are more than the sum of the parts. Code insights can lead you to a more detailed search, from which you might launch a more advanced semantic analysis. From here, you might use batch changes to remediate a problem and then document everything you've done in a search notebook. This flow works today, but we can do more to connect these experiences in ways that deliver more value than engaging with them separately.
+Our product solves real problems today, but by investing in polish, user experience, and integrated functionality we can make the experience more lovable and deliver solutions that are "more than the sum of their parts." As an example flow: Code Insights can lead you to a more detailed Precise Code Intelligence search, from which you might launch a more advanced semantic analysis; from here, you might use Batch Changes to remediate a problem and then document everything you've done in a Search Notebook, monitoring the progress as the fix is rolled out in Code Insights. Another example might be learning about a library in API docs and exploring how it is used over time using Code Insights.
 
-- No goal in this quarter since we are improving our measurement capability; we expect to have more focus here in Q1.
+Apart from search, onboarding is an important use case that crosses all the teams within Code Graph, and there are powerful things we can do here. Search Notebooks provide a way to write context-integrated documentation, but another possibility is providing onboarding and learning-specific resources such as visual (literal) code graphs or maps based on different kinds of relationships such as paths, dependencies, data flow, and more. These could be useful when viewing an entire codebase, or even trying to understand a specific pull request.
+
+One thing we've already noticed is that [Code Intelligence](./code-intelligence/index.md) seems to be a common linking component for these sorts of unified features, so architecting that for the future is important.
+
+- No goal in this quarter since we are improving our measurement capability around what is most important here; we expect to have more focus in Q1.
 
 ### Scale for Big Code
 

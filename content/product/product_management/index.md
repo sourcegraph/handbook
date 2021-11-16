@@ -8,7 +8,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
-- [Tracking user feedback](user_feedback.md) - sources of feedback and how we keep track of that feedback.
+- [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
 - [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Learning](product_learning.md) - how we learn from what we shipped.
@@ -52,6 +52,33 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 
 Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
+
+## Collaboration
+
+Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../company/values.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
+
+### Product Management & Marketing
+
+Product Management and Marketing must work closely together to successfully create and launch products. Because of this, it's important to be clear on what the shared and unique responsibilities are within the working relationship.
+
+| Product Marketing is DRI                                                                                 | Product Management is DRI                                                                                 |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [Customer-first](../../company/values.md#customer-first) with orientation towards market                 | [Customer-first](../../company/values.md#customer-first) with orientation towards product and engineering |
+| Providing important market context to the roadmap                                                        | Defining the roadmap                                                                                      |
+| Receives new product info and product updates from product management teams                              | Delivers new product info and product updates to product marketing team                                   |
+| Responsible for aligning product packaging and messaging with market demands                             | Responsible for aligning product requirements with market demands                                         |
+| Defines key value props and messaging of new and updated products to sales, marketing, and support teams | Delivers technical aspects of new and updated products to product marketing team                          |
+| Closest allies are product management, marketing, and sales                                              | Closest allies are the development team, customer support, customer engineering, and product marketing    |
+
+Shared areas of ownership where both teams contribute are:
+
+- [Pricing and tiering/packaging](./pricing.md)
+- Market research, including personas, ideal customer profiles, etc.
+- Competitive positioning and analysis
+- [Go to market planning](./rollout_process.md)
+- [Customer communications](#talking-to-customers-and-stakeholders)
+
+Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../communication/conflicts.md#clean-escalation) process to get to the best decision.
 
 ## Communications
 

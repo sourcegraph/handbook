@@ -1,6 +1,6 @@
 # Working with Product
 
-This page has some basic info on how CEs work with the product team. For more info, see [Tracking and Sharing User Feedback](../product/product_management/user_feedback.md) and [Surfacing Feedback to the Product Team](../product/surfacing_product_feedback.md).
+This page has some basic info on how CEs work with the product team. For more info, see [Tracking and Sharing User/Stakeholder Feedback](../product/product_management/user_stakeholder_feedback.md) and [Surfacing Feedback to the Product Team](../product/surfacing_product_feedback.md).
 
 ## Adding GitHub Issues to Boards
 

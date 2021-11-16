@@ -1,4 +1,4 @@
-# Editing the Handbook FAQs
+# Editing the Handbook FAQs & Troubleshooting
 
 Before asking the #handbook channel for help, see if your question can be answered below. If you see a question being commonly asked in the #handbook channel, feel free to add it and the answer to this page.
 
@@ -20,7 +20,7 @@ You may see the following message:
 
 This means someone else has made changes on the main branch that you need to pull into your branch to move forward. If you were to merge your branch as is, your changes could conflict with the changes made by another teammate. Clicking “Update branch” will trigger Handbook Checks to run again, and you can then merge your changes.
 
-The best way to avoid this is to merge your changes often. Sometimes on commonly edited pages (like the [Team page](../company/team/index.md)), this is hard to avoid.
+The best way to avoid this is to merge your changes often. Sometimes on commonly edited pages (like the [Team page](../../company/team/index.md)), this is hard to avoid.
 
 ## What does it mean to enable auto-merge?
 
@@ -29,3 +29,16 @@ When you create a pull request, you should see a button titled "Enable auto-merg
 ![Enable automerge](https://storage.googleapis.com/sourcegraph-assets/handbook/enable%20auto%20merge.png)
 
 Clicking this button means your change will automatically be merged in for you once all checks have passed. If any checks fail, you'll get an email notification if your Github account is set up to do so. This is a great way to "set it and forget it" after you make changes in the Handbook, to avoid leaving a PR open for a long time and running into merge conflicts.
+
+## The Handbook is running slowly. Can we fix it?
+
+If the handbook is loading slowly, deleting the pod sometimes helps. It occurs after e.g. ~16 days of the pod being alive:
+
+```
+$ kubectl get pods -A | grep about
+default         about-sourcegraph-com-6d9b8dc9d5-llmh6                      1/1     Running     0          16d
+$ kubectl -n default delete pod about-sourcegraph-com-6d9b8dc9d5-llmh6
+pod "about-sourcegraph-com-6d9b8dc9d5-llmh6" deleted
+```
+
+You can access a console to execute the above commands via GCP: https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud/details?project=sourcegraph-dev

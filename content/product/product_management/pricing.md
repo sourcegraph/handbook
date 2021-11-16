@@ -22,7 +22,7 @@ See our [open source philosophy](../../engineering/licenses.md#open-source-philo
 
 ### Role of the free tier
 
-This is changing soon and will be updated.
+Coming soon.
 
 ### Difference between Cloud, Enterprise, and OSS
 

@@ -20,5 +20,5 @@ We are establishing the **operational rotation** to predictably deliver sprint g
 - Hands off work in progress to the next team member who is starting operational rotation.
 - Share knowledge with the Customer Support team. Example:
   - Pair with Customer Support engineer(s) on current open customer support issues.
-  - Optionally (but highly recommended), record and add to the list [here](../../support/debugging-tips.md).
+  - Optionally (but highly recommended), record and add to the list [here](../../support/enablement/debugging-tips.md).
 - Work on the team's technical debt items if there is free capacity.

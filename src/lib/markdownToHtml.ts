@@ -48,7 +48,7 @@ export default async function markdownToHtml(
     markdown: string,
     contextUrlPath: string,
     isIndexPage: boolean
-): Promise<{ content: string; title?: string; toc: Toc }> {
+): Promise<{ content: string; title?: string; toc: Toc; internalLinks?: string[] }> {
     // Pre-insert generated markdown
     markdown = await Promise.resolve(insertGeneratedMarkdown(markdown))
     const result = await unified()
@@ -101,7 +101,12 @@ export default async function markdownToHtml(
         .use(rehypeStringify)
         .process(markdown)
 
-    return { content: result.toString(), title: result.data.title as string, toc: result.data.toc as Toc }
+    return {
+        content: result.toString(),
+        title: result.data.title as string,
+        toc: result.data.toc as Toc,
+        internalLinks: (result.data.internalLinks as string[]) ?? [],
+    }
 }
 
 /**
@@ -141,6 +146,14 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         // earlier to save a redirect
         .replace(/\/$/, '')
 
+    if (match.node.tagName === 'a') {
+        const formattedInternalUrl = url.format(url.resolve(contextUrlPath, parsedUrl.pathname || ''))
+        const vfileData = match.file.data as VFile['data'] & { internalLinks?: string[] }
+        if (!vfileData.internalLinks) {
+            vfileData.internalLinks = []
+        }
+        vfileData.internalLinks.push(formattedInternalUrl)
+    }
     match.node.properties![match.propertyName!] = url.format(parsedUrl)
 }
 
