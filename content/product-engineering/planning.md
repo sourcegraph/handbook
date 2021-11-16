@@ -47,7 +47,7 @@ In short, the strategy is the WHY, the OKRs are the WHAT, and roadmap items are 
 - Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
 - Team: A well-defined product team that works to deliver features for one or more product areas.
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
-- Launch tiers (L1, L2, and L3): Different levels of attention and planning that features we are launching get. This is documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
+- Launch tiers (L1, L2, and L3): Different levels of attention and planning that features we are launching get. This is documented on the [marketing launch page](../marketing/product-marketing/marketing_launch_tiers.md).
 
 ## Annual planning process
 
