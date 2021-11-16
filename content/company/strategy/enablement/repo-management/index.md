@@ -76,23 +76,19 @@ Note that the time periods are rolling time periods and the plans here are revie
 #### Monorepo support
 
 - **Current status:** In progress
-- **Expected effort:** <5% team time
+- **Expected effort:** <5% team time (our role is largely support)
 - **Why:** Monorepos are commonplace but exert a huge toll on systems like ours - so much so that customers feel a significant ammount of pain and with
-- Most of the previously considered work actually resides with other teams, so our role in this will largely be support.
 
-#### GitServer HA
+#### [GitServer HA](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#)
 
 - **Current status:** In progress
 - **Expected effort:** ~50% team time
-- **Why:** Code host connectivity, scalability and reliability is at the heart of our product, underpinning literally all other features. As we scale the size of customers we’re trying to win and delight, we cannot avoid tactical work to expand our functional coverage (which code hosts we support and how completely), but we also need to ensure Sourcegraph can handle the current and future challenges that the largest customers will throw at it with regards to the size of their repos, number of repos and performance required.
+- **Why:** Code host connectivity, scalability and reliability is at the heart of our product, underpinning literally all other features. As we scale the size of customers we’re trying to win and delight, we cannot avoid tactical work to expand our functional coverage (which code hosts we support and how completely), but we also need to ensure Sourcegraph can handle the current and future challenges that the largest customers will throw at it with regards to the size of their repos, number of repos and performance required. This is partially in aid of monorepo support, and partly system resilience.
 
-- This is partially in aid of monorepo support, and partly system resilience.
-- More information and problem context available [here](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#).
-
-1. Current work is related to replacing the hashing algorith to prevent the redistribution (rebalancing) of repos across the available Gitservers when a Gitserver is added or removed.
-2. Next step is to trial repo duplication (copies on more than one Gitserver) in Sourcegraph.com
-3. After that, making control of the replication factor customer editable (likely not in Q3)
-4. Future work (Not within Q3) - sharding monorepos across multiple Gitservers
+-[x] Current work is related to replacing the hashing algorithm to prevent the redistribution (rebalancing) of repos across the available Gitservers when a Gitserver is added or removed.
+-[ ] Next step is to trial repo duplication (copies on more than one Gitserver) in Sourcegraph.com
+-[ ] After that, making control of the replication factor customer editable (likely not in Q3)
+-[ ] Future work (Not within Q3) - sharding monorepos across multiple Gitservers
 
 #### Perforce support
 
@@ -108,37 +104,21 @@ Note that the time periods are rolling time periods and the plans here are revie
 
 ### Mid term (6m)
 
-#### GitServer HA Cont.
+#### [GitServer HA Cont.](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#)
+- **What:** Better support for monorepos, likely through better utilization of ability to replicate or shard monorepos across multiple GitServer instances within Sourcegraph
 
-Continued from [above](#gitserver-ha)
-
-**What:**
-
-1. Better support for monorepos, likely through better utilization of ability to replicate or shard monorepos across multiple GitServer instances within Sourcegraph
-
-**Why:**
-Support our largest customers in a robust and reliable way, no matter how many repos and what size.
+- **Why:** Support our largest customers in a robust and reliable way, no matter how many repos and what size.
 
 #### Gerrit Permissions syncing
+- **What:** Gerrit supports permissions more granular than just repo-level. Since this is needed to properly (in a long term way) support Perforce too, we're expecting to do work to change our internal model to support more granualr permissions, then add Gerrit support properly on top of this.
 
-**What:**
-Gerrit supports permissions more granular than just repo-level. Since this is needed to properly (in a long term way) support Perforce too, we're expecting to do work to change our internal model to support more granualr permissions, then add Gerrit support properly on top of this.
+- **Why:** Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246). We are currently [investigating](https://github.com/sourcegraph/sourcegraph/issues/23563) the value to other customers who are known Gerrit users, and the depth of support needed.
 
-**Why:**
-Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246).
-Currently [investigating](https://github.com/sourcegraph/sourcegraph/issues/23563) the value to other customers who are known Gerrit users, and the depth of support needed.
+#### [BB Cloud permissions](https://github.com/sourcegraph/sourcegraph/issues/19782)
 
-<sup>1</sup>(With the exception of Perforce which utilizes a hack where directories with more graunlar permissions appear as repos within Sourcegraph).
+- **What:** Support permissions syncing for BitBucket Cloud.
 
-#### BB Cloud permissions
-
-**What:**
-Support permissions syncing for BitBucket Cloud.
-
-[GitHub Issue](https://github.com/sourcegraph/sourcegraph/issues/19782)
-
-**Why:**
-Currently blocking expansion for at least [one large customer](https://github.com/sourcegraph/customer/issues/288) as well as being strategically valuable as Atlassian have announce EOL for BB Server, meaning many other BB Server customers will likely move to BB Cloud and want this support.
+- **Why:** Currently blocking expansion for at least [one large customer](https://github.com/sourcegraph/customer/issues/288) as well as being strategically valuable as Atlassian have announce EOL for BB Server, meaning many other BB Server customers will likely move to BB Cloud and want this support.
 
 ## What we're not working on
 
