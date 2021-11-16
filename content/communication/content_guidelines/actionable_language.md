@@ -134,14 +134,14 @@ Always write button labels in sentence case.
 
 ##### Yes
 
-- Create new batch change
+- Create batch change
 
 </div>
 <div class="item no">
 
 ##### No
 
-- Create New Batch Change
+- Create Batch Change
 
 </div>
 </div>
