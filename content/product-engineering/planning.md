@@ -1,9 +1,10 @@
 # Product and engineering planning
 
 - [Product and engineering planning](#product-and-engineering-planning)
-  - [Planning timeline](#planning-timeline)
-    - [Annual planning process](#annual-planning-process)
-    - [Quarterly planning process](#quarterly-planning-process)
+  - [Philosophy](#philosophy)
+  - [Definitions](#definitions)
+  - [Annual planning process](#annual-planning-process)
+  - [Quarterly planning process](#quarterly-planning-process)
   - [Sharing progress](#sharing-progress)
     - [Status definitions](#status-definitions)
     - [GitHub project tracker](#github-project-tracker)
@@ -12,9 +13,35 @@
     - [Monthly team updates](#monthly-team-updates)
   - [Quarterly retrospectives](#quarterly-retrospectives)
 
-## Planning timeline
+## Philosophy
 
-### Annual planning process
+Our planning process defines how we create goals and track progress toward those goals.
+
+Properties of a good plan:
+
+- The plan addresses the most important business needs (and is subject to change if the business needs change).
+- The plan is ambitious and feasible.
+- The plan provides a clear direction about what success looks like so the teams have space to figure out how to achieve success and so teams understand what is not a priority.
+
+To acheive a good plan, our planning process based on the following principles:
+
+- Everyone on our team has context and insights that are valuable to inputs into the planning process.
+- success we want to understand and be able to measure the impact and value the work we commit to will have on customers, our internal teams, and the overall success of Sourcegraph.
+- Arriving at a good plan is an iterative process that is neither exclusively top-down nor exclusively bottom-up because there is a cyclical information dependency. Company level strategy is informed by what is working and not working about our business (context our teams have), and team plans are informed by what our company level strategy is (a decision ultimately owned by our CEO).
+
+TODO(nick): write more here
+
+## Definitions
+
+Our [strategy](strategy.md) is a concise description of how product and engineering contribute to the top-level company objectives. It sets a clear direction so we stay focused on what is important and have appropriate trade-off discussions if necessary.
+
+[OKRs](../company/goals/guidelines.md) define how we measure success.
+
+**Roadmap items** are the concrete high-level things that we are delivering to achieve success (as measured by OKRs).
+
+In short, the strategy is the WHY, the OKRs are the WHAT, and roadmap items are the HOW.
+
+## Annual planning process
 
 We go through this full process in Q4 and a lightweight version of this every quarter to review and make necessary updates.
 
@@ -26,7 +53,7 @@ We go through this full process in Q4 and a lightweight version of this every qu
 | Week 5          | Share & gather feedback <ul> <li>VPP/VPE share annual vision with Product/Eng Directors and gather feedback</li></ul>                                          |
 | Week 6          | Finalize annual vision document <ul> <li>VPs update and finalize based on feedback</li> <li>Annual vision added to handbook & communicated on Slack</li> </ul> |
 
-### Quarterly planning process
+## Quarterly planning process
 
 This is the planning process we do each quarter.
 | Week | Action |
