@@ -4,6 +4,15 @@
 
 We use personas to understand our users and what they need as we prioritize our work. More can be read on the [personas page](../../marketing/personas.md) in the marketing handbook, which also links to a presentation with the actual personas in it.
 
+## Inputs to prioritization
+
+There are several sources that product managers look at when deciding what's important to prioritize next.
+
+- [Your own strategy](../../company/strategy/index.md#per-team-strategy-pages) and where you are trying to go
+- [The overall company strategy](../../company/strategy/index.md) and how you fit in
+- [Company and product/engineering goals](../../company/goals/index.md) and how you can drive them forward
+- [User & stakeholder feedback](user_stakeholder_feedback.md) to realize our value of being [customer-first](../../company/values.md#customer-first)
+
 ## Saying "no"
 
 We receive tons of feature requests and bug reports, more than we can handle. This means we must frequently say "no" or prioritize things less urgently than some people would like. Our job is to find the most important things to work on.

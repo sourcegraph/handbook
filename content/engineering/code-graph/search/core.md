@@ -6,6 +6,8 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 - Diff/commit search
 - Result ranking
 
+To learn more about our goals, see the [Search Core strategy](../../../company/strategy/code-graph/search/core.md) page.
+
 ## Team members
 
 - We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../company/team/index.md#jason-yavorska) is involved in the meantime.

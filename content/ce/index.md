@@ -50,6 +50,7 @@ This continuity means we give customers consistent and high-quality service from
   - [Dan Ryan](../company/team/index.md#dan-ryan)
   - [Manuel Ucles](../company/team/index.md#manuel-ucles)
   - [Max Wiederholt](../company/team/index.md#max-wiederholt)
+  - [Dan Diemer](../company/team/index.md#dan-diemer)
   - [FQ4 CE](https://boards.greenhouse.io/sourcegraph91/jobs/4003921004)
 - Americas - US East
   - [Leo Abreu](../company/team/index.md#leo-abreu)

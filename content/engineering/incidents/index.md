@@ -5,6 +5,7 @@ An incident is any unplanned event that causes a service disruption. Identifying
 Some examples of incidents:
 
 - sourcegraph.com is down or a critical feature is broken (e.g. sign-in, search, code intel).
+- If sourcegraph.com is down for more than 5 minutes, a critical feature is down for more than 5 minutes, or we're aware of a service degradation issue that >5 users have reported. If you're unsure if the incident's impact qualifies, ask @cs in Slack for advice.
 - We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many self-hosted instances
 - We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many managed instances
 - We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many Cloud/SaaS users
