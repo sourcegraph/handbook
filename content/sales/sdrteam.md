@@ -148,25 +148,26 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
   - Any exception will be on a ‘needs of the business’ basis and require SVP approval
     - e.g. a rep is on track and has an unexpected life event that requires time off that was unexpected
     - e.g. a rep has been on track and has a change in support structure that requires a ‘mini-ramp” (moving territories/segments/etc.)
-- [Consistent demonstrations of Sourcegraph Core Values](https://handbook.sourcegraph.com/company/values#sourcegraph-values) 
+- [Consistent demonstrations of Sourcegraph Core Values](https://handbook.sourcegraph.com/company/values#sourcegraph-values)
 
   **Interview-** a one hour presentation including a mock sales meeting
+
 - Attendees (mock presentation roles):
   - Hiring Manager (Decision Maker)
   - VP of Sales (Engineer)
   - CE leader (Engineering Leader)
   - Current manager (no role, observer only)
-- 1 Hour presentation that covers the following: 
-    - Why are you ready to be an AE at Sourcegraph? 1-2 slides (5 mins) 
-    - About you 
-    - Why sales? 
-    - Performance in SDR role to date 2~ slides (10 mins) 
-      - Results/KPIs/Partnering with your AE 
-      - Pipeline generation process 
-    - Mock Discovery Call- (45 mins) 
-    - Based on customer prompt, position Sourcegraph to a group evaluating bringing in the tool (25 mins) 
-    - Q&A + Feedback (20 mins)
-  **Decision meeting**
+- 1 Hour presentation that covers the following:
+  - Why are you ready to be an AE at Sourcegraph? 1-2 slides (5 mins)
+  - About you
+  - Why sales?
+  - Performance in SDR role to date 2~ slides (10 mins)
+    - Results/KPIs/Partnering with your AE
+    - Pipeline generation process
+  - Mock Discovery Call- (45 mins)
+  - Based on customer prompt, position Sourcegraph to a group evaluating bringing in the tool (25 mins)
+  - Q&A + Feedback (20 mins)
+    **Decision meeting**
 - Candidate will receive prompt feedback on strengths and areas for improvement
   - Decision will be delivered including preliminary start date
   - If candidate does not pass through, documented plan for areas to improve will be delivered by current manager
@@ -174,6 +175,7 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
 - Start dates will be semi-annual on 2/1 and 8/1
 
 **Scoring Criteria for Presentation:**
+
 - Communication- candidate presentation is paced well, transitions are smooth, concepts are clear, everyone is included and heard, filler words are minimal, confidence is apparent
 - Problem Discovery - candidate uses active listening and curiosity to uncover customer pain points
 - Solution Mapping - candidate aligns specific aspects of the Sourcegraph solution to expressed customer needs with an eye towards collecting information that will inform a subsequent demo
