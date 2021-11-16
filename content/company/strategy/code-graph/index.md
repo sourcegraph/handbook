@@ -50,6 +50,17 @@ We have more and more large customers dealing with a lot of code and complexity 
 
 ## Principles
 
+### General principles
+
+Code Graph should be:
+
+- 🌍 **Universal**: We believe code search should be universal–meaning it should make the entire universe of available code searchable, and that it should be available universally–to every developer, regardless of skill level.
+- 💡 **Easy to use**: The learning curve for search should be as smooth as possible. Code can be complicated and we'll strive to make the search experience as painless and intuitive as possible so code is approachable for everyone.
+- ⌨️ **Accessible**: Everyone deserves access to high quality code search; as such, our code search interface should be accessible.
+- 🚀 **Fast**: For any search product to be effectively used, in addition to the above, it must be fast. We will continually improve our search performance so users get results back fast regardless of the the size of data we index.
+- ✅ **Relevant**: In order to be useful, search results need to be relevant. Our search results will be the most accurate, relevant, and informative results possible. Our current results ranking is a first pass specifically targeting Cloud. Future work on ranking should also take into account the needs of Enterprise users.
+- 🧠 **Educational**: For everyone to be able to code, we need to foster a culture of knowledge sharing. Sourcegraph is in a unique position to leverage search to increase code sharing and education, empowering communities of self-learners.
+
 ### Abstraction vs. complexity
 
 According to [The Case for 'Developer Experience'](https://future.a16z.com/the-case-for-developer-experience/) (by [Jean Yang](https://twitter.com/jeanqasaur)), there are two ways to think about categories of developer tools or features today:
