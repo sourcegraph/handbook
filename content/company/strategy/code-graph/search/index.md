@@ -48,4 +48,4 @@ As the scope of the Search teams expands, we'll face competition in new areas. S
 
 ## Where we are now and what's next
 
-Theis section is broken out into [Search Core](./core.md) and [Search Product](./product.md) pages. Refer to each of those for details on what's coming up for each team.
+This section is broken out into [Search Core](./core.md) and [Search Product](./product.md) pages. Refer to each of those for details on what's coming up for each team.
