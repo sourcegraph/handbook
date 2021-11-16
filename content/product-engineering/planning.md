@@ -1,18 +1,5 @@
 # Product and engineering planning
 
-- [Product and engineering planning](#product-and-engineering-planning)
-  - [Philosophy](#philosophy)
-  - [Definitions](#definitions)
-  - [Annual planning process](#annual-planning-process)
-  - [Quarterly planning process](#quarterly-planning-process)
-  - [Sharing progress](#sharing-progress)
-    - [Status definitions](#status-definitions)
-    - [GitHub project tracker](#github-project-tracker)
-    - [OKR slides](#okr-slides)
-    - [Weekly team updates](#weekly-team-updates)
-    - [Monthly team updates](#monthly-team-updates)
-  - [Quarterly retrospectives](#quarterly-retrospectives)
-
 ## Philosophy
 
 Our planning process defines how we create goals and track progress toward those goals.
