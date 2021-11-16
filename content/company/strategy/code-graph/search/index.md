@@ -11,21 +11,7 @@ Quicklinks:
 
 ## Mission
 
-Sourcegraph's mission is to make it so that everyone can code. The Search teams' mission is to enable developers to find the code they need when they need it.
-
-## Vision
-
-#### 1 Year vision
-
-> Enterprise customers of Sourcegraph actively use our differentiated code search features. Sourcegraph Cloud enables federated search over several code hosts beyond GitHub and GitLab, with relevant results.
-
-#### 3 Year vision
-
-> Search powers [unified](../index.md#deliver-a-unified-experience) use cases of Sourcegraph, at any Enterprise scale and across the entire OSS universe.
-
-#### 10 year vision
-
-> Code search is a cornerstone of [universal coding literacy](../../index.md#ten-year-vision-democratize-coding).
+Sourcegraph's mission is to make it so that everyone can code. The Search teams' mission is to enable developers to find the code they need when they need it. We want enterprise customers of Sourcegraph actively use our differentiated code search features. Sourcegraph Cloud enables federated search over several code hosts beyond GitHub and GitLab, with relevant results. Eventually, we envision that Search will power [unified](../index.md#deliver-a-unified-experience) use cases of Sourcegraph, at any Enterprise scale and across the entire OSS universe. Beyond that, we see Code search is a cornerstone of [universal coding literacy](../../index.md#ten-year-vision-democratize-coding).
 
 ## Guiding principles
 
