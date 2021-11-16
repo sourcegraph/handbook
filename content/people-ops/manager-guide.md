@@ -138,4 +138,4 @@ When to complete this form?
 
 ### Process for a Role Change
 
-1. Update the `reports_to` field on the [team page](../company/team.md) to reflect the change.
+1. Update the `reports_to` field on the [team page](../company/team/index.md) to reflect the change.
