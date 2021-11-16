@@ -1,6 +1,6 @@
 # SDR Team
 
-The SDR Team (TBA)
+The SDR team at Sourcegraph is built to source high quality pipeline for the broader sales org.
 
 ## Members
 
@@ -9,15 +9,22 @@ The SDR Team (TBA)
     - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley)
     - [Brannon Rouse](../company/team/index.md#brannon-rouse)
     - [Carter Jaenichen](../company/team/index.md#carter-jaenichen)
+    - Open
   - East Outbound SDRs
     - [Sam Cregg](../company/team/index.md#sam-cregg)
     - [Ellie Dawson](../company/team/index.md#ellie-dawson)
-  - Inbound SDR
+    - Open
+    - Open
+  - Inbound SDRs
     - [Mark "Markie" Muldez](../company/team/index.md#mark-markie-muldez)
-  - EMEA SDR
+    - Open
+  - EMEA SDRs
     - [Jagna Feierabend](../company/team/index.md#jagna-feierabend)
-
-More SDRs coming soon...
+    - Open
+  - APAC SDRs
+    - Open
+  - Commercial SDRs
+    - Open
 
 ## Quick Links
 
@@ -118,4 +125,3 @@ See [SDR/AE Meeting ROE](https://docs.google.com/document/d/1KP1ao_UBZS80s4o0lOM
 - Zoominfo - Data Intelligence Tool
 - LeadiQ - Data Intelligence Tool
 - Postal.Io - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
--
