@@ -26,6 +26,8 @@ See the [Product & Engineering handbook on sharing progress](../../product-engin
 
 We also use [per-team strategy pages](../../company/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
 
+See also our handbook section on [strategy page documentation as it relates to planning](../../product-engineering/planning.md#strategy-pages).
+
 #### Product data
 
 The last thing teams should review and update monthly are the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/), in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [product team and feature reference pages](../index.md##product-team-and-feature-matrices).

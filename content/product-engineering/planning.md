@@ -184,27 +184,9 @@ The purpose of our quarterly OKR retrospectives is to create a shared safe space
 
 ## Strategy Pages
 
-[The per-team strategy pages](../company/strategy/index.md#per-team-strategy-pages) are a roadmap where we track and prioritize larger projects that we intend to finish in the next 3-12 months.
+[The per-team strategy pages](../company/strategy/index.md#per-team-strategy-pages) are where we track our strategy in narrative form for the next 3-12 months. Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
 
-Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
-
-The roadmap/strategy is NOT:
-
-- a comprehensive backlog of everything we want to do ever
-- a list of every bug or customer issue in our issue tracker
-- permanent or unchanging
-
-The roadmap/strategy is:
-
-- a prioritized list of the most important things we intend to do next
-- an indicator of relative priority to teams, customers, and users
-- a place for discussions about priority
-- updated monthly
-- where engineering and product negotiate the next most important thing to work on
-
-Teams should work on what their strategy page says they will work on next, and not just leave it behind to work on other things. If there is a desire to work on something else, the change should be discussed and merged to the page.
-
-We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
+Teams should work on what their strategy page says they will work on next, and not just leave it behind to work on other things. If there is a desire to work on something else, the change should be discussed and merged to the page. We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
 
 ## Related content
 
