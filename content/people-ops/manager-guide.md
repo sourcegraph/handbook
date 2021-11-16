@@ -137,4 +137,5 @@ When to complete this form?
 - If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change).
 
 ### Process for a Role Change
+
 1. Update the `reports_to` field on the [team page](../company/team.md) to reflect the change.
