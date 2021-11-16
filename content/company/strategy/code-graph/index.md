@@ -4,7 +4,7 @@ We have teams working on [Search](./search/index.md), [Code Insights](./code-ins
 
 ## Mission
 
-Make finding, understanding, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are. We will achieve this by creating a  flow that ties insights, searching, and changes together.
+Make finding, understanding, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are. We will achieve this by creating a flow that ties insights, searching, and changes together.
 
 ## Principles
 
