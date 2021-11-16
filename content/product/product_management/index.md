@@ -4,7 +4,7 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Planning](planning.md) - how we do planning and the artifacts we use to plan.
+- [Planning](../../product-engineering/planning.md) - how we do planning and the artifacts we use to plan.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
