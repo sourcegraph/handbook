@@ -8,6 +8,7 @@
     - [Status definitions](#status-definitions)
     - [GitHub project tracker](#github-project-tracker)
     - [OKR slides](#okr-slides)
+    - [Weekly team updates](#weekly-team-updates)
     - [Monthly team updates](#monthly-team-updates)
   - [Quarterly retrospectives](#quarterly-retrospectives)
 
