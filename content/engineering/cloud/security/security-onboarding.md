@@ -104,13 +104,13 @@ The goal is rotating two production secrets. You can choose any in these categor
 
 ### Security Support Rotation
 
-Skim through our support rotation page in the [handbook](https://handbook.sourcegraph.com/engineering/cloud/security/security-support-rotation). This is meant as a reference so no need to memorize anything 🙂
+Skim through our support rotation page in the [handbook](../../cloud/security/security-support-rotation.md). This is meant as a reference so no need to memorize anything 🙂
 
 ## Resources:
 
 - [Docs.sourcegraph.com](https://docs.sourcegraph.com)
 - [Secret Management Doc](https://docs.google.com/document/d/1Qm5P4KbyVMP_KyPvud0qyqUb43RK3lTFMjAeE6623Nw/edit#heading=h.2xk4w97izb7i)
-- [Security support rotation](https://handbook.sourcegraph.com/engineering/cloud/security/security-support-rotation)
+- [Security support rotation](../../cloud/security/security-support-rotation.md)
 - Sourcegraph demo video
 
 ## Acceptance Criteria
