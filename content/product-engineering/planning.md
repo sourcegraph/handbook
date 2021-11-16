@@ -85,7 +85,7 @@ The [GitHub project tracker](https://github.com/orgs/sourcegraph/projects/214) i
 
 - The **Product and Engineering** tab tracks the results that the product and engineering VPs and directors review every week at the [VP team sync](#vp-team-sync).
 - Each org (Cloud, Enablement, Code graph) has a tab that tracks the results for that org. Org directors review this dashboard each week with their team.
-- The **Engineering** tab tracks results that are relevant only to engineering or engineering leadership. This is reviewed every week in the [VPE team sync](#todo-link).
+- The **Engineering** tab tracks results that are relevant only to engineering or engineering leadership. This is reviewed every week in the [VPE team sync](team.md#vpe-team-sync).
 - The **All** tab simply shows all items in the tracker for reference.
 
 Expectations:
