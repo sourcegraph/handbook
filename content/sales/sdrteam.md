@@ -13,7 +13,7 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
   - East Outbound SDRs
     - [Sam Cregg](../company/team/index.md#sam-cregg)
     - [Ellie Dawson](../company/team/index.md#ellie-dawson)
-    - Open
+    - [Daniel Gwyn] 
     - Open
   - Inbound SDRs
     - [Mark "Markie" Muldez](../company/team/index.md#mark-markie-muldez)
