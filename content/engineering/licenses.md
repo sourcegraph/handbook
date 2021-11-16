@@ -9,7 +9,27 @@ All Sourcegraph code should generally be licensed under either:
 - The [Apache license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.apache)
 - The [Sourcegraph enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise)
 
-Which one to choose is a decision that your team, manager, and product/leadership should agree on. In general core value adds should be enterprise-licensed, while utilities, support libraries, etc. that are unlikely to benefit potential competitors should be Apache licensed.
+Which one to choose is a decision that your team, manager, and product/leadership should agree on.
+
+### Open Source philosophy
+
+Sourcegraph has an open core business model: it develops Sourcegraph OSS as well as Sourcegraph Enterprise. Like any open core company, we balance the need to serve a strong community, with the need to build a sustainable business that can continuously invest in its products. We are [open and transparent](../company/values.md#open-and-transparent), so we strive to clearly communicate our decisions to make a feature open source or not.
+
+In general core value adds should be enterprise-licensed, while utilities, support libraries, etc. that are unlikely to benefit potential competitors should be Apache licensed.
+
+We intend Sourcegraph OSS to:
+
+- allow any developer to build Sourcegraph OSS from source and get code search, with very little obligations (Apache 2)
+- allow any developer to modify Sourcegraph OSS with very little obligations (Apache 2)
+
+We intend Sourcegraph Enterprise to
+
+- be usable in production out of the box
+- be supported by our team
+- include features that enable teams and companies to use Sourcegraph
+- include features that deliver significant value beyond code search
+
+We intend all of Sourcegraph to be source available so that anyone can view our code.
 
 ## Using open source code
 
