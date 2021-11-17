@@ -191,7 +191,7 @@ TBD
 
 ### Hiring
 
-This section contains links to Core App specific interview types.
+This section contains links to Cloud SaaS specific interview types.
 
 - [Architectural Interview](./hiring/cloud-saas-software-engineer-architectural-interview.md)
 - [Pairing Coding Interview](../../hiring/software-engineer-coding-exercise.md#cloud-saas-team-coding-exercise)
