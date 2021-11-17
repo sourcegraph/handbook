@@ -3,7 +3,7 @@
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](operations.md).
 
-1. Create a issue with the managed instance template in the `sourcegraph/customer` repository.
+1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
    - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details
    - Ensure when you run `terraform apply` that you commit and push the `terraform.tfstate` file to github
@@ -55,22 +55,18 @@ For basic operations like accessing an instance for these steps, see [managed in
    		},
    	],
    ```
-1. Add an entry for the customer by adding their HubSpot link to the checklist in the [managed instances upgrade issue template](../../../releases/upgrade_managed_issue_template.md).
-1. Contact the CE who requested the instance and ask that they generate / provide the relevant license key for the customer's instance, then set it in the site config. If the requesting CE is unavailable or this was an internal instance, ask #ce for assistance.
+1. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
 
 To provide the customer access to the instance:
 
-1. Work with the requesting CE or [#ce](../../../../ce/index.md) to ask the customer:
-   1. If their instance should be protected by SSO only, or SSO + IP-restricted access. If the latter, what IP addresses / CIDR ranges should be allowed (e.g. the source IPs of their corporate VPN, usually their infrastructure or IT teams can provide this).
-   1. Who should be the recipient of the initial site admin account creation link? This will let them configure the admin password, which they will need to store somewhere securely, and is used for them to set up SSO as well as for them to get access if at any point SSO is not working. They can create more password or SSO-based admin accounts later as desired.
-1. Create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](operations.md).
+1. If IP restrictions are requested, create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](operations.md).
 1. Prepare the initial admin account for the customer:
-   1. Go to `/site-admin/users` and hit "Create user", and fill in the appropriate values.
-   1. Copy the generated link and send it to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Keep in mind this link will expire after 4 hours.
+   1. Go to `/site-admin/users` and hit "Create user", and fill in the appropriate values. (The email address should be in the original managed instance Issue created by CE.)
+   1. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Keep in mind this link will expire after 4 hours.
    1. Go to `/site-admin/users` and promote the created account to site admin.
 
-## Configuring SSO and repositories
+## Configuring License, SSO, and repositories
 
-Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a delivery team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding repos, configuring SSO, and inviting users.
+Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a delivery team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.

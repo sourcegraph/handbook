@@ -44,25 +44,7 @@ Our [values](../values.md) are the principles and beliefs that help us achieve o
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, our [product design principles](../../product/design/product_design_principles.md) are:
-
-- **A personal tool within a larger workflow**<br />
-  Sourcegraph is a powerful yet personal tool that exists within a larger workflow. Design for familiar patterns with thoughtful defaults, while embracing personalization and adaptability.
-
-- **Made for everyone**<br />
-  Our purpose is to make it so everyone can code. This demands we make Sourcegraph accessible and useful for all developers through universal, inclusive design.
-
-- **Gracefully manage complexity**<br />
-  Sourcegraph supports complex product requirements, but also empowers users to manage this complexity for their individual needs.
-
-- **Code as content**<br />
-  More time is spent reading than writing code. Elevate the craft of code as content.
-
-- **Trust is earned**<br />
-  Sourcegraph is the source of truth, but this trust is earned. Accuracy, transparency, recency, and honesty together work to uphold this source of truth.
-
-- **Create momentum**<br />
-  Help developers create and maintain flow. To do this, Sourcegraph must be fast in every way. We design purposefully to help users iterate and build momentum.
+Additionally, these are our [product design principles](../../product/design/product_design_principles.md).
 
 ## Assumptions
 
@@ -79,13 +61,7 @@ Additionally, our [product design principles](../../product/design/product_desig
 
 ## Where we're at now
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature reference pages](../../product/index.md#product-team-and-feature-reference).
-
-## FY23 strategy
-
-> Target ~5-7(TBD) specific use cases for existing customers first to grow ARR ~\_\_\_x(TBD).
-
-See the ["FY23 strategy"](https://docs.google.com/document/d/11ot7RoJ18mmjeP8Zb4TJMJsdQf5ZmGErkPq1VDW80d4/edit) doc for full details. (We will copy this doc into the handbook when it is finished being edited.)
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../product/index.md#feature-matrices). The [following](../../product-engineering/strategy.md) gives on overview of what we are working on today.
 
 ## Five-year vision: democratize code
 
@@ -115,23 +91,25 @@ Coding itself is a technology, and we anticipate the technology adoption curve w
 
 Within this overall product strategy, individual product teams set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
-### [Code Graph](code-graph/index.md)
+### [Product & Engineering](../../product-engineering/strategy.md)
+
+#### [Code Graph](code-graph/index.md)
 
 - [Search core and Search product](code-graph/search/index.md)
 - [Batch Changes](code-graph/batch-changes/index.md)
 - [Code Intelligence](code-graph/code-intelligence/index.md)
 - [Code Insights](code-graph/code-insights/index.md)
 
-### [Enablement](enablement/index.md)
+#### [Enablement](enablement/index.md)
 
 - [Delivery](enablement/delivery/index.md)
-- Dev Experience
+- [Dev Experience](enablement/dev-experience/index.md)
 - [Frontend Platform](enablement/frontend-platform/index.md)
 - [Repo Management](enablement/repo-management/index.md)
 - [Engineering Education](enablement/engineering-education/index.md)
 - [Handbook](enablement/handbook/index.md)
 
-### Cloud
+#### Cloud
 
 - [Core application](cloud/core-application/index.md)
 - Cloud SaaS
