@@ -18,7 +18,7 @@ Why? Read the [FAQ](#FAQ).
 
 ### Why do you do an architectural interview?
 
-In certain roles, we expect you to be designing systems to meet often conflicting or ambiguous requirements. For engineers in these roles a significant part of their journey in Sourcegraph is going to be designing new or improving existing systems to fit these new requirements. For engineers in these roles to be successful, we are looking for skills, that are best described above in [What do we want to learn](#what-do-we-want-to-learn) section.
+In certain roles, we expect you to be designing systems that often need to meet conflicting or ambiguous requirements. For engineers in these roles a significant part of their journey in Sourcegraph is going to be designing new or improving existing systems to fit these new requirements. For engineers in these roles to be successful, we are looking for skills, that are best described above in [What do we want to learn](#what-do-we-want-to-learn) section.
 
 ### Why open ended?
 
