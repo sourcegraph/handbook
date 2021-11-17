@@ -4,7 +4,7 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Planning](../../product-engineering/planning.md) - how we do planning and the artifacts we use to plan.
+- [Planning](../../product-engineering/planning-process.md) - how we do planning and the artifacts we use to plan.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
@@ -20,13 +20,13 @@ Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) tha
 
 #### OKR and roadmap tracking
 
-See the [Product & Engineering handbook on sharing progress](../../product-engineering/planning.md#sharing-progress) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
+See the [Product & Engineering handbook on sharing progress](../../product-engineering/planning-process.md#sharing-progress) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
 
 #### Per-team strategy pages
 
 We also use [per-team strategy pages](../../company/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
 
-See also our handbook section on [strategy page documentation as it relates to planning](../../product-engineering/planning.md#strategy-pages).
+See also our handbook section on [strategy page documentation as it relates to planning](../../product-engineering/planning-process.md#strategy-pages).
 
 #### Product data
 
