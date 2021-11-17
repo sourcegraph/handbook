@@ -10,7 +10,7 @@
 
 # ProductTeam Strategy
 
-This page outlines the vision, strategy and goals of the ProductArea team. 
+This page outlines the vision, strategy and goals of the ProductArea team.
 
 > You can use this section to describe what your scope is, and where your product is today.
 
@@ -66,13 +66,13 @@ Quicklinks:
 ### Themes
 
 > What are high level themes, and why? What are the groupings of features/problems to solve that you are focusing on in that period? How do they relate to the goals you have
-> 
+>
 > Examples:
 >
 > - A product differentiator
 > - Cloud-first
 > - Adoption
-> 
+>
 > - Theme
 >   - Theme extra detail
 > - Theme
@@ -87,5 +87,5 @@ Quicklinks:
 ### What we're not working on & why
 
 > What are we explicitly not working on? Are there frequent requests from customers or other teams we are choosing not to take on? Making that explicit makes other teams understand the strategy and reduces back and forth.
-> 
+>
 > If there is a time component (e.g. "We're not working on this this Q but likely to pick it up next Q"), call it out.
