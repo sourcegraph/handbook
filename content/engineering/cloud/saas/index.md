@@ -154,7 +154,7 @@ To support the globally distributed nature of our team, we are doing our groomin
 
 - Each Monday, the new async grooming session should be created within [Agile Poker app](https://sourcegraph.atlassian.net/projects/CLOUD?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.spartez.jira.plugins.jiraplanningpoker__poker-project-page#!/board/11/sessions-management?type=async)
 - Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.
-- Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one dev of work for a single engineer
+- Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer
 
 #### Team calendar
 
