@@ -30,4 +30,4 @@ Content
 
 The meeting recording,slides, and Q&A notes will be posted on Slack on #dev-announce and (TODO confirm what other channels) after the meeting finishes.
 
-See our [company communication](/../communication) page for additional communication resources.
+See our [company communication](/content/communication/index.md) page for additional communication resources.
