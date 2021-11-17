@@ -25,7 +25,7 @@ Service management is a broad area of ownership. To provide more clarity into wh
 
 #### Administration experience and teams management
 
-Capabilities that provide customers with transparency and access control to how Sourcegraph cloud is used within their organizations. This means changing the Sourcegraph product from a single to multi-tenant architecture that will enable multiple customers to operate on a single shared cloud instance securely. On the other side, it’s all about providing functionalities to support organizations collaborating on the cloud. This includes but is not limited to team management, role-based access control, and other features targeted towards admins on our customer’s side.
+Capabilities that provide customers with transparency and access control to how Sourcegraph Cloud is used within their organizations. This means changing the Sourcegraph product from a single to multi-tenant architecture that will enable multiple customers to operate on a single shared cloud instance securely. On the other side, it’s all about providing functionalities to support organizations collaborating on the cloud. This includes but is not limited to team management, role-based access control, and other features targeted towards admins on our customer’s side.
 
 In addition to the organization-level management capabilities, we are also responsible for individual users' administration experience.
 
