@@ -142,7 +142,7 @@ TBD
 
 #### Sprint reviews
 
-Each sprint is followed by a short sprint review meeting on Google Meet. During this meeting, we review the state of sprint goals, demo the features we delivered and discuss topics related to the sprint's scope. We also review the state of our retrospective actions items. This is an open meeting. Our stakeholders and members of the other team at Sourcegraph are always welcome to attend. Each review has a designated facilitator, usually an engineer from the Cloud SaaS team, responsible for filling in the [agenda](https://docs.google.com/document/d/14hxy2WrcOpKwpRKqkJ0bvsDc4vRyTolmgBsoOoj2jko/edit) and facilitating the meeting.
+Each sprint is followed by a short sprint review meeting on Google Meet. During this meeting, we review the state of sprint goals, demo the features we delivered and discuss topics related to the sprint's scope. We also review the state of our retrospective actions items. This is an open meeting. Our stakeholders and members of other teams at Sourcegraph are always welcome to attend. Each review has a designated facilitator, usually an engineer from the Cloud SaaS team, responsible for filling in the [agenda](https://docs.google.com/document/d/14hxy2WrcOpKwpRKqkJ0bvsDc4vRyTolmgBsoOoj2jko/edit) and facilitating the meeting.
 
 #### Retrospectives
 
