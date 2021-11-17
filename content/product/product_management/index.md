@@ -4,7 +4,7 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Planning](planning.md) - how we do planning and the artifacts we use to plan.
+- [Planning](../../product-engineering/planning-process.md) - how we do planning and the artifacts we use to plan.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
@@ -20,20 +20,15 @@ Sourcegraph has a top-level [strategy page](../../company/strategy/index.md) tha
 
 #### OKR and roadmap tracking
 
-We have a [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/1) (internal only) in GitHub. Each week you should work with your team to update your status and plans. After updating, you should ensure it is reflected in the manually created slide decks which rely on this information:
-
-Weekly (by Friday 19:00 UTC):
-
-- The [OKR slide deck](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) which contains an easy to read version of the information in the tracker. This document contains only OKRs at the product/engineering level, not individual org OKRs, and is updated by Product Directors (based on the updates provided by product teams).
-
-Monthly:
-
-- The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) deck which contains upcoming and recently launched important customer-facing features from the OKR and roadmap tracker. In the future we may transition updating this to PMM, but for now its important product managers are involved in ensuring it is up to date and correct.
-- The [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only) contains status information on key accounts. Christina and Kylie own making this update for the product team.
+See the [Product & Engineering handbook on sharing progress](../../product-engineering/planning-process.md#sharing-progress) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
 
 #### Per-team strategy pages
 
 We also use [per-team strategy pages](../../company/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
+
+Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
+
+We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
 
 #### Product data
 
