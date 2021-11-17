@@ -12,7 +12,7 @@ We are focused over the next year on several themes across Code Graph to make ou
 
 ### Make the power of our features easier to find and use
 
-Learning how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases. Making onboarding and interaction easier helps everyone (including potential cusotmers) find the value of our product more quickly than is possible today. Compared to tools that specialize in single-language ecosystems, we provide a more comprehensive solution (which is an advantage for us) but it is important we do this in a way that doesn't compromise depth.
+Learning how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases. Making onboarding and interaction easier helps everyone (including potential customers) find the value of our product more quickly than is possible today. Compared to tools that specialize in single-language ecosystems, we provide a more comprehensive solution (which is an advantage for us) but it is important we do this in a way that doesn't compromise depth.
 
 - [Measure and increase WAU by 15%](https://github.com/sourcegraph/sourcegraph/issues/27342) (All Teams)
 - [3 customers with >1 Search Notebook](https://github.com/sourcegraph/sourcegraph/issues/27353) ([Search Product](./search/index.md))
