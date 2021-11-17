@@ -6,7 +6,7 @@ While these pages still remian (due to a lot of useful resources that have yet t
 
 - [Delivery](../enablement/delivery/index.md)
   - Ownership: Customer deployments, whether self-hosted or on-prem, and our customer releases of Sourcegraph
-- [Developer Experience](../enablement/dev-experience/index.md)
+- [Dev Experience](../enablement/dev-experience/index.md)
   - Ownership: Systems and tooling for our internal engineering teams
 - [Cloud Devops](../cloud/devops/index.md)
   - Ownership: sourcegraph.com health and monitoring
