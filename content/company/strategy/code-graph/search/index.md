@@ -1,6 +1,6 @@
 # Search strategy
 
-Sourcegraph aims to be the best tool for universal code search, and the Search team enables that mission. The Search team is made up of [Search Product](../../../../engineering/code-graph/search/product.md) and [Search Core](../../../../engineering/code-graph/search/core.md) teams, with the Product team focusing primarily on the user-facing aspects of search, and the Core team focusing on backend and performance. This page outlines the vision, strategy and goals of the Search teams.
+Sourcegraph aims to be the best tool for universal code search. There are two teams that work together to make this possible: [Search Product](../../../../engineering/code-graph/search/product.md) and [Search Core](../../../../engineering/code-graph/search/core.md), with the Product team focusing primarily on the user-facing aspects of search, and the Core team focusing on backend, relevancy, and performance. This page outlines the vision, strategy and goals that are shared by both teams.
 
 Quicklinks:
 
@@ -46,15 +46,6 @@ There are also existing open source projects that may be “good enough” for m
 
 As the scope of the Search teams expands, we'll face competition in new areas. Some examples are onboarding new developers and enabling responses to codebase changes. There are both new entrants (Swimm) and incumbents (Zapier, IFTTT) in those spaces, but we believe our unique approach to search positions us to deliver differentiated solutions by leveraging the distinct advantages of our code graph, such as its [unified experience](../index.md#deliver-a-unified-experience): [Notebooks](https://sourcegraph.com/search/notebook) as onboarding documentation can be created from code searches, browsed alongside the user’s code, and searched alongside the user’s code. [Code monitors](https://sourcegraph.com/code-monitoring) can eventually integrate with Batch changes and Code insights, to allow users to directly change the pattern they’re monitoring from Sourcegraph, and visualize instances of this pattern in their codebase over time.
 
-## Where we are now, what's next, and why
+## Where we are now and what's next
 
-Search has achieved product market fit and is used by thousands of developers at customers ranging from small businesses to the largest enterprises. Development teams are struggling to collaborate and maintain consistency across codebases spanning, in some cases, tens of thousands of repositories, and Sourcegraph search plays a critical role in alleviating that pain.
-
-Internally, as Sourcegraph’s offerings grow, search becomes increasingly critical to the success of other products and features. For example, Code Insights and Batch Changes rely on core functionality provided by search, and also feel the pain of its limitations. Search will strive to enable the success of other products and teams while maintaining focus on our core mission.
-
-[FY2021 Q4 Roadmap](https://app.productplan.com/pr/Gkvre8UGfdmM93rKHeVoGTP0ZboBns_s)
-
-For more details, see:
-
-- [Search Core strategy](./core.md)
-- [Search Product strategy](./product.md)
+This section is broken out into [Search Core](./core.md) and [Search Product](./product.md) pages. Refer to each of those for details on what's coming up for each team.

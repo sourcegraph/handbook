@@ -14,7 +14,7 @@ The org is lead by [Serina Clark](../../company/team/index.md#serina-clark) ([Di
   - [Ryan Slade](../../company/team/index.md#ryan-slade)
   - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta)
 - [Delivery](delivery/index.md)
-  - [Dan Mckean](../../company/team/index.md#dan-mckean) (acting [Product Manager](../../product/roles/index.md#product-manager))
+  - [Dan Mckean](../../company/team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
   - TBH ([Engineering Manager](../roles.md#engineering-manager))
   - [Geoffrey Gilmore](../../company/team/index.md#geoffrey-gilmore)
   - [Dave Try](../../company/team/index.md#dave-try)
