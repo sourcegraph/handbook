@@ -41,7 +41,8 @@
 
 ## Communication
 
-For a list of engineering relevant Slack channels to join see the [team chat](../communication/team_chat.md#engineering) page in the handbook.
+- [Product/Enginnering Quarterly All Hands](communication.md) 
+- For a list of engineering relevant Slack channels to join see the [team chat](../communication/team_chat.md#engineering) page in the handbook.
 
 ## Repositories
 
