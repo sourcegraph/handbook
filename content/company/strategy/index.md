@@ -61,7 +61,7 @@ Additionally, these are our [product design principles](../../product/design/pro
 
 ## Where we're at now
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../product/index.md#feature-matrices).   The [following](../../product-engineering/strategy.md) gives on overview of what we are working on today. 
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../product/index.md#feature-matrices). The [following](../../product-engineering/strategy.md) gives on overview of what we are working on today.
 
 ## Five-year vision: democratize code
 
