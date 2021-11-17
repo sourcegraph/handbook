@@ -43,7 +43,7 @@ To be handbook-first, we must:
 
 ## Handbook Usage
 
-- Use PRs to discuss changes to the handbook. Whenever possible (an exception, for example, might be when discussing non-public information that might lead to a handbook update), use PRs to propose changes to the handbook. Using a Google Doc instead can be easy to miss existing (even conflicting) content. Getting to a PR more quickly makes it easier to discover these and for others to contribute cross-links or highlight duplicated/conflicting content.
+- Use PRs to discuss changes to the handbook whenever possible (an exception, for example, might be when discussing non-public information that might lead to a handbook update.) Using a Google Doc instead can be easy to miss existing (even conflicting) content. Getting to a PR more quickly makes it easier to discover these and for others to contribute cross-links or highlight duplicated/conflicting content.
 - Most content in this handbook is meant to help rather than being absolute rules (unless stated).
 - Whenever possible, link to the Handbook rather than providing a written-out answer to a teammate's question. If you ask a question and someone answers with a link to the handbook, they are doing so because the handbook has the best answer for your question.
   - Similarly, if someone replies to a question with a newly typed-out answer that differs from what's in the handbook, gently ask them to either follow what's in the handbook or propose an edit to the handbook.
