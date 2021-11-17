@@ -1,6 +1,6 @@
 # Search strategy
 
-Sourcegraph aims to be the best tool for universal code search, and the Search team enables that mission. The Search team is made up of [Search Product](../../../../engineering/code-graph/search/product.md) and [Search Core](../../../../engineering/code-graph/search/core.md) teams, with the Product team focusing primarily on the user-facing aspects of search, and the Core team focusing on backend and performance. This page outlines the vision, strategy and goals of the Search teams.
+Sourcegraph aims to be the best tool for universal code search. There are two teams that work together to make this possible: [Search Product](../../../../engineering/code-graph/search/product.md) and [Search Core](../../../../engineering/code-graph/search/core.md), with the Product team focusing primarily on the user-facing aspects of search, and the Core team focusing on backend, relevancy, and performance. This page outlines the vision, strategy and goals that are shared by both teams.
 
 Quicklinks:
 
