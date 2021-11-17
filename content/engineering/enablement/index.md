@@ -121,17 +121,13 @@ Each Engineering Manager of the teams in the org is responsible for sending out 
 
 #### Leadership sync
 
-To stay aligned as an organization the directors, engineering managers, and product managers are prompted with the following question in the #enablement-leaderhip channel weekly:
+To stay aligned as an organization on Monday we share our priorities for the week in the #enablement-leadership channel.  On Friday a reminder is sent to the same channel prompting the team with the following:
 
-- Monday
-  - What are your priorities?
-  - Any highlights on team priorites?
-  - Any challenges?
-- Friday
-  - What progress do you want to share on your priorities from Monday?
-  - What challenges did you face this week?
+- What updates do you have on [our OKRs](https://github.com/orgs/sourcegraph/projects/214/views/14?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C188005%2C247470%2C284758%2C253662%2C243177%5D)
+- Any highlights on team accomplishments?
+- Any challenges or risks to call out?
 
-On Thursday we meet as a leadership team to review progress on our [OKRs](../../company/strategy/enablement/index.md) and update the [Product/Engineering FY22Q4 Tracker](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gf8321d95d6_3_34). In addtion we review updates on our [KPIs](https://docs.google.com/spreadsheets/d/1-yP2TT6m8VfZDKFSf9xgA9T_hBpjzQsRFv9-vt_jcpA/edit#gid=0). If we do not have a large enough cohort to hold a zoom meeting we drive the conversation asyncrhonously.
+On Thursday we meet as a leadership team via zoom to have real time conversation.  We cover one fun question, leadership updates, and hot topics.  This time gives us space to catch up on topics that are better discussed live and drive to quick decisions.  If we do not have a large enough cohort we will run the meeting async.
 
 ### Health reports
 
