@@ -137,7 +137,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 #### When will I receive my insurance member IDs?
 
 - You will receive your insurance member IDs at your personal email and in [Rippling](https://app.rippling.com/insurance/employee/overview/home) after you enroll in insurance. You should have access to your insurance member IDs within 1 month of your insurance eligibility date.
-  - If you have not received your insurance member IDs, please use [this form](https://docs.google.com/forms/d/e/1FAIpQLSecCNJDd8r26WxjOK0AHIGEV1gfzN_tRdYnXr2heIejLN-BUg/viewform) to contact our backend office, Officengine, directly about when you can expect to receive them.
+  - If you have not received your insurance member IDs, please post in the [#people-ops](https://sourcegraph.slack.com/archives/C01UPE3LV8S) Slack channel.
 
 **Non-US teammates:**
 
