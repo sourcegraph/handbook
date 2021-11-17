@@ -19,8 +19,6 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 - **The Handbook can ve viewed by anyone.** One of our Sourcegraph values is transparency. We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
 - **The Handbook can be edited by any Sourcegraph teammate.** We value high agency and encourage all teammates to update the Handbook as they see fit. We provide resources to help teammates contribute to the Handbook no matter their technical background.
 - **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, we work as a team. No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
-- **The Handbook is a source of truth**, and its information is expected to be accurate and up-to-date. For any process to be in force, it should be documented in the handbook. A Google Doc or pending PR to the handbook is not sufficient as a source of truth because using those reduces the effectiveness of the handbook as a trusted source of knowledge. Further, never needing to merge your change to bring it into force discourages making small, iterative improvements.
-- **Use PRs to discuss changes to the handbook.** Whenever possible (an exception, for example, might be when discussing non-public information that might lead to a handbook update), use PRs to propose changes to the handbook. Using a Google Doc instead can be easy to miss existing (even conflicting) content. Getting to a PR more quickly makes it easier to discover these and for others to contribute cross-links or highlight duplicated/conflicting content.
 
 ### Intended Audience
 
@@ -44,6 +42,8 @@ To be handbook-first, we must:
 
 ## Handbook Usage
 
+- The Handbook is a source of truth, and its information is expected to be accurate and up-to-date. For any process to be in force, it should be documented in the handbook. A Google Doc or pending PR to the handbook is not sufficient as a source of truth because using those reduces the effectiveness of the handbook as a trusted source of knowledge. Further, never needing to merge your change to bring it into force discourages making small, iterative improvements.
+- Use PRs to discuss changes to the handbook. Whenever possible (an exception, for example, might be when discussing non-public information that might lead to a handbook update), use PRs to propose changes to the handbook. Using a Google Doc instead can be easy to miss existing (even conflicting) content. Getting to a PR more quickly makes it easier to discover these and for others to contribute cross-links or highlight duplicated/conflicting content.
 - Most content in this handbook is meant to help rather than being absolute rules (unless stated).
 - Whenever possible, link to the Handbook rather than providing a written-out answer to a teammate's question. If you ask a question and someone answers with a link to the handbook, they are doing so because the handbook has the best answer for your question.
   - Similarly, if someone replies to a question with a newly typed-out answer that differs from what's in the handbook, gently ask them to either follow what's in the handbook or propose an edit to the handbook.
