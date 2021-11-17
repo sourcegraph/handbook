@@ -115,14 +115,16 @@ Coding itself is a technology, and we anticipate the technology adoption curve w
 
 Within this overall product strategy, individual product teams set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
-### [Code Graph](code-graph/index.md)
+### [Product & Engineering](../../product-engineering/strategy.md)
+
+#### [Code Graph](code-graph/index.md)
 
 - [Search core and Search product](code-graph/search/index.md)
 - [Batch Changes](code-graph/batch-changes/index.md)
 - [Code Intelligence](code-graph/code-intelligence/index.md)
 - [Code Insights](code-graph/code-insights/index.md)
 
-### [Enablement](enablement/index.md)
+#### [Enablement](enablement/index.md)
 
 - [Delivery](enablement/delivery/index.md)
 - Dev Experience
@@ -131,7 +133,7 @@ Within this overall product strategy, individual product teams set their own goa
 - [Engineering Education](enablement/engineering-education/index.md)
 - [Handbook](enablement/handbook/index.md)
 
-### Cloud
+#### Cloud
 
 - [Core application](cloud/core-application/index.md)
 - Cloud SaaS

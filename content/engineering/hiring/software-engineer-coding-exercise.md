@@ -81,7 +81,7 @@ We designed [this synchronous exercise](https://github.com/sourcegraph/interview
 
 If we decide to move forward, we will schedule interviews with team members.
 
-## Core APP team coding exercise
+## Cloud SaaS team coding exercise
 
 We designed [this synchronous](https://github.com/sourcegraph/interviews/blob/master/engineering/coding/api-client/README.md) exercise to measure your approach to coding a small API client in a paired setting.
 

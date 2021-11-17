@@ -16,9 +16,9 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 **Here are our best practices for celebrating your teammate’s anniversaries:**
 
-- **Starting January 2022** managers can send Loop & Tie collections to teammates on their anniversary each year. To create a Loop & Tie account, please reach out to Fabiana Castellanos at fabiana@sourcegraph.com. **Please note:**
+- **Starting January 2022** managers can send Loop & Tie collections to teammates on their anniversary each year. To create a Loop & Tie account, please reach out to Fabiana Castellanos at fabiana@sourcegraph.com or brand@sourcegraph.com if Fabiana is not available. **Please note:**
 
-  - Through December 2021 People Ops will send a branded Sourcegraph gift to teammates on their anniversary.
+  - **Through December 2021** People Ops will send a branded Sourcegraph gift to teammates on their anniversary.
   - There are both US and international Loop & Tie collections, please be mindful to choose the correct collection when sending these out.
   - As a manager you can choose a different anniversary gift for your direct report as long as it abides by the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
