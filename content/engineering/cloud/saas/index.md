@@ -105,7 +105,7 @@ The Cloud SaaS team is planning work based on our [long-term roadmap](https://do
 
 We are using [Jira](https://www.atlassian.com/software/jira) as our project tracking tool. While you will need access to Sourcegraph Atlassian account to view the [Cloud SaaS project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog?selectedIssue=CLOUD-73&issueLimit=100) the [list view of all the issues](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/issues/) within this project is publicly available.
 
-#### How do we use Jira
+#### How we use Jira
 
 - Jira is the single source of truth for our backlog. Please use descriptions, comments under Jira issues, and different categorization options to keep all the issues up to date. Comments are also the best place for asking questions about the issue itself. That way, we keep all the context in a single place.
 - We use [versions/releases](https://sourcegraph.atlassian.net/projects/CLOUD?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) for milestones (usually connected with the quarterly goals) and group issues for given initiatives/projects into epics.
