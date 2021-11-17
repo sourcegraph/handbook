@@ -1,6 +1,6 @@
 # Cloud Software-as-a-Service Team
 
-The Cloud Software-as-a-Service (SaaS) Team is responsible for the **service management** part of the Sourchegraph cloud product. The team provides both **customer-facing** and **internal capabilities that enable our customers to use Sourcegraph cloud product as a service**.
+The Cloud Software-as-a-Service (SaaS) Team is responsible for the **service management** part of the Sourcegraph Cloud product. The team provides both **customer-facing** and **internal capabilities that enable our customers to use the Sourcegraph Cloud product as a service**.
 
 ## Vision
 
