@@ -3,7 +3,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import { NextSeo } from 'next-seo'
 import ErrorPage from 'next/error'
 import { useRouter } from 'next/router'
-import React, { useEffect, useRef } from 'react'
+import React, { useRef } from 'react'
 
 import { EditSection } from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
@@ -45,8 +45,6 @@ export interface PageWithMetadata extends LoadedPage {
 export interface PageProps {
     page: PageWithMetadata
 }
-
-const HEADING_SELECTOR = 'h1, h2, h3, h4, h5, h6'
 
 export default function Page({ page }: PageProps): JSX.Element {
     const markdownBodyReference = useRef<HTMLElement>(null)
