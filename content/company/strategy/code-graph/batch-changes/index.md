@@ -1,6 +1,6 @@
 # Batch Changes strategy
 
-Batch Changes gives you a declarative structure for finding and modifying code across all of your repositories. With a simple UI, it is easy to track and manage all of your changesets through checks and code reviews until each change is merged.. This page outlines the vision, strategy, and goals of the Batch Changes team.
+Batch Changes gives you a declarative structure for finding and modifying code across all of your repositories. With a simple UI, it is easy to track and manage all of your changesets through checks and code reviews until each change is merged. This page outlines the vision, strategy, and goals of the Batch Changes team.
 
 #### Quick links
 
