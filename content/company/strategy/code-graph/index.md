@@ -14,18 +14,18 @@ We are focused over the next year on several themes across Code Graph to make ou
 
 Learning how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases. Making onboarding and interaction easier helps everyone (including potential cusotmers) find the value of our product more quickly than is possible today. Compared to tools that specialize in single-language ecosystems, we provide a more comprehensive solution (which is an advantage for us) but it is important we do this in a way that doesn't compromise depth.
 
-- Measure and increase [WAU](../../../bizops/user_definitions.md) for [customer facing product teams](https://github.com/sourcegraph/handbook/blob/main/data/product_teams.yml) by 15%. For most teams this will require understanding and improving time-to-value as a driver for increasing active users. (All Teams)
-- Make it easier to adopt Batch Changes by fixing top three changeset syncing and permission configuration issues. ([Batch Changes](./batch-changes/index.md))
-- 3 customers with >1 Search Notebook, demonstrating initial traction for this feature and proving the value of Search Notebooks for sharing explanations of code. ([Search Product](./search/index.md))
+- [Measure and increase WAU by 15%](https://github.com/sourcegraph/sourcegraph/issues/27342) (All Teams)
+- [3 customers with >1 Search Notebook](https://github.com/sourcegraph/sourcegraph/issues/27353) ([Search Product](./search/index.md))
 
 ### Level up our enterprise-ready features
 
 How our product works in terms of pricing, upgrade paths, auditing, single sign-on, access control, etc. are essential for customers with large, complex organizations. In partnership with our Cloud team, we're focused on ensuring we meet and exceed these needs so that when rolling out Sourcegraph the logistics don't get in the way of realizing the value.
 
-- Get a Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature ([Code Insights](./code-insights/index.md))
-- Enable out-of-the-box cross-repo and dependency navigation for 3 customers by successfully moving them to on-prem auto-indexing. ([Code intelligence](./code-intelligence/index.md))
-- Enable powerful automation and notification use cases (e.g. by adding webhook and Slack integrations) to Code Monitors and getting a Q1 usage commitment from 3 customers. ([Search Product](./search/index.md))
-- Improve precise code intelligence actions coverage by going from 3 to 5 languages (adding Kotlin and TS/JS), representing the languages in ~50% of all actions. ([Code intelligence](./code-intelligence/index.md))
+- [1 customer committed to paying for Code Insights at launch](https://github.com/sourcegraph/sourcegraph/issues/27350) ([Code Insights](./code-insights/index.md))
+- [3 customers adopt on-prem auto-indexing](https://github.com/sourcegraph/sourcegraph/issues/24961) ([Code intelligence](./code-intelligence/index.md))
+- [Code monitors support webhook and Slack integrations + 3 customers committed in Q1](https://github.com/sourcegraph/sourcegraph/issues/27350) ([Search Product](./search/index.md))
+- [Precise code intel support for Kotlin](https://github.com/sourcegraph/lsif-java/issues/304) ([Code intelligence](./code-intelligence/index.md))
+- [Precise code intel support for TS/JS](https://github.com/sourcegraph/sourcegraph/issues/27345) ([Code intelligence](./code-intelligence/index.md))
 
 ### Deliver a unified experience
 
@@ -37,10 +37,10 @@ By investing in well-integrated functionality we can deliver solutions that are 
 
 We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../index.md#big-code).
 
-- Make Sourcegraph Search work well with large-scale monorepos (time to first result for unindexed search on monorepos larger than 200GB is < 10s and <2s for indexed, and time to indexing is always <30 minutes). ([Search Core](./search/index.md))
-- Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts. ([Search Core](./search/index.md))
-- Three customers use server side Batch Changes to create 200+ changeset batch changes, proving that it is enabling large-scale use cases and revenue. ([Batch Changes](./batch-changes/index.md))
-- At least one customer issue was solved with the help of `src debug`, which makes observability better for on-prem and makes Customer Support’s job easier. ([Search Core](./search/index.md))
+- [Search works well with large-scale monorepos](https://github.com/sourcegraph/sourcegraph/issues/27320) ([Search Core](./search/index.md))
+- [Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts](https://github.com/sourcegraph/sourcegraph/issues/27322) ([Search Core](./search/index.md))
+- [3 customers use server side Batch Changes to create 200+ changeset batch changes](https://github.com/sourcegraph/sourcegraph/issues/27348) ([Batch Changes](./batch-changes/index.md))
+- [1 customer issue was solved with the help of `src debug`](https://github.com/sourcegraph/sourcegraph/issues/27347) ([Search Core](./search/index.md))
 
 ## Principles
 
