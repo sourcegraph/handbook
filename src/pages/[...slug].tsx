@@ -51,44 +51,6 @@ const HEADING_SELECTOR = 'h1, h2, h3, h4, h5, h6'
 export default function Page({ page }: PageProps): JSX.Element {
     const markdownBodyReference = useRef<HTMLElement>(null)
     const tocReference = useRef<HTMLElement>(null)
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            entries => {
-                for (const entry of entries) {
-                    const tocLink = tocReference.current?.querySelector<HTMLAnchorElement>(
-                        `a[href="#${entry.target.querySelector(HEADING_SELECTOR)!.id}"]`
-                    )
-                    const listItem = tocLink?.parentElement
-                    if (entry.intersectionRatio > 0) {
-                        // Visible: Mark <li> item and all ancestors (<li>s, <ul>s) as active
-                        for (
-                            let parent = listItem;
-                            parent && parent !== tocReference.current;
-                            parent = parent.parentElement
-                        ) {
-                            parent.classList.add('active')
-                        }
-                    } else {
-                        // Not visible: Mark <li> item and all children as inactive
-                        listItem?.classList.toggle('active', false)
-                        for (const descendentItem of listItem?.querySelectorAll('ul, li') ?? []) {
-                            descendentItem.classList.remove('active')
-                        }
-                    }
-                }
-            },
-            {
-                // Header height
-                rootMargin: '-72px 0px 0px 0px',
-            }
-        )
-        const headings = markdownBodyReference.current?.querySelectorAll(HEADING_SELECTOR)
-        for (const heading of headings ?? []) {
-            const section = heading.parentElement!
-            observer.observe(section)
-        }
-        return () => observer.disconnect()
-    })
 
     const router = useRouter()
     if (!router.isFallback && !page?.slugPath) {

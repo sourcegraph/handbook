@@ -10,6 +10,7 @@
         flex: 1 1 calc(var(--width) * 0.15);
         max-width: 17rem;
         max-height: calc(100vh - var(--header-height) - var(--index-margin-top));
+        white-space: nowrap;
     }
 }
 
@@ -42,6 +43,7 @@
     padding-left: 0;
     margin-left: -0.5rem;
     margin-bottom: 0;
+    font-size: 0.9rem;
 
     &,
     & ul {

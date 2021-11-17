@@ -16,7 +16,9 @@ export function TableOfContents({
                 <React.Fragment key={node.id}>
                     <li>
                         <a href={node.id && `${hrefPrefix}#${node.id}`}>{node.value}</a>
-                        {node.children && <TableOfContents toc={node.children} hrefPrefix={hrefPrefix} />}
+                        {node.children && (
+                            <TableOfContents toc={node.children} hrefPrefix={hrefPrefix} className="active" />
+                        )}
                     </li>
                 </React.Fragment>
             ))}
