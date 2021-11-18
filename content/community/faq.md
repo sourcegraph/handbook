@@ -14,7 +14,7 @@ All files in the `enterprise/` and `src/enterprise/` directories are subject to 
 
 ## Is all of Sourcegraph open source?
 
-All files in this repository except those in the `enterprise/` and `client/web/src/enterprise/` directories are open source, and build a product known as Sourcegraph OSS. Sourcegraph OSS omits certain trademarks, logos, and [paid enterprise features](https://about.sourcegraph.com/pricing/) from the official Sourcegraph build to [make it open source](../product/licensing.md).
+All files in this repository except those in the `enterprise/` and `client/web/src/enterprise/` directories are open source, and build a product known as Sourcegraph OSS. Sourcegraph OSS omits certain trademarks, logos, and [paid enterprise features](https://about.sourcegraph.com/pricing/) from the official Sourcegraph build to [make it open source](../product-engineering/product/licensing.md).
 
 The official, free Sourcegraph build is called Sourcegraph Core and includes these additions (the source code of which is available in the `/enterprise` and `/src/enterprise` directories and is covered by the [Sourcegraph Enterprise license](https://github.com/sourcegraph/sourcegraph/blob/master/LICENSE)). The reason why we include these features in the official build is to provide a smooth upgrade path to Sourcegraph Enterprise (you can just supply a license key to activate the features, with no migration necessary).
 

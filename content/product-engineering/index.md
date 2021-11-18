@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The roles of [Product](../product/index.md) and [Engineering](../engineering/index.md) are to create value for our customers by delivering a high quality product that solves their problems.
+The roles of [Product](product/index.md) and [Engineering](engineering/index.md) are to create value for our customers by delivering a high quality product that solves their problems.
 
 ## Links
 
@@ -10,8 +10,3 @@ The roles of [Product](../product/index.md) and [Engineering](../engineering/ind
 - [Planning process](planning-process.md)
 - [Current team](team.md)
 - [Product/Eng KPIs](https://sourcegraph.looker.com/boards/20)
-
-## TODOs
-
-- Move product section of handbook under product-engineering
-- Move engineering section of handbook under product-engineering

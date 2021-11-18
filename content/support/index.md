@@ -142,7 +142,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Prioritization](support-prioritization.md)
 - [Customer exceptions](customer-exceptions.md)
 - [Engaging other teams](engaging-other-teams.md)
-- [Serving as messenger during incidents](../engineering/incidents/index.md)
+- [Serving as messenger during incidents](../product-engineering/engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
 - [Enablement](enablement/index.md)
 - [Tools](support-tools.md)

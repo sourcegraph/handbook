@@ -44,7 +44,7 @@ Our [values](../values.md) are the principles and beliefs that help us achieve o
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, these are our [product design principles](../../product/design/product_design_principles.md).
+Additionally, these are our [product design principles](../../product-engineering/product/design/product_design_principles.md).
 
 ## Assumptions
 
@@ -61,7 +61,7 @@ Additionally, these are our [product design principles](../../product/design/pro
 
 ## Where we're at now
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../product/index.md#feature-matrices). The [following](../../product-engineering/strategy.md) gives on overview of what we are working on today.
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../product-engineering/product/index.md#feature-matrices). The [following](../../product-engineering/strategy.md) gives on overview of what we are working on today.
 
 ## Five-year vision: democratize code
 

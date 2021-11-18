@@ -1,6 +1,6 @@
 # Search Core strategy
 
-This page outlines the strategy, and goals of the [Search Core team](../../../../engineering/code-graph/search/core.md).
+This page outlines the strategy, and goals of the [Search Core team](../../../../product-engineering/engineering/code-graph/search/core.md).
 
 For context on the mission, vision and guiding principles of Search, see the top-level [search strategy](./index.md) page.
 
