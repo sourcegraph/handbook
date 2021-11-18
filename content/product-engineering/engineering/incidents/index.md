@@ -13,6 +13,8 @@ Some examples of incidents:
 
 Additionally, on big announcement days (funding, product launch, campaign launch, etc.), all incidents warrant more immediate attention from marketing so we can hold off on planned activities/be prepared to respond to issues. On these days, the person in marketing leading the announcement is responsible for looping #customer-support and engineering/product in ahead of time to ensure they are aware of planned activities. The person leading the announcement will work with #customer-support on the ad-hoc plan for incidents (which may involve on-call rotation).
 
+All incidents are announced in the #incidents channel automatically through incident.<unlink></unlink>io, and past incidents are available in the [incidents.io dashboard](https://app.incident.io/incidents) and our [past incident postmortems](#past-incident-post-mortems).
+
 ## Process
 
 ### Identification
@@ -75,6 +77,8 @@ The incident lead may delegate tasks to other available/working engineers if nec
 
 If it's a security related issue, it's best to also loop in the security team.
 
+> NOTE: Need help using incident<unlink>.io? Go to their Help Centre at [docs.incident.io](https://docs.incident.io/).
+
 #### Messenger
 
 The messenger is only needed for incidents with customer-facing impact. The messenger is almost always a member of customer support or engineering (someone who is not in the role of incident lead).
@@ -100,8 +104,6 @@ The messenger should witness the incident lead work (in the dedicated Slack chan
 
     _Resolved: We have resolved the issue and will conduct a postmortem to see how we can learn and grow. If you would like to know more, please email support@sourcegraph.com._
 
-  Need help using incident.io? Go to their Help Centre: https://docs.incident.io/
-
 - Direct message updates/responses to customers (if relevant) in #support- or #trial- customer Slack channels or Zendesk email tickets
 - Draft suggested social media posts (at marketing’s request; marketing will revise to match Sourcegraph tone, etc)
 - Internal updates in the dedicated Slack channel by keeping the incident.io status up to date. All teammates joining the chat room will get the current status provided by incident.io. At any time, a user in the chat room can see the current status using this slack command: `/incident recap`.
@@ -110,6 +112,8 @@ The messenger should witness the incident lead work (in the dedicated Slack chan
 - Posts in #general if the issue is severe enough it’s better to err on broader internal communicationIn some cases, an issue is so severe we need to do executive level communication.
 - In these cases, the messenger loops in a member of @cs-leadership who will help by handling this. The messenger reminds them to include all department heads and for marketing to also include our director of global communication in addition to the head of marketing).
 - For security related issues they also follow [our security disclosure process](../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities)
+
+> NOTE: Need help using incident<unlink>.io? Go to their Help Centre at [docs.incident.io](https://docs.incident.io/).
 
 ### Playbooks
 
@@ -145,6 +149,7 @@ After the incident is resolved, the incident lead:
 - [3.30 Postgres Index Incident](./330_incident_retro.md)
 - [Extensibility Repo Name Logging Incident](./extensibility_repo_name_log.md)
 
-## Links and resources
+## Additional links and resources
 
-Need help using incident<unlink>.io? Go to their Help Centre: https://docs.incident.io/.
+- [Incident playbooks](playbooks/index.md)
+- [docs.incident.io](https://docs.incident.io/)
