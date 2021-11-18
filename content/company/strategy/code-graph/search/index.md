@@ -5,6 +5,7 @@ Sourcegraph aims to be the best tool for universal code search. There are two te
 Quicklinks:
 
 - [Code Graph overall strategy](../index.md)
+- [Product & Engineering strategy](../../../../product-engineering/strategy.md)
 - [Latest demo](https://www.youtube.com/watch?v=XLfE2YuRwvw)
 - [Documentation](https://docs.sourcegraph.com/code_search/)
 - [Completed goals](../../../../product-engineering/engineering/code-graph/search/goals_completed.md)
