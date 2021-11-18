@@ -17,8 +17,12 @@ Cadence
 
 Format
 
-- A video update will be shared a week in advance for people to review async, including a link to submit questions and upvote the questions you want to hear answered live
+- A video update will be shared a week in advance for people to review async, including a link to submit questions and upvote the questions for Product/eng leadership to answer live
 - 30 min live Q&A Session
+
+Content
+
+- The video update may contain: OKR progress updates, org updates, new processes, guest speakers from other departments, etc.
 
 ## Recordings
 
