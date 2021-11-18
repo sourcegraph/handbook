@@ -7,19 +7,19 @@ The code insights team is responsible for building and delivering code insights 
 ## Pages
 
 - [Processes](processes.md)
-- [Goals and Roadmap](../../../company/strategy/code-graph/code-insights/index.md)
+- [Goals and Roadmap](../../../../company/strategy/code-graph/code-insights/index.md)
 - [Product docs](https://docs.sourcegraph.com/code_insights)
 - [Development docs](https://docs.sourcegraph.com/dev/background-information/insights)
 
 ## Members
 
-- [Joel Kwartler](../../../company/team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Felix Becker](../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - [Vova Kulikov](../../../company/team/index.md#vova-kulikov) (Frontend Engineer)
-  - [Justin Boyson](../../../company/team/index.md#justin-boyson) (Frontend Engineer)
-  - [Coury Clark](../../../company/team/index.md#coury-clark) (Backend Engineer)
-  - [Cristina Birkel](../../../company/team/index.md#cristina-birkel) (Backend Engineer)
+- [Joel Kwartler](../../../../company/team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
+  - [Vova Kulikov](../../../../company/team/index.md#vova-kulikov) (Frontend Engineer)
+  - [Justin Boyson](../../../../company/team/index.md#justin-boyson) (Frontend Engineer)
+  - [Coury Clark](../../../../company/team/index.md#coury-clark) (Backend Engineer)
+  - [Cristina Birkel](../../../../company/team/index.md#cristina-birkel) (Backend Engineer)
 
 [We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
 

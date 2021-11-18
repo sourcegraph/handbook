@@ -4,7 +4,7 @@ This page documents principles and practices that we follow in engineering.
 
 ## We build things incrementally
 
-We reach [high quality](../company/values.md#high-quality) outcomes by shipping incrementally, collecting feedback, and learning continuously.
+We reach [high quality](../../company/values.md#high-quality) outcomes by shipping incrementally, collecting feedback, and learning continuously.
 
 1. **Make it work**: Build the minimal useful thing that we can use to start collecting feedback and validating we are on the right track. Take shortcuts where possible (cut scope, not quality) because this work might get thrown away if we discover we are going in the wrong direction. We can hand-hold first users (internal or external) through a rough experience as long as it works well enough for us to collect feedback and validate that we are solving the right problem.
 1. **Make it smooth**: Once we have signal that we are building the right thing, the next goal is to make the experience smooth so we feel good about putting this in front of more users in a more scalable way that doesn't require handholding.
@@ -13,7 +13,7 @@ We reach [high quality](../company/values.md#high-quality) outcomes by shipping 
 
 ## The person doing the work owns the decision by default
 
-We facilitate [high agency](../company/values.md#high-agency) engineers by sharing problems and expecting engineers to plan solutions to those problems.
+We facilitate [high agency](../../company/values.md#high-agency) engineers by sharing problems and expecting engineers to plan solutions to those problems.
 
 The default owner of any technical decision is the person or team that owns the work implied by the decision.
 

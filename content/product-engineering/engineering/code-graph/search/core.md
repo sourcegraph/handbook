@@ -6,17 +6,17 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 - Diff/commit search
 - Result ranking
 
-To learn more about our goals, see the [Search Core strategy](../../../company/strategy/code-graph/search/core.md) page.
+To learn more about our goals, see the [Search Core strategy](../../../../company/strategy/code-graph/search/core.md) page.
 
 ## Team members
 
-- We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../company/team/index.md#jason-yavorska) is involved in the meantime.
-- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Jeff Warner](../../../company/team/index.md#jeff-warner) ([Engineering Manager](../../roles.md#engineering-manager)) {#search-core-eng}
-  - [Keegan Carruthers-Smith](../../../company/team/index.md#keegan-carruthers-smith)
-  - [Stefan Hengl](../../../company/team/index.md#stefan-hengl)
-  - [Ryan Hitchman](../../../company/team/index.md#ryan-hitchman)
-  - [Tomás Senart](../../../company/team/index.md#tomás-senart)
+- We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../../company/team/index.md#jason-yavorska) is involved in the meantime.
+- [Rob Rhyne](../../../../company/team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Jeff Warner](../../../../company/team/index.md#jeff-warner) ([Engineering Manager](../../roles.md#engineering-manager)) {#search-core-eng}
+  - [Keegan Carruthers-Smith](../../../../company/team/index.md#keegan-carruthers-smith)
+  - [Stefan Hengl](../../../../company/team/index.md#stefan-hengl)
+  - [Ryan Hitchman](../../../../company/team/index.md#ryan-hitchman)
+  - [Tomás Senart](../../../../company/team/index.md#tomás-senart)
 
 ## Contact
 

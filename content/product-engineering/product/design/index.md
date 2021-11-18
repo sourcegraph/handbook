@@ -8,11 +8,11 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Team
 
-- [Alicja Suska](../../company/team/index.md#alicja-suska) (she/her)
-- [Rob Rhyne](../../company/team/index.md#rob-rhyne) (he/him)
-- [Quinn Keast](../../company/team/index.md#quinn-keast) (he/him) – [ReadMe](https://quinnkeast.com/readme)
-- [Sara Lee](../../company/team/index.md#sara-lee) (she/her)
-- [Marisa Kanemoto](../../company/team/index.md#marisa-kanemoto) (she/her)
+- [Alicja Suska](../../../company/team/index.md#alicja-suska) (she/her)
+- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) (he/him)
+- [Quinn Keast](../../../company/team/index.md#quinn-keast) (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- [Sara Lee](../../../company/team/index.md#sara-lee) (she/her)
+- [Marisa Kanemoto](../../../company/team/index.md#marisa-kanemoto) (she/her)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -36,11 +36,11 @@ Our [product design principles](../product_management/index.md#sourcegraphs-desi
 
 ### Designing in the open
 
-At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../company/values.md) to our work and thrive in our globally distributed, remote company.
+At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../../company/values.md) to our work and thrive in our globally distributed, remote company.
 
 Designing in the open means many things to us.
 
-- **Our work and process is [transparent by default](../../company/values.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../company/values.md#high-agency) environment.
+- **Our work and process is [transparent by default](../../../company/values.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../company/values.md#high-agency) environment.
 - **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./reviewing_design/index.md).
 - **We create shared understanding**. We proactively communicate with teammates from all disciplines and backgrounds. We don't use jargon and don't expect others to have a deep design-specific understanding, and we look for gaps in understanding where we can help provide clarity.
 

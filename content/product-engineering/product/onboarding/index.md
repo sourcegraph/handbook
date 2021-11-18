@@ -32,8 +32,8 @@ Your objective is to get to know the team and learn as much about Sourcegraph (t
 
 Remember:
 
-- Sourcegraph is an [open company](../../company/index.md#sourcegraph-open-product-open-company-open-source). Everything here at Sourcegraph is public unless there is a very good reason for it to be private.
-  - One of our values is to be [open and transparent](../../company/values.md#open-and-transparent)
+- Sourcegraph is an [open company](../../../company/index.md#sourcegraph-open-product-open-company-open-source). Everything here at Sourcegraph is public unless there is a very good reason for it to be private.
+  - One of our values is to be [open and transparent](../../../company/values.md#open-and-transparent)
   - Good reasons for things to be private: sensitive customer information, sensitive personal information
   - If you see a "request permission" page for some doc or other resource, it is a mistake. Just ask to be granted access to it (and make a PR to update the handbook so the next person starting is granted access to that system).
 - Unlike at many companies, it is OK (and important) to call out when we did something poorly or when something doesn't go well (e.g., a sales pitch falls flat). That helps us be real and do it better in the future.
@@ -48,7 +48,7 @@ Remember:
 
 - Schedule individual meetings with each person on the [Product team](../index.md#members)
 - Schedule individual meetings with each person on the engineering team you'll be working most closely with ( this will be in your specific onboarding docs)
-- Schedule a meeting with the [Head of Customer Support](../../company/team/index.md#virginia-ulrich)
+- Schedule a meeting with the [Head of Customer Support](../../../company/team/index.md#virginia-ulrich)
 - Get up to speed on what your team is working on
   - Team handbook page(s), to learn about the team and its internal processes
     - [Product](../index.md)
@@ -102,8 +102,8 @@ Remember:
 
 ### Understand company and team goals
 
-- [Sourcegraph values](../../company/values.md)
-- [Sourcegraph strategy](../../company/strategy/index.md)
+- [Sourcegraph values](../../../company/values.md)
+- [Sourcegraph strategy](../../../company/strategy/index.md)
 - [OKR Tracker](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit?ts=607a3f2e#gid=1699297878)
 
 ### Get ready to contribute to the docs

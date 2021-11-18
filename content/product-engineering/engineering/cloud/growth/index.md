@@ -4,8 +4,8 @@ The cloud growth team focuses on the growth of Sourcegraph.com, both as a SaaS p
 
 ## Members
 
-- [Bill Creager](../../../company/team/index.md#bill-creager) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#api-docs-eng}
-  - [Stephen Gutekanst](../../../company/team/index.md#stephen-gutekanst)
+- [Bill Creager](../../../../company/team/index.md#bill-creager) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#api-docs-eng}
+  - [Stephen Gutekanst](../../../../company/team/index.md#stephen-gutekanst)
   - FQ3 full stack engineer
   - FQ3 full stack engineer
   - FQ3 full stack engineer
@@ -16,7 +16,7 @@ The cloud growth team focuses on the growth of Sourcegraph.com, both as a SaaS p
 
 ## Goals
 
-[Goals and roadmap](../../../company/strategy/cloud/growth/index.md)
+[Goals and roadmap](../../../../company/strategy/cloud/growth/index.md)
 
 ## API docs
 

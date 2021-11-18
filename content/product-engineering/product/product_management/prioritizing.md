@@ -8,10 +8,10 @@ We use personas to understand our users and what they need as we prioritize our 
 
 There are several sources that product managers look at when deciding what's important to prioritize next.
 
-- [Your own strategy](../../company/strategy/index.md#per-team-strategy-pages) and where you are trying to go
-- [The overall company strategy](../../company/strategy/index.md) and how you fit in
-- [Company and product/engineering goals](../../company/goals/index.md) and how you can drive them forward
-- [User & stakeholder feedback](user_stakeholder_feedback.md) to realize our value of being [customer-first](../../company/values.md#customer-first)
+- [Your own strategy](../../../company/strategy/index.md#per-team-strategy-pages) and where you are trying to go
+- [The overall company strategy](../../../company/strategy/index.md) and how you fit in
+- [Company and product/engineering goals](../../../company/goals/index.md) and how you can drive them forward
+- [User & stakeholder feedback](user_stakeholder_feedback.md) to realize our value of being [customer-first](../../../company/values.md#customer-first)
 
 ## Saying "no"
 

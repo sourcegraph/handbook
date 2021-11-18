@@ -8,7 +8,7 @@ Software engineers build our product and infrastructure.
 
 ### Responsibilities
 
-- Model and apply [our company values](../company/values.md) and our [guiding engineering principles](index.md#guiding-principles) throughout all your interactions and work.
+- Model and apply [our company values](../../company/values.md) and our [guiding engineering principles](index.md#guiding-principles) throughout all your interactions and work.
 - Iteratively create, ship, and maintain high quality architecture, code, tests, and documentation that aligns with team goals.
 - Document and share your progress in relevant locations at least once a week (for example: in GitHub issues, team slack channel, #progress, [CHANGELOG.md](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md)).
 - Prioritize unblocking and supporting your teammates (for example: sharing knowledge, answering questions, providing feedback).
@@ -21,7 +21,7 @@ Engineering managers lead, grow, and develop teams of software engineers.
 ### Responsibilities
 
 - Facilitate and sustain a healthy, inclusive team culture where everyone is set up to do their best work (examples: [retrospectives](../retrospectives/index.md), [team events](../finance/travel.md#team-events)).
-- Model, teach, and apply [our values](../company/values.md) and [our guiding engineering principles](./principles-and-practices.md).
+- Model, teach, and apply [our values](../../company/values.md) and [our guiding engineering principles](./principles-and-practices.md).
 - Ensure the team has clear incremental goals that are documented and are always up-to-date (example: [PM – EM partnership responsibilities](../product/roles/product_manager_engineering_manager_responsibilities.md)).
 - Regularly communicate the team's progress toward their goals as well as changes in team goals to appropriate stakeholders (examples: presenting a slide at [company meeting](../communication/company_meeting.md), sending [status updates](engineering-management.md#status-updates))
 - Support and coach teammates to grow in their careers and fulfill their responsibilities (examples: [1-1s](../leadership/1-1.md), [career levels](./career-development/framework.md), [retrospectives](../retrospectives/index.md), [Impact review cycles](../people-ops/impact-reviews.md), [compensation](../people-ops/compensation/index.md))
@@ -36,7 +36,7 @@ Directors lead, grow, and develop multiple teams in Engineering.
 
 - Lead, organize, and support the work of multiple engineering teams to deliver on key initiatives that are critical to the success of Sourcegraph.
 - Recruit, hire, and grow excellent engineers and engineering managers to create a diverse team.
-- Model, teach, and apply [our values](../company/values.md) in everyday interactions.
+- Model, teach, and apply [our values](../../company/values.md) in everyday interactions.
 - Facilitate and sustain a healthy, inclusive team culture where everyone is set up to do their best work.
 
 ## VP Engineering

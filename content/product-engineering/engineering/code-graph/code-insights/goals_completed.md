@@ -1,6 +1,6 @@
 # Code insights team completed goals
 
-This page records goals completed by the code insights team historically (started recording in FY-21-Q4). See also our [current goals](../../../company/strategy/code-graph/code-insights/index.md).
+This page records goals completed by the code insights team historically (started recording in FY-21-Q4). See also our [current goals](../../../../company/strategy/code-graph/code-insights/index.md).
 
 - [**2021**](#2021)
   - [FY-21-Q4](#FY-21-Q4)

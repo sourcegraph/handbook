@@ -4,7 +4,7 @@
 
 ## Strategy
 
-- Vision, mission and strategy: [Batch Changes strategy](../../../company/strategy/code-graph/batch-changes/index.md)
+- Vision, mission and strategy: [Batch Changes strategy](../../../../company/strategy/code-graph/batch-changes/index.md)
 - [Key metrics](metrics.md)
 
 ## Contact
@@ -50,14 +50,14 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Members
 
-- [Malo Marrec](../../../company/team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Rob Rhyne](../../../company/team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Chris Pine](../../../company/team/index.md#chris-pine) ([Engineering Manager](../../roles.md#engineering-manager)) {#batch-changes-eng}
-  - [Thorsten Ball](../../../company/team/index.md#thorsten-ball)
-  - [Adam Harvey](../../../company/team/index.md#adam-harvey)
-  - [Erik Seliger](../../../company/team/index.md#erik-seliger)
-  - [Kelli Rockwell](../../../company/team/index.md#kelli-rockwell)
-  - [Adeola Akinsiku](../../../company/team/index.md#adeola-akinsiku)
+- [Malo Marrec](../../../../company/team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Rob Rhyne](../../../../company/team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Chris Pine](../../../../company/team/index.md#chris-pine) ([Engineering Manager](../../roles.md#engineering-manager)) {#batch-changes-eng}
+  - [Thorsten Ball](../../../../company/team/index.md#thorsten-ball)
+  - [Adam Harvey](../../../../company/team/index.md#adam-harvey)
+  - [Erik Seliger](../../../../company/team/index.md#erik-seliger)
+  - [Kelli Rockwell](../../../../company/team/index.md#kelli-rockwell)
+  - [Adeola Akinsiku](../../../../company/team/index.md#adeola-akinsiku)
 
 ## Growth plan
 

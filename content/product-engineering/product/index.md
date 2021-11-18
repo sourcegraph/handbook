@@ -4,7 +4,7 @@ The product team at Sourcegraph consists of [product management](product_managem
 
 The Product team strives to make the following true:
 
-- The team is working on the most important things to execute on [our strategy](../company/strategy/index.md), and that this is communicated well to teammates and everyone outside of sourcegraph.
+- The team is working on the most important things to execute on [our strategy](../../company/strategy/index.md), and that this is communicated well to teammates and everyone outside of sourcegraph.
 - Each teammate has the customer and product context needed (about customer problems, likely future priorities, possible solutions, etc.) to perform their work effectively.
 
 ## Contact
@@ -13,7 +13,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap & Strategy
 
-- The [Sourcegraph strategy page](../company/strategy/index.md) containing our mission, vision, how we think about prioritization
+- The [Sourcegraph strategy page](../../company/strategy/index.md) containing our mission, vision, how we think about prioritization
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
 - [How we track product and engineering progress](../product-engineering/planning-process.md#sharing-progress)
 

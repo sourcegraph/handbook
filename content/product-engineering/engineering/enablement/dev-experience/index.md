@@ -4,19 +4,19 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Members
 
-- [Taylor Sperry](../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Taylor Sperry](../../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
 - Kristen Stretch ([Engineering Manager](../../roles.md#engineering-manager))
-  - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
-  - [JH Chabran](../../../company/team/index.md#jh-chabran)
-  - [Robert Lin](../../../company/team/index.md#robert-lin)
+  - [Asdine El Hrychy](../../../../company/team/index.md#asdine-el-hrychy)
+  - [JH Chabran](../../../../company/team/index.md#jh-chabran)
+  - [Robert Lin](../../../../company/team/index.md#robert-lin)
 
-## [Strategy](../../../company/strategy/enablement/dev-experience/index.md)
+## [Strategy](../../../../company/strategy/enablement/dev-experience/index.md)
 
-- [Mission](../../../company/strategy/enablement/dev-experience/index.md#mission)
-- [Vision](../../../company/strategy/enablement/dev-experience/index.md#vision)
-- [Guiding principles](../../../company/strategy/enablement/dev-experience/index.md#guiding-principles)
-- [Measuring success](../../../company/strategy/enablement/dev-experience/index.md#measuring-success)
-- [Roadmap](../../../company/strategy/enablement/dev-experience/index.md#roadmap)
+- [Mission](../../../../company/strategy/enablement/dev-experience/index.md#mission)
+- [Vision](../../../../company/strategy/enablement/dev-experience/index.md#vision)
+- [Guiding principles](../../../../company/strategy/enablement/dev-experience/index.md#guiding-principles)
+- [Measuring success](../../../../company/strategy/enablement/dev-experience/index.md#measuring-success)
+- [Roadmap](../../../../company/strategy/enablement/dev-experience/index.md#roadmap)
 
 ## Responsibilities
 
@@ -46,7 +46,7 @@ To collaborate, we use the following:
 
 ### Work allocation
 
-We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../company/strategy/enablement/dev-experience/index.md), so as a rule of thumb:
+We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../../company/strategy/enablement/dev-experience/index.md), so as a rule of thumb:
 
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.

@@ -15,7 +15,7 @@ The expectation is that you demonstrate a _level of impact_ consistent with each
 The [magnitude of your impact](https://about.sourcegraph.com/blog/software-engineer-career-paths/) is ultimately the measure of your career growth.
 
 In most cases, a level builds on the expectations from the preceding levels: someone at level 2 must also meet the level 1 expectations.
-In addition to what is listed there, we expect engineers at all levels to exhibit [our values](../../company/values.md).
+In addition to what is listed there, we expect engineers at all levels to exhibit [our values](../../../company/values.md).
 
 Rather than precede each bullet point with "Consistently", we leave it as implicit.
 

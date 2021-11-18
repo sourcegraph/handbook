@@ -6,7 +6,7 @@
 
 Before you dive in to engineering tasks like reading and writing code, it is important to give yourself the time and space to set the context for the work you will be doing here at Sourcegraph.
 
-1. Read our [company values](../../company/values.md).
+1. Read our [company values](../../../company/values.md).
 2. Read our [engineering principles and practices](../principles-and-practices.md).
 3. Start reading [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) and [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) in any order (you can expense these books). As you are reading, share and discuss your thoughts with your team.
    - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
@@ -48,7 +48,7 @@ We have many resources available to help you onboard and gain context:
 
 - Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture).
 - Read through the rest of the engineering handbook to learn more about how we operate.
-- Read how we choose and continually update our [goals](../../company/goals/index.md).
+- Read how we choose and continually update our [goals](../../../company/goals/index.md).
 - Read how we collaborate with design to [request or implement design work](../../product/design/index.md#working-with-design-requesting-design-work).
 - Watch this [high-level overview of the Sourcegraph repository on Github](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing).
 - Read our [Testing Principles](https://docs.sourcegraph.com/dev/background-information/testing_principles) to learn how we think about testing. Reading this makes sure you know what others on the team are referring to when we refer to certain types of tests.

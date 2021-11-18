@@ -1,6 +1,6 @@
 # Jason's README
 
-Hello, I’m Jason Yavorska and I’m the Product Director for Code Graph. You can also see my [bio on the team page](../../company/team/index.md#jason-yavorska) for more info about me.
+Hello, I’m Jason Yavorska and I’m the Product Director for Code Graph. You can also see my [bio on the team page](../../../company/team/index.md#jason-yavorska) for more info about me.
 
 ## Logistics
 

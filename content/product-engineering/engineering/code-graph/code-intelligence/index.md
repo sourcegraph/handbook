@@ -32,9 +32,9 @@ To be the point of discovery for the knowledge graph for all source code.
 
 Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights, and batch changes.
 
-## [Goals](../../../company/strategy/code-graph/code-intelligence/index.md)
+## [Goals](../../../../company/strategy/code-graph/code-intelligence/index.md)
 
-See [goals and priorities](../../../company/strategy/code-graph/code-intelligence/index.md)
+See [goals and priorities](../../../../company/strategy/code-graph/code-intelligence/index.md)
 
 ## Overview
 
@@ -106,16 +106,16 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](../../../company/team/index.md#maría-craig) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Sara Lee](../../../company/team/index.md#sara-lee) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Owen Convey](../../../company/team/index.md#owen-convey) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-intelligence-eng}
-  - [Eric Fritz](../../../company/team/index.md#eric-fritz)
-  - [Noah Santschi-Cooney](../../../company/team/index.md#noah-santschi-cooney)
-  - [Ólafur Páll Geirsson](../../../company/team/index.md#Ólafur-Páll-Geirsson)
-  - [TJ DeVries](../../../company/team/index.md#tj-devries)
-  - [Chris Wendt](../../../company/team/index.md#chris-wendt)
-  - [Cesar Jimenez](../../../company/team/index.md#cesar-jimenez)
-  - [Varun Gandhi](../../../company/team/index.md#varun-gandhi)
+- [María Craig](../../../../company/team/index.md#maría-craig) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Sara Lee](../../../../company/team/index.md#sara-lee) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Owen Convey](../../../../company/team/index.md#owen-convey) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-intelligence-eng}
+  - [Eric Fritz](../../../../company/team/index.md#eric-fritz)
+  - [Noah Santschi-Cooney](../../../../company/team/index.md#noah-santschi-cooney)
+  - [Ólafur Páll Geirsson](../../../../company/team/index.md#Ólafur-Páll-Geirsson)
+  - [TJ DeVries](../../../../company/team/index.md#tj-devries)
+  - [Chris Wendt](../../../../company/team/index.md#chris-wendt)
+  - [Cesar Jimenez](../../../../company/team/index.md#cesar-jimenez)
+  - [Varun Gandhi](../../../../company/team/index.md#varun-gandhi)
   - FQ4 hire
 
 ## Ownership

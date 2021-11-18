@@ -4,7 +4,7 @@ This is a guide for product managers on how to think about pricing and tiering y
 
 ## Strategy
 
-Our top-level strategy for pricing can be found on the [company strategy page](../../company/strategy/index.md#pricing).
+Our top-level strategy for pricing can be found on the [company strategy page](../../../company/strategy/index.md#pricing).
 
 ## Pricing tiers
 

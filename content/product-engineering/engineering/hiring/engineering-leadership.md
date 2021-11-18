@@ -25,7 +25,7 @@ Questions:
 
 Measure:
 
-- Does this person model and facilitate [continuous growth](../../company/values.md#continuously-grow).
+- Does this person model and facilitate [continuous growth](../../../company/values.md#continuously-grow).
 
 Questions:
 
