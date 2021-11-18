@@ -112,6 +112,8 @@ The slides are reviewed and discussed each week in the [VP team sync](team.md#vp
 
 After the slides are reviewed, they are copied to a seprate slide deck to capture week-over-week progress.
 
+After the [VP team sync](team.md#vp-team-sync), summarized OKR status updates are posted in #product-engineering-planning Slack channel for visibility.
+
 Slides:
 
 - [FY22 Q4 (current week)](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gfca47eca53_0_184)
@@ -122,7 +124,7 @@ Slides:
 These are due each Friday by 19:00 UTC.
 
 - Owners update their sections and connected issues in the [GitHub project tracker](#github-project-tracker)
-- Directors the [OKR slides](#okr-slides)
+- Directors update the [OKR slides](#okr-slides)
 
 ### Monthly team updates
 
@@ -139,6 +141,10 @@ Guidelines:
   - Consider sharing wins, challenges, risks, plans, lessons learned.
   - Inline relevant screenshots/demos/gifs/charts when possible so it isn't just a wall of text.
   - Be creative and have fun with it! Jokes and random fun facts are welcome.
+
+### Monthly PMM roadmap update
+
+In addition to the monthly team update, each team should update the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) for their features at the same time. This deck contains a manually updated copy of the plan with upcoming and recently launched important customer-facing features from the OKR and roadmap tracker. In the future we may transition updating this to PMM, but for now its important product managers are involved in ensuring it is up to date and correct.
 
 ## Quarterly department retrospective
 
