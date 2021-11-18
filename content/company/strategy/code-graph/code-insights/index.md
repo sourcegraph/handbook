@@ -119,7 +119,7 @@ Users do not need to learn a new query language or format to use Code Insights. 
 
 ## Where we are now
 
-Code Insights is a [Beta Feature](../../../../product/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely remain in Beta into Q4.
+Code Insights is a [Beta Feature](../../../../product-engineering/product/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely remain in Beta into Q4.
 
 This means that the Code Insights team is singularly focused on bringing Code Insights into general availability. To reach that goal, Code Insights will be building stability, features, and core product experiences based on the feedback we get from our beta participants.
 
