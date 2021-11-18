@@ -1,6 +1,6 @@
 # Demo day
 
-On the **first Monday of the month** directly following [Company meeting](../../communication/company_meeting.md), Product and Engineering team members present the latest features and improvements to Sourcegraph.
+On the **first Monday of the month** directly following [Company meeting](../communication/company_meeting.md), Product and Engineering team members present the latest features and improvements to Sourcegraph.
 
 Demos should be short and easy to prepare for, so that as many team members as possible are able to participate. Demos are recorded for folks across the company, customers, and future team members to reference.
 
