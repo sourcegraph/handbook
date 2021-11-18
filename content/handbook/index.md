@@ -58,7 +58,7 @@ To be handbook-first, we must:
 
 ## Why do we use Git? Why not a wiki or Google Docs?
 
-The handbook consists of Markdown files in the Git repository at github.com/sourcegraph/handbook. Being [handbook-first](#why-handbook-first) means the Handbook must be kept up to date. There are several benefits in using Git over another format:
+The handbook consists of Markdown files in the Git repository at github.com/sourcegraph/handbook. Being [handbook-first](#what-does-it-mean-to-be-handbook-first) means the Handbook must be kept up to date. There are several benefits in using Git over another format:
 
 1. Many handbook changes require updating references and mentions across multiple pages. In wikis and Google Docs, there is no easy way to propose a _group_ of changes to multiple sections or pages, which means people making and reviewing edits can easily miss other places that need to be updated. This format allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing/index.md).
 1. Many handbook changes are collaborative and need to be reviewed, revised, and commented on by other teammates. Git makes this possible, with comments and code reviews. Wikis don't make this easy or possible, and Google Docs has very limited review and no revision capabilities.
