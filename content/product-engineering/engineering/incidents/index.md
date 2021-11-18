@@ -90,6 +90,7 @@ If a messenger is decided, **assign** the messenger in the incident chatroom wit
 The messenger should witness the incident lead work (in the dedicated Slack channel and/or on any huddle calls) and (with minimal progress-interrupting questions) translates what they witness to:
 
 - [Status page](https://sourcegraphstatus.com/#) updates for customers which is updated via incident.io Slack commands (`/incident statuspage`) and following these best practices:
+
   - Be sure posts do not orient toward any specific region and remain relevant to a global population (for example, use UTC timezone and don’t say things like “this morning,” etc)
   - Be succinct and informative
   - First post should be a report of awareness of the incident and mention to email support@sourcegraph.com if there are questions. For example:
@@ -149,7 +150,7 @@ After the incident is resolved, the incident lead:
 - [3.30 Postgres Index Incident](./330_incident_retro.md)
 - [Extensibility Repo Name Logging Incident](./extensibility_repo_name_log.md)
 
-## Additional links and resources
+## Links and resources
 
 - [Incident playbooks](playbooks/index.md)
 - [docs.incident.io](https://docs.incident.io/)
