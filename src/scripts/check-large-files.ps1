@@ -17,9 +17,20 @@ $base = Get-GitCommit $BaseRef
 
 $largeChanges =
   # Get all commits between HEAD and the base ref
-  Get-GitCommit -Since HEAD -Until $base.Sha -NoMerges |
+  Get-GitCommit -Since HEAD -Until $base.Sha |
   # Compare commit to the parent
-  ForEach-Object { Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -First 1).Sha -DifferenceRevision $_.Sha } |
+  ForEach-Object {
+    $changesParent1 = Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -First 1).Sha -DifferenceRevision $_.Sha
+    if ($_.Parents.Count -eq 1) {
+      $changesParent1
+    } else {
+      # For merge commits, only consider changes that are present compared to both parents
+      $changesParent2 = Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -Skip 1 -First 1).Sha -DifferenceRevision $_.Sha |
+        ForEach-Object { $_ } |
+        Group-Object -Property Oid -AsHashTable -NoElement
+      $changesParent1 | Where-Object { $changesParent2.ContainsKey($_.Oid) }
+    }
+  } |
   # Flatten changes collection
   ForEach-Object { $_ } |
   # Ignore deleted files, renamed/moved files and files outside the content/ folder
