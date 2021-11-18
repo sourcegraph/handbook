@@ -46,7 +46,7 @@ Some people prefer to work in a really flexible way, which can sometimes mean th
 
 There is **no** expectation that people will be responsive over the weekend/vacation/evening/etc except some circumstances that do require this, but generally there will be early/predictable notice — e.g., on-call duty.
 
-Tip: [Configure](../../engineering/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
+Tip: [Configure](../../product-engineering/engineering/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
 After that it is just a matter of not checking your work email (or Slack) at times that you don’t want to do work. Slack has settings to pause notifications, and you can remove work email from your phone if that would help you not check it during non-work times.
 
 ## Remote hackathons

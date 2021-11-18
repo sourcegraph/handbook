@@ -4,8 +4,8 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 ## Quick links
 
-- [Code Graph overall strategy](../../../../engineering/code-graph/batch-changes/index.md)
-- [Batch Changes team page](../../../../engineering/code-graph/batch-changes)
+- [Code Graph overall strategy](../../../../product-engineering/engineering/code-graph/batch-changes/index.md)
+- [Batch Changes team page](../../../../product-engineering/engineering/code-graph/batch-changes)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
@@ -69,7 +69,7 @@ To drive enterprise success and stickiness, we need to:
 
 - Deliver a great experience in creating changesets at enterprise scale (10,000s repositories), resulting in more users onboarding batch changes.
 - Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth.
-- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../../engineering/code-graph/batch-changes/metrics.md).
+- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../../product-engineering/engineering/code-graph/batch-changes/metrics.md).
 
 ### Discovery, configuration and onboarding
 

@@ -89,6 +89,7 @@ devops:
 
 dev_experience:
   title: Dev Experience
+  strategy_link: /company/strategy/enablement/dev-experience
   product_org: enablement
   pm: taylor_sperry
   issue_labels:

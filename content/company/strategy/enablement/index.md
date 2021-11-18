@@ -62,8 +62,8 @@ Code host connectivity, scalability, and reliability underpin all other features
 
 ## Team specific pages
 
-- [Repo Management](../../../engineering/enablement/repo-management/index.md) - [Strategy page](repo-management/index.md)
-- [Delivery](../../../engineering/enablement/delivery/index.md) - [Strategy page](delivery/index.md)
-- [Dev Experience](../../../engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
-- [Frontend Platform](../../../engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
+- [Repo Management](../../../product-engineering/engineering/enablement/repo-management/index.md) - [Strategy page](repo-management/index.md)
+- [Delivery](../../../product-engineering/engineering/enablement/delivery/index.md) - [Strategy page](delivery/index.md)
+- [Dev Experience](../../../product-engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
+- [Frontend Platform](../../../product-engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
 - [Handbook Strategy Page](handbook/index.md)
