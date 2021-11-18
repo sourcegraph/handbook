@@ -22,8 +22,8 @@ $largeChanges =
   ForEach-Object { Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -First 1).Sha -DifferenceRevision $_.Sha } |
   # Flatten changes collection
   ForEach-Object { $_ } |
-  # Ignore deleted files and files outside the content/ folder
-  Where-Object { $_.Status -ne 'Deleted' -and $_.Path -like 'content/*' } |
+  # Ignore deleted files, renamed/moved files and files outside the content/ folder
+  Where-Object { $_.Status -notin 'Deleted','Renamed' -and $_.Path -like 'content/*' } |
   # Filter for binary blobs larger than the limit
   Where-Object {
     $blob = $repo.Lookup($_.Oid)
