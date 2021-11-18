@@ -28,4 +28,4 @@ Our [design critique process](../design_critiques/index.md) is informal right no
 
 ## Retros
 
-We run [team retrospectives](../../../retrospectives/index.md) on a monthly basis to help us continuously learn and improve. We focus mainly on collaboration and our processes.
+We run [team retrospectives](../../../../retrospectives/index.md) on a monthly basis to help us continuously learn and improve. We focus mainly on collaboration and our processes.

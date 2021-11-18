@@ -2,7 +2,7 @@
 
 ## Personas
 
-We use personas to understand our users and what they need as we prioritize our work. More can be read on the [personas page](../../marketing/personas.md) in the marketing handbook, which also links to a presentation with the actual personas in it.
+We use personas to understand our users and what they need as we prioritize our work. More can be read on the [personas page](../../../marketing/personas.md) in the marketing handbook, which also links to a presentation with the actual personas in it.
 
 ## Inputs to prioritization
 
@@ -55,12 +55,12 @@ Sometimes, we need to prioritize changes to our product on short notice due to n
 
 If the requested change is large enough that it would impact the planned [product roadmap](../index.md#roadmap) of one or several [engineering teams](../../engineering/index.md#teams), we should handle its prioritization as follows:
 
-1. The product manager should contact all relevant [engineering managers](../../engineering/roles.md#engineering_manager), providing the following information in the form of an [RFC](../../communication/rfcs/index.md):
+1. The product manager should contact all relevant [engineering managers](../../engineering/roles.md#engineering_manager), providing the following information in the form of an [RFC](../../../communication/rfcs/index.md):
    - Description of the desired functionality.
    - Context on why is this important: the customers or prospects that would benefit from the change, the size of the opportunity, and the risks of not doing this work.
    - Desired timeline for the change: when do we need this by?
    - Desired timeline for the evaluation: how soon do we need to know whether we can deliver this?
-1. Engineering managers own providing a timely answer, either directly or by delegating evaluation of the request to a [software engineer](../../engineering/roles.md#software-engineer) on their project team. If cross-team coordination is needed to evaluate the request, engineering managers own facilitating this coordination. The evaluation should be provided in the form of an [RFC](../../communication/rfcs/index.md), or added to the original RFC provided by the product manager, and should include:
+1. Engineering managers own providing a timely answer, either directly or by delegating evaluation of the request to a [software engineer](../../engineering/roles.md#software-engineer) on their project team. If cross-team coordination is needed to evaluate the request, engineering managers own facilitating this coordination. The evaluation should be provided in the form of an [RFC](../../../communication/rfcs/index.md), or added to the original RFC provided by the product manager, and should include:
    - An estimation of the amount of work needed to implement the request.
    - If the amount of work needed spans more than one milestone, a proposed breakdown of incremental changes (for example, shipping a first functional but slow implementation in milestone N then working on performance in milestone N+1).
    - An overview of work that would get deprioritized if we chose to prioritize the request.
@@ -98,4 +98,4 @@ Important questions to ask while re-prioritizing and proposing solutions for cri
 
 ## How to reference customer names in public tickets
 
-Accounts (customer, prospect and lead) names are private, and should not be included in public GitHub tickets. See our process for [referencing private customer names in public places](../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places).
+Accounts (customer, prospect and lead) names are private, and should not be included in public GitHub tickets. See our process for [referencing private customer names in public places](../../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places).

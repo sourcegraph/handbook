@@ -5,11 +5,11 @@
 - [Engineering management](engineering-management.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
-  - [How we use RFCs](../communication/rfcs/index.md)
+  - [How we use RFCs](../../communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
 - Practices & Philosophy
   - [Planning](planning.md)
-  - [Customer Issues](../support/engaging-other-teams.md)
+  - [Customer Issues](../../support/engaging-other-teams.md)
   - [Incidents](incidents/index.md)
   - [Product documentation](product_documentation.md)
   - [Continuous releasability](continuous_releasability.md)
@@ -41,7 +41,7 @@
 
 ## Communication
 
-For a list of engineering relevant Slack channels to join see the [team chat](../communication/team_chat.md#engineering) page in the handbook.
+For a list of engineering relevant Slack channels to join see the [team chat](../../communication/team_chat.md#engineering) page in the handbook.
 
 ## Repositories
 

@@ -8,7 +8,7 @@ Welcome to the distribution team! This document will guide you through distribut
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../../company/goals/index.md), [values](../../../company/values.md) and [code of conduct](../../communication/code_of_conduct.md), as well as [Distributions’s mission and vision](./index.md).
+- Clear knowledge of the [company goals](../../../company/goals/index.md), [values](../../../company/values.md) and [code of conduct](../../../communication/code_of_conduct.md), as well as [Distributions’s mission and vision](./index.md).
 - Know the expected outcome of each Distribution onboarding milestone.
 - Become familiar with Distribution [product](product.md), [tech stack](tech_stack.md)
 - Go through [Process St Onboarding](https://app.process.st/reports/)
@@ -69,7 +69,7 @@ Welcome to the distribution team! This document will guide you through distribut
 
 #### Goals
 
-- You will have assisted [customer engineering](../../ce/index.md) and [customer support](../../support/index.md), taken ownership of any distribution tasks and resolved them.
+- You will have assisted [customer engineering](../../../ce/index.md) and [customer support](../../../support/index.md), taken ownership of any distribution tasks and resolved them.
 - Made improvements to our processes and how we deliver sourcegraph.
 
 #### Tasks

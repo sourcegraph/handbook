@@ -2,7 +2,7 @@
 
 A Product Document (PD)'s purpose is to communicate the high level product problem that needs to be solved. It is the one place where ongoing research and information can be aggregated around a particular problem statement. Product documents exist to encourage quick iteration, the ability to fail fast, and multiple efforts to be combined towards a singular problem statement.
 
-These documents were created out of a need to orient around a particular problem statement, and the realization that it sometimes takes multiple [RFCs](../communication/rfcs/index.md) to fully solve a problem. This helps to aggregate the motivations and learnings around a problem, so that individual RFCs can focus on a particular proposed solution.
+These documents were created out of a need to orient around a particular problem statement, and the realization that it sometimes takes multiple [RFCs](../../communication/rfcs/index.md) to fully solve a problem. This helps to aggregate the motivations and learnings around a problem, so that individual RFCs can focus on a particular proposed solution.
 
 _All PDs are in a [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx)._
 
@@ -10,10 +10,10 @@ _All PDs are in a [public Google Drive folder](https://drive.google.com/drive/fo
 
 They are:
 
-- [Sequentially numbered](../communication/rfcs/index.md#rfcs-are-sequentially-numbered)
-- [Google Docs](../communication/rfcs/index.md#rfcs-are-google-docs)
-- [Public](../communication/rfcs/index.md#rfcs-are-public)
-- [Open to external contributions](../communication/rfcs/index.md#external-contributors)
+- [Sequentially numbered](../../communication/rfcs/index.md#rfcs-are-sequentially-numbered)
+- [Google Docs](../../communication/rfcs/index.md#rfcs-are-google-docs)
+- [Public](../../communication/rfcs/index.md#rfcs-are-public)
+- [Open to external contributions](../../communication/rfcs/index.md#external-contributors)
 
 ## Status
 

@@ -33,7 +33,7 @@ We have a few different email lists that are used to send us feedback.
 #### support@sourcegraph.com
 
 - **Purpose:** This email list is for customers to request help and connects to Zendesk.
-- **Owner:** The Customer Support team is [responsible for all support issues](../../support/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
+- **Owner:** The Customer Support team is [responsible for all support issues](../../../support/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
 
 ### GitHub issues
 

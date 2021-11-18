@@ -6,9 +6,9 @@ Welcome! We're excited to have you join the team. This document outlines the str
 
 You'll have to get some basics set up in your first few days:
 
-- Complete [general onboarding](../../people-ops/onboarding/index.md#general-onboarding-checklist)
+- Complete [general onboarding](../../../../people-ops/onboarding/index.md#general-onboarding-checklist)
 - [Configure your GitHub notifications.](../github-notifications/index.md)
-- Join #dev-announce, #dev-chat, and your team's channel on Slack, as well as any other channels you find interesting. [Team chat documentation](../../communication/team_chat.md#engineering)
+- Join #dev-announce, #dev-chat, and your team's channel on Slack, as well as any other channels you find interesting. [Team chat documentation](../../../communication/team_chat.md#engineering)
 - Set up your [local development environment](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next engineer that we hire doesn't run into the same problem).
 - [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../deployments/instances.md#k8s-sgdev-org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 - Read through your team's handbook page, to learn about the team and its internal processes.
@@ -19,11 +19,11 @@ You'll have to get some basics set up in your first few days:
 
 ## Manager checklist
 
-For Hiring Managers, visit the [Onboarding process for Hiring Managers](../../people-ops/onboarding/onboarding-for-hiring-managers.md) page.
+For Hiring Managers, visit the [Onboarding process for Hiring Managers](../../../../people-ops/onboarding/onboarding-for-hiring-managers.md) page.
 
 Your manager should complete the following steps when you join:
 
-- Schedule a recurring [1-1](../../leadership/1-1.md).
+- Schedule a recurring [1-1](../../../leadership/1-1.md).
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
     - Invite to relevant GitHub teams, including @sourcegraph/everyone.

@@ -96,4 +96,4 @@ Using these simple charting methods, designers can quickly discover how often th
   - Use the #analytics-review Slack channel to get more eyes on your chart.
 - Make sure the data you are looking at has statistical significance
   - If we have 4 users who performed an event out of 10 sessions, we do not have enough sessions to say that users are 40% likely to perform this event.
-  - [Learn more in the handbook about reaching statistical significance](../../../bizops/ab-testing.md#volume-of-users-to-reach-statistical-significance)
+  - [Learn more in the handbook about reaching statistical significance](../../../../bizops/ab-testing.md#volume-of-users-to-reach-statistical-significance)

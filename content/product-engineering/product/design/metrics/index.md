@@ -25,7 +25,7 @@ Amplitude provides session-based event data of Sourcegraph Cloud features. Desig
 ### Looker
 
 Looker provides access to all event log data across both on-premise installations and cloud products from a single interface. Because Looker data is provided primarily from ‘ping’ data, it can answer cumulative questions about events but does not provide events related to individual user sessions.
-[Learn more about when to use Looker versus Amplitude](../../../bizops/amplitude.md#what-is-in-looker-vs-amplitude)
+[Learn more about when to use Looker versus Amplitude](../../../../bizops/amplitude.md#what-is-in-looker-vs-amplitude)
 
 ### Google Analytics
 

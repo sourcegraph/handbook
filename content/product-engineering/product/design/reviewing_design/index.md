@@ -10,9 +10,9 @@ To help us do this, we explicitly indicate the state of our design work and what
 
 As a design team, it’s our responsibility [to communicate expectations clearly](../artifacts/index.md) and to make it easy for you to review design asynchronously.
 
-As a teammate outside the design team, it’s your responsibility to understand [when and how your feedback will be most valuable](../../../communication/seeking-and-giving-feedback.md#giving-feedback).
+As a teammate outside the design team, it’s your responsibility to understand [when and how your feedback will be most valuable](../../../../communication/seeking-and-giving-feedback.md#giving-feedback).
 
-We have a [set of guidelines for how to seek and give great feedback](../../../communication/seeking-and-giving-feedback.md).
+We have a [set of guidelines for how to seek and give great feedback](../../../../communication/seeking-and-giving-feedback.md).
 
 ## Reviews in Figma
 

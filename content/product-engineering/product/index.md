@@ -33,8 +33,8 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 ## Metrics
 
 - [Product metrics dashboard](https://sourcegraph.looker.com/dashboards/127)
-- [User metrics definitions](../bizops/user_definitions.md)
-- [How to add metrics](../bizops/analytics.md#How-to)
+- [User metrics definitions](../../bizops/user_definitions.md)
+- [How to add metrics](../../bizops/analytics.md#How-to)
 
 ## Product team initiatives
 
@@ -58,14 +58,14 @@ To help guide people within the product organization on career growth we are cre
 ## References
 
 - [Beta and experimental feature labels](./beta_and_experimental_feature_labels.md)
-- [Personas](../marketing/personas.md)
-- [Sourcegraph messaging](../marketing/messaging.md)
+- [Personas](../../marketing/personas.md)
+- [Sourcegraph messaging](../../marketing/messaging.md)
 - Product documents (PDs)
   - [All PDs](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx) (Google Drive)
   - [How we use PDs](product_documents.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
-  - [How we use RFCs](../communication/rfcs/index.md)
+  - [How we use RFCs](../../communication/rfcs/index.md)
 - [User research](./user_research/index.md)
 - [Product licensing](licensing.md)
 - [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)

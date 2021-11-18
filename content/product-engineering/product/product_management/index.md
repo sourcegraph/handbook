@@ -26,7 +26,7 @@ See the [Product & Engineering handbook on sharing progress](../../product-engin
 
 We also use [per-team strategy pages](../../../company/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
 
-Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
+Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
 
 We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
 
@@ -46,7 +46,7 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 - Team: A well-defined product team that works to deliver features for one or more product areas.
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 
-Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../marketing/product-marketing/marketing_launch_tiers.md).
+Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../../marketing/product-marketing/marketing_launch_tiers.md).
 
 ## Collaboration
 
@@ -73,7 +73,7 @@ Shared areas of ownership where both teams contribute are:
 - [Go to market planning](./rollout_process.md)
 - [Customer communications](#talking-to-customers-and-stakeholders)
 
-Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../communication/conflicts.md#clean-escalation) process to get to the best decision.
+Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../../communication/conflicts.md#clean-escalation) process to get to the best decision.
 
 ## Communications
 
@@ -99,7 +99,7 @@ Unless the change is extremely wide in impact (a large about site update, a majo
 
 ### Talking about customers publicly
 
-When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
+When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
 
 ## Release early, release often
 
@@ -114,13 +114,13 @@ When we have relaxed this in the past, the results have been bad and the overwhe
 - [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) - a template for a [product strategy page](../../../company/strategy/index.md), covering vision, strategy and short term direction.
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
-- [Amplitude](../../bizops/amplitude.md)
+- [Amplitude](../../../bizops/amplitude.md)
 - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
 - [Running remote hackathons](../../../company/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
 
 ## References
 
 - [Onboarding to the product team](../onboarding/index.md)
-- [Sourcegraph messaging](../../marketing/messaging.md)
-- [Working with BizOps](../../bizops/index.md#how-to-work-with-us)
+- [Sourcegraph messaging](../../../marketing/messaging.md)
+- [Working with BizOps](../../../bizops/index.md#how-to-work-with-us)
 - [Recommended reading](../onboarding/recommended_reading.md)

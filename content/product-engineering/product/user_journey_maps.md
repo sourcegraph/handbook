@@ -12,7 +12,7 @@ Sourcegraph's approach to user journey mapping is decentralized and just-in-time
 You're ready to create a user journey map when you've defined the following:
 
 - The outcome this map is in support of:
-- Persona (most likely from [our current personas](../marketing/personas.md):
+- Persona (most likely from [our current personas](../../marketing/personas.md):
 - Start and end (e.g. invitation email from admin to activated):
 - Level of detail (e.g. discovery -> education -> adoption OR ad -> landing page -> first search):
 - Participants:

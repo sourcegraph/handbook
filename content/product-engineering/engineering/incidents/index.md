@@ -6,9 +6,9 @@ Some examples of incidents:
 
 - sourcegraph.com is down or a critical feature is broken (e.g. sign-in, search, code intel).
 - If sourcegraph.com is down for more than 5 minutes, a critical feature is down for more than 5 minutes, or we're aware of a service degradation issue that >5 users have reported. If you're unsure if the incident's impact qualifies, ask @cs in Slack for advice.
-- We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many self-hosted instances
-- We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many managed instances
-- We have a severity 1 issue (per [our standard SLA definition](../../support/index.md#slas)) that impacts all/many Cloud/SaaS users
+- We have a severity 1 issue (per [our standard SLA definition](../../../support/index.md#slas)) that impacts all/many self-hosted instances
+- We have a severity 1 issue (per [our standard SLA definition](../../../support/index.md#slas)) that impacts all/many managed instances
+- We have a severity 1 issue (per [our standard SLA definition](../../../support/index.md#slas)) that impacts all/many Cloud/SaaS users
   instance is down or a critical feature is broken.
 - There is a security issue with Sourcegraph (and if so, pleaes also follow [our security disclosure process](../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities).
 - A Sourcegraph team member feels like an incident might be present, but isn't certain or isn't able to confirm on their own.
@@ -40,12 +40,12 @@ The first Sourcegraph teammate (regardless of their role) that becomes aware of 
 
 ### Severity levels
 
-We currently have 2 severity levels for incidents that require this workflow and both of these levels are considered a severity 1 per [our contractual SLAs](../../support/index.md#slas), we just break them down a bit more for internal delineation:
+We currently have 2 severity levels for incidents that require this workflow and both of these levels are considered a severity 1 per [our contractual SLAs](../../../support/index.md#slas), we just break them down a bit more for internal delineation:
 
 1. **Critical** - Issues causing very high impact to customers. Immediate response is required. Examples include a full outage, or a data breach.
 2. **Major** - Issues causing significant impact. Immediate response is usually required. We might have some workarounds that mitigate the impact on customers. Examples include an important sub-system failing.
 
-Severity level 2 issues [our contractual SLAs](../../support/index.md#slas) (aka, minor issues) should not use this workflow (these go through the usual support/feedback processes.
+Severity level 2 issues [our contractual SLAs](../../../support/index.md#slas) (aka, minor issues) should not use this workflow (these go through the usual support/feedback processes.
 
 ### How to identify folks to serve in incident lead and messenger roles
 
@@ -135,7 +135,7 @@ After the incident is resolved, the incident lead:
 3. Update and close and relevant public GitHub issues.
 4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish it in the [Incidents]](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F) folder in Google Drive.
 5. Create GitHub issues for any appropriate followup work.
-6. Schedule a [retrospective](../../retrospectives/index.md) if you think it would be valuable.
+6. Schedule a [retrospective](../../../retrospectives/index.md) if you think it would be valuable.
 
 ## Incident Post-mortems
 

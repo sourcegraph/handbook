@@ -8,7 +8,7 @@ Decisions are made in design artifacts. While we can talk about things in synchr
 
 When a design artifact like a Figma file is a source of truth, designers are responsible for communicating this to their teams and for keeping those artifacts up to date.
 
-It’s our role as designers to [set expectations around our artifacts](../reviewing_design/index.md): what state they’re at, whether or not we’re ready for feedback, and what kind of feedback we’re seeking. [Seeking feedback](../../../communication/seeking-and-giving-feedback.md#giving-feedback) is a skill we're always working to improve.
+It’s our role as designers to [set expectations around our artifacts](../reviewing_design/index.md): what state they’re at, whether or not we’re ready for feedback, and what kind of feedback we’re seeking. [Seeking feedback](../../../../communication/seeking-and-giving-feedback.md#giving-feedback) is a skill we're always working to improve.
 
 As a design team, we’re low-process. We avoid making artifacts for the sake of making artifacts. Instead, we make artifacts when it makes sense to help us communicate and collaborate, and we optimize for clarity and understanding.
 

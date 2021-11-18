@@ -22,7 +22,7 @@ Less frequent than quarterly raises the stakes too high: “I just started this 
 
 Prior to the calibration meeting, each <a href="../roles#engineering-manager"><abbr title="Engineering Manager">EM</abbr></a> should evaluate each <a href="../roles#software-engineer"><abbr title="Individual Contributor">IC</abbr></a> reporting to them using the [level descriptions](framework.md#levels) and determine if they are meeting/exceeding/struggling-to-meet the expectations of their given level. EMs should prepare a _short_ statement to justify this, which they will share during the calibration meeting. If they believe the IC to be performing at a higher level, they should also ensure that the IC is meeting the expectations for that higher level, as well as write up a brief promotion pitch. (Note that compensation increases within a level, such as from the start of the compensation band to the midpoint, do not need to go through this process; those can happen any time and are between the EM and their <a href="../roles#director-of-engineering">director</a> to decide.)
 
-This pre-work is greatly aided by [Impact review cycles](../../people-ops/impact-reviews.md), so we schedule the talent review accordingly. (Since we do 360º feedback every 6 months, it would only be available for every other talent review.)
+This pre-work is greatly aided by [Impact review cycles](../../../../people-ops/impact-reviews.md), so we schedule the talent review accordingly. (Since we do 360º feedback every 6 months, it would only be available for every other talent review.)
 
 Because of the quarterly cadence, it’s important that this be as light-weight as possible. The pre-work should take an EM less than an hour per IC not being pitched for a promotion. (For ICs being pitched, the cadence isn’t a consideration: an EM will have the same number of promotion pitches to make regardless of cadence. More frequent evaluations means fewer pitches per talent review.)
 
@@ -30,7 +30,7 @@ Prior to the calibration meeting, EMs in a Group will share their evaluations an
 
 ## Calibration meeting
 
-The calibration meeting is a several-hour meeting (possibly spread out over two days, depending on logistics) with all of the EMs and directors of the Group, plus an observer from [People Ops](../../people-ops/index.md) for the purpose of reducing unconscious bias. (If the Group is not all of engineering, then at least one other director is invited as well, to help ensure that all Groups are well-calibrated with each other.) Upper management may be invited, but are not required and have no official role.
+The calibration meeting is a several-hour meeting (possibly spread out over two days, depending on logistics) with all of the EMs and directors of the Group, plus an observer from [People Ops](../../../../people-ops/index.md) for the purpose of reducing unconscious bias. (If the Group is not all of engineering, then at least one other director is invited as well, to help ensure that all Groups are well-calibrated with each other.) Upper management may be invited, but are not required and have no official role.
 
 All ICs at a given level are reviewed together, starting with level 1. Every EM with an IC at level 1 places their ICs into one of these categories: struggling/meeting/exceeding expectations. Then, one at a time, each IC’s placement is explained by their EM. (Note that in the interests of time, the Group might decide to focus conversation on ICs who are under- or over-performing, especially given the async prework described above.) If they are being pitched for a promotion, that is also shared. Other EMs then provide additional feedback/insight they might have, either to challenge or to further justify the IC’s placement. _This is not adversarial:_ the EMs are working together to best establish where each IC is, and to help prepare the EM to provide meaningful feedback to the IC.
 
@@ -47,7 +47,7 @@ Any qualitative feedback for an IC that came out of talent review is shared with
 For ICs being considered for promotion their manager will complete a [promotion request](#promotion-requests).
 It’s important that this process moves quickly! If we leave people wondering for a month or more if they will be getting a promotion, we’re creating needless anxiety and uncertainty.
 
-Finally, we should have a [retrospective](../../retrospectives/index.md) after each of these, so we can continue iterating and improving upon this process. We should also consider changes/clarifications to the [level descriptions](framework.md#levels) at this time, in case any of the existing definitions were cause for confusion.
+Finally, we should have a [retrospective](../../../retrospectives/index.md) after each of these, so we can continue iterating and improving upon this process. We should also consider changes/clarifications to the [level descriptions](framework.md#levels) at this time, in case any of the existing definitions were cause for confusion.
 
 ## Levels
 

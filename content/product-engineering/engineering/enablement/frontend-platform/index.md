@@ -118,7 +118,7 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 
 ### Meetings
 
-We inherit Sourcegraph's [meeting principles](../../../communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../company/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
+We inherit Sourcegraph's [meeting principles](../../../../communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../company/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
 
 - Meeting agenda:
   - The meeting leader prepares the agenda at least 24 hours in advance in a shared Google document.

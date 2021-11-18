@@ -25,7 +25,7 @@ False incidents (flaky alerts, etc.) should be tracked directly in GitHub issues
 
 ## Slack channels
 
-Most of the work you do as the on-call engineer should be discussed in #dev-ops but check our [Slack channels](../../communication/team_chat.md#engineering) to discover alert and troubleshooting channels which you might find useful.
+Most of the work you do as the on-call engineer should be discussed in #dev-ops but check our [Slack channels](../../../communication/team_chat.md#engineering) to discover alert and troubleshooting channels which you might find useful.
 
 ## Getting help
 

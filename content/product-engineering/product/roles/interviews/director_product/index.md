@@ -4,7 +4,7 @@ Total interview time: 5 hours
 
 1. [30 min] **[Initial screen](../initial_screen.md)**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
 1. [30 min] **[Hiring manager screen](../hm_intro_call.md)**: with [Christina Forney](../../../../../company/team/index.md#christina-forney), VP Product to elaborate on your previous experiences.
-1. [1 hr] **[Resume deep dive](../../../../talent/types_of_interviews.md#resume-deep-dive)** with [Christina Forney](../../../../../company/team/index.md#christina-forney), VP Product
+1. [1 hr] **[Resume deep dive](../../../../../talent/types_of_interviews.md#resume-deep-dive)** with [Christina Forney](../../../../../company/team/index.md#christina-forney), VP Product
 1. [2.5 hr "Onsite"]
    - [1 hr] **Working session**: Work through problem solving leadership exercises with [Christina Forney](../../../../../company/team/index.md#christina-forney), VP Product and either [Nick Snyder](../../../../../company/team/index.md#nick-snyder), VP Engineering or the Director of Engineering of the corresponding org.
    - [30 min] **Meet your team**: Explain how you grow and mentor Product Managers with your direct reports.

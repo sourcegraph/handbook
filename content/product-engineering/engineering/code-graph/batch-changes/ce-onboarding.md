@@ -8,12 +8,12 @@ Welcome to Batch Changes! This page is primarily for new members of the CE team,
 
 ## Prerequisites
 
-General [CE onboarding](../../../ce/onboarding.md)
+General [CE onboarding](../../../../ce/onboarding.md)
 
 ## Part 1: Discover Batch Changes
 
 - Watch the [demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw) and checkout the [landing page](https://about.sourcegraph.com/batch-changes/)
-- What is Batch Changes, and why does it matter to customers? Read about [product positioning and messaging](../../../marketing/product-marketing/batch_changes_positioning.md)
+- What is Batch Changes, and why does it matter to customers? Read about [product positioning and messaging](../../../../marketing/product-marketing/batch_changes_positioning.md)
 - How to demo Batch Changes? Read the [Batch Changes deep dive](https://docs.google.com/presentation/d/1CN3KQf1Hfdb4RO6FgBgKuiHK4ERcOAHPgVnOcBu-MPU/edit#slide=id.ga366db8d9b_0_116)
 - How does Batch Changes work? Read the Batch Changes documentation section of the [Supporting Batch Changes guide](./supporting-batch-changes.md#batch-changes-documentation)
 

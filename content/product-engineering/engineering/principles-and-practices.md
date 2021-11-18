@@ -19,7 +19,7 @@ The default owner of any technical decision is the person or team that owns the 
 
 If ownership is unclear, ask your manager (or in an appropriate channel) "Do we have a designated owner for X?".
 
-If agreement cannot be reached on a decision, then perform a [clean escalation](../communication/conflicts.md).
+If agreement cannot be reached on a decision, then perform a [clean escalation](../../communication/conflicts.md).
 
 ## Make time to work on things you think are important
 
