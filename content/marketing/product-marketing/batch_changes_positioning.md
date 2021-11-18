@@ -37,16 +37,16 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 
 ### Playbook 1
 
-- User persona: a platform team that is responsible for a framework or platform. Sample teams: Java platform team, client platform team, frontend platform team.
-- Painpoint: When shipping new internal library versions with breaking changes, getting other teams to upgrade takes a lot of time and effort.
-- Use case: When updating boilerplate code, internal libraries, or frameworks across a company, use Batch Changes to rollout the upgrade to all consumer repositories.
-- Sponsor: developer experience team
+- **User persona**: a platform team that is responsible for a framework or platform. Sample teams: Java platform team, client platform team, frontend platform team.
+- **Painpoint**: When shipping new internal library versions with breaking changes, getting other teams to upgrade takes a lot of time and effort.
+- **Use case**: When updating boilerplate code, internal libraries, or frameworks across a company, use Batch Changes to rollout the upgrade to all consumer repositories.
+- **Sponsor**: developer experience team
 
 ### Playbook 2
 
-- User persona: an infrastructure team, sometimes also responsible for developer experience
-- Painpoint: Infrastructure or configuration files have a lot of repetitive / boilerplate code that is very time-consuming to change.
-- Use case: ship updates to configuration across many repositories.
+- **User persona**: an infrastructure team, sometimes also responsible for developer experience
+- **Painpoint**: Infrastructure or configuration files have a lot of repetitive / boilerplate code that is very time-consuming to change.
+- **Use case**: ship updates to configuration across many repositories.
   - Quickly edit every CI, build, and other configuration files to make changes such as altering steps, migrating versions or changing base images.
   - Update infrastructure-as-code (eg. Terraform) files across many repositories
 
