@@ -11,16 +11,9 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
   - [Felipe Janer](../../../company/team/index.md#felipe-janer)
   - [Valery Bugakov](../../../company/team/index.md#valery-bugakov)
 
-## Mission
+## Our Strategy
 
-To empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
-
-## Vision
-
-Using and developing Sourcegraph is effortless.
-
-- We have a frictionless developer experience that empowers our frontend engineers to achieve the maximum value from the time spent on development.
-- We have an intuitive, performant, and consistent user experience that makes Sourcegraph an indispensable part of every developer workflow.
+[Mission & Vision](../../../company/strategy/enablement/frontend-platform/index.md)
 
 ## Responsibilities
 
@@ -45,10 +38,6 @@ Using and developing Sourcegraph is effortless.
 
 - #frontend-platform channel or @frontendplatform in Slack.
 - [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and @sourcegraph/frontend-platform team on GitHub.
-
-## Goals
-
-[Goals](../../../company/strategy/enablement/frontend-platform/index.md)
 
 ## Growth plan
 
