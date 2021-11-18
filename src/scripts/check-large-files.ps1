@@ -17,7 +17,7 @@ $base = Get-GitCommit $BaseRef
 
 $largeChanges =
   # Get all commits between HEAD and the base ref
-  Get-GitCommit -Since HEAD -Until $base.Sha |
+  Get-GitCommit -Since HEAD -Until $base.Sha -NoMerges |
   # Compare commit to the parent
   ForEach-Object { Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -First 1).Sha -DifferenceRevision $_.Sha } |
   # Flatten changes collection
