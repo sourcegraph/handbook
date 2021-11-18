@@ -10,7 +10,3 @@ The roles of [Product](product/index.md) and [Engineering](engineering/index.md)
 - [Planning process](planning-process.md)
 - [Current team](team.md)
 - [Product/Eng KPIs](https://sourcegraph.looker.com/boards/20)
-
-## TODOs
-
-- Move engineering section of handbook under product-engineering
