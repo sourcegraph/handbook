@@ -21,7 +21,8 @@ Format
 - 30 min live Q&A Session
 
 Content
-- The video update may contain: OKR progress updates, org updates, new processes, guest speakers from other departments, etc.  
+
+- The video update may contain: OKR progress updates, org updates, new processes, guest speakers from other departments, etc.
 
 ## Recordings
 
