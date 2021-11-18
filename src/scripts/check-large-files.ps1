@@ -27,7 +27,12 @@ $largeChanges =
   # Filter for binary blobs larger than the limit
   Where-Object {
     $blob = $repo.Lookup($_.Oid)
-    Write-Information "$($_.Path) $($blob.Size) $($blob.IsBinary)"
+    $message = "$($_.Path) Size=$($blob.Size)B IsBinary=$($blob.IsBinary)"
+    if ($blob.IsBinary) {
+      Write-Warning $message
+    } else {
+      Write-Information $message
+    }
     $blob.Size -gt $limit -and $blob.IsBinary
   }
 
