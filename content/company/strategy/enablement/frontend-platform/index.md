@@ -2,9 +2,20 @@
 
 The Frontend Platform team, by the nature of their purpose, does not follow a traditional product roadmap and instead focuses on high-impact projects aligned with the company's OKRs.
 
+## Mission
+
+To empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
+
+## Vision
+
+Using and developing Sourcegraph is effortless.
+
+- We have a frictionless developer experience that empowers our frontend engineers to achieve the maximum value from the time spent on development.
+- We have an intuitive, performant, and consistent user experience that makes Sourcegraph an indispensable part of every developer workflow.
+
 ## Goals for FY22
 
-See also our [completed goals](../../../../engineering/enablement/frontend-platform/goals_completed.md).
+See also our [completed goals](../../../../product-engineering/engineering/enablement/frontend-platform/goals_completed.md).
 
 ### 1. Implement design refresh
 
@@ -36,7 +47,3 @@ Consistency in the codebase makes it easier for new engineers to onboard and oth
 ### 3. UI performance improvement
 
 Provide improvements to the actual page rendering performance and perceived performance when the user interacts with the application UI.
-
-## Roadmap
-
-The Frontend Platform [roadmap](https://sourcegraph.productboard.com/feature-board/2689572-fy2022-roadmap-developer-insights) can be viewed in Productboard.
