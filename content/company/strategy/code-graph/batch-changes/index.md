@@ -4,7 +4,8 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 ## Quick links
 
-- [Code Graph overall strategy](../../../../product-engineering/engineering/code-graph/batch-changes/index.md)
+- [Code Graph overall strategy](../index.md)
+- [Product & Engineering strategy](../../../../product-engineering/strategy.md)
 - [Batch Changes team page](../../../../product-engineering/engineering/code-graph/batch-changes)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
