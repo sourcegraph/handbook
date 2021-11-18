@@ -18,7 +18,7 @@
 
 Full org chart:
 
-- [Product org chart](../product/product_org.md)
+- [Product org chart](product/product_org.md)
 - [Engineering org chart](engineering/eng_org.md)
 
 ## CTO team sync
