@@ -130,8 +130,6 @@ Monthly team updates communicate a high-level narrative/summary to the rest of t
 
 The engineering manager of each team is responsible for sending an update to [engineering-team-status@sourcegraph.com](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status) by the end of the week that contains the first day of each month. EMs may delegate to someone else on the team to send the update.
 
-Additionally, each PM should update the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) for their features. This deck contains a manually updated copy of the plan with upcoming and recently launched important customer-facing features from the OKR and roadmap tracker. In the future we may transition updating this to PMM, but for now its important product managers are involved in ensuring it is up to date and correct.
-
 Guidelines:
 
 - The email subject should contain the team name and the date (for example: "Search update 2020-10-14") so each update starts a distinct email thread (otherwise, they get grouped in the Google Groups UI).
@@ -141,6 +139,10 @@ Guidelines:
   - Consider sharing wins, challenges, risks, plans, lessons learned.
   - Inline relevant screenshots/demos/gifs/charts when possible so it isn't just a wall of text.
   - Be creative and have fun with it! Jokes and random fun facts are welcome.
+
+### Monthly PMM roadmap update
+
+In addition to the monthly team update, each team should update the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) for their features at the same time. This deck contains a manually updated copy of the plan with upcoming and recently launched important customer-facing features from the OKR and roadmap tracker. In the future we may transition updating this to PMM, but for now its important product managers are involved in ensuring it is up to date and correct.
 
 ## Quarterly department retrospective
 
