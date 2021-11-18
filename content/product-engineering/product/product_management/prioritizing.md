@@ -51,7 +51,7 @@ Each team may decide how they would like to keep track of the backlog of issues,
 
 ## Prioritizing requests that impact the product roadmap
 
-Sometimes, we need to prioritize changes to our product on short notice due to new information we have. This change could be to benefit [customers](../../sales/index.md#customer) or [prospects](../../../sales/index.md#prospect), or could be a strategic initiative.
+Sometimes, we need to prioritize changes to our product on short notice due to new information we have. This change could be to benefit [customers](../../../sales/index.md#customer) or [prospects](../../../sales/index.md#prospect), or could be a strategic initiative.
 
 If the requested change is large enough that it would impact the planned [product roadmap](../index.md#roadmap) of one or several [engineering teams](../../engineering/index.md#teams), we should handle its prioritization as follows:
 

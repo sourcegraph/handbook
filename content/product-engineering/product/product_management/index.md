@@ -4,7 +4,7 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Planning process](../planning-process.md) - how we do planning and the artifacts we use to plan.
+- [Planning process](../../planning-process.md) - how we do planning and the artifacts we use to plan.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
@@ -20,7 +20,7 @@ Sourcegraph has a top-level [strategy page](../../../company/strategy/index.md) 
 
 #### OKR and roadmap tracking
 
-See the [Product & Engineering handbook on sharing progress](../planning-process.md#sharing-progress) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
+See the [Product & Engineering handbook on sharing progress](../../planning-process.md#sharing-progress) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
 
 #### Per-team strategy pages
 
