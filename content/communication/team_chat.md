@@ -97,6 +97,7 @@ If teams require additional channels they should follow the convention of prefix
 - #design - How Sourcegraph looks visually
 - #feedback - Feedback directly from our users & customers
 - #product - Product questions, ideas and thoughts
+- #prod-eng-announce - Announcements that are relevant to all of product or all of engineering (or both) belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 
 ### Operations
 
