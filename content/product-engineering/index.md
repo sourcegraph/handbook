@@ -13,5 +13,4 @@ The roles of [Product](../product/index.md) and [Engineering](../engineering/ind
 
 ## TODOs
 
-- Move product section of handbook under product-engineering
 - Move engineering section of handbook under product-engineering
