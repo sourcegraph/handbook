@@ -9,7 +9,7 @@ The roles of [Product](../product/index.md) and [Engineering](../engineering/ind
 - [Current strategy](strategy.md)
 - [Planning process](planning-process.md)
 - [Current team](team.md)
-- [Communications](communication.md) 
+- [Communications](communication.md)
 
 ## TODOs
 
