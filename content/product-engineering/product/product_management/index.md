@@ -24,7 +24,7 @@ See the [Product & Engineering handbook on sharing progress](../../planning-proc
 
 #### Per-team strategy pages
 
-We also use [per-team strategy pages](../../../company/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed.
+We also use [per-team strategy pages](../../../company/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and other important partners for feedback in your monthly update PR.
 
 Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
 
