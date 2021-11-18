@@ -43,9 +43,9 @@ if ($largeChanges) {
     $message += "`nIf the images you want to add are _diagrams_, _infographics_, or other image types containing **text**, please consider exporting them as [SVG](https://blog.hubspot.com/website/what-is-an-svg-file) instead, which are **allowed** to be added to the repository, more accessible and higher quality.`n`n"
   }
 
-  # TODO: Add link to "Editing the handbook" page once that contains more instructions.
-
   $message += "`n" +
+    "You can find more information on the handbook page [Adding images or video to the handbook](https://handbook.sourcegraph.com/handbook/editing/handbook-images-video).`n" +
+    "`n" +
     "This branch will need to be **rebased** with the binary file completely removed, otherwise the file will still be present in the repository history. @sourcegraph/handbook-support will be happy to help with this.`n" +
     "`n" +
     "The following large binary files $still need to be removed:`n" +
