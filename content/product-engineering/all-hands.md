@@ -17,9 +17,8 @@ Cadence
 
 Format
 
-- A video update will be shared a week in advance for people to review async, including a link to submit questions and upvote the questions you want to hear answered live 
+- A video update will be shared a week in advance for people to review async, including a link to submit questions and upvote the questions you want to hear answered live
 - 30 min live Q&A Session
-
 
 ## Recordings
 
