@@ -72,9 +72,8 @@ If the developer does not know, default to:
 
 ## Resources
 
-- [Batch Changes strategy page]
+- [Batch Changes strategy page](../../company/strategy/code-graph/batch-changes)
 - [Docs](https://docs.sourcegraph.com/batch_changes)
-- [Landing page](https://about.sourcegraph.com/batch-changes)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Blog post](https://about.sourcegraph.com/blog/introducing-batch-changes/)
 - (private) AE training [recording](https://drive.google.com/file/d/10oeyEvKNKk4RdyJUtvc-rXcgcmGhSrc2/view?usp=sharing) [slides](https://docs.google.com/presentation/d/1N50kk1N712lvsWI_BrGB4WH8LHnOVYrkxqvRS9WubuA/edit#slide=id.g7d2aea8729_0_0)
