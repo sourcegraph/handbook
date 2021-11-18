@@ -31,7 +31,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 - **Show only unread channels in your channel sections.** Right-click on a channel section or the "Channels" header, then select "Show" > "Unread channels only."
 - **Set up [Slack keywords](https://slack.com/slack-tips/get-notified-when-someone-mentions-a-topic-you-care-about) to get notified about relevant threads you aren't tagged in.** Go to Preferences > Notifications > My keywords and add your list of keywords separated by commas. You'll get notified whenever someone uses them.
 - **Use [Slackbot's reminder feature](https://slack.com/help/articles/208423427-Set-a-reminder#set-a-reminder-for-a-message) to get reminded of threads later on without leaving them as unread** Hover on any Slack message > Select "More actions" in the tool bar > Select "Remind me about this" and choose when you'd like to be reminded. Slackbot will keep your pending messages backlog, you can mark items as Complete when you've gone through them.
-- **Search for Slack channel.** Anyone else got too many Slack channels & can't find the one you want? Command K lets you search for Slack channel by name. 
+- **Search for Slack channel.** Anyone else got too many Slack channels & can't find the one you want? Command K lets you search for Slack channel by name.
 
 ### Popular app integrations
 
