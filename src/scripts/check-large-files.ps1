@@ -37,7 +37,7 @@ $largeChanges =
   Where-Object {
     $blob = $repo.Lookup($_.Oid)
     $message = "{0} Size={1:N0}B IsBinary={2}" -f $_.Path, $blob.Size, $blob.IsBinary
-    if ($blob.IsBinary) {
+    if ($blob.Size -gt $limit -and $blob.IsBinary) {
       Write-Warning $message
     } else {
       Write-Information $message
