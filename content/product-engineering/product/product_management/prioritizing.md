@@ -19,7 +19,7 @@ There are several sources that product managers look at when deciding what's imp
 
 We receive tons of feature requests and bug reports, more than we can handle. This means we must frequently say "no" or prioritize things less urgently than some people would like. Our job is to find the most important things to work on.
 
-## How do I get feedback from the company on prioritization as a product manager?
+## How do I get feedback from the company?
 
 ### RFCs
 
