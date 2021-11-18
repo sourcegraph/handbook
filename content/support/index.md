@@ -4,7 +4,7 @@
 
 Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. The team is comprised of application engineers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as by honoring our...
 
-### guiding principles:
+### Guiding principles:
 
 - Focusing on the impact we might have and aligning our decisions and actions to the impact we desire
 - Seeking/providing context so the why is clear
@@ -142,7 +142,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Prioritization](support-prioritization.md)
 - [Customer exceptions](customer-exceptions.md)
 - [Engaging other teams](engaging-other-teams.md)
-- [Serving as messenger during incidents](../engineering/incidents/index.md)
+- [Serving as messenger during incidents](../product-engineering/engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
 - [Enablement](enablement/index.md)
 - [Tools](support-tools.md)

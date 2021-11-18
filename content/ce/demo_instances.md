@@ -2,11 +2,11 @@
 
 Currently (as of March 2021) we have 3 different Sourcegraph instances that we use to demo the product to prospects and customers. The team should default to demoing on demo.sourcegraph.com, as Monitoring, Batch Changes, Search, and Insights are all available there. Demoing on sourcegraph.com should be avoided unless absolutely necessary; it can undergo maintenance during a demo period and trigger an alert that looks bad to the prospect.
 
-| Instance             | Owner                                                                                                          | Feature Set                              | When to use                                    |
-| -------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------- |
-| sourcegraph.com      | n/a                                                                                                            | search, intel, monitoring                | General Demos (avoid unless necessary)         |
-| demo.sourcegraph.com | [Distribution team (eng)](../engineering/distribution/index.md) for instance admin; [CE](index.md) for content | search, intel, batch changes, monitoring | General Demos, Batch Changes demos             |
-| k8s.sgdev.org        | [Distribution team (eng)](../engineering/distribution/index.md)                                                | search, intel, insights                  | Advanced/experimental features, do not modify. |
+| Instance             | Owner                                                                                                                              | Feature Set                              | When to use                                    |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------- |
+| sourcegraph.com      | n/a                                                                                                                                | search, intel, monitoring                | General Demos (avoid unless necessary)         |
+| demo.sourcegraph.com | [Distribution team (eng)](../product-engineering/engineering/distribution/index.md) for instance admin; [CE](index.md) for content | search, intel, batch changes, monitoring | General Demos, Batch Changes demos             |
+| k8s.sgdev.org        | [Distribution team (eng)](../product-engineering/engineering/distribution/index.md)                                                | search, intel, insights                  | Advanced/experimental features, do not modify. |
 
 ## Demo Instance Language Examples
 
