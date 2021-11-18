@@ -1,26 +1,58 @@
 # Code Graph strategy
 
-We have teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the overarching mission and strategy that ties them together, but each linked team also provides a more detailed strategy page with what they are working on next and why. There is also a whole-company [Sourcegraph strategy](../index.md) available.
+We have teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together, but each linked page provides a more detailed strategy for that team including what they are working on next and why. There is also a whole-company [Sourcegraph strategy](../index.md) and [Product & Engineering strategy](../../../product-engineering/strategy.md) available to which all of this is aligned.
 
 ## Mission
 
-We want to make finding, understanding, and editing code easier, regardless of how much you have, how complex it is, where you store it, or even how technical you are.
+Make finding, understanding, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are. We will achieve this by creating a flow that ties insights, searching, and changes together.
 
-## Vision
+## Themes & Goals
 
-### One year vision
+We are focused over the next year on several themes across Code Graph to make our mission a reality. We set our goals around these themes, so you can also see current FY22-Q4 goals as a bullet list under each theme. The current status of these can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only).
 
-> We want to ensure that we are solving the most critical problems for our enterprise users, focusing on retaining existing and acquiring new enterprise customers. By providing as much value as possible to them, we can grow the business while solving the hardest scaling and complexity problems for everyone.
+### Make the power of our features easier to find and use
 
-### Three year vision
+Learning how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases. Making onboarding and interaction easier helps everyone (including potential customers) find the value of our product more quickly than is possible today. Compared to tools that specialize in single-language ecosystems, we provide a more comprehensive solution (which is an advantage for us) but it is important we do this in a way that doesn't compromise depth.
 
-> We imagine a much more connected experience, not just in terms of the kinds of searching that you're able to do, but in how we can offer suggestions for interesting searches and what you can do with the results. Expanding on capabilities we've introduced recently, such as semantic search, insights, and batch changes, we will offer an unparalleled solution for searching and making decisions across branches, repositories, and even code hosts, beyond even what's possible today.
+- [Measure and increase WAU by 15%](https://github.com/sourcegraph/sourcegraph/issues/27342) (All Teams)
+- [3 customers with >1 Search Notebook](https://github.com/sourcegraph/sourcegraph/issues/27353) ([Search Product](./search/index.md))
 
-### Ten year vision
+### Level up our enterprise-ready features
 
-> We want to make using Sourcegraph to understand and modify code so easy that anyone can do it, including people not traditionally considered developers. We want to [democratize coding](../index.md#ten-year-vision) by making it so that everyone in the company can engage with the organization's code, safely making changes to implement their department's priorities and interests, without need for an intermediary to do it for them.
+How our product works in terms of pricing, upgrade paths, auditing, single sign-on, access control, etc. are essential for customers with large, complex organizations. In partnership with our Cloud team, we're focused on ensuring we meet and exceed these needs so that when rolling out Sourcegraph the logistics don't get in the way of realizing the value.
+
+- [1 customer committed to paying for Code Insights at launch](https://github.com/sourcegraph/sourcegraph/issues/27350) ([Code Insights](./code-insights/index.md))
+- [3 customers adopt on-prem auto-indexing](https://github.com/sourcegraph/sourcegraph/issues/24961) ([Code intelligence](./code-intelligence/index.md))
+- [Code monitors support webhook and Slack integrations + 3 customers committed in Q1](https://github.com/sourcegraph/sourcegraph/issues/27350) ([Search Product](./search/index.md))
+- [Precise code intel support for Kotlin](https://github.com/sourcegraph/lsif-java/issues/304) ([Code intelligence](./code-intelligence/index.md))
+- [Precise code intel support for TS/JS](https://github.com/sourcegraph/sourcegraph/issues/27345) ([Code intelligence](./code-intelligence/index.md))
+
+### Deliver a unified experience
+
+By investing in well-integrated functionality we can deliver solutions that are more than the sum of their parts. Code visualizations powered by search and Code Intelligence can help with onboarding into a new codebase; Search Notebooks can provide a way to mix documentation with searches; Insights can lead to easy mitigation of multi-repo wide issues using Batch Changes. These kinds of examples require us to think through and build intuitive integrations between our teams.
+
+- No goal in this quarter since we are improving our measurement capability around what is most important here; we expect this to be a focus in Q1.
+
+### Scale for Big Code
+
+We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../index.md#big-code).
+
+- [Search works well with large-scale monorepos](https://github.com/sourcegraph/sourcegraph/issues/27320) ([Search Core](./search/index.md))
+- [Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts](https://github.com/sourcegraph/sourcegraph/issues/27322) ([Search Core](./search/index.md))
+- [3 customers use server side Batch Changes to create 200+ changeset batch changes](https://github.com/sourcegraph/sourcegraph/issues/27348) ([Batch Changes](./batch-changes/index.md))
 
 ## Principles
+
+### General principles
+
+Code Graph should be:
+
+- 🌍 **Universal**: We believe code search should be universal–meaning it should make the entire universe of available code searchable, and that it should be available universally–to every developer, regardless of skill level.
+- 💡 **Easy to use**: The learning curve for search should be as smooth as possible. Code can be complicated and we'll strive to make the search experience as painless and intuitive as possible so code is approachable for everyone.
+- ⌨️ **Accessible**: Everyone deserves access to high quality code search; as such, our code search interface should be accessible.
+- 🚀 **Fast**: For any search product to be effectively used, in addition to the above, it must be fast. We will continually improve our search performance so users get results back fast regardless of the the size of data we index.
+- ✅ **Relevant**: In order to be useful, search results need to be relevant. Our search results will be the most accurate, relevant, and informative results possible. Our current results ranking is a first pass specifically targeting Cloud. Future work on ranking should also take into account the needs of Enterprise users.
+- 🧠 **Educational**: For everyone to be able to code, we need to foster a culture of knowledge sharing. Sourcegraph is in a unique position to leverage search to increase code sharing and education, empowering communities of self-learners.
 
 ### Abstraction vs. complexity
 
@@ -29,9 +61,7 @@ According to [The Case for 'Developer Experience'](https://future.a16z.com/the-c
 - Abstraction tools, which simplify tasks away by providing building blocks, sane defaults, and frameworks to build on. Most existing developer tools are of this variety.
 - Complexity-exploring tools, which help with complex problems such as finding and fixing issues in existing, heterogeneous software systems. I.e., ones that were created using the existing tools developers use today, with different languages, frameworks, and versions in constant flux, all interacting with each other.
 
-This emerging need for complexity-exploring tooling is one we see Sourcegraph playing an important role in. "The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden" ([_The Case for 'Developer Experience' by Jean Yang_][1]), and we are mindfully designing our user experience to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution.
-
-Practically, this means a few things as we think about how our product should work:
+We see Sourcegraph as playing an important role in this emerging need for complexity-exploring tooling. "The reality is that software tech stacks today look more like a rainforest — with animals and plants co-existing, competing, living, dying, growing, interacting in unplanned ways — than like a planned garden" ([_The Case for 'Developer Experience' by Jean Yang_][1]), and we are mindfully designing our user experience to let you embrace this complexity rather than hiding it, or pushing you towards a specific single solution. Practically, this means a few things as we think about how our product should work:
 
 1. Sourcegraph fits in to your existing ecosystem – wherever you host your code, whatever language it's in, or however many repos you use.
 1. By surfacing relationships (not just code itself, but data types, configuration, and more) we help you build a clear, meaningful model of your software.
@@ -40,43 +70,3 @@ Practically, this means a few things as we think about how our product should wo
 If we achieve these points, we can make it easy for developers to get things done and, ultimately, ship great code.
 
 [1]: https://future.a16z.com/the-case-for-developer-experience/
-
-## Themes & Goals
-
-We are focused on several themes to help make our one year vision a reality. They are not listed in priority order. To see how these play into what any particular product team is delivering, take a look at the individual team strategy pages linked at the [top of this page](#code-graph).
-
-We also set our goals around these themes, you can see current FY22-Q4 goals as a bullet list in each theme. The team listed after each goal is the primary team responsible for implementing the goal, but in the end we achieve these together and will support each other as needed to make them reality. The current status can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only) or on the [slides version of the same content](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit?usp=sharing) (also internal only).
-
-### Make the power of our features easier to find and use
-
-Learning what's possible and how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases and interests for which they would benefit from exploring. Making onboarding and interaction easier also helps our users and sales teams demonstrate the value of our product more quickly than is possible today.
-
-As the market matures, it’s likely we will face competition from companies that vertically specialise in a language ecosystem. It will be important to monitor these to ensure we understand the key innovations, bringing them in (and generalizing them to all languages where possible.) We want to do all languages well, and differentiate on supporting all the languages you use. We don't want to do find ourselves in a situation where we are doing all languages, but doing them poorly.
-
-- Measure and increase [WAU](../../../bizops/user_definitions.md) for [customer facing product teams](https://github.com/sourcegraph/handbook/blob/main/data/product_teams.yml) by 15%. For most teams this will require understanding and improving time-to-value as a driver for increasing active users. (All Teams)
-- Make it easier to adopt Batch Changes by fixing top three changeset syncing and permission configuration issues. ([Batch Changes](./batch-changes/index.md))
-- 3 customers with >1 Search Notebook, demonstrating initial traction for this feature and proving the value of Search Notebooks for sharing explanations of code. ([Search Product](./search/index.md))
-
-### Level up our enterprise-ready features
-
-How our product works in terms of pricing, upgrade paths, auditing, single sign-on, access control, and so on are essential for enterprise customers with large, complex organizations. In partnership with our Cloud team, we're focused on ensuring that these elements of our product meet and exceed these needs so that when it comes to rolling out Sourcegraph the logistics of getting set up don't get in the way of realizing the value of Big Code search.
-
-- Get a Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature ([Code Insights](./code-insights/index.md))
-- Enable out-of-the-box cross-repo and dependency navigation for 3 customers by successfully moving them to on-prem auto-indexing. ([Code intelligence](./code-intelligence/index.md))
-- Enable powerful automation and notification use cases (e.g. by adding webhook and Slack integrations) to Code Monitors and getting a Q1 usage commitment from 3 customers. ([Search Product](./search/index.md))
-- Improve precise code intelligence actions coverage by going from 3 to 5 languages (adding Kotlin and TS/JS), representing the languages in ~50% of all actions. ([Code intelligence](./code-intelligence/index.md))
-
-### Deliver a unified experience
-
-Our product solves real problems today, but investing in the polish, user experience, and cross-feature functionality within our product teams to make the experience lovable and help us deliver solutions that are more than the sum of the parts. As an example: Code Insights can lead you to a more detailed Precise Code Intelligence search, from which you might launch a more advanced semantic analysis; from here, you might use Batch Changes to remediate a problem and then document everything you've done in a Search Notebook, monitoring the progress as the fix is rolled out in Code Insights. Another example might be learning about a library in API docs and exploring how it is used over time using Code Insights. One thing we've noticed is that Code Intelligence seems to be a common linking component for these sorts of unified features.
-
-- No goal in this quarter since we are improving our measurement capability around what is most important here; we expect to have more focus in Q1.
-
-### Scale for Big Code
-
-We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../index.md#big-code).
-
-- Make Sourcegraph Search work well with large-scale monorepos (time to first result for unindexed search on monorepos larger than 200GB is < 10s and <2s for indexed, and time to indexing is always <30 minutes). ([Search Core](./search/index.md))
-- Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts. ([Search Core](./search/index.md))
-- Three customers use server side Batch Changes to create 200+ changeset batch changes, proving that it is enabling large-scale use cases and revenue. ([Batch Changes](./batch-changes/index.md))
-- At least one customer issue was solved with the help of `src debug`, which makes observability better for on-prem and makes Customer Support’s job easier. ([Search Core](./search/index.md))
