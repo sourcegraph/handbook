@@ -11,4 +11,3 @@ The roles of [Product](../product/index.md) and [Engineering](../engineering/ind
 - [Current team](team.md)
 - [Product/Eng KPIs](https://sourcegraph.looker.com/boards/20)
 - [Communications](communication.md)
-
