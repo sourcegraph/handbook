@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The roles of [Product](../product/index.md) and [Engineering](../engineering/index.md) are to create value for our customers by delivering a high quality product that solves their problems.
+The roles of [Product](product/index.md) and [Engineering](engineering/index.md) are to create value for our customers by delivering a high quality product that solves their problems.
 
 ## Links
 

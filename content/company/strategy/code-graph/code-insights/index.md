@@ -155,7 +155,7 @@ The next six months are focused on building a product that can quickly prove out
 
 - OKR: Get at least 1 Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature
 
-_See also [completed goals](../../../../engineering/code-graph/code-insights/goals_completed.md)_
+_See also [completed goals](../../../../product-engineering/engineering/code-graph/code-insights/goals_completed.md)_
 
 ### Themes (and What's next and why)
 

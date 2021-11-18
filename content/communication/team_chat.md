@@ -131,7 +131,7 @@ All engineers should join the following channels (feel free to adjust your notif
 - #bots-production - Kubernetes bot notifications.
 - #alerts-external - External system notifications which might impact our deployments.
 
-You should also join channels mentioned in [your team's documentation](../engineering/index.md#teams)
+You should also join channels mentioned in [your team's documentation](../product-engineering/engineering/index.md#teams)
 
 ### Social
 

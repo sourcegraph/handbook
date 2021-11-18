@@ -81,7 +81,7 @@ For each topic, if necessary, ensure there's a written down actionable commitmen
 
 ## Engineering milestone retrospectives
 
-For an engineering milestone retrospective, the organizer (often the [engineering manager](../engineering/roles.md#engineering-manager)) asks everyone to review the previous milestone tracking issue, the planned work assigned to you, what got done, what didn’t. To facilitate this meeting, use the Start/Stop/Continue format, although its possible to other formats as required.
+For an engineering milestone retrospective, the organizer (often the [engineering manager](../product-engineering/engineering/roles.md#engineering-manager)) asks everyone to review the previous milestone tracking issue, the planned work assigned to you, what got done, what didn’t. To facilitate this meeting, use the Start/Stop/Continue format, although its possible to other formats as required.
 
 ### Start
 

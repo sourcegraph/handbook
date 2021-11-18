@@ -15,7 +15,7 @@ Using and developing Sourcegraph is effortless.
 
 ## Goals for FY22
 
-See also our [completed goals](../../../../engineering/enablement/frontend-platform/goals_completed.md).
+See also our [completed goals](../../../../product-engineering/engineering/enablement/frontend-platform/goals_completed.md).
 
 ### 1. Implement design refresh
 
