@@ -1,4 +1,4 @@
-# Quarterly Product/Eng All Hands Meetings
+# Quarterly Product/Eng All-Hands Meetings
 
 Our team is rapidly growing and we want to provide a forum to:
 
