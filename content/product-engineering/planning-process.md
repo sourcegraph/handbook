@@ -112,7 +112,7 @@ The slides are reviewed and discussed each week in the [VP team sync](team.md#vp
 
 After the slides are reviewed, they are copied to a seprate slide deck to capture week-over-week progress.
 
-After the [VP team sync](team.md#vp-team-sync), summarized OKR status updates are posted in #product-engineering-planning Slack channel for visibility. 
+After the [VP team sync](team.md#vp-team-sync), summarized OKR status updates are posted in #product-engineering-planning Slack channel for visibility.
 
 Slides:
 
