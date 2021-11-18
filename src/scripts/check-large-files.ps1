@@ -18,21 +18,19 @@ $base = Get-GitCommit $BaseRef
 $largeChanges =
   # Get all commits between HEAD and the base ref
   Get-GitCommit -Since HEAD -Until $base.Sha |
-  # Compare commit to the parent
   ForEach-Object {
-    $changesParent1 = Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -First 1).Sha -DifferenceRevision $_.Sha
-    if ($_.Parents.Count -eq 1) {
-      $changesParent1
-    } else {
-      # For merge commits, only consider changes that are present compared to both parents
-      $changesParent2 = Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -Skip 1 -First 1).Sha -DifferenceRevision $_.Sha |
-        ForEach-Object { $_ } |
-        Group-Object -Property Oid -AsHashTable -NoElement
-      $changesParent1 | Where-Object { $changesParent2.ContainsKey($_.Oid) }
-    }
+    $commit = $_
+    # Compare commit to all parents
+    $commit.Parents |
+      ForEach-Object { $parent = $_; Compare-GitTree -ReferenceRevision $parent.Sha -DifferenceRevision $commit.Sha } |
+      # Flatten changes collection
+      ForEach-Object { $_ } |
+      # Only consider changes that are present compared to all parents,
+      # meaning the change should appear exactly as many times as there are parents.
+      Group-Object -Property Oid |
+      Where-Object { $_.Count -eq $commit.Parents.Count } |
+      ForEach-Object { $_.Group[0] }
   } |
-  # Flatten changes collection
-  ForEach-Object { $_ } |
   # Ignore deleted files, renamed/moved files and files outside the content/ folder
   Where-Object { $_.Status -notin 'Deleted','Renamed' -and $_.Path -like 'content/*' } |
   # Filter for binary blobs larger than the limit
