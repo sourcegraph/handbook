@@ -3,8 +3,9 @@
 ## Purpose
 
 [Product](product/index.md) and [Engineering](engineering/index.md) work closely together to create value for our customers by delivering a high quality product that solves their problems.
- * Product is responsible for defining, scoping, and prioritizing the problems we want to solve for our customers.
- * Engineering is responsible for determining how to solve the problems. This includes defining, scoping, and prioritizing techincal problems engineering needs to solve to deliver high quality solutions to the prioritized customer problems.
+
+- Product is responsible for defining, scoping, and prioritizing the problems we want to solve for our customers.
+- Engineering is responsible for determining how to solve the problems. This includes defining, scoping, and prioritizing techincal problems engineering needs to solve to deliver high quality solutions to the prioritized customer problems.
 
 ## Links
 
