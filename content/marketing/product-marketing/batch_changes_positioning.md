@@ -3,7 +3,6 @@
 ## Overview
 
 - **Product name:** Batch Changes (formerly known as Campaigns)
-- **Marketing launch date:** 2021-03-24
 - **Access and pricing:** Paid add-on for Enterprise customers; all customers can try the product (limit: 5 changesets)
 
 ## Positioning and value drivers
