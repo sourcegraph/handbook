@@ -40,7 +40,6 @@ We have more and more large customers dealing with a lot of code and complexity 
 - [Search works well with large-scale monorepos](https://github.com/sourcegraph/sourcegraph/issues/27320) ([Search Core](./search/index.md))
 - [Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts](https://github.com/sourcegraph/sourcegraph/issues/27322) ([Search Core](./search/index.md))
 - [3 customers use server side Batch Changes to create 200+ changeset batch changes](https://github.com/sourcegraph/sourcegraph/issues/27348) ([Batch Changes](./batch-changes/index.md))
-- [1 customer issue was solved with the help of `src debug`](https://github.com/sourcegraph/sourcegraph/issues/27347) ([Search Core](./search/index.md))
 
 ## Principles
 
