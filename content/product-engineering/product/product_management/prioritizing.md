@@ -1,5 +1,7 @@
 # Prioritizing
 
+If you are looking for information on how to give feedback to the product team for something you need to be prioritized, see our instructions for [surfacing product feedback](../surfacing_product_feedback.md). Otherwise, this page describes different ways Product Managers think about prioritization for their areas.
+
 ## Personas
 
 We use personas to understand our users and what they need as we prioritize our work. More can be read on the [personas page](../../../marketing/personas.md) in the marketing handbook, which also links to a presentation with the actual personas in it.
@@ -17,11 +19,15 @@ There are several sources that product managers look at when deciding what's imp
 
 We receive tons of feature requests and bug reports, more than we can handle. This means we must frequently say "no" or prioritize things less urgently than some people would like. Our job is to find the most important things to work on.
 
-## How do I get feedback to the product team that I need to get prioritized?
+## How do I get feedback from the company on prioritization as a product manager?
 
-See our instructions for [surfacing product feedback](../surfacing_product_feedback.md).
+### RFCs
 
-### Engineering prototyping
+[RFCs](../../communication/rfcs/index.md) are documents used to outline and solicit feedback on projects. They provide context around a problem that needs to be solved and are a medium for creating specifications for a project.
+
+Generally, items in the roadmap will be big enough they require writing an RFC, though this will not always be the case. When a solution is clear, a well-detailed issue is sufficient to communicate intent, motivation, and solution.
+
+## Engineering prototyping
 
 Sometimes there is a general product area that your team owns that the CEO/CTO/Product Manager/CE/Sales seem interested in, and a developer is passionate/inspired/excited about it and wants to work on prototyping in that area. The developer has total freedom for a couple months to work on it part-time as long as they make progress in prototyping with the Sales and CE teams and are showing progress to customers regularly. The sole test will be, if we ask the Sales/CE teams "is $DEVELOPER's prototype/project drawing interest in customer calls and is $DEVELOPER iterating on it well in response to feedback?"
 
@@ -99,3 +105,21 @@ Important questions to ask while re-prioritizing and proposing solutions for cri
 ## How to reference customer names in public tickets
 
 Accounts (customer, prospect and lead) names are private, and should not be included in public GitHub tickets. See our process for [referencing private customer names in public places](../../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places).
+
+## Experimentation and improvements to prioritization
+
+### Using the AARRR Framework to facilitate feature lifecycle-based prioritization
+
+Features are no different than products in their need to acquire visitors, activate users, retain those users, expand via referral and other viral means and generate revenue for the business.
+
+To improve prioritization so that teams consider these stages as part of feature development, some product teams are experimenting with Dave McClure's pirate framework. This framework condenses these phases into an easy to remember (if not comical sounding) mnemonic:
+
+- Acquisition - grow the number of users using the feature
+- Activation - improve the number of users who see value
+- Retention - ensure activated users come back to the feature
+- Referral - ensure your users invite other users
+- Revenue - understand how the feature contributes back to the business.
+
+Learn more about the framework with this [introduction](https://medium.com/@ginoarendsz/an-introduction-to-the-aarrr-framework-b8570d6ae0d2) or Dave McClure's [slide deck on the topic](https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version).
+
+To leverage the framework, teams are incorporating the metrics in [product documents](https://docs.google.com/document/d/1-TIKwwQd2eQEH0PCuBhOitLcm31Pdx5NmCShVj6JqyU/edit#bookmark=id.gp24i8rlesx), [user stories](https://miro.com/app/board/o9J_ltNMJnI=/) and in reporting such as [Amplitude notebooks](https://analytics.amplitude.com/sourcegraph/notebook/h7td539?source=sidebar).
