@@ -121,7 +121,7 @@ If teams require additional channels they should follow the convention of prefix
 
 All engineers should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- #dev-announce - Things that affect a majority of the dev team in some way (e.g. site or buildkite is down, we will have expected downtime, etc.). _You should read every message in here, and messages you post to it should have a high signal-noise ratio._
+- #prod-eng-announce - Announcements that are relevant to all of product or all of engineering (or both) belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 - #dev-chat - Anything related to Sourcegraph development :).
 - #dev-ops - Discussing incidents and any other ops-related work.
 - #buildkite - Notifications about Buildkite / CI failures.
