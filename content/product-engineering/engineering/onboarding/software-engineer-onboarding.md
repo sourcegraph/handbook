@@ -23,7 +23,7 @@ As you're working on these tasks:
   - Open a pull request as soon as you feel like you're ready for feedback or input on your code — you can make it a draft pull request if your code is still a work in progress.
   - Favour splitting up your work in multiple pull requests every time it makes sense — shipping frequently is important.
   - Ask yourself what tests are appropriate for the change you're tackling, and add them!
-- If you need help, remember everyone is here to [answer any question](../../../../people-ops/onboarding/index.md#everyone-is-here-to-support-you-as-you-onboard) — ask for help in your team's channel (or any appropriate channel), and add the answer to our docs or the handbook if you feel like it can help future teammates.
+- If you need help, remember everyone is here to [answer any question](../../../people-ops/onboarding/index.md#everyone-is-here-to-support-you-as-you-onboard) — ask for help in your team's channel (or any appropriate channel), and add the answer to our docs or the handbook if you feel like it can help future teammates.
 
 As you complete these tasks, share your accomplishments in #progress 🙂
 

@@ -255,7 +255,7 @@ Focus on creating an environment where everyone feels comfortable sharing their 
 
 #### Feedback
 
-Provide constant constructive feedback. Use the [Onboarding Feedback Milestones](../../../../people-ops/onboarding/onboarding-feedback-milestones.md) as part of the process, but open a two-way communication channel. You need to share what's on track and what needs attention on their part, and they need to feel safe asking for help and letting you know what you can do 10% better.
+Provide constant constructive feedback. Use the [Onboarding Feedback Milestones](../../../people-ops/onboarding/onboarding-feedback-milestones.md) as part of the process, but open a two-way communication channel. You need to share what's on track and what needs attention on their part, and they need to feel safe asking for help and letting you know what you can do 10% better.
 
 Keep in mind that feedback is very powerful, and we should think twice before giving it. Sometimes you need to ask yourself if the feedback you are offering is about your preference or a mentorship moment. (e.g., you might love the Oxford comma. Technically, it's not required, so giving that feedback would be more about your personal preference).
 

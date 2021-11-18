@@ -11,7 +11,7 @@ Sourcegraph's software [license](https://sourcegraph.com/github.com/sourcegraph/
 
 ### Sourcegraph OSS
 
-As described [in the open source FAQ](../community/faq.md#is-all-of-sourcegraph-open-source), users can use Sourcegrah OSS without agreeing to any enterprise licensing terms by building their own server image. If they do so, no code from our enterprise licensed features will be included in their Sourcegraph deployment.
+As described [in the open source FAQ](../../community/faq.md#is-all-of-sourcegraph-open-source), users can use Sourcegrah OSS without agreeing to any enterprise licensing terms by building their own server image. If they do so, no code from our enterprise licensed features will be included in their Sourcegraph deployment.
 
 In practice, Sourcegraph OSS involves:
 
