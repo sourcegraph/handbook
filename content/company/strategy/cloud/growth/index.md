@@ -4,7 +4,7 @@
 
 Cloud growth is a rapidly evolving team, which currently consists of:
 
-* Stephen Guad (engineer)
+* Stephen Gutekanst (engineer)
 * Rob Rhyne (temporary product manager and product designer)
 * We're hiring a [full stack engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4145598004) and [product manager](https://boards.greenhouse.io/sourcegraph91/jobs/4068101004)!
 
