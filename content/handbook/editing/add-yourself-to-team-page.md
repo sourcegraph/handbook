@@ -37,7 +37,7 @@ marie_curie:
 
 The product team is testing out a new feature to automatically generate our org chart. For now no other teams need to do anything different, but this eventually may roll out company-wide.
 
-If you have any trouble you can ask for help in #product-internal. If you are a new manager and want an interim manager role in your org chart, customize the same template below, but replace the root name, reporting line, and role description with whatever is appropriate.
+If you have any trouble you can ask for help in #product-internal. If you are a manager and want an new interim manager role in your org chart, customize the same template below, but replace the root name, reporting line, and role description with whatever is appropriate.
 
 ### New managers
 
