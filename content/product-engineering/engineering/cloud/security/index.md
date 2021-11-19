@@ -48,7 +48,7 @@ See [security goals and priorities](../../../../company/strategy/cloud/security/
 
 ---
 
-## How we are improving and investing in the product security
+## How we are improving and investing in product security
 
 - We are growing our security team to expand, develop and mature the security program
 - We are embedding new security practices to improve our secure SDLC
