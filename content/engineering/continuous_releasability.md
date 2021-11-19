@@ -67,8 +67,16 @@ of thumb:
 
 ## Build Sheriff
 
-Because contributing healthy code is a responsibility shared by all engineers at Sourcegraph, we use OpsGenie to schedule a weekly Build Sheriff rotation that assignes engineering teams the responsiblity of monitoring the [main pipeline](https://buildkite.com/sourcegraph/sourcegraph). Engineering Managers will be tagged in the rotations and can decide with their teams the best way to assign responsibilities during their week on call.
+Because contributing healthy code is a responsibility shared by all engineers at Sourcegraph, we use OpsGenie to schedule a weekly Build Sheriff rotation that assignes engineering teams the responsiblity of monitoring the [main pipeline](https://buildkite.com/sourcegraph/sourcegraph). Engineers will belong to one of two groups (roughly split by timezone), and one engineer from each group will be on call per rotation, to maximize coverage during working hours for the majority of Sourcegraph engineers.
 
-For each day on rotation, the Build Sheriff will monitor the main pipeline by checking for failures in the #buildkite-main channel. If a build has failed, the Build Sheriff will follow the processes specified in the [CI Playbook](incidents/playbooks/ci.md).
+For each day on rotation, the Build Sheriffs’ top priorities are to monitor the main pipeline by checking for failures in the #buildkite-main channel. If a build has failed, the Build Sheriffs will follow the process documented in the [CI Playbook](incidents/playbooks/ci.md).
 
-**Note**: It is _not_ the responsibility of the Build Sheriff to fix PRs that cause a build failure. The team/person that merged the PR is responsible for resolving the issue once they've been made aware of it.
+If the Build Sheriffs are unable to resolve the problem, they will ask for help in the #buildkite-main channel (for visibility) and tag @ci-support. The @ci-support user group will include members of the Dev Experience team and others with valuable historical context. 
+
+At the end of a rotation, the Build Sheriff will update the CI Playbook with any information learned that may be helpful to future Build Sheriffs. E.g., if the Build Sheriff was unable to resolve an incident on their own, what documentation did they need from the CI Playbook that wasn’t there?
+
+Documentation is a crucial aspect of this process. While on rotation, the Build Sheriffs will contribute to an “On-call diary” (a living Google doc) that will serve two purposes: 
+1. Provide raw notes for any updates to the CI Playbook that need to be made at the end of the rotation
+1. Streamline incident hand-off at the end of a rotation
+
+**Note:** It is not the role of a Build Sheriff to fix PRs that cause a build failure. The team/person that merged the PR is responsible for resolving the issue once they’ve been notified of it. 
