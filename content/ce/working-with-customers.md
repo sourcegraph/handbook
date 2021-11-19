@@ -1,6 +1,5 @@
 # Customer Engineering: Working with Customers
 
-
 A CE, being both a pre-sales engineer and a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
 - [Pre-Sales Customer Touchpoints](#pre--sales-customer-touchpoints)
@@ -25,7 +24,6 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
 
 ---
 
-
 # Pre-Sales Customer Touchpoints
 
 ## Discovery and Demo
@@ -45,15 +43,16 @@ For complex engagements, we have internal technical reviews with cross-functiona
 
 ### Resources
 
-- [Technical Design Document Template](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit) 
+- [Technical Design Document Template](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit)
 
 ## Customer Trials
 
 Trials are an important and strategic part of our sales cycles because when developers start to use Sourcegraph, they love it and want to use it forever. Seriously! Typically, our trials run for about a month but sometimes longer. Before, during and after, you collaborate closely with your account executive to ensure a successful experience for the customer.
 
-Before the trial, you're working with the AE to scope and plan the trial - both use cases they'll test (which you'll enable them on) and technically how they plan to deploy Sourcegraph for the trial. 
+Before the trial, you're working with the AE to scope and plan the trial - both use cases they'll test (which you'll enable them on) and technically how they plan to deploy Sourcegraph for the trial.
 
 CE and AE should use the [Trial and Deployment Planning Template](https://docs.google.com/spreadsheets/d/1mi_540InPEs6_xmCE2gHzw6Vt9QHDx-IdGogQZN6Ezw/edit?usp=sharing) to complete planning activities in advance of trial start. Here's a breakdown of who leads which aspects:
+
 - Documenting their technical landscape (CE-led)
 - Trial use cases / metrics for success (CE-led)
 - Business value assessment planning (AE-led)
@@ -205,12 +204,15 @@ Both the AE and CE are responsible for participating in the creation of the acti
 ## Technical Deal Reviews
 
 There are three scenarios in which we would perform a Technical Deal Review:
+
 1. As the team accountable for our leading our prospective customers' to the technical win, it is important that CE consistently captures appropriate business and technical context about the customer. When a non-standard or high-risk need emerges, a CE initiates a technical deal review. When a technical deal review is required, the opportunity must complete review before proceeding forward.
 2. For any Sales leadership-designation key prospect, a Technical Deal Review will be done before proceeding to trial.
 3. For any Sales leadership-designation key prospect, a Technical Deal Review will be done before the deal closes to review their Production needs.
 
 ### Technical Deal Review Process
+
 When a Technicl Deal Review is needed, the CE initiates this process by doing the following:
+
 1. Completes a peer review with another CE
 2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pro's or con's where applicable, and articulate specific asked of Product, Engineering, and Support.
 3. Initiate the request in the #tech-deal-reviews channel via the 'Request TDD Review' shortcut in slack; include a link to the loom video and to the TDD.
@@ -220,14 +222,17 @@ When a Technicl Deal Review is needed, the CE initiates this process by doing th
 7. Acknowledge completion in the TDD.
 
 ### Roles and Responsibilities
+
 - CE
-  - Responsible for creating the Technical Design Document (TDD) for each new customer. 
+
+  - Responsible for creating the Technical Design Document (TDD) for each new customer.
   - Responsible for identifying any non-standard or high-risk requirements.
   - Responsible for communicating with their AE when non-standard or high risk requirements emerge.
   - Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
   - If a request is made for a live review, the CE will schedule and facilitate.
 
 - Product, Engineering, and Support
+
   - When a deal review request is raised, each team is responsible for designating appropriate individuals to review.
   - Initial feedback on the review should occur within 48-72 hours.
   - Any member from Product, Engineering, or Support may request a live review.
