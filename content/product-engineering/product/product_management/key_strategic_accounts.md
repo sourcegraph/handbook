@@ -1,6 +1,6 @@
 # Getting customers to a technical win
 
-One of our values at Sourcegraph is being customer driven, and all of the teams are responsible for ensuring that we are living that value and supporting each other as a team to achieve our ambitious goals. Product & Engineering play a very distinct role in the process of getting prospective customers to a technical win, partnering closely with CE (Customer Engineering) and Sales from the qualifying stage through end of trial. Product & Engineering sometimes needs to support CE/Sales in providiing tehcnical work that is customized to their specific needs (see [Technical Deal Review](https://handbook.sourcegraph.com/ce/working-with-customers#technical-deal-reviews).
+One of our values at Sourcegraph is being customer driven, and all of the teams are responsible for ensuring that we are living that value and supporting each other as a team to achieve our ambitious goals. Product & Engineering play a very distinct role in the process of getting prospective customers to a technical win, partnering closely with CE (Customer Engineering) and Sales from the qualifying stage through end of trial. Product & Engineering sometimes needs to support CE/Sales in providiing technical work that is customized to their specific needs (see [Technical Deal Review](https://handbook.sourcegraph.com/ce/working-with-customers#technical-deal-reviews).
 
 ## Key accounts update
 
