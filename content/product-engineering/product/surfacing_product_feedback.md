@@ -19,6 +19,7 @@ If you have gotten a specific feedback requests that a customer(s) would like to
 To create a Product Gap, navigate to the impacted customer(s) most recent Opportunity, whether it's a net new opp or a renewal. When viewing the Opportunity, you should see a related list labeled "Product Gap Submissions". Create a new Submission, and search in the field Product Gap to see if a gap already exists for what you wish to log. If no gap exists, create one, and then continue creating your submission that will tie your customer to the Product Gap. Be sure to include relevant information like what workarounds your customer must employ (if any), and the severity of what this issue blocks for them.
 
 ## Product Gap Definitions
+
 - Open - needs to be reviewed/looked at by Product
 - In review - is currently being reviewed by Product but has not been prioritized
 - In progress - it is prioritized and the team is working on it
