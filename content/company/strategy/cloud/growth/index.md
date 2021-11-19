@@ -45,9 +45,10 @@ For API docs to be widely accepted, we need to improve the UX in various ways. T
 ## Roadmap
 
 The team is working on [a list of problem statements and potentital solutions](https://docs.google.com/document/d/1vQcuXKMBY8P3aKDgp5tgxS0o0qmB03DGVo7z8OvO8tk/edit#heading=h.le5c6oa31qxt) to help guide the selection projects. Sample projects may include:
-* clearly displaying key value propositions
-* improving traffic to key features
-* improving our understanding of user journeys
-* creating viral growth opportunities
+
+- clearly displaying key value propositions
+- improving traffic to key features
+- improving our understanding of user journeys
+- creating viral growth opportunities
 
 The API Docs [roadmap](https://sourcegraph.productboard.com/feature-board/2689572-fy2022-roadmap-developer-insights) can be viewed in Productboard.
