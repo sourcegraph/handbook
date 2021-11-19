@@ -1,0 +1,24 @@
+## Getting customers to a technical win
+One of our values at Sourcegraph is being customer driven, and all of the teams are responsible for ensuring that we are living that value and supporting each other as a team to achieve our ambitious goals. Product & Engineering play a very distinct role in the process of getting prospective customers to a technical win, partnering closely with CE (Customer Engineering) and Sales from the qualifying stage through end of trial. Product & Engineering sometimes needs to support CE/Sales in providiing tehcnical work that is customized to their specific needs (see [Technical Deal Review](https://handbook.sourcegraph.com/ce/working-with-customers#technical-deal-reviews).
+
+#Key accounts update
+Our Key Accounts are the 5 accounts that we report on weekly due to the size of the deal, the importance to the business, and/or the technicalities of our prospective customers tech stack.  The Key Accounts update is a communication tool for a broader audience to stay in the know about the work that is driving this forward, including the steps to get to a technical win. 
+
+The process
+  - CE/AE is responsible for updating the [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) by Tuesday at 20:00 UTC. This includes a summary, any milestones, blockers, or work in progress. This is their opportunity to surface the delta over the last week and what is coming next. 
+  - VP, Product is responsible for creating a summary of the 5 accounts, and broadcasting the information about the status of each in the #key-accounts Slack channel. 
+  - VP, Product tags any CE/AE for follow up, and conversation can occur in the Slack channel by EOD Tuesday. 
+
+## Delighting our customers
+Not only do we want to build a product that is allows our customers to grow, we want to grow with them! In order to do that, Product and Engineering work closely with CE and Sales to continue to support our customers
+
+#Strategic accounts update
+Our Strategic Accounts are the ~10 accounts that we report on weekly either because they are a critical prospect we are targeting that will open up opportunities to new segments, has a massive revenue potential, or whose logo is of strategic importance to the business or are existing customers that are a top revenue account, have the most opportunity to grow, or are in a "bad health state" that requires Product & Engineering work to get them in a better state. 
+
+The process
+- AE's are responsible for identifying & adding any critical prospects to the [Strategic Accounts deck](https://docs.google.com/presentation/d/1vZ2tgLRUwYbkrn6AyE-hE4iSy6TnlUuyC1JTg7MRRpw/edit#slide=id.g7d2aea8729_0_0)
+- CE's are responsible for updating the [Strategic Accounts deck](https://docs.google.com/presentation/d/1vZ2tgLRUwYbkrn6AyE-hE4iSy6TnlUuyC1JTg7MRRpw/edit#slide=id.g7d2aea8729_0_0) with current customers who we should focus on growing and/or getting them in a better state. 
+- Product is responsible for looking at the Product gaps surfaced for these strategic accounts and working closely with Sales and CE to prioritize work that could be the most impactful for our prospective or current customers. They work closely with Engineering to plan the work that should be done. 
+
+#Product gaps
+The CE team is responsible for identifying product gaps for prospective and current customers, and relaying that knowledge to the Product team. CE tracks this information in Salesforce through Dashboards. CE communicates this information in a bi-weekly meeting with Product. See [Product Gap](https://handbook.sourcegraph.com/product-engineering/product/surfacing_product_feedback#what-is-a-product-gap) for more information on the process for submitting, defining, and resolving product gaps.  
