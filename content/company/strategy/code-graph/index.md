@@ -1,6 +1,6 @@
 # Code Graph strategy
 
-We have teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together, but each linked page provides a more detailed strategy for that team including what they are working on next and why. There is also a whole-company [Sourcegraph strategy](../index.md) available to which all of this is aligned.
+We have teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together, but each linked page provides a more detailed strategy for that team including what they are working on next and why. There is also a whole-company [Sourcegraph strategy](../index.md) and [Product & Engineering strategy](../../../product-engineering/strategy.md) available to which all of this is aligned.
 
 ## Mission
 
@@ -40,7 +40,6 @@ We have more and more large customers dealing with a lot of code and complexity 
 - [Search works well with large-scale monorepos](https://github.com/sourcegraph/sourcegraph/issues/27320) ([Search Core](./search/index.md))
 - [Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts](https://github.com/sourcegraph/sourcegraph/issues/27322) ([Search Core](./search/index.md))
 - [3 customers use server side Batch Changes to create 200+ changeset batch changes](https://github.com/sourcegraph/sourcegraph/issues/27348) ([Batch Changes](./batch-changes/index.md))
-- [1 customer issue was solved with the help of `src debug`](https://github.com/sourcegraph/sourcegraph/issues/27347) ([Search Core](./search/index.md))
 
 ## Principles
 

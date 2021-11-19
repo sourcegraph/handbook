@@ -29,7 +29,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 ### Build has failed on the `main` branch
 
-- Gravity: _minor_
+- Severity: _minor_
 - Impact: that commit won't be deployed on DogFood and `sourcegraph.com` until an ulterior build passes.
 - Possible causes:
   - The `main` branch runs additional checks compared to Pull Requests builds. So it's possible that one of those checks failed.
@@ -73,7 +73,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 ### Builds are all failing on the `main` branch with the same error
 
-- Gravity: _major_
+- Severity: _major_
 - Impact: no commits are being deployed on DogFood and `sourcegraph.com` until the problem is resolved. Cutting a release is impossible.
 - Possible causes:
   - A previous Pull Request introduced a change that causes a test to fail.
@@ -107,7 +107,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 ### Build are failing on the `main` branch with different errors
 
-- Gravity: _major_
+- Severity: _major_
 - Impact: no commits are being deployed on DogFood and `sourcegraph.com` until the problem is resolved. Cutting a release is impossible.
 - Possible causes:
   - A previous Pull Request introduced a change that causes a test to fail.
@@ -130,7 +130,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 ### Spotted a flake
 
-- Gravity: _minor_
+- Severity: _minor_
 - Impact: Some builds will fail randomly, creating noise and slowing down the engineering team
 - Possible causes:
   - Tests relying on timing.

@@ -2095,3 +2095,11 @@ head_of_technical_writing:
   role: (Interim) Head of Technical Writing
   reports_to: vp_product
   hidden_on_team_page: true
+
+Daniel_Gwyn:
+  name: Daniel Gwyn
+  email: daniel.gwyn@sourcegraph.com
+  links: '[LinkdIn](https://www.linkedin.com/in/daniel-gwyn-6b9ab6161/)'
+  github: danieltgwyn
+  role: Sales Dev Rep
+  location: Raleigh, NC, USA
