@@ -1,6 +1,6 @@
 # Getting customers to a technical win
 
-One of our values at Sourcegraph is being customer driven, and all of the teams are responsible for ensuring that we are living that value and supporting each other as a team to achieve our ambitious goals. Product & Engineering play a very distinct role in the process of getting prospective customers to a technical win, partnering closely with CE (Customer Engineering) and Sales from the qualifying stage through end of trial. Product & Engineering sometimes needs to support CE/Sales in providiing technical work that is customized to their specific needs (see [Technical Deal Review](https://handbook.sourcegraph.com/ce/working-with-customers#technical-deal-reviews).
+One of our values at Sourcegraph is being customer driven, and all of the teams are responsible for ensuring that we are living that value and supporting each other as a team to achieve our ambitious goals. Product & Engineering play a very distinct role in the process of getting prospective customers to a technical win, partnering closely with CE (Customer Engineering) and Sales from the qualifying stage through end of trial. Product & Engineering sometimes needs to support CE/Sales in providiing technical work that is customized to their specific needs (see [Technical Deal Reviews](../../../ce/working-with-customers.md/#technical-deal-reviews)).
 
 ## Key accounts update
 
@@ -28,4 +28,4 @@ Our Strategic Accounts are the ~10 accounts that we report on weekly either beca
 
 ## Product gaps
 
-The CE team is responsible for identifying product gaps for prospective and current customers, and relaying that knowledge to the Product team. CE tracks this information in Salesforce through Dashboards. CE communicates this information in a bi-weekly meeting with Product. See [Product Gap](https://handbook.sourcegraph.com/product-engineering/product/surfacing_product_feedback#what-is-a-product-gap) for more information on the process for submitting, defining, and resolving product gaps.
+The CE team is responsible for identifying product gaps for prospective and current customers, and relaying that knowledge to the Product team. CE tracks this information in Salesforce through Dashboards. CE communicates this information in a bi-weekly meeting with Product. See [Product Gap](../surfacing_product_feedback.md/#what-is-a-product-gap) for more information on the process for submitting, defining, and resolving product gaps.
