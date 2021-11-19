@@ -2,7 +2,7 @@
 
 ## Team
 
-The cloud growth team is a rapidly evolving team, currently consisting of:
+Cloud growth is a rapidly evolving team, which currently consists of:
 
 * Stephen Guad (engineer)
 * Rob Rhyne (temporary product manager and product designer)
