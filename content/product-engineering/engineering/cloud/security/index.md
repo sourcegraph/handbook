@@ -48,6 +48,15 @@ See [security goals and priorities](../../../../company/strategy/cloud/security/
 
 ---
 
+## How we are improving and investing in the product security
+
+- We are growing our security team to expand, develop and mature the security program
+- We are embedding new security practices to improve our secure SDLC
+- We are improving our internal security training for developers
+- We have a security ambassador program where a security engineer is involved in the early stages of the design of new features to give input and help identifying potential weaknesses of the product
+- We have developed a new vulnerability management process which will limit the number of open vulnerabilities as we will have a much closer follow up with a new SLA
+
+---
 ## How to work with us
 
 ### Security Ambassador Program
