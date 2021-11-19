@@ -102,7 +102,6 @@ cloud_growth:
   title: Cloud Growth
   product_org: cloud
   pm: anna_mikhova
-  design: quinn_keast
   issue_labels:
     - team/cloud-growth
 
