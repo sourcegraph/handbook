@@ -21,8 +21,9 @@ In many cases, we believe a developer's first expectation will be to search for 
 
 We aim to improve the first-time user experience of Sourcegraph in a few key ways:
 
-1. When searching for a specific piece of code (a repository, package, symbol, etc.), leverage API docs information to make it trivial to jump straight from the Sourcegraph home page (or search results page) to the repository page or API docs page for that code. That is, a new user should not need to understand our advanced search filter syntax in order to get to the code they're expecting to find. As this leverages API docs data, we'll tackle this for Go code only at first.
-2. When navigating to a repository page, make it clear why Sourcegraph is a better experience than say GitHub or GitLab. We talk about this in [a demo video](https://youtu.be/sgqtPb8ubAw) produced for a hackathon project.
+1. When first experiencing the product, users should be able to refrence a list of the most important features to review
+2. When searching for a specific piece of code (a repository, package, symbol, etc.), leverage API docs information to make it trivial to jump straight from the Sourcegraph home page (or search results page) to the repository page or API docs page for that code. That is, a new user should not need to understand our advanced search filter syntax in order to get to the code they're expecting to find. As this leverages API docs data, we'll tackle this for Go code only at first.
+3. When navigating to a repository page, make it clear why Sourcegraph is a better experience than say GitHub or GitLab. We talk about this in [a demo video](https://youtu.be/sgqtPb8ubAw) produced for a hackathon project.
 
 ### 3. Experimental VS code integration of API docs
 
@@ -43,6 +44,10 @@ For API docs to be widely accepted, we need to improve the UX in various ways. T
 
 ## Roadmap
 
-TODO(slimsag) TODO(bcreager): need to figure out how to keep Product Board up to date, it's not currently reflective of the new things we've learned in past 1-2 months. Jean previously did this for us but honestly product board is just not my cup of tea.
+The team is working on [a list of problem statements and potentital solutions](https://docs.google.com/document/d/1vQcuXKMBY8P3aKDgp5tgxS0o0qmB03DGVo7z8OvO8tk/edit#heading=h.le5c6oa31qxt) to help guide the selection projects. Sample projects may include:
+* clearly displaying key value propositions
+* improving traffic to key features
+* improving our understanding of user journeys
+* creating viral growth opportunities
 
 The API Docs [roadmap](https://sourcegraph.productboard.com/feature-board/2689572-fy2022-roadmap-developer-insights) can be viewed in Productboard.
