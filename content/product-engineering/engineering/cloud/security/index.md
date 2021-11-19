@@ -57,6 +57,7 @@ See [security goals and priorities](../../../../company/strategy/cloud/security/
 - We have developed a new vulnerability management process which will limit the number of open vulnerabilities as we will have a much closer follow up with a new SLA
 
 ---
+
 ## How to work with us
 
 ### Security Ambassador Program
