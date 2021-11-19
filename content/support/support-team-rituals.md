@@ -47,6 +47,8 @@ We always make sure the following is true:
 - We let each other know when we are/will be unavailable by posting in our #customer-support-internal Slack channel and adding it to Roots to be sure it's also reflected in the team CS team calendar and our Slack status.
 - Before we afk or ooo, we clearly indicate why a case can wait for us to return `OR` we post in our #customer-support-internal Slack channel and ask that someone either fill in or take it over (fill in if it's just a day and you want someone to keep an eye on it or have something specific for them to do; take it over if you are gone for a few days and we want the customer to have a smooth handover).
 
-Sometimes we wake up not feeling well and we don't have it in us to line things up. That's okay! Simply add a sick day to Roots and post in #customer-support-internal Slack channel and @ mention @cs-leadership and ask that they tend to things for you.
+And remember, you never have to ask to take the time you need and you never have to share why you need the time you do. You just need to communicate clearly and make sure the team knows how to have your back.
+
+Also, sometimes we wake up not feeling well and we don't have it in us to line things up. That's okay! Simply add a sick day to Roots and post in #customer-support-internal Slack channel and @ mention @cs-leadership and ask that they tend to things for you.
 
 Optionally, when we are out for more than a day or two, we can create a "what did I miss" doc in our [shared drive folder](https://drive.google.com/drive/u/1/folders/1w-4j9T1z1GxnpvSbr_o5VRVxkct7w27O) for our teammates to populate with things we need to catch-up, be aware of when we return.
