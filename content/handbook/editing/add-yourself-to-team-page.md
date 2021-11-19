@@ -41,7 +41,7 @@ If you have any trouble you can ask for help in #product-internal.
 
 ### New managers
 
-If you are joining as a new manager, there will be an interim role in the team.yml that you should customize, instead of creating a new one, that looks something like this:
+If you are joining as a new manager, there may be an interim role in the team.yml that you should customize, instead of creating a new one. It would look something like this (depending on your role), but if you're unsure then ask your manager:
 
 ```yaml
 head_of_technical_writing:
@@ -55,7 +55,7 @@ Instead of creating a new entry, you should update this one. Change the top leve
 
 ### New employees
 
-If you not a new manager, then proceed as normal. The only different thing you need to do is add a `reports_to:` field that matches the `manager_role_slug` for your manager. For example, if you report to Jason Yavorska, his `manager_role_slug` is `product_director_code_graph`. So you'd add a row that looks like this:
+If you are not a new manager, then proceed as normal. The only different thing you need to do is add a `reports_to:` field that matches the `manager_role_slug` for your manager. For example, if you report to Jason Yavorska, his `manager_role_slug` is `product_director_code_graph`. So you'd add a row that looks like this:
 
 ```yaml
 your_name:
