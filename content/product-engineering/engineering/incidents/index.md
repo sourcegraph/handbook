@@ -6,15 +6,14 @@ Some examples of incidents:
 
 - sourcegraph.com is down or a critical feature is broken (e.g. sign-in, search, code intel).
 - If sourcegraph.com is down for more than 5 minutes, a critical feature is down for more than 5 minutes, or we're aware of a service degradation issue that >5 users have reported. If you're unsure if the incident's impact qualifies, ask @cs in Slack for advice.
-- We have a severity 1 issue (per [our standard SLA definition](../../../support/index.md#slas)) that impacts all/many self-hosted instances
-- We have a severity 1 issue (per [our standard SLA definition](../../../support/index.md#slas)) that impacts all/many managed instances
-- We have a severity 1 issue (per [our standard SLA definition](../../../support/index.md#slas)) that impacts all/many Cloud/SaaS users
-  instance is down or a critical feature is broken.
+- We have an issue (per [our standard SLA definition](../../../support/index.md#slas)) that impacts all/many self-hosted instances, all/many managed instances, or all/many Cloud/SaaS users
 - There is a security issue with Sourcegraph (and if so, pleaes also follow [our security disclosure process](../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities).
 - A Sourcegraph team member feels like an incident might be present, but isn't certain or isn't able to confirm on their own.
 - We need to do critical proactive 1-to-many communication to all self-hosted customers (for example, making them aware of something they need to do in a certain upgrade like [the prep needed before upgrading to 3.31](https://docs.sourcegraph.com/admin/migration/3_31)) -- over time, as we do more of this, we will likely create a separate process for this
 
 Additionally, on big announcement days (funding, product launch, campaign launch, etc.), all incidents warrant more immediate attention from marketing so we can hold off on planned activities/be prepared to respond to issues. On these days, the person in marketing leading the announcement is responsible for looping #customer-support and engineering/product in ahead of time to ensure they are aware of planned activities. The person leading the announcement will work with #customer-support on the ad-hoc plan for incidents (which may involve on-call rotation).
+
+All incidents are announced in the #incidents channel automatically through incident.<unlink></unlink>io, and past incidents are available in the [incidents.io dashboard](https://app.incident.io/incidents) and our [past incident postmortems](#past-incident-post-mortems).
 
 ## Process
 
@@ -32,13 +31,11 @@ The first Sourcegraph teammate (regardless of their role) that becomes aware of 
    - this will create a new chatroom in Slack where all other communication should occur
 3. If you are not a member of product, engineering, or customer support, type the following into the Slack channel to page someone who can complete the rest of this list (otherwise proceed to the next step): `/genie alert we have an incident, please help for customer-support`
 4. Identify folks to serve in the following roles (see [how to identify folks to serve in incident lead and messenger roles](#how-to-identify-folks-to-serve-in-incident-lead-and-messenger-roles)
-
-   - [Incident Lead](#incident-lead-roles-and-responsibilities)
-   - [Messenger](#messenger-roles-and-responsibilities)
-
+   - [Incident Lead](#incident-lead)
+   - [Messenger](#messenger)
 5. Stay involved to help, or thank the incident lead and messenger and leave them to it
 
-### Severity levels
+#### Severity levels
 
 We currently have 2 severity levels for incidents that require this workflow and both of these levels are considered a severity 1 per [our contractual SLAs](../../../support/index.md#slas), we just break them down a bit more for internal delineation:
 
@@ -47,46 +44,50 @@ We currently have 2 severity levels for incidents that require this workflow and
 
 Severity level 2 issues [our contractual SLAs](../../../support/index.md#slas) (aka, minor issues) should not use this workflow (these go through the usual support/feedback processes.
 
-### How to identify folks to serve in incident lead and messenger roles
+#### False positives
 
-- This may, if appropriate, be the same person who identified and raised the incident
-- When it’s an issue that is impacting customers, it is ideal to have different folks serve as incident lead vs messenger, this allows the incident lead to focus on solving the issue
-- Typically an incident lead is on the engineering team. If an engineer hops in, great. Otherwise, loop in the on-call engineer. You can find out who is on-call by typing `/genie whoisoncall` in Slack. If you are not able to immediately get in contact with the on-call engineer, then manually create a new OpsGenie alert by typing `/genie alert <description of incident and link to Slack thread> for [@team or user email]`. For example:
-  - `/genie alert Sourcegraph.com is down for delivery team`
-  - `/genie alert We need your help with the production incident for name@sourcegraph.com`
-- Assign the Incident Lead in the incident chatroom with the following command /incident lead @engineer
-- A messenger can be on the engineering or customer support team and is only necessary for issues that have customer impact
-  - Support is also in OpsGenie and can be engaged the same way
-  - If ever there is a question about whether a messenger is useful for an incident, just post in #customer-support and the support team can help think through it and determine best next steps.
+Every incident is an opportunity for us to make Sourcegraph a higher quality product and to improve the processes that lead to or around an incident. Even if an incident turns out to be a false positive, we value that it was identified.
 
-### Incident Lead roles and responsibilities
+### Incident roles and responsibilities
 
-The incident lead is responsible for resolving the incident as quickly and safely as possible. They are the DRI coordinating the incident, tasked with driving it to resolution and keeping others informed (if it's a non-customer-impact issue) or coordinating with the messenger on communication (for customer-impact issues).
+Incidents always have an [incident lead](#incident-lead), and for customer-impact incidents, may also have a [messenger](#messenger).
 
-1. **Thank** the person who identified the incident.
-2. **Acknowledge ownership** of the incident in the relevant incident chatroom (i.e. "I'm on it").
-3. **Communicate** intended next steps (e.g. "I plan to...") and keep the incident status and summary up to date (e.g. "We tried ... which resulted in ...") in the incident chat room.
-4. **Attempt to resolve the incident** by rolling back to a known good state instead of trying to identify and fix the exact issue. Communicate your intentions in the incident chatroom.
-   - [Rollback sourcegraph.com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/README.info.md#how-to-rollback-sourcegraphcom)
-   - Revert a broken commit out of main. If a bad commit has already been deployed to sourcegraph.com and is causing problems, rollback the deploy before reverting the commit in main.
-     - Revert the commit in a branch and open a PR.
-     - Tag the owner of the reverted commit as a reviewer of the PR.
-     - Merge the PR as soon as CI passes (don’t block on review).
-   - [Fix failed database migration on sourcegraph.com](https://github.com/sourcegraph/sourcegraph/tree/main/migrations#dirty-schema)
-   - [How to resolve “Sourcegraph.com is deleted entirely”](playbooks/dotcom_deleted_entirely.md)
-5. If rolling back and or reverting commits doesn’t resolve the incident, then identify the most logical resolution owner given what you know (this may be yourself) and have that person acknowledge ownership in the incident chatroom (i.e. “I’m on it”).
+#### Incident lead
+
+The incident lead is responsible for resolving the incident as quickly and safely as possible. They are the DRI coordinating the incident, tasked with driving it to resolution and keeping others informed (if it's a non-customer-impact issue) or coordinating with the [messenger](#messenger) on communication (for customer-impact issues).
+
+Typically an incident lead is on the engineering team and may, if appropriate, be the same person who identified and raised the incident. If not, and an engineer hops in, great. Otherwise, loop in the on-call engineer. You can find out who is on-call by typing `/genie whoisoncall` in Slack. If you are not able to immediately get in contact with the on-call engineer, then manually create a new OpsGenie alert by typing `/genie alert <description of incident and link to Slack thread> for [@team or user email]`. For example:
+
+- `/genie alert Sourcegraph.com is down for delivery team`
+- `/genie alert We need your help with the production incident for name@sourcegraph.com`
+
+The incident lead should follow these steps:
+
+1. **Assign** the Incident Lead in the incident chatroom with `/incident lead @engineer`
+2. **Thank** the person who identified the incident.
+3. **Acknowledge ownership** of the incident in the relevant incident chatroom (i.e. "I'm on it").
+4. **Communicate** intended next steps (e.g. "I plan to...") and keep the incident status and summary up to date (e.g. "We tried ... which resulted in ...") in the incident chat room.
+5. **Attempt to resolve the incident** by rolling back to a known good state instead of trying to identify and fix the exact issue - refer to [playbooks](#playbooks) for specific scenarios. Communicate your intentions in the incident chatroom.
+6. If rolling back and or reverting commits doesn’t resolve the incident, then identify the most logical resolution owner given what you know (this may be yourself) and have that person acknowledge ownership in the incident chatroom (i.e. “I’m on it”).
    - The person who has made recent changes to the affected product/code/system.
    - The person who owns the affected product/code/system.
    - The on-call engineer.
-6. Handles the internal details of pausing a release (engaging the messenger to help with any relevant customer communication)
 
 The incident lead may delegate tasks to other available/working engineers if necessary but should make a best effort to minimize the number of other engineers who get interrupted by the incident. This delegated work takes priority over work unrelated to operational incidents.
 
 If it's a security related issue, it's best to also loop in the security team.
 
-### Messenger roles and responsibilities
+> NOTE: Need help using incident<unlink>.io? Go to their Help Centre at [docs.incident.io](https://docs.incident.io/).
 
-The messenger is only needed for incidents with customer-facing impact. The messenger is almost always a member of customer support or engineering (someone who is not in the role of incident lead) who is able to witness the incident lead work (in the dedicated Slack channel and/or on any huddle calls) and (with minimal progress-interrupting questions) translates what they witness to:
+#### Messenger
+
+The messenger is only needed for incidents with customer-facing impact. The messenger is almost always a member of customer support or engineering (someone who is not in the role of incident lead).
+
+If an incident has customer impact, all you have to do is engage #customer-support and customer support will facilitate the entire communication process so you can focus on solving the issue. Support is also in OpsGenie and can be engaged the same way as engineering with `/genie whoisoncall` and `/genie alert <description of incident and link to Slack thread> for [@team or user email]`. If ever there is a question about whether a messenger is useful for an incident, just post in #customer-support and the support team can help think through it and determine best next steps.
+
+If a messenger is decided, **assign** the messenger in the incident chatroom with `/incident messenger @person`
+
+The messenger should witness the incident lead work (in the dedicated Slack channel and/or on any huddle calls) and (with minimal progress-interrupting questions) translates what they witness to:
 
 - [Status page](https://sourcegraphstatus.com/#) updates for customers which is updated via incident.io Slack commands (`/incident statuspage`) and following these best practices:
 
@@ -104,8 +105,6 @@ The messenger is only needed for incidents with customer-facing impact. The mess
 
     _Resolved: We have resolved the issue and will conduct a postmortem to see how we can learn and grow. If you would like to know more, please email support@sourcegraph.com._
 
-  Need help using incident.io? Go to their Help Centre: https://docs.incident.io/
-
 - Direct message updates/responses to customers (if relevant) in #support- or #trial- customer Slack channels or Zendesk email tickets
 - Draft suggested social media posts (at marketing’s request; marketing will revise to match Sourcegraph tone, etc)
 - Internal updates in the dedicated Slack channel by keeping the incident.io status up to date. All teammates joining the chat room will get the current status provided by incident.io. At any time, a user in the chat room can see the current status using this slack command: `/incident recap`.
@@ -115,16 +114,23 @@ The messenger is only needed for incidents with customer-facing impact. The mess
 - In these cases, the messenger loops in a member of @cs-leadership who will help by handling this. The messenger reminds them to include all department heads and for marketing to also include our director of global communication in addition to the head of marketing).
 - For security related issues they also follow [our security disclosure process](../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities)
 
-### False positives
+> NOTE: Need help using incident<unlink>.io? Go to their Help Centre at [docs.incident.io](https://docs.incident.io/).
 
-Every incident is an opportunity for us to make Sourcegraph a higher quality product and to improve the processes that lead to or around an incident. Even if an incident turns out to be a false positive, we value that it was identified.
+### Playbooks
 
-### Pausing a release
+See [playbooks](./playbooks/index.md).
 
-In some incidents, we may learn that we need to pause a release.
+Some common scenarios:
 
-- The incident lead alerts @delivery-support, @cs, @ce so the teams can plan accordingly
-- The messenger alerts customers via a post on the status page
+- [Rollback sourcegraph.com](../deployments/playbooks.md#rolling-back-sourcegraph-com)
+  - Other deployment playbooks are available on the [deployment playbooks page](../deployments/playbooks.md)
+- Revert a broken commit out of main. If a bad commit has already been deployed to sourcegraph.com and is causing problems, rollback the deploy before reverting the commit in main.
+  - Revert the commit in a branch and open a PR.
+  - Tag the owner of the reverted commit as a reviewer of the PR.
+  - Merge the PR as soon as CI passes (don’t block on review).
+- [Fix failed database migration on sourcegraph.com](https://github.com/sourcegraph/sourcegraph/tree/main/migrations#dirty-schema)
+- For CI issues, refer to the [CI playbook](./playbooks/ci.md)
+- More playblooks are available in the [playbooks section](#playbooks) of this page.
 
 ### Post-mortem
 
@@ -133,23 +139,18 @@ After the incident is resolved, the incident lead:
 1. Update the incident status and close.
 2. Confirms that the messenger updated any customer communication channels, internal threads, or channels (outside of the incident channel) and social media posts (with marketing’s approval and if necessary) with the latest information.
 3. Update and close and relevant public GitHub issues.
-4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish it in the [Incidents]](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F) folder in Google Drive.
+4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish it in the [Incidents folder in Google Drive](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F).
 5. Create GitHub issues for any appropriate followup work.
 6. Schedule a [retrospective](../../../retrospectives/index.md) if you think it would be valuable.
+7. Archive the incident channel.
 
-## Incident Post-mortems
+#### Past incident post-mortems
 
+- [Incidents folder in Google Drive](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F)
 - [3.30 Postgres Index Incident](./330_incident_retro.md)
 - [Extensibility Repo Name Logging Incident](./extensibility_repo_name_log.md)
 
-## Go-to-market (license and subscription) issues
-
-If a customer is experiencing an issue related to their license key or subscription status, any member of the Sourcegraph team has authority to generate a new, valid license key for any customer for any number of users that is **valid for up to 7 days** in the [site-admin Subscriptions page on Sourcegraph.com](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). This will prevent the initial incident responder from being bottlenecked on a member of the go-to-market team that can validate the customer's subscription status.
-
-The incident responder will need to select a Sourcegraph.com account to attach the subscription to (typically the account should belong to the customer, so they can access the license key directly from their user profile, but in an emergency, the incident responder can use their own account in lieu of asking the customer), and can then manually generate a license key. No license "tags" are necessary.
-
-If a customer's instance is reporting "license expired" already, note that [there is a 72hr grace period](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/internal/license/license.go#L43:15) before non-admin users are locked out.
-
 ## Links and resources
 
-Need help using incident<unlink>.io? Go to their Help Centre: https://docs.incident.io/.
+- [Incident playbooks](playbooks/index.md)
+- [docs.incident.io](https://docs.incident.io/)
