@@ -16,4 +16,4 @@ Not all public code is open source. In our case, all our enterprise code is _pub
 
 ## Sourcegraph OSS vs Sourcegraph Enterprise
 
-The content of this page has been merged into [Licensing](../product/licensing.md)
+The content of this page has been merged into [Licensing](../product-engineering/product/licensing.md)

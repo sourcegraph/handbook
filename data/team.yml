@@ -821,7 +821,7 @@ adeola_akinsiku:
   location: Atlanta, GA, USA 🇺🇸
   github: adeola-ak
   email: adeola@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/adeola-a-b0b6b270)'
+  links: '[LinkedIn](https://www.linkedin.com/in/adeola-a-b0b6b270), [Readme](../../support/bios/adeola-readme.md)'
   description: Adeola joins Sourcegraph fresh out of an engineering bootcamp after years of doing work that she never felt challenged or very excited about. Having studied Finance in undergrad, she knows a thing or two about credit and managing money, but really loves to talk about all things code. Adeola finds life to be awfully boring without purpose and meaning, and strives to become a better person both professionally and personally everyday. Real connections mean a lot to Adeola and she loves to engage with people who feel the same way. Outside of work, she loves going out to eat, watching basketball, sniffing candles, reading and relaxing.
 
 patrick_dubroy:
@@ -841,7 +841,7 @@ beatrix_woo:
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/wbeatrix/), [@3eatrix](https://www.twitter.com/3eatrix/)'
+  links: '[LinkedIn](https://www.linkedin.com/in/wbeatrix/), [@3eatrix](https://www.twitter.com/3eatrix/), [Readme](../../support/bios/bee-readme.md)'
   pronunciation: '[Pronounce my name 🔊](https://www.youtube.com/watch?v=aZWHsV96NqY)'
   description: 'Originally from Hong Kong, Beatrix is now residing in the sunny San Diego with her husband and their Shiba Inu, Goku. She was working as an analyst and has worked for Morgan Stanley and Uber before she picked up her old passion in coding. In her free time, Beatrix likes to spend time with her family, learn about different technologies, build mechanical keyboards, and play [League of Legends](https://na.op.gg/summoner/userName=biues) with friends.'
 
@@ -1007,7 +1007,7 @@ dan_mckean:
   location: Shaftesbury (Dorset), UK 🇬🇧
   github: dan-mckean
   email: dan.mckean@sourcegraph.com
-  links: '[Readme!](../../product/readmes/dan-mckean-readme.md)'
+  links: '[Readme!](../../product-engineering/product/readmes/dan-mckean-readme.md)'
   description: "Dan grew up in the South of England, and (with a detour via London) ended up in Dorset in the south west, a county with beautiful coast (but lives as far from the sea as it's possible to get – though not deliberately!) He lives with his wife (Emma), four kids (7y, 5y, 2x14m) and 3-legged springer spaniel (9y). His spare time is largely spent chasing his twin identical boys in an effort to prevent injury. Any (genuinely) spare time is spent trying to make things out of wood."
 
 cassie_melani:
@@ -1642,7 +1642,7 @@ jason_yavorska:
   location: Leiden, NL 🇳🇱 and part of the year in Odessa, UA 🇺🇦
   github: jyavorska
   email: jason.yavorska@sourcegraph.com
-  links: '[Twitter](https://twitter.com/j4yav), [Lichess](https://lichess.org/@/j4yav), [LinkedIn](https://linkedin.com/in/jyavorska), [Personal Site](https://metaluna.io), [README](../../product/readmes/jyavorska-readme.md)'
+  links: '[Twitter](https://twitter.com/j4yav), [Lichess](https://lichess.org/@/j4yav), [LinkedIn](https://linkedin.com/in/jyavorska), [Personal Site](https://metaluna.io), [README](../../product-engineering/product/readmes/jyavorska-readme.md)'
   description: 'Jason was born in the United States, but moved to the Netherlands in 2015. A big part of that move was due to having a big interest in history and classical arts and music, and living here provides a nice base for exploration. He has an international family with most parts in the United States and Ukraine, so often is traveling between these places. He has two young children, a daughter and younger son, and enjoys food, travel, guitar, fantasy and science fiction books, and (retro) technology. His personal passion is [helping kids learn to code](https://metaluna.io/learn/).'
 
 tamar_joyeux:
@@ -2043,3 +2043,29 @@ brett_hayes:
   role: Web Developer, Brand
   location: Ontario, Canada 🇨🇦
   description: Brett sparked his interest in design and programming when he first discovered modding map skins and projectiles to do weird things in the game of Halo. This became the catalyst to his self-taught career in software and web development. He started consulting after graduating high school and has had the pleasure of working for a handful of startups as well as Co-founding a few of his own. He’s worked in many industries such as retail, edtech, fintech, and automotive and brings over a decade of experience in software and web development to Sourcegraph. Being creative at heart with an analytical mind, Brett has a knack for his craft and is passionate about design and web technologies. Away from his mechanical keyboard, you can find him photographing candid moments, snowboarding with his wife, tinkering with his network rack, playing or writing music, or wrenching on his car.
+
+olivia_simpson:
+  name: Olivia Simpson
+  email: olivia@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/olivia-simpson-9a8a1835/)'
+  github: olivia488
+  role: Program Manager, Demand Generation Campaigns
+  location: New York, NY, USA
+  description: Olivia is originally from Park Ridge, IL, but now lives in Manhattan with her fluffy corgi. Prior to joining Sourcegraph, Olivia held different roles at high-growth startups, where she discovered a passion for demand generation marketing. In her free time, she enjoys walking her dog in Central Park, meeting up with friends, and finding fun new Peloton rides to try!
+
+amy_johnson:
+  name: Amy Johnson
+  email: amy.johnson@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/amy-johnson-2367a4137/)'
+  github: amyjohnsonSG
+  role: Accountant
+  location: Trabuco Canyon, CA, USA
+  description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
+
+Daniel_Gwyn:
+  name: Daniel Gwyn
+  email: daniel.gwyn@sourcegraph.com
+  links: '[LinkdIn](https://www.linkedin.com/in/daniel-gwyn-6b9ab6161/)'
+  github: danieltgwyn
+  role: Sales Dev Rep
+  location: Raleigh, NC, USA

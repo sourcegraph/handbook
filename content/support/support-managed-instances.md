@@ -2,11 +2,15 @@
 
 In order to have good security and risk mitigation practices, only a subset of our application engineers have access to managed instances. If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, Mariam, and Kelvin. One of them can help!
 
+A quick note before reading the rest of this page: Customers with managed instances cannot pull their own logs, and in many cases, the customer we're dealing with is not a site-admin, so they can't access site-admin priveleges either.
+
+Please make absolute sure regardless of the customer, that they are not working with a managed instance. If they are, and you are unaware, asking for logs may end up sounding like a silly question to them, and cause the customer to lose confidence in our ability as Application Engineers. If you are unsure after looking through salesforce and looker whether a customer does or does not have a managed instance, please reach out to Don, Jason, Mariam or Kelvin and they will be able to confirm for you.
+
 If you are an application engineer being trained to work with managed instances, read ahead.
 
 ## Required access
 
-To fully access managed instances, follow these [docs](../engineering/enablement/delivery/managed/index.md#access)
+To fully access managed instances, follow these [docs](../product-engineering/engineering/enablement/delivery/managed/index.md#access)
 
 ## Set up a tutorial session
 
@@ -22,7 +26,7 @@ Next, you'll need to install the Google Cloud Platform (GCP) SDK locally. Instru
 
 To check and see if you've installed the GCP SDK correctly, enter the command `gcloud version` in your terminal. It should return the current version of your SDK. If so, congratulations. You now have the ability to start up virtual machines for each managed instance, and begin debugging.
 
-Next, read the [managed instances operations](../engineering/enablement/delivery/managed/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
+Next, read the [managed instances operations](../product-engineering/engineering/enablement/delivery/managed/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
 
 # Other important notes
 

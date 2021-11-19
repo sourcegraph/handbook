@@ -2,7 +2,9 @@
 
 The following is available to help us honor our [ethos and guiding principles](../index.md) with ease and/or outgrow ourselves.
 
-## Foundation
+## Technical competency
+
+This table correlates to our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit#gid=0) and offers enablement materials meant to help folks reach sentiment level 3 for each area.
 
 | Competency                      | Crash course | Hands-on |
 | ------------------------------- | ------------ | -------- |
