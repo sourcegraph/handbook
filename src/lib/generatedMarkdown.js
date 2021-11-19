@@ -152,33 +152,35 @@ export async function generateTeamMembersList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
-    pageContent += `\n### ${String(teamMember.name)}\n`
-    if (teamMember.role) {
-      pageContent += `${String(teamMember.role)}`
-      if (teamMember.location) {
-        pageContent += ` (${String(teamMember.location)})`
+    if (!teamMember.hidden_on_team_page) {
+      pageContent += `\n### ${String(teamMember.name)}\n`
+      if (teamMember.role) {
+        pageContent += `${String(teamMember.role)}`
+        if (teamMember.location) {
+          pageContent += ` (${String(teamMember.location)})`
+        }
+        pageContent += '\n\n'
+      } else if (teamMember.location) {
+        pageContent += ` (${String(teamMember.location)})\n\n`
       }
-      pageContent += '\n\n'
-    } else if (teamMember.location) {
-      pageContent += ` (${String(teamMember.location)})\n\n`
-    }
-    if (teamMember.description) {
-      pageContent += `${String(teamMember.description)}\n`
-    }
-    if (teamMember.email) {
-      pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
-    }
-    if (teamMember.github) {
-      pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
-    }
-    if (teamMember.pronouns) {
-      pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
-    }
-    if (teamMember.pronunciation) {
-      pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
-    }
-    if (teamMember.links) {
-      pageContent += `- Other links: ${String(teamMember.links)}\n`
+      if (teamMember.description) {
+        pageContent += `${String(teamMember.description)}\n`
+      }
+      if (teamMember.email) {
+        pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
+      }
+      if (teamMember.github) {
+        pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
+      }
+      if (teamMember.pronouns) {
+        pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
+      }
+      if (teamMember.pronunciation) {
+        pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
+      }
+      if (teamMember.links) {
+        pageContent += `- Other links: ${String(teamMember.links)}\n`
+      }
     }
   }
   return pageContent
@@ -232,30 +234,36 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
-function getReports(teamMembers, person, indent) {
+function getReports(teamMembers, role_slug, indent) {
   let content = ''
   for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
-    if (teamMember.reports_to === person) {
+    if (teamMember.reports_to === role_slug) {
       const spaces = ' '.repeat(indent * 2)
       content += `${spaces}- [${String(teamMember.name)}](../../company/team/index.md#${String(
-        createValidTeamAnchor(teamMemberName)
+        createValidTeamAnchor(teamMember.name)
       )}), ${String(teamMember.role)}\n`
-      const reportsIndent = (content += getReports(teamMembers, teamMemberName, parseInt(indent, 10) + 1))
+      if (teamMember.manager_role_slug) {
+        const reportsIndent = (content += getReports(
+          teamMembers,
+          teamMember.manager_role_slug,
+          parseInt(indent, 10) + 1
+        ))
+      }
     }
   }
   return content
 }
 
-export async function generateReportingStructure(starting_person) {
+export async function generateReportingStructure(starting_role) {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
-    if (teamMemberName === starting_person) {
+    if (teamMember.manager_role_slug === starting_role) {
       pageContent += `- [${String(teamMember.name)}](../../company/team/index.md#${String(
-        createValidTeamAnchor(teamMemberName)
+        createValidTeamAnchor(teamMember.name)
       )}), ${String(teamMember.role)}\n`
     }
   }
-  pageContent += getReports(teamMembers, starting_person, 1)
+  pageContent += getReports(teamMembers, starting_role, 1)
   return pageContent
 }
