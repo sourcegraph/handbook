@@ -1,12 +1,26 @@
 # yaml-language-server: $schema=../schema/product_teams.schema.json
 
-search:
-  title: Search
+search_product:
+  title: Search Product
   product_org: code_graph
-  strategy_link: /company/strategy/code-graph/search/index.md
+  strategy_link: /company/strategy/code-graph/search/search_product/index.md
   pm: ben_venker
+  em: felix_becker
+  design: rob_rhyne
+  pmm: alex_isken
   issue_labels:
     - team/search-product
+    - team/search
+
+search_core:
+  title: Search Core
+  product_org: code_graph
+  strategy_link: /company/strategy/code-graph/search/search_core/index.md
+  pm: loïc_guychard
+  em: jeff_warner
+  design: rob_rhyne
+  pmm: alex_isken
+  issue_labels:
     - team/search-core
     - team/search
 
@@ -15,6 +29,9 @@ code_intelligence:
   product_org: code_graph
   strategy_link: /company/strategy/code-graph/code-intelligence/index.md
   pm: maría_craig
+  em: owen_convey
+  design: sara_lee
+  pmm: victoria_yunger
   issue_labels:
     - team/code-intelligence
 
@@ -23,6 +40,9 @@ batch_changes:
   product_org: code_graph
   strategy_link: /company/strategy/code-graph/batch-changes/index.md
   pm: malo_marrec
+  em: chris_pine
+  design: rob_rhyne
+  pmm: alex_isken
   issue_labels:
     - team/batchers
 
@@ -31,6 +51,9 @@ code_insights:
   product_org: code_graph
   strategy_link: /company/strategy/code-graph/code-insights/index.md
   pm: joel_kwartler
+  em: felix_becker
+  design: alicja_suska
+  pmm: victoria_yunger
   issue_labels:
     - team/code-insights
 
