@@ -27,11 +27,11 @@ We bring **the best practices of big data to challenges of big code**, turning a
 
 To deliver on our mission, we will:
 
-- Build a robust Code Insights product offering that is configurable yet simple enough to answer many different engineering leaders' specific questions
-- Continually track usage and feedback to grow the product in its most valuable directions
-- Be intentional with how we publicly launch Code Insights to make sure this story is immediately clear
-- Build towards a Cloud product offering after launching publicly to self-hosted customers
-- Build new major features that help answer the second- and third-stage level of questions about a codebase
+- First, build a robust Code Insights product offering that is configurable yet simple enough to answer many different engineering leaders' specific questions
+- Concurrently, continually track usage and feedback to grow the product in its most valuable directions
+- Then, be intentional with how we publicly launch Code Insights to make sure this story is immediately clear
+- Next, build towards a Cloud product offering after launching publicly to self-hosted customers
+- Eventually, build new major features that help answer the second- and third-stage level of questions about a codebase
 
 ### Vision
 
@@ -78,9 +78,9 @@ As Sourcegraph becomes an increasingly powerful developer tool, Code Insights wi
 
 - We won't add integrations just for the sake of integrations, without a validated need and use case
 
-### Code Insights is NOT for "tracking individual developers"
+### Code Insights is NOT for tracking individual developers
 
-Code Insights is not for trying to track an individual's output and whether or not someone is a "good" engineer or "high performing" employee. We believe it is low-signal to track metrics like like "number of commits" or "number of lines of code" an individual contributes.
+Code Insights is not for trying to track an individual's output and whether or not someone is a "good" engineer or high performing employee. We believe it is low-signal to track metrics like like number of commits or number of lines of code an individual contributes.
 
 **What this looks like:**
 
@@ -90,11 +90,11 @@ Code Insights is not for trying to track an individual's output and whether or n
 
 **What this does _not_ look like:**
 
-- We won't prevent the positive use cases of "individual tracking": if an individual wants to make a code insight demonstrating – for example – the spread of an API they built, they can
+- We won't prevent the positive use cases of individual tracking: if an individual wants to make a code insight demonstrating – for example – the spread of an API they built, they can
 
 ### Code Insights is an enterprise quality professional tool
 
-For Code Insights to be valuable, it must be precise, exact, and performant. When it comes to codebases, there's little value in a measurement tool that is "90%" correct, or "within +/- 5%": our users need exact answers to inform decisions and track goals successfully. Code Insights also has to be performant enough that one can use it to answer questions when the need arises – our users can't wait weeks for their data, nor can they "ration" use of Code Insights among a Sourcegraph instance.
+For Code Insights to be valuable, it must be precise, exact, and performant. When it comes to codebases, there's little value in a measurement tool that is 90% correct, or within +/- 5%: our users need exact answers to inform decisions and track goals successfully. Code Insights also has to be performant enough that one can use it to answer questions when the need arises – our users can't wait weeks for their data, nor can they "ration" use of Code Insights among a Sourcegraph instance.
 
 **What this looks like:**
 
@@ -103,11 +103,11 @@ For Code Insights to be valuable, it must be precise, exact, and performant. Whe
 
 **What this does _not_ look like:**
 
-- Not every Code Insights feature will be "instant" – our developer audience understands the complexity of the tool and forgives some amount of loading/processing time
+- Not every Code Insights feature will complete instantly – our developer audience understands the complexity of the tool and forgives some amount of loading/processing time
 
 ### Code Insights builds on top of Sourcegraph's other features
 
-Users do not need to learn a new query language or format to use Code Insights. Nor will Code Insights introduce features that function differently than those "same" features in other areas of the product, confusing users. Code Insights is built atop Sourcegraph Search and will build with Sourcegraph's other features rather than implement its own versions of any functionality.
+Users do not need to learn a new query language or format to use Code Insights. Nor will Code Insights introduce features that function differently than those same features in other areas of the product, confusing users. Code Insights is built atop Sourcegraph Search and will build with Sourcegraph's other features rather than implement its own versions of any functionality.
 
 **What this looks like:**
 
@@ -135,7 +135,7 @@ For what we have learned so far and how we are operationalizing those learnings,
 
 ### Competitive landscape
 
-While there are many devtool products that use some version of the word "Insights," and a handful of others that do "high level information about code," there are **no known direct competitors to Code Insights**.
+While there are many devtool products that use some version of the word "Insights," and a handful of others that do high level information about code, there are **no known direct competitors to Code Insights**.
 
 There are no other products that can efficiently and effectively provide the deep historical and realtime analysis that Code Insights can provide, largely because any product that wanted to compete with Sourcegraph Code Insights would first have to catch up to the product moat of Sourcegraph Search (which powers Code Insights), and then also build out a Code Insights-like product.
 
@@ -168,9 +168,9 @@ We will:
 
 - Continue abstracting complexity (example: views vs tables) unless necessary to expose it
 - Build new setup features to make it easier to track a variety of other use cases, like with regex capture groups
-- Explore what "quick set up" insights might be possible the first moment a customer uses insights
+- Explore what quick-to-set-up insights might be possible the first moment a customer uses insights
 
-#### "Tracking" Use Case Needs
+#### Tracking Use Case Needs
 
 A major use case for Code Insights is tracking migrations and similar efforts. There are a number of core features we've learned are valuable to users that we have yet to build.
 
@@ -182,13 +182,13 @@ We will:
 - Allow engineering leaders to export insights data to their preferred dashboards tools
 - Explore integrations with Code Monitoring
 
-#### "Exploration" Use Case Needs
+#### Exploration Use Case Needs
 
-We've learned a second major use case for Code Insights is "exploring" to discover areas of the codebase that need more attention or deviated from the standard. There are many "exploration" features that come heavily requested from users we also plan to develop.
+We've learned a second major use case for Code Insights is exploring, to discover areas of the codebase that need more attention or deviated from the standard. There are many exploration features that come heavily requested from users we also plan to develop.
 
 We will:
 
-- Explore new types of filters and "drilldowns"
+- Explore new types of filters and drilldowns
 - Build support for clicking into insights to see the code changes behind them
 
 #### Stability and Performance
