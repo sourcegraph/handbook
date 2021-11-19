@@ -1,5 +1,13 @@
 # Cloud Growth Goals and Roadmap
 
+## Team
+
+The cloud growth team is a rapidly evolving team, currently consisting of:
+
+* Stephen Guad (engineer)
+* Rob Rhyne (temporary product manager and product designer)
+* We're hiring a [full stack engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4145598004) and [product manager](https://boards.greenhouse.io/sourcegraph91/jobs/4068101004)!
+
 ## Goals
 
 ### 1. Improve Google SEO & indexing of API docs
