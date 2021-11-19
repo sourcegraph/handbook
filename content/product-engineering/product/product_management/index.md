@@ -75,6 +75,9 @@ Shared areas of ownership where both teams contribute are:
 
 Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../../communication/conflicts.md#clean-escalation) process to get to the best decision.
 
+### Product Management & CE/Sales
+Product partners closely with CE & Sales in the pre and post-sales processes, to ensure that we are building and deploying products that meet our prospective customer's technical requirements, and that we continue to build products that are most impactful for our customer's business. Product/Sales/CE track and report on the work for some of our [Key and Strategic customers through weekly updates](key_strategic_accounts.md). 
+
 ## Communications
 
 ### Feature roll-outs
