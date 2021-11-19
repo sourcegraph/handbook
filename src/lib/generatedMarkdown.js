@@ -254,7 +254,6 @@ export async function generateProductTeamsList() {
       }
     }
   }
-  console.log(pageContent)
   return pageContent
 }
 
