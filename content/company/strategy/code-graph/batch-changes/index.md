@@ -115,14 +115,6 @@ This quarter, our main goal is to iterate on the [Experimental](https://docs.sou
 - It will shift the setup burden from the user to the site-admin. Once site-admins have setup SSBC, any user can run a batch change from the GUI in a few clicks. That will unlock improvements to [Discovery, onboarding and onboarding](#discovery-configuration-and-onboarding) such as creating batch changes from a template directly from the GUI instead of having a "cold start". Creating a guided, self-serve onboarding is a prerequisite for [Cloud](#cloud).
 - It unlocks [key vision items](https://docs.google.com/document/d/1MnfaA9P7mtur7aQbMvy2x96_zy_IrOhY-MbGUo5I5wk/edit#heading=h.25ypvomeex1g) that will make using Sourcegraph an incredible experience and delight our customers, as well as [low time-to-value usage patterns](#adoption-through-low-time-to-value-usage-patterns).
 
-We will iterate as we learn, but our focus will be on:
-
-- SSBC reliably works at the scale of 1,000s of changesets.
-- Users get a great editing experience, including a few basic templates.
-- Users get a great debugging experience.
-- Admins are able to setup SSBC in a reasonable amount of time.
-- Admins can manage (monitor, view queue, etc) executors.
-
 ### Other priorities
 
 After SSBC, this is our ordered list of priorities:
