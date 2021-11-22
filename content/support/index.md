@@ -4,7 +4,7 @@
 
 Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. The team is comprised of application engineers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as by honoring our...
 
-### guiding principles:
+### Guiding principles:
 
 - Focusing on the impact we might have and aligning our decisions and actions to the impact we desire
 - Seeking/providing context so the why is clear
@@ -130,8 +130,9 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
-- [CS application engineer onboarding](customer-support-onboarding.md)
+- [Application engineer onboarding](customer-support-onboarding.md)
 - [Manager onboarding](customer-support-manager-onboarding.md)
+- [Career levels](cs-career-levels.md)
 - [Team README](bios/index.md)
 - [Team schedule](support-schedule.md)
 - [Organizational structure](support-org-structure.md)
@@ -141,7 +142,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Prioritization](support-prioritization.md)
 - [Customer exceptions](customer-exceptions.md)
 - [Engaging other teams](engaging-other-teams.md)
-- [Serving as messenger during incidents](../engineering/incidents/index.md)
+- [Serving as messenger during incidents](../product-engineering/engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
 - [Enablement](enablement/index.md)
 - [Tools](support-tools.md)
@@ -173,6 +174,15 @@ While Sourcegraph will strive to respond as soon as possible to every issue, we 
 | Severity 2 | Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.         | Within one business week of becoming aware of the issue | When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update. |
 
 We will work with the customer to schedule maintenance downtime at least 24 hours in advance, and will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
+
+#### For cloud saas customers:
+
+|            | Description                                                                                                                                | Response time                                           | Resolution time                                                                                              |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Severity 1 | Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment. | Within 24 hours of becoming aware of the issue          | Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.                |
+| Severity 2 | Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.         | Within one business week of becoming aware of the issue | When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update. |
+
+We will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
 
 #### For customers with custom support agreements:
 

@@ -2,7 +2,9 @@
 
 The following is available to help us honor our [ethos and guiding principles](../index.md) with ease and/or outgrow ourselves.
 
-## Foundation
+## Technical competency
+
+This table correlates to our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit#gid=0) and offers enablement materials meant to help folks reach sentiment level 3 for each area.
 
 | Competency                      | Crash course | Hands-on |
 | ------------------------------- | ------------ | -------- |
@@ -42,6 +44,7 @@ The following is available to help us honor our [ethos and guiding principles](.
 - [Search crash course: query lang](https://drive.google.com/file/d/1DOEKW279FbxipJCM6vDdKzly6epgNyyD/view?usp=sharing)
 - [How to fix a database corruption on a Kubernetes instance](https://drive.google.com/file/d/1NlAA6nKp4W_iKU9TWga1OtUje3Ua85n0/view?usp=sharing)
 - [How to deploy Sourcegraph locally with minikube](https://drive.google.com/file/d/1t4lFa6PwPkkXFiGVrS3ST-NnkH99OqOL/view?usp=sharing)
+- [Intro to Overlays](https://drive.google.com/file/d/1S82jOsrNu4zUegj5Fich9njcav80vLVd/view?usp=sharing)
 
 ## Informational Pages
 
