@@ -21,7 +21,7 @@ We are a [high agency](../company/values.md#high-agency) team. Be economical in 
 
 > _For example: If you are attending a conference and see that a cheaper hotel is a half hour away from your conference venue, but you will need to pay for the taxi to the venue which would ultimately make your cost the same, book a more convenient option!_
 
-Travel budgets are not transferable between types and are based on our [fiscal calendar](../finance/index.md#fiscal-year-2022)year. That means unused budget doesn’t roll over into the next year, but they will renew on February 1st each year.
+Travel budgets are not transferable between types and are based on our [fiscal calendar](../finance/index.md#fiscal-year-2022) year. That means unused budget doesn’t roll over into the next year, but they will renew on February 1st each year.
 
 > _For example:_
 >
