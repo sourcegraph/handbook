@@ -126,7 +126,6 @@ After SSBC, this is our ordered list of priorities:
 1. Iterate on [bulk actions](https://github.com/orgs/sourcegraph/projects/119?card_filter_query=label%3Abulk-action), to move it from a minimal experience to something that customers love. We lack bandwidth to make radical improvements, but we plan to ship small increments, as well as start tracking bulk action metrics ([#23882](https://github.com/sourcegraph/sourcegraph/issues/23882)).
 1. (Rolled over from Q3) We are planning to allow users to [Mount file on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851) after many customer requests.
 1. Handle permission errors more gracefully (likely with [#24999](https://github.com/sourcegraph/sourcegraph/issues/24999s) and maybe with [#24307](https://github.com/sourcegraph/sourcegraph/issues/24307)). As we onboard larger customers, including on SSBC, permission errors are increasingly frequent, causing large batch changes to fail after hours of execution.
-1. **Experiment:** We assume that if we provide low time-to-value entry points into the product, users will get into Batch Changes and some will become long-term users. This will increase the value batch change creates, and increase stickiness. We want to start testing this assumption as it may take several test and learn cycles to get to the final experience that works. We may timebox a small experiment like this if we are able to deliver on our other priorities.
 
 ## What we are not working on
 
