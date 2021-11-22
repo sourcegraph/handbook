@@ -211,7 +211,7 @@ There are three scenarios in which we would perform a Technical Deal Review:
 
 ### Technical Deal Review Process
 
-When a Technicl Deal Review is needed, the CE initiates this process by doing the following:
+When a Technical Deal Review is needed, the CE initiates this process by doing the following:
 
 1. Completes a peer review with another CE
 2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pro's or con's where applicable, and articulate specific asked of Product, Engineering, and Support.
