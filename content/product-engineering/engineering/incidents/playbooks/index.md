@@ -6,6 +6,23 @@ Many of these tips require kubectl usage - you can refer to the [deployment page
 
 Refer to the [CI incidents playbook](./ci.md)
 
+## Pausing a release
+
+In some incidents, we may learn that we need to pause a release.
+
+- The [incident lead](#incident-lead):
+  - Alerts @delivery-support, @cs, @ce so the teams can plan accordingly
+  - Handles the internal details of pausing a release (engaging the messenger to help with any relevant customer communication)
+- The [messenger](#messenger) alerts customers via a post on the status page
+
+## Go-to-market (license and subscription) issues
+
+If a customer is experiencing an issue related to their license key or subscription status, any member of the Sourcegraph team has authority to generate a new, valid license key for any customer for any number of users that is **valid for up to 7 days** in the [site-admin Subscriptions page on Sourcegraph.com](https://sourcegraph.com/site-admin/dotcom/product/subscriptions). This will prevent the initial incident responder from being bottlenecked on a member of the go-to-market team that can validate the customer's subscription status.
+
+The incident responder will need to select a Sourcegraph.com account to attach the subscription to (typically the account should belong to the customer, so they can access the license key directly from their user profile, but in an emergency, the incident responder can use their own account in lieu of asking the customer), and can then manually generate a license key. No license "tags" are necessary.
+
+If a customer's instance is reporting "license expired" already, note that [there is a 72hr grace period](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/internal/license/license.go#L43:15) before non-admin users are locked out.
+
 ## Figure out why a pod is in CrashLoopBackoff
 
 `CrashLoopBackoff` indicates that a service is repeatedly failing to start. Instead of using Google Cloud Console to check the logs, the best way to figure out why a pod is in this state is to use the following commands:
