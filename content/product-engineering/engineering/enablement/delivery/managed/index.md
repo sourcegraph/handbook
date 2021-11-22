@@ -19,6 +19,7 @@ Please first read [the customer-facing managed instance documentation](https://d
 ## Requesting a managed instance
 
 After [determining a managed instance is what a customer/prospect wants](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should:
+
 1. Submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo
 2. Add the issue to the "[Delivery](https://github.com/orgs/sourcegraph/projects/205/views/1)" board in GitHub (leave the status blank)
 3. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
