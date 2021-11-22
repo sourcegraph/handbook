@@ -9,17 +9,6 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-sky-blue.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">We're Hiring!</a></div>
-        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4089443004" target="_blank" rel="noopener">Product Manager</a></div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div>
           <a href="../../../../company/team/index.md#sara-lee-sheher" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
@@ -48,7 +37,6 @@ The extensibility team owns our code host and third-party integrations (includin
         </div>
         <div style="text-align: center;">Beatrix Woo</div>
         <div style="text-align: center; font-size: 12px;">Software Engineer</div>
-        <div style="text-align: center; font-size: 12px;">(starting 15/11)</div>
       </div>
     </div>
     <div class="col" style="flex: 1;">
@@ -76,12 +64,11 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
-          </a>
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
         </div>
-        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">We're Hiring!</a></div>
-        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91/jobs/4013126004" target="_blank" rel="noopener">Software Engineer</a></div>
+        <div style="text-align: center;">P.S.</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+        <div style="text-align: center; font-size: 12px;">(starting 01/10)</div>
       </div>
     </div>
   </div>
