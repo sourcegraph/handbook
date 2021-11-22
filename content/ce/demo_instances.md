@@ -26,4 +26,4 @@ Currently (as of March 2021) we have 3 different Sourcegraph instances that we u
 
 We will get demo.sourcegraph.com up to full feature parity with the other instances in order to allow CEs to use that sole instance for all product demos.
 
-The next step is to get example repos for each of the demos and demo flows written for each one.
+The next step is to get example repos for each of the demos and demo flows written for each one. WIP demo repo instructions [here](demo-repo-contribution.md).
