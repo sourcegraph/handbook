@@ -14,4 +14,4 @@ We track success metrics in a (private) [Looker dashboard](https://sourcegraph.l
 
 - **Sourcegraph Batch Changes Property:** TBD
 - **Batch Changes MAU:** A [visitor](../../../../bizops/user_definitions.md#visitor) who triggers any GUI event happening on a Sourcegraph Batch Changes page in a given month. We do not yet track CLI events.
-- **Batch Changes monthly contributor:** An [active user](../../../../bizops/user_definitions.md#active-user) that has previewed, applied, or closed a batch change in a given month. New actions that are added in the future, such as [comment, merge, publish](https://sourcegraph.productboard.com/roadmap/2263724-batch-changes-releases/features/6775792/portal).
+- **Batch Changes monthly contributor:** A [registered user](../../../../bizops/user_definitions.md#registered-user) that has previewed, applied, or closed a batch change in a given month. New actions that are added in the future, such as [comment, merge, publish](https://sourcegraph.productboard.com/roadmap/2263724-batch-changes-releases/features/6775792/portal).
