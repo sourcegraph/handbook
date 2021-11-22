@@ -175,6 +175,15 @@ While Sourcegraph will strive to respond as soon as possible to every issue, we 
 
 We will work with the customer to schedule maintenance downtime at least 24 hours in advance, and will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
 
+#### For cloud saas customers:
+
+|            | Description                                                                                                                                | Response time                                           | Resolution time                                                                                              |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Severity 1 | Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment. | Within 24 hours of becoming aware of the issue          | Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.                |
+| Severity 2 | Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.         | Within one business week of becoming aware of the issue | When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update. |
+
+We will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
+
 #### For customers with custom support agreements:
 
 Enterprise Plus and Elite customers should refer to their contracts if they have custom service-level agreements.
