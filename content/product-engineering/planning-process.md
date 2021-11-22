@@ -68,27 +68,12 @@ There are a few ways we track plans and celebrate progress at Sourcegraph.
 
 ### GitHub project tracker
 
-The [GitHub project tracker](https://github.com/orgs/sourcegraph/projects/214) is **the source of truth** for key results in product and engineering. There are a few tabs.
+The [GitHub project tracker](https://github.com/orgs/sourcegraph/projects/214) is **the source of truth** for key results in product and engineering.
+
+There are a few tabs:
 
 - The **Department KRs** tab tracks the top level product and engineering key results that the VPs and Directors review every week at the [VP team sync](#vp-team-sync). Updates are tracked and communicated in the [OKR slides](#okr-slides).
 - The **Org KRs** tab tracks all the org level key results. VPs and Directors review this monthly, or as-needed when something is escalated by a Director.
-
-  - For each KR, the assignee is responsible for posting an update to the issue at the end of each week. The update should include:
-
-    ```markdown
-    # Wins
-
-    <!-- What outcomes have we accomplished since the last update? -->
-
-    # Risks
-
-    <!-- What might prevent us from making the progress we want to make? -->
-
-    # Next steps
-
-    <!-- What are the next outcomes that the team is working toward? -->
-    ```
-
 - The **Team Deliverables** tab tracks the next big roadmap items that each team is delivering in service of their KRs.
   - When teams are in the state where they have a clear KR, but don't yet have a clear roadmap to achieving that KR, the KR is included in this view. Once a roadmap item added, the KR is removed.
   - Teams should include any big current and future roadmap items that the team has line of sight to.
@@ -122,7 +107,7 @@ Slides:
 
 These are due each Friday by 19:00 UTC.
 
-- Owners update their sections and connected issues in the [GitHub project tracker](#github-project-tracker)
+- Teams ensure that the [GitHub project tracker](#github-project-tracker) and connected issues are up-to-date.
 - Directors update the [OKR slides](#okr-slides)
 
 ### Monthly team updates
