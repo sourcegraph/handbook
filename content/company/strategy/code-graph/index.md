@@ -43,8 +43,6 @@ We have more and more large customers dealing with a lot of code and complexity 
 
 ## Principles
 
-### General principles
-
 Code Graph should be:
 
 - 🌍 **Universal**: We believe code search should be universal–meaning it should make the entire universe of available code searchable, and that it should be available universally–to every developer, regardless of skill level.
