@@ -25,7 +25,7 @@ Developers can easily run code to create changesets across many repositories and
 
 ### Mission
 
-We allow developers to focus on changing their code, without having to do any plumbing (building scripts to interact with codehosts and integrate with other tools and workflow). We help them drive changesets to completion without having to rely on spreadsheets and painful coordination, as these steps are painful and time consuming, which encourages keeping old code around. We do this because we think developer's time is better spent shipping products than building plumbing and doing project management, and because having a frictionless way to make code changes will encourage all developers to keep the codebase quality high over time.
+We allow developers to focus on changing their code, without having to do any plumbing (building scripts to interact with codehosts and integrate with other tools and workflow). We help them drive changesets to completion without having to rely on spreadsheets and heavy project management, as these steps are painful and time consuming, which encourages keeping old code around. We do this because we think developer's time is better spent shipping products than building plumbing and doing project management, and because having a frictionless way to make code changes will encourage all developers to keep the codebase quality high over time.
 
 ### Strategy
 
@@ -79,24 +79,6 @@ We have heard from customers that tracking and managing changesets created _outs
 We also think we can deliver our vision by offering a way to change code across repositories, without writing code, and directly from the Sourcegraph navigation UI.
 
 We plan to drive usage (MAUs) by implementing low time-to-value, high-frequency use cases.
-
-### Cloud
-
-We plan to achieve feature parity on Sourcegraph Cloud, including Batch Changes. There are two prerequisites for Batch Changes on Sourcegraph Cloud to be successful:
-
-- Reducing time to value. Sourcegraph Cloud's user base will be primarily individual and commercial customers, at least at the beginning. Today, the value of Batch Changes increases exponentially with the size of a customer's codebase and team. Most customers with a smaller team and codebase do not face a big enough pain to invest the time and effort required to adopt Batch Changes in its present state. To be successful on Sourcegraph Cloud we need to make the time to value of Batch Changes shorter and drive [Adoption through low time-to-value usage patterns](#adoption-through-low-time-to-value-usage-patterns).
-- Improving [Discovery, configuration and onboarding](#discovery-configuration-and-onboarding).
-
-### Automate common code changes
-
-The most frequent question that our customers ask when onboarding Batch Changes is "how do I write code to change x". Writing code to change code is not trivial, and although there are existing tools, most of them fall short either in usability or in expressivity. Having a way to find or write code that automates the change they want is the first critical step in our customer's job to be done, and is a prerequisite for automation.
-By solving that problem, we will:
-
-- Solve for our customer's job to be done (JTBD) end to end.
-- Position ourselves to address competition specialized in one use case or language.
-- Create defensibility by allowing users to share their code in a registry.
-
-This last step is on the critical path for achieving our 10-year vision, but might not be necessary to achieve our 3-year vision.
 
 ## Where we are now
 
