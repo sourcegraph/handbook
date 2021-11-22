@@ -29,20 +29,20 @@ When you first start in support, the list of tools to set-up can feel like a lot
 
 ## sourcegraph.com admin access
 
-In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Adeola, Beatrix, Giselle, Stompy, and Warren. One of them can help!
+In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Giselle, Stompy, and/or Warren. One of them can help!
 
 ## Managed instance access
 
-In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](./support-managed-instances.md) (you can find which customers have a managed instance [here](./customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and Mariam. One of them can help! If it's a p1 issue and none of them are available, simply request the logs in the #delivery Slack channel from the Delivery team.
+In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](./support-managed-instances.md) (you can find which customers have a managed instance [here](./customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and/or Mariam. One of them can help! If it's a p1 issue and none of them are available, simply request the logs in the #delivery Slack channel from the Delivery team.
 
 Read more about working with managed instances [here](./support-managed-instances.md).
 
 ## Test Environments
 
-There are some test environments created specifically for the Customer Support Engineers to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
+There are some test environments created specifically for the CS team to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
 
-- [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](managing-cse-aws.md))
-- [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](managing-cse-k8s.md))
+- [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](managing-cs-aws.md))
+- [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](managing-cs-k8s.md))
 - [Single Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
 - [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
 - [GitHub Enterprise test instance ](https://ghe.sgdev.org/)
@@ -58,7 +58,7 @@ There are some test environments created specifically for the Customer Support E
 
 ### GitHub Repository for Support Tools
 
-The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the Customer Support Engineers that provide values when supporting our customers. This repository is private and you are welcome to add your projects to this repository, but please speak to Virginia about your ideas and plans before development starts to aviod possible conflicts.
+The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the CS team that provide values when supporting our customers. This repository is private and you are welcome to add your projects to this repository, but please speak to Virginia about your ideas and plans before development starts to aviod possible conflicts.
 
 > NOTE: Please aviod working directly on main branch.
 
@@ -80,7 +80,7 @@ Enter your Sourcegraph.com access token and click "Submit".
 
 ### Sourcegraph Debugging Sheet (WIP)
 
-[Sourcegraph Debugging Sheet](debugging-cheat-sheet.md) is a cheatsheet designed to streamline the troubleshooting process by allowing CSE's to search for common topics discussed with our customers and first steps at troubleshoot them.
+[Sourcegraph Debugging Sheet](debugging-cheat-sheet.md) is a cheatsheet designed to streamline the troubleshooting process by allowing the CS team to search for common topics discussed with our customers and first steps at troubleshoot them.
 
 #### How to use:
 
@@ -103,13 +103,11 @@ This section captures our Zendesk protocol and configuration decisions.
 
 ### Access
 
-- CSEs have agent access
+- Application engineers have agent access
 - Virginia, Brielle, Nonso, Tamar, and Tech Ops have admin access
 - Only Virginia can modify billing related items
-- We have an admin level service account CSEs can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #customer-support-internal Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
-- The rest of the company will have visibility in a few ways (all of these items will be configured in 2021-03):
-  - All new Zendesk tickets are linked to the #customer-support-issues-feed Slack channel
-  - All Zendesk tickets (and the entire comment history) manifest in Salesforce on the customer's record (this needs to be implemented)
+- We have an admin level service account application engineers can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #customer-support-internal Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
+- Tickets are also rendered via an iFrame in Salesforce for CE and sales access.
 
 ### Web vs desktop vs mobile app
 
@@ -145,9 +143,11 @@ When you close a ticket, these are the required fields you must populate:
 
 - **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to our OKRs to improve our docs.
 - **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion.
+- **Have you written a case summary?** Holds the team accountable for populating the [resolved case database](enablement/zendesk-ticket-exporter.md)
+- **Have you uploaded the summary to the GitHub repository?** Holds the team accountable for populating the [resolved case database](enablement/zendesk-ticket-exporter.md)
 - **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 - **Official type:** Designates whether this is a question, defect report, or help request
-- **Official priority:** Designates whether the priority is p0, p1, or p2 per our definitions outlined in our [prioritization guidelines](support-prioritization.md).
+- **Official priority:** Designates whether the priority is p1 or p2 per our definitions outlined in our [prioritization guidelines](support-prioritization.md).
 - **Engineering team:** Designates which engineering team is responsible for the part of the product or feature associated with the ticket (think, if I got help/needed help which engineering team did I go to/would have gone to?)
 
 ### Why there are duplicate ticket data fields
@@ -182,8 +182,8 @@ We have a few automations set-up to streamline our workflow:
 
 - When you reply to a ticket, it auto-assigns to you, so you don't have to worry about remembering to click "take it" to assign it to yourself
 - The signature is built-in and is your name followed by Sourcegraph Support in the second line
-- When triage sets the requestor and they are part of an organization where we have an assigned CSE, the CSE is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](./customer-exceptions.md).
-- Per our [customer exceptions page](./customer-exceptions.md), we have a few customers who have access to Zendesk and they can close their own tickets. When this happens, they are able to bypass the required fields where we gather data. To ensure proper data collection, we have an email notification that is sent to the CSE responsible for the ticket that the customer has closed the ticket and to please go back to it and fill in the required data fields.
+- When triage sets the requestor and they are part of an organization where we have an assigned application engineer, the application engineer is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](./customer-exceptions.md).
+- Per our [customer exceptions page](./customer-exceptions.md), we have a few customers who have access to Zendesk and they can close their own tickets. When this happens, they are able to bypass the required fields where we gather data. To ensure proper data collection, we have an email notification that is sent to the application engineer responsible for the ticket that the customer has closed the ticket and to please go back to it and fill in the required data fields.
 
 ### Apps
 

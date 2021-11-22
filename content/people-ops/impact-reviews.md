@@ -30,7 +30,7 @@ _In these review cycles, you will be asked to give and receive the following rev
 
 ### Timing:
 
-Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year. Unfortunately, Lattice only supports Pacific Time, and not our company standard of UTC. As such, the review cycle completes at 12:00pm midnight PT on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
+Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year. As our company standard, our review cycles run on UTC. The review cycle completes at 12:00pm midnight UTC on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
 
 We expect that all teammates will carve out time to put thought into writing out their reviews, and writing the reviews of their peers. We encourage all reviewers to designate around 30 minutes per review on their calendars as a calendar block called: “Writing peer reviews - do not book.” We encourage all teammates during this time to respect those review calendar blocks.
 
@@ -67,12 +67,16 @@ To help get you started, we will be hosting an interactive Sourcegraph Fundament
 
 After you’ve moved through each of your three [Onboarding Feedback Milestones](./onboarding/onboarding-feedback-milestones.md) and you arrive at month six of your Sourcegraph journey, you will use your Sourcegraph login for [Lattice](https://lattice.com/) to conduct your 360 Impact review cycles! You will receive an email when your review cycle is set to begin prompting you to nominate your peer reviewers.
 
+Timeline of stages:
+
+-**Peer selection:** 5 business days -**Self, peer, and upwards reviews:** 7 business days -**Manager reviews:** 5 business days, then manager will release feedback packet to you -**Meet with manager to discuss feedback packet:** after your cycle concludes
+
 The 360 Impact review process covers a few key types of feedback as mentioned above:
 
-- **Self-review:** you will review yourself (during duration of review)
-- **Peer review**: 2-3 stakeholders will review you (2 business days)
-- **Upwards review:** you will review your manager (during duration of review)
-- **Manager review:** your manager will review you (5 business days)
+- **Self-review:** you will review yourself
+- **Peer review**: 2-3 stakeholders will review you
+- **Upwards review:** you will review your manager
+- **Manager review:** your manager will review you
 
 _Best practice tip: We recognize that to make an impact, you must first develop goals that drive specific outcomes. Engaging in quarterly goal setting in tandem with your Impact reviews will give each teammate direction, certainty, and velocity in prioritizing their goals. If you’d like to create quarterly goals to align with your manager on, use our series of templates in our [Goal setting folder](https://drive.google.com/drive/folders/1EA0uJ5eroG8NMKtv315c5aumFNB1K7AD)._
 
@@ -82,13 +86,14 @@ These cycles will run concurrently with your [Onboarding Feedback Milestones](./
 
 ### Selecting a peer reviewer
 
-**Teammates**: All teammates will select 2-3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers.
+**Teammates**: All teammates will select 2-3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers. If you'd like to increase your number of reviewers, reach out to #impact-reviews on Slack with your reviewer name and who you'd like to add to your roster.
 
 When you choose these 2-3 reviewers, you should consider:
 
 - Which peers can speak directly to my growth opportunities? Have I had a difficult conversation with someone and would like to include them as a reviewer to obtain constructive feedback?
 - Who have I collaborated with recently who has had a direct line of vision into my work? Have we worked together recently on a project? You are encouraged to choose reviewers who have insight into your recent work, rather than people you simply talk to often at Sourcegraph.
 - Include one reviewer whose review you’re scared to read! This is a best practice and will broaden your perspective and build self-awareness.
+- All peer reviewers should have been at Sourcegraph for at least two months before you ask them to review you.
 
 _Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
 
@@ -104,13 +109,13 @@ _As a note_: For any managers who have inherited a new direct report and are not
 
 ### Submitting feedback as a manager
 
-**Managers**: You will be able to review all peer feedback given to each of your direct reports during the review cycle before writing your manager review and summary remarks. Once all of your reviews are submitted, you will be prompted to share the completed review packets with your direct report and we encourage you to set up a time to discuss the packet during your next 1:1. In the spirit of transparency, when you share your packet with your direct report they will be able to see all peer feedback and manager feedback - everyone included in the review process will be able to see each part of the review.
+**Managers**: You will be able to review all peer feedback given to each of your direct reports during the review cycle before writing your manager review and summary remarks. Once all of your reviews are submitted, you will be prompted to share the completed review packets with your direct report and we encourage you to set up a time to discuss the packet during your next 1:1. When you share your packet with your direct report they will be able to see all peer feedback names associated with their feedback, as well as your own manager feedback. Direct reports are unable to see any reviews their own managers might get. The idea is, you can see feedback downwards, but not upwards, to protect psychological safety.
 
 **Teammates**: After the two-week review cycle period ends, the review cycle will automatically close. Upon completion, you will receive a summary of your reviews from your manager and peers.
 
 Note on completing the cycles in the given windows: We encourage you to make every effort to complete reviews that are assigned to you during these two weeks, as extending individual cycles can be an arduous administrative process, and we’d like each teammate to receive their feedback sooner than later.
 
-### Informal Impact review cycles
+### Informal Impact review cycles (in use until February 2022)
 
 As we move into a new cadence of 360 Impact review cycles, you may find that the timeline for your review may have just recently passed, or that your next review is too far in the future, leaving you without helpful feedback that you could easily apply to make small changes to the way you work. Consider the option of including an informal Impact review as a pulse check for learning: how you are showing up in your working relationships, where you are driving impact for your team, and obtaining more self-awareness of your working style.
 
@@ -130,7 +135,9 @@ After you have documented your informal Impact review, this process will be comp
 
 You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
 
-_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence. Our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by this point. _
+\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
+
+Additionally, our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by that point in time. We will keep the templates live for you to seek feedback inbetween future cycles.
 
 ## How to use Lattice
 
@@ -143,15 +150,13 @@ Log into Lattice using your Sourcegraph Google authenticator. You will be prompt
 
 ### Writing your reviews using the SBI framework
 
-We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you will automatically counteract some of the neurological responses activated by the limbic system when giving feedback.
+We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you can counteract some of the stress-inducing responses activated by the limbic system or _your threat zone_. Feedback helps us _continuously grow_ and it's important to live that value by being specific and actionable in your feedback. The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
 Situation: the where and when (_shaping the context of the feedback_)
 
 Behavior: the observable action (_what you observed directly, not your interpretation_)
 
 Impact: the so-what (_effect on emotion and work_)
-
-The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
 
 In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](../company/values.md#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
 

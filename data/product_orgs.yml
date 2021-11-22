@@ -1,11 +1,19 @@
+# yaml-language-server: $schema=../schema/product_orgs.schema.json
+
 code_graph:
-  title: 'Code Graph'
-  strategy_link: '/company/strategy/code-graph/index.md'
+  title: Code Graph
+  strategy_link: /company/strategy/code-graph/index.md
+  pm: jason_yavorska
+  em: yink_teo
 
 cloud:
-  title: 'Cloud'
-  strategy_link: '/company/strategy/index.md#cloud'
+  title: Cloud
+  strategy_link: /company/strategy/index.md#cloud
+  pm: anna_mikhova
+  em: bill_creager
 
 enablement:
-  title: 'Enablement'
-  strategy_link: '/company/strategy/enablement/index.md'
+  title: Enablement
+  strategy_link: /company/strategy/enablement/index.md
+  pm: serina_clark
+  em: jean_du_plessis

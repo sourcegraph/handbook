@@ -6,7 +6,7 @@ The CE team should take the first pass on inbound questionnaires using the [list
 
 Once the first pass is done, sign up for a security questionnaire review in [this signup sheet](https://docs.google.com/document/d/1Q6J8ZwPYDX-jJ0YU2l2CWXX3qboKD2XTbIeg5Q-NBAk/edit#).
 
-For expedited reviews, contact [Dan Mckean](../company/team/index.md#dan-mckean-he-him).
+For expedited reviews, contact [Dan Mckean](../company/team/index.md#dan-mckean).
 
 > 💡 **Top Tip!** Add a search engine to Chrome to specifically search the folder of reference questionnaires.
 >
@@ -18,4 +18,4 @@ For expedited reviews, contact [Dan Mckean](../company/team/index.md#dan-mckean-
 
 ### Customer security questions
 
-If customers have specific security questions, first run them by the #ce slack channel. If nobody has context, or we're unsure of how to phrase things, follow the [guidance here](../engineering/cloud/security/process.md#how-to-work-with-us) to engage with the Security team.
+If customers have specific security questions, first run them by the #ce slack channel. If nobody has context, or we're unsure of how to phrase things, follow the [guidance here](../product-engineering/engineering/cloud/security/process.md#how-to-work-with-us) to engage with the Security team.

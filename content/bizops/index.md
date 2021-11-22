@@ -11,12 +11,13 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Members
 
-- [Dan Adler](../company/team/index.md#dan-adler-he-him), VP Operations
+- [Dan Adler](../company/team/index.md#dan-adler), VP Operations
 - [Eric Brody-Moore](../company/team/index.md#eric-brody-moore), Business Operations Manager
 - [Farhan Attamimi](../company/team/index.md#farhan-attamimi), Senior Data Operations Analyst
-- [Steph Hay](../company/team/index.md#steph-hay-she-her), Senior Business Operations Analyst
-- [Kelsey Brown](../company/team/index.md#kelsey-brown-she-her), Senior Business Operations Analyst
+- [Steph Hay](../company/team/index.md#steph-hay), Senior Business Operations Analyst
+- [Kelsey Brown](../company/team/index.md#kelsey-brown), Senior Business Operations Analyst
 - **Hiring**: [Director of Data and Analytics](https://boards.greenhouse.io/sourcegraph91/jobs/4084968004)
+- **Hiring**: [Data Analyst](https://boards.greenhouse.io/sourcegraph91/jobs/4155296004)
 
 ## Resources
 
@@ -25,18 +26,26 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [CustomerOps Tools Overview](customer_ops_tools.md)
 - [Amplitude overview](amplitude.md)
 - [A/B testing](ab-testing.md)
-- [Guide to user journey mapping](../product/user_journey_maps.md)
+- [Guide to user journey mapping](../product-engineering/product/user_journey_maps.md)
+- [Guide to product-led growth](product_led_growth.md)
+- [Customer data policy](customer_data_policy.md)
 
 ## Goals
 
-See the [Operations OKRs](../company/goals/2022_q3.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the six OKRs specific to the BizOps team:
+See the [Operations OKRs](../company/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
 
-- KR: Enable the product team to self-serve on a majority of ad hoc analytical requests
-- KR: 2x cloud weekly activation rate to N7
-- KR: 2x cloud weekly retention rate to N8
-- KR: Maximize ROI on marketing spend
-- KR: We have mapped the Sourcegraph user journey and the SDR, Marketing, and/or Product teams are using 1+ recommendations for messaging, outreach, or user actions - that are correlated with converting free users to sales opportunities
-- KR: Sales reps are using the new pricing model and report that it is helping to speed up or otherwise improve negotiations
+- **KR:** Complete a migration off of BigQuery for ETLs (to dbt, Airflow, or similar)
+- **KR:** Every product team, go-to-market team and company-wide has at least one automated KPI dashboard sent into Slack
+- **KR:** Build a scalable marketing data infrastructure to support ROI analysis (and specifically, have a system in place for tracking multi-touch attribution of leads)
+- **KR:** Every L2 and above product or feature release and update is measured as successful or not, beyond just being delivered on time
+- **KR:** TBD: Institute a cleaner, more thoughtful data architecture with documentation
+- **KR:** TBD: Working on getting sales insights and recommendations scoped so we list specific things to be delivered
+
+**Note:** TBD KRs are not fully scoped and therefore intentionally vague, but are on this list because it's something we will likely spend time on in Q4
+
+### Goals roadmap
+
+We also work on projects outside of our specific key results that fall within overall themes of our OKRs (Upgrade systems and automate processes, Proactively help the business make better decisions, Build an operational foundation to prepare for Sourcegraph Cloud). The full list of non-ad-hoc projects and timelines can be found on the [BizOps roadmap](https://docs.google.com/spreadsheets/d/1xowFAuRQfQTnJ6ntoznVFE-MjtIwAzsLK_9asoIyGis/edit#gid=0).
 
 ## How to work with us
 

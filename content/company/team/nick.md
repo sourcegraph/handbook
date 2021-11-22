@@ -1,6 +1,6 @@
 # Nick Snyder
 
-[Bio on team page](index.md#nick-snyder-he-him)
+[Bio on team page](index.md#nick-snyder)
 
 ## 1-1s
 

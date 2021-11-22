@@ -203,14 +203,13 @@ In addition to the above interviews, some departments have department-specific i
 
 ## Customer Support
 
-- Customer Support Manager
-  - Direct Report Interview
-  - During this stage of the interview process, we will get an understanding of your leadership capabilities
-  - Example questions:
-  - Tell us about how you created trust with your last team
-  - Tell us what you do when someone makes a mistake
-  - Technical Savvy Interview
-  - During this stage of the interview process, we will discuss our product, customers, and technology and determine if you will be effective in a technology leadership role.
+### Collaboration and communication skills
+
+Similar to the general peer interview (you will talk to a member of the support team), but with a specific focus. The purpose of this conversation is to get a sense of how they approach collaboration and communication. We look for someone who can collaborate equally well with customers (software engineers) and teammates in any role (from sales to product), is able to modify collaboration and communication methods depending on who they are working with/talking to, and who is adept at communicating about complex things in a way that is easy to understand.
+
+### Technical knowledge and troubleshooting skills
+
+Similar to the general peer interview (you will talk to a member of the support team), but with a specific focus. The purpose of this conversation is to get a sense of how they approach technical troubleshooting. We look for someone who is very curious, more of a problem solver than a builder, who can truly hit the ground running, and once onboarded requires very little assistance from engineering.
 
 ## Customer Engineering (IC)
 
@@ -345,7 +344,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 ### Assignments
 
-- See more about coding exercises [here](../engineering/hiring/software-engineer-coding-exercise.md)
+- See more about coding exercises [here](../product-engineering/engineering/hiring/software-engineer-coding-exercise.md)
 
 ### Technical Interview: General
 
@@ -440,6 +439,19 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 - Feel free to reach out to Andy with any questions.
 
+- Senior Customer Marketing Manager working session
+- Duration: 60-minutes.
+- The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals.
+
+  - Part 1: Driving engagement with our Customer Advisory Board members
+    The first part of the meeting will be with Andy Schumeister (Director of Product Marketing), Victoria Yunger (Product Marketing Lead, Enterprise), and Alex Isken (Product Marketing Manager, Cloud).
+  - First, you’ll share your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
+  - Then, we’d like to hear your ideas for how we can drive engagement with our Customer Advisory Board members in-between meetings in order to provide even more value for members.
+  - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're also looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation. You’ll also have an opportunity to ask the team questions during this portion.
+
+  - Part 2: Setting you up for success
+  - Then, you’ll meet 1:1 with Andy where you’ll have a chance to discuss the role and share what you need to be successful: tools, resources/special budget for anything, specific commitments from other teams, anything from Andy, etc.)
+
 ## People Operations
 
 - Senior People Partner working session
@@ -458,13 +470,13 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Working session
 
-  - Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney-she-her), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
+  - Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
   - Duration: 1 hour
   - Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time.We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
 
 - Meet your team
 
-  - Interviewer(s): Depending on the org, 2-3 [Product Managers](../product/index.md#product).
+  - Interviewer(s): Depending on the org, 2-3 [Product Managers](../product-engineering/product/index.md#product).
   - Duration: 45 min
   - Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
 
@@ -477,35 +489,35 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Design collaboration
 
-  - Interviewer: [Product designer](../product/product_org.md)
+  - Interviewer: [Product designer](../product-engineering/product/product_org.md)
   - Duration: 30 mins
   - Details: In this interview, you will meet with one of the Product Designers to discuss how you've worked with Design and other cross funcitonal teams in the past. We will ask questions about your philsophy on technical writing and documentation and how you lead and evalgelize your ideas throughout an organization. We're looking for how you prioriize and productize documentation, and how you would go about doing so in our handbook-first company.
 
 - Engineering collaboration
 
-  - Interviewer: [Engineering manager](../engineering/eng_org.md#planned-organization)
+  - Interviewer: [Engineering manager](../product-engineering/engineering/eng_org.md#planned-organization)
   - Duration: 30 mins
   - Details: In this interview, you will meet with one of the Engineering managers to discuss how you've worked closely with Engineering and other cross funcitonal teams in the past to build the best technical documentation. We have a unique opportunity to create an interesting integrated docs experience with our product. We'd like to discuss that vision and how you would be able to help us achieve this vision.
 
 - Marketing collaboration
 
-  - Interviewer: [Marketing team member](../company/team/org_chart.md#sts=Marketing)
+  - Interviewer: [Marketing team member](../company/team/org_chart.md#marketing)
   - Duration: 30 mins
   - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 
 - Customer support collaboration
-  - Interviewer: [Virginia Ulrich](../support/team-readmes/virginia-readme.md), Head of CS
+  - Interviewer: [Virginia Ulrich](../support/bios/virginia-readme.md), Head of CS
   - Duration: 30 mins
   - Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross funcitonal teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
 
 **Product manager**
 
-- Async writing project [(RFC Project)](../product/roles/interviews/product_manager/pm_rfc_project.md)
+- Async writing project [(RFC Project)](../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
 
-  - Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](../product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+  - Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
   - Duration: ~1 hour
-  - Details: This is a take home writing assignment to see how you communicate and think about product problems. Below is the prompt on the project. [Here's how we will measure the project](../product/roles/interviews/product_manager/pm_rfc_project.md):
-  - Please write a Request for comments (RFC) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/product area.
+  - Details: This is a take home writing assignment to see how you communicate and think about product problems. Below is the prompt on the project. [Here's how we will measure the project](../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md):
+  - Please write a Request for comments (RFC) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/team.
   - It should have our standard RFC structure from the handbook, or see the RFC template: Background, Problem, Proposed solution, and Definition of success. However, our handbook states that the precise format is not as important as the content itself, so feel free to improve upon this format as necessary.
   - Aim for about one page of writing (don’t go over two pages) with standard styling. This is long enough to give us the signal we want, while at the same time is short enough that you don’t experience “writer’s block” and can write it in one sitting. We expect this to take you ~1 hour.
   - What’s important is that the writing is clear and easy to understand. It should show us that you care about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way.
@@ -513,7 +525,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Product interview
 
-  - Interviewer(s): [Product Manager and a Product Designer](../product/index.md) who were not the reviewers of the RFC.
+  - Interviewer(s): [Product Manager and a Product Designer](../product-engineering/product/index.md) who were not the reviewers of the RFC.
   - Duration: 1 hour
   - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will have about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -526,14 +538,14 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Portfolio review
 
-  - Interviewer(s): [Two Product Designers](../product/index.md).
+  - Interviewer(s): [Two Product Designers](../product-engineering/product/index.md).
   - Duration: 1 hour
-  - Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../product/roles/interviews/product_designer/pd_portfolio_review.md).
+  - Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../product-engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
 
 - Design exercise
-  - Interviewer(s): [Product Manager, Product Designers](../product/index.md), and a Frontend engineer.
+  - Interviewer(s): [Product Manager, Product Designers](../product-engineering/product/index.md), and a Frontend engineer.
   - Duration: 2 hours
-  - Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../product/roles/interviews/product_designer/pd_design_exercise.md).
+  - Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../product-engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
   - The interview is in 2 parts. Below is the prompt:
   - Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
   - Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
@@ -554,6 +566,20 @@ Read more about our sales interview processes [here](../sales/interviews/index.m
 - Step 3: Create a “cold call” email to the person identified in step 2. Your goal is to secure a meeting with our team.
 - Step 4: Submit your assignment within 24 hours by clicking “reply all” to this email.
 - What to include in your assignment submission: Email Subject Line, Email Body & Explanation of your process: 1) Why did you choose this company? 2) Who are you targeting? (Insert Linkedin Profile link). Why did you choose this person? 3) Explain your approach. Why did you choose to craft the email this way?
+
+#### SDR mock cold call
+
+As part of the interview process we would like to do a 'mock cold-call'. Don't worry! We are not expecting you to be an expert (you will be after joining us, that's the fun part).
+
+The important part is diving right in and having fun. At the end we will ask you how you think it went and provide some feedback as well. For who you are calling: feel free to select anyone, a good suggestion would be the prospect you wrote your cold email to (most people do this).
+
+For structure:
+
+- Permission based opener- get permission to continue the call
+- Problem Statement- pique curiosity
+- Closing- ask for the meeting
+
+A great resource on structure (including some great walkthrough videos) from [Belal Batrawy](https://www.linkedin.com/in/belbatrawy/) are on [this doc](https://docs.google.com/document/d/1Zwe8VXXr2bazlHGLtR6zv_I0bxq-WPX5E_Go4DcCVKE/edit).
 
 ### **Enterprise Account Executive**
 

@@ -47,7 +47,7 @@ Candidates are welcome to re-apply for roles at any time. The talent team will r
 
 ### Early-career Engineering Hiring
 
-Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../engineering/hiring/early-career-engineers.md)
+Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../product-engineering/engineering/hiring/early-career-engineers.md)
 
 # Interviewing at Sourcegraph
 
@@ -87,7 +87,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 - [Strategy](../company/strategy/index.md).
 - [Asynchronous communication at Sourcegraph](../company/asynchronous-communication.md)
 
-# Candidate FAQ
+# Candidate FAQs
 
 - Q: How is Sourcegraph doing from a financial standpoint?
 
@@ -118,3 +118,18 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 - Q: Do you provide Visa sponsorship?
 
   - A: You can learn more about our Visa policy [here](../people-ops/how-we-engage-talent-outside-the-us/index.md#work-visas). If you have any questions, please email recruiting@sourcegraph.com.
+
+# Offer Letter FAQs
+
+- Q: If I create or work on a personal project or invention outside working hours, will Sourcegraph own those under the contract?
+
+  - A: Sourcegraph will not own your personal projects or inventions made outside your working hours unless those projects or inventions are made in connection with, relate to, or result from Sourcegraph’s business or the work you perform for Sourcegraph. Please review the applicable IP Matters section of your agreement.
+
+- Q: In the List of Prior Inventions and Original Works of Authorship exhibit, do I have to list everything I’ve been working on or plan to work on (including side projects, startups), or just projects related to Sourcegraph’s business?
+  - A: If there's overlap between your projects and Sourcegraph's business (for example: code search, batch changes, code intelligence, code insights, etc.), go ahead and list them. Sourcegraph’s legal team can't advise you what to list. But you can review the definitions outlined in the exhibit and decide if there’s anything you want to list. If you're still not sure, you can consider consulting a lawyer.
+- Q: Does this contract transfer ownership of my prior inventions to Sourcegraph?
+  - A: No, it does not. Invention assignment clauses don’t generally assign or transfer ownership of inventions made <span style="text-decoration:underline;">before</span> the contractual relationship begins. However, when a teammate has made inventions similar or related to the company’s business before the relationship started and then the teammate builds on these inventions during the relationship, then down the line, it may not be clear which parts of the invention belong to the teammate and which parts belong to the employer. That’s why we ask teammates to list related inventions in the List of Prior Inventions and Original Works of Authorship exhibit. Note that the exhibit applies to all teammates, but most commonly to software engineers who may have built code search tools prior to Sourcegraph.
+- Q: None of my past employment or consulting agreements conflict with the Sourcegraph contract. Does that mean I don’t need to list anything in the exhibit relating to Conflicting Agreements?
+  - A: Correct. Review the “No Conflicts'' section of your Sourcegraph contract. It requires you to list all agreements (e.g., non-competition agreements, non-solicitation of customers agreements, non-solicitation of employees agreements, confidentiality agreements, inventions agreements, etc.), if any, with a current or former client, employer, or any other person or entity, that may restrict your ability to perform services, recruit, or engage customers or service providers for Sourcegraph or otherwise relate to or restrict your ability to perform your duties to Sourcegraph. If there are no such agreements, no need to list anything in the exhibit.
+- Q: During my engagement with Sourcegraph, I would like to keep consulting for Company A (maybe x hours per week). Company A sells Z and does not compete with Sourcegraph. Can I keep consulting for Company A and if so should I list my engagement with Company A in any of the exhibits?
+  - A: Check with your manager or supervisor to make sure that your other engagement will not conflict or interfere with your deliverables to Sourcegraph. During your engagement with Sourcegraph, you may not consult for businesses whose products and services compete with Sourcegraph, other than a pre-approved business listed in an applicable exhibit (such as the List of Excluded Companies under Exhibit D). If Company A is not competitive to Sourcegraph, then no need to list Company A in any of the exhibits. Sourcegraph’s legal team can’t recommend whether or not to list a company. If you’re still not sure, you can consider consulting a lawyer.

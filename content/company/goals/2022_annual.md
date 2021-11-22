@@ -79,7 +79,7 @@
 1. Build the systems and team to be proactive, not reactive, about customer success
    - Vitals, health, and opportunity metrics for accounts are reliably tracked
    - 90% of accounts have a proactive expansion or upsell effort in-progress
-1. Help Sourcegraph remain customer-driven
+1. Help Sourcegraph remain customer-first
    - Customer Engineers feel comfortable pointing customers to our public roadmap
    - The product roadmap indicates relevant customers and estimated IARR for each project
    - Every eng team has the context/support to be in direct contact with at least 2 customers

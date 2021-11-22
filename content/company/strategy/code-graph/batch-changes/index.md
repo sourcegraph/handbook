@@ -2,29 +2,30 @@
 
 Batch Changes is a tool to find code that needs to be changed and change it at scale by running code. This page outlines the vision, strategy, and goals of the Batch Changes team.
 
-#### Quick links
+## Quick links
 
-- [Code Graph overall strategy](../../../../engineering/code-graph/batch-changes/index.md)
-- [Batch Changes team page](../../../../engineering/code-graph/batch-changes)
+- [Code Graph overall strategy](../index.md)
+- [Product & Engineering strategy](../../../../product-engineering/strategy.md)
+- [Batch Changes team page](../../../../product-engineering/engineering/code-graph/batch-changes)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
 
-# Vision
+## Vision
 
-#### 1-year vision
+### 1-year vision
 
 Enterprise developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.
 
 We are focusing on enterprises first because the intensity of the pain increases with the size and age of a codebase, and with the number of teams working on it. Enterprises tend to be the places where those conditions exist and the need is the most intense. That allows us to be adopted fast, learn fast, and solve the most valuable problems for users that operate in a very large codebase. Some enterprises also have existing tooling that we can replace, serving as a validation that we are moving in the right direction.
 
-#### 3-year vision
+### 3-year vision
 
 Bring the same experience to all developers.
 
 Once we have created a product that is a leader for enterprises, we will focus on making it available to the largest number of developers possible.
 
-#### 10-year vision
+### 10-year vision
 
 Automated code changes are a common practice for all developers.
 
@@ -46,7 +47,13 @@ To deliver our vision, we will:
 - Then, release Batch Changes on Sourcegraph Cloud, and test and learn how we can serve individuals and smaller teams.
 - Eventually, address the problem end to end by becoming the go-to place for code change tools and recipes.
 
-# Guiding Principles
+## Competitive landscape
+
+Our primary competition comes from companies building internal tools to apply and track code changes. Individual users inside companies also build scripts around [git-xargs](https://github.com/gruntwork-io/git-xargs) or [turbolift](https://github.com/Skyscanner/turbolift) to create changesets, then tend to outgrow it when they scale usage (lack of changeset tracking, collaboration, reproducibility). Every tool relies on a search engine to return matches, so being integrated with Sourcegraph search is a key competitive advantage for Batch Changes.
+
+We expect to see more vertical competition from companies focused on a language ecosystem, that enter the market by building refactoring frameworks for a given language ecosystem, then competing with Batch Changes on tooling to apply and track code changes. [Moderne](https://moderne.io/)/[openrewrite](https://github.com/openrewrite/rewrite) is the first significant example of this, focused on the Java ecosystem.
+
+We are committed to remaining language-agnostic, which includes using Batch Changes to apply and track changesets created with frameworks such as openrewrite or any other refactoring framework. We also think there is an opportunity in leveraging precise code intelligence to create radically better code change tools that support many languages in the future.
 
 ## Themes
 
@@ -63,7 +70,7 @@ To drive enterprise success and stickiness, we need to:
 
 - Deliver a great experience in creating changesets at enterprise scale (10,000s repositories), resulting in more users onboarding batch changes.
 - Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth.
-- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../../engineering/code-graph/batch-changes/metrics.md).
+- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../../product-engineering/engineering/code-graph/batch-changes/metrics.md).
 
 ### Discovery, configuration and onboarding
 
@@ -101,7 +108,7 @@ By solving that problem, we will:
 
 This last step is on the critical path for achieving our 10-year vision, but might not be necessary to achieve our 3-year vision.
 
-# Where we are now
+## Where we are now
 
 Batch Changes has just proved market fit and is adopted by a dozen customers. We see early adoption across a diverse set of companies, from public technology companies to startups with a few dozen engineers ([Batch Changes dashboard](https://sourcegraph.looker.com/dashboards-next/174)).
 
@@ -115,11 +122,11 @@ We have five main learnings from the first year of Batch Changes:
 - The job to be done (JTBD) for our customers is changing code at a large-scale. To do so, they need to automate a code change, apply it, then track it to completion. Batch Changes today is addressing applying and tracking changes, but the first thing many customers ask is "how do I write code that makes change x". To solve for our customers JTBD, we will need to provide an answer to that question.
 - As users get more sophisticated and work on large, more complex batch changes, debugging and iteration cycle time become the bottlenecks.
 
-# What's next and why
+## What's next and why
 
 ### Top customer, support, sales, and marketing issues
 
-Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CEs and CSEs. The top issues surfaced to CSE, CE and Product are:
+Customers tend to struggle with configuring Batch Changes. This delays trials, can create a bad first impression, and requires work from CE and CS. The top issues surfaced to CS, CE and Product are:
 
 - Changesets are not syncing frequently enough. There also are many feature requests for a bulk sync operation ([#21458](https://github.com/sourcegraph/sourcegraph/issues/21548)), that indicate that users think changesets do not sync properly. The current root cause is that users haven't set up [webhooks](https://docs.sourcegraph.com/batch_changes/references/requirements#batch-changes-effect-on-code-host-rate-limits).
 - Users struggle to configure credentials, and get confused by the various options (code host token, global service account, personal access token).
@@ -157,7 +164,7 @@ After SSBC, this is our ordered list of priorities:
 1. Handle permission errors more gracefully (likely with [#24999](https://github.com/sourcegraph/sourcegraph/issues/24999s) and maybe with [#24307](https://github.com/sourcegraph/sourcegraph/issues/24307)). As we onboard larger customers, including on SSBC, permission errors are increasingly frequent, causing large batch changes to fail after hours of execution.
 1. **Experiment:** We assume that if we provide low time-to-value entry points into the product, users will get into Batch Changes and some will become long-term users. This will increase the value batch change creates, and increase stickiness. We want to start testing this assumption as it may take several test and learn cycles to get to the final experience that works. We may timebox a small experiment like this if we are able to deliver on our other priorities.
 
-### What we are not working on
+## What we are not working on
 
 - **Windows support** (#24849): Reliably supporting creating batch changes locally in a windows environment is a very large amount of work, that is incompatible with our plan of delivering Server-side Batch Changes as fast as possible. Windows support has blocked one [prospect](https://github.com/sourcegraph/customers/issues/3) and slowed down adoption at a [customer](https://github.com/sourcegraph/customers/issues/2), and will likely be important in the Banking and Gaming industry. We plan to address these customers with Server-side Batch Changes. Server-side Batch Changes will bypass the need to run the CLI locally, and instead allow customers to compute the batch changes on the Sourcegraph instance.
 
