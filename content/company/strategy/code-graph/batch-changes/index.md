@@ -15,7 +15,7 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 ### 3-year vision
 
-Developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.
+**Developers can easily run code to create changeåsets across many repositories and codehosts, and track them to completion.**
 
 ### 10-year vision
 
@@ -47,7 +47,7 @@ We are committed to remaining language-agnostic, which includes using Batch Chan
 
 ## Themes
 
-To deliver the strategy, here are the themes we want to focus on for the next 3 years.
+To deliver the strategy, here are the themes we want to focus on for the next year.
 
 ### Enterprise scale
 
