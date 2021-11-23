@@ -216,9 +216,9 @@ When a Technical Deal Review is needed, the CE initiates this process by doing t
 1. Completes a peer review with another CE
 2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pro's or con's where applicable, and articulate specific asked of Product, Engineering, and Support.
 3. Initiate the request in the #tech-deal-reviews channel via the 'Request TDD Review' shortcut in slack; include a link to the loom video and to the TDD.
-4. Product, Engineering, and Support-designated represenatives who will perform review tag themselves on the request post in the channel to indicate assignment.
-5. Complete async review within 72 hours.
-6. Where a live review is requested, let the CE know; CE schedules live review.
+4. [Product Directors](https://handbook.sourcegraph.com/company/team/org_chart#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD. 
+5. Complete async review within 3 business days. 
+  - If there are additional questions the Product team member can request a synchronous review. The review will be recorded and documented to show the decision-making process and provide additional context. The CE know is responsible for scheduling the synchronous review.  
 7. Acknowledge completion in the TDD.
 
 ### Roles and Responsibilities
