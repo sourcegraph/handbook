@@ -40,14 +40,16 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Team](people-ops/index.md#team)
   - [Goals](people-ops/index.md#goals)
 
-### [Product](product-engineering/product/index.md)
+### [Product & Engineering](product-engineering/index.md)
+
+#### [Product](product-engineering/product/index.md)
 
 - [Strategy](company/strategy/index.md)
 - [Product](product-engineering/product/index.md)
   - [Product Management](product-engineering/product/product_management/index.md)
   - [Product Design](product-engineering/product/design/index.md)
 
-### [Engineering](product-engineering/engineering/index.md)
+#### [Engineering](product-engineering/engineering/index.md)
 
 <!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
 
