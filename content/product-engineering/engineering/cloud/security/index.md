@@ -45,7 +45,6 @@ See [security goals and priorities](../../../../company/strategy/cloud/security/
   - [Security tooling](./tooling/index.md)
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
 - Respond to Security Incidents as per our [Security Incident Response Policy](./security-incident-response.md)
-
 ---
 
 ## How we are improving and investing in product security
@@ -57,6 +56,10 @@ See [security goals and priorities](../../../../company/strategy/cloud/security/
 - We have developed a new vulnerability management process which will limit the number of open vulnerabilities as we will have a much closer follow up with a new SLA
 
 ---
+
+## CI/CD Pipeline Vulnerability Scanning
+
+- We are currently using Checkov.io to [scan our IaC](/checkov.md) 
 
 ## How to work with us
 
