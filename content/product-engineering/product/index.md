@@ -55,6 +55,12 @@ To help guide people within the product organization on career growth we are cre
 - Owner: Christina
 - [Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
+### Document known product gaps and process
+
+THere are various areas without a clear owner: we need a list of those, what people should do in the meantime for each of them, and how to flag if somoene thinks they have found a product gap.
+
+- Owner: TBD
+
 ## References
 
 - [Beta and experimental feature labels](./beta_and_experimental_feature_labels.md)
