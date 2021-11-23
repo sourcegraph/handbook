@@ -14,7 +14,7 @@ function createRelativeProductLink(link) {
   if (link.startsWith('http')) {
     return link
   }
-  return `..${String(link)}`
+  return `../..${String(link)}`
 }
 
 export async function generateMaturityDefinitions() {
@@ -46,7 +46,7 @@ export async function generateFeatureMaturityLevels() {
       )}))\n`
     }
     if (productTeam.pm) {
-      const bioLink = `../company/team/index.md#${String(
+      const bioLink = `../../company/team/index.md#${String(
         teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
       )}`
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
@@ -95,7 +95,7 @@ export async function generateFeatureCodeHostCompatibilities() {
       )}))\n`
     }
     if (productTeam.pm) {
-      const bioLink = `../company/team/index.md#${String(
+      const bioLink = `../../company/team/index.md#${String(
         teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
       )}`
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
@@ -190,32 +190,53 @@ export async function generateProductTeamsList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const [productOrgName, productOrg] of Object.entries(productOrgs)) {
-    pageContent += `\n### ${String(productOrg.title)}\n\n`
+    pageContent += `\n### ${String(productOrg.title)} org\n\n`
     if (productOrg.strategy_link) {
       pageContent += `- [Strategy Page](${String(createRelativeProductLink(productOrg.strategy_link))})\n`
     }
     if (productOrg.strategy_link) {
-      const bioLink = `../company/team/index.md#${String(
+      const bioLink = `../../company/team/index.md#${String(
         teamMembers[productOrg.pm].name.toLowerCase().replace(/\s+/g, '-')
       )}`
       pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLink)})\n`
+      pageContent += `- Engineering Director: [${String(teamMembers[productOrg.em].name)}](${String(bioLink)})\n`
     }
     for (const productTeam of Object.values(productTeams)) {
       if (productTeam.product_org === productOrgName) {
-        pageContent += `\n\n#### ${String(productTeam.title)}\n`
+        pageContent += `\n\n#### ${String(productTeam.title)} team\n`
         if (productTeam.strategy_link) {
           pageContent += `- [Strategy Page](${String(createRelativeProductLink(productTeam.strategy_link))})\n`
         }
         if (productTeam.pm) {
-          const bioLink = `../company/team/index.md#${String(
+          const bioLink = `../../company/team/index.md#${String(
             teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
           )}`
-          pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
+          pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})\n`
+        }
+        if (productTeam.em) {
+          const bioLink = `../../company/team/index.md#${String(
+            teamMembers[productTeam.em].name.toLowerCase().replace(/\s+/g, '-')
+          )}`
+          pageContent += `- Engineering Manager: [${String(teamMembers[productTeam.em].name)}](${String(bioLink)})\n`
+        }
+        if (productTeam.design) {
+          const bioLink = `../../company/team/index.md#${String(
+            teamMembers[productTeam.design].name.toLowerCase().replace(/\s+/g, '-')
+          )}`
+          pageContent += `- Product Designer: [${String(teamMembers[productTeam.design].name)}](${String(bioLink)})\n`
+        }
+        if (productTeam.pmm) {
+          const bioLink = `../../company/team/index.md#${String(
+            teamMembers[productTeam.pmm].name.toLowerCase().replace(/\s+/g, '-')
+          )}`
+          pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(
+            bioLink
+          )})\n`
         }
         if (productTeam.issue_labels) {
           for (let index = 0; index < productTeam.issue_labels.length; index++) {
             if (index === 0) {
-              pageContent += '\n- Issue labels: '
+              pageContent += '- Issue labels: '
             }
             if (index < productTeam.issue_labels.length - 1) {
               pageContent += `[${String(
@@ -233,5 +254,6 @@ export async function generateProductTeamsList() {
       }
     }
   }
+  console.log(pageContent)
   return pageContent
 }
