@@ -17,10 +17,10 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
-  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](/content/product-engineering/engineering/environments.md)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](/content/product-engineering/engineering/environments.md).
+  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../../engineering/environments.md)
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](../../../engineering/environments.md).
 - Familiarize yourself with the DevOps [internal infrastructure](./internal_infrastructure.md) and ownership areas
-- Open and merge first GitHub pull request by adding yourself to [team page](../../../company/team/index.md) in Handbook
+- Open and merge first GitHub pull request by adding yourself to [team page](../../../../handbook/editing/add-yourself-to-team-page.md) in Handbook
 - Read our [DevOps handbook pages](index.md)
 - Join the following Slack channels
   - #cloud-org
@@ -65,12 +65,12 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 
 #### Goals
 
-- You will have assisted [customer engineering](../../../ce/index.md) and [customer support](../../../support/index.md), taken ownership of any DevOps tasks and resolved them.
-- Made improvements to our processes and how we deliver sourcegraph.
+- Made improvements to our processes and how we deliver sourcegraph.com
+- Made improvements to our olly
 
 #### Tasks
 
-- Take on the @devops-support rotation and pair with the customer facing teams to resolve issues.
+- Take on the @devops-support rotation and pair with teams to resolve issues.
 - Identify inefficiencies and raise issues to fix them
 
 ### By the end of your third month, the following will be true

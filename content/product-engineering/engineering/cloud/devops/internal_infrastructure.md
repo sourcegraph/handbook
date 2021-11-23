@@ -2,7 +2,7 @@
 
 ## Sourcegraph deployments
 
-Internal deployments are documented in the [deployments](../deployments/index.md).
+Internal deployments are documented in the [deployments](../../deployments/instances.md).
 
 ## Code host testing instances
 
@@ -14,7 +14,7 @@ URL: https://ghe.sgdev.org
 
 Credentials: [1Password](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/bw4nttlfqve3rc6xqzbqq7l7pm)
 
-_[Additional information about ghe.sgdev.org](github_enterprise_testing_instance.md)_
+_[Additional information about ghe.sgdev.org](../../distribution/github_enterprise_testing_instance.md)_
 
 ### Bitbucket Server
 
