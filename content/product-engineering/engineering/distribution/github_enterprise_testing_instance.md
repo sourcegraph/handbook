@@ -51,7 +51,7 @@ _Note: some repositories in [ghe-repos.json](https://gist.github.com/sqs/4ba1382
 
 ## License management
 
-Sourcegraph has a GitHub Enterprise license through their [GitHub Developer Program](https://docs.github.com/en/developers/overview/github-developer-program).  
+Sourcegraph has a GitHub Enterprise license through their [GitHub Developer Program](https://docs.github.com/en/developers/overview/github-developer-program).
 
 Going forward we should consider joining their new [Partner Program](https://partner.github.com/) for continued assistance.
 
@@ -63,5 +63,5 @@ If you need to renew the license follow the following steps:
 2. Click on Support in the main menu bar
 3. Click on New support request
 4. You will be redirected to the GitHub support portal with a support bundle attached. Complete the form asking for a license renewal.
-5. Once support confirms a new license has been issued sign into the [GitHub Enterprise portal](https://enterprise.github.com) and download the new license.  
+5. Once support confirms a new license has been issued sign into the [GitHub Enterprise portal](https://enterprise.github.com) and download the new license.
 6. Return to the GHE instance's management console and upload the new license file: https://ghe.sgdev.org:8443/setup/upgrade
