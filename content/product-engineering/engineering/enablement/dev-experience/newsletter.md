@@ -131,7 +131,7 @@ Let's start with some numbers:
 ![image](https://user-images.githubusercontent.com/23356519/143134230-11641386-4588-4680-82c2-d85b576dc0ce.png)
 
 - Pull requests now run a smaller set of checks on average, and it is easier to add additional PR checks of your own that run over subsets of code that you care about within the pipeline generator.
- See the [Introductory documentation](https://docs.sourcegraph.com/dev/background-information/continuous_integration) to help you get started with hacking on the pipeline generator
+  See the [Introductory documentation](https://docs.sourcegraph.com/dev/background-information/continuous_integration) to help you get started with hacking on the pipeline generator
 - Puppeteer [tests](https://github.com/sourcegraph/sourcegraph/pull/25027)[are now](https://github.com/sourcegraph/sourcegraph/pull/25027)[run in parallel multiple smaller steps](https://github.com/sourcegraph/sourcegraph/pull/25027), netting almost a 50% improvement :fire:
 - (1) spiked because that's when the executor pipeline was introduced.
 
@@ -164,8 +164,8 @@ This is just the beginning. Work on [sg setup](https://github.com/sourcegraph/so
 
 ### Grafana cloud is now available to all!
 
-Just sign up via GSuite SSO on [https://sourcegraph.grafana.net](https://sourcegraph.grafana.net/). This Grafana instance currently has logs for Sourcegraph Cloud, available for search with [LogQL](https://grafana.com/docs/loki/latest/logql/) via Loki. It has support for querying inferred fields from log messages, filtering for substring matches, and more. [Try it out!](https://sourcegraph.grafana.net/explore?orgId=1&amp;left=%5B%22now-1h%22,%22now%22,%22grafanacloud-sourcegraph-logs%22,%7B%22expr%22:%22%7Bapp%3D%5C%22sourcegraph-frontend%5C%22%7D%20%7C%20logfmt%20%7C%20lvl%20%3D%20%5C%22eror%5C%22%20%7C%3D%20%5C%22migration%5C%22%22%7D%5D)
+Just sign up via GSuite SSO on [https://sourcegraph.grafana.net](https://sourcegraph.grafana.net/). This Grafana instance currently has logs for Sourcegraph Cloud, available for search with [LogQL](https://grafana.com/docs/loki/latest/logql/) via Loki. It has support for querying inferred fields from log messages, filtering for substring matches, and more. [Try it out!](https://sourcegraph.grafana.net/explore?orgId=1&left=%5B%22now-1h%22,%22now%22,%22grafanacloud-sourcegraph-logs%22,%7B%22expr%22:%22%7Bapp%3D%5C%22sourcegraph-frontend%5C%22%7D%20%7C%20logfmt%20%7C%20lvl%20%3D%20%5C%22eror%5C%22%20%7C%3D%20%5C%22migration%5C%22%22%7D%5D)
 
 Metrics and parity with /-/debug/grafana is on the roadmap - follow [#25407](https://github.com/sourcegraph/sourcegraph/issues/25407) for updates on that!
 
-**Shoutouts to teammates that improved our dev experience in September** [**Robert Lin, Valery Bugakov, Thorsten Ball, JH, Camden Cheek, Erik Seliger, Coury Clark and Quinn Slack**](https://github.com/sourcegraph/sourcegraph/pulls?page=2&amp;q=is%3Apr+is%3Amerged+label%3Adx) **.**
+**Shoutouts to teammates that improved our dev experience in September** [**Robert Lin, Valery Bugakov, Thorsten Ball, JH, Camden Cheek, Erik Seliger, Coury Clark and Quinn Slack**](https://github.com/sourcegraph/sourcegraph/pulls?page=2&q=is%3Apr+is%3Amerged+label%3Adx) **.**
