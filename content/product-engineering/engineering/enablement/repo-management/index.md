@@ -14,7 +14,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
 - [Jordan Plahn](../../../../company/team/index.md#jordan-plahn) ([Engineering Manager](../../roles.md#engineering-manager))
   - [Ryan Slade](../../../../company/team/index.md#ryan-slade)
   - [Indradhanush Gupta](../../../../company/team/index.md#indradhanush-gupta)
-  - M.W. joining Nov 15
+  - [Molly Weitzel](../../../../company/team/index.md#molly-weitzel)
   - A.O. joining Nov 22
 
 ## Strategy
