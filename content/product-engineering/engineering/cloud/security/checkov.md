@@ -6,7 +6,7 @@
 
 ## How does this impact you?
 
-- Currently, it does not.  Currently, there is no action required on your part.  If you want to take the initative and resolve the issues it finds in your code, that is great!
+- Currently, it does not. Currently, there is no action required on your part. If you want to take the initative and resolve the issues it finds in your code, that is great!
 
 ## If checkov finds vulnerabilities will it fail the pipeline?
 
@@ -14,5 +14,4 @@
 
 ## I have a vulnerability that is a false positive, or one that we will not fix. Can I make Checkov ignore it?
 
-- Yes.  Simply follow these instructions: (https://www.checkov.io/2.Basics/Suppressing%20and%20Skipping%20Policies.html)
-
+- Yes. Simply follow these instructions: (https://www.checkov.io/2.Basics/Suppressing%20and%20Skipping%20Policies.html)
