@@ -11,7 +11,7 @@ Quicklinks:
 
 ## Where we are now
 
-In FQ3, we grew the Sourcegraph Cloud global index to 2.1M repositories, including all repositories with 8 stars or more. Importantly, the changes we’ve made to reach this state have never been cloud-specific, and yielded trickle-down benefits to all Sourcegraph deployments (for instance, [significant reductions](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/) in the memory usagee of Zoekt, our trigram-based indexed search backend).
+In FQ3, we grew the Sourcegraph Cloud global index to 2.1M repositories, including all repositories with 6 stars or more. Importantly, the changes we’ve made to reach this state have never been cloud-specific, and yielded trickle-down benefits to all Sourcegraph deployments (for instance, [significant reductions](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/) in the memory usagee of Zoekt, our trigram-based indexed search backend).
 
 ## What's next and why
 
