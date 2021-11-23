@@ -54,7 +54,7 @@ To be mentioned here in the next iteration, please tag your PR or issue with dx-
 
 ### DevX team mission statement
 
-Published Developer Experience team mission and strategy: [https://handbook.sourcegraph.com/company/strategy/enablement/dev-experience](https://handbook.sourcegraph.com/company/strategy/enablement/dev-experience)
+Published Developer Experience team mission and strategy: [handbook.sourcegraph.com/company/strategy/enablement/dev-experience](../../../../company/strategy/enablement/dev-experience/index.md)
 
 ### Buildkite incident post-mortem(s)
 
