@@ -8,7 +8,7 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../../company/goals/index.md), [values](../../../company/values.md) and [code of conduct](../../../communication/code_of_conduct.md), as well as [DevOps' mission and vision](./index.md).
+- Clear knowledge of the [company goals](../../../../company/goals/index.md), [values](../../../../company/values.md) and [code of conduct](../../../../communication/code_of_conduct.md), as well as [DevOps' mission and vision](index.md).
 - Know the expected outcome of each DevOps onboarding milestone.
 - You have a sense of what tools you will be using and for what
 
@@ -17,8 +17,8 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
-  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../environments.md#engineering-projects)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../environments.md#engineering-projects).
+  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](/content/product-engineering/engineering/environments.md)
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](/content/product-engineering/engineering/environments.md).
 - Familiarize yourself with the DevOps [internal infrastructure](./internal_infrastructure.md) and ownership areas
 - Open and merge first GitHub pull request by adding yourself to [team page](../../../company/team/index.md) in Handbook
 - Read our [DevOps handbook pages](index.md)
