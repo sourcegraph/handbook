@@ -10,7 +10,7 @@ We publicly document our interview process for each of the different sales roles
 4. **Assignment stage**: we send you a writing assignment to be completed prior to your next interview. Learn more about our SDR assignment [here](../../talent/types_of_interviews.md#sales).
 5. We schedule 2.5-hours of **remote interviews** over Zoom.
    - Part 1 (1 hour):
-     - 30-miute **Resume deep-dive**: we take a deep dive into your background, past to present. Learn more about the resume deep dive [here](../../talent/types_of_interviews.md#resume-deep-dive).
+     - 30-minute **Resume deep-dive**: we take a deep dive into your background, past to present. Learn more about the resume deep dive [here](../../talent/types_of_interviews.md#resume-deep-dive).
      - 10-minute **Mock cold call**: Pretend to be an SDR at Sourcegraph and pitch to a prospect of your choosing. Learn more about the Mock cold call [here](../../talent/types_of_interviews.md#sdr-mock-cold-call).
      - 5-minute homework assignment debrief
      - 15-minute open Q&A
