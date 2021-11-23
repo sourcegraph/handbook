@@ -1,6 +1,6 @@
 # GitHub Enterprise testing instance
 
-Our GitHub Enterprise instance (used for testing) is available at https://ghe.sgdev.org.
+Our GitHub Enterprise (GHE) instance (used for testing) is available at https://ghe.sgdev.org.
 
 ## Workaround for Cloudflare, HSTS, and TLS detection problem
 
@@ -49,9 +49,19 @@ This means that the ["sourcegraph" organization](https://ghe.sgdev.org/sourcegra
 
 _Note: some repositories in [ghe-repos.json](https://gist.github.com/sqs/4ba1382895928bd06db6076ce910bc3a) might be missing from ghe.sgdev.org if my script ran into an error when trying to process them (too much load on the machine, too much load on ghe.sgdev.org, huge >100mb blobs in some repositories, etc.)_
 
-## TODO
+## License management
 
-Sections that still need to be written:
+Sourcegraph has a GitHub Enterprise license through their [GitHub Developer Program](https://docs.github.com/en/developers/overview/github-developer-program).  
 
-- Ops/maintenance related issues
-- Firewall setup
+Going forward we should consider joining their new [Partner Program](https://partner.github.com/) for continued assistance.
+
+Please note to manage the license you need access to the GitHub Enterprise portal: https://enterprise.github.com (_Currently only Beyang and Jean can access it and add new members as needed._)
+
+If you need to renew the license follow the following steps:
+
+1. Log into the GHE instance's management console (Shared vault in 1Password): https://ghe.sgdev.org:8443/
+2. Click on Support in the main menu bar
+3. Click on New support request
+4. You will be redirected to the GitHub support portal with a support bundle attached. Complete the form asking for a license renewal.
+5. Once support confirms a new license has been issued sign into the [GitHub Enterprise portal](https://enterprise.github.com) and download the new license.  
+6. Return to the GHE instance's management console and upload the new license file: https://ghe.sgdev.org:8443/setup/upgrade
