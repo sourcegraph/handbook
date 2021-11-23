@@ -13,7 +13,7 @@
 - [Planning process](planning-process.md)
 - [Current team](team.md)
 - [KPIs](https://sourcegraph.looker.com/boards/20)
-- [Department Meeting](all-hands.md)
+- [Department Meeting](department-meeting.md)
 - [Headcount planning](headcount-planning.md)
 
 ## Handbook organization
