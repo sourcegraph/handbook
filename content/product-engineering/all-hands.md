@@ -1,4 +1,4 @@
-# Product/Eng All-Hands Meetings
+# Product/Engineering All-Hands Meetings
 
 Our team is rapidly growing and we want to provide a forum to:
 

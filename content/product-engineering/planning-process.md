@@ -1,4 +1,4 @@
-# Product and engineering planning process
+# Product/Engineering planning process
 
 Our planning process defines how we create goals and track progress toward those goals as a department.
 
