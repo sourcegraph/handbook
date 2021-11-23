@@ -7,9 +7,7 @@ The two primary pillars of the Cloud Team are Availability and Observability as 
 This team ensures that Sourcegraph.com has the same reliability and availability as other world-class SaaS offerings.
 This team is also responsible for Observability monitoring and tooling to ensure that we are meeting these goals.
 
-
 More can be found in our [Cloud Vision](../../cloud/index.md#vision)
-
 
 ## Areas of Ownership
 
@@ -38,7 +36,6 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 The best way to contact the cloud-devops team is in the #cloud-devops slack channel.
 
 ## Goals
-
 
 ### Q4 Goals
 
