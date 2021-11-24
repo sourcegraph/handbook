@@ -8,10 +8,10 @@ package = "@netlify/plugin-nextjs"
 [[plugins]]
 package = "@algolia/netlify-plugin-crawler"
 [plugins.inputs]
-branches = ['main', 'jeanduplessis/algolia']
+branches = ['main']
 mainBranch = 'main'
 customDomain = "handbook.sourcegraph.com"
-renderJavaScript = true
+renderJavaScript = false
 
 [functions]
 node_bundler = "esbuild"
