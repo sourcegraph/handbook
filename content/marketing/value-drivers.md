@@ -4,7 +4,7 @@ Value drivers are differentiating product capabilities that make Sourcegraph a m
 
 ## Sourcegraph's business impact
 
-### Developer Productivity/Velocity
+### Developer Velocity
 
 - On average, Sourcegraph saves a developer 30-60 minutes per day searching code and providing code intelligence
 - Batch or Large-Scale changes are 50% - 75% faster and 95% more accurate
@@ -16,7 +16,7 @@ Value drivers are differentiating product capabilities that make Sourcegraph a m
 - Ramp time for new codebases or projects can be reduced by 25%-40% as well
 - **Total Annual Benefit (50 New Hires/yr): $250k - $400k**
 
-### Risk Reduction/Security
+### Risk Reduction and Security
 
 - On average, Sourcegraph can reduce the time and effort to find and fix known security vulnerabilities by 75%-80%
 - Reduce Risk of the cost of a code-related security breach by 25%-50%
