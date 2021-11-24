@@ -30,12 +30,15 @@ You can tell when the release is cut by following along in #progress.
 
 ## Content notes
 
-For any images added to the release post, include the `blog-images` class as follows, and be sure to add an `alt` description for hover or screen readers:
+For any images added to the release post, include the `blog-images` class as follows, and be sure to add an `alt` and `title` description for hover and/or screen readers:
 
 ```html
 <img
   src="https://my-image.jpg"
   class="blog-images"
-  alt="This description will be shown on hover or to people with assistive readers"
+  alt="This description will be shown to people with assistive readers"
+  title="This description will be shown on hover"
 />
+
+The `alt` and `title` values can be the same or not, up to you. In general, `title` is more appropriate for a general title, and alt is more appropriate to describe what you're seeing visually.
 ```
