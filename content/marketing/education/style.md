@@ -35,9 +35,14 @@ Sourcegraph Learn tutorials and other resources have the following characteristi
   - Code and writing is logically structured and helps the reader all the way through
 - Original and well researched
   - Resources are original and not syndicated from elsewhere
+    - They can be syndicated elsewhere where Learn has the canonical link
   - When referring to a source, it is quoted and linked to
   - Plagiarized text is unacceptable
   - All resources are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+    - Any future syndication must maintain the license
+    - The license enables language translations
+    - Others may build off of our resources
+    - Creative Commons is in the spirit of open source
 - Tone
   - Authentic developer voice that is welcoming and inclusive
   - Conversational but not informal
@@ -65,8 +70,8 @@ Sourcegraph Learn is building a library of several different resource types. Dif
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Procedural tutorial | A how-to or similar procedural article which takes a reader through an entire technical process from start to finish. Readers should be able to copy and paste code snippets. These resources will front-load any assumptions made in a prerequisites section and will provide context along the way.              | [How To Add Private Code Repositories to Sourcegraph](https://learn.sourcegraph.com/how-to-add-private-code-repositories-to-sourcegraph) |
 | Conceptual guide    | A high-level technical guide that introduces concepts to readers without providing procedural examples.                                                                                                                                                                                                            | _Coming soon_                                                                                                                            |
-| Educational repo    | An educational repository of a demo or sample app may tie into procedural tutorials or other educational resources but will live on GitHub with Sourcegraph’s other open source projects. The repo will leverage branches to make use of several states of the project | [LifeCounter](https://github.com/sourcegraph-community/LifeCounter) | 
-| Troubleshooting tutorial | Similar to a procedural tutorial, a troubleshooting tutorial will provide technical guidance that a reader can follow, but rather than taking a reader all the way through a project, it will support a developer who is running into problems. These tutorials will include error messages and provide information for how to resolve the error | [How to troubleshoot Python ZeroDivisionError](https://learn.sourcegraph.com/how-to-troubleshoot-python-zerodivisionerror) |
+| Educational repo    | An educational repository of a demo or sample app may tie into procedural tutorials or other educational resources but will live on GitHub with Sourcegraph’s other open source projects. The repo will leverage branches to make use of several states of the project. | [LifeCounter](https://github.com/sourcegraph-community/LifeCounter) | 
+| Troubleshooting tutorial | Troubleshooting tutorials provide technical guidance, supporting a developer who is running into problems. These tutorials will include error messages and provide information for how to resolve the error. | [How to troubleshoot Python ZeroDivisionError](https://learn.sourcegraph.com/how-to-troubleshoot-python-zerodivisionerror) |
 | Cheat sheet         | Cheat sheets are less contextualized than other tutorials, supporting developers in recalling syntax with code examples that work. These guides will assume familiarity with the technology and are for more experienced developers who need to remember how to do something in a given programming language, etc. | [How To Search Code with Sourcegraph — A Cheat Sheet](https://learn.sourcegraph.com/sourcegraph-cheat-sheet)                             |
 | Quickstart video    | A short-form video on a self-contained procedural topic demonstrated through video and audio with closed captioning and transcript.                                                                                                                                                                                | [Three Ways to Search with Sourcegraph (Video)](https://learn.sourcegraph.com/three-ways-to-search-video)                                |
 
