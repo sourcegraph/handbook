@@ -75,4 +75,4 @@ THere are various areas without a clear owner: we need a list of those, what peo
 - [User research](./user_research/index.md)
 - [Product licensing](licensing.md)
 - [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
-- [Product Gaps Dasbhoard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
+- [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)

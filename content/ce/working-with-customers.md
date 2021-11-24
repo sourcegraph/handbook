@@ -216,9 +216,11 @@ When a Technical Deal Review is needed, the CE initiates this process by doing t
 1. Completes a peer review with another CE
 2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pro's or con's where applicable, and articulate specific asked of Product, Engineering, and Support.
 3. Initiate the request in the #tech-deal-reviews channel via the 'Request TDD Review' shortcut in slack; include a link to the loom video and to the TDD.
-4. Product, Engineering, and Support-designated represenatives who will perform review tag themselves on the request post in the channel to indicate assignment.
-5. Complete async review within 72 hours.
-6. Where a live review is requested, let the CE know; CE schedules live review.
+4. [Product Directors](../company/team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD.
+5. Complete async review within 3 business days.
+
+- If there are additional questions the Product team member can request a synchronous review. The review will be recorded and documented to show the decision-making process and provide additional context. The CE know is responsible for scheduling the synchronous review.
+
 7. Acknowledge completion in the TDD.
 
 ### Roles and Responsibilities
@@ -229,13 +231,13 @@ When a Technical Deal Review is needed, the CE initiates this process by doing t
   - Responsible for identifying any non-standard or high-risk requirements.
   - Responsible for communicating with their AE when non-standard or high risk requirements emerge.
   - Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
-  - If a request is made for a live review, the CE will schedule and facilitate.
+  - If a request is made for a synchronous review, the CE will schedule and facilitate.
 
 - Product, Engineering, and Support
 
-  - When a deal review request is raised, each team is responsible for designating appropriate individuals to review.
-  - Initial feedback on the review should occur within 48-72 hours.
-  - Any member from Product, Engineering, or Support may request a live review.
+  - When a deal review request is raised, Product Directors are responsible for designating appropriate individuals to review.
+  - Initial feedback on the review should occur within 3 business days.
+  - Any member from Product, Engineering, or Support may request a synchronous review.
 
 - Sales
   - Responsible for providing necessary business context around the deal.
