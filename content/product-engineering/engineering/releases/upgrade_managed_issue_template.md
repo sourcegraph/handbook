@@ -13,7 +13,7 @@ Arguments:
 
 These [managed instances](../enablement/delivery/managed/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
-To perform these upgrades, follow the [managed instances upgrade process](../enablement/delivery/managed/upgrade_process.md).
+To perform these upgrades, follow the [managed instances upgrade process](https://handbook.sourcegraph.com/product-engineering/engineering/enablement/delivery/managed/upgrade_process).
 Make sure to upgrade internal instances before customer instances.
 
 ---
