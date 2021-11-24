@@ -91,13 +91,13 @@ This page lists common failures scenarios and provide a step by step guide to ge
    - 💡 External failures are about downloading a dependency like a package in a script or a in a Dockerfile. Often they'll manifest in the form of an HTTP error.
    - 💡 If unsure, ask for help on [#dev-chat](https://sourcegraph.slack.com/archives/C07KZF47K).
    - **Yes**, it's an external failure:
-     1. See the [SSH into an agent scenario](#sshing-into-an-agent)
+     1. See the [SSH into an agent scenario](#ssh-into-an-agent)
      1. Try to reproduce the faulty HTTP request so you can observe what's the problem. Is it the same failure?
         - **Yes**: Do you know how to fix it? If **no** escalate by creating an incident (`/incident` on Slack).
         - **No**: escalate by creating an incident (`/incident` on Slack).
    - **No**, it's an internal failure:
      1. Is it involving faulty state in the agents? (a given tool is not found where it should have been present, or have incorrect version)
-        - See the [SSH into an agent scenario](#sshing-into-an-agent)
+        - See the [SSH into an agent scenario](#ssh-into-an-agent)
      1. Try to find an agent that recently successfully ran the faulty step (look for a green build on the `main` branch)
         1. Can you see a difference? If **yes** take note.
      1. Do you know how to fix it?
@@ -212,7 +212,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 1. Restart the faulty build and observe it the problem is fixed or not.
    - If necessary: escalate by creating an incident (`/incident` on Slack).
 
-### SSH'ing into an agent
+### SSH into an agent
 
 - Gravity: none
 - Impact: none (unless a destructive action is performed)
@@ -221,6 +221,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 
 #### Actions
 
-1. Use `kubectl get pods -n buildkite -w` to observe the currently running agents and the pod name (`k9s` works here too).
-1. Use `kubectl exec -n buildkite -it buildkite-agent-xxxx-yyyy` to open a shell
-1. You will be prompted with which pod to `exec` onto, select the agent itself.
+1. Find the pod you want to SSH into with one of the following methods:
+   1. Use `kubectl get pods -n buildkite -w` to observe the currently running agents and get the pod name (`k9s` works here too).
+   2. From a Buildkite build page, click the "Timeline" tab of a job and see the entry for "Accepted Job". The "Host name" in the entry is also the name of the pod that the job was assigned to.
+2. Use `kubectl exec -n buildkite -it buildkite-agent-xxxxxxxxxx-yyyyy -- bash` to open a shell on the Buildkite agent.
