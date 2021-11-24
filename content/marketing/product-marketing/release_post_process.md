@@ -40,5 +40,6 @@ For any images added to the release post, include the `blog-images` class as fol
   title="This description will be shown on hover"
 />
 
-The `alt` and `title` values can be the same or not, up to you. In general, `title` is more appropriate for a general title, and alt is more appropriate to describe what you're seeing visually.
+The `alt` and `title` values can be the same or not, up to you. In general, `title` is more appropriate for a general
+title, and alt is more appropriate to describe what you're seeing visually.
 ```
