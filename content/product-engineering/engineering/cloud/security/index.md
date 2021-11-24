@@ -60,7 +60,7 @@ See [security goals and priorities](../../../../company/strategy/cloud/security/
 
 ## CI/CD Pipeline Vulnerability Scanning
 
-- We are currently using Checkov.io to [scan our IaC](/checkov.md)
+- We are currently using Checkov.io to [scan our IaC](./checkov.md)
 
 ## How to work with us
 
