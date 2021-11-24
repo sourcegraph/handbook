@@ -6,6 +6,7 @@
    - [Chrome](#create-for-chrome)
    - [Firefox](#create-for-firefox)
    - [Safari](#create-for-safari)
+1. [Testing Checklist](#testing-checklist)
 1. [Releasing Browser Extensions](#releasing-browser-extensions)
    - [Chrome](#chrome)
    - [Firefox](#firefox)
@@ -31,12 +32,15 @@ Before releasing the browser extensions, you need to create developer accounts f
 
 1. Ask a team member to add you to our Apple Developer group. They can send you an invitation from [App Store Connect](https://appstoreconnect.apple.com/) portal.
 
-## Manual Testing Checklist
+## Testing Checklist
 
-- [ ] Test installation on browsers
+- [ ] Manually test installation on browsers
   - [ ] [Chrome](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#chrome)
   - [ ] [Firefox](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#firefox-manual)
   - [ ] [Safari](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#safari)
+- [ ] Run browser extension e2e tests:
+  - [ ] `sg test bext-e2e`
+  - > Note: it will automatically run anyway before releasing from the `bext/release` branch
 
 ## Releasing Browser Extensions
 
