@@ -5,6 +5,14 @@ publish = "out"
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+[plugins.inputs]
+branches = ['main', 'jeanduplessis/algolia']
+mainBranch = 'main'
+customDomain = "handbook.sourcegraph.com"
+renderJavaScript = true
+
 [functions]
 node_bundler = "esbuild"
 external_node_modules = ["@ampproject/toolbox-optimizer"]
