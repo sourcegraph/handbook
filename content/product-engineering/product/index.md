@@ -48,7 +48,7 @@ In an effort to gain more clarity around product success and growth on Cloud, we
 - [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
 - [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
-### Product managmenet and Product design impact ladders
+### Product management and Product design impact ladders
 
 To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
 
@@ -69,4 +69,4 @@ To help guide people within the product organization on career growth we are cre
 - [User research](./user_research/index.md)
 - [Product licensing](licensing.md)
 - [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
-- [Product Gaps Dasbhoard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
+- [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)

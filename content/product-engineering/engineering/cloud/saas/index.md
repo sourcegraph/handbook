@@ -138,7 +138,59 @@ We use a shared [Sourcegraph Cloud Research calendar](https://calendar.google.co
 
 #### Team internal communication
 
-TBD
+We are a globally distributed team with 16+ hours of time zone difference. Asynchronous communication is a key for achieving high visibility and close collaboration within the team. In addition to [general Sourcegraph async communication guidelines](../../../../company/asynchronous-communication.md), we agreed to the following recommendations within the Cloud SaaS team.
+
+##### Team communication channels and how to use them
+
+###### Slack
+
+While the team is following [multiple Slack channels](#team-slack-channels), [#cloud-saas-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, Jira, Handbook, Google docs, etc.) and reference them on Slack via links. It’s worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
+
+###### Jira
+
+[Jira](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog?selectedIssue=CLOUD-144&issueLimit=100) is the Cloud SaaS team's single source of truth for team backlog, work planning, and execution. Please include all tasks related to status updates and questions within Jira issues and keep the state of the sprint board up to date.
+
+###### GitHub
+
+Please keep all discussions related to ongoing code changes within GitHub pull requests. You will find more guidelines for making PRs and asking for code review in the [Making pull requests and asking for code reviews](#making-pull-requests-and-asking-for-code-reviews) section.
+
+###### Figma
+
+We use Figma for high- and medium-fidelity design and prototyping. High-fidelity design artifacts and their annotations should be considered a source of truth for design implementation, copy, and interaction behavior.
+
+Use comments in Figma to ask questions and share feedback. If a decision or missing information is uncovered in comments in Figma, that context will be added to the design artifact itself as an annotation.
+
+###### Handbook and Google docs
+
+Google doc is a great choice for kicking off async collaboration, proposing RFC, writing a one-pager problem definition, or documenting a decision. To make the context in Google docs more discoverable, we agreed to:
+
+- Public Information - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
+- Information internal to Sourcegraph - Add a link to the Google doc to the Cloud SaaS team handbook page, ensuring that sensitive information is not exposed in the link title.
+
+Please read [this](../../../../company/values.md#open-and-transparent) for more context about the difference between public and internal information.
+
+###### Loom
+
+We are using Loom to record short videos for bug reports, demos, and for multimodal communication. This way, we can provide more context to the rest of the Cloud SaaS team.
+
+##### Regular status updates
+
+All team members, including product manager, engineering manager, and product designer, have agreed to share regular status updates on the [#cloud-saas-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) Slack channel. The recommended cadence is either daily or every second day, based on the needs and personal preferences. These updates should be focused on current sprint or quarterly goals, risk and blockers, requests for help, and any personal information you would like to share with your team.
+
+To keep the updates standardized, we are using the following template:
+
+```txt
+👉 Status update 👈
+
+What is my priority:
+<content>
+
+What went unexpected:
+<content>
+
+Where do I need help:
+<content>
+```
 
 #### Sprint reviews
 
@@ -178,6 +230,16 @@ TBD
 #### On-call
 
 TBD
+
+### Team slack channels
+
+- [#cloud-saas-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for Cloud SaaS team for all day to day communication within the team
+- [#cloud-saas](https://sourcegraph.slack.com/archives/C025BKWFPDY) - external channel for Cloud SaaS team where other Sourcegraphers can ask for help or leave questions for the team
+- [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) - integration with Cloud SaaS Jira project, all changes to the project including new issues, or issue status changes are automatically reported to this channel
+- [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization
+- [#cloud-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
+- [#cloud-research](https://sourcegraph.slack.com/archives/C02DU382HM4) - public channel for all the updates about user research related to Sourcegraph Cloud
+- [#cloud-gtm](https://sourcegraph.slack.com/archives/C025T3B3NAH) - a place to discuss Sourcegraph Gloud go to market strategy, including pricing, packaging, customers, and more!
 
 ## Product and technical documentation
 
