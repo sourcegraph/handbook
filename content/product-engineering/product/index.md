@@ -57,7 +57,7 @@ To help guide people within the product organization on career growth we are cre
 
 ### Document known product gaps and process
 
-THere are various areas without a clear owner: we need a list of those, what people should do in the meantime for each of them, and how to flag if somoene thinks they have found a product gap.
+THere are various problems, feature areas, or initiatives related to Product (and sometimes Engineering or other departments) without a clear owner: we need a list of those, what people should do in the meantime for each of them if we are not actively working on solving them, and how to report or add one if someone thinks they have found a new product gap.
 
 - Owner: TBD
 
