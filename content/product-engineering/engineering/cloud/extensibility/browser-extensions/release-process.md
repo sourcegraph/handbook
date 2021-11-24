@@ -39,7 +39,7 @@ Before releasing the browser extensions, you need to create developer accounts f
   - [ ] [Firefox](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#firefox-manual)
   - [ ] [Safari](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#safari)
 - [ ] Run browser extension e2e tests:
-  - [ ] `sg test bext-e2e`
+  - [ ] `sg test bext-build` & `sg test bext-e2e`
   - > Note: it will automatically run anyway before releasing from the `bext/release` branch
 
 ## Releasing Browser Extensions
