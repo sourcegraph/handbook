@@ -2078,3 +2078,13 @@ molly_weitzel:
   role: Software Engineer
   location: Boulder, CO, USA
   description: Molly lives in Boulder, CO with her husband Matthew. In her free time she enjoys outdoor activities such as rock climbing, running, hiking, and skiing.
+
+alex_ostrikov:
+  name: Alexander Ostrikov
+  pronouns: he/him
+  role: Software Engineer
+  location: St. Petersburg, Russia 🇷🇺
+  github: sashaostrikov
+  email: alex.ostrikov@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/alexander-ostrikov-a4027810b/)'
+  description: Alexander (but you can also call him Alex or Sasha) lives in St. Petersburg, Russia with his fiancée Olga and their cat (with a _brilliant_ name — Kot ("cat" in Russian)). When not coding, he likes spending his time learning all the memes in the world, listening to music, singing (in fact mostly screaming) some metal songs, playing drums (once in a blue moon, to be honest), but his favourite pastime is making endless wallpapers with photos of Kot being weirdly zoomed into and cropped.
