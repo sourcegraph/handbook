@@ -40,6 +40,8 @@ The best way to contact the cloud-devops team is in the #cloud-devops slack chan
 ### Q4 Goals
 
 - Assist the Cloud-SaaS team with [RFC 525](https://docs.google.com/document/d/1FgrB6VIFT9eNQHmL4C0zipS9Vr8jfQ5n5IASy17gT7c/edit#heading=h.trqab8y0kufp)
-- Setup a pre-production environment to aid in change management. This environment will
+- Stabilize our CD environment
+- Create a pre-production environment for Cloud
+- Standardize our monitoring, logging and error reporting systems
 - Migrate our zonal cluster to a regional cluster and document the process
 - Complete assigned security tasks on behalf of security and provide evidence of completion
