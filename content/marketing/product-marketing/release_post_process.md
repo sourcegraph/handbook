@@ -33,5 +33,9 @@ You can tell when the release is cut by following along in #progress.
 For any images added to the release post, include the `blog-images` class as follows, and be sure to add an `alt` description for hover or screen readers:
 
 ```html
-<img src="https://my-image.jpg" class="blog-images" alt="This description will be shown on hover or to people with assistive readers"/>
+<img
+  src="https://my-image.jpg"
+  class="blog-images"
+  alt="This description will be shown on hover or to people with assistive readers"
+/>
 ```
