@@ -43,10 +43,10 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [TalentWall](./hiring/guide_to_using_talentwall.md#guide-to-using-talentwall)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
-## [Resources for Recruiters](./resources_for_recruiters.md)
+## Resources for Recruiting Team
 
 - The interview process
-  - [Kicking off a new search](./resources_for_recruiters.md)
+  - [Kicking off a new search](./before_the_interview.md)
 - Interviewing
   - [Recruiter screen](./types_of_interviews.md#recruiter-screen)
 - [Interview training & best practices](./interview_training.md)
@@ -56,7 +56,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [Ashby](https://app.ashbyhq.com/access), our metrics tool
   - LinkedIn Recruiter, our sourcing tool
 - Recruitment branding
-  - [Where we post our jobs](./hiring/job_boards.md)
+  - [Where we post our jobs](./hiring/recruitment_branding.md)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
 ## [Resources for Recruiting Operations](./resources_for_recruiting_operations.md)
@@ -211,7 +211,3 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
     </div>
   </div>
 </section>
-
-## Recruitment Branding & Social Media
-
-- Coming Soon...
