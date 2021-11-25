@@ -1,3 +1,6 @@
+# Recruitment Branding
+This page outlines our recruitment branding initiatives: where we post our jobs, and well as posting best practices.
+
 # Job boards
 
 We welcome suggestions for more places that we can post!
@@ -32,3 +35,7 @@ We want to make sure our job postings reach a wide audience and that we're posti
 - https://www.womenintechnology.org/job-board
 - https://jobs.girlsintech.org/products
 - https://careercenter.anitab.org/
+
+# Posting best practices 
+
+Coming soon
