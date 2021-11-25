@@ -6,7 +6,7 @@
     "dev": "yarn run next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "generate-redirects": "node src/scripts/generate-redirects.mjs",
-    "netlify-build": "yarn run copy-assets && next build && next-sitemap && next export && yarn run generate-redirects",
+    "netlify-build": "yarn run copy-assets && next build && next-sitemap && next export && yarn run generate-redirects && yarn run copy-functions",
     "build": "next build",
     "postbuild": "next-sitemap",
     "check-links": "node src/scripts/check-links.mjs",
@@ -17,6 +17,7 @@
     "eslint": "eslint 'src/**/*.?(m)[jt]s?(x)'",
     "test": "echo \"it works fine on my computer\" && exit 1",
     "copy-assets": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node src/scripts/copy-assets.ts",
+    "copy-functions": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node src/scripts/copy-functions.ts",
     "validate-data": "find data -name *.yml | sed -E \"s/data\\/(.*).yml/\\1/\" | xargs -I '{}' ajv -d data/{}.yml -s schema/{}.schema.json --errors=text"
   },
   "repository": {
