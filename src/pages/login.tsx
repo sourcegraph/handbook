@@ -49,9 +49,6 @@ export default function LoginPage(): JSX.Element {
                     <div data-netlify-identity-menu={true} />
                 </section>
             </div>
-
-
-
         </>
     )
 }
