@@ -1,5 +1,6 @@
 # Before the interview
-This page outlines all the steps both the Hiring Manager and Recruiting team need to take to kick off a new search.  All steps outlined below need to take place before any formal interviewing occurs.
+
+This page outlines all the steps both the Hiring Manager and Recruiting team need to take to kick off a new search. All steps outlined below need to take place before any formal interviewing occurs.
 
 ## Steps to Open a New Job
 
@@ -121,4 +122,3 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
 - The Recruiter declines all other candidates, marks the candidate as "Hired" in Greenhouse, closes the job (if applicable), sends a hire report to Onboarding Email, Hiring Manager, VP Talent and Talent Team Manager (if applicable), and exports the candidate to Bamboo.
 - The People Operations team then works with the candidate to onboard them and get them set up for their first day.
-
