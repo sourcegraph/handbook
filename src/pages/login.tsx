@@ -3,7 +3,7 @@ import Script from 'next/script'
 import React from 'react'
 
 declare const netlifyIdentity: any
-declare const window: { netlifyIdentity: any }
+declare const window: { netlifyIdentity: any, location: any }
 
 export default function LoginPage(): JSX.Element {
     return (
@@ -12,6 +12,9 @@ export default function LoginPage(): JSX.Element {
                 id="netlify-identity-widget"
                 src="https://identity.netlify.com/v1/netlify-identity-widget.js"
                 onLoad={() => {
+
+                    console.log('onLoad');
+
                     const compareDate = (exp: number) => {
                         const currentTime = Date.now()
                         if (currentTime > exp) {
@@ -34,10 +37,12 @@ export default function LoginPage(): JSX.Element {
                             if (!user) {
                                 window.netlifyIdentity.on('login', () => {
                                     console.log('just got a new login')
-                                    // redirect()
+                                    window.location.reload();
                                 })
                             }
                         })
+                    } else {
+                        console.log('no luck');
                     }
                 }}
             />
