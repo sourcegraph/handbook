@@ -64,6 +64,25 @@ See [security goals and priorities](../../../../company/strategy/cloud/security/
 
 ## How to work with us
 
+We're here to help so reach out to us at security@sourcegraph.com with any questions you may have. Sourcegraph employees can reach us in the #security Slack channel.
+
+### Security Questionnaires
+
+We're always happy for teams to [request security code reviews](secure-code-review.md).
+
+Security questionnaires for new and existing customers should [follow the process here](../../../../sales/salessecurity.md) - feel free to message us on #security too.
+
+### Questions and Support Requests
+
+Security questions and support requests should be raised in #security:
+
+1. Click the lightning bolt below the Slack message box in #security
+2. Select an option at the top of the menu
+3. Fill out the questions
+4. Tag @security-support in the resulting thread if urgent
+
+Reach out to us on #security if you have any doubts, or for any reason feel like our process can't work for you in a particular case.
+
 ### Security Ambassador Program
 
 In an effort to work closely with our teammates and shift security focus more into the development process, we are pleased to introduce the Security Ambassador program which will align each one of our security engineers with an engineering organization.
@@ -199,23 +218,6 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
   </tr>
   </table>
-
-### Security Questionnaires
-
-We're always happy for teams to [request security code reviews](secure-code-review.md).
-
-Security questionnaires for new and existing customers should [follow the process here](../../../../sales/salessecurity.md) - feel free to message us on #security too.
-
-### Questions and Support Requests
-
-Security questions and support requests should be raised in #security:
-
-1. Click the lightning bolt below the Slack message box in #security
-2. Select an option at the top of the menu
-3. Fill out the questions
-4. Tag @security-support in the resulting thread if urgent
-
-Reach out to us on #security if you have any doubts, or for any reason feel like our process can't work for you in a particular case.
 
 ---
 
