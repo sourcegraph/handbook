@@ -8,7 +8,7 @@ import mkdirp from 'mkdirp'
 
 import { FUNCTIONS_FOLDER } from '../lib/constants'
 
-const TARGET_FOLDER = 'out/netlify/functions'
+const TARGET_FOLDER = 'netlify/functions'
 
 export default async function copyFiles(): Promise<void> {
     const targetFiles = globby.sync(['**/*.js'], { cwd: path.join(process.cwd(), FUNCTIONS_FOLDER) })
