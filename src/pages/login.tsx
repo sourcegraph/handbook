@@ -16,7 +16,7 @@ export default function LoginPage(): JSX.Element {
                         const currentTime = Date.now()
                         if (currentTime > exp) {
                             console.log('Your identity session has expired')
-                            netlifyIdentity.logout();
+                            netlifyIdentity.logout()
                         } else {
                             console.log("the token hasn't expired, yet")
                             // redirect()
@@ -25,19 +25,19 @@ export default function LoginPage(): JSX.Element {
                     if (window.netlifyIdentity) {
                         // Check if the JWT token is expired, if so log out the user
                         netlifyIdentity.on('login', (user: { token: { expires_at: any } }) => {
-                            console.log(user.token.expires_at);
-                            compareDate(user.token.expires_at);
-                        });
+                            console.log(user.token.expires_at)
+                            compareDate(user.token.expires_at)
+                        })
                         // after a new, successful login, Redirect to the main page
                         window.netlifyIdentity.on('init', (user: any) => {
                             console.log('window.netlifyIdentity.on(init)', user)
                             if (!user) {
                                 window.netlifyIdentity.on('login', () => {
-                                    console.log('just got a new login');
+                                    console.log('just got a new login')
                                     // redirect()
-                                });
+                                })
                             }
-                        });
+                        })
                     }
                 }}
             />
@@ -49,9 +49,6 @@ export default function LoginPage(): JSX.Element {
                     <div data-netlify-identity-menu={true} />
                 </section>
             </div>
-
-
-
         </>
     )
 }
