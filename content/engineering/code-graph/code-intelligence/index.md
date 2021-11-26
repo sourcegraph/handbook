@@ -62,9 +62,7 @@ Our iterations last two weeks and are comprised of the following:
   1. Add any agenda items that should be discussed.
   1. Review any existing agenda items and be prepared to discuss them.
 
-
 - Team Updates: Each day, our Daily Standup Bot prompts us to add a text check-in by answering what we worked on the day before, what we're planning to work on next, and if there are any current blockers.
-
 
 We track most of our work as [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
 
