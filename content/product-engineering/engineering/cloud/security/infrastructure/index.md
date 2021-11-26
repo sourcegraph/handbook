@@ -73,7 +73,7 @@ For instructions on how to deploy these projects, see [GKE Deployment Playbooks]
 ### sourcegraph-security-logging
 
 - Currently ingests all stackdriver logs from the projects `sourcegraph-dev`(cloud) and `sourcegraph-dogfood`(dogfood). Will later ingest logs from other sources using additional deployments within the cluster.
-- Currently ingests all published SCC (Security Command Center) findings and posts critical / highs to internal slack channel #security-monitoring. 
+- Currently ingests all published SCC (Security Command Center) findings and posts critical / highs to internal slack channel #security-monitoring.
 
 ### sourcegraph-security-logging-stage
 
