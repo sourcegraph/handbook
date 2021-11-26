@@ -185,10 +185,7 @@ Please see below for a complete summary of spend limit, per diem, and hotel budg
 
 ### Dependent care budget:
 
-For business critical travel or travel required for your role, we offer a budget to pay for care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you. If you’re interested in using this benefit, feel free to submit a receipt via Expensify (_US teammates_) or via invoice (_International teammates_).
-
-- This benefit exists to support our teammates who have dependents by giving them the certainty of knowing that their dependents will be taken care of while they are on business critical company travel.
-- For any additional questions, please reach out to Finance and People Ops.
+If the company has requested for you to travel and you incur expenses for the care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you, we may consider assisting with the costs. If this applies to you, please reach out to People Ops with a motivation and a breakdown of the costs, and we'll see what we can do to help.
 
 ## How to book your trip in TripActions
 
