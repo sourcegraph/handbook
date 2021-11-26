@@ -5,6 +5,7 @@ Code intelligence provides features and services that help developers better und
 Quicklinks:
 
 - [Code Graph overall strategy](../index.md)
+- [Product & Engineering strategy](../../../../product-engineering/strategy.md)
 - [Code intelligence backlog](https://github.com/orgs/sourcegraph/projects/211)
 - [Latest demo](https://www.loom.com/share/b76c3ce971d9498197d4b664a20b20a8)
 - [Documentation](https://docs.sourcegraph.com/code_intelligence)

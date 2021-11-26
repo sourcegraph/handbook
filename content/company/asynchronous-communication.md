@@ -88,7 +88,7 @@ Additionally, here are some other tips we've found work well:
 - **Share things while they’re still in work-in-progress**. Aim for progress, not perfection. We all want to get things done first and then share, but so much feedback can be collected and comments can be made while you are offline. You can make notes on your work stating something is going to change or you are waiting for X to go on with a certain section to notify reviewers of the state of your work.
 - **Never assume.** It is best to include more context than to give room to misinterpretation.
 - **Share**. Don’t make others hunt for information.
-- **Communicate your work preferences.** We all work differently and have preferred ways of communication. Let your teammates know, this will help everyone be more empathetic and conscious about collaboration. Create a rudimentary README that clarifies how you work. [The support team has some great examples](../support/support-bios.md).
+- **Communicate your work preferences.** We all work differently and have preferred ways of communication. Let your teammates know, this will help everyone be more empathetic and conscious about collaboration. Create a rudimentary README that clarifies how you work. [The support team has some great examples](../support/bios/index.md).
 - **Summarize**. If your documentation ends up being too long, consider adding a summary, in the beginning, to help people consider if this is what they are looking for.
 - **Consider which tool to use**. Think about what you are working on and which is the best tool to discuss it, iterate and communicate.
 - **Know when _not_ to meet**. Ask yourself: is this meeting necessary or could we work on it asynchronously?

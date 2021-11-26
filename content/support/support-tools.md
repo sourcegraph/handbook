@@ -33,7 +33,7 @@ In order to have good security and risk mitigation practices, only a subset of t
 
 ## Managed instance access
 
-In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](./support-managed-instances.md) (you can find which customers have a managed instance [here](./customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, and/or Mariam. One of them can help! If it's a p1 issue and none of them are available, simply request the logs in the #delivery Slack channel from the Delivery team.
+In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](./support-managed-instances.md) (you can find which customers have a managed instance [here](./customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, Kelvin and/or Mariam. One of them can help! If it's a p1 issue and none of them are available, simply request the logs in the #delivery Slack channel from the Delivery team.
 
 Read more about working with managed instances [here](./support-managed-instances.md).
 
@@ -73,6 +73,10 @@ The [Command Line Generator](https://github.com/sourcegraph/support-generator) i
 ### Sourcegraph Graphql Voyager
 
 [Sourcegraph Graphql Voyager](https://sourcegraph.github.io/support-tools-internal/Graphql-Voyager/) is a bootstraped tool that allows users to visually explore the Sourcegraph GraphQL API as an interactive graph.
+
+Go to https://cors-anywhere.herokuapp.com/corsdemo and press "request temporary access to the demo server".
+
+Enter your Sourcegraph.com access token and click "Submit".
 
 ### Sourcegraph Debugging Sheet (WIP)
 
@@ -139,8 +143,8 @@ When you close a ticket, these are the required fields you must populate:
 
 - **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to our OKRs to improve our docs.
 - **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion.
-- **Have you written a case summary?** Holds the team accountable for populating the [resolved case database](zendesk-ticket-exporter.md)
-- **Have you uploaded the summary to the GitHub repository?** Holds the team accountable for populating the [resolved case database](zendesk-ticket-exporter.md)
+- **Have you written a case summary?** Holds the team accountable for populating the [resolved case database](enablement/zendesk-ticket-exporter.md)
+- **Have you uploaded the summary to the GitHub repository?** Holds the team accountable for populating the [resolved case database](enablement/zendesk-ticket-exporter.md)
 - **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 - **Official type:** Designates whether this is a question, defect report, or help request
 - **Official priority:** Designates whether the priority is p1 or p2 per our definitions outlined in our [prioritization guidelines](support-prioritization.md).

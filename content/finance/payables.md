@@ -33,4 +33,6 @@ If you have a purchase that you’d like to explain/clarify post about it in the
 
 ## Getting invoices paid
 
-If you intend to make a purchase that will be paid by invoice (e.g., if it's too large to pay by credit card), send it to [ap@sourcegraph.com](mailto:ap@sourcegraph.com). The finance & accounting team will ask any questions as needed, and submit it for payment.
+If you intend to make a purchase that will be paid by invoice (e.g., if it's too large to pay by credit card), send it to [ap@sourcegraph.com](mailto:ap@sourcegraph.com) with the vendor's W-9 (if a new vendor). It is the responsibility of the purchaser to obtain the vendor W-9. Invoices will not be paid without this.
+
+The finance & accounting team will ask any questions as needed, and submit it for payment.

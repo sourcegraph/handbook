@@ -4,7 +4,7 @@
 
 ### 1. Secure Sourcegraph Cloud for private code (due end of 2021-July)
 
-**Problem:** The [Core application team](../../../../engineering/core-application/index.md) is working toward [private code on Sourcegraph Cloud](index.md). Prior to allowing users to index their own private code with Sourcegraph, we need confidence that we can proactively identify and resolve security issues. We also need to ensure that we're protected against known security flaws.
+**Problem:** The [Cloud SaaS team](../../../../product-engineering/engineering/cloud/saas/index.md) is working toward [private code on Sourcegraph Cloud](index.md). Prior to allowing users to index their own private code with Sourcegraph, we need confidence that we can proactively identify and resolve security issues. We also need to ensure that we're protected against known security flaws.
 
 **Milestones:**
 
@@ -22,7 +22,7 @@ These are goals that we have not started working on, but expect to begin work on
 
 ### 1. Secure Sourcegraph Cloud for SMBs
 
-**Problem:** The [Core application](../../../../engineering/core-application/index.md) team is working toward [enabling Sourcegraph Cloud as an alternative to on-premise deployments](../core-application/index.md). To be confident that Sourcegraph Cloud is a secure alternative to Sourcegraph on-premise, we need a high degree of confidence in our security posture. We'll do this by improving visibility across our entire threat surface, as well as continuously and proactively ensuring the efficacy of our security controls.
+**Problem:** The [Cloud SaaS team](../../../../product-engineering/engineering/cloud/saas/index.md) team is working toward [enabling Sourcegraph Cloud as an alternative to on-premise deployments](../../../../product-engineering/engineering/cloud/saas/index.md). To be confident that Sourcegraph Cloud is a secure alternative to Sourcegraph on-premise, we need a high degree of confidence in our security posture. We'll do this by improving visibility across our entire threat surface, as well as continuously and proactively ensuring the efficacy of our security controls.
 
 1. We have confidence that our centralized logging infrastructure is production-ready, and we have relevant tooling and testing environments configured.
 2. We're confident that we're ingesting logs from all services that are tightly coupled to our Cloud deployment. This is anything that directly interacts with our cloud deployment with elevated privileges, or directly allows authentication to these services.

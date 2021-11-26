@@ -821,7 +821,7 @@ adeola_akinsiku:
   location: Atlanta, GA, USA 🇺🇸
   github: adeola-ak
   email: adeola@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/adeola-a-b0b6b270)'
+  links: '[LinkedIn](https://www.linkedin.com/in/adeola-a-b0b6b270), [Readme](../../support/bios/adeola-readme.md)'
   description: Adeola joins Sourcegraph fresh out of an engineering bootcamp after years of doing work that she never felt challenged or very excited about. Having studied Finance in undergrad, she knows a thing or two about credit and managing money, but really loves to talk about all things code. Adeola finds life to be awfully boring without purpose and meaning, and strives to become a better person both professionally and personally everyday. Real connections mean a lot to Adeola and she loves to engage with people who feel the same way. Outside of work, she loves going out to eat, watching basketball, sniffing candles, reading and relaxing.
 
 patrick_dubroy:
@@ -841,7 +841,7 @@ beatrix_woo:
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/wbeatrix/), [@3eatrix](https://www.twitter.com/3eatrix/)'
+  links: '[LinkedIn](https://www.linkedin.com/in/wbeatrix/), [@3eatrix](https://www.twitter.com/3eatrix/), [Readme](../../support/bios/bee-readme.md)'
   pronunciation: '[Pronounce my name 🔊](https://www.youtube.com/watch?v=aZWHsV96NqY)'
   description: 'Originally from Hong Kong, Beatrix is now residing in the sunny San Diego with her husband and their Shiba Inu, Goku. She was working as an analyst and has worked for Morgan Stanley and Uber before she picked up her old passion in coding. In her free time, Beatrix likes to spend time with her family, learn about different technologies, build mechanical keyboards, and play [League of Legends](https://na.op.gg/summoner/userName=biues) with friends.'
 
@@ -1007,7 +1007,7 @@ dan_mckean:
   location: Shaftesbury (Dorset), UK 🇬🇧
   github: dan-mckean
   email: dan.mckean@sourcegraph.com
-  links: '[Readme!](../../product/readmes/dan-mckean-readme.md)'
+  links: '[Readme!](../../product-engineering/product/readmes/dan-mckean-readme.md)'
   description: "Dan grew up in the South of England, and (with a detour via London) ended up in Dorset in the south west, a county with beautiful coast (but lives as far from the sea as it's possible to get – though not deliberately!) He lives with his wife (Emma), four kids (7y, 5y, 2x14m) and 3-legged springer spaniel (9y). His spare time is largely spent chasing his twin identical boys in an effort to prevent injury. Any (genuinely) spare time is spent trying to make things out of wood."
 
 cassie_melani:
@@ -1642,7 +1642,7 @@ jason_yavorska:
   location: Leiden, NL 🇳🇱 and part of the year in Odessa, UA 🇺🇦
   github: jyavorska
   email: jason.yavorska@sourcegraph.com
-  links: '[Twitter](https://twitter.com/j4yav), [Lichess](https://lichess.org/@/j4yav), [LinkedIn](https://linkedin.com/in/jyavorska), [Personal Site](https://metaluna.io), [README](../../product/readmes/jyavorska-readme.md)'
+  links: '[Twitter](https://twitter.com/j4yav), [Lichess](https://lichess.org/@/j4yav), [LinkedIn](https://linkedin.com/in/jyavorska), [Personal Site](https://metaluna.io), [README](../../product-engineering/product/readmes/jyavorska-readme.md)'
   description: 'Jason was born in the United States, but moved to the Netherlands in 2015. A big part of that move was due to having a big interest in history and classical arts and music, and living here provides a nice base for exploration. He has an international family with most parts in the United States and Ukraine, so often is traveling between these places. He has two young children, a daughter and younger son, and enjoys food, travel, guitar, fantasy and science fiction books, and (retro) technology. His personal passion is [helping kids learn to code](https://metaluna.io/learn/).'
 
 tamar_joyeux:
@@ -2017,3 +2017,94 @@ dan_diemer:
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
   description: Dan lives in Whitefish, MT with his partner Zaidee, cat Poe, and dog Calvin. Dan studied Computer Science in college but quickly realized being a developer was not for him. Moving to a Solutions Engineer role, Dan began working more with customers and diving into Dev Ops and product deployment. Outside of work, Dan loves beating his friends at video games, skiing, listening to/ writing music, talking hockey, playing water polo, and trying goalie in whatever sport will take him next.
+
+carson_hopkins:
+  name: Carson Hopkins
+  email: carson.hopkins@sourcegraph.com
+  github: hopkinscl
+  pronouns: she/her
+  role: Senior Customer Engineer
+  location: Brooklyn, NY, USA 🇺🇸
+  description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
+
+kevin_wojkovich:
+  name: Kevin Wojkovich
+  email: kevin.wojkovich@sourcegraph.com
+  github: kevinwojo
+  pronouns: he/him
+  role: Software Engineer, Delivery
+  location: Chicago, IL, USA 🇺🇸
+  description: Kevin lives in the Rogers Park neigborhood in Chicago, IL. He's worked within the DevOps and Infrastructure space across many industries including crytpocurrency, finance, retail, and law enforcement. When not working, Kevin enjoys biking, going to the gym, cooking, bread-making, and watching cartoons.
+
+brett_hayes:
+  name: Brett Hayes
+  email: brett.hayes@sourcegraph.com
+  github: bretthayes
+  role: Web Developer, Brand
+  location: Ontario, Canada 🇨🇦
+  description: Brett sparked his interest in design and programming when he first discovered modding map skins and projectiles to do weird things in the game of Halo. This became the catalyst to his self-taught career in software and web development. He started consulting after graduating high school and has had the pleasure of working for a handful of startups as well as Co-founding a few of his own. He’s worked in many industries such as retail, edtech, fintech, and automotive and brings over a decade of experience in software and web development to Sourcegraph. Being creative at heart with an analytical mind, Brett has a knack for his craft and is passionate about design and web technologies. Away from his mechanical keyboard, you can find him photographing candid moments, snowboarding with his wife, tinkering with his network rack, playing or writing music, or wrenching on his car.
+
+olivia_simpson:
+  name: Olivia Simpson
+  email: olivia@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/olivia-simpson-9a8a1835/)'
+  github: olivia488
+  role: Program Manager, Demand Generation Campaigns
+  location: New York, NY, USA
+  description: Olivia is originally from Park Ridge, IL, but now lives in Manhattan with her fluffy corgi. Prior to joining Sourcegraph, Olivia held different roles at high-growth startups, where she discovered a passion for demand generation marketing. In her free time, she enjoys walking her dog in Central Park, meeting up with friends, and finding fun new Peloton rides to try!
+
+amy_johnson:
+  name: Amy Johnson
+  email: amy.johnson@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/amy-johnson-2367a4137/)'
+  github: amyjohnsonSG
+  role: Accountant
+  location: Trabuco Canyon, CA, USA
+  description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
+
+Daniel_Gwyn:
+  name: Daniel Gwyn
+  email: daniel.gwyn@sourcegraph.com
+  links: '[LinkdIn](https://www.linkedin.com/in/daniel-gwyn-6b9ab6161/)'
+  github: danieltgwyn
+  role: Sales Dev Rep
+  location: Raleigh, NC, USA
+
+molly_weitzel:
+  name: Molly Weitzel
+  email: molly.weitzel@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/mollyweitzel/)'
+  github: mollylogue
+  role: Software Engineer
+  location: Boulder, CO, USA
+  description: Molly lives in Boulder, CO with her husband Matthew. In her free time she enjoys outdoor activities such as rock climbing, running, hiking, and skiing.
+
+alex_ostrikov:
+  name: Alexander Ostrikov
+  pronouns: he/him
+  role: Software Engineer
+  location: St. Petersburg, Russia 🇷🇺
+  github: sashaostrikov
+  email: alex.ostrikov@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/alexander-ostrikov-a4027810b/)'
+  description: Alexander (but you can also call him Alex or Sasha) lives in St. Petersburg, Russia with his fiancée Olga and their cat (with a _brilliant_ name — Kot ("cat" in Russian)). When not coding, he likes spending his time learning all the memes in the world, listening to music, singing (in fact mostly screaming) some metal songs, playing drums (once in a blue moon, to be honest), but his favourite pastime is making endless wallpapers with photos of Kot being weirdly zoomed into and cropped.
+
+dominique_cole:
+  name: Dominique "Dom" Cole
+  pronouns: he/him
+  role: Technical Recruiter
+  location: Austin, TX, USA 🇺🇸
+  email: dom.cole@sourcegraph.com
+  github: domcole
+  links: '[LinkedIn](https://www.linkedin.com/in/dominiquecole/)'
+  description: Dom lives in Austin, TX with his wife (Alicia), son (Caden), and dog (Omega). He enjoys playing and watching sports (basketball & football), barbecuing, traveling, and spending time with family and friends.
+
+jonathan_ayers:
+  name: Jonathan Ayers
+  pronouns: he/him
+  role: Senior People Partner
+  location: Seattle, WA, USA 🇺🇸
+  email: jonathan.ayers@sourcegraph.com
+  github: jonathanayers
+  links: '[LinkedIn](https://www.linkedin.com/in/jonayershr/)'
+  description: Jon lives in Seattle, WA with his partner (Valerie) and dog (Seymour). In his free time he enjoys triathlon training (running and biking more than swimming!) and building excel data dashboards for everything. Prior to Sourcegraph, Jon helped grow Mapbox from 300 to 800+ employees, USIG from 140 to 1200+ employees, and spent 4 years with ADP consulting helping high growth clients in the 150 to 1000 employee range. Jon is food motivated and has a soft spot for tacos, soft pretzels, roasted brussel sprouts, and sour beer.
