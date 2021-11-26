@@ -26,7 +26,7 @@ The origin of our work is the core of Sourcegraph, first implemented as [srclib]
 
 ## Direction and strategy
 
-See [Code intelligence strategy](../../../../strategy/code-graph/code-intelligence/index.md)
+See [Code intelligence strategy](../../../../company/strategy/code-graph/code-intelligence/index.md)
 
 ## Overview
 
