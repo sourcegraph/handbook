@@ -90,25 +90,25 @@ These tie back to [FY22 Q4 Product/Engineering OKRs](../../../goals/2022_Q4.md#p
 
 **Cross repository and dependency navigation**
 
-  We believe this is the global code graph’s killer feature. It elevates the code navigation experience to a new level of cross-project analysis. It includes enabling precise cross-repository navigation and the ability to navigate to any third party dependency a repository references. We're solving this initially on Sourcegraph Cloud and plan to replicate the same functionality for on-premise usage.
+We believe this is the global code graph’s killer feature. It elevates the code navigation experience to a new level of cross-project analysis. It includes enabling precise cross-repository navigation and the ability to navigate to any third party dependency a repository references. We're solving this initially on Sourcegraph Cloud and plan to replicate the same functionality for on-premise usage.
 
 **Auto-indexing on-prem goes into Beta:**
 
-  The current set up experience is not scalable for customers with a large amount of repositories. Enabling auto-indexing would mean a lower barrier for entry, a seamless experience and more engineers using precise code intelligence.
+The current set up experience is not scalable for customers with a large amount of repositories. Enabling auto-indexing would mean a lower barrier for entry, a seamless experience and more engineers using precise code intelligence.
 
-  Building the code graph also means we need to generate and store increased amounts of LSIF data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
+Building the code graph also means we need to generate and store increased amounts of LSIF data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
 
-  Once we have validated our Alpha solution and have proven it’s running successfully at three customers, the next step is monitoring and weeding out any issues that might arise from our first trials to move on-prem auto-indexing into Beta. At this point we’ll be aiming to roll it out to a larger number of customers.
+Once we have validated our Alpha solution and have proven it’s running successfully at three customers, the next step is monitoring and weeding out any issues that might arise from our first trials to move on-prem auto-indexing into Beta. At this point we’ll be aiming to roll it out to a larger number of customers.
 
 **Ship precise language support**
 
-  We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision. We're currently focusing on shipping Kotlin, Protobuf and a revamped version of our JS/TS indexer. Our next step is adding auto-indexing and cross dependency navigation for JS and TS to our on-prem offeting.
+We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision. We're currently focusing on shipping Kotlin, Protobuf and a revamped version of our JS/TS indexer. Our next step is adding auto-indexing and cross dependency navigation for JS and TS to our on-prem offeting.
 
 **Improve the user experience of code navigation and code intelligence**
-  
-  Begin measuring and reporting time-to-value as a metric so that we can understand and improve retention, activation, and sign-ups, and know where the high ROI items are for delivering a unified experience in future quarters.
 
-  Conduct research that helps us understand adoption drivers and pain points with the aim of identifying concrete improvements to increase discoverability and enhance the navigation experience.
+Begin measuring and reporting time-to-value as a metric so that we can understand and improve retention, activation, and sign-ups, and know where the high ROI items are for delivering a unified experience in future quarters.
+
+Conduct research that helps us understand adoption drivers and pain points with the aim of identifying concrete improvements to increase discoverability and enhance the navigation experience.
 
 ### What's next and why
 
