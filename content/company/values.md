@@ -40,7 +40,7 @@ Everyone at Sourcegraph has the power and the responsibility to improve Sourcegr
 
 > “Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you and you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again.” - Steve Jobs
 
-A few examples of how we encourage high agency are by being a [handbook-first](../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, which allows anyone to change how the business operates, and by empowering engineers to spend time on projects they believe in through our policy of [innovation time](../engineering/index.md#innovation-time).
+A few examples of how we encourage high agency are by being a [handbook-first](../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, which allows anyone to change how the business operates, and by empowering engineers to spend time on projects they believe in through our policy of [innovation time](../product-engineering/engineering/index.md#innovation-time).
 
 With agency comes responsibility; teammates are expected to take initiative and engage in collaboration when exercising their agency. If you feel that something is important, then advocate for it or [make a decision](../communication/decisions.md)! If you feel like you're using the wrong tools for the job or doing the wrong thing, then you're responsible for quickly voicing that concern, and engaging with your teammates to find the solution that is the best for the team. Do not ever assume or wait for top-down change. If something is broken for you or your team, then fix it for you or your team, and then share that fix in case other individuals or teams have the same problem.
 
@@ -127,8 +127,8 @@ Here are some ways that we support learning, teaching, and knowledge-sharing at 
 - We aim to provide a high-quality [onboarding experience](../people-ops/onboarding/index.md) for new teammates by providing them with the learning materials and guidance they need to get started.
 - We have an [education budget](../finance/travel.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
 - We organize occasional hackathons internally, which are opportunities to learn, experiment, and share knowledge.
-- Product and Engineering teams host regular [Demo days](../product/demo_day.md) in which we share progress and learn from each other.
+- Product and Engineering teams host regular [Demo days](../product-engineering/demo-day.md) in which we share progress and learn from each other.
 - We teach each other new things in [Brain food sessions](../communication/index.md#brain-food)
 - We encourage self-directed growth.
 - We strive to support teammates who are interested in making career changes by [switching teams or roles.](../people-ops/switching-teams.md)
-- We have a framework for supporting [early-career engineers](../engineering/hiring/early-career-engineers.md).
+- We have a framework for supporting [early-career engineers](../product-engineering/engineering/hiring/early-career-engineers.md).

@@ -12,6 +12,7 @@ The goal of these content guidelines is to help us to:
 - [Actionable language](./actionable_language.md) gives us specific patterns to follow in product and UX copywriting.
 - [Style & mechanics](./style_and_mechanics.md) helps us be clear and consistent in our writing.
 - [Terminology guidelines](./terminology_guidelines.md) give us a source of truth for which words to use.
+- [Handbook Content Best Practices](../../handbook/editing/handbook-content-best-practices.md) helps with handbook-specific content structure.
 
 ## Effectiveness over correctness
 

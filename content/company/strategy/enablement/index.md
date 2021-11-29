@@ -28,7 +28,7 @@ We are focused on several themes to help make our one-year vision a reality. The
 
 Developing a component system leads to a consistent user experience, faster delivery, and more inclusive design. To ensure better adoption and customer satisfaction with our product we are also focused on improving page rendering performance and perceived performance when a user interacts with the application.
 
-- FY22Q4 Key Result - All reusable components from the [Wildard Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=908%3A0) are implement and document. At the beginning of FY22Q4 there were 12 compoenets implemented.
+- FY22Q4 Key Result - All reusable components from the [Wildcard Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=908%3A0) are implemented and documented. At the beginning of FY22Q4 there were 12 components implemented.
 - FY22Q4 Key Result - Our developers confirm a high productivity rating (4+ average) when using the Wildcard component library. There is no baseline today.
 
 ### Reduce friction in deployment and upgrade
@@ -62,8 +62,8 @@ Code host connectivity, scalability, and reliability underpin all other features
 
 ## Team specific pages
 
-- [Repo Management](../../../engineering/enablement/repo-management/index.md) - [Strategy page](repo-management/index.md)
-- [Delivery](../../../engineering/enablement/delivery/index.md) - [Strategy page](delivery/index.md)
-- [Dev Experience](../../../engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
-- [Frontend Platform](../../../engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
+- [Repo Management](../../../product-engineering/engineering/enablement/repo-management/index.md) - [Strategy page](repo-management/index.md)
+- [Delivery](../../../product-engineering/engineering/enablement/delivery/index.md) - [Strategy page](delivery/index.md)
+- [Dev Experience](../../../product-engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
+- [Frontend Platform](../../../product-engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
 - [Handbook Strategy Page](handbook/index.md)

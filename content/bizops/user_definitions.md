@@ -28,20 +28,20 @@ People using Sourcegraph can be segmented into a number of different states, the
 
 A visitor is a unique person who showed up on the site and did anything, even just viewing the page. Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
 
-### Active user
+### Active user (Cloud)
 
 An active user is differentiated from a visitor by performing a qualifying event. These events are intended to represent someone who has **engaged with** and **received value** from the product; something that takes a person from their first search to establishing a habit around the core value proposition of the app. Qualifying events are [listed as 'Active' in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=live), and performing any single activity in that list makes a visitor an active user for the time period being measured.
 
 Qualifying events are not intended to be difficult, or prove that someone is a heavy/power user of the product. They are carefully selected to represent activities that indicate realized value from Sourcegraph.
 
-| Metric            | What                                                                       | Events                                                                                                                                                   |
-| ----------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Search            | Viewed search results, receive a code monitoring/saved search notification | `ViewSearchResults` `CodeMonitorEmailLinkClicked` `Saved Search Notification Sent` `ViewManageCodeMonitorPage` `SavedSearchCreated` `SavedSearchUpdated` |
-| Navigation        | View a file/repository/tree                                                | `ViewBlob` `ViewRepository` `ViewTree`                                                                                                                   |
-| Code intelligence | Hovered                                                                    | `hover`                                                                                                                                                  |
-| Extensibility     | Using Sourcegraph outside of the app                                       | `GoToCodeHostClicked` `editor.open.file`                                                                                                                 |
-| Batch changes     | Created or viewed a batch change                                           | TBD                                                                                                                                                      |
-| Code insights     | Created or viewed a code insight                                           | TBD                                                                                                                                                      |
+| Metric            | What                                                                       | Events                                                                                                          |
+| ----------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Search            | Viewed search results, receive a code monitoring/saved search notification | `SearchResultsFetched` `CodeMonitorEmailLinkClicked` `Saved Search Notification Sent` `SavedSearchEmailClicked` |
+| Navigation        | View a file/repository/tree                                                | `ViewBlob` `ViewRepository` `ViewTree` `ViewSearchNotebookPage`                                                 |
+| Code intelligence | Hovered                                                                    | `hover`                                                                                                         |
+| API docs          | Using Sourcegraph outside of the app                                       | `ViewRepositoryDocs`                                                                                            |
+| Batch changes     | Created or viewed a batch change                                           | TBD                                                                                                             |
+| Code insights     | Created or viewed a code insight                                           | TBD                                                                                                             |
 
 #### Unique Sourcegraph active users
 

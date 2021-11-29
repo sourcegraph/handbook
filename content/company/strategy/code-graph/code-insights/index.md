@@ -7,6 +7,7 @@ This page outlines the vision, strategy, and goals of the Code Insights team.
 Quick links:
 
 - [Code Graph overall strategy](../index.md)
+- [Product & Engineering strategy](../../../../product-engineering/strategy.md)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - Latest demo – private since the product is in beta; slack the #code-insights team or email feedback@sourcegraph.com if you're curious!
 - [Documentation](https://docs.sourcegraph.com/code_insights)
@@ -119,7 +120,7 @@ Users do not need to learn a new query language or format to use Code Insights. 
 
 ## Where we are now
 
-Code Insights is a [Beta Feature](../../../../product/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely remain in Beta into Q4.
+Code Insights is a [Beta Feature](../../../../product-engineering/product/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely remain in Beta into Q4.
 
 This means that the Code Insights team is singularly focused on bringing Code Insights into general availability. To reach that goal, Code Insights will be building stability, features, and core product experiences based on the feedback we get from our beta participants.
 
@@ -130,7 +131,8 @@ For what we have learned so far and how we are operationalizing those learnings,
 ### Top customer, support, sales and marketing issues
 
 - The biggest issues customers face, and that we're addressing, are the yet-to-be-built product gaps. See the docs page for [Current Limitations of Code Insights](https://docs.sourcegraph.com/code_insights/explanations/current_limitations_of_code_insights) for an up-to-date list.
-- Internally, the main task for Code Insights is determining the pricing and packaging
+- Internally, the main task for Code Insights is determining the pricing and packaging ([Pricing RFC](https://docs.google.com/document/d/1v-IH6FFdT2CfDv5QBEguSfjQvk2WvPrwRBaqCSq7g8Q/edit?pli=1#))
+- Code Insights has pings reliability issues due to the brittle analytic implementation in the early prototypes. We're currently fixing this and establishing [dedicated pings developer documentation](https://docs.sourcegraph.com/dev/background-information/insights/code_insights_pings).
 
 ### Competitive landscape
 
@@ -150,12 +152,11 @@ The next six months are focused on building a product that can quickly prove out
 
 ### Goals
 
-#### FY22Q3
+#### FY22Q4
 
-- KR 1: We have qualitative/anecdotal evidence that at least 3 customers have a manager/director/VP who is using code insights
-- KR 2: 50% of customers on 3.31+ make 10 code insights per customer, and have at least 5 weekly unique viewers of insights ([Looker dashboard](https://sourcegraph.looker.com/dashboards-next/209?Latest+Version=))
+- OKR: Get at least 1 Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature
 
-_See also [completed goals](../../../../engineering/code-graph/code-insights/goals_completed.md)_
+_See also [completed goals](../../../../product-engineering/engineering/code-graph/code-insights/goals_completed.md)_
 
 ### Themes (and What's next and why)
 
@@ -165,9 +166,9 @@ Our biggest pre-beta learning was that a nice GUI and quick flow to creating a u
 
 We will:
 
-- Continue abstracting complexity (example: views vs tables) unless necessary to expose it
-- Build new setup features to make it easier to track a variety of other use cases, like with regex capture groups
-- Explore what "quick set up" insights might be possible the first moment a customer uses insights
+- Continue abstracting complexity unless necessary to expose it
+- Build new setup features to make it easier to track language, library, or environment versions, like with regex capture groups
+- Prototype "quick set up" insights, tools, and documentation for the first moment a customer uses insights
 
 #### "Tracking" Use Case Needs
 
@@ -175,10 +176,10 @@ A major use case for Code Insights is tracking migrations and similar efforts. T
 
 We will:
 
-- Enable things like custom x-axis time ranges on Insights
 - Allow users to edit insights after creation
-- Explore additional chart visualizations that are helpful
 - Allow engineering leaders to export insights data to their preferred dashboards tools
+- Enable things like custom x-axis time ranges on Insights
+- Explore additional chart visualizations that are helpful
 - Explore integrations with Code Monitoring
 
 #### "Exploration" Use Case Needs
@@ -187,8 +188,8 @@ We've learned a second major use case for Code Insights is "exploring" to discov
 
 We will:
 
-- Explore new types of filters and "drilldowns"
 - Build support for clicking into insights to see the code changes behind them
+- Explore new types of filters and "drilldowns"
 
 #### Stability and Performance
 
@@ -205,8 +206,8 @@ In order to have a successful GA launch, we are also focused on the tasks requir
 
 We will:
 
-- Be planning for customer case studies and quotes
-- Align on pricing and packaging
+- Align on pricing and packaging ([Pricing RFC](https://docs.google.com/document/d/1v-IH6FFdT2CfDv5QBEguSfjQvk2WvPrwRBaqCSq7g8Q/edit?pli=1#))
+- Begin outreach for customer case studies and quotes
 - Build landing pages and marketing content ahead of the launch
 
 ### What we're not working on & why

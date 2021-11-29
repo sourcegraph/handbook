@@ -2,10 +2,10 @@
 
 There are two aspects of career roadmapping:
 
-1. Progressing the role/team of application engineer
+1. Progressing the role/team of application engineer (see our [career levels page](../cs-career-levels.md)
 2. Thinking through longer term plans and how to move into something outside of the team
 
-This page focuses on the latter, for now. It will be updated to also focus on the former once the career levels are complete for Customer Support (estimated delivery in FY22Q3).
+This page focuses on the latter.
 
 Creating your career roadmap is deeply personal. This is about you, your life, your happiness. Your manager’s role is to help you think through what you desire for yourself and support you on your journey. How long it takes to develop your roadmap, how many sessions, and the end result of it will vary. It will depend on where you are on your journey already. It will also depend on whether you like to work toward big milestones or if you are more of an incrementalist and prefer to focus on one step at a time. The only measure of success is that the roadmap is useful to you in planning where you want to go and/or planning how to get there.
 
