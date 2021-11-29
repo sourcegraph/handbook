@@ -9,7 +9,7 @@ Customers selected for application engineer assignment (whether post-sales strat
 All customers with an assigned application engineer (whether internal in nature only or communicated to the customer), benefit from the following:
 
 - The application engineer is always up to speed when an issue arises, no context building necessary
-- The application engineer maintains emulation of customer’s environment for faster testing (that CE has access to and is accessible by other application engineers on the team if backup is needed)
+- The application engineer maintains emulation of customer’s environment for faster testing (that CE has access to and is accessible by other application engineers on the team if backup is needed); at the application engineer's discretion if this is value-add.
 - The application engineer attends regular and ad-hoc customer meetings to streamline communication (this should be discussed with CE for pre-sales assignments)
 - The application engineer updates the [technical design documentation](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#) when they learn of new information/changes (and informs the CE of the update)
 - The application engineer has a recurring weekly check-in with the CE; some good standing questions:
@@ -17,6 +17,7 @@ All customers with an assigned application engineer (whether internal in nature 
   - What, if anything, is causing frustration for the customer?
   - What are we currently trying to make happen with this customer (our goals)?
   - What context would be useful to have for anything troubleshooting that may come up?
+- The application engineer and CE get to work together to decide how they want to approach things. If anything comes up that seems like professional services work, then it is important that they check-in with leadership to weigh the pros/cons of what is best for Sourcegraph to say yes vs no.
 
 There are two differences between post-sales strategic customers and pre-sales that allow us to offer this benefit and maintain flexibility where we need it:
 
