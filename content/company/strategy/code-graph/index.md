@@ -22,8 +22,6 @@ How our product works in terms of pricing, upgrade paths, auditing, single sign-
 
 By investing in well-integrated functionality we can deliver solutions that are more than the sum of their parts. Code visualizations powered by search and Code Intelligence can help with onboarding into a new codebase; Search Notebooks can provide a way to mix documentation with searches; Insights can lead to easy mitigation of multi-repo wide issues using Batch Changes. These kinds of examples require us to think through and build intuitive integrations between our teams.
 
-- No goal in this quarter since we are improving our measurement capability around what is most important here; we expect this to be a focus in Q1.
-
 ### Scale for Big Code
 
 We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../index.md#big-code).
