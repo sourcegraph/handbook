@@ -97,13 +97,13 @@ Any questions about user authentication should be routed to the Repository Manag
 
 ### Code intelligence
 
-**Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
+**Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
 Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../product-engineering/engineering/code-graph/code-intelligence/index.md).
 
 ### Search
 
-**Keywords**: `search`, `indexed search`, `indexing`, `diff search`, `symbols`, `keyword`, `filter`, `scope`, `version context`, `repogroup`, `saved search`, `code monitoring`
+**Keywords**: `search`, `indexed search`, `indexing`, `diff search`, `symbols`, `keyword`, `filter`, `scope`, `version context`, `repogroup`, `saved search`, `code monitoring`, `src search`
 
 The search team is divided into two sub-teams, search-product, and search-core. Search-product is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-core is focused on growing the global index on Sourcegraph Cloud.
 
@@ -125,7 +125,7 @@ Any questions about Sourcegraph extensions should be routed to the [Extensibilit
 
 ### Batch Changes
 
-**Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src-cli`, `automation`, `batch changes`
+**Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src batch`, `automation`, `batch changes`
 
 Any questions about Batch Changes should be routed to the [Batch Changes team](../product-engineering/engineering/code-graph/batch-changes/index.md).
 
