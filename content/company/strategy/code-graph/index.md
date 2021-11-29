@@ -8,9 +8,7 @@ Make finding, understanding, and editing code easier, no matter how complex it i
 
 ## Themes & Goals
 
-We are focused over the next year on several themes across Code Graph to make our mission a reality. We set our goals around these themes, so you can also see current FY22-Q4 goals as a bullet list under each theme.
-
-The current status of these can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only).
+We are focused over the next year on several themes across Code Graph to make our mission a reality. We also set quarterly goals around these themes; the current list and status of these can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only).
 
 ### Make the power of our features easier to find and use
 
@@ -23,8 +21,6 @@ How our product works in terms of pricing, upgrade paths, auditing, single sign-
 ### Deliver a unified experience
 
 By investing in well-integrated functionality we can deliver solutions that are more than the sum of their parts. Code visualizations powered by search and Code Intelligence can help with onboarding into a new codebase; Search Notebooks can provide a way to mix documentation with searches; Insights can lead to easy mitigation of multi-repo wide issues using Batch Changes. These kinds of examples require us to think through and build intuitive integrations between our teams.
-
-- No goal in this quarter since we are improving our measurement capability around what is most important here; we expect this to be a focus in Q1.
 
 ### Scale for Big Code
 
