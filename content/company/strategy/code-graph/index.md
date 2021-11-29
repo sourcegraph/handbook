@@ -8,9 +8,7 @@ Make finding, understanding, and editing code easier, no matter how complex it i
 
 ## Themes & Goals
 
-We are focused over the next year on several themes across Code Graph to make our mission a reality. We set our goals around these themes, so you can also see current FY22-Q4 goals as a bullet list under each theme.
-
-The current status of these can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only).
+We are focused over the next year on several themes across Code Graph to make our mission a reality. We also set quarterly goals around these themes; the current list and status of these can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only).
 
 ### Make the power of our features easier to find and use
 
