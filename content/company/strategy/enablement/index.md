@@ -28,7 +28,7 @@ We are focused on several themes to help make our one-year vision a reality. The
 
 Developing a component system leads to a consistent user experience, faster delivery, and more inclusive design. To ensure better adoption and customer satisfaction with our product we are also focused on improving page rendering performance and perceived performance when a user interacts with the application.
 
-- FY22Q4 Key Result - All reusable components from the [Wildard Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=908%3A0) are implement and document. At the beginning of FY22Q4 there were 12 compoenets implemented.
+- FY22Q4 Key Result - All reusable components from the [Wildcard Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=908%3A0) are implemented and documented. At the beginning of FY22Q4 there were 12 components implemented.
 - FY22Q4 Key Result - Our developers confirm a high productivity rating (4+ average) when using the Wildcard component library. There is no baseline today.
 
 ### Reduce friction in deployment and upgrade
