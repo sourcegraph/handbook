@@ -39,6 +39,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
 
    1. Ask our teammates in our #customer-support-internal Slack channel.
    2. If we collectively don't know the answer, then we engage engineering following the steps outlined [here](engaging-other-teams.md).
+   3. If ever an issue seems a bit bigger than helping a customer fix something that isn't working correctly or explaining how something works (for example, the customer needs to make a decision about doing something one way or another), then it's a good idea to loop in the CE and see if they want to offer any additional ideas/thoughts to the customer to help them from a strategic perspective.
 
 For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all).
 

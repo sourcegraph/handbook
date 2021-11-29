@@ -185,7 +185,7 @@ Please see below for a complete summary of spend limit, per diem, and hotel budg
 
 ### Dependent care budget:
 
-If the company has requested for you to travel and you incur expenses for the care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you, we may consider assiting with the costs. If this applies to you, please reach out to People Ops with a motivation and a breakdown of the costs, and we'll see what we can do to help.
+If the company has requested for you to travel and you incur expenses for the care of children, family members with hardships/disabilities, elderly, or pets who are fully dependent on you, we may consider assisting with the costs. If this applies to you, please reach out to People Ops with a motivation and a breakdown of the costs, and we'll see what we can do to help.
 
 ## How to book your trip in TripActions
 

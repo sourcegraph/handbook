@@ -14,6 +14,7 @@ The org is lead by [Serina Clark](../../../company/team/index.md#serina-clark) (
   - [Ryan Slade](../../../company/team/index.md#ryan-slade)
   - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta)
   - [Molly Weitzel](../../../company/team/index.md#molly-weitzel)
+  - [Alex Ostrikov](../../../company/team/index.md#alex_ostrikov)
 - [Delivery](delivery/index.md)
   - [Dan Mckean](../../../company/team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
   - TBH ([Engineering Manager](../roles.md#engineering-manager))
