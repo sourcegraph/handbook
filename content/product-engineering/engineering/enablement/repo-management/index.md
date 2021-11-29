@@ -15,7 +15,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
   - [Ryan Slade](../../../../company/team/index.md#ryan-slade)
   - [Indradhanush Gupta](../../../../company/team/index.md#indradhanush-gupta)
   - [Molly Weitzel](../../../../company/team/index.md#molly-weitzel)
-  - [Alex Ostrikov](../../../../company/team/index.md#alex_ostrikov)
+  - [Alex Ostrikov](../../../../company/team/index.md#alexander-ostrikov)
 
 ## Strategy
 
