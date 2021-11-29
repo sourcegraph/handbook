@@ -88,11 +88,12 @@ All events from eventLogger are sent to Amplitude except if explicitly added to 
 ## Amplitude Govern
 
 [Amplitude Govern](https://help.amplitude.com/hc/en-us/articles/360043750992-Govern-Manage-your-Amplitude-data-at-scale) allows us to manage our data within Amplitude itself (opposed to within data pipielines). The ways we currently use Govern are:
+
 - [Any new event](#adding-events-to-amplitude) is blocked from being visible in Amplitude until it's adapted (if necessary) to fit the following Amplitude "rules" and then unblocked by someone on the DataOps team
   - The event name is converted to object action framework in Proper Case
   - The event is set to active/inactive to follow our [Cloud active user definitions](user_definitions.md#active-user-cloud)
-  - The event is grouped in the appropriate category (such as ```Search and navigation``` or ```Code intel```)
-- Events can be merged if they represent the same action. For example, we deprecated an event that represented a sign-up in favor of a new event. In Govern, we can merge these two events to continue tracking sign-up events over time. 
+  - The event is grouped in the appropriate category (such as `Search and navigation` or `Code intel`)
+- Events can be merged if they represent the same action. For example, we deprecated an event that represented a sign-up in favor of a new event. In Govern, we can merge these two events to continue tracking sign-up events over time.
 
 ## A/B testing in Amplitude
 
