@@ -1315,6 +1315,19 @@
           40.016869
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alex Ostrikov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.315871238708496,
+          59.97563121816456
+        ]
+      }
     }
   ]
 }
