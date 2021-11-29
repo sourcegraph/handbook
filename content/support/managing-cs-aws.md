@@ -20,13 +20,13 @@ To access the CS-AWS server and run Docker commands you'll need to create a Secu
 Now that you've set up your SSH access credentials you can use the following command from inside the directory containing the `cse-aws.pem`:
 
 ```
-ssh -i "cse-aws.pem" ec2-user@ec2-18-219-230-121.us-east-2.compute.amazonaws.com
+ssh -i "cse-aws.pem" ec2-user@ec2-3-140-200-76.us-east-2.compute.amazonaws.com
 ```
 
 You may also add the pem key to a `.ssh` directory and use the following command:
 
 ```
-ssh -i .ssh/cse-aws.pem ec2-user@ec2-18-219-230-121.us-east-2.compute.amazonaws.com
+ssh -i .ssh/cse-aws.pem ec2-user@ec2-3-140-200-76.us-east-2.compute.amazonaws.com
 ```
 
 ## Upgrading CS-AWS
