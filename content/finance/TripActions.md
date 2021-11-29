@@ -47,6 +47,7 @@ We have designated TripActions delegates for each department and onboarding, and
 - Trip dates
 - Trip destination
 - Hotel (if you’ve already chosen one)
+- Type of [company sponsored travel](travel.md#travel-budget-philosophy)
 
 Managers will be the point of contact in these cases. Managers, please take some time to talk to the future new teammate about guidelines and what to expect. Indicate if this is an optional trip or not and be sure to point them towards these two handbook pages: [Company sponsored travel](travel.md) and [TripActions](TripActions.md).
 
