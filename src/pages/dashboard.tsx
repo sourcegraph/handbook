@@ -59,6 +59,11 @@ interface IndexProps {
 }
 export default function Index({ allPages, tree }: IndexProps): JSX.Element {
     const pagesWithoutBacklinks = allPages.filter(page => page.backlinks.length === 0)
+
+    if (pagesWithoutBacklinks.length > 0) {
+        throw new Error(`Pages without backlinks:\n${pagesWithoutBacklinks.map(page => `- ${page.slugPath}: ${page.title || 'Untitled'}\n`).join()}`)
+    }
+
     const pagesWithoutTitle = allPages.filter(page => !page.title)
 
     return (

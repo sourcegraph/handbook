@@ -1,6 +1,7 @@
 {
   "name": "sourcegraph-handbook",
   "private": true,
+  "type": "module",
   "description": "Our company handbook repository",
   "scripts": {
     "dev": "yarn run next",
@@ -17,6 +18,7 @@
     "eslint": "eslint 'src/**/*.?(m)[jt]s?(x)'",
     "test": "echo \"it works fine on my computer\" && exit 1",
     "copy-assets": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node src/scripts/copy-assets.ts",
+    "check-backlinks": "node --loader ts-node/esm --experimental-specifier-resolution=node src/scripts/check-backlinks.ts",
     "validate-data": "find data -name *.yml | sed -E \"s/data\\/(.*).yml/\\1/\" | xargs -I '{}' ajv -d data/{}.yml -s schema/{}.schema.json --errors=text"
   },
   "repository": {
