@@ -79,6 +79,7 @@ This means a teammate may have to think at most about 2 projects at any given ti
 #### Project Tracking
 
 To track projects that span multiple iterations, we make use of a distinct project specific label and a separate tab of the [GitHub project board](https://github.com/orgs/sourcegraph/projects/200).
+The project specific label is created by any of the teammates, and should be descriptive enough to clearly indicate which project it is for, e.g. <span class="badge bg-info">insights-dashboards-v1</span> (milestones are not used for this, as they are used for iterations).
 
 Suffixes like `v1` can be used to communicate we are aiming for an initial, well-defined scope to avoid scope creep.
 Further improvements are either tracked as individual tasks in iterations, or if a new, larger, multi-iteration improvement, a new project is created with a new label.
