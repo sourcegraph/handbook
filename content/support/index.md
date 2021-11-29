@@ -152,7 +152,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 ## SLAs
 
-Our default contractual service level agreeements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
+Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
 
 - We aim to respond to all customers on all issues within 1 hour between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
 - We aim to resolve all issues within an average of no more than one week.
@@ -187,3 +187,7 @@ We will use commercially reasonable efforts to ensure downtimes lasts no longer 
 #### For customers with custom support agreements:
 
 Enterprise Plus and Elite customers should refer to their contracts if they have custom service-level agreements.
+
+## Support on-call
+
+Our contractual SLAs do not require support to be available 24x7, but we strive to make sure our customers have what they need when they need it. Via proper staffing (hiring folks whose working hours align with our needs), we will eventually move to 24x5 over the course of FY23, possibly into FY24. We will assess quarterly whether we need to move to a 24x7 schedule. In the meantime, our [team schedule](support-schedule.md) shows when we have folks online. Virginia's phone number is in Slack (if she is not online) and the OpsGenie on-call protocol can alert a CS leader at any time, too: use the Slack command: `/genie alert [alert message] for [customer-support]` ... and this will trigger a page to a member of the leadership team, any time, any day.
