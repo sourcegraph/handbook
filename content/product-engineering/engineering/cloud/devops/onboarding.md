@@ -27,7 +27,7 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
   - #cloud-devops
   - #dev-ops
   - #dev-chat
-  - #dev-announce
+  - #prod-eng-announce
   - #alerts-cloud
 
 ### Week 2
