@@ -2112,3 +2112,33 @@ molly_weitzel:
   role: Software Engineer
   location: Boulder, CO, USA
   description: Molly lives in Boulder, CO with her husband Matthew. In her free time she enjoys outdoor activities such as rock climbing, running, hiking, and skiing.
+
+alex_ostrikov:
+  name: Alexander Ostrikov
+  pronouns: he/him
+  role: Software Engineer
+  location: St. Petersburg, Russia 🇷🇺
+  github: sashaostrikov
+  email: alex.ostrikov@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/alexander-ostrikov-a4027810b/)'
+  description: Alexander (but you can also call him Alex or Sasha) lives in St. Petersburg, Russia with his fiancée Olga and their cat (with a _brilliant_ name — Kot ("cat" in Russian)). When not coding, he likes spending his time learning all the memes in the world, listening to music, singing (in fact mostly screaming) some metal songs, playing drums (once in a blue moon, to be honest), but his favourite pastime is making endless wallpapers with photos of Kot being weirdly zoomed into and cropped.
+
+dominique_cole:
+  name: Dominique "Dom" Cole
+  pronouns: he/him
+  role: Technical Recruiter
+  location: Austin, TX, USA 🇺🇸
+  email: dom.cole@sourcegraph.com
+  github: domcole
+  links: '[LinkedIn](https://www.linkedin.com/in/dominiquecole/)'
+  description: Dom lives in Austin, TX with his wife (Alicia), son (Caden), and dog (Omega). He enjoys playing and watching sports (basketball & football), barbecuing, traveling, and spending time with family and friends.
+
+jonathan_ayers:
+  name: Jonathan Ayers
+  pronouns: he/him
+  role: Senior People Partner
+  location: Seattle, WA, USA 🇺🇸
+  email: jonathan.ayers@sourcegraph.com
+  github: jonathanayers
+  links: '[LinkedIn](https://www.linkedin.com/in/jonayershr/)'
+  description: Jon lives in Seattle, WA with his partner (Valerie) and dog (Seymour). In his free time he enjoys triathlon training (running and biking more than swimming!) and building excel data dashboards for everything. Prior to Sourcegraph, Jon helped grow Mapbox from 300 to 800+ employees, USIG from 140 to 1200+ employees, and spent 4 years with ADP consulting helping high growth clients in the 150 to 1000 employee range. Jon is food motivated and has a soft spot for tacos, soft pretzels, roasted brussel sprouts, and sour beer.
