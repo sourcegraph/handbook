@@ -63,11 +63,11 @@ Larger (usually multi-iteration) projects coming from our roadmap go through thr
 
 2. **Design and implementation planning** (usually 1-2 weeks)<br>
    For a UI project, our designer will create wireframes and designs which are reviewed and discussed by all teammates in Figma.
-   Similarly, engineers will make a proposal for the needed GraphQL APIs (e.g. in an RFC) and agree on the API shape, think the implementation through, and create concrete implementation sub-tasks with estimates, testing plans, and a tracking issue collecting them.
+   Similarly, engineers will make a proposal for the needed GraphQL APIs (e.g. in an RFC) and agree on the API shape, think the implementation through, and create concrete implementation sub-tasks with estimates, testing plans, and a label collecting them.
    The goal of this phase is to be "ready to go" for the implementation phase – having a plan (with reasonable confidence) that only needs to be executed.
 
 3. **Implementation and testing** (usually 1-4 weeks)<br>
-   Engineers execute on the implementation plan, putting a set of issues from the tracking issue into each iteration.
+   Engineers execute on the implementation plan, putting a set of issues from the project into each iteration.
    This also includes that each sub-implementation-task is sufficiently tested, meaning by the end of this phase the project is ready to ship to customers with confidence.
 
 We sequentialize and parallelize projects in a way that we can _plan_ projects (step 1 and 2) while another project is currently being _implemented_, so that we always have the next project ready to be implemented by the time a project has finished implementation.
@@ -76,16 +76,15 @@ This means a teammate may have to think at most about 2 projects at any given ti
 
 <object data="project_planning.svg" width="1100" height="263" aria-label="Diagram showing three example projects going through all three project phases, with each product and design phase in parallel to the implementation phase of the previous project."></object>
 
-#### Tracking issues
+#### Project Tracking
 
-To plan projects that span multiple iterations and need to be broken up into sub-tasks, we make use of [tracking issues](../../tracking_issues.md).
-The tracking issue is created by one of the teammates with a descriptive accompanying label, e.g. <span class="badge bg-info">insights-dashboards-v1</span> (milestones are not used for this, as they are used for iterations).
+To track projects that span multiple iterations, we make use of a distinct project specific label and a separate tab of the [GitHub project board](https://github.com/orgs/sourcegraph/projects/200).
+The project specific label is created by any of the teammates, and should be descriptive enough to clearly indicate which project it is for, e.g. <span class="badge bg-info">insights-dashboards-v1</span> (milestones are not used for this, as they are used for iterations).
 
 Suffixes like `v1` can be used to communicate we are aiming for an initial, well-defined scope to avoid scope creep.
-After the agreed upon scope for the project is completed, the tracking issue is closed.
-Further improvements are either tracked as individual tasks in iterations, or if a new, larger, multi-iteration improvement, a new tracking issue is created with a new label.
+Further improvements are either tracked as individual tasks in iterations, or if a new, larger, multi-iteration improvement, a new project is created with a new label.
 
-Individual tasks of the tracking issue are assigned to iterations through their milestone.
+Individual tasks of the project are assigned to iterations using milestones.
 
 ## Product Feedback
 
