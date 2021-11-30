@@ -95,6 +95,7 @@ The current channels are:
 - #dev-frontend
 - #dev-databases
 - #dev-urandom
+- #prod-eng-announce 
 
 ## Misc.
 
