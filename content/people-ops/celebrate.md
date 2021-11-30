@@ -72,9 +72,13 @@ _Need a little help on what to get? Here’s a few of our favorite things:_
 - [Farmgirl Flowers: For those who like to stop and smell the roses](https://farmgirlflowers.com/) _(US)_
 - [Goldbelly Gift Card: For the foodies](https://www.goldbelly.com/) _(US)_
 
-## Gift amount policy for birthdays
+## Significant life events
 
-Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
+Managers have the opportunity to provide support to their teammates experiencing times of pain or grievance with our significant life events gift budget. In the event of accidents, illness, losing a loved one or pet, or other similar circumstances, we leave it up to the managers discretion if they would like to use this budget to let their teammates know that their team is thinking of them during this time. 
+
+## Gift amount policy for significant life events
+
+Managers may spend up to **$50 USD** _per teammate_. 
 
 ## Sending gifts via mail
 
