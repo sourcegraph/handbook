@@ -11,7 +11,7 @@
 
 Sourcegraph Batch Changes enables developers to automate and manage large-scale code changes across all of their repositories and code hosts.
 
-### Value driver: Developer velocity
+### Value driver: [Developer velocity](../value-drivers.md#developer-velocity)
 
 #### Pains
 
