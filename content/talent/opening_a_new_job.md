@@ -1,4 +1,5 @@
-# How to Open a New Job 
+# How to Open a New Job
+
 This page outlines the steps a Hiring Manager takes to kick off a new search.
 
 ## Before the interview
