@@ -39,6 +39,7 @@
       - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta)
       - [Ryan Slade](../../company/team/index.md#ryan-slade)
       - [Molly Weitzel](../../company/team/index.md#molly-weitzel)
+      - [Alexander Ostrikov](../../company/team/index.md#alexander-ostrikov)
     - [Delivery](./enablement/delivery/index.md) - Engineering Manager:[Jean du Plessis](../../company/team/index.md#jean-du-plessis)
       - [Kevin Wojkovich](../../company/team/index.md#kevin-wojkovich)
       - [Crystal Augustus](../../company/team/index.md#crystal-augustus)
