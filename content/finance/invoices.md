@@ -29,7 +29,6 @@
 
 - All invoices should be sent via email to our accounting team, ap@sourcegraph.com All invoices will be paid through [Airbase](https://www.airbase.com/). Accounting will create an account with your personal email and bank information provided on your invoice.
 
-
 ## Invoice Submission Timing
 
 - A number of teammates are on a contracting structure and will need to submit an invoice once a month for payment.
