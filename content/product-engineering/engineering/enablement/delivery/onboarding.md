@@ -40,6 +40,7 @@ Welcome to the distribution team! This document will guide you through delivery-
 - Work towards closing one issue.
 
 #### Tasks
+
 - Familiarise yourself with the [internal infrastructure](../../cloud/devops/internal_infrastructure.md) at Sourcegraph and ownership areas.
   - Setup a 1 on 1 meeting with a member of the [cloud](../../cloud/devops/index.md#members) and [developer experience](../dev-experience/index.md#members)
 - Read through the [deployments types](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p) presentation
