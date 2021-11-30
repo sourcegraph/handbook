@@ -5,6 +5,7 @@
 ### Invoice Template
 
 - Please see our template invoice example [invoice template](https://docs.google.com/spreadsheets/d/1EPYH0nfMSdLE1Eq83eH01SPiuMbfTMiy0W2qS0OZnuo/edit?usp=sharing).
+- Make sure to include bank information and currency in which you would like to be paid.
 
 ### How to Calculate the Invoice Amount
 
@@ -26,8 +27,7 @@
 
 ## How to Submit an Invoice:
 
-- All invoices should be sent via email to our accounting team, <a href="mailto:Sourcegraph@Bill.com?cc=finance@sourcegraph.com">Sourcegraph@Bill.com, with finance@sourcegraph.com copied</a> on all emails. All invoices will be paid through [Veem](https://www.veem.com/). You should have received an invite to your personal email for a Veem account as part of onboarding.
-- Please note: You do not need to submit an invoice via Veem.
+- All invoices should be sent via email to our accounting team, ap@sourcegraph.com All invoices will be paid through [Airbase](https://www.airbase.com/). Accounting will create an account with your personal email and bank information provided on your invoice.
 
 ## Invoice Submission Timing
 
