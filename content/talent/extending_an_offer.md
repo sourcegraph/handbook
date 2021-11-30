@@ -1,6 +1,6 @@
- # Extending an Offer 
- 
- ## Offer stage
+# Extending an Offer
+
+## Offer stage
 
 - Step 1: once finalist is identified, Recruiter completes references if necessary.
 - Step 2: the **Recruiter** confirms level and compensation.
