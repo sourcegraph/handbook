@@ -468,23 +468,23 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 **Director of Design**
 
-- Peer & leadership
+- Peer & leadership 
 
-- Interviewer(s): Director of Product + Director of Engineering
-- Duration: 1 hour
-- Details: In this interview, you will meet with Directors from Product and Engineering (hopefully) from the same organization. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, focusing on your experiences integrating and supporting cross functional work. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and shared sense of ownership over our Product/Engineering goals (OKRs). We’re looking for to talk about your experiences managing a team, what you've learned, and how you inspire and challenge your team of peers and your reports.
+  - Interviewer(s): Director of Product + Director of Engineering
+  - Duration: 1 hour
+  - Details: In this interview, you will meet with Directors from Product and Engineering (hopefully) from the same organization. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, focusing on your experiences integrating and supporting cross functional work. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and shared sense of ownership over our Product/Engineering goals (OKRs). We’re looking for to talk about your experiences managing a team, what you've learned, and how you inspire and challenge your team of peers and your reports. 
 
 - Design feedback & processes
 
-- Interviewer(s): Two Product Designers
-- Duration: 1 hour
-- Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. This interview will have an emphasis on how you've improved processes across your team and the organization. We’re looking for how you create team cohesion, how you give feedback, what you've learned through managing different teams/people, and how you mentor.
+  - Interviewer(s): Two Product Designers 
+  - Duration: 1 hour
+  - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. This interview will have an emphasis on how you've improved processes across your team and the organization.  We’re looking for how you create team cohesion, how you give feedback, what you've learned through managing different teams/people, and how you mentor. 
 
-- Design research & managing success
+- Design research & managing success 
 
-- Interviewer(s): Two Product Designers
-- Duration: 1 hour
-- Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
+  - Interviewer(s): Two Product Designers 
+  - Duration: 1 hour
+  - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
 
 **Director of Product**
 
