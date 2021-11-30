@@ -53,3 +53,27 @@ And remember, you never have to ask to take the time you need and you never have
 Also, sometimes we wake up not feeling well and we don't have it in us to line things up. That's okay! Simply add a sick day to Roots and post in #customer-support-internal Slack channel and @ mention @cs-leadership and ask that they tend to things for you.
 
 Optionally, when we are out for more than a day or two, we can create a "what did I miss" doc in our [shared drive folder](https://drive.google.com/drive/u/1/folders/1w-4j9T1z1GxnpvSbr_o5VRVxkct7w27O) for our teammates to populate with things we need to catch-up, be aware of when we return.
+
+## Saying Farewell
+
+Moving on from the team or the company can be a significant milestone/pivot point in the lives of team members. In order to facilitate a human centered approach to these departures from the team we seek to …
+
+- Celebrate achievements
+- Grieve/mourn the ending
+- Hope for the future
+- Provide a space for closure/reflection
+
+**We do this by …**
+
+- Sending out a virtual card signed by the entire team. Team members should try to write notes expressing gratitude, encouragement and/or highlighting ways the individual has impacted them.
+- Sending out a card directly from a member or members of the leadership team.
+- Allowing/ encouraging/ asking the individual to write a grand final post on their last day as a member of the team.
+- Meeting with the team member for the final debrief to solicit any input from them on anything they think we should know/learn from.
+- On their last day as a team member, announcing and then removing the individual from:
+  - Zendesk
+  - Team invites
+  - The CS Google, Github, and Slack @ groups
+  - Links to their README (the file will still be there if you need it for your new team)
+  - The support team org chart
+  - The team schedule
+- Allowing team members to decide on/opt in or out of a synchronous virtual gathering. A part of this can be a Q&A where other team members solicit advice and ask questions.

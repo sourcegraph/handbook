@@ -8,38 +8,23 @@ Make finding, understanding, and editing code easier, no matter how complex it i
 
 ## Themes & Goals
 
-We are focused over the next year on several themes across Code Graph to make our mission a reality. We set our goals around these themes, so you can also see current FY22-Q4 goals as a bullet list under each theme. The current status of these can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only).
+We are focused over the next year on several themes across Code Graph to make our mission a reality. We also set quarterly goals around these themes; the current list and status of these can be found at our [high-level OKR and roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/11) (internal only).
 
 ### Make the power of our features easier to find and use
 
 Learning how to get the most out of our product tends to be trial and error, especially for an individual developer who might have a unique set of use cases. Making onboarding and interaction easier helps everyone (including potential customers) find the value of our product more quickly than is possible today. Compared to tools that specialize in single-language ecosystems, we provide a more comprehensive solution (which is an advantage for us) but it is important we do this in a way that doesn't compromise depth.
 
-- [Measure and increase WAU by 15%](https://github.com/sourcegraph/sourcegraph/issues/27342) (All Teams)
-- [3 customers with >1 Search Notebook](https://github.com/sourcegraph/sourcegraph/issues/27353) ([Search Product](./search/index.md))
-
 ### Level up our enterprise-ready features
 
 How our product works in terms of pricing, upgrade paths, auditing, single sign-on, access control, etc. are essential for customers with large, complex organizations. In partnership with our Cloud team, we're focused on ensuring we meet and exceed these needs so that when rolling out Sourcegraph the logistics don't get in the way of realizing the value.
-
-- [1 customer committed to paying for Code Insights at launch](https://github.com/sourcegraph/sourcegraph/issues/27350) ([Code Insights](./code-insights/index.md))
-- [3 customers adopt on-prem auto-indexing](https://github.com/sourcegraph/sourcegraph/issues/24961) ([Code intelligence](./code-intelligence/index.md))
-- [Code monitors support webhook and Slack integrations + 3 customers committed in Q1](https://github.com/sourcegraph/sourcegraph/issues/27350) ([Search Product](./search/index.md))
-- [Precise code intel support for Kotlin](https://github.com/sourcegraph/lsif-java/issues/304) ([Code intelligence](./code-intelligence/index.md))
-- [Precise code intel support for TS/JS](https://github.com/sourcegraph/sourcegraph/issues/27345) ([Code intelligence](./code-intelligence/index.md))
 
 ### Deliver a unified experience
 
 By investing in well-integrated functionality we can deliver solutions that are more than the sum of their parts. Code visualizations powered by search and Code Intelligence can help with onboarding into a new codebase; Search Notebooks can provide a way to mix documentation with searches; Insights can lead to easy mitigation of multi-repo wide issues using Batch Changes. These kinds of examples require us to think through and build intuitive integrations between our teams.
 
-- No goal in this quarter since we are improving our measurement capability around what is most important here; we expect this to be a focus in Q1.
-
 ### Scale for Big Code
 
 We have more and more large customers dealing with a lot of code and complexity at scale. It's important that our platform meets their needs, not just in terms of search performance, but in allowing you to explore and understand complex interrelationships of meaning in source code, at the [world's largest scale](../index.md#big-code).
-
-- [Search works well with large-scale monorepos](https://github.com/sourcegraph/sourcegraph/issues/27320) ([Search Core](./search/index.md))
-- [Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts](https://github.com/sourcegraph/sourcegraph/issues/27322) ([Search Core](./search/index.md))
-- [3 customers use server side Batch Changes to create 200+ changeset batch changes](https://github.com/sourcegraph/sourcegraph/issues/27348) ([Batch Changes](./batch-changes/index.md))
 
 ## Principles
 

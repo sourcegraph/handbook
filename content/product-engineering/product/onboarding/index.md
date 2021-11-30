@@ -63,7 +63,7 @@ Remember:
 
 - [Configure your GitHub notifications.](../../engineering/github-notifications/index.md)
 - Familiarize yourself with our [team chat](../../../communication/team_chat.md) and join team channels on Slack, as well as any other channels you find interesting. [Product team chat documentation](../../../communication/team_chat.md#product).
-- Set up your [local development environment](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next person that we hire doesn't run into the same problem).
+- Set up your [local development environment](https://docs.sourcegraph.com/dev/setup). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next person that we hire doesn't run into the same problem).
   - You will need to run Sourcegraph locally to test and validate work that engineering is doing, to provide early feedback, or to review the UX of recently implemented work.
 - [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../../engineering/deployments/instances.md#k8s-sgdev-org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 - Install a text editor of your choice. A lot of the team uses [Visual Studio Code](https://code.visualstudio.com/).

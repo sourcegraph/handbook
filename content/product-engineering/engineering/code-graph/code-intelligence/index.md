@@ -24,28 +24,15 @@ The origin of our work is the core of Sourcegraph, first implemented as [srclib]
 
 2020 and beyond - The Code Intelligence team is responsible for how Sourcegraph understands code and for providing data that powers semantic search, batch changes, and code insights. Our API is the point of discovery for the knowledge graph for all source code.
 
-## Vision
+## Direction and strategy
 
-To be the point of discovery for the knowledge graph for all source code.
-
-## Mission
-
-Build a code intelligence platform that understands code in all languages and provides rich metadata to power code search, insights, and batch changes.
-
-## [Goals](../../../../company/strategy/code-graph/code-intelligence/index.md)
-
-See [goals and priorities](../../../../company/strategy/code-graph/code-intelligence/index.md)
+See [Code intelligence strategy](../../../../company/strategy/code-graph/code-intelligence/index.md)
 
 ## Overview
 
 The video below is a brief introduction to Code Intelligence at Sourcegraph explaining concepts such as the difference between search-based and precise code intelligence.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/fcaddfd333da487cb526a4fc99ead803" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-## Contact
-
-- #code-intel channel or @codeintel in Slack.
-- [team/code-intelligence](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-intelligence) label in GitHub.
 
 ## Tech stack
 
@@ -59,11 +46,9 @@ Precise code intelligence specific services are written in Go and code intellige
 
 Here are some key ways to contact us:
 
-- On GitHub, mention or assign issues to the @sourcegraph/code-intel team.
-- On GitHub, view our [backlog](https://github.com/orgs/sourcegraph/projects/100) of work.
-- On GitHub, view our [current iteration](https://github.com/orgs/sourcegraph/projects/101).
-- On Slack, use the #code-intel channel.
-- On Google Drive, we use the [Code Intel](https://drive.google.com/drive/folders/1YF237FV_4fAeIS4D5aH9bxexft_bh16r) directory.
+- On GitHub, mention or assign issues to [team/code-intelligence](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-intelligence)
+- On GitHub, view our [backlog](https://github.com/orgs/sourcegraph/projects/211) of work.
+- On Slack, use the #code-intel channel or tag the @codeintel team.
 
 ## Team process
 
@@ -71,16 +56,13 @@ The code intel team has defined a set of rituals that keeps the team connected a
 
 Our iterations last two weeks and are comprised of the following:
 
-- Planning Meeting: The first Monday of the iteration we hold a retro and planning meeting. Our iterations are comprised of work taken from our [backlog](https://github.com/orgs/sourcegraph/projects/100). Our in-flight iteration work is tracked in our iteration [board](https://github.com/orgs/sourcegraph/projects/101).
-- Team Sync Meeting: The second Monday of the iteration, the code intel team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the sync meeting, each team member should:
+- Planning Meeting: The first Monday of the iteration we hold a retro and planning meeting. Our iterations are comprised of work taken from our [backlog](https://github.com/orgs/sourcegraph/projects/211) where we also track our in-flight iteration work.
+- Team Sync Meeting: The second Monday of the iteration, the code intelligence team meets to stay in sync and hear from stakeholders. We use a Google doc for [agenda and meeting notes](https://docs.google.com/document/d/1R4gXavKwajVRplHSy1ECn_ZHMoQZIwiGKqWWb2SdbUE/edit). Prior to the sync meeting, each team member should:
 
   1. Add any agenda items that should be discussed.
   1. Review any existing agenda items and be prepared to discuss them.
-  1. Update the current release [tracking issue](../../tracking_issues.md) with a summary of progress for the previous week and plans for the next week.
 
-- Team Updates:
-  1. Each day, our Daily Standup Bot prompts us to add a text check-in by answering what we worked on the day before, what we're planning to work on next, and if there are any current blockers.
-  2. Every Friday, we update the tracking issue with our weekly progress to inform external stakeholders of the state of milestone goals. The engineers working on a goal are responsible for its update.
+- Team Updates: Each day, our Daily Standup Bot prompts us to add a text check-in by answering what we worked on the day before, what we're planning to work on next, and if there are any current blockers.
 
 We track most of our work as [issues on the Sourcegraph main repository](https://github.com/sourcegraph/sourcegraph/issues). If you have an issue that wants our attention, mention [the @sourcegraph/code-intel team](https://github.com/orgs/sourcegraph/teams/code-intel) or tag your issue with the [`team/code-intelligence` label](https://github.com/sourcegraph/sourcegraph/labels/team%2Fcode-intelligence).
 

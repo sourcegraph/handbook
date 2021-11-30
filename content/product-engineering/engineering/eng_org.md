@@ -36,9 +36,10 @@
       - [Vova Kulikov](../../company/team/index.md#vova-kulikov)
   - [Enablement](./enablement/index.md) - Director of Engineering:[Jean du Plessis](../../company/team/index.md#jean-du-plessis)
     - [Repo management](./enablement/repo-management/index.md) - Engineering Manager:[Jordan Plahn](../../company/team/index.md#jordan-plahn)
-      - Molly Weitzel
       - [Indradhanush Gupta](../../company/team/index.md#indradhanush-gupta)
       - [Ryan Slade](../../company/team/index.md#ryan-slade)
+      - [Molly Weitzel](../../company/team/index.md#molly-weitzel)
+      - [Alexander Ostrikov](../../company/team/index.md#alexander-ostrikov)
     - [Delivery](./enablement/delivery/index.md) - Engineering Manager:[Jean du Plessis](../../company/team/index.md#jean-du-plessis)
       - [Kevin Wojkovich](../../company/team/index.md#kevin-wojkovich)
       - [Crystal Augustus](../../company/team/index.md#crystal-augustus)
