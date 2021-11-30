@@ -63,11 +63,3 @@ To access these AWS accounts:
 1. Enter the details from the instance below that you wish to access.
 
 Now you can switch between any added roles and your Sourcegraph AWS account using the menu in the top right of AWS.
-
-### Creating a new customer environment replica
-
-1. Visit our [organization accounts on AWS](https://console.aws.amazon.com/organizations/home?#/accounts).
-1. Create an account that will act as the access role shared by everyone on the team.
-   - Name: `<NAME><TYPE>SharedAccessRole`, where `<NAME>` is the customer name and `<TYPE>` is `Replica` or `Managed`. (Examples: `AcmeCorpReplicaSharedAccessRole` or `AcmeCorpManagedSharedAccessRole`.)
-   - Email: use any unused email address. (Example: `alice+acme-corp-replica-shared@sourcegraph.com`.)
-1. Move the account under the organization that you wish to allow this user to access https://console.aws.amazon.com/organizations/home?#/browse/ou-48vq-waaj46mo
