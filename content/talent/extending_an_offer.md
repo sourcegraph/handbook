@@ -1,10 +1,11 @@
 # Extending an Offer
+
 Once we identify a finalist candidate, please follow the below steps to formally extend an offer.
 
 ## Offer stage
 
 - Step 1: once finalist is identified, Recruiter completes references if necessary.
-  - COMING SOON: reference check philosophy 
+  - COMING SOON: reference check philosophy
 - Step 2: the **Recruiter** confirms level and compensation.
   - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
 - Step 3: the Recruiter has a pre-closing conversation with the candidate to confirm mutual-interest. It is very important that the Recruiter makes no offer promises or commitments to the candidate until the offer has been formally approved in Greenhouse.
