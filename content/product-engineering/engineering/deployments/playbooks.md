@@ -54,6 +54,25 @@ During the code freeze, [Renovate](#renovate) will be disabled on **2021-08-18 1
 
 Once your PR has been merged, you can follow the deployment via [CI on the `release` branch](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/builds?branch=release).
 
+### Manually deploying a service to sourcegraph.com
+
+Sometimes you need to manually deploy a service to sourcegaph.com instead of relying on our CD process.
+
+Usually you'll know the build from which you'd like to deploy, we'll use a specific build of gitserver as an example:
+
+1. Find the [green build](https://buildkite.com/sourcegraph/sourcegraph/builds/118059) in Builkite
+1. Find the [step](https://buildkite.com/sourcegraph/sourcegraph/builds/118059#30aa1bb5-084f-47bf-874a-8266fe87ec68) that build the Docker image for your service
+1. Find the image, which will have the format `index.docker.io/sourcegraph/{SERVICE}:{TIMESTAMP}@sha256:{HASH}`
+1. Pull the latest from [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
+1. Check out the `release` branch
+1. Create a new branch
+1. Run the `update-images.py` script using the image URL from setep 3. For example:
+   ```
+   ./update-images.py index.docker.io/sourcegraph/gitserver:118059_2021-11-29_05fcc11@sha256:0c8a862e7977a830e2fa8a690ac243eea1255c150766a44b6c6c86df959d224f
+   ```
+1. Commit, push your changes and have them reviewed
+1. Once merged, the CD process will take over and deploy the image(s) you've specified
+
 ### Rolling back sourcegraph.com
 
 To roll back soucegraph.com, push a new commit to the `release` branch in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) that reverts the image tags and configuration to the desired state.
