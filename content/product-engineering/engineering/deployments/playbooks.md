@@ -62,7 +62,7 @@ Usually you'll know the build from which you'd like to deploy, we'll use a speci
 
 1. Find the [green build](https://buildkite.com/sourcegraph/sourcegraph/builds/118059) in Builkite
 1. Find the [step](https://buildkite.com/sourcegraph/sourcegraph/builds/118059#30aa1bb5-084f-47bf-874a-8266fe87ec68) that build the Docker image for your service
-1. Find the image, which will have the format `index.docker.io/sourcegraph/{SERVICE}:insiders@sha256:{HASH}`
+1. Find the image, which will have the format `index.docker.io/sourcegraph/{SERVICE}:{TIMESTAMP}@sha256:{HASH}`
 1. Pull the latest from [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
 1. Check out the `release` branch
 1. Create a new branch
