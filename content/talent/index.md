@@ -13,20 +13,25 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## [Resources for Hiring Managers](./resources_for_hiring_managers.md)
 
-- [The interview process](./interview_process.md)
+- [Opening a new job](./opening_a_new_job.md)
+  - [Who is my recruiter?] COMING SOON
+  - [Intake form](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
+  - [Writing a job description](./interview_process#before-the-interview)
+  - [Creating an interview plan](./interview_process#before-the-interview)
   - [Types of interviews](./types_of_interviews.md)
-  - [Opening a new job](./resources_for_hiring_managers.md#the-interview-process)
-  - [Writing a job description](./resources_for_hiring_managers.md#the-interview-process)
-  - [Creating an interview plan](./resources_for_hiring_managers.md#the-interview-process)
-  - [Scheduling an interview](./resources_for_hiring_managers.md#scheduling)
-  - [Extending an offer](./resources_for_hiring_managers.md#3-offer-stage)
-- Interviewing
-  - [Hiring manager screen](./types_of_interviews.md#hiring-manager-screen)
+- [The interview process](./interview_process.md)
   - [Interview training & best practices](./interview_training.md)
+  - [Hiring Manager screen](./types_of_interviews#hiring-manager-screen)
+  - [Scheduling an interview](./interview_process.md)
+- [Extending an offer](./extending_an_offer.md)
+  - [Offer approval process](./interview_process#offer-stage)
+  - [The offer summary](./interview_process#offer-stage)
+  - [The offer letter](./interview_process#offer-stage)
 - [Recruiting tools](./hiring/index.md#recruiting-tools)
-  - [Greenhouse](./hiring/guide_to_using_greenhouse.md), our ATS
-  - [BrightHire](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire), our interview recording tool
-  - [LinkedIn](./hiring/linkedin.md), our sourcing tool
+  - [Greenhouse, our ATS](./hiring/guide_to_using_greenhouse.md)
+  - [BrightHire, our interview recording tool](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [LinkedIn Recruiter, our sourcing tool](./hiring/linkedin.md)
+  - [Talent Wall, our pipeline tracking tool](./hiring/guide_to_using_talentwall.md#guide-to-using-talentwall)
 - [Using recruitment agencies](./hiring/index.md)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
@@ -39,29 +44,35 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [Values interview](./hiring/evaluating_values.md)
 - [Interview training & best practices](./interview_training.md)
 - [Recruiting Tools](./hiring/index.md#recruiting-tools)
-  - [BrightHire](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire), our interview recording tool
-  - [TalentWall](./hiring/guide_to_using_talentwall.md#guide-to-using-talentwall)
+  - [BrightHire, our interview recording tool](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
-## [Resources for Recruiters](./resources_for_recruiters.md)
+## [Resources for Talent Team](./resources_for_recruiters.md)
 
-- The interview process
+- [Opening a new job](./opening_a_new_job.md)
   - [Kicking off a new search](./resources_for_recruiters.md)
-- Interviewing
+- [The interview process](./interview_process.md)
+  - [Interview training & best practices](./interview_training.md)
   - [Recruiter screen](./types_of_interviews.md#recruiter-screen)
-- [Interview training & best practices](./interview_training.md)
+  - [How to schedule an interview](./resources_for_recruiting_operations.md#how-to-schedule-an-interview)
+  - [How to partner with your sourcer] COMING SOON
+- [Extending an offer](./extending_an_offer.md)
+  - [Offer approval process](./interview_process#offer-stage)
+  - [The offer summary](./interview_process#offer-stage)
+  - [The offer letter](./interview_process#offer-stage)
+  - [Counter offer conversations] COMING SOON
+- [After the offer](./after_the_offer.md)
+  - [Cohort start dates] COMING SOON
+  - [Onboarding process] COMING SOON
 - [Recruiting tools](./hiring/index.md#recruiting-tools)
-  - [Greenhouse](./hiring/guide_to_using_greenhouse.md), our ATS
-  - [BrightHire](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire), our interview recording tool
-  - [Ashby](https://app.ashbyhq.com/access), our metrics tool
-  - LinkedIn Recruiter, our sourcing tool
+  - [Greenhouse, our ATS](./hiring/guide_to_using_greenhouse.md)
+  - [BrightHire, our interview recording tool](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
+  - [Talent Wall, our pipeline tracking tool](./hiring/guide_to_using_talentwall.md#guide-to-using-talentwall)
+  - [LinkedIn Recruiter, our sourcing tool](./hiring/linkedin.md)
 - Recruitment branding
   - [Where we post our jobs](./hiring/job_boards.md)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
-
-## [Resources for Recruiting Operations](./resources_for_recruiting_operations.md)
-
-- [How to schedule an interview](./resources_for_recruiting_operations.md#how-to-schedule-an-interview)
 
 ## Talent Team Members
 
