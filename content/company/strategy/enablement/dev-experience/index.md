@@ -1,6 +1,6 @@
-# Developer Experience team strategy
+# Dev Experience team strategy
 
-This page outlines the vision, strategy, and goals of the [Developer Experience team](../../../../engineering/enablement/dev-experience/index.md).
+This page outlines the vision, strategy, and goals of the [Dev Experience team](../../../../product-engineering/engineering/enablement/dev-experience/index.md).
 
 ## Mission
 
@@ -16,7 +16,7 @@ Engineers should be able to spend their time solving problems that matter to the
 
 ## Guiding principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../../../engineering/principles-and-practices.md) and [Enablement org's principles and practices](../../../../engineering/enablement/index.md#principles-and-practices). In addition, the following principles guide the work we do in dev experience. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
+We inherit Sourcegraph's [engineering principles and practices](../../../../product-engineering/engineering/principles-and-practices.md) and [Enablement org's principles and practices](../../../../product-engineering/engineering/enablement/index.md#principles-and-practices). In addition, the following principles guide the work we do in dev experience. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
 
 - **We don't own the developer experience at Sourcegraph – we simply focus on it.** Sourcegraph engineers own the developer experience as a collective.
 - **We ship open products.** Our products are open to contributions to anyone in the company, documented, and provide migration paths if necessary. Our decisions are clearly and publicly communicated for everyone to understand our reasoning. We want to make it simple for everyone to benefit from and work on Sourcegraph’s developer experience.
