@@ -1,4 +1,5 @@
 # After the Offer
+
 This page outlines all steps that the team takes **after** the candidate has officially accepted our offer
 
 ## After the offer
