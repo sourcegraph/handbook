@@ -68,7 +68,7 @@ Usually you'll know the build from which you'd like to deploy, we'll use a speci
 1. Create a new branch
 1. Run the `update-images.py` script using the image URL from setep 3. For example:
    ```
-   ./update-images.py index.docker.io/sourcegraph/gitserver:insiders@sha256:0c8a862e7977a830e2fa8a690ac243eea1255c150766a44b6c6c86df959d224f
+   ./update-images.py index.docker.io/sourcegraph/gitserver:118059_2021-11-29_05fcc11@sha256:0c8a862e7977a830e2fa8a690ac243eea1255c150766a44b6c6c86df959d224f
    ```
 1. Commit, push your changes and have them reviewed
 1. Once merged, the CD process will take over and deploy the image(s) you've specified
