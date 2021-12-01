@@ -147,7 +147,8 @@ COMING SOON: Click here to see Talent Team alignment with each department
         <div style="text-align: center; font-size: 12px;">Technical Talent Sourcer</div>
       </div>
     </div>
-    <div class="col" style="flex: 1;">
+    <div class="row" style="display:flex;">
+      <div class="col" style="flex: 1;">
       <div>
         <div>
           <a href="../../../company/team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
@@ -169,49 +170,48 @@ COMING SOON: Click here to see Talent Team alignment with each department
         <div style="text-align: center; font-size: 12px;">Corporate Recruiter</div>
     </div>
   </div>
-  <div class="row" style="display:flex;">
-    <div class="col" style="flex: 1;">
+  <div class="col" style="flex:1;">
+    <div>
       <div>
-        <div>
-          <a href="../../../company/team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Marija-Bitmoji.png" alt="Picture of Marija Petrovic" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Marija Petrovic</div>
-        <div style="text-align: center; font-size: 12px;">Senior Sales Recruiter, Team Lead</div>
+        <a href="../../../company/team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Marija-Bitmoji.png" alt="Picture of Marija Petrovic" style="background: transparent; width:128px;"/>
+        </a>
       </div>
+      <div style="text-align: center;">Marija Petrovic</div>
+      <div style="text-align: center; font-size: 12px;">Senior Sales Recruiter, Team Lead</div>
     </div>
-    <div class="col" style="flex: 1;">
+  </div>
+  <div class="col" style="flex: 1;">
+    <div>
       <div>
-        <div>
-          <a href="../../../company/team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-%20Bitmoji.jpg" alt="Picture of Grace Bohl" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Grace Bohl</div>
-        <div style="text-align: center; font-size: 12px;">Sales Recruiter</div>
+        <a href="../../../company/team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-%20Bitmoji.jpg" alt="Picture of Grace Bohl" style="background: transparent; width:128px;"/>
+        </a>
       </div>
+      <div style="text-align: center;">Grace Bohl</div>
+      <div style="text-align: center; font-size: 12px;">Sales Recruiter</div>
     </div>
-    <div class="col" style="flex: 1;">
+  </div>
+  <div class="col" style="flex: 1;">
+    <div>
       <div>
-        <div>
-          <a href="../../../company/team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg" alt="Picture of Trevor Houghton" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Trevor Houghton</div>
-        <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
+        <a href="../../../company/team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg" alt="Picture of Trevor Houghton" style="background: transparent; width:128px;"/>
+        </a>
       </div>
+      <div style="text-align: center;">Trevor Houghton</div>
+      <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
     </div>
-    <div class="col" style="flex: 1;">
+  </div>
+  <div class="col" style="flex: 1;">
+    <div>
       <div>
-        <div>
-          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
-        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+        <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+        </a>
+      </div>
+      <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
+      <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
       </div>
     </div>
   </div>
