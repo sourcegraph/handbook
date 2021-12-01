@@ -18,7 +18,9 @@ If I am your new manager, I will setup a series of three extra 1-1s to learn mor
 
 A skip level 1-1 is between me and someone who I indirectly manage (e.g. the person reports to a person that I manage).
 
-If you would like to have a skip level 1-1 with me:
+These 1-1s are an opportunity to build deeper relationships, for me to listen, gather your feedback and insights, and discuss anything top of mind for you. 
+
+Engineering Managers and Engineers will receive calendar invites from me throughout the year. If you want to meet more frequently: 
 
 1. Find a time on my calendar that is open and send me a calendar invite.
 2. Include as much context as is relevant so that I can prepare for the 1-1 if necessary.
