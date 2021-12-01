@@ -16,6 +16,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
   - [Indradhanush Gupta](../../../../company/team/index.md#indradhanush-gupta)
   - [Molly Weitzel](../../../../company/team/index.md#molly-weitzel)
   - [Alex Ostrikov](../../../../company/team/index.md#alexander-ostrikov)
+  - [Asdine El Hrychy](../../../../company/team/index.md#asdine-el-hrychy)
 
 ## Strategy
 
