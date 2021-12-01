@@ -2094,6 +2094,7 @@ head_of_technical_writing:
   name: Christina Forney
   role: (Interim) Head of Technical Writing
   reports_to: vp_product
+  manager_role_slug: head_of_technical_writing
   hidden_on_team_page: true
 
 Daniel_Gwyn:
