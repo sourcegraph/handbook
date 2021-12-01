@@ -19,15 +19,16 @@ Step 3: the Recruiter has a pre-closing conversation with the candidate to confi
 
 - COMING SOON: closing best practices & counter offer conversation best practices
 
-Step 4: the **Recruiter** submits the offer for approval in Greenhouse.
-
+Step 4: the **Recruiter** [submits the offer](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer) for approval in Greenhouse.
+- Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
 - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not recieve all `"Yes"` or `"Strong Yes"` in feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
 
 Step 5: once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
-
 - Attendees: Recruiter, Hiring Manager, Candidate.
-- To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile.
+- Prior to the call, Recruiter generates the correct Offer Summary document in Greenhouse, downloads the document, and sends to VP Talent and/or Director, Technical Recruiting and Hiring Manager confirming the offer details are correct, and outlining the agenda for the call.
+  - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile.
+  - Example Slack message: "Hi Hiring Manager, VP Talent - here is the offer summary document that we are scheduled to review with [candidate name] on XX date at XX time.  Please review the offer summary document to ensure everything looks correct.  During the offer summary call, I will kick us off.  Hiring Manager, I will then ask you to provide high level feedback about why you're so excited about them joining us.  I will then walk through the offer summary document.  Sound good to you?"
 - Offer Summary call agenda:
   - Tthe Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them.
   - The Recruiter then shares their screen to display the offer summary document.
