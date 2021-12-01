@@ -112,7 +112,7 @@ COMING SOON: Click here to see Talent Team alignment with each department
         </div>
         <div style="text-align: center;">Frey Andersson</div>
         <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
-        </div>
+      </div>
     </div>
     <div class="col" style="flex: 1;">
       <div>
@@ -128,7 +128,7 @@ COMING SOON: Click here to see Talent Team alignment with each department
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+          <a href="../../../company/team#veronica-bueno" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
           </a>
         </div>
