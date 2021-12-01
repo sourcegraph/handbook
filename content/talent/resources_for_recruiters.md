@@ -1,3 +1,1 @@
 # Resources for Recruiters
-
-
