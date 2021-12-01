@@ -185,12 +185,12 @@ COMING SOON: Click here to see Talent Team alignment with each department
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
+          <a href="../../../company/team#dominique-dom-cole" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
           </a>
         </div>
-        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
-        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+        <div style="text-align: center;">Dom Cole</div>
+        <div style="text-align: center; font-size: 12px;">Technical Recruiter</div></div>
       </div>
     </div>
     <div class="col" style="flex: 1;">
@@ -200,8 +200,8 @@ COMING SOON: Click here to see Talent Team alignment with each department
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
           </a>
         </div>
-        <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">We're Hiring!</a></div>
-        <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">All Roles Here</a></div>
+        <div style="text-align: center;">Veronica Bueno</div>
+        <div style="text-align: center; font-size: 12px;">Technical Recruiter</div></div></div>
       </div>
     </div>
     <div class="col" style="flex: 1;">
