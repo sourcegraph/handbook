@@ -1205,16 +1205,6 @@ jenny_bergen:
   links: '[@jennybergen](https://www.twitter.com/jennybergen), [LinkedIn](https://www.linkedin.com/in/jenniferbergen/)'
   description: "Jenny lives outside of Denver with her husband and their aloof dog, Rufus. She grew up in the Boulder, CO area and spent five years in NYC as a tech journalist (PCMag, ZDNet, Digital Trends) after college before returning home to Colorado to start the second chapter of her career as a content marketer. Jenny is an avid music lover and 'met' her husband at a concert in NYC (a Craigslist Missed Connection did the rest). She enjoys cooking and baking, pretending she's a restaurant critic, researching everything, and being in nature. She also is Team Oxford comma and hopes you are, too."
 
-carl_hicks:
-  name: Carl Hicks
-  pronouns: He/Him
-  role: Application Engineer
-  location: Washington, DC, USA 🇺🇸
-  github: hicksca
-  email: carl@sourcegraph.com
-
-  description: Carl lives in Washington, DC. When not working, you will generally find him spending time with his two sons or building mechanical keyboards. Before Sourcegraph, Carl worked as a consultant at IBM working focusing on internal IaaS cloud services.
-
 kelsey_nagel:
   name: Kelsey Nagel
   pronouns: she/her
