@@ -400,52 +400,19 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <tr>
       <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
       <td colspan="3" class="level-summary">
-        A different IC role from levels 1-4, with a focus on technical leadership.<br>
-        This level is equivalent in impact to an <a href="../roles#engineering-manager">Engineering Manager</a>.<br>
-        What impact at this level looks like may vary more between individuals than at preceding levels.<br>
+        IC5 is a different role from levels 1-4<br>
+        What impact looks like at this level varies between individuals.<br>
         We recommend <a href="https://drive.google.com/drive/folders/1fnw5gmlLDDZb9wDodY3KfcTaM3OOQL7G" target="_blank" rel="noopener noreferrer">our company’s copy of “Staff Engineer” by Will Larson</a> as reading material.
       </td>
     </tr>
-    <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
-        <div class="wrapper">
-          A respected technical leader, on and off their team.
-        </div>
-      </td>
-      <td class="category-summary execution">
-        <div class="wrapper">
-          Defines cross-team goals that align with top level company goals, and ensures delivery to meet business needs.
-        </div>
-      </td>
-      <td class="category-summary teamwork">
-        <div class="wrapper">
-          An extremely strong communicator doing outstanding stakeholder management.
-        </div>
-      </td>
-    </tr>
-    <tr class="behaviors-row">
-      <td class="behaviors proficiency">
+    <tr>
+      <td>
+        Rather than being defined through proficiency, execution and teamwork IC5 is differentiated from levels 1-4 by a specific <strong>business need</strong> for the role, and an associated set of <strong>expectations</strong>.
         <ul>
-          <li>Sets the technical vision for their team, and influences the broader technical vision.</li>
-          <li>Initiates and drives cross-team projects that enable higher quality work.</li>
-          <li>Provides oversight, coaching, and guidance through code and design reviews, both on and off the team.</li>
-          <li>Acts as a trusted advisor, drawing on functional expertise to inform customer-first strategy.</li>
+          <li><strong>Business need</strong>: in some cases the business will need IC to and solve cross-cutting technical problems at the org or company level, willing to navigate across orgs as new problems are identified. In others, it will need a deep technical expert for a specific area, capable of devising solutions to highly complex and specialized technical problems.</li>
+          <li><strong>Expectations</strong>: for some IC5s, expectations might include participating in engineering calibration, because they are expected to define hiring needs for their team. For others, it might be building and owning a roadmap.</li>
         </ul>
-      </td>
-      <td class="behaviors execution">
-        <ul>
-          <li>Proactively identifies areas for improvement at the org level. Suggests process and methodology improvements.</li>
-          <li>Works closely with Engineering/Product leadership to validate alignment of team roadmaps within their org.</li>
-          <li>Independently scopes, designs, and delivers solutions for large, complex challenges.</li>
-        </ul>
-      </td>
-      <td class="behaviors teamwork">
-        <ul>
-          <li>Provides technical expertise internally and externally, informing what can be achieved.</li>
-          <li>Guides others on effective collaboration, conflict resolution and improved communication.</li>
-          <li>Regularly shares knowledge and willingly presents to large and/or senior audiences.</li>
-          <li>Persuades and challenges clients and internal stakeholders, using valid expertise and respectful communication.</li>
-        </ul>
+        The business need and associated expectations are unique to each IC5 position. IC5 engineers are publicly identified as such, and the business need and expectations associated with their role are documented in the handbook.
       </td>
     </tr>
     <!-- IC6 -->
@@ -453,8 +420,8 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
       <td colspan="3" rowspan="2" class="tbd">
         <p>
-          While we haven't yet finalized the descriptions of these levels at Sourcegraph, they would be equivalent in impact to a <a href="../roles#director-of-engineering">Director of Engineering</a> and <a href="../roles#vp-engineering">VP of Engineering</a>, respectively.
-          Like <a href="#ic5">IC5</a>, these are different <strong>roles</strong> than the levels preceding it based not only on performance, but also company need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
+          We haven't yet finalized the descriptions of these levels at Sourcegraph.
+          Like <a href="#ic5">IC5</a>, these are different <strong>roles</strong> than the levels preceding it based not only on performance, but also business need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
         </p>
       </td>
     </tr>
