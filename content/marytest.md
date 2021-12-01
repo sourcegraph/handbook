@@ -1,8 +1,8 @@
 <table>
   <tr>
-   <td>test
+   <td><strong>test</strong>
    </td>
-   <td>test
+   <td><strong>test</strong>
    </td>
    <td>test
    </td>
@@ -20,4 +20,5 @@
    </td>
   </tr>
 </table>
+
 
