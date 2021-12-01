@@ -75,7 +75,6 @@ We have no further plans to grow the team at this time.
   - (private) AE training: [recording](https://drive.google.com/file/d/10oeyEvKNKk4RdyJUtvc-rXcgcmGhSrc2/view?usp=sharing), [slides](https://docs.google.com/presentation/d/1N50kk1N712lvsWI_BrGB4WH8LHnOVYrkxqvRS9WubuA/edit#slide=id.g7d2aea8729_0_0)
   - [Batch Changes positioning](../../../../marketing/product-marketing/batch_changes_positioning.md)
 
-
 ## Sourcegraphers using Batch Changes
 
 This is a non-exhaustive list of Sourcegaphers use cases for Sourcegraph (either internally or on side-projects):
