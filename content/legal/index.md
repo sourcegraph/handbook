@@ -43,8 +43,8 @@ To direct your contracts to the right team or teammate to review, approve, and s
 
 Legal training for managers on performance management
 
-- [Video](https://drive.google.com/file/d/1EMACLoxWxjRCw1iKUizkaU26xBrsQ7rx/view?usp=sharing)
-- [Slides](https://drive.google.com/file/d/1-BDwOV8I4a2dGUhxClCi9we-CbHln7aJ/view?usp=sharing)
+- [Video](https://drive.google.com/file/d/1d_UXOd6mkmhKIWc5yrHIZOXOlYH-H9IZ/view?usp=sharing)
+- [Slides](https://drive.google.com/file/d/11wgGGg10JJnd4z4Ajx0rx7aVte2FDiOY/view?usp=sharing)
 
 ## Outside counsel
 
