@@ -55,6 +55,12 @@ To help guide people within the product organization on career growth we are cre
 - Owner: Christina
 - [Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
+### Document known product gaps and process
+
+There are various problems, feature areas, or initiatives related to Product (which sometimes touch on Engineering or other departments) without a clear owner: we need a list of those, what people should do in the meantime for each of them (if we are not actively working on solving them), a link to a ticket or other resource where the work is happening to fix it, and how to report or add one if someone thinks they have found a new ownership gap.
+
+- Owner: TBD
+
 ## References
 
 - [Beta and experimental feature labels](./beta_and_experimental_feature_labels.md)
