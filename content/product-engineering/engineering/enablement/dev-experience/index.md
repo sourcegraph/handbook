@@ -9,6 +9,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - [Asdine El Hrychy](../../../../company/team/index.md#asdine-el-hrychy)
   - [JH Chabran](../../../../company/team/index.md#jh-chabran)
   - [Robert Lin](../../../../company/team/index.md#robert-lin)
+  - [Dave Try](../../../../company/team/index.md#dave-try)
 
 ## [Strategy](../../../../company/strategy/enablement/dev-experience/index.md)
 
