@@ -1,6 +1,6 @@
 # Delivery Engineer Oboarding
 
-Welcome to the distribution team! This document will guide you through delivery-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../../onboarding/index.md).
+Welcome to the Delivery team! This document will guide you through delivery-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../../onboarding/index.md).
 
 ## Delivery Onboarding Checklist
 
