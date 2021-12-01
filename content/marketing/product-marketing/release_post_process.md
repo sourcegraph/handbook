@@ -21,7 +21,7 @@ You can tell when the release is cut by following along in #progress.
 - Once this is done, inform the team in the #release-post channel.
 - If necessary, PMs make edits to the changelog based on what was actually shipped.
 - PMs add final assets.
-- Product marketing to package and draft the release post and share with [Rebecca](../../company/team.md#rebecca-dodd), [Andy](../../company/team.md#andy-schumeister), and [Jason](../../company/team.md#jason-yavorska) for review.
+- Product marketing to package and draft the release post and share with [Rebecca](../../company/team/index.md#rebecca-dodd), [Andy](../../company/team/index.md#andy-schumeister), and [Jason](../../company/team/index.md#jason-yavorska) for review.
 
 **0-2 days after release ships**
 
