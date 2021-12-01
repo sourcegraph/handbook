@@ -81,10 +81,10 @@ We have no further plans to grow the team at this time.
 This is a non-exhaustive list of Sourcegaphers use cases for Sourcegraph (either internally or on side-projects):
 
 - Run TS-Morph-powered codemods on the frontend platform repository. [Spec](https://k8s.sgdev.org/batch-changes/executions/QmF0Y2hTcGVjOiI0eGNQQVVIaVoxZCI=?workspace=QmF0Y2hTcGVjV29ya3NwYWNlOjk0ODQwNA==) (private)
-- Update PR templates across many repositories
+- Update PR templates across many repositories.
 - Standardize versions of tools across many repositories by updating .tool-versions files. [Search](https://k8s.sgdev.org/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph+file:%5E%5C.tool-versions+shfmt&patternType=literal&case=yes) (private)
 - Update CI configuration across several repositories. [Blog post](https://unknwon.io/posts/211110_sourcegraph_batch_changes/)
-- Tracking release changesets
+- Tracking release changesets.
 
 ## Related links
 
