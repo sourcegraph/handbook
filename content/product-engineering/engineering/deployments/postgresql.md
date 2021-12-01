@@ -14,6 +14,15 @@ There are two ways of connecting: either using the `gcloud beta sql connect` com
 
 For read-only access, there is also an option of using [BigQuery](https://console.cloud.google.com/bigquery?sq=527047051561:67f2616f4acb4b7cb3639e4a97e2f4aa) and their `EXTERNAL_QUERY` syntax.
 
+Using BigQuery, if you want to run a query
+```
+SELECT name::text,created_at::text FROM repo LIMIT 5;
+```
+against the Prod CloudSQL database, you need to run 
+```
+SELECT * FROM EXTERNAL_QUERY("sourcegraph-dev.us.sg-cloud", "SELECT name::text,created_at::text FROM repo LIMIT 5;");
+```
+in the BigQuery editor (passing the PostgreSQL query in the second parameter to EXTERNAL_QUERY).
 ### Connecting to Postgres
 
 #### Install the command line tools
