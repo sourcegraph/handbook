@@ -84,6 +84,7 @@ This is a non-exhaustive list of Sourcegaphers use cases for Sourcegraph (either
 - Update PR templates across many repositories
 - Standardize versions of tools across many repositories by updating .tool-versions files. [Search](https://k8s.sgdev.org/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph+file:%5E%5C.tool-versions+shfmt&patternType=literal&case=yes) (private)
 - Update CI configuration across several repositories. [Blog post](https://unknwon.io/posts/211110_sourcegraph_batch_changes/)
+- Tracking release changesets
 
 ## Related links
 
