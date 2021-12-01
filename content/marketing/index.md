@@ -31,6 +31,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
   - [What problems does Sourcegraph solve?](messaging.md#what-problems-does-sourcegraph-solve)
   - [Batch Changes positioning](product-marketing/batch_changes_positioning.md)
+  - [Value drivers](value-drivers.md)
 - [Product marketing](product-marketing/index.md)
   - [Marketing launch tiers](product-marketing/marketing_launch_tiers.md)
   - [Product marketing hierarchy](product-marketing/product_marketing_hierarchy.md)
