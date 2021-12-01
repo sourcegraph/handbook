@@ -15,7 +15,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 - [Opening a new job](./opening_a_new_job.md)
   - [Who is my recruiter?] COMING SOON
-  - [Intake form](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
+  - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
   - [Writing a job description](./opening_a_new_job.md)
   - [Creating an interview plan](./opening_a_new_job.md)
   - [Types of interviews](./types_of_interviews.md)
@@ -72,6 +72,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [LinkedIn Recruiter, our sourcing tool](./hiring/linkedin.md)
 - Recruitment branding
   - [Where we post our jobs](./hiring/job_boards.md)
+- [Recruiter onboarding resources]COMING SOON
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
 ## Talent Team Members
