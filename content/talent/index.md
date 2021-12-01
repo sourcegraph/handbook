@@ -72,7 +72,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [LinkedIn Recruiter, our sourcing tool](./hiring/linkedin.md)
 - Recruitment branding
   - [Where we post our jobs](./hiring/job_boards.md)
-- [Recruiter onboarding resources]COMING SOON
+- [Recruiter onboarding resources](./recruiter_onboarding.md)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
 ## Talent Team Members
