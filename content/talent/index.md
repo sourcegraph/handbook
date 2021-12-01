@@ -11,7 +11,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Types of interviews](./types_of_interviews.md)
 - [Candidate FAQ](./resources_for_candidates.md#candidate-faq)
 
-## [Resources for Hiring Managers](./resources_for_hiring_managers.md)
+## Resources for Hiring Managers
 
 - [Opening a new job](./opening_a_new_job.md)
   - [Who is my recruiter?] COMING SOON
@@ -35,7 +35,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Using recruitment agencies](./hiring/index.md)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
-## [Resources for Teammates](./resources_for_teammates.md)
+## Resources for Teammates
 
 - [How to refer a candidate](./hiring/index.md#making-a-referral)
 - [Types of interviews](./types_of_interviews.md)
@@ -47,7 +47,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [BrightHire, our interview recording tool](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
-## [Resources for Talent Team](./resources_for_recruiters.md)
+## Resources for Talent Team
 
 - [Opening a new job](./opening_a_new_job.md)
   - [Kicking off a new search](./resources_for_recruiters.md)
