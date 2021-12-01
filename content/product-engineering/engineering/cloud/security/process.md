@@ -25,6 +25,7 @@ Our processes are in a period of change, so if in doubt, please reach out to us 
 2. We set one or more goals for the iteration.
 3. We write RFCs and solicit feedback (ideally), prior to the start of an iteration, but especially with forethought in mind.
 4. We hold weekly team syncs and [track them here](https://docs.google.com/document/d/1l-JyN-hol2G6YXNqPsJsIgN2z3aZEzOW4-Julu4xthI).
+5. We follow the [Poker-Planning](./poker-planning.md) methodology for assigning story points.
 
 ProductBoard serves as our tool for oversight and higher level planning.
 

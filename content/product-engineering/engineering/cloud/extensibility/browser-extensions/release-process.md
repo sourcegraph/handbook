@@ -6,6 +6,7 @@
    - [Chrome](#create-for-chrome)
    - [Firefox](#create-for-firefox)
    - [Safari](#create-for-safari)
+1. [Testing Checklist](#testing-checklist)
 1. [Releasing Browser Extensions](#releasing-browser-extensions)
    - [Chrome](#chrome)
    - [Firefox](#firefox)
@@ -31,18 +32,20 @@ Before releasing the browser extensions, you need to create developer accounts f
 
 1. Ask a team member to add you to our Apple Developer group. They can send you an invitation from [App Store Connect](https://appstoreconnect.apple.com/) portal.
 
-## Manual Testing Checklist
+## Testing Checklist
 
-- [ ] Test installation on browsers
+- [ ] Manually test installation on browsers
   - [ ] [Chrome](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#chrome)
   - [ ] [Firefox](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#firefox-manual)
   - [ ] [Safari](https://github.com/sourcegraph/sourcegraph/tree/main/client/browser#safari)
+- [ ] Run browser extension e2e tests: `sg test bext-build && sg test bext-e2e`
+  - > Note: it will automatically run anyway before releasing from the `bext/release` branch, but just to make sure before actual pushing to release branch.
 
 ## Releasing Browser Extensions
 
 ### Chrome
 
-The release process for Chrome is fully automated. The review process usually takes between half a day to a day. To check the status of the release, visit the [developer dashboard](https://chrome.google.com/webstore/devconsole/7db1c88c-79ec-48c8-b14f-e17af93aee2c/dgjhfomjieaadpoljlnidmbgkdffpack/edit/package). Deployment to the Chrome web store happen automatically in CI when the `bext/release` branch is updated.
+The release process for Chrome is fully automated. The review process usually takes between half a day to a day. To check the status of the release, visit the [developer dashboard](https://chrome.google.com/webstore/devconsole/7db1c88c-79ec-48c8-b14f-e17af93aee2c). Deployment to the Chrome web store happen automatically in CI when the `bext/release` branch is updated.
 
 Release Steps:
 
@@ -71,8 +74,7 @@ Release Steps:
 The release process for Safari is currently not automated. The review process usually takes between half a day to a day. To check the status of the release, visit the [App Store Connect](https://appstoreconnect.apple.com/apps/1543262193/appstore/macos/version/deliverable).
 Steps:
 
-1. On your terminal navigate to `./sourcegraph/client/browser`.
-1. Run the command `yarn run build`.
+1. On your terminal and run the command `yarn --cwd client/browser build`.
 1. Build will generate an Xcode project under `./sourcegraph/client/browser/build/Sourcegraph for Safari`.
    1. If you run into Xcode related errors, make sure that you've downloaded Xcode from the app store, opened it and accepted the license/terms agreements.
 1. Open the project using Xcode.
@@ -91,12 +93,12 @@ Steps:
    1. If this is your first time signing the package, you need to create your own local distribution key.
 1. Once the validation is complete, click on the `Distribute App`.
 1. Make sure `App Store Connect` is selected and click `next`.
-1. Make sure upload is selected and click `next`.
+1. Make sure `Upload` is selected and click `next`.
 1. Choose `SOURCEGRAPH INC` from the dropdown and click `next`.
 1. Make sure uploading the symbols is checked and click `next`.
 1. Make sure automatically managing the signing is checked and click `next`.
 1. Validate everything on the summary page and click `upload`
-1. Once successful, you can navigate to the app store connect webpage and see a new version being processed on the `Mac Build Activity` tab.
+1. Once successful, you can navigate to the [App Store Connect webpage](https://appstoreconnect.apple.com/apps/1543262193/testflight/macos) and see a new version being processed.
 1. Once processing is done, navigate to `App Store` tab and click on the blue + symbol, located next to the `macOS App` label.
 1. Enter the version number we've previously used on step 6 and click `create`.
 1. A new version will appear on the left menu. Click on this new version and fill out the information textbox with a summary of updates.
