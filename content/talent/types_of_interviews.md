@@ -489,7 +489,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 #### Design research & managing success
 
-- Interviewer(s): Two Product Designers
+- Interviewer(s): [Two Product Designers](../product-engineering/product/product_org.md)
 - Duration: 1 hour
 - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
 
@@ -515,29 +515,35 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 ### Director of Technical Writing
 
+#### Working session on strategy & Leadership
+
+- Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney), VP Product + [Jean du Plessis](../company/team/index.md#jean-du-plessis), Director of Engineering - Enablement
+- Duration: 1 hour
+- Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early into early parts of the product life cycle process.
+
 #### Design collaboration
 
 - Interviewer: [Product designer](../product-engineering/product/product_org.md)
 - Duration: 30 mins
-- Details: In this interview, you will meet with one of the Product Designers to discuss how you've worked with Design and other cross funcitonal teams in the past. We will ask questions about your philsophy on technical writing and documentation and how you lead and evalgelize your ideas throughout an organization. We're looking for how you prioriize and productize documentation, and how you would go about doing so in our handbook-first company.
+- Details: In this interview, you will meet with one of the Product Designers to discuss how you've worked with Design and other cross functional teams in the past. We will ask questions about your philosophy on technical writing and documentation and how you lead and evangelize your ideas throughout an organization. We're looking for how you prioritize and productize documentation, and how you would go about doing so in our handbook-first company.
 
 #### Engineering collaboration
 
 - Interviewer: [Engineering manager](../product-engineering/engineering/eng_org.md#planned-organization)
 - Duration: 30 mins
-- Details: In this interview, you will meet with one of the Engineering managers to discuss how you've worked closely with Engineering and other cross funcitonal teams in the past to build the best technical documentation. We have a unique opportunity to create an interesting integrated docs experience with our product. We'd like to discuss that vision and how you would be able to help us achieve this vision.
+- Details: In this interview, you will meet with one of the Engineering managers to discuss how you've worked closely with Engineering and other cross functional teams in the past to build the best technical documentation. We have a unique opportunity to create an interesting integrated docs experience with our product. We'd like to discuss that vision and how you would be able to help us achieve this vision.
 
 #### Marketing collaboration
 
 - Interviewer: [Marketing team member](../company/team/org_chart.md#marketing)
 - Duration: 30 mins
-- Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
+- Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross functional teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 
 #### Customer support collaboration
 
 - Interviewer: [Virginia Ulrich](../support/bios/virginia-readme.md), Head of CS
 - Duration: 30 mins
-- Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross funcitonal teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
+- Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross functional teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
 
 ### Product manager
 
