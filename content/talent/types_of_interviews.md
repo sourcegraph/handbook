@@ -112,7 +112,7 @@ In addition to the above interviews, some departments have department-specific i
 
 ## Administrative
 
-- Executive Business Partner working session scenario
+#### Executive Business Partner working session scenario
 
   - Interviewer(s): Kacie Jenkins, Gregg Stone, and Kelsey Nagel
   - Duration: 60-minutes.
@@ -146,7 +146,7 @@ In addition to the above interviews, some departments have department-specific i
 
 ## BizOps, Finance, Legal, TechOps
 
-- BizOps: Director of Data & Analytics take-home project
+### BizOps: Director of Data & Analytics take-home project
   - It’s 2021, and Sourcegraph is growing at a rapid pace. With the launch of Sourcegraph cloud and significant growth in sales of the existing self-hosted deployment option, the VP of Operations is asking you to prepare a plan for upgrading our data infrastructure to be prepared for the next several years of growth.
   - We have a complex user journey that can touch a number of websites, apps, and integrations:
   - Data sources:
@@ -171,7 +171,8 @@ In addition to the above interviews, some departments have department-specific i
   - Please describe the basic structure of data at the beginning(s) and the end(s) of the pipeline, and be prepared to discuss the data transformations that take place along the way.
   - Finally, please draw or describe (no real data required) the dashboards or reports that you would recommend providing to the CEO, the head of Product, and the head of Marketing each month.
   - We recommend that you spend approximately 2 hours on this case study. Please feel free to reach out with any questions!
-- BizOps: Product Analyst take-home project
+ 
+### BizOps: Product Analyst take-home project
   - This exercise should take 2-3 hours to complete;please don’t take more than that!
   - Getting setup: You’ll be using Mode Analytics public datasets tocomplete this take-home project. Here are the steps to getting into the SQL workspace:
   - 1.Create an account if you don’t already have one
@@ -183,7 +184,7 @@ In addition to the above interviews, some departments have department-specific i
   - 2.We ran an A/B test (experiment) to increase ‘like_message’actions users are taking. Which variant would you recommend going forward with, if any?
   - When you’ve completed the project, share your results via static run links along with some availability you have over the next week to review the project with a BizOps team members. When reviewing, you can expect questions about your approach in getting to know the data, the process you took to findthe results, results themselves, and how you decidedto communicate your findings.
 
-- Legal: Corporate & Legal Counsel take-home project
+### Legal: Corporate & Legal Counsel take-home project
 
   - The goal of the assignment is to give you a chance to demonstrate how you think, write, and negotiate while tackling issues that are top of mind for Sourcegraph and our customers.
   - Please see the attached MSA redlines (we will provide this to you if you get to this stage in the process) from our prospective customer, a CA-based tech company. Deal summary:
@@ -192,7 +193,7 @@ In addition to the above interviews, some departments have department-specific i
   - Will you respond to the redlines and include comments to the customer explaining your reasoning for any redlines that you reject or modify? Please accept any redlines that you suggest that we agree to with a brief comment explaining why.
   - In addition, please draft a short, casual note with your assessment that you would send to the account executive. Include a short issues list, with the prioritization of issues made clear.
 
-- TechOps: Tech Ops IT Engineer take-home project / Technical Interview
+### TechOps: Tech Ops IT Engineer take-home project / Technical Interview
   - The technical interview should be approximately:
   - 25 min for questions from Nicky and Dan M
   - 10 min questions from you to us
@@ -372,18 +373,18 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 ## Marketing
 
-- Content working session
+### Content working session
 
   - Interviewer(s): Coming soon.
   - Duration: 60-minutes.
   - Details: during this stage in the interview process, we try to get a sense of your approach and thought process when reviewing writing drafts submitted by team members. You will be given a blog post draft to review for the first 30-minutes of the session, after which you and the hiring manager go through how you approached the piece and talk about the changes you made and why.
 
-- Technical Content working session
+### Technical Content working session
 
   - Duration: 60-minutes.
   - Details: during this stage in the interview process, we try to get a sense of how you think about content. You will be given (2) pieces of content to read through for the first 30 minutes of the session, after which, you and the hiring manager will take the last 30 minutes to go through what you liked, disliked, and what you would change about each piece and why.
 
-- Senior Digital Marketing Manager working session
+### Senior Digital Marketing Manager working session
 
   - Duration: 60-minutes.
   - The Goal: The purpose of this working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
@@ -399,7 +400,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
   - How would you approach bridging these awareness activities with contact acquisition/product sign-ups?
   - NOTE: Please don't go overboard on preparation, plans, or detail. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 
-- Program Manager, Demand Gen Campaigns working session
+### Program Manager, Demand Gen Campaigns working session
 
   - Duration: 60-minutes.
   - Part 1: Creativity & Collaboration (20 Minutes)
@@ -423,12 +424,12 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
       - What are some key deliverables you’d expect to see?
   - Part 3: Q&A
 
-- Developer Educator working session
+### Developer Educator working session
 
   - Duration: 60-minutes.
   - During this stage in the interview process, we try to get a sense of your approach and thought process about curriculum and writing. You will be given a curriculum and short tutorial draft to review for the first 30 minutes of the session, after which you and Lisa will take the last 30 minutes to go through your thoughts about that approach and talk about your feedback and what you would add.
 
-- Product Marketing Manager working session
+### Product Marketing Manager working session
 - Duration: 60-minutes.
 - The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
 - First, we'd like to cover some general stuff:
@@ -439,7 +440,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd do this kind of thing internally, so that's best. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 - Feel free to reach out to Andy with any questions.
 
-- Senior Customer Marketing Manager working session
+### Senior Customer Marketing Manager working session
 - Duration: 60-minutes.
 - The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals.
 
@@ -454,7 +455,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 ## People Operations
 
-- Senior People Partner working session
+### Senior People Partner working session
   - Duration: 60-minutes.
   - Our working session is designed to give us more insight into how you'd think about and approach typical scenarios you might be called on to provide support to managers on. We've detailed three scenarios for you to walk us through the way you'd think and respond to each scenario. For each scenario please walk us though:
     - How would you approach this situation and why? What risks or concerns does each scenario present?
@@ -466,73 +467,73 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 ## Product
 
-**Director of Design**
+### Director of Design
 
-- Peer & leadership
+#### Peer & leadership
 
   - Interviewer(s): Director of Product + Director of Engineering
   - Duration: 1 hour
   - Details: In this interview, you will meet with Directors from Product and Engineering (hopefully) from the same organization. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, focusing on your experiences integrating and supporting cross functional work. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and shared sense of ownership over our Product/Engineering goals (OKRs). We’re looking for to talk about your experiences managing a team, what you've learned, and how you inspire and challenge your team of peers and your reports.
 
-- Design feedback & processes
+#### Design feedback & processes
 
   - Interviewer(s): Two Product Designers
   - Duration: 1 hour
   - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. This interview will have an emphasis on how you've improved processes across your team and the organization. We’re looking for how you create team cohesion, how you give feedback, what you've learned through managing different teams/people, and how you mentor.
 
-- Design research & managing success
+#### Design research & managing success
 
   - Interviewer(s): Two Product Designers
   - Duration: 1 hour
   - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
 
-**Director of Product**
+### Director of Product
 
-- Working session
+#### Working session
 
   - Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
   - Duration: 1 hour
   - Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
 
-- Meet your team
+#### Meet your team
 
   - Interviewer(s): Depending on the org, 2-3 [Product Managers](../product-engineering/product/index.md#product).
   - Duration: 45 min
   - Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
 
-- Design and engineering collaboration
+#### Design and engineering collaboration
   - Interviewer(s): Product Designer and Engineering Manager.
   - Duration: 30 mins
   - Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organizing plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role.
 
-**Director of Technical Writing**
+### Director of Technical Writing
 
-- Design collaboration
+#### Design collaboration
 
   - Interviewer: [Product designer](../product-engineering/product/product_org.md)
   - Duration: 30 mins
   - Details: In this interview, you will meet with one of the Product Designers to discuss how you've worked with Design and other cross funcitonal teams in the past. We will ask questions about your philsophy on technical writing and documentation and how you lead and evalgelize your ideas throughout an organization. We're looking for how you prioriize and productize documentation, and how you would go about doing so in our handbook-first company.
 
-- Engineering collaboration
+#### Engineering collaboration
 
   - Interviewer: [Engineering manager](../product-engineering/engineering/eng_org.md#planned-organization)
   - Duration: 30 mins
   - Details: In this interview, you will meet with one of the Engineering managers to discuss how you've worked closely with Engineering and other cross funcitonal teams in the past to build the best technical documentation. We have a unique opportunity to create an interesting integrated docs experience with our product. We'd like to discuss that vision and how you would be able to help us achieve this vision.
 
-- Marketing collaboration
+#### Marketing collaboration
 
   - Interviewer: [Marketing team member](../company/team/org_chart.md#marketing)
   - Duration: 30 mins
   - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross funcitonal teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 
-- Customer support collaboration
+#### Customer support collaboration
   - Interviewer: [Virginia Ulrich](../support/bios/virginia-readme.md), Head of CS
   - Duration: 30 mins
   - Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross funcitonal teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
 
-**Product manager**
+### Product manager
 
-- Async writing project [(RFC Project)](../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
+#### Async writing project [(RFC Project)](../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
 
   - Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
   - Duration: ~1 hour
@@ -543,26 +544,26 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
   - What’s important is that the writing is clear and easy to understand. It should show us that you care about your writing by making conscious decisions of what to leave in or out, paying attention to grammar and spelling, and phrasing things in an understandable way.
   - The challenge is to explain something to a reader that doesn’t have the same context as you have, just like you would in a proposal for a new feature.
 
-- Product interview
+#### Product interview
 
   - Interviewer(s): [Product Manager and a Product Designer](../product-engineering/product/index.md) who were not the reviewers of the RFC.
   - Duration: 1 hour
   - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will have about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
-- Engineering collaboration
+#### Engineering collaboration
   - Interviewer(s): Engineering Manager.
   - Duration: 30 min
   - Details: In this interview, you will meet with the Engineering Manager from the team you’re interviewing for, your counterpart in the PM-EM responsibilities. We will be evaluating how you collaborate and work within a team, specifically how you partner with Engineering to drive the product vision of your team. We will focus on your technical background, as you will need to be able to discuss the technical aspects of our product with customers and communicate feedback and technical insight to the team. It is important that you demonstrate enthusiasm and understanding for the product and problem space, identifying and communicating the pain that Sourcegraph solves for developers.
 
-**Product designer**
+### Product designer
 
-- Portfolio review
+#### Portfolio review
 
   - Interviewer(s): [Two Product Designers](../product-engineering/product/index.md).
   - Duration: 1 hour
   - Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../product-engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
 
-- Design exercise
+#### Design exercise
   - Interviewer(s): [Product Manager, Product Designers](../product-engineering/product/index.md), and a Frontend engineer.
   - Duration: 2 hours
   - Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../product-engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
@@ -607,7 +608,8 @@ A great resource on structure (including some great walkthrough videos) from [Be
 
 - Interviewer(s): Hiring Manager + Account Executive(s)
 - Duration: 45-minutes.
-- Purpose: during the sales presentation, you will 1) walk the panel through a brief introduction/bio of yourself, 2) deep-dive into an enterprise deal you have led, and 3) present a pipeline generation plan (including 10 top target accounts you would pursue based on your understanding of Sourcegraph's value proposition, your personal relationships, and relevant information about the prospect companies that you believe lead to a high probability of engagement). The goal of this interview is for us to understand: 1) your past experience and skill set (via your intro), 2) whether you can command a sales process (via the deep-dive), and 3) your understanding of our value proposition and approach towards territory development. Very important: please use [this template](https://docs.google.com/presentation/d/1Tl5XdoMog8QEzEZFAHVHrOYAfjlOh7tomZKlVdxwGeA/edit#slide=id.g9288fdfdea_0_109) for your presentation and please check out the speaker notes - they have a lot of detail on what we are looking for! If you have any issues accessing the presentation, please email recruiting@sourcegraph.com.
+- Purpose: during the sales presentation, you will 1) walk the panel through a brief introduction/bio of yourself, 2) deep-dive into an enterprise deal you have led, and 3) present a pipeline generation plan (including 10 top target accounts you would pursue based on your understanding of Sourcegraph's value proposition, your personal relationships, and relevant information about the prospect companies that you believe lead to a high probability of engagement). The goal of this interview is for us to understand: 1) your past experience and skill set (via your intro), 2) whether you can command a sales process (via the deep-dive), and 3) your understanding of our value proposition and approach towards territory development. 
+- **Very important:** please use [this template](https://docs.google.com/presentation/d/1Tl5XdoMog8QEzEZFAHVHrOYAfjlOh7tomZKlVdxwGeA/edit#slide=id.g9288fdfdea_0_109) for your presentation and please check out the speaker notes - they have a lot of detail on what we are looking for! If you have any issues accessing the presentation, please email recruiting@sourcegraph.com.
 
 #### Enterprise AE deal review
 
@@ -617,8 +619,8 @@ A great resource on structure (including some great walkthrough videos) from [Be
 
 #### Enterprise AE team collaboration with Customer Engineering
 
-- Interviewer(s): Coming soon.
-- Duration: Coming soon.
+- Interviewer(s): Two individual contibutor Customer Engineers
+- Duration: 30-minutes
 - Details: the purpose of this stage in the interview process is to evaluate your technical depth and aptitude for learning about the products you sell, as well as your ability to work effectively as a team with our Customer Engineers. Please come prepared to explain the technical underpinnings of the product(s) you sell today, how you work with Customer Engineers to learn more, and translate that into value to customers and prospects.
 
 ### **Regional Sales Director**
