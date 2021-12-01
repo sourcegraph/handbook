@@ -74,6 +74,7 @@ Contact @handbook-support in the #handbook channel for help with the Handbook. @
 Handbook Office Hours are held by the Handbook Product Manager every Wednesday at 16:00 UTC. Look for weekly reminders in the #handbook-announce channel.
 
 Office Hours are open to all Sourcegraph teammates. Join for a few minutes, or the whole hour. Some of the things we cover:
+
 - Questions about making changes to the Handbook
 - Handbook Troubleshooting
 - Ideas for Handbook improvements
