@@ -21,6 +21,7 @@ christina_forney:
   name: Christina Forney
   pronouns: she/her
   role: VP Product
+  manager_role_slug: vp_product
   location: Woodside, CA, USA 🇺🇸
   github: christinaforney
   pronunciation: '[krɪsˈtiːnə ˈfɔrnɪ](http://ipa-reader.xyz/?text=kr%C9%AAs%CB%88ti%CB%90n%C9%99%20%CB%88f%C9%94rn%C9%AA&voice=Kendra)'
@@ -201,7 +202,8 @@ kai_passo:
 
 rob_rhyne:
   name: Rob Rhyne
-  role: Senior Product Designer
+  reports_to: director_design
+  role: Senior Product Designer, Batch Changes and Search
   location: Oceanside, CA, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -294,9 +296,10 @@ christine_lovett:
 
 alicja_suska:
   name: Alicja Suska
+  reports_to: director_design
   pronouns: she/her
   pronunciation: /aˈlʲit͡s.ja/
-  role: Product Designer
+  role: Product Designer, Frontend Platform, Extensibility, and Code Insights
   location: Poznań, Poland 🇵🇱
   github: AlicjaSuska
   email: alicja@sourcegraph.com
@@ -314,8 +317,9 @@ stefan_hengl:
 
 quinn_keast:
   name: Quinn Keast
+  reports_to: director_design
   pronouns: he/him
-  role: Product Designer
+  role: Product Designer, Cloud SaaS and Search
   location: Berlin, Germany 🇩🇪
   github: quinnkeast
   email: qkeast@sourcegraph.com
@@ -396,8 +400,9 @@ owen_brennan:
 
 maría_craig:
   name: María Craig
+  reports_to: product_director_code_graph
   pronouns: she/her
-  role: Product Manager
+  role: Product Manager, Code Intelligence
   location: Barcelona, Spain 🇪🇸 / Buenos Aires, Argentina 🇦🇷
   github: macraig
   email: maria@sourcegraph.com
@@ -414,8 +419,9 @@ chris_surdi:
 
 joel_kwartler:
   name: Joel Kwartler
+  reports_to: product_director_code_graph
   pronouns: he/him
-  role: Product Manager
+  role: Product Manager, Code Insights
   location: Los Angeles, CA, USA 🇺🇸
   pronunciation: '[ʤoʊl kwɔrtlɜr](http://ipa-reader.xyz/?text=%CA%A4o%CA%8Al%20kw%C9%94rtl%C9%9Cr&voice=Joey)'
   github: Joelkw
@@ -646,8 +652,9 @@ seth_hoover:
 
 malo_marrec:
   name: Malo Marrec
+  reports_to: product_director_code_graph
   pronouns: he/him
-  role: Product Manager
+  role: Product Manager, Batch Changes
   location: Paris, France 🇫🇷
   email: malo@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/malo-marrec)'
@@ -695,6 +702,7 @@ manuel_ucles:
 
 kylie_fligstein:
   name: Kylie Fligstein
+  reports_to: vp_product
   pronouns: she/her
   role: Executive Business Partner to VP of Product
   location: Oakland, CA, USA 🇺🇸
@@ -1002,8 +1010,9 @@ kelli_rockwell:
 
 dan_mckean:
   name: Dan Mckean
+  reports_to: product_director_enablement
   pronouns: he/him
-  role: Product Manager, Distribution & Security
+  role: Product Manager, Repo Management & Delivery
   location: Shaftesbury (Dorset), UK 🇬🇧
   github: dan-mckean
   email: dan.mckean@sourcegraph.com
@@ -1031,8 +1040,9 @@ rebecca_rissinger:
 
 ryan_phillips:
   name: Ryan Phillips
+  reports_to: product_director_cloud
   pronouns: He/Him
-  role: Product Manager, Core App
+  role: Product Manager, Cloud
   location: San Francisco, CA, USA 🇺🇸
   github: Ryphil
   email: ryphil@sourcegraph.com
@@ -1439,7 +1449,9 @@ luke_taylor:
 
 anna_mikhova:
   name: Anna Mikhova
-  role: Director of Product
+  reports_to: vp_product
+  role: Director of Product, Cloud
+  manager_role_slug: product_director_cloud
   location: Salt Lake City, UT, USA 🇺🇸
   github: anna-mikhova
   email: anna@sourcegraph.com
@@ -1570,8 +1582,10 @@ erica_freckelton:
 
 serina_clark:
   name: Serina Clark
+  reports_to: vp_product
   pronouns: her/she/hers
-  role: Director of Product - Platform & Infrastructure
+  role: Director of Product, Enablement
+  manager_role_slug: product_director_enablement
   location: Erie, Colorado, United States 🇺🇸
   github: serinadawn
   email: serina.clark@sourcegraph.com
@@ -1591,13 +1605,14 @@ dan_ryan:
 
 mary_belzer:
   name: Mary Belzer
+  reports_to: product_director_enablement
   pronouns: she/her
-  role: Handbook Product Manager
+  role: Product Manager, Handbook
   location: Denver, Colorado, United States 🇺🇸
   github: marybelzer
   email: mary.belzer@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/marybelzer/)'
-  description: "Mary grew up in the US Midwest and relocated to Denver, Colorado in 2014. She's a big baseball fan, mostly rooting for the Chicago White Sox, but the Rockies and the Cardinals get some love too. Mary is a serial hobbyist: she loves playing music, collecting vinyl, repairing old audio gear, going to shows now that they’re a thing again, making quilts, and sewing her own wardrobe. When she's not buried in a hobby, she's staying active with snowboarding, backpacking, aerial arts, yoga, and weightlifting. For the last several years she's been working in process improvement, product management, and program management at various eCommerce startups."
+  links: '[LinkedIn](https://www.linkedin.com/in/marybelzer/), [ReadMe](../../product-engineering/product/readmes/mary-belzer-readme.md))'
+  description: "Mary grew up in the US Midwest and relocated to Denver, Colorado in 2014. She is a serial hobbyist: she loves playing music, collecting vinyl, repairing old audio gear, seeing live music, making quilts, knitting and sewing her own wardrobe. When she's not buried in a hobby, she's staying active with snowboarding, aerial arts, and weightlifting. For the last several years she's been working in process improvement, product management, and program management at various eCommerce startups."
 
 brannon_rouse:
   name: Brannon Rouse
@@ -1637,8 +1652,10 @@ brielle_collins:
 
 jason_yavorska:
   name: Jason Yavorska
+  reports_to: vp_product
   pronouns: he/him
-  role: Product Director for Global Code Graph
+  role: Product Director, Code Graph
+  manager_role_slug: product_director_code_graph
   location: Leiden, NL 🇳🇱 and part of the year in Odessa, UA 🇺🇦
   github: jyavorska
   email: jason.yavorska@sourcegraph.com
@@ -1743,8 +1760,9 @@ cristina_birkel:
 
 sara_lee:
   name: Sara Lee
+  reports_to: director_design
   pronouns: she/her
-  role: Product Designer
+  role: Product Designer, Code Intel and Extensibility
   location: Chapel Hill, NC, United States 🇺🇸
   github: jjinnii
   email: sara.lee@sourcegraph.com
@@ -1753,7 +1771,8 @@ sara_lee:
 
 ben_venker:
   name: Ben Venker
-  role: Product Manager - Search Product
+  reports_to: product_director_code_graph
+  role: Product Manager, Search Product
   location: St. Louis, MO, United States 🇺🇸
   github: benvenker
   email: ben.venker@sourcegraph.com
@@ -1808,8 +1827,9 @@ kemper_hamilton:
 
 marisa_kanemoto:
   name: Marisa Kanemoto
+  reports_to: director_design
   pronouns: she/her
-  role: Product Designer
+  role: Product Designer, Search
   location: Berkeley, California, United States 🇺🇸
   github: marisak
   email: marisa.kanemoto@sourcegraph.com
@@ -1914,8 +1934,9 @@ devon_thompson:
 
 taylor_sperry:
   name: Taylor Sperry
+  reports_to: product_director_enablement
   pronouns: she/her
-  role: Technical Product Manager
+  role: Technical Product Manager, Frontend Platform & Dev Experience
   location: Denver, CO, USA 🇺🇸
   github: taylorsperry
   email: taylor.sperry@sourcegraph.com
@@ -2061,6 +2082,20 @@ amy_johnson:
   role: Accountant
   location: Trabuco Canyon, CA, USA
   description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
+
+director_design:
+  name: Christina Forney
+  role: (Interim) Director of Design
+  reports_to: vp_product
+  manager_role_slug: director_design
+  hidden_on_team_page: true
+
+head_of_technical_writing:
+  name: Christina Forney
+  role: (Interim) Head of Technical Writing
+  reports_to: vp_product
+  manager_role_slug: head_of_technical_writing
+  hidden_on_team_page: true
 
 Daniel_Gwyn:
   name: Daniel Gwyn

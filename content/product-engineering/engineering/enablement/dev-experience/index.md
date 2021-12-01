@@ -6,9 +6,9 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 - [Taylor Sperry](../../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
 - Kristen Stretch ([Engineering Manager](../../roles.md#engineering-manager))
-  - [Asdine El Hrychy](../../../../company/team/index.md#asdine-el-hrychy)
   - [JH Chabran](../../../../company/team/index.md#jh-chabran)
   - [Robert Lin](../../../../company/team/index.md#robert-lin)
+  - [Dave Try](../../../../company/team/index.md#dave-try)
 
 ## [Strategy](../../../../company/strategy/enablement/dev-experience/index.md)
 
