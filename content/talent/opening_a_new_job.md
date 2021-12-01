@@ -78,7 +78,7 @@ Interview process / hiring team:
 
 [30m] [Recruiter screen](./types_of_interviews.md#recruiter-screen): [insert name of interviewer(s)]
 [30-60m] [Hiring Manager screen](./types_of_interviews.md#hiring-manager-screen): [insert name of interviewer(s)]
-Assignment, if applicable: ******\_******
+Assignment, if applicable: **\*\***\_**\*\***
 In-depth Interview Stage:
 
 - [1h] [Resume Deep Dive](./types_of_interviews.md#resume-deep-dive): [insert name of interviewer(s)]
@@ -91,12 +91,12 @@ In-depth Interview Stage:
 
 At a high level, here is an overview of what we’re looking for in this hire. @hiringmanager, please add any additional insight that will be helpful for the hiring team to keep in mind as they interview candidates!
 
-- Why is this position open: ****\_\_\_****
-- The ideal candidate: ****\_\_\_****
-- Level: ****\_\_\_****
-- Deal breakers: ****\_\_\_****
-- Selling points: ****\_\_\_****
-- Target start date: ****\_\_\_****
+- Why is this position open: \***\*\_\_\_\*\***
+- The ideal candidate: \***\*\_\_\_\*\***
+- Level: \***\*\_\_\_\*\***
+- Deal breakers: \***\*\_\_\_\*\***
+- Selling points: \***\*\_\_\_\*\***
+- Target start date: \***\*\_\_\_\*\***
 
 Thank you in advance for participating in our interview process!"
 
