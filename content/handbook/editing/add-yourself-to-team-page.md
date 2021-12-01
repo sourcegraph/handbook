@@ -44,14 +44,15 @@ If you have any trouble you can ask for help in #product-internal. If you are a 
 If you are joining as a new manager, there may be an interim role in the team.yml that you should customize, instead of creating a new one. It would look something like this (depending on your role), but if you're unsure then ask your manager:
 
 ```yaml
-head_of_technical_writing:
+director_design:
   name: Christina Forney
-  role: (Interim) Head of Technical Writing
+  role: (Interim) Director of Design
   reports_to: vp_product
+  manager_role_slug: director_design
   hidden_on_team_page: true
 ```
 
-Instead of creating a new entry, you should update this one. Change the top level name of the object to your own name separated by underscores, replace the value of the name field with your own name, remove `(Interim)` from the title, and finally remove entirely the `hidden_on_team_page` field.
+Instead of creating a new entry, you should update this one. Change the top level name of the object to your own name separated by underscores, replace the value of the name field with your own name, remove `(Interim)` from the title, and finally remove entirely the `hidden_on_team_page` field. You don't need to change thge `manager_role_slug` value.
 
 ### New employees
 
