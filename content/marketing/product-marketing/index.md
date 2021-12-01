@@ -44,7 +44,7 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 - [Andy Schumeister](../../company/team/index.md#andy-schumeister), Director of Product Marketing
 - [Alex Isken](../../company/team/index.md#alex-isken), Product Marketing Manager, Emerging Products
 - [Victoria Yunger](../../company/team/index.md#victoria-yunger), Product Marketing Lead, Enterprise
-- Hiring: [Senior Customer Marketing Manager](https://boards.greenhouse.io/sourcegraph91/jobs/4096458004)
+- Customer Marketing Lead (joining soon)
 
 To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)
 
