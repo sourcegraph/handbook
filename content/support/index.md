@@ -2,9 +2,9 @@
 
 ## Our ethos
 
-Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as by honoring our...
+Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. The team is comprised of application engineers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as by honoring our...
 
-### guiding principles:
+### Guiding principles:
 
 - Focusing on the impact we might have and aligning our decisions and actions to the impact we desire
 - Seeking/providing context so the why is clear
@@ -21,30 +21,27 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 
-[Virginia Ulrich](../company/team/index.md#virginia-ulrich-she-her), Head of Customer Support - reporting to Beyang Liu, CTO
+[Virginia Ulrich](../company/team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
 
 - [Brielle Collins](../company/team/index.md#brielle-collins), Manager
 
-  - [Adeola Akinsiku](../company/team/index.md#adeola-akinsiku)
-  - [Gabe Torres](../company/team/index.md#team#gabe-torres-he-him)
-  - [Mariam Adedeji](../company/team/index.md#mariam-adedeji-she-her)
-  - [Michael Bali](../company/team/index.md#michael-bali-hehim)
-  - [Warren Gifford](../company/team/index.md#warren-gifford-he-him)
+  - [Gabe Torres](../company/team/index.md#team#gabe-torres)
+  - [Mariam Adedeji](../company/team/index.md#mariam-adedeji)
+  - [Michael Bali](../company/team/index.md#michael-bali)
+  - [Warren Gifford](../company/team/index.md#warren-gifford)
 
 - [Nonso Obiano](../company/team/index.md#nonso-obiano), Manager
-  - [Amber Furbush](../company/team/index.md#amber-furbush-she-her)
-  - [Don Ellison](../company/team/index.md#donavon-ellison-he-him)
-  - [Giselle Northy](../company/team/index.md#giselle-northy-she-her)
-  - [Jason Harris](../company/team/index.md#jason-harris-he-him)
+  - [Amber Furbush](../company/team/index.md#amber-furbush)
+  - [Don Ellison](../company/team/index.md#donavon-ellison)
+  - [Giselle Northy](../company/team/index.md#giselle-northy)
+  - [Jason Harris](../company/team/index.md#jason-harris)
   - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
 - [Tamar Joyeux](../company/team/index.md#tamar-joyeux), Manager
-  - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste-he-him)
-  - [Beatrix Woo](../company/team/index.md#beatrix-woo-she-her)
-  - [Ben Gordon](../company/team/index.md#team#ben-gordon-he-him)
-  - [Carl Hicks](../company/team/index.md#carl-hicks-he-him)
-  - [Kelvin Lee](../company/team/index.md#kelvin-lee-he-him)
+  - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste)
+  - [Ben Gordon](../company/team/index.md#team#ben-gordon)
+  - [Kelvin Lee](../company/team/index.md#kelvin-lee)
 
-More details about each team member in [our team READMEs](support-bios.md).
+More details about each team member in [our team READMEs](bios/index.md).
 
 ## We know that we are successful when we …
 
@@ -58,8 +55,9 @@ We always want the following to be true:
 - **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.**
   - [FY22Q2 OKR plan](FY22Q2-OKR-Plan.md)
   - [FY22Q3 OKR plan](FY22Q3-OKR-Plan.md)
+  - [FY22Q4 OKR plan](FY22Q4-OKR-Plan.md)
 
-### As an individual CSE...
+### As an individual application engineer...
 
 As I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
 
@@ -70,6 +68,7 @@ As I complete my first 90 days (if not sooner), I know I am successful in my day
 5. I resolve the cases for which I am responsible in 7 days or less (on average)
 6. I rarely have more than 5 active cases at a time
 7. I work toward team self-sufficiency by always asking my teammates for input/help before engaging engineering and by ensuring what I learn along the way is reflected in our docs or the handbook (whichever is most relevant)
+8. I provide a summary of my cases to populate our [resolved case database](enablement/zendesk-ticket-exporter.md)
 
 You can see how you are performing toward some of these metrics by determining your Zendesk assignee ID ([instructions](https://support.zendesk.com/hc/en-us/articles/360044278093-How-can-I-locate-an-agent-ID-in-Support-) and filtering [our Looker dashboard](https://sourcegraph.looker.com/dashboards-next/177) on your ID.
 
@@ -94,7 +93,7 @@ We are a [customer-first company](../company/customer-first.md). We work alongsi
 - **How CE adds value to support:** CE has nuanced context that is valuable to how support works with a customer; CE can also help clarify / remind customers we need information (during regularly scheduled calls) on the more tricky issues.
 - **Collaboration overview:** We can think of CE and support as work best friends, working closely together every day, primarily communicating in Slack. CEs (or others -- including customers -- but primarily CEs) may engage support at any point during the pre-sales and post-sales process to share context to help support best serve our customers.
 
-### Software Engineers (SWEs)
+### Engineering
 
 - **How support adds value to SWEs:** Support handles the majority of customer issues, reducing the amount of time engineering has to be reactive and providing a more data-driven view into the source of recurring issues/questions; support also handles the majority of internal and external communication during a critical p0 incident (letting engineering stay focused on solving the issue).
 - **How SWEs adds value to support:** SWEs create a high quality product and when needed, helps support when they get stuck (this should be more rare than frequent), and helps uplevel support via planned training sessions, periodic pairing, deep-dives on new features/products, etc.
@@ -130,27 +129,29 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
-- [CSE onboarding](customer-support-onboarding.md)
+- [Application engineer onboarding](customer-support-onboarding.md)
 - [Manager onboarding](customer-support-manager-onboarding.md)
-- [Team README](support-bios.md)
+- [Career levels](cs-career-levels.md)
+- [Team README](bios/index.md)
 - [Team schedule](support-schedule.md)
 - [Organizational structure](support-org-structure.md)
 - [Team rituals](support-team-rituals.md)
+- [How we plan our OKRs](quarterly-planning.md)
 - [Workflow](support-workflow.md)
 - [Prioritization](support-prioritization.md)
 - [Customer exceptions](customer-exceptions.md)
 - [Engaging other teams](engaging-other-teams.md)
-- [Serving as messenger during incidents](../engineering/incidents/index.md)
+- [Serving as messenger during incidents](../product-engineering/engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
-- [Enablement](support-enablement.md)
+- [Enablement](enablement/index.md)
 - [Tools](support-tools.md)
-- [Assigned CSEs](assigned-cse.md)
-- [Process: Permanently deleting user data](permanently_deleting_user_data.md)
+- [Assigned application engineers](assigned-app-eng.md)
+- [Permanently deleting user data](permanently_deleting_user_data.md)
 - [Business continuity](business-continuity-plan.md)
 
 ## SLAs
 
-Our default contractual service level agreeements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
+Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
 
 - We aim to respond to all customers on all issues within 1 hour between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
 - We aim to resolve all issues within an average of no more than one week.
@@ -173,6 +174,19 @@ While Sourcegraph will strive to respond as soon as possible to every issue, we 
 
 We will work with the customer to schedule maintenance downtime at least 24 hours in advance, and will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
 
+#### For cloud saas customers:
+
+|            | Description                                                                                                                                | Response time                                           | Resolution time                                                                                              |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Severity 1 | Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment. | Within 24 hours of becoming aware of the issue          | Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.                |
+| Severity 2 | Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.         | Within one business week of becoming aware of the issue | When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update. |
+
+We will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
+
 #### For customers with custom support agreements:
 
 Enterprise Plus and Elite customers should refer to their contracts if they have custom service-level agreements.
+
+## Support on-call
+
+Our contractual SLAs do not require support to be available 24x7, but we strive to make sure our customers have what they need when they need it. Via proper staffing (hiring folks whose working hours align with our needs), we will eventually move to 24x5 over the course of FY23, possibly into FY24. We will assess quarterly whether we need to move to a 24x7 schedule. In the meantime, our [team schedule](support-schedule.md) shows when we have folks online. Virginia's phone number is in Slack (if she is not online) and the OpsGenie on-call protocol can alert a CS leader at any time, too: use the Slack command: `/genie alert [alert message] for customer-support` ... and this will trigger a page to a member of the leadership team, any time, any day.

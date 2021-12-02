@@ -24,8 +24,10 @@ Exceptions:
 
 1. When using Slack for work-related purposes, avoid private messages. [Private messages discourage collaboration](https://blog.flowdock.com/2014/04/30/beware-of-private-conversations/). You might actually be contacting the wrong person, and they cannot easily redirect you to the right person. If the person is unavailable at the moment, it is less efficient because other people can't jump in and help. Use a public channel and mention the person or group you want to reach. This ensures it is easy for other people to chime in, involve other people if needed, and learn from whatever is discussed.
 1. If someone sends you a work-related private message, it is OK to let them know you'd like to take the conversation to a public channel, linking to this section of the handbook. The process might look something like:
-   - In the private message: <code>Thanks for reaching out. That's a great question/idea that I think the rest of the team could benefit from. I'm going to move this to #public-channel based on [our desire to avoid private messages](#avoid-private-messages).</code>
-   - In the appropriate public channel: `@person asked "question" in a DM, pulling that out here if anyone else has input.`
+   - In the private message:
+     > Thanks for reaching out. That's a great question/idea that I think the rest of the team could benefit from. I'm going to move this to #public-channel based on [our desire to avoid private messages](#avoid-private-messages).
+   - In the appropriate public channel:
+     > @person asked "question" in a DM, pulling that out here if anyone else has input.
    - Answer the question in a thread on that channel message, allowing others to benefit.
 1. If you must send a work-related private message, [don't start a conversation with "Hi" or "Hey"](http://www.nohello.com/) because that interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously. If you truly need to have a synchronous communication, then start by asking for that explicitly, while mentioning the subject. For example: "I'm having trouble understanding issue XYZ. Can we talk about it quickly?".
 
@@ -95,6 +97,7 @@ If teams require additional channels they should follow the convention of prefix
 - #design - How Sourcegraph looks visually
 - #feedback - Feedback directly from our users & customers
 - #product - Product questions, ideas and thoughts
+- #prod-eng-announce - Announcements that are relevant to all of product or all of engineering (or both) belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 
 ### Operations
 
@@ -119,7 +122,7 @@ If teams require additional channels they should follow the convention of prefix
 
 All engineers should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- #dev-announce - Things that affect a majority of the dev team in some way (e.g. site or buildkite is down, we will have expected downtime, etc.). _You should read every message in here, and messages you post to it should have a high signal-noise ratio._
+- #prod-eng-announce - Announcements that are relevant to all of product or all of engineering (or both) belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 - #dev-chat - Anything related to Sourcegraph development :).
 - #dev-ops - Discussing incidents and any other ops-related work.
 - #buildkite - Notifications about Buildkite / CI failures.
@@ -129,7 +132,7 @@ All engineers should join the following channels (feel free to adjust your notif
 - #bots-production - Kubernetes bot notifications.
 - #alerts-external - External system notifications which might impact our deployments.
 
-You should also join channels mentioned in [your team's documentation](../engineering/index.md#teams)
+You should also join channels mentioned in [your team's documentation](../product-engineering/engineering/index.md#teams)
 
 ### Social
 

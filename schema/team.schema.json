@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "reports_to": {
+        "type": "string"
+      },
+      "manager_role_slug": {
+        "type": "string"
+      },
+      "pronouns": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string"
+      },
+      "location": {
+        "type": "string"
+      },
+      "github": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "links": {
+        "type": "string"
+      },
+      "pronunciation": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "hide_on_team_page": {
+        "type": "boolean"
+      }
+    },
+    "required": ["name", "role"]
+  }
+}

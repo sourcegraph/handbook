@@ -27,8 +27,8 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 | Product messaging and positioning                           | Company messaging and positioning                                      |
 | Pricing and packaging (this is shared with Ops and Product) | Sales collateral (pitch deck, outbound messaging) and sales enablement |
 | Customer advocacy and marketing                             | Community and developer education                                      |
-| Analyst relations                                           | PR (drive for new products)                                            |
-| Use cases and value drivers                                 | Buyer personas (drive for new products)                                |
+| Analyst relations                                           | PR                                                                     |
+| Use cases                                                   | Buyer personas (drive for new products)                                |
 | Partner marketing                                           | Demand generation efforts, content marketing, brand design             |
 
 ## Working with other teams
@@ -41,9 +41,9 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 
 ## Meet the team
 
-- [Andy Schumeister](../../company/team/index.md#andy-schumeister-he-him), Director of Product Marketing
-- [Alex Isken](../../company/team/index.md#alex-isken-he-him), Product Marketing Manager, Emerging Products
-- [Victoria Yunger](../../company/team/index.md#victoria-yunger-she-her), Product Marketing Lead, Enterprise
+- [Andy Schumeister](../../company/team/index.md#andy-schumeister), Director of Product Marketing
+- [Alex Isken](../../company/team/index.md#alex-isken), Product Marketing Manager, Emerging Products
+- [Victoria Yunger](../../company/team/index.md#victoria-yunger), Product Marketing Lead, Enterprise
 - Hiring: [Senior Customer Marketing Manager](https://boards.greenhouse.io/sourcegraph91/jobs/4096458004)
 
 To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)
@@ -61,3 +61,4 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 - [Batch Changes positioning](batch_changes_positioning.md)
 - [Release post process](release_post_process.md)
 - [Customer marketing](customer_marketing.md)
+- [Product Marketing & Product Manager collaboration](../../product-engineering/product/product_management/index.md#product-management--marketing)

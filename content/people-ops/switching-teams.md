@@ -6,27 +6,42 @@ This page focuses on the _process_ of moving from one team or department to anot
 
 If you are interested in staying in the same department or team, or working for the same manager, but switching your focus (e.g. switching from frontend to backend software development), then this page is not needed—simply speak to your manager and see if adjustments can be made to our current role, that align with the team's success.
 
+If you are a manager, please visit this page to learn [how to notify People Ops of an org change](manager-guide.md#how-to-notify-people-ops-of-an-org-and-role-change).
+
 ## Eligibility
 
 For now, any member of the Sourcegraph team is eligible to request to take on a new role in another team, however, support for the change will be subject to teammate's length of time and performance in their existing role, ongoing projects, and whether their skillset is a match for the new role.
 
-## Recommended process
+## Following best practice
 
-There is no fixed process for motivating to take on a new role, but we recommend you engage your current manager first and explain your motivation for applying for a move, including:
+Whether hiring an internal candidate (someone who already works at Sourcegraph) or an external candidate, we always want to follow best practice.
 
-- What value you can bring to the new role
-- How the change new role aligns with your skillset and personal/career goals
-- When it would be appropriate to make the move
+What does that mean?
 
-With your manager's support, contact the head of the team you're interested in moving to to discuss the thinking behind your application, as well as the details of the role and any compensation level.
-If your manager or the manager of the new team don't support your motivation to move, for reasons you find unreasonable, you can reach out to the People Ops team for their perspective.
-If both team managers support the change in principle, you will go through a [short internal interview process](#requirements-for-the-new-manager) for the role, and if you are successful, the team move can be planned. Once the transition plan is approved and the impacted teams informed of the switch, the teammate's new manager should [post an announcement](../communication/announcements.md).
+- All candidates go through the same interview process, regardless of whether they are an internal teammate or external applicant. The only difference is: internal candidates can skip the Values Interview, given that we have a pulse on this already.
+- The role should be kicked off following the steps outlined [here](../talent/resources_for_hiring_managers.md#1-opening-a-new-job). The role and expectations for the role need to be clearly defined and written down in the form of a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
+- The team and interviewers are aligned on role expectations and how we are going to measure those things. An interview plan must be created and predetermined structured interview questions should be asked to all candidates.
+- We ensure that the person we hire meets the expectations of the role.
 
-## Requirements for the new manager
+We can’t skip any of these steps for internal transfers; we maintain our usual high standards and expectations every step of the way for both internal and external candidates.
 
-Team moves require a [job description](../talent/hiring/job_description_guidelines.md) to be drafted for the new role and confirmed by all parties to ensure alignment. The new manager should create this document.
+Having said that, internal candidates do have advantages in satisfying the requirements if they are interested in a role:
 
-New managers are strongly encouraged to run an internal interview process. Some parts of our standard interview process may not be needed (for example, the new manager already know whether the teammate would be an effective collaborator). But new managers should still test the teammate's ability to do the new job. So any role-specific projects and interviews should take place.
+- They have existing/valuable Sourcegraph knowledge and relationships, so they can ramp up faster.
+- We might already have important signals on the requirements, and confidence in those signals, based on their existing work at Sourcegraph. This makes an internal transfer less risky.
+- We understand how they align with and embody our values.
+- They can potentially start much sooner.
+
+Because of these, we encourage our hiring managers to consider internal candidates where possible.
+
+## Equitable process
+
+If a hiring manager from a team would like to invite someone from another team to consider an open role they have, they should follow the below steps:
+
+1. In order to also ensure an equitable process and account for the reality that no one hiring manager would know the career ambitions of everyone at Sourcegraph, the hiring manager should post in #hiring that they are hiring for a role and, as with any role, we are happy to consider internal candidates, and that anyone interested should let them and their current manager know.
+1. If you, as a hiring manager, have a specific teammate in mind for the role, the next step is to schedule time with the person’s existing manager to confirm 1) that they are supportive, 2) ensure they are in good standing, and 3) align on transition timing plan assuming the teammate is offered the new job.
+1. Alert the talent team and ask them to set up time with the teammate to discuss the role in further detail.
+1. The talent team will schedule them for all remaining interview steps (with the exception of the values interview) just as they would with any other candidate.
 
 ## Considerations
 

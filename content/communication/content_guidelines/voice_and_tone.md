@@ -45,22 +45,21 @@ There are four dimensions of tone that we can use to adjust the tone of any give
 Our **tone** comes through the words we use and how we string them together. Our **voice** shapes which words are part of our vocabulary, and provides a “range” along these dimensions of tone that will keep our voice consistent even as our tone changes.
 
 <div class="tone-sample">
-<h3>Tone is tricky!</h3>
-<p>The difference between voice and tone and how to use them together is tricky. Here’s a specific non-Sourcegraph example of how <strong>voice</strong> affects vocabulary, while <strong>tone</strong> affects specific word choice.</p>
 
-<p>Imagine a voice that is <strong>Sage</strong>. A phrase varied on the enthusiastic vs. matter-of-fact scale might be written like:</p>
+### Tone is tricky!
 
-<ul>
-<li>Enthusiastic: “This is lovely!”</li>
-<li>Matter-of-fact: “This is good.”</li>
-</ul>
+The difference between voice and tone and how to use them together is tricky. Here’s a specific non-Sourcegraph example of how **voice** affects vocabulary, while **tone** affects specific word choice.
 
-<p>In contrast, a voice that is <strong>Energetic</strong> would sound very different on the same scale:</p>
+Imagine a voice that is **Sage**. A phrase varied on the enthusiastic vs. matter-of-fact scale might be written like:
 
-<ul>
-<li>Enthusiastic: “This is utterly stupendous!”</li>
-<li>Matter-of-fact: “This is great.”</li>
-</ul>
+- Enthusiastic: “This is lovely!”
+- Matter-of-fact: “This is good.”
+
+In contrast, a voice that is **Energetic** would sound very different on the same scale:
+
+- Enthusiastic: “This is utterly stupendous!”
+- Matter-of-fact: “This is great.”
+
 </div>
 
 **Further reading:**
@@ -74,18 +73,20 @@ Our **tone** comes through the words we use and how we string them together. Our
 
 <div class="usage">
 <div class="item yes">
-<h5>Do</h5>
-<ul>
-<li>Be encouraging and positive</li>
-<li>Express interest</li>
-</ul>
+
+##### Do
+
+- Be encouraging and positive
+- Express interest
+
 </div>
 <div class="item no">
-<h5>Don’t</h5>
-<ul>
-<li>Don’t take credit for their success</li>
-<li>Don’t assume it was easy</li>
-</ul>
+
+##### Don’t
+
+- Don’t take credit for their success
+- Don’t assume it was easy
+
 </div>
 </div>
 
@@ -93,18 +94,20 @@ Our **tone** comes through the words we use and how we string them together. Our
 
 <div class="usage">
 <div class="item yes">
-<h5>Do</h5>
-<ul>
-<li>Express confidence</li>
-<li>Connect value to action</li>
-</ul>
+
+##### Do
+
+- Express confidence
+- Connect value to action
+
 </div>
 <div class="item no">
-<h5>Don’t</h5>
-<ul>
-<li>Don’t create uncertainty</li>
-<li>Don’t tell people “what to do”</li>
-</ul>
+
+##### Don’t
+
+- Don’t create uncertainty
+- Don’t tell people “what to do”
+
 </div>
 </div>
 
@@ -112,18 +115,20 @@ Our **tone** comes through the words we use and how we string them together. Our
 
 <div class="usage">
 <div class="item yes">
-<h5>Do</h5>
-<ul>
-<li>Be honest and direct about problems and provide next steps</li>
-<li>Use conversational but straightforward language</li>
-</ul>
+
+##### Do
+
+- Be honest and direct about problems and provide next steps
+- Use conversational but straightforward language
+
 </div>
 <div class="item no">
-<h5>Don’t</h5>
-<ul>
-<li>Don’t minimize the problem</li>
-<li>Don’t use negative or technical words</li>
-<li>Don’t assign emotion</li>
-</ul>
+
+##### Don’t
+
+- Don’t minimize the problem
+- Don’t use negative or technical words
+- Don’t assign emotion
+
 </div>
 </div>

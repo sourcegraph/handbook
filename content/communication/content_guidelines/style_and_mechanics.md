@@ -14,24 +14,26 @@ Avoid abbreviations, acronyms, latinisms, and jargon when possible. Use complete
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>for example</li>
-<li>that is</li>
-<li>as opposed to</li>
-<li>through</li>
-<li>Salesforce</li>
-</ul>
+
+##### Yes
+
+- for example
+- that is
+- as opposed to
+- through
+- Salesforce
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>e.g.</li>
-<li>i.e.</li>
-<li>v.</li>
-<li>via</li>
-<li>SF</li>
-</ul>
+
+##### No
+
+- e.g.
+- i.e.
+- v.
+- via
+- SF
+
 </div>
 </div>
 
@@ -51,16 +53,18 @@ Generally, use active voice and avoid passive voice. In active voice, the subjec
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Added repository.</li>
-</ul>
+
+##### Yes
+
+- Added repository.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Repository was added.</li>
-</ul>
+
+##### No
+
+- Repository was added.
+
 </div>
 </div>
 
@@ -68,16 +72,18 @@ Use passive voice when you don’t want to assign responsibility for an action. 
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Your access token was invalid.</li>
-</ul>
+
+##### Yes
+
+- Your access token was invalid.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Invalid access token.</li>
-</ul>
+
+##### No
+
+- Invalid access token.
+
 </div>
 </div>
 
@@ -89,16 +95,18 @@ Use present tense to describe the result of actions.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Batch change created</li>
-</ul>
+
+##### Yes
+
+- Batch change created
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Batch change has been created</li>
-</ul>
+
+##### No
+
+- Batch change has been created
+
 </div>
 </div>
 
@@ -132,18 +140,20 @@ Our voice is conversational. When we’re talking, we connect words with article
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Create a new batch change</li>
-<li>Save your changes</li>
-</ul>
+
+##### Yes
+
+- Create a new batch change
+- Save your changes
+
 </div>
 <div class="item no">
-<h5>When necessary</h5>
-<ul>
-<li>Create batch change</li>
-<li>Save changes</li>
-</ul>
+
+##### When necessary
+
+- Create batch change
+- Save changes
+
 </div>
 </div>
 
@@ -151,16 +161,18 @@ Write without rigidity.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Create an account to manage extensions.</li>
-</ul>
+
+##### Yes
+
+- Create an account to manage extensions.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>An account is required to manage extensions.</li>
-</ul>
+
+##### No
+
+- An account is required to manage extensions.
+
 </div>
 </div>
 
@@ -170,16 +182,18 @@ Avoid any instructions or language that requires the user to see the layout or d
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Choose a repository group.</li>
-</ul>
+
+##### Yes
+
+- Choose a repository group.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Choose a repository group at the bottom right of this page.</li>
-</ul>
+
+##### No
+
+- Choose a repository group at the bottom right of this page.
+
 </div>
 </div>
 
@@ -191,22 +205,24 @@ Avoid any instructions or language that requires the user to see the layout or d
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>30+ results</li>
-<li>Last updated two days ago</li>
-<li>Only 5% of developers prefer working in an office.</li>
-<li>More than 6 out of 10 software professionals reported a significant increase...</li>
-</ul>
+
+##### Yes
+
+- 30+ results
+- Last updated two days ago
+- Only 5% of developers prefer working in an office.
+- More than 6 out of 10 software professionals reported a significant increase...
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Thirty or more results</li>
-<li>Last updated 2 days ago</li>
-<li>Only five % of developers prefer working in an office.</li>
-<li>More than six out of ten software professionals reported a significant increase...</li>
-</ul>
+
+##### No
+
+- Thirty or more results
+- Last updated 2 days ago
+- Only five % of developers prefer working in an office.
+- More than six out of ten software professionals reported a significant increase...
+
 </div>
 </div>
 
@@ -214,11 +230,12 @@ Numbers over three digits get commas.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>144</li>
-<li>1,200</li>
-</ul>
+
+##### Yes
+
+- 144
+- 1,200
+
 </div>
 </div>
 
@@ -228,12 +245,13 @@ Spell out the day of the week and the month whenever possible. Abbreviate when s
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Thursday, April 16</li>
-<li>April 16</li>
-<li>Apr 16</li>
-</ul>
+
+##### Yes
+
+- Thursday, April 16
+- April 16
+- Apr 16
+
 </div>
 </div>
 
@@ -241,15 +259,16 @@ When possible, use natural language to describe dates.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Today</li>
-<li>Yesterday</li>
-<li>Tomorrow</li>
-<li>This week</li>
-<li>Next week</li>
-<li>Two weeks from now</li>
-</ul>
+
+##### Yes
+
+- Today
+- Yesterday
+- Tomorrow
+- This week
+- Next week
+- Two weeks from now
+
 </div>
 </div>
 
@@ -257,17 +276,19 @@ When date is written in numerals, the standard format is `YYYY-MM-DD`.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>2020-09-08</li>
-</ul>
+
+##### Yes
+
+- 2020-09-08
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>08.09.2020</li>
-<li>08-09-2020</li>
-</ul>
+
+##### No
+
+- 08.09.2020
+- 08-09-2020
+
 </div>
 </div>
 
@@ -277,16 +298,18 @@ Use the % symbol instead of spelling out “percent.”
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>2%</li>
-</ul>
+
+##### Yes
+
+- 2%
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Two percent</li>
-</ul>
+
+##### No
+
+- Two percent
+
 </div>
 </div>
 
@@ -296,10 +319,11 @@ Use an en dash (–) to indicate a range or span of numbers. Do not use spaces b
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Viewing results 100–150</li>
-</ul>
+
+##### Yes
+
+- Viewing results 100–150
+
 </div>
 </div>
 
@@ -311,22 +335,24 @@ When writing about US currency, use the dollar sign ($) before the amount. Prefe
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>$10</li>
-<li>$42</li>
-<li>$1,500</li>
-<li>$149.99</li>
-</ul>
+
+##### Yes
+
+- $10
+- $42
+- $1,500
+- $149.99
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>$10.00</li>
-<li>$ 42</li>
-<li>$1500</li>
-<li>$149,99</li>
-</ul>
+
+##### No
+
+- $10.00
+- $ 42
+- $1500
+- $149,99
+
 </div>
 </div>
 
@@ -334,18 +360,20 @@ When writing about monthly pricing, follow the convention: $0/mo. Do not use spa
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>$150/mo</li>
-</ul>
+
+##### Yes
+
+- $150/mo
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>$150 / month</li>
-<li>$150/month</li>
-<li>$150/pm</li>
-</ul>
+
+##### No
+
+- $150 / month
+- $150/month
+- $150/pm
+
 </div>
 </div>
 
@@ -353,39 +381,43 @@ Use shorthand suffixes for shortening numbers in the thousands (`k`), millions (
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>$100b</li>
-</ul>
+
+##### Yes
+
+- $100b
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>$100,000</li>
-<li>$100B</li>
-<li>$100Bn</li>
-<li>$100 billion</li>
-</ul>
+
+##### No
+
+- $100,000
+- $100B
+- $100Bn
+- $100 billion
+
 </div>
 </div>
 
 ### Telephone numbers
 
-Use the country code, prefixed with `+`, without a space. Use spaces between sets of numbers for readability. The number of digits in each set of numbers may <a href="https://en.wikipedia.org/wiki/National_conventions_for_writing_telephone_numbers" target="_blank">differ by country</a>.
+Use the country code, prefixed with `+`, without a space. Use spaces between sets of numbers for readability. The number of digits in each set of numbers may [differ by country](https://en.wikipedia.org/wiki/National_conventions_for_writing_telephone_numbers).
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>+1 123 456 7890</li>
-</ul>
+
+##### Yes
+
+- +1 123 456 7890
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>123 456 870</li>
-<li>1-123-456-789</li>
-</ul>
+
+##### No
+
+- 123 456 870
+- 1-123-456-789
+
 </div>
 </div>
 
@@ -395,18 +427,20 @@ When writing about a time of the day, use numerals and lowercase am or pm, with 
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>5 pm</li>
-<li>8:30 pm</li>
-</ul>
+
+##### Yes
+
+- 5 pm
+- 8:30 pm
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>5pm</li>
-<li>8:30PM</li>
-</ul>
+
+##### No
+
+- 5pm
+- 8:30PM
+
 </div>
 </div>
 
@@ -414,11 +448,12 @@ Use an en dash (–) between times to indicate a time period. Don’t insert spa
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>8 am–12 pm</li>
-<li>6:30 am–18:00 pm</li>
-</ul>
+
+##### Yes
+
+- 8 am–12 pm
+- 6:30 am–18:00 pm
+
 </div>
 </div>
 
@@ -426,11 +461,12 @@ When referring to an amount of time, use numerals and the full word, with a spac
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Saved 20 minutes ago</li>
-<li>30 seconds ago</li>
-</ul>
+
+##### Yes
+
+- Saved 20 minutes ago
+- 30 seconds ago
+
 </div>
 </div>
 
@@ -446,12 +482,13 @@ In Markdown content in our handbook you don't need to worry about this rule: dum
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>This batch change’s results are now available</li>
-<li>This batch change is Jen’s favourite</li>
-<li>Chris’s favourite batch change</li>
-</ul>
+
+##### Yes
+
+- This batch change’s results are now available
+- This batch change is Jen’s favourite
+- Chris’s favourite batch change
+
 </div>
 </div>
 
@@ -461,17 +498,16 @@ Use a colon to offset a list.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Saved searches support three filters: diffs, commits, and repositories.</li>
-</ul>
+
+##### Yes
+
+- Saved searches support three filters: diffs, commits, and repositories.
 
 When a list begins with an interface label, capitalize the first word of the list.
 
-<ul>
 <li>
 Supported filters: Diffs, commits, and repositories.</li>
-</ul>
+
 </div>
 </div>
 
@@ -481,16 +517,18 @@ Prefer the Oxford or serial comma when writing a list.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Saved searches support three filters: diffs, commits, and repositories.</li>
-</ul>
+
+##### Yes
+
+- Saved searches support three filters: diffs, commits, and repositories.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Saved searches support three filters: diffs, commits and repositories</li>
-</ul>
+
+##### No
+
+- Saved searches support three filters: diffs, commits and repositories
+
 </div>
 </div>
 
@@ -500,17 +538,19 @@ Use a hyphen (-) without spaces before and after to link words into a single phr
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
+
+##### Yes
+
 <li>Our short-term plan is to...
 </li>
-</ul>
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>In the short-term, we will work on...</li>
-</ul>
+
+##### No
+
+- In the short-term, we will work on...
+
 </div>
 </div>
 
@@ -518,10 +558,11 @@ Use an en dash (–) to indicate a [range or span](#ranges-and-spans), without s
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>2–6 possible results</li>
-</ul>
+
+##### Yes
+
+- 2–6 possible results
+
 </div>
 </div>
 
@@ -529,10 +570,11 @@ Use an em (—) dash without spaces to separate clauses in paragraph copy.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>This new feature—a first in advanced workflow tooling—will empower developers around the world.</li>
-</ul>
+
+##### Yes
+
+- This new feature—a first in advanced workflow tooling—will empower developers around the world.
+
 </div>
 </div>
 
@@ -544,16 +586,18 @@ When ellipses are used to clip a line of copy, clip after at least 2 characters.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Provides basic code intelligence for Java usi…</li>
-</ul>
+
+##### Yes
+
+- Provides basic code intelligence for Java usi…
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Provides basic code intelligence for Java u…</li>
-</ul>
+
+##### No
+
+- Provides basic code intelligence for Java u…
+
 </div>
 </div>
 
@@ -563,16 +607,18 @@ Use periods in complete sentences. Don’t use periods in headlines or labels. P
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Updated to only show included filters (diffs, commits).</li>
-</ul>
+
+##### Yes
+
+- Updated to only show included filters (diffs, commits).
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Updated to only show included filters (diffs, commits.)</li>
-</ul>
+
+##### No
+
+- Updated to only show included filters (diffs, commits.)
+
 </div>
 </div>
 
@@ -584,18 +630,20 @@ In HTML, using `<q></q>` will automatically apply the correct quotation marks fo
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Add an insight to “Test Dashboard”</li>
-<li>“When quoting inside existing quotes, ‘Single quotes’ are the way to go”</li>
-</ul>
+
+##### Yes
+
+- Add an insight to “Test Dashboard”
+- “When quoting inside existing quotes, ‘Single quotes’ are the way to go”
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Add an insight to ‘Test Dashboard’</li>
-<li>“When quoting inside existing quotes, avoid “double quoting””</li>
-</ul>
+
+##### No
+
+- Add an insight to ‘Test Dashboard’
+- “When quoting inside existing quotes, avoid “double quoting””
+
 </div>
 </div>
 
@@ -606,18 +654,20 @@ In HTML, the easiest way to add the appropriate typographic quotation marks is t
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>‘Example’</li>
-<li>“Example Two”</li>
-</ul>
+
+##### Yes
+
+- ‘Example’
+- “Example Two”
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>'Example'</li>
-<li>"Example two"</li>
-</ul>
+
+##### No
+
+- 'Example'
+- "Example two"
+
 </div>
 </div>
 
@@ -627,16 +677,18 @@ Don't use spaces between two terms separated by a slash.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>tool/editor</li>
-</ul>
+
+##### Yes
+
+- tool/editor
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>tool / editor</li>
-</ul>
+
+##### No
+
+- tool / editor
+
 </div>
 </div>
 
@@ -648,16 +700,18 @@ When written in paragraph copy, write out country, state, and province names on 
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Now available in Winnipeg.</li>
-</ul>
+
+##### Yes
+
+- Now available in Winnipeg.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Now available in WPG.</li>
-</ul>
+
+##### No
+
+- Now available in WPG.
+
 </div>
 </div>
 
@@ -667,16 +721,18 @@ Use positive language rather than negative language. Positives are easier to rea
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Add a repo to start searching your code.</li>
-</ul>
+
+##### Yes
+
+- Add a repo to start searching your code.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>If you don’t add a repo, you won’t be able to search your code.</li>
-</ul>
+
+##### No
+
+- If you don’t add a repo, you won’t be able to search your code.
+
 </div>
 </div>
 
@@ -686,16 +742,18 @@ If a sentence begins with a negative word, the sentence’s implication can be m
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Remember to add a search filter</li>
-</ul>
+
+##### Yes
+
+- Remember to add a search filter
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Don’t forget to add a search filter</li>
-</ul>
+
+##### No
+
+- Don’t forget to add a search filter
+
 </div>
 </div>
 
@@ -705,16 +763,18 @@ A common error when writing questions is not constructing the sentence as a ques
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Why are search scopes useful?</li>
-</ul>
+
+##### Yes
+
+- Why are search scopes useful?
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Why search scopes are useful?</li>
-</ul>
+
+##### No
+
+- Why search scopes are useful?
+
 </div>
 </div>
 
@@ -724,7 +784,7 @@ We describe ourselves with a few different names depending on context, and we sh
 
 - **Sourcegraph**: Main product. This name is always preferred unless you need to clarify between the 3 deployment methods for Sourcegraph below.
 - **Sourcegraph self-hosted**: On-premises and self-managed version of Sourcegraph.
-- **Sourcegraph cloud**: This is the cloud instance of Sourcegraph at [sourcegraph.com](https://sourcegraph.com), used both for open source search as well as individual accounts for connecting public or private code.
+- **Sourcegraph Cloud**: This is the cloud instance of Sourcegraph at [sourcegraph.com](https://sourcegraph.com), used both for open source search as well as individual accounts for connecting public or private code.
 - **Managed Sourcegraph instance**: Private Sourcegraph instances managed and provisioned by the Sourcegraph team.
 - **Sourcegraph integrations**: The general term for our integrations. When referencing specific integrations:
   - Sourcegraph(’s) Phabricator integration
@@ -738,16 +798,18 @@ You don't need to use the full name of the product each time you refer to it, bu
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Use the Phabricator integration to get Sourcegraph features in code review.</li>
-</ul>
+
+##### Yes
+
+- Use the Phabricator integration to get Sourcegraph features in code review.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Use the Sourcegraph Phabricator integration to get Sourcegraph features in code review <em>(sounds repetitive and stilted)</em>.</li>
-</ul>
+
+##### No
+
+- Use the Sourcegraph Phabricator integration to get Sourcegraph features in code review _(sounds repetitive and stilted)_.
+
 </div>
 </div>
 
@@ -755,17 +817,19 @@ Always title case our name. Don’t abbreviate or add a space to our name.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Sourcegraph</li>
-</ul>
+
+##### Yes
+
+- Sourcegraph
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>SG</li>
-<li>Source Graph</li>
-</ul>
+
+##### No
+
+- SG
+- Source Graph
+
 </div>
 </div>
 
@@ -784,22 +848,24 @@ List of product names:
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>With Sourcegraph Universal Code Search you can...</li>
-<li>You can search across all your repositories with Universal Code Search.</li>
-<li>Companies benefit from a universal code search tool because...</li>
-<li>Sourcegraph Batch Changes are... Batch Changes allow you to...</li>
-<li>To create a batch change...</li>
-</ul>
+
+##### Yes
+
+- With Sourcegraph Universal Code Search you can...
+- You can search across all your repositories with Universal Code Search.
+- Companies benefit from a universal code search tool because...
+- Sourcegraph Batch Changes are... Batch Changes allow you to...
+- To create a batch change...
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Use Sourcegraph universal code search to...</li>
-<li>With code insights you can...</li>
-<li>Here’s how to use code intelligence.</li>
-</ul>
+
+##### No
+
+- Use Sourcegraph universal code search to...
+- With code insights you can...
+- Here’s how to use code intelligence.
+
 </div>
 </div>
 
@@ -809,20 +875,22 @@ We don't capitalize features or integrations.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Use the Phabricator integration to...</li>
-<li>Want to use this in your code review tool? Use Sourcegraph’s <a href="#_" aria-disabled="true">GitHub integration</a>.</li>
-<li>Here’s how to use code search.</li>
-</ul>
+
+##### Yes
+
+- Use the Phabricator integration to...
+- Want to use this in your code review tool? Use Sourcegraph’s <a href="#_" aria-disabled="true">GitHub integration</a>.
+- Here’s how to use code search.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Use the Phabricator Integration to... <em>(the capital “I” makes it into a proper noun, which implies it’s a product.”)</em></li>
-<li>Want to use this in your code review tool? Use <a href="#_" aria-disabled="true">Sourcegraph for GitHub</a>. <em>(Implies that “Sourcegraph for GitHub” is an official product name.)</em></li>
-<li>Here’s how to use Code Search.</li>
-</ul>
+
+##### No
+
+- Use the Phabricator Integration to... _(the capital “I” makes it into a proper noun, which implies it’s a product.”)_
+- Want to use this in your code review tool? Use <a href="#_" aria-disabled="true">Sourcegraph for GitHub</a>. _(Implies that “Sourcegraph for GitHub” is an official product name.)_
+- Here’s how to use Code Search.
+
 </div>
 </div>
 
@@ -830,16 +898,18 @@ Use the natural plural/singular form. If a product or feature name is a plural n
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Batch Changes are available.</li>
-</ul>
+
+##### Yes
+
+- Batch Changes are available.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Batch Changes is available.</li>
-</ul>
+
+##### No
+
+- Batch Changes is available.
+
 </div>
 </div>
 
@@ -847,16 +917,18 @@ Refer to the natural noun of the product or feature directly.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Batch Changes are available.</li>
-</ul>
+
+##### Yes
+
+- Batch Changes are available.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>The Batch Changes product is available.</li>
-</ul>
+
+##### No
+
+- The Batch Changes product is available.
+
 </div>
 </div>
 
@@ -874,19 +946,21 @@ Default to person-first language rather than identity-first language.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>they have a disability</li>
-<li>person with disability</li>
-<li>people living with disabilities</li>
-</ul>
+
+##### Yes
+
+- they have a disability
+- person with disability
+- people living with disabilities
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>they are disabled</li>
-<li>disabled person</li>
-</ul>
+
+##### No
+
+- they are disabled
+- disabled person
+
 </div>
 </div>
 
@@ -900,16 +974,18 @@ Avoid gendered terms.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Artisan</li>
-</ul>
+
+##### Yes
+
+- Artisan
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Craftsman</li>
-</ul>
+
+##### No
+
+- Craftsman
+
 </div>
 </div>
 
@@ -931,16 +1007,18 @@ Some words to watch out for:
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>After you’ve entered a search query</li>
-</ul>
+
+##### Yes
+
+- After you’ve entered a search query
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Once you’ve entered a search query</li>
-</ul>
+
+##### No
+
+- Once you’ve entered a search query
+
 </div>
 </div>
 
@@ -948,16 +1026,18 @@ Some words to watch out for:
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Choose the correct search</li>
-</ul>
+
+##### Yes
+
+- Choose the correct search
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Choose the right search</li>
-</ul>
+
+##### No
+
+- Choose the right search
+
 </div>
 </div>
 
@@ -965,16 +1045,18 @@ Some words to watch out for:
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Because you have a code monitor enabled, you can get email notifications for new events</li>
-</ul>
+
+##### Yes
+
+- Because you have a code monitor enabled, you can get email notifications for new events
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Since you have a code monitor enabled, you can get email notifications for new events</li>
-</ul>
+
+##### No
+
+- Since you have a code monitor enabled, you can get email notifications for new events
+
 </div>
 </div>
 
@@ -984,18 +1066,20 @@ In most languages, idioms are commonly-known phrases packed with meaning. Howeve
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Let’s get started</li>
-<li>This information might change</li>
-</ul>
+
+##### Yes
+
+- Let’s get started
+- This information might change
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Let’s get crackin’</li>
-<li>Take this with a grain of salt</li>
-</ul>
+
+##### No
+
+- Let’s get crackin’
+- Take this with a grain of salt
+
 </div>
 </div>
 
@@ -1005,10 +1089,11 @@ Use bold when referring to buttons in documentation.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Click <strong>Add user</strong>.</li>
-</ul>
+
+##### Yes
+
+- Click **Add user**.
+
 </div>
 </div>
 
@@ -1016,10 +1101,11 @@ In documentation, use bold and a symbol, such as a bracket (`>`), to display men
 
 <div class="usage">
 <div class="item yes">
-<h5>Example</h5>
-<ul>
-<li><strong>File > Print</strong> indicates that a user selects the Print option from the File menu</li>
-</ul>
+
+##### Example
+
+- **File > Print** indicates that a user selects the Print option from the File menu
+
 </div>
 </div>
 
@@ -1029,16 +1115,18 @@ Never directly reference the item (button, menu), just reference the label.
 
 <div class="usage">
 <div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>Click <strong>Add user</strong>.</li>
-</ul>
+
+##### Yes
+
+- Click **Add user**.
+
 </div>
 <div class="item no">
-<h5>No</h5>
-<ul>
-<li>Click the <strong>Add user</strong> button.</li>
-</ul>
+
+##### No
+
+- Click the **Add user** button.
+
 </div>
 </div>
 
@@ -1046,10 +1134,11 @@ Match the actual case of the UI text in other products even if it violates our s
 
 <div class="usage">
 <div class="item yes">
-<h5>Example</h5>
-<ul>
-<li>In the <strong>Single Sign On Url</strong> field, ...</li>
-</ul>
+
+##### Example
+
+- In the **Single Sign On Url** field, ...
+
 </div>
 </div>
 
@@ -1057,10 +1146,11 @@ Refer to and cite other documents by quoting and linking their title. The quotat
 
 <div class="usage">
 <div class="item yes">
-<h5>Example</h5>
-<ul>
-<li>For more information, see “<a href="#_" aria-disabled="true">Monitoring and tracing</a>”.</li>
-</ul>
+
+##### Example
+
+- For more information, see “<a href="#_" aria-disabled="true">Monitoring and tracing</a>”.
+
 </div>
 </div>
 
@@ -1095,9 +1185,10 @@ Where a narrator describes code, search queries, or other text that also appears
 
 <div class="usage">
 <div class="item yes">
-<h5>Example</h5>
-<ul>
-<li>Search query in video says `ReadFile`, but automatic transcript says `read file`. Transcript should be updated to `ReadFile` as shown in the video.</li>
-</ul>
+
+##### Example
+
+- Search query in video says `ReadFile`, but automatic transcript says `read file`. Transcript should be updated to `ReadFile` as shown in the video.
+
 </div>
 </div>

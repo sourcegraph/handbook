@@ -8,9 +8,9 @@ The org chart is generated automatically from team pages in the handbook ([need 
 	<small>If the org chart does not appear, please <a href="https://github.com/sourcegraph/about/issues">report this issue</a> and include the output from your browser's devtools JavaScript console.</small>
 </div>
 
-## [Engineering](../../engineering/eng_org.md#current-organization)
+## [Engineering](../../product-engineering/engineering/eng_org.md#current-organization)
 
-## [Product](../../product/product_org.md#current-team)
+## [Product](../../product-engineering/product/product_org.md#current-team)
 
 ## [Customer Support](../../support/index.md#the-team)
 
@@ -38,7 +38,7 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ### [Sales strategy & operations](../../sales/sales-ops/index.md#members)
 
-### [Value Engineering & Sales Enablement](../../sales/sales-enablement.md#value-engineering--sales-enablement)
+### [Value Engineering & Sales Enablement](../../sales/sales-enablement.md)
 
 ## Other teams: TODO
 

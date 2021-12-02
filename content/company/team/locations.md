@@ -18,7 +18,7 @@ To add your own location:
 1. Click the map pin icon (looks like a google map location) on the right side of the map, and drop it in your location.
 1. Scroll to the bottom of the text that you pasted in, where your new pin will appear.
 1. In the `properties` section, add your name: `"name": "<yourname>"`. The final result will look like:
-   ```
+   ```json
    {
        "type": "Feature",
        "properties": {
@@ -39,7 +39,7 @@ To add your own location:
 
 1. Use [this site](https://www.latlong.net/) to get your city's latitude and longitude coordinates.
 1. Edit the following bit of JSON to include your name and coordinates (be sure to put longitude first):
-   ```
+   ```json
      {
        "type": "Feature",
        "properties": {

@@ -26,6 +26,8 @@ const allLinkDestinations = new Set()
 
 let errorsReported = false
 
+console.log('Starting handbook link check..')
+
 for (const filePath of filePaths) {
     const absoluteFilePath = path.join(contentFolderPath, filePath)
     const filePathFromRepoRoot = path.relative(repoBasePath, absoluteFilePath)
@@ -88,6 +90,7 @@ for (const filePath of filePaths) {
                 }
             } catch (error) {
                 if (error.code !== 'ENOENT') {
+                    // eslint-disable-next-line etc/throw-error, rxjs/throw-error
                     throw error
                 }
                 // If there was no directory with that name, it should point to a .md file
@@ -107,6 +110,8 @@ for (const filePath of filePaths) {
         }
     }
 }
+
+console.log('Link check complete.')
 
 // Check all pages are linked to
 

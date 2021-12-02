@@ -38,7 +38,7 @@ We have defined areas of ownership for the teams involved with DataOps.
 
 - Data Engineering:
 
-  - Pipleine creation
+  - Pipeline creation
   - Data warehousing
   - Pipeline maintenance: alerting, monitoring, security
 

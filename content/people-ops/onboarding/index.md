@@ -42,24 +42,30 @@ This is a basic breakdown of our expectations for providing a smooth onboarding 
 
 ### Onboarding experience
 
+#### Onboarding survey
+
 Surveys are conducted at the 3-month mark to collect feedback from all new teammates to make sure that their onboarding experience is properly equipping them with the support and resources necessary for them to be successful in their new role.
 
-#### Onboarding content
+_Onboarding experience - Survey questions:_
 
-Survey questions:
+- Was the onboarding process successful in helping you become productive as fast as possible?
+- Was the general onboarding process successful in helping you become productive as fast as possible?
+- Was the specific onboarding process successful in helping you become productive as fast as possible?
+
+_Onboarding content - Survey questions:_
 
 - Was there anything that was not provided in your onboarding that you think should have been?
 - Did the onboarding process provide you the tools to carry out your role?
 - Did you have the resources to use them properly?
 - Did you have the necessary check-ins with your manager and teammates to ask questions, have shadowing sessions, etc?
 
-#### Onboarding format and presentation
-
-Survey questions:
+_Onboarding format and presentation - Survey questions:_
 
 - Was the onboarding platform (Process.st) intuitive and easy to follow?
 - Was the format easy to follow?
 - Was each task and its purpose communicated clearly?
+
+[Here](https://docs.google.com/spreadsheets/d/1UVfc47SEhH_DhvqMvA9iYDVhCjnynDiJI_5GcsnwU_4/edit?usp=sharing) you can find dashboards with the onboarding survey results.
 
 #### Mid-onboarding check-in
 
@@ -78,21 +84,36 @@ Read about how we do this in [Onboarding Feedback Milestones](./onboarding-feedb
 Hiring managers can refer to the [Onboarding process for Hiring Managers](onboarding-for-hiring-managers.md) page.
 
 1. Once you sign your contract, the Talent team will send you a welcome email linking you to a pre-onboarding form. Be sure to complete the form in time.
-1. Order [your computer](../../finance/spending-company-money.md#computers) or talk to Inés Roitman, [ines@sourcegraph.com](mailto:ines@sourcegraph.com), if you need to get it with the company card.
-1. Order the [desk equipment](../../finance/spending-company-money.md#desk-set-up) you need to be productive working remotely.
+2. Send your introduction video no later than 48hrs after receiving the email. The video will be shown in the company meeting the week that you start.
+3. Order [your computer](../../finance/spending-company-money.md#computers) or talk to Inés Roitman, [ines@sourcegraph.com](mailto:ines@sourcegraph.com), if you need to get it with the company card.
+4. Order the [desk equipment](../../finance/spending-company-money.md#desk-set-up) you need to be productive working remotely.
 
 You will be able to submit an expense reimbursement for the computer and desk equipment when you start.
 
-## General onboarding checklist
+## Learn about Sourcegraph
 
-See [General onboarding checklist](general_onboarding.md).
+### Communication and documentation
+
+- We're a handbook-first company. Learn all about the handbook on its [handbook page](../../handbook/index.md).
+- We use Slack for team chat. Please read the [Slack handbook page](../../communication/team_chat.md) to understand what we use Slack for and how we use it.
+  - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels).
+- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
+
+### Other resources
+
+- Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
+- Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
+- Learn how we can (and cannot) [reference our customers externally](../../sales/index.md#customer)
+- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../../company/remote/teammate-recommended_productivity_hacks.md).
+
+Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
 
 ## Team specific onboarding
 
-- [Engineers](../../engineering/onboarding/index.md)
+- [Engineers](../../product-engineering/engineering/onboarding/index.md)
 - [Customer Engineers](../../ce/onboarding.md)
-- [Customer Support Engineers](../../support/customer-support-onboarding.md)
+- [Customer Support](../../support/customer-support-onboarding.md)
 - [Customer Support Managers](../../support/customer-support-manager-onboarding.md)
 - [Sales team](../../sales/onboarding/index.md)
-- [Product team](../../product/onboarding/index.md)
+- [Product team](../../product-engineering/product/onboarding/index.md)
 - [Business Operations & Strategy](../../bizops/onboarding.md)

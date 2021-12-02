@@ -7,8 +7,9 @@
 
 ## Why we teamed up with a procurement partner in 2021:
 
-- We didn’t have a lot of confidence around how to negotiate contracts
-- There was a lack of understanding about our current and anticipated spend on SaaS products
+- Designated buyers (employees who are responsible for the spend) can better monitor contract end dates or renewal dates
+- Renegotiations can commence in a timely manner, in advance of cessation or renewal
+- The Company can increase visibility to current and anticipated spend on SaaS products
 - Multi-year, multi-seat contracts are complicated and there are often hidden costs based on unforeseen situations and we needed input from experts on how to negotiate these types of deals
 
 ## What we hope to achieve through a partnership with Vendr:
@@ -31,7 +32,7 @@
 
 Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 
-[Procurement approval policies](../../finance/ap.md#sts=AP%20Policy) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
+[Procurement approval policies](../../finance/ap.md#ap-policy) continue to apply but will also be routed for approval by Vendr further reducing your tasks when they handle the negotiations for us.
 
 ## What Vendr will not handle for us:
 
@@ -58,7 +59,7 @@ Anyone at Sourcegraph can submit an [intake form](Intake_Form.md).
 
 ## How-to steps
 
-- [Login in & privileges](Login.md)
+- [Logging in & privileges](Login.md)
 - [Reviewing your tech stack](Tech_stack_review.md)
 - [Adding an supplier to the portal](Adding_supplier.md)
 - [Submitting an intake form](Intake_Form.md)

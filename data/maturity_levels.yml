@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../schema/maturity_levels.schema.json
+
+ga:
+  title: Generally Available ✅
+  definition: Available as a normal product feature.
+
+partial_ga:
+  title: Partially Available 🐣
+  definition: Available, but may be limited in some significant ways.
+
+beta:
+  title: Beta ✨
+  definition: Available in pre-release form on a limited basis.
+
+experimental:
+  title: Experimental 🔬
+  definition: Available in pre-release form, with significant caveats.
+
+not_implemented:
+  title: Not Implemented 🔮
+  definition: This is something we may do, but it is not yet available.
+
+deprecated:
+  title: Deprecated ⚠️
+  definition: This is a feature that we plan to remove.

@@ -22,20 +22,6 @@ The Handbook serves as a [source of truth](../../../../communication#sources-of-
 
 **We help Sourcegraph current and potential customers** learn more about the company they're working with by publishing and maintaining [public](../../../values.md#open-and-transparent) documentation.
 
-### Vision
-
-#### 1 Year vision
-
-> The Handbook is every Sourcegraph teammate's go-to source for answering their questions, and the team is enabled to create and maintain content as they see fit.
-
-#### 3 Year vision
-
-> The Handbook is not only a resource for answering specific questions, but also for browsing to learn about what's going on at Sourcegraph. Interactive content provides tailored onboarding and learning experiences to be used during the full span of one's career at Sourcegraph. It's a visually pleasing and functional artifact of the current state of the company and team.
-
-#### 10 year vision
-
-> The Sourcegraph Handbook is an industry standard for documentation, and has inspired other companies to embrace a culture of high agency and transparency with a tool like this.
-
 ### Guiding principles
 
 - **The Handbook can ve viewed by anyone.** One of our Sourcegraph values is [transparency](../../../values.md#open-and-transparent). We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
@@ -45,38 +31,30 @@ The Handbook serves as a [source of truth](../../../../communication#sources-of-
 
 ## Where we are now
 
-The Handbook team is new, and up until now the Handbook has been owned by everyone. The product is relatively immature and needs defining. Features are basic, and it functions similarly to a simple wiki. With dedicated focus, we believe the Handbook can remain a pillar of the Sourcegraph culture and grow in value as a tool for internal and external stakeholders.
+The Handbook team is new, and up until now the Handbook has been owned by everyone. The handbook is relatively immature and needs defining. Features are basic, and it functions similarly to a simple wiki. With dedicated focus, we believe the Handbook can remain a pillar of the Sourcegraph culture and grow in value as a tool for internal and external stakeholders.
 
-During a Hackathon in FY22Q3, huge strides were made by refactoring the Handbook. This will allow for easier development in the future, and within the Hackathon time frame allowed for adding new features like the "Contributers" section, and providing users a full preview of their changes.
+During a Hackathon in FY22Q3, huge strides were made by refactoring the Handbook. This refector allows for easier development in the future, added a "Contributors" section to each page in the handbook, and provided users a full preview of their changes.
 
-Much of FY22Q3 was spent in discovery: learning what people like and don't like about the Handbook in its current state. Through early analysis using [Productboard](https://sourcegraph.productboard.com/feature-board/3424445-handbook), we believe improving navigation and the editing experiences will have the highest impact to users.
+The only analytics currently being tracked regularly are around search, via [Swiftype](https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12). Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle). With the addition of google analytics we expect to have clearer insight into handbook improvement opportunities.
 
-### Top customer, support, sales and marketing issues
+### Top customer issues
 
 - The most reported customer issue is finding things in the Handbook. Search doesn't always produce the results you're expecting, there isn't a menu through which to browse the site, and the organization of information doesn't always make sense.
 - The second most reported issue is complications around contributing to the Handbook. Teammates with a technical background like the current process, but teammates from less technical backgrounds sometimes struggle with making changes.
 
-### Competitive landscape
-
-While we don't consider it to be a competitor to our Handbook, we draw inspiration from the [Gitlab Handbook](https://about.gitlab.com/handbook/).
-
-### Analyst landscape
-
-The only analytics currently being tracked regularly are around search, via (Swiftype)[https://app.swiftype.com/engines/handbook/analytics/insights?start=2021-09-13&end=2021-10-12]. Recent changes to the Handbook included adding [Google Analytics](https://analytics.google.com/analytics/web/#/p288277472/reports/reportinghub?params=_u..nav%3Dmaui&collectionId=life-cycle) but we have not yet determined what meaninful metrics we will be tracking.
-
 ## Strategy and Plans
 
-The next six months are focused on better defining the Handbook as a product and team, as well as enhancing existing functionality like discovering and editing content.
+The next six months are focused on better defining the Handbook as a product and team. While forming our team we will enhance existing functionality like discovering and editing content.
 
 ### Goals
 
 #### FY22Q4
 
-- **Objective:** Finding content in the Handbook is intuitive and reliable.
-- **Why?** The Handbook is a source of truth at Sourcegraph, and it’s the primary resource for teammates, candidates and customers to learn more about the company.
+- **Objective:** Produce search results that are more helpful to the end user.
+- **Why?** Our objective is to increase content discovery in the Handbook. We believe that a higher percentage click through rate is directly correlated to search results matching what people are looking for.
+  - **Key Result 1:** Increase the number of click throughs on Handbook search results to 90%.
+- **How will this be measured?** [Swiftype analytics](https://app.swiftype.com/engines/handbook/analytics/insights) can provide us a clickthrough rate over a given period..
 - **How does this align with the overall [product strategy](../../index.md)?** This enables all teammates at Sourcegraph to be more efficient and accelerate the time it takes to provide value to customers.
-  - **Key Result 1:** Reduce percentage of searches with no click throughs.
-- **How will this be measured?** Through insights already provided by Swiftype.
 
 ### Themes (and What's Next and why)
 
