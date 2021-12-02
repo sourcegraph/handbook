@@ -2,19 +2,19 @@
 
 In support of our product/engineering Q3 objective (see all OKRs [here](../company/goals/2022_q3.md) to _Make cloud and enterprise successful at massive scale_, one way we will measure our success in achieving this goal is for the **Customer Support team to maintain 100% support issue resolution within 7 days while only requiring help (filing a #rfh Github issue) on 10% (measured weekly looking at last 30 days)**. To accomplish this, we will…
 
-| #   | Status      | Responsible | Project                                                                                           |
-| --- | ----------- | ----------- | ------------------------------------------------------------------------------------------------- |
-| 1   | In-progress | Warren      | Add `src debug` command to `src-cli`                                                              |
-| 2   | In-progress | All CSEs    | Make at least 45 doc updates/additions across the team                                            |
-| 3   | In-progress | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                        |
-| 4   | In-progress | Adeola      | Create cheat sheets of what logs are most needed in certain situations                            |
+| #   | Status      | Responsible | Project                                                                                                     |
+| --- | ----------- | ----------- | ----------------------------------------------------------------------------------------------------------- |
+| 1   | In-progress | Warren      | Add `src debug` command to `src-cli`                                                                        |
+| 2   | In-progress | All CSEs    | Make at least 45 doc updates/additions across the team                                                      |
+| 3   | In-progress | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                                  |
+| 4   | In-progress | Adeola      | Create cheat sheets of what logs are most needed in certain situations                                      |
 | 5   | Completed   | Beatrix     | Make the [command generator](https://sourcegraph.github.io/support-generator/) customer-facing and scalable |
-| 6   | In-progress | Michael     | Create database type solution to make it easy and reliable for CSEs to learn from past tickets    |
-| 7   | In-progress | Alex        | Streamline key steps in CSE workflow                                                              |
-| 8   | In-progress | Carl        | 5 folks complete kubernetes certification                                                         |
-| 9   | In-progress | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                    |
-| 10  | Not started | Virginia    | Provide enablement in how to navigate difficult conversations with customers                      |
-| 11  | In-progress | Adeola      | CSE Onboarding updates V3                                                                         |
+| 6   | In-progress | Michael     | Create database type solution to make it easy and reliable for CSEs to learn from past tickets              |
+| 7   | In-progress | Alex        | Streamline key steps in CSE workflow                                                                        |
+| 8   | In-progress | Carl        | 5 folks complete kubernetes certification                                                                   |
+| 9   | In-progress | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                              |
+| 10  | Not started | Virginia    | Provide enablement in how to navigate difficult conversations with customers                                |
+| 11  | In-progress | Adeola      | CSE Onboarding updates V3                                                                                   |
 
 ## Task details
 
