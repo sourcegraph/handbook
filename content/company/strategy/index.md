@@ -69,7 +69,7 @@ Use cases help us align the company around the most important value drivers in o
 
 Use cases are used by all the departments at source graph to do different things:
 
-- Product (which includes product management, design, and technical writing) relies on them to help make prioritization decisions because they represent proven value drivers for our customers. The use cases also provide a lens through which the team can evaluate design and workflows within and across product areas, and help they improve outcomes by ensuring that what we build aligns with a coordinated messaging strategy.
+- [Product](../../product/index.md) (which includes [product management](../../product/product_management/index.md), [design](../../product/design/index.md), and [technical writing](../../product/technical_writing/index.md)) relies on them to help make prioritization decisions because they represent proven value drivers for our customers. The use cases also provide a lens through which the team can evaluate design and workflows within and across product areas, and help they improve outcomes by ensuring that what we build aligns with a coordinated messaging strategy.
 - Marketing: TBD
 - Sales: TBD
 - ...
