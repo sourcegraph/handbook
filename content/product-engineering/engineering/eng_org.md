@@ -66,7 +66,7 @@
       - [Dax McDonald](../../company/team/index.md#dax-mcdonald)
     - [Cloud SaaS](./cloud/saas/index.md)- Engineering Manager: [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski)
       - [Rafal Gajdulewicz](../../company/team/index.md#rafal-gajdulewicz)
-      - [Milan Freml](../../company/team/index.md#mila-freml)
+      - [Milan Freml](../../company/team/index.md#milan-freml)
       - [Artem Ruts](../../company/team/index.md#artem-ruts)
       - [Joe Cheng](../../company/team/index.md#joe-cheng)
 
