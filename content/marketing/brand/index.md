@@ -24,7 +24,7 @@ We value: <br>
 - Efficiency - We are a small but mighty team that leverages vendors and contractors to scale support <br>
 - Agility - We move fast, adapt, and can change directions easily based on the market and business goals <br>
 - Creativity - We don't settle for "status quo" and look for opportunities to surprise and delight our audience <br>
-- Measurement - We strive for quantifiable results and outsized impact; everything we do has a “why” behind it <br> 
+- Measurement - We strive for quantifiable results and outsized impact; everything we do has a “why” behind it <br>
 
 Projects are categorized on a 5-tier basis based on strategy, scope, and visibility. These tiers are broken down in more detail [here](./brand_and_creative_team_requests.md#project-tiers).
 
