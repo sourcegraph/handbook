@@ -24,10 +24,10 @@ Format & content
 - 30 min live Q&A session
 
   - Live Q&A is meant to foster conversation and discussion.
-  
+
   - Please watch content in advance of the meeting and submit your questions via the Q&A doc before the call to maximize value of time spent synchronously.
 
-  - You can start adding your questions and/or comments to the Q&A doc a week before the live Q&A session so people can view and upvote. 
+  - You can start adding your questions and/or comments to the Q&A doc a week before the live Q&A session so people can view and upvote.
 
   - Preface your question with your full name (first and last name) or "anonymous" if you prefer to remain unknown.
 
