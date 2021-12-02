@@ -39,7 +39,6 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - [Tamar Joyeux](../company/team/index.md#tamar-joyeux), Manager
   - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste)
   - [Ben Gordon](../company/team/index.md#team#ben-gordon)
-  - [Carl Hicks](../company/team/index.md#carl-hicks)
   - [Kelvin Lee](../company/team/index.md#kelvin-lee)
 
 More details about each team member in [our team READMEs](bios/index.md).
