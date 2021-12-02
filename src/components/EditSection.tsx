@@ -61,14 +61,22 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
                 </Link>
                 <br />
                 {page.frontMatter?.data_source && (
-                    <a href={`https://github.com/sourcegraph/handbook/edit/main/${page.frontMatter?.data_source[0]}`}>
-                        Edit {page.frontMatter?.data_source[1]} data
+                    <a
+                        href={`https://github.com/sourcegraph/handbook/edit/main/${String(
+                            page.frontMatter?.data_source[0]
+                        )}`}
+                    >
+                        Edit {String(page.frontMatter?.data_source[1])} data
                     </a>
                 )}
                 <br />
                 {page.frontMatter?.data_source_2 && (
-                    <a href={`https://github.com/sourcegraph/handbook/edit/main/${page.frontMatter?.data_source_2[0]}`}>
-                        Edit {page.frontMatter?.data_source_2[1]} data
+                    <a
+                        href={`https://github.com/sourcegraph/handbook/edit/main/${String(
+                            page.frontMatter?.data_source_2[0]
+                        )}`}
+                    >
+                        Edit {String(page.frontMatter?.data_source_2[1])} data
                     </a>
                 )}
             </div>
