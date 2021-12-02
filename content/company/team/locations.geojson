@@ -1328,6 +1328,18 @@
           59.97563121816456
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nate Freng"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.83830261230469,
+          46.84610371505515
+        ]
+      }
     }
   ]
 }
