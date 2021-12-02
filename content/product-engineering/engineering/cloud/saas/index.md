@@ -276,4 +276,4 @@ TBD
 - [Cloud SaaS Team Jira Project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog)
 - [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 - [Cloud SaaS Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
-- [Looker dashboard with Cloud addption metrics](https://sourcegraph.looker.com/dashboards-next/207?Repo+Private+%28Yes+%2F+No%29=Yes%2CNo)
+- [Looker dashboard with Cloud addption metrics](https://sourcegraph.looker.com/dashboards-next/219)
