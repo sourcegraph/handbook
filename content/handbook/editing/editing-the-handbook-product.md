@@ -8,11 +8,11 @@ Read more about the Handbook strategy and current priorities [here](../../strate
 
 ## Handbook Facets
 
-### Content 
+### Content
 
 **Definition:** The actual written content in the Handbook, mostly stored in markdown files
 
-**Owner:** Every Sourcegraph teammate 
+**Owner:** Every Sourcegraph teammate
 
 **Contributions:** See how to contribute to the Handbook [here](index.md). As Sourcegraph teammates, we share responsibility for keeping the handbook accurate and up-to-date.
 
@@ -55,4 +55,3 @@ Read more about the Handbook strategy and current priorities [here](../../strate
 **Owner:** Handbook Team
 
 **Contributions:** The Handbook team aggregates feedback on the technical foundation of the Handbook and logs issues in [Github](https://github.com/sourcegraph/handbook/issues). Work on these issues may occur ad hoc during [Handbook Hacking Hours](../index.md#handbook-hacking-hours) or as part of [Handbook strategy and plans](../../strategy/enablement/handbook/index.md#strategy-and-plans). Raise any questions, feedback or concerns in the #handbook channel.
-
