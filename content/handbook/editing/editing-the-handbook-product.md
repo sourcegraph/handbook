@@ -4,7 +4,7 @@ There are many facets to the Handbook. Some benefit greatly from distributed own
 
 The purpose of this page is to define these facets, their ownership, and how to contribute to each. Ownership in this context means the person or group primarily responsible for driving improvements, owners are not the only contributors. The contribution sections below describe how (and by whom) these types of changes are made. These will change as the Handbook team grows, and the product evolves.
 
-Read more about the Handbook strategy and current priorities [here](../../strategy/enablement/handbook/index.md).
+Read more about the Handbook strategy and current priorities [here](../../../strategy/enablement/handbook/index.md).
 
 ## Handbook Facets
 
@@ -22,7 +22,7 @@ Read more about the Handbook strategy and current priorities [here](../../strate
 
 **Owner:** Handbook Team
 
-**Contributions:** Content best practices are detailed [here](editing/handbook-content-best-practices.md) and updated by the Handbook team with contributions from the Sourcegraph team. Propose changes to that page in a PR, or raise in the #handbook channel.
+**Contributions:** Content best practices are detailed [here](handbook-content-best-practices.md) and updated by the Handbook team with contributions from the Sourcegraph team. Propose changes to that page in a PR, or raise in the #handbook channel.
 
 ### Information Architecture
 
@@ -46,7 +46,7 @@ Read more about the Handbook strategy and current priorities [here](../../strate
 
 **Owner:** Handbook Team
 
-**Contributions:** The Handbook team aggregates feedback on the Handbook publishing process and logs issues in [Github](https://github.com/sourcegraph/handbook/issues). Work on these issues may occur ad hoc during [Handbook Hacking Hours](../index.md#handbook-hacking-hours) or as part of [Handbook strategy and plans](../../strategy/enablement/handbook/index.md#strategy-and-plans). Raise any questions, feedback or concerns in the #handbook channel.
+**Contributions:** The Handbook team aggregates feedback on the Handbook publishing process and logs issues in [Github](https://github.com/sourcegraph/handbook/issues). Work on these issues may occur ad hoc during [Handbook Hacking Hours](../index.md#handbook-hacking-hours) or as part of [Handbook strategy and plans](../../../strategy/enablement/handbook/index.md#strategy-and-plans). Raise any questions, feedback or concerns in the #handbook channel.
 
 ### Product Engineering & Deployment
 
