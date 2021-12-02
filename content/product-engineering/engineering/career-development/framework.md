@@ -400,7 +400,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <tr>
       <th id="ic5" scope="row" rowspan="2" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
       <td colspan="3" class="level-summary">
-        IC5 is a different role from levels 1-4<br>
+        IC5 is a different role from levels 1-4.<br>
         What impact looks like at this level varies between individuals.<br>
         We recommend <a href="https://drive.google.com/drive/folders/1fnw5gmlLDDZb9wDodY3KfcTaM3OOQL7G" target="_blank" rel="noopener noreferrer">our company’s copy of “Staff Engineer” by Will Larson</a> as reading material.
       </td>
