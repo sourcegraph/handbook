@@ -17,7 +17,7 @@ Cadence
 
 Format & content
 
-- A week prior to the meeting, we will send out a presentation including video updates from Directors, and VP Engineering & Product. As a follow up of watching the videos, there will be a doc to add your questions and upvot questions for Product/eng leadership to answer live at the meeting. 
+- A week prior to the meeting, we will send out a presentation including video updates from Directors, and VP Engineering & Product. As a follow up of watching the videos, there will be a doc to add your questions and upvot questions for Product/eng leadership to answer live at the meeting.
 
   - The video update may contain: OKR progress updates, org updates, new processes, guest speakers from other departments, etc.
 
@@ -32,7 +32,7 @@ Format & content
   - If someone submitted a question you want to upvote add "+1" next to it so we can prioritize questions accordingly.
 
   - During the Q&A please add additional information and comments to the Q&A doc vs. Zoom chat so people not attending live can also benefit.
-  
+
   - You can continue to add questions to the end of the queue in the Q&A doc as the live Q&A is taking place.
 
   - If we don't get through all the questions during the live Q&A, they will get answered async in the Q&A doc.
