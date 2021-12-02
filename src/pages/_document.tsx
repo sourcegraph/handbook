@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
                         title="Handbook"
                         href="/opensearch.xml"
                     />
-
                 </Head>
                 <body>
                     <header id="header">

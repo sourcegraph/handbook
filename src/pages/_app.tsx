@@ -37,7 +37,11 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 
     return (
         <>
-            <Script strategy="lazyOnload" data-domain="handbook.sourcegraph.com" src="https://plausible.io/js/plausible.js" />
+            <Script
+                strategy="lazyOnload"
+                data-domain="handbook.sourcegraph.com"
+                src="https://plausible.io/js/plausible.js"
+            />
 
             <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-KVVCR189Q6" />
 
