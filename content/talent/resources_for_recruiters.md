@@ -63,6 +63,7 @@ As a next step, please:
    1. [The interview process](./interview_process.md)
    2. [Resources for hiring managers](./resources_for_hiring_managers.md)
    3. [Feedback definitions](./interview_process.md#overall-recommendation)
+   4. [Interview training](./interview_training)
 4. Please review our [Guide to Using BrightHire](./hiring/guide_to_using_brighthire.md) and ensure you download the BrightHire Chrome extension.
 
 Interview process / hiring team:
