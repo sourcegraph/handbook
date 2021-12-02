@@ -17,15 +17,17 @@ Cadence
 
 Format & content
 
-- A week prior to the meeting, we will send out a presentation including video updates from Directors, and VP Engineering & Product. As a follow up of watching the videos, there will be a doc to add your questions and upvot questions for Product/eng leadership to answer live at the meeting.
+- A week prior to the meeting, we will send out a presentation including video updates from Directors, and VP Engineering & Product. As a follow up of watching the videos, there will be a Q&A Google doc to add your questions and upvote questions for Product/eng leadership to answer live at the meeting.
 
   - The video update may contain: OKR progress updates, org updates, new processes, guest speakers from other departments, etc.
 
 - 30 min live Q&A session
 
-  - Live Q&A is meant to foster conversation and discussion. Please watch content in advance of the meeting and submit your questions via the doc before the call to maximize value of time spent synchronously.
+  - Live Q&A is meant to foster conversation and discussion.
+  
+  - Please watch content in advance of the meeting and submit your questions via the Q&A doc before the call to maximize value of time spent synchronously.
 
-  - You should add your questions and/or comments to the Q&A doc a week before the live Q&A session so they can get upvoted to answer live.
+  - You can start adding your questions and/or comments to the Q&A doc a week before the live Q&A session so people can view and upvote. 
 
   - Preface your question with your full name (first and last name) or "anonymous" if you prefer to remain unknown.
 
