@@ -76,9 +76,7 @@ Use cases are used by all the departments at source graph to do different things
 
 ### Use case 1
 
-TBD (...)
-
-### Use case 2
+Because we are rolling out a process for setting and using these, our first iteration includes a single use case.
 
 TBD (...)
 
