@@ -15,7 +15,9 @@ The org is lead by [Serina Clark](../../../company/team/index.md#serina-clark) (
   - [Indradhanush Gupta](../../../company/team/index.md#indradhanush-gupta)
   - [Molly Weitzel](../../../company/team/index.md#molly-weitzel)
   - [Alex Ostrikov](../../../company/team/index.md#alexander-ostrikov)
+  - [Asdine El Hrychy](../../../company/team/index.md#asdine-el-hrychy)
 - [Delivery](delivery/index.md)
+  - [Jean du Plessis](../../../company/team/index.md#jean-du-plessis) (Acting [Engineering Manager](../roles.md#engineering-manager))
   - [Dan Mckean](../../../company/team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
   - TBH ([Engineering Manager](../roles.md#engineering-manager))
   - [Crystal Augustus](../../../company/team/index.md#crystal-augustus)
@@ -32,6 +34,7 @@ The org is lead by [Serina Clark](../../../company/team/index.md#serina-clark) (
   - [Taylor Sperry](../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [Tom Ross](../../../company/team/index.md#tom-ross)
   - [Valery Bugakov](../../../company/team/index.md#valery-bugakov)
+  - Oleg Gromov
 - [Engineering Education](engineering-education/index.md)
   - [Marek Zaluski](../../../company/team/index.md#marek-zaluski)
 - Sourcegraph Handbook

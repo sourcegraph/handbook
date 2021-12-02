@@ -90,3 +90,14 @@ We keep our iteration process fluid. We discuss any aspects that could be improv
 ### Retrospectives
 
 At the end of every iteration, we conduct a retrospective. Our retrospective notes can be found [here](https://docs.google.com/document/d/15F7OXwFTpLIvjPrJtNd0wRY49MtCUO-kMacpcIMlAWU/edit).
+
+### Social
+
+We have two weekly "social" meetings, at times accounting for our large timezone spread:
+
+- EMEA-friendly: 07:45 UTC (09:45 CEST / 23:45 PST) on Wednesday
+- AMER-friendly: 16:00 UTC (18:00 CEST / 09:00 PST) on Thursday
+
+The agenda for these is open: we can do tidbits, play a game, just have a casual chat... Anything we fancy!
+
+Attendance is optional for all. If no attendees have RSVPd "yes" 15 minutes ahead of the meeting, it will be cancelled.
