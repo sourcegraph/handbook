@@ -49,6 +49,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## Resources for Talent Team
 
+- [Recruiter onboarding resources](./recruiter_onboarding.md)
 - [Opening a new job](./opening_a_new_job.md)
   - [Kicking off a new search](./resources_for_recruiters.md)
 - [The interview process](./interview_process.md)
@@ -70,9 +71,8 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
   - [Talent Wall, our pipeline tracking tool](./hiring/guide_to_using_talentwall.md#guide-to-using-talentwall)
   - [LinkedIn Recruiter, our sourcing tool](./hiring/linkedin.md)
-- Recruitment branding
-  - [Where we post our jobs](./hiring/job_boards.md)
-- [Recruiter onboarding resources](./recruiter_onboarding.md)
+- [Recruitment branding](./hiring/job_boards.md)
+- [Recruitment metrics](./talent_metrics.md)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
 ## Talent Team Members
