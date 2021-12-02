@@ -56,7 +56,7 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 - [Malo Marrec](../../../../company/team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Rob Rhyne](../../../../company/team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Chris Pine](../../../../company/team/index.md#chris-pine) ([Engineering Manager](../../roles.md#engineering-manager)) {#batch-changes-eng}
+- [Chris Pine](../../../../company/team/index.md#chris-pine) ([Engineering Manager](../../roles.md#engineering-manager))
   - [Thorsten Ball](../../../../company/team/index.md#thorsten-ball)
   - [Adam Harvey](../../../../company/team/index.md#adam-harvey)
   - [Erik Seliger](../../../../company/team/index.md#erik-seliger)
@@ -65,7 +65,7 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Growth plan
 
-We have no further plans to grow the team at this time.
+We are looking to add one [experienced full-stack engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4179711004) to our team to help us grow our product in FY22 Q4.
 
 ## Onboarding
 
