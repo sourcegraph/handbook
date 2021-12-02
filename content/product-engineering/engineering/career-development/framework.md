@@ -343,7 +343,10 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC4 -->
     <tr>
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
-      <td colspan="3" class="level-summary">A particularly experienced, impactful contributor.</td>
+      <td colspan="3" class="level-summary">
+        A particularly experienced, impactful contributor.<br>
+        IC4 is a terminal level: the team can have an unbounded number of IC4 engineers.
+      </td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
@@ -416,6 +419,9 @@ To learn more, see ["Considerations for promotion" in our talent review process]
         </ul>
         <p>
           The business need and associated expectations are unique to each IC5 position. IC5 engineers are publicly identified as such, and the business need and expectations associated with their role are documented in the handbook.
+        </p>
+        <p>
+          Unlike IC4, IC5 is not a terminal level. Transition to the IC5 level is contingent on the existence of a business need for the role.
         </p>
       </td>
     </tr>
