@@ -15,15 +15,16 @@ If I am your new manager, I will setup a series of three extra 1-1s to learn mor
 3. I will reflect back things I heard and tell you about how I think I can help you achieve your goals and be successful at Sourcegraph.
 
 ## Skip level 1-1s
+
 A skip level 1-1 is between me and someone who I indirectly manage (e.g. the person reports to a person that I manage).
 
-As our department continues to grow, I want to regularly check in with our teammates to keep a pulse on what is happening. 
+As our department continues to grow, I want to regularly check in with our teammates to keep a pulse on what is happening.
 
-These 1-1s are intended to be casual and informal conversations to build deeper relationships, for me to listen, gather your feedback and insights, and discuss anything top of mind for you. These are not intended for status updates. 
+These 1-1s are intended to be casual and informal conversations to build deeper relationships, for me to listen, gather your feedback and insights, and discuss anything top of mind for you. These are not intended for status updates.
 
-If you receive a calendar invite from me but you need to change the date/time or you prefer not to meet, please update the invite. 
+If you receive a calendar invite from me but you need to change the date/time or you prefer not to meet, please update the invite.
 
-If you want to meet more frequently, please schedule time on my calendar or reach out to [Michal](../../../data/team.yml#michal-sennett) to help schedule. 
+If you want to meet more frequently, please schedule time on my calendar or reach out to [Michal](../../../data/team.yml#michal-sennett) to help schedule.
 
 ## Feedback
 
