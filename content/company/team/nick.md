@@ -24,7 +24,7 @@ These 1-1s are intended to be casual and informal conversations to build deeper 
 
 If you receive a calendar invite from me but you need to change the date/time or you prefer not to meet, please update the invite.
 
-If you want to meet more frequently, please schedule time on my calendar or reach out to [Michal](../../../data/team.yml#michal-sennett) to help schedule.
+If you want to meet more frequently, please schedule time on my calendar or reach out to [Michal](index.md#michal-sennett) to help schedule.
 
 ## Feedback
 
