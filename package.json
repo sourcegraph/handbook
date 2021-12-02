@@ -118,7 +118,7 @@
     "@sourcegraph/prettierrc": "^3.0.3",
     "@sourcegraph/tsconfig": "^4.0.1",
     "@types/line-column": "1.0.0",
-    "@types/react": "17.0.34",
+    "@types/react": "17.0.37",
     "@types/relateurl": "0.2.29",
     "ajv-cli": "^5.0.0",
     "chalk": "^4.1.2",
