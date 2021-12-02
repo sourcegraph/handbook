@@ -97,6 +97,7 @@ Each Friday, we send weekly team updates to the rest of the Cloud org to keep th
 We are committed to sending a monthly newsletter to the entire Product and Engineering org summarising our progress towards current goals, challenges, opportunities, learning, and important team updates. You can find all the previous entries in the links below:
 
 - [2021.10.13 monthly update](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/3p0Pj2-RfVY?hl=en)
+- [2021.11.30 monthly update](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/Ro2YHUT1tEw?hl=en)
 
 ## How we work
 
