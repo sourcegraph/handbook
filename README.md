@@ -27,7 +27,9 @@ Then start the handbook:
 ```shell
 yarn dev
 ```
+
 ### Using Docker
+
 You can run the handbook locally using Docker and the included Dockerfile. This won't require you to have a Node environment installed, you'll need only the Docker engine (Linux) or Docker Desktop (Windows and MacOS) installed.
 
 After cloning this repository, build the image with:
@@ -35,11 +37,13 @@ After cloning this repository, build the image with:
 ```shell
 docker build . -t handbook-builder
 ```
+
 Then, you'll need to install dependencies with Yarn. The following command will execute your image in a temporary container, creating a bind mount with the current application directory mapped to `/app` inside the container.
 
 ```shell
 docker run -it --rm --mount type=bind,source="$(pwd)",target=/app handbook-builder yarn
 ```
+
 With the dependencies installed, you can run the development environment to preview the handbook on your browser.
 Use the following command to create the mount and redirect all connections on port `8000` of the host machine to port `3000` inside the container, where the application is running:
 
