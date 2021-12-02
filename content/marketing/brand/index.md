@@ -17,7 +17,7 @@
 
 Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to drive awareness and affinity for our brand to our audience. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, connecting brand vision to business strategy, and bringing our brand to life across every touchpoint at every level of our company. We also protect and evolve the Sourcegraph brand identity to ensure consistency, congruency, and recognizeability amongst our larger audience.
 
-In addition to improving awareness and perception of our own brand, we strive to amplify the voices of our users and partners, by conceptualizing and producing best-in-class creative that leans heavily on storytelling and narrative to drive engagement and sharing. Our primary goal is to build and strengthen the connection between our brand and our audience, by providing an amazing, holistic brand experience for our users.
+In addition to improving awareness and perception of our own brand, we strive to amplify the voices of our users and partners, by conceptualizing and producing best-in-class creative that leans heavily on storytelling and narrative to drive engagement and sharing. Our primary goal is to _build and strengthen the connection between our brand and our audience, by providing an amazing, consistent brand experience across all of our touchpoints_.
 
 We value: <br>
 
@@ -38,11 +38,9 @@ The Brand Team works closely with XFN teams at every level of the organization, 
 
 Our team acts as liaison or point-of-contact with external entities when producing branded content, sponsorships, or partnerships in accordance with [Sourcegraph’s Brand Guidelines](brand_guidelines/index.md).
 
-Our company values can be found [here](../../company/values.md). Our Brand Creative Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
+Our company values can be found [here](../../company/values.md). Our Brand Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
 
 ## The Team
-
-Functional Areas: Design, illustration, animation, video production, copywriting, narrative, project management, brand strategy, market research, website development, and more.
 
 - Tommy Pesavento - Brand Director
 - Fabiana Castellanos - Project Manager, Brand
