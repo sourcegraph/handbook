@@ -59,6 +59,29 @@ Additionally, these are our [product design principles](../../product-engineerin
 - If your organization is getting value from Sourcegraph with a lot of users, our [pricing](https://about.sourcegraph.com/pricing) is designed so that we earn money from you. This lets us invest in improving our product.
 - All users at a given customer are on the same pricing tier. This is simpler than having users at different tiers and encourages us to build things that are broadly valuable.
 
+## Use cases
+
+Use cases help us align the company around the most important value drivers in our product. A good use case should be:
+
+1. TBD
+2. TBD
+3. TBD
+
+Use cases are used by all the departments at source graph to do different things:
+
+- Product Management: TBD
+- Marketing: TBD
+- Sales: TBD
+- ...
+
+### Use case 1
+
+TBD (...)
+
+### Use case 2
+
+TBD (...)
+
 ## Where we're at now
 
 A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../product-engineering/product/index.md#feature-matrices). The [following](../../product-engineering/strategy.md) gives on overview of what we are working on today.
