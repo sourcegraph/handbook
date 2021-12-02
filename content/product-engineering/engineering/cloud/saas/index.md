@@ -174,7 +174,7 @@ Use comments in Figma to ask questions and share feedback. If a decision or miss
 Google doc is a great choice for kicking off async collaboration, proposing RFC, writing a one-pager problem definition, or documenting a decision. To make the context in Google docs more discoverable, we agreed to:
 
 - Public Information - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
-- Information internal to Sourcegraph - Add a link to the Google doc to the Cloud SaaS team handbook page, ensuring that sensitive information is not exposed in the link title.
+- Information internal to Sourcegraph - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
 
 Please read [this](../../../../company/values.md#open-and-transparent) for more context about the difference between public and internal information.
 
@@ -252,7 +252,7 @@ TBD
 
 ## Product and technical documentation
 
-TBD
+Please go to [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 
 ## Playbooks and procedures
 
@@ -273,6 +273,7 @@ TBD
 
 ## Useful Links
 
-- [Cloud SaaS Jira Project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog)
-- [Cloud SaaS Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
-- [Looker dashboard with Cloud private code addption metrics](https://sourcegraph.looker.com/dashboards-next/207?Repo+Private+%28Yes+%2F+No%29=Yes%2CNo)
+- [Cloud SaaS Team Jira Project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog)
+- [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
+- [Cloud SaaS Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
+- [Looker dashboard with Cloud addption metrics](https://sourcegraph.looker.com/dashboards-next/207?Repo+Private+%28Yes+%2F+No%29=Yes%2CNo)
