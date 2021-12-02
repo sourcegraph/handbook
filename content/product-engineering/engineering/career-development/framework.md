@@ -409,7 +409,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <td>
         Rather than being defined through proficiency, execution and teamwork, IC5 is differentiated from levels 1-4 by a specific <strong>business need</strong> for the role, and an associated set of <strong>expectations</strong>.
         <ul>
-          <li><strong>Business need</strong>: in some cases the business will need IC to and solve cross-cutting technical problems at the org or company level, willing to navigate across orgs as new problems are identified. In others, it will need a deep technical expert for a specific area, capable of devising solutions to highly complex and specialized technical problems.</li>
+          <li><strong>Business need</strong>: in some cases the business will need an IC to and solve cross-cutting technical problems at the org or company level, willing to navigate across orgs as new problems are identified. In others, it will need a deep technical expert for a specific area, capable of devising solutions to highly complex and specialized technical problems.</li>
           <li><strong>Expectations</strong>: for some IC5s, expectations might include participating in engineering calibration, because they are expected to define hiring needs for their team. For others, it might be building and owning a roadmap.</li>
         </ul>
         The business need and associated expectations are unique to each IC5 position. IC5 engineers are publicly identified as such, and the business need and expectations associated with their role are documented in the handbook.
