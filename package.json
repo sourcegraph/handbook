@@ -126,7 +126,7 @@
     "line-column": "^1.0.2",
     "markdown-link-check": "^3.8.7",
     "next-sitemap": "^1.6.203",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.0",
     "sass": "^1.43.4",
     "strip-ansi": "^7.0.1",
     "typescript": "^4.4.4"
