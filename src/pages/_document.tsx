@@ -24,13 +24,6 @@ export default class MyDocument extends Document {
                         href="/opensearch.xml"
                     />
 
-                    <script
-                        id="Cookiebot"
-                        src="https://consent.cookiebot.com/uc.js"
-                        data-cbid="fb31dc3e-afb3-4be8-ae84-7090bba7797d"
-                        data-blockingmode="auto"
-                        type="text/javascript"
-                    />
                 </Head>
                 <body>
                     <header id="header">

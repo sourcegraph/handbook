@@ -43,17 +43,6 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 
             <Script strategy="lazyOnload">
                 {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-KVVCR189Q6', {
-                        page_path: window.location.pathname,
-                    });
-                `}
-            </Script>
-
-            <Script strategy="lazyOnload">
-                {`
                     (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
                     (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
                     e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
