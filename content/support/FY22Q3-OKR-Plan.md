@@ -8,7 +8,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../compa
 | 2   | In-progress | All CSEs    | Make at least 45 doc updates/additions across the team                                            |
 | 3   | In-progress | Giselle     | Retro all Q2 tickets that resulted in a #rfh for Distribution and Core App                        |
 | 4   | In-progress | Adeola      | Create cheat sheets of what logs are most needed in certain situations                            |
-| 5   | Completed   | Beatrix     | Make the [command generator](https://command-generator.netlify.app/) customer-facing and scalable |
+| 5   | Completed   | Beatrix     | Make the [command generator](https://sourcegraph.github.io/support-generator/) customer-facing and scalable |
 | 6   | In-progress | Michael     | Create database type solution to make it easy and reliable for CSEs to learn from past tickets    |
 | 7   | In-progress | Alex        | Streamline key steps in CSE workflow                                                              |
 | 8   | In-progress | Carl        | 5 folks complete kubernetes certification                                                         |
