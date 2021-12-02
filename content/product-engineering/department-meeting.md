@@ -29,10 +29,10 @@ Format & content
 
   - Preface your question with your full name or feel free to omit your name if you prefer to remain anonymous.
 
-  - You can upvote questions with the [+N] syntax. 
+  - You can upvote questions with the [+N] syntax.
 
   - During the Q&A please add additional information and comments to the Q&A doc vs. Zoom chat so people not attending live can also benefit.
-  
+
   - You can continue to add questions to the end of the queue in the Q&A doc as the live Q&A is taking place.
 
   - If we don't get through all the questions during the live Q&A, they will get answered async in the Q&A doc.
