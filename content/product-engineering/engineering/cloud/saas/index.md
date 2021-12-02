@@ -207,7 +207,13 @@ Each sprint is followed by a short sprint review meeting on Google Meet. During 
 
 #### Retrospectives
 
-The team is doing retrospectives on a biweekly basis at the end of each sprint. We are using [Retrium](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d) and changing the format of the retrospective from time to time, experimenting with [different techniques available within Retrium tool](https://www.retrium.com/retrospective-techniques). Action items from the retrospective are [migrated to Jira](https://sourcegraph.atlassian.net/browse/CLOUD-92) and usually have the owner assigned responsible for leading the action to its completion.
+The team is doing retrospectives on a biweekly basis at the end of each sprint. We are using [Retrium](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d) and changing the format of the retrospective from time to time, experimenting with [different techniques available within Retrium tool](https://www.retrium.com/retrospective-techniques).
+
+##### Retrospective action items
+
+The action items from the retrospective are [migrated to Jira](https://sourcegraph.atlassian.net/browse/CLOUD-92) and usually have an owner assigned responsible for leading the action to its completion. The retrospective actions Jira issues that require engineering effort are going through team's [regular grooming process](#groomings) and later are part of a sprint scope.
+
+We review the [backlog of action items](https://sourcegraph.atlassian.net/browse/CLOUD-92) during each [sprint review](#sprint-reviews). We discuss the outcomes of the items from this list completed in given sprint and the team makes recommendations about what action items should be added to the next iteration.
 
 #### Groomings
 
