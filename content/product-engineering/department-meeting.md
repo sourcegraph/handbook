@@ -23,15 +23,16 @@ Format & content
 
 - 30 min live Q&A session
 
-  - Live Q&A is meant to foster conversation and discussion. Please watch content in advance of the meeting and submit your questions before the call to maximize value of time spent synchronously.
+  - Live Q&A is meant to foster conversation and discussion. Please watch content in advance of the meeting and submit your questions before the meeting to maximize value of time spent synchronously.
 
   - You can start adding your questions and/or comments to the Q&A doc a week before the live Q&A session.
 
-  - Preface your question with your full name (first and last name) or "anonymous" if you prefer to remain unknown.
+  - Preface your question with your full name or feel free to omit your name if you prefer to remain anonymous.
 
-  - If someone submitted a question you want to upvote add "+1" next to it so we can prioritize questions accordingly.
+  - You can upvote questions with the [+N] syntax. 
 
-  - During the Q&A please add additional information and comments to the Q&A doc vs. Zoom chat so people not attending live can also benefit
+  - During the Q&A please add additional information and comments to the Q&A doc vs. Zoom chat so people not attending live can also benefit.
+  
   - You can continue to add questions to the end of the queue in the Q&A doc as the live Q&A is taking place.
 
   - If we don't get through all the questions during the live Q&A, they will get answered async in the Q&A doc.
