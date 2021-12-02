@@ -1,12 +1,16 @@
 import '../styles/index.scss'
+import * as Fathom from 'fathom-client'
 import { AppProps } from 'next/dist/shared/lib/router/router'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import Script from 'next/script'
 import React, { useEffect } from 'react'
 
 import { registerDateTooltips } from '../lib/dateHighlighter'
 
 export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
+    const router = useRouter()
+
     useEffect(() => {
         registerDateTooltips()
         window.addEventListener('keydown', event => {
@@ -14,22 +18,32 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
                 document.querySelector<HTMLInputElement>('.search-input')!.focus()
             }
         })
-    }, [])
+
+        Fathom.load('NQRLJQAN', {
+            includedDomains: ['handbook.sourcegraph.com'],
+        })
+
+        function onRouteChangeComplete(): void {
+            Fathom.trackPageview()
+        }
+        // Record a pageview when route changes
+        router.events.on('routeChangeComplete', onRouteChangeComplete)
+
+        // Unassign event listener
+        return () => {
+            router.events.off('routeChangeComplete', onRouteChangeComplete)
+        }
+    }, [router.events])
 
     return (
         <>
-            <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-KVVCR189Q6" />
+            <Script
+                strategy="lazyOnload"
+                data-domain="handbook.sourcegraph.com"
+                src="https://plausible.io/js/plausible.js"
+            />
 
-            <Script strategy="lazyOnload">
-                {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-KVVCR189Q6', {
-                        page_path: window.location.pathname,
-                    });
-                `}
-            </Script>
+            <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-KVVCR189Q6" />
 
             <Script strategy="lazyOnload">
                 {`
@@ -45,6 +59,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
             </Head>
+
             <Component {...pageProps} />
         </>
     )

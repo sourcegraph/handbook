@@ -76,6 +76,7 @@
     "chrono-node": "^2.3.2",
     "date-fns": "^2.25.0",
     "execa": "^5.1.1",
+    "fathom-client": "^3.2.0",
     "gitlog": "^4.0.4",
     "gray-matter": "^4.0.3",
     "hast": "^1.0.0",
