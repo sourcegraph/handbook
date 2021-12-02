@@ -43,8 +43,6 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
                 src="https://plausible.io/js/plausible.js"
             />
 
-            <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-KVVCR189Q6" />
-
             <Script strategy="lazyOnload">
                 {`
                     (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
