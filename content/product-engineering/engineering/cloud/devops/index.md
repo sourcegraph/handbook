@@ -23,7 +23,7 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 
 - [Jennifer Mitchell](../../../../company/team/index.md#jennifer-mitchell) - Engineering Manager
   - [Dax McDonald](../../../../company/team/index.md#dax-mcdonald)
-  - [Daniel Dides]
+  - [Daniel Dides](../../../../company/team/index.md#daniel-dides)
   - [FH] Starts Dec 6
 
 ## Content

@@ -64,6 +64,7 @@
       - [André Eleuterio](../../company/team/index.md#andré-eleuterio)
     - [DevOps](./cloud/devops/index.md) - Engineering Manager: [Jennifer Mitchell](../../company/team/index.md#jennifer-mitchell)
       - [Dax McDonald](../../company/team/index.md#dax-mcdonald)
+      - [Daniel Dides](../../company/team/index.md#daniel-dides)
     - [Cloud SaaS](./cloud/saas/index.md)- Engineering Manager: [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski)
       - [Rafal Gajdulewicz](../../company/team/index.md#rafal-gajdulewicz)
       - [Milan Freml](../../company/team/index.md#mila-freml)

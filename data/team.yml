@@ -2163,3 +2163,12 @@ jennifer_mitchell:
   github: JenRed777
   links: '[LinkedIn](https://www.linkedin.com/in/jennifer-m-302b509/)'
   description: Jennifer lives in Hutto, TX with her partner (Nathan), son (Jack) and 2 dogs (Harvey and Rusty). In her free time she enjoys playing Video Games, watching the latest SciFi movie/show and putting together LEGO.
+
+daniel_dides:
+  name: Daniel Dides
+  role: Cloud DevOps
+  location: Flint, TX, USA 🇺🇸
+  email: daniel.dides@sourcegraph.com
+  github: danieldides
+  links: '[LinkedIn](https://www.linkedin.com/in/danieldides/)'
+  description: Daniel lives in Flint, TX with his wife, two dogs, a cat, and a couple of horses. During the day, Dan enjoys helping people leverage Kubernetes and modern cloud tooling. When he's not working, he enjoys watching rocket launches, designing and 3D printing parts, and tinkering with new technologies.
