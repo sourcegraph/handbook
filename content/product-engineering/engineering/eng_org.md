@@ -62,7 +62,7 @@
       - [David Sandy](../../company/team/index.md#david-sandy)
       - [Mohammad Alam](../../company/team/index.md#mohammad-alam)
       - [André Eleuterio](../../company/team/index.md#andré-eleuterio)
-    - [DevOps](./cloud/devops/index.md) - Engineering Manager: [Bill Creager](../../company/team/index.md#bill-creager)
+    - [DevOps](./cloud/devops/index.md) - Engineering Manager: [Jennifer Mitchell](../../company/team/index.md#jennifer-mitchell)
       - [Dax McDonald](../../company/team/index.md#dax-mcdonald)
     - [Cloud SaaS](./cloud/saas/index.md)- Engineering Manager: [Rafal Leszczynski](../../company/team/index.md#rafal-leszczynski)
       - [Rafal Gajdulewicz](../../company/team/index.md#rafal-gajdulewicz)
