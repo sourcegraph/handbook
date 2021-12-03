@@ -92,7 +92,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 - [Roots Manager overview](https://docs.google.com/document/d/1yP1gwuGnCIS7BlSqTV8wJKmRH0WeOVHDvsJbVNpYWb4/edit)
 
-- [Sourcegraph PTO policy](paid-time-off-and-working-hours.md)
+- [Sourcegraph PTO policy](../benefits-pay-perks/benefits-parks/time-off/index.md)
 
 ### TripActions
 
@@ -100,7 +100,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 **Resources:**
 
-- [Booking travel through TripActions](../finance/TripActions.md#booking-travel-through-tripactions)
+- [Booking travel through TripActions](../benefits-pay-perks/benefits-perks/travel/TripActions.md#booking-travel-through-tripactions)
 
 ### Assemble [WIP]
 
