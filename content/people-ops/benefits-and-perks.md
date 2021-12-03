@@ -1,4 +1,4 @@
-# Perks and benefits
+# Benefits and Perks Overview
 
 We want our teammates to be happy, healthy, and productive. In order to best support that, we provide the following perks and benefits:
 
