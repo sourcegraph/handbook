@@ -1,4 +1,4 @@
-# Product and engineering planning process
+# Product/Engineering planning process
 
 Our planning process defines how we create goals and track progress toward those goals as a department.
 
@@ -68,41 +68,25 @@ There are a few ways we track plans and celebrate progress at Sourcegraph.
 
 ### GitHub project tracker
 
-The [GitHub project tracker](https://github.com/orgs/sourcegraph/projects/214) is **the source of truth** for key results in product and engineering. There are a few tabs.
+The [GitHub project tracker](https://github.com/orgs/sourcegraph/projects/214) is **the source of truth** for key results in product and engineering.
 
-- The **Department KRs** tab tracks the top level product and engineering key results that the VPs and Directors review every week at the [VP team sync](#vp-team-sync).
-- The **Org KRs** tab tracks all the org level key results (excluding those that are tracked at the department level). VPs and Directors review this monthly, or as-needed when something is escalated by a Director.
+There are a few tabs:
+
+- The **Department KRs** tab tracks the top level product and engineering key results that the VPs and Directors review every week at the [VP team sync](#vp-team-sync). Updates are tracked and communicated in the [OKR slides](#okr-slides).
+- The **Org KRs** tab tracks all the org level key results. VPs and Directors review this monthly, or as-needed when something is escalated by a Director.
 - The **Team Deliverables** tab tracks the next big roadmap items that each team is delivering in service of their KRs.
   - When teams are in the state where they have a clear KR, but don't yet have a clear roadmap to achieving that KR, the KR is included in this view. Once a roadmap item added, the KR is removed.
-  - Teams should include as many future roadmap items beyond the quarter as that team has line of sight to.
+  - Teams should include any big current and future roadmap items that the team has line of sight to.
   - Roadmap items have a target date that is our best estimate of when the item will be delivered. This date is used for multiple purposes:
     - A diagnostic tool to help us identify teams that might need help.
     - A cross-functional communication tool so Sales/CE/CS/Marketing can plan ahead to help us drive usage of the things we are delivering.
   - This tab is reviewed ad hoc by VPs.
-- The **Engineering** tab tracks results that are relevant only to engineering or engineering leadership. This is reviewed every week in the [VPE team sync](team.md#vpe-team-sync).
 - The **All** tab simply shows all items in the tracker for reference.
-- Each org (Cloud, Enablement, Code graph) has a tab that tracks the results that the directors for that org care about. Directors own how they use their tab with their org.
+- Orgs and teams may create their own tabs and documented expectations in their own section of the handbook.
 
-Expectations:
+All items in the tracker should be linked to a GitHub issue so that we can assign owners, see a history of updates (useful audit log if we need to change KRs), and so there is an place for the team to post updates.
 
-- Each tab on this tracker is reviewed and updated on a weekly basis by the relevant team.
-- Each item in the tracker is linked to a GitHub issue.
-  - Customer names and business metrics can't be mentioned on public issues, so by default, all issues should be created in [sourcegraph/product-engineering-tracker](https://github.com/sourcegraph/product-engineering-tracker).
-- For each issue linked to from the tracker, the assignee is responsible for posting an update to the issue at the end of each week. The update should include:
-
-  ```markdown
-  # Wins
-
-  <!-- What outcomes have we accomplished since the last update? -->
-
-  # Risks
-
-  <!-- What might prevent us from making the progress we want to make? -->
-
-  # Next steps
-
-  <!-- What are the next outcomes that the team is working toward? -->
-  ```
+Customer names and business metrics can't be mentioned on public issues, so by default, all issues should be created in [sourcegraph/product-engineering-tracker](https://github.com/sourcegraph/product-engineering-tracker).
 
 ### OKR slides
 
@@ -123,7 +107,7 @@ Slides:
 
 These are due each Friday by 19:00 UTC.
 
-- Owners update their sections and connected issues in the [GitHub project tracker](#github-project-tracker)
+- Teams ensure that the [GitHub project tracker](#github-project-tracker) and connected issues are up-to-date.
 - Directors update the [OKR slides](#okr-slides)
 
 ### Monthly team updates
@@ -144,7 +128,7 @@ Guidelines:
 
 ### Monthly PMM roadmap update
 
-In addition to the monthly team update, each team should update the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) for their features at the same time. This deck contains a manually updated copy of the plan with upcoming and recently launched important customer-facing features from the OKR and roadmap tracker. In the future we may transition updating this to PMM, but for now its important product managers are involved in ensuring it is up to date and correct.
+In addition to the monthly team update, each PM should update the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) for their features at the same time. This deck contains a manually updated copy of the current plan, plus recently launched important customer-facing features from the OKR and roadmap tracker. In the future we may transition updating this to PMM, but for now its important product managers are involved in ensuring it is up to date and correct.
 
 ## Quarterly department retrospective
 

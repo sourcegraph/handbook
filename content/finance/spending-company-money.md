@@ -44,11 +44,9 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 Once your contract is signed, you will need to get your Sourcegraph computer. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
 
-**US based teammates**
-US based teammates need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+**US/Canada/EU-based teammates** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
-**Non US teammates**
-Non US teammates will be responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](expenses.md).
+**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
 Different specs are required repending on your role, please see below for necessary specs corresponding to your role.
 

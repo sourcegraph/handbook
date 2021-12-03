@@ -8,7 +8,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 - [Alicja Suska](../../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
 - [Patrick Dubroy](../../../../company/team/index.md#patrick-dubroy) ([Engineering Manager](../../roles.md#engineering-manager)) {#frontend-platform-eng}
   - [Tom Ross](../../../../company/team/index.md#tom-ross)
-  - [Felipe Janer](../../../../company/team/index.md#felipe-janer)
+  - Oleg Gromov
   - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov)
 
 ## Our Strategy
