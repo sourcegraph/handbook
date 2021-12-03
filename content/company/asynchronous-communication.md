@@ -156,8 +156,8 @@ This is why we have different synchronous social activities that help us build c
 - Meet & Greet: for new teammates to get to know their new teammate cohort.
 - New teammate happy hour: with all other teammates. Once a month, new and existing teammates meet and talk. It’s a way for new teammates to get to know other people in the company and for teammates to get to know new people better.
 - Monthly team bonding activities
-- [Off site team meetings](../benefits-pay-perks/benefits-parks/travel/index.md)
-- [Team gatherings and celebrations](../benefits-pay-perks/benefits-parks/celebrate.md)
+- [Off site team meetings](../benefits-pay-perks/benefits-perks/travel/index.md)
+- [Team gatherings and celebrations](../benefits-pay-perks/benefits-perks/celebrate.md)
 - [Social channels on Slack](../communication/team_chat.md#social)
 
 #### How to run sync meetings
