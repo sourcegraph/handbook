@@ -117,13 +117,13 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 
 - [Paying Company bills](payables.md)
 - [AP Policy](ap.md)
-- [Submitting an invoice (teammates based outside of US)](invoices.md)
+- [Submitting an invoice (teammates based outside of US)](../benefits-pay-perks/pay-expenses/invoices.md)
 
 ### Travel & Expenses
 
-- [Submitting reimbursable expenses](expenses.md)
-- [Spending Company Money](spending-company-money.md)
-- [Travel Policy](travel.md)
+- [Submitting reimbursable expenses](../benefits-pay-perks/pay-expenses/expenses.md)
+- [Spending Company Money](../benefits-pay-perks/benefits-perks/spending-company-money.md)
+- [Travel Policy](../benefits-pay-perks/benefits-perks/travel/index.md)
 
 ### Accounts Receivable
 
