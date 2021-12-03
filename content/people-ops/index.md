@@ -6,7 +6,7 @@
 
 - [Debbie Johnstone](../team/index.md#debbie-johnstone), VP of People
 - [Noemi Mercado](../team/index.md#noemi-mercado), People Operations Manager
-- [Inés Roitman](../team/index.md#in%c3%a9s-roitman), Onboarding and Training Manager
+- [Inés Roitman](../team/index.md#ines-roitman), Onboarding and Training Manager
 - [Cassie Melani](../team/index.md#cassie-melani), Teammate Success Manager
 - [Cecily Black](../team/index.md#cecily-black), People Operations Coordinator
 
