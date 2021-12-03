@@ -16,6 +16,7 @@ We use third-party market data as a key input for each role and level within tha
 - [How to create an offer](offers.md)
 - [Equity and stock options FAQ](equity-faq.md)
 - [How to notify People Ops of compensation changes](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform)
+- [Making an offer](../../../talent/hiring/index.md#making-an-offer)
 
 ## Components of compensation
 
