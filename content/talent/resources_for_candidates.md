@@ -16,7 +16,7 @@ We are an [all-remote company](../company/remote/index.md) with teammates across
 
 ### Benefits, perks, and compensation
 
-We want our teammates to be happy, healthy, and productive, which is why we strive to provide competitive [benefits and perks](../../benefits-pay-perks/benefits-perks/index.md). In addition, we are committed to paying all teammates [equitably and competitively](../benefits-pay-perks/pay-expenses/compensation/index.md), and always determine our offers based on market data, **not** your past compensation.
+We want our teammates to be happy, healthy, and productive, which is why we strive to provide competitive [benefits and perks](../benefits-pay-perks/benefits-perks/index.md). In addition, we are committed to paying all teammates [equitably and competitively](../benefits-pay-perks/pay-expenses/compensation/index.md), and always determine our offers based on market data, **not** your past compensation.
 
 ### Sourcegraph hiring values
 
@@ -82,7 +82,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 - We are a [transparant](../marketing/messaging.md) company and everything we do lives in our [Handbook](https://about.sourcegraph.com/handbook). We encourage you to read through it prior to your interview.
 - Our [messaging and definitions](../marketing/messaging.md) should help you better understand what Sourcegraph does.
-- [Benefits and perks](../people-ops/benefits-and-perks.md).
+- [Benefits and perks](../benefits-pay-perks/benefits-perks/index.md).
 - [Teammates bios](../company/team/index.md).
 - [Strategy](../company/strategy/index.md).
 - [Asynchronous communication at Sourcegraph](../company/asynchronous-communication.md)
