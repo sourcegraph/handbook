@@ -10,7 +10,7 @@ Learn more about mission, goals, and strategy on the [Engineering Education stra
 
 ## Members
 
-- [Marek Zaluski](../../../../company/team/index.md#marek-zaluski)
+- [Marek Zaluski](../../../../team/index.md#marek-zaluski)
 
 ## Strategy
 
