@@ -45,16 +45,16 @@ See how we manage project and updates [here](people-ops-project-management.md).
 ## What we offer our teammates
 
 - [How we engage talent outside of the US](how-we-engage-talent-outside-the-us/index.md)
-- [How we structure compensation](compensation/index.md)
-  - [How to create an offer](compensation/offers.md)
-  - [Equity and stock options FAQ](compensation/equity-faq.md)
-  - [Compensation change approvals](compensation/compensation-change-approvals.md)
-- [Benefits and perks we offer](benefits-and-perks.md)
-- [Guidelines for travel](../finance/travel.md)
-- [Paid time off and working hours](paid-time-off-and-working-hours.md)
-  - [Submitting time off](submitting-time-off.md)
-- [Bank and public holidays](holidays.md)
-- [Teammate Gatherings and Celebrations](celebrate.md)
+- [How we structure compensation](../benefits-pay-perks/pay-expenses/compensation/index.md)
+  - [How to create an offer](../talent/hiring/index.md#making-an-offer)
+  - [Equity and stock options FAQ](../benefits-pay-perks/pay-expenses/compensation/equity-faq.md)
+  - [Compensation change approvals](../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
+- [Benefits and perks we offer](../benefits-pay-perks/benefits-perks/index.md)
+- [Guidelines for travel](../benefits-pay-perks/benefits-perks/travel/index.md)
+- [Paid time off and working hours](../benefits-pay-perks/benefits-perks/time-off/index.md)
+  - [Submitting time off](../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md)
+- [Bank and public holidays](../benefits-pay-perks/benefits-perks/holidays.md)
+- [Teammate Gatherings and Celebrations](../benefits-pay-perks/benefits-perks/celebrate.md)
 - [Employment verification](employment_verification.md)
 
 ## DEI
@@ -64,8 +64,8 @@ See how we manage project and updates [here](people-ops-project-management.md).
 
 ## Wellbeing
 
-- [Mental health and wellness initiatives](mental-health.md)
-- [Modern Health](modern-health.md)
+- [Mental health and wellness initiatives](../benefits-pay-perks/benefits-perks/mental-health/index.md)
+- [Modern Health](../benefits-pay-perks/benefits-perks/mental-health/modern-health.md)
 
 ## Manager resources
 
@@ -73,6 +73,6 @@ This section currently includes resources that were specifically created to help
 
 - [Manager accounts guide](manager-guide.md)
 
-- [Compensation change approvals](compensation/compensation-change-approvals.md)
+- [Compensation change approvals](../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 
   - [How to notify People Ops of an org and role change section](manager-guide.md##how-to-notify-people-ops-of-an-org-and-role-change)
