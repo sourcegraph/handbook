@@ -68,7 +68,7 @@
       - [Rafal Gajdulewicz](../../company/team/index.md#rafal-gajdulewicz)
       - [Milan Freml](../../company/team/index.md#mila-freml)
       - [Artem Ruts](../../company/team/index.md#artem-ruts)
-      - [Joe Cheng](../../company/team/index.md#joe-cheng)
+      - [Joe Chen](../../company/team/index.md#joe-chen)
 
 Helpful links:
 
