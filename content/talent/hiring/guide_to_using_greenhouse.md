@@ -58,11 +58,11 @@ To add a new agency to Greenhouse, follow [these instructions](https://support.g
 ## How to use Tags in Greenhouse
 
 - Why
-  Tags helps us keep track of candidates that we can't currently put in play, but will be relevent for for future headcounts. 
+  Tags helps us keep track of candidates that we can't currently put in play, but will be relevent for for future headcounts.
   As our candidate pool is in the 1,000s we need an efficient way to find the right candidates for the top of the funnel when starting a new search.
 - How
   Video on how to add tag to a candidate (Coming soon)
   For every candidate add at least three tags:
-    - Role
-    - Skill (you can add multiple) 
-    - Years of experience
+  - Role
+  - Skill (you can add multiple)
+  - Years of experience
