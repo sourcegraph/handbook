@@ -28,7 +28,7 @@
       - [Adeola Akinsiku](../../company/team/index.md#adeola-akinsiku)
       - [Adam Harvey](../../company/team/index.md#adam-harvey)
       - [Erik Seliger](../../company/team/index.md#erik-seliger)
-      - [Thorten Ball](../../company/team/index.md#thorsten-ball)
+      - [Thorsten Ball](../../company/team/index.md#thorsten-ball)
     - [Code insights](./code-graph/code-insights/index.md) - Engineering Manager:[Felix Becker](../../company/team/index.md#felix-becker)
       - [Cristina Birkel](../../company/team/index.md#cristina-birkel)
       - [Justin Boyson](../../company/team/index.md#justin-boyson)
