@@ -24,7 +24,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. Where can I find information about Sourcegraph’s options and equity compensation?
 
-- You can find information on Sourcegraph’s options and equity compensation [here](compensation/equity-faq.md).
+- You can find information on Sourcegraph’s options and equity compensation [here](../benefits-pay-perks/pay-expenses/compensation/equity-faq.md).
 
 ### Q. When and where do I get my Carta invite?
 
@@ -38,7 +38,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. How do I submit expense reports?
 
-- You can find information on how to submit expenses for reimbursement [here](../finance/expenses.md). **Note:** there are different processes for expensing depending on your employment structure.
+- You can find information on how to submit expenses for reimbursement [here](../benefits-pay-perks/pay-expenses/expenses.md). **Note:** there are different processes for expensing depending on your employment structure.
   - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](../finance/index.md) if you require additional information.
 
 ### Q. Do I have to expense perks or are these already added to my pay?
@@ -51,7 +51,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 **Non-US teammates:**
 
 - **Contractors:**
-  - All expensed perks must be added as a separate line item in your monthly invoice. For instructions on how to submit an invoice, visit [this page](../finance/invoices.md).
+  - All expensed perks must be added as a separate line item in your monthly invoice. For instructions on how to submit an invoice, visit [this page](../benefits-pay-perks/pay-expenses/invoices.md).
 - **PEO employees:**
   - **Remote:**
     - All expensed perks must be submitted via Remote’s platform in order for them to be included in your monthly pay.
@@ -228,7 +228,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **Non-US teammates:**
 
-- On a monthly basis through Veem. To be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../finance/invoices.md).
+- On a monthly basis through Veem. To be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../benefits-pay-perks/pay-expenses/invoices.md).
   - **Note:** if Veem is not supported by your country we have other payment methods, like a direct monthly wire. If this is the case, please reach out to [Inés Roitman](../company/team/index.md#in%C3%A9s-roitman) at [ines@sourcegraph.com](mailto:ines@sourcegraph.com).
 
 ## Retirement
