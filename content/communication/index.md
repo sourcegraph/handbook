@@ -47,7 +47,7 @@ The following places are not sources of truth. Treat documents and conversations
 - Always end on time (or early).
   - If there's more to discuss, handle it asynchronously or schedule a new meeting with the appropriate participants.
   - A meeting that would run over is a nudge that the meeting's agenda or duration was wrong, or that the meeting was led ineffectively.
-- Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../company/team/org_chart.md) helps.)
+- Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../team/org_chart.md) helps.)
 
 #### Scheduling meetings with Google Calendar
 
