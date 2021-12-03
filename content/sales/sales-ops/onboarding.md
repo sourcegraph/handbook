@@ -8,7 +8,7 @@ Welcome to Sourcegraph!
 
 ### Get to know the Sales team
 
-- Schedule meetings with every member of the [Sales](../../company/team/org_chart.md#Sales) and [Customer Engineering](../../company/team/org_chart.md#Customer-Engineering) organizations.
+- Schedule meetings with every member of the [Sales](../../team/org_chart.md#Sales) and [Customer Engineering](../../team/org_chart.md#Customer-Engineering) organizations.
 - Read through the Sales team handbook to understand how the team operates, including:
   - [Definitions](../index.md#definitions)
   - [Deal stages](../index.md#stages)

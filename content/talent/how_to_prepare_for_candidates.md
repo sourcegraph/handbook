@@ -15,7 +15,7 @@ Coming soon
 - We are a [transparant](../marketing/messaging.md) company and everything we do lives in our [Handbook]
 - Our [messaging and definitions](../marketing/messaging.md) should help you better understand what Sourcegraph does.
 - Our [handbook](https://handbook.sourcegraph.com). We encourage you to read through it prior to your interview.
-- [Teammates bios](../company/team/index.md).
+- [Teammates bios](../team/index.md).
 - Our [strategy](../company/strategy/index.md).
 - Additional links coming soon
 
