@@ -378,7 +378,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Interviewers: two members of the team you are interviewing for
 - Duration: 60-minutes
-- Details: We will discuss 1-3 of the most complex problems you have solved with code or the most complex codebases you have worked with. 
+- Details: We will discuss 1-3 of the most complex problems you have solved with code or the most complex codebases you have worked with.
 
 ## Marketing
 
