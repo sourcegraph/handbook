@@ -4,12 +4,18 @@ The code insights team is responsible for building and delivering code insights 
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/code_insights/screenshot.svg" alt="Screenshot of a code insights dashboard with graphs" width="1141" height="391" style="width: 100%; height: auto" />
 
-## Pages
+## Handbook Pages
 
 - [Processes](processes.md)
-- [Goals and Roadmap](../../../../company/strategy/code-graph/code-insights/index.md)
+- [Strategy, goals, and roadmap](../../../../company/strategy/code-graph/code-insights/index.md)
+
+## Quick Resources
+
 - [Product docs](https://docs.sourcegraph.com/code_insights)
 - [Development docs](https://docs.sourcegraph.com/dev/background-information/insights)
+- [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
+- [Usage Pings - all instances](https://sourcegraph.looker.com/dashboards/199)
+- [Usage Pings - individual instance](https://sourcegraph.looker.com/dashboards-next/208?Instance=)
 
 ## Members
 

@@ -32,7 +32,7 @@ Your manager should complete the following steps when you join:
   - Add the user to the `gcp-engineering` [group](https://console.cloud.google.com/iam-admin/groups?orgonly=true&project=&folder=&organizationId=1006954638239&supportedpurview=organizationId) so they have access to our [Google Cloud Platform](../environments.md).
 - Grant access to necessary services.
 
-  - [Sourcegraph organization on Sourcegraph.com](https://sourcegraph.com/organizations/sourcegraph/members)
+  - [Sourcegraph organization on Sourcegraph.com](https://sourcegraph.com/organizations/sourcegraph/settings/members)
   - [LSIF organization on GitHub](https://github.com/orgs/lsif/people) (optional; recommended for Code Intelligence team members)
   - [Buildkite](https://buildkite.com/organizations/sourcegraph/users/new)
   - [Opsgenie](https://sourcegraph.app.opsgenie.com/settings/users/)

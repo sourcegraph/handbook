@@ -1611,7 +1611,7 @@ mary_belzer:
   location: Denver, Colorado, United States 🇺🇸
   github: marybelzer
   email: mary.belzer@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/marybelzer/), [ReadMe](../content/product-engineering/product/readmes/mary-belzer-readme)'
+  links: '[LinkedIn](https://www.linkedin.com/in/marybelzer/), [ReadMe](../../product-engineering/product/readmes/mary-belzer-readme.md))'
   description: "Mary grew up in the US Midwest and relocated to Denver, Colorado in 2014. She is a serial hobbyist: she loves playing music, collecting vinyl, repairing old audio gear, seeing live music, making quilts, knitting and sewing her own wardrobe. When she's not buried in a hobby, she's staying active with snowboarding, aerial arts, and weightlifting. For the last several years she's been working in process improvement, product management, and program management at various eCommerce startups."
 
 brannon_rouse:
@@ -2143,3 +2143,23 @@ jonathan_ayers:
   github: jonathanayers
   links: '[LinkedIn](https://www.linkedin.com/in/jonayershr/)'
   description: Jon lives in Seattle, WA with his partner (Valerie) and dog (Seymour). In his free time he enjoys triathlon training (running and biking more than swimming!) and building excel data dashboards for everything. Prior to Sourcegraph, Jon helped grow Mapbox from 300 to 800+ employees, USIG from 140 to 1200+ employees, and spent 4 years with ADP consulting helping high growth clients in the 150 to 1000 employee range. Jon is food motivated and has a soft spot for tacos, soft pretzels, roasted brussel sprouts, and sour beer.
+
+veronica_bueno:
+  name: Veronica Bueno
+  pronouns: she/her
+  role: Technical Recruiter
+  location: Austin, TX, USA 🇺🇸
+  email: veronica.bueno@sourcegraph.com
+  github: vernbueno
+  links: '[LinkedIn](https://www.linkedin.com/in/veronicabueno/)'
+  description: Veronica lives near Austin, TX with her partner (Blaize) and dog (Sokka). She has been a technical recruiter for 6+ years and even ran a javascript meetup for 2 years. In her spare time she enjoys painting, working on side coding projects, watching soccer and anime.
+
+jennifer_mitchell:
+  name: Jennifer Mitchell
+  pronouns: she/her
+  role: Engineering Manager - DevOps
+  location: Hutto, TX, USA 🇺🇸
+  email: jennifer.mitchell@sourcegraph.com
+  github: JenRed777
+  links: '[LinkedIn](https://www.linkedin.com/in/jennifer-m-302b509/)'
+  description: Jennifer lives in Hutto, TX with her partner (Nathan), son (Jack) and 2 dogs (Harvey and Rusty). In her free time she enjoys playing Video Games, watching the latest SciFi movie/show and putting together LEGO.

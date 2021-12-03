@@ -97,6 +97,7 @@ Each Friday, we send weekly team updates to the rest of the Cloud org to keep th
 We are committed to sending a monthly newsletter to the entire Product and Engineering org summarising our progress towards current goals, challenges, opportunities, learning, and important team updates. You can find all the previous entries in the links below:
 
 - [2021.10.13 monthly update](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/3p0Pj2-RfVY?hl=en)
+- [2021.11.30 monthly update](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/Ro2YHUT1tEw?hl=en)
 
 ## How we work
 
@@ -173,7 +174,7 @@ Use comments in Figma to ask questions and share feedback. If a decision or miss
 Google doc is a great choice for kicking off async collaboration, proposing RFC, writing a one-pager problem definition, or documenting a decision. To make the context in Google docs more discoverable, we agreed to:
 
 - Public Information - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
-- Information internal to Sourcegraph - Add a link to the Google doc to the Cloud SaaS team handbook page, ensuring that sensitive information is not exposed in the link title.
+- Information internal to Sourcegraph - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
 
 Please read [this](../../../../company/values.md#open-and-transparent) for more context about the difference between public and internal information.
 
@@ -206,7 +207,13 @@ Each sprint is followed by a short sprint review meeting on Google Meet. During 
 
 #### Retrospectives
 
-The team is doing retrospectives on a biweekly basis at the end of each sprint. We are using [Retrium](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d) and changing the format of the retrospective from time to time, experimenting with [different techniques available within Retrium tool](https://www.retrium.com/retrospective-techniques). Action items from the retrospective are [migrated to Jira](https://sourcegraph.atlassian.net/browse/CLOUD-92) and usually have the owner assigned responsible for leading the action to its completion.
+The team is doing retrospectives on a biweekly basis at the end of each sprint. We are using [Retrium](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d) and changing the format of the retrospective from time to time, experimenting with [different techniques available within Retrium tool](https://www.retrium.com/retrospective-techniques).
+
+##### Retrospective action items
+
+The action items from the retrospective are [migrated to Jira](https://sourcegraph.atlassian.net/browse/CLOUD-92) and usually have an owner assigned responsible for leading the action to its completion. The retrospective actions Jira issues that require engineering effort are going through team's [regular grooming process](#groomings) and later are part of a sprint scope.
+
+We review the [backlog of action items](https://sourcegraph.atlassian.net/browse/CLOUD-92) during each [sprint review](#sprint-reviews). We discuss the outcomes of the items from this list completed in given sprint and the team makes recommendations about what action items should be added to the next iteration.
 
 #### Groomings
 
@@ -251,7 +258,7 @@ TBD
 
 ## Product and technical documentation
 
-TBD
+Please go to [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 
 ## Playbooks and procedures
 
@@ -272,6 +279,7 @@ TBD
 
 ## Useful Links
 
-- [Cloud SaaS Jira Project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog)
-- [Cloud SaaS Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
-- [Looker dashboard with Cloud private code addption metrics](https://sourcegraph.looker.com/dashboards-next/207?Repo+Private+%28Yes+%2F+No%29=Yes%2CNo)
+- [Cloud SaaS Team Jira Project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog)
+- [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
+- [Cloud SaaS Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
+- [Looker dashboard with Cloud addption metrics](https://sourcegraph.looker.com/dashboards-next/219)

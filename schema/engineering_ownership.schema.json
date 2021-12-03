@@ -1,0 +1,50 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Category": {
+        "type": "string"
+      },
+      "Thing": {
+        "type": "string"
+      },
+      "Type": {
+        "type": "string"
+      },
+      "Org": {
+        "type": "string"
+      },
+      "Team": {
+        "type": "string"
+      },
+      "Domain experts": {
+        "type": "string"
+      },
+      "Slack channels": {
+        "type": "string"
+      },
+      "Ownership model": {
+        "type": "string"
+      },
+      "Health": {
+        "type": "string"
+      },
+      "Product lifecycle": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "Category",
+      "Thing",
+      "Type",
+      "Org",
+      "Team",
+      "Domain experts",
+      "Slack channels",
+      "Ownership model",
+      "Health",
+      "Product lifecycle"
+    ]
+  }
+}
