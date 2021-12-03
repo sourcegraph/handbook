@@ -22,7 +22,7 @@ As our department continues to grow, I want to regularly check in with our teamm
 
 These 1-1s are intended to be casual and informal conversations to build deeper relationships, for me to listen, gather your feedback and insights, and discuss anything top of mind for you. These are not intended for status updates.
 
-If you want to schedule so time to chat, feel free to send a calendar invite or reach out to [Michal](index.md#michal-sennett) to help schedule.
+If you want to schedule some time to chat, feel free to send a calendar invite or reach out to [Michal](index.md#michal-sennett) to help schedule.
 
 If you receive a calendar invite from me but you need to change the date/time or you prefer not to meet, you can update the invite directly or let [Michal](index.md#michal-sennett) know.
 
