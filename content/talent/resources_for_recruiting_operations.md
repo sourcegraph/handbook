@@ -71,10 +71,10 @@ How All Other Teammates Submit Interview Requests:
 
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
-- [Christina Forney](../company/team/index.md#christina-forney), VP Product: [Kylie Fligstein](../company/team/index.md#kylie-fligstein)
-- [Kacie Jenkins](../company/team/index.md#kacie-jenkins), VP Marketing: [Amber Furbush](../company/team/index.md#amber-furbush)
-- [Gregg Stone](../company/team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../company/team/index.md#amber-smokowski)
-- [Nick Snyder](../company/team/index.md#nick-snyder), VP Engineering: Mahal
+- [Christina Forney](../team/index.md#christina-forney), VP Product: [Kylie Fligstein](../team/index.md#kylie-fligstein)
+- [Kacie Jenkins](../team/index.md#kacie-jenkins), VP Marketing: [Amber Furbush](../team/index.md#amber-furbush)
+- [Gregg Stone](../team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../team/index.md#amber-smokowski)
+- [Nick Snyder](../team/index.md#nick-snyder), VP Engineering: Mahal
 
 ### How to Select a Values Interview Panel:
 
@@ -85,7 +85,7 @@ Coming Soon!
 1. Once you’ve sent out all of the interview invitations to the appropriate Sourcegraph panelists, refresh the candidate’s Greenhouse profile.
 2. Click “Send Interview Confirmation” above the candidate’s availability.
    1. If you receive a candidate’s availability outside of Greenhouse (phone, text, email, etc.), you may not see an option to “send interview confirmation email” in Greenhouse. In these cases, simply click “not requested” or “not received” next to availability and update it to “availability received”. You should then see the option to “send interview confirmation email.”
-3. The email template will auto-populate. You’ll only need to edit the following: 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d 3. We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder. 4. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](./types_of_interviews.md) and the [interviewer names](../company/team/index.md).
+3. The email template will auto-populate. You’ll only need to edit the following: 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d 3. We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder. 4. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](./types_of_interviews.md) and the [interviewer names](../team/index.md).
 4. Send Email
 
 #### For Cloud Saas Technical Interviews Only
@@ -114,7 +114,7 @@ When scheduling a Cloud Saas Technical Interview, you will also need to schedule
 2. Click “Resend Interview Confirmation” above the candidate’s availability.
 3. The email template will auto-populate again. 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d
 4. Adjust the subject line to include “UPDATED”
-5. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](./types_of_interviews.md) and the [interviewer names](../company/team/index.md)
+5. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](./types_of_interviews.md) and the [interviewer names](../team/index.md)
 6. Send Email
 
 ## How to Generate an Offer Letter

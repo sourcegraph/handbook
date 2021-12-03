@@ -19,13 +19,13 @@ The code insights team is responsible for building and delivering code insights 
 
 ## Members
 
-- [Joel Kwartler](../../../../company/team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - [Vova Kulikov](../../../../company/team/index.md#vova-kulikov) (Frontend Engineer)
-  - [Justin Boyson](../../../../company/team/index.md#justin-boyson) (Frontend Engineer)
-  - [Coury Clark](../../../../company/team/index.md#coury-clark) (Backend Engineer)
-  - [Cristina Birkel](../../../../company/team/index.md#cristina-birkel) (Backend Engineer)
+- [Joel Kwartler](../../../../team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Felix Becker](../../../../team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
+  - [Vova Kulikov](../../../../team/index.md#vova-kulikov) (Frontend Engineer)
+  - [Justin Boyson](../../../../team/index.md#justin-boyson) (Frontend Engineer)
+  - [Coury Clark](../../../../team/index.md#coury-clark) (Backend Engineer)
+  - [Cristina Birkel](../../../../team/index.md#cristina-birkel) (Backend Engineer)
 
 [We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
 
