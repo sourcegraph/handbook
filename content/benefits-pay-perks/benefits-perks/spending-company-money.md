@@ -97,7 +97,7 @@ If you would like to upgrade to the new M1 Pro but you have had your current lap
 
 **Software/SaaS/cloud:** please check with the appropriate team and manager to ask if we already have a subscription or licenses to the software. If not, please get @sourcegraph/people-ops's approval for software or a subscription that would cost more than $500 per year.
 
-**[Internet, phone, and wellness](expenses.md#internet-phone-and-wellness-benefits):** The following items are automatically added to your pay, and they don't need to be expensed.
+**[Internet, phone, and wellness](../pay-expenses/expenses.md#internet-phone-and-wellness-benefits):** The following items are automatically added to your pay, and they don't need to be expensed.
 
 - **Internet/WiFi plan:** $50/month
 - **Cell phone plan:** $75/month
