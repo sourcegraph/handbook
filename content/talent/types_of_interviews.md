@@ -374,6 +374,12 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 - Duration: 60-minutes.
 - Details: during this stage in the interview process, we will give you an open problem statement and you will walk us through how you would solve the problem.
 
+## Technical Interview: Complex Problems Deep Dive
+
+- Interviewers: two members of the team you are interviewing for
+- Duration: 60-minutes
+- Details: We will discuss 1-3 of the most complex problems you have solved with code or the most complex codebases you have worked with. 
+
 ## Marketing
 
 ### Content working session
