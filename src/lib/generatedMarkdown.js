@@ -295,7 +295,7 @@ export async function generateEngineeringOwnershipTable() {
   const entries = await readYamlFile('data/engineering_ownership.yml')
   let pageContent = ''
   const addRow = colData => {
-    pageContent += `| ${colData.join(' | ')} |\n`
+    pageContent += `| ${String(colData.join(' | '))} |\n`
   }
 
   const columnNames = Object.keys(entries[0] || {})
