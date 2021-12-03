@@ -30,30 +30,28 @@ Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.goo
 
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
-- [Gregg Stone](../company/team/index.md#gregg-stone) (VP of Sales)
-- [Dudley Nostrand](../company/team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
-  - [Trey Sizemore](../company/team/index.md#trey-sizemore) (Sales Enablement Manager)
-- [Scott Cambell](../company/team/index.md#scott-campbell) (Regional Director of East)
-  - [Kai Passo](../company/team/index.md#kai-passo)
-  - [Bill Kolman](../company/team/index.md#bill-kolman)
-  - [Eli Rothschild](../company/team/index.md#eli-rothschild)
-  - [Scott Cambell](../company/team/index.md#scott-campbell)
-  - [Caitlin Moran](../company/team/index.md#caitlin-moran)
-  - [John Harwell](../company/team/index.md#john-harwell)
-  - [Nishil Patel](../company/team/index.md#nishil-patel)
-  - [Ken Mills](../company/team/index.md#ken-mills)
-  - [Brady Hermann](../company/team/index.md#brady-herrmann)
-- [Greg Bastis](../company/team/index.md#greg-bastis) (Regional VP of West)
-  - [Owen Brennan](../company/team/index.md#owen-brennan)
-  - [Chris Surdi](../company/team/index.md#chris-surdi)
+- [Gregg Stone](https://handbook.sourcegraph.com/company/team#gregg-stone) (VP of Sales)
+- [Dudley Nostrand](https://handbook.sourcegraph.com/company/team#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
+  - [Trey Sizemore](https://handbook.sourcegraph.com/company/team#trey-sizemore) (Sales Enablement Manager)
+- [Scott Cambell](https://handbook.sourcegraph.com/company/team#scott-campbell) (Regional Director of East)
+  - [Kai Passo](https://handbook.sourcegraph.com/company/team#kai-passo)
+  - [Bill Kolman](https://handbook.sourcegraph.com/company/team#bill-kolman)
+  - [Eli Rothschild](https://handbook.sourcegraph.com/company/team#eli-rothschild)
+  - [Scott Cambell](https://handbook.sourcegraph.com/company/team#scott-campbell)
+  - [Caitlin Moran](https://handbook.sourcegraph.com/company/team#caitlin-moran)
+  - [Ken Mills](https://handbook.sourcegraph.com/company/team#ken-mills)
+  - [Brady Hermann](https://handbook.sourcegraph.com/company/team#brady-herrmann)
+- [Greg Bastis](https://handbook.sourcegraph.com/company/team##greg-bastis) (Regional VP of West)
+  - [Owen Brennan](https://handbook.sourcegraph.com/company/team#owen-brennan)
+  - [Chris Surdi](https://handbook.sourcegraph.com/company/team#chris-surdi)
   - Will Camp
-  - [Jon Kishpaugh](../company/team/index.md#jon-kishpaugh)
-  - [James Clifford](../company/team/index.md#james-clifford)
-  - [Natalie Khoury](../company/team/index.md#natalie-khoury)
-  - [Rashad Bartholomew](../company/team/index.md#rashad-bartholomew)
+  - [Jon Kishpaugh](https://handbook.sourcegraph.com/company/team#jon-kishpaugh)
+  - [James Clifford](https://handbook.sourcegraph.com/company/team#james-clifford)
+  - [Natalie Khoury](https://handbook.sourcegraph.com/company/team#natalie-khoury)
+  - [Rashad Bartholomew](https://handbook.sourcegraph.com/company/team#rashad-bartholomew)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
-  - Suki Randhawa
+  - [Suki Randhawa](https://handbook.sourcegraph.com/company/team#suki-randhawa)
 
 ### Roles
 
