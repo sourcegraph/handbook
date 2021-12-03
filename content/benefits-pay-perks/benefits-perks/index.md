@@ -6,7 +6,7 @@ We want our teammates to be happy, healthy, and productive. In order to best sup
 
 ### 🏡 All remote
 
-We are an [all-remote team](../../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](../../finance/spending-company-money.md).
+We are an [all-remote team](../../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](spending-company-money.md).
 
 ### 🏖️ Flexible PTO
 
