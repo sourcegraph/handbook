@@ -26,7 +26,7 @@ A detailed explanation of the current process and the suggested reply structures
 
 ### GitHub issues created by third parties
 
-The PM on feedback rotation labels and forwards issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. You can refer to the [product teams page](../product_teams.md) and to the more detailed (internal only, working document) [product team areas of ownership](https://docs.google.com/spreadsheets/d/1nBVLPEEGsd5O2j8wLhJw1Ld3tqLjKQXo44Q5Cn532U4/edit#gid=0). We plan to merge the product team areas of ownership into the handbook page when finalized.
+The PM on feedback rotation labels and forwards issues that others create to the right teams, because those outside the Sourcegraph GitHub organization cannot add labels. You can refer to the [product teams page](../product_teams.md) and to the more detailed (internal only, working document) [product team areas of ownership](../../engineering/engineering_ownership.md). We plan to merge the product team areas of ownership into the handbook page when finalized.
 
 - Find [new issues to triage](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen) or [issues with the
   `needs-team-triage` label](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Aneeds-team-triage).
