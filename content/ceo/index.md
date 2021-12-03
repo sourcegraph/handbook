@@ -1,6 +1,6 @@
 # CEO
 
-I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibilities and how to get what you need from me. It's intended to be helpful to our team and as a linkable reference to answer common questions (I don't expect everyone to [memorize](../usage.md) this page).
+I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibilities and how to get what you need from me. It's intended to be helpful to our team and as a linkable reference to answer common questions (I don't expect everyone to [memorize](../handbook/index.md) this page).
 
 My personal site is [slack.org](https://slack.org).
 

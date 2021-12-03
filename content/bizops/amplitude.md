@@ -49,7 +49,7 @@ The steps to adding additional event properties to the query/table:
 2. Once another member of the team approves, open a blank BigQuery query editor, run the query, and then save the results to a new test table (e.g. amplitude_test_20210812).
 3. Create an [issue](https://github.com/sourcegraph/analytics/issues/271) for Data Engineering to upload a sample of the new test table to a test project in Amplitude.
 4. If the data shows up as expected in Amplitude, go ahead and update the `amplitude_events_v5` query with your PR.
-5. Update the INSERT statement with the new event properties. You can't backfill event properties to events that already exist in Amplitude; however, you can backfill event properties if you're backfilling events also.
+5. Update the [INSERT statement](https://console.cloud.google.com/bigquery?pli=1&project=telligentsourcegraph&ws=!1m14!1m4!1m3!1stelligentsourcegraph!2sbquxjob_3a38e2f8_179cb5027f7!3sUS!1m4!4m3!1stelligentsourcegraph!2sdotcom_events!3samplitude_events_v2!1m3!8m2!1s839055276916!2sed7433a9cf0646a8a7c186c907b9accb&jobFilter=%255B%257B_22k_22_3A_22User%2520email_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22ericbm%2540sourcegraph.com_5C_22_22_2C_22s_22_3Atrue%257D%255D&sq=839055276916:ed7433a9cf0646a8a7c186c907b9accb) with the new event properties. You can't backfill event properties to events that already exist in Amplitude; however, you can backfill event properties if you're backfilling events also.
 
 If you're adding a new event property, please add it to the [data map](https://docs.google.com/spreadsheets/d/1wz958I67BKWWY0jKY3oXKhlrGZ9ucKmv0CM94K-5NVs/edit#gid=408201559).
 
@@ -84,6 +84,16 @@ If an additional user property is added to this table, it will only be applied t
 Amplitude is built on top of our existing [eventLogger infrastructure](https://sourcegraph.com/search?q=context:global+eventLogger.log%28+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+&patternType=literal), so we consider an event to be anything logged by this. We use [object action framework in Proper Case](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/) for our naming. For example, in eventLogger this would show up as 'SearchSubmitted', and in Amplitude it's converted to 'Search Submitted'.
 
 All events from eventLogger are sent to Amplitude except if explicitly added to a denylist in the scheduled query.
+
+## Amplitude Govern
+
+[Amplitude Govern](https://help.amplitude.com/hc/en-us/articles/360043750992-Govern-Manage-your-Amplitude-data-at-scale) allows us to manage our data within Amplitude itself (opposed to within data pipielines). The ways we currently use Govern are:
+
+- [Any new event](#adding-events-to-amplitude) is blocked from being visible in Amplitude until it's adapted (if necessary) to fit the following Amplitude "rules" and then unblocked by someone on the DataOps team
+  - The event name is converted to object action framework in Proper Case
+  - The event is set to active/inactive to follow our [Cloud active user definitions](user_definitions.md#active-user-cloud)
+  - The event is grouped in the appropriate category (such as `Search and navigation` or `Code intel`)
+- Events can be merged if they represent the same action. For example, we deprecated an event that represented a sign-up in favor of a new event. In Govern, we can merge these two events to continue tracking sign-up events over time.
 
 ## A/B testing in Amplitude
 

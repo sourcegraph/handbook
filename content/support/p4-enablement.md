@@ -189,3 +189,7 @@ pass12349ers
 ```
 
 (Note the value listed is from the dockerfile arg declaration)
+
+### GUI tools
+
+You can download the [Helix Admin Tool](https://www.perforce.com/downloads/administration-tool) which makes it easier to configure users, permissions, etc.

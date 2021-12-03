@@ -6,10 +6,6 @@
 
 I do weekly [1-1s](../../leadership/1-1.md) with my direct reports. Add any topics that you want to dicuss to our [shared 1-1 notes Google Doc](../../leadership/1-1.md#google-doc) and I will do the same.
 
-## Office hours
-
-I hold monthly office hours on the 2nd Monday of the month, immediately following Company meeting. The purpose is to increase cross team collaboration and make myself available to everyone in the company that I might normally not get to interact with, and reduce having one-off meetings.
-
 ## Getting to know you
 
 If I am your new manager, I will setup a series of three extra 1-1s to learn more about you. Here are the prompts that I use:
@@ -22,10 +18,13 @@ If I am your new manager, I will setup a series of three extra 1-1s to learn mor
 
 A skip level 1-1 is between me and someone who I indirectly manage (e.g. the person reports to a person that I manage).
 
-If you would like to have a skip level 1-1 with me:
+As our department continues to grow, I want to regularly check in with our teammates to keep a pulse on what is happening.
 
-1. Find a time on my calendar that is open and send me a calendar invite.
-2. Include as much context as is relevant so that I can prepare for the 1-1 if necessary.
+These 1-1s are intended to be casual and informal conversations to build deeper relationships, for me to listen, gather your feedback and insights, and discuss anything top of mind for you. These are not intended for status updates.
+
+If you want to schedule some time to chat, feel free to send a calendar invite or reach out to [Michal](index.md#michal-sennett) to help schedule.
+
+If you receive a calendar invite from me but you need to change the date/time or you prefer not to meet, you can update the invite directly or let [Michal](index.md#michal-sennett) know.
 
 ## Feedback
 

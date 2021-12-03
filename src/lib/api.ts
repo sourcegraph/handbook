@@ -39,6 +39,8 @@ export interface ParsedPage extends LoadedPage {
     title?: string
     toc: Toc
     html: string
+    internalLinks: string[]
+    backlinks: string[]
 }
 
 const pagesDirectory = join(process.cwd(), CONTENT_FOLDER)
@@ -95,6 +97,32 @@ export interface DirectoryNode<P extends Page = Page> {
     pages: P[]
     parent?: DirectoryNode<P>
     subdirectories: DirectoryNode<P>[]
+}
+
+export function buildBacklinks(pages: ParsedPage[]): void {
+    for (const page of pages) {
+        for (let link of page.internalLinks) {
+            // Trim ending slash.
+            // TODO: this should be handled earlier in the process.
+            link = link.replace(/\/$/, '')
+
+            if (link === page.slugPath) {
+                // Skip self-links (usually links to a section)
+                // TODO: this should be handled earlier in the process.
+                continue
+            }
+            const linkedPage = pages.find(page => page.slugPath === link)
+
+            if (!linkedPage) {
+                // TODO: collect dead links and report them elsewhere.
+                console.error(`Dead link: "${page.slugPath}" -> "${link}"`)
+                continue
+            }
+            if (!linkedPage.backlinks.includes(page.slugPath)) {
+                linkedPage.backlinks.push(page.slugPath)
+            }
+        }
+    }
 }
 
 export function buildPageTree<P extends Page = Page>(
@@ -158,8 +186,9 @@ function findOrCreateDirectoryNode<P extends Page = Page>(node: DirectoryNode<P>
 }
 
 export async function parsePage(page: LoadedPage): Promise<ParsedPage> {
-    const { content, title, toc } = await markdownToHtml(page.body, page.path, page.isIndexPage)
-    return { ...page, html: content, title, toc }
+    // TODO: the change to `slugPath` for the second argument probably breaks normal link rewriting.
+    const { content, title, toc, internalLinks = [] } = await markdownToHtml(page.body, page.slugPath, page.isIndexPage)
+    return { ...page, html: content, title, toc, internalLinks, backlinks: [] }
 }
 
 export function getLastSlugPart(slug: string): string {
