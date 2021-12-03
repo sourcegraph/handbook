@@ -1,6 +1,6 @@
 # Company sponsored travel
 
-Sourcegraph is an [all-remote](../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
+Sourcegraph is an [all-remote](../../../company/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
 
 ## Travel Planning Guidelines
 
@@ -10,18 +10,18 @@ Sourcegraph is an [all-remote](../company/remote/index.md) company. This means w
 - All meetups are to remain completely optional for all attendees.
   - Due to the current circumstances of Covid-19, everyone is experiencing comfort on differing levels. It is important to honor boundaries around comfort during this time. For more information on adhering to proper Covid-19 protocols during your trip planning, please review the Sherpa feature in TripActions.
 - Use your best judgement and defer to local jurisdictions in determining the number of attendees and restrictions you may need to abide by.
-- When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../company/values.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
+- When planning or attending any type of meetup, remember that you are representing the Sourcegraph team. In alignment with **[our company values](../../../company/values.md)**, we encourage a lens of inclusion in creating an equitable meetup for all teammates.
 - Assume people don't want to shake hands, hug, high-five etc.
 - Follow local laws, customs, and safety regulations during every step of the meetup process.
 - The Company will reimburse testing for Covid-19 when traveling for Company events. The typical reimbursed test is approximately $25 per person per trip.
 
 ## Travel budget philosophy
 
-We are a [high agency](../company/values.md#high-agency) team. Be economical in choosing your accommodation, modes of transportation, and where you’ll be dining. We understand that there may be limits, and we urge you to find options that are both convenient for you while being reasonable regarding reimbursements for the company.
+We are a [high agency](../../../company/values.md#high-agency) team. Be economical in choosing your accommodation, modes of transportation, and where you’ll be dining. We understand that there may be limits, and we urge you to find options that are both convenient for you while being reasonable regarding reimbursements for the company.
 
 > _For example: If you are attending a conference and see that a cheaper hotel is a half hour away from your conference venue, but you will need to pay for the taxi to the venue which would ultimately make your cost the same, book a more convenient option!_
 
-Travel budgets are not transferable between types and are based on our [fiscal calendar](../finance/index.md#fiscal-year-2022) year. That means unused budget doesn’t roll over into the next year, but they will renew on February 1st each year.
+Travel budgets are not transferable between types and are based on our [fiscal calendar](../../../finance/index.md#fiscal-year-2022) year. That means unused budget doesn’t roll over into the next year, but they will renew on February 1st each year.
 
 > _For example:_
 >

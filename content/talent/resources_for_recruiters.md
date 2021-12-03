@@ -93,7 +93,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 - Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
-  - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
+  - [Compensation philosophy](../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation)
 - Recruiter [creates an offer in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer)
 - Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
 - Recruiter submits offer for approval in Greenhouse.
