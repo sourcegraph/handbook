@@ -6,7 +6,7 @@ We want to make sure you have what you need to be productive and happy in your r
 - You likely won't need every single item on this list—please use your best judgment and buy when you need them. Remember, Sourcegraph doesn't have unlimited funds—spend this money as if it was your own.
   - For example, if you intend to work out of a coworking space most of the time, you may not need a fully equipped home office as well.
 - If you spend more than $1,000 on any given physical item, it will be considered property of the company.
-- Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](expenses.md) for additional help.
+- Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](../pay-expenses/expenses.md) for additional help.
 
 ## Desk set-up
 
@@ -20,8 +20,8 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 
 #### Team-specific totals
 
-- We expect new [Design team](../product-engineering/product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
-- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
+- We expect new [Design team](../../product-engineering/product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
+- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
 
@@ -46,7 +46,7 @@ Once your contract is signed, you will need to get your Sourcegraph computer. Co
 
 **US/Canada/EU-based teammates** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
-**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
+**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
 Different specs are required repending on your role, please see below for necessary specs corresponding to your role.
 
@@ -121,6 +121,6 @@ You will not need permission for choosing which co-working space you’d like to
 
 **Laptop repairs:** if your laptop requires repairs, we cover up to $500 a year on repairs. If necessary repairs exceed the yearly budget please reach out to @sourcegraph/people-ops's for approval.
 
-**Travel expenses:** please see our page on [travel budgets](../finance/travel.md).
+**Travel expenses:** please see our page on [travel budgets](travel/index.md).
 
-Find out how to submit your expenses [here](expenses.md).
+Find out how to submit your expenses [here](../pay-expenses/expenses.md).
