@@ -13,7 +13,7 @@ We use third-party market data as a key input for each role and level within tha
 - [Compensation philosophy](#philosophy)
 - [Compensation bands](#compensation-bands)
 - [Employment versus contracting: compensation differences](#employment-versus-contracting-compensation-differences)
-- [How to create an offer](offers.md)
+- [How to create an offer](../../../talent/hiring/index.md#making-an-offer)
 - [Equity and stock options FAQ](equity-faq.md)
 - [How to notify People Ops of compensation changes](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform)
 - [Making an offer](../../../talent/hiring/index.md#making-an-offer)
@@ -32,7 +32,7 @@ See [Equity FAQ](equity-faq.md).
 
 ### Benefits and perks
 
-See [Benefits and perks](../benefits-and-perks.md).
+See [Benefits and perks](../../benefits-perks/index.md).
 
 ## Philosophy
 
@@ -52,9 +52,9 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 
 ### Consistency
 
-We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../index.md) before making them.
+We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../people-ops/index.md) before making them.
 
-Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../impact-reviews.md) process.
+Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../../../people-ops/impact-reviews.md) process.
 
 ### Negotiating should not be needed
 
@@ -72,7 +72,7 @@ However, managers can occasionally grant ad hoc bonuses (cash and equity are bot
 
 ## Compensation bands
 
-Internal compensation bands are maintained by the [People Ops](../index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact).
+Internal compensation bands are maintained by the [People Ops](../../../people-ops/index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact).
 
 - [Sales compensation bands](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
 - [Marketing compensation bands](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
@@ -98,11 +98,11 @@ Our compensation bands are brought together by the People Ops team from multiple
 - The bands are shared with each department lead, who has the ability to manually adjust bands where desired (for example, to interpolate where the data is rough or based on a low sample size, to create bands for roles that don't have corresponding categories in Option Impact, to make adjustments for their particular hiring needs based on their experience, etc.).
 - The Talent and People Ops teams review and sign off on the final approved numbers.
 
-See [Compensation change approvals](./compensation-change-approvals.md) for more.
+See [Compensation change approvals](compensation-change-approvals.md) for more.
 
 ### How bands are changed
 
-Bands are owned by each department lead. [Bands can be changed by that individual with finance approval](./compensation-change-approvals.md) (to ensure team budgets reflect the change).
+Bands are owned by each department lead. [Bands can be changed by that individual with finance approval](compensation-change-approvals.md) (to ensure team budgets reflect the change).
 
 Proposed changes to bands should come with evidence of market changes (e.g. from benchmark data sources, candidate polling, etc.) and evidence that the existing bands are negatively affecting our hiring.
 
@@ -114,7 +114,7 @@ Hiring managers that want to make offers outside of the 75th to 90th percentile 
 
 While hiring managers have the ability to make an out-of-band offer actually in-band simply by changing the level that they hire someone at, we discourage using this tactic, as it can lead to misaligned expectations between the manager and the new teammate.
 
-See [Compensation change approvals](./compensation-change-approvals.md) for more.
+See [Compensation change approvals](compensation-change-approvals.md) for more.
 
 ## Employment versus contracting: compensation differences
 
@@ -128,4 +128,4 @@ Reach out to the People Ops team if you have any questions about structuring.
 
 Employees are paid twice per month (on the 15th and the last day of the month if those are weekdays, or the Fridays before those days if not), via Rippling.
 
-All contractors [submit invoices monthly](../../finance/invoices.md).
+All contractors [submit invoices monthly](../invoices.md).
