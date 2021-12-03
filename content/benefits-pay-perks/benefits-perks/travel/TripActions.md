@@ -49,7 +49,7 @@ We have designated TripActions delegates for each department and onboarding, and
 - Hotel (if you’ve already chosen one)
 - Type of [company sponsored travel](index.md#travel-budget-philosophy)
 
-Managers will be the point of contact in these cases. Managers, please take some time to talk to the future new teammate about guidelines and what to expect. Indicate if this is an optional trip or not and be sure to point them towards these two handbook pages: [Company sponsored travel](travel.md) and [TripActions](TripActions.md).
+Managers will be the point of contact in these cases. Managers, please take some time to talk to the future new teammate about guidelines and what to expect. Indicate if this is an optional trip or not and be sure to point them towards these two handbook pages: [Company sponsored travel](index.md) and [TripActions](TripActions.md).
 
 Please reach out to [travel@sourcegraph.com](mailto:travel@sourcegraph.com) or [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) in Slack for any questions.
 
