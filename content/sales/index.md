@@ -39,8 +39,6 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Eli Rothschild](../company/team/index.md#eli-rothschild)
   - [Scott Cambell](../company/team/index.md#scott-campbell)
   - [Caitlin Moran](../company/team/index.md#caitlin-moran)
-  - [John Harwell](../company/team/index.md#john-harwell)
-  - [Nishil Patel](../company/team/index.md#nishil-patel)
   - [Ken Mills](../company/team/index.md#ken-mills)
   - [Brady Hermann](../company/team/index.md#brady-herrmann)
 - [Greg Bastis](../company/team/index.md#greg-bastis) (Regional VP of West)
@@ -53,7 +51,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Rashad Bartholomew](../company/team/index.md#rashad-bartholomew)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
-  - Suki Randhawa
+  - Suki Randhawa(../company/team/index.md#suki-randhawa)
 
 ### Roles
 
