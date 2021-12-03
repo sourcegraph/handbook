@@ -21,9 +21,9 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 
 ## Members
 
-- [Bill Creager](../../../../company/team/index.md#bill-creager) (acting [Engineering Manager]
+- [Jennifer Mitchell](../../../../company/team/index.md#jennifer-mitchell) - Engineering Manager
   - [Dax McDonald](../../../../company/team/index.md#dax-mcdonald)
-  - [DD] Start Nov 22
+  - [Daniel Dides]
   - [FH] Starts Dec 6
 
 ## Content

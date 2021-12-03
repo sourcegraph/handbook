@@ -17,6 +17,7 @@ To learn more about our goals, see the [Search Core strategy](../../../../compan
   - [Stefan Hengl](../../../../company/team/index.md#stefan-hengl)
   - [Ryan Hitchman](../../../../company/team/index.md#ryan-hitchman)
   - [Tomás Senart](../../../../company/team/index.md#tomás-senart)
+  - [Geoffrey Gilmore](../../../../company/team/index.md#geoffrey-gilmore)
 
 ## Contact
 
@@ -29,7 +30,7 @@ The Search Core team has a customer support rotation: each week, one team member
 
 The engineer on support rotation can be contacted using the Slack alias `@search-core-support`.
 
-The support rotation can be viewed on Opsgenie: [search core schedule](https://sourcegraph.app.opsgenie.com/teams/dashboard/1cc52380-1d71-420e-9c80-2ccb161c648c/main).
+The support rotation can be viewed on OpsGenie: [search core schedule](https://sourcegraph.app.opsgenie.com/teams/dashboard/1cc52380-1d71-420e-9c80-2ccb161c648c/main).
 
 Should an engineer be unable to fulfill support responsibilities for any reason (for example, due to upcoming time off), they should swap with a teammate.
 

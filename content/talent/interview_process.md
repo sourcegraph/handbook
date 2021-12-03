@@ -1,85 +1,110 @@
 # The Sourcegraph Interview Process
 
-From start to finish!
+This page includes all information a Talent Team member, Hiring Manager, or Teammate needs to know about the interview stage.
 
-## Before the interview
+## The interview lifecycle
 
-The below actions must take place before we begin interviewing candidates.
+- [How to open a new job](./opening_a_new_job.md)
+- **You are here:** the interview process
+- [How to extend an offer ](./extending_an_offer.md)
+- [How to onboard a new hire after offer acceptance](./after_the_offer.md)
 
-- Step 1: The **Hiring Manager** sends a Slack #Hiring to confirm your role is in the board-approved headcount plan and to confirm which Recruiter will be working on your search.
-- Step 2: The **Hiring Manager** creates a job description & interview plan using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit). We recognize that this step is time consuming, yet it is a critical step in setting our search up for success. Creating a well-thought out job description and interview plan 1) ensures alignment between the Hiring Manager, the hiring team, and the Recruiter and 2) ensures that all candidates are receiving a fair and consistent interview experience. Creating a strong plan upfront is also proven to reduce time-to-fill, meaning that we will make a hire faster, on average.
-  - **Job description format**: we write all job descriptions in an _impact format_. The way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. Countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. To that end, Sourcegraph's job description format focuses on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool. The goal of the job description is to focus on getting the candidate excited, while giving a clear representation on what we expect them to accomplish both in the short-term and longer-term. How will working out Sourcegraph benefit them in their career? Why is this the best job they’ll ever have?
-  - **Interview plan format**: creating a structured interview process is critical to our DEI efforts. Research shows that structured interviews are up to **twice as effective** at predicting job performance than unstructured ones, and ultimately help us hire faster. Structuring interviews with a standardized set of questions also allows for a more fair and impartial way of assessing candidates, which helps remove unconscious biases. Before creating your interview plan, you may find it helpful to read about the [types of interviews](./types_of_interviews.md) other hiring managers have leveraged in the past. When creating the interview questions, please keep in mind: all interview questions should be written in open ended format (the best way to ensure of this is to start every question with “tell me…”), and to ensure all questions are legal, ask yourself “does this question relate to the candidate’s ability to do this job?” … if you can’t confidently say yes, it’s better to not ask it!
-- Step 3: The **Hiring Manager** fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit). Responses are routed to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=2123710308).
+## Making a referral
 
-Once the Hiring Manager completes the above steps, the Recruiter takes the below actions:
+Current employees can refer a candidate in Greenhouse [here](https://tracking.cirrusinsight.com/5ae92f4c-b2ab-4851-852d-32a879d5bc4b/player-vimeo-com-video-163888438). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse. If the referred candidate is a duplicate, the Recruiter will merge the records together and keep the referral candidate page as the primary candidate page.
 
-- Step 1: the **Recruiter** schedules a 30-minute intake meeting with the Hiring Manager to kick off the search and review the responses to the intake form. This is a necessary step to ensure initial alignment and set our search up for success.
-- Step 2: the **Recruiter** opens the job in Greenhouse by copying the "Template" job and builds out the interview plan, adding all behavioral-based, structured questions directly into each interview stage. All interview stages should use the standard interview titles, found [here](./types_of_interviews.md).
-- Step 3: the **Recruiter** posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](hiring/job_boards.md).
-- Step 4: the **Recruiter** creates a Slack channel with the Interview Team and starts the [Slack Kick-Off Process](./resources_for_recruiters.md#slack-kick-off-process).
-  Step 5: the **Recruiter** begins generating a candidate pool by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter
-  - All candidates are either advanced or declined within **5 business days** of their application date. To advance a candidate to the Recruiter screen stage, Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
-  - COMING SOON: to source passive candidates, the Recruiter & Hiring Manager follows best sourcing practices in LinkedIn Recruiter
-  - COMING SOON: click here to review cadence and outreach best practices
+## Preparing for an interview
+
+**Training:** all interviewers must review [interview training](./interview_training.md) before participating in any interviews.
+
+- [How to lead a legal interview](./interview_training.md#3-leading-a-legal-interview).
+- [How to provide a positive candidate experience](./interview_training.md#candidate-experience).
+
+**System set up:** all interviewers must have the below systems set up before interviewing.
+
+- [How to use Greenhouse, our ATS where all interview feedback lives](./hiring/guide_to_using_greenhouse.md).
+- [How to use Brighthire, our interview recording tool ](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire).
+
+**Role familiarization**: prior to the interview, open up the interview kit in Greenhouse (the link can be found in your interview calendar invite). In the interview kit, you’ll be able to view the candidate’s resume, the job description, and the structured interview questions you will ask during the interview.
+
+**Selling Sourcegraph:**
+
+- COMING SOON
 
 ## The interview stage
 
-- Step 1: the **Recruiter** conducts an initial recruiter screen with eligible candidates.
-  - Sample Recruiter screen questions can be found [here](interview_process.md)
-  - Recruiter submits qualified candidates to Hiring Manager.
-  - If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the #talent-scheduling-and-offers Slack channel.
-- Step 2: If Hiring Manager chooses to advance a candidate following the Hiring Manager screen, the Recruiting Coordinator schedules additional interviews in the interview process (below). All interviewers must review the [interview training](interview_training.md#2-structured-interviewing) and Guide to Using Brighthire before conducting interviews.
-  - COMING SOON: link to instructions on how we schedule interviews
-  - Interview process and sample interview questions for each department [here](interview_process.md)
-- Step 3: The hiring team reviews feedback and makes final hiring decision. This can be done in a synchronous fashion via a debrief Zoom meeting, or asynchronously via Slack. If there is mixed feedback, the Hiring Manager is the ultimate decision maker.
-  - See feedback best practices below
-- Step 4: Once a hiring decision in made, the Hiring Manager is responsible for communicating the hiring decisions to the rest of the interview team to stay informed and calibrate for future hiring decisions.
-  - Post your note in the role's private Slack channel.
-  - Your note should provide context for why we've decided to hire someone, or why we've decided _not_ to hire someone.
-  - Once it's been posted in Slack, paste your note into Greenhouse so it lives on the candidate page forever.
+### **The recruiter screen**
 
-## Offer stage
+The first step of an interview process for a candidate is the Recruiter Screen. All Recruiters must have completed all stages of [Recruiter Onboarding](./recruiter_onboarding.md) before interviewing candidates.
 
-- Step 1: once finalist is identified, Recruiter completes references if necessary.
-- Step 2: the **Recruiter** confirms level and compensation.
-  - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
-- Step 3: the Recruiter has a pre-closing conversation with the candidate to confirm mutual-interest. It is very important that the Recruiter makes no offer promises or commitments to the candidate until the offer has been formally approved in Greenhouse.
-  - COMING SOON: closing best practices & counter offer conversation best practices
-- Step 4: the **Recruiter** submits offer for approval in Greenhouse.
-  - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
-  - If the candidate did not recieve all "Yes" or "Strong Yes" in feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
-- Step 5: once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
-  - Attendees: Recruiter, Hiring Manager, Candidate.
-  - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile.
-  - Offer Summary call agenda: 1. the Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them 2. the Recruiter then shares their screen to display the offer summary document. The Recruiter then covers our compensation philosophy, the compensation specifics, perks, travel (and benefits, if applicable), and equity 3. the Hiring Manager and Recruiter answer any questions and ask how the candidate is feeling about the opportunity. Before ending the call, be sure to 1) determine a potential start date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent, Noemi, and Inés) and 2) schedule a follow-up call to answer any questions.
-  - COMING SOON: offer summary call script
-- Step 6: following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager and VP Talent.
-- Step 7: once the candidate verbally accepts the offer, the Recruiter makes a formal request in the Slack channel: talent-scheduling-and-offers for an offer letter to be sent
-- Step 8: the Recruiting Coordinator sends the official offer letter via DocuSign.
-  - For US offers, use the US-offer template
-  - For non-US, confirm the correct template before sending
-  - All offers should be routed for signing to VP Talent > Candidate and Cc Recruiting@sourcegraph.com, Onboarding@sourcegraph.com and the Hiring Manager
+The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
-COMING SOON: what to do if the candidate declines our offer
+- To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
+- COMING SOON: how to schedule with Calendly
+- To decline a candidate, follow [these steps]COMING SOON. All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
 
-## 4. After the offer
+The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the `#talent-scheduling-and-offers` Slack channel.
 
-After the candidate formally signs the offer letter via DocuSign, the Recruiter takes the following steps:
+- COMING SOON: click here to learn more about scheduling interviews at Sourcegraph.
 
-- Step 1: via Greenhouse, the Recruiter sends a welcome email to the candidate by selecting the "welcome email from recruiter" template. To: Candidate, CC: Recruiting@sourcegraph.com, Onboarding@sourcegraph.com, Hiring Manager. This should be done within 24-hours of acceptance.
-- Step 2: confirms that the open, start and hired dates are correct, ensuring accurate time-to-fill data.
-- Step 3: confirms the candidate source information is accurate, ensuring accurate source data.
-- Step 4: declines all other candidates if we are closing the role / not hiring for multiple positions.
-- Step 5:
-  - Click the "Mark Candidate as Hired" button found in the "Offer Details" section of the candidate's profile
-  - Select Close Reason - "hire-new headcount" or "hire-backfill"
-  - Click either "yes" or "no" in the "Keep Job Open" section. Only keep the job open if we are hiring for multiple openings.
-  - Select "Yes" for "Make Candidate Private"
-  - Select "Yes" for "Export to BambooHR"
-  - Email a summary of this candidate to: 1. "Onboarding Email" 2. Carly Jones (VP of Talent) and 3. the Hiring Manager.
-- The People Operations team then works with the candidate to onboard them and get them set up for their first day! Woo hoo!
-- The Hiring Manager posts an announcement of the candidate's acceptance in the Slack #Hiring channel.
+### The hiring manager screen stage
+
+If the Hiring Manager chooses to advance a candidate following the Hiring Manager screen, the Recruiting Coordinator schedules additional interviews in the interview process (below). All interviewers must review the [interview training](interview_training.md#2-structured-interviewing) and Guide to Using Brighthire before conducting interviews.
+
+- COMING SOON: link to instructions on how we schedule interviews
+- Interview process and sample interview questions for each department [here](interview_process.md)
+
+### The "onsite" stage
+
+The "onsite" stage is defined as all interviews that take place after the hiring manager screen.
+
+The Recruitment Operations specialist will schedule all remaining interviews in the interview process. It is important that all teammates accept the calendar invite to confirm that you plan to attend to the interview
+
+- If you unable to make an interview, please Slack `#Hiring` immediately so that we can work on finding a replacement interviewer, or reschedule. Please do you best to provide a minimum of 24-hours notice if you are unable to attend.
+
+Following your interview, please provide interview feedback immediately, no later than 24-hours after your interview, to ensure we are able to move quickly and provide a positive candidate experience.
+
+- COMING SOON: how to provide interview feedback
+- COMING SOON: interview feedback definitions
+- COMING SOON: how to keep your interview feedback legal
+
+### The decision making stage
+
+The hiring team reviews the feedback in Greenhouse and makes final hiring decision. This can be done in a synchronous fashion via a debrief Zoom meeting, or asynchronously via Slack. If there is mixed feedback, the Hiring Manager is the ultimate decision maker.
+
+Once a hiring decision in made, the Hiring Manager is responsible for communicating the hiring decisions to the rest of the interview team to stay informed and calibrate for future hiring decisions.
+
+- Post a note in the role's private Slack channel.
+- Your note should provide context for why we've decided to hire someone, or why we've decided _not_ to hire someone.
+- Once it's been posted in Slack, paste your note into Greenhouse so it lives on the candidate page forever.
+
+If we are _moving forward_ with an offer, the Recruiter will submit the offer details for approval and will schedule and offer summary call.
+
+- Learn more about the offer stage [here](./extending_an_offer.md)
+
+If we are _declining_ the candidate, the Recruiter will call the candidate.
+
+- COMING SOON: policy on declining candidates and giving feedback
+
+## Estimated time-to-hire
+
+It is our goal to fill our openings as quickly as possible while maintaining a high quality bar and a strong candidate experience. Our time-to-fill goal is an average of 45 days. This means that the timespan from intake meeting to candidate offer acceptance (when a candidate signs their offer letter) should be, on average, 45 days or less.
+
+- (45 days time-to-fill) + (2-4 weeks notice period) + (1-2 weeks vacation in between jobs) = 3 months from the time we kick off the job to when our new teammate starts.
+- All roles should be kicked off 2-3 months prior to our target start date to ensure we're taking a proactive, rather than reactive, recruitment approach.
+- Once a candidate begins the interview process with us, we should aim to complete the interview process in **2-weeks** or less.
+
+Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=0) to see your upcoming open roles. This document is updated in real time and adjusts as the needs of our business change. If you see that you have an upcoming role in the next 2-3 months, please follow the below steps to kick off a search.
+
+## **Sourcing best practices**
+
+- COMING SOON: to source passive candidates, the Recruiter & Hiring Manager follows best sourcing practices in LinkedIn Recruiter
+
+## **Outreach best practices**
+
+- Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
+
+[Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.
 
 ## Our Scheduling Philosophy
 
@@ -93,18 +118,27 @@ To schedule an interview with a candidate, please work with your recruiter or Sl
 
 ## Providing interview feedback
 
+### Written interview feedback
+
 Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](./hiring/guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback. All feedback must be submitted in Greenhouse **before** discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
-### Overall recommendation
+COMING SOON: how to use Brighthire for feedback
 
-In addition to providing written feedback, you are asked to choose an overall recommendation. You are given 4 feedback options in Greenhouse: 1. Strong Yes 2. Yes 3. No 4. Strong No. It is important that we are calibrated as a team and that we assess candidates using the same scale.
+### Overall hiring recommendation
 
-Please leverage the below definitions when rating candidates:
+In addition to providing written feedback, you are asked to choose an overall recommendation. You are given 4 feedback options in Greenhouse: 1. `Strong Yes` 2. `Yes` 3. `No` 4. `Strong No`. It is important that we are calibrated as a team and that we assess candidates using the same scale.
 
-- **Strong Yes.** You are confident that this person would make our team better and you would be excited to have the chance to work with them.
-- **Yes.** You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
-- **No.** You are neutral or have doubts about whether this person would make our team better.
-- **Strong No.** You are very confident that we should not hire this person because they would not be successful on our team.
+- Feedback is required immediately (no later than 24 hours after the interview) to ensure we're able to move candidates through our process quickly.
+
+Please leverage the below **definitions** when rating candidates:
+
+`Strong Yes` You are confident that this person would make our team better and you would be excited to have the chance to work with them.
+
+`Yes` You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
+
+`No` You are neutral or have doubts about whether this person would make our team better.
+
+`Strong No` You are very confident that we should not hire this person because they would not be successful on our team.
 
 All "Yes" feedback with no "Strong Yes" feedback is usually not sufficient. We want to hire people who we are excited to work with.
 
@@ -112,8 +146,29 @@ All "Yes" feedback with no "Strong Yes" feedback is usually not sufficient. We w
 
 When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/articles/360018399451-Scorecard-focus-attributes), we have 5 options: 1. Star 2. Thumbs up 3. Neutral 4. Thumbs down 5. Stop
 
-- **Star.** You are **very** confident that this person has this attribute.
-- **Thumbs up.** You are confident and have no concerns that this candidate has this attribute.
-- **Neutral.** You are neutral or are unsure if they have, or don't have, this attribute. More digging and interviewing is recommended.
-- **Thumbs down.** You do not believe this candidate has this attribute.
-- **Stop.** You are **very** certain that this candidate does not embody this attribute.
+`Star` You are **very** confident that this person has this attribute.
+
+`Thumbs up` You are confident and have no concerns that this candidate has this attribute.
+
+`Neutral` You are neutral or are unsure if they have, or don't have, this attribute. More digging and interviewing is recommended.
+
+`Thumbs down` You do not believe this candidate has this attribute.
+
+`Stop` You are **very** certain that this candidate does not embody this attribute.
+
+### Keeping your feedback legal
+
+COMING SOON
+
+## Declining candidates
+
+COMING SOON: how to decline a candidate
+
+Who receives a written rejection:
+
+- Any candidate who applies to Sourcegraph but doesn't make it to the Recruiter Screen stage.
+- Any candidate who has a Recruiter Screen, but isn't progressed to the Hiring Manager Screen stage.
+
+Who receives a phone call rejection:
+
+- Any candidate who makes it past the Hiring Manager Screen stage.
