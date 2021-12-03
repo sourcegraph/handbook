@@ -6,11 +6,11 @@ We want our teammates to be happy, healthy, and productive. In order to best sup
 
 ### 🏡 All remote
 
-We are an [all-remote team](../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](../finance/spending-company-money.md).
+We are an [all-remote team](../../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](../../finance/spending-company-money.md).
 
 ### 🏖️ Flexible PTO
 
-We have a flexible Paid Time Off (PTO) policy with mandatory annual vacation time that encourages our team to recharge when they need to. Read more about our philosophy on [mandatory vacation time](https://about.sourcegraph.com/blog/why-vacation-at-tech-companies-should-be-mandatory-better-code-happier-people) and [PTO](./paid-time-off-and-working-hours.md).
+We have a flexible Paid Time Off (PTO) policy with mandatory annual vacation time that encourages our team to recharge when they need to. Read more about our philosophy on [mandatory vacation time](https://about.sourcegraph.com/blog/why-vacation-at-tech-companies-should-be-mandatory-better-code-happier-people) and [PTO](time-off/index.md).
 
 ### 🏃 Wellness
 
@@ -22,11 +22,11 @@ We value and support teammates at all stages of life. We provide 16 weeks of pai
 
 ### 📚 Professional development
 
-In addition to on-the-job training, we offer a $1,000 yearly stipend for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](impact-reviews.md) for all teammates.
+In addition to on-the-job training, we offer a $1,000 yearly stipend for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](../../people-ops/impact-reviews.md) for all teammates.
 
 ### ✈️ Travel
 
-We have generous [company, team, and individual travel budgets](../finance/travel.md) to encourage you to connect face to face with your teammates regularly.
+We have generous [company, team, and individual travel budgets](travel/index.md) to encourage you to connect face to face with your teammates regularly.
 
 ### 🌐 Internet
 
@@ -38,11 +38,11 @@ Your paycheck automatically includes a fixed reimbursement for $75 of mobile pho
 
 ### 🎧 Desk set-up
 
-We want to ensure all teammates have a workspace that will make them comfortable and productive, so we offer a $2,000 [desk set-up budget](../finance/spending-company-money.md#desk-set-up) for all full-time teammates to provide them with any necessary equipment to make that possible.
+We want to ensure all teammates have a workspace that will make them comfortable and productive, so we offer a $2,000 [desk set-up budget](spending-company-money.md#desk-set-up) for all full-time teammates to provide them with any necessary equipment to make that possible.
 
 ### 🏢 Co-working space
 
-We offer our teammates a $300-500 [monthly budget](../finance/spending-company-money.md#recurring-expenses) to join a coworking space. Our intention is not for teammates to use this budget to rent set/permanent office spaces, but rather to have an alternative, flexible space from which to work if and when they may not be able to work from their homes productively. With the wide variety of coworking spaces and options available throughout the world, we ask that teammates stick to options within this budget, including all amenities and parking - teammates absorb any additonal cost for more expensive options, locations and/or amenities, such as private offices within coworking spaces, which are often not necessary. We also encourage teammates to consider coworking spaces where subscriptions include access to their spaces in various locations, particularly for teammates who enjoy travelling. If your circumstances are exceptional and require spend outside of this budget, feel free to reach out to the PeopleOps team.
+We offer our teammates a $300-500 [monthly budget](spending-company-money.md#recurring-expenses) to join a coworking space. Our intention is not for teammates to use this budget to rent set/permanent office spaces, but rather to have an alternative, flexible space from which to work if and when they may not be able to work from their homes productively. With the wide variety of coworking spaces and options available throughout the world, we ask that teammates stick to options within this budget, including all amenities and parking - teammates absorb any additonal cost for more expensive options, locations and/or amenities, such as private offices within coworking spaces, which are often not necessary. We also encourage teammates to consider coworking spaces where subscriptions include access to their spaces in various locations, particularly for teammates who enjoy travelling. If your circumstances are exceptional and require spend outside of this budget, feel free to reach out to the PeopleOps team.
 
 ### 🚚 Moving help
 
