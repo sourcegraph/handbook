@@ -9,7 +9,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#sara-lee" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#sara-lee" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -20,7 +20,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#murat-sutunc" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#murat-sutunc" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -31,7 +31,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#beatrix-woo" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#beatrix-woo" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -42,7 +42,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#erzhan-torokulov" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#erzhan-torokulov" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -53,7 +53,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#tharuntej-kandala" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#tharuntej-kandala" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
           </a>
         </div>

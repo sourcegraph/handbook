@@ -6,10 +6,10 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 ### Members
 
-- [Dan Adler](../company/team/index.md#dan-adler), VP Operations
-- [Tommy O Donnell](../company/team/index.md#tommy-o-donnell), Manager, Financial Planning & Analysis
-- [Kendrick Morris](../company/team/index.md#kendrick-morris), Finance & Operations Analyst
-- [Keely Aguayo](../company/team/index.md#keely-aguayo), Payroll Manager
+- [Dan Adler](../team/index.md#dan-adler), VP Operations
+- [Tommy O Donnell](../team/index.md#tommy-o-donnell), Manager, Financial Planning & Analysis
+- [Kendrick Morris](../team/index.md#kendrick-morris), Finance & Operations Analyst
+- [Keely Aguayo](../team/index.md#keely-aguayo), Payroll Manager
 
 ### Roles
 
@@ -117,13 +117,13 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 
 - [Paying Company bills](payables.md)
 - [AP Policy](ap.md)
-- [Submitting an invoice (teammates based outside of US)](invoices.md)
+- [Submitting an invoice (teammates based outside of US)](../benefits-pay-perks/pay-expenses/invoices.md)
 
 ### Travel & Expenses
 
-- [Submitting reimbursable expenses](expenses.md)
-- [Spending Company Money](spending-company-money.md)
-- [Travel Policy](travel.md)
+- [Submitting reimbursable expenses](../benefits-pay-perks/pay-expenses/expenses.md)
+- [Spending Company Money](../benefits-pay-perks/benefits-perks/spending-company-money.md)
+- [Travel Policy](../benefits-pay-perks/benefits-perks/travel/index.md)
 
 ### Accounts Receivable
 

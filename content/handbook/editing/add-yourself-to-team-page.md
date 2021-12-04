@@ -1,6 +1,6 @@
 # Add Yourself to the Team Page
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/bed3a3218c664c4bb33e2cc135bbee65" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/2db66c65566e453180078e13c55b0854" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Steps:
 
@@ -10,7 +10,7 @@
 1. In the edit view, copy the example below, paste it at the end of the edit view, and make it about yourself! Look at others' bios for more examples.
 1. Under "Commit changes" at the bottom of the page, replace the "Update team.yml" text with a summary of your change, e.g., Add Marie to team page.
 1. Click the green "Commit changes" button. If you do not see the green "Commit Changes" button, refer to step 1. Successful changes will become visible shortly (but not immediately).
-1. Consider adding yourself to the [team members locations map](../../company/team/locations.md).
+1. Consider adding yourself to the [team members locations map](../../team/locations.md).
 
 You can find an example template below that uses all available features.
 

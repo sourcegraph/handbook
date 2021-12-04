@@ -4,7 +4,7 @@ We have a team that is based throughout many parts of the world and we respect e
 
 Teammates should add their respective holidays to their Sourcegraph calendar and mark themselves as unavailable on those days as far in advance as possible in order to communicate to the team that they will be unavailable for those particular dates. Teammates should also notify both their teammates and manager, as an additional reminder prior to the holiday.
 
-We will reschedule any Monday [company meetings](../communication/company_meeting.md) and new hire onboardings to the next working day if it would otherwise fall on any of the following holidays:
+We will reschedule any Monday [company meetings](../../communication/company_meeting.md) and new hire onboardings to the next working day if it would otherwise fall on any of the following holidays:
 
 - New Years Day - observed January 1st
 - Martin Luther King Jr. Day - observed third Monday in January

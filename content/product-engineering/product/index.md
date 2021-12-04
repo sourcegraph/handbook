@@ -29,6 +29,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 - [Features by code host compatibility](feature_compatibility.md)
 - [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
 - [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
+- [(Internal) Feature ownership](../engineering/engineering_ownership.md)
 
 ## Metrics
 

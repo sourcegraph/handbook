@@ -84,7 +84,7 @@ Due to their classification as temporary contractors, they are not eligible for 
 
 ### Payments
 
-Temporary contractors are paid via invoice on a monthly basis, in their local currency, Bill.com and get paid via Veem. They are required to [submit an invoice](../../finance/invoices.md) at the end of each month with the work completed as agreed in their temporary contractor agreement.
+Temporary contractors are paid via invoice on a monthly basis, in their local currency, Bill.com and get paid via Veem. They are required to [submit an invoice](../../benefits-pay-perks/pay-expenses/invoices.md) at the end of each month with the work completed as agreed in their temporary contractor agreement.
 
 ### Onboarding
 

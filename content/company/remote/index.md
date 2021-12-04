@@ -30,7 +30,7 @@ At Sourcegraph, we support these kinds of interactions in many ways. Here are a 
 
 1. We use https://donut.com to schedule 1-1s between random teammates each week.
 1. In addition to our weekly company meeting, weekly team meetings, and regular 1-1s with your manager, teams schedule regular optional "watercooler" meetings with no agenda where teammates can join and chit-chat. Teammates also frequently hop on a video chat to chat, pair program, or work through an issue together (just like you would in an office).
-1. We have [travel budgets](../../finance/travel.md) so teammates can meet up with their team to bond.
+1. We have [travel budgets](../../benefits-pay-perks/benefits-perks/travel/index.md) so teammates can meet up with their team to bond.
 
 ### Is it harder to support less experienced teammates on an all-remote team?
 

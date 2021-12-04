@@ -9,6 +9,10 @@ This page includes all information a Talent Team member, Hiring Manager, or Team
 - [How to extend an offer ](./extending_an_offer.md)
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)
 
+## Making a referral
+
+Current employees can refer a candidate in Greenhouse [here](https://tracking.cirrusinsight.com/5ae92f4c-b2ab-4851-852d-32a879d5bc4b/player-vimeo-com-video-163888438). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse. If the referred candidate is a duplicate, the Recruiter will merge the records together and keep the referral candidate page as the primary candidate page.
+
 ## Preparing for an interview
 
 **Training:** all interviewers must review [interview training](./interview_training.md) before participating in any interviews.
@@ -160,11 +164,11 @@ COMING SOON
 
 COMING SOON: how to decline a candidate
 
-Who recieves a written rejection:
+Who receives a written rejection:
 
 - Any candidate who applies to Sourcegraph but doesn't make it to the Recruiter Screen stage.
 - Any candidate who has a Recruiter Screen, but isn't progressed to the Hiring Manager Screen stage.
 
-Who recieves a phone call rejection:
+Who receives a phone call rejection:
 
 - Any candidate who makes it past the Hiring Manager Screen stage.
