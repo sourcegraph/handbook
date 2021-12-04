@@ -53,6 +53,21 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 
 The first Monday of every month we hold an informal retrospective. This is a time for us to look back at the last month and discuss progress and process.
 
+## On Boarding
+
+Public resources are available here:
+- [Learning Go](https://go.dev)
+- Zoekt Bedtime Reading:
+   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
+   - https://swtch.com/~rsc/regexp/regexp4.html 
+   - https://www.youtube.com/watch?v=qOKDQT7-PJk
+   - https://www.youtube.com/watch?v=_-KTAvgJYdI
+   - https://about.sourcegraph.com/blog/tackling-the-long-tail-of-tiny-repos-with-shard-merging/
+   - https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/
+
+
+Our private resources are available [in the Google doc](https://docs.google.com/document/d/10SNzhuA5dmRJ5Na3PMnuShlPmtGGVIz3P2GA4RtfaGo/edit)
+
 ## Misc
 
 - [lab journal (private)](https://github.com/sourcegraph/search-scratch/blob/master/2021/journal.org)
