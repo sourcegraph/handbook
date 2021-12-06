@@ -105,7 +105,12 @@ When scheduling a Cloud Saas Technical Interview, you will also need to schedule
 2. Adjust the interviewers or select a new available time frame depending on whether you’re rescheduling due to interviewer availability or candidate availability
    1. No need to adjust the subject line, event description, or zoom link
    2. Use the “Find a Time” tool to confirm all interviewers are available during the interview time
-3. Click “Save”, “Send”, and “Invite all guests” 3. This will automatically update the schedule in Greenhouse
+3. Click “Save”, “Send”, and “Invite all guests”. This will automatically update the schedule in Greenhouse
+
+NOTE: If you're removing the interviewer who is set as the zoom meeting host, you will need to create a new zoom link with an appropriate host by following these steps: 
+- Delete the original interview invite from google calendar
+- Use Greenhouse to reschedule the interview and create a new zoom meeting with the appropriate host assigned
+- Provide the candidate with their new zoom link and updated interviewer names
 
 #### Resending the Candidate’s Confirmation Email
 
