@@ -175,16 +175,16 @@ A few pointers:
 
 ### BizOps: Product Analyst take-home project
 
-- This exercise should take 2-3 hours to complete;please don’t take more than that!
-- Getting setup: You’ll be using Mode Analytics public datasets tocomplete this take-home project. Here are the steps to getting into the SQL workspace:
+- This exercise should take 2-3 hours to complete; please don’t take more than that!
+- Getting setup: You’ll be using Mode Analytics public datasets to complete this take-home project. Here are the steps to getting into the SQL workspace:
 - 1.Create an account if you don’t already have one
 - 2.Click the green+in the top right (‘Create report’)to access the workspace
 - 3.We’ll be using the following Mode Public Warehousetables to complete the exercise:tutorials.playbook_users,tutorials.playbook_events,tutorials.playbook_experiments,tutorials.playbook_emails
-- Prompt: For each of the following questions please create charts and/or tables (within Mode orby exporting to a spreadsheet tool if that’s easier)to show your findings. We’re not expecting a slide deck or document to explain your findings, but quick summaries of charts, if needed, are just fine. Keep in mind that in most cases there are no “right” or “wrong” answers; we’re more interested in your approach and thought processes.
+- Prompt: For each of the following questions please create charts and/or tables (within Mode or by exporting to a spreadsheet tool if that’s easier) to show your findings. We’re not expecting a slide deck or document to explain your findings, but quick summaries of charts, if needed, are just fine. Keep in mind that in most cases there are no “right” or “wrong” answers; we’re more interested in your approach and thought processes.
 
   - 1.What company is most engaged with the product?
-  - 2.We ran an A/B test (experiment) to increase ‘like_message’actions users are taking. Which variant would you recommend going forward with, if any?
-  - When you’ve completed the project, share your results via static run links along with some availability you have over the next week to review the project with a BizOps team members. When reviewing, you can expect questions about your approach in getting to know the data, the process you took to findthe results, results themselves, and how you decidedto communicate your findings.
+  - 2.We ran an A/B test (experiment) to increase ‘like_message’ actions users are taking. Which variant would you recommend going forward with, if any?
+  - When you’ve completed the project, share your results via static run links along with some availability you have over the next week to review the project with a BizOps team member. When reviewing, you can expect questions about your approach in getting to know the data, the process you took to find the results, results themselves, and how you decided to communicate your findings.
 
 ### Legal: Corporate & Legal Counsel take-home project
 
@@ -219,11 +219,11 @@ Similar to the general peer interview (you will talk to a member of the support 
 
 ### Hiring Manager Interview
 
-During this interview you will meet with the hiring manager on the Customer Engineering team. They will seek to gain an understanding of your customer-facing experience. Specifically, what if any, is your experirence in a pre-sales and / or post-sales role as well as what your career aspirations are. You will have an opportunity to ask any questions about the team, role, company, or product.
+During this interview you will meet with the hiring manager on the Customer Engineering team. They will seek to gain an understanding of your customer-facing experience. Specifically, what if any, is your experience in a pre-sales and / or post-sales role as well as what your career aspirations are. You will have an opportunity to ask any questions about the team, role, company, or product.
 
 ### Take Home & Live Interview with a Customer Engineer
 
-For this interview we want to give candidates an opportunity to learn about our product and assess your capabilities working in the developer tooling ecosystem! Sourcegraph has a public version of our product available [here](https://sourcegraph.com/search) to let users get a sense of product capabilities - it’s connected to public Github repositories. We’ll use this instance to guide the project portion of the interview which will be conducted live, via Zoom, with a customer engineer on the team.
+For this interview we want to give candidates an opportunity to learn about our product and assess your capabilities working in the developer tooling ecosystem! Sourcegraph has a public version of our product available [here](https://sourcegraph.com/search) to let users get a sense of product capabilities - it’s connected to public GitHub repositories. We’ll use this instance to guide the project portion of the interview which will be conducted live, via Zoom, with a customer engineer on the team.
 
 There are two main concepts you should get familiar with in advance of the interview:
 
@@ -237,7 +237,7 @@ The live project demonstration will be followed by a short Q&A with the customer
 Finally, prior to this interview, we would like you to answer the following questions. Please submit your answers to these back to us. We will review your answers as part of the 15 minute Q&A in the interview:
 
 1. Explain how Sourcegraph can improve code review flows for dev teams. Explain the challenges of code-review and how Sourcegraph addresses those.
-2. What are 3 examples of something a developer can search for in sourcegraph that would help them make their code more secure
+2. What are 3 examples of something a developer can search for in Sourcegraph that would help them make their code more secure
 3. How can Sourcegraph help reduce the time to onboard a new dev?
 
 We’ll conduct the interview in the following format:
@@ -276,16 +276,16 @@ Finally, as you prepare for this it may be useful to read some of our [customer 
 **<span style="text-decoration:underline;">Prompt #1: AE Notes</span>**
 
 1. Current team size:
-   - 200 engineers. Linkedin only shows 43 as many engineers are coming from acquired software companies. This will help accelerate their development, goal is to improve their customer experience of their betting platform.
+   - 200 engineers. LinkedIn only shows 43 as many engineers are coming from acquired software companies. This will help accelerate their development, goal is to improve their customer experience of their betting platform.
    - 100% growth in last year
    - 50% growth next year
 2. Why Anything (where is the need from)?
    - They are acquiring companies to grow (new markets, products), this has resulted in them having to manage more code hosts and on board devs at 100% growth rates. Cross repo changes are key as they grow. They now use local IDEs + GitHub and GitLab search, no cross host search
    - Efficiency is poor, devs keep writing new code rather than reusing what they have access to - need to be more efficient
-   - Errors are creeping - i.e.they made a recent Redis configuration change and did not apply it to all the relevant files, it is difficult to see everywhere the changes are need to be made
+   - Errors are creeping - i.e. they made a recent Redis configuration change and did not apply it to all the relevant files, it is difficult to see where all changes need to be made
 3. Why Sourcegraph and why now?
-   - They have lots of new engineers via acquisitions, they bring in new code on different hode costs. They need a tool for ensuring everyone understand the code across all code hosts
-   - They have three code-hosts: 2 GitLabs, 1 GitHub
+   - They have lots of new engineers via acquisitions, they bring in new code on different code hosts. They need a tool for ensuring everyone understands the code across all code hosts
+   - They have three code-hosts: 2 GitLab, 1 GitHub
 
 **<span style="text-decoration:underline;">Prompt #2: SDR Notes</span>**
 
@@ -295,7 +295,7 @@ A prospect (Director of Developer Productivity) came in last year and talked to 
 - **Codehost**: Primarily GitLab but they have GitLab as well just for open source projects
 - **# of repos:** 1500 (most of them not active) 300 active. 350,000 LOC for 5 repos
 - **LOC**: Roughly 3-4M
-- **Lang**: Go (adding more Go into their coe base), Python 60%, JS 20% and PHP, Kotlin, and Swift rest 20%
+- **Lang**: Go (adding more Go into their code base), Python 60%, JS 20% and PHP, Kotlin, and Swift rest 20%
 - **Architecture**: microservices.
 - **Deployment setup**: Kubernetes
 - **Timeline**: no timeline but the sooner they can start a POC the better
@@ -339,7 +339,7 @@ The agenda for the meeting will go as follows:
 - 38-50 mins: Prompt 4
 - 50-60 mins: Feedback and Q&A
 
-Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to faciliate this conversation or personal notes - whichever you feel is most appropriate.
+Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes - whichever you feel is most appropriate.
 
 Prompt 3 additional notes:
 The [CE](../ce/index.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../ce/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../ce/team-culture.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
@@ -358,7 +358,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 ### Technical Interview: Coding Skills (Repository Management Team)
 
-- Interviewers: two members of the Repository Management Team team
+- Interviewers: two members of the Repository Management Team
 - Duration: 60-minutes.
 - Details: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
 
@@ -366,7 +366,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Interviewers: two members of the team you are interviewing for
 - Duration: 60-minutes.
-- Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuation about building systems and problem-solving as we throw various wrenches into the system.
+- Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuition about building systems and problem-solving as we throw various wrenches into the system.
 
 ### Working Session
 
@@ -503,7 +503,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 #### Working session
 
-- Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
+- Interviewer(s): [Christina Forney](../team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
 - Duration: 1 hour
 - Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
 
@@ -517,13 +517,13 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 - Interviewer(s): Product Designer and Engineering Manager.
 - Duration: 30 mins
-- Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organizing plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role.
+- Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organized plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role.
 
 ### Director of Technical Writing
 
 #### Working session on strategy & Leadership
 
-- Interviewer(s): [Christina Forney](../company/team/index.md#christina-forney), VP Product + [Jean du Plessis](../company/team/index.md#jean-du-plessis), Director of Engineering - Enablement
+- Interviewer(s): [Christina Forney](../team/index.md#christina-forney), VP Product + [Jean du Plessis](../team/index.md#jean-du-plessis), Director of Engineering - Enablement
 - Duration: 1 hour
 - Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early into early parts of the product life cycle process.
 
@@ -541,7 +541,7 @@ The [CE](../ce/index.md) organization is pre- and post-sales oriented to the ove
 
 #### Marketing collaboration
 
-- Interviewer: [Marketing team member](../company/team/org_chart.md#marketing)
+- Interviewer: [Marketing team member](../team/org_chart.md#marketing)
 - Duration: 30 mins
 - Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross functional teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
 
@@ -608,7 +608,7 @@ Read more about our sales interview processes [here](../sales/interviews/index.m
 - Step 2: Identify someone you would like to prospect into. Why did you choose
 - Step 3: Create a “cold call” email to the person identified in step 2. Your goal is to secure a meeting with our team.
 - Step 4: Submit your assignment within 24 hours by clicking “reply all” to this email.
-- What to include in your assignment submission: Email Subject Line, Email Body & Explanation of your process: 1) Why did you choose this company? 2) Who are you targeting? (Insert Linkedin Profile link). Why did you choose this person? 3) Explain your approach. Why did you choose to craft the email this way?
+- What to include in your assignment submission: Email Subject Line, Email Body & Explanation of your process: 1) Why did you choose this company? 2) Who are you targeting? (Insert LinkedIn Profile link). Why did you choose this person? 3) Explain your approach. Why did you choose to craft the email this way?
 
 #### SDR mock cold call
 
@@ -641,7 +641,7 @@ A great resource on structure (including some great walkthrough videos) from [Be
 
 #### Enterprise AE team collaboration with Customer Engineering
 
-- Interviewer(s): Two individual contibutor Customer Engineers
+- Interviewer(s): Two individual contributor Customer Engineers
 - Duration: 30-minutes
 - Details: the purpose of this stage in the interview process is to evaluate your technical depth and aptitude for learning about the products you sell, as well as your ability to work effectively as a team with our Customer Engineers. Please come prepared to explain the technical underpinnings of the product(s) you sell today, how you work with Customer Engineers to learn more, and translate that into value to customers and prospects.
 

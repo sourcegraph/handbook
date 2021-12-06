@@ -229,7 +229,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 **Non-US teammates:**
 
 - On a monthly basis through Veem. To be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../benefits-pay-perks/pay-expenses/invoices.md).
-  - **Note:** if Veem is not supported by your country we have other payment methods, like a direct monthly wire. If this is the case, please reach out to [Inés Roitman](../company/team/index.md#in%C3%A9s-roitman) at [ines@sourcegraph.com](mailto:ines@sourcegraph.com).
+  - **Note:** if Veem is not supported by your country we have other payment methods, like a direct monthly wire. If this is the case, please reach out to [Inés Roitman](../team/index.md#ines-roitman) at [ines@sourcegraph.com](mailto:ines@sourcegraph.com).
 
 ## Retirement
 

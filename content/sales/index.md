@@ -30,28 +30,28 @@ Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.goo
 
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
-- [Gregg Stone](../company/team/index.md#gregg-stone) (VP of Sales)
-- [Dudley Nostrand](../company/team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
-  - [Trey Sizemore](../company/team/index.md#trey-sizemore) (Sales Enablement Manager)
-- [Scott Cambell](../company/team/index.md#scott-campbell) (Regional Director of East)
-  - [Kai Passo](../company/team/index.md#kai-passo)
-  - [Bill Kolman](../company/team/index.md#bill-kolman)
-  - [Eli Rothschild](../company/team/index.md#eli-rothschild)
-  - [Scott Cambell](../company/team/index.md#scott-campbell)
-  - [Caitlin Moran](../company/team/index.md#caitlin-moran)
-  - [Ken Mills](../company/team/index.md#ken-mills)
-  - [Brady Hermann](../company/team/index.md#brady-herrmann)
-- [Greg Bastis](../company/team/index.md#greg-bastis) (Regional VP of West)
-  - [Owen Brennan](../company/team/index.md#owen-brennan)
-  - [Chris Surdi](../company/team/index.md#chris-surdi)
+- [Gregg Stone](../team/index.md#gregg-stone) (VP of Sales)
+- [Dudley Nostrand](../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
+  - [Trey Sizemore](../team/index.md#trey-sizemore) (Sales Enablement Manager)
+- [Scott Cambell](../team/index.md#scott-campbell) (Regional Director of East)
+  - [Kai Passo](../team/index.md#kai-passo)
+  - [Bill Kolman](../team/index.md#bill-kolman)
+  - [Eli Rothschild](../team/index.md#eli-rothschild)
+  - [Scott Cambell](../team/index.md#scott-campbell)
+  - [Caitlin Moran](../team/index.md#caitlin-moran)
+  - [Ken Mills](../team/index.md#ken-mills)
+  - [Brady Hermann](../team/index.md#brady-herrmann)
+- [Greg Bastis](../team/index.md#greg-bastis) (Regional VP of West)
+  - [Owen Brennan](../team/index.md#owen-brennan)
+  - [Chris Surdi](../team/index.md#chris-surdi)
   - Will Camp
-  - [Jon Kishpaugh](../company/team/index.md#jon-kishpaugh)
-  - [James Clifford](../company/team/index.md#james-clifford)
-  - [Natalie Khoury](../company/team/index.md#natalie-khoury)
-  - [Rashad Bartholomew](../company/team/index.md#rashad-bartholomew)
+  - [Jon Kishpaugh](../team/index.md#jon-kishpaugh)
+  - [James Clifford](../team/index.md#james-clifford)
+  - [Natalie Khoury](../team/index.md#natalie-khoury)
+  - [Rashad Bartholomew](../team/index.md#rashad-bartholomew)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
-  - Suki Randhawa(../company/team/index.md#suki-randhawa)
+  - Suki Randhawa(../team/index.md#suki-randhawa)
 
 ### Roles
 
