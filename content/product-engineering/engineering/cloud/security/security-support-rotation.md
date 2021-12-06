@@ -23,7 +23,7 @@ Finally, it's your responsibility to ensure a smooth transition to the next engi
 
 - Wrapping up tasks as you can;
 - Ensuring all tasks are properly documented (with Jira tickets and status updates);
-- Communicating any leftover tasks/asks/things to keep in mind for whoever is up next. This is best done the day before the rotation transitions via an async recap update posted in #security-internal. 
+- Communicating any leftover tasks/asks/things to keep in mind for whoever is up next. This is best done the day before the rotation transitions via an async recap update posted in #security-internal.
 
 ### Channels to keep an eye on
 
