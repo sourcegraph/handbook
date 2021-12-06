@@ -85,8 +85,8 @@ Hiring managers can refer to the [Onboarding process for Hiring Managers](onboar
 
 1. Once you sign your contract, the Talent team will send you a welcome email linking you to a pre-onboarding form. Be sure to complete the form in time.
 2. Send your introduction video no later than 48hrs after receiving the email. The video will be shown in the company meeting the week that you start.
-3. Order [your computer](../../finance/spending-company-money.md#computers) or talk to Inés Roitman, [ines@sourcegraph.com](mailto:ines@sourcegraph.com), if you need to get it with the company card.
-4. Order the [desk equipment](../../finance/spending-company-money.md#desk-set-up) you need to be productive working remotely.
+3. Order [your computer](../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers) or talk to Inés Roitman, [ines@sourcegraph.com](mailto:ines@sourcegraph.com), if you need to get it with the company card.
+4. Order the [desk equipment](../../benefits-pay-perks/benefits-perks/spending-company-money.md#desk-set-up) you need to be productive working remotely.
 
 You will be able to submit an expense reimbursement for the computer and desk equipment when you start.
 

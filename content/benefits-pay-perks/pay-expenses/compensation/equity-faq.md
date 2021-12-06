@@ -95,4 +95,4 @@ Every time we raise money from investors, this total amount increases (and it ca
 
 ### Who should I go to if I have questions?
 
-For now, [Dan](../../company/team/index.md#dan-adler) can help answer any questions about your options. The entire People Ops team is available to provide support as well.
+For now, [Dan](../../../team/index.md#dan-adler) can help answer any questions about your options. The entire People Ops team is available to provide support as well.

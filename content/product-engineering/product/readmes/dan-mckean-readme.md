@@ -1,6 +1,6 @@
 # Dan Mckean Readme
 
-[My bio on the team's page](../../../company/team/index.md##dan-mckean)
+[My bio on the team's page](../../../team/index.md##dan-mckean)
 
 ## What I do at Sourcegraph
 

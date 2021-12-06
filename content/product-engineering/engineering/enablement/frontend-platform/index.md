@@ -4,12 +4,12 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Members
 
-- [Taylor Sperry](../../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Patrick Dubroy](../../../../company/team/index.md#patrick-dubroy) ([Engineering Manager](../../roles.md#engineering-manager)) {#frontend-platform-eng}
-  - [Tom Ross](../../../../company/team/index.md#tom-ross)
+- [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Patrick Dubroy](../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../../roles.md#engineering-manager)) {#frontend-platform-eng}
+  - [Tom Ross](../../../../team/index.md#tom-ross)
   - Oleg Gromov
-  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov)
+  - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
 
 ## Our Strategy
 
@@ -94,6 +94,15 @@ At the end of the week, aim for the _Inbox_ column to be empty, or almost empty.
 ### Tracking Issues
 
 The team makes use of [tracking issues](../../tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a few days (or require multiple PRs) to deliver.
+
+### Code Insights
+
+We have several [Code Insights](https://docs.sourcegraph.com/code_insights) dashboards on Sourcegraph.com which we use to track progress:
+
+- [Frontend Platform: Migrations](https://sourcegraph.com/insights/dashboards/frontendPlatformMigrations) tracks long-running code migrations (e.g., global CSS → CSS modules).
+  - The insight title should contain the GitHub issue number (where applicable).
+  - For completed migrations, the insight title should beging with "DONE: " (e.g. "DONE: Consolidation of React Testing Libraries (#24986)") and the insight should be moved to the bottom row.
+- [Frontend Platform: Wildcard Usage](https://sourcegraph.com/insights/dashboards/frontendPlatformWildcardUsage) tracks usage of the [Wildcard Component Library](https://docs.sourcegraph.com/dev/background-information/web/wildcard).
 
 ### Getting cross-team feedback on RFC
 
