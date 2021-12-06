@@ -39,7 +39,7 @@ To be handbook-first, we must:
 
 - Default to the handbook when looking for information about a business process or policy.
 - Rely on the handbook being accurate and up-to-date.
-- Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurrate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
+- Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
 
 ## Handbook Usage
 
