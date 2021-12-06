@@ -175,6 +175,11 @@ As CEs we are responsible for the technical success of our customers. Post-sales
 
 To enable CEs and ensure consistent practices, our team may produce playbooks from time-to-time. These playbooks should serve as a useful onboarding resource to new CEs and a helpful refresher for CEs as well.
 
+## Account Health Check
+
+The [account health check playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnmLMXZ1vKjJGImUZCIb1x4aCLXcNavc/edit?usp=sharing) provides a repeatable framework for identifying customers with low adoption and to mitigate risk by offering suggestions for engagement as well as repeatable training and reusable content. This is a living document that should change to reflect available components in the Customer Health Dashboard - Individual Customer and mature over time to provide more refined resources to support Customer Engineers. 
+
+
 ## Customer Discovery
 
 The [customer discovery playbook](https://docs.google.com/document/d/14iSqJBtiM32D1zSVVvtZGZmWVLuQ7S7MoJDM6wAhkyQ/edit) provides CEs with a framework and tools to successfully prepare for and conduct your first meetings with prospective customers (or even new stakeholders within existing customer organizations). These inputs should serve as the prerequisites to any customer demo because it enables you to tailor your content and talk track to what’s most relevant to the customer. It also provides key areas for CEs to consider and specific steps to take to ensure the CE has the correct context and knowledge to properly support a successful customer engagement beyond the initial meetings
