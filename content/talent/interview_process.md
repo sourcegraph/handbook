@@ -98,7 +98,11 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 ## **Sourcing best practices**
 
-- COMING SOON: to source passive candidates, the Recruiter & Hiring Manager follows best sourcing practices in LinkedIn Recruiter
+- Look at candidates with different roles in mind. After a careful look at their profiles, add them to all relevant projects that you are working on. 
+- Be prepared. Read the job description. Learn about the team. Listen to Recruiters and Hiring Manager feedback.
+- Be relationship driven. Send warm and professional messages to candidates before, during, and after messaging them. Prepare your candidates well, such as offering advice on how to interview better or ways they can improve in the upcoming rounds of interviews.
+- Have a plan. Follow the Sourcing Outreach Best Practices.
+- Be overly communicative. We are 100% remote! Explain more than you think is necessary. Be clearer than you think you already are. Triple check before clicking the send button, either internally or externally. Always use {firstName}, instead of writing the person’s first name, when sending your first message on LinkedIn Recruiter to avoid using wrong names. When you are relaying information internally, copy and paste the whole message instead of paraphrasing the candidate’s message. 
 
 ## **Outreach best practices**
 
