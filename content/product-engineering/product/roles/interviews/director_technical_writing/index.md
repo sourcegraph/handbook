@@ -7,7 +7,7 @@ Total interview time: 6 hrs
 1. [1 hr] **[Resume deep dive](../../../../../talent/types_of_interviews.md#resume-deep-dive)** with [Christina Forney](../../../../../team/index.md#christina-forney), VP Product
 1. [2.5 hrs "Onsite"]
    - [1 hr] **[Working session on strategy and leadership](../../../../../talent/types_of_interviews.md#working-session-on-strategy--leadership)**: with [Christina Forney](../../../../../team/index.md#christina-forney), VP Product & [Jean du Plessis](../../../../../team/index.md#jean-du-plessis)
-   - [1 hr] **[Peer interview]** WIP 
+   - [1 hr] **[Peer interview]** WIP
    - [30 min] **Values interview**: Meet with someone from the Sourcegraph team (outside of your organization) to discover how you've demonstrated our values in the past.
 1. [30 min] **Final Call**: with [Beyang Liu](../../../../../team/index.md#beyang-liu), CTO
 1. We make you a job offer!
