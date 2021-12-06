@@ -43,6 +43,8 @@ Step 5: **the Recruiter** marks the candidate as "hired" in Greenhouse.
   - VP of Talent
   - Hiring Manager
 
-Step 6: **the Hiring Manager** posts an announcement of the candidate's acceptance in the Slack `#Hiring` channel.
+Step 6: **the Recruiter** sends a thanks to the interview team in the role-specific Slack channel & then archives the Channel after people respond
 
-Step 7: **the People Operations team** then works with the candidate to onboard them and get them set up for their first day!
+Step 7: **the Hiring Manager** posts an announcement of the candidate's acceptance in the Slack `#Hiring` channel.
+
+Step 8: **the People Operations team** then works with the candidate to onboard them and get them set up for their first day!
