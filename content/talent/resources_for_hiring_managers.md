@@ -6,7 +6,7 @@ Each hiring manager has an [assigned recruiter](index.md#talent-team-members) fo
 
 ## Partnering with sourcing
 
-Coming soon...
+Sourcers are responsible for sourcing passive and active candidates for open roles. Sourcers will create LinkedIn Recruiter projects for you to review and comment on. The more feedback, the better!
 
 ## Estimated time-to-hire
 
