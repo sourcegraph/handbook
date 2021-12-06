@@ -23,7 +23,7 @@ Finally, it's your responsibility to ensure a smooth transition to the next engi
 
 - Wrapping up tasks as you can;
 - Ensuring all tasks are properly documented (with Jira tickets and status updates);
-- Communicating any leftover tasks/asks/things to keep in mind for whoever is up next.
+- Communicating any leftover tasks/asks/things to keep in mind for whoever is up next. This is best done the day before the rotation transitions via an async recap update posted in #security-internal. 
 
 ### Channels to keep an eye on
 
@@ -59,7 +59,7 @@ Relevant links:
 
 For every email to security@ with a Bug Bounty report, do the following:
 
-1. Reply acknowledging the report and that we will look into it.
+1. Reply acknowledging the report and that we will look into it. Please ensure security@sourcegraph.com remains CC'd during the bounty communication process (often it can get removed by defaulting to "Reply" rather than "Reply to all").
 2. Within 3 days max (but ideally asap) triage the report and confirm whether it's real and its impact. If confirmed, create an issue in the security-issues repository. If not, reply to the reporter explaining why the report is invalid. More information can be found in the Triage section of the Vulnerability Management Process doc.
 3. If the issue is confirmed, reply to the reporter and ask for their PayPal information (email, name, mobile number, and country) in case a bounty is due. Then email finance@sourcegraph.com (CCing security@) saying the bounty value and contact information for the payment.
 
