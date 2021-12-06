@@ -18,6 +18,7 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
   - [Tracking and Maintaining your Accounts](#account-management)
 - [Playbooks](#playbooks)
   - [Customer Discovery](#customer-discovery)
+  - [Account Health](#account-health)
 - [Processes](#processes)
   - [Red Accounts](#red-accounts)
   - [Technical Deal Reviews](#technical-deal-reviews)
@@ -37,7 +38,7 @@ The initial conversation(s) with a customer can vary in length and scope, but al
 
 ## Technical Design
 
-Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we begin to document both the product and technical requirements and the business context of the deal. Every single prospective customer must have a techincal design document estbalished, starting as early as Stage 2 - Qualification and completed into Stage 4 - Technical and Business Validation. We begin by capturing details about their pre-Sourcegraph business and document first their Trial design and configuration, and subsequently their Production design and setup.
+Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we begin to document both the product and technical requirements and the business context of the deal. Every single prospective customer must have a techincal design document estbalished, starting as early as Stage 2 - Qualification and completed into Stage 4 - Technical and Business Validation. We begin by capturing details about their pre-Sourcegraph business and document first their Trial design and configuration, and subsequently their Production design and setup. These TDDs should be stored [here](https://drive.google.com/drive/folders/1jcDmtyNEPphdCfokeQ6JF-MmA_KMQEtF) and you should also link to the TDD from within your respective prospective customer [folder](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0) by creating a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) in Drive.
 
 For complex engagements, we have internal technical reviews with cross-functional teams (see [technical deal reviews](#technical-deal-reviews) below) that occur before approval to proceed to a trial deployment, to ensure we at Sourcegraph are colletively aligned on their needs and expectations, and so that the customer has the right expectations set and is positioned for success.
 
@@ -178,6 +179,10 @@ To enable CEs and ensure consistent practices, our team may produce playbooks fr
 ## Customer Discovery
 
 The [customer discovery playbook](https://docs.google.com/document/d/14iSqJBtiM32D1zSVVvtZGZmWVLuQ7S7MoJDM6wAhkyQ/edit) provides CEs with a framework and tools to successfully prepare for and conduct your first meetings with prospective customers (or even new stakeholders within existing customer organizations). These inputs should serve as the prerequisites to any customer demo because it enables you to tailor your content and talk track to what’s most relevant to the customer. It also provides key areas for CEs to consider and specific steps to take to ensure the CE has the correct context and knowledge to properly support a successful customer engagement beyond the initial meetings
+
+## Account Health
+
+The [account health playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnmLMXZ1vKjJGImUZCIb1x4aCLXcNavc/edit) offers a repeatable framework for mitigating the risk of low adoption scores by offering suggestions for engagement as well as repeatable training and reusable content. This is a living document that should change to reflect available components in the [Customer Health Dashboard - Individual Customer](https://sourcegraph.looker.com/dashboards-next/194?Unique+Server+ID=Eventbrite) and mature over time to provide more refined resources to support Customer Engineers. 
 
 ---
 
