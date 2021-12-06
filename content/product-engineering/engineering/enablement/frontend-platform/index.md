@@ -86,7 +86,7 @@ We have a weekly rotation for triaging and refining issues. During their week on
 2. For each issue in that section, consider the following:
    - Is it clear what needs to be done? If not, ask for clarification on the ticket, apply an appropriate label (e.g., `needs-more-info`), and changed the status to _Needs input_.
    - Is it clearly something that should be done by the Frontend Platform team? If not, tag other teams (using the appropriate `team/xyz` label) and have a discussion about which is the best team to own the issue. Or you can add the `needs-discussion` label and discuss it with the team at an upcoming meeting (e.g. Frontend Platform sync or FPT coffee).
-   - Is there an obvious owner on the Frontend Platform team? E.g., if it relates to a feature 
+   - Is there an obvious owner on the Frontend Platform team? E.g., if it relates to a feature
    - Is it ready for development? If required, add the `needs-design` label and set the status to _Waiting_.
    - If it's ready for development and you know how to prioritize it correctly, set the status to _Backlog_ and give it an appropriate target. If you don't know how to prioritize it, you can ask your teammates for help with prioritization.
 
