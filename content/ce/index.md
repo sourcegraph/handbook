@@ -66,4 +66,5 @@ This continuity means we give customers consistent and high-quality service from
 More details about our team members in [our team READMEs](ce-bios.md).
 
 ## Open Roles
+
 - [Manager, Customer Engineering - Remote, US East](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
