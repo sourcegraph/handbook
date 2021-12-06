@@ -177,8 +177,7 @@ To enable CEs and ensure consistent practices, our team may produce playbooks fr
 
 ## Account Health Check
 
-The [account health check playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnmLMXZ1vKjJGImUZCIb1x4aCLXcNavc/edit?usp=sharing) provides a repeatable framework for identifying customers with low adoption and to mitigate risk by offering suggestions for engagement as well as repeatable training and reusable content. This is a living document that should change to reflect available components in the Customer Health Dashboard - Individual Customer and mature over time to provide more refined resources to support Customer Engineers. 
-
+The [account health check playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnmLMXZ1vKjJGImUZCIb1x4aCLXcNavc/edit?usp=sharing) provides a repeatable framework for identifying customers with low adoption and to mitigate risk by offering suggestions for engagement as well as repeatable training and reusable content. This is a living document that should change to reflect available components in the Customer Health Dashboard - Individual Customer and mature over time to provide more refined resources to support Customer Engineers.
 
 ## Customer Discovery
 
