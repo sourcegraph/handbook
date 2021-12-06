@@ -345,7 +345,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
       <td colspan="3" class="level-summary">
         A particularly experienced, impactful contributor.<br>
-        IC4 is a terminal level: the team can have an unbounded number of IC4 engineers.
+        IC4 is the highest level that an engineer can get to based solely on their impact. Beyond IC4, both impact and business need determine the availability of those positions. 
       </td>
     </tr>
     <tr class="category-summaries-row">
