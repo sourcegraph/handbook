@@ -10,7 +10,7 @@
 1. In the edit view, copy the example below, paste it at the end of the edit view, and make it about yourself! Look at others' bios for more examples.
 1. Under "Commit changes" at the bottom of the page, replace the "Update team.yml" text with a summary of your change, e.g., Add Marie to team page.
 1. Click the green "Commit changes" button. If you do not see the green "Commit Changes" button, refer to step 1. Successful changes will become visible shortly (but not immediately).
-1. Consider adding yourself to the [team members locations map](../../company/team/locations.md).
+1. Consider adding yourself to the [team members locations map](../../team/locations.md).
 
 You can find an example template below that uses all available features.
 

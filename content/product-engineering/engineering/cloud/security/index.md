@@ -8,11 +8,11 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Members
 
-- [Diego Comas](../../../../company/team/index.md#diego-comas)
-  - [André Eleuterio](../../../../company/team/index.md#andré-eleuterio)
-  - [Mohammad Umer Alam](../../../../company/team/index.md#mohammad-umer-alam)
-  - [Lauren Chapman](../../../../company/team/index.md#lauren-chapman)
-  - [David Sandy](../../../../company/team/index.md#david-sandy)
+- [Diego Comas](../../../../team/index.md#diego-comas)
+  - [André Eleuterio](../../../../team/index.md#andré-eleuterio)
+  - [Mohammad Umer Alam](../../../../team/index.md#mohammad-umer-alam)
+  - [Lauren Chapman](../../../../team/index.md#lauren-chapman)
+  - [David Sandy](../../../../team/index.md#david-sandy)
   - FY2022 security engineer
 
 ## Contact

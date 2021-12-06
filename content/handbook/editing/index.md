@@ -20,9 +20,9 @@ We don't expect everyone on the team to figure this out on their own. Other team
 
 ## Basics
 
-- [Github Basics](../../people-ops/onboarding/git_intro.md)
+- [GitHub Basics](../../people-ops/onboarding/git_intro.md)
 - [Markdown Tips & Resources](markdown-resources.md)
-- [Reviewing & Approving Another Peron's Proposal](reviewing-a-proposal.md)
+- [Reviewing & Approving Another Person's Proposal](reviewing-a-proposal.md)
 - [Announcing Important Updates](announcing-handbook-updates.md)
 - [Handbook Content Best Practices](handbook-content-best-practices.md)
 
@@ -38,7 +38,7 @@ We don't expect everyone on the team to figure this out on their own. Other team
 - [Adding Images or Video](handbook-images-video.md)
 - [Linking Within the Handbook](linking-within-handbook.md)
 - [Moving a Page](move-a-page.md)
-- [Delete a Page](delete-a-page.md)
+- [Deleting a Page](delete-a-page.md)
 - [Editing the Handbook Product](editing-the-handbook-product.md)
 
 ## Troubleshooting & Tools

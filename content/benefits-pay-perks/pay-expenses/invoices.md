@@ -22,8 +22,8 @@
 - Include any fringe benefits on your invoice as individual line items as well (mobile phone, internet, wellness benefits, etc.).
   - Please note teammates are entitled to entire monthly benefit amount for mobile phone ($75), internet ($50), wellness ($100)
 - For teammates who receive commissions (i.e. sales/CE teammates), please also include commissions as an individual line item. The amounts will be communicated to you prior to the end of the month via the sales operations manager (for sales teammates) and finance manager (for CE teammates).
-- If additional expenses are incurred that month (i.e. home desk setup, co-working/office space), please provide a separate invoice and attach all expense receipts to the same email.
-- When purchasing a laptop which requires taxes and shipping costs greater than $1,500, please notify the People Team and Finance with a description of the costs and choose the best method of purchase and shipment in accordance with our philosophy in [spending company money](spending-company-money.md)).
+- If additional expenses are incurred that month (i.e. home desk setup, co-working/office space), please group by type in each line item of the invoice and attach all expense receipts to the same email.
+- When purchasing a laptop which requires taxes and shipping costs greater than $1,500, please notify the People Team and Finance with a description of the costs and choose the best method of purchase and shipment in accordance with our philosophy in [spending company money](../benefits-perks/spending-company-money.md)).
 
 ## How to Submit an Invoice:
 

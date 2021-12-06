@@ -62,7 +62,7 @@ Don't worry—you don't need to finish your submission on the day and we won't p
 
 ### Snack stipend
 
-Participants can expense up to $15 for the snacks and beverages of your choice to keep you going on the day! Please see [Submitting expenses](../../../finance/expenses.md) for instructions.
+Participants can expense up to $15 for the snacks and beverages of your choice to keep you going on the day! Please see [Submitting expenses](../../../benefits-pay-perks/pay-expenses/expenses.md) for instructions.
 
 ### Spot/door prizes
 
