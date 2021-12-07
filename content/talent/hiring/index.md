@@ -89,7 +89,7 @@ Here are some other questions that candidates have asked (e.g., in the [CEO inte
 
 1. What is the current runway and the monthly burn rate?
 1. How much cash does the company have in the bank?
-1. Other [questions about Sourcegraph's internal financial metrics](../../ceo/index.md#questions-about-sourcegraph).
+1. Other [questions about Sourcegraph's internal financial metrics](../../team/ceo/index.md#questions-about-sourcegraph).
 
 ## Reference checks
 
