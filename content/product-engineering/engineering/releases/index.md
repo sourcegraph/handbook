@@ -56,7 +56,7 @@ Release captain responsibilities are currently owned by the [Distribution team](
 
 ### Release tooling
 
-The [Sourcegraph release tool](../distribution/tools/release.md) is used to generate releases as associated materials (such as tracking issues).
+The [Sourcegraph release tool](../tools/release.md) is used to generate releases as associated materials (such as tracking issues).
 It leverages the following issue templates, which list all individual steps that needs to be performed, for each type of release:
 
 - [Release issue template](release_issue_template.md)

@@ -7,7 +7,7 @@ The code insights team is responsible for building and delivering code insights 
 ## Handbook Pages
 
 - [Processes](processes.md)
-- [Strategy, goals, and roadmap](../../../../company/strategy/code-graph/code-insights/index.md)
+- [Strategy, goals, and roadmap](../../../../strategy-goals/strategy/code-graph/code-insights/index.md)
 
 ## Quick Resources
 

@@ -30,7 +30,7 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 
 ## Goals & Current Work
 
-See People Ops OKRs [here](../company/goals/2022_q3.md#people-ops).
+See People Ops OKRs [here](../strategy-goals/goals/2022_q3.md#people-ops).
 
 See how we manage project and updates [here](people-ops-project-management.md).
 
@@ -69,7 +69,7 @@ See how we manage project and updates [here](people-ops-project-management.md).
 
 ## Manager resources
 
-This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](../company/goals/2022_q3.md#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
+This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](../strategy-goals/goals/2022_q3.md#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
 
 - [Manager accounts guide](manager-guide.md)
 

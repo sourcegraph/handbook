@@ -48,7 +48,7 @@ We have many resources available to help you onboard and gain context:
 
 - Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture).
 - Read through the rest of the engineering handbook to learn more about how we operate.
-- Read how we choose and continually update our [goals](../../../company/goals/index.md).
+- Read how we choose and continually update our [goals](../../../strategy-goals/goals/index.md).
 - Read how we collaborate with design to [request or implement design work](../../product/design/index.md#working-with-design-requesting-design-work).
 - Watch this [high-level overview of the Sourcegraph repository on Github](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing).
 - Read our [Testing Principles](https://docs.sourcegraph.com/dev/background-information/testing_principles) to learn how we think about testing. Reading this makes sure you know what others on the team are referring to when we refer to certain types of tests.
