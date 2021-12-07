@@ -1,6 +1,10 @@
-# Internal tools
+# Internal tooling
 
 Internal tools used at Sourcegraph.
+
+- [Slackgenie](./slackgenie.md)
+
+In-house tools:
 
 - [Resources report](./resources_report.md)
 - [GHE Feeder](./ghe_feeder.md)
