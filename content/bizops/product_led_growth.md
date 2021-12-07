@@ -42,6 +42,261 @@ To see how individual teams fit into the flywheel, please see [the full deck](ht
 
 ![PLG flywheel FY23 Q1](https://storage.googleapis.com/sourcegraph-assets/handbook/product-led%20growth/plg-flywheel-fy23q1.png)
 
+# Lead Scoring at Sourcegraph
+
+Lead scoring is a framework we have put in place across Hubspot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase. 
+
+Sourcegraph’s current two-pronged approach to lead scoring separately measures intent and product engagement and is described in further detail below. 
+
+**Marketing Qualified Lead (MQL)**
+
+A visitor’s interactions with our marketing content represent the foundation of our top of funnel inbound lead generation capabilities. The quantitative ranking of these behaviors by their indication of potential intent to purchase through a Marketing Qualified Lead (MQL) score enables inbound SDRs to efficiently manage and prioritize leads according to Marketing’s viewpoint on which measures of intent correlate with a higher conversion to a Sales Accepted Opportunity (SAO).       
+
+In most mature organizations, typically only those inbound leads formally meeting the intent score threshold to be classified as MQLs are handed over to SDRs to work. While we do think the amount of leads coming in through marketing content will eventually warrant this automatic gating, we are not proposing this limitation at this stage of our demand generation engine. As a result, we propose the following intent / MQL scoring system to aid in lead prioritization for inbound SDRs: 
+
+
+<table>
+  <tr>
+   <td><strong>Action</strong>
+   </td>
+   <td><strong>Incremental lead score points</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Form submission (any other than demo request, pricing inquiry, or feedback - includes product sign-up or install)
+   </td>
+   <td>10 points
+   </td>
+  </tr>
+  <tr>
+   <td>Demo request
+   </td>
+   <td>15 points
+   </td>
+  </tr>
+  <tr>
+   <td>Pricing inquiry (i.e., contact sales)
+   </td>
+   <td>15 points
+   </td>
+  </tr>
+  <tr>
+   <td>Private Install or Sourcegraph.com Sign up
+   </td>
+   <td>10 points
+   </td>
+  </tr>
+  <tr>
+   <td>Page view (pricing)
+   </td>
+   <td>5 points 
+   </td>
+  </tr>
+  <tr>
+   <td>Page view (any other than pricing)
+   </td>
+   <td>1 point per view
+   </td>
+  </tr>
+  <tr>
+   <td><strong>MQL Classification</strong>
+   </td>
+   <td><strong>15+ points</strong>
+   </td>
+  </tr>
+</table>
+
+
+**Product Qualified Lead (PQL)**
+
+A product qualified lead (PQL) is a prospect who has used the product and completed pre-defined actions that signify strong engagement and resonance with our core value proposition. This will be a separate grade solely ascribed to leads that sign up for a cloud account or install a private instance. The goal of this score is to act as a relative indicator of active use / engagement for our non-paying users post-sign up, which looks very different from how we evaluate this for current enterprise customers. 
+
+Our product engagement scoring inputs, which we view as different between cloud accounts and private installs, can be found below: 
+
+**Cloud Account**
+
+
+<table>
+  <tr>
+   <td><strong>Actions completed</strong>
+   </td>
+   <td><strong>Product engagement grade</strong>
+   </td>
+   <td><strong>User classification</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>Completion of ≥1 search
+
+<li>≥10 return visits completed
+
+<li>Code host added
+
+<li>Private code added via repo
+</li>
+</ol>
+   </td>
+   <td>A 
+   </td>
+   <td>Very active
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>Completion of ≥1 search
+
+<li>≥5 return visits completed
+
+<li>Private code <em>OR</em> public code added via repo
+</li>
+</ol>
+   </td>
+   <td>B  
+   </td>
+   <td>Moderately active
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>Completion of ≥1 search
+</li>
+</ol>
+   </td>
+   <td>C  
+   </td>
+   <td>Minimally active
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>Account sign-up with no subsequent interactions
+</li>
+</ol>
+   </td>
+   <td>D 
+   </td>
+   <td>Inactive post sign-up / install
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>No account sign-up or installation
+</li>
+</ol>
+   </td>
+   <td>N/A 
+   </td>
+   <td>Not applicable
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <strong>PQL Classification</strong>
+   </td>
+   <td><strong>A or B</strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
+**Private Install**
+
+
+<table>
+  <tr>
+   <td><strong>Actions completed</strong>
+   </td>
+   <td><strong>Product engagement grade</strong>
+   </td>
+   <td><strong>User classification</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>Addition of ≥1 code host 
+
+<li>Addition of ≥1 repo
+
+<li>Completion of ≥1 search
+
+<li>≥10 return visits completed (# of days active) 
+</li>
+</ol>
+   </td>
+   <td>A  
+   </td>
+   <td>Very active
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>Addition of ≥1 code host OR ≥1 repo
+
+<li>Completion of ≥1 search
+</li>
+</ol>
+   </td>
+   <td>B  
+   </td>
+   <td>Moderately active
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>Private installation with no subsequent interactions
+</li>
+</ol>
+   </td>
+   <td>C 
+   </td>
+   <td>Inactive post sign-up / install
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ol>
+
+<li>No account sign-up or installation
+</li>
+</ol>
+   </td>
+   <td>N/A 
+   </td>
+   <td>Not applicable
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <strong>PQL Classification</strong>
+   </td>
+   <td><strong>A or B</strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+**Note**: There will be users that actively engage with our product through both a Cloud account and a private install. To account for this, we will build three distinct workflows in Hubspot: one to evaluate engagements within Cloud, another to evaluate usage in a private install, and another to ultimately assign a product engagement grade based upon the higher of the aforementioned two scores. 
+
 ## Additional PLG resources
 
 ### Internal resources
