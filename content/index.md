@@ -117,4 +117,4 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Internal security](departments/tech-ops/internal_security.md)
 - [Single sign on (Okta)](departments/tech-ops/Okta.md)
-- [Device usage privacy](departments/tech-ops/team-device-usage-privacy.md)
+- [Device usage privacy](departments/tech-ops/team_device_usage_privacy.md)
