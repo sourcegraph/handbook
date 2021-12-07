@@ -18,7 +18,7 @@ If you just need to edit a single page, you can do it entirely on the web.
 1. When you're happy with your edits, scroll to the bottom of the page to the **Commit changes** box.
    - Type a short, one-line summary of your change in the first text field (instead of the default `Update filename.md` text).
    - Type a more detailed explanation of your change in the larger text field.
-   - Select the **Create a new branch for this commit and start a pull request** option (if it's not already selected). This is so your changes can be reviewed before comitting to the main branch.
+   - Select the **Create a new branch for this commit and start a pull request** option (if it's not already selected). This is so your changes can be reviewed before committing to the main branch.
    - Press the **Commit changes** button.
 1. Press the **Create pull request** button. Now your change has been proposed!
    - You can share the link to the pull request with anyone to show them your proposed change (e.g., `https://github.com/sourcegraph/about/pull/123).

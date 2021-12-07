@@ -2,7 +2,7 @@
 
 ## How to calculate the cost of a managed instance
 
-> ⚠️ **IMPORTANT:** This provides a _rough estimate_ to the best of our ability, infrastructure pricing estimates are not trivial to do accurately and actual costs are always subject to change. The goal of this is to give you a rough estimate of costs, not an exact amount.<br><br>ℹ️ If unsure about any anything with pricing for a managed instance, message `@distribution-support` in the [#distributioneers slack channel](https://sourcegraph.slack.com/archives/CJX299FGE) – ensure you include all the information needed for the resource calculator and any extra information about why you need help.
+> ⚠️ **IMPORTANT:** This provides a _rough estimate_ to the best of our ability, infrastructure pricing estimates are not trivial to do accurately and actual costs are always subject to change. The goal of this is to give you a rough estimate of costs, not an exact amount.<br><br>ℹ️ If unsure about anything with pricing for a managed instance, message `@delivery-support` in the [#delivery slack channel](https://sourcegraph.slack.com/archives/C02E4HE42BX) – ensure you include all the information needed for the resource calculator and any extra information about why you need help.
 
 Several data points are needed to work out the cost:
 
@@ -20,7 +20,7 @@ These data points are also listed in the CS [managed instance request template](
 | +$388/mo min.  | VM instance type - [see "Working out the VM type required" below](#working-out-the-vm-type-required) |
 | +$1.54/GB      | For each GB of network traffic to/from the instance.                                                 |
 
-Thus, the smallest managed instance supporting around ~300 repositories and ~100 users costs around $726/mo.
+Thus, the smallest managed instance supporting around ~300 repositories and ~100 users costs around $726/mo. Add enough buffer to the pricing to account for some variation in usage - for example, an estimate of $10-15k for this instance.
 
 ### Working out the VM type required
 
@@ -46,9 +46,9 @@ The above does not take into account:
 
 ## Detailed breakdown
 
-The following describes how to the above table was derived - reviewing this is not necessary for calculting the cost of a new managed instance.
+The following describes how the above table was derived - reviewing this is not necessary for calculating the cost of a new managed instance.
 
-The following summarized the infrastructure costs incurred for a managed instance. Managed instances are always created in completely isolated GCP projects, and as such it is easy to see the exact infrastructure cost breakdown for a given customer.
+The following summarizes the infrastructure costs incurred for a managed instance. Managed instances are always created in completely isolated GCP projects, and as such it is easy to see the exact infrastructure cost breakdown for a given customer.
 
 | Cost estimate                  | Description                                                                                                                                                                                                                       |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
