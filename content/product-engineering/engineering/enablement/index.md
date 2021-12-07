@@ -34,7 +34,7 @@ The org is lead by [Serina Clark](../../../team/index.md#serina-clark) ([Directo
   - [Taylor Sperry](../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [Tom Ross](../../../team/index.md#tom-ross)
   - [Valery Bugakov](../../../team/index.md#valery-bugakov)
-  - Oleg Gromov
+  - [Oleg Gromov](../../../team/index.md#oleg-gromov)
 - [Engineering Education](engineering-education/index.md)
   - [Marek Zaluski](../../../team/index.md#marek-zaluski)
 - Sourcegraph Handbook
