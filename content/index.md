@@ -31,6 +31,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [General office information](company/general-office-info.md)
 - [Community](community/index.md)
 - [Leadership](leadership/index.md)
+- [Benefits, Pay and Perks](benefits-pay-perks/index.md)
 
 ## Teams at Sourcegraph
 
