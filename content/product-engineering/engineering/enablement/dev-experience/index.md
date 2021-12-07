@@ -22,8 +22,10 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 _This section is a work in progress._
 
-- [Continuous integration playbook](../../incidents/playbooks/ci.md)
 - [Developer experience newsletter](./newsletter.md)
+- Continuous integration
+  - [Continuous integration playbook](../../incidents/playbooks/ci.md)
+  - [Buildkite agents](../../infrastructure/index.md#buildkite-agents)
 
 ## Contact
 

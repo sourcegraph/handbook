@@ -19,8 +19,8 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
-  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../environments.md#engineering-projects)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../../environments.md#engineering-projects).
+  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../infrastructure/gcp.md#engineering-projects)
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../../infrastructure/gcp.md#engineering-projects).
 - Open and merge first GitHub pull request by adding yourself to [team page](../../../../team/index.md) in Handbook
 - Read our [Delivery handbook pages](index.md)
 - Join the distribution Slack channels
@@ -41,7 +41,7 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 
 #### Tasks
 
-- Familiarise yourself with the [internal infrastructure](../../cloud/devops/internal_infrastructure.md) at Sourcegraph and ownership areas.
+- Familiarise yourself with the [internal infrastructure](../../tools/index.md) at Sourcegraph and ownership areas.
   - Setup a 1 on 1 meeting with a member of the [cloud](../../cloud/devops/index.md#members) and [developer experience](../dev-experience/index.md#members)
 - Read through the [deployments types](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p) presentation
 - Schedule a 1 on 1 meeting with each of the engineers in the team
