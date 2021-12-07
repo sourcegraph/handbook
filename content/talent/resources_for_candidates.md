@@ -84,7 +84,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 - Our [messaging and definitions](../marketing/messaging.md) should help you better understand what Sourcegraph does.
 - [Benefits and perks](../benefits-pay-perks/benefits-perks/index.md).
 - [Teammates bios](../team/index.md).
-- [Strategy](../company/strategy/index.md).
+- [Strategy](../strategy-goals/strategy/index.md).
 - [Asynchronous communication at Sourcegraph](../company/asynchronous-communication.md)
 
 # Candidate FAQs
