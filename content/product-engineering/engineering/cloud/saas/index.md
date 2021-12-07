@@ -66,13 +66,13 @@ The list below contains features and services that already exist, and the Cloud 
 
 ## Team
 
-- [Ryan Phillips](../../../../company/team/index.md#ryan-phillips) (he/him) - [Product Manager](../../../product/roles/index.md#product-manager)
-- [Quinn Keast](../../../../company/team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
-- [Rafal Leszczynski](../../../../company/team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles.md#engineering-manager)
-  - [Joe Chen](../../../../company/team/index.md#joe-chen) (he/him)
-  - [Artem Ruts](../../../../company/team/index.md#artem-ruts) (he/him)
-  - [Milan Freml](../../../../company/team/index.md#milan-freml) (he/him)
-  - [Rafal Gajdulewicz](../../../../company/team/index.md#rafal-gajdulewicz) (he/him)
+- [Ryan Phillips](../../../../team/index.md#ryan-phillips) (he/him) - [Product Manager](../../../product/roles/index.md#product-manager)
+- [Quinn Keast](../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
+- [Rafal Leszczynski](../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles.md#engineering-manager)
+  - [Joe Chen](../../../../team/index.md#joe-chen) (he/him)
+  - [Artem Ruts](../../../../team/index.md#artem-ruts) (he/him)
+  - [Milan Freml](../../../../team/index.md#milan-freml) (he/him)
+  - [Rafal Gajdulewicz](../../../../team/index.md#rafal-gajdulewicz) (he/him)
   - P. R. (he/him) - starting 2022.01
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).

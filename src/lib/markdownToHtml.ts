@@ -240,6 +240,10 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             /{{generator:reporting_structure.vp_product}}/gi,
             await Promise.resolve(generatedMarkdown.generateReportingStructure('vp_product'))
         )
+        markdown = markdown.replace(
+            /{{generator:engineering_ownership}}/gi,
+            await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())
+        )
     }
     return markdown
 }

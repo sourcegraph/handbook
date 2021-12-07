@@ -6,7 +6,7 @@ Each hiring manager has an [assigned recruiter](index.md#talent-team-members) fo
 
 ## Partnering with sourcing
 
-Coming soon...
+Sourcers are responsible for sourcing passive and active candidates for open roles. Sourcers will create LinkedIn Recruiter projects for you to review and comment on. The more feedback, the better!
 
 ## Estimated time-to-hire
 
@@ -58,7 +58,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 - Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
-  - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
+  - [Compensation philosophy](../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation)
 - Recruiter submits offer for approval in Greenhouse.
   - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.

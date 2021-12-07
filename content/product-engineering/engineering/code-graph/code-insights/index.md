@@ -4,22 +4,28 @@ The code insights team is responsible for building and delivering code insights 
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/code_insights/screenshot.svg" alt="Screenshot of a code insights dashboard with graphs" width="1141" height="391" style="width: 100%; height: auto" />
 
-## Pages
+## Handbook Pages
 
 - [Processes](processes.md)
-- [Goals and Roadmap](../../../../company/strategy/code-graph/code-insights/index.md)
+- [Strategy, goals, and roadmap](../../../../company/strategy/code-graph/code-insights/index.md)
+
+## Quick Resources
+
 - [Product docs](https://docs.sourcegraph.com/code_insights)
 - [Development docs](https://docs.sourcegraph.com/dev/background-information/insights)
+- [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
+- [Usage Pings - all instances](https://sourcegraph.looker.com/dashboards/199)
+- [Usage Pings - individual instance](https://sourcegraph.looker.com/dashboards-next/208?Instance=)
 
 ## Members
 
-- [Joel Kwartler](../../../../company/team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Felix Becker](../../../../company/team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
-  - [Vova Kulikov](../../../../company/team/index.md#vova-kulikov) (Frontend Engineer)
-  - [Justin Boyson](../../../../company/team/index.md#justin-boyson) (Frontend Engineer)
-  - [Coury Clark](../../../../company/team/index.md#coury-clark) (Backend Engineer)
-  - [Cristina Birkel](../../../../company/team/index.md#cristina-birkel) (Backend Engineer)
+- [Joel Kwartler](../../../../team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Felix Becker](../../../../team/index.md#felix-becker) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-insights-eng}
+  - [Vova Kulikov](../../../../team/index.md#vova-kulikov) (Frontend Engineer)
+  - [Justin Boyson](../../../../team/index.md#justin-boyson) (Frontend Engineer)
+  - [Coury Clark](../../../../team/index.md#coury-clark) (Backend Engineer)
+  - [Cristina Birkel](../../../../team/index.md#cristina-birkel) (Backend Engineer)
 
 [We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
 
@@ -66,7 +72,7 @@ For more information about code insights, see the original [product document](ht
   - @sourcegraph/code-insights-frontend for only the frontend engineers on the team
   - @sourcegraph/code-insights-backend for only the backend engineers on the team
 - [Code Insights Events](https://calendar.google.com/calendar/u/0?cid=Y19kOWFyMHUzZ3BpbnVpNjRiMDRpNjc3bm1qY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
-  - _Teammates should add this calendar (calendar ID `c_d9ar0u3gpinui64b04i677nmjc@group.calendar.google.com`) as an additional calendar in the [Roots PTO Slack app](../../../../people-ops/submitting-time-off.md) so that their PTO is visible to their team on the team calendar (and disable adding their manager directly to the calendar invite)._
+  - _Teammates should add this calendar (calendar ID `c_d9ar0u3gpinui64b04i677nmjc@group.calendar.google.com`) as an additional calendar in the [Roots PTO Slack app](../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) so that their PTO is visible to their team on the team calendar (and disable adding their manager directly to the calendar invite)._
 - code-insights-team@sourcegraph.com Google group for mentioning in Google Docs and calendar invites.
 
 ## Useful browser bookmarks ⭐️

@@ -39,7 +39,7 @@ In order to keep the air clear with each other, we do the following:
 - We let each other know immediately when we are feeling like it's anything other than feasible to get done what we have committed to doing
 - We let each other know immediately the moment we realize something we committed to doing may be at risk somehow
 
-## When we will be afk or ooo
+## When we are away from our keyboard (afk) or out of office (ooo)
 
 If you are going to away from your keyboard (afk) or out of office (ooo) -- planned or unplanned, for your focus day or time off -- the team relies on you using your agency to make sure what you ensure there is a plan to cover what have committed to being responsible for.
 

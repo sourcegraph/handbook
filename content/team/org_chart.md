@@ -8,37 +8,37 @@ The org chart is generated automatically from team pages in the handbook ([need 
 	<small>If the org chart does not appear, please <a href="https://github.com/sourcegraph/about/issues">report this issue</a> and include the output from your browser's devtools JavaScript console.</small>
 </div>
 
-## [Engineering](../../product-engineering/engineering/eng_org.md#current-organization)
+## [Engineering](../product-engineering/engineering/eng_org.md#current-organization)
 
-## [Product](../../product-engineering/product/product_org.md#current-team)
+## [Product](../product-engineering/product/product_org.md#current-team)
 
-## [Customer Support](../../support/index.md#the-team)
+## [Customer Support](../support/index.md#the-team)
 
-## [Customer Engineering](../../ce/index.md#current-team-members)
+## [Customer Engineering](../ce/index.md#current-team-members)
 
-## [Marketing](../../marketing/index.md#members)
+## [Marketing](../marketing/index.md#members)
 
-## [People Ops](../../people-ops/index.md#people-ops-team-members)
+## [People Ops](../people-ops/index.md#people-ops-team-members)
 
-## [Business Operations & Strategy](../../bizops/index.md#members)
+## [Business Operations & Strategy](../bizops/index.md#members)
 
-## [Finance & Accounting](../../finance/index.md#members)
+## [Finance & Accounting](../finance/index.md#members)
 
-## [Legal](../../legal/index.md#members)
+## [Legal](../legal/index.md#members)
 
-## [Tech Ops](../../tech-ops/index.md#members)
+## [Tech Ops](../tech-ops/index.md#members)
 
 ## Sales
 
 <!-- When updating the engineering team list below, please also update handbook/index.md. -->
 
-### [Sales team](../../sales/index.md#members)
+### [Sales team](../sales/index.md#members)
 
-### [SDR team](../../sales/sdrteam.md#members)
+### [SDR team](../sales/sdrteam.md#members)
 
-### [Sales strategy & operations](../../sales/sales-ops/index.md#members)
+### [Sales strategy & operations](../sales/sales-ops/index.md#members)
 
-### [Value Engineering & Sales Enablement](../../sales/sales-enablement.md)
+### [Value Engineering & Sales Enablement](../sales/sales-enablement.md)
 
 ## Other teams: TODO
 

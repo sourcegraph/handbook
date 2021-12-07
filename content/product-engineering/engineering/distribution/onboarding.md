@@ -23,7 +23,7 @@ Welcome to the distribution team! This document will guide you through distribut
   - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../environments.md#engineering-projects)
   - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../environments.md#engineering-projects).
 - Familiarise yourself with the distribution [internal infrastructure](internal_infrastructure.md) and ownership areas
-- Open and merge first GitHub pull request by adding yourself to [team page](../../../company/team/index.md) in Handbook
+- Open and merge first GitHub pull request by adding yourself to [team page](../../../team/index.md) in Handbook
 - Read our [Distribution handbook pages](index.md)
 - Join the distribution Slack channels
   - #distributioneers

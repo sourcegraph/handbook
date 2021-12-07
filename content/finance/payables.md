@@ -2,9 +2,9 @@
 
 ## Limits
 
-Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](spending-company-money.md)).
+Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](../benefits-pay-perks/benefits-perks/spending-company-money.md)).
 
-Specific categories of purchases that are listed on the [spending company money page](spending-company-money.md) (e.g. laptops, home office setup, etc.) do not need to follow the approval process below. They are pre-approved and can be [submitted for reimbursement](expenses.md) directly.
+Specific categories of purchases that are listed on the [spending company money page](../benefits-pay-perks/benefits-perks/spending-company-money.md) (e.g. laptops, home office setup, etc.) do not need to follow the approval process below. They are pre-approved and can be [submitted for reimbursement](../benefits-pay-perks/pay-expenses/expenses.md) directly.
 
 However, if you intend to make any other purchase that falls above the limits below, please refer to our [Company accounts payable policy](ap.md).
 

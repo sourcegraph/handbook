@@ -1,6 +1,6 @@
 ## Stompy "Stomzy" Mwendwa
 
-[Bio on team page](../../company/team/index.md#stompy-mwendwa)
+[Bio on team page](../../team/index.md#stompy-mwendwa)
 
 ### View on Customer Support
 

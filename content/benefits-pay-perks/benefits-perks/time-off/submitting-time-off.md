@@ -16,4 +16,4 @@ We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which a
 
 **For additional resources from Roots, please see this [folder](https://drive.google.com/drive/folders/13GJGkLOtha_EtCAxBu7EGO13NCovaIcJ).**
 
-**For more information on our PTO philosophy and policy, please see [Paid time off and working hours](./paid-time-off-and-working-hours.md).**
+**For more information on our PTO philosophy and policy, please see [Paid time off](index.md).**

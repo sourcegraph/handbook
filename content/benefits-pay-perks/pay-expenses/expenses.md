@@ -2,7 +2,7 @@
 
 ## Approvals
 
-Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](spending-company-money.md)). However, if you intend to spend >$500 on a single purchase (or, depending on your position, above higher limits), please see our [spending limits](payables.md#limits). For all expense related questions, feel free to email us at ap@sourcegraph.com or post in Slack at #expense-inquiries.
+Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](../benefits-perks/spending-company-money.md)). However, if you intend to spend >$500 on a single purchase (or, depending on your position, above higher limits), please see our [spending limits](../../finance/payables.md#limits). For all expense related questions, feel free to email us at ap@sourcegraph.com or post in Slack at #expense-inquiries.
 
 ## Submit expenses every month
 
@@ -52,4 +52,4 @@ Contractors should also submit expense reports promptly at the end of each month
 
 ## Other invoices
 
-For bills above $1,000, or for bills that require invoicing (versus using a personal credit card and expensing), please refer to the finance handbook's guide for [getting invoices paid](payables.md#getting-invoices-paid).
+For bills above $1,000, or for bills that require invoicing (versus using a personal credit card and expensing), please refer to the finance handbook's guide for [getting invoices paid](../../finance/payables.md#getting-invoices-paid).

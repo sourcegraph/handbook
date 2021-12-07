@@ -8,7 +8,7 @@
 - [Asynchronous work](asynchronous-communication.md)
 - [Goals](goals/index.md)
 - [Strategy](strategy/index.md)
-- [Team](team/index.md)
+- [Team](../team/index.md)
 - [Values](values.md)
 - [Being a customer-first company](customer-first.md)
 

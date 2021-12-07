@@ -1,6 +1,6 @@
 # Asynchronous communication
 
-Sourcegraph is an [**all-remote**](remote/index.md) company which means we work from home or office spaces, but do not have a physical office we all go to together. Moreover, we are also a **global company**, which means we are spread all over [the world](./team/locations.md). So not only do we not share an office, most of the time, we don’t even share time zones. For this reason, we use **asynchronous (async)** forms of communication as much as possible and conduct synchronous meetings only when it’s really necessary.
+Sourcegraph is an [**all-remote**](remote/index.md) company which means we work from home or office spaces, but do not have a physical office we all go to together. Moreover, we are also a **global company**, which means we are spread all over [the world](../team/locations.md). So not only do we not share an office, most of the time, we don’t even share time zones. For this reason, we use **asynchronous (async)** forms of communication as much as possible and conduct synchronous meetings only when it’s really necessary.
 
 Async simply means that work doesn’t happen at the same time for everyone. Asynchronous communication allows us to move forward and make decisions without having to meet to talk with everyone involved. In this page you will read about why we are async, the tools we use at Sourcegraph, and how we use them. We also explain how we communicate, tips on how to work asynchronously, and how we decide to be or not to be async.
 
@@ -42,7 +42,7 @@ https://console.cloud.google.com/storage/browser/sourcegraph-assets/handbook/asy
 
 **We encourage thoughtful decision-making.** A great benefit of async work is the time people get to reflect instead of responding in the moment. We often have a better response or contribution to a discussion when we take a step back and think about things.
 
-**We care about [mental health](../people-ops/mental-health.md).** Working from home with teammates all across different time zones can set the expectation of being responsive most of the day, making it difficult to maintain boundaries, leaving little time for deep, focused work, and becoming a source of stress and burnout for many people. Async work helps everyone understand that team members could be offline at any time meaning instant replies are not expected. One benefit of asynchronous work can be larger amounts of uninterrupted time, enabling teammates to gain more breathing room to do their jobs well without the constant stress of pivoting and being “on” for others, leading to a more balanced workday and mindset.
+**We care about [mental health](../benefits-pay-perks/benefits-perks/mental-health/index.md).** Working from home with teammates all across different time zones can set the expectation of being responsive most of the day, making it difficult to maintain boundaries, leaving little time for deep, focused work, and becoming a source of stress and burnout for many people. Async work helps everyone understand that team members could be offline at any time meaning instant replies are not expected. One benefit of asynchronous work can be larger amounts of uninterrupted time, enabling teammates to gain more breathing room to do their jobs well without the constant stress of pivoting and being “on” for others, leading to a more balanced workday and mindset.
 
 **We value [high agency](./values.md#high-agency).** Teammates have the power and the responsibility to improve Sourcegraph as a company and as a product. We don’t want people to wait for a meeting to have a conversation that would define their work or depend on someone else’s schedule to be productive. Teammates are encouraged to achieve results when it best suits them without waiting for others’ permission to do so.
 
@@ -66,7 +66,7 @@ Even though we use artifacts to communicate over time, it is important to note t
 
 One of the hardest things about async work is to be sure everyone who’s affected by your work can see it and knows it exists. Socializing decisions and information with other teams is hard. While artifacts like RFCs are wonderful for the directly involved or affected team members, they’re more things that folks have to pay attention to—or choose _not_ to pay attention to, which still takes time and mental energy. Unfortunately, we can’t always predict what information other team members may need. Think about how you might help other teams find the information they need.
 
-Use multimodal communication: Slack is busy and sometimes people miss meetings. If there’s something important to share, it’s better to default to over-communicating across multiple channels and platforms so that the message doesn’t slip through the cracks. For example, our new [PTO](../people-ops/submitting-time-off.md) policy was added to the handbook, announced in the company meeting, the handbook page was shared in #general and #people-ops and managers were encouraged to share in team meetings or 1:1s to ensure everyone gets the message.
+Use multimodal communication: Slack is busy and sometimes people miss meetings. If there’s something important to share, it’s better to default to over-communicating across multiple channels and platforms so that the message doesn’t slip through the cracks. For example, our new [PTO](../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) policy was added to the handbook, announced in the company meeting, the handbook page was shared in #general and #people-ops and managers were encouraged to share in team meetings or 1:1s to ensure everyone gets the message.
 
 Get creative:
 
@@ -74,7 +74,7 @@ Get creative:
 - Record short videos with face cams (and captions) that don't need hours of production effort, we can create a little slide deck for such a video.
 - Replace synchronous presentations with a recording, including slides and written context and provide a place where teammates can ask questions asynchronously. You can even include a time period for questions (for example: questions will be received and answered until Friday 4pm UTC)
 
-You can read [Thorsten Ball](./team/index.md#thorsten-ball)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
+You can read [Thorsten Ball](../team/index.md#thorsten-ball)’s [Communication tips for remote work](https://thorstenball.com/remote-communication/).
 
 Additionally, here are some other tips we've found work well:
 
@@ -156,8 +156,8 @@ This is why we have different synchronous social activities that help us build c
 - Meet & Greet: for new teammates to get to know their new teammate cohort.
 - New teammate happy hour: with all other teammates. Once a month, new and existing teammates meet and talk. It’s a way for new teammates to get to know other people in the company and for teammates to get to know new people better.
 - Monthly team bonding activities
-- [Off site team meetings](../finance/travel.md)
-- [Team gatherings and celebrations](../people-ops/celebrate.md)
+- [Off site team meetings](../benefits-pay-perks/benefits-perks/travel/index.md)
+- [Team gatherings and celebrations](../benefits-pay-perks/benefits-perks/celebrate.md)
 - [Social channels on Slack](../communication/team_chat.md#social)
 
 #### How to run sync meetings

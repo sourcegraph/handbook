@@ -8,10 +8,10 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Members
 
-- [Jean du Plessis](../../../../company/team/index.md#jean-du-plessis) ([Director of Engineering](../../roles.md#director-of-engineering)) and (acting [Engineering Manager](../../roles.md#engineering-manager))
-- [Dan Mckean](../../../../company/team/index.md#dan-mckean) (acting [Product Manager](../../../product/roles/index.md#product-manager))
-- [Crystal Augustus](../../../../company/team/index.md#crystal-augustus)
-- [Kevin Wojkovich](../../../../company/team/index.md#kevin-wojkovich)
+- [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../../roles.md#director-of-engineering)) and (acting [Engineering Manager](../../roles.md#engineering-manager))
+- [Dan Mckean](../../../../team/index.md#dan-mckean) (acting [Product Manager](../../../product/roles/index.md#product-manager))
+- [Crystal Augustus](../../../../team/index.md#crystal-augustus)
+- [Kevin Wojkovich](../../../../team/index.md#kevin-wojkovich)
 
 ## Strategy
 

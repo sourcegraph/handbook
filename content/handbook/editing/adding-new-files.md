@@ -77,6 +77,6 @@ To create a new directory (sometimes we call it a new folder), you'll follow the
 
 1. Follow the steps to create a new file outlined above.
 1. When naming your file, first type the name of the new folder or directory you're creating, _without_ `.md` . Type `/` after the name to indicate it's a directory. A new input box should pop up to the right.
-1. Enter your file name as you would when creating a new file, adding an `.md` to the file name to indicate it's a markdown file. Continue creating your pafe as outlined above.
+1. Enter your file name as you would when creating a new file, adding an `.md` to the file name to indicate it's a markdown file. Continue creating your path as outlined above.
 
 ![Creating a new directory or folder](https://storage.googleapis.com/sourcegraph-assets/handbook/createdirectory.gif)
