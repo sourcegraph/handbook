@@ -14,7 +14,7 @@ Quicklinks:
 
 ### Mission
 
-The Handbook serves as a [source of truth](../../../../communication#sources-of-truth.md) for company policies, team process, strategy and more. We live our value of [being open and transparent](../../../values.md#open-and-transparent) by keeping the Handbook public.
+The Handbook serves as a [source of truth](../../../../communication#sources-of-truth.md) for company policies, team process, strategy and more. We live our value of [being open and transparent](../../../../company/values.md/values.md#open-and-transparent) by keeping the Handbook public.
 
 **We help Sourcegraph teammates** find and document information quickly by providing a smooth navigation experience and an accessible contribution process. An easy-to-use Handbook is essential for teammates to be efficient in their daily work and while engaging with customers.
 
