@@ -17,7 +17,6 @@ While these pages still remian (due to a lot of useful resources that have yet t
 
 - [Product & personas](product.md)
 - [Internal infrastructure](internal_infrastructure.md)
-- [Tools](tools/index.md)
 - [Tech stack](tech_stack.md)
 - [Onboarding](onboarding.md)
 
@@ -30,7 +29,6 @@ While these pages still remian (due to a lot of useful resources that have yet t
 - [How to set up a separate website maintained by Sourcegraph](separate_website.md)
 - [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)
 - [How to test the Gitlab native integration locally](gitlab_native_local.md)
-- [Create GCP commitments](gcp.md#committed-use-discounts)
 - [Update various service tokens for sourcegraph.com](tokens.md)
 - [Rollbacks](rollbacks.md)
 

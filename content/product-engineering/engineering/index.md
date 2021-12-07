@@ -23,7 +23,7 @@
   - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
   - [Slackgenie](slackgenie.md)
 - Infrastructure
-  - [Cloud environments](environments.md)
+  - [Internal infrastructure](infrastructure/index.md)
   - [Deployments](deployments/index.md)
   - [On-call](incidents/on_call.md)
   - [Observability](observability/index.md)

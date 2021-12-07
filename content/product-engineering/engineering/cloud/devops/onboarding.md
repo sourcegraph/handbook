@@ -17,9 +17,9 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
-  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../../engineering/environments.md)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](../../../engineering/environments.md).
-- Familiarize yourself with the DevOps [internal infrastructure](./internal_infrastructure.md) and ownership areas
+  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../infrastructure/gcp.md#projects)
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](../../infrastructure/gcp.md#engineering-projects).
+- Familiarize yourself with the DevOps [internal infrastructure](../../infrastructure/index.md) and ownership areas
 - Open and merge first GitHub pull request by adding yourself to [team page](../../../../handbook/editing/add-yourself-to-team-page.md) in Handbook
 - Read our [DevOps handbook pages](index.md)
 - Join the following Slack channels
