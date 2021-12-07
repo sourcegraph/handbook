@@ -1,6 +1,6 @@
 # CEO
 
-I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibilities and how to get what you need from me. It's intended to be helpful to our team and as a linkable reference to answer common questions (I don't expect everyone to [memorize](../handbook/index.md) this page).
+I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibilities and how to get what you need from me. It's intended to be helpful to our team and as a linkable reference to answer common questions (I don't expect everyone to [memorize](../../handbook/index.md) this page).
 
 My personal site is [slack.org](https://slack.org).
 
@@ -28,7 +28,7 @@ See "[Roles of the CEO](roles.md)".
 
 ### Scheduling time with me
 
-If possible, let's talk [asynchronously and publicly](../communication/index.md).
+If possible, let's talk [asynchronously and publicly](../../communication/index.md).
 
 My preferred working hours are 08:00-17:30 US Pacific Time.
 
@@ -41,7 +41,7 @@ If you need me to review something (such as a blog post or plan), please state:
 
 This is to avoid me jumping in and making low-level wording fixes when you're looking for high-level strategy input.
 
-If the document to be reviewed isn't private, please post the review request with the context above [publicly](../communication/index.md). Other people involved may have relevant context of their own to share.
+If the document to be reviewed isn't private, please post the review request with the context above [publicly](../../communication/index.md). Other people involved may have relevant context of their own to share.
 
 ### Asking me to send an email
 
@@ -82,4 +82,4 @@ I am happy to share internal financial metrics about the health of our business 
 1. What is the company's current revenue growth rate? What are the future plans for growth?
 1. What are the company's exit plans? We intend to remain an independent company and IPO because we are the leader in a big market.
 
-See "[Sharing company financials](../talent/hiring/index.md#sharing-company-financials)" for more.
+See "[Sharing company financials](../../talent/hiring/index.md#sharing-company-financials)" for more.
