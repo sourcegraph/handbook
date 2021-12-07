@@ -29,6 +29,7 @@ The following places are not sources of truth. Treat documents and conversations
 
 - [Slack](team_chat.md)
 - [Requests for comments (RFCs)](rfcs/index.md)
+- [Retrospectives](retrospectives.md)
 - Email
 - Zoom recordings
 - Meeting notes
@@ -38,6 +39,7 @@ The following places are not sources of truth. Treat documents and conversations
 
 - [Company meeting](company_meeting.md) (Mondays 8:00-8:30am PST/PDT)
 - [Social calendar](../company/remote/social_calendar.md) meetings
+- [One on One](1-1.md)meetings
 
 ### Internal meetings
 

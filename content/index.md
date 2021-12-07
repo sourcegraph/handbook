@@ -80,7 +80,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Talent](talent/index.md)
 
-- [Our open positions](careers.md)
+- [Our open positions](https://boards.greenhouse.io/sourcegraph91)
 - [Resources for candidates](./talent/index.md#resources-for-candidates)
 - [Resources for hiring managers](./talent/index.md#resources-for-hiring-managers)
 - [Resources for teammates](./talent/index.md#resources-for-teammates)
