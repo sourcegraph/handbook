@@ -50,6 +50,7 @@
     - [Frontend platform](./enablement/frontend-platform/index.md) - Engineering Manager:[Patrick Dubroy](../../team/index.md#patrick-dubroy)
       - [Valery Bugakov](../../team/index.md#valery-bugakov)
       - [Tom Ross](../../team/index.md#tom-ross)
+      - [Oleg Gromov](../../team/index.md#oleg-gromov)
   - [Cloud](./cloud/index.md) - Director of Engineering: [Bill Creager](../../team/index.md#bill-creager)
     - [Growth](./cloud/growth/index.md) - Engineering Manager: [Bill Creager](../../team/index.md#bill-creager)
       - [Stephen Gutekanst](../../team/index.md#stephen-gutekanst)
