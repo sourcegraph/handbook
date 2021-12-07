@@ -15,7 +15,7 @@ Enable any Sourcegraph prospect or customer to use Sourcegraph in a way fits wit
 While there are seemingly 3 problems here, the reality is that it narrows down to one.
 (This is a slight generalization as there are things that can be done to improve each individually, but the root of the majority of the issues lie in one place, and we consider that to be our opportunity to deliver maximum value)
 
-#### 1. POCs
+#### 1. POCs (proof of concept)
 
 - POCs take one of two forms:
   1. A very simple deployment that is likely not representative of the customers environment or the way in which they’ll actually deploy Sourcegraph
