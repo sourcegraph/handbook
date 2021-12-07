@@ -3,7 +3,7 @@
 The [Sourcegraph team](index.md) is distributed around the world!
 
 <!-- https://docs.github.com/en/github/managing-files-in-a-repository/mapping-geojson-files-on-github#embedding-your-map-elsewhere -->
-<script src="https://embed.github.com/view/geojson/sourcegraph/handbook/main/content/company/team/locations.geojson"></script>
+<script src="https://embed.github.com/view/geojson/sourcegraph/handbook/main/content/team/locations.geojson"></script>
 
 ## Adding to the team locations map
 

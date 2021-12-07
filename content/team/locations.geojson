@@ -381,6 +381,19 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Oleg Gromov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.723960,
+          47.210317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Ólafur Páll Geirsson"
       },
       "geometry": {
@@ -1326,6 +1339,19 @@
         "coordinates": [
           30.315871238708496,
           59.97563121816456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Filip Haftek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9951171875,
+          50.00067775723633
         ]
       }
     }

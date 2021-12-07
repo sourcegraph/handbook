@@ -50,4 +50,5 @@ We also have a set of [guiding principles](../../../../strategy-goals/strategy/e
 
 ## Processes
 
-[Read more about how we work](processes.md)
+- [Read more about how we work](processes.md)
+- [Onboarding](onboarding.md)
