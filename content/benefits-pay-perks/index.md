@@ -1,7 +1,8 @@
 # Benefits, Pay, and Perks
 
 ## [Benefits and Perks](benefits-perks/index.md)
-- [Mental Health](benefits-perks/mental-health/index.md) 
+
+- [Mental Health](benefits-perks/mental-health/index.md)
   - [Modern Health](benefits-perks/mental-health/modern-health.md)
 - [Travel](benefits-perks/travel/index.md)
   - [TripActions](benefits-perks/travel/tripactions.md)
@@ -13,6 +14,7 @@
 - [Team Gatherings and Celebrations](benefits-perks/celebrate.md)
 
 ## Pay and Expenses
+
 - [Compensation](pay-expenses/index.md)
   - [Equity FAQ](pay-expenses/equity-faq.md)
   - [Compensation Change Approvals](pay-expenses/compensation-change-approvals.md)
