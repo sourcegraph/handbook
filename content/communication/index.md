@@ -14,7 +14,7 @@ These places are the source of truth for information at Sourcegraph. Information
   - [about.sourcegraph.com](https://about.sourcegraph.com)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
 - [sourcegraph/handbook repository](https://github.com/sourcegraph/handbook)
-  - [Sourcegraph handbook](../index.md) which contains lots of things, like [how to create a working group for cross-team projects](working-group.md), [Strategy](../company/strategy/index.md), individual team handbooks, and more.
+  - [Sourcegraph handbook](../index.md) which contains lots of things, like [how to create a working group for cross-team projects](working-group.md), [Strategy](../strategy-goals/strategy/index.md), individual team handbooks, and more.
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [productboard](https://sourcegraph.productboard.com/)
 - [HubSpot](https://app.hubspot.com) (only contacts, not companies and deals)
