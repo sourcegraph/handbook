@@ -24,7 +24,7 @@ Additional resources:
 
 Changes to [the main `sourcegraph/sourcegraph` repository](https://github.com/sourcegraph/sourcegraph) are automatically built as [images](#images).
 
-- [Sourcegraph Cloud](instances.md#sourcegraph-com) will eventually pick up the same changes on a schedule via [Renovate](#renovate)
+- [Sourcegraph Cloud](instances.md#sourcegraph-cloud) will eventually pick up the same changes on a schedule via [Renovate](#renovate)
 - [k8s.sgdev.org](instances.md#k8s-sgdev-org) will deploy the changes via [ArgoCD](#argocd)
 
 ### Images
