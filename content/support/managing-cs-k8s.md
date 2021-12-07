@@ -15,9 +15,10 @@ You can access the instance by visiting [https://cse-k8s.sgdev.org/](https://cse
 To access the CS-GKE instance and run Kubernetes commands locally, you'll need to do the following:
 
 1. Before you begin, please make sure you have [gcloud command-line tool](https://cloud.google.com/sdk/gcloud) and [kubectl command-line tool](https://kubernetes.io/docs/reference/kubectl/overview/) installed on your local machine.
-2. Generate a kubeconfig entry by running the following command: `gcloud container clusters get-credentials beatrix-test --zone us-central1-c --project beatrix-test-overlay`
-3. Make sure you can access your cluster with kubectl by running the following command: ` kubectl config view`
-4. You should now have access to the CS-GKE instance and run Kubernetes commands locally via kubectl.
+2. Make sure you are [authenticated with the Google Cloud SDK.](https://cloud.google.com/sdk/gcloud/reference/auth/login?hl=en) One option is in your terminal run `gcloud auth login`. That should bring up a browser window to authenticate your work email.
+3. Generate a kubeconfig entry by running the following command: `gcloud container clusters get-credentials beatrix-test --zone us-central1-c --project beatrix-test-overlay`
+4. Make sure you can access your cluster with kubectl by running the following command: ` kubectl config view`
+5. You should now have access to the CS-GKE instance and run Kubernetes commands locally via kubectl.
 
 > NOTE: The CS-GKE instance is deployed to the `ns-sourcegraph` namespace. `beatrix-test` is the name of the cluster.
 
