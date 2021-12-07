@@ -56,7 +56,7 @@ This org chart is generated automatically based on the contents of other handboo
 
 <script>
 // This script injects the org chart content into each section of this page that links to a team page.
-// It is similar to the script used to compile the goals in ../goals/index.md.
+// It is similar to the script used to compile the goals in ../strategy-goals/goals/index.md.
 
 async function getPageOrgChart(pageUrl) {
 	const sectionId = pageUrl.replace(/^.*#/, '')

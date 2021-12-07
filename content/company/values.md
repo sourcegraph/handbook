@@ -1,6 +1,6 @@
 # Sourcegraph values
 
-These values are the beliefs and principles that help us achieve our [goals](goals/index.md) and [strategy](../company/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
+These values are the beliefs and principles that help us achieve our [goals](../strategy-goals/goals/index.md) and [strategy](../strategy-goals/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
 
 - [**Customer-first**](#customer-first): You earn and keep the trust of our customers by putting their interests first.
 - [**Work as a team**](#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
@@ -107,7 +107,7 @@ It is totally legitimate to want to create "breathing room" for a new thought or
 
 > My team has goals and plans for the future, but I am hesitant to put this in the handbook because I don't want to promise anything to our customers and I don't want competitors copying us.
 
-We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](goals/guidelines.md#how-we-set-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
+We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](../strategy-goals/goals/guidelines.md#how-we-set-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
 
 > I am working on improving the security of our product, but I feel uncomfortable clearly documenting what I am doing (e.g., in public status updates, issues, PR descriptions, the changelog) because I am worried that it will make Sourcegraph look bad.
 

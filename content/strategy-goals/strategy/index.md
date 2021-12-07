@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Our overall purpose is we want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress. This page describes how we are going to achieve that goal, and the [individual team and org strategies](index.md#per-team-strategy-pages) describe what we're doing in each of our product teams.
+Our overall purpose is we want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress. This page describes how we are going to achieve that goal, and the [individual team and org strategies](#per-team-strategy-pages) describe what we're doing in each of our product teams.
 
 Want to help us achieve these goals? [We're hiring!](https://github.com/sourcegraph/careers)
 
@@ -30,7 +30,7 @@ To make it so [everyone can code](#purpose), we will create tools, networks, and
 
 ## Values
 
-Our [values](../values.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
+Our [values](../../company/values.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
 
 ## Principles
 

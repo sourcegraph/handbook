@@ -24,7 +24,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - [Sourcegraph handbook](../../index.md) intro
 - [CEO](../../team/ceo/index.md)
   - [Values](../../company/values.md)
-  - [Goals](../../company/goals/index.md)
+  - [Goals](../../strategy-goals/goals/index.md)
 - [Product](../../product-engineering/product/index.md)
   - [Personas](../../marketing/personas.md)
   - [Products](https://about.sourcegraph.com/product)
