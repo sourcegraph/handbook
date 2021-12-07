@@ -44,16 +44,15 @@ To see how individual teams fit into the flywheel, please see [the full deck](ht
 
 # Lead Scoring at Sourcegraph
 
-Lead scoring is a framework we have put in place across Hubspot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase. 
+Lead scoring is a framework we have put in place across Hubspot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase.
 
-Sourcegraph’s current two-pronged approach to lead scoring separately measures intent and product engagement and is described in further detail below. 
+Sourcegraph’s current two-pronged approach to lead scoring separately measures intent and product engagement and is described in further detail below.
 
 **Marketing Qualified Lead (MQL)**
 
-A visitor’s interactions with our marketing content represent the foundation of our top of funnel inbound lead generation capabilities. The quantitative ranking of these behaviors by their indication of potential intent to purchase through a Marketing Qualified Lead (MQL) score enables inbound SDRs to efficiently manage and prioritize leads according to Marketing’s viewpoint on which measures of intent correlate with a higher conversion to a Sales Accepted Opportunity (SAO).       
+A visitor’s interactions with our marketing content represent the foundation of our top of funnel inbound lead generation capabilities. The quantitative ranking of these behaviors by their indication of potential intent to purchase through a Marketing Qualified Lead (MQL) score enables inbound SDRs to efficiently manage and prioritize leads according to Marketing’s viewpoint on which measures of intent correlate with a higher conversion to a Sales Accepted Opportunity (SAO).
 
-In most mature organizations, typically only those inbound leads formally meeting the intent score threshold to be classified as MQLs are handed over to SDRs to work. While we do think the amount of leads coming in through marketing content will eventually warrant this automatic gating, we are not proposing this limitation at this stage of our demand generation engine. As a result, we propose the following intent / MQL scoring system to aid in lead prioritization for inbound SDRs: 
-
+In most mature organizations, typically only those inbound leads formally meeting the intent score threshold to be classified as MQLs are handed over to SDRs to work. While we do think the amount of leads coming in through marketing content will eventually warrant this automatic gating, we are not proposing this limitation at this stage of our demand generation engine. As a result, we propose the following intent / MQL scoring system to aid in lead prioritization for inbound SDRs:
 
 <table>
   <tr>
@@ -106,15 +105,13 @@ In most mature organizations, typically only those inbound leads formally meetin
   </tr>
 </table>
 
-
 **Product Qualified Lead (PQL)**
 
-A product qualified lead (PQL) is a prospect who has used the product and completed pre-defined actions that signify strong engagement and resonance with our core value proposition. This will be a separate grade solely ascribed to leads that sign up for a cloud account or install a private instance. The goal of this score is to act as a relative indicator of active use / engagement for our non-paying users post-sign up, which looks very different from how we evaluate this for current enterprise customers. 
+A product qualified lead (PQL) is a prospect who has used the product and completed pre-defined actions that signify strong engagement and resonance with our core value proposition. This will be a separate grade solely ascribed to leads that sign up for a cloud account or install a private instance. The goal of this score is to act as a relative indicator of active use / engagement for our non-paying users post-sign up, which looks very different from how we evaluate this for current enterprise customers.
 
-Our product engagement scoring inputs, which we view as different between cloud accounts and private installs, can be found below: 
+Our product engagement scoring inputs, which we view as different between cloud accounts and private installs, can be found below:
 
 **Cloud Account**
-
 
 <table>
   <tr>
@@ -211,9 +208,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
   </tr>
 </table>
 
-
 **Private Install**
-
 
 <table>
   <tr>
@@ -228,7 +223,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
    <td>
 <ol>
 
-<li>Addition of ≥1 code host 
+<li>Addition of ≥1 code host
 
 <li>Addition of ≥1 repo
 
@@ -295,7 +290,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
   </tr>
 </table>
 
-**Note**: There will be users that actively engage with our product through both a Cloud account and a private install. To account for this, we will build three distinct workflows in Hubspot: one to evaluate engagements within Cloud, another to evaluate usage in a private install, and another to ultimately assign a product engagement grade based upon the higher of the aforementioned two scores. 
+**Note**: There will be users that actively engage with our product through both a Cloud account and a private install. To account for this, we will build three distinct workflows in Hubspot: one to evaluate engagements within Cloud, another to evaluate usage in a private install, and another to ultimately assign a product engagement grade based upon the higher of the aforementioned two scores.
 
 ## Additional PLG resources
 
