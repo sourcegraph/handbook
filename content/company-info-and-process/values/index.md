@@ -1,6 +1,6 @@
 # Sourcegraph values
 
-These values are the beliefs and principles that help us achieve our [goals](../strategy-goals/goals/index.md) and [strategy](../strategy-goals/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
+These values are the beliefs and principles that help us achieve our [goals](../../strategy-goals/goals/index.md) and [strategy](../../strategy-goals/strategy/index.md) and build an [inclusive team](../communication/code_of_conduct.md). These apply at every level of our organization—"you" refers to individuals, teams, and Sourcegraph as a whole.
 
 - [**Customer-first**](#customer-first): You earn and keep the trust of our customers by putting their interests first.
 - [**Work as a team**](#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
@@ -40,11 +40,11 @@ Everyone at Sourcegraph has the power and the responsibility to improve Sourcegr
 
 > “Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you and you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again.” - Steve Jobs
 
-A few examples of how we encourage high agency are by being a [handbook-first](../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, which allows anyone to change how the business operates, and by empowering engineers to spend time on projects they believe in through our policy of [innovation time](../product-engineering/engineering/index.md#innovation-time).
+A few examples of how we encourage high agency are by being a [handbook-first](../../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, which allows anyone to change how the business operates, and by empowering engineers to spend time on projects they believe in through our policy of [innovation time](../../product-engineering/engineering/index.md#innovation-time).
 
 With agency comes responsibility; teammates are expected to take initiative and engage in collaboration when exercising their agency. If you feel that something is important, then advocate for it or [make a decision](../communication/decisions.md)! If you feel like you're using the wrong tools for the job or doing the wrong thing, then you're responsible for quickly voicing that concern, and engaging with your teammates to find the solution that is the best for the team. Do not ever assume or wait for top-down change. If something is broken for you or your team, then fix it for you or your team, and then share that fix in case other individuals or teams have the same problem.
 
-While [decisions should be made eagerly](../communication/decisions.md), this doesn't mean that you should make unilateral decisions when others should be involved. As an [open company](index.md#open-company), we value open discussion on important topics, and think that collaboration should be a large part of making things better. It is not a bad outcome if your proposal is not accepted or replaced with a better solution, because you took the initiative, started the conversation, and either reaffirmed that our current solution is good, or implemented an even better one! We're a startup, and if we take the safe path, we will most likely fail.
+While [decisions should be made eagerly](../communication/decisions.md), this doesn't mean that you should make unilateral decisions when others should be involved. As an [open company](../about-sourcegraph/index.md#open-company), we value open discussion on important topics, and think that collaboration should be a large part of making things better. It is not a bad outcome if your proposal is not accepted or replaced with a better solution, because you took the initiative, started the conversation, and either reaffirmed that our current solution is good, or implemented an even better one! We're a startup, and if we take the safe path, we will most likely fail.
 
 ### High quality
 
@@ -52,7 +52,7 @@ You are responsible for finding out what high-quality work looks like and delive
 
 - If you don’t know what high quality looks like, it's your responsibility to find out (for example, by asking teammates and stakeholders).
 - If you don’t have the time to produce high-quality work, then it's your responsibility to take more time or cut scope (and communicate this), so that you can produce high-quality work.
-- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../benefits-pay-perks/benefits-perks/travel/index.md#5-professional-development-stipend-and-educational-travel), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
+- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../../benefits-pay-perks/benefits-perks/travel/index.md#5-professional-development-stipend-and-educational-travel), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
 - If you need help producing high-quality work, it is your responsibility to get that help.
 
 If we discover that we've produced something that does not meet our quality bar, we'll roll it back (for example, revert a commit, roll back a deployment, or unpublish content) until we can make it high quality. If that's not possible, we'll prioritize improving it.
@@ -77,7 +77,7 @@ For more information, see our "[Diversity, equity, and inclusion](../communicati
 
 ### Open and transparent
 
-We are an [open company](index.md#open-company).
+We are an [open company](../about-sourcegraph/index.md#open-company).
 
 Being open and transparent builds trust with our customers and within our team. It makes it easy for us to partner and collaborate with our customers so we make Sourcegraph the best that it can be. It enables our teammates to work autonomously to solve tough problems while maintaining alignment.
 
@@ -107,7 +107,7 @@ It is totally legitimate to want to create "breathing room" for a new thought or
 
 > My team has goals and plans for the future, but I am hesitant to put this in the handbook because I don't want to promise anything to our customers and I don't want competitors copying us.
 
-We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](../strategy-goals/goals/guidelines.md#how-we-set-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
+We document our goals and plans publicly so we can engage with customers to build the best product possible. [Documenting a goal is not the same thing as committing to a customer](../../strategy-goals/goals/guidelines.md#how-we-set-goals). If our competitors are closely following what we are doing, then we are clearly doing a good job and we should keep doing what we are doing!
 
 > I am working on improving the security of our product, but I feel uncomfortable clearly documenting what I am doing (e.g., in public status updates, issues, PR descriptions, the changelog) because I am worried that it will make Sourcegraph look bad.
 
@@ -124,11 +124,11 @@ You strive to continuously grow and learn.
 
 Here are some ways that we support learning, teaching, and knowledge-sharing at Sourcegraph:
 
-- We aim to provide a high-quality [onboarding experience](../people-ops/onboarding/index.md) for new teammates by providing them with the learning materials and guidance they need to get started.
-- We have an [education budget](../benefits-pay-perks/benefits-perks/travel/index.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
+- We aim to provide a high-quality [onboarding experience](../onboarding/index.md) for new teammates by providing them with the learning materials and guidance they need to get started.
+- We have an [education budget](../../benefits-pay-perks/benefits-perks/travel/index.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
 - We organize occasional hackathons internally, which are opportunities to learn, experiment, and share knowledge.
-- Product and Engineering teams host regular [Demo days](../product-engineering/demo-day.md) in which we share progress and learn from each other.
+- Product and Engineering teams host regular [Demo days](../../product-engineering/demo-day.md) in which we share progress and learn from each other.
 - We teach each other new things in [Brain food sessions](../communication/index.md#brain-food)
 - We encourage self-directed growth.
-- We strive to support teammates who are interested in making career changes by [switching teams or roles.](../people-ops/switching-teams.md)
-- We have a framework for supporting [early-career engineers](../product-engineering/engineering/hiring/early-career-engineers.md).
+- We strive to support teammates who are interested in making career changes by [switching teams or roles.](../working-at-sourcegraph/switching-teams.md)
+- We have a framework for supporting [early-career engineers](../../product-engineering/engineering/hiring/early-career-engineers.md).

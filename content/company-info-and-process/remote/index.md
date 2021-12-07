@@ -4,10 +4,10 @@ Sourcegraph is an all-remote company, which means:
 
 - All teammates are encouraged to work remotely. Sourcegraph provides a budget for home offices or office spaces to teammates as needed.
 - We use our business office address in San Francisco to provide a mailing address, for corporate filings, and on-site workplaces as legally required.
-- We work [asynchronously](../asynchronous-communication.md) across time zones and continents.
+- We work [asynchronously](../communication/asynchronous-communication.md) across time zones and continents.
   - You choose when you want to work. (Most people work the normal working hours for their time zone.)
   - You don't need to ask permission or tell anyone if you need to step out.
-  - We try to limit the number of synchronous meetings, but there are some [company](../../communication/company_meeting.md) and team meetings that you need to attend which might be outside of your normal working hours. We do our best to optimize meeting times for all involved participants.
+  - We try to limit the number of synchronous meetings, but there are some [company](../communication/company_meeting.md) and team meetings that you need to attend which might be outside of your normal working hours. We do our best to optimize meeting times for all involved participants.
 
 ## FAQ
 
@@ -46,7 +46,7 @@ Some people prefer to work in a really flexible way, which can sometimes mean th
 
 There is **no** expectation that people will be responsive over the weekend/vacation/evening/etc except some circumstances that do require this, but generally there will be early/predictable notice — e.g., on-call duty.
 
-Tip: [Configure](../../product-engineering/engineering/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
+Tip: [Configure](../onboarding/git-intro/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
 After that it is just a matter of not checking your work email (or Slack) at times that you don’t want to do work. Slack has settings to pause notifications, and you can remove work email from your phone if that would help you not check it during non-work times.
 
 ## Remote hackathons

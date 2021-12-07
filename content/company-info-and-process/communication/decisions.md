@@ -4,7 +4,7 @@
 
 Making a decision is always challenging. It can feel risky (what are we missing?), uncomfortable (am I the right person to make this call?), rude (am I overstepping my bounds?), and more.
 
-Our pace of growth, our [all-remote](../company/remote/index.md) team, and a preference for asynchronous communication can all contribute to making decisions even harder at Sourcegraph (especially for new teammates).
+Our pace of growth, our [all-remote](../remote/index.md) team, and a preference for asynchronous communication can all contribute to making decisions even harder at Sourcegraph (especially for new teammates).
 
 But our success requires quick decision making. From high agency, to high quality, to work as a team, and continuously grow, our values all celebrate distributed decision making. Put another way: we have ambitious plans, but Quinn and Beyang’s availability to make decisions won’t scale infinitely.
 

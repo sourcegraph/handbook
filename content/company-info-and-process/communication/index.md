@@ -14,7 +14,7 @@ These places are the source of truth for information at Sourcegraph. Information
   - [about.sourcegraph.com](https://about.sourcegraph.com)
   - [Sourcegraph blog](https://about.sourcegraph.com/blog)
 - [sourcegraph/handbook repository](https://github.com/sourcegraph/handbook)
-  - [Sourcegraph handbook](../index.md) which contains lots of things, like [how to create a working group for cross-team projects](working-group.md), [Strategy](../strategy-goals/strategy/index.md), individual team handbooks, and more.
+  - [Sourcegraph handbook](../../index.md) which contains lots of things, like [how to create a working group for cross-team projects](working-group.md), [Strategy](../../strategy-goals/strategy/index.md), individual team handbooks, and more.
 - [Issue tracker](https://github.com/sourcegraph/sourcegraph)
 - [productboard](https://sourcegraph.productboard.com/)
 - [HubSpot](https://app.hubspot.com) (only contacts, not companies and deals)
@@ -38,7 +38,7 @@ The following places are not sources of truth. Treat documents and conversations
 ## Meetings
 
 - [Company meeting](company_meeting.md) (Mondays 8:00-8:30am PST/PDT)
-- [Social calendar](../company/remote/social_calendar.md) meetings
+- [Social calendar](../remote/social_calendar.md) meetings
 - [One on One](1-1.md)meetings
 
 ### Internal meetings
@@ -49,11 +49,11 @@ The following places are not sources of truth. Treat documents and conversations
 - Always end on time (or early).
   - If there's more to discuss, handle it asynchronously or schedule a new meeting with the appropriate participants.
   - A meeting that would run over is a nudge that the meeting's agenda or duration was wrong, or that the meeting was led ineffectively.
-- Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../team/org_chart.md) helps.)
+- Remind people of your role in cross-functional meetings (including company meeting) or any other meeting that has team members you haven't met yet. We're growing, and it's hard to remember everyone's role! (The [org chart](../../team/org_chart.md) helps.)
 
 #### Scheduling meetings with Google Calendar
 
-Before you start, please make sure you've [configured your Google Calendar settings](../company/remote/teammate-recommended_productivity_hacks.md#configure-google-calendar) as described in the onboarding guidelines.
+Before you start, please make sure you've [configured your Google Calendar settings](../remote/teammate-recommended_productivity_hacks.md#configure-google-calendar) as described in the onboarding guidelines.
 
 - When creating the Google Calendar event:
   - Use the "Find a Time" feature to see when you and other meeting attendees are all available.
@@ -135,7 +135,7 @@ If you need to deprecate just part of a Google Doc, replace the deprecated porti
 ## Writing
 
 1. Always use [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) in all writing and legal documents because other formats [lead to online confusion](http://xkcd.com/1179/). Use `yyyy-mm-dd`, for example 2020-04-13, and never 04-13-2020, 13-04-2020, 2020/04/13, nor April 13, 2020. Even if you use an unambiguous alternative format, it is still harder to search for a date, sort on a date, and for other team members to know we use the ISO standard. For months use `yyyy-mm`, so 2020-01 for January 2020.
-1. When referring to a fiscal year, prefix the year with `FY` (e.g., `FY21` for fiscal year 2021). Sourcegraph's fiscal year starts on February 1 and ends January 31. {#fiscal-year} Note that fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends (so `FY21` refers to February 1, 2020 through January 31, 2021). [Learn more about fiscal years](../finance/index.md#fiscal-years).
+1. When referring to a fiscal year, prefix the year with `FY` (e.g., `FY21` for fiscal year 2021). Sourcegraph's fiscal year starts on February 1 and ends January 31. {#fiscal-year} Note that fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends (so `FY21` refers to February 1, 2020 through January 31, 2021). [Learn more about fiscal years](../../finance/index.md#fiscal-years).
 
 - FY\_\_ (e.g., `FY21` is fiscal year 2021, which means 2020-02-01 through 2021-01-31)
 - FY\_\_-Q1 (e.g., `FY21-Q1`) is February 1 through April 30

@@ -19,7 +19,7 @@ New teammates are paired with someone to connect that can share their experience
 
 Joining a new company can be overwhelming — there's a lot to learn! As you navigate your first few weeks at Sourcegraph, we want you to know that everyone on the team is here to help and will gladly drop anything to answer any question you have.
 
-Every time you're curious or confused about something — just ask! When you do so, use [public discussion channels](../../communication/team_chat.md#avoid_private_messages) as much as possible.
+Every time you're curious or confused about something — just ask! When you do so, use [public discussion channels](../communication/team_chat.md#avoid_private_messages) as much as possible.
 
 ### Think and act like an owner
 
@@ -95,16 +95,16 @@ You will be able to submit an expense reimbursement for the computer and desk eq
 ### Communication and documentation
 
 - We're a handbook-first company. Learn all about the handbook on its [handbook page](../../handbook/index.md).
-- We use Slack for team chat. Please read the [Slack handbook page](../../communication/team_chat.md) to understand what we use Slack for and how we use it.
-  - Join relevant Slack channels. The main channels are [listed in the handbook](../../communication/team_chat.md#channels).
-- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../communication/rfcs/index.md).
+- We use Slack for team chat. Please read the [Slack handbook page](../communication/team_chat.md) to understand what we use Slack for and how we use it.
+  - Join relevant Slack channels. The main channels are [listed in the handbook](../communication/team_chat.md#channels).
+- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../communication/rfcs/index.md).
 
 ### Other resources
 
 - Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
 - Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
 - Learn how we can (and cannot) [reference our customers externally](../../sales/index.md#customer)
-- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../../company/remote/teammate-recommended_productivity_hacks.md).
+- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](..//remote/teammate-recommended_productivity_hacks.md).
 
 Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
 

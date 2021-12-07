@@ -23,7 +23,7 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 
 ### Intended Audience
 
-Sourcegraph is an [open company](../company-processes/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) and we value [transparency](../company-processes/about-sourcegraph/values.md#open-andtransparent). As such, we keep the Handbook public.
+Sourcegraph is an [open company](../company-info-and-process/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) and we value [transparency](../company-info-and-process/about-sourcegraph/values.md#open-andtransparent). As such, we keep the Handbook public.
 
 The **primary** intended audience for the Handbook is Sourcegraph teammates.
 
@@ -52,8 +52,8 @@ To be handbook-first, we must:
 - The handbook documents what we do right now. It doesn't describe the ideal practices we hope to follow in the future, or outdated practices we followed in the past.
 - [Announce important changes](editing/announcing-handbook-updates.md) in the appropriate channels. Ensure everyone who needs to be aware of the change is made aware.
 - Use PRs to discuss change proposals to the handbook whenever possible (an exception, for example, might be when discussing non-public information that might lead to a handbook update.) Using a Google Doc, Slack, etc. instead can be easy to miss existing (even conflicting) content and also makes it hard to follow the discussion since it is in multiple places. Getting to a PR also more quickly makes it easier to discover these and for others to contribute cross-links or highlight duplicated/conflicting content.
-  - **Note:** In some cases, it might make sense to start with an [RFC](../company-processes/communication/rfcs/index.md). In any case, before changes are implemented, they must be documented in the handbook.
-- Follow the [Sourcegraph content guidelines](../company-processes/communication/content_guidelines/index.md) for consistent voice and style.
+  - **Note:** In some cases, it might make sense to start with an [RFC](../company-info-and-process/communication/rfcs/index.md). In any case, before changes are implemented, they must be documented in the handbook.
+- Follow the [Sourcegraph content guidelines](../company-info-and-process/communication/content_guidelines/index.md) for consistent voice and style.
 - Follow the [Handbook Content Best Practices](editing/handbook-content-best-practices.md) for help with structuring your content, and deciding where it should live.
 
 ## Why do we use Git? Why not a wiki or Google Docs?

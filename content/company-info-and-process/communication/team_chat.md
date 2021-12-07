@@ -35,7 +35,7 @@ If you are a new member of the engineering team, you'll most likely want to join
 
 ## Use of private channels
 
-By default all Slack channels are public. This is inline with our [company value to be open and transparent](../company/values.md#open-and-transparent) and facilitates collaboration and [async learning](../company/asynchronous-communication.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. Messages or files posted in a public channel can be searched by other team members.
+By default all Slack channels are public. This is inline with our [company value to be open and transparent](../values.md#open-and-transparent) and facilitates collaboration and [async learning](asynchronous-communication.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. Messages or files posted in a public channel can be searched by other team members.
 
 However, we understand that not everything discussed between team members should be public and there is a need for private channels. Private channels are for conversations that should not be open to all members. People must be added to a private channel by someone who's already a member of the channel. Messages or files posted in a private channel can only be searched by members of that channel.
 
@@ -50,7 +50,7 @@ If you would like a channel to be made private, and it does not fit in the categ
 
 ## Send (and read) messages any time
 
-Because Sourcegraph is a global, [all-remote company](../company/remote/index.md) with [flexible work hours](../company/remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
+Because Sourcegraph is a global, [all-remote company](../remote/index.md) with [flexible work hours](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
 
 However, a corollary to this is that they are free to read your message whenever is convenient for them. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../company/remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
 
@@ -84,7 +84,7 @@ If teams require additional channels they should follow the convention of prefix
 - #pets-of-sourcegraph - Dogs, horses, cats, cows, and other floof empires.
 - #progress - Share cool/interesting progress with the team
 - #thanks - Appreciate someone's work? You can thank them here! :) {#thanks}
-- #handbook - Updates to and discussion of [this handbook](../index.md)
+- #handbook - Updates to and discussion of [this handbook](../../index.md)
 - #handbook-updates - Github updates from the Handbook repo.
 - #handbook-announce - Announcement of important changes to the Handbook.
 
@@ -113,8 +113,8 @@ If teams require additional channels they should follow the convention of prefix
 
 ### Go-to-market
 
-- #marketing - [Marketing](../marketing/index.md)
-- #sales - [Sales](../sales/index.md)
+- #marketing - [Marketing](../../marketing/index.md)
+- #sales - [Sales](../../sales/index.md)
 - #customer-updates - Updates on the status of customers
 - #ce - Helping devs use Sourcegraph effectively
 
@@ -132,7 +132,7 @@ All engineers should join the following channels (feel free to adjust your notif
 - #bots-production - Kubernetes bot notifications.
 - #alerts-external - External system notifications which might impact our deployments.
 
-You should also join channels mentioned in [your team's documentation](../product-engineering/engineering/index.md#teams)
+You should also join channels mentioned in [your team's documentation](../../product-engineering/engineering/index.md#teams)
 
 ### Social
 

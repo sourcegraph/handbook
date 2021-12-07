@@ -85,7 +85,7 @@ In addition, we also use several additional key performance indicators (KPIs) to
 
 ## How we intersect with other teams
 
-We are a [customer-first company](../company/customer-first.md). We work alongside just about every team. Here is how we add value to each other and a collaboration overview for each pairing.
+We are a [customer-first company](../company-info-and-process/values/customer-first.md). We work alongside just about every team. Here is how we add value to each other and a collaboration overview for each pairing.
 
 ### Customer Engineers (CEs)
 

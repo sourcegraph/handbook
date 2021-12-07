@@ -42,6 +42,6 @@ After the outcome has been achieved, or after a given time period has elapsed, t
 
 When you end the working group
 
-- run a [retrospective](../retrospectives/index.md) if it's useful
+- run a [retrospective](retrospectives/index.md) if it's useful
 - write and share a wrap up, share the final outcome
 - archive the Slack channel

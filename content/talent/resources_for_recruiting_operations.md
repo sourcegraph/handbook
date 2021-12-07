@@ -1,6 +1,6 @@
 # Resources for Recruiting Operations
 
-The Talent team at Sourcegraph is on a mission to create an incredible candidate experience, hire the best talent, and uphold our [company values](../company-processes/values/index.md). This wouldn’t be possible without our Recruiting Operations Specialists! This page will explain the Recruiting Operations Specialist role and outline the best practices for coordinating interviews.
+The Talent team at Sourcegraph is on a mission to create an incredible candidate experience, hire the best talent, and uphold our [company values](../company-info-and-process/values/index.md). This wouldn’t be possible without our Recruiting Operations Specialists! This page will explain the Recruiting Operations Specialist role and outline the best practices for coordinating interviews.
 
 ## Who We Work With:
 
@@ -63,7 +63,7 @@ How All Other Teammates Submit Interview Requests:
   - However, there are exceptions to the rule. The recruiter will tell you which sections are needed and if a specific order is required. Typically the [Leadership Interview(s)](./types_of_interviews.md#leadership-interview) are saved for last.
 - Confirm that all interviews scheduled within the next 24 hours have been accepted by interviewers and confirmed by candidates.
   - You can quickly confirm in Google Calendar by opening the “Interviews” calendar, clicking on each interview, and ensuring that all the panelists have a green checkmark next to their name.
-- Utilize tools like [TextExpander](../company-processes/remote/teammate-recommended_productivity_hacks.md#other-tools) or [Text Blaze](https://blaze.today/) for things you tend to type or hyperlink often
+- Utilize tools like [TextExpander](../company-info-and-process/remote/teammate-recommended_productivity_hacks.md#other-tools) or [Text Blaze](https://blaze.today/) for things you tend to type or hyperlink often
 - Always seek to improve!
   - Look for opportunities to make your workflow more efficient and if someone has an idea, listen.
 

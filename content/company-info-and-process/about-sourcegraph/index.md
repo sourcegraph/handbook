@@ -3,14 +3,14 @@
 - [**about.sourcegraph.com**](https://about.sourcegraph.com) for information about Sourcegraph (the product and the company)
   - [Careers](https://boards.greenhouse.io/sourcegraph91)
   - [News](https://about.sourcegraph.com/news)
-- [Sourcegraph handbook](../index.md#company)
-- [All-remote](remote/index.md)
-- [Asynchronous work](asynchronous-communication.md)
-- [Goals](../strategy-goals/goals/index.md)
-- [Strategy](../strategy-goals/strategy/index.md)
-- [Team](../team/index.md)
-- [Values](values.md)
-- [Being a customer-first company](customer-first.md)
+- [Sourcegraph handbook](../../index.md)
+- [All-remote](../remote/index.md)
+- [Asynchronous work](../communication/asynchronous-communication.md)
+- [Goals](../../strategy-goals/goals/index.md)
+- [Strategy](../../strategy-goals/strategy/index.md)
+- [Team](../../team/index.md)
+- [Values](../values/index.md)
+- [Being a customer-first company](../values/customer-first.md)
 
 # Sourcegraph: open product, open company, open source
 
@@ -26,7 +26,7 @@ You might not realize it, but the products you use every day are not just open s
 
 ## Open company
 
-This means that principles, strategies, and processes for internal company functions are publicly documented in [our handbook](../index.md), including for recruiting, marketing, pricing, and sales—not just engineering and product.
+This means that principles, strategies, and processes for internal company functions are publicly documented in [our handbook](../../index.md), including for recruiting, marketing, pricing, and sales—not just engineering and product.
 
 Being an open company is important because being an open product isn't enough to gain the trust of developers. You need to do the same for other important parts of the company that affect the product, the open source project, and the users. See [GitLab's pricing strategy](https://about.gitlab.com/handbook/product/pricing/) in their public handbook for a great example of this.
 
