@@ -85,7 +85,7 @@ Choosing to join a company is a significant commitment. We want people to have a
 1. What is the total number of fully diluted shares? (You can calculate this from the number of options in your grant and the percentage that represents, but we're also happy to share this number.)
 1. Other details about options. (These are covered in the employment paperwork you will receive.)
 
-Here are some other questions that candidates have asked (e.g., in the [CEO interview](../../ceo/index.md#interviews-with-me)):
+Here are some other questions that candidates have asked (e.g., in the [CEO interview](../../team/ceo/index.md#interviews-with-me)):
 
 1. What is the current runway and the monthly burn rate?
 1. How much cash does the company have in the bank?
