@@ -20,13 +20,13 @@ The Handbook serves as a [source of truth](../../../../communication#sources-of-
 
 **We help Sourcegraph candidates** learn more about the company during their application and interview process by keeping our Handbook public.
 
-**We help Sourcegraph current and potential customers** learn more about the company they're working with by publishing and maintaining [public](../../../values.md#open-and-transparent) documentation.
+**We help Sourcegraph current and potential customers** learn more about the company they're working with by publishing and maintaining [public](../../../../company/values.md#open-and-transparent) documentation.
 
 ### Guiding principles
 
-- **The Handbook can ve viewed by anyone.** One of our Sourcegraph values is [transparency](../../../values.md#open-and-transparent). We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
-- **The Handbook can be edited by any Sourcegraph teammate.** We value [high agency](../../../values.md#high-agency) and encourage all teammates to update the Handbook as they see fit. We provide resources to help teammates contribute to the Handbook no matter their technical background.
-- **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, [we work as a team](../../../values.md#work-as-a-team). No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
+- **The Handbook can ve viewed by anyone.** One of our Sourcegraph values is [transparency](../../../../company/values.md#open-and-transparent). We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
+- **The Handbook can be edited by any Sourcegraph teammate.** We value [high agency](../../../../company/values.md#high-agency) and encourage all teammates to update the Handbook as they see fit. We provide resources to help teammates contribute to the Handbook no matter their technical background.
+- **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, [we work as a team](../../../../company/values.md#work-as-a-team). No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
 - **The Handbook is a source of truth** at Sourcegraph, and information there is expected to be accurate and up-to-date.
 
 ## Where we are now

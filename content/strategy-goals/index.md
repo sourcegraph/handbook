@@ -1,1 +1,0 @@
-# Company Strategy and Goals
