@@ -32,7 +32,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Goals
 
-See the [Operations OKRs](../company/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
+See the [Operations OKRs](../strategy-goals/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
 
 - **KR:** Complete a migration off of BigQuery for ETLs (to dbt, Airflow, or similar)
 - **KR:** Every product team, go-to-market team and company-wide has at least one automated KPI dashboard sent into Slack
@@ -64,7 +64,7 @@ GitHub issues help us manage requests by including as much relevant information 
 
 - **The problem:** Describe the problem or question you have.
 - **End state:** What is the end state of the project? What decisions will be made? Be as specific as possible (i.e. if the end state is a graph, draw out the graph in Figma, on paper and upload a PDF, etc)
-- **The why:** What will this request be used for? How does it support [Sourcegraph's company and team goals](../company/goals/index.md)?
+- **The why:** What will this request be used for? How does it support [Sourcegraph's company and team goals](../strategy-goals/goals/index.md)?
 - **Timeline:** What's the timeline of the project? Is it urgent? When does this need to be delivered, and how will it be followed up upon in the future?
 - **People:** Who is involved, and what are the expectations of each person? Who will be responsible for driving the project forward? Does each person have the necessary bandwidth to uphold the expectations asked of them?
 

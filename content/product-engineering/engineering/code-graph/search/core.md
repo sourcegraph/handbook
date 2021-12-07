@@ -6,7 +6,7 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 - Diff/commit search
 - Result ranking
 
-To learn more about our goals, see the [Search Core strategy](../../../../company/strategy/code-graph/search/core.md) page.
+To learn more about our goals, see the [Search Core strategy](../../../../strategy-goals/strategy/code-graph/search/core.md) page.
 
 ## Team members
 
