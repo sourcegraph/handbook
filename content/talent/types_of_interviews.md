@@ -102,7 +102,7 @@ Read more about our values interview [here](./hiring/evaluating_values.md).
 
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
-- Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../company/values.md).
+- Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../company-processes/values/index.md).
 - Example questions:
   - We will ask behavioral-based, open-ended questions directly related to our values.
 

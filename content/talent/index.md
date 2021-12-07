@@ -33,7 +33,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [LinkedIn Recruiter, our sourcing tool](./hiring/linkedin.md)
   - [Talent Wall, our pipeline tracking tool](./hiring/guide_to_using_talentwall.md#guide-to-using-talentwall)
 - [Using recruitment agencies](./hiring/index.md)
-- [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
+- [Internal transfers & switching teams](../company-processes/working-at-sourcegraph/switching-teams.md#switching-teams)
 
 ## [Resources for Teammates](resources_for_teammates.md)
 

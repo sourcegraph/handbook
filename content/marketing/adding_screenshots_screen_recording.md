@@ -113,7 +113,7 @@ If you're adding voice-over to your video, you probably already have a script yo
 All you need to do to add captions to your video is convert that script into a specific text format with timestamps, upload that file to [sourcegraph-assets](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true) too and reference it as a captions track when embedding.
 Do **not** "burn" the captions onto the video itself (also known as "open captions"), as those cannot be turned off by the user and cannot scale dynamically with the screen size to ensure readability.
 
-See our [content guidelines](../communication/content_guidelines/style_and_mechanics.md#caption-tracks-and-transcripts) for how to write great captions.
+See our [content guidelines](../company-processes/communication/content_guidelines/style_and_mechanics.md#caption-tracks-and-transcripts) for how to write great captions.
 
 You can use a free online caption editor like [HappyScribe](https://www.happyscribe.com/subtitle-tools/online-subtitle-editor) to manually add the captions at the right timeframes for your video.
 After you're done, click "Download" and select "WebVTT (.vtt)" as the format to download.

@@ -129,7 +129,7 @@ It is critical that Sourcegraph team members understand that there is a separati
 
 ## Shortening URLs
 
-The social media team is often asked to shorten URLs for team members. [You can learn more about that here.](../communication/index.md#shortening-urls)
+The social media team is often asked to shorten URLs for team members. [You can learn more about that here.](../company-processes/ommunication/index.md#shortening-urls)
 
 ## Social during an incident
 

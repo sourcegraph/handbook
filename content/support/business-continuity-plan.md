@@ -4,7 +4,7 @@ Our [SLAs](./index.md#slas) by themselves do not provide our customers the reass
 
 ## Team redundancy
 
-Our team is located in several geographies around the world as a byproduct of being an [all-remote](../company/remote/index.md#all-remote) company. This means that we are protected from geography-specific disasters. If a member of our team is experiencing a power outage, for example, every other member of the team is located at a different location, ensuring this redundancy.
+Our team is located in several geographies around the world as a byproduct of being an [all-remote](../company-processes/remote/index.md#all-remote) company. This means that we are protected from geography-specific disasters. If a member of our team is experiencing a power outage, for example, every other member of the team is located at a different location, ensuring this redundancy.
 
 ## Services availability
 

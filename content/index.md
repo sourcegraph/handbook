@@ -5,7 +5,7 @@ description: The Sourcegraph handbook describes how we (Sourcegraph teammates) w
 
 # Sourcegraph handbook
 
-The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](company/index.md#open-company).
+The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](company-processes/about-sourcegraph/index.md#open-company).
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate.
 
@@ -14,10 +14,10 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 - [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits) (or [this search](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/about%24+type:diff+rev:main) if you'd like to see diffs)
 
-## [Company](company/index.md)
+## [Company](company-processes/about-sourcegraph/index.md)
 
-- [All-remote](company/remote/index.md)
-- [Asynchronous communication](company/asynchronous-communication.md)
+- [All-remote](company-processes/remote/index.md)
+- [Asynchronous communication](company-processes/communication/asynchronous-communication.md)
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals](strategy-goals/goals/index.md)
 - [Team](team/index.md)
@@ -25,11 +25,11 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Teammates](team/index.md)
   - [Careers](https://boards.greenhouse.io/sourcegraph91)
 - [CEO](team/ceo/index.md)
-- [Communication](communication/index.md)
-  - [Content guidelines](communication/content_guidelines/index.md)
-- [Customer-first](company/customer-first.md)
-- [General office information](company/general-office-info.md)
-- [Community](community/index.md)
+- [Communication](company-processes/communication/index.md)
+  - [Content guidelines](company-processes/communication/content_guidelines/index.md)
+- [Customer-first](company-processes/values/customer-first.md)
+- [General office information](company-processes/about-sourcegraph/general-office-info.md)
+- [Community](company-processes/community/index.md)
 - [Leadership](leadership/index.md)
 - [Benefits, Pay and Perks](benefits-pay-perks/index.md)
 

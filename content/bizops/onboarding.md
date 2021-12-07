@@ -12,7 +12,7 @@ You'll have to get some basics set up in your first few days:
 
 ### Understand company and team mission, values and goals
 
-- [Sourcegraph values](../company/values.md)
+- [Sourcegraph values](../company-processes/values.md)
 - [Sourcegraph strategy](../strategy-goals/strategy/index.md)
 - [Sourcegraph OKRs](../strategy-goals/goals/index.md)
 - [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/63)
@@ -20,8 +20,8 @@ You'll have to get some basics set up in your first few days:
 ### Understand Sourcegraph communication and documentation standards
 
 - We're a handbook-first company. Learn all about the handbook on its [handbook page](../handbook/index.md).
-- Join relevant Slack channels. The main channels are [listed in the handbook](../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with.
-- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../communication/rfcs/index.md).
+- Join relevant Slack channels. The main channels are [listed in the handbook](../company-processes/communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with.
+- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../company-processes/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../company-processes/communication/rfcs/index.md).
 
 ### Onboarding sessions
 
@@ -41,7 +41,7 @@ Your manager will help you schedule the following training sessions:
   - On-prem deployment to Google BigQuery to Looker data flow
 - Sales and marketing data overview (focused on the data instead of the tools)
 - GitHub and git walk-through (Q&A)
-  - Read through the [git intro](../people-ops/onboarding/git_intro.md) and [add yourself](../handbook/editing/add-yourself-to-team-page.md) to the team page
+  - Read through the [git intro](../company-processes/onboarding/git_intro.md) and [add yourself](../handbook/editing/add-yourself-to-team-page.md) to the team page
 
 ### Get to know fellow teammates
 
