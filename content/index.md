@@ -114,3 +114,7 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Legal](departments/legal/index.md)
 
 ### [Tech Ops](departments/tech-ops/index.md)
+
+- [Internal security](departments/tech-ops/internal_security.md)
+- [Single sign on (Okta)](departments/tech-ops/Okta.md)
+- [Device usage privacy](departments/tech-ops/team-device-usage-privacy.md)
