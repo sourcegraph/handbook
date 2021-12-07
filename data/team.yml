@@ -2192,3 +2192,13 @@ oleg_gromov:
   role: Software Engineer
   location: Rostov-on-Don, Russia 🇷🇺
   description: "Oleg is a software engineer who is experienced in hands-on development and people management. He dedicates his attention to front-end development, although also enjoys full-stack work from product and design to dev-ops and analytics. He is originally from Rostov-on-Don, and after living in the US, Sweden, and UK he's back to his hometown. Supposedly not for long 😅 In his free time, Oleg enjoys playing and listening to rock music, spending time with his son and wife, and playing chess with friends."
+
+filip_haftek:
+  name: Filip Haftek
+  pronouns: he/him
+  role: Software Engineer DevOps
+  location: Kraków, Poland 🇵🇱
+  github: filiphaftek
+  email: filip.haftek@sourcegraph.com
+  links: '[LinkedIn](https://pl.linkedin.com/in/filip-haftek-a5710114)'
+  description: 'Filip is a software engineer DevOps located in Krakow, Poland. He really likes to help people, especially in the areas he has an experience like cloud infrastructure (+ terraform), automation, CI/CD, search engines and the applications performance and monitoring. He loves to spend time with his family, especially skiing, walking through the forests and travelling together. Winter is his favourite part of the year :skier: :snowflake:'

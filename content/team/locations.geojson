@@ -1341,6 +1341,19 @@
           59.97563121816456
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Filip Haftek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9951171875,
+          50.00067775723633
+        ]
+      }
     }
   ]
 }
