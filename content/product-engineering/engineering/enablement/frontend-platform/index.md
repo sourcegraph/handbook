@@ -13,7 +13,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Our Strategy
 
-[Mission & Vision](../../../../company/strategy/enablement/frontend-platform/index.md)
+[Mission & Vision](../../../../strategy-goals/strategy/enablement/frontend-platform/index.md)
 
 ## Responsibilities
 

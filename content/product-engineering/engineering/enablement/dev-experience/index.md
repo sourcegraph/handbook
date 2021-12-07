@@ -10,13 +10,13 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - [Robert Lin](../../../../team/index.md#robert-lin)
   - [Dave Try](../../../../team/index.md#dave-try)
 
-## [Strategy](../../../../company/strategy/enablement/dev-experience/index.md)
+## [Strategy](../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
 
-- [Mission](../../../../company/strategy/enablement/dev-experience/index.md#mission)
-- [Vision](../../../../company/strategy/enablement/dev-experience/index.md#vision)
-- [Guiding principles](../../../../company/strategy/enablement/dev-experience/index.md#guiding-principles)
-- [Measuring success](../../../../company/strategy/enablement/dev-experience/index.md#measuring-success)
-- [Roadmap](../../../../company/strategy/enablement/dev-experience/index.md#roadmap)
+- [Mission](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#mission)
+- [Vision](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#vision)
+- [Guiding principles](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#guiding-principles)
+- [Measuring success](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#measuring-success)
+- [Roadmap](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#roadmap)
 
 ## Responsibilities
 
