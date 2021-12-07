@@ -1,6 +1,6 @@
 # FY2022 Annual OKRs
 
-> These OKRs are for [fiscal year 2022](../../communication/index.md#fiscal-year), which runs from 2021-02-01 to 2022-01-31.
+> These OKRs are for [fiscal year 2022](../../company-info-and-processes/communication/index.md#fiscal-year), which runs from 2021-02-01 to 2022-01-31.
 
 ## Company
 

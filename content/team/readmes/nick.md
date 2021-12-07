@@ -4,7 +4,7 @@
 
 ## 1-1s
 
-I do weekly [1-1s](../../leadership/1-1.md) with my direct reports. Add any topics that you want to dicuss to our [shared 1-1 notes Google Doc](../../leadership/1-1.md#google-doc) and I will do the same.
+I do weekly [1-1s](../../company-info-and-processes/communication//1-1.md) with my direct reports. Add any topics that you want to dicuss to our [shared 1-1 notes Google Doc](../../company-info-and-processes/communication/1-1.md#google-doc) and I will do the same.
 
 ## Getting to know you
 

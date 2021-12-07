@@ -28,7 +28,7 @@ See "[Roles of the CEO](roles.md)".
 
 ### Scheduling time with me
 
-If possible, let's talk [asynchronously and publicly](../../communication/index.md).
+If possible, let's talk [asynchronously and publicly](../../company-info-and-processes/communication/index.md).
 
 My preferred working hours are 08:00-17:30 US Pacific Time.
 

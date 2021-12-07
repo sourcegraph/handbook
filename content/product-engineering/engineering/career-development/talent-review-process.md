@@ -47,7 +47,7 @@ Any qualitative feedback for an IC that came out of talent review is shared with
 For ICs being considered for promotion their manager will complete a [promotion request](#promotion-requests).
 It’s important that this process moves quickly! If we leave people wondering for a month or more if they will be getting a promotion, we’re creating needless anxiety and uncertainty.
 
-Finally, we should have a [retrospective](../../../retrospectives/index.md) after each of these, so we can continue iterating and improving upon this process. We should also consider changes/clarifications to the [level descriptions](framework.md#levels) at this time, in case any of the existing definitions were cause for confusion.
+Finally, we should have a [retrospective](../../../company-info-and-processes/communication/retrospectives/index.md) after each of these, so we can continue iterating and improving upon this process. We should also consider changes/clarifications to the [level descriptions](framework.md#levels) at this time, in case any of the existing definitions were cause for confusion.
 
 ## Levels
 

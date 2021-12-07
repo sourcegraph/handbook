@@ -13,7 +13,7 @@ There are several sources that product managers look at when deciding what's imp
 - [Your own strategy](../../../strategy-goals/strategy/index.md#per-team-strategy-pages) and where you are trying to go
 - [The overall company strategy](../../../strategy-goals/strategy/index.md) and how you fit in
 - [Company and product/engineering goals](../../../strategy-goals/goals/index.md) and how you can drive them forward
-- [User & stakeholder feedback](user_stakeholder_feedback.md) to realize our value of being [customer-first](../../../company/values.md#customer-first)
+- [User & stakeholder feedback](user_stakeholder_feedback.md) to realize our value of being [customer-first](../../../company-info-and-process/values/index.md#customer-first)
 
 ## Saying "no"
 
@@ -23,7 +23,7 @@ We receive tons of feature requests and bug reports, more than we can handle. Th
 
 ### RFCs
 
-[RFCs](../../../communication/rfcs/index.md) are documents used to outline and solicit feedback on projects. They provide context around a problem that needs to be solved and are a medium for creating specifications for a project.
+[RFCs](../../../company-info-and-process/communication/rfcs/index.md) are documents used to outline and solicit feedback on projects. They provide context around a problem that needs to be solved and are a medium for creating specifications for a project.
 
 Generally, items in the roadmap will be big enough they require writing an RFC, though this will not always be the case. When a solution is clear, a well-detailed issue is sufficient to communicate intent, motivation, and solution.
 

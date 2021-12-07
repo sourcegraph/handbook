@@ -70,7 +70,7 @@ After you’ve selected a name and it’s been approved for use, how does it sho
 
 Following our [Product Hierarchy](../product-marketing/product_marketing_hierarchy.md) chart in the [Handbook](/), all Level 1 products, events, and programs should be capitalized. Examples: Universal Code Search, Batch Changes, Code Insights. This would also include Level 1 and externally-facing media we produce such as our podcast, a web series, and white papers or e-books. Another way to think about capitalization is, is this “thing” a proper vs a common noun? For instance, an annual Sourcegraph company picnic might be simply styled in lowercase, whereas the “Sourcegraph Summer Celebration” would benefit from using initial caps.
 
-[See the Capitalization Guide in the Handbook](../../communication/content_guidelines/style_and_mechanics.md#product-names)
+[See the Capitalization Guide in the Handbook](../../company-info-and-process/communication/content_guidelines/style_and_mechanics.md#product-names)
 
 When in doubt, reach out to the Marketing team and we can help identify if the name will benefit from capitalization, or if the product or program falls in a gray area.
 

@@ -8,9 +8,9 @@ This page outlines the vision, strategy and goals of the [Engineering education 
 
 ### Mission
 
-Engineering Education's mission is to get engineers onboarded quickly and efficiently, help technical knowledge flow [openly and freely](../../../../company/values.md#open-and-transparent) within teams and across teams, provide resources and environments for engineers to [continuously grow](../../../../company/values.md#continuously-grow), and drive a culture of learning and knowledge sharing at Sourcegraph.
+Engineering Education's mission is to get engineers onboarded quickly and efficiently, help technical knowledge flow [openly and freely](../../../../company-info-and-process/values/index.md#open-and-transparent) within teams and across teams, provide resources and environments for engineers to [continuously grow](../../../../company-info-and-process/values/index.md#continuously-grow), and drive a culture of learning and knowledge sharing at Sourcegraph.
 
-We want every engineer at Sourcegraph to feel that they have all the context and technical knowledge they need in order to deliver [high-quality](../../../../company/values.md#high-quality) work, and feel that they are continuously growing personally and professionally.
+We want every engineer at Sourcegraph to feel that they have all the context and technical knowledge they need in order to deliver [high-quality](../../../../company-info-and-process/values/index.md#high-quality) work, and feel that they are continuously growing personally and professionally.
 
 ### Vision
 

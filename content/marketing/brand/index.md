@@ -38,7 +38,7 @@ The Brand Team works closely with XFN teams at every level of the organization, 
 
 Our team acts as liaison or point-of-contact with external entities when producing branded content, sponsorships, or partnerships in accordance with [Sourcegraph’s Brand Guidelines](brand_guidelines/index.md).
 
-Our company values can be found [here](../../company/values.md). Our Brand Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
+Our company values can be found [here](../../company-info-and-process/values.md). Our Brand Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
 
 ## The Team
 
