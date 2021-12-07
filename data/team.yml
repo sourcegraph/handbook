@@ -2182,3 +2182,13 @@ greg_seador:
   role: Manager, Customer Engineering
   location: Austin, TX, USA 🇺🇸
   description: Greg lives in Austin, TX. In his free time he's usually out golfing, trying a new restaurant, adding to his burger spreadsheet, tackling a home improvement project, or listening to a podcast.
+
+isuru_fonseka:
+  name: Isuru Fonseka
+  pronouns: he/him
+  role: Senior Customer Engineer
+  location: Sydney, Australia 🇦🇺
+  github: Isuru-F
+  email: isuru.fonseka@sourcegraph.com
+  links: '[LinkedIn](https://linkedin.com/in/isurufonseka)'
+  description: "Isuru lives in Sydney, Australia. In his free time he is hanging out with his wife and two cats, fishing, playing squash or coding"
