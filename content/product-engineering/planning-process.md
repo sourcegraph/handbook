@@ -21,7 +21,7 @@ Source: [The Secret to a Great Planning Process — Lessons from Airbnb and Even
 ## Definitions
 
 - Our **[strategy](strategy.md)** is a concise description of how product and engineering contribute to the top-level company objectives. It sets a clear direction so we stay focused on what is important and have appropriate trade-off discussions if necessary. This is the **WHY**.
-- **[OKRs](../company/goals/guidelines.md)** define how we measure success. This is the **WHAT**.
+- **[OKRs](../strategy-goals/goals/guidelines.md)** define how we measure success. This is the **WHAT**.
 - **Roadmap items** are the concrete high-level things that we are delivering to achieve success (as measured by OKRs). This is the **HOW**.
 
 ## Annual planning process
