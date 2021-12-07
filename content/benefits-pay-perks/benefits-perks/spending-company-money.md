@@ -48,7 +48,7 @@ Once your contract is signed, you will need to get your Sourcegraph computer. Co
 
 **Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
-Different specs are required repending on your role, please see below for necessary specs corresponding to your role.
+Different specs are required depending on your role, please see below for necessary specs corresponding to your role.
 
 ### Customer Engineering team laptops:
 
