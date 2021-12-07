@@ -31,6 +31,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [What is Sourcegraph?](messaging.md#sourcegraph-value-proposition)
   - [What problems does Sourcegraph solve?](messaging.md#what-problems-does-sourcegraph-solve)
   - [Batch Changes positioning](product-marketing/batch_changes_positioning.md)
+  - [Value drivers](value-drivers.md)
 - [Product marketing](product-marketing/index.md)
   - [Marketing launch tiers](product-marketing/marketing_launch_tiers.md)
   - [Product marketing hierarchy](product-marketing/product_marketing_hierarchy.md)
@@ -77,35 +78,35 @@ The table below breaks down the capabilities of each team within Marketing. Once
 
 ## Members
 
-- [Kacie Jenkins](../company/team/index.md#kacie-jenkins), VP of Marketing
-  - [Andy Schumeister](../company/team/index.md#andy-schumeister), Director of Product Marketing
-    - [Alex Isken](../company/team/index.md#alex-isken), Product Marketing Manager, Emerging Products
-    - [Victoria Yunger](../company/team/index.md#victoria-yunger), Product Marketing Lead, Enterprise
-  - [Erica Lindberg](../company/team/index.md#erica-lindberg), Director of Content Strategy
-    - [Rebecca Dodd](../company/team/index.md#rebecca-dodd), Senior Managing Editor
-    - [Jenny Bergen](../company/team/index.md#jenny-bergen), Manager, Content Marketing
-    - [Scott Bailey](../company/team/index.md#scott-bailey), Technical Content Marketing Manager
-    - [Nick Moore](../company/team/index.md#nick-moore), Content Editor
-  - [Lisa Tagliaferri](../company/team/index.md#lisa-tagliaferri), Director of Developer Education
-    - [Katy Juell](../company/team/index.md#katy-juell), Full Stack Engineer
+- [Kacie Jenkins](../team/index.md#kacie-jenkins), VP of Marketing
+  - [Andy Schumeister](../team/index.md#andy-schumeister), Director of Product Marketing
+    - [Alex Isken](../team/index.md#alex-isken), Product Marketing Manager, Emerging Products
+    - [Victoria Yunger](../team/index.md#victoria-yunger), Product Marketing Lead, Enterprise
+  - [Erica Lindberg](../team/index.md#erica-lindberg), Director of Content Strategy
+    - [Rebecca Dodd](../team/index.md#rebecca-dodd), Senior Managing Editor
+    - [Jenny Bergen](../team/index.md#jenny-bergen), Manager, Content Marketing
+    - [Scott Bailey](../team/index.md#scott-bailey), Technical Content Marketing Manager
+    - [Nick Moore](../team/index.md#nick-moore), Content Editor
+  - [Lisa Tagliaferri](../team/index.md#lisa-tagliaferri), Director of Developer Education
+    - [Katy Juell](../team/index.md#katy-juell), Full Stack Engineer
     - We will be hiring developer educators
-  - [Sarah Reece](../company/team/index.md#sarah-reece), Director of Demand Generation
+  - [Sarah Reece](../team/index.md#sarah-reece), Director of Demand Generation
     - Rebecca Rissinger, Manager, Marketing Operations
     - Jake Sorensen, Programs Lead, Demand Gen Campaigns
-    - [Greg Bouton](../company/team/index.md#greg-bouton), Senior Email & Automation Marketing Manager
-    - [Erica Freckelton](../company/team/index.md#erica-freckelton), Senior Digital Marketing Manager
+    - [Greg Bouton](../team/index.md#greg-bouton), Senior Email & Automation Marketing Manager
+    - [Erica Freckelton](../team/index.md#erica-freckelton), Senior Digital Marketing Manager
   - Tommy Pesavento, Director of Brand Design
-    - [Fabiana Castellanos](../company/team/index.md#fabiana-castellanos), Project Coordinator, Brand
+    - [Fabiana Castellanos](../team/index.md#fabiana-castellanos), Project Coordinator, Brand
     - [Sruti Dhulipala](https://www.linkedin.com/in/sruti-dhulipala/), Senior Manager, Global Brand Strategy
     - [Mustafa (Moose) Ulker](https://www.linkedin.com/in/mooooose/), Senior Copywriter
     - [Kristen Sundberg](https://www.linkedin.com/in/kristensundberg/), Senior Manager, Social Media
     - Mate Gyorffy, Web Developer (contractor)
     - _We are building a brand team_
-  - [Samson Goddy](../company/team/index.md#samson-goddy), Director of Community
-    - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz), Community Advocate
-    - [Prosper Otemuyiwa](../company/team/index.md#prosper-otemuyiwa), Staff Developer Evangelist
+  - [Samson Goddy](../team/index.md#samson-goddy), Director of Community
+    - [Vanesa Ortiz](../team/index.md#vanesa-ortiz), Community Advocate
+    - [Prosper Otemuyiwa](../team/index.md#prosper-otemuyiwa), Staff Developer Evangelist
     - Amarachi Emmanuela Azubuike, Social Media Community Manager (contractor)
-    - [Erika Heidi](../company/team/index.md#erika-heidi), Senior Developer Advocate
+    - [Erika Heidi](../team/index.md#erika-heidi), Senior Developer Advocate
     - We will be hiring developer advocates
   - Amie Rotherham, Director of Global Communications
 

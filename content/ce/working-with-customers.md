@@ -18,6 +18,7 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
   - [Tracking and Maintaining your Accounts](#account-management)
 - [Playbooks](#playbooks)
   - [Customer Discovery](#customer-discovery)
+  - [Account Health](#account-health)
 - [Processes](#processes)
   - [Red Accounts](#red-accounts)
   - [Technical Deal Reviews](#technical-deal-reviews)
@@ -37,7 +38,7 @@ The initial conversation(s) with a customer can vary in length and scope, but al
 
 ## Technical Design
 
-Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we begin to document both the product and technical requirements and the business context of the deal. Every single prospective customer must have a techincal design document estbalished, starting as early as Stage 2 - Qualification and completed into Stage 4 - Technical and Business Validation. We begin by capturing details about their pre-Sourcegraph business and document first their Trial design and configuration, and subsequently their Production design and setup.
+Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we begin to document both the product and technical requirements and the business context of the deal. Every single prospective customer must have a techincal design document estbalished, starting as early as Stage 2 - Qualification and completed into Stage 4 - Technical and Business Validation. We begin by capturing details about their pre-Sourcegraph business and document first their Trial design and configuration, and subsequently their Production design and setup. These TDDs should be stored [here](https://drive.google.com/drive/folders/1jcDmtyNEPphdCfokeQ6JF-MmA_KMQEtF) and you should also link to the TDD from within your respective prospective customer [folder](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0) by creating a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) in Drive.
 
 For complex engagements, we have internal technical reviews with cross-functional teams (see [technical deal reviews](#technical-deal-reviews) below) that occur before approval to proceed to a trial deployment, to ensure we at Sourcegraph are colletively aligned on their needs and expectations, and so that the customer has the right expectations set and is positioned for success.
 
@@ -79,7 +80,7 @@ Many customers send security questionnaires to complete. They are required to pr
 4. Talk to your region's CE in charge of security reviews. Have them take a pass at it and review it. Please ensure timelines are properly communicated and enough notice is given to all involved stakeholders.
 5. If the Security CE feels it necessary, they may involve the product manager on the security team. Typically this involves asking one-off questions in the security [source of truth document](https://docs.google.com/spreadsheets/d/1xtjGzKExX9bEYBrsSyOcHFa-rm0SmB53hWnDKueVJjI/edit?usp=sharing), but they may also request full security questionnaire reviews. Note that full reviews may require extra time to get prioritized and worked on by the security team.
 
-The current CE's in charge of security questionnaires are [Max Wiederholt](../company/team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../company/team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
+The current CE's in charge of security questionnaires are [Max Wiederholt](../team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
 
 ## License Keys
 
@@ -140,6 +141,10 @@ We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an E
 ### Resources
 
 - The [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#) details how CEs should execute a QBR.
+- [QBR Quickstart video](https://www.loom.com/share/fb63d3286cda43a3b57913c5bdcc9806)
+- [QBR Deck Template](https://docs.google.com/presentation/d/10TTvP3_U9-z_40vyqo1Bi_f0lD2s8TclFLnqvXIdU1s/edit#slide=id.gc868ddee9e_0_0)
+- [Example QBR Deck](https://docs.google.com/presentation/d/1bWjDHA5U6luV4h6jNDo9fyj11tkpf_nHi9DhbLsPxr0/edit#slide=id.g96a3fc9b53_0_0)
+- [Example QBR Survey](https://www.surveymonkey.com/results/SM-K6LMJQMZ7/)
 - [Sample QBR Recording on Chorus](https://chorus.ai/meeting/36928A0D99694DCB8E0AC9D028E44A1D?search=qbr&recordingsOnly=true&transcript=false)
 
 ## Expansions and Renewals
@@ -174,6 +179,10 @@ To enable CEs and ensure consistent practices, our team may produce playbooks fr
 ## Customer Discovery
 
 The [customer discovery playbook](https://docs.google.com/document/d/14iSqJBtiM32D1zSVVvtZGZmWVLuQ7S7MoJDM6wAhkyQ/edit) provides CEs with a framework and tools to successfully prepare for and conduct your first meetings with prospective customers (or even new stakeholders within existing customer organizations). These inputs should serve as the prerequisites to any customer demo because it enables you to tailor your content and talk track to what’s most relevant to the customer. It also provides key areas for CEs to consider and specific steps to take to ensure the CE has the correct context and knowledge to properly support a successful customer engagement beyond the initial meetings
+
+## Account Health
+
+The [account health playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnmLMXZ1vKjJGImUZCIb1x4aCLXcNavc/edit) offers a repeatable framework for mitigating the risk of low adoption scores by offering suggestions for engagement as well as repeatable training and reusable content. This is a living document that should change to reflect available components in the [Customer Health Dashboard - Individual Customer](https://sourcegraph.looker.com/dashboards-next/194?Unique+Server+ID=Eventbrite) and mature over time to provide more refined resources to support Customer Engineers.
 
 ---
 
@@ -216,9 +225,11 @@ When a Technical Deal Review is needed, the CE initiates this process by doing t
 1. Completes a peer review with another CE
 2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pro's or con's where applicable, and articulate specific asked of Product, Engineering, and Support.
 3. Initiate the request in the #tech-deal-reviews channel via the 'Request TDD Review' shortcut in slack; include a link to the loom video and to the TDD.
-4. Product, Engineering, and Support-designated represenatives who will perform review tag themselves on the request post in the channel to indicate assignment.
-5. Complete async review within 72 hours.
-6. Where a live review is requested, let the CE know; CE schedules live review.
+4. [Product Directors](../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD.
+5. Complete async review within 3 business days.
+
+- If there are additional questions the Product team member can request a synchronous review. The review will be recorded and documented to show the decision-making process and provide additional context. The CE know is responsible for scheduling the synchronous review.
+
 7. Acknowledge completion in the TDD.
 
 ### Roles and Responsibilities
@@ -229,13 +240,13 @@ When a Technical Deal Review is needed, the CE initiates this process by doing t
   - Responsible for identifying any non-standard or high-risk requirements.
   - Responsible for communicating with their AE when non-standard or high risk requirements emerge.
   - Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
-  - If a request is made for a live review, the CE will schedule and facilitate.
+  - If a request is made for a synchronous review, the CE will schedule and facilitate.
 
 - Product, Engineering, and Support
 
-  - When a deal review request is raised, each team is responsible for designating appropriate individuals to review.
-  - Initial feedback on the review should occur within 48-72 hours.
-  - Any member from Product, Engineering, or Support may request a live review.
+  - When a deal review request is raised, Product Directors are responsible for designating appropriate individuals to review.
+  - Initial feedback on the review should occur within 3 business days.
+  - Any member from Product, Engineering, or Support may request a synchronous review.
 
 - Sales
   - Responsible for providing necessary business context around the deal.

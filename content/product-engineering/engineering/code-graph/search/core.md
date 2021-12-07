@@ -10,13 +10,14 @@ To learn more about our goals, see the [Search Core strategy](../../../../compan
 
 ## Team members
 
-- We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../../company/team/index.md#jason-yavorska) is involved in the meantime.
-- [Rob Rhyne](../../../../company/team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Jeff Warner](../../../../company/team/index.md#jeff-warner) ([Engineering Manager](../../roles.md#engineering-manager)) {#search-core-eng}
-  - [Keegan Carruthers-Smith](../../../../company/team/index.md#keegan-carruthers-smith)
-  - [Stefan Hengl](../../../../company/team/index.md#stefan-hengl)
-  - [Ryan Hitchman](../../../../company/team/index.md#ryan-hitchman)
-  - [Tomás Senart](../../../../company/team/index.md#tomás-senart)
+- We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../../team/index.md#jason-yavorska) is involved in the meantime.
+- [Rob Rhyne](../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Jeff Warner](../../../../team/index.md#jeff-warner) ([Engineering Manager](../../roles.md#engineering-manager)) {#search-core-eng}
+  - [Keegan Carruthers-Smith](../../../../team/index.md#keegan-carruthers-smith)
+  - [Stefan Hengl](../../../../team/index.md#stefan-hengl)
+  - [Ryan Hitchman](../../../../team/index.md#ryan-hitchman)
+  - [Tomás Senart](../../../../team/index.md#tomás-senart)
+  - [Geoffrey Gilmore](../../../../team/index.md#geoffrey-gilmore)
 
 ## Contact
 
@@ -29,7 +30,7 @@ The Search Core team has a customer support rotation: each week, one team member
 
 The engineer on support rotation can be contacted using the Slack alias `@search-core-support`.
 
-The support rotation can be viewed on Opsgenie: [search core schedule](https://sourcegraph.app.opsgenie.com/teams/dashboard/1cc52380-1d71-420e-9c80-2ccb161c648c/main).
+The support rotation can be viewed on OpsGenie: [search core schedule](https://sourcegraph.app.opsgenie.com/teams/dashboard/1cc52380-1d71-420e-9c80-2ccb161c648c/main).
 
 Should an engineer be unable to fulfill support responsibilities for any reason (for example, due to upcoming time off), they should swap with a teammate.
 
@@ -51,6 +52,21 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 **Retrospective**
 
 The first Monday of every month we hold an informal retrospective. This is a time for us to look back at the last month and discuss progress and process.
+
+## On Boarding
+
+Public resources are available here:
+
+- [Learning Go](https://go.dev)
+- Zoekt Bedtime Reading:
+  - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
+  - https://swtch.com/~rsc/regexp/regexp4.html
+  - https://www.youtube.com/watch?v=qOKDQT7-PJk
+  - https://www.youtube.com/watch?v=_-KTAvgJYdI
+  - https://about.sourcegraph.com/blog/tackling-the-long-tail-of-tiny-repos-with-shard-merging/
+  - https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/
+
+Our private resources are available [in the Google doc](https://docs.google.com/document/d/10SNzhuA5dmRJ5Na3PMnuShlPmtGGVIz3P2GA4RtfaGo/edit)
 
 ## Misc
 

@@ -29,6 +29,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 - [Features by code host compatibility](feature_compatibility.md)
 - [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
 - [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
+- [(Internal) Feature ownership](../engineering/engineering_ownership.md)
 
 ## Metrics
 
@@ -55,6 +56,12 @@ To help guide people within the product organization on career growth we are cre
 - Owner: Christina
 - [Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
 
+### Document known product gaps and process
+
+There are various problems, feature areas, or initiatives related to Product (which sometimes touch on Engineering or other departments) without a clear owner: we need a list of those, what people should do in the meantime for each of them (if we are not actively working on solving them), a link to a ticket or other resource where the work is happening to fix it, and how to report or add one if someone thinks they have found a new ownership gap.
+
+- Owner: TBD
+
 ## References
 
 - [Beta and experimental feature labels](./beta_and_experimental_feature_labels.md)
@@ -69,4 +76,4 @@ To help guide people within the product organization on career growth we are cre
 - [User research](./user_research/index.md)
 - [Product licensing](licensing.md)
 - [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
-- [Product Gaps Dasbhoard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
+- [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)

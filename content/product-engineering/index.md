@@ -12,8 +12,9 @@
 - [Current strategy](strategy.md)
 - [Planning process](planning-process.md)
 - [Current team](team.md)
-- [Product/Eng KPIs](https://sourcegraph.looker.com/boards/20)
-- [Product/Eng all-hands meetings](all-hands.md)
+- [KPIs](https://sourcegraph.looker.com/boards/20)
+- [Department Meeting](department-meeting.md)
+- [Headcount planning](headcount-planning.md)
 
 ## Handbook organization
 

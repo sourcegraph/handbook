@@ -21,9 +21,25 @@ You can tell when the release is cut by following along in #progress.
 - Once this is done, inform the team in the #release-post channel.
 - If necessary, PMs make edits to the changelog based on what was actually shipped.
 - PMs add final assets.
-- Product marketing to package and draft the release post and share with Rebecca, Andy, and Christina for review.
+- Product marketing to package and draft the release post and share with [Rebecca](../../team/index.md#rebecca-dodd), [Andy](../../team/index.md#andy-schumeister), and [Jason](../../team/index.md#jason-yavorska) for review.
 
 **0-2 days after release ships**
 
 - No new additions or edits from the product team
 - Managing Editor edits and publishes release post.
+
+## Content notes
+
+For any images added to the release post, include the `blog-image` class as follows, and be sure to add an `alt` and `title` description for hover and/or screen readers:
+
+```html
+<img
+  src="https://my-image.jpg"
+  class="blog-image"
+  alt="This description will be shown to people with assistive readers"
+  title="This description will be shown on hover"
+/>
+
+The `alt` and `title` values can be the same or not, up to you. In general, `title` is more appropriate for a general
+title, and `alt` is more appropriate to describe what you're seeing visually.
+```

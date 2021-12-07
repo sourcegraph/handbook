@@ -23,13 +23,13 @@ To learn more about our goals, see the [Search Product strategy](../../../../com
 
 ## Team members
 
-- [Ben Venker](../../../../company/team/index.md#ben-venker) ([Product Manager](../../roles.md#product-manager))
-- [Rob Rhyne](../../../../company/team/index.md#rob-rhyne) and [Quinn Keast](../../../../company/team/index.md#quinn-keast) ([Product Designers](../../../product/roles/index.md#product-designer))
-- [Loïc Guychard](../../../../company/team/index.md#loïc-guychard) ([Engineering Manager](../../roles.md#engineering-manager)) {#search-product-eng} <!-- this anchor is used to render the eng org chart -->
-  - [Rijnard van Tonder](../../../../company/team/index.md#rijnard-van-tonder)
-  - [Juliana Peña](../../../../company/team/index.md#juliana-peña)
-  - [Rok Novosel](../../../../company/team/index.md#rok-novosel)
-  - [Camden Cheek](../../../../company/team/index.md#camden-cheek)
+- [Ben Venker](../../../../team/index.md#ben-venker) ([Product Manager](../../roles.md#product-manager))
+- [Rob Rhyne](../../../../team/index.md#rob-rhyne) and [Quinn Keast](../../../../team/index.md#quinn-keast) ([Product Designers](../../../product/roles/index.md#product-designer))
+- [Loïc Guychard](../../../../team/index.md#loïc-guychard) ([Engineering Manager](../../roles.md#engineering-manager)) {#search-product-eng} <!-- this anchor is used to render the eng org chart -->
+  - [Rijnard van Tonder](../../../../team/index.md#rijnard-van-tonder)
+  - [Juliana Peña](../../../../team/index.md#juliana-peña)
+  - [Rok Novosel](../../../../team/index.md#rok-novosel)
+  - [Camden Cheek](../../../../team/index.md#camden-cheek)
   - [Felix Kling](https://sourcegraph.slack.com/team/U0223UPMWLF)
 
 ## Processes
@@ -90,3 +90,14 @@ We keep our iteration process fluid. We discuss any aspects that could be improv
 ### Retrospectives
 
 At the end of every iteration, we conduct a retrospective. Our retrospective notes can be found [here](https://docs.google.com/document/d/15F7OXwFTpLIvjPrJtNd0wRY49MtCUO-kMacpcIMlAWU/edit).
+
+### Social
+
+We have two weekly "social" meetings, at times accounting for our large timezone spread:
+
+- EMEA-friendly: 07:45 UTC (09:45 CEST / 23:45 PST) on Wednesday
+- AMER-friendly: 16:00 UTC (18:00 CEST / 09:00 PST) on Thursday
+
+The agenda for these is open: we can do tidbits, play a game, just have a casual chat... Anything we fancy!
+
+Attendance is optional for all. If no attendees have RSVPd "yes" 15 minutes ahead of the meeting, it will be cancelled.

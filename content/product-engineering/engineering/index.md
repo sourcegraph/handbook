@@ -7,6 +7,7 @@
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../../communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
+- [Engineering ownership](engineering_ownership.md) - who owns what
 - Practices & Philosophy
   - [Planning](planning.md)
   - [Customer Issues](../../support/engaging-other-teams.md)
@@ -82,6 +83,20 @@ Sourcegraph has a lot of repositories!
 - [gitlab.sgdev.org](https://gitlab.sgdev.org) is a Gitlab test instance.
 - [github.sgdev.org](https://github.sgdev.org) is a Github test instance.
 - [bitbucket.sgdev.org](https://bitbucket.sgdev.org) is a Bitbucket test instance.
+
+## Slack channels
+
+Slack channels for non-team-specific engineering interests typically start with a #dev- prefix
+
+The current channels are:
+
+- #dev-chat
+- #dev-ops
+- #dev-experience
+- #dev-frontend
+- #dev-databases
+- #dev-urandom
+- #prod-eng-announce
 
 ## Misc.
 

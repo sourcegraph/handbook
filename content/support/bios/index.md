@@ -1,11 +1,10 @@
 # Support Team README
 
-Our README expands on our profile in [the company team directory](../../company/team/index.md) and are meant to help us orient to one another.
+Our README expands on our profile in [the company team directory](../../team/index.md) and are meant to help us orient to one another.
 
 - Alex [README](alex-readme.md)
 - Amber [README](amber-readme.md)
 - Ben [README](ben-readme.md)
-- Carl [README](carl-readme.md)
 - Don [README](Don-readme.md)
 - Gabe [README](gabe-readme.md)
 - Giselle [README](giselle-readme.md)

@@ -1,6 +1,6 @@
 # Personal pronouns
 
-To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. For most of our colleagues, these are listed on [our team page](../company/team/index.md) next to each person’s name.
+To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. For most of our colleagues, these are listed on [our team page](../team/index.md) next to each person’s name.
 
 Some may choose to use singular “they” pronouns, e.g.:
 
@@ -14,7 +14,7 @@ Other [enby](https://www.dictionary.com/e/gender-sexuality/enby/) pronouns inclu
 
 Even if you've used the same pronouns your whole life, sharing your own pronouns is one of the best ways to help others feel comfortable sharing theirs with you. Here are some things that colleagues can do to share their pronouns:
 
-- Include your pronouns on our [team page](../company/team/index.md) if you haven't added them already
+- Include your pronouns on our [team page](../team/index.md) if you haven't added them already
 - Include your pronouns next to your name in your [email signature](../communication/index.md#getting-nice-email-signatures)
 - Fill out your personal pronouns on your Slack profile
 - Add your pronouns and manage how you want them to be displayed on your [Zoom profile](https://blog.zoom.us/zoom-pronoun-sharing/)

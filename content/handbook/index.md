@@ -16,7 +16,7 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 
 ### Guiding Principles
 
-- **The Handbook can ve viewed by anyone.** One of our Sourcegraph values is transparency. We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
+- **The Handbook can be viewed by anyone.** One of our Sourcegraph values is transparency. We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
 - **The Handbook can be edited by any Sourcegraph teammate.** We value high agency and encourage all teammates to update the Handbook as they see fit. We provide resources to help teammates contribute to the Handbook no matter their technical background.
 - **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, we work as a team. No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
 - **The Handbook is a source of truth** at Sourcegraph, and information there is expected to be accurate and up-to-date.
@@ -39,7 +39,7 @@ To be handbook-first, we must:
 
 - Default to the handbook when looking for information about a business process or policy.
 - Rely on the handbook being accurate and up-to-date.
-- Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurrate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
+- Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
 
 ## Handbook Usage
 
@@ -62,6 +62,27 @@ The handbook consists of Markdown files in the Git repository at github.com/sour
 
 1. Many handbook changes require updating references and mentions across multiple pages. In wikis and Google Docs, there is no easy way to propose a _group_ of changes to multiple sections or pages, which means people making and reviewing edits can easily miss other places that need to be updated. This format allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing/index.md).
 1. Many handbook changes are collaborative and need to be reviewed, revised, and commented on by other teammates. Git makes this possible, with comments and code reviews. Wikis don't make this easy or possible, and Google Docs has very limited review and no revision capabilities.
+
+## Handbook Support
+
+### Handbook support in Slack
+
+Contact @handbook-support in the #handbook channel for help with the Handbook. @handbook-support is a volunteer-based group of Sourcegraph teammates that are passionate about the Handbook and eager to help. Join the @handbook-support group in Slack if you're interested in helping in this capacity.
+
+### Handbook Office Hours
+
+Handbook Office Hours are held by the Handbook Product Manager every Wednesday at 16:00 UTC. Look for weekly reminders in the #handbook-announce channel.
+
+Office Hours are open to all Sourcegraph teammates. Join for a few minutes, or the whole hour. Some of the things we cover:
+
+- Questions about making changes to the Handbook
+- Handbook Troubleshooting
+- Ideas for Handbook improvements
+- Discussion of Handbook process and features
+
+### Handbook Hacking Hours
+
+Handbook Hacking Hours are held every Monday at 15:00 UTC, open to all Sourcegraph teammates to work on the Handbook website. We usually work through [Handbook Issues](https://github.com/sourcegraph/handbook/projects/1). The goal is to create some dedicated time to talk handbook, try things out, make it better, fail at things together, etc.
 
 ## Handbook feedback
 

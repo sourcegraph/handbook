@@ -4,11 +4,11 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Members
 
-- [Taylor Sperry](../../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
 - Kristen Stretch ([Engineering Manager](../../roles.md#engineering-manager))
-  - [Asdine El Hrychy](../../../../company/team/index.md#asdine-el-hrychy)
-  - [JH Chabran](../../../../company/team/index.md#jh-chabran)
-  - [Robert Lin](../../../../company/team/index.md#robert-lin)
+  - [JH Chabran](../../../../team/index.md#jh-chabran)
+  - [Robert Lin](../../../../team/index.md#robert-lin)
+  - [Dave Try](../../../../team/index.md#dave-try)
 
 ## [Strategy](../../../../company/strategy/enablement/dev-experience/index.md)
 
@@ -23,6 +23,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 _This section is a work in progress._
 
 - [Continuous integration playbook](../../incidents/playbooks/ci.md)
+- [Developer experience newsletter](./newsletter.md)
 
 ## Contact
 
@@ -40,7 +41,6 @@ To collaborate, we use the following:
 - Internal team channel in #dev-experience-internal
 - [Planning board](https://github.com/orgs/sourcegraph/projects/212)
 - [Team sync](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
-- [Newsletter](https://docs.google.com/document/d/1O5iUZ3cQ4c7sGhlFHDW2MXpfgLzIPFszN1jgXFUKNRo/edit#)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
 - [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
 
@@ -76,6 +76,19 @@ As a build sheriff, the on-call support teammate should monitor the pipeline thr
    1. If a team can be inferred, ping the `@$TEAM-support` handle in Slack for assistance, escalating to `@$TEAM` if no support handle or teammate is available.
    2. If no team is easily inferred, ping the most recent author via `git blame` where relevant for assistance.
 2. Guide the teammate towards a resolution for the issue by following our [broken builds process](https://docs.sourcegraph.com/dev/background-information/testing_principles#broken-builds-on-the-main-branch) (also see [Continuous integration: Flakes](https://docs.sourcegraph.com/dev/background-information/continuous_integration#flakes)).
+
+### Newsletter
+
+The DevX team is responsible for a **monthly** newsletter to highlight developer experience updates (not just those lead by the team). Learn more about it and see previous issues [in the newsletter archive](newsletter.md).
+
+To prepare a new issue of the newsletter, create a PR for the latest newsletter issue here following the conventions in the [previous newsletters](./newsletter.md). Some tips:
+
+- You can refer to [`dx-announce` issues and PRs](https://github.com/sourcegraph/sourcegraph/issues?q=+is%3Aclosed+sort%3Aupdated-desc+label%3Adx-announce) for content ideas!
+- To include images, either [follow the official guide](../../../../handbook/editing/handbook-images-video.md) or upload images to a GitHub issue - this will provide a shareable link.
+
+Once the newsletter is ready and reviewed, merge the PR. Then copy and paste the rendered newsletter from the handbook (you can set this up locally with `yarn dev`) into a draft newsletter. You will need to remove the background color from the pasted content, but the formatting should otherwise just work.
+
+Verify the output looks good, and email it to engineering-team-status@sourcegraph.com.
 
 ## Growth plan
 

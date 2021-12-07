@@ -21,26 +21,25 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 
-[Virginia Ulrich](../company/team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
+[Virginia Ulrich](../team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
 
-- [Brielle Collins](../company/team/index.md#brielle-collins), Manager
+- [Brielle Collins](../team/index.md#brielle-collins), Manager
 
-  - [Gabe Torres](../company/team/index.md#team#gabe-torres)
-  - [Mariam Adedeji](../company/team/index.md#mariam-adedeji)
-  - [Michael Bali](../company/team/index.md#michael-bali)
-  - [Warren Gifford](../company/team/index.md#warren-gifford)
+  - [Gabe Torres](../team/index.md#team#gabe-torres)
+  - [Mariam Adedeji](../team/index.md#mariam-adedeji)
+  - [Michael Bali](../team/index.md#michael-bali)
+  - [Warren Gifford](../team/index.md#warren-gifford)
 
-- [Nonso Obiano](../company/team/index.md#nonso-obiano), Manager
-  - [Amber Furbush](../company/team/index.md#amber-furbush)
-  - [Don Ellison](../company/team/index.md#donavon-ellison)
-  - [Giselle Northy](../company/team/index.md#giselle-northy)
-  - [Jason Harris](../company/team/index.md#jason-harris)
-  - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
-- [Tamar Joyeux](../company/team/index.md#tamar-joyeux), Manager
-  - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste)
-  - [Ben Gordon](../company/team/index.md#team#ben-gordon)
-  - [Carl Hicks](../company/team/index.md#carl-hicks)
-  - [Kelvin Lee](../company/team/index.md#kelvin-lee)
+- [Nonso Obiano](../team/index.md#nonso-obiano), Manager
+  - [Amber Furbush](../team/index.md#amber-furbush)
+  - [Don Ellison](../team/index.md#donavon-ellison)
+  - [Giselle Northy](../team/index.md#giselle-northy)
+  - [Jason Harris](../team/index.md#jason-harris)
+  - [Stompy Mwendwa](../team/index.md#stompy-mwendwa)
+- [Tamar Joyeux](../team/index.md#tamar-joyeux), Manager
+  - [Alex Jean-Baptiste](../team/index.md#alex-jean-baptiste)
+  - [Ben Gordon](../team/index.md#team#ben-gordon)
+  - [Kelvin Lee](../team/index.md#kelvin-lee)
 
 More details about each team member in [our team READMEs](bios/index.md).
 
@@ -152,7 +151,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 ## SLAs
 
-Our default contractual service level agreeements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
+Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
 
 - We aim to respond to all customers on all issues within 1 hour between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
 - We aim to resolve all issues within an average of no more than one week.
@@ -187,3 +186,7 @@ We will use commercially reasonable efforts to ensure downtimes lasts no longer 
 #### For customers with custom support agreements:
 
 Enterprise Plus and Elite customers should refer to their contracts if they have custom service-level agreements.
+
+## Support on-call
+
+Our contractual SLAs do not require support to be available 24x7, but we strive to make sure our customers have what they need when they need it. Via proper staffing (hiring folks whose working hours align with our needs), we will eventually move to 24x5 over the course of FY23, possibly into FY24. We will assess quarterly whether we need to move to a 24x7 schedule. In the meantime, our [team schedule](support-schedule.md) shows when we have folks online. Virginia's phone number is in Slack (if she is not online) and the OpsGenie on-call protocol can alert a CS leader at any time, too: use the Slack command: `/genie alert [alert message] for customer-support` ... and this will trigger a page to a member of the leadership team, any time, any day.

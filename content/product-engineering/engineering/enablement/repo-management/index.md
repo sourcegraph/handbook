@@ -10,12 +10,13 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ## Members
 
-- [Dan Mckeen](../../../../company/team/index.md#dan-mckean) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Jordan Plahn](../../../../company/team/index.md#jordan-plahn) ([Engineering Manager](../../roles.md#engineering-manager))
-  - [Ryan Slade](../../../../company/team/index.md#ryan-slade)
-  - [Indradhanush Gupta](../../../../company/team/index.md#indradhanush-gupta)
-  - M.W. joining Nov 15
-  - A.O. joining Nov 22
+- [Dan Mckeen](../../../../team/index.md#dan-mckean) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Jordan Plahn](../../../../team/index.md#jordan-plahn) ([Engineering Manager](../../roles.md#engineering-manager))
+  - [Ryan Slade](../../../../team/index.md#ryan-slade)
+  - [Indradhanush Gupta](../../../../team/index.md#indradhanush-gupta)
+  - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
+  - [Alex Ostrikov](../../../../team/index.md#alexander-ostrikov)
+  - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
 
 ## Strategy
 

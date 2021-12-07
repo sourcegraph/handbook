@@ -69,7 +69,7 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 
 Prior to taking time off, CEs should:
 
-1. [Log time off request in Roots PTO](../people-ops/submitting-time-off.md)
+1. [Log time off request in Roots PTO](../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md)
 1. Log time off on the CE team google calendar
 1. Work with their manager to create a coverage plan
 1. Notify their customers through the appropriate channel of their upcoming OOO

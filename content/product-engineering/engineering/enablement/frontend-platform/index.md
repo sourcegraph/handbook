@@ -4,12 +4,12 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Members
 
-- [Taylor Sperry](../../../../company/team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../company/team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Patrick Dubroy](../../../../company/team/index.md#patrick-dubroy) ([Engineering Manager](../../roles.md#engineering-manager)) {#frontend-platform-eng}
-  - [Tom Ross](../../../../company/team/index.md#tom-ross)
-  - [Felipe Janer](../../../../company/team/index.md#felipe-janer)
-  - [Valery Bugakov](../../../../company/team/index.md#valery-bugakov)
+- [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Patrick Dubroy](../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../../roles.md#engineering-manager)) {#frontend-platform-eng}
+  - [Tom Ross](../../../../team/index.md#tom-ross)
+  - Oleg Gromov
+  - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
 
 ## Our Strategy
 
@@ -82,18 +82,28 @@ We plan and track our day-to-day work on our [Kanban board](https://github.com/o
 
 We have a weekly rotation for triaging and refining issues. During their week on rotation, the on-duty teammate is responsible for triaging and clarifying any new issues that have been reported. We aim to do the following on a daily basis:
 
-1. Click the "+ Add cards" button and search for `is:issue is:open label:team/frontend-platform -label:"good first issue" -label:gitstart` to find all open issues for the Frontend Platform team that are not yet on our board. For each issue that is found, drag the card into the _Inbox_ column on our board.
-2. For each issue in the _Inbox_ column, consider the following:
-   - Is it clear what needs to be done? If not, ask for clarification on the ticket, apply an appropriate label (e.g., `needs-more-info`), and move the ticket to the _Needs input_ column.
+1. Go to the [All issues by status tab on the Frontend Platform board](https://github.com/orgs/sourcegraph/projects/222/views/7), and find the _No status_ section. This is where untriaged issues appear. (If you don't see "No Status", it means that there are no untriaged issues.)
+2. For each issue in that section, consider the following:
+   - Is it clear what needs to be done? If not, ask for clarification on the ticket, apply an appropriate label (e.g., `needs-more-info`), and change the status to _Needs input_.
    - Is it clearly something that should be done by the Frontend Platform team? If not, tag other teams (using the appropriate `team/xyz` label) and have a discussion about which is the best team to own the issue. Or you can add the `needs-discussion` label and discuss it with the team at an upcoming meeting (e.g. Frontend Platform sync or FPT coffee).
-   - Is it ready for development? If required, add the `needs-design` label and move the ticket into the _Needs input_ column.
-   - If it's ready for development and you know how to prioritize it correctly, move it to one of the _Backlog_ columns. If you don't know how to prioritize it, you can leave it in the _Inbox_ column and ask your teammates for help with prioritization.
+   - Is there an obvious owner on the Frontend Platform team? E.g., if it relates to a feature
+   - Is it ready for development? If required, add the `needs-design` label and set the status to _Waiting_.
+   - If it's ready for development and you know how to prioritize it correctly, set the status to _Backlog_ and give it an appropriate target. If you don't know how to prioritize it, you can ask your teammates for help with prioritization.
 
-At the end of the week, aim for the _Inbox_ column to be empty, or almost empty.
+At the end of the week, aim for the _No Status_ section to be empty, or almost empty.
 
 ### Tracking Issues
 
 The team makes use of [tracking issues](../../tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a few days (or require multiple PRs) to deliver.
+
+### Code Insights
+
+We have several [Code Insights](https://docs.sourcegraph.com/code_insights) dashboards on Sourcegraph.com which we use to track progress:
+
+- [Frontend Platform: Migrations](https://sourcegraph.com/insights/dashboards/frontendPlatformMigrations) tracks long-running code migrations (e.g., global CSS → CSS modules).
+  - The insight title should contain the GitHub issue number (where applicable).
+  - For completed migrations, the insight title should beging with "DONE: " (e.g. "DONE: Consolidation of React Testing Libraries (#24986)") and the insight should be moved to the bottom row.
+- [Frontend Platform: Wildcard Usage](https://sourcegraph.com/insights/dashboards/frontendPlatformWildcardUsage) tracks usage of the [Wildcard Component Library](https://docs.sourcegraph.com/dev/background-information/web/wildcard).
 
 ### Getting cross-team feedback on RFC
 

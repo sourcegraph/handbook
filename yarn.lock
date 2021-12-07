@@ -598,10 +598,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/js-yaml@^4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.4.tgz#cc38781257612581a1a0eb25f1709d2b06812fce"
-  integrity sha512-AuHubXUmg0AzkXH0Mx6sIxeY/1C110mm/EkE/gB1sTRz3h2dao2W/63q42SlVST+lICxz5Oki2hzYA6+KnnieQ==
+"@types/js-yaml@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.5.tgz#738dd390a6ecc5442f35e7f03fa1431353f7e138"
+  integrity sha512-FhpRzf927MNQdRZP0J5DLIdTXhjLYzeUTmLAu69mnVksLH9CJY3IuSeEgbKUki7GQZm0WqDkGzyxju2EZGD2wA==
 
 "@types/json-schema@^7.0.7":
   version "7.0.9"
@@ -669,10 +669,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react@17.0.34":
-  version "17.0.34"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.34.tgz#797b66d359b692e3f19991b6b07e4b0c706c0102"
-  integrity sha512-46FEGrMjc2+8XhHXILr+3+/sTe3OfzSPU9YGKILLrUYbQ1CLQC9Daqo1KzENGXAWwrFwiY0l4ZbF20gRvgpWTg==
+"@types/react@17.0.37":
+  version "17.0.37"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.37.tgz#6884d0aa402605935c397ae689deed115caad959"
+  integrity sha512-2FS1oTqBGcH/s0E+CjrCCR9+JMpsu9b69RTFO+40ua43ZqP5MmQ4iUde/dMjWR909KxZwmOQIFq6AV6NjEG5xg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -2289,6 +2289,11 @@ fastq@^1.6.0:
   integrity sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==
   dependencies:
     reusify "^1.0.4"
+
+fathom-client@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/fathom-client/-/fathom-client-3.2.0.tgz#781c0b11db90e0ffc5061709dc890a1d2b94ef62"
+  integrity sha512-WF/qA5wXYSuA5K8uiIhGNbErOcTAmfLEWrBxWP2px2dEc9waH9zxjdh9k0F907VCBhdJrv+f7V3HT/Pmro40zA==
 
 fault@^2.0.0:
   version "2.0.0"
@@ -4442,10 +4447,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
-  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
+prettier@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
 pretty-format@^26.6.2:
   version "26.6.2"
