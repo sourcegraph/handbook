@@ -26,7 +26,7 @@ See the [Product & Engineering handbook on sharing progress](../../planning-proc
 
 We also use [per-team strategy pages](../../../strategy-goals/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and any other important partners for feedback in your monthly update PR.
 
-Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
+Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../company-info-and-process/communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
 
 We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
 
@@ -50,20 +50,20 @@ Launch tier levels (L1, L2, and L3) are also an important term to be aware of, a
 
 ## Collaboration
 
-Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../company/values.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
+Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
 
 ### Product Management & Marketing
 
 Product Management and Marketing must work closely together to successfully create and launch products. Because of this, it's important to be clear on what the shared and unique responsibilities are within the working relationship.
 
-| Product Marketing is DRI                                                                                 | Product Management is DRI                                                                                    |
-| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| [Customer-first](../../../company/values.md#customer-first) with orientation towards market              | [Customer-first](../../../company/values.md#customer-first) with orientation towards product and engineering |
-| Providing important market context to the roadmap                                                        | Defining the roadmap                                                                                         |
-| Receives new product info and product updates from product management teams                              | Delivers new product info and product updates to product marketing team                                      |
-| Responsible for aligning product packaging and messaging with market demands                             | Responsible for aligning product requirements with market demands                                            |
-| Defines key value props and messaging of new and updated products to sales, marketing, and support teams | Delivers technical aspects of new and updated products to product marketing team                             |
-| Closest allies are product management, marketing, and sales                                              | Closest allies are the development team, customer support, customer engineering, and product marketing       |
+| Product Marketing is DRI                                                                                           | Product Management is DRI                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [Customer-first](../../../company-info-and-process/values/index.md#customer-first) with orientation towards market | [Customer-first](../../../company-info-and-process/values/index.md#customer-first) with orientation towards product and engineering |
+| Providing important market context to the roadmap                                                                  | Defining the roadmap                                                                                                                |
+| Receives new product info and product updates from product management teams                                        | Delivers new product info and product updates to product marketing team                                                             |
+| Responsible for aligning product packaging and messaging with market demands                                       | Responsible for aligning product requirements with market demands                                                                   |
+| Defines key value props and messaging of new and updated products to sales, marketing, and support teams           | Delivers technical aspects of new and updated products to product marketing team                                                    |
+| Closest allies are product management, marketing, and sales                                                        | Closest allies are the development team, customer support, customer engineering, and product marketing                              |
 
 Shared areas of ownership where both teams contribute are:
 
@@ -73,7 +73,7 @@ Shared areas of ownership where both teams contribute are:
 - [Go to market planning](./rollout_process.md)
 - [Customer communications](#talking-to-customers-and-stakeholders)
 
-Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../../communication/conflicts.md#clean-escalation) process to get to the best decision.
+Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../../company-info-and-process/communication/conflicts.md#clean-escalation) process to get to the best decision.
 
 ## Communications
 
@@ -116,7 +116,7 @@ When we have relaxed this in the past, the results have been bad and the overwhe
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../../bizops/amplitude.md)
 - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
-- [Running remote hackathons](../../../company/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
+- [Running remote hackathons](../../../company-info-and-process/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
 
 ## References
 

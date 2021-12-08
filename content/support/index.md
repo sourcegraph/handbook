@@ -26,20 +26,21 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 - [Brielle Collins](../team/index.md#brielle-collins), Manager
 
   - [Gabe Torres](../team/index.md#team#gabe-torres)
+  - [Kelvin Lee](../team/index.md#kelvin-lee)
   - [Mariam Adedeji](../team/index.md#mariam-adedeji)
   - [Michael Bali](../team/index.md#michael-bali)
+  - RS (starting 2021-12-20)
   - [Warren Gifford](../team/index.md#warren-gifford)
+  - TBH
 
 - [Nonso Obiano](../team/index.md#nonso-obiano), Manager
+  - [Alex Jean-Baptiste](../team/index.md#alex-jean-baptiste)
   - [Amber Furbush](../team/index.md#amber-furbush)
+  - [Ben Gordon](../team/index.md#team#ben-gordon)
   - [Don Ellison](../team/index.md#donavon-ellison)
   - [Giselle Northy](../team/index.md#giselle-northy)
   - [Jason Harris](../team/index.md#jason-harris)
   - [Stompy Mwendwa](../team/index.md#stompy-mwendwa)
-- [Tamar Joyeux](../team/index.md#tamar-joyeux), Manager
-  - [Alex Jean-Baptiste](../team/index.md#alex-jean-baptiste)
-  - [Ben Gordon](../team/index.md#team#ben-gordon)
-  - [Kelvin Lee](../team/index.md#kelvin-lee)
 
 More details about each team member in [our team READMEs](bios/index.md).
 
@@ -85,7 +86,7 @@ In addition, we also use several additional key performance indicators (KPIs) to
 
 ## How we intersect with other teams
 
-We are a [customer-first company](../company/customer-first.md). We work alongside just about every team. Here is how we add value to each other and a collaboration overview for each pairing.
+We are a [customer-first company](../company-info-and-process/values/customer-first.md). We work alongside just about every team. Here is how we add value to each other and a collaboration overview for each pairing.
 
 ### Customer Engineers (CEs)
 
