@@ -6,6 +6,8 @@ This page focuses on the _process_ of moving from one team or department to anot
 
 If you are interested in staying in the same department or team, or working for the same manager, but switching your focus (e.g. switching from frontend to backend software development), then this page is not needed—simply speak to your manager and see if adjustments can be made to our current role, that align with the team's success.
 
+If you are a manager, please visit this page to learn [how to notify People Ops of an org change](manager-guide.md#how-to-notify-people-ops-of-an-org-and-role-change).
+
 ## Eligibility
 
 For now, any member of the Sourcegraph team is eligible to request to take on a new role in another team, however, support for the change will be subject to teammate's length of time and performance in their existing role, ongoing projects, and whether their skillset is a match for the new role.

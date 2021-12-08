@@ -58,7 +58,7 @@ A couple of notes before to help you get started in figuring out which team will
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`
 
-Any questions about deployment should be routed to the [Delivery team](../engineering/enablement/delivery/index.md).
+Any questions about deployment should be routed to the [Delivery team](../product-engineering/engineering/enablement/delivery/index.md).
 
 ### Monitoring, management, and performance optimization
 
@@ -66,7 +66,7 @@ Any questions about deployment should be routed to the [Delivery team](../engine
 
 Questions about specific alerts and graph panels should be routed to the team that is responsible for the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
 
-Any other questions about monitoring and performance should be routed to the [Delivery team](../engineering/enablement/delivery/index.md).
+Any other questions about monitoring and performance should be routed to the [Delivery team](../product-engineering/engineering/enablement/delivery/index.md).
 
 ### Code host connections
 
@@ -76,12 +76,12 @@ Any questions about code host connections and repository syncing should be route
 
 EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 
-- `Perforce` should be routed to the [Repo Management](../engineering/enablement/repo-management/index.md)
-- `permission syncing` should be routed to the [Repo Management](../engineering/enablement/repo-management/index.md)
-- `CVS` should be routed to the [Batch Changes team](../engineering/code-graph/batch-changes/index.md)
-- `license enforcement/management` should be routed to the [Batch Changes team](../engineering/code-graph/batch-changes/index.md) (though these should always go through the CE)
+- `Perforce` should be routed to the [Repo Management](../product-engineering/engineering/enablement/repo-management/index.md)
+- `permission syncing` should be routed to the [Repo Management](../product-engineering/engineering/enablement/repo-management/index.md)
+- `CVS` should be routed to the [Batch Changes team](../product-engineering/engineering/code-graph/batch-changes/index.md)
+- `license enforcement/management` should be routed to the [Batch Changes team](../product-engineering/engineering/code-graph/batch-changes/index.md) (though these should always go through the CE)
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Extensibility team](../engineering/cloud/extensibility/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Extensibility team](../product-engineering/engineering/cloud/extensibility/index.md).
 
 ### Repository permissions
 
@@ -97,17 +97,17 @@ Any questions about user authentication should be routed to the Repository Manag
 
 ### Code intelligence
 
-**Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
+**Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
-Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../engineering/code-graph/code-intelligence/index.md).
+Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../product-engineering/engineering/code-graph/code-intelligence/index.md).
 
 ### Search
 
-**Keywords**: `search`, `indexed search`, `indexing`, `diff search`, `symbols`, `keyword`, `filter`, `scope`, `version context`, `repogroup`, `saved search`, `code monitoring`
+**Keywords**: `search`, `indexed search`, `indexing`, `diff search`, `symbols`, `keyword`, `filter`, `scope`, `version context`, `repogroup`, `saved search`, `code monitoring`, `src search`
 
 The search team is divided into two sub-teams, search-product, and search-core. Search-product is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-core is focused on growing the global index on Sourcegraph Cloud.
 
-Any questions about search should be routed to the [Search team](../engineering/code-graph/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
+Any questions about search should be routed to the [Search team](../product-engineering/engineering/code-graph/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
 
 In GitHub issues search-core and search-product should be flagged via team/search-core and team/search-product respectively.
 
@@ -115,19 +115,19 @@ In GitHub issues search-core and search-product should be flagged via team/searc
 
 **Keywords**: `browser extension`, `native integration`, `chrome`, `firefox`, `safari`, `Phabricator`, `Bitbucket`, `GitHub`, `GitLab`
 
-Any questions about the browser extension or code host native integrations should be routed to the [Extensibility team](../engineering/cloud/extensibility/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Extensibility team](../product-engineering/engineering/cloud/extensibility/index.md).
 
 ### Sourcegraph extensions
 
 **Keywords**: `extensions`, `plugins`, `blame`, `git-extras`, `Codecov`
 
-Any questions about Sourcegraph extensions should be routed to the [Extensibility team](../engineering/cloud/extensibility/index.md).
+Any questions about Sourcegraph extensions should be routed to the [Extensibility team](../product-engineering/engineering/cloud/extensibility/index.md).
 
 ### Batch Changes
 
-**Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src-cli`, `automation`, `batch changes`
+**Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src batch`, `automation`, `batch changes`
 
-Any questions about Batch Changes should be routed to the [Batch Changes team](../engineering/code-graph/batch-changes/index.md).
+Any questions about Batch Changes should be routed to the [Batch Changes team](../product-engineering/engineering/code-graph/batch-changes/index.md).
 
 ### Cloud
 
@@ -135,13 +135,13 @@ Any questions about Batch Changes should be routed to the [Batch Changes team](.
 
 The cloud team is a newly formed team at Sourcegraph focused on rapidly scaling our cloud presence. Today, the team is the DRI for all things cloud including DevOps/infra for cloud, new feature development, and early-access/waitlist programs for cloud.
 
-Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../engineering/cloud/saas/index.md) via the [#cloud-saas slack channel](https://sourcegraph.slack.com/archives/C025BKWFPDY).
+Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../product-engineering/engineering/cloud/saas/index.md) via the [#cloud-saas slack channel](https://sourcegraph.slack.com/archives/C025BKWFPDY).
 
 ### Code Insights
 
 **Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
 
-Any questions about Code Insights should be routed to the [Code Insights Team](../engineering/code-graph/code-insights/index.md)
+Any questions about Code Insights should be routed to the [Code Insights Team](../product-engineering/engineering/code-graph/code-insights/index.md)
 
 ## Step 4: File a Github issue
 

@@ -2,7 +2,7 @@
 
 literal_search:
   title: Literal Search
-  product_team: search
+  product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   compatibility:
@@ -21,7 +21,7 @@ literal_search:
 
 regexp_search:
   title: Regular Expression Search
-  product_team: search
+  product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   compatibility:
@@ -40,7 +40,7 @@ regexp_search:
 
 structural_search:
   title: Structural Search
-  product_team: search
+  product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   compatibility:
@@ -59,7 +59,7 @@ structural_search:
 
 diff_commit_search:
   title: Diff/Commit Search
-  product_team: search
+  product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   compatibility:
@@ -78,7 +78,7 @@ diff_commit_search:
 
 code_monitoring:
   title: Code Monitoring
-  product_team: search
+  product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   compatibility:
@@ -97,7 +97,7 @@ code_monitoring:
 
 code_monitoring_email_notifications:
   title: Code Monitoring E-mail Notifications
-  product_team: search
+  product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   compatibility:
@@ -116,12 +116,12 @@ code_monitoring_email_notifications:
 
 code_monitoring_webhooks:
   title: Code Monitoring Webhooks
-  product_team: search
+  product_team: search_product
   maturity: not_implemented
 
 saved_searches:
   title: Saved Searches
-  product_team: search
+  product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#saved-searches
   compatibility:
@@ -140,7 +140,7 @@ saved_searches:
 
 search_contexts:
   title: Search Contexts
-  product_team: search
+  product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#search-contexts
   compatibility:

@@ -5,7 +5,7 @@ Sourcegraph is an all-remote company, which means:
 - All teammates are encouraged to work remotely. Sourcegraph provides a budget for home offices or office spaces to teammates as needed.
 - We use our business office address in San Francisco to provide a mailing address, for corporate filings, and on-site workplaces as legally required.
 - We work [asynchronously](../asynchronous-communication.md) across time zones and continents.
-  - You choose when you want to work. (Most people work the normal working hours for their timezone.)
+  - You choose when you want to work. (Most people work the normal working hours for their time zone.)
   - You don't need to ask permission or tell anyone if you need to step out.
   - We try to limit the number of synchronous meetings, but there are some [company](../../communication/company_meeting.md) and team meetings that you need to attend which might be outside of your normal working hours. We do our best to optimize meeting times for all involved participants.
 
@@ -17,7 +17,7 @@ Having a shared set of values and trust among teammates is the foundation for a 
 
 With an all-remote team, there are a few things to be extra mindful of.
 
-All-remote teams like ours rely heavily on written communication. Nothing else works when you want to communicate and coordinate work across many timezones. Unfortunately written communication lacks some valuable cues that in-person communication provides.
+All-remote teams like ours rely heavily on written communication. Nothing else works when you want to communicate and coordinate work across many time zones. Unfortunately written communication lacks some valuable cues that in-person communication provides.
 
 - The speaker's non-verbal cues (e.g., tone, facial expression, posture) modulate how the listener perceives the words being said.
   - Without this context that people are used to, written communication can feel cold and negative by default, unless the writer makes a conscious effort to lead with positivity (e.g., "Great!", "Thanks!", "I agree!"). This becomes less of a risk if the speaker and listener already have a good working relationship.
@@ -30,7 +30,7 @@ At Sourcegraph, we support these kinds of interactions in many ways. Here are a 
 
 1. We use https://donut.com to schedule 1-1s between random teammates each week.
 1. In addition to our weekly company meeting, weekly team meetings, and regular 1-1s with your manager, teams schedule regular optional "watercooler" meetings with no agenda where teammates can join and chit-chat. Teammates also frequently hop on a video chat to chat, pair program, or work through an issue together (just like you would in an office).
-1. We have [travel budgets](../../finance/travel.md) so teammates can meet up with their team to bond.
+1. We have [travel budgets](../../benefits-pay-perks/benefits-perks/travel/index.md) so teammates can meet up with their team to bond.
 
 ### Is it harder to support less experienced teammates on an all-remote team?
 
@@ -46,7 +46,7 @@ Some people prefer to work in a really flexible way, which can sometimes mean th
 
 There is **no** expectation that people will be responsive over the weekend/vacation/evening/etc except some circumstances that do require this, but generally there will be early/predictable notice — e.g., on-call duty.
 
-Tip: [Configure](../../engineering/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
+Tip: [Configure](../../product-engineering/engineering/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
 After that it is just a matter of not checking your work email (or Slack) at times that you don’t want to do work. Slack has settings to pause notifications, and you can remove work email from your phone if that would help you not check it during non-work times.
 
 ## Remote hackathons
@@ -65,6 +65,6 @@ Just because we're remote, does not mean we don't have hackathons. Teams, organi
 - [Remote Work Encyclopedia](http://remoteworkencyclopedia.com/)
 - [Remote-only manifesto](https://www.remoteonly.org/)
 - [Zapier's guide to remote work](https://zapier.com/learn/remote-work/)
-- Invision all-remote blog posts [1](https://www.invisionapp.com/inside-design/studio-remote-design-team/) [2](https://www.invisionapp.com/inside-design/remote-company-culture/)
+- InVision all-remote blog posts [1](https://www.invisionapp.com/inside-design/studio-remote-design-team/) [2](https://www.invisionapp.com/inside-design/remote-company-culture/)
 - [Why Buffer became all-remote](https://open.buffer.com/no-office/)
 - [Martin Fowler on remote vs. co-located](https://martinfowler.com/articles/remote-or-co-located.html)

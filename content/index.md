@@ -18,19 +18,20 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [All-remote](company/remote/index.md)
 - [Asynchronous communication](company/asynchronous-communication.md)
-- [Strategy](company/strategy/index.md)
-- [Goals](company/goals/index.md)
-- [Team](company/team/index.md)
-  - [Org chart](company/team/org_chart.md)
-  - [Teammates](./company/team/index.md)
+- [Strategy](strategy-goals/strategy/index.md)
+- [Goals](strategy-goals/goals/index.md)
+- [Team](team/index.md)
+  - [Org chart](team/org_chart.md)
+  - [Teammates](team/index.md)
   - [Careers](https://boards.greenhouse.io/sourcegraph91)
-- [CEO](ceo/index.md)
+- [CEO](team/ceo/index.md)
 - [Communication](communication/index.md)
   - [Content guidelines](communication/content_guidelines/index.md)
 - [Customer-first](company/customer-first.md)
 - [General office information](company/general-office-info.md)
 - [Community](community/index.md)
 - [Leadership](leadership/index.md)
+- [Benefits, Pay and Perks](benefits-pay-perks/index.md)
 
 ## Teams at Sourcegraph
 
@@ -40,19 +41,21 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Team](people-ops/index.md#team)
   - [Goals](people-ops/index.md#goals)
 
-### [Product](product/index.md)
+### [Product & Engineering](product-engineering/index.md)
 
-- [Strategy](company/strategy/index.md)
-- [Product](product/index.md)
-  - [Product Management](product/product_management/index.md)
-  - [Product Design](product/design/index.md)
+#### [Product](product-engineering/product/index.md)
 
-### [Engineering](engineering/index.md)
+- [Strategy](strategy-goals/strategy/index.md)
+- [Product](product-engineering/product/index.md)
+  - [Product Management](product-engineering/product/product_management/index.md)
+  - [Product Design](product-engineering/product/design/index.md)
+
+#### [Engineering](product-engineering/engineering/index.md)
 
 <!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
 
-- [Engineering](./engineering/index.md)
-  - [Engineering orgs and teams](./engineering/eng_org.md)
+- [Engineering](product-engineering/engineering/index.md)
+  - [Engineering orgs and teams](product-engineering/engineering/eng_org.md)
 
 ### [Customer Support](support/index.md)
 
@@ -69,7 +72,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Developer Education](marketing/education/index.md)
 - [Brand](marketing/brand/index.md)
 - [Social Media](marketing/socialmedia.md)
-- [Community Relations](marketing/community_relations.md)
+- [Community Relations](marketing/community_relations/index.md)
 
 ### [Sales](sales/index.md)
 

@@ -1,6 +1,6 @@
 ## Kelvin Lee
 
-(Last updated 2021-07-09th)
+(Last updated 2021-11-28th)
 
 ### View on Customer Support
 
@@ -27,8 +27,6 @@ I think this also depends on the problem at hand.
 ### Preferred way to be recognized
 
 Aaa I don't really do well with public recognition. I guess 1:1 recognition might be alright? I am not good with attention nor praise nor things like that. I feel like jobs and duties are simply what must be done, and being praised for them feels kind of weird? I don't know haha.
-
-How about complimenting my 4-chairs though. I might be amused by that.
 
 ### What I enjoy at work
 
@@ -77,7 +75,7 @@ Never finding or creating long-term friendships with like-minded people. If peop
 
 ### How I eat fries
 
-I sometimes prefer them with no salt. Or just a little bit of salt. I wish restaurants wouldn't salt them so much ]:
+I sometimes prefer them with no salt. Or just a little bit of salt. I wish restaurants wouldn't salt them so much ]: I have also recently enjoyed fries with mayo.
 
 ### Sun, moon and rising signs
 

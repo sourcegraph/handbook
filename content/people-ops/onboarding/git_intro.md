@@ -28,7 +28,7 @@ To visualize the Handbook git flow specifically, see the diagram [here](../../ha
 
 ## Unique to Sourcegraph
 
-For repositories such as `sourcegraph/sourcegraph` you should make pull requests from branches on the main repository instead of forking and making a pull request. This is due to how CI currently only runs on trusted contributors. See [external contributions](../../engineering/external_contributions.md)
+For repositories such as `sourcegraph/sourcegraph` you should make pull requests from branches on the main repository instead of forking and making a pull request. This is due to how CI currently only runs on trusted contributors. See [external contributions](../../product-engineering/engineering/external_contributions.md)
 
 ## More information
 

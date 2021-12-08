@@ -18,16 +18,30 @@ $base = Get-GitCommit $BaseRef
 $largeChanges =
   # Get all commits between HEAD and the base ref
   Get-GitCommit -Since HEAD -Until $base.Sha |
-  # Compare commit to the parent
-  ForEach-Object { Compare-GitTree -ReferenceRevision ($_.Parents | Select-Object -First 1).Sha -DifferenceRevision $_.Sha } |
-  # Flatten changes collection
-  ForEach-Object { $_ } |
-  # Ignore deleted files and files outside the content/ folder
-  Where-Object { $_.Status -ne 'Deleted' -and $_.Path -like 'content/*' } |
+  ForEach-Object {
+    $commit = $_
+    # Compare commit to all parents
+    $commit.Parents |
+      ForEach-Object { $parent = $_; Compare-GitTree -ReferenceRevision $parent.Sha -DifferenceRevision $commit.Sha } |
+      # Flatten changes collection
+      ForEach-Object { $_ } |
+      # Only consider changes that are present compared to all parents,
+      # meaning the change should appear exactly as many times as there are parents.
+      Group-Object -Property Oid |
+      Where-Object { $_.Count -eq $commit.Parents.Count } |
+      ForEach-Object { $_.Group[0] }
+  } |
+  # Ignore deleted files, renamed/moved files and files outside the content/ folder
+  Where-Object { $_.Status -notin 'Deleted','Renamed' -and $_.Path -like 'content/*' } |
   # Filter for binary blobs larger than the limit
   Where-Object {
     $blob = $repo.Lookup($_.Oid)
-    Write-Information "$($_.Path) $($blob.Size) $($blob.IsBinary)"
+    $message = "{0} Size={1:N0}B IsBinary={2}" -f $_.Path, $blob.Size, $blob.IsBinary
+    if ($blob.Size -gt $limit -and $blob.IsBinary) {
+      Write-Warning $message
+    } else {
+      Write-Information $message
+    }
     $blob.Size -gt $limit -and $blob.IsBinary
   }
 
@@ -43,9 +57,9 @@ if ($largeChanges) {
     $message += "`nIf the images you want to add are _diagrams_, _infographics_, or other image types containing **text**, please consider exporting them as [SVG](https://blog.hubspot.com/website/what-is-an-svg-file) instead, which are **allowed** to be added to the repository, more accessible and higher quality.`n`n"
   }
 
-  # TODO: Add link to "Editing the handbook" page once that contains more instructions.
-
   $message += "`n" +
+    "You can find more information on the handbook page [Adding images or video to the handbook](https://handbook.sourcegraph.com/handbook/editing/handbook-images-video).`n" +
+    "`n" +
     "This branch will need to be **rebased** with the binary file completely removed, otherwise the file will still be present in the repository history. @sourcegraph/handbook-support will be happy to help with this.`n" +
     "`n" +
     "The following large binary files $still need to be removed:`n" +
