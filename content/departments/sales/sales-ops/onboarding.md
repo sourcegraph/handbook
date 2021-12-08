@@ -4,15 +4,15 @@ Welcome to Sourcegraph!
 
 ## Week 1 - getting started
 
-- Start by completing [general onboarding](../../company-info-and-process/onboarding/index.md#general-onboarding-checklist) and [sales onboarding](../onboarding/index.md)
+- Start by completing [general onboarding](../../../company-info-and-process/onboarding/index.md#general-onboarding-checklist) and [sales onboarding](../onboarding/index.md)
 
 ### Get to know the Sales team
 
-- Schedule meetings with every member of the [Sales](../../team/org_chart.md#Sales) and [Customer Engineering](../../team/org_chart.md#Customer-Engineering) organizations.
+- Schedule meetings with every member of the [Sales](../../../team/org_chart.md#Sales) and [Customer Engineering](../../../team/org_chart.md#Customer-Engineering) organizations.
 - Read through the Sales team handbook to understand how the team operates, including:
   - [Definitions](../index.md#definitions)
   - [Deal stages](../index.md#stages)
-  - [Using Salesforce](../salesforce.md)
+  - [Using Salesforce](../tools/salesforce.md)
 - Check out key reports in Salesforce, including:
   - Our [current quarter pipeline](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000005SopwEAC/view?queryScope=userFolders)
   - Our [next quarter pipeline](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006tKicEAE/view?queryScope=userFolders)
@@ -30,6 +30,6 @@ Welcome to Sourcegraph!
 
 ### Get to know our tools
 
-- Get access to our Salesforce, and read [how we use it](../salesforce.md)
+- Get access to our Salesforce, and read [how we use it](../tools/salesforce.md)
 - Review [our financial models](../../finance/index.md#sources-of-truth) by visiting the links in our finance handbook, including our current annual plan, our ARR tracker, and our expansion ARR tracker and forecast
 - Review our recent [board decks](https://drive.google.com/drive/folders/1UeBRZght8of2RUhDVghl9t6Qj_uVghYo)

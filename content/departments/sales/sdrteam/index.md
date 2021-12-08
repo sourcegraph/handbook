@@ -4,22 +4,22 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Members
 
-- [Nicholas Gage](../team/index.md#nicholas-gage), Head of Sales Development
+- [Nicholas Gage](../../../team/index.md#nicholas-gage), Head of Sales Development
   - West Outbound SDRs
-    - [Kevin "Quigs" Quiqley](../team/index.md#kevin-quigley)
-    - [Brannon Rouse](../team/index.md#brannon-rouse)
-    - [Carter Jaenichen](../team/index.md#carter-jaenichen)
+    - [Kevin "Quigs" Quiqley](../../../team/index.md#kevin-quigley)
+    - [Brannon Rouse](../../../team/index.md#brannon-rouse)
+    - [Carter Jaenichen](../../../team/index.md#carter-jaenichen)
     - Open
   - East Outbound SDRs
-    - [Sam Cregg](../team/index.md#sam-cregg)
-    - [Ellie Dawson](../team/index.md#ellie-dawson)
+    - [Sam Cregg](../../../team/index.md#sam-cregg)
+    - [Ellie Dawson](../../../team/index.md#ellie-dawson)
     - [Daniel Gwyn]
     - Open
   - Inbound SDRs
-    - [Mark "Markie" Muldez](../team/index.md#mark-markie-muldez)
+    - [Mark "Markie" Muldez](../../../team/index.md#mark-markie-muldez)
     - Open
   - EMEA SDRs
-    - [Jagna Feierabend](../team/index.md#jagna-feierabend)
+    - [Jagna Feierabend](../../../team/index.md#jagna-feierabend)
     - Open
   - APAC SDRs
     - Open
@@ -41,7 +41,7 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Inbound Workflow
 
-See [How we use Salesforce](./salesforce.md#how-we-use-salesforce) to learn more about SDR Inbound Workflow.
+See [How we use Salesforce](../tools/salesforce.md#how-we-use-salesforce) to learn more about SDR Inbound Workflow.
 
 ## Outbound Workflow
 
@@ -152,7 +152,7 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
   - Any exception will be on a ‘needs of the business’ basis and require SVP approval
     - e.g. a rep is on track and has an unexpected life event that requires time off that was unexpected
     - e.g. a rep has been on track and has a change in support structure that requires a ‘mini-ramp” (moving territories/segments/etc.)
-- [Consistent demonstrations of Sourcegraph Core Values](../company-info-and-process/values/index.md#sourcegraph-values)
+- [Consistent demonstrations of Sourcegraph Core Values](../../../company-info-and-process/values/index.md#sourcegraph-values)
 
   **Interview-** a one hour presentation including a mock sales meeting
 

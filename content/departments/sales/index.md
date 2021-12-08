@@ -5,16 +5,16 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Account Tiers](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit?ts=5f7e4023#heading=h.qdguquy7dt7i)
 - [Pricing](https://about.sourcegraph.com/pricing)
 - [Price List](https://docs.google.com/spreadsheets/d/1Vea0kr4Mx6AIs9YIHytTzDv9D1E7TY235hO49ZOB4I0/edit#gid=1935459439)
-- [Common questions from prospective customers](common_customer_questions.md)
+- [Common questions from prospective customers](tools/common_customer_questions.md)
 - [Sales team onboarding](onboarding/index.md)
-- [SDR Team](sdrteam.md)
+- [SDR Team](sdrteam/index.md)
 - [Sales strategy & ops team](sales-ops/index.md)
-- [Sales interview process](interviews/index.md)
-- [Recording lead and customer emails, calls, and notes](records.md)
-- [Using Salesforce](salesforce.md)
-- [Sales Resources](salesresources.md)
-- [Engaging with Legal](saleslegal.md)
-- [Engaging with Security](salessecurity.md)
+- [Sales interview process](hiring/index.md)
+- [Recording lead and customer emails, calls, and notes](tools/records.md)
+- [Using Salesforce](tools/salesforce.md)
+- [Sales Resources](tools/salesresources.md)
+- [Engaging with Legal](tools/saleslegal.md)
+- [Engaging with Security](tools/salessecurity.md)
 
 ## Pipeline, data, and models
 
@@ -30,32 +30,32 @@ Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.goo
 
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
-- [Gregg Stone](../team/index.md#gregg-stone) (VP of Sales)
-- [Dudley Nostrand](../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
-  - [Trey Sizemore](../team/index.md#trey-sizemore) (Sales Enablement Manager)
-- [Scott Cambell](../team/index.md#scott-campbell) (Regional Director of East)
-  - [Kai Passo](../team/index.md#kai-passo)
-  - [Bill Kolman](../team/index.md#bill-kolman)
-  - [Eli Rothschild](../team/index.md#eli-rothschild)
-  - [Scott Cambell](../team/index.md#scott-campbell)
-  - [Caitlin Moran](../team/index.md#caitlin-moran)
-  - [Ken Mills](../team/index.md#ken-mills)
-  - [Brady Hermann](../team/index.md#brady-herrmann)
-- [Greg Bastis](../team/index.md#greg-bastis) (Regional VP of West)
-  - [Owen Brennan](../team/index.md#owen-brennan)
-  - [Chris Surdi](../team/index.md#chris-surdi)
+- [Gregg Stone](../../team/index.md#gregg-stone) (VP of Sales)
+- [Dudley Nostrand](../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
+  - [Trey Sizemore](../../team/index.md#trey-sizemore) (Sales Enablement Manager)
+- [Scott Cambell](../../team/index.md#scott-campbell) (Regional Director of East)
+  - [Kai Passo](../../team/index.md#kai-passo)
+  - [Bill Kolman](../../team/index.md#bill-kolman)
+  - [Eli Rothschild](../../team/index.md#eli-rothschild)
+  - [Scott Cambell](../../team/index.md#scott-campbell)
+  - [Caitlin Moran](../../team/index.md#caitlin-moran)
+  - [Ken Mills](../../team/index.md#ken-mills)
+  - [Brady Hermann](../../team/index.md#brady-herrmann)
+- [Greg Bastis](../../team/index.md#greg-bastis) (Regional VP of West)
+  - [Owen Brennan](../../team/index.md#owen-brennan)
+  - [Chris Surdi](../../team/index.md#chris-surdi)
   - Will Camp
-  - [Jon Kishpaugh](../team/index.md#jon-kishpaugh)
-  - [James Clifford](../team/index.md#james-clifford)
-  - [Natalie Khoury](../team/index.md#natalie-khoury)
-  - [Rashad Bartholomew](../team/index.md#rashad-bartholomew)
+  - [Jon Kishpaugh](../../team/index.md#jon-kishpaugh)
+  - [James Clifford](../../team/index.md#james-clifford)
+  - [Natalie Khoury](../../team/index.md#natalie-khoury)
+  - [Rashad Bartholomew](../../team/index.md#rashad-bartholomew)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
-  - Suki Randhawa(../team/index.md#suki-randhawa)
+  - Suki Randhawa(../../team/index.md#suki-randhawa)
 
 ### Roles
 
-See [roles](./roles/index.md) page.
+See [roles](roles/index.md) page.
 
 ## How sales works with other Sourcegraph teams
 

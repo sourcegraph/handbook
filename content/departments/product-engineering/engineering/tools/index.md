@@ -3,6 +3,8 @@
 Internal tools used at Sourcegraph.
 
 - [Slackgenie](./slackgenie.md)
+- [Observability](observability/index.md)
+- [Infrastructure](infrastructure/index.md)
 
 In-house tools:
 

@@ -4,7 +4,7 @@ To take this quiz:
 
 1. Copy this list of questions to a new Google Doc.
 1. Write an answer for each question.
-1. Share the doc with your manager and add a link to the doc from your [1-1](../../company-info-and-process/communication/1-1.md) doc with your manager.
+1. Share the doc with your manager and add a link to the doc from your [1-1](../../../company-info-and-process/communication/1-1.md) doc with your manager.
 1. Schedule time with your manager to review your answers.
    - Your manager will also ask related questions to help make sure you understand the subject matter beyond the written answers.
 
