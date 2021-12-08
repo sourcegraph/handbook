@@ -20,16 +20,16 @@ This team is responsible for the continuous deployment of Sourcegraph.com
 Our Cloud monitoring infrastructure (Prometheus / Grafana)
 
 ## Members
-
-- [Jennifer Mitchell](../../../../company/team/index.md#jennifer-mitchell) - Engineering Manager
-  - [Dax McDonald](../../../../company/team/index.md#dax-mcdonald)
-  - [Daniel Dides](../../../../company/team/index.md#daniel-dides)
-  - [FH] Starts Dec 6
+- [Jennifer Mitchell](../../../../team/index.md#jennifer-mitchell) - Engineering Manager
+  - [Dax McDonald](../../../../team/index.md#dax-mcdonald)
+  - [Daniel Dides](../../../../team/index.md#daniel-dides)
+  - [Filip Haftek](../../../../team/index.md#filip-haftek)
 
 ## Content
 
 - [How to make configuration changes to sourcegraph.com](./update_sourcegraph_website.md)
 - [Onboarding](onboarding.md)
+- [How to add TXT Records](txt_dns.md)
 
 ## How to contact the team and ask for help
 

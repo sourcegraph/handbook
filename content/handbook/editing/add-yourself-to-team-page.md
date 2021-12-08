@@ -10,7 +10,7 @@
 1. In the edit view, copy the example below, paste it at the end of the edit view, and make it about yourself! Look at others' bios for more examples.
 1. Under "Commit changes" at the bottom of the page, replace the "Update team.yml" text with a summary of your change, e.g., Add Marie to team page.
 1. Click the green "Commit changes" button. If you do not see the green "Commit Changes" button, refer to step 1. Successful changes will become visible shortly (but not immediately).
-1. Consider adding yourself to the [team members locations map](../../company/team/locations.md).
+1. Consider adding yourself to the [team members locations map](../../team/locations.md).
 
 You can find an example template below that uses all available features.
 
@@ -52,7 +52,7 @@ director_design:
   hidden_on_team_page: true
 ```
 
-Instead of creating a new entry, you should update this one. Change the top level name of the object to your own name separated by underscores, replace the value of the name field with your own name, remove `(Interim)` from the title, and finally remove entirely the `hidden_on_team_page` field. You don't need to change thge `manager_role_slug` value.
+Instead of creating a new entry, you should update this one. Change the top level name of the object to your own name separated by underscores, replace the value of the name field with your own name, remove `(Interim)` from the title, and finally remove entirely the `hidden_on_team_page` field. You don't need to change the `manager_role_slug` value.
 
 ### New employees
 

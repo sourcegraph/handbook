@@ -1,8 +1,8 @@
 # Sourcegraph Cloudflare monitoring developer guide
 
-> **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
-
 This document gives a quick overview of how to access Cloudflare analytics, and how to interface with their GraphQL API. Note that in most cases, you'll be able to get much richer metrics by accessing our [existing monitoring dashboards](monitoring.md) on our own internal monitoring.
+
+> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), and for Cloud-specific documentation see the [Cloud monitoring documentation](./cloud.md).
 
 ## GraphQL API
 

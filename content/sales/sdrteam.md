@@ -4,22 +4,22 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Members
 
-- [Nicholas Gage](../company/team/index.md#nicholas-gage), Head of Sales Development
+- [Nicholas Gage](../team/index.md#nicholas-gage), Head of Sales Development
   - West Outbound SDRs
-    - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley)
-    - [Brannon Rouse](../company/team/index.md#brannon-rouse)
-    - [Carter Jaenichen](../company/team/index.md#carter-jaenichen)
+    - [Kevin "Quigs" Quiqley](../team/index.md#kevin-quigley)
+    - [Brannon Rouse](../team/index.md#brannon-rouse)
+    - [Carter Jaenichen](../team/index.md#carter-jaenichen)
     - Open
   - East Outbound SDRs
-    - [Sam Cregg](../company/team/index.md#sam-cregg)
-    - [Ellie Dawson](../company/team/index.md#ellie-dawson)
+    - [Sam Cregg](../team/index.md#sam-cregg)
+    - [Ellie Dawson](../team/index.md#ellie-dawson)
     - [Daniel Gwyn]
     - Open
   - Inbound SDRs
-    - [Mark "Markie" Muldez](../company/team/index.md#mark-markie-muldez)
+    - [Mark "Markie" Muldez](../team/index.md#mark-markie-muldez)
     - Open
   - EMEA SDRs
-    - [Jagna Feierabend](../company/team/index.md#jagna-feierabend)
+    - [Jagna Feierabend](../team/index.md#jagna-feierabend)
     - Open
   - APAC SDRs
     - Open
@@ -28,12 +28,16 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Quick Links
 
-- [Inbound Workflow](#inbound-workflow)
-- [Outbound Workflow](#outbound-workflow)
-- [SDR Handoff Guide](#sdr-to-ae-handoff)
-- [Best Practices](#best-practices)
-- [Tech Stack](#tech-stack)
-- [Team Resources Folder](https://drive.google.com/drive/folders/1iTg6RUucNXqRH_R8XAFcZjBJrVsKlosY?usp=sharing)
+- [SDR Team](#sdr-team)
+  - [Members](#members)
+  - [Quick Links](#quick-links)
+  - [Inbound Workflow](#inbound-workflow)
+  - [Outbound Workflow](#outbound-workflow)
+  - [AE - New Opportunity Workflow Post Creation by SDR](#ae---new-opportunity-workflow-post-creation-by-sdr)
+  - [SDR to AE Handoff](#sdr-to-ae-handoff)
+  - [Best Practices](#best-practices)
+  - [Tech Stack](#tech-stack)
+  - [SDR Promotion Process](#sdr-promotion-process)
 
 ## Inbound Workflow
 
@@ -148,7 +152,7 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
   - Any exception will be on a ‘needs of the business’ basis and require SVP approval
     - e.g. a rep is on track and has an unexpected life event that requires time off that was unexpected
     - e.g. a rep has been on track and has a change in support structure that requires a ‘mini-ramp” (moving territories/segments/etc.)
-- [Consistent demonstrations of Sourcegraph Core Values](../company/values.md#sourcegraph-values)
+- [Consistent demonstrations of Sourcegraph Core Values](../company-info-and-process/values/index.md#sourcegraph-values)
 
   **Interview-** a one hour presentation including a mock sales meeting
 

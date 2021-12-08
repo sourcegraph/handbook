@@ -113,8 +113,8 @@ For Okta help, setup, and integration questions: #it-tech-ops Slack channel or <
 
 ### Who are the Okta Super Admins?
 
-[Nate Tang](../company/team/index.md#nate-tang), Tech Ops, nate@sourcegraph.com
+[Nate Tang](../team/index.md#nate-tang), Tech Ops, nate@sourcegraph.com
 
-[Maureen Loughrey](../company/team/index.md), Tech Ops, maureen.loughrey@sourcegraph.com
+[Maureen Loughrey](../team/index.md), Tech Ops, maureen.loughrey@sourcegraph.com
 
-[Nicky Van Maanen](../company/team/index.md#nicky-van-maanen), Tech Ops, nicky@sourcegraph.com
+[Nicky Van Maanen](../team/index.md#nicky-van-maanen), Tech Ops, nicky@sourcegraph.com

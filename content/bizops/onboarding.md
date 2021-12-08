@@ -12,16 +12,16 @@ You'll have to get some basics set up in your first few days:
 
 ### Understand company and team mission, values and goals
 
-- [Sourcegraph values](../company/values.md)
-- [Sourcegraph strategy](../company/strategy/index.md)
-- [Sourcegraph OKRs](../company/goals/index.md)
+- [Sourcegraph values](../company-info-and-process/values/index.md)
+- [Sourcegraph strategy](../strategy-goals/strategy/index.md)
+- [Sourcegraph OKRs](../strategy-goals/goals/index.md)
 - [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/63)
 
 ### Understand Sourcegraph communication and documentation standards
 
 - We're a handbook-first company. Learn all about the handbook on its [handbook page](../handbook/index.md).
-- Join relevant Slack channels. The main channels are [listed in the handbook](../communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with.
-- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../company/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../communication/rfcs/index.md).
+- Join relevant Slack channels. The main channels are [listed in the handbook](../company-info-and-process/communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with.
+- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../company-info-and-process/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../company-info-and-process/communication/rfcs/index.md).
 
 ### Onboarding sessions
 
@@ -41,11 +41,11 @@ Your manager will help you schedule the following training sessions:
   - On-prem deployment to Google BigQuery to Looker data flow
 - Sales and marketing data overview (focused on the data instead of the tools)
 - GitHub and git walk-through (Q&A)
-  - Read through the [git intro](../people-ops/onboarding/git_intro.md) and [add yourself](../handbook/editing/add-yourself-to-team-page.md) to the team page
+  - Read through the [git intro](../company-info-and-process/onboarding/git-intro/index.md) and [add yourself](../handbook/editing/add-yourself-to-team-page.md) to the team page
 
 ### Get to know fellow teammates
 
-- Schedule 1:1s with teammates to start getting to know who you'll be working with! Ask your manager for a list of people you could get started with! The [org chart](../company/team/org_chart.md) is also good place to start.
+- Schedule 1:1s with teammates to start getting to know who you'll be working with! Ask your manager for a list of people you could get started with! The [org chart](../team/org_chart.md) is also good place to start.
 - Begin joining relevant weekly team meetings wherever possible. For example, if you will be working closely with our commercial teams (e.g. Sales, Marketing, Customer Engineering), join our weekly Customer Ops sync, the company pipeline review, and more. Your manager will help you identify and get invites to the right list of meetings.
 
 ## Weeks 2 and 3

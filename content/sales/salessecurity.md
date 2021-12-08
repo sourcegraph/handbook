@@ -6,7 +6,7 @@ The CE team should take the first pass on inbound questionnaires using the [list
 
 Once the first pass is done, sign up for a security questionnaire review in [this signup sheet](https://docs.google.com/document/d/1Q6J8ZwPYDX-jJ0YU2l2CWXX3qboKD2XTbIeg5Q-NBAk/edit#).
 
-For expedited reviews, contact [Dan Mckean](../company/team/index.md#dan-mckean).
+For expedited reviews, contact [Dan Mckean](../team/index.md#dan-mckean).
 
 > 💡 **Top Tip!** Add a search engine to Chrome to specifically search the folder of reference questionnaires.
 >

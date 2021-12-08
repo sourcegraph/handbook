@@ -10,7 +10,7 @@ We designed this exercise to measure your understanding of callbacks and asynchr
 
 - You will choose a two hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
 - At your chosen date and time, we will send you a zipped TypeScript project that contains instructions and some unit tests.
-- TypeScript is a superset of JavaScript, so if you are comfortable with JavaScript and have experience reading any typed language, then you should be fine. We recommend reading through the [TypeScript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html) if you aren't already familiar with TypeScript.
+- TypeScript is a superset of JavaScript, so if you are comfortable with JavaScript and have experience reading any typed language, then you should be fine. We recommend reading through the [TypeScript docs](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) if you aren't already familiar with TypeScript.
 - You should have Node.js (>=8.16.0) installed on your computer.
 - You can look up documentation on the Internet while you are coding.
 - You may use open-source libraries, but most candidates don't find it necessary. For some parts of the exercise, we'll explicitly require that you not use any.
@@ -114,7 +114,7 @@ We designed this exercise to measure your ability to show logical thinking and a
 
 - You will choose a two hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
 - At your chosen date and time, we will send you a zipped TypeScript project that contains instructions.
-- TypeScript is a superset of JavaScript, so if you are comfortable with JavaScript and have experience reading any typed language, then you should be fine. We recommend reading through the [TypeScript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html) if you aren't already familiar with TypeScript.
+- TypeScript is a superset of JavaScript, so if you are comfortable with JavaScript and have experience reading any typed language, then you should be fine. We recommend reading through the [TypeScript docs](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) if you aren't already familiar with TypeScript.
 - You should have Node.js (>=14) installed on your computer.
 - You can look up documentation on the Internet while you are coding.
 - You may use open-source libraries, but most candidates don't find it necessary.

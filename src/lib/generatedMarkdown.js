@@ -290,3 +290,24 @@ export async function generateReportingStructure(starting_role) {
   pageContent += getReports(teamMembers, starting_role, 1)
   return pageContent
 }
+
+export async function generateEngineeringOwnershipTable() {
+  const entries = await readYamlFile('data/engineering_ownership.yml')
+  let pageContent = ''
+  const addRow = colData => {
+    pageContent += `| ${String(colData.join(' | '))} |\n`
+  }
+
+  const columnNames = Object.keys(entries[0] || {})
+  addRow(columnNames)
+
+  const splitters = columnNames.map(() => '---')
+  addRow(splitters)
+
+  for (const entry of entries) {
+    const colData = columnNames.map(name => entry[name])
+    addRow(colData)
+  }
+
+  return pageContent
+}

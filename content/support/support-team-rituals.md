@@ -34,12 +34,12 @@ In order to maintain healthy communication, we...
 
 In order to keep the air clear with each other, we do the following:
 
-- We honor our [Sourcegraph values](../company/values.md), [code of conduct](../communication/code_of_conduct.md), and [team ethos](index.md)
+- We honor our [Sourcegraph values](../company-info-and-process/values/index.md), [code of conduct](../company-info-and-process/communication/code_of_conduct.md), and [team ethos](index.md)
 - We make it clear when are committing to do something, we make it equally clear when we cannot, and we adjust and communicate accordingly when life happens
 - We let each other know immediately when we are feeling like it's anything other than feasible to get done what we have committed to doing
 - We let each other know immediately the moment we realize something we committed to doing may be at risk somehow
 
-## When we will be afk or ooo
+## When we are away from our keyboard (afk) or out of office (ooo)
 
 If you are going to away from your keyboard (afk) or out of office (ooo) -- planned or unplanned, for your focus day or time off -- the team relies on you using your agency to make sure what you ensure there is a plan to cover what have committed to being responsible for.
 

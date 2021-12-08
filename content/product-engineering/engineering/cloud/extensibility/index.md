@@ -9,7 +9,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#sara-lee" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#sara-lee" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -20,7 +20,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#murat-sutunc" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#murat-sutunc" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -31,7 +31,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#beatrix-woo" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#beatrix-woo" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -42,7 +42,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#erzhan-torokulov" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#erzhan-torokulov" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -53,7 +53,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../company/team/index.md#tharuntej-kandala" target="_blank" rel="noopener">
+          <a href="../../../../team/index.md#tharuntej-kandala" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -77,7 +77,7 @@ The extensibility team owns our code host and third-party integrations (includin
 ## Important Links
 
 - [Processes](processes.md)
-- [Goals](../../../../company/strategy/cloud/extensibility/index.md)
+- [Goals](../../../../strategy-goals/strategy/cloud/extensibility/index.md)
 - Products
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
@@ -93,7 +93,7 @@ Sourcegraph powers your first stop for any information about your code, for any 
 
 ## Responsibilities
 
-_The extensibility team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the extensibility team. You can find our current priorities in our [goals page](../../../../company/strategy/cloud/extensibility/index.md)._
+_The extensibility team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the extensibility team. You can find our current priorities in our [goals page](../../../../strategy-goals/strategy/cloud/extensibility/index.md)._
 
 1. Sourcegraph extensions
    - Providing a Sourcegraph extension API that enables developers to bring data from their favorite developer tools into their Sourcegraph workflow.

@@ -5,8 +5,9 @@
 - [Engineering management](engineering-management.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
-  - [How we use RFCs](../../communication/rfcs/index.md)
+  - [How we use RFCs](../../company-info-and-process/communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
+- [Engineering ownership](engineering_ownership.md) - who owns what
 - Practices & Philosophy
   - [Planning](planning.md)
   - [Customer Issues](../../support/engaging-other-teams.md)
@@ -18,11 +19,10 @@
   - [External contributions](external_contributions.md)
   - [Licenses](licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
-- Tooling
-  - [Configuring Zoom to send recordings to Slack automatically](configuring_zoom_recordings_to_slack_automatically.md)
-  - [Slackgenie](slackgenie.md)
+- [Tooling](tools/index.md)
+  - [Slackgenie](./tools/slackgenie.md)
 - Infrastructure
-  - [Cloud environments](environments.md)
+  - [Internal infrastructure](infrastructure/index.md)
   - [Deployments](deployments/index.md)
   - [On-call](incidents/on_call.md)
   - [Observability](observability/index.md)
@@ -41,7 +41,7 @@
 
 ## Communication
 
-For a list of engineering relevant Slack channels to join see the [team chat](../../communication/team_chat.md#engineering) page in the handbook.
+For a list of engineering relevant Slack channels to join see the [team chat](../../company-info-and-process/communication/team_chat.md#engineering) page in the handbook.
 
 ## Repositories
 

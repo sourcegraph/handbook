@@ -38,7 +38,7 @@ You can take part in the hackathon in a few ways:
 
 #### What to write about
 
-As with everything we do, be [customer-first](../../../company/values.md#customer-first). When choosing a topic, consider whether our core audience of developers would be interested in it. If you're a developer, would you click on this post if you saw it on Hacker News?
+As with everything we do, be [customer-first](../../../company-info-and-process/values/index.md#customer-first). When choosing a topic, consider whether our core audience of developers would be interested in it. If you're a developer, would you click on this post if you saw it on Hacker News?
 
 Check out [our ideas doc](https://docs.google.com/document/d/1MmCy_9U0S75Ez_IJpxwGdiHjSKR6PH1PS61b8dLLtyI/edit?usp=sharing), which will be the source of truth for what posts everyone is working on.
 
@@ -62,7 +62,7 @@ Don't worry—you don't need to finish your submission on the day and we won't p
 
 ### Snack stipend
 
-Participants can expense up to $15 for the snacks and beverages of your choice to keep you going on the day! Please see [Submitting expenses](../../../finance/expenses.md) for instructions.
+Participants can expense up to $15 for the snacks and beverages of your choice to keep you going on the day! Please see [Submitting expenses](../../../benefits-pay-perks/pay-expenses/expenses.md) for instructions.
 
 ### Spot/door prizes
 

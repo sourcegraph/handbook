@@ -204,7 +204,7 @@ rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
   role: Senior Product Designer, Batch Changes and Search
-  location: Oceanside, CA, USA 🇺🇸
+  location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
   description: Rob is a designer, developer, and accidental salesman with a penchant for solving business problems with usable design and code. When not making products, he is raising two boys with his wife, working on his boat, or fishing offshore for anything that makes good poke.
@@ -1977,7 +1977,7 @@ varun_gandhi:
   name: Varun Gandhi
   pronouns: he/him
   role: Software Engineer
-  location: Berkeley, CA, USA
+  location: 'Berkeley, CA, USA / Mumbai, India'
   github: varungandhi-src
   email: varun.gandhi@sourcegraph.com
   links: '[Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)'
@@ -2163,6 +2163,45 @@ jennifer_mitchell:
   github: JenRed777
   links: '[LinkedIn](https://www.linkedin.com/in/jennifer-m-302b509/)'
   description: Jennifer lives in Hutto, TX with her partner (Nathan), son (Jack) and 2 dogs (Harvey and Rusty). In her free time she enjoys playing Video Games, watching the latest SciFi movie/show and putting together LEGO.
+
+Nate_Freng:
+  name: Nate Freng
+  pronouns: he/him
+  role: Tech Ops Engineer
+  location: Fargo, ND, USA 🇺🇸
+  email: nate.freng@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/nathanielfreng)'
+  description: Nate lives in Fargo, ND with his wife (Chelsey) and their four kids (Avery, Auden, Alder, and Addison). A great variety of jobs have led to where he is now from driving forklift, in-home healthcare, implementing insurance benefits plans to finally landing in IT where he has had an interest since he was young. Originally graduation college with a B.S. in Human Development and Family Science, Nate has been working almost the past 10 years doing IT work for organizations of various sizes ranging from 100 to 1000 users. Outside of work he spends most of his time  doing things with his family or working on home DIY projects. When left up to his own devices he enjoys podcasts, reading, video games, and all things fitness. Also food, cannot forget food!
+
+greg_seador:
+  name: Greg Seador
+  email: greg.seador@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/gseador/)'
+  github: gseador
+  pronouns: he/him
+  role: Manager, Customer Engineering
+  location: Austin, TX, USA 🇺🇸
+  description: Greg lives in Austin, TX. In his free time he's usually out golfing, trying a new restaurant, adding to his burger spreadsheet, tackling a home improvement project, or listening to a podcast.
+
+oleg_gromov:
+  name: Oleg Gromov
+  pronunciation: '[How to pronounce Oleg](https://www.howtopronounce.com/oleg/5010972)'
+  email: oleg.gromov@sourcegraph.com
+  links: '[gromov.com](https://gromov.com), [@oleggromov](https://twitter.com/oleggromov), [LinkedIn](https://www.linkedin.com/in/oleggromov/), [where is Rostov-on-Don](https://goo.gl/maps/Dv8suXbopw6zQ2fm9)'
+  github: oleggromov
+  role: Software Engineer
+  location: Rostov-on-Don, Russia 🇷🇺
+  description: "Oleg is a software engineer who is experienced in hands-on development and people management. He dedicates his attention to front-end development, although also enjoys full-stack work from product and design to dev-ops and analytics. He is originally from Rostov-on-Don, and after living in the US, Sweden, and UK he's back to his hometown. Supposedly not for long 😅 In his free time, Oleg enjoys playing and listening to rock music, spending time with his son and wife, and playing chess with friends."
+
+filip_haftek:
+  name: Filip Haftek
+  pronouns: he/him
+  role: Software Engineer DevOps
+  location: Kraków, Poland 🇵🇱
+  github: filiphaftek
+  email: filip.haftek@sourcegraph.com
+  links: '[LinkedIn](https://pl.linkedin.com/in/filip-haftek-a5710114)'
+  description: 'Filip is a software engineer DevOps located in Krakow, Poland. He really likes to help people, especially in the areas he has an experience like cloud infrastructure (+ terraform), automation, CI/CD, search engines and the applications performance and monitoring. He loves to spend time with his family, especially skiing, walking through the forests and travelling together. Winter is his favourite part of the year :skier: :snowflake:'
 
 daniel_dides:
   name: Daniel Dides

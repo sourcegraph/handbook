@@ -47,7 +47,7 @@ BambooHR is integrated with multiple systems (Lattice, Rippling, Okta). If Bambo
 
 [Lattice](https://sourcegraph.latticehq.com/login?message=session) is the system we use for formal feedback such as:
 
-- [Onboarding feedback milestones](onboarding/onboarding-feedback-milestones.md), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
+- [Onboarding feedback milestones](../company-info-and-process/onboarding/onboarding-feedback-milestones.md), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
 - [360 Impact reviews](impact-reviews.md), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
 
 Note: if you are a new manager and require access to past review history for your direct reports, please contact People Ops.
@@ -74,7 +74,7 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 **Resources:**
 
-- [Onboarding checklist](onboarding/index.md)
+- [Onboarding checklist](../company-info-and-process/onboarding/index.md)
 
 #### Impact of org and role changes
 
@@ -92,7 +92,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 - [Roots Manager overview](https://docs.google.com/document/d/1yP1gwuGnCIS7BlSqTV8wJKmRH0WeOVHDvsJbVNpYWb4/edit)
 
-- [Sourcegraph PTO policy](paid-time-off-and-working-hours.md)
+- [Sourcegraph PTO policy](../benefits-pay-perks/benefits-perks/time-off/index.md)
 
 ### TripActions
 
@@ -100,7 +100,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 **Resources:**
 
-- [Booking travel through TripActions](../finance/TripActions.md#booking-travel-through-tripactions)
+- [Booking travel through TripActions](../benefits-pay-perks/benefits-perks/travel/TripActions.md#booking-travel-through-tripactions)
 
 ### Assemble [WIP]
 
@@ -120,7 +120,7 @@ Other tools that need to be updated when there is an org change (including manag
 - **Assemble**
 - **Expensify**
 
-## How to notify People Ops of an org and role change
+## Managing a Role Change
 
 Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the changes that are happening. This will notify People Ops.
 If you have any questions, please contact #people-ops in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). If the change implies someone changing team or manager, the new manager is the one who should complete the form.
@@ -135,3 +135,7 @@ When to complete this form?
 - If someone in your team is changing to a different team.
 - If you are planning to restructure your team or org.
 - If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change).
+
+### Process for a Role Change
+
+1. Update the `reports_to` field on the [team page](../team/index.md) to reflect the change.

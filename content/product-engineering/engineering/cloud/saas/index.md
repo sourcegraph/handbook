@@ -66,13 +66,13 @@ The list below contains features and services that already exist, and the Cloud 
 
 ## Team
 
-- [Ryan Phillips](../../../../company/team/index.md#ryan-phillips) (he/him) - [Product Manager](../../../product/roles/index.md#product-manager)
-- [Quinn Keast](../../../../company/team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
-- [Rafal Leszczynski](../../../../company/team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles.md#engineering-manager)
-  - [Joe Chen](../../../../company/team/index.md#joe-chen) (he/him)
-  - [Artem Ruts](../../../../company/team/index.md#artem-ruts) (he/him)
-  - [Milan Freml](../../../../company/team/index.md#milan-freml) (he/him)
-  - [Rafal Gajdulewicz](../../../../company/team/index.md#rafal-gajdulewicz) (he/him)
+- [Ryan Phillips](../../../../team/index.md#ryan-phillips) (he/him) - [Product Manager](../../../product/roles/index.md#product-manager)
+- [Quinn Keast](../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
+- [Rafal Leszczynski](../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles.md#engineering-manager)
+  - [Joe Chen](../../../../team/index.md#joe-chen) (he/him)
+  - [Artem Ruts](../../../../team/index.md#artem-ruts) (he/him)
+  - [Milan Freml](../../../../team/index.md#milan-freml) (he/him)
+  - [Rafal Gajdulewicz](../../../../team/index.md#rafal-gajdulewicz) (he/him)
   - P. R. (he/him) - starting 2022.01
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
@@ -147,7 +147,7 @@ We use a shared [Sourcegraph Cloud Research calendar](https://calendar.google.co
 
 #### Team internal communication
 
-We are a globally distributed team with 16+ hours of time zone difference. Asynchronous communication is a key for achieving high visibility and close collaboration within the team. In addition to [general Sourcegraph async communication guidelines](../../../../company/asynchronous-communication.md), we agreed to the following recommendations within the Cloud SaaS team.
+We are a globally distributed team with 16+ hours of time zone difference. Asynchronous communication is a key for achieving high visibility and close collaboration within the team. In addition to [general Sourcegraph async communication guidelines](../../../../company-info-and-process/communication/asynchronous-communication.md), we agreed to the following recommendations within the Cloud SaaS team.
 
 ##### Team communication channels and how to use them
 
@@ -176,7 +176,7 @@ Google doc is a great choice for kicking off async collaboration, proposing RFC,
 - Public Information - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
 - Information internal to Sourcegraph - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
 
-Please read [this](../../../../company/values.md#open-and-transparent) for more context about the difference between public and internal information.
+Please read [this](../../../../company-info-and-process/values/index.md#open-and-transparent) for more context about the difference between public and internal information.
 
 ###### Loom
 

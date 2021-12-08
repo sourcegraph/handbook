@@ -11,11 +11,11 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Members
 
-- [Dan Adler](../company/team/index.md#dan-adler), VP Operations
-- [Eric Brody-Moore](../company/team/index.md#eric-brody-moore), Business Operations Manager
-- [Farhan Attamimi](../company/team/index.md#farhan-attamimi), Senior Data Operations Analyst
-- [Steph Hay](../company/team/index.md#steph-hay), Senior Business Operations Analyst
-- [Kelsey Brown](../company/team/index.md#kelsey-brown), Senior Business Operations Analyst
+- [Dan Adler](../team/index.md#dan-adler), VP Operations
+- [Eric Brody-Moore](../team/index.md#eric-brody-moore), Business Operations Manager
+- [Farhan Attamimi](../team/index.md#farhan-attamimi), Senior Data Operations Analyst
+- [Steph Hay](../team/index.md#steph-hay), Senior Business Operations Analyst
+- [Kelsey Brown](../team/index.md#kelsey-brown), Senior Business Operations Analyst
 - **Hiring**: [Director of Data and Analytics](https://boards.greenhouse.io/sourcegraph91/jobs/4084968004)
 - **Hiring**: [Data Analyst](https://boards.greenhouse.io/sourcegraph91/jobs/4155296004)
 
@@ -32,7 +32,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Goals
 
-See the [Operations OKRs](../company/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
+See the [Operations OKRs](../strategy-goals/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
 
 - **KR:** Complete a migration off of BigQuery for ETLs (to dbt, Airflow, or similar)
 - **KR:** Every product team, go-to-market team and company-wide has at least one automated KPI dashboard sent into Slack
@@ -64,9 +64,9 @@ GitHub issues help us manage requests by including as much relevant information 
 
 - **The problem:** Describe the problem or question you have.
 - **End state:** What is the end state of the project? What decisions will be made? Be as specific as possible (i.e. if the end state is a graph, draw out the graph in Figma, on paper and upload a PDF, etc)
-- **The why:** What will this request be used for? How does it support [Sourcegraph's company and team goals](../company/goals/index.md)?
+- **The why:** What will this request be used for? How does it support [Sourcegraph's company and team goals](../strategy-goals/goals/index.md)?
 - **Timeline:** What's the timeline of the project? Is it urgent? When does this need to be delivered, and how will it be followed up upon in the future?
-- **People:** Who is involved, and what are the expectations of each person? Who will be responsible for driving the project forward? Does each person have the necessary bandwidth to uphold the expecations asked of them?
+- **People:** Who is involved, and what are the expectations of each person? Who will be responsible for driving the project forward? Does each person have the necessary bandwidth to uphold the expectations asked of them?
 
 A BizOps team member will triage and assign issues to the relevant team member.
 
@@ -89,7 +89,7 @@ To get in touch with us, or ask for our input or help:
 
 ## How we work
 
-We use [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues) to track projects, and the [Business Operations kanban board](https://github.com/orgs/sourcegraph/projects/63) for tracking current projects.
+We use [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues) to track projects, and the [Business Operations Kanban board](https://github.com/orgs/sourcegraph/projects/63) for tracking current projects.
 
 ### Slack channels
 

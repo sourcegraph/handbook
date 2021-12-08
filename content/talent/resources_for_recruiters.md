@@ -63,6 +63,7 @@ As a next step, please:
    1. [The interview process](./interview_process.md)
    2. [Resources for hiring managers](./resources_for_hiring_managers.md)
    3. [Feedback definitions](./interview_process.md#overall-recommendation)
+   4. [Interview training](./interview_training.md)
 4. Please review our [Guide to Using BrightHire](./hiring/guide_to_using_brighthire.md) and ensure you download the BrightHire Chrome extension.
 
 Interview process / hiring team:
@@ -92,7 +93,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 - Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
-  - [Compensation philosophy](../people-ops/compensation/index.md#components-of-compensation)
+  - [Compensation philosophy](../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation)
 - Recruiter [creates an offer in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer)
 - Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
 - Recruiter submits offer for approval in Greenhouse.
