@@ -2211,7 +2211,7 @@ isuru_fonseka:
   github: Isuru-F
   email: isuru.fonseka@sourcegraph.com
   links: '[LinkedIn](https://linkedin.com/in/isurufonseka)'
-  description: "Isuru lives in Sydney, Australia. In his free time he is hanging out with his wife and two cats, fishing, or playing squash"
+  description: 'Isuru lives in Sydney, Australia. In his free time he is hanging out with his wife and two cats, fishing, or playing squash'
 
 daniel_dides:
   name: Daniel Dides
@@ -2221,4 +2221,3 @@ daniel_dides:
   github: danieldides
   links: '[LinkedIn](https://www.linkedin.com/in/danieldides/)'
   description: Daniel lives in Flint, TX with his wife, two dogs, a cat, and a couple of horses. During the day, Dan enjoys helping people leverage Kubernetes and modern cloud tooling. When he's not working, he enjoys watching rocket launches, designing and 3D printing parts, and tinkering with new technologies.
-
