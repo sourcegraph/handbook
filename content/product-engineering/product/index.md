@@ -41,14 +41,6 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 Occasionally the product team takes on special initiatives that are not strictly tied to product delivery. Those are tracked here.
 
-### Product led metrics refinement
-
-In an effort to gain more clarity around product success and growth on Cloud, we aim to iterate and decide on the current Sourcegraph user metric definitions for On Premise. Targeting to have the new definition in place in FY21 Q3.
-
-- Owner: Anna (Jason covering during leave)
-- [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
-- [Pull Request](https://github.com/sourcegraph/about/pull/4521)
-
 ### Product management and Product design impact ladders
 
 To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
