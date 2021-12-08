@@ -2,15 +2,16 @@
 
 For a complete list of Sourcegraph instances we manage, see our [instances documentation](instances.md).
 
-- [Deployment basics](#deployment-basics)
-  - [Images](#images)
-  - [Renovate](#renovate)
-  - [ArgoCD](#argocd)
-  - [Infrastructure](#infrastructure)
-- [deploy-sourcegraph](#deploy-sourcegraph)
-  - [Merging changes from deploy-sourcegraph](#merging-changes-from-deploy-sourcegraph)
-- [Relationship between deploy-sourcegraph repositories](#relationship-between-deploy-sourcegraph-repositories)
-  - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph-dot-com`](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-dot-com)
+- [Deployments](#deployments)
+  - [Deployment basics](#deployment-basics)
+    - [Images](#images)
+    - [Renovate](#renovate)
+    - [ArgoCD](#argocd)
+    - [Infrastructure](#infrastructure)
+  - [deploy-sourcegraph](#deploy-sourcegraph)
+    - [Merging changes from deploy-sourcegraph](#merging-changes-from-deploy-sourcegraph)
+  - [Relationship between deploy-sourcegraph repositories](#relationship-between-deploy-sourcegraph-repositories)
+    - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph-dot-com`](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-dot-com)
 
 Additional resources:
 
@@ -46,7 +47,7 @@ ArgoCD currently handles deployments for [k8s.sgdev.org](instances.md#k8s-sgdev-
 
 ### Infrastructure
 
-The cloud resources (including clusters, DNS configuration, etc.) on which are deployments run should be configured in the [infrastructure repository](https://github.com/sourcegraph/infrastructure), even though Kubernetes deployments are managed by various `deploy-sourcegraph-*` repositories. For information about how our infrastructure is organized, refer to [Infrastructure](../infrastructure/index.md).
+The cloud resources (including clusters, DNS configuration, etc.) on which are deployments run should be configured in the [infrastructure repository](https://github.com/sourcegraph/infrastructure), even though Kubernetes deployments are managed by various `deploy-sourcegraph-*` repositories. For information about how our infrastructure is organized, refer to [Infrastructure](../tools/infrastructure/index.md).
 
 ## deploy-sourcegraph
 

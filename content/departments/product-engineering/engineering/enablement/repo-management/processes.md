@@ -42,7 +42,7 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
 6. The team pick up issues from the Todo in a top down order
 7. The issue gets worked on
 
-> ℹ️ The team do not directly look at anything that's not in the working columns on the board, and things only make it to those columns through triage by the EM or PM. Only the EM or PM will make the call to interupt in-progress work for an issue, with the exception of [incidents](../../incidents/index.md).
+> ℹ️ The team do not directly look at anything that's not in the working columns on the board, and things only make it to those columns through triage by the EM or PM. Only the EM or PM will make the call to interupt in-progress work for an issue, with the exception of [incidents](../../process/incidents/index.md).
 
 ## How we work
 

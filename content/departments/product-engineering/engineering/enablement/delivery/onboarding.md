@@ -8,7 +8,7 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../../../strategy-goals/goals/index.md), [values](../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../company-info-and-process/communication/code_of_conduct.md), as well as [Delivery's mission and vision](./index.md).
+- Clear knowledge of the [company goals](../../../../../strategy-goals/goals/index.md), [values](../../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../../company-info-and-process/communication/code_of_conduct.md), as well as [Delivery's mission and vision](./index.md).
 - Know the expected outcome of each Distribution onboarding milestone.
 - Become familiar with Delivery [responsibilities](index.md#Responsibilities), [tech stack](index.md#tech-stack)
 - Go through [Process St Onboarding](https://app.process.st/reports/)
@@ -19,9 +19,9 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
-  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../infrastructure/gcp.md#engineering-projects)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../../infrastructure/gcp.md#engineering-projects).
-- Open and merge first GitHub pull request by adding yourself to [team page](../../../../team/index.md) in Handbook
+  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../tools/infrastructure/gcp.md#engineering-projects)
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../../tools/infrastructure/gcp.md#engineering-projects).
+- Open and merge first GitHub pull request by adding yourself to [team page](../../../../../team/index.md) in Handbook
 - Read our [Delivery handbook pages](index.md)
 - Join the distribution Slack channels
   - #delivery

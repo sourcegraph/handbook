@@ -8,10 +8,10 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Members
 
-- [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../../roles.md#director-of-engineering)) and (acting [Engineering Manager](../../roles.md#engineering-manager))
-- [Dan Mckean](../../../../team/index.md#dan-mckean) (acting [Product Manager](../../../product/roles/index.md#product-manager))
-- [Crystal Augustus](../../../../team/index.md#crystal-augustus)
-- [Kevin Wojkovich](../../../../team/index.md#kevin-wojkovich)
+- [Jean du Plessis](../../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../../roles/index.md#director-of-engineering)) and (acting [Engineering Manager](../../roles/index.md#engineering-manager))
+- [Dan Mckean](../../../../../team/index.md#dan-mckean) (acting [Product Manager](../../../product/roles/index.md#product-manager))
+- [Crystal Augustus](../../../../../team/index.md#crystal-augustus)
+- [Kevin Wojkovich](../../../../../team/index.md#kevin-wojkovich)
 
 ## Strategy
 
@@ -22,7 +22,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 - Deployments methods
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
 - [Managed instances](./managed/index.md)
-- [Sourcegraph releases](../../releases/index.md)
+- [Sourcegraph releases](../../process/releases/index.md)
 - Deployment configuration and configuration orchestration ([Kustomize](https://docs.sourcegraph.com/admin/install/kubernetes))
 
 Specifically not included:
@@ -44,9 +44,9 @@ TODO
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
+We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](../../../../strategy-goals/strategy/enablement/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
+We also have a set of [guiding principles](../../../../../strategy-goals/strategy/enablement/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
 
 ## Processes
 

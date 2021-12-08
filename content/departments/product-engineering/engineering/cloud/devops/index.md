@@ -7,7 +7,7 @@ The two primary pillars of the Cloud Team are Availability and Observability as 
 This team ensures that Sourcegraph.com has the same reliability and availability as other world-class SaaS offerings.
 This team is also responsible for Observability monitoring and tooling to ensure that we are meeting these goals.
 
-More can be found in our [Cloud Vision](../../cloud/index.md#vision)
+More can be found in our [Cloud Vision](../index.md#vision)
 
 ## Areas of Ownership
 
@@ -21,10 +21,10 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 
 ## Members
 
-- [Jennifer Mitchell](../../../../team/index.md#jennifer-mitchell) - Engineering Manager
-  - [Dax McDonald](../../../../team/index.md#dax-mcdonald)
+- [Jennifer Mitchell](../../../../../team/index.md#jennifer-mitchell) - Engineering Manager
+  - [Dax McDonald](../../../../../team/index.md#dax-mcdonald)
   - [Daniel Dides]
-  - [Filip Haftek](../../../../team/index.md#filip-haftek)
+  - [Filip Haftek](../../../../../team/index.md#filip-haftek)
 
 ## Content
 

@@ -1,6 +1,6 @@
 # DevOps Engineer Oboarding
 
-Welcome to the DevOps team! This document will guide you through DevOps-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../../people-ops/../onboarding/software-engineer-onboarding.md).
+Welcome to the DevOps team! This document will guide you through DevOps-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../onboarding/software-engineer-onboarding.md).
 
 ## DevOps Onboarding Checklist
 
@@ -8,7 +8,7 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../../../strategy-goals/goals/index.md), [values](../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../company-info-and-process/communication/code_of_conduct.md), as well as [DevOps' mission and vision](index.md).
+- Clear knowledge of the [company goals](../../../../../strategy-goals/goals/index.md), [values](../../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../../company-info-and-process/communication/code_of_conduct.md), as well as [DevOps' mission and vision](index.md).
 - Know the expected outcome of each DevOps onboarding milestone.
 - You have a sense of what tools you will be using and for what
 
@@ -17,10 +17,10 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
-  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../infrastructure/gcp.md#projects)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](../../infrastructure/gcp.md#engineering-projects).
-- Familiarize yourself with the DevOps [internal infrastructure](../../infrastructure/index.md) and ownership areas
-- Open and merge first GitHub pull request by adding yourself to [team page](../../../../handbook/editing/add-yourself-to-team-page.md) in Handbook
+  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../tools/infrastructure/gcp.md#projects)
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](../../tools/infrastructure/gcp.md#engineering-projects).
+- Familiarize yourself with the DevOps [internal infrastructure](../../tools/infrastructure/index.md) and ownership areas
+- Open and merge first GitHub pull request by adding yourself to [team page](../../../../../handbook/editing/add-yourself-to-team-page.md) in Handbook
 - Read our [DevOps handbook pages](index.md)
 - Join the following Slack channels
   - #cloud-org

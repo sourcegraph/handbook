@@ -141,7 +141,7 @@ After the incident is resolved, the incident lead:
 3. Update and close and relevant public GitHub issues.
 4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish it in the [Incidents folder in Google Drive](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F).
 5. Create GitHub issues for any appropriate followup work.
-6. Schedule a [retrospective](../../../company-info-and-process/communication/retrospectives.md) if you think it would be valuable.
+6. Schedule a [retrospective](../../../../company-info-and-process/communication/retrospectives.md) if you think it would be valuable.
 7. Archive the incident channel.
 
 #### Past incident post-mortems

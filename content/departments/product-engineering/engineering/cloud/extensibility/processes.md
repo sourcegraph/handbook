@@ -39,7 +39,7 @@ Our current process is as follows:
 
 For IDE Extensions and Browser Extensions, we release at the end of every sprint (two-weeks).
 
-For Sourcegraph Extensions & other core dependent work we follow our [monthly release schedule](../../releases/index.md#releases). We also intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM.
+For Sourcegraph Extensions & other core dependent work we follow our [monthly release schedule](../../process/releases/index.md#releases). We also intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM.
 
 ## Retrospectives
 

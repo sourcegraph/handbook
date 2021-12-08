@@ -22,7 +22,7 @@ If you haven't been given access to Sourcegraphs Organization on Github yet reac
 
 We are an all-remote company and favor asynchronous communication, it is important to configure your notifications correctly so that you receive and read notifications that are important (e.g. someone makes a comment on one of your PRs, someone adds you as a reviewer to a PR) without being overwhelmed by notifications that don’t involve you.
 
-- [Configure GitHub notifications](../../../../company-info-and-process/onboarding/git-intro/github-notifications/index.md)
+- [Configure GitHub notifications](../../../../../company-info-and-process/onboarding/git-intro/github-notifications/index.md)
 
 ## Other Access
 
@@ -50,7 +50,7 @@ Our browser extension has a handy search shortcut letting you quickly search usi
 
 Our private code repositories can only be searched using our internal dev instance of Sourcegraph (dogfood) so adding a second shortcut is recommended.
 
-- To search our private code, log in to our [internal dogfood instance](../../deployments/instances.md#k8s-sgdev-org) (<code>[k8s.sgdev.org](https://k8s.sgdev.org/)</code>) and add another entry: <code>[https://k8s.sgdev.org/search?q=%s](https://k8s.sgdev.org/search?q=%s)</code>.
+- To search our private code, log in to our [internal dogfood instance](../../process/deployments/instances.md#k8s-sgdev-org) (<code>[k8s.sgdev.org](https://k8s.sgdev.org/)</code>) and add another entry: <code>[https://k8s.sgdev.org/search?q=%s](https://k8s.sgdev.org/search?q=%s)</code>.
 
 ## Tools Setup
 

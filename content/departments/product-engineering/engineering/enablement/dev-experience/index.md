@@ -4,19 +4,19 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Members
 
-- [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- Kristen Stretch ([Engineering Manager](../../roles.md#engineering-manager))
-  - [JH Chabran](../../../../team/index.md#jh-chabran)
-  - [Robert Lin](../../../../team/index.md#robert-lin)
-  - [Dave Try](../../../../team/index.md#dave-try)
+- [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- Kristen Stretch ([Engineering Manager](../../roles/index.md#engineering-manager))
+  - [JH Chabran](../../../../../team/index.md#jh-chabran)
+  - [Robert Lin](../../../../../team/index.md#robert-lin)
+  - [Dave Try](../../../../../team/index.md#dave-try)
 
-## [Strategy](../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
+## [Strategy](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
 
-- [Mission](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#mission)
-- [Vision](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#vision)
-- [Guiding principles](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#guiding-principles)
-- [Measuring success](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#measuring-success)
-- [Roadmap](../../../../strategy-goals/strategy/enablement/dev-experience/index.md#roadmap)
+- [Mission](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#mission)
+- [Vision](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#vision)
+- [Guiding principles](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#guiding-principles)
+- [Measuring success](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#measuring-success)
+- [Roadmap](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#roadmap)
 
 ## Responsibilities
 
@@ -24,8 +24,8 @@ _This section is a work in progress._
 
 - [Developer experience newsletter](./newsletter.md)
 - Continuous integration
-  - [Continuous integration playbook](../../incidents/playbooks/ci.md)
-  - [Buildkite agents](../../infrastructure/index.md#buildkite-agents)
+  - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
+  - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
 
 ## Contact
 
@@ -48,7 +48,7 @@ To collaborate, we use the following:
 
 ### Work allocation
 
-We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../../strategy-goals/strategy/enablement/dev-experience/index.md), so as a rule of thumb:
+We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md), so as a rule of thumb:
 
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
@@ -86,7 +86,7 @@ The DevX team is responsible for a **monthly** newsletter to highlight developer
 To prepare a new issue of the newsletter, create a PR for the latest newsletter issue here following the conventions in the [previous newsletters](./newsletter.md). Some tips:
 
 - You can refer to [`dx-announce` issues and PRs](https://github.com/sourcegraph/sourcegraph/issues?q=+is%3Aclosed+sort%3Aupdated-desc+label%3Adx-announce) for content ideas!
-- To include images, either [follow the official guide](../../../../handbook/editing/handbook-images-video.md) or upload images to a GitHub issue - this will provide a shareable link.
+- To include images, either [follow the official guide](../../../../../handbook/editing/handbook-images-video.md) or upload images to a GitHub issue - this will provide a shareable link.
 
 Once the newsletter is ready and reviewed, merge the PR. Then copy and paste the rendered newsletter from the handbook (you can set this up locally with `yarn dev`) into a draft newsletter. You will need to remove the background color from the pasted content, but the formatting should otherwise just work.
 

@@ -6,8 +6,8 @@
 
 Before you dive in to engineering tasks like reading and writing code, it is important to give yourself the time and space to set the context for the work you will be doing here at Sourcegraph.
 
-1. Read our [company values](../../../company-info-and-process/values/index.md).
-2. Read our [engineering principles and practices](../principles-and-practices.md).
+1. Read our [company values](../../../../company-info-and-process/values/index.md).
+2. Read our [engineering principles and practices](../process/principles-and-practices.md).
 3. Start reading [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) and [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) in any order (you can expense these books). As you are reading, share and discuss your thoughts with your team.
    - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
    - [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) - An entertaining self-account of Gordon MacKenzie's experience fostering creativity on his team at Hallmark Cards. Buy the hard copy. There are lots of fun illustrations and short stories. It is a quick read and probably unlike any other book you have read.
@@ -23,7 +23,7 @@ As you're working on these tasks:
   - Open a pull request as soon as you feel like you're ready for feedback or input on your code — you can make it a draft pull request if your code is still a work in progress.
   - Favour splitting up your work in multiple pull requests every time it makes sense — shipping frequently is important.
   - Ask yourself what tests are appropriate for the change you're tackling, and add them!
-- If you need help, remember everyone is here to [answer any question](../../../company-info-and-process/onboarding/index.md#everyone-is-here-to-support-you-as-you-onboard) — ask for help in your team's channel (or any appropriate channel), and add the answer to our docs or the handbook if you feel like it can help future teammates.
+- If you need help, remember everyone is here to [answer any question](../../../../company-info-and-process/onboarding/index.md#everyone-is-here-to-support-you-as-you-onboard) — ask for help in your team's channel (or any appropriate channel), and add the answer to our docs or the handbook if you feel like it can help future teammates.
 
 As you complete these tasks, share your accomplishments in #progress 🙂
 
@@ -35,7 +35,7 @@ Take the first 20-30 minutes of the session to have an unstructured, introductor
 
 - What problem is your teammate trying to solve?
 - Why is that problem important? What team goal does it fit under?
-- What are relevant [RFCs](../../../company-info-and-process/communication/rfcs/index.md), [PDs](../../product/product_documents.md), GitHub issues or documentation pages?
+- What are relevant [RFCs](../../../../company-info-and-process/communication/rfcs/index.md), [PDs](../../product/product_documents.md), GitHub issues or documentation pages?
 - What parts of our codebase need to be changed to solve this problem?
 - How will we test the code being changed?
 - Will there be future work needed after solving this problem? How could you contribute?
@@ -48,7 +48,7 @@ We have many resources available to help you onboard and gain context:
 
 - Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture).
 - Read through the rest of the engineering handbook to learn more about how we operate.
-- Read how we choose and continually update our [goals](../../../strategy-goals/goals/index.md).
+- Read how we choose and continually update our [goals](../../../../strategy-goals/goals/index.md).
 - Read how we collaborate with design to [request or implement design work](../../product/design/index.md#working-with-design-requesting-design-work).
 - Watch this [high-level overview of the Sourcegraph repository on Github](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing).
 - Read our [Testing Principles](https://docs.sourcegraph.com/dev/background-information/testing_principles) to learn how we think about testing. Reading this makes sure you know what others on the team are referring to when we refer to certain types of tests.

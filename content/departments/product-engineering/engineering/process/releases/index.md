@@ -52,11 +52,11 @@ The release captain is _responsible_ for managing the release process and ensuri
 
 The release captain should create a tracking issue using the [release issue template](release_issue_template.md) at the beginning of the release cycle.
 
-Release captain responsibilities are currently owned by the [Distribution team](../distribution/index.md).
+Release captain responsibilities are currently owned by the [Distribution team](../../distribution/index.md).
 
 ### Release tooling
 
-The [Sourcegraph release tool](../tools/release.md) is used to generate releases as associated materials (such as tracking issues).
+The [Sourcegraph release tool](../../tools/release.md) is used to generate releases as associated materials (such as tracking issues).
 It leverages the following issue templates, which list all individual steps that needs to be performed, for each type of release:
 
 - [Release issue template](release_issue_template.md)

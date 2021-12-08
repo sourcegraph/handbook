@@ -4,7 +4,7 @@
 
 ## Strategy
 
-- Vision, mission and strategy: [Batch Changes strategy](../../../../strategy-goals/strategy/code-graph/batch-changes/index.md)
+- Vision, mission and strategy: [Batch Changes strategy](../../../../../strategy-goals/strategy/code-graph/batch-changes/index.md)
 - [Key metrics](metrics.md)
 
 ## Contact
@@ -34,7 +34,7 @@ Our two-week sprints start every other Wednesday. On the Tuesday before, we have
 
 - To avoid siloing of knowledge and to keep teammates happy, we make sure that everyone gets a chance to work in different areas of the codebase. In particular, we don't want tasks in area X to always default to person P. We want to strike a healthy balance between spreading knowledge around and building individual expertise in one area.
 - We do not schedule team meetings on Fridays. (Folks are free to pair on Fridays if they want.)
-- We do not scramble to get last-minute changes in before branch-cut. (If it's a blocking issue, there's [a process for that](../../releases/index.md#issues).)
+- We do not scramble to get last-minute changes in before branch-cut. (If it's a blocking issue, there's [a process for that](../../process/releases/index.md#issues).)
 - If there is no agenda in our sync doc for our team syncs by 5 minutes before the meeting starts, then the meeting will be cancelled.
 - If a process isn't serving us, we are quick to either change it or get rid of it.
 - We aim to improve the developer experience of working on the Batch Changes and the larger Sourcegraph codebase as we work on it. We do that by allowing ourselves to set aside time to implement improvements if we see a chance to do so. For example: it's okay to spend half a day improving our test tooling if we know that it will make things easier for us and others in the future.
@@ -54,14 +54,14 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Members
 
-- [Malo Marrec](../../../../team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Rob Rhyne](../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Chris Pine](../../../../team/index.md#chris-pine) ([Engineering Manager](../../roles.md#engineering-manager))
-  - [Thorsten Ball](../../../../team/index.md#thorsten-ball)
-  - [Adam Harvey](../../../../team/index.md#adam-harvey)
-  - [Erik Seliger](../../../../team/index.md#erik-seliger)
-  - [Kelli Rockwell](../../../../team/index.md#kelli-rockwell)
-  - [Adeola Akinsiku](../../../../team/index.md#adeola-akinsiku)
+- [Malo Marrec](../../../../../team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Rob Rhyne](../../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
+- [Chris Pine](../../../../../team/index.md#chris-pine) ([Engineering Manager](../../roles.md#engineering-manager))
+  - [Thorsten Ball](../../../../../team/index.md#thorsten-ball)
+  - [Adam Harvey](../../../../../team/index.md#adam-harvey)
+  - [Erik Seliger](../../../../../team/index.md#erik-seliger)
+  - [Kelli Rockwell](../../../../../team/index.md#kelli-rockwell)
+  - [Adeola Akinsiku](../../../../../team/index.md#adeola-akinsiku)
 
 ## Growth plan
 

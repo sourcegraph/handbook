@@ -6,43 +6,43 @@ Our mission is to provide technical foundations critical to the business, our cu
 
 ## Team
 
-The org is lead by [Serina Clark](../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles.md#director-of-engineering))
+The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering))
 
 - [Repo Management](repo-management/index.md)
-  - [Jordan Plahn](../../../team/index.md#jordan-plahn) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Dan Mckean](../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
-  - [Ryan Slade](../../../team/index.md#ryan-slade)
-  - [Indradhanush Gupta](../../../team/index.md#indradhanush-gupta)
-  - [Molly Weitzel](../../../team/index.md#molly-weitzel)
-  - [Alex Ostrikov](../../../team/index.md#alexander-ostrikov)
-  - [Asdine El Hrychy](../../../team/index.md#asdine-el-hrychy)
+  - [Jordan Plahn](../../../../team/index.md#jordan-plahn) ([Engineering Manager](../roles/index.md#engineering-manager))
+  - [Dan Mckean](../../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
+  - [Ryan Slade](../../../../team/index.md#ryan-slade)
+  - [Indradhanush Gupta](../../../../team/index.md#indradhanush-gupta)
+  - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
+  - [Alex Ostrikov](../../../../team/index.md#alexander-ostrikov)
+  - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
 - [Delivery](delivery/index.md)
-  - [Jean du Plessis](../../../team/index.md#jean-du-plessis) (Acting [Engineering Manager](../roles.md#engineering-manager))
-  - [Dan Mckean](../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
-  - TBH ([Engineering Manager](../roles.md#engineering-manager))
-  - [Crystal Augustus](../../../team/index.md#crystal-augustus)
-  - [Kevin Wojkovich](../../../team/index.md#kevin-wojkovich)
+  - [Jean du Plessis](../../../../team/index.md#jean-du-plessis) (Acting [Engineering Manager](../roles/index.md#engineering-manager))
+  - [Dan Mckean](../../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
+  - TBH ([Engineering Manager](../roles/index.md#engineering-manager))
+  - [Crystal Augustus](../../../../team/index.md#crystal-augustus)
+  - [Kevin Wojkovich](../../../../team/index.md#kevin-wojkovich)
 - [Dev Experience](dev-experience/index.md)
-  - [Kristen Stretch](../../../team/index.md#kristen-stretch)([Engineering Manager](../roles.md#engineering-manager))
-  - [Taylor Sperry](../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
-  - [JH Chabran](../../../team/index.md#jh-chabran)
-  - [Robert Lin](../../../team/index.md#robert-lin)
-  - [Dave Try](../../../team/index.md#dave-try)
+  - [Kristen Stretch](../../../../team/index.md#kristen-stretch)([Engineering Manager](../roles/index.md#engineering-manager))
+  - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
+  - [JH Chabran](../../../../team/index.md#jh-chabran)
+  - [Robert Lin](../../../../team/index.md#robert-lin)
+  - [Dave Try](../../../../team/index.md#dave-try)
 - [Frontend Platform](frontend-platform/index.md)
-  - [Alicja Suska](../../../team/index.md#alicja-suska) ([Product Designer](../../product/roles/index.md#product-designer))
-  - [Patrick Dubroy](../../../team/index.md#patrick-dubroy) ([Engineering Manager](../roles.md#engineering-manager))
-  - [Taylor Sperry](../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
-  - [Tom Ross](../../../team/index.md#tom-ross)
-  - [Valery Bugakov](../../../team/index.md#valery-bugakov)
-  - [Oleg Gromov](../../../team/index.md#oleg-gromov)
+  - [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../product/roles/index.md#product-designer))
+  - [Patrick Dubroy](../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../roles/index.md#engineering-manager))
+  - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
+  - [Tom Ross](../../../../team/index.md#tom-ross)
+  - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
+  - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
 - [Engineering Education](engineering-education/index.md)
-  - [Marek Zaluski](../../../team/index.md#marek-zaluski)
+  - [Marek Zaluski](../../../../team/index.md#marek-zaluski)
 - Sourcegraph Handbook
-  - [Mary Belzer](../../../team/index.md#mary-belzer) ([Product Manager](../../product/roles/index.md#product-manager))
+  - [Mary Belzer](../../../../team/index.md#mary-belzer) ([Product Manager](../../product/roles/index.md#product-manager))
 
 ## Principles and practices
 
-In addition to the [engineering principles and practices](../principles-and-practices.md), the Enablement org follows the following principles and practices. Each team is afforded the freedom to operate as best they see fit to achieve their goals. Below are principles and practices all teams in the Enablement org follow.
+In addition to the [engineering principles and practices](../process/principles-and-practices.md), the Enablement org follows the following principles and practices. Each team is afforded the freedom to operate as best they see fit to achieve their goals. Below are principles and practices all teams in the Enablement org follow.
 
 ### Unblocking others is your highest priority
 
@@ -121,7 +121,7 @@ Participation in sharing is voluntary.
 
 #### Status updates
 
-Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../engineering-management.md#status-updates) by the Monday following their team's retrospective. This should happen at least once a month.
+Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../tools/engineering-management.md#status-updates) by the Monday following their team's retrospective. This should happen at least once a month.
 
 #### Leadership sync
 

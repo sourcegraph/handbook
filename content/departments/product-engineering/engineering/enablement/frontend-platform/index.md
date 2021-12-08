@@ -4,16 +4,15 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Members
 
-- [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Patrick Dubroy](../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../../roles.md#engineering-manager)) {#frontend-platform-eng}
-  - [Tom Ross](../../../../team/index.md#tom-ross)
-  - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
-  - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
+- [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
+- [Alicja Suska](../../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))/index.md#engineering-manager)) {#frontend-platform-eng}
+  - [Tom Ross](../../../../../team/index.md#tom-ross)
+  - [Valery Bugakov](../../../../../team/index.md#valery-bugakov)
+  - [Oleg Gromov](../../../../../team/index.md#oleg-gromov)
 
 ## Our Strategy
 
-[Mission & Vision](../../../../strategy-goals/strategy/enablement/frontend-platform/index.md)
+[Mission & Vision](../../../../../strategy-goals/strategy/enablement/frontend-platform/index.md)
 
 ## Responsibilities
 
@@ -57,7 +56,7 @@ Here are some of the technologies we use to deliver on our goals:
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
+We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
 
 ## Processes
 
@@ -94,7 +93,7 @@ At the end of the week, aim for the _No Status_ section to be empty, or almost e
 
 ### Tracking Issues
 
-The team makes use of [tracking issues](../../tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a few days (or require multiple PRs) to deliver.
+The team makes use of [tracking issues](../../process/tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a few days (or require multiple PRs) to deliver.
 
 ### Code Insights
 
@@ -128,7 +127,7 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 
 ### Meetings
 
-We inherit Sourcegraph's [meeting principles](../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
+We inherit Sourcegraph's [meeting principles](../../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
 
 - Meeting agenda:
   - The meeting leader prepares the agenda at least 24 hours in advance in a shared Google document.
