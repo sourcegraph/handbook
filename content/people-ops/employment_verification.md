@@ -1,6 +1,6 @@
 # Employment verification
 
-If you need your employment at Sourcegraph verified for any reason (for example, while applying for a mortgage or another type of loan), you can generate a letter yourself or, in cases where verification needs to come directly from Sourcegraph, can direct the requestor to our [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/). To generate a letter in one of these two ways, please follow the steps below:
+If you need your employment at Sourcegraph verified for any reason (for example, while applying for a mortgage or another type of loan), you can generate a letter yourself or, in cases where verification needs to come directly from Sourcegraph, can direct the requestor to our [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/). To generate a letter, please follow the steps below:
 
 - **Self-serve:**
 
