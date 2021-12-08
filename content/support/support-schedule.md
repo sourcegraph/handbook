@@ -26,8 +26,7 @@ _Note: we can only have 3-4 folks with the same focus day. If you don't see the 
 | Michael     | 8am - 4pm   | 07:00 - 15:00 | 12am - 8am    | Thursday  |
 | Stompy      | 1pm - 9pm   | 11:00 - 18:00 | 3am - 11am    | Friday    |
 | Warren      | 9am - 5pm   | 16:00 - 24:00 | 9am - 5pm     | Monday    |
-| Virginia    | 8am - 5pm   | 15:00 - 24:00 | 8am - 5pm     | Friday    |
-| Tamar       | 7am - 4pm   | 15:00 - 24:00 | 7am - 4pm     | TBD       |
+| Virginia    | 8am - 5pm   | 15:00 - 24:00 | 8am - 5pm     | Friday    |      
 | Brielle     | 9am- 5pm    | 16:00- 24:00  | 7am- 3pm      | TBD       |
 | Nonso       | 9am - 5pm   | 08:00 - 16:00 | 1am - 9am     | TBD       |
 
