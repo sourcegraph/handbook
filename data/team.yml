@@ -2202,3 +2202,13 @@ filip_haftek:
   email: filip.haftek@sourcegraph.com
   links: '[LinkedIn](https://pl.linkedin.com/in/filip-haftek-a5710114)'
   description: 'Filip is a software engineer DevOps located in Krakow, Poland. He really likes to help people, especially in the areas he has an experience like cloud infrastructure (+ terraform), automation, CI/CD, search engines and the applications performance and monitoring. He loves to spend time with his family, especially skiing, walking through the forests and travelling together. Winter is his favourite part of the year :skier: :snowflake:'
+
+cory_dobson:
+  name: Cory Dobson
+  pronouns: he/him
+  role: Enterprise Account Executive - Sales
+  location: Portland, OR, USA 🇺🇸
+  github: corydobson
+  email: cory.dobson@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/cory-dobson-12530826/)'
+  description: 'Cory is an Enterprise Account Executive based in Portland, OR. Prior to Sourcegraph, Cory worked in different Solutions Engineering roles at developer-focused companies like GitHub, Stripe, and Algolia. Outside of work, he likes playing music, taking photos, and exploring new places.'
