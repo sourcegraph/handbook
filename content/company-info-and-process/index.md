@@ -25,7 +25,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [RFCs](communication/rfcs/index.md)
 - [Slack](communication/team_chat.md)
 - [Working groups](communication/working-group.md)
-- [Zoom tip and tricks](communication/tools/zoom.md)
+- [Zoom tip and tricks](communication/zoom.md)
 
 ## [All remote](remote/index.md)
 - [Remote work tips](remote/tips.md)
