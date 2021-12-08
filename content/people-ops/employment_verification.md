@@ -7,8 +7,7 @@ If you need your employment at Sourcegraph verified for any reason (for example,
 - Go to https://app.truework.com/letter
 - Enter “Sourcegraph” for Employer Name
 - Enter your Sourcegraph email address for Work Email
-- You will receive an 8 letter verification code via email
-- Enter 8 letter code that was sent to your Sourcegraph email address
+- Enter 8 letter verification code that was sent to your Sourcegraph email address
 - Click "Download" under Employment Verification Letter
 - Your letter is ready!
 
