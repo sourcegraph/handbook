@@ -13,7 +13,7 @@
 
 ---
 
-We use RFCs to collaborate successfully as an [all-remote](../../company-info-and-process/remote/index.md) team.
+We use RFCs to collaborate successfully as an [all-remote](../../remote/index.md) team.
 
 RFCs give us a way to write down ideas and plans so we can communicate, collect thoughtful feedback from others on the team, and [make decisions](../decisions.md).
 
@@ -75,7 +75,7 @@ If in doubt about the current status of an RFC, check the update history and con
 
 ### RFCs are public to the world by default
 
-[We value openness](../../company-info-and/about-sourcegraph/index.md#open-company). Transparency helps us to communicate with and gather feedback from our customers and across our team, and it holds everyone accountable for being inclusive, high-quality, and (thing).
+[We value openness](../../company-info-and-process/values/index.md#open-company). Transparency helps us to communicate with and gather feedback from our customers and across our team, and it holds everyone accountable for being inclusive, high-quality, and (thing).
 
 All RFCs are public for anyone to read and comment by default, and for all Sourcegraph teammates to edit. These RFCs are located in our [public Google Drive folder](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa).
 

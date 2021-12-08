@@ -20,7 +20,7 @@ We don't expect everyone on the team to figure this out on their own. Other team
 
 ## Basics
 
-- [GitHub Basics](../../company-info-and-process/onboarding/git_intro/index.md)
+- [GitHub Basics](../../company-info-and-process/onboarding/git-intro/index.md)
 - [Markdown Tips & Resources](markdown-resources.md)
 - [Reviewing & Approving Another Person's Proposal](reviewing-a-proposal.md)
 - [Announcing Important Updates](announcing-handbook-updates.md)

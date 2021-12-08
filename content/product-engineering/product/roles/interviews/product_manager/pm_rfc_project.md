@@ -2,7 +2,7 @@
 
 ## What we want to measure
 
-Will the candidate be successful in our all-remote environment in which the majority of communication happens in written form (Slack messages, [RFCs](../../../../../communication/rfcs/index.md), GitHub issues, pull request and commit messages).
+Will the candidate be successful in our all-remote environment in which the majority of communication happens in written form (Slack messages, [RFCs](../../../../../company-info-and-process/communication/rfcs/index.md), GitHub issues, pull request and commit messages).
 
 - Is the candidate able to see and communicate the big picture in an inspiring way?
 - Does the RFC communicate the product vision and explain why this is an important problem to solve?

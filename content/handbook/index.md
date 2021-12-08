@@ -23,7 +23,7 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 
 ### Intended Audience
 
-Sourcegraph is an [open company](../company-info-and-process/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) and we value [transparency](../company-info-and-process/about-sourcegraph/values/index.md#open-and-transparent). As such, we keep the Handbook public.
+Sourcegraph is an [open company](../company-info-and-process/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) and we value [transparency](../company-info-and-process/values/index.md#open-and-transparent). As such, we keep the Handbook public.
 
 The **primary** intended audience for the Handbook is Sourcegraph teammates.
 

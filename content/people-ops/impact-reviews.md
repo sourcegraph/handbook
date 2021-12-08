@@ -65,7 +65,7 @@ To help get you started, we will be hosting an interactive Sourcegraph Fundament
 
 ## Impact review stages
 
-After you’ve moved through each of your three [Onboarding Feedback Milestones](../company-processes/onboarding/onboarding-feedback-milestones.md) and you arrive at month six of your Sourcegraph journey, you will use your Sourcegraph login for [Lattice](https://lattice.com/) to conduct your 360 Impact review cycles! You will receive an email when your review cycle is set to begin prompting you to nominate your peer reviewers.
+After you’ve moved through each of your three [Onboarding Feedback Milestones](../company-info-and-process/onboarding/onboarding-feedback-milestones.md) and you arrive at month six of your Sourcegraph journey, you will use your Sourcegraph login for [Lattice](https://lattice.com/) to conduct your 360 Impact review cycles! You will receive an email when your review cycle is set to begin prompting you to nominate your peer reviewers.
 
 Timeline of stages:
 
