@@ -23,14 +23,17 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 
 ## Docs
 
-- [Values enablement](../support-values-enablement.md)
-- [Career roadmapping](career-roadmap.md)
+-
+- [Values enablement](support-values-enablement.md)
+- [Career roadmapping](../../career-growth/career-roadmap.md)
 - [How engineering and support learn from each other](eng-support-learn-from-eachother.md)
 - [Debugging tips](debugging-tips.md)
 - [Navigating the PGSQL Database](pgsql-guide.md)
 - [How to deploy Sourcegraph to GCP with Kubernetes](gcp-sg-k8s.md)
 - [How to run a Kubernetes instance locally using minikube](minikube.md)
 - [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
+- [Kubernetes and Docker](k8s-resources.md)
+- [Determining root cause](root-cause.md)
 
 ## Videos
 
@@ -49,5 +52,5 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 ## Informational Pages
 
 - [List of Sourcegraph Services in a Kubernetes Cluster](https://sourcegraph.github.io/support-tools/List%20of%20Pods/)
-- [List of Support Tools](../support-tools.md)
-- [Additional Resources for learning Kubernetes and Docker](../k8s-resources.md)
+- [List of Support Tools](../../tools/index.md)
+- [Additional Resources for learning Kubernetes and Docker](k8s-resources.md)

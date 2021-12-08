@@ -26,7 +26,7 @@ Next, you'll need to install the Google Cloud Platform (GCP) SDK locally. Instru
 
 To check and see if you've installed the GCP SDK correctly, enter the command `gcloud version` in your terminal. It should return the current version of your SDK. If so, congratulations. You now have the ability to start up virtual machines for each managed instance, and begin debugging.
 
-Next, read the [managed instances operations](../product-engineering/engineering/enablement/delivery/managed/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
+Next, read the [managed instances operations](../../product-engineering/engineering/enablement/delivery/managed/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
 
 # Other important notes
 
@@ -38,6 +38,6 @@ Should you find yourself in a situation where you need to login to a customer's 
 
 ## Requesting Help
 
-It is important to do everything we can to solve issues with managed instances ourselves, but realistically, this won't always be the case. As a general reminder, if you are stuck on an issue, always engage your CS teammates first. Specifically, reach out to Don, Jason, Mariam, or Kelvin and request help. If they can't figure out what's going on, work with them to engage the distribution team in the way they've asked [here](./engaging-other-teams.md).
+It is important to do everything we can to solve issues with managed instances ourselves, but realistically, this won't always be the case. As a general reminder, if you are stuck on an issue, always engage your CS teammates first. Specifically, reach out to Don, Jason, Mariam, or Kelvin and request help. If they can't figure out what's going on, work with them to engage the distribution team in the way they've asked [here](engaging-other-teams.md).
 
 To be clear, there is nothing wrong with engaging the distribution team, as long as it is the last step in our process towards finding a solution, and that it only be taken when absolutely necessary.

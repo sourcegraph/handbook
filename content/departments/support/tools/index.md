@@ -11,7 +11,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 - Google calendar is for your calendar, as well as shared calendars (like the CS team calendar).
 - Asana is for our project tracking as a team
 - Gsuite is for drafts, slide decks, and spreadsheets.
-- Lattice is to facilitate our for our twice yearly [review cycles](../people-ops/impact-reviews.md).
+- Lattice is to facilitate our for our twice yearly [review cycles](../../people-ops/impact-reviews.md).
 - Greenhouse is for hiring.
 - Grammarly and Hemingwayapp help us say what we intend.
 - Otter.ai makes it easier for everyone to follow along during Zoom calls.
@@ -33,16 +33,16 @@ In order to have good security and risk mitigation practices, only a subset of t
 
 ## Managed instance access
 
-In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](./support-managed-instances.md) (you can find which customers have a managed instance [here](./customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, Kelvin and/or Mariam. One of them can help! If it's a p1 issue and none of them are available, simply request the logs in the #delivery Slack channel from the Delivery team.
+In order to have good security and risk mitigation practices, only a subset of the team has [access to managed instances](../process/support-managed-instances.md) (you can find which customers have a managed instance [here](../process/customer-exceptions.md)). If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, Kelvin and/or Mariam. One of them can help! If it's a p1 issue and none of them are available, simply request the logs in the #delivery Slack channel from the Delivery team.
 
-Read more about working with managed instances [here](./support-managed-instances.md).
+Read more about working with managed instances [here](../process/support-managed-instances.md).
 
 ## Test Environments
 
 There are some test environments created specifically for the CS team to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
 
 - [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](managing-cs-aws.md))
-- [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](managing-cs-k8s.md))
+- [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](../process/managing-cs-k8s.md))
 - [Single Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
 - [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
 - [GitHub Enterprise test instance ](https://ghe.sgdev.org/)
@@ -50,7 +50,7 @@ There are some test environments created specifically for the CS team to run tes
 - [Gerrit test instance ](https://gerrit.sgdev.org/)
 - [Bitbucket test instance ](https://bitbucket.sgdev.org/)
 - [Phabricator test instance ](https://phabricator.sgdev.org/)
-- [Dogfood Perforce instance](p4-enablement.md)
+- [Dogfood Perforce instance](../process/p4-enablement.md)
 
 > NOTE: You can find all the login credentials for the test instances in your 1Password account.
 
@@ -115,7 +115,7 @@ The best way to use Zendesk as an agent is via the web app. The mobile app is ni
 
 ### When to be logged in and monitoring the queue
 
-Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday - Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](support-schedule.md). Otherwise, if you need to focus, just let the team know in our #customer-support-internal Slack channel so we can coordinate and make sure to have you covered!
+Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday - Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](../process/support-schedule.md). Otherwise, if you need to focus, just let the team know in our #customer-support-internal Slack channel so we can coordinate and make sure to have you covered!
 
 ### Notifications
 
@@ -143,11 +143,11 @@ When you close a ticket, these are the required fields you must populate:
 
 - **Did I make a docs update and put my PR link in an internal note on this ticket?** Designates how many updates we are making so we can demonstrated our contributions to our OKRs to improve our docs.
 - **Did the customer indicate a positive sentiment with your work and did I share details in an internal note on this ticket?** Designates whether a customer expresses positive sentiment for your work. This replaces customer satisfaction (CSAT) measurement since we are not yet able to survey our customers in such a fashion.
-- **Have you written a case summary?** Holds the team accountable for populating the [resolved case database](enablement/zendesk-ticket-exporter.md)
-- **Have you uploaded the summary to the GitHub repository?** Holds the team accountable for populating the [resolved case database](enablement/zendesk-ticket-exporter.md)
+- **Have you written a case summary?** Holds the team accountable for populating the [resolved case database](../process/enablement/zendesk-ticket-exporter.md)
+- **Have you uploaded the summary to the GitHub repository?** Holds the team accountable for populating the [resolved case database](../process/enablement/zendesk-ticket-exporter.md)
 - **Lifecycle:** Designates whether the request is associated with a customer when they are in the pre-sales or post-sales part of their lifecycle with us
 - **Official type:** Designates whether this is a question, defect report, or help request
-- **Official priority:** Designates whether the priority is p1 or p2 per our definitions outlined in our [prioritization guidelines](support-prioritization.md).
+- **Official priority:** Designates whether the priority is p1 or p2 per our definitions outlined in our [prioritization guidelines](../process/support-prioritization.md).
 - **Engineering team:** Designates which engineering team is responsible for the part of the product or feature associated with the ticket (think, if I got help/needed help which engineering team did I go to/would have gone to?)
 
 ### Why there are duplicate ticket data fields
@@ -182,8 +182,8 @@ We have a few automations set-up to streamline our workflow:
 
 - When you reply to a ticket, it auto-assigns to you, so you don't have to worry about remembering to click "take it" to assign it to yourself
 - The signature is built-in and is your name followed by Sourcegraph Support in the second line
-- When triage sets the requestor and they are part of an organization where we have an assigned application engineer, the application engineer is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](./customer-exceptions.md).
-- Per our [customer exceptions page](./customer-exceptions.md), we have a few customers who have access to Zendesk and they can close their own tickets. When this happens, they are able to bypass the required fields where we gather data. To ensure proper data collection, we have an email notification that is sent to the application engineer responsible for the ticket that the customer has closed the ticket and to please go back to it and fill in the required data fields.
+- When triage sets the requestor and they are part of an organization where we have an assigned application engineer, the application engineer is automatically assigned via a trigger and their back-up (if there is one) is added as a follower via the same trigger; there is one trigger for each such customer (the list of which can be found in our [customer exceptions page](../process/customer-exceptions.md).
+- Per our [customer exceptions page](../process/customer-exceptions.md), we have a few customers who have access to Zendesk and they can close their own tickets. When this happens, they are able to bypass the required fields where we gather data. To ensure proper data collection, we have an email notification that is sent to the application engineer responsible for the ticket that the customer has closed the ticket and to please go back to it and fill in the required data fields.
 
 ### Apps
 
@@ -194,7 +194,7 @@ We use the following apps to streamline our workflow:
 
 ### The customer experience
 
-- When a customer emails support@ they receive an automated email that says: This is an automated email to let you know that the email you just sent to support@sourcegraph.com has been received and if you need it, the ID number is ({{ticket.id}}). We do not count this as our first response (we only send this so you can have peace of mind that your email arrived to us). For our first reply, we aim to be truly helpful, where we have already spent time digging in. This usually happens in a couple of hours. You can read more about how we approach helping you [here](index.md). If you think of anything else while you wait for us to get back to you with a thoughtful and useful first response, just reply to this email." _Note: this email does not go to folks initiating help requests in our #support- and #trial- Slack channels._
+- When a customer emails support@ they receive an automated email that says: This is an automated email to let you know that the email you just sent to support@sourcegraph.com has been received and if you need it, the ID number is ({{ticket.id}}). We do not count this as our first response (we only send this so you can have peace of mind that your email arrived to us). For our first reply, we aim to be truly helpful, where we have already spent time digging in. This usually happens in a couple of hours. You can read more about how we approach helping you [here](../index.md). If you think of anything else while you wait for us to get back to you with a thoughtful and useful first response, just reply to this email." _Note: this email does not go to folks initiating help requests in our #support- and #trial- Slack channels._
 - Once we (and the customer) deem the case solved, we mark the case solved. After an hour of doing so, Zendesk automatically emails a request for feedback on whether the support experience was good or bad. _Note: this email does not go to folks initiating help requests in our #support- and #trial- Slack channels._
 
 ### https://sourcegraph.zendesk.com/

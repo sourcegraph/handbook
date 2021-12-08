@@ -10,7 +10,7 @@ Customer Support at Sourcegraph exists to resolve technical issues and answer te
 - Seeking/providing context so the why is clear
 - Demonstrating profound compassion for the people with whom our paths cross and the problems/questions we help them solve, meeting them where they are
 - Only asking our customers and teammates things we can’t do or answer ourselves
-- Persistently working toward and/or seeking resolution that works equally for our customers and us (see [an open letter about root cause](root-cause.md) for inspiration)
+- Persistently working toward and/or seeking resolution that works equally for our customers and us (see [an open letter about root cause](process/root-cause.md) for inspiration)
 - Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication)
 - Being flexible and open, maintaining a first principles thinking approach, and always confronting and growing past our biases
 - Outgrowing ourselves, the way we work, and continuously improving
@@ -21,27 +21,27 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 
-[Virginia Ulrich](../team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
+[Virginia Ulrich](../../team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
 
-- [Brielle Collins](../team/index.md#brielle-collins), Manager
+- [Brielle Collins](../../team/index.md#brielle-collins), Manager
 
-  - [Gabe Torres](../team/index.md#team#gabe-torres)
-  - [Mariam Adedeji](../team/index.md#mariam-adedeji)
-  - [Michael Bali](../team/index.md#michael-bali)
-  - [Warren Gifford](../team/index.md#warren-gifford)
+  - [Gabe Torres](../../team/index.md#team#gabe-torres)
+  - [Mariam Adedeji](../../team/index.md#mariam-adedeji)
+  - [Michael Bali](../../team/index.md#michael-bali)
+  - [Warren Gifford](../../team/index.md#warren-gifford)
 
-- [Nonso Obiano](../team/index.md#nonso-obiano), Manager
-  - [Amber Furbush](../team/index.md#amber-furbush)
-  - [Don Ellison](../team/index.md#donavon-ellison)
-  - [Giselle Northy](../team/index.md#giselle-northy)
-  - [Jason Harris](../team/index.md#jason-harris)
-  - [Stompy Mwendwa](../team/index.md#stompy-mwendwa)
-- [Tamar Joyeux](../team/index.md#tamar-joyeux), Manager
-  - [Alex Jean-Baptiste](../team/index.md#alex-jean-baptiste)
-  - [Ben Gordon](../team/index.md#team#ben-gordon)
-  - [Kelvin Lee](../team/index.md#kelvin-lee)
+- [Nonso Obiano](../../team/index.md#nonso-obiano), Manager
+  - [Amber Furbush](../../team/index.md#amber-furbush)
+  - [Don Ellison](../../team/index.md#donavon-ellison)
+  - [Giselle Northy](../../team/index.md#giselle-northy)
+  - [Jason Harris](../../team/index.md#jason-harris)
+  - [Stompy Mwendwa](../../team/index.md#stompy-mwendwa)
+- [Tamar Joyeux](../../team/index.md#tamar-joyeux), Manager
+  - [Alex Jean-Baptiste](../../team/index.md#alex-jean-baptiste)
+  - [Ben Gordon](../../team/index.md#team#ben-gordon)
+  - [Kelvin Lee](../../team/index.md#kelvin-lee)
 
-More details about each team member in [our team READMEs](bios/index.md).
+More details about each team member in [our team READMEs](team/index.md).
 
 ## We know that we are successful when we …
 
@@ -53,9 +53,9 @@ We always want the following to be true:
 - **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 - **No more than 10% of cases result in a request for help from engineering per month.** Requests for help are questions about how something works and/or troubleshooting assistance. This does not include defects or feature improvement requests. 10% may be the wrong target, but it’s a start and no matter what, the target will reflect the intention that the support team will strive to be as self-sufficient as possible. Performance available in summary updates (currently manually tallied).
 - **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.**
-  - [FY22Q2 OKR plan](FY22Q2-OKR-Plan.md)
-  - [FY22Q3 OKR plan](FY22Q3-OKR-Plan.md)
-  - [FY22Q4 OKR plan](FY22Q4-OKR-Plan.md)
+  - [FY22Q2 OKR plan](strategy-goals/FY22Q2-OKR-Plan.md)
+  - [FY22Q3 OKR plan](strategy-goals/FY22Q3-OKR-Plan.md)
+  - [FY22Q4 OKR plan](strategy-goals/FY22Q4-OKR-Plan.md)
 
 ### As an individual application engineer...
 
@@ -68,7 +68,7 @@ As I complete my first 90 days (if not sooner), I know I am successful in my day
 5. I resolve the cases for which I am responsible in 7 days or less (on average)
 6. I rarely have more than 5 active cases at a time
 7. I work toward team self-sufficiency by always asking my teammates for input/help before engaging engineering and by ensuring what I learn along the way is reflected in our docs or the handbook (whichever is most relevant)
-8. I provide a summary of my cases to populate our [resolved case database](enablement/zendesk-ticket-exporter.md)
+8. I provide a summary of my cases to populate our [resolved case database](process/enablement/zendesk-ticket-exporter.md)
 
 You can see how you are performing toward some of these metrics by determining your Zendesk assignee ID ([instructions](https://support.zendesk.com/hc/en-us/articles/360044278093-How-can-I-locate-an-agent-ID-in-Support-) and filtering [our Looker dashboard](https://sourcegraph.looker.com/dashboards-next/177) on your ID.
 
@@ -85,7 +85,7 @@ In addition, we also use several additional key performance indicators (KPIs) to
 
 ## How we intersect with other teams
 
-We are a [customer-first company](../company-info-and-process/values/customer-first.md). We work alongside just about every team. Here is how we add value to each other and a collaboration overview for each pairing.
+We are a [customer-first company](../../company-info-and-process/values/customer-first.md). We work alongside just about every team. Here is how we add value to each other and a collaboration overview for each pairing.
 
 ### Customer Engineers (CEs)
 
@@ -129,25 +129,26 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
-- [Application engineer onboarding](customer-support-onboarding.md)
-- [Manager onboarding](customer-support-manager-onboarding.md)
-- [Career levels](cs-career-levels.md)
-- [Team README](bios/index.md)
-- [Team schedule](support-schedule.md)
-- [Organizational structure](support-org-structure.md)
-- [Team rituals](support-team-rituals.md)
-- [How we plan our OKRs](quarterly-planning.md)
-- [Workflow](support-workflow.md)
-- [Prioritization](support-prioritization.md)
-- [Customer exceptions](customer-exceptions.md)
-- [Engaging other teams](engaging-other-teams.md)
-- [Serving as messenger during incidents](../product-engineering/engineering/incidents/index.md)
-- [Triaging](customer-support-triaging.md)
-- [Enablement](enablement/index.md)
-- [Tools](support-tools.md)
-- [Assigned application engineers](assigned-app-eng.md)
-- [Permanently deleting user data](permanently_deleting_user_data.md)
-- [Business continuity](business-continuity-plan.md)
+- [Application engineer onboarding](onboarding/customer-support-onboarding.md)
+- [Manager onboarding](onboarding/customer-support-manager-onboarding.md)
+- [Career levels](career-growth/cs-career-levels.md)
+- [Career roadmap](career-growth/career-roadmap.md)
+- [Team README](team/index.md)
+- [Team schedule](process/support-schedule.md)
+- [Organizational structure](process/support-org-structure.md)
+- [Team rituals](process/support-team-rituals.md)
+- [How we plan our OKRs](process/quarterly-planning.md)
+- [Workflow](process/support-workflow.md)
+- [Prioritization](process/support-prioritization.md)
+- [Customer exceptions](process/customer-exceptions.md)
+- [Engaging other teams](process/engaging-other-teams.md)
+- [Serving as messenger during incidents](../../product-engineering/engineering/process/incidents/index.md)
+- [Triaging](process/customer-support-triaging.md)
+- [Enablement](process/enablement/index.md)
+- [Tools](tools/index.md)
+- [Assigned application engineers](process/assigned-app-eng.md)
+- [Permanently deleting user data](process/permanently_deleting_user_data.md)
+- [Business continuity](process/business-continuity-plan.md)
 
 ## SLAs
 
@@ -189,4 +190,4 @@ Enterprise Plus and Elite customers should refer to their contracts if they have
 
 ## Support on-call
 
-Our contractual SLAs do not require support to be available 24x7, but we strive to make sure our customers have what they need when they need it. Via proper staffing (hiring folks whose working hours align with our needs), we will eventually move to 24x5 over the course of FY23, possibly into FY24. We will assess quarterly whether we need to move to a 24x7 schedule. In the meantime, our [team schedule](support-schedule.md) shows when we have folks online. Virginia's phone number is in Slack (if she is not online) and the OpsGenie on-call protocol can alert a CS leader at any time, too: use the Slack command: `/genie alert [alert message] for customer-support` ... and this will trigger a page to a member of the leadership team, any time, any day.
+Our contractual SLAs do not require support to be available 24x7, but we strive to make sure our customers have what they need when they need it. Via proper staffing (hiring folks whose working hours align with our needs), we will eventually move to 24x5 over the course of FY23, possibly into FY24. We will assess quarterly whether we need to move to a 24x7 schedule. In the meantime, our [team schedule](process/support-schedule.md) shows when we have folks online. Virginia's phone number is in Slack (if she is not online) and the OpsGenie on-call protocol can alert a CS leader at any time, too: use the Slack command: `/genie alert [alert message] for customer-support` ... and this will trigger a page to a member of the leadership team, any time, any day.

@@ -15,16 +15,16 @@ In order to stay in touch throughout the week and support each other, we share t
 
 In order to get some purposeful face-time in with each other, we convene synchronously over Zoom each week for...
 
-- **CS team [planning and retrospective](https://docs.google.com/document/d/1dy5rIY5F4nQoScwH9sTEg7iQd66_oVP5bdWD3MhG2k4/edit#)** where we consider what is going well vs not, discuss, brainstorm, and share important information; more details in on our [organizational structure page](support-org-structure.md).
-- **Weekly social gathering** to gather and just chat as humans; more details in on our [organizational structure page](support-org-structure.md).
-- [**Collaboration time**](collaboration-time.md) to discuss cases that we need help with, things we've learned that we're excited about and would like to share with the team
+- **CS team [planning and retrospective](https://docs.google.com/document/d/1dy5rIY5F4nQoScwH9sTEg7iQd66_oVP5bdWD3MhG2k4/edit#)** where we consider what is going well vs not, discuss, brainstorm, and share important information; more details in on our [organizational structure page](../team/support-org-structure.md).
+- **Weekly social gathering** to gather and just chat as humans; more details in on our [organizational structure page](../team/support-org-structure.md).
+- [**Collaboration time**](../process/collaboration-time.md) to discuss cases that we need help with, things we've learned that we're excited about and would like to share with the team
 - **Weekly support donut pairing** is an auto pairing for those in the #customer-support-weekly-pairing channel to get paired together for a social chat.
 
 ## Communication
 
 In order to maintain healthy communication, we...
 
-- We populate and refer to our [team README](bios/index.md) to orient ourselves for working with each other
+- We populate and refer to our [team README](../team/index.md) to orient ourselves for working with each other
 - We honor that not everyone writes/speaks English as their first language and use Grammarly and HemingwayApp to help make sure we are saying what we intend
 - We rotate who facilitates our weekly planning/retro session so that we normalize hearing each other and noticing when someone isn't getting a chance to talk
 - We take turns each month auditing our section of the handbook to make sure it's current and accurate
@@ -34,7 +34,7 @@ In order to maintain healthy communication, we...
 
 In order to keep the air clear with each other, we do the following:
 
-- We honor our [Sourcegraph values](../company-info-and-process/values/index.md), [code of conduct](../company-info-and-process/communication/code_of_conduct.md), and [team ethos](index.md)
+- We honor our [Sourcegraph values](../../../company-info-and-process/values/index.md), [code of conduct](../../../company-info-and-process/communication/code_of_conduct.md), and [team ethos](../index.md)
 - We make it clear when are committing to do something, we make it equally clear when we cannot, and we adjust and communicate accordingly when life happens
 - We let each other know immediately when we are feeling like it's anything other than feasible to get done what we have committed to doing
 - We let each other know immediately the moment we realize something we committed to doing may be at risk somehow

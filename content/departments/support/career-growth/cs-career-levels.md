@@ -1,6 +1,6 @@
 # Customer support career levels
 
-Our career level framework is meant to help you understand the expectations of your role and provide a common vocabulary for you and your manager to discuss and plan your career development on the CS team (in addition to where you might want to take your career in the future as outlined in our [career roadmap practice](enablement/career-roadmap.md)). Having shared and visible expectations (as well as a common vocabulary) gives us an accountability framework to reduce bias in promotions/hiring and ensures that we are equitably recognizing everyone for their impact.
+Our career level framework is meant to help you understand the expectations of your role and provide a common vocabulary for you and your manager to discuss and plan your career development on the CS team (in addition to where you might want to take your career in the future as outlined in our [career roadmap practice](career-roadmap.md)). Having shared and visible expectations (as well as a common vocabulary) gives us an accountability framework to reduce bias in promotions/hiring and ensures that we are equitably recognizing everyone for their impact.
 
 ## What are the expectations of my role?
 

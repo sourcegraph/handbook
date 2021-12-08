@@ -2,7 +2,7 @@
 
 There are two aspects of career roadmapping:
 
-1. Progressing the role/team of application engineer (see our [career levels page](../cs-career-levels.md)
+1. Progressing the role/team of application engineer (see our [career levels page](cs-career-levels.md)
 2. Thinking through longer term plans and how to move into something outside of the team
 
 This page focuses on the latter.
