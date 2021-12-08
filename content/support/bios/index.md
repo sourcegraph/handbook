@@ -18,7 +18,6 @@ Our README expands on our profile in [the company team directory](../../team/ind
 - Nonso [README](nonso-readme.md)
 - Virginia [README](virginia-readme.md)
 
-
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 
 - Individual view on customer service/support
