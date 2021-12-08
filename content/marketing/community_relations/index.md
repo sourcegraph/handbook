@@ -1,6 +1,6 @@
 # Community Relations
 
-At Sourcegraph, our mission is to make it so [everyone can code](../../company/strategy/index.md#purpose). The community relations team supports our mission by implementing community outreach programs, organizing events, and supporting our community’s contributions to Sourcegraph. The team’s ultimate goal is to contribute to understanding and smooth collaboration within our community. We also support the [Developer Education](../education/index.md) team to increase technical literacy.
+At Sourcegraph, our mission is to make it so [everyone can code](../../strategy-goals/strategy#purpose). The community relations team supports our mission by implementing community outreach programs, organizing events, and supporting our community’s contributions to Sourcegraph. The team’s ultimate goal is to contribute to understanding and smooth collaboration within our community. We also support the [Developer Education](../education/index.md) team to increase technical literacy.
 
 ## Our team runs:
 
@@ -22,11 +22,11 @@ Playing an active role in broadening our reach in the community, building authen
 
 ## Team
 
-- [Samson Goddy](../../company/team/index.md#samson-goddy), Director of Community
-- [Prosper Otemuyiwa](../../company/team/index.md#prosper-otemuyiwa), Staff Developer Evangelist
-- [Vanesa Ortiz](../../company/team/index.md#vanesa-ortiz), Community Advocate
+- [Samson Goddy](../../team/index.md#samson-goddy), Director of Community
+- [Prosper Otemuyiwa](../../team/index.md#prosper-otemuyiwa), Staff Developer Evangelist
+- [Vanesa Ortiz](../../team/index.md#vanesa-ortiz), Community Advocate
 - Amarachi Emmanuela Azubuike, Social Media Community Manager
-- [Erika Heidi](../../company/team/index.md#erika-heidi), Senior Developer Advocate
+- [Erika Heidi](../../team/index.md#erika-heidi), Senior Developer Advocate
 
 ## Contact
 

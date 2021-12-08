@@ -10,17 +10,17 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ## Members
 
-- [Dan Mckeen](../../../../company/team/index.md#dan-mckean) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Jordan Plahn](../../../../company/team/index.md#jordan-plahn) ([Engineering Manager](../../roles.md#engineering-manager))
-  - [Ryan Slade](../../../../company/team/index.md#ryan-slade)
-  - [Indradhanush Gupta](../../../../company/team/index.md#indradhanush-gupta)
-  - [Molly Weitzel](../../../../company/team/index.md#molly-weitzel)
-  - [Alex Ostrikov](../../../../company/team/index.md#alexander-ostrikov)
-  - [Asdine El Hrychy](../../../../company/team/index.md#asdine-el-hrychy)
+- [Dan Mckeen](../../../../team/index.md#dan-mckean) ([Product Manager](../../../product/roles/index.md#product-manager))
+- [Jordan Plahn](../../../../team/index.md#jordan-plahn) ([Engineering Manager](../../roles.md#engineering-manager))
+  - [Ryan Slade](../../../../team/index.md#ryan-slade)
+  - [Indradhanush Gupta](../../../../team/index.md#indradhanush-gupta)
+  - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
+  - [Alex Ostrikov](../../../../team/index.md#alexander-ostrikov)
+  - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
 
 ## Strategy
 
-[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../../company/strategy/enablement/repo-management/index.md)
+[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../../strategy-goals/strategy/enablement/repo-management/index.md)
 
 ## Onboarding
 
@@ -58,7 +58,7 @@ Read more about [how this team works](processes.md).
 
 We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](../../../../company/strategy/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
+We also have a set of [guiding principles](../../../../strategy-goals/strategy/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
 
 ## Internal
 

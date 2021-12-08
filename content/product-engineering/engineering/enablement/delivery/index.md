@@ -8,14 +8,14 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Members
 
-- [Jean du Plessis](../../../../company/team/index.md#jean-du-plessis) ([Director of Engineering](../../roles.md#director-of-engineering)) and (acting [Engineering Manager](../../roles.md#engineering-manager))
-- [Dan Mckean](../../../../company/team/index.md#dan-mckean) (acting [Product Manager](../../../product/roles/index.md#product-manager))
-- [Crystal Augustus](../../../../company/team/index.md#crystal-augustus)
-- [Kevin Wojkovich](../../../../company/team/index.md#kevin-wojkovich)
+- [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../../roles.md#director-of-engineering)) and (acting [Engineering Manager](../../roles.md#engineering-manager))
+- [Dan Mckean](../../../../team/index.md#dan-mckean) (acting [Product Manager](../../../product/roles/index.md#product-manager))
+- [Crystal Augustus](../../../../team/index.md#crystal-augustus)
+- [Kevin Wojkovich](../../../../team/index.md#kevin-wojkovich)
 
 ## Strategy
 
-[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../company/strategy/enablement/delivery/index.md)
+[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../strategy-goals/strategy/enablement/delivery/index.md)
 
 ## Responsibilities
 
@@ -46,8 +46,9 @@ TODO
 
 We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](../../../../company/strategy/enablement/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
+We also have a set of [guiding principles](../../../../strategy-goals/strategy/enablement/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
 
 ## Processes
 
-[Read more about how we work](processes.md)
+- [Read more about how we work](processes.md)
+- [Onboarding](onboarding.md)

@@ -12,7 +12,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 ### Configure Google Calendar
 
 - [Add your working hours to Google Calendar](https://calendar.google.com/calendar/r/settings) so your teammates know when it is safe to add meetings to your calendar.
-- Add any local [holidays](../../people-ops/holidays.md) you observe to your calendar so people know you're not working.
+- Add any local [holidays](../../benefits-pay-perks/benefits-perks/holidays.md) you observe to your calendar so people know you're not working.
 - Under [Event Settings](https://calendar.google.com/calendar/u/0/r/settings), change the default guest permissions to **"Modify event"** (this makes it easy for teammates to reschedule when necessary).
   - Consider enabling "Speedy meetings" to build in a 5- or 10-minute break at the end of meetings.
 

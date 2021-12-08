@@ -16,7 +16,7 @@ This page contains information that is relevant for how to do well at your job a
 
 ### Keeping strategy up to date
 
-Sourcegraph has a top-level [strategy page](../../../company/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update regularly:
+Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update regularly:
 
 #### OKR and roadmap tracking
 
@@ -24,7 +24,7 @@ See the [Product & Engineering handbook on sharing progress](../../planning-proc
 
 #### Per-team strategy pages
 
-We also use [per-team strategy pages](../../../company/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and any other important partners for feedback in your monthly update PR.
+We also use [per-team strategy pages](../../../strategy-goals/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and any other important partners for feedback in your monthly update PR.
 
 Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
 
@@ -111,7 +111,7 @@ When we have relaxed this in the past, the results have been bad and the overwhe
 
 ## Tools/Templates
 
-- [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) - a template for a [product strategy page](../../../company/strategy/index.md), covering vision, strategy and short term direction.
+- [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) - a template for a [product strategy page](../../../strategy-goals/strategy/index.md), covering vision, strategy and short term direction.
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../../bizops/amplitude.md)

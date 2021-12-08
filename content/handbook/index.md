@@ -16,7 +16,7 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 
 ### Guiding Principles
 
-- **The Handbook can ve viewed by anyone.** One of our Sourcegraph values is transparency. We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
+- **The Handbook can be viewed by anyone.** One of our Sourcegraph values is transparency. We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
 - **The Handbook can be edited by any Sourcegraph teammate.** We value high agency and encourage all teammates to update the Handbook as they see fit. We provide resources to help teammates contribute to the Handbook no matter their technical background.
 - **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, we work as a team. No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
 - **The Handbook is a source of truth** at Sourcegraph, and information there is expected to be accurate and up-to-date.
@@ -39,7 +39,7 @@ To be handbook-first, we must:
 
 - Default to the handbook when looking for information about a business process or policy.
 - Rely on the handbook being accurate and up-to-date.
-- Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurrate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
+- Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
 
 ## Handbook Usage
 

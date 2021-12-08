@@ -1,6 +1,6 @@
 # Demand Gen Team README
 
-Our README expands on our profile in [the company team directory](../../company/team/index.md) and are meant to help us orient to one another.
+Our README expands on our profile in [the company team directory](../../team/index.md) and are meant to help us orient to one another.
 
 - Adam [README](./adam-readme.md)
 - Erica [README](./erica-readme.md)

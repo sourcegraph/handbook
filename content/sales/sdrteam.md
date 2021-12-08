@@ -4,22 +4,22 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Members
 
-- [Nicholas Gage](../company/team/index.md#nicholas-gage), Head of Sales Development
+- [Nicholas Gage](../team/index.md#nicholas-gage), Head of Sales Development
   - West Outbound SDRs
-    - [Kevin "Quigs" Quiqley](../company/team/index.md#kevin-quigley)
-    - [Brannon Rouse](../company/team/index.md#brannon-rouse)
-    - [Carter Jaenichen](../company/team/index.md#carter-jaenichen)
+    - [Kevin "Quigs" Quiqley](../team/index.md#kevin-quigley)
+    - [Brannon Rouse](../team/index.md#brannon-rouse)
+    - [Carter Jaenichen](../team/index.md#carter-jaenichen)
     - Open
   - East Outbound SDRs
-    - [Sam Cregg](../company/team/index.md#sam-cregg)
-    - [Ellie Dawson](../company/team/index.md#ellie-dawson)
+    - [Sam Cregg](../team/index.md#sam-cregg)
+    - [Ellie Dawson](../team/index.md#ellie-dawson)
     - [Daniel Gwyn]
     - Open
   - Inbound SDRs
-    - [Mark "Markie" Muldez](../company/team/index.md#mark-markie-muldez)
+    - [Mark "Markie" Muldez](../team/index.md#mark-markie-muldez)
     - Open
   - EMEA SDRs
-    - [Jagna Feierabend](../company/team/index.md#jagna-feierabend)
+    - [Jagna Feierabend](../team/index.md#jagna-feierabend)
     - Open
   - APAC SDRs
     - Open

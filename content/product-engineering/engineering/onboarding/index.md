@@ -29,7 +29,7 @@ Your manager should complete the following steps when you join:
     - Invite to relevant GitHub teams, including @sourcegraph/everyone.
   - [Productboard](https://sourcegraph.productboard.com)
   - [Figma](https://figma.com)
-  - Add the user to the `gcp-engineering` [group](https://console.cloud.google.com/iam-admin/groups?orgonly=true&project=&folder=&organizationId=1006954638239&supportedpurview=organizationId) so they have access to our [Google Cloud Platform](../environments.md).
+  - Add the user to the `gcp-engineering` [group](https://console.cloud.google.com/iam-admin/groups?orgonly=true&project=&folder=&organizationId=1006954638239&supportedpurview=organizationId) so they have access to our [Google Cloud Platform](../infrastructure/gcp.md).
 - Grant access to necessary services.
 
   - [Sourcegraph organization on Sourcegraph.com](https://sourcegraph.com/organizations/sourcegraph/settings/members)

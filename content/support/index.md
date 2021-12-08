@@ -21,25 +21,25 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 
-[Virginia Ulrich](../company/team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
+[Virginia Ulrich](../team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
 
-- [Brielle Collins](../company/team/index.md#brielle-collins), Manager
+- [Brielle Collins](../team/index.md#brielle-collins), Manager
 
-  - [Gabe Torres](../company/team/index.md#team#gabe-torres)
-  - [Mariam Adedeji](../company/team/index.md#mariam-adedeji)
-  - [Michael Bali](../company/team/index.md#michael-bali)
-  - [Warren Gifford](../company/team/index.md#warren-gifford)
+  - [Gabe Torres](../team/index.md#team#gabe-torres)
+  - [Mariam Adedeji](../team/index.md#mariam-adedeji)
+  - [Michael Bali](../team/index.md#michael-bali)
+  - [Warren Gifford](../team/index.md#warren-gifford)
 
-- [Nonso Obiano](../company/team/index.md#nonso-obiano), Manager
-  - [Amber Furbush](../company/team/index.md#amber-furbush)
-  - [Don Ellison](../company/team/index.md#donavon-ellison)
-  - [Giselle Northy](../company/team/index.md#giselle-northy)
-  - [Jason Harris](../company/team/index.md#jason-harris)
-  - [Stompy Mwendwa](../company/team/index.md#stompy-mwendwa)
-- [Tamar Joyeux](../company/team/index.md#tamar-joyeux), Manager
-  - [Alex Jean-Baptiste](../company/team/index.md#alex-jean-baptiste)
-  - [Ben Gordon](../company/team/index.md#team#ben-gordon)
-  - [Kelvin Lee](../company/team/index.md#kelvin-lee)
+- [Nonso Obiano](../team/index.md#nonso-obiano), Manager
+  - [Amber Furbush](../team/index.md#amber-furbush)
+  - [Don Ellison](../team/index.md#donavon-ellison)
+  - [Giselle Northy](../team/index.md#giselle-northy)
+  - [Jason Harris](../team/index.md#jason-harris)
+  - [Stompy Mwendwa](../team/index.md#stompy-mwendwa)
+- [Tamar Joyeux](../team/index.md#tamar-joyeux), Manager
+  - [Alex Jean-Baptiste](../team/index.md#alex-jean-baptiste)
+  - [Ben Gordon](../team/index.md#team#ben-gordon)
+  - [Kelvin Lee](../team/index.md#kelvin-lee)
 
 More details about each team member in [our team READMEs](bios/index.md).
 

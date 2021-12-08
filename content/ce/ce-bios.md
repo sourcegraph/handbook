@@ -1,6 +1,6 @@
 # Customer Engineering Team README
 
-Our README expands on our profile in [the company team directory](../company/team/index.md) and are meant to help us orient to one another.
+Our README expands on our profile in [the company team directory](../team/index.md) and are meant to help us orient to one another.
 
 - Aimee [README](aimee-readme.md)
 - Bob [README](bob-readme.md)

@@ -48,7 +48,7 @@ Remember:
 
 - Schedule individual meetings with each person on the [Product team](../index.md#members)
 - Schedule individual meetings with each person on the engineering team you'll be working most closely with ( this will be in your specific onboarding docs)
-- Schedule a meeting with the [Head of Customer Support](../../../company/team/index.md#virginia-ulrich)
+- Schedule a meeting with the [Head of Customer Support](../../../team/index.md#virginia-ulrich)
 - Get up to speed on what your team is working on
   - Team handbook page(s), to learn about the team and its internal processes
     - [Product](../index.md)
@@ -103,7 +103,7 @@ Remember:
 ### Understand company and team goals
 
 - [Sourcegraph values](../../../company/values.md)
-- [Sourcegraph strategy](../../../company/strategy/index.md)
+- [Sourcegraph strategy](../../../strategy-goals/strategy/index.md)
 - [OKR Tracker](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit?ts=607a3f2e#gid=1699297878)
 
 ### Get ready to contribute to the docs
