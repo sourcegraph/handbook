@@ -2202,3 +2202,12 @@ filip_haftek:
   email: filip.haftek@sourcegraph.com
   links: '[LinkedIn](https://pl.linkedin.com/in/filip-haftek-a5710114)'
   description: 'Filip is a software engineer DevOps located in Krakow, Poland. He really likes to help people, especially in the areas he has an experience like cloud infrastructure (+ terraform), automation, CI/CD, search engines and the applications performance and monitoring. He loves to spend time with his family, especially skiing, walking through the forests and travelling together. Winter is his favourite part of the year :skier: :snowflake:'
+
+daniel_dides:
+  name: Daniel Dides
+  role: Cloud DevOps
+  location: Flint, TX, USA 🇺🇸
+  email: daniel.dides@sourcegraph.com
+  github: danieldides
+  links: '[LinkedIn](https://www.linkedin.com/in/danieldides/)'
+  description: Daniel lives in Flint, TX with his wife, two dogs, a cat, and a couple of horses. During the day, Dan enjoys helping people leverage Kubernetes and modern cloud tooling. When he's not working, he enjoys watching rocket launches, designing and 3D printing parts, and tinkering with new technologies.
