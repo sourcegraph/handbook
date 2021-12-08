@@ -5,9 +5,9 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
 ## The interview lifecycle
 
 - **You are here:** how to open a new job
-- [The interview process](./interview_process.md)
-- [How to extend an offer](./extending_an_offer.md)
-- [How to onboard a new hire](./after_the_offer.md)
+- [The interview process](interview_process.md)
+- [How to extend an offer](extending_an_offer.md)
+- [How to onboard a new hire](after_the_offer.md)
 
 ## Kicking off a new search
 
@@ -19,7 +19,7 @@ Step 2: The **Hiring Manager** creates a job description & interview plan using 
 
 - **Job description format**: we write all job descriptions in an _impact format_. The way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. Countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. To that end, Sourcegraph's job description format focuses on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool. The goal of the job description is to focus on getting the candidate excited, while giving a clear representation on what we expect them to accomplish both in the short-term and longer-term. How will working out Sourcegraph benefit them in their career? Why is this the best job they’ll ever have?
 
-- **Interview plan format**: creating a structured interview process is critical to our DEI efforts. Research shows that structured interviews are up to **twice as effective** at predicting job performance than unstructured ones, and ultimately help us hire faster. Structuring interviews with a standardized set of questions also allows for a more fair and impartial way of assessing candidates, which helps remove unconscious biases. Before creating your interview plan, you may find it helpful to read about the [types of interviews](./types_of_interviews.md) other hiring managers have leveraged in the past. When creating the interview questions, please keep in mind: all interview questions should be written in open ended format (the best way to ensure of this is to start every question with “tell me…”), and to ensure all questions are legal, ask yourself “does this question relate to the candidate’s ability to do this job?” … if you can’t confidently say yes, it’s better to not ask it!
+- **Interview plan format**: creating a structured interview process is critical to our DEI efforts. Research shows that structured interviews are up to **twice as effective** at predicting job performance than unstructured ones, and ultimately help us hire faster. Structuring interviews with a standardized set of questions also allows for a more fair and impartial way of assessing candidates, which helps remove unconscious biases. Before creating your interview plan, you may find it helpful to read about the [types of interviews](types_of_interviews.md) other hiring managers have leveraged in the past. When creating the interview questions, please keep in mind: all interview questions should be written in open ended format (the best way to ensure of this is to start every question with “tell me…”), and to ensure all questions are legal, ask yourself “does this question relate to the candidate’s ability to do this job?” … if you can’t confidently say yes, it’s better to not ask it!
 
 Step 3: The **Hiring Manager** fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit). Responses are routed to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=2123710308).
 
@@ -33,9 +33,9 @@ Step 2: the **Recruiter** opens the job in Greenhouse:
 - Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit) directly into each interview stage.
 - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md).
 
-Step 3: the **Recruiter** posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](hiring/job_boards.md).
+Step 3: the **Recruiter** posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](../tools/job_boards.md).
 
-Step 4: the **Recruiter** creates a Slack channel with the Interview Team and starts the [Slack Kick-Off Process](./resources_for_recruiters.md#slack-kick-off-process).
+Step 4: the **Recruiter** creates a Slack channel with the Interview Team and starts the [Slack Kick-Off Process](../tools/resources_for_recruiters.md#slack-kick-off-process).
 
 Step 5: the **Recruiter** begins generating a candidate pool by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter
 

@@ -2,7 +2,7 @@
 
 ## Partnering with recruiting
 
-Each hiring manager has an [assigned recruiter](index.md#talent-team-members) for their hiring needs. If you are unsure which Recruiter you should partner with, please Slack @hiring to inquire.
+Each hiring manager has an [assigned recruiter](../index.md#talent-team-members) for their hiring needs. If you are unsure which Recruiter you should partner with, please Slack @hiring to inquire.
 
 ## Partnering with sourcing
 
@@ -20,22 +20,22 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 ## The interview process
 
-- [The interview process](./interview_process.md).
-- [Types of interviews](./types_of_interviews.md).
+- [The interview process](../process/interview_process.md).
+- [Types of interviews](../process/types_of_interviews.md).
 
 ### 1. Opening a new job
 
 - To open a new role:
 
   - The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit). Responses are routed to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=2123710308).
-  - The Hiring Manager creates a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit). Read more about why we write job descriptions in this way [here](interview_process.md#creating-a-job-description).
-  - The Hiring Manager creates an [interview plan](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1566158302). Before creating your plan, we encourage you to [read more](hiring/index.md) about why creating an interview plan comprised of structured interview questions is critical to our success.
+  - The Hiring Manager creates a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit). Read more about why we write job descriptions in this way [here](../process/interview_process.md#creating-a-job-description).
+  - The Hiring Manager creates an [interview plan](https://docs.google.com/spreadsheets/d/1pMG_K3pf_pP_AIvy8jjOKc-h6htDJ5QkvEMD3prAQ5Y/edit#gid=1566158302). Before creating your plan, we encourage you to [read more](../process/index.md) about why creating an interview plan comprised of structured interview questions is critical to our success.
 
 - Once the Hiring Manager completes the above steps, the Recruiter takes the below actions:
   - Recruiter schedules a 30-45-minute intake meeting with the Hiring Manager to kick off the search. This is a necessary step to ensure initial alignment and set our search up for success.
-  - Recruiter opens the job in Greenhouse by copying the "Template" job and builds out the interview plan, adding all behavioral-based, structured questions directly into each interview stage. All interview stages should use the standard interview titles, found [here](./types_of_interviews.md).
-  - Recruiter posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91) and LinkedIn. If you would like it posted in other locations, please ask your Recruiter or send a Slack message to @hiring. You can see a list of other job boards we are considering [here](hiring/job_boards.md).
-  - Recruiter starts the [Slack Kick-Off Process](./resources_for_recruiters.md#slack-kick-off-process).
+  - Recruiter opens the job in Greenhouse by copying the "Template" job and builds out the interview plan, adding all behavioral-based, structured questions directly into each interview stage. All interview stages should use the standard interview titles, found [here](../process/types_of_interviews.md).
+  - Recruiter posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91) and LinkedIn. If you would like it posted in other locations, please ask your Recruiter or send a Slack message to @hiring. You can see a list of other job boards we are considering [here](../process/job_boards.md).
+  - Recruiter starts the [Slack Kick-Off Process](resources_for_recruiters.md#slack-kick-off-process).
 
 ### 2. Recruiting Stage
 
@@ -46,7 +46,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 - Recruiter conducts an initial recruiter screen with eligible candidates.
 - Recruiter submits qualified candidates to Hiring Manager.
 - Recruiting Coordinator schedules additional interviews for candidates.
-  - [Interview process for each department](interview_process.md)
+  - [Interview process for each department](../process/interview_process.md)
 - The hiring team (including the Recruiter, Hiring Manager, and all other interviewers) debriefs and makes final hiring decision.
   - This can be done in a synchronous fashion via a debrief Zoom meeting, or asynchronously via Slack.
   - Hiring Managers are responsible for communicating your hiring decisions to the rest of the interview team to stay informed and calibrate for future hiring decisions.
@@ -58,7 +58,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 - Once finalist is identified, Recruiter completes references if necessary.
 - Recruiter confirms level and compensation.
-  - [Compensation philosophy](../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation)
+  - [Compensation philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation)
 - Recruiter submits offer for approval in Greenhouse.
   - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
 - Once the offer is **fully approved** in Greenhouse, Recruiter schedules offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
@@ -102,18 +102,18 @@ The folder to store agency contracts can be found [here](https://drive.google.co
 
 ## Tools for Hiring Managers
 
-You can see a list of all recruiting tools [here](hiring/index.md#recruiting-tools). If you need a tool not listed, please Slack #hiring to request it.
+You can see a list of all recruiting tools [here](../process//index.md#recruiting-tools). If you need a tool not listed, please Slack #hiring to request it.
 
-- Guide to using [BrightHire](./hiring/guide_to_using_brighthire.md), our interview recording tool
-- Guide to using [Greenhouse](./hiring/guide_to_using_greenhouse.md), our applicant tracking system
+- Guide to using [BrightHire](guide_to_using_brighthire.md), our interview recording tool
+- Guide to using [Greenhouse](guide_to_using_greenhouse.md), our applicant tracking system
 
 ## Providing interview feedback
 
-Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](hiring/guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback.
+Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback.
 
 All feedback must be submitted in Greenhouse before discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
-We want to ensure that teammates score candidates in a consistent fashion which is why we have [definitions](./interview_process.md#providing-interview-feedback) for what the following ratings mean: 1. Strong yes 2. Yes 3. No 4. Strong no.
+We want to ensure that teammates score candidates in a consistent fashion which is why we have [definitions](../process/interview_process.md#providing-interview-feedback) for what the following ratings mean: 1. Strong yes 2. Yes 3. No 4. Strong no.
 
 ## Scheduling
 
@@ -123,4 +123,4 @@ Even if candidates prefer to batch all their interviews together, it might not b
 
 If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates and the candidate's time.
 
-To schedule an interview with a candidate, please reach work with your recruiter or Slack @hiring. You can see a list of Recruiters [here](index.md#talent-team-members).
+To schedule an interview with a candidate, please reach work with your recruiter or Slack @hiring. You can see a list of Recruiters [here](../index.md#talent-team-members).

@@ -8,11 +8,11 @@
 1. We want our hiring process to be fair to all candidates.
    - We recognize that the way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.
    - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
-   - We leverage [BrightHire](./guide_to_using_brighthire.md) to record our interviews, ensuring there is an objective record of the interview that can be referenced when making a hiring decision.
+   - We leverage [BrightHire](../tools/guide_to_using_brighthire.md) to record our interviews, ensuring there is an objective record of the interview that can be referenced when making a hiring decision.
    - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
    - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
 1. Hiring managers own the hiring process for their team.
-   - Hiring managers are encouraged to partner with their assigned Recruiter](hiring/how_recruiting_interfaces_with_hiring_managers.md#the-talent-team) to experiment to learn how to improve their hiring process.
+   - Hiring managers are encouraged to partner with their assigned recruiter to experiment to learn how to improve their hiring process.
    - The handbook is kept up-to-date with our learnings and current norms. If something is missing from the Handbook, please Slack @hiring.
 
 ## How recruiting interfaces with hiring managers
@@ -21,11 +21,11 @@ For any members of a hiring team, please see [this page](../index.md#the-talent-
 
 ## Recruiting tools
 
-- We use Greenhouse as our applicant tracking system. Please see this [guide to using Greenhouse.](guide_to_using_greenhouse.md) (in progress)
+- We use Greenhouse as our applicant tracking system. Please see this [guide to using Greenhouse.](../tools/guide_to_using_greenhouse.md) (in progress)
 - We utilize LinkedIn Recruiter and TopFunnel as our sourcing platforms. Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](linkedin.md).
-- We use BrightHire to record our interviews. Learn more about BrightHire [here](./guide_to_using_brighthire.md).
+- We use BrightHire to record our interviews. Learn more about BrightHire [here](../tools/guide_to_using_brighthire.md).
 - We use Ashby as a metrics tool.
-- We use [Talentwall](guide_to_using_talentwall.md) for candidate pipeline management.
+- We use [Talentwall](../tools/guide_to_using_talentwall.md) for candidate pipeline management.
 
 ## Using external recruiting agencies
 
@@ -49,7 +49,7 @@ The source-of-truth for our open positions is [our careers page](https://boards.
 
 ## Job descriptions
 
-Each job description focuses on the impact a candidate will make vs. a list of requirements. Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies. You can read more about our job description philosophy [here](../interview_process.md#creating-a-job-description).
+Each job description focuses on the impact a candidate will make vs. a list of requirements. Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies. You can read more about our job description philosophy [here](interview_process.md#creating-a-job-description).
 
 We want a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, apply anyway! We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 
@@ -85,7 +85,7 @@ Choosing to join a company is a significant commitment. We want people to have a
 1. What is the total number of fully diluted shares? (You can calculate this from the number of options in your grant and the percentage that represents, but we're also happy to share this number.)
 1. Other details about options. (These are covered in the employment paperwork you will receive.)
 
-Here are some other questions that candidates have asked (e.g., in the [CEO interview](../../team/ceo/index.md#interviews-with-me)):
+Here are some other questions that candidates have asked (e.g., in the [CEO interview](../../../team/ceo/index.md#interviews-with-me)):
 
 1. What is the current runway and the monthly burn rate?
 1. How much cash does the company have in the bank?
@@ -97,7 +97,7 @@ Here are some other questions that candidates have asked (e.g., in the [CEO inte
 
 ## Making an offer
 
-Once the decision is made to [extend an offer](../interview_process.md#outcome) to a candidate, the following process is followed:
+Once the decision is made to [extend an offer](interview_process.md#outcome) to a candidate, the following process is followed:
 
 1. The recruiter confirms the offer details with the hiring manager (compensation, equity, level) and submits the offer for approval in Greenhouse.
    - Offer approval chain: VP, Talent > Hiring Manager > Department Head > VP, Operations.

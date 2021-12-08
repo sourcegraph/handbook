@@ -17,13 +17,13 @@ Current employees can refer a candidate in Greenhouse [here](https://tracking.ci
 
 **Training:** all interviewers must review [interview training](./interview_training.md) before participating in any interviews.
 
-- [How to lead a legal interview](./interview_training.md#3-leading-a-legal-interview).
-- [How to provide a positive candidate experience](./interview_training.md#candidate-experience).
+- [How to lead a legal interview](../tools/interview_training.md#3-leading-a-legal-interview).
+- [How to provide a positive candidate experience](../tools/interview_training.md#candidate-experience).
 
 **System set up:** all interviewers must have the below systems set up before interviewing.
 
-- [How to use Greenhouse, our ATS where all interview feedback lives](./hiring/guide_to_using_greenhouse.md).
-- [How to use Brighthire, our interview recording tool ](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire).
+- [How to use Greenhouse, our ATS where all interview feedback lives](../tools/guide_to_using_greenhouse.md).
+- [How to use Brighthire, our interview recording tool ](../tools/guide_to_using_brighthire.md#guide-to-using-brighthire).
 
 **Role familiarization**: prior to the interview, open up the interview kit in Greenhouse (the link can be found in your interview calendar invite). In the interview kit, you’ll be able to view the candidate’s resume, the job description, and the structured interview questions you will ask during the interview.
 
@@ -35,7 +35,7 @@ Current employees can refer a candidate in Greenhouse [here](https://tracking.ci
 
 ### **The recruiter screen**
 
-The first step of an interview process for a candidate is the Recruiter Screen. All Recruiters must have completed all stages of [Recruiter Onboarding](./recruiter_onboarding.md) before interviewing candidates.
+The first step of an interview process for a candidate is the Recruiter Screen. All Recruiters must have completed all stages of [Recruiter Onboarding](../onboarding/recruiter_onboarding.md) before interviewing candidates.
 
 The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
@@ -80,7 +80,7 @@ Once a hiring decision in made, the Hiring Manager is responsible for communicat
 
 If we are _moving forward_ with an offer, the Recruiter will submit the offer details for approval and will schedule and offer summary call.
 
-- Learn more about the offer stage [here](./extending_an_offer.md)
+- Learn more about the offer stage [here](extending_an_offer.md)
 
 If we are _declining_ the candidate, the Recruiter will call the candidate.
 
@@ -114,13 +114,13 @@ Even if candidates prefer to batch all their interviews together, it might not b
 
 If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates' and the candidate's time.
 
-To schedule an interview with a candidate, please work with your recruiter or Slack @hiring. You can see a [list of Recruiters](index.md#talent-team-members).
+To schedule an interview with a candidate, please work with your recruiter or Slack @hiring. You can see a [list of Recruiters](../index.md#talent-team-members).
 
 ## Providing interview feedback
 
 ### Written interview feedback
 
-Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](./hiring/guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback. All feedback must be submitted in Greenhouse **before** discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
+Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](../tools/guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback. All feedback must be submitted in Greenhouse **before** discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
 COMING SOON: how to use Brighthire for feedback
 

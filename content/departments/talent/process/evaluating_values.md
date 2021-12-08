@@ -1,12 +1,12 @@
 # The values interview
 
-We expect every teammate, team, and our company to live up to the [Sourcegraph values](../../company-info-and-process/values/index.md). It is therefore important that we evaluate every candidate on the values to determine how successful they will be within Sourcegraph. Because of this, **all candidates,** regardless of level or role, go through a [values interview](../types_of_interviews.md#values-interview) as part of their interview process with Sourcegraph.
+We expect every teammate, team, and our company to live up to the [Sourcegraph values](../../../company-info-and-process/values/index.md). It is therefore important that we evaluate every candidate on the values to determine how successful they will be within Sourcegraph. Because of this, **all candidates,** regardless of level or role, go through a [values interview](types_of_interviews.md#values-interview) as part of their interview process with Sourcegraph.
 
 ## What is the values interview?
 
 - Interviewers: two teammates outside of the department for which a candidate is interviewing.
 - Duration: 30-minutes. We should allow five minutes for the introduction, 20 minutes for the screen, and 5 minutes at the end for questions.
-- Details: this interview is focused entirely on our values and how a candidate’s views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../company-info-and-process/values/index.md).
+- Details: this interview is focused entirely on our values and how a candidate’s views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../company-info-and-process/values/index.md).
 
 ## Purpose of the values interview
 
@@ -40,7 +40,7 @@ The purpose of the values interview is to determine if the candidate embodies an
 
 If you haven't familiarized yourself with our values, please start to do so because we are really going to rely on our teammates to feel like they have a good understanding of all of our values and we believe that these values are what helps us achieve our goals and our vision, and ultimately build an inclusive team.
 
-You can see more information about our interview stages [here](../types_of_interviews.md)
+You can see more information about our interview stages [here](types_of_interviews.md)
 
 ![Image showing of the three interview parts written below](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20-%20interview%20steps.png)
 
@@ -60,7 +60,7 @@ You can find the above information in the "interview prep" section of your Green
 - Your stuctured interview questions can be found in your Greenhouse scorecard. These are the same for every candidate.
 
 - Your goal is to assess whether or not the candidate aligns with our values only. This is **not a skills assessment** for the role.
-- Please make sure the interview is recorded by pressing "Record with Brighthire."  (Recording an interview is not required but we encourage it. To learn more about why we record our interviews and why it helps provide a fair, inclusive, and enjoyable interview experience, [click here](./guide_to_using_brighthire.md).
+- Please make sure the interview is recorded by pressing "Record with Brighthire."  (Recording an interview is not required but we encourage it. To learn more about why we record our interviews and why it helps provide a fair, inclusive, and enjoyable interview experience, [click here](../tools/guide_to_using_brighthire.md).
 - Be sure to ask "drill down questions" and continue to ask more specific open ended "tell me..." questions to dig deeper and fully understand the candidate's response before moving forward to the next question. Some examples of "drill down questions" include:
   - "Tell us why you made that decision"
   - "Tell us what you would have done differently"
@@ -85,8 +85,8 @@ We are in a candidate driven market. Candidates have many different opportunitie
 
 - Please fill out your Greenhouse Scorecard following the interview.
 - To ensure that bias doesn't impact your decision-making, please be sure to fill out your scorecard before discussing with anyone.
-- To learn more about providing feedback, [click here](../interview_process.md#providing-interview-feedback).
-- For Best Practices, [click here](../interview_training.md#end-of-interview---answer-questions--rapport-build).
+- To learn more about providing feedback, [click here](interview_process.md#providing-interview-feedback).
+- For Best Practices, [click here](../tools/interview_training.md#end-of-interview---answer-questions--rapport-build).
 
 # Resources for recruiters
 
@@ -99,11 +99,11 @@ Reminders:
 
 Once the values team has been selected, the Recruiter is responsible for sending a Slack to each values team saying:
 
-"Hi team! As you know, our [values interview](./evaluating_values.md) is critical to ensuring that our new hires embody our values, and we need your help! The two of you have been nominated to serve as the values team for our [role title] opening. I recognize that this is outside of your day-to-day responsibilities, so please let me know if you're willing to participate (and if you're too busy right now, no worries! We can always add you to another team when your schedule allows). If you both agree to opt in, below are some helpful details:
+"Hi team! As you know, our [values interview](evaluating_values.md) is critical to ensuring that our new hires embody our values, and we need your help! The two of you have been nominated to serve as the values team for our [role title] opening. I recognize that this is outside of your day-to-day responsibilities, so please let me know if you're willing to participate (and if you're too busy right now, no worries! We can always add you to another team when your schedule allows). If you both agree to opt in, below are some helpful details:
 
 - The two of you will conduct a 30-minute values interview for all [role title] finalists. We anticipate 3-5 total interviews (so this would be a 1.5-2.5 hour commitment) and will be spread out over multiple days.
 - One of you will need to opt in as the lead (this person is the one who begins the introduction and asks the first question).
-- [Here](./evaluating_values.md) is a resource to help you in the interview.
+- [Here](evaluating_values.md) is a resource to help you in the interview.
 - All structured interview questions are listed in your Greenhouse scorecard, found in the interview prep link in your interview calendar invite.
 
 Please let me know if this is something you're both willing to participate in and I'll add you to the interview plan. And if you have any questions or would like to practice in advance of the interview, let me know and I'll send a calendar invite!"

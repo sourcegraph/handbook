@@ -12,16 +12,16 @@ Coming soon
 
 ## Helpful links
 
-- We are a [transparant](../marketing/messaging.md) company and everything we do lives in our [Handbook]
-- Our [messaging and definitions](../marketing/messaging.md) should help you better understand what Sourcegraph does.
+- We are a [transparant](../../marketing/messaging.md) company and everything we do lives in our [Handbook](../../../index.md)
+- Our [messaging and definitions](../../marketing/messaging.md) should help you better understand what Sourcegraph does.
 - Our [handbook](https://handbook.sourcegraph.com). We encourage you to read through it prior to your interview.
-- [Teammates bios](../team/index.md).
-- Our [strategy](../strategy-goals/strategy/index.md).
+- [Teammates bios](../../../team/index.md).
+- Our [strategy](../../../strategy-goals/strategy/index.md).
 - Additional links coming soon
 
 ## Types of interviews
 
-- We encourage you to read about the [different types of interviews](./types_of_interviews.md) a candidate can expect while going through the interview process.
+- We encourage you to read about the [different types of interviews](types_of_interviews.md) a candidate can expect while going through the interview process.
 
 ## What to wear for your interview
 
