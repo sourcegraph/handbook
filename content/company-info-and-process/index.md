@@ -3,12 +3,15 @@
 This area of the Handbook is dedicated to information about Sourcegraph, working here, and company-wide processes. Team-specific information can be found in the [department directory](../department-specific/index.md)
 
 ## [About Sourcegraph](about-sourcegraph/index.md)
+
 - [General Office Info](about-sourcegraph/general-office-info.md)
 
 ## [Sourcegraph Values](values/index.md)
+
 - [Customer-first](values/customer-first.md)
 
 ## [Communication](communication/index.md)
+
 - [Announcements](communication/announcements.md)
 - [Asynchronous communication](communication/asynchronous-communication.md)
 - [Code of conduct](community/code_of_conduct.md)
@@ -28,12 +31,14 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Zoom tip and tricks](communication/tools/zoom.md)
 
 ## [All remote](remote/index.md)
+
 - [Remote work tips](remote/tips.md)
 - [Productivity hacks](remote/teammate-recommended_productivity_hacks.md)
 - [Remote hackathons](remote/remote_hackathons.md)
 - [Social calendar](remote/social_calendar.md)
 
 ## [Onboarding](onboarding/index.md)
+
 - [Buddy program](onboarding/buddy-program.md)
 - [Feedback milestones](onboarding/onboarding-feedback-milestones.md)
 - [For hiring managers](onboarding/onboarding-for-hiring-managers.md)
@@ -41,11 +46,13 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Intro to Git](onboarding/git-intro/index.md)
 
 ## [Working at Sourcegraph]
+
 - [Working hours](working-at-sourcegraph/working-hours.md)
 - [Switching teams](working-at-sourcegraph/switching-teams.md)
 - [Impact reviews](../people-ops/impact-reviews.md)
 - [Leaving](working-at-sourcegraph/leaving.md)
 
 ## [Sourcegraph Community](community/index.md)
+
 - [FAQ](community/faq.md)
 - [Community code of conduct](community/code_of_conduct.md)
