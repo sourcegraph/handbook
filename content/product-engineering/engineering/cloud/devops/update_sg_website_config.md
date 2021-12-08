@@ -1,4 +1,4 @@
-# How to make updates to sourcegraph.com
+# How to make updates to sourcegraph.com config
 
 ## Why can't I edit the page through the site-admin page anymore
 
@@ -31,4 +31,4 @@ External service connections are handled through the sourcegraph.com UI. The onl
 
 ### Note:
 
-Changes to the notices section can be merged by the author without explicit approval from the Distribution team.
+Changes to the notices section can be merged by the author without explicit approval from the DevOps team.
