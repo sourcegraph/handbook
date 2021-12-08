@@ -15,7 +15,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Strategy
 
-[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../company/strategy/enablement/delivery/index.md)
+[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../strategy-goals/strategy/enablement/delivery/index.md)
 
 ## Responsibilities
 
@@ -46,8 +46,9 @@ TODO
 
 We inherit Sourcegraph's [engineering principles and practices](../../principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](../../../../company/strategy/enablement/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
+We also have a set of [guiding principles](../../../../strategy-goals/strategy/enablement/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
 
 ## Processes
 
-[Read more about how we work](processes.md)
+- [Read more about how we work](processes.md)
+- [Onboarding](onboarding.md)

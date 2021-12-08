@@ -24,12 +24,13 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [Jennifer Mitchell](../../../../team/index.md#jennifer-mitchell) - Engineering Manager
   - [Dax McDonald](../../../../team/index.md#dax-mcdonald)
   - [Daniel Dides]
-  - [FH] Starts Dec 6
+  - [Filip Haftek](../../../../team/index.md#filip-haftek)
 
 ## Content
 
 - [How to make configuration changes to sourcegraph.com](./update_sourcegraph_website.md)
 - [Onboarding](onboarding.md)
+- [How to add TXT Records](txt_dns.md)
 
 ## How to contact the team and ask for help
 

@@ -72,7 +72,7 @@ If the developer does not know, default to:
 
 ## Resources
 
-- [Batch Changes strategy page](../../company/strategy/code-graph/batch-changes)
+- [Batch Changes strategy page](../../strategy-goals/strategy/code-graph/batch-changes)
 - [Docs](https://docs.sourcegraph.com/batch_changes)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Blog post](https://about.sourcegraph.com/blog/introducing-batch-changes/)

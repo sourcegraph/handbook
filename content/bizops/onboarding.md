@@ -13,8 +13,8 @@ You'll have to get some basics set up in your first few days:
 ### Understand company and team mission, values and goals
 
 - [Sourcegraph values](../company/values.md)
-- [Sourcegraph strategy](../company/strategy/index.md)
-- [Sourcegraph OKRs](../company/goals/index.md)
+- [Sourcegraph strategy](../strategy-goals/strategy/index.md)
+- [Sourcegraph OKRs](../strategy-goals/goals/index.md)
 - [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/63)
 
 ### Understand Sourcegraph communication and documentation standards

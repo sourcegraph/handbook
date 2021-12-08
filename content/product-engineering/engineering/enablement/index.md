@@ -2,7 +2,7 @@
 
 ## Mission
 
-Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph. For a deep dive into our mission see our [strategy page](../../../company/strategy/enablement/index.md)
+Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph. For a deep dive into our mission see our [strategy page](../../../strategy-goals/strategy/enablement/index.md)
 
 ## Team
 
@@ -34,7 +34,7 @@ The org is lead by [Serina Clark](../../../team/index.md#serina-clark) ([Directo
   - [Taylor Sperry](../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [Tom Ross](../../../team/index.md#tom-ross)
   - [Valery Bugakov](../../../team/index.md#valery-bugakov)
-  - Oleg Gromov
+  - [Oleg Gromov](../../../team/index.md#oleg-gromov)
 - [Engineering Education](engineering-education/index.md)
   - [Marek Zaluski](../../../team/index.md#marek-zaluski)
 - Sourcegraph Handbook

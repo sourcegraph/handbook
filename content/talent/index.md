@@ -35,7 +35,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Using recruitment agencies](./hiring/index.md)
 - [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
 
-## Resources for Teammates
+## [Resources for Teammates](resources_for_teammates.md)
 
 - [How to refer a candidate](./hiring/index.md#making-a-referral)
 - [Types of interviews](./types_of_interviews.md)

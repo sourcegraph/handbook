@@ -1,4 +1,8 @@
-# Configuring Zoom to send recordings to Slack automatically
+# Zoom
+
+Zoom tips and tricks.
+
+## Configuring Zoom to send recordings to Slack automatically
 
 Zoom can be set up to automatically post recordings of meetings to Slack after the meeting is held:
 

@@ -52,7 +52,7 @@ director_design:
   hidden_on_team_page: true
 ```
 
-Instead of creating a new entry, you should update this one. Change the top level name of the object to your own name separated by underscores, replace the value of the name field with your own name, remove `(Interim)` from the title, and finally remove entirely the `hidden_on_team_page` field. You don't need to change thge `manager_role_slug` value.
+Instead of creating a new entry, you should update this one. Change the top level name of the object to your own name separated by underscores, replace the value of the name field with your own name, remove `(Interim)` from the title, and finally remove entirely the `hidden_on_team_page` field. You don't need to change the `manager_role_slug` value.
 
 ### New employees
 
