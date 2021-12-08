@@ -22,7 +22,7 @@ If you haven't been given access to Sourcegraphs Organization on Github yet reac
 
 We are an all-remote company and favor asynchronous communication, it is important to configure your notifications correctly so that you receive and read notifications that are important (e.g. someone makes a comment on one of your PRs, someone adds you as a reviewer to a PR) without being overwhelmed by notifications that don’t involve you.
 
-- [Configure GitHub notifications](../../github-notifications/index.md)
+- [Configure GitHub notifications](../../../../company-info-and-process/onboarding/git-intro/github-notifications/index.md)
 
 ## Other Access
 

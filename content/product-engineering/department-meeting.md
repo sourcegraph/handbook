@@ -43,4 +43,4 @@ Format & content
 
 The meeting recording and notes will be posted on Slack on #prod-eng-announce after the meeting finishes.
 
-See our [company communication](../../content/communication/index.md) page for additional communication resources.
+See our [company communication](../../content/company-info-and-process/communication/index.md) page for additional communication resources.

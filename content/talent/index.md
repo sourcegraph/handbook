@@ -33,7 +33,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [LinkedIn Recruiter, our sourcing tool](./hiring/linkedin.md)
   - [Talent Wall, our pipeline tracking tool](./hiring/guide_to_using_talentwall.md#guide-to-using-talentwall)
 - [Using recruitment agencies](./hiring/index.md)
-- [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
+- [Internal transfers & switching teams](../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
 ## [Resources for Teammates](resources_for_teammates.md)
 
@@ -45,7 +45,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Interview training & best practices](./interview_training.md)
 - [Recruiting Tools](./hiring/index.md#recruiting-tools)
   - [BrightHire, our interview recording tool](./hiring/guide_to_using_brighthire.md#guide-to-using-brighthire)
-- [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
+- [Internal transfers & switching teams](../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
 
@@ -73,7 +73,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [LinkedIn Recruiter, our sourcing tool](./hiring/linkedin.md)
 - [Recruitment branding](./hiring/job_boards.md)
 - [Recruitment metrics](./talent_metrics.md)
-- [Internal transfers & switching teams](../people-ops/switching-teams.md#switching-teams)
+- [Internal transfers & switching teams](../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
 ## Talent Team Members
 

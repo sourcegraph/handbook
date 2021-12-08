@@ -5,7 +5,7 @@
 - [Engineering management](engineering-management.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
-  - [How we use RFCs](../../communication/rfcs/index.md)
+  - [How we use RFCs](../../company-info-and-process/communication/rfcs/index.md)
 - [Tracking issues](tracking_issues.md)
 - [Engineering ownership](engineering_ownership.md) - who owns what
 - Practices & Philosophy
@@ -41,7 +41,7 @@
 
 ## Communication
 
-For a list of engineering relevant Slack channels to join see the [team chat](../../communication/team_chat.md#engineering) page in the handbook.
+For a list of engineering relevant Slack channels to join see the [team chat](../../company-info-and-process/communication/team_chat.md#engineering) page in the handbook.
 
 ## Repositories
 
