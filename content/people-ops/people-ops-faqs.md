@@ -187,7 +187,13 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. I need a letter from my employer to obtain a visa, how do I request that?
 
-- Teammates are responsible for maintaining their immigration status and People Ops is here to help facilitate. If you need a letter from Sourcegraph to support your renewal, please create a draft with all pertinent information and send it to People Ops to review, add to Sourcegraph letterhead, and sign.
+- Teammates are responsible for maintaining their immigration status and People Ops is here to help facilitate. If you need a letter from Sourcegraph to support your renewal, please follow these steps:
+  - Go to https://app.truework.com/letter
+  - Enter “Sourcegraph” for Employer Name
+  - Enter your Sourcegraph email address for Work Email
+  - Enter 8 letter verification code that was sent to your Sourcegraph email address
+  - Click "Download" under Visa Sponsorship Letter
+  - Your letter is downloaded and ready!
 
 ### Q. Can Sourcegraph sponsor my immigration?
 
