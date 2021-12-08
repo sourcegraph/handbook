@@ -35,7 +35,7 @@ If you are a new member of the engineering team, you'll most likely want to join
 
 ## Use of private channels
 
-By default all Slack channels are public. This is inline with our [company value to be open and transparent](../values.md#open-and-transparent) and facilitates collaboration and [async learning](asynchronous-communication.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. Messages or files posted in a public channel can be searched by other team members.
+By default all Slack channels are public. This is inline with our [company value to be open and transparent](..//index.md#open-and-transparent) and facilitates collaboration and [async learning](asynchronous-communication.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. Messages or files posted in a public channel can be searched by other team members.
 
 However, we understand that not everything discussed between team members should be public and there is a need for private channels. Private channels are for conversations that should not be open to all members. People must be added to a private channel by someone who's already a member of the channel. Messages or files posted in a private channel can only be searched by members of that channel.
 

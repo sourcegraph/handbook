@@ -9,9 +9,9 @@ At Sourcegraph, we aim for ongoing, real-time career conversations so you feel e
 
 ## Why call them Impact reviews?
 
-[High agency](../company-info-and-process/values.md#high-agency), [high quality](../company-info-and-process/values.md#high-quality), and [continuous growth](../company-info-and-process/values.md#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success - all resulting in continuous growth for each individual.
+[High agency](../company-info-and-process/values/index.md#high-agency), [high quality](../company-info-and-process/values/index.md#high-quality), and [continuous growth](../company-info-and-process/values/index.md#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success - all resulting in continuous growth for each individual.
 
-Continuous growth begins on your first day here at Sourcegraph. To equip you with the tools to champion your own growth, we’ve set up [Onboarding Feedback Milestones](../company-processes/onboarding/onboarding-feedback-milestones.md) to track your progress in onboarding during your first, second, and third month. We’d like you to start practicing the concept of continuous feedback in these first three monthly checkpoints so you can shift into the mindset of continuous growth before you begin your first review cycle.
+Continuous growth begins on your first day here at Sourcegraph. To equip you with the tools to champion your own growth, we’ve set up [Onboarding Feedback Milestones](../company-info-and-process/onboarding/onboarding-feedback-milestones.md) to track your progress in onboarding during your first, second, and third month. We’d like you to start practicing the concept of continuous feedback in these first three monthly checkpoints so you can shift into the mindset of continuous growth before you begin your first review cycle.
 
 Ultimately, these cycles are referred to as “Impact reviews” because they reveal the impact that you are making on a company-wide level, at a team level, and most importantly, at a personal level.
 
@@ -158,7 +158,7 @@ Behavior: the observable action (_what you observed directly, not your interpret
 
 Impact: the so-what (_effect on emotion and work_)
 
-In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](../company-info-and-process/values.md#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
+In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](../company-info-and-process/values/index.md#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
 
 For more information on how to use SBI and giving great feedback, [check out this resource](https://docs.google.com/document/d/1sT-eyNj7KnFQZyaJ7Uja6Hnqb1sXE-aq-Ayz4X_-8Zk/edit)!
 

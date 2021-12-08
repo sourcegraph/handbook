@@ -1,6 +1,6 @@
 # Personal pronouns
 
-To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. For most of our colleagues, these are listed on [our team page](../team/index.md) next to each person’s name.
+To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. For most of our colleagues, these are listed on [our team page](../../team/index.md) next to each person’s name.
 
 Some may choose to use singular “they” pronouns, e.g.:
 

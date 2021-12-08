@@ -20,7 +20,7 @@ Here's how we define these terms:
 
 ## Open product
 
-This means the [product strategy](../strategy-goals/strategy/index.md) is public and open for input.
+This means the [product strategy](../../strategy-goals/strategy/index.md) is public and open for input.
 
 You might not realize it, but the products you use every day are not just open source; they are also open products. Products like [Kubernetes](https://github.com/kubernetes/kubernetes/milestones?direction=asc&sort=due_date) and [Visual Studio Code](https://github.com/Microsoft/vscode/wiki/Iteration-Plans) do all their product planning in the open. They get useful input from the community and make it easy to integrate and rely on their products.
 

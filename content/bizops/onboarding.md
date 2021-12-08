@@ -12,7 +12,7 @@ You'll have to get some basics set up in your first few days:
 
 ### Understand company and team mission, values and goals
 
-- [Sourcegraph values](../company-info-and-process/values.md)
+- [Sourcegraph values](../company-info-and-process/values/index.md)
 - [Sourcegraph strategy](../strategy-goals/strategy/index.md)
 - [Sourcegraph OKRs](../strategy-goals/goals/index.md)
 - [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/63)
@@ -41,7 +41,7 @@ Your manager will help you schedule the following training sessions:
   - On-prem deployment to Google BigQuery to Looker data flow
 - Sales and marketing data overview (focused on the data instead of the tools)
 - GitHub and git walk-through (Q&A)
-  - Read through the [git intro](../company-info-and-process/onboarding/git_intro.md) and [add yourself](../handbook/editing/add-yourself-to-team-page.md) to the team page
+  - Read through the [git intro](../company-info-and-process/onboarding/git_intro/index.md) and [add yourself](../handbook/editing/add-yourself-to-team-page.md) to the team page
 
 ### Get to know fellow teammates
 

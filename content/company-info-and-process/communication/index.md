@@ -1,6 +1,6 @@
 # Communication
 
-We're an [all-remote](../company/remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
+We're an [all-remote](../remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
 - [Decision making at Sourcegraph](decisions.md)
 
@@ -94,9 +94,9 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 1. Set Zoom meetings to be recorded to the cloud so that you and other teammates can refer back to them later.
    - If any participant doesn't feel comfortable with the meeting being recorded, it is fine to not record it.
 
-## [1-1 meetings](../leadership/1-1.md)
+## [1-1 meetings](1-1.md)
 
-See "[1-1 meetings](../leadership/1-1.md)".
+See "[1-1 meetings](1-1.md)".
 
 ## [Announcements](announcements.md)
 

@@ -22,7 +22,7 @@ These posts should cover:
 
 ## Departures
 
-When a teammate [leaves Sourcegraph](../company-info-and-process/working-at-sourcegraph/leaving.md), the individual's manager should post a brief note in #teammate-announce and cross-posted to the #manager-team channel (and each individual manager can choose to announce that teammate's departure in their next team meeting or in their 1-1s if it is relevant to their team or their projects).
+When a teammate [leaves Sourcegraph](../working-at-sourcegraph/leaving.md), the individual's manager should post a brief note in #teammate-announce and cross-posted to the #manager-team channel (and each individual manager can choose to announce that teammate's departure in their next team meeting or in their 1-1s if it is relevant to their team or their projects).
 
 These posts should cover:
 
@@ -36,4 +36,4 @@ If the teammate chooses, and still has access to Slack, they are free to share a
 
 ## Switching Teams
 
-When a teammate [switches teams](../company-info-and-process/working-at-sourcegraph/switching-teams.md), the teammate's new manager should post a brief note in the #teammate-announce channel announcing the switch and what the teammate's new responsibilities and role will be.
+When a teammate [switches teams](../working-at-sourcegraph/switching-teams.md), the teammate's new manager should post a brief note in the #teammate-announce channel announcing the switch and what the teammate's new responsibilities and role will be.
