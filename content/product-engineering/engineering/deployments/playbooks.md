@@ -36,7 +36,7 @@ sg live <environment|url>
 
 ## Sourcegraph.com
 
-To learn more about this deployment, see [instances](./instances.md#sourcegraph-com).
+To learn more about this deployment, see [instances](./instances.md#sourcegraph-cloud).
 
 ### Deploying to sourcegraph.com
 

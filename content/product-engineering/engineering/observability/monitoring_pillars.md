@@ -1,7 +1,5 @@
 # Sourcegraph monitoring pillars
 
-**Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
-
 This document describes the background and pillars that drive how we development of our monitoring infrastructure at Sourcegraph.
 Once you are convinced, see the [Sourcegraph monitoring guide](./monitoring.md) and the [observability developer documentation](https://docs.sourcegraph.com/dev/background-information/observability) for development-related documentation.
 
@@ -9,6 +7,8 @@ Once you are convinced, see the [Sourcegraph monitoring guide](./monitoring.md) 
   - [History](#history)
 - [Monitoring pillars](#monitoring-pillars)
 - [Next steps](#next-steps)
+
+> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), and for Cloud-specific documentation see the [Cloud monitoring documentation](./cloud.md).
 
 ## Overview
 

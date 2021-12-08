@@ -2,7 +2,7 @@
 
 Information about Sourcegraph's different instances.
 
-- [sourcegraph.com](instances.md#sourcegraph-com) is our production deployment.
+- [Sourcegraph Cloud](instances.md#sourcegraph-cloud) is our production deployment.
 - [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers.
   This deployment also contains all of our private code.
 - [Managed instances](../enablement/delivery/managed/index.md) are deployments of Sourcegraph we manage for customers.
@@ -13,11 +13,11 @@ For deployments of Sourcegraph we manage for customers, see [managed instances](
 
 Also see [playbooks](./playbooks.md) for common actions related to operating our Sourcegraph deployments.
 
-## sourcegraph.com
+## Sourcegraph Cloud
 
 [![Build status](https://badge.buildkite.com/ef1289610fdd05b606bf1e57a034af2365c7b09c95ac6121f9.svg)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com)
 
-This deployment is also colloquially referred to as "Sourcegraph Cloud", "Cloud", and "dot-com". It is the public deployment available to the public at [sourcegraph.com/search](https://sourcegraph.com/search).
+This deployment is also colloquially referred to as "sourcegrpah.com", "Cloud", and "dot-com". It is the public deployment available to the public at [sourcegraph.com/search](https://sourcegraph.com/search).
 
 `sourcegraph.com` deploys the latest changes from [`sourcegraph/sourcegraph`](https://github.com/sourcegraph/sourcegraph) on a schedule via [Renovate](./index.md#renovate)
 
@@ -32,7 +32,7 @@ This deployment also includes our [documentation](https://docs.sourcegraph.com/)
 - [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/cloud)
 - Alerts: #alerts-cloud and [OpsGenie](../incidents/on_call.md)
-- [Playbooks](./playbooks.md#sourcegraph-com)
+- [Playbooks](./playbooks.md#sourcegraph-cloud)
 
 ## k8s.sgdev.org
 
