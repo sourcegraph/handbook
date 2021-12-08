@@ -36,10 +36,10 @@ Sourcegraph Cloud projects.
 
 #### Sourcegraph Security
 
-[Sourcegraph Security projects](../cloud/security/infrastructure/index.md#projects).
+[Sourcegraph Security projects](../../cloud/security/infrastructure/index.md#projects).
 
-- **[sourcegraph-security-logging](../cloud/security/infrastructure/index.md#logging)**: Infrastructure required for centralized security logging.
-- **[sourcegraph-security-logging-stage](../cloud/security/infrastructure/index.md#logging-stage)**: Staging environment for logging infrastructure.
+- **[sourcegraph-security-logging](../../cloud/security/infrastructure/index.md#logging)**: Infrastructure required for centralized security logging.
+- **[sourcegraph-security-logging-stage](../../cloud/security/infrastructure/index.md#logging-stage)**: Staging environment for logging infrastructure.
 
 #### Other Projects
 

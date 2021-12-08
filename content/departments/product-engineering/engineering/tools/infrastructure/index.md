@@ -2,7 +2,7 @@
 
 ## Sourcegraph deployments
 
-Internal deployments are documented in the [deployments](../deployments/instances.md).
+Internal deployments are documented in the [deployments](../../process/deployments/instances.md).
 
 ## Google Cloud Platform
 
@@ -12,11 +12,11 @@ See [Google Cloud Platform](./gcp.md).
 
 We maintain a fleet of Buildkite agents for continuous integration across all repositories.
 
-- Owner: [Dev Experience](../enablement/dev-experience/index.md)
+- Owner: [Dev Experience](../../enablement/dev-experience/index.md)
 - URL: https://buildkite.com/organizations/sourcegraph/agents
 - Terraform and Kubernetes manifests: https://github.com/sourcegraph/infrastructure/tree/main/buildkite
 - Resources
-  - [CI playbook](../incidents/playbooks/ci.md)
+  - [CI playbook](../../process/incidents/playbooks/ci.md)
   - [`sourcegraph/sourcegraph` CI pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
 
 ### Buildkite agent queues

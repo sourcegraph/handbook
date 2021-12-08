@@ -2,24 +2,24 @@
 
 ## Members
 
-- [Beyang Liu](../team/index.md#beyang-liu), CTO
-  - [Erin Laio](../team/index.md#erin-laio), Executive Business Partner
-  - [Christina Forney](../team/index.md#christina-forney), VP Product
-    - [Anna Mikhova](../team/index.md#anna-mikhova), Director of Product - Cloud
-    - [Serina Clark](../team/index.md#serina-clark), Director of Product - Enablement
-    - [Jason Yavorska](../team/index.md#jason-yavorska), Director of Product - Code Graph
-    - [Kylie Fligstein](../team/index.md#kylie-fligstein), Product operations specialist
-  - [Nick Snyder](../team/index.md#nick-snyder), [VP Engineering](engineering/roles.md#vp-engineering)
-    - [Bill Creager](../team/index.md#bill-creager), [Director of Engineering](engineering/roles.md#director-of-engineering), Cloud
-    - [Jean du Plessis](../team/index.md#jean-du-plessis), [Director of Engineering](engineering/roles.md#engineering-manager), Enablement
-    - [Yink Teo](../team/index.md#yink-teo), [Director of Engineering](engineering/roles.md#director-of-engineering), [Code Graph](engineering/code-graph/index.md)
-    - [Michal Sennett](../team/index.md#michal-sennett), Strategic Project Manager
-  - [Virginia Ulrich](../team/index.md#virginia-ulrich), Head of Customer Support
+- [Beyang Liu](../../../team/index.md#beyang-liu), CTO
+  - [Erin Laio](../../../team/index.md#erin-laio), Executive Business Partner
+  - [Christina Forney](../../../team/index.md#christina-forney), VP Product
+    - [Anna Mikhova](../../../team/index.md#anna-mikhova), Director of Product - Cloud
+    - [Serina Clark](../../../team/index.md#serina-clark), Director of Product - Enablement
+    - [Jason Yavorska](../../../team/index.md#jason-yavorska), Director of Product - Code Graph
+    - [Kylie Fligstein](../../../team/index.md#kylie-fligstein), Product operations specialist
+  - [Nick Snyder](../../../team/index.md#nick-snyder), [VP Engineering](../engineering/roles/index.md#vp-engineering)
+    - [Bill Creager](../../../team/index.md#bill-creager), [Director of Engineering](../engineering/roles/index.md#director-of-engineering), Cloud
+    - [Jean du Plessis](../../../team/index.md#jean-du-plessis), [Director of Engineering](../engineering/roles/index.md#engineering-manager), Enablement
+    - [Yink Teo](../../../team/index.md#yink-teo), [Director of Engineering](../engineering/roles/index.md#director-of-engineering), [Code Graph](engineering/code-graph/index.md)
+    - [Michal Sennett](../../../team/index.md#michal-sennett), Strategic Project Manager
+  - [Virginia Ulrich](../../../team/index.md#virginia-ulrich), Head of Customer Support
 
 Full org chart:
 
-- [Product org chart](product/product_org.md)
-- [Engineering org chart](engineering/eng_org.md)
+- [Product org chart](product/team/index.md)
+- [Engineering org chart](engineering/team/index.md)
 
 ## CTO team sync
 

@@ -2,19 +2,28 @@
 
 Our passionate users and stakeholders, both internal and external, provide a constant stream of thoughtful feedback and love engaging with us to help them and their teams solve their toughest problems. This trust and feedback is a gift, and we take it seriously and listen carefully to what users tell us.
 
-_This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](../surfacing_product_feedback.md)._
+_This page is most relevant to product team members. If you want to know how to best share feedback with the product team, please see [surfacing product feedback](surfacing_product_feedback.md)._
 
 ## Sources of feedback
 
-- [Support emails](#support-sourcegraph-com)
-- [GitHub issues](#github-issues)
-- [Twitter](#twitter)
-- [Slack](#slack)
-- [Support tickets](#support-tickets)
-- [Sales/CE feedback](#salesce-feedback)
-- [HubSpot forms](#hubspot-forms)
-- [NPS survey](#nps-survey)
-- [Browser extension uninstall feedback](#browser-extension-uninstall-feedback)
+- [Tracking & sharing user & stakeholder feedback](#tracking--sharing-user--stakeholder-feedback)
+  - [Sources of feedback](#sources-of-feedback)
+    - [Email lists](#email-lists)
+      - [hi@sourcegraph.com](#hisourcegraphcom)
+      - [feedback@sourcegraph.com](#feedbacksourcegraphcom)
+      - [support@sourcegraph.com](#supportsourcegraphcom)
+    - [GitHub issues](#github-issues)
+    - [Twitter](#twitter)
+    - [Slack](#slack)
+    - [Support tickets](#support-tickets)
+    - [Sales/CE feedback](#salesce-feedback)
+    - [Hubspot forms](#hubspot-forms)
+      - [NPS Survey](#nps-survey)
+      - [Browser Extension Uninstall Feedback](#browser-extension-uninstall-feedback)
+    - [CE feedback](#ce-feedback)
+  - [Productboard](#productboard)
+    - [Adding feedback to productboard](#adding-feedback-to-productboard)
+  - [Sharing user feedback](#sharing-user-feedback)
 
 ### Email lists
 
@@ -38,7 +47,7 @@ We have a few different email lists that are used to send us feedback.
 ### GitHub issues
 
 - **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests) is often a developer's default place to leave feedback.
-- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](../surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](responding_to_user_feedback.md) is responsible for labelling with the right team.
+- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](responding_to_user_feedback.md) is responsible for labelling with the right team.
 
 See [How to reference customer names in public tickets](prioritizing.md#how-to-reference-customer-names-in-public-tickets).
 
@@ -50,7 +59,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 ### Slack
 
 - **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
-- **Owner:** We [ask that teammates surface product feedback](../surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](responding_to_user_feedback.md#slack-feedback-channel).
+- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](responding_to_user_feedback.md#slack-feedback-channel).
 
 ### Support tickets
 

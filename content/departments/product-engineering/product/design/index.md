@@ -8,11 +8,11 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Team
 
-- [Alicja Suska](../../../team/index.md#alicja-suska) (she/her)
-- [Rob Rhyne](../../../team/index.md#rob-rhyne) (he/him)
-- [Quinn Keast](../../../team/index.md#quinn-keast) (he/him) – [ReadMe](https://quinnkeast.com/readme)
-- [Sara Lee](../../../team/index.md#sara-lee) (she/her)
-- [Marisa Kanemoto](../../../team/index.md#marisa-kanemoto) (she/her)
+- [Alicja Suska](../../../../team/index.md#alicja-suska) (she/her)
+- [Rob Rhyne](../../../../team/index.md#rob-rhyne) (he/him)
+- [Quinn Keast](../../../../team/index.md#quinn-keast) (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- [Sara Lee](../../../../team/index.md#sara-lee) (she/her)
+- [Marisa Kanemoto](../../../../team/index.md#marisa-kanemoto) (she/her)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -32,15 +32,15 @@ As a design team, we’re constantly reflecting and improving on how we work.
 
 ### Design principles
 
-Our [product design principles](../product_management/index.md#sourcegraphs-design-principles) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
+Our [product design principles](../process/index.md#sourcegraphs-design-principles) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
 
 ### Designing in the open
 
-At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../../company-info-and-process/values/index.md) to our work and thrive in our globally distributed, remote company.
+At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../../../company-info-and-process/values/index.md) to our work and thrive in our globally distributed, remote company.
 
 Designing in the open means many things to us.
 
-- **Our work and process is [transparent by default](../../../company-info-and-process/values/index.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../company-info-and-process/values/index.md#high-agency) environment.
+- **Our work and process is [transparent by default](../../../../company-info-and-process/values/index.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../../company-info-and-process/values/index.md#high-agency) environment.
 - **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./reviewing_design/index.md).
 - **We create shared understanding**. We proactively communicate with teammates from all disciplines and backgrounds. We don't use jargon and don't expect others to have a deep design-specific understanding, and we look for gaps in understanding where we can help provide clarity.
 
@@ -83,7 +83,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 
 - [Tools](./tools/index.md)
 - [Workshops](./workshops/index.md)
-- [Content guidelines](../../../company-info-and-process/communication/content_guidelines/index.md)
+- [Content guidelines](../../../../company-info-and-process/communication/content_guidelines/index.md)
 - [Documents and templates](./documents_templates/index.md)
 - [Visual design checklist](./visual_design_checklist.md)
 - [External resources](./external_resources/index.md)

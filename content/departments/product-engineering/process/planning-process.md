@@ -41,9 +41,9 @@ This is the planning process we do each quarter.
 | Week | Action |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Week 7 of current quarter<br>5 weeks until next quarter | Gather input from stakeholders on upcoming priorities <ul> <li>VPs gather input from exec team on important problems to solve next quarter</li> <li>Directors gather input from teams on next quarter priorities</li> </ul> |
-| Week 8 of current quarter<br>4 weeks until next quarter | Draft department level OKRs <ul> <li>VPs & Directors create first draft of OKRs during [VP team sync](team.md#vp-team-sync)</li> <li>VPs share with exec team and integrate feedback</li> <li>Directors share with their orgs and integrate feedback</li> </ul> |
-| Week 9 of current quarter<br>3 weeks until next quarter | Revise department level OKRs<ul> <li>VPs & Directors discuss and revise OKRs during [VP team sync](team.md#vp-team-sync)<li>VPs share updates with exec team and integrate feedback</li> <li>Directors share updates with their orgs and integrate feedback</li> </ul> |
-| Week 10 of current quarter<br>2 weeks until next quarter | Finalize OKRs<ul> <li>VPs & Directors align on final OKRs during [VP team sync](team.md#vp-team-sync)</li> <li>VPs get exec team buy in to finalize and approve OKRs</li> <li>OKRs added to the handbook & communicated on Slack</li> </ul> |
+| Week 8 of current quarter<br>4 weeks until next quarter | Draft department level OKRs <ul> <li>VPs & Directors create first draft of OKRs during [VP team sync](../team.md#vp-team-sync)</li> <li>VPs share with exec team and integrate feedback</li> <li>Directors share with their orgs and integrate feedback</li> </ul> |
+| Week 9 of current quarter<br>3 weeks until next quarter | Revise department level OKRs<ul> <li>VPs & Directors discuss and revise OKRs during [VP team sync](../team.md#vp-team-sync)<li>VPs share updates with exec team and integrate feedback</li> <li>Directors share updates with their orgs and integrate feedback</li> </ul> |
+| Week 10 of current quarter<br>2 weeks until next quarter | Finalize OKRs<ul> <li>VPs & Directors align on final OKRs during [VP team sync](../team.md#vp-team-sync)</li> <li>VPs get exec team buy in to finalize and approve OKRs</li> <li>OKRs added to the handbook & communicated on Slack</li> </ul> |
 | Week 12 of current quarter<br>1 week until next quarter | End of quarter retrospective<ul> <li>VPs & Directors retro previous quarter</li> <li>VPs and CTO team retro previous quarter & finalize OKR scorecard</li> </ul> |
 | Week 1 of new quarter | Kick off new quarter<ul> <li>VPs share previous quarter OKR scorecard to Product/Eng Department </li> <li>Communicate department OKRs for upcoming quarter at Company kick off</li> </ul> |
 
@@ -92,11 +92,11 @@ Customer names and business metrics can't be mentioned on public issues, so by d
 
 The OKR tracker slides are a living document that directors update by 19:00 UTC each week to communicate that current state of top level product and engineering key results for the current quarter. It only contains 1 week's worth of updates.
 
-The slides are reviewed and discussed each week in the [VP team sync](team.md#vp-team-sync) so we can celebrate wins, identify risks, and course correct if necessary.
+The slides are reviewed and discussed each week in the [VP team sync](../team/index.md#vp-team-sync) so we can celebrate wins, identify risks, and course correct if necessary.
 
 After the slides are reviewed, they are copied to a seprate slide deck to capture week-over-week progress.
 
-After the [VP team sync](team.md#vp-team-sync), summarized OKR status updates are posted in #product-engineering-planning Slack channel for visibility.
+After the [VP team sync](../team/index.md#vp-team-sync), summarized OKR status updates are posted in #product-engineering-planning Slack channel for visibility.
 
 Slides:
 

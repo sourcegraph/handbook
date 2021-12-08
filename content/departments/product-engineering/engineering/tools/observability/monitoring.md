@@ -26,7 +26,7 @@ This section describes where Sourcegraph employees can find active alerts for So
 
 #### Sourcegraph instances
 
-Instances managed by Sourcegraph (Sourcegraph Cloud, k8s.sgdev.org, etc.) have alerts redirected to Slack and Opsgenie as documented in the [instances page](../deployments/instances.md).
+Instances managed by Sourcegraph (Sourcegraph Cloud, k8s.sgdev.org, etc.) have alerts redirected to Slack and Opsgenie as documented in the [instances page](../../process/deployments/instances.md).
 Additional details can be found in each instance's Grafana dashboards (`/-/debug/grafana`).
 
 If you wish, you can set up Slack alerts for your own team on various instances by adding something like the following to the site configuration (`site-admin/configuration`) of that instance:

@@ -9,12 +9,12 @@
 
 ## Links
 
-- [Current strategy](strategy.md)
-- [Planning process](planning-process.md)
-- [Current team](team.md)
+- [Current strategy](strategy-goals/index.md)
+- [Planning process](process/planning-process.md)
+- [Current team](team/index.md)
 - [KPIs](https://sourcegraph.looker.com/boards/20)
-- [Department Meeting](department-meeting.md)
-- [Headcount planning](headcount-planning.md)
+- [Department Meeting](team-culture/department-meeting.md)
+- [Headcount planning](process/headcount-planning.md)
 
 ## Handbook organization
 

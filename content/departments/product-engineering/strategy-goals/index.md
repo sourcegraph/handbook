@@ -18,6 +18,6 @@ New users, especially those working in smaller teams and codebases, struggle to 
 
 To scale our team, our business, and decision making processes, we need to become more data-driven in every part of the product and engineering development lifecycle. Teams and projects need clear goals and KPIs that are instrumented and reported on in a consistent format.
 
-[FY22-Q4 OKRs](../strategy-goals/goals/2022_Q4.md#productengineering) contains Product/Engineerings current OKRs.
+[FY22-Q4 OKRs](../../../strategy-goals/goals/2022_Q4.md#productengineering) contains Product/Engineerings current OKRs.
 
 [n1]: https://docs.google.com/document/d/1CTU1f1miFDhzdQOGMicK243dokePzVGiXR5TEynLyc8/edit#bookmark=id.z4tihnomtkbs

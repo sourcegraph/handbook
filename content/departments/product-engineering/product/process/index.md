@@ -4,7 +4,7 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Planning process](../../planning-process.md) - how we do planning and the artifacts we use to plan.
+- [Planning process](../../process/planning-process.md) - how we do planning and the artifacts we use to plan.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
@@ -16,17 +16,17 @@ This page contains information that is relevant for how to do well at your job a
 
 ### Keeping strategy up to date
 
-Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update regularly:
+Sourcegraph has a top-level [strategy page](../../../../strategy-goals/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update regularly:
 
 #### OKR and roadmap tracking
 
-See the [Product & Engineering handbook on sharing progress](../../planning-process.md#sharing-progress) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
+See the [Product & Engineering handbook on sharing progress](../../process/planning-process.md#sharing-progress) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
 
 #### Per-team strategy pages
 
-We also use [per-team strategy pages](../../../strategy-goals/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and any other important partners for feedback in your monthly update PR.
+We also use [per-team strategy pages](../../../../strategy-goals/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and any other important partners for feedback in your monthly update PR.
 
-Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../company-info-and-process/communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
+Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../../company-info-and-process/communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
 
 We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
 
@@ -50,7 +50,7 @@ Launch tier levels (L1, L2, and L3) are also an important term to be aware of, a
 
 ## Collaboration
 
-Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
+Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
 
 ### Product Management & Marketing
 
@@ -58,7 +58,7 @@ Product Management and Marketing must work closely together to successfully crea
 
 | Product Marketing is DRI                                                                                           | Product Management is DRI                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| [Customer-first](../../../company-info-and-process/values/index.md#customer-first) with orientation towards market | [Customer-first](../../../company-info-and-process/values/index.md#customer-first) with orientation towards product and engineering |
+| [Customer-first](../../../../company-info-and-process/values/index.md#customer-first) with orientation towards market | [Customer-first](../../../../company-info-and-process/values/index.md#customer-first) with orientation towards product and engineering |
 | Providing important market context to the roadmap                                                                  | Defining the roadmap                                                                                                                |
 | Receives new product info and product updates from product management teams                                        | Delivers new product info and product updates to product marketing team                                                             |
 | Responsible for aligning product packaging and messaging with market demands                                       | Responsible for aligning product requirements with market demands                                                                   |
@@ -73,7 +73,7 @@ Shared areas of ownership where both teams contribute are:
 - [Go to market planning](./rollout_process.md)
 - [Customer communications](#talking-to-customers-and-stakeholders)
 
-Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../../company-info-and-process/communication/conflicts.md#clean-escalation) process to get to the best decision.
+Since we have the same goal of launching products that drive adoption and revenue, we don't experience a lot of conflict over the shared ownership. When we do, though, we use the [clean escalation](../../../../company-info-and-process/communication/conflicts.md#clean-escalation) process to get to the best decision.
 
 ## Communications
 
@@ -111,12 +111,12 @@ When we have relaxed this in the past, the results have been bad and the overwhe
 
 ## Tools/Templates
 
-- [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) - a template for a [product strategy page](../../../strategy-goals/strategy/index.md), covering vision, strategy and short term direction.
+- [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) - a template for a [product strategy page](../../../../strategy-goals/strategy/index.md), covering vision, strategy and short term direction.
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
 - [Amplitude](../../../bizops/amplitude.md)
 - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
-- [Running remote hackathons](../../../company-info-and-process/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
+- [Running remote hackathons](../../../../company-info-and-process/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
 
 ## References
 

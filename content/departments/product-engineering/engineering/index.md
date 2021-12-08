@@ -1,31 +1,31 @@
 # Engineering
 
 - [Onboarding](onboarding/index.md)
-- [Principles and practices](principles-and-practices.md)
-- [Engineering management](engineering-management.md)
+- [Principles and practices](process/principles-and-practices.md)
+- [Engineering management](tools/engineering-management.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
-  - [How we use RFCs](../../company-info-and-process/communication/rfcs/index.md)
-- [Tracking issues](tracking_issues.md)
-- [Engineering ownership](engineering_ownership.md) - who owns what
+  - [How we use RFCs](../../../company-info-and-process/communication/rfcs/index.md)
+- [Tracking issues](process/tracking_issues.md)
+- [Engineering ownership](process/engineering_ownership.md) - who owns what
 - Practices & Philosophy
-  - [Planning](planning.md)
+  - [Planning](process/planning.md)
   - [Customer Issues](../../support/engaging-other-teams.md)
-  - [Incidents](incidents/index.md)
-  - [Product documentation](product_documentation.md)
-  - [Continuous releasability](continuous_releasability.md)
-  - [Releases](releases/index.md)
-    - [Release issue template](releases/release_issue_template.md)
-  - [External contributions](external_contributions.md)
-  - [Licenses](licenses.md)
+  - [Incidents](process/incidents/index.md)
+  - [Product documentation](process/product_documentation.md)
+  - [Continuous releasability](tools/continuous_releasability.md)
+  - [Releases](process/releases/index.md)
+    - [Release issue template](process/releases/release_issue_template.md)
+  - [External contributions](process/external_contributions.md)
+  - [Licenses](process/licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
 - [Tooling](tools/index.md)
-  - [Slackgenie](./tools/slackgenie.md)
+  - [Slackgenie](tools/slackgenie.md)
 - Infrastructure
-  - [Internal infrastructure](infrastructure/index.md)
-  - [Deployments](deployments/index.md)
-  - [On-call](incidents/on_call.md)
-  - [Observability](observability/index.md)
+  - [Internal infrastructure](tools/infrastructure/index.md)
+  - [Deployments](process/deployments/index.md)
+  - [On-call](process/incidents/on_call.md)
+  - [Observability](tools/observability/index.md)
 - [Hiring](hiring/index.md)
   - [Open positions](hiring/index.md#open-positions)
   - [Early-career engineers](hiring/early-career-engineers.md)
@@ -36,12 +36,12 @@
 
 ## Org chart
 
-- [How engineering is organized](eng_org.md).
-- [Roles and responsibilities](roles.md)
+- [How engineering is organized](team/index.md).
+- [Roles and responsibilities](roles/index.md)
 
 ## Communication
 
-For a list of engineering relevant Slack channels to join see the [team chat](../../company-info-and-process/communication/team_chat.md#engineering) page in the handbook.
+For a list of engineering relevant Slack channels to join see the [team chat](../../../company-info-and-process/communication/team_chat.md#engineering) page in the handbook.
 
 ## Repositories
 

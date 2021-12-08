@@ -62,4 +62,4 @@ For example: a feature may be ready for GA on a security and functional level, b
 
 ## Communicating about pre-release features
 
-Whatever label above is being used, be sure to follow the [communication guidelines for pre-release features](./product_management/rollout_process.md#pre-release-features).
+Whatever label above is being used, be sure to follow the [communication guidelines for pre-release features](rollout_process.md#pre-release-features).

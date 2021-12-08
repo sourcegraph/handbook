@@ -10,7 +10,7 @@ This page documents resources that are relevant and valuable to anyone on the en
 
 ## Book recommendations
 
-Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../../benefits-pay-perks/benefits-perks/travel/index.md#5-professional-development-stipend-and-educational-travel) and read them!
+Here are some books that multiple people on the team have read and recommend. If you haven't read these, [use your education budget](../../../../benefits-pay-perks/benefits-perks/travel/index.md#5-professional-development-stipend-and-educational-travel) and read them!
 
 - [Turn the Ship Around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/) - An inspiring story of how Navy captain David Marquet turned the lowest performing submarine in the Navy into the top performing one with his bottom's up leadership style.
 - [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835/) - An entertaining self-account of Gordon MacKenzie's experience fostering creativity on his team at Hallmark Cards. Buy the hard copy. There are lots of fun illustrations and short stories. It is a quick read and probably unlike any other book you have read.
@@ -21,7 +21,7 @@ Here are some books that multiple people on the team have read and recommend. If
 
 ## Promotion and compensation increase requests
 
-Refer to the [promotion request](career-development/talent-review-process.md#promotion-requests) and [compensation increase](career-development/talent-review-process.md#compensation-increase-requests) process information.
+Refer to the [promotion request](../career-development/talent-review-process.md#promotion-requests) and [compensation increase](../career-development/talent-review-process.md#compensation-increase-requests) process information.
 
 ## Transitioning from Individual Contributor to Engineering Manager
 
@@ -39,13 +39,13 @@ When an opportunity arises, the teammate's manager can nominate them for a manag
 There are some considerations to keep in mind to ensure that the teammate is set up for success:
 
 - The teammate's existing team should be in a position for them not to be involved as an IC for the whole duration of the trial period. Managers in training should not fulfill a dual role.
-- The team to be managed should comply with our [minimum viable team](eng_org.md#minimum-viable-team) criteria.
+- The team to be managed should comply with our [minimum viable team](../team/index.md#minimum-viable-team) criteria.
 - The team to be managed should have a dedicated and established Product Manager assigned to it.
 - The team to be managed should preferably not be one that the manager in training was an IC on.
 
 ### Manager in training trial period
 
-During the trial period, the manager in training will assume full Engineering Manager responsibility as outlined in the [Engineering Manager responsibilities](roles.md#engineering-manager).
+During the trial period, the manager in training will assume full Engineering Manager responsibility as outlined in the [Engineering Manager responsibilities](../roles/index.md#engineering-manager).
 
 The teammate's manager, director, or another nominated manager/director will become their sponsoring manager for the duration of the trial period. The sponsoring manager must commit to providing extra support to the manager in training during the trial period, which will last 12 weeks.
 
