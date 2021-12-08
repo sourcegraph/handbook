@@ -1,6 +1,6 @@
 # Kubernetes
 
-This section contains tips and advice for interacting with our Kubernetes deployments (most notably [sourcegraph.com](#sourcegraph-com) and [k8s.sgdev.org](#k8s-sgdev-org)).
+This section contains tips and advice for interacting with our Kubernetes deployments (most notably [sourcegraph.com](#sourcegraph-cloud) and [k8s.sgdev.org](#k8s-sgdev-org)).
 
 ## How to set up access to Kubernetes
 
