@@ -61,7 +61,7 @@
     - [Security](./cloud/security/index.md) - Engineering Manager: [Diego Comas](../../team/index.md#diego-comas)
       - [Lauren Chapman](../../team/index.md#lauren-chapman)
       - [David Sandy](../../team/index.md#david-sandy)
-      - [Mohammad Alam](../../team/index.md#mohammad-alam)
+      - [Mohammad Alam](../../team/index.md#mohammad-umer-alam)
       - [André Eleuterio](../../team/index.md#andré-eleuterio)
     - [DevOps](./cloud/devops/index.md) - Engineering Manager: [Jennifer Mitchell](../../team/index.md#jennifer-mitchell)
       - [Dax McDonald](../../team/index.md#dax-mcdonald)
@@ -113,4 +113,4 @@ When teams grow and divide, we prefer to grow the org horizontally, not vertical
 
 ## Transferring teams
 
-If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager to figure out next steps. If you don't feel comfortable talking to your current manager for any reason, please reach out to your manager's manager, or someone in people ops. See also [the process for switching teams](../../people-ops/switching-teams.md).
+If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager to figure out next steps. If you don't feel comfortable talking to your current manager for any reason, please reach out to your manager's manager, or someone in people ops. See also [the process for switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md).

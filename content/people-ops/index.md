@@ -30,16 +30,16 @@ Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/
 
 ## Goals & Current Work
 
-See People Ops OKRs [here](../company/goals/2022_q3.md#people-ops).
+See People Ops OKRs [here](../strategy-goals/goals/2022_q3.md#people-ops).
 
 See how we manage project and updates [here](people-ops-project-management.md).
 
 ## Things you need to know about working here
 
-- [New teammate onboarding](onboarding/index.md)
-- [Are you switching teams?](switching-teams.md)
-- [Are you leaving us?](leaving.md)
-- [How we manage remote work](../company/remote/index.md)
+- [New teammate onboarding](../company-info-and-process/onboarding/index.md)
+- [Are you switching teams?](../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- [Are you leaving us?](../company-info-and-process/working-at-sourcegraph/leaving.md)
+- [How we manage remote work](../company-info-and-process/remote/index.md)
 - [Impact review cycles](impact-reviews.md)
 
 ## What we offer our teammates
@@ -59,8 +59,8 @@ See how we manage project and updates [here](people-ops-project-management.md).
 
 ## DEI
 
-- [Diversity, equity, and inclusion](../communication/dei.md)
-- [Personal Pronouns](personal-pronouns.md)
+- [Diversity, equity, and inclusion](../company-info-and-process/communication/dei.md)
+- [Personal Pronouns](../company-info-and-process/communication/personal-pronouns.md)
 
 ## Wellbeing
 
@@ -69,7 +69,7 @@ See how we manage project and updates [here](people-ops-project-management.md).
 
 ## Manager resources
 
-This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](../company/goals/2022_q3.md#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
+This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](../strategy-goals/goals/2022_q3.md#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
 
 - [Manager accounts guide](manager-guide.md)
 

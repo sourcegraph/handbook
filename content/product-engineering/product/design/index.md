@@ -36,11 +36,11 @@ Our [product design principles](../product_management/index.md#sourcegraphs-desi
 
 ### Designing in the open
 
-At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../../company/values.md) to our work and thrive in our globally distributed, remote company.
+At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../../company-info-and-process/values/index.md) to our work and thrive in our globally distributed, remote company.
 
 Designing in the open means many things to us.
 
-- **Our work and process is [transparent by default](../../../company/values.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../company/values.md#high-agency) environment.
+- **Our work and process is [transparent by default](../../../company-info-and-process/values/index.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../company-info-and-process/values/index.md#high-agency) environment.
 - **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./reviewing_design/index.md).
 - **We create shared understanding**. We proactively communicate with teammates from all disciplines and backgrounds. We don't use jargon and don't expect others to have a deep design-specific understanding, and we look for gaps in understanding where we can help provide clarity.
 
@@ -83,7 +83,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 
 - [Tools](./tools/index.md)
 - [Workshops](./workshops/index.md)
-- [Content guidelines](../../../communication/content_guidelines/index.md)
+- [Content guidelines](../../../company-info-and-process/communication/content_guidelines/index.md)
 - [Documents and templates](./documents_templates/index.md)
 - [Visual design checklist](./visual_design_checklist.md)
 - [External resources](./external_resources/index.md)

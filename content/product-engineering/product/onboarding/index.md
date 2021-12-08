@@ -2,11 +2,11 @@
 
 Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2-4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same.
 
-**[Onboarding buddy](../../../people-ops/onboarding/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
+**[Onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
 
 ## Manager checklist
 
-- Visit the [Onboarding process for Hiring Managers](../../../people-ops/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
+- Visit the [Onboarding process for Hiring Managers](../../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
 - Create onboarding Google doc and copy in this page to customize week 2-4 tasks and have a personal checklist for the new teammate.
 - Update onboarding doc Week 2-4 with initial projects.
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
@@ -17,7 +17,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
   - Looker
 - Grant access to necessary services.
   - UserTesting.com
-- Schedule a recurring [1-1](../../../leadership/1-1.md).
+- Schedule a recurring [1-1](../../../company-info-and-process/communication/1-1.md).
 - Schedule check-ins for the first and second weeks at Sourcegraph to keep up with onboarding and to create space for answering any questions that might come up.
 - Create a 1-1 doc and add initial discussion items
   - Onboarding doc - YAYYYYYYYYYY WELCOME!!!!! 🎉
@@ -32,8 +32,8 @@ Your objective is to get to know the team and learn as much about Sourcegraph (t
 
 Remember:
 
-- Sourcegraph is an [open company](../../../company/index.md#sourcegraph-open-product-open-company-open-source). Everything here at Sourcegraph is public unless there is a very good reason for it to be private.
-  - One of our values is to be [open and transparent](../../../company/values.md#open-and-transparent)
+- Sourcegraph is an [open company](../../../company-info-and-process/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source). Everything here at Sourcegraph is public unless there is a very good reason for it to be private.
+  - One of our values is to be [open and transparent](../../../company-info-and-process/values/index.md#open-and-transparent)
   - Good reasons for things to be private: sensitive customer information, sensitive personal information
   - If you see a "request permission" page for some doc or other resource, it is a mistake. Just ask to be granted access to it (and make a PR to update the handbook so the next person starting is granted access to that system).
 - Unlike at many companies, it is OK (and important) to call out when we did something poorly or when something doesn't go well (e.g., a sales pitch falls flat). That helps us be real and do it better in the future.
@@ -41,7 +41,7 @@ Remember:
 ### Day 1
 
 - Complete [Process st onboarding](https://app.process.st/reports/)
-  - Keep the [guiding principles](../../../people-ops/onboarding/index.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
+  - Keep the [guiding principles](../../../company-info-and-process/onboarding/index.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
 - Write your 30-60-90 day objectives in your 1:1 doc with Christina
 
 ### Get to know the team
@@ -61,8 +61,8 @@ Remember:
 
 ### Set up the basics
 
-- [Configure your GitHub notifications.](../../engineering/github-notifications/index.md)
-- Familiarize yourself with our [team chat](../../../communication/team_chat.md) and join team channels on Slack, as well as any other channels you find interesting. [Product team chat documentation](../../../communication/team_chat.md#product).
+- [Configure your GitHub notifications.](../../../company-info-and-process/onboarding/git-intro/github-notifications/index.md)
+- Familiarize yourself with our [team chat](../../../company-info-and-process/communication/team_chat.md) and join team channels on Slack, as well as any other channels you find interesting. [Product team chat documentation](../../../company-info-and-process/communication/team_chat.md#product).
 - Set up your [local development environment](https://docs.sourcegraph.com/dev/setup). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next person that we hire doesn't run into the same problem).
   - You will need to run Sourcegraph locally to test and validate work that engineering is doing, to provide early feedback, or to review the UX of recently implemented work.
 - [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../../engineering/deployments/instances.md#k8s-sgdev-org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
@@ -102,13 +102,13 @@ Remember:
 
 ### Understand company and team goals
 
-- [Sourcegraph values](../../../company/values.md)
-- [Sourcegraph strategy](../../../company/strategy/index.md)
+- [Sourcegraph values](../../../company-info-and-process/values/index.md)
+- [Sourcegraph strategy](../../../strategy-goals/strategy/index.md)
 - [OKR Tracker](https://docs.google.com/spreadsheets/d/1pNXVev2JtYC94lB1NIfsc8OqyYnnSFn7p5PYFcniblE/edit?ts=607a3f2e#gid=1699297878)
 
 ### Get ready to contribute to the docs
 
-- Read the [content guidelines](../../../communication/content_guidelines/index.md) for contributing to the handbook, product docs, and product copy
+- Read the [content guidelines](../../../company-info-and-process/communication/content_guidelines/index.md) for contributing to the handbook, product docs, and product copy
 - Google Cloud Storage access: Ask in #product to be added to the `gcp-assets-users` group.
 - **Screenshot/GIF making software**: See the [handbook](../../../marketing/adding_screenshots_screen_recording.md) for guidelines about software. Expense the program that works for you when you need it.
 - [Product documentation guidelines](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/dev/documentation.md)

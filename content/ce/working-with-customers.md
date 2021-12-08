@@ -165,6 +165,8 @@ At times a customer may raise a feature request or provide product feedback. It 
 
 As CEs we are responsible for the technical success of our customers. Post-sales we nurture these relationships and manage the accounts by paying attention to customer health metrics. Usage, adoption, and customer sentiment are important indicators that we monitor and address. It is recommended that CEs routinely monitor this to keep a pulse on customer metrics. There is also a link to this from the Salesforce Account record.
 
+In addition to routine monitoring, CE should be collaborating with their AE to create and maintain [account plans](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl) for each customer. These should be revisited on a quarterly basis.
+
 ### Resources
 
 - [Customer Health Dashboard](https://sourcegraph.looker.com/dashboards-next/194)

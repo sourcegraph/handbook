@@ -8,7 +8,7 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../../../company/goals/index.md), [values](../../../../company/values.md) and [code of conduct](../../../../communication/code_of_conduct.md), as well as [DevOps' mission and vision](index.md).
+- Clear knowledge of the [company goals](../../../../strategy-goals/goals/index.md), [values](../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../company-info-and-process/communication/code_of_conduct.md), as well as [DevOps' mission and vision](index.md).
 - Know the expected outcome of each DevOps onboarding milestone.
 - You have a sense of what tools you will be using and for what
 

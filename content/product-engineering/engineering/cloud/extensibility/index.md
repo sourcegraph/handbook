@@ -77,7 +77,7 @@ The extensibility team owns our code host and third-party integrations (includin
 ## Important Links
 
 - [Processes](processes.md)
-- [Goals](../../../../company/strategy/cloud/extensibility/index.md)
+- [Goals](../../../../strategy-goals/strategy/cloud/extensibility/index.md)
 - Products
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
@@ -93,7 +93,7 @@ Sourcegraph powers your first stop for any information about your code, for any 
 
 ## Responsibilities
 
-_The extensibility team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the extensibility team. You can find our current priorities in our [goals page](../../../../company/strategy/cloud/extensibility/index.md)._
+_The extensibility team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the extensibility team. You can find our current priorities in our [goals page](../../../../strategy-goals/strategy/cloud/extensibility/index.md)._
 
 1. Sourcegraph extensions
    - Providing a Sourcegraph extension API that enables developers to bring data from their favorite developer tools into their Sourcegraph workflow.
