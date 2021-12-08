@@ -20,6 +20,7 @@ This team is responsible for the continuous deployment of Sourcegraph.com
 Our Cloud monitoring infrastructure (Prometheus / Grafana)
 
 ## Members
+
 - [Jennifer Mitchell](../../../../team/index.md#jennifer-mitchell) - Engineering Manager
   - [Dax McDonald](../../../../team/index.md#dax-mcdonald)
   - [Daniel Dides](../../../../team/index.md#daniel-dides)
