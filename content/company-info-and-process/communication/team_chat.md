@@ -44,15 +44,15 @@ Private channels will automatically be created for the following categories of c
 - Recruiting: Channels used for discussing specific positions where private candidate feedback and details will be discussed.
 - Management: Channels where managers can communicate about specific private or sensitive team situations.
 - Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
-- Internal: While we strongly encourage that every team keep these public by default and to use our `{$TEAMNAME}-internal` [naming convention](../communication/team_chat.md#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
+- Internal: While we strongly encourage that every team keep these public by default and to use our `{$TEAMNAME}-internal` [naming convention](channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
 If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step to have one more conversation about why a channel should be made private - ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
 
 ## Send (and read) messages any time
 
-Because Sourcegraph is a global, [all-remote company](../remote/index.md) with [flexible work hours](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
+Because Sourcegraph is a global, [all-remote company](../remote/index.md) with [flexible work hours](../../company-info-and-process/remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
 
-However, a corollary to this is that they are free to read your message whenever is convenient for them. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../company/remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
+However, a corollary to this is that they are free to read your message whenever is convenient for them. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../../company-info-and-process/remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
 
 Make sure to set up Slack to only send you notifications when you want to see them!
 

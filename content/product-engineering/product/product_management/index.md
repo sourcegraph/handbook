@@ -50,7 +50,7 @@ Launch tier levels (L1, L2, and L3) are also an important term to be aware of, a
 
 ## Collaboration
 
-Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../company-info-and-process/valuesindex.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
+Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
 
 ### Product Management & Marketing
 

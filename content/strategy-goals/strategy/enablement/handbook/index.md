@@ -20,7 +20,7 @@ The Handbook serves as a [source of truth](../../../../company-info-and-process/
 
 **We help Sourcegraph candidates** learn more about the company during their application and interview process by keeping our Handbook public.
 
-**We help Sourcegraph current and potential customers** learn more about the company they're working with by publishing and maintaining [public](../../../../company/values.md#open-and-transparent) documentation.
+**We help Sourcegraph current and potential customers** learn more about the company they're working with by publishing and maintaining [public](../../../../company-info-and-process/values/index.md#open-and-transparent) documentation.
 
 ### Guiding principles
 

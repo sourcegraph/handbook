@@ -10,10 +10,10 @@ _All PDs are in a [public Google Drive folder](https://drive.google.com/drive/fo
 
 They are:
 
-- [Sequentially numbered](../../company-info-and-processes/communication/rfcs/index.md#rfcs-are-sequentially-numbered)
-- [Google Docs](../../company-info-and-processes/communication/rfcs/index.md#rfcs-are-google-docs)
-- [Public](../../company-info-and-processes/communication/rfcs/index.md#rfcs-are-public)
-- [Open to external contributions](../../company-info-and-processes/communication/rfcs/index.md#external-contributors)
+- [Sequentially numbered](../../company-info-and-process/communication/rfcs/index.md#rfcs-are-sequentially-numbered)
+- [Google Docs](../../company-info-and-process/communication/rfcs/index.md#rfcs-are-google-docs)
+- [Public](../../company-info-and-process/communication/rfcs/index.md#rfcs-are-public)
+- [Open to external contributions](../../company-info-and-process/communication/rfcs/index.md#external-contributors)
 
 ## Status
 

@@ -8,7 +8,7 @@ Welcome to the distribution team! This document will guide you through distribut
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../../strategy-goals/goals/index.md), [values](../../../company-info-and-processes/values/index.md) and [code of conduct](../../../company-info-and-processes/communication/code_of_conduct.md), as well as [Distributions’s mission and vision](./index.md).
+- Clear knowledge of the [company goals](../../../strategy-goals/goals/index.md), [values](../../../company-info-and-process/values/index.md) and [code of conduct](../../../company-info-and-process/communication/code_of_conduct.md), as well as [Distributions’s mission and vision](./index.md).
 - Know the expected outcome of each Distribution onboarding milestone.
 - Become familiar with Distribution [product](product.md), [tech stack](tech_stack.md)
 - Go through [Process St Onboarding](https://app.process.st/reports/)

@@ -13,7 +13,7 @@ I use the [CliftonStrengths assessment](https://www.gallup.com/cliftonstrengths)
 
 ## 1-1s
 
-I do weekly [1-1s](../../company-info-and-processes/communication/1-1.md) with my direct reports.
+I do weekly [1-1s](../../company-info-and-process/communication/1-1.md) with my direct reports.
 
 ## Skip-level meetings
 

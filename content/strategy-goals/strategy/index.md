@@ -30,7 +30,7 @@ To make it so [everyone can code](#purpose), we will create tools, networks, and
 
 ## Values
 
-Our [values](../../company-info-and-processes/values/index.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
+Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
 
 ## Principles
 

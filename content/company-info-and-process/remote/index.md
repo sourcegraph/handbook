@@ -57,7 +57,7 @@ Just because we're remote, does not mean we don't have hackathons. Teams, organi
 
 - [Our journey to all-remote](https://about.sourcegraph.com/blog/our-journey-to-all-remote)
 - [Tips for working remotely](tips.md)
-- [Asynchronous communication at Sourcegraph](../asynchronous-communication.md)
+- [Asynchronous communication at Sourcegraph](../communication/asynchronous-communication.md)
 - [Teammate-recommended productivity hacks](teammate-recommended_productivity_hacks.md)
 - [Social calendar](social_calendar.md)
 - [GitLab handbook: All-remote](https://about.gitlab.com/company/culture/all-remote)
