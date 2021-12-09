@@ -59,14 +59,29 @@ You can think of the restrictions we impose as a linter for preventing the issue
 
 Monitoring tooling at Sourcegraph is developed to encourage the following guidelines:
 
-- [**Dashboards should only be created with the monitoring generator**](#dashboards-should-only-be-created-with-the-monitoring-generator)
-- [**Dashboards should describe a single service**](#dashboards-should-describe-a-single-service)
-- [**Graphs should have less than 5 cardinality**](#graphs-should-have-less-than-5-cardinality)
-- [**Only the most useful and simple graphs should be visible by default**](#only-the-most-useful-and-simple-graphs-should-be-visible-by-default)
+- [Sourcegraph monitoring pillars](#sourcegraph-monitoring-pillars)
+  - [Overview](#overview)
+  - [Long-term vision](#long-term-vision)
+    - [History](#history)
+  - [Monitoring pillars](#monitoring-pillars)
+    - [Dashboards should only be created with the monitoring generator](#dashboards-should-only-be-created-with-the-monitoring-generator)
+      - [Explanation](#explanation)
+      - [What you should do](#what-you-should-do)
+    - [Dashboards should describe a single service](#dashboards-should-describe-a-single-service)
+      - [Explanation](#explanation-1)
+      - [What you should do](#what-you-should-do-1)
+    - [Graphs should have less than 5 cardinality](#graphs-should-have-less-than-5-cardinality)
+      - [Explanation](#explanation-2)
+      - [Exceptions](#exceptions)
+      - [What you should do](#what-you-should-do-2)
+    - [Only the most useful and simple graphs should be visible by default](#only-the-most-useful-and-simple-graphs-should-be-visible-by-default)
+      - [Explanation](#explanation-3)
+      - [What you should do](#what-you-should-do-3)
+  - [Next steps](#next-steps)
 
 Before trying to circumvent the guidelines enforced by our monitoring tooling, please keep in mind that these pillars are defined to help us achieve our [goals](#long-term-vision) and alleviate [pain points we have encountered in the past](#history). Each of the above pillars are documented with detailed explanations, recommendations for what you can do, and exceptions where applicable.
 
-To make significant changes to the monitoring tooling, please reach out to the [Distribution team](../distribution/index.md) or open a PR to this page!
+To make significant changes to the monitoring tooling, please reach out to the [Distribution team](../../distribution/index.md) or open a PR to this page!
 
 ### Dashboards should only be created with the monitoring generator
 

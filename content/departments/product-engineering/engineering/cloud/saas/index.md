@@ -68,7 +68,7 @@ The list below contains features and services that already exist, and the Cloud 
 
 - [Ryan Phillips](../../../../../team/index.md#ryan-phillips) (he/him) - [Product Manager](../../../product/roles/index.md#product-manager)
 - [Quinn Keast](../../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
-- [Rafal Leszczynski](../../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles.md#engineering-manager)
+- [Rafal Leszczynski](../../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles/index.md#engineering-manager)
   - [Joe Chen](../../../../../team/index.md#joe-chen) (he/him)
   - [Artem Ruts](../../../../../team/index.md#artem-ruts) (he/him)
   - [Milan Freml](../../../../../team/index.md#milan-freml) (he/him)
@@ -133,7 +133,7 @@ Research is typically planned, organized, and executed by the product team.
 
 Anyone on the team can join a research session as an observer and notetaker. Observing and notetaking during user interviews and testing sessions is an amazing way to get a first-hand look at how others use our products and ideas, and your role as a notetaker is a huge help for the team.
 
-See "[So you’re about to help us with user testing](../../../product/user_research/user_research_observer.md)" to learn what to expect during user research sessions and how to take great notes.
+See "[So you’re about to help us with user testing](../../../product/process/user_research/user_research_observer.md)" to learn what to expect during user research sessions and how to take great notes.
 
 #### User research calendar
 

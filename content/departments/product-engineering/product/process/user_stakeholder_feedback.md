@@ -42,7 +42,7 @@ We have a few different email lists that are used to send us feedback.
 #### support@sourcegraph.com
 
 - **Purpose:** This email list is for customers to request help and connects to Zendesk.
-- **Owner:** The Customer Support team is [responsible for all support issues](../../../support/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
+- **Owner:** The Customer Support team is [responsible for all support issues](../../../support/process/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
 
 ### GitHub issues
 
@@ -88,7 +88,7 @@ The Sales and CE teams also provide a [product gaps dashboard](https://sourcegra
 ### CE feedback
 
 - **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
-- **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](../surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
+- **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
 
 ## Productboard
 

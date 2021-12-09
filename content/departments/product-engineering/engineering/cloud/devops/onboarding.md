@@ -1,6 +1,6 @@
 # DevOps Engineer Oboarding
 
-Welcome to the DevOps team! This document will guide you through DevOps-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../onboarding/software-engineer-onboarding.md).
+Welcome to the DevOps team! This document will guide you through DevOps-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../../onboarding/software-engineer-onboarding.md).
 
 ## DevOps Onboarding Checklist
 

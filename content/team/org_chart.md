@@ -10,7 +10,7 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ## [Engineering](../departments/product-engineering/engineering/team/index.md#current-organization)
 
-## [Product](..departments/product-engineering/product/team/index.md#current-team)
+## [Product](../departments/product-engineering/product/team/index.md#current-team)
 
 ## [Customer Support](../departments/support/index.md#the-team)
 

@@ -6,7 +6,7 @@ This page contains information that is relevant for how to do well at your job a
 
 - [Planning process](../../process/planning-process.md) - how we do planning and the artifacts we use to plan.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
-- [Tracking issues](../../engineering/tracking_issues.md) - how we keep track of planned and on-going work.
+- [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
 - [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
@@ -99,7 +99,7 @@ Unless the change is extremely wide in impact (a large about site update, a majo
 
 ### Talking about customers publicly
 
-When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../../bizops/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
+When talking about customers publicly, we can use the process for [linking to customer or prospect names in public places](../../../bizops/tools/customer_ops_tools.md#linking-to-customer-or-prospect-names-in-public-places) to do this in an anonymous (to non-Sourcegraph users) way that still links everything together for us.
 
 ## Release early, release often
 
@@ -114,13 +114,13 @@ When we have relaxed this in the past, the results have been bad and the overwhe
 - [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) - a template for a [product strategy page](../../../../strategy-goals/strategy/index.md), covering vision, strategy and short term direction.
 - [Figma](https://www.figma.com/files/team/438792081639669302/Sourcegraph)
 - [Productboard](https://sourcegraph.productboard.com/)
-- [Amplitude](../../../bizops/amplitude.md)
+- [Amplitude](../../../bizops/tools/amplitude.md)
 - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
 - [Running remote hackathons](../../../../company-info-and-process/remote/remote_hackathons.md#facilitating-a-remote-hackathon)
 
 ## References
 
 - [Onboarding to the product team](../onboarding/index.md)
-- [Sourcegraph messaging](../../../marketing/messaging.md)
+- [Sourcegraph messaging](../../../marketing/process/messaging.md)
 - [Working with BizOps](../../../bizops/index.md#how-to-work-with-us)
 - [Recommended reading](../onboarding/recommended_reading.md)

@@ -47,7 +47,7 @@ It’s expected that these points will change over the period heading towards la
 
 ## Sourcegraph Cloud
 
-Sourcegraph Cloud is continuously deployed with all new updates to master. We maintain a [releasability contract](../../engineering/continuous_releasability.md) and require all new features to be released behind a feature flag to ensure that functionality can be turned off if a problem arises.
+Sourcegraph Cloud is continuously deployed with all new updates to master. We maintain a [releasability contract](../../engineering/tools/continuous_releasability.md) and require all new features to be released behind a feature flag to ensure that functionality can be turned off if a problem arises.
 
 ### Before merge
 
@@ -82,7 +82,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 
 ## Sourcegraph Server
 
-New versions of Sourcegraph are [released monthly](../../engineering/releases/index.md#releases-are-monthly) to bundle changes for customers running Sourcegraph Server for their organizations. It is important that any new functionality has been thoroughly tested before including a feature on by default as part of a release.
+New versions of Sourcegraph are [released monthly](../../engineering/process/releases/index.md#releases-are-monthly) to bundle changes for customers running Sourcegraph Server for their organizations. It is important that any new functionality has been thoroughly tested before including a feature on by default as part of a release.
 
 For most features, we follow the above rollout process because the experience is the same on both Sourcegraph Cloud and Sourcegraph Server.
 
@@ -90,7 +90,7 @@ For most features, we follow the above rollout process because the experience is
 
 Features that are specific to Sourcegraph Server and can't be tested on Sourcegraph Cloud still go through the same process [before merge](#before-merge). Then:
 
-1. **Test on Sourcegraph dogfood instance:** follow the [before launch](#after-merge-before-launch) steps above on [k8s.sgdev.org](../../engineering/deployments/index.md#k8s-sgdev-org).
+1. **Test on Sourcegraph dogfood instance:** follow the [before launch](#after-merge-before-launch) steps above on [k8s.sgdev.org](../../engineering/process/deployments/index.md#k8s-sgdev-org).
 1. **Release feature with flag off:** for the next release, the feature flag is disabled by default.
 1. **Run external user tests:** Reach out to select customers to turn on the feature flag for a specific time period, usually those with expressed interest in testing the feature.
 1. **Announce to customers they can enable the feature flag:** Let customers know that they can turn on the feature.

@@ -21,7 +21,7 @@ Welcome to the distribution team! This document will guide you through distribut
 - Attend weekly sync [meeting](https://calendar.google.com/event?action=TEMPLATE&tmeid=OXFyZXRsc21hdDh1MHNkNzQ2aGhqMzg3NmxfMjAyMTA1MjRUMTczMDAwWiBkYXZlQHNvdXJjZWdyYXBoLmNvbQ&tmsrc=dave%40sourcegraph.com&scp=ALL)
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
   - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../tools/infrastructure/gcp.md#engineering-projects)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../infrastructure/gcp.md#engineering-projects).
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../tools/infrastructure/gcp.md#engineering-projects).
 - Familiarise yourself with the distribution [internal infrastructure](internal_infrastructure.md) and ownership areas
 - Open and merge first GitHub pull request by adding yourself to [team page](../../../../team/index.md) in Handbook
 - Read our [Distribution handbook pages](index.md)

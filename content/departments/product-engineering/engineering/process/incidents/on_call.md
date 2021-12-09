@@ -87,6 +87,6 @@ data from.
   Site24x7. We store the checks in the infrastructure repository. See the
   [Site24x7 README](https://github.com/sourcegraph/infrastructure/blob/master/site24x7/README.md).
 - Is it a service level metric that already exists or you could add to the
-  Sourcegraph codebase? eg p95 open connections to pgsql. Then see [adding monitoring](../observability/monitoring.md#adding-monitoring).
+  Sourcegraph codebase? eg p95 open connections to pgsql. Then see [adding monitoring](../../tools/observability/monitoring.md#adding-monitoring).
 - Do you need to validate a core user flow? Use
   [e2etest](https://github.com/sourcegraph/sourcegraph/blob/master/test/e2e/README.md)

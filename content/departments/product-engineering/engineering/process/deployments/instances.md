@@ -57,7 +57,7 @@ Learn more in [deployment basics](./index.md#deployment-basics).
 
 ## Managed instances
 
-[Managed instances](../enablement/delivery/managed/index.md) are deployments of Sourcegraph we manage for customers.
+[Managed instances](../../enablement/delivery/managed/index.md) are deployments of Sourcegraph we manage for customers.
 We also maintain some internal managed instances for various use cases.
 
 ### demo.sourcegraph.com
@@ -66,7 +66,7 @@ This deployment is used by Sourcegraph CE for demos.
 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-demo)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/demo)
-- [Operations](../enablement/delivery/managed/operations.md)
+- [Operations](../../enablement/delivery/managed/operations.md)
 
 ### devmanaged.sourcegraph.com
 
@@ -74,4 +74,4 @@ This deployment is a [managed instance](../enablement/delivery/managed/index.md)
 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-dev)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/dev)
-- [Operations](../enablement/delivery/managed/operations.md)
+- [Operations](../../enablement/delivery/managed/operations.md)

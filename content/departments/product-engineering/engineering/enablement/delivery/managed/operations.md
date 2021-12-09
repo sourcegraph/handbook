@@ -5,18 +5,19 @@ Operations guides for [managed instances](./index.md).
 To upgrade a managed instance, see [managed instances upgrade process](upgrade_process.md).
 To create a managed instance, see [managed instances creation process](creation_process.md).
 
-- [Red/black deployment model](#redblack-deployment-model)
-- [Accessing the instance](#accessing-the-instance)
-  - [SSH access](#ssh-access)
-    - [Accessing the Docker containers](#accessing-the-docker-containers)
-    - [Restarting for configuration updates](#restarting-for-configuration-updates)
-  - [Port-forwarding](#port-forwarding)
-  - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
-  - [Finding the external IPs](#finding-the-external-ips)
-- [Instance technicalities](#instance-technicalities)
-  - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
-  - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
-  - [Debugging startup scripts](#debugging-startup-scripts)
+- [Managed instances operations](#managed-instances-operations)
+  - [Red/black deployment model](#redblack-deployment-model)
+  - [Accessing the instance](#accessing-the-instance)
+    - [SSH access](#ssh-access)
+      - [Accessing the Docker containers](#accessing-the-docker-containers)
+      - [Restarting for configuration updates](#restarting-for-configuration-updates)
+    - [Port-forwarding](#port-forwarding)
+    - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
+    - [Finding the external IPs](#finding-the-external-ips)
+  - [Instance technicalities](#instance-technicalities)
+    - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
+    - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
+    - [Debugging startup scripts](#debugging-startup-scripts)
 
 ## Red/black deployment model
 
@@ -32,7 +33,7 @@ The `NAME` value indicates the currently active instance (`red` or `black`). Dur
 
 ## Accessing the instance
 
-For CSE's, also refer to [Accessing Managed Instances](../../../../../support/support-managed-instances.md).
+For CSE's, also refer to [Accessing Managed Instances](../../../../../support/process/support-managed-instances.md).
 
 ### SSH access
 

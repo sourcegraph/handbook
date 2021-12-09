@@ -58,7 +58,7 @@ Our private code repositories can only be searched using our internal dev instan
    - Required for terraform and kubectl.
 2. [Set up Terraform](https://github.com/sourcegraph/infrastructure#first-time-using-terraform)
    - Terraform is our infastructure as code tool which we use to modify our enviroments.
-3. [Connect to dogfood with kubectl](../../deployments/debugging/tutorial.md#gain-access-to-the-cluster)
+3. [Connect to dogfood with kubectl](../../process/deployments/debugging/tutorial.md#gain-access-to-the-cluster)
    - For prod and other clusters it’s just a matter of adding the other kubeconfigs
 4. Download and setup [Burpsuite community edition](https://portswigger.net/burp/communitydownload) on your laptop.
    - You can use [this Burp project](https://drive.google.com/file/d/1__fpwVbzUyuZinbrJnEJSVe3WM1ANpxQ/view?usp=sharing) already configured for Sourcegraph.

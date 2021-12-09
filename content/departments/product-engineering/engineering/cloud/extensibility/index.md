@@ -77,7 +77,7 @@ The extensibility team owns our code host and third-party integrations (includin
 ## Important Links
 
 - [Processes](processes.md)
-- [Goals](../../../../strategy-goals/strategy/cloud/extensibility/index.md)
+- [Goals](../../../../../strategy-goals/strategy/cloud/extensibility/index.md)
 - Products
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)

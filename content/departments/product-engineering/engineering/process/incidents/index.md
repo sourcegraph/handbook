@@ -37,7 +37,7 @@ The first Sourcegraph teammate (regardless of their role) that becomes aware of 
 
 #### Severity levels
 
-We currently have 2 severity levels for incidents that require this workflow and both of these levels are considered a severity 1 per [our contractual SLAs](../../../support/index.md#slas), we just break them down a bit more for internal delineation:
+We currently have 2 severity levels for incidents that require this workflow and both of these levels are considered a severity 1 per [our contractual SLAs](../../../../support/index.md#slas), we just break them down a bit more for internal delineation:
 
 1. **Critical** - Issues causing very high impact to customers. Immediate response is required. Examples include a full outage, or a data breach.
 2. **Major** - Issues causing significant impact. Immediate response is usually required. We might have some workarounds that mitigate the impact on customers. Examples include an important sub-system failing.
@@ -112,7 +112,7 @@ The messenger should witness the incident lead work (in the dedicated Slack chan
 - Posts in #marketing for all customer-impact incidents and tag @marketing-incident. This will give marketing visibility into all issues and the team can determine how to respond/what action is necessary. It's okay that they don't respond right away -- most incidents do not require that of our marketing teammates.
 - Posts in #general if the issue is severe enough it’s better to err on broader internal communicationIn some cases, an issue is so severe we need to do executive level communication.
 - In these cases, the messenger loops in a member of @cs-leadership who will help by handling this. The messenger reminds them to include all department heads and for marketing to also include our director of global communication in addition to the head of marketing).
-- For security related issues they also follow [our security disclosure process](../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities)
+- For security related issues they also follow [our security disclosure process](../../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities)
 
 > NOTE: Need help using incident<unlink>.io? Go to their Help Centre at [docs.incident.io](https://docs.incident.io/).
 
@@ -141,7 +141,7 @@ After the incident is resolved, the incident lead:
 3. Update and close and relevant public GitHub issues.
 4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish it in the [Incidents folder in Google Drive](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F).
 5. Create GitHub issues for any appropriate followup work.
-6. Schedule a [retrospective](../../../../company-info-and-process/communication/retrospectives.md) if you think it would be valuable.
+6. Schedule a [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) if you think it would be valuable.
 7. Archive the incident channel.
 
 #### Past incident post-mortems

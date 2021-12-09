@@ -4,7 +4,7 @@
 
 ### 1. Secure Sourcegraph Cloud for private code (due end of 2021-July)
 
-**Problem:** The [Cloud SaaS team](../../../../product-engineering/engineering/cloud/saas/index.md) is working toward [private code on Sourcegraph Cloud](index.md). Prior to allowing users to index their own private code with Sourcegraph, we need confidence that we can proactively identify and resolve security issues. We also need to ensure that we're protected against known security flaws.
+**Problem:** The [Cloud SaaS team](../../../../departments/product-engineering/engineering/cloud/saas/index.md) is working toward [private code on Sourcegraph Cloud](index.md). Prior to allowing users to index their own private code with Sourcegraph, we need confidence that we can proactively identify and resolve security issues. We also need to ensure that we're protected against known security flaws.
 
 **Milestones:**
 

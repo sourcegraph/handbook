@@ -90,7 +90,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 - [María Craig](../../../../../team/index.md#maría-craig) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Sara Lee](../../../../../team/index.md#sara-lee) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Owen Convey](../../..../../team/index.md#owen-convey) ([Engineering Manager](../../roles.md#engineering-manager)) {#code-intelligence-eng}
+- [Owen Convey](../../..../../team/index.md#owen-convey) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#code-intelligence-eng}
   - [Eric Fritz](../../../../../team/index.md#eric-fritz)
   - [Noah Santschi-Cooney](../../../../../team/index.md#noah-santschi-cooney)
   - [Ólafur Páll Geirsson](../../../../../team/index.md#Ólafur-Páll-Geirsson)

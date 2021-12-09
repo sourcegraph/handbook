@@ -65,7 +65,7 @@ Remember:
 - Familiarize yourself with our [team chat](../../../../company-info-and-process/communication/team_chat.md) and join team channels on Slack, as well as any other channels you find interesting. [Product team chat documentation](../../../../company-info-and-process/communication/team_chat.md#product).
 - Set up your [local development environment](https://docs.sourcegraph.com/dev/setup). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next person that we hire doesn't run into the same problem).
   - You will need to run Sourcegraph locally to test and validate work that engineering is doing, to provide early feedback, or to review the UX of recently implemented work.
-- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../../engineering/deployments/instances.md#k8s-sgdev-org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
+- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../../engineering/process/deployments/instances.md#k8s-sgdev-org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 - Install a text editor of your choice. A lot of the team uses [Visual Studio Code](https://code.visualstudio.com/).
 
 ### Get to know the product
@@ -96,7 +96,7 @@ Remember:
   - Watch [Figma for Sourcegraphers part 2 (intro to the Wildcard Design System)](https://drive.google.com/file/d/1kfT3PVvTag_e0RXLAt6nndf6fS2n1Slv/view)
   - Read [Figma developers guide](https://www.smashingmagazine.com/2020/09/figma-developers-guide/)
 - Looker
-  - [How Sourcegraph uses Looker](../../../bizops/analytics.md#using-looker)
+  - [How Sourcegraph uses Looker](../../../bizops/analytics/index.md#using-looker)
 - UserTesting.com
   - Walk through UserTesting.com with one of the designers on the team
 
@@ -110,7 +110,7 @@ Remember:
 
 - Read the [content guidelines](../../../../company-info-and-process/communication/content_guidelines/index.md) for contributing to the handbook, product docs, and product copy
 - Google Cloud Storage access: Ask in #product to be added to the `gcp-assets-users` group.
-- **Screenshot/GIF making software**: See the [handbook](../../../marketing/adding_screenshots_screen_recording.md) for guidelines about software. Expense the program that works for you when you need it.
+- **Screenshot/GIF making software**: See the [handbook](../../../marketing/process/adding_screenshots_screen_recording.md) for guidelines about software. Expense the program that works for you when you need it.
 - [Product documentation guidelines](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/dev/documentation.md)
 - [Docs to Markdown add-on for Google Docs](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
 

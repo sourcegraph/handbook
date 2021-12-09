@@ -56,7 +56,7 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 - [Malo Marrec](../../../../../team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Rob Rhyne](../../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Chris Pine](../../../../../team/index.md#chris-pine) ([Engineering Manager](../../roles.md#engineering-manager))
+- [Chris Pine](../../../../../team/index.md#chris-pine) ([Engineering Manager](../../roles/index.md#engineering-manager))
   - [Thorsten Ball](../../../../../team/index.md#thorsten-ball)
   - [Adam Harvey](../../../../../team/index.md#adam-harvey)
   - [Erik Seliger](../../../../../team/index.md#erik-seliger)

@@ -44,7 +44,7 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, these are our [product design principles](../../product-engineering/product/design/product_design_principles.md).
+Additionally, these are our [product design principles](../../departments/product-engineering/product/design/product_design_principles.md).
 
 ## Assumptions
 
@@ -91,7 +91,7 @@ Coding itself is a technology, and we anticipate the technology adoption curve w
 
 Within this overall product strategy, individual product teams set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
-### [Product & Engineering](../../departments/engineering/strategy-goals/index.md)
+### [Product & Engineering](../../departments/product-engineering/strategy-goals/index.md)
 
 #### [Code Graph](code-graph/index.md)
 

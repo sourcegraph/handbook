@@ -15,7 +15,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Strategy
 
-[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../strategy-goals/strategy/enablement/delivery/index.md)
+[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../../strategy-goals/strategy/enablement/delivery/index.md)
 
 ## Responsibilities
 

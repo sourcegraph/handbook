@@ -82,7 +82,7 @@ However, managers can occasionally grant ad hoc bonuses (cash and equity are bot
 
 ## Compensation bands
 
-Internal compensation bands are maintained by the [People Ops](../../../people-ops/index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact).
+Internal compensation bands are maintained by the [People Ops](../../../departments/people-ops/index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact).
 
 - [Sales compensation bands](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
 - [Marketing compensation bands](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
