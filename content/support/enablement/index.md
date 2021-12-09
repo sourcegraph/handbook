@@ -14,7 +14,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 | Docker/docker-compose migration | Go here                                     |          |
 | GraphQL                         | Go here                                     |          |
 | Kubernetes deploy               | Go here                                     |          |
-| Kubernetes migration            | [Go here](support/enablement/k8-migration)  |          |
+| Kubernetes migration            | [Go here](k8-migration.md)                  |          |
 | Marketplace extensions          | Go here                                     |          |
 | Prometheus                      | Go here                                     |          |
 | Perforce                        | Go here                                     |          |
@@ -31,7 +31,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to deploy Sourcegraph to GCP with Kubernetes](gcp-sg-k8s.md)
 - [How to run a Kubernetes instance locally using minikube](minikube.md)
 - [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
-- [How to Migrate Sourcegraph from one Cluster to another](support/enablement/k8-migration)
+- [How to Migrate Sourcegraph from one Cluster to another](k8-migration.md)
 
 ## Videos
 
