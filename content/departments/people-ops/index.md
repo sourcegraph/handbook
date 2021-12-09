@@ -46,7 +46,7 @@ See how we manage project and updates [here](process/people-ops-project-manageme
 
 - [How we engage talent outside of the US](process/how-we-engage-talent-outside-the-us/index.md)
 - [How we structure compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
-  - [How to create an offer](../talent/hiring/index.md#making-an-offer)
+  - [How to create an offer](../talent/process/index.md#making-an-offer)
   - [Equity and stock options FAQ](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md)
   - [Compensation change approvals](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [Benefits and perks we offer](../../benefits-pay-perks/benefits-perks/index.md)
@@ -72,8 +72,8 @@ See how we manage project and updates [here](process/people-ops-project-manageme
 
 This section currently includes resources that were specifically created to help people managers navigate our different systems and processes. We will continue to add resources as we create them, including [training resources for our managers](../../strategy-goals/goals/2022_q3.md#people-ops) to help with developing their teams, coaching and feedback, and navigating challenges that come up in teams. More coming soon!
 
-- [Manager accounts guide](process/manager-guide.md)
+- [Manager accounts guide](tools/manager-guide.md)
 
 - [Compensation change approvals](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 
-  - [How to notify People Ops of an org and role change section](process/manager-guide.md##how-to-notify-people-ops-of-an-org-and-role-change)
+  - [How to notify People Ops of an org and role change section](tools/manager-guide.md##how-to-notify-people-ops-of-an-org-and-role-change)

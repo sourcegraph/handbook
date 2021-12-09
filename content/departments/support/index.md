@@ -10,7 +10,7 @@ Customer Support at Sourcegraph exists to resolve technical issues and answer te
 - Seeking/providing context so the why is clear
 - Demonstrating profound compassion for the people with whom our paths cross and the problems/questions we help them solve, meeting them where they are
 - Only asking our customers and teammates things we can’t do or answer ourselves
-- Persistently working toward and/or seeking resolution that works equally for our customers and us (see [an open letter about root cause](process/root-cause.md) for inspiration)
+- Persistently working toward and/or seeking resolution that works equally for our customers and us (see [an open letter about root cause](process/enablement/root-cause.md) for inspiration)
 - Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication)
 - Being flexible and open, maintaining a first principles thinking approach, and always confronting and growing past our biases
 - Outgrowing ourselves, the way we work, and continuously improving
@@ -135,18 +135,18 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Career roadmap](career-growth/career-roadmap.md)
 - [Team README](team/index.md)
 - [Team schedule](process/support-schedule.md)
-- [Organizational structure](process/support-org-structure.md)
-- [Team rituals](process/support-team-rituals.md)
+- [Organizational structure](team/support-org-structure.md)
+- [Team rituals](team-culture/index.md)
 - [How we plan our OKRs](process/quarterly-planning.md)
 - [Workflow](process/support-workflow.md)
 - [Prioritization](process/support-prioritization.md)
 - [Customer exceptions](process/customer-exceptions.md)
 - [Engaging other teams](process/engaging-other-teams.md)
-- [Serving as messenger during incidents](../../product-engineering/engineering/process/incidents/index.md)
+- [Serving as messenger during incidents](../product-engineering/engineering/process/incidents/index.md)
 - [Triaging](process/customer-support-triaging.md)
 - [Enablement](process/enablement/index.md)
 - [Tools](tools/index.md)
-- [Assigned application engineers](process/assigned-app-eng.md)
+- [Assigned application engineers](team/assigned-app-eng.md)
 - [Permanently deleting user data](process/permanently_deleting_user_data.md)
 - [Business continuity](process/business-continuity-plan.md)
 

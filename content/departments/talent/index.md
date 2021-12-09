@@ -2,13 +2,13 @@
 
 The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates.
 
-## [Resources for Candidates](./resources_for_candidates.md)
+## [Resources for Candidates](tools/resources_for_candidates.md)
 
 - [Careers page & open positions](tools/resources_for_candidates.md#how-to-apply)
 - [Company values](tools/resources_for_candidates.md#our-company-values)
 - [Perks, benefits & compensation](tools/resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](tools/resources_for_candidates.md)
-- [Types of interviews](tools/types_of_interviews.md)
+- [Types of interviews](process/types_of_interviews.md)
 - [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
 
 ## Resources for Hiring Managers
@@ -28,28 +28,28 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
 - [Recruiting tools](process/index.md#recruiting-tools)
-  - [Greenhouse, our ATS](process/guide_to_using_greenhouse.md)
-  - [BrightHire, our interview recording tool](process/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
-  - [Talent Wall, our pipeline tracking tool](process/guide_to_using_talentwall.md#guide-to-using-talentwall)
+  - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
 - [Using recruitment agencies](process/index.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
-## [Resources for Teammates](resources_for_teammates.md)
+## [Resources for Teammates](tools/resources_for_teammates.md)
 
 - [How to refer a candidate](process/index.md#making-a-referral)
 - [Types of interviews](process/types_of_interviews.md)
   - [Peer interview](process/types_of_interviews.md#peer-interview)
   - [Team collaboration interview](process/types_of_interviews.md#team-collaboration-interview)
   - [Values interview](process/evaluating_values.md)
-- [Interview training & best practices](process/interview_training.md)
+- [Interview training & best practices](tools/interview_training.md)
 - [Recruiting Tools](process/index.md#recruiting-tools)
-  - [BrightHire, our interview recording tool](process/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
 
-- [Recruiter onboarding resources](onboarding/recruiter_onboarding.md)
+- [Recruiter onboarding resources](onboarding/index.md)
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](tools/resources_for_recruiters.md)
 - [The interview process](process/interview_process.md)

@@ -6,7 +6,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 - [Business Operations (BizOps)](business_operations/index.md)
 - Data and Analytics
-  - [Data Operations](data_operations/index.md)
+  - [Data Operations](data-operations/index.md)
   - [Analytics](analytics/index.md)
 
 ## Members
@@ -26,7 +26,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [CustomerOps Tools Overview](tools/customer_ops_tools.md)
 - [Amplitude overview](tools/amplitude.md)
 - [A/B testing](process/ab-testing.md)
-- [Guide to user journey mapping](../../product-engineering/product/user_journey_maps.md)
+- [Guide to user journey mapping](../../departments/product-engineering/product/process/user_journey_maps.md)
 - [Guide to product-led growth](process/product_led_growth.md)
 - [Customer data policy](process/customer_data_policy.md)
 

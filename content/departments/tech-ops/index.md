@@ -6,7 +6,7 @@ As we scale our team and our customer list, we need help with all of the applica
 
 ## Goals
 
-- Streamline Sourcegraph’s internal system architecture. This includes the procurement, consolidation, implementation, and management of all internal software ([Systems List](systems_list.md))
+- Streamline Sourcegraph’s internal system architecture. This includes the procurement, consolidation, implementation, and management of all internal software ([Systems List](tools/index.md))
 - Provide global support for all team members who need assistance with hardware and application support
 - Keep Sourcegraph’s internal systems secure and compliant with legal requirements while maintaining transparency
 
@@ -19,16 +19,16 @@ As we scale our team and our customer list, we need help with all of the applica
 
 ### Current Major Initiatives
 
-- [Okta SSO Implementation](Okta.md)
-- [Internal Security](internal_security.md)
-- [Vendr](Vendr/index.md)
+- [Okta SSO Implementation](tools/Okta.md)
+- [Internal Security](process/internal_security.md)
+- [Vendr](tools/Vendr/index.md)
 
 ## Team
 
 ### Members
 
-- [Maureen Loughrey](../team/index.md), Tech Operations Engineer
-- [Nicky Van Maanen](../team/index.md#nicky-van-maanen), Tech Operations Manager
+- [Maureen Loughrey](../../team/index.md), Tech Operations Engineer
+- [Nicky Van Maanen](../../team/index.md#nicky-van-maanen), Tech Operations Manager
 
 ### Roles
 

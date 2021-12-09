@@ -13,8 +13,8 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Recording lead and customer emails, calls, and notes](tools/records.md)
 - [Using Salesforce](tools/salesforce.md)
 - [Sales Resources](tools/salesresources.md)
-- [Engaging with Legal](tools/saleslegal.md)
-- [Engaging with Security](tools/salessecurity.md)
+- [Engaging with Legal](process/saleslegal.md)
+- [Engaging with Security](process/salessecurity.md)
 
 ## Pipeline, data, and models
 
@@ -62,7 +62,7 @@ See [roles](roles/index.md) page.
 ### [Customer engineering](../support/index.md) (for customer support)
 
 - [How to request support (for customers)](../support/index.md#how-to-get-support-for-customers)
-- [Creating and maintaining license keys for customers](../ce/license_keys.md)
+- [Creating and maintaining license keys for customers](../ce/process/license_keys.md)
 
 ### [Team members who want to join calls](onboarding/joining_customer_calls.md)
 
