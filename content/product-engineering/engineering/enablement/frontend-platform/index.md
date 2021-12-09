@@ -18,6 +18,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 ## Responsibilities
 
 1. Frontend platform:
+
    - Creating and maintaining the Wildcard Component Library
    - Owning the Sourcegraph web tech stack, tools, and patterns
    - Providing documentation and training material that enables product teams and new hires to learn how to do web development at Sourcegraph quickly
@@ -69,13 +70,13 @@ We plan and track our day-to-day work with [Github projects](https://github.com/
 - The [Current work](https://github.com/orgs/sourcegraph/projects/222/views/1) view reflects work that is actively in progress.
   - By EOD Monday (in advance of our Tuesday sync), devs should update issues and add assign a status of _On deck_ to the work they plan to pick up.
   - Once work on an issue has begun, it should have a status of _In progress_.
-  - Work that requires input should have a status of _Needs input_ and the appropriate label and asignees. For example, an issue that needs design input should be assigned to [Alicja Suska](../../../../team/index.md#alicja-suska) and given the `needs-design` label. Other relevant labels: 
+  - Work that requires input should have a status of _Needs input_ and the appropriate label and asignees. For example, an issue that needs design input should be assigned to [Alicja Suska](../../../../team/index.md#alicja-suska) and given the `needs-design` label. Other relevant labels:
     - `needs-discussion`: if the issue should be discussed at the next Frontend Platform sync
     - `needs-more-info`: if it's not clear yet what needs to be done
     - `needs-prioritization`: if the issue is part of an active prioritization conversation, to be decided on soon
     - `awaiting-reply`: if we're waiting on an answer to a specific question on the ticket
-  - Work that is blocked because it depends on external work should have a status of _Waiting_.    
-- The [All issues by target](https://github.com/orgs/sourcegraph/projects/222/views/22) view represents a higher level view of the work we have planned (or not planned). 
+  - Work that is blocked because it depends on external work should have a status of _Waiting_.
+- The [All issues by target](https://github.com/orgs/sourcegraph/projects/222/views/22) view represents a higher level view of the work we have planned (or not planned).
 
 ### Triage
 
