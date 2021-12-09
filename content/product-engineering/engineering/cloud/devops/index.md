@@ -33,6 +33,7 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [How to make configuration changes to sourcegraph.com](./update_sg_website_config.md)
 - [Onboarding](onboarding.md)
 - [How to add TXT Records](txt_dns.md)
+- [Sourcegraph Cloud Continuous Delivery](./continuous_delivery.md)
 
 ## How to contact the team and ask for help
 

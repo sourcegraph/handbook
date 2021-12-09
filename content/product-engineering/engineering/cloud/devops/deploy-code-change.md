@@ -4,7 +4,10 @@ _Developers should rarely need to perform these steps since
 we have tooling to ensure that code change merged to **main**
 are automatically deployed_
 
-These docs are most relevant during a **codefreeze** or if the continuos delivery
+To learn more about the continuous delivery process for Sourcegraph
+Cloud, visit: [Sourcegraph Cloud Continuous Delivery](./continuous_delivery.md).
+
+These docs are most relevant during a **codefreeze** or if the continuous delivery
 pipeline is not working.
 
 - [Deploying a code change to Sourcegraph Cloud](#deploying-a-code-change-to-sourcegraph-cloud)
