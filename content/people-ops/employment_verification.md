@@ -1,9 +1,12 @@
 # Employment verification
 
-If you need your employment at Sourcegraph verified for any reason (for example, while applying for a mortgage or another type of loan), you can generate a letter yourself or, in cases where verification needs to come directly from Sourcegraph, can direct the requestor to our [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/). To generate a letter, please follow the steps below:
+If you need your employment at Sourcegraph verified for any reason (such as for home loans, mortgages, visa sponsorship, or travel sponsorship), you can use [Truework](https://www.truework.com/). Truework is a platform that we’ve integrated with our HRIS system, [BambooHR](https://sourcegraph.bamboohr.com/login.php?r=%2Fhome%2F), to provide quick and easy employment verification.
+
+Truework allows you to [generate a letter yourself](https://app.truework.com/letter) or, in cases where verification needs to come directly from Sourcegraph, allows requestors to do so via our [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/). 
+
+To generate a letter, please follow the steps below:
 
 - **Self-serve:**
-
   - Go to https://app.truework.com/letter
   - Enter “Sourcegraph” for Employer Name
   - Enter your Sourcegraph email address for Work Email
@@ -12,7 +15,7 @@ If you need your employment at Sourcegraph verified for any reason (for example,
   - Your letter is ready!
 
 - **Third party requests:**
-  - Direct the requestor to truework.com (or to Sourgraph's landing page)
+  - Direct the requestor to [Truework.com](truework.com) (or to Sourgraph's [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/))
   - Click “Start a Verification” (or "Verify a Sourcegraph employee")
   - The requestor will create a Truework account
   - The requestor will enter your information and upload relevant documentation to request a report
@@ -21,3 +24,5 @@ If you need your employment at Sourcegraph verified for any reason (for example,
     - you will receive an email from Truework at your Sourcegraph email address to review the report and comment
 
 If a phone call is required, please share our company phone number, (650) 273-5591, and notify people-ops@sourcegraph.com that you will need a verbal verification of employment.
+
+If you have any questions about Truework, you can reach out to the People Ops team at the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel or people-ops@sourcegraph.com.
