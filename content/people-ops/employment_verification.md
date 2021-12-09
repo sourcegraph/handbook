@@ -12,11 +12,13 @@ If you need your employment at Sourcegraph verified for any reason (for example,
   - Your letter is ready!
 
 - **Third party requests:**
-  - Direct the requestor to our [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/)
-  - Click “Start a Verification”
+  - Direct the requestor to truework.com (or to Sourgraph's landing page)
+  - Click “Start a Verification” (or "Verify a Sourcegraph employee")
   - The requestor will create a Truework account
-  - The requestor will enter your information and upload relevant documentation to request a letter
-  - You will receive an email from Truework to review the request and consent
-  - After you consent the requestor will receive a letter verifying your employment
+  - The requestor will enter your information and upload relevant documentation to request a report
+  - One the request is complete,
+    - the requestor will receive a notification that the letter is ready
+    - you will receive an email from Truework at your Sourcegraph email address to review the report and comment
+
 
 If a phone call is required, please share our company phone number, (650) 273-5591, and notify people-ops@sourcegraph.com that you will need a verbal verification of employment.
