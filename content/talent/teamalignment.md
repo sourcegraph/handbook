@@ -1,6 +1,5 @@
 ## **Search Recruiting Team Alignment by Department**
 
-
 <table>
   <tr>
    <td><strong><span style="text-decoration:underline;">Department</span></strong>
