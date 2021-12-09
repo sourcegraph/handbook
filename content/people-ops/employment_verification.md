@@ -20,5 +20,4 @@ If you need your employment at Sourcegraph verified for any reason (for example,
     - the requestor will receive a notification that the letter is ready
     - you will receive an email from Truework at your Sourcegraph email address to review the report and comment
 
-
 If a phone call is required, please share our company phone number, (650) 273-5591, and notify people-ops@sourcegraph.com that you will need a verbal verification of employment.
