@@ -6,20 +6,20 @@ The following is available to help us honor our [ethos and guiding principles](.
 
 This table correlates to our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit#gid=0) and offers enablement materials meant to help folks reach sentiment level 3 for each area.
 
-| Competency                      | Crash course            | Hands-on |
-| ------------------------------- | ----------------------- | -------- |
-| CodeIntel                       | Go here                 |          |
-| Code insights                   | Go here                 |          |
-| Docker/docker-compose deploy    | Go here                 |          |
-| Docker/docker-compose migration | Go here                 |          |
-| GraphQL                         | Go here                 |          |
-| Kubernetes deploy               | Go here                 |          |
-| Kubernetes migration            | [Go here](k8_migration) |          |
-| Marketplace extensions          | Go here                 |          |
-| Prometheus                      | Go here                 |          |
-| Perforce                        | Go here                 |          |
-| RDS databases                   | Go here                 |          |
-| Scaling                         | Go here                 |          |
+| Competency                      | Crash course                                | Hands-on |
+| ------------------------------- | -----------------------                     | -------- |
+| CodeIntel                       | Go here                                     |          |
+| Code insights                   | Go here                                     |          |
+| Docker/docker-compose deploy    | Go here                                     |          |
+| Docker/docker-compose migration | Go here                                     |          |
+| GraphQL                         | Go here                                     |          |
+| Kubernetes deploy               | Go here                                     |          |
+| Kubernetes migration            | [Go here](support/enablement/k8-migration)  |          |
+| Marketplace extensions          | Go here                                     |          |
+| Prometheus                      | Go here                                     |          |
+| Perforce                        | Go here                                     |          |
+| RDS databases                   | Go here                                     |          |
+| Scaling                         | Go here                                     |          |
 
 ## Docs
 
@@ -31,7 +31,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to deploy Sourcegraph to GCP with Kubernetes](gcp-sg-k8s.md)
 - [How to run a Kubernetes instance locally using minikube](minikube.md)
 - [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
-- [How to Migrate Sourcegraph from one Cluster to another](k8-migration)
+- [How to Migrate Sourcegraph from one Cluster to another](support/enablement/k8-migration)
 
 ## Videos
 
