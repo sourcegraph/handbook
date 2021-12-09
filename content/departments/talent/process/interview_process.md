@@ -15,7 +15,7 @@ Current employees can refer a candidate in Greenhouse [here](https://tracking.ci
 
 ## Preparing for an interview
 
-**Training:** all interviewers must review [interview training](./interview_training.md) before participating in any interviews.
+**Training:** all interviewers must review [interview training](../tools/interview_training.md) before participating in any interviews.
 
 - [How to lead a legal interview](../tools/interview_training.md#3-leading-a-legal-interview).
 - [How to provide a positive candidate experience](../tools/interview_training.md#candidate-experience).
@@ -35,7 +35,7 @@ Current employees can refer a candidate in Greenhouse [here](https://tracking.ci
 
 ### **The recruiter screen**
 
-The first step of an interview process for a candidate is the Recruiter Screen. All Recruiters must have completed all stages of [Recruiter Onboarding](../onboarding/recruiter_onboarding.md) before interviewing candidates.
+The first step of an interview process for a candidate is the Recruiter Screen. All Recruiters must have completed all stages of [Recruiter Onboarding](../onboarding/index.md) before interviewing candidates.
 
 The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
@@ -49,7 +49,7 @@ The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Mana
 
 ### The hiring manager screen stage
 
-If the Hiring Manager chooses to advance a candidate following the Hiring Manager screen, the Recruiting Coordinator schedules additional interviews in the interview process (below). All interviewers must review the [interview training](interview_training.md#2-structured-interviewing) and Guide to Using Brighthire before conducting interviews.
+If the Hiring Manager chooses to advance a candidate following the Hiring Manager screen, the Recruiting Coordinator schedules additional interviews in the interview process (below). All interviewers must review the [interview training](../tools/interview_training.md#2-structured-interviewing) and Guide to Using Brighthire before conducting interviews.
 
 - COMING SOON: link to instructions on how we schedule interviews
 - Interview process and sample interview questions for each department [here](interview_process.md)

@@ -6,17 +6,17 @@ Most questions include an example answer and explanation. The explanation is for
 
 > like this.
 
-## [What is Sourcegraph?](../marketing/messaging.md#sourcegraph-value-proposition)
+## [What is Sourcegraph?](../../marketing/process/messaging.md#sourcegraph-value-proposition)
 
-See "[What is Sourcegraph?](../marketing/messaging.md#sourcegraph-value-proposition)".
+See "[What is Sourcegraph?](../../marketing/process/messaging.md#sourcegraph-value-proposition)".
 
-## [What problems does Sourcegraph solve?](../marketing/messaging.md#what-problems-does-sourcegraph-solve)
+## [What problems does Sourcegraph solve?](../../marketing/process/messaging.md#what-problems-does-sourcegraph-solve)
 
-See "[What problems does Sourcegraph solve?](../marketing/messaging.md#what-problems-does-sourcegraph-solve)".
+See "[What problems does Sourcegraph solve?](../../marketing/process/messaging.md#what-problems-does-sourcegraph-solve)".
 
 ## How is Sourcegraph different from the built-in code search of our code host?
 
-This somewhat depends on which code host they're using. Look up the [product comparison with their code host](../marketing/messaging.md#how-is-sourcegraph-different) for details.
+This somewhat depends on which code host they're using. Look up the [product comparison with their code host](../../marketing/process/messaging.md#how-is-sourcegraph-different) for details.
 
 Generally, though, code hosts offer very basic code search functionality that isn't _actually_ very useful for developers. If someone asks this question, they probably don't use code search very frequently, because if they did use their code host's code search, they would be familiar with its shortcomings. It is very, very rare that someone asking this question is an avid user of their code host's code search and wants to know the feature-by-feature comparison.
 
@@ -75,7 +75,7 @@ Usually this question means the person has the following concerns:
 
 Here is an answer that addresses all of these concerns. You can tailor it to address the person's specific concerns.
 
-> [Sourcegraph is an application](../marketing/messaging.md#sourcegraph-is-an-a-application) that developers use primarily from their web browser for universal code search. It integrates with your existing repositories, code hosts, code review tools, editors, and other developer tools to give your developers a single place to discover and understand code and make large-scale changes. You can [set up Sourcegraph](https://docs.sourcegraph.com/#quickstart) and start seeing value in 5 minutes.
+> [Sourcegraph is an application](../../marketing/process/messaging.md#sourcegraph-is-an-a-application) that developers use primarily from their web browser for universal code search. It integrates with your existing repositories, code hosts, code review tools, editors, and other developer tools to give your developers a single place to discover and understand code and make large-scale changes. You can [set up Sourcegraph](https://docs.sourcegraph.com/#quickstart) and start seeing value in 5 minutes.
 
 ## What's the difference between Sourcegraph and Elasticsearch?
 

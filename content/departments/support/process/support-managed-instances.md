@@ -10,7 +10,7 @@ If you are an application engineer being trained to work with managed instances,
 
 ## Required access
 
-To fully access managed instances, follow these [docs](../product-engineering/engineering/enablement/delivery/managed/index.md#access)
+To fully access managed instances, follow these [docs](../../product-engineering/engineering/enablement/delivery/managed/index.md#access)
 
 ## Set up a tutorial session
 

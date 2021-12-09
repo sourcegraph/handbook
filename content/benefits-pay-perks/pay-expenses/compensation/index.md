@@ -10,13 +10,23 @@ We use third-party market data as a key input for each role and level within tha
 
 ## Resources
 
-- [Compensation philosophy](#philosophy)
-- [Compensation bands](#compensation-bands)
-- [Employment versus contracting: compensation differences](#employment-versus-contracting-compensation-differences)
-- [How to create an offer](../../../talent/hiring/index.md#making-an-offer)
-- [Equity and stock options FAQ](equity-faq.md)
-- [How to notify People Ops of compensation changes](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform)
-- [Making an offer](../../../talent/hiring/index.md#making-an-offer)
+- [Compensation](#compensation)
+  - [Resources](#resources)
+  - [Components of compensation](#components-of-compensation)
+    - [Cash (salary and commission)](#cash-salary-and-commission)
+    - [Equity](#equity)
+    - [Benefits and perks](#benefits-and-perks)
+  - [Philosophy](#philosophy)
+    - [Location-independent](#location-independent)
+    - [Consistency](#consistency)
+    - [Negotiating should not be needed](#negotiating-should-not-be-needed)
+    - [Commissions and bonuses](#commissions-and-bonuses)
+  - [Compensation bands](#compensation-bands)
+    - [How bands are created](#how-bands-are-created)
+    - [How bands are changed](#how-bands-are-changed)
+    - [Making out-of-band offers](#making-out-of-band-offers)
+  - [Employment versus contracting: compensation differences](#employment-versus-contracting-compensation-differences)
+  - [Logistics and timing](#logistics-and-timing)
 
 ## Components of compensation
 
@@ -52,9 +62,9 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 
 ### Consistency
 
-We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../people-ops/index.md) before making them.
+We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../departments/people-ops/index.md) before making them.
 
-Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../../../people-ops/impact-reviews.md) process.
+Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../../../departments/people-ops/process/impact-reviews.md) process.
 
 ### Negotiating should not be needed
 

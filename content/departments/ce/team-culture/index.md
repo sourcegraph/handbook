@@ -48,7 +48,7 @@ We work alongside just about every team at Sourcegraph. Here is how we add value
 
 - **How CE adds value to product:** CEs provide a data-driven view into customer concerns/questions, ad-hoc feedback shared whilst helping customers, and helps update documentation so customers (and we) have a single source of truth.
 - **How product adds value to CE:** Product educates CE on new features and helps clarify expected behavior questions.
-- **Collaboration overview:** CEs provide Product with feedback and feature requests; Product seeks inputs from customer through CEs. [More information on working with product](working-with-product.md).
+- **Collaboration overview:** CEs provide Product with feedback and feature requests; Product seeks inputs from customer through CEs. [More information on working with product](../process/working-with-product.md).
 
 ### Marketing
 

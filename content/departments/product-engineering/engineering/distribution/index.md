@@ -22,7 +22,7 @@ While these pages still remian (due to a lot of useful resources that have yet t
 
 ### Resources
 
-- [Observability at Sourcegraph](../observability/index.md)
+- [Observability at Sourcegraph](../tools/observability/index.md)
 - [Observability developer guide](https://docs.sourcegraph.com/dev/background-information/observability)
 - [Managed instances](../enablement/delivery/managed/index.md)
 - [Collecting and inspecting metrics dumps](metrics_dumps.md)

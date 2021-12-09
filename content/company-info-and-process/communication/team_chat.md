@@ -113,8 +113,8 @@ If teams require additional channels they should follow the convention of prefix
 
 ### Go-to-market
 
-- #marketing - [Marketing](../../marketing/index.md)
-- #sales - [Sales](../../sales/index.md)
+- #marketing - [Marketing](../../departments/marketing/index.md)
+- #sales - [Sales](../../departments/sales/index.md)
 - #customer-updates - Updates on the status of customers
 - #ce - Helping devs use Sourcegraph effectively
 
@@ -132,7 +132,7 @@ All engineers should join the following channels (feel free to adjust your notif
 - #bots-production - Kubernetes bot notifications.
 - #alerts-external - External system notifications which might impact our deployments.
 
-You should also join channels mentioned in [your team's documentation](../../product-engineering/engineering/index.md#teams)
+You should also join channels mentioned in [your team's documentation](../../departments/product-engineering/engineering/index.md#teams)
 
 ### Social
 

@@ -21,7 +21,7 @@ Welcome to Sourcegraph!
 
 - Read our [homepage](https://about.sourcegraph.com)
 - Read our [customer case studies](https://about.sourcegraph.com/customers)
-- Read our [customer personas](../../marketing/personas.md)
+- Read our [customer personas](../../marketing/process/personas.md)
 - Review our sales content and collateral
   - [Sales content](https://drive.google.com/drive/folders/14guSNICPX5bHxUxXIeb1web6MN8z7FA4)
   - [Sales templates](https://drive.google.com/drive/u/0/folders/1eBfRzDDM-fonChy5kumN5m1aS-aZxlYM)

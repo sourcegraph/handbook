@@ -342,7 +342,7 @@ The agenda for the meeting will go as follows:
 Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes - whichever you feel is most appropriate.
 
 Prompt 3 additional notes:
-The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../ce/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../ce/team-culture.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
+The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../ce/process/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
 
 ## Engineering
 
@@ -547,7 +547,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 #### Customer support collaboration
 
-- Interviewer: [Virginia Ulrich](../../support/bios/virginia-readme.md), Head of CS
+- Interviewer: [Virginia Ulrich](../../support/team/virginia-readme.md), Head of CS
 - Duration: 30 mins
 - Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross functional teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
 
@@ -595,7 +595,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 ## Sales
 
-Read more about our sales interview processes [here](../../sales/interviews/index.md).
+Read more about our sales interview processes [here](../../sales/hiring/index.md).
 
 ### **Sales Development Representative:**
 

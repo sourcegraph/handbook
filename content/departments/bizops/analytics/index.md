@@ -5,7 +5,7 @@ This page describes Sourcegraph's analytics function, our data sources, and how 
 - [Data sources](#data-sources)
 - [Data tools/tech stack](#data-tools)
 - [Using Looker](#using-looker)
-- [Amplitude](amplitude.md)
+- [Amplitude](../tools/amplitude.md)
 
 ## Data sources
 
@@ -31,7 +31,7 @@ We have [written policies about how we handle customer information](../process/c
 - Google Cloud Platform: BigQuery is our data warehouse and the database Looker runs on top of
 - Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1LIfVyhjhh_mpc0SNOFvpNfN2h4CmGQmI) that Looker queries (by way of BigQuery).
 - BizOps builds ad-hoc tools to analyze data for various reasons. The projects are in the [Google Drive Analytics folder](https://drive.google.com/drive/folders/1mtrHKsB2Kv0IGQ829zbcRGDSYHQpzkfd) and the source code is available in the [analytics repo](https://github.com/sourcegraph/analytics).
-- For further explanation on how we use these tools, see the [data workflows](process/data_workflows.md) page
+- For further explanation on how we use these tools, see the [data workflows](../process/data_workflows.md) page
 
 ### Data pipelines
 
@@ -51,7 +51,7 @@ Most "data pipelines" are SQL queries that turn raw ping data into clean dataset
 
 ## How to
 
-- Add metrics on [Sourcegraph Cloud](./amplitude.md#adding-events-to-amplitude)?
+- Add metrics on [Sourcegraph Cloud](../tools/amplitude.md#adding-events-to-amplitude)?
 - Add metrics on [Sourcegraph on-prem](https://docs.sourcegraph.com/dev/background-information/adding_ping_data)?
 
 ### Quick links

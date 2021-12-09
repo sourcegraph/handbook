@@ -51,7 +51,7 @@ We have defined areas of ownership for the teams involved with DataOps.
 This diagram provides a high-level overview of the tools we use:
 ![image](https://user-images.githubusercontent.com/16265452/122541307-11d9ff00-d05c-11eb-8799-646daeb6868a.png)
 
-For more info on our data stack tools, see the [analytics page](a../nalytics/index.md).
+For more info on our data stack tools, see the [analytics page](../analytics/index.md).
 
 ### Pings information
 

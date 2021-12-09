@@ -37,7 +37,7 @@ We welcome your feedback and suggestions via any of the channels above.
 
 ## Contract review and signature authority policy
 
-To direct your contracts to the right team or teammate to review, approve, and sign, click [here](ContractReviewandSignatureAuthorityPolicy.md).
+To direct your contracts to the right team or teammate to review, approve, and sign, click [here](process/ContractReviewandSignatureAuthorityPolicy.md).
 
 ## Legal training
 

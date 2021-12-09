@@ -6,7 +6,7 @@ This page (WIP) provides new and existing CEs alike important trainings and demo
 
 - [Standard training sessions](https://docs.google.com/document/d/1nFePrSIcIakMmjOEY01vNc6VRe7WiJ0iOWygeZlbpYw/edit) (Sourcegraph 101, 102, office hours, etc.)
 - [Comprehensive demo flow](https://docs.google.com/document/d/1q903Yl-vkOqkQ4e3JRiw-u8x8aJ50iTezllzcj_MJWc/edit)
-- [Demo instances](demo_instances.md)
+- [Demo instances](../tools/demo_instances.md)
 - [Examples of committed secrets/keys/hardcoded IP addresses/emails](https://github.com/sourcegraph-testing/ce-code-smells/)
 - [Demo Repository](https://docs.google.com/document/d/1BVq3GPMVZih9NKa4UyVAQcsyThi4ye6m4CCQuwZAb80/edit?usp=sharing) (Repository of example searches to use in demos)
 - [Guide to demoing the Batch Changes feature](https://drive.google.com/drive/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn) (video recording)
@@ -18,4 +18,4 @@ This page (WIP) provides new and existing CEs alike important trainings and demo
 - [Creating and maintaining license keys for customers](../process/license_keys.md)
 - [Moving off the insiders build](../process/leaving-insiders-build.md)
 - [Enterprise vs. Open Source Sourcegraph](../onboarding/enterprise-vs-oss.md)
-- [Deployment Methods](../onboardingdeployment-methods.md)
+- [Deployment Methods](deployment-methods.md)

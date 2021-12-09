@@ -49,7 +49,7 @@ The initial conversation(s) with a customer can vary in length and scope, but al
 ### Resources
 
 - [Customer discovery playbook](#customer-discovery)
-- [Demo education resources](./education.md#trainings-and-demos)
+- [Demo education resources](../onboarding/education.md#trainings-and-demos)
 
 ## Technical Design
 

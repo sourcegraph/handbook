@@ -35,7 +35,7 @@ Playing an active role in broadening our reach in the community, building authen
 
 ## Code of Conduct
 
-[Code of Conduct](../../../company-info-and-process/communication/code_of_conduct.mdcommunity-code-of-conduct.md)
+[Code of Conduct](../../../company-info-and-process/communication/code_of_conduct.md)
 
 ## Community calendars
 

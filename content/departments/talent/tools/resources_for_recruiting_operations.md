@@ -1,6 +1,6 @@
 # Resources for Recruiting Operations
 
-The Talent team at Sourcegraph is on a mission to create an incredible candidate experience, hire the best talent, and uphold our [company values](../company-info-and-process/values/index.md). This wouldn’t be possible without our Recruiting Operations Specialists! This page will explain the Recruiting Operations Specialist role and outline the best practices for coordinating interviews.
+The Talent team at Sourcegraph is on a mission to create an incredible candidate experience, hire the best talent, and uphold our [company values](../../../company-info-and-process/values/index.md). This wouldn’t be possible without our Recruiting Operations Specialists! This page will explain the Recruiting Operations Specialist role and outline the best practices for coordinating interviews.
 
 ## Who We Work With:
 
@@ -154,4 +154,4 @@ Recruiting Operations Specialists follow the steps below to send weekly candidat
   - [AngelList](https://angel.co/company/sourcegraph)
   - Hacker News
   - Women Who Code
-    - Please see the full list of job boards where we post our open positions [here](./hiring/job_boards.md)!
+    - Please see the full list of job boards where we post our open positions [here](../process/job_boards.md)!

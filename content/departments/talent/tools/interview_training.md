@@ -34,7 +34,7 @@ All of our questions are written in a behavioral-based, open-ended format, and *
 
 All teammates at Sourcegraph leverage a recording tool called Brighthire to standardize our process and reduce bias. [This video](https://www.loom.com/share/8be5ba749fc045faafd577998bdeabf7) explains the benefits of BrightHire. We believe that candidates should be assessed based on their merits, not our memories. BrightHire allows us to recall key details, revise initial impressions, and replace implicit bias with explicit evidence. BrightHire rides along in your phone and Zoom interviews with an interactive notepad. All you need is the Chrome extension and Zoom and you’re all set. It allows us to pull all of those structured questions that our hiring manager created right into your Zoom meeting.
 
-Please see BrightHire frequently asked questions [here](../process/guide_to_using_brighthire.md).
+Please see BrightHire frequently asked questions [here](guide_to_using_brighthire.md).
 
 ![Image listing Brighthire features such as recording, transcribing and analyzing interviews, guiding interviewers, capturing highlights, and automating coaching](https://storage.googleapis.com/sourcegraph-assets/handbook/InterviewBasics/Sourcegraph%20Interview%20Training%20-%20Q2%20FY22%20%288%29.png)
 

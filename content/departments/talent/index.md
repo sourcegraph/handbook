@@ -20,7 +20,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [Creating an interview plan](process/opening_a_new_job.md)
   - [Types of interviews](process/types_of_interviews.md)
 - [The interview process](process/interview_process.md)
-  - [Interview training & best practices](process/interview_training.md)
+  - [Interview training & best practices](tools/interview_training.md)
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
   - [Scheduling an interview](process/interview_process.md)
 - [Extending an offer](process/extending_an_offer.md)

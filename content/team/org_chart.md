@@ -10,7 +10,7 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ## [Engineering](../departments/product-engineering/engineering/team/index.md#current-organization)
 
-## [Product](..departments//product-engineering/product/team/index.md#current-team)
+## [Product](..departments/product-engineering/product/team/index.md#current-team)
 
 ## [Customer Support](../departments/support/index.md#the-team)
 
@@ -34,11 +34,11 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ### [Sales team](../departments/sales/index.md#members)
 
-### [SDR team](../departments/sales/sdrteam.md#members)
+### [SDR team](../departments/sales/sdrteam/index.md#members)
 
 ### [Sales strategy & operations](../departments/sales/sales-ops/index.md#members)
 
-### [Value Engineering & Sales Enablement](../departments/sales/sales-enablement.md)
+### [Value Engineering & Sales Enablement](../departments/sales/sales-enablement/index.md)
 
 ## Other teams: TODO
 

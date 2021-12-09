@@ -33,7 +33,7 @@ Step 2: the **Recruiter** opens the job in Greenhouse:
 - Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit) directly into each interview stage.
 - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md).
 
-Step 3: the **Recruiter** posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](../tools/job_boards.md).
+Step 3: the **Recruiter** posts the job to our [Careers page](https://boards.greenhouse.io/sourcegraph91). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](job_boards.md).
 
 Step 4: the **Recruiter** creates a Slack channel with the Interview Team and starts the [Slack Kick-Off Process](../tools/resources_for_recruiters.md#slack-kick-off-process).
 

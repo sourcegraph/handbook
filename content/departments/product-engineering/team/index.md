@@ -12,14 +12,14 @@
   - [Nick Snyder](../../../team/index.md#nick-snyder), [VP Engineering](../engineering/roles/index.md#vp-engineering)
     - [Bill Creager](../../../team/index.md#bill-creager), [Director of Engineering](../engineering/roles/index.md#director-of-engineering), Cloud
     - [Jean du Plessis](../../../team/index.md#jean-du-plessis), [Director of Engineering](../engineering/roles/index.md#engineering-manager), Enablement
-    - [Yink Teo](../../../team/index.md#yink-teo), [Director of Engineering](../engineering/roles/index.md#director-of-engineering), [Code Graph](engineering/code-graph/index.md)
+    - [Yink Teo](../../../team/index.md#yink-teo), [Director of Engineering](../engineering/roles/index.md#director-of-engineering), [Code Graph](../engineering/code-graph/index.md)
     - [Michal Sennett](../../../team/index.md#michal-sennett), Strategic Project Manager
   - [Virginia Ulrich](../../../team/index.md#virginia-ulrich), Head of Customer Support
 
 Full org chart:
 
-- [Product org chart](product/team/index.md)
-- [Engineering org chart](engineering/team/index.md)
+- [Product org chart](../product/team/index.md)
+- [Engineering org chart](../engineering/team/index.md)
 
 ## CTO team sync
 

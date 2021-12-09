@@ -22,7 +22,7 @@ This is the comment that [Nick](../../../team/index.md#nick-snyder) posts to the
 >
 > [Our mission](../../../strategy-goals/strategy/index.md)
 >
-> [Our values](../../../company-info-and-process/about-sourcegraph/values/index.md)
+> [Our values](../../../company-info-and-process/values/index.md)
 >
 > Our customers: https://about.sourcegraph.com/customers/
 >

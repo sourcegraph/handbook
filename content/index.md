@@ -70,7 +70,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Demand Gen](departments/marketing/demand-gen/index.md)
 - [Developer Education](departments/marketing/education/index.md)
 - [Brand](departments/marketing/brand/index.md)
-- [Social Media](departments/marketing/socialmedia.md)
+- [Social Media](departments/marketing/social-media/index.md)
 - [Community Relations](departments/marketing/community_relations/index.md)
 
 ### [Sales](departments/sales/index.md)
@@ -90,7 +90,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [How to work with us](departments/bizops/index.md#how-to-work-with-us)
 - [Analytics issue tracker](https://github.com/sourcegraph/analytics/issues)
 - Teams
-  - [Data operations](departments/bizops/data_operations/index.md)
+  - [Data operations](departments/bizops/data-operations/index.md)
   - [Analytics](departments/bizops/analytics/index.md)
 
 ### [Finance & Accounting](departments/finance/index.md)
@@ -103,4 +103,4 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Tech Ops](departments/tech-ops/index.md)
 
 - [Internal security](departments/tech-ops/process/internal_security.md)
-- [Single sign on (Okta)](departments/tech-ops/Okta.md)
+- [Single sign on (Okta)](departments/tech-ops/tools/Okta.md)

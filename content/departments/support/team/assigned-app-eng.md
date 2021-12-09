@@ -4,7 +4,7 @@ There are certain situations where it just makes sense to assign an application 
 
 If you feel a customer should have an assigned application engineer, post in #customer-support. The CS leadership team will coordinate with the CE and Sales leadership team to vet the request. In order to provide optimal support for all customers, we can only have ~15 customers (post- and pre- / long-term and temporary) with an assigned application engineer.
 
-Customers selected for application engineer assignment (whether post-sales strategic customers or pre-sales customers) and those assigned are listed in [our customer exceptions page](./customer-exceptions.md).
+Customers selected for application engineer assignment (whether post-sales strategic customers or pre-sales customers) and those assigned are listed in [our customer exceptions page](../process/customer-exceptions.md).
 
 All customers with an assigned application engineer (whether internal in nature only or communicated to the customer), benefit from the following:
 
