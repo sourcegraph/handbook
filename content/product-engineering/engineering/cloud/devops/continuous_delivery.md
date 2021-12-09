@@ -1,4 +1,4 @@
-# Sourcegraph Cloud Continuous Delivery
+# Sourcegraph Cloud continuous delivery
 
 This is a brief overview of the CD process for Sourcegraph Cloud (sourcegraph.com).
 
