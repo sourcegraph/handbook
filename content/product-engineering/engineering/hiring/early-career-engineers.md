@@ -8,7 +8,7 @@ To combat the perception that the only viable solution for a fast-growing startu
 
 An early-career engineer is anyone who has no prior or limited (loosely defined as less than 12-24 months) professional work experience in an engineering-focused role. An early-career engineer could be someone who recently entered or reentered the job market, just finished their studies, or is transitioning into a new career.
 
-The initial expectations of a fully-onboarded early-career engineer are [defined in the IC1 career level](https://docs.google.com/document/d/1Zb7zCZUFkxP6vS_H5Y24wPK7MajA51DqV6gpsvDMMnU/edit#). In addition to these, we also expect all engineers to exhibit [our values](../../../company/values.md).
+The initial expectations of a fully-onboarded early-career engineer are [defined in the IC1 career level](https://docs.google.com/document/d/1Zb7zCZUFkxP6vS_H5Y24wPK7MajA51DqV6gpsvDMMnU/edit#). In addition to these, we also expect all engineers to exhibit [our values](../../../company-info-and-process/values/index.md).
 
 ## When should a team consider an early-career engineer?
 
@@ -255,7 +255,7 @@ Focus on creating an environment where everyone feels comfortable sharing their 
 
 #### Feedback
 
-Provide constant constructive feedback. Use the [Onboarding Feedback Milestones](../../../people-ops/onboarding/onboarding-feedback-milestones.md) as part of the process, but open a two-way communication channel. You need to share what's on track and what needs attention on their part, and they need to feel safe asking for help and letting you know what you can do 10% better.
+Provide constant constructive feedback. Use the [Onboarding Feedback Milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md) as part of the process, but open a two-way communication channel. You need to share what's on track and what needs attention on their part, and they need to feel safe asking for help and letting you know what you can do 10% better.
 
 Keep in mind that feedback is very powerful, and we should think twice before giving it. Sometimes you need to ask yourself if the feedback you are offering is about your preference or a mentorship moment. (e.g., you might love the Oxford comma. Technically, it's not required, so giving that feedback would be more about your personal preference).
 

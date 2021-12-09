@@ -40,6 +40,7 @@ This continuity means we give customers consistent and high-quality service from
   - [Ajay Sridhar](../team/index.md#ajay-sridhar)
   - [Elzanne Wentzel](../team/index.md#elzanne-wentzel)
   - [Simon Waterer](../team/index.md#simon-waterer)
+  - [Isuru Fonseka](../team/index.md#isuru-fonseka)
   - [FQ3 CE (Singapore)](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - Americas - US West
   - [Emily Chapman](../team/index.md#emily-chapman)

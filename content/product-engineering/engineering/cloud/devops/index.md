@@ -23,12 +23,14 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 
 - [Jennifer Mitchell](../../../../team/index.md#jennifer-mitchell) - Engineering Manager
   - [Dax McDonald](../../../../team/index.md#dax-mcdonald)
-  - [Daniel Dides]
+  - [Daniel Dides](../../../../team/index.md#daniel-dides)
   - [Filip Haftek](../../../../team/index.md#filip-haftek)
 
 ## Content
 
-- [How to make configuration changes to sourcegraph.com](./update_sourcegraph_website.md)
+- [How to deploy a code change to the Cloud](./deploy-code-change.md)
+- [Large-release-(rollout-release)-process](<./deploy-code-change.md#Large-releases-to-Cloud-(Rollup-releases)>)
+- [How to make configuration changes to sourcegraph.com](./update_sg_website_config.md)
 - [Onboarding](onboarding.md)
 - [How to add TXT Records](txt_dns.md)
 

@@ -8,9 +8,9 @@ This page outlines the vision, strategy and goals of the [Engineering education 
 
 ### Mission
 
-Engineering Education's mission is to get engineers onboarded quickly and efficiently, help technical knowledge flow [openly and freely](../../../../company/values.md#open-and-transparent) within teams and across teams, provide resources and environments for engineers to [continuously grow](../../../../company/values.md#continuously-grow), and drive a culture of learning and knowledge sharing at Sourcegraph.
+Engineering Education's mission is to get engineers onboarded quickly and efficiently, help technical knowledge flow [openly and freely](../../../../company-info-and-process/values/index.md#open-and-transparent) within teams and across teams, provide resources and environments for engineers to [continuously grow](../../../../company-info-and-process/values/index.md#continuously-grow), and drive a culture of learning and knowledge sharing at Sourcegraph.
 
-We want every engineer at Sourcegraph to feel that they have all the context and technical knowledge they need in order to deliver [high-quality](../../../../company/values.md#high-quality) work, and feel that they are continuously growing personally and professionally.
+We want every engineer at Sourcegraph to feel that they have all the context and technical knowledge they need in order to deliver [high-quality](../../../../company-info-and-process/values/index.md#high-quality) work, and feel that they are continuously growing personally and professionally.
 
 ### Vision
 
@@ -34,7 +34,7 @@ These are the principles that guide the work we do in Engineering Education. Som
 - We encourage innovation and experimentation.
 - Learning is active. It is not our role to train teammates, but to facilitate - their learning. We prefer to create learning environments rather than doing top-down training.
 - Learning is collaborative. We encourage and equip others in their journey of educating their peers.
-- We value [continuous growth](../../../../company/values.md#continuously-grow) in everything we do.
+- We value [continuous growth](../../../../company-info-and-process/values/index.md#continuously-grow) in everything we do.
 - We lead by example by sharing what we’re learning and by teaching others.
 
 ## Where we are now
