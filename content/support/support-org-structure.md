@@ -10,7 +10,7 @@ There is also the matter of [Dunbar’s Number](https://en.wikipedia.org/wiki/Du
 
 For a team, this is usually solved by building a leadership layer in and moving to teams within a team.
 
-At Sourcegraph, we are [all-remote](../company/remote/index.md), global, and [asynchronous by default](../company/asynchronous-communication.md); we also desire that folks show up for each other with [high agency](../company/values.md#high-agency). This foundation creates an opportunity to solve for the number of communication links required and create a high functioning, successful team with psychological ease that is far larger than the usual limits of 5-10 folks. Dunbar’s Number will still come into play, but formalizing a team within a team structure can come much later (more around 35-40 folks, instead of 10-15). This will help us avoid silos and continue building on the foundation of closeness that is very present at the team’s current 19 person size.
+At Sourcegraph, we are [all-remote](../company-info-and-process/remote/index.md), global, and [asynchronous by default](../company-info-and-process//communication/asynchronous-communication.md); we also desire that folks show up for each other with [high agency](../company-info-and-process/values/index.md#high-agency). This foundation creates an opportunity to solve for the number of communication links required and create a high functioning, successful team with psychological ease that is far larger than the usual limits of 5-10 folks. Dunbar’s Number will still come into play, but formalizing a team within a team structure can come much later (more around 35-40 folks, instead of 10-15). This will help us avoid silos and continue building on the foundation of closeness that is very present at the team’s current 19 person size.
 
 So, we reimagined our Customer Support organizational structure for our current team of 19 folks and up to 35-40 folks, throwing aside conventions, building off of being all-remote, global, asynchronous by default, and desiring high agency, and determined a solution where the following is true:
 
@@ -66,13 +66,7 @@ We want to have a global team where folks can work anywhere in the world. We nev
 
 ## Team meetings
 
-For both weekly planning/retros and ad-hoc team meetings, each manager will facilitate a session on Wednesday at the following times:
-
-- 14:00 UTC (facilitated by Nonso)
-- 17:00 UTC (facilitated by Brielle)
-- 19:00 UTC (facilitated by Tamar)
-
-The CSEs in attendance at each session will change monthly based on what works best for each application engineer that month. Each application engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
+For both weekly planning/retros and ad-hoc team meetings, each manager will facilitate a session on Wednesday at 15:00 UTC and 19:00 UTC. The application engineers in attendance at each session will change monthly based on what works best for each application engineer that month. Each application engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
 
 At the end of each month, everyone participates in a quick Slack vote on which times will work for them in the coming month. Based on this, which application engineers participate in what time is identified randomly and each manager adjusts the invite for which they are responsible to reflect the correct participants for that month.
 

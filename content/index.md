@@ -5,7 +5,7 @@ description: The Sourcegraph handbook describes how we (Sourcegraph teammates) w
 
 # Sourcegraph handbook
 
-The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](company/index.md#open-company).
+The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's publicly visible because we are an [open company](company-info-and-process/about-sourcegraph/index.md#open-company).
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate.
 
@@ -14,10 +14,10 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Handbook feedback](https://docs.google.com/forms/d/e/1FAIpQLSfb0yU9xmnvK2namuUzUEKbB9IqZlNQF2IWw0OpLsGvBiW2oQ/viewform?usp=sf_link)
 - [What's new in the handbook](https://sourcegraph.com/github.com/sourcegraph/about/-/commits) (or [this search](https://sourcegraph.com/search?q=context:global+repo:^github.com/sourcegraph/about%24+type:diff+rev:main) if you'd like to see diffs)
 
-## [Company](company/index.md)
+## [Company](company-info-and-process/about-sourcegraph/index.md)
 
-- [All-remote](company/remote/index.md)
-- [Asynchronous communication](company/asynchronous-communication.md)
+- [All-remote](company-info-and-process/remote/index.md)
+- [Asynchronous communication](company-info-and-process/communication/asynchronous-communication.md)
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals](strategy-goals/goals/index.md)
 - [Team](team/index.md)
@@ -25,12 +25,11 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Teammates](team/index.md)
   - [Careers](https://boards.greenhouse.io/sourcegraph91)
 - [CEO](team/ceo/index.md)
-- [Communication](communication/index.md)
-  - [Content guidelines](communication/content_guidelines/index.md)
-- [Customer-first](company/customer-first.md)
-- [General office information](company/general-office-info.md)
-- [Community](community/index.md)
-- [Leadership](leadership/index.md)
+- [Communication](company-info-and-process/communication/index.md)
+  - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
+- [Customer-first](company-info-and-process/values/customer-first.md)
+- [General office information](company-info-and-process/about-sourcegraph/general-office-info.md)
+- [Community](company-info-and-process/community/index.md)
 - [Benefits, Pay and Perks](benefits-pay-perks/index.md)
 
 ## Teams at Sourcegraph
@@ -80,7 +79,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Talent](talent/index.md)
 
-- [Our open positions](careers.md)
+- [Our open positions](https://boards.greenhouse.io/sourcegraph91)
 - [Resources for candidates](./talent/index.md#resources-for-candidates)
 - [Resources for hiring managers](./talent/index.md#resources-for-hiring-managers)
 - [Resources for teammates](./talent/index.md#resources-for-teammates)

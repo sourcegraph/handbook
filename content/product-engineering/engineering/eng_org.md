@@ -66,6 +66,7 @@
     - [DevOps](./cloud/devops/index.md) - Engineering Manager: [Jennifer Mitchell](../../team/index.md#jennifer-mitchell)
       - [Dax McDonald](../../team/index.md#dax-mcdonald)
       - [Filip Haftek](../../team/index.md#filip-haftek)
+      - [Daniel Dides](../../team/index.md#daniel-dides)
     - [Cloud SaaS](./cloud/saas/index.md)- Engineering Manager: [Rafal Leszczynski](../../team/index.md#rafal-leszczynski)
       - [Rafal Gajdulewicz](../../team/index.md#rafal-gajdulewicz)
       - [Milan Freml](../../team/index.md#mila-freml)
@@ -113,4 +114,4 @@ When teams grow and divide, we prefer to grow the org horizontally, not vertical
 
 ## Transferring teams
 
-If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager to figure out next steps. If you don't feel comfortable talking to your current manager for any reason, please reach out to your manager's manager, or someone in people ops. See also [the process for switching teams](../../people-ops/switching-teams.md).
+If you are already at Sourcegraph and see a current or future opportunity that you're interested in, please tell your manager to figure out next steps. If you don't feel comfortable talking to your current manager for any reason, please reach out to your manager's manager, or someone in people ops. See also [the process for switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md).

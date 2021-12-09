@@ -49,6 +49,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [James Clifford](../team/index.md#james-clifford)
   - [Natalie Khoury](../team/index.md#natalie-khoury)
   - [Rashad Bartholomew](../team/index.md#rashad-bartholomew)
+  - [Cory Dobson](../team/index.md#cory-dobson)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
   - Suki Randhawa(../team/index.md#suki-randhawa)

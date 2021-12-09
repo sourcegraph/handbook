@@ -36,10 +36,10 @@ See how we manage project and updates [here](people-ops-project-management.md).
 
 ## Things you need to know about working here
 
-- [New teammate onboarding](onboarding/index.md)
-- [Are you switching teams?](switching-teams.md)
-- [Are you leaving us?](leaving.md)
-- [How we manage remote work](../company/remote/index.md)
+- [New teammate onboarding](../company-info-and-process/onboarding/index.md)
+- [Are you switching teams?](../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- [Are you leaving us?](../company-info-and-process/working-at-sourcegraph/leaving.md)
+- [How we manage remote work](../company-info-and-process/remote/index.md)
 - [Impact review cycles](impact-reviews.md)
 
 ## What we offer our teammates
@@ -59,8 +59,8 @@ See how we manage project and updates [here](people-ops-project-management.md).
 
 ## DEI
 
-- [Diversity, equity, and inclusion](../communication/dei.md)
-- [Personal Pronouns](personal-pronouns.md)
+- [Diversity, equity, and inclusion](../company-info-and-process/communication/dei.md)
+- [Personal Pronouns](../company-info-and-process/communication/personal-pronouns.md)
 
 ## Wellbeing
 

@@ -12,7 +12,7 @@ We are growing rapidly and post new jobs on a weekly basis. We encourage you to 
 
 ### Sourcegraph's culture
 
-We are an [all-remote company](../company/remote/index.md) with teammates across the globe. Our [company values](../company/values.md) are the beliefs and principles that help us achieve our [strategy](../strategy-goals/strategy/index.md#mission), and build an [inclusive team](../company/values.md#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](./types_of_interviews.md#values-interview).
+We are an [all-remote company](../company-info-and-process/remote/index.md) with teammates across the globe. Our [company values](../company-info-and-process/values/index.md) are the beliefs and principles that help us achieve our [strategy](../strategy-goals/strategy/index.md#mission), and build an [inclusive team](../company-info-and-process/values/index.md#be-welcoming-and-inclusive). They apply at every level of our organization, and we talk to every candidate about our values during our [values interview](./types_of_interviews.md#values-interview).
 
 ### Benefits, perks, and compensation
 
@@ -85,7 +85,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 - [Benefits and perks](../benefits-pay-perks/benefits-perks/index.md).
 - [Teammates bios](../team/index.md).
 - [Strategy](../strategy-goals/strategy/index.md).
-- [Asynchronous communication at Sourcegraph](../company/asynchronous-communication.md)
+- [Asynchronous communication at Sourcegraph](../company-info-and-process/communication/asynchronous-communication.md)
 
 # Candidate FAQs
 
@@ -95,7 +95,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 - Q: Can I work from anywhere?
 
-  - A: Yes, Sourcegraph is an all-remote company. Unless indicated explicitly in the job description, we are a remote-first company and do not have a preference regarding your location. You can read more about our all-remote philosophy, as well as our path to all remote and tips for working remotely [here](../company/remote/index.md).
+  - A: Yes, Sourcegraph is an all-remote company. Unless indicated explicitly in the job description, we are a remote-first company and do not have a preference regarding your location. You can read more about our all-remote philosophy, as well as our path to all remote and tips for working remotely [here](../company-info-and-process/remote/index.md).
 
 - Q: When can I expect to hear feedback?
 

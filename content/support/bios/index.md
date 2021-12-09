@@ -14,9 +14,9 @@ Our README expands on our profile in [the company team directory](../../team/ind
 - Michael [README](michael-readme.md)
 - Stompy [README](stompy-readme.md)
 - Warren [README](warren-readme.md)
-- Virginia [README](virginia-readme.md)
-- Nonso [README](nonso-readme.md)
 - Brielle [README](brielle-readme.md)
+- Nonso [README](nonso-readme.md)
+- Virginia [README](virginia-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 
