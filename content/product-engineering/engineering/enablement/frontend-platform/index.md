@@ -18,13 +18,12 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 ## Responsibilities
 
 1. Frontend platform:
-
-   - Creating and maintaining the Wildcard Component Library.
-   - Owning the Sourcegraph web tech stack, tools, and patterns.
-   - Documentation and training material enables product teams and new hires to learn how to do web development at Sourcegraph quickly.
-   - Define and maintain how we test and deploy frontend code.
-   - Ensuring an efficient and reliable frontend CI pipeline.
-   - Track, measure, and improve cross-cutting frontend metrics like bundle size, [Web vitals](https://web.dev/vitals/), etc.
+   - Creating and maintaining the Wildcard Component Library
+   - Owning the Sourcegraph web tech stack, tools, and patterns
+   - Providing documentation and training material that enables product teams and new hires to learn how to do web development at Sourcegraph quickly
+   - Defining and maintaining how we test and deploy frontend code
+   - Ensuring an efficient and reliable frontend CI pipeline
+   - Tracking, measuring, and improving cross-cutting frontend metrics like bundle size, [Web vitals](https://web.dev/vitals/), etc.
 
 2. The core user experience of the Sourcegraph product:
    - Accessibility, navigation, and information hierarchy
@@ -32,16 +31,16 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
    - All code browsing and code host-like views
    - Code syntax highlighting
    - Sourcegraph application homepage
-   - Support and enable other teams in all of the above.
+   - . . . And supporting other teams in all of the above
 
 ## Contact
 
-- #frontend-platform channel or @frontendplatform in Slack.
+- #frontend-platform, @frontendplatform, or @frontend-platform-support in Slack.
 - [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and @sourcegraph/frontend-platform team on GitHub.
 
 ## Growth plan
 
-We are not planning on growing the Frontend Platform team further in 2021.
+[Come work with us!](https://boards.greenhouse.io/sourcegraph91/jobs/4079706004) We're hiring an early-career frontend engineer to join our team.
 
 ## Tech stack
 
@@ -63,20 +62,20 @@ We inherit Sourcegraph's [engineering principles and practices](../../principles
 
 ### Planning and prioritization
 
-We plan and track our day-to-day work on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144). Our current process (last updated 2021-06-29) is as follows:
+We plan and track our day-to-day work with [Github projects](https://github.com/orgs/sourcegraph/projects/222/views/1). Our current process (last updated 2021-12-9) is as follows:
 
-- Incoming tickets (e.g., from other teams) are given the `team/frontend-platform` label. As part of our [triage process](#triage), these tickets are added to our board by the designated teammate.
-- Work is scheduled by adding a card to either the _Backlog (product)_ or the _Backlog (eng)_ column.
-  - _Backlog (product)_ is for work that directly contributes to product goals and is refreshed and prioritized by the PM/EM.
-  - _Backlog (eng)_ is refreshed and prioritized by the engineers. This is the place for refactorings, developer experience improvements, etc.
-- Work should not be moved into either column until it is ready for development. Tickets that require further input before an engineer can start working on them are put in the _Needs input_ column.
-- Tickets in the _Needs input_ column should be tagged with an appropriate label that describes what input is required:
-  - `needs-design`: if it needs input from the design team
-  - `needs-discussion`: if the issue should be discussed at the next Frontend Platform sync
-  - `needs-more-info`: if it's not clear yet what needs to be done
-  - `needs-prioritization`: if the issue is part of an active prioritization conversation, to be decided on soon
-  - `awaiting-reply`: if we're waiting on an answer to a specific question on the ticket
-- When starting work, engineers pull cards from one of the _Backlog_ columns and move it to the _In Progress_ column. The other columns are self-explanatory 🙂
+- Incoming tickets (e.g., from other teams) must have the `team/frontend-platform` label applied. As part of our [triage process](#triage), these tickets are investigated and prioritized by the designated teammate.
+- Work is scheduled by assigning issues a status of _Backlog_ and a target of _This iteration_, _Next iteration_, _This quarter_ or _Not planned_.
+- The [Current work](https://github.com/orgs/sourcegraph/projects/222/views/1) view reflects work that is actively in progress.
+  - By EOD Monday (in advance of our Tuesday sync), devs should update issues and add assign a status of _On deck_ to the work they plan to pick up.
+  - Once work on an issue has begun, it should have a status of _In progress_.
+  - Work that requires input should have a status of _Needs input_ and the appropriate label and asignees. For example, an issue that needs design input should be assigned to [Alicja Suska](../../../../team/index.md#alicja-suska) and given the `needs-design` label. Other relevant labels: 
+    - `needs-discussion`: if the issue should be discussed at the next Frontend Platform sync
+    - `needs-more-info`: if it's not clear yet what needs to be done
+    - `needs-prioritization`: if the issue is part of an active prioritization conversation, to be decided on soon
+    - `awaiting-reply`: if we're waiting on an answer to a specific question on the ticket
+  - Work that is blocked because it depends on external work should have a status of _Waiting_.    
+- The [All issues by target](https://github.com/orgs/sourcegraph/projects/222/views/22) view represents a higher level view of the work we have planned (or not planned). 
 
 ### Triage
 
