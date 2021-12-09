@@ -7,6 +7,7 @@ There can be all sorts of content in this repo. Customer engineers need to be ab
 
 Contenct should be structured to show the Use Case, Discussion, Steps, Value and tagged with the proper tags to make finding the information easy.
 
+Contenct should be structured to show the Use Case, Discussion, Steps, Value and tagged with the proper tags to make finding the information easy.
 
 ### Structure
 There is a template in the GitHub repo that describes how the particular demo should be structured.
@@ -18,6 +19,7 @@ This should be a heading in the demo script.
 A summmary from a customer's perspective about a problem that they're trying to solve. Writing this from the customer's perspective allows us to think about what they're trying to do with our software, and construct our demo accordingly.
 
 #### Discussion
+
 Written from our perspective. Add a detailed description of the customer's use case, how they're accomplishing this now, and how Sourcegraph can help them either accomplish this overall or improve their workflow.
 
 #### Steps
