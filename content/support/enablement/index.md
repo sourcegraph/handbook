@@ -31,7 +31,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to deploy Sourcegraph to GCP with Kubernetes](gcp-sg-k8s.md)
 - [How to run a Kubernetes instance locally using minikube](minikube.md)
 - [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
-- [How to Migrate Sourcegraph from one Cluster to another](k8_migration)
+- [How to Migrate Sourcegraph from one Cluster to another](k8-migration)
 
 ## Videos
 
