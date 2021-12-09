@@ -16,7 +16,7 @@ To generate a letter, please follow the steps below:
   - Your letter is ready!
 
 - **Third party requests:**
-  - Direct the requestor to [Truework.com](truework.com) (or to Sourgraph's [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/))
+  - Direct the requestor to [Truework.com](https://www.truework.com/) (or to Sourgraph's [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/))
   - Click “Start a Verification” (or "Verify a Sourcegraph employee")
   - The requestor will create a Truework account
   - The requestor will enter your information and upload relevant documentation to request a report
