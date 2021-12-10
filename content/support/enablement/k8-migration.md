@@ -30,8 +30,8 @@ In this section of the tutorial, you would learn how to back up the primary `sou
 - Stop all connections to the database by removing the frontend deployment.
 
   `kubectl scale --replicas=0 deployments sts`
-	Next, scale only the databases back up
-	`kubectl scale --replicas=1 pgsql codeintel-db`
+  Next, scale only the databases back up
+  `kubectl scale --replicas=1 pgsql codeintel-db`
 
 - Generate the database dumps.
 
