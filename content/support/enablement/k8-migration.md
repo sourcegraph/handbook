@@ -46,60 +46,12 @@ In this section of the tutorial, you would learn how to back up the primary `sou
 
 In this section of the tutorial, you would learn how to restore the primary `sourcegraph` database and the `codeintel` database from the generated dumps in the previous section.
 
-* Before restoring on the new deployment, It is very important you stop all connections to the Database from the frontend.
-
-	* 	Scale down all the pods in the deployment
-		`kubectl scale deployment ---all --replicas=0 `
-		
-	* 	Scale down all the statefulset
-		`kubectl scale sts ---all --replicas=0  `
-		
-* Then restart ONLY the `pgsql` and `codeintel` pods
-
-	* 	Start the pgsql: 
-		`kubectl scale pgsql --replicas=1 `
-		
-	* 	Start the codeintel-db: 
-		`kubectl scale codeintel-db --replicas=1 `
-		
-* Copy the database files into the pods by running the following command from the root of the deploy-sourcegraph directory
-
-	```	kubectl cp sourcegraph_db.out $pgsql_POD_NAME:/tmp/sourcegraph_db.out```
-	
-	```kubectl cp codeintel_db.out $codeintel-db_POD_NAME:/tmp/codeintel_db.out```
-	
-* Exec into the pgsql pod and then the template1 database:
-	
- 	```
- 	kubectl exec -it <pgsql-pod-name> -- sh
-	$ psql -U sg template1
-	```
-* Drop the sg database, recreate it, then exit the psql session (but still in the pod exec):
-
-	```
-	# DROP DATABASE sg;
-	# CREATE DATABASE sg;
-	# \q
-	```
-> **Note**: This is a process that we have to do to work around how Sourcegraph sets up the databases as at the time of writing this documentation. Our database pods automatically create the `sg` database on startup if it isn't present. Our liveness probes also check for it which means it not being present can cause `k8s` to kill the pod.
-	
-* Restore the database dump:
-
-	```
-	$ psql -U sg -f /tmp/sourcegraph_db.out sg
-	$ psql -U sg -f /tmp/codeintel_db.out sg
-
-	```
-* Exec into the pgsql and run ` SELECT * FROM REPO LIMIT 5;` to be sure the restoration was complete.
-
-*  Run `kubectl apply --recursive -f base/` to apply the changes.
-*  Run `kubectl get pods -o wide` to make sure your pods are running again.
-*  Start the remaining Sourcegraph services by following the steps in [applying manifests](https://docs.sourcegraph.com/admin/install/kubernetes/operations#applying-manifests).
+- Before restoring on the new deployment, It is very important you stop all connections to the Database from the frontend.
 
   -     Scale down all the pods in the deployment
-    `kubectl scale deployment ---all --reliplicas=0 `
+    `kubectl scale deployment ---all --replicas=0 `
   -     Scale down all the statefulset
-    `kubectl scale sts ---all --reliplicas=0 `
+    `kubectl scale sts ---all --replicas=0 `
 
 - Then restart ONLY the `pgsql` and `codeintel` pods
 
@@ -144,6 +96,56 @@ In this section of the tutorial, you would learn how to restore the primary `sou
 - Run `kubectl apply --recursive -f base/` to apply the changes.
 - Run `kubectl get pods -o wide` to make sure your pods are running again.
 - Start the remaining Sourcegraph services by following the steps in [applying manifests](https://docs.sourcegraph.com/admin/install/kubernetes/operations#applying-manifests).
+
+*     Scale down all the pods in the deployment
+  `kubectl scale deployment ---all --reliplicas=0 `
+*     Scale down all the statefulset
+
+  `kubectl scale sts ---all --reliplicas=0 `
+
+* Then restart ONLY the `pgsql` and `codeintel` pods
+
+  -     Start the pgsql:
+    `kubectl scale pgsql --replicas=1 `
+  -     Start the codeintel-db:
+    `kubectl scale codeintel-db --replicas=1 `
+
+* Copy the database files into the pods by running the following command from the root of the deploy-sourcegraph directory
+
+  ` kubectl cp sourcegraph_db.out $pgsql_POD_NAME:/tmp/sourcegraph_db.out`
+
+  `kubectl cp codeintel_db.out $codeintel-db_POD_NAME:/tmp/codeintel_db.out`
+
+* Exec into the pgsql pod and then the template1 database:
+
+  ```
+  kubectl exec -it <pgsql-pod-name> -- sh
+  $ psql -U sg template1
+  ```
+
+* Drop the sg database, recreate it, then exit the psql session (but still in the pod exec):
+
+      ```
+      # DROP DATABASE sg;
+      # CREATE DATABASE sg;
+      # \q
+      ```
+
+  > **Note**: This is a process that we have to do to work around how Sourcegraph sets up the databases as at the time of writing this documentation. Our database pods automatically create the `sg` database on startup if it isn't present. Our liveness probes also check for it which means it not being present can cause `k8s` to kill the pod.
+
+* Restore the database dump:
+
+  ```
+  $ psql -U sg -f /tmp/sourcegraph_db.out sg
+  $ psql -U sg -f /tmp/codeintel_db.out sg
+
+  ```
+
+* Exec into the pgsql and run ` SELECT * FROM REPO LIMIT 5;` to be sure the restoration was complete.
+
+* Run `kubectl apply --recursive -f base/` to apply the changes.
+* Run `kubectl get pods -o wide` to make sure your pods are running again.
+* Start the remaining Sourcegraph services by following the steps in [applying manifests](https://docs.sourcegraph.com/admin/install/kubernetes/operations#applying-manifests).
 
 ### Additional Information
 
