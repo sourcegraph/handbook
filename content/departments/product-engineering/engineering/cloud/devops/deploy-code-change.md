@@ -8,8 +8,8 @@ These docs are most relevant during a **codefreeze** or if the continuos deliver
 pipeline is not working.
 
 - [Deploying a code change to Sourcegraph Cloud](#deploying-a-code-change-to-sourcegraph-cloud)
-    - [Assumptions](#assumptions)
-    - [Deploying the image to Cloud](#deploying-the-image-to-cloud)
+  - [Assumptions](#assumptions)
+  - [Deploying the image to Cloud](#deploying-the-image-to-cloud)
   - [Large releases to Cloud (Rollup releases)](#large-releases-to-cloud-rollup-releases)
 
 ### Assumptions
