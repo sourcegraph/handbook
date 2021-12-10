@@ -34,73 +34,73 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ## Teams at Sourcegraph
 
-### [People Ops](people-ops/index.md)
+### [People Ops](departments/people-ops/index.md)
 
-- [People Ops](people-ops/index.md)
-  - [Team](people-ops/index.md#team)
-  - [Goals](people-ops/index.md#goals)
+- [People Ops](departments/people-ops/index.md)
+  - [Team](departments/people-ops/index.md#team)
+  - [Goals](departments/people-ops/index.md#goals)
 
-### [Product & Engineering](product-engineering/index.md)
+### [Product & Engineering](departments/product-engineering/index.md)
 
-#### [Product](product-engineering/product/index.md)
+#### [Product](departments/product-engineering/product/index.md)
 
 - [Strategy](strategy-goals/strategy/index.md)
-- [Product](product-engineering/product/index.md)
-  - [Product Management](product-engineering/product/product_management/index.md)
-  - [Product Design](product-engineering/product/design/index.md)
+- [Product](departments/product-engineering/product/index.md)
+  - [Product Management](departments/product-engineering/product/process/index.md)
+  - [Product Design](departments/product-engineering/product/design/index.md)
 
-#### [Engineering](product-engineering/engineering/index.md)
+#### [Engineering](departments/product-engineering/engineering/index.md)
 
 <!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
 
-- [Engineering](product-engineering/engineering/index.md)
-  - [Engineering orgs and teams](product-engineering/engineering/eng_org.md)
+- [Engineering](departments/product-engineering/engineering/index.md)
+  - [Engineering orgs and teams](departments/product-engineering/engineering/team/index.md)
 
-### [Customer Support](support/index.md)
+### [Customer Support](departments/support/index.md)
 
-### [Customer Engineering](ce/index.md)
+### [Customer Engineering](departments/ce/index.md)
 
-### [Marketing](marketing/index.md)
+### [Marketing](departments/marketing/index.md)
 
-- [Product Marketing](marketing/product-marketing/index.md)
-- [Content Marketing](marketing/content/index.md)
-  - [Editorial](marketing/content/editorial/index.md)
-  - [Creating and editing blog posts](marketing/content/creating_blog_posts.md)
-  - [Blog Hackathon](marketing/content/editorial/blog_hackathon.md)
-- [Demand Gen](marketing/demand-gen/index.md)
-- [Developer Education](marketing/education/index.md)
-- [Brand](marketing/brand/index.md)
-- [Social Media](marketing/socialmedia.md)
-- [Community Relations](marketing/community_relations/index.md)
+- [Product Marketing](departments/marketing/product-marketing/index.md)
+- [Content Marketing](departments/marketing/content/index.md)
+  - [Editorial](departments/marketing/content/editorial/index.md)
+  - [Creating and editing blog posts](departments/marketing/content/creating_blog_posts.md)
+  - [Blog Hackathon](departments/marketing/content/editorial/blog_hackathon.md)
+- [Demand Gen](departments/marketing/demand-gen/index.md)
+- [Developer Education](departments/marketing/education/index.md)
+- [Brand](departments/marketing/brand/index.md)
+- [Social Media](departments/marketing/social-media/index.md)
+- [Community Relations](departments/marketing/community_relations/index.md)
 
-### [Sales](sales/index.md)
+### [Sales](departments/sales/index.md)
 
-- [Sales strategy & operations](sales/sales-ops/index.md)
+- [Sales strategy & operations](departments/sales/sales-ops/index.md)
 
-### [Talent](talent/index.md)
+### [Talent](departments/talent/index.md)
 
 - [Our open positions](https://boards.greenhouse.io/sourcegraph91)
-- [Resources for candidates](./talent/index.md#resources-for-candidates)
-- [Resources for hiring managers](./talent/index.md#resources-for-hiring-managers)
-- [Resources for teammates](./talent/index.md#resources-for-teammates)
-- [Resources for recruiters](./talent/index.md#resources-for-recruiters)
+- [Resources for candidates](departments/talent/index.md#resources-for-candidates)
+- [Resources for hiring managers](departments/talent/index.md#resources-for-hiring-managers)
+- [Resources for teammates](departments/talent/index.md#resources-for-teammates)
+- [Resources for recruiters](departments/talent/index.md#resources-for-recruiters)
 
-### [Business Operations & Strategy](bizops/index.md)
+### [Business Operations & Strategy](departments/bizops/index.md)
 
-- [How to work with us](bizops/index.md#how-to-work-with-us)
+- [How to work with us](departments/bizops/index.md#how-to-work-with-us)
 - [Analytics issue tracker](https://github.com/sourcegraph/analytics/issues)
 - Teams
-  - [Data operations](bizops/data_operations.md)
-  - [Analytics](bizops/analytics.md)
+  - [Data operations](departments/bizops/data-operations/index.md)
+  - [Analytics](departments/bizops/analytics/index.md)
 
-### [Finance & Accounting](finance/index.md)
+### [Finance & Accounting](departments/finance/index.md)
 
-- [Financial terms and definitions](finance/index.md#definitions)
-- [Accounting](finance/index.md#accounting)
+- [Financial terms and definitions](departments/finance/index.md#definitions)
+- [Accounting](departments/finance/index.md#accounting)
 
-### [Legal](legal/index.md)
+### [Legal](departments/legal/index.md)
 
-### [Tech Ops](tech-ops/index.md)
+### [Tech Ops](departments/tech-ops/index.md)
 
-- [Internal security](tech-ops/internal_security.md)
-- [Single sign on (Okta)](tech-ops/Okta.md)
+- [Internal security](departments/tech-ops/process/internal_security.md)
+- [Single sign on (Okta)](departments/tech-ops/tools/Okta.md)

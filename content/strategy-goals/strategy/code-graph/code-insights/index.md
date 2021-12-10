@@ -7,7 +7,7 @@ This page outlines the vision, strategy, and goals of the Code Insights team.
 Quick links:
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../product-engineering/strategy.md)
+- [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
 - [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - Latest demo – private since the product is in beta; slack the #code-insights team or email feedback@sourcegraph.com if you're curious!
@@ -122,7 +122,7 @@ Users do not need to learn a new query language or format to use Code Insights. 
 
 ## Where we are now
 
-Code Insights is a [Beta Feature](../../../../product-engineering/product/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely remain in Beta into Q4.
+Code Insights is a [Beta Feature](../../../../departments/product-engineering/product/process/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely remain in Beta into Q4.
 
 This means that the Code Insights team is singularly focused on bringing Code Insights into general availability. To reach that goal, Code Insights will be building stability, features, and core product experiences based on the feedback we get from our beta participants.
 
@@ -158,7 +158,7 @@ The next six months are focused on building a product that can quickly prove out
 - KR 1: We have qualitative/anecdotal evidence that at least 3 customers have a manager/director/VP who is using code insights
 - KR 2: 50% of customers on 3.31+ make 10 code insights per customer, and have at least 5 weekly unique viewers of insights ([Looker dashboard](https://sourcegraph.looker.com/dashboards-next/209?Latest+Version=))
 
-_See also [completed goals](../../../../product-engineering/engineering/code-graph/code-insights/goals_completed.md)_
+_See also [completed goals](../../../../departments/product-engineering/engineering/code-graph/code-insights/goals_completed.md)_
 
 ### Themes (and What's next and why)
 

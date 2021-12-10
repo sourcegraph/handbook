@@ -103,17 +103,17 @@ You will be able to submit an expense reimbursement for the computer and desk eq
 
 - Read the first page of [Sourcegraph's user documentation](https://docs.sourcegraph.com/user).
 - Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
-- Learn how we can (and cannot) [reference our customers externally](../../sales/index.md#customer)
-- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](..//remote/teammate-recommended_productivity_hacks.md).
+- Learn how we can (and cannot) [reference our customers externally](../../departments/sales/index.md#customer)
+- Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../remote/teammate-recommended_productivity_hacks.md).
 
 Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
 
 ## Team specific onboarding
 
-- [Engineers](../../product-engineering/engineering/onboarding/index.md)
-- [Customer Engineers](../../ce/onboarding.md)
-- [Customer Support](../../support/customer-support-onboarding.md)
-- [Customer Support Managers](../../support/customer-support-manager-onboarding.md)
-- [Sales team](../../sales/onboarding/index.md)
-- [Product team](../../product-engineering/product/onboarding/index.md)
-- [Business Operations & Strategy](../../bizops/onboarding.md)
+- [Engineers](../../departments/product-engineering/engineering/onboarding/index.md)
+- [Customer Engineers](../../departments/ce/onboarding/index.md)
+- [Customer Support](../../departments/support/onboarding/customer-support-onboarding.md)
+- [Customer Support Managers](../../departments/support/onboarding/customer-support-manager-onboarding.md)
+- [Sales team](../../departments/sales/onboarding/index.md)
+- [Product team](../../departments/product-engineering/product/onboarding/index.md)
+- [Business Operations & Strategy](../../departments/bizops/onboarding/index.md)
