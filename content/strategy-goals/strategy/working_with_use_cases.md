@@ -14,13 +14,13 @@ Use-case driven content can be tailored to each persona or account, letting us t
 
 Sales and CE leverage them across the entire funnel:
 
-- PipeGen - to create clear interest/need from our prospects by showing them how we can solve the problems that are currently facing in their business
+- PipeGen - to create clear interest/need from our prospects by showing them how we can solve the problems that they are currently facing in their business
 - Active Opportunities - as the basis for establishing the value of solving those problems, proving our ability to solve them through POCs, communicating why they need to solve them now, and why Sourcegraph is uniquely able to solve them better than any other option
-- Expansion/Retention - to broaden our adoption and usage within existing customer accounts, by showcasing all the ways in which customers can gain value from Sourcegraph
+- Expansion/Retention - to broaden our adoption and usage within existing customer accounts, by showcasing all the ways in which customers can realize value from Sourcegraph
 
 For Sales & CE, a good use case is:
 
-- Value driven, less specific (probably does not need to have technical details, but does not need show ROI due to who they are selling to)
+- Value driven, and aligns to quantitative and/or qualitative benefits
 - Aligns directly to the biggest issues our target market is currently facing and ideally drive urgency (i.e. need to have vs. nice to have)
 - Demonstrable; tell a cohesive narrative by tying together all parts of our product
 - Is able to be tested discretely and completely (timeboxed) by a customer to prove out the value
