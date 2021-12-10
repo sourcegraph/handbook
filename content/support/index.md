@@ -24,7 +24,6 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 [Virginia Ulrich](../team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
 
 - [Brielle Collins](../team/index.md#brielle-collins), Manager
-
   - [Gabe Torres](../team/index.md#team#gabe-torres)
   - [Kelvin Lee](../team/index.md#kelvin-lee)
   - [Mariam Adedeji](../team/index.md#mariam-adedeji)
@@ -32,7 +31,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
   - RS (starting 2021-12-20)
   - [Warren Gifford](../team/index.md#warren-gifford)
   - TBH
-
+  
 - [Nonso Obiano](../team/index.md#nonso-obiano), Manager
   - [Alex Jean-Baptiste](../team/index.md#alex-jean-baptiste)
   - [Amber Furbush](../team/index.md#amber-furbush)
@@ -144,6 +143,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Engaging other teams](engaging-other-teams.md)
 - [Serving as messenger during incidents](../product-engineering/engineering/incidents/index.md)
 - [Triaging](customer-support-triaging.md)
+- [Case reviews](case-reviews.md)
 - [Enablement](enablement/index.md)
 - [Tools](support-tools.md)
 - [Assigned application engineers](assigned-app-eng.md)
