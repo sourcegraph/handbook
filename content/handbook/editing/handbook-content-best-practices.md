@@ -31,8 +31,9 @@ To determine where your content should go:
 
 1. Consider the **primary** viewer. Since our handbook is public, anyone can read the content, but you probably have an intended audience in mind. If your content is a company-wide policy or process, it probably belongs in a directory holding company-wide content. If it's a policy or process only your team uses, it probably fits best in your team directory. -**Note:** If your primary viewer is a user of the Sourcegraph product, it should live in the [Sourcegraph Docs](https://docs.sourcegraph.com/).
 1. Determine what type of content you are creating. Is it a process describing how we work? Is it a policy that must be followed? Look for a directory with similar types of content. Like content should live together.
+  1. [RFC 516](https://docs.google.com/document/d/1H2a7vNvQ61CNcsMp_H8kh4FhYGRFl-6OYJlUzevoG7U/edit#heading=h.trqab8y0kufp) details the handbook information architecture updated in December 2021. Do your best to fit your new page within this structure.
 
-Reach out to the [content curators](#content-curators) for help if you're unsure.
+Reach out for [content help](#content-help) for help if you're unsure.
 
 ## Page structure and use of headings
 
@@ -55,9 +56,9 @@ When deleting content or a page that you don't normally maintain, it's best to d
 
 ![Handbook contributors](https://storage.googleapis.com/sourcegraph-assets/handbook/handbook-contributors.png)
 
-## Content Curators
+## Content Help
 
-Two [guiding principles](../index.md#guiding-princples) of the Handbook are that everyone can edit the Handbook, and that the Handbook is maintained by everyone. Sometimes, it can be difficult to know _where_ to put the content you're looking to add. The @handbook-content-curators group in Slack is here to help. You can tag that group in the #handbook Slack channel for help with things like:
+Two [guiding principles](../index.md#guiding-princples) of the Handbook are that everyone can edit the Handbook, and that the Handbook is maintained by everyone. Sometimes, it can be difficult to know _where_ to put the content you're looking to add. Ask in the #handbook channel for help with things like:
 
 1. Where should I put this new page or directory?
 1. Should I create a new page for this content, or embed in an existing page?
