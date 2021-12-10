@@ -32,7 +32,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
    - Sourcegraph application homepage, user settings, and admin pages
    - . . . And supporting other teams in all of the above
 
-We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other-responsibilities.md#frontend-devs) and host the [Frontend Crew meeting](./other-responsibilities.md#frontend-crew). For a breakdown of responsibilities across teams, see [Engineering Ownership](../../engineering_ownership.md).
+We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other-responsibilities.md#frontend-devs) and host the [Frontend Crew meeting](./other-responsibilities.md#frontend-crew). For a breakdown of responsibilities across teams, see [Engineering Ownership](../../process/engineering_ownership.md).
 
 ## Contact
 
