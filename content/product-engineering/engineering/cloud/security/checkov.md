@@ -18,3 +18,8 @@
 ## I have a vulnerability that is a false positive, or one that we will not fix. Can I make Checkov ignore it?
 
 - Yes. Simply follow these instructions: (https://www.checkov.io/2.Basics/Suppressing%20and%20Skipping%20Policies.html) and then tag the security team to review the PR.
+
+## What if I have a vulnerability that cannot be addressed immediately, but is scheduled to be addressed at a later date?
+
+In these cases, first add the appropriate Checkov comment to suppress the finding.  
+Second create a JIRA ticket, add it to the Security Vulnerability board with the details of the pending fix.
