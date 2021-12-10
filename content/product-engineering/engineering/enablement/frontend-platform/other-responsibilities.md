@@ -13,7 +13,7 @@ The [Frontend Platform team](./index.md) maintains the canonical list of fronten
 
 These people are available under the `@frontend-devs` alias on both Slack and [GitHub](https://github.com/orgs/sourcegraph/teams/frontend-devs) (the two lists are kept in sync). Please contact the Frontend Platform team to add or remove someone from the list.
 
-Note that this list is _not_ intended to be a comprehensive list of people with frontend expertise! Some full-stack engineers are not included in @frontend-devs because the primarily do backend development at Sourcegraph, or they aren't very familiar with React, etc.
+Note that this is _not_ intended to be a comprehensive list of people with frontend expertise! Some full-stack engineers are not included in @frontend-devs because the primarily do backend development at Sourcegraph, or they aren't very familiar with React, etc.
 
 ## Frontend Crew
 
