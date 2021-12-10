@@ -1,6 +1,6 @@
 # Company Information and Processes
 
-This area of the Handbook is dedicated to information about Sourcegraph, working here, and company-wide processes. Team-specific information can be found in the [department directory](../department-specific/index.md)
+This area of the Handbook is dedicated to information about Sourcegraph, working here, and company-wide processes. Team-specific information can be found in the [department directory](../departments/index.md)
 
 ## [About Sourcegraph](about-sourcegraph/index.md)
 
@@ -49,7 +49,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 
 - [Working hours](working-at-sourcegraph/working-hours.md)
 - [Switching teams](working-at-sourcegraph/switching-teams.md)
-- [Impact reviews](../people-ops/impact-reviews.md)
+- [Impact reviews](../departments/people-ops/process/impact-reviews.md)
 - [Leaving](working-at-sourcegraph/leaving.md)
 
 ## [Sourcegraph Community](community/index.md)

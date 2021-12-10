@@ -5,11 +5,11 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 ## Quick links
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../product-engineering/strategy.md)
-- [Batch Changes positioning and messaging](../../../../marketing/product-marketing/batch_changes_positioning.md)
+- [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
+- [Batch Changes positioning and messaging](../../../../departments/marketing/product-marketing/batch_changes_positioning.md)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
-- [Batch Changes team page](../../../../product-engineering/engineering/code-graph/batch-changes)
+- [Batch Changes team page](../../../../departments/product-engineering/engineering/code-graph/batch-changes/index.md)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 
 ## Vision
@@ -61,7 +61,7 @@ To drive enterprise success and stickiness, we need to:
 
 - Deliver a great experience in creating changesets at enterprise scale (10,000s repositories), resulting in more users onboarding batch changes.
 - Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth.
-- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../../product-engineering/engineering/code-graph/batch-changes/metrics.md).
+- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../../departments/product-engineering/engineering/code-graph/batch-changes/metrics.md).
 
 ### Discovery, configuration and onboarding
 

@@ -2,11 +2,11 @@
 
 As Sourcegraph grows, we would like to support teammates who are interested in taking on new roles in other teams, if their skillset and aspirations are required in the team they wish to move to.
 
-This page focuses on the _process_ of moving from one team or department to another. Please reach out to your manager (or the [People Ops team](../../people-ops/index.md)) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more.
+This page focuses on the _process_ of moving from one team or department to another. Please reach out to your manager (or the [People Ops team](../../departments/people-ops/index.md)) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more.
 
 If you are interested in staying in the same department or team, or working for the same manager, but switching your focus (e.g. switching from frontend to backend software development), then this page is not needed—simply speak to your manager and see if adjustments can be made to our current role, that align with the team's success.
 
-If you are a manager, please visit this page to learn [how to notify People Ops of an org change](../../people-ops/manager-guide.md#how-to-notify-people-ops-of-an-org-and-role-change).
+If you are a manager, please visit this page to learn [how to notify People Ops of an org change](../../departments/people-ops/tools/manager-guide.md#how-to-notify-people-ops-of-an-org-and-role-change).
 
 ## Eligibility
 
@@ -19,7 +19,7 @@ Whether hiring an internal candidate (someone who already works at Sourcegraph) 
 What does that mean?
 
 - All candidates go through the same interview process, regardless of whether they are an internal teammate or external applicant. The only difference is: internal candidates can skip the Values Interview, given that we have a pulse on this already.
-- The role should be kicked off following the steps outlined [here](../../talent/resources_for_hiring_managers.md#1-opening-a-new-job). The role and expectations for the role need to be clearly defined and written down in the form of a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
+- The role should be kicked off following the steps outlined [here](../../departments/talent/tools/resources_for_hiring_managers.md#1-opening-a-new-job). The role and expectations for the role need to be clearly defined and written down in the form of a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
 - The team and interviewers are aligned on role expectations and how we are going to measure those things. An interview plan must be created and predetermined structured interview questions should be asked to all candidates.
 - We ensure that the person we hire meets the expectations of the role.
 
