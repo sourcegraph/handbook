@@ -6,8 +6,8 @@ Some examples of incidents:
 
 - sourcegraph.com is down or a critical feature is broken (e.g. sign-in, search, code intel).
 - If sourcegraph.com is down for more than 5 minutes, a critical feature is down for more than 5 minutes, or we're aware of a service degradation issue that >5 users have reported. If you're unsure if the incident's impact qualifies, ask @cs in Slack for advice.
-- We have an issue (per [our standard SLA definition](../../../support/index.md#slas)) that impacts all/many self-hosted instances, all/many managed instances, or all/many Cloud/SaaS users
-- There is a security issue with Sourcegraph (and if so, pleaes also follow [our security disclosure process](../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities).
+- We have an issue (per [our standard SLA definition](../../../../support/index.md#slas)) that impacts all/many self-hosted instances, all/many managed instances, or all/many Cloud/SaaS users
+- There is a security issue with Sourcegraph (and if so, pleaes also follow [our security disclosure process](../../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities).
 - A Sourcegraph team member feels like an incident might be present, but isn't certain or isn't able to confirm on their own.
 - We need to do critical proactive 1-to-many communication to all self-hosted customers (for example, making them aware of something they need to do in a certain upgrade like [the prep needed before upgrading to 3.31](https://docs.sourcegraph.com/admin/migration/3_31)) -- over time, as we do more of this, we will likely create a separate process for this
 
@@ -42,7 +42,7 @@ We currently have 2 severity levels for incidents that require this workflow and
 1. **Critical** - Issues causing very high impact to customers. Immediate response is required. Examples include a full outage, or a data breach.
 2. **Major** - Issues causing significant impact. Immediate response is usually required. We might have some workarounds that mitigate the impact on customers. Examples include an important sub-system failing.
 
-Severity level 2 issues [our contractual SLAs](../../../support/index.md#slas) (aka, minor issues) should not use this workflow (these go through the usual support/feedback processes.
+Severity level 2 issues [our contractual SLAs](../../../../support/index.md#slas) (aka, minor issues) should not use this workflow (these go through the usual support/feedback processes.
 
 #### False positives
 

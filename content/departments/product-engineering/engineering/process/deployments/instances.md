@@ -70,7 +70,7 @@ This deployment is used by Sourcegraph CE for demos.
 
 ### devmanaged.sourcegraph.com
 
-This deployment is a [managed instance](../enablement/delivery/managed/index.md) used by Distribution for experimenting with managed instances in general.
+This deployment is a [managed instance](../../enablement/delivery/managed/index.md) used by Distribution for experimenting with managed instances in general.
 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-dev)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/dev)

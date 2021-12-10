@@ -4,7 +4,7 @@ Total interview time: 6 hrs
 
 1. [30 min] **[Initial screen](../initial_screen.md)**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
 1. [30 min] **[Hiring manager screen](../hm_intro_call.md)**: with [Christina Forney](../../../../../../team/index.md#christina-forney), VP Product to elaborate on your previous experiences.
-1. [1 hr] **[Resume deep dive](../../../../../talent/process/types_of_interviews.md#resume-deep-dive)** with [Christina Forney](../../../../../team/index.md#christina-forney), VP Product
+1. [1 hr] **[Resume deep dive](../../../../../talent/process/types_of_interviews.md#resume-deep-dive)** with [Christina Forney](../../../../../../team/index.md#christina-forney), VP Product
 1. [2.5 hrs "Onsite"]
    - [1 hr] **[Working session on strategy and leadership](../../../../../talent/process/types_of_interviews.md#working-session-on-strategy--leadership)**: with [Christina Forney](../../../../../../team/index.md#christina-forney), VP Product & [Jean du Plessis](../../../../../../team/index.md#jean-du-plessis)
    - [1 hr] **[Peer interview]** WIP
