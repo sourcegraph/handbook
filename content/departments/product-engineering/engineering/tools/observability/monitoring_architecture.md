@@ -1,7 +1,5 @@
 # Sourcegraph monitoring architecture
 
-> **Note:** Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
-
 This document describes the architecture of Sourcegraph's monitoring stack, and the technical decisions we have made to date and why.
 
 For development-related documentation, see the [Sourcegraph monitoring guide](./monitoring.md) and the [observability developer documentation](https://docs.sourcegraph.com/dev/background-information/observability).
@@ -9,6 +7,8 @@ For development-related documentation, see the [Sourcegraph monitoring guide](./
 <!-- generated from monitoring_architecture.excalidraw -->
 
 ![architecture diagram](https://storage.googleapis.com/sourcegraph-assets/monitoring-architecture.png)
+
+> NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), and for Cloud-specific documentation see the [Cloud monitoring documentation](./cloud.md).
 
 ## Long-term vision
 
@@ -110,7 +110,7 @@ There is currently no process defining how custom additions should be made to ou
 
 ## Sourcegraph Cloud
 
-[Sourcegraph Cloud](../../process/deployments/instances.md#sourcegraph-com) offers all the monitoring capabilities of a [standard Sourcegraph deployment](#standard-sourcgraph-deployments), as well as the following customizations and specific usages.
+[Sourcegraph Cloud](../deployments/instances.md#sourcegraph-cloud) offers all the monitoring capabilities of a [standard Sourcegraph deployment](#standard-sourcgraph-deployments), as well as the following customizations and specific usages.
 
 ### Alerts
 

@@ -1354,6 +1354,19 @@
           50.00067775723633
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Isuru Fonseka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.18625164031982,
+          -33.87757740654966
+        ]
+      }
     }
   ]
 }

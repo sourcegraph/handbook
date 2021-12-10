@@ -66,13 +66,7 @@ We want to have a global team where folks can work anywhere in the world. We nev
 
 ## Team meetings
 
-For both weekly planning/retros and ad-hoc team meetings, each manager will facilitate a session on Wednesday at the following times:
-
-- 14:00 UTC (facilitated by Nonso)
-- 17:00 UTC (facilitated by Brielle)
-- 19:00 UTC (facilitated by Tamar)
-
-The CSEs in attendance at each session will change monthly based on what works best for each application engineer that month. Each application engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
+For both weekly planning/retros and ad-hoc team meetings, each manager will facilitate a session on Wednesday at 15:00 UTC and 19:00 UTC. The application engineers in attendance at each session will change monthly based on what works best for each application engineer that month. Each application engineer has one option that always aligns with their working hours, and a second option that either aligns or lets them flex slightly if they want to easily experience another facilitation style.
 
 At the end of each month, everyone participates in a quick Slack vote on which times will work for them in the coming month. Based on this, which application engineers participate in what time is identified randomly and each manager adjusts the invite for which they are responsible to reflect the correct participants for that month.
 
