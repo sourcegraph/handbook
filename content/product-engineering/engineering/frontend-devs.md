@@ -1,4 +1,4 @@
-# Frontend Developers
+# Frontend Developers (@frontend-devs)
 
 The [Frontend Platform team](./enablement/frontend-platform/index.md)
 maintains the canonical list of frontend developers at Sourcegraph, which
