@@ -29,12 +29,11 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 2. The core user experience of the Sourcegraph product:
    - Accessibility, navigation, and information hierarchy
    - Performance and efficiency of the core UI
-   - All code browsing and code host-like views
-   - Code syntax highlighting
-   - Sourcegraph application homepage
+   - Some areas of code browsing 
+   - Sourcegraph application homepage, user settings, and admin pages
    - . . . And supporting other teams in all of the above
 
-We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other-responsibilities.md#frontend-devs) and host the [Frontend Crew meeting](./other-responsibilities.md#frontend-crew).
+We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other-responsibilities.md#frontend-devs) and host the [Frontend Crew meeting](./other-responsibilities.md#frontend-crew). For a breakdown of responsibilities across teams, see [Engineering Ownership](../../engineering_ownership.md).
 
 ## Contact
 
