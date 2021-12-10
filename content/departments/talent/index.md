@@ -77,7 +77,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## Talent Team Members
 
-[Click here](teamalignment.md) to see Talent Team alignment with each department
+[Click here](process/teamalignment.md) to see Talent Team alignment with each department
 
   <section>
     <div class="row" style="display:flex;">
