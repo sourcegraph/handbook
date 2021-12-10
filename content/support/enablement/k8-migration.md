@@ -47,10 +47,10 @@ In this section of the tutorial, you would learn how to restore the primary `sou
 * Before restoring on the new deployment, It is very important you stop all connections to the Database from the frontend.
 
 	* 	Scale down all the pods in the deployment
-		`kubectl scale deployment ---all --reliplicas=0 `
+		`kubectl scale deployment ---all --replicas=0 `
 		
 	* 	Scale down all the statefulset
-		`kubectl scale sts ---all --reliplicas=0  `
+		`kubectl scale sts ---all --replicas=0  `
 		
 * Then restart ONLY the `pgsql` and `codeintel` pods
 
