@@ -23,9 +23,9 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 
 ## Docs
 
--
 - [Values enablement](support-values-enablement.md)
 - [Career roadmapping](../../career-growth/career-roadmap.md)
+- [Tips for considering how you want to shape your voice/style for our audience](shape-your-voice.md)
 - [How engineering and support learn from each other](eng-support-learn-from-eachother.md)
 - [Debugging tips](debugging-tips.md)
 - [Navigating the PGSQL Database](pgsql-guide.md)
