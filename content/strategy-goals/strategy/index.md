@@ -34,7 +34,7 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 ## Use cases
 
-We have identified five key use cases for our **universal code search platform**:
+We have identified five key use cases for our universal code search platform:
 
 1. Developer onboarding & velocity
 1. Universal code search
