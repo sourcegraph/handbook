@@ -31,7 +31,6 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
   - RS (starting 2021-12-20)
   - [Warren Gifford](../team/index.md#warren-gifford)
   - TBH
-  
 - [Nonso Obiano](../team/index.md#nonso-obiano), Manager
   - [Alex Jean-Baptiste](../team/index.md#alex-jean-baptiste)
   - [Amber Furbush](../team/index.md#amber-furbush)
