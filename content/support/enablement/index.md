@@ -6,20 +6,20 @@ The following is available to help us honor our [ethos and guiding principles](.
 
 This table correlates to our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit#gid=0) and offers enablement materials meant to help folks reach sentiment level 3 for each area.
 
-| Competency                      | Crash course                               | Hands-on |
-| ------------------------------- | ------------------------------------------ | -------- |
-| CodeIntel                       | Go here                                    |          |
-| Code insights                   | Go here                                    |          |
-| Docker/docker-compose deploy    | Go here                                    |          |
-| Docker/docker-compose migration | Go here                                    |          |
-| GraphQL                         | Go here                                    |          |
-| Kubernetes deploy               | Go here                                    |          |
+| Competency                      | Crash course               | Hands-on |
+| ------------------------------- | -------------------------- | -------- |
+| CodeIntel                       | Go here                    |          |
+| Code insights                   | Go here                    |          |
+| Docker/docker-compose deploy    | Go here                    |          |
+| Docker/docker-compose migration | Go here                    |          |
+| GraphQL                         | Go here                    |          |
+| Kubernetes deploy               | Go here                    |          |
 | Kubernetes migration            | [Go here](k8-migration.md) |          |
-| Marketplace extensions          | Go here                                    |          |
-| Prometheus                      | Go here                                    |          |
-| Perforce                        | Go here                                    |          |
-| RDS databases                   | Go here                                    |          |
-| Scaling                         | Go here                                    |          |
+| Marketplace extensions          | Go here                    |          |
+| Prometheus                      | Go here                    |          |
+| Perforce                        | Go here                    |          |
+| RDS databases                   | Go here                    |          |
+| Scaling                         | Go here                    |          |
 
 ## Docs
 
