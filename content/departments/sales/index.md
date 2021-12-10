@@ -45,11 +45,11 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Owen Brennan](../../team/index.md#owen-brennan)
   - [Chris Surdi](../../team/index.md#chris-surdi)
   - Will Camp
-  - [Jon Kishpaugh](../team/index.md#jon-kishpaugh)
-  - [James Clifford](../team/index.md#james-clifford)
-  - [Natalie Khoury](../team/index.md#natalie-khoury)
-  - [Rashad Bartholomew](../team/index.md#rashad-bartholomew)
-  - [Cory Dobson](../team/index.md#cory-dobson)
+  - [Jon Kishpaugh](../../team/index.md#jon-kishpaugh)
+  - [James Clifford](../../team/index.md#james-clifford)
+  - [Natalie Khoury](../../team/index.md#natalie-khoury)
+  - [Rashad Bartholomew](../../team/index.md#rashad-bartholomew)
+  - [Cory Dobson](../../team/index.md#cory-dobson)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
   - Suki Randhawa(../../team/index.md#suki-randhawa)

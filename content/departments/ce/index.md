@@ -37,10 +37,10 @@ This continuity means we give customers consistent and high-quality service from
 - [Greg Seador](../../team/index.md#greg-seador) (Manager of Customer Engineering, Americas West)
 - [FQ4 CE Manager, Americas East](https://boards.greenhouse.io/sourcegraph91/jobs/4027471004)
 - International - EMEA & APAC
-  - [Ajay Sridhar](../team/index.md#ajay-sridhar)
-  - [Elzanne Wentzel](../team/index.md#elzanne-wentzel)
-  - [Simon Waterer](../team/index.md#simon-waterer)
-  - [Isuru Fonseka](../team/index.md#isuru-fonseka)
+  - [Ajay Sridhar](../../team/index.md#ajay-sridhar)
+  - [Elzanne Wentzel](../../team/index.md#elzanne-wentzel)
+  - [Simon Waterer](../../team/index.md#simon-waterer)
+  - [Isuru Fonseka](../../team/index.md#isuru-fonseka)
   - [FQ3 CE (Singapore)](https://boards.greenhouse.io/sourcegraph91/jobs/4019078004)
 - Americas - US West
   - [Emily Chapman](../../team/index.md#emily-chapman)

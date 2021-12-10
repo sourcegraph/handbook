@@ -11,16 +11,16 @@
 
 Reference:
 
-- [Current strategy](strategy.md)
-- [Current team](team.md)
+- [Current strategy](strategy-goals/index.md)
+- [Current team](team/index.md)
 - [KPIs](https://sourcegraph.looker.com/boards/20)
-- [Department Meeting](department-meeting.md)
+- [Department Meeting](team-culture/department-meeting.md)
 
 How to:
 
-- [Headcount planning](headcount-planning.md)
-- [Planning process](planning-process.md)
-- [Reporting progress](reporting-progress.md)
+- [Headcount planning](process/headcount-planning.md)
+- [Planning process](process/planning-process.md)
+- [Reporting progress](process/reporting-progress.md)
 
 ## Handbook organization
 

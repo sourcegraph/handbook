@@ -41,7 +41,7 @@ TO BE FILLED IN BY 2021-10-29.
 ### 3 Enablement
 
 - Workgroup: All application engineers
-- Details: Each application engineer will work to complete as many enablement courses as possible and add them to our [enablement](enablement/index.md) page as they complete them. Our goal is to complete the following crash courses by end of December (and then more to come in January!):
+- Details: Each application engineer will work to complete as many enablement courses as possible and add them to our [enablement](../process/enablement/index.md) page as they complete them. Our goal is to complete the following crash courses by end of December (and then more to come in January!):
 
   - Perforce (Alex)
   - RDS databases (Amber)

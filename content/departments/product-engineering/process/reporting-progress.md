@@ -5,7 +5,7 @@ There are a few ways we track plans and celebrate progress at Sourcegraph.
 - The [GitHub project tracker](#github-project-tracker) is **the source of truth** for all key results in product and engineering.
 - [OKR slides](#okr-slides) contain the top level product and engineering results that the VPs and Directors review and discuss on a weekly basis.
 - [Monthly team updates](#monthly-team-updates) communicate a high-level narrative/summary to the rest of the company about what each team in product/eng accomplished since the last monthly update and what is up next.
-- [Monthly demo days](demo-day.md) are a great opportunity for engineers to highlight and share with a broad audience the specific things they shipped. It is really fun!
+- [Monthly demo days](../team-culture/demo-day.md) are a great opportunity for engineers to highlight and share with a broad audience the specific things they shipped. It is really fun!
 
 ## Status definitions
 
@@ -23,7 +23,7 @@ The [GitHub project tracker](https://github.com/orgs/sourcegraph/projects/214) i
 
 There are a few tabs:
 
-- The **Department KRs** tab tracks the top level product and engineering key results that the VPs and Directors review every week at the [VP team sync](#vp-team-sync). Updates are tracked and communicated in the [OKR slides](#okr-slides).
+- The **Department KRs** tab tracks the top level product and engineering key results that the VPs and Directors review every week at the [VP team sync](../team/index.md#vp-team-sync). Updates are tracked and communicated in the [OKR slides](#okr-slides).
 - The **Org KRs** tab tracks all the org level key results. VPs and Directors review this monthly, or as-needed when something is escalated by a Director.
 - The **Team Deliverables** tab tracks the next big roadmap items that each team is delivering in service of their KRs.
   - When teams are in the state where they have a clear KR, but don't yet have a clear roadmap to achieving that KR, the KR is included in this view. Once a roadmap item added, the KR is removed.
@@ -43,7 +43,7 @@ Customer names and business metrics can't be mentioned on public issues, so by d
 
 The OKR tracker slides are a living document that directors update by 19:00 UTC each week to communicate that current state of top level product and engineering key results for the current quarter. It only contains 1 week's worth of updates.
 
-The slides are reviewed and discussed each week in the [VP team sync](team.md#vp-team-sync) so we can celebrate wins, identify risks, and course correct if necessary.
+The slides are reviewed and discussed each week in the [VP team sync](../team/index.md#vp-team-sync) so we can celebrate wins, identify risks, and course correct if necessary.
 
 After the slides are reviewed, they are copied to a seprate slide deck to capture week-over-week progress.
 

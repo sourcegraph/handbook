@@ -23,22 +23,22 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 [Virginia Ulrich](../../team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
 
-- [Brielle Collins](../team/index.md#brielle-collins), Manager
-  - [Gabe Torres](../team/index.md#team#gabe-torres)
-  - [Kelvin Lee](../team/index.md#kelvin-lee)
-  - [Mariam Adedeji](../team/index.md#mariam-adedeji)
-  - [Michael Bali](../team/index.md#michael-bali)
+- [Brielle Collins](../../team/index.md#brielle-collins), Manager
+  - [Gabe Torres](../../team/index.md#team#gabe-torres)
+  - [Kelvin Lee](../../team/index.md#kelvin-lee)
+  - [Mariam Adedeji](../../team/index.md#mariam-adedeji)
+  - [Michael Bali](../../team/index.md#michael-bali)
   - RS (starting 2021-12-20)
-  - [Warren Gifford](../team/index.md#warren-gifford)
+  - [Warren Gifford](../../team/index.md#warren-gifford)
   - TBH
-- [Nonso Obiano](../team/index.md#nonso-obiano), Manager
-  - [Alex Jean-Baptiste](../team/index.md#alex-jean-baptiste)
-  - [Amber Furbush](../team/index.md#amber-furbush)
-  - [Ben Gordon](../team/index.md#team#ben-gordon)
-  - [Don Ellison](../team/index.md#donavon-ellison)
-  - [Giselle Northy](../team/index.md#giselle-northy)
-  - [Jason Harris](../team/index.md#jason-harris)
-  - [Stompy Mwendwa](../team/index.md#stompy-mwendwa)
+- [Nonso Obiano](../../team/index.md#nonso-obiano), Manager
+  - [Alex Jean-Baptiste](../../team/index.md#alex-jean-baptiste)
+  - [Amber Furbush](../../team/index.md#amber-furbush)
+  - [Ben Gordon](../../team/index.md#team#ben-gordon)
+  - [Don Ellison](../../team/index.md#donavon-ellison)
+  - [Giselle Northy](../../team/index.md#giselle-northy)
+  - [Jason Harris](../../team/index.md#jason-harris)
+  - [Stompy Mwendwa](../../team/index.md#stompy-mwendwa)
 
 More details about each team member in [our team READMEs](team/index.md).
 
@@ -128,26 +128,26 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 We rely mostly on our ethos to inform our decisions and actions, allowing for the team to be creative and innovate. The practices we write down represent the things that need to be done the same way, every time, by every person on the team. Or, the things we absolutely don't want to lose, forget, need to refer back to. As a general rule, this should always be a very small list.
 
-- [Application engineer onboarding](customer-support-onboarding.md)
-- [Manager onboarding](customer-support-manager-onboarding.md)
-- [Career levels](cs-career-levels.md)
-- [Team README](bios/index.md)
-- [Team schedule](support-schedule.md)
-- [Organizational structure](support-org-structure.md)
-- [Team rituals](support-team-rituals.md)
-- [How we plan our OKRs](quarterly-planning.md)
-- [Workflow](support-workflow.md)
-- [Prioritization](support-prioritization.md)
-- [Customer exceptions](customer-exceptions.md)
-- [Engaging other teams](engaging-other-teams.md)
-- [Serving as messenger during incidents](../product-engineering/engineering/incidents/index.md)
-- [Triaging](customer-support-triaging.md)
-- [Case reviews](case-reviews.md)
-- [Enablement](enablement/index.md)
-- [Tools](support-tools.md)
-- [Assigned application engineers](assigned-app-eng.md)
-- [Permanently deleting user data](permanently_deleting_user_data.md)
-- [Business continuity](business-continuity-plan.md)
+- [Application engineer onboarding](onboarding/customer-support-onboarding.md)
+- [Manager onboarding](onboarding/customer-support-manager-onboarding.md)
+- [Career levels](career-growth/cs-career-levels.md)
+- [Team README](team/index.md)
+- [Team schedule](process/support-schedule.md)
+- [Organizational structure](team/support-org-structure.md)
+- [Team rituals](team-culture/index.md)
+- [How we plan our OKRs](process/quarterly-planning.md)
+- [Workflow](process/support-workflow.md)
+- [Prioritization](process/support-prioritization.md)
+- [Customer exceptions](process/customer-exceptions.md)
+- [Engaging other teams](process/engaging-other-teams.md)
+- [Serving as messenger during incidents](../product-engineering/engineering/process/incidents/index.md)
+- [Triaging](process/customer-support-triaging.md)
+- [Case reviews](process/case-reviews.md)
+- [Enablement](process/enablement/index.md)
+- [Tools](tools/support-tools.md)
+- [Assigned application engineers](team/assigned-app-eng.md)
+- [Permanently deleting user data](process/permanently_deleting_user_data.md)
+- [Business continuity](process/business-continuity-plan.md)
 
 ## SLAs
 
