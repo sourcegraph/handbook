@@ -68,7 +68,7 @@ We plan and track our day-to-day work with [Github projects](https://github.com/
 - Incoming tickets (e.g., from other teams) must have the `team/frontend-platform` label applied. As part of our [triage process](#triage), these tickets are investigated and prioritized by the designated teammate.
 - Work is scheduled by assigning issues a status of _Backlog_ and a target of _This iteration_, _Next iteration_, _This quarter_ or _Not planned_.
 - The [Current work](https://github.com/orgs/sourcegraph/projects/222/views/1) view reflects work that is actively in progress.
-  - By EOD Monday (in advance of our Tuesday sync), devs should update issues and add assign a status of _On deck_ to the work they plan to pick up.
+  - By EOD Monday (in advance of our Tuesday sync), devs should update issues and assign a status of _On deck_ to the work they plan to pick up.
   - Once work on an issue has begun, it should have a status of _In progress_.
 - The [All issues by target](https://github.com/orgs/sourcegraph/projects/222/views/22) view represents a higher level view of the work we have planned (or not planned).
 
@@ -84,7 +84,7 @@ We have a weekly rotation for triaging and refining issues. During their week on
    - Is it ready for development? If required, add the `needs-design` label, assign the issue to the Product Designer, and set the status to _Waiting_.
    - If it's ready for development and you know how to prioritize it correctly, set the status to _Backlog_ and give it an appropriate target. If you don't know how to prioritize it, add the `needs-prioritization` label and ask your teammates for help.
 
-At the end of the week, aim for the _No status_ and _No target_ sections to be empty, or almost empty.
+At the end of the week, aim for the _No status_ section to be empty, or almost empty.
 
 ### Tracking Issues
 
