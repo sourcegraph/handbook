@@ -63,7 +63,7 @@ We inherit Sourcegraph's [engineering principles and practices](../../principles
 
 ### Planning and prioritization
 
-We plan and track our day-to-day work with [Github projects](https://github.com/orgs/sourcegraph/projects/222/views/1). Our current process (last updated 2021-12-9) is as follows:
+We plan and track our day-to-day work with [Github projects](https://github.com/orgs/sourcegraph/projects/222/views/1). Our current process (last updated 2021-12-09) is as follows:
 
 - Incoming tickets (e.g., from other teams) must have the `team/frontend-platform` label applied. As part of our [triage process](#triage), these tickets are investigated and prioritized by the designated teammate.
 - Work is scheduled by assigning issues a status of _Backlog_ and a target of _This iteration_, _Next iteration_, _This quarter_ or _Not planned_.
