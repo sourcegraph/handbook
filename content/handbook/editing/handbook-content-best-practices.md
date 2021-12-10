@@ -31,7 +31,7 @@ To determine where your content should go:
 
 1. Consider the **primary** viewer. Since our handbook is public, anyone can read the content, but you probably have an intended audience in mind. If your content is a company-wide policy or process, it probably belongs in a directory holding company-wide content. If it's a policy or process only your team uses, it probably fits best in your team directory. -**Note:** If your primary viewer is a user of the Sourcegraph product, it should live in the [Sourcegraph Docs](https://docs.sourcegraph.com/).
 1. Determine what type of content you are creating. Is it a process describing how we work? Is it a policy that must be followed? Look for a directory with similar types of content. Like content should live together.
-  1. [RFC 516](https://docs.google.com/document/d/1H2a7vNvQ61CNcsMp_H8kh4FhYGRFl-6OYJlUzevoG7U/edit#heading=h.trqab8y0kufp) details the handbook information architecture updated in December 2021. Do your best to fit your new page within this structure.
+1. [RFC 516](https://docs.google.com/document/d/1H2a7vNvQ61CNcsMp_H8kh4FhYGRFl-6OYJlUzevoG7U/edit#heading=h.trqab8y0kufp) details the handbook information architecture updated in December 2021. Do your best to fit your new page within this structure.
 
 Reach out for [content help](#content-help) for help if you're unsure.
 
