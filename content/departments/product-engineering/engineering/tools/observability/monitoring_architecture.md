@@ -110,7 +110,7 @@ There is currently no process defining how custom additions should be made to ou
 
 ## Sourcegraph Cloud
 
-[Sourcegraph Cloud](../deployments/instances.md#sourcegraph-cloud) offers all the monitoring capabilities of a [standard Sourcegraph deployment](#standard-sourcgraph-deployments), as well as the following customizations and specific usages.
+[Sourcegraph Cloud](../../process/deployments/instances.md#sourcegraph-cloud) offers all the monitoring capabilities of a [standard Sourcegraph deployment](#standard-sourcgraph-deployments), as well as the following customizations and specific usages.
 
 ### Alerts
 

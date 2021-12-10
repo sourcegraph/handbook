@@ -144,7 +144,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Triaging](process/customer-support-triaging.md)
 - [Case reviews](process/case-reviews.md)
 - [Enablement](process/enablement/index.md)
-- [Tools](tools/support-tools.md)
+- [Tools](tools/index.md)
 - [Assigned application engineers](team/assigned-app-eng.md)
 - [Permanently deleting user data](process/permanently_deleting_user_data.md)
 - [Business continuity](process/business-continuity-plan.md)

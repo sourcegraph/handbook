@@ -8,8 +8,8 @@ These docs are most relevant during a **codefreeze** or if the continuos deliver
 pipeline is not working.
 
 - [Deploying a code change to Sourcegraph Cloud](#deploying-a-code-change-to-sourcegraph-cloud)
-  - [Assumptions](#assumptions)
-  - [Deploying the image to Cloud](#deploying-the-image-to-cloud)
+    - [Assumptions](#assumptions)
+    - [Deploying the image to Cloud](#deploying-the-image-to-cloud)
   - [Large releases to Cloud (Rollup releases)](#large-releases-to-cloud-rollup-releases)
 
 ### Assumptions
@@ -18,7 +18,7 @@ In order to deploy a code change to cloud, an image needs to exist
 that has the code change. CI builds images that are merged to main
 **and** pass all tests.
 
-In extreme circumstances, you can follow the steps [here](../../deployments/testing.md#building-docker-images-for-a-specific-branch)
+In extreme circumstances, you can follow the steps [here](../../process/deployments/testing.md#building-docker-images-for-a-specific-branch)
 to build an image that bypasses tests.
 
 ### Deploying the image to Cloud

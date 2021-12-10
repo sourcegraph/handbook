@@ -1,6 +1,6 @@
 # Sourcegraph Cloud observability
 
-We provide some tooling to make [Sourcegraph Cloud](../deployments/instances.md#sourcegraph-cloud) easier to monitor and observe. This includes observability for relevant critical infrastructure such as CI/CD pipeline.
+We provide some tooling to make [Sourcegraph Cloud](../../process/deployments/instances.md#sourcegraph-cloud) easier to monitor and observe. This includes observability for relevant critical infrastructure such as CI/CD pipeline.
 
 For general observability development, please refer to the [observability development documentation](https://docs.sourcegraph.com/dev/background-information/observability) instead, which includes links to useful how-to guides.
 
