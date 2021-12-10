@@ -70,12 +70,6 @@ We plan and track our day-to-day work with [Github projects](https://github.com/
 - The [Current work](https://github.com/orgs/sourcegraph/projects/222/views/1) view reflects work that is actively in progress.
   - By EOD Monday (in advance of our Tuesday sync), devs should update issues and add assign a status of _On deck_ to the work they plan to pick up.
   - Once work on an issue has begun, it should have a status of _In progress_.
-  - Work that requires input should have a status of _Needs input_ and the appropriate label and asignees. For example, an issue that needs design input should be assigned to [Alicja Suska](../../../../team/index.md#alicja-suska) and given the `needs-design` label. Other relevant labels:
-    - `needs-discussion`: if the issue should be discussed at the next Frontend Platform sync
-    - `needs-more-info`: if it's not clear yet what needs to be done
-    - `needs-prioritization`: if the issue is part of an active prioritization conversation, to be decided on soon
-    - `awaiting-reply`: if we're waiting on an answer to a specific question on the ticket
-  - Work that is blocked because it depends on external work should have a status of _Waiting_.
 - The [All issues by target](https://github.com/orgs/sourcegraph/projects/222/views/22) view represents a higher level view of the work we have planned (or not planned).
 
 ### Triage
@@ -84,13 +78,13 @@ We have a weekly rotation for triaging and refining issues. During their week on
 
 1. Go to the [All issues by status tab on the Frontend Platform board](https://github.com/orgs/sourcegraph/projects/222/views/7), and find the _No status_ section. This is where untriaged issues appear. (If you don't see "No Status", it means that there are no untriaged issues.)
 2. For each issue in that section, consider the following:
-   - Is it clear what needs to be done? If not, ask for clarification on the ticket, apply an appropriate label (e.g., `needs-more-info`), and change the status to _Needs input_.
+   - Is it clear what needs to be done? If not, ask for clarification on the ticket, apply an appropriate label (e.g., `needs-more-info` or `awaiting-reply`), and change the status to _Needs input_.
    - Is it clearly something that should be done by the Frontend Platform team? If not, tag other teams (using the appropriate `team/xyz` label) and have a discussion about which is the best team to own the issue. Or you can add the `needs-discussion` label and discuss it with the team at an upcoming meeting (e.g. Frontend Platform sync or FPT coffee).
-   - Is there an obvious owner on the Frontend Platform team? E.g., if it relates to a feature
-   - Is it ready for development? If required, add the `needs-design` label and set the status to _Waiting_.
-   - If it's ready for development and you know how to prioritize it correctly, set the status to _Backlog_ and give it an appropriate target. If you don't know how to prioritize it, you can ask your teammates for help with prioritization.
+   - Is there an obvious owner on the Frontend Platform team (e.g., if it relates to a feature)? If so, assign the appropriate teammate.
+   - Is it ready for development? If required, add the `needs-design` label, assign the issue to the Product Designer, and set the status to _Waiting_.
+   - If it's ready for development and you know how to prioritize it correctly, set the status to _Backlog_ and give it an appropriate target. If you don't know how to prioritize it, add the `needs-prioritization` label and ask your teammates for help.
 
-At the end of the week, aim for the _No Status_ section to be empty, or almost empty.
+At the end of the week, aim for the _No status_ and _No target_ sections to be empty, or almost empty.
 
 ### Tracking Issues
 
