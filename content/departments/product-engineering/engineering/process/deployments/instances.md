@@ -5,11 +5,11 @@ Information about Sourcegraph's different instances.
 - [sourcegraph.com](instances.md#sourcegraph-com) is our production deployment.
 - [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers.
   This deployment also contains all of our private code.
-- [Managed instances](../enablement/delivery/managed/index.md) are deployments of Sourcegraph we manage for customers.
+- [Managed instances](../../enablement/delivery/managed/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
 
-For deployments of Sourcegraph we manage for customers, see [managed instances](../enablement/delivery/managed/index.md).
+For deployments of Sourcegraph we manage for customers, see [managed instances](../../enablement/delivery/managed/index.md).
 
 Also see [playbooks](./playbooks.md) for common actions related to operating our Sourcegraph deployments.
 
