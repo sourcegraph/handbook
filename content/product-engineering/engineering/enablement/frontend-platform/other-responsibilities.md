@@ -5,7 +5,7 @@ team](./index.md).
 
 ## @frontend-devs
 
-The [Frontend Platform team](./index.md) maintains the canonical list of frontend developers at Sourcegraph. These engineers all have expertise in HTML, CSS, JavaScript/TypeScript, and React, and maybe be called on to:
+The [Frontend Platform team](./index.md) maintains the canonical list of engineers at Sourcegraph who focus primarily on frontend development. These engineers all have expertise in HTML, CSS, JavaScript/TypeScript, and React, and maybe be called on to:
 
 - give their opinions on frontend tooling at Sourcegraph
 - review frontend PRs
