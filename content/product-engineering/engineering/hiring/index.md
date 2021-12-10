@@ -27,7 +27,7 @@ Since there is a smaller number of Sourcegraph teammates with frontend expertise
 1. For _interviews_, an interviewer from the same team or org as the open position is strongly preferred. If this is not possible (e.g., due to PTO, timezone availability, or interviewer load), any other frontend engineer with that type of interview may be selected.
 1. For _assignment grading_, we aim to distribute the load as evenly as possible across all frontend engineers; there is no need to scope the assignments to a particular team/org.
 
-For the purposes of hiring, _frontend engineer_ means anyone on [the @frontend-devs list](../enablement/frontend-platform/other-responsibilities#frontend-devs).
+For the purposes of hiring, _frontend engineer_ means anyone on [the @frontend-devs list](../enablement/frontend-platform/other-responsibilities.md#frontend-devs).
 
 ### Other positions
 
