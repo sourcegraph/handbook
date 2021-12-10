@@ -44,96 +44,96 @@ Be data driven. Reflect on what has worked historically to inform what should be
 
 To get maximum value from Sourcegraph, customers should be using it as frequently as possible, and as many features as possible. Part of this is achieved by finding more use-cases for the customer; part of it is achieved through user enablement; [ANY MORE?].
 
-__Metrics__:
+**Metrics**:
 
-* DAU/MAU
-* MAU/Seats
-* Product usage statistics
-* Size of average session
-* Number of extensions used
-* [ANY MORE?]
+- DAU/MAU
+- MAU/Seats
+- Product usage statistics
+- Size of average session
+- Number of extensions used
+- [ANY MORE?]
 
-__Activities__:
+**Activities**:
 
-* QBRs
-* Customer Training Webinars
-* Customer Workshops
-* [ANY MORE?]
+- QBRs
+- Customer Training Webinars
+- Customer Workshops
+- [ANY MORE?]
 
 ### Find and build advocates
 
 Advocates both:
 
-* act as the voice of the end-user
-* drum up awareness and excitement for Sourcegraph
+- act as the voice of the end-user
+- drum up awareness and excitement for Sourcegraph
 
 They are an important part in driving adoption and usage. They give us a pulse into user sentiment. Through feedback they help us tailor and improve both the experience and product.
 
-__Metrics__:
+**Metrics**:
 
-* Number of advocates
-* Number of teams with MAUs
+- Number of advocates
+- Number of teams with MAUs
 
-__Activities__:
+**Activities**:
 
-* Regular Check in
+- Regular Check in
 
 ### Validation of business case
 
 A business case outlines the expected value Sourcegraph brings to a customer. A customer's expectations are set against this, and their argument to renew, and their appetite to expand, are achieved when they are confident Sourcegraph is in fact delivering against the promise. Customer success should ensure the business case is achievable, and achieved, updating when necessary as business conditions change.
 
-__Metrics__:
+**Metrics**:
 
-__Activities__:
+**Activities**:
 
-* Executive Check in
-* QBR
-* Champion Check in
+- Executive Check in
+- QBR
+- Champion Check in
 
 ### Maintain an in-depth knowledge of the account
 
 There are 5 key areas that must be known and understood in order to ensure a customer sees as much value and experiences as little pain as possible with Sourcegraph. They are:
 
-* Organisation: How is the customer organised? What development teams exist? How do they communicate? What initiatives affect these organisations, and how are they measured?
-* People: 
-* Processes:
-* Tooling:
-* Infrastructure: 
+- Organisation: How is the customer organised? What development teams exist? How do they communicate? What initiatives affect these organisations, and how are they measured?
+- People:
+- Processes:
+- Tooling:
+- Infrastructure:
 
-__Metrics__:
+**Metrics**:
 
-* Number of advocates
-* Number of teams with MAUs
+- Number of advocates
+- Number of teams with MAUs
 
-__Activities__:
+**Activities**:
 
-* Executive Check in
-* QBR
-* Champion Check in
+- Executive Check in
+- QBR
+- Champion Check in
 
 ### Ensure effective support structure
 
 Some customers will look to provide an internal support structure for their use of Sourcegraph, funnelling day-to-day user questions. When that fails, they will fallback to using Sourcegraph's support. For all other customers, there should still be an understanding of how to engage with Sourcegraph's support (vs, say, the account team). Setting up channels and helping make any customer's internal support successful will be important.
 
-__Metrics__:
+**Metrics**:
 
-__Activities__:
+**Activities**:
 
 ### Ensure effective customer enablement
 
 Ensuring the customer is fully able to deploy, configure, and use Sourcegraph (including new features) is essential to them driving maximum value. Enablement is an ongoing goal because new features will be released, and as more use-cases are uncovered we will need to help the customer know how to use Sourcegraph for those use-cases.
 
-__Metrics__:
+**Metrics**:
 
-__Activities__:
+**Activities**:
 
 ### Ensure effective product feedback
 
 Customers will raise bug feature requests, and sometimes roadmap items will benefit that customer (or may have beta programs that the customer may be interested in joining). Agreeing channels for clear, consistent, and frequent updates of all requests, issues, and roadmap news, will build trust.
 
-__Metrics__:
+**Metrics**:
 
-__Activities__:
+**Activities**:
 
 ## Account Tiering
 
@@ -173,42 +173,42 @@ A business case is no longer sustainable.
 
 A platform may infact be built from a number of tools. It requirements are:
 
-__Monitor Customer Health & Insights__:
+**Monitor Customer Health & Insights**:
 
-The ability to 
+The ability to
 
-__Set Metric Targets__:
+**Set Metric Targets**:
 
-The ability to 
+The ability to
 
-__Alerting__:
+**Alerting**:
 
-The ability to 
+The ability to
 
-__Workflow__:
+**Workflow**:
 
-The ability to 
+The ability to
 
-__Playbook Management__:
+**Playbook Management**:
 
-The ability to 
+The ability to
 
-__Conversation & Activity tracking__:
+**Conversation & Activity tracking**:
 
-The ability to 
+The ability to
 
-__Data Sources__:
+**Data Sources**:
 
-The ability to 
+The ability to
 
 ### Customer Handbook
 
 The customer handbook takes inspiration from the Sourcegraph Handbook. It provides a shared, mutually owner and authored, source of truth that contains:
 
-* How Sourcegraph is being used at the account
-* Tailored guides and links to enablement
-* How Sourcegraph is deployed and configured
-* Playbooks for the customer for interacting with the Sourcegraph team
+- How Sourcegraph is being used at the account
+- Tailored guides and links to enablement
+- How Sourcegraph is deployed and configured
+- Playbooks for the customer for interacting with the Sourcegraph team
 
 ### Data Analytics
 
@@ -216,17 +216,17 @@ Customer data should be analysed historically to understand cross account trends
 
 ### Internal Documents
 
-__Tech Deal Review Doc__: A document that pulls relevant information from other sources and combines with internal commentry on risks, blockers, requests, and any other context that will help product/engineering/support understand the ask and the consequences of doing/not doing it.
+**Tech Deal Review Doc**: A document that pulls relevant information from other sources and combines with internal commentry on risks, blockers, requests, and any other context that will help product/engineering/support understand the ask and the consequences of doing/not doing it.
 
 ### Customer Facing Documents
 
-__QBR Decks__: A partially generated document for the QBR that lists:
+**QBR Decks**: A partially generated document for the QBR that lists:
 
-* Status of progress and metrics
-* Summary of roadmap and progress on features and issues
-* k
+- Status of progress and metrics
+- Summary of roadmap and progress on features and issues
+- k
 
-__Health Check Decks__:
+**Health Check Decks**:
 
 ## Playbooks
 
@@ -234,17 +234,17 @@ __Health Check Decks__:
 
 Work with the champion to build a plan of action, agreed milestones and targets, and access to the org necessary to onboard other aspects such as support and enablement.
 
-__Key Deliverable:__ BAU Plan
+**Key Deliverable:** BAU Plan
 
-__Key Activity:__ Account Kick-off Meeting
+**Key Activity:** Account Kick-off Meeting
 
 ### User Onboarding
 
 Builder and deliver an onboarding program for users of Sourcegraph.
 
-__Key Deliverable:__ Customer enablement program
+**Key Deliverable:** Customer enablement program
 
-__Key Activity:__ Training Webinars
+**Key Activity:** Training Webinars
 
 ### Support Onboarding
 
@@ -254,47 +254,47 @@ Some customers will want to spin up their own support structure for servicing th
 
 In order to hold an enablement webinar, several steps beforehand need to happen, including setting up a landing page, arranging the webinar booking, attendees, speakers, and feedback mechanisms.
 
-__Key Deliverable:__ Webinar Package
+**Key Deliverable:** Webinar Package
 
-__Key Activity:__ Enablement Webinar
+**Key Activity:** Enablement Webinar
 
 ### QBR
 
 Running an impactful QBR requires some prep work, as well as follow-up work, to the QBR itself.
 
-__Key Deliverable:__ QBR Deck
+**Key Deliverable:** QBR Deck
 
-__Key Activity:__ QBR
+**Key Activity:** QBR
 
 ### Production Planning
 
 Planning for production rollout should start happening in sales stage 3. Part of this is solution design, part of it is lining up resources from both Sourcegraph and the customer to both perform and validate/support the deployment, and building a mutual plan that defines actions that must be carried out by Sourcegraph, the customer, or both. If a solution is especially complex, non-standard, or for a designated account, a technical review of the solution will be required.
 
-__Key Deliverable:__ Production Plan
+**Key Deliverable:** Production Plan
 
-__Key Activity:__ Technical Review
+**Key Activity:** Technical Review
 
 ### Production Rollout
 
 Execution of the production plan. This involves project management to ensure rollout is smooth and painless.
 
-__Key Activity:__ Onboarding Checkin
+**Key Activity:** Onboarding Checkin
 
 ### Health Check
 
 When a customer's health starts dropping, or is failing to hit target levels, a health check review should be carried out with the customer to understand what must happen to address the health issues, and then carry out that work.
 
-__Key Deliverable:__ Health Check Findings, Recommendations, and plan
+**Key Deliverable:** Health Check Findings, Recommendations, and plan
 
-__Key Activity:__ Health Check
+**Key Activity:** Health Check
 
 ### Customer Handbook Rollout
 
 Building and rolling out the customer handbook involves starting from a handbook template, filling it out (with as much input from the customer as possible), agreeing publishing and authoring methods, and then publishing it, and providing enablement around using and updating the handbook
 
-__Key Deliverable:__ Customer Handbook
+**Key Deliverable:** Customer Handbook
 
-__Key Activity:__ Customer Handbook Enablement Webinar
+**Key Activity:** Customer Handbook Enablement Webinar
 
 ## Deliverables
 
@@ -320,26 +320,26 @@ This makes up a Health Check deck that highlights the findings and recommendatio
 
 In order to measure performance and success, it is important to have targets to track against.
 
-__Applies to__:
+**Applies to**:
 
 Every customer
 
-__Phases__:
+**Phases**:
 
-* *Begin in*: Establish
-* *Review in*: Expand & Maintain & Retire
+- _Begin in_: Establish
+- _Review in_: Expand & Maintain & Retire
 
-__Involved Parties__:
+**Involved Parties**:
 
-* CE
-* AE
-* Champion
+- CE
+- AE
+- Champion
 
-__Automated__:
+**Automated**:
 
 Default metric targets will be defined based on average customer values.
 
-__Manual__:
+**Manual**:
 
 These should be defined with the Champion's input during onboarding, and reviewed on bi-annual basis
 
@@ -347,9 +347,9 @@ These should be defined with the Champion's input during onboarding, and reviewe
 
 A quarterly review with the customer's key stakeholders on the ongoing value Sourcegraph is bringing, as well as providing product updates, and aligning on customer initiatives
 
-__Applies to__: Tier 1 Enterprise customers (or Tier 2/3, when necessary)
+**Applies to**: Tier 1 Enterprise customers (or Tier 2/3, when necessary)
 
-__Manual__:
+**Manual**:
 
 Hold a meeting with the customer
 
@@ -363,59 +363,59 @@ Hold a meeting with the customer
 
 This is a review of the account from a holistic point of view by the account team (and other interested stakeholders) in order to understand the current state and any risks and blockers, inspect activities and progress, and plan for change.
 
-__Phases__:
+**Phases**:
 
-* *Begin in:* Establish
-* *Review in:* Expand & Maintain & Retire
+- _Begin in:_ Establish
+- _Review in:_ Expand & Maintain & Retire
 
-__Involved Parties__:
+**Involved Parties**:
 
-* CE
-* AE
-* Customer
+- CE
+- AE
+- Customer
 
 ### Account Kick-off Meeting
 
 An initial meeting with key stakeholders from the customer (Champion, EB if possible, Advocates, etc.), the CE and AE. This meeting discusses:
 
-* Sourcegraph Roles & Responsibilities
-* Expectations and SLAs
-* High Level Roadmap
-* Planned Activities
+- Sourcegraph Roles & Responsibilities
+- Expectations and SLAs
+- High Level Roadmap
+- Planned Activities
 
-__Phases__:
+**Phases**:
 
-* *Begin in:* Establish
-* *Review in:* Expand & Maintain & Retire
+- _Begin in:_ Establish
+- _Review in:_ Expand & Maintain & Retire
 
-__Involved Parties__:
+**Involved Parties**:
 
-* CE
-* AE
-* Customer
+- CE
+- AE
+- Customer
 
 ### Onboarding Checkin (regular)
 
 A recurring meeting only during the onboarding phase, to ensure production roll-out is smooth, and other onboarding and enablement programs are moving forward and aligning correctly.
 
-__Phases__: Establish
+**Phases**: Establish
 
-__Involved Parties__:
+**Involved Parties**:
 
-* CE
-* AE
-* Customer
+- CE
+- AE
+- Customer
 
 ### Customer Handbook Enablement Webinar
 
 A webinar to be held for the customer illustrating how to use and author the Customer Handbook.
 
-__Phases__: Establish
+**Phases**: Establish
 
-__Involved Parties__:
+**Involved Parties**:
 
-* CE
-* Customer
+- CE
+- Customer
 
 ### Technical Review
 
@@ -459,25 +459,25 @@ Whenever a non-standard change is being considered for the customer's deployment
 
 ## Roles & Responsibilities
 
-| Activity                          |  CE   |  AE   |  AER  |  PM   |  Mar  |  VE   |  Cust |
-| -----------                       |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
-| Set Activity Cadence              |&#9745;|&#9745;|       |       |       |       |&#9745;|
-| Set Targets                       |&#9745;|&#9745;|       |       |       |       |&#9745;|
-| Internal Account Review           |&#9745;|&#9745;|&#9745;|&#9745;|       |&#9745;|       |
-| Customer Admin Enablement         |&#9745;|       |       |       |       |       |&#9745;|
-| Customer End-User Enablement      |&#9745;|       |       |       |       |       |&#9745;|
-| Agree Support Structure           |&#9745;|       |&#9745;|       |       |       |&#9745;|
-| Agree Enablement Structure        |&#9745;|       |       |       |       |       |&#9745;|
-| Agree Product Feedback Structure  |&#9745;|       |       |&#9745;|       |       |&#9745;|
-| Renewal Process                   |&#9745;|&#9745;|       |       |       |       |&#9745;|
-| Discovery                         |&#9745;|&#9745;|       |       |       |       |       |
-| Technical Advocate Building       |&#9745;|       |       |       |       |       |       |
-| Business Champion Building        |       |&#9745;|       |       |       |       |       |
-| Business Case Review              |&#9745;|&#9745;|       |       |       |&#9745;|&#9745;|
-| Health Checks                     |&#9745;|       |       |       |       |       |       |
-| Events                            |&#9745;|&#9745;|       |       |&#9745;|       |       |
-| Structured Feedback               |&#9745;|       |       |&#9745;|       |       |&#9745;|
-| Bug/Feature Updates               |&#9745;|       |       |&#9745;|       |       |       |
+| Activity                         | CE      | AE      | AER     | PM      | Mar     | VE      | Cust    |
+| -------------------------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| Set Activity Cadence             | &#9745; | &#9745; |         |         |         |         | &#9745; |
+| Set Targets                      | &#9745; | &#9745; |         |         |         |         | &#9745; |
+| Internal Account Review          | &#9745; | &#9745; | &#9745; | &#9745; |         | &#9745; |         |
+| Customer Admin Enablement        | &#9745; |         |         |         |         |         | &#9745; |
+| Customer End-User Enablement     | &#9745; |         |         |         |         |         | &#9745; |
+| Agree Support Structure          | &#9745; |         | &#9745; |         |         |         | &#9745; |
+| Agree Enablement Structure       | &#9745; |         |         |         |         |         | &#9745; |
+| Agree Product Feedback Structure | &#9745; |         |         | &#9745; |         |         | &#9745; |
+| Renewal Process                  | &#9745; | &#9745; |         |         |         |         | &#9745; |
+| Discovery                        | &#9745; | &#9745; |         |         |         |         |         |
+| Technical Advocate Building      | &#9745; |         |         |         |         |         |         |
+| Business Champion Building       |         | &#9745; |         |         |         |         |         |
+| Business Case Review             | &#9745; | &#9745; |         |         |         | &#9745; | &#9745; |
+| Health Checks                    | &#9745; |         |         |         |         |         |         |
+| Events                           | &#9745; | &#9745; |         |         | &#9745; |         |         |
+| Structured Feedback              | &#9745; |         |         | &#9745; |         |         | &#9745; |
+| Bug/Feature Updates              | &#9745; |         |         | &#9745; |         |         |         |
 
 ## Customer Enablement
 
@@ -489,31 +489,30 @@ TODO
 
 ## Metrics
 
-__DAU/MAU__:
+**DAU/MAU**:
 
-__MAU/Seats__:
+**MAU/Seats**:
 
-__Literal Searches/DAU__:
+**Literal Searches/DAU**:
 
-__Regex Searches/DAU__:
+**Regex Searches/DAU**:
 
-__Structural Searches/DAU__:
+**Structural Searches/DAU**:
 
-__Literal/Complex Searches__:
+**Literal/Complex Searches**:
 
-__Open Bug Tickets__:
+**Open Bug Tickets**:
 
-__Open Feature Requests__:
+**Open Feature Requests**:
 
-__Number NPS Submissions__:
+**Number NPS Submissions**:
 
-__NPS Score__:
+**NPS Score**:
 
 ## Data
 
 Data needed to support the success motion comes from several places:
 
-* BigQuery, via Looker. This contains product event and usage data
-* Salesforce. This contains commercial and person data.
-* Gmail and Slack. This is for conversational data.
-
+- BigQuery, via Looker. This contains product event and usage data
+- Salesforce. This contains commercial and person data.
+- Gmail and Slack. This is for conversational data.
