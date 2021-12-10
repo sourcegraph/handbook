@@ -10,6 +10,7 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate. Learn more about the handbook [here](handbook/index.md).
 
 ## Benefits, Pay, Perks
+
 - [Overview](benefits-pay-perks/benefits-perks/index.md)
 - [Compensation](benefits-pay-perks/pay-expenses/compensation/index.md)
 - [Submitting expenses](benefits-pay-perks/pay-expenses/expenses.md)
@@ -20,15 +21,18 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Mental health](benefits-pay-perks/benefits-perks/mental-health/index.md)
 
 ## The Sourcegraph Team
+
 - [Org chart](team/org_chart.md)
 - [Team bios](team/index.md)
 - [CEO](team/ceo/index.md)
 
 ## Sourcegraph Strategy and Goals
+
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)
 
 ## Company Information and Processes
+
 - [About Sourcegraph](company-info-and-process/about-sourcegraph/index.md)
 - [General office information](company-info-and-process/about-sourcegraph/general-office-info.md)
 - [All-remote](company-info-and-process/remote/index.md)
@@ -93,8 +97,8 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Business Operations & Strategy](departments/bizops/index.md)
 
-  - [Data operations](departments/bizops/data-operations/index.md)
-  - [Analytics](departments/bizops/analytics/index.md)
+- [Data operations](departments/bizops/data-operations/index.md)
+- [Analytics](departments/bizops/analytics/index.md)
 
 ### [Finance & Accounting](departments/finance/index.md)
 
