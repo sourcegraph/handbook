@@ -5,10 +5,7 @@ team](./index.md).
 
 ## @frontend-devs
 
-The [Frontend Platform team](./enablement/frontend-platform/index.md)
-maintains the canonical list of frontend developers at Sourcegraph, which
-includes all engineers with expertise in HTML, CSS, and JavaScript/TypeScript
-(even if they don't exclusively do frontend development).
+The [Frontend Platform team](./enablement/frontend-platform/index.md) maintains the canonical list of frontend developers at Sourcegraph, which includes all engineers with expertise in HTML, CSS, and JavaScript/TypeScript (even if they don't exclusively do frontend development).
 
 The people on this list may be called on to:
 
@@ -16,16 +13,11 @@ The people on this list may be called on to:
 - review frontend PRs
 - do frontend interviews and assignment grading
 
-These people are available under the `@frontend-devs` alias on both
-Slack and [GitHub](https://github.com/orgs/sourcegraph/teams/frontend-devs)
-(the two lists are kept in sync). Please contact the
-Frontend Platform team to add or remove someone from the list.
+These people are available under the `@frontend-devs` alias on both Slack and [GitHub](https://github.com/orgs/sourcegraph/teams/frontend-devs) (the two lists are kept in sync). Please contact the Frontend Platform team to add or remove someone from the list.
 
 ## Frontend Crew
 
-Frontend Crew is a biweekly, technically-focused get-together for all frontend
-(or frontend-curious) developers at the company. The idea is similar to a
-"guild" in the [Spotify model](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf):
+Frontend Crew is a biweekly, technically-focused get-together for all frontend (or frontend-curious) developers at the company. The idea is similar to a "guild" in the [Spotify model](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf):
 
 > A Guild is a more organic and wide-reaching “community of interest”, a group
 > of people that want to share knowledge, tools, code, and practices. Chapters

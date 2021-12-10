@@ -34,7 +34,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
    - Sourcegraph application homepage
    - Support and enable other teams in all of the above.
 
-We also maintain the [canonical list(s) of frontend devs at Sourcegraph](../../frontend-devs.md) and host the [Frontend Crew meeting](https://calendar.google.com/event?action=TEMPLATE&tmeid=bTkzZGQ0cjc2aWJzbDIwZm05bWZldm1vY2pfMjAyMTEyMDJUMTYwMDAwWiBwYXRyaWNrQHNvdXJjZWdyYXBoLmNvbQ&tmsrc=patrick%40sourcegraph.com&scp=ALL).
+We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other-responsibilities#frontend-devs) and host the [Frontend Crew meeting](./other-responsibilities#frontend-crew).
 
 ## Contact
 
