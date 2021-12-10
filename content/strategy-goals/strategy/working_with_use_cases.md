@@ -23,7 +23,7 @@ For Sales & CE, a good use case is:
 - Value driven, and aligns to quantitative and/or qualitative benefits
 - Aligns directly to the biggest issues our target market is currently facing and ideally drive urgency (i.e. need to have vs. nice to have)
 - Demonstrable; tell a cohesive narrative by tying together all parts of our product
-- Is able to be tested discretely and completely (timeboxed) by a customer to prove out the value
+- Able to be tested discretely and completely (timeboxed) by a customer to prove out the value
 
 #### Product & Engineering
 
