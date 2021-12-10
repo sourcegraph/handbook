@@ -29,7 +29,7 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 ## Content
 
 - [How to deploy a code change to the Cloud](../../process/cloud/deploy-code-change.md)
-- [Large-release-(rollout-release)-process](../../process/cloud/deploy-code-change.md#Large-releases-to-Cloud-(Rollup-releases)>)
+- [Large-release-(rollout-release)-process](<../../process/cloud/deploy-code-change.md#Large-releases-to-Cloud-(Rollup-releases)>>)
 - [How to make configuration changes to sourcegraph.com](../../process/cloud/devops/update_sg_website_config.md)
 - [Onboarding](onboarding.md)
 - [How to add TXT Records](txt_dns.md)
