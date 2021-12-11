@@ -19,7 +19,7 @@ Reference:
 How to:
 
 - [Headcount planning](process/headcount-planning.md)
-- [Planning process](process/planning-process.md)
+- [Planning](process/planning.md)
 - [Reporting progress](process/reporting-progress.md)
 
 ## Handbook organization
