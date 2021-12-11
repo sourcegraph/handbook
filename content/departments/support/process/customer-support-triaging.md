@@ -19,7 +19,7 @@ That said, there may be times when we have unusally large amount of work or more
 
   - Sometimes it may be an internal person and that would be correct, unless our teammate is posting on behalf of the customer and then we would want to change it to the customer.
   - When an application engineer is assigned to a customer, this step will also trigger that application engineer and their backup to appear as a follower (you don't see these auto populate until after you save the ticket (ie "submit as open").
-  - For the Hubspot form, we will also need to change the subject from "[Sourcegraph] Contact reconversion by submitting on HubSpot Form "Contact Us | Talk to a Dev" to something more useful for the person asking for help, like "Sourcegraph help request" -- that way they look at the email when a member of the team answers them.
+  - For the Hubspot form, we will need to email the person from our work Gmail account with a subject like "Sourcegraph inquiry" and support@sourcegraph.com in cc and let them know a member of the team will help them. We do this so that we can ensure the customer gets the email since Zendesk could block it.
 
 - **Step 3:** Identify if there is action for CS or not
 
@@ -36,6 +36,7 @@ That said, there may be times when we have unusally large amount of work or more
   - handle anything related to security for a customer with a CE
   - handle a feature request for a customer with a CE
   - provide guidance on how to think about using Sourcegraph/drive adoption (ie more proactive in nature guidance)
+  - for employment verifications, we can reply and send the requestor to [our Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/) where they can get what they need.
 
   If it's not clear, post in #customer-support-triage and brainstorm the best path.
 
