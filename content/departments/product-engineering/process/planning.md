@@ -43,7 +43,7 @@ Source: [The Secret to a Great Planning Process — Lessons from Airbnb and Even
 
 ### Building the delivery plan is part of the work
 
-Once a teams has a clear definition of success, there is usually work that needs to be done to figure out what the delivery plan is to achieve that success. The team might need to collect customer feedback, dig in to metrics, or ubuild prototypes as a first step. This exploration is normal, healthy, and part of the delivery plan!
+Once a teams has a clear definition of success, there is usually work that needs to be done to figure out what the delivery plan is to achieve that success. The team might need to collect customer feedback, dig in to metrics, or build prototypes as a first step. This exploration is normal, healthy, and part of the delivery plan!
 
 ### Plans are ambitious and feasible
 
