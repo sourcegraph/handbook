@@ -3,6 +3,7 @@
 ## Teammate privacy and trust
 
 ## List of Policies
+
 - Access Control Policy
 - Asset Management Policy
 - Business Continuity and Disaster Recovery Plan
