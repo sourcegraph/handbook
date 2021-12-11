@@ -469,13 +469,13 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 ### Senior People Partner working session
 
 - Duration: 60-minutes.
-- Our working session is designed to give us more insight into how you'd think about and approach typical scenarios you might be called on to provide support to managers on. We've detailed three scenarios for you to walk us through the way you'd think and respond to each scenario. For each scenario please walk us though:
+- Our working session is designed to give us more insight into how you'd think about and approach typical scenarios you might be called on to provide support to managers on. We've detailed three scenarios for you to walk us through the way you'd think and respond to each scenario. For each scenario please walk us through:
   - How would you approach this situation and why? What risks or concerns does each scenario present?
   - Who would you involve, why and how?
   - What feedback would you give the manager concerned?
   - What, if anything, might be changed internally based on this situation arising?
 - We will provide the detailed scenarios via email 24 hours before your scheduled interview.
-- Note you don't need to submit anything (in writing or presentation) ahead of the interview - just structure your thoughts and talk us through it! We'll ask questions as they come up.
+- Note: you don't need to submit anything (in writing or presentation) ahead of the interview - just structure your thoughts and talk us through it! We'll ask questions as they come up.
 
 ## Product
 
@@ -525,7 +525,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 - Interviewer(s): [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
 - Duration: 1 hour
-- Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early into early parts of the product life cycle process.
+- Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high-level plan for how you would execute this vision (or challenge us on why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early parts of the product life-cycle process.
 
 #### Design collaboration
 
@@ -543,7 +543,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 - Interviewer: [Marketing team member](../../../team/org_chart.md#marketing)
 - Duration: 30 mins
-- Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross functional teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
+- Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross functional teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to collaborate and produce educational and other types of content that connects with our customers and users.
 
 #### Customer support collaboration
 
