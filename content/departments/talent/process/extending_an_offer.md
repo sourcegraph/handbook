@@ -22,7 +22,7 @@
 **Step 4**: the Recruiter submits the offer for approval in Greenhouse.
 
 - The offer start date **must** align on a cohort start date, which take place every 2-weeks.
-  - If you need to start a Teammate on a non-cohort date, you must receive approval from Head of Talent and HR. To receive approval, please send a Slack to Head of Talent, Noemi and Ines with business case for starting on a non-cohort date.   
+  - If you need to start a Teammate on a non-cohort date, you must receive approval from Head of Talent and HR. To receive approval, please send a Slack to Head of Talent, Noemi and Ines with business case for starting on a non-cohort date.
 - Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `"Yes"` or `"Strong Yes"` in feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
 
