@@ -469,14 +469,14 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Duration: 60-minutes.
 - The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
 - First, we'd like to cover some general stuff:
-    - Your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
-    - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me and Debbie, etc.)
-- Then we'd like to hear, at a high level, how you would approach putting together Sourcegraph’s 60-90 minute Q1 kickoff this February. 
-- Q1 company kickoff 
-- This of course takes hours of planning, but we’re just looking for a 60 minute conversation total (including the general stuff above). *You don't need to put together a full plan!* 
-- Some (hypothetical) updates to account for: 
-    - We missed our Q4 revenue target and are slightly under for the fiscal year, but current pipeline has us on track to hit Q1 goals 
-    - We’re updating the company travel policy from one individual trip per year anywhere in the world to collaborate with a coworker, to a regional meetup trip (west coast NA, east coast NA, EMEA) 
+  - Your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
+  - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me and Debbie, etc.)
+- Then we'd like to hear, at a high level, how you would approach putting together Sourcegraph’s 60-90 minute Q1 kickoff this February.
+- Q1 company kickoff
+- This of course takes hours of planning, but we’re just looking for a 60 minute conversation total (including the general stuff above). _You don't need to put together a full plan!_
+- Some (hypothetical) updates to account for:
+  - We missed our Q4 revenue target and are slightly under for the fiscal year, but current pipeline has us on track to hit Q1 goals
+  - We’re updating the company travel policy from one individual trip per year anywhere in the world to collaborate with a coworker, to a regional meetup trip (west coast NA, east coast NA, EMEA)
 - Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd start off content planning. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
 - Feel free to reach out to Amie (amie.rotherham@sourcegraph.com) with any questions.
 
