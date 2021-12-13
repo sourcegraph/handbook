@@ -33,6 +33,8 @@
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
 - [Core Application Operational Rotation](core-application/operational-rotation.md)
+- [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
+- [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
 
 ## Org chart
 
