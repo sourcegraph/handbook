@@ -54,7 +54,19 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Cory Dobson](../../team/index.md#cory-dobson)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
-  - Suki Randhawa(../../team/index.md#suki-randhawa)
+  - Suki Randhawa
+  - Mike Shinn
+  - Luke Taylor
+- Nick Gage (Head of Sales Development)
+  - Brannon Rouse
+  - Carter Jaenichen
+  - Casi Neff
+  - Daniel Gwyn
+  - Ellie Dawson
+  - Jagna Feierabend
+  - Kevin Quigley
+  - Mark Muldez
+  - Sam Cregg
 
 ### Roles
 
