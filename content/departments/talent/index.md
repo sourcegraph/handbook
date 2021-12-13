@@ -1,15 +1,18 @@
 # Talent
 
-The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates.
+The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome.
 
-## [Resources for Candidates](tools/resources_for_candidates.md)
+If you have any questions for the Talent Team, please email Recruiting@sourcegraph.com.
+
+## Resources for Candidates
 
 - [Careers page & open positions](tools/resources_for_candidates.md#how-to-apply)
 - [Company values](tools/resources_for_candidates.md#our-company-values)
 - [Perks, benefits & compensation](tools/resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](tools/resources_for_candidates.md)
-- [Types of interviews](process/types_of_interviews.md)
-- [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
+  - [Types of interviews & sample questions](process/types_of_interviews.md)
+  - [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
+- [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
 
 ## Resources for Hiring Managers
 
@@ -35,7 +38,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Using recruitment agencies](process/index.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
-## [Resources for Teammates](tools/resources_for_teammates.md)
+## Resources for Teammates
 
 - [How to refer a candidate](process/index.md#making-a-referral)
 - [Types of interviews](process/types_of_interviews.md)
