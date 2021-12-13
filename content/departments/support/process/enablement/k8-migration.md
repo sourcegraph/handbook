@@ -75,9 +75,11 @@ In this section of the tutorial, you would learn how to restore the primary `sou
 
 - Drop the sg database, recreate it, then exit the psql session (but still in the pod exec):
 
-      # DROP DATABASE sg;
-      # CREATE DATABASE sg;
-      # \q
+  ```
+    # DROP DATABASE sg;
+    # CREATE DATABASE sg;
+    # \q
+  ```
 
   > **Note**: This is a process that we have to do to work around how Sourcegraph sets up the databases as at the time of writing this documentation. Our database pods automatically create the `sg` database on startup if it isn't present. Our liveness probes also check for it which means it not being present can cause `k8s` to kill the pod.
 
