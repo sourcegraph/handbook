@@ -34,7 +34,7 @@ Each Sourcegraph service is provided as a Docker image. Every commit to `main` i
 
 For pushing custom images, refer to [building Docker images for specific branches](#building-docker-images-for-a-specific-branch).
 
-Images are first built as "candidate" images that are pushed to with the tag format `<commit-hash>_<build-number>_candidate`. The pipeline then runs a series of tets and checks against the images If all pipeline steps pass the images are "promoted" and pushed to DockerHub with the tag format `<build-number>_<date>_<commit-hash>`. When a new release is cut the pipelines will build a release image with the same tag as the latest [release version](https://github.com/sourcegraph/sourcegraph/tags).
+Images are first built as "candidate" images that are pushed to with the tag format `<commit-hash>_<build-number>_candidate`. The pipeline then runs a series of tests and checks against the images If all pipeline steps pass the images are "promoted" and pushed to DockerHub with the tag format `<build-number>_<date>_<commit-hash>`. When a new release is cut the pipelines will build a release image with the same tag as the latest [release version](https://github.com/sourcegraph/sourcegraph/tags).
 
 ### Renovate
 
