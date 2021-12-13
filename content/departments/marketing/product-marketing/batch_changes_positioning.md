@@ -55,6 +55,8 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 - **Refactoring:** Use language-aware tooling of your choice to perform complex refactors like updating an API and its function calls or replacing libraries entirely.
 - **Security:** When problems occur with critical security updates, every hour that goes by increases risk. Batch Changes enables you to find any place where vulnerabilities exist and then refactor code to replace insecure functions, update vulnerable packages, or modify container configurations across hundreds of repositories.
 
+Here is a list of detailed [usage examples](https://github.com/sourcegraph/batch-changes-use-cases) (private).
+
 ## Discovery
 
 When talking to a platform, infrastucture or developer experience team, or as a starting point:
