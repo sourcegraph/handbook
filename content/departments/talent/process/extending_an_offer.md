@@ -10,6 +10,7 @@
 ## Offer stage
 
 **Step 1:** once finalist is identified, Recruiter completes references if necessary.
+
 - Learn more about our reference check philosophy [here](process/reference_check_questions.md).
 
 **Step 2**: the Recruiter confirms level and compensation.
