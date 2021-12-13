@@ -34,7 +34,7 @@ _This is just one path for creating a new page in the Handbook. These steps can 
 1. Click on the branch dropdown on the upper left side of your screen (it probably says "main"). Search for the branch you named when creating your first change, and select it.
    ![Update Branch](https://storage.googleapis.com/sourcegraph-assets/handbook/update-branch.png)
 1. Click the pencil icon to edit your file.
-1. Create a [link using a relative path](#using-relative-paths-to-link-handbook-pages) in the appropriate location on your page.
+1. Create a [link using a relative path](linking-within-handbook.md) in the appropriate location on your page.
 1. Commit your changes.
 1. Return to your PR, and the checks should rerun. Click "Ready for Review" to turn your Draft PR into a regular PR. Once checks pass, merge your changes.
    - If you forget to merge your pull request, you'll be reminded about it after 14 days of inactivity on that pull request. If the pull request sees another 7 days of inactivity, it will be automatically closed.
