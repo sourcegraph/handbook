@@ -34,7 +34,7 @@ _This is just one path for creating a new page in the Handbook. These steps can 
 1. Click on the branch dropdown on the upper left side of your screen (it probably says "main"). Search for the branch you named when creating your first change, and select it.
    ![Update Branch](https://storage.googleapis.com/sourcegraph-assets/handbook/update-branch.png)
 1. Click the pencil icon to edit your file.
-1. Create a [link using a relative path](#using-relative-paths-to-link-handbook-pages) in the appropriate location on your page.
+1. Create a [link using a relative path](linking-within-handbook.md) in the appropriate location on your page.
 1. Commit your changes.
 1. Return to your PR, and the checks should rerun. Click "Ready for Review" to turn your Draft PR into a regular PR. Once checks pass, merge your changes.
    - If you forget to merge your pull request, you'll be reminded about it after 14 days of inactivity on that pull request. If the pull request sees another 7 days of inactivity, it will be automatically closed.
@@ -77,6 +77,6 @@ To create a new directory (sometimes we call it a new folder), you'll follow the
 
 1. Follow the steps to create a new file outlined above.
 1. When naming your file, first type the name of the new folder or directory you're creating, _without_ `.md` . Type `/` after the name to indicate it's a directory. A new input box should pop up to the right.
-1. Enter your file name as you would when creating a new file, adding an `.md` to the file name to indicate it's a markdown file. Continue creating your pafe as outlined above.
+1. Enter your file name as you would when creating a new file, adding an `.md` to the file name to indicate it's a markdown file. Continue creating your path as outlined above.
 
 ![Creating a new directory or folder](https://storage.googleapis.com/sourcegraph-assets/handbook/createdirectory.gif)

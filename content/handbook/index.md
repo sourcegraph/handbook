@@ -16,14 +16,14 @@ The Sourcegraph Handbook is centralized documentation system for how we work. We
 
 ### Guiding Principles
 
-- **The Handbook can ve viewed by anyone.** One of our Sourcegraph values is transparency. We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
+- **The Handbook can be viewed by anyone.** One of our Sourcegraph values is transparency. We want all public information to be available to everyone, whether they work at Sourcegraph or not, and it all lives in the Handbook. The Handbook should be searchable and easy to navigate.
 - **The Handbook can be edited by any Sourcegraph teammate.** We value high agency and encourage all teammates to update the Handbook as they see fit. We provide resources to help teammates contribute to the Handbook no matter their technical background.
 - **The Handbook is maintained by every Sourcegraph teammate.** At Sourcegraph, we work as a team. No one person is responsible for keeping our content updated, it falls on all of us. Editing and updating pages should be quick and well documented.
 - **The Handbook is a source of truth** at Sourcegraph, and information there is expected to be accurate and up-to-date.
 
 ### Intended Audience
 
-Sourcegraph is an [open company](../company/index.md#sourcegraph-open-product-open-company-open-source) and we value [transparency](../company/values.md#open-andtransparent). As such, we keep the Handbook public.
+Sourcegraph is an [open company](../company-info-and-process/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) and we value [transparency](../company-info-and-process/values/index.md#open-and-transparent). As such, we keep the Handbook public.
 
 The **primary** intended audience for the Handbook is Sourcegraph teammates.
 
@@ -39,7 +39,7 @@ To be handbook-first, we must:
 
 - Default to the handbook when looking for information about a business process or policy.
 - Rely on the handbook being accurate and up-to-date.
-- Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurrate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
+- Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
 
 ## Handbook Usage
 
@@ -52,8 +52,8 @@ To be handbook-first, we must:
 - The handbook documents what we do right now. It doesn't describe the ideal practices we hope to follow in the future, or outdated practices we followed in the past.
 - [Announce important changes](editing/announcing-handbook-updates.md) in the appropriate channels. Ensure everyone who needs to be aware of the change is made aware.
 - Use PRs to discuss change proposals to the handbook whenever possible (an exception, for example, might be when discussing non-public information that might lead to a handbook update.) Using a Google Doc, Slack, etc. instead can be easy to miss existing (even conflicting) content and also makes it hard to follow the discussion since it is in multiple places. Getting to a PR also more quickly makes it easier to discover these and for others to contribute cross-links or highlight duplicated/conflicting content.
-  - **Note:** In some cases, it might make sense to start with an [RFC](../communication/rfcs/index.md). In any case, before changes are implemented, they must be documented in the handbook.
-- Follow the [Sourcegraph content guidelines](../communication/content_guidelines/index.md) for consistent voice and style.
+  - **Note:** In some cases, it might make sense to start with an [RFC](../company-info-and-process/communication/rfcs/index.md). In any case, before changes are implemented, they must be documented in the handbook.
+- Follow the [Sourcegraph content guidelines](../company-info-and-process/communication/content_guidelines/index.md) for consistent voice and style.
 - Follow the [Handbook Content Best Practices](editing/handbook-content-best-practices.md) for help with structuring your content, and deciding where it should live.
 
 ## Why do we use Git? Why not a wiki or Google Docs?
@@ -62,6 +62,27 @@ The handbook consists of Markdown files in the Git repository at github.com/sour
 
 1. Many handbook changes require updating references and mentions across multiple pages. In wikis and Google Docs, there is no easy way to propose a _group_ of changes to multiple sections or pages, which means people making and reviewing edits can easily miss other places that need to be updated. This format allows grouped multi-page changes and collaboration. This is more complicated than wikis or Google Docs, but we commit to help every teammate [learn how to edit this handbook](editing/index.md).
 1. Many handbook changes are collaborative and need to be reviewed, revised, and commented on by other teammates. Git makes this possible, with comments and code reviews. Wikis don't make this easy or possible, and Google Docs has very limited review and no revision capabilities.
+
+## Handbook Support
+
+### Handbook support in Slack
+
+Contact @handbook-support in the #handbook channel for help with the Handbook. @handbook-support is a volunteer-based group of Sourcegraph teammates that are passionate about the Handbook and eager to help. Join the @handbook-support group in Slack if you're interested in helping in this capacity.
+
+### Handbook Office Hours
+
+Handbook Office Hours are held by the Handbook Product Manager every Wednesday at 16:00 UTC. Look for weekly reminders in the #handbook-announce channel.
+
+Office Hours are open to all Sourcegraph teammates. Join for a few minutes, or the whole hour. Some of the things we cover:
+
+- Questions about making changes to the Handbook
+- Handbook Troubleshooting
+- Ideas for Handbook improvements
+- Discussion of Handbook process and features
+
+### Handbook Hacking Hours
+
+Handbook Hacking Hours are held every Monday at 15:00 UTC, open to all Sourcegraph teammates to work on the Handbook website. We usually work through [Handbook Issues](https://github.com/sourcegraph/handbook/projects/1). The goal is to create some dedicated time to talk handbook, try things out, make it better, fail at things together, etc.
 
 ## Handbook feedback
 
