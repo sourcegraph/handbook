@@ -13,13 +13,13 @@ Text:
 - We use SF Pro for all text. [Download SF Pro](https://drive.google.com/drive/folders/1X1hwQr4lGGVn5BDe4f09q_xRqboQZpsQ) and install it on your system.
   - You may also need the [Figma font installer](https://www.figma.com/downloads/) if you use Figma in the browser instead of on desktop.
 - All text styles are available through Wildcard text styles.
-- The style definitions for our text styles are in the Sticker Sheet.
+- The style definitions for our text styles are in the [Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=908%3A0).
 
 Colors:
 
 - There are four groups of colors used in Wildcard: Root, Semantic, Brand, and Open Color (OC).
 - Of these groups, the Semantic colors are the ones to be used in day-to-day design work.
-- The style defitions for the Root and Semantic color styles are in the Sticker Sheet. The Open Color definitions are in the Colors page.
+- The style defitions for the Root and Semantic color styles are in the [Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=908%3A0). The Open Color definitions are in the Colors page.
 
 Space:
 
