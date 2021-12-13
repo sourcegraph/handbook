@@ -2,7 +2,7 @@
 
 This is a guide for product managers on how to think about pricing and tiering your features. [Deprecation of features](deprecation_process.md) is a separate topic with its own page.
 
-The below information can help guide you to a recommendation, but to make a pricing decision you should engage the [pricing council](https://docs.google.com/document/d/1p-UswkBx0aGsNtg7FF0-G2OiWyr7vRidOO6xWPuXYqE/edit#) by contacting the members as a group, and/or asking in the #pricing Slack channel. Note that this process is temporarily documented in the RFC, but will be moving to the handbook.
+The below information can help guide you to a recommendation, but to make a pricing decision you should engage the [pricing council](https://docs.google.com/document/d/1p-UswkBx0aGsNtg7FF0-G2OiWyr7vRidOO6xWPuXYqE/edit#) by contacting the members as a group, and/or asking in the #pricing Slack channel. They own the final decision on what to do in all cases. _Note that this process is temporarily documented in the RFC, but will be moving to the handbook._
 
 ## Strategy
 
