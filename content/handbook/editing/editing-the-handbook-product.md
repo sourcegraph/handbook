@@ -4,7 +4,7 @@ There are many facets to the Handbook. Some benefit greatly from distributed own
 
 The purpose of this page is to define these facets, their ownership, and how to contribute to each. Ownership in this context means the person or group primarily responsible for driving improvements, owners are not the only contributors. The contribution sections below describe how (and by whom) these types of changes are made. These will change as the Handbook team grows, and the product evolves.
 
-Read more about the Handbook strategy and current priorities [here](../../strategy-goals/strategy/enablement/handbook/index.md).
+The Handbook is part of the [Content Platform team strategy](../../strategy-goals/strategy/enablement/content-platform/index.md).
 
 ## Handbook Facets
 
