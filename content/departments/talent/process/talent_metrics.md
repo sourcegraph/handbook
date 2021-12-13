@@ -1,7 +1,8 @@
 # Recruitment Metrics
 
 ## What we measure
-COMING SOON 
+
+COMING SOON
 
 ## Estimated time-to-hire
 
