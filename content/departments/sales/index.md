@@ -33,6 +33,7 @@ Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.goo
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
 - [Gregg Stone](../../team/index.md#gregg-stone) (VP of Sales)
+- Amber Smokowski (Executive Business Partner, Sales and Marketing)
 - [Dudley Nostrand](../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
   - [Trey Sizemore](../../team/index.md#trey-sizemore) (Sales Enablement Manager)
 - [Scott Campbell](../../team/index.md#scott-campbell) (Regional Director of East)
@@ -68,6 +69,8 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - Kevin Quigley
   - Mark Muldez
   - Sam Cregg
+- Joe Kirscher (Sales Strategy and Operations Manager)
+  - Seth Hoover (Salesforce Administrator and Developer)
 
 ### Roles
 
