@@ -57,7 +57,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - Suki Randhawa
   - Mike Shinn
   - Luke Taylor
-- Nick Gage (Head of Sales Development) 
+- Nick Gage (Head of Sales Development)
   - Brannon Rouse
   - Carter Jaenichen
   - Casi Neff
