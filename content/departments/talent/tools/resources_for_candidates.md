@@ -2,11 +2,11 @@
 
 # How to apply
 
-The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91).
+The source-of-truth for our open positions is [our careers page](https://about.sourcegraph.com/jobs/).
 
 We want to build a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, please apply anyway. We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 
-We are growing rapidly and post new jobs on a weekly basis. We encourage you to check our [our careers page](https://boards.greenhouse.io/sourcegraph91) regularly to see if there is a match.
+We are growing rapidly and post new jobs on a weekly basis. We encourage you to check our [our careers page](https://about.sourcegraph.com/jobs/) regularly to see if there is a match.
 
 # Working at Sourcegraph
 
