@@ -4,7 +4,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 
 ## [Resources for Candidates](tools/resources_for_candidates.md)
 
-- [Careers page & open positions](tools/resources_for_candidates.md#how-to-apply)
+- [Careers page & open positions](https://about.sourcegraph.com/jobs/)
 - [Company values](tools/resources_for_candidates.md#our-company-values)
 - [Perks, benefits & compensation](tools/resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](tools/resources_for_candidates.md)
