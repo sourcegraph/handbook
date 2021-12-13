@@ -56,7 +56,7 @@ How each department uses these and what they need out of them is described on ou
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, these are our [product design principles](../../product-engineering/product/design/product_design_principles.md).
+Additionally, these are our [product design principles](../../departments/product-engineering/product/design/product_design_principles.md).
 
 ## Assumptions
 
@@ -73,7 +73,7 @@ Additionally, these are our [product design principles](../../product-engineerin
 
 ## Where we're at now
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../product-engineering/product/index.md#feature-matrices). The [following](../../product-engineering/strategy.md) gives on overview of what we are working on today.
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../departments/product-engineering/product/index.md#feature-matrices). The [following](../../departments/product-engineering/strategy-goals/index.md) gives on overview of what we are working on today.
 
 ## Five-year vision: democratize code
 
@@ -103,7 +103,7 @@ Coding itself is a technology, and we anticipate the technology adoption curve w
 
 Within this overall product strategy, individual product teams set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
-### [Product & Engineering](../../product-engineering/strategy.md)
+### [Product & Engineering](../../departments/product-engineering/strategy-goals/index.md)
 
 #### [Code Graph](code-graph/index.md)
 
