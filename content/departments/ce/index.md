@@ -26,8 +26,8 @@ This continuity means we give customers consistent and high-quality service from
 - [CE Team Norms](team-culture/index.md)
 - [CE Tools](tools/ce-tools.md)
 - [Career Growth](career-growth/index.md)
-- [Use cases](../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../strategy-goals/strategy/working_with_use_cases.md)
+- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
+- [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
 
 ## Current Team Members
 

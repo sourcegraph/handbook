@@ -76,8 +76,8 @@ The table below breaks down the capabilities of each team within Marketing. Once
 
 - [Marketing roles - open positions](https://sourcegraph.com/careers)
 
-- [Use cases](../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../strategy-goals/strategy/working_with_use_cases.md)
+- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
+- [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
 
 ## Members
 
