@@ -5,7 +5,7 @@ we have tooling to ensure that code change merged to **main**
 are automatically deployed_
 
 To learn more about the continuous delivery process for Sourcegraph
-Cloud, visit: [Sourcegraph Cloud Continuous Delivery](../../process/deployments/index.md).
+Cloud, visit the [deployments](../../process/deployments/index.md) documentation.
 
 These docs are most relevant during a **codefreeze** or if the continuous delivery
 pipeline is not working.
