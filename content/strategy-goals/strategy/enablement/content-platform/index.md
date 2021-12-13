@@ -9,6 +9,7 @@ This page outlines the vision, strategy, and goals of the Content Platform team.
 Create, manage, and optimize the content platforms that enable the success of Sourcegraph’s business objectives.
 
 The current existing content platforms include:
+
 - [Marketing site](https://about.sourcegraph.com)
 - [Blog](https://about.sourcegraph.com/blog/)
 - [Learn site](https://learn.sourcegraph.com)
@@ -34,10 +35,10 @@ This team will be successful if it can deliver on its customers’ needs to help
 ### Customers
 
 The Content Platform team has the following customers:
+
 1. Marketing department: The marketing, blog, and learn sites.
 1. Content Platform: The handbook site
-Product department: The Docs site
-
+   Product department: The Docs site
 
 ## Strategy and Plans
 
@@ -47,14 +48,14 @@ The next six months are focused on better defining the Handbook as a product and
 
 #### FY22 Q4
 
--Establish a scalable process for marketing web requests for the Content Platform team
-    - Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
+-Establish a scalable process for marketing web requests for the Content Platform team - Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
+
 - Create a hiring plan for 2 x full-time engineers and 1 x engineering manager
 - Establish a unified technical strategy to drive all content platforms forward
-    - We have unofficially already settled on Next.js as the framework that serves our needs. It currently powers the handbook and learn sites and is being used to implement the blog redesign.
- Deliver the implementation of the redesigned blog
-    - The blog design rollout is almost complete, and the team is actively working on building the templates.
-    - Integrate headless CMS for content management of the blog
+  - We have unofficially already settled on Next.js as the framework that serves our needs. It currently powers the handbook and learn sites and is being used to implement the blog redesign.
+    Deliver the implementation of the redesigned blog
+  - The blog design rollout is almost complete, and the team is actively working on building the templates.
+  - Integrate headless CMS for content management of the blog
 
 #### FY23 Q1
 
