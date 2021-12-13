@@ -14,7 +14,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 ## Resources for Hiring Managers
 
 - [Opening a new job](process/opening_a_new_job.md)
-  - [Who is my recruiter?] COMING SOON
+  - [Who is my recruiter?](process/teamalignment.md)
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
   - [Writing a job description](process/opening_a_new_job.md)
   - [Creating an interview plan](process/opening_a_new_job.md)
@@ -63,7 +63,6 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [The offer letter](process/extending_an_offer.md)
   - [Counter offer conversations] COMING SOON
 - [After the offer](process/after_the_offer.md)
-  - [Cohort start dates] COMING SOON
   - [Onboarding process] COMING SOON
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
