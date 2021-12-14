@@ -30,6 +30,7 @@ The below actions must take place before we begin interviewing candidates.
 **Step 1**: the Recruiter schedules a 30-minute intake meeting with the Hiring Manager to kick off the search and review the responses to the intake form. The intake meeting is intended for the Hiring Manager and the Recruiter to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success.
 
 Example topics to cover during intake meeting:
+
 - Job title
 - Reason for opening
 - Job level
@@ -57,7 +58,9 @@ Example topics to cover during intake meeting:
 **Step 4**: the Recruiter creates a Slack channel with the Interview Team and starts the Slack Kick-Off Process
 
 1. Create a new channel slack channel named: “team-hiring_position_recruiter-name”
-  - Example: “ops-hiring_handbook-product-manager_recruiter-kelsey”
+
+- Example: “ops-hiring_handbook-product-manager_recruiter-kelsey”
+
 2. Invite the entire interview panel plus VP Talent, Recruiting Coordinator & Sourcer to the channel
 3. Tag VP Talent to make the channel private
 4. Once private, send kick off note using the below template:
@@ -65,6 +68,7 @@ Example topics to cover during intake meeting:
 Hi team! We are excited to kick off our [hyperlink job description] opening and I appreciate all of you participating in the interview process. I thought it would be helpful to create a Slack channel to stay aligned as we begin interviewing candidates!
 
 As a next step, please:
+
 1. Review the below interview process and qualifications
 2. Please share this post to social media to help drive applicants to the role
 3. Please review these pages in the handbook:
@@ -74,19 +78,21 @@ As a next step, please:
 4. Please review our [Guide to Using BrightHire](../tools/guide_to_using_brighthire.md) and ensure you download the BrightHire Chrome extension.
 
 Interview process / hiring team:
-- [30m] [Recruiter screen](../process/types_of_interviews.md#recruiter-screen): 
-- [30-60m] [Hiring Manager screen](../process/types_of_interviews.md#hiring-manager-screen): 
-- Assignment, if applicable: 
+
+- [30m] [Recruiter screen](../process/types_of_interviews.md#recruiter-screen):
+- [30-60m] [Hiring Manager screen](../process/types_of_interviews.md#hiring-manager-screen):
+- Assignment, if applicable:
 - In-depth Interview Stage:
-  - [1h] [Resume Deep Dive](../process/types_of_interviews.md#resume-deep-dive): 
-  - [30m] Assignment review/working session, if applicable: 
-  - [60-120m] Technical interview, if applicable: 
-  - [30-60m] [Cross-functional Team collaboration interview](../process/types_of_interviews.md#cross-team-collaboration-interview): 
-  - [30m] [Peer interview](../process/types_of_interviews.md#peer-interview): 
-- [30m] [Values interview](../process/types_of_interviews.md#values-interview): 
-- [15-30m] [Leadership Interview](../process/types_of_interviews.md#leadership-interview): 
+  - [1h] [Resume Deep Dive](../process/types_of_interviews.md#resume-deep-dive):
+  - [30m] Assignment review/working session, if applicable:
+  - [60-120m] Technical interview, if applicable:
+  - [30-60m] [Cross-functional Team collaboration interview](../process/types_of_interviews.md#cross-team-collaboration-interview):
+  - [30m] [Peer interview](../process/types_of_interviews.md#peer-interview):
+- [30m] [Values interview](../process/types_of_interviews.md#values-interview):
+- [15-30m] [Leadership Interview](../process/types_of_interviews.md#leadership-interview):
 
 At a high level, here is an overview of what we’re looking for in this hire. @hiringmanager, please add any additional insight that will be helpful for the hiring team to keep in mind as they interview candidates!
+
 - Why is this position open:
 - The ideal candidate:
 - Level:
@@ -97,5 +103,3 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 **Step 5**: the Recruiter begins generating a candidate pool by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter
 
 - Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
-
-
