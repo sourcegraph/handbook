@@ -1,17 +1,17 @@
-import test from 'ava'
+/* eslint-env jest */
 
 import { cleanupRedirectsForTesting as cleanupRedirects } from './redirects.mjs'
 
-test('basic', t => {
-    t.deepEqual(cleanupRedirects([]), [])
+test('basic', () => {
+    expect(cleanupRedirects([])).toEqual([])
 })
 
-test('loops', t => {
+test('loops', () => {
     const directLoop = [
         { source: '/ops/finance/arr', destination: '/ops/finance/ap' },
         { source: '/ops/finance/ap', destination: '/ops/finance/arr' },
     ]
-    t.deepEqual(cleanupRedirects(directLoop), [{ source: '/ops/finance/arr', destination: '/ops/finance/ap' }])
+    expect(cleanupRedirects(directLoop)).toEqual([{ source: '/ops/finance/arr', destination: '/ops/finance/ap' }])
 
     const indirectLoop = [
         { source: '/b', destination: '/c' },
@@ -20,7 +20,7 @@ test('loops', t => {
     ]
     // Intermediate redirect destinations should be replaced with final ones, and the last
     // link should be dropped to break the cycle.
-    t.deepEqual(cleanupRedirects(indirectLoop), [
+    expect(cleanupRedirects(indirectLoop)).toEqual([
         { source: '/b', destination: '/c' },
         { source: '/a', destination: '/c' },
     ])
@@ -31,7 +31,7 @@ test('loops', t => {
         { source: '/a', destination: '/b' },
     ]
     // The loop should still be detected and the last redirect dropped.
-    t.deepEqual(cleanupRedirects(outOfOrderLoop), [
+    expect(cleanupRedirects(outOfOrderLoop)).toEqual([
         { source: '/c', destination: '/a' },
         { source: '/b', destination: '/a' },
     ])
@@ -41,5 +41,5 @@ test('loops', t => {
         { source: '/b', destination: '/c' },
         { source: '/a', destination: '/c' },
     ]
-    t.deepEqual(cleanupRedirects(chainedRedirects), chainedRedirects)
+    expect(cleanupRedirects(chainedRedirects)).toEqual(chainedRedirects)
 })
