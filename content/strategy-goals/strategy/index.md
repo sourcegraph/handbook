@@ -42,7 +42,7 @@ We have identified five key use cases for our universal code search platform:
 1. Fixing vulnerabilities
 1. Incident Response
 
-How each department uses these and what they need out of them is described on our [working with use cases](./working_with_use_cases.md) page.
+See also our (internal only) [use cases slide](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0) for presenting these. How each department uses them and what they need out of them is described on our [working with use cases](./working_with_use_cases.md) page.
 
 ## Principles
 
