@@ -20,8 +20,8 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 
 #### Team-specific totals
 
-- We expect new [Design team](../../product-engineering/product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
-- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
+- We expect new [Design team](../../departments/product-engineering/product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
+- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../departments/ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
 
@@ -59,7 +59,7 @@ Different specs are required depending on your role, please see below for necess
 ### Product team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
-  - [See product in CDW for reference]()
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 ### Engineering team laptops:
@@ -69,6 +69,11 @@ Different specs are required depending on your role, please see below for necess
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 ### Customer Support team laptops:
+
+- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
+
+### Data & Analytics team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)

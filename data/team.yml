@@ -912,15 +912,6 @@ kelsey_brown:
   links: '[Linkedin](https://www.linkedin.com/in/kelsey-brown-25220b68/)'
   description: Prior to Sourcegraph, Kelsey worked in consulting on projects related to strategy, business operations, and technology. Outside of work, Kelsey loves doing anything active, including weightlifting, snowboarding, and playing ultimate frisbee. She is currently based in the Washington, DC area, but hails from Chicago, and would therefore be happy to passionately defend the superiority of Chicago-style over New York-style pizza with you any day of the week.
 
-ryan_hitchman:
-  name: Ryan Hitchman
-  role: Software Engineer, Search Core Backend
-  location: Boulder, Colorado, USA
-  github: rmmh
-  email: hitchman@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/ryan-hitchman-485974aa)'
-  description: Ryan loves cooking, photography, his family, and learning all sorts of trivia.
-
 bill_creager:
   name: Bill Creager
   role: Director of Engineering
@@ -2202,3 +2193,41 @@ filip_haftek:
   email: filip.haftek@sourcegraph.com
   links: '[LinkedIn](https://pl.linkedin.com/in/filip-haftek-a5710114)'
   description: 'Filip is a software engineer DevOps located in Krakow, Poland. He really likes to help people, especially in the areas he has an experience like cloud infrastructure (+ terraform), automation, CI/CD, search engines and the applications performance and monitoring. He loves to spend time with his family, especially skiing, walking through the forests and travelling together. Winter is his favourite part of the year :skier: :snowflake:'
+
+cory_dobson:
+  name: Cory Dobson
+  pronouns: he/him
+  role: Enterprise Account Executive - Sales
+  location: Portland, OR, USA 🇺🇸
+  github: corydobson
+  email: cory.dobson@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/cory-dobson-12530826/)'
+  description: 'Cory is an Enterprise Account Executive based in Portland, OR. Prior to Sourcegraph, Cory worked in different Solutions Engineering roles at developer-focused companies like GitHub, Stripe, and Algolia. Outside of work, he likes playing music, taking photos, and exploring new places.'
+
+isuru_fonseka:
+  name: Isuru Fonseka
+  pronouns: he/him
+  role: Senior Customer Engineer
+  location: Sydney, Australia 🇦🇺
+  github: Isuru-F
+  email: isuru.fonseka@sourcegraph.com
+  links: '[LinkedIn](https://linkedin.com/in/isurufonseka)'
+  description: 'Isuru lives in Sydney, Australia. In his free time he is hanging out with his wife and two cats, fishing, or playing squash'
+
+daniel_dides:
+  name: Daniel Dides
+  role: Cloud DevOps
+  location: Flint, TX, USA 🇺🇸
+  email: daniel.dides@sourcegraph.com
+  github: danieldides
+  links: '[LinkedIn](https://www.linkedin.com/in/danieldides/)'
+  description: Daniel lives in Flint, TX with his wife, two dogs, a cat, and a couple of horses. During the day, Dan enjoys helping people leverage Kubernetes and modern cloud tooling. When he's not working, he enjoys watching rocket launches, designing and 3D printing parts, and tinkering with new technologies.
+
+nicolas_hernandez:
+  name: Nick Hernandez
+  role: Enterprise Account Executive - Sales
+  location: New York City, NY, USA 🇺🇸
+  email: nick.hernandez@sourcegraph.com
+  github: fryster66
+  links: '[LinkedIn](https://www.linkedin.com/in/nicolas-hernandez-70242033/), [@HiDoctorNico](https://twitter.com/hidoctornico), [Why I Joined Sourcegraph](https://medium.com/@doktanick/why-i-am-joining-sourcegraph-99fba51df985)'
+  description: Nick grew up in San Francisco and is currently in NYC. He graduated from Stanford where he studied Comp Lit and then took a fellowship to study law in Germany. He started his career in Enteprise Software at MuleSoft where he held a number of different sales roles. After that, he built the sales team at Vivian, a healthcare labor marketplace owned by IAC. Nick likes to read books, drink tea, and explore on foot. He is taking music recommendations.

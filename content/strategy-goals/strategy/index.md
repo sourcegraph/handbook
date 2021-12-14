@@ -30,7 +30,19 @@ To make it so [everyone can code](#purpose), we will create tools, networks, and
 
 ## Values
 
-Our [values](../../company/values.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
+Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
+
+## Use cases
+
+We have identified five key use cases for our universal code search platform:
+
+1. Developer onboarding & velocity
+1. Code reuse
+1. Code health
+1. Fixing vulnerabilities
+1. Incident Response
+
+See also our (internal only) [use cases slide](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0) for presenting these. How each department uses them and what they need out of them is described on our [working with use cases](./working_with_use_cases.md) page.
 
 ## Principles
 
@@ -44,7 +56,7 @@ Our [values](../../company/values.md) are the principles and beliefs that help u
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, these are our [product design principles](../../product-engineering/product/design/product_design_principles.md).
+Additionally, these are our [product design principles](../../departments/product-engineering/product/design/product_design_principles.md).
 
 ## Assumptions
 
@@ -61,7 +73,7 @@ Additionally, these are our [product design principles](../../product-engineerin
 
 ## Where we're at now
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../product-engineering/product/index.md#feature-matrices). The [following](../../product-engineering/strategy.md) gives on overview of what we are working on today.
+A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../departments/product-engineering/product/index.md#feature-matrices). The [following](../../departments/product-engineering/strategy-goals/index.md) gives on overview of what we are working on today.
 
 ## Five-year vision: democratize code
 
@@ -91,7 +103,7 @@ Coding itself is a technology, and we anticipate the technology adoption curve w
 
 Within this overall product strategy, individual product teams set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
 
-### [Product & Engineering](../../product-engineering/strategy.md)
+### [Product & Engineering](../../departments/product-engineering/strategy-goals/index.md)
 
 #### [Code Graph](code-graph/index.md)
 
@@ -107,7 +119,7 @@ Within this overall product strategy, individual product teams set their own goa
 - [Frontend Platform](enablement/frontend-platform/index.md)
 - [Repo Management](enablement/repo-management/index.md)
 - [Engineering Education](enablement/engineering-education/index.md)
-- [Handbook](enablement/handbook/index.md)
+- [Handbook](enablement/content-platform/index.md)
 
 #### Cloud
 

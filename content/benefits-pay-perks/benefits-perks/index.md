@@ -6,7 +6,7 @@ We want our teammates to be happy, healthy, and productive. In order to best sup
 
 ### 🏡 All remote
 
-We are an [all-remote team](../../company/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](spending-company-money.md).
+We are an [all-remote team](../../company-info-and-process/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](spending-company-money.md).
 
 ### 🏖️ Flexible PTO
 
@@ -22,7 +22,7 @@ We value and support teammates at all stages of life. We provide 16 weeks of pai
 
 ### 📚 Professional development
 
-In addition to on-the-job training, we offer a $1,000 yearly stipend for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](../../people-ops/impact-reviews.md) for all teammates.
+In addition to on-the-job training, we offer a $1,000 yearly stipend for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](../../departments/people-ops/process/impact-reviews.md) for all teammates.
 
 ### ✈️ Travel
 
