@@ -33,17 +33,19 @@ Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.goo
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
 - [Gregg Stone](../../team/index.md#gregg-stone) (VP of Sales)
+- Amber Smokowski (Executive Business Partner, Sales and Marketing)
 - [Dudley Nostrand](../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
   - [Trey Sizemore](../../team/index.md#trey-sizemore) (Sales Enablement Manager)
-- [Scott Cambell](../../team/index.md#scott-campbell) (Regional Director of East)
+- [Scott Campbell](../../team/index.md#scott-campbell) (Regional Director of East)
   - [Kai Passo](../../team/index.md#kai-passo)
   - [Bill Kolman](../../team/index.md#bill-kolman)
   - [Eli Rothschild](../../team/index.md#eli-rothschild)
-  - [Scott Cambell](../../team/index.md#scott-campbell)
+  - [Scott Campbell](../../team/index.md#scott-campbell)
   - [Caitlin Moran](../../team/index.md#caitlin-moran)
   - [Ken Mills](../../team/index.md#ken-mills)
   - [Brady Hermann](../../team/index.md#brady-herrmann)
 - [Greg Bastis](../../team/index.md#greg-bastis) (Regional VP of West)
+  - Mike Franko (Regional Director of Sales, West)
   - [Owen Brennan](../../team/index.md#owen-brennan)
   - [Chris Surdi](../../team/index.md#chris-surdi)
   - Will Camp
@@ -54,7 +56,21 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Cory Dobson](../../team/index.md#cory-dobson)
 - Prakash Durgani (Head of International Sales)
   - Khoshal Wial
-  - Suki Randhawa(../../team/index.md#suki-randhawa)
+  - Suki Randhawa
+  - Mike Shinn
+  - Luke Taylor
+- Nick Gage (Head of Sales Development)
+  - Brannon Rouse
+  - Carter Jaenichen
+  - Casi Neff
+  - Daniel Gwyn
+  - Ellie Dawson
+  - Jagna Feierabend
+  - Kevin Quigley
+  - Mark Muldez
+  - Sam Cregg
+- Joe Kirscher (Sales Strategy and Operations Manager)
+  - Seth Hoover (Salesforce Administrator and Developer)
 
 ### Roles
 
