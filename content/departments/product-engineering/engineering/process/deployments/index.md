@@ -32,7 +32,7 @@ Changes to [the main `sourcegraph/sourcegraph` repository](https://github.com/so
 
 Each Sourcegraph service is provided as a Docker image. Every commit to `main` in [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph) pushes updated Docker images for all of our services to [Docker Hub](https://hub.docker.com/u/sourcegraph/) as part of our [CI pipeline](https://buildkite.com/sourcegraph/sourcegraph) (i.e. if CI is green, then Docker images have been pushed). Images are first built as "candidate" images that are pushed to GCR to with the tag format `<commit-hash>_<build-number>_candidate`. The pipeline then runs a series of tests and checks against the images. If all pipeline steps pass the images are "promoted" and pushed to DockerHub with the tag format `<build-number>_<date>_<commit-hash>`. These are used by [Sourcegraph Cloud](instances.md#sourcegraph-cloud).
 
-When [a new semver release](https://handbook.sourcegraph.com/departments/product-engineering/engineering/process/releases) is cut the pipelines, will build a release image with the same tag as the latest [release version](https://github.com/sourcegraph/sourcegraph/tags) as well. These are used by customer deployments.
+When [a new semver release](../releases/index.md) is cut the pipelines, will build a release image with the same tag as the latest [release version](https://github.com/sourcegraph/sourcegraph/tags) as well. These are used by customer deployments.
 
 For pushing custom images, refer to [building Docker images for specific branches](#building-docker-images-for-a-specific-branch).
 
