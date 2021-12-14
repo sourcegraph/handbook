@@ -8,7 +8,7 @@ To learn more about the continuous delivery process for Sourcegraph
 Cloud, visit the [deployments](../../process/deployments/index.md) documentation.
 
 > NOTE: These docs are most relevant during a **codefreeze** or if the continuous delivery
-pipeline is not working.
+> pipeline is not working.
 
 - [Deploying a code change to Sourcegraph Cloud](#deploying-a-code-change-to-sourcegraph-cloud)
   - [Assumptions](#assumptions)
