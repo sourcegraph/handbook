@@ -104,6 +104,3 @@ For every confirmed vulnerability in Sourcegraph or its products, regardless of 
 - Coordinate upgrades with customers for HIGH/CRITICAL issues.
 
 If you find any past Sourcegraph vulnerabilities that were not disclosed this way please let us know.
-
-
-
