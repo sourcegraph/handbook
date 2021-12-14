@@ -96,11 +96,11 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 
 ## [1-1 meetings](1-1.md)
 
-See "[1-1 meetings](1-1.md)".
+See [1-1 meetings](1-1.md).
 
 ## [Announcements](announcements.md)
 
-See "[Announcements](announcements.md)".
+See [Announcements](announcements.md).
 
 ## Shortening URLs
 

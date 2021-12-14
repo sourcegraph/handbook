@@ -22,7 +22,7 @@ The previous 2 goals entail fast growth, which is risky for any company to under
 
 ## Responsibilities
 
-See "[Roles of the CEO](roles.md)".
+See [Roles of the CEO](roles.md).
 
 ## Communication
 
