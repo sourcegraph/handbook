@@ -42,7 +42,7 @@ The Content Platform team has the following customers:
 
 ## Strategy and Plans
 
-The next six months are focused on better defining the Handbook as a product and team. While forming our team we will enhance existing functionality like discovering and editing content.
+In the next six months, we will focus primarily on improving the self-service ability of the marketing site and blog for the Marketing department.
 
 ### Goals
 
