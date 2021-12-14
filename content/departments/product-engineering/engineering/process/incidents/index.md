@@ -27,7 +27,7 @@ The first Sourcegraph teammate (regardless of their role) that becomes aware of 
 
 1. If the incident was reported by someone outside of Sourcegraph, acknowledge that the incident is being handled.
 2. Start a new incident with the incident.<unlink></unlink>io Slack bot: `/incident`
-   - set the description and [severity](severity) from the modal in Slack
+   - set the description and [severity](#severity-levels) from the modal in Slack
    - this will create a new chatroom in Slack where all other communication should occur
 3. If you are not a member of product, engineering, or customer support, type the following into the Slack channel to page someone who can complete the rest of this list (otherwise proceed to the next step): `/genie alert we have an incident, please help for customer-support`
 4. Identify folks to serve in the following roles (see [how to identify folks to serve in incident lead and messenger roles](#how-to-identify-folks-to-serve-in-incident-lead-and-messenger-roles)
