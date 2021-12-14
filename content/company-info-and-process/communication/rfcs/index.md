@@ -10,6 +10,7 @@
   - Proposing process / handbook changes — [View](https://docs.google.com/document/d/1zInJ9mn_SePKjS8dLHS1EDt2_gUEkCKD544bDDSuJek/edit) or [Duplicate](https://docs.google.com/document/d/1zInJ9mn_SePKjS8dLHS1EDt2_gUEkCKD544bDDSuJek/copy)
 - [View all public RFCs](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa)
 - [View all private RFCs](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv)
+- There is also an #rfcs channel you can use to follow along with RFCs as they are created. The bot that updates the channel is a [Zapier](https://zapier.com) integration; you can request access in #it-tech-ops but you only need to do this if you want to modify the bot.
 
 ---
 
