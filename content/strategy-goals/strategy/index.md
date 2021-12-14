@@ -119,7 +119,7 @@ Within this overall product strategy, individual product teams set their own goa
 - [Frontend Platform](enablement/frontend-platform/index.md)
 - [Repo Management](enablement/repo-management/index.md)
 - [Engineering Education](enablement/engineering-education/index.md)
-- [Handbook](enablement/content-platform/index.md)
+- [Content Platform](enablement/content-platform/index.md)
 
 #### Cloud
 
