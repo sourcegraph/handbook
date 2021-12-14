@@ -43,7 +43,7 @@ After the candidate formally signs the offer letter via DocuSign (or PEO documen
   - VP of Talent
   - Hiring Manager
 
-**Step 6**: the Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel 
+**Step 6**: the Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel
 
 **Step 7**: the Recruiter archives the Channel after people respond
 
@@ -52,18 +52,21 @@ After the candidate formally signs the offer letter via DocuSign (or PEO documen
 **Step 8**: the People Operations team then works with the candidate to onboard them and get them set up for their first day!
 
 ## Onboarding process for PEO hires
+
 COMING SOON
 
-## Changing a new hire's start date 
+## Changing a new hire's start date
+
 If a new hire needs to change their start date, the Recruiter follows the below steps:
 
-**Step 1**: Send the below Slack to Ines, Noemi, & Carly to request approval to change the start date. 
-_Please note: all requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard
+**Step 1**: Send the below Slack to Ines, Noemi, & Carly to request approval to change the start date.
+\_Please note: all requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard
 
-"Hi team, we have a candidate who would like to move their start date. Please find their updated details below. Do we have the green light to make the change? If so, I will update the hire date in Greenhouse and will send an email with the updated start date. 
-- Name: ____
-- Original start date: ______
-- New start date: (must be a cohort date): ______"
+"Hi team, we have a candidate who would like to move their start date. Please find their updated details below. Do we have the green light to make the change? If so, I will update the hire date in Greenhouse and will send an email with the updated start date.
+
+- Name: \_\_\_\_
+- Original start date: **\_\_**
+- New start date: (must be a cohort date): **\_\_**"
 
 **Step 2**: Update new start date in Greenhouse (in the offer section).
 
