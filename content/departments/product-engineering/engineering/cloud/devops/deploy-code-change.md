@@ -29,7 +29,7 @@ to build an image that bypasses tests.
 1. Find the image by either going to the [buildkite CI logs](https://buildkite.com/sourcegraph/sourcegraph) on [Sourcegraph](https://github.com/sourcegraph/sourcegraph) or searching [Dockerhub](https://hub.docker.com/u/sourcegraph) for the correct tag.
 1. The Sourcegraph tag format is `[build_number]_[date]_[short git SHA1]`
 
-1. Make the relevant image changes to the YAML files in the [cloud repo](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
+1. Make the relevant image changes to the YAML files in the [cloud repo](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
 
 - Typically, the image will be need to be updated in an `deployment` or `statefulset` file
 
