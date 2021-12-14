@@ -38,7 +38,7 @@ The Content Platform team has the following customers:
 
 1. Marketing department: The marketing, blog, and learn sites.
 1. Content Platform: The handbook site
-   Product department: The Docs site
+1. Product department: The Docs site
 
 ## Strategy and Plans
 
@@ -48,14 +48,9 @@ The next six months are focused on better defining the Handbook as a product and
 
 #### FY22 Q4
 
--Establish a scalable process for marketing web requests for the Content Platform team - Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
-
-- Create a hiring plan for 2 x full-time engineers and 1 x engineering manager
+- Establish a scalable process for marketing web requests for the Content Platform team - Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
 - Establish a unified technical strategy to drive all content platforms forward
-  - We have unofficially already settled on Next.js as the framework that serves our needs. It currently powers the handbook and learn sites and is being used to implement the blog redesign.
-    Deliver the implementation of the redesigned blog
-  - The blog design rollout is almost complete, and the team is actively working on building the templates.
-  - Integrate headless CMS for content management of the blog
+- Deliver the implementation of the redesigned blog
 
 #### FY23 Q1
 
@@ -63,7 +58,7 @@ The next six months are focused on better defining the Handbook as a product and
 - Implement Contentful CMS on marketing site
 - [Marketing website redesign](https://docs.google.com/document/u/0/d/1_LOCIwHGb8A42wqWjZzT6s75_aY6qFK4gMSHLa5YPPE/edit)
 
-### Longer-term
+#### Longer-term
 
 - Build a library of re-usable UI and functional components across our content platforms
 - Convert the docs site to use our preferred tech stack
