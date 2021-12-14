@@ -31,13 +31,13 @@ export const cleanupRedirectsForTesting = cleanupRedirects
  */
 export default async function redirects() {
     const movedPages = await getMovedPagesFromHistory()
-    return [
-        ...cleanupRedirects(movedPages),
+    return cleanupRedirects([
+        ...movedPages,
 
         // Add custom redirects
         {
             source: '/careers',
             destination: 'https://about.sourcegraph.com/jobs',
         },
-    ]
+    ])
 }
