@@ -26,7 +26,9 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Interview training & best practices](tools/interview_training.md)
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
   - [Scheduling an interview](process/interview_process.md)
+  - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
 - [Extending an offer](process/extending_an_offer.md)
+  - [Reference checks](process/reference_check_questions.md)
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
@@ -41,32 +43,37 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 ## Resources for Teammates
 
 - [How to refer a candidate](process/index.md#making-a-referral)
-- [Types of interviews](process/types_of_interviews.md)
+- [The interview process]
+  - [Interview training & best practices](tools/interview_training.md)
+  - [Types of interviews](process/types_of_interviews.md)
   - [Peer interview](process/types_of_interviews.md#peer-interview)
   - [Team collaboration interview](process/types_of_interviews.md#team-collaboration-interview)
   - [Values interview](process/evaluating_values.md)
-- [Interview training & best practices](tools/interview_training.md)
+  - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
 - [Recruiting Tools](process/index.md#recruiting-tools)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
-- [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
 
 - [Recruiter onboarding resources](onboarding/index.md)
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](tools/resources_for_recruiters.md)
+  - [The intake meeting](
 - [The interview process](process/interview_process.md)
   - [Interview training & best practices](tools/interview_training.md)
   - [Recruiter screen](process/types_of_interviews.md#recruiter-screen)
   - [How to schedule an interview](tools/resources_for_recruiting_operations.md#how-to-schedule-an-interview)
   - [How to partner with your sourcer] COMING SOON
 - [Extending an offer](process/extending_an_offer.md)
+  - [Reference checks](process/reference_check_questions.md)
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
   - [Counter offer conversations] COMING SOON
 - [After the offer](process/after_the_offer.md)
   - [Onboarding process] COMING SOON
+  - [Changing start dates]
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
@@ -76,6 +83,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruitment branding](process/job_boards.md)
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+- [Using agencies]
 
 ## Talent Team Members
 
