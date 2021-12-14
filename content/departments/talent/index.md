@@ -52,8 +52,8 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Values interview](process/evaluating_values.md)
   - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
 - [Recruiting Tools](process/index.md#recruiting-tools)
- - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
- - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+- [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+- [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
