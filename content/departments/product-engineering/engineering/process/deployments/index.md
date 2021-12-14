@@ -57,7 +57,7 @@ Sourcegraph Kubernetes deployments typically start off as [deploy-sourcegraph](h
 
 There is automation in place to drive automatic updates for certain deployments from `deploy-sourcegraph`:
 
-- [`deploy-sourcegraph-dot-com`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) utilizies on [on-commit buildkite pipeline](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/.buildkite/pipeline.yaml#L27:L33) to deploy applications automatically. On commit (either manually or by renovate), buildkite runs [`kubectl-apply-all.sh`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/kubectl-apply-all.sh) roll out the new images.
+- [`deploy-sourcegraph-dot-com`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) utilizies an [Buildkite pipeline](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/.buildkite/pipeline.yaml#L27:L33) to deploy applications automatically. On commits, including those from Renovate, this pipeline runs [`kubectl-apply-all.sh`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/kubectl-apply-all.sh) roll out the new images.
 
 For documentation about developing `deploy-sourcegraph` and cutting releases, refer to the [repository's `README.dev.md`](https://github.com/sourcegraph/deploy-sourcegraph/blob/master/README.dev.md).
 
