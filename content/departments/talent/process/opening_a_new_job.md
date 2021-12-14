@@ -130,7 +130,7 @@ We only partner with agencies in select instances as approved by the VP Talent a
 - Q: How do I engage with a new agency?
   - A: To engage with a new agency, please Slack @hiring with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on. As a next step, the VP of Talent will send and sign all agency agreements. All agencies sign our [standard agreement](https://docs.google.com/document/d/1IU_eWoZxEGQS8RRcjuUPfVD-byWScn5bsZE3e3oFZQ0/edit). The folder to store agency contracts can be found [here](https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq)
 - Q: What fee do we pay?
-- Our standard agency fee is 20%.
+  - Our standard agency fee is 20%.
 - Q: How do agencies submit candidates for consideration?
   - A: The talent team will set each agency up with a Greenhouse account. All agencies **must** submit candidates via Greenhouse. Please contact #hiring or recruiting@sourcegraph.com to get an agency added to Greenhouse.
 - Q: What do I do if an agency recruiter (with whom we do **not** have an agreement) emails me a candidate?
