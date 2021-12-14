@@ -24,14 +24,6 @@ export async function getMovedPagesFromHistory() {
             return { source, destination }
         })
         .filter(({ source, destination }) => destination.toLowerCase() !== source.toLowerCase())
-        // Make sure to filter out all redirects that lead to a destination that has ANOTHER redirect EARLIER in the list.
-        // Else it would create a redirect loop.
-        // This way, the top-most (most recent) entries win.
-        // Other redirect chains, that don't lead to loops, are fine.
-        .filter(({ destination }, index, list) => {
-            const otherIndex = list.findIndex(({ source }) => source === destination)
-            return otherIndex === -1 || otherIndex > index
-        })
 
     return movedFilesFromHistory
 }
