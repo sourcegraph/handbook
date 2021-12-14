@@ -27,7 +27,7 @@ Some good ideas for content are:
 - Find interesting use cases of Sourcegraph for things that hit the front page of [Hacker News](https://news.ycombinator.com), showcasing features like code search, batch changes, insights, and search notebooks to walk through source code for cool new OSS projects or help with things like CVE impact analysis/remediations
 - Technical deep dives into our technical philosophy (why we chose to use the architecture/algos/data structures we're using for code search, code intel, batch changes, code insights)
 
-When selecting a topic, you can also use our [keyword research](https://docs.google.com/document/d/1InVOqWkB6EIsVD0pP-qhtqAjC1-1SYYKOXpAD6IEmFU/edit) (internal only) insights.
+When selecting a topic, you can also take advantage of our [keyword research](https://docs.google.com/document/d/1InVOqWkB6EIsVD0pP-qhtqAjC1-1SYYKOXpAD6IEmFU/edit) (internal only) insights to select a topic with high impact.
 
 ## Collaboration with other teams
 
