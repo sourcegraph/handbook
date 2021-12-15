@@ -20,3 +20,5 @@ Suggested but not required:
 - If the PR makes a visual change to the UI (ex: changing the text of a button) you can include a screenshot or a video of it in the PR so that a reviewer knows exactly where to focus when looking at the change.
 
 - Also assign the PR to yourself so it is easier to find from search and also easy to switch assignee if need be.
+
+[Further reading here](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
