@@ -38,10 +38,6 @@
 
 Welcome to Engineering!
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
- 
-</div>
-
 <div class="container my-4 video-embed embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://storage.googleapis.com/sourcegraph-assets/handbook/eng%20dept%20video.mp4" allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
 </div>
