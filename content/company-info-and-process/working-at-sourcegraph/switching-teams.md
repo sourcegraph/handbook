@@ -58,6 +58,8 @@ The team that the teammate departs would have a additional opening (or additiona
 The teammate must accept that the new role may come with different compensation bands and leveling guides, and a teammate's specific compensation and level may not be transferable. The new role may come with higher or lower compensation, and that change will be reflected either way.
 
 ## Announcing a teammate transfer
-Once the offer is official, the new Hiring Manager: 
+
+Once the offer is official, the new Hiring Manager:
+
 - Annouces the news in #Teammate-announce.
-- Alerts People Operations to ensure that the teammate's new team & manager are listed accurately in Bamboo. 
+- Alerts People Operations to ensure that the teammate's new team & manager are listed accurately in Bamboo.
