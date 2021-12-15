@@ -1,4 +1,4 @@
-# Extending an Offer
+# Extending an offer
 
 ## The interview lifecycle
 
@@ -11,19 +11,22 @@
 
 **Step 1:** once finalist is identified, Recruiter completes references if necessary.
 
+- Learn more about our reference check philosophy [here](../process/reference_check_questions.md)
+
 **Step 2**: the Recruiter confirms level and compensation.
 
-- [Compensation philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation)
+- [Compensation philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation).
 
 **Step 3**: the Recruiter has a pre-closing conversation with the candidate to confirm mutual-interest. It is very important that the Recruiter makes no offer promises or commitments to the candidate until the offer has been formally approved in Greenhouse.
 
 - COMING SOON: closing & counter offer best practices
 
-**Step 4**: the Recruiter submits the offer for approval in Greenhouse.
+**Step 4**: the Recruiter [creates an offer in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer)
 
-- The offer start date **must** align on a cohort start date, which take place every 2-weeks.
+- The offer start date **must** align with a [cohort start date](https://calendar.google.com/calendar/u/0?cid=Y182OTdwMnZyMnA3cmJnYzNrMTRiODAwc2gxZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), which take place every 2-weeks.
   - If you need to start a Teammate on a non-cohort date, you must receive approval from Head of Talent and HR. To receive approval, please send a Slack to Head of Talent, Noemi and Ines with business case for starting on a non-cohort date.
-- Approval chain: VP Talent > Hiring Manager > Department Head > VP Operations.
+- Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
+- Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `"Yes"` or `"Strong Yes"` in feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
 
 **Step 5**: once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.

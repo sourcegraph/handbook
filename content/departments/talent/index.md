@@ -1,15 +1,19 @@
 # Talent
 
-The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates.
+The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome.
 
-## [Resources for Candidates](tools/resources_for_candidates.md)
+If you have any questions for the Talent Team, please email Recruiting@sourcegraph.com.
+
+## Resources for Candidates
 
 - [Careers page & open positions](tools/resources_for_candidates.md#how-to-apply)
 - [Company values](tools/resources_for_candidates.md#our-company-values)
 - [Perks, benefits & compensation](tools/resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](tools/resources_for_candidates.md)
-- [Types of interviews](process/types_of_interviews.md)
-- [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
+  - [Types of interviews & sample questions](process/types_of_interviews.md)
+  - [Sample interview questions](process/types_of_interviews.md)
+  - [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
+- [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
 
 ## Resources for Hiring Managers
 
@@ -18,12 +22,15 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
   - [Writing a job description](process/opening_a_new_job.md)
   - [Creating an interview plan](process/opening_a_new_job.md)
-  - [Types of interviews](process/types_of_interviews.md)
 - [The interview process](process/interview_process.md)
   - [Interview training & best practices](tools/interview_training.md)
+  - [Types of interviews](process/types_of_interviews.md)
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
   - [Scheduling an interview](process/interview_process.md)
+  - [Interviewing internal candidates](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+  - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
 - [Extending an offer](process/extending_an_offer.md)
+  - [Reference checks](process/extending_an_offer.md#offer-stage)
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
@@ -33,37 +40,46 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
   - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
 - [Using recruitment agencies](process/index.md)
-- [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
-## [Resources for Teammates](tools/resources_for_teammates.md)
+## Resources for Teammates
 
 - [How to refer a candidate](process/index.md#making-a-referral)
-- [Types of interviews](process/types_of_interviews.md)
+- [The interview process](process/interview_process.md)
+  - [Interview training & best practices](tools/interview_training.md)
+  - [Types of interviews](process/types_of_interviews.md)
   - [Peer interview](process/types_of_interviews.md#peer-interview)
   - [Team collaboration interview](process/types_of_interviews.md#team-collaboration-interview)
   - [Values interview](process/evaluating_values.md)
-- [Interview training & best practices](tools/interview_training.md)
+  - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
 - [Recruiting Tools](process/index.md#recruiting-tools)
-  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
-- [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+- [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+- [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
 
 - [Recruiter onboarding resources](onboarding/index.md)
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](tools/resources_for_recruiters.md)
+  - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
+  - [Sourcing candidates](process/opening_a_new_job.md#sourcing-candidates)
+  - [Partnering with your Sourcer](process/opening_a_new_job.md#partnering-with-your-sourcer)
+  - [Using external recruiting agencies](process/opening_a_new_job.md#using-external-recruiting-agencies)
 - [The interview process](process/interview_process.md)
   - [Interview training & best practices](tools/interview_training.md)
   - [Recruiter screen](process/types_of_interviews.md#recruiter-screen)
   - [How to schedule an interview](tools/resources_for_recruiting_operations.md#how-to-schedule-an-interview)
-  - [How to partner with your sourcer] COMING SOON
 - [Extending an offer](process/extending_an_offer.md)
+  - [Reference checks](process/extending_an_offer.md#offer-stage)
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
   - [Counter offer conversations] COMING SOON
 - [After the offer](process/after_the_offer.md)
-  - [Onboarding process] COMING SOON
+  - [How to mark a candidate as "hired"](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
+  - [Onboarding process](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
+  - [Onboarding via PEO](process/after_the_offer.md#onboarding-process-for-peo-hires)
+  - [Changing start dates](process/after_the_offer.md#changing-a-new-hires-start-date)
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
@@ -73,6 +89,7 @@ The Talent team is responsible for helping every team at Sourcegraph hire, and f
 - [Recruitment branding](process/job_boards.md)
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+- [Using external recruiting agencies](process/opening_a_new_job.md#using-external-recruiting-agencies)
 
 ## Talent Team Members
 

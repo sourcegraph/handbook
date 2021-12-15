@@ -8,7 +8,7 @@ Site configuration for sourcegraph.com is split into two files. One contains non
 
 ### Non-sensitive configurations
 
-Non-sensitve configurations are stored in a [ConfigMap](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/frontend/non-sensitive-site-config.ConfigMap.yaml) and are updated through our standard git flow.
+Non-sensitve configurations are stored in a [ConfigMap](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/frontend/non-sensitive-site-config.ConfigMap.yaml) and are updated through our standard git flow.
 
 ### Sensitive configurations
 
