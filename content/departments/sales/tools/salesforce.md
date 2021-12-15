@@ -240,6 +240,7 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 
 - All leads are put into an automated round robin process when they are converted in order to identify the AE owner
   - There are seperate queues for Inbound leads (by Region) and unassigned Outbound leads (by SDR / AE pairing)
+  - To be eligible for the round robin, a rep must first pass the [demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/)
 - Round robin spots are used when a meeting with a lead is scheduled, the outcome of the meeting does not matter
 - Consultants should not count in the round robin, and the SDR team should not convert consultant leads into the round robin queue
   - If a consultant does slip through, the scenario will be assessed on a one-off basis by Sales Ops and Sales Management
