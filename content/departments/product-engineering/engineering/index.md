@@ -36,6 +36,12 @@
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
 
+Welcome to Engineering!
+
+<div class="container my-4 video-embed embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://storage.googleapis.com/sourcegraph-assets/handbook/eng%20dept%20video.mp4" allowfullscreen="" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
+</div>
+
 ## Org chart
 
 - [How engineering is organized](team/index.md).
