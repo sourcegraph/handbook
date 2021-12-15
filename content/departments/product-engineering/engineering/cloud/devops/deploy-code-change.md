@@ -4,8 +4,11 @@ _Developers should rarely need to perform these steps since
 we have tooling to ensure that code change merged to **main**
 are automatically deployed_
 
-These docs are most relevant during a **codefreeze** or if the continuos delivery
-pipeline is not working.
+To learn more about the continuous delivery process for Sourcegraph
+Cloud, visit the [deployments](../../process/deployments/index.md) documentation.
+
+> NOTE: These docs are most relevant during a **codefreeze** or if the continuous delivery
+> pipeline is not working.
 
 - [Deploying a code change to Sourcegraph Cloud](#deploying-a-code-change-to-sourcegraph-cloud)
   - [Assumptions](#assumptions)
@@ -26,7 +29,7 @@ to build an image that bypasses tests.
 1. Find the image by either going to the [buildkite CI logs](https://buildkite.com/sourcegraph/sourcegraph) on [Sourcegraph](https://github.com/sourcegraph/sourcegraph) or searching [Dockerhub](https://hub.docker.com/u/sourcegraph) for the correct tag.
 1. The Sourcegraph tag format is `[build_number]_[date]_[short git SHA1]`
 
-1. Make the relevant image changes to the YAML files in the [cloud repo](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
+1. Make the relevant image changes to the YAML files in the [cloud repo](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
 
 - Typically, the image will be need to be updated in an `deployment` or `statefulset` file
 
