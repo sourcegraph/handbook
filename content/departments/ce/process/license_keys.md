@@ -83,7 +83,7 @@ query{
 }
 ```
 
-That should return their username.
+That should return their username, email(s) and whether the email address is verifed.
 
 ## Reporting an issue with the license key management system or feature gating
 
