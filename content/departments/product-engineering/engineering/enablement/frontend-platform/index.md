@@ -93,12 +93,12 @@ The team makes use of [tracking issues](../../process/tracking_issues.md) for tr
 
 ### Code Insights
 
-We have several [Code Insights](https://docs.sourcegraph.com/code_insights) dashboards on Sourcegraph.com which we use to track progress:
+We have several [Code Insights](https://docs.sourcegraph.com/code_insights) dashboards on [k8s.sgdev.org](https://k8s.sgdev.org/) which we use to track progress:
 
-- [Frontend Platform: Migrations](https://sourcegraph.com/insights/dashboards/frontendPlatformMigrations) tracks long-running code migrations (e.g., global CSS → CSS modules).
+- [Frontend Platform: Migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTF9) tracks long-running code migrations (e.g., global CSS → CSS modules).
   - The insight title should contain the GitHub issue number (where applicable).
   - For completed migrations, the insight title should beging with "DONE: " (e.g. "DONE: Consolidation of React Testing Libraries (#24986)") and the insight should be moved to the bottom row.
-- [Frontend Platform: Wildcard Usage](https://sourcegraph.com/insights/dashboards/frontendPlatformWildcardUsage) tracks usage of the [Wildcard Component Library](https://docs.sourcegraph.com/dev/background-information/web/wildcard).
+- [Frontend Platform: Wildcard Usage](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcxMzd9).
 
 ### Getting cross-team feedback on RFC
 
