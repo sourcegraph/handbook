@@ -3,6 +3,7 @@
 The Content Platform team (part of the [Enablement](../index.md) org) creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
 
 ## Members
+
 - [Mary Belzer](../../../../../team/index.md#mary-belzer) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Jean du Plessis](../../../../../team/index.md#jean-du-plessis) ([Engineering Manager](../../roles/index.md#engineering-manager))
 - [Steph Zabala](../../../../../team/index.md#stephanie-zabala) ([Designer](../../../product/roles/index.md#product-designer))
@@ -40,6 +41,7 @@ We inherit Sourcegraph's [engineering principles and practices](../../process/pr
 ### Incoming Requests
 
 The Content Platform Product Manager triages and prioritizes requests on a daily basis. They will:
+
 1. Verify all necessary information is in the request
 1. Determine urgency and priority against other work
 1. Set expectations with stakeholder/requester
@@ -51,8 +53,8 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 - Tool: [Github Projects](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
 - [Content platform project](https://github.com/orgs/sourcegraph/projects/227/views/1)
   - Project structure:
-   - Primary view is site agnostic and prioritized regularly, so you can just pull from the top of the queue when you have availability.
-   - Other views are created for us and stakeholders to dive into the details of different sites or projects. These are subject to change regularly as projects and priorities change.
+  - Primary view is site agnostic and prioritized regularly, so you can just pull from the top of the queue when you have availability.
+  - Other views are created for us and stakeholders to dive into the details of different sites or projects. These are subject to change regularly as projects and priorities change.
 
 ### Planning
 
@@ -60,12 +62,12 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 
 #### Weekly Planning Meeting
 
-- *Overview:* Weekly call with all the teammates to discuss the work in progress and review upcoming priorities. Opportunity to surface dependencies on each other and other sources.
-- *Goal:* connect as a team, ensure we are all clear on status of inflight work and next priorities
-- *When:* Mondays at 21:00 UTC.
+- _Overview:_ Weekly call with all the teammates to discuss the work in progress and review upcoming priorities. Opportunity to surface dependencies on each other and other sources.
+- _Goal:_ connect as a team, ensure we are all clear on status of inflight work and next priorities
+- _When:_ Mondays at 21:00 UTC.
 
 ### Retrospectives
 
-- *Overview:* We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/retrospectives/index.md) to celebrate wins and share feedback.
-- *Goal:* To ensure we improve as a team to become more efficient and effective.
-- *When:* Every second Thursday at 21:00 UTC.
+- _Overview:_ We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/retrospectives/index.md) to celebrate wins and share feedback.
+- _Goal:_ To ensure we improve as a team to become more efficient and effective.
+- _When:_ Every second Thursday at 21:00 UTC.
