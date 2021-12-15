@@ -56,9 +56,9 @@ In this section of the tutorial, you would learn how to restore the primary `sou
 - Then restart ONLY the `pgsql` and `codeintel` pods
 
   -     Start the pgsql:
-    `kubectl scale pgsql --replicas=1 `
+    `kubectl scale deployment/pgsql --replicas=1 `
   -     Start the codeintel-db:
-    `kubectl scale codeintel-db --replicas=1 `
+    `kubectl scale deployment/codeintel-db --replicas=1 `
 
 - Copy the database files into the pods by running the following command from the root of the deploy-sourcegraph directory
 
