@@ -2,7 +2,7 @@
 
 Our company OKRs are public.
 
-- See "[Guidelines for goals and OKRs](guidelines.md)" for more information about how we choose and use goals at Sourcegraph.
+- See [Guidelines for goals and OKRs](guidelines.md) for more information about how we choose and use goals at Sourcegraph.
 - [Historical archive](archive.md) of past plans.
 
 ## FY2022
