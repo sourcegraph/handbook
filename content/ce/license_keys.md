@@ -83,7 +83,7 @@ That should return their username.
 
 ## Reporting an issue with the license key management system or feature gating
 
-If you notice a problem with the license key management system, or with feature gating, please open an issue using this [issue template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=&template=gating_or_licensekey_issue.md&title=). This repository is private so you can safely share customer specific information.
+If you notice a problem with the license key management system, or with feature gating, please submit it as a [product gap](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders)
 
 This includes:
 
@@ -91,4 +91,3 @@ This includes:
 - features not being gated as advertised in [pricing](https://about.sourcegraph.com/pricing/)
 - user caps not being enforced
 
-Please open one issue per occurence (per customer or prospect) so we can investigate each case, even if the same problem has been reported before.
