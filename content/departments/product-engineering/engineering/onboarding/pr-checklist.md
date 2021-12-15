@@ -5,7 +5,7 @@
 - Suggested branch naming convention: initials/description<br>
   Example: "aa/replace-button-title"
 
-- As an engineering convention, name the PR with the team the change is associated with and a short but precist description of the change because once merged, this is typically how the commit gets its message, making it easier for anyone to broadly understand what area of impact a commit has when scanning commit history.<br>
+- As an engineering convention, name the PR with the team the change is associated with and a short but precise description of the change because once merged, this is typically how the commit gets its message, making it easier for anyone to broadly understand what area of impact a commit has when scanning commit history.<br>
   Example: "batches: create batch change form"
 
 - Apply applicable team label to the PR so that the associated team can easily find and identify PRs at a glance
