@@ -25,21 +25,13 @@ test('loops', () => {
         { source: '/a', destination: '/c' },
     ])
 
-    const outOfOrderLoop = [
-        { source: '/c', destination: '/a' },
-        { source: '/b', destination: '/c' },
-        { source: '/a', destination: '/b' },
-    ]
-    // The loop should still be detected and the last redirect dropped.
-    expect(cleanupRedirects(outOfOrderLoop)).toEqual([
-        { source: '/c', destination: '/a' },
-        { source: '/b', destination: '/a' },
-    ])
-
     // In a clean chain of redirects, destinations should be updated, but nothing dropped.
     const chainedRedirects = [
         { source: '/b', destination: '/c' },
-        { source: '/a', destination: '/c' },
+        { source: '/a', destination: '/b' },
     ]
-    expect(cleanupRedirects(chainedRedirects)).toEqual(chainedRedirects)
+    expect(cleanupRedirects(chainedRedirects)).toEqual([
+        { source: '/b', destination: '/c' },
+        { source: '/a', destination: '/c' },
+    ])
 })
