@@ -39,9 +39,9 @@ The first step of an interview process for a candidate is the Recruiter Screen. 
 
 The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
-- To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
+- To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule.
 - COMING SOON: how to schedule with Calendly
-- To decline a candidate, follow [these steps]COMING SOON. All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
+- To decline a candidate, follow [these steps](../interview_process#declining-candidates). All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
 
 The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the `#talent-scheduling-and-offers` Slack channel.
 
@@ -163,6 +163,8 @@ COMING SOON
 ## Declining candidates
 
 COMING SOON: how to decline a candidate
+
+If a candidate applies to multiple roles, recruiting will coordinate to ensure candidate does not receive multiple rejection messages.
 
 Who receives a written rejection:
 
