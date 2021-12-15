@@ -90,4 +90,3 @@ This includes:
 - usability issue with the key management system
 - features not being gated as advertised in [pricing](https://about.sourcegraph.com/pricing/)
 - user caps not being enforced
-
