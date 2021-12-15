@@ -7,8 +7,8 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 - [Mary Belzer](../../../../../team/index.md#mary-belzer) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Jean du Plessis](../../../../../team/index.md#jean-du-plessis) ([Engineering Manager](../../roles/index.md#engineering-manager))
 - [Steph Zabala](../../../../../team/index.md#stephanie-zabala) ([Designer](../../../product/roles/index.md#product-designer))
-- [Katy Juell](../../../../team/index.md#katy-juell)
-- [Brett Hayes](../../../../team/index.md#brett-hayes)
+- [Katy Juell](../../../../../team/index.md#katy-juell)
+- [Brett Hayes](../../../../../team/index.md#brett-hayes)
 - Mate Gyorffy
 - Dan Clouse
 
@@ -68,6 +68,6 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 
 ### Retrospectives
 
-- _Overview:_ We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/retrospectives/index.md) to celebrate wins and share feedback.
+- _Overview:_ We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) to celebrate wins and share feedback.
 - _Goal:_ To ensure we improve as a team to become more efficient and effective.
 - _When:_ Every second Thursday at 21:00 UTC.
