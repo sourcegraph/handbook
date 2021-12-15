@@ -51,6 +51,11 @@
       - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
       - [Tom Ross](../../../../team/index.md#tom-ross)
       - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
+    - [Content Platform](../enablement/content-platform/index.md) - Engineering Manager:[Jean du Plessis](../../../../team/index.md#jean-du-plessis)
+      - [Katy Juell](../../../../team/index.md#katy-juell)
+      - [Brett Hayes](../../../../team/index.md#brett-hayes)
+      - Mate Gyorffy
+      - Dan Clouse
   - [Cloud](../cloud/index.md) - Director of Engineering: [Bill Creager](../../../../team/index.md#bill-creager)
     - [Growth](../cloud/growth/index.md) - Engineering Manager: [Bill Creager](../../../../team/index.md#bill-creager)
       - [Stephen Gutekanst](../../../../team/index.md#stephen-gutekanst)
