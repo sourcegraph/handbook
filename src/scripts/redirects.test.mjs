@@ -1,6 +1,6 @@
 /* eslint-env jest */
 
-import { cleanupRedirectsForTesting as cleanupRedirects } from './redirects.mjs'
+import { cleanupRedirects } from './redirects.mjs'
 
 test('basic', () => {
     expect(cleanupRedirects([])).toEqual([])
@@ -22,6 +22,17 @@ test('loops', () => {
     // link should be dropped to break the cycle.
     expect(cleanupRedirects(indirectLoop)).toEqual([
         { source: '/b', destination: '/c' },
+        { source: '/a', destination: '/c' },
+    ])
+
+    const directLoop2 = [
+        { source: '/b', destination: '/c' },
+        { source: '/c', destination: '/a' },
+        { source: '/a', destination: '/b' },
+    ]
+    expect(cleanupRedirects(directLoop2)).toEqual([
+        { source: '/b', destination: '/c' },
+        { source: '/c', destination: '/a' },
         { source: '/a', destination: '/c' },
     ])
 

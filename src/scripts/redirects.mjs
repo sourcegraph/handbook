@@ -7,9 +7,11 @@ import { getMovedPagesFromHistory } from './getMovedPagesFromHistory.mjs'
  * @param {{ source: string, destination: string }[]} movedPages
  * @returns {{ source: string, destination: string }[]}
  */
-function cleanupRedirects(movedPages) {
+export function cleanupRedirects(movedPages) {
     // Build a map of the redirects, so that we can detect cycles and resolve
     // redirect chains.
+    // See https://github.com/sourcegraph/handbook/issues/1403 for a case that
+    // is not handled by this logic.
     const redirects = new Map()
     for (const { source, destination } of movedPages) {
         const nextRedirect = redirects.get(destination)
@@ -21,8 +23,6 @@ function cleanupRedirects(movedPages) {
     }
     return [...redirects.entries()].map(([source, destination]) => ({ source, destination }))
 }
-
-export const cleanupRedirectsForTesting = cleanupRedirects
 
 /**
  * Returns all redirects that should be generated.
