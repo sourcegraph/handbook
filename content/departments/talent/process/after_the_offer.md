@@ -38,6 +38,7 @@ After the candidate formally signs the offer letter via DocuSign (or PEO documen
 - Click either `"yes"` or `"no"` in the "Keep Job Open" section. Only keep the job open if we are hiring for multiple openings
 - Select `"Yes"` for "Make Candidate Private"
 - Select `"Yes"` for "Export to BambooHR
+  - If you don't see an option to export to Bamboo, please ensure your Bamboo integration is active by following [these steps](https://support.greenhouse.io/hc/en-us/articles/201177624-BambooHR)
 - Email a summary of this candidate to:
   - Onboarding Email
   - VP of Talent
