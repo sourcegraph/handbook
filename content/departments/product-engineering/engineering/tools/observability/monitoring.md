@@ -47,7 +47,7 @@ If you wish, you can set up Slack alerts for your own team on various instances 
   ]
 ```
 
-To silence an alert on a Sourcegraph instance you need to edit the deployed ConfigMap. For example, for Sourcegraph Cloud you need to edit [this file](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/frontend/sourcegraph-frontend.ConfigMap.yaml) and push to the `release` branch.
+To silence an alert on a Sourcegraph instance you need to edit the deployed ConfigMap. For example, for Sourcegraph Cloud you need to edit [this file](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/frontend/sourcegraph-frontend.ConfigMap.yaml) and push to the `release` branch.
 
 #### Customer instances
 
@@ -80,8 +80,8 @@ While all dashboards required to troubleshoot our product should be shipped to c
 - When the additional dashboard is not ready yet to graduate to customers
 - When the additional dashboard applies only to our Cloud deployment
 
-Dashboards can be deployed to our Cloud deployment by adding them in `json` format to `dashboards/files` in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com).
-To learn more, reference the [dashboard generator documentation](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/release/dashboards).
+Dashboards can be deployed to our Cloud deployment by adding them in `json` format to `dashboards/files` in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud).
+To learn more, reference the [dashboard generator documentation](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/dashboards).
 
 Once the dashboard is ready to be shipped to customers, we will need to port it to the [monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator) to be included in our next Sourcegraph release.
 Custom dashboards cannot be added to the `sourcegraph/grafana` except through the generator.
@@ -90,7 +90,7 @@ You can use a [local Grafana](#connecting-grafana-to-a-remote-prometheus-instanc
 
 - Open "Dashboard Settings" (top right cog).
 - Select "JSON Model".
-- Select the JSON content and save to a `.json` file in `sourcegraph/deploy-sourcegraph-dot-com/dashboards/files`.
+- Select the JSON content and save to a `.json` file in `sourcegraph/deploy-sourcegraph-cloud/dashboards/files`.
 - Create a new Pull Request with your changes.
 
 Once deployed, you should be able to see your changes in [sourcegraph.com](https://sourcegraph.com/-/debug/grafana).

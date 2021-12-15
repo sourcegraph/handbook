@@ -28,7 +28,7 @@ Loki allows you to easily query for logs, filter for fields within structured lo
 
 #### Cloud logs
 
-The Loki instance in Grafana Cloud is currently configured to ingest logs from Sourcegraph Cloud pushed from [`grafana-agent`'s Loki configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/configure/grafana-agent/grafana-agent.ConfigMap.yaml#L58). To query these, you can start with a LogQL query like:
+The Loki instance in Grafana Cloud is currently configured to ingest logs from Sourcegraph Cloud pushed from [`grafana-agent`'s Loki configuration](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/configure/grafana-agent/grafana-agent.ConfigMap.yaml#L58). To query these, you can start with a LogQL query like:
 
 ```logql
 {deploy="sourcegraph",app="sourcegraph-frontend"}
