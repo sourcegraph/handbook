@@ -10,7 +10,7 @@
 
 - Apply applicable team label to the PR so that the associated team can easily find and identify PRs at a glance
 
-- If the PR is a result of a related GitHub issue, include “Closes #12345” in the PR’s description in order to auto-close the related issue once the PR is merged. This will also link the ticket and the PR together so that if anyone looks at either in the future, they won’t have any issue trying to find the corresponding ticket/PR as it will be noted in the sidebar.
+- If the PR is a result of a related GitHub issue, include “Closes #12345” in the PR’s description in order to [auto-close the related issue once the PR is merged](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue). This will also link the ticket and the PR together so that if anyone looks at either in the future, they won’t have any issue trying to find the corresponding ticket/PR as it will be noted in the sidebar.
 
 - Defer merging a PR until at least one person has approved of the changes.
 
