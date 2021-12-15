@@ -1,4 +1,4 @@
-# Search Core strategy
+search-and-replace-testsearch-and-replace-test# Search Core strategy
 
 This page outlines the strategy, and goals of the [Search Core team](../../../../departments/product-engineering/engineering/code-graph/search/core.md).
 

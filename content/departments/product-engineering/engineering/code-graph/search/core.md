@@ -1,4 +1,4 @@
-# Search core team
+search-and-replace-testsearch-and-replace-test# Search core team
 
 The search core team owns all parts of Sourcegraph that map an interpreted search query to a set of results:
 

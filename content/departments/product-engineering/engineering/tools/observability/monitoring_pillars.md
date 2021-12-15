@@ -1,4 +1,4 @@
-# Sourcegraph monitoring pillars
+search-and-replace-test# Sourcegraph monitoring pillars
 
 This document describes the background and pillars that drive how we development of our monitoring infrastructure at Sourcegraph.
 Once you are convinced, see the [Sourcegraph monitoring guide](./monitoring.md) and the [observability developer documentation](https://docs.sourcegraph.com/dev/background-information/observability) for development-related documentation.
