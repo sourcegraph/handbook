@@ -105,6 +105,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
     - [Vanesa Ortiz](../company/team/index.md#vanesa-ortiz), Community Advocate
     - [Prosper Otemuyiwa](../company/team/index.md#prosper-otemuyiwa), Staff Developer Evangelist
     - Amarachi Emmanuela Azubuike, Social Media Community Manager (contractor)
+    - [Erika Heidi](../company/team/index.md#erika-heidi), Senior Developer Advocate
     - We will be hiring developer advocates
   - Amie Rotherham, Director of Global Communications
 

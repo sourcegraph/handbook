@@ -6,7 +6,7 @@ As Sourcegraph continues to grow and the team is able to bring on a dedicated pr
 
 ## Goals for FY22
 
-See also our [completed goals](../../../../engineering/cloud/extensibility/goals_completed.md).
+See also our [completed goals](../../../../product-engineering/engineering/cloud/extensibility/goals_completed.md).
 
 ### 1. Make Sourcegraph extensions an active ecosystem
 

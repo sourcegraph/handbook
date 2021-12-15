@@ -7,6 +7,7 @@ This page outlines the vision, strategy, and goals of the Code Insights team.
 Quick links:
 
 - [Code Graph overall strategy](../index.md)
+- [Product & Engineering strategy](../../../../product-engineering/strategy.md)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - Latest demo – private since the product is in beta; slack the #code-insights team or email feedback@sourcegraph.com if you're curious!
 - [Documentation](https://docs.sourcegraph.com/code_insights)
@@ -119,7 +120,7 @@ Users do not need to learn a new query language or format to use Code Insights. 
 
 ## Where we are now
 
-Code Insights is a [Beta Feature](../../../../product/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely remain in Beta into Q4.
+Code Insights is a [Beta Feature](../../../../product-engineering/product/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely remain in Beta into Q4.
 
 This means that the Code Insights team is singularly focused on bringing Code Insights into general availability. To reach that goal, Code Insights will be building stability, features, and core product experiences based on the feedback we get from our beta participants.
 
@@ -155,7 +156,7 @@ The next six months are focused on building a product that can quickly prove out
 
 - OKR: Get at least 1 Sales commitment from a customer who will pay for Insights at launch, proving the value of the feature
 
-_See also [completed goals](../../../../engineering/code-graph/code-insights/goals_completed.md)_
+_See also [completed goals](../../../../product-engineering/engineering/code-graph/code-insights/goals_completed.md)_
 
 ### Themes (and What's next and why)
 

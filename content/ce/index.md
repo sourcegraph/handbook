@@ -60,6 +60,7 @@ This continuity means we give customers consistent and high-quality service from
   - [Shawn King](../company/team/index.md#shawn-king)
   - [Mike McLaughlin](../company/team/index.md#mike-mclaughlin)
   - [Nancy Shah](../company/team/index.md#nancy-shah)
+  - [DeVon Thompson](../company/team/index.md#DeVon-Thompson)
 
 More details about our team members in [our team READMEs](ce-bios.md).
 

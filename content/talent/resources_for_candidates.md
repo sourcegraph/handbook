@@ -47,7 +47,7 @@ Candidates are welcome to re-apply for roles at any time. The talent team will r
 
 ### Early-career Engineering Hiring
 
-Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../engineering/hiring/early-career-engineers.md)
+Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../product-engineering/engineering/hiring/early-career-engineers.md)
 
 # Interviewing at Sourcegraph
 

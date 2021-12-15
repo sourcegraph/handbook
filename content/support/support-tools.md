@@ -74,6 +74,10 @@ The [Command Line Generator](https://github.com/sourcegraph/support-generator) i
 
 [Sourcegraph Graphql Voyager](https://sourcegraph.github.io/support-tools-internal/Graphql-Voyager/) is a bootstraped tool that allows users to visually explore the Sourcegraph GraphQL API as an interactive graph.
 
+Go to https://cors-anywhere.herokuapp.com/corsdemo and press "request temporary access to the demo server".
+
+Enter your Sourcegraph.com access token and click "Submit".
+
 ### Sourcegraph Debugging Sheet (WIP)
 
 [Sourcegraph Debugging Sheet](debugging-cheat-sheet.md) is a cheatsheet designed to streamline the troubleshooting process by allowing the CS team to search for common topics discussed with our customers and first steps at troubleshoot them.

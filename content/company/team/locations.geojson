@@ -1302,6 +1302,32 @@
           48.40541731318389
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Molly Weitzel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.279617,
+          40.016869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alex Ostrikov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.315871238708496,
+          59.97563121816456
+        ]
+      }
     }
   ]
 }

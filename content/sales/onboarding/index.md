@@ -25,7 +25,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 - [CEO](../../ceo/index.md)
   - [Values](../../company/values.md)
   - [Goals](../../company/goals/index.md)
-- [Product](../../product/index.md)
+- [Product](../../product-engineering/product/index.md)
   - [Personas](../../marketing/personas.md)
   - [Products](https://about.sourcegraph.com/product)
 - Read/watch
@@ -39,7 +39,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 - [Marketing](../../marketing/index.md)
 - [Sales](index.md)
 - [Data and Looker onboarding](data_onboarding.md)
-- [Distribution team](../../engineering/distribution/index.md)
+- [Distribution team](../../product-engineering/engineering/distribution/index.md)
 - Check the Sales team onboarding [quiz](quiz.md)
 
 ## Key targets for onboarding reps

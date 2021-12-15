@@ -67,12 +67,16 @@ To help get you started, we will be hosting an interactive Sourcegraph Fundament
 
 After you’ve moved through each of your three [Onboarding Feedback Milestones](./onboarding/onboarding-feedback-milestones.md) and you arrive at month six of your Sourcegraph journey, you will use your Sourcegraph login for [Lattice](https://lattice.com/) to conduct your 360 Impact review cycles! You will receive an email when your review cycle is set to begin prompting you to nominate your peer reviewers.
 
+Timeline of stages:
+
+-**Peer selection:** 5 business days -**Self, peer, and upwards reviews:** 7 business days -**Manager reviews:** 5 business days, then manager will release feedback packet to you -**Meet with manager to discuss feedback packet:** after your cycle concludes
+
 The 360 Impact review process covers a few key types of feedback as mentioned above:
 
-- **Self-review:** you will review yourself (during duration of review)
-- **Peer review**: 2-3 stakeholders will review you (2 business days)
-- **Upwards review:** you will review your manager (during duration of review)
-- **Manager review:** your manager will review you (5 business days)
+- **Self-review:** you will review yourself
+- **Peer review**: 2-3 stakeholders will review you
+- **Upwards review:** you will review your manager
+- **Manager review:** your manager will review you
 
 _Best practice tip: We recognize that to make an impact, you must first develop goals that drive specific outcomes. Engaging in quarterly goal setting in tandem with your Impact reviews will give each teammate direction, certainty, and velocity in prioritizing their goals. If you’d like to create quarterly goals to align with your manager on, use our series of templates in our [Goal setting folder](https://drive.google.com/drive/folders/1EA0uJ5eroG8NMKtv315c5aumFNB1K7AD)._
 
@@ -105,13 +109,13 @@ _As a note_: For any managers who have inherited a new direct report and are not
 
 ### Submitting feedback as a manager
 
-**Managers**: You will be able to review all peer feedback given to each of your direct reports during the review cycle before writing your manager review and summary remarks. Once all of your reviews are submitted, you will be prompted to share the completed review packets with your direct report and we encourage you to set up a time to discuss the packet during your next 1:1. In the spirit of transparency, when you share your packet with your direct report they will be able to see all peer feedback and manager feedback - everyone included in the review process will be able to see each part of the review.
+**Managers**: You will be able to review all peer feedback given to each of your direct reports during the review cycle before writing your manager review and summary remarks. Once all of your reviews are submitted, you will be prompted to share the completed review packets with your direct report and we encourage you to set up a time to discuss the packet during your next 1:1. When you share your packet with your direct report they will be able to see all peer feedback names associated with their feedback, as well as your own manager feedback. Direct reports are unable to see any reviews their own managers might get. The idea is, you can see feedback downwards, but not upwards, to protect psychological safety.
 
 **Teammates**: After the two-week review cycle period ends, the review cycle will automatically close. Upon completion, you will receive a summary of your reviews from your manager and peers.
 
 Note on completing the cycles in the given windows: We encourage you to make every effort to complete reviews that are assigned to you during these two weeks, as extending individual cycles can be an arduous administrative process, and we’d like each teammate to receive their feedback sooner than later.
 
-### Informal Impact review cycles
+### Informal Impact review cycles (in use until February 2022)
 
 As we move into a new cadence of 360 Impact review cycles, you may find that the timeline for your review may have just recently passed, or that your next review is too far in the future, leaving you without helpful feedback that you could easily apply to make small changes to the way you work. Consider the option of including an informal Impact review as a pulse check for learning: how you are showing up in your working relationships, where you are driving impact for your team, and obtaining more self-awareness of your working style.
 

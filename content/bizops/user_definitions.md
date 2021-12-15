@@ -28,7 +28,7 @@ People using Sourcegraph can be segmented into a number of different states, the
 
 A visitor is a unique person who showed up on the site and did anything, even just viewing the page. Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
 
-### Active user
+### Active user (Cloud)
 
 An active user is differentiated from a visitor by performing a qualifying event. These events are intended to represent someone who has **engaged with** and **received value** from the product; something that takes a person from their first search to establishing a habit around the core value proposition of the app. Qualifying events are [listed as 'Active' in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=live), and performing any single activity in that list makes a visitor an active user for the time period being measured.
 

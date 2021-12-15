@@ -20,7 +20,7 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 
 #### Team-specific totals
 
-- We expect new [Design team](../product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
+- We expect new [Design team](../product-engineering/product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
 - Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
@@ -44,11 +44,9 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 Once your contract is signed, you will need to get your Sourcegraph computer. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
 
-**US based teammates**
-US based teammates need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+**US/Canada-based teammates** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
-**Non US teammates**
-Non US teammates will be responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](expenses.md).
+**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](expenses.md).
 
 Different specs are required repending on your role, please see below for necessary specs corresponding to your role.
 

@@ -18,4 +18,4 @@ For expedited reviews, contact [Dan Mckean](../company/team/index.md#dan-mckean)
 
 ### Customer security questions
 
-If customers have specific security questions, first run them by the #ce slack channel. If nobody has context, or we're unsure of how to phrase things, follow the [guidance here](../engineering/cloud/security/process.md#how-to-work-with-us) to engage with the Security team.
+If customers have specific security questions, first run them by the #ce slack channel. If nobody has context, or we're unsure of how to phrase things, follow the [guidance here](../product-engineering/engineering/cloud/security/process.md#how-to-work-with-us) to engage with the Security team.

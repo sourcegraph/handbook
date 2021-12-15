@@ -13,15 +13,12 @@ Product marketing is responsible for creating the monthly release post in collab
 
 **Within 24 hours after the release is cut**
 
-- VP Product runs the script to generate changelog and merges it into the release template
-  - Note: make sure to update the _version number_ in the script itself. If for some reason the version number isn't added yet and you need to capture the "Unreleased" then passing it the literal string match for the "Unreleased" heading, usually `Unreleased`, in place of a version number works)
+You can tell when the release is cut by following along in #progress.
 
-```
-# in the root dir of the aourcegraph/about repo, make sure the latest sourcegraph/sourcegraph repo
-# CHANGELOG.md file is at ../sourcegraph/CHANGELOG.md, then run:
-go run ./bin/generate_changelog_items.go -versions 3.28 -i ../sourcegraph/CHANGELOG.md
-```
-
+- The marketing release post owner runs the command to generate the changelog (being sure to replace the version number in the command), and then pastes the output at the end of the release post ([loom guide](https://www.loom.com/share/59da6bc1784a48e9b6af4d9e620ee4df)): `go run ./bin/generate_changelog_items.go -versions 3.28 -i ../sourcegraph/CHANGELOG.md`.
+  - Make sure that you get the latest in the Sourcegraph repo before running this command. If your repo is in a different location than `../sourcegraph`, you'll need to update the commandline above.
+  - If for some reason the version number isn't added yet and you need to capture the "Unreleased" then passing it the literal string match for the "Unreleased" heading, usually `Unreleased`, in place of a version number works)
+- Once this is done, inform the team in the #release-post channel.
 - If necessary, PMs make edits to the changelog based on what was actually shipped.
 - PMs add final assets.
 - Product marketing to package and draft the release post and share with Rebecca, Andy, and Christina for review.
