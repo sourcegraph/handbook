@@ -36,7 +36,8 @@
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
 
-Welcome to Engineering! 
+Welcome to Engineering!
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe
     src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering-dept-video.MOV"
@@ -47,7 +48,6 @@ Welcome to Engineering!
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
   ></iframe>
 </div>
-
 
 ## Org chart
 
