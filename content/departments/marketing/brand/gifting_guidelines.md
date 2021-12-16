@@ -9,7 +9,7 @@
 
 ## Branded swag
 
-Welcome to our Gifting Guidelines Page! Have a request for branded swag to send as an external gift?* Use the [Swag Request Form](https://app.asana.com/0/1200419124213353/list). \_*Note: requests for internal gifts of branded swag cannot be supported at this time.\_
+Welcome to our Gifting Guidelines Page! Have a request to send branded swag as an external gift?* Use the [Swag Request Form](https://app.asana.com/0/1200419124213353/list). _*Note: requests for **internal gifts** of branded swag cannot be supported at this time. Please see our policies for sending internal gifts [here](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/celebrate)._
 
 > Note that adding new items to our inventory can take around 8+ weeks if a custom design is being created and applied to the item vs our standard branding and logo applications.
 
