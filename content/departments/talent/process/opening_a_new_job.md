@@ -104,6 +104,8 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
 
+# How we find candidates 
+
 ## Sourcing candidates
 
 We identify candidates via a variety of channels:
