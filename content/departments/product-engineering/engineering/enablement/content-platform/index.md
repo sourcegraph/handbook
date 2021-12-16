@@ -32,7 +32,7 @@ The current existing content platforms include:
 
 ### Requests
 
-Requests to the content platform team can be made through a Slack workflow:
+The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Requests to the content platform team can be made through a Slack workflow:
 
 1. In the #content-platform channel in Slack, click the + icon, then “Content Platform Request”
 
@@ -80,3 +80,8 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 - _Overview:_ We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) to celebrate wins and share feedback.
 - _Goal:_ To ensure we improve as a team to become more efficient and effective.
 - _When:_ Every second Thursday at 21:00 UTC.
+
+### Engaging with Other Teams
+
+- See [this section](#requests) for making a request to the content platform team.
+- Fabiana Castellanos of the [demand generation](../../../marketing/demand-gen/index.md) serves as the project manager for marketing web requests, and acts as the primary point of contact between the Content Platform team and Marketing.
