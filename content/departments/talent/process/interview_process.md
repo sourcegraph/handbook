@@ -64,8 +64,8 @@ The Recruitment Operations specialist will schedule all remaining interviews in 
 
 Following your interview, please provide interview feedback immediately, no later than 24-hours after your interview, to ensure we are able to move quickly and provide a positive candidate experience.
 
-- [How to provide interview feedback](../process/interview_process.md#providing-interview-feedback) 
-- We want to ensure every Teammate is aligned on what a `strong yes` `yes` and `no` recommendation means. You can find interview feedback definitions [here](../process/interview_process.md#providing-interview-feedback) 
+- [How to provide interview feedback](../process/interview_process.md#providing-interview-feedback)
+- We want to ensure every Teammate is aligned on what a `strong yes` `yes` and `no` recommendation means. You can find interview feedback definitions [here](../process/interview_process.md#providing-interview-feedback)
 - [How to keep your interview feedback legal](../process/interview_process.md#keeping-your-feedback-legal)
 
 ### The decision making stage
