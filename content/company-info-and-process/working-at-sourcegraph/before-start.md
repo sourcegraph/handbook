@@ -23,7 +23,7 @@ We have a company meeting every other week, during which we introduce our new te
 
 ### 💻 **Order your laptop**
 
-You are responsible for obtaining your laptop. You can find instructions [here](https://handbook.sourcegraph.com/finance/spending-company-money#computers).
+You are responsible for obtaining your laptop. You can find instructions [here](../../finance/spending-company-money.md#computers).
 
 ### 📦 **An exciting delivery**
 
@@ -31,11 +31,11 @@ We love our swag, and know you will, too! You will be receiving an email from so
 
 ### 🪑 **Start getting your home office set up**
 
-If you feel like starting to get ready before your start date, feel free to begin ordering the supplies you'll need to be successful on day one. We provide new teammates with a budget of up to $2000 to spend on their office setup. This can include a new chair, desk, monitor, headphones, and more. You can read about our desk set-up guidelines[ here](https://handbook.sourcegraph.com/finance/spending-company-money).
+If you feel like starting to get ready before your start date, feel free to begin ordering the supplies you'll need to be successful on day one. We provide new teammates with a budget of up to $2000 to spend on their office setup. This can include a new chair, desk, monitor, headphones, and more. You can read about our desk set-up guidelines[ here](../../finance/spending-company-money.md).
 
 ### 💥 **Benefits and Perks**
 
-Read more about our [Benefits & Perks](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks).
+Read more about our [Benefits & Perks](../../benefits-pay-perks/benefits-perks/index.md).
 
 ## US teammates
 
@@ -49,7 +49,7 @@ As of January 2022, benefit eligibility begins on your first day. Keep in mind t
 
 ### 💸 **Getting Paid**
 
-Sourcegraph is on a semi-monthly payroll cycle. Paychecks are the 15th and last day of every month (or the closest business day prior to those dates). You will receive an email from our payroll team, with a link to set up your payroll and benefits through [Rippling](https://handbook.sourcegraph.com/departments/people-ops/tools/people-ops-faqs#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?).
+Sourcegraph is on a semi-monthly payroll cycle. Paychecks are the 15th and last day of every month (or the closest business day prior to those dates). You will receive an email from our payroll team, with a link to set up your payroll and benefits through [Rippling](../../departments/people-ops/tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?).
 
 Keep in mind that teammates starting on the day before any given payday will receive their first paycheck on the following one.
 
@@ -57,8 +57,8 @@ Keep in mind that teammates starting on the day before any given payday will rec
 
 ### 💸 **Getting Paid**
 
-If you will be on a contracting structure where you submit an invoice at the end of each month to be paid once a month, please read more about the invoicing process and find resources [here](https://about.sourcegraph.com/handbook/ops/finance/invoices).
+If you will be on a contracting structure where you submit an invoice at the end of each month to be paid once a month, please read more about the invoicing process and find resources [here](../../ops/finance/invoices.md).
 
 ### 🗺 **Talent outside the US**
 
-You can read more about [How we engage talent outside the US here](https://handbook.sourcegraph.com/departments/people-ops/process/how-we-engage-talent-outside-the-us).
+You can read more about [How we engage talent outside the US here](../../departments/people-ops/process/how-we-engage-talent-outside-the-us/index.md).
