@@ -55,9 +55,9 @@ Cloud SaaS:
 
 - [Sourcegraph SaaS Vision](https://docs.google.com/presentation/u/0/d/1c5ByMM9dLZZF0oi6i9Hnshvo8S4xbHIqLCUOP9tjQyc/edit)
 
-Extensibility:
+Growth and Integrations
 
-- [Extensibility Team - Cloud Org](https://docs.google.com/document/u/0/d/16pZ2QIRW2rvYVtyxuqWR91DTgReIdrOAAa_bX5q9kR8/edit)
+- [Growth and Integrations Team - Cloud Org](https://docs.google.com/document/u/0/d/16pZ2QIRW2rvYVtyxuqWR91DTgReIdrOAAa_bX5q9kR8/edit)
 
 ### External resources
 

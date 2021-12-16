@@ -83,7 +83,7 @@ The Cloud SaaS team works alongside several other teams within the Cloud organiz
 
 - [Cloud Growth](../growth)
 - [Cloud DevOps](../devops)
-- [Extensibility](../extensibility)
+- [Growth and Integrations](../growth-and-integrations)
 - [Security](../security)
 
 ## News and updates

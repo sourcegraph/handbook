@@ -99,7 +99,7 @@ Features that are specific to Sourcegraph Server and can't be tested on Sourcegr
 
 ## Browser and IDE Extensions
 
-Sourcegraph Browser Extensions and IDE Extensions are released every two weeks on Mondays. Once a release is made, there will be a brief external review period. This external review period usually takes no longer than 2 days. The release status will be communicated and updated on our Slack channel (#extensibility) as mentioned below.
+Sourcegraph Browser Extensions and IDE Extensions are released every two weeks on Mondays. Once a release is made, there will be a brief external review period. This external review period usually takes no longer than 2 days. The release status will be communicated and updated on our Slack channel (#growth-and-integrations) as mentioned below.
 
 ### Before merge
 
@@ -119,11 +119,11 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 ### Launch
 
 1. **Release Process**
-   - Release process is different for each product. Please refer to [Browser Extensions](../../engineering/cloud/extensibility/browser-extensions) & [IDE Extensions](../../engineering/cloud/extensibility/ide-extensions) page for more details.
+   - Release process is different for each product. Please refer to [Browser Extensions](../../engineering/cloud/growth-and-integrations/browser-extensions) & [IDE Extensions](../../engineering/cloud/growth-and-integrations/ide-extensions) page for more details.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
 
 ### Post-launch
 
-1. **Notify partners:** Share the release status with partners on the #extensibility channel.
+1. **Notify partners:** Share the release status with partners on the #growth-and-integrations channel.
 1. **Metrics:** continue to track metrics to ensure expected outcomes are achieved.

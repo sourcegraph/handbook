@@ -117,4 +117,4 @@ Within this overall product strategy, individual product teams set their own goa
   - [API docs](cloud/growth/index.md)
 - [Security](cloud/security/index.md)
 - DevOps/SRE
-- [Extensibility](cloud/extensibility/index.md)
+- [Growth and Integrations](cloud/growth-and-integrations/index.md)

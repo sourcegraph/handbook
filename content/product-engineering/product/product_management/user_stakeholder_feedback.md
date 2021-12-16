@@ -74,7 +74,7 @@ The Sales and CE teams also provide a [product gaps dashboard](https://sourcegra
 #### Browser Extension Uninstall Feedback
 
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
-- **Owner:** The browser extension product manager (currently the [Extensibility team product manager](../../engineering/cloud/extensibility/index.md#members)) owns responding to this feedback.
+- **Owner:** The browser extension product manager (currently the [Growth and Integrations team product manager](../../engineering/cloud/growth-and-integrations/index.md#members)) owns responding to this feedback.
 
 ### CE feedback
 

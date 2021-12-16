@@ -299,7 +299,7 @@ alicja_suska:
   reports_to: director_design
   pronouns: she/her
   pronunciation: /aˈlʲit͡s.ja/
-  role: Product Designer, Frontend Platform, Extensibility, and Code Insights
+  role: Product Designer, Frontend Platform, and Code Insights
   location: Poznań, Poland 🇵🇱
   github: AlicjaSuska
   email: alicja@sourcegraph.com
@@ -724,7 +724,7 @@ caitlin_moran:
 murat_sutunc:
   name: Murat Sutunc
   pronouns: he/him
-  role: Engineering Manager, Extensibility
+  role: Engineering Manager, Growth and Integrations
   location: Redwood City, CA, USA 🇺🇸
   pronunciation: '[muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)'
   github: muratsu
@@ -1762,7 +1762,7 @@ sara_lee:
   name: Sara Lee
   reports_to: director_design
   pronouns: she/her
-  role: Product Designer, Code Intel and Extensibility
+  role: Product Designer, Code Intel and Growth and Integrations
   location: Chapel Hill, NC, United States 🇺🇸
   github: jjinnii
   email: sara.lee@sourcegraph.com

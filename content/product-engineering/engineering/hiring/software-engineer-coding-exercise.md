@@ -108,7 +108,7 @@ We designed this exercise to measure your skills at integrating build and deploy
 
 If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
 
-## Extensibility team coding exercise
+## Growth and Integrations team coding exercise
 
 We designed this exercise to measure your ability to show logical thinking and apply that thinking towards a code implementation. There's no frontend UI work involved.
 

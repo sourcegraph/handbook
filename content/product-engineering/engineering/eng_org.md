@@ -53,7 +53,7 @@
   - [Cloud](./cloud/index.md) - Director of Engineering: [Bill Creager](../../team/index.md#bill-creager)
     - [Growth](./cloud/growth/index.md) - Engineering Manager: [Bill Creager](../../team/index.md#bill-creager)
       - [Stephen Gutekanst](../../team/index.md#stephen-gutekanst)
-    - [Extensibility](./cloud/extensibility/index.md) - Engineering Manager: [Murat Sutunc](../../team/index.md#murat-sutunc)
+    - [Growth and Integrations](./cloud/growth-and-integrations/index.md) - Engineering Manager: [Murat Sutunc](../../team/index.md#murat-sutunc)
       - [Erzhan Torokulov](../../team/index.md#erzhan-torokulov)
       - [Beatrix Woo](../../team/index.md#beatrix-woo)
       - [Tharuntej Kandala](../../team/index.md#tharuntej-kandala)

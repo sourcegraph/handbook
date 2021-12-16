@@ -1,6 +1,6 @@
-# Extensibility team
+# Growth and Integrations team
 
-The extensibility team owns our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions). Our mission is to bring the value of Sourcegraph to everywhere you work with code and to bring the value of other developer tools into Sourcegraph.
+The Growth and Integrations team owns our code host and third-party integrations (including our browser extension) and our [Sourcegraph extensions](https://docs.sourcegraph.com/extensions). Our mission is to bring the value of Sourcegraph to everywhere you work with code and to bring the value of other developer tools into Sourcegraph.
 
 ## Members
 
@@ -10,7 +10,7 @@ The extensibility team owns our code host and third-party integrations (includin
       <div>
         <div>
           <a href="../../../../team/index.md#sara-lee" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Sara Lee</div>
@@ -21,7 +21,7 @@ The extensibility team owns our code host and third-party integrations (includin
       <div>
         <div>
           <a href="../../../../team/index.md#murat-sutunc" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Murat Sutunc</div>
@@ -32,7 +32,7 @@ The extensibility team owns our code host and third-party integrations (includin
       <div>
         <div>
           <a href="../../../../team/index.md#beatrix-woo" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Beatrix Woo</div>
@@ -43,7 +43,7 @@ The extensibility team owns our code host and third-party integrations (includin
       <div>
         <div>
           <a href="../../../../team/index.md#erzhan-torokulov" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Erzhan Torokulov</div>
@@ -54,7 +54,7 @@ The extensibility team owns our code host and third-party integrations (includin
       <div>
         <div>
           <a href="../../../../team/index.md#tharuntej-kandala" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">TJ Kandala</div>
@@ -64,7 +64,7 @@ The extensibility team owns our code host and third-party integrations (includin
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
         </div>
         <div style="text-align: center;">P.S.</div>
         <div style="text-align: center; font-size: 12px;">Software Engineer</div>
@@ -77,7 +77,7 @@ The extensibility team owns our code host and third-party integrations (includin
 ## Important Links
 
 - [Processes](processes.md)
-- [Goals](../../../../company/strategy/cloud/extensibility/index.md)
+- [Goals](../../../../company/strategy/cloud/growth-and-integrations/index.md)
 - Products
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
@@ -93,7 +93,7 @@ Sourcegraph powers your first stop for any information about your code, for any 
 
 ## Responsibilities
 
-_The extensibility team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the extensibility team. You can find our current priorities in our [goals page](../../../../company/strategy/cloud/extensibility/index.md)._
+_The Growth and Integrations team has many ownership areas, but not all of them are under active development at the same time. We nonetheless list them all here as a source of truth for deciding if an issue, feedback, or comment is relevant to the Growth and Integrations team. You can find our current priorities in our [goals page](../../../../company/strategy/cloud/growth-and-integrations/index.md)._
 
 1. Sourcegraph extensions
    - Providing a Sourcegraph extension API that enables developers to bring data from their favorite developer tools into their Sourcegraph workflow.
@@ -110,8 +110,8 @@ _The extensibility team has many ownership areas, but not all of them are under 
 
 ## Contact
 
-- #extensibility channel or @extensibility on Slack
-- [team/extensibility](https://github.com/sourcegraph/sourcegraph/labels/team%2Fextensibility) label and @sourcegraph/extensibility team on GitHub.
+- #growth-and-integrations channel or @growth-and-integrations on Slack
+- [team/growth-and-integrations](https://github.com/sourcegraph/sourcegraph/labels/team%2Fgrowth-and-integrations) label and @sourcegraph/growth-and-integrations team on GitHub.
 
 ## Tech stack
 
@@ -125,7 +125,7 @@ We use a modern, flexible tech stack. Here are some of the technologies we use t
 - [RxJS](https://rxjs-dev.firebaseapp.com/guide/overview)
 - [Web workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
 
-## Extensibility history
+## Growth and Integrations history
 
 In March 2016, [Sourcegraph released its first browser extension](https://about.sourcegraph.com/blog/browse-review-code-on-github-like-in-an-ide-with-the-sourcegraph-chrome-extension/) so that you can take the value of Sourcegraph to your code host for code reviews.
 
@@ -137,4 +137,6 @@ In November 2019, [Sourcegraph partnered with GitLab to create a native integrat
 
 In December 2020, [Sourcegraph released a Safari Extension](https://apps.apple.com/us/app/sourcegraph-for-safari/id1543262193) to support Safari users with our browser extension, in addition to Chrome and Firefox.
 
-In early 2021, the Extensibility team was formed as an offshoot of the "web team" (which became the 2021 Developer Insights org) because the product direction, support and maintenance, validation, and future promises of Sourcegraph's browser extensions, native code host integrations, and Sourcegraph extensions required and deserved the resources of its own team.
+In early 2021, the Growth and Integrations team was formed as an offshoot of the "web team" (which became the 2021 Developer Insights org) because the product direction, support and maintenance, validation, and future promises of Sourcegraph's browser extensions, native code host integrations, and Sourcegraph extensions required and deserved the resources of its own team.
+
+In late 2021, the Growth and Integrations team was renamed Growth and Integrations.
