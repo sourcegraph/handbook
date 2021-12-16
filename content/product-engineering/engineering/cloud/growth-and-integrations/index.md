@@ -99,13 +99,13 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
 </section>
 
 ## Growth vision
+_Sourcegraph is optimized to help users discover how powerful the tool is, as quickly as possible._
 
-Sourcegraph is optimized to help users discover how powerful the tool is, as quickly as possible. This optimization leads to introductions to new users and customers. It also increases usage at customer accounts and with individual developers. By addressing these issues we will:
+This vision is necessarily broad because the growth-oriented goal for the team is the generation of Product Qualified Leads. These PQLs will generally be generated from users who find value in the product and integrate Sourcegraph into their daily routines. As such, this team will also impact the following objectives:
 
-- Generate product qualified leads for the business
+- Improve the retention of all users
+- Increase the frequency of users from monthly active to daily active
 - Expand usage in existing accounts
-- Increase the frequency of all users from MAU to DAU
-- Imrprove retention of all users
 
 ## Integrations vision
 
