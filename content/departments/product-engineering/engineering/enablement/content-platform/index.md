@@ -84,4 +84,4 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 ### Engaging with Other Teams
 
 - See [this section](#requests) for making a request to the content platform team.
-- Fabiana Castellanos of the [demand generation](../../../marketing/demand-gen/index.md) serves as the project manager for marketing web requests, and acts as the primary point of contact between the Content Platform team and Marketing.
+- Fabiana Castellanos of the [demand generation](../../../../marketing/demand-gen/index.md) serves as the project manager for marketing web requests, and acts as the primary point of contact between the Content Platform team and Marketing.
