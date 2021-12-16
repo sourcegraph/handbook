@@ -108,6 +108,7 @@ Sourcegraph is optimized to help users discover how powerful the tool is, as qui
 - Imrprove retention of all users
 
 ## Integrations vision
+
 Sourcegraph powers your first stop for any information about your code, for any tool or website you use.
 
 - Build a healthy ecosystem of Sourcegraph extensions, built by developers everywhere, who want to bring the power of existing developer tools they love into our platform.
@@ -119,7 +120,6 @@ Sourcegraph powers your first stop for any information about your code, for any 
 ### Growth-oriented responsibilities
 
 In pursuit of goals related to growth, the team will own or contribute to the following:
-
 
 - Researching how users become activated, sign-up, and generate PQLs
 - Guiding and shaping the initial user journey of:
@@ -137,7 +137,6 @@ In pursuit of goals related to growth, the team will own or contribute to the fo
 - Experimental growth hacks that will result in increased traffic, sign-ups, and/or PQLs
   - API Docs
   - TBD
-
 
 ## Integration oriented responsibilities
 
@@ -158,7 +157,6 @@ In pursuit of goals related to growth, the team will own or contribute to the fo
 
 - #growth-and-integrations channel or @growth-and-integrations on Slack
 - [team/growth-and-integrations](https://github.com/sourcegraph/sourcegraph/labels/team%2Fgrowth-and-integrations) label and @sourcegraph/growth-and-integrations team on GitHub.
-
 
 ## Additional resources
 
