@@ -75,7 +75,6 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
         <div style="text-align: center; font-size: 12px;">(starting 01/10)</div>
       </div>
     </div>
-  </div>
 
 <div class="col" style="flex: 1;">
       <div>
@@ -95,6 +94,8 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
         <div style="text-align: center; font-size: 12px;">Software Engineer (growth)</div>
       </div>
     </div>
+  </div>
+
 
 </section>
 
@@ -135,7 +136,7 @@ In pursuit of goals related to growth, the team will own or contribute to the fo
   - updates to the homepage
   - collaboration on campaigns that drive traffic to the product
 - Experimental growth hacks that will result in increased traffic, sign-ups, and/or PQLs
-  - API Docs
+  - [API Docs]()
   - TBD
 
 

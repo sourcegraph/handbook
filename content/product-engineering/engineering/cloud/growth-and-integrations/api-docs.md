@@ -1,26 +1,10 @@
-# Cloud growth
+# Api docs
 
-The cloud growth team focuses on the growth of Sourcegraph.com, both as a SaaS product and lead generator for Sourcegraph as an on-prem product.
-
-## Members
-
-- [Bill Creager](../../../../team/index.md#bill-creager) (Acting [Engineering Manager](../../roles.md#engineering-manager)) {#api-docs-eng}
-  - [Stephen Gutekanst](../../../../team/index.md#stephen-gutekanst)
-  - FQ3 full stack engineer
-  - FQ3 full stack engineer
-  - FQ3 full stack engineer
-
-## Contact
-
-- #cloud-growth channel in Slack
+ API docs is a core component of a company-wide initiative to help Sourcegraph become the standard tool for searching and understanding public code.
 
 ## Goals
 
-[Goals and roadmap](../../../../company/strategy/cloud/growth/index.md)
-
-## API docs
-
-The cloud growth team's primary focus for today is API docs. As we hire out this team we will be working on more growth opportunities. API docs is a core component of a company-wide initiative to help Sourcegraph become the standard tool for searching and understanding public code.
+[Goals and roadmap](../../../../company/strategy/cloud/growth/api-docs.md)
 
 ## The API docs vision
 
