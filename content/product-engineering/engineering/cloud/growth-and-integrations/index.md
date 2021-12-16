@@ -96,7 +96,6 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     </div>
   </div>
 
-
 </section>
 
 ## Growth vision
