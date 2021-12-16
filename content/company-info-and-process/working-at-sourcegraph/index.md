@@ -1,3 +1,4 @@
+- [Before your start date](before-start.md)
 - [Working hours](working-hours.md)
 - [Switching teams](switching-teams.md)
 - [Impact reviews](../../departments/people-ops/process/impact-reviews.md)
