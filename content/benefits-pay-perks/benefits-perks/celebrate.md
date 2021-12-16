@@ -78,7 +78,7 @@ Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisabl
 
 ## Other milestones
 
-Other teammate milestones (such as promotion, retirement, marriage, or baby announcement) can be celebrated with the consent of the teammate and at the discretion of their manager. _Note: requests for internal gifts of branded swag cannot be supported at this time._ 
+Other teammate milestones (such as promotion, retirement, marriage, or baby announcement) can be celebrated with the consent of the teammate and at the discretion of their manager. _Note: requests for internal gifts of branded swag cannot be supported at this time._
 
 ## Sending gifts via mail
 
