@@ -7,6 +7,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Price List](https://docs.google.com/spreadsheets/d/1Vea0kr4Mx6AIs9YIHytTzDv9D1E7TY235hO49ZOB4I0/edit#gid=1935459439)
 - [Common questions from prospective customers](tools/common_customer_questions.md)
 - [Sales team onboarding](onboarding/index.md)
+- [Value Engineering & Sales Enablement Teams] (https://handbook.sourcegraph.com/departments/sales/sales-enablement)
 - [SDR Team](sdrteam/index.md)
 - [Sales strategy & ops team](sales-ops/index.md)
 - [Sales interview process](hiring/index.md)
