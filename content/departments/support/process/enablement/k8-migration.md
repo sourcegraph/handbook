@@ -92,7 +92,7 @@ In this section of the tutorial, you would learn how to restore the primary `sou
 ```
 
   $ psql -U sg -f /tmp/sourcegraph_db.out sg  // exec into the pgsql-pod and run this command
-  $ psql -U sg -f /tmp/codeintel_db.out sg.   // exec into codeintel_db-pod and run this command
+  $ psql -U sg -f /tmp/codeintel_db.out sg   // exec into codeintel_db-pod and run this command
 
 ```
 

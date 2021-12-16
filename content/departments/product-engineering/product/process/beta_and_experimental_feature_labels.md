@@ -2,7 +2,7 @@
 
 We use a hierarchy of feature labels to set expectations with our users and internally: `Experimental` ➡️ `Beta` ➡️ GA.
 
-[GA ("General Availability")](https://www.productplan.com/glossary/general-availability/) has no in-product label and is the default user assumption for an unlabelled feature.
+[GA ("General Availability")](https://www.productplan.com/glossary/general-availability/) has no in-product label and is the default user assumption for an unlabeled feature.
 
 ## Why we use these labels:
 
