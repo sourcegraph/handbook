@@ -35,7 +35,7 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
   - [ ] Anyone who teammate regularly works with
 
-## Gift amount policy for anniversaries
+### Gift amount policy for anniversaries
 
 Anniversary gifts should not exceed the following amounts per teammate and per year:
 
@@ -72,9 +72,13 @@ _Need a little help on what to get? Here’s a few of our favorite things:_
 - [Farmgirl Flowers: For those who like to stop and smell the roses](https://farmgirlflowers.com/) _(US)_
 - [Goldbelly Gift Card: For the foodies](https://www.goldbelly.com/) _(US)_
 
-## Gift amount policy for birthdays
+### Gift amount policy for birthdays
 
 Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
+
+## Other milestones
+
+Other teammate milestones (such as promotion, retirement, marriage, or baby announcement) can be celebrated with the consent of the teammate and at the discretion of their manager. _Note: requests for internal gifts of branded swag cannot be supported at this time._ 
 
 ## Sending gifts via mail
 
