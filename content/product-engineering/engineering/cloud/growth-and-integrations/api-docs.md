@@ -4,7 +4,7 @@
 
 ## Goals
 
-[Goals and roadmap](../../../../company/strategy/cloud/growth/api-docs.md)
+[Goals and roadmap](../../../../company/strategy/cloud/growth-and-integrations/api-docs.md)
 
 ## The API docs vision
 

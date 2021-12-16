@@ -109,12 +109,11 @@ Within this overall product strategy, individual product teams set their own goa
 - [Engineering Education](enablement/engineering-education/index.md)
 - [Handbook](enablement/handbook/index.md)
 
-#### Cloud
+#### [Cloud](cloud/index.md)
 
 - [Core application](cloud/core-application/index.md)
 - Cloud SaaS
-- Growth
-  - [API docs](cloud/growth/index.md)
+- [Growth and inetgrations](cloud/growth-and-integrations/index.md)
 - [Security](cloud/security/index.md)
 - DevOps/SRE
 - [Growth and Integrations](cloud/growth-and-integrations/index.md)
