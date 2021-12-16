@@ -1,11 +1,12 @@
-# Internal transfer process 
+# Internal transfer process
 
 As Sourcegraph grows, we would like to support teammates who are interested in taking on new roles in other teams, if their skillset and aspirations are required in the team they wish to move to.
 
 This page focuses on the _process_ of moving from one team or department to another. Specifically:
+
 - Who is eligible to move to a new team
-- The interview process for internal teammates 
-- Alerting People Ops / making the change official 
+- The interview process for internal teammates
+- Alerting People Ops / making the change official
 
 For teammates interested in a new role on a new team, please reach out to your Manager (or the Talent or [People Ops team](../../departments/people-ops/index.md)) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more.
 
@@ -18,6 +19,7 @@ If you are a Manager, please visit this page to learn [how to notify People Ops 
 For now, any member of the Sourcegraph team is eligible to request to take on a new role in another team, however, support for the change will be subject to teammate's length of time and performance in their existing role, ongoing projects, and whether their skillset is a match for the new role.
 
 ## The interview process
+
 ### Following best practice
 
 Whether hiring an internal candidate (someone who already works at Sourcegraph) or an external candidate, we always want to follow best practice. What does that mean?
