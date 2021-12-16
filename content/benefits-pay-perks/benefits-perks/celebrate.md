@@ -78,7 +78,10 @@ Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisabl
 
 ## Other milestones
 
-Other teammate milestones (such as promotion, retirement, marriage, or baby announcement) can be celebrated with the consent of the teammate and at the discretion of their manager. _Note: requests for internal gifts of branded swag cannot be supported at this time._
+Other teammate milestones (such as promotion, retirement, marriage, or baby announcement) can be celebrated with the consent of the teammate and at the discretion of their manager. Gifts should not exceed **$50 USD** per teammate and it is advisable to spend the same amount for each person on your team to create fairness within the group.
+
+### Branded swag
+Requests for internal gifts of branded swag cannot be supported at this time. If you have any questions, please reach out to the People Ops team via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com._
 
 ## Sending gifts via mail
 
