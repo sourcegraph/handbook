@@ -39,7 +39,7 @@ Requests to the content platform team can be made through a Slack workflow:
 - ![Content platform request in slack](https://storage.googleapis.com/sourcegraph-assets/handbook/content-platform-request.png)
 
 2. This will prompt you to fill out a form with relevant details.
-3. Completed forms will be sent to the content platform product manager, who will [triage](#traiging-incoming-requests) and update you with more information.
+3. Completed forms will be sent to the content platform product manager, who will [triage](#triaging-incoming-requests) and update you with more information.
 
 ## Principles
 
