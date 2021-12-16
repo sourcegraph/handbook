@@ -1,6 +1,7 @@
 # Identifying candidatea
 
 ## Where we find our candidates
+
 We identify candidates via a variety of channels:
 
 - Inbound applicants from our postings
@@ -9,21 +10,23 @@ We identify candidates via a variety of channels:
   - Glassdoor
   - COMING SOON - where else we post
 - Sourced candidates
-  -  COMING SOON: how we source candidates
+  - COMING SOON: how we source candidates
 - Agency submittals
-  -  COMING SOON: how we partner with agencies
+  - COMING SOON: how we partner with agencies
 - Referrals
-  - COMING SOON: how to submit a referral  
+  - COMING SOON: how to submit a referral
 
 ## Where we advertise our jobs
+
 COMING SOON
 
-## How we source passive candidates 
+## How we source passive candidates
 
 ## How a recruiter partners with their Sourcer
+
 COMING SOON
 
-## Passive candidate outreach best practices 
+## Passive candidate outreach best practices
 
 ## Sourcing candidates
 
