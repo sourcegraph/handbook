@@ -23,7 +23,7 @@ We have a company meeting every other week, during which we introduce our new te
 
 ### 💻 **Order your laptop**
 
-You are responsible for obtaining your laptop. You can find instructions [here](../../finance/spending-company-money.md#computers).
+You are responsible for obtaining your laptop. You can find instructions [here](../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers).
 
 ### 📦 **An exciting delivery**
 
@@ -31,7 +31,7 @@ We love our swag, and know you will, too! You will be receiving an email from so
 
 ### 🪑 **Start getting your home office set up**
 
-If you feel like starting to get ready before your start date, feel free to begin ordering the supplies you'll need to be successful on day one. We provide new teammates with a budget of up to $2000 to spend on their office setup. This can include a new chair, desk, monitor, headphones, and more. You can read about our desk set-up guidelines[ here](../../finance/spending-company-money.md).
+If you feel like starting to get ready before your start date, feel free to begin ordering the supplies you'll need to be successful on day one. We provide new teammates with a budget of up to $2000 to spend on their office setup. This can include a new chair, desk, monitor, headphones, and more. You can read about our desk set-up guidelines[ here](../../benefits-pay-perks/benefits-perks/spending-company-money.md).
 
 ### 💥 **Benefits and Perks**
 
@@ -57,7 +57,7 @@ Keep in mind that teammates starting on the day before any given payday will rec
 
 ### 💸 **Getting Paid**
 
-If you will be on a contracting structure where you submit an invoice at the end of each month to be paid once a month, please read more about the invoicing process and find resources [here](../../ops/finance/invoices.md).
+If you will be on a contracting structure where you submit an invoice at the end of each month to be paid once a month, please read more about the invoicing process and find resources [here](../../benefits-pay-perks/pay-expenses/invoices.md).
 
 ### 🗺 **Talent outside the US**
 
