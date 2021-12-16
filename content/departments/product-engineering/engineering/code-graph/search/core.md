@@ -15,7 +15,6 @@ To learn more about our goals, see the [Search Core strategy](../../../../../str
 - [Jeff Warner](../../../../../team/index.md#jeff-warner) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#search-core-eng}
   - [Keegan Carruthers-Smith](../../../../../team/index.md#keegan-carruthers-smith)
   - [Stefan Hengl](../../../../../team/index.md#stefan-hengl)
-  - [Ryan Hitchman](../../../../../team/index.md#ryan-hitchman)
   - [Tomás Senart](../../../../../team/index.md#tomás-senart)
   - [Geoffrey Gilmore](../../../../../team/index.md#geoffrey-gilmore)
 
