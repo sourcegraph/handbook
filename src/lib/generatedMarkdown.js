@@ -339,7 +339,7 @@ async function getTeamLocations() {
       'query': 'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*(.*)\n -> $1)'
       // 'query': 'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*([a-zA-Z,. ]*[a-zA-Z]) -> $1)'
     },
-    'operationName': 'compute'
+    operationName: 'compute',
   }
   const response = await fetch('https://sourcegraph.com/.api/graphql', {method: 'POST', body: JSON.stringify(body)})
   const data = await response.json()
@@ -364,4 +364,3 @@ async function getTeamLocations() {
   console.log(items)
   return items
 }
-
