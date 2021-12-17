@@ -1,4 +1,4 @@
-# Api docs
+# API docs
 
 API docs is a core component of a company-wide initiative to help Sourcegraph become the standard tool for searching and understanding public code.
 
