@@ -149,6 +149,7 @@ export async function generateCodeHostsList() {
 }
 
 export async function generateTeamMembersList() {
+  await getTeamLocations()
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
@@ -311,3 +312,35 @@ export async function generateEngineeringOwnershipTable() {
 
   return pageContent
 }
+
+export async function generateTeamLocationsTable() {
+}
+
+async function getTeamLocations() {
+  const body = {
+    'query': 'query compute(\n\t$query: String!,\n) {\n\tcompute(query: $query, ) {\n\t\t...on ComputeText {\n      value\n    }\n\t}\n}',
+    'variables': {
+      'query': 'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*([a-zA-Z, ]*[a-zA-Z]) -> $1)'
+    },
+    'operationName': 'compute'
+  }
+  const response = await fetch('https://sourcegraph.com/.api/graphql', {method: 'POST', body: JSON.stringify(body)})
+  // console.log(response)
+  const data = await response.json()
+  // console.log(data)
+  var values = []
+  data?.data?.compute?.forEach(value => values.push(value))
+  // var locations = []
+  for (let i = values.length - 1; i >= 0; i--) {
+    console.debug(values[i])
+    var locations = String(values[i]).split('\n')
+    console.debug(JSON.stringify(locations))
+    console.debug(locations.length)
+    for (let j = locations.length - 1; j >= 0; j--) {
+      console.debug(String(locations[j]))
+    }
+  }
+  // values.map(value => String(value).split('\n')).forEach(location => locations.push(location))
+  // console.log(locations)
+}
+
