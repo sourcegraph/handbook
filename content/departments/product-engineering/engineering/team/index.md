@@ -40,6 +40,7 @@
       - [Ryan Slade](../../../../team/index.md#ryan-slade)
       - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
       - [Alexander Ostrikov](../../../../team/index.md#alexander-ostrikov)
+      - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
     - [Delivery](../enablement/delivery/index.md) - Engineering Manager:[Jean du Plessis](../../../../team/index.md#jean-du-plessis)
       - [Kevin Wojkovich](../../../../team/index.md#kevin-wojkovich)
       - [Crystal Augustus](../../../../team/index.md#crystal-augustus)
