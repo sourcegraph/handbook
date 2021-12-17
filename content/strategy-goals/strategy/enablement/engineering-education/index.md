@@ -40,7 +40,9 @@ These are the principles that guide the work we do in Engineering Education. Som
 ## Where we are now
 
 - The Engineering Education team was created in September 2021.
-- We're currently setting goals, planning a roadmap, and auditing the current state of engineering onboarding.
+- We're currently working on:
+  1. Improving the Engineering onboarding experience for new teammates.
+  2. Creating more opportunities for internal knowledge exchange in Engineering.
 
 ## Goals
 
@@ -50,7 +52,8 @@ This section is in progress. We're currently defining our goals and aligning the
 
 These indicators help us with knowing whether we’re going in the right direction and where we contribute to our business strategy and vision:
 
-- **Time to first (and subsequent) Pull Requests** - This is an overall measure of how quickly someone can ramp up on context and become productive at Sourcegraph
-- **Time to first code reviews** - This is a metric of how long it takes for engineers to gain the necessary context to contribute to technical discussions about code and implementations.
-- **Word of mouth** - Teammates' public sharing of appreciation and excitement about the initiatives we put in place (e.g., blog posts, tweets, Slack messages in #thanks)
+- **Time to first (and subsequent) Pull Requests** - This is an overall measure of how quickly someone can ramp up on context and become productive at Sourcegraph. This metric is described here: [Time-to-Pull-Request Metric](./time-to-pull-request)
+- **Engagement** with the onboarding resources and other learning materials that we create (depending on the tools we use for delivering the content).
+- **Participation** in the #dev-learn channel
+- **Time to first code reviews** - This is a metric of how long it takes for engineers to gain the necessary context to contribute to technical discussions about code and implementations. Currently being explored as a future metric.
 - **Retention** - Lack of career development opportunities is a key contributor in people choosing to leave an organization – https://www.cultureamp.com/blog/biggest-lie-people-quit-bosses
