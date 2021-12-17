@@ -18,8 +18,8 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 Managers can send Loop & Tie collections to teammates on their anniversary each year. To create a Loop & Tie account, please reach out to Fabiana Castellanos at fabiana@sourcegraph.com or brand@sourcegraph.com if Fabiana is not available. Please note the following:
 
-  - There are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
-  - As a manager you can choose a different anniversary gift for your direct report as long as it abides by the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
+- There are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
+- As a manager you can choose a different anniversary gift for your direct report as long as it abides by the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
 - Managers to create a [Kudoboard](https://www.kudoboard.com/) for their teammate to gather signatures and well wishes in an email deliverable card. We have an annual subscription to Kudoboard. You can find our Sourcegraph credentials in 1Password under Kudoboard or by searching ‘_kudoboard_’ or ‘_birthday_’.
 - When creating the Kudoboard, the format should include:
