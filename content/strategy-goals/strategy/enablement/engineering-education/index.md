@@ -52,7 +52,7 @@ This section is in progress. We're currently defining our goals and aligning the
 
 These indicators help us with knowing whether we’re going in the right direction and where we contribute to our business strategy and vision:
 
-- **Time to first (and subsequent) Pull Requests** - This is an overall measure of how quickly someone can ramp up on context and become productive at Sourcegraph. This metric is described here: [Time-to-Pull-Request Metric](./time-to-pull-request)
+- **Time to first (and subsequent) Pull Requests** - This is an overall measure of how quickly someone can ramp up on context and become productive at Sourcegraph. This metric is described here: [Time-to-Pull-Request Metric](./time-to-pull-request.md)
 - **Engagement** with the onboarding resources and other learning materials that we create (depending on the tools we use for delivering the content).
 - **Participation** in the #dev-learn channel
 - **Time to first code reviews** - This is a metric of how long it takes for engineers to gain the necessary context to contribute to technical discussions about code and implementations. Currently being explored as a future metric.
