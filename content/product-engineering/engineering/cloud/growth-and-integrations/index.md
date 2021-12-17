@@ -1,6 +1,6 @@
 # Growth and Integrations team
 
-The growth and integrations team owns the initial user journey, growth-oriented projects, our code host and third-party integrations (including our browser extension), and Sourcegraph extensions.
+The growth and integrations team owns the initial user journey, growth-oriented projects, our code host and third-party integrations (including our IDE and browser extensions), and Sourcegraph extensions.
 
 Our mission is to bring the value of Sourcegraph to all developers, everywhere they work with code, and to bring the value of other developer tools into Sourcegraph.
 
