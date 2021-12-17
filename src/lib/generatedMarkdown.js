@@ -149,7 +149,6 @@ export async function generateCodeHostsList() {
 }
 
 export async function generateTeamMembersList() {
-  await getTeamLocations()
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
@@ -314,33 +313,55 @@ export async function generateEngineeringOwnershipTable() {
 }
 
 export async function generateTeamLocationsTable() {
+  const locations = await getTeamLocations()
+
+  let pageContent = ''
+  const addRow = colData => {
+    pageContent += `| ${String(colData.join(' | '))} |\n`
+  }
+
+  const columnNames = ['Location', 'Count']
+  addRow(columnNames)
+
+  const splitters = columnNames.map(() => '---')
+  addRow(splitters)
+
+  for (const location of locations) {
+    addRow(location)
+  }
+  return pageContent
 }
 
 async function getTeamLocations() {
   const body = {
     'query': 'query compute(\n\t$query: String!,\n) {\n\tcompute(query: $query, ) {\n\t\t...on ComputeText {\n      value\n    }\n\t}\n}',
     'variables': {
-      'query': 'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*([a-zA-Z, ]*[a-zA-Z]) -> $1)'
+      'query': 'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*(.*)\n -> $1)'
+      // 'query': 'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*([a-zA-Z,. ]*[a-zA-Z]) -> $1)'
     },
     'operationName': 'compute'
   }
   const response = await fetch('https://sourcegraph.com/.api/graphql', {method: 'POST', body: JSON.stringify(body)})
-  // console.log(response)
   const data = await response.json()
-  // console.log(data)
   var values = []
-  data?.data?.compute?.forEach(value => values.push(value))
-  // var locations = []
+  const counts = {}
+  data?.data?.compute?.forEach(value => values.push(value?.value))
+  // tabulate
   for (let i = values.length - 1; i >= 0; i--) {
-    console.debug(values[i])
+    console.log(values[i])
     var locations = String(values[i]).split('\n')
-    console.debug(JSON.stringify(locations))
-    console.debug(locations.length)
     for (let j = locations.length - 1; j >= 0; j--) {
-      console.debug(String(locations[j]))
+      const current = locations[j]
+      if (current === '') {
+        continue
+      }
+      const count = counts[current] ?? 0
+      counts[current] = count + 1
     }
   }
-  // values.map(value => String(value).split('\n')).forEach(location => locations.push(location))
-  // console.log(locations)
+  var items = Object.keys(counts).map(key => [key, counts[key]])
+  items.sort((first, second) => second[1] - first[1])
+  console.log(items)
+  return items
 }
 

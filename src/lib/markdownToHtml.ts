@@ -244,6 +244,10 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             /{{generator:engineering_ownership}}/gi,
             await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())
         )
+        markdown = markdown.replace(
+            /{{generator:team_members_location_table}}/gi,
+            await Promise.resolve(generatedMarkdown.generateTeamLocationsTable())
+        )
     }
     return markdown
 }

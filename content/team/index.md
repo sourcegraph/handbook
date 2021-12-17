@@ -9,3 +9,6 @@ This page contains brief bios of our team. Teammates may also have a personal do
 Note that this page is driven by a data file, and clicking "Edit this page" in the bottom right corner of this page will not allow you to add or edit your bio. Edit [this file](https://github.com/sourcegraph/handbook/blob/main/data/team.yml) to add yourself to the team page. For more information, check out [these instructions](../handbook/editing/add-yourself-to-team-page.md).
 
 {{generator:team_members_list}}
+
+## Team Locations
+{{generator:team_members_location_table}}
