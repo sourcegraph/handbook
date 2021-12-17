@@ -9,7 +9,9 @@
 
 ## Branded swag
 
-Welcome to our Gifting Guidelines Page! Have a request for swag? Use the [Swag Request Form](https://app.asana.com/0/1200419124213353/list).
+Welcome to our Gifting Guidelines Page! Have a request to send branded swag as an external gift?\* Use the [Swag Request Form](https://app.asana.com/0/1200419124213353/list).
+
+> \*Requests for internal gifts of branded swag cannot be supported at this time. See our policies for sending internal gifts [here](../../../benefits-pay-perks/benefits-perks/celebrate.md).
 
 > Note that adding new items to our inventory can take around 8+ weeks if a custom design is being created and applied to the item vs our standard branding and logo applications.
 
