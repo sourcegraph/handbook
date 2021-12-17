@@ -27,7 +27,7 @@ You are responsible for obtaining your laptop. You can find instructions [here](
 
 ### 📦 **An exciting delivery**
 
-We love our swag, and know you will, too! You will be receiving an email from someone in the People team shortly a few days before your start date - please provide the requested information so that we can send you your Sourcegraph swag pack!
+We love our swag, and know you will, too! You will be receiving an email from someone in the People team a few days before your start date - please provide the requested information so that we can send you your Sourcegraph swag pack!
 
 ### 🪑 **Start getting your home office set up**
 
@@ -61,4 +61,4 @@ If you will be on a contracting structure where you submit an invoice at the end
 
 ### 🗺 **Talent outside the US**
 
-You can read more about [How we engage talent outside the US here](../../departments/people-ops/process/how-we-engage-talent-outside-the-us/index.md).
+You can read more about [how we engage talent outside the US here](../../departments/people-ops/process/how-we-engage-talent-outside-the-us/index.md).
