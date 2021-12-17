@@ -2,7 +2,7 @@
 
 Below is a list of steps to ensure security and compliance for Sourcegraph devices. When setting up your Sourcegraph device please ensure the following steps have been completed.
 
-1. Create a complex laptop password that meets our [password requirements](/process/internal_security.md)
+1. Create a complex laptop password that meets our [password requirements](../process/internal_security.md)
 
 2. Encryption is enabled on your device. Below are links to steps on how you can turn on device encryption for MacOS and Windows.
 
