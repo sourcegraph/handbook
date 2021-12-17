@@ -74,6 +74,8 @@ The list below contains features and services that already exist, and the Cloud 
   - [Milan Freml](../../../../../team/index.md#milan-freml) (he/him)
   - [Rafal Gajdulewicz](../../../../../team/index.md#rafal-gajdulewicz) (he/him)
   - P. R. (he/him) - starting 2022.01
+  - P-J L. (he/him) - starting 2022.01
+  - M. V. (she/her) - starting 2022.02
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
 
