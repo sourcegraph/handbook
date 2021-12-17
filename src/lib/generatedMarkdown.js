@@ -334,14 +334,16 @@ export async function generateTeamLocationsTable() {
 
 async function getTeamLocations() {
   const body = {
-    'query': 'query compute(\n\t$query: String!,\n) {\n\tcompute(query: $query, ) {\n\t\t...on ComputeText {\n      value\n    }\n\t}\n}',
-    'variables': {
-      'query': 'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*(.*)\n -> $1)'
+    query:
+      'query compute(\n\t$query: String!,\n) {\n\tcompute(query: $query, ) {\n\t\t...on ComputeText {\n      value\n    }\n\t}\n}',
+    variables: {
+      query:
+        'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*(.*)\n -> $1)',
       // 'query': 'file:^data/team\\.yml count:all repo:github\\.com/sourcegraph/handbook content:output(location:\\s*([a-zA-Z,. ]*[a-zA-Z]) -> $1)'
     },
     operationName: 'compute',
   }
-  const response = await fetch('https://sourcegraph.com/.api/graphql', {method: 'POST', body: JSON.stringify(body)})
+  const response = await fetch('https://sourcegraph.com/.api/graphql', { method: 'POST', body: JSON.stringify(body) })
   const data = await response.json()
   var values = []
   const counts = {}
