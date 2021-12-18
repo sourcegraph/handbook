@@ -151,9 +151,10 @@ The goal of annual planning is to:
 1. Review [annual planning artifacts](#annual-planning) to remind ourselves where we want to go, and to make any necessary adjustments to account for any new information we now have.
 2. Produce quarterly OKRs for product and engineering as a whole, and for each deparment.
 
+Objectives and Key Results (OKRs) are how we [define success](#good-plans-are-clear-and-concise) for the quarter. The [GitHub project tracker](reporting-progress.md#github-project-tracker) is where we define our delivery plan for the quarter (and the year).
+
 Rough timeline:
 
 1. Start drafing OKRs 3-4 weeks before the quarter starts.
 2. Finish OKRs before the new quarter starts.
-
-Objectives and Key Results (OKRs) are how we [define success](#good-plans-are-clear-and-concise) for the quarter. The [GitHub project tracker](reporting-progress.md#github-project-tracker) is where we define our delivery plan for the quarter (and the year).
+3. [Report progress](reporting-progress.md) on OKRs throughout the quarter.
