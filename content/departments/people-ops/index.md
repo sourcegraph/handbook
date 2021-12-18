@@ -9,14 +9,11 @@
 - [Inés Roitman](../../team/index.md#ines-roitman), Onboarding and Training Manager
 - [Cassie Melani](../../team/index.md#cassie-melani), Teammate Success Manager
 - [Cecily Black](../../team/index.md#cecily-black), People Operations Coordinator
+- [Jon Ayers](../../team/index.md#jonathan-ayers), Senior People Partner
 
-### People Ops team READMEs
+#### People Ops team READMEs
 
 [People Ops READMEs](team/index.md)
-
-### Open roles
-
-See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the People Ops team.
 
 ### How to reach the right member of the People Ops team
 
@@ -24,7 +21,11 @@ If you encounter a question at any point, we're here to help!
 
 Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)** will help you understand which aliases to use for your questions. It will also ensure you get the right attention, from the right team member, faster. In the spirit of transparency, for any questions which might apply to others, feel free to post in the Slack channels we listed in the matrix.
 
-### People Ops frequently asked questions (FAQs)
+### Open roles
+
+See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the People Ops team.
+
+## People Ops frequently asked questions (FAQs)
 
 [People Ops FAQs](tools/people-ops-faqs.md)
 
@@ -76,4 +77,4 @@ This section currently includes resources that were specifically created to help
 
 - [Compensation change approvals](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 
-  - [How to notify People Ops of an org and role change section](tools/manager-guide.md##how-to-notify-people-ops-of-an-org-and-role-change)
+  - [How to notify People Ops of an org and role change section](tools/manager-guide.md#managing-a-role-change)

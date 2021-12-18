@@ -114,7 +114,7 @@ There is currently no process defining how custom additions should be made to ou
 
 ### Alerts
 
-Notifiers for alerts are configured via the [`deploy-sourcegraph-dot-com` frontend ConfigMap for `site.json`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/frontend/sourcegraph-frontend.ConfigMap.yaml#L5188-L5274).
+Notifiers for alerts are configured via the [`deploy-sourcegraph-cloud` frontend ConfigMap for `site.json`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/frontend/sourcegraph-frontend.ConfigMap.yaml#L5188-L5274).
 
 Alerts go to the #alerts channel, with critical alerts going to [OpsGenie](../../process/incidents/on_call.md). Critical alerts are assigned responders in OpsGenie based on the `owner` field of each alert - the mapping of `owner` to engineering team can be found in the Sourcegraph Cloud site configuration.
 
@@ -127,9 +127,9 @@ We use [Blackbox Exporter](https://github.com/prometheus/blackbox_exporter) for:
 - Monitoring external and internal http endpoints
 - Configuring alerts based on http response codes to notify teams when sourcegraph is unreachable via an external URL as well as `sourcegraph-frontend-internal` to assist in diagnosing the root cause of sourcegraph being unavailable.
 
-Prometheus scrapes Blackbox Exporter every 30s, which will send a request to endpoints configured via the [`deploy-sourcegraph-dotcom` prometheus ConfigMap for `prometheus.yaml`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/d3b76f0623ca19457d7555e97ee397fc0db555e4/base/prometheus/prometheus.ConfigMap.yaml#L214-L260).
+Prometheus scrapes Blackbox Exporter every 30s, which will send a request to endpoints configured via the [`deploy-sourcegraph-dotcom` prometheus ConfigMap for `prometheus.yaml`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/d3b76f0623ca19457d7555e97ee397fc0db555e4/base/prometheus/prometheus.ConfigMap.yaml#L214-L260).
 
-Alerts are configured separately via the [`deploy-sourcegraph-dotcom` prometheus ConfigMap for `sourcegraph_dotcom_rules.yml`](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/prometheus/prometheus.ConfigMap.yaml#L511)
+Alerts are configured separately via the [`deploy-sourcegraph-dotcom` prometheus ConfigMap for `sourcegraph_dotcom_rules.yml`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/prometheus/prometheus.ConfigMap.yaml#L511)
 
 _Rationale for Blackbox Exporter_: Site24x7 has been a source of flaky alerts, outlined in #10742 and more broadly in #11966. In an effort increase reliablity and broaden the scope of our monitoring, Blackbox Exporter was selected as it integrates well into our existing Prometheus and Alertmanager stack.
 

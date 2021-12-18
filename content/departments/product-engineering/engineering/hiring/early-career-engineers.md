@@ -168,6 +168,10 @@ To further train your bias-catching muscle, check out [Pamela Fuller's The Leade
 
 ## Set up early-career teammates for success
 
+### Resources for onboarding and beyond
+
+- [PR Checklist](../onboarding/early-career-resources/pr-checklist.md)
+
 ### Define what success looks like
 
 It is essential to prepare when someone new is joining the team regardless of their experience, even more so for an early-career engineer. The following are guidelines to help hiring managers and their teams think about what a new hire's development should look like and what the goal is.

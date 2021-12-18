@@ -9,17 +9,17 @@ Our hiring managers work with their [assigned recruiter](../index.md#talent-team
 All role-specific interview processes are documented at the end of each [job description](https://boards.greenhouse.io/sourcegraph91).
 We strive for consistency across all interviews.
 
-- **Recruiter screen**
-- **Hiring manager screen**
+- **Recruiter Screen**
+- **Hiring Manager Screen**
 - Assignment, if applicable
 - In-depth Interview stage:
-  - Resume deep dive
+  - Resume Deep Dive
   - Assignment review/working session, if applicable
-  - Technical interview, if applicable
-  - **Cross-functional team collaboration interview**
-  - **Peer interview**
-  - Leadership interview
-  - **Values interview**
+  - Technical Interview, if applicable
+  - **Cross-functional Team Collaboration Interview**
+  - **Peer Interview**
+  - Leadership Interview
+  - **Values Interview**
 - Reference checks / offer
 
 ## Structured interview questions
@@ -30,7 +30,7 @@ We ask structured questions for all interviews, meaning that all candidates are 
 
 All departments are likely to have some or all of the below universal interview stages:
 
-## Recruiter screen
+## Recruiter Screen
 
 - Interviewer: the assigned recruiter for the role.
 - Duration: 30-minutes.
@@ -46,7 +46,7 @@ All departments are likely to have some or all of the below universal interview 
   - Are your compensation expectations in line with our compensation range, which is XYZ?
   - What questions do you have for us?
 
-## Hiring Manager screen
+## Hiring Manager Screen
 
 - Interviewer: the hiring manager.
 - Duration: 30-minutes is average, but sometimes these are longer.
@@ -56,7 +56,7 @@ All departments are likely to have some or all of the below universal interview 
   - Why do you want to be a [role title]? What are your longterm goals?
   - How would you explain what Sourcegraph does to a friend?
 
-## Resume deep dive
+## Resume Deep Dive
 
 - Interviewer(s): the hiring manager or a peer leads the Resume deep dive, and sometimes there is another teammate who shadows the interview.
 - Duration: 60-minutes.
@@ -70,7 +70,7 @@ All departments are likely to have some or all of the below universal interview 
   - What are you most proud of accomplishing while in your job?
   - Why did you leave?
 
-## Peer interview
+## Peer Interview
 
 - Interviewer(s): the other members of the team for which you're interviewing.
 - Duration: 30-45 minutes.
@@ -79,7 +79,7 @@ All departments are likely to have some or all of the below universal interview 
   - Tell us about the best team you've ever been a part of.
   - Tell us about a time when you had to put your team's interests above your own.
 
-## Cross-functional team collaboration interview
+## Cross-functional Team Collaboration Interview
 
 - Interviewer(s): people outside of your respective department who you would cross-collaborate with regularly.
 - Duration: 30-60 minutes.
@@ -88,7 +88,7 @@ All departments are likely to have some or all of the below universal interview 
   - Tell us about a recent project you worked on where you collaborate with people outside of your department
   - Tell me about a project where you or your team had a disagreement with someone in another function
 
-## Leadership interview
+## Leadership Interview
 
 - Interviewer: a member of the leadership team for the department.
 - Duration: 30-45 minutes.
@@ -96,7 +96,7 @@ All departments are likely to have some or all of the below universal interview 
 - Example questions:
   - Coming soon
 
-## Values interview
+## Values Interview
 
 Read more about our values interview [here](evaluating_values.md).
 
@@ -464,18 +464,34 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
   - Part 2: Setting you up for success
   - Then, you’ll meet 1:1 with Andy where you’ll have a chance to discuss the role and share what you need to be successful: tools, resources/special budget for anything, specific commitments from other teams, anything from Andy, etc.)
 
+### Manager of Internal Communications working session
+
+- Duration: 60-minutes.
+- The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
+- First, we'd like to cover some general stuff:
+  - Your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
+  - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me and Debbie, etc.)
+- Then we'd like to hear, at a high level, how you would approach putting together Sourcegraph’s 60-90 minute Q1 kickoff this February.
+- Q1 company kickoff
+- This of course takes hours of planning, but we’re just looking for a 60 minute conversation total (including the general stuff above). _You don't need to put together a full plan!_
+- Some (hypothetical) updates to account for:
+  - We missed our Q4 revenue target and are slightly under for the fiscal year, but current pipeline has us on track to hit Q1 goals
+  - We’re updating the company travel policy from one individual trip per year anywhere in the world to collaborate with a coworker, to a regional meetup trip (west coast NA, east coast NA, EMEA)
+- Please don't go overboard on preparation, plans, or detail. Clever ideas are awesome, but we're looking for your process/framework/principles. A Google Doc outline is how we'd start off content planning. Doesn't have to be pretty. If you prefer slides, that's fine. This will be a casual back and forth conversation; not a formal presentation.
+- Feel free to reach out to Amie (amie.rotherham@sourcegraph.com) with any questions.
+
 ## People Operations
 
 ### Senior People Partner working session
 
 - Duration: 60-minutes.
-- Our working session is designed to give us more insight into how you'd think about and approach typical scenarios you might be called on to provide support to managers on. We've detailed three scenarios for you to walk us through the way you'd think and respond to each scenario. For each scenario please walk us though:
+- Our working session is designed to give us more insight into how you'd think about and approach typical scenarios you might be called on to provide support to managers on. We've detailed three scenarios for you to walk us through the way you'd think and respond to each scenario. For each scenario please walk us through:
   - How would you approach this situation and why? What risks or concerns does each scenario present?
   - Who would you involve, why and how?
   - What feedback would you give the manager concerned?
   - What, if anything, might be changed internally based on this situation arising?
 - We will provide the detailed scenarios via email 24 hours before your scheduled interview.
-- Note you don't need to submit anything (in writing or presentation) ahead of the interview - just structure your thoughts and talk us through it! We'll ask questions as they come up.
+- Note: you don't need to submit anything (in writing or presentation) ahead of the interview - just structure your thoughts and talk us through it! We'll ask questions as they come up.
 
 ## Product
 
@@ -525,7 +541,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 - Interviewer(s): [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
 - Duration: 1 hour
-- Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early into early parts of the product life cycle process.
+- Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high-level plan for how you would execute this vision (or challenge us on why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early parts of the product life-cycle process.
 
 #### Design collaboration
 
@@ -543,7 +559,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 - Interviewer: [Marketing team member](../../../team/org_chart.md#marketing)
 - Duration: 30 mins
-- Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross functional teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to you collaborate and produce educational and other types of content that connects with our customers and users.
+- Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross functional teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to collaborate and produce educational and other types of content that connects with our customers and users.
 
 #### Customer support collaboration
 
@@ -566,7 +582,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were not the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will have about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 

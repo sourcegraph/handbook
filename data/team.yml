@@ -211,8 +211,8 @@ rob_rhyne:
 
 felix_becker:
   name: Felix Becker
-  role: Software Engineer
-  location: Bremen, Germany 🇩🇪
+  role: Engineering Manager
+  location: ~~Bremen, Germany 🇩🇪~~ San Francisco, California 🇺🇸
   github: felixfbecker
   email: felix@sourcegraph.com
   links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
@@ -257,7 +257,7 @@ robert_lin:
 
 marek_zaluski:
   name: Marek Zaluski
-  role: Developer Education Engineer
+  role: 'Software Engineer, Engineering Education Lead'
   location: Ottawa, Canada 🇨🇦
   github: marekweb
   email: marek@sourcegraph.com
@@ -981,7 +981,7 @@ carly_jones:
 rafal_leszczynski:
   name: Rafal Leszczynski
   pronouns: he/him
-  role: Engineering Manager, Core Application
+  role: Engineering Manager, Cloud SaaS
   location: Jelonek (Poznan), Poland 🇵🇱
   github: RafLeszczynski
   email: rafal@sourcegraph.com
@@ -1598,7 +1598,7 @@ mary_belzer:
   name: Mary Belzer
   reports_to: product_director_enablement
   pronouns: she/her
-  role: Product Manager, Handbook
+  role: Product Manager, Content Platform
   location: Denver, Colorado, United States 🇺🇸
   github: marybelzer
   email: mary.belzer@sourcegraph.com
@@ -1738,7 +1738,7 @@ trey_sizemore:
   github: hjsizemore
   email: trey@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/treysizemore/)'
-  description: "Trey is currently living as a digital nomad, traveling the US in a 5th wheeler with his fiancée Paige and their 2 dogs Jack and Dash. He has 3 children (Sahara, Savannah, and Ethan) who he's immensely proud of and who are off on thier own adventures. Trey enjoys playing [pickleball] (https://www.usapa.org), tennis, and pretty much any gadget. He's always up for time at the beach 🏖, traveling to new destinations (and old favorites), and the occasional dad joke 😆"
+  description: "Trey is currently living as a digital nomad, traveling the US in a 5th wheeler with his fiancée Paige and their 2 dogs Jack and Dash. He has 3 children (Sahara, Savannah, and Ethan) who he's immensely proud of and who are off on their own adventures. Trey enjoys playing [pickleball] (https://www.usapa.org), tennis, and pretty much any gadget. He's always up for time at the beach 🏖, traveling to new destinations (and old favorites), and the occasional dad joke 😆"
 
 cristina_birkel:
   name: Cristina Birkel
@@ -1962,7 +1962,7 @@ jordan_plahn:
   github: jplahn
   email: jordan.plahn@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jplahn)'
-  description: Jordan lives in Seattle, WA with his fiancée and fluffy Newfoundland. He was born in Houston, but lived in other countries for 12 years while growing up (Thailand, Egypt, Scotland). Jordan loves to explore the beautiful mountains of Washingotn, travel and eat, play golf, and spend way too much time (and money) chasing the perfect espresso shot. Before Sourcegraph, Jordan worked at Amazon for 6 years as a Software Engineer, Product Manager, and Engineering Manager.
+  description: Jordan lives in Seattle, WA with his fiancée and fluffy Newfoundland. He was born in Houston, but lived in other countries for 12 years while growing up (Thailand, Egypt, Scotland). Jordan loves to explore the beautiful mountains of Washington, travel and eat, play golf, and spend way too much time (and money) chasing the perfect espresso shot. Before Sourcegraph, Jordan worked at Amazon for 6 years as a Software Engineer, Product Manager, and Engineering Manager.
 
 varun_gandhi:
   name: Varun Gandhi
@@ -2222,3 +2222,12 @@ daniel_dides:
   github: danieldides
   links: '[LinkedIn](https://www.linkedin.com/in/danieldides/)'
   description: Daniel lives in Flint, TX with his wife, two dogs, a cat, and a couple of horses. During the day, Dan enjoys helping people leverage Kubernetes and modern cloud tooling. When he's not working, he enjoys watching rocket launches, designing and 3D printing parts, and tinkering with new technologies.
+
+nicolas_hernandez:
+  name: Nick Hernandez
+  role: Enterprise Account Executive - Sales
+  location: New York City, NY, USA 🇺🇸
+  email: nick.hernandez@sourcegraph.com
+  github: fryster66
+  links: '[LinkedIn](https://www.linkedin.com/in/nicolas-hernandez-70242033/), [@HiDoctorNico](https://twitter.com/hidoctornico), [Why I Joined Sourcegraph](https://medium.com/@doktanick/why-i-am-joining-sourcegraph-99fba51df985)'
+  description: Nick grew up in San Francisco and is currently in NYC. He graduated from Stanford where he studied Comp Lit and then took a fellowship to study law in Germany. He started his career in Enteprise Software at MuleSoft where he held a number of different sales roles. After that, he built the sales team at Vivian, a healthcare labor marketplace owned by IAC. Nick likes to read books, drink tea, and explore on foot. He is taking music recommendations.

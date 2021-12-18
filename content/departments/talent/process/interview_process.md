@@ -29,7 +29,7 @@ Current employees can refer a candidate in Greenhouse [here](https://tracking.ci
 
 **Selling Sourcegraph:**
 
-- COMING SOON
+- [Click here](../../marketing/process/messaging.md#sourcegraph-value-proposition) to view our Marketing page that describes what Sourcegraph does in different message lengths.
 
 ## The interview stage
 
@@ -41,7 +41,7 @@ The Recruiter conducts an initial recruiter screen with eligible candidates. Sam
 
 - To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
 - COMING SOON: how to schedule with Calendly
-- To decline a candidate, follow [these steps]COMING SOON. All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
+- To decline a candidate, follow [these steps](../process/interview_process.md#declining-candidates). All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
 
 The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the `#talent-scheduling-and-offers` Slack channel.
 
@@ -64,9 +64,9 @@ The Recruitment Operations specialist will schedule all remaining interviews in 
 
 Following your interview, please provide interview feedback immediately, no later than 24-hours after your interview, to ensure we are able to move quickly and provide a positive candidate experience.
 
-- COMING SOON: how to provide interview feedback
-- COMING SOON: interview feedback definitions
-- COMING SOON: how to keep your interview feedback legal
+- [How to provide interview feedback](../process/interview_process.md#providing-interview-feedback)
+- We want to ensure every Teammate is aligned on what a `strong yes` `yes` and `no` recommendation means. You can find interview feedback definitions [here](../process/interview_process.md#providing-interview-feedback)
+- [How to keep your interview feedback legal](../process/interview_process.md#keeping-your-feedback-legal)
 
 ### The decision making stage
 

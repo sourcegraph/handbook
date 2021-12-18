@@ -4,16 +4,16 @@
 - [Debugging](#debugging)
   - [Check what version of Sourcegraph is deployed](#check-what-version-of-sourcegraph-is-deployed)
 - [Sourcegraph.com](#sourcegraphcom)
-  - [Deploying to sourcegraph.com](#deploying-to-sourcegraph-com)
-  - [Deploying to sourcegraph.com during 2021-08-19 code freeze](#deploying-to-sourcegraph-com-during-2021-08-19-code-freeze)
-  - [Rolling back sourcegraph.com](#rolling-back-sourcegraph-com)
+  - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
+  - [Deploying to sourcegraph.com during 2021-08-19 code freeze](#deploying-to-sourcegraphcom-during-2021-08-19-code-freeze)
+  - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
   - [Disabling Renovate on sourcegraph.com](#disable-renovate)
   - [Backing up & restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
   - [Invalidating all user sessions](#invalidating-all-user-sessions)
-  - [Accessing sourcegraph.com database](#accessing-sourcegraph-com-database)
+  - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
     - [Via the CLI](#via-the-cli)
     - [Via BigQuery (for read-only operations)](#via-bigquery-for-read-only-operations)
-  - [Restarting about.sourcegraph.com and docs.sourcegraph.com](#restarting-about-sourcegraph-com-and-docs-sourcegraph-com)
+  - [Restarting about.sourcegraph.com and docs.sourcegraph.com](#restarting-aboutsourcegraphcom-and-docssourcegraphcom)
   - [Creating banners for maintenance tasks](#creating-banners-for-maintenance-tasks)
 - [k8s.sgdev.org](#k8ssgdevorg)
   - [Manage users in k8s.sgdev.org](#manage-users-in-k8s-sgdev-org)
@@ -40,19 +40,19 @@ To learn more about this deployment, see [instances](./instances.md#sourcegraph-
 
 ### Deploying to sourcegraph.com
 
-Every commit to the `release` branch (the default branch) on [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) deploys the Kubernetes YAML in this repository to our dot-com cluster [in CI](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/builds?branch=release) (i.e. if CI is green then the latest config in the `release` branch is deployed).
+Every commit to the `release` branch (the default branch) on [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud) deploys the Kubernetes YAML in this repository to our dot-com cluster [in CI](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds?branch=release) (i.e. if CI is green then the latest config in the `release` branch is deployed).
 
-Deploys on sourcegraph.com are currently [handled by Renovate](#renovate). The [Renovate dashboard](https://app.renovatebot.com/dashboard#github/sourcegraph/deploy-sourcegraph-dot-com) shows logs for previous runs and allows you to predict when the next run will happen.
+Deploys on sourcegraph.com are currently [handled by Renovate](#renovate). The [Renovate dashboard](https://app.renovatebot.com/dashboard#github/sourcegraph/deploy-sourcegraph-cloud) shows logs for previous runs and allows you to predict when the next run will happen.
 
-If you want to expedite a deploy, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `main` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
+If you want to expedite a deploy, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `main` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
 ### Deploying to sourcegraph.com during 2021-08-19 code freeze
 
 To ensure stability during a [code freeze](https://en.wikipedia.org/wiki/Freeze_%28software_engineering%29), a separate `release/2021-08-19` branch will be created from `main`, with only approved commits to be `cherry-picked` onto this [branch](https://github.com/sourcegraph/sourcegraph/tree/release/2021-08-19) for release. To ensure any compability between the `main` and `release/2021-08-19` branches, **ALL** commits must first be merged to `main` and pass [CI](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) for being `cherry-picked`. All tests will be run on the `release/2021-08-19` branch and must pass before docker images are published to docker hub.
 
-During the code freeze, [Renovate](#renovate) will be disabled on **2021-08-18 12:00+00:00** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/2021-08-19` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
+During the code freeze, [Renovate](#renovate) will be disabled on **2021-08-18 12:00+00:00** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/2021-08-19` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
-Once your PR has been merged, you can follow the deployment via [CI on the `release` branch](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/builds?branch=release).
+Once your PR has been merged, you can follow the deployment via [CI on the `release` branch](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds?branch=release).
 
 ### Manually deploying a service to sourcegraph.com
 
@@ -63,7 +63,7 @@ Usually you'll know the build from which you'd like to deploy, we'll use a speci
 1. Find the [green build](https://buildkite.com/sourcegraph/sourcegraph/builds/118059) in Buildkite
 1. Find the [step](https://buildkite.com/sourcegraph/sourcegraph/builds/118059#30aa1bb5-084f-47bf-874a-8266fe87ec68) that built the Docker image for your service
 1. Find the image, which will have the format `index.docker.io/sourcegraph/{SERVICE}:{TIMESTAMP}@sha256:{HASH}`
-1. Pull the latest from [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
+1. Pull the latest from [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
 1. Check out the `release` branch
 1. Create a new branch
 1. Run the `update-images.py` script using the image URL from step 3. For example:
@@ -75,7 +75,7 @@ Usually you'll know the build from which you'd like to deploy, we'll use a speci
 
 ### Rolling back sourcegraph.com
 
-To roll back soucegraph.com, push a new commit to the `release` branch in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com) that reverts the image tags and configuration to the desired state.
+To roll back soucegraph.com, push a new commit to the `release` branch in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud) that reverts the image tags and configuration to the desired state.
 
 ```sh
 # Ensure that you're up-to-date
@@ -91,13 +91,13 @@ git commit
 git push origin release
 ```
 
-[Buildkite](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com/) will deploy the working commit to sourcegraph.com.
+[Buildkite](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/) will deploy the working commit to sourcegraph.com.
 
 🚨 You also need to disable auto-deploys to prevent Renovate from automatically merging in image digest updates so that the site doesn't roll-forward.
 
 ### Disable Renovate
 
-1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/renovate.json5) and comment out the file.
+1. Go to [renovate.json](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/renovate.json5) and comment out the file.
 1. Ensure that no Renovate PRs are currently pending to update the images [here](https://github.com/sourcegraph/sourcegraph/pulls/app%2Frenovate)
 1. After the incident, revert your commit and uncomment the file.
 

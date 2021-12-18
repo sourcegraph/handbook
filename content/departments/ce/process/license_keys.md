@@ -73,10 +73,14 @@ Our user search doesn't search emails—so, you may miss the user you're trying 
 
 ```
 query{
-  user(email:"THEIR EMAIL"){
+  user(email: "THEIR EMAIL") {
     username
+    emails {
+      email
+      verified
+    }
   }
 }
 ```
 
-That should return their username.
+That should return their username, email(s) and whether the email address is verifed.

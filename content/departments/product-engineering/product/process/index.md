@@ -1,4 +1,4 @@
-# Product Management
+# Product Management Process
 
 This page contains information that is relevant for how to do well at your job as a product manager. For information that is relevant to the whole company, including all product managers, check the index at the [product home](../index.md) page.
 

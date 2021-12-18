@@ -40,6 +40,7 @@
       - [Ryan Slade](../../../../team/index.md#ryan-slade)
       - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
       - [Alexander Ostrikov](../../../../team/index.md#alexander-ostrikov)
+      - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
     - [Delivery](../enablement/delivery/index.md) - Engineering Manager:[Jean du Plessis](../../../../team/index.md#jean-du-plessis)
       - [Kevin Wojkovich](../../../../team/index.md#kevin-wojkovich)
       - [Crystal Augustus](../../../../team/index.md#crystal-augustus)
@@ -51,6 +52,11 @@
       - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
       - [Tom Ross](../../../../team/index.md#tom-ross)
       - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
+    - [Content Platform](../enablement/content-platform/index.md) - Engineering Manager:[Jean du Plessis](../../../../team/index.md#jean-du-plessis)
+      - [Katy Juell](../../../../team/index.md#katy-juell)
+      - [Brett Hayes](../../../../team/index.md#brett-hayes)
+      - Mate Gyorffy
+      - Dan Clouse
   - [Cloud](../cloud/index.md) - Director of Engineering: [Bill Creager](../../../../team/index.md#bill-creager)
     - [Growth](../cloud/growth/index.md) - Engineering Manager: [Bill Creager](../../../../team/index.md#bill-creager)
       - [Stephen Gutekanst](../../../../team/index.md#stephen-gutekanst)
@@ -66,7 +72,7 @@
     - [DevOps](../cloud/devops/index.md) - Engineering Manager: [Jennifer Mitchell](../../../../team/index.md#jennifer-mitchell)
       - [Dax McDonald](../../../../team/index.md#dax-mcdonald)
       - [Filip Haftek](../../../../team/index.md#filip-haftek)
-      - - [Daniel Dides](../../../../team/index.md#daniel-dides)
+      - [Daniel Dides](../../../../team/index.md#daniel-dides)
     - [Cloud SaaS](../cloud/saas/index.md)- Engineering Manager: [Rafal Leszczynski](../../../../team/index.md#rafal-leszczynski)
       - [Rafal Gajdulewicz](../../../../team/index.md#rafal-gajdulewicz)
       - [Milan Freml](../../../../team/index.md#mila-freml)
