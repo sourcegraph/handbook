@@ -127,7 +127,7 @@ The goal of annual planning is to produce the following artifacts:
 
 1. A [good product and engineering strategy](#a-good-strategy-provides-focus) for the year. **[Current product and engineering strategy](../strategy-goals/index.md)**.
 2. A [good plan](#good-plans-are-clear-and-concise) for each team for the year.
-   - A short paragraph about what success looks like for each team at the end of the year. This should include how this success contributes to important top level company needs (as defined in the overall company strategy and product/engineering strategy). This should be documented in the handbook (TBD figure out how).
+   - A short paragraph about what success looks like for each team at the end of the year. This should include how this success contributes to important top level company needs (as defined in the overall company strategy and product/engineering strategy). This should be documented in the handbook in the [per-team strategy pages](../../../strategy-goals/strategy/index.md#per-team-strategy-pages).
    - A short list of the key deliverables the team plans to deliver throughout the year to achieve the definition of success. This should be captured in the [GitHub project tracker](reporting-progress.md#github-project-tracker).
 
 Here are the rough steps we follow:
