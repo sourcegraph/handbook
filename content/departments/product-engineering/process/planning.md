@@ -30,7 +30,9 @@ A good plan contains:
   - Can be unambiguously measured and evaluated (so there is no disagreement about whether we have achieved success)
 - A concrete set of deliverables we believe will solve the problem (so we can detect/manage dependencies and do capacity planning)
 
-This definition applies recursively and fractically at every layer of a plan (for example: company plan, product/eng department plan, org plan, team plan) for a given unit of time (year, quarter, week).
+In practice, the definition of succeess is defined first and then there is additional work that needs to be done to figure out what the delivery plan is to achieve that success. The team might need to collect customer feedback, dig in to metrics, or build prototypes as a first step. This exploration is normal, healthy, and part of planning and execution!
+
+This definition applies recursively at every layer of a plan (for example: company plan, product/eng department plan, org plan, team plan) for a given unit of time (year, quarter, week).
 
 ### Planning is iterative
 
@@ -40,10 +42,6 @@ In practice, both the top-down motion and bottoms-up motion happen concurrently,
 ![Planning shape](https://assets.proof.pub/2056/firstround/O6rbG1rNQ2emg8EPj1Xa_TKImage%200%20Leadership%20Frames.png)
 
 Source: [The Secret to a Great Planning Process — Lessons from Airbnb and Eventbrite](https://review.firstround.com/the-secret-to-a-great-planning-process-lessons-from-airbnb-and-eventbrite)
-
-### Building the delivery plan is part of the work
-
-Once a teams has a clear definition of success, there is usually work that needs to be done to figure out what the delivery plan is to achieve that success. The team might need to collect customer feedback, dig in to metrics, or build prototypes as a first step. This exploration is normal, healthy, and part of the delivery plan!
 
 ### Plans are ambitious and feasible
 
