@@ -30,7 +30,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Team bios](team/index.md)
 - [CEO](team/ceo/index.md)
 
-## Sourcegraph Strategy and Goals
+## [Sourcegraph Strategy and Goals](strategy-goals/index.md)
 
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)

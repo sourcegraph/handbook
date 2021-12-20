@@ -56,7 +56,7 @@ Objective 1: Enable the business to achieve its growth targets by managing an ef
 
 - Turnaround 100% of customer contract reviews within 5 business days
 - Increase use of online terms by making our online terms more mutual ✅
-- Establish a clear and efficient process for vendor contract reviews in partnership with Finance and other business stakeholders
+- Establish a clear and efficient [process](process/index.md) for vendor contract reviews in partnership with Finance and other business stakeholders
 - Make signing Sourcegraph’s form NDA easier for customers and other third parties by setting up a Docusign PowerForm ✅
 - Deliver legal enablement trainings proactively on an as-needed basis
 

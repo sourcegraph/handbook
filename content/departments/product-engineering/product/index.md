@@ -71,3 +71,4 @@ There are various problems, feature areas, or initiatives related to Product (wh
 - [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
+- [Product team tools](tools/index.md)
