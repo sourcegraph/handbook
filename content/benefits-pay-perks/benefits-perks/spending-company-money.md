@@ -42,13 +42,15 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 ## Computers
 
-Once your contract is signed, you will need to get your Sourcegraph computer. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
+Computers are considered property of the company and all teammates must work from a company owned laptop. Please see below how to get your computer and which specs to get depending on your role.
 
-**US/Canada/EU-based teammates** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+**US/Canada/EU-based teammates** Please place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
-**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
+**Teammates based in other countries** As of right now, we do not have partners that can devliver to other coutnries. Teammates will need to either purchase a Sourcegrraph computer and laptop insurance (eg. Apple Care if you purchase a Mac)locally. Teammates can either: 
+1. Purchase themselves and get reimbursed. Information on how to expense computers can be found [here](../pay-expenses/expenses.md)
+2. A company credit card can be used to place the order. Teammates will need to set up a Zoom call with either a member of the onboarding team or Tech Ops and they can add a company card at upon check out via screen share. 
 
-Different specs are required depending on your role, please see below for necessary specs corresponding to your role.
+Different specs for company laptops are required depending on your role, please see below for necessary specs corresponding to your role.
 
 ### Customer Engineering team laptops:
 
