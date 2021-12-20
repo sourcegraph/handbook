@@ -33,4 +33,3 @@ As we scale our team and our customer list, we need help with all of the applica
 ### Roles
 
 We are hiring for positions in Tech Ops! See our [careers page](https://boards.greenhouse.io/sourcegraph91) to see all roles.
-
