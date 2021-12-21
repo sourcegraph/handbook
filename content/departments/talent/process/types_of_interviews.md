@@ -368,7 +368,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Duration: 60-minutes.
 - Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuition about building systems and problem-solving as we throw various wrenches into the system.
 
-### Working Session
+### Pairing Exercise
 
 - Interviewer(s): two members of the engineering department
 - Duration: 60-minutes.
