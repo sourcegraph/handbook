@@ -112,7 +112,7 @@ We are flexible when it comes to scheduling interviews because we are all-remote
 
 Even if candidates prefer to batch all their interviews together, it might not be possible due to the timezones of available interviewers.
 
-If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates' and the candidate's time.
+We will schedule interviews in stages. If it is clear from the feedback that we won't be moving forward, we will reject and not move forward with additional stages.
 
 To schedule an interview with a candidate, please work with your recruiter or Slack @hiring. You can see a [list of Recruiters](../index.md#talent-team-members).
 
