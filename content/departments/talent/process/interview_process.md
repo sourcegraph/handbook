@@ -45,7 +45,7 @@ The Recruiter conducts an initial recruiter screen with eligible candidates. Sam
 
 The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the `#talent-scheduling-and-offers` Slack channel.
 
-- COMING SOON: click here to learn more about scheduling interviews at Sourcegraph.
+- [Click here](../tools/resources_for_recruiting_operations.md#interview-scheduling) to learn more about scheduling interviews at Sourcegraph.
 
 ### The hiring manager screen stage
 
@@ -112,7 +112,7 @@ We are flexible when it comes to scheduling interviews because we are all-remote
 
 Even if candidates prefer to batch all their interviews together, it might not be possible due to the timezones of available interviewers.
 
-If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates' and the candidate's time.
+We will schedule interviews in stages. If it is clear from the feedback that we won't be moving forward, we will reject and not move forward with additional stages.
 
 To schedule an interview with a candidate, please work with your recruiter or Slack @hiring. You can see a [list of Recruiters](../index.md#talent-team-members).
 
