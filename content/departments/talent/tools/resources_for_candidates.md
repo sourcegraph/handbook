@@ -47,12 +47,12 @@ Candidates are welcome to re-apply for roles at any time. The talent team will r
 
 ### Early-career Engineering Hiring
 
-Our goal is to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../../product-engineering/engineering/hiring/early-career-engineers.md)
+Our goal is to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../../product-engineering/engineering/hiring/early-career-engineers.md).
 
 # Interviewing at Sourcegraph
 
-- [Our interview process](../process/interview_process.md).
-- [Types of interviews](../process//types_of_interviews.md).
+- [Our interview process](../process/interview_process.md)
+- [Types of interviews](../process//types_of_interviews.md)
 
 # How to prepare for an interview
 
@@ -76,7 +76,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 ### Types of interviews
 
-- We encourage you to read about the [different types of interviews](../process/types_of_interviews.md) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
+We encourage you to read about the [different types of interviews](../process/types_of_interviews.md) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
 
 ### Helpful links
 
