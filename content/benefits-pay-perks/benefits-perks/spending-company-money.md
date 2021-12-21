@@ -46,9 +46,10 @@ Computers are considered property of the company and all teammates must work fro
 
 **US/Canada/EU-based teammates** Please place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
-**Teammates based in other countries** As of right now, we do not have partners that can devliver to other coutnries. Teammates will need to either purchase a Sourcegrraph computer and laptop insurance (eg. Apple Care if you purchase a Mac)locally. Teammates can either: 
+**Teammates based in other countries** As of right now, we do not have partners that can devliver to other coutnries. Teammates will need to either purchase a Sourcegrraph computer and laptop insurance (eg. Apple Care if you purchase a Mac)locally. Teammates can either:
+
 1. Purchase themselves and get reimbursed. Information on how to expense computers can be found [here](../pay-expenses/expenses.md)
-2. A company credit card can be used to place the order. Teammates will need to set up a Zoom call with either a member of the onboarding team or Tech Ops and they can add a company card at upon check out via screen share. 
+2. A company credit card can be used to place the order. Teammates will need to set up a Zoom call with either a member of the onboarding team or Tech Ops and they can add a company card at upon check out via screen share.
 
 Different specs for company laptops are required depending on your role, please see below for necessary specs corresponding to your role.
 
