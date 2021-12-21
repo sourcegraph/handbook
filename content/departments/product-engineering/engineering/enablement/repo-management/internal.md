@@ -6,7 +6,7 @@ This page contains information that is mostly interesting to members of the Repo
 
 We believe in building a strong team that is welcoming, supportive, and a joy to be part of. We are intentional about building relationships within the team. Here are some ways we do that:
 
-1. Social Hours: a heavily asynchronous team and company does not mean we never talk face to face. We set aside time on a set cadence to get to know each other better. We make time to talk freely about anxieties and challenges we're dealing with so that we can better support each other. 
+1. Social Hours: a heavily asynchronous team and company does not mean we never talk face to face. We set aside time on a set cadence to get to know each other better. We make time to talk freely about anxieties and challenges we're dealing with so that we can better support each other.
 2. Pair Programming: we love to build together and collaborate on hard problems. Our team solves complex problems and working with others is often the best way to deliver. Engineers on Repo Management self organize pair programming sessions on whatever cadence they desire.
 3. Team Travel: nothing can replace meeting each other in person. We do this by using our generous [team travel budget](../../../../../benefits-pay-perks/benefits-perks/travel#travel-budget-philosophy) to connect as a team every 6 months and our other travel budgets to meet each other as part of other trips. Where should we go next?
 
