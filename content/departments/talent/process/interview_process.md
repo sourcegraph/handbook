@@ -45,7 +45,7 @@ The Recruiter conducts an initial recruiter screen with eligible candidates. Sam
 
 The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the `#talent-scheduling-and-offers` Slack channel.
 
-- COMING SOON: click here to learn more about scheduling interviews at Sourcegraph.
+- [Click here](../tools/resources_for_recruiting_operations.md#interview-scheduling) to learn more about scheduling interviews at Sourcegraph.
 
 ### The hiring manager screen stage
 
