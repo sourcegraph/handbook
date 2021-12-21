@@ -29,8 +29,17 @@ The current existing content platforms include:
 ## Contact
 
 - #content-platform and @content-platform-team on Slack
-- **Requests to the Content Platform team:**
-  - We are currently working on a process for submitting requests to the content platform team, and it will be published here when finalized. For now, reach out in #content-platform in Slack and we will respond to you as soon as possible.
+
+### Requests
+
+The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Requests to the content platform team can be made through a Slack workflow:
+
+1. In the #content-platform channel in Slack, click the + icon, then “Content Platform Request”
+
+- ![Content platform request in slack](https://storage.googleapis.com/sourcegraph-assets/handbook/content-platform-request.png)
+
+2. This will prompt you to fill out a form with relevant details.
+3. Completed forms will be sent to the content platform product manager, who will [triage](#triaging-incoming-requests) and update you with more information.
 
 ## Principles
 
@@ -38,7 +47,7 @@ We inherit Sourcegraph's [engineering principles and practices](../../process/pr
 
 ## Processes
 
-### Incoming Requests
+### Triaging Incoming Requests
 
 The Content Platform Product Manager triages and prioritizes requests on a daily basis. They will:
 
@@ -71,3 +80,8 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 - _Overview:_ We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) to celebrate wins and share feedback.
 - _Goal:_ To ensure we improve as a team to become more efficient and effective.
 - _When:_ Every second Thursday at 21:00 UTC.
+
+### Engaging with Other Teams
+
+- See [this section](#requests) for making a request to the content platform team.
+- Fabiana Castellanos of the [demand generation](../../../../marketing/demand-gen/index.md) serves as the project manager for marketing web requests, and acts as the primary point of contact between the Content Platform team and Marketing.

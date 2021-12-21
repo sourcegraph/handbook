@@ -368,7 +368,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Duration: 60-minutes.
 - Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuition about building systems and problem-solving as we throw various wrenches into the system.
 
-### Working Session
+### Pairing Exercise
 
 - Interviewer(s): two members of the engineering department
 - Duration: 60-minutes.
@@ -582,7 +582,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were not the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will have about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
