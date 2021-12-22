@@ -70,7 +70,7 @@ We have a set of status labels we’ve found helpful in the past:
 - **Closed**: When the RFC is for the purpose of collaboration or discussion but not necessarily to make a decision or propose a specific outcome that will eventually become Implemented, the Closed label indicates that the RFC is no longer an active collaborative artifact.
 - **Abandoned**: When the RFC is for the purpose of making a decision, and there are no plans to move forward with the RFC’s proposal, the Abandoned label indicates that the RFC has been purposefully set aside.
 
-While these labels suggest that RFCs move through series of prescribed stages, this isn’t always the case. RFCs are low-process and can be used for all kinds of purposes that may not have an explicit, actionable outcome. Ultimately, the RFC itself should make it clear what the status and planned process is.
+While these labels suggest that RFCs move through a series of prescribed stages, this isn’t always the case. RFCs are low-process and can be used for all kinds of purposes that may not have an explicit, actionable outcome. Ultimately, the RFC itself should make it clear what the status and planned process is.
 
 If in doubt about the current status of an RFC, check the update history and contact the author.
 
@@ -101,7 +101,7 @@ We use Google Docs for writing and collaborating on RFCs. Using a single system 
 - It’s intuitive and inclusive of all of our team members, regardless of prior technical experience.
 - It’s easy to determine the next sequential number when creating a new RFC.
 
-We know Google Docs don’t have all the features or capabilities we would like, such as markdown support and code snippets. We’ve considered and tried using other tools in the past, including Notion and markdown in git. However, in our experience, Google Docs provide the best overall experience within its constraints.
+We know Google Docs don’t have all the features or capabilities we would like, such as markdown support and code snippets. We’ve considered and tried using other tools in the past, including Notion and markdown in git. However, in our experience, Google Docs provides the best overall experience within its constraints.
 
 Often, the ideas and proposals within RFCs progress into other collaborative artifacts: a usability improvement might be explored in a Figma file, a new feature might be captured in a series of GitHub issues, or a single RFC’s proposal might be carried out through a series of subsequent RFCs. It’s a best practice to update RFCs to include links and references to related artifacts.
 
