@@ -95,7 +95,7 @@ After the candidate formally signs the offer letter (contract) generated through
 
 **Step 8**: The PEO team then works with the candidate to onboard them from a compliance perspective and our People Ops will ensure we get them set up for their first day!
 
-**Note**: Any questions or status updates regarding the status of a PEO contract or onboarding details will be communicated with the PEO provider slack channel. 
+**Note**: Any questions or status updates regarding the status of a PEO contract or onboarding details will be communicated with the PEO provider slack channel.
 
 ## Changing a new hire's start date
 
