@@ -219,6 +219,19 @@ precise_code_intelligence_java_scala_kotlin:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
 
 precise_code_intelligence_c_cpp:
   title: Precise Code Intelligence for C/C++
