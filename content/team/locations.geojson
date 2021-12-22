@@ -1367,6 +1367,19 @@
           -33.87757740654966
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "David Veszelovszki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.081810265779495,
+          47.4981015024372
+        ]
+      }
     }
   ]
 }
