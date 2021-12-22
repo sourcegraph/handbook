@@ -214,8 +214,8 @@ precise_code_intelligence_jsts:
     perforce: true
     cvs: true
 
-precise_code_intelligence_java_scala:
-  title: Precise Code Intelligence for Java & Scala
+precise_code_intelligence_java_scala_kotlin:
+  title: Precise Code Intelligence for Java, Scala & Kotlin
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
