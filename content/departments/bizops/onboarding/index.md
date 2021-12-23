@@ -37,7 +37,7 @@ Your manager will help you schedule the following training sessions:
 - Review the [sales onboarding quiz](../../sales/onboarding/quiz.md)
 - Check out the [Dev Pain Sessions](https://drive.google.com/drive/u/0/folders/167Umyjs25fHPonju2ctWhtrkADDQ1WSJ) in the Know Thy Dev sales enablement program for a deep dive into how Sourcegraph solves common developer pains. These videos are long so I recommend skipping to the parts the CEs are demoing and listening at at >1x speed
 - DataOps overview
-  - Frontend data capture, Amplitude and their data pipelines 
+  - Frontend data capture, Amplitude and their data pipelines
   - Pings: what is it and their data pipelines
 - Sales and marketing data overview (focused on the data instead of the tools)
 - GitHub and git walk-through (Q&A)
@@ -62,4 +62,4 @@ Your manager will help you schedule the following training sessions:
 ## Week 4
 
 - Get onboarded onto your first big project!
-- Month one check-in 
+- Month one check-in
