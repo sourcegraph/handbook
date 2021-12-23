@@ -39,6 +39,8 @@ The first step of an interview process for a candidate is the Recruiter Screen. 
 
 The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
+If the candidate does not show up for the interview, the Recruiter will call, email, and text the candidate and offer to reschedule.
+
 - To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
 - COMING SOON: how to schedule with Calendly
 - To decline a candidate, follow [these steps](../process/interview_process.md#declining-candidates). All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
@@ -53,6 +55,7 @@ If the Hiring Manager chooses to advance a candidate following the Hiring Manage
 
 - COMING SOON: link to instructions on how we schedule interviews
 - Interview process and sample interview questions for each department [here](interview_process.md)
+- If the candidate does not show up for the interview in the first 5 minutes, the Hiring Manager will send a message in the private Slack channel for the position and tag the Recruiter and Recruiting Coordinator. If the candidate does not show up for over 5 minutes, the Hiring Manager will end the interview.
 
 ### The "onsite" stage
 
