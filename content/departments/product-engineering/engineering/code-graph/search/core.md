@@ -15,7 +15,6 @@ To learn more about our goals, see the [Search Core strategy](../../../../../str
 - [Jeff Warner](../../../../../team/index.md#jeff-warner) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#search-core-eng}
   - [Keegan Carruthers-Smith](../../../../../team/index.md#keegan-carruthers-smith)
   - [Stefan Hengl](../../../../../team/index.md#stefan-hengl)
-  - [Ryan Hitchman](../../../../../team/index.md#ryan-hitchman)
   - [Tomás Senart](../../../../../team/index.md#tomás-senart)
   - [Geoffrey Gilmore](../../../../../team/index.md#geoffrey-gilmore)
 
@@ -65,6 +64,8 @@ Public resources are available here:
   - https://www.youtube.com/watch?v=_-KTAvgJYdI
   - https://about.sourcegraph.com/blog/tackling-the-long-tail-of-tiny-repos-with-shard-merging/
   - https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/
+  - https://swtch.com/~rsc/regexp/regexp4.html
+  - https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/
 
 Our private resources are available [in the Google doc](https://docs.google.com/document/d/10SNzhuA5dmRJ5Na3PMnuShlPmtGGVIz3P2GA4RtfaGo/edit)
 

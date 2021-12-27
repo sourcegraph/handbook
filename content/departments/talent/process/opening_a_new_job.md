@@ -86,7 +86,7 @@ Interview process / hiring team:
   - [1h] [Resume Deep Dive](../process/types_of_interviews.md#resume-deep-dive):
   - [30m] Assignment review/working session, if applicable:
   - [60-120m] Technical interview, if applicable:
-  - [30-60m] [Cross-functional Team collaboration interview](../process/types_of_interviews.md#cross-team-collaboration-interview):
+  - [30-60m] [Cross-functional Team collaboration interview](../process/types_of_interviews.md#cross-functional-team-collaboration-interview):
   - [30m] [Peer interview](../process/types_of_interviews.md#peer-interview):
 - [30m] [Values interview](../process/types_of_interviews.md#values-interview):
 - [15-30m] [Leadership Interview](../process/types_of_interviews.md#leadership-interview):
@@ -103,6 +103,8 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 **Step 5**: the Recruiter begins generating a candidate pool by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter
 
 Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
+
+# How we find candidates
 
 ## Sourcing candidates
 

@@ -1,22 +1,28 @@
-# Applying for a new role in a new team
+# Internal transfer process
 
 As Sourcegraph grows, we would like to support teammates who are interested in taking on new roles in other teams, if their skillset and aspirations are required in the team they wish to move to.
 
-This page focuses on the _process_ of moving from one team or department to another. Please reach out to your manager (or the [People Ops team](../../departments/people-ops/index.md)) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more.
+This page focuses on the _process_ of moving from one team or department to another. Specifically:
+
+- Who is eligible to move to a new team
+- The interview process for internal teammates
+- Alerting People Ops / making the change official
+
+For teammates interested in a new role on a new team, please reach out to your Manager (or the Talent or [People Ops team](../../departments/people-ops/index.md)) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more.
 
 If you are interested in staying in the same department or team, or working for the same manager, but switching your focus (e.g. switching from frontend to backend software development), then this page is not needed—simply speak to your manager and see if adjustments can be made to our current role, that align with the team's success.
 
-If you are a manager, please visit this page to learn [how to notify People Ops of an org change](../../departments/people-ops/tools/manager-guide.md#how-to-notify-people-ops-of-an-org-and-role-change).
+If you are a Manager, please visit this page to learn [how to notify People Ops of an org change](../../departments/people-ops/tools/manager-guide.md#how-to-notify-people-ops-of-an-org-and-role-change).
 
 ## Eligibility
 
 For now, any member of the Sourcegraph team is eligible to request to take on a new role in another team, however, support for the change will be subject to teammate's length of time and performance in their existing role, ongoing projects, and whether their skillset is a match for the new role.
 
-## Following best practice
+## The interview process
 
-Whether hiring an internal candidate (someone who already works at Sourcegraph) or an external candidate, we always want to follow best practice.
+### Following best practice
 
-What does that mean?
+Whether hiring an internal candidate (someone who already works at Sourcegraph) or an external candidate, we always want to follow best practice. What does that mean?
 
 - All candidates go through the same [interview process](../../departments/talent/process/interview_process.md), regardless of whether they are an internal teammate or external applicant. The only difference is: internal candidates can skip the Values Interview, given that we have a pulse on this already.
 - The role should be kicked off following the steps outlined [here](../../departments/talent/process/opening_a_new_job.md). The role and expectations for the role need to be clearly defined and written down in the form of a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
@@ -34,7 +40,7 @@ Having said that, internal candidates do have advantages in satisfying the requi
 
 Because of these, we encourage our hiring managers to consider internal candidates where possible.
 
-## Equitable process
+### Equitable interview process
 
 If a hiring manager from a team would like to invite someone from another team to consider an open role they have, they should follow the below steps:
 
@@ -59,7 +65,7 @@ The teammate must accept that the new role may come with different compensation 
 
 ## Announcing a teammate transfer
 
-Once the offer is official, the new Hiring Manager:
+Once the offer is official, the **new** Hiring Manager follows the below steps. You can read more about the internal transfer process [here](../../departments/people-ops/tools/manager-guide.md#managing-a-role-change)
 
-- Annouces the news in #Teammate-announce.
-- Alerts People Operations to ensure that the teammate's new team & manager are listed accurately in Bamboo.
+1. Annouces the news in #Teammate-announce.
+1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform) to alert People Ops of the change and ensure that the teammate's new team & manager are listed accurately in Bamboo.

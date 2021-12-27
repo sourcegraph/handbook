@@ -10,7 +10,11 @@ The instructions in this document will guide you on the steps you need to take t
 > - Search indexes will be rebuilt from scratch
 >
 > The above may take a while if you have a lot of repositories. In the meantime, searches may be slow or return incomplete results. This process rarely takes longer than 6 hours and is usually **much** faster.
-
+>
+> CAUTION: **Backup and Restore must be done on Sourcegraph instances that are on the same version**
+>
+> - For example, if the Sourcegraph instance you take the database dump from is on v3.34.2 then the new instance must also be on v3.34.2.
+>
 > NOTE: In some places you will see `$NAMESPACE` used. Add `-n $NAMESPACE` to commands if you are not using the default namespace
 > More kubectl configuration options can be found here: [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 

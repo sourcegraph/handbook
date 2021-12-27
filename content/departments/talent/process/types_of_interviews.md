@@ -368,7 +368,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Duration: 60-minutes.
 - Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuition about building systems and problem-solving as we throw various wrenches into the system.
 
-### Working Session
+### Pairing Exercise
 
 - Interviewer(s): two members of the engineering department
 - Duration: 60-minutes.
@@ -536,6 +536,12 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organized plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role.
 
 ### Director of Technical Writing
+
+#### Async strategy and writing project
+
+- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
+- Duration: ~1 hour
+- Details: Please review the Sourcegraph Docs Plan (will be sent to you) and write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive.
 
 #### Working session on strategy & Leadership
 

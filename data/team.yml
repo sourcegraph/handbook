@@ -211,8 +211,8 @@ rob_rhyne:
 
 felix_becker:
   name: Felix Becker
-  role: Software Engineer
-  location: Bremen, Germany 🇩🇪
+  role: Engineering Manager
+  location: ~~Bremen, Germany 🇩🇪~~ San Francisco, California 🇺🇸
   github: felixfbecker
   email: felix@sourcegraph.com
   links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
@@ -257,7 +257,7 @@ robert_lin:
 
 marek_zaluski:
   name: Marek Zaluski
-  role: Developer Education Engineer
+  role: 'Software Engineer, Engineering Education Lead'
   location: Ottawa, Canada 🇨🇦
   github: marekweb
   email: marek@sourcegraph.com
@@ -981,7 +981,7 @@ carly_jones:
 rafal_leszczynski:
   name: Rafal Leszczynski
   pronouns: he/him
-  role: Engineering Manager, Core Application
+  role: Engineering Manager, Cloud SaaS
   location: Jelonek (Poznan), Poland 🇵🇱
   github: RafLeszczynski
   email: rafal@sourcegraph.com
@@ -1598,7 +1598,7 @@ mary_belzer:
   name: Mary Belzer
   reports_to: product_director_enablement
   pronouns: she/her
-  role: Product Manager, Handbook
+  role: Product Manager, Content Platform
   location: Denver, Colorado, United States 🇺🇸
   github: marybelzer
   email: mary.belzer@sourcegraph.com
@@ -2231,3 +2231,33 @@ nicolas_hernandez:
   github: fryster66
   links: '[LinkedIn](https://www.linkedin.com/in/nicolas-hernandez-70242033/), [@HiDoctorNico](https://twitter.com/hidoctornico), [Why I Joined Sourcegraph](https://medium.com/@doktanick/why-i-am-joining-sourcegraph-99fba51df985)'
   description: Nick grew up in San Francisco and is currently in NYC. He graduated from Stanford where he studied Comp Lit and then took a fellowship to study law in Germany. He started his career in Enteprise Software at MuleSoft where he held a number of different sales roles. After that, he built the sales team at Vivian, a healthcare labor marketplace owned by IAC. Nick likes to read books, drink tea, and explore on foot. He is taking music recommendations.
+
+rohan_gupta:
+  name: Rohan Gupta
+  role: Sales Development Representative - (USA)
+  location: Austin, TX, USA 🇺🇸
+  pronouns: he/him
+  email: rohan.gupta@sourcegraph.com
+  github: rohanguptatx
+  links: '[LinkedIn](https://www.linkedin.com/in/rohanguptatx/), [@rguptatech](https://twitter.com/rguptatech), [Why I Joined](https://medium.com/@rohanguptatx/sourcegraph-the-future-of-big-code-1de9adbeca36)'
+  description: Rohan is a Boston-ite turned Austin-ite. He enjoys running, finding the next best food truck or music festival, and helping customers solve unique business challenges.
+
+david_veszelovszki:
+  name: David Veszelovszki
+  role: Software Engineer
+  location: Budapest, Hungary 🇭🇺
+  pronouns: he/him
+  email: david.veszelovszki@sourcegraph.com
+  github: vdavid
+  links: '[LinkedIn](https://www.linkedin.com/in/veszelovszki/)'
+  description: David is a developer with 150+ coding projects behind him, an expert at web development, i18n, and refactoring 🧑‍💻. He enjoys doing research and experimenting with new technologies. He has 9 siblings, an amazing wife, and a baby daughter 👶. He snowboards 🏂, does freediving 🐚, slacklines 🌴____🕺____🌴, used to paraglide 🪂, and is a divemaster 🤿. He's a meditator 🧘with three 10-day vipassana courses spent in complete silence and once served for ten days as a volunteer. Besides coding, he's enthusiastic about online education 🧑‍🏫 and indoor vertical farming 👨‍🌾.
+
+riana_shahid:
+  name: Riana Shahid
+  email: riana.shahid@sourcegraph.com
+  github: r-shahid
+  pronouns: she/her
+  role: Application Engineer
+  location: New York City, NY, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/rianashahid/)'
+  description: Riana is an analytical thinker with many creative interests. She studied mathematics at NYU where she first played with code in a web design class she took for fun. She returned to it later when she decided to attend a coding bootcamp. Outside of work, Riana likes to paint, knit, and visit museums in her city. She is an avid learner who's always willing to try out something new!
