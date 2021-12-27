@@ -17,6 +17,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Engaging with Security](process/salessecurity.md)
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
+- [Process docs](process/index.md)
 
 ## Pipeline, data, and models
 

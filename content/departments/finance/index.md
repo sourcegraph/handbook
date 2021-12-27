@@ -107,6 +107,10 @@ Following month two of every quarter, we complete a detailed dive in the current
 
 We also complete a balance sheet review. This review is focused on providing analysis on key financial statement line items such as Cash, AR, AP, Accruals, and Deferred Revenue. We have a number of methods for analyzing the activity on these accounts.
 
+### Process
+
+See our [process docs](process/index.md).
+
 ## Accounting
 
 We work with an outsourced accounting firm named [Officengine](https://officengine.com/). They close the books monthly and produce our financial statements, and provide support in processing payables, preparing taxes, filing corporate registrations, and more.
