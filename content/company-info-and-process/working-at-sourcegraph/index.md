@@ -4,3 +4,4 @@
 - [Switching teams](switching-teams.md)
 - [Impact reviews](../../departments/people-ops/process/impact-reviews.md)
 - [Leaving](leaving.md)
+- [Before your start date](before-start.md)
