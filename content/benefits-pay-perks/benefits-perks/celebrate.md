@@ -75,9 +75,9 @@ _Need a little help on what to get? Here’s a few of our favorite things:_
 
 Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
-## Other milestones
+## Other personal milestones
 
-Other milestones such as promotion, marriage, baby announcement, and so forth, can be celebrated at the discretion of teammates. Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
+Other personal milestones such as promotion, marriage, baby announcement, and so forth, can be celebrated at the discretion of teammates. Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
 
 ## Branded swag
 
