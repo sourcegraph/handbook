@@ -537,6 +537,12 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 ### Director of Technical Writing
 
+#### Async strategy and writing project
+
+- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
+- Duration: ~1 hour
+- Details: Please review the Sourcegraph Docs Plan (will be sent to you) and write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive.
+
 #### Working session on strategy & Leadership
 
 - Interviewer(s): [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
