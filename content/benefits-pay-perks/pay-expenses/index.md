@@ -1,4 +1,4 @@
-## Pay and Expenses
+# Pay and Expenses
 
 - [Compensation](compensation/index.md)
   - [Equity FAQ](compensation/equity-faq.md)

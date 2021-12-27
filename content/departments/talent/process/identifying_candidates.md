@@ -1,4 +1,4 @@
-# Identifying candidatea
+# Identifying candidates
 
 ## Where we find our candidates
 
@@ -10,7 +10,7 @@ We identify candidates via a variety of channels:
   - Glassdoor
   - COMING SOON - where else we post
 - Sourced candidates
-  - COMING SOON: how we source candidates
+  - [How to be a sourcer at Sourcegraph](how_to_be_a_sourcer_at_sourcegraph.md)
 - Agency submittals
   - COMING SOON: how we partner with agencies
 - Referrals

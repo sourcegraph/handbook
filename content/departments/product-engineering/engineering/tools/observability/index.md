@@ -11,5 +11,6 @@ For general observability development, please refer to the [observability develo
   - [Monitoring pillars](monitoring_pillars.md)
   - [Monitoring architecture](./monitoring_architecture.md)
 - [Cloudflare logging](cloudflare.md)
+- [Cloud monitoring](cloud_monitoring.md)
 - Distributed tracing developer guide (coming soon)
 - Logging developer guide (coming soon)
