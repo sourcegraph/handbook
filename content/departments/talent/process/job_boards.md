@@ -5,22 +5,28 @@ This page outlines important tips and information for telling the story of what 
 
 ## Social Media
 
-We post about hiring initiatives and Sourcegraph culture content on our company [LinkedIn](https://www.linkedin.com/company/sourcegraph/?viewAsMember=true), [Twitter](https://twitter.com/sourcegraph?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Youtube](https://www.youtube.com/c/sourcegraph), and [Twitch](https://www.twitch.tv/sourcegraph), and [Blog](https://about.sourcegraph.com/blog/?_ga=2.123203275.1380659926.1640620768-539125958.1632800152) pages. 
+We post about hiring initiatives and Sourcegraph culture content on our company [LinkedIn](https://www.linkedin.com/company/sourcegraph/?viewAsMember=true), [Twitter](https://twitter.com/sourcegraph?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Youtube](https://www.youtube.com/c/sourcegraph), and [Twitch](https://www.twitch.tv/sourcegraph), and [Blog](https://about.sourcegraph.com/blog/?_ga=2.123203275.1380659926.1640620768-539125958.1632800152) pages.
 
 ### Posting Best Practices
-Linked In 
-- Use these [LinkedIn posting best practices](../linkedin#linkedin-posting-best-practices) and our [Guide to Using LinkedIn Recruiter](../linkedin#guide-to-using-linkedin-recruiter) when sharing hiring initiatives on your LinkedIn Profile. 
 
-Twitter 
+Linked In
+
+- Use these [LinkedIn posting best practices](../linkedin#linkedin-posting-best-practices) and our [Guide to Using LinkedIn Recruiter](../linkedin#guide-to-using-linkedin-recruiter) when sharing hiring initiatives on your LinkedIn Profile.
+
+Twitter
+
 - Coming Soon!
 
 Recommended content to share: (Youtube, Blog, and Hadnbook)
+
 - Coming soon!
 
 Learn more about Sourcegraph's [Social Media](https://handbook.sourcegraph.com/departments/marketing/social-media)
- 
+
 ## Leaving Company Reviews
+
 We encourage teammates to leave reviews and share about their Sourcegraph experience on the following sites
+
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
 - [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fnuarl95u1rp800&fromjk=e815aae4e6537634&attributionid=mobvjcmp)
 - [Blind](https://www.teamblind.com/company/Sourcegraph/)
@@ -29,7 +35,7 @@ If you want to make a suggestion or notice outtaded company details on any of ou
 
 ## Job boards
 
-Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.1380659926.1640620768-539125958.1632800152) is a great resource for candidates to learn about working at Sourcegraph and view our current job opportunities. In addition to the Careers page, we also leverage Job Boards to post about our open roles. 
+Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.1380659926.1640620768-539125958.1632800152) is a great resource for candidates to learn about working at Sourcegraph and view our current job opportunities. In addition to the Careers page, we also leverage Job Boards to post about our open roles.
 
 ### We currently cross-post our open positions to the following locations:
 
@@ -65,4 +71,5 @@ We want to make sure our job postings reach a wide audience and that we're posti
 - https://careercenter.anitab.org/
 
 ## Reminders
+
 [How to make a referral](../interview_process#making-a-referral)
