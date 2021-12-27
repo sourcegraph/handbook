@@ -130,7 +130,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 - [Application engineer onboarding](onboarding/customer-support-onboarding.md)
 - [Manager onboarding](onboarding/customer-support-manager-onboarding.md)
-- [Career levels](career-growth/cs-career-levels.md)
+- [Career growth](career-growth/index.md)
 - [Team README](team/index.md)
 - [Team schedule](process/support-schedule.md)
 - [Organizational structure](team/support-org-structure.md)
