@@ -60,13 +60,14 @@ This requires multiple steps to properly configure. Most of these are going to b
 ##### From scratch
 
 1. Configure the `sourcegraph-security-logging` project by running `terraform apply` from `/security/logging`.
-2. Configure the pub/sub logging sinks, as well as GKE workload audit logs in cloud and dogfood by running `terraform apply` from `/cloud` and `/dogfood`
+2. Manually create the SCC Notification Config for SCC Slack notifications (due to a known terraform bug https://github.com/hashicorp/terraform-provider-google/issues/10534 this isn't easily done via terraform) `gcloud scc notifications create "scc-findings-config" --organization "<org_id>" --description "Writes SCC findings to scc_findings pubsub topic" --pubsub-topic "projects/sourcegraph-security-logging/topics/scc_findings" --filter "state = \"ACTIVE\""`
+3. Configure the pub/sub logging sinks, as well as GKE workload audit logs in cloud and dogfood by running `terraform apply` from `/cloud` and `/dogfood`
    1. This would only be needed on config changes for the logging sinks or the audit log module.
-3. [Create a service account key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) for the subscriber `pubsubbeat-subscriber@sourcegraph-security-logging.iam.gserviceaccount.com` in the `sourcegraph-security-logging` project.
-4. [Create our elastic instance](#elastic-cloud-logging).
+4. [Create a service account key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) for the subscriber `pubsubbeat-subscriber@sourcegraph-security-logging.iam.gserviceaccount.com` in the `sourcegraph-security-logging` project.
+5. [Create our elastic instance](#elastic-cloud-logging).
    1. Note that the following instructions are part of creating the Elastic instance, since pubsubbeats perform some Elastic configuration
-5. [Encrypt elastic secrets](#encrypt-deployment-secrets) and add them to the repository.
-6. [Deploy pubsubbeats](#deploy-pubsubbeats).
+6. [Encrypt elastic secrets](#encrypt-deployment-secrets) and add them to the repository.
+7. [Deploy pubsubbeats](#deploy-pubsubbeats).
 
 #### Encrypt deployment secrets
 
