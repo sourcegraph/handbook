@@ -12,7 +12,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 | Code insights                   | Go here                    |          |
 | Docker/docker-compose deploy    | Go here                    |          |
 | Docker/docker-compose migration | Go here                    |          |
-| GraphQL                         | Go here                    |          |
+| GraphQL                         | [Go here](https://docs.google.com/presentation/d/1qgid2A0D0ycNidRfzsl2YrmjKTPiG_W8HPoECdgXwLE/edit?usp=sharing)                |          |
 | Kubernetes deploy               | Go here                    |          |
 | Kubernetes migration            | [Go here](k8-migration.md) |          |
 | Marketplace extensions          | Go here                    |          |
