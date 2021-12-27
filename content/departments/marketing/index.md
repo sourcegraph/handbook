@@ -78,6 +78,8 @@ The table below breaks down the capabilities of each team within Marketing. Once
 
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
+- [Process docs](process/index.md)
+- [Marketing Rapid Response Process](marketing_rapid_response_process/index.md)
 
 ## Members
 
