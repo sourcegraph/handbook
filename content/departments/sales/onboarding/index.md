@@ -45,7 +45,7 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 
 ### First 30 days
 
-- Pass the [Demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I) and upload your Demo video to the [Demo Certification folder](https://drive.google.com/drive/u/0/folders/1F8p1bxTS78wlb41JB6WrAjn2yF-J-5fQ)
+- Pass the [Demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I) and upload your Demo video to the [Demo Certification folder](https://drive.google.com/drive/u/0/folders/1F8p1bxTS78wlb41JB6WrAjn2yF-J-5fQ) or have your manager notify Sales Ops when completed
 - Pass the Pitch certification
 - Finalize your Target Account list with your manager
 - Establish an Outbound Propsecting Plan for 5 Target Accounts
