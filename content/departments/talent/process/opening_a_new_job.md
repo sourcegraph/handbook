@@ -86,7 +86,7 @@ Interview process / hiring team:
   - [1h] [Resume Deep Dive](../process/types_of_interviews.md#resume-deep-dive):
   - [30m] Assignment review/working session, if applicable:
   - [60-120m] Technical interview, if applicable:
-  - [30-60m] [Cross-functional Team collaboration interview](../process/types_of_interviews.md#cross-team-collaboration-interview):
+  - [30-60m] [Cross-functional Team collaboration interview](../process/types_of_interviews.md#cross-functional-team-collaboration-interview):
   - [30m] [Peer interview](../process/types_of_interviews.md#peer-interview):
 - [30m] [Values interview](../process/types_of_interviews.md#values-interview):
 - [15-30m] [Leadership Interview](../process/types_of_interviews.md#leadership-interview):

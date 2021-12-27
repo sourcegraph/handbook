@@ -14,6 +14,11 @@ function createValidTeamAnchor(name) {
   return name.toLowerCase().replace(/\s+/g, '-')
 }
 
+function createBioLink(name) {
+  const bioLinkUrlPrefix = '/team/index.md#'
+  return `${bioLinkUrlPrefix}${String(createValidTeamAnchor(name))}`
+}
+
 function createRelativeProductLink(link) {
   if (link.startsWith('http')) {
     return link
@@ -50,7 +55,7 @@ export async function generateFeatureMaturityLevels() {
       )}))\n`
     }
     if (productTeam.pm) {
-      const bioLink = `../../company/team/index.md#${String(createValidTeamAnchor(teamMembers[productTeam.pm].name))}`
+      const bioLink = createBioLink(teamMembers[productTeam.pm].name)
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
     }
 
@@ -97,7 +102,7 @@ export async function generateFeatureCodeHostCompatibilities() {
       )}))\n`
     }
     if (productTeam.pm) {
-      const bioLink = `../../company/team/index.md#${String(createValidTeamAnchor(teamMembers[productTeam.pm].name))}`
+      const bioLink = createBioLink(teamMembers[productTeam.pm].name)
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
     }
 
@@ -197,9 +202,10 @@ export async function generateProductTeamsList() {
       pageContent += `- [Strategy Page](${String(createRelativeProductLink(productOrg.strategy_link))})\n`
     }
     if (productOrg.strategy_link) {
-      const bioLink = `../../company/team/index.md#${String(createValidTeamAnchor(teamMembers[productOrg.pm].name))}`
-      pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLink)})\n`
-      pageContent += `- Engineering Director: [${String(teamMembers[productOrg.em].name)}](${String(bioLink)})\n`
+      const bioLinkPM = createBioLink(teamMembers[productOrg.pm].name)
+      const bioLinkEM = createBioLink(teamMembers[productOrg.em].name)
+      pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLinkPM)})\n`
+      pageContent += `- Engineering Director: [${String(teamMembers[productOrg.em].name)}](${String(bioLinkEM)})\n`
     }
     for (const productTeam of Object.values(productTeams)) {
       if (productTeam.product_org === productOrgName) {
@@ -208,27 +214,19 @@ export async function generateProductTeamsList() {
           pageContent += `- [Strategy Page](${String(createRelativeProductLink(productTeam.strategy_link))})\n`
         }
         if (productTeam.pm) {
-          const bioLink = `../../company/team/index.md#${String(
-            createValidTeamAnchor(teamMembers[productTeam.pm].name)
-          )}`
+          const bioLink = createBioLink(teamMembers[productTeam.pm].name)
           pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})\n`
         }
         if (productTeam.em) {
-          const bioLink = `../../company/team/index.md#${String(
-            createValidTeamAnchor(teamMembers[productTeam.em].name)
-          )}`
+          const bioLink = createBioLink(teamMembers[productTeam.em].name)
           pageContent += `- Engineering Manager: [${String(teamMembers[productTeam.em].name)}](${String(bioLink)})\n`
         }
         if (productTeam.design) {
-          const bioLink = `../../company/team/index.md#${String(
-            createValidTeamAnchor(teamMembers[productTeam.design].name)
-          )}`
+          const bioLink = createBioLink(teamMembers[productTeam.design].name)
           pageContent += `- Product Designer: [${String(teamMembers[productTeam.design].name)}](${String(bioLink)})\n`
         }
         if (productTeam.pmm) {
-          const bioLink = `../../company/team/index.md#${String(
-            createValidTeamAnchor(teamMembers[productTeam.pmm].name)
-          )}`
+          const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
           pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(
             bioLink
           )})\n`
