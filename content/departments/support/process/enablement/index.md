@@ -11,7 +11,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 | CodeIntel                       | Go here                                                                                                         |          |
 | Code insights                   | Go here                                                                                                         |          |
 | Docker/docker-compose deploy    | Go here                                                                                                         |          |
-| Docker/docker-compose migration | Go here                                                                                                         |          |
+| Docker/docker-compose migration | [Go here](docker-compose-migrations.md)                                                                         |          |
 | GraphQL                         | [Go here](https://docs.google.com/presentation/d/1qgid2A0D0ycNidRfzsl2YrmjKTPiG_W8HPoECdgXwLE/edit?usp=sharing) |          |
 | Kubernetes deploy               | Go here                                                                                                         |          |
 | Kubernetes migration            | [Go here](k8-migration.md)                                                                                      |          |
