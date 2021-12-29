@@ -12,7 +12,7 @@ As the VE & SE practice grows here at Sourcegraph, our charter is to help genera
 ### Members
 
 - [Dudley Nostrand](../../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
-- [Rob Dapaah](../../../team/index.md#rob-dapaah) (Sr. Advisor of Value Engineering)
+- [Rob Dapaah](../../../team/index.md#rob-dapaah) (Sr. Advisor, Value Engineering)
 - [Trey Sizemore](../../../team/index.md#trey-sizemore) (Sales Enablement Manager)
 - [VE & SE roles - open positions](https://sourcegraph.com/careers)
 
