@@ -83,4 +83,4 @@ caddy:
 
 ## DNS
 
-DNS for cse-aws is handled by our GCP terraform infrastructure: [https://github.com/sourcegraph/infrastructure/blob/main/dns/sgdev.tf#L332-L338](https://github.com/sourcegraph/infrastructure/blob/main/dns/sgdev.tf#L332-L338) application of changes here requires `terraform apply` to take effect on our GCP infrastructure 
+DNS for cse-aws is handled by our GCP terraform infrastructure: [https://github.com/sourcegraph/infrastructure/blob/main/dns/sgdev.tf#L332-L338](https://github.com/sourcegraph/infrastructure/blob/main/dns/sgdev.tf#L332-L338) application of changes here requires `terraform apply` to take effect on our GCP infrastructure
