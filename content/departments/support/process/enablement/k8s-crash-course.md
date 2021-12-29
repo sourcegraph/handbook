@@ -1,5 +1,6 @@
 # Kubernetes Crash Course
 
+<<<<<<< HEAD
 The following crash course is intended to provide a new application engineer with the basics they need to get up and running with kubernetes (also called k8s). Kubernetes was developed to make life easier for admins and devOps teams tasked with deploying and maintaining complex web applications. As such, a wide range of devOps subfields, from machine networking, to linux file system permissions, are within the scope of a kubernetes deployment. This document is intended to explore kubernetes broadly, and provide someone new to kubenetes with the basic concepts and tools necessary to navigate a kubernetes application.
 
 ## Table of Contents
@@ -28,3 +29,8 @@ Modern microservice applications make use of *containers*. Containers are like a
 ### Orchestration, Clusters, and Cloud Providers
 
 Kubernetes comes from the greek κυβερνήτης, translated as "helmsman", "pilot", or "governor". This is a fitting term for what the framework is attempting to accomplish. K8s expands on the microservice/container architecture, automating many of the administrative tasks an admin once had to perfom themselves. Consider a manual transmission vs. automatic transmission automobile. When driving a manual transmission, if a driver encounters a steep hill, they must shift into a lower gear to get up the hill. While in an automatic transmission the automobile will detect the added difficulty introduced by the hill and automatically shift into the best suited gear. Kubernetes provides this same type of automation. In the same way that the automatic transmission makes adjustments for increased resistance, kubernetes automates adjustments for, increased application usage, increased resource demands from a service, or unexpected network failures. 
+=======
+The following crash course is intended to provide a new application engineer with the basics they need to get up and running with kubernetes (also called k8s). The course will provide a brief exploration of key kubernetes concepts and administrative operations, as well as information about how these concepts may be employed when working with a kubernetes Sourcegraph deployment.
+
+Kubernetes was developed to make life easier for admins and devOps teams tasked with deploying and maintaining complex web applications. As such, a wide range of devOps subfields, from machine networking, to linux file system permissions, are within the scope of a kubernetes deployment. This document is intended to explore kubernetes broadly, and provide someone new to kubenetes with the basic concepts and tools necessary to navigate a kubernetes application.
+>>>>>>> d8d9488f74012a5b9f91cf655f758727b3d59e22
