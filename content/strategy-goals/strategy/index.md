@@ -32,6 +32,18 @@ To make it so [everyone can code](#purpose), we will create tools, networks, and
 
 Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
 
+## Use cases
+
+We have identified five key use cases for our universal code search platform:
+
+1. Developer onboarding & velocity
+1. Code reuse
+1. Code health
+1. Fixing vulnerabilities
+1. Incident Response
+
+See also our (internal only) [use cases slide](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0) for presenting these. How each department uses them and what they need out of them is described on our [working with use cases](./working_with_use_cases.md) page.
+
 ## Principles
 
 - Sourcegraph is universal code search, not universal "everything" search. Any additional data types in our search need to be relevant to the software development workflow.
@@ -107,7 +119,7 @@ Within this overall product strategy, individual product teams set their own goa
 - [Frontend Platform](enablement/frontend-platform/index.md)
 - [Repo Management](enablement/repo-management/index.md)
 - [Engineering Education](enablement/engineering-education/index.md)
-- [Handbook](enablement/handbook/index.md)
+- [Content Platform](enablement/content-platform/index.md)
 
 #### Cloud
 

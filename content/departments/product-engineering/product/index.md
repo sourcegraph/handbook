@@ -15,7 +15,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 - The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
-- [How we track product and engineering progress](../process/planning-process.md#sharing-progress)
+- [How we track product and engineering progress](../process/reporting-progress.md)
 
 ## Product team
 
@@ -40,14 +40,6 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 ## Product team initiatives
 
 Occasionally the product team takes on special initiatives that are not strictly tied to product delivery. Those are tracked here.
-
-### Product led metrics refinement
-
-In an effort to gain more clarity around product success and growth on Cloud, we aim to iterate and decide on the current Sourcegraph user metric definitions for On Premise. Targeting to have the new definition in place in FY21 Q3.
-
-- Owner: Anna (Jason covering during leave)
-- [Working Document](https://docs.google.com/document/d/1o0dLmdRRI6uWIuAg_8VQw25KnTM1CBDKKR2K91SxpAI/edit#)
-- [Pull Request](https://github.com/sourcegraph/about/pull/4521)
 
 ### Product management and Product design impact ladders
 
@@ -77,3 +69,6 @@ There are various problems, feature areas, or initiatives related to Product (wh
 - [Product licensing](process/licensing.md)
 - [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
 - [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
+- [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
+- [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
+- [Product team tools](tools/index.md)

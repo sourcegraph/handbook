@@ -66,4 +66,4 @@ Code host connectivity, scalability, and reliability underpin all other features
 - [Delivery](../../../departments/product-engineering/engineering/enablement/delivery/index.md) - [Strategy page](delivery/index.md)
 - [Dev Experience](../../../departments/product-engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
 - [Frontend Platform](../../../departments/product-engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
-- [Handbook Strategy Page](handbook/index.md)
+- [Handbook Strategy Page](content-platform/index.md)

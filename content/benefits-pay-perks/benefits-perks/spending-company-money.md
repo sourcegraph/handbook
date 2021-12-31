@@ -44,7 +44,7 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 Once your contract is signed, you will need to get your Sourcegraph computer. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
 
-**US/Canada/EU-based teammates** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+**US/Canada/Eurpoe-based teammates (not Russia)** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
 **Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
@@ -59,7 +59,7 @@ Different specs are required depending on your role, please see below for necess
 ### Product team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
-  - [See product in CDW for reference]()
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 ### Engineering team laptops:
@@ -69,6 +69,11 @@ Different specs are required depending on your role, please see below for necess
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
 ### Customer Support team laptops:
+
+- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
+
+### Data & Analytics team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)

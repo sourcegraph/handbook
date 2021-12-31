@@ -15,7 +15,7 @@ Also see [playbooks](./playbooks.md) for common actions related to operating our
 
 ## Sourcegraph Cloud
 
-[![Build status](https://badge.buildkite.com/ef1289610fdd05b606bf1e57a034af2365c7b09c95ac6121f9.svg)](https://buildkite.com/sourcegraph/deploy-sourcegraph-dot-com)
+[![Build status](https://badge.buildkite.com/ef1289610fdd05b606bf1e57a034af2365c7b09c95ac6121f9.svg)](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud)
 
 This deployment is also colloquially referred to as "sourcegraph.com", "Cloud", and "dot-com". It is the public deployment available to the public at [sourcegraph.com/search](https://sourcegraph.com/search).
 
@@ -29,7 +29,7 @@ This deployment also includes our [documentation](https://docs.sourcegraph.com/)
   ```
   gcloud container clusters get-credentials cloud --zone us-central1-f --project sourcegraph-dev
   ```
-- [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com)
+- [Kubernetes configuration](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
 - [Infrastructure configuration](https://github.com/sourcegraph/infrastructure/tree/main/cloud)
 - Alerts: #alerts-cloud and [OpsGenie](../incidents/on_call.md)
 - [Playbooks](./playbooks.md#sourcegraph-cloud)
