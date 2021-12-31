@@ -42,7 +42,6 @@ Not all team members are reflected here yet. If you see yourself missing, please
   - [Kai Passo](../../team/index.md#kai-passo)
   - [Bill Kolman](../../team/index.md#bill-kolman)
   - [Eli Rothschild](../../team/index.md#eli-rothschild)
-  - [Scott Campbell](../../team/index.md#scott-campbell)
   - [Caitlin Moran](../../team/index.md#caitlin-moran)
   - [Ken Mills](../../team/index.md#ken-mills)
   - [Brady Hermann](../../team/index.md#brady-herrmann)
