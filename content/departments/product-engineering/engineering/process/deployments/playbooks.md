@@ -82,6 +82,7 @@ Important: please ensure support from either [CloudDevops](../../cloud/devops/in
 1. [Disable Renovate](#rolling-back-sourcegraphcom) to ensure your rollback will not be ovewritten by new images.
 
 2. Perform rollback via `git` commands:
+
 ```sh
 # Ensure that you're up-to-date
 git checkout release
@@ -95,6 +96,7 @@ git revert --no-commit $COMMIT..HEAD
 git commit
 git push origin release
 ```
+
 [Buildkite](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/) will deploy the working commit to sourcegraph.com.
 
 3. When your code fix is in the main branch, [re-enable Renovate](#disable-renovate).
