@@ -61,7 +61,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 
 1. **Gather internal feedback:** Enable the feature flag in the [Sourcegraph organization settings](https://sourcegraph.com/organizations/sourcegraph/settings) to enable your feature for all Sourcegraph team members. Be sure to leave enough time for folks to experience the feature in their workflows and provide feedback.
 1. **Analytics:** Validate logging is working for critical flows
-1. **Approvals:** Recieve approval from key stakeholders.
+1. **Approvals:** Receive approval from key stakeholders.
 1. **Bug Tracking:** Keep track of all feedback.
    - Track and ensure high priority bugs in GitHub issues. Ensure they are closed before launch.
    - Track all lower priority bugs that have to be fixed soon.
@@ -70,7 +70,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 
 1. **Enable for all Sourcegraph Cloud users**
    - Follow the steps in this [document](../../engineering/cloud/devops/update_sg_website_config.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
-   - In the PR that pushes changes live, add everyone who gave appproval for launch as reviewers.
+   - In the PR that pushes changes live, add everyone who gave approval for launch as reviewers.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
 
@@ -119,7 +119,7 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 ### Launch
 
 1. **Release Process**
-   - Release process is different for each product. Please refer to [Browser Extensions](../../engineering/cloud/extensibility/browser-extensions) & [IDE Extensions](../../engineering/cloud/extensibility/ide-extensions) page for more details.
+   - Release process is different for each product. Please refer to the [Browser Extensions](../../engineering/cloud/extensibility/browser-extensions) & [IDE Extensions](../../engineering/cloud/extensibility/ide-extensions) pages for more details.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
 
