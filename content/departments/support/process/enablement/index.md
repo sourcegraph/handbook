@@ -8,6 +8,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 
 | Competency                      | Crash course                                                                                                    | Hands-on |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------- |
+| Bash + CLI                      | Go here                                                                                                         |          |
 | Code Intel                      | [Go here](https://docs.google.com/presentation/d/1DpKx6lW6kFwOv9BJVS9u69cA93EHiXMmzeSVbA1xzgE/edit?usp=sharing) |          |
 | Code insights                   | Go here                                                                                                         |          |
 | Docker/docker-compose deploy    | Go here                                                                                                         |          |
