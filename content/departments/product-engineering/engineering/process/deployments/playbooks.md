@@ -7,7 +7,7 @@
   - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
   - [Deploying to sourcegraph.com during 2021-08-19 code freeze](#deploying-to-sourcegraphcom-during-2021-08-19-code-freeze)
   - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
-  - [Disabling Renovate on sourcegraph.com](#disable-renovate)
+  - [Disabling Renovate on sourcegraph.com](c)
   - [Backing up & restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
   - [Invalidating all user sessions](#invalidating-all-user-sessions)
   - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
@@ -77,6 +77,11 @@ Usually you'll know the build from which you'd like to deploy, we'll use a speci
 
 To roll back soucegraph.com, push a new commit to the `release` branch in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud) that reverts the image tags and configuration to the desired state.
 
+Important: please ensure support from either [CloudDevops](../../cloud/devops/index.md) or [CloudSaaS](../../cloud/saas/index.md), as `release` branch in `sourcegraph-deploy-cloud` is protected from merges without approval.
+
+1. [Disable Renovate](#rolling-back-sourcegraphcom) to ensure your rollback will not be ovewritten by new images.
+
+2. Perform rollback via `git` commands:
 ```sh
 # Ensure that you're up-to-date
 git checkout release
@@ -90,10 +95,11 @@ git revert --no-commit $COMMIT..HEAD
 git commit
 git push origin release
 ```
-
 [Buildkite](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/) will deploy the working commit to sourcegraph.com.
 
-🚨 You also need to disable auto-deploys to prevent Renovate from automatically merging in image digest updates so that the site doesn't roll-forward.
+3. When your code fix is in the main branch, [re-enable Renovate](#disable-renovate).
+
+🚨 You need to disable auto-deploys to prevent Renovate from automatically merging in image digest updates so that the site doesn't roll-forward - step 1.
 
 ### Disable Renovate
 
