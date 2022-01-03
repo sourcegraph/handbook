@@ -21,4 +21,3 @@ external_node_modules = ["@ampproject/toolbox-optimizer"]
   for = "/*"
   [headers.values]
     Content-Security-Policy = "frame-ancestors 'none'"
-    X-Frame-Options = "DENY"
