@@ -21,7 +21,7 @@ Recommended content to share: (Youtube, Blog, and Hadnbook)
 
 - Coming soon!
 
-Learn more about Sourcegraph's [Social Media](../../marketing/social-media.md)
+Learn more about Sourcegraph's [Social Media](../../departments/marketing/social-media/index.md)
 
 ## Leaving Company Reviews
 
