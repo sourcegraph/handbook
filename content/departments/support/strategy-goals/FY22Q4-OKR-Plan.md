@@ -26,7 +26,7 @@ TO BE FILLED IN BY 2021-10-29.
 
 ### 1 Case reviews
 
-- Workgroup: Brielle, Nonso, Tamar, Virginia
+- Workgroup: CS leadership
 - Facilitator: Nonso
 - Details: CS leadership will launch 3 types of case review practices in advance of 2021-12-09 in order to impact KR1:
   1.  Peer reviews (similar to the idea of code reviews)
@@ -35,7 +35,7 @@ TO BE FILLED IN BY 2021-10-29.
 
 ### 2 Healthy habits
 
-- Workgroup: Brielle, Nonso, Tamar
+- Workgroup: CS leadership
 - Details: CS leadership will dig in with each member of the team to understand what needs to shift (mindset or practices) in order to make it easy to honor taking a focus day and taking time off as needed.
 
 ### 3 Enablement
