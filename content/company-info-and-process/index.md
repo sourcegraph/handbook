@@ -45,7 +45,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Glossary](onboarding/glossary.md)
 - [Intro to Git](onboarding/git-intro/index.md)
 
-## [Working at Sourcegraph]
+## [Working at Sourcegraph](working-at-sourcegraph/index.md)
 
 - [Working hours](working-at-sourcegraph/working-hours.md)
 - [Switching teams](working-at-sourcegraph/switching-teams.md)

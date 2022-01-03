@@ -9,7 +9,6 @@
 - [Tracking issues](process/tracking_issues.md)
 - [Engineering ownership](process/engineering_ownership.md) - who owns what
 - Practices & Philosophy
-  - [Planning](process/planning.md)
   - [Customer Issues](../../support/process/engaging-other-teams.md)
   - [Incidents](process/incidents/index.md)
   - [Product documentation](process/product_documentation.md)

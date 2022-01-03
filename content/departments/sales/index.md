@@ -17,6 +17,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Engaging with Security](process/salessecurity.md)
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
+- [Process docs](process/index.md)
 
 ## Pipeline, data, and models
 
@@ -36,6 +37,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
 - Amber Smokowski (Executive Business Partner, Sales and Marketing)
 - [Dudley Nostrand](../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
   - [Trey Sizemore](../../team/index.md#trey-sizemore) (Sales Enablement Manager)
+  - [Rob Dapaah](../../team/index.md#rob-dapaah) (Sr. Advisor, Value Engineering)
 - [Scott Campbell](../../team/index.md#scott-campbell) (Regional Director of East)
   - [Kai Passo](../../team/index.md#kai-passo)
   - [Bill Kolman](../../team/index.md#bill-kolman)
