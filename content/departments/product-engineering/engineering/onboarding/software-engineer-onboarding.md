@@ -46,7 +46,7 @@ Take the first 20-30 minutes of the session to have an unstructured, introductor
 
 We have many resources available to help you onboard and gain context:
 
-- Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture)
+- Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture).
 - To complement the architecture overview docs, watch the [architecture video (10 minutes)](https://www.youtube.com/watch?v=LiBtt1IeqFY).
 - Read through the rest of the engineering handbook to learn more about how we operate.
 - Read how we choose and continually update our [goals](../../../../strategy-goals/goals/index.md).
