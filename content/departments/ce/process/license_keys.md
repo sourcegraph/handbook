@@ -84,3 +84,13 @@ query{
 ```
 
 That should return their username, email(s) and whether the email address is verifed.
+
+## Reporting an issue with the license key management system or feature gating
+
+If you notice a problem with the license key management system, or with feature gating, please submit it as a [product gap](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders)
+
+This includes:
+
+- usability issue with the key management system
+- features not being gated as advertised in [pricing](https://about.sourcegraph.com/pricing/)
+- user caps not being enforced
