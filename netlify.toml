@@ -20,4 +20,4 @@ external_node_modules = ["@ampproject/toolbox-optimizer"]
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "sha256-JcUwlbcTNdtwp5Szxufx3JIsjsem70t6DXyfcgTcAnQ=; frame-ancestors 'none'"
+    Content-Security-Policy = "script-src 'self' 'sha256-JcUwlbcTNdtwp5Szxufx3JIsjsem70t6DXyfcgTcAnQ='; frame-ancestors 'none'"
