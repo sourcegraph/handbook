@@ -26,7 +26,7 @@ If you answered yes to the questions above, creating a working group could help.
 
 There is no formal process for creating a working group, but here are a few guidelines to help drive success:
 
-- **define the outcome.** A working group is not a set organisational structure like a team or an organization. It disappears once its outcome is achieved. Clearly defining the outcome helps set expectations and organise work.
+- **define the outcome.** A working group is not a set organizational structure like a team or an organization. It disappears once its outcome is achieved. Clearly defining the outcome helps set expectations and organize work.
 - **define how the decision will be made.** See [making decisions at Sourcegraph](decisions.md).
 - **sketch out a roadmap**.
 - **write a proposal** to share the outcome, identify participants and roadmap widely. Writing an RFC can help.
