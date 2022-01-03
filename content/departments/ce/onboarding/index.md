@@ -37,8 +37,8 @@ Below are the goals and expectations for each week of your onboarding.
 
 ### Week 4 Goals:
 
-- Learn about how we differentiate from technologies like Github Search, Livegrep, OpenGrok and more
-- Go deeper in your understanding of Sourecgraph's products, learn how we should talk about Sourcegraph relative to the current technologies devs use
+- Learn about how we differentiate from technologies like GitHub Search, Livegrep, OpenGrok and more
+- Go deeper in your understanding of Sourcegraph's products, learn how we should talk about Sourcegraph relative to the current technologies devs use
 
 ### Week 5 Goals:
 
@@ -72,7 +72,7 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Participate in CE-led internal projects.
 - Raise feedback to the appropriate product team.
 
-After day 90, your role expectations will then align to the pre-defined CE career ladders of your current level.
+After day 90, your role expectations will then align to the predefined CE career ladders of your current level.
 
 ### Senior Customer Engineers (Level 3 - 4)
 
@@ -96,7 +96,7 @@ After day 90, your role expectations will then align to the pre-defined CE caree
 - Raise feedback to the appropriate product team.
 - Drawing from previous experience, make internal contributions by identifying opportunities and proposing and delivering solutions.
 
-After day 90, your role expectations will then align to the pre-defined CE career ladders of your current level.
+After day 90, your role expectations will then align to the predefined CE career ladders of your current level.
 
 ## CE Demo Certification
 
