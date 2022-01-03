@@ -16,3 +16,9 @@ renderJavaScript = false
 [functions]
 node_bundler = "esbuild"
 external_node_modules = ["@ampproject/toolbox-optimizer"]
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'none'"
+    X-Frame-Options = "DENY"
