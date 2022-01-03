@@ -40,4 +40,4 @@ The algorithm for TTPR is as follows.
 
 ## Usage
 
-The TTPR metric is used by the [Engineering Education](./engineering-education.md) team.
+The TTPR metric is used by the [Engineering Education](./index.md) team.
