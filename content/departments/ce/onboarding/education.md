@@ -13,6 +13,8 @@ This page (WIP) provides new and existing CEs alike with important training, dem
   - [Slides](https://docs.google.com/presentation/d/1niZBMhHKWJT1-n_ExSbYIRD51vcubrWwQm-Tc5EZo8s/edit#slide=id.g7d2aea8729_0_0)
   - [Batch Changes demo and training materials](https://docs.google.com/document/d/1xQxhdGaudydOn5nBGIG91F6Z4VR4NwBfuKFvgbmCjJo/edit?usp=drive_web&ouid=107037782400977645523)
   - [Sourcegraph Architecture Overview](https://www.youtube.com/watch?v=LiBtt1IeqFY) (YouTube)
+  - [Sourcegraph repo tour](https://www.youtube.com/watch?v=3OewJAaX4KI) (YouTube)
+
 
 ## Product-Centric Topics
 
