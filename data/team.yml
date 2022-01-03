@@ -2235,9 +2235,48 @@ nicolas_hernandez:
 rohan_gupta:
   name: Rohan Gupta
   role: Sales Development Representative - (USA)
-  location: Austin, TX , USA 🇺🇸
+  location: Austin, TX, USA 🇺🇸
   pronouns: he/him
   email: rohan.gupta@sourcegraph.com
   github: rohanguptatx
   links: '[LinkedIn](https://www.linkedin.com/in/rohanguptatx/), [@rguptatech](https://twitter.com/rguptatech), [Why I Joined](https://medium.com/@rohanguptatx/sourcegraph-the-future-of-big-code-1de9adbeca36)'
   description: Rohan is a Boston-ite turned Austin-ite. He enjoys running, finding the next best food truck or music festival, and helping customers solve unique business challenges.
+
+david_veszelovszki:
+  name: David Veszelovszki
+  role: Software Engineer
+  location: Budapest, Hungary 🇭🇺
+  pronouns: he/him
+  email: david.veszelovszki@sourcegraph.com
+  github: vdavid
+  links: '[LinkedIn](https://www.linkedin.com/in/veszelovszki/)'
+  description: David is a developer with 150+ coding projects behind him, an expert at web development, i18n, and refactoring 🧑‍💻. He enjoys doing research and experimenting with new technologies. He has 9 siblings, an amazing wife, and a baby daughter 👶. He snowboards 🏂, does freediving 🐚, slacklines 🌴____🕺____🌴, used to paraglide 🪂, and is a divemaster 🤿. He's a meditator 🧘with three 10-day vipassana courses spent in complete silence and once served for ten days as a volunteer. Besides coding, he's enthusiastic about online education 🧑‍🏫 and indoor vertical farming 👨‍🌾.
+
+riana_shahid:
+  name: Riana Shahid
+  email: riana.shahid@sourcegraph.com
+  github: r-shahid
+  pronouns: she/her
+  role: Application Engineer
+  location: New York City, NY, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/rianashahid/)'
+  description: Riana is an analytical thinker with many creative interests. She studied mathematics at NYU where she first played with code in a web design class she took for fun. She returned to it later when she decided to attend a coding bootcamp. Outside of work, Riana likes to paint, knit, and visit museums in her city. She is an avid learner who's always willing to try out something new!
+
+rob_dapaah:
+  name: Rob Dapaah
+  email: rob.dapaah@sourcegraph.com
+  github: rdapaah
+  role: Senior Advisor, Value Engineering
+  location: Hauppauge, NY, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/robdap/)'
+  description: Rob lives in Hauppauge, NY with his wife Marie and two kids (Nate and Zach). He continues to pursue his career passion of Value Engineering, where Rob brought Value Realization to New Relic as a key component of their transformation to be more Customer Value focused.  Rob speaks publicly as a Value Realization expert and with companies just starting to incorporate Value throughout their Customer Journey.  He enjoys spending time riding his bike and traveling to new 🏂 🌴 places with his family.
+
+ashwin_Thakur:
+  name: Ashwin Thakur
+  email: ash.thakur@sourecgraph.com
+  pronouns: he/him
+  github: ashwint98
+  role: Sales Development Representative (EMEA)
+  location: London, UK
+  links: '[LinkedIn](https://www.linkedin.com/in/ashwin-thakur/)'
+  description: Ash grew up in London and has had a passion for Sales and Tech throughout his career and education. After completing his degree at the University of Portsmouth he jumped straight into his first SDR role and hasn’t looked back since. In his free time, he enjoys football, listening to music and spending time with his dog Byron 🐶.

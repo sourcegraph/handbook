@@ -15,7 +15,7 @@ You'll have to get some basics set up in your first few days:
 - [Sourcegraph values](../../../company-info-and-process/values/index.md)
 - [Sourcegraph strategy](../../../strategy-goals/strategy/index.md)
 - [Sourcegraph OKRs](../../../strategy-goals/goals/index.md)
-- [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/63)
+- [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/224/views/1) and [backlog](https://github.com/orgs/sourcegraph/projects/63)
 
 ### Understand Sourcegraph communication and documentation standards
 
@@ -33,19 +33,19 @@ Your manager will help you schedule the following training sessions:
   - Code intel (including the difference between search and precise)
   - Sourcegraph and browser extensions
   - Batch Changes
-  - Code insights
+  - Code Insights
 - Review the [sales onboarding quiz](../../sales/onboarding/quiz.md)
 - Check out the [Dev Pain Sessions](https://drive.google.com/drive/u/0/folders/167Umyjs25fHPonju2ctWhtrkADDQ1WSJ) in the Know Thy Dev sales enablement program for a deep dive into how Sourcegraph solves common developer pains. These videos are long so I recommend skipping to the parts the CEs are demoing and listening at at >1x speed
-- Product analytics overview
-  - Event logger and pings overview
-  - On-prem deployment to Google BigQuery to Looker data flow
+- DataOps overview
+  - Frontend data capture, Amplitude and their data pipelines
+  - Pings: what is it and their data pipelines
 - Sales and marketing data overview (focused on the data instead of the tools)
 - GitHub and git walk-through (Q&A)
   - Read through the [git intro](../../../company-info-and-process/onboarding/git-intro/index.md) and [add yourself](../../../handbook/editing/add-yourself-to-team-page.md) to the team page
 
 ### Get to know fellow teammates
 
-- Schedule 1:1s with teammates to start getting to know who you'll be working with! Ask your manager for a list of people you could get started with! The [org chart](../../../team/org_chart.md) is also good place to start.
+- Schedule 1:1s with teammates to start getting to know who you'll be working with! Ask your manager for a list of people you could get started with! The [org chart](../../../team/org_chart.md) is also a good place to start.
 - Begin joining relevant weekly team meetings wherever possible. For example, if you will be working closely with our commercial teams (e.g. Sales, Marketing, Customer Engineering), join our weekly Customer Ops sync, the company pipeline review, and more. Your manager will help you identify and get invites to the right list of meetings.
 
 ## Weeks 2 and 3
@@ -62,3 +62,4 @@ Your manager will help you schedule the following training sessions:
 ## Week 4
 
 - Get onboarded onto your first big project!
+- Month one check-in
