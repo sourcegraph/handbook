@@ -51,7 +51,12 @@ If you want to expedite a deploy, you can manually create and merge a PR that up
 
 Note: sample for `2021-08-19` code freeze.
 
-To ensure stability during a [code freeze](https://en.wikipedia.org/wiki/Freeze_%28software_engineering%29), a separate `release/YYYY-MM-dd` branch will be created from `main`, with only approved commits to be `cherry-picked` onto this [branch](https://github.com/sourcegraph/sourcegraph/tree/release/2021-08-19) for release. To ensure any compability between the `main` and `release/YYYY-MM-dd` branches, **ALL** commits must first be merged to `main` and pass [CI](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) for being `cherry-picked`. All tests will be run on the `release/YYYY-MM-dd` branch and must pass before docker images are published to docker hub.
+**Image build**
+
+To ensure stability during a [code freeze](https://en.wikipedia.org/wiki/Freeze_%28software_engineering%29), a separate `release/YYYY-MM-dd` branch will be created from `main`, with only approved commits to be `cherry-picked` onto `release/YYYY-MM-dd` branch  for release. To ensure any compability between the `main` and `release/YYYY-MM-dd` branches, **ALL** commits must first be merged to `main` and pass [CI](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) for being `cherry-picked`. All tests will be run on the `release/YYYY-MM-dd` branch and must pass before docker images are published to docker hub.
+When creating a hotfix PR in `sourcegraph/sourcegraph`, it is important to create a branch with prefix `main-dry-run/` (it enables CI pipeline similar to the pipeline which is run against every commit in main branch). More about [run types](https://docs.sourcegraph.com/dev/background-information/continuous_integration#run-types).
+
+**Deploy**
 
 During the code freeze, [Renovate](#renovate) will be disabled on **YYYY-MM-dd 12:00+00:00** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge (requires approval from either [CloudDevops](../../cloud/devops/index.md) or [CloudSaaS](../../cloud/saas/index.md)) a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/YYYY-MM-dd` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
