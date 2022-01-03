@@ -12,7 +12,7 @@ Headings and subheadings in our interfaces have three goals:
 
 Some specific guidelines for writing headings and subheadings:
 
-- **Be concise.** Headings and subheadings should be scannable and use only as many words are needed to convey their meaning.
+- **Be concise.** Headings and subheadings should be scannable and use only as many words as needed to convey their meaning.
 - **Write in sentence case.** Sentence case makes it feel less stiff and formal.
 - **Don’t use punctuation** like periods or semicolons.
 
@@ -289,7 +289,7 @@ Links in full sentences shouldn’t link the whole sentence, but instead only th
 
 ### Outside of sentences
 
-Links that aren’t in full sentences should be treated similarly to buttons, and use the `verb` + `noun` pattern. Don’t punctuate, except with questions marks.
+Links that aren’t in full sentences should be treated similarly to buttons, and use the `verb` + `noun` pattern. Don’t punctuate, except with question marks.
 
 <div class="usage">
 <div class="item yes">
