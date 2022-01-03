@@ -9,17 +9,17 @@ Our hiring managers work with their [assigned recruiter](../index.md#talent-team
 All role-specific interview processes are documented at the end of each [job description](https://boards.greenhouse.io/sourcegraph91).
 We strive for consistency across all interviews.
 
-- **Recruiter screen**
-- **Hiring manager screen**
+- **Recruiter Screen**
+- **Hiring Manager Screen**
 - Assignment, if applicable
 - In-depth Interview stage:
-  - Resume deep dive
+  - Resume Deep Dive
   - Assignment review/working session, if applicable
-  - Technical interview, if applicable
-  - **Cross-functional team collaboration interview**
-  - **Peer interview**
-  - Leadership interview
-  - **Values interview**
+  - Technical Interview, if applicable
+  - **Cross-functional Team Collaboration Interview**
+  - **Peer Interview**
+  - Leadership Interview
+  - **Values Interview**
 - Reference checks / offer
 
 ## Structured interview questions
@@ -30,7 +30,7 @@ We ask structured questions for all interviews, meaning that all candidates are 
 
 All departments are likely to have some or all of the below universal interview stages:
 
-## Recruiter screen
+## Recruiter Screen
 
 - Interviewer: the assigned recruiter for the role.
 - Duration: 30-minutes.
@@ -46,7 +46,7 @@ All departments are likely to have some or all of the below universal interview 
   - Are your compensation expectations in line with our compensation range, which is XYZ?
   - What questions do you have for us?
 
-## Hiring Manager screen
+## Hiring Manager Screen
 
 - Interviewer: the hiring manager.
 - Duration: 30-minutes is average, but sometimes these are longer.
@@ -56,7 +56,7 @@ All departments are likely to have some or all of the below universal interview 
   - Why do you want to be a [role title]? What are your longterm goals?
   - How would you explain what Sourcegraph does to a friend?
 
-## Resume deep dive
+## Resume Deep Dive
 
 - Interviewer(s): the hiring manager or a peer leads the Resume deep dive, and sometimes there is another teammate who shadows the interview.
 - Duration: 60-minutes.
@@ -70,7 +70,7 @@ All departments are likely to have some or all of the below universal interview 
   - What are you most proud of accomplishing while in your job?
   - Why did you leave?
 
-## Peer interview
+## Peer Interview
 
 - Interviewer(s): the other members of the team for which you're interviewing.
 - Duration: 30-45 minutes.
@@ -79,7 +79,7 @@ All departments are likely to have some or all of the below universal interview 
   - Tell us about the best team you've ever been a part of.
   - Tell us about a time when you had to put your team's interests above your own.
 
-## Cross-functional team collaboration interview
+## Cross-functional Team Collaboration Interview
 
 - Interviewer(s): people outside of your respective department who you would cross-collaborate with regularly.
 - Duration: 30-60 minutes.
@@ -88,7 +88,7 @@ All departments are likely to have some or all of the below universal interview 
   - Tell us about a recent project you worked on where you collaborate with people outside of your department
   - Tell me about a project where you or your team had a disagreement with someone in another function
 
-## Leadership interview
+## Leadership Interview
 
 - Interviewer: a member of the leadership team for the department.
 - Duration: 30-45 minutes.
@@ -96,7 +96,7 @@ All departments are likely to have some or all of the below universal interview 
 - Example questions:
   - Coming soon
 
-## Values interview
+## Values Interview
 
 Read more about our values interview [here](evaluating_values.md).
 
@@ -368,7 +368,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Duration: 60-minutes.
 - Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuition about building systems and problem-solving as we throw various wrenches into the system.
 
-### Working Session
+### Pairing Exercise
 
 - Interviewer(s): two members of the engineering department
 - Duration: 60-minutes.
@@ -537,6 +537,12 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 ### Director of Technical Writing
 
+#### Async strategy and writing project
+
+- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
+- Duration: ~1 hour
+- Details: Please review the Sourcegraph Docs Plan (will be sent to you) and write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive.
+
 #### Working session on strategy & Leadership
 
 - Interviewer(s): [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
@@ -582,7 +588,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were not the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will have about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 

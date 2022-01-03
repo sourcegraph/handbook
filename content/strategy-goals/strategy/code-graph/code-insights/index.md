@@ -39,7 +39,7 @@ To deliver on our mission, we will:
 
 #### 1 Year vision
 
-> Any Sourcegraph user can create code insights for their code to answer any question that can be known with a Sourcegraph search, and export/find/recieve this information wherever they need.
+> Any Sourcegraph user can create code insights for their code to answer any question that can be known with a Sourcegraph search, and export/find/receive this information wherever they need.
 
 #### 3 Year vision
 

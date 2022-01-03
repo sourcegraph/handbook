@@ -1,4 +1,4 @@
-## Marketing Processes
+# Marketing Processes
 
 - [Ad conversion flows](ad_conversion_flows.md)
 - [Adding screenshots and recordings](adding_screenshots_screen_recording.md)

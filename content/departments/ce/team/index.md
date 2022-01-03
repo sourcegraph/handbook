@@ -5,6 +5,7 @@ Our README expands on our profile in [the company team directory](../../../team/
 - Aimee [README](readmes/aimee-readme.md)
 - Bob [README](readmes/bob-readme.md)
 - Christy [README](readmes/christy-readme.md)
+- Greg [README](readmes/greg-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 

@@ -30,6 +30,14 @@ In order to maintain healthy communication, we...
 - We take turns each month auditing our section of the handbook to make sure it's current and accurate
 - We create succint title-like first posts and share details in the thread in #customer-support-internal. This is our most active channel and doing this makes it easier to find threads we might need a day or two later. We still make sure the handbook is our source of truth, not Slack; this just helps keep things easier to navigate whilst talking about multiple topics.
 
+An occasional challenge of being async by default is there can be a lot to read in Slack. To ensure that we stay as informed as possible and set healthy boundaries around Slack, for the following channels we do the following
+
+- #customer-support: We stay attentive as this is where we collaborate with everyone outside of support. If there is a question/request, you have the agency to assist. We are a fully remote team and it is our responsibility to ensure our teammates feel supported.
+  Leadership note: If there is a specific @cs-leadership mention an online member of the leadership team is expected to respond within 24 hours (this time frame is for each thread)
+- #customer-support-internal: we read EVERY single thread even those that are posted when we are not working within 24 hours of it being posted to stay aligned with our teammates and emoji react accordingly so we all have confirmation we are on the same page.
+- #general: we read every single thread by the end of each week to stay informed of what is happening more broadly across the entire organization.
+- #customer-support-triage: whoever is responsible pays close attention to that channel, as well as the manual triage channels, and actively asks for coverage if needing to be AFK.
+
 ## Expectations
 
 In order to keep the air clear with each other, we do the following:

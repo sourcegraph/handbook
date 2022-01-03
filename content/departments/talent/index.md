@@ -62,9 +62,9 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](tools/resources_for_recruiters.md)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
-  - [Sourcing candidates](
-  - [Partnering with your Sourcer]
-  - [Using external recruiting agencies]
+  - [Sourcing candidates](process/opening_a_new_job.md#sourcing-candidates)
+  - [Partnering with your Sourcer](process/opening_a_new_job.md#partnering-with-your-sourcer)
+  - [Using external recruiting agencies](process/opening_a_new_job.md#using-external-recruiting-agencies)
 - [The interview process](process/interview_process.md)
   - [Interview training & best practices](tools/interview_training.md)
   - [Recruiter screen](process/types_of_interviews.md#recruiter-screen)
