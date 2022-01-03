@@ -11,7 +11,7 @@ To set yourself up for success in this crash course, make sure you've set up the
 1. [Single-container docker instance of Sourcegraph](https://docs.sourcegraph.com/admin/install/docker)
 2. [Docker-compose instance of Sourcegraph on GCP](https://docs.sourcegraph.com/admin/install/docker-compose/google_cloud)
 
-Once your local instance is deployed, create an account, then add a codehost and a few small repos to your instance so there is something to migrate when the time comes. 
+Once your local instance is deployed, create an account, then add a codehost and a few small repos to your instance so there is something to migrate when the time comes.
 
 **_NOTE: For your docker-compose instance on GCP, do not register a new user yet. User information from your single-container instance will be added automatically when we migrate the database later_**.
 
@@ -72,7 +72,7 @@ Once your local instance is deployed, create an account, then add a codehost and
    ```
    gcloud compute scp --project=<name of project> --zone=<project time zone> <files you want to move> <gcp instance>:<location within the gcp instance>
    ```
-   For our purposes, let's say our project name is "my-project", the time zone is "us-central1-a", and our gcp instance is "sourcegraph-dc-instance". If we want to move our local database dumps from the local `/tmp` folder to the `/tmp` folder in our remote instance, the command will look like this*:
+   For our purposes, let's say our project name is "my-project", the time zone is "us-central1-a", and our gcp instance is "sourcegraph-dc-instance". If we want to move our local database dumps from the local `/tmp` folder to the `/tmp` folder in our remote instance, the command will look like this\*:
    ```
    gcloud compute scp --project="my-project" --zone="us-central1-a" /tmp/*_db.out sourcegraph-dc-instance:/tmp/
    ```
@@ -84,7 +84,7 @@ Once your local instance is deployed, create an account, then add a codehost and
    codeintel_db.out                                          100%  101KB 752.5KB/s   00:00
    sourcegraph_db.out                                        100%  313KB   2.9MB/s   00:00
    ```
-   ***_NOTE: the `*_db.out` marker will indicate that all files ending in_** `_db.out` **_should be moved._**
+   **_\_NOTE: the `__db.out` marker will indicate that all files ending in_** `_db.out` **_should be moved._**
 5. Make sure the files really did copy by navigating to the `/tmp` file in your gcp instance and finding the files. You can also use `grep` to search familiar repos to be sure. If you see them, congrats! You've completed the trickiest step in this process.
 6. SSH into your gcp instance. Copy the dumps from the `/tmp` folder into the `/tmp` folder in the `pgsql` and `codeintel-db` containers using the docker specific `docker cp` command, respectively:
    ```
