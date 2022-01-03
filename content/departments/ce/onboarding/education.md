@@ -15,7 +15,6 @@ This page (WIP) provides new and existing CEs alike with important training, dem
   - [Sourcegraph Architecture Overview](https://www.youtube.com/watch?v=LiBtt1IeqFY) (YouTube)
   - [Sourcegraph repo tour](https://www.youtube.com/watch?v=3OewJAaX4KI) (YouTube)
 
-
 ## Product-Centric Topics
 
 - [Creating and maintaining license keys for customers](../process/license_keys.md)
