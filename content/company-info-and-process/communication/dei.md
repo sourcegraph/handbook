@@ -8,7 +8,7 @@
 
 ---
 
-Sourcegraph’s first steps towards creating a diverse team came with the decision to work remotely, and engage the right talent regardless of the country, city and timezone they were located in. Besides allowing us access to talent across the globe, this decision enabled us to engage talent who are otherwise unable or unwilling to spend each day in an office, such as talent who take care of dependents at home, may not have access to transport, or have physical restrictions that making commuting difficult.
+Sourcegraph’s first steps towards creating a diverse team came with the decision to work remotely, and engage the right talent regardless of the country, city and timezone they were located in. Besides allowing us access to talent across the globe, this decision enabled us to engage talent who are otherwise unable or unwilling to spend each day in an office, such as talent who take care of dependents at home, may not have access to transport, or have physical restrictions that make commuting difficult.
 
 After deciding to work remotely, we also:
 
@@ -20,17 +20,17 @@ Our initiatives since then have been focused on identifying and acting on the po
 
 Up to and including FY22Q2, we:
 
-- Implemented standardised, benchmarked compensation criteria related to each role
+- Implemented standardized, benchmarked compensation criteria related to each role
 - Implemented screening for our “Be welcoming and inclusive” value throughout the hiring process, with questions asked by recruiters, hiring managers, and teammates: such as asking what candidates have done to ensure their co-workers feel a sense of belonging, how they’ve advocated for someone else, how they’ve contributed to building cultures of inclusivity in their previous workplaces.
 - Trained managers and teammates on how to identify and reduce their own unconscious bias while interviewing
 - Refined our guidelines around paid time off to be inclusive of multiple reasons for PTO: including wellbeing PTO, religious PTO, and life PTO.
 - Asked all teammates to participate in an anonymous survey around what could be improved in our culture and ways of working, allowing all teammates to provide feedback on what could enhance our value of being welcoming and inclusive
-- Identified an independent wellbeing provider that could provide wellbeing support for our teammates via counselling, coaching and external support groups.
+- Identified an independent wellbeing provider that could provide wellbeing support for our teammates via counseling, coaching and external support groups.
 
 For the remainder of FY22, we aim to roll out the following initiatives:
 
-- Job levelling across teams, aimed at ensuring our managers use skill-based criteria to assess each contributor’s level of impact and ensure that teammates are paid fairly for their level of impact
-- Launching Modern Health, our independent wellbeing provider, offering 10 counselling and coaching sessions per year for each of our employees, as well as access to a range of diverse support groups (COVID-19, LQBTQ+, Black Lives Matter, Asian communities, Latinx communities)
+- Job leveling across teams, aimed at ensuring our managers use skill-based criteria to assess each contributor’s level of impact and ensure that teammates are paid fairly for their level of impact
+- Launching Modern Health, our independent wellbeing provider, offering 10 counseling and coaching sessions per year for each of our employees, as well as access to a range of diverse support groups (COVID-19, LQBTQ+, Black Lives Matter, Asian communities, Latinx communities)
 - Building relationships with code schools and organizations focused on helping folks in underserved communities break into tech (as a first step toward later developing an apprenticeship program)
 - Provide detailed guidance to our teammates on how they can create their own internal support groups, how to purpose those support groups, and how to surface and escalate insights and ideas that will positively impact Sourcegraph as a whole.
 
