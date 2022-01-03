@@ -63,7 +63,7 @@ Now that you have your new teammate's email you should:
 - Create recurring 1:1 with new teammate
 - Add new teammate to any team/role specific meetings and calls
 
-You must also make sure to provide documentation and context on on going projects your team is working on.
+You must also make sure to provide documentation and context for ongoing projects your team is working on.
 
 Having this done before day one will make it easier for the new hire and an overall better experience.
 
@@ -101,7 +101,7 @@ The Friday before they start, we will send an email. Here they will have the log
    </td>
   </tr>
   <tr>
-   <td>Checking the checklist before hand, will help keep in mind the content new hires will find there: the information they will be linked to, the tasks they have to complete and how much of the handbook they’ll cover.
+   <td>Reviewing the checklist beforehand, will help keep in mind the content new hires will find there: the information they will be linked to, the tasks they have to complete and how much of the handbook they’ll cover.
    </td>
    <td>Hiring Manager</td>
   </tr>
