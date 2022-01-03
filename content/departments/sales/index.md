@@ -37,6 +37,7 @@ Not all team members are reflected here yet. If you see yourself missing, please
 - Amber Smokowski (Executive Business Partner, Sales and Marketing)
 - [Dudley Nostrand](../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
   - [Trey Sizemore](../../team/index.md#trey-sizemore) (Sales Enablement Manager)
+  - [Rob Dapaah](../../team/index.md#rob-dapaah) (Sr. Advisor, Value Engineering)
 - [Scott Campbell](../../team/index.md#scott-campbell) (Regional Director of East)
   - [Kai Passo](../../team/index.md#kai-passo)
   - [Bill Kolman](../../team/index.md#bill-kolman)

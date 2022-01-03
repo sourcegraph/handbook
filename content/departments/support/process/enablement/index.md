@@ -8,10 +8,10 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 
 | Competency                      | Crash course                                                                                                    | Hands-on |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------- |
-| CodeIntel                       | Go here                                                                                                         |          |
+| Code Intel                      | [Go here](https://docs.google.com/presentation/d/1DpKx6lW6kFwOv9BJVS9u69cA93EHiXMmzeSVbA1xzgE/edit?usp=sharing) |          |
 | Code insights                   | Go here                                                                                                         |          |
 | Docker/docker-compose deploy    | Go here                                                                                                         |          |
-| Docker/docker-compose migration | Go here                                                                                                         |          |
+| Docker/docker-compose migration | [Go Here](docker-compose-migrations.md)                                                                         |          |
 | GraphQL                         | [Go here](https://docs.google.com/presentation/d/1qgid2A0D0ycNidRfzsl2YrmjKTPiG_W8HPoECdgXwLE/edit?usp=sharing) |          |
 | Kubernetes deploy               | Go here                                                                                                         |          |
 | Kubernetes migration            | [Go here](k8-migration.md)                                                                                      |          |
