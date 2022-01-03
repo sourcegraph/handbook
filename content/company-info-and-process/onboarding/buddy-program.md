@@ -12,7 +12,7 @@ An onboarding buddy is essentially a new teammate’s first friend– someone to
 
 **Proactive:** check-in and see how they’re doing, if they need help with anything.
 
-**Compassionate:** remember what it was like to be new and tries to help ease that transition.
+**Compassionate:** remember what it was like to be new and try to help ease that transition.
 
 **Helpful:** shows them the ropes of the organization and gives them tips on navigating it.
 
