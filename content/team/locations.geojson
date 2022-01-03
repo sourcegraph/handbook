@@ -1394,5 +1394,20 @@
         ]
       }
     }
+    
+    {
+    "type": "Feature",
+    "properties": {
+        "name": "Rob Dapaah"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            <-73.212680>,
+            <40.818130>
+        ]
+    }
+}
+    
   ]
 }
