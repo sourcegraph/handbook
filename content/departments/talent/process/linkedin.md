@@ -41,6 +41,8 @@ Only candidates we decide to engage will be added into Greenhouse.
 
 ## LinkedIn posting best practices
 
+We recommend quickly reading this [2021 LinkedIn Algorithm Information](https://www.linkedin.com/posts/richardvanderblom_linkedin-algorithm-report-edition-2021-activity-6848141573990051840-spu1/) to understand recent best practices!
+
 Instead of resharing a post, it is much better to copy and paste the entire post and then give the author credit by tagging them.
 
 Avoid including links directly in your posts. Anything that takes the user away from LinkedIn is discouraged... so instead, add the link as a comment.
