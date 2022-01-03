@@ -132,14 +132,3 @@ To stay aligned as an organization on Monday we share our priorities for the wee
 - Any challenges or risks to call out?
 
 On Thursday we meet as a leadership team via zoom to have real time conversation. We cover one fun question, leadership updates, and hot topics. This time gives us space to catch up on topics that are better discussed live and drive to quick decisions. If we do not have a large enough cohort we will run the meeting async.
-
-### Health reports
-
-The engineering managers are responsible for compiling a weekly health report ([see example](https://docs.google.com/spreadsheets/d/1PnRPydNYLF2Als3KpVuIYO8dXeqckp_sbowVkvkdkeE/edit)) for their team.
-
-The report is a confidential update between the Director and the Engineering Managers and serves the following purpose:
-
-1. Updates the Director on how things are going at a high level in the team
-1. Identifies areas of concern that could lead to proactive intervention to mitigate concerns
-
-The report is not used for judging the team's performance or the manager, and its intention is solely to inform and trigger dialogue. Managers are not expected to provide exhaustive notes but rather a high-level summary.
