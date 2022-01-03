@@ -1,6 +1,6 @@
 # Recruitment Branding
 
-Join us in sharing about [Life at Sourcegraph](https://www.linkedin.com/company/sourcegraph/life/lifeatsourcegraph/?viewAsMember=true)! An important part of finding top notch talent is leveraging our individual networks and sharing about Sourcegraph's [Culture](../tools/resources_for_candidates.md#sourcegraphs-culture) and [Values](../../../company-info-and-process/values.md).
+Join us in sharing about [Life at Sourcegraph](https://www.linkedin.com/company/sourcegraph/life/lifeatsourcegraph/?viewAsMember=true)! An important part of finding top notch talent is leveraging our individual networks and sharing about Sourcegraph's [Culture](../tools/resources_for_candidates.md#sourcegraphs-culture) and [Values](../../../company-info-and-process/values/index.md).
 This page outlines important tips and information for telling the story of what it's like to [work at Sourcegraph](../tools/resources_for_candidates.md#working-at-sourcegraph).
 
 ## Social Media
