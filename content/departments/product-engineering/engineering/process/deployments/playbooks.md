@@ -7,7 +7,7 @@
   - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
   - [Deploying to sourcegraph.com during 2021-08-19 code freeze](#deploying-to-sourcegraphcom-during-2021-08-19-code-freeze)
   - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
-  - [Disabling Renovate on sourcegraph.com](c)
+  - [Disabling Renovate on sourcegraph.com](#disable-renovate)
   - [Backing up & restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
   - [Invalidating all user sessions](#invalidating-all-user-sessions)
   - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
@@ -79,7 +79,7 @@ To roll back soucegraph.com, push a new commit to the `release` branch in [deplo
 
 Important: please ensure support from either [CloudDevops](../../cloud/devops/index.md) or [CloudSaaS](../../cloud/saas/index.md), as `release` branch in `sourcegraph-deploy-cloud` is protected from merges without approval.
 
-1. [Disable Renovate](#rolling-back-sourcegraphcom) to ensure your rollback will not be ovewritten by new images.
+1. [Disable Renovate](#disable-renovate) to ensure your rollback will not be ovewritten by new images.
 
 2. Perform rollback via `git` commands:
 
