@@ -72,4 +72,4 @@ We want to make sure our job postings reach a wide audience and that we're posti
 
 ## Reminders
 
-[How to make a referral](process.md#sts=Making%20a%20referral)
+[How to make a referral](index.md#making-a-referral)
