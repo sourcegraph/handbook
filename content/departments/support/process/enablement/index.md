@@ -39,6 +39,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [Determining root cause](root-cause.md)
 
 ## Videos
+
 - [Sourcegraph Codebase Tour](https://www.youtube.com/watch?v=3OewJAaX4KI)
 - [High level overview created with CS in mind](https://drive.google.com/file/d/1Veat9m5gb8O0fL37b-lD5rl5fKToTmb6/view?usp=sharing) ([_timestamps_](high-level-overview-index.md))
 - [Intro to Jaeger & Tracing](https://drive.google.com/file/d/17mnCqJWJ1C855hl73hV1Y5S-1EOzusgX/view?usp=sharing)
