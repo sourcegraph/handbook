@@ -20,6 +20,7 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
     - Open
   - EMEA SDRs
     - [Jagna Feierabend](../../../team/index.md#jagna-feierabend)
+    - [Ashwin Thakur](../../../team/index.md#ashwin-thakur)
     - Open
   - APAC SDRs
     - Open
