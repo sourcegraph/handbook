@@ -40,7 +40,7 @@ Then, make sure to leave the feedback you have from the experience in the post-h
 
 Don't let the remote nature mislead you – there are still a significant number of tasks that a facilitator(s) should execute in order to create a smooth experience. Folks acting as facilitators should take the amount of planning/facilitation work they want to handle into account when choosing their own hackathon projects so they don't overwhelm themselves.
 
-The facilitator(s) should be mindful that pre-planning and proactively sharing all aspects of the hackathon in advance is important for a successful remote hackathon due to the different timezones of participants – facilitating a remote hackathon well is a task that starts days or weeks in advance of the actual hackathon.
+The facilitator(s) should be mindful that pre-planning and proactively sharing all aspects of the hackathon in advance is important for a successful remote hackathon due to the different time zones of participants – facilitating a remote hackathon well is a task that starts days or weeks in advance of the actual hackathon.
 
 ### Align on and communicate any themes
 
@@ -64,7 +64,7 @@ Depending on the size and duration of the hackathon, we recommend having at leas
 
 #### Kickoff
 
-With a synchronous kickoff, you can have folks give high-energy motivating speeches, share pieces of Sourcegraph history related to hackathons at Sourcegraph, or do any creative/icebreaking activities you'd like (see [Hackathon spirit](#hackathon-spirit)).
+With a synchronous kickoff, you can have folks give high-energy motivational speeches, share pieces of Sourcegraph history related to hackathons at Sourcegraph, or do any creative/icebreaking activities you'd like (see [Hackathon spirit](#hackathon-spirit)).
 
 #### Share / demo event
 
@@ -74,7 +74,7 @@ Whether demos are recorded or live, good topics to have participants cover in th
 
 - Who worked on the project?
 - What was made?
-- Why/How someone would use/interact/benefit from your project?
+- Why/How would someone use/interact/benefit from your project?
 - What's one thing (any kind/topic!) you learned making it?
 - Why did you choose this problem, of all possible projects?
 - What excites you about this project?
