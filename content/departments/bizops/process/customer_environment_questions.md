@@ -11,7 +11,7 @@ The questionnaire resides in Google Drive [here](https://docs.google.com/forms/d
 
 The [form](https://docs.google.com/forms/d/1GXDrbVTnKf9rbaY-0tYSy3BsufKXfQZJf7GbxLl1KKA/edit?usp=sharing)
 is for internal use only. A Sourcegraph employee must fill it out. It is not
-required that the entire form be completed everytime we have a customer interaction
+required that the entire form be completed every time we have a customer interaction
 but rather to provide a baseline knowledge of any considerations that need to be
 made when interacting with a customer. To make this form more discoverable, a
 link to it is included in the [customer issue template](https://github.com/sourcegraph/customer/blob/master/.github/ISSUE_TEMPLATE/customer-issue.md).

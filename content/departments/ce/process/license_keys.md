@@ -12,7 +12,7 @@ For a new trial, create a _new_ subscription. You will only use this for the tri
 
 When the customer converts, create a _new_ subscription; do not reuse the trial subscription. (Follow the instructions below from start to finish.) This is to ensure data accuracy for the Sales Ops team.
 
-If an existing company or customer needs a new license key for any reason (e.g., they purchase more seats, they upgrade product tiers, or they simply renew), add a new license key to the _existing_ subscription. In that circumstnace, do not click **Create a product subscription**; find the existing subscription on that page and then once viewing it, click **Generate new license manually**.
+If an existing company or customer needs a new license key for any reason (e.g., they purchase more seats, they upgrade product tiers, or they simply renew), add a new license key to the _existing_ subscription. In that circumstance, do not click **Create a product subscription**; find the existing subscription on that page and then once viewing it, click **Generate new license manually**.
 
 Visit the **Site-admin > Subscriptions** page, find the existing subscription, click into it, and follow the steps below (from the "Click **Generate new license manually**" step onwards).
 
@@ -83,4 +83,14 @@ query{
 }
 ```
 
-That should return their username, email(s) and whether the email address is verifed.
+That should return their username, email(s) and whether the email address is verified.
+
+## Reporting an issue with the license key management system or feature gating
+
+If you notice a problem with the license key management system, or with feature gating, please submit it as a [product gap](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders)
+
+This includes:
+
+- usability issue with the key management system
+- features not being gated as advertised in [pricing](https://about.sourcegraph.com/pricing/)
+- user caps not being enforced
