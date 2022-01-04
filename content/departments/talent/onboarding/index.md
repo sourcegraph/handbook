@@ -19,6 +19,16 @@ Each new Talent team member is paired with two individuals during their onboardi
 - An [onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md): your onboarding buddy is assigned as part of our company-wide onboarding program. For the Talent team, this will be a peer from an adjacent team with whom you'll work closely.
 - An onboarding mentor: your onboarding mentor will be someone from the Talent team with whom you'll have regular check-ins and will be there to help guide you.
 
+### Helpful links & resources
+- Learning the product
+  - COMING SOON
+- Learning the pitch 
+  - COMING SOON
+- Learning how to use our tools 
+  - COMING SOON
+- Learning how to extend an offer 
+  - COMING SOON 
+  
 ## High-level Onboarding Overview
 
 Below are the goals and expectations for each week of your onboarding.
