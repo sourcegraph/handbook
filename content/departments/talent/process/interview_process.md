@@ -5,6 +5,7 @@ This page includes all information a Talent Team member, Hiring Manager, or Team
 ## The interview lifecycle
 
 - [How to open a new job](./opening_a_new_job.md)
+- [Identifying candidates](identifying_candidates.md)
 - **You are here:** the interview process
 - [How to extend an offer ](./extending_an_offer.md)
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)
