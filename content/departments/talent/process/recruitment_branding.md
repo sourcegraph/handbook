@@ -9,11 +9,13 @@ We post about hiring initiatives and Sourcegraph culture content on our company 
 
 ### Posting Best Practices
 
+Below is information to reference when posting about Sourcegraph on your personal social platforms. Thank you for helping us attract and hire the best talent!
+
 Linked In
 
 - Use this [2021 LinkedIn Algorithm Information](https://www.linkedin.com/posts/richardvanderblom_linkedin-algorithm-report-edition-2021-activity-6848141573990051840-spu1/) and our [Guide to Using LinkedIn Recruiter](linkedin.md#guide-to-using-linkedin-recruiter) to understand recent best practices for sharing hiring initiatives on your LinkedIn Profile.
 - If you're looking for Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
-- Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. Thank you for helping us attract and hire the best talent!
+- Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. 
 - [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
 
 Twitter
