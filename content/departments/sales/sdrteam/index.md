@@ -13,11 +13,11 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
   - East Outbound SDRs
     - [Sam Cregg](../../../team/index.md#sam-cregg)
     - [Ellie Dawson](../../../team/index.md#ellie-dawson)
-    - [Daniel Gwyn]
+    - Open
     - Open
   - Inbound SDRs
     - [Mark "Markie" Muldez](../../../team/index.md#mark-markie-muldez)
-    - Open
+    - [Daniel Gwyn](../../../team/index.md#daniel-gwyn)
   - EMEA SDRs
     - [Jagna Feierabend](../../../team/index.md#jagna-feierabend)
     - [Ashwin Thakur](../../../team/index.md#ashwin-thakur)
