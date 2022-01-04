@@ -60,7 +60,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 
 - [Recruiter onboarding resources](onboarding/index.md)
 - [Opening a new job](process/opening_a_new_job.md)
-  - [Kicking off a new search](tools/resources_for_recruiters.md)
+  - [Kicking off a new search](process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
   - [Sourcing candidates](process/opening_a_new_job.md#sourcing-candidates)
   - [Partnering with your Sourcer](process/opening_a_new_job.md#partnering-with-your-sourcer)
@@ -86,7 +86,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
   - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
-- [Recruitment branding](process/job_boards.md)
+- [Recruitment branding](process/recruitment_branding.md)
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 - [Using external recruiting agencies](process/opening_a_new_job.md#using-external-recruiting-agencies)
