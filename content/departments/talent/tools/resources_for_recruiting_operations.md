@@ -146,12 +146,6 @@ Recruiting Operations Specialists follow the steps below to send weekly candidat
 
 ### Recruitment Branding
 
-- Working alongside Marketing to manage recruitment branding strategies for the following job boards:
-  - [Blind](https://www.teamblind.com/company/Sourcegraph/news)
-  - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
-  - [LinkedIn](https://www.linkedin.com/company/sourcegraph)
-  - Great Place to Work
-  - [AngelList](https://angel.co/company/sourcegraph)
-  - Hacker News
-  - Women Who Code
-    - Please see the full list of job boards where we post our open positions [here](../process/job_boards.md)!
+Working alongside Marketing to manage recruitment branding strategies on job boards and social media.
+
+Details can be found [here](../process/job_boards.md)
