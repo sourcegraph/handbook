@@ -59,8 +59,8 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 ### Creating Issues
 
 - Anyone can [create an issue in the repos](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) we work in:
-  - [Sourcegraph/About](https://github.com/sourcegraph/about/labels/blog) 
-   - Includes marketing site, blog, docs
+  - [Sourcegraph/About](https://github.com/sourcegraph/about/labels/blog)
+  - Includes marketing site, blog, docs
   - [Sourcegraph/Handbook](https://github.com/sourcegraph/handbook)
   - [Sourcegraph/Learn](https://github.com/sourcegraph/learn)
   - Note: After issues are created, they must be added to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1) to be prioritized
@@ -130,7 +130,7 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 - Marketing will continue to track work in Asana, while the Content Platform team is tracking work in Github. Details of how this will work:
   - Fabiana is responsible for keeping Asana up to date.
   - Mary is responsible for keeping Github up to date.
-  - We are using a [Github + Asana integration](https://asana.com/apps/github) to link Github PRs in Asana 
+  - We are using a [Github + Asana integration](https://asana.com/apps/github) to link Github PRs in Asana
   - Content Platform Team provides updates to their work in Github, including but no limited to:
     - QA links
     - Questions for stakeholders
