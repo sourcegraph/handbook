@@ -15,8 +15,9 @@ As a company, we use [Process.st](https://app.process.st/reports/) to guide each
 ### Onboarding Support
 
 Each new Talent team member is paired with two individuals during their onboarding time. Both of these assignments will be indicated in your Process.st checklist.
-- An [onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md): your onboarding buddy is assigned as part of our company-wide onboarding program. For the Talent team, this will be a peer from an adjacent team with whom you'll work closely. 
-- An onboarding mentor: your onboarding mentor will be someone from the Talent team with whom you'll have regular check-ins and will be there to help guide you. 
+
+- An [onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md): your onboarding buddy is assigned as part of our company-wide onboarding program. For the Talent team, this will be a peer from an adjacent team with whom you'll work closely.
+- An onboarding mentor: your onboarding mentor will be someone from the Talent team with whom you'll have regular check-ins and will be there to help guide you.
 
 ## High-level Onboarding Overview
 
@@ -34,9 +35,9 @@ Below are the goals and expectations for each week of your onboarding.
 - Continue orienting yourself to the company: all the different teams, our internal tooling and how we use it
 - Learn about the product
   - Learn how we pitch Sourcegraph to candidates
-  - MORE COMING SOON 
-- Listen to assigned Brighthire recordings 
-- Beginning week 2, you'll look to lead your first Recruiter Screen, with your onboarding mentor there to support you. 
+  - MORE COMING SOON
+- Listen to assigned Brighthire recordings
+- Beginning week 2, you'll look to lead your first Recruiter Screen, with your onboarding mentor there to support you.
 
 ### Week 3 Goals:
 
@@ -95,7 +96,7 @@ We want every CE to feel certain and comfortable with where they are at currentl
 
 - COMING SOON
 
-### Senior Recruiter (level 4) 
+### Senior Recruiter (level 4)
 
 #### First 30 days:
 
@@ -122,5 +123,3 @@ We want every CE to feel certain and comfortable with where they are at currentl
 #### 60 - 90 days:
 
 - COMING SOON
-
-
