@@ -67,6 +67,7 @@ For more information about code insights, see the original [product document](ht
 ## Contact
 
 - #code-insights channel or @codeinsights in Slack.
+- @code-insights-support to ping the engineer on weekly support rotation.
 - [team/code-insights](https://github.com/sourcegraph/sourcegraph/issues/new?labels=team/code-insights) label on GitHub.
 - @sourcegraph/code-insights team on GitHub. We also have two specific GitHub groups to reduce notification spam from pull requests:
   - @sourcegraph/code-insights-frontend for only the frontend engineers on the team
@@ -74,6 +75,8 @@ For more information about code insights, see the original [product document](ht
 - [Code Insights Events](https://calendar.google.com/calendar/u/0?cid=Y19kOWFyMHUzZ3BpbnVpNjRiMDRpNjc3bm1qY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
   - _Teammates should add this calendar (calendar ID `c_d9ar0u3gpinui64b04i677nmjc@group.calendar.google.com`) as an additional calendar in the [Roots PTO Slack app](../../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) so that their PTO is visible to their team on the team calendar (and disable adding their manager directly to the calendar invite)._
 - code-insights-team@sourcegraph.com Google group for mentioning in Google Docs and calendar invites.
+- #code-insights-internal for team (non-product) related discussion
+- #code-insights-eng for higher bandwith communication typically amongst the engineering team / PM. This channel is separated out of #code-insights since this discussion can get quite noisy for the casual observer of #code-insights.
 
 ## Useful browser bookmarks ⭐️
 
