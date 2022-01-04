@@ -20,15 +20,16 @@ Each new Talent team member is paired with two individuals during their onboardi
 - An onboarding mentor: your onboarding mentor will be someone from the Talent team with whom you'll have regular check-ins and will be there to help guide you.
 
 ### Helpful links & resources
+
 - Learning the product
   - COMING SOON
-- Learning the pitch 
+- Learning the pitch
   - COMING SOON
-- Learning how to use our tools 
+- Learning how to use our tools
   - COMING SOON
-- Learning how to extend an offer 
-  - COMING SOON 
-  
+- Learning how to extend an offer
+  - COMING SOON
+
 ## High-level Onboarding Overview
 
 Below are the goals and expectations for each week of your onboarding.
