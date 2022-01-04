@@ -45,7 +45,7 @@ The folder to store agency contracts can be found [here](https://drive.google.co
 
 ## Open positions
 
-The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91). For job boards that we post to and are considering, [click here](job_boards.md)
+The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91). For job boards that we post to and are considering, [click here](recruitment_branding.md)
 
 ## Job descriptions
 
