@@ -14,7 +14,6 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
                 document.querySelector<HTMLInputElement>('.search-input')!.focus()
             }
         })
-
     }, [])
 
     return (
