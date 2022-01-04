@@ -1,8 +1,16 @@
 # Identifying candidates
 
+## The interview lifecycle
+
+- [How to open a new job](./opening_a_new_job.md)
+- **You are here:** Identifying candidates
+- [The interview process](interview_process.md)
+- [How to extend an offer ](./extending_an_offer.md)
+- [How to onboard a new hire after offer acceptance](./after_the_offer.md)
+
 ## Where we find our candidates
 
-We identify candidates via a variety of channels:
+We identify candidates using a variety of channels:
 
 - Inbound applicants from our postings
   - Our [website](https://about.sourcegraph.com/jobs/)
