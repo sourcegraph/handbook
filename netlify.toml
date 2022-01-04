@@ -20,4 +20,4 @@ external_node_modules = ["@ampproject/toolbox-optimizer"]
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "script-src 'self' *.usefathom.com *.googletagmanager.com *.google-analytics.com *.netlify.com *.netlify.app *.swiftypecdn.com plausible.io 'sha256-JcUwlbcTNdtwp5Szxufx3JIsjsem70t6DXyfcgTcAnQ=' 'sha256-MEya+PLw9XU1WNgiMij94hmgncY4GS+aQhjC2zqaAz4=' 'sha256-ETVmFY/pVNIiyKhDh3yPNf+mlhV1Z32Ax232eJ+ES7o='; font-src 'self' fonts.gstatic.com; frame-ancestors 'none'"
+    Content-Security-Policy = "script-src 'self' *.usefathom.com *.googletagmanager.com *.google-analytics.com *.netlify.com *.netlify.app *.swiftypecdn.com *.segment.com plausible.io 'sha256-JcUwlbcTNdtwp5Szxufx3JIsjsem70t6DXyfcgTcAnQ=' 'sha256-MEya+PLw9XU1WNgiMij94hmgncY4GS+aQhjC2zqaAz4=' 'sha256-ETVmFY/pVNIiyKhDh3yPNf+mlhV1Z32Ax232eJ+ES7o='; font-src 'self' fonts.gstatic.com; frame-ancestors 'none'"
