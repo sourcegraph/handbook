@@ -2,7 +2,7 @@
 
 This page (WIP) is dedicated to how we think about recruiting talent, assessing performance and development, and promoting and advancing individuals.
 
-The CE team is a single globally distributed team. There are 6 levels within the organization that comprise of Customer Engineers, Senior Customer Engineers, Principal Customer Engineers, and Senior Principal Customer Engineers.
+The CE team is a single globally distributed team. There are 6 levels within the organization that are comprised of Customer Engineers, Senior Customer Engineers, Principal Customer Engineers, and Senior Principal Customer Engineers.
 
 ## Core Competencies
 
