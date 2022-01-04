@@ -21,7 +21,7 @@ Both of these add-ons allow us to define the data we pull from our GA and Salesf
 
 ### Connecting the sheet to BigQuery
 
-Once the data we want is populated into a Google sheet, we can use it create a new table in BigQuery. In BigQuery, select the dataset you want to add the table to. For example, we have a dataset called `google_analytics` that contains our GA data.
+Once the data we want is populated into a Google sheet, we can use it to create a new table in BigQuery. In BigQuery, select the dataset you want to add the table to. For example, we have a dataset called `google_analytics` that contains our GA data.
 
 Then, click _Create Table_. In the configuration section, in the dropdown next to _Create table from_, select _Drive_, and _Google Sheets_ as the file format. Then, copy and paste the Google Sheet URL containing your data into the URL field. BigQuery may be able to autodetect the schema, but if not, you will have to add each column name manually. You’ll also need to specify the number of header rows to skip to ensure your headers don’t get included as data. Then, create a table.
 
